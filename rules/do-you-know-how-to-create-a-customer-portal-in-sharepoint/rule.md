@@ -24,8 +24,13 @@ authors:
 <ul>
 <li><font size="2">Go to the root where you want to create a site, i.e sharepoint.ssw.com.au</font> 
 <li><font size="2">Click &quot;Site Actions&quot; on right hand top, select &quot;Manage Content and Structure</font> </li></ul>
+<dl class="goodImage">
+<dt>
 <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
+<dt>
+<dd>Figure&#58; Manage Content and Structure to view site collection </dd></dl>
 <ul>
-<li></li></ul>
+<li><font size="2">New window will open, on the left hand side, click on the dropdown of the clients and select New-&gt;Site. </font><font size="2"><font color="#ff0000">NOTE&#58;</font> If you don’t see this option, that means you don’t have permission to create site, talk to John or Joe to grant you appropriate permission. </font></li></ul>
+<p>&#160;</p>
 
 
