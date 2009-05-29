@@ -48,12 +48,12 @@ authors:
 <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
 <dt>
 <dd>Figure&#58; Fill in the appropriate info then &quot;Create&quot;</dd></dl>
-<p>Next step is to setup the groups and permissions. <br>Note&#58; you can also access this through the &quot;People and Group&quot; option??????.&#160;</p>
+<p>Next step is to setup the groups and permissions. <br>Note&#58; you can also access this through the &quot;People and Group&quot; option on &quot;Site Action&quot; link on right hand top of the page.&#160;</p>
 <dl class="goodImage">
 <dt>
 <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
 <dt>
-<dd>Figure&#58; Create a 'new group' or select an 'existing group' ?????? for the newly created site.</dd></dl>
+<dd>Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site.</dd></dl>
 <ul>
 <li>Permissions&#58; After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority.</li></ul>
 <ol>
@@ -63,7 +63,7 @@ authors:
 <dt>
 <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep3.jpg" /></p>
 <dt>
-<dd>Figure&#58; <span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Create a 'new group' for the site?????.</span></dd></dl>
+<dd>Figure&#58; <span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Create a 'new group' for the created site.</span></dd></dl>
 <li>Give appropriate permissions to this group.</li></ol>
 <dl class="goodImage">
 <dt>
@@ -77,6 +77,6 @@ authors:
 <dt>
 <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Group explained" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/AdditionalInfo.jpg" /></p>
 <dt>
-<dd>Figure&#58; Groups explained ???? REMOVE UNDERLINE</dd></dl>
+<dd>Figure&#58; Groups explained 'Keep in mind while assigning permissions'</dd></dl>
 
 
