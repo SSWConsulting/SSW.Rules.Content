@@ -48,35 +48,30 @@ authors:
 <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
 <dt>
 <dd>Figure&#58; Fill in the appropriate info then &quot;Create&quot;</dd></dl>
-<p>Next step is to setup the groups and permissions. <br>Note&#58; you can also access this through the &quot;People and Group&quot; option on &quot;Site Action&quot; link on right hand top of the page.&#160;</p>
+<p>Next step is to setup the groups and permissions. <br></p>
 <dl class="goodImage">
 <dt>
 <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
 <dt>
 <dd>Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site.</dd></dl>
 <ul>
-<li>Permissions&#58; After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority.</li></ul>
+<li>Permissions&#58; After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority. By default,</li></ul>
 <ol>
-<li>On the root of the current client site, Go to Site Action - People and Groups for the client project.</li>
-<li>Create a group for visitors, New - New Group.</li>
-<dl class="goodImage">
-<dt>
-<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep3.jpg" /></p>
-<dt>
-<dd>Figure&#58; <span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Create a 'new group' for the created site.</span></dd></dl>
-<li>Give appropriate permissions to this group.</li></ol>
-<dl class="goodImage">
-<dt>
-<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Appropriate Permission" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep4.jpg" /></p>
-<dt>
-<dd>Figure&#58; Assign an appropriate permission to the created groups.</dd></dl>
+<li><strong>Visitors to the site - Read &#58; </strong></li>
 <ul>
-<li>&#160;Thats it all done.</li>
-<li>Just keep following in mind while assigning permissions.</li></ul>
-<dl class="goodImage">
-<dt>
-<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Group explained" src="/Standards/CodeAndApplicationDesign/RulesToBeterSharePoint/PublishingImages/AdditionalInfo.jpg" /></p>
-<dt>
-<dd>Figure&#58; Groups explained 'Keep in mind while assigning permissions'</dd></dl>
+<li>Visitors get to read most of the site.</li>
+<li>They can't read team discussions.</li>
+<li>They can download from release files document library.</li>
+<li>They can sychronize their calender to the team calendar in SharePoint.</li>
+<li>They can upload to client uploads document library.</li></ul>
+<li><strong>Members of this Site - Contribute&#58;</strong></li>
+<ul>
+<li>Can view, add, update and delete.</li></ul>
+<li><strong>Owners of this Site - Full Control&#58;</strong></li>
+<ul>
+<li>Has a full control.</li></ul></ol>
+<p>In this case, we are using 'create a new group' option.</p>
+<p>Note&#58; you can also access this through the &quot;People and Group&quot; option on &quot;Site Action&quot; link on right hand top of the page, if you need to manage permission in future.</p>
+<p>Click ok, and that's it all done.</p>
 
 
