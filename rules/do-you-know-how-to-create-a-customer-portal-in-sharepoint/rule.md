@@ -74,7 +74,12 @@ authors:
 <li>Has a full control.</li></ul></ol>
 <p>In this case, we are using 'create a new group' option because we want this group to be able to access only for this perticular site&#160; - It is a good practice to create a new group for every site you create, because it will be easier to add or delete users in the group for that specific site.</p>
 <p>Note&#58; you can also access this through the &quot;People and Group&quot; option on &quot;Site Action&quot; link on right hand top of the page, if you need to manage permission in future.</p>
-<p>Click &quot;OK&quot;, and the portal is created.<br><br><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /><br>XXXXXXX&#160;&#160; Figure&#58; Give link to the snorthwind one</p>
+<p>Click &quot;OK&quot;, and the portal is created.<br><br>
+<dl class="goodImage">
+<dt>
+<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p></dt>
+<dt>
+<dd>XXXXXXX&#160;&#160; Figure&#58; Give link to the snorthwind one.</dd></dl>
 <p>Now sent the email to the customer with the URL, login and password.&#160; XXXXXX</p>
 
 
