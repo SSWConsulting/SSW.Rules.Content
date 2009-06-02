@@ -80,5 +80,6 @@ authors:
 <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p></dt>
 <dt>
 <dd>Figure&#58; <a href="/Clients/Northwind/default.aspx">View Northwind portal.</a></dd></dl>
+<p>Now send the email to the customer with the&#160;URL, login and password.&#160;<strong></strong></p>
 
 
