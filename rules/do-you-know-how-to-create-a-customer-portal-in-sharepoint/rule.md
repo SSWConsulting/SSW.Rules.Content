@@ -65,7 +65,7 @@ authors:
 <li>Visitors need to read most of the site. </li>
 <li>They can't read team discussions (not used)</li>
 <li>They can download from 'release files' document library.</li>
-<li>They can sychronize their calender to the team calendar in SharePoint (not used - one day it should read from CRM)</li></ul>
+<li>They can <span style="font-family&#58;'verdana','sans-serif';color&#58;#555555;font-size&#58;9pt;">synchronize their calendar </span>to the team calendar in SharePoint (not used - one day it should read from CRM)</li></ul>
 <li><strong>Members of this Site - Contribute&#58;</strong></li>
 <ul>
 <li>Can view, add, update and delete.</li></ul>
@@ -80,6 +80,5 @@ authors:
 <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p></dt>
 <dt>
 <dd>Figure&#58; <a href="/Clients/Northwind/default.aspx">View Northwind portal.</a></dd></dl>
-<p>Now sent the email to the customer with the URL, login and password.&#160; XXXXXX</p>
 
 
