@@ -27,19 +27,19 @@ authors:
 <li><font size="2">Click &quot;Site Actions&quot; on right hand top, select &quot;Manage Content and Structure</font> </li></ol>
 <dl class="goodImage">
 <dt>
-<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
+<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
 <dt>
 <dd>Figure&#58; The first step to creating a 'Customer Portal' is to select 'Manage Content and Structure' to view site collection </dd></dl>
 <p><font size="2">Once the new window opens, on the left hand side, click on the 'Clients' dropdown select New-&gt; Site. <br></font><font size="2"><font color="#400040">Note&#58; If you </font>don’t see this option, that means you don’t have permission to create site.</font></p>
 <dl class="goodImage">
 <dt>
-<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
+<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
 <dt>
 <dd>Figure&#58; Create new site</dd></dl>
 <p>Now follow these steps when the new window opens fill in the fields below.</p>
 <dl class="goodImage">
 <dt>
-<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
+<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
 <dt>
 <dd>Figure&#58; Fill in the appropriate info then click &quot;Create&quot;</dd></dl>
 <p>More Information&#58;</p>
@@ -53,7 +53,7 @@ authors:
 <p>Next step is to setup the groups and permissions. </p>
 <dl class="goodImage">
 <dt>
-<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
+<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
 <dt>
 <dd>Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site.</dd></dl>
 <p>More Information&#58;</p>
