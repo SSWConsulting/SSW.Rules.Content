@@ -27,33 +27,33 @@ authors:
 <li><font size="2">Click &quot;Site Actions&quot; on right hand top, select &quot;Manage Content and Structure</font> </li></ol>
 <dl class="goodImage">
 <dt>
-<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
+<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
 <dt>
 <dd>Figure&#58; The first step to creating a 'Customer Portal' is to select 'Manage Content and Structure' to view site collection </dd></dl>
 <p><font size="2">Once the new window opens, on the left hand side, click on the 'Clients' dropdown select New-&gt; Site. <br></font><font size="2"><font color="#400040">Note&#58; If you </font>don’t see this option, that means you don’t have permission to create site.</font></p>
 <dl class="goodImage">
 <dt>
-<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
+<p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
 <dt>
 <dd>Figure&#58; Create new site</dd></dl>
 <p>Now follow these steps when the new window opens fill in the fields below.</p>
 <dl class="goodImage">
 <dt>
-<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
+<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
 <dt>
 <dd>Figure&#58; Fill in the appropriate info then click &quot;Create&quot;</dd></dl>
 <p>More Information&#58;</p>
 <ol>
-<li>Fill in the fields for the new client site <br>eg. <span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Title, Description and URL<br></span></li>
-<li><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Select the template <br>e.g “<b>ClientCollaboration_V1</b>” in the Custom tab.<br></span></span><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Note&#58; Your selection is confirmed in the picture. In this example the template’s description looks like “<b>Site for Collaboration with SSW Clients</b>”.<br></span></span></span></li>
-<li><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Select “<b>Use Unique permissions</b>” as you need to give the client an account to visit.<br></span></span></span></span></li>
-<li><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">In the “<b>Navigation Inheritance</b>” <span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">choose&#160;“<b>No</b>” </span></span></span></span></span>as you don’t need to let client visit the other client sites via the navigation. <br></span></span></span></span></span></li>
-<li><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;12pt;" lang="EN-AU">Click “<strong>Create</strong>” </span></span></span></span></span></span></li></ol>
+<li>Fill in the fields for the new client site <br>eg. Title, Description and URL<br></li>
+<li>Select the template <br>e.g “<b>ClientCollaboration_V1</b>” in the Custom tab.<br>Note&#58; Your selection is confirmed in the picture. In this example the template’s description looks like “<b>Site for Collaboration with SSW Clients</b>”.<br></li>
+<li>Select “<b>Use Unique permissions</b>” as you need to give the client an account to visit.<br></li>
+<li>In the “<b>Navigation Inheritance</b>” choose&#160;“<b>No</b>” as you don’t need to let client visit the other client sites via the navigation. 
+<li>Click “<strong>Create</strong>” </li></ol>
 <p>&#160;</p>
 <p>Next step is to setup the groups and permissions. </p>
 <dl class="goodImage">
 <dt>
-<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
+<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
 <dt>
 <dd>Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site.</dd></dl>
 <p>More Information&#58;</p>
@@ -77,9 +77,9 @@ authors:
 <p>Click &quot;OK&quot;, and the portal is created.<br><br>
 <dl class="goodImage">
 <dt>
-<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/CodeAndApplicationDesign/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p></dt>
+<p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p></dt>
 <dt>
-<dd>Figure&#58; <a href="/Clients/Northwind/default.aspx">View Northwind portal.</a></dd></dl>
+<dd>Figure&#58; <a href="/zzClients/Northwind/default.aspx">View Northwind portal.</a></dd></dl>
 <p>Note&#58; SharePoint will send &quot;welcome email&quot; to all the members of the groups you created&#160;for the site with basic information, but you still need to send email to your customer with the login details like Url, userName and Password.</p>
 
 
