@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is after the meeting or phone call we get busy on the next call. So this is the workflow that should happen&#58;</p>
+<p>Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone, call we get busy on the next call. So this is the workflow that should happen&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol>
 <li>Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal 
