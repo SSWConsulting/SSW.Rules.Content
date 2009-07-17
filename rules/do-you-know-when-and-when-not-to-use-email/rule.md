@@ -15,16 +15,16 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+As all these rules indicate, email can either be a blessing or a curse. One of the most deadly of all the potential curses of email is when people choose to use email when it is just not the right tool for that particular task. Absolutely avoid email in the following situations&#58; 
 <br><excerpt class='endintro'></excerpt><br>
 <table width="20%" align="right">
 <tbody>
 <tr>
-<td><img style="border-right&#58;0px solid;border-top&#58;0px solid;border-left&#58;0px solid;border-bottom&#58;0px solid;" alt="Meta Group Phone Over Email" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MetaGroupPhoneOverEmail.gif" border="0" /> </td></tr>
+<td><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Meta Group Phone Over Email" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MetaGroupPhoneOverEmail.gif" /> </td></tr>
 <tr>
-<td><img style="border-right&#58;0px solid;border-top&#58;0px solid;border-left&#58;0px solid;border-bottom&#58;0px solid;" alt="Meta Group Email Over Phone" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MetaGroupEmailOverPhone.gif" border="0" /> </td></tr>
+<td><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Meta Group Email Over Phone" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MetaGroupEmailOverPhone.gif" /> </td></tr>
 <tr>
-<td><b>Figures&#58; a <img height="17" alt="Icon PDF" src="http&#58;//www.ssw.com.au/ssw/Images/IconPdf.gif" width="16" /> <a href="http&#58;//www.ssw.com.au/ssw/Redirect/SSWUpdate/0304MetagroupUsersPreferEmailPDFReport.htm" target="_blank">Meta Group survey</a> </b><img height="11" alt="You are going to a site outside of SSW" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" width="17" /><b> found that 81% of respondents preferred the phone above email to build relationships, but 80% preferred email generally</b> </td></tr></tbody></table>
+<td><b>Figures&#58; a <img alt="Icon PDF" src="http&#58;//www.ssw.com.au/ssw/Images/IconPdf.gif" width="16" height="17" /> <a href="http&#58;//www.ssw.com.au/ssw/Redirect/SSWUpdate/0304MetagroupUsersPreferEmailPDFReport.htm" target="_blank">Meta Group survey</a> </b><img alt="You are going to a site outside of SSW" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" width="17" height="11" /><b> found that 81% of respondents preferred the phone above email to build relationships, but 80% preferred email generally</b> </td></tr></tbody></table>
 <ol>
 <li>When you want to discuss an issue and make a decision 
 <li>When you are dealing with a 'delicate' problem </li></ol>
@@ -39,6 +39,6 @@ This field should not be null (Remove me when you edit this field).
 <li>Call the person covering every issue outlined in the draft 
 <li>Adjust the email according to the decisions made together, adding &quot;As per our conversation...&quot; 
 <li>Send the email </li></ul>This way you can review issues together, and, importantly, decisions are confirmed in writing. 
-<p><img style="border-right&#58;1px solid;border-top&#58;1px solid;border-left&#58;1px solid;width&#58;287px;border-bottom&#58;1px solid;height&#58;384px;" alt="Don't shoot people!" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/pic38-KeepDrasticThingsForImportantThings.gif" border="1" /> <br><b>Figure&#58; Are you in the right frame of mind?</b> </p>
+<p><span class="ms-rteCustom-ImageArea"><img border="1" alt="Don't shoot people!" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/pic38-KeepDrasticThingsForImportantThings.gif" /> <br></span><span class="ms-rteCustom-FigureNormal"><b>Figure&#58; Are you in the right frame of mind?</b> </span></p>
 
 
