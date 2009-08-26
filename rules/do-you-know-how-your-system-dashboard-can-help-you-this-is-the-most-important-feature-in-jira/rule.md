@@ -11,7 +11,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+The System Dashoard is the Default Dashboard that is displayed as the Home Page when you enter Jira; it is all about YOU.&#160; It contains a summary of the issues that you should be dealing with immediately, thos issues you are working on and have queued to work on and those issues that you have requested from others and are still outstanding. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p style="margin-right&#58;0px;" dir="ltr">The dashbaord consists of a number of portlets configured by the Jira Administrator so they can be changed.&#160; You can also take a copy of the System Dashboard and modify nit, name it and then share it with others.&#160; See the page on the SysAdmin dashbaord.&#160; Portlets often use Filters to display their contents.&#160; Filters are also user-dwefinabel and shareable.&#160; You can search on dashboards and filters and put any of them into your favourites.<br>
