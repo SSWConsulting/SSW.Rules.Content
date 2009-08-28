@@ -13,8 +13,16 @@ authors:
 
 
 
-<span class='intro'> <p>Most companies keep all their customers' (and prospects') contact information in a database (e.g. SQL Server, Access, Oracle). This allows all staff to easily locate contact details about a particular person. So when you get an email, make sure you check that email address and it&#160;is in the company database. </p> </span>
+<span class='intro'> 
+  <br>
+Most companies keep all their customers' (and prospects') contact information in a database (e.g. SQL Server, Access, Oracle). This allows all staff to easily locate contact details about a particular person. So when you get an email, make sure you check that email address and it&#160;is in the company database. 
+ </span>
 
-<span class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <span class="ms-rteCustom-ImageArea"><img alt="Stephen Koop not in database" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/StephenKoopIsNotInTheDatabase.jpg" /> </span><span class="ms-rteCustom-FigureNormal">Figure&#58; Stephen Koop needs to be put into the database</span><span class="ms-rteCustom-ImageArea"><img alt="Not in database" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/NotInDatabase.gif" /> </span><span class="ms-rteCustom-FigureNormal">Figure&#58; SSW Lookout! Can also check the emails that you are sending and tell you if the email address is not in your database.</span></span>
+
+  <div>
+    <br>
+We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <img class="ms-rteCustom-ImageArea" alt="Stephen Koop not in database" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/StephenKoopIsNotInTheDatabase.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Stephen Koop needs to be put into the database</span><br>
+<img class="ms-rteCustom-ImageArea" alt="Not in database" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/NotInDatabase.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW Lookout! Can also check the emails that you are sending and tell you if the email address is not in your database.</span></div>
+
 
 
