@@ -15,7 +15,6 @@ related: []
 ---
 
 
-
   <p>When emailing external parties, it is a good idea to CC the other colleagues within your organization that may have an interest in the email. Some of the benefits of CC'ing others include&#58;</p>
 <ul>
     <li>It can save time </li>
@@ -24,9 +23,8 @@ related: []
 </ul>
 
 <br><excerpt class='endintro'></excerpt><br>
-
-  <p>In addition, I often see people replying only to the sender of the email, ignoring the fact that there were other persons included in the original email. Obviously the original sender intended to keep everyone in the loop, so it would be polite to CC everyone included on the original communication. The converse is true also - don't cc people unnecessarily - you're just adding to the email problem! </p>
-<img class="ms-rteCustom-ImageArea" alt="Outlook Reply to All" align="left" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ReplyToAll.gif" /> <img class="ms-rteCustom-ImageArea" alt="Outlook Note to Self" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookNotetoSelf.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Reply All so that everyone is kept in the loop.</span> <br>
+  <p>In addition, I often see people replying only to the sender of the email, ignoring the fact that there were other persons included in the original email. Obviously the original sender intended to keep everyone in the loop, so it <img alt="Outlook Reply to All" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ReplyToAll.gif" />would be polite to CC everyone included on the original communication. The converse is true also - don't cc people unnecessarily - you're just adding to the email problem! </p>
+<img class="ms-rteCustom-ImageArea" alt="Outlook Note to Self" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookNotetoSelf.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Reply All so that everyone is kept in the loop.</span> <br>
 <p>If the original email was to an alias with many subscribers, in general you should not Reply All. <br>
 Also if the sender requests a <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Netlingo.htm">'little r'</a> <img width="17" height="11" alt="You are going to a site outside of SSW" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> reply, then you should not Reply All. </p>
 <div class="ms-rteCustom-GreyBox">
