@@ -15,13 +15,13 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <br>
+Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata.
+
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage">
-<dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Appointment with date in the text" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MeetingAppointmentWithDateAndTime_Bad.jpg" /> </dt>
-<dd>Figure&#58; Bad Example - The appointment with the date in the text. </dd></dl>
-<dl class="goodImage">
-<dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Appointment without date and time in the text" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/AppintmentWithoutTimeDateInContent_Good.jpg" /> </dt>
-<dd>Figure&#58; Good Example - The appointment without time and date in the text.</dd></dl>
+
+  <img class="ms-rteCustom-ImageArea" alt="Appointment with date in the text" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MeetingAppointmentWithDateAndTime_Bad.jpg" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - The appointment with the date in the text. </span><img class="ms-rteCustom-ImageArea" alt="Appointment without date and time in the text" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/AppintmentWithoutTimeDateInContent_Good.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - The appointment without time and date in the text.</span>
+
 
 
