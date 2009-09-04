@@ -15,18 +15,17 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <br>
+If you use Exchange Server, Auto-Archive moves the archived items from the Exchange Server to a local drive on your notebook or desktop. While this keeps your Exchange Server nice and small, if you happen to use email&#160;to store&#160;legal documents, or want to search for emails you've sent a year ago, Auto-Archive is like throwing data away. 
+
 <br><excerpt class='endintro'></excerpt><br>
-<h2><a name="DontUseAutoArchive"></a>&#160;</h2>
-<dl class="image">
-<dt><img style="border-right&#58;0px solid;border-top&#58;0px solid;border-left&#58;0px solid;border-bottom&#58;0px solid;" alt="Outlook Auto Archive" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookAutoArchive.gif" border="0" /> 
-<dd>Figure&#58; Turn off AutoArchive so your emails do not get thrown away</dd></dl>
+
+  <img class="ms-rteCustom-ImageArea" alt="Outlook Auto Archive" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookAutoArchive.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Turn off AutoArchive so your emails do not get thrown away</span>
 <p>I promise you'll be thankful you never deleted your Sent Items. </p>
-<table class="clsSSWProductTable" style="width&#58;596px;height&#58;149px;" width="596" summary="LookOut">
-<tbody>
-<tr>
-<td></td></tr>
-<tr>
-<td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br>SSW LookOut! for Outlook can tell you if you have archive on.<br><img style="border-right&#58;0px solid;border-top&#58;0px solid;border-left&#58;0px solid;border-bottom&#58;0px solid;" alt="Contact or No Aging" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ContactorNoAging.JPG" border="0" /> <br><b>Figure&#58; SSW LookOut! for Outlook warns you if Outlook is set to archive your emails</b> </td></tr></tbody></table>
+<div class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br>
+SSW LookOut! for Outlook can tell you if you have archive on.<br>
+<img class="ms-rteCustom-ImageArea" alt="Contact or No Aging" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ContactorNoAging.JPG" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW LookOut! for Outlook warns you if Outlook is set to archive your emails</span></div>
+
 
 
