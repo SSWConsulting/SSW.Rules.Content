@@ -15,11 +15,15 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <br>
+When you refer to an attachment in your email, don't forget to include the attachment. I always attach the files first before I write my message. <br>
+
 <br><excerpt class='endintro'></excerpt><br>
-<table class="clsSSWProductTable" summary="LookOut">
-<tbody>
-<tr>
-<td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br><br><img style="border-right&#58;0px solid;border-top&#58;0px solid;border-left&#58;0px solid;border-bottom&#58;0px solid;" alt="Contact or attached" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ContactorAttached.gif" border="0" /><br><b>Figure&#58; SSW LookOut! for Outlook automatically warns you if you have forgotten to include your attachments.</b></td></tr></tbody></table>
+
+  <br>
+  <div class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br>
+<img class="ms-rteCustom-ImageArea" alt="Contact or attached" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ContactorAttached.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW LookOut! for Outlook automatically warns you if you have forgotten to include your attachments. </span></div>
+
 
 
