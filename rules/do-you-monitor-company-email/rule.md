@@ -15,24 +15,16 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <br>
+Following from the previous rule, if email is actually the property of the employer then it makes sense to actually track who is sending emails to whom. 
+
 <br><excerpt class='endintro'></excerpt><br>
-<p>Using the Microsoft Exchange Web Storage System we track the number of emails sent internally (i.e. to an SSW address) and emails sent to clients in our Corporate database.</p>
-<p>
-<table width="20%" align="left">
-<tbody>
-<tr>
-<td>
-<dl class="image">
-<dt><img style="border-right&#58;0px solid;border-top&#58;0px solid;border-left&#58;0px solid;border-bottom&#58;0px solid;" alt="Outlook Monitor Sent Items" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookMonitorSentItems.gif" border="0" /> 
-<dd>Figure&#58; Monitor Sent Items</dd></dl></td></tr></tbody></table></p>
-<p>&#160;</p>
-<p>&#160;</p>
-<p>&#160;</p>
-<p>&#160;</p>
-<p>&#160;</p>
-<p>&#160;</p>
-<p>We use a <a href="http&#58;//www.ssw.com.au/ssw/ExchangeReporter/">utility for Exchange Reports</a> called SSW Exchange Reporter.</p>
+
+  <p>Using the Microsoft Exchange Web Storage System we track the number of emails sent internally (i.e. to an SSW address) and emails sent to clients in our Corporate database.</p>
+<img class="ms-rteCustom-ImageArea" alt="Outlook Monitor Sent Items" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookMonitorSentItems.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Monitor Sent Items</span>
+<p>We use a <a href="http&#58;//www.ssw.com.au/ssw/ExchangeReporter/">Utility for Exchange Reports</a> called SSW Exchange Reporter.</p>
 <p>Note that although it is acceptable for seniors to check juniors' email, it is not acceptable for juniors to check seniors' email.</p>
+
 
 
