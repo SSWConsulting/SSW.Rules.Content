@@ -13,13 +13,11 @@ authors:
 
 
 
-<span class='intro'> 
-  <p>When sending an email it is important to give context and reasoning. 
-</p>
+<span class='intro'> When sending an email it is important to give context and reasoning. 
  </span>
 
 
-  <img class="ms-rteCustom-ImageArea" alt="Bad - no context or reasoning" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/BadContextReasoning.GIF" /> <span class="ms-rteCustom-FigureBad">Figure &#58; There is no context or reasoning!</span> <img class="ms-rteCustom-ImageArea" alt="Good - there is context and reasoning" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/GoodContextReasoning.jpg" /> <span class="ms-rteCustom-FigureGood">Figure &#58; There is both context and reasoning!</span>
+  <img class="ms-rteCustom-ImageArea" alt="Bad - no context or reasoning" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/BadContextReasoning.GIF" /> <span class="ms-rteCustom-FigureBad">Figure &#58;&#160;Bad Example - There is no context or reasoning!</span> <img class="ms-rteCustom-ImageArea" alt="Good - there is context and reasoning" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/GoodContextReasoning.jpg" /> <span class="ms-rteCustom-FigureGood">Figure &#58;&#160;Good Example - There is both context and reasoning!</span> 
 
 
 
