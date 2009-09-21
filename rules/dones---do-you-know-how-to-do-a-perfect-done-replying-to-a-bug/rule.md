@@ -15,7 +15,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+To reply to a bug effectively and efficiently in your emails, you need to include&#58; 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
@@ -23,9 +24,9 @@ This field should not be null (Remove me when you edit this field).
     <li>Solution - how you fixed the bug (code snippet if necessary) </li>
     <li>Current Status - the bug is fixed (screenshot of working application) or not fixed (ask for more detailed information&#160;from the&#160;client)&#160;<br>
     <br>
-    <img style="width&#58;601px;height&#58;529px;" class="ms-rteCustom-ImageArea" alt="Reply to a bug" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/better_emails_reply_bug_small.jpg" /></li>
+    <img style="width&#58;601px;height&#58;529px;" class="ms-rteCustom-ImageArea" alt="Reply to a bug" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/better_emails_reply_bug_small.jpg" /> </li>
 </ul>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - Reply to a bug</font><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - Reply to a bug showing all steps</font><br>
 &#160; 
 
 
