@@ -21,7 +21,7 @@ When sending an appointment, it's a good idea to choose your subject intelligent
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img class="ms-rteCustom-ImageArea" alt="Bad Appointment Subject" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ApptSubjectBad_small.jpg" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad appointment subject </span><img class="ms-rteCustom-ImageArea" alt="Good Appointment Subject" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ApptSubjectGood_small.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; A good appointment subject</span>
+  <img class="ms-rteCustom-ImageArea" alt="Bad Appointment Subject" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ApptSubjectBad_small.jpg" /> <span class="ms-rteCustom-FigureBad">Figure&#58;&#160;Bad Example - appointment subject with very little information</span><img class="ms-rteCustom-ImageArea" alt="Good Appointment Subject" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ApptSubjectGood_small.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Appointment subject with all of the relevant information shown</span> 
 
 
 
