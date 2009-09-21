@@ -22,7 +22,9 @@ OK - so now you've got your important emails identified, don't let them get lost
 <br><excerpt class='endintro'></excerpt><br>
 
   <div>
-<p>I think the Red Exclamation Mark is a good start, but I hate the Blue Arrow - it keeps getting my attention.</p>
+<p><img class="ms-rteCustom-ImageArea" alt="Sort by Recieved and Important" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookSortbyReceivedThenImportant.gif" /><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - Sorted by Important and Recieved Date</font><br>
+I think the Red Exclamation Mark is a good start, but I hate the Blue Arrow - it keeps getting my attention.</p>
 <p>Use sort by importance to sort the items with the blue arrow to the bottom. </p>
 </div>
 
