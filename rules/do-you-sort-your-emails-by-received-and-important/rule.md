@@ -22,8 +22,6 @@ OK - so now you've got your important emails identified, don't let them get lost
 <br><excerpt class='endintro'></excerpt><br>
 
   <div>
-    <img class="ms-rteCustom-ImageArea" alt="Outlook Sort By Received Then Important" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/OutlookSortbyReceivedThenImportant.gif" />&#160;<br>
-<font class="ms-rteCustom-FigureNormal">Figure&#58; Sort your emails by received and then by important to keep the most recent and important ones on top </font><img class="ms-rteCustom-ImageArea" alt="Always use a meaningful Subject" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/OutlookPriority.gif" /> <br>
 <p>I think the Red Exclamation Mark is a good start, but I hate the Blue Arrow - it keeps getting my attention.</p>
 <p>Use sort by importance to sort the items with the blue arrow to the bottom. </p>
 </div>
