@@ -25,7 +25,7 @@ Your deleted items can become quite out of hand if you don't manage them. First,
     <li>Move the items into subfolders under Deleted Items. This is a good solution as you can manually archive items, making it easier to search. You can permanently delete items when they reach a certain age. </li>
 </ul>
 <p><img class="ms-rteCustom-ImageArea" alt="Oulook Deleted Items" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OulookDeletedItemsSubFolders.gif" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Deleted Items </font><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58;&#160;Good Example - Deleted Items ordered into time periods</font><br>
 <br>
 NOTE&#58; A hot tip for making it easy to search for an accidentally deleted item is to add the &quot;Modified&quot; field into your Deleted Items view and sort by &quot;Modified&quot;. The item from two months ago which you just accidentally deleted will be sitting at the top.</p>
 <p style="margin-right&#58;0px;" dir="ltr"><img alt="" class="ms-rteCustom-GreyBox" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookModifiedByDate.gif" /><br>
