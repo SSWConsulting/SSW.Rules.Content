@@ -15,7 +15,7 @@ related: []
 ---
 
 
-Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it.&#160; If you need an answer, use a RESEND by doing the following&#58; 
+Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it.&#160; If you need an answer, use a RESEND by doing the following&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -24,7 +24,7 @@ Sometimes the person you send your email to may not reply immediately because th
     <li>Put (RESEND) in 1<sup>st</sup> line of the Body </li>
     <li>Plus any other instructions - such as &quot;Hurry Up!&quot; </li>
 </ol>
-<img class="ms-rteCustom-ImageArea" alt="Hurry Up" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/HurryUp.gif" /><span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - (RESEND) written at the top of the email.</span>
+<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/HurryUp.gif" alt="Hurry Up" class="ms-rteCustom-ImageArea" /><span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - (RESEND) written at the top of the email.</span>
 <p>This reminds the other person that you are still waiting for a response.</p>
 
 
