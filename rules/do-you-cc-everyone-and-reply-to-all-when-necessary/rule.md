@@ -27,18 +27,18 @@ related: []
 
   <p>In addition, I often see people replying only to the sender of the email, ignoring the fact that there were other persons included in the original email. Obviously the original sender intended to keep everyone in the loop, so it would be polite to CC everyone included on the original communication. The converse is true also - don't cc people unnecessarily - you're just adding to the email problem! <br>
 <br>
-<img alt="Outlook Reply to All" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ReplyToAll.gif" /></p>
-<img class="ms-rteCustom-ImageArea" alt="Outlook Note to Self" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookNotetoSelf.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Reply All so that everyone is kept in the loop.</span> <br>
+<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ReplyToAll.gif" alt="Outlook Reply to All" /></p>
+<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookNotetoSelf.gif" alt="Outlook Note to Self" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Reply All so that everyone is kept in the loop.</span> <br>
 <p>If the original email was to an alias with many subscribers, in general you should not Reply All. <br>
-Also if the sender requests a <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Netlingo.htm">'little r'</a> <img width="17" height="11" alt="You are going to a site outside of SSW" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> reply, then you should not Reply All. </p>
+Also if the sender requests a <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Netlingo.htm">'little r'</a> <img height="11" width="17" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" alt="You are going to a site outside of SSW" /> reply, then you should not Reply All. </p>
 <div class="ms-rteCustom-GreyBox">
-<p><b>Exception</b></p>
+<p><strong>Exception</strong></p>
 <ul>
     <li>If not all recipients need to be informed </li>
     <li>The opinions of the rest of the recipients do not matter as they are unlikely to disagree <font class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. </font>
     <p>It checks this for you, and would raise a warning like this one&#58;</p>
-    <img alt="LookOut warning - not everyone is CC'ed" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ContactorNotAllCC.GIF" /><br>
-    <b>Figure&#58; SSW Lookout checks that you have Replied All each time you send an email</b> </li>
+    <img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ContactorNotAllCC.GIF" alt="LookOut warning - not everyone is CC'ed" /><br>
+    <strong>Figure&#58; SSW Lookout checks that you have Replied All each time you send an email</strong> </li>
 </ul>
 </div>
 
