@@ -15,15 +15,14 @@ related: []
 ---
 
 
-
   <br>
-OK - so now you've got your important emails identified, don't let them get lost in the quagmire. If you use Outlook make use of its inbuilt functionality. Always sort your emails by the Received, but add a secondary sort by &quot;Important&quot;. This way your important emails always stay at the top to haunt you until they are done. 
+OK - so now you've got your important emails identified, don't let them get lost in the quagmire. If you use Outlook make use of its inbuilt functionality. Always sort your emails by the Received, but add a secondary sort by &quot;Important&quot;. This way your important emails always stay at the top to haunt you until they are done.
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <div>
-<p><img class="ms-rteCustom-ImageArea" alt="Sort by Recieved and Important" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookSortbyReceivedThenImportant.gif" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - Sorted by Important and Recieved Date</font><br>
+<p><img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookSortbyReceivedThenImportant.gif" alt="Sort by Recieved and Important" class="ms-rteCustom-ImageArea" /><br>
+<font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Sorted by Important and Recieved Date</font><br>
 I think the Red Exclamation Mark is a good start, but I hate the Blue Arrow - it keeps getting my attention.</p>
 <p>Use sort by importance to sort the items with the blue arrow to the bottom. </p>
 </div>
