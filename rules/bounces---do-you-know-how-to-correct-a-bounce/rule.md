@@ -26,7 +26,8 @@ The recipient's e-mail address was not found in the recipient's e-mail system. M
 <font class="ms-rteCustom-GreyBox">&#160;&#160;(Resending with Adam’s correct email)<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<br>
 &#160;&#160;---------------------------------<br>
-&#160;&#160;[Original Email] </font><font class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Correct the email address and send again.</font> 
+&#160;&#160;[Original Email] </font><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Correct the email address and send again.
+</span>
 
 <br><excerpt class='endintro'></excerpt><br>
 
