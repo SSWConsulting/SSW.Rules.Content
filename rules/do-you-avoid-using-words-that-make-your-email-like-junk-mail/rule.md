@@ -13,9 +13,7 @@ authors:
 
 
 
-<span class='intro'> 
-  <br>
-Outlook by default reads your emails and can flag your email as potential junk email, or adult content email by examining a list of bad words. <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/OutlookBadWords.htm">Microsoft list of words</a>.<br>
+<span class='intro'> Outlook by default reads your emails and can flag your email as potential junk email, or adult content email by examining a list of bad words. <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/OutlookBadWords.htm">Microsoft list of words</a>.<br>
  </span>
 
 
