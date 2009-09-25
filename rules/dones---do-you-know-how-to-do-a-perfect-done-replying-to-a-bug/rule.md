@@ -15,7 +15,7 @@ related: []
 ---
 
 
-To reply to a bug effectively and efficiently in your emails, you need to include&#58; 
+To reply to a bug effectively and efficiently in your emails, you need to include&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -24,10 +24,10 @@ To reply to a bug effectively and efficiently in your emails, you need to includ
     <li>Solution - how you fixed the bug (code snippet if necessary) </li>
     <li>Current Status - the bug is fixed (screenshot of working application) or not fixed (ask for more detailed information&#160;from the&#160;client)&#160;<br>
     <br>
-    <img style="width&#58;601px;height&#58;529px;" class="ms-rteCustom-ImageArea" alt="Reply to a bug" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/better_emails_reply_bug_small.jpg" /> </li>
+    <img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/better_emails_reply_bug_small.jpg" alt="Reply to a bug" class="ms-rteCustom-ImageArea" style="width&#58;601px;height&#58;529px;" /> </li>
 </ul>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - Reply to a bug showing all steps</font><br>
-&#160; 
+<font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Reply to a bug showing all steps</font><br>
+&#160;
 
 
 
