@@ -15,14 +15,12 @@ related: []
 ---
 
 
-
-  <br>
-Even though you may check your emails before sending, use SSW lookout to help you avoid mistakes, and even if you send/receive manually, there will still be times where you will send out an email with mistakes or incorrect content. 
+Even though you may check your emails before sending, use SSW lookout to help you avoid mistakes, and even if you send/receive manually, there will still be times where you will send out an email with mistakes or incorrect content.
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>But all is not lost. If you go into your sent items, open up the offending email, and go into Actions | Recall this Message, outlook will attempt to delete the message from the recipient's inbox before he has a chance to read it. </p>
-<img class="ms-rteCustom-ImageArea" alt="Recall a message" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/RecallMessage.JPG" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Actions | Recall this Message</span>
+<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/RecallMessage.JPG" alt="Recall a message" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Actions | Recall this Message</span>
 <p>Outlook will tell you whether it was successful or not</p>
 
 
