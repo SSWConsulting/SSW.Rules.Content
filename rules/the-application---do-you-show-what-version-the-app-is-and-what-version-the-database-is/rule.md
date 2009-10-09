@@ -11,20 +11,28 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
-
-
-  <p>&#160;TODO&#58; Add Timepro image as good example</p>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - You can get to the Database version via the Tools | Options | Database tab<br>
-</font>
-<dl class="image">
-    <dt><img alt="" src="/Standards/CodeAndApplicationDesign/RulesToBetterSQLServerSchemaDeployment/PublishingImages/zsVersionTable.png" /></dt>
-    <dd>Figure&#58; The Applications Database stores version info in a table called _zsVersion</dd>
+<span class='intro'> 
+  <dl class="image">
+    <dt><img width="625" height="522" alt="" style="width&#58;576px;height&#58;475px;" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/LinkAuditor.png" /> </dt>
+    <dd>Figure&#58; Everyone shows the version number somewhere on their app </dd>
 </dl>
+...but databases also need a version number.<br>
 <br>
+Let's see&#160;how to show the Database version&#58;&#160; 
+ </span>
+
+
+  <dl class="image">
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/zsVersionTable.png" /> </dt>
+    <dd>Figure&#58; The applications database should have a table storing the version info (the table is called _zsVersion). See an example of this in <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd>
+</dl>
 <dl class="image">
-    <dt><img alt="" src="/Standards/CodeAndApplicationDesign/RulesToBetterSQLServerSchemaDeployment/PublishingImages/ScriptFolder.png" /></dt>
-    <dd>Figure&#58; The Application keeps all the scripts in a folder called SQLScripts</dd>
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/LinkAuditorVersion.png" /> </dt>
+    <dd>Figure&#58; The user can clearly see the Database version is&#160;62&#160;after clicking &quot;Configure...&quot; button in wizard &quot;Storage Mechanism&quot;. See an example of this in <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd>
+</dl>
+<dl class="image">
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/ChangeScripts.jpg" /> </dt>
+    <dd>Figure&#58; The Application keeps all the scripts in a folder called SQLScripts (this allows the application to upgrade itself and give the Reconciliation functionality) </dd>
 </dl>
 
 
