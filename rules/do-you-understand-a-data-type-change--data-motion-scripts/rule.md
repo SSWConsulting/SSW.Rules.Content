@@ -19,17 +19,20 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Scripting out a schema change&#160;is easy, worrying about data is not. &quot;'Data motion&quot; refers to a change in the meaning of data, which will require scripts which touch data and schema. <br>
+<br>
+Let's look at an example&#58; 
+ </span>
 
 
   <p>We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.</p>
 <dl class="image">
-    <dt><img alt="" src="/Standards/CodeAndApplicationDesign/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableBit.jpg" /> </dt>
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableBit.jpg" /> </dt>
     <dd>Figure&#58; Anything wrong this Gender column?&#160; </dd>
 </dl>
 Later you learn you need to change the data type to char(2) to support 'M', 'F', 'T', 'NA' and 'U'
 <dl class="image">
-    <dt><img alt="" src="/Standards/CodeAndApplicationDesign/RulesToBetterSQLServerSchemaDeployment/PublishingImages/CasterSemenya.jpg" /> </dt>
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/CasterSemenya.jpg" /> </dt>
     <dd>Figure&#58; Caster Semenya has taught us a thing or two about the right data type for Gender </dd>
 </dl>
 <br>
@@ -42,8 +45,8 @@ The data then must be migrated to the new data type this way&#58;
 </ol>
 *Note&#58; zt stands for Temporary
 <dl class="image">
-    <dt><img alt="" src="/Standards/CodeAndApplicationDesign/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableChar.jpg" /> </dt>
-    <dd>Figure&#58; Changing the data type and data required a&#160;&quot;Data Motion Script&quot; </dd>
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableChar.jpg" /> </dt>
+    <dd>Figure&#58; Changing the data type and data required a&#160;<a href="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Pages/DoYouHaveAnUnderstandingOfSchemaChangesAndTheirIncreasingComplexity.aspx">&quot;Data Motion Script&quot;</a></dd>
 </dl>
 
 
