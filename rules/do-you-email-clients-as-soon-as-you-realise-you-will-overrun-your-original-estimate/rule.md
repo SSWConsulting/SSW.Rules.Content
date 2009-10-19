@@ -26,8 +26,9 @@ Let them decide and avoid conflict by sending an email like this&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p class="ms-rteCustom-GreyBox">To&#58; Mr Northwind<br>
-Cc&#58; David (Project Manager)<br>
+  <p class="ms-rteCustom-GreyBox">
+    <strong>To</strong>&#58; Mr Northwind<br>
+<strong>Cc</strong>&#58; David (Project Manager)<br>
 <br>
 Dear Bill Northwind,<br>
 <br>
