@@ -26,7 +26,7 @@ authors:
 </dl>
 <p style="display&#58;block;" class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p>
 <p style="display&#58;block;" class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule. <br>
-We offer a <a href="/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</p>
+We offer a <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</p>
 </span>
 
 
