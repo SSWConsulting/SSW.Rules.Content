@@ -24,7 +24,7 @@ Let's see&#160;how to show the Database version&#58;&#160;
 
   <dl class="image">
     <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/zsVersionTable.png" /> </dt>
-    <dd>Figure&#58; The applications database should have a table storing the version info (the table is called _zsVersion). See an example of this in <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd>
+    <dd>Figure&#58; The applications database should have a table storing the version info (the table is called _zsDataVersion). See an example of this in <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd>
 </dl>
 <dl class="image">
     <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/LinkAuditorVersion.png" /> </dt>
