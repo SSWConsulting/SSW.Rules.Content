@@ -15,12 +15,19 @@ authors:
 
 
 
-<span class='intro'> Why do web pages have Reset buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button.  </span>
+<span class='intro'> Why do web pages have Reset buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button. 
+ </span>
 
-<span class="productBox"> 
+
+  <span>
 <dl class="badImage">
-<dt><img alt="" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" width="300" height="300" /> 
-<dd>Figure&#58; The Reset button isn't useful at all </dd></dl>
-<p class="productBox">We have a program called <a href="/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p><br><span class="productBox">We have a program called <a href="/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule. We offer a <a href="/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</span></span>
+    <dt><img width="300" height="300" alt="" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" /> </dt>
+    <dd>Figure&#58; The Reset button isn't useful at all </dd>
+</dl>
+<p style="display&#58;block;" class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p>
+<p style="display&#58;block;" class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule. <br>
+We offer a <a href="/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</p>
+</span>
+
 
 
