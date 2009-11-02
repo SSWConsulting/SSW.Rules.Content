@@ -15,7 +15,19 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p style="margin-right&#58;0px;" dir="ltr">In the event of errors when testing&#58;</p>
+<ol>
+    <li>Bring the TFS2010 server down </li>
+    <li>Bring the TFS2008 server up </li>
+    <li>Change the DNS entries for tfs.northwind.com on
+    <ol>
+        <li>Internal DNS Server </li>
+        <li>External DNS Server </li>
+    </ol>
+    </li>
+</ol>
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
