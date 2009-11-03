@@ -22,12 +22,12 @@ redirects: []
 
 Do *not* wait until you have started to exceed your estimate, before you notify the client that the release is running late.<br>
 &#160;<br>
-Let them decide and avoid conflict by sending an email like this&#58; 
+Let them decide and avoid conflict by sending an email like this&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <p class="ms-rteCustom-GreyBox">
-    <strong>To</strong>&#58; Mr Northwind<br>
+<strong>To</strong>&#58; Mr Northwind<br>
 <strong>Cc</strong>&#58; David (Project Manager)<br>
 <br>
 Dear Bill Northwind,<br>
@@ -37,11 +37,11 @@ As per our conversation, Release 3 of Target Contacts will take longer than expe
 Regards<br>
 David</p>
 <font class="ms-rteCustom-FigureNormal">Figure&#58; A sample of an email that informs the client that the estimate will be exceeded</font><br>
-As soon as you realise that any of your estimates are likely to be exceeded by a margin of 10% or greater, then let the customer know ASAP <a shape="rect" href="/Standards/Management/RulesToHappyClients/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx" id="AsPerOurConversation" target="_blank">by phone and by email (using the 'as per our conversation' rule)</a>. This will ensure that the client is fully aware of any problems and has a chance to decide an alternative action.&#160;<br>
+As soon as you realise that any of your estimates are likely to be exceeded by a margin of 10% or greater, then let the customer know ASAP <a target="_blank" id="AsPerOurConversation" href="/Standards/Management/RulesToHappyClients/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx" shape="rect">by phone and by email (using the 'as per our conversation' rule)</a>. This will ensure that the client is fully aware of any problems and has a chance to decide an alternative action.&#160;<br>
 <br>
 Never keep the client in the dark when you exceed your estimates, it will only arouse suspicion and mistrust when they see the project deadline woosh past.<br>
 <br>
-<font class="ms-rteCustom-YellowBorderBox">SSW <a shape="rect" href="http&#58;//ssw.com.au/SSW/eXtremeEmails/Default.aspx">eXtreme Emails</a>! that automatically generates emails to notify the client of an exceeded estimate </font>
+<font class="ms-rteCustom-YellowBorderBox">SSW <a href="http&#58;//ssw.com.au/SSW/eXtremeEmails/Default.aspx" shape="rect">eXtreme Emails</a>! that automatically generates emails to notify the client of an exceeded estimate </font>
 
 
 
