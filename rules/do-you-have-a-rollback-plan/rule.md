@@ -16,17 +16,18 @@ related: []
 
 
 
-  <p style="margin-right&#58;0px;" dir="ltr">In the event of errors when testing&#58;</p>
+  <p style="margin-right&#58;0px;" dir="ltr">Always plan for a catastrophic disaster, in the event of errors when testing&#58;</p>
 <ol>
-    <li>Bring the TFS2010 server down </li>
-    <li>Bring the TFS2008 server up </li>
-    <li>Change the DNS entries for tfs.northwind.com on
+    <li>Take the&#160;TFS2010 server offline </li>
+    <li>Bring the TFS2008 server online </li>
+    <li>Change the DNS entries for tfs.northwind.com from the IP for the TFS2010 server to the IP for the TFS2008 server
     <ol>
         <li>Internal DNS Server </li>
-        <li>External DNS Server </li>
+        <li>External DNS Server</li>
     </ol>
     </li>
 </ol>
+<p>TODO&#58; Add figure of DNS pointers.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
