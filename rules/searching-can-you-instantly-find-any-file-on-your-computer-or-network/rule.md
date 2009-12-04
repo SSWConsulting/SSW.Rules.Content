@@ -14,12 +14,13 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Often you will want to quickly find a file on your computer or local network. On the web, with the advances in search engines this seems so easy. New enterprise search tools are now making this same feat possible for your desktop. Your tool should index all your local files and emails, and also allow you to search your entire network. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>Using either <a href="http&#58;//www.ssw.com.au/ssw/Redirect/GoogleSearch.htm" target="_blank">Google Desktop Search</a>&#160;<img width="17" height="11" alt="Leave Site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> or <a href="http&#58;//www.ssw.com.au/ssw/Redirect/MSNSearch.htm" target="_blank">MSN Desktop Search</a>&#160;<img width="17" height="11" alt="Leave Site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> will allow you to instantly search for a name and find all correspondence with that person. Even if there has been no contact for 6 months, you can resume the discussion as if it were yesterday.</p>
+  <p>Using either&#160;<font class="ms-rteCustom-External" size="+0"><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Redirect/GoogleSearch.htm" target="_blank">Google Desktop Search</a></font> or <font class="ms-rteCustom-External" size="+0"><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Redirect/MSNSearch.htm" target="_blank">MSN Desktop Search</a></font>&#160;will allow you to instantly search for a name and find all correspondence with that person. Even if there has been no contact for 6 months, you can resume the discussion as if it were yesterday.</p>
 <p>Of course i<font size="2">f you are using Windows Vista, desktop search is integrated within the operating system.</font></p>
-<p>Follow our standard on <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperInstallationNetworkSetup/DesktopSearch.aspx">setting up Enterprise Search</a>.</p>
+<p>Follow our standard on <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperInstallationNetworkSetup/DesktopSearch.aspx">setting up Enterprise Search</a>.</p>
 
 
 
