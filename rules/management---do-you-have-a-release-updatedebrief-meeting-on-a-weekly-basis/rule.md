@@ -11,24 +11,51 @@ authors:
 
 
 
-<span class='intro'> <p>Every week the project manager should meet with the client to conduct an external &quot;Test Please&quot; as well as to discuss the status of the release. While it is better to conduct an internal &quot;test please&quot; before the meeting, the update/debrief should proceed even if it hasn't been completed.</p>
-<p>This is the agenda&#58;</p> </span>
+<span class='intro'> 
+  <p>Every week&#160;the project manager should meet with the client to conduct an external &quot;Test Please&quot; as well as to discuss the status of the release. </p>
+<p>Tip #1&#58; Choose the same day each week (for example SSW chooses Tuesday)<br>
+Tip #2&#58; While it is better to conduct an internal &quot;Test Please&quot; before the meeting (for example SSW chooses Friday), this &quot;Release Update/Debrief Meeting&quot; should proceed (even if it hasn't been completed).</p>
+<p>This is the agenda&#58;</p>
+ </span>
 
+
+  <ol>
+    <li>Status of original work items - are they all done? </li>
+    <li>External <a href="/Standards/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">Test Please</a> - go through the application and get the clients thoughts. Many&#160;issues they&#160;see, will already be reported by the internal &quot;Test Please&quot;. Send emails for the new ones. </li>
+    <li>Triage these additional work items - try to move all to the next release </li>
+    <li>Approval for additional work items/budget overruns&#160;- talk $$ <br>
+    eg. look at the &quot;Actual&quot; and &quot;Estimate&quot; figures on the top of the report </li>
+    <li>Release sign-off - &quot;Yes&quot; or &quot;No&quot;?</li>
+</ol>
+<p>If &quot;Yes&quot;</p>
 <ol>
-<li><a title="" href="/Standards/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">Test please</a> 
-<li>Status of original work items 
-<li>Triage additional work items 
-<li>Approval for additional work items/budget overruns 
-<li>Release sign-off &amp; deployment schedule 
-<li>Approval of next release 
-<li>Ask the client for a mark out of 10 for the release</li></ol>
-<p>You can use the <a title="" href="http&#58;//www.ssw.com.au/ssw/EXtremeEmails/ManageProjects.aspx#ReleaseDebrief">eXtreme Emails Release update/debrief</a> template or SSW's TFS add-in **Link needed** to easily confirm the outcome of the meeting by email.</p>
-<p><strong>Promote your success</strong></p>
-<p>If the debrief&#160;is the last one of the project always&#58;</p>
+    <li>Ask the client for a mark /10 for the release </li>
+    <li>Ask the client if you can do a deployment to Production? </li>
+    <li>Ask for Approval for next release &#160;</li>
+</ol>
+<p>There are two kinds of tools to help you do this</p>
 <ul>
-<li>Create a case study and get it approved - make sure it's branded nicely for the client</li>
-<li>Ask for&#160;a testimonial for the work you have done</li>
-<li>Add&#160;a link to the work you have done from your website or marketing material</li></ul>
-<p>At SSW we do this at <a title="" href="http&#58;//www.ssw.com.au/ssw/Company/OurClients.aspx">our Clients</a> page</p>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/EXtremeEmails/ManageProjects.aspx#ReleaseDebrief">SSW eXtreme Emails -&#160;Release Update/Debrief&#160;Report</a> </li>
+</ul>
+<dl class="image">
+    <dt><img alt="" style="border&#58;0px solid;" src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/ReleaseDebrief_small.jpg" border="0" /> </dt>
+    <dd>Figure&#58; The actual output of the Release Debrief Report</dd>
+</dl>
+<p>Here is a HTML format <a href="http&#58;//www.ssw.com.au/ssw/extremeemails/reports/releasedebriefreport.htm">SSW Release Debrief Report.</a></p>
+<ul>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate">SSW TFS Add-in - Release Update/Debrief Report</a></li>
+</ul>
+<dl class="image">
+    <dt><img alt="" style="border&#58;0px solid;" src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/ProgressReport_small.jpg" border="0" /> </dt>
+    <dd>Figure&#58; The actual output of the Release Update Report</dd>
+</dl>
+<p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/SSWReleaseUpdate.pdf">SSW Release Update Report.</a></p>
+<p><strong>If you are at the end of a main section of work, promote your success </strong></p>
+<ul>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsDealingWithClients.aspx#PostClientWork" id="Ask for a testimonial for the work you have done" name="Ask for a testimonial for the work you have done">Ask for&#160;a testimonial for the work you have done</a> </li>
+    <li>Create a case study and get it approved - Info should be a win-win for the client. eg.&#160;&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/WorleyparsonsCaseStudy.aspx">WorleyParsons</a> </li>
+    <li>Add&#160;a link to the work you have done from your website or marketing material. eg. at SSW we do this via the&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/OurClients.aspx">Our Clients</a> page</li>
+</ul>
+
 
 
