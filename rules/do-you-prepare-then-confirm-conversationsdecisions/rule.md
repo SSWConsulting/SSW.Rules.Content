@@ -15,7 +15,7 @@ related: []
 ---
 
 
-Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen&#58;
+Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen&#58; 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -24,7 +24,7 @@ Ideally all phone conversations and meetings should be confirmed afterwards so y
     <li>Draft an email with bullet points for each issue (don't send) </li>
     <li>Call up the client (or have a meeting) </li>
     <li>Modify during conversation </li>
-    <li>Send the email to the client (cc relevant people e.g. the developer) saying &quot;As per our conversation...&quot;</li>
+    <li>Send the email to the client (cc relevant people e.g. the developer) saying &quot;<a href="/Standards/Management/RulesToHappyClients/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx" id="PerConversation">As per our conversation...</a>&quot; </li>
 </ol>
 
 
