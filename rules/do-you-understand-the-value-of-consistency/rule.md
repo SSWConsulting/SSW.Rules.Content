@@ -14,14 +14,24 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get&#58;
+
 <br><excerpt class='endintro'></excerpt><br>
-<p>Say we are creating a windows forms application. We can expect to&#58;</p>
+
+  <p>Say we are creating a windows forms application. We can expect to&#58;</p>
 <ul>
-<li><b>Improve productivity - because there are less decisions to make, and you build on existing work.</b> <br>For example, we don't need to discuss the pros and cons of MDI versus SDI because there is <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI">already a standard.</a><br><br>
-<li><b>Improve quality - because you are following best practices.</b><br>For example, which logging library is better out of <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement">Microsoft Application Block</a> or <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net">Log4NET</a>.<br><br>
-<li><b>Improve communications - because people know what to expect.</b> <br>For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent on whether we call it a bug or a feature because we <a href="http&#58;//ant/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#BugDefinition">define what's a bug.</a><br><br>
-<li><b>Get straight to the meat of the customer's problem.</b><br>For example, our developers don't need to decide whether to implement baseforms or user controls. They already know because it's covered in <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls">Rules to Better Windows Forms Applications.</a> </li></ul>
+    <li><b>Improve productivity - because there are less decisions to make, and you build on existing work.</b> <br>
+    For example, we don't need to discuss the pros and cons of MDI versus SDI because there is <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI">already a standard.</a><br>
+    </li>
+    <li><b>Improve quality - because you are following best practices.</b><br>
+    For example, which logging library is better out of <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement">Microsoft Application Block</a> or <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net">Log4NET</a>.<br>
+    </li>
+    <li><b>Improve communications - because people know what to expect.</b> <br>
+    For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent on whether we call it a bug or a feature because we <a href="http&#58;//ant/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#BugDefinition">define what's a bug.</a><br>
+    </li>
+    <li><b>Get straight to the meat of the customer's problem.</b><br>
+    For example, our developers don't need to decide whether to implement baseforms or user controls. They already know because it's covered in <a href="http&#58;//ant/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls">Rules to Better Windows Forms Applications.</a> </li>
+</ul>
 <p>At SSW we create standards for all manner of processes&#58; from coding practices to project proposals and how to lock the office up at night. From the developer's perspective, consistency means that we understand each other's code, and if we don't know something, a standard will often save us asking someone. No more Chinese whispers, and less time wasted. From the customer's perspective, consistency leads to a reliable and repeatable experience. </p>
 <p>The following story illustrates these values&#58;</p>
 <div class="greyBox">
@@ -39,9 +49,12 @@ This field should not be null (Remove me when you edit this field).
 <p>It didn't matter that I enjoyed the experience of having my hair washed before he set to work and that I actually believed it would improve the quality of the haircut. </p>
 <p>I would have been embarrassed to ask for these things, let alone to give my reasons for wanting them. They were all so totally emotional, so illogical. How could I have explained them, or justified them, without appearing to be a boob? </p>
 <p>What the barber did was to give me a delightful experience and then take it away. </p>
-<p>What you do in your model is not nearly as important as doing what you do the same way, each and every time. </p></div>
+<p>What you do in your model is not nearly as important as doing what you do the same way, each and every time. </p>
+</div>
 <dl>
-<dd>Figure&#58; The Barber gave an inconsistent experience. Excerpt from &quot;The E Myth&quot; page 10</dd></dl>
+    <dd>Figure&#58; The Barber gave an inconsistent experience. Excerpt from &quot;The E Myth&quot; page 10</dd>
+</dl>
 <p>Standards don't need to come at the expense of creativity. Following standards means less time doing the administrative stuff and more time for the creative. Of course standards are works in progress, and so we are always on the look out for improvements. That's why standards should be shared with everyone.</p>
+
 
 
