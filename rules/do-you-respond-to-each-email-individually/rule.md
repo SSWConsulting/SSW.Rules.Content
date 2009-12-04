@@ -13,12 +13,18 @@ authors:
 
 
 
-<span class='intro'> <p>(AKA - don't respond to a series of emails in one email) If you receive separate emails, respond to each email individually. Don't answer a few emails in one email.</p>
+<span class='intro'> 
+  <p>(AKA - don't respond to a series of emails in one email) If you receive separate emails, respond to each email individually. Don't answer a few emails in one email.</p>
 <ul>
-<li>Each email is a little job (eating the elephant one bit at a time) 
-<li>You get a steady flow back as bits are achieved (can get a feel or monitor employees efficiency) 
-<li>You can move to 'todo' list folders 
-<li>You get a email history for that one topic </li></ul> </span>
+    <li>Each email is a little job (eating the elephant one bit at a time)
+    </li>
+    <li>You get a steady flow back as bits are achieved (can get a feel or monitor employees efficiency)
+    </li>
+    <li>You can move to 'todo' list folders
+    </li>
+    <li>You get a email history for that one topic </li>
+</ul>
+ </span>
 
 
 
