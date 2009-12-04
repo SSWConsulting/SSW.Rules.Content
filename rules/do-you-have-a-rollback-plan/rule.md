@@ -16,7 +16,7 @@ related: []
 
 
 
-  <p>Always plan for a catastrophic disaster, in the event of errors when testing&#58;</p>
+  <p>Always <a shape="rect" href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#assumeCatastrophic">plan for a catastrophic disaster</a>, in the event of errors when testing&#58;</p>
 <ol>
     <li>Take the&#160;TFS2010 server offline </li>
     <li>Bring the TFS2008 server online </li>
