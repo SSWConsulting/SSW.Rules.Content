@@ -1,0 +1,121 @@
+---
+type: rule
+archivedreason: 
+title: Do you create a minimal master page?
+guid: 591f621f-a7fb-4ff3-b86d-4ca3fbc085e1
+uri: do-you-create-a-minimal-master-page
+created: 2009-06-18T06:46:53.0000000Z
+authors:
+- title: John Liu
+  url: https://ssw.com.au/people/john-liu
+- title: Jay Lin
+  url: https://ssw.com.au/people/jay-lin
+related: []
+redirects: []
+
+---
+
+
+This field should not be null (Remove me when you edit this field).
+<br><excerpt class='endintro'></excerpt><br>
+
+  <dl class="badCode">
+    <dt>{ltHTMLChar}%@Master language=&quot;C#&quot;%{gtHTMLChar}<br>
+    ...<br>
+    {ltHTMLChar}HEAD runat=&quot;server&quot;{gtHTMLChar}<br>
+    ...<br>
+    {ltHTMLChar}Title ID=onetidTitle{gtHTMLChar}<br>
+    {ltHTMLChar}asp&#58;ContentPlaceHolder id=PlaceHolderPageTitle runat=&quot;server&quot;/{gtHTMLChar}<br>
+    {ltHTMLChar}/Title{gtHTMLChar}<br>
+    ...<br>
+    {ltHTMLChar}/HEAD{gtHTMLChar}<br>
+    {ltHTMLChar}BODY scroll=&quot;yes” ... {gtHTMLChar}<br>
+    {ltHTMLChar}form runat=&quot;server&quot; onsubmit=&quot;return _spFormOnSubmitWrapper();&quot;{gtHTMLChar}<br>
+    {ltHTMLChar}WebPartPages&#58;SPWebPartManager id=&quot;m&quot; runat=&quot;Server&quot;/{gtHTMLChar}<br>
+    <font style="background-color&#58;#ffff80;">{ltHTMLChar}table class=&quot;ms-main&quot; CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot; HEIGHT=&quot;100%&quot;{gtHTMLChar}</font><br>
+    {ltHTMLChar}tr{gtHTMLChar}<br>
+    {ltHTMLChar}td{gtHTMLChar}<br>
+    {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderGlobalNavigation&quot; runat=&quot;server&quot;{gtHTMLChar}<br>
+    <font style="background-color&#58;#ffff80;">{ltHTMLChar}table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot;{gtHTMLChar}</font><br>
+    ...<br>
+    {ltHTMLChar}/table{gtHTMLChar}<br>
+    {ltHTMLChar}/asp&#58;ContentPlaceHolder{gtHTMLChar}<br>
+    {ltHTMLChar}/td{gtHTMLChar}<br>
+    {ltHTMLChar}/tr{gtHTMLChar}<br>
+    {ltHTMLChar}tr{gtHTMLChar}<br>
+    ...<br>
+    {ltHTMLChar}/tr{gtHTMLChar}<br>
+    {ltHTMLChar}tr{gtHTMLChar}<br>
+    {ltHTMLChar}td id=&quot;onetIdTopNavBarContainer&quot; WIDTH=100% class=&quot;ms-bannerContainer&quot;{gtHTMLChar}<br>
+    {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderTopNavBar&quot; runat=&quot;server&quot;{gtHTMLChar}<br>
+    ...<br>
+    {ltHTMLChar}/asp&#58;ContentPlaceHolder{gtHTMLChar}<br>
+    {ltHTMLChar}/td{gtHTMLChar}<br>
+    {ltHTMLChar}/tr{gtHTMLChar}<br>
+    {ltHTMLChar}tr height=&quot;100%&quot;{gtHTMLChar}<br>
+    {ltHTMLChar}td{gtHTMLChar}<br>
+    <font style="background-color&#58;#ffff80;">{ltHTMLChar}table width=&quot;100%&quot; height=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;{gtHTMLChar}</font><br>
+    ...<br>
+    {ltHTMLChar}/table{gtHTMLChar}<br>
+    {ltHTMLChar}/td{gtHTMLChar}<br>
+    {ltHTMLChar}/tr{gtHTMLChar}<br>
+    {ltHTMLChar}/table{gtHTMLChar}<br>
+    {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderFormDigest&quot; runat=&quot;server&quot;{gtHTMLChar}<br>
+    ...<br>
+    {ltHTMLChar}/asp&#58;ContentPlaceHolder{gtHTMLChar}<br>
+    ...<br>
+    {ltHTMLChar}/form{gtHTMLChar}<br>
+    {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderUtilityContent&quot; runat=&quot;server&quot;/{gtHTMLChar}<br>
+    {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderBodyAreaClass&quot; runat=&quot;server&quot;/{gtHTMLChar}<br>
+    {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderTitleAreaClass&quot; runat=&quot;server&quot;/{gtHTMLChar}<br>
+    {ltHTMLChar}/BODY{gtHTMLChar}<br>
+    {ltHTMLChar}/HTML{gtHTMLChar} </dt>
+    <dd>Bad example - using default master page </dd>
+</dl>
+<p>So we recommend using the minimal master page which includes the necessary placeholders.<br>
+To create a minimal master page</p>
+<ol>
+    <li>Open SharePoint Designer. </li>
+    <li>On the File menu, click New, point to SharePoint Content, and then click the Page tab. </li>
+    <li>Double-click Master Page to create a new master page. </li>
+    <li>Click Design to show the master page in design view. You should see header and left margin areas and several content placeholders in the master page. </li>
+    <li>Click Code to show the master page in code view. </li>
+    <li>Copy the code from <a href="http&#58;//msdn.microsoft.com/en-us/library/aa660698.aspx">How to&#58; Create a Minimal Master Page</a>&#160;into the master page.
+    <dl class="goodCode">
+        <dt>{ltHTMLChar}%@ Master language=&quot;C#&quot; %{gtHTMLChar}<br>
+        ...<br>
+        {ltHTMLChar}html{gtHTMLChar}<br>
+        &#160;&#160;&#160; {ltHTMLChar}WebPartPages&#58;SPWebPartManager runat=&quot;server&quot;/{gtHTMLChar}<br>
+        &#160;&#160;&#160; {ltHTMLChar}SharePoint&#58;RobotsMetaTag runat=&quot;server&quot;/{gtHTMLChar}<br>
+        &#160;&#160;&#160; {ltHTMLChar}head runat=&quot;server&quot;{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}asp&#58;ContentPlaceHolder runat=&quot;server&quot; id=&quot;head&quot;{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}title{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderPageTitle&quot; runat=&quot;server&quot; /{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/title{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/asp&#58;ContentPlaceHolder{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}Sharepoint&#58;CssLink runat=&quot;server&quot;/{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderAdditionalPageHead&quot; runat=&quot;server&quot; /{gtHTMLChar}<br>
+        &#160;&#160;&#160; {ltHTMLChar}/head{gtHTMLChar}<br>
+        &#160;&#160;&#160; {ltHTMLChar}body onload=&quot;javascript&#58;_spBodyOnLoadWrapper();&quot;{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}form runat=&quot;server&quot; onsubmit=&quot;return _spFormOnSubmitWrapper();&quot;{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}wssuc&#58;Welcome id=&quot;explitLogout&quot; runat=&quot;server&quot;/{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}PublishingSiteAction&#58;SiteActionMenu runat=&quot;server&quot;/{gtHTMLChar} <br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}PublishingWebControls&#58;AuthoringContainer id=&quot;authoringcontrols&quot; runat=&quot;server&quot;{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}PublishingConsole&#58;Console runat=&quot;server&quot; /{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/PublishingWebControls&#58;AuthoringContainer{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderMain&quot; runat=&quot;server&quot; /{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}asp&#58;Panel visible=&quot;false&quot; runat=&quot;server&quot;{gtHTMLChar}<br>
+        &#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderSearchArea&quot; runat=&quot;server&quot;/{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; ...<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{ltHTMLChar}/asp&#58;Panel{gtHTMLChar}<br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/form{gtHTMLChar}<br>
+        &#160;&#160;&#160; {ltHTMLChar}/body{gtHTMLChar}<br>
+        {ltHTMLChar}/html{gtHTMLChar} </dt>
+        <dd>&#160;&#160;&#160; Good example - using minimal master page </dd>
+    </dl>
+    </li>
+    <li>On the File menu, click Save As, provide a unique file name with the .master extension, and then save the file to the master page gallery (/_catalogs/masterpage) in your site collection. </li>
+</ol>
+
+
+
