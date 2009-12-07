@@ -37,7 +37,7 @@ We like to have debugging information in our application, so that we can view th
 <table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
     <tbody>
         <tr>
-            <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx#Release">SSW Code Auditor</a> to check for this rule.</td>
+            <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule.</td>
         </tr>
     </tbody>
 </table>
