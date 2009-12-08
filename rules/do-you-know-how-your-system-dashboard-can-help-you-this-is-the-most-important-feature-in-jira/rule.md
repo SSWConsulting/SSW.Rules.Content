@@ -11,13 +11,13 @@ related: []
 ---
 
 
-The SSW <a shape="rect" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" class="ms-rteCustom-External">System Dashboard </a>&#160;is the Default Dashboard that is displayed as the Home Page when you enter Jira; it is all about YOU.&#160; It contains a summary of the issues that you should be dealing with immediately, those issues you are working on and have queued to work on and those issues that you have requested from others and are still outstanding. 
+The<a shape="rect" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" class="ms-rteCustom-External">System Dashboard </a>&#160;is the Default Dashboard that is displayed as the Home Page when you enter Jira; it is all about YOU.&#160; It contains a summary of the issues that you should be dealing with immediately, those issues you are working on and have queued to work on and those issues that you have requested from others and are still outstanding. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <p style="margin-right&#58;0px;" dir="ltr">The dashboard consists of a number of portlets configured by the Jira Administrator so they can be changed.&#160; You can also take a copy of the System Dashboard and modify it, name it and then share it with others.&#160; See the page on the SysAdmin dashboard.&#160; Portlets often use Filters to display their contents.&#160; Filters are also user-definable and shareable.&#160; You can search on dashboards and filters and put any of them into your favourites.<br>
 <br>
-The SSW System Dashbaord has two columns and&#160;three main &quot;areas&quot;; these areas only appear if they are relvant to you as a user and have have current content.</p>
+The System Dashbaord has two columns and&#160;three main &quot;areas&quot;; these areas only appear if they are relvant to you as a user and have have current content.</p>
 <ol>
     <li>Issues requiring your immediate attention </li>
     <li>Reported Issues </li>
@@ -30,8 +30,7 @@ System Dashboard example&#58;<br>
 <br>
 <img alt="" style="width&#58;950px;height&#58;656px;" src="/Standards/Management/rulesforbetterjira/PublishingImages/SystemDashboardExample.png" />The specification of the dashboard is&#58;<br>
 <br>
-<img width="900" height="855" alt="" src="/Standards/Management/rulesforbetterjira/PublishingImages/SystemDashboardSpec.png" /><br>
-</p>
+<img width="900" height="855" alt="" src="/Standards/Management/rulesforbetterjira/PublishingImages/SystemDashboardSpec.png" /></p>
 
 
 
