@@ -14,7 +14,10 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+In MOSS 2007, to run a public&#160;internet site on SharePoint included many hidden costs that soon accumulate to a big number that puts it out of the reach of most small and medium companies.<br>
+<br>
+As a rough calculation -&#160;it costs over $160k to run 3 MOSS servers with internet license for internet sites.&#160; As much as people loved the features of MOSS for publishing sites - this was a major drawback.
+
 <br><excerpt class='endintro'></excerpt><br>
 Microsoft recognised this problem, and in SharePoint 2010 line up, they added an additional &quot;SharePoint 2010 for Internet Sites&quot; licenses for standard and enterpise features.&#160;<br>
 <br>
