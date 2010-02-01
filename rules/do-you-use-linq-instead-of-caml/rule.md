@@ -14,7 +14,13 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+In SharePoint development, it is always a good practice to use LINQ, instead of CAML.<br>
+Why CAML is bad?
+<ul>
+    <li>New language skills required for .NET developers </li>
+    <li>No IntelliSense or strongly typed objects </li>
+</ul>
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Why LINQ is good? </p>
