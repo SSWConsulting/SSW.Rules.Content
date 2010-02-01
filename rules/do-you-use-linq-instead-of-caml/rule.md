@@ -11,7 +11,13 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> In SharePoint development, it is always a good practice to use LINQ, instead of CAML.<br>
+Why CAML is bad?
+<ul>
+    <li>New language skills required for .NET developers </li>
+    <li>No IntelliSense or strongly typed objects </li>
+</ul>
+ </span>
 
 
   <p>Why LINQ is good? </p>
