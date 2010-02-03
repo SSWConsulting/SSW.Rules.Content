@@ -43,8 +43,8 @@ First, the reason to cause the style issue is the style doesn’t apply to right
 <img width="560" height="345" alt="Start copying content over" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/CopyFromNotePad.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Start copying content over</font>4. Insert the image<br>
 <img width="608" height="378" style="width&#58;586px;height&#58;356px;" class="ms-rteCustom-ImageArea" alt="Insert an image" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/InsertImage.jpg" /><br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Insert an image</font>5. Add an image<br>
-<br>
+<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58;&#160;Add a link to text</font>5. Add an image<br>
+<img width="582" height="344" alt="Insert an image" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleInsertImage.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Inser an image</font>6.&#160;Press “enter” key to start a new row, then copy the figure from notepad to the Telerik editor area<br>
 <img width="412" height="336" class="ms-rteCustom-ImageArea" alt="Add figure" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleAddFigure.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Add figure</font>7.&#160;Apply image style to the image by click on the image, then choose a style from “Apply CSS Class” dropdown list<br>
@@ -57,8 +57,7 @@ First, the reason to cause the style issue is the style doesn’t apply to right
 <img width="462" height="143" class="ms-rteCustom-ImageArea" alt="Apply style to the figure" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleFigure.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Apply yellow border box to the content</font>10. Check in the changes, then you will have - &quot;dada..&quot;<br>
 <img width="511" height="176" class="ms-rteCustom-ImageArea" alt="Right stlye in use" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleResult.jpg" /><br>
-Figure&#58; Right style in use<br>
-</p>
+<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Right style in use</font></p>
 
 
 
