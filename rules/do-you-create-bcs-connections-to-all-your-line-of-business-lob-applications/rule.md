@@ -11,7 +11,18 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> In SharePoint 2007, we have Business Data Catalog to connect SharePoint to other line of business applications.  <br>
+When you connect your other systems to SharePoint you can then have one central place to see your data&#58;<br>
+<ol>
+    <li>
+    Microsoft CRM connected to SharePoint allows you to search for CRM contacts from SharePoint
+    </li>
+    <li>TFS connected to SharePoint lets you see the project documents and reports via SharePoint
+    </li>
+    <li>Your roster system connected to SharePoint allows you to see those calendars in SharePoint
+    </li>
+</ol>
+ </span>
 
 In SharePoint 2010 – the Business Data Catalog is upgraded to the new Business Data Connectivity Service (BCS).<br>
 <ol>
