@@ -26,13 +26,13 @@ First, the reason to cause the style issue is the style doesn’t apply to right
 <ul>
     <li>there is no style apply to figure; </li>
 </ul>
-<p><font class="ms-rteCustom-CodeArea" size="+0">{ltHTMLChar}span class=&quot;ms-rteCustom-YellowBorderBox&quot;{gtHTMLChar}We have a program called {ltHTMLChar}a href=&quot;<a href="/Standards/WebSites/RulesToBetterWebsitesLayout/Pages/originalAttribute=">http&#58;//sharepoint.ssw.com.au/Standards/WebSites/RulesToBetterWebsitesLayout/Pages/originalAttribute=</a>&quot;{gtHTMLChar}<br>
+<p><font class="ms-rteCustom-CodeArea" size="+0">{ltHTMLChar}span class=&quot;ms-rteCustom-YellowBorderBox&quot;{gtHTMLChar}We have a program called {ltHTMLChar}a href=&quot;<a href="/Standards/WebSites/RulesToBetterWebsitesLayout">http&#58;//sharepoint.ssw.com.au/Standards/WebSites/RulesToBetterWebsitesLayout/</a>&quot;{gtHTMLChar}<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160; SSW LookOut! for Outlook{ltHTMLChar}/a{gtHTMLChar} to check for this rule.<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}br /{gtHTMLChar}<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}br /{gtHTMLChar}<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<font class="ms-rteCustom-Highlight" size="+0">{ltHTMLChar}span class=&quot;ms-rteCustom-ImageArea&quot;{gtHTMLChar}<br>
 </font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}img style=&quot;border-bottom&#58; 0px solid; border-left&#58; 0px solid; border-top&#58; 0px solid;<br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; border-right&#58; 0px solid;&quot; border=&quot;0&quot; alt=&quot;Lookout Reply All BCC Warning&quot; src=&quot;<a href="/Standards/WebSites/RulesToBetterWebsitesLayout/Pages/originalAttribute=">http&#58;//sharepoint.ssw.com.au/Standards/WebSites/RulesToBetterWebsitesLayout/Pages/originalAttribute=</a>&quot; /{gtHTMLChar}<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; border-right&#58; 0px solid;&quot; border=&quot;0&quot; alt=&quot;Lookout Reply All BCC Warning&quot; src=&quot;<a href="/Standards/WebSites/RulesToBetterWebsitesLayout">http&#58;//sharepoint.ssw.com.au/Standards/WebSites/RulesToBetterWebsitesLayout</a>&quot; /{gtHTMLChar}<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}br /{gtHTMLChar}<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<font class="ms-rteCustom-Highlight" size="+0">{ltHTMLChar}/span{gtHTMLChar}</font>{ltHTMLChar}b{gtHTMLChar}<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}br /{gtHTMLChar}<br>
