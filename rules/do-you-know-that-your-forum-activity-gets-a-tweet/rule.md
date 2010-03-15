@@ -23,7 +23,15 @@ related: []
 <p>Just helped someone from Rexburg, US with a question about *diligence* ...on Aardvark! <a shape="rect" href="http&#58;//vark.com/t/1ec7cd">http&#58;//vark.com/t/1ec7cd</a> <a shape="rect" href="http&#58;//twitter.com/MrHinsh/status/10379123354">4&#58;29 PM Mar 12th </a>via <a shape="rect" href="http&#58;//vark.com/"><font color="#4060a0">Aardvark</font></a><br>
 <strong>Figure&#58; Good example, Aardvark tweets are built in.</strong></p>
 </blockquote>
-<p>Maybe your followers will want to chip in with a better answer. </p>
+<p>Maybe your followers will want to chip in with a better answer. <br>
+<br>
+This is done by finding your &quot;activity&quot; feed on the forum&#58;</p>
+<blockquote style="margin-right&#58;0px;" dir="ltr">
+<p>Activity feed from&#160;for Microsoft <br>
+<a shape="rect" href="http&#58;//services.social.microsoft.com/Feeds/Activities?user=MrHinsh&amp;lcid=en-US&amp;brand=Msdn&amp;format=rss20">http&#58;//services.social.microsoft.com/Feeds/Activities?user=MrHinsh&amp;lcid=en-US&amp;brand=Msdn&amp;format=rss20</a></p>
+<p>Activity feed from&#160;StackOverflow<br>
+<a shape="rect" href="http&#58;//stackoverflow.com/feeds/user/11799">http&#58;//stackoverflow.com/feeds/user/11799</a></p>
+</blockquote>
 
 <br><excerpt class='endintro'></excerpt><br>
 
