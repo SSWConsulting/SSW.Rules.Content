@@ -17,37 +17,19 @@ redirects: []
 
 
 
-  <p style="margin&#58;0cm 0cm 0pt;">
-    <span style="color&#58;black;">
-      <font face="Verdana">
-        <font size="2">The purpose of a rule is to effectively establish and record a process to guide employees in their day to day activities. </font>
-      </font>
-    </span>
-  </p>
+  <p>The purpose of a rule is to effectively establish and record a process to guide employees in their day to day activities. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>
-    <span style="color&#58;black;">
-      <font face="Verdana">
-        <font size="2">
-          <font face="Verdana">
-            <font size="2">Rules facilitate&#58;</font> </font>
-        </font>
-      </font>
-    </span>
-  </p>
+  <p>Rules facilitate&#58;</p>
 <ul>
-    <li><span style="color&#58;black;"><font face="Verdana"><font size="2">Consistency
-    <li><span style="color&#58;black;"><font face="Verdana"><font size="2">Coherent instruction
-    <li><span style="color&#58;black;"><font face="Verdana"><font size="2">A&#160;high standard of documentation
-    <li><span style="color&#58;black;"><font face="Verdana"><font size="2">Better understanding of processes</font></font></span></li>
-    <li><span style="color&#58;black;"><font face="Verdana"><font size="2"><span style="color&#58;black;"><font size="2"><font face="Verdana">Efficiency improvements</font></font></span> </font></font></span></li>
-    </font></font></span></li>
-    </font></font></span></li>
-    </font></font></span></li>
+    <li>Consistency</li>
+    <li>Coherent instruction</li>
+    <li>A&#160;high standard of documentation</li>
+    <li>Better understanding of processes</li>
+    <li>Efficiency improvements</li>
 </ul>
-<p style="margin&#58;0cm 0cm 0pt;"><span style="color&#58;black;"><font size="2"><font face="Verdana">Only write a rule after the situation has happened more than once – chances are it will happen again and a rule/standard should be created.</font></font></span></p>
+<p>Only write a rule after the situation has happened more than once – chances are it will happen again and a rule/standard should be created.</p>
 
 
 
