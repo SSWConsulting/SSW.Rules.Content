@@ -9,7 +9,10 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Your good and bad examples should be concise and to the point. <br>
+<br>
+Keep it simple, stupid &#58;) 
+ </span>
 
 
 
