@@ -17,7 +17,8 @@ redirects:
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Consistency across your similar pages (such as standards pages in this case) is very important and should be made easy to implement. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Guidelines/standards and rules for the SSW website pages can be found at&#58; </p>
