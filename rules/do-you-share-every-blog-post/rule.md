@@ -16,19 +16,22 @@ related: []
 
 
 
-  <p>You should always publish your blog posts to Twitter. It helps boost traffic and visability for your site.<br>
-<br>
-You do not need to do this manualy, there are services out there that will monitor your blogs RSS or ATOM feed and publish when you do.</p>
-<ul>
-    <li><a shape="rect" href="http&#58;//twitterfeed.com/" target="_blank">TwitterFeed</a> - This service offers a dedicated established service that will publish your feed to Twitter and Facebook. </li>
-    <li><a shape="rect" href="http&#58;//feedburner.com/" target="_blank">FeedBurner</a>&#160;- The feedburner service is provided by google and will monitor subscriptions and usage of your feeds. </li>
-</ul>
-<p style="margin-right&#58;0px;" dir="ltr">note&#58; it does not even have to be a blog, any RSS feed will do.</p>
-<blockquote style="margin-right&#58;0px;" dir="ltr">
-<p style="margin-right&#58;0px;" dir="ltr">Blogging about When should I use Areas in TFS instead of Team Projects&#58; Well, it depends…. If you are a small com... <span style="font-family&#58;'calibri', 'sans-serif';color&#58;windowtext;"><a shape="rect" href="http&#58;//bit.ly/cWqluq" target="_blank"><span style="font-family&#58;'times new roman', 'serif';color&#58;#ce0913;">http&#58;//bit.ly/cWqluq</span></a></span> <span style="font-family&#58;'calibri', 'sans-serif';color&#58;windowtext;"><a shape="rect" href="http&#58;//twitter.com/MrHinsh/status/10218433605"><span style="font-family&#58;'times new roman', 'serif';color&#58;#ce0913;">about 15 hours ago </span></a></span>via <span style="font-family&#58;'calibri', 'sans-serif';color&#58;windowtext;"><a shape="rect" href="http&#58;//twitterfeed.com/"><span style="font-family&#58;'times new roman', 'serif';color&#58;#ce0913;">twitterfeed</span></a></span> </p>
-</blockquote>
+  <p>You should always publish your blog posts to Twitter. It helps boost traffic and visibility for your site.</p>
+<p>Make it automatic. You do not need to do this manually, there are services out there that will monitor your blogs RSS or ATOM feed and publish when you do.</p>
+<p>The best one is&#58;</p>
 
 <br><excerpt class='endintro'></excerpt><br>
+&#160;
+<ul>
+    <li><a shape="rect" href="http&#58;//twitterfeed.com/" target="_blank">TwitterFeed</a> - This offers a dedicated established service that will publish your feed to Twitter and Facebook. </li>
+</ul>
+<p>&#160;Unfortunately this automated service does not automatically add hashtags. (Suggestion&#58; they should take this from your &quot;categories&quot; or &quot;labels&quot; that you use to tag your posts).<br>
+So the solution is to &quot;double tweet&quot; your blog post, adding useful hash tags.<br>
+</p>
+<p><font class="ms-rteCustom-GreyBox" size="+0">Do you know the minimum builds to create on any branch? <a href="http&#58;//bit.ly/aXeGmU">http&#58;//bit.ly/aXeGmU</a>&#160;&#160;&#160; 1&#58;51 AM Mar 19th&#160;&#160; via twitterfeed<br>
+</font><font class="ms-rteCustom-FigureBad" size="+0">Bad example - Leaving only this automated one, that came from twitterfeed (missing hash tags) </font><br>
+<font class="ms-rteCustom-GreyBox" size="+0">Do you know the minimum builds to create on any branch? <a href="http&#58;//bit.ly/aXeGmU">http&#58;//bit.ly/aXeGmU</a>&#160;&#160;&#160; 1&#58;51 AM Mar 19th&#160;&#160; via twitterfeed(Adding hashtags) Do you know the minimum builds to create on any branch? <a href="http&#58;//goo.gl/fb/Q71F">http&#58;//goo.gl/fb/Q71F</a>&#160; #ssw #sswrules #vsalm #vsalmbuild&#160;&#160;&#160; 1&#58;51 AM Mar 19th&#160;&#160; via Google<br>
+</font><font class="ms-rteCustom-FigureGood" size="+0">Good example - Adding hash tags to your automated tweet </font>&#160;</p>
 
 
 
