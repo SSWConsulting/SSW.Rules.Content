@@ -18,8 +18,7 @@ authors:
 
 Always make sure you clearly reallocate a task with an email like the good example below&#58; <br>
 <span class="ms-rteCustom-GreyBox" style="width&#58;546px;height&#58;237px;">
-<pre>
-New,
+<pre>New,
 
 I already talked with Sergei, he will handle it.
 ________________________________________
@@ -37,8 +36,7 @@ keeps crashing when I do a search under 'Company', please fix
 </span><span class="ms-rteCustom-FigureBad">Figure&#58; Bad example - task not clearly redirected </span><br>
 <br>
 <span class="ms-rteCustom-GreyBox" style="width&#58;547px;height&#58;237px;">
-<pre>
-Sergei
+<pre>Sergei
 
 As per our conversation - please action
 ________________________________________
@@ -55,8 +53,8 @@ keeps crashing when I do a search under 'Company', please fix
 </pre>
 </span><span class="ms-rteCustom-FigureGood">Figure&#58; Good example - task clearly redirected</span> <br>
 <br>
-If you need to handover an entire project there are more details here&#58;<br>
-<a shape="rect" href="/Standards/Management/RulesToSuccessfulProjects/Pages/HandOverProject.aspx">http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToSuccessfulProjects/Pages/HandOverProject.aspx</a> <br>
+<p>If you need to handover an entire project there are more details here&#58;<br>
+<a shape="rect" href="/Standards/Management/RulesToSuccessfulProjects/Pages/HandOverProject.aspx">http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToSuccessfulProjects/Pages/HandOverProject.aspx</a> <br></p>
 
 
 
