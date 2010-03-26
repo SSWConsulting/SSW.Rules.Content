@@ -58,7 +58,7 @@ Subject&#58;&#160;SSW - Northwind handover</b></p>
         <p>Nothing</p>
         </li>
         <li>Data storage
-        <p><a shape="rect" href="file&#58;//server/DataSSW/SSWProducts/Northwind">file&#58;//server/DataSSW/SSWProducts/Northwind</a></p>
+        <p><a>file&#58;//server/DataSSW/SSWProducts/Northwind</a></p>
         </li>
         <li>Deployment
         <p>Make a build by using WISE<br>
