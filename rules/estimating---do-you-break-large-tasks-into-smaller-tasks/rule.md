@@ -9,13 +9,13 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>A task should never take more than a day (8 hours) to be completed.</p>
+ </span>
 
 
-  <p style="margin&#58;0cm 0cm 0pt;vertical-align&#58;top;">
-    <span style="color&#58;black;font-size&#58;13.5pt;">If you have a big task, which takes more the 4 hours, you might consider breaking it in sub-tasks. In case the estimate has changed during the sprint, the “Remaining Hours” field must be update in order to have an accurate Burndown chart.</span>
-  </p>
-<p style="margin&#58;0cm 0cm 0pt;vertical-align&#58;top;"><span style="color&#58;black;font-size&#58;13.5pt;">The reason scrum limits the maximum hours is because you should always know in which task you are working and we don’t believe one single action can take that long.</span></p>
+  <p>If you have a big task, which takes more the 4 hours, you might consider breaking it in sub-tasks. In case the estimate has changed during the sprint, the “Remaining Hours” field must be update in order to have an accurate Burndown chart.</p>
+<p>The reason scrum limits the maximum hours is because you should always know in which task you are working and we don’t believe one single action can take that long.</p>
 
 
 
