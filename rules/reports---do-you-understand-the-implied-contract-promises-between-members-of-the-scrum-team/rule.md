@@ -11,105 +11,91 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
-<br><excerpt class='endintro'></excerpt><br>
+Member of the Scrum Team should understand their responsabilities and respect the implicit contract (promises) they have made. 
 
-  <p style="margin&#58;0cm 0cm 0pt;">
-    <font face="Calibri">&#160;</font>
-  </p>
-<table style="margin&#58;auto auto auto 78.35pt;border-collapse&#58;collapse;" border="0" cellspacing="0" cellpadding="0">
+<br><excerpt class='endintro'></excerpt><br>
+  <table border="1" cellspacing="0" cellpadding="4">
     <tbody>
         <tr>
-            <td width="319" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;black 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;239.4pt;padding-right&#58;5.4pt;border-top&#58;black 1pt solid;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">Role</font></p>
+            <td width="319" valign="top" bgcolor="#eeeeee">
+            <p><strong>Role</strong></p>
             </td>
-            <td width="502" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;#f0f0f0;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;376.45pt;padding-right&#58;5.4pt;border-top&#58;black 1pt solid;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">Promises </font></p>
-            </td>
-        </tr>
-        <tr>
-            <td width="319" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;black 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;239.4pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">The Organisation</font></p>
-            </td>
-            <td width="502" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;#f0f0f0;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;376.45pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;color&#58;black;font-size&#58;9pt;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">the team that there are stakeholders (including subject matter experts) who will help when needed</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;color&#58;black;font-size&#58;9pt;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">the team that there are stakeholders (including subject matter experts) who will help when needed</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;color&#58;black;font-size&#58;9pt;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">they will help the ScrumMaster in the removal of impediments to the Scrum team’s progress</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;color&#58;black;font-size&#58;9pt;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">the team that they will not change priorities or constraints in the middle of a sprint without team’s consent</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;color&#58;black;font-size&#58;9pt;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">that being on a Scrum team will not hurt the members’ careers</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;color&#58;black;font-size&#58;9pt;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">not to divert team members to other work on a Scrum Day during a sprint</span></span></p>
-            </span></p>
-            </span></p>
-            </span></p>
-            </span></p>
-            </span></p>
+            <td width="502" valign="top" bgcolor="#eeeeee">
+            <p><strong>Promises </strong></p>
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;black 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;239.4pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">Product Owner</font></p>
+            <td width="319" valign="top">
+            <p>The Organisation</p>
             </td>
-            <td width="502" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;#f0f0f0;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;376.45pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to supply an initial product backlog</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to prioritize the product backlog when needed</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to be responsive to requests for feedback and clarification</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">empowered “voice of the customer” will be provided to answer business domain questions promptly (minutes or hours, not days)</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to attend every Review, Retrospective</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">not to change priorities or scope during a sprint</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">not to direct team members to do work not agreed and planned at the beginning of the sprint</span></span></p>
-            </span></p>
-            </span></p>
-            </span></p>
-            </span></p>
-            </span></p>
-            </span></p>
+            <td width="502" valign="top">
+            <ul>
+                <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
+                <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
+                <li>they will help the ScrumMaster in the removal of impediments to the Scrum team’s progress </li>
+                <li>the team that they will not change priorities or constraints in the middle of a sprint without team’s consent </li>
+                <li>that being on a Scrum team will not hurt the members’ careers </li>
+                <li>not to divert team members to other work on a Scrum Day during a sprint </li>
+            </ul>
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;black 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;239.4pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">ScrumMaster</font></p>
+            <td width="319" valign="top">
+            <p>Product Owner</p>
             </td>
-            <td width="502" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;#f0f0f0;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;376.45pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to keep the team healthy by focusing on the removal of impediments, both internal and external</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to protect the team from external distractions</span></span></p>
-            </span></p>
+            <td width="502" valign="top">
+            <ul>
+                <li>to supply an initial product backlog </li>
+                <li>to prioritize the product backlog when needed </li>
+                <li>to be responsive to requests for feedback and clarification </li>
+                <li>empowered “voice of the customer” will be provided to answer business domain questions promptly (minutes or hours, not days) </li>
+                <li>to attend every Review, Retrospective </li>
+                <li>not to change priorities or scope during a sprint </li>
+                <li>not to direct team members to do work not agreed and planned at the beginning of the sprint </li>
+            </ul>
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;black 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;239.4pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">The Team</font></p>
+            <td width="319" valign="top">
+            <p>ScrumMaster</p>
             </td>
-            <td width="502" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;#f0f0f0;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;376.45pt;padding-right&#58;5.4pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">that its work will be transparent, that it will make decisions and solve problems as a group, and that no individual team member will be left behind</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to take prioritization and scope from the product owner on the team driving the team based on stakeholders interests</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to use the stakeholders’ time wisely, by focusing on questions that are relevant to the work being done now</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to do quality work the best way they know how within the constraints set forth by the organization</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to deliver demonstrable product at the end of every sprint for review and validation by the stakeholders</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to endeavour to become multi-skilled by sharing and pairing and not relying on experts on the team for specific functions</span></span></p>
-            </span></p>
-            </span></p>
-            </span></p>
-            </span></p>
-            </span></p>
+            <td width="502" valign="top">
+            <ul>
+                <li>to keep the team healthy by focusing on the removal of impediments, both internal and external </li>
+                <li>to protect the team from external distractions </li>
+            </ul>
             </td>
         </tr>
-        <tr style="height&#58;76.5pt;">
-            <td width="319" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;black 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;239.4pt;padding-right&#58;5.4pt;height&#58;76.5pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">Team Member</font></p>
+        <tr>
+            <td width="319" valign="top">
+            <p>The Team</p>
             </td>
-            <td width="502" valign="top" style="border-bottom&#58;black 1pt solid;border-left&#58;#f0f0f0;padding-bottom&#58;0cm;background-color&#58;transparent;padding-left&#58;5.4pt;width&#58;376.45pt;padding-right&#58;5.4pt;height&#58;76.5pt;border-top&#58;#f0f0f0;border-right&#58;black 1pt solid;padding-top&#58;0cm;">
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to bring issues, problems, impediments and realities encountered to the team</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to be available and working with the team on every defined Scrum Day of a sprint in which they committed and any required absences will be scheduled before the beginning of the sprint</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to attend every Scrum, Review, Retrospective &amp; Planning Meeting</span>
-            <p style="margin&#58;0cm 0cm 0pt 36pt;"><span style="font-family&#58;symbol;"><span>·<span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span></span><span style="font-family&#58;'trebuchet ms', 'sans-serif';color&#58;black;font-size&#58;9pt;">to refer any external request that will take more than 15 minutes of Scrum Day time to the ScrumMaster</span></span></p>
-            </span></p>
-            </span></p>
-            </span></p>
+            <td width="502" valign="top">
+            <ul>
+                <li>that its work will be transparent, that it will make decisions and solve problems as a group, and that no individual team member will be left behind </li>
+                <li>to take prioritization and scope from the product owner on the team driving the team based on stakeholders interests </li>
+                <li>to use the stakeholders’ time wisely, by focusing on questions that are relevant to the work being done now </li>
+                <li>to do quality work the best way they know how within the constraints set forth by the organization </li>
+                <li>to deliver demonstrable product at the end of every sprint for review and validation by the stakeholders </li>
+                <li>to endeavour to become multi-skilled by sharing and pairing and not relying on experts on the team for specific functions </li>
+            </ul>
+            </td>
+        </tr>
+        <tr>
+            <td width="319" valign="top">
+            <p>Team Member</p>
+            </td>
+            <td width="502" valign="top">
+            <ul>
+                <li>to bring issues, problems, impediments and realities encountered to the team </li>
+                <li>to be available and working with the team on every defined Scrum Day of a sprint in which they committed and any required absences will be scheduled before the beginning of the sprint </li>
+                <li>to attend every Scrum, Review, Retrospective &amp; Planning Meeting </li>
+                <li>to refer any external request that will take more than 15 minutes of Scrum Day time to the ScrumMaster </li>
+            </ul>
             </td>
         </tr>
     </tbody>
 </table>
-<p style="margin&#58;0cm 0cm 0pt;"><font face="Calibri">&#160;</font></p>
 
 
 
