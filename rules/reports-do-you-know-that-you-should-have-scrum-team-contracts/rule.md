@@ -19,15 +19,13 @@ Working together as a team is hard. Especially with the distractions that are ar
 <br><excerpt class='endintro'></excerpt><br>
 
   <blockquote>
-    <blockquote style="margin-right&#58;0px;" dir="ltr">
 <p>Scrum defines three distinct roles that must work together as a <strong>Scrum team</strong> to produce a successful product. The <strong>product owner</strong> is responsible for understanding what stakeholders require, interpreting these requirements for the team, and providing clear prioritized direction. The <strong>team</strong> is composed of those people actively engaged in building the product. The team collectively and members individually are responsible for building the product according to the priorities and requirements provided by the product owner. The team is completely responsible for deciding how to achieve its goals and how to organize its work. Finally, the <strong>ScrumMaster</strong> is responsible for the health of the process, reporting the progress of the team, and removing impediments to progress. <br>
-- From <a shape="rect" href="http&#58;//www.scrumalliance.org/articles/21-contracts-for-implementing-scrum"><font color="#000080">http&#58;//www.scrumalliance.org/articles/21-contracts-for-implementing-scrum</font></a> </p>
+- From <a shape="rect" href="http&#58;//www.scrumalliance.org/articles/21-contracts-for-implementing-scrum">http&#58;//www.scrumalliance.org/articles/21-contracts-for-implementing-scrum</a> </p>
 </blockquote>
 <p>With these roles come a number of promises between the three parties, the Product Owner, the ScrumMaster and the Team. These promises should be formalised so that everyone knows where they stand.</p>
-<p><a shape="rect" href="http&#58;//www.scrumalliance.org/resource_download/5" title="http&#58;//www.scrumalliance.org/resource_download/5" target="_blank"><font color="#000080">Contract between the Organization and the Team</font></a></p>
-<p><a shape="rect" href="http&#58;//www.scrumalliance.org/resource_download/4" title="Download Now"><font color="#000080">Sample Contract between Members of the Scrum Team</font></a></p>
+<p><a shape="rect" href="http&#58;//www.scrumalliance.org/resource_download/5" title="http&#58;//www.scrumalliance.org/resource_download/5" target="_blank">Contract between the Organization and the Team</a></p>
+<p><a shape="rect" href="http&#58;//www.scrumalliance.org/resource_download/4" title="Download Now">Sample Contract between Members of the Scrum Team</a></p>
 <p>You will probably need to customise these document, but they are a good start.</p>
-</blockquote>
 
 
 
