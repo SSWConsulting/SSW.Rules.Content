@@ -13,7 +13,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+When you create tasks in Scrum you are doing this within a time box and you tend to add only the information you need to remember what the task is. And the entire Team was at the meeting and were involved in the&#160;discussions around the task, so why do you need more? 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Once you have accepted a task you should then add as much information as possible so that anyone can pick up that task; what if your numbers come up? Will you be into work the next day?</p>
