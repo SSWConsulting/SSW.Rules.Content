@@ -9,8 +9,9 @@ authors: []
 
 
 
-<span class='intro'> Member of the Scrum Team should understand their responsabilities and respect the implicit contract (promises) they have made. 
+<span class='intro'> Member of the Scrum Team should understand their&#160;responsibilities and respect the implicit contract (promises) they have made. 
  </span>
+
 
   <table border="1" cellspacing="0" cellpadding="4">
     <tbody>
