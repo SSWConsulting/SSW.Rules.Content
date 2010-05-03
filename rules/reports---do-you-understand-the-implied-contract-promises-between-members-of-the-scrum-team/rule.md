@@ -18,18 +18,18 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
   <table border="1" cellspacing="0" cellpadding="4">
     <tbody>
         <tr>
-            <td width="319" valign="top" bgcolor="#eeeeee">
+            <td bgcolor="#eeeeee" valign="top" width="319">
             <p><strong>Role</strong></p>
             </td>
-            <td width="502" valign="top" bgcolor="#eeeeee">
+            <td bgcolor="#eeeeee" valign="top" width="502">
             <p><strong>Promises </strong></p>
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top">
-            <p>The Organisation</p>
+            <td valign="top" width="319">
+            <p>The Organization</p>
             </td>
-            <td width="502" valign="top">
+            <td valign="top" width="502">
             <ul>
                 <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
                 <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
@@ -41,10 +41,10 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top">
+            <td valign="top" width="319">
             <p>Product Owner</p>
             </td>
-            <td width="502" valign="top">
+            <td valign="top" width="502">
             <ul>
                 <li>to supply an initial product backlog </li>
                 <li>to prioritize the product backlog when needed </li>
@@ -57,10 +57,10 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top">
+            <td valign="top" width="319">
             <p>ScrumMaster</p>
             </td>
-            <td width="502" valign="top">
+            <td valign="top" width="502">
             <ul>
                 <li>to keep the team healthy by focusing on the removal of impediments, both internal and external </li>
                 <li>to protect the team from external distractions </li>
@@ -68,25 +68,25 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top">
+            <td valign="top" width="319">
             <p>The Team</p>
             </td>
-            <td width="502" valign="top">
+            <td valign="top" width="502">
             <ul>
                 <li>that its work will be transparent, that it will make decisions and solve problems as a group, and that no individual team member will be left behind </li>
                 <li>to take prioritization and scope from the product owner on the team driving the team based on stakeholders interests </li>
                 <li>to use the stakeholders’ time wisely, by focusing on questions that are relevant to the work being done now </li>
                 <li>to do quality work the best way they know how within the constraints set forth by the organization </li>
                 <li>to deliver demonstrable product at the end of every sprint for review and validation by the stakeholders </li>
-                <li>to endeavour to become multi-skilled by sharing and pairing and not relying on experts on the team for specific functions </li>
+                <li>to endeavor to become multi-skilled by sharing and pairing and not relying on experts on the team for specific functions </li>
             </ul>
             </td>
         </tr>
         <tr>
-            <td width="319" valign="top">
+            <td valign="top" width="319">
             <p>Team Member</p>
             </td>
-            <td width="502" valign="top">
+            <td valign="top" width="502">
             <ul>
                 <li>to bring issues, problems, impediments and realities encountered to the team </li>
                 <li>to be available and working with the team on every defined Scrum Day of a sprint in which they committed and any required absences will be scheduled before the beginning of the sprint </li>
