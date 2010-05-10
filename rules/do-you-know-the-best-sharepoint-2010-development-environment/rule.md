@@ -48,7 +48,7 @@ In SharePoint 2010 – the scenery has changed a little. These are all your opti
     Tip #4&#58; The 64-bit requirement means, your host must be x64 to run the virtual machines in x64 </li>
     <li>Use ‘Boot’ to VHD (Recommended) <br>
     Note&#58; Only if you have Windows 7 as the host<br>
-    See&#58; Less Virtual, More Machine - Windows 7 and the magic of Boot to VHD </li>
+    See&#58; <a href="http&#58;//www.hanselman.com/blog/LessVirtualMoreMachineWindows7AndTheMagicOfBootToVHD.aspx">Less Virtual, More Machine - Windows 7 and the magic of Boot to VHD</a> </li>
     <li>Install SharePoint 2010 on your Windows 7 PC (Not Recommended)<br>
     You are not fully representing the production server </li>
 </ul>
