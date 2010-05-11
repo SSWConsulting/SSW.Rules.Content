@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Facebook recommendations are a great way to publicize your pages without blatant advertising. 
+ </span>
 
 
   <img alt="" src="/Standards/Communication/RulesToBetterSocialNetworking/PublishingImages/Facebook_Recommend01.jpg" /> <br>
