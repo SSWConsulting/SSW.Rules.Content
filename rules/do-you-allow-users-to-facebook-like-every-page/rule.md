@@ -13,7 +13,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Facebook recommendations are a great way to publicize your pages without blatant advertising. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <img alt="" src="/Standards/Communication/RulesToBetterSocialNetworking/PublishingImages/Facebook_Recommend01.jpg" /> <br>
