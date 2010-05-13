@@ -13,11 +13,13 @@ redirects:
 ---
 
 
-The role of the <a shape="rect" href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx"><font color="#000080">Story Owner</font></a>&#160;is like a mini project manager. They notify their team members when they are able to start tasks to ensure critical paths between tasks are identified and they conduct a “<a shape="rect" href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/TestPleaseInScrum.aspx"><font color="#000080">Test Please</font></a>” in order to make sure that what is delivered to the Product Owner and is part of&#160;the potentially shippable unit of work delivered by the Sprint. 
+The role of the <a shape="rect" href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx"><font color="#000080">Story Owner</font></a>&#160;is like a mini project manager.&#160;The story owner resolves any road blocks and performs the&#160;“<a shape="rect" href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/TestPleaseInScrum.aspx"><font color="#000080">Test Please</font></a>” and makes sure there is a good presentation at the Review Meeting. <br>
+<br>
+There are four things that the story owner is responsible for&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>At the review meeting they present their Owned stories and need to identify the computer they will use to demonstrate the story.</p>
+  <p>&#160;</p>
 <ul>
     <li>Manage / Own the story and its sub tasks </li>
     <li>Make sure a “<a shape="rect" href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/TestPleaseInScrum.aspx"><font color="#000080">Test Please</font></a>” is conducted or that their story is included in one </li>
