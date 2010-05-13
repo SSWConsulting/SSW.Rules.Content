@@ -20,7 +20,7 @@ There are four things that the story owner is responsible for&#58;
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
-    <li>&#160;Manage / Own the story and its sub tasks </li>
+    <li>Manage / Own the story and its sub tasks </li>
     <li>Make sure a “<a shape="rect" href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/TestPleaseInScrum.aspx"><font color="#000080">Test Please</font></a>” is conducted or that their story is included in one </li>
     <li>Make every effort to show the story to the Product Owner before the Sprint Review </li>
     <li>Present the completed Story at the Sprint Review<br>
