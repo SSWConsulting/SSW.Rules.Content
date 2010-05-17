@@ -13,7 +13,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+If you are going to be integrating TFS 2010 with SharePoint 2010 then there are a few things you need to do. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <h3>Single Server Deployment</h3>
