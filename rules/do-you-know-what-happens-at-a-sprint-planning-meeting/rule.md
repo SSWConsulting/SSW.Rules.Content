@@ -9,7 +9,7 @@ authors: []
 
 
 
-<span class='intro'> At this meeting The Team decide how to implement the chosen stories for the Sprint. 
+<span class='intro'> At this meeting The Team decides how to implement the chosen stories for the Sprint. 
  </span>
 
 For each story The Team self-organises to decide HOW to implement it.&#160; They create tasks, with sub-tasks where necessary, for everything that needs to be done to implement the story.&#160; Every task and sub-task&#160;should be given an estimate&#160;in hours and the same value placed in the Remaining field.<br>
@@ -20,7 +20,7 @@ The Team should also ensure that the burndown chart is working and will be autom
 <br>
 The meeting concludes when The Team reports to the ScrumMaster that their planning is complete and they are able to display the burndown chart.<br>
 <br>
-Ideally this meeting is timeboxed to as many hours as there will be weeks in the Sprint.&#160; However, this planning is so essential that it must continue to completion outside the meeeting if necessary. <br>
+Ideally this meeting is timeboxed to as many hours as there will be weeks in the Sprint.&#160; However, this planning is so essential that it must continue to completion outside the meeting if necessary. <br>
 <br>
 It is not essential for the Product Owner or the Scrum Master to be present for the whole meeting but they must be available for consultation. The ScrumMaster should formally close the meeting. 
 
