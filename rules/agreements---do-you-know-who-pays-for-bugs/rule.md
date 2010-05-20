@@ -11,7 +11,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+You WILL discover bugs in any newly developed software. This is perfectly normal. It's important to have a common understanding with your software developers about what to do when they arise. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>'Bugs' are generally a consequence of the development team not knowing every possible scenario when adding error handling. Generally speaking it takes developers just as long to add the error handling before you test it than after you test it. Bugs can also occur when development requirements change on the spot or work is not sufficiently specified. </p>
