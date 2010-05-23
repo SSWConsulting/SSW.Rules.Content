@@ -14,25 +14,45 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Carrying your laptop with the right stuff installed is not enough.&#160;<br>
+<br>
+Not only software, carrying your own hardware and peripherals will save you hours one day&#58; <br>
+<br>
+Here are the things you should also physically carry&#58; 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
-<table align="right" width="20%" id="Table9">
+<table id="Table9" width="20%" align="right">
     <tbody>
         <tr>
-            <td>
-            <img border="0" src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/StBernardDog.jpg" alt="Carry the right tools and you'll rescue someone, one day..." style="border&#58;0px solid;width&#58;200px;height&#58;162px;" class="ms-rteCustom-ImageArea" />
-            </td>
+            <td><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;width&#58;200px;height&#58;162px;border-top&#58;0px solid;border-right&#58;0px solid;" class="ms-rteCustom-ImageArea" border="0" alt="Carry the right tools and you'll rescue someone, one day..." src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/StBernardDog.jpg" /> </td>
         </tr>
         <tr>
             <td><span class="ms-rteCustom-FigureNormal">Figure&#58; St. Bernards are known for rescuing lost mountaineers, bringing life saving provisions</span></td>
         </tr>
     </tbody>
 </table>
-Not only software, carrying your own hardware and peripherals will save you hours one day&#58; network cables, cross-over cables, wireless cards, blank CD's, blank floppy's, software CD's, screw-drivers, even a text book or two. We have one guy in our office who carries two bags, each weighing about 10 kgs. He is the SSW St. Bernard!</p>
-<p>A spanner might get a plumber through 90% of jobs, but he'll get stuck on the last 10% if he doesn't carry anything else. I carry <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/Favourite3rdPartyTools.aspx">these tools</a> in my Tool Box every day. I hope you find them useful.</p>
-<p>&#160;</p>
+</p>
+<ul>
+    <li>Business cards </li>
+    <li>A network cable (optional) </li>
+    <li>An extension cord (optional) </li>
+    <li>A thumb drive on your key ring </li>
+    <li>An external hard drive with 4GB+ (for software ISOs) </li>
+    <li>Software DVD's (minimum Office and Visual Studio) </li>
+    <li>Current brochures - Hand them out to interested clients </li>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#PrintedStoryCard">User story cards</a>&#160;- These help Product owners create user stories </li>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/NETUG/UGEvaluationSurvey.aspx">Evaluation&#160;forms</a>&#160;- Ask for feedback if you did a presentation </li>
+    <li>Even a text book or two </li>
+</ul>
+<p>We have one guy in our office who carries two bags, each weighing about 10 kgs. He is the SSW St. Bernard!<br>
+<br>
+If you need to quickly share something with your mate&#58; </p>
+<ul>
+    <li>Use a thumb drive that you carry as per <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsWorkingInATeam.aspx#ThumbDrive">Rules to better Software Consultants - Carry a thumb drive</a> </li>
+    <li>Setup a wireless ad hoc network as per <a href="http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/">http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/</a> </li>
+</ul>
 <p>&#160;</p>
 
 
