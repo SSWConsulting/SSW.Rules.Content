@@ -14,7 +14,19 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>You don’t want to building solutions from scratch, take the business value you can, from a CMS and a CRM. Don't reinvent the wheel.<br>
+<br>
+The main choices are&#58; </p>
+<ul>
+    <li><a href="http&#58;//www.dotnetnuke.com/" class="external" target="_blank">www.DotNetNuke.com</a> </li>
+    <li><a href="http&#58;//www.microsoft.com/office/preview/servers/sharepointserver/highlights.mspx" class="external">Microsoft Sharepoint 2007</a> </li>
+    <li><a class="external" target="_blank">www.CommunityServer.org</a> </li>
+    <li>Microsoft ASP.NET 2.0 hand coded pages </li>
+</ul>
+<p>There are pros and cons to all and it depends on what functionality/customization you need but we lean towards DotNetNuke and Sharepoint for most solutions.<br>
+See <a href="http&#58;//www.ssw.com.au/ssw/Company/DotNetNuke_Sharepoint_Solutions.aspx">DotNetNuke and Sharepoint Development - The leading CMS Solutions</a>. </p>
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
