@@ -38,15 +38,16 @@ authors:
     <li>They are the best way to quickly test or experiment with something new </li>
     <li>Virtual machines can frees up resources on the host, so it doesn’t waste resource when developers are not working on SharePoint </li>
     <li>Virtual machines can be easily cloned to scale up the development team </li>
-    <li>Virtual machines enable developers to work in Windows Server 2003 / 2008 environment so they will be aware of the configuration issue when deploying to staging and production</li>
+    <li>Virtual machines enable developers to work in Windows Server 2003 / 2008 environment so they will be aware of the configuration issue when deploying to staging and production </li>
 </ol>
 <p>There are few consideration when using Virtual Machines&#58;</p>
 <ol>
-    <li>Need to activate additional servers</li>
-    <li>Need at least 2 GB of RAM for SharePoint 2007</li>
+    <li>Need to activate additional servers </li>
+    <li>Need at least 2 GB of RAM for SharePoint 2007 </li>
+    <li>Need at least 4 GB of RAM for SharePoint 2010</li>
     <li>Virtual PC does not support 64 bit of RAM
     <ul>
-        <li>If you’re using Windows 7 or Vista, we recommend using ‘boot to VHD’ or VMWare</li>
+        <li>If you’re using Windows 7 or Vista, we recommend using ‘boot to VHD’ or VMWare </li>
     </ul>
     </li>
 </ol>
