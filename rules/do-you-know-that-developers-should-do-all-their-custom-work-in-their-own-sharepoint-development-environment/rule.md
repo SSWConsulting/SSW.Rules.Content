@@ -47,8 +47,8 @@ This is to prevent their work affecting other developers. During development, yo
 <ol>
     <li>Need to activate additional servers </li>
     <li>Need at least 2 GB of RAM for SharePoint 2007 </li>
-    <li>Need at least 4 GB of RAM for SharePoint 2010</li>
-    <li>Virtual PC does not support 64 bit of RAM
+    <li>Need at least 4 GB of RAM for SharePoint 2010 </li>
+    <li>Virtual PC does not support 64 bit Operating Systems&#160;
     <ul>
         <li>If you’re using Windows 7 or Vista, we recommend using ‘boot to VHD’ or VMWare </li>
     </ul>
