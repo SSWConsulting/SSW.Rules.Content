@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> PowerPoint templates are&#160;designed to engage your audience visually and save you time. When you start creating a new presentation file, always make sure you use a template. 
+ </span>
 
 
   <dl>
