@@ -11,16 +11,17 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Your audience cannot both listen to you and read your slides at the same time. Therefore, you should not show too much text on your slides. You will find that the best presenters hardly use text at all in their slides. It is useful to push technical, complicated or textual data into a handout.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Too much text-content in one single slide" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadLessText.jpg" /></dt>
-    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Too much text-content in one single slide</dd>
+    <dt><img class="ms-rteCustom-ImageArea" alt="Too much text-content in one single slide" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/BadLessText.jpg" /> </dt>
+    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Too much text-content in one single slide </dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodLessText.jpg" /></dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Delivering information should be made simple and clear</dd>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/GoodLessText.jpg" /> </dt>
+    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Delivering information should be made simple and clear </dd>
 </dl>
 
 
