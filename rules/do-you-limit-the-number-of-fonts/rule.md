@@ -11,15 +11,16 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Each font or style should be used consistently throughout your presentation as it will help your audience garner relation. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="too many fonts used for headers" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadLimitFont.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="too many fonts used for headers" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/BadLimitFont.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Having too many fonts makes your slide look untidy </dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodLimitFont.jpg" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/GoodLimitFont.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - It is simple and professional </dd>
 </dl>
 
