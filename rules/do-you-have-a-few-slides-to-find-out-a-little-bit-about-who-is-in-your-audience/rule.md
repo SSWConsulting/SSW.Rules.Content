@@ -1,0 +1,31 @@
+
+
+---
+authors:
+
+---
+
+
+
+
+<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+
+
+  <p>Your aim in giving this presentation is to give your audience something that is&#58;</p>
+<ul>
+    <li>What they want</li>
+    <li>Important for them</li>
+    <li>Interesting to them</li>
+    <li>Relevant to them</li>
+</ul>
+<dl>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/developer.gif" /></dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Example slide for developer</dd>
+</dl>
+<dl>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/manager.gif" /></dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Example slide for manager</dd>
+</dl>
+
+
+
