@@ -11,12 +11,16 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>The logo and tagline are typically used in marketing and advertising. The general concept is to create a catchphrase that will sum up the tone of a brand and to reinforce the audience's memory of a product.</p>
+<p>
+Neither of these elements are intended to distract, so they are placed in the footer of the slide. It is present, but the influence is subtle and your audience’s focus will remain squarely on the content.
+</p>
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/tagLine.gif" /></dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Logo and Tagline are at the bottom of the slide</dd>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/tagLine.gif" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Logo and Tagline are at the bottom of the slide </dd>
 </dl>
 
 
