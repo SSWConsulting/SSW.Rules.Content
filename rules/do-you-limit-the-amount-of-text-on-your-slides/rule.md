@@ -11,7 +11,7 @@ related: []
 ---
 
 
-Your audience cannot both listen to you and read your slides at the same time. Therefore, you should not show too much text on your slides. You will find that the best presenters hardly use text at all in their slides. It is useful to push technical, complicated or textual data into a handout.
+Your audience cannot listen to you and read your slides at the same time. Therefore, you should not show too much text on your slides. The best presenters use hardly any text at all in their slides. It is useful to push technical, complicated or textual data into a handout. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
