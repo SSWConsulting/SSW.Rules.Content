@@ -11,7 +11,10 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>A power point presentation is a verbal essay and like any good essay, it follows a structure. In an essay there is an introduction and a conclusion, both of which are identical in content but the purpose of which is to remind, reiterate and recap the points of the essay. In a presentation, this is exactly the same.</p>
+<p>Shown at the start of the presentation, the Agenda slide sets expectation. The Summary slide is identical, but the purpose is to summarize the powerpoint and consolidate information for the benefit of the audience.</p>
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
