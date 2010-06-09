@@ -31,8 +31,8 @@ Often you will receive rich information from your Product Owner (Customer) about
 </ul>
 <p>When replying to an email with “done” you should follow&#58;</p>
 <ul>
-    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/#KeepConsistentName"><font color="#000080">Do you update Team Companion template, so the email &quot;subject&quot; doesn't change?</font></a> </li>
-    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/#EmailTemplate"><font color="#000080">Do you update Team Companion template, so you can generate a proper &quot;done&quot; mail?</font></a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#KeepConsistentName"><font color="#000080">Do you update Team Companion template, so the email &quot;subject&quot; doesn't change?</font></a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#EmailTemplate"><font color="#000080">Do you update Team Companion template, so you can generate a proper &quot;done&quot; mail?</font></a> </li>
 </ul>
 <p>Following these simple rules will help your Product Owner understand you better, and allow your team to more effectively collaborate with each other. </p>
 <p>An added bonus is that as we are keeping the email history in sync with TFS. When you “reply all” to the email all of the interested parties to the Task are also included. This notifies those that may have been blocked by your task to keep up to date with its status.</p>
