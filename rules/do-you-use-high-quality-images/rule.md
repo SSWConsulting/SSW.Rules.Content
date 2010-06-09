@@ -15,8 +15,12 @@ related: []
 ---
 
 
-You should use the best quality (high resolution) images in your presentations. You should never simply stretch a small, low-resolution photo to make it fit your layout as this degrade the resolution even further and the image will appear very coarse and granular on the projection screen.
 
+  <p>Use high resolution images in your presentations. Never stretch small, low-resolution photos to make it fit. This degrades the resolution even further and the image will appear very coarse and granular on the projection screen.</p>
+
+<p>The quality of your images is a subconscious message to your audience. If you use low quality pictures, then you unintentionally suggest the same message about your product.</p>
+
+<p>For this reason, we encourage you to choose only high quality photos and to avoid cartoons and word art.</p>
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
@@ -25,7 +29,7 @@ You should use the best quality (high resolution) images in your presentations. 
 </dl>
 <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/high_d.jpg" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; High quality images </dd>
+    <dd class="ms-rteCustom-FigureGood">Figure&#58; Looks classy, that.</dd>
 </dl>
 
 
