@@ -9,7 +9,11 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>
+You may be a natural born public speaker, but you will not be able ‘wing’ a presentation. Setting up a presentation takes time and practise. It is important to make sure you understand what steps to undertake beforehand, especially when there is technology involved.
+</p>
+ </span>
 
 
   <dl>
