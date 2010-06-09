@@ -11,12 +11,13 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Different layouts have different purposes. While the default layout is nice; it's not the only option available. But remember to keep all things in moderation. You want the audience to focus on the content, not guessing what layout the next slide will have. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/layout.gif" /></dt>
-    <dd>Figure&#58; Choose suitable layout from SSW PowerPoint Template layout library</dd>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/layout.gif" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58;&#160;How to change the&#160;layout in the template library </dd>
 </dl>
 
 
