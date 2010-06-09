@@ -11,17 +11,18 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+At SSW, we use SharePoint to manage our marketing templates. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>When you need to create a PowerPoint presentation file, find the latest version of <a href="http&#58;//projects.ssw.com.au/Templates/Forms/AllItems.aspx">SSW templates</a> on the SharePoint site. </p>
+  <p>When you need to create a PowerPoint presentation file, find the latest version of <a href="http&#58;//projects.ssw.com.au/Templates/Forms/AllItems.aspx">SSW templates</a> here. </p>
 <dl>
     <dt><img class="ms-rteCustom-ImageArea" alt="Check version history" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/versionHistory.jpg" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Click &quot;Edit&quot; to see the version history of PowerPoint template file </dd>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Click &quot;Edit&quot; to see the version history of the template file </dd>
 </dl>
 <dl>
     <dt><img class="ms-rteCustom-ImageArea" alt="Version Number" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/versionNo.jpg" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Where to check the version number </dd>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; The version number can be seen here</dd>
 </dl>
 
 
