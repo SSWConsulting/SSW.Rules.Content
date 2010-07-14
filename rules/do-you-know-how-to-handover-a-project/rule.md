@@ -32,8 +32,9 @@ Here are the 7 steps you should follow for a good handover. &#160; &#160;
     <li>Confirm location of info and procedures (hopefully these are on a wiki or SharePoint document library)
     <ul>
         <li>Source control </li>
+        <li>Database</li>
         <li>Documents </li>
-        <li>How to Build and Packange</li>
+        <li>How to Build and Package </li>
         <li>Deployment Steps </li>
         <li>Servers and Passwords </li>
         <li>Failure &amp; Recovery Steps </li>
