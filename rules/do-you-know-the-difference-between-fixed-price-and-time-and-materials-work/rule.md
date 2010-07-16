@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+There are two fundamental ways any consultant can bill clients&#58;
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
