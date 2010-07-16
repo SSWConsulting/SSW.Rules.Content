@@ -21,7 +21,7 @@ redirects: []
 
   <ul>
     <li>Use email<br>
-    If there is no response, find the original email and resend. See our <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspx#HurrySomeoneUp">Rules To Better Email - Do you know how to hurry someone up?</a>, <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspx#FollowUp">Rules to Better Email - Do you always follow up your clients?</a> and <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspX#ImportanceofaGoodSubject">Rules to Better Email - Do you realize the importance of a good email Subject?</a> </li>
+    If there is no response, find the original email and resend. See our <a href="/Standards/Communication/RulesToBetterEmail/Pages/HurrySomeoneUp.aspx">Rules To Better Email - Do you know how to hurry someone up?</a>, <a href="/Standards/Communication/RulesToBetterEmail/Pages/FollowUpEmailsEffectively.aspx">Rules to Better Email - Do you always follow up your clients?</a> and <a href="/Standards/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">Rules to Better Email - Do you realize the importance of a good email Subject?</a> </li>
     <li>Use IM or Skype<br>
     See our <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ChatEfficient">Rules To Better Instant Messenger - Do you communicate more efficient?</a> </li>
     <li>Use the phone<br>
