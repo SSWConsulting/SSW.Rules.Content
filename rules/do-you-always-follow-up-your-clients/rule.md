@@ -12,7 +12,11 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>If you have followed the previous rule and the ball is always in their court, you need to make sure that they keep playing. </p>
+<p>The best way to do this is to make sure you follow up all communications that require a reply, whenever you feel that a bottleneck is forming. </p>
+<p>The best ways to follow up a client are&#58;</p>
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
@@ -23,7 +27,7 @@ This field should not be null (Remove me when you edit this field).
     <li>Use the phone<br>
     Call them </li>
 </ul>
-<p>TIP Use <a href="http&#58;//www.ssw.com.au/ssw/redirect/FollowUpThen.htm">http&#58;//www.ssw.com.au/ssw/redirect/FollowUpThen.htm</a> for your follow up emails</p>
+<p>TIP Use <a href="http&#58;//www.ssw.com.au/ssw/redirect/FollowUpThen.htm">www.FollowUpThen.com</a> for your follow up emails</p>
 
 
 
