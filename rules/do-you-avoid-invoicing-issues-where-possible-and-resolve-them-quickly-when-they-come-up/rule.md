@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> The least pleasant part of the consulting industry is dealing with clients who don't want to pay for your services.
+ </span>
 
 
   <p>The least pleasant part of the consulting industry is dealing with clients who don't want to pay for your services. </p>
