@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+The least pleasant part of the consulting industry is dealing with clients who don't want to pay for your services.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>The least pleasant part of the consulting industry is dealing with clients who don't want to pay for your services. </p>
