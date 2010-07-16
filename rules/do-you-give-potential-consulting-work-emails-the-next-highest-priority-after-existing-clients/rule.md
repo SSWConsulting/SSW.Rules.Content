@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+It is extremely important to demonstrate to potential clients a high level of quality service and attention to their needs; this is why, at SSW, whenever we receive an email from a potential client in relation to possible consulting work, we make sure they receive an answer within 5 minutes of us receiving it. We do this for 2 reasons&#58;
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
