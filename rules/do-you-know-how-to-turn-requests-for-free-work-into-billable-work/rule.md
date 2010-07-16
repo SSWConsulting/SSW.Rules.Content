@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Often clients will call up asking for a short task to be performed. You need to know how to let them know that the time will be charged. 
+ </span>
 
 
   <dl class="good">
