@@ -9,7 +9,15 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>Office meetings often are ineffective, because&#58; </p>
+<ul>
+    <li>There is a lot of discussion but no resulting &quot;action items&quot; </li>
+    <li>Time is wasted digressing to unrelated topics </li>
+    <li>People forget the meeting is on and do not attend </li>
+    <li>People turn up late with no notice </li>
+</ul>
+ </span>
 
 
   <p>To ensure your meetings are productive and successful, you should&#58; </p>
