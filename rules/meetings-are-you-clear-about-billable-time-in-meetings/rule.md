@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Meetings are an area some clients think will be free, so always mention it.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>As stated in SSW's <a href="http&#58;//www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx">Terms and Conditions</a>&#58;</p>
