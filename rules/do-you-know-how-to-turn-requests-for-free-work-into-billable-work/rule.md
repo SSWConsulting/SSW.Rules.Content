@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Often clients will call up asking for a short task to be performed. You need to know how to let them know that the time will be charged. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl class="good">
