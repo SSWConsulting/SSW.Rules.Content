@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+If you have an existing client, who is already impressed with your work, you don't need to go to the trouble of meeting then to show them an estimate. However, you should at least call them. When you're competing for someone's business, what could be worse than losing the work simply because the client either didn't receive your email, or was too busy to read it? For this reason, always call the client before you send a quote. This way, they know you are about to send them something so will look out for it.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <div class="greyBox">
