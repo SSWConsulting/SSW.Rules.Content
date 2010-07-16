@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+As a consultant, it is important to realise that all of your time is valuable.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>In the situation where you are at a client site and your time is being billed, don't be conscientious and quiet. You need to make sure that there are no bottlenecks slowing you down. Make sure you have everything you need and, if you need to ask a question, keep asking until you get an answer. </p>
