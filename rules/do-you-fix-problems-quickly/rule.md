@@ -1,0 +1,22 @@
+---
+type: rule
+archivedreason: 
+title: Do you fix problems quickly?
+guid: 7e3ea5d3-d286-4765-a24e-16d7a260bd8d
+uri: do-you-fix-problems-quickly
+created: 2010-07-16T06:48:10.0000000Z
+authors:
+- id: 1
+  title: Adam Cogan
+- id: 44
+  title: Duncan Hunter
+related: []
+
+---
+
+
+This field should not be null (Remove me when you edit this field).
+<br><excerpt class='endintro'></excerpt><br>
+
+
+
