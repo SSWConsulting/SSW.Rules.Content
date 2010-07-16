@@ -14,12 +14,15 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+A sentence can be phrased in many ways. It is important to use positive language when speaking to clients. Instead of saying &quot;I will NOT do X until you do Y&quot;, you can say &quot;When you do Y, I will be happy to do X&quot;. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p class="ms-rteCustom-FigureBad">
-    <b>Bad example&#58;</b> We will need your agreement on the mockup, and as soon as you are happy with it, we will develop it to the agreed mockup. We will not be able to change the mockup once made and you are happy with it.</p>
-<p class="ms-rteCustom-FigureGood"><b>Good example&#58;</b> We will develop the report once you are happy with and have signed off the mockup.</p>
+    <b>Bad example&#58;</b>
+  </p>
+  <p> We will need your agreement on the mockup, and as soon as you are happy with it, we will develop it to the agreed mockup. We will not be able to change the mockup once made and you are happy with it.</p>
+<p class="ms-rteCustom-FigureGood"><b>Good example&#58;</b> </p><p>We will develop the report once you are happy with and have signed off the mockup.</p>
 
 
 
