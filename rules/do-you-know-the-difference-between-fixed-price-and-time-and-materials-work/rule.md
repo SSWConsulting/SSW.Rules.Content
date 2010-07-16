@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> There are two fundamental ways any consultant can bill clients&#58;
+ </span>
 
 
   <p>
