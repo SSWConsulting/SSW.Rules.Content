@@ -34,7 +34,7 @@ redirects:
 <dl class="bad">
     <dt>The total fixed price total is $AUD 66,000 - please find quote attached. </dt>
     <dd>Bad Example </dd>
- </dl>
+</dl>
 <dl class="good">
     <dt>The total fixed price total is $AUD 60,000 + GST (10%). Please find quote attached. </dt>
     <dd>Good Example </dd>
