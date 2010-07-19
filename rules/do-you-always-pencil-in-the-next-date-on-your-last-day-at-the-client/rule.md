@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+A common mistake for developers is to say &quot;See you later, call me sometime next month&quot;. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>On your last day of consulting with a client you should always book in the next date. Be aware of the main blockage people get, which the client is saying &quot;How about I check by calendar and get back to you?&quot;. And often this never happens. </p>
