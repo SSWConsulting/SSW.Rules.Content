@@ -16,7 +16,13 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>A problem, like a wound, gets worse the longer it remains untreated, so fix problems fast. Problems come in endless contexts but here's how we deal with some specific examples&#58; </p>
+<ol>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#FixBugs">Fix bugs first</a> </li>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterInboundCalls.aspx#MakeComplaintsPositive">Make client complaints a positive experience</a> </li>
+</ol>
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
