@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> At times we have to work overtime on a project and the client is not charged for the total hours worked. When this occurs it is important to let the client know. If a client does not know, how can they be grateful? A happy client is achieved in small bite sized steps. Informing the client of overtime that is not charged is just one of those small steps.
+ </span>
 
 
 
