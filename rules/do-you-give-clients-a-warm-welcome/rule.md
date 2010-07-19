@@ -17,21 +17,20 @@ authors:
  </span>
 
 
-  <ul>
+  <ul class="ms-rteCustom-GreyBox">
     <li>Leaving the client standing at the reception while finishing what you were doing </li>
     <li>Offering them tea, coffee or biscuits (not everyone likes tea/coffee) </li>
 </ul>
 <font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad example <br>
-</font>
-<ul></ul>
-    Be dressed appropriately
+</font><font class="ms-rteCustom-GreyBox" size="+0">
+<ul>
+    <li>Be dressed appropriately</li>
     <li>Greet them warmly </li>
     <li>Have a firm handshake </li>
     <li>Make eye contact and smile </li>
     <li>Direct them to wait in the boardroom (so they can see all the marketing materials on the walls) </li>
     <li>Notify the project manager/developer who are included in the meeting </li>
-    <li>Ask someone to bring couple of glasses of water into the meeting (as everyone drinks water) </li>
-    <li>Join the meeting in the boardroom&#58;
+    <li>Ask someone to bring couple of glasses of water into the meeting (as everyone drinks water) Join the meeting in the boardroom&#58;
     <ul>
         <li>Show some enthusiasm when meeting with the client </li>
         <li>Hand over, and collect, business cards - (organize in front of you, to help you remember their names) </li>
@@ -40,7 +39,9 @@ authors:
         <li>Have a firm handshake </li>
         <li>Make eye contact and smile </li>
     </ul>
-    <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - You did some research before the meeting </font></li>
+    </li>
+</ul>
+&#160;&#160;&#160; </font><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - You did some research before the meeting </font>
 
 
 
