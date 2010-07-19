@@ -13,7 +13,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> When you seek advice or help from another, firstly, you need to establish with them&#58;
+ </span>
 
 
   <ul>
