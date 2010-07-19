@@ -18,11 +18,10 @@ A sentence can be phrased in many ways. It is important to use positive language
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p class="ms-rteCustom-FigureBad">
-    <b>Bad example&#58;</b>
-  </p>
-  <p> We will need your agreement on the mockup, and as soon as you are happy with it, we will develop it to the agreed mockup. We will not be able to change the mockup once made and you are happy with it.</p>
-<p class="ms-rteCustom-FigureGood"><b>Good example&#58;</b> </p><p>We will develop the report once you are happy with and have signed off the mockup.</p>
+  <font class="ms-rteCustom-GreyBox" size="+0">We will need your agreement on the mockup, and as soon as you are happy with it, we will develop it to the agreed mockup. We will not be able to change the mockup once made and you are happy with it.</font> <br>
+<font class="ms-rteCustom-FigureBad" size="+0">Bad example</font><br>
+<font class="ms-rteCustom-GreyBox" size="+0">&#160; We will develop the report once you are happy with and have signed off the mockup.</font><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Good example</font> 
 
 
 
