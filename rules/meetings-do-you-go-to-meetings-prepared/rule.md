@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Before you attend a meeting you must come prepared with details about the client; meaning no unnecessary questions. By unnecessary, I mean you should already have the answers to these questions. Extensive research is impressive to clients.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>So you are talking to a client about their ice cream chain?</p>
