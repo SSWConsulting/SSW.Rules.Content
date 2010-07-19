@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Here are the first things you should do EVERY time you come off client work&#58;
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
