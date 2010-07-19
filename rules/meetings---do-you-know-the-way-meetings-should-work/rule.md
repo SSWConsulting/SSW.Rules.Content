@@ -31,10 +31,7 @@ authors: []
     <dt><img alt="Meeting without agenda" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" /> </dt>
     <dd>Figure&#58; Bad example - meeting with No Agenda </dd>
 </dl>
-<dl class="goodImage">
-    <dt><img alt="Meeting with agenda" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingWithAgenda.JPG" /> </dt>
-    <dd>Figure&#58; Good example - meeting with Agenda </dd>
-</dl>
+<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/MeetingWithAgenda_1.jpg" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - meeting with Agenda </font>
 <p>Every Outlook appointment must have&#58;</p>
 <ol>
     <li>A good subject, to let attendees know the purpose of the meeting, see our rule <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspX#ImportanceofaGoodSubject">Do you realize the importance of a good email Subject?</a> </li>
@@ -57,7 +54,7 @@ authors: []
         <li>For meetings tips see <a href="http&#58;//www.ssw.com.au/SSW/standards/rules/RulesToBeingSoftwareConsultantsDealingWithClients.aspx">Rules to being Software Consultants - Dealing with Clients</a> </li>
     </ul>
     </dt>
-    <dd>Figure - Message example</dd>
+    <dd>Figure - Message example </dd>
 </dl>
 
 
