@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Here are the first things you should do EVERY time you come off client work&#58;
+ </span>
 
 
   <ol>
