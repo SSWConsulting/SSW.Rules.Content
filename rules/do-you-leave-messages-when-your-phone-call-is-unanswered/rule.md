@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+If you call a client or team member, and for some reasons he/she do not attend your call, then you MUST leave messages to ensure a response. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Your messages must contain <i><b>your name (firstname and lastname)</b></i>,<i> <b>purpose of calling</b></i>, and<i><b> your contact number</b></i>. Below ia a good messages example&#58;</p>
@@ -25,7 +26,7 @@ This field should not be null (Remove me when you edit this field).
 <p>There are several advantages leaving messages when your call is unanswered&#58;</p>
 <ul>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
     <li>He/she may know who calls and be able to return your call. &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </li>
-    <li>If your message is urgent, he/she may return your call straight away (even though he/she is VERY busy).</li>
+    <li>If your message is urgent, he/she may return your call straight away (even though he/she is VERY busy). </li>
 </ul>
 
 
