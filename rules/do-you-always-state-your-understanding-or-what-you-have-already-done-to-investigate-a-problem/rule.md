@@ -16,7 +16,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+When you seek advice or help from another, firstly, you need to establish with them&#58;
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
