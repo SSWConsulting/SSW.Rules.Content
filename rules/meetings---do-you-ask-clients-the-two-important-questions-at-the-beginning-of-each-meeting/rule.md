@@ -9,7 +9,9 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> It is essential to clarify the purpose and time of meetings.<br>
+When you commence each meeting you should ask the following two questions&#58;
+ </span>
 
 
   <ol>
