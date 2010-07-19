@@ -11,7 +11,15 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>Start the day on a good foot by asking&#58;</p>
+<ul>
+    <li>The plan today is XXX? </li>
+    <li>What do you want to cover today? </li>
+    <li>What do you already know? </li>
+    <li>Do you want lectures/Hands on labs/mixture?</li>
+</ul>
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
