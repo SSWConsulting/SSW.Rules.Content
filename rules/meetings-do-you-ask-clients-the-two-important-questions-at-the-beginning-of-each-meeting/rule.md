@@ -12,7 +12,9 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+It is essential to clarify the purpose and time of meetings.<br>
+When you commence each meeting you should ask the following two questions&#58;
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
