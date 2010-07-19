@@ -14,10 +14,13 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+People are not mind readers (unless they are telepathic!), so when you get good feedback from a client, make sure you get the recognition for it. There is nothing wrong with getting brownie points for the work you have done and making sure the boss at the client site and your manager know about it. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
-  <table width="100%">
+  <dd>
+    <font class="ms-rteCustom-GreyBox" size="+0">
+<table width="100%">
     <tbody>
         <tr>
             <td><b>To&#58;</b> </td>
@@ -69,7 +72,9 @@ This field should not be null (Remove me when you edit this field).
         </tr>
     </tbody>
 </table>
-<dd>Figure&#58; Developers, when you get good feedback from anyone at the client's company, forward their comments onto the boss at the client's company and CC your manager. </dd>
+</font>
+    <br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Developers, when you get good feedback from anyone at the client's company, forward their comments onto the boss at the client's company and CC your manager. </font></dd>
 
 
 
