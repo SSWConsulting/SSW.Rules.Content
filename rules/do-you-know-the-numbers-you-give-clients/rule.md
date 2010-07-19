@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> When working on an hourly basis, you can confuse clients when sometimes you try to talk about a few hours here and a few hours here or there.
+ </span>
 
 
   <p>Simply things and just give them these 3 numbers&#58;</p>
