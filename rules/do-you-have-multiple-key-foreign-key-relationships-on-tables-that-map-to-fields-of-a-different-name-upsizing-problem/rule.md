@@ -11,7 +11,11 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <img alt="" class="ms-rteCustom-ImageArea" src="/Standards/ReportingSolutions/RulesToBetterAccessDatabases/PublishingImages/MultipleForeignKeyRelationshipsDifferentNames.jpg" /> <br>
+<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Multiple Foreign Key Relationships Different Names </font>
+<a href="http&#58;//www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule 
+ </span>
 
 
 
