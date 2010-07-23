@@ -11,7 +11,18 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>If Access linked table does not have an index to uniquely identify rows, the whole table will be read-only </p>
+<p>
+<table class="clsSSWProductTable" cellspacing="2" summary="Upsizing PRO" cellpadding="2">
+    <tbody>
+        <tr>
+            <td><a href="http&#58;//www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </td>
+        </tr>
+    </tbody>
+</table>
+</p>
+ </span>
 
 
 
