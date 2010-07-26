@@ -27,7 +27,7 @@ authors:
 <br>
 <font class="ms-rteCustom-CodeArea" size="+0">[assembly&#58; AssemblyVersion(<font class="ms-rteCustom-Highlight" size="+0">&quot;2.0.0.0&quot;</font>)]<br>
 [assembly&#58; AssemblyFileVersion(<font class="ms-rteCustom-Highlight" size="+0">&quot;2.0.*&quot;</font>)]<br>
-[assembly&#58; AssemblyInformationalVersion(<font class="ms-rteCustom-Highlight" size="+0">&quot;2.0.0.0&quot;</font>)] </font><font class="ms-rteCustom-FigureGood" size="+0">Good example - the best way for Assembly versioning (when using the GAC)</font> Note&#58; It would be good if Microsoft changed the default behaviour of AssemblyInformationalVersionAttribute to default to the AssemblyVersion. See Mikes suggestion for improving the version number in the comments here. 
+[assembly&#58; AssemblyInformationalVersion(<font class="ms-rteCustom-Highlight" size="+0">&quot;2.0.0.0&quot;</font>)] </font><font class="ms-rteCustom-FigureGood" size="+0">Good example - the best way for Assembly versioning (when using the GAC)</font> Note&#58; It would be good if Microsoft changed the default behaviour of AssemblyInformationalVersionAttribute to default to the AssemblyVersion.<a href="http&#58;//msdn.microsoft.com/en-us/library/system.reflection.assemblyinformationalversionattribute.aspx">See Mikes suggestion for improving the version number in the comments here. </a>
 
 
 
