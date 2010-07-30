@@ -29,5 +29,14 @@ The ScrumMaster keeps the meeting on track and to the Timebox by disallowing dis
 <br>
 This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.<br>
 
+<br>
+<font class="ms-rteCustom-GreyBox" size="+0">In Scrum, there are totally 4 meetings that you need to know&#58; 
+<ul>
+    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">HOW</a>) </li>
+    <li><a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
+    <li>Sprint Review Meeting </li>
+    <li><a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx" title="Retrospective Meeting">Sprint Retrospective Meeting</a> </li>
+</ul>
+</font>
 
 
