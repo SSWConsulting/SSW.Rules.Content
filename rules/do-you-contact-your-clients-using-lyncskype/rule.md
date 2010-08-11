@@ -9,11 +9,11 @@ authors: []
 
 
 
-<span class='intro'> Having your clients as Instant Messenger contacts can improve your efficiency in project work. You can get a fast solution to road blocks and solve little problems quickly, as well as develop a better relationship!
+<span class='intro'> Having your clients as Instant Messenger contacts can improve your efficiency in project work. You can get a fast solution to road blocks and solve little problems quickly, as well as develop a better relationship! 
  </span>
 
 
-  <p>Of course any important chats should be <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ConfirmImportantChatsEmail">confirmed via email</a>. </p>
+  <p>Of course any important chats should be <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ImportantChatsEmail">confirmed via email</a>. </p>
 <dl class="good">
     <dt>
     <p>Hey Simon </p>
