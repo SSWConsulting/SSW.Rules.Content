@@ -11,7 +11,10 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Application upgrade might not only include the .exe and .dll but the database changes. How to deploy these changes, manually or using tools to deploy? <br>
+<br>
+Let's see the bad and good examples&#58; 
+ </span>
 
 
   <dl class="image">
