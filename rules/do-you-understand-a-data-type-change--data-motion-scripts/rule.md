@@ -25,7 +25,7 @@ Let's look at an example&#58;
  </span>
 
 
-  <p>We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.</p>
+  <p>&#160;We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.</p>
 <dl class="image">
     <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableBit.jpg" /> </dt>
     <dd>Figure&#58; Anything wrong this Gender column?&#160; </dd>
@@ -35,7 +35,6 @@ Later you learn you need to change the data type to char(2) to support 'M', 'F',
     <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/CasterSemenya.jpg" /> </dt>
     <dd>Figure&#58; Caster Semenya has taught us a thing or two about the right data type for Gender </dd>
 </dl>
-<br>
 The data then must be migrated to the new data type this way&#58;
 <ol>
     <li>Rename 'Gender' to 'ztGender' * </li>
@@ -46,8 +45,11 @@ The data then must be migrated to the new data type this way&#58;
 *Note&#58; zt stands for Temporary
 <dl class="image">
     <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableChar.jpg" /> </dt>
-    <dd>Figure&#58; Changing the data type and data required a&#160;<a href="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Pages/DoYouHaveAnUnderstandingOfSchemaChangesAndTheirIncreasingComplexity.aspx">&quot;Data Motion Script&quot;</a></dd>
+    <dd>Figure&#58; Changing the data type and data required a&#160;<a href="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Pages/DoYouHaveAnUnderstandingOfSchemaChangesAndTheirIncreasingComplexity.aspx">&quot;Data Motion Script&quot;</a> </dd>
 </dl>
+<p>Data Dude does not support this scenario, which is why we don't recommend it. </p>
+<img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/DataDude-BadExample.jpg" /><br>
+&#160;<font class="ms-rteCustom-FigureBad" size="+0">Bad Example - Don't use Data Dude</font> 
 
 
 
