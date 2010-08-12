@@ -11,7 +11,21 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>You get an error message reported from a user like&#58; </p>
+<blockquote><i>&#160;&#160;&#160; When I click the Save button on the product form it gives an error message about a missing field.</i></blockquote>
+<dl class="image">
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/ObamaThinking.jpg" /> </dt>
+    <dd>Figure&#58; The developer thinks &quot;what could be wrong&quot; </dd>
+</dl>
+<dl class="image">
+    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/WorksOnMyMachine.png" /> </dt>
+    <dd>Figure&#58; The developer tests then&#160;replies &quot;Works on my machine&quot; </dd>
+</dl>
+<p>You try and reproduce it on your version in the office and everything works perfectly.<br>
+<br>
+You suspect that the customer probably has changed the schema. So you start drafting an email to the user like&#58; </p>
+ </span>
 
 
   <div class="greyBox">Mary, I need you to send me your database schema as it might be different from what it should be. Can you&#58;<br>
