@@ -50,7 +50,7 @@ For example&#58;
     </dl>
     </li>
 </ul>
-Now all this works beautifully first time, when there is no existing database... and no existing data to worry about. Now you have a reason to read the rest of the rules &#58;-)
+Now all this works beautifully first time, when there is no existing database... and no existing data to worry about. Now you have a reason to read the rest of the rules &#58;-) 
 
 
 
