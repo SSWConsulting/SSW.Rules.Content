@@ -17,7 +17,9 @@ related: []
 
 
   <p>Every email you process takes time. Sifting through unnecessary emails becomes really frustrating. Don't clog up someone else's Inbox with unnecessary emails. </p>
-<p>A good rule of thumb for whether an email is unnecessary is if your email comprises of less than 5 words (e.g. &quot;Thanks!&quot; or &quot;Well Done&quot;) it's likely it doesn't need to be sent.</p>
+<p>A good rule of thumb for whether an email is unnecessary is if your email comprises of less than 5 words (e.g. &quot;OK&quot; or &quot;See you then&quot;) it's likely it doesn't need to be sent.<br>
+<br>
+Naturally, an exception to this rule is when&#160;positive reinforcement should be used when someone has done a behaviour that you like and want to encourage. Eg. &quot;Thanks for be proactive and pointing out that improvement.&quot;</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
