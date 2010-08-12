@@ -14,7 +14,7 @@ authors:
 <span class='intro'> You have a web site master right? This is the central point of contact if the site goes down.<br>
 When developing an application, all members can code. However schema changes being done by many developers often can lead to trouble. <br>
 <br>
-Who&#160;is &quot;Schema Master&quot;? What does he do?
+Who&#160;is &quot;Schema Master&quot;? What does he do? 
  </span>
 
 
