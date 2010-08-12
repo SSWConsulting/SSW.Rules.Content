@@ -26,8 +26,7 @@ When working on a Time and Materials basis there are two different management ar
 An exception exists where SSW provides resources to work under a non-SSW project manager who has responsibility for the project. </p>
 <p><b>SSW Managed Work</b></p>
 <p>The alternative is to work with a project manager, specification and release plan. In this approach, a method of project management is applied to provide control on the elements of time, scope, quality and cost. </p>
-<p>This method is recommended for any work which is substantial and where the client wants a greater degree of control. </p>
-<p>The <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#OutcomeInitialMeetingSpecRevieworAdHocWork">managed approach</a> is SSW's prefer method of work.</p>
+<p>This method is recommended for any work which is substantial and where the client wants a greater degree of control.</p>
 
 
 
