@@ -13,7 +13,10 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+SQL Compare is a good tool to find out the differences between two databases. It can help you answer the question &quot;Is your database the same as mine?&quot;. <br>
+<br>
+Let's see what it is good at. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl class="image">
