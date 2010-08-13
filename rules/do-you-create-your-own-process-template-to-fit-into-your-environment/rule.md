@@ -20,7 +20,8 @@ The built-in Process Templates in VSTS will not always fit into your environment
 <br>
 
 <br><excerpt class='endintro'></excerpt><br>
- <img width="592" height="130" alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToBetterProjectManagement/PublishingImages/SSWAgile-Baseline-1.jpg" />&#160;<br>
+
+  <img width="592" height="130" alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToBetterProjectManagement/PublishingImages/SSWAgile-Baseline-1.jpg" />&#160;<br>
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - We added &quot;Baseline work (hours)&quot; field to keep original estimate</font><br>
 <br>
 <img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToBetterProjectManagement/PublishingImages/SSWAgile-Additional.jpg" /><br>
