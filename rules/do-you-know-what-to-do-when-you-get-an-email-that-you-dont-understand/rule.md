@@ -13,7 +13,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> A bad approach is to simply delete the email. Reply with “?” and then delete it. 
+ </span>
 
 
 
