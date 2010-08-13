@@ -16,10 +16,10 @@ related: []
 
 
 Sometimes, in order to add someone in to the loop on something, you might write an email and attach another email as reference material. <br>
-Generally this is not a good idea and you are better off replying to the original email instead so you can keep it in the history of ongoing threads.
+Generally this is not a good idea and you are better off replying to the original email instead so you can keep it in the history of ongoing threads. 
 
 <br><excerpt class='endintro'></excerpt><br>
-The exception is when you are already in a conversation thread with important history and you want to add more reference material to the email, although even then it's a good idea to also quote the particular line of interest as well.
+The exception is when you are already in a conversation thread with important history and you want to add more reference material to the email, although even then it's a good idea to also quote the particular line of interest as well. 
 
 
 
