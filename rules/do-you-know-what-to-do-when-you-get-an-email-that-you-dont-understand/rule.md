@@ -15,7 +15,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+A bad approach is to simply delete the email. Reply with “?” and then delete it. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
