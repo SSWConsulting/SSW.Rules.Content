@@ -1,0 +1,42 @@
+---
+type: rule
+archivedreason: 
+title: Do you know the client is not _always_ right?
+guid: 2b63cedb-7601-449a-8847-f43e068906ab
+uri: do-you-know-the-client-is-not-_always_-right
+created: 2010-08-16T02:43:27.0000000Z
+authors:
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+related: []
+redirects: []
+
+---
+
+
+This field should not be null (Remove me when you edit this field).
+<br><excerpt class='endintro'></excerpt><br>
+
+  <p>
+    <strong>Knowing when you know best</strong>
+    <br>
+<br>
+The expertise of a software consultant is likely to be in the technology underlying&#160;your clients business, not in their business model. If they're willing to pay for external consultants its highly likely their business model has been successful to date and it's wise that you leave that to them.<br>
+<br>
+However, on some technical issues you should speak out firmly when you think the client is suggesting the wrong course of action. The following areas are most common&#58;</p>
+<ul>
+    <li>Using old technology - eg SharePoint 2007 instead of SharePoint 2010</li>
+    <li>Wanting a non-scalable solution - this should speak for itself - the client is likely coming to you because their current solution has max'd out</li>
+    <li>Pushing for quick fixes when a better longer term fix is reasonable - eg hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, </li>
+    <li>Not thinking that UX matters</li>
+</ul>
+<p><strong>Knowing how to persuade the client that your way is the best way</strong><br>
+<br>
+If your client is not technically savvy you should be aware that an argument using technical language is unlikely to be persuasive. Argue your case using language that underscores your understand of how your suggestion will improve their business, eg by future proofing the solution or allowing changes to be more easily implemented down the line.<br>
+<br>
+As soon as you see the clients eyes glaze over, stop, it's likely you're bamboozling with techno-jargon. Rethink your argument and state it again. <br>
+<br>
+If the point is arguable, once a client says no three times, don't push your like too much. If you do concede don't forget to send an &quot;<a href="/Standards/Management/RulesToHappyClients/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx">as per our conversation</a>&quot; email to keep a record. </p>
+
+
+
