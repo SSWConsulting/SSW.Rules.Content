@@ -13,7 +13,9 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> The Web.config file should be your main source where you store your application settings. These change, depending on which system you are working on, e.g. your local machine or the website. That's why you have to keep two versions of the Web.config file, one for your local machine and one for the website. <br>
+That's annoying, not really efficient and often the cause of problems. 
+ </span>
 
 
   <p>In the following extract of a sample Web.config file you can see the problem. The local machine &quot;HIPPO&quot; has, of course, another WebServiceURL than the Webserver &quot;SEAL&quot;. So you have to keep two versions of the Web.config file, one when working on &quot;HIPPO&quot; and one when working on &quot;SEAL&quot;. </p>
