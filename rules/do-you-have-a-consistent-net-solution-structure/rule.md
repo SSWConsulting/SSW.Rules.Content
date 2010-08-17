@@ -13,26 +13,27 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> When developing a n-tiered software solution, we follow a standard solution structure. We have incorporated unit testing components, which is an integral part of the Extreme Programming development methodology, into our solution structure&#58; 
+ </span>
 
 
   <table class="clsSSWTable">
     <tbody>
         <tr>
             <th height="36">Project Type </th>
-            <th width="80" height="36">Project Name </th>
-            <th width="250" height="36"></th>
+            <th height="36" width="80">Project Name </th>
+            <th height="36" width="250"></th>
             <th height="36">Note </th>
         </tr>
         <tr valign="top">
             <td>Application </td>
             <td width="80">Northwind </td>
             <td width="250">
-            <table id="table25" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table25" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
-                        <td width="100" height="18"><b>Namespace&#58;</b> </td>
-                        <td width="250" height="18">SSW.Northwind </td>
+                        <td height="18" width="100"><b>Namespace&#58;</b> </td>
+                        <td height="18" width="250">SSW.Northwind </td>
                     </tr>
                     <tr>
                         <td><b>Folder&#58;</b> </td>
@@ -51,7 +52,7 @@ authors:
             <td>Class Library </td>
             <td width="80">WindowsUI </td>
             <td width="250">
-            <table id="table9" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table9" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -78,7 +79,7 @@ authors:
             <td>Application </td>
             <td width="80">ConsoleUI </td>
             <td width="250">
-            <table id="table22" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table22" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -105,7 +106,7 @@ authors:
             <td>Application </td>
             <td width="80">SilverlightUI </td>
             <td width="250">
-            <table id="table22" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table22" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -130,9 +131,9 @@ authors:
         </tr>
         <tr valign="top">
             <td height="90">Application </td>
-            <td width="80" height="90">WebUI </td>
-            <td width="250" height="90">
-            <table id="table9" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <td height="90" width="80">WebUI </td>
+            <td height="90" width="250">
+            <table style="border-collapse&#58;collapse;" id="table9" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -159,7 +160,7 @@ authors:
             <td></td>
             <td width="80"></td>
             <td width="250">
-            <table id="table10" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table10" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -174,14 +175,14 @@ authors:
             </td>
             <td>
             <p>Manually-based reports - e.g. using the DataGrid .</p>
-            <p><span style="font-size&#58;12pt;font-family&#58;'times new roman','serif';">Part of WebUI. For .css and .ascx user controls </span></p>
+            <p><span style="font-family&#58;'times new roman','serif';font-size&#58;12pt;">Part of WebUI. For .css and .ascx user controls </span></p>
             </td>
         </tr>
         <tr>
             <td>Windows Service </td>
             <td width="80">WindowsService </td>
             <td width="250">
-            <table id="table20" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table20" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Folder&#58;</b> </td>
@@ -204,7 +205,7 @@ authors:
             <td>RS Reports </td>
             <td width="80">Reports </td>
             <td width="250">
-            <table id="table21" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table21" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -230,7 +231,7 @@ authors:
             <td>Class Library </td>
             <td width="80">IServices </td>
             <td width="250">
-            <table id="table1" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table1" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td><b>Namespace&#58;</b> </td>
@@ -260,7 +261,7 @@ authors:
             <td>Class Library </td>
             <td width="80">Services </td>
             <td width="250">
-            <table id="table2" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table2" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td><b>Namespace&#58;</b> </td>
@@ -290,7 +291,7 @@ authors:
             <td><s>Class Library </s></td>
             <td width="80"><s>Business </s></td>
             <td width="250">
-            <table id="table20" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table20" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b><s>Namespace&#58;</s></b> </td>
@@ -324,7 +325,7 @@ authors:
             <td>Class Library </td>
             <td width="80">Domain </td>
             <td width="250">
-            <table id="table3" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table3" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td><b>Namespace&#58;</b> </td>
@@ -354,7 +355,7 @@ authors:
             <td><s>Class Library </s></td>
             <td width="80"><s>DataSets </s></td>
             <td width="250">
-            <table id="table19" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table19" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b><s>Namespace&#58;</s></b> </td>
@@ -384,7 +385,7 @@ authors:
             <td><s>Class Library </s></td>
             <td width="80"><s>DataAccess </s></td>
             <td width="250">
-            <table id="table13" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table13" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b><s>Namespace&#58;</s></b> </td>
@@ -418,7 +419,7 @@ authors:
             <td>Class Library </td>
             <td width="80">Tests </td>
             <td width="250">
-            <table id="table14" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table14" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -444,7 +445,7 @@ authors:
             <td>Wise Setup </td>
             <td width="80">Northwind </td>
             <td width="250">
-            <table id="table15" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table15" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Folder&#58;</b> </td>
@@ -482,7 +483,7 @@ authors:
             <td>Class Library </td>
             <td>Northwind.Common Business </td>
             <td>
-            <table id="table18" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table18" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Namespace&#58;</b> </td>
@@ -516,7 +517,7 @@ authors:
             <td>Documents </td>
             <td>Documents </td>
             <td>
-            <table id="table18" style="border-collapse&#58;collapse;" cellspacing="0" cellpadding="0" width="100%" border="0">
+            <table style="border-collapse&#58;collapse;" id="table18" border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tbody>
                     <tr>
                         <td width="100"><b>Folder&#58;</b> </td>
