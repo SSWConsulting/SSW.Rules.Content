@@ -13,7 +13,11 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <br>
+If we lived in a happy world with no bugs, I would be recommending this approach of using shared components from source safe. As per the prior rule, you can see we like to reference &quot;most&quot; .dlls by project. <br>
+However if you do choose to reference a .dll without the source, then the important thing is that if the .dll gets updated by another developer, then there is <b>*nothing*</b> to do for all other developers ?they get the last version when they do your next build. Therefore you need to follow this&#58; 
+ </span>
 
 
   <p>As the component user, there are six steps, but you only need to do them once&#58;</p>
