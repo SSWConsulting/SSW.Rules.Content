@@ -13,7 +13,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> There are many ways to reference images in ASP.NET. There are two different situations commonly encountered by developers when working with images&#58; 
+ </span>
 
 
   <ul>
