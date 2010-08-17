@@ -16,7 +16,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+All the DLL references and files needed to create a setup.exe should be included in your solution. However, just including them as solution items is not enough, they will look very disordered (especially when you have a lot of solution items). And from the screenshot below, you might be wondering what the _Instructions.txt is used for... 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <img class="ms-rteCustom-ImageArea" alt="unstructured solution folder" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/WithoutReferencesAndSetupFolders.gif" /> <br>
