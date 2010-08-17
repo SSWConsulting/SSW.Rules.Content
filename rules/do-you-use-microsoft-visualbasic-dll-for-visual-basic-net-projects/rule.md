@@ -16,7 +16,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+The Microsoft.VisualBasic library is provided to ease the implementation of the VB.NET language itself. For VB.NET, it provides some methods familiar to the VB developers and can be seen as a helper library. It is a core part of the .NET redistribution and maps common VB syntax to framework equivalents, without it some of the code may seem foreign to VB programmers. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <table style="width&#58;600px;border-collapse&#58;collapse;height&#58;99px;" id="table23" class="clsSSWTable" border="1" cellspacing="0" cellpadding="0" width="600">
