@@ -13,7 +13,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> When programming in a Dot Net environment it is a good practice to remove the default imports that aren't used frequently in your code. 
+ </span>
 
 
   <p>This is because IntelliSense lists will be harder to use and navigate with too many imports. For example if in VB.NET, Microsoft.VisualBasic would be a good item to have in the imports list, because it will be used in most areas of your application.</p>
