@@ -16,7 +16,12 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <ul>
+    <li>When working on packaging SharePoint artefacts into Features &amp; Solutions, you should always make small incremental changes to your VSeWSS projects. Each time you should build &amp; deploy to check you haven't broken anything. </li>
+    <li>You should regularly make labels in TFS so you can quickly compare your changes against previous working versions to identify problems.</li>
+</ul>
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
