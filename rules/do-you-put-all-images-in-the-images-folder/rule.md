@@ -13,16 +13,17 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Instead of images sitting all around the solution, we put all the images in the same folder. 
+ </span>
 
 
   <dl class="badImage">
     <dt><img width="427" height="126" border="0" alt="Image bad link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkBad.gif" /> </dt>
-    <dd>Bad example - Images under Product root folder.</dd>
+    <dd>Bad example - Images under Product root folder. </dd>
 </dl>
 <dl class="goodImage">
     <dt><img width="427" height="126" border="0" alt="Image good link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkGood.gif" /> </dt>
-    <dd>Good example - Images under \Images folder.</dd>
+    <dd>Good example - Images under \Images folder. </dd>
 </dl>
 <p>&#160;</p>
 <table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
