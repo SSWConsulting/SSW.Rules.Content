@@ -13,7 +13,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Hungarian notation is used in VB6. In .NET, there are over 35,000 classes, so&#160;we can't just call them with three letter short form. We would suggest the developer use the full class name as&#160; in example below. As a result, the code will be much easier to read and follow up. 
+ </span>
 
 
   <dl class="badCode">
@@ -42,7 +43,7 @@ authors:
 </dl>
 <p><a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperDotNet/DotNetStandard_ObjectNaming.aspx">More information on naming convention</a>. </p>
 <p>&#160;</p>
-<table cellspacing="2" cellpadding="2" summary="Code Auditor" class="clsSSWProductTable" id="table30">
+<table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
     <tbody>
         <tr>
             <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule</td>
