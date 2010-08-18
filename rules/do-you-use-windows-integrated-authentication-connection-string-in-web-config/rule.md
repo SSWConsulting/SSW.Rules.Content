@@ -16,23 +16,35 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Both SQL Server authentication (standard security) and Windows NT authentication (integrated security) are SQL Server authentication methods that are used to access a SQL Server database from Active Server Pages (ASP). 
+
 <br><excerpt class='endintro'></excerpt><br>
-<p>We recommend you use the Windows NT authentication by default, because Windows security services operate by default with the Microsoft Active Directory?directory service, it is a derivative best practice to authenticate users against Active Directory. Although you could use other types of identity stores in certain scenarios, for example Active Directory Application Mode (ADAM) or Microsoft SQL Server? these are not recommended in general because they offer less flexibility in how you can perform user authentication. </p>
+
+  <p>We recommend you use the Windows NT authentication by default, because Windows security services operate by default with the Microsoft Active Directory?directory service, it is a derivative best practice to authenticate users against Active Directory. Although you could use other types of identity stores in certain scenarios, for example Active Directory Application Mode (ADAM) or Microsoft SQL Server? these are not recommended in general because they offer less flexibility in how you can perform user authentication. </p>
 <p>If not, then add a comment confirming the reason.</p>
-<p>
+<p>&#160;</p>
 <dl class="badCode">
-<dt style="width&#58;92.17%;height&#58;126px;"><pre>{ltHTMLChar}connectionStrings{gtHTMLChar}<br>   {ltHTMLChar}add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>    Database=NorthWind;Integrated Security=SSPI;&quot; /{gtHTMLChar}<br>{ltHTMLChar}/connectionStrings{gtHTMLChar}<br></pre>
-<dd>Bad example - not use Windows Integrated Authentication connection string without comment. </dd></dl>
-<p></p>
-<p>
+    <dt style="width&#58;92.17%;height&#58;126px;">
+    <pre>{ltHTMLChar}connectionStrings{gtHTMLChar}<br>   {ltHTMLChar}add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>    Database=NorthWind;Integrated Security=SSPI;&quot; /{gtHTMLChar}<br>{ltHTMLChar}/connectionStrings{gtHTMLChar}</pre>
+    </dt>
+    <dd>Bad example - not use Windows Integrated Authentication connection string without comment. </dd>
+</dl>
+<p>&#160;</p>
+<p>&#160;</p>
 <dl class="goodCode">
-<dt style="width&#58;92.02%;height&#58;100px;"><pre>{ltHTMLChar}connectionStrings{gtHTMLChar}<br>    {ltHTMLChar}add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>     Database=NorthWind;Integrated Security=SSPI;&quot; /{gtHTMLChar}<br>{ltHTMLChar}/connectionStrings{gtHTMLChar}<br></pre>
-<dd>Good example - use Windows Integrated Authentication connection string by default. </dd></dl>
-<p></p>
-<p>
+    <dt style="width&#58;92.02%;height&#58;100px;">
+    <pre>{ltHTMLChar}connectionStrings{gtHTMLChar}<br>    {ltHTMLChar}add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>     Database=NorthWind;Integrated Security=SSPI;&quot; /{gtHTMLChar}<br>{ltHTMLChar}/connectionStrings{gtHTMLChar}</pre>
+    </dt>
+    <dd>Good example - use Windows Integrated Authentication connection string by default. </dd>
+</dl>
+<p>&#160;</p>
+<p>&#160;</p>
 <dl class="goodCode">
-<dt style="width&#58;92.79%;height&#58;152px;"><pre>                {ltHTMLChar}connectionStrings{gtHTMLChar}<br>                &#160;&#160;&#160;&#160;{ltHTMLChar}add name=&quot;ConnectionString&quot; <br>                     connectionString=&quot;Server=(local);<br>                     Database=NorthWind;uid=sa;pwd=sa;&quot; /{gtHTMLChar}<br>                &#160;&#160;&#160;&#160;{ltHTMLChar}!--It can't use the Windows Integrated because they are <br>                     using Novell --{gtHTMLChar}                <br>{ltHTMLChar}/connectionStrings{gtHTMLChar}</pre>
-<dd>Good example - not use Windows Integrated Authentication connection string with comment.</dd></dl>
+    <dt style="width&#58;92.79%;height&#58;152px;">
+    <pre>                {ltHTMLChar}connectionStrings{gtHTMLChar}<br>                &#160;&#160;&#160;&#160;{ltHTMLChar}add name=&quot;ConnectionString&quot; <br>                     connectionString=&quot;Server=(local);<br>                     Database=NorthWind;uid=sa;pwd=sa;&quot; /{gtHTMLChar}<br>                &#160;&#160;&#160;&#160;{ltHTMLChar}!--It can't use the Windows Integrated because they are <br>                     using Novell --{gtHTMLChar}                <br>{ltHTMLChar}/connectionStrings{gtHTMLChar}</pre>
+    </dt>
+    <dd>Good example - not use Windows Integrated Authentication connection string with comment.</dd>
+</dl>
+
 
 
