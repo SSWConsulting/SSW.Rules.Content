@@ -16,7 +16,9 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a>, <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit">NUnit</a> and <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop">Microsoft FxCop</a> are tools to keep your code &quot;healthy&quot;. That is why they should be easily accessible in every solution so that they can be run with a double click of a mouse button. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>&#160;</p>
