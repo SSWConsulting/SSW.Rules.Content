@@ -13,16 +13,22 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> It is a good practice to highlight string variables or const in source code editor of Visual Studio to make them clear. Strings can be easily found especially you have long source code. 
+ </span>
 
-<dl class="badImage">
-<dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Default string appearance" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/HighlightString_bad_small.gif" /> 
-<dd>Default string appearance </dd></dl>
+
+  <dl class="badImage">
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Default string appearance" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/HighlightString_bad_small.gif" /> </dt>
+    <dd>Default string appearance </dd>
+</dl>
 <dl class="goodImage">
-<dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Highlighted string appearance" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/HighlightString_good_small.jpg" /> 
-<dd>Highlighted string appearance </dd></dl>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Highlighted string appearance" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/HighlightString_good_small.jpg" /> </dt>
+    <dd>Highlighted string appearance </dd>
+</dl>
 <dl class="goodImage">
-<dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Tools | Options form of Visual Studio" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/HighlightString_VSOption_small.gif" /> 
-<dd>Tools | Options form of Visual Studio</dd></dl>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Tools | Options form of Visual Studio" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/HighlightString_VSOption_small.gif" /> </dt>
+    <dd>Tools | Options form of Visual Studio</dd>
+</dl>
+
 
 
