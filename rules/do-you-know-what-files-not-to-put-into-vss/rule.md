@@ -16,7 +16,14 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>The following files should NOT be included in source safe as they are user specific files&#58; </p>
+<ul>
+    <li>*.scc;*.vspscc - Source Safe Files </li>
+    <li>*.pdb - Debug Files </li>
+    <li>*.user - User settings for Visual Studio .NET IDE </li>
+</ul>
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
