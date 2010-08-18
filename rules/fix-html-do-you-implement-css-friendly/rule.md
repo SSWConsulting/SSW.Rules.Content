@@ -16,18 +16,88 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>It is extremely important to make your site standards compliant&#58;</p>
+<ul>
+    <li>It makes styling a lot easier. </li>
+    <li>It also means your site is likely to work for all browsers, even if you don’t specifically target/support them. </li>
+    <li>It requires accessibility for big public sites can be met easier.</li>
+</ul>
+
 <br><excerpt class='endintro'></excerpt><br>
-<p>When you first run your SharePoint site – you’ll discover that it looks nice on the surface but needs a significant amount of work to fix all the bad HTML. 
+
+  <p>When you first run your SharePoint site – you’ll discover that it looks nice on the surface but needs a significant amount of work to fix all the bad HTML. </p>
 <p>Implement CSS Friendly – these are the control adapters released by Microsoft to make ASP.NET render better, non-table based controls.&#160; You can implement them for SharePoint sites as well. </p>
 <dl class="badCode">
-<dl>
-<dl>
-<dt>{ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>id=zz1_TopNavigationMenu class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0{gtHTMLChar}<br>{ltHTMLChar}TBODY{gtHTMLChar}<br>&#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>&#160;&#160;&#160;&#160;{ltHTMLChar}TD id=zz1_TopNavigationMenun0{gtHTMLChar}<br>&#160;&#160;&#160;&#160; &#160;&#160;&#160;{ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0 width=&quot;100%&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160; &#160;&#160;{ltHTMLChar}TBODY{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TD style=&quot;WHITE-SPACE&#58; nowrap&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}A style=&quot;...&quot; class=&quot;...&quot; href=&quot;...&quot;{gtHTMLChar}Home{ltHTMLChar}/A{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160; {ltHTMLChar}/TR{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TBODY{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TABLE{gtHTMLChar}<br>&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>&#160;&#160;&#160;&#160;...&#160;&#160;&#160;<br>&#160;&#160;&#160; {ltHTMLChar}TD id=zz1_TopNavigationMenun1{gtHTMLChar}<br>&#160;&#160;&#160;&#160; &#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0 width=&quot;100%&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160; &#160;&#160; {ltHTMLChar}TBODY{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TD style=&quot;WHITE-SPACE&#58; nowrap&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}A style=&quot;...&quot; class=&quot;...&quot; href=&quot;...&quot;{gtHTMLChar}Operations{ltHTMLChar}/A{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TR{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TBODY{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TABLE{gtHTMLChar}<br>&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>&#160;&#160;&#160; ...<br>&#160;&#160;&#160; {ltHTMLChar}TD id=zz1_TopNavigationMenun2{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0 width=&quot;100%&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TBODY{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TD style=&quot;WHITE-SPACE&#58; nowrap&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}A style=&quot;...&quot; class=&quot;...&quot; href=&quot;...&quot;{gtHTMLChar}Application Management{ltHTMLChar}/A{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TR{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{ltHTMLChar}/TBODY{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TABLE{gtHTMLChar}<br>&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>&#160;&#160;&#160; ...<br>&#160;&#160;&#160; {ltHTMLChar}/TR{gtHTMLChar}<br>{ltHTMLChar}/TBODY{gtHTMLChar}<br>{ltHTMLChar}/TABLE{gtHTMLChar}</dt></dl></dl>
-<dd>Bad example - without using CSS Friendly </dd></dl>
+    <dl>
+        <dl>
+            <dt>{ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>id=zz1_TopNavigationMenu class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0{gtHTMLChar}<br>
+            {ltHTMLChar}TBODY{gtHTMLChar}<br>
+            &#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;{ltHTMLChar}TD id=zz1_TopNavigationMenun0{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160; &#160;&#160;&#160;{ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0 width=&quot;100%&quot;{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160; &#160;&#160;{ltHTMLChar}TBODY{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TD style=&quot;WHITE-SPACE&#58; nowrap&quot;{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}A style=&quot;...&quot; class=&quot;...&quot; href=&quot;...&quot;{gtHTMLChar}Home{ltHTMLChar}/A{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160; {ltHTMLChar}/TR{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TBODY{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TABLE{gtHTMLChar}<br>
+            &#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;...&#160;&#160;&#160;<br>
+            &#160;&#160;&#160; {ltHTMLChar}TD id=zz1_TopNavigationMenun1{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160; &#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0 width=&quot;100%&quot;{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160; &#160;&#160; {ltHTMLChar}TBODY{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TD style=&quot;WHITE-SPACE&#58; nowrap&quot;{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}A style=&quot;...&quot; class=&quot;...&quot; href=&quot;...&quot;{gtHTMLChar}Operations{ltHTMLChar}/A{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TR{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TBODY{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TABLE{gtHTMLChar}<br>
+            &#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>
+            &#160;&#160;&#160; ...<br>
+            &#160;&#160;&#160; {ltHTMLChar}TD id=zz1_TopNavigationMenun2{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">TABLE </font>class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0 width=&quot;100%&quot;{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TBODY{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TR{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}TD style=&quot;WHITE-SPACE&#58; nowrap&quot;{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}A style=&quot;...&quot; class=&quot;...&quot; href=&quot;...&quot;{gtHTMLChar}Application Management{ltHTMLChar}/A{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TR{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{ltHTMLChar}/TBODY{gtHTMLChar}<br>
+            &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/TABLE{gtHTMLChar}<br>
+            &#160;&#160;&#160; {ltHTMLChar}/TD{gtHTMLChar}<br>
+            &#160;&#160;&#160; ...<br>
+            &#160;&#160;&#160; {ltHTMLChar}/TR{gtHTMLChar}<br>
+            {ltHTMLChar}/TBODY{gtHTMLChar}<br>
+            {ltHTMLChar}/TABLE{gtHTMLChar}</dt>
+        </dl>
+    </dl>
+    <dd>Bad example - without using CSS Friendly </dd>
+</dl>
 <dl class="goodCode">
-<dt>{ltHTMLChar}div class=&quot;CssFriendly-Menu-Horizontal&quot; id=&quot;zz1_TopNavigationMenu&quot;{gtHTMLChar}<br>&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">ul</font> class=&quot;CssFriendly-Menu&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">li</font> class=&quot;CssFriendly-Menu-WithChildren&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}a href=&quot;...&quot; class=&quot;CssFriendly-Menu-Link TopLevelNavItem&quot;{gtHTMLChar}About Us{ltHTMLChar}/a{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}div class=&quot;cbb CssFriendly-Menu-Dropdown&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}div class=&quot;CssFriendly-Menu-Dropdown-ItemHost&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">ul</font> class=&quot;first&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">li</font> class=&quot;CssFriendly-Menu-Leaf&quot;{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}a href=&quot;...&quot; class=&quot;CssFriendly-Menu-Link&quot;{gtHTMLChar}Employees{ltHTMLChar}/a{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/li{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/ul{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/div{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/div{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/li{gtHTMLChar}<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; ...<br>&#160;&#160;&#160; {ltHTMLChar}/ul{gtHTMLChar}<br>{ltHTMLChar}/div{gtHTMLChar} </dt>
-<dd>Good example - using CSS Friendly</dd></dl>
-<p></p>
+    <dt>{ltHTMLChar}div class=&quot;CssFriendly-Menu-Horizontal&quot; id=&quot;zz1_TopNavigationMenu&quot;{gtHTMLChar}<br>
+    &#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">ul</font> class=&quot;CssFriendly-Menu&quot;{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">li</font> class=&quot;CssFriendly-Menu-WithChildren&quot;{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}a href=&quot;...&quot; class=&quot;CssFriendly-Menu-Link TopLevelNavItem&quot;{gtHTMLChar}About Us{ltHTMLChar}/a{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}div class=&quot;cbb CssFriendly-Menu-Dropdown&quot;{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}div class=&quot;CssFriendly-Menu-Dropdown-ItemHost&quot;{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">ul</font> class=&quot;first&quot;{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}<font style="background-color&#58;#ffff80;">li</font> class=&quot;CssFriendly-Menu-Leaf&quot;{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}a href=&quot;...&quot; class=&quot;CssFriendly-Menu-Link&quot;{gtHTMLChar}Employees{ltHTMLChar}/a{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/li{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/ul{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/div{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/div{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160; {ltHTMLChar}/li{gtHTMLChar}<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&#160; ...<br>
+    &#160;&#160;&#160; {ltHTMLChar}/ul{gtHTMLChar}<br>
+    {ltHTMLChar}/div{gtHTMLChar} </dt>
+    <dd>Good example - using CSS Friendly</dd>
+</dl>
+<p>&#160;</p>
+
 
 
