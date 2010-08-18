@@ -13,7 +13,10 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> To create a master page or reuse an existing master page&#160;is a time-consuming process.&#160;Because you have to determine what the Office SharePoint Server 2007 page model requires — necessary content placeholders and controls to work with the page layouts.<br>
+<br>
+Another problem of&#160;Default.master is that it contains many tables that&#160;are&#160;difficult to style.
+ </span>
 
 
   <dl class="badCode">
