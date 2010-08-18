@@ -13,12 +13,13 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> All setup files should stored under setup folder of your project root directory. 
+ </span>
 
 
   <dl class="goodImage">
     <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Store all setup files under one folder in root" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/SetupFileGood.gif" /> </dt>
-    <dd>Good example - All the wise setup file in the \setup folder.</dd>
+    <dd>Good example - All the wise setup file in the \setup folder. </dd>
 </dl>
 <p>&#160;</p>
 <table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
