@@ -13,11 +13,13 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <span style="font-family&#58;'calibri', 'sans-serif';font-size&#58;11pt;" lang="EN-US">SharePoint as a platform on top of ASP.NET gives you many components that you don’t get from ASP.NET out of the box&#58;</span> 
+ </span>
 
 
-  <span lang="EN-US" style="font-size&#58;11pt;font-family&#58;'calibri', 'sans-serif';">
-    <span lang="EN-US" style="font-size&#58;11pt;font-family&#58;'calibri', 'sans-serif';">
+  <span style="font-family&#58;'calibri', 'sans-serif';font-size&#58;11pt;" lang="EN-US">
+    <span style="font-family&#58;'calibri', 'sans-serif';font-size&#58;11pt;" lang="EN-US">
       <br>
 <ul>
     <li>WYSIWYG editing (IE only, no FireFox)<br>
