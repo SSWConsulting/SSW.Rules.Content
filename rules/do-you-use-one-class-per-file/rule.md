@@ -13,11 +13,17 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>Each class definition should live in its own file.</p>
+<p>Reasons&#58;</p>
+<p>Easy to locate class definitions outside the Visual Studio IDE (e.g. SourceSafe, Windows Explorer)</p>
+ </span>
 
-<p>The only exception should be - classes that collectively forms one atomic unit of reuse should live in one file. For example&#58;<br></p>
+
+  <p>The only exception should be - classes that collectively forms one atomic unit of reuse should live in one file. For example&#58;</p>
 <dl class="badCode">
-<dt style="width&#58;92.16%;height&#58;806px;"><pre>class MyClass
+    <dt style="width&#58;92.16%;height&#58;806px;">
+    <pre>class MyClass
 <br> 
 &#123;
 <br>
@@ -61,6 +67,9 @@ class MyClassBException
 <br>
 &#125;
 </pre>
-<dd>Bad example - 1 project, 1 file. </dd></dl>
+    </dt>
+    <dd>Bad example - 1 project, 1 file. </dd>
+</dl>
+
 
 
