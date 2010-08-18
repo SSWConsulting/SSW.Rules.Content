@@ -44,7 +44,7 @@ authors:
     <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
     </dt>
     <dt></dt>
-    <dd>Figure&#58; Create new site</dd>
+    <dd>Figure&#58; Create new site </dd>
 </dl>
 <p>Now follow these steps when the new window opens fill in the fields below.</p>
 <dl class="goodImage">
@@ -52,16 +52,16 @@ authors:
     <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
     </dt>
     <dt></dt>
-    <dd>Figure&#58; Fill in the appropriate info then click &quot;Create&quot;</dd>
+    <dd>Figure&#58; Fill in the appropriate info then click &quot;Create&quot; </dd>
 </dl>
 <p>More Information&#58;</p>
 <ol>
     <li>Fill in the fields for the new client site <br>
-    eg. Title, Description and URL</li>
+    eg. Title, Description and URL </li>
     <li>Select the template <br>
     e.g “<b>ClientCollaboration_V1</b>” in the Custom tab.<br>
-    Note&#58; Your selection is confirmed in the picture. In this example the template’s description looks like “<b>Site for Collaboration with SSW Clients</b>”.</li>
-    <li>Select “<b>Use Unique permissions</b>” as you need to give the client an account to visit.</li>
+    Note&#58; Your selection is confirmed in the picture. In this example the template’s description looks like “<b>Site for Collaboration with SSW Clients</b>”. </li>
+    <li>Select “<b>Use Unique permissions</b>” as you need to give the client an account to visit. </li>
     <li>In the “<b>Navigation Inheritance</b>” choose&#160;“<b>No</b>” as you don’t need to let client visit the other client sites via the navigation. </li>
     <li>Click “<strong>Create</strong>” </li>
 </ol>
@@ -72,11 +72,11 @@ authors:
     <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
     </dt>
     <dt></dt>
-    <dd>Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site.</dd>
+    <dd>Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site. </dd>
 </dl>
 <p>More Information&#58;</p>
 <ul>
-    <li>Permissions&#58; After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority. By default&#58;</li>
+    <li>Permissions&#58; After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority. By default&#58; </li>
 </ul>
 <ol>
     <li><strong>Visitors to the site - Read &#58; </strong>
@@ -84,30 +84,29 @@ authors:
         <li>Visitors need to read most of the site. </li>
         <li>They can't read team discussions (not used) </li>
         <li>They can download from 'release files' document library. </li>
-        <li>They can <span style="font-family&#58;'verdana','sans-serif';color&#58;#555555;font-size&#58;9pt;">synchronize their calendar </span>to the team calendar in SharePoint (not used - one day it should read from CRM)</li>
+        <li>They can <span style="font-family&#58;'verdana','sans-serif';color&#58;#555555;font-size&#58;9pt;">synchronize their calendar </span>to the team calendar in SharePoint (not used - one day it should read from CRM) </li>
     </ul>
     </li>
     <li><strong>Members of this Site - Contribute&#58;</strong>
     <ul>
-        <li>Can view, add, update and delete.</li>
+        <li>Can view, add, update and delete. </li>
     </ul>
     </li>
     <li><strong>Owners of this Site - Full Control&#58;</strong>
     <ul>
-        <li>Has a full control.</li>
+        <li>Has a full control. </li>
     </ul>
     </li>
 </ol>
 <p>In this case, we are using 'create a new group' option because we want this group to be able to access only for this perticular site&#160; - It is a good practice to create a new group for every site you create, because it will be easier to add or delete users in the group for that specific site.</p>
 <p>Note&#58; you can also access this through the &quot;People and Group&quot; option on &quot;Site Action&quot; link on right hand top of the page, if you need to manage permission in future.</p>
-<p>Click &quot;OK&quot;, and the portal is created.<br>
-</p>
+<p>Click &quot;OK&quot;, and the portal is created.</p>
 <dl class="goodImage">
     <dt>
     <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p>
     </dt>
     <dt></dt>
-    <dd>Figure&#58; <a href="/zzClients/Northwind/default.aspx">View Northwind portal.</a></dd>
+    <dd>Figure&#58; <a href="/zzClients/Northwind/default.aspx">View Northwind portal.</a> </dd>
 </dl>
 <p>Note&#58; SharePoint will send &quot;welcome email&quot; to all the members of the groups you created&#160;for the site with basic information, but you still need to send email to your customer with the login details like Url, userName and Password.</p>
 
