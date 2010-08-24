@@ -12,7 +12,7 @@ authors:
 
 
 <span class='intro'> If the task requires a code change and you are using TFS, make sure it goes in as a work item. <br>
-<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx#SendDoneMail">The perfect workflow is to use TeamCompanion and get nice email integration, as per &quot;Rules to better Project Management with TFS&quot; </a>
+The perfect workflow is to use TeamCompanion and get nice email integration, as per <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx#SendDoneMail">&quot;Rules to better Project Management with TFS&quot; </a>
  </span>
 
 
