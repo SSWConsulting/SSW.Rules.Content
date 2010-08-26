@@ -28,12 +28,13 @@ redirects: []
 <br>
 The expertise of a software consultant is likely to be in the technology underlying&#160;your clients business, not in their business model. If they're willing to pay for external consultants its highly likely their business model has been successful to date and it's wise that you leave that to them.<br>
 <br>
-However, on some technical issues you should speak out firmly when you think the client is suggesting the wrong course of action. The following areas are most common&#58;</p>
+However, on some issues you should speak out firmly when you think the client is suggesting the wrong course of action. The following areas are most common&#58;</p>
 <ul>
     <li>Using old technology - eg SharePoint 2007 instead of SharePoint 2010 </li>
     <li>Wanting a non-scalable solution - this should speak for itself - the client is likely coming to you because their current solution has max'd out </li>
-    <li>Pushing for quick fixes when a better longer term fix is reasonable - eg hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, fixing the size of text boxes instead of having them scale with the content.</li>
-    <li>Not thinking that UX matters </li>
+    <li>Pushing for quick fixes when a better longer term fix is reasonable - eg hardcoding connection strings, using Boolean instead of Text when more options might arise down the track, fixing the size of text boxes instead of having them scale with the content. </li>
+    <li>Not thinking that UX matters</li>
+    <li>Trying to revert to a fixed price model when the agreement&#160;is time &amp; materials&#160;&#160;</li>
 </ul>
 <p><strong>Knowing how to persuade the client that your way is the best way</strong><br>
 <br>
