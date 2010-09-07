@@ -25,6 +25,7 @@ If someone gives you feedback and you think it is worth incorporating into the c
 <p>&#160; </p>
 <p><img title="SNAGHTML1d398ce" style="background-image&#58;none;border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;padding-left&#58;0px;width&#58;800px;padding-right&#58;0px;display&#58;inline;height&#58;621px;border-top&#58;0px;border-right&#58;0px;padding-top&#58;0px;" alt="SNAGHTML1d398ce" src="/Standards/Communication/RulesToBetterBlogging/PublishingImages/RulesBloggingAcknowledgeGood.jpg" border="0" /><br>
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example, dated and attributed updates give your posts credibility and make them seam alive.</font></p>
+<p>Make sure that the follow up and aggregate Twitter and Facebook users as well. Make all your readers feel included and you will create loyalty within your readership.</p>
 
 
 
