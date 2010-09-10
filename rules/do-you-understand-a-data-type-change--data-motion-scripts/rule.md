@@ -49,8 +49,8 @@ The data then must be migrated to the new data type this way&#58;
 </dl>
 <p>Visual Studio&#160;does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.</p>
 <img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/DataDude-BadExample.jpg" /><br>
-&#160;<font class="ms-rteCustom-FigureGood" size="+0">Bad Example - Don't use Data Dude<br>
-</font>note&#58; In order to achieve this you MUST use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost.
+<font class="ms-rteCustom-FigureGood" size="+0">Good Example - Don't use Data Dude<br>
+</font>note&#58; In order to achieve this you MUST use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost. 
 
 
 
