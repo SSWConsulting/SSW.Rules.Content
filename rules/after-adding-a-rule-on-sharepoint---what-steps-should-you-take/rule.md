@@ -14,12 +14,16 @@ authors:
 <span class='intro'> 
   <p>To prevent spelling or grammatical errors in the text content of a rule, you should complete the following steps&#58;</p>
 <ul>
-    <li>Check the rule in Office Word for <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesLayout.aspx#WordSpellingAndGrammarChecker">spelling or grammatical errors</a></li>
-    <li>Run Link Auditor on that page</li>
-    <li>Check the report and fix the errors</li>
-    <li>Check in the page and repeat steps 2-3 until Link Auditor has all green ticks</li>
+    <li>Check the rule in Office Word for <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesLayout.aspx#WordSpellingAndGrammarChecker">spelling or grammatical errors</a> </li>
+    <li>Run Link Auditor on that page </li>
+    <li>Check the report and fix the errors </li>
+    <li>Check in the page and repeat steps 2-3 until Link Auditor has all green ticks </li>
 </ul>
 We also have a rule&#58; <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#StepsAfterAddRuleOnAspxPage">Adding a rule in aspx</a>
+<dl>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SPedit.jpg" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; SharePoint 2010 as a content management system </dd>
+</dl>
  </span>
 
 
