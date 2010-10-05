@@ -12,14 +12,14 @@ authors:
 
 
 <span class='intro'> 
-  <p>In order to make sure that a rule does not have any grammar or spelling mistakes, you should follow the below steps once you finish adding a rule on SharePoint&#58;</p>
-<ol>
-    <li>Check the rule in MS Word&#160;to see <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesLayout.aspx#WordSpellingAndGrammarChecker">if it has spelling or grammar mistakes</a> </li>
-    <li>Run Link Auditor on that page </li>
-    <li>Check the report and fix the errors </li>
-    <li>Check in the page and repeat step 2 and 3&#160; until Link Auditor get all green ticks </li>
-</ol>
-We also have a rule <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#StepsAfterAddRuleOnAspxPage">After adding a rule on aspx page - what are the steps to do? </a>
+  <p>To prevent spelling or grammatical errors in the text content of a rule, you should complete the following steps&#58;</p>
+<ul>
+    <li>Check the rule in Office Word for <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesLayout.aspx#WordSpellingAndGrammarChecker">spelling or grammatical errors</a></li>
+    <li>Run Link Auditor on that page</li>
+    <li>Check the report and fix the errors</li>
+    <li>Check in the page and repeat steps 2-3 until Link Auditor has all green ticks</li>
+</ul>
+We also have a rule&#58; <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#StepsAfterAddRuleOnAspxPage">Adding a rule in aspx</a>
  </span>
 
 
