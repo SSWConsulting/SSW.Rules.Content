@@ -15,7 +15,7 @@ related: []
 ---
 
 
-Silverlight out of browser enables the application to be placed in a restricted store on the user’s machine; and then provide a link directly to it from the user’s desktop or start menu. This is all enabled within Silverlight without any additional download of runtime or the need to write applications in a different way.
+Silverlight out of browser enables the application to be placed in a restricted store on the user’s machine; and then provide a link directly to it from the user’s desktop or start menu. This is all enabled within Silverlight without any additional download of runtime or the need to write applications in a different way. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
