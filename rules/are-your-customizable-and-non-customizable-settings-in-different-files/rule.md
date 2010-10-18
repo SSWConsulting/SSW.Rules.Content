@@ -22,7 +22,7 @@ authors:
     <li>ToolsOptions.Config (an SSW standard) is the file to hold the users own settings, that are users can change in the Tools - Options. <br>
     Eg. ConnectionString, EmailTo, EmailCC<br>
     Note&#58; We read and write to this using Microsoft Configuration Application Block. If we don't use this Block we would store it as a plain XML file and read and write to it using System.XML classes. The idea is that if something does go wrong when you are writing to this file, at least the App.Config would not be affected. Also, this separates our settings (which are few) from the App.Config (which usually has a lot of stuff that we really dont want a user to stuff around with). </li>
-    <li>UserSession.Config (an SSW standard). These are for additional setting files that the user can not change. <br>
+    <li>UserSession.Config (an SSW standard). These are for additional setting files that the user cannot change. <br>
     e.g. FormLocation, LastReportSelected<br>
     Note&#58; This file is over writable (say during a re-installation) and it will not affect the user if the file is deleted.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </li>
 </ol>
