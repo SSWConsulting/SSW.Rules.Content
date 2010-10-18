@@ -26,7 +26,7 @@ authors:
 
 
   <ol>
-    <li><font size="2">Go to the root where you want to create a site<br>
+    <li><font size="2"><font class="ms-rteCustom-ImageArea" size="+0"><font size="2"></font></font><font class="ms-rteCustom-ImageArea" size="+0"><font size="2"></font></font>Go to the root where you want to create a site<br>
     eg. sharepoint.ssw.com.au</font> </li>
     <li><font size="2">Click &quot;Site Actions&quot; on right hand top, select &quot;Manage Content and Structure</font> </li>
 </ol>
@@ -67,13 +67,7 @@ authors:
 </ol>
 <p>&#160;</p>
 <p>Next step is to setup the groups and permissions. </p>
-<dl class="goodImage">
-    <dt>
-    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create new group Image" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteSetPermissionStep1.jpg" /></p>
-    </dt>
-    <dt></dt>
-    <dd>Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site. </dd>
-</dl>
+<img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SetUpGroupForSite.jpg" />&#160;&#160;<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site. </font>
 <p>More Information&#58;</p>
 <ul>
     <li>Permissions&#58; After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority. By default&#58; </li>
