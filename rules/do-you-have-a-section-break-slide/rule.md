@@ -9,7 +9,9 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>Cover slides in presentations provide structure. These slides should be consistent so they do not confuse the audience. </p>
+ </span>
 
 
   <dl>
