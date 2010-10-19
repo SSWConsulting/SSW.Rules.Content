@@ -11,8 +11,7 @@ related: []
 ---
 
 
-Small images are hard to see. Remember&#160;your audience at the back of the room. Especially for screenshots displaying important text, it is more important to utilize all the slide estate for the benefit of visibility than it is to maintain aesthetics.
-
+Small images are hard to see. Remember your audience at the back of the room. Especially for screenshots displaying important text, it is more important to utilize all the slide estate for visibility. 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
