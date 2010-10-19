@@ -9,12 +9,12 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Always end your presentation with a ‘Thank You’ slide. More than being polite, it  makes clear that this is the last slide and presentation is over. You can also take the opportunity to inform the audience of your contact details. </span>
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="SSW Thank You slide" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/ThankSlide.jpg" /></dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Always finish with a ‘Thank You’ slide</dd>
+    <dt><img class="ms-rteCustom-ImageArea" alt="SSW Thank You slide" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/ThankSlide.jpg" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Always finish with a ‘Thank You’ slide </dd>
 </dl>
 
 
