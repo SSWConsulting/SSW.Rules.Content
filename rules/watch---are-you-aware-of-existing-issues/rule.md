@@ -11,7 +11,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+No doubt there will be a time when you get new developers to work on an existing application. Known issues with the existing application should be clearly delineated as much as possible. But new bugs will occur when changes have unforeseen effects on functionality down the line. This is to be expected.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Once again it's a matter of working with your developers in being clear in requirements and testing as changes are made to ensure these issues are trapped as early as possible. </p>
