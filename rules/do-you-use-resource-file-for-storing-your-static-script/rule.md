@@ -43,11 +43,11 @@ authors:
 </dl>
 <p><b>Figure&#58; The code in the first box, the string in the resource file in the 2nd box. This is the easiest to read + you can localize it eg. If you need to localize an Alert in the javascript</b></p>
 <dl class="image">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create a Resource file" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/CreateResource_small.jpg" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create a Resource file" src="/PublishingImages/CreateResource_small.jpg" /> </dt>
     <dd>Figure&#58; Add a recourse file into your project in VS2005</dd>
 </dl>
 <dl class="image">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create a Resource file" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/ReadResource_small.jpg" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create a Resource file" src="/PublishingImages/ReadResource_small.jpg" /> </dt>
     <dd>Figure&#58; Read value from the new added resource file</dd>
 </dl>
 
