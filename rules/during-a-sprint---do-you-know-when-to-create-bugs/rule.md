@@ -47,7 +47,7 @@ related: []
     </ul>
     </li>
 </ul>
-<p>See <a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/BugsontheProductBacklog.aspx">Do you know how to handle Bugs on the Product Backlog?</a> for how to work with bugs on your backlog.</p>
+<p>See <a href="/Management/RulesToBetterScrumUsingTFS/Pages/BugsontheProductBacklog.aspx">Do you know how to handle Bugs on the Product Backlog?</a> for how to work with bugs on your backlog.</p>
 <p>Extracted from <a href="http&#58;//www.accentient.com/scrum.aspx">Accentient’s</a> Scrum Training by <a href="http&#58;//blog.hundhausen.com/">Richard Hundhausen</a></p>
 
 
