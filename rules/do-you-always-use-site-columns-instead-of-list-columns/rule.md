@@ -27,15 +27,15 @@ authors:
     <li>Make sure the site column is added to our own group description such as &quot;SSW Columns&quot; - this is important for filtering and exporting site column customizations for deployment.&#160; Also great because they are now grouped in the UI.</li>
 </ul>
 <dl class="badImage">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ListColumn.png" /> </dt>
+    <dt><img alt="" src="/PublishingImages/ListColumn.png" /> </dt>
     <dd>Figure&#58; Create column - Bad Example </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SiteColumn.png" /> </dt>
+    <dt><img alt="" src="/PublishingImages/SiteColumn.png" /> </dt>
     <dd>Figure&#58; Add from existing site columns - Good Example </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SSWColumns_small.jpg" /> </dt>
+    <dt><img alt="" src="/PublishingImages/SSWColumns_small.jpg" /> </dt>
     <dd>Figure&#58; Site Columns - Good Example </dd>
 </dl>
 <p>&#160;</p>
