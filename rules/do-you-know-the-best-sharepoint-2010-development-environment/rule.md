@@ -18,7 +18,7 @@ authors:
 <span class='intro'> 
   <p>Developing in ASP.NET is easy, you just press F5, Visual Studio spins up instance of the Cassini web server, and you can see your work execute. Developing in SharePoint is much harder as you need access to a local SharePoint server to see your work run.</p>
 <p>In SharePoint 2007 there are three options, in SharePoint 2010 they have added one more.</p>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SetupSPEnviroment.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Setting up the development environment in SharePoint can give you a headache</font> 
+<img alt="" class="ms-rteCustom-ImageArea" src="/PublishingImages/SetupSPEnviroment.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Setting up the development environment in SharePoint can give you a headache</font> 
  </span>
 
 Your development choices in SharePoint 2007 are&#58;
@@ -57,7 +57,7 @@ Are there any shortcuts for Silverlight developers (for SharePoint consumption)?
     <li>Yes, you can easily deploy a xap file to a document library. However, if you need to debug it you will need the SharePoint 2010 object model. <br>
     Tip&#58; You could minimise your exposure to the object model by using a Repository pattern, which would allow you to debug and test your application without SharePoint, but ultimately you will need to debug and test in SharePoint. </li>
 </ul>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/UltimateSolution.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; The Ultimate solution for SharePoint development environments is to have another machine under your desk.</font> The Ultimate Solution <br>
+<img alt="" class="ms-rteCustom-ImageArea" src="/PublishingImages/UltimateSolution.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; The Ultimate solution for SharePoint development environments is to have another machine under your desk.</font> The Ultimate Solution <br>
 <ul>
     <li>Get yourself a second machine (same as remote) </li>
     <li>But don’t share it with anyone else! </li>
