@@ -14,7 +14,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Sometimes a client may ask for a small amount of time to be written off and may not have a good reason (from SSW’s point of view). Normally this would mean that the time would not be written off. However, sometimes, in the interest of continuing relationships with valued clients, some time may need to be written off simply to keep the clients happy.
+
 <br><excerpt class='endintro'></excerpt><br>
 This may seem counterintuitive since there is no logical reason to write off the time but in situations where it is necessary&#58;<br>
 <ul>
