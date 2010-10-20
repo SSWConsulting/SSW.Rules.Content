@@ -27,7 +27,8 @@ related: []
     </ol>
     </li>
 </ol>
-<p>TODO[Martin Hinshelwood]&#58; Add figure of DNS pointers.</p>
+<p><img alt="TFS In DNS" src="/PublishingImages/TFSDNS.png" /><br>
+Figure&#58; DNS Pointer for&#160;TFS can be easily changed</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
