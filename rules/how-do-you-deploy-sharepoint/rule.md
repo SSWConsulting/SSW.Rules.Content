@@ -9,7 +9,15 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> <p>We use <strong>SSWPackage.exe</strong></p>
+<p>The long answer&#58;</p>
+<p>Deploying changes between development, staging and production servers can be a very interesting exercise&#58;</p>
+<ul>
+<li>It is painstakingly awkward when you realize that you have forgotten a file</li>
+<li>Or forgotten to take the latest version of a particular file</li>
+<li>Each iteration is manual and can be error prone</li>
+<li>The result is that your developers are working late into the evening and your SharePoint servers are down for a prolonged period of time – something that may be very difficult to accept in a corporate environment</li></ul>
+<p>At SSW, we saw all this was unacceptable and work to improve this process.<br></p> </span>
 
 <p>Our answer to the deployment problem is&#160;a combination of tools and processes – we call it the SSWpackage.exe</p>
 <ul>
