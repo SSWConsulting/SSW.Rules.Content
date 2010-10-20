@@ -19,7 +19,7 @@ You may be a natural born public speaker, but you will not be able ‘wing’ a 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/preslide.gif" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/preslide.gif" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Pre-setup slide </dd>
 </dl>
 
