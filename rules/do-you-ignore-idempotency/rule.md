@@ -41,7 +41,7 @@ ELSE
 </pre>
 </font><font class="ms-rteCustom-FigureGood" size="+0">Good example – not worrying about the idempotency. If errors occur we don’t want them to be hidden + it is easier to read</font><br>
 <dl class="image">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/ViagraPill.jpg" /> </dt>
+    <dt><img alt="" src="/PublishingImages/ViagraPill.jpg" /> </dt>
     <dd>Figure&#58; Viagra isn't the cure to your Idempotency problems </dd>
 </dl>
 See the concept of&#160;<span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;"><a shape="rect" href="http&#58;//en.wikipedia.org/wiki/Idempotence"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">Idempotence on WikiPedia</span></a></span> 
