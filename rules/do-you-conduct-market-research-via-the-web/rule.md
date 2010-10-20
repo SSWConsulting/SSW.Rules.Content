@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Why write code when you may not need to write any at all? In every industry Market Research is conducted before a product is developed. Why is IT any different? Doing Market Research focuses the product on the right set of people so you can satisfy their needs. If you can't connect the dots between the work you do and how it helps the customer, consider investing your time elsewhere. Market Research bridges the gap between the techies and the users.
+ </span>
 
 
   <p>A great way we get feedback on upcoming projects is by putting <a href="http&#58;//www.ssw.com.au/Projects/Public.aspx">our specs of upcoming projects</a> on the web and inviting user comments - not forgetting to acknowledge their contribution. Often Surfers will tell you what is needed to make the product great instead of just good, or you may be told that there is already a program out there that does the job. You should also spend two days looking for similar products and speaking to users about the features. Since the specs are full of screen captures, this allows us to think of our end-users and increases the likelihood of creating a great product which our users love.</p>
