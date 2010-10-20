@@ -13,7 +13,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="SSW Thank You slide" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/ThankSlide.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="SSW Thank You slide" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/ThankSlide.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Always finish with a ‘Thank You’ slide </dd>
 </dl>
 
