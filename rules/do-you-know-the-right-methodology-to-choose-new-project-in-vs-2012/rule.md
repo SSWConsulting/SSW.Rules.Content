@@ -17,7 +17,7 @@ authors:
  </span>
 
 
-  <img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010ProcessTemplates.jpg" /> <br>
+  <img alt="" class="ms-rteCustom-ImageArea" src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010ProcessTemplates.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal">Figure&#58; Built-in Process Templates in VSTS 2010</font><br>
 <br>
 Beside the Microsoft Process Templates below&#58;<br>
