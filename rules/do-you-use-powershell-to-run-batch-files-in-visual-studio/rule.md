@@ -21,11 +21,11 @@ Windows Command Processor (cmd.exe) cannot run batch files (.bat) in Visual Stud
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl class="badImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image bad link" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/BadBatch_small.jpg" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image bad link" src="/PublishingImages/BadBatch_small.jpg" /> </dt>
     <dd>Bad example - Using Windows Command Processor (cmd.exe) for running batch files. </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image good link" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/goodbatch_small.jpg" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image good link" src="/PublishingImages/goodbatch_small.jpg" /> </dt>
     <dd>Good example - Using PowerShell for running batch files</dd>
 </dl>
 
