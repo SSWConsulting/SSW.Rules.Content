@@ -28,7 +28,7 @@ authors:
     <br>
     Wise has a Dialog that prompts the user for the installation directory&#58;
     <dl class="goodImage">
-        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/INSTALLDIR.jpg" /></dt>
+        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/INSTALLDIR.jpg" /></dt>
     </dl>
     <b>&#160;&#160;&#160;&#160; Figure&#58; Wise Prompts the user for the installation directory and sets the path to a property in wise called &quot;INSTALLDIR&quot;</b>
     <p>&#160;&#160;&#160;&#160; An embedded script must be used if the pathname is necessary in the application (i.e. like .reg files that set registry keys in registry)</p>
@@ -38,13 +38,13 @@ authors:
 <br>
  '[HKEY_CLASSES_ROOT\SSWNetToolkit\shell\open\command]
 <br>
-  <a href="mailto&#58;'@=&quot;\&quot;C&#58;\\Program">'@=&quot;\&quot;C&#58;\\Program</a> Files\\SSW NetToolKit\\WindowsUI\\bin\\SSW.NetToolkit.exe\&quot; /select \&quot;%1\&quot;&quot;
+  <a href="mailto&#58;%27@=%22\%22C&#58;\\Program">'@=&quot;\&quot;C&#58;\\Program</a> Files\\SSW NetToolKit\\WindowsUI\\bin\\SSW.NetToolkit.exe\&quot; /select \&quot;%1\&quot;&quot;
 <br>
  'This should be replaced with the following lines&#58;
 <br>
  '[HKEY_CLASSES_ROOT\SSWNetToolkit\shell\open\command]
 <br>
- <a href="mailto&#58;'@=&quot;\&quot;REPLACE_ME\">'@=&quot;\&quot;REPLACE_ME\</a>&quot; /select \&quot;%1\&quot;&quot;
+ <a href="mailto&#58;%27@=%22\%22REPLACE_ME\">'@=&quot;\&quot;REPLACE_ME\</a>&quot; /select \&quot;%1\&quot;&quot;
 <br>
                                         
   Dim oFSO, oFile, sFile
