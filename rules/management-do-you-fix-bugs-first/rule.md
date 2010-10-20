@@ -14,7 +14,14 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>This rule has been important for a long time&#58; Fix bugs before adding functionality. </p>
+<ul>
+    <li>Bugs get more expensive as they get older </li>
+    <li>Bugs become more complex the longer you wait to fix it </li>
+    <li>You have better access to the developer who created it who will be able to fix it faster</li>
+</ul>
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Failing to follow this rules encourages developers to focus on new 'interesting' functionality which is exactly what you don't want...</p>
