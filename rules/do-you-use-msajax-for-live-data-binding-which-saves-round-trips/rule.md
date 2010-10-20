@@ -14,7 +14,10 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+In old versions of ASP.NET AJAX&#160;the&#160;UI control&#160;couldn't get notification if the source had been changed.&#160;Developers had to write the extra code to refresh the value.<br>
+<br>
+In ASP.NET AJAX version 4.0, there is a new feature called &quot;Live Data Binding&quot;, which means when there's any change in the data source, the changes are reflected to the data bound interface instantly and vice versa.&#160; 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <strong>Binding Modes&#58;</strong> <br>
