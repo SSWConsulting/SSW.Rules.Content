@@ -11,15 +11,21 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> There are a lot of reasons to have nice URLs for your website&#58;
+<ul>
+    <li>Easy to remember </li>
+    <li>Easy&#160;to navigate&#160; </li>
+    <li>Better for search engines </li>
+</ul>
+ </span>
 
 
   <dl class="badImage">
-    <dt><img alt="Bad example – This URL is impossible to remember for your users, and even search don’t like these URLs" src="/Standards/WebSites/RulesToBetterWebsiteDevelopmentASPDotNet/PublishingImages/BadURL.jpg" /> </dt>
+    <dt><img alt="Bad example – This URL is impossible to remember for your users, and even search don’t like these URLs" src="/WebSites/RulesToBetterWebsiteDevelopmentASPDotNet/PublishingImages/BadURL.jpg" /> </dt>
     <dd>Figure&#58; Bad example – This URL is impossible to remember for your users, and even search don’t like these URLs </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img alt="Good example – Nice clean URL, easy to remember, easy to guess where I am and good for search engines" src="/Standards/WebSites/RulesToBetterWebsiteDevelopmentASPDotNet/PublishingImages/GoodURL.jpg" /> </dt>
+    <dt><img alt="Good example – Nice clean URL, easy to remember, easy to guess where I am and good for search engines" src="/WebSites/RulesToBetterWebsiteDevelopmentASPDotNet/PublishingImages/GoodURL.jpg" /> </dt>
     <dd>Figure&#58; Good example – Nice clean URL, easy to remember, easy to guess where I am and good for search engines </dd>
 </dl>
 <p>With ASP.NET 4 it is easy to create this URLs. The ASP.NET team includes routing features, known from the MVC web framework.<br>
