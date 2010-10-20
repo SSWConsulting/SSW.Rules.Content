@@ -14,11 +14,11 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Too much text-content in one single slide" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/BadLessText.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="Too much text-content in one single slide" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/BadLessText.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Too much text-content in one single slide </dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/GoodLessText.jpg" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/GoodLessText.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Delivering information should be made simple and clear </dd>
 </dl>
 
