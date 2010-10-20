@@ -24,7 +24,7 @@ The Initial Release Plan is a summary of the work required to complete the clien
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl style="width&#58;249px;float&#58;right;clear&#58;both;" class="image">
-    <dt><img class="ms-rteCustom-ImageArea" border="0" alt="Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early" src="/Standards/Management/RulesToBetterProjectManagement/PublishingImages/ProjectManagement_BallPark_Catch.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" border="0" alt="Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early" src="/Management/RulesToBetterProjectManagement/PublishingImages/ProjectManagement_BallPark_Catch.jpg" /> </dt>
     <dd><span class="ms-rteCustom-FigureNormal">Figure&#58; Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early</span></dd>
 </dl>
 <ul>
