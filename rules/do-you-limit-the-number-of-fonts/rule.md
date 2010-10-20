@@ -16,11 +16,11 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="too many fonts used for headers" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/BadLimitFont.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="too many fonts used for headers" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/BadLimitFont.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Too many fonts makes your slide look untidy</dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/GoodLimitFont.jpg" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/GoodLimitFont.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example -&#160;Looks clean and&#160;professional </dd>
 </dl>
 
