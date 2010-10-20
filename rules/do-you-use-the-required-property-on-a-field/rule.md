@@ -20,7 +20,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+The Required property of a field determines whether the field will allow null values after upsizing. If Required is set to Yes in Microsoft Access, the upsized field will not allow null values. If Required is set to No, null values are acceptable.
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
