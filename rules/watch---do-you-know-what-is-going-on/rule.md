@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> We've all heard horror stories of tradesmen causing chaos&#58; &quot;I asked them to fix a tap, but after the sink broke we had to move out for 6 weeks while the carpet was dry-cleaned and new floor-boards were laid.&quot; This problem generally occurs after you have let the supplier have a free-for-all in your house while you're at work&#58; &quot;Just let yourself in, the keys under the mat, and get the job done&quot;. 
+ </span>
 
 
   <p>My Father-in-Law is Greek and I have noticed he gets more out of a tradesman than anyone else. Bottom line is he watches what they're doing and then gets on their case early when things aren't perfect. Whether it's carpet layers not matching the patterns together or plasterers leaving unsightly corners - as soon as he spots a problem he confronts them straight away and gets them to rectify it. </p>
