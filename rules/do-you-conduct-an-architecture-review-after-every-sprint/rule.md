@@ -22,7 +22,7 @@ redirects:
 
 
 
-  <p>An internal architecture review is the application of the <a href="/Standards/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">Test Please</a> principle against the design phase. An architecture review conducted during every release minimises errors in design which saves future recitification costs.</p>
+  <p>An internal architecture review is the application of the <a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">Test Please</a> principle against the design phase. An architecture review conducted during every release minimises errors in design which saves future recitification costs.</p>
 <p>Schedule a&#160;4 hour (2 architects x 2 hours) review during all releases. While it may not be so important to conduct a review in every development release, they are compulsory for a specification release.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
