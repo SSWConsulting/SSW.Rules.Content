@@ -19,7 +19,7 @@ Usually when an employee from the company wants to make a decision about either 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img class="ms-rteCustom-ImageArea" alt="Outlook Voting" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookVoting.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - using the voting buttons option.</span>
+  <img class="ms-rteCustom-ImageArea" alt="Outlook Voting" src="/Communication/RulesToBetterEmail/PublishingImages/OutlookVoting.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - using the voting buttons option.</span>
 <ol>
     <li>The subject should start with &quot;VOTE&#58; ...&quot; </li>
     <li>The sender should reply with a summary after either everyone has replied or after a certain period of time to let the group know how significant their input was. </li>
