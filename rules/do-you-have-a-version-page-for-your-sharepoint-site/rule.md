@@ -20,7 +20,7 @@ authors:
 
 
   <p>
-    <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SP_version_small.jpg" />
+    <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/SP_version_small.jpg" />
   </p>
 <p>&#160;</p>
 <ul>
