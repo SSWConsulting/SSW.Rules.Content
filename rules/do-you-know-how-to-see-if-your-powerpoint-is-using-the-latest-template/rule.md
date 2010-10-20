@@ -17,11 +17,11 @@ At SSW, we use SharePoint to manage our marketing templates.
 
   <p>When you need to create a PowerPoint presentation file, find the latest version of <a href="http&#58;//projects.ssw.com.au/Templates/Forms/AllItems.aspx">SSW templates</a> here. </p>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Check version history" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/versionHistory.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="Check version history" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/versionHistory.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Click &quot;Edit&quot; to see the version history of the template file </dd>
 </dl>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Version Number" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/versionNo.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="Version Number" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/versionNo.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; The version number can be seen here</dd>
 </dl>
 
