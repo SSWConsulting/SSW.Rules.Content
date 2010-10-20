@@ -70,7 +70,7 @@ Eric Phan
     <dd>Figure&#58; Best example - run SQL scripts in the application </dd>
 </dl>
 <dl class="image">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/UsingSQLDeployControl.png" /> </dt>
+    <dt><img alt="" src="/PublishingImages/UsingSQLDeployControl.png" /> </dt>
     <dd>Figure&#58; Deploy SQL scripts by the application itself </dd>
 </dl>
 <br>
