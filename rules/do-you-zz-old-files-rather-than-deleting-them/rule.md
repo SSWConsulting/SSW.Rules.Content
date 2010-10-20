@@ -14,10 +14,11 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become outdated. Rather than hit the DELETE key put a 'zz' at the front of the filename. The old versions should not be deleted straight away - it is just an unnecessary risk!
+
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img border="0" style="border&#58;0px solid;" alt="Obsolete old files aggressively" src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/ObseleteOldFilesAggressively.gif" class="ms-rteCustom-ImageArea" />
+  <img border="0" style="border&#58;0px solid;" alt="Obsolete old files aggressively" src="/Management/RulesToSuccessfulProjects/PublishingImages/ObseleteOldFilesAggressively.gif" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureGood">Figure&#58; 'ZZ' your files rather than deleting them! </span>
 <p>Note&#58; Other systems are used that are less aggressive than our 'zz' rule.</p>
 <ul>
