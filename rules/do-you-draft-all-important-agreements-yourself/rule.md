@@ -14,10 +14,11 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Any time you come to some verbal arrangement with an employee, client or&#160;contractor, which creates or varies a contract&#160;(for example changes to rates, deliverables etc), it's crucial you draft the agreement yourself.
+
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img border="0" src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/SuccessfulProjects_DraftAgreementYourself.jpg" style="border&#58;0px solid;" class="ms-rteCustom-ImageArea" />
+  <img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/SuccessfulProjects_DraftAgreementYourself.jpg" style="border&#58;0px solid;" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58;Can you really trust the other side to draft the agreement correctly?</span>
 <p>Sometimes, especially if you are an efficient manager and enjoy delegating, it's tempting to ask the other party to write up the change. This is a major risk&#58;</p>
 <ol>
