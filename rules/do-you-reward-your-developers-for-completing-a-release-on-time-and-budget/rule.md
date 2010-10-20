@@ -14,7 +14,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+When your team has completed a release successfully, they should be rewarded with a morale boosting event such as lunch, dinner, the movies or bowling, so long as you can meet the following conditions&#58; 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
