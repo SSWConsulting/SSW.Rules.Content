@@ -20,7 +20,7 @@ Even though you may check your emails before sending, use SSW lookout to help yo
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>But all is not lost. If you go into your sent items, open up the offending email, and go into Actions | Recall this Message, outlook will attempt to delete the message from the recipient's inbox before he has a chance to read it. </p>
-<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/RecallMessage.JPG" alt="Recall a message" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Actions | Recall this Message</span>
+<img src="/Communication/RulesToBetterEmail/PublishingImages/RecallMessage.JPG" alt="Recall a message" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Actions | Recall this Message</span>
 <p>Outlook will tell you whether it was successful or not</p>
 
 
