@@ -17,7 +17,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+There are two reasons that a story can be removed from the sprint.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
