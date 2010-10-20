@@ -11,7 +11,14 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>The MS Upsizing Wizard cannot upsize Microsoft Access queries containing </p>
+<ul>
+    <li>EXISTS &lt;&gt; FALSE/TRUE or </li>
+    <li>EXISTS = FALSE/TRUE</li>
+</ul>
+<p>For example, the following query will not be upsized&#58;</p>
+ </span>
 
 
   <pre class="ms-rteCustom-CodeArea">PARAMETERS [@Employee Last Name] Text ( 20 );    
