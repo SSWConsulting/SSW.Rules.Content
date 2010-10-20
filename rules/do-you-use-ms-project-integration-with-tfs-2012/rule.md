@@ -24,7 +24,7 @@ In VSTS 2008/2005, the MS Project integration was very bad. You cannot publish y
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img width="902" height="233" alt="" style="width&#58;604px;height&#58;132px;" src="/Standards/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010-MSProject.jpg" /> <br>
+  <img width="902" height="233" alt="" style="width&#58;604px;height&#58;132px;" src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010-MSProject.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal">Figure&#58; VSTS2010 has better MS Project integration support - you can publish your hierarchies to TFS now</font><br>
 <br>
 
