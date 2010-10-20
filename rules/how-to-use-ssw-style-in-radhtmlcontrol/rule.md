@@ -29,34 +29,34 @@ First, the reason to cause the style issue is the style doesn’t apply to right
 &#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;br /&gt;<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<font class="ms-rteCustom-Highlight" size="+0">&lt;span class=&quot;ms-rteCustom-ImageArea&quot;&gt;<br>
 </font>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;img style=&quot;border-bottom&#58; 0px solid; border-left&#58; 0px solid; border-top&#58; 0px solid;<br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; border-right&#58; 0px solid;&quot; border=&quot;0&quot; alt=&quot;Lookout Reply All BCC Warning&quot; src=&quot;<a href="/Standards/WebSites/RulesToBetterWebsitesLayout">http&#58;//sharepoint.ssw.com.au/Standards/WebSites/RulesToBetterWebsitesLayout</a>&quot; /&gt;<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; border-right&#58; 0px solid;&quot; border=&quot;0&quot; alt=&quot;Lookout Reply All BCC Warning&quot; src=&quot;<a href="/WebSites/RulesToBetterWebsitesLayout">http&#58;//sharepoint.ssw.com.au/Standards/WebSites/RulesToBetterWebsitesLayout</a>&quot; /&gt;<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;br /&gt;<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;<font class="ms-rteCustom-Highlight" size="+0">&lt;/span&gt;</font>&lt;b&gt;<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;br /&gt;<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Figure&#58; SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; you have been BCC'ed&#160; &lt;/b&gt; &lt;/span&gt;</font><br>
 1.&#160;&#160;Not sure how user inputs the&#160; content into this page. Anyway, here is the right way to add content via Telerik Editor. Please read below example of how I redo this part in Telerik Editor without changing the code manually<br>
-<img width="551" height="160" class="ms-rteCustom-ImageArea" alt="Copy content in notepad" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/SaveContentInNotePad.jpg" /><br>
+<img width="551" height="160" class="ms-rteCustom-ImageArea" alt="Copy content in notepad" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/SaveContentInNotePad.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58;Copy content in the notepad</font>2.&#160;Delete the current content from Telerik for a new start;<br>
 <br>
 3.&#160;Copy the first sentence from notepad and paste into Telerik Editor in the page; (please avoid copying straightly from web page and pasting them here, it will copy the all tags as well. it might affect the styles which can’t apply correctly )<br>
-<img width="560" height="345" alt="Start copying content over" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/CopyFromNotePad.jpg" /><br>
+<img width="560" height="345" alt="Start copying content over" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/CopyFromNotePad.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Start copying content over</font>4. Insert the image<br>
-<img width="608" height="378" style="width&#58;586px;height&#58;356px;" class="ms-rteCustom-ImageArea" alt="Insert an image" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/InsertImage.jpg" /><br>
+<img width="608" height="378" style="width&#58;586px;height&#58;356px;" class="ms-rteCustom-ImageArea" alt="Insert an image" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/InsertImage.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58;&#160;Add a link to text</font>5. Add an image<br>
-<img width="582" height="344" alt="Insert an image" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleInsertImage.jpg" /><br>
+<img width="582" height="344" alt="Insert an image" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleInsertImage.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Inser an image</font>6.&#160;Press “enter” key to start a new row, then copy the figure from notepad to the Telerik editor area<br>
-<img width="412" height="336" class="ms-rteCustom-ImageArea" alt="Add figure" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleAddFigure.jpg" /><br>
+<img width="412" height="336" class="ms-rteCustom-ImageArea" alt="Add figure" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleAddFigure.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Add figure</font>7.&#160;Apply image style to the image by click on the image, then choose a style from “Apply CSS Class” dropdown list<br>
-<img width="526" height="269" class="ms-rteCustom-ImageArea" alt="Apply style to the image" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleImageArea.jpg" /><br>
+<img width="526" height="269" class="ms-rteCustom-ImageArea" alt="Apply style to the image" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleImageArea.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Apply style to the image<br>
 </font><br>
 8. Apply style to the figure<br>
-<img width="512" height="225" class="ms-rteCustom-ImageArea" alt="Apply style to the image" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleImageArea.jpg" /><br>
+<img width="512" height="225" class="ms-rteCustom-ImageArea" alt="Apply style to the image" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleImageArea.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Apply style to the figure</font>9.Apply the yellow box<br>
-<img width="462" height="143" class="ms-rteCustom-ImageArea" alt="Apply style to the figure" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleFigure.jpg" /><br>
+<img width="462" height="143" class="ms-rteCustom-ImageArea" alt="Apply style to the figure" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleFigure.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Apply yellow border box to the content</font>10. Check in the changes, then you will have - &quot;dada..&quot;<br>
-<img width="511" height="176" class="ms-rteCustom-ImageArea" alt="Right stlye in use" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleResult.jpg" /><br>
+<img width="511" height="176" class="ms-rteCustom-ImageArea" alt="Right stlye in use" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/ApplyStyleResult.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Right style in use</font></p>
 
 
