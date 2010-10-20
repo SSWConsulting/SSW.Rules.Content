@@ -13,7 +13,14 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <br>
+A recent Security Hotfix has broken SharePoint WSS3 stand-alone installations.&#160; This has prompted Microsoft SharePoint team to quickly release information regarding how to fix the issue.<br>
+<br>
+<a href="http&#58;//blogs.msdn.com/b/sharepoint/archive/2010/06/22/installing-kb938444.aspx">http&#58;//blogs.msdn.com/b/sharepoint/archive/2010/06/22/installing-kb938444.aspx</a><br>
+<br>
+This again reminds us that it is always not a good idea to have Windows Update automatically updating your servers.&#160; There are a few reasons. 
+ </span>
 
 
   <p>&#160;</p>
