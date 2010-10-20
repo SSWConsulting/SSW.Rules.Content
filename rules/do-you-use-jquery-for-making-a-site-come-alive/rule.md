@@ -11,15 +11,16 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> To please&#160;customers every business knows they need to keep their services and offerings fresh and up-to-date. The same is true for websites. In order to attract new traffic, we should make the website vivid. 
+ </span>
 
 
   <dl class="badImage">
-    <dt><img alt="Bad example – there is no response when mouse is over the image" src="/Standards/WebSites/RulesToBetterWebsiteDevelopmentASPDotNet/PublishingImages/OldFashionSite.jpg" /> </dt>
+    <dt><img alt="Bad example – there is no response when mouse is over the image" src="/PublishingImages/OldFashionSite.jpg" /> </dt>
     <dd>Figure&#58; Bad example – there is no response when mouse is over the image </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img alt="Good example – apply the different style when mouse is over" src="/Standards/WebSites/RulesToBetterWebsiteDevelopmentASPDotNet/PublishingImages/NewFashionSite.jpg" /> </dt>
+    <dt><img alt="Good example – apply the different style when mouse is over" src="/PublishingImages/NewFashionSite.jpg" /> </dt>
     <dd>Figure&#58; Good example – apply the different style when mouse is over </dd>
 </dl>
 <dl class="goodCode">
