@@ -16,7 +16,18 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>In the course of work everyone encounters bugs or problems. They can be dealt with by either&#58;</p>
+<ol>
+    <ol>
+        <li>Pretend you didn't see the problem
+        </li>
+        <li>Fixing it straight away
+        </li>
+        <li>Reporting it so someone else for fixing</li>
+    </ol>
+</ol>
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>The best solution is to use a combination or 2 and 3. </p>
