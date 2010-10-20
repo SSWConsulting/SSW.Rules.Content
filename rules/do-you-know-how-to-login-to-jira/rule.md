@@ -11,13 +11,14 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Although we use Windows Domain authentication over LDAP, the domain domain is not required and the username must be in all lowercase. The url for SSW is <a shape="rect" href="http&#58;//jira.ssw.com.au/">http&#58;//jira.ssw.com.au/</a> 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>If you're outside the network you will need the VPN at the moment. We have a task to make it visible externally but we need more external IP addresses first. </p>
 <p>You can track progress on this at&#58; <a shape="rect" href="http&#58;//jira.ssw.com.au/browse/NET-48" target="_blank">NET-48</a></p>
 <p>See screen below for sign in details</p>
-<p><img width="621" height="605" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Alternate Text" src="/Standards/Management/rulesforbetterjira/PublishingImages/SignIn.png" border="0" /></p>
+<p><img width="621" height="605" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Alternate Text" src="/Management/RulesToBetterJira/PublishingImages/SignIn.png" border="0" /></p>
 
 
 
