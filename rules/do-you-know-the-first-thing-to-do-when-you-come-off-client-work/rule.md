@@ -54,7 +54,7 @@ authors: []
         <li>Always ask if they know of some other projects we could help them with, or if they know of anybody that may need some software development gurus. </li>
         <li>Send a follow up email
         <ul>
-            <li>Send an &quot;<a href="/Standards/Management/RulesToHappyClients/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx"> as per our conversation</a>&quot;. Include some of your notes, a thank you for the time, and CC a project manager. If they were interested in a consultation, then ask the project manager to follow up </li>
+            <li>Send an &quot;<a href="/do-you-send-＂as-per-our-conversation＂-emails"> as per our conversation</a>&quot;. Include some of your notes, a thank you for the time, and CC a project manager. If they were interested in a consultation, then ask the project manager to follow up </li>
             <li>Document the call date, and email subject line &amp; results in the Notes field for the client in your corporate database </li>
         </ul>
         </li>
