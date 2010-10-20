@@ -25,7 +25,7 @@ related: []
     <br>
     </span></li>
     <li>Create a backup of the TFS2008 databases by running your Daily Backup maintenance plan on TFS2008&#160;<br>
-    <span><img alt="" src="/Standards/TFS/RulesToBetterTFS2010Migration/PublishingImages/RunDailyBackup.png" /></span><br>
+    <span><img alt="" src="/TFS/RulesToBetterTFS2010Migration/PublishingImages/RunDailyBackup.png" /></span><br>
     <span style="font-size&#58;12px;font-weight&#58;bold;">Figure 1 - Before starting, kick off the daily backups</span> </li>
 </ol>
 </div>
