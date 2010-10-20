@@ -15,7 +15,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> There are two reasons that a story can be removed from the sprint.
+ </span>
 
 
   <ol>
