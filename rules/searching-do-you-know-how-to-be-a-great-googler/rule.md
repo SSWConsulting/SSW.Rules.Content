@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> The best developers are also extremely good at finding a solution to a problem they don't know. 
+ </span>
 
 
   <p>I am pretty good at Googling but&#160;when I can't find something, I ask my friend Scott on IM. Scott Hanselman is the best Googler I know. He can find anything in 2 minutes...</p>
