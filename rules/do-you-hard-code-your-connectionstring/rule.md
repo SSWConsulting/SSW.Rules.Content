@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> We don't like hard coded string inside our programme. We are using model-driven development, in which we create or reuse code, and perform changes in configuration file rather the in-code changing. <a href="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/ConfigurationManagementAppBlock.aspx" id="More information on implementing our configuration">More information on implementing our configuration</a>. 
+<span class='intro'> We don't like hard coded string inside our programme. We are using model-driven development, in which we create or reuse code, and perform changes in configuration file rather the in-code changing. <a href="/Pages/ConfigurationManagementAppBlock.aspx" id="More information on implementing our configuration">More information on implementing our configuration</a>. 
  </span>
 
 
