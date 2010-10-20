@@ -36,10 +36,10 @@ authors:
 <p>Since most applications have bugs, therefore most of the time you should be using the second option.</p>
 <p>If it is a well tested component and it is not changing constantly, then use the first option.</p>
 <ol>
-    <li>Add the project to solution (if it is not in the solution). <img class="ms-rteCustom-ImageArea" alt="Add existing project" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/ReferenceProject1.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Add existing project</span> </li>
+    <li>Add the project to solution (if it is not in the solution). <img class="ms-rteCustom-ImageArea" alt="Add existing project" src="/PublishingImages/ReferenceProject1.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Add existing project</span> </li>
     <li>Select the &quot;References&quot; folder of the project you want to add references to, right click and select &quot;Add Reference...&quot;. <br>
-    <img class="ms-rteCustom-ImageArea" alt="Add reference" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/ReferenceProject2.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Add reference</span> </li>
-    <li>Select the projects to add as references and click OK. <img class="ms-rteCustom-ImageArea" alt="Select projects to reference" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/ReferenceProject3.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Select the projects to add as references</span> </li>
+    <img class="ms-rteCustom-ImageArea" alt="Add reference" src="/PublishingImages/ReferenceProject2.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Add reference</span> </li>
+    <li>Select the projects to add as references and click OK. <img class="ms-rteCustom-ImageArea" alt="Select projects to reference" src="/PublishingImages/ReferenceProject3.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Select the projects to add as references</span> </li>
 </ol>
 <p>Note&#58; We have run into a situation where we reference a stable project A, and an unstable project B. Project A references project B. Each time project B is built, project A needs to be rebuilt.</p>
 <p>Now, if we reference stable project A by dll, and unstable project B by project according to this standard, then we might face referencing issues, where Project A will look for another version of Project B ?the one it is built to, rather than the current build, which will cause Project A to fail.</p>
