@@ -25,7 +25,7 @@ For example&#58;
         <li>Right click &quot;Create Package&quot;<br>
         &#160;
         <dl class="image">
-            <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/PublishWeb.jpg" /> </dt>
+            <dt><img alt="" src="/PublishingImages/PublishWeb.jpg" /> </dt>
             <dd>Figure&#58; For a web app it is just one click </dd>
         </dl>
         </li>
@@ -38,13 +38,13 @@ For example&#58;
         <li>Right click &quot;Create Setup&quot; (Suggestion to Microsoft as menu doesn't exist)&#160; </li>
     </ul>
     <dl class="image">
-        <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/PublishRichClient.jpg" /> </dt>
+        <dt><img alt="" src="/PublishingImages/PublishRichClient.jpg" /> </dt>
         <dd>Figure&#58; For a Windows clients it is also just one click </dd>
     </dl>
     </li>
     <li>The Database
     <dl class="image">
-        <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/PublishDatabase.jpg" /> </dt>
+        <dt><img alt="" src="/PublishingImages/PublishDatabase.jpg" /> </dt>
         <dd>Figure&#58; For the&#160;Database it is ..... well one click is what you need to aim for </dd>
         <dd></dd>
     </dl>
