@@ -19,7 +19,7 @@ As all these rules indicate, email can either be a blessing or a curse. One of t
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img class="ms-rteCustom-ImageArea" alt="Meta Group Phone Over Email" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MetaGroupPhoneOverEmail.gif" /> <img class="ms-rteCustom-ImageArea" alt="Meta Group Email Over Phone" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/MetaGroupEmailOverPhone.gif" /><br>
+  <img class="ms-rteCustom-ImageArea" alt="Meta Group Phone Over Email" src="/Communication/RulesToBetterEmail/PublishingImages/MetaGroupPhoneOverEmail.gif" /> <img class="ms-rteCustom-ImageArea" alt="Meta Group Email Over Phone" src="/Communication/RulesToBetterEmail/PublishingImages/MetaGroupEmailOverPhone.gif" /><br>
 <strong>Figures&#58; a <img width="16" height="17" alt="Icon PDF" src="http&#58;//www.ssw.com.au/ssw/Images/IconPdf.gif" /> <a href="http&#58;//www.ssw.com.au/ssw/Redirect/SSWUpdate/0304MetagroupUsersPreferEmailPDFReport.htm" class="ms-rteCustom-External" target="_blank">Meta Group survey</a>found that 81% of respondents preferred the phone above email to build relationships, but 80% preferred email&#160;generally</strong>
 <ol>
     <li>When you want to discuss an issue and make a decision </li>
@@ -38,7 +38,7 @@ As all these rules indicate, email can either be a blessing or a curse. One of t
     <li>Send the email </li>
 </ul>
 This way you can review issues together, and, importantly, decisions are confirmed in writing.
-<p><img class="ms-rteCustom-ImageArea" alt="Don't shoot people!" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/pic38-KeepDrasticThingsForImportantThings.gif" /> <br>
+<p><img class="ms-rteCustom-ImageArea" alt="Don't shoot people!" src="/Communication/RulesToBetterEmail/PublishingImages/pic38-KeepDrasticThingsForImportantThings.gif" /> <br>
 <strong class="ms-rteCustom-FigureNormal">Figure&#58; Are you in the right frame of mind?</strong> </p>
 
 
