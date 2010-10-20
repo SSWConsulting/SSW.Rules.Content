@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> The Caption property is ignored by the Upsizing Tools. The true column name of a field will always be upsized, regardless of what the caption for that field may read.
+ </span>
 
 
 
