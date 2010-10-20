@@ -14,7 +14,7 @@ authors: []
 
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/demo.gif" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/demo.gif" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; SSW uses an icon to indicate a demo </dd>
 </dl>
 
