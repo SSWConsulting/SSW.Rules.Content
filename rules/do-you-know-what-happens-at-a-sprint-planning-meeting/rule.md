@@ -29,10 +29,10 @@ It is not essential for the Product Owner or the Scrum Master to be present for 
 <br>
 <font class="ms-rteCustom-GreyBox" size="+0">In Scrum, there are totally 4 meetings that you need to know&#58; 
 <ul>
-    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and HOW) </li>
-    <li><a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
-    <li><a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
-    <li><a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx" title="Retrospective Meeting">Sprint Retrospective Meeting</a> </li>
+    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and HOW) </li>
+    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
+    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
+    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx" title="Retrospective Meeting">Sprint Retrospective Meeting</a> </li>
 </ul>
 </font>
 
