@@ -15,7 +15,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> In Scrum there is only one report that the team needs to track their progress.
+ </span>
 
 
   <p>
