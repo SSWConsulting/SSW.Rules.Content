@@ -36,7 +36,7 @@ Later on you will get these&#160;7 benefits&#58;
 </ol>
 <br>
 <dl class="image">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/ChangeScripts.jpg" /> </dt>
+    <dt><img alt="" src="/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/ChangeScripts.jpg" /> </dt>
     <dd>Figure&#58; A list of change SQL scripts, each file name is in the correct format </dd>
 </dl>
 <br>
