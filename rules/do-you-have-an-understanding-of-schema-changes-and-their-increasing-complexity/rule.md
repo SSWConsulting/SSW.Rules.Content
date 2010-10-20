@@ -70,7 +70,7 @@ EXECUTE sp_rename N'dbo.Tmp_Employees', <br>                  N'Employees', 'OBJ
 GO 
 </pre>
     </font></dt>
-    <dd>Figure&#58; Change data type (Hard) e.g.&#160;Bit to&#160;Integer. The above is abbreviated, see <a shape="rect" href="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Documents/EmployeesBitToInt.sql">the full .SQL file</a> </dd>
+    <dd>Figure&#58; Change data type (Hard) e.g.&#160;Bit to&#160;Integer. The above is abbreviated, see <a shape="rect" href="/Documents/EmployeesBitToInt.sql">the full .SQL file</a> </dd>
 </dl>
 <dl class="image">
     <dt><font class="ms-rteCustom-CodeArea" size="+0">
@@ -100,7 +100,7 @@ EXECUTE sp_rename N'dbo.Tmp_Employees', <br>                  N'Employees', 'OBJ
 GO 
 </pre>
     </font></dt>
-    <dd>Figure&#58;&#160;Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires <a shape="rect" href="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Pages/DoYouUnderstandADataTypeChangeDataMotionScripts.aspx">&quot;Data Motion Scripts&quot;</a>. The above is abbreviated, see <a shape="rect" href="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Documents/EmployeesCharToInt.sql">the full .SQL file</a> </dd>
+    <dd>Figure&#58;&#160;Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires <a shape="rect" href="/Pages/DoYouUnderstandADataTypeChangeDataMotionScripts.aspx">&quot;Data Motion Scripts&quot;</a>. The above is abbreviated, see <a shape="rect" href="/Documents/EmployeesCharToInt.sql">the full .SQL file</a> </dd>
 </dl>
 &#160; <br>
 And the point of know this. Well no tool out there, not Redgate's SQL Compare, not Microsoft's Data Dude, nor SSW's SQL Deploy will do this automagically for you. So you better understand that this stuff is delicate. 
