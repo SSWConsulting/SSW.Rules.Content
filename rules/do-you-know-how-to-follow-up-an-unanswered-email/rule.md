@@ -24,7 +24,7 @@ Sometimes the person you send your email to may not reply immediately because th
     <li>Put (RESEND) in 1<sup>st</sup> line of the Body </li>
     <li>Plus any other instructions - such as &quot;Hurry Up!&quot; </li>
 </ol>
-<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/HurryUp.gif" alt="Hurry Up" class="ms-rteCustom-ImageArea" /><span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - (RESEND) written at the top of the email.</span>
+<img src="/Communication/RulesToBetterEmail/PublishingImages/HurryUp.gif" alt="Hurry Up" class="ms-rteCustom-ImageArea" /><span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - (RESEND) written at the top of the email.</span>
 <p>This reminds the other person that you are still waiting for a response.</p>
 
 
