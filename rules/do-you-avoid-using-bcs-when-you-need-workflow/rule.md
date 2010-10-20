@@ -16,11 +16,11 @@ authors:
 
   <br>
 <br>
-<img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/BCSDoesNotSupportWF.jpg" /><br>
+<img alt="" src="/PublishingImages/BCSDoesNotSupportWF.jpg" /><br>
 <font size="+0" class="ms-rteCustom-FigureBad">BCS doesn't have WorkFlow support<br>
 </font><br>
 <br>
-<img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/WFSupportList.jpg" /><br>
+<img alt="" src="/PublishingImages/WFSupportList.jpg" /><br>
 <font size="+0" class="ms-rteCustom-FigureGood">Use WorkFlow with SharePoint List</font>
 
 
