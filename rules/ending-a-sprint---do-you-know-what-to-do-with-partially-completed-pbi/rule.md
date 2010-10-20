@@ -15,7 +15,10 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>You should never have a partially completed story left in your sprint. You need to agree with the Product Owner that the story should be removed prior to the end of the sprint.</p>
+<p>Follow <a href="/Management/RulesToBetterScrumUsingTFS/Pages/RemoveStory.aspx"><font color="#000080">Do you know when to remove stories from the sprint?</font></a>&#160;</p>
+ </span>
 
 
 
