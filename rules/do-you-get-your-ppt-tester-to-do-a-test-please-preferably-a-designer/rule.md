@@ -17,7 +17,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/before_after.jpg" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/before_after.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Designers can also make a wicked mocha cappuccino. <dd>
 </dd></dd></dl>
 
