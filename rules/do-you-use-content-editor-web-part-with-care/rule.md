@@ -12,14 +12,14 @@ authors:
 
 
 <span class='intro'> The Content Editor Web Part is very easy to use in any web part zone, and gives your content editors ability to add additional text and flair to a page.<br>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ContentEditorWebPart_Small.jpg" /><span class="ms-rteCustom-FigureNormal">Figure&#58; Content Editor Web Part – available in any web part zone<br>
+<img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ContentEditorWebPart_Small.jpg" /><span class="ms-rteCustom-FigureNormal">Figure&#58; Content Editor Web Part – available in any web part zone<br>
 </span><br>
 However, there is a scary hidden trap!
  </span>
 
 
   <br>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ContentEditorWebPart02_Small.jpg" /><font class="ms-rteCustom-FigureNormal">Figure&#58; Content Editor Web Part looking mostly harmless... &#160; </font><br>
+<img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ContentEditorWebPart02_Small.jpg" /><font class="ms-rteCustom-FigureNormal">Figure&#58; Content Editor Web Part looking mostly harmless... &#160; </font><br>
 So what’s bad with the Content Editor Web Part?<br>
 <ul>
     <li>The content in a content editor web part is not version controlled. </li>
@@ -37,7 +37,7 @@ The best practice is&#58; <br>
     a.If the text is very tiny – may be just a big heading, you may not want to do this.<br>
     b.Using Content Link is also another way you can re-use the same text in different web pages and update them in one place – very good for big banners. </li>
 </ol>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ContentEditorWebPart03_Small.jpg" /> <font class="ms-rteCustom-FigureNormal">Figure&#58; Using Content Link to a file - safely stored in the document library. This gives us the best of both worlds </font>
+<img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ContentEditorWebPart03_Small.jpg" /> <font class="ms-rteCustom-FigureNormal">Figure&#58; Using Content Link to a file - safely stored in the document library. This gives us the best of both worlds </font>
 
 
 
