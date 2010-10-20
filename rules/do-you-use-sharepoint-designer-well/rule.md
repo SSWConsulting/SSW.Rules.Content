@@ -26,7 +26,7 @@ authors:
 
 
   <p>&#160;</p>
-<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Uncheck Auto indent" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SPIndent.gif" />
+<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Uncheck Auto indent" src="/PublishingImages/SPIndent.gif" />
 
 
 
