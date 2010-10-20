@@ -21,7 +21,7 @@ authors:
 
   <span>
 <dl class="badImage">
-    <dt><img width="300" height="300" alt="" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" /> </dt>
+    <dt><img width="300" height="300" alt="" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" /> </dt>
     <dd>Figure&#58; The Reset button isn't useful at all </dd>
 </dl>
 <p style="display&#58;block;" class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p>
