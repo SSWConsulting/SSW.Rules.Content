@@ -22,7 +22,7 @@ Story Points cannot be allocated against bugs in MSF Agile 5.0 so to include the
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate.</p>
-<p>See <a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/CreateBugs.aspx"><font color="#000080">Do you know when to create bugs?</font></a> for detailed information on identifying when something is a bug, and when to just fix it.</p>
+<p>See <a href="/Management/RulesToBetterScrumUsingTFS/Pages/CreateBugs.aspx"><font color="#000080">Do you know when to create bugs?</font></a> for detailed information on identifying when something is a bug, and when to just fix it.</p>
 <ol>
     <li>
     <h2>Using MSF Agile 5.0</h2>
