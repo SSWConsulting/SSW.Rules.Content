@@ -19,7 +19,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> Hash tags help you identify an event or topic on twitter. Always make sure everyone adds the same hash tags for common things.
+ </span>
 
 
   <p>&#160;</p>
