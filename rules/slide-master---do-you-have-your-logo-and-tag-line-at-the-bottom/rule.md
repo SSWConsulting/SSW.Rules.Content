@@ -19,7 +19,7 @@ Neither of these elements are intended to distract, so they are placed in the fo
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/tagLine.gif" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/tagLine.gif" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Logo and Tagline are at the bottom of the slide </dd>
 </dl>
 
