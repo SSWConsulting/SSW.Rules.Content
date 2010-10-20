@@ -15,11 +15,12 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+If you don’t make another appointment to see a client before you leave you may forget, and the client may forget. Make sure they are thinking about your next visit by booking the next appointment there and then, even if it is not for many months. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToManagingSoftwareConsultants/PublishingImages/BookAppointment01.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Always get that appointment booked</font> Use your mobile phone to book an appointment rather than remembering it later. If the systems are down, you may forget it entirely and that would be worse than never having made it. <br>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToManagingSoftwareConsultants/PublishingImages/UsePhoneToBookAppointment.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Use your phone to book the appointment so you don’t forget</font> 
+  <img alt="" class="ms-rteCustom-ImageArea" src="/Management/RulesToManagingSoftwareConsultants/PublishingImages/BookAppointment01.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Always get that appointment booked</font> Use your mobile phone to book an appointment rather than remembering it later. If the systems are down, you may forget it entirely and that would be worse than never having made it. <br>
+<img alt="" class="ms-rteCustom-ImageArea" src="/Management/RulesToManagingSoftwareConsultants/PublishingImages/UsePhoneToBookAppointment.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Use your phone to book the appointment so you don’t forget</font> 
 
 
 
