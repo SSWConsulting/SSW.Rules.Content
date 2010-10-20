@@ -29,15 +29,15 @@ authors:
 </ol>
 <p>Below is an example of a Good&#160;&quot;&lt; Back&quot; link versus some Bad variations.</p>
 <dl class="goodImage">
-    <dt><img width="420" height="88" alt="Good" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/textboxeswithshowbutton.gif" /> </dt>
+    <dt><img width="420" height="88" alt="Good" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/textboxeswithshowbutton.gif" /> </dt>
     <dd>Figure&#58; A Good example of a &quot;&lt; Back&quot; link </dd>
 </dl>
 <dl class="badImage">
-    <dt><img width="226" height="41" alt="Bad" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/badpreviouslink.gif" /> </dt>
+    <dt><img width="226" height="41" alt="Bad" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/badpreviouslink.gif" /> </dt>
     <dd>Figure&#58; This is Bad because it says &quot;Previous&quot; instead of &quot;Back&quot; </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img width="154" height="40" alt="Good" src="/Standards/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/badbacklink.gif" /> </dt>
+    <dt><img width="154" height="40" alt="Good" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/badbacklink.gif" /> </dt>
     <dd>Figure&#58; This is bad because it has too many &quot;&lt;&quot;s or it has no space between the &quot;&lt;&quot; and the &quot;Back&quot; </dd>
 </dl>
 <p class="productBox">We have a program called <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p>
