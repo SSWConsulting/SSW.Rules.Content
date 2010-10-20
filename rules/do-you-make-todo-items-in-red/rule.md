@@ -14,7 +14,7 @@ authors: []
 
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/Todo.jpg" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/Todo.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Grab attention by standing out in Red </dd>
 </dl>
 
