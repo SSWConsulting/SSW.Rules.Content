@@ -20,7 +20,7 @@ authors: []
 
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/aboutAdam.gif" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/aboutAdam.gif" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; 'About Adam' slide </dd>
 </dl>
 
