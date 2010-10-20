@@ -23,7 +23,7 @@ related: []
 
   <p>I guess there could be special folders for bug reports that are sent by exception handlers, but I still would not be keen on this.</p>
 <p>A better way is Conversation View and collapsing them if you need to hide them. </p>
-<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/conversationview.JPG" alt="Conversation View" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Conversation View allows you to choose which folders to collapse.</span>
+<img src="/Communication/RulesToBetterEmail/PublishingImages/conversationview.JPG" alt="Conversation View" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Conversation View allows you to choose which folders to collapse.</span>
 
 
 
