@@ -14,7 +14,9 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+You should always use a source control system! SSW uses and recommends Team Foundation Server (TFS). Source control allows the tracking of changes to code. As well as a backup of your source code, this is very useful when debugging and fixing errors to locate changes that have been introduced.
+<p><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControl.aspx">SSW Rules to Better Source Control</a> </p>
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
