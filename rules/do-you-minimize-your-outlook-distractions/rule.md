@@ -18,7 +18,7 @@ related: []
 Getting in the zone is pretty challenging in any work environment. Outlook in particular likes to offer as many distractions as possible to ensure you can never forget you've got it open. Set your options so that Outlook&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookMinimiseDistractions.gif" alt="Outlook Minimise Distractions" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Turn off Outlook distractions!</span>
+  <img src="/Communication/RulesToBetterEmail/PublishingImages/OutlookMinimiseDistractions.gif" alt="Outlook Minimise Distractions" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Turn off Outlook distractions!</span>
 <ul>
     <li>Doesn't play a sound </li>
     <li>Doesn't briefly change the mouse cursor </li>
