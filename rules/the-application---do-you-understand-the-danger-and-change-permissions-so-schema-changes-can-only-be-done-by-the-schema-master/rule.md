@@ -18,11 +18,11 @@ Let's see&#160;how to fix&#160;the issue&#58;
 
 To avoid this problem, only one person (the &quot;Schema Master&quot;) should have permissions to upgrade the database.
 <dl>
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/FullPermission.jpg" /> </dt>
+    <dt><img alt="" src="/PublishingImages/FullPermission.jpg" /> </dt>
     <dd>Figure&#58; The db_owner role is granted for one person only – the &quot;Schema Master&quot; </dd>
 </dl>
 <dl class="image">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/Adam.jpg" /> </dt>
+    <dt><img alt="" src="/PublishingImages/Adam.jpg" /> </dt>
     <dd>Figure&#58; And here is the &quot;Schema Master&quot; at SSW </dd>
 </dl>
 
