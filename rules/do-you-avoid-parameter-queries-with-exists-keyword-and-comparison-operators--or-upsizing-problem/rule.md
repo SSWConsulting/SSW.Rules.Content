@@ -15,7 +15,14 @@ related:
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>The MS Upsizing Wizard cannot upsize Microsoft Access queries containing </p>
+<ul>
+    <li>EXISTS &lt;&gt; FALSE/TRUE or </li>
+    <li>EXISTS = FALSE/TRUE</li>
+</ul>
+<p>For example, the following query will not be upsized&#58;</p>
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <pre class="ms-rteCustom-CodeArea">PARAMETERS [@Employee Last Name] Text ( 20 );    
