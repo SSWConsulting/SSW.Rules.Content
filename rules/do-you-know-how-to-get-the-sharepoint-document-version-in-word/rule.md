@@ -18,7 +18,7 @@ It is possible to get the number into Word for the version of the document on th
  </span>
 
 &#160;Follow&#58; <font class="ms-rteCustom-External" size="+0"><a shape="rect" href="http&#58;//www.bryansgeekspeak.com/2009/03/moss-2007-show-sharepoint-version.html">http&#58;//www.bryansgeekspeak.com/2009/03/moss-2007-show-sharepoint-version.html</a> </font><br>
-Note&#58; This also works in SharePoint 2010 and Office 2010. <img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/VersionInWord.jpg" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example, you see the formatted SharePoint version number.<br>
+Note&#58; This also works in SharePoint 2010 and Office 2010. <img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/VersionInWord.jpg" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example, you see the formatted SharePoint version number.<br>
 </font>
 
 
