@@ -11,7 +11,16 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>We recommend adding these menus to your Tools Menu&#58;</p>
+<ul>
+    <li>Tools - Validate Schema (with <a href="http&#58;//www.ssw.com.au/ssw/SQLDeploy/Default.aspx">SSW SQL Deploy</a>) </li>
+    <li>Tools - <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterInterfaces.aspx#ValidateData">Validate Data</a> </li>
+    <li>Tools - <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/rulestobetterwindowsforms.aspx#UnitTests">Run Unit Tests</a> (with NUnit) </li>
+    <li>Tools - View Application Errors (with SSW Exception Logger) </li>
+    <li>Tools - Validate PC (with <a href="http&#58;//www.ssw.com.au/ssw/Diagnostics/Default.aspx">SSW Diagnostics</a>)</li>
+</ul>
+ </span>
 
 
 
