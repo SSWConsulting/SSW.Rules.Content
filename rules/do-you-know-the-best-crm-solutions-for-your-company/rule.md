@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> There are a lot of different CRM solutions on the market.&#160;We would never suggest to develop a CRM solution from scratch. Instead pick an existing solution and customize it for your needs.<br>
+ </span>
 
 
   <p>The main choices for CRM solutions are&#58;</p>
