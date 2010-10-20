@@ -16,13 +16,14 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+eXtreme Programming is a big concept which we try to use here. I don't adhere to every idea, but there are some very practical rules I follow which improves the way we develop on large projects&#58; 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <table align="right">
     <tbody>
         <tr>
-            <td width="220"><img class="ms-rteCustom-ImageArea" border="0" alt="Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled!" src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/Anthrax.gif" />&#160;<font class="ms-rteCustom-FigureNormal">Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled! </font></td>
+            <td width="220"><img class="ms-rteCustom-ImageArea" border="0" alt="Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled!" src="/Management/RulesToSuccessfulProjects/PublishingImages/Anthrax.gif" />&#160;<font class="ms-rteCustom-FigureNormal">Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled! </font></td>
         </tr>
     </tbody>
 </table>
