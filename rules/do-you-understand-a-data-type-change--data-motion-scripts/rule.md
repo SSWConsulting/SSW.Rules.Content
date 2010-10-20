@@ -27,12 +27,12 @@ Let's look at an example&#58;
 
   <p>&#160;We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.</p>
 <dl class="image">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableBit.jpg" /> </dt>
+    <dt><img alt="" src="/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableBit.jpg" /> </dt>
     <dd>Figure&#58; Anything wrong this Gender column?&#160; </dd>
 </dl>
 Later you learn you need to change the data type to char(2) to support 'M', 'F', 'T', 'NA' and 'U'
 <dl class="image">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/CasterSemenya.jpg" /> </dt>
+    <dt><img alt="" src="/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/CasterSemenya.jpg" /> </dt>
     <dd>Figure&#58; Caster Semenya has taught us a thing or two about the right data type for Gender </dd>
 </dl>
 The data then must be migrated to the new data type this way&#58;
@@ -44,11 +44,11 @@ The data then must be migrated to the new data type this way&#58;
 </ol>
 *Note&#58; zt stands for Temporary
 <dl class="image">
-    <dt><img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableChar.jpg" /> </dt>
-    <dd>Figure&#58; Changing the data type and data required a&#160;<a shape="rect" href="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Pages/DoYouHaveAnUnderstandingOfSchemaChangesAndTheirIncreasingComplexity.aspx">&quot;Data Motion Script&quot;</a> </dd>
+    <dt><img alt="" src="/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/TableChar.jpg" /> </dt>
+    <dd>Figure&#58; Changing the data type and data required a&#160;<a shape="rect" href="/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Pages/DoYouHaveAnUnderstandingOfSchemaChangesAndTheirIncreasingComplexity.aspx">&quot;Data Motion Script&quot;</a> </dd>
 </dl>
 <p>Visual Studio&#160;does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.</p>
-<img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/DataDude-BadExample.jpg" /><br>
+<img alt="" src="/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/PublishingImages/DataDude-BadExample.jpg" /><br>
 <font class="ms-rteCustom-FigureGood" size="+0">Good Example - Don't use Data Dude<br>
 </font>note&#58; In order to achieve this you MUST use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost. 
 
