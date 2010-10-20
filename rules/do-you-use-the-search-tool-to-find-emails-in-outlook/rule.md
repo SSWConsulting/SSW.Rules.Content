@@ -22,17 +22,17 @@ Looking manually through your Outlook sent items is plain donkey work, that you 
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
-<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/SearchingManually_small.jpg" alt="Figure&#58; Bad Example&#58; Opening your sent Items and manually looking at the emails can take minutes " class="ms-rteCustom-ImageArea" />
+<img src="/Communication/RulesToBetterEmail/PublishingImages/SearchingManually_small.jpg" alt="Figure&#58; Bad Example&#58; Opening your sent Items and manually looking at the emails can take minutes " class="ms-rteCustom-ImageArea" />
 <br>
 <font size="+0" class="ms-rteCustom-FigureBad">Figure&#58; Bad Example&#58; Opening your sent items and manually looking at the emails can take minutes </font></p>
 <p>Let's use an example; say you are looking for emails sent to Frank where they have sql auditor and link auditor in the email (subject or body) then you enter &quot;sent items&quot; to&#58;Frank &quot;sql auditor&quot; in search box; then you get the list of sql auditor emails sent to Frank. </p>
-<p><img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/SearchingSentEmails_small.jpg" alt="Figure&#58; Good Example&#58; On Windows XP or better, useing Windows Desktop Search takes seconds" class="ms-rteCustom-ImageArea" /><br>
+<p><img src="/Communication/RulesToBetterEmail/PublishingImages/SearchingSentEmails_small.jpg" alt="Figure&#58; Good Example&#58; On Windows XP or better, useing Windows Desktop Search takes seconds" class="ms-rteCustom-ImageArea" /><br>
 <font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Good Example&#58; On Windows XP or better,&#160;useing Windows Desktop Search takes seconds</font></p>
 <p>If using Microsoft Outlook 2007, then use the search option to find your sent items.&#160;<br>
-<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/WindowsOutlook2007Searching_small.jpg" alt="Figure&#58; Good Example - of searching sent emails using Windows Desktop Search" class="ms-rteCustom-ImageArea" /><br>
+<img src="/Communication/RulesToBetterEmail/PublishingImages/WindowsOutlook2007Searching_small.jpg" alt="Figure&#58; Good Example - of searching sent emails using Windows Desktop Search" class="ms-rteCustom-ImageArea" /><br>
 <font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Good Example - of searching sent emails using Windows Desktop Search</font></p>
 <p>We can also use Exchange Reporter to see the number of emails sent by each users.</p>
-<p><img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/ExchangeReporter_small.jpg" alt="Exchange Reporter" class="ms-rteCustom-ImageArea" /><br>
+<p><img src="/Communication/RulesToBetterEmail/PublishingImages/ExchangeReporter_small.jpg" alt="Exchange Reporter" class="ms-rteCustom-ImageArea" /><br>
 <font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Good Example - of searching sent emails using Exchange Reporter</font></p>
 
 
