@@ -22,7 +22,6 @@ redirects:
 Avoid monolithic tasks.&#160;Ideally all tasks should be less than 4 hours. If you are given a task that is going to take days, then split it following this rule. 
 
 <br><excerpt class='endintro'></excerpt><br>
-
   <span class="ms-rteCustom-CodeArea">Subject&#58; Create a Silverlight prototype with web services </span>
   <span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – This is a monolithic&#160;2 day task</span> <span class="ms-rteCustom-CodeArea" style="width&#58;100.11%;height&#58;258px;">Email #1 Subject&#58;&#160; Silverlight prototype - Create a web page with firstname and lastname textboxes, a save button (and remmed out code to later call a web service)<br>
 <br>
