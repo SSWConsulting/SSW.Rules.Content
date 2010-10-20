@@ -27,7 +27,7 @@ authors:
 </dl>
 <p>Thus &quot;_Regenerate.bat&quot; file must exist in your projects (of course so must other necessary resources).</p>
 <dl class="goodImage">
-    <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/RegenerateBat.jpg" /> </dt>
+    <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/RegenerateBat.jpg" /> </dt>
     <dd>Figure&#58; Good - Have _Regenerate.bat in the solution</dd>
 </dl>
 
