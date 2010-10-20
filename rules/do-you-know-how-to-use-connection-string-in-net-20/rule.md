@@ -33,12 +33,12 @@ authors:
 <p>In .NET 2.0 you can access it in another way</p>
 <p>Step 1&#58; Setup your settings in your common project. E.g. Northwind.Common </p>
 <dl class="image">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Settings in Project Properties" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/ConnStringNET2_Settings.jpg" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Settings in Project Properties" src="/PublishingImages/ConnStringNET2_Settings.jpg" /> </dt>
     <dd>Figure&#58; Settings in Project Properties</dd>
 </dl>
 <p>Step 2&#58; Open up the generated App.config under your common project. E.g. Northwind.Common/App.config </p>
 <dl class="image">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Auto generated app.config" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/ConnStringNET2_CommonApp.GIF" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Auto generated app.config" src="/PublishingImages/ConnStringNET2_CommonApp.GIF" /> </dt>
     <dd>Figure&#58; Auto generated app.config</dd>
 </dl>
 <p>Step 3&#58; <s>Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config</s> The new setting has been updated to app.config automatically in .NET 2.0 </p>
