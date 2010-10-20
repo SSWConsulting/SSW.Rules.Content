@@ -21,7 +21,7 @@ authors:
 <ol>
     <li>Profile the application with Jetbrains dotTrace using the &quot;Hot Spot&quot; tab to identify the slowest areas of your application
     <dl class="image">
-        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/JetBrainsProfilerHotSpots.jpg" /> </dt>
+        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/JetBrainsProfilerHotSpots.jpg" /> </dt>
         <dd>Figure&#58; Identify which parts of your code take the longest (Hot Spots)</dd>
     </dl>
     </li>
