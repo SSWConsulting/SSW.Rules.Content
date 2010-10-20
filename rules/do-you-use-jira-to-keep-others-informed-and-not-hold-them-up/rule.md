@@ -11,7 +11,10 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Summary&#58;&#160; <a shape="rect" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" class="ms-rteCustom-External" target="_blank">Login&#160;</a>&#160;to Jira and clear the issues from the top left of your dashboard usually by answering a question or closing.<br>
+<br>
+Jira issues can enter states where it is important that action is taken immediately by either the Reporter or the Assignee.&#160; These actions are always quick to do but keep others informed and keep the workflow going. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <br>
@@ -73,17 +76,17 @@ In the SSW Jira implementation, there are six situations where action is require
     </tbody>
 </table>
 <br>
-NOTE&#58; Most people will only have Reporter actions to perform. <a shape="rect" href="/Standards/Management/rulesforbetterjira/Pages/ReportesAndAssignees.aspx">Understand more about Reporters and Assignees</a> <br>
+NOTE&#58; Most people will only have Reporter actions to perform. <a shape="rect" href="/Management/RulesToBetterJira/Pages/ReportesAndAssignees.aspx">Understand more about Reporters and Assignees</a> <br>
 <br>
-<img width="727" height="405" alt="" style="width&#58;703px;height&#58;385px;" src="/Standards/Management/rulesforbetterjira/PublishingImages/Urgent.png" /> <strong>Figure&#58; Your <a shape="rect" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" class="ms-rteCustom-External" target="_blank">dashboard</a> is your Home Page when you </strong><strong><a shape="rect" href="/Standards/Management/rulesforbetterjira/Pages/HowdoIsignintoJira.aspx"><strong>login like this </strong></a></strong><strong>and clearly shows the issues that need your immediate attention <br>
+<img width="727" height="405" alt="" style="width&#58;703px;height&#58;385px;" src="/Management/RulesToBetterJira/PublishingImages/Urgent.png" /> <strong>Figure&#58; Your <a shape="rect" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" class="ms-rteCustom-External" target="_blank">dashboard</a> is your Home Page when you </strong><strong><a shape="rect" href="/Management/RulesToBetterJira/Pages/HowdoIsignintoJira.aspx"><strong>login like this </strong></a></strong><strong>and clearly shows the issues that need your immediate attention <br>
 </strong><br>
 For guidance on dealing with issues check out&#160;our other rules&#58;<br>
 <br>
-<a shape="rect" href="/Standards/Management/rulesforbetterjira/Pages/HowdoIansweraquestioninJira.aspx">Answering<br>
-</a><a shape="rect" href="/Standards/Management/rulesforbetterjira/Pages/SystemDashboard.aspx">SSW Dashboard</a><br>
-<a shape="rect" href="/Standards/Management/rulesforbetterjira/Pages/ReportesAndAssignees.aspx">Reporters and Assignees</a><br>
-<a shape="rect" href="/Standards/Management/rulesforbetterjira/Pages/workflow.aspx">SSW Workflow</a><br>
-<a shape="rect" href="/Standards/Management/rulesforbetterjira">Jira Rules Page</a> 
+<a shape="rect" href="/Management/RulesToBetterJira/Pages/HowdoIansweraquestioninJira.aspx">Answering<br>
+</a><a shape="rect" href="/Management/RulesToBetterJira/Pages/SystemDashboard.aspx">SSW Dashboard</a><br>
+<a shape="rect" href="/Management/RulesToBetterJira/Pages/ReportesAndAssignees.aspx">Reporters and Assignees</a><br>
+<a shape="rect" href="/Management/RulesToBetterJira/Pages/workflow.aspx">SSW Workflow</a><br>
+<a shape="rect" href="/Management/RulesToBetterJira">Jira Rules Page</a> 
 
 
 
