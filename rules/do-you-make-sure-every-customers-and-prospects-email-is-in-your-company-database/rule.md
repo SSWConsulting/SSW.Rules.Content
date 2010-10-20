@@ -22,8 +22,8 @@ Most companies keep all their customers' (and prospects') contact information in
 
   <div>
 <br>
-We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/StephenKoopIsNotInTheDatabase.jpg" alt="Stephen Koop not in database" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Stephen Koop needs to be put into the database</span><br>
-<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/NotInDatabase.gif" alt="Not in database" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW Lookout! Can also check the emails that you are sending and tell you if the email address is not in your database.</span></div>
+We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <img src="/Communication/RulesToBetterEmail/PublishingImages/StephenKoopIsNotInTheDatabase.jpg" alt="Stephen Koop not in database" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Stephen Koop needs to be put into the database</span><br>
+<img src="/Communication/RulesToBetterEmail/PublishingImages/NotInDatabase.gif" alt="Not in database" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW Lookout! Can also check the emails that you are sending and tell you if the email address is not in your database.</span></div>
 
 
 
