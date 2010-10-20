@@ -37,7 +37,8 @@ redirects:
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Hash tags help you identify an event or topic on twitter. Always make sure everyone adds the same hash tags for common things.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>&#160;</p>
