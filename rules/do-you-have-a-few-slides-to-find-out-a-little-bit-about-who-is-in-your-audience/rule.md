@@ -9,7 +9,9 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>If you are presenting to people who you already know, then you have   an enormous advantage over someone who is going to face an audience they   have never previously met.</p>
+ </span>
 
 
   <p>Your aim in giving this presentation is to give your audience something that is&#58;</p>
@@ -20,11 +22,11 @@ authors: []
     <li>Relevant to them</li>
 </ul>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/developer.gif" /></dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/developer.gif" /></dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Example slide for developer</dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/manager.gif" /></dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/manager.gif" /></dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Example slide for manager</dd>
 </dl>
 
