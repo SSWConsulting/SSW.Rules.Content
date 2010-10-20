@@ -19,7 +19,7 @@ Do you always demand a receipt for every email you send? This is the equivalent 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookReceiptRequest.gif" alt="Outlook Receipt Request" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Selectively request read receipts so as not to annoy your recipient.</span>
+  <img src="/Communication/RulesToBetterEmail/PublishingImages/OutlookReceiptRequest.gif" alt="Outlook Receipt Request" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Selectively request read receipts so as not to annoy your recipient.</span>
 
 
 
