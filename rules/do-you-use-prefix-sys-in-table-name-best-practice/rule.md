@@ -11,7 +11,10 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>Don't use sys as a prefix for Access tables. Some developers use this for system tables etc. SQL Server uses tables with this prefix and it becomes confusing. We recommend system tables start with <b><b style="background-color&#58;#ffff66;color&#58;black;">zs</b></b> eg. zsUsers</p>
+<p><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLServerDatabases.aspx#ZSPrefix"></a></p>
+ </span>
 
 
   <table class="clsSSWProductTable" cellspacing="2" summary="Upsizing PRO" cellpadding="2">
