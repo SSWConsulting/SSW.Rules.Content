@@ -24,8 +24,8 @@ redirects: []
   <p>For example, if your client wants an application that manages Customers and Customer Projects, get the whole Customer phase up and running before you get Customer Projects running. This way you have two 1 month deadlines, instead of 1 two month deadline. </p>
 <p>At SSW we spec in two phases, the first to get an overview of the project, the second, to focus on the detail of first few releases only&#58; </p>
 <ul>
-    <li><a href="/Standards/Management/RulesToBetterProjectManagement/Pages/InitialReleasePlanandBallpark.aspx">Spec Review, or Initial Release Plan</a> </li>
-    <li><a href="/Standards/Management/RulesToBetterProjectManagement/Pages/DetailedReleasePlan.aspx">Detailed Release Plan</a> - this phase is repeated through the project </li>
+    <li><a href="/Management/RulesToBetterProjectManagement/Pages/InitialReleasePlanandBallpark.aspx">Spec Review, or Initial Release Plan</a> </li>
+    <li><a href="/Management/RulesToBetterProjectManagement/Pages/DetailedReleasePlan.aspx">Detailed Release Plan</a> - this phase is repeated through the project </li>
 </ul>
 
 
