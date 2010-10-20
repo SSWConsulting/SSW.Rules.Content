@@ -22,7 +22,7 @@ Following from the previous rule, if email is actually the property of the emplo
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Using the Microsoft Exchange Web Storage System we track the number of emails sent internally (i.e. to an SSW address) and emails sent to clients in our Corporate database.</p>
-<img class="ms-rteCustom-ImageArea" alt="Outlook Monitor Sent Items" src="/Standards/Communication/RulesToBetterEmail/PublishingImages/OutlookMonitorSentItems.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Monitor Sent Items</span>
+<img class="ms-rteCustom-ImageArea" alt="Outlook Monitor Sent Items" src="/Communication/RulesToBetterEmail/PublishingImages/OutlookMonitorSentItems.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Monitor Sent Items</span>
 <p>We use a <a href="http&#58;//www.ssw.com.au/ssw/ExchangeReporter/">Utility for Exchange Reports</a> called SSW Exchange Reporter.</p>
 <p>Note that although it is acceptable for seniors to check juniors' email, it is not acceptable for juniors to check seniors' email.</p>
 
