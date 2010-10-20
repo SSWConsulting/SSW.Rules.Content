@@ -21,7 +21,7 @@ authors:
 </ul>
 We also have a rule&#58; <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#StepsAfterAddRuleOnAspxPage">Adding a rule in aspx</a>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SPedit.jpg" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SPedit.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; SharePoint 2010 as a content management system </dd>
 </dl>
  </span>
