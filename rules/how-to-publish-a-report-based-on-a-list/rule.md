@@ -14,7 +14,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+When you want a Grid with filters, group by, totals and sorting, how do you do this (if all the data is in a list) ? 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>There are 6 options&#58;</p>
