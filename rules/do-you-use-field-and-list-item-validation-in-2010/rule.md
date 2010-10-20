@@ -39,7 +39,7 @@ event)</span>
 </span>
 <span lang="EN-AU">
 <br>
-<img width="833" height="201" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ListValidation.jpg" /><br>
+<img src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ListValidation.jpg" /><br>
 </span>
 <span class="ms-rteCustom-FigureGood">
 <span lang="EN-AU">Good example&#58; using no code – just using the
@@ -47,28 +47,28 @@ field validation on a list</span>
 </span>
 <br>
 <style>
-p.MsoNormal, li.MsoNormal, div.MsoNormal {
+.ExternalClass p.MsoNormal, .ExternalClass li.MsoNormal, .ExternalClass div.MsoNormal {
 margin:0cm;
 margin-bottom:.0001pt;
 font-size:11.0pt;
 font-family:'Calibri','sans-serif';
 }
 
-a:link, span.MsoHyperlink {
+.ExternalClass a:link, .ExternalClass span.MsoHyperlink {
 color:blue;
 text-decoration:underline;
 }
 
-span.MsoHyperlinkFollowed {
+.ExternalClass span.MsoHyperlinkFollowed {
 color:purple;
 text-decoration:underline;
 }
 
-.MsoChpDefault {
+.ExternalClass .MsoChpDefault {
 font-size:10.0pt;
 }
 
-div.Section1 {
+.ExternalClass div.Section1 {
 }
 </style>
 A demo of this from Andrew Connell on<span lang="EN-AU"><br>
