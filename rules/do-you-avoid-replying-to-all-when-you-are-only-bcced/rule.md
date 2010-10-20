@@ -19,7 +19,7 @@ If you receive email via BCC, other recipients are not aware that you were sent 
 
 <br><excerpt class='endintro'></excerpt><br>
   <font size="+0" class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut!</a> for Outlook to check for this rule.<br>
-&#160;<img src="/Standards/Communication/RulesToBetterEmail/PublishingImages/LookoutReplyAllBCCwarning.gif" alt="Lookout Reply All BCC Warning" class="ms-rteCustom-ImageArea" /><br>
+&#160;<img src="/Communication/RulesToBetterEmail/PublishingImages/LookoutReplyAllBCCwarning.gif" alt="Lookout Reply All BCC Warning" class="ms-rteCustom-ImageArea" /><br>
 <font size="+0" class="ms-rteCustom-FigureNormal">Figure&#58; SSW LookOut! for Outlook warns you if you accidentally 'Reply All' when you have been BCC'ed</font> </font>
 
 
