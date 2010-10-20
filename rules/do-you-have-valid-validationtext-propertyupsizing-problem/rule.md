@@ -19,7 +19,8 @@ related:
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+ValidationText is upsized only if its accompanying ValidationRule is successfully migrated. Avoid the use of apostrophes ( ' ) in your validation text because they will be displayed as quotation marks ( &quot; ) when upsized.
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
