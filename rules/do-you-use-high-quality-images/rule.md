@@ -23,11 +23,11 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/low_d.gif" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/low_d.gif" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - What is this monstrosity!</dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/high_d.jpg" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/high_d.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Looks classy, that. </dd>
 </dl>
 
