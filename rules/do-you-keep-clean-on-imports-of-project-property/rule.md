@@ -19,7 +19,7 @@ authors:
 
   <p>This is because IntelliSense lists will be harder to use and navigate with too many imports. For example if in VB.NET, Microsoft.VisualBasic would be a good item to have in the imports list, because it will be used in most areas of your application.</p>
 <p>To remove all the default imports, load Project Property page and select Common properties - Imports. </p>
-<img class="ms-rteCustom-ImageArea" alt="Imports VB" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/ImportsVB.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Using aliases with the Imports Statement</span>
+<img class="ms-rteCustom-ImageArea" alt="Imports VB" src="/PublishingImages/ImportsVB.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Using aliases with the Imports Statement</span>
 <p>The Import statement makes it easier to access methods of classes by eliminating the need to explicitly type the fully qualified reference names. Aliases let you assign a friendlier name to just one part of a namespace.</p>
 <p>For example, the carriage return-line feed sequence that causes a single piece of text to be displayed on multiple lines is part of the ControlChars class in the Microsoft.VisualBasic namespace. To use this constant in a program without an alias, you would need to type the following code&#58; </p>
 <pre class="brush&#58;c-sharp;">    MsgBox(&quot;Some text&quot; &amp; Microsoft.VisualBasic.ControlChars.crlf _
