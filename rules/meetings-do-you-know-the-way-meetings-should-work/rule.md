@@ -34,7 +34,7 @@ redirects: []
     <dt><img alt="Meeting without agenda" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" /> </dt>
     <dd>Figure&#58; Bad example - meeting with No Agenda </dd>
 </dl>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/MeetingWithAgenda_1.jpg" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - meeting with Agenda </font>
+<img alt="" class="ms-rteCustom-ImageArea" src="/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/MeetingWithAgenda_1.jpg" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - meeting with Agenda </font>
 <p>Every Outlook appointment must have&#58;</p>
 <ol>
     <li>A good subject, to let attendees know the purpose of the meeting, see our rule <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspX#ImportanceofaGoodSubject">Do you realize the importance of a good email Subject?</a> </li>
