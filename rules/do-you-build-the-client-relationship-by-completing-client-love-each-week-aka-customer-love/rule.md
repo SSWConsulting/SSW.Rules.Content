@@ -38,7 +38,7 @@ Being a good developer is not enough. There are multiple factors that can affect
 <p>The tasks don't have to cost anything. Free tasks are more thoughtful and show the client you are thinking about them.</p>
 <p>Tasks should be completed whilst on client work. Once client work is completed, the developer should move onto the <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsDealingWithClients.aspx#PostClientWork">Post Client Work</a> rule. </p>
 <p>Extra Reading&#58; For some, the above comes naturally. For the rest of us, we highly recommend the book &quot;How to Win Friends and Influence People&quot; written by Dale Carnegie. It is an easy read, the principles are easy to implement and will not only change your client relationships but enhance all the relationships in your life for the better.</p>
-<img alt="" src="/Standards/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/LoveClientsImage.jpg" />
+<img alt="" src="/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/LoveClientsImage.jpg" />
 <p>See <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#ReviewClientLove">Rules to Successful Sales Account Management</a></p>
 
 
