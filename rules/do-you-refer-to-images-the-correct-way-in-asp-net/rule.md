@@ -45,16 +45,16 @@ Often developers reference all images by using an absolute path (prefixing the p
     </tbody>
 </table>
 <p>As shown above, this approach makes the URLs on the staging server hard to remember, or increases the length of URLs on the production web server.</p>
-<p>Verdict for Scenario #1&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/fail.gif" /></p>
-<p>Verdict for Scenario #2&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/fail.gif" /></p>
+<p>Verdict for Scenario #1&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/fail.gif" /></p>
+<p>Verdict for Scenario #2&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/fail.gif" /></p>
 <p><b>Option #2&#58;Relative Paths</b><br>
 Images that are part of the content of a page should be referenced using relative paths, e.g.</p>
 <pre class="brush&#58;c-sharp">&lt;img src=&quot;../Images/spacer.gif&quot; height=&quot;1&quot; width=&quot;1&quot;&gt;
 </pre>
 <span class="ms-rteCustom-FigureGood">Good example - Referencing images with absolute paths.</span>
 <p>However, this approach is not possible with images on user controls, because the relative paths will map to the wrong location if the user control is in a different folder to the page.</p>
-<p>Verdict for Scenario #1&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/pass.gif" /></p>
-<p>Verdict for Scenario #2&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/fail.gif" /></p>
+<p>Verdict for Scenario #1&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/pass.gif" /></p>
+<p>Verdict for Scenario #2&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/fail.gif" /></p>
 <p><b>Option #3&#58;Application-Relative Paths</b><br>
 In order to simplify URLs, ASP.NET introduced a new feature, application relative paths. By placing a tilde (~) in front of a path, a URL can refer to the root of a site, not just the root of the web server. However, this only works on Server Controls (controls with a runat=&quot;server&quot; attribute).</p>
 <p>To use this feature, you need either use ASP.NET Server controls or HTML Server controls, as shown below.</p>
@@ -62,8 +62,8 @@ In order to simplify URLs, ASP.NET introduced a new feature, application relativ
 &lt;img id=&quot;spacerImage&quot; src=&quot;~/Images/spacer.gif&quot; originalAttribute=&quot;src&quot; originalPath=&quot;&quot;~/Images/spacer.gif&quot;&quot; runat=&quot;server&quot;&gt;</pre>
 <span class="ms-rteCustom-FigureGood">Good example - Application-relative paths with an ASP.NET Server control</span>
 <p>Using an HTML Server control creates less overhead than an ASP.NET Server control, but the control does not dynamically adapt its rendering to the user's browser, or provide such a rich set of server-side features.</p>
-<p>Verdict for Scenario #1&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/fail.gif" /></p>
-<p>Verdict for Scenario #2&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/pass.gif" /></p>
+<p>Verdict for Scenario #1&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/fail.gif" /></p>
+<p>Verdict for Scenario #2&#58; <img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/pass.gif" /></p>
 <p>Note&#58;A variation on this approach involves calling the Page.ResolveUrl method with inline code to place the correct path in a non-server tag.</p>
 <pre class="brush&#58;c-sharp"> &lt;img src='&lt;%# originalAttribute=&quot;src&quot; originalPath=&quot;'&lt;%#&quot; Page.ResolveUrl(&quot;~/Images/spacer.gif&quot;) %&gt;'&gt;</pre>
 <span class="ms-rteCustom-FigureBad">Bad example - Page.ResolveUrl method with a non-server tag</span>
