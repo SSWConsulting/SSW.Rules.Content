@@ -15,7 +15,8 @@ related:
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+The Upsizing Tools do not try to upsize Microsoft Access query that includes VBA function names that don't have their equivalent Transact-SQL functions. The upsizing result will depend on Microsoft Access version (2000/2002/2003) and SQL Server Version (2000/2005). The following varieties of queries will not upsize&#58; 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
