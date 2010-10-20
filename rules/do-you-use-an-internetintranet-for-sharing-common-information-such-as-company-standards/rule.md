@@ -11,7 +11,9 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>Employees need easy access to standards that are used everyday. We maintain standards at SSW for any activity that can be standardized including coding practices, naming conventions, standard form layouts and documents. There are also internal standards like expense and leave procedures. </p>
+ </span>
 
 
   <p>The first step is to use HTML rather than MS Word documents. </p>
