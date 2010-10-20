@@ -19,7 +19,8 @@ related:
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+When you upsize a table, the Upsizing Wizard tries to &quot;map&quot; Visual Basic for Applications functions in your DefaultValue and ValidationRule properties to an equivalent TSQL function. If this attempt is not successful, the validation rule or default will be skipped by the Upsizing Wizard. Consider the following&#58; 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
