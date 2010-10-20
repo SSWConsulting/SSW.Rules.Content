@@ -32,7 +32,7 @@ authors:
 </ol>
 <dl class="goodImage">
     <dt>
-    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
+    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
     </dt>
     <dt></dt>
     <dd>Figure&#58; The first step to creating a 'Customer Portal' is to select 'Manage Content and Structure' to view site collection </dd>
@@ -41,7 +41,7 @@ authors:
 </font><font size="2"><font color="#400040">Note&#58; If you </font>don’t see this option, that means you don’t have permission to create site.</font></p>
 <dl class="goodImage">
     <dt>
-    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
+    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
     </dt>
     <dt></dt>
     <dd>Figure&#58; Create new site </dd>
@@ -49,7 +49,7 @@ authors:
 <p>Now follow these steps when the new window opens fill in the fields below.</p>
 <dl class="goodImage">
     <dt>
-    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
+    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
     </dt>
     <dt></dt>
     <dd>Figure&#58; Fill in the appropriate info then click &quot;Create&quot; </dd>
@@ -67,7 +67,7 @@ authors:
 </ol>
 <p>&#160;</p>
 <p>Next step is to setup the groups and permissions. </p>
-<img alt="" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SetUpGroupForSite.jpg" />&#160;&#160;<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site. </font>
+<img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SetUpGroupForSite.jpg" />&#160;&#160;<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Create a 'new group' or select an 'existing group' for the newly created site. </font>
 <p>More Information&#58;</p>
 <ul>
     <li>Permissions&#58; After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority. By default&#58; </li>
@@ -97,7 +97,7 @@ authors:
 <p>Click &quot;OK&quot;, and the portal is created.</p>
 <dl class="goodImage">
     <dt>
-    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/Standards/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p>
+    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p>
     </dt>
     <dt></dt>
     <dd>Figure&#58; <a href="/zzClients/Northwind/default.aspx">View Northwind portal.</a> </dd>
