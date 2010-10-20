@@ -18,7 +18,8 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+In Scrum there is only one report that the team needs to track their progress.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
