@@ -20,7 +20,7 @@ authors:
 
   <p>&#160;</p>
 <dl class="goodImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Code Auditor Project File" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/CodeAuditorProjectFile.gif" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Code Auditor Project File" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/CodeAuditorProjectFile.gif" /> </dt>
 </dl>
 <p>To add a <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> file to your solution&#58; </p>
 <ol>
@@ -35,7 +35,7 @@ authors:
     <li>Select the <b>SSW Code Auditor project file</b> </li>
     <li>&#160;Right click the newly added file and select &quot;<b>Open With</b>&quot;<br>
     <dl class="goodImage">
-        <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Open With" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/OpenWith.gif" /> </dt>
+        <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Open With" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/OpenWith.gif" /> </dt>
     </dl>
     </li>
     <li>&#160;Point it to the SSW Code Auditor executable </li>
