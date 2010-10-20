@@ -14,7 +14,9 @@ redirects: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+
+  <p>Developers are notoriously unhealthy people. They don't exercise enough, don't sleep enough and eat the wrong food. An unhealthy developer is not going to be able to concentrate or put in the hard-yards when required, nor are they going to be very happy. In the office I try to look after them as best I can by&#58;</p>
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
