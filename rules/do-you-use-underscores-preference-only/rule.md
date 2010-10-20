@@ -18,7 +18,8 @@ redirects:
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+They just add characters. Surely Order_Details.Order_ID is no better then OrderDetail.OrderID 
+
 <br><excerpt class='endintro'></excerpt><br>
 
 
