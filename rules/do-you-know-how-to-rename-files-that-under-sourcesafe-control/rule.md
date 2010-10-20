@@ -24,11 +24,11 @@ authors:
     <li>Open Visual SourceSafe Explorer and rename the file. </li>
     <li>Rename it in Visual Studio .NET, click &quot;Continue with change&quot; to the 2 pop-up messages&#58;<br>
     <dl class="image">
-        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/RenameVSS1_small.jpg" /> </dt>
+        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/RenameVSS1_small.jpg" /> </dt>
         <dd>Figure&#58; Warning message of renaming files under source control.</dd>
     </dl>
     <dl class="image">
-        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/RenameVSS2_small.jpg" /> </dt>
+        <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/PublishingImages/RenameVSS2_small.jpg" /> </dt>
         <dd>Figure&#58; You are seeing this as the new file name already exists in SourceSafe, just click &quot;Continue with change&quot;.</dd>
     </dl>
     </li>
