@@ -24,11 +24,11 @@ authors:
 </dl>
 <b>Figure&#58; Code that should only run in Debug mode, we certainly don't want this in the release version.</b>
 <dl class="goodImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Debug configuration" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/DebugConfiguration.gif" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Debug configuration" src="/PublishingImages/DebugConfiguration.gif" /> </dt>
 </dl>
 <b>Figure&#58; Set&#160;&quot;Generate Debugging Information&quot; to True on the project properties page (VS 2003).</b>
 <dl class="goodImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Advanced Build Settings" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/VS2005AdvancedBuildSettings.gif" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Advanced Build Settings" src="/PublishingImages/VS2005AdvancedBuildSettings.gif" /> </dt>
 </dl>
 <b>Figure&#58; Set&#160;&quot;Debug Info&quot; to &quot;pdb-only&quot; on the Advanced Build Settings page (VS 2005).</b>
 <table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
