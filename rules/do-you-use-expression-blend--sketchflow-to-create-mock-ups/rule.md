@@ -26,7 +26,7 @@ Using Expression + SketchFlow, you can</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img width="487" height="299" alt="" class="ms-rteCustom-ImageArea" src="/Standards/Management/RulesToSuccessfulProjects/PublishingImages/sketchflow.jpg" /> <br>
+  <img width="487" height="299" alt="" class="ms-rteCustom-ImageArea" src="/Management/RulesToSuccessfulProjects/PublishingImages/sketchflow.jpg" /> <br>
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Expression + SketchFlow</font> 
 
 
