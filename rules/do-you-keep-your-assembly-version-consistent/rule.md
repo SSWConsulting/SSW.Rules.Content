@@ -14,7 +14,7 @@ authors:
 
 
 <span class='intro'> 
-  <img alt="" class="ms-rteCustom-ImageArea" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/VersionConsistent1.jpg" /> <br>
+  <img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/VersionConsistent1.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Keep these two versions consistent</font> If you are not using the GAC, it is important to keep AssemblyVersion, AssemblyFileVersion and AssemblyInformationalVersionAttribute the same, otherwise it can lead to support and maintenance nightmares. By default these version values are defined in the AssemblyInfo file. In the following examples, the first line is the version of the assembly and the second line is the actual version display in file properties.<br>
  </span>
 
