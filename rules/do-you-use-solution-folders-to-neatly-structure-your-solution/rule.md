@@ -17,10 +17,10 @@ authors:
  </span>
 
 
-  <img class="ms-rteCustom-ImageArea" alt="unstructured solution folder" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/WithoutReferencesAndSetupFolders.gif" /> <br>
+  <img class="ms-rteCustom-ImageArea" alt="unstructured solution folder" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/WithoutReferencesAndSetupFolders.gif" /> <br>
 <font class="ms-rteCustom-FigureBad">Bad example - An unstructured solution folder</font>
 <p>An ideal way is to create &quot;sub-solution folders&quot; for the solution items, the common ones are &quot;References&quot; and &quot;Setup&quot;. This feature is only available in Visual Studio 2005. This will make your solution items look neat and in order. Look at the screenshot below, now it makes sense, we know that the _Instructions.txt contains the instructions of what to do when creating a setup.exe. </p>
-<img class="ms-rteCustom-ImageArea" alt="A well structured solution folder has 2 folders - &quot;References&quot; and &quot;Setup&quot;" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/WithReferencesAndSetupFolders.gif" /> <br>
+<img class="ms-rteCustom-ImageArea" alt="A well structured solution folder has 2 folders - &quot;References&quot; and &quot;Setup&quot;" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/WithReferencesAndSetupFolders.gif" /> <br>
 <font class="ms-rteCustom-FigureGood">Good example - A well structured solution folder has 2 folders - &quot;References&quot; and &quot;Setup&quot; <br>
 </font>
 <table class="clsSSWProductTable" summary="Code Auditor">
