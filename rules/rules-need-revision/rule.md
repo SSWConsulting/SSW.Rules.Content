@@ -9,7 +9,10 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> The Jira rules were somewhat outdated by the upgrade to Jira 4 that changed the dashboard functionality significantly.&#160; They have not been updated yet and we await a decision on how much effort it is worth expending before any changees commence. <br>
+<br>
+I had to make this note a new rule as I could not see a way of adding a note&#160;to the site without changing the title. 
+ </span>
 
 
 
