@@ -20,7 +20,7 @@ In every Windows application project. We need to have a main form for a better s
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img class="ms-rteCustom-ImageArea" alt="Bad Project without Main Form" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/BadMainForm.gif" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img class="ms-rteCustom-ImageArea" alt="Good with Main Form" src="/Standards/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/GoodMainForm.gif" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
+  <img class="ms-rteCustom-ImageArea" alt="Bad Project without Main Form" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/BadMainForm.gif" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img class="ms-rteCustom-ImageArea" alt="Good with Main Form" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/GoodMainForm.gif" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
 <table class="clsSSWProductTable" summary="Code Auditor">
     <tbody>
         <tr>
