@@ -23,7 +23,7 @@ Often you will receive rich information from your Product Owner (Customer) about
 <p>Worse yet, the description field in Team Foundation Server 2010 (TFS 2010) does not support HTML and images, nor does the default task template support an “interested parties” or CC field. You can attach this content manually, but it can be time consuming.</p>
 <p><strong>What should we do?</strong></p>
 <p>At SSW we always follow the rules, and it just so happened that we have rules to both achieve this, and to make it easier.</p>
-<p>You should follow the existing <a shape="rect" href="/Standards/Management/RulesToBetterProjectManagement" target="_blank"><font color="#000080">Rules to Better Project Management</font></a>&#160; and attach the email to your task so you can refer to and reply to it later when you close the task&#58;</p>
+<p>You should follow the existing <a shape="rect" href="/Management/RulesToBetterProjectManagement" target="_blank"><font color="#000080">Rules to Better Project Management</font></a>&#160; and attach the email to your task so you can refer to and reply to it later when you close the task&#58;</p>
 <ul>
     <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#OutlookAddin"><font color="#000080">Do you know what Outlook add-ins you need?</font></a> </li>
     <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#WorkItemEmail"><font color="#000080">Describe the work item request in an email</font></a> </li>
