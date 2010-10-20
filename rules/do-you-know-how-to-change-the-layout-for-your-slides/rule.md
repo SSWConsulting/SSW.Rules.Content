@@ -14,7 +14,7 @@ authors: []
 
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Standards/Communication/RulesToBetterPowerpointPresentations/PublishingImages/layout.gif" /> </dt>
+    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/layout.gif" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58;&#160;How to change the&#160;layout in the template library </dd>
 </dl>
 
