@@ -28,9 +28,9 @@ The System Dashbaord has two columns and&#160;three main &quot;areas&quot;; thes
 System Dashboard example&#58;<br>
 <br>
 <br>
-<img alt="" style="width&#58;950px;height&#58;656px;" src="/Standards/Management/rulesforbetterjira/PublishingImages/SystemDashboardExample.png" />The specification of the dashboard is&#58;<br>
+<img alt="" style="width&#58;950px;height&#58;656px;" src="/Management/RulesToBetterJira/PublishingImages/SystemDashboardExample.png" />The specification of the dashboard is&#58;<br>
 <br>
-<img width="900" height="855" alt="" src="/Standards/Management/rulesforbetterjira/PublishingImages/SystemDashboardSpec.png" /></p>
+<img width="900" height="855" alt="" src="/Management/RulesToBetterJira/PublishingImages/SystemDashboardSpec.png" /></p>
 
 
 
