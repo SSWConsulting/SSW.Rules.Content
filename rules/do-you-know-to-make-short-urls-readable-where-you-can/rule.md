@@ -15,7 +15,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Readability of URLs is important. It is not just making the length as short as possible. 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>If you use a shortened link people can't see what they are clicking through to. In fact this is what most spamers rely on&#58;</p>
@@ -26,7 +27,7 @@ This field should not be null (Remove me when you edit this field).
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Better example - this link is sent in the clear as it is short enough</font></p>
 <p>So you should only 'Auto Shorten URLs' when it is too long and you need the space. </p>
 <p>However it is becoming more prevalent for the software to support showing the full URL on rollover. </p>
-<p><img title="image" style="background-image&#58;none;border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;padding-left&#58;0px;width&#58;800px;padding-right&#58;0px;display&#58;inline;height&#58;339px;border-top&#58;0px;border-right&#58;0px;padding-top&#58;0px;" alt="image" src="/Standards/Communication/RulesToBetterSocialNetworking/PublishingImages/RulesSocialTwitterReadableURL.jpg" border="0" /><br>
+<p><img title="image" style="background-image&#58;none;border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;padding-left&#58;0px;width&#58;800px;padding-right&#58;0px;display&#58;inline;height&#58;339px;border-top&#58;0px;border-right&#58;0px;padding-top&#58;0px;" alt="image" src="/PublishingImages/RulesSocialTwitterReadableURL.jpg" border="0" /><br>
 <strong class="ms-rteCustom-FigureGood">Figure&#58; Good example&#160;– the application does the heavy lifting for you</strong></p>
 
 
