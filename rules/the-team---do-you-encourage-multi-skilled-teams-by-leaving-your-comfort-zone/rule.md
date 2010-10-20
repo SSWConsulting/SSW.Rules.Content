@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> When selecting their tasks, team members should be looking to extend their skills. Scrum encourages multi-skilled workers, rather than having testers, back-end developers, designers etc. In other words, all team members should be able to help completing any task.
+ </span>
 
 
   <p>This does not imply that everyone is a guru in everything; no doubt some people are especially skilled in a specific area, but team members work together and should be learning new skills from each other.</p>
