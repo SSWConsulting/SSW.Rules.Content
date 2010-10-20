@@ -29,7 +29,7 @@ There are two fundamental ways any consultant can bill clients&#58;
     <li>Variations/change requests through the development and testing of the release are moved to the next release (otherwise dependencies are too affected) </li>
     <li>Development is conducted off-site (to prevent unauthorised scope-development) </li>
     <li>50% of the fixed price is payable before work commences, the balance is payable at the delivery of the first external test please </li>
-    <li>There is a 30 day warranty on <a href="/Standards/Management/RulesToSuccessfulProjects/Pages/BugDefinition.aspx">bugs</a> which commences when the first external test please is issued </li>
+    <li>There is a 30 day warranty on <a href="/Management/RulesToSuccessfulProjects/Pages/BugDefinition.aspx">bugs</a> which commences when the first external test please is issued </li>
     <li>The following release cannot commence until the prior release is signed-off.</li>
 </ul>
 
