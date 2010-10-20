@@ -11,7 +11,14 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> 
+  <p>We always use two tables for tracking versioning information&#58;</p>
+<ul>
+    <li>_zsDataVersion tracks the schema changes, and which update script we are up to. This helps tremendously in determining which version of the scripts are still required between development, test, and production databases. </li>
+    <li>_zsVersionLatest tracks which version the front-end client should be. This allows us to give a warning to (or even deny) users who are connecting to the database while not using the right version of the front-end client. </li>
+</ul>
+<p>Please see &quot;<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#back-end">Is a Back-end structural change going to be a hassle?</a>&quot; on our Rules to Successful Projects.</p>
+ </span>
 
 
 
