@@ -36,9 +36,9 @@ The timebox for this meeting is usually as many hours as weeks in the Sprint.</p
 <br>
 <font class="ms-rteCustom-GreyBox" size="+0">In Scrum, there are totally 4 meetings that you need to know&#58; 
 <ul>
-    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">HOW</a>) </li>
-    <li><a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
-    <li><a href="/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
+    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">HOW</a>) </li>
+    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
+    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
     <li>Sprint Retrospective Meeting</li>
 </ul>
 </font>
