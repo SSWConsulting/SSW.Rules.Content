@@ -17,8 +17,7 @@ redirects: []
 
 
 
-  <p>When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates. 
-</p>
+  <p>When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
