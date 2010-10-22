@@ -12,8 +12,10 @@ related: []
 
 
 
-  <p>See our <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version">Suggestions to MS&#58; Check for Updates&#58;</a></p>
-The best idea is to use SharePoint to manage your templates. 
+  <p>
+    <b>See our <a shape="rect" href="http&#58;//skunk/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version">Suggestions to MS&#58; Check for Updates</a></b>
+  </p>
+<p>The best idea is to use SharePoint to manage your templates.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
