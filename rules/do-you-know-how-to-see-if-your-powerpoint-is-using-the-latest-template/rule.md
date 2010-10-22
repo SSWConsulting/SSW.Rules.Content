@@ -13,8 +13,8 @@ redirects: []
 
 
 
-  <p>See our <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version">Suggestions to MS&#58; Check for Updates&#58;</a></p>
-The best idea is to use SharePoint to manage your templates.
+  <p>See our <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version">Suggestions to MS&#58; Check for Updates&#58;</a></p>
+The best idea is to use SharePoint to manage your templates. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
