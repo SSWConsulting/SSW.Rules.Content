@@ -13,7 +13,7 @@ redirects: []
 
 
 
-  <p>A power point presentation is a verbal essay and it follows a structure. Shown at the start of the presentation, the Agenda slide sets expectation. The Summary slide is identical, but the purpose is to summarize the powerpoint.</p>
+  <p>A power point presentation is a verbal essay and it follows a structure. Shown at the start of the presentation, the Agenda slide sets expectation. The Summary slide is identical, but the purpose is to summarize the PowerPoint. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -23,7 +23,7 @@ redirects: []
 </dl>
 <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/summary.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Slide for summary </dd>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Slide for summary (is the same as agenda) </dd>
 </dl>
 
 
