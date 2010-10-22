@@ -9,7 +9,7 @@ authors: []
 
 
 
-<span class='intro'> Create a hashtag for your presentation prior to the presentation and display it your introduction slide! Twitter backchannels are valuable sources of feedback.
+<span class='intro'> Create a hashtag for your presentation prior to the presentation and display it your introduction slide! Twitter backchannels are valuable sources of feedback. 
  </span>
 
 
