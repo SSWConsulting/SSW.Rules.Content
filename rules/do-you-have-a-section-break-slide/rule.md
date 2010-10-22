@@ -13,7 +13,7 @@ redirects: []
 
 
 
-  <p>Cover slides in presentations provide structure. These slides should be consistent so they do not confuse the audience. </p>
+  <p>Section slides in presentations provide structure. These slides should be consistent so they do not confuse the audience. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
