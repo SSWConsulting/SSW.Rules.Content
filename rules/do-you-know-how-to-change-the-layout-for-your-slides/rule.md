@@ -17,7 +17,7 @@ Different layouts have different purposes. While the default layout is nice; it'
 
   <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/layout.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58;&#160;How to change the&#160;layout in the template library </dd>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Don’t use the same layout for all slides – choose the right 'layout' for the from slide (this is called the template library)</dd>
 </dl>
 
 
