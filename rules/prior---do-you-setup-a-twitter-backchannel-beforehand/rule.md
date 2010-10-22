@@ -11,7 +11,7 @@ related: []
 ---
 
 
-Create a hashtag for your presentation prior to the presentation and display it your introduction slide! Twitter backchannels are valuable sources of feedback.
+Create a hashtag for your presentation prior to the presentation and display it your introduction slide! Twitter backchannels are valuable sources of feedback. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
