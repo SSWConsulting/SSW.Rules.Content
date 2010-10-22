@@ -18,7 +18,7 @@ related:
 ---
 
 
-PowerPoint templates are&#160;designed to engage your audience visually and save you time. When you start creating a new presentation file, always make sure you use a template. 
+PowerPoint templates are designed to engage your audience visually and save you time. When you start creating a new presentation file, always make sure you use a template. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -32,11 +32,11 @@ PowerPoint templates are&#160;designed to engage your audience visually and save
 </dl>
 <dl>
     <dt><img class="ms-rteCustom-ImageArea" alt="not follow SSW brand" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/bad_cover.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Not using the&#160;SSW Template </dd>
+    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Not using the corporate template (in this case not SSW) </dd>
 </dl>
 <dl>
     <dt><img class="ms-rteCustom-ImageArea" alt="SSW PowerPoint Template" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/good_cover.jpg" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - That's a mighty fine looking template you got there</dd>
+    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - That's a mighty fine looking template you got there </dd>
 </dl>
 
 
