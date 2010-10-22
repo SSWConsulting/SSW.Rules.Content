@@ -9,7 +9,8 @@ authors: []
 
 
 
-<span class='intro'> PowerPoint templates are designed to engage your audience visually and save you time. When you start creating a new presentation file, always make sure you use a template. 
+<span class='intro'> 
+  <p>PowerPoint templates are designed to engage your audience visually and save you time. When you start creating a new presentation file, always make sure you use a template. </p>
  </span>
 
 
