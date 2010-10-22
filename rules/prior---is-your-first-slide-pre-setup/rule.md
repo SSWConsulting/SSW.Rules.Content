@@ -12,15 +12,13 @@ related: []
 
 
 
-  <p>
-You may be a natural born public speaker, but you will not be able ‘wing’ a presentation. Setting up a presentation takes time and practise. It is important to make sure you understand what steps to undertake beforehand, especially when there is technology involved.
-</p>
+  <p>You may be a natural born public speaker, but you will not be able 'wing' a presentation. Setting up a presentation takes time and practice. It is important to make sure you understand what steps to undertake beforehand, especially when there is technology involved.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/preslide.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Pre-setup slide </dd>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use a Pre-setup slide prior to the presentation</dd>
 </dl>
 
 
