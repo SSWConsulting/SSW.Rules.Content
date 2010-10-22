@@ -19,7 +19,7 @@ related: []
 
   <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/RecordQA.jpg" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; You should&#160;document any questions and answers from your audience&#160; </dd>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; A nice presenting technique is to write any questions and answers from your audience (live on stage)</dd>
 </dl>
 
 
