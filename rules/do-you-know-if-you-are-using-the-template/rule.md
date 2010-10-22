@@ -18,7 +18,8 @@ related:
 ---
 
 
-PowerPoint templates are designed to engage your audience visually and save you time. When you start creating a new presentation file, always make sure you use a template. 
+
+  <p>PowerPoint templates are designed to engage your audience visually and save you time. When you start creating a new presentation file, always make sure you use a template. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
