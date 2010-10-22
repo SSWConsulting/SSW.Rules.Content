@@ -14,8 +14,7 @@ authors:
 
 
 <span class='intro'> 
-  <p>When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates. 
-</p>
+  <p>When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates. </p>
  </span>
 
 
