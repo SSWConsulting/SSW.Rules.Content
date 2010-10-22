@@ -24,7 +24,7 @@ related: []
 
   <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/low_d.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - What is this monstrosity!</dd>
+    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - What is this monstrosity! </dd>
 </dl>
 <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/high_d.jpg" /> </dt>
