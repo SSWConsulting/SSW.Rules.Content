@@ -18,23 +18,19 @@ related: []
 
 
 
-  <p>Make sure you follow these steps when preparing your presentation to ensure your work is of the highest quality... and don't forget to archive your presentation on Slideshare!</p>
+  <p>Make sure you follow these steps when preparing your presentation to ensure your work is of the highest quality... and don't forget to archive your presentation on Slideshare! </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <ol>
-    <li>Prepare your PowerPoint </li>
-    <li>Put it in SharePoint for the versioning </li>
-    <li>Get it tested by a Tester (for the content) </li>
-    <li>Get it tested by a Designer (so it looks good) </li>
-    <li>Add a generic Slideshare link to the last slide </li>
-    <li>Add the version number on the first page (this will help you later know what version is on slideshare) </li>
-    <li>Check the name of the ppt eg. SharePoint-Jonah-Lomu-of-CMS_Adam-Cogan_V1-0.pptx </li>
-    <li>Upload to Slideshare<br>
-    Eg. <a shape="rect" href="http&#58;//www.slideshare.net/CraigBailey/sharepoint-as-a-web-cms">http&#58;//www.slideshare.net/CraigBailey/sharepoint-as-a-web-cms</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" /> </li>
-    <li>In sharepoint add a _OnSlideShare.txt with the url inside it </li>
-    <li>Now you are ready to present </li>
-</ol>
+  <ul>
+    <li>Prepare your PowerPoint as normally. </li>
+    <li>Remember to store all versions of your PowerPoint in SharePoint so that a record of your work may be kept. </li>
+    <li>Get your work checked by a Tester for content and a designer for visual appearances. </li>
+    <li>Add a slide that contain information on where to find the slides on Slideshare – incase your audience wishes to access your PowerPoint later. </li>
+    <li>Once your presentation has been finalized, add a version number on the first slide before uploading the document to Slideshare (this will help you know later what version is on Slideshare and if it needs to be updated) </li>
+    <li>Before you are ready to present, add a text file in SharePoint that links to the Slideshare url (at SSW we use the naming format “_OnSlideshare.txt”) </li>
+    <li>Present! And have fun. </li>
+</ul>
 
 
 
