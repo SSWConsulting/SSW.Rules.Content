@@ -14,15 +14,15 @@ authors:
 
 
 <span class='intro'> 
-  <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a>, <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit">NUnit</a> and <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop">Microsoft FxCop</a> are tools to keep your code &quot;healthy&quot;. That is why they should be easily accessible in every solution so that they can be run with a double click of a mouse button. 
+  <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a>, <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit">NUnit</a> and <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop">Microsoft FxCop</a> are tools to keep your code &quot;healthy&quot;. That is why they should be easily accessible in every solution so that they can be run with a double click of a mouse button. 
  </span>
 
 
   <p>&#160;</p>
 <dl class="goodImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Code Auditor Project File" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/CodeAuditorProjectFile.gif" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Code Auditor Project File" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/CodeAuditorProjectFile.gif" border="0" /> </dt>
 </dl>
-<p>To add a <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> file to your solution&#58; </p>
+<p>To add a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> file to your solution&#58; </p>
 <ol>
     <li>Start up SSW Code Auditor </li>
     <li>Add a <b>new Job</b> </li>
@@ -35,15 +35,15 @@ authors:
     <li>Select the <b>SSW Code Auditor project file</b> </li>
     <li>&#160;Right click the newly added file and select &quot;<b>Open With</b>&quot;<br>
     <dl class="goodImage">
-        <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Open With" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/OpenWith.gif" /> </dt>
+        <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Open With" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/OpenWith.gif" border="0" /> </dt>
     </dl>
     </li>
     <li>&#160;Point it to the SSW Code Auditor executable </li>
 </ol>
 <br>
-See <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsWorkingInATeam.aspx#CodeAuditor">Do you run SSW Code Auditor?</a> <br>
-See <a href="/Standards/Management/RulesToSuccessfulProjects/Pages/CheckCodeByCodeAuditorBeforeCheckIn.aspx" id="Do you check your code by Code Auditor before check-in?">Do you check your code by Code Auditor before check-in?</a> <br>
-To add a <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop">Microsoft FxCop</a> file to your solution&#58;
+See <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsWorkingInATeam.aspx#CodeAuditor">Do you run SSW Code Auditor?</a> <br>
+See <a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/CheckCodeByCodeAuditorBeforeCheckIn.aspx" id="Do you check your code by Code Auditor before check-in?">Do you check your code by Code Auditor before check-in?</a> <br>
+To add a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop">Microsoft FxCop</a> file to your solution&#58;
 <ol>
     <li>Stat up <b>Microsoft FxCop</b> </li>
     <li>Create a <b>New Project</b> </li>
@@ -57,7 +57,7 @@ To add a <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTo
     <li>Point it to the Microsoft FxCop executable </li>
 </ol>
 <br>
-To add a <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit">NUnit</a> file to your solution&#58;
+To add a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit">NUnit</a> file to your solution&#58;
 <ol>
     <li>Stat up <b>NUnit</b> </li>
     <li>Create a New Project by selecting <b>File &gt; New Project</b> and save it to your solution directory as &quot;<b>nunit.NUnit</b>&quot; </li>
@@ -71,10 +71,10 @@ To add a <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTo
     <li>Point it to the NUnit executable </li>
 </ol>
 <p>Now you can simply double click these project files to run the corresponding applications.</p>
-<table id="table42" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
+<table class="clsSSWProductTable" id="table42" cellspacing="2" cellpadding="2" summary="Code Auditor">
     <tbody>
         <tr>
-            <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> that implements this rule.</td>
+            <td>We have a program called <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> that implements this rule.</td>
         </tr>
     </tbody>
 </table>
