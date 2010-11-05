@@ -32,7 +32,7 @@ Here are the 7 steps you should follow for a good handover. &#160; &#160;
     <li>Confirm location of info and procedures (hopefully these are on a wiki or SharePoint document library)
     <ul>
         <li>Source control </li>
-        <li>Database</li>
+        <li>Database </li>
         <li>Documents </li>
         <li>How to Build and Package </li>
         <li>Deployment Steps </li>
@@ -60,7 +60,7 @@ Subject&#58;&#160;SSW - Northwind handover</b></p>
         <p>Nothing</p>
         </li>
         <li>Data storage
-        <p><a>file&#58;//server/DataSSW/SSWProducts/Northwind</a></p>
+        <p><a shape="rect">file&#58;//server/DataSSW/SSWProducts/Northwind</a></p>
         </li>
         <li>Deployment
         <p>Make a build by using WISE<br>
@@ -131,7 +131,7 @@ Subject&#58;&#160;SSW - Northwind Handover</b> </p>
 </ul>
 </font><strong class="ms-rteCustom-FigureGood">Figure&#58; Good Example - This handover has lots of URLs and is complete</strong><br>
 <p>If you need to handover only a single task there are more details here&#58;<br>
-<a shape="rect" href="/Standards/Communication/RulesToBetterEmail/Pages/HandOverTask.aspx">http&#58;//sharepoint.ssw.com.au/Standards/Communication/RulesToBetterEmail/Pages/HandOverTask.aspx</a></p>
+<a shape="rect" href="/Communication/RulesToBetterEmail/Pages/HandOverTask.aspx">http&#58;//rules.ssw.com.au/Communication/RulesToBetterEmail/Pages/HandOverTask.aspx</a></p>
 
 
 
