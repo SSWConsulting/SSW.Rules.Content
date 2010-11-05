@@ -32,7 +32,7 @@ authors:
 </ol>
 <dl class="goodImage">
     <dt>
-    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Manage Content and Structure" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" /></p>
+    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Manage Content and Structure" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ManageContentAndStructure.jpg" border="0" /></p>
     </dt>
     <dt></dt>
     <dd>Figure&#58; The first step to creating a 'Customer Portal' is to select 'Manage Content and Structure' to view site collection </dd>
@@ -41,7 +41,7 @@ authors:
 </font><font size="2"><font color="#400040">Note&#58; If you </font>don’t see this option, that means you don’t have permission to create site.</font></p>
 <dl class="goodImage">
     <dt>
-    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Create New Site" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" /></p>
+    <p>&#160;<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Create New Site" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep1.jpg" border="0" /></p>
     </dt>
     <dt></dt>
     <dd>Figure&#58; Create new site </dd>
@@ -49,7 +49,7 @@ authors:
 <p>Now follow these steps when the new window opens fill in the fields below.</p>
 <dl class="goodImage">
     <dt>
-    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Info to create site" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" /></p>
+    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Info to create site" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/CreateNewSiteStep2.jpg" border="0" /></p>
     </dt>
     <dt></dt>
     <dd>Figure&#58; Fill in the appropriate info then click &quot;Create&quot; </dd>
@@ -97,10 +97,10 @@ authors:
 <p>Click &quot;OK&quot;, and the portal is created.</p>
 <dl class="goodImage">
     <dt>
-    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Northwind Portal" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" /> </p>
+    <p><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" alt="Northwind Portal" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Northwind%20Portal.jpg" border="0" /> </p>
     </dt>
     <dt></dt>
-    <dd>Figure&#58; <a href="/zzClients/Northwind/default.aspx">View Northwind portal.</a> </dd>
+    <dd>Figure&#58; <a shape="rect" href="http&#58;//sharepoint.ssw.com.au/zzClients/Northwind/default.aspx">View Northwind portal.</a> </dd>
 </dl>
 <p>Note&#58; SharePoint will send &quot;welcome email&quot; to all the members of the groups you created&#160;for the site with basic information, but you still need to send email to your customer with the login details like Url, userName and Password.</p>
 
