@@ -15,10 +15,11 @@ related: []
 ---
 
 
-Getting in the zone is pretty challenging in any work environment. Outlook in particular likes to offer as many distractions as possible to ensure you can never forget you've got it open. Set your options so that Outlook&#58;
+Getting in the zone is pretty challenging in any work environment. Outlook in particular likes to offer as many distractions as possible to ensure you can never forget you've got it open. Set your options so that Outlook&#58; 
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img src="/Communication/RulesToBetterEmail/PublishingImages/OutlookMinimiseDistractions.gif" alt="Outlook Minimise Distractions" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Turn off Outlook distractions!</span>
+
+  <img class="ms-rteCustom-ImageArea" alt="Outlook Minimise Distractions" src="/Communication/RulesToBetterEmail/PublishingImages/OutlookMinimiseDistractions.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Turn off Outlook distractions!</span>
 <ul>
     <li>Doesn't play a sound </li>
     <li>Doesn't briefly change the mouse cursor </li>
@@ -27,8 +28,8 @@ Getting in the zone is pretty challenging in any work environment. Outlook in pa
 </ul>
 <p>Here's a few more distractions tips&#58;</p>
 <ul>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#MinimiseMSNMessengerDistractions">MSN Messenger distractions</a> </li>
-    <li><a href="/Standards/Management/RulesToSuccessfulProjects/Pages/DealWithDistractions.aspx">General working environment distractions</a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#MinimiseMSNMessengerDistractions">MSN Messenger distractions</a> </li>
+    <li><a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/DealWithDistractions.aspx">General working environment distractions</a> </li>
 </ul>
 
 
