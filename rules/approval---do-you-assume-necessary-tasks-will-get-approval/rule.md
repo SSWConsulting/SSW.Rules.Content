@@ -15,7 +15,7 @@ related: []
 ---
 
 
-When you are working on a project, you need to follow the <a href="/Standards/Management/RulesToHappyClients/Pages/DoYouGetWorkApprovedBeforeYouDoIt.aspx">get work approved before you do it</a> rule. However, you should assume some tasks will be approved by a client and do them anyway. This of course depends on the size of the task (eg&#160;half hour&#160;or less) and the obviousness of the task. 
+When you are working on a project, you need to follow the <a shape="rect" href="/Management/RulesToHappyClients/Pages/DoYouGetWorkApprovedBeforeYouDoIt.aspx">get work approved before you do it</a> rule. However, you should assume some tasks will be approved by a client and do them anyway. This of course depends on the size of the task (eg&#160;half hour&#160;or less) and the obviousness of the task. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
