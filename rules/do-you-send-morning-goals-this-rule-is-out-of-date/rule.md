@@ -28,7 +28,7 @@ authors:
     <li>Forward the previous morning goal from yesterday, striking out completed items </li>
     <li>Comment (in a different colour) and give the reason whether any items were not completed </li>
     <li>Copy outstanding items to today's morning goals, appending any new information </li>
-    <li>If we are working on-site we always send our morning goals from our SSW mail account, not an internal account the client may choose to give us. This enables us to keep a record of the email, and also keeps the branding consistent. If this is not possible, we always CC our SSW account (and then move the emails into your &quot;<a shape="rect" href="/Standards/Communication/RulesToBetterEmail/Pages/SaveImportantItemsInSeparateFolder.aspx">Saved Items</a>&quot; when you get back to the office) </li>
+    <li>If we are working on-site we always send our morning goals from our SSW mail account, not an internal account the client may choose to give us. This enables us to keep a record of the email, and also keeps the branding consistent. If this is not possible, we always CC our SSW account (and then move the emails into your &quot;<a shape="rect" href="/Communication/RulesToBetterEmail/Pages/SaveImportantItemsInSeparateFolder.aspx">Saved Items</a>&quot; when you get back to the office) </li>
     <li>If something more important arises during the day, we note it down on the next days morning goals. </li>
     <li>If a task is huge (e.g. clean up my email inbox) and we only aim to do a portion of it, we say so in the morning goals as well.<br>
     <p><img class="ms-rteCustom-ImageArea" alt="Morning Goal Aims" src="/Management/RulesToSuccessfulProjects/PublishingImages/MorningGoalAims.gif" /> </p>
