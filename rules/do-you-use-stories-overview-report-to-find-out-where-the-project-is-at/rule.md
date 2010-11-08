@@ -19,16 +19,23 @@ redirects:
 ---
 
 
-It's a common question for every project managers, where is my project at? It's not only to know how many tasks are done, but also to understand if all these tasks are done to meet users' requriements. <br>
-<br>
-TFS2010's Agile Template provides a bulit-in report &quot;Stories Overview&quot; to help you find out where the project is at as well as to tell you if all the tasks are well tested. <br>
+
+  <p>It's a common question for every project managers, where is my project at? It's not only to know how many tasks are done, but also to understand if all these tasks are done to meet users' requirements. </p>
+<p>TFS2010's Agile Template provides a built-in &quot;Stories Overview&quot; report to help you find out where the project is at, as well as to tell you if all the tasks are well tested. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img alt="Stories Overview report" class="ms-rteCustom-ImageArea" src="/Management/RulesToBetterProjectManagement/PublishingImages/StoriesOverviewReport.jpg" /> <br>
-<font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>Set this up on a schedule so the Scrum Team get this in their inbox each day
-<p>Suggestion for MS&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
-<p>Read <a href="/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx">Do you get regular updates on costs and progress (aka Project Progress, Burndown, Story Overview)?</a> to see which reports you need to get&#160;a complete&#160;project progress overview.</p>
+  <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/Management/RulesToBetterProjectManagement/PublishingImages/StoriesOverviewReport.jpg" /> <br>
+<font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
+<p>Set this up on a <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/set-up-2-key-reports.aspx">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
+<p>Suggestion for Microsoft&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
+<div class="ms-rteCustom-GreyBox">
+<h2>Where are we at?</h2>
+<p>TFS’s Stories Overview Report is the best tool to solve the common question project managers ask the developers “Where are we at?” </p>
+<p>The problem with the answer is that developers almost always say 90% </p>
+<p><a shape="rect" href="http&#58;//twitter.com/adamcogan">@AdamCogan</a></p>
+</div>
+<p>Need to know $$$, read <a shape="rect" href="/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx">Do you get regular updates on costs and progress (aka Project Progress, Burndown, Story Overview)?</a> to see which reports you need to get&#160;a complete&#160;project progress overview.</p>
 
 
 
