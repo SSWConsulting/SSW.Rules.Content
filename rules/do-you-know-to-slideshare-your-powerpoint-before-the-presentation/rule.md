@@ -18,7 +18,8 @@ related: []
 
 
 
-  <p>What is Shareshare? <a shape="rect" href="http&#58;//www.slideshare.net/">Slideshare</a> is an online archive of presentations and other documents. It is the best way to store your training material for search engines and is easily accessible. Follow these steps to ensure you get as much coverage possible before and after your presentation.</p>
+  <p>What is Shareshare? <a shape="rect" href="http&#58;//www.slideshare.net/">Slideshare</a> is an online archive of presentations and other documents. It is the best way to store your training material for search engines and is easily accessible. Follow these steps to ensure you get as much coverage possible before and after your presentation.<p>
+</p></p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
