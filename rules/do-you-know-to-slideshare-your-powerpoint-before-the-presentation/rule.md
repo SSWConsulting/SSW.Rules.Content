@@ -18,19 +18,27 @@ related: []
 
 
 
-  <p>Make sure you follow these steps when preparing your presentation to ensure your work is of the highest quality... and don't forget to archive your presentation on Slideshare! </p>
+  <p>What is Shareshare? <a shape="rect" href="http&#58;//www.slideshare.net/">Slideshare</a> is an online archive of presentations and other documents. It is the best way to store your training material for search engines and is easily accessible. Follow these steps to ensure you get as much coverage possible before and after your presentation.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <ul>
-    <li>Prepare your PowerPoint as normally. </li>
-    <li>Remember to store all versions of your PowerPoint in SharePoint so that a record of your work may be kept. </li>
-    <li>Get your work checked by a Tester for content and a designer for visual appearances. </li>
-    <li>Add a slide that contain information on where to find the slides on Slideshare – incase your audience wishes to access your PowerPoint later. </li>
-    <li>Once your presentation has been finalized, add a version number on the first slide before uploading the document to Slideshare (this will help you know later what version is on Slideshare and if it needs to be updated) </li>
-    <li>Before you are ready to present, add a text file in SharePoint that links to the Slideshare url (at SSW we use the naming format “_OnSlideshare.txt”) </li>
-    <li>Present! And have fun. </li>
-</ul>
+  <ol>
+    <li>Prepare your PowerPoint as normal. Refer to <a shape="rect" href="/Communication/RulesToBetterPowerpointPresentations/Pages/default.aspx">SSW Rules to Better Presentations.</a> </li>
+    <li>Work on your presentation from SharePoint to maintain a version on the document. </li>
+    <li>Get your content checked by a tester and a designer (See our Rule&#58; <a shape="rect" href="/Communication/RulesToBetterPowerpointPresentations/Pages/DoyougetsomeonetodoaTestPlease.aspx">Do you get someone to do a 'Test Please'?</a>) </li>
+    <li>Before you upload to Slideshare, add two slides&#58;
+    <ol>
+        <li>Add a generic Slideshare link on the last slide; this could be something as simple as <a shape="rect" href="http&#58;//www.slideshare.net/YourAccount">http&#58;//www.slideshare.net/YourAccount</a> - at SSW we use <a shape="rect" href="http&#58;//www.slideshare.net/SSWConsulting/">http&#58;//www.Slideshare.net/SSWConsulting/</a> </li>
+        <li>One at the start of the presentation that contains the version of the document. This is so that you can compare easily what version is on SharePoint and what is one Slideshare </li>
+    </ol>
+    </li>
+    <li>Rename your PowerPoint to include the version number. For example, if the file in SharePoint is called “SharePoint-Jonah-Lomu-of-CMS.pptx” it will be renamed to “SharePoint-Jonah-Lomu-of-CMS-ver1-9.pptx” </li>
+    <li>Upload to Slideshare </li>
+    <li>Don’t forget to add a “_OnSlideshare.txt” in SharePoint that contains the url </li>
+    <li>Now you can present! </li>
+</ol>
+<img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/slideshareend.jpg" />
+<p class="ms-rteCustom-FigureNormal">Figure&#58; the SSW example of a Slideshare link slide</p>
 
 
 
