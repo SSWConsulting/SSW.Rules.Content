@@ -33,7 +33,7 @@ This meeting is normally timeboxed to as many hours as there are weeks in the Sp
 <ul>
     <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">HOW</a>) </li>
     <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
-    <li>Sprint Review Meeting </li>
+    <li>Sprint Review Meeting (this page)</li>
     <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx" title="Retrospective Meeting">Sprint Retrospective Meeting</a> </li>
 </ul>
 </font><br>
