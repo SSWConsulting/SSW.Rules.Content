@@ -42,15 +42,16 @@ This meeting is normally timeboxed to as many hours as there are weeks in the Sp
 <p>This meeting will consist of&#58;</p>
 <ul>
     <li>&#160;<strong>Sprint Review Meeting</strong> (this page)<br>
-    We will go through the user stories that have been completed and demonstrate them</li>
+    We will go through the user stories that have been completed and demonstrate them </li>
     <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx"><strong>Sprint Retrospective Meeting<br>
-    </strong></a>We ask for feedback of the previous sprint so that we can ‘Inspect and Adapt’</li>
-    <li><strong>Sprint Planning Meeting</strong> (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx">What</a> and <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">How</a>)<br>
+    </strong></a>- sprint closed and new sprint starts -<br>
+    We ask for feedback of the previous sprint so that we can ‘Inspect and Adapt’ </li>
+    <li><strong>Sprint Planning Meeting</strong> (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx">WHAT</a> and <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">HOW</a>)<br>
     We go through the backlog (aka to do list), get more information, estimate and then prioritize. <br>
-    In the how meeting, we then breakdown to tasks and commit to what we believe we can deliver for the next sprint.</li>
+    In the how meeting, we then breakdown to tasks and commit to what we believe we can deliver for the next sprint. </li>
 </ul>
 </div>
-<font class="ms-rteCustom-FigureGood" size="+0"><strong>Figure&#58; Good Example -&#160;copy this appointment template and send to Product Owner</strong></font>
+<font class="ms-rteCustom-FigureGood" size="+0"><strong>Figure&#58; Good Example -&#160;copy this appointment template and send to Product Owner</strong></font> 
 
 
 
