@@ -15,13 +15,10 @@ related: []
 ---
 
 
-
-  <p>Often I receive a reply to an email I sent and it has one word - &quot;Yes.&quot; I can't remember what I asked for and the respondent has deleted the history, so I don't know what's going on. I can't check to see whether they have answered all my questions, or what the URL was in the original email, and I can't CC someone else on my reply because the email is missing half the information. So I have to go back into my sent items, find what I asked for and copy and paste it into my reply. </p>
-<p>Crazy. Just don't delete the history! Geezzzzeeeee, surely we aren't that hard up for disk space.</p>
+Often I receive a reply to an email I sent and it has one word - &quot;Yes.&quot; I can't remember what I asked for and the respondent has deleted the history, so I don't know what's going on. I can't check to see whether they have answered all my questions, or what the URL was in the original email, and I can't CC someone else on my reply because the email is missing half the information. So I have to go back into my sent items, find what I asked for and copy and paste it into my reply.
 
 <br><excerpt class='endintro'></excerpt><br>
-
-  <p>&#160;</p>
+&#160;Crazy. Just don't delete the history! Geezzzzeeeee, surely we aren't that hard up for disk space.
 
 
 
