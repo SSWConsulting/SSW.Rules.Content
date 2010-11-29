@@ -26,7 +26,7 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
   <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/Management/RulesToBetterProjectManagement/PublishingImages/StoriesOverviewReport.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
-<p>Set this up on a <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/set-up-2-key-reports.aspx">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
+<p>Tip&#58; Set this up on a <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/set-up-2-key-reports.aspx">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
 <p>Suggestion for Microsoft&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
 <div class="ms-rteCustom-GreyBox">
 <h2>Where are we at?</h2>
