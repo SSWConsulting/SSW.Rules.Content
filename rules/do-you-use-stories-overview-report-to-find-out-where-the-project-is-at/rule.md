@@ -27,7 +27,8 @@ redirects:
   <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/Management/RulesToBetterProjectManagement/PublishingImages/StoriesOverviewReport.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
 <p>Tip&#58; Set this up on a <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/set-up-2-key-reports.aspx">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
-<p>Suggestion for Microsoft&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
+<p>Suggestion for Microsoft #1&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
+<p>Suggestion for Microsoft #2&#58; Add this great report to the Microsoft Scrum TFS Process Template.</p>
 <div class="ms-rteCustom-GreyBox">
 <h2>Where are we at?</h2>
 <p>TFS’s Stories Overview Report is the best tool to solve the common question project managers ask the developers “Where are we at?” </p>
