@@ -16,9 +16,9 @@ redirects:
 ---
 
 
-Part of the ScrumMaster’s role is to protect the team from distractions so they can deliver on their commitment, to ensure agreed process is followed and to help all roles keep their promises.&#160;&#160;<br>
-<br>
-It is&#160;also important that team member&#160;does not allow themsleves to get distracted&#160;and must work&#160;based on priority. 
+
+  <p>Part of the ScrumMaster’s role is to protect the team from distractions so they can deliver on their commitment, to ensure agreed process is followed and to help all roles keep their promises.&#160;&#160;</p>
+<p>It is&#160;also important that team members&#160;do not allow themslevs to get distracted&#160;and must work&#160;based on priority. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -32,7 +32,7 @@ The only exceptions where a Team Member&#160;can start the work after&#160;notif
 </ul>
 <p>In these&#160;3 exceptional&#160;cases only, even if the&#160;Team Member doesn't get a&#160;response from the Scrum Master&#160;the requestor can insist that the member starts the other work immediately.</p>
 <p>Anything else must be politely&#160;declined and the request must be directed to the Scrum Master for the&#160;process of negotiating the&#160;work and&#160;any official meetings must be through the ScrumMaster.</p>
-<p>For details on promises, see the rule <a href="/Management/RulesToBetterScrumUsingTFS/Pages/ContractBetweenMembersOfScrumTeams.aspx">“Do you understand the implied contract (promises) between Members of the Scrum Team?”</a></p>
+<p>For details on promises, see the rule <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/ContractBetweenMembersOfScrumTeams.aspx">“Do you understand the implied contract (promises) between Members of the Scrum Team?”</a></p>
 
 
 
