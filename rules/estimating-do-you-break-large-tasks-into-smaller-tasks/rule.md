@@ -12,7 +12,8 @@ redirects: []
 ---
 
 
-A task should never have an estimate of more than a day (8 hours). 
+
+  <p>A task should never have an estimate of more than a day (8 hours). </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
