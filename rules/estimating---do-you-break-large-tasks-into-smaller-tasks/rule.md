@@ -8,7 +8,8 @@ authors:
 
 
 
-<span class='intro'> A task should never have an estimate of more than a day (8 hours). 
+<span class='intro'> 
+  <p>A task should never have an estimate of more than a day (8 hours). </p>
  </span>
 
 
