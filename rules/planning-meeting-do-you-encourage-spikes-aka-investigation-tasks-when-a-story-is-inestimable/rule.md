@@ -21,7 +21,8 @@ redirects:
 ---
 
 
-Sometimes it can be unclear to The Scrum Team whether a Story can be completed as required.&#160; 
+
+  <p>Sometimes it can be unclear to The Scrum Team whether a Story can be completed as required.&#160; </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
