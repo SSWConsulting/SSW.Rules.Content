@@ -22,7 +22,7 @@ redirects: []
 The better approach is&#58;<br>
 &#160;&#160;&#160;&#160;- If task/bug came from a client, when it is completed, send&#160;the 'Done'&#160;email to Product Owner.<br>
 &#160;&#160;&#160;&#160;-&#160;If the task/bug is your breakdown of a user story (that the developer did to break down a big user story), then only send the ‘Done’ once the entire user story is complete.<br>
-<strong>Note</strong>&#58; Send the ‘Done’ email to the <a href="/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx" target="_blank">Owner of that User Story</a>.</p>
+<strong>Note</strong>&#58; Send the ‘Done’ email to the <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx" target="_blank">Owner of that User Story</a>.</p>
 <h2>Done tips&#58;</h2>
 <p>- Include the Task #, Summary and link to the item in TWA. <br>
 -&#160;Remember that all your tasks should be under 4 hours<br>
@@ -38,13 +38,13 @@ The better approach is&#58;<br>
 <p>Make sure that <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx" target="_blank"><font color="#000080">every User Story has an Owner</font></a> as per the rules.</p>
 <h2>If you are the owner of a story&#58;</h2>
 <p>When the last task/bug of a user story is complete, you then send a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspx#ReplyAndDelete" target="_blank"><font color="#000080">comprehensive done email</font></a> as per the rules when the story had been completed. Make sure you add a list of all of the Tasks that were completed as part of the story and the Done criteria that you completed.</p>
-<p>Here is the&#160;<a href="/Management/RulesToSuccessfulProjects/Pages/DoYouKnowTheMinimalDefinitionOfDone.aspx" target="_blank">Done Criteria </a>we followed&#58;</p>
+<p>Here is the&#160;<a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/DoYouKnowTheMinimalDefinitionOfDone.aspx" target="_blank">Done Criteria </a>we followed&#58;</p>
 <p>&#160;&#160;&#160; a. Compiled/Built&#160;locally&#160;&#160;&#160;&#160;<br>
 &#160;&#160;&#160; b. {gtHTMLChar}30%&#160;Code Coverage <br>
 &#160;&#160;&#160; c. All unit tests passed </p>
 <p>Then add an illustration to show this.</p>
-<img style="border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;width&#58;600px;display&#58;inline;height&#58;492px;border-top&#58;0px;border-right&#58;0px;" title="image" border="0" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/ProveDoneCriteria.png" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example -&#160;&#160;This is proof you have met your '<a href="/Management/RulesToSuccessfulProjects/Pages/DoYouKnowTheMinimalDefinitionOfDone.aspx" target="_blank">Done criteria</a>'. </font>
+<img title="image" style="border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;width&#58;600px;display&#58;inline;height&#58;492px;border-top&#58;0px;border-right&#58;0px;" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/ProveDoneCriteria.png" border="0" /><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example -&#160;&#160;This is proof you have met your '<a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/DoYouKnowTheMinimalDefinitionOfDone.aspx" target="_blank">Done criteria</a>'. </font>
 <p>This is all designed to help you Scrum Team members (Product Owner, ScrumMaster and Team)&#160;keep a certain quality bar on completion of each chunk of work. Remember that you are not 'DONE' until your team says you are done.</p>
 
 
