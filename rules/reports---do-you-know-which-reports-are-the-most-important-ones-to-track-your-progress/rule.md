@@ -17,7 +17,9 @@ related: []
 ---
 
 
-In Scrum there is only one report that the team needs to track their progress. 
+
+  <p>In Scrum there is only one report that the team needs to track their progress. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
