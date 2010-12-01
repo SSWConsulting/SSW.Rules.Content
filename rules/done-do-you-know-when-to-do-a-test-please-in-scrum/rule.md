@@ -14,17 +14,19 @@ redirects: []
 ---
 
 
-Something you must do it to conduct an internal&#160;”<a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx"><font color="#000080">Test Please</font></a>” prior to releasing anything to a client. This should be conducted by someone outside the Scrum Team and as it is a blocking process must be started within an hour and take no longer than 3 hours to complete. 
+
+  <p>Something you must do it to conduct an internal&#160;”<a shape="rect" href="/do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client"><font color="#000080">Test Please</font></a>” prior to releasing anything to a client. This should be conducted by someone outside the Scrum Team and as it is a blocking process must be started within an hour and take no longer than 3 hours to complete. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
     <strong>Rules to Successful Projects</strong> </p>
 <ol>
-    <li><a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx"><font color="#000080">Do you conduct an internal &quot;test please&quot; prior to releasing a version to a client?</font></a> </li>
-    <li><a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/TestPleaseFourSteps.aspx"><font color="#000080">Do you know the 4 steps to do a &quot;Test Please&quot;?</font></a> </li>
+    <li><a shape="rect" href="/do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client"><font color="#000080">Do you conduct an internal &quot;test please&quot; prior to releasing a version to a client?</font></a> </li>
+    <li><a shape="rect" href="/do-you-know-the-tools-you-need-before-a-＂test-please＂"><font color="#000080">Do you know the 4 steps to do a &quot;Test Please&quot;?</font></a> </li>
 </ol>
-<p class="ms-rteCustom-GreyBox">In Scrum you should conduct a separate “<a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx"><font color="#000080">Test Please”</font></a>&#160;for each of the stories. You might be using the same package, but all the bugs and issues found must be rolled up to the <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx"><font color="#000080">Story Owner</font></a> as they will need to decide on what needs to be done to deliver their Story.</p>
+<p class="ms-rteCustom-GreyBox">In Scrum you should conduct a separate “<a shape="rect" href="/do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client"><font color="#000080">Test Please”</font></a>&#160;for each of the stories. You might be using the same package, but all the bugs and issues found must be rolled up to the <a shape="rect" href="/Pages/OwnerForEveryUserStory.aspx"><font color="#000080">Story Owner</font></a> as they will need to decide on what needs to be done to deliver their Story.</p>
 
 
 
