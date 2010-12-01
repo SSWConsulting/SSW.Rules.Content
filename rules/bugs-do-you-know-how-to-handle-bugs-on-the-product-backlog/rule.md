@@ -18,7 +18,9 @@ redirects: []
 ---
 
 
-Story Points cannot be allocated against bugs in MSF Agile 5.0 so to include them in a Sprint we need to group them. 
+
+  <p>Story Points cannot be allocated against bugs in MSF Agile 5.0 so to include them in a Sprint we need to group them. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
