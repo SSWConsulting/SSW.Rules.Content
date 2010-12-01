@@ -15,7 +15,9 @@ authors:
 
 
 
-<span class='intro'> Story Points cannot be allocated against bugs in MSF Agile 5.0 so to include them in a Sprint we need to group them. 
+<span class='intro'> 
+  <p>Story Points cannot be allocated against bugs in MSF Agile 5.0 so to include them in a Sprint we need to group them. 
+</p>
  </span>
 
 
