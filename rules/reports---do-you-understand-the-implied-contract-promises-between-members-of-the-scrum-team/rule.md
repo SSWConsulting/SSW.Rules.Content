@@ -11,7 +11,9 @@ related: []
 ---
 
 
-Member of the Scrum Team should understand their&#160;responsibilities and respect the implicit contract (promises) they have made. 
+
+  <p>Member of the Scrum Team should understand their&#160;responsibilities and respect the implicit contract (promises) they have made. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
