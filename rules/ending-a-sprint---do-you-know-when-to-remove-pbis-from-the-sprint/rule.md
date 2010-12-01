@@ -17,13 +17,13 @@ related: []
 ---
 
 
-There are two reasons that a story can be removed from the sprint.
+There are two reasons that a story can be removed from the sprint. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
-    <li>Your team notices that they can’t get everything done, and agree with&#160;the product owner to remove the story.</li>
-    <li>At the Sprint Review meeting the Product Owner rejects the story</li>
+    <li>Your team notices that they can’t get everything done, and agree with&#160;the product owner to remove the story. </li>
+    <li>At the Sprint Review meeting the Product Owner rejects the story </li>
 </ol>
 <p>In both these cases the Story moves back to the backlog and&#160;any unfinished tasks left in the sprint are closed. The PO may decide to prioritise the story high enough to make the next Sprint, but he may not.</p>
 
