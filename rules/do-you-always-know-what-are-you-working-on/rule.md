@@ -9,7 +9,9 @@ authors: []
 
 
 
-<span class='intro'> Team members should always know in what task they are working on and make sure TFS is up-to-date. 
+<span class='intro'> 
+  <p>Team members should always know in what task they are working on and make sure TFS is up-to-date. 
+</p>
  </span>
 
 
