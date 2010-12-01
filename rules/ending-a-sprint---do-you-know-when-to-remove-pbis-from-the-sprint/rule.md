@@ -15,7 +15,9 @@ authors:
 
 
 
-<span class='intro'> There are two reasons that a story can be removed from the sprint. 
+<span class='intro'> 
+  <p>There are two reasons that a story can be removed from the sprint. 
+</p>
  </span>
 
 
