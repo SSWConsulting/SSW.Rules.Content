@@ -10,7 +10,8 @@ authors: []
 
 
 <span class='intro'> 
-  <p>Working together as a team is hard. Especially with the distractions that are around as part of daily office life. You need all three partied to a Scrum Team, the Product Owner, the ScrumMaster and the Team, to work together to achieve&#160;the Sprint Goal. </p>
+  <p>Working together as a team is hard. Especially with the distractions that are around as part of daily office life. You need all three partied to a Scrum Team, the Product Owner, the ScrumMaster and the Team, to work together to achieve&#160;the Sprint Goal. 
+</p>
  </span>
 
 
