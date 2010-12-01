@@ -17,7 +17,9 @@ related: []
 ---
 
 
-There are two reasons that a story can be removed from the sprint. 
+
+  <p>There are two reasons that a story can be removed from the sprint. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
