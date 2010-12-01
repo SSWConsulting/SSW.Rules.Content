@@ -17,12 +17,14 @@ related: []
 ---
 
 
-Having a rejected Sprint is so rare that you should be hard pushed to find any team that has had one. 
+
+  <p>Having a rejected Sprint is so rare that you should be hard pushed to find any team that has had one. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>If you do then this highlights&#160;an underlying communication issue and most likely a lack of participation by the product owner.</p>
-<p>See <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintContract-aka-TheDealBetweenTheProductOwnerAndTeam.aspx"><font color="#000080">Do you have a contract between the Product Owner and the Team?</font></a></p>
+<p>See <a shape="rect" href="/Pages/Do-you-create-a-Sprint-Forecast-email.aspx"><font color="#000080">Do you have a contract between the Product Owner and the Team?</font></a></p>
 <p>If however you do get a failed sprint and the Product Owner is not willing to accept the code that has been written then you need to rollback your source code and put all the Stories back onto the backlog.</p>
 
 
