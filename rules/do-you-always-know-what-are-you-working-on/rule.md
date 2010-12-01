@@ -12,7 +12,9 @@ redirects: []
 ---
 
 
-Team members should always know in what task they are working on and make sure TFS is up-to-date. 
+
+  <p>Team members should always know in what task they are working on and make sure TFS is up-to-date. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
