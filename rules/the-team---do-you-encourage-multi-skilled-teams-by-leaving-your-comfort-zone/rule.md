@@ -11,7 +11,7 @@ related: []
 ---
 
 
-When selecting their tasks, team members should be looking to extend their skills. Scrum encourages multi-skilled workers, rather than having testers, back-end developers, designers etc. In other words, all team members should be able to help completing any task.
+When selecting their tasks, team members should be looking to extend their skills. Scrum encourages multi-skilled workers, rather than having testers, back-end developers, designers etc. In other words, all team members should be able to help completing any task. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
