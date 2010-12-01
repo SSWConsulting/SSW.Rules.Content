@@ -18,18 +18,18 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
   <table border="1" cellspacing="0" cellpadding="4">
     <tbody>
         <tr>
-            <td bgcolor="#eeeeee" valign="top" width="319">
+            <td width="319" valign="top" bgcolor="#eeeeee">
             <p><strong>Role</strong></p>
             </td>
-            <td bgcolor="#eeeeee" valign="top" width="502">
+            <td width="502" valign="top" bgcolor="#eeeeee">
             <p><strong>Promises </strong></p>
             </td>
         </tr>
         <tr>
-            <td valign="top" width="319">
+            <td width="319" valign="top">
             <p>The Organization</p>
             </td>
-            <td valign="top" width="502">
+            <td width="502" valign="top">
             <ul>
                 <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
                 <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
@@ -41,10 +41,10 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
             </td>
         </tr>
         <tr>
-            <td valign="top" width="319">
+            <td width="319" valign="top">
             <p>Product Owner</p>
             </td>
-            <td valign="top" width="502">
+            <td width="502" valign="top">
             <ul>
                 <li>to supply an initial product backlog </li>
                 <li>to prioritize the product backlog when needed </li>
@@ -57,10 +57,10 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
             </td>
         </tr>
         <tr>
-            <td valign="top" width="319">
+            <td width="319" valign="top">
             <p>ScrumMaster</p>
             </td>
-            <td valign="top" width="502">
+            <td width="502" valign="top">
             <ul>
                 <li>to keep the team healthy by focusing on the removal of impediments, both internal and external </li>
                 <li>to protect the team from external distractions </li>
@@ -68,10 +68,10 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
             </td>
         </tr>
         <tr>
-            <td valign="top" width="319">
+            <td width="319" valign="top">
             <p>The Team</p>
             </td>
-            <td valign="top" width="502">
+            <td width="502" valign="top">
             <ul>
                 <li>that its work will be transparent, that it will make decisions and solve problems as a group, and that no individual team member will be left behind </li>
                 <li>to take prioritization and scope from the product owner on the team driving the team based on stakeholders interests </li>
@@ -83,10 +83,10 @@ Member of the Scrum Team should understand their&#160;responsibilities and respe
             </td>
         </tr>
         <tr>
-            <td valign="top" width="319">
+            <td width="319" valign="top">
             <p>Team Member</p>
             </td>
-            <td valign="top" width="502">
+            <td width="502" valign="top">
             <ul>
                 <li>to bring issues, problems, impediments and realities encountered to the team </li>
                 <li>to be available and working with the team on every defined Scrum Day of a sprint in which they committed and any required absences will be scheduled before the beginning of the sprint </li>
