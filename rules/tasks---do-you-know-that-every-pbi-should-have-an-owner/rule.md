@@ -14,7 +14,8 @@ authors:
 
 
 <span class='intro'> 
-  <p>When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular story during a sprint. </p>
+  <p>When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular story during a sprint. 
+</p>
  </span>
 
 
