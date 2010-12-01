@@ -12,7 +12,9 @@ redirects: []
 ---
 
 
-This is the meeting where the Product Owner accepts or rejects the stories in the Sprint and the Sprint itself.&#160; 
+
+  <p>This is the meeting where the Product Owner accepts or rejects the stories in the Sprint and the Sprint itself.&#160; 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 The Team, having <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/PrepareForMeetings.aspx">prepared</a> for the meeting, presents the stories to the Product Owner.&#160; <br>
@@ -32,8 +34,8 @@ This meeting is normally timeboxed to as many hours as there are weeks in the Sp
 <font class="ms-rteCustom-GreyBox" size="+0">In Scrum, there are totally 4 meetings that you need to know&#58;
 <ul>
     <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">HOW</a>) </li>
-    <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
-    <li>Sprint Review Meeting (this page)</li>
+    <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyScrumUpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
+    <li>Sprint Review Meeting (this page) </li>
     <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx" title="Retrospective Meeting">Sprint Retrospective Meeting</a> </li>
 </ul>
 </font><br>
