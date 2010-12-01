@@ -15,7 +15,9 @@ authors:
 
 
 
-<span class='intro'> In Scrum there is only one report that the team needs to track their progress. 
+<span class='intro'> 
+  <p>In Scrum there is only one report that the team needs to track their progress. 
+</p>
  </span>
 
 
