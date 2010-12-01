@@ -12,7 +12,9 @@ redirects: []
 ---
 
 
-At this meeting The Team decides how to implement the chosen stories for the Sprint. 
+
+  <p>At this meeting The Team decides how to implement the chosen stories for the Sprint. 
+</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 For each story The Team self-organises to decide HOW to implement it.&#160; They create tasks, with sub-tasks where necessary, for everything that needs to be done to implement the story.&#160; Every task and sub-task&#160;should be given an estimate&#160;in hours and the same value placed in the Remaining field.<br>
@@ -27,13 +29,14 @@ Ideally this meeting is timeboxed to as many hours as there will be weeks in the
 <br>
 It is not essential for the Product Owner or the Scrum Master to be present for the whole meeting but they must be available for consultation. The ScrumMaster should formally close the meeting.&#160;<br>
 <br>
-<font class="ms-rteCustom-GreyBox" size="+0">In Scrum, there are totally 4 meetings that you need to know&#58; 
+<font class="ms-rteCustom-GreyBox" size="+0">In Scrum, there are totally 4 meetings that you need to know&#58;
 <ul>
-    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and HOW) </li>
-    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
-    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
-    <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx" title="Retrospective Meeting">Sprint Retrospective Meeting</a> </li>
+    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and HOW) </li>
+    <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyScrumUpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
+    <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
+    <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx" title="Retrospective Meeting">Sprint Retrospective Meeting</a> </li>
 </ul>
 </font>
+
 
 
