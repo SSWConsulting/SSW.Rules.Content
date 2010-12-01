@@ -10,7 +10,8 @@ authors: []
 
 
 <span class='intro'> 
-  <p>You should always breakdown a task, by creating sub-tasks, until you are comfortable with the overall estimate. Alternatively, instead of making an unknown estimate, create a task first to investigate.</p>
+  <p>You should always breakdown a task, by creating sub-tasks, until you are comfortable with the overall estimate. Alternatively, instead of making an unknown estimate, create a task first to investigate.
+</p>
  </span>
 
 
