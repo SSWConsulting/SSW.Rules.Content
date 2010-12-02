@@ -9,9 +9,7 @@ authors: []
 
 
 
-<span class='intro'> 
-  <p>In Scrum, meetings are time boxed. Team members must be well prepared in order to&#160;accomplish the meeting goals in time. 
-</p>
+<span class='intro'> In Scrum, meetings are time boxed. Team members must be well prepared in order to&#160;accomplish the meeting goals in time. 
  </span>
 
 
