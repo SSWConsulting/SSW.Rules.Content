@@ -12,9 +12,7 @@ redirects: []
 ---
 
 
-
-  <p>Disrupting a team member can affect the delivery of the&#160;whole sprint. Product Owners should always avoid giving tasks outside the sprint. It may seem to affect just one member, but it does affect the entire project. 
-</p>
+Disrupting a team member can affect the delivery of the&#160;whole sprint. Product Owners should always avoid giving tasks outside the sprint. It may seem to affect just one member, but it does affect the entire project. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
