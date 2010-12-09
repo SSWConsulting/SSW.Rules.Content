@@ -10,7 +10,7 @@ authors: []
 
 
 <span class='intro'> 
-  <p>Making your presentation over-complicated is a very easy trap to fall into. Many speakers make this mistake in an attempt to appear intelligent and knowledgeable.</p>
+  <p>Making your presentation over-complicated is a very easy trap to fall into. Many speakers make the mistake of giving way too much information.</p>
 <p>In reality, giving a presentation is an entirely different genre from writing a technical report.</p>
  </span>
 
