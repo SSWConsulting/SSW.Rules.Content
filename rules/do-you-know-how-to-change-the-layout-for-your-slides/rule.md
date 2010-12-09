@@ -12,6 +12,7 @@ related: []
 
 
 Different layouts have different purposes. While the default layout is nice; it's not the only option available. But remember to keep all things in moderation. You want the audience to focus on the content, not guessing what layout the next slide will use.
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
