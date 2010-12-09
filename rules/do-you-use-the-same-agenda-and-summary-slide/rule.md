@@ -11,12 +11,12 @@ related: []
 ---
 
 
-
-  <p>A power point presentation is a verbal essay and it follows a structure. Shown at the start of the presentation, the Agenda slide sets expectation. The Summary slide is identical, but the purpose is to summarize the PowerPoint. </p>
+A PowerPoint presentation is a verbal essay and it follows a structure. Shown at the start of the presentation, the Agenda slide sets expectation. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <dl>
+  <p>At the end the Summary slide should be identical, and summarize what you just spoke about.</p>
+<dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/agenda.gif" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Slide for agenda </dd>
 </dl>
