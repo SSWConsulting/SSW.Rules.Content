@@ -9,8 +9,7 @@ authors: []
 
 
 
-<span class='intro'> 
-  <p>Section slides in presentations provide structure. These slides should be consistent so they do not confuse the audience. </p>
+<span class='intro'> Section slides in presentations provide structure. These slides should be consistent so they do not confuse the audience. 
  </span>
 
 
