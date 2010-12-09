@@ -11,8 +11,7 @@ related: []
 ---
 
 
-
-  <p>Section slides in presentations provide structure. These slides should be consistent so they do not confuse the audience. </p>
+Section slides in presentations provide structure. These slides should be consistent so they do not confuse the audience. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
