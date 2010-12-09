@@ -9,8 +9,7 @@ authors: []
 
 
 
-<span class='intro'> 
-  <p>Small images are hard to see. Remember your audience at the back of the room. Especially for screenshots displaying important text, it is more important to utilize all the slide estate for visibility. </p>
+<span class='intro'> Small images are hard to see. Remember your audience sitting at the back of the room. Especially for screenshots displaying important text, use all your real estate. 
  </span>
 
 
