@@ -11,18 +11,18 @@ related: []
 ---
 
 
-
-  <p>By placing a little visual cue on your slide, you can remind yourself to show a demo to the audience. Avoid displaying the word demo; so&#160;you skip it if running short on time&#160;without needlessly distracting the audience. </p>
+By placing a little visual cue on your slide, you can remind yourself to show a demo to the audience. Avoid displaying the word 'demo', because when out of time, presenters skip them and leave the audience felling ripped off. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <dl>
+  <p>The icon allows you to skip it when running short on time, without upsetting the audience.</p>
+<dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/demoBad.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad example - demo because if you run out of time you need to say &quot;Sorry lets skip that demo since I am short of time&quot;. Then the audience feels cheated </dd>
+    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad example - demo text shown. The problem is if you run out of time you need to say &quot;Sorry, let's skip that demo since I am short of time&quot;. Then the audience feels cheated</dd>
 </dl>
 <dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/demo.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; Use an icon to indicate a &quot;demo time&quot; </dd>
+    <dd class="ms-rteCustom-FigureGood">Figure&#58; Use an icon to indicate a &quot;demo time&quot;</dd>
 </dl>
 
 
