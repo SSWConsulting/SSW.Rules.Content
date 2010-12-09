@@ -11,14 +11,14 @@ related: []
 ---
 
 
-
-  <p>You may be a natural born public speaker, but you will not be able 'wing' a presentation. Setting up a presentation takes time and practice. It is important to make sure you understand what steps to undertake beforehand, especially when there is technology involved.</p>
+You may be a natural born public speaker, but you will not be able 'wing' a presentation. Setting up a presentation takes time and practice. You want web pages already open, you want VMs ready and demos good to go.
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <dl>
+  <p>So document the steps to undertake prior to starting and you will present in a snappier fashion and not need to say the lame statement &quot;hope the demo gods are kind to me today&quot;. </p>
+<dl>
     <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/preslide.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use a Pre-setup slide prior to the presentation</dd>
+    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use a Pre-setup slide prior to the presentation and your pace will be snappier</dd>
 </dl>
 
 
