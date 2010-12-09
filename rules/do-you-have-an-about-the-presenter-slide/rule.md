@@ -12,11 +12,11 @@ related: []
 
 
 
-  <p>Always introduce yourself after you have ask the audience who they are&#58;</p>
+  <p>Always introduce yourself *after* you have asked the audience who they are. Don't be shy, tell them&#58;</p>
 <ul>
-    <li>Who are you?</li>
-    <li>What is your service or product?</li>
-    <li>What is making you so special?</li>
+    <li>Who are you? (optional - include something personal)</li>
+    <li>What you do (your service or product)?</li>
+    <li>What makes you qualified to speak on this topic?</li>
 </ul>
 
 <br><excerpt class='endintro'></excerpt><br>
