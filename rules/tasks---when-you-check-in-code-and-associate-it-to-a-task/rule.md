@@ -11,8 +11,7 @@ authors:
 
 
 
-<span class='intro'> 
-  <span style="color&#58;rgb(51, 51, 51);font-family&#58;verdana, arial, helvetica, sans-serif;font-size&#58;12px;line-height&#58;20px;">In Scrum, you work only on tasks in a sprint, and the task must belong to a committed User Story. As such, when you check in code in TFS, you should associated it with the task you are working on rather than the committed User Story.</span>
+<span class='intro'>   <span style="color&#58;rgb(51, 51, 51);font-family&#58;verdana, arial, helvetica, sans-serif;font-size&#58;12px;line-height&#58;20px;">In Scrum, you work only on tasks in a sprint, and the task must belong to a committed User Story. As such, when you check in code in TFS, you should associated it with the task you are working on rather than the committed User Story.</span>
  </span>
 
 The reason behind this is that doing so provides a better way to track change sets in a sprint and give full traceability for work done during the sprint.
