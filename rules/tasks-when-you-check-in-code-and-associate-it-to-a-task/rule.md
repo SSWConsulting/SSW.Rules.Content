@@ -19,7 +19,7 @@ redirects: []
 
 <br><excerpt class='endintro'></excerpt><br>
 The reason behind this is that doing so provides a better way to track change sets in a sprint and give full traceability for work done during the sprint.
-<div><span class="ms-rteCustom-CodeArea">Change set 123 was associated to User Story 'As an end user I want to be able to lookup customers'</span><span class="ms-rteCustom-FigureBad">Bad Example - The change set was associated to a User Story not a Task</span></div>
+<div><span class="ms-rteCustom-GreyBox">Change set 123 was associated to User Story 'As an end user I want to be able to lookup customers'</span><span class="ms-rteCustom-FigureBad">Bad Example - The change set was associated to a User Story not a Task</span></div>
 <div><span class="ms-rteCustom-GreyBox">Change Set 123 was associated to Task 'Create database fields for customer' which is part of User&#160;Story 'As an end user I want to be able to lookup customers'</span><span class="ms-rteCustom-FigureGood">Good Example - The change set was associated to a Task</span></div>
 
 
