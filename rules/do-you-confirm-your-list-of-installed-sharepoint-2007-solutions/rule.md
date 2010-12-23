@@ -13,7 +13,7 @@ related: []
 ---
 
 
-When you move to SharePoint 2010, nothing is to unexpectedly disappear. So prior to the migration, you need to find out which solutions you currently have installed and decide if you will be installing them on the new server.
+When you move to SharePoint 2010, nothing is to unexpectedly disappear. So prior to the migration, you need to find out which solutions you currently have installed and decide if you will be installing them on the new server. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -23,7 +23,7 @@ When you move to SharePoint 2010, nothing is to unexpectedly disappear. So prior
     <li>Cross out any solutions that you will not be migrating </li>
     <li>Get the SharePoint master to sign off on the solution list </li>
 </ol>
-<img alt="" src="/ITAndNetworking/SharePointMigration/PublishingImages/MigrateSolutionsList.png" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Have your SharePoint Master confirm if all these solutions are to be migrated</font>
+<img width="720" height="568" alt="" style="width&#58;728px;height&#58;569px;" src="/ITAndNetworking/SharePointMigration/PublishingImages/MigrateSolutionsList.png" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Have your SharePoint Master confirm if all these solutions are to be migrated</font>
 <p>&#160;</p>
 <font class="ms-rteCustom-SSW-Only" size="+0">
 <h3>Download</h3>
