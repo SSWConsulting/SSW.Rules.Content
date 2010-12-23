@@ -23,7 +23,7 @@ related: []
     <li>Creating web applications </li>
     <li>Migrations </li>
 </ul>
-<p><img alt="" src="http&#58;//sharepoint.ssw.com.au/AboutUs/Employees/PublishingImages/john.jpg" /><br>
+<p><img alt="" src="http&#58;//sharepoint.ssw.com.au/AboutUs/Employees/PublishingImages/john_info.jpg" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Do you have a SharePoint master</font></p>
 
 <br><excerpt class='endintro'></excerpt><br>
