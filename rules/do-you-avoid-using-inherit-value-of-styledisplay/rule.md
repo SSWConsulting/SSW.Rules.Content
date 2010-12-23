@@ -9,9 +9,9 @@ authors: []
 
 
 
-<span class='intro'> The property value “inherit” of style.display is not recognized by IE7 and IE7 compatibility mode. So if you use this value in Javascript, it will causes script error in IE7 and IE7 compatibility like&#58;&#160;<br>
+<span class='intro'> The property value “inherit” of style.display is not recognized by IE7 and IE7 compatibility mode. So if you use this value in Javascript, it will cause script error in IE7 and IE7 compatibility like&#58;&#160;<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Message&#58; Could not get the display property. Invalid argument.&quot; <br>
-So to make your Javascript and CSS style more compatible, avoid using &quot;inherit&quot; value of style.display&#58; 
+So to make your Javascript and CSS style more compatible and avoid using &quot;inherit&quot; value of style.display&#58;
  </span>
 
 
