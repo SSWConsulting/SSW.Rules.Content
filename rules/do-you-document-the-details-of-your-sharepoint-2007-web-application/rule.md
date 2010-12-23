@@ -1,0 +1,169 @@
+---
+type: rule
+archivedreason: 
+title: Do you document the details of your SharePoint 2007 web application
+guid: 58ecd81e-d3ac-4599-989f-7172773d1c0c
+uri: do-you-document-the-details-of-your-sharepoint-2007-web-application
+created: 2010-12-23T03:00:52.0000000Z
+authors:
+- id: 9
+  title: William Yin
+- id: 21
+  title: Matthew Hodgkins
+related: []
+
+---
+
+
+
+  <p>When you move to SharePoint 2010, you will need to know the settings you had on your 2007 server. Therefore document all the settings from the SharePoint 2007 server, that you will need to re-create on the SharePoint 2010 server. </p>
+<p>&#160;</p>
+
+<br><excerpt class='endintro'></excerpt><br>
+
+  <p style="margin&#58;0cm 0cm 0pt;">Fill in the following table. You will use this later when creating the new web application in SharePoint 2010.</p>
+<p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+<table style="border-bottom&#58;medium none;border-left&#58;medium none;border-collapse&#58;collapse;border-top&#58;medium none;border-right&#58;medium none;" border="1" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;background&#58;#d9d9d9;border-top&#58;windowtext 1pt solid;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;"><b>SharePoint 2010 Web Application Option</b></p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;background&#58;#d9d9d9;border-left-color&#58;#f0f0f0;border-top&#58;windowtext 1pt solid;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;"><b>Where To Find This In SharePoint 2007</b></p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;background&#58;#d9d9d9;border-left-color&#58;#f0f0f0;border-top&#58;windowtext 1pt solid;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;"><b>Answer</b></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Authentication Provider</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Use <b>classic</b> unless you know you need <b>claims based authentication <br>
+            </b>Note&#58; this is a new feature in SharePoint 2010. </p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">New IIS Web Site Name</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Application Management | Web application list | <b>Name Field</b></p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Port</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Application Management | Web application list | <b>URL Field</b>. <br>
+            Port number will be listed on end of URL (if nothing its port 80)</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Host Header</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Application Management | Web application list | <b>URL Field</b> if a DNS name is used (not just the NetBIOS name). <br>
+            If a DNS name is <b>NOT</b> used, leave this blank.</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Authentication Provider</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Application Management | Authentication Providers | (Click On the default zone if applicable) | <b>IIS Authentication Settings</b> field.</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Allow Anonymous</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Application Management | Authentication Providers | (Click On the default zone if applicable) | <b>Anonymous Access</b> field.</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Use Secure Sockets Layer</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Check whether the SharePoint site URL like “<b>https</b>&#58;//***”</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Public URL</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Automatically updated from Host Header</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Application pool name</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Leave defaults</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Security account for this application pool</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Leave defaults</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-bottom&#58;windowtext 1pt solid;border-left&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;83.4pt;padding-right&#58;5.4pt;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="111">
+            <p style="margin&#58;0cm 0cm 0pt;">Database Name</p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;240.95pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="321">
+            <p style="margin&#58;0cm 0cm 0pt;">Zz the database name so you know this will be replaced (read <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#zzoldfiles">http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#zzoldfiles</a>) </p>
+            </td>
+            <td style="border-bottom&#58;windowtext 1pt solid;padding-bottom&#58;0cm;background-color&#58;transparent;border-top-color&#58;#f0f0f0;padding-left&#58;5.4pt;width&#58;140pt;padding-right&#58;5.4pt;border-left-color&#58;#f0f0f0;border-right&#58;windowtext 1pt solid;padding-top&#58;0cm;" valign="top" width="187">
+            <p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+<p style="margin&#58;0cm 0cm 0pt;">&#160;</p>
+
+
+
