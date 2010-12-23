@@ -36,10 +36,11 @@ See more&#58;&#160;<br>
 <p style="margin&#58;0cm 0cm 0pt;"><span style="color&#58;black;"><a shape="rect" href="https&#58;//www.nothingbutsharepoint.com/sites/devwiki/articles/Pages/Managed-Metadata-Columns-in-Office-2007.aspx" target="_blank"><font color="#0000ff" face="Calibri">https&#58;//www.nothingbutsharepoint.com/sites/devwiki/articles/Pages/Managed-Metadata-Columns-in-Office-2007.aspx</font></a><br>
 <br>
 </span></p>
-Best Solution&#58;<br>
+<p>Best Solution&#58;<br>
+<br>
 Use a 3rd party solution - the best one being OnePlaceMail which provides a UI for managed metadata via the &quot;Save to SharePoint&quot;. Works with all three versions of Office so users get a consistent UI. <br>
 <br>
-<img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/OnePlaceMail.jpg" /><br>
+<img alt="" class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/OnePlaceMail.jpg" /></p>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; The optional save dialog that pops up when saving document to SharePoint - allowing use of Managed Metadata from Office 2003, 2007 and File Explorer</font> 
 
 
