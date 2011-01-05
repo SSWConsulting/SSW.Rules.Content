@@ -37,7 +37,8 @@ The answer to this question can make or break contracts. We think that it's such
     <span><img src="/Management/RulesToSuccessfulProjects/PublishingImages/IncorrectSum.jpg" /><br>
     <span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="display&#58;inline !important;">Figure&#58; An incorrect sum is likely to be a bug</span></strong></span></span></strong></li>
     <li>The application is missing the Monthly Sales report <strong>(this is likely covered because the application is missing functionality specified in the specification)</strong> </li>
-    <li>The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Internet Explorer 9) <strong>(this is likely covered because it substantially inconsistent with the agreed mockup)</strong> </li>
+    <li>The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Internet Explorer 9) <strong>(this is likely covered because it substantially inconsistent with the agreed mockup)<br>
+    </strong></li>
 </ol>
 <strong>Examples of what is *not* a bug covered by the warranty&#58;</strong>
 <ol>
