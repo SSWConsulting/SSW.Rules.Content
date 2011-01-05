@@ -33,7 +33,9 @@ The answer to this question can make or break contracts. We think that it's such
     <li>The application crashes to code&#160;because it doesn't check that a connection is valid before running a stored procedure <strong>(this is likely covered because it crashes to code)<br>
     <span><img src="/Management/RulesToSuccessfulProjects/PublishingImages/YellowScreenofDeath.jpg" /><br>
     <span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="display&#58;inline !important;">Figure&#58; Yellow screen of death</span></strong></span></span></strong></li>
-    <li>A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance <strong>(this is likely&#160;covered because data is inconsistent with the specified business rules)</strong> </li>
+    <li>A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance <strong>(this is likely&#160;covered because data is inconsistent with the specified business rules)<br>
+    <span><img src="/Management/RulesToSuccessfulProjects/PublishingImages/IncorrectSum.jpg" /><br>
+    <span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="display&#58;inline !important;">Figure&#58; An incorrect sum is likely to be a bug</span></strong></span></span></strong></li>
     <li>The application is missing the Monthly Sales report <strong>(this is likely covered because the application is missing functionality specified in the specification)</strong> </li>
     <li>The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Internet Explorer 9) <strong>(this is likely covered because it substantially inconsistent with the agreed mockup)</strong> </li>
 </ol>
