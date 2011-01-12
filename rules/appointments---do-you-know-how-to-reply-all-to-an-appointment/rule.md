@@ -15,18 +15,18 @@ related: []
 ---
 
 
-Once&#160;an appointment&#160;is made, you should track it until it's done. Refer to the example below&#58;
+Some of us have Outlook calendars that are full to the brim. We might use our Calendar to remind us to do certain personal tasks, we might have an appointment telling us that someone else is going on leave, and, of course, we all have meetings with clients or colleagues. Our calendars can get very messy and it's easy to miss something important. This is why you should remind attendees by email of your meeting the day before it is scheduled. Outlook makes this easy.
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <h6>Step 1&#58; Get the appointment</h6>
-<img class="ms-rteCustom-ImageArea" alt="Calendar window" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting1_small.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Calendar page</span>
-<h6>Step 2&#58; Reply to All</h6>
-<img class="ms-rteCustom-ImageArea" alt="Sent to all who participate in the meeting" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting2_small.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Sent to all participators</span>
-<h6>Step 3&#58; Change from RTF to HTML</h6>
-<img class="ms-rteCustom-ImageArea" alt="Changing email format to HTML" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting3_small.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Change format to HTML</span>
-<h6>Step 4&#58; And type [below]</h6>
-<img class="ms-rteCustom-ImageArea" alt="Type the messages" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting4_small.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Types the messages</span>
+  <h6>
+    <img class="ms-rteCustom-ImageArea" alt="Calendar window" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting1_small.jpg" />
+  </h6>
+<h6 class="ms-rteCustom-FigureNormal">Figure&#58;&#160;Open the appointment in your Calendar (You should already have Invited all the required people to attend)</h6>
+<span class="ms-rteCustom-FigureNormal"><img alt="" src="/Communication/RulesToBetterEmail/PublishingImages/Appt-ReplyAllWithMessage.jpg" /><br>
+<br>
+<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Click on &quot;Message to Attendees&quot; and then &quot;Reply to All with Message&quot;</font> <img class="ms-rteCustom-ImageArea" alt="Type the messages" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting4_small.jpg" /> <br>
+<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Send a friendly reminder!</font></span>
 
 
 
