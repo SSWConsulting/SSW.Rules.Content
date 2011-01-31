@@ -17,8 +17,8 @@ authors:
 
 <span class='intro'> 
   <div>
-    <img src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-boring-tweet.png" />
-  </div>
+<img src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-boring-tweet.png" />
+</div>
 <div><span class="ms-rtecustom-figurebad">Bad Example - &quot;Having lunch&quot; is not an interesting tweet</span><span><br>
 </span></div>
 <div><span>Some good examples of things to tweet about&#58;</span></div>
