@@ -17,7 +17,10 @@ related: []
 ---
 
 
-Recently the Twitter website has been updated to enrich the Twitter experience, but you still can’t easily be notified about topics that you are interested in.
+If you are looking to get the most out of your Twitter experience, you will need to use a Twitter client. SSW recommends TweetDeck.&#160;
+
+<br><excerpt class='endintro'></excerpt><br>
+&#160;Recently the Twitter website has been updated to enrich the Twitter experience, but you still can’t easily be notified about topics that you are interested in.
 <div><br>
 </div>
 <div><span><img style="width&#58;600px;height&#58;388px;" alt="Bad Example &#58; Using the Twitter webpage is not the best way to use Twitter." src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-webpage.png" /></span><br>
@@ -32,9 +35,6 @@ The best way to use Twitter is to use the TweetDeck client. This allows alerts y
 </font></span></span></span><span>
 <div>You can download TweetDeck here&#58;&#160;<a shape="rect" href="http&#58;//www.tweetdeck.com/">http&#58;//www.tweetdeck.com/</a></div>
 </span></div>
-
-<br><excerpt class='endintro'></excerpt><br>
-If you are looking to get the most out of your Twitter experience, you will need to use a Twitter client. SSW recommends TweetDeck.&#160; 
 
 
 
