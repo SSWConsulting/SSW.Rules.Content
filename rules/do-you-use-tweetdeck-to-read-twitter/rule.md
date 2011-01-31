@@ -32,7 +32,7 @@ The best way to use Twitter is to use the TweetDeck client. This allows alerts y
 </span></div>
  </span>
 
-If you are looking to get the most out of your Twitter experience, you will need to use a Twitter client. SSW recommends TweetDeck. 
+If you are looking to get the most out of your Twitter experience, you will need to use a Twitter client. SSW recommends TweetDeck.&#160; 
 
 
 
