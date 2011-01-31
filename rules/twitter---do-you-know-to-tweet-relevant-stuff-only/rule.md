@@ -18,10 +18,19 @@ related: []
 
 
 
-  <div>
-<img src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-boring-tweet.png" />
+  <div>Your tweets should be interesting to your target audience. People aren't going to follow you for long if you make off topic and low value tweets.</div>
+<div><br>
 </div>
-<div><span class="ms-rtecustom-figurebad">Bad Example - &quot;Having lunch&quot; is not an interesting tweet</span><span><br>
+<div><br>
+</div>
+
+<br><excerpt class='endintro'></excerpt><br>
+
+  <div>
+<div style="padding-top&#58;3px;padding-right&#58;3px;padding-bottom&#58;3px;padding-left&#58;3px;margin-top&#58;0px;margin-right&#58;0px;margin-bottom&#58;0px;margin-left&#58;0px;text-align&#58;left;word-wrap&#58;break-word;">
+<div><br>
+<img src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-boring-tweet.png" /></div>
+<div><span class="ms-rtecustom-figurebad" style="margin-top&#58;3px;margin-right&#58;10px;margin-bottom&#58;10px;margin-left&#58;0px;display&#58;block;font-weight&#58;bold;font-size&#58;12px;padding-top&#58;0px;padding-right&#58;0px;padding-bottom&#58;3px;padding-left&#58;20px;background-position&#58;0% 50%;">Bad Example - &quot;Having lunch&quot; is not an interesting tweet</span><span><br>
 </span></div>
 <div><span>Some good examples of things to tweet about&#58;</span></div>
 <div>
@@ -39,10 +48,9 @@ related: []
 <div><span><img src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-goodtweet.png" /></span><br>
 </div>
 </div>
-<div><span><span class="ms-rtecustom-figuregood">Good Example - An informative tweet with hash tags which appeals to a targeted audience of IT followers</span></span></div>
-
-<br><excerpt class='endintro'></excerpt><br>
-Your tweets should be interesting to your target audience. People aren't going to follow you for long if you make off topic and low value tweets.
+<div><span><span class="ms-rtecustom-figuregood" style="margin-top&#58;3px;margin-right&#58;10px;margin-bottom&#58;10px;margin-left&#58;0px;display&#58;block;font-weight&#58;bold;font-size&#58;12px;padding-top&#58;0px;padding-right&#58;0px;padding-bottom&#58;3px;padding-left&#58;20px;background-position&#58;0% 50%;">Good Example - An informative tweet with hash tags which appeals to a targeted audience of IT followers</span></span></div>
+</div>
+</div>
 
 
 
