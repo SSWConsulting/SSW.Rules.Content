@@ -27,10 +27,11 @@ Recently the Twitter website has been updated to enrich the Twitter experience, 
 The best way to use Twitter is to use the TweetDeck client. This allows alerts you when your are mentioned or direct messaged, and allows you to keep an eye on certain things you are interested in, like <strong>#hyperv</strong> or <strong>#ssw</strong>.</span></span></div>
 <div><span><span><br>
 </span></span></div>
-<div><span><span><span><img src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-tweetdeck.png" /></span><br>
-</span></span></div>
-<div><span class="ms-rtecustom-figuregood">Good Example &#58; Using TweetDeck gives you a dashboard to follow topics you are interested in</span><span><br>
-You can download TweetDeck here&#58;&#160;</span><a shape="rect" href="http&#58;//www.tweetdeck.com/">http&#58;//www.tweetdeck.com/</a></div>
+<div><span><span><span><img src="/Communication/RulesToBetterSocialNetworking/PublishingImages/twitter-tweetdeck.png" /><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Good Example &#58; Using TweetDeck gives you a dashboard to follow topics you are interested in<br>
+</font></span></span></span><span>
+<div>You can download TweetDeck here&#58;&#160;<a shape="rect" href="http&#58;//www.tweetdeck.com/">http&#58;//www.tweetdeck.com/</a></div>
+</span></div>
 
 <br><excerpt class='endintro'></excerpt><br>
 If you are looking to get the most out of your Twitter experience, you will need to use a Twitter client. SSW recommends TweetDeck. 
