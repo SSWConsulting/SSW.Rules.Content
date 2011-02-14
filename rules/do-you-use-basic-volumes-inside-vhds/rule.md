@@ -20,8 +20,10 @@ A <strong>Dynamic</strong> <strong>disk </strong>might be useful in situations w
 For this reason, never use D<strong>ynamic disks </strong>inside Hyper-V Virtual Machines.<br>
 <br>
 <img alt="Bad Example - DPM cannot backup this Virtual Machine's child state as it has a Dynamic Disk" src="/ITAndNetworking/RulesToBetterHyperV/PublishingImages/basicvolumes-badexample.jpg" /><br>
-<font class="ms-rteCustom-FigureBad" size="+0">Figure&#58;&#160;Bad Example - DPM cannot backup this Virtual Machine's child state as it has a Dynamic Disk</font><img alt="Good example – Using Basic Volumes allows DPM to backup the Virtual Machine’s child state" src="/ITAndNetworking/RulesToBetterHyperV/PublishingImages/basicvolumes-goodexample.jpg" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Good example – Using Basic Volumes allows DPM to backup the Virtual Machine’s child state</font>
+<font class="ms-rteCustom-FigureBad" size="+0">Figure&#58;&#160;Bad Example - DPM cannot backup this Virtual Machine's child state as it has a Dynamic Disk<br>
+</font><br>
+<img alt="Good example – Using Basic Volumes allows DPM to backup the Virtual Machine’s child state" src="/ITAndNetworking/RulesToBetterHyperV/PublishingImages/basicvolumes-goodexample.jpg" /><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Good example – Using Basic Volumes allows DPM to backup the Virtual Machine’s child state</font> 
 
 <br><excerpt class='endintro'></excerpt><br>
 
