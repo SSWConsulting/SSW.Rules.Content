@@ -31,11 +31,11 @@ The answer to this question can make or break contracts. We think that it's such
 <strong>Examples of what *could* constistute a bug covered by the warranty&#58;</strong>
 <ol>
     <li>The application crashes to code&#160;because it doesn't check that a connection is valid before running a stored procedure <strong>(this is likely covered because it crashes to code)<br>
-    <span><img src="/Management/RulesToSuccessfulProjects/PublishingImages/YellowScreenofDeath.jpg" /><br>
-    <span style="font-weight&#58;normal;"><strong><span style="" class="ms-rtecustom-figurenormal">Figure&#58; Yellow screen of death</span></strong></span></span></strong></li>
+    <span><img height="465" width="585" src="/Management/RulesToSuccessfulProjects/PublishingImages/YellowScreenofDeath.jpg" /><br>
+    <span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="">Figure&#58; Yellow screen of death</span></strong></span></span></strong></li>
     <li>A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance <strong>(this is likely&#160;covered because data is inconsistent with the specified business rules)<br>
     <span><img src="/Management/RulesToSuccessfulProjects/PublishingImages/IncorrectSum.jpg" /><br>
-    <span style="font-weight&#58;normal;"><strong><span style="" class="ms-rtecustom-figurenormal">Figure&#58; An incorrect sum is likely to be a bug</span></strong></span></span></strong></li>
+    <span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="">Figure&#58; An incorrect sum is likely to be a bug</span></strong></span></span></strong></li>
     <li>The application is missing the Monthly Sales report <strong>(this is likely covered because the application is missing functionality specified in the specification)</strong> </li>
     <li>The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Internet Explorer 9) <strong>(this is likely covered because it substantially inconsistent with the agreed mockup)<br>
     </strong></li>
@@ -50,7 +50,7 @@ The answer to this question can make or break contracts. We think that it's such
 <p><strong>Work items in TFS</strong></p>
 <p>At SSW, we use TFS as our source control and project tracking system. Using it allows us to create work items such as user stories, bugs, tasks, test cases etc. We only create bugs in TFS for defects, faults, flaws, or imperfections that fulfill our definition of a bug. For everything else we use other work item types.</p>
 <blockquote>
-<p><strong><span><span style="font-weight&#58;normal;"><strong><span style="" class="ms-rtecustom-figurenormal"><img src="/Management/RulesToSuccessfulProjects/PublishingImages/WorkItemsTFS.jpg" /><br>
+<p><strong><span><span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style=""><img src="/Management/RulesToSuccessfulProjects/PublishingImages/WorkItemsTFS.jpg" /><br>
 Figure&#58; Work items in TFS<br>
 </span></strong></span></span></strong></p>
 </blockquote>
@@ -62,12 +62,12 @@ Any new features or modifications (non-bug items) not in the original release pl
 <p>If you see a bug in any software product, e.g. SSW Code Auditor, it is best to report the issue following the steps outlined the <a href="http&#58;//www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx">SSW Bug or Enhancement Reporting Standard</a>.</p>
 <div class="greyBox">Note&#58; The above is our definition. Others have different definitions that we do <strong>not</strong> subscribe to&#58;
 <ul>
-    <li><a target="_blank" href="http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm">http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm</a>&#160;<img height="11" width="17" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" alt="You are about to leave the SSW site" /> </li>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm" target="_blank">http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm</a>&#160;<img height="11" width="17" alt="You are about to leave the SSW site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> </li>
 </ul>
 </div>
 <div class="greyBox">You can also use the Wiki definition of &quot;Software Bug&quot; as a reference to understand this concept&#58;
 <ul>
-    <li><a href="http&#58;//en.wikipedia.org/wiki/Software_bug">Wikipedia Definition of Software Bug</a>&#160;<img height="11" width="17" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" alt="You are about to leave the SSW site" /> </li>
+    <li><a href="http&#58;//en.wikipedia.org/wiki/Software_bug">Wikipedia Definition of Software Bug</a>&#160;<img height="11" width="17" alt="You are about to leave the SSW site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> </li>
 </ul>
 </div>
 
