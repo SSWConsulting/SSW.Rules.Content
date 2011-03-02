@@ -18,16 +18,17 @@ If you need to do something more than once, then there should be a standard for 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>Say we are creating a windows forms application. We can expect to&#58;</p>
+  <img style="float&#58;right;margin-left&#58;10px;" src="/Management/RulesToSuccessfulProjects/PublishingImages/consitency.png" />
+<p>Say we are creating a windows forms application. We can expect to&#58;</p>
 <ul>
     <li><b>Improve productivity - because there are less decisions to make, and you build on existing work.</b> <br>
-    For example, we don't need to discuss the pros and cons of MDI versus SDI because there is <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI">already a standard.</a> </li>
+    For example, we don't need to discuss the pros and cons of MDI versus SDI because there is <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI">already a standard.</a> </li>
     <li><b>Improve quality - because you are following best practices.</b><br>
-    For example, which logging library is better out of <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement">Microsoft Application Block</a> or <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net">Log4NET</a>. </li>
+    For example, which logging library is better out of <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement">Microsoft Application Block</a> or <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net">Log4NET</a>. </li>
     <li><b>Improve communications - because people know what to expect.</b> <br>
-    For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent on whether we call it a bug or a feature because we <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#BugDefinition">define what's a bug.</a> </li>
+    For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent on whether we call it a bug or a feature because we <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulProjects.aspx#BugDefinition">define what's a bug.</a> </li>
     <li><b>Get straight to the meat of the customer's problem.</b><br>
-    For example, our developers don't need to decide whether to implement baseforms or user controls. They already know because it's covered in <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls">Rules to Better Windows Forms Applications.</a> </li>
+    For example, our developers don't need to decide whether to implement baseforms or user controls. They already know because it's covered in <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls">Rules to Better Windows Forms Applications.</a> </li>
 </ul>
 <p>At SSW we create standards for all manner of processes&#58; from coding practices to project proposals and how to lock the office up at night. From the developer's perspective, consistency means that we understand each other's code, and if we don't know something, a standard will often save us asking someone. No more Chinese whispers, and less time wasted. From the customer's perspective, consistency leads to a reliable and repeatable experience. </p>
 <p>The following story illustrates these values&#58;</p>
