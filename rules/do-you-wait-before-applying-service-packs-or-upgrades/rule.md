@@ -26,11 +26,11 @@ After a new Service Pack is released for a product (for example, Exchange 2010 S
 <br><excerpt class='endintro'></excerpt><br>
 
   <div>
-    <br>
+<br>
 </div>
 <div>
 <div>
-<div><span><img src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/holdyourhorses.jpg" /></span><br>
+<div><span><img src="/PublishingImages/holdyourhorses.jpg" /></span><br>
 </div>
 <div><span class="ms-rtecustom-figurenormal" style="margin-top&#58;3px;margin-right&#58;10px;margin-bottom&#58;10px;margin-left&#58;0px;display&#58;block;font-weight&#58;bold;font-size&#58;12px;padding-top&#58;0px;padding-right&#58;0px;padding-bottom&#58;3px;padding-left&#58;0px;">Figure 1 - Even though managers and users might be pressing you to install a Service Pack - tell them to hold their horses!</span></div>
 <div>
