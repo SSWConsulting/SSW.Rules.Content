@@ -21,12 +21,15 @@ related: []
     <li>You are ready to start </li>
     <li>Send out an email notifying all users that TFS2008 will be turned off.&#160;<br>
     Follow <span><a shape="rect" href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#rebootrestart" target="_blank">Rules to better Networks</a></span> </li>
-    <li>Turn off the TFS Services so no one can check in files
+    <li>Make sure no-one can check in files by either&#58;
     <ol>
-        <li>Remote desktop into TFS 2008 </li>
-        <li>Start IIS </li>
-        <li>Right click Team Foundation Server | Stop <br>
-        <span><img style="width&#58;500px;height&#58;412px;" src="/TFS/RulesToBetterTFS2010Migration/PublishingImages/StopTFSServices.png" /></span><br>
+        <li>Runinng <a href="http&#58;//support.microsoft.com/kb/950893" target="_blank">TFSQuiesce</a> (recommended) <br>
+        or </li>
+        <li>Turning off TFS Service<br>
+        a. Remote desktop into TFS 2008<br>
+        b. Start IIS<br>
+        c. Right click Team Foundation Server | Stop <br>
+        <span><img alt="" style="width&#58;500px;height&#58;412px;" src="/TFS/RulesToBetterTFS2010Migration/PublishingImages/StopTFSServices.png" /></span><br>
         <span style="font-size&#58;12px;font-weight&#58;bold;">Figure&#58;&#160;You need to stop anyone checking in files</span>&#160; </li>
     </ol>
     </li>
