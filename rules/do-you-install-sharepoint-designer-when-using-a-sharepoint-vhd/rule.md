@@ -16,7 +16,10 @@ related: []
 
   <p>SharePoint designer is a handy program to be able to show off when presenting SharePoint. Make sure you install the version of SharePoint designer which matches the version of SharePoint you are presenting. </p>
 <p><font class="ms-rteCustom-FigureBad">Bad Example&#58; Installing SharePoint Designer 2007 on a SharePoint 2010 VHD.</font></p>
-<p><font class="ms-rteCustom-FigureGood" size="+0">Good Example&#58; Installing SharePoint Designer 2010 on a SharePoint 2010 VHD.</font></p>
+<p><font class="ms-rteCustom-FigureGood" size="+0">Good Example&#58; Installing SharePoint Designer 2010 on a SharePoint 2010 VHD.</font><br>
+<font class="ms-rteCustom-FigureBad" size="+0">Bad</font><br>
+<br>
+<font class="ms-rteCustom-FigureGood" size="+0">Good</font></p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
