@@ -15,7 +15,7 @@ related: []
 ---
 
 
-When using your presentation computer you may want to still be able to send emails but not want to download your entire Exchange mailbox to your Boot2VHD image. This is&#160;especially relevant for people with large mailboxes.
+When using your presentation computer you may want to still be able to send emails but not want to download your entire Exchange mailbox to your Boot2VHD image. This is&#160;especially relevant for people with large mailboxes. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -36,9 +36,14 @@ When using your presentation computer you may want to still be able to send emai
     Tick the <strong>Sent Items </strong>folder, and select <strong>Download headers only</strong><br>
     <br>
     <img alt="" src="/ITAndNetworking/RulesToBetterPresentationPCs/PublishingImages/fig5-sendreciveall.png" /><br>
-    <font class="ms-rteCustom-FigureNormal" size="+0">Figure - Untick &quot;Receive mail items&quot; | Tick &quot;Sent Items&quot;, &quot;Contacts&quot; and &quot;Outbox&quot; | Download only headers for &quot;Sent Items&quot;</font>&#160;</li>
+    <font class="ms-rteCustom-FigureNormal" size="+0">Figure - Untick &quot;Receive mail items&quot; | Tick &quot;Sent Items&quot;, &quot;Contacts&quot; and &quot;Outbox&quot; | Download only headers for &quot;Sent Items&quot;</font>&#160; </li>
     <li>When back in the main Outlook window click <strong>Send / Receive All</strong> <strong>Folders </strong>and this will sync your sent items and contacts which will now be available offline </li>
 </ol>
+<p><strong>Suggestion to the Microsoft Outlook Team&#58;</strong></p>
+<ul>
+    <li>Give us a “Sync last x weeks” for each folder</li>
+    <li>Give us a ‘Work in Minimal Mode’ – that does the above</li>
+</ul>
 
 
 
