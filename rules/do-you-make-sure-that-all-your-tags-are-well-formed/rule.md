@@ -26,32 +26,23 @@ We need to make sure that all HTML/XML tags which open once, must be closed prop
 <br>
 </font><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example</span>
 <div><br>
-
-
 <font class="ms-rteCustom-GreyBox">
 {ltHTMLChar}breakfast_menu{gtHTMLChar}
 <br>
-
 {ltHTMLChar}food{gtHTMLChar}
 <br>
-
 {ltHTMLChar}name{gtHTMLChar}Homestyle Breakfast{ltHTMLChar}/name{gtHTMLChar}
 <br>
-
 {ltHTMLChar}price{gtHTMLChar}$6.95{ltHTMLChar}/price{gtHTMLChar}
 <br>
-
 {ltHTMLChar}description{gtHTMLChar}two eggs{ltHTMLChar}/description{gtHTMLChar}
 <br>
 {ltHTMLChar}calories{gtHTMLChar}950{ltHTMLChar}/calories{gtHTMLChar}
 <br>
-{ltHTMLChar}/food{gtHTMLChar}
+{ltHTMLChar}/food{gtHTMLChar}<br>
 {ltHTMLChar}/breakfast_menu{gtHTMLChar}
 </font><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example</span>
 <br>
-
-
-
 <font class="ms-rteCustom-GreyBox">
 {ltHTMLChar}div{gtHTMLChar}   <br>
 {ltHTMLChar}p{gtHTMLChar}Hello&#160;HTML&#160;&#160;<br>
@@ -59,28 +50,24 @@ We need to make sure that all HTML/XML tags which open once, must be closed prop
 <br>
 </font>
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span><br>
-
-
 <font class="ms-rteCustom-GreyBox">
 {ltHTMLChar}breakfast_menu{gtHTMLChar}
 <br>
-
 {ltHTMLChar}food{gtHTMLChar}
 <br>
-
 {ltHTMLChar}name{gtHTMLChar}Homestyle Breakfast
 <br>
-
 {ltHTMLChar}price{gtHTMLChar}$6.95
 <br>
-
 {ltHTMLChar}description{gtHTMLChar}two eggs
 <br>
 {ltHTMLChar}calories{gtHTMLChar}950
 <br>
-{ltHTMLChar}/food{gtHTMLChar}
+{ltHTMLChar}/food{gtHTMLChar}<br>
 {ltHTMLChar}/breakfast_menu{gtHTMLChar}
 </font><span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span>
-<br></div>
+<br>
+</div>
+
 
 
