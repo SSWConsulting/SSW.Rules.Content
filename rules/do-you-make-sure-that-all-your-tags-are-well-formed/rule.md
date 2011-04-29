@@ -22,7 +22,7 @@ We need to make sure that all HTML/XML tags which open once, must be closed prop
 <font class="ms-rteCustom-GreyBox">
 {ltHTMLChar}div{gtHTMLChar}   <br>
 {ltHTMLChar}p{gtHTMLChar}Hello HTML{ltHTMLChar}/p{gtHTMLChar}   <br>
-{ltHTMLChar}div{gtHTMLChar}
+{ltHTMLChar}/div{gtHTMLChar}
 <br>
 </font><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example</span>
 <div><br>
