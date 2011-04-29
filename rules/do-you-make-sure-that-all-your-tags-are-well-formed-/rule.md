@@ -19,7 +19,7 @@ We need to make sure that all HTML/XML tags which open once, must be closed prop
 <font class="ms-rteCustom-GreyBox">
 &lt;div&gt;   <br>
 &lt;p&gt;Hello HTML&lt;/p&gt;   <br>
-&lt;div&gt;
+&lt;/div&gt;
 <br>
 </font><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example</span>
 <div><br>
