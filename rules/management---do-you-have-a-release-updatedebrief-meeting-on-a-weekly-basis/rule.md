@@ -25,36 +25,28 @@ Tip #2&#58; While it is better to conduct an internal &quot;Test Please&quot; be
     <li>Triage these additional work items - try to move all to the next release </li>
     <li>Approval for additional work items/budget overruns&#160;- talk $$ <br>
     eg. look at the &quot;Actual&quot; and &quot;Estimate&quot; figures on the top of the report </li>
-    <li>Release sign-off - &quot;Yes&quot; or &quot;No&quot;?</li>
+    <li>Release sign-off - &quot;Yes&quot; or &quot;No&quot;? </li>
 </ol>
 <p>If &quot;Yes&quot;</p>
 <ol>
     <li>Ask the client for a mark /10 for the release </li>
     <li>Ask the client if you can do a deployment to Production? </li>
-    <li>Ask for Approval for next release &#160;</li>
+    <li>Ask for Approval for next release &#160; </li>
 </ol>
-<p>There are two kinds of tools to help you do this</p>
+<p>There are tools to help you do this&#58;</p>
 <ul>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/EXtremeEmails/ManageProjects.aspx#ReleaseDebrief">SSW eXtreme Emails -&#160;Release Update/Debrief&#160;Report</a> </li>
+    <li><a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate">SSW TFS Add-in - Release Update/Debrief Report</a> </li>
 </ul>
 <dl class="image">
-    <dt><img alt="" style="border&#58;0px solid;" src="/Management/RulesToSuccessfulProjects/PublishingImages/ReleaseDebrief_small.jpg" border="0" /> </dt>
-    <dd>Figure&#58; The actual output of the Release Debrief Report</dd>
-</dl>
-<p>Here is a HTML format <a href="http&#58;//www.ssw.com.au/ssw/extremeemails/reports/releasedebriefreport.htm">SSW Release Debrief Report.</a></p>
-<ul>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate">SSW TFS Add-in - Release Update/Debrief Report</a></li>
-</ul>
-<dl class="image">
-    <dt><img alt="" style="border&#58;0px solid;" src="/Management/RulesToSuccessfulProjects/PublishingImages/ProgressReport_small.jpg" border="0" /> </dt>
-    <dd>Figure&#58; The actual output of the Release Update Report</dd>
+    <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/ProgressReport_small.jpg" /> </dt>
+    <dd>Figure&#58; The actual output of the Release Update Report </dd>
 </dl>
 <p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/SSWReleaseUpdate.pdf">SSW Release Update Report.</a></p>
 <p><strong>If you are at the end of a main section of work, promote your success </strong></p>
 <ul>
     <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsDealingWithClients.aspx#PostClientWork" id="Ask for a testimonial for the work you have done" name="Ask for a testimonial for the work you have done">Ask for&#160;a testimonial for the work you have done</a> </li>
-    <li>Create a case study and get it approved - Info should be a win-win for the client. eg.&#160;&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/WorleyparsonsCaseStudy.aspx">WorleyParsons</a> </li>
-    <li>Add&#160;a link to the work you have done from your website or marketing material. eg. at SSW we do this via the&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/OurClients.aspx">Our Clients</a> page</li>
+    <li>Create a case study and get it approved - This should be a win-win for the client. eg.&#160;&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/WorleyparsonsCaseStudy.aspx">WorleyParsons</a> </li>
+    <li>Add&#160;a link to the work you have done from your website or marketing material. eg. at SSW we do this via the&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/OurClients.aspx">Our Clients</a> page </li>
 </ul>
 
 
