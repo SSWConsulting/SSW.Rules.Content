@@ -19,13 +19,14 @@ redirects: []
 <br>
 The main choices are&#58; </p>
 <ul>
+    <li><a href="http&#58;//www.orchardproject.net/">www.orchardproject.net/</a>&#160;</li>
     <li><a href="http&#58;//www.dotnetnuke.com/" class="external" target="_blank">www.DotNetNuke.com</a> </li>
     <li><a href="http&#58;//www.microsoft.com/office/preview/servers/sharepointserver/highlights.mspx" class="external">Microsoft Sharepoint 2007</a> </li>
-    <li><a class="external" target="_blank">www.CommunityServer.org</a> </li>
+    <li><a href="http&#58;//www.communityserver.org/" class="external" target="_blank">www.CommunityServer.org</a>&#160; </li>
     <li>Microsoft ASP.NET 2.0 hand coded pages </li>
 </ul>
-<p>There are pros and cons to all and it depends on what functionality/customization you need but we lean towards DotNetNuke and Sharepoint for most solutions.<br>
-See <a href="http&#58;//www.ssw.com.au/ssw/Company/DNN-DotNetNuke.aspx">DotNetNuke Development - The leading CMS Solutions</a>. </p>
+<p>There are pros and cons to all and it depends on what functionality/customization you need but we lean towards&#160;Orchard and Sharepoint for most solutions.<br>
+See <a href="http&#58;//www.ssw.com.au/ssw/Company/DNN-DotNetNuke.aspx">The leading CMS Solutions</a>. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
