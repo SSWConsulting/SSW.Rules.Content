@@ -16,32 +16,32 @@ redirects: []
 ---
 
 
-eXtreme Programming and Scrum is a big concept which we try to use here. I don't adhere to every idea, but there are some very practical rules I follow which improves the way we develop on large projects&#58;
+Scrum is a big concept which we try to use here. I don't adhere to every idea, but there are some very practical rules I follow which improves the way we develop on large projects&#58; 
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <table align="right">
     <tbody>
         <tr>
-            <td width="220"><img class="ms-rteCustom-ImageArea" border="0" alt="Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled!" src="/Management/RulesToSuccessfulProjects/PublishingImages/Anthrax.gif" />&#160;<font class="ms-rteCustom-FigureNormal">Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled! </font></td>
+            <td width="220"><img class="ms-rteCustom-ImageArea" border="0" alt="Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled!" src="/PublishingImages/ab9491_Anthrax.gif" />&#160;<font class="ms-rteCustom-FigureNormal">Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled! </font></td>
         </tr>
     </tbody>
 </table>
 <ol>
-    <li>Sprint Contracts/Releases - Never set a deadline more than 3 weeks from the previous deadline. Deliverables become a lot easier to manage and meet when they're small. Read more about&#160;<span><a href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-have-a-Sprint-Contract-aka-The-deal-between-the-Product-Owner-and-Team.aspx">Sprint Contracts</a></span></li>
+    <li>Sprint Contracts/Releases - Never set a deadline more than 3 weeks from the previous deadline. Deliverables become a lot easier to manage and meet when they're small. Read more about&#160;<span><a href="/do-you-create-a-sprint-forecast-(aka-the-functionality-that-will-be-developed-during-the-sprint)">Sprint Contracts</a></span> </li>
     <li>Unit Tests - Write tests before you write code. Unit Tests become a way of life and although they're expensive at the beginning, they pay off during the course of the project. To find out more about Unit Tests see Rules To Better Unit Tests and for unit tests in the GUI of SSW Code Auditor please go to <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterRegularExpressions.aspx#testregex">Rules to Better Code</a>. </li>
-    <li>Metaphors/User Stories - client's description of a task. Aim to take down the main points</li>
+    <li>Metaphors/User Stories - client's description of a task. Aim to take down the main points </li>
     <li>Validation Tests - To find out more about Validation Tests see <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#ValidateSetup">Rules To Better Website Development</a>. </li>
-    <li><span><a href="/Management/RulesToBetterScrumUsingTFS/Pages/set-up-2-key-reports.aspx">The 2 key reports</a></span>
+    <li><span><a href="/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day">The 2 key reports</a></span>
     <ul>
-        <li>Burndown</li>
-        <li>Stories Overview</li>
+        <li>Burndown </li>
+        <li>Stories Overview </li>
     </ul>
     </li>
 </ol>
 <p>Here are the rules we don't agree with&#58;</p>
 <ol>
-    <li>Physical Cards - emails are much better - we use <a href="http&#58;//www.ssw.com.au/ssw/ExtremeEmails/Default.aspx">SSW eXtreme Emails</a>.</li>
+    <li>Physical Cards - emails are much better</li>
     <li>Pair Programming&#58;
     <ul>
         <li>XP says 2 people at one PC - we have two developers on their own PC's sitting next to each other. </li>
