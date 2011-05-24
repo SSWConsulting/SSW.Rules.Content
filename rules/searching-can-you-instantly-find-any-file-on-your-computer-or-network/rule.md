@@ -19,7 +19,7 @@ Often you will want to quickly find a file on your computer or local network. On
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Using either&#160;<font class="ms-rteCustom-External" size="+0"><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Redirect/GoogleSearch.htm" target="_blank">Google Desktop Search</a></font> or <font class="ms-rteCustom-External" size="+0"><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Redirect/MSNSearch.htm" target="_blank">MSN Desktop Search</a></font>&#160;will allow you to instantly search for a name and find all correspondence with that person. Even if there has been no contact for 6 months, you can resume the discussion as if it were yesterday.</p>
-<p>Of course i<font size="2">f you are using Windows Vista, desktop search is integrated within the operating system.</font></p>
+<p>Of course i<font size="2">f you are using Windows 7 or Windows&#160;Vista, desktop search is integrated within the operating system.</font></p>
 <p>Follow our standard on <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperInstallationNetworkSetup/DesktopSearch.aspx">setting up Enterprise Search</a>.</p>
 
 
