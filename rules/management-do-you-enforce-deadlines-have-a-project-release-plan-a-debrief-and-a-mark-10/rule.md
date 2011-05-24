@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-Developers love doing things in their own time, investigating interesting things they find on the web and therefore they're generally easily distracted. If they don't have a project plan constantly in front of them they'll never deliver on time! For every project you must have&#160;4 essential things&#58;
+Developers love doing things in their own time, investigating interesting things they find on the web, and therefore they're generally easily distracted. If they don't have a project plan constantly in front of them they'll never deliver on time! For every project you must have&#160;4 essential things&#58; 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -25,9 +25,9 @@ Developers love doing things in their own time, investigating interesting things
     Note #2&#58; A weekly <a href="http&#58;//www.ssw.com.au/ssw/ExtremeEmails/ManageProjects.aspx#StatusUpdate">status update report</a> (if the release is not yet complete).&#160; </li>
     <li>Have a project release plan -&#160;ideally a&#160;signed copy of the Release Plan in their diary.<br>
     Note&#58; A printed copy of the email with &quot;Approved&quot; is fine. </li>
-    <li>A debrief a when the release is done. </li>
+    <li>A debrief when the release is done. </li>
     <li>A mark /10 - from the client.&#160;&#160;<br>
-    &#160;</li>
+    &#160; </li>
 </ol>
 <p>In respect of the debrief, when thing have gone off the rails, it is easy to speak your mind and say what&#160;you believe went&#160;wrong.&#160;However often when things are going right, the tendency is to skip the debrief thing, with a comment 'all is good'. </p>
 <p>A better idea is to figure out 'why are things are going right?', and work out how you can repeat it. For example, if your client calls and says, </p>
