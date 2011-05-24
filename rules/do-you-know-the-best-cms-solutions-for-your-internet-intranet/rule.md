@@ -19,10 +19,10 @@ redirects: []
 <br>
 The main choices are&#58; </p>
 <ul>
-    <li><a href="http&#58;//www.orchardproject.net/">www.orchardproject.net/</a>&#160;</li>
-    <li><a href="http&#58;//www.dotnetnuke.com/" class="external" target="_blank">www.DotNetNuke.com</a> </li>
-    <li><a href="http&#58;//www.microsoft.com/office/preview/servers/sharepointserver/highlights.mspx" class="external">Microsoft Sharepoint 2007</a> </li>
-    <li><a href="http&#58;//www.communityserver.org/" class="external" target="_blank">www.CommunityServer.org</a>&#160; </li>
+    <li><a href="http&#58;//www.orchardproject.net/" class="ms-rteCustom-External">www.orchardproject.net/</a>&#160; </li>
+    <li><a href="http&#58;//www.dotnetnuke.com/" class="ms-rteCustom-External">www.DotNetNuke.com</a> </li>
+    <li><a href="http&#58;//www.microsoft.com/office/preview/servers/sharepointserver/highlights.mspx" class="ms-rteCustom-External">Microsoft Sharepoint 2007</a> </li>
+    <li><a href="http&#58;//www.communityserver.org/" class="ms-rteCustom-External">www.CommunityServer.org</a>&#160; </li>
     <li>Microsoft ASP.NET 2.0 hand coded pages </li>
 </ul>
 <p>There are pros and cons to all and it depends on what functionality/customization you need but we lean towards&#160;Orchard and Sharepoint for most solutions.<br>
