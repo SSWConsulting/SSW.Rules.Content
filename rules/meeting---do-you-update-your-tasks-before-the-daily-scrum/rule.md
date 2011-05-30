@@ -11,9 +11,9 @@ authors:
 
 
 
-<span class='intro'> 
-  <p>All team members must update their tasks with <b>status</b>, <b>remaining hours</b>, <b>completed hours</b> and <strong>comments</strong> one (1) hour prior to the daily Scrum meeting; in the case where the Scrum meeting is in the morning, this should be done at the end of the previous business day. 
-</p>
+<span class='intro'> All team members must update their tasks with <b>status</b>, <b>remaining hours</b>, <b>completed hours</b> and <strong>comments</strong> prior to the daily Scrum meeting; in the case where the Scrum meeting is in the morning, this should be done at the end of the previous business day. <br>
+<br>
+Update the following screen to keep your burndown rate accurate&#58; 
  </span>
 
 
