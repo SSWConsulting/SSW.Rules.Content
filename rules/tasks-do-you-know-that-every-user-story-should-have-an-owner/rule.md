@@ -17,15 +17,17 @@ redirects:
 ---
 
 
-
-  <p>When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular story during a sprint. 
-</p>
+When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular story during a sprint.&#160;<br>
+<br>
+In order to achieve this entire the Team takes responsibility for “looking after” a story and manages it to completion. <br>
+<br>
+During the sprint one of the team&#160;will be the first person to&#160;answer any Product Owner queries.&#160;&#160;That person is assigned to the&#160;story.<br>
+<br>
+Here is how to attach an owner to a user story&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>In order to achieve this entire the Team takes responsibility for “looking after” a story and manages it to completion. <br>
-<br>
-During the sprint one of the team&#160;will be the first person to&#160;answer any Product Owner queries.&#160;&#160;That person is assigned to the&#160;story&#160;</p>
+  <p>&#160;</p>
 <p><img title="image" style="border-right-width&#58;0px;width&#58;604px;display&#58;inline;border-top-width&#58;0px;border-bottom-width&#58;0px;height&#58;290px;border-left-width&#58;0px;" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/UserStoryOwner_Bad.png" border="0" /> <br>
 <strong class="ms-rteCustom-FigureBad">Figure&#58; Bad example, the product owner is not sure who to speak to.</strong></p>
 <p><img title="image" style="border-right-width&#58;0px;width&#58;604px;display&#58;inline;border-top-width&#58;0px;border-bottom-width&#58;0px;height&#58;313px;border-left-width&#58;0px;" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/UserStoryOwner_Good.png" border="0" /> <br>
