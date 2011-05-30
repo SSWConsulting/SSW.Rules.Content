@@ -19,11 +19,9 @@ redirects:
 
 When you are building complicated software and working with customers it is always nice for them to have some idea on who to speak to about a particular story during a sprint.&#160;<br>
 <br>
-In order to achieve this entire the Team takes responsibility for “looking after” a story and manages it to completion. <br>
+In order to achieve this entire the Team takes responsibility for “looking after” a story and manages it to completion. During the sprint one of the team&#160;will be the first person to&#160;answer any Product Owner queries.&#160;&#160;That person is assigned to the&#160;story.<br>
 <br>
-During the sprint one of the team&#160;will be the first person to&#160;answer any Product Owner queries.&#160;&#160;That person is assigned to the&#160;story.<br>
-<br>
-Here is how to attach an owner to a user story&#58;
+Here is how to attach an owner to a user story&#58; 
 
 <br><excerpt class='endintro'></excerpt><br>
 
