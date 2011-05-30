@@ -14,8 +14,8 @@ authors:
 
 
 <span class='intro'> 
-  <p>Your Product Owner is responsible for updating and managing the Product backlog.</p>
-<p>Do they know how?</p>
+  <p>The Product Owner is responsible for updating and managing the Product backlog.</p>
+<p>There are the options&#58;</p>
  </span>
 
 
