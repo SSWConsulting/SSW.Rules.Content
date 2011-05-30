@@ -12,13 +12,13 @@ redirects: []
 ---
 
 
-In Scrum, meetings are time boxed. Team members must be well prepared in order to&#160;accomplish the meeting goals in time. 
+In Scrum, meetings are time boxed. Team members must be well prepared in order to&#160;accomplish the meeting goals in time.&#160;<br>
+<br>
+<p><strong>Daily Scrum Meetings</strong> - all members of the team must be well prepared by&#58;</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>
-    <strong>Daily Scrum Meetings</strong> - all members of the team must be well prepared by&#58;</p>
-<ul>
+  <ul>
     <li>Being available in time </li>
     <li>Having their hours up-to-date – read <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx">Do you update your tasks before the daily Scrum meeting?</a> </li>
     <li>Knowing what was done since the last meeting </li>
