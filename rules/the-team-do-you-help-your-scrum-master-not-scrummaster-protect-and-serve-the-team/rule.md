@@ -17,8 +17,10 @@ redirects:
 
 
 
-  <p>Part of the ScrumMaster’s role is to protect the team from distractions so they can deliver on their commitment, to ensure agreed process is followed and to help all roles keep their promises.&#160;&#160;</p>
-<p>It is&#160;also important that team members&#160;do not allow themslevs to get distracted&#160;and must work&#160;based on priority. </p>
+  <p>Part of the&#160;Scrum Master's (not ScrumMaster's) role is to protect the team from distractions so they can deliver on their commitment, to ensure agreed process is followed and to help all roles keep their promises.&#160;&#160;</p>
+<p>It is&#160;also important that team members&#160;do not allow themselves to get distracted&#160;and must work&#160;based on priority. <br>
+<br>
+Here is a good saying to remember&#58; &quot;It is very important I make my sprint. Can this wait 1 week until the next sprint?&quot;.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
