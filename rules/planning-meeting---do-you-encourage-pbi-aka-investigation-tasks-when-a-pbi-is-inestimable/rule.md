@@ -15,9 +15,7 @@ authors:
 
 
 
-<span class='intro'> 
-  <p>Sometimes it can be unclear to The Scrum Team whether a Story can be completed as required.&#160; 
-</p>
+<span class='intro'> Sometimes it can be unclear to The Scrum Team whether a Story can be completed as required.&#160; 
  </span>
 
 
