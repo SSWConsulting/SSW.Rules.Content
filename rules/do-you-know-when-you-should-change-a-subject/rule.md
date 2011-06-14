@@ -18,7 +18,7 @@ related: []
 Some email threads go on forever. Sometimes the topics change or different people start chiming in with different points. When the original email subject has been superceded by the content of the current discussion, is too general or just isn't 100% relevant, you should change the email subject to a more relevant discussion.
 <div><br>
 </div>
-<div>You should always realize the importance of a good email subject<span><a href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx" title="Realize the Importance of a Good Email Subject">realize the importance of a good email subject</a></span>.</div>
+<div>You should always realize <span><a title="Realize the Importance of a Good Email Subject" href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">realize the importance of a good email subject</a></span>.</div>
 
 <br><excerpt class='endintro'></excerpt><br>
 
