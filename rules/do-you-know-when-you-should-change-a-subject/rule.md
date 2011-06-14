@@ -1,0 +1,23 @@
+
+
+---
+authors:
+  - id: 1
+    title: Adam Cogan
+  - id: 2
+    title: Cameron Shaw
+---
+
+
+
+
+<span class='intro'> Some email threads go on forever. Sometimes the topics change or different people start chiming in with different points. When the original email subject has been superceded by the content of the current discussion, is too general or just isn't 100% relevant, you should change the email subject to a more relevant description of the content of the thread.<br>
+ </span>
+
+When the problem is a 'too general' subject, sometimes a simple solution
+is to add the client, project or iteration name to the email subject.<br>
+<br>
+Remember, never forget the <span><a title="Realize the Importance of a Good Email Subject" href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">importance of a good email subject</a></span> in improving communications.
+
+
+
