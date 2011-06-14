@@ -15,17 +15,10 @@ related: []
 ---
 
 
-
-  <p>Normal reminder emails should be&#58;<br>
-Subject&#58; &quot;Outstanding Balance with SSW&quot;<br>
-(They should all have the same subject so that people know there is nothing out of the ordinary).<br>
-<br>
-When in dispute <br>
-Subject&#58; &quot;Swift - Issues to be resolved&quot;<br>
-(The Company name is added as a minimum so we can see which client the email related to at a&#160; glance).<br>
-<br>
-When in they have gone over $20K<br>
-Subject&#58; &quot;Swift - Account temporarily on Hold&quot;</p>
+Some email threads go on forever. Sometimes the topics change or different people start chiming in with different points. When the original email subject has been superceded by the content of the current discussion, is too general or just isn't 100% relevant, you should change the email subject to a more relevant discussion.
+<div><br>
+</div>
+<div>You should always realize the importance of a good email subject<span><a href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx" title="Realize the Importance of a Good Email Subject">realize the importance of a good email subject</a></span>.</div>
 
 <br><excerpt class='endintro'></excerpt><br>
 
