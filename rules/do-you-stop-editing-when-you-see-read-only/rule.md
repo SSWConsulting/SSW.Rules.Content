@@ -12,24 +12,22 @@ authors:
 
 
 <span class='intro'> 
-  <p style="margin&#58;0cm 0cm 0pt;">
-    <font face="Calibri">When editing a .doc file in a SharePoint document library, you need to always “check Out” when you see “Read Only”. You need to “Check In” the document after editing to TFS.</font>
-  </p>
+  <p style="margin&#58;0cm 0cm 0pt;">When editing a .doc file in a SharePoint document library, you need to always “check Out” when you see “Read Only”. You need to “Check In” the document after editing to TFS. </p>
 <br>
-<img style="width&#58;709px;height&#58;250px;" alt="Check-Out when you see ReadOnly" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord.jpg" /><br>
-<p style="margin&#58;0cm 0cm 0pt;"><font size="2" face="Calibri">Figure&#58; Warning - If you see “Read-Only” in the title bar, then you need to “Check Out”</font></p>
+<img style="width&#58;650px;height&#58;300px;" alt="Check-Out when you see ReadOnly" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord.jpg" /><br>
+<p style="margin&#58;0cm 0cm 0pt;"><strong><font size="1">Figure&#58; Warning - If you see “Read-Only” in the title bar, then you need to “Check Out”</font></strong></p>
  </span>
 
 
   <br>
-<img style="width&#58;709px;height&#58;250px;" alt="Click Check-Out to edit" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord1.jpg" /><br>
-<p><font face="Calibri"><font size="2">Figure&#58; Click “Check Out” to edit the document in TFS<br>
+<img style="width&#58;650px;height&#58;250px;" alt="Click Check-Out to edit" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord1.jpg" /><br>
+<p><font face="Calibri"><font size="2"><font face="Times New Roman"><strong>Figure&#58; Click “Check Out” to edit the document in TFS</strong></font><br>
 <br>
-<img style="width&#58;709px;height&#58;250px;" alt="Save before closing" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord2.jpg" /><br>
-</font><font face="Calibri"><font size="2">Figure&#58; When you click “yes”, expect a 2<sup>nd</sup> dialog (for SharePoint controlled docs)<br>
+<img style="width&#58;650px;height&#58;300px;" alt="Save before closing" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord2.jpg" /><br>
+</font><font face="Calibri"><font size="2"><font face="Times New Roman"><strong>Figure&#58; When you click “yes”, expect a 2<sup>nd</sup> dialog (for SharePoint controlled docs)</strong></font><br>
 <br>
-<img style="width&#58;709px;height&#58;250px;" alt="Check - in after saving the changes" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord3.jpg" /><br>
-</font><font size="2" face="Calibri">Figure&#58; Good – the dialog you should always get on saving</font></font></font></p>
+<img style="width&#58;650px;height&#58;350px;" alt="Check - in after saving the changes" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/SharepointWord3.jpg" /><br>
+</font></font></font><font size="2" face="Times New Roman"><strong>Figure&#58; Good – the dialog you should always get on saving</strong></font></p>
 
 
 
