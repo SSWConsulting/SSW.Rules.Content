@@ -19,7 +19,7 @@ A common source of pain, is picking up a project without a decent/complete hando
 <br>
 Always ensure that you&#160;complete the following checklist and <em>always </em>send the email confirming the handover is complete.&#160;<br>
 <br>
-Here are the 7 steps you should follow for a good handover. &#160; &#160; 
+Here are the&#160;8 steps you should follow for a good handover. &#160; &#160; 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -34,13 +34,15 @@ Here are the 7 steps you should follow for a good handover. &#160; &#160;
         <li>Source control </li>
         <li>Database </li>
         <li>Documents </li>
-        <li>How to Build and Package </li>
+        <li>How to Build and Package</li>
+        <li>Testing&#160;Steps&#160;and&#160;users and passwords to access&#160;the test and staging servers&#160;&#160;</li>
         <li>Deployment Steps </li>
         <li>Servers and Passwords </li>
         <li>Failure &amp; Recovery Steps </li>
     </ul>
     </li>
-    <li>Complete Handover by sending an email with&#58; As per our meeting the handover has been completed to my satisfaction </li>
+    <li>Test that the users, passwords, urls and server details provided in the handover are correct by logging in with each </li>
+    <li>Complete the Handover by sending an email with&#58; As per our meeting the handover has been completed to my satisfaction </li>
 </ol>
 <font class="ms-rteCustom-GreyBox">
 <p><b>From&#58;&#160;Andy<br>
@@ -131,7 +133,7 @@ Subject&#58;&#160;SSW - Northwind Handover</b> </p>
 </ul>
 </font><strong class="ms-rteCustom-FigureGood">Figure&#58; Good Example - This handover has lots of URLs and is complete</strong><br>
 <p>If you need to handover only a single task there are more details here&#58;<br>
-<a shape="rect" href="/Communication/RulesToBetterEmail/Pages/HandOverTask.aspx">http&#58;//rules.ssw.com.au/Communication/RulesToBetterEmail/Pages/HandOverTask.aspx</a></p>
+<a shape="rect" href="/do-you-know-how-to-hand-over-tasks-(aka-emails)-to-others">http&#58;//rules.ssw.com.au/Communication/RulesToBetterEmail/Pages/HandOverTask.aspx</a></p>
 
 
 
