@@ -19,12 +19,12 @@ redirects:
 ---
 
 
-The Initial Release Plan is a summary of the work required to complete the clients project and provides a ballpark estimate. The Initial Release Plan will contain the following elements&#58; 
+The Initial Release Plan is a summary of the work required to complete the client's project and provides a ballpark estimate. The Initial Release Plan will contain the following elements&#58;
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <dl style="width&#58;249px;float&#58;right;clear&#58;both;" class="image">
-    <dt><img class="ms-rteCustom-ImageArea" border="0" alt="Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early" src="/Management/RulesToBetterProjectManagement/PublishingImages/ProjectManagement_BallPark_Catch.jpg" /> </dt>
+  <dl class="image" style="width&#58;249px;float&#58;right;clear&#58;both;">
+    <dt><img border="0" src="/Management/RulesToBetterProjectManagement/PublishingImages/ProjectManagement_BallPark_Catch.jpg" alt="Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early" class="ms-rteCustom-ImageArea" /> </dt>
     <dd><span class="ms-rteCustom-FigureNormal">Figure&#58; Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early</span></dd>
 </dl>
 <ul>
