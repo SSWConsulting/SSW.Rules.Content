@@ -18,13 +18,13 @@ related: []
 
 
 
-  <p>Story Points cannot be allocated against bugs in MSF Agile 5.0 so to include them in a Sprint we need to group them. 
+  <p>Story Points cannot be allocated against bugs in MSF Agile 5.0 so to include them in a Sprint we need to group them.
 </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate.</p>
-<p>See <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/CreateBugs.aspx"><font color="#000080">Do you know when to create bugs?</font></a> for detailed information on identifying when something is a bug, and when to just fix it.</p>
+<p>See <a href="/Management/RulesToBetterScrumUsingTFS/Pages/CreateBugs.aspx" shape="rect"><font color="#000080">Do you know when to create bugs?</font></a> for detailed information on identifying when something is a bug, and when to just fix it.</p>
 <ol>
     <li>
     <h2>Using MSF Agile 5.0</h2>
@@ -41,7 +41,10 @@ related: []
     <li>
     <h2>Using Visual Studio Scrum 1.0</h2>
     <p>In the Visual Studio Scrum template bugs are just another PBI and you can assign a business priority and an effort estimate in Story Points. Bugs that make the cut for the next sprint can be broken down into tasks and estimated as required.</p>
-    </li>
+<p>As bugs from previous sprints are just PBI’s, the PO agrees to a list of bugs that will be fixed in the current Sprint.</p>
+<p>The team just fixes any <strong>newly</strong> bugs they introduced in the current sprint.</p>
+<p>If the team finds bugs due to functionality accepted in a previous sprint they log it as a PBI and will complete the fix in a future sprint, unless it is a critical bug, in which case they raise it as an impediment to the current sprint to the PO.</p>
+</li>
 </ol>
 <p>Examples&#58;</p>
 <ul>
