@@ -29,7 +29,7 @@ redirects: []
     <ul>
         <li>Waterfall project planning has been proven to not  deliver over 30 years of trying... The Gartner Group says 74% of failed software  projects in the last 2 years</li>
         <li>See the Code of Uncertainty to see the range of cost  change at different stages through a project&#58;
-        <img src="/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/cone-of-uncertainty.jpg" alt="Cone of Uncertainty" class="ms-rteCustom-ImageArea" />
+        <img class="ms-rteCustom-ImageArea" alt="Cone of Uncertainty" src="/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/cone-of-uncertainty.jpg" />
         <span class="ms-rteCustom-FigureNormal">Figure&#58; The cone of uncertainty in software cost and size estimation</span>
         </li>
     </ul>
