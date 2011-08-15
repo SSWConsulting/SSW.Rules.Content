@@ -15,86 +15,29 @@ related: []
 ---
 
 
-
-  <p>
-<strong>Problem&#58;</strong> <br>
-Spam. It wastes time and resources. In most cases, the amount of spam received by an organization far exceeds the amount of legitimate email. </p>
-<p>Eg. Average volume of spam received daily at SSW </p>
-<p>
-<table border="1">
-    <tbody>
-        <tr>
-            <td>Total Email Recieved </td>
-            <td>Spam </td>
-            <td>Legitimate </td>
-            <td>Spam % </td>
-        </tr>
-        <tr>
-            <td>2130 </td>
-            <td>1331 </td>
-            <td>799 </td>
-            <td>62 </td>
-        </tr>
-    </tbody>
-</table>
-</p>
-
+<p><strong>Problem&#58;</strong> <br>Spam. It wastes time and resources. In most cases, the amount of spam received by an organization far exceeds the amount of legitimate email. </p>
+<p>e.g. Average volume of spam received daily at SSW </p>
+<p><table border="1"><tbody><tr><td>Total Email Received </td>
+<td>Spam </td>
+<td>Legitimate </td>
+<td>Spam % </td></tr>
+<tr><td>2130 </td>
+<td>1331 </td>
+<td>799 </td>
+<td>62 </td></tr></tbody></table></p>
 <br><excerpt class='endintro'></excerpt><br>
-
-  <p>
-<strong>Options&#58; <br>
-</strong>
-<br>
-1. Software Spam Filters <br>
-Microsoft Outlook Junk Filter <br>
-GFI MailEssentials <br>
-Red Earth Policy Patrol <br>
-Websense Email Security<br>
-<br>
-2. Hosted Spam Filters <br>
-Google Apps Gmail (Free) <br>
-Google Message Filtering <br>
-Websense Hosted Email Security <br>
-SpamSoap Core Filtering <br>
-Microsoft Exchange Hosted Services </p>
-<p><strong>Solution&#58; <br>
-</strong><br>
-At present, all email is filtered at the local Exchange server by GFI MailEssentials 12. While it removes a large amount of spam, an unacceptable amount still reaches user inboxes. The current architecture is shown here.&#160;<br>
-<br>
-<img class="ms-rteCustom-ImageArea" alt="Previous email architecture." src="/Communication/RulesToBetterEmail/PublishingImages/Spam.gif" /><br>
-<font size="+0" class="ms-rteCustom-FigureNormal">Figure&#58; Previous email architecture.</font><br>
-GMail's basic service is the only free hosted solution, so it is naturally the first one to try. With Gmail as part of the solution the architecture changes to the following. The number of emails caught by each of the filters are averages.&#160;<br>
-<br>
-<img class="ms-rteCustom-ImageArea" alt="Current email architecture with GMail." src="/Communication/RulesToBetterEmail/PublishingImages/SpamWithGoogle.gif" /><br>
-<font size="+0" class="ms-rteCustom-FigureNormal">Figure&#58; Current email architecture with GMail.<br>
-</font><br>
-<strong>Process&#58; <br>
-<br>
-</strong>The following steps need to be taken&#58; </p>
+<p><strong>Options&#58; <br></strong><br>1. Software Spam Filters <br>Microsoft Outlook Junk Filter <br>GFI MailEssentials <br>Red Earth Policy Patrol <br>Websense Email Security<br><br>2. Hosted Spam Filters <br>Google Apps Gmail (Free) <br>Google Message Filtering <br>Websense Hosted Email Security <br>SpamSoap Core Filtering <br>Microsoft Exchange Hosted Services </p>
+<p><strong>Solution&#58; <br></strong><br>At present, all email is filtered at the local Exchange server by GFI MailEssentials 12. While it removes a large amount of spam, an unacceptable amount still reaches user inboxes. The current architecture is shown here.&#160;<br><br><img class="ms-rteCustom-ImageArea" alt="Previous email architecture." src="/Communication/RulesToBetterEmail/PublishingImages/Spam.gif" /><br><font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Previous email architecture.</font><br>GMail's basic service is the only free hosted solution, so it is naturally the first one to try. With Gmail as part of the solution the architecture changes to the following. The number of emails caught by each of the filters are averages.&#160;<br><br><img class="ms-rteCustom-ImageArea" alt="Current email architecture with GMail." src="/Communication/RulesToBetterEmail/PublishingImages/SpamWithGoogle.gif" /><br><font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Current email architecture with GMail.<br></font><br><strong>Process&#58; <br><br></strong>The following steps need to be taken&#58; </p>
 <p>1. Register for a Google Apps Standard Edition account. Go to <a href="http&#58;//mail.google.com/mail/">http&#58;//mail.google.com/mail/</a> and register with your domain name.</p>
 <p>2. Setup a catch-all account in Gmail and enable POP3 access to it. This means that only one account will need to be checked to retrieve filtered mail.</p>
 <p>3. Setup QSS Exchange Connector (<a href="http&#58;//www.quantumsoftware.com.au/">http&#58;//www.quantumsoftware.com.au/</a>) on your local Exchange server. This software bridges Gmail with Exchange. It logs into Gmail via POP3, retrieves the messages and then distributes them to users' individual accounts based on the header recipient fields.</p>
 <p>4. Switch over your MX records to point to Google's servers. This takes around 24 hours to take effect. When the change fully propagates, email will be delivered to GMail and retrieved by Exchange Connector.</p>
 <p>5. Monitor the GMail spam folder for false positives. Move false positives to Inbox. After approximately a week, GMail should have learnt enough to be left unmonitored. Emails can then be retrieved by user request.</p>
-<p><strong>Results&#58;<br>
-</strong><br>
-The following report was generated by GFI MailEssentials 12. Note that the MX records changed over on 12/02/08.&#160;<br>
-<br>
-<img class="ms-rteCustom-ImageArea" alt="GFI spam statistics over the architecture change-over periods." src="/Communication/RulesToBetterEmail/PublishingImages/SpamGFIReportWithFullshot_small.jpg" /><br>
-<font size="+0" class="ms-rteCustom-FigureNormal">Figure&#58; GFI spam statistics over the architecture change-over periods.</font></p>
-<p>It can be seen that after the MX records changed over, there were a couple of days of unusual data. This was due to the MX record change over and filter learning period. <br>
-By the 16th, only 20 emails were marked as spam by MailEssentials. It can also be seen that the percentage of overall spam dropped from as high at 78% to mostly single digit percentages. GMail was now catching the vast majority of spam.</p>
+<p><strong>Results&#58;<br></strong><br>The following report was generated by GFI MailEssentials 12. Note that the MX records changed over on 12/02/08.&#160;<br><br><img class="ms-rteCustom-ImageArea" alt="GFI spam statistics over the architecture change-over periods." src="/Communication/RulesToBetterEmail/PublishingImages/SpamGFIReportWithFullshot_small.jpg" /><br><font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; GFI spam statistics over the architecture change-over periods.</font></p>
+<p>It can be seen that after the MX records changed over, there were a couple of days of unusual data. This was due to the MX record change over and filter learning period. <br>By the 16th, only 20 emails were marked as spam by MailEssentials. It can also be seen that the percentage of overall spam dropped from as high at 78% to mostly single digit percentages. GMail was now catching the vast majority of spam.</p>
 <p>It must be acknowledged that, while these figures do not represent the amount of spam actually reaching mailboxes, they do give a good indication of how effective Gmail's filters are.</p>
-<p>From further investigation, it was found that info[at]ssw.com.au, which receives more spam than any other account, was now receiving around 5 unsolicited messages a week, as opposed to a hundred or more prior to GMail implementation. <br>
-In the first two weeks after implementation GMail caught 23124 spam emails, an average of 1652 per day. <br>
-Apart from the obvious benefits, this also saved 641 MB of bandwidth allowance. <br>
-In the case of info[at]ssw.com.au, a modest calculation of time saved reviewing spam would be 10 hours per year. This estimate is based on an average of 25 emails per day and 4 seconds spent reviewing each one. Actual times will obviously fluctuate, as will the amount of spam other users receive.</p>
+<p>From further investigation, it was found that info[at]ssw.com.au, which receives more spam than any other account, was now receiving around 5 unsolicited messages a week, as opposed to a hundred or more prior to GMail implementation. <br>In the first two weeks after implementation GMail caught 23124 spam emails, an average of 1652 per day. <br>Apart from the obvious benefits, this also saved 641 MB of bandwidth allowance. <br>In the case of info[at]ssw.com.au, a modest calculation of time saved reviewing spam would be 10 hours per year. This estimate is based on an average of 25 emails per day and 4 seconds spent reviewing each one. Actual times will obviously fluctuate, as will the amount of spam other users receive.</p>
 <p><strong>Possible Issues&#58;</strong></p>
-<p>A third-party has access to your email. <br>
-False positives. The GMail filter is very accurate but it is possible legitimate emails will be caught. In the Standard (free) Edition of Google Apps, spam emails are only retained for 30 days before being permanently deleted. With Premier Edition (US$50 for one account for a year) you have 90 days with the inclusion of Postini message management. <br>
-Inbound emails will be limited to 20MB per message. <br>
-In the current stable release (3.5.9) of QSS Exchange Connector, mailing list emails from Yahoo Groups and the like are not correctly delivered to mailboxes when &quot;Automatically detect recipients&quot; is turned on. This has been addressed in beta release 3.6.0.2397 and should make it to a stable release soon. <br>
-Using this method, all spam is delivered to one mailbox. This has the advantage that one person can easily review all spam. The disadvantage is that each user doesn't have easy access to his/her spam messages. If users do not personally their own messages, legitimate email is more likely to be lost. Google Message Filtering would be a solution to this issue.</p>
-
+<p>A third-party has access to your email. <br>False positives. The GMail filter is very accurate but it is possible legitimate emails will be caught. In the Standard (free) Edition of Google Apps, spam emails are only retained for 30 days before being permanently deleted. With Premier Edition (US$50 for one account for a year) you have 90 days with the inclusion of Postini message management. <br>Inbound emails will be limited to 20MB per message. <br>In the current stable release (3.5.9) of QSS Exchange Connector, mailing list emails from Yahoo Groups and the like are not correctly delivered to mailboxes when &quot;Automatically detect recipients&quot; is turned on. This has been addressed in beta release 3.6.0.2397 and should make it to a stable release soon. <br>Using this method, all spam is delivered to one mailbox. This has the advantage that one person can easily review all spam. The disadvantage is that each user doesn't have easy access to his/her spam messages. If users do not personally their own messages, legitimate email is more likely to be lost. Google Message Filtering would be a solution to this issue.</p>
 
 
