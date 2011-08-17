@@ -34,7 +34,7 @@ authors:
 <div style="text-align&#58;left;"><strong></strong>&#160;</div>
 <div style="text-align&#58;left;">
 <div><strong>For interactive charts in a BI (</strong><em><strong>Business Intelligence</strong></em><strong>) solution </strong></div>
-<div>NO. There are some aftermarket solutions available. Notable are Telerik Silverlight Control ,&#160;<a href="http&#58;//www.infragistics.com/dotnet/netadvantage/silverlight/data-visualization.aspx#Overview" target="_blank">Infragistics </a>Silverlight Data Visualization. <a href="http&#58;//www.telerik.com/products/new-silverlight-controls.aspx" target="_blank">Telerik</a> provides BI solution using Advanced GridView, Charts with zooming, scrolling, multi-level resource grouping. Both solutions use shared API across Silverlight and WPF, as a result product user can visualize data in more flexible way. </div>
+<div>NO. There are some aftermarket solutions available. Notable are Telerik Silverlight Control ,&#160;<a href="http&#58;//www.infragistics.com/dotnet/netadvantage/silverlight/data-visualization.aspx" target="_blank">Infragistics </a>Silverlight Data Visualization. <a href="http&#58;//www.telerik.com/products/new-silverlight-controls.aspx" target="_blank">Telerik</a> provides BI solution using Advanced GridView, Charts with zooming, scrolling, multi-level resource grouping. Both solutions use shared API across Silverlight and WPF, as a result product user can visualize data in more flexible way. </div>
 <div>&#160;</div>
 </div>
 <div style="text-align&#58;left;"><strong>For Richer TextBox</strong></div>
