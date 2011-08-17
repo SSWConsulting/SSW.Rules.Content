@@ -19,7 +19,7 @@ related: []
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>Keep the original email so that you can <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspx#ReplyAndDelete" target="_blank"><font color="#000080">reply DONE and delete the email</font></a>.</p>
+  <p>Keep the original email so that you can <a shape="rect" href="/Communication/RulesToBetterEmail/Pages/DoneReplyAndDeleteEmail.aspx" target="_blank"><font color="#000080">reply DONE and delete the email</font></a>.</p>
 <p>But keeping it in your email does not help other members of the team if they complete the task and need to send the “done”.</p>
 <p>Worse yet, the description field in Team Foundation Server 2010 (TFS 2010) does not support HTML and images, nor does the default task template support an “interested parties” or CC field. You can attach this content manually, but it can be time consuming.</p>
 <p><strong>More information&#58;</strong></p>
