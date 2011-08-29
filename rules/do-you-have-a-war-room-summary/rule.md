@@ -23,20 +23,19 @@ redirects:
 <ul>
 <li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/PhysicalTaskboard.aspx">Physical Task Board</a> (to show to current work in progress)</li>
 
-<li><a target="_blank" href="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8StepstoScrum.pdf">The 8 Steps to Scrum</a> (to show how we work)</li>
+<li><a target="_blank" href="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8StepstoScrum.pdf">The 8 Steps to Scrum PDF</a> (to show how we work)</li>
 
 <li>Product Roadmap (to let everyone know the large future priorities)</li>
 
-<li><a href="/Management/RulesToSuccessfulProjects/Pages/DoYouGoBeyondDoneAndFollowADoneCriteria.aspx">Definition of Done - aka Done Criteria or DOD</a> (to quality that is being adheared)</li>
+<li><a href="/Management/RulesToSuccessfulProjects/Pages/DoYouGoBeyondDoneAndFollowADoneCriteria.aspx">Definition of Done - aka Done Criteria or DoD</a> (the quality that is being adheared to)</li>
     
-
 </ul>
 
 <br><excerpt class='endintro'></excerpt><br>
   <img width="500" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/war-room-bad-example.jpg" class="ms-rteCustom-ImageArea" alt="" />
-<font size="-0" class="ms-rteCustom-FigureBad">Bad Example – No information on the walls</font>
+<font size="-0" class="ms-rteCustom-FigureBad">Bad Example – No Product Roadmap is on the wall, so people can be out of sync with the future plans of the Product Owner</font>
 <img width="500" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/war-room-good-example.jpg" class="ms-rteCustom-ImageArea" alt="" />
-<font size="-0" class="ms-rteCustom-FigureGood">Good Example – All the relevant information is visible at a glance</font>
+<font size="-0" class="ms-rteCustom-FigureGood">Good Example – The Product Roadmap is visible at a glance</font>
 
 
 
