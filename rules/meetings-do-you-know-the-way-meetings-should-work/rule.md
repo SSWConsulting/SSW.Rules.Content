@@ -31,13 +31,13 @@ redirects: []
     <li>To improve future meetings, at the end of the meeting, do a quick debrief to see how long the meeting took, if anything was covered that didn't need to be, etc. </li>
 </ul>
 <dl class="badImage">
-    <dt><img alt="Meeting without agenda" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" /> </dt>
+    <dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" alt="Meeting without agenda" /> </dt>
     <dd>Figure&#58; Bad example - meeting with No Agenda </dd>
 </dl>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/MeetingWithAgenda_1.jpg" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - meeting with Agenda </font>
+<img src="/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/MeetingWithAgenda_1.jpg" class="ms-rteCustom-ImageArea" alt="" /><font size="-0" class="ms-rteCustom-FigureGood">Figure&#58; Good example - meeting with Agenda </font>
 <p>Every Outlook appointment must have&#58;</p>
 <ol>
-    <li>A good subject, to let attendees know the purpose of the meeting, see our rule <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspX#ImportanceofaGoodSubject">Do you realize the importance of a good email Subject?</a> </li>
+    <li>A good subject, to let attendees know the purpose of the meeting, see our rule <a href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">Do you realize the importance of a good email Subject?</a> </li>
     <li>A good description of the location, including detailed information like location name and street </li>
     <li>The message itself must contain&#58;
     <ol>
@@ -45,7 +45,7 @@ redirects: []
         <li>The final step in the agenda being &quot;Set a date for the next meeting&quot; </li>
         <li>A note mentioning if the meeting is billable or not </li>
         <li>Your standard footer in message (same footer as in mail messages) </li>
-        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> <img alt="" title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" /> </li>
+        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> <img src="http&#58;//www.ssw.com.au/ssw/images/external.gif" title="You are now leaving SSW" alt="" /> </li>
     </ol>
     </li>
 </ol>
