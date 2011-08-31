@@ -40,9 +40,9 @@ Adam Cogan
     PS&#58; An added advantage is that the document stays alive. If the URL has been updated and a user takes a week to get around to this email, they will view the latest version. </li>
     <li>If you have to attach the document, always use WinZip - it is common courtesy - I'll assume you already know that. </li>
     <li>Never use Rich Text inside Outlook. As a software developer, most large messages I receive are screen captures. By all means use screen captures - pictures do tell a thousand words - but don't include unnecessarily huge images or attachments in your email. Generally the only time you will have serious size problems is if you are using Rich Text instead of HTML inside Outlook. </li>
-    <li>If you are sending screenshots then just send the region of the screen you need. Use a screen capture utility like <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/WindowsTools.aspx#Fullshot">Fullsho</a><span>t</span> so you can use the region tool and get only the relevant part of the image you need. PS&#58; Don't send screenshots as .bmps use .jpgs .gif or .png </li>
+    <li>If you are sending screenshots then just send the region of the screen you need. Use a screen capture utility like <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/WindowsTools.aspx#Snagit">Fullsho</a><span></span><span>t</span> so you can use the region tool and get only the relevant part of the image you need. PS&#58; Don't send screenshots as .bmps use .jpgs .gif or .png </li>
     <li>If you are sending pictures (every year digital cameras are making our photos bigger and bigger) you may need to resize them down. You can either use Photoshop or for something quicker try Office Document Imaging. <br>
-    <img class="ms-rteCustom-ImageArea" alt="Office Document Imaging Resize" src="/Communication/RulesToBetterEmail/PublishingImages/OfficeDocumentImagingResize.gif" /> <img class="ms-rteCustom-ImageArea" alt="Office Document Imaging Export" src="/Communication/RulesToBetterEmail/PublishingImages/OfficeDocumentImagingExport.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Office Document Imaging Resize and Export Options</span> </li>
+    <img src="/Communication/RulesToBetterEmail/PublishingImages/OfficeDocumentImagingResize.gif" alt="Office Document Imaging Resize" class="ms-rteCustom-ImageArea" /> <img src="/Communication/RulesToBetterEmail/PublishingImages/OfficeDocumentImagingExport.gif" alt="Office Document Imaging Export" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Office Document Imaging Resize and Export Options</span> </li>
 </ol>
 <p><strong>When should you break these size rules?</strong> </p>
 <p>Basically you should be practical&#58; </p>
@@ -51,7 +51,7 @@ Adam Cogan
     <li>Paste images into the email - not into a Word document and attach (so it stays with the customers reply) </li>
     <li>When you paste a URL, also paste the section of the web page you are referring to (allows for offline reading) </li>
 </ol>
-<div class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <img class="ms-rteCustom-ImageArea" alt="Contact or Mail Size" src="/Communication/RulesToBetterEmail/PublishingImages/ContactorMailSize.gif" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW LookOut! for Outlook warns you if your mail size is large. </span></div>
+<div class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <img src="/Communication/RulesToBetterEmail/PublishingImages/ContactorMailSize.gif" alt="Contact or Mail Size" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW LookOut! for Outlook warns you if your mail size is large. </span></div>
 
 
 
