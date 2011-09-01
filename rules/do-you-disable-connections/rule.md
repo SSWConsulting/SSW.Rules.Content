@@ -25,11 +25,14 @@ related: []
     <ol>
         <li>Runinng <a href="http&#58;//support.microsoft.com/kb/950893" target="_blank">TFSQuiesce</a> (recommended) <br>
         or </li>
-        <li>Turning off TFS Service<br>
-        a. Remote desktop into TFS 2008<br>
-        b. Start IIS<br>
-        c. Right click Team Foundation Server | Stop <br>
-        <span><img alt="" style="width&#58;500px;height&#58;412px;" src="/TFS/RulesToBetterTFS2010Migration/PublishingImages/StopTFSServices.png" /></span><br>
+
+        <li>Turning off TFS Service
+        <ol>
+<li>Remote desktop into TFS 2008</li>
+<li>Start IIS</li>
+<li>Right click Team Foundation Server | Stop </li>
+</ol>
+        <span><img src="/TFS/RulesToBetterTFS2010Migration/PublishingImages/StopTFSServices.png" alt="" style="width&#58;500px;height&#58;412px;" /></span><br>
         <span style="font-size&#58;12px;font-weight&#58;bold;">Figure&#58;&#160;You need to stop anyone checking in files</span>&#160; </li>
     </ol>
     </li>
