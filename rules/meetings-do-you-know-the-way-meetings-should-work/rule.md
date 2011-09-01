@@ -26,15 +26,15 @@ redirects: []
   <p>To ensure your meetings are productive and successful, you should&#58; </p>
 <ul>
     <li>Create a meeting agenda prior to the meeting. Give each attendee a copy. If the discussion strays from the topic, the agenda will help you keep it on track. </li>
-    <li>Send <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspx#MakeAppointments">an appointment</a> to all meeting attendees to ensure the meeting appears on their calendar. </li>
+    <li>Send <a href="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/Pages/WayMeetingsShouldWork.aspx">an appointment</a> to all meeting attendees to ensure the meeting appears on their calendar. </li>
     <li>If you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving. </li>
     <li>To improve future meetings, at the end of the meeting, do a quick debrief to see how long the meeting took, if anything was covered that didn't need to be, etc. </li>
 </ul>
 <dl class="badImage">
-    <dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" alt="Meeting without agenda" /> </dt>
+    <dt><img alt="Meeting without agenda" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" /> </dt>
     <dd>Figure&#58; Bad example - meeting with No Agenda </dd>
 </dl>
-<img src="/Management/RulesToBeingSoftwareConsultants-DealingWithClients/PublishingImages/MeetingWithAgenda_1.jpg" class="ms-rteCustom-ImageArea" alt="" /><font size="-0" class="ms-rteCustom-FigureGood">Figure&#58; Good example - meeting with Agenda </font>
+<img class="ms-rteCustom-ImageArea" src="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/PublishingImages/MeetingWithAgenda_1.jpg" alt="" /><font size="-0" class="ms-rteCustom-FigureGood">Figure&#58; Good example - meeting with Agenda </font>
 <p>Every Outlook appointment must have&#58;</p>
 <ol>
     <li>A good subject, to let attendees know the purpose of the meeting, see our rule <a href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">Do you realize the importance of a good email Subject?</a> </li>
@@ -45,7 +45,7 @@ redirects: []
         <li>The final step in the agenda being &quot;Set a date for the next meeting&quot; </li>
         <li>A note mentioning if the meeting is billable or not </li>
         <li>Your standard footer in message (same footer as in mail messages) </li>
-        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> <img src="http&#58;//www.ssw.com.au/ssw/images/external.gif" title="You are now leaving SSW" alt="" /> </li>
+        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> </li>
     </ol>
     </li>
 </ol>
