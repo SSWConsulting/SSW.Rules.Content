@@ -34,7 +34,7 @@ The better approach is&#58;<br>
 
   <h2>If you are working on a task&#58;</h2>
 <p>When you complete a Task that is part of a User Story you need to send a done email to the <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx" target="_blank"><font color="#000080">Owner of that Story</font></a>.</p>
-<p>You only need to add the Task #, Summary and link to the item in WIWA. Remember that all your tasks should be <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/BreakLargeTasks.aspx" target="_blank"><font color="#000080">under 4 hours</font></a>, do spending&#160;lots of time on a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspx#ReplyAndDelete" target="_blank"><font color="#000080">Done Email</font></a> for a Task would be counter productive.&#160;Add more information if required, for example you may have completed the task a different way than previously discussed.&#160; </p>
+<p>You only need to add the Task #, Summary and link to the item in WIWA. Remember that all your tasks should be <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/BreakLargeTasks.aspx" target="_blank"><font color="#000080">under 4 hours</font></a>, do spending&#160;lots of time on a <a shape="rect" target="_blank"><font color="#000080">Done Email</font></a> for a Task would be counter productive.&#160;Add more information if required, for example you may have completed the task a different way than previously discussed.&#160; </p>
 <p>Make sure that <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/OwnerForEveryUserStory.aspx" target="_blank"><font color="#000080">every User Story has an Owner</font></a> as per the rules.</p>
 <h2>If you are the owner of a story&#58;</h2>
 <p>When the last task/bug of a user story is complete, you then send a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterEmail.aspx#ReplyAndDelete" target="_blank"><font color="#000080">comprehensive done email</font></a> as per the rules when the story had been completed. Make sure you add a list of all of the Tasks that were completed as part of the story and the Done criteria that you completed.</p>
@@ -43,8 +43,8 @@ The better approach is&#58;<br>
 &#160;&#160;&#160; b. {gtHTMLChar}30%&#160;Code Coverage <br>
 &#160;&#160;&#160; c. All unit tests passed </p>
 <p>Then add an illustration to show this.</p>
-<img title="image" style="border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;width&#58;600px;display&#58;inline;height&#58;492px;border-top&#58;0px;border-right&#58;0px;" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/ProveDoneCriteria.png" border="0" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example -&#160;&#160;This is proof you have met your '<a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/DoYouGoBeyondDoneAndFollowADoneCriteria.aspx" target="_blank">Done criteria</a>'. </font>
+<img border="0" title="image" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/ProveDoneCriteria.png" style="border-width&#58;0px;border-style&#58;none;border-color&#58;-moz-use-text-color;margin&#58;0px 20px;width&#58;600px;display&#58;inline;height&#58;492px;" /><br>
+<font size="-0" class="ms-rteCustom-FigureGood">Figure&#58; Good example -&#160;&#160;This is proof you have met your '<a shape="rect" href="/Management/RulesToSuccessfulProjects/Pages/DoYouGoBeyondDoneAndFollowADoneCriteria.aspx" target="_blank">Done criteria</a>'. </font>
 <p>This is all designed to help you Scrum Team members (Product Owner, ScrumMaster and Team)&#160;keep a certain quality bar on completion of each chunk of work. Remember that you are not 'DONE' until your team says you are done.</p>
 
 
