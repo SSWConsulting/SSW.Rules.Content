@@ -32,7 +32,8 @@ Assuming you’re making the video for web, here is what you need set as your pr
 <li>In the same Video tab, under Bitrate Settings, make your Maximum Bitrate '5'</li>
 <li>In the Audio tab, under Bitrate Settings, select a Bitrate of 192kbps</li>
 <li>Save this pre-set and give it an appropriate name.</li>
-<li>Lastly, click on the &quot;Queue&quot; tab at the bottom of the window to send your project to Adobe Encoder.<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_6da05f43-9383-4c97-8edd-168957732bc1" class="ms-rtestate-notify  ms-rtestate-read 6da05f43-9383-4c97-8edd-168957732bc1"></div><span id="__publishingReusableFragment"></span>
+<li>Lastly, click on the &quot;Queue&quot; tab at the bottom of the window to send your project to Adobe Encoder.<div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 6da05f43-9383-4c97-8edd-168957732bc1" id="div_6da05f43-9383-4c97-8edd-168957732bc1"></div><span id="__publishingReusableFragment"></span>
+<span id="__publishingReusableFragment"></span>
 <div id="vid_6da05f43-9383-4c97-8edd-168957732bc1" style="display&#58;none;"></div></div>
 
 
