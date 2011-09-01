@@ -19,20 +19,20 @@ related: []
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>Keep the original email so that you can <a target="_blank" shape="rect"><font color="#000080">reply DONE and delete the email</font></a>.</p>
+  <p>Keep the original email so that you can <a shape="rect" target="_blank" href="/Communication/RulesToBetterEmail/Pages/DoneReplyAndDeleteEmail.aspx"><font color="#000080">reply DONE and delete the email</font></a>.</p>
 <p>But keeping it in your email does not help other members of the team if they complete the task and need to send the “done”.</p>
 <p>Worse yet, the description field in Team Foundation Server 2010 (TFS 2010) does not support HTML and images, nor does the default task template support an “interested parties” or CC field. You can attach this content manually, but it can be time consuming.</p>
 <p><strong>More information&#58;</strong></p>
-<p>You should follow the existing <a target="_blank" href="/Management/RulesToBetterProjectManagement" shape="rect"><font color="#000080">Rules to Better Project Management</font></a>&#160; and attach the email to your task so you can refer to and reply to it later when you close the task&#58;</p>
+<p>You should follow the existing <a shape="rect" href="/Management/RulestoBetterSpecificationReviews" target="_blank"><font color="#000080">Rules to Better Project Management</font></a>&#160; and attach the email to your task so you can refer to and reply to it later when you close the task&#58;</p>
 <ul>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#OutlookAddin" shape="rect"><font color="#000080">Do you know what Outlook add-ins you need?</font></a> </li>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#WorkItemEmail" shape="rect"><font color="#000080">Describe the work item request in an email</font></a> </li>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#TeamCompanionWorkItem" shape="rect"><font color="#000080">Use Outlook Add-in to move the email to a TFS Work Item</font></a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#OutlookAddin"><font color="#000080">Do you know what Outlook add-ins you need?</font></a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#WorkItemEmail"><font color="#000080">Describe the work item request in an email</font></a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#TeamCompanionWorkItem"><font color="#000080">Use Outlook Add-in to move the email to a TFS Work Item</font></a> </li>
 </ul>
 <p>When replying to an email with “done” you should follow&#58;</p>
 <ul>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#KeepConsistentName" shape="rect"><font color="#000080">Do you update Team Companion template, so the email &quot;subject&quot; doesn't change?</font></a> </li>
-    <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#EmailTemplate" shape="rect"><font color="#000080">Do you update Team Companion template, so you can generate a proper &quot;done&quot; mail?</font></a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#KeepConsistentName"><font color="#000080">Do you update Team Companion template, so the email &quot;subject&quot; doesn't change?</font></a> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#EmailTemplate"><font color="#000080">Do you update Team Companion template, so you can generate a proper &quot;done&quot; mail?</font></a> </li>
 </ul>
 <p>Following these simple rules will help your Product Owner understand you better, and allow your team to more effectively collaborate with each other. </p>
 <p>An added bonus is that as we are keeping the email history in sync with TFS. When you “reply all” to the email all of the interested parties to the Task are also included. This notifies those that may have been blocked by your task to keep up to date with its status.</p>
