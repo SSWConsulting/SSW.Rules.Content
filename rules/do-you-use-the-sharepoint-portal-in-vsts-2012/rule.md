@@ -16,8 +16,8 @@ authors:
 
 
   <br>
-<img width="588" height="394" class="ms-rteCustom-ImageArea" src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010-SharePointPortal.jpg" /><br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; SharePoint portal in VSTS 2010 </font><br>
+<img width="588" height="394" class="ms-rteCustom-ImageArea" src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010-SharePointPortal.jpg" alt="" /><br>
+<font size="-0" class="ms-rteCustom-FigureNormal">Figure&#58; SharePoint portal in VSTS 2010 </font><br>
 <br>
 <br>
 
