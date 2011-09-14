@@ -20,7 +20,7 @@ redirects:
 
 
 When a client arrives, your job is to make them feel comfortable and impress them with your professionalism. It is important that clients have a consistent experience in their contact with your company. 
-
+​
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul class="ms-rteCustom-GreyBox">
@@ -40,14 +40,7 @@ When a client arrives, your job is to make them feel comfortable and impress the
     <ul>
         <li>Show some enthusiasm when meeting with the client </li>
         <li>Hand over, and collect, business cards - (organize in front of you, to help you remember their names) </li>
-        <li>Use their names a few times early on to help you remember their name </li>
-        <li>Greet them warmly </li>
-        <li>Have a firm handshake </li>
-        <li>Make eye contact and smile </li>
-    </ul>
-    </li>
-</ul>
-&#160;&#160;&#160; </font><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - You did some research before the meeting </font>
+        <li>Use their names a few times early on to help you remember their name</li></ul></li></ul></font><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - You did some research before the meeting </font>
 
 
 
