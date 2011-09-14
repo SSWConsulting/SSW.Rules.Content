@@ -24,18 +24,18 @@ redirects:
 <p>TFS2010's Agile Template provides a built-in &quot;Stories Overview&quot; report to help you find out where the project is at, as well as to tell you if all the tasks are well tested. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/Management/RulesToBetterProjectManagement/PublishingImages/StoriesOverviewReport.jpg" /> <br>
-<font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
-<p>Tip&#58; Set this up on a <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/set-up-2-key-reports.aspx">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
+  <img src="/Management/RulesToBetterProjectManagement/PublishingImages/StoriesOverviewReport.jpg" alt="Stories Overview report" class="ms-rteCustom-ImageArea" /> <br>
+<font size="2" class="ms-rteCustom-FigureNormal">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
+<p>Tip&#58; Set this up on a <a href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyReportsEmailedToTeam.aspx" shape="rect">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
 <p>Suggestion for Microsoft #1&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
 <p>Suggestion for Microsoft #2&#58; Add this great report to the Microsoft Scrum TFS Process Template.</p>
 <div class="ms-rteCustom-GreyBox">
 <h2>Where are we at?</h2>
 <p>TFS’s Stories Overview Report is the best tool to solve the common question project managers ask the developers “Where are we at?” </p>
 <p>The problem with the answer is that developers almost always say 90% </p>
-<p><a shape="rect" href="http&#58;//twitter.com/adamcogan">@AdamCogan</a></p>
+<p><a href="http&#58;//twitter.com/adamcogan" shape="rect">@AdamCogan</a></p>
 </div>
-<p>Need to know $$$, read <a shape="rect" href="/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx">Do you get regular updates on costs and progress (aka Project Progress, Burndown, Story Overview)?</a> to see which reports you need to get&#160;a complete&#160;project progress overview.</p>
+<p>Need to know $$$, read <a href="/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx" shape="rect">Do you get regular updates on costs and progress (aka Project Progress, Burndown, Story Overview)?</a> to see which reports you need to get&#160;a complete&#160;project progress overview.</p>
 
 
 
