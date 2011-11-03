@@ -29,6 +29,7 @@ Sometimes it can be unclear to The Scrum Team whether a Story can be completed a
 <p><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/RuleEncouragingInvestigationStoriesGood.png" alt="" /> <br>
 <b class="ms-rteCustom-FigureGood">Figure&#58; Good example – The spike (time boxed investigation) comes first as it is impossible to estimate implementing something you do not know</b></p>
 <p>Note&#58; This gives you work for future Sprint</p>
+<p>Tip&#58; There is a further benefit of tagging 'spike' tasks with a consistent label. If your company takes up R &amp; D tax incentives, then you need to be able to query for activities that were 'of an experimental nature'. In Australia this is a 15% credit on each dollar you spend on a developer.</p>
 
 
 
