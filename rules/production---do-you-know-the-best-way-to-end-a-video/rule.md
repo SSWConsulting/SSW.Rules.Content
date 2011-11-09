@@ -22,6 +22,9 @@ related: []
 <p>Interviewee (Joe)&#58; <br>&quot;Thanks Adam&quot;</p>
 <p class="ssw-rteStyle-FigureGood">Figure&#58; Good example – personal, doesn't break the 4th wall, refers to subject matter in the video</p>
 <p><span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;"></span>&#160;</p>
+<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_9d4570df-6f32-40a0-91b3-198d58af3aaf" class="ms-rtestate-notify  ms-rtestate-read 9d4570df-6f32-40a0-91b3-198d58af3aaf"></div>
+<div id="vid_9d4570df-6f32-40a0-91b3-198d58af3aaf" style="display&#58;none;"></div></div>
+<p>&#160;</p>
 <p class="ssw-rteStyle-FigureGood"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">Figure&#58; Good example - See Richard Campbell do it perfectly 10 seconds from the end of </span>this video</p>
 
 
