@@ -19,10 +19,10 @@ redirects: []
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>At SSW whenever a big new project is signed up or we sell an enterprise license for one of our products we send an email to all staff and then ring the bell, which is located in the middle of the office.</p>
-<img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/ring-the-bell.jpg" alt="Ring the bell Email" style="border&#58;0px solid;" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Figure&#58; We send around an email like this and ring the bell when we get good news! </span>
+<p>At SSW whenever a big new project is signed up, we sell an enterprise license for one of our products, or we release a project into production we send an email to all staff and then ring the bell, which is located in the middle of the office.</p>
+<img border="0" src="/PublishingImages/ring-the-bell.jpg" alt="Ring the bell Email" class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" /> <span class="ms-rteCustom-FigureGood">Figure&#58; We send around an email like this and ring the bell when we get good news! </span>
 <p>Similarly, when we get some feedback we will send around an email, and store the email in a public folder.</p>
-<img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/Feedback.gif" alt=" " style="border&#58;0px solid;" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Store your feedback in a public folder</span>
+<img border="0" src="/PublishingImages/Feedback.gif" alt=" " class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Store your feedback in a public folder</span>
 
 
 
