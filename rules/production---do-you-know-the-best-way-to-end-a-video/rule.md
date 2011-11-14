@@ -21,8 +21,7 @@ related: []
 <span class="ssw-rteStyle-FigureBad">Figure&#58; Bad example – impersonal, cheesy and uninformative sign off</span> <div class="ssw-rteStyle-GreyBox"><p>Interviewer (Adam)&#58; <br>&quot;Well that’s all great stuff Joe and we're looking forward to seeing your new software soon&quot; <br></p>
 <p>Interviewee (Joe)&#58; <br>&quot;Thanks Adam&quot;<br></p></div>
 <span class="ssw-rteStyle-FigureGood">Figure&#58; Good example – personal, the speakers relate to each other well, refers to subject matter in the video</span> <div class="ms-rtestate-read ms-rte-wpbox"><div id="div_906f24a3-1a78-4ddc-b2e3-6d75d3e9b902" class="ms-rtestate-notify  ms-rtestate-read 906f24a3-1a78-4ddc-b2e3-6d75d3e9b902"></div><span id="__publishingReusableFragment"></span>
-<span id="__publishingReusableFragment"></span><div id="vid_906f24a3-1a78-4ddc-b2e3-6d75d3e9b902" style="display&#58;none;"></div></div>
-<p>&#160;</p>
+<span id="__publishingReusableFragment"></span><span id="__publishingReusableFragment"></span><div id="vid_906f24a3-1a78-4ddc-b2e3-6d75d3e9b902" style="display&#58;none;"></div></div>
 <span class="ssw-rteStyle-FigureGood"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">Figure&#58; Good example - See Richard Campbell do it perfectly 10 seconds from the end of </span>this video</span>
 
 
