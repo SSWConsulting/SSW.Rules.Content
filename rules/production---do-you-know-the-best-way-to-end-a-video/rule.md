@@ -20,15 +20,8 @@ related: []
 <div class="ssw-rteStyle-GreyBox">&quot;This is Adam Cogan signing off until next time&quot; (grins at camera with a thumbs up)</div>
 <span class="ssw-rteStyle-FigureBad">Figure&#58; Bad example – impersonal, cheesy and uninformative sign off</span> <div class="ssw-rteStyle-GreyBox"><p>Interviewer (Adam)&#58; <br>&quot;Well that’s all great stuff Joe and we're looking forward to seeing your new software soon&quot; <br></p>
 <p>Interviewee (Joe)&#58; <br>&quot;Thanks Adam&quot;<br></p></div>
-<span class="ssw-rteStyle-FigureGood">Figure&#58; Good example – personal, the speakers relate to each other well, refers to subject matter in the video</span> <p>&#160;</p>
-<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_79b9e736-c671-47d3-940e-d903de146c24" class="ms-rtestate-notify  ms-rtestate-read 79b9e736-c671-47d3-940e-d903de146c24"></div>
-<span id="__publishingReusableFragment"></span><div id="vid_79b9e736-c671-47d3-940e-d903de146c24" style="display&#58;none;"></div></div>
-<span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;"></span><p>&#160;</p>
-<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_617170e0-dcfe-43b3-9d5a-c5b33859c52e" class="ms-rtestate-notify  ms-rtestate-read 617170e0-dcfe-43b3-9d5a-c5b33859c52e"></div>
-<div id="vid_617170e0-dcfe-43b3-9d5a-c5b33859c52e" style="display&#58;none;"></div></div>
-<p>&#160;</p>
-<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_906f24a3-1a78-4ddc-b2e3-6d75d3e9b902" class="ms-rtestate-notify  ms-rtestate-read 906f24a3-1a78-4ddc-b2e3-6d75d3e9b902"></div><span id="__publishingReusableFragment"></span>
-<div id="vid_906f24a3-1a78-4ddc-b2e3-6d75d3e9b902" style="display&#58;none;"></div></div>
+<span class="ssw-rteStyle-FigureGood">Figure&#58; Good example – personal, the speakers relate to each other well, refers to subject matter in the video</span> <div class="ms-rtestate-read ms-rte-wpbox"><div id="div_906f24a3-1a78-4ddc-b2e3-6d75d3e9b902" class="ms-rtestate-notify  ms-rtestate-read 906f24a3-1a78-4ddc-b2e3-6d75d3e9b902"></div><span id="__publishingReusableFragment"></span>
+<span id="__publishingReusableFragment"></span><div id="vid_906f24a3-1a78-4ddc-b2e3-6d75d3e9b902" style="display&#58;none;"></div></div>
 <p>&#160;</p>
 <span class="ssw-rteStyle-FigureGood"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">Figure&#58; Good example - See Richard Campbell do it perfectly 10 seconds from the end of </span>this video</span>
 
