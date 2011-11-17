@@ -23,29 +23,31 @@ Here are the things you should also physically carry&#58;
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
-<table align="right" width="20%" id="Table9">
+</p>
+<table width="20%" align="right" id="Table9">
     <tbody>
         <tr>
-            <td><img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/StBernardDog.jpg" alt="Carry the right tools and you'll rescue someone, one day..." class="ms-rteCustom-ImageArea" style="border&#58;0px solid;width&#58;200px;height&#58;162px;" /> </td>
+            <td><img border="0" class="ms-rteCustom-ImageArea" alt="Carry the right tools and you'll rescue someone, one day..." src="/Management/RulesToSuccessfulProjects/PublishingImages/StBernardDog.jpg" style="border&#58;0px solid;width&#58;200px;height&#58;162px;" /> </td>
         </tr>
         <tr>
             <td><span class="ms-rteCustom-FigureNormal">Figure&#58; St. Bernards are known for rescuing lost mountaineers, bringing life saving provisions</span></td>
         </tr>
     </tbody>
 </table>
-</p>
-<ul>
+<p></p>
+<ol>
     <li>Business cards </li>
     <li>A network cable (optional) </li>
     <li>An extension cord (optional) </li>
-    <li>A thumb drive on your key ring </li>
-    <li>An external hard drive with 4GB+ (for software ISOs) </li>
-    <li>Software DVD's (minimum Office and Visual Studio) </li>
+    <li>A thumb drive on your key ring (a personal choice, but 16 GB is a good choice)</li>
+    <li>An external hard drive (a personal choice, but 750 GB if a good choice if you have lots of 10+ GB VMs)</li>
+    <li>Software DVD's (generally you can keep the .ISOs of MS Office and Visual Studio D&#58;\DataSetup\ISOs\)</li>
     <li>Current brochures - Hand them out to interested clients </li>
     <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#PrintedStoryCard">User story cards</a>&#160;- These help Product owners create user stories </li>
     <li><a href="http&#58;//www.ssw.com.au/ssw/NETUG/UGEvaluationSurvey.aspx">Evaluation&#160;forms</a>&#160;- Ask for feedback if you did a presentation </li>
     <li>Even a text book or two </li>
-</ul>
+</ol>
+<p>Maybe we could combine items 4 and 5 and get a large hard disk and put the images on there.</p>
 <p>We have one guy in our office who carries two bags, each weighing about 10 kgs. He is the SSW St. Bernard! *<br>
 <br>
 If you need to quickly share something with your mate&#58; </p>
