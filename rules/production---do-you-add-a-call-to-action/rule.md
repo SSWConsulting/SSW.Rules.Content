@@ -17,7 +17,7 @@ related: []
 Common objectives are to&#58; <ul><li>Get them to the company's Facebook page</li>
 <li>Obtain the viewer's email address</li>
 <li>Get the viewer to provide info and request a service from the company</li></ul>
-​​​​
+​​​​​​
 <br><excerpt class='endintro'></excerpt><br>
 <p>A good 'call to action' should&#58;</p>
 <ol><li>Be short (around 30 seconds).</li>
@@ -38,6 +38,7 @@ Common objectives are to&#58; <ul><li>Get them to the company's Facebook page</l
 
 ​<div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 2d466571-2111-4a31-9ffd-66a87dae5dce" id="div_2d466571-2111-4a31-9ffd-66a87dae5dce"></div>
 <div id="vid_2d466571-2111-4a31-9ffd-66a87dae5dce" style="display&#58;none;"></div></div>
+
 ​<br></div>
 <span class="ssw-rteStyle-FigureGood">Figure&#58; Fairly Good example&#160;(skip to the end)&#160;– a simple task to email <a href="mailto&#58;hamids@axosoft.com">hamids@axosoft.com</a>, plus&#160;links to social media are present,&#160;however there is <span style="font-family&#58;calibri, sans-serif;font-size&#58;11pt;">too much on screen and he has used a&#160;graphic instead of live action.</span></span><p><a href="http&#58;//www.youtube.com/watch?v=11ibqpnitfk" target="_blank"><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/Call-to-Action-Screenshot.jpg" alt="" style="margin-top&#58;5px;margin-right&#58;5px;margin-bottom&#58;5px;margin-left&#58;5px;" /></a>&#160;</p>
 <span class="ssw-rteStyle-FigureGood"><span style="font-family&#58;calibri, sans-serif;font-size&#58;11pt;"><strong>Figure&#58; Good Example – very clear call to action that asks for&#160;an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a twitter option to engage&#160;and uses live action.</strong></span></span><div>&#160;</div></ol>
