@@ -35,7 +35,7 @@ Here are the things you should also physically carry&#58;
     </tbody>
 </table>
 <p></p>
-<ol>
+<ul>
     <li>Business cards </li>
     <li>A network cable (optional) </li>
     <li>An extension cord (optional) </li>
@@ -46,8 +46,7 @@ Here are the things you should also physically carry&#58;
     <li><a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#PrintedStoryCard">User story cards</a>&#160;- These help Product owners create user stories </li>
     <li><a href="http&#58;//www.ssw.com.au/ssw/NETUG/UGEvaluationSurvey.aspx">Evaluation&#160;forms</a>&#160;- Ask for feedback if you did a presentation </li>
     <li>Even a text book or two </li>
-</ol>
-<p>Maybe we could combine items 4 and 5 and get a large hard disk and put the images on there.</p>
+</ul>
 <p>We have one guy in our office who carries two bags, each weighing about 10 kgs. He is the SSW St. Bernard! *<br>
 <br>
 If you need to quickly share something with your mate&#58; </p>
