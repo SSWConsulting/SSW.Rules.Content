@@ -33,3 +33,4 @@ Common objectives are to&#58; <ul><li>Get them to the company's Facebook page</l
 <span class="ssw-rteStyle-FigureGood"><span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;"><strong>Figure&#58; Good Example – very clear call to action that asks for&#160;an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a twitter option to engage&#160;and uses live action.</strong></span></span><div>&#160;</div></ol>
 
 
+
