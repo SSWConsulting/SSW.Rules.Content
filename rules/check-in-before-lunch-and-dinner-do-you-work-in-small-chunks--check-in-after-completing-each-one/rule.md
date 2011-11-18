@@ -36,7 +36,7 @@ Frequently developers work on long or difficult features/bugs and leave code che
 </ul>
 If the changes would break the build or are in a state that cannot be put into the main trunk, then this code should be put into a <a shape="rect" href="http&#58;//msdn.microsoft.com/en-us/library/ms181403.aspx">shelveset</a> (sometimes referred to as 'sandbox') in source control. <br>
 Another good reason to check-in regularly is that it makes it easier to merge your changes with other developers. If all developers check-in lots of changes in one go, you will spend a lot of your time resolving conflicts instead of doing work. <br>
-TIP&#58; How can you enforce regular check-ins? Monitor them using a <a shape="rect" href="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/CheckinReport.aspx">report to see who has not checked in</a>. 
+TIP&#58; How can you enforce regular check-ins? Monitor them using a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#CheckinReport">report to see who has not checked in</a>. 
 
 
 
