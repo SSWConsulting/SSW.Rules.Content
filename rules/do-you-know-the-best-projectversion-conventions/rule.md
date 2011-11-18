@@ -27,7 +27,7 @@ authors:
 <p>Trunk is the old way, Main is the new way as per the branching guidance, and it is the way that Microsoft does things.</p>
 <dl><dt><img alt="Main branch guidance " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/BranchGuidance.jpg" /></dt>
 <dd>Figure&#58; Good example, this makes a lot more sense </dd></dl>
-<b>More Information&#58;</b><dl><dt><img alt="Good format for the information" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/GoodFormatForInfo.jpg" /></dt>
+<b>More Information&#58;</b> <dl><dt class="ssw-rteStyle-ImageArea"><img alt="Good format for the information" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/GoodFormatForInfo.jpg" /></dt>
 <dd>Figure&#58; A good format for all your Products/Projects makes it easy to know where things are and what they are for </dd></dl>
 <p>Read the TFS 2010 Branching Guidance - <a href="http&#58;//tfsbranchingguideiii.codeplex.com/">http&#58;//tfsbranchingguideiii.codeplex.com</a></p>
 
