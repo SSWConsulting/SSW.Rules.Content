@@ -17,7 +17,7 @@ related: []
 Common objectives are to&#58; <ul><li>Get them to the company's Facebook page</li>
 <li>Obtain the viewer's email address</li>
 <li>Get the viewer to provide info and request a service from the company</li></ul>
-​​​​​​
+​​​​​​​
 <br><excerpt class='endintro'></excerpt><br>
 <p>A good 'call to action' should&#58;</p>
 <ol><li>Be short (around 30 seconds).</li>
