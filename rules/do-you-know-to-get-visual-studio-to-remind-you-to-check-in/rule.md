@@ -19,10 +19,10 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+<p>When working on a task spanning multiple files, do not check-in only one or two of the files, this leads to the problem of partial check-ins where references to new classes or methods are unavailable because they are in the files that haven't been checked in. So either, check-in all the files you are working on or none at all if you aren't finished working on the task.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Make Visual Studio remind you to check code in <div>In Microsoft Visual Studio. NET sharing project code can be configured by ticking the two checkboxes on top, in Options (from the Tools menu) as shows below.</div>
-<dl><dt><img alt="VS.NET 2008 Source Settings" align="middle" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/SourceControlVS.jpg" width="757" height="438" /></dt>
+<dl><dt><img alt="VS.NET 2008 Source Settings" align="middle" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/SourceControlVS.jpg" /></dt>
 <dd>Figure&#58; Check-in files automatically the 2nd checkbox is very important so you get reminded to check-in your project when closing VS.NET. You know how frustrating it is when you want to fix an application and all the files are checked out by some one else! </dd></dl>
 <div><b>What about VB6 applications ?</b> <br>In Visual Basic 6 this is done by going through Tools -&gt; Source Safe -&gt; Options and setting it as shown in the diagram below.</div>
 <dl><dt><img alt="Source Safe VB6" align="middle" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/SourceSafeVB6.gif" width="470" height="222" /></dt>
