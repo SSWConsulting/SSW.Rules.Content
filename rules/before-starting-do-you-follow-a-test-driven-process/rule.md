@@ -19,20 +19,16 @@ Never allow a situation where a developer can check out code and the code does n
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <ol class="ms-rteCustom-GreyBox" style="width&#58;275px;height&#58;169px;">
+  <ol class="ms-rteCustom-GreyBox" style="width&#58;272px;height&#58;192px;">
     <strong>Bad Process</strong> &#160;
-    <li>Check out </li>
-    &#160;
-    <li>Compile </li>
-    &#160;
-    <li>Develop </li>
-    &#160;
-    <li>Compile </li>
-    &#160;
+    <li>Check out &#160; </li>
+    <li>Compile &#160; </li>
+    <li>Develop &#160; </li>
+    <li>Compile &#160; </li>
     <li>Check In </li>
 </ol>
 <font class="ms-rteCustom-FigureBad" size="+0">A Bad Developer</font> <img alt="" class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/BeforeCoding.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Before you start cooking prepare all your ingredients (aka before you start coding, &quot;Get Latest&quot; the right way)</font>
-<ol class="ms-rteCustom-GreyBox" style="width&#58;532px;height&#58;386px;"><strong>Good Process</strong>
+<ol class="ms-rteCustom-GreyBox" style="width&#58;528px;height&#58;433px;"><strong>Good Process</strong>
     <li>Get latest </li>
     <li>Compile </li>
     <li>Run Unit Tests </li>
