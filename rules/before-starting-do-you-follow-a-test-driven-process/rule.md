@@ -15,7 +15,7 @@ authors:
  </span>
 
 
-  <ol class="ms-rteCustom-GreyBox" style="width&#58;277px;height&#58;287px;">
+  <ol class="ms-rteCustom-GreyBox" style="width&#58;169px;height&#58;119px;">
     <strong>Bad Process</strong>
     <li>Check out </li>
     <li>Compile </li>
