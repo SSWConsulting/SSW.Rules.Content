@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> <p>In conjunction with <a href="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/CheckinRegularly.aspx">regular check-ins</a>, files in source control should never be locked unless absolutely necessary. Use either 'Unchanged - Keep any existing lock' - or 'None - Allow shared checkout'.</p> </span>
 
 <p>Only use 'Check Out - Prevent other users from checking out and checking in' when checking out binary files e.g. Word documents or third party compiled dll’s. (This will be the default this will be the selected option due to the inability for binary files to be merged on check in.)</p>
 <dl><dt><img alt="Check-out settings for files" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/Check-outSettingsForFiles.jpg" width="607" height="386" /></dt>
@@ -23,6 +23,5 @@ authors:
 <p>Do not enforce single check-out at the project level - make sure the 'Enable multiple check-out' option is ticked under Team Project Settings, Source Control. </p>
 <dl><dt><img alt="check-out settings for team project" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/Check-outSettingsForTeamProjects.jpg" width="666" height="170" /></dt>
 <dd>Figure&#58; Correct check-out settings at the team project level - enable multiple check-out's.</dd></dl>
-
 
 
