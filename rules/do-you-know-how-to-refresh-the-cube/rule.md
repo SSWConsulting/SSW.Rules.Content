@@ -15,7 +15,8 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> <p>The cube is by default refreshed every two hours, but what is you are about to go into a status meeting and you want up to date reports?</p>
+<p>You can refresh the cube manually using the web services, but only from the TFS server&#58;</p> </span>
 
 <dl><dt><img alt="Warehouse WebControl Service " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/WarehouseWebControlService.jpg" /></dt>
 <dd></dd></dl>
