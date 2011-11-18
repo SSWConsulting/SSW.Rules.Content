@@ -19,9 +19,9 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+<p>Managers should regularly check to see if developers are committing their changes into source control. In TFS you can only get a status by manually looking at each project or running &quot;tfs status&quot; command. A great tool is <a href="http&#58;//www.ssw.com.au/SSW/Redirect/Attrice.htm">Attrice Team Foundation SideKicks</a> which can display the status of all users and projects </p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl><dt><img alt="Source Safe VS.NET" align="middle" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SideKicksStatus.jpg" width="816" height="601" /></dt>
+<dl><dt><img alt="Source Safe VS.NET" align="middle" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/SideKicksStatus.jpg" /></dt>
 <dd>Figure&#58; Use TFS Sidekicks and search for files older than 48 hours to find the naughty boys. </dd>
 <dd>Suggestion for TFS Sidekicks&#58; Add a button to “Email all people their shame list”…. showing their files that are still checked out (until then I do it manually)</dd></dl>
 
