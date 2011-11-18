@@ -26,7 +26,7 @@ authors:
 <dd>Figure&#58; Associate Work Item with Changeset </dd></dl>
 <p>As the project administrator, you can take one step further to enable &quot;Work Item Check-in Policy&quot; to enforce this rule in your team. </p>
 <dl><dt><img alt="Work Item Check-in Policy" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/WorkItemAss-4.jpg" /></dt>
-<dd>Figure&#58; Always enable the “Work Items check-in policy”</dd></dl>
+<dd>Figure&#58; Work Item check-in policy </dd></dl>
 
 
 
