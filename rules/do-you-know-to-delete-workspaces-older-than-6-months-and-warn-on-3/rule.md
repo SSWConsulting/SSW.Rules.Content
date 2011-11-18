@@ -19,7 +19,7 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+<p>The more workspaces you have the more load the TFS server is under when users check in and out. TFS has to check all of the workspaces for other checkouts of the same files which can be intensive if you have a lot of workspaces.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>If a developer had code checked out to a workspace that they have not even looked at in months, what is the likelihood that they even remember what changes they were making?</p>
 <ul>Why do workspaces build up? <li>Developers use multiple computers </li>
@@ -39,6 +39,5 @@ This field should not be null (Remove me when you edit this field).
 <dd>Figure&#58; Manage Workspaces </dd></dl></li>
 <li>Keep press &quot;Ctrl&quot;, select the workspaces which haven't been used for a long time. </li>
 <li>Click &quot;Remove&quot; button.</li></ol>
-
 
 
