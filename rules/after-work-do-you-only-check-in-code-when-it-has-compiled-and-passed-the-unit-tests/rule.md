@@ -19,7 +19,8 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+Too many people treat Source Control as a networked drive. Don't just check-in when the clock ticks past 5 or 6 o'clock. If code doesn't pass its unit tests or won't even compile put your code in a <a shape="rect" href="http&#58;//msdn.microsoft.com/en-us/library/ms181403.aspx">shelveset</a> 
+
 <br><excerpt class='endintro'></excerpt><br>
 
   <img alt="" class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/LeaveAMessToOthers.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Put your dishes straight in the dishwasher otherwise you leave a mess for others (aka &quot;Check in&quot; the right way otherwise you give other developers problems) </font>Other recommendations have included using //TODO or commenting the code out. However we recommend avoiding this practice as it increases the risk that the code is forgotten about. <br>
