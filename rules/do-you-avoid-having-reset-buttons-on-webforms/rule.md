@@ -15,9 +15,8 @@ authors:
 
 
 
-<span class='intro'> Why do web pages have Reset buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button. 
+<span class='intro'> Why do web pages have Reset buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button.
  </span>
-
 
   <span>
 <dl class="badImage">
