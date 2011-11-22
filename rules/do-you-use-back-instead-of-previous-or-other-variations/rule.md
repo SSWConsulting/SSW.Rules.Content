@@ -22,7 +22,6 @@ redirects:
 According to <a shape="rect" href="http&#58;//msdn.microsoft.com/en-us/library/ms997609.aspx" class="external" target="_blank">http&#58;//msdn.microsoft.com/en-us/library/ms997609.aspx</a>, the commands for navigating through a wizard should be &quot;{ltHTMLChar} Back&quot; and &quot;Next {gtHTMLChar}&quot;. 
 
 <br><excerpt class='endintro'></excerpt><br>
-
   <span>&#160;
 <p>When your site needs a link to iterate backwards through records we recommend that you use &quot;{ltHTMLChar} Back&quot; instead of &quot;{ltHTMLChar} Previous&quot;. </p>
 <p>There are a few reasons for this&#58;</p>
