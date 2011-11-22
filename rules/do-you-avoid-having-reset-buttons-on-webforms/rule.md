@@ -19,10 +19,9 @@ redirects:
 ---
 
 
-Why do web pages have Reset buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button. 
+Why do web pages have Reset buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button.
 
 <br><excerpt class='endintro'></excerpt><br>
-
   <span>
 <dl class="badImage">
     <dt><img width="300" height="300" alt="" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" /> </dt>
