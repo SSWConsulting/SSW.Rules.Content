@@ -19,7 +19,7 @@ Follow these steps to start recording using Camtasia&#58;<div class="ms-rtestate
 <div id="vid_71933c1f-6c2e-483a-919f-d06bf2002ad9" style="display&#58;none;"></div></div>
 ​
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>Set your screen resolution to as high as possible but do not exceed 1920 x 1080 for a 16&#58;9 display,&#160;or 1920 x 1200 for a 16&#58;10 display.</li>
+<ol><li>Set your screen resolution to as high as possible but do not exceed 1920 x 1080 for a 16&#58;9 display,&#160;or 1920 x 1200 for a 16&#58;10 display. If your screen resolution is too low then you will either have to expand the footage in post-production (which will result in a loss of quality) or release a low resolution video (which will become poor quality when watched in full screen).</li>
 <p><img alt="screen resolution.png" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/screen%20resolution.png" width="644" height="429" style="margin&#58;5px;width&#58;644px;height&#58;429px;" /></p>
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Set your screen resolution as high as possible without exceeding 1920 x 1080</span> <p><br><img alt="poor resolution screenshot.jpg" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/poor%20resolution%20screenshot.jpg" width="636" height="476" style="margin&#58;5px;width&#58;636px;height&#58;476px;" /></p>
 <p class="ssw-rteStyle-FigureBad">Figure&#58; Bad example - screen resolution is set to 800 x 600.</p>
