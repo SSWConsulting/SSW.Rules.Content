@@ -18,9 +18,8 @@ related: []
 <li>Upload these versions to YouTube (preferably around the same time you upload the full versions to other sites).</li></ol>
 <div class="ssw-rteStyle-ImageArea" style="width&#58;600px;"><a href="http&#58;//www.youtube.com/watch?v=DbpolzdGJ7Y"><img alt="Bad 1st 5 min example.jpg" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/Bad%201st%205%20min%20example.jpg" style="width&#58;600px;" /></a> </div>
 <span class="ssw-rteStyle-FigureBad"><b>Figure&#58; Bad Example – No call to action prompting viewers to go and&#160;see the full version.</b></span> <div class="ssw-rteStyle-ImageArea" style="width&#58;600px;"><a href="http&#58;//www.youtube.com/watch?v=DbpolzdGJ7Y"><img alt="Okay 1st 5 min Example.jpg" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/Okay-1st-5-min-Example.jpg" style="width&#58;600px;" /></a> </div>
-<span class="ssw-rteStyle-FigureNormal">Figure&#58; Okay Example – A link to the full version is included in the description section but no Call to Action in the actual video.</span> <p>&#160;</p>
-<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_df79c346-1d10-4b5f-a217-4cb3436b1c5d" class="ms-rtestate-notify  ms-rtestate-read df79c346-1d10-4b5f-a217-4cb3436b1c5d"></div><span id="__publishingReusableFragment"></span>
-<span id="__publishingReusableFragment"></span><div id="vid_df79c346-1d10-4b5f-a217-4cb3436b1c5d" style="display&#58;none;"></div></div>
+<span class="ssw-rteStyle-FigureNormal">Figure&#58; Okay Example – A link to the full version is included in the description section but no Call to Action in the actual video.</span><div class="ms-rtestate-read ms-rte-wpbox"><div id="div_df79c346-1d10-4b5f-a217-4cb3436b1c5d" class="ms-rtestate-notify  ms-rtestate-read df79c346-1d10-4b5f-a217-4cb3436b1c5d"></div><span id="__publishingReusableFragment"></span>
+<span id="__publishingReusableFragment"></span><span id="__publishingReusableFragment"></span><div id="vid_df79c346-1d10-4b5f-a217-4cb3436b1c5d" style="display&#58;none;"></div></div>
 <p class="ssw-rteStyle-FigureGood">&#160;Figure&#58; Good Example - contains a clear,&#160;live action&#160;call to action directing the viewer to see the full version.</p>
 
 
