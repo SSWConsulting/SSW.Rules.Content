@@ -16,8 +16,7 @@ related: []
 <p>Without a call to action prompting viewers to do something at the end of a video, the purpose of the video is lost. As such, make sure you include the call to action at the end.​</p>
 Common objectives are to&#58; <ul><li>Get them to the company's Facebook page</li>
 <li>Obtain the viewer's email address</li>
-<li>Get the viewer to provide info and request a service from the company</li></ul>
-​​​​​​​
+<li>Get the viewer to provide info and request a service from the company​</li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 <p>A good 'call to action' should&#58;</p>
 <ol><li>Be short (around 30 seconds).</li>
