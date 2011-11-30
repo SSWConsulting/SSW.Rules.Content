@@ -24,7 +24,7 @@ related: []
 <div>Assuming you are using a lapel microphone, make sure that it is attached to the speakers' shirt or jacket.</div>
 <div>For each speaker you need to adjust the sensitivity of the microphone. Do this according to the instructions provided by the manufacturer. As a general rule, test to see that the mic input level does not peak (the audio meter on the device will reach the top). Adjust the mic sensitivity using the device until the input meter does not go past the 2/3rds point. Doing so will create distortions which are difficult to repair in post and waste time.</div>
 <div>Look at this video to understand more in-depth the correct way to set up a lapel mic system&#58;<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_69ce32db-1dbd-494b-8236-09b153c027e4" class="ms-rtestate-notify  ms-rtestate-read 69ce32db-1dbd-494b-8236-09b153c027e4"></div><span id="__publishingReusableFragment"></span>
-<span id="__publishingReusableFragment"></span><span id="__publishingReusableFragment"></span><span id="__publishingReusableFragment"></span><div id="vid_69ce32db-1dbd-494b-8236-09b153c027e4" style="display&#58;none;"></div></div></div>
+<span id="__publishingReusableFragment"></span><span id="__publishingReusableFragment"></span><span id="__publishingReusableFragment"></span><span id="__publishingReusableFragment"></span><div id="vid_69ce32db-1dbd-494b-8236-09b153c027e4" style="display&#58;none;"></div></div></div>
 <div>&#160;</div>
 <div>&#160;2.&#160;&#160;&#160; Tell the speaker that they need to paraphrase any questions.</div>
 <div>&#160;</div>
