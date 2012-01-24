@@ -13,7 +13,7 @@ related: []
 ---
 
 
-Installing MS Lync client on Iphone or Ipad
+Installing MS Lync client on Iphone or Ipad. Employees should be contactable no matter if they are in the office or not&#160; (at a client). By installing the Lync client, everyone knows where they are and if they are available to take calls or answer questions that may arise.
 <br><excerpt class='endintro'></excerpt><br>
 ​<div style="text-indent&#58;-18pt;margin&#58;0cm 0cm 0pt 54pt;"><span><span><font face="Tahoma">1.</font><span style="font&#58;7pt 'times new roman';">&#160;&#160;&#160; </span></span></span><font face="Tahoma">Search for “Lync” in the Apple App store.</font></div>
 <div style="margin&#58;0cm 0cm 0pt 36pt;"><font face="Tahoma">&#160;<img src="/ITAndNetworking/PublishingImages/Lync1.png" width="497" height="744" alt="" style="margin&#58;5px;width&#58;497px;height&#58;744px;" /><br>&#160; </font><b><span style="font-size&#58;8pt;"><font face="Tahoma">Figure&#58; Search for Lync application in App store.</font></span></b></div>
