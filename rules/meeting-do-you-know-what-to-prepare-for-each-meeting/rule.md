@@ -41,7 +41,9 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 <li>Having your sprint feedback ready in advance, so members don’t need to think about it during the meeting, saving time </li>
 <li>Being clear and pointing issues that need further discussions </li></ul>
 <p><strong>Planning WHAT meetings</strong> - all members of the team must be well prepared by&#58;</p>
-<ul><li>Having all bugs and&#160;User Stories&#160;up-to-date on the backlog </li></ul>
+<ul><li>Having all bugs and&#160;User Stories&#160;up-to-date on the backlog </li>
+<li><span style="font-size&#58;10pt;font-family&#58;verdana, sans-serif;">Having all stories on the backlog “groomed” in
+order of priority (according to the Product Owner)​</span></li></ul>
 <p><strong>Planning HOW meetings</strong> - all members of the team must be well prepared by&#58;</p>
 <ul><li>Understanding all Stories and Product Owner’s priorities </li>
 <li>Being responsible on estimates </li>
