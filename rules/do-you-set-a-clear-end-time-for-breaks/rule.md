@@ -20,7 +20,7 @@ Tell them 20 min break (or 1 hour for lunch) and&#58;
 <li>Let them break</li>
 <li>Write in a clear place the end time for the break and ask people to be back on time
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Break ends" src="/Communication/RulesToBetterPresentations/PublishingImages/break-ends.jpg" /> </dt>
+    <dt><img src="/Communication/RulesToBetterPresentations/PublishingImages/break-ends.jpg" alt="Break ends" class="ms-rteCustom-ImageArea" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Clearly show the end time for the break</dd>
 </dl>
 </li>
