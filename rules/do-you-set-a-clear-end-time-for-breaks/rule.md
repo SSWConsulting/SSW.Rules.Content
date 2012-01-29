@@ -22,8 +22,10 @@ Tell them 20 min break (or 1 hour for lunch) and&#58;
 <dl>
     <dt><img src="/Communication/RulesToBetterPresentations/PublishingImages/break-ends.jpg" alt="Break ends" class="ms-rteCustom-ImageArea" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Clearly show the end time for the break - print the <a href="/Communication/RulesToBetterPresentations/Documents/break-ends-sheet.pdf">PDF here</a></dd>
+<dd class="ms-rteCustom-FigureNormal"><span style="font-size&#58;12px;font-weight&#58;normal;line-height&#58;21px;"></span></dd>
 </dl>
 </li>
+<li>​Set an alarm on your phone or PC<br><br><img src="/Communication/RulesToBetterPresentations/PublishingImages/iphone_timer.png" alt="iphone_timer.png" style="margin-top&#58;5px;margin-right&#58;5px;margin-bottom&#58;5px;margin-left&#58;5px;width&#58;300px;height&#58;450px;" />​<br><span style="font-size&#58;11px;font-weight&#58;bold;line-height&#58;20px;">Figure&#58; iPhone alarm<br><br></span></li>
 <li>If anyone comes back late – Explain the value of integrity. Honouring your word in small things makes it easier to honour it for the larger things, such as doing your best in a sprint, and makes people believe in you more</li>
 </ul>
 
