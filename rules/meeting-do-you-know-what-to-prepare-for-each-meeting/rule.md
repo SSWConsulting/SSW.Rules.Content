@@ -16,12 +16,13 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 <br><excerpt class='endintro'></excerpt><br>
 <p><strong>Daily Scrum Meetings</strong> - This is time boxed to 15 mins. All members of the team&#160;should be well prepared by&#58;</p>
 <ul><li>Being&#160;ready on&#160;time </li>
-<li>Having their &quot;Remaining hours&quot; up-to-date – read <a href="/Management/RulesToBetterScrumUsingTFS/Pages/UpdateTasks.aspx" shape="rect">Do you update your tasks before the daily Scrum meeting?</a> </li>
-<li>Knowing what was done since the last meeting e.g. &quot;Yesterday I did xxx&quot;</li>
-<li>Knowing what is planned to be done until next meeting e.g.&#160;&quot;Today I will do&#160;yyy&quot;&#160;</li>
-<li>Explain roadblocks and impediments that might exist e.g. &quot;I might hit a roadblock today because of xxx&quot;</li>
-<li>Remember to say &quot;Let's &quot;Park&quot; that conversation for after the scrum&quot;. Major discussions are not to be conducted during the time boxed scrum meeting.</li>
-<li>Being online on Skype (especially for team members in different locations)</li></ul>
+<li>Having their &quot;Remaining hours&quot; up-to-date – read <a href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyScrumUpdateTasks.aspx" shape="rect">Do you update your tasks before the daily Scrum meeting?</a> </li>
+<li>Be ready to answer&#160;the 3 main questions&#58;</li></ul>
+<blockquote dir="ltr" style="margin-right&#58;0px;"><blockquote dir="ltr" style="margin-right&#58;0px;"><blockquote dir="ltr" style="margin-right&#58;0px;"><p>What did you do yesterday?&#160;e.g. &quot;Yesterday I did xxx&quot;</p>
+<p>What&#160;are you&#160;doing today?&#160;e.g.&#160;&quot;Today I will do&#160;yyy&quot;&#160;</p>
+<p>Do you forsee&#160;any&#160;impediments or roadblocks?&#160;e.g. &quot;I might hit a roadblock today because of xxx&quot;</p></blockquote></blockquote></blockquote>
+<ul><li>Remember to say &quot;Let's Park&quot; that conversation for after the scrum&quot;. Major discussions are not to be conducted during the time boxed scrum meeting.</li>
+<li>Being online on Skype (especially for team members in different locations) Lync is better</li></ul>
 <p><strong>Related Links</strong></p>
 <p><a href="/Management/RulesToBetterScrumUsingTFS/Pages/TrackProgress.aspx">Reports - Do you know which reports are the most important ones to track your progress? </a></p>
 <p><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx">Management - Do you have daily stand-up meetings (Scrums)? </a></p>
@@ -42,8 +43,7 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 <li>Being clear and pointing issues that need further discussions </li></ul>
 <p><strong>Planning WHAT meetings</strong> - all members of the team must be well prepared by&#58;</p>
 <ul><li>Having all bugs and&#160;User Stories&#160;up-to-date on the backlog </li>
-<li><span style="font-size&#58;10pt;font-family&#58;verdana, sans-serif;">Having all stories on the backlog “groomed” in
-order of priority (according to the Product Owner)​</span></li></ul>
+<li><span style="font-family&#58;verdana, sans-serif;font-size&#58;10pt;">Having all stories on the backlog “groomed” in order of priority (according to the Product Owner)​</span></li></ul>
 <p><strong>Planning HOW meetings</strong> - all members of the team must be well prepared by&#58;</p>
 <ul><li>Understanding all Stories and Product Owner’s priorities </li>
 <li>Being responsible on estimates </li>
