@@ -17,7 +17,7 @@ redirects: []
 
 
 The answer to this question can make or break contracts. We think that it's such a fundamental issue it has to be captured clearly. This is how we strictly define a bug. 
-
+​
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
@@ -44,7 +44,7 @@ The answer to this question can make or break contracts. We think that it's such
 </ol>
 <strong>Examples of what is *not* a bug covered by the warranty&#58;</strong>
 <ol>
-    <li>Any problem caused by software or an application not written by company supplying the software. </li>
+    <li>Any problem caused by software or an application not written by the organization&#160;supplying the software. </li>
     <li>The customer requirement was not included in the user interface/mock-ups/specifications. </li>
     <li>The client decides that they don't like the look of the current form even though it is the substantially the same as shown in the specification and wants the buttons at the bottom of the form instead of at the top. </li>
     <li>The original specification states that the total price excludes GST, but it really should have included GST. This is a change to the specification, and is not included in the contract. </li>
