@@ -24,7 +24,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate.</p>
-<p>See <a href="/Management/RulesToBetterScrumUsingTFS/Pages/CreateBugs.aspx" shape="rect"><font color="#000080">Do you know when to create bugs?</font></a> for detailed information on identifying when something is a bug, and when to just fix it.</p>
+<p>See <a href="/Pages/CreateBugs.aspx" shape="rect"><font color="#000080">Do you know when to create bugs?</font></a> for detailed information on identifying when something is a bug, and when to just fix it.</p>
 <ol>
     <li>
     <h2>Using MSF Agile 5.0</h2>
@@ -44,13 +44,18 @@ related: []
 <p>As bugs from previous sprints are just PBI’s, the PO agrees to a list of bugs that will be fixed in the current Sprint.</p>
 <p>The team just fixes any <strong>newly</strong> bugs they introduced in the current sprint.</p>
 <p>If the team finds bugs due to functionality accepted in a previous sprint they log it as a PBI and will complete the fix in a future sprint, unless it is a critical bug, in which case they raise it as an impediment to the current sprint to the PO.</p>
-</li>
-</ol>
+
 <p>Examples&#58;</p>
 <ul>
     <li><strong>Small bug</strong> – Text on a label is spelled incorrectly </li>
-    <li><strong>Big bug</strong> - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key </li>
-</ul>
-
+    <li><strong>Big bug</strong> - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key</li>
+</ul></li>
+<li>
+<div><h2 style="line-height&#58;21px;">​​​​​​​Using TFS Preview (TFS 2012)</h2></div>
+<p>Bugs found that are independent of the work on the current Sprint are placed on the Product Backlog as a work item “Bug”. The product Owner then ranks the Bugs with priority amongst the User Stories. Bugs can have a value associated with them for effort the same as PBI's. At the Planning Meeting, the PO elects which Bugs are to be included by ordering them on the Product Backlog.</p>
+<p>Bugs found within the current Sprint added to the tasks they are related to as child items. The Development Team aims to fix the bug as soon as possible within the current Sprint.</p>
+<p><img src="/PublishingImages/tfs_preview_add_bug.png" alt="tfs_preview_add_bug.png" style="margin-top&#58;5px;margin-right&#58;5px;margin-bottom&#58;5px;margin-left&#58;5px;" /><br><br><strong>Figure&#58; Bugs can be added &quot;out of Sprint&quot; directly into the Product Backlog in TFS Preview (TFS 2012)</strong></p></li>
+<p>​</p></ol>
+​​​​​​​​
 
 
