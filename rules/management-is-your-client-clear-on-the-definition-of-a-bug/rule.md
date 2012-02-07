@@ -21,12 +21,10 @@ The answer to this question can make or break contracts. We think that it's such
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
-    <img alt="" src="/Management/RulesToSuccessfulProjects/PublishingImages/bug-feature.png" />
+    <img src="/Management/RulesToSuccessfulProjects/PublishingImages/bug-feature.png" alt="" />
     <br>
-<br>
-A software issue will be fixed under the fixed-price warranty where&#58; </p>
-<ol>
-    <li>The application <strong>crashes to code </strong>(excluding bugs&#160;resulting from&#160;third party products (e.g. &quot;blue screen of death&quot; or crashing in a third party data grid that we cannot control); <strong>or </strong></li>
+<br>A software issue will be fixed under the fixed-price warranty where&#58;&#160;</p>
+<ol><li>The application <strong>crashes to code </strong>(excluding bugs&#160;resulting from&#160;third party products (e.g. &quot;blue screen of death&quot; or crashing in a third party data grid that we cannot control); <strong>or </strong></li>
     <li>The application displays <strong>data inconsistent with the specified business rules</strong>;<strong> or</strong> </li>
     <li>The application is <strong>missing functionality&#160;<strong>specified&#160;</strong></strong>in the specification; <strong>or</strong> </li>
     <li>The <strong>page design/layout is substantially inconsistent</strong> with the agreed mock-ups </li>
@@ -35,26 +33,26 @@ A software issue will be fixed under the fixed-price warranty where&#58; </p>
 <strong>Examples of what *could* constistute a bug covered by the warranty&#58;</strong>
 <ol>
     <li>The application crashes to code&#160;because it doesn't check that a connection is valid before running a stored procedure <strong>(this is likely covered because it crashes to code)<br>
-    <span><img width="585" height="465" alt="" src="/Management/RulesToSuccessfulProjects/PublishingImages/YellowScreenofDeath.jpg" /><br>
-    <span style="font-weight&#58;normal;"><strong><span style="display&#58;inline !important;" class="ms-rtecustom-figurenormal">Figure&#58; Yellow screen of death</span></strong></span></span></strong> </li>
+    <span><img width="585" height="465" src="/Management/RulesToSuccessfulProjects/PublishingImages/YellowScreenofDeath.jpg" alt="" /><br>
+    <span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="display&#58;inline !important;">Figure&#58; Yellow screen of death</span></strong></span></span></strong> </li>
     <li>A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance <strong>(this is likely&#160;covered because data is inconsistent with the specified business rules)<br>
-    <span><img alt="" src="/Management/RulesToSuccessfulProjects/PublishingImages/IncorrectSum.jpg" /><br>
-    <span style="font-weight&#58;normal;"><strong><span style="display&#58;inline !important;" class="ms-rtecustom-figurenormal">Figure&#58; An incorrect sum is likely to be a bug</span></strong></span></span></strong> </li>
+    <span><img src="/Management/RulesToSuccessfulProjects/PublishingImages/IncorrectSum.jpg" alt="" /><br>
+    <span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="display&#58;inline !important;">Figure&#58; An incorrect sum is likely to be a bug</span></strong></span></span></strong> </li>
     <li>The application is missing the Monthly Sales report <strong>(this is likely covered because the application is missing functionality specified in the specification)</strong> </li>
     <li>The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Internet Explorer 9) <strong>(this is likely covered because it substantially inconsistent with the agreed mockup)<br>
     </strong></li>
 </ol>
 <strong>Examples of what is *not* a bug covered by the warranty&#58;</strong>
 <ol>
-    <li>Any problem caused by software or an application not written by SSW. </li>
+    <li>Any problem caused by software or an application not written by company supplying the software. </li>
     <li>The customer requirement was not included in the user interface/mock-ups/specifications. </li>
     <li>The client decides that they don't like the look of the current form even though it is the substantially the same as shown in the specification and wants the buttons at the bottom of the form instead of at the top. </li>
     <li>The original specification states that the total price excludes GST, but it really should have included GST. This is a change to the specification, and is not included in the contract. </li>
 </ol>
 <p><strong>Work items in TFS</strong></p>
-<p>At SSW, we use TFS as our source control and project tracking system. Using it allows us to create work items such as user stories, bugs, tasks, test cases etc. We only create bugs in TFS for defects, faults, flaws, or imperfections that fulfill our definition of a bug. For everything else we use other work item types.</p>
+<p>Using TFS&#160;allows you&#160;to create work items such as user stories, bugs, tasks, test cases etc. Only create bugs in TFS for defects, faults, flaws, or imperfections that fulfill your&#160;definition of a bug. For everything else use other work item types.</p>
 <blockquote>
-<p><strong><span><span style="font-weight&#58;normal;"><strong><span style="display&#58;inline !important;" class="ms-rtecustom-figurenormal"><img alt="" src="/Management/RulesToSuccessfulProjects/PublishingImages/WorkItemsTFS.jpg" /><br>
+<p><strong><span><span style="font-weight&#58;normal;"><strong><span class="ms-rtecustom-figurenormal" style="display&#58;inline !important;"><img src="/Management/RulesToSuccessfulProjects/PublishingImages/WorkItemsTFS.jpg" alt="" /><br>
 Figure&#58; Do I create this as a bug, or a task?&#160;</span></strong></span></span></strong><strong><br>
 </strong></p>
 </blockquote>
