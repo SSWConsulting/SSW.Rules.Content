@@ -23,6 +23,6 @@ Even though you may check your emails before sending, use SSW lookout to help yo
 <div><span>If you go into your sent items, open up the offending email, and go into <span>file | Info | Resend Or Recall | Recall this message</span>, outlook will attempt to delete the message from the recipient's inbox before he has a chance to read it.</span><span></span></div>
 <div><span>&#160;<img class="ssw-rteStyle-ImageArea" alt="RecallInOutlook2010.jpg" src="/Communication/RulesToBetterEmail/PublishingImages/RecallInOutlook2010.jpg" style="margin&#58;5px;" /><br></span></div>
 <div><span></span><span></span></div>
-<div class="ssw-rteStyle-FigureNormal"><span>Figure&#58; File | Info | Resend Or Recall | Recall This Message</span><span></span></div></span><p>Outlook will tell you whether it was successful or not</p>
+<div class="ssw-rteStyle-FigureNormal"><span>Figure&#58; File | Info | Resend Or Recall | Recall This Message (Outlook 2010)</span><span></span></div></span><p>Outlook will tell you whether it was successful or not</p>
 
 
