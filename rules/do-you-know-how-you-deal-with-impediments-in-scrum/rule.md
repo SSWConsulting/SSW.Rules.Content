@@ -24,9 +24,9 @@ related: []
   <h1>Separate out the cards
 </h1>
 <p>Separate out these as Chance Cards</p>
-<img class="ms-rteCustom-ImageArea" alt="Chance Cards" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/chance-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Chance cards</span>
+<img class="ms-rteCustom-ImageArea" alt="Chance Cards" src="/PublishingImages/chance-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Chance cards</span>
 <p>Separate out these as Point Cards</p>
-<img class="ms-rteCustom-ImageArea" alt="Point Cards" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/point-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Point cards</span>
+<img class="ms-rteCustom-ImageArea" alt="Point Cards" src="/PublishingImages/point-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Point cards</span>
 <h1>Set Timeboxes</h1>
 <p><strong>Sprint Planning (What)&#58; </strong> 20 minutes<br>
 <strong>Sprint Planning (How)&#58;</strong> 20 minutes<br>
