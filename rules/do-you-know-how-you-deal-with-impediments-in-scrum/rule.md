@@ -18,7 +18,7 @@ related: []
 
   <p>Exercise – Click Click Scrum</p>
 <p>This exercise uses the VS2010 planning poker deck of cards &amp; TFS</p>
-
+​​
 <br><excerpt class='endintro'></excerpt><br>
 
   <h1>Separate out the cards
