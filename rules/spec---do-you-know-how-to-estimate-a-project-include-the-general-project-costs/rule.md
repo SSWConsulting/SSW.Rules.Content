@@ -1,0 +1,48 @@
+---
+type: rule
+title: Spec - Do you know how to estimate a Project (include the 'General Project Costs')?
+uri: spec---do-you-know-how-to-estimate-a-project-include-the-general-project-costs
+created: 2009-09-16T02:44:19.0000000Z
+authors:
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
+- id: 4
+  title: Ulysses Maclaren
+
+---
+
+
+
+<span class='intro'> 
+  <p>Release contain two main classes of work&#58; work items relating to the particular release (e.g. Create Customers.aspx) and work relating to all releases (e.g. management, administration, testing, software audit etc). </p>
+<p>Project specific work items many only make up between 25% and 50% of the total project time. Project Managers and developers should not think that the only work being charged on a project are coding tasks.</p>
+​ </span>
+
+
+  <p>
+    <strong>General Project Costs <br>
+</strong>Management costs can change depending on how much management the client requires. SSW will recommend a suitable level of management. 'Management', or to put it another way&#58; 'accountability and transparency' has a cost. </p>
+<p>At SSW we add general project costs as a % of the work items generally in line with the following&#58; </p>
+<ul>
+    <li>Further specification&#58; 20% </li>
+    <li>Unit tests&#58; 20% </li>
+    <li>Testing&#58; 10-20% </li>
+    <li>Fixes from testing&#58; 10-20% </li>
+    <li>Software Audit&#58; 4 hours per Release - usually conducted by two experienced architects </li>
+    <li>Fixes from the Software Audit&#58; 5% </li>
+    <li>Project Administration&#58; 5% - this includes items like stand up meetings, timesheets, standard updates </li>
+    <li>Project Management&#58; at least 1 day per week per resource on the project (e.g. two developers full time requires a PM two days per week) UNLESS the client provides a full time Project Manager and takes full responsibility for all resources </li>
+    <li>Unknowns&#58; 10%. While this is arbitrary it raises awareness for everybody that 'there are things we still don't know!' </li>
+</ul>
+<p><strong>Project Specific Costs </strong></p>
+<p>At SSW, estimates for a project will be done by a developer, checked by another developer, and finally triple checked by a project manager. While every project is different in some way, there are common elements. SSW has built an estimates calculator to assist in creating estimates. </p>
+<p>See the <a href="/Management/RulesToBetterProjectManagement/Pages/ReleaseEstimationProcess.aspx">SSW Menu Estimates Calculator </a>(NOTE&#58; this is an Excel template file.&#160;&#160;Save the File (&quot;Save as&quot; don't &quot;Open&quot; it) and then open the file in Windows Explorer!) </p>
+<p>If the client requires a fixed price quotation a 20% premium is added to the estimates for the releases specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract work is completed offsite only to facilitate project management and prevent unauthorized scope development. </p>
+<p>Note&#58; It would be great if TFS Web Access had functionality “Add <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems">Standard Items </a>to a Iteration (aka Sprint, Release etc.)” </p>
+
+
+
