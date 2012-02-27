@@ -11,8 +11,7 @@ related: []
 ---
 
 
-If you don't understandand something in Jira and want it explained, simply <a shape="rect" href="http&#58;//jira.ssw.com.au/secure/CreateIssue%21default.jspa" class="ms-rteCustom-External" target="_blank">Create an Issue</a> in the project Jira of type Task <a shape="rect" href="/Management/RulesToBetterJira/Pages/CreateTask.aspx">like this</a>.&#160; If the question is good for all, it will be made into a rule for all.&#160; If the sugestion is approved, it will be implemented.&#160; You will, of course, be able to <a shape="rect" href="/Management/RulesToBetterJira/Pages/TrackingRequests.aspx">track </a>the status of what you create so that we can work efficiently on the right things in a visible way. 
-
+If you don't understand something in Jira and want it explained, simply <a class="ms-rteCustom-External" href="http&#58;//jira.ssw.com.au/secure/CreateIssue%21default.jspa" shape="rect" target="_blank">Create an Issue</a> in the project Jira of type Task <a href="/Management/RulesToBetterJira/Pages/CreateTask.aspx" shape="rect">like this</a>.&#160; If the question is good for all, it will be made into a rule for all.&#160; If the suggestion is approved, it will be implemented.&#160; You will, of course, be able to <a href="/Management/RulesToBetterJira/Pages/TrackingRequests.aspx" shape="rect">track </a>the status of what you create so that we can work efficiently on the right things in a visible way. 
 <br><excerpt class='endintro'></excerpt><br>
 
 
