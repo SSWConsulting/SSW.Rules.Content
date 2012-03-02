@@ -15,7 +15,7 @@ related: []
 <p>When working with clustered environments it is important that settings be consistent across every node. The best way to handle this is through group policy.
 </p>
 <br><excerpt class='endintro'></excerpt><br>
-Create a policy that you would like applied to each node of the cluster using the <strong>Group Policy Management</strong>.
+<p>Create a policy that you would like applied to each node of the cluster using the <strong>Group Policy Management</strong>.</p>
 <img class="ms-rteCustom-ImageArea" alt="Group policy bad" src="/ITAndNetworking/Rules-to-Better-Hyper-V-Clustering/PublishingImages/group-policy-bad.jpg" />
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Do not manually change settings on each node</span>
 
