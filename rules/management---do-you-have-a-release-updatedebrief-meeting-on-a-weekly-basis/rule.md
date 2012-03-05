@@ -16,7 +16,7 @@ authors:
 <p>Tip #1&#58; Choose the same day each week (for example SSW chooses Tuesday)<br>
 Tip #2&#58; While it is better to conduct an internal &quot;Test Please&quot; before the meeting (for example SSW chooses Friday), this &quot;Release Update/Debrief Meeting&quot; should proceed (even if it hasn't been completed).</p>
 <p>This is the agenda&#58;</p>
- </span>
+​ </span>
 
 
   <ol>
@@ -38,10 +38,10 @@ Tip #2&#58; While it is better to conduct an internal &quot;Test Please&quot; be
     <li><a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate">SSW TFS Add-in - Release Update/Debrief Report</a> </li>
 </ul>
 <dl class="image">
-    <dt><img alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/ProgressReport_small.jpg" /> </dt>
+    <dt><img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/ProgressReport_small.jpg" alt="" style="border-bottom-width&#58;0px;border-bottom-style&#58;solid;border-bottom-color&#58;initial;border-left-width&#58;0px;border-left-style&#58;solid;border-left-color&#58;initial;border-top-width&#58;0px;border-top-style&#58;solid;border-top-color&#58;initial;border-right-width&#58;0px;border-right-style&#58;solid;border-right-color&#58;initial;" /> </dt>
     <dd>Figure&#58; The actual output of the Release Update Report </dd>
 </dl>
-<p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/SSWReleaseUpdate.pdf">SSW Release Update Report.</a></p>
+<p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/SSWReleaseUpdate.pdf">SSW Release Upd​​ate Report.</a></p>
 <p><strong>If you are at the end of a main section of work, promote your success </strong></p>
 <ul>
     <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsDealingWithClients.aspx#PostClientWork" id="Ask for a testimonial for the work you have done" name="Ask for a testimonial for the work you have done">Ask for&#160;a testimonial for the work you have done</a> </li>
