@@ -41,13 +41,13 @@ Tip #2&#58; While it is better to conduct an internal &quot;Test Please&quot; be
     <dt><img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/ProgressReport_small.jpg" alt="" style="border-bottom-width&#58;0px;border-bottom-style&#58;solid;border-bottom-color&#58;initial;border-left-width&#58;0px;border-left-style&#58;solid;border-left-color&#58;initial;border-top-width&#58;0px;border-top-style&#58;solid;border-top-color&#58;initial;border-right-width&#58;0px;border-right-style&#58;solid;border-right-color&#58;initial;" /> </dt>
     <dd>Figure&#58; The actual output of the Release Update Report </dd>
 </dl>
-<p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/SSWReleaseUpdate.pdf">SSW Release Upd​​ate Report.</a></p>
+<p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/Reports.zip">SSW Release Upd​​ate Report.</a></p>
 <p><strong>If you are at the end of a main section of work, promote your success </strong></p>
 <ul>
     <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsDealingWithClients.aspx#PostClientWork" id="Ask for a testimonial for the work you have done" name="Ask for a testimonial for the work you have done">Ask for&#160;a testimonial for the work you have done</a> </li>
     <li>Create a case study and get it approved - This should be a win-win for the client. eg.&#160;&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/WorleyparsonsCaseStudy.aspx">WorleyParsons</a> </li>
     <li>Add&#160;a link to the work you have done from your website or marketing material. eg. at SSW we do this via the&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/OurClients.aspx">Our Clients</a> page </li>
 </ul>
-
+​
 
 
