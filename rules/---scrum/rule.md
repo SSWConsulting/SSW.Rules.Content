@@ -24,38 +24,21 @@ related: []
 <p>&#160;</p>
 <div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong>Figure&#58; 微软的每日Scrum会议</strong></font></font></font></font></font></font></div>
 <font color="#333333" style="line-height&#58;18px;"><font face="Verdana"><font size="2"><div><strong>&#160;</strong></div>
-<div class="ssw-rteStyle-GreyBox"><div style="margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;line-height&#58;20px;font-family&#58;verdana,arial,sans-serif;"><strong>Remember</strong><span style="line-height&#58;18px;"><strong></strong><div style="margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;line-height&#58;20px;"><strong>&quot;改变Scrum是可以的，实际上为了成功，这也是有必要的。只要能遵守Scrum价值&quot;</strong></div>
-<div style="margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;line-height&#58;20px;"><strong>Stephen Forte</strong></div></span></div></div>
+<div class="ssw-rteStyle-GreyBox"><div style="padding-bottom&#58;10px;line-height&#58;20px;margin-top&#58;0px;padding-left&#58;0px;padding-right&#58;0px;font-family&#58;verdana,arial,sans-serif;margin-bottom&#58;0px;padding-top&#58;10px;"><strong>Remember</strong><span style="line-height&#58;18px;"><strong></strong> <div style="padding-bottom&#58;10px;line-height&#58;20px;margin-top&#58;0px;padding-left&#58;0px;padding-right&#58;0px;margin-bottom&#58;0px;padding-top&#58;10px;"><strong>&quot;改变Scrum是可以的，实际上为了成功，这也是有必要的。只要能遵守Scrum价值&quot;</strong></div>
+<div style="padding-bottom&#58;10px;line-height&#58;20px;margin-top&#58;0px;padding-left&#58;0px;padding-right&#58;0px;margin-bottom&#58;0px;padding-top&#58;10px;"><strong>Stephen Forte</strong></div></span></div></div>
 <p><strong>&#160;下面这些建议由助于提高你的每日Scrum会议&#58;</strong></p>
 <p><strong>建议 1&#58;在会议结束时，让你的Scrum Master回顾当前迭代的进度</strong></p>
-在会议结束时,Scrum Master应该<a href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyReportsEmailedToTeam.aspx">检查燃尽图</a>来把握当前团队的进度</font></font></font><p><font color="#333333"><font face="Verdana"><font size="2"><img src="/Management/RulesToSuccessfulProjects/PublishingImages/burndowntfspreview.png" alt="burndowntfspreview.png" class="ssw-rteStyle-ImageArea" style="width&#58;601px;height&#58;467px;" />&#160;</font></font></font><font color="#333333"><font face="Verdana"><font size="2"></font></font></font></p>
-<p class="ssw-rteStyle-FigureNormal"><font color="#333333"><font face="Verdana"><font size="2">Figure：TFS 预览版(TFS 2012)自动生成燃尽图<strong><font size="2" face="Verdana" color="#333333">建议</font></strong><strong><font size="2" face="Verdana" color="#333333"></font></strong><strong><font size="2" face="Verdana" color="#333333"> 2&#58; 在墙上留一张每日Scrum会议的日程表(+ 在OutLook中有一个appointment)</font></strong></font></font></font></p>
-<div style="margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;font-family&#58;verdana,arial,sans-serif;"><font color="#333333"><font face="Verdana"><font size="2">&#160;</font></font></font></div>
-<font color="#333333" style="line-height&#58;18px;"><font face="Verdana"><font size="2"><div class="ssw-rteStyle-GreyBox" style="margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;line-height&#58;20px;width&#58;938px;font-family&#58;verdana,arial,sans-serif;height&#58;282px;"><p><span style="font-family&#58;verdana,sans-serif;font-size&#58;10pt;"><strong>Hi</strong><strong>&#160;</strong><strong>&lt;团队名称&gt;</strong><strong>,</strong></span><span style="font-family&#58;verdana,sans-serif;font-size&#58;10pt;"></span></p>
-<div class="ssw-rteStyle-Caption" style="font-size&#58;12px;margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;"><span style="font-family&#58;verdana,sans-serif;font-size&#58;10pt;"><strong>根据我们的会话,</strong><strong>&lt;项目名称&gt;</strong><strong>的每日Scrum会议在每个工作日的11&#58;00AM(悉尼时间)在</strong><strong>&lt;地点&gt;</strong><strong>举行。</strong></span></div>
-<div class="ssw-rteStyle-Caption" style="font-size&#58;12px;margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;"><strong>根据以下这条标准，它持续时间最长为15分钟</strong></div>
-<div class="ssw-rteStyle-Caption" style="font-size&#58;12px;margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;"><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx"><span style="color&#58;blue;"><strong>http&#58;//rules.ssw.com.au/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx</strong></span></a></div>
-<div class="ssw-rteStyle-Caption" style="font-size&#58;12px;margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;"><strong>谢谢,</strong></div>
-<div class="ssw-rteStyle-Caption" style="font-size&#58;12px;margin-top&#58;0px;margin-bottom&#58;0px;padding&#58;10px 0px;"><strong>&lt;Scrum Master&gt;​</strong></div>
-<p>&#160;</p>
-<p>Figure&#58; Outlook中设置每日站立会议的计划表模板</p>
-<p><span style="display&#58;inline-block;"></span><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><span style="display&#58;inline-block;"></span><br></p>
-<br><br><br>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p><br></p>
-<p>&#160;</p></div></font></font></font><p>&#160;</p>
+在会议结束时,Scrum Master应该<a href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyReportsEmailedToTeam.aspx">检查燃尽图</a>来把握当前团队的进度</font></font></font> <p><font color="#333333"><font face="Verdana"><font size="2"><img class="ssw-rteStyle-ImageArea" alt="burndowntfspreview.png" src="/Management/RulesToSuccessfulProjects/PublishingImages/burndowntfspreview.png" style="width&#58;601px;height&#58;467px;" />&#160;</font></font></font><font color="#333333"><font face="Verdana"><font size="2"></font></font></font></p>
+<p class="ssw-rteStyle-FigureNormal"><font color="#333333"><font face="Verdana"><font size="2">Figure：TFS 预览版(TFS 2012)自动生成燃尽图<strong><font color="#333333" size="2" face="Verdana">建议</font></strong><strong><font color="#333333" size="2" face="Verdana"></font></strong><strong><font color="#333333" size="2" face="Verdana"> 2&#58; 在墙上留一张每日Scrum会议的日程表(+ 在OutLook中有一个appointment)</font></strong></font></font></font></p>
+<p class="ssw-rteStyle-FigureNormal"><font size="2">&#160;<div class="ssw-rteStyle-GreyBox"><p><span>Hi &lt;团队名称&gt;,</span></p>
+<p><span><div><span>根据我们的会话,&lt;项目名称&gt;的每日Scrum会议在每个工作日的11&#58;00AM(悉尼时间)在&lt;地点&gt;举行。</span></div>
+<div>根据以下这条标准，它持续时间最长为15分钟</div>
+<div><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx"><span><font color="#3a66cc">http&#58;//rules.ssw.com.au/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx</font></span></a></div>
+<div>谢谢,</div>
+&lt;Scrum Master&gt;​&#160;</span>&#160;</p>
+&#160;</div>
+<p>&#160;<span>Figure&#58; Outlook中设置每日站立会议的计划表模板</span></p>
+<p><span></span></p></font></p>
+
 
 
