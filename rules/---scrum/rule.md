@@ -23,7 +23,10 @@ related: []
 <p>向团队中的每个成员问这些问题意味着没有人可以逃避，每个人都保持着互相的联系。更重要的是，你可以意识到哪些是完成的，哪些是正在进行的。这样可以让团队尽快发现问题并且保持进度是一致的。团队的成功或失败是大家共享的，任何知道如何解决他人问题的人都可以提出解决方案。</p>
 <p>&#160;</p>
 <div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong>Figure&#58; 微软的每日Scrum会议(短)</strong></font></font></font></font></font></font></div>
-<div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong>​<br></strong></font></font></font></font></font></font></div>
+<div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong>​<div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read f2ab1bb8-28cc-4914-b859-52688d9f51f9" id="div_f2ab1bb8-28cc-4914-b859-52688d9f51f9"></div>
+<div id="vid_f2ab1bb8-28cc-4914-b859-52688d9f51f9" style="display&#58;none;"></div></div>
+
+​​<br></strong></font></font></font></font></font></font></div>
 <div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong><br></strong></font></font></font></font></font></font></div>
 <div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong>Figure&#58; 微软的每日Scrum会议(长)</strong></font></font></font></font></font></font></div>
 <font color="#333333" style="line-height&#58;18px;"><font face="Verdana"><font size="2"><div><strong>&#160;</strong></div>
