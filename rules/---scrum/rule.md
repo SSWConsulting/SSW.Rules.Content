@@ -15,7 +15,7 @@ related: []
 
 ​严厉的项目团队每天在同一时间会进行Scrum会议。<p>注意：它过去被称为‘站立会议’，但是那样似乎对坐轮椅的人有歧视。我跟你开玩笑的。</p>
 <p>最好还是通过站立的方式完成，这样会议将简短并且抓住要点。要知道没有人愿意站在那里闲聊。</p>
-<p>每个人要回答三个关键问题。​</p>
+<p>每个人要回答三个关键问题。​​​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​1.&#160; 昨天做了什么?(你是否更新了TFS/其它任务跟踪系统的工作项)?</p>
 <p>2.&#160; 你今天要做什么?(我​当前的任务已经在白板上了)</p>
@@ -25,6 +25,7 @@ related: []
 <div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong>Figure&#58; 微软的每日Scrum会议(短)</strong></font></font></font></font></font></font></div>
 <div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong>​<div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read f2ab1bb8-28cc-4914-b859-52688d9f51f9" id="div_f2ab1bb8-28cc-4914-b859-52688d9f51f9"></div>
 <div id="vid_f2ab1bb8-28cc-4914-b859-52688d9f51f9" style="display&#58;none;"></div></div>
+
 
 ​​<br></strong></font></font></font></font></font></font></div>
 <div style="line-height&#58;18px;"><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"><strong><br></strong></font></font></font></font></font></font></div>
