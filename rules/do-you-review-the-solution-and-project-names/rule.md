@@ -13,9 +13,7 @@ authors:
 
 
 
-<span class='intro'> <div><span>Point to our .NET Rule</span></div>
-<div><span><a href="https&#58;//mail.ssw.com.au/owa/redir.aspx?C=796a6508899b4b10ac0182d591160c2c&amp;URL=http&#58;//www.ssw.com.au/ssw/standards/Rules/RulesToBetterdotNETProjects.aspx%23SolutionStructure" target="_blank">http&#58;//www.ssw.com.au/ssw/standards/Rules/RulesToBetterdotNETProjects.aspx#SolutionStructure</a> </span></div>
-<div style="margin&#58;0px;"><font size="2" face="Calibri,sans-serif"><span style="font-size&#58;11pt;">&#160;</span></font></div> </span>
+<span class='intro'> The Solution Structure name should be consistent, read more about&#160;consistent .NET Solution Structure&#160;at&#58;<br><a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/SolutionStructure.aspx">http&#58;//rules.ssw.com.au/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/SolutionStructure.aspx</a> </span>
 
 
 
