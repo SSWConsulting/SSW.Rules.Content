@@ -20,6 +20,6 @@ redirects: []
 
 Do you generate dependency graph
 <br><excerpt class='endintro'></excerpt><br>
-​<img src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/TimePRODependence.png" alt="" style="margin&#58;5px;" /><br><br>
+​<img width="685" height="209" class="ssw-rteStyle-ImageArea" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/TimePRODependence.png" alt="" style="height&#58;153px;width&#58;794px;margin&#58;5px;" /><br><br>
 
 
