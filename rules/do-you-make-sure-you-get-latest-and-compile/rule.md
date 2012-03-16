@@ -22,7 +22,6 @@ redirects: []
 <div><a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/InstructionsHelpImproveWebProjects.aspx">http&#58;//rules.ssw.com.au/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/InstructionsHelpImproveWebProjects.aspx</a></div>
 <div>A good developer how to get a project and complie it&#58;</div>
 <div>​<a href="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/TestDrivenProcess.aspx"><font color="#3a66cc">http&#58;//rules.ssw.com.au/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/TestDrivenProcess.aspx</font></a></div>
-<div>&#160;</div>
 <br><excerpt class='endintro'></excerpt><br>
 
 
