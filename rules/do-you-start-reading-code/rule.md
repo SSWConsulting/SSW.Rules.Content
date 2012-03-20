@@ -26,10 +26,11 @@ authors:
 <div>&#160; &#160;-Fommating</div>
 <div>[TODO&#58;reference should be deleted&#160;</div>
 <div>&lt;&lt;<a href="http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http&#58;//www.e-reading.org.ua/bookreader.php/134601/Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA">Clean Code&#58; A Handbook of Agile Software Craftsmanship</a>&gt;&gt;-Robert.C.Martin&#160;]</div>
+<div><br></div>
 <div><strong>Clean front-end code -&#160;semantics html</strong></div>
 <div><span>Anyone who creates their own HTML pages today should aim to make their markup semantically correct.(</span><strong></strong><a href="http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/">http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/</a>)</div>
 <div>&lt;p&gt; is for a paragraph,not for defining a section;&lt;b&gt; is for bolding,not for&#160;emphasizing,&lt;strong&gt;,&lt;em&gt; do that.</div>
-<div><br></div>
+<div><strong><br></strong></div>
 <div><strong>Domain specific language,declartive programming&#160;- Tell what,not how</strong>[<a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">TechDays 2010 Keynote by Anders Hejlsberg&#58; Trends and future directions in programming&#160;​languages​</a></div>
 <span></span><div>]</div>
 <div></div>
@@ -60,16 +61,14 @@ result.Sort(<span style="color&#58;blue;">delegate</span>(<span>Grouping </span>
         0;
 &#125;);</pre>
 <font face="consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体" size="2"><span style="white-space&#58;pre-wrap;"></span></font></div>
-<pre>The other way to solve the problem&#58;Tell what with Linq</pre>
-
-<div><span></span><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"></span></pre>&#160;</div><div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"> </span>result = products
+<pre>Tell what with Linq(If I read the code,i can understand the programmer's purpose quickly)</pre>
+<div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"> </span>result = products
     .Where(p =&gt; p.UnitPrice &gt;= 20)
     .GroupBy(p =&gt; p.CategoryName)
     .OrderByDescending(g =&gt; g.Count())
     .Select(g =&gt; <span style="color&#58;blue;">n</span><span style="color&#58;blue;">ew </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div>
 
-<div><strong>Question&#58;s</strong></div><div><strong>hould we force to use Linq???</strong></div>
-<div><strong><br></strong></div>
-<div><strong><br></strong></div>
+<div><strong>Question&#58;</strong><strong>s</strong><strong>hould we force to use Linq???</strong></div>
+<div><b><br></b></div>
 
 
