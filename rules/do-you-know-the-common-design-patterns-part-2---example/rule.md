@@ -43,9 +43,7 @@ injection]</span></div>
 <td style="border-top-style&#58;solid;border-right-style&#58;solid;border-bottom-style&#58;solid;border-left-style&#58;solid;border-width&#58;initial;border-top-width&#58;0px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;0px;padding-top&#58;5px;padding-right&#58;5px;padding-bottom&#58;5px;padding-left&#58;5px;"><i>Make fine grained interfaces that are client specific.</i></td></tr></tbody></table>
 <div><span>Figure&#58; 5 principles for class design</span></div>
 <div>[<a href="http&#58;//butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">http&#58;//butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod</a></div>
-<div>&lt;&lt;Agile Software Development, Principles, Patterns, and Practices​<span></span>&gt;&gt;Robert.C.Martin&#58;</div>
-<div><span></span><a href="http&#58;//codebetter.com/davidhayden/2005/05/20/agile-software-development-principles-patterns-and-practices/">http&#58;//codebetter.com/davidhayden/2005/05/20/agile-software-development-principles-patterns-and-practices/</a>
-</div>
+<div>&lt;&lt;<a href="http&#58;//codebetter.com/davidhayden/2005/05/20/agile-software-development-principles-patterns-and-practices/">Agile Software Development, Principles, Patterns, and Practices</a>​<span></span>&gt;&gt;Robert.C.Martin&#58;</div>
 <div><a href="http&#58;//butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod"></a>]</div>
 <span></span><div></div>
 
