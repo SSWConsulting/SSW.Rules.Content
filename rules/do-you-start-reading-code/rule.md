@@ -28,17 +28,16 @@ redirects: []
 <div>&#160; &#160;-Comments</div>
 <div>&#160; &#160;-Fommating</div>
 <div>[TODO&#58;reference should be deleted&#160;</div>
-<div>{ltHTMLChar}{ltHTMLChar}Clean Code&#58; A Handbook of Agile Software Craftsmanship{gtHTMLChar}{gtHTMLChar}-Robert.C.Martin</div>
-<div>http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http%3A%2F%2Fwww.e-reading.org.ua%2Fbookreader.php%2F134601%2FClean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA</div>
-<div><div>&#160;]</div></div>
-<div><strong>semantics html</strong></div>
+<div>{ltHTMLChar}{ltHTMLChar}<a href="http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http&#58;//www.e-reading.org.ua/bookreader.php/134601/Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA">Clean Code&#58; A Handbook of Agile Software Craftsmanship</a>{gtHTMLChar}{gtHTMLChar}-Robert.C.Martin&#160;]</div>
+<div><strong>Clean front-end code -&#160;semantics html</strong></div>
 <div><span>Anyone who creates their own HTML pages today should aim to make their markup semantically correct.(</span><strong></strong><a href="http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/">http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/</a>)</div>
 <div>{ltHTMLChar}p{gtHTMLChar} is for a paragraph,not for defining a section;{ltHTMLChar}b{gtHTMLChar} is for bolding,not for&#160;emphasizing,{ltHTMLChar}strong{gtHTMLChar},{ltHTMLChar}em{gtHTMLChar} do that.</div>
 <div><br></div>
-<div><strong>Domain specific language - Tell what,not how</strong>[<a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg</a>]</div>
+<div><strong>Domain specific language,declartive programming&#160;- Tell what,not how</strong>[<a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">TechDays 2010 Keynote by Anders Hejlsberg&#58; Trends and future directions in programming&#160;​languages​</a></div>
+<span></span><div>]</div>
 <div></div>
 <div>e.g.I want to show some products which unit price less than 20,and also &#160;to know how many &#160;products in every&#160;category.</div>
-<div>one&#160;way to solve the problem&#58;<span></span><strong>Tell how without Linq</strong></div>
+<div>one&#160;way to solve the problem&#58;<span></span><strong>Tell</strong><strong> how without Linq</strong></div>
 <div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span>Dictionary</span>{ltHTMLChar}<span style="color&#58;blue;">string</span>, <span>Grouping</span>{gtHTMLChar} groups = <span style="color&#58;blue;">new </span><span>Dictionary</span>{ltHTMLChar}<span style="color&#58;blue;">string</span>, <span>Grouping</span>{gtHTMLChar}();
 <span style="color&#58;blue;">foreach </span>(<span>Product </span>p <span style="color&#58;blue;">in </span>products)
 &#123;
@@ -55,22 +54,24 @@ redirects: []
     &#125;
 &#125;
 
-<span>List</span>{ltHTMLChar}<span>Grouping</span>{gtHTMLChar} result = <span style="color&#58;blue;">new </span><span>List</span>{ltHTMLChar}<span>Grouping</span>{gtHTMLChar}(groups.Values);
+<span>List</span>{ltHTMLChar}<span>Grouping</span>{gtHTMLChar} result = <span style="color&#58;blue;">new </span><span>List</span>{ltHTMLChar}<span>Groupi</span><span>ng</span>{gtHTMLChar}(groups.Values);
 result.Sort(<span style="color&#58;blue;">delegate</span>(<span>Grouping </span>x, <span>Grouping </span>y)
 &#123;
     <span style="color&#58;blue;">return
-        </span>x.ProductCount {gtHTMLChar} y.ProductCount ? -1 &#58;
+      </span><span style="color&#58;blue;">  </span>x.ProductCount {gtHTMLChar} y.ProductCount ? -1 &#58;
         x.ProductCount {ltHTMLChar} y.ProductCount ? 1 &#58;
         0;
 &#125;);</pre>
 <font face="consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体" size="2"><span style="white-space&#58;pre-wrap;"></span></font></div>
 <pre>The other way to solve the problem&#58;Tell what with Linq</pre>
-<div><span></span><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;">var </span>result = products
+
+<div><span></span><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"></span></pre>&#160;</div><div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"> </span>result = products
     .Where(p ={gtHTMLChar} p.UnitPrice {gtHTMLChar}= 20)
     .GroupBy(p ={gtHTMLChar} p.CategoryName)
     .OrderByDescending(g ={gtHTMLChar} g.Count())
-    .Select(g ={gtHTMLChar} <span style="color&#58;blue;">new </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div>
-<div><strong>Question&#58;should we force to use Linq???</strong></div>
+    .Select(g ={gtHTMLChar} <span style="color&#58;blue;">n</span><span style="color&#58;blue;">ew </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div>
+
+<div><strong>Question&#58;s</strong></div><div><strong>hould we force to use Linq???</strong></div>
 <div><strong><br></strong></div>
 <div><strong><br></strong></div>
 
