@@ -31,10 +31,10 @@ authors:
 <div><span>Anyone who creates their own HTML pages today should aim to make their markup semantically correct.(</span><strong></strong><a href="http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/">http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/</a>)</div>
 <div>&lt;p&gt; is for a paragraph,not for defining a section;&lt;b&gt; is for bolding,not for&#160;emphasizing,&lt;strong&gt;,&lt;em&gt; do that.</div>
 <div><strong><br></strong></div>
-<div><strong>Domain specific language,declartive programming&#160;- Tell what,not how</strong>[<a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">TechDays 2010 Keynote by Anders Hejlsberg&#58; Trends and future directions in programming&#160;​languages​</a></div>
+<div><span></span><strong>declartive programming(</strong><strong>Question&#58;</strong><strong>s</strong><strong>hould we force to use Linq???)</strong><strong>&#160;- Tell what,not how</strong>[<a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">TechDays 2010 Keynote by Anders Hejlsberg&#58; Trends and future directions in programming&#160;​languages​</a></div>
 <span></span><div>]</div>
 <div></div>
-<div>e.g.I want to show some products which unit price less than 20,and also &#160;to know how many &#160;products in every&#160;category.</div>
+<div><strong>e.g.</strong>I want to show some products which unit price less than 20,and also &#160;to know how many &#160;products in every&#160;category.</div>
 <div>one&#160;way to solve the problem&#58;<span></span><strong>Tell</strong><strong> how without Linq</strong></div>
 <div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span>Dictionary</span>&lt;<span style="color&#58;blue;">string</span>, <span>Grouping</span>&gt; groups = <span style="color&#58;blue;">new </span><span>Dictionary</span>&lt;<span style="color&#58;blue;">string</span>, <span>Grouping</span>&gt;();
 <span style="color&#58;blue;">foreach </span>(<span>Product </span>p <span style="color&#58;blue;">in </span>products)
@@ -61,14 +61,16 @@ result.Sort(<span style="color&#58;blue;">delegate</span>(<span>Grouping </span>
         0;
 &#125;);</pre>
 <font face="consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体" size="2"><span style="white-space&#58;pre-wrap;"></span></font></div>
-<pre>Tell what with Linq(If I read the code,i can understand the programmer's purpose quickly)</pre>
+<pre>
+<span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">the other way&#160;to so</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">lv</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">e the problem&#58;<b>Tell what with Linq(I can understand the developer's intenstion quickly)</b></span>
+</pre>
 <div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"> </span>result = products
     .Where(p =&gt; p.UnitPrice &gt;= 20)
     .GroupBy(p =&gt; p.CategoryName)
     .OrderByDescending(g =&gt; g.Count())
     .Select(g =&gt; <span style="color&#58;blue;">n</span><span style="color&#58;blue;">ew </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div>
 
-<div><strong>Question&#58;</strong><strong>s</strong><strong>hould we force to use Linq???</strong></div>
+<div><b><br></b><strong></strong></div>
 <div><b><br></b></div>
 
 
