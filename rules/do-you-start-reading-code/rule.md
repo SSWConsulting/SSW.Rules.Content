@@ -61,8 +61,7 @@ result.Sort(<span style="color&#58;blue;">delegate</span>(<span>Grouping </span>
         0;
 &#125;);</pre>
 <font face="consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体" size="2"><span style="white-space&#58;pre-wrap;"></span></font></div>
-<pre>
-<span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">the other way&#160;to so</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">lv</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">e the problem&#58;<b>Tell what with Linq(I can understand the developer's intenstion quickly)</b></span>
+<pre><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">the other way&#160;to so</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">lv</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">e the problem&#58;<b>Tell what with Linq(I can understand the developer's intenstion quickly)</b></span>
 </pre>
 <div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"> </span>result = products
     .Where(p =&gt; p.UnitPrice &gt;= 20)
