@@ -17,7 +17,7 @@ authors:
 Any idiot can manage success, it takes a pro to prepare for and survive the worst.
 
 
- </span>
+4 </span>
 
 <h4>Types of specifications</h4>
   <ol>
@@ -40,7 +40,7 @@ Any idiot can manage success, it takes a pro to prepare for and survive the wors
     <li>Functional Specification <br>
     This will include detailed mock-ups for the UI, use cases/user stories and might be at a level to allow for fixed price quoting on the project
     <ul class="ms-rteCustom-GreyBox">
-        <li>We need a login page for <a shape="rect" href="http&#58;//www.northwind.com/">www.northwind.com</a> </li>
+        <li>We need a login page for <a href="http&#58;//www.northwind.com/" shape="rect">www.northwind.com</a> </li>
         <li>Must match existing site look and feel </li>
         <li>Users table must be defined and added to the ABC database (SQL Server 2008) </li>
         <li><b>User Name consists of user first initial and first 7 characters of last name</b><br>
