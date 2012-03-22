@@ -9,7 +9,7 @@ authors: []
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> It’s important to have clear options for how a client can engage your services. You need to be clear on any differences between them in both billing and project management. </span>
 
 <p>SSW offers both fixed price and time and materials contracts although all specification work is done on a time and materials basis.</p>
 <ul>
