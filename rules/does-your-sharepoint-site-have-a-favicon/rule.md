@@ -18,7 +18,7 @@ redirects: []
 
 
 A Favicon is a small image file included on nearly all professional developed sites. When a browser hits your web site and a user bookmarks that site then the favicon.ico graphic will be displayed in the browser’s URL/address line upon subsequent visits to that site.
-
+​
 <br><excerpt class='endintro'></excerpt><br>
 
   <table class="clsSSWTable">
@@ -30,7 +30,7 @@ A Favicon is a small image file included on nearly all professional developed si
             &#160;&#160;&#160; {ltHTMLChar}meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;{gtHTMLChar} <br>
             &#160;&#160;&#160; {ltHTMLChar}!--Placeholder for additional overrides--{gtHTMLChar} <br>
             &#160;&#160;&#160; {ltHTMLChar}asp&#58;ContentPlaceHolder ID=&quot;PlaceHolderAdditionalPageHead&quot; runat=&quot;server&quot; /{gtHTMLChar} <br>
-            &#160;&#160;&#160; <font style="background-color&#58;#ffff00;">{ltHTMLChar}link rel=&quot;shortcut icon&quot; href=&quot;~/Style Library/Images/SSW/Rules/ssw.ico&quot; type=&quot;image/x-icon&quot; /{gtHTMLChar}</font> <br>
+            &#160;&#160;&#160; <font style="background-color&#58;rgb(255, 255, 0);">{ltHTMLChar}link rel=&quot;shortcut icon&quot; href=&quot;~/Style Library/Images/SSW/Rules/ssw.ico&quot; type=&quot;image/x-icon&quot; /{gtHTMLChar}</font> <br>
             {ltHTMLChar}/head{gtHTMLChar} </p>
             <p><b>Figure&#58; One line of HTML lets you add your company's icon to&#160; your web page</b> </p>
             </td>
