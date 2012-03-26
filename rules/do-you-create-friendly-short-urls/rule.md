@@ -18,18 +18,16 @@ related: []
 
   <p>When you create short URLs, it is worth considering exactly why you are shortening it.</p>
 <p> Is it for space or readability? If it is for readability or you expect anyone to ever type it in, then consider making a friendly short URL. </p>
-​
+​​
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>I want to be able to type this URL in, but it is VERY long&#58;</p>
-<div class="ms-rteCustom-GreyBox"><a href="http&#58;//blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx" target="_blank">https&#58;//mail.ssw.com.au/owa/redir.aspx?C=48bca64384ed41749f81f0510568e825&amp;<br>
-URL=http&#58;//blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx</a> </div>
+<div class="ms-rteCustom-GreyBox"><a href="http&#58;//blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx" target="_blank">http&#58;//blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx</a><br></div>
 <font class="ms-rteCustom-FigureBad">Bad example - People can’t easily type this URL in…. it is too long</font><br>
 <div class="ms-rteCustom-GreyBox">Thanks Rob, that is great.<br>
 Made a bit.ly at <a href="http&#58;//bit.ly/aC5Lb2" target="_blank">http&#58;//bit.ly/aC5Lb2</a><a href="http&#58;//bit.ly/aC5Lb2" target="_blank"></a></div>
 <font class="ms-rteCustom-FigureBad">Bad example -&#160;How will I remember that?</font><br>
 <div class="ms-rteCustom-GreyBox"><a href="http&#58;//bit.ly/VS2010VM">http&#58;//bit.ly/VS2010VM</a></div>
-<font class="ms-rteCustom-FigureGood">Good example - Easier to remember</font> <br>
-
+<font class="ms-rteCustom-FigureGood">Good example - Easier to remember</font> <br>​​​
 
 
