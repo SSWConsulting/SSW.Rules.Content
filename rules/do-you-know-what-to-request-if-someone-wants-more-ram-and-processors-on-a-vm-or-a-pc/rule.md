@@ -16,7 +16,7 @@ related: []
 
 
 <p class="MsoNormal" style="margin-left&#58;33.75pt;line-height&#58;13.5pt;background-image&#58;initial;background-attachment&#58;initial;background-color&#58;white;"><span style="font-size&#58;9pt;font-family&#58;verdana, sans-serif;">A “Too
-slow” is not enough info.</span>​​</p>
+slow” is not enough info.</span>​​​</p>
 <br><excerpt class='endintro'></excerpt><br>
 ​<span style="font-family&#58;verdana, sans-serif;font-size&#58;9pt;background-color&#58;white;line-height&#58;13.5pt;">Request
 an image of the “Resource Monitor”</span>
@@ -43,7 +43,7 @@ An ideal email subject prefix for more resources would be e.g. “Performance is
 – “Machine name”</span></p>
 <p class="MsoNormal" style="margin-left&#58;33.75pt;line-height&#58;13.5pt;background-image&#58;initial;background-attachment&#58;initial;background-color&#58;white;text-align&#58;left;"><span style="font-size&#58;9pt;font-family&#58;verdana, sans-serif;"><br></span></p>
 <p class="MsoNormal" style="margin-left&#58;33.75pt;line-height&#58;13.5pt;background-image&#58;initial;background-attachment&#58;initial;background-color&#58;white;text-align&#58;left;"><span style="font-size&#58;9pt;font-family&#58;verdana, sans-serif;"><br></span></p>
-<p class="MsoNormal" style="margin-left&#58;33.75pt;line-height&#58;13.5pt;background-image&#58;initial;background-attachment&#58;initial;background-color&#58;white;text-align&#58;left;"><span style="text-indent&#58;36pt;"><strong><img src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/resource_monitor.png" alt="" style="margin-top&#58;5px;margin-bottom&#58;5px;height&#58;645px;width&#58;830px;margin-left&#58;0px;margin-right&#58;0px;" /><br><br><br><br>Figure&#58; Use “Resource Monitor”
+<p class="MsoNormal" style="margin-left&#58;33.75pt;line-height&#58;13.5pt;background-image&#58;initial;background-attachment&#58;initial;background-color&#58;white;text-align&#58;left;"><span style="text-indent&#58;36pt;"><strong><img src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/resource_monitor.png" alt="" style="margin-top&#58;5px;margin-bottom&#58;5px;height&#58;645px;width&#58;830px;margin-left&#58;0px;margin-right&#58;0px;" /><br>Figure&#58; Use “Resource Monitor”
 prior to allocating</strong></span><span style="text-indent&#58;36pt;"><strong> more RAM on a VM</strong></span></p>
 
 <p class="MsoNormal">&#160; &#160; &#160; &#160; &#160; &#160;&#160;<img src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/highUtilisation.png" alt="highUtilisation.png" style="margin-top&#58;5px;margin-right&#58;5px;margin-bottom&#58;5px;margin-left&#58;5px;" /><br><strong style="text-indent&#58;36pt;">&#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;Figure&#58; If you see something like
