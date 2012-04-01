@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p class="MsoListParagraph" style="text-indent&#58;-0.25in;"><span lang="EN-AU">&#160; &#160; &#160; &#160;RIA services – RIP</span></p>
+<p class="MsoListParagraph" style="text-indent&#58;-0.25in;"><span lang="EN-AU">&#160; &#160; &#160;&#160;RIA services – RIP</span></p>
 
 <p><span lang="EN-AU">WCF – RIP(Now shipped in Asp.Net MVC4)</span></p>
 
