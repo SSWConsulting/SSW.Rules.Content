@@ -18,7 +18,7 @@ Is working as a team all it is cracked up to be?<br>
 It's a well known fact that a good team of 3 people will output more than&#160;3 people working on their own. As well as that, the team members will&#160;find it more rewarding as well.<br>
 &#160;<br>
 The best sum up of this was by famous Wallaby player, Ben Darwin, who said&#58; 
-​​​​
+​​​​​
 <br><excerpt class='endintro'></excerpt><br>
   <div class="quote" style="padding-bottom&#58;20px;padding-left&#58;20px;padding-right&#58;20px;padding-top&#58;20px;">
     <blockquote style="line-height&#58;1.6;">I found the hardest issue of all was that I missed my friends, basically, and that's what I told them when I gave them the jersey for the final. I just missed the&#160;14 guys. There's a feeling that comes in sport, particularly in team sport, where we say we feel jealous of the wages of individual sportspeople but never jealous of the lack of team. When you finish a game of football and you've played together and you walk off with the other 14 men, the guys on the bench, and you've overcome an opposition, you don't have to say anything to each other. You can simply look your fellow man or other player in the eye, and he knows <strong>you helped him</strong>, and you know how <strong>he helped you</strong>. That's enormously satisfying, and I haven't found that anywhere else in life.</blockquote>
