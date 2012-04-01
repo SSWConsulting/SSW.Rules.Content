@@ -13,10 +13,11 @@ authors:
 
 
 
-<span class='intro'> <div>I recall it was&#58;</div>
+<span class='intro'> <div><span style="font-size&#58;11pt;font-family&#58;'calibri','sans-serif';">Do you believe in being verbose? (not short and use too many ternary operators)?<br><br></span>I recall it was&#58;</div>
 <div>a. Marcel = yes verbose,&#160;</div>
 <div>b. TJ=no short.</div>
-<div>What is your opinion/vote on this http&#58;//stackoverflow.com/questions/2765360/ternary-operators-in-c-sharp​</div> </span>
+<div>What is your opinion/vote on this <a href="http&#58;//stackoverflow.com/questions/2765360/ternary-operators-in-c-sharp">http&#58;//stackoverflow.com/questions/2765360/ternary-operators-in-c-sharp</a></div>
+<div>&#160;</div> </span>
 
 
 
