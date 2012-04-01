@@ -12,7 +12,7 @@ authors:
 
 
 <span class='intro'> <p class="MsoListParagraph" style="margin-bottom&#58;12pt;text-indent&#58;-0.25in;"><span lang="EN-AU"><span style="font-family&#58;'times new roman';font-size&#58;7pt;line-height&#58;normal;">&#160; &#160; &#160; &#160; &#160; &#160;&#160;</span></span><span lang="EN-AU">Quote&#58;
-don’t use gated check-ins because…. thanks Peter Provost</span></p> </span>
+don’t use gated check-ins because…. thanks Peter Provost</span>​</p> </span>
 
 
 
