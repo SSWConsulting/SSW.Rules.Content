@@ -24,7 +24,7 @@ you are going to change code, then add test &#160;(aka Red-Green-Refactor)</span
 read Michael Feather’s book on unit testing</span></p>
 <p><span lang="EN-AU"></span><span lang="EN-AU">e.&#160;</span><span lang="EN-AU">TIP&#58;
 don’t focus on the percentage of code coverage, focus on the if it touch the
-line of code you care about​&#160;</span>​</p> </span>
+line of code you care about​&#160;</span>​​</p> </span>
 
 
 
