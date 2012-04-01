@@ -12,7 +12,7 @@ authors:
 
 
 <span class='intro'> <p><span lang="EN-AU">a.<span>&#160;</span></span><span lang="EN-AU">Look
-for inline SQL​&#160;</span></p> </span>
+for inline SQL​&#160;</span>​</p> </span>
 
 
 
