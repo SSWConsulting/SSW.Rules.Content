@@ -15,10 +15,9 @@ authors:
 
 
 
-<span class='intro'> <i style="font-family&#58;calibri, sans-serif;font-size&#58;15px;line-height&#58;normal;text-align&#58;-webkit-auto;">“Aim for simplicity. I want to code to read like poetry”&#160;</i><span style="font-family&#58;calibri, sans-serif;font-size&#58;15px;line-height&#58;normal;text-align&#58;-webkit-auto;">– Terje Sandstrom&#160;</span>
- </span>
+<span class='intro'> <i style="font-size&#58;15px;font-family&#58;calibri, sans-serif;line-height&#58;normal;">“Aim for simplicity. I want to code to read like poetry”&#160;</i><span style="font-size&#58;15px;font-family&#58;calibri, sans-serif;line-height&#58;normal;">– Terje Sandstrom&#160;</span>  </span>
 
-<strong>​Clean Back-end Code</strong><div> &#160; &#160;-Meaningful names</div>
+<strong>​Clean Back-end Code</strong> <div>&#160; &#160;-Meaningful names</div>
 <div>&#160; &#160; -Functions</div>
 <div>&#160; &#160; &#160; &#160; &#160;Prefer exceptions to returning error codes</div>
 <div>&#160; &#160; &#160; &#160; &#160;don't repeat yourself</div>
@@ -36,39 +35,16 @@ authors:
 <div></div>
 <div><strong>e.g.</strong>I want to show some products which unit price less than 20,and also &#160;to know how many &#160;products in every&#160;category.</div>
 <div>one&#160;way to solve the problem&#58;<span></span><strong>Tell</strong><strong> how without Linq</strong></div>
-<div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span>Dictionary</span>&lt;<span style="color&#58;blue;">string</span>, <span>Grouping</span>&gt; groups = <span style="color&#58;blue;">new </span><span>Dictionary</span>&lt;<span style="color&#58;blue;">string</span>, <span>Grouping</span>&gt;();
-<span style="color&#58;blue;">foreach </span>(<span>Product </span>p <span style="color&#58;blue;">in </span>products)
-&#123;
-    <span style="color&#58;blue;">if </span>(p.UnitPrice &gt;= 20)
-    &#123;
-        <span style="color&#58;blue;">if </span>(!groups.ContainsKey(p.CategoryName))
-        &#123;
-            <span>Grouping </span>r = <span style="color&#58;blue;">new </span><span>Grouping</span>();
-            r.CategoryName = p.CategoryName;
-            r.ProductCount = 0;
-            groups[p.CategoryName] = r;
-        &#125;
-        groups[p.CategoryName].ProductCount++;
-    &#125;
-&#125;
-
-<span>List</span>&lt;<span>Grouping</span>&gt; result = <span style="color&#58;blue;">new </span><span>List</span>&lt;<span>Groupi</span><span>ng</span>&gt;(groups.Values);
-result.Sort(<span style="color&#58;blue;">delegate</span>(<span>Grouping </span>x, <span>Grouping </span>y)
-&#123;
-    <span style="color&#58;blue;">return
-      </span><span style="color&#58;blue;">  </span>x.ProductCount &gt; y.ProductCount ? -1 &#58;
-        x.ProductCount &lt; y.ProductCount ? 1 &#58;
-        0;
-&#125;);</pre>
-<font face="consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体" size="2"><span style="white-space&#58;pre-wrap;"></span></font></div>
+<div class="ssw-rteStyle-CodeArea"><font size="2" face="consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体"><span style="white-space&#58;pre-wrap;"><div>Dictionary&lt;string, Grouping&gt; groups = new Dictionary&lt;string, Grouping&gt;();<br>foreach (Product p in products)<br>&#123;<br>&#160;&#160;&#160; if (p.UnitPrice &gt;= 20)<br>&#160;&#160;&#160; &#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; if (!groups.ContainsKey(p.CategoryName))<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Grouping r = new Grouping();<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; r.CategoryName = p.CategoryName;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; r.ProductCount = 0;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; groups[p.CategoryName] = r;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#125;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; groups[p.CategoryName].ProductCount++;<br>&#160;&#160;&#160; &#125;<br>&#125;</div>
+<div>List&lt;Grouping&gt; result = new List&lt;Grouping&gt;(groups.Values);<br>result.Sort(delegate(Grouping x, Grouping y)<br>&#123;<br>&#160;&#160;&#160; return<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; x.ProductCount &gt; y.ProductCount ? -1 &#58;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; x.ProductCount &lt; y.ProductCount ? 1 &#58;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0;<br>&#125;);</div>
+</span></font></div>
 <pre><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">the other way&#160;to so</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">lv</span><span style="font-family&#58;verdana, arial, sans-serif;white-space&#58;normal;">e the problem&#58;<b>Tell what with Linq(I can understand the developer's intenstion quickly)</b></span>
 </pre>
-<div><pre class="code" style="font-size&#58;10pt;border-top-width&#58;1px;border-right-width&#58;1px;border-bottom-width&#58;1px;border-left-width&#58;5px;border-top-style&#58;dashed;border-right-style&#58;dashed;border-bottom-style&#58;dashed;border-left-style&#58;solid;padding-top&#58;8px;padding-right&#58;8px;padding-bottom&#58;8px;padding-left&#58;8px;white-space&#58;pre-wrap;word-wrap&#58;break-word;font-family&#58;consolas, monaco, 'lucida console', 'liberation mono', 'dejavu sans mono', 'bitstream vera sans mono', 'courier new', 宋体;margin-top&#58;10px;margin-bottom&#58;10px;"><span style="color&#58;blue;"> </span>result = products
+<div class="ssw-rteStyle-CodeArea"><pre><span> </span>result = products
     .Where(p =&gt; p.UnitPrice &gt;= 20)
     .GroupBy(p =&gt; p.CategoryName)
     .OrderByDescending(g =&gt; g.Count())
-    .Select(g =&gt; <span style="color&#58;blue;">n</span><span style="color&#58;blue;">ew </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div>
-
+    .Select(g =&gt; <span>n</span><span>ew </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div>
 <div><b><br></b><strong></strong></div>
 <div><b><br></b></div>
 
