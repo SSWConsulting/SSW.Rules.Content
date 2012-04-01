@@ -15,7 +15,7 @@ redirects: []
 
 
 <p><span lang="EN-AU">a.<span>&#160;</span></span><span lang="EN-AU">Look
-for inline SQL​&#160;</span></p>
+for inline SQL​&#160;</span>​</p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
