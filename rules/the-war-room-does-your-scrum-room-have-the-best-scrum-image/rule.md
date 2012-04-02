@@ -18,7 +18,7 @@ We all know that a visual image can make a complex process easy to understand. H
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/SCRUMImage-bad02.jpg" alt="" /> </dt>
 <dd>Bad Figure&#58; This image doesn't include the review and the retro</dd></dl>
-<dl class="badImage"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/SCRUMImage-good.jpg" width="650" alt="" /> </dt>
+<dl class="badImage"><dt><img width="650" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/SCRUMImage-good.jpg" alt="" /> </dt>
 <dd>OK Figure&#58; This Scrum image is OK because it includes all the important steps including the Review and the Retro</dd></dl>
 <dl class="goodImage"><dt><a href="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8Steps.jpg" style="border-bottom&#58;medium none;"><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8Steps_preview.jpg" alt="" /></a> </dt>
 <dd>Good Figure&#58; This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print this &quot;<a href="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8StepstoScrum.pdf">SSW 8 Steps to Scrum pdf</a>&quot; and put it on your 'War Room' wall.</dd></dl>
