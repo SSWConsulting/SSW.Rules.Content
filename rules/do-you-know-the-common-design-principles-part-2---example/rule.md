@@ -19,8 +19,7 @@ related: []
 
 The hot spots identified in your solution often indicate violations of common design principles.
 <br><excerpt class='endintro'></excerpt><br>
-​<p><img src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/CodeMetrics_3.png" alt="" style="margin&#58;5px;width&#58;600px;" /></p>
-<div class="ssw-rteStyle-FigureNormal">Figure&#58; Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities</div>
+​<img src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/CodeMetrics_3.png" alt="" style="margin&#58;5px;width&#58;600px;" /><div class="ssw-rteStyle-FigureNormal">Figure&#58; Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities</div>
 <p>The most common problem encountered will be code that violates the Single Responsibility Principle (SRP). Addressing SRP issues will see a reduction in the following 3 metrics&#58;</p>
 <ol><li>&quot;Cyclomatic Complexity&quot; which indicates that your methods are complex, then</li>
 <li>&quot;High Coupling&quot; indicates that your class/method relies on many other classes, then</li>
