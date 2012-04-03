@@ -22,7 +22,9 @@ authors:
 <li>Has consistent and meaningful names for everything</li>
 <li>Has no repeated or redundant code</li>
 <li>Includes comments that explain the&#160;intent (the why rather than the what)</li>
-<li>Has consistent styles and formatting</li></ul>
+<li>Has consistent styles and formatting</li>
+<li>Explains &quot;why&quot; when you read down, and &quot;how&quot; when you read left to right</li>
+</ul>
 <p><strong>Tip&#58; </strong>Read this book&#160;<a href="http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http&#58;//www.e-reading.org.ua/bookreader.php/134601/Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA">Clean Code&#58; A Handbook of Agile Software Craftsmanship</a>&#160;by Robert. C. Martin</p>
 <div><strong>Good code is declarative&#58;</strong></div>
 <div>For example, I want to show all the products where the&#160;unit price less than 20, and also&#160;how many&#160;products are in each category.</div>
