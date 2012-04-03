@@ -20,6 +20,6 @@ authors:
 <p>Check they have instruction files in their solution as per <a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/InstructionsHelpImproveWebProjects.aspx">Instructions Help Web Projects</a>.</p>
 <div style="background-color&#58;#ffff00;"><span style="background-color&#58;#ffff00;">[TODO&#58; rename page]</span></div> </span>
 
-<p class="ssw-rteStyle-Tip">Warning&#58; If this step is problematic, there are other things you could start teaching a developer about to improve their process.&#160; For example, are they using <a href="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/TestDrivenProcess.aspx">Test Driven Development</a>, or are they checking in regularly, but this should be saved for the <a href="http&#58;//www.ssw.com.au/ssw/Consulting/SoftwareAudit.aspx">Team&#160;&amp;&#160;Process Review</a>.&#160;</p>
+<p class="ssw-rteStyle-Tip">Warning&#58; If this step is problematic, there are other things you could start teaching&#160;the developers about to improve their process.&#160; For example, are they using <a href="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/TestDrivenProcess.aspx">Test Driven Development</a>, or are they checking in regularly, but this should be saved for the <a href="http&#58;//www.ssw.com.au/ssw/Consulting/SoftwareAudit.aspx">Team&#160;&amp;&#160;Process Review</a>.&#160;</p>
 
 
