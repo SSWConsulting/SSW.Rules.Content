@@ -13,10 +13,10 @@ authors:
 
 
 
-<span class='intro'> <span lang="EN-AU" style="text-indent&#58;-0.25in;">a.<span style="font-family&#58;'times new roman';font-size&#58;7pt;line-height&#58;normal;">&#160;</span></span><span lang="EN-AU" style="text-indent&#58;-0.25in;">Bad
-code = for each</span><div><span lang="EN-AU" style="text-indent&#58;-0.25in;"></span><span lang="EN-AU" style="text-indent&#58;-0.25in;">b.<span style="font-family&#58;'times new roman';font-size&#58;7pt;line-height&#58;normal;">&#160;</span></span><span lang="EN-AU" style="text-indent&#58;-0.25in;">Good
-code = LINQ.FindFirst&#160;</span></div> </span>
+<span class='intro'> <p>Linq is a fantastic addition to .Net which lets you write clear and beautiful declarative code. Linq allows you to focus more on the <strong>*what*</strong> and less on the <strong>*how*</strong>.</p>
+<p>You should look for opportunities to replace your existing code with Linq.</p> </span>
 
-
+<p>​For example, replace your foreach loops with Linq.</p>
+<p><span class="ssw-rteStyle-CodeArea">var lucrativeCustomers = new List&lt;Customer&gt;();<br>foreach (var customer in Customers)<br>&#123;<br>&#160;&#160;&#160; if (customer.Orders.Count &gt; 0) &#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; lucrativeCustomers.Add(customer);<br>&#160;&#160;&#160; &#125;<br>&#125;</span> <span class="ssw-rteStyle-FigureBad">Figure&#58; Bad Example - imperative programming using a foreach </span><span class="ssw-rteStyle-FigureBad">loop.</span><span class="ssw-rteStyle-CodeArea">var</span><span class="ssw-rteStyle-CodeArea"> lucrativeCustomers = Customers.Where(c =&gt; c.Orders.Count &gt; 0).ToList();</span><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - declarative programming using Linq.</span></p>
 
 
