@@ -1,0 +1,20 @@
+
+
+---
+authors:
+  - id: 1
+    title: Adam Cogan
+  - id: 23
+    title: Damian Brady
+---
+
+
+
+
+<span class='intro'> <p>Linq is a fantastic addition to .Net which lets you write clear and beautiful declarative code. Linq allows you to focus more on the <strong>*what*</strong> and less on the <strong>*how*</strong>.</p>
+<p>You should look for opportunities to replace your existing code with Linq.</p> </span>
+
+<p>​For example, replace your foreach loops with Linq.</p>
+<p><span class="ssw-rteStyle-CodeArea">var lucrativeCustomers = new List&lt;Customer&gt;();<br>foreach (var customer in Customers)<br>&#123;<br>&#160;&#160;&#160; if (customer.Orders.Count &gt; 0) &#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; lucrativeCustomers.Add(customer);<br>&#160;&#160;&#160; &#125;<br>&#125;</span> <span class="ssw-rteStyle-FigureBad">Figure&#58; Bad Example - imperative programming using a foreach </span><span class="ssw-rteStyle-FigureBad">loop.</span><span class="ssw-rteStyle-CodeArea">var</span><span class="ssw-rteStyle-CodeArea"> lucrativeCustomers = Customers.Where(c =&gt; c.Orders.Count &gt; 0).ToList();</span><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - declarative programming using Linq.</span></p>
+
+
