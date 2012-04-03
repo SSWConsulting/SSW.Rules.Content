@@ -23,7 +23,7 @@ authors:
 <td class="ssw-rteTableEvenCol-default">Control of the object coupling is the responsibility of the caller, not the class.</td></tr>
 <tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​DI</th>
 <td class="ssw-rteTableOddCol-default">​<a href="http&#58;//en.wikipedia.org/wiki/Dependency_injection">Dependency Injection</a></td>
-<td class="ssw-rteTableEvenCol-default">Dependencies are &quot;injected&quot; into the dependent object rather than the object deciding on concretions.</td></tr>
+<td class="ssw-rteTableEvenCol-default">Dependencies are &quot;injected&quot; into the dependent object rather than the object depending on concretions.</td></tr>
 <tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​Factory</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Factory_pattern">​Factory Pattern</a></td>
 <td class="ssw-rteTableEvenCol-default">​Object creation is handled by a &quot;factory&quot; that can provide different concretions based on an abstraction.</td></tr>
