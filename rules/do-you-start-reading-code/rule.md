@@ -41,7 +41,7 @@ authors:
     .Select(g =&gt; <span>n</span><span>ew</span><span> </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div></div>
 <div class="ssw-rteStyle-FigureGood"><b>Figure&#58; Good example - using LINQ</b><strong></strong></div>
 <div><b><br></b></div>
-<div><strong>Tip&#58; </strong>For more information on why&#160;declarative programming&#160;(aka LINQ, SQL, HTML) is great,&#160;watch the <a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">TechDay</a><span>s 2010 Keynote by Anders Hejlsberg.</span> Anders explains why it's better to have code &quot;tell&#160;what,&#160;not how&quot;.</div>
+<div><strong>Tip&#58; </strong>For more information on why&#160;declarative programming&#160;(aka LINQ, SQL, HTML) is great,&#160;watch the <a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg"></a><span>TechDay</span><span>s</span><span> 2010 Keynote by Anders Hejlsberg.</span> Anders explains why it's better to have code &quot;tell&#160;what,&#160;not how&quot;.</div>
 <p><strong>Clean front-end code - HTML (? designers)</strong></p>
 <div>Anyone who creates their own HTML pages today should aim to make their markup semantically correct. For more information on semantic markup, see <a href="http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/">http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/</a>.</div>
 <div>For example&#58;</div>
