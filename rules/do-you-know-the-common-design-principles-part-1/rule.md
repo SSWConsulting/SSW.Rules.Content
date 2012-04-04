@@ -30,7 +30,7 @@ authors:
 <td class="ssw-rteTableEvenCol-default">Depend on abstractions, not on concretions.​</td></tr></tbody></table></p>
 <div class="ssw-rteStyle-FigureNormal">Figure&#58; Your code should be using SOLID principles</div> </span>
 
-<p>​It is assumed knowledge that you know these 6. If you don't, read about them on Uncle Bob's site above, or watch the <a href="http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=principles-oo-design&amp;highlight=">Pluralsight videos</a>&#160;by Steve Smith.</p>
+<p>​It is assumed knowledge that you know these 6. If you don't, read about them on Uncle Bob's site above, or watch the <a href="http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=principles-oo-design&amp;highlight=">SOLID Pluralsight videos by Steve Smith.</a></p>
 <p><strong>What order?</strong></p>
 <ol><li>Look for Single Responsibility&#160;Principle violations. These are the most common and are the source of many other issues. Reducing the size and complexity of your classes and methods will often resolve other problems.</li>
 <li>Liskov Substitution and Dependency Inversion are the next most common violations, so keep an eye out for them next.</li>
