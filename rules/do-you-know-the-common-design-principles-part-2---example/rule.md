@@ -41,7 +41,7 @@ authors:
 &#125;
 </pre>
 <div class="ssw-rteStyle-FigureBad">Figure&#58; Bad example - This class does two distinct jobs. It creates print jobs and manages printers.</div>
-<pre class="ssw-rteStyle-CodeArea">public class PrintServer &#123;
+<pre class="ssw-rteStyle-CodeArea">public class Printers &#123;
     public string CreateJob(PrintJob data) &#123; //...
     &#125;
     public int GetStatus(string jobId) &#123; //...
@@ -49,7 +49,7 @@ authors:
     public void Print(string jobId, int startPage, int endPage) &#123; //...
     &#125;
 &#125;
-public class PrinterList &#123;
+public class PrinterManager &#123;
     public List GetPrinterList() &#123; //...
     &#125;
     public bool AddPrinter(Printer printer) &#123; //...
