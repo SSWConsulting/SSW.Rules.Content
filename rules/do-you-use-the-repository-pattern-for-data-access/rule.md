@@ -22,4 +22,3 @@ authors:
 <p>See&#160;the <a href="http&#58;//blog.damianbrady.com.au/2012/03/07/a-generic-crud-repository-for-entity-framework/">&quot;A Generic CRUD Repository for Entity Framework&quot;</a>&#160;blog post by Damian Brady for an example of how to implement a repository pattern.</p>
 
 
-
