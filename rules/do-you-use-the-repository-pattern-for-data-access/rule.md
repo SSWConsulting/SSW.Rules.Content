@@ -19,6 +19,7 @@ authors:
 <li>Testability of your code without having to hit the database (you can just mock the repository)</li>
 <li>Reusability of data access code without having to worry about consistency</li></ul>
 <p>Even better, by providing a consistent repository base class, you can get all your CRUD operations while avoiding any plumbing code.</p>
-<p>See <a href="http&#58;//brdy.in/xqrAFb">this blog post</a>&#160;by Damian Brady for an example of how to implement a repository pattern for Entity Framework.</p>
+<p>See&#160;the <a href="http&#58;//blog.damianbrady.com.au/2012/03/07/a-generic-crud-repository-for-entity-framework/">&quot;A Generic CRUD Repository for Entity Framework&quot;</a>&#160;blog post by Damian Brady for an example of how to implement a repository pattern.</p>
+
 
 
