@@ -13,10 +13,8 @@ authors:
 
 
 
-<span class='intro'> <p><span lang="EN-AU">a.<span>&#160;&#160;&#160;&#160;&#160;&#160;
-</span></span><span lang="EN-AU">Look
-for building up HTML strings ​&#160;</span></p> </span>
+<span class='intro'> <p>Hard-coded strings in a codebase can be a sign of poor architecture.</p> </span>
 
-
+​To make hard-coded strings easier to find, <a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/HlightStrings.aspx">consider highlighting them in your IDE</a>.
 
 
