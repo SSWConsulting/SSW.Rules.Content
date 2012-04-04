@@ -22,7 +22,8 @@ authors:
 <ol><li>&quot;Cyclomatic Complexity&quot; which indicates that your methods are complex, then</li>
 <li>&quot;High Coupling&quot; indicates that your class/method relies on many other classes, then</li>
 <li>&quot;Number of Lines&quot; indicates code structures that are long and unwieldy.</li></ol>
-<p>Let's look at code that does more than one thing, and therefore breaks the Single Responsibility Principle.</p>
+<p>Let's just look at one example.</p>
+<p>For example, this code does more than one thing, and therefore breaks the Single Responsibility Principle.</p>
 <pre class="ssw-rteStyle-CodeArea">public class PrintServer 
 &#123;
     public string CreateJob(PrintJob data) &#123; //...
