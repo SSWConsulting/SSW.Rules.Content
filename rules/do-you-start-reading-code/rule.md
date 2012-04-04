@@ -21,11 +21,11 @@ authors:
 <ul><li>Is clear and easy to read</li>
 <li>Has consistent and meaningful names for everything</li>
 <li>Has no repeated or redundant code</li>
-<li>Includes comments that explain the&#160;intent (the why rather than the what)</li>
 <li>Has consistent styles and formatting</li>
+<li>Includes comments that explain the&#160;intent (the why rather than the what)</li>
 <li>Explains &quot;why&quot; when you read down, and &quot;how&quot; when you read left to right</li></ul>
-<ul><strong>Tip&#58; </strong>Read the book <a href="http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http&#58;//www.e-reading.org.ua/bookreader.php/134601/Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA"><font color="#3a66cc">Clean Code&#58; A Handbook of Agile Software Craftsmanship</font></a> by Robert. C. Martin</ul>
-<div><strong>Good code is declarative&#58;</strong></div>
+<span class="ssw-rteStyle-CodeArea">public int GetFirstCustomerWithLastName(string lastname)<br>&#123;<br><span style="background-color&#58;#ffff00;">&#160; // we use StartsWith because the legacy system sometimes padded with spaces</span><br>&#160; return repository.Customer.First(c =&gt; c.LastName.StartsWith(lastname));<br>&#125;</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; Good comments explain the intent of the code rather than what it is </span><span class="ssw-rteStyle-FigureNormal">doing</span><span class="ssw-rteStyle-CodeArea">public</span><p>&#160;</p><span class="ssw-rteStyle-CodeArea"> int GetActiveSupplierCustomers(int supplierId) &#123;<br>&#160;&#160;&#160; var supplier = repository.Suppliers.Single(s =&gt; s.Id == supplierId);<br><br>&#160;&#160;&#160; var customers = suppliers.Customers<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; .Where(c =&gt; c.Orders &gt; 0);<br><br>&#160;&#160;&#160; return customers;<br>&#125;</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; This code explains what it is doing as you read left to right, and why it is doing it when you read top to bottom.</span><strong><p>Tip&#58; </p></strong><p>&#160;</p>
+Read the book <a href="http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http&#58;//www.e-reading.org.ua/bookreader.php/134601/Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA"><font color="#3a66cc">Clean Code&#58; A Handbook of Agile Software Craftsmanship</font></a> by Robert. C. Martin.<div><strong>Good code is declarative&#58;</strong></div>
 <div>For example, I want to show all the products where the&#160;unit price less than 20, and also&#160;how many&#160;products are in each category.</div>
 <div><div class="ssw-rteStyle-CodeArea"><div>Dictionary&lt;string, Grouping&gt; groups = new Dictionary&lt;string, Grouping&gt;();<br><span style="background-color&#58;rgb(255,255,0);"><span style="background-color&#58;rgb(255,255,0);">foreach</span></span> (Product p in products)<br>&#123;<br>&#160;&#160;&#160; <span style="background-color&#58;rgb(255,255,0);"><span style="background-color&#58;rgb(255,255,0);">if (p.UnitPrice &gt;= 20)</span></span><br>&#160;&#160;&#160; &#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;<span style="background-color&#58;rgb(255,255,0);"> if (!groups.ContainsKey(p.CategoryName))</span><br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Grouping r = new Grouping();<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; r.CategoryName = p.CategoryName;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; r.ProductCount = 0;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; groups[p.CategoryName] = r;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#125;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; groups[p.CategoryName].ProductCount++;<br>&#160;&#160;&#160; &#125;<br>&#125;</div>
 <div>List&lt;Grouping&gt; result = new List&lt;Grouping&gt;(groups.Values);<br>result.Sort(delegate(Grouping x, Grouping y)<br>&#123;<br>&#160;&#160;&#160; return<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; x.ProductCount &gt; y.ProductCount ? -1 &#58;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; x.ProductCount &lt; y.ProductCount ? 1 &#58;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; 0;<br>&#125;);</div></div></div>
@@ -39,7 +39,7 @@ authors:
     .Select(g =&gt; <span>n</span><span>ew</span><span> </span>&#123; CategoryName = g.Key, ProductCount = g.Count() &#125;);</pre></div></div>
 <div class="ssw-rteStyle-FigureGood"><b>Figure&#58; Good example - using LINQ</b><strong></strong></div>
 <div><b><br></b></div>
-<div><strong>Tip&#58; </strong>For more information on why&#160;declarative programming&#160;(aka LINQ, SQL, HTML) is great,&#160;watch the <a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">TechDays 2010 Keynote by Anders Hejlsberg.</a> Anders explains why it's better to have code &quot;tell&#160;what,&#160;not how&quot;.</div>
+<div><strong>Tip&#58; </strong>For more information on why&#160;declarative programming&#160;(aka LINQ, SQL, HTML) is great,&#160;watch the <a href="http&#58;//channel9.msdn.com/blogs/adebruyn/techdays-2010-developer-keynote-by-anders-hejlsberg">TechDay</a><span>s 2010 Keynote by Anders Hejlsberg.</span> Anders explains why it's better to have code &quot;tell&#160;what,&#160;not how&quot;.</div>
 <p><strong>Clean front-end code - HTML (? designers)</strong></p>
 <div>Anyone who creates their own HTML pages today should aim to make their markup semantically correct. For more information on semantic markup, see <a href="http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/">http&#58;//www.webdesignfromscratch.com/html-css/semantic-html/</a>.</div>
 <div>For example&#58;</div>
@@ -67,8 +67,7 @@ ajax.onreadystatechange = function() &#123;
 <pre>    url&#58; uri</pre>
 <pre>&#125;).done(function (html) &#123;</pre>
 <pre>    $('results').append(html);</pre>
-<pre>&#125;);</pre></div>
-</div>
+<pre>&#125;);</pre></div></div>
 <div class="ssw-rteStyle-FigureGood"><strong>Figure&#58; Good Example&#160;</strong><strong>- using jQuery​, the code is much cleaner and easier to read</strong></div>
 
 
