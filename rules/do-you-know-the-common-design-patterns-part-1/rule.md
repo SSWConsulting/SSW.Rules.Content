@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> Design patterns are useful for ensuring <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/DoYouKnowCommonDesignPatterns.aspx">common design principles</a> are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain. </span>
+<span class='intro'> Design patterns are useful for ensuring <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/DoYouKnowCommonDesignPrinciples.aspx">common design principles </a>are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain. </span>
 
 <p>​There are a very large number of Design Patterns, but here are a few important ones.</p>
 <table class=" ssw-rteTable-default " cellspacing="0" width="100%" style="border-bottom&#58;#444 1px solid;border-left&#58;#444 1px solid;font-size&#58;1em;border-top&#58;#444 1px solid;border-right&#58;#444 1px solid;"><tbody><tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​IOC</th>
