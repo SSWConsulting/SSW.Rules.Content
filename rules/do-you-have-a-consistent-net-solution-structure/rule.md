@@ -530,7 +530,7 @@ authors:
         </tr>
     </tbody>
 </table>
-<img alt="solutionlayout.png" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/SolutionLayout.png" style="margin&#58;5px;" />
+<img alt="solutionlayout.png" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/SolutionLayout.png" class="ms-rteCustom-ImageArea" />
 <span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - The Solution and Projects are named consistently</span>
 
 
