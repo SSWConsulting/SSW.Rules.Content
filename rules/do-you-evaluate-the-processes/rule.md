@@ -21,7 +21,7 @@ authors:
 <ol><li>Are devs getting bogged down in the UI? [TODO - Damian&#58; create page and link]</li>
 <li>Do you have continuous integration and deployment?</li>
 <li><a href="/SoftwareDevelopment/RulesToBetterSQLServerSchemaDeployment/Pages/DoYouHaveASchemaMaster.aspx">Do you have a Schema Master?</a></li>
-<li><a>Do you have a TFS Master?</a></li>
-<li><a>Do you have a Scrum Master?</a></li></ol>
+<li><a href="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/TFSMaster.aspx">Do you have a TFS Master?</a></li>
+<li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/settheSprintturnaroundmeetings.aspx">Do you have a Scrum Master?</a></li></ol>
 
 
