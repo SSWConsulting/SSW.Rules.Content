@@ -11,21 +11,13 @@ authors:
 
 
 
-<span class='intro'> <p><span lang="EN-AU">a.&#160;</span><span lang="EN-AU">Write
-it, as it spews out of your brain </span></p>
+<span class='intro'> <p><span lang="EN-AU">Kent Beck is the man credited with &quot;rediscovering&quot; the Test Driven Development methodology.&#160; It's a great way to ensure your code works as expected and it will allow you to catch errors that occur down the track.</span></p> </span>
 
-<p><span lang="EN-AU">b.&#160;</span><span lang="EN-AU">Lots
-of small refactoring </span></p>
-
-<p><span lang="EN-AU">c.&#160;</span><span lang="EN-AU">If
-you are going to change code, then add test &#160;(aka Red-Green-Refactor)</span></p>
-
-<p><span lang="EN-AU">d.&#160;</span><span lang="EN-AU">TIP&#58;
-read Michael Feather’s book on unit testing</span></p>
-<p><span lang="EN-AU"></span><span lang="EN-AU">e.&#160;</span><span lang="EN-AU">TIP&#58;
-don’t focus on the percentage of code coverage, focus on the if it touch the
-line of code you care about​&#160;</span>​​</p> </span>
-
-
+<p>Based on Kent Beck's principles, you should&#58; </p>
+<ol><li>Write code as it spews out of your brain</li>
+<li>Do lots of small refactoring rather than big architectural rewrites</li>
+<li>If you are going to change code, add a test first (AKA red-green-refactor)</li></ol>
+<p><strong>Tip&#58;</strong> Read Michael Feather’s book, <a href="http&#58;//www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052"><font color="#3a66cc">&quot;Working Effectively with Legacy Code&quot;</font></a> for some insights into effective unit testing.</p>
+<p><strong>Tip&#58;</strong> Don't focus on the percentage of code coverage, focus on whether tests will touch the lines of code you care about​.</p>
 
 
