@@ -59,5 +59,7 @@ public class PrinterManager &#123;
 </pre>
 <div class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Each class has a single responsibility.</div>
 <p>Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change, but can be resolved by implementing the Inversion of Control <strong>*and*</strong> Dependency Injection patterns.</p>
+<p>TODO&#58; Replace example with TailSpin</p>
+<p>TODO&#58; Updated Code Metrics diagram after fix</p>
 
 
