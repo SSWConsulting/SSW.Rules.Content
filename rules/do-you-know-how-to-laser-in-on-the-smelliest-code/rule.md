@@ -21,7 +21,7 @@ authors:
 <p><img class="ssw-rteStyle-ImageArea" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/CodeMetrics_3.png" alt="" style="margin&#58;5px;width&#58;657px;" /></p>
 <div class="ssw-rteStyle-FigureNormal">Figure&#58; Red dots indicate the code that is hard to maintain e.g. Save() and LoadCustomer()</div>
 <p>Identifying the problem areas is only the start of the process. From here, you should speak to the developers responsible for this dodgy code. There might be good reasons why they haven't invested time on this.</p>
-<p>[TODO - Tiago&#58; Picture of two devs talking]</p>
+<img alt="Two devs talking" class="ssw-rteStyle-ImageArea" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/two-devs-talking.jpg" />
 <p class="ssw-rteStyle-FigureNormal">Figure&#58; Find out who&#160;the devs are&#160;by using the Annotate tool, and start a conversation.</p>
 <p><strong>Tip&#58; </strong>To learn how to use Annotate, see <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#UsingSourceControl">Do you know the benefits of Source Control?</a>.</p>
 <p class="ssw-rteStyle-GreyBox"><span>Suggestion to MS&#58; allow us to visualize the developers responsible for the bad code (currently and historically)</span></p> </span>
