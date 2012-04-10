@@ -22,6 +22,7 @@ authors:
 <li>Model inspector</li>
 </ul>
 <p>Glimpse is available on NuGet, so it’s a simple matter to get it up and running on your application. You can find out more from <a target="_blank" href="http&#58;//getglimpse.com/">their website</a>.</p>
-<p><img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/glimpse.png" alt="glimpse.png" style="margin-top&#58;5px;margin-right&#58;5px;margin-bottom&#58;5px;margin-left&#58;5px;width&#58;650px;" /><br>Figure&#58; Glimpse in action - We can see which routes were chosen for this page, and the parameters used by the controller<br>​​<br></p>
+<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/glimpse.png" alt="glimpse.png" />
+<span class="ms-rteCustom-FigureNormal">Figure&#58; Glimpse in action - We can see which routes were chosen for this page, and the parameters used by the controller</span>
 
 
