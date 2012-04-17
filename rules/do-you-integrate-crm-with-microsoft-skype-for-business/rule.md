@@ -27,7 +27,7 @@ LyncPOP is an easy to use screen pop application that integrates Microsoft Lync 
 <li>Presence Aware – control over what the application does based on Lync/OCS presence</li>
 <li>Phone Activity – provides multiple options to record the call against a CRM record</li>
 </ul>
-<img src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/lyncPOP-options.jpg.jpg" alt="LyncPOP-options.jpg" class="ms-rteCustom-ImageArea" />
+<img src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/lyncPOP-options.jpg" alt="LyncPOP-options.jpg" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; LyncPOP advanced options</span>
 <p>This tool is vital for sales staff and receptionists as a minimum. <br>
 Receptionists get the client record (based upon the inbound number) popup as the phone is ringing. They can answer the call accordantly. Sales staff has the ability to log the call in CRM along with what the call was about and also set a reminder for them to catch up in a few days.</p>
