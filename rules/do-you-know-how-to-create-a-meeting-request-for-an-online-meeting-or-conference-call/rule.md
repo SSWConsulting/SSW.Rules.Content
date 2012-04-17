@@ -30,7 +30,7 @@ Schedule an online meeting or conference call by using the Online Meeting Add-in
 <li>(Optional) In the body of the meeting request, above the Join Online Meeting link, type additional meeting details. <br>
 Note&#58; Do not modify any of the existing text in the meeting request. Doing so may prevent people from joining the meeting.</li>
 <li>(Optional) On the Meeting tab, in the Show group, click Scheduling Assistant. Use the Scheduling Assistant to ensure that everyone is available during the time you choose.</li>
-<li>On the Meeting tab, in the Show group, click Meeting Options, and then accept or change the default options as required. For details about setting Meeting Options go to <a href="http&#58;//office.microsoft.com/en-us/communicator-help/set-options-for-online-meetings-and-conference-calls-HA102000107.aspx?CTT=5&amp;origin=HA101990914">Set options for online meetings and conference calls</a>.</li>
+<li>On the Meeting tab, in the Show group, click Meeting Options, and then accept or change the default options as required. For details about setting Meeting Options go to <a target="_blank" href="http&#58;//office.microsoft.com/en-us/communicator-help/set-options-for-online-meetings-and-conference-calls-HA102000107.aspx?CTT=5&amp;origin=HA101990914">Set options for online meetings and conference calls</a>.</li>
 </ol>
 
 <img src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/lync-online-meeting.jpg" alt="Creating a Lync Online meeting from outlook." class="ms-rteCustom-ImageArea" />
