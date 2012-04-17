@@ -23,7 +23,7 @@ Lync supports &quot;federation&quot; - enabling interoperability with other IM n
 
 <p>Lync Server enables one-to-one audio and video exclusively to PIC contacts that are homed to the MSN service. This change enables corporate users with a strong MSN presence outside of work to reduce the need to run a separate client on their corporate workstation, yet maintain a robust communications experience.</p>
 
-<p>You can request to have your Lync provisioned with PIC via <a href="https&#58;//pic.lync.com/">this link</a>.</p>
+<p>You can request to have your Lync provisioned with PIC via <a target="_blank" href="https&#58;//pic.lync.com/">this link</a>.</p>
 
 
 
