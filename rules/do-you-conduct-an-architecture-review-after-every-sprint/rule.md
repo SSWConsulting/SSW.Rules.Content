@@ -88,6 +88,11 @@ redirects:
     <li>Reliability (failover servers?) </li>
     <li>'Sellability' i.e. is the solution appropriate for the client? </li>
 </ul>
+<p><strong>Enterprise Architect </strong></p>
+<ul>
+<li>should have a datetime of the last time the diagram was modified so we have an indication of when it is out of date</li>
+<li>should have the ability to mark items as ‘todo’. E.g. it would be nice to have an indication of which items on the diagrams have been completed, and which are still pending</li>
+</ul>
 
 
 
