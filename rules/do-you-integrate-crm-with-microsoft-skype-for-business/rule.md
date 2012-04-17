@@ -15,7 +15,7 @@ related: []
 
 LyncPOP is an easy to use screen pop application that integrates Microsoft Lync 2010 (and OCS 2007) with Dynamics CRM 4 / 2011 or CRM Live, maximizing your investment in these two leading applications. 
 <br><excerpt class='endintro'></excerpt><br>
-<p>LyncPOP can be purchased from <a href="http&#58;//www.appvnet.com/services-view/lyncpop/">appVnet website</a>. 
+<p>LyncPOP can be purchased from <a target="_blank" href="http&#58;//www.appvnet.com/services-view/lyncpop/">appVnet website</a>. 
 </p>
 <h2>LyncPOP Features and Benefits</h2>
 <ul>
