@@ -22,13 +22,13 @@ At times especially during the initial implementation you may encounter some iss
 <li>Lyncdiscoverinternal. (both CNAME or A record)</li>
 <li>From the same screen you can ping the resulting hostname or test the port availability on any of the Lync DNS record matches</li>
 </ul>
-<img class="ms-rteCustom-ImageArea" alt="Lync Auto-discovery" src="/ITAndNetworking/PublishingImages/lync-auto-discovery.jpg" />
+<img class="ms-rteCustom-ImageArea" alt="Lync Auto-discovery" src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/lync-auto-discovery.jpg" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Lync Auto-Discovery Mobility DNS record</span>
 <h2>Lync Monitoring Reports</h2>
 <p>The Monitoring Server collects data from the call detail recording (CDR) and Quality of Experience (QoE) databases and presents that data with the help of the SQL Server Reporting Services and the predefined Monitoring reports. These reports will show statistics which will assist in identifying issues such as network issues such as latency and packet loss.</p>
 <h2>Internet Network connectivity tests</h2>
 <p>Tools such as <a target="_blank" href="http&#58;//pingtest.net/">Pingtest.net</a> and VisualRoute 2010 will assist in highlight problems related latency and packet loss.</p>
-<img class="ms-rteCustom-ImageArea" alt="VisualRoute 2010 tool" src="/ITAndNetworking/PublishingImages/visualroute-tool.jpg" />
+<img class="ms-rteCustom-ImageArea" alt="VisualRoute 2010 tool" src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/visualroute-tool.jpg" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; VisualRoute 2010 tool showing a test to a Google DNS server</span>
 
 
