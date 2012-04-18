@@ -9,8 +9,8 @@ authors: []
 
 
 
-<span class='intro'> Once you have created your issue (request) and you remain the <a shape="rect" href="/Management/RulesToBetterJira/Pages/ReportesAndAssignees.aspx">Reporter</a>, there are several ways&#160;you can track them, the&#160;most important is via your&#160;<a shape="rect" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" class="ms-rteCustom-External" target="_blank">Dashboard</a>&#160;; see how to intepret your dashboard <a shape="rect" href="/Management/RulesToBetterJira/Pages/SystemDashboard.aspx">here</a>. 
-​ </span>
+<span class='intro'> Once you have created your issue (request) and you remain the <a shape="rect" href="/Management/RulesToBetterJira/Pages/ReportesAndAssignees.aspx">Reporter</a>, there are several ways&#160;you can track them, the&#160;most important is via your&#160;<a shape="rect" href="/Management/RulesToBetterJira/Pages/TrackingRequests.aspx" class="ms-rteCustom-External" target="_blank">Dashboard</a>&#160;; see how to intepret your dashboard <a shape="rect" href="/Management/RulesToBetterJira/Pages/SystemDashboard.aspx">here</a>. 
+​​ </span>
 
 
   <br>
