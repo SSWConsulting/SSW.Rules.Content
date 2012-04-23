@@ -20,21 +20,21 @@ authors:
 <p>Having Diagnostics enabled can contribute 25 transactions per minute, this is 36,000 transactions per day.</p>
 <p>Question for Microsoft&#58; Is this per Web Role?</p>
 
-<img class="ms-rteCustom-ImageArea" alt="Check properties" src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-check-properties.jpg" />
+<img src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-check-properties.jpg" alt="Check properties" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Check the properties of your web and worker role configuration files</span>
 
-<img class="ms-rteCustom-ImageArea" alt="Disable Diagnostics" src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-disable-diagnostics.jpg" />
+<img src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-disable-diagnostics.jpg" alt="Disable Diagnostics" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Disable diagnostics</span>
 
 <h2>Disable IntelliTrace and Profiling</h2>
 
-<img class="ms-rteCustom-ImageArea" alt="Azure publishing settings" src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-publishing-settings.jpg" />
+<img src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-publishing-settings.jpg" alt="Azure publishing settings" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; When publishing, ensure that IntelliTrace and Profiling are both disabled</span>
 
 <h2>Robots.txt </h2>
 <p>Search bots crawling your site to index it will lead to a lot of transactions. Especially for web &quot;applications&quot; that do not need to be searchable, use Robot.txt to save transactions.</p>
 
-<img class="ms-rteCustom-ImageArea" alt="Place robots.txt" src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-robots.jpg" />
+<img src="/SoftwareDevelopment/Rules-to-Better-Azure/PublishingImages/azure-robots.jpg" alt="Place robots.txt" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Place robots.txt in the root of your site to control search engine indexing</span>
 
 <h2>Continuous Deployment</h2>
