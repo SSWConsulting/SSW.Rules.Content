@@ -26,7 +26,7 @@ Follow these steps to start recording using Camtasia&#58;<div class="ms-rtestate
 <div id="vid_275f23d5-d978-4a25-851a-65779cf3f28c" style="display&#58;none;"></div></div>
 ​​<br><img class="ms-rteCustom-ImageArea" alt="How to record with Camtasia - step 1" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/record-camtasia-1.jpg" /></li>
 <br><span class="ms-rteCustom-FigureNormal">Figure&#58; Click on &quot;Record the Screen&quot;</span> <div class="ms-rtestate-read ms-rte-wpbox"><div id="div_0fd1484c-b4d9-4ad7-a450-b7499f930f1d" class="ms-rtestate-notify  ms-rtestate-read 0fd1484c-b4d9-4ad7-a450-b7499f930f1d">&#160;</div>
-<br><span id="__publishingReusableFragment"></span><div id="vid_0fd1484c-b4d9-4ad7-a450-b7499f930f1d" style="display&#58;none;"></div></div>
+<br><div id="vid_0fd1484c-b4d9-4ad7-a450-b7499f930f1d" style="display&#58;none;"></div></div>
 <li>In the Recorder window, select 'Full Screen', then turn on the mic. Choosing which mic input to use depends on the type of recording you are doing. If you are filming the session, you should select the internal mic since you will be using this for syncing purposes. If however you are just recording your screen with audio, then select an external mic since this will be higher quality. <img class="ms-rteCustom-ImageArea" alt="How to record with Camtasia - step 2" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/record-camtasia-2.jpg" /><span class="ms-rteCustom-FigureNormal">Figure&#58; Select the options you need</span> </li>
 <li>Select Tools | Options</li>
 <li>In the 'General' tab, uncheck the 'Show tooltips' box and check the 'Disable screensaver during capture'.</li>
