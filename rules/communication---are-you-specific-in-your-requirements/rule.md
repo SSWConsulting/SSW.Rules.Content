@@ -11,7 +11,8 @@ related: []
 ---
 
 
-<p><strong>Be Specific</strong><br>When you're scoping the work to be completed, ensure you are as accurate as possible in your requirements. </p>
+<p><strong>Be Specific</strong></p>
+<p>When you're scoping the work to be completed, ensure you are as accurate as possible in your requirements. </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p><span class="ssw-rteStyle-GreyBox">&quot;I want to keep contact details on my clients&quot;</span><br><span class="ssw-rteStyle-FigureBad">Figure&#58; Bad example - likely to require later clarification.</span></p>
 <p><span class="ssw-rteStyle-GreyBox">&quot;I want to record my clients' firstname, surname, mobile phone, email address &amp; Instant Messenger address.&quot; </span><br><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - You'll get exactly what you want. Even better, use screen shots or mock-ups. </span></p>
