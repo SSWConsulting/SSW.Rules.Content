@@ -20,8 +20,8 @@ related: []
 <li>Burndown (ETA) </li>
 <li>Story Overview (testing quality)</li></ul>
 <p>Let's look at those&#160;3 reports&#58;</p>
-<ol><li>Current project costs. This allows you to see the actual costs of the project on a weekly basis. <p><img alt="project progress report" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/images/projectprogresscapture.JPG" /><br><b>Figure 1&#58; Project Progress – There is $30k spent and&#160;$8K outstanding</b> </p></li>
-<li>Current hours remaining and hours completed for the current sprint. <p><img alt="Burndown report from TFS" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/images/burndown.JPG" /><br><b>Figure 2&#58; Burndown report -&#160;Shows the progress of the team in the current sprint – ETA is March 29 and Ana has no work to do</b> </p>
+<ol><li>Current project costs. This allows you to see the actual costs of the project on a weekly basis. <p><img alt="project progress report" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/images/projectprogresscapture.JPG" width="584" height="383" style="width&#58;584px;height&#58;383px;" /><br><b>Figure 1&#58; Project Progress – There is $30k spent and&#160;$8K outstanding</b> </p></li>
+<li>Current hours remaining and hours completed for the current sprint. <p><img alt="Burndown report from TFS" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/images/burndown.JPG" width="640" height="639" style="height&#58;639px;" /><br><b>Figure 2&#58; Burndown report -&#160;Shows the progress of the team in the current sprint – ETA is March 29 and Ana has no work to do</b> </p>
 <p><strong>Questions that the Burndown and Burn Rate report help answer&#58; </strong></p>
 <ol><li>Is the team likely to finish the iteration on time? </li>
 <li>Will the team complete the required work, based on the current Burn Rate? </li>
