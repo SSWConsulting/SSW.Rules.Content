@@ -15,11 +15,11 @@ authors:
 
 ​1. Open IE,&#160;go to the folder view which contains the report you're going to subscribe.<div><img src="/ReportingSolutions/RulesToBetterReportingSolutions/PublishingImages/reportFolderView.png" alt="reportFolderView.png" class="ssw-rteStyle-ImageArea" style="width&#58;547px;height&#58;247px;" /><div><div class="ssw-rteStyle-FigureNormal">Figure. Reports folder view</div>
 <div><br><div><div>2.&#160;Click the report you're going to subscribe and select &quot;Subscribe...&quot;.</div>
-<div><img src="/ReportingSolutions/RulesToBetterReportingSolutions/PublishingImages/subscribeReport.png" alt="subscribeReport.png" class="ssw-rteStyle-ImageArea" style="width&#58;500px;height&#58;333px;" />&#160;</div>
+<div><img src="/ReportingSolutions/RulesToBetterReportingSolutions/PublishingImages/subscribeReport.png" alt="subscribeReport.png" class="ssw-rteStyle-ImageArea" style="width&#58;547px;height&#58;395px;" />&#160;</div>
 <div class="ssw-rteStyle-FigureNormal">Figure. Subscribe report</div>
 <div class="ssw-rteStyle-FigureNormal"><br></div>
 <div>3.&#160;Configuring​ the subscriber's email address, report render&#160;type and schedule.</div>
-<div><img src="/ReportingSolutions/RulesToBetterReportingSolutions/PublishingImages/configurating%20settings.png" alt="configurating settings.png" class="ssw-rteStyle-ImageArea" style="height&#58;365px;width&#58;521px;" />&#160;</div>
+<div><img src="/ReportingSolutions/RulesToBetterReportingSolutions/PublishingImages/configurating%20settings.png" alt="configurating settings.png" class="ssw-rteStyle-ImageArea" style="width&#58;547px;height&#58;414px;" />&#160;</div>
 <div class="ssw-rteStyle-FigureNormal">Figure. Configuring report</div>
 <div><br><br><br><br><br></div></div></div></div></div>
 
