@@ -15,8 +15,9 @@ related: []
 
 You should never use concatenated words in the subject or body of an email, no matter how much better you think it is. You are misguided, always use a “space”, “&amp;” or “and” as your spell checker will then catch mistakes. 
 <br><excerpt class='endintro'></excerpt><br>
-<p><img title="clip_image001" border="0" alt="clip_image001" src="/Communication/RulesToBetterEmail/PublishingImages/RuleNeverConcatenateWordsBad.png" style="background-image&#58;none;border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;padding-left&#58;0px;width&#58;643px;padding-right&#58;0px;display&#58;inline;height&#58;631px;border-top&#58;0px;border-right&#58;0px;padding-top&#58;0px;" /> </p>
-<p class="ms-rteCustom-FigureBad">Figure&#58; Bad Example, “CatagoryBrand” will not be spell checked and the mistake overlooked </p>
-<img title="clip_image003" border="0" alt="clip_image003" src="/Communication/RulesToBetterEmail/PublishingImages/RuleNeverConcatenateWordsGood.png" style="background-image&#58;none;border-bottom&#58;0px;border-left&#58;0px;margin&#58;0px 20px;padding-left&#58;0px;width&#58;680px;padding-right&#58;0px;display&#58;inline;height&#58;464px;border-top&#58;0px;border-right&#58;0px;padding-top&#58;0px;" /> <p class="ms-rteCustom-FigureGood">Figure&#58; Good example, spellchecker can check all words for correctness.</p>
+<p><img border="0" src="/Communication/RulesToBetterEmail/PublishingImages/RuleNeverConcatenateWordsBad.png" alt="clip_image001" title="clip_image001" style="border&#58;0px none;margin&#58;0px 20px;background-image&#58;none;padding-left&#58;0px;width&#58;643px;padding-right&#58;0px;display&#58;inline;height&#58;631px;padding-top&#58;0px;" /> </p>
+<div class="ms-rteCustom-FigureBad">Figure&#58; Bad Example, “CatagoryBrand” will not be spell checked and the mistake overlooked </div>
+<img border="0" src="/Communication/RulesToBetterEmail/PublishingImages/RuleNeverConcatenateWordsGood.png" alt="clip_image003" title="clip_image003" style="border&#58;0px none;margin&#58;0px 20px;background-image&#58;none;padding-left&#58;0px;width&#58;680px;padding-right&#58;0px;display&#58;inline;height&#58;464px;padding-top&#58;0px;" /> <div class="ms-rteCustom-FigureGood">Figure&#58; Good example, spellchecker can check all words for correctness.</div>
+
 
 
