@@ -22,7 +22,7 @@ related: []
 <a rel="bookmark" class="entry-date" href="http&#58;//twitter.com/MrHinsh/status/10522525724" shape="rect"><span class="published timestamp">less than 20 seconds ago</span> </a><span>via <a rel="nofollow" href="http&#58;//bitly.com/" shape="rect">bit.ly</a></span> <br>
 Figure&#58; When you comment, tweet the other persons blog. Its only polite.</p>
 </blockquote>
-​​
+​​​
 <br><excerpt class='endintro'></excerpt><br>
 
 
