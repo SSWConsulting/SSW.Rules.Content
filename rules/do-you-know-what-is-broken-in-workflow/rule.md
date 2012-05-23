@@ -18,6 +18,7 @@ authors:
     <span lang="EN-US">SharePoint comes with some very basic workflows out of the box.&#160; A particular example is the content approval workflow.</span>
   </p>
 <p><span lang="EN-US"></span><span lang="EN-US"><span lang="EN-US">When a content approval workflow is used, it modifies the process of publishing content to be&#58;</span>
+</span></p>
 <ol>
     <li><span lang="EN-US">User clicks publish (click 1)</span> </li>
     <li><span lang="EN-US">Workflow starts, and asks the user to request for approval, there’s an option to add additional messages (click 2)</span> </li>
@@ -30,9 +31,10 @@ authors:
 </ol>
 <p><span lang="EN-US"></span><span lang="EN-US">What is the problem?</span></p>
 <p class="MsoNormal"><span lang="EN-US">The out of the box workflow is extremely generic.&#160; It has no customizations or shortcuts.&#160; Even if you are an approver, you cannot skip any of the steps.&#160; The end result is that you will have to click 4 times and receive 3 emails, for approving your own finalized content.</span><span lang="EN-US">
+</span></p>
 <p class="MsoNormal"><span lang="EN-US">These kind of workflows are designed generic to fit any business’ needs – and in fact, businesses using these out of the box workflows have to adjust their staff’s workflow to match SharePoint’s ones.&#160; Which can be counter intuitive.</span></p>
-</span></p>
-</span></p>
+<p></p>
+<p></p>
  </span>
 
 
@@ -40,12 +42,12 @@ authors:
     <span lang="EN-US">We think these SharePoint workflows need to be far more customizable.</span>
     <span lang="EN-US">&#160;</span>
   </p>
-<p class="MsoNormal"><span lang="EN-US"></span><span style="font-family&#58;'calibri', 'sans-serif';font-size&#58;11pt;" lang="EN-US">SharePoint does not provide support for complex reusable workflows easily - most companies go for a 3rd party solution&#58;</span></p>
+<p class="MsoNormal"><span lang="EN-US"></span><span lang="EN-US" style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">SharePoint does not provide support for complex reusable workflows easily - most companies go for a 3rd party solution&#58;</span></p>
 <dl class="image">
-    <dt><img alt="" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Blackpearl.png" /> </dt>
+    <dt><img src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Blackpearl.png" alt="" /> </dt>
     <dd>Figure&#58; 3rd party tool - Blackpearl
     <dl class="image">
-        <dt><img alt="" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Ninetex.png" /> </dt>
+        <dt><img src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/Ninetex.png" alt="" /> </dt>
         <dd>Figure&#58; 3rd party tool - Ninetex </dd>
     </dl>
     </dd>
