@@ -32,11 +32,11 @@ Another problem of&#160;Default.master is that it contains many tables that&#160
     &lt;BODY scroll=&quot;yes” ... &gt;<br>
     &lt;form runat=&quot;server&quot; onsubmit=&quot;return _spFormOnSubmitWrapper();&quot;&gt;<br>
     &lt;WebPartPages&#58;SPWebPartManager id=&quot;m&quot; runat=&quot;Server&quot;/&gt;<br>
-    <font style="background-color&#58;#ffff80;">&lt;table class=&quot;ms-main&quot; CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot; HEIGHT=&quot;100%&quot;&gt;</font><br>
+    <font style="background-color&#58;rgb(255, 255, 128);">&lt;table class=&quot;ms-main&quot; CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot; HEIGHT=&quot;100%&quot;&gt;</font><br>
     &lt;tr&gt;<br>
     &lt;td&gt;<br>
     &lt;asp&#58;ContentPlaceHolder id=&quot;PlaceHolderGlobalNavigation&quot; runat=&quot;server&quot;&gt;<br>
-    <font style="background-color&#58;#ffff80;">&lt;table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot;&gt;</font><br>
+    <font style="background-color&#58;rgb(255, 255, 128);">&lt;table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot;&gt;</font><br>
     ...<br>
     &lt;/table&gt;<br>
     &lt;/asp&#58;ContentPlaceHolder&gt;<br>
@@ -54,7 +54,7 @@ Another problem of&#160;Default.master is that it contains many tables that&#160
     &lt;/tr&gt;<br>
     &lt;tr height=&quot;100%&quot;&gt;<br>
     &lt;td&gt;<br>
-    <font style="background-color&#58;#ffff80;">&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;</font><br>
+    <font style="background-color&#58;rgb(255, 255, 128);">&lt;table width=&quot;100%&quot; height=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;</font><br>
     ...<br>
     &lt;/table&gt;<br>
     &lt;/td&gt;<br>
