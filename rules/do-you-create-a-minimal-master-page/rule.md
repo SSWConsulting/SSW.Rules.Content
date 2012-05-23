@@ -35,11 +35,11 @@ Another problem of&#160;Default.master is that it contains many tables that&#160
     {ltHTMLChar}BODY scroll=&quot;yes” ... {gtHTMLChar}<br>
     {ltHTMLChar}form runat=&quot;server&quot; onsubmit=&quot;return _spFormOnSubmitWrapper();&quot;{gtHTMLChar}<br>
     {ltHTMLChar}WebPartPages&#58;SPWebPartManager id=&quot;m&quot; runat=&quot;Server&quot;/{gtHTMLChar}<br>
-    <font style="background-color&#58;#ffff80;">{ltHTMLChar}table class=&quot;ms-main&quot; CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot; HEIGHT=&quot;100%&quot;{gtHTMLChar}</font><br>
+    <font style="background-color&#58;rgb(255, 255, 128);">{ltHTMLChar}table class=&quot;ms-main&quot; CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot; HEIGHT=&quot;100%&quot;{gtHTMLChar}</font><br>
     {ltHTMLChar}tr{gtHTMLChar}<br>
     {ltHTMLChar}td{gtHTMLChar}<br>
     {ltHTMLChar}asp&#58;ContentPlaceHolder id=&quot;PlaceHolderGlobalNavigation&quot; runat=&quot;server&quot;{gtHTMLChar}<br>
-    <font style="background-color&#58;#ffff80;">{ltHTMLChar}table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot;{gtHTMLChar}</font><br>
+    <font style="background-color&#58;rgb(255, 255, 128);">{ltHTMLChar}table CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=&quot;100%&quot;{gtHTMLChar}</font><br>
     ...<br>
     {ltHTMLChar}/table{gtHTMLChar}<br>
     {ltHTMLChar}/asp&#58;ContentPlaceHolder{gtHTMLChar}<br>
@@ -57,7 +57,7 @@ Another problem of&#160;Default.master is that it contains many tables that&#160
     {ltHTMLChar}/tr{gtHTMLChar}<br>
     {ltHTMLChar}tr height=&quot;100%&quot;{gtHTMLChar}<br>
     {ltHTMLChar}td{gtHTMLChar}<br>
-    <font style="background-color&#58;#ffff80;">{ltHTMLChar}table width=&quot;100%&quot; height=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;{gtHTMLChar}</font><br>
+    <font style="background-color&#58;rgb(255, 255, 128);">{ltHTMLChar}table width=&quot;100%&quot; height=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;{gtHTMLChar}</font><br>
     ...<br>
     {ltHTMLChar}/table{gtHTMLChar}<br>
     {ltHTMLChar}/td{gtHTMLChar}<br>
