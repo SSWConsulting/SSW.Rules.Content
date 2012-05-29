@@ -19,24 +19,17 @@ If you were talking to someone, trying to come to a conclusion on a topic, when 
 <br><excerpt class='endintro'></excerpt><br>
 <p>This has the following advantages and disadvantages&#58;</p>
 <h4>Advantages&#58;</h4>
-<ul>
-<li>You get to only answer the phone when it is convenient for you</li>
+<ul><li>You get to only answer the phone when it is convenient for you</li>
 <li>You won't be interrupting conversations with clients, which can be seen as unprofessional</li>
-<li>You don't interrupt people's work with loud ring tones</li>
-</ul>
+<li>You don't interrupt people's work with loud ring tones</li></ul>
 <h4>Disadvantages&#58;</h4>
-<ul>
-<li>If your phone (PDA) is connected to your laptop, you might not notice it ringing</li>
+<ul><li>If your phone (PDA) is connected to your laptop, you might not notice it ringing</li>
 <li>As above, but if you're away from your computer, you won't hear it from across the office</li>
-<li>Women generally keep their phones in their bags and so won't hear it unless it rings loudly</li>
-</ul>
+<li>Women generally keep their phones in their bags and so won't hear it unless it rings loudly</li></ul>
 <h4>The following solution should satisfy everyone&#58;</h4>
-<ul>
-<li>Anyone who keeps their phone in their pocket should have it on vibrate</li>
+<ul><li>Anyone who keeps their phone in their pocket should have it on vibrate</li>
 <li>Anyone who keeps their phone plugged into their laptop should have it on low volume settings</li>
 <li>All phones should be on vibrate or off while in meetings</li>
-<li>This is a standard (i.e. best practices) and not a rule to be enforced. This leaves room for exceptions such as slightly deaf people or women</li>
-</ul>
-
+<li>This is a standard (i.e. best practices) and not a rule to be enforced. This leaves room for exceptions such as slightly deaf people or women</li></ul>
 
 
