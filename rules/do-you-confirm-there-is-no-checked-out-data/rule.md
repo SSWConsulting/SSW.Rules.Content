@@ -17,10 +17,10 @@ related: []
 ---
 
 
-<p>Pages in SharePoint are easily checked out, and the changes not checked-in will not be migrated when you migrate SharePoint data.</p>
+<p>Pages in SharePoint are easily checked out, and the changes not checked-in will not be migrated when you do migration for SharePoint data.</p>
 <p>In SSW, we have two ways to check the &quot;checked out files&quot; regularly&#58;</p>
 <ul><li><strong>A. Manage Content and Structure Report (No Code)</strong></li>
-<li><strong><strong>B. Custom applicatioin report (Includes some coding work)</strong></strong></li></ul>
+<li><strong><strong>B. Custom application report (Includes some coding work)</strong></strong></li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 ​ <div><strong>A. Manage Content and Structure Report (No Code)</strong></div>
 <div>1. Create CAML query in site content and structure</div>
@@ -37,6 +37,8 @@ related: []
 <div><img class="ssw-rteStyle-ImageArea" alt="CheckedOutDocuments.png" src="/ITAndNetworking/SharePointMigration/PublishingImages/CheckedOutDocuments.png" style="margin&#58;5px;" /><br></div>
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked Out Documents report link</span> make sure there are no files checked out, otherwise, go step 3. <div><br>3. Go chase after the users.</div>
 <div><br></div>
-<div><strong>B. Custom applicatioin report (Includes some coding work)</strong><br>In SSW, to make the chase work easier, we have a custom page to show the &quot;Checked out files&quot; and send the notification email to naughty people&#58;<img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/ITAndNetworking/SharePointMigration/PublishingImages/CheckedOutFilesApplicationReport.png" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked out Files custom application report</span><br><br></div>
+<div><strong>B. Custom application report (Includes some coding work)</strong><br>In SSW, to make the chase work easier, we have a custom page to show the &quot;Checked out files&quot; and send the notification email to naughty people&#58;</div>
+<div><img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/ITAndNetworking/SharePointMigration/PublishingImages/CheckedOutFilesApplicationReport.png" style="margin&#58;5px;" /></div>
+<span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked out Files custom application report</span> 
 
 
