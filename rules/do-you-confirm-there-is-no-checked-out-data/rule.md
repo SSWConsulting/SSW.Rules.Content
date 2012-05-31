@@ -39,7 +39,8 @@ related: []
 <div><br></div>
 <div><strong>B. Custom application report (Includes some coding work)</strong><br>In SSW, to make the chase work easier, we have a custom page to show the &quot;Checked out files&quot; and send the notification email to naughty people&#58;</div>
 <div><img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/ITAndNetworking/SharePointMigration/PublishingImages/CheckedOutFilesApplicationReport.png" style="margin&#58;5px;" /></div>
-<span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked out Files custom application report</span><span></span><span class="ssw-rteStyle-FigureNormal"></span><span class="ssw-rteStyle-FigureNormal">Notification email sample&#58; </span><p><span class="ssw-rteStyle-GreyBox" style="width&#58;938px;height&#58;354px;"><strong>Hi SSW2000\RajDhatt,&#160;&#160;</strong><div>You have some pages checked out in SharePoint. </div>
+<span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked out Files custom application </span><span class="ssw-rteStyle-FigureNormal">report</span><span></span><span class="ssw-rteStyle-FigureNormal"></span><span class="ssw-rteStyle-FigureNormal">Notification</span><span class="ssw-rteStyle-GreyBox" style="width&#58;817px;height&#58;402px;"></span><span class="ssw-rteStyle-FigureNormal"> email sample&#58; </span><p><span class="ssw-rteStyle-GreyBox" style="width&#58;817px;height&#58;402px;"><strong>Hi SSW2000\RajDhatt,&#160;&#160;</strong></span></p>
+<span class="ssw-rteStyle-GreyBox" style="width&#58;817px;height&#58;402px;"></span><div>You have some pages checked out in SharePoint. </div>
 <blockquote dir="ltr" style="margin-right&#58;0px;"><div>1. Revise our SSW rule <a href="/ITAndNetworking/SharePointMigration/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx">on Frequent SharePoint Check-ins</a>.<br>2. If you are no longer editing these files, check them in! </div>
 <div>&#160;</div></blockquote>
 <div>You currently have the following pages checked out&#58; </div>
@@ -47,7 +48,7 @@ related: []
 <div><br>Remember, you can check which files you have checked out at any time by going to <a><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/_layouts/<span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">SSWReports/CheckedOutReport.aspx</span></font></a></div>
 <div><br>&lt;As per rule <a href="/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//rules.ssw.com.au/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx</font></a> &gt;</div>
 <div>&#160;</div>
-<div>William </div></span></p>
-
+<div>William </div>
+<p>&#160;</p>
 
 
