@@ -15,7 +15,10 @@ authors:
 
 
 
-<span class='intro'> This field should not be null (Remove me when you edit this field). </span>
+<span class='intro'> <p>Pages in SharePoint are easily checked out, and the changes not checked-in will not be migrated when you migrate SharePoint data.</p>
+<p>In SSW, we have two ways to check the &quot;checked out files&quot; regularly&#58;</p>
+<ul><li><strong>A. Manage Content and Structure Report (No Code)</strong></li>
+<li><strong><strong>B. Custom applicatioin report (Includes some coding work)</strong></strong></li></ul> </span>
 
 ​ <div><strong>A. Manage Content and Structure Report (No Code)</strong></div>
 <div>1. Create CAML query in site content and structure</div>
