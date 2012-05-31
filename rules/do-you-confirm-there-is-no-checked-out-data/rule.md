@@ -39,21 +39,17 @@ related: []
 <div><br></div>
 <div><strong>B. Custom application report (Includes some coding work)</strong><br>In SSW, to make the chase work easier, we have a custom page to show the &quot;Checked out files&quot; and send the notification email to naughty people&#58;</div>
 <div><img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/ITAndNetworking/SharePointMigration/PublishingImages/CheckedOutFilesApplicationReport.png" style="margin&#58;5px;" /></div>
-<span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked out Files custom application </span><span class="ssw-rteStyle-FigureNormal">report</span><span></span><span class="ssw-rteStyle-FigureNormal"></span><span class="ssw-rteStyle-FigureNormal">Notification</span><span class="ssw-rteStyle-GreyBox" style="width&#58;817px;height&#58;402px;"></span><span class="ssw-rteStyle-FigureNormal">&#160;email sample&#58; </span><p><span class="ssw-rteStyle-GreyBox" style="width&#58;817px;height&#58;402px;"></span>&#160;</p>
-<span class="ssw-rteStyle-GreyBox" style="width&#58;817px;height&#58;402px;"></span><strong>Hi Daragh,&#160;&#160;</strong><p><div>You have some pages checked out in SharePoint. </div>
-</p>
-<blockquote dir="ltr" style="margin-right&#58;0px;"><div>1. Revise our SSW rule <a href="/ITAndNetworking/SharePointMigration/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">on Frequent SharePoint Check-ins</font></a>.<br>2. If you are no longer editing these files, check them in! </div>
-<div></div></blockquote>
-<p><div>You currently have the following pages checked out&#58; </div>
-<blockquote dir="ltr" style="margin-right&#58;0px;"><div>• <a><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx</font></a><br>• <a><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx</font></a></div></blockquote>
-<div><br>Remember, you can check which files you have checked out at any time by going to <a><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/_layouts/<span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">SSWReports/CheckedOutReport.aspx</span></font></a></div></p>
+<span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked out Files custom application </span><span class="ssw-rteStyle-FigureNormal">report</span><span class="ssw-rteStyle-FigureNormal"></span><span class="ssw-rteStyle-FigureNormal">Notification</span><span class="ssw-rteStyle-FigureNormal">&#160;email sample&#58; </span><div class="ssw-rteStyle-GreyBox" style="width&#58;862px;height&#58;344px;"><div><strong>Hi Daragh, </strong></div>
+<div>You have some pages checked out in SharePoint. </div>
+<blockquote dir="ltr" style="margin-right&#58;0px;"><div>1. Revise our SSW rule <a href="/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">on Frequent SharePoint Check-ins</font></a>.<br>2. If you are no longer editing these files, check them in! </div></blockquote>
+<div>&#160;</div>
+<div></div>
+<div></div>
+<div>You currently have the following pages checked out&#58; </div>
+<blockquote dir="ltr"><div>• <a><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx</font></a><br>• <a><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx</font></a></div></blockquote>
+<div><br>Remember, you can check which files you have checked out at any time by going to <a><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/_layouts/<span>SSWReports/CheckedOutReport.aspx</span></font></a></div>
 <div><br>&lt;As per rule <a href="/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//rules.ssw.com.au/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx</font></a> &gt;</div>
-<div>&#160;</div>
-<p><div></div>
-<div>William </div>
-<div>&#160;</div>
-</p>
-<span class="ssw-rteStyle-GreyBox" style="width&#58;817px;height&#58;402px;"><p>&#160;</p></span><p>&#160;</p>
-<div>&#160;</div>
+<p>William </p></div>
+<p>&#160;&#160;&#160;</p>
 
 
