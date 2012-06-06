@@ -15,7 +15,7 @@ related: []
 ---
 
 
-In order for other people within your organisation to understand that regular emails that you send are following certain rules and standards, it's a good idea to have a footer in your emails saying something like &quot;&quot;
+In order for other people within your organisation to understand that regular emails that you send are following certain rules and standards, it's a good idea to have a footer in your emails saying something like &quot;&lt;This email was sent as per the rule&#58; XXX&gt;&quot;
 <br><excerpt class='endintro'></excerpt><br>
 This will also have the added benefit of allowing someone else to take over your role should the need arise and it’s much better than having people copy and paste old emails rather than using the latest updated template.
 
