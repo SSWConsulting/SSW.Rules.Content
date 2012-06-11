@@ -11,8 +11,8 @@ related: []
 ---
 
 
-<p>Running the &quot;Dog Food&quot; stats on your new TFS 2010 server is a good way to see if the upgrade was successful. You should check the new values&#160;against the <a href="/TFS/RulesToBetterTFS2010Migration/Pages/DogfoodStatsBefore.aspx" shape="rect">stats you noted down from your TFS 2008 server</a>.</p>
-<ol><li>On TFS2010, run the DogFoodStats queries on TFS2010 and save the results<br>(<a class="ms-rteCustom-External" href="http&#58;//blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx" shape="rect">http&#58;//blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx</a>)&#160; </li>
+<p>Running the &quot;Dog Food&quot; stats on your new TFS 2010 server is a good way to see if the upgrade was successful. You should check the new values&#160;against the <a href="/Pages/DogfoodStatsBefore.aspx" shape="rect">stats you noted down from your TFS 2008 server</a>.</p>
+<ol><li>On TFS2010, run the DogFoodStats queries and save the results<br>(<a class="ms-rteCustom-External" href="http&#58;//blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx" shape="rect">http&#58;//blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx</a>)&#160; </li>
 <li>Compare the numbers are the same <ol><li>Note&#58; Number will differ slightly (usually increases as TFS2010 checks in a few more items) <br>Note&#58; Grant Holliday has never&#160;published exactly why they are not the same.</li></ol></li></ol>
 <div><span class="ms-rteCustom-CodeArea"><div>TFS2008&#58;</div>
 <div>===========================================</div>
