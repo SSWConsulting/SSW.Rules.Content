@@ -33,7 +33,7 @@ related: []
 <div>-- Areas &amp; Iterations&#58;</div>
 <div>-----------</div>
 <div><font style="background-color&#58;#ffff00;">1096</font></div></span></div>
-<div><span class="ms-rteCustom-FigureNormal">Example&#58; Dog Food Stats on TFS2008</span>Make sure that you save the numbers so you can compair it to TFS 2010 later...</div>
+<div><span class="ms-rteCustom-FigureNormal">Example&#58; Dog Food Stats on TFS2008</span>Make sure that you save the numbers so you can compare it to TFS 2010 later...</div>
 <br><excerpt class='endintro'></excerpt><br>
 
 
