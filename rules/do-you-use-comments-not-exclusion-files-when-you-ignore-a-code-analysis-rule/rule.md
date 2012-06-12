@@ -16,9 +16,9 @@ redirects: []
 
 When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing.
 <br><excerpt class='endintro'></excerpt><br>
-<img alt="code-analysis-bad-example" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/code-analysis-bad-example" class="ms-rteCustom-ImageArea" />
+<img alt="code-analysis-bad-example" src="/PublishingImages/code-analysis-bad-example.jpg" class="ms-rteCustom-ImageArea" />
 <span class="ssw-rteStyle-FigureBad">Figure&#58; Good Example - The Solution and Projects are named consistently</span>
-<img alt="code-analysis-good-example" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/code-analysis-good-example" class="ms-rteCustom-ImageArea" />
+<img alt="code-analysis-good-example" src="/PublishingImages/code-analysis-good-example.jpg" class="ms-rteCustom-ImageArea" />
 <dl class="goodCode">
     <dt>
     <pre>public partial class Account
