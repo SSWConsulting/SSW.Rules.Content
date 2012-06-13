@@ -23,7 +23,7 @@ redirects: []
 Do *not* wait until you have started to exceed your estimate, before you notify the client that the release is running late.<br>
 &#160;<br>
 Let them decide and avoid conflict by sending an email like this&#58;
-
+​
 <br><excerpt class='endintro'></excerpt><br>
 
   <p class="ms-rteCustom-GreyBox">
@@ -41,7 +41,7 @@ As soon as you realise that any of your estimates are likely to be exceeded by a
 <br>
 Never keep the client in the dark when you exceed your estimates, it will only arouse suspicion and mistrust when they see the project deadline woosh past.<br>
 <br>
-<font class="ms-rteCustom-YellowBorderBox">SSW <a href="http&#58;//ssw.com.au/SSW/eXtremeEmails/Default.aspx" shape="rect">eXtreme Emails</a>! that automatically generates emails to notify the client of an exceeded estimate </font>
+<font class="ms-rteCustom-YellowBorderBox">SSW <a href="http&#58;//www.ssw.com.au/SSW/eXtremeEmails/Default.aspx" shape="rect">eXtreme Emails</a>! that automatically generates emails to notify the client of an exceeded estimate </font>
 
 
 
