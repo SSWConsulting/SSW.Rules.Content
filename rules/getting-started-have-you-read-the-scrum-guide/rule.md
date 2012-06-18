@@ -22,8 +22,9 @@ Everyone who will be involved in Scrum (pigs and chickens alike) should have rea
 <p>Everyone should&#58;</p>
 <ol><li>Read the <a href="http&#58;//www.scrum.org/scrumguides/" shape="rect">Scrum Guide</a>. </li>
 <li>Take the <a href="http&#58;//www.scrum.org/scrumopen/" shape="rect">Scrum Open assessment</a> and get at least 75% to be “Certified Scrum 1” </li>
-<li>Watch the awesome video 'Scrum in 10 minutes'&#160;&#160; <br><div class="ms-rtestate-read ms-rte-wpbox"><div id="div_994ec1d3-e3e7-4876-8827-208917e91b07" class="ms-rtestate-notify  ms-rtestate-read 994ec1d3-e3e7-4876-8827-208917e91b07"></div>
-<div id="vid_994ec1d3-e3e7-4876-8827-208917e91b07" style="display&#58;none;"></div></div></li></ol>
-<p>&#160;</p>
+<li>Watch the awesome video 'Scrum in 10 minutes'&#160;&#160; <br><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 994ec1d3-e3e7-4876-8827-208917e91b07" id="div_994ec1d3-e3e7-4876-8827-208917e91b07"></div>
+<div id="vid_994ec1d3-e3e7-4876-8827-208917e91b07" style="display&#58;none;"></div></div>
+</li></ol>
+
 
 
