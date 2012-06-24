@@ -25,7 +25,7 @@ authors:
 <img alt="Two devs talking" class="ssw-rteStyle-ImageArea" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/two-devs-talking.jpg" />
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Find out who&#160;the devs are&#160;by using the Annotate tool, and start a conversation.</span>
 <p><strong>Tip&#58; </strong>To learn how to use Annotate, see <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#UsingSourceControl">Do you know the benefits of Source Control?</a>.</p>
-<p class="ssw-rteStyle-GreyBox"><span>Suggestion to MS&#58; allow us to visualize the developers responsible for the bad code (currently and historically)</span></p> </span>
+<p class="ssw-rteStyle-GreyBox"><span>Suggestion to MS&#58; allow us to visualize the developers responsible for the bad code (currently and historically)</span>​</p> </span>
 
 
 
