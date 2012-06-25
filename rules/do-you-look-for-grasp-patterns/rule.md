@@ -17,7 +17,8 @@ authors:
 
 <p>​The fundamentals of GRASP are the <span lang="EN-AU">building blocks of Object Oriented design.&#160; It is important that r<span lang="EN-AU">esponsibilities in your application are assigned predictably and sensibly to achieve maximum extensibility and maintainability.</span></span></p>
 <p><span lang="EN-AU">GRASP consists of a set of&#160;patterns and principles that describe different ways of constructing relationships between classes and objects.</span></p>
-<p><span lang="EN-AU"><table style="border-bottom&#58;#444 1px solid;border-left&#58;#444 1px solid;border-top&#58;#444 1px solid;border-right&#58;#444 1px solid;"><tbody><tr><th style="padding-right&#58;10px;">Creator</th>
+<p><span lang="EN-AU"></span></p>
+<table style="border-width&#58;1px;border-style&#58;solid;border-color&#58;rgb(68, 68, 68);"><tbody><tr><th style="padding-right&#58;10px;">Creator</th>
 <td>A specific class is responsible for creating instances of specific other classes (e.g. a Factory Pattern)</td></tr>
 <tr><th style="padding-right&#58;10px;">​Information Expert</th>
 <td>Responsibilities are delegated to the class that holds the information required to handle that responsibility​</td></tr>
@@ -34,8 +35,9 @@ authors:
 <tr><th>​Indirection</th>
 <td>​The responsibility of mediation between two classes is handled by an intermediate object (e.g. a Controller in the MVC pattern)</td></tr>
 <tr><th style="padding-right&#58;10px;">​Protected Variations</th>
-<td>​Variations in the behaviour of other objects is abstracted away from the dependent object by means of an interface and polymorphism</td></tr></tbody></table></span></p>
+<td>​Variations in the behaviour of other objects is abstracted away from the dependent object by means of an interface and polymorphism</td></tr></tbody></table>
+<p></p>
 <p>Tip&#58; Visual Studio's Architecture tools can help you visualise your dependencies.&#160; A good structure will show calls flowing in one direction.</p>
-<p><img alt="architecture_responsibility_bad.png" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/architecture_responsibility_bad.png" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureBad">Figure&#58; Bad Example - Calls are going in both directions which hints at a poor architecture</span><img alt="architecture_responsibility_good.png" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/architecture_responsibility_good.png" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example -&#160;Calls&#160;are flowing in one direction hinting at a more sensible&#160;arrangement of responsibilities</span></p>
+<p><img src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/architecture_responsibility_bad.png" alt="architecture_responsibility_bad.png" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureBad">Figure&#58; Bad Example - Calls are going in both directions which hints at a poor architecture</span><img src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/architecture_responsibility_good.png" alt="architecture_responsibility_good.png" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example -&#160;Calls&#160;are flowing in one direction hinting at a more sensible&#160;arrangement of responsibilities</span></p>
 
 
