@@ -25,7 +25,8 @@ foreach (var customer in Customers)
         lucrativeCustomers.Add(customer);
     &#125;
 &#125;</pre></div>
-<span class="ssw-rteStyle-FigureBad">Figure&#58; Bad Example - imperative programming using a foreach loop.</span> <div class="ssw-rteStyle-CodeArea"><pre>var lucrativeCustomers = Customers.Where(c =&gt; c.Orders.Count &gt; 0).ToList();</pre></div>
-<span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - declarative programming using Linq.</span>
+<span class="ssw-rteStyle-FigureBad">Figure&#58; Bad Example - imperative programming using a foreach loop.</span> <div class="ssw-rteStyle-CodeArea"><pre></pre></div><div class="ssw-rteStyle-CodeArea"><pre></pre></div>
+<div class="ssw-rteStyle-CodeArea"><pre>;</pre></div>
+<span class="ssw-rteStyle-FigureGood">Figure&#58; Good</span><span class="ssw-rteStyle-FigureGood"> Example - declarative programming using Lin<span></span>q.</span>
 
 
