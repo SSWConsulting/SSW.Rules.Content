@@ -18,7 +18,7 @@ authors:
 <span class='intro'> <p>Design patterns are useful for ensuring <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/DoYouKnowCommonDesignPrinciples.aspx">common design principles </a>are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain.</p> </span>
 
 <p>​There are a very large number of Design Patterns, but here are a few important ones.</p>
-<table width="100%" cellspacing="4" border="1" class="ssw-rteTable-default" style="border-width&#58;1px;border-style&#58;solid;"><tbody><tr class="ssw-rteTableEvenRow-default">
+<table width="100%" cellpadding="4" border="1" class="ssw-rteTable-default" style="border-width&#58;1px;border-style&#58;solid;"><tbody><tr class="ssw-rteTableEvenRow-default">
 <th class="ssw-rteTableFirstCol-default">​IOC</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Inversion_of_control">​Inversion of Control</a></td>
 <td class="ssw-rteTableEvenCol-default">Control of the object coupling is the responsibility of the caller, not the class.</td></tr>
