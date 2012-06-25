@@ -13,21 +13,21 @@ authors:
 
 
 
-<span class='intro'> <table border="1" style="border-width&#58;1px;border-style&#58;solid;">
+<span class='intro'> <table cellpadding="4" border="1" style="border-width&#58;1px;border-style&#58;solid;">
 <tbody><tr class="ssw-rteTableEvenRow-default">
 <th class="ssw-rteTableFirstCol-default">SRP​</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//www.objectmentor.com/resources/articles/srp.pdf">​The Single Responsibility Principle</a></td>
 <td class="ssw-rteTableEvenCol-default">A class should have one, and only one, reason to change.</td></tr>
-<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default" style="padding-right&#58;10px;">OCP​</th>
+<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">OCP​</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//www.objectmentor.com/resources/articles/ocp.pdf">The Open Closed Principle​</a></td>
 <td class="ssw-rteTableEvenCol-default">You should be able to extend a classes behaviour without modifying it.​</td></tr>
-<tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default" style="padding-right&#58;10px;">​LSP</th>
+<tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​LSP</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//www.objectmentor.com/resources/articles/lsp.pdf">The Liskov Substitution Principle​</a></td>
 <td class="ssw-rteTableEvenCol-default">Derived classes must be substitutable for their base classes.​</td></tr>
-<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default" style="padding-right&#58;10px;">​ISP</th>
+<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​ISP</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//www.objectmentor.com/resources/articles/isp.pdf">​The Interface Segregation Principle​</a></td>
 <td class="ssw-rteTableEvenCol-default">​Make fine-grained interfaces that are client-specific.​</td></tr>
-<tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default" style="padding-right&#58;10px;">DIP​</th>
+<tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">DIP​</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//www.objectmentor.com/resources/articles/dip.pdf">The Dependency Inversion Principle​</a></td>
 <td class="ssw-rteTableEvenCol-default">Depend on abstractions, not on concretions.​</td></tr></tbody></table>
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Your code should be using SOLID principles</span>
