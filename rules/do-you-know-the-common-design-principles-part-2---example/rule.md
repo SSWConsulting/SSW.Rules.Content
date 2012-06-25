@@ -17,7 +17,7 @@ authors:
 
 <span class='intro'> <p>The hot spots identified in your solution often indicate violations of common design principles.</p> </span>
 
-​<img alt="Check Address" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/CodeMetrics_3.png" class="ms-rteCustom-ImageArea" style="width&#58;600px;" />
+​<img class="ms-rteCustom-ImageArea" src="/PublishingImages/CodeMetrics_3.png" alt="Check Address" style="width&#58;600px;" />
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities</span>
 <p>The most common problem encountered will be code that violates the Single Responsibility Principle (SRP). Addressing SRP issues will see a reduction in the following 3 metrics&#58;</p>
 <ol>
