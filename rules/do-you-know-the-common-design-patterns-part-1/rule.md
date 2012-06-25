@@ -15,10 +15,11 @@ authors:
 
 
 
-<span class='intro'> Design patterns are useful for ensuring <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/DoYouKnowCommonDesignPrinciples.aspx">common design principles </a>are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain. </span>
+<span class='intro'> <p>Design patterns are useful for ensuring <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/DoYouKnowCommonDesignPrinciples.aspx">common design principles </a>are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain.</p> </span>
 
 <p>​There are a very large number of Design Patterns, but here are a few important ones.</p>
-<table class=" ssw-rteTable-default " cellspacing="0" width="100%" style="border-bottom&#58;#444 1px solid;border-left&#58;#444 1px solid;font-size&#58;1em;border-top&#58;#444 1px solid;border-right&#58;#444 1px solid;"><tbody><tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​IOC</th>
+<table width="100%" cellspacing="4" border="1" class="ssw-rteTable-default" style="border-width&#58;1px;border-style&#58;solid;"><tbody><tr class="ssw-rteTableEvenRow-default">
+<th class="ssw-rteTableFirstCol-default">​IOC</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Inversion_of_control">​Inversion of Control</a></td>
 <td class="ssw-rteTableEvenCol-default">Control of the object coupling is the responsibility of the caller, not the class.</td></tr>
 <tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​DI</th>
@@ -37,12 +38,12 @@ authors:
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//msdn.microsoft.com/en-us/magazine/dd882510.aspx">​Unit of Work Pattern</a></td>
 <td class="ssw-rteTableEvenCol-default">​A way of handling multiple database operations that need to be done as part of a piece of work.</td></tr>
 <tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​MVC</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller">​Model View Controller</a></td>
+<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">​Model View Controller</a></td>
 <td class="ssw-rteTableEvenCol-default">​An architectural pattern separating domain logic (Controller) from&#160;how domain objects (Models) are presented (View).</td></tr>
 <tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​MVP</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model_View_Presenter">​Model View Presenter</a></td>
 <td class="ssw-rteTableEvenCol-default">​An architectural pattern deriving from MVC where the View handles UI events instead of the Controller.</td></tr></tbody></table>
-<p class="ssw-rteStyle-FigureNormal">Figure&#58; Choose patterns wisely to improve your solution architecture</p>
-<p>&#160;It is assumed knowledge that you know these design patterns. If you don't, read about them on the sites above or watch the <a href="http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=patterns-library">PluralSight videos on Software Patterns.</a></p>
+<span class="ssw-rteStyle-FigureNormal">Figure&#58; Choose patterns wisely to improve your solution architecture</span>
+<p>It is assumed knowledge that you know these design patterns. If you don't, read about them on the sites above or watch the <a href="http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=patterns-library">PluralSight videos on Software Patterns.</a></p>
 
 
