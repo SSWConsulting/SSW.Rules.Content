@@ -17,9 +17,9 @@ redirects: []
 
 
 <p>The name of your solution and the names of the projects in your solution should be consistent.</p>
-<p>Read more about consistent structures in the <a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/SolutionStructure.aspx">Do you have a consistent .Net Solution Structure?</a> rule.</p>
+<p>Follow the rule&#58;&#160;<a href="/do-you-have-a-consistent-net-solution-structure">Do you have a consistent .Net Solution Structure?</a></p>
 <br><excerpt class='endintro'></excerpt><br>
-<img alt="solutionlayout.png" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/SolutionLayout.png" class="ms-rteCustom-ImageArea" />
+<img class="ms-rteCustom-ImageArea" src="/PublishingImages/SolutionLayout.png" alt="solutionlayout.png" />
 <span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - The Solution and Projects are named consistently</span>
 
 
