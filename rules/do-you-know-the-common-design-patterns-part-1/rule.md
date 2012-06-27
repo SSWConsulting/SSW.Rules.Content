@@ -15,10 +15,10 @@ authors:
 
 
 
-<span class='intro'> <p>Design patterns are useful for ensuring <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/DoYouKnowCommonDesignPrinciples.aspx">common design principles </a>are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain.</p> </span>
+<span class='intro'> <p>Design patterns are useful for ensuring <a href="/Pages/DoYouKnowCommonDesignPrinciples.aspx">common design principles </a>are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain.</p> </span>
 
 <p>​There are a very large number of Design Patterns, but here are a few important ones.</p>
-<table width="100%" cellpadding="4" border="1" class="ssw-rteTable-default" style="border-width&#58;1px;border-style&#58;solid;"><tbody><tr class="ssw-rteTableEvenRow-default">
+<table width="100%" cellpadding="4" border="1" class="ssw-rteTable-default" style="border-collapse&#58;collapse;"><tbody><tr class="ssw-rteTableEvenRow-default">
 <th class="ssw-rteTableFirstCol-default">​IOC</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Inversion_of_control">​Inversion of Control</a></td>
 <td class="ssw-rteTableEvenCol-default">Control of the object coupling is the responsibility of the caller, not the class.</td></tr>
@@ -38,7 +38,7 @@ authors:
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//msdn.microsoft.com/en-us/magazine/dd882510.aspx">​Unit of Work Pattern</a></td>
 <td class="ssw-rteTableEvenCol-default">​A way of handling multiple database operations that need to be done as part of a piece of work.</td></tr>
 <tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​MVC</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">​Model View Controller</a></td>
+<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller">​Model View Controller</a></td>
 <td class="ssw-rteTableEvenCol-default">​An architectural pattern separating domain logic (Controller) from&#160;how domain objects (Models) are presented (View).</td></tr>
 <tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​MVP</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model_View_Presenter">​Model View Presenter</a></td>
