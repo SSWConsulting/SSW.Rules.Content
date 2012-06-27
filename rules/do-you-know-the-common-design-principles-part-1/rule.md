@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<table cellpadding="4" border="1" style="border-width&#58;1px;border-style&#58;solid;">
+<table cellpadding="4" border="1" style="border-collapse&#58;collapse;">
 <tbody><tr class="ssw-rteTableEvenRow-default">
 <th class="ssw-rteTableFirstCol-default">SRP​</th>
 <td class="ssw-rteTableOddCol-default"><a href="http&#58;//www.objectmentor.com/resources/articles/srp.pdf">​The Single Responsibility Principle</a></td>
