@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-<span lang="EN-AU" style="font-family&#58;calibri, sans-serif;font-size&#58;11pt;">Code duplication is a big &quot;code smell&quot; that harms maintainability.&#160; You should keep an eye out for repeated code and make sure you refactor it into a single place.</span>
+<span lang="EN-AU" style="font-family&#58;calibri,sans-serif;font-size&#58;11pt;">Code duplication is a big &quot;code smell&quot; that harms maintainability.&#160; You should keep an eye out for repeated code and make sure you refactor it into a single place.</span>
 <br><excerpt class='endintro'></excerpt><br>
 <p>For example, have a look at these two Action methods&#160;in an MVC 4 controller.</p>
 <span class="ssw-rteStyle-CodeArea"><pre>//
@@ -24,7 +24,7 @@ redirects: []
 [Authorize]
 public ActionResult Index()
 &#123;
-<span style="background-color&#58;#ffff00;">    // get company this user can view
+<span style="background-color&#58;rgb(255, 255, 0);">    // get company this user can view
     Company company = null;
     var currentUser = Session[&quot;CurrentUser&quot;] as User;
     if (currentUser != null)
@@ -49,7 +49,7 @@ public ActionResult Index()
 [Authorize]
 public ActionResult Details(int id = 0)
 &#123;
-<span style="background-color&#58;#ffff00;">    // get company this user can view
+<span style="background-color&#58;rgb(255, 255, 0);">    // get company this user can view
     Company company = null;
     var currentUser = Session[&quot;CurrentUser&quot;] as User;
     if (currentUser != null)
@@ -67,7 +67,7 @@ public ActionResult Details(int id = 0)
 &#125;
 </pre></span><div class="ssw-rteStyle-FigureBad">Figure&#58;&#160;Bad Example - The highlighted code is repeated and represents a potential maintenance issue.</div>
 <p>We can refactor this code to make sure the repeated lines are only in one place.</p>
-<span class="ssw-rteStyle-CodeArea"><pre><span style="background-color&#58;#ffff00;">private Company GetCurrentUserCompany()
+<span class="ssw-rteStyle-CodeArea"><pre><span style="background-color&#58;rgb(255, 255, 0);">private Company GetCurrentUserCompany()
 &#123;
     // get company this user can view
     Company company = null;
@@ -85,7 +85,7 @@ public ActionResult Details(int id = 0)
 public ActionResult Index()
 &#123;
     // get company this user can view
-    <span style="background-color&#58;#ffff00;">Company company = GetCurrentUserCompany();
+    <span style="background-color&#58;rgb(255, 255, 0);">Company company = GetCurrentUserCompany();
 </span>
     // show people in that company
     if (company != null)
@@ -105,7 +105,7 @@ public ActionResult Index()
 public ActionResult Details(int id = 0)
 &#123;
     // get company this user can view
-    <span style="background-color&#58;#ffff00;">Company company = GetCurrentUserCompany();
+    <span style="background-color&#58;rgb(255, 255, 0);">Company company = GetCurrentUserCompany();
 </span>
     // get matching person
     Person person = db.People.Find(id);
@@ -117,6 +117,7 @@ public ActionResult Details(int id = 0)
 &#125;
 </pre></span><div class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - The repeated code has been refactored into its own method.</div>
 <p><strong>Tip&#58; </strong>The Refactor menu in Visual Studio 11 can do this refactoring for you.</p>
-<p><img alt="vs_refactor_extract.png" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Documents/vs_refactor_extract.png" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureNormal">Figure&#58; The Extract Method function in Visual Studio's Refactor menu.</span></p>
+<img alt="vs_refactor_extract.png" src="/PublishingImages/vs_refactor_extract.png" class="ms-rteCustom-ImageArea" />
+<span class="ssw-rteStyle-FigureNormal">Figure&#58; The Extract Method function in Visual Studio's Refactor menu.</span>
 
 
