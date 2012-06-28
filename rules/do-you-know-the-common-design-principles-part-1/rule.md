@@ -33,7 +33,7 @@ authors:
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Your code should be using SOLID principles</span>
  </span>
 
-<p>​It is assumed knowledge that you know these 6.<br> If you don't, read about them on Uncle Bob's site above, or watch the <a href="http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=principles-oo-design&amp;highlight=">SOLID Pluralsight videos by Steve Smith.</a></p>
+<p>​It is assumed knowledge that you know all 5 SOLID principles. If you don't, read about them on Uncle Bob's site above, or watch the <a href="http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=principles-oo-design&amp;highlight=">SOLID Pluralsight videos by Steve Smith.</a></p>
 <h2>What order?</h2>
 <ol>
 <li>Look for Single Responsibility&#160;Principle violations. These are the most common and are the source of many other issues. Reducing the size and complexity of your classes and methods will often resolve other problems.</li>
@@ -41,6 +41,6 @@ authors:
 <li>When teams first begin implementing Dependency Injection, it is common for them to generate bloated interfaces that violate the Interface Segregation Principle.</li>
 </ol>
 <p>After you have identified and corrected the most obvious broad principle violations, you can start drilling into code and looking for&#160; localized code breaches. <a href="http&#58;//www.jetbrains.com/resharper/">ReSharper</a> from JetBrains or&#160;<a href="http&#58;//www.telerik.com/products/justcode.aspx">JustCode</a> from Telerik&#160;are invaluable tools once you get to this level.</p>
-<p>Once you understand common design principles, look at <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/DoYouKnowCommonDesignPatterns.aspx">common design patterns</a> to help you follow them in your projects.</p>
+<p>Once you understand common design principles, look at <a href="/Pages/DoYouKnowCommonDesignPatterns.aspx">common design patterns</a> to help you follow them in your projects.</p>
 
 
