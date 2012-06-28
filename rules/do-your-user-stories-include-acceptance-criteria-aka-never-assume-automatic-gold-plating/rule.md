@@ -26,29 +26,29 @@ For example, Product Owners should not assume things like&#58;</p>
 
 
   <p>•&#160;<strong>Acceptance Criteria </strong>(from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question, “How will I know when I’m done with the story?” </p>
-<img class="ms-rteCustom-ImageArea" alt="A User Story with Acceptance Criteria" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; A User Story with Acceptance Criteria (MSF Agile Template)</font><br>
-<font class="ms-rteCustom-GreyBox" size="+0">When I enter ‘Adam’ in the search box and click ‘Search’ I will see all entries starting with ‘Adam’ in the grid<br>
+<img class="ms-rteCustom-ImageArea" alt="A User Story with Acceptance Criteria" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria.jpg" /> <font size="-0" class="ms-rteCustom-FigureNormal">Figure&#58; A User Story with Acceptance Criteria (MSF Agile Template)</font><br>
+<font size="-0" class="ms-rteCustom-GreyBox">When I enter ‘Adam’ in the search box and click ‘Search’ I will see all entries starting with ‘Adam’ in the grid<br>
 </font><br>
-<font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad Example of Acceptance Criteria - Incomplete</font>
+<font size="-0" class="ms-rteCustom-FigureBad">Figure&#58; Bad Example of Acceptance Criteria - Incomplete</font>
 <p>&#160;</p>
-<p><font class="ms-rteCustom-GreyBox" size="+0">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
+<p><font size="-0" class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
 Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>
 </font><br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; OK Example of Acceptance Criteria</font>&#160;<br>
-<font class="ms-rteCustom-GreyBox" size="+0">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
+<font size="-0" class="ms-rteCustom-FigureNormal">Figure&#58; OK Example of Acceptance Criteria</font>&#160;<br>
+<font size="-0" class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
 Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>
 Gold Plating - If no results are retuned show a message box ‘No results found’<br>
 Gold Plating – Validation&#58; If no search text is entered, the ‘Search’ button should be disabled<br>
 Gold Plating – Right clicking on a column header should provide ‘Sort’ functionality<br>
 Gold Plating – if a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links</font><br>
-<font class="ms-rteCustom-FigureGood" size="+0">&#160;Figure&#58; Good Example of Acceptance Criteria – Including Gold Plating<br>
+<font size="-0" class="ms-rteCustom-FigureGood">&#160;Figure&#58; Good Example of Acceptance Criteria – Including Gold Plating<br>
 </font><br>
 •&#160;<strong>Acceptance Tests</strong> (built by the developers) verify that the Acceptance Criteria are met.<br>
 The goal is for teams to move beyond manual testing and implement automated testing <br>
 eg. CodedUI tests, Telerik Tests etc<br>
 &#160;Test cases answer the question, “How do I test and what are the test steps?” </p>
-<img class="ms-rteCustom-ImageArea" alt="Test Cases in a User Story" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria-test-cases.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Test Cases in a User Story&#160; (MSF For Agile Template)</font><br>
-<font class="ms-rteCustom-GreyBox" size="+0">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
+<img class="ms-rteCustom-ImageArea" alt="Test Cases in a User Story" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria-test-cases.jpg" /> <font size="-0" class="ms-rteCustom-FigureNormal">Figure&#58; Test Cases in a User Story&#160; (MSF For Agile Template)</font><br>
+<font size="-0" class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
 Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>
 Gold Plating - If no results are retuned show a message box ‘No results found’<br>
 Gold Plating – Validation&#58; If no search text is entered, the ‘Search’ button should be disabled<br>
@@ -61,10 +61,14 @@ Gold Plating – if a large set of results is returned and we are on page &lt; M
 Gold Plating – if a large set of results is returned and we are on page = MaxPage, clicking the ‘Next’ button does not error<br>
 <br>
 </font><br>
-<font class="ms-rteCustom-FigureGood" size="+0">&#160;Figure&#58; Good example - Acceptance Tests</font><br>
+<font size="-0" class="ms-rteCustom-FigureGood">&#160;Figure&#58; Good example - Acceptance Tests</font><br>
 <strong>Related Resources</strong><br>
 <a shape="rect" href="http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories">http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories</a>
-<p>&#160;</p>
 
+<img class="ms-rteCustom-ImageArea" alt="Test Cases" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-cases.jpg" />
+<span class="ms-rteCustom-FigureNormal">Figure&#58; The tester sees the Test Cases in Test Manager</span>
+
+<img class="ms-rteCustom-ImageArea" alt="Test Steps" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-steps.jpg" />
+<span class="ms-rteCustom-FigureNormal">Figure&#58; The tester follows each instruction (aka the Test Steps), and gives it a tick or cross</span>
 
 
