@@ -24,31 +24,32 @@ For example, Product Owners should not assume things like&#58;</p>
 <p>There are 2 parts to getting this right. The Acceptance Criteria, then the Acceptance Tests&#58;</p>
  </span>
 
+<p><strong>Acceptance Criteria </strong>(from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question, &quot;How will I know when I’m done with the story?&quot;</p>
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria.jpg" alt="A User Story with Acceptance Criteria" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; A User Story with Acceptance Criteria (MSF Agile Template)</span><br>
+<p class="ms-rteCustom-GreyBox">When I enter ‘Adam’ in the search box and click ‘Search’ I will see all entries starting with ‘Adam’ in the grid<br>
+</p>
+<span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example of Acceptance Criteria - Incomplete</span>
 
-  <p>•&#160;<strong>Acceptance Criteria </strong>(from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question, “How will I know when I’m done with the story?” </p>
-<img class="ms-rteCustom-ImageArea" alt="A User Story with Acceptance Criteria" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria.jpg" /> <font size="-0" class="ms-rteCustom-FigureNormal">Figure&#58; A User Story with Acceptance Criteria (MSF Agile Template)</font><br>
-<font size="-0" class="ms-rteCustom-GreyBox">When I enter ‘Adam’ in the search box and click ‘Search’ I will see all entries starting with ‘Adam’ in the grid<br>
-</font><br>
-<font size="-0" class="ms-rteCustom-FigureBad">Figure&#58; Bad Example of Acceptance Criteria - Incomplete</font>
-<p>&#160;</p>
-<p><font size="-0" class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
-Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>
-</font><br>
-<font size="-0" class="ms-rteCustom-FigureNormal">Figure&#58; OK Example of Acceptance Criteria</font>&#160;<br>
-<font size="-0" class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
+<p class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
+Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid
+</p>
+<span class="ms-rteCustom-FigureNormal">Figure&#58; OK Example of Acceptance Criteria</span>
+<p class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
 Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>
 Gold Plating - If no results are retuned show a message box ‘No results found’<br>
 Gold Plating – Validation&#58; If no search text is entered, the ‘Search’ button should be disabled<br>
 Gold Plating – Right clicking on a column header should provide ‘Sort’ functionality<br>
-Gold Plating – if a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links</font><br>
-<font size="-0" class="ms-rteCustom-FigureGood">&#160;Figure&#58; Good Example of Acceptance Criteria – Including Gold Plating<br>
-</font><br>
-•&#160;<strong>Acceptance Tests</strong> (built by the developers) verify that the Acceptance Criteria are met.<br>
+Gold Plating – if a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links<br></p>
+<span class="ms-rteCustom-FigureGood">&#160;Figure&#58; Good Example of Acceptance Criteria – Including Gold Plating<br>
+</span><p></p>
+
+<p><strong>Acceptance Tests</strong> (built by the developers) verify that the Acceptance Criteria are met.<br>
 The goal is for teams to move beyond manual testing and implement automated testing <br>
 eg. CodedUI tests, Telerik Tests etc<br>
-&#160;Test cases answer the question, “How do I test and what are the test steps?” </p>
-<img class="ms-rteCustom-ImageArea" alt="Test Cases in a User Story" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria-test-cases.jpg" /> <font size="-0" class="ms-rteCustom-FigureNormal">Figure&#58; Test Cases in a User Story&#160; (MSF For Agile Template)</font><br>
-<font size="-0" class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
+&#160;Test cases answer the question, &quot;How do I test and what are the test steps?&quot;</p>
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria-test-cases.jpg" alt="Test Cases in a User Story" class="ms-rteCustom-ImageArea" /> 
+<span class="ms-rteCustom-FigureNormal">Figure&#58; Test Cases in a User Story&#160; (MSF For Agile Template)</span><br>
+<p class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
 Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>
 Gold Plating - If no results are retuned show a message box ‘No results found’<br>
 Gold Plating – Validation&#58; If no search text is entered, the ‘Search’ button should be disabled<br>
@@ -60,15 +61,16 @@ Gold Plating – if a large set of results is returned and we are on page 1, ‘
 Gold Plating – if a large set of results is returned and we are on page &lt; MaxPage, clicking the ‘Next’ button goes to the next page<br>
 Gold Plating – if a large set of results is returned and we are on page = MaxPage, clicking the ‘Next’ button does not error<br>
 <br>
-</font><br>
-<font size="-0" class="ms-rteCustom-FigureGood">&#160;Figure&#58; Good example - Acceptance Tests</font><br>
-<strong>Related Resources</strong><br>
-<a shape="rect" href="http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories">http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories</a>
+</p>
+<span class="ms-rteCustom-FigureGood">&#160;Figure&#58; Good example - Acceptance Tests</span>
 
-<img class="ms-rteCustom-ImageArea" alt="Test Cases" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-cases.jpg" />
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-cases.jpg" alt="Test Cases" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The tester sees the Test Cases in Test Manager</span>
 
-<img class="ms-rteCustom-ImageArea" alt="Test Steps" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-steps.jpg" />
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-steps.jpg" alt="Test Steps" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The tester follows each instruction (aka the Test Steps), and gives it a tick or cross</span>
+
+<h2>Related Resources</h2>
+<p><a href="http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories" shape="rect">http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories</a></p>
 
 
