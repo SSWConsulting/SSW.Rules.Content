@@ -23,12 +23,9 @@ authors:
 <li>Is clear and easy to read</li>
 <li>Has consistent and meaningful names for everything</li>
 <li>Has no repeated or redundant code</li>
-<li>Has neat formatting</li></ul>
-<p>Good code is so nice it doesn't need comments, but when it does&#58;</p>
-<ul><li>Includes comments that explain the&#160;intent (the &quot;why&quot; rather than the &quot;what&quot;)</li>
+<li>Has neat formatting</li>
 <li>Explains &quot;why&quot; when you read down, and &quot;how&quot; when you read left to right</li></ul>
-<span class="ssw-rteStyle-CodeArea">public&#160;Customer GetFirstCustomerWithLastName(string lastName)<br>&#123;<br><span style="background-color&#58;rgb(255, 255, 0);">&#160; // we use StartsWith because the legacy system sometimes padded with spaces</span><br>&#160; return _repository.Customer.FirstOrDefault(c =&gt; c.LastName.StartsWith(lastName));<br>&#125;</span>
-<span class="ssw-rteStyle-FigureNormal">Figure&#58; Good comments explain the intent of the code rather than what it is doing</span>
+
 <span class="ssw-rteStyle-CodeArea">public IEnumerable&lt;Customer&gt; GetSupplierCustomersWithMoreThanZeroOrders(int supplierId)<br>&#123;<br>&#160;&#160;&#160; var supplier = _repository.Suppliers.Single(s =&gt; s.Id == supplierId);<br><br>&#160;&#160;&#160; if (supplier == null)<br>&#160;&#160;&#160; &#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return&#160;Enumerable.Empty&lt;Customer&gt;();<br>&#160;&#160;&#160; &#125;<br>&#160;&#160;&#160;&#160;var customers = supplier.Customers<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160; .Where(c =&gt; c.Orders &gt; 0);<br><br>&#160;&#160;&#160; return customers;<br>&#125;</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; This code explains what it is doing as you read left to right, and why it is doing it when you read top to bottom.</span>
 <p><strong>Tip&#58; </strong>Read the book <a href="http&#58;//www.google.com.hk/url?sa=t&amp;rct=j&amp;q=clean+code+download&amp;source=web&amp;cd=2&amp;ved=0CDgQFjAB&amp;url=http&#58;//www.e-reading.org.ua/bookreader.php/134601/Clean_Code_-_A_Handbook_of_Agile_Software_Craftsmanship.html&amp;ei=2jRoT8yfM_LSiAKK9piWBw&amp;usg=AFQjCNEGQx__eAf7t0yM_dYGtaaxJ6TqJA">Clean Code&#58; A Handbook of Agile Software Craftsmanship</a> by Robert. C. Martin.</p>
 <p><strong>Good code is declarative&#58;</strong></p>
