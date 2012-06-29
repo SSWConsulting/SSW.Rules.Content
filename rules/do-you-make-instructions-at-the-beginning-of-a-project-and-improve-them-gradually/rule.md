@@ -46,11 +46,11 @@ architecture decisions, 3rd party utilities, patterns followed etc</li></ul>
 <p>It is essential to have documentation that describes what is required to configure a developer workstation.</p>
 <p>There are 3 Levels of this documentation in a project.</p>
 <h2>Level 1&#58; Can you get latest and compile with a Docx </h2>
-<dl class="image"><dt><img alt="Good Solutions Have Instructions - Level 1" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/instructions-level1.jpg" /></dt>
+<dl class="image"><dt><img alt="Good Solutions Have Instructions - Level 1" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/instructions-level1.jpg" /></dt>
 <dd>Figure&#58; Level 1 documentation is static word documents. The _instructions_compile.docx contains the steps required to be able to get latest and compile</dd></dl>
 
 <h2>Level 2&#58; Can you get latest and compile with the database </h2>
-<dl class="image"><dt><img alt="Good Solutions Have Instructions - level 2" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/instructions-level2.jpg" /></dt>
+<dl class="image"><dt><img alt="Good Solutions Have Instructions - level 2" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/instructions-level2.jpg" /></dt>
 <dd>Figure&#58; Level 2 Documentation includes database build scripts. We use [SSW SQL Deploy] (link to SQL Deploy page) to make keeping all databases on the same version simple. Check out how to use [SQL Deploy here] (link to sql deploy video on ssw.tv)</dd></dl>
 
 <h2>Level 3&#58; Can you get latest and compile  with a Powershell script</h2>
