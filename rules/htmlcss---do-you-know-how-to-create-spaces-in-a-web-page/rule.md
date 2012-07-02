@@ -35,8 +35,9 @@ authors:
 
 <div class="ms-rteCustom-GreyBox">
 ul &#123;margin-bottom&#58;15px;&#125;<br>
+ul li &#123;padding-left&#58;10px;&#125;
 </div>
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Using CSS to create the padding on each list item and the margin at the bottom</span>
+<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Using CSS to add a margin at the bottom of the list a the padding on the left side of each list item</span>
 
 <p><strong>Tip&#58;</strong> You might be not familiar with editing a CSS file. In this case, contact a designer. He/She will be more than happy to help you.</p>
 
