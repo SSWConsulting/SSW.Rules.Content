@@ -16,7 +16,7 @@ redirects: []
 
 <p>There are many scenarios where you need some extra space in a web page. No matter which one you are at, CSS is the answer. </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Sometimes the first thing that comes to the developer mind is to use the &quot;break line&quot; tag or the <a href="http&#58;//en.wikipedia.org/wiki/ASCII">ASCII character code</a> for &quot;space&quot; to create these extra spaces. It's wrong. CSS is the way to go. You can use both &quot;margin&quot; or &quot;padding&quot; CSS properties to get the result you want.
+<p>Sometimes the first thing that comes to the developer mind is to use the &quot;break line&quot; tag ({ltHTMLChar}br /{gtHTMLChar}) or the <a href="http&#58;//en.wikipedia.org/wiki/ASCII">ASCII character code</a> for &quot;space&quot; (&amp;#160;) to create these extra spaces. It's wrong. CSS is the way to go. You can use both &quot;margin&quot; or &quot;padding&quot; CSS properties to get the result you want.
 
 </p>
 <div class="ms-rteCustom-GreyBox">
@@ -34,7 +34,7 @@ redirects: []
 {ltHTMLChar}br /{gtHTMLChar}<br>
 {ltHTMLChar}br /{gtHTMLChar}
 </div>
-<span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Using the {ltHTMLChar}br /ul{gtHTMLChar} tag to create a space at the bottom of that list</span>
+<span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Using the {ltHTMLChar}br /{gtHTMLChar} tag to create a space at the bottom of that list</span>
 
 <div class="ms-rteCustom-GreyBox">
 ul &#123;margin-bottom&#58;15px;&#125;<br>
