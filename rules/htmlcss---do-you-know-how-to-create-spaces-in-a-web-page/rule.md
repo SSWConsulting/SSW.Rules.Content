@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>There are many scenarios where you need some extra space in a web page. No matter which one you are at, CSS is the answer.</p> </span>
+<span class='intro'> <p>There are many scenarios where you need some extra space in a web page. No matter which one you are at, CSS is the answer.- </p> </span>
 
 <p>Sometimes the first thing that comes to the developer mind is to use the &quot;break line&quot; tag or the <a href="http&#58;//en.wikipedia.org/wiki/ASCII">ASCII character code</a> for &quot;space&quot; to create these extra spaces. It's wrong. CSS is the way to go. You can use both &quot;margin&quot; or &quot;padding&quot; CSS properties to get the result you want.
 
