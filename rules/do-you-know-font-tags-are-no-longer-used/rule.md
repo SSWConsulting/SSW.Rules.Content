@@ -17,8 +17,8 @@ redirects: []
 <p></p>
 <p>The {ltHTMLChar}font{gtHTMLChar} tag is supported in all major browsers, however it is deprecated since HTML 4.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<div class="greyBox">
-<p>Tip&#58; Use CSS to define the font, size, and color of text.</p>
+<div class="ms-rteCustom-GreyBox">
+<p><strong>Tip&#58;</strong> Use CSS to define the font, size, and color of text.</p>
 </div>
 
 
