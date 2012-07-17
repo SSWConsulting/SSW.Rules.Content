@@ -29,9 +29,11 @@ redirects: []
 </span>
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Code to link to a named section of a page. Remember to add the hash mark</span>
 <div class="ms-rteCustom-GreyBox">
-<p><strong>Tip&#58;</strong> Use the hash mark only to go to the top of thepage.&#160;</p>
-<p>E.g. {ltHTMLChar}a href=&quot;#&quot;{gtHTMLChar}&amp;Go to top{ltHTMLChar}/a{gtHTMLChar}
-</p></div>
+<p><strong>Tip&#58;</strong> Use the hash mark only to go to the top of a page.&#160;<br>E.g. {ltHTMLChar}a href=&quot;#&quot;{gtHTMLChar}&amp;Go to top{ltHTMLChar}/a{gtHTMLChar}</p>
+</div>
+<div class="ms-rteCustom-GreyBox">
+<p><strong>Tip 2&#58;</strong> Some browsers consider capitalization for anchor names. Always check you have your link and anchor name identical</p>
+</div>
 
 
 
