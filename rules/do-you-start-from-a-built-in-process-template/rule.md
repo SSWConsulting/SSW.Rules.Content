@@ -17,27 +17,15 @@ related:
 ---
 
 
-<p class="MsoListParagraph"><a name="_GoBack"></a>TFS 2012 includes 3 built-in
-process templates&#58;</p>
-<p class="MsoListParagraph"><img src="/TFS/RulesToBetterTFSCustomization/PublishingImages/BuiltInTemplates.png" alt="BuiltInTemplates.png" style="margin&#58;5px;" /><br></p>
-<p class="MsoListParagraph"><b>Figure&#58; built-in process templates in TFS 2012 </b></p>
-
-<span style="font-size&#58;11pt;font-family&#58;tahoma, sans-serif;">Instead of start from sketch, you should always choose
-one of these built-in template to do your own c</span><span style="font-size&#58;11pt;font-family&#58;tahoma, sans-serif;">ustomization.&#160;</span>It will depend on the target process for you to
+<p class="MsoListParagraph"><a name="_GoBack"></a>&#160;TFS 2012 includes 3 built-in process templates&#58;<br>​<img class="ssw-rteStyle-ImageArea" alt="BuiltInTemplates.png" src="/TFS/RulesToBetterTFSCustomization/PublishingImages/BuiltInTemplates.png" style="margin&#58;5px;" /><br><b>&#160;Figure&#58; built-in process templates in TFS 2012<br></b><span style="font-size&#58;9pt;font-family&#58;verdana, sans-serif;background-color&#58;white;"><br>Instead of
+start from sketch, you should always choose one of these built-in template to
+do your own c</span>ustomization.&#160;It will depend on the target process for you to
 choose which one, for small and simple process, Scrum and Agile templates are
-recommended; for formal and complex process, choose the CMMI template.<p>&#160;</p>
+recommended; for formal and complex process, choose the CMMI template.​</p>
+
 <br><excerpt class='endintro'></excerpt><br>
-​Using an existing process template will save you a
-lot of time because<p class="MsoListParagraph">&#160;</p>
-
-<p class="MsoListParagraph" style="margin-left&#58;54pt;text-indent&#58;-18pt;">-<span style="font-size&#58;7pt;line-height&#58;normal;font-family&#58;'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-</span>It has the structure setup already, all you need
-to do is to make modifications and upload the template back to the server
-again. &#160;</p>
-
-<p class="MsoListParagraph" style="margin-left&#58;54pt;text-indent&#58;-18pt;">-<span style="font-size&#58;7pt;line-height&#58;normal;font-family&#58;'times new roman';">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-</span>All the built-in reports could be used as
-template for your customization, this will save you a lot of time from creating
-a new report​.&#160;</p>
+​Using an existing process template will save you a lot of time because<br><div style="text-indent&#58;0px;"><ul><ul><li><span style="text-indent&#58;-18pt;line-height&#58;normal;font-family&#58;'times new roman';font-size&#58;7pt;">&#160;</span><span style="text-indent&#58;-18pt;">It has the structure setup already, all you need to do is to make modifications and upload the template back to the server again. &#160;</span><span style="text-indent&#58;-18pt;line-height&#58;normal;font-family&#58;'times new roman';font-size&#58;7pt;">&#160;</span></li>
+<li><span style="text-indent&#58;-18pt;">All the built-in reports could be used as template for your customization, this will save you a lot of time from cr</span><span style="text-indent&#58;-18pt;">eating a new report​.</span></li></ul></ul>
+<span style="text-indent&#58;-18pt;"></span></div>
 
 
