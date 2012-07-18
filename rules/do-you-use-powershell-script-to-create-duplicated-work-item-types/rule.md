@@ -13,12 +13,12 @@ related: []
 ---
 
 
-<p class="MsoListParagraph">Sometime you will need to create duplicate work item
+Sometime you will need to create duplicate work item
 types, e.g. a task work item may be clones as PlatformDepTask, SystemDepTask;
 both of these task work items are sharing the same fields, workflow or layouts,
 but they are configured to be accessible by different department or some other
 difference.<br>You should create a WIT template and use a place
-holder for the difference, e.g.</p>
+holder for the difference, e.g.
 <span class="ssw-rteStyle-CodeArea">&lt;WORKITEMTYPE
 name=&quot;xxxxDepNamexxxxTask&quot;&gt;<br><br>&#160; …
 <br><br>&lt;/WORKITEMTYPE&gt;</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; WIT template with place holder&#160;
