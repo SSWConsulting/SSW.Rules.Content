@@ -16,7 +16,7 @@ authors:
 <p>Bundling allows you to&#58;</p>
 <ol>
 <li>Specify the JavaScript files you want to include in your app and the order in which they are loaded </li>
-<li>Put them into 1 JavaScript file reducing calls to the server. </li>
+<li>Put them into one JavaScript file reducing calls to the server. </li>
 </ol>
 <p>The next part of the process is minification. This means that all the whitespace is removed from the JavaScript files and long variables names are shortened where possible to decrease the size of the package.<br>
 All this adds up to a faster MVC app and a better user experience.</p>
