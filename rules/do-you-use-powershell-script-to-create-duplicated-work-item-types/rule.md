@@ -22,10 +22,10 @@ holder for the difference, e.g.</p>
 <span class="ssw-rteStyle-CodeArea">&lt;WORKITEMTYPE
 name=&quot;xxxxDepNamexxxxTask&quot;&gt;<br><br>&#160; …
 <br><br>&lt;/WORKITEMTYPE&gt;</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; WIT template with place holder&#160;
-​</span>
+​</span>​
 <br><excerpt class='endintro'></excerpt><br>
 <span class="ssw-rteStyle-CodeArea">​$original_file = '..\WorkItem Tracking\TypeDefinitions\Task_Template_DONOTInstall.xml'<br><br>$destination_file =&#160; '..\WorkItem Tracking\TypeDefinitions\Task_&#160;PlatformDep.xml'<br>(Get-Content $original_file) | Foreach-Object &#123;<br>&#160; &#160; $_ -replace &quot;xxxxDepNamexxxx&quot;, &quot;PlatformDep&quot;<br>&#160; &#160; &#125; | Set-Content $destination_file -Encoding UTF8<br><br>$destination_file =&#160; '..\WorkItem Tracking\TypeDefinitions\Task_SystemDep.xml'<br>(Get-Content $original_file) | Foreach-Object &#123;<br>&#160; &#160;$_ -replace &quot;xxxxDepNamexxxx&quot;, &quot;SystemDep&quot;<br>&#160; &#160;&#125; | Set-Content $destination_file -Encoding UTF8</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; PowerShell script&#160;to create duplicate WITs and replace the place holder with actual data</span><span class="ssw-rteStyle-Tip">​Note&#58; if you are using non-English characters in your
-template, make sure you add&#160;<b class="ssw-rteStyle-Tip" style="display&#58;inline !important;">–Encoding UTF8</b></span><span class="ssw-rteStyle-Tip"> otherwise you will have some
+template, make sure you add&#160;<b class="ssw-rteStyle-Tip" style="display&#58;inline !important;">–Encoding UTF8&#160;</b>otherwise you will have some
 encoding problems.
 ​​​</span>
 
