@@ -17,11 +17,11 @@ related:
 ---
 
 
-TFS 2012 includes 3 built-in process templates&#58;<br>​<img class="ssw-rteStyle-ImageArea" alt="BuiltInTemplates.png" src="/TFS/RulesToBetterTFSCustomization/PublishingImages/BuiltInTemplates.png" /><br><span class="ssw-rteStyle-FigureNormal">Figure&#58; built-in process templates in TFS 2​012</span>Instead of
+TFS 2012 includes 3 built-in process templates&#58;<br>​<img class="ssw-rteStyle-ImageArea" alt="BuiltInTemplates.png" src="/TFS/RulesToBetterTFSCustomization/PublishingImages/BuiltInTemplates.png" />​<br><span class="ssw-rteStyle-FigureNormal">Figure&#58; built-in process templates in TFS 2​012</span>Instead of
 start from sketch, you should always choose one of these built-in template to
 do your own customization.&#160;It will depend on the target process for you to
 choose which one, for small and simple process, Scrum and Agile templates are
-recommended; for formal and complex process, choose the CMMI template.
+recommended; for formal and complex process, choose the CMMI template.​
 <br><excerpt class='endintro'></excerpt><br>
 ​Using an existing process template will save you a lot of time because<br><ul><li><span style="text-indent&#58;-18pt;line-height&#58;normal;font-family&#58;'times new roman';font-size&#58;7pt;">&#160;</span><span style="text-indent&#58;-18pt;">It has the structure setup already, all you need to do is to make modifications and upload the template back to the server again. &#160;</span><span style="text-indent&#58;-18pt;line-height&#58;normal;font-family&#58;'times new roman';font-size&#58;7pt;">&#160;</span></li>
 <li><span style="text-indent&#58;-18pt;">All the built-in reports could be used as template for your customization, this will save you a lot of time from cr</span><span style="text-indent&#58;-18pt;">eating a new report​.</span></li></ul>
