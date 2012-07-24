@@ -17,13 +17,13 @@ authors:
 
 <p>We have one test plan per sprint.</p>
 
-<img class="ms-rteCustom-ImageArea" alt="How to add a test case to a test plan" src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/add-tc-to-tp-1.jpg" />
+<img src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/add-tc-to-tp-1.jpg" alt="How to add a test case to a test plan" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Select Plan from the main menu, and then choose the Test Plan that you would like to add Test Cases to</span>
 
-<img class="ms-rteCustom-ImageArea" alt="How to add a test case to a test plan" src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/add-tc-to-tp-2.jpg" />
+<img src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/add-tc-to-tp-2.jpg" alt="How to add a test case to a test plan" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Add a filter to make it easy to find your Test Cases. Click the Run button, select the relevant items and click the 'Add test cases' button</span>
 
-<img class="ms-rteCustom-ImageArea" alt="How to add a test case to a test plan" src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/add-tc-to-tp-3.jpg" />
+<img src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/add-tc-to-tp-3.jpg" alt="How to add a test case to a test plan" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Your test case has now been added to the suite</span>
 
 
