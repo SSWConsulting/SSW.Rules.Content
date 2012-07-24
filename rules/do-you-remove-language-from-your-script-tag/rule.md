@@ -25,6 +25,6 @@ authors:
 </div>
 <span class="ms-rteCustom-FigureGood">Figure&#58; The scripting language is specified as a content type</span>
 
-<p>Read more on <a target="_blank" href="http&#58;//www.w3.org/TR/html4/interact/scripts.html#h-18.2.2">W3C website</a>.</p>
+<p>Read more on <a href="http&#58;//www.w3.org/TR/html4/interact/scripts.html#h-18.2.2" target="_blank">W3C website</a>.</p>
 
 
