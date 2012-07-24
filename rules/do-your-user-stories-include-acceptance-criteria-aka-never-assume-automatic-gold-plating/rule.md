@@ -25,7 +25,7 @@ For example, Product Owners should not assume things like&#58;</p>
  </span>
 
 <p><strong>Acceptance Criteria </strong>(from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question, &quot;How will I know when I’m done with the story?&quot;</p>
-<img class="ms-rteCustom-ImageArea" alt="A User Story with Acceptance Criteria" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; A User Story with Acceptance Criteria (MSF Agile Template)</span><br>
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria.jpg" alt="A User Story with Acceptance Criteria" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; A User Story with Acceptance Criteria (MSF Agile Template)</span><br>
 <p class="ms-rteCustom-GreyBox">When I enter ‘Adam’ in the search box and click ‘Search’ I will see all entries starting with ‘Adam’ in the grid<br>
 </p>
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example of Acceptance Criteria - Incomplete</span>
@@ -47,7 +47,7 @@ Gold Plating – if a large set of results is returned, display pagination with 
 The goal is for teams to move beyond manual testing and implement automated testing <br>
 eg. CodedUI tests, Telerik Tests etc<br>
 &#160;Test cases answer the question, &quot;How do I test and what are the test steps?&quot;</p>
-<img class="ms-rteCustom-ImageArea" alt="Test Cases in a User Story" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria-test-cases.jpg" /> 
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/acceptance-criteria-test-cases.jpg" alt="Test Cases in a User Story" class="ms-rteCustom-ImageArea" /> 
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Test Cases in a User Story&#160; (MSF For Agile Template)</span><br>
 <p class="ms-rteCustom-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>
 Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>
@@ -64,13 +64,13 @@ Gold Plating – if a large set of results is returned and we are on page = MaxP
 </p>
 <span class="ms-rteCustom-FigureGood">&#160;Figure&#58; Good example - Acceptance Tests</span>
 
-<img class="ms-rteCustom-ImageArea" alt="Test Cases" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-cases.jpg" />
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-cases.jpg" alt="Test Cases" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The tester sees the Test Cases in Test Manager</span>
 
-<img class="ms-rteCustom-ImageArea" alt="Test Steps" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-steps.jpg" />
+<img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/test-steps.jpg" alt="Test Steps" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The tester follows each instruction (aka the Test Steps), and gives it a tick or cross</span>
 
 <h2>Related Resources</h2>
-<p><a shape="rect" href="http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories">http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories</a></p>
+<p><a href="http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories" shape="rect">http&#58;//www.scrumalliance.org/articles/169-new-to-user-stories</a></p>
 
 
