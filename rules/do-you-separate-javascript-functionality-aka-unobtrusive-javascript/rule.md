@@ -22,10 +22,10 @@ redirects:
 <div class="ms-rteCustom-CodeArea">
 <p>{ltHTMLChar}a onclick=&quot;action()&quot; href=&quot;#&quot;{gtHTMLChar}Click Here{ltHTMLChar}/a{gtHTMLChar}</p>
 </div>
-<span class="ms-rteCustom-FigureBad">Figure&#58; Never include Javascript as inline attributes</span>
+<span class="ms-rteCustom-FigureBad">Figure&#58; Never include JavaScript as inline attributes</span>
 <div class="ms-rteCustom-CodeArea">
 <p>{ltHTMLChar}a href=&quot;backuplink.html&quot; class=&quot;action&quot;{gtHTMLChar}Click Here{ltHTMLChar}/a{gtHTMLChar}</p>
 </div>
-<span class="ms-rteCustom-FigureGood">Figure&#58; Javascript (included in an external file) should use a class or id for its behaviours</span>
+<span class="ms-rteCustom-FigureGood">Figure&#58; JavaScript (included in an external file) should use a class or id for its behaviours</span>
 
 
