@@ -21,6 +21,12 @@ authors:
 <li><strong>Single-line comments</strong> - begin with a double forward slash (//)</li>
 <li><strong>Multiline comments</strong> - start with slash-asterisk (/*) and end with asterisk-slash (*/) pair.</li>
 </ul>
+
 <p>Comments are ignored (not processed as coding) by the browser, however it makes you code heavier, so always try to keep your comments short by writing only what's needed to convey the idea.</p>
+
+<div class="ms-rteCustom-CodeArea">
+<p>document.write (&quot;Example!&quot;); // prints a message</p>
+</div>
+<span class="ms-rteCustom-FigureGood">Figure&#58; Your comment should be simple and informative</span>
 
 
