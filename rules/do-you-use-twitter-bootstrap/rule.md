@@ -14,15 +14,15 @@ authors:
 
 
 <span class='intro'> <p>Efficient programmers do not re-invent the wheel.</p>
-<p>Twitter Bootstrapp is a Nuget Package that provides a jump-start for Html based projects. It includes the Html, CSS and Javascript framework used by Twitter, to build the Twitter site.</p> </span>
+<p>Twitter Bootstrap is a NuGet Package that provides a jump-start for Html based projects. It includes the Html, CSS and JavaScript framework used by Twitter, to build the Twitter site.</p> </span>
 
 <p>Building your site on top of bootstrap makes it much easier to have your website look great on devices of all sizes, across many different browsers.</p>
 
-<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/bootstrap-1.jpg" alt="Bootstrap" /><span class="ms-rteCustom-FigureNormal">Figure&#58; This website template, along with many others is available as a starting point for building Bootstrap-based sites</span>
+<img alt="Bootstrap" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/bootstrap-1.jpg" class="ms-rteCustom-ImageArea" /><span class="ms-rteCustom-FigureNormal">Figure&#58; This website template, along with many others is available as a starting point for building Bootstrap-based sites</span>
 
-<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/bootstrap-2.jpg" alt="Bootstrap" /><span class="ms-rteCustom-FigureBad">Figure&#58; Many websites built by using tables for positioning would render poorly on smaller devices, and be hard to use</span>
+<img alt="Bootstrap" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/bootstrap-2.jpg" class="ms-rteCustom-ImageArea" /><span class="ms-rteCustom-FigureBad">Figure&#58; Many websites built by using tables for positioning would render poorly on smaller devices, and be hard to use</span>
 
-<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/bootstrap-3.jpg" alt="Bootstrap" /><span class="ms-rteCustom-FigureGood">Figure&#58; Twitter Bootstrap uses many techniques to help make your site look great on different browsers, on all devices</span>
+<img alt="Bootstrap" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/bootstrap-3.jpg" class="ms-rteCustom-ImageArea" /><span class="ms-rteCustom-FigureGood">Figure&#58; Twitter Bootstrap uses many techniques to help make your site look great on different browsers, on all devices</span>
 
 <h2>Documentation</h2>
 <p><a href="http&#58;//twitter.github.com/bootstrap/">Bootstrap, from Twitter</a></p>
