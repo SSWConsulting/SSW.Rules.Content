@@ -24,5 +24,6 @@ authors:
 <p>&#160;<img alt="run acceptance tests" src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/run-acceptance-tests-5.jpg" /> <br><strong>Figure&#58; Bad Example – No Tests should remain as 'Active' or 'Failed' at the end of a Sprint</strong> </p>
 <p><img alt="run acceptance tests" src="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/PublishingImages/run-acceptance-tests-6.jpg" />&#160;</p>
 <p><strong>Figure&#58; Good Example – every test is 'Passed'. <br></strong>Tip&#58; You can pass a test from the test list. Select the Test menu, then the Test Suite. Choose the Test Case to pass and then click the green button ‘Pass Test’</p>
+<p>The next step is to <a href="/SoftwareDevelopment/RulesToBetterUserAcceptanceTests/Pages/How-to-Check-the-Status-of-the-Current-Sprint.aspx">review the Statistics of the Sprint</a></p>
 
 
