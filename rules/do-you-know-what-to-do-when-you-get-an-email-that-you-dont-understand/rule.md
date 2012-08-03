@@ -18,7 +18,7 @@ related: []
 <p>Sometimes a task will not be clear, or you won't have sufficient context to understand what is required.</p>
 <p>A bad approach is to simply delete the email or to&#160;reply with “?” and then delete it. </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​What you should do is call the sender and ask for specifics, then reply to the email with an as per our conversation, documenting your new understanding of the task.</p>
+<p>​What you should do is call the sender and ask for specifics, then reply to the email with an <a href="/Communication/RulesToBetterEmail/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx">as per our conversation</a>, documenting your new understanding of the task.</p>
 <p>If you can't get hold of the person, email them back asking specifics of what you don't understand.</p>
 
 
