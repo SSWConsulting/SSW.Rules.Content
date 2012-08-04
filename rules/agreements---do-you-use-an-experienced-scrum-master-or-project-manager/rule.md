@@ -33,7 +33,7 @@ related: []
 <p><strong>#1 For Scrum Projects&#58;</strong></p>
 <p>In Scrum projects the role of project manager is split into three roles&#58; Scrum Master, Product Owner and Team. Each role is essential. </p>
 </div>
-<p>For more information go to <a href="http&#58;//www.scrumalliance.org/articles/39-glossary-of-scrum-terms">Scrum Terms</a> <img src="http&#58;//www.ssw.com.au/ssw/images/external.gif" title="You are now leaving SSW" alt="" /> and <a href="http&#58;//www.scrumalliance.org/pages/scrum_roles">Scrum Roles</a> <img src="http&#58;//www.ssw.com.au/ssw/images/external.gif" title="You are now leaving SSW" alt="" />.</p>
+<p>For more information go to <a href="http&#58;//www.scrumalliance.org/articles/39-glossary-of-scrum-terms">Scrum Terms</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> and <a href="http&#58;//www.scrumalliance.org/pages/scrum_roles">Scrum Roles</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" />.</p>
 
 
 
