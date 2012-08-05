@@ -35,7 +35,7 @@ name=&quot;Discipline&quot;
 refname=&quot;Microsoft.VSTS.Common.Discipline&quot;
 type=&quot;String&quot;{gtHTMLChar}<br></span><span style="font-family&#58;verdana, sans-serif;font-size&#58;9pt;">&#160; {ltHTMLChar}HELPTEXT{gtHTMLChar}The discipline to which the task belongs{ltHTMLChar}/HELPTEXT{gtHTMLChar}<br></span><span style="font-family&#58;verdana, sans-serif;font-size&#58;9pt;">&#160; {ltHTMLChar}ALLOWEDVALUES{gtHTMLChar}<br></span><span style="font-family&#58;verdana, sans-serif;font-size&#58;9pt;">&#160; &#160;<span class="ssw-rteStyle-Highlight"> {ltHTMLChar}GLOBALLIST name=&quot;Disciplines&quot; /{gtHTMLChar}</span><br></span><span style="font-family&#58;verdana, sans-serif;font-size&#58;9pt;">&#160; {ltHTMLChar}/ALLOWEDVALUES{gtHTMLChar}<br></span><span style="font-family&#58;verdana, sans-serif;font-size&#58;9pt;">{ltHTMLChar}/FI</span><span style="font-family&#58;verdana, sans-serif;font-size&#58;9pt;">ELD{gtHTMLChar}​​</span></p>
 <span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Reference a global list
-in&#160;work item type&#160;definition</span>​​Note&#58;&#160;Global list is defined at the Team Project Collection level and it needs to be uploaded before the process template could be&#160;uploaded.&#160;​
-​​​​​​​​
+in&#160;work item type&#160;definition</span><span class="ssw-rteStyle-Tip">​​Note&#58;&#160;Global list is defined at the Team Project Collection level and it needs to be uploaded before the process template could be&#160;uploaded.&#160;​
+</span>​​​​​​​​
 
 
