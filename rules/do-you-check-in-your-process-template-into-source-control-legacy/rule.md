@@ -21,10 +21,10 @@ related:
 
 <p class="MsoListParagraph">Customized process template is very
 important asset for your team, you should use Source Control to store the
-work-in-progress template so you can track the changes and avoid mistakes.&#160;<br><img class="ssw-rteStyle-ImageArea" alt="CheckInTemplateIntoSourceControl.png" src="/TFS/RulesToBetterTFSCustomization/PublishingImages/CheckInTemplateIntoSourceControl.png" style="margin&#58;5px;" /><br><span style="font-weight&#58;bold;">Figure&#58; customized process template in source control​</span>
+work-in-progress template so you can track the changes and avoid mistakes.&#160;<br><img src="/TFS/RulesToBetterTFSCustomization/PublishingImages/CheckInTemplateIntoSourceControl.png" alt="CheckInTemplateIntoSourceControl.png" class="ssw-rteStyle-ImageArea" style="margin&#58;5px;" /><br><span style="font-weight&#58;bold;">Figure&#58; customized process template in source control​</span>
 </p>
 <br><excerpt class='endintro'></excerpt><br>
 ​You should also keep a version history log in
-ProcessTemplate.xml so you can track the deployed version easily.<img width="628" height="271" class="ssw-rteStyle-ImageArea" src="/TFS/RulesToBetterTFSCustomization/PublishingImages/KeepHistoryForTemplate.png" alt="" /><br><b>Figure&#58; ProcessTemplate.xml with version history log&#160;</b>
+ProcessTemplate.xml so you can track the deployed version easily.<img width="628" height="271" src="/TFS/RulesToBetterTFSCustomization/PublishingImages/KeepHistoryForTemplate.png" class="ssw-rteStyle-ImageArea" alt="" /><br><b>Figure&#58; ProcessTemplate.xml with version history log&#160;</b>
 
 
