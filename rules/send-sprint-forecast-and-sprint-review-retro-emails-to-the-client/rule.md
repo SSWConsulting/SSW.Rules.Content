@@ -18,13 +18,13 @@ redirects:
 ---
 
 
-<p>Each sprint has a &quot;Sprint&#160;Plan&quot; email that details what will be worked on during this sprint. At the end of the sprint, this should be replied to with a &quot;Sprint Review&quot; email that shows a breakdown of what was completed.</p>
+<p>Each sprint has a &quot;Sprint&#160;Forecast&quot; email that details what will be worked on during this sprint. </p>
+<p>At the end of the sprint, this should be replied to with a &quot;Sprint Review&quot; email that shows a breakdown of what was completed.</p>
 <p>Each sprint has the following stages&#58;</p>
+
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>Planning meeting&#58; <ul><li>Sprint Plan email <ul><li>Subject&#58; {ltHTMLChar}Client Name{gtHTMLChar} Sprint xxx Plan</li>
-<li>List of tasks to be worked on in this sprint (i.e. Client priorities)</li>
-<li>Link to Project Portal</li>
-<li>Date of next review/retro</li></ul></li></ul></li>
+<ol><li>Planning meeting&#58; <ul><li>Sprint Forecast email</li>
+<li>See <a href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-have-a-Sprint-Contract-aka-The-deal-between-the-Product-Owner-and-Team.aspx">http&#58;//rules.ssw.com.au/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-have-a-Sprint-Contract-aka-The-deal-between-the-Product-Owner-and-Team.aspx</a>&#160;for more details</li></ul></li>
 <li>Review and Retro meetings </li>
 <ul><li>The Sprint review/retro email&#58; &quot;Northwind Sprint 5 Review/Retro&quot; <ul><li>Subject&#58; Sprint xxx Review</li>
 <li>This is a reply to the Sprint Plan email</li>
