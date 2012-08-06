@@ -23,13 +23,14 @@ redirects:
 <p>Each sprint has the following stages&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Planning meeting&#58; </li>
-<ul><li>Sprint Forecast email</li>
+</ol>
+<ul><li>Sprint Forecast email&#58; &quot;Northwind Sprint 5 Forecast&quot;</li>
 <li>See <a href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-have-a-Sprint-Contract-aka-The-deal-between-the-Product-Owner-and-Team.aspx">Do you send a Sprint Forecast Email</a>&#160;for more details</li></ul>
-<li>The work is done&#58;</li></ol>
+<ol><li>The work is done&#58;</li></ol>
 <ul><li>Done emails are sent asking for specific functionality to be tested</li>
 <li>See <a href="/Communication/RulesToBetterEmail">Rules to better Email </a>for details</li></ul>
-<ol><li>Review and Retro meetings </li>
+<ol><li>Review and Retro meetings </li></ol>
 <ul><li>The Sprint review/retro email&#58; &quot;Northwind Sprint 5 Review/Retro&quot;&#160;</li>
-<li>See&#160;<a title="Do you send a Sprint Review/Retro email" href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-create-a-Sprint-Review-email.aspx">Do you send a Sprint Review/Retro email</a>&#160;for more details.</li></ul></ol>
+<li>See&#160;<a title="Do you send a Sprint Review/Retro email" href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-create-a-Sprint-Review-email.aspx">Do you send a Sprint Review/Retro email</a>&#160;for more details.</li></ul>
 
 
