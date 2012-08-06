@@ -18,19 +18,21 @@ redirects:
 ---
 
 
-<p>&#160;</p>
-<div>Each sprint has a &quot;Sprint&#160;plan&quot; email that details what will be worked on during this sprint. At the end of the sprint, this should be replied to with a breakdown of what was completed.</div>
+<p>Each sprint has a &quot;Sprint&#160;Plan&quot; email that details what will be worked on during this sprint. At the end of the sprint, this should be replied to with a &quot;Sprint Review&quot; email that shows a breakdown of what was completed.</p>
 <p>Each sprint has the following stages&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>&#160;</p>
-<ol><li>Planning meeting<br>* The Sprint plan email&#58; &quot;Northwind Sprint 5 Plan&quot;</li>
-<li>Review and Retro meetings<br>​​* The Sprint review/retro email&#58; &quot;Northwind Sprint 5 Review/Retro&quot;<br>* Include the Sprint Plan in the history<br>* Include significant notes from the Retro<br>* Any other notes that the stakeholder might need to know</li></ol>
-<p>The goal of this email is to inform disconnected stakeholders (depending on what notes you include) info that will answer the following questions&#58;</p>
-<ul><li>The location of the new package you built last Friday </li>
-<li>The % of the tasks done? (Find this from your current iteration) </li>
-<li>The % of the budget spent? (Find from your Billing System. <a href="/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx">See example of a Billing Report - Project Progress Report</a>) </li>
-<li>Expected finish date </li></ul>
-<p>&#160;</p>
+<ol><li>Planning meeting&#58; <ul><li>Sprint Plan email <ul><li>Subject&#58; {ltHTMLChar}Client Name{gtHTMLChar} Sprint xxx Plan</li>
+<li>List of tasks to be worked on in this sprint (i.e. Client priorities)</li>
+<li>Link to Project Portal</li>
+<li>Date of next review/retro</li></ul></li></ul></li>
+<li>Review and Retro meetings </li>
+<ul><li>The Sprint review/retro email&#58; &quot;Northwind Sprint 5 Review/Retro&quot; <ul><li>Subject&#58; Sprint xxx Review</li>
+<li>This is a reply to the Sprint Plan email</li>
+<li>Breakdown of work completed</li>
+<li>Screenshot of Burndown</li>
+<li>Link to test environment</li>
+<li>Relevant notes from the retro</li></ul></li>
+&#160;</ul></ol>
 <dl class="good"><dt>Hi Mr Northwind <br><br>Here is an update&#58; <br><ul><li>currently working on <strong>Northwind Release_10_Jobs</strong> </li>
 <li>I did a build on Friday see http&#58;//ant&#58;8000/Northwind/ <ul><li>Status&#58; Internal Test Failed </li></ul></li>
 <li>% of Tasks Done&#58;&#160; 62% complete <ul><li>http&#58;//tfs.northwind.com/XXX&#160; </li></ul></li>
@@ -38,6 +40,6 @@ redirects:
 <li>Spent&#58;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; $39,715 </li></ul></li>
 <li>I expect to finish on Fri 30/05/2008 </li></ul>
 <br>Regards Eric </dt>
-<dd>Figure&#58; The above is a sample of the 'Weekly Project Update'&#160;email </dd></dl>
+<dd>Figure&#58; The above is a sample of the &quot;Sprint XXX Review/Retro&quot; email </dd></dl>
 
 
