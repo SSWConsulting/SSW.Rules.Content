@@ -22,8 +22,7 @@ redirects:
 <p>At the end of the sprint, this should be replied to with a &quot;Sprint Review&quot; email that shows a breakdown of what was completed.</p>
 <p>Each sprint has the following stages&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>Planning meeting&#58; </li>
-</ol>
+<ol><li>Planning meeting&#58; </li></ol>
 <ul><li>Sprint Forecast email&#58; &quot;Northwind Sprint 5 Forecast&quot;</li>
 <li>See <a href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-have-a-Sprint-Contract-aka-The-deal-between-the-Product-Owner-and-Team.aspx">Do you send a Sprint Forecast Email</a>&#160;for more details</li></ul>
 <ol><li>The work is done&#58;</li></ol>
