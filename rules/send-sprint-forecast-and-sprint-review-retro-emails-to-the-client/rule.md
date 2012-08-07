@@ -30,4 +30,3 @@ redirects:
 <li>See&#160;<a title="Do you send a Sprint Review/Retro email" href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-create-a-Sprint-Review-email.aspx">Do you send a Sprint Review/Retro email</a>&#160;for more details.</li></ul></li></ol>
 
 
-
