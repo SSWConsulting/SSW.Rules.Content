@@ -22,7 +22,7 @@ related: []
 <p>&quot;Triage&quot; is a term originally used to describe the assessment of injured persons into a priority order based on the severity and urgency of their injuries.&#160;While developers don't often deal with real life and death situations very often, the ability to prioritise and action issues that arise can keep the heartbeat of a project steady and strong.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Managing additional work requests can reduce the adverse impact on estimates and deadlines. </p>
-<dl class="image" style="float&#58;right;clear&#58;right;"><dt><img src="/Management/RulesToHappyClients/PublishingImages/SuccessfulProjects_Triage.jpg" border="0" alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" /> </dt>
+<dl class="image" style="float&#58;right;clear&#58;right;"><dt><img border="0" src="/Management/RulesToHappyClients/PublishingImages/SuccessfulProjects_Triage.jpg" alt="" style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" /> </dt>
 <dd>Figure&#58; Only if it's life and death does it get added &quot;in this sprint&quot; </dd></dl>
 <p>The first step is to analyse the priority of the additional item.</p>
 <p>Let's look at the rules to how to prioritize&#58;</p>
