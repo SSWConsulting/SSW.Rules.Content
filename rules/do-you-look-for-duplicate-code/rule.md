@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <span lang="EN-AU" style="font-family&#58;calibri,sans-serif;font-size&#58;11pt;">Code duplication is a big &quot;code smell&quot; that harms maintainability.&#160; You should keep an eye out for repeated code and make sure you refactor it into a single place.</span> </span>
+<span class='intro'> <span lang="EN-AU" style="font-family&#58;calibri, sans-serif;font-size&#58;11pt;">Code duplication is a big &quot;code smell&quot; that harms maintainability.&#160; You should keep an eye out for repeated code and make sure you refactor it into a single place.</span> </span>
 
 <p>For example, have a look at these two Action methods&#160;in an MVC 4 controller.</p>
 <span class="ssw-rteStyle-CodeArea"><pre>//
@@ -102,7 +102,7 @@ public ActionResult Index()
 public ActionResult Details(int id = 0)
 &#123;
     // get company this user can view
-    <span style="background-color&#58;rgb(255, 255, 0);">Company company = GetCurrentUserCompany();
+    <span style="background-color&#58;rgb(255, 255, 0);">Company company = Ge</span><span style="background-color&#58;rgb(255, 255, 0);">tCurrentUserCompany();
 </span>
     // get matching person
     Person person = db.People.Find(id);
@@ -114,7 +114,7 @@ public ActionResult Details(int id = 0)
 &#125;
 </pre></span><div class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - The repeated code has been refactored into its own method.</div>
 <p><strong>Tip&#58; </strong>The Refactor menu in Visual Studio 11 can do this refactoring for you.</p>
-<img alt="vs_refactor_extract.png" src="/PublishingImages/vs_refactor_extract.png" class="ms-rteCustom-ImageArea" />
+<img alt="vs_refactor_extract.png" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Documents/vs_refactor_extract.png" class="ms-rteCustom-ImageArea" />
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; The Extract Method function in Visual Studio's Refactor menu.</span>
 
 
