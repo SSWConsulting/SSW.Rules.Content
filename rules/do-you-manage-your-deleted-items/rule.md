@@ -28,7 +28,7 @@ Your deleted items can become quite out of hand if you don't manage them. First,
 <font size="+0" class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - Deleted Items ordered into time periods</font><br>
 <br>
 NOTE&#58; A hot tip for making it easy to search for an accidentally deleted item is to add the &quot;Modified&quot; field into your Deleted Items view and sort by &quot;Modified&quot;. The item from two months ago which you just accidentally deleted will be sitting at the top.</p>
-<p dir="ltr" style="margin-right&#58;0px;"><img alt="" src="/Communication/RulesToBetterEmail/PublishingImages/OutlookModifiedByDate.gif" class="ms-rteCustom-GreyBox" /><br>
+<p dir="ltr" style="margin-right&#58;0px;"><img src="/Communication/RulesToBetterEmail/PublishingImages/OutlookModifiedByDate.gif" class="ms-rteCustom-GreyBox" alt="" /><br>
 <font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Sort by &quot;Modified&quot;</font><br>
 <font size="+0" class="ms-rteCustom-YellowBorderBox">We have a program called SSW LookOut! for Outlook to check for this rule. It leaves a reminder in your Inbox to remind you to clear your deleted items folder&#160; <br>
 </font></p>
