@@ -28,7 +28,9 @@ redirects: []
 <p>Get permission for the work you do <strong>*before*</strong> you do it. Usually get permission verbally, <a href="/Communication/RulesToBetterEmail/Pages/EmailToMyself.aspx">confirmed with an email&#160;</a> (or with a <a href="/Communication/RulesToBetterEmail/Pages/UseEmailSignatures.aspx" shape="rect">signature</a>, although that's sometimes a whole lot harder). </p>
 <p>The natural time for this conversation to occur is in the <a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx">Daily Scrum</a></p>
 <p>Always get permission for&#58; </p>
-<ul><li><a href="/Management/RulesToHappyClients/Pages/DoYouGetApprovalForAdditionalItemsAndWhenEstimatesWillBeExceeded.aspx" shape="rect">Additional Items</a> </li>
+<ul><li>Additional Items </li>
+<li>Investigation time for scoping out additional items </li>
+<li>Adding additional resources onto a project </li>
 <li><a href="/Management/RulesToHappyClients/Pages/DoYouGetApprovalForAdditionalItemsAndWhenEstimatesWillBeExceeded.aspx" shape="rect">Exceeding estimates</a> </li>
 <li><a href="/Management/RulesToSuccessfulProjects/Pages/PerformMigrationProceduresWithAnApprovedReleasePlan.aspx" shape="rect">Data migration</a> </li></ul>
 <p>Having said that, you need to manage two potential problems with seeking permission on work before acting&#58; </p>
