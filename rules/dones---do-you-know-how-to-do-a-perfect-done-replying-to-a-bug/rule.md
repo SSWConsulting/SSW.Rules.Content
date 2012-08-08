@@ -24,7 +24,7 @@ To reply to a bug effectively and efficiently in your emails, you need to includ
     <li>Investigation - the reason for the bug, or if you don't know, what you investigated, e.g. checked Windows event logs and found nothing helpful </li>
     <li>Solution - how you fixed the bug (code snippet if necessary)<br>
     <br>
-    <img style="width&#58;601px;height&#58;529px;" class="ms-rteCustom-ImageArea" alt="Reply to a bug" src="/Communication/RulesToBetterEmail/PublishingImages/better_emails_reply_bug_small.jpg" /> </li>
+    <img class="ms-rteCustom-ImageArea" alt="Reply to a bug" src="/Communication/RulesToBetterEmail/PublishingImages/better_emails_reply_bug_small.jpg" style="width&#58;601px;height&#58;529px;" /> </li>
 </ul>
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - Reply to a bug showing all steps</font><br>
 &#160; 
