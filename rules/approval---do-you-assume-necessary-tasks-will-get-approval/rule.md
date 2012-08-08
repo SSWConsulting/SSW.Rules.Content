@@ -19,7 +19,7 @@ When you are working on a project, you need to follow the <a href="/Management/R
 <br><excerpt class='endintro'></excerpt><br>
 <p>If you reasonably assume that the task you are working on would be approved by the customer, and it will take less than half an hour, you should go ahead with that task.</p>
 <span class="ms-rteCustom-GreyBox"><p>To&#58; Scott <br>Subject&#58; QWI - Aqua UI Improvements from Adam </p>
-<p>Adam suggested that we make the positioning of the &quot;New&quot; Button consistent on all forms. Move the New to the right with the Save and close buttons. Estimated 15 minutes. <br><span style="background-color&#58;yellow;">Please approve.</span></p></span> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad example.</span><span class="ms-rteCustom-GreyBox"><p>To&#58; Scott <br>Subject&#58; QWI - Aqua UI Improvements from Adam </p>
-<p>Adam suggested that we make the positioning of the &quot;New&quot; Button consistent on all forms. Move the New to the right with the Save and close buttons. Estimated 15 minutes.&#160;</p></span> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example.</span> 
+<p>Adam suggested that we make the positioning of the &quot;New&quot; Button consistent on all forms. Move the New to the right with the Save and close buttons. Estimated 15 minutes. <br><span style="background-color&#58;yellow;">Please approve.</span></p></span><span class="ms-rteCustom-FigureBad">Figure&#58; Bad example.</span><span class="ms-rteCustom-GreyBox"><p>To&#58; Scott <br>Subject&#58; QWI - Aqua UI Improvements from Adam </p>
+<p>Adam suggested that we make the positioning of the &quot;New&quot; Button consistent on all forms. Move the New to the right with the Save and close buttons. Estimated 15 minutes.&#160;</p></span><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example.</span> 
 
 
