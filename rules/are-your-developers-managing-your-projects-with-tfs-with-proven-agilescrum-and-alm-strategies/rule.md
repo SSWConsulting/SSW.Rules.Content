@@ -40,6 +40,6 @@ authors:
             <li>And it gets better, they don't have to document it because testing tools recorded what they did</li>
             <li>Later on, when they decide to go with Lab Manager they will never spend time setting up that special environment (say running windows 95 and IE6)</li>
         </ul>
-        <p><a href="/ssw/Consulting/Scrum.aspx">Managing your SharePoint Projects with TFS (with proven Agile/Scrum and ALM Strategies)</a></p>
+        <p><a href="http&#58;//www.ssw.com.au/ssw/consulting/scrum.aspx">Managing your SharePoint Projects with TFS (with proven Agile/Scrum and ALM Strategies)</a></p>
 
 
