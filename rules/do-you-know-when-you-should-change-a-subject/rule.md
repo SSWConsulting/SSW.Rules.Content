@@ -30,7 +30,7 @@ related: []
     to <strong>&quot;IBM WAS&#58; Invoice&quot;</strong></li>
 </ul>
 <p>Remember, never forget the <span><a title="Realize the Importance of a Good Email Subject" href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">importance of a good email subject</a></span> in improving communications.</p>
-<p class="ms-rteCustom-FigureNormal"><img src="/Communication/RulesToBetterEmail/PublishingImages/SarahPalin.jpg" /></p>
+<p class="ms-rteCustom-FigureNormal"><img src="/Communication/RulesToBetterEmail/PublishingImages/SarahPalin.jpg" alt="" />&#160;</p>
 <p class="ms-rteCustom-FigureNormal">Figure&#58; Keep your email subject description up-to-date. Out of date subjects can be misleading.</p>
 
 
