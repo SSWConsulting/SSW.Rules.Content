@@ -24,7 +24,8 @@ Mike </font>
   <font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad Example</font> <br>
 <font class="ms-rteCustom-GreyBox" size="+0">
 <p>I’m on site with a client setting up their TFS Server. We have the TFS 2010 and WSS on the app tier and SQL 2008 Standard on a separate box. We can see Analysis Services running in Services but the configuration manager returns Error&#160;</p>
-<blockquote style="margin-right&#58;0px;" dir="ltr">&quot;TF 255040&#58; You must exit Team Foundation Admin console and install SQL Server Reporting Services or at a minimum SQL Client Connectivity Tools…”</blockquote><br>
+<blockquote dir="ltr" style="margin-right&#58;0px;">&quot;TF 255040&#58; You must exit Team Foundation Admin console and install SQL Server Reporting Services or at a minimum SQL Client Connectivity Tools…”</blockquote>
+<br>
 SQL Reporting Services appears happy in the Advanced Configuration Wizard. Anyone have suggestions?<br>
 <br>
 Mike </font><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example – this reads a little better</font> 
