@@ -20,7 +20,7 @@ And remember to periodically select &quot;Check All Subfolders&quot; to make sur
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img border="0" src="/Communication/RulesToBetterEmail/PublishingImages/offline.JPG" alt="offline" class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" />
+  <img border="0" src="/PublishingImages/offline.JPG" alt="offline" class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Periodically check that all your mail folders are being synced in your offline.ost file
 </span>
 
