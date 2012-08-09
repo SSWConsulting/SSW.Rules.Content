@@ -23,7 +23,7 @@ redirects:
 
 
   <p>There are 2 main parts to any application. The UI which is what the customer can see and provide feedback on, and the underlying code which they really can't know if it is healthy or not.</p>
-<div>Therefore it is important to conduct a '<a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulestoSuccessfulProjects.aspx#TestPlease">test please</a>' on the iinternal code and architecture of the application. </div>
+<div>Therefore it is important to conduct a '<a href="/Management/RulesToSuccessfulProjects/Pages/TestPleaseFourSteps.aspx">test please</a>' on the iinternal code and architecture of the application. </div>
 <div>&#160;</div>
 <div>Ideally conduct a small 'Code + Architecture Review' for every sprint. Assuming a 2 week sprint, schedule a&#160;4 hour (2 architects x 2 hours) review during all sprints. </div>
 
