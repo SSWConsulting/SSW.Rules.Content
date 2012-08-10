@@ -17,7 +17,7 @@ authors:
 <br>
 This will help to solidify the changes and alleviate confusion.<br>
 <br>
-<img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterEmail/PublishingImages/AppointmentWithComments.jpg" />&#160;&#160; <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; The note in brackets explains the change that has been made</font> 
+<img class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterEmail/PublishingImages/AppointmentWithComments.jpg" alt="" />&#160;&#160; <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; The note in brackets explains the change that has been made</font> 
  </span>
 
 
