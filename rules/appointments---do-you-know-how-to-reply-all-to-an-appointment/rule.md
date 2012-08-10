@@ -23,7 +23,7 @@ Some of us have Outlook calendars that are full to the brim. We might use our Ca
     <img class="ms-rteCustom-ImageArea" alt="Calendar window" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting1_small.jpg" />
   </h6>
 <h6 class="ms-rteCustom-FigureNormal">Figure&#58;&#160;Open the appointment in your Calendar (You should already have Invited all the required people to attend)</h6>
-<span class="ms-rteCustom-FigureNormal"><img alt="" src="/Communication/RulesToBetterEmail/PublishingImages/Appt-ReplyAllWithMessage.jpg" /><br>
+<span class="ms-rteCustom-FigureNormal"><img src="/Communication/RulesToBetterEmail/PublishingImages/Appt-ReplyAllWithMessage.jpg" alt="" /><br>
 <br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Click on &quot;Message to Attendees&quot; and then &quot;Reply to All with Message&quot;</font> <img class="ms-rteCustom-ImageArea" alt="Type the messages" src="/Communication/RulesToBetterEmail/PublishingImages/betterMeeting4_small.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Send a friendly reminder!</font></span>
