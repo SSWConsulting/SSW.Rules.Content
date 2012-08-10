@@ -21,7 +21,7 @@ Outlook by default reads your emails and can flag your email as potential junk e
 
   <p>Sometimes, you would want to avoid using swear words, or using an angry tone as well.</p>
 <div class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br>
-<img class="ms-rteCustom-ImageArea" alt="Contact or bad word" src="/Communication/RulesToBetterEmail/PublishingImages/ContactorBadWord.GIF" /> <br>
+<img class="ms-rteCustom-ImageArea" alt="Contact or bad word" src="/PublishingImages/ContactorBadWord.GIF" /> <br>
 <span class="ms-rteCustom-FigureNormal">Figure&#58; SSW LookOut! for Outlook checks that you don't use bad words.</span></div>
 
 
