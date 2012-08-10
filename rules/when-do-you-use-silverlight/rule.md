@@ -18,7 +18,7 @@ authors:
   <p>
     <strong class="ms-rteThemeFontFace-1 ms-rteFontSize-2">Mobile Device&#58; <br>
 <br>
-<img alt="Silverlight in iPad doesn't work" src="/SoftwareDevelopment/RulesToBetterSilverLight/PublishingImages/SilverlightInIPad.png" /><br>
+<img alt="Silverlight in iPad doesn't work" src="/PublishingImages/SilverlightInIPad.png" /><br>
 &#160;&#160;&#160;&#160;Figure&#58; Silverlight does not work on an iPad, It can't be only experience.&#160;</strong> <strong class="ms-rteThemeFontFace-1 ms-rteFontSize-2"><br>
 &#160;&#160;&#160;&#160;</strong> <span class="ms-rteThemeFontFace-1 ms-rteFontSize-2"></span><span class="ms-rteThemeFontFace-1 ms-rteFontSize-2">Further Reading&#58; </span><a href="http&#58;//www.pcworld.com/article/193540/ipad_proves_that_apple_wants_to_kill_flash.html" class="ms-rteThemeFontFace-1 ms-rteFontSize-2" target="_blank">PCWorld</a>.&#160;</p>
 <div style="text-align&#58;left;"><strong>Data Entry Forms</strong></div>
@@ -41,10 +41,10 @@ authors:
 <div style="text-align&#58;left;">YES. Using Silverlight Rich TextBox user can format Text, insert image, DataGrid, Calendar, display Text right-to-left, print content and can access clipboard. Accessing <a href="http&#58;//msdn.microsoft.com/en-us/library/system.windows.clipboard%28v=vs.95%29.aspx" target="_blank">Clipboard</a> can be implemented by using Clipboard Object. Selected Text context can be implemented using <a href="http&#58;//msdn.microsoft.com/en-us/library/system.windows.controls.primitives.popup%28v=vs.95%29.aspx" target="_blank">Popup</a> Control.&#160; <a href="http&#58;//msdn.microsoft.com/en-us/library/ff426926%28v=vs.95%29.aspx" class="ms-rteCustom-External" target="_blank">Sample in MSDN</a> </div>
 <div style="text-align&#58;left;">&#160;</div>
 <div style="text-align&#58;left;"><strong>For mapping apps</strong></div>
-<div style="text-align&#58;left;">YES. Microsoft.Maps.MapControl provides functionality to access Bing Maps. Using script a site can implement map feature by referencing the Bing Maps Silverlight Control XAP file in an object tag. Here are some sample applications&#58;&#160; <a href="http&#58;//www.microsoft.com/maps/isdk/silverlight/" class="ms-rteCustom-External" target="_blank">Microsoft Bing Map</a>, <a href="http&#58;//www.valentinorossi.fr/bingMapMotoGP.htm" class="ms-rteCustom-External" target="_blank">MotoGP Circuit </a>&#160;&amp; <a href="http&#58;//deepearth.codeplex.com/" class="ms-rteCustom-External" target="_blank">DeepEarth Project</a></div>
+<div style="text-align&#58;left;">YES. Microsoft.Maps.MapControl provides functionality to access Bing Maps. Using script a site can implement map feature by referencing the Bing Maps Silverlight Control XAP file in an object tag. Here are some sample applications&#58;&#160; <a href="http&#58;//www.microsoft.com/maps/isdk/silverlight/" class="ms-rteCustom-External" target="_blank">Microsoft Bing Map</a>&#160;&amp; <a href="http&#58;//deepearth.codeplex.com/" class="ms-rteCustom-External" target="_blank">DeepEarth Project</a></div>
 <div style="text-align&#58;left;">&#160;</div>
 <div style="text-align&#58;left;"><strong>Slow Response</strong></div>
-<div style="text-align&#58;left;">The initial slow response is due to downloading of the .xap file. This is not an issue since it is a one-time download and the user gets a fast response with later interaction. For later visits, user will not face slow response issue as browser already cached the data. Also check out rules - <a href="/SoftwareDevelopment/RulesToBetterSilverLight/Pages/Do-you-use-dynamic-application-loading-in-Silverlight.aspx" target="_blank">Do you use dynamic application loading in Silverlight</a></div>
+<div style="text-align&#58;left;">The initial slow response is due to downloading of the .xap file. This is not an issue since it is a one-time download and the user gets a fast response with later interaction. For later visits, user will not face slow response issue as browser already cached the data. Also check out rules - <a href="/Pages/Do-you-use-dynamic-application-loading-in-Silverlight.aspx" target="_blank">Do you use dynamic application loading in Silverlight</a></div>
 
 
 
