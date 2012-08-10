@@ -178,12 +178,26 @@ related: []
                     &#160;</p>
             </td>
         </tr>
-        
+         <tr>
+             <td valign="top" style="border-right-width&#58;1pt;border-right-style&#58;solid;width&#58;60px;border-bottom-width&#58;1pt;border-bottom-style&#58;solid;padding&#58;0cm 5.4pt;border-left-width&#58;1pt;border-left-style&#58;solid;background-color&#58;transparent;">
+                <p style="margin&#58;0cm 0cm 0pt;padding&#58;10px 0px;font-size&#58;12px;line-height&#58;20px;">
+                    Database Name</p>
+            </td>
+            <td valign="top" style="border-right-width&#58;1pt;border-right-style&#58;solid;width&#58;300px;border-bottom-width&#58;1pt;border-bottom-style&#58;solid;padding&#58;0cm 5.4pt;background-color&#58;transparent;">
+                <p style="margin&#58;0cm 0cm 0pt;padding&#58;10px 0px;font-size&#58;12px;line-height&#58;20px;">
+                    Zz the database name so you know this will be replaced (read&#160;<a href="/Management/RulesToSuccessfulProjects/Pages/ZZOldFiles.aspx" style="text-decoration&#58;none;color&#58;rgb(58, 102, 204);border-bottom-width&#58;1px;border-bottom-style&#58;dotted;border-bottom-color&#58;rgb(58, 102, 204);background-color&#58;transparent;">zzOldFiles</a><span style="background-color&#58;transparent;">)</span></p>
+                <p style="margin&#58;0cm 0cm 0pt;padding&#58;10px 0px;font-size&#58;12px;line-height&#58;20px;">
+                    &#160;</p>
+            </td>
+             <td valign="top" width="50px" style="border-right-width&#58;1pt;border-right-style&#58;solid;width&#58;60px;border-bottom-width&#58;1pt;border-bottom-style&#58;solid;padding&#58;0cm 5.4pt;background-color&#58;transparent;">
+                <p style="margin&#58;0cm 0cm 0pt;padding&#58;10px 0px;font-size&#58;12px;line-height&#58;20px;">
+                    &#160;</p>
+            </td>
+        </tr>
     </tbody></table>
 
 
     
     <br class="Apple-interchange-newline">
-
 
 
