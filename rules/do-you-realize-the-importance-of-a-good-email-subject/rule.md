@@ -96,7 +96,7 @@ Just as we should not 'judge a book by it's cover' - we will not judge an email 
 Check sample report <a href="http&#58;//www.ssw.com.au/ssw/exchangereporter/ReportSamples.aspx#CurrentFolder">Current - All Mailboxes (By Folder)</a></p>
 <h2>Related Links</h2>
 <ul>
-<li><a href="/Management/Rules-to-Being-Software-Consultants-Working-in-a-Team/Pages/Do-you-get-your-work-done-in-order-of-importance.aspx">Do you get your work done in order of importance (aka priorities)?</a></li>
+<li><a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Do-you-get-your-work-done-in-order-of-importance.aspx">Do you get your work done in order of importance (aka priorities)?</a></li>
 </ul>
 
 
