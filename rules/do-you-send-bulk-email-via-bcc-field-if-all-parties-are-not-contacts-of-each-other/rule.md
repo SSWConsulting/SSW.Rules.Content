@@ -20,8 +20,8 @@ related: []
 </p>
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img src="/Communication/RulesToBetterEmail/PublishingImages/better_emails_bulk_to.jpg" alt="Bad" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad Example&#58; Send bulk email via 'To' field</span> <br>
-<img src="/Communication/RulesToBetterEmail/PublishingImages/better_emails_bulk_bcc.JPG" alt="Good" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good Example&#58; Send bulk email via 'Bcc' field </span>
+  <img src="/PublishingImages/better_emails_bulk_to.jpg" alt="Bad" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad Example&#58; Send bulk email via 'To' field</span> <br>
+<img src="/PublishingImages/better_emails_bulk_bcc.JPG" alt="Good" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good Example&#58; Send bulk email via 'Bcc' field </span>
 
 
 
