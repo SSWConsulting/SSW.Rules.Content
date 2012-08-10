@@ -23,6 +23,7 @@ Replying inline should be the exception rather than the rule as it messes up the
 
   <p>
 <span class="ms-rteCustom-GreyBox">-----Original Message-----
+</span></p>
 <p>From&#58; Daniel Hyles www.ssw.com.au<br>
 Sent&#58; Tuesday, 28 May 2002 7&#58;31 AM<br>
 To&#58; Adam Cogan www.ssw.com.au<br>
@@ -42,8 +43,8 @@ Subject&#58; FW&#58; Morning Goals</p>
 - Access reporter<br>
 <font color="#ff0000"><span class="RedText">Not Done</span> </font></p>
 <p><span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - See the &quot;Reply In-line&quot; comment, and see how the RED makes the email easier to read.</span></p>
-</span>
-</p>
+
+<p>&#160;</p>
 
 
 
