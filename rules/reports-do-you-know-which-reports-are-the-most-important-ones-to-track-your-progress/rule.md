@@ -27,7 +27,7 @@ redirects: []
   <p>
     <img src="http&#58;//www.ssw.com.au/ssw/standards/Rules/images/burndown.JPG" class="ssw-rteStyle-ImageArea" alt="" style="margin&#58;0px 20px;width&#58;572px;height&#58;571px;" /><br><strong class="ms-rteCustom-FigureNormal" style="display&#58;inline !important;">Figure&#58; The burndown has all of the information you need to know if you are going to hit your mark</strong></p>
 <p>There are however other reports that matter for management and putting together the bigger picture.</p>
-<p>See <a shape="rect" href="/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx" title="http&#58;//rules.ssw.com.au/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx"><font color="#000080">Do you get regular updates on costs and progress?</font></a></p>
+<p>See <a shape="rect" href="/watch-do-you-get-regular-updates-on-costs-and-progress-(aka-project-progress-burndown-etc-)" title="http&#58;//rules.ssw.com.au/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx"><font color="#000080">Do you get regular updates on costs and progress?</font></a></p>
 
 
 
