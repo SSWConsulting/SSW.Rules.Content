@@ -31,7 +31,7 @@ redirects: []
 <ul><li>Additional Items </li>
 <li>Investigation time for scoping out additional items </li>
 <li>Adding additional resources onto a project </li>
-<li><a href="/Management/RulesToHappyClients/Pages/DoYouGetApprovalForAdditionalItemsAndWhenEstimatesWillBeExceeded.aspx" shape="rect">Exceeding estimates</a> </li>
+<li>Exceeding estimates</li>
 <li><a href="/Management/RulesToSuccessfulProjects/Pages/PerformMigrationProceduresWithAnApprovedReleasePlan.aspx" shape="rect">Data migration</a> </li></ul>
 <p>Having said that, you need to manage two potential problems with seeking permission on work before acting&#58; </p>
 <ul><li>Increased dead time while waiting for approval </li>
