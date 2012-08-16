@@ -13,9 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p><a href="/Management/RulesToSuccessfulProjects/Pages/DoYouUnderstandTheValueOfConsistency.aspx">SP Link</a></p>
-<p><a href="/Management/RulesToSuccessfulProjects/Pages/DoYouUnderstandTheValueOfConsistency.aspx">Web Link</a></p>
-<p>When developing a n-tiered software solution, we follow a standard solution structure. We have incorporated unit testing components, which is an integral part of the Extreme Programming development methodology, into our solution structure&#58; </p> </span>
+<span class='intro'> <p>When developing a n-tiered software solution, we follow a standard solution structure. We have incorporated unit testing components, which is an integral part of the Extreme Programming development methodology, into our solution structure&#58; </p> </span>
 
 <table class="clsSSWTable"><tbody><tr><th height="36">Project Type </th>
 <th height="36" width="80">Project Name </th>
