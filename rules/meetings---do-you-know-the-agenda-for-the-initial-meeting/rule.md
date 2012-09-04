@@ -66,7 +66,7 @@ authors:
                 </ul>
                 <dl class="image">
                     <dt>
-                        <img alt="Do you listen" src="/Management/Rules-to-Successful-Sales-and-Account-Management/PublishingImages/WomanListening.jpg" />
+                        <img src="/Management/RulesToSuccessfulSalesAndAccountManagement/PublishingImages/WomanListening.jpg" alt="Do you listen" />
                     </dt>
                     <dd>
                         Figure&#58; Do you listen?</dd></dl>
