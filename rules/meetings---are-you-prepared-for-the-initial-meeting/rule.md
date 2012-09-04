@@ -33,15 +33,15 @@ authors:
                     <li>Having a wireless card to access the Internet if you cannot connect to the clients
                         network. In fact it is preferred you do not connect to the clients network due to
                         time and security issues</li>
-                    <li>Having the <a href="/SSW/Company/SSWPresentation_ver4-5.pptx">
+                    <li>Having the <a href="http&#58;//www.ssw.com.au/SSW/Company/SSWPresentation_ver4-5.pptx">
                         standard sales presentation</a>. Remember, while clients don't want to
                         think this is you first job, they rarely like to listen to how many CommBanks, NRMAs
                         or Pfizers you've done work for. Clients generally prefer the focus of the meeting
                         to be their business. You will however consider any previous projects which bear similarities
                         to the project on offer, you do need to prove our competency</li>
-                    <li>Have all the information that was recorded during the <a href="/SSW/Standards/Rules/RulesToBetterInboundCalls.aspx#Preparation">
+                    <li>Have all the information that was recorded during the <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterInboundCalls.aspx#Preparation">
                         initial call</a></li>
-                    <li>A hard copy of the <a href="/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx">
+                    <li>A hard copy of the <a href="http&#58;//www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx">
                         Consulting Order Terms and Conditions</a> may be useful for them to review when
                         the meeting is concluded</li>
                     <li>Plenty of business cards (that haven't been sitting in your wallet for three months!)</li>
