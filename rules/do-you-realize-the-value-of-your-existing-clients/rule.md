@@ -44,7 +44,7 @@ authors:
                     <li>Tell them the reasons for your stand</li>
                     <li>Tell them that developers will sometimes do the wrong thing - clients have different
                         opinions of what that is</li>
-                    <li>Tell them you are authorized to split a problem,offer them the solution and ask if they
+                    <li>Tell them you are authorized to split a problem, offer them the solution and ask if they
                         are happy with that solution</li>
                 </ul>
                 <p>
