@@ -23,7 +23,7 @@ authors:
                             We DO charge clients when an SSW developer installs or provides an SSW product for
                             the ongoing use of the client e.g. Code Auditor, Team Calendar or Extreme Emails,
                             which the client's staff will use after SSW leaves. This is just like a plumber
-                            buying a particular piece of pipe to fix a sink. SSW
+                            buying a particular piece of pipe to fix a sink.
                         </p>
                         <p>
                             SSW does not discount product prices to clients. This devalues the product.
