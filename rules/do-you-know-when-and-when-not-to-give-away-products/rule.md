@@ -13,9 +13,9 @@ authors:
 
 
 
-<span class='intro'> <p>We don't charge clients when an SSW developer uses an SSW product as part of the toolkit he takes (e.g. we use Upsizing PRO when doing an upsizing job). This is because it's just like a plumber <a href="/Management/RulesToSuccessfulProjects/Pages/ToolBox.aspx">using his wrench</a>. The developer takes it away with him when he leaves.</p> </span>
+<span class='intro'> <p>You shouldn't charge a client for using your own product as part of the toolkit you take (e.g. we use Upsizing PRO when doing an upsizing job). This is because it's just like a plumber <a href="/Management/RulesToSuccessfulProjects/Pages/ToolBox.aspx">using his wrench</a>. The developer You take it away with you when you leave.</p> </span>
 
-<p>We do charge clients when an SSW developer installs or provides an SSW product for the ongoing use of the client e.g. Code Auditor, Link Auditor, etc.&#160;which the client's staff will use after SSW leaves. This is just like a plumber buying a particular piece of pipe to fix a sink. </p>
-<p>SSW does not discount product prices to clients since this would devalue the product. </p>
+<p>However, you should charge clients when you install or provide one of your products for the ongoing use of the client e.g. Code Auditor, Link Auditor, etc.&#160;which the client's staff will use after you leave. This is just like a plumber buying a particular piece of pipe to fix a sink. </p>
+<p>Generally, you should avoid discounting product prices to clients since this would devalue the product. </p>
 
 
