@@ -20,6 +20,6 @@ authors:
 <span class='intro'> Communication is a critical part in project management and it's essential to provide as much information as possible&#160;to your clients so they know the project's progress.<br><br>We provide the following report to clients&#58;  </span>
 
 <ul><li>Project Progress Report&#58; This report helps clients to review the current project progress, check the status of the project and&#160;whether they are over or under estimates. </li></ul>
-<img class="ssw-rteStyle-ImageArea" src="/Management/RulesToHappyClients/PublishingImages/rulestobetterprojectprogress2.png" alt="" style="margin&#58;5px;width&#58;563px;height&#58;635px;" /><br><span class="ssw-rteStyle-FigureNormal">Figure&#58; Project Progress Report</span>
+<img class="ssw-rteStyle-ImageArea" src="/PublishingImages/rulestobetterprojectprogress2.png" alt="" style="margin&#58;5px;width&#58;563px;height&#58;635px;" /><br><span class="ssw-rteStyle-FigureNormal">Figure&#58; Project Progress Report</span>
 
 
