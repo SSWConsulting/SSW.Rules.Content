@@ -12,11 +12,10 @@ redirects: []
 ---
 
 
-
-  <p>A lot of time in a consultancy can be taken up by producing estimates for clients so they can see a ballpark of what they will be spending. Because this time is not billed, it is easy to end up with rushed and inaccurate estimates, leading to problems later in the project. </p>
+<p>A lot of time in a consultancy can be taken up by producing estimates for clients so they can see a ballpark of what they will be spending. Because this time is not billed, it is easy to end up with rushed and inaccurate estimates, leading to problems later in the project. </p>
 <p>A better way to go about it is to spend a little more time, and really get down in detail to what needs to be done. This is called a Specification review and is billable. </p>
+<p>The exception to this rule is if the client is happy to invest some of their own time to help you come up with a ballpark, then you can spend some time on it for free as this should help to get the client feeling invested in you and therefore more likely to go ahead with the work.</p>
 <p>See <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#OutcomeInitialMeetingSpecRevieworAdHocWork">Rules to Successful Sales Account Management</a>.</p>
-
 <br><excerpt class='endintro'></excerpt><br>
 
 
