@@ -12,15 +12,10 @@ redirects: []
 ---
 
 
-Some tasks are either time-critical or you give a promise to do them promptly. It's very important that these tasks are given a high priority.
-
+Some tasks are either time-critical or you give a promise to do them promptly. It's very important that these tasks are given a high priority. 
 <br><excerpt class='endintro'></excerpt><br>
-
-  <p>If you're not going to be able to deliver a task on-time, you should let the appropriate people know right away. </p>
-<dl class="goodImage">
-    <dt><img alt="A ticking clock" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/tickingclock.JPG" /> </dt>
-    <dd>Figure&#58; Some tasks are time critical, if you have agreed on something, and then notify the person when you know you will miss the deadline.</dd>
-</dl>
-
+<p>If you're not going to be able to deliver a task on-time, you should let the appropriate people know right away. </p>
+<dl class="goodImage"><dt><img alt="A ticking clock" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/tickingclock.JPG" /> </dt>
+<dd>Figure&#58; Some tasks are time critical. If you have agreed on something then notify the person when you know you will miss the deadline.</dd></dl>
 
 
