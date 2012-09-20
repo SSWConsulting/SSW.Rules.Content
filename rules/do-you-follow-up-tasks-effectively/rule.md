@@ -17,21 +17,15 @@ related: []
 ---
 
 
-
-  <p>Promises made by email are often pretty empty - the person who made the promise either has to make a note in a paper diary, stick a post-it note to his screen, or regularly trawl through Sent Items for all the off-hand promises made. </p>
+<p>Promises made by email are often pretty empty - the person who made the promise either has to make a note in a paper diary, stick a post-it note to his screen, or regularly trawl through Sent Items for all the off-hand promises made. </p>
 <p>To ensure you follow up when you make a promise, you should do the following&#58; </p>
-
 <br><excerpt class='endintro'></excerpt><br>
-
-  <ol>
-    <li>When you receive an email from a client requesting a response, CC yourself in the reply. </li>
-    <li>Move the email you have just sent yourself into a subfolder of your mailbox called 'Follow Ups'. </li>
-    <li>Add a follow up reminder to the email. </li>
-    <li>Check your follow up folder daily, and reply to any emails that are older than a week using the words 'Just touching base....' </li>
-    <li>Remove the email from your follow up folder when you have resolved the issue. </li>
-</ol>
+<p>There is a brilliant service called followupthen which can do all the administrative work for you.</p>
+<p>Simply BCC &lt;period of time&gt;@followupthen.com and it will send you an email when that time expires, reminding you to follow up with another phone call or email.</p>
+<p><strong><img src="/PublishingImages/FollowUpThen.jpg" alt="" style="margin&#58;5px;" /></strong><strong><p><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Use <a href="mailto&#58;1week@followupthen.com">1week@followupthen.com</a>&#160; to be reminded about this email in 1 week</span><br><br></p></strong></p>
 <p>&#160;</p>
-<img src="/Communication/RulesToBetterEmail/PublishingImages/followupfolder.gif" class="ms-rteCustom-ImageArea" alt="" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Create a folder called &quot;Follow Ups&quot; to store emails that need to be followed up</span>
-
+<p>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
 
 
