@@ -12,22 +12,13 @@ redirects: []
 ---
 
 
-
-  <p>If you have followed the previous rule and the ball is always in their court, you need to make sure that they keep playing. </p>
+<p>If you have followed the previous rule and the ball is always in their court, you need to make sure that they keep playing. </p>
 <p>The best way to do this is to make sure you follow up all communications that require a reply, whenever you feel that a bottleneck is forming. </p>
 <p>The best ways to follow up a client are&#58;</p>
-
 <br><excerpt class='endintro'></excerpt><br>
-
-  <ul>
-    <li>Use email<br>
-    If there is no response, find the original email and resend. See our <a shape="rect" href="/Communication/RulesToBetterEmail/Pages/HurrySomeoneUp.aspx">Rules To Better Email - Do you know how to hurry someone up?</a>, <a shape="rect" href="/Communication/RulesToBetterEmail/Pages/FollowUpEmailsEffectively.aspx">Rules to Better Email - Do you always follow up your clients?</a> and <a shape="rect" href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">Rules to Better Email - Do you realize the importance of a good email Subject?</a> </li>
-    <li>Use IM or Skype<br>
-    See our <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ChatEfficient">Rules To Better Instant Messenger - Do you communicate more efficient?</a> </li>
-    <li>Use the phone<br>
-    Call them </li>
-</ul>
-<p>TIP Use <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/redirect/FollowUpThen.htm">www.FollowUpThen.com</a> for your follow up emails</p>
-
+<ul><li>Use email<br>If there is no response, find the original email and resend. See our <a href="/do-you-know-how-to-follow-up-an-unanswered-email" shape="rect">Rules To Better Email - Do you know how to hurry someone up?</a>, <a href="/do-you-follow-up-emails-effectively" shape="rect">Rules to Better Email - Do you always follow up your clients?</a> and <a href="/do-you-realize-the-importance-of-a-good-email-subject" shape="rect">Rules to Better Email - Do you realize the importance of a good email Subject?</a> </li>
+<li>Use IM or Skype<br>See our <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ChatEfficient" shape="rect">Rules To Better Instant Messenger - Do you communicate more efficiently?</a> </li>
+<li>Use the phone<br>Call them </li></ul>
+<p>TIP Use <a href="http&#58;//www.ssw.com.au/ssw/redirect/FollowUpThen.htm" shape="rect">www.FollowUpThen.com</a> for your follow up emails</p>
 
 
