@@ -20,7 +20,7 @@ When you seek advice or help from another, firstly, you need to establish with t
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li>Your understanding and, </li>
 <li>Methods you have previously attempted in order to resolve the problem </li></ul>
-<p>Tip&#58; Be aware that you don't want them&#160;to reply with <a href="http&#58;//www.ssw.com.au/ssw/redirect/lmg.htm">http&#58;//www.ssw.com.au/ssw/redirect/lmg.htm</a> </p>
+<p>Tip&#58; Be aware that you don't want them&#160;to reply with <a href="http&#58;//www.lmgtfy.com">http&#58;//www.lmgtfy.com</a> </p>
 <p>or the bing version <a href="http&#58;//letmebingthatforyou.com/">http&#58;//letmebingthatforyou.com</a> &#58;-)</p>
 <img alt="IM Icon" align="right" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImIcon.jpg" /> <dl class="bad"><dt>How do you xxxx? </dt>
 <dd>Figure&#58; Bad Example - By not stating what you have previously attempted to resolve the problem, the person you are seeking advice from may be wasting time if they suggest methods you have already done.</dd></dl>
