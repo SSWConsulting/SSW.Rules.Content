@@ -25,6 +25,20 @@ If you think someone should be involved in a conversation but they're not on the
 <img src="/Communication/RulesToBetterEmail/PublishingImages/RemoveRecipient.jpg" alt="Add Recipient" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – Removing someone from an email thread</span>
 
+<p>You can delete people from an email thread, but what often happens is&#58;</p>
+<ul>
+<li>The people being dropped won’t know and won’t be able to say &quot;I don't want to be dropped from this thread&quot;</li>
+<li>The people who added them in the 1st place don't know that they included unnecessary people</li>
+<li>The others on the thread might not notice the change in email addresses</li>
+</ul>
+<p>To fix all these issues, instead of deleting people from the email, you&#58;</p>
+<ul>
+<li>Move them to the BCC</li>
+<li>On the top line of the body say &quot;(moving George and Bob to BCC)&quot;</li>
+</ul>
+
+<img src="/Communication/RulesToBetterEmail/PublishingImages/move-bcc.jpg" alt="Add Recipient" class="ms-rteCustom-ImageArea" />
+<span class="ms-rteCustom-FigureNormal">FFigure&#58; Good Example – Moving someone to BCC</span>
 
 
 
