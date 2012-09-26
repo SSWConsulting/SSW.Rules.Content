@@ -1,0 +1,24 @@
+
+
+---
+authors:
+  - id: 1
+    title: Adam Cogan
+  - id: 4
+    title: Ulysses Maclaren
+  - id: 16
+    title: Tiago Araujo
+---
+
+
+
+
+<span class='intro'> <p>Imagine you see one port of a hub not working, what do you do?</p>
+                <p>
+                    When you see something not working like a phone or a powerpoint, don't ignore it,
+                    stick a note to it and tell the appropriate person.
+                </p> </span>
+
+<p>Create a form that reminds you what is broken, who you have to call to fix it and any notes that may need to ensure that the item in question is fixed properly or replaced.</p>
+
+
