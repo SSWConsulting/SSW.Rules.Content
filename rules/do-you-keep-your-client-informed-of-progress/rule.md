@@ -24,7 +24,7 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
                     <dt>
-                        <img alt="Email update" src="/ssw/Standards/Rules/Images/email-update.jpg" /></dt>
+                        <img alt="Email update" src="/Management/Rules-to-Being-Software-Consultants-Working-in-a-Team/PublishingImages/email-update.jpg" /></dt>
 <dd>Figure&#58; You are
                             responsible for sending update reports to your clients every Friday</dd></dl>
                 <p>
