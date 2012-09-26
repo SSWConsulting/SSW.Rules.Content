@@ -23,7 +23,7 @@ authors:
                 </p> </span>
 
 <p>
-                    As an example, if you have a handy tip, send an email to SSWDevelopers or add it
+                    As an example, if you have a handy tip, send an email to your team or add it
                     to the KB.
                 </p>
 
