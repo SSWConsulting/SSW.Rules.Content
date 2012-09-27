@@ -1,0 +1,29 @@
+---
+type: rule
+title: Do you know who are the most appropriate resources for a project?
+uri: do-you-know-who-are-the-most-appropriate-resources-for-a-project
+created: 2012-09-25T18:04:17.0000000Z
+authors:
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+
+---
+
+
+
+<span class='intro'> <p>
+                    While all staff pass strict recruitment procedures including technical and communication assessments, all staff
+                    have different skill sets. For example, some have a broader level of knowledge and some are more proficient at project 
+                    management. 
+                </p> </span>
+
+<p>
+                    When determining which staff are appropriate for which projects you need to analyze the needs of the project.
+                    Some may not require management skills, for example if we are providing resources to another technical
+                    organization, while some projects may require only a narrow field of knowledge, e.g. writing stored procedures.
+                    For any major project a broad spectrum of individuals may be required which will utilize each level of SSW staff. 
+                </p>
+
+
