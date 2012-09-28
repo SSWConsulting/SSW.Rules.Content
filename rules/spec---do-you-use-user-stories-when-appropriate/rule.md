@@ -15,17 +15,8 @@ authors:
 
 
 
-<span class='intro'> &quot;User Stories&quot; is the new name for &quot;Scenarios&quot; in VSTS 2010, it allows you to collect your user requirements more easily by providing you a template for the title and streamlined UI. <br>
-<br>
-<font size="-0" class="ms-rteCustom-GreyBox" style="width&#58;542px;height&#58;70px;">As a &lt;type of User&gt;<br>
-I want &lt;some goal&gt;<br>
-so that &lt;some reason&gt;</font><br>
-<font class="ms-rteCustom-FigureNormal">Figure&#58; User Story - template for title</font> 
- </span>
+<span class='intro'> &quot;User Stories&quot; is the new name for &quot;Scenarios&quot; in VSTS 2010, it allows you to collect your user requirements more easily by providing you a template for the title and streamlined UI. <br><br><font class="ms-rteCustom-GreyBox" size="+0" style="width&#58;542px;height&#58;70px;">As a &lt;type of User&gt;<br>I want &lt;some goal&gt;<br>so that &lt;some reason&gt;</font><br><font class="ms-rteCustom-FigureNormal">Figure&#58; User Story - template for title</font>  </span>
 
-
-  <img src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010-UserStoryWI.jpg" alt="" /> <br>
-<font class="ms-rteCustom-FigureNormal">Figure&#58; User Story - Work Item form</font><br>
-
+<img src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010-UserStoryWI.jpg" alt="" /> <br><font class="ms-rteCustom-FigureNormal">Figure&#58; User Story - Work Item form</font><br>
 
 
