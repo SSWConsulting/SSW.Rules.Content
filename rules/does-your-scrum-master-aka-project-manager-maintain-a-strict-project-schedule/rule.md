@@ -37,7 +37,7 @@ It's been called 'herding cats'. Managing the project team and keeping the clien
 <td valign="top"><ul><li><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx" shape="rect"></a><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx" shape="rect">Stand Up meeting (or Scrum)&#160;</a><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx" shape="rect">&#160;</a> </li></ul></td>
 <td valign="top"><ul><li>Conduct a <a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx" shape="rect">test please </a>with the client </li>
 <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoHappyClients.aspx#TriageAdditionalItemRequests" shape="rect">Triage additional item requests</a> </li>
-<li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoHappyClients.aspx#ObtainApprovalAdditionalItemsExceedEstimates" shape="rect">Obtain approval for additional items and budget overuns</a> </li>
+<li><a href="/Management/RulesToHappyClients/Pages/DoYouEmailClientsAsSoonAsYouRealiseyouwilloverrunyouroriginalestimate.aspx" shape="rect">Obtain approval for additional items and budget overuns</a> </li>
 <li><a href="/Management/RulesToSuccessfulProjects/Pages/ReleaseDebrief.aspx" shape="rect">Release update/debrief</a> </li>
 <li>Release sign-off </li>
 <li>Release deployment </li>
