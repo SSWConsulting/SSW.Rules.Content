@@ -28,7 +28,7 @@ Just like a car, applications need servicing and tuning every now and then to st
 alterations to deal with new business problems, or just tuning to increase efficiency based on changing user patterns.
 </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Different clients need different levels of support. At SSW we offer a number of different <a href="http&#58;//www/ssw.com.au/ssw/Products/ProdCategory.aspx?CategoryID=8SUPP">support 
+<p>Different clients need different levels of support. At SSW we offer a number of different <a href="http&#58;//www.ssw.com.au/ssw/Products/ProdCategory.aspx?CategoryID=8SUPP">support 
 offerings</a>.</p>
    
 <div class="greyBox">
