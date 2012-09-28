@@ -15,7 +15,7 @@ related: []
 ---
 
 
-When you are working on a project, you need to follow the <a href="/Management/RulesToHappyClients/Pages/DoYouGetWorkApprovedBeforeYouDoIt.aspx" shape="rect">get work approved before you do it</a> rule. However, you should assume some tasks will be approved by a client and do them anyway. This of course depends on the size of the task (e.g.&#160;half hour&#160;or less) and the obviousness of the task. ​
+When you are working on a project, you need to follow the <a href="/approval-do-you-get-work-approved-before-you-do-it" shape="rect">get work approved before you do it</a> rule. However, you should assume some tasks will be approved by a client and do them anyway. This of course depends on the size of the task (e.g.&#160;half hour&#160;or less) and the obviousness of the task. ​
 <br><excerpt class='endintro'></excerpt><br>
 <p>If you reasonably assume that the task you are working on would be approved by the customer, and it will take less than half an hour, you should go ahead with that task.</p>
 <span class="ms-rteCustom-GreyBox"><p>To&#58; Scott <br>Subject&#58; QWI - Aqua UI Improvements from Adam </p>
