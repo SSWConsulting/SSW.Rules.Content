@@ -26,9 +26,9 @@ Here is how to attach an owner to a user story&#58;
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>&#160;</p>
-<p><img title="image" style="border-right-width&#58;0px;width&#58;604px;display&#58;inline;border-top-width&#58;0px;border-bottom-width&#58;0px;height&#58;290px;border-left-width&#58;0px;" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/UserStoryOwner_Bad.png" border="0" /> <br>
+<p><img title="image" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/UserStoryOwner_Bad.png" border="0" style="border-width&#58;0px;width&#58;604px;height&#58;290px;display&#58;inline;" /> <br>
 <strong class="ms-rteCustom-FigureBad">Figure&#58; Bad example, the product owner is not sure who to speak to.</strong></p>
-<p><img title="image" style="border-right-width&#58;0px;width&#58;604px;display&#58;inline;border-top-width&#58;0px;border-bottom-width&#58;0px;height&#58;313px;border-left-width&#58;0px;" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/UserStoryOwner_Good.png" border="0" /> <br>
+<p><img title="image" alt="image" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/UserStoryOwner_Good.png" border="0" style="border-width&#58;0px;width&#58;604px;height&#58;313px;display&#58;inline;" /> <br>
 <strong class="ms-rteCustom-FigureGood">Figure&#58; Good example, the product owner can now see who he should speak to and developers know where to send done emails.</strong></p>
 
 
