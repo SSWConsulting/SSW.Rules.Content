@@ -21,4 +21,3 @@ redirects:
 <dd>Figure&#58; Thumb drives are becoming increasingly popular in large corporations as well. Check out this <a class="external" href="http&#58;//www.ssw.com.au/SSW/Redirect/ComputerWorld.htm" target="_blank">Computer World article</a></dd></dl>
 
 
-
