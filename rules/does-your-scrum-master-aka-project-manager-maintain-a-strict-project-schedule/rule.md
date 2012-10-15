@@ -36,7 +36,7 @@ It's been called 'herding cats'. Managing the project team and keeping the clien
 <tr><td valign="top">Tuesday </td>
 <td valign="top"><ul><li><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx" shape="rect"></a><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx" shape="rect">Stand Up meeting (or Scrum)&#160;</a><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx" shape="rect">&#160;</a> </li></ul></td>
 <td valign="top"><ul><li>Conduct a <a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx" shape="rect">test please </a>with the client </li>
-<li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoHappyClients.aspx#TriageAdditionalItemRequests" shape="rect">Triage additional item requests</a> </li>
+<li><a href="/Management/RulesToHappyClients/Pages/DoYouKnowWhatTasksAreInAReleasePlanInAdditionToDevelopmentWorkItems.aspx" shape="rect">Triage additional item requests</a> </li>
 <li><a href="/Management/RulesToHappyClients/Pages/DoYouEmailClientsAsSoonAsYouRealiseyouwilloverrunyouroriginalestimate.aspx" shape="rect">Obtain approval for additional items and budget overuns</a> </li>
 <li><a href="/Management/RulesToSuccessfulProjects/Pages/ReleaseDebrief.aspx" shape="rect">Release update/debrief</a> </li>
 <li>Release sign-off </li>
@@ -58,6 +58,6 @@ It's been called 'herding cats'. Managing the project team and keeping the clien
 <li><a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx" shape="rect">Test please</a> </li></ul></td>
 <td valign="top"></td></tr></tbody></table>
 <p>&#160;</p>
-<img class="ms-rteCustom-ImageArea" border="0" alt="Only with a strict project schedule can the manager coach the team to success!" src="/Management/RulesToBetterProjectManagement/PublishingImages/ProjectManagement_Coach.jpg" /> <font class="ms-rteCustom-FigureNormal">Figure&#58; Only with a strict project schedule can the manager coach the team to success! </font>
+<img class="ms-rteCustom-ImageArea" border="0" alt="Only with a strict project schedule can the manager coach the team to success!" src="/Management/RulestoBetterSpecificationReviews/PublishingImages/ProjectManagement_Coach.jpg" /> <font class="ms-rteCustom-FigureNormal">Figure&#58; Only with a strict project schedule can the manager coach the team to success! </font>
 
 
