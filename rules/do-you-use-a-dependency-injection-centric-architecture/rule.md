@@ -16,10 +16,10 @@ redirects: []
 ---
 
 
-<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/dependency-injection-good.jpg" alt="inject" />
+<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/dependency-injection-bad.jpg" alt="inject" />
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example – N-Tiered architectures do not inherently support dependency injection</span>
 
-<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/dependency-injection-bad.jpg" alt="inject" />
+<img class="ms-rteCustom-ImageArea" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/dependency-injection-good.jpg" alt="inject" />
 <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – The Onion Architecture promotes layers built on interfaces, and then injecting dependencies into those layers. This keeps coupling low, and therefore maintainability high</span>
 
 <br><excerpt class='endintro'></excerpt><br>
