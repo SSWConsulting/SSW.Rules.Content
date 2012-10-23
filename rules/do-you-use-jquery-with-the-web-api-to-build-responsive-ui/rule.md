@@ -16,13 +16,6 @@ redirects: []
 
 <p>You should build a responsive UI using jQuery and a Web API.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<h3>[TODO] ADD BAD EXAMPLE IMAGE</h3>
-<img alt="build responsive bad example" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/build-responsive-bad.jpg" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureBad">Bad Example – Posting the whole form in a submit requires the whole page to be posted to the server</span>
-
-
-<img alt="build responsive" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/build-responsive-good.jpg" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Using jQuery to call the Web API provides a great user experience. The whole page does not need to be posted to the server</span>
-
+<img class="ms-rteCustom-ImageArea" alt="build responsive bad example" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/build-responsive-bad.jpg" width="583" /> <span class="ms-rteCustom-FigureBad">Bad Example – Posting the whole form in a submit requires the whole page to be posted to the server</span> <img class="ms-rteCustom-ImageArea" alt="build responsive" src="/SoftwareDevelopment/RulesToBetterMVC/PublishingImages/build-responsive-good.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Using jQuery to call the Web API provides a great user experience. The whole page does not need to be posted to the server</span> 
 
 
