@@ -15,8 +15,7 @@ related: []
 
 When MS releases a new service pack, or new Windows update, we install these to the master image and create a new version of the Sysprep image for future VMs. 
 <br><excerpt class='endintro'></excerpt><br>
-<p>&#160;</p>
-<ol><li>Update SQL Server service packs </li>
+<ol><li>&#160;Update SQL Server service packs </li>
 <li>Update Windows Server 2003 service packs </li>
 <li>Update Windows </li>
 <li>Update VS.NET service packs </li>
