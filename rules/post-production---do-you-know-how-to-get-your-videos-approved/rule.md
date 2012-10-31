@@ -29,7 +29,7 @@ related: []
 <p><strong>Scenario 2 - Editing Live</strong></p>
 <p>The second assumes you are going ‘as live’. This is where you edit the video while record just like live television.</p>
 <p>This scenario requires very little post production as this was completed during the filming</p>
-<ol><li>Create all the assets needed (i.e. intro/outro slides) before the stream and insert them into XSplit so that you can do a minimum amount of work in post as possible</li>
+<ol><li>Create all the assets needed (i.e. intro/outro slides) before the stream and insert them into <a href="http&#58;//www.xsplit.com/">XSplit</a> so that you can do a minimum amount of work in post as possible</li>
 <li>Add intro and outro and make any quick edits if required in Premiere Pro</li>
 <li>Get final approval from Product owner</li>
 <li>Upload and go live</li></ol>
