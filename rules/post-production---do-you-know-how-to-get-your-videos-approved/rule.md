@@ -15,8 +15,7 @@ related: []
 
 ​There are two types of approval processes. One is quick and the other takes longer.<br>
 <br><excerpt class='endintro'></excerpt><br>
-​There are two types of approval processes. One is quick and the other takes longer. <div>&#160;</div>
-<div><strong>Scenario 1 - Editing in Post</strong></div>
+​&#160;<div><strong>Scenario 1 - Editing in Post</strong></div>
 <div>&#160;</div>
 <div>The first scenario assumes that you are filming something that requires later post production work (i.e. promo video, corporate videos, studio etc.). This scenario requires - depending on the type of video - a significant amount of time in post-production and therefore the approval process will take longer. These are the steps to follow&#58;</div>
 <div>&#160;</div>
