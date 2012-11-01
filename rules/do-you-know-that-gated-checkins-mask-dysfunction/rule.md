@@ -50,9 +50,10 @@ They will fix the build IMMEDIATELY, and then call out again when it is fixed.
 If it comes to the end of the day and you are not sure your code will not break the build – do not checkin. Create a shelveset and resolve the issue properly the next day.<br>
 If you have checked in, the build is broken, and you cannot fix it before going home, you must email all devs on the team, and the product owner with an explanation.</li>
 <li style="display&#58;none;">The status of the build is reviewed in every daily scrum.</li></ol>
+ </div>
 <span class="ms-rteCustom-FigureGood">Good Example – The whole team should be constantly aware and invested in the status of the build, the quality of the software and in encouraging each other to better developers.</span>
 
- </div>
+
 
 <p>** I actually don’t follow this rule when working on small teams of awesome devs, who write code against tests and checkin frequently.</p>
 <p>Instead I encourage the process to be&#58;</p>
