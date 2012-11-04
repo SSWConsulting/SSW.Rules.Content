@@ -20,7 +20,6 @@ We've all heard horror stories of tradesmen causing chaos&#58; &quot;I asked the
 <p>Of course, as your relationship builds with the consultant or tradesman, and they become more aware of your expectations, you can divulge greater trust and leave them to it. </p>
 <p>So you should insist that your software consultants <a href="/Management/RulesToSuccessfulProjects/Pages/Verbalcontact.aspx">maintain verbal contact</a> with you (before resorting to emails).</p>
 <p>They should then use “as per our conversation” follow up emails.</p>
-
 <p><strong>Tip&#58;</strong> A nice way to know what is going on is going on is to turn up to the daily scrum.</p>
 
 
