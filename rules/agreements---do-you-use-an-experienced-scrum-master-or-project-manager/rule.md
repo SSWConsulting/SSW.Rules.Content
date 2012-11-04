@@ -29,12 +29,8 @@ related: []
 <li>The Account Manager sends invoices when milestones are met.<br></li></ul>
 <ul>Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians and plumbers to just work it out between themselves. The house *does* get built if the foreman is keeping everyone on their toes, making sure they are doing their job. </ul>
 <p>Insist that your Scrum Master (aka Project Manager)&#160;<a href="/Management/RulesToBetterScrumUsingTFS/Pages/MaintainStrictProjectSchedule.aspx">maintains a strict project schedule</a>. </p>
-<div class="scrum-GreyBox">
-<p><strong>#1 For Scrum Projects&#58;</strong></p>
-<p>In Scrum projects the role of project manager is split into three roles&#58; Scrum Master, Product Owner and Team. Each role is essential. </p>
-</div>
+<div class="scrum-GreyBox"><p><strong>#1 For Scrum Projects&#58;</strong></p>
+<p>In Scrum projects the role of project manager is split into three roles&#58; Scrum Master, Product Owner and Team. Each role is essential. </p></div>
 <p>For more information go to <a href="http&#58;//www.scrumalliance.org/articles/39-glossary-of-scrum-terms">Scrum Terms</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> and <a href="http&#58;//www.scrumalliance.org/pages/scrum_roles">Scrum Roles</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" />.</p>
-
-
 
 
