@@ -35,37 +35,18 @@ related:
 ---
 
 
-Hash tags help you identify an event or topic on twitter. Always make sure everyone adds the same hash tags for common things.
-
+Hash tags help you identify an event or topic on twitter. Always make sure everyone adds the same hash tags for common things. 
 <br><excerpt class='endintro'></excerpt><br>
-
-  <p>&#160;</p>
-<font size="+0" class="ms-rteCustom-SSWTable">
-<table width="400" cellspacing="0" cellpadding="2" border="0">
-    <tbody>
-        <tr>
-            <td width="200" valign="top">#ssw</td>
-            <td width="200" valign="top">Our company name</td>
-        </tr>
-        <tr>
-            <td width="200" valign="top">#sswrules</td>
-            <td width="200" valign="top">Our public rules</td>
-        </tr>
-        <tr>
-            <td width="200" valign="top">#proscrumdev</td>
-            <td width="200" valign="top">Professional Scrum Developer Course</td>
-        </tr>
-        <tr>
-            <td width="200" valign="top">#BrainQuest</td>
-            <td width="200" valign="top">SSW Brain Quest</td>
-        </tr>
-        <tr>
-            <td width="200" valign="top"> </td>
-            <td width="200" valign="top"> </td>
-        </tr>
-    </tbody>
-</table>
-</font>
-
+<p>&#160;</p>
+<font class="ms-rteCustom-SSWTable" size="+0"><table cellspacing="0" cellpadding="2" width="400" border="0"><tbody><tr><td valign="top" width="200">#ssw</td>
+<td valign="top" width="200">Our company name</td></tr>
+<tr><td valign="top" width="200">#sswrules</td>
+<td valign="top" width="200">Our public rules</td></tr>
+<tr><td valign="top" width="200">#proscrumdev</td>
+<td valign="top" width="200">Professional Scrum Developer Course</td></tr>
+<tr><td valign="top" width="200">#BrainQuest</td>
+<td valign="top" width="200">SSW Brain Quest</td></tr>
+<tr><td valign="top" width="200"></td>
+<td valign="top" width="200"></td></tr></tbody></table></font>
 
 
