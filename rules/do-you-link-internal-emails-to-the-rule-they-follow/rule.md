@@ -14,7 +14,6 @@ related: []
 Having standard internal emails that go out is great, as it helps keep consistency, and the recipients know the format of the information they’re receiving and so can process it quickly.
 <br><excerpt class='endintro'></excerpt><br>
 <p>However, they may assume that this is just the style of the sender, and not realise that it is a company standard. What's more, if another employee needs to send one of these out later, they may not know the processes that go into its construction. For this reason, it is a good idea to have a link at the bottom (in the footer) of any standard internal email which points to the rule which governs its creation. You may want to put this in XML brackets so it’s easy to spot.</p>
-<img border="0" class="ms-rteCustom-ImageArea" alt="Link to rule" src="/Communication/RulesToBetterEmail/PublishingImages/link-to-rule.jpg" />
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – the email links to the standard that explains how to write it</span>
+<img class="ms-rteCustom-ImageArea" border="0" alt="Link to rule" src="/PublishingImages/link-to-rule.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – the email links to the standard that explains how to write it</span>
 
 
