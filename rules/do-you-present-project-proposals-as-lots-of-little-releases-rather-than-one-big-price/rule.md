@@ -26,7 +26,7 @@ authors:
                     get the project moving.
                 </p>
                 <dl class="image">
-                <dt><img alt="One big price is like a slap in the face" src="/Management/RulesToSuccessfulSalesAndAccountManagement/PublishingImages/AccountManagement-FaceSlap.jpg" />
+                <dt><img src="/Management/RulesToSuccessfulSalesAndAccountManagement/PublishingImages/AccountManagement-FaceSlap.jpg" alt="One big price is like a slap in the face" />
                 </dt>
                 <dd>
                 Figure&#58; One big price is like a slap in the face
