@@ -33,12 +33,12 @@ authors:
                         or over the phone if not, but never just by email.</li>
                 </ol>
                 <dl class="goodImage">
-                <dt><img src="/Management/PublishingImages/ProductBacklog.jpg" alt="Project Portal" style="width&#58;600px;" />
+                <dt><img alt="Project Portal" src="/Management/PublishingImages/ProductBacklog.jpg" style="width&#58;600px;" />
                 </dt>
                 <dd>Figure&#58; Good Example - The backlog is constructed during the Spec Review</dd>
                 </dl>
                 <dl class="goodImage">
-                <dt><img src="/Management/PublishingImages/CRMOpportunitySalesStage.jpg" alt="CRM Opportunity" style="width&#58;600px;" />
+                <dt><img alt="CRM Opportunity" src="/Management/PublishingImages/CRMOpportunitySalesStage.jpg" style="width&#58;600px;" />
                 </dt>
                 <dd>Figure&#58; Good Example - CRM Record showing the <a href="/Management/RulesToSuccessfulSalesAndAccountManagement/Pages/The-6-stages-in-the-Sales-Pipeline.aspx">sales stage</a> of the Opportunity after the Spec Review has been booked</dd>
                 </dl>
