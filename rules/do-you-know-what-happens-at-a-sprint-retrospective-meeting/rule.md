@@ -29,16 +29,36 @@ redirects: []
     <li>An adjustment is made at the organisation level</li>
     <li>An item is added to the Product Backlog</li>
 </ul>
-<p><span style="line-height&#58;18px;">To help aid&#160;</span><span style="line-height&#58;18px;">dis</span><span style="line-height&#58;18px;">cussion&#160;</span><span style="line-height&#58;18px;">i</span><span style="line-height&#58;18px;">t can be useful for the<span></span>&#160;</span><span style="line-height&#58;18px;">Scrum Master to pr</span><span style="line-height&#58;18px;">epare&#160;</span><span style="line-height&#58;18px;">items for&#160;</span><span style="line-height&#58;18px;">review by inspecting</span><span></span><span style="line-height&#58;18px;">&#160;the Sprint Backlog&#160;</span>and&#160;statistics such as Code Coverage. For example the Scrum Master can find&#160;<span style="line-height&#58;18px;">User Stories in the Sprint&#160;that were&#160;successful&#160;/ not successful&#160;and then facilitate the discussion as to why.&#160;&#160;</span></p>
+<p>To help aid discussion it can be useful for the Scrum Master to prepare items for review by inspecting the Sprint Backlog and statistics such as&#58;</p>
+<ul>
+<li>Velocity</li>
+<li>the Burndown</li>
+<li>Code Coverage</li>
+</ul>
+<p>For example the Scrum Master can find User Stories in the Sprint that were successful / not successful and then facilitate the discussion as to why.
+</p>
+
+<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-1.jpg" alt="" /> </dt>
+<dd>Figure&#58; The Scrum Master can inspect the Sprint Backlog for items which are Not Done at the end of a Sprint</dd></dl>
+
+<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-2.jpg" alt="" /> </dt>
+<dd>Figure&#58; The Scrum Master can inspect the team’s velocity over multiple Sprints</dd></dl>
+
+<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-3.jpg" alt="" /> </dt>
+<dd>Figure&#58; The Scrum Master can inspect the team’s Sprint Burndown for insight into how work progressed through the Sprint</dd></dl>
+
+<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-4.jpg" alt="" /> </dt>
+<dd>Figure&#58; The Scrum Master can inspect the team’s Code Coverage to for an insight into code quality</dd></dl>
+
 <p>Once all issues have been discussed to the satisfaction of The Scrum Team, the meeting concludes.<br>
 <br>
 If the timebox limit is reached, the remaining issues should be recorded and dealt with by the Scrum&#160;Master.&#160; Any&#160;outstanding issues must be&#160;raised at the next Retrospective if they are still relevant.<br>
 <br>
 The time-box for this meeting is usually as many hours as weeks in the Sprint.</p>
 <br>
-<font class="ms-rteCustom-GreyBox" size="+0">In Scrum, there are totally 4 meetings that you need to know&#58;
+<font size="+0" class="ms-rteCustom-GreyBox">In Scrum, there are totally 4 meetings that you need to know&#58;
 <ul>
-    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(HOW)Meeting.aspx">HOW</a>) </li>
+    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanningMeeting.aspx">HOW</a>) </li>
     <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyScrumUpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
     <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
     <li>Sprint Retrospective Meeting </li>
