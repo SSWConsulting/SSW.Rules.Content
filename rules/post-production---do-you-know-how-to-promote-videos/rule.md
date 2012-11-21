@@ -15,28 +15,28 @@ related: []
 ---
 
 
-​<div>​To ensure your videos gain maximum exposure, you need to promote them in various ways. The following are steps to do this.</div>
+​<div>​To ensure your videos gain maximum exposure, you need to promote them in various ways. The following are the&#160;steps to do this.</div>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​To ensure your videos&#160;gain maximum exposure, you need to promote them in various ways. The following are steps to do this.</p>
-<p><strong>1. Add to social Media accounts</strong></p>
+<p>​<strong>1. Add to social Media accounts</strong></p>
 <div>Add link to the new video to all social media accounts including&#58;</div>
-<div><br>a.&#160;Twitter<br>b.&#160;Facebook<br>c.&#160;LinkedIn</div>
-<div>&#160;</div>
+<ul><li>Twitter</li>
+<li>Facebook</li>
+<li>LinkedIn</li></ul>
 <p><strong>2. Email all staff</strong></p>
-<div>The second step is to email all the staff with the links to the posts you have made. You want to make this as easy as possible for them to be able to re-post the original messages. Use a tool like <a href="http&#58;//clicktotweet.com/">http&#58;//clicktotweet.com/</a> </div>
+<div>The second step is to email all the staff with the links to the posts you have made. You want to make it as easy as possible for them to be able to re-post the original messages. Use a tool like <a href="http&#58;//clicktotweet.com/">http&#58;//clicktotweet.com/</a> </div>
 <div>&#160;</div>
 <div>Example email&#58;</div>
 <div>&#160;</div>
-<blockquote dir="ltr" style="margin-right&#58;0px;"><div>Hi All,</div>
+<blockquote dir="ltr" style="margin-right&#58;0px;"><blockquote dir="ltr" style="margin-right&#58;0px;"><div>Hi All,</div>
 <div>&#160;</div>
 <div>A new interview is now live on SSW TV. You can see it at&#160;[urls of video]&#160; </div>
 <div>Can you all promote the video in the following ways&#58;</div>
-<ol><li>Can you tweet [url generate by ClicktoTweet]<br></li>
-<li>Optionally, comment, like and share the post on Facebook <a href="https&#58;//www.facebook.com/SSW.page/posts/415610061828310">[url</a> of Facebook post</li></ol>
+<ol><li>Can you tweet [url generate by ClicktoTweet]</li>
+<li>Optionally, comment, like and share the post on Facebook <a href="https&#58;//www.facebook.com/SSW.page/posts/415610061828310">[url</a> of Facebook post]</li></ol>
 <p>I appreciate the efforts from everyone &#58;)</p>
 <div>Cheers,</div>
 <div>&#160;</div>
-<div>Raj</div></blockquote>
+<div>Raj</div></blockquote></blockquote>
 <div>&#160;</div>
 <div><strong>3. Email the interviewee</strong></div>
 <div><strong></strong>&#160;</div>
@@ -70,7 +70,7 @@ related: []
 <li>If you are an accountant, partner with a financial planner, business coach, insurance salesman or prestige car dealer</li>
 <li>Suppliers</li>
 <li>Industry experts</li></ul></ul>
-<span>You should ask the partner to&#58;</span><span></span><span></span><li>&#160;Email the video to their list</li>
+<span>You should ask the partner to&#58;</span><span></span><span></span> <li>&#160;Email the video to their list</li>
 <li>Write a blog post on their blog</li>
 <li>Update their social media accounts with a link and description of the video</li></ul>
 <p>You should have a list of these partners in a database with all their contact details to automate the process of promoting your videos.</p>
