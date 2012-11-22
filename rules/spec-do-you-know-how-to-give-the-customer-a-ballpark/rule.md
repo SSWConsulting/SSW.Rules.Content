@@ -20,7 +20,7 @@ redirects: []
 ---
 
 
-<p><strong>How do I create a Release Plan? </strong><strong><br></strong></p>
+<p><strong>How do I create an Estimate? </strong><strong><br></strong></p>
 <ol><li>Use an <a href="/Management/RulesToBetterProjectManagement/Documents/SSWPrioritiesEstimatesTemplate.xlsx" shape="rect" target="_blank">Excel template calcul​ator</a>&#160;to enter all your work items specific to the release including the estimates on the particular work items (enter estimates in days) </li>
 <li>Run&#160;a <a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx" shape="rect">test please</a>&#160;on the Release </li>
 <li>When the Release is approved by the client <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx" shape="rect">create a Release Plan in TFS</a>&#160;and publish the excel to SharePoint. </li></ol>
