@@ -21,4 +21,3 @@ authors: []
 <div><strong>Note</strong>&#58; The Version Number in the title should only contain the Major and the Minor version numbers (e.g. 11.28) and not the complete Major.Minor.Revision.Build Numbers (e.g. 11.28.92.1198)</div>
 
 
-
