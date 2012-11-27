@@ -18,12 +18,11 @@ related: []
 <li>Contact details (especially a phone number)</li>
 <li>Branding (logo)</li></ol>
 <br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="SSW Time PRO.NET About Form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadHelpAboutForm.jpg" width="365" height="156" /></dt>
+​<dl class="badImage"><dt><img alt="SSW Time PRO.NET About Form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadHelpAboutForm.jpg" width="395" height="186" /></dt>
 <dd>Figure&#58; Bad Example - This &quot;About&quot; dialog does not provide enough information about the product and/or company</dd></dl>
-<dl class="image"><dt><img alt="SSW Code Auditor - Help About" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SSWHelpAbout.gif" width="630" height="405" /></dt>
+<dl class="image"><dt><img alt="SSW Code Auditor - Help About" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SSWHelpAbout.gif" width="660" height="435" /></dt>
 <dd>Figure&#58; This &quot;Help | About&quot; form contains all 5 elements, but has room for aesthetic improvements (old SSW design)</dd></dl>
-<dl class="goodImage"><dt><img border="1" alt="SSW Help About" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Rego9.png" width="630" height="534" /></dt>
+<dl class="goodImage"><dt><img border="1" alt="SSW Help About" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Rego9.png" width="660" height="564" /></dt>
 <dd>Figure&#58; Good Example - This &quot;Help | About&quot; has the 5 elements presented better,</dd></dl>
-
 
 
