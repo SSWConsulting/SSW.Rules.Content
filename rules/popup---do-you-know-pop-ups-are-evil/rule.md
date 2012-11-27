@@ -16,4 +16,3 @@ authors:
 <dd>Figure&#58; Bad Example – Even popups are bad on the iPhone. In iOS5 this style of alerts have been banned (or at least, made optional)</dd></dl>
 
 
-
