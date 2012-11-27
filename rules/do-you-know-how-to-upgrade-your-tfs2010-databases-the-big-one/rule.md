@@ -13,7 +13,8 @@ related: []
 ---
 
 
-We recommend doing a <a href="/TFS/RulesToBetterTFS2012Migration/Pages/MigrationChoices.aspx">move to a new environment</a>&#160;because it has a much easier rollback path if something goes wrong.
+<p>We recommend doing a <a href="/TFS/RulesToBetterTFS2012Migration/Pages/MigrationChoices.aspx">move to a new environment</a>&#160;because it has a much easier rollback path if something goes wrong.</p>
+<p>Note that these steps will also work for upgrading from TFS 2012 RC to RTM, or RTM to Update 1.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​These are the steps to migrate and upgrade to a new environment&#58;</p>
 <ol><li><a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#rebootrestart">Send an email</a> to let everyone know the TFS server will be offline.</li>
