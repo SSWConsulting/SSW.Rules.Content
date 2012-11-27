@@ -1,0 +1,27 @@
+
+
+---
+authors:
+
+---
+
+
+
+
+<span class='intro'> <div>A good help menu should have these 8 items in it&#58;</div>
+<ol><li>Training Videos</li>
+<li>Online User Guide</li>
+<li>Knowledge Base</li>
+<li>Make a Suggestion</li>
+<li>Report a Bug</li>
+<li>Check for Updates - [Product Name] <ul><li>Check for Updates - All Programs</li></ul></li>
+<li>Run Unit Tests...</li>
+<li>About [Product Name]...</li></ol> </span>
+
+​<dl class="badImage"><dt><img alt="Bad example of help menu" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadExampleForHelpMenu.gif" /></dt>
+<dd>Figure&#58; Bad Example - Example of a Help menu with only &quot;About&quot;</dd></dl>
+<dl class="goodImage"><dt><img alt="Good example of help menu" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodExampleOfHelpMenu.gif" /></dt>
+<dd>Figure&#58; Good Example - Example of a Help menu with all 8 items</dd></dl>
+
+
+
