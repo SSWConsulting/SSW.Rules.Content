@@ -31,12 +31,12 @@ related: []
         </p>
         <dl class="image">
           <dt>
-            <img alt="Contact Synchronization enabled" src="/Communication/RulesToBetterCRMForUsers/PublishingImages/ContactSynchronizationEnabled.jpg" /></dt>
+            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/ContactSynchronizationEnabled.jpg" alt="Contact Synchronization enabled" /></dt>
           <dd>Figure&#58; Contact Synchronization enabled</dd>
         </dl>
         <p>
           Remember, if your Outlook syncs to your mobile device, and you have a very large
-          numbr of active contacts under your name, often it is not a scalable option to sync
+          number of active contacts under your name, often it is not a scalable option to sync
           to CRM as you may get too many contacts to easily deal with.
         </p>
 
