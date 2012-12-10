@@ -32,7 +32,7 @@ authors:
         </ul>
         <p>
           Create a Deployment.bat like this</p>
-        <div class="greyBox"><pre>         REM (deploy the callouts - Part 1)
+        <div class="greyBox"><pre style="width&#58;600px;">         REM (deploy the callouts - Part 1)
 
             REM (restart IIS of CRM TEST Server - BASILISK)
             iisreset BASILISK
