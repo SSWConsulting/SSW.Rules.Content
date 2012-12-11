@@ -16,10 +16,10 @@ related: []
 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Create a policy that you would like applied to each node of the cluster using the <strong>Group Policy Management</strong>.</p>
-<img class="ms-rteCustom-ImageArea" alt="Group policy bad" src="/ITAndNetworking/Rules-to-Better-Hyper-V-Clustering/PublishingImages/group-policy-bad.jpg" />
+<img src="/ITAndNetworking/Rules-to-Better-Hyper-V-Clustering/PublishingImages/group-policy-bad.jpg" alt="Group policy bad" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Do not manually change settings on each node</span>
 
-<img class="ms-rteCustom-ImageArea" alt="Group policy good" src="/ITAndNetworking/Rules-to-Better-Hyper-V-Clustering/PublishingImages/group-policy-good.jpg" />
+<img src="/ITAndNetworking/Rules-to-Better-Hyper-V-Clustering/PublishingImages/group-policy-good.jpg" alt="Group policy good" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Changing settings through Group Policy keeps node settings the same</span>
 
 
