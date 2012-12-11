@@ -57,7 +57,7 @@ Click connect<br>
 
 </li>
 <li>Take the default settings, assuring the ‘Priority (unique host identifier)’ is different than the first node&#58;<br>
-<img class="ms-rteCustom-ImageArea" alt="Setup NLB" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Setup-NLB-11.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Set the priority as #2</span>
+<img class="ms-rteCustom-ImageArea" alt="Setup NLB" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Setup-NLB-1.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Set the priority as #2</span>
 
 </li>
 <li>Take defaults on Port Rules page and click Finish</li>
