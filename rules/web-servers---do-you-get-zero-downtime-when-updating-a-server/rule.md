@@ -17,7 +17,7 @@ related: []
 <p>So set your web site up correctly with at least 2 front ends, and 1 backend (the SQL Server).</p>
 
 <br><excerpt class='endintro'></excerpt><br>
-<img class="ms-rteCustom-ImageArea" alt="Server down, site up" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Server-down-Site-up.jpg" />
+<img src="/PublishingImages/Server-down-Site-up.jpg" alt="Server down, site up" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – When one server goes down, the web site remains up</span>
 <p>Then, use a Network Load Balancer (we recommend Microsoft’s build in NLB) which allows you to spread web site load to multiple servers, but even more helpful when you need to do Windows Updates or make changes to web servers in your environment.</p>
  
@@ -25,26 +25,26 @@ related: []
 <ol>
 <li>Open the <strong>Network Load Balancing Manager</strong></li>
 <li>Right click on the machine you want to update | Select <strong>Control Host</strong> | Click <strong>Drain Stop</strong>
-<img class="ms-rteCustom-ImageArea" alt="drain stop" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Server-drainstop.jpg" />
+<img src="/PublishingImages/Server-drainstop.jpg" alt="drain stop" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The 2 green icons indicate both servers are live with users - Do a drain stop on the server you want to make changes too </span>
 </li>
 <li>To view the current connections on the server, open a command prompt and enter netstat -an. You will be able to see the connections list dropping as users are sent to the other server
-<img class="ms-rteCustom-ImageArea" alt="netstat" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Server-netstat.jpg" />
+<img src="/PublishingImages/Server-netstat.jpg" alt="netstat" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Run &quot;netstat -an&quot; to view the current connections on the server</span></li>
 <li>Allow the NLB to finish sending the connections to the remaining servers. The server you have drain stopped, will turn red when all the users have been moved to the other server
-<img class="ms-rteCustom-ImageArea" alt="Server turns red" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Server-red.jpg" />
+<img src="/PublishingImages/Server-red.jpg" alt="Server turns red" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; When the server turns red, the connections have been dropped and you're ready to update</span>
 </li>
 <li>Optional – if you are using Hyper-V, take a snapshot of the server you are about to make changes on</li>
 <li>Restart</li>
-<img class="ms-rteCustom-ImageArea" alt="Windows update" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Server-restart.jpg" />
+<img src="/PublishingImages/Server-restart.jpg" alt="Windows update" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Now that the server isn't being hit with users, perform your updates. Click &quot;Restart Now&quot;</span>
 <li>Optional – Do a smoke test (open the site and check its working)</li>
 <li>Optional – Run any automated tests (for example Telerik Tests)</li>
 <li>When the server ready, add it back into the load balancer. Right click on the machine | Select <strong>Control Host</strong> | Click <strong>Start</strong></li>
 <li>The server icon will return to green, and users will start being sent to the server again
 </li>
-<img class="ms-rteCustom-ImageArea" alt="Server OK" src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/Server-green.jpg" />
+<img src="/PublishingImages/Server-green.jpg" alt="Server OK" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The server will now accept connections again</span>
 <li>Follow the same process for the other server (or multiple)</li>
 </ol>
