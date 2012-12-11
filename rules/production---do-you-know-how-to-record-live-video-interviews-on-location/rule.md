@@ -15,7 +15,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <p>A good example of an effective but easy to record interview is&#58;</p>
 
-<br><div class="ms-rtestate-read ms-rte-wpbox"><div id="div_bc344b9a-3339-455e-a31a-59740e1bfd60" class="ms-rtestate-notify  ms-rtestate-read bc344b9a-3339-455e-a31a-59740e1bfd60"></div>
+<br><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read bc344b9a-3339-455e-a31a-59740e1bfd60" id="div_bc344b9a-3339-455e-a31a-59740e1bfd60"></div>
 <div id="vid_bc344b9a-3339-455e-a31a-59740e1bfd60" style="display&#58;none;"></div></div>
 
 <br>
@@ -24,7 +24,7 @@ related: []
 <li>The interviewer should hold the camera and interview the subject at the same time</li>
 <li>Keep a tight frame. Don’t have lots of empty space around the subject</li>
 <li>Use the rule of thirds. See&#58;</li>
-<div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 36ad5df3-a588-4bea-836f-49ce977e5085" id="div_36ad5df3-a588-4bea-836f-49ce977e5085"></div>
+<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_36ad5df3-a588-4bea-836f-49ce977e5085" class="ms-rtestate-notify  ms-rtestate-read 36ad5df3-a588-4bea-836f-49ce977e5085"></div>
 <div id="vid_36ad5df3-a588-4bea-836f-49ce977e5085" style="display&#58;none;"></div></div>
 
 <li>Don't zoom erratically – Ease in and ease out of zooms</li>
