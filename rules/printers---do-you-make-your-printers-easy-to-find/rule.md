@@ -17,7 +17,7 @@ related: []
 <p>So add a DNS alias which map \\printer to your print server.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
-<img src="/ITAndNetworking/RulesToBetterWindowsServers/PublishingImages/add-printer-via-connect.jpg" alt="Add the printer via Connect" class="ms-rteCustom-ImageArea" />
+<img class="ms-rteCustom-ImageArea" alt="Add the printer via Connect" src="/PublishingImages/add-printer-via-connect.jpg" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; \\printer takes to this window, were the you can Add the printer via Connect</span>
 
 
