@@ -20,11 +20,11 @@ authors:
 
   <span>
 <dl class="badImage">
-    <dt><img width="300" height="300" alt="" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" /> </dt>
+    <dt><img width="300" height="300" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" alt="" /> </dt>
     <dd>Figure&#58; The Reset button isn't useful at all </dd>
 </dl>
-<p style="display&#58;block;" class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p>
-<p style="display&#58;block;" class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule. <br>
+<p class="productBox" style="display&#58;block;">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p>
+<p class="productBox" style="display&#58;block;">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule. <br>
 We offer a <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</p>
 </span>
 
