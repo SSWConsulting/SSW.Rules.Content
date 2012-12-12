@@ -9,7 +9,7 @@ authors: []
 
 
 
-<span class='intro'> Instructions are very important when maintaining a project. When someone new joins the project, you want to make sure that they can easily find the documentation to do tasks like setting up the project and deploying it. See our rule &quot;<a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/DoYouMakeInstructions.aspx">Do you make instructions at the beginning and improve it gradually for web projects</a>&quot; </span>
+<span class='intro'> Instructions are very important when maintaining a project. When someone new joins the project, you want to make sure that they can easily find the documentation to do tasks like setting up the project and deploying it. See our rule &quot;<a href="/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually">Do you make instructions at the beginning and improve it gradually for web projects</a>&quot; </span>
 
 <p>That being said, the deployment plan is an important part of the Instructions.docx. It should clearly layout all the steps required to&#58;</p>
 <ol>
