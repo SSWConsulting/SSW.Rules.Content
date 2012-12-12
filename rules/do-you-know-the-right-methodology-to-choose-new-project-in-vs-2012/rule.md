@@ -21,7 +21,7 @@ When you decided to use VSTS 2010, you have the options to choose from different
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img alt="" class="ms-rteCustom-ImageArea" src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010ProcessTemplates.jpg" /> <br>
+  <img src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010ProcessTemplates.jpg" class="ms-rteCustom-ImageArea" alt="" /> <br>
 <font class="ms-rteCustom-FigureNormal">Figure&#58; Built-in Process Templates in VSTS 2010</font><br>
 <br>
 Beside the Microsoft Process Templates below&#58;<br>
