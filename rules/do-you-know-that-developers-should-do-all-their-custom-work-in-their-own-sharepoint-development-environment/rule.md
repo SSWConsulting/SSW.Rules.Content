@@ -51,7 +51,7 @@ authors:
     </ul>
     </li>
 </ol>
-<p>If you are after a clean, pre-configured SharePoint server image to test SharePoint, the easiest way is to <a href="http&#58;//www.microsoft.com/downloads/details.aspx?FamilyID=67f93dcb-ada8-4db5-a47b-df17e14b2c74&amp;displaylang=en" class="ms-rteCustom-External">download a trial VM from Microsoft</a></p>
+<p>If you are after a clean, pre-configured SharePoint server image to test SharePoint, the easiest way is to <a class="ms-rteCustom-External" href="http&#58;//www.microsoft.com/downloads/details.aspx?FamilyID=67f93dcb-ada8-4db5-a47b-df17e14b2c74&amp;displaylang=en">download a trial VM from Microsoft</a></p>
 <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperSharePoint/VMDevelopment.aspx">More info on setting up SharePoint VM</a> 
 
 
