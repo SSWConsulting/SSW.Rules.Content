@@ -19,7 +19,7 @@ authors:
 
 
   <p>This will turn many of your potential runtime errors into compile time errors, thus saving you from potential time bombs!</p>
-<table id="table7" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
+<table cellspacing="2" cellpadding="2" summary="Code Auditor" class="clsSSWProductTable" id="table7">
     <tbody>
         <tr>
             <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx#OptionExplicit">SSW Code Auditor</a> to check for this rule.</td>
