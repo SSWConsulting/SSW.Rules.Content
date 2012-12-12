@@ -11,7 +11,7 @@ related: []
 ---
 
 
-The<a shape="rect" href="/Management/RulesToBetterJira/Pages/SystemDashboard.aspx" class="ms-rteCustom-External">System</a><span> Dashboard </span>&#160;is the Default Dashboard that is displayed as the Home Page when you enter Jira; it is all about YOU.&#160; It contains a summary of the issues that you should be dealing with immediately, those issues you are working on and have queued to work on and those issues that you have requested from others and are still outstanding. 
+The<a class="ms-rteCustom-External" href="/Pages/SystemDashboard.aspx" shape="rect">System</a><span></span><span> Dashboard </span>&#160;is the Default Dashboard that is displayed as the Home Page when you enter Jira; it is all about YOU.&#160; It contains a summary of the issues that you should be dealing with immediately, those issues you are working on and have queued to work on and those issues that you have requested from others and are still outstanding. 
 ​
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -28,9 +28,9 @@ The System Dashbaord has two columns and&#160;three main &quot;areas&quot;; thes
 System Dashboard example&#58;<br>
 <br>
 <br>
-<img src="/Management/RulesToBetterJira/PublishingImages/SystemDashboardExample.png" alt="" style="width&#58;950px;height&#58;656px;" />The specification of the dashboard is&#58;<br>
+<img src="/PublishingImages/SystemDashboardExample.png" alt="" style="width&#58;950px;height&#58;656px;" />The specification of the dashboard is&#58;<br>
 <br>
-<img width="900" height="855" src="/Management/RulesToBetterJira/PublishingImages/SystemDashboardSpec.png" alt="" /></p>
+<img width="900" height="855" src="/PublishingImages/SystemDashboardSpec.png" alt="" /></p>
 
 
 
