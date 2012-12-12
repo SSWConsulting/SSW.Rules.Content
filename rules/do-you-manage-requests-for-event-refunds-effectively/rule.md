@@ -9,7 +9,7 @@ authors: []
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> Every now and then, client will purchase training or event passes and be unable to attend. In this scenario, 2 things should occur in order&#58; </span>
 
 <ol>
 <li>They should be offered an alternative. This is important as if they needed the training, they may well appreciate being given the option. This requires a conversation with the client and the alternative options are&#58;
