@@ -16,7 +16,7 @@ authors:
 <span class='intro'> 
   <p>In ASP.NET deployment is a simple xcopy. Or you can&#160;right click the Web Site project and &#160;&quot;Publish Web Site&quot; in Visual Studio. </p>
 <dl class="goodImage">
-    <dt><img alt="" src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/PublishWebSite.png" /> </dt>
+    <dt><img src="/PublishingImages/PublishWebSite.png" alt="" /> </dt>
     <dd>Fugure&#58; Publish Web Site in Visual Studio </dd>
 </dl>
 <p>&#160;</p>
@@ -32,7 +32,7 @@ authors:
     <li>Update and get the latest version of the files from development SharePoint or TFS </li>
     <li>Compile the package into a WSP file (which is a cab file) </li>
     <li>Test the package on a staging server. </li>
-    <li><span style="font-family&#58;'calibri', 'sans-serif';font-size&#58;11pt;">Deploy it on a production server.</span> </li>
+    <li><span style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">Deploy it on a production server.</span> </li>
 </ol>
 
 
