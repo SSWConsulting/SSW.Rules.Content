@@ -37,15 +37,15 @@ The workflow controls how an issue is taken from creation to closure via a Done 
     <li>From Resolved state, the Reporter then closes the issue if satisfied with the outcome; otherwise it can be reopened. If it is a Development issue; the Reporter should test Defects on Local Staging and new development in ClientDev. Other issues are closed according to whether the reporter is satisfied with the resolution. </li>
 </ol>
 <p>The following digram shows the main flows&#58;</p>
-<p><img width="522" height="578" alt="" style="width&#58;612px;height&#58;650px;" src="/Management/RulesToBetterJira/PublishingImages/Workflow.png" /></p>
+<p><img width="522" height="578" src="/PublishingImages/Workflow.png" alt="" style="width&#58;612px;height&#58;650px;" /></p>
 <p>(A table further defining the workflow&#160;this will appear here in due course)
-<td class="confluenceTd">&#160;&#160;&#160;
-<td class="confluenceTd">&#160;&#160;&#160;
-<td class="confluenceTd">&#160;&#160;&#160;
-<td class="confluenceTd">&#160;&#160;&#160;
-<td class="confluenceTd">&#160;&#160;&#160;
-<td class="confluenceTd">&#160;&#160;&#160;
-<td class="confluenceTd">&#160;</p>
+&#160;&#160;&#160;
+&#160;&#160;&#160;
+&#160;&#160;&#160;
+&#160;&#160;&#160;
+&#160;&#160;&#160;
+&#160;&#160;&#160;
+&#160;</p>
 
 
 
