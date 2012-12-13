@@ -25,10 +25,10 @@ related: []
 <dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-MessageBoxZango.jpg" alt="" /></dt>
 <dd>Figure&#58; Bad Example - Is it OK to Cancel?</dd></dl>
 <div>Microsoft uses this one&#58;</div>
-<dl class="goodImage"><dt><img alt="Not Enough Memory" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NotEnoughMemory.gif" /></dt>
+<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NotEnoughMemory.gif" alt="Not Enough Memory" /></dt>
 <dd>Figure&#58; Good Example - Microsoft error message is concise</dd></dl>
 <div>Some other message types that Microsoft uses are&#58;</div>
-<table class="clsSSWTable" border="0" cellspacing="0" cellpadding="3"><tbody><tr><th>Message type</th>
+<table cellspacing="0" cellpadding="3" border="0" class="clsSSWTable"><tbody><tr><th>Message type</th>
 <th>Sample message</th></tr>
 <tr><td>Not enough disk space</td>
 <td>There is not enough disk space to complete the operation. Delete some unneeded files on your hard disk, and then try again</td></tr>
@@ -37,6 +37,6 @@ related: []
 <tr><td>Re-running setup</td>
 <td>The filename file is missing. Run Setup again to reinstall the missing file. For more information about running Setup, press F1. </td></tr></tbody></table>
 <div>Consider using or adapting them in your application in similar scenarios. Only include the information that the user needs and will understand.</div>
-<div>This also applies to general design principles, read our rule on <a href="/DesignandPresentation/RulestoBetterInterfacesGeneral/Pages/Less-is-More---Do-you-know-people-visually-map-(and-scan,-not-read).aspx">Less is more&#58; do you know people scan, not read?</a></div>
+<div>This also applies to general design principles, read our rule on <a href="/less-is-more-do-you-know-people-scan-not-read">Less is more&#58; do you know people scan, not read?</a></div>
 
 
