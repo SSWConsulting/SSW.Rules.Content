@@ -13,28 +13,15 @@ related: []
 ---
 
 
-<p>
-          The goal is that I don't want CRM developers to move from Dev to Test and to Production
-          manually. Basically I don't want a developer to touch Test or Production servers.
-          The testers can run the .bat file. <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx">
-            See SSW rules to setup packages</a>.</p>
+<p>The goal is that I don't want CRM developers to move from Dev to Test and to Production manually. Basically I don't want a developer to touch Test or Production servers. The testers can run the .bat file. <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx">See SSW rules to setup packages</a>.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>
-          How developers should work?
-        </p>
-        <ul>
-          <li>All development done in a Virtual Server</li>
-          <li>Use TFS and VS.NET 2003 (since working with VS.NET 2003 you need to TFS adapter
-            for 2003)</li>
-          <li>Backup your customizations.xml</li>
-          <li>Put into TFS (see rule&#58; <a href="#PutIntoSC">Do you put your exported customizations
-            and your plug-in customization under source-control during deployment?</a>) - check
-            it in and replace the file (avoid it customizing workflow in 3.0 because it deploys
-            better in 4.0 - but if you do then you need to backup your workflow changes also)</li>
-        </ul>
-        <p>
-          Create a Deployment.bat like this</p>
-        <div class="greyBox"><pre style="width&#58;600px;overflow&#58;auto;">         
+<p>How developers should work? </p>
+<ul><li>All development done in a Virtual Server</li>
+<li>Use TFS and VS.NET 2003 (since working with VS.NET 2003 you need to TFS adapter for 2003)</li>
+<li>Backup your customizations.xml</li>
+<li>Put into TFS (see rule&#58; <a href="/SoftwareDevelopment/RulesToBetterCRMForDevelopers/Pages/Put-your-exported-customizations-and-your-plug-in-customization-under-source-control-during-deployment.aspx">Do you put your exported customizations and your plug-in customization under source-control during deployment?</a>) - check it in and replace the file (avoid it customizing workflow in 3.0 because it deploys better in 4.0 - but if you do then you need to backup your workflow changes also)</li></ul>
+<p>Create a Deployment.bat like this</p>
+<div class="greyBox"><pre style="overflow&#58;auto;width&#58;600px;">         
             REM (deploy the callouts - Part 1)
 
             REM (restart IIS of CRM TEST Server - BASILISK)
@@ -53,21 +40,13 @@ related: []
             REM (avoid server side validation logic in v3)
             REM  Deploy a 1.1 web service
          </pre></div>
-        <p>
-          Deploy to Test Server
-          </p>
-<ul>
-            <li>Import the customizations.xml</li>
-            <li>Run .bat file</li>
-          </ul>
-        <p></p>
-        <p>
-          Deploy to Production Server
-        </p>
-        <ul>
-          <li>Import the customizations.xml</li>
-          <li>Run .bat file</li>
-        </ul>
+<p>Deploy to Test Server </p>
+<ul><li>Import the customizations.xml</li>
+<li>Run .bat file</li></ul>
+<p>&#160;</p>
+<p>Deploy to Production Server </p>
+<ul><li>Import the customizations.xml</li>
+<li>Run .bat file</li></ul>
 
 
 
