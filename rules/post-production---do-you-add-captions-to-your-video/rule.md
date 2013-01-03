@@ -17,7 +17,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
 <dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/Why%20Choose%20SSW.jpg" alt="Why Choose SSW.jpg" style="width&#58;600px;" /></dt>
-<dd>Figure&#58; Good example of Titles - Clear, nice effects and well stylized</dd>
+<dd>Figure&#58; Good example of Titles - Clear, nice effects and well stylized. This is the style used for SSW Infomercials</dd>
 </dl>
 
 <dl class="goodImage">
