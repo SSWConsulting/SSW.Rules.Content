@@ -26,8 +26,8 @@ related: []
 </dl>
 
 <dl class="goodImage">
-<dt><img alt="SSWRules_LowerThirdsExample.jpg" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/SSWRules_LowerThirdsExample.jpg" style="width&#58;600px;" /></dt>
-<dd>Figure&#58; Good example of Titles - this is the style used for SSW Rules&#160;Videos<img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/CaseStudy_LowerThirds.jpg" alt="CaseStudy_LowerThirds.jpg" class="ssw-rteStyle-GreyBox" style="margin&#58;5px;" /></dd>
+<dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/SSWRules_LowerThirdsExample.jpg" alt="SSWRules_LowerThirdsExample.jpg" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example of Titles - this is the style used for SSW Rules&#160;Videos</span></dt>
+<dt><br><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/CaseStudy_LowerThirds.jpg" alt="CaseStudy_LowerThirds.jpg" class="ssw-rteStyle-FigureGood" style="margin&#58;5px;" /></dt>
 <dd>Figure&#58; Good example of titles - this is the style used for SSW Case Studies<br><br></dd>
 </dl>
 
