@@ -17,18 +17,18 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
 <dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/Why%20Choose%20SSW.jpg" alt="Why Choose SSW.jpg" style="width&#58;600px;" /></dt>
-<dd>Figure&#58; Good example of Titles - Clear, nice effects and well stylized. This is the style used for SSW Infomercials</dd>
+<dd>Figure&#58; Good example of titles - Clear, nice effects and well stylized. This is the style used for SSW Infomercials</dd>
 </dl>
 
 <dl class="goodImage">
 <dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/Good%20titles%20example.png" alt="Good titles example.png" style="width&#58;600px;" /></dt>
-<dd>Figure&#58; Good example of Titles - this is the style used for SSW TV videos</dd>
+<dd>Figure&#58; Good example of titles - this is the style used for SSW TV videos</dd>
 </dl>
 
 <dl class="goodImage">
 <dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/SSWRules_LowerThirdsExample.jpg" alt="SSWRules_LowerThirdsExample.jpg" style="width&#58;600px;" /></dt>
-<dd>Figure&#58; Good example of Titles - this is the style used for SSW Rules&#160;Videos</dd>
-<dl>
+<dd>Figure&#58; Good example of titles - this is the style used for SSW Rules&#160;Videos</dd>
+</dl>
 
 <dl class="goodImage">
 <dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/CaseStudy_LowerThirds.jpg" alt="CaseStudy_LowerThirds.jpg" style="width&#58;600px;" /></dt>
@@ -39,7 +39,7 @@ related: []
 <dt>
 ​<img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/CTA_Bad_Example_2.jpg" alt="CTA_Bad_Example_2.jpg" style="width&#58;600px;" />
 </dt>
-<dd>Figure&#58; Bad example of Captions - Text is too small and hard to read. </dd>
+<dd>Figure&#58; Bad example of captions - Text is too small and hard to read. </dd>
 </dl>
 
 <dl class="goodImage">
@@ -47,7 +47,7 @@ related: []
 <dd>Figure&#58; Good example of Captions - Text is clear and legible. Provides extra value to the viewer with content not mentioned in the video</dd>
 </dl>
 
-<p>Remember to put any links that you've mentioned in&#160;the captions underneath your video in it's own section (with a heading such as 'Show Notes' or 'Related Content'). You can also use this section to put in links that are related to what was said in the video as evidence (similar to footnotes or a bibliography in a book). That way, you will gain more Google juice and it will make it easier for the Product Owner to review your captions.</p></dl></dl>
+<p>Remember to put any links that you've mentioned in&#160;the captions underneath your video in it's own section (with a heading such as 'Show Notes' or 'Related Content'). You can also use this section to put in links that are related to what was said in the video as evidence (similar to footnotes or a bibliography in a book). That way, you will gain more Google juice and it will make it easier for the Product Owner to review your captions.</p>
 
 
 
