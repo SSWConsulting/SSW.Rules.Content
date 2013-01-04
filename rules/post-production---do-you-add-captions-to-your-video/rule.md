@@ -26,9 +26,13 @@ related: []
 </dl>
 
 <dl class="goodImage">
-<dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/SSWRules_LowerThirdsExample.jpg" alt="SSWRules_LowerThirdsExample.jpg" style="margin&#58;5px;" /><br><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example of Titles - this is the style used for SSW Rules&#160;Videos</span></dt>
-<dt><br><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/CaseStudy_LowerThirds.jpg" alt="CaseStudy_LowerThirds.jpg" class="ssw-rteStyle-FigureGood" style="margin&#58;5px;" /></dt>
-<dd>Figure&#58; Good example of titles - this is the style used for SSW Case Studies<br><br></dd>
+<dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/SSWRules_LowerThirdsExample.jpg" alt="SSWRules_LowerThirdsExample.jpg" style="width&#58;600px;" /></dt>
+<dd>Figure&#58; Good example of Titles - this is the style used for SSW Rules&#160;Videos</dd>
+<dl>
+
+<dl class="goodImage">
+<dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/CaseStudy_LowerThirds.jpg" alt="CaseStudy_LowerThirds.jpg" style="width&#58;600px;" /></dt>
+<dd>Figure&#58; Good example of titles - this is the style used for SSW Case Studies</dd>
 </dl>
 
 <dl class="badImage">
@@ -41,9 +45,9 @@ related: []
 <dl class="goodImage">
 <dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/CTA_Good_Example_2.jpg" alt="CTA_Good_Example_2.jpg" style="width&#58;600px;" /></dt>
 <dd>Figure&#58; Good example of Captions - Text is clear and legible. Provides extra value to the viewer with content not mentioned in the video</dd>
- 
 </dl>
 
-<p>Remember to put any links that you've mentioned in&#160;the captions underneath your video in it's own section (with a heading such as 'Show Notes' or 'Related Content'). You can also use this section to put in links that are related to what was said in the video as evidence (similar to footnotes or a bibliography in a book). That way, you will gain more Google juice and it will make it easier for the Product Owner to review your captions.</p>
+<p>Remember to put any links that you've mentioned in&#160;the captions underneath your video in it's own section (with a heading such as 'Show Notes' or 'Related Content'). You can also use this section to put in links that are related to what was said in the video as evidence (similar to footnotes or a bibliography in a book). That way, you will gain more Google juice and it will make it easier for the Product Owner to review your captions.</p></dl></dl>
+
 
 
