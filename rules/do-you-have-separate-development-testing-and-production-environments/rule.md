@@ -23,17 +23,17 @@ It is important to maintain three separate environments for development, testing
 <p><strong>Now make each environment clear.</strong> </p>
 <p>Whenever an application has a database, have a visual indicator. I recommend a different background color for each environment </p>
 <ul>
-    <li><span style="background-color&#58;#ff0000;" class="highlight">Red</span> for the <strong>Development</strong> database </li>
-    <li><span style="background-color&#58;#ffff00;" class="highlight">Yellow</span> for the <strong>Test</strong> database </li>
-    <li><span style="background-color&#58;#cccccc;" class="highlight">Grey (no colour)</span> for the <strong>Production</strong> database </li>
+    <li><span class="highlight" style="background-color&#58;rgb(255, 0, 0);">Red</span> for the <strong>Development</strong> database </li>
+    <li><span class="highlight" style="background-color&#58;rgb(255, 255, 0);">Yellow</span> for the <strong>Test</strong> database </li>
+    <li><span class="highlight" style="background-color&#58;rgb(204, 204, 204);">Grey (no colour)</span> for the <strong>Production</strong> database </li>
 </ul>
 <p>Note&#58; The Yellow might have been Orange (kind of like traffic lights) but the color palette in Word doesn't give Orange. </p>
-<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" class="ms-rteCustom-ImageArea" border="0" alt="colors in Word color pallete" src="/Management/RulesToSuccessfulProjects/PublishingImages/WordColorPallete.GIF" /><span class="ms-rteCustom-FigureNormal">Figure&#58; colors in Word color palette </span>
+<img border="0" class="ms-rteCustom-ImageArea" alt="colors in Word color pallete" src="/PublishingImages/WordColorPallete.GIF" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;-moz-use-text-color;" /><span class="ms-rteCustom-FigureNormal">Figure&#58; colors in Word color palette </span>
 <p>This prevents testers from accidentally entering test data into the&#160;production version. </p>
 <p><strong>Windows Forms Tip&#58;</strong> Implement in the base form in the header <br>
 <strong>ASP.NET (at least version 2.0) Tip&#58;</strong> Implement in the master form in the header</p>
-<img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" class="ms-rteCustom-ImageArea" border="0" alt=" " src="/Management/RulesToSuccessfulProjects/PublishingImages/dev_test_prod_servers.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Spice up your environments with different colors </span>
-<p>An application of this rule is how we identify our CRM servers - see rule <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterMicrosoftCRM.aspx#Environment">Do you identify Development, Test and Production CRM Web Servers by colors?</a></p>
+<img border="0" class="ms-rteCustom-ImageArea" alt=" " src="/PublishingImages/dev_test_prod_servers.gif" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;-moz-use-text-color;" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Spice up your environments with different colors </span>
+<p>An application of this rule is how we identify our CRM servers - see rule <a href="/do-you-identify-development-test-and-production-crm-web-servers-by-colors">Do you identify Development, Test and Production CRM Web Servers by colors?</a></p>
 
 
 
