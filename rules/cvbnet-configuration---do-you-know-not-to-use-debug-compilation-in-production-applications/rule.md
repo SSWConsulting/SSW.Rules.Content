@@ -22,12 +22,12 @@ authors: []
 <p>The rest is up to the JIT.</p>
 <p>As per&#58; <a target="_blank" href="http&#58;//stackoverflow.com/questions/2446027/c-sharp-debug-vs-release-performance"></a>C# debug vs release performance.</p>
 
-<dl>
+<dl class="badImage">
 <dt><img src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/debug-bad.jpg" alt="" /></dt>
 <dd>Figure&#58; Bad Example</dd>
 </dl>
 
-<dl>
+<dl class="goodImage">
 <dt><img src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/debug-good.jpg" alt="" /></dt>
 <dd>Figure&#58; Good Example</dd>
 </dl>
