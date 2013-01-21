@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-Files with a BAK extension is always a call for tidy up your project file.
+Finding a file with a BAK extension is a &quot;call sign&quot; that your folders need a tidy up.
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage">
             <dt><img src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/bak-bad.jpg" alt="" /></dt>
