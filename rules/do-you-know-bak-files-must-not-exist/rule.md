@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> Files with a BAK extension is always a call for tidy up your project file. </span>
+<span class='intro'> Finding a file with a BAK extension is a &quot;call sign&quot; that your folders need a tidy up. </span>
 
 <dl class="badImage">
             <dt><img src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/bak-bad.jpg" alt="" /></dt>
