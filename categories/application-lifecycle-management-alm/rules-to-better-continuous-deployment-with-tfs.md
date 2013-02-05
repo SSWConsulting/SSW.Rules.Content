@@ -1,0 +1,26 @@
+---
+type: category
+title: Rules to Better Continuous Deployment with TFS
+guid: 291d0ed1-a02d-4f22-b0f8-64f51a93d80d
+uid: rules-to-better-continuous-deployment-with-tfs
+index:
+- do-you-publish-simple-websites-directly-to-windows-azure-from-visual-studio-online
+- do-you-use-the-best-deployment-tool
+- do-you-use-the-lifecycles-feature-in-octopus-deploy
+- do-you-avoid-publishing-from-visual-studio
+- do-you-configure-the-executebatchtemplate-build-process-template
+- do-you-create-a-deployment-project-alongside-your-web-application-for-any-additional-deployment-steps
+- do-you-create-a-continuous-integration-build-for-the-solution
+- do-you-create-a-deployment-batch-file-and-setparameters-file-for-each-environment
+- do-you-deploy-to-other-environments
+- do-you-know-the-easiest-way-to-continuously-deploy-is-to-use-visualstudiocom-and-azure
+- do-you-know-to-create-the-website-in-iis-if-using-web-deploy
+- do-you-not-install-web-deploy-from-the-web-platform-installer
+- do-you-update-your-build-to-use-the-executebatchtemplate-build-process-template
+- do-you-know-the-reasons-why-calling-a-batch-file-from-the-build-process-template-is-better-than-deploying-directly-from-the-build
+- do-you-use-web-compiler-extension
+
+---
+
+Rules to Better Continuous Deployment with TFS 2012’
+
