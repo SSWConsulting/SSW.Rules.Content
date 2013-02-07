@@ -13,8 +13,11 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+<p>Configure the ExecuteBatchTemplate Build Process Template.</p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<dl class="image"><dt><img src="/TFS/Rules-to-Better-Continuous-Deployment/PublishingImages/configure-executebatch.jpg" alt="" />
+</dt><dd>Figure&#58; Enter the DeployOnBuild MsBuild argument, and then enter the name of the deployment batch file you wish to execute upon successful build of the project.
+<br>Every time this build is executed successful (and all the unit tests pass), the specified batch file will run – deploying the site automatically.
+</dd></dl>
 
 
