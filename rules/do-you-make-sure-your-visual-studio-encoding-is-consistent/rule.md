@@ -16,17 +16,17 @@ related: []
 <p> Make sure your Visual Studio encoding is consistent with Sydney to avoid encoding problems in the future. </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p> 
-   <strong>Open file with Encoding&#58;</strong> </p><dl class="Image"><dt> 
-      <img alt="Use     'Open With...' in Visual Studio for file open" src="/Communication/RulesToBetterOutsourcing/PublishingImages/OpenFileWithOption.png" />
-   </dt><dd> Figure&#58; Use &quot;Open With...&amp;Figure&#58; Use &quot;Open With...&quot; in Visual Studio to open the file</dd></dl><dl class="Image"><dt> 
-      <img alt="Set '...     Editor with Encoding' as Default Editor" src="/Communication/RulesToBetterOutsourcing/PublishingImages/OpenFileDialog.png" />
-   </dt><dd> Figure&#58; Set &quot;... Editor with Encoding&quot; as the Default Editor</dd></dl><dl class="Image"><dt> 
-      <img alt="Make     sure your encoding is consistent with Sydney" src="/Communication/RulesToBetterOutsourcing/PublishingImages/OpenFileEncoding.png" />
+   <strong>Open file with Encoding&#58;</strong> </p><dl class="image"><dt> 
+      <img alt="Use 'Open With...' in Visual Studio for file open" src="/PublishingImages/OpenFileWithOption.png" style="width&#58;570px;" />
+   </dt><dd> Figure&#58; Use &quot;Open With...&amp;Figure&#58; Use &quot;Open With...&quot; in Visual Studio to open the file</dd></dl><dl class="image"><dt> 
+      <img alt="Set '...     Editor with Encoding' as Default Editor" src="/PublishingImages/OpenFileDialog.png" />
+   </dt><dd> Figure&#58; Set &quot;... Editor with Encoding&quot; as the Default Editor</dd></dl><dl class="image"><dt> 
+      <img alt="Make     sure your encoding is consistent with Sydney" src="/PublishingImages/OpenFileEncoding.png" />
    </dt><dd> Figure&#58; Make sure your encoding is consistent with Sydney </dd></dl><p> 
    <strong>Save file with Encoding&#58;</strong> (Optional - it will be saved w (Optional - it will be saved with opened encoding automatically.) </p><dl class="Image"><dt> 
-      <img alt="Open 'Advance Save Options...' in Visual Studio before checkin" src="/Communication/RulesToBetterOutsourcing/PublishingImages/AdvancedSaveOptions.png" />
-   </dt><dd> Figure&#58; Open &quot;Advance Save Options...&quot; in Visual Studio before checking in</dd></dl><dl class="Image"><dt> 
-      <img alt="Make sure your setting is consistent with Sydney" src="/Communication/RulesToBetterOutsourcing/PublishingImages/AdvancedSaveOptionsEncoding.png" />
+      <img alt="Open 'Advance Save Options...' in Visual Studio before checkin" src="/PublishingImages/AdvancedSaveOptions.png" />
+   </dt><dd> Figure&#58; Open &quot;Advance Save Options...&quot; in Visual Studio before checking in</dd></dl><dl class="image"><dt> 
+      <img alt="Make sure your setting is consistent with Sydney" src="/PublishingImages/AdvancedSaveOptionsEncoding.png" />
    </dt><dd> Figure&#58; Make sure your setting is consistent with Sydney </dd></dl>
 
 
