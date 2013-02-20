@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-Explain to the attendees the logistics of the day.
+<p>Students will be able to concentrate best if they are comfortable that they know basically how the day will run. To this end, explain the logistics of the day.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li>What time are the breaks?<br>E.g. 
       <div class="greyBox"><ul><li>- Session 1 --{gtHTMLChar} 09&#58;00am – 11&#58;00am</li><li>
