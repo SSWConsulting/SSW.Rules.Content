@@ -15,16 +15,7 @@ related: []
 
 There are&#160;lot of features of Microsoft Lync. The primary features are&#58;
 <br><excerpt class='endintro'></excerpt><br>
-<p> 
-Transfer a call<br> 
-Conference a call<br> 
-Internal<br> 
-Receiving your voice mails into your email<br> 
-You can always see if someone is available from lots of apps - Presence Icon<br> 
-IM functionality<br> 
-Meetings<br> 
-Adding all users from another instant messaging platform (or all users from another company) (aka Federation)<br>
-Remote Desktop<br> 
-Whiteboard</p>
+<ul><li> 
+Transfer a call</li><li>Conference a call</li><li>Internal calls<br></li></ul><p>Plus even more&#58;</p><ul><li>Receiving your voice mails into your email</li><li>You can always see if someone is available from lots of apps - Presence Icon</li><li>IM functionality</li><li>Meetings</li><li>Adding all users from another instant messaging platform (or all users from another company) (aka Federation)</li><li>Remote Desktop</li><li>Whiteboard</li></ul>
 
 
