@@ -21,7 +21,7 @@ redirects:
 </p>
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img class="ms-rteCustom-ImageArea" src="/Management/RulesToBetterProjectManagement/PublishingImages/VSTS2010ProcessTemplates.jpg" alt="" /> <br>
+  <img class="ms-rteCustom-ImageArea" src="/Management/RulestoBetterWorkItems/PublishingImages/VSTS2010ProcessTemplates.jpg" alt="" /> <br>
 <font class="ms-rteCustom-FigureNormal">Figure&#58; Built-in Process Templates in VSTS 2012</font><br>
 Beside the Microsoft Process Templates below&#58;<br>
 - MSF for Agile Software Development v5.0<br>
