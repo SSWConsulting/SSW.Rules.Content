@@ -9,7 +9,7 @@ authors: []
 
 
 
-<span class='intro'> Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy.<div><br></div> </span>
+<span class='intro'> Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy.<div><br>&#160;</div> </span>
 
 <b>Transferring a call</b>
 <div class="grey-box"><ul><li>While speaking to Mr Northwind, press 
@@ -48,6 +48,6 @@ authors: []
          <em></em> 
          <img src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/Tick.png" alt="" style="vertical-align&#58;middle;" />
          <i>(Tick)</i>
-         <p></p></li></ul></div>
+         <p>&#160;</p></li></ul></div>
 
 
