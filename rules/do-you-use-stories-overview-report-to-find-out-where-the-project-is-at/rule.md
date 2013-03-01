@@ -24,8 +24,8 @@ redirects:
 <p>TFS2010's Agile Template provides a built-in &quot;Stories Overview&quot; report to help you find out where the project is at, as well as to tell you if all the tasks are well tested. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img src="/Management/RulesToBetterSpecificationReviews/PublishingImages/StoriesOverviewReport.jpg" alt="Stories Overview report" class="ms-rteCustom-ImageArea" /> <br>
-<font size="2" class="ms-rteCustom-FigureNormal">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
+  <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/Management/RulesToBetterSpecificationReviews/PublishingImages/StoriesOverviewReport.jpg" /> <br>
+<font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
 <p>Tip&#58; Set this up on a <a href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyReportsEmailedToTeam.aspx" shape="rect">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
 <p>Suggestion for Microsoft #1&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
 <p>Suggestion for Microsoft #2&#58; Add this great report to the Microsoft Scrum TFS Process Template.</p>
