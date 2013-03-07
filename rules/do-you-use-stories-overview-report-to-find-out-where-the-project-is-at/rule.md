@@ -21,7 +21,7 @@ redirects:
 
 
   <p>A common question for every project manager is &quot;where is my project at&quot;? This question isn't just asked to find out how many tasks are done, but also to understand if all these tasks are done to meet users' requirements. </p>
-<p>TFS2010's Agile Template provides a built-in &quot;Stories Overview&quot; report to help you find out where the project is at, as well as to tell you if all the tasks are well tested. </p>
+<p>The MSF for Agile Template in TFS 2010 and 2012 provides a built-in &quot;Stories Overview&quot; report to help you find out where the project is at, as well as to tell you if all the tasks are well tested. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
   <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/Management/RulesToBetterSpecificationReviews/PublishingImages/StoriesOverviewReport.jpg" /> <br>
