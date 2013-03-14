@@ -11,7 +11,9 @@ authors:
 
 
 
-<span class='intro'> There are&#160;lot of features of Microsoft Lync. The primary features are&#58; </span>
+<span class='intro'> <iframe width="640" height="480" src="http&#58;//www.youtube.com/embed/z45_IMwslYw" frameborder="0"></iframe>
+
+There are&#160;lot of features of Microsoft Lync. The primary features are&#58; </span>
 
 <ul><li><span style="line-height&#58;21px;">Internal calls</span></li><li> 
 Transfer a call</li><li>Conference a call</li></ul><p>Plus even more&#58;</p><ul><li>Receiving your voice mails into your email</li><li>Presence Icon</li><li>IM functionality</li><li>Meetings</li><li>Federation Abilities</li><li>Remote Desktop</li><li>Whiteboard</li></ul>
