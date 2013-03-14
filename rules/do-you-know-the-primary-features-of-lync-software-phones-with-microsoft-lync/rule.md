@@ -13,6 +13,8 @@ related: []
 ---
 
 
+<iframe width="640" height="480" src="http&#58;//www.youtube.com/embed/z45_IMwslYw" frameborder="0"></iframe>
+
 There are&#160;lot of features of Microsoft Lync. The primary features are&#58;
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li><span style="line-height&#58;21px;">Internal calls</span></li><li> 
