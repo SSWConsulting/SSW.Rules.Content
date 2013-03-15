@@ -13,10 +13,13 @@ related: []
 ---
 
 
-<p>The text swing in can be a great way to make a title gain attention, but if the angles are wrong, the unnatural nature of it will be jarring. We recommend After Effects as the tool to do this.</p><ul><li>Each keyframe should be half the angle of the previous keyframe from 90 degrees</li><li>Each keyframe should be half the distance on the timeline from the previous keyframe</li></ul>
-
-
+<p>The text swing in can be a great way to make a title gain attention, but if the angles are wrong, the unnatural nature of it will be jarring. The best tool to create this type of effect is Adobe After Effects.</p><ul><li>Each keyframe should be half the angle of the previous keyframe from 90 degrees</li><li>Each keyframe should be half the distance on the timeline from the previous keyframe</li></ul>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/swing-in-effect.jpg" alt="" /></dt><dd>Figure&#58; Angle/time graphic for &quot;Swing In&quot; effect</dd></dl>
+<dl class="image"><dt> 
+      <img src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/swing-in-effect.jpg" alt="" /> 
+   </dt><dd>Figure&#58; Angle/time graphic for &quot;Swing In&quot; effect</dd></dl>
+<dl class="goodImage">
+   <dt> 
+      <iframe width="640" height="360" src="http&#58;//www.youtube.com/embed/0ugMkda9IBw" frameborder="0"></iframe> </dt><dd>Figure&#58; Good example - See how each section title is presented on the video</dd></dl>
 
 
