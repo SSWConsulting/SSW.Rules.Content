@@ -11,7 +11,10 @@ related: []
 ---
 
 
-Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy.<div><br>&#160;</div>
+<div><iframe width="640" height="360" src="http&#58;//www.youtube.com/embed/NZTY5f1mMWk" frameborder="0"></iframe>
+   <br>
+</div>Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy.
+<p></p>
 <br><excerpt class='endintro'></excerpt><br>
 <b>Transferring a call</b>
 <div class="grey-box"><ul><li>While speaking to Mr Northwind, press 
