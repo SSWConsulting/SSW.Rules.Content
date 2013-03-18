@@ -15,7 +15,11 @@ related: []
 
 <p>During an interview, looking at a talking head (the subject) can become monotonous. As such it is a good idea to ‘cutaway’ to the topic/product that the speaker is referring to. Not only does it make it more interesting, it improves the understandability of the video for your audience.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>As an example, if you are interviewing someone and the topic of unit testing comes up, mid-sentence you can cut to a shot of the unit testing UI.</p>
-<img class="ms-rteCustom-ImageArea" alt="Cutaways Bad example" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/cutaways-bad-example.jpg" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – Looking at a talking head for 30 mins is boring</span> <img class="ms-rteCustom-ImageArea" alt="Cutaways  Bad example" src="/DesignandPresentation/RulesToBetterVideoRecording/PublishingImages/cutaways-good-example.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good example – cutting away to what is being discussed improves the audiences understanding - See 2&#58;08 on <a href="http&#58;//www.youtube.com/watch?v=cxKe6NDicBE" target="_blank">this video example</a></span>
+<p>As an example, if you are interviewing someone and the topic of unit testing comes up, mid-sentence you can cut to a shot of the unit testing UI.</p> 
+<img class="ms-rteCustom-ImageArea" alt="Cutaways Bad example" src="/PublishingImages/cutaways-bad-example.jpg" /> 
+<span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – Looking at a talking head for 30 mins is boring</span> 
+<img class="ms-rteCustom-ImageArea" alt="Cutaways  Bad example" src="/PublishingImages/cutaways-good-example.jpg" /> 
+<span class="ms-rteCustom-FigureGood">Figure&#58; Good example – cutting away to what is being discussed improves the audiences understanding - See 2&#58;08 on 
+   <a href="http&#58;//youtu.be/cxKe6NDicBE?t=2m5s" target="_blank">this video example</a></span>
 
 
