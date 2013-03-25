@@ -25,7 +25,7 @@ A better approach is to reduce the risk by&#58;
 <p>So try something like &quot;My calendar fills up really quick, how about I pencil you in.... How about we say 2 weeks time? Don't forget you can cancel it anytime.&quot; </p>
 <dl class="goodImage">
     <dt><img alt="pencil in" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PencilIn.JPG" /> </dt>
-    <dd>Figure&#58; Plan ahead at the end of your day eg. &quot;How about we pencil in my next visit, say 2 weeks time?&quot; </dd>
+    <dd>Figure&#58; Plan ahead at the end of your day eg. &quot;How about we pencil in my next visit, say 2 weeks time?&quot; </dd></dl><p><strong>Note&#58; </strong>If, at the end of the day, work hasn't been fully tested, or is incomplete and you haven't been booked in for the next day, tell the Product Owner (PO) that issues may arise and further work is likely to be required. After the conversation, email the PO and CC your manager to confirm that further work is required.</p><p>E.g. &quot;As per our conversation, this work has not yet been tested and may still include bugs. At this stage you would prefer if we did not continue work tomorrow, but I do recommend that we come in and finish soon.&quot;</p><dl class="goodImage">
 </dl>
 
 
