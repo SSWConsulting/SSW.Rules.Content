@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-The built-in Process Templates in VSTS will not always fit into your environment, so you want to fix it by creating your own. In SSW, we have our own SSW.AgileTemplate to allow us to add our stuff and deletes the worthless stuff. <br>
+The built-in Process Templates in TFS will not always fit into your environment, so you&#160;can fix it by creating your own. <br>
 <br>
 
 <br><excerpt class='endintro'></excerpt><br>
@@ -28,10 +28,10 @@ The built-in Process Templates in VSTS will not always fit into your environment
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - We added &quot;Additional Task&quot; to track scope creep</font><br>
 <br>
 <img class="ms-rteCustom-ImageArea" src="/Management/RulestoBetterWorkItems/PublishingImages/SSWAgile-URL.jpg" alt="" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - We added &quot;URL&quot; field to allow reverse view from the web page</font><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good -&#160;The &quot;URL&quot; field has been added to allow reverse view from the web page</font><br>
 <br>
 <img class="ms-rteCustom-ImageArea" src="/Management/RulestoBetterWorkItems/PublishingImages/SSWAgile-RichText.jpg" alt="" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - We enabled rich text in &quot;Description&quot; field to allow us enter better text for the requirement</font><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - Rich text has been enabled in the &quot;Description&quot; field to allow users to enter better text for the requirement</font><br>
 <br>
 <br>
 <br>
