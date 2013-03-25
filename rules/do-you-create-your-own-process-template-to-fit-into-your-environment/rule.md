@@ -22,10 +22,10 @@ The built-in Process Templates in TFS will not always fit into your environment,
 <br><excerpt class='endintro'></excerpt><br>
 
   <img width="592" height="130" class="ms-rteCustom-ImageArea" src="/Management/RulestoBetterWorkItems/PublishingImages/SSWAgile-Baseline-1.jpg" alt="" />&#160;<br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - We added &quot;Baseline work (hours)&quot; field to keep original estimate</font><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - The &quot;Baseline work (hours)&quot; field was added to keep the original estimate</font><br>
 <br>
 <img class="ms-rteCustom-ImageArea" src="/Management/RulestoBetterWorkItems/PublishingImages/SSWAgile-Additional.jpg" alt="" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - We added &quot;Additional Task&quot; to track scope creep</font><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - &quot;Additional Task&quot; was added to track scope creep</font><br>
 <br>
 <img class="ms-rteCustom-ImageArea" src="/Management/RulestoBetterWorkItems/PublishingImages/SSWAgile-URL.jpg" alt="" /><br>
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good -&#160;The &quot;URL&quot; field has been added to allow reverse view from the web page</font><br>
