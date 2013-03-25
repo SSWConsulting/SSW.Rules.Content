@@ -21,10 +21,10 @@ redirects:
 
 The Initial Release Plan is a summary of the work required to complete the client's project and provides a ballpark estimate. The Initial Release Plan will contain the following elements&#58; 
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image" style="width&#58;249px;clear&#58;both;float&#58;right;"><dt><img class="ms-rteCustom-ImageArea" alt="Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early" src="/Management/RulestoBetterWorkItems/PublishingImages/ProjectManagement_BallPark_Catch.jpg" border="0" /> </dt>
+<dl class="image" style="width&#58;249px;clear&#58;both;float&#58;right;"><dt><img class="ms-rteCustom-ImageArea" alt="Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early" src="/Management/RulestoBetterSpecificationReviews/PublishingImages/ProjectManagement_BallPark_Catch.jpg" border="0" /> </dt>
 <dd><span class="ms-rteCustom-FigureNormal">Figure&#58; Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early</span></dd></dl>
 <ul><li>An architectural roadmap recommending technical solutions </li>
-<li>Time allocated for further specification work to be included in each Release. At SSW we only create detailed specifications for 3 releases at a time </li>
+<li>Time allocated for further specification work to be included in each Release. In general you should only create detailed specifications for&#160;a couple of&#160;releases at a time </li>
 <li>A breakdown of the required software application into its core components, likely to include the approximate number of main features (e.g. screens, reports or sitemap) </li>
 <li>An integration plan </li>
 <li>A deployment strategy </li>
