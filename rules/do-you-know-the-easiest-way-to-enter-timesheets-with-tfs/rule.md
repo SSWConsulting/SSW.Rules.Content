@@ -16,8 +16,11 @@ redirects: []
 
 Timesheets have always been the bane of developers, with them trying every excuse under the sun to avoid them and project managers trying everything to convince them to enter them.
 <br><excerpt class='endintro'></excerpt><br>
-<img class="ms-rteCustom-ImageArea" alt="Our Office Manager chasing up timesheets" src="/Management/RulestoBetterWorkItems/PublishingImages/chase-up-timesheets.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Our Office Manager chasing up timesheets</span> <p>The main problem is timesheet entry is often difficult, time consuming and requires double entry (e.g. into different systems TFS and invoicing system).</p>
-<p>Project Server 2013 offers a solution that integrates with TFS work items.</p>
-<img class="ms-rteCustom-ImageArea" alt="Project Server 2010 pulls work items from TFS and updates the actual and remaining hours" src="/Management/RulestoBetterWorkItems/PublishingImages/tfs-timesheets.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Project Server 2013 pulls work items from TFS and updates the actual and remaining hours</span>
+<dl class="image"><dt>
+      <img class="ms-rteCustom-ImageArea" alt="Our Office Manager chasing up timesheets" src="/PublishingImages/chase-up-timesheets.jpg" />
+   </dt><dd>Figure&#58; Our Office Manager chasing up timesheets</dd></dl><p>The main problem is timesheet entry is often difficult, time consuming and requires double entry (e.g. into different systems TFS and invoicing system).</p><p>Project Server 2013 offers a solution that integrates with TFS work items.</p><dl class="goodImage"><dt>
+      <img class="ms-rteCustom-ImageArea" alt="Project Server 2010 pulls work items from TFS and updates the actual and remaining hours" src="/PublishingImages/tfs-timesheets.jpg" /> 
+   </dt><dd>Figure&#58; Project Server 2013 pulls work items from TFS and updates the actual and remaining hours</dd></dl>
+<p class="greyBox">If you want a timesheeting solution built on top of Microsoft CRM and TFS, call SSW on +61 2 9953 3000.</p>
 
 
