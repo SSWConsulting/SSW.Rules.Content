@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>When you decide to use VSTS 2012, you have the option to choose from different methodologies (aka. Process Templates). </p><p>Choosing the right template to fit into your environment is very important. If you think the built-in template is not going to fulfil your needs, customize it and create your own. At SSW, we have our own SSW.AgileTemplate to fit into our own development life cycle. 
+<p>When you decide to use TFS 2012, you have the option to choose from different methodologies (aka. Process Templates). </p><p>Choosing the right template to fit into your environment is very important. If you think the built-in template is not going to fulfil your needs, customize it and create your own. At SSW, we have our own SSW.AgileTemplate to fit into our own development life cycle. 
 </p>
 <br><excerpt class='endintro'></excerpt><br>
 
