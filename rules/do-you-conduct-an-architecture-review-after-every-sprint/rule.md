@@ -22,14 +22,11 @@ redirects:
 
 
 
-  <p>There are 2 main parts to any application. The UI which is what the customer can see and provide feedback on, and the underlying code which they really can't know if it is healthy or not.</p>
-<div>Therefore it is important to conduct a '<a href="/Management/RulesToSuccessfulProjects/Pages/TestPleaseFourSteps.aspx">test please</a>' on the internal code and architecture of the application. </div>
-<div>&#160;</div>
-<div>Ideally conduct a small 'Code + Architecture Review' for every sprint. Assuming a 2 week sprint, schedule a&#160;4 hour (2 architects x 2 hours) review during all sprints. </div>
+  <p>There are 2 main parts to any application. The UI which is what the customer can see and provide feedback on, and the underlying code which they really can't know if it is healthy or not.</p><p>Therefore it is important to conduct a '<a href="/do-you-know-the-tools-you-need-before-a-＂test-please＂">test please</a>' on the internal code and architecture of the application.</p><div>Ideally conduct a small 'Code + Architecture Review' for every sprint. Assuming a 2 week sprint, schedule a&#160;4 hour (2 architects x 2 hours) review during all sprints. </div>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>The following are items that are address in a architecture/code review&#58; </p>
+  <p>The following are items that are addressed in an architecture/code review&#58; </p>
 <p><strong>Background information/overview of the project</strong> </p>
 <ul>
     <li>Current system </li>
@@ -90,10 +87,10 @@ redirects:
     <li>Reliability (failover servers?) </li>
     <li>'Sellability' i.e. is the solution appropriate for the client? </li>
 </ul>
-<p><strong>Enterprise Architect </strong></p>
+<p><strong>Note&#58; If you are using Enterprise Architect, be aware of technical debt&#58;</strong></p>
 <ul>
-<li>should have a datetime of the last time the diagram was modified so we have an indication of when it is out of date</li>
-<li>should have the ability to mark items as ‘todo’. E.g. it would be nice to have an indication of which items on the diagrams have been completed, and which are still pending</li>
+<li>Add a datetime of the last time the diagram was modified so we have an indication of when it is out of date</li>
+<li>On your diagrams, be aware that some parts are done and some are not.</li>
 </ul>
 
 
