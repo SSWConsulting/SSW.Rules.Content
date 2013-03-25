@@ -32,7 +32,7 @@ The built-in Process Templates in TFS will not always fit into your environment,
 <br>
 <img class="ms-rteCustom-ImageArea" src="/Management/RulestoBetterWorkItems/PublishingImages/SSWAgile-RichText.jpg" alt="" /><br>
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good - Rich text has been enabled in the &quot;Description&quot; field to allow users to enter better text for the requirement</font><br>
-<br>
+Note&#58; the URL field is used in the  <a href="http&#58;//sharepoint.ssw.com.au/Products/TFSSmashingBarrier/Default.aspx">SSW Smashing Barrier </a>product<br>
 <br>
 <br>
 <br>
