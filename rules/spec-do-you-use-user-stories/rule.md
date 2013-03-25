@@ -19,7 +19,7 @@ redirects:
 ---
 
 
-&quot;User Stories&quot; is the new name for &quot;Scenarios&quot; in VSTS 2012, it allows you to collect your user requirements more easily by providing you a template for the title and streamlined UI. <br><br><font class="ms-rteCustom-GreyBox" size="+0" style="width&#58;542px;height&#58;70px;">As a {ltHTMLChar}type of User{gtHTMLChar}<br>I want {ltHTMLChar}some goal{gtHTMLChar}<br>so that {ltHTMLChar}some reason{gtHTMLChar}</font><br><font class="ms-rteCustom-FigureNormal">Figure&#58; User Story - template for title</font> 
+&quot;User Stories&quot; is the new name for &quot;Scenarios&quot; in TFS 2012, it allows you to collect your user requirements more easily by providing you a template for the title and streamlined UI. <br><br><font class="ms-rteCustom-GreyBox" size="+0" style="width&#58;542px;height&#58;70px;">As a {ltHTMLChar}type of User{gtHTMLChar}<br>I want {ltHTMLChar}some goal{gtHTMLChar}<br>so that {ltHTMLChar}some reason{gtHTMLChar}</font><br><font class="ms-rteCustom-FigureNormal">Figure&#58; User Story - template for title</font> 
 <br><excerpt class='endintro'></excerpt><br>
 <img alt="TFS2012UserStory.gif" src="/Management/RulestoBetterWorkItems/PublishingImages/TFS2012UserStory.gif" style="margin&#58;5px;width&#58;593px;" />&#160;<br><font class="ms-rteCustom-FigureNormal">Figure&#58; User Story - Product Backlog Item form</font><br>
 
