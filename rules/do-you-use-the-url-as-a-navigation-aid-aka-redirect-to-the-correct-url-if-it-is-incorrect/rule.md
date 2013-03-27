@@ -13,7 +13,8 @@ authors:
 
 
 
-<span class='intro'> <p>MVC gives us great URLs, but you need to help users navigate via the URL.  If the user changes a URL, and the route parameters no longer match, you should correct them with a redirect.</p> </span>
+<span class='intro'> <dl class="image"><iframe width="560" height="315" src="http&#58;//www.youtube.com/embed/1j3m4A9Tlhc" frameborder="0"></iframe> 
+<dd>Figure&#58; Watch the URL working as a navigation aid</dd></dl><p>MVC gives us great URLs, but you need to help users navigate via the URL.  If the user changes a URL, and the route parameters no longer match, you should correct them with a redirect.</p> </span>
 
 <dl class="image"><dt><div class="greyBox"><pre>public ActionResult Edit(string employeename, int id)
 &#123;
