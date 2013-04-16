@@ -15,8 +15,7 @@ related: []
 
 <p>When designing your form, you should try to help your user whenever it's possible. So it's a good idea to include the number of results in ComboBoxes.</p>
 <br><excerpt class='endintro'></excerpt><br>
-​
-<h3>For Web Pages</h3><dl class="goodImage"><dt> 
+​<span style="color&#58;#ff0000;font-family&#58;'segoe ui', 'trebuchet ms', tahoma, arial, verdana, sans-serif;font-size&#58;1.15em;line-height&#58;1.4;">For Web Pages</span><dl class="goodImage"><dt> 
       <img alt="Combo-box with multiple columns" src="/DesignandPresentation/RulestoBetterInterfacesControls/PublishingImages/combo-box-multiple-col.jpg" /> 
    </dt><dd>Figure&#58; Good example – combo-box with multiple columns</dd></dl> Feel free to use our sample&#58; 
 <ol><li>Download and install Kendo UI Controls from 
