@@ -25,6 +25,6 @@ related: []
 <div class="greyBox"><p>Hi PeterG</p><ol><li>Double check that executing stored procedures is is still an outstanding issue with EDMX </li><li>Add .txt file of same name with a link to the rule, so other developers know why you did this</li><li>In the .txt file, link to the UserVoice suggestion </li><li>In the .txt file, link to the rule on Rules to better LINQ </li><li>Make sure that actual rule links to the UserVoice (or Connect) suggestion too</li></ol></div>
 <font class="ms-rteCustom-FigureGood" size="+0">Good example - the different tasks are clear</font>
 
-<p><strong>See also</strong>&#58; <a href="/Communication/RulesToBetterEmail/Pages/SendTasksOneEmailAtATime.aspx">Do you send tasks one email at a time?</a></p>
+<p><strong>See also</strong>&#58; <a href="/Pages/SendTasksOneEmailAtATime.aspx">Do you send tasks one email at a time?</a></p>
 
 
