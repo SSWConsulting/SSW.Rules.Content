@@ -19,7 +19,7 @@ related: []
 <li>Expand the Networks section and you will see all of your network adapters listed</li>
 <li>Right click on the network that you are using for LAN and ISCSI and make sure that the following setting is selected</li>
 </ol>
-<img src="/ITAndNetworking/Rules-to-Better-Hyper-V-Clustering/PublishingImages/cluster-network.jpg" alt="Network properties window" class="ms-rteCustom-ImageArea" />
+<img src="/PublishingImages/cluster-network.jpg" alt="Network properties window" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Network properties window</span>
 
 <p>This setting prevents ISCSI and LAN traffic from going over the cluster network</p>
