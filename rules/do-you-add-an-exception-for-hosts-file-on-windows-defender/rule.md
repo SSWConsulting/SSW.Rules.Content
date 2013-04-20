@@ -18,7 +18,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <p>The relevant setting can be found under &quot;Settings, Excluded files and locations&quot;. Of course this also mean that the anti-virus program will no longer detect any malicious modifications to the HOSTS file.</p>
 
-<img src="/ITAndNetworking/RulestoBetterWindowsDefender/PublishingImages/Windows-Defender-settings.jpg" alt="Figure&#58; Window defender Settings" class="ms-rteCustom-ImageArea" style="width&#58;600px;" />
+<img src="/PublishingImages/Windows-Defender-settings.jpg" alt="Figure&#58; Window defender Settings" class="ms-rteCustom-ImageArea" style="width&#58;600px;" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Window defender Settings</span>
 
 
