@@ -15,9 +15,9 @@ related: []
 <p>Then you enable your Hyper-V role on your cluster.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
-<p>First refer to all rules listed in &quot;<a href="/ITAndNetworking/RulesToBetterHyperV/Pages/default.aspx">Rules to Better Hyper-V</a>&quot; as these are the basics for Hyper-V. </p>
-<img src="/ITAndNetworking/Rules-to-Better-Hyper-V-Clustering/PublishingImages/feature-matrix.jpg" alt="hyper-v feature matrix" class="ms-rteCustom-ImageArea" />
-<dd class="ms-rteCustom-FigureNormal">Figure&#58; The following rules are referring to the 2nd column on <a href="http&#58;//www.ssw.com.au/ssw/Consulting/HyperV.aspx">Hyper-V</a> (this also tells you why choose Hyper-V Live Migration over VMWare VMotion)</dd>
+<p>First refer to all rules listed in &quot;<a href="/rules-to-better-hyper-v" target="_blank">Rules to Better Hyper-V</a>&quot; as these are the basics for Hyper-V. </p>
+<img src="/PublishingImages/Feature-matrix.jpg" alt="hyper-v feature matrix" class="ms-rteCustom-ImageArea" />
+<dd class="ms-rteCustom-FigureNormal">Figure&#58; The following rules are referring to the 2nd column on <a href="http&#58;//www.ssw.com.au/ssw/Consulting/HyperV.aspx" target="_blank">Hyper-V</a> (this also tells you why choose Hyper-V Live Migration over VMWare VMotion)</dd>
 <p>Let's continue with the rules specially for clustering...</p>
 
 
