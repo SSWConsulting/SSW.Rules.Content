@@ -16,7 +16,7 @@ authors:
 
 <p>Sitefinity caches everything, checks licenses, creates in memory pages from the content in the DB, etc.<br>
                     There will be a lot of small quick query's against the Sitefinity SQL database and it is important that these remain quick.</p><ol><li>Only compile when you are sure your code will work. It is also a good idea to complete 2 or 3 different things that you can test upon a rebuild to save time.</li><li><p>Disable Sitefinity modules that you are not using or don't need.<br>
-                            We recommend disabling all modules and only enabling items that you require.</p><p>You can access the Module list via the Sitefinity backend.</p><dl class="image"><dt><img src="/WebSites/RulesToBetterSitefinity/PublishingImages/sitefinity-admin-module.jpg" alt="" /></dt><dd>Figure&#58; Administration -&gt; System -&gt; Modules</dd></dl></li><li>Ensure that the Sitefinity database is indexed and the Statistics are updated.<br>
+                            We recommend disabling all modules and only enabling items that you require.</p><p>You can access the Module list via the Sitefinity backend.</p><dl class="image"><dt><img src="/PublishingImages/sitefinity-admin-module.jpg" alt="" /></dt><dd>Figure&#58; Administration -&gt; System -&gt; Modules</dd></dl></li><li>Ensure that the Sitefinity database is indexed and the Statistics are updated.<br>
                             This will ensure that the Sitefinity query's remain quick&#58;<br>
                            <a href="http&#58;//www.sitefinity.com/devnet/kb/sitefinity-5-x/sitefinity-database-maintenance.aspx">Sitefinity Database maintenance</a>
 
