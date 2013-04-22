@@ -15,7 +15,7 @@ In a similar fashion to the <a shape="rect" href="/Communication/RulesToBetterPo
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/SSWQuestionMark.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/SSWQuestionMark.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use an &quot;?&quot; image to tell the presenter to ask a question (if you don't have an image - just use the &quot;?&quot; text) </dd>
 </dl>
 
