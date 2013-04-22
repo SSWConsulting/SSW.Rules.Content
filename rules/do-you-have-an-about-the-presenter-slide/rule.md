@@ -20,7 +20,7 @@ authors: []
 
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/aboutAdam.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/aboutAdam.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Talk about yourself after you know the audience a little. It is not great to bring up the 'About' slide too early</dd>
 </dl>
 
