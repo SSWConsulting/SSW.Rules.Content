@@ -18,7 +18,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/Todo.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/Todo.jpg" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Put your working &quot;TODO&#58;&quot; notes in red</dd>
 </dl>
 
