@@ -13,16 +13,15 @@ authors:
 
 
 
-<span class='intro'> In every Windows application project. We need to have a main form for a better structure and design. 
+<span class='intro'> In every Windows application project, we need to have a main, start-up or wizard page<span lang="EN-US" style="font-size&#58;11pt;font-family&#58;'calibri','sans-serif';"> </span> form for a better structure and design.
  </span>
 
-
-  <img class="ms-rteCustom-ImageArea" alt="Bad Project without Main Form" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/BadMainForm.gif" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img class="ms-rteCustom-ImageArea" alt="Good with Main Form" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/GoodMainForm.gif" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
-<table class="clsSSWProductTable" summary="Code Auditor">
+  <img src="/PublishingImages/BadMainForm.gif" alt="Bad Project without Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img src="/PublishingImages/GoodMainForm.gif" alt="Good with Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
+<table summary="Code Auditor" class="clsSSWProductTable">
     <tbody>
         <tr>
             <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx#VBMainForm">SSW Code Auditor</a> to check for this rule.
-            <p>Note&#58; In Code Auditor we check for Form named&#58; Startup, MainService, MainForm and WizardPage.</p>
+            <p>Note&#58; In Code Auditor we check for Form named&#58; Startup, MainForm and WizardPage.</p>
             </td>
         </tr>
     </tbody>
