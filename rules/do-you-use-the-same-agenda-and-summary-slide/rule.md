@@ -15,11 +15,11 @@ authors: []
 
   <p>At the end the Summary slide should be identical, and summarize what you just spoke about.</p>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/agenda.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/agenda.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Slide for agenda </dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/summary.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/summary.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Slide for summary (is the same as agenda) </dd>
 </dl>
 
