@@ -20,11 +20,11 @@ authors: []
     <li>Relevant to them </li>
 </ul>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/developer.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/developer.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Ask &quot;How many are developers here?&quot; </dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/manager.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/manager.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Ask &quot;How many are managers here?&quot; </dd>
 </dl>
 
