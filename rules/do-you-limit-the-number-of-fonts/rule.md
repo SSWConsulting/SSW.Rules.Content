@@ -23,11 +23,11 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="too many fonts used for headers" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/BadLimitFont.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="too many fonts used for headers" src="/PublishingImages/BadLimitFont.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - 2 fonts are used, 2 styles are used, and flourished type face used. This all makes your slide hard to read for the audience</dd>
 </dl>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/GoodLimitFont.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/GoodLimitFont.jpg" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Better Example - Even though there are a lot of words, the main ones are clear because there is only one font used, with color to emphasize</dd>
 </dl>
 
