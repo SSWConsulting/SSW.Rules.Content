@@ -16,7 +16,7 @@ Different layouts have different purposes. While the default layout is nice; it'
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/layout.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/layout.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Don't use the same layout for all slides, instead choose the right 'layout' for the each slide (this is called the layout library) </dd>
 </dl>
 
