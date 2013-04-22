@@ -18,17 +18,17 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/tagLine.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/tagLine.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Include a Logo and Tagline at the bottom of the 'slide master' for branding purposes</dd>
 </dl>
     <h2>More Information&#58; Do you know the way to add the tag line into slide master?</h2>
     <p>Adding the tag line and logo in the slide master will duplicate it automatically across all slides. This will dictate the size and font of text present on all slides. </p>
     <dl class="image">
-        <dt><img alt="" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/master-2.gif" /> </dt>
+        <dt><img src="/PublishingImages/master-2.gif" alt="" /> </dt>
         <dd>Figure&#58; Step 1 - Click 'Slide Master' button on the 'View' ribbon</dd>
     </dl>
     <dl class="image">
-        <dt><img alt="" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/master-3.gif" /> </dt>
+        <dt><img src="/PublishingImages/master-3.gif" alt="" /> </dt>
         <dd>Figure&#58; Step 2 - Add your Logo and Tagline at bottom of the slide </dd>
     </dl>
     
