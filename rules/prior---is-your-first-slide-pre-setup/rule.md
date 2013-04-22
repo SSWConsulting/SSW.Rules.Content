@@ -17,7 +17,7 @@ You may be a natural born public speaker, but you will not be able 'wing' a pres
 
   <p>So document the steps to undertake prior to starting and you will present in a snappier fashion and not need to say the lame statement &quot;hope the demo gods are kind to me today&quot;. </p>
 <dl>
-    <dt><img alt="" class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterPowerpointPresentations/PublishingImages/preslide.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/preslide.gif" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use a Pre-setup slide prior to the presentation and your pace will be snappier</dd>
 </dl>
 
