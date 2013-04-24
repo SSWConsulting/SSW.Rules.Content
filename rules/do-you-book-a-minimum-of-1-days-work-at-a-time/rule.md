@@ -16,7 +16,8 @@ redirects: []
 ---
 
 
-When booking in client work always make sure you ask the client to gather enough work for 8 hours of work. The minimum amount of time per booking is 8 hours. See Rules to Better Sales Account Management - <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#BookInAdvance">Do you book in a minimum of 1 day's work at a time?</a>
+When booking in client work always make sure you ask the client to gather enough work for 8 hours of work. The minimum amount of time per booking is 8 hours. See Rules to Better Sales Account Management - 
+<a href="/Management/RulesToSuccessfulSalesAndAccountManagement/Pages/Book-in-a-minimum-of-1-day-work-at-a-time.aspx">Do you book in a minimum of 1 day's work at a time?</a>
 <br><excerpt class='endintro'></excerpt><br>
 
 
