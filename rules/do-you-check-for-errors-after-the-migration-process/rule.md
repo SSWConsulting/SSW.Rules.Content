@@ -19,7 +19,7 @@ related: []
     Note #2&#58; If you have your own custom solutions, show this file to your developers to ensure it isn’t your custom solution causing the errors.</li>
     <li>Check your Application Event log after migration for errors related to your SharePoint Web Application, and fix these accordingly.</li>
 </ol>
-<p>&#160;<img alt="" src="/ITAndNetworking/SharePointMigration/PublishingImages/FixEventLogs.png" /><br>
+<p>&#160;<img src="/PublishingImages/FixEventLogs.png" alt="" /><br>
 <font class="ms-rteCustom-FigureBad" size="+0">figure&#58; the event log should show 0 errors after fixing the errors</font></p>
 
 <br><excerpt class='endintro'></excerpt><br>
