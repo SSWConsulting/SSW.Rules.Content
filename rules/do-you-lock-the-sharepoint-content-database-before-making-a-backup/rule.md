@@ -25,7 +25,7 @@ Even though you have advised staff members a migration is taking place – you c
 <p>1.&#160;&#160;&#160; On your database server open <b>SQL Server Management Studio</b></p>
 <p>2.&#160;&#160;&#160; Right click on the content database associated with the site collection your migrating | <b>Properties</b></p>
 <p>3.&#160;&#160;&#160; Choose <b>Options </b>| Scroll to the bottom of the options list</p>
-<p>4.&#160;&#160;&#160; For the <b>Database Read-Only</b> choose <b>True<img alt="" src="/ITAndNetworking/SharePointMigration/PublishingImages/LocLSQLDB.jpg" /></b><b><br>
+<p>4.&#160;&#160;&#160; For the <b>Database Read-Only</b> choose <b>True<img src="/ITAndNetworking/SharePointMigration/PublishingImages/LocLSQLDB.jpg" alt="" /></b><b><br>
 </b></p>
 <p><font class="ms-rteCustom-FigureNormal" size="+0">Figure - Database Properties | Options | Database-Read Only</font></p>
 <p>5.&#160;&#160;&#160; Now it’s safe to take a backup of your content database</p>
