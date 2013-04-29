@@ -13,6 +13,6 @@ authors:
 
 <span class='intro'> New jQuery versions are released regularly, but you shouldn't always use the latest version.<br> </span>
 
-<p>​If your site needs to support Internet Explorer 6, 7, and 8, you should not use the latest version of jQuery. &#160;You should use the latest version 1.9.x instead.</p><p>The jQuery authors made a decision to deprecate support for older versions of IE from version 2.0 onwards. &#160;Even though support for these browsers has been discontinued, the authors have commited to maintaining version 1.9 so it's safe to keep using it.</p>
+<p>​If your site needs to support Internet Explorer 6, 7, and 8, you should not use the latest version of jQuery. &#160;You should use the latest version 1.9.x instead.</p><p>The jQuery authors made a decision to deprecate support for older versions of IE from version 2.0 onwards. &#160;Even though support for these browsers has been discontinued, the authors have commited to maintaining version 1.9 so it's safe to keep using it.</p><p>For more information about the changes, see the <a href="http&#58;//blog.jquery.com/2013/04/18/jquery-2-0-released/">jQuery&#160;blog post about the version 2.0 release</a>.</p>
 
 
