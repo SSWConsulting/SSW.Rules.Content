@@ -39,7 +39,7 @@ event)</span>
 </span>
 <span lang="EN-AU">
 <br>
-<img src="/SoftwareDevelopment/RulesToBetterSharePoint/PublishingImages/ListValidation.jpg" /><br>
+<img src="/PublishingImages/ListValidation.jpg" alt="" /><br>
 </span>
 <span class="ms-rteCustom-FigureGood">
 <span lang="EN-AU">Good example&#58; using no code – just using the
@@ -47,29 +47,6 @@ field validation on a list</span>
 </span>
 <br>
 <style>
-.ExternalClass p.MsoNormal, .ExternalClass li.MsoNormal, .ExternalClass div.MsoNormal {
-margin:0cm;
-margin-bottom:.0001pt;
-font-size:11.0pt;
-font-family:'Calibri','sans-serif';
-}
-
-.ExternalClass a:link, .ExternalClass span.MsoHyperlink {
-color:blue;
-text-decoration:underline;
-}
-
-.ExternalClass span.MsoHyperlinkFollowed {
-color:purple;
-text-decoration:underline;
-}
-
-.ExternalClass .MsoChpDefault {
-font-size:10.0pt;
-}
-
-.ExternalClass div.Section1 {
-}
 </style>
 A demo of this from Andrew Connell on<span lang="EN-AU"><br>
 <a href="http&#58;//channel9.msdn.com/learn/courses/SharePoint2010Developer/ListsAndSchemas/FieldandListItemValidation/">http&#58;//channel9.msdn.com/learn/courses/SharePoint2010Developer/ListsAndSchemas/FieldandListItemValidation/</a>
