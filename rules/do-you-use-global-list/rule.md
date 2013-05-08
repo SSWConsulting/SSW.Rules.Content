@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p class="MsoListParagraph"><a name="OLE_LINK16"></a><a name="OLE_LINK15"></a>Global list could be referenced in multiple work item types, if you
+<p class="MsoListParagraph">​<a name="OLE_LINK16"></a><a name="OLE_LINK15"></a>Global list could be referenced in multiple work item types, if you
 are using the same list in different places and want to keep the drop down
 items con​sistent, global list is the best practise.&#160;</p>
 <br><excerpt class='endintro'></excerpt><br>
