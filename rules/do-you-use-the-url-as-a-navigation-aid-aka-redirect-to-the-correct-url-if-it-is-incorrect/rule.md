@@ -29,7 +29,8 @@ authors:
 
     return View(model);
 &#125;
-</pre></div>
-   </dt><dd>Figure&#58; Good example - the comment says it all</dd></dl>
+</pre></div></dt><dd><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example - the comment says it all</span></dd></dl>
+
+Wordpress and Stack Overflow&#160;have&#160;URL formats that&#160;do&#160;this very well&#58;<div><br></div><div><span class="ssw-rteStyle-CodeArea">http&#58;//tv.ssw.com/3102/business-value</span><span class="ssw-rteStyle-FigureGood">Good example&#58;&#160;If the &quot;business-value&quot; part of the URL changes, the page will redirect to the correct location.</span></div><div><br></div><div><span class="ssw-rteStyle-CodeArea">http&#58;//stackoverflow.com/questions/729921/settimeout-or-setinterval</span></div><div><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example -&#160;If the &quot;settimeout-or-setinterval&quot; part of th eURL changes, the page will redirect to the correct location.</span></div>
 
 
