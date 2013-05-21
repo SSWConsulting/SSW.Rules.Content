@@ -11,7 +11,7 @@ related: []
 ---
 
 
-<p>​Recording live video interviews on location can be difficult. The key to success is to make the process as simple as possible, so you continue to record and release interviews. </p>
+<p>​​Recording live video interviews on location can be difficult. The key to success is to make the process as simple as possible, so you continue to record and release interviews. </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>A good example of an effective but easy to record interview is&#58;</p>
 
