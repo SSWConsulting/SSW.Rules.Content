@@ -1,0 +1,20 @@
+---
+type: rule
+title: Do you publish simple websites directly to Windows Azure from Visual Studio Online?
+uri: do-you-publish-simple-websites-directly-to-windows-azure-from-visual-studio-online
+created: 2013-06-03T19:20:33.0000000Z
+authors:
+- id: 24
+  title: Adam Stephensen
+- id: 23
+  title: Damian Brady
+
+---
+
+
+
+<span class='intro'> <p>TFS and Windows Azure work wonderfully together. It only takes a minute to configure continuous deployment from Team Foundation Service (visualstudio.com) to a Windows Azure Web Site or Cloud Service.</p><p>This is by far the most simple method to achieve continuous deployment of your websites to Azure.</p> </span>
+
+<dl class="image"><dt><img src="/TFS/Rules-to-Better-Continuous-Deployment/PublishingImages/integrate-source-control.jpg" alt="" /></dt><dd>Figure&#58; Setting up deployment from source control is simple from within the Azure portal</dd></dl><dl class="image"><dt><img src="/TFS/Rules-to-Better-Continuous-Deployment/PublishingImages/where-source-code.jpg" alt="" /></dt><dd>Figure&#58; Deployment is available from a number of different source control repositories</dd></dl><p>Suggestion to Microsoft&#58; We hope this functionality comes to on premise TFS and IIS configurations in the next version.​​​</p>
+
+
