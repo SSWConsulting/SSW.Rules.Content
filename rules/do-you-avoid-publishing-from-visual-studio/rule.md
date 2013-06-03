@@ -13,8 +13,14 @@ related: []
 ---
 
 
-<p>Always Test Publishing from Visual Studio to the Destination Web Site before Deploying Automatically.</p>
+<p>Publishing from Visual Studio is a convenient way to deploy a web application, but it relies on a single developer’s machine which can lead to problems. Deploying to production should be easily repeatable, and able to be performed from different machines.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="/TFS/Rules-to-Better-Continuous-Deployment/PublishingImages/test-publish.jpg" alt="" /></dt><dd>Figure&#58; Publishing from Visual Studio verifies that you have correctly installed Web Deploy on the server and the Web Site is correctly configured. Server config issues are more easily found when deploying manually</dd></dl>
+<p>A better way to deploy is by using a defined Build in TFS.</p><dl class="badImage"><dt>
+      <img src="/PublishingImages/test-publish.jpg" alt="" />
+   </dt><dd>Figure&#58; Bad Example – Using Publish to deploy </dd></dl><dl class="goodImage"><dt>
+      <img src="/PublishingImages/queuing-new-build.jpg" alt="" />
+   </dt><dd>Figure&#58; Good Example – Queuing a new build to deploy your application</dd></dl><dl class="goodImage"><dt>
+      <img src="/PublishingImages/continuous-integration.jpg" alt="" />
+   </dt><dd>Figure&#58; Best example – Use continuous integration to trigger your Continuous Deployment build</dd></dl>
 
 
