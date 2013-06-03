@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>​You should not Install Web Deploy from the Web Platform Installer, but instead download the installation from the IIS web site (<a href="http&#58;//www.iis.net/downloads/microsoft/web-deploy" target="_blank">http&#58;//www.iis.net/downloads/microsoft/web-deploy</a>).</p>
+<p>​​You should not Install Web Deploy from the Web Platform Installer, but instead download the installation from the IIS web site (<a href="http&#58;//www.iis.net/downloads/microsoft/web-deploy" target="_blank">http&#58;//www.iis.net/downloads/microsoft/web-deploy</a>).</p>
 <p>The reason for this is that the Web Platform Installer does not install all of the components required for continuous deployment, but the downloaded package does.
 </p>
 <br><excerpt class='endintro'></excerpt><br>
