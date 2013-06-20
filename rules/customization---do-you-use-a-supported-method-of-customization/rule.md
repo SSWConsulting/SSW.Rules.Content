@@ -33,7 +33,7 @@ authors:
           The diagram below briefly outlines what are possible supported methods of customization.</p>
           <dl class="image">
             <dt>
-              <img src="/SoftwareDevelopment/RulesToBetterCRMForDevelopers/PublishingImages/CRM_CustomizationArchitectrue.jpg" alt=" Microsoft CRM Customization Architecture " /></dt>
+              <img alt=" Microsoft CRM Customization Architecture " src="/SoftwareDevelopment/RulesToBetterCRMForDevelopers/PublishingImages/CRM_Customization_Architecture.JPG" style="width&#58;623px;" /></dt>
             <dd>
               Figure&#58; Microsoft CRM Customization Architecture
             </dd>
