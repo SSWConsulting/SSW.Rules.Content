@@ -29,7 +29,7 @@ authors:
           </dt>
           <dd>
             Figure&#58; When developing reports don't go against the base tables - instead use the
-            filtered views of Microsoft CRM 3.0</dd>
+            filtered views of Microsoft CRM 4</dd></dl><p><span style="color&#58;#000000;text-transform&#58;none;text-indent&#58;0px;letter-spacing&#58;normal;word-spacing&#58;0px;float&#58;none;display&#58;inline !important;white-space&#58;normal;">In CRM 2011 using Filtered Views is enforced with data connector, direct access to tables and other views will be denied.</span></p><dl class="image">
         </dl>
 
 
