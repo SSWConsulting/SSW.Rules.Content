@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> When you want a Grid with filters, group by, totals and sorting, how do you do this (if all the data is in a list) ? 
+<span class='intro'> ​When you want a Grid with filters, group by, totals and sorting, how do you do this (if all the data is in a list) ? 
  </span>
 
 
