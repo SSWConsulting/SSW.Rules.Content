@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-When you want a Grid with filters, group by, totals and sorting, how do you do this (if all the data is in a list) ? 
+​When you want a Grid with filters, group by, totals and sorting, how do you do this (if all the data is in a list) ? 
 
 <br><excerpt class='endintro'></excerpt><br>
 
