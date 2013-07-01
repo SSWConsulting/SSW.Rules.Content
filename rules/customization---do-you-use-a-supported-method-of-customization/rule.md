@@ -25,7 +25,7 @@ authors:
             <li>Use the designer to add Entities and Forms (aka Tables and Forms)</li>
             <li>Write SQL Reporting Services Reports</li>
             <li>Write workflows with the CRM designer</li>
-            <li>Write workflows with VS.NET and .NET 3.0 WF (new in CRM 4.0)</li>
+            <li>Write workflows with VS.NET and .NET 3.0 WF (new since&#160;CRM 4.0)</li>
             <li>Write callouts with VS.NET (the extension points made available)</li>
           </ol>
 
@@ -33,7 +33,7 @@ authors:
           The diagram below briefly outlines what are possible supported methods of customization.</p>
           <dl class="image">
             <dt>
-              <img alt=" Microsoft CRM Customization Architecture " src="/SoftwareDevelopment/RulesToBetterCRMForDevelopers/PublishingImages/CRM_Customization_Architecture.JPG" style="width&#58;623px;" /></dt>
+              <img alt=" Microsoft CRM Customization Architecture " src="/PublishingImages/CRM_Customization_Architecture.JPG" style="width&#58;623px;" /></dt>
             <dd>
               Figure&#58; Microsoft CRM Customization Architecture
             </dd>
