@@ -56,5 +56,6 @@ index:
 
 ---
 
-​<br><br>
+<p>​Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.</p><p>Do you agree with them all? Are we missing some? Comment on individual rules, or 
+   <a tabindex="100" id="ctl00_SmartPart1_ctl00_feedbackHyperLink" class="email">email us</a>.</p>
 
