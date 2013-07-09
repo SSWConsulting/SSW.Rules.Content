@@ -56,5 +56,5 @@ index:
 
 ---
 
-Rules to being Software Consultants - Dealing with Clients
+​<br><br>
 
