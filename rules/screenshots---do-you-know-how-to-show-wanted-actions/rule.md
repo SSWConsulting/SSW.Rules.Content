@@ -21,9 +21,6 @@ related: []
 </ol>
 
 <br><excerpt class='endintro'></excerpt><br>
-<img src="/Communication/RulesToBetterEmail/PublishingImages/snagit-actions-bad.jpg" alt="Snagit Bad Example" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – There is no visual difference between different actions</span>
-<img src="/Communication/RulesToBetterEmail/PublishingImages/snagit-actions-good.jpg" alt="Snagit Good Example" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureBad">Figure&#58; Good example – This screenshot tells that the user should be on the &quot;Message&quot; tab, click on &quot;Attach File&quot; and edit the subject to be &quot;Button types&quot;</span>
+<dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/snagit-actions-bad.jpg" alt="Snagit Bad Example" class="ms-rteCustom-ImageArea" /></dl><dd class="ssw15-rteElement-FigureBad">&#160;​<span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;">Figure&#58; Bad example – There is no visual difference between different actions&#160;</span>​</dd><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/snagit-actions-good.jpg" alt="Snagit Good Example" class="ms-rteCustom-ImageArea" />​</dl><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example – This screenshot tells that the user should be on the &quot;Message&quot; tab, click on &quot;Attach File&quot; and edit the subject to be &quot;Button types&quot;​&#160;</dd>
 
 
