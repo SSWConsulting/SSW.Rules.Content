@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p><strong>Acceptance Tests</strong> (built by the developers) verify that the Acceptance Criteria are met.<br>
+<span class='intro'> <p><strong>​Acceptance Tests</strong> (built by the developers) verify that the Acceptance Criteria are met.<br>
 The goal is for teams to move beyond manual testing and implement automated testing <br>
 eg. CodedUI tests, Telerik Tests etc<br>
 &#160;Test cases answer the question, &quot;How do I test and what are the test steps?&quot;</p> </span>
