@@ -15,7 +15,7 @@ related: []
 ---
 
 
-​​​<p>Watch Adam Cogan explaining why you should use &quot;Open with Explorer&quot;​ over SkyDrive&#58;
+​​​<p>​Watch Adam Cogan explaining why you should use &quot;Open with Explorer&quot;​ over SkyDrive&#58;
 </p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify">
    <iframe width="640" height="360" src="http&#58;//www.youtube.com/embed/Fa5mHT5zu1k" frameborder="0"></iframe>&#160;</div>
 <br><excerpt class='endintro'></excerpt><br>
