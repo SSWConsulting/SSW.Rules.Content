@@ -13,21 +13,21 @@ related: []
 ---
 
 
-<p>Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians and plumbers to just work it out between themselves. The house *does* get built if the foreman is keeping everyone on their toes, making sure they are doing their job.&#160;&#160;</p>
+<p>Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians and plumbers to just work it out between themselves. The house *does* get built if the foreman is keeping everyone on their toes, making sure they are doing their job.&#160;&#160;</p><p>&#160;</p><p>Software teams often come with Project Manager. You can do better than that getting a Scrum Master.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<div>It's generally best for the Scrum Master not to be a member of the development team so that can stay objective, but in rare cases, you may need to use a Semi-Scrum Master like this.</div>
-<p>If you are using Scrum&#58;</p>
+<div>It's generally best for the Scrum Master *not* to be a member of the development team. This way they can stay objective and it creates more of a cerimony when they turn up.<br>Tip&#58; If they are trying to be a member of the development team and a Scrum Master, call them a 'Semi Scrum Master&quot; as they often don't do as good a job.</div><div>&#160;</div><div>Here is a common way a project goes with a Scrum Master involved&#58;</div>
+
 <ul><li>The sprint backlog is approved by the Product Owner (the customer)</li>
-<li>The Dev team is working to the sprint backlog (usually 2 weeks)The Scrum Master is ensuring the client is kept up-to-date (via the Review, Retro and Planning meetings) #1</li>
+<li>The Development team works on the sprint backlog (usually 2 weeks)... The Scrum Master is ensuring the client is kept up-to-date (via the Review, Retro and Planning meetings) #1</li>
 <li>The Scrum Master is ensuring the client is kept up-to-date (via the 4 reports) </li>
 <li>The Account Manager is booking in future sprints (after the Planning Meeting)</li>
 <li>The Account Manager invoices (usually every week).</li></ul>
-<p>If you are using the old waterfall method&#58;</p>
+<p>This is much better than the old waterfall method which goes like this&#58;</p>
 <ul><li>The specification is approved by the customer</li>
-<li>The Dev team is working to the specifications (for anywhere from 2 months to 2 years)</li>
+<li>The Development team is working to the specifications for some months&#160;(but can be from anywhere from 2 months to 2 years)</li>
 <li>The Project Manager is ensuring the client is kept up-to-date (via ad hoc meetings)</li>
 <li>The Account Manager sends invoices when milestones are met.<br></li></ul>
-<ul>Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians and plumbers to just work it out between themselves. The house *does* get built if the foreman is keeping everyone on their toes, making sure they are doing their job. </ul>
+
 <p>Insist that your Scrum Master (aka Project Manager)&#160;<a href="/Management/RulesToBetterScrumUsingTFS/Pages/MaintainStrictProjectSchedule.aspx">maintains a strict project schedule</a>. </p>
 <div class="scrum-GreyBox"><p><strong>#1 For Scrum Projects&#58;</strong></p>
 <p>In Scrum projects the role of project manager is split into three roles&#58; Scrum Master, Product Owner and Team. Each role is essential. </p></div>
