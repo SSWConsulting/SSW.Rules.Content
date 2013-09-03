@@ -21,10 +21,9 @@ We all know that a visual image can make a complex process easy to understand. H
    </dt><dd>Bad Figure&#58; This image doesn't include the review and the retro</dd></dl><dl class="badImage"><dt>
       <img width="650" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/SCRUMImage-good.jpg" alt="" /> 
    </dt><dd>OK Figure&#58; This Scrum image is OK because it includes all the important steps including the Review and the Retro</dd></dl><dl class="goodImage"><dt>
-      <a href="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8Steps.jpg" style="border-bottom-width&#58;medium;border-bottom-style&#58;none;">
-         <img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8Steps_preview.jpg" alt="" /></a> </dt><dd>Good Figure&#58; This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print this &quot;<a href="/Management/RulesToBetterScrumUsingTFS/Documents/8StepstoScrum.pdf">SSW 8 Steps to Scrum pdf</a>&quot; and put it on your 'War Room' wall.</dd></dl><dl class="image"><dt>
+      <img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/8Steps_preview.jpg" alt="" />​</dt><dd>Good Figure&#58; This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print this &quot;<a href="/Management/RulesToBetterScrumUsingTFS/Documents/8StepstoScrum.pdf">SSW 8 Steps to Scrum pdf</a>&quot; and put it on your 'War Room' wall</dd></dl><dl class="image"><dt>
       <img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/scrum-twitter.jpg" alt="" />
    </dt><dd>Figure&#58; If you like this, retweet 
-      <a href="http&#58;//twitter.com/#%21/AdamCogan/status/94109372908711936">http&#58;//twitter.com/#!/AdamCogan/status/94109372908711936</a></dd></dl>
+      <a href="https&#58;//twitter.com/AdamCogan/status/94109372908711936">t​witter.com/AdamCogan/status/94109372908711936</a></dd></dl>
 
 
