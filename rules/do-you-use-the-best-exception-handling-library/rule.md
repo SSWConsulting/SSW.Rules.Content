@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-<p>The best exception handling framework is ELMAH.</p><p>Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database.</p>
+<p>​The best exception handling framework is ELMAH.</p><p>Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​<span class="s1">ELMAH is the exception logger to use for web applications. From its 
       <a href="https&#58;//www.nuget.org/packages/ELMAH"> 
