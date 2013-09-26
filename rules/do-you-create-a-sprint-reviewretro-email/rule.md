@@ -23,7 +23,7 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
       <a href="/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-create-a-Sprint-Forecast-email.aspx">Sprint Forecast email </a></li><li>Screenshot of Burndown from TFS</li><li>Breakdown of work completed (including current code coverage value)</li><li>Link to test environment </li><li>Relevant notes from the retrospective</li></ul><div class="greyBox"><p>Hi [Product Owner], </p><p>Sprint in Review&#58; [Sprint Number] 
       <br>Sprint Duration&#58; [Number of weeks] 
       <br>Project&#58; [Project Name] 
-      <br>Project Portal&#58; [Link to project Portal]<br>Test Environment&#58; [Link to test environment]<br>Code Coverage&#58; [Code coverage value from Visual Studio]<br>Product Owner&#58; [Product Owner Name] </p><p>Attendees&#58; 
+      <br>Project Portal&#58; [Link to project Portal]<br>Test Environment&#58; [Link to test environment]\<br>Product Owner&#58; [Product Owner Name] </p><p>Attendees&#58; 
       <em>(Optional as they may be in the to and CC)</em></p><p>&#160;</p><h3 class="ssw15-rteElement-H3">Sprint Review</h3><p>&#160;</p><table><tbody><tr><td> 
                <strong>ID</strong></td><td> 
                <strong>Title</strong></td><td> 
