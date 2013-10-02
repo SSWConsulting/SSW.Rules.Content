@@ -75,8 +75,7 @@ authors:
                 during a project where newly discovered work, delays, or other work outside the
                 initial scope is required.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
             <p>
-                Next - now run your project better with <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulestoBetterProjectManagement.aspx">
-                    Rules to Successful Project Management</a>.
-            </p>
+                Next - now run your project better with 
+                    <a href="/Management/RulesToBetterScrumUsingTFS/Pages/default.aspx">Rules to Better Scrum Using TFS</a>            </p>
 
 
