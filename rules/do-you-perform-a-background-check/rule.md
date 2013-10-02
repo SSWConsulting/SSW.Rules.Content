@@ -17,8 +17,8 @@ redirects: []
 
 
 <p>
-                    If you do not have a system for ranking all the potential clients who come knocking on your door, you will be open to accepting a troublesome client or two and a whole heap of headaches.
-                    You could ask if they have any references from other companies, but a less drastic, and less confrontational check is a quick Google search.
+                    Not all clients are created equal, and sometimes it's a good idea to do a quick risk assessment before commencing work.</p><p>If you do not have a system for ranking all the potential clients who come knocking on your door, you may be open to accepting a troublesome client or two and a whole heap of headaches.
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p><p>The easiest method is a quick Google search.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul>
