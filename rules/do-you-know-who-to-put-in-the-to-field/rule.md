@@ -15,7 +15,7 @@ authors:
  </span>
 
 
-  <img class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterEmail/PublishingImages/SearchTask.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad example, Mark can’t search for tasks that have been assigned to him</font> <img class="ms-rteCustom-ImageArea" src="/Communication/RulesToBetterEmail/PublishingImages/FilterEmail.jpg" alt="" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example, Mark can filter his emails based on wither his name is on the TO field.</font>
+  <img class="ms-rteCustom-ImageArea" src="/PublishingImages/SearchTask.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad example, Mark can’t search for tasks that have been assigned to him</font> <img class="ms-rteCustom-ImageArea" src="/PublishingImages/FilterEmail.jpg" alt="" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example, Mark can filter his emails based on whether his name is on the TO field.</font>
 
 
 
