@@ -27,23 +27,8 @@ authors:
                     <li>* Option 5 is a Virtual Machine Self hosted (Win 8 + Hyper-V being the latest stack) – with internal network connection shared up between host and guest. Host IE10 and Outlook 2013 on Win 8 offer best user/demo experience.</li>
                 </ul> </span>
 
-<p>You should be able to show&#58;</p>
-                <ul>
-                    <li>Accounts (aka Companies)</li>
-                    <li>Contacts</li>
-                    <li>Sales (aka Leads and Invoicing and Quoting)</li>
-                    <li>Marketing (aka Campaigns)</li>
-                    <li>Service (aka Support)</li>
-                    <li>Mail Merge</li>
-                </ul>
-                <dl class="image">
-                    <dt><img src="/SoftwareDevelopment/RulesToBetterCRMForDevelopers/PublishingImages/CRMscreenshot.jpg" alt="" /></dt>
-                    <dd>Figure&#58; Outlook 2007 with the CRM plugin</dd>
-                </dl>
-                <dl class="image">
-                    <dt><img src="/SoftwareDevelopment/RulesToBetterCRMForDevelopers/PublishingImages/CRM-2013-screenshot.jpg" alt="" /></dt>
-                    <dd>Figure&#58; Outlook 2013 with the CRM plugin</dd>
-                </dl>
-
+<p>You should be able to show&#58;</p><ul><li>Accounts (aka Companies)</li><li>Contacts</li><li>Sales (aka Leads and Invoicing and Quoting)</li><li>Marketing (aka Campaigns)</li><li>Service (aka Support)</li><li>Mail Merge</li></ul><dl class="image"><dt>
+      <img src="/PublishingImages/CRM-2013-screenshot.jpg" alt="" />
+   </dt><dd>Figure&#58; Outlook​ with the CRM plugin</dd></dl>
 
 
