@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-Carrying your laptop with the right stuff installed is not enough.&#160;<br>
+​Carrying your laptop with the right stuff installed is not enough.&#160;<br>
 <br>
 Not only software, carrying your own hardware and peripherals will save you hours one day&#58; <br>
 <br>
@@ -51,7 +51,7 @@ Here are the things you should also physically carry&#58;
 <br>
 If you need to quickly share something with your mate&#58; </p>
 <ul>
-    <li>Use a thumb drive that you carry as per <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBeingSoftwareConsultantsWorkingInATeam.aspx#ThumbDrive">Rules to better Software Consultants - Carry a thumb drive</a> </li>
+    <li>Use a thumb drive that you carry as per <a href="/management/rules-to-better-software-consultants-working-in-a-team/pages/default.aspx#ThumbDrive">Rules to better Software Consultants - Carry a thumb drive</a> </li>
     <li>Setup a wireless ad hoc network as per <a href="http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/">http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/</a> </li>
 </ul>
 <p>&#160;</p>
