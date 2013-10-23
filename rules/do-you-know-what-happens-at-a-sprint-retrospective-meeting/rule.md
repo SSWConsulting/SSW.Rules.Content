@@ -25,7 +25,7 @@ redirects: []
 <div>The Scrum Master facilitates the meeting and&#160;collects issues as they are raised.&#160;Once every Scrum Team Member has spoken he&#160;facilitates debate on each issue&#160;so that team consensus is achieved.&#160; The result should produce an actionable outcome, for&#160;example&#58;</div>
 <ul>
     <li>An adjustment&#160;is made to the daily processes followed by the Scrum Team</li>
-    <li>An adjustment is made to the <a href="/Management/RulesToBetterScrumUsingTFS/Pages/RetrospectiveMeeting.aspx">Definition of Done</a></li>
+    <li>An adjustment is made to the <a href="/Pages/RetrospectiveMeeting.aspx">Definition of Done</a></li>
     <li>An adjustment is made at the organisation level</li>
     <li>An item is added to the Product Backlog</li>
 </ul>
@@ -38,16 +38,16 @@ redirects: []
 <p>For example the Scrum Master can find User Stories in the Sprint that were successful / not successful and then facilitate the discussion as to why.
 </p>
 
-<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-1.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="/PublishingImages/retrospective-meeting-1.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the Sprint Backlog for items which are Not Done at the end of a Sprint</dd></dl>
 
-<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-2.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="/PublishingImages/retrospective-meeting-2.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the team’s velocity over multiple Sprints</dd></dl>
 
-<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-3.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="/PublishingImages/retrospective-meeting-3.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the team’s Sprint Burndown for insight into how work progressed through the Sprint</dd></dl>
 
-<dl class="image"><dt><img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/retrospective-meeting-4.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="/PublishingImages/retrospective-meeting-4.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the team’s Code Coverage to for an insight into code quality</dd></dl>
 
 <p>Once all issues have been discussed to the satisfaction of The Scrum Team, the meeting concludes.<br>
@@ -56,12 +56,11 @@ If the timebox limit is reached, the remaining issues should be recorded and dea
 <br>
 The time-box for this meeting is usually as many hours as weeks in the Sprint.</p>
 <br>
-<font size="+0" class="ms-rteCustom-GreyBox">In Scrum, there are totally 4 meetings that you need to know&#58;
+<font size="+0" class="ms-rteCustom-GreyBox">In Scrum, there are 4 meeting​s in total&#160;that you need to know about&#58;
 <ul>
-    <li>Sprint Planning Meeting (we separate this meeting to two parts&#58; <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning(WHAT)Meeting.aspx" title="Sprint Planning (WHAT) Meeting">WHAT</a> and <a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanningMeeting.aspx">HOW</a>) </li>
-    <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyScrumUpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a> </li>
-    <li><a shape="rect" href="/Management/RulesToBetterScrumUsingTFS/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
-    <li>Sprint Retrospective Meeting </li>
+    <li><a href="/Pages/SprintPlanningMeeting.aspx" title="Sprint Planning Meeting">Sprint Planning Meeting</a></li><li><a shape="rect" href="/Pages/DailyScrumUpdateTasks.aspx" title="Update tasks before Daily Scrum Meeting">Scrum Meeting (Daily standup)</a></li>
+    <li><a shape="rect" href="/Pages/SprintReviewMeeting.aspx" title="Sprint Review Meeting">Sprint Review Meeting</a> </li>
+    <li>Sprint Retrospective Meeting (Described on this page)​</li>
 </ul>
 </font>
 
