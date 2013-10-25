@@ -13,13 +13,10 @@ related: []
 ---
 
 
-
-  <p>Often you will receive rich information from your Product Owner (Customer) about tasks. That information can be in the form of Word documents, HTML Emails and Pictures, but you generally receive them in the context of an Email.</p>
-<p>You need to keep these so your Team can refer to it later, and so you can send a “done” when the task has been completed. This preserves the “history” of the task and allows you to keep relevant partied included in any future conversation.</p>
-
+<p>Often you will receive rich information from your Product Owner (Customer) about tasks. That information can be in the form of Word documents, HTML Emails and Pictures, but you generally receive them in the context of an Email. This should be done by one person called the scribe.​</p><div class="greyBox"><h3>The Scribe will&#58;</h3><ol><li>take screenshots and notes</li><li>turn them into multiple emails</li><li>add them into the backlog with Team Companion (can be added directly into TFS on Web Browser)</li></ol></div>
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>Keep the original email so that you can <a shape="rect" target="_blank" href="/Communication/RulesToBetterEmail/Pages/DoneReplyAndDeleteEmail.aspx"><font color="#000080">reply DONE and delete the email</font></a>.</p>
+  <p>You need to keep these so your Team can refer to it later, and so you can send a “done” when the task has been completed. This preserves the “history” of the task and allows you to keep relevant partied included in any future conversation.</p><p>Keep the original email so that you can <a shape="rect" target="_blank" href="/Communication/RulesToBetterEmail/Pages/DoneReplyAndDeleteEmail.aspx"><font color="#000080">reply DONE and delete the email</font></a>.</p>
 <p>But keeping it in your email does not help other members of the team if they complete the task and need to send the “done”.</p>
 <p>Worse yet, the description field in Team Foundation Server 2010 (TFS 2010) does not support HTML and images, nor does the default task template support an “interested parties” or CC field. You can attach this content manually, but it can be time consuming.</p>
 <p><strong>More information&#58;</strong></p>
