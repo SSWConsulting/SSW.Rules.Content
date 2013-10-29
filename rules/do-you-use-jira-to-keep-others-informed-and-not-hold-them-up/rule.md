@@ -11,14 +11,14 @@ related: []
 ---
 
 
-Summary&#58;&#160; <a target="_blank" class="ms-rteCustom-External" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" shape="rect">Login&#160;</a>&#160;to Jira and clear the issues from the top left of your dashboard usually by answering a question or closing.<br>
+Summary&#58;&#160; Login&#160;&#160;to Jira and clear the issues from the top left of your dashboard usually by answering a question or closing.<br>
 <br>
 Jira issues can enter states where it is important that action is taken immediately by either the Reporter or the Assignee.&#160; These actions are always quick to do but keep others informed and keep the workflow going. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <br>
-Any issues that require your immediate attention appear at the top of the left-hand column (see screenshot later) of your <a target="_blank" class="ms-rteCustom-External" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" shape="rect">dashboard</a>.&#160; Following this rule will ensure that the Reporter always knows the status, priority&#160;and plan for the issue resolution and the Assignee is never help up by the Reporter; this empowers you to &quot;work efficiently on the right things in a visible way&quot;.<br>
+Any issues that require your immediate attention appear at the top of the left-hand column (see screenshot later) of your dashboard.&#160; Following this rule will ensure that the Reporter always knows the status, priority&#160;and plan for the issue resolution and the Assignee is never help up by the Reporter; this empowers you to &quot;work efficiently on the right things in a visible way&quot;.<br>
 <br>
 In the SSW Jira implementation, there are six situations where action is required by you swiftly and these&#160;appear on your dashboard in one&#160;or more of&#160;six filters&#58;<br>
 &#160;
@@ -76,16 +76,16 @@ In the SSW Jira implementation, there are six situations where action is require
     </tbody>
 </table>
 <br>
-NOTE&#58; Most people will only have Reporter actions to perform. <a href="/Management/RulesToBetterJira/Pages/ReportesAndAssignees.aspx" shape="rect">Understand more about Reporters and Assignees</a> <br>
+NOTE&#58; Most people will only have Reporter actions to perform. <a href="/Pages/ReportesAndAssignees.aspx" shape="rect">Understand more about Reporters and Assignees</a> <br>
 <br>
-<img width="727" height="405" src="/Management/RulesToBetterJira/PublishingImages/Urgent.png" alt="" style="width&#58;703px;height&#58;385px;" /> <strong>Figure&#58; Your <a target="_blank" class="ms-rteCustom-External" href="http&#58;//jira.ssw.com.au/secure/Dashboard.jspa" shape="rect">dashboard</a> is your Home Page when you </strong><strong><a href="/Management/RulesToBetterJira/Pages/HowdoIsignintoJira.aspx" shape="rect"><strong>login like this </strong></a></strong><strong>and clearly shows the issues that need your immediate attention <br>
+<img width="727" height="405" src="/PublishingImages/Urgent.png" alt="" style="width&#58;703px;height&#58;385px;" /> <strong>Figure&#58; Your dashbo​ard is your Home Page when you </strong><strong><a href="/Pages/HowdoIsignintoJira.aspx" shape="rect"><strong>login like this </strong></a></strong><strong>and clearly shows the issues that need your immediate attention <br>
 </strong><br>
 For guidance on dealing with issues check out&#160;our other rules&#58;<br>
 <br>
-<a href="/Management/RulesToBetterJira/Pages/HowdoIansweraquestioninJira.aspx" shape="rect">Answering<br>
-</a><a href="/Management/RulesToBetterJira/Pages/SystemDashboard.aspx" shape="rect">SSW Dashboard</a><br>
-<a href="/Management/RulesToBetterJira/Pages/ReportesAndAssignees.aspx" shape="rect">Reporters and Assignees</a><br>
-<a href="/Management/RulesToBetterJira/Pages/workflow.aspx" shape="rect">SSW Workflow</a><br>
+<a href="/Pages/HowdoIansweraquestioninJira.aspx" shape="rect">Answering<br>
+</a><a href="/Pages/SystemDashboard.aspx" shape="rect">SSW Dashboard</a><br>
+<a href="/Pages/ReportesAndAssignees.aspx" shape="rect">Reporters and Assignees</a><br>
+<a href="/Pages/workflow.aspx" shape="rect">SSW Workflow</a><br>
 <a href="/Management/RulesToBetterJira" shape="rect">Jira Rules Page</a> 
 
 
