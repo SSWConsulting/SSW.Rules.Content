@@ -13,6 +13,6 @@ authors: []
 
 ​<div>This lets the users see what is available and what isn't, without being overbearing.</div>
 <dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadScanOptions.gif" alt="" /></dt>
-<dd>Good Example&#58; The &quot;Check broken links&quot; checkbox in this case is not an option, but showing it gives the user context</dd></dl>
+<dd>Figure&#58; Good Example - The &quot;Check broken links&quot; checkbox in this case is not an option, but showing it gives the user context</dd></dl>
 
 
