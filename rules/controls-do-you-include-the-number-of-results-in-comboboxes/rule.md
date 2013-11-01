@@ -16,11 +16,12 @@ redirects: []
 
 <p>When designing your form, you should try to help your user whenever it's possible. So it's a good idea to include the number of results in ComboBoxes.</p>
 <br><excerpt class='endintro'></excerpt><br>
-​<span style="color&#58;#ff0000;font-family&#58;'segoe ui', 'trebuchet ms', tahoma, arial, verdana, sans-serif;font-size&#58;1.15em;line-height&#58;1.4;">For Web Pages</span><dl class="goodImage"><dt> 
-      <img alt="Combo-box with multiple columns" src="/DesignandPresentation/RulestoBetterInterfacesControls/PublishingImages/combo-box-multiple-col.jpg" /> 
+​<span style="color&#58;#ff0000;font-family&#58;'segoe ui','trebuchet ms',tahoma,arial,verdana,sans-serif;font-size&#58;1.15em;line-height&#58;1.4;">For Web Pages</span>
+<dl class="goodImage"><dt>
+      <img alt="Combo-box with multiple columns" src="/PublishingImages/combo-box-multiple-col.jpg" />
    </dt><dd>Figure&#58; Good example – combo-box with multiple columns</dd></dl> Feel free to use our sample&#58; 
 <ol><li>Download and install Kendo UI Controls from 
-      <a href="http&#58;//www.kendoui.com/" target="_blank">Kendo UI</a></li><li>
+      <a href="http&#58;//www.kendoui.com/" target="_blank">Kendo UI</a></li><li> 
       <strong>HTML (Razor)</strong><br> Create a combo-box that has a custom template. Use a code bellow as an example&#58; 
       <div class="greyBox"><pre>@(Html.Kendo().ComboBoxFor(x ={gtHTMLChar} x.EmpTime.ProjectID)
     .AutoBind(true)
@@ -47,7 +48,7 @@ redirects: []
     .Events(e ={gtHTMLChar} e.Change(&quot;projectChanged&quot;).Open(&quot;onProjectOpened&quot;))
 )
 
-</pre></div></li><li>
+</pre></div></li><li> 
       <strong>CSS</strong><br> Customize the look &amp; feel to suit your needs. 
       <div class="greyBox"><pre>#projectsTableBorder &#123;
         border-bottom&#58; 1px solid rgb(217, 217, 217);
@@ -77,7 +78,7 @@ redirects: []
         cursor&#58; pointer;
         text-decoration&#58; underline;
     &#125;
-</pre></div></li><li>
+</pre></div></li><li> 
       <strong>JavaScript</strong><br> Use JavaScript to change the combo-box's behaviour. 
       <div class="greyBox"><pre>// resize the drop-down list
 function resizeComboBoxList(comboBoxListId, width) &#123;
@@ -132,6 +133,7 @@ $(document).ready(function() &#123;
    
     // prepend header to combo-box list. By default you only get {ltHTMLChar}ul{gtHTMLChar}
     $(&quot;
+            
             <div id="projectsTableBorder" class="comboBox-Projects">Project Name{ltHTMLChar}/td{gtHTMLChar}&quot; +
         &quot;{ltHTMLChar}td id='projectTotalCountHeader' class='projectTotalCount'{gtHTMLChar}Used{ltHTMLChar}/td{gtHTMLChar}&quot; +
         &quot;{ltHTMLChar}td id='projectLastUsedHeader' class='projectLastUsed'{gtHTMLChar}Last Used{ltHTMLChar}/td{gtHTMLChar}&quot; +
@@ -145,14 +147,15 @@ $(document).ready(function() &#123;
     onClick_ColumnHeader('#projectLastUsedHeader', projectsId, &quot;LastUsedValue&quot;);
 &#125;);
 &#125;);
- </div></pre></div></li></ol><h3>For Windows Forms</h3><dl class="badImage"><dt> 
-      <img alt="Options Form - ComboBox without Result Count" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ComboWF-1.jpg" /> 
-   </dt><dd>Figure&#58; Bad Example - You can't tell the number of results and there is a scroll bar</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Options Form - ComboBox with Result Count" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ComboWF-2.jpg" /> 
-   </dt><dd>Figure&#58; Good Example - The number of results is clearly displayed. Long text boxes {gtHTMLChar} 30 entries, another approach can be employed - putting the common ones at the top</dd></dl><dl class="badImage"><dt> 
-      <img alt="Long Text ComboBox" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Rule38LongTextCombobox.jpg" /> 
-   </dt><dd>Figure&#58; Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries</dd></dl><dl class="badImage"><dt> 
-      <img alt="Sortable ComboBox" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/rule38SortableCombobox.jpg" /> 
-   </dt><dd>Figure&#58; Bad Example – This was a highly unpopular method of the sorting and counting above</dd></dl><div>We believe all combos should be able to be sorted ascending/descending and by popularity asc/desc.</div>
+ </div></pre></div></li></ol><h3>For Windows Forms</h3><dl class="badImage"><dt>
+      <img alt="Options Form - ComboBox without Result Count" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ComboWF-1.jpg" />
+   </dt><dd>Figure&#58; Bad Example - You can't tell the number of results and there is a scroll bar</dd></dl><dl class="goodImage"><dt>
+      <img alt="Options Form - ComboBox with Result Count" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ComboWF-2.jpg" />
+   </dt><dd>Figure&#58; Good Example - The number of results is clearly displayed. Long text boxes {gtHTMLChar} 30 entries, another approach can be employed - putting the common ones at the top</dd></dl><dl class="badImage"><dt>
+      <img alt="Long Text ComboBox" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Rule38LongTextCombobox.jpg" />
+   </dt><dd>Figure&#58; Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries</dd></dl><dl class="badImage"><dt>
+      <img alt="Sortable ComboBox" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/rule38SortableCombobox.jpg" />
+   </dt><dd>Figure&#58; Bad Example – This was a highly unpopular method of the sorting and counting above</dd></dl><div>We believe all combos should be able to be sorted ascending/descending and by popularity asc/desc.<br>
+   <dl class="goodImage"><dt><img alt="sort-alpha-numeric.jpg" src="/PublishingImages/sort-alpha-numeric.jpg" style="margin&#58;5px;width&#58;324px;" /></dt><dd>Figure&#58; Good Example - Is there a better way to sort this?</dd></dl></div>
 
 
