@@ -13,7 +13,7 @@ related: []
 ---
 
 
-Enter Intro <span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.796875px;">Before running the migration process, you should backup everything on your existing CRM 3 server&#58;</span>
+<span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.796875px;">​Before running the migration process, you should backup everything on your existing CRM 3 server&#58;</span>
 <br><excerpt class='endintro'></excerpt><br>
 <p><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.796875px;">Including operation system, databases, callouts...If the upgrading process is failed, you have to re-install CRM 3 from scratch. So it's very important that you backup everything and give an early warning to yourself​.</span></p>
 
