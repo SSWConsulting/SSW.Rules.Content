@@ -17,7 +17,7 @@ authors:
 
 <span class='intro'> Instructions are&#160;very important when maintaining a project. With this document, people new to it can take over it quickly. This document should be created at the beginning of a project and make sure it's updated gradually. ​​ </span>
 
-<p>We recommend that you add a document as a solution item and name it '_Instructions.docx'. <br></p>
+<p>We recommend that you add a document as a solution item and name it '_Instructions.docx'. <br></p><p class="ssw15-rteElement-Reference">​​​Tip&#58; Microsoft Word documents are preferred over .txt files because images and formatting are important<br></p>
 <p>You can also break up this document into 4 smaller documents</p>
 <ul><li>_Business.docx - Explaining the business purpose of the app</li>
 <li>_Instructions_Compile.docx - Contains instructions on how to get the project to compile</li>
@@ -31,7 +31,7 @@ architecture decisions, 3rd party utilities, patterns followed etc</li></ul>
 <li>Other configuration information</li>
 <li>FTP information and Deployment procedure </li>
 <li>Other things to take care of </li></ol>
-<dl class="badImage"><dt><img border="0" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/BadNetProject.JPG" alt="A project with an instructions" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;-moz-use-text-color;" /> </dt>
+<dl class="badImage"><dt><img border="0" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/BadNetProject.JPG" alt="A project with an instructions" style="border-width&#58;0px;border-style&#58;solid;" /> </dt>
 <dd>Bad example - A project without an instructions. </dd></dl>
 <dl class="goodImage"><dt><img alt="Good Solutions Have Instructions" src="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/PublishingImages/ProjectDocumentation.jpg" /></dt>
 <dd>Good example - A project with instruction. </dd></dl>
