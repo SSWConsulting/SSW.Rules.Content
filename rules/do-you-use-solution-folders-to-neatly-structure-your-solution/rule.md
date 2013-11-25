@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-All the DLL references and files needed to create a setup.exe should be included in your solution. However, just including them as solution items is not enough, they will look very disordered (especially when you have a lot of solution items). And from the screenshot below, you might be wondering what the _Instructions.docx&#160;is used for... 
+​All the DLL references and files needed to create a setup.exe should be included in your solution. However, just including them as solution items is not enough, they will look very disordered (especially when you have a lot of solution items). And from the screenshot below, you might be wondering what the _Instructions.docx&#160;is used for... 
 
 <br><excerpt class='endintro'></excerpt><br>
 
