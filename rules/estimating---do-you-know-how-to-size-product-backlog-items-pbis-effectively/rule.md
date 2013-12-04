@@ -19,7 +19,7 @@ related: []
 ---
 
 
-<p>​It is very important for teams to estimate tasks effectively.&#160; There are several methods for estimating&#58; </p><ul><li>Shirt Sizes</li><li>Fibonacci Extended (1-100)</li><li>Fibonacci Original&#160;(1-21)</li><li>Doubling</li><li>Thown </li></ul>
+<p>A team knows how many stories they can commit to my measuring their velocity.&#160; The Team estimates the highest priority stories in the Product Backlog in Story Points. ​It is very important for teams to estimate tasks effectively.&#160; There are several methods for estimating&#58; </p><ul><li>Shirt Sizes</li><li>Fibonacci Extended (1-100)</li><li>Fibonacci Original&#160;(1-21)</li><li>Doubling</li><li>Thown </li></ul>
 
 <br><excerpt class='endintro'></excerpt><br>
 <p>Let's go through them&#58;​</p><h3>Shirt Sizes</h3><p>This method is popular with Microsoft teams, but it has the problem of not easily mapping to the common 7 numbers when you enter it into a Task tracking Bug database. eg.</p><blockquote dir="ltr" style="margin-right&#58;0px;"><p>1 = XS<br>2 = S<br>3 = M<br>5 = L<br>8 = XL<br>13 = ?<br>21 = XXL</p></blockquote><dl class="badImage"><dt> 
@@ -33,7 +33,7 @@ related: []
                <strong></strong></td></tr><tr><td>1</td><td></td></tr><tr><td>2</td><td></td></tr><tr><td>4</td><td></td></tr><tr><td>8</td><td></td></tr><tr><td>16</td><td></td></tr><tr><td>32</td><td></td></tr><tr><td>64</td><td></td></tr></tbody></table></div> 
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example -Doubling simplifies relative sizing</font> 
 <h3>Thown </h3><p>Another method of estimating is the &quot;Thrown method&quot; as described Martin Fowler. 
-   <a href="http&#58;//martinfowler.com/bliki/ThrownEstimate.html">http&#58;//martinfowler.com/bliki/ThrownEstimate.html</a></p><p>This is particularly useful if you don't have Planning Poker cards.&#160; Instead of Fibonacci numbers, estimates are from 1 to 5.&#160; It's nice and simple, and you only need the fingers on your hand.</p><p>The action is done in the same method as the game 'Rock, Paper, Scissors'. The options the developer can estimate is 1,2,3,4,5</p><dl class="image"><dt> 
+   <a href="http&#58;//martinfowler.com/bliki/ThrownEstimate.html">http&#58;//martinfowler.com/bliki/ThrownEstimate.html</a> <img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /></p><p>This is particularly useful if you don't have Planning Poker cards.&#160; Instead of Fibonacci numbers, estimates are from 1 to 5.&#160; It's nice and simple, and you only need the fingers on your hand.</p><p>The action is done in the same method as the game 'Rock, Paper, Scissors'. The options the developer can estimate is 1,2,3,4,5</p><dl class="image"><dt> 
       <img class="ms-rteCustom-ImageArea" src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/fist-method.jpg" alt="" /> 
    </dt><dd>Figure&#58; User Story estimates using the &quot;Thown method&quot;</dd></dl><h3>Other Tips&#58;</h3><p><strong>#1 Don't&#160;Shout Out</strong><br> It will just influence other peoples votes.</p><p>
    <strong>#2 Guidelines for Estimating User Stories (aka Anchoring)</strong> 
@@ -43,6 +43,6 @@ related: []
    <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - Example User Story estimates</font> </blockquote><p>
    <strong>#3&#160;Using a Chat Program</strong><br> If you are working on a project with a remote team, use&#160;Skype chat&#160;to size stories using Planning Poker.&#160; Everyone should give their points for stories at the same time to avoid influencing each other.</p><p> 
    <strong>#4&#160;Big Stories Smell</strong><br> PBIs of greater than 1 day are a smell and PBIs greater than 2 days are a stench. If User Stories are estimated at more than&#160;1 or 2&#160;days of work, consider splitting them into smaller pieces to keep them under 1 or 2 days.&#160; See Do You Break Large Tasks into Smaller Tasks?</p><p> 
-   <strong>#5 Use Spikes</strong><br> If you do find a very large User Story, consider using a Spike (aka. an investigation task) to help work out how much work will be involved.</p> ​​<span style="color&#58;#ff0000;font-family&#58;'segoe ui', 'trebuchet ms', tahoma, arial, verdana, sans-serif;font-size&#58;1.15em;line-height&#58;1.4;">Related rule</span><ul><li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/Estimate-Business-Value.aspx">Do you estimate “Business Value”?​</a></li></ul>
+   <strong>#5 Use Spikes</strong><br> If you do find a very large User Story, consider using a Spike (aka. an investigation task) to help work out how much work will be involved.</p> ​​<span style="color&#58;#ff0000;line-height&#58;1.4;font-family&#58;&quot;segoe ui&quot;, &quot;trebuchet ms&quot;, tahoma, arial, verdana, sans-serif;font-size&#58;1.15em;">Related rule</span><ul><li><a href="/Management/RulesToBetterScrumUsingTFS/Pages/Estimate-Business-Value.aspx">Do you estimate “Business Value”?​</a></li></ul>
 
 
