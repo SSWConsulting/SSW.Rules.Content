@@ -21,7 +21,7 @@ related: []
 ---
 
 
-<p>When creating projects one of the only ways that you have of proving that it works and is a viable solution is to build it. This is easy when you only have one developer and that developer will be the only one using a solution. But what if you have 2 developers? How do you prove that one developer's code works with the other? The answer is build servers. These build servers take specific code away to another computer and build it there.</p>
+<p>​When creating projects one of the only ways that you have of proving that it works and is a viable solution is to build it. This is easy when you only have one developer and that developer will be the only one using a solution. But what if you have 2 developers? How do you prove that one developer's code works with the other? The answer is build servers. These build servers take specific code away to another computer and build it there.</p>
 <p>You should always have two builds on your team project. These should be setup and tested using an empty solution before you write any code at all.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <img class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/Builds.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Two builds named in the format [TeamProject].[AreaPath]_[Branch].|CI|Nightly] for every branch.</font> These builds should use the same XAML build workflow; however you may set them up to run a different set of tests depending on the time it takes to run a full build. 
