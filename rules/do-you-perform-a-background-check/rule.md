@@ -26,7 +26,6 @@ redirects: []
 <li>Do they have a webpage? </li>
 <li>Does the webpage look legitimate (not just thrown together)? </li>
 <li>Is the &quot;Contact Us&quot; Address and/or phone number the same as the one they provided? </li>
-<li>Do they have any references from other companies? </li>
 </ul>
 <p>With this information you can then rank them from &quot;Not a Risk&quot; all the way up to &quot;Huge Risk&quot; (the kind with neon flashing lights and all) and decide whether or not to go ahead with the business deal.</p>
 
