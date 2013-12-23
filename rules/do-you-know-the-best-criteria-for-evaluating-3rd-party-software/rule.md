@@ -12,7 +12,7 @@ redirects: []
 ---
 
 
-​​Enter Intro Text
+<p>​​At SSW we evaluate and use a lot of 3rd party libraries. Before considering a​ library for further evaluation we ask the following questions&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <div>​At SSW we evaluate and use a lot of 3rd party libraries. Before considering a​ library for further evaluation we ask the following questions&#58;&#160;</div><div>
    <br>
