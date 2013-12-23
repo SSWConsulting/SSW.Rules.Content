@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>​<a href="/SoftwareDevelopment/RulesForErrorHandling/Pages/use-the-best-exception-handling-framework.aspx">Do&#160;you use the best middle tier .Net libraries?</a>&#160;The best exception handling library is ELMAH.</p><p>Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database.</p> </span>
+<span class='intro'> <p>​<a href="/SoftwareDevelopment/RulesForErrorHandling/Pages/use-the-best-exception-handling-framework.aspx">Do&#160;you use the best middle tier .Net libraries?</a>&#160;The best exception handling library is TFS&#160;Application Insights​.</p><p>Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database.</p><p>​At SSW we use TFS Application Insights. Application Insights is a set of services that provide actionable insight into a production application.&#160;If TFS Application Insights&#160;is not available we use ELMAH.<br></p> </span>
 
 <p>​<span class="s1">ELMAH is the exception logger to use for web applications. From its 
       <a href="https&#58;//www.nuget.org/packages/ELMAH"> 
