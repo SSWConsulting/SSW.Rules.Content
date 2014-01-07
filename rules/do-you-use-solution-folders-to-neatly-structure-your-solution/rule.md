@@ -17,7 +17,7 @@ authors:
  </span>
 
 
-  <img class="ms-rteCustom-ImageArea" alt="unstructured solution folder" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/Documents/SSW%20-%20Rules%20.NET%20Projects%20-%20Bad%20Solution.png" style="width&#58;375px;" /> <br>
+  <img class="ms-rteCustom-ImageArea" alt="unstructured solution folder" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/Documents/SSW%20-%20Rules%20.NET%20Projects%20-%20Bad%20Solution.png" style="width&#58;375px;height&#58;486px;" /> ​<br>
 <font class="ms-rteCustom-FigureBad">Bad example - An unstructured solution folder</font>
 <p>An ideal way is to create &quot;sub-solution folders&quot; for the solution items, the common ones are &quot;References&quot; and &quot;Setup&quot;. This will make your solution items look neat and in order. Look at the screenshot below, now it makes sense, we know that the _Instructions.docx&#160;contains the instructions of what to do when creating a setup.exe. </p>
 <img class="ms-rteCustom-ImageArea" alt="A well structured solution folder has 2 folders - &quot;References&quot; and &quot;Setup&quot;" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/Documents/SSW%20-%20Rules%20.NET%20Projects%20-%20Good%20Solution.png" style="width&#58;375px;" /> <br>
