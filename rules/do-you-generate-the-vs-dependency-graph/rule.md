@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> <p>Dependency graphs are important because they give you an indication of the coupling between the different components within your application.</p><p>
+<span class='intro'> <p>​Dependency graphs are important because they give you an indication of the coupling between the different components within your application.</p><p>
 A well architected application (ie. one that correctly follows the Onion Architecture) will be easy to maintain because it is loosely coupled.</p>
  </span>
 
