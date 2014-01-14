@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>Running training courses can be a great way to make sure your site always has new content and showing that your company is active publicly and so is good for branding, and it can also be a great source of lead generation for consulting work.</p> </span>
+<span class='intro'> <p>Running training courses can be a great way to make sure your site always has new content and show&#160;that your company is active publicly. As well as being good for branding, it can also be a great source of lead generation for consulting work.</p> </span>
 
 <p>In order to capitalise on this, you should have a developer in any training course who is there to help out and get to know the attendees, whose job it will be to meet up with some of the attendees a couple of weeks after the course to catch up for a coffee and a chat. This could be the speaker or another personable developer if required. It’s important that this is not just a sales person, as it needs to be someone who can give further advice on the training topic at a later date if needed.</p>
                 <p>Keep these meetings fairly informal, with the agenda basically consisting of&#58;</p>
@@ -31,6 +31,6 @@ authors:
                     Also in the next few weeks 5 of you will be picked at random for a 'Retro Coffee'<br>
                     It is about 20 mins. Bring your problems. We will chat about the course and what you still need to know.&quot;</em></p>
                 </div>
-                <p>Read how this rule is also useful for presenters on <a target="_blank" href="/Communication/RulesToBetterTraining/Pages/RetroCoffee.aspx">Do you do a Retro Coffee after presentations? </a></p>
+                <p>Read how this rule is also useful for presenters on <a target="_blank" href="/do-you-do-a-retro-coffee-after-presentations">Do you do a Retro Coffee after presentations? </a></p>
 
 
