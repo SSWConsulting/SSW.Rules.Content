@@ -26,27 +26,23 @@ authors:
                     <li>Ask the question - &quot;What concerns do you have about working with us?&quot;</li>
                     <li>Acknowledge the objection - say, &quot;Thanks for raising that&quot;, or, &quot;Thanks for letting
                         us know about that&quot;</li>
-                    <li>Probe - ask, &quot;Can I ask you a few questions about the concerns that you have?&quot;</li>
-                    <ul>
-                        <li>&quot;If I could resolve this issue for you, could we move forward?&quot;</li>
-                        <li>You can't always solve objections on the spot - it's ok to say, &quot;is it alright if
-                            i speak to one of my developers about it and let you know about that today?&quot;</li>
-                    </ul>
+                    <li>Probe - ask, &quot;Can I ask you a few questions about the concerns that you have?&quot;<br>&quot;If I could resolve this issue for you, could we move forward?<br>&quot;You can't always solve objections on the spot - it's ok to say, &quot;Is it alright if
+                            i speak to one of my developers about it and let you know about that later&#160;today?&quot;</li>
                     <li>Answer - Pick the best response to their objection (see below)</li>
                     <li>Confirm that they are happy with your answer - &quot;Do you now feel comfortable with
                         our approach towards your project?&quot;</li>
                 </ol>
                 <p>
-                    Because we follow extreme programming, a typical objection we get is - &quot;Why do you
+                    A typical objection we get is - &quot;Why do you
                     put 2 developers on the project? This is going to be more expensive isn't it?&quot;.
                     This is basically how we handle this question&#58;
                 </p>
                 <ul>
                     <li>Explain the benefits&#58;
                     <ul>
-                        <li>&quot;We can typically complete the project sooner. Is that important to you?&quot;</li>
+                        <li>&quot;We can complete the project sooner. Is that important to you?&quot;</li>
                         <li>You get more expertise - One guy is more focussed on UI, the other guy is stronger
-                            with database</li>
+                            with databases</li>
                         <li>You get better quality code because the guys are able to &quot;put their heads together&quot;
                             to solve a problem - this saves maintenance costs down the track</li>
                         <li>We can continue working if 1 guy gets sick</li>
