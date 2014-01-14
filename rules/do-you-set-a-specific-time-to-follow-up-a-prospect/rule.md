@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>Sometimes the prospect is not ready at the end of the initial meeting to engage you for a spec review or ad-hoc work. Even if this is the case, it's really important you leave the meeting with a crystal clear future about the next stage and when that will be. Every prospect needs an intelligently scheduled follow-up activity (preferrably in CRM).</p> </span>
+<span class='intro'> <p>Sometimes the prospect is not ready at the end of the initial meeting to engage you for a spec review or ad-hoc work. Even if this is the case, it's really important you leave the meeting with a crystal clear future about the next stage and when that will be. Every prospect needs an intelligently scheduled follow-up activity.</p> </span>
 
 <p>
                 So, at the end, ask the prospect&#58;
@@ -48,7 +48,7 @@ authors:
 
                 <p>
                     This will ensure that the follow up meeting or phone call gets a much better chance of 
-                    happening... Basically the prospect set this up and will feel a certain indirect obligation.
-                </p>
+                    happening... Basically the prospect sets this up and will feel a certain indirect obligation.
+                </p><p>The other way to schedule a follow up&#160;is using ​<a href="/do-you-follow-up-emails-effectively">Followupthen</a>.&#160;</p>
 
 
