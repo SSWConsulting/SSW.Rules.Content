@@ -13,12 +13,11 @@ authors:
 
 
 
-<span class='intro'> <p>
-                    Before SSW engages in any billable work the two parties must enter into a binding
+<span class='intro'> <p>​
+                    Before we&#160;engage&#160;in any billable work, the two parties must enter into a binding
                     written contract. This ensures contractual obligations are clear on both sides,
-                    mitigating the potential for disagreements down the line and protecting both SSW
-                    and the client in the event of a disagreement. Binding contracts can take the form
-                    of Terms and Conditions, Release Plans, Emails and Instant Messenger and or even verbal
+                    mitigating the potential for disagreements down the line and protecting both us                    and the client in the event of a disagreement. Binding contracts can take the form
+                    of Terms and Conditions, Emails and Instant Messenger and or even verbal
                     agreements.
                 </p> </span>
 
@@ -28,29 +27,27 @@ authors:
                         A signed copy of <a href="http&#58;//www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx">
                             SSW standard Terms and Conditions</a> are mandatory before billable work commences
                         as they explain the terms on which SSW works and the rates which will be billed.
-                        Some clients may also have their own set of Terms and Conditions which SSW will
-                        consider signing if agreeable to SSW. It is also common for clients to ask SSW to
-                        sign a Non-Disclosure Agreement (NDA) which SSW will always consider.
+                        Some clients may also have their own set of Terms and Conditions which we&#160;will
+                        consider signing if agreeable. It is also common for clients to ask us&#160;to
+                        sign a Non-Disclosure Agreement (NDA) which we&#160;will always consider.
                     </p>
                     <p>
                         Long term clients should re-sign the Terms and Conditions every year. Signed Terms
-                        and Conditions should be given to SSW Accounts department for record keeping.
+                        and Conditions should be given to the&#160;Accounts department for record keeping.
                     </p>
                     <p>
-                        Generally speaking, a signed set of Terms and Conditions authorizes SSW to conduct
+                        Generally speaking, a signed set of Terms and Conditions authorizes us&#160;to conduct
                         a Specification Review.
                     </p>
 </li>
-                    <li><strong>Proposals and Release Plans</strong>
-                    <p>
-                        At the conclusion of a <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/SpecificationReview.aspx">Specification Review</a> SSW will provide a proposal to the client.&#160;This&#160;will include all the relevant information
-                        SSW has discovered during the Specification Review process. The proposal may take
+                    <li><strong>Proposals&#160;</strong><p>
+                        At the conclusion of a <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/SpecificationReview.aspx">Specification Review</a>&#160;we&#160;will provide a proposal to the client.&#160;This&#160;will include all the relevant information
+                        we&#160;have&#160;discovered during the Specification Review process. The proposal may take
                         the form of a PowerPoint presentation (preferred) or a Word doc.
                     </p>
                     <p>
                         However, the proposal is not a contract. It does not supersede the Terms and Conditions. In effect, 
-                        the proposal is a sales document which describes broadly the scope of the work to be done and SSW's
-                        capacity to complete that work. It is not a working document from which the project is managed. 
+                        the proposal is a sales document which describes broadly the scope of the work to be done and our                        capacity to complete that work. It is not a working document from which the project is managed. 
                         The project will generally be managed using&#160;Scrum, with a backlog in TFS.</p>
 </li>
                     <li><strong>Ad Hoc Emails, Instant Messenger and Verbal Agreements</strong>
