@@ -22,8 +22,8 @@ If you think someone should be involved in a conversation but they're not on the
 
 <p>If you need to remove someone from the loop, for example to have an internal conversation about an email to a client, put (Removing xxx from the loop) at the top of the email.</p>
 
-<img class="ms-rteCustom-ImageArea" alt="Add Recipient" src="/Communication/RulesToBetterEmail/PublishingImages/RemoveRecipient.jpg" />
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – Removing someone from an email thread</span>
+<img class="ms-rteCustom-ImageArea" alt="Add Recipient" src="/Communication/RulesToBetterEmail/PublishingImages/RemoveRecipient.jpg" />​
+<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – Removing someone from an email thread so you can talk about the them&#160;in private</span>
 
 <p>You can delete people from an email thread, but what often happens is&#58;</p>
 <ul>
