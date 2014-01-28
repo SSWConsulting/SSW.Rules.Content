@@ -26,9 +26,9 @@ related:
     <li>Where you are a little unsure</li>
     <li>When you are new to a company and sending an email to a large distribution list</li>
     <li>Sending a complicated email</li>
-    <li>Sending a sensitive email (where the content could be perceived as confrontational)</li><li>When you need a quick &quot;<a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">test please</a>&quot;&#160;an​d the person is available on the spot</li>
+    <li>Sending a sensitive email (where the content could be perceived as confrontational)</li><li>In application development,&#160;when you need a quick &quot;<a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">test please</a>&quot;,&#160;an​d the person is available on the spot</li>
 </ul>
-<p>Doing this will ensure&#58;</p>
+<p>Doing this will ensure&#58;​</p>
 <ul>
     <li>You avoid grammatical and spelling errors </li>
     <li>The layout and tone of the email is professional </li>
