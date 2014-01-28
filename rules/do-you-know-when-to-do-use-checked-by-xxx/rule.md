@@ -26,7 +26,7 @@ related:
     <li>Where you are a little unsure</li>
     <li>When you are new to a company and sending an email to a large distribution list</li>
     <li>Sending a complicated email</li>
-    <li>Sending a sensitive email (where the content could be perceived as confrontational)</li><li>In application development,&#160;when you need a quick &quot;<a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">test please</a>&quot;,&#160;an​d the person is available on the spot</li>
+    <li>Sending a sensitive email (where the content could be perceived as confrontational)</li><li>In application development,&#160;when you need a quick '<a href="/do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client">test please</a>',&#160;an​d the person is immediately&#160;available. This​ provides you a chance to check and collaborate on the finished change before the '<a href="/Pages/Done-GiveDetailsAndDelete.aspx">done&#160;email</a>'&#160;is sent</li>
 </ul>
 <p>Doing this will ensure&#58;​</p>
 <ul>
