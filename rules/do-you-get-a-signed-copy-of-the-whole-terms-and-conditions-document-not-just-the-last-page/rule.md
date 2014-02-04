@@ -15,7 +15,7 @@ related: []
 ---
 
 
-Often clients will see a multi-page T&amp;C document with a box at the end that says sign here, and they will think that is the only important page and so sign it and send it back. However this can be a problem when you've got to provide evidence as to the content of the whole document they signed. To fix this issue, you can get them to re-send you through the entire document, but sometimes you don’t want to rock the boat. Here is another solution&#58;
+​Often clients will see a multi-page T&amp;C document with a box at the end that says sign here, and they will think that is the only important page and so sign it and send it back. However this can be a problem when you've got to provide evidence as to the content of the whole document they signed. To fix this issue, you can get them to re-send you through the entire document, but sometimes you don’t want to rock the boat. Here is another solution&#58;
 <br><excerpt class='endintro'></excerpt><br>
 <ol>
 <li>Print out the section of the contract/T&amp;C's the client sent
