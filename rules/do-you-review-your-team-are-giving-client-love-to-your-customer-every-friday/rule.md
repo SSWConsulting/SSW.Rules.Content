@@ -11,10 +11,10 @@ authors:
 
 
 
-<span class='intro'> <p>​Developers should carry out &quot;Client Love&quot; every week. The best way is to check their time sheets on Friday for this. </p> </span>
+<span class='intro'> <p>​Developers should carry out &quot;Client Love&quot; every week.&#160;</p><p>There are a few ways to achieve this...</p> </span>
 
-<p>
-                    See <a href="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/Pages/BuildClientLove.aspx">Rules
+<ol><li><span style="line-height&#58;1.6;">From an overall team perspective,&#160;y</span><span style="line-height&#58;1.6;">ou can check in with the Scrum Master about how the Scrum Retrospective meetings are going. You can see an overview in the </span><a href="/do-you-create-a-sprint-review-retro-email" style="line-height&#58;1.6;">Review/Retro email</a><span style="line-height&#58;1.6;">.</span><br></li><li><span style="line-height&#58;1.6;"><span style="line-height&#58;20.799999237060547px;">From an individual developer perspective, you can check their time sheets on Friday to look for&#160;extra initiative shown.​</span><br></span></li></ol><p>
+                    See <a href="/do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-(aka-customer-love)">Rules
                         To Being Software Consultants Dealing With Clients</a>.
                 </p>
 
