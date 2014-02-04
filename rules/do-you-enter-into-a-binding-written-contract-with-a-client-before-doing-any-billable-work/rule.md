@@ -13,10 +13,9 @@ authors:
 
 
 
-<span class='intro'> <p>​
-                    Before we&#160;engage&#160;in any billable work, the two parties must enter into a binding
+<span class='intro'> <p>Before you&#160;engage&#160;in any billable work, the two parties must enter into a binding
                     written contract. This ensures contractual obligations are clear on both sides,
-                    mitigating the potential for disagreements down the line and protecting both us                    and the client in the event of a disagreement. Binding contracts can take the form
+                    mitigating the potential for disagreements down the line and protecting both you                   and the client in the event of a disagreement. Binding contracts can take the form
                     of Terms and Conditions, Emails and Instant Messenger and or even verbal
                     agreements.
                 </p> </span>
@@ -26,8 +25,7 @@ authors:
                     <p>
                         A signed copy of <a href="http&#58;//www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx">standard Terms and Conditions</a> are mandatory before billable work commences
                         as they explain the terms on which you&#160;work&#160;and the rates which will be billed.
-                        Some clients may also have their own set of Terms and Conditions which we&#160;will
-                        consider signing if agreeable. It is also common for clients to ask you&#160;to
+                        Some clients may also have their own set of Terms and Conditions which you should&#160;consider signing if agreeable. It is also common for clients to ask you&#160;to
                         sign a Non-Disclosure Agreement (NDA) which you should always consider.
                     </p>
                     <p>
@@ -40,8 +38,8 @@ authors:
                     </p>
 </li>
                     <li><strong>Proposals&#160;</strong><p>
-                        At the conclusion of a <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/SpecificationReview.aspx">Specification Review</a>&#160;we&#160;will provide a proposal to the client.&#160;This&#160;will include all the relevant information
-                        we&#160;have&#160;discovered during the Specification Review process. The proposal may take
+                        At the conclusion of a <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/SpecificationReview.aspx">Specification Review</a>,&#160;you should&#160;provide a proposal to the client.&#160;This&#160;will include all the relevant information
+                        you&#160;have&#160;discovered during the Specification Review process. The proposal may take
                         the form of a PowerPoint presentation (preferred) or a Word doc.
                     </p>
                     <p>
