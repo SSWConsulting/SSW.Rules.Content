@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>
+<span class='intro'> <p>​
                     It's often quoted in marketing circles that it costs between 60% and 600% more to
                     sell to new clients as opposed to existing ones. It makes sense then to nurture
                     your existing client relationships.
@@ -37,7 +37,7 @@ authors:
                 </p>
                 <p>
                     A &quot;client relationship problem&quot; is when you have said &quot;no&quot; to
-                    a client and and they let you know that they strongly disagree. In that case&#58;
+                    a client and they let you know that they strongly disagree. In that case&#58;
                 </p>
                 <ul>
                     <li>Tell them the reasons for your stand</li>
