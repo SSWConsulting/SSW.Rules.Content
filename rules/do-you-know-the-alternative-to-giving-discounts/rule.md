@@ -15,17 +15,15 @@ authors:
 
 
 
-<span class='intro'> <p>
-                    We try to never discount our price. Instead we should be adding value
+<span class='intro'> <p>Try to never discount your&#160;price. Instead, you&#160;should be adding value
                     to the offering for the client.
                 </p> </span>
 
 <p>
-                    If a client asks for a discount you can add value by offering&#58;
-                </p>
+                    If a client asks for a discount, try to&#160;add value by offering something else.&#160;</p><p>e.g.​</p>
                 <ul>
-                    <li>All our products to our clients at no charge​</li>
-                    <li>Adam for 2 hours a
+                    <li>Some of your&#160;products&#160;at no charge​</li>
+                    <li>A Senior Consultant&#160;for 2 hours a
                         month to complete the following tasks&#58;
                         <ul>
                             <li>Code Review</li>
