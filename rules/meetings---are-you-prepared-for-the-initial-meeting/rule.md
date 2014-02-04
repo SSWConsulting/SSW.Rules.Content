@@ -15,7 +15,7 @@ authors:
 
 <span class='intro'> <p>
                     Be prepared for the initial meeting because first impressions are the most important.
-                    Preparation cements your professionalism and underscores SSW's eye for detail and
+                    Preparation cements your professionalism and underscores your&#160;​eye for detail and
                     capacity to deliver.
                 </p> </span>
 
@@ -28,7 +28,7 @@ authors:
                     <li>Reviewing any specification documents the client may have provided. You may conclude
                         the current specs are incomplete and further work is required to develop a Release
                         Plan</li>
-                    <li>Have the standard SSW sample apps VPC to show SSW developed websites, windows apps
+                    <li>Have the standard&#160;sample apps VPC to show your&#160;​developed websites, windows apps
                         and our products (Client Demo VPC)</li>
                     <li>Having a wireless card to access the Internet if you cannot connect to the clients
                         network. In fact it is preferred you do not connect to the clients network due to
