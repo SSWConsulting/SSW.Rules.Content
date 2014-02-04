@@ -18,12 +18,9 @@ redirects: []
 ---
 
 
-<p>Try to never discount your&#160;price. Instead, you&#160;should be adding value
-                    to the offering for the client.
-                </p>
+<p>​​Some clients really want a discount. Most will be happy with a discount for pre-paying. Others&#160;won't go ahead until they feel they have got something more.&#160;</p><p>If a client asks for a further discount, try to&#160;add value by offering something else.&#160;​</p><p>e.g.​</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>
-                    If a client asks for a discount, try to&#160;add value by offering something else.&#160;</p><p>e.g.​</p>
+
                 <ul>
                     <li>Some of your&#160;products&#160;at no charge​</li>
                     <li>A Senior Consultant&#160;for 2 hours a
