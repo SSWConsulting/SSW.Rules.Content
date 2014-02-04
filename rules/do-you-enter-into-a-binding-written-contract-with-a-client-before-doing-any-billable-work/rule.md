@@ -24,19 +24,18 @@ authors:
 <ul>
                     <li><strong>Terms and Conditions</strong>
                     <p>
-                        A signed copy of <a href="http&#58;//www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx">
-                            SSW standard Terms and Conditions</a> are mandatory before billable work commences
-                        as they explain the terms on which SSW works and the rates which will be billed.
+                        A signed copy of <a href="http&#58;//www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx">standard Terms and Conditions</a> are mandatory before billable work commences
+                        as they explain the terms on which you&#160;work&#160;and the rates which will be billed.
                         Some clients may also have their own set of Terms and Conditions which we&#160;will
-                        consider signing if agreeable. It is also common for clients to ask us&#160;to
-                        sign a Non-Disclosure Agreement (NDA) which we&#160;will always consider.
+                        consider signing if agreeable. It is also common for clients to ask you&#160;to
+                        sign a Non-Disclosure Agreement (NDA) which you should always consider.
                     </p>
                     <p>
                         Long term clients should re-sign the Terms and Conditions every year. Signed Terms
                         and Conditions should be given to the&#160;Accounts department for record keeping.
                     </p>
                     <p>
-                        Generally speaking, a signed set of Terms and Conditions authorizes us&#160;to conduct
+                        Generally speaking, a signed set of Terms and Conditions authorizes you&#160;to conduct
                         a Specification Review.
                     </p>
 </li>
@@ -54,7 +53,7 @@ authors:
                     <p>
                         Electronic communication such as email and Instant Messenger are extremely useful
                         in getting decisions confirmed quickly but it is important to follow strict standards
-                        to ensure any agreements are clear to everyone. SSW does not generally rely upon
+                        to ensure any agreements are clear to everyone. You should not generally rely upon
                         verbal agreements, always confirming anything agreed verbally in writing. The following
                         are important rules to follow&#58;
                     </p></li>
@@ -73,6 +72,6 @@ authors:
                 initial scope is required.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
             <p>
                 Next - now run your project better with 
-                    <a href="/Management/RulesToBetterScrumUsingTFS/Pages/default.aspx">Rules to Better Scrum Using TFS</a>            </p>
+                    <a href="/Management/RulesToBetterScrumUsingTFS/Pages/default.aspx">Rules to Better Scrum Using TFS</a>​            </p>
 
 
