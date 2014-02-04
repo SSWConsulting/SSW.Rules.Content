@@ -13,8 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>
-                    When attempting to sell a solution to a potential client, you will invariably come
+<span class='intro'> <p>When attempting to sell a solution to a potential client, you will invariably come
                     up against some objections. It is essential that you are prepared to handle these
                     objections so the client is confident in your skills and has no reservations about
                     choosing you over someone else. The main reason clients raise objections is because
@@ -41,15 +40,15 @@ authors:
                     <li>Explain the benefits&#58;
                     <ul>
                         <li>&quot;We can complete the project sooner. Is that important to you?&quot;</li>
-                        <li>You get more expertise - One guy is more focussed on UI, the other guy is stronger
-                            with databases</li>
-                        <li>You get better quality code because the guys are able to &quot;put their heads together&quot;
-                            to solve a problem - this saves maintenance costs down the track</li>
-                        <li>We can continue working if 1 guy gets sick</li>
+                        <li>&quot;You get more expertise - One guy is more focussed on UI, the other guy is stronger
+                            with databases&quot;</li>
+                        <li>&quot;You get better quality code because the guys are able to &quot;put their heads together&quot;
+                            to solve a problem - this saves maintenance costs down the track&quot;</li>
+                        <li>&quot;We can continue working if 1 guy gets sick&quot;</li>
                     </ul>
 </li>
                     <li>If they are still unsure, you can offer a small discount off the hourly rate, or
-                        offer some free support - it's all about managing risk.</li>
+                        offer some free support - it's all about managing risk.​</li>
                 </ul>
 
 
