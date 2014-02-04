@@ -22,6 +22,6 @@ redirects: []
                 overall satisfaction and happiness.
              </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>The best way is&#160;to set yourself reminders to do this ​using <a href="/Communication/RulesToBetterEmail/Pages/FollowUpEmailsEffectively.aspx">Followupthen</a>.</p>
+<p>The best way is&#160;to set yourself reminders to do this ​using <a href="/do-you-follow-up-emails-effectively">FollowUpT​hen</a>.</p>
 
 
