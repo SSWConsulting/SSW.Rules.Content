@@ -19,7 +19,7 @@ authors:
 <p>The process&#58;</p>
 <ol><li>Once you have decided that this is a project you want to work on, you have to convince the client to book in a Spec Review <ul><li>This is a 1-5 day exercise for 1-2 people. The general rule is 1 man day per expected 2 week sprint.</li>
 <li>This process is timeboxed, and so appears to the client as a fixed price.</li></ul></li>
-<li>Make sure you get <a href="http&#58;//www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx">terms and conditions</a> signed before you start work on this.</li>
+<li>Make sure you get <a href="http&#58;//www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx">Terms and C​onditions</a> signed before you start work on this.</li>
 <li>You will create a backlog of tasks, and some form of document (word or ppt) to present to the client explaining your proposed approach.
 <dl class="image">
 <dt><img src="/Management/RulesToSuccessfulSalesAndAccountManagement/PublishingImages/ms-ppt-word-logos.jpg" alt="" /></dt>
