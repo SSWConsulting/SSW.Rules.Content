@@ -20,9 +20,9 @@ authors:
 
 
 <span class='intro'> <ol><li>Red Gate SQL Compare + Red Gate SQL Packager (post development model) </li>
-<li>Visual Studio 2010 Data Dude + Deploy&#160;(post development model) </li>
+<li>Visual Studio 2013​&#160;Data Dude + Deploy&#160;(post development model) </li>
 <li>SQL Management Studio + OSQL&#160; (Free and roll your own) </li>
-<li>SQL Management Studio + SSW SQL Deploy (As you go model) </li></ol>
+<li>SQL Management Studio + SSW SQL Deploy (As you go model</li><li>Visual Studio 2013 + SSW SQL Validate (Code First)​</li></ol>
  </span>
 
 
