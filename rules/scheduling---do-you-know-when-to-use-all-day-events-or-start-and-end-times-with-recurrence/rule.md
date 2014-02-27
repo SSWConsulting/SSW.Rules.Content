@@ -18,7 +18,7 @@ related:
 <br><excerpt class='endintro'></excerpt><br>
 <p>This also works better for Service Calendar syncing, as you can see what each person is working on each day.</p><dl class="badImage"><dt>
       <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/recurring-appointment-bad.png" alt="Bad Example" /> 
-   </dt><dd>Figure&#58; Bad Example – If you need to change Tuesday’s booking, you’ll have an issue</dd></dl><dl class="goodImage"><dt>
+   </dt><dd>Figure&#58; Bad Example – If a change is needed on Tuesday’s booking, there will​&#160;an issue</dd></dl><dl class="goodImage"><dt>
       <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/recurring-appointment-good.png" alt="Good Example" /> 
    </dt><dd>Figure&#58; Good Example – Easy to alter any individual day as needed</dd></dl>
 
