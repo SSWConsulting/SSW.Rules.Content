@@ -14,28 +14,12 @@ related:
 ---
 
 
-<p>
-          For an appointment of one day or less, use the start and end times so that it is
-          easily viewed on people's calendars as 1 day appointments are easy to miss. However,
-          if the appointment spans more than one day (e.g. 2 weeks) it's ok to use 1 appointment
-          to span the whole time period, as it drastically reduces the complexity of keeping
-          it accurate, up to date, and showing easily on the Service Calendar.</p>
+<p>​CRM supports recurring appointments, and this allows for more flexibility in bookings, so you should always use these over using one long appointment for a booking.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage">
-          <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/OverComplicatedAppointment.jpg" alt="Different types of appointments" /></dt>
-          <dd>
-            Figure&#58; Good example - multi day appointment shown at the top, single day appointment
-            shown in the middle
-          </dd>
-        </dl>
-        <dl class="badImage">
-          <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/TypesOfAppointments.jpg" alt="The appointment is too complicated." /></dt>
-          <dd>
-            Figure&#58; Bad example - over complicated appointments for PDS and the 1 day appointment
-            gets easily lost and is hard to read
-          </dd>
-        </dl>
+<p>This also works better for Service Calendar syncing, as you can see what each person is working on each day.</p><dl class="badImage"><dt>
+      <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/recurring-appointment-bad.png" alt="Bad Example" /> 
+   </dt><dd>Figure&#58; Bad Example – If you need to change Tuesday’s booking, you’ll have an issue</dd></dl><dl class="goodImage"><dt>
+      <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/recurring-appointment-good.png" alt="Good Example" /> 
+   </dt><dd>Figure&#58; Good Example – Easy to alter any individual day as needed</dd></dl>
 
 
