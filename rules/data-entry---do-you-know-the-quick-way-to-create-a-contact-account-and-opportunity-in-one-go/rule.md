@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​​​CRM 2013 has a nice way of reducing the amount of work needed to create a new Account, Contact, and opportunity, all via making a Lead 1st.</p><p><span style="line-height&#58;20.799999237060547px;">T</span><span style="line-height&#58;20.799999237060547px;">he process is&#58;​</span><br></p>
+<p>​​​CRM 2013 has a nice way of reducing the amount of work needed to create a new Account, Contact, and opportunity, all via making a Lead 1st.</p><p><span style="line-height&#58;20.799999237060547px;">T</span><span style="line-height&#58;20.799999237060547px;">he process is&#58;​</span></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>In CRM, create a Lead</li>
                 <li>Convert it into an Opportunity, Contact and Account using the Qualify button</li>
@@ -31,8 +31,8 @@ related: []
                 </dl>
                 <p>This will&#58;</p>
 
-                <li>Deactivate the Lead </li>
+                <li>Deactivate the Lead​ </li>
                 <li>Create an Opportunity, Contact and Account</li>
-                <li>Automatically link the Opportunity to the Account and the Account to the Contact<br><span style="line-height&#58;1.6;"><br>This will save you substantial amount of time compared to creating and linking each one manually.</span></li></ol>
+                <li>Automatically link the Opportunity to the Account and the Account to the Contact</li><li><span style="line-height&#58;1.6;">Save you substantial amount of time compared to creating and linking each one manually.</span><br></li></ol><div><span style="line-height&#58;20.799999237060547px;"><br></span></div><div><span style="line-height&#58;20.799999237060547px;">Note&#58; See&#160;<a href="/Communication/RulesToBetterCRMForUsers/Pages/The-one-case-where-you-use-a-CRM-lead.aspx">Do you know the one case where you use a CRM lead?</a>&#160;to see why, apart from for this purpose,&#160;you should generally not be using <span style="line-height&#58;20.799999237060547px;">CRM&#160;</span>leads much.</span></div>
 
 
