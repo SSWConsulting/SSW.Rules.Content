@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​​CRM 2013 has a nice way of reducing the amount of work needed to create a new Account, Contact, and opportunity, all via making a Lead 1st.</p><p><span style="line-height&#58;20.799999237060547px;">T</span><span style="line-height&#58;20.799999237060547px;">he process is&#58;​</span><br></p>
+<p>​​​CRM 2013 has a nice way of reducing the amount of work needed to create a new Account, Contact, and opportunity, all via making a Lead 1st.</p><p><span style="line-height&#58;20.799999237060547px;">T</span><span style="line-height&#58;20.799999237060547px;">he process is&#58;​</span><br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>In CRM, create a Lead</li>
                 <li>Convert it into an Opportunity, Contact and Account using the Qualify button</li>
