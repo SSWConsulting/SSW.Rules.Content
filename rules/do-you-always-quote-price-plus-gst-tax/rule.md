@@ -9,13 +9,7 @@ authors: []
 
 
 
-<span class='intro'> 
-  <p>Is your price&#58; </p>
-<ul>
-    <li>$100 per hour + GST (the $100 being the net amount) </li>
-    <li>$110 per hour (the $110 being the total amount) </li>
-</ul>
- </span>
+<span class='intro'> <p>​Is your price&#58; </p><ul><li>​$100 per hour + GST (the $100 being the amount exclusive of GST)</li><li>$110 per hour (the $110 being the total amount) </li></ul> </span>
 
 
   <p>We say the first one. When providing quotes to prospects/clients, it is always better to display the net value + 10% GST rather than the total. </p>
