@@ -19,8 +19,8 @@ related: []
 You should have a centralized system to check for everyone's availability. 
 </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>The easiest way to do this is to use a shared calendar which is just used for leave. At SSW, we have the SSWAbsence calendar to for this. This requires people to send their leave request as an appointment to SSWAbsence. </p>
-<p>Since this is just a calendar, you should also send these leave requests to your admin managers, so they are always notified of what's going on, although normally these managers will delete the notification rather than add it to their own calendar by accepting it. At SSW, we use the SSWAdmin group alias for this.</p>
+<p>The easiest way to do this is to use a shared calendar which is just used for leave. At SSW, we have the SSWAbsence calendar to for this. This requires people to send their leave request as an appointment to SSWAbsence.​ </p>
+<p>Since this is just a calendar, you should also have these leave requests automatically forwarded to your admin managers, so they are always notified of what's going on, although normally these managers will decline the notification rather than add it to their own calendar by accepting it. At SSW, we use the SSWAdmin group alias for this.</p>
 
 
 
