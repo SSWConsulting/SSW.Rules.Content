@@ -36,6 +36,6 @@ If an error occurred, On Error Resume Next will hide the error and things can go
     .
     End Sub
 </pre></dt><dd>Good Example – Good code</dd></dl><p class="p5"> 
-   <span class="ssw-rteStyle-YellowBorderBox">We have a program called&#160;<a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx%22%20%5cl%20%22NoOnErrorResumeNext">SSW Code Auditor</a>&#160;to check for this rule.</span></p>
+   <span class="ssw-rteStyle-YellowBorderBox">We have a program called&#160;<a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a>&#160;to check for this rule.</span></p>
 
 
