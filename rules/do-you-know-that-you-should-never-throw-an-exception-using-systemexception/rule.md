@@ -17,6 +17,6 @@ authors:
 
 <p>As a standard, you should use an exception class with the name that best describes the exception's detail. All exception classes in .NET Framework follow this standard very well. As a result, when you see exceptions like FileNotFoundException or DivideByZeroException, you know what's happening just by looking at the exception's name. .NET Framework has provided us a comprehensive list of exception classes that can we can use. If you really can't find one that is suitable for the situation, then create your own exception class with the name that best describes the exception (eg&#58; EmployeeListNotFoundException).</p>
 <p>Also, System.ApplicationException should be avoided as well unless it's an exception related to the application. While it's acceptable and should be used in certain cases, be aware that using it massively will be just as bad as &quot;throw (Exception ex)&quot;.</p><p>
-               <span class="ssw-rteStyle-YellowBorderBox">We have a program called&#160;<a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx%22%20%5cl%20%22Except">SSW Code Auditor</a>&#160;to check for this rule.</span></p>
+               <span class="ssw-rteStyle-YellowBorderBox">We have a program called&#160;<a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a>&#160;to check for this rule.</span></p>
 
 
