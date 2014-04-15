@@ -34,7 +34,7 @@ redirects: []
     <dt><img alt="Meeting without agenda" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" /> </dt>
     <dd>Figure&#58; Bad example - meeting with No Agenda </dd>
 </dl>
-<img class="ms-rteCustom-ImageArea" src="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/PublishingImages/MeetingWithAgenda_1.jpg" alt="" /><font size="-0" class="ms-rteCustom-FigureGood">Figure&#58; Good example - meeting with Agenda </font>
+<img class="ms-rteCustom-ImageArea" src="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/PublishingImages/MeetingWithAgenda_1.jpg" alt="" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - meeting with Agenda </font>
 <p>Every Outlook appointment must have&#58;</p>
 <ol>
     <li>A good subject, to let attendees know the purpose of the meeting, see our rule <a href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">Do you realize the importance of a good email Subject?</a> </li>
@@ -45,7 +45,7 @@ redirects: []
         <li>The final step in the agenda being &quot;Set a date for the next meeting&quot; </li>
         <li>A note mentioning if the meeting is billable or not </li>
         <li>Your standard footer in message (same footer as in mail messages) </li>
-        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> </li>
+        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> <img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> </li>
     </ol>
     </li>
 </ol>
@@ -54,7 +54,7 @@ redirects: []
     <ul>
         <li>Print map <a href="http&#58;//www.ssw.com.au/ssw/company/directions">www.ssw.com.au/ssw/company/directions</a> </li>
         <li>FYI the account manager is not billable, the developers are billable </li>
-        <li>For meetings tips see <a href="http&#58;//www.ssw.com.au/SSW/standards/rules/RulesToBeingSoftwareConsultantsDealingWithClients.aspx">Rules to being Software Consultants - Dealing with Clients</a> </li>
+        <li>For meetings tips see <a href="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/pages/default.aspx">Rules to being Software Consultants - Dealing with Clients</a> </li>
     </ul>
     </dt>
     <dd>Figure - Message example </dd>
