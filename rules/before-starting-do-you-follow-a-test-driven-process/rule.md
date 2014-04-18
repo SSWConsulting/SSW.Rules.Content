@@ -27,7 +27,7 @@ Never allow a situation where a developer can check out code and the code does n
     <li>Compile &#160; </li>
     <li>Check In </li>
 </ol>
-<font class="ms-rteCustom-FigureBad" size="+0">A Bad Developer</font> <img alt="" class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/BeforeCoding.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Before you start cooking prepare all your ingredients (aka before you start coding, &quot;Get Latest&quot; the right way)</font>
+<font class="ms-rteCustom-FigureBad" size="+0">A Bad Developer</font> <img class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/BeforeCoding.jpg" alt="" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Before you start cooking prepare all your ingredients (aka before you start coding, &quot;Get Latest&quot; the right way)</font>
 <ol class="ms-rteCustom-GreyBox" style="width&#58;528px;height&#58;433px;"><strong>Good Process</strong>
     <li>Get latest </li>
     <li>Compile </li>
