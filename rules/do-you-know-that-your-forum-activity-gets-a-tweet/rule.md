@@ -28,7 +28,7 @@ related: []
 This is done by finding your &quot;activity&quot; feed on the forum&#58;</p>
 <blockquote dir="ltr" style="margin-right&#58;0px;">
 <p>Activity feed from&#160;for Microsoft <br>
-<a shape="rect" href="http&#58;//services.social.microsoft.com/Feeds/Activities?user=MrHinsh&amp;lcid=en-US&amp;brand=Msdn&amp;format=rss20">http&#58;//services.social.microsoft.com/Feeds/Activiti​es?user=MrHinsh&amp;lcid=en-US&amp;bran​d=Msdn&amp;format=rss20</a></p>
+http&#58;//services.social.microsoft.com/Feeds/Acti​viti​es?user=MrHinsh&amp;lcid=en-US&amp;bran​d=Msdn&amp;format=rss20</p>
 <p>Activity feed from&#160;StackOverflow<br>
 <a shape="rect" href="http&#58;//stackoverflow.com/feeds/user/11799">http&#58;//stackoverflow.com/feeds/user/11799</a></p>
 </blockquote>
