@@ -16,7 +16,7 @@ related: []
 
 
 
-  <p>If you are active in a forum, like the MSDN or Stackoverflow forums, then you should set up the RSS for your activity to automatically tweet.</p>
+  <p>​If you are active in a forum, like the MSDN or Stackoverflow forums, then you should set up the RSS for your activity to automatically tweet.</p>
 <blockquote>
 <p>Replied to the question Error when trying to 'add assembly from project output' in the package manager. in the Sha... <a shape="rect" href="http&#58;//bit.ly/bwREtu">http&#58;//bit.ly/bwREtu</a> <a shape="rect" href="http&#58;//twitter.com/MrHinsh/status/10382975413">6&#58;02 PM Mar 12th </a>via <a shape="rect" href="http&#58;//twitterfeed.com/"><font color="#4060a0">twitterfeed</font></a><br>
 <strong>Figure&#58; Good example, MSDN and ardvark tweets are automatic using twitterfeed.</strong></p>
@@ -28,7 +28,7 @@ related: []
 This is done by finding your &quot;activity&quot; feed on the forum&#58;</p>
 <blockquote dir="ltr" style="margin-right&#58;0px;">
 <p>Activity feed from&#160;for Microsoft <br>
-<a shape="rect" href="http&#58;//services.social.microsoft.com/Feeds/Activities?user=MrHinsh&amp;lcid=en-US&amp;brand=Msdn&amp;format=rss20">http&#58;//services.social.microsoft.com/Feeds/Activities?user=MrHinsh&amp;lcid=en-US&amp;brand=Msdn&amp;format=rss20</a></p>
+<a shape="rect" href="http&#58;//services.social.microsoft.com/Feeds/Activities?user=MrHinsh&amp;lcid=en-US&amp;brand=Msdn&amp;format=rss20">http&#58;//services.social.microsoft.com/Feeds/Activiti​es?user=MrHinsh&amp;lcid=en-US&amp;bran​d=Msdn&amp;format=rss20</a></p>
 <p>Activity feed from&#160;StackOverflow<br>
 <a shape="rect" href="http&#58;//stackoverflow.com/feeds/user/11799">http&#58;//stackoverflow.com/feeds/user/11799</a></p>
 </blockquote>
