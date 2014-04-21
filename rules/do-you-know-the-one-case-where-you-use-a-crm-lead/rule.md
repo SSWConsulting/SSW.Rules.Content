@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>It can sometimes be hard to work out when to use a lead vs a contact and company,or even an opportunity.</p>
+<p>​It can sometimes be hard to work out when to use a lead vs a contact and company,or even an opportunity.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <table cellspacing="3" cellpadding="3" class="clsSSWTable">
           <tbody><tr>
@@ -85,7 +85,7 @@ related: []
         <p>
           It is better to have all your contacts in one place rather than split over 2 separate
           tables. Leads are not needed except as a data entry tool to help you link new contacts,
-          companies, and opportunities. See <a href="/Communication/RulesToBetterCRMForUsers/Pages/Quick-way-to-create-all-3-of-the-above-at-once.aspx">
+          companies, and opportunities. See <a href="/Communication/RulesToBetterCRMForUsers/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">
             Quick Way to create and opportunity, contact and account in one step</a>.</p>
         <p>
           The only legitimate use of leads is for completely unqualified data, e.g.</p>
