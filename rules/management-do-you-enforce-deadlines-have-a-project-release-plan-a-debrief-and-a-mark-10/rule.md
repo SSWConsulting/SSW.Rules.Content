@@ -22,7 +22,7 @@ Developers love doing things in their own time, investigating interesting things
   <ol>
     <li>Enforce Deadlines - Every week (usually Tuesday) the developer has a meeting with the client to discuss the status of project. <br>
     Note&#58; If you can't have a meeting, a phone call must make do.<br>
-    Note #2&#58; A weekly <a href="http&#58;//www.ssw.com.au/ssw/ExtremeEmails/ManageProjects.aspx#StatusUpdate">status update report</a> (if the release is not yet complete).&#160; </li>
+    Note #2&#58; A weekly <a href="http&#58;//www.ssw.com.au/ssw/extremeemails/default.aspx">status update report</a> (if the release is not yet complete).&#160; </li>
     <li>Have a project release plan -&#160;ideally a&#160;signed copy of the Release Plan in their diary.<br>
     Note&#58; A printed copy of the email with &quot;Approved&quot; is fine. </li>
     <li>A debrief when the release is done. </li>
