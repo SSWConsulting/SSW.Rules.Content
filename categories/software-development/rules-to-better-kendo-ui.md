@@ -10,5 +10,5 @@ index:
 
 ---
 
-Rules ToBetter Kendo UI
+​Rules To Better Kendo UI
 
