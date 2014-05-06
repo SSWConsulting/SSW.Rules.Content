@@ -24,7 +24,7 @@ redirects:
 It's been called 'herding cats'. Managing the project team and keeping the client well informed during the release development phase is critical. Keeping development of the release on track involves maintaining transparency on the important variables of project management&#58; time, scope, budget and quality. This is achieved by maintaining a strict project schedule with particular activities taking place regularly like clock-work. 
 <br><excerpt class='endintro'></excerpt><br>
 <p>Some activities are run internally; some are run with the client. </p>
-<span class="ms-rteCustom-FigureNormal"></span><table class="clsSSWTable" width="90%"><tbody><tr><th width="16%" scope="col">Day </th>
+<span class="ms-rteCustom-FigureNormal"></span><table width="90%" class="clsSSWTable"><tbody><tr><th width="16%" scope="col">Day </th>
 <th width="42%" scope="col">Internal activity </th>
 <th width="42%" scope="col">With the client</th></tr>
 <tr><td valign="top">Monday </td>
@@ -49,7 +49,7 @@ It's been called 'herding cats'. Managing the project team and keeping the clien
 <tr><td colspan="3">&#160;</td></tr>
 <tr><td valign="top">Thursday </td>
 <td valign="top"><ul><li><a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx" shape="rect">Stand Up meeting (or Scrum)&#160;</a> </li>
-<li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterProjectManagement.aspx#ArchitectureCodeReview" shape="rect">Architecture/code review</a> </li></ul></td>
+<li><a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/default.aspx" shape="rect">Architecture/code review</a> </li></ul></td>
 <td valign="top"></td></tr>
 <tr><td colspan="3">&#160;</td></tr>
 <tr><td valign="top">Friday </td>
@@ -58,6 +58,6 @@ It's been called 'herding cats'. Managing the project team and keeping the clien
 <li><a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx" shape="rect">Test please</a> </li></ul></td>
 <td valign="top"></td></tr></tbody></table>
 <p>&#160;</p>
-<img class="ms-rteCustom-ImageArea" border="0" alt="Only with a strict project schedule can the manager coach the team to success!" src="/Management/RulestoBetterSpecificationReviews/PublishingImages/ProjectManagement_Coach.jpg" /> <font class="ms-rteCustom-FigureNormal">Figure&#58; Only with a strict project schedule can the manager coach the team to success! </font>
+<img class="ms-rteCustom-ImageArea" alt="Only with a strict project schedule can the manager coach the team to success!" src="/Management/RulestoBetterSpecificationReviews/PublishingImages/ProjectManagement_Coach.jpg" border="0" /> <font class="ms-rteCustom-FigureNormal">Figure&#58; Only with a strict project schedule can the manager coach the team to success! </font>
 
 
