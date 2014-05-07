@@ -23,7 +23,7 @@ Too many people treat Source Control as a networked drive. Don't just check-in w
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img alt="" class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/LeaveAMessToOthers.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Put your dishes straight in the dishwasher otherwise you leave a mess for others (aka &quot;Check in&quot; the right way otherwise you give other developers problems) </font>Other recommendations have included using //TODO or commenting the code out. However we recommend avoiding this practice as it increases the risk that the code is forgotten about. <br>
+  <img class="ms-rteCustom-ImageArea" src="/PublishingImages/LeaveAMessToOthers.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Put your dishes straight in the dishwasher otherwise you leave a mess for others (aka &quot;Check in&quot; the right way otherwise you give other developers problems) </font>Other recommendations have included using //TODO or commenting the code out. However we recommend avoiding this practice as it increases the risk that the code is forgotten about. <br>
 Note&#58; Having <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#MinimumBuilds">gated check-ins </a>will help prevent this from happening. <br>
 Note&#58; A useful tool is <a shape="rect" href="http&#58;//visualstudiogallery.msdn.microsoft.com/en-us/080540cb-e35f-4651-b71c-86c73e4a633d">TFS Auto Shelve </a>- Protect your code by guaranteeing your pending changes are always backed up to the TFS server. 
 
