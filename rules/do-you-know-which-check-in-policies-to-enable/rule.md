@@ -33,7 +33,7 @@ related: []
 <ol><li>Right click the <strong>Team Project in Team Explorer &gt; Team Project Settings &gt; Source Control</strong></li>
 <li>Select the check-in policies above </li>
 <li>Click <strong>OK</strong></li></ol>
-<dl><dt><img alt="Chose check in policy" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/SC_TFSCI.jpg" /></dt>
+<dl><dt><img alt="Chose check in policy" src="/PublishingImages/SC_TFSCI.jpg" /></dt>
 <dd>Figure&#58; Chose check-in policies in TFS </dd></dl>
 
 
