@@ -19,10 +19,9 @@ related: []
 ---
 
 
-This field should not be null (Remove me when you edit this field).
+<ul><li>Normally, you&#160;don't need to check the history very often. If you do need sometimes, then get it from VSS.</li><li>Save much space for TFS. For example, we have a about 7G VSS history database, and we may only need a small bit of them every 3 months, so what's the point of coping about&#160;7G file when we only need one line of code?​</li></ul>
 <br><excerpt class='endintro'></excerpt><br>
-<ul><li>Normally, you don't need to check the history very often. If you do need sometimes, then get it from VSS. </li>
-<li>Save much space for TFS. For example, we have a about 7G VSS history database, and we may only need a small bit of them every 3 months, so what's the point of coping about 7G file when we only need one line of code? </li></ul>
+<p></p>
 <p>But there are also some considerations that you may want to migrate the history&#58;</p>
 <ul><li>If the history of source changes will be checked very often, so you can check the old history with the recent together via TFS. </li>
 <li>You are going to decommission the old VSS completely. Say you don't want to keep the old VSS database, and then it will be necessary to keep the information somewhere. </li>
