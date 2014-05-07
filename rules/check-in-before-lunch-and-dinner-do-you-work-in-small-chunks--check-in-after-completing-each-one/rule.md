@@ -28,10 +28,10 @@ Frequently developers work on long or difficult features/bugs and leave code che
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img alt="" class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/Check-InRegularly.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Eating one big meal every three days gives you a bellyache... (aka check in small portions regularly, one large check-in after a few days will give you a headache)</font>
+  <img class="ms-rteCustom-ImageArea" src="/PublishingImages/Check-InRegularly.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Eating one big meal every three days gives you a bellyache... (aka check in small portions regularly, one large check-in after a few days will give you a headache)</font>
 <p>That's why source code should be checked in regularly. We recommend a check-in&#58; </p>
 <ul>
-    <li>Immediately after completing a piece of functionality, where the <a shape="rect" href="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/CompilePassed.aspx">code compiles and passes the unit tests </a>Before lunch or dinner </li>
+    <li>Immediately after completing a piece of functionality, where the <a shape="rect" href="/Pages/CompilePassed.aspx">code compiles and passes the unit tests </a>Before lunch or dinner </li>
     <li>Before leaving your workstation for an extended period of time </li>
 </ul>
 If the changes would break the build or are in a state that cannot be put into the main trunk, then this code should be put into a <a shape="rect" href="http&#58;//msdn.microsoft.com/en-us/library/ms181403.aspx">shelveset</a> (sometimes referred to as 'sandbox') in source control. <br>
