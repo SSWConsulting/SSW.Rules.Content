@@ -23,7 +23,7 @@ SSW uses and recommends Microsoft Team Foundation Server (TFS) as a source code 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img alt="" class="ms-rteCustom-ImageArea" src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/TFSTeam.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Microsoft Visual Studio Team System </font>
+  <img class="ms-rteCustom-ImageArea" src="/PublishingImages/TFSTeam.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Microsoft Visual Studio Team System </font>
 <p>Here are some of the reasons why&#58; </p>
 <ul>
     <li>Checkin policies </li>
