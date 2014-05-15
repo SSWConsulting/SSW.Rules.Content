@@ -15,8 +15,8 @@ related: []
 ---
 
 
-<p>If your currency is not the old green back (USD) then you need to remember it is best for your customer to still quote in USD. USD is the international currency, and it reduces confusion on the costs. </p>
+<p class="p1">The easy thing is to just quote the price in your local currency. Go the extra step and convert it to a currency they understand.</p><p class="p1">If you are not sure what currency to use, just use US Dollars, which is the international currency.</p><p> </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-GreyBox">​The price is 25K AUD</p><p><span class="ssw-rteStyle-FigureBad">Figure&#58; Bad example​</span></p><p class="ssw15-rteElement-GreyBox">The price is 25K USD</p><p><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example</span></p>
+<p>Of course, if you are dealing with somebody regularly, then you should know their preferred currency.</p><p>E.g. Chinese company billing someone in Brazil&#58;</p><dl class="bad"><dt>Our price is CNY 1,000</dt><dd>Figure&#58; Bad example - the client will need to convert it</dd></dl><dl class="good"><dt>Our price is CNY 1,000 (about USD $160)</dt><dd>Figure&#58; Good example - USD gives a clear understanding of the costs​</dd></dl>
 
 
