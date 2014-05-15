@@ -15,7 +15,7 @@ authors:
 
 <span class='intro'> <p>
                     The first meeting is on you. While you&#160;have&#160;1 - 2 hours to provide the prospective
-                    client with enough information to decide whether to pursue a <a href="/Management/RulestoBetterSpecificationReviews/Pages/Default.aspx">Spec Review</a>, the focus
+                    client with enough information to decide whether to pursue a <a href="/rules">Spec Review</a>, the focus
                     of the initial meeting is the client, their problem, and how you&#160;might build
                     a solution. </p><p>The best way to action this is to ask questions, listen and take notes&#58;
                     Clients appreciate someone genuinely considering their needs. A brainstorming session
@@ -59,12 +59,12 @@ authors:
                     <li>Explain our development method including the importance of a Specification Review</li>
                     <li>Take exceptional notes</li>
                     <li>Ask for the sale&#58; &quot;This project is right up our alley and we'd love to be involved,
-                        is there anything stopping you&#160;from scheduling a <a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulestoSuccessfulSalesAccountManagement.aspx#first-date">
+                        is there anything stopping you&#160;from scheduling a <a href="/Pages/Ensure-an-excellent-1st-date.aspx">
                         Specification Review</a>?&quot; This will focus the mind of the client on the next step​</li>
                 </ul>
                 <dl class="image">
                     <dt>
-                        <img alt="Do you listen" src="/Management/RulesToSuccessfulSalesAndAccountManagement/PublishingImages/WomanListening.jpg" />
+                        <img alt="Do you listen" src="/PublishingImages/WomanListening.jpg" />
                     </dt>
                     <dd>
                         Figure&#58; Do you listen?</dd></dl>
