@@ -24,6 +24,6 @@ related: []
 <li>Whether there are any related topics they’d like to learn more about</li>
 <li>What projects they are working on at the moment</li>
 <li>Whether there are any issues they’re having with those projects</li></ul>
-<p>Read how this rule is also useful for account managers on <a target="_blank" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#follow-up-course-attendees">Do you follow up course attendees for consulting work?</a></p>
+<p>Read how this rule is also useful for account managers on <a href="/Management/RulesToSuccessfulSalesAndAccountManagement/Pages/Follow-up-course-attendees-for-consulting-work.aspx" target="_blank">Do you follow up course attendees for consulting work?</a> <img title="This opens in a New Window" src="/_LAYOUTS/15/Images/SSW/IconNewWindow.png" alt="" /></p>
 
 
