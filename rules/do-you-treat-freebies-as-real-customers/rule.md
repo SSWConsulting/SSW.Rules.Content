@@ -20,7 +20,7 @@ In the course of business I often provide some services or products to selected 
 <p>When you are giving something away at a discount or for free you are expecting a loss compared with a regular client. If you fail to follow regular processes not only will you incur an even greater loss you provide a lesser standard of service and put greater risk on the success of the project. </p>
 <p>A discount or freebie should follow all the standard processes such as&#58; </p>
 <ul><li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#PrepareInitialMeeting">initial meetings</a> </li>
-<li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#BindingWrittenClientContract">written contracts</a> </li>
+<li><a href="/Management/RulesToSuccessfulSalesAndAccountManagement/Pages/Enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work.aspx">written contracts</a> </li>
 <li><a href="/Management/RulestoBetterSpecificationReviews/Pages/SpecificationReview.aspx">specification reviews</a> </li>
 <li><a href="/Management/RulestoBetterSpecificationReviews/Pages/Work-included-in-Sprint.aspx">release plans</a> </li>
 <li><a href="/Management/RulesToHappyClients/Pages/DoYouKnowWhatTasksAreInAReleasePlanInAdditionToDevelopmentWorkItems.aspx">triaging additional items</a> </li>
