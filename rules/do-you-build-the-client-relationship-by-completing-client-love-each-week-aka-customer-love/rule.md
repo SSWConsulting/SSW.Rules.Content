@@ -28,9 +28,9 @@ Being a good developer is not enough. There are multiple factors that can affect
 <li>General talking about their family / remembering the names of their family members. </li>
 <li>General talking about their hobbies. </li></ul></li>
 The tasks don't have to cost anything. Free tasks are more thoughtful and show the client you are thinking about them.</ul>
-<p>Tasks should be completed whilst on client work. Once client work is completed, the developer should move onto the <a href="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/pages/default.aspx">Post Client Work</a> rule. </p>
+<p>Tasks should be completed whilst on client work. Once client work is completed, the developer should move onto the <a href="/Pages/Rules-to-Better-Software-Consultants---Dealing-with-Clients.aspx">Post Client Work</a> rule. </p>
 <p>Extra Reading&#58; For some, the above comes naturally. For the rest of us, we highly recommend the book &quot;How to Win Friends and Influence People&quot; written by Dale Carnegie. It is an easy read, the principles are easy to implement and will not only change your client relationships but enhance all the relationships in your life for the better.</p>
-<img src="/Management/Rules-To-Better-Software-Consultants-Dealing-With-Clients/PublishingImages/LoveClientsImage.jpg" alt="" /> <p>See <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulestoSuccessfulSalesAccountManagement.aspx#ReviewClientLove">Rules to Successful Sales Account Management</a></p>
+<img src="/PublishingImages/LoveClientsImage.jpg" alt="" /> <p>See <a href="/do-you-review-your-team-are-giving-＂client-love＂-to-your-customer-every-friday">Rules to Successful Sales Account Management</a></p>
 
 
 
