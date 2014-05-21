@@ -18,18 +18,17 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
           <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/createNewContact.gif" alt="Create New Contact Logo" />
+            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/Sales-COntacts.jpg" alt="Create New Contact Logo" style="width&#58;700px;" />
           </dt>
           <dd>
-            Figure&#58; Create New Contact
-          </dd>
+            Figure&#58; Click on Sales | Contacts in CRM 2013</dd>
         </dl>
         <dl class="goodImage">
           <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/NewContactEnterInformation.gif" alt="Create New Contact Information" />
+            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/NewContact.jpg" alt="Create New Contact Information" style="width&#58;700px;" />
           </dt>
           <dd>
-            Figure&#58; Enter Contact Information and click Save and Close.
+            Figure&#58; Click New, enter relevant&#160;contact information, and click Save and Close.
           </dd>
         </dl>
 
