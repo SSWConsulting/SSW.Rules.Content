@@ -21,7 +21,7 @@ related: []
             <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/Sales-COntacts.jpg" alt="Create New Contact Logo" style="width&#58;600px;height&#58;153px;" />
           </dt>
           <dd>
-            Figure&#58; Click on Sales | Contacts in CRM 2013</dd>
+            Figure&#58; <span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;line-height&#58;16px;">In CRM 2013,</span>&#160;click on Sales | Contacts</dd>
         </dl>
         <dl class="goodImage">
           <dt>
