@@ -17,19 +17,17 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
           <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/CRMCompany.gif" alt="Change CRM company Logo" />
+            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/Sales-Accounts.jpg" alt="Change CRM company Logo" style="width&#58;171px;" />​
           </dt>
           <dd>
-            Figure&#58; To enter new companies go to Microsoft CRM
-          </dd>
+            Figure&#58; In MS CRM 2013, click on Sales | Accounts</dd>
         </dl>
         <dl class="goodImage">
           <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/CRMNewCompanyInfo.gif" alt="Change CRM company Logo" />
+            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/NewAccount.jpg" alt="Change CRM company Logo" style="width&#58;171px;" />
           </dt>
           <dd>
-            Figure&#58; Create company profile
-          </dd>
+            Figure&#58; Click New, enter the required fields, and save and close​</dd>
         </dl>
 
 
