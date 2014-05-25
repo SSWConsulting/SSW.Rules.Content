@@ -24,9 +24,9 @@ redirects:
 <p>Both the Visual Studio Scrum and MSF for Agile project templates in TFS 2010 and 2012 provide a built-in &quot;Stories Overview&quot; report to help you find out where the project is at, as well as to tell you if all the tasks are well tested. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/Management/RulestoBetterSpecificationReviews/PublishingImages/StoriesOverviewReport.jpg" /> <br>
+  <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/PublishingImages/84d04e_StoriesOverviewReport.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
-<p>Tip&#58; Set this up on a <a href="/Management/RulesToBetterScrumUsingTFS/Pages/DailyReportsEmailedToTeam.aspx" shape="rect">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
+<p>Tip&#58; Set this up on a <a href="/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day" shape="rect">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
 <p>Suggestion for Microsoft #1&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>
 <p>Suggestion for Microsoft #2&#58; Add this great report to the Microsoft Scrum TFS Process Template.</p>
 <div class="ms-rteCustom-GreyBox">
@@ -35,7 +35,7 @@ redirects:
 <p>The problem with the answer is that developers almost always say 90% </p>
 <p><a href="http&#58;//twitter.com/adamcogan" shape="rect">@AdamCogan</a></p>
 </div>
-<p>Need to know $$$, read <a href="/Management/RulesToBetterProductOwners/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx" shape="rect">Do you get regular updates on costs and progress (aka Project Progress, Burndown, Story Overview)?</a> to see which reports you need to get&#160;a complete&#160;project progress overview.</p>
+<p>Need to know $$$, read <a href="/watch-do-you-get-regular-updates-on-costs-and-progress-(aka-project-progress-burndown-etc-)" shape="rect">Do you get regular updates on costs and progress (aka Project Progress, Burndown, Story Overview)?</a> to see which reports you need to get&#160;a complete&#160;project progress overview.</p>
 
 
 
