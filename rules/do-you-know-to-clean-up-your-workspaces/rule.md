@@ -23,7 +23,7 @@ related: []
 
 ​Every Workspace that exists on the server is another set of code that TFS has to check for checkouts. Worse you may have files checked out in that workspace that you will never see.
 <br><excerpt class='endintro'></excerpt><br>
-<p><img alt="The current workspace status " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/WorkspaceStatus.jpg" /></p>
+<p><img alt="The current workspace status " src="/PublishingImages/WorkspaceStatus.jpg" />&#160;</p>
 <dl><dd>Figure&#58; John has not accessed many of these workspaces in years! Are they still current? </dd></dl>
 <p>Use the Workspace Sidekick in <a href="http&#58;//www.attrice.info/cm/tfs/index.htm">Team Foundation Sidekicks</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> at the end of every month to make sure you have not forgotten anything.</p>
 
