@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>​It can sometimes be hard to work out when to use a lead vs a contact and company,or even an opportunity.</p> </span>
+<span class='intro'> <p>​It can sometimes be hard to work out when to use a lead vs a contact and company,&#160;​or even an opportunity.</p> </span>
 
 <table cellspacing="3" cellpadding="3" class="clsSSWTable">
           <tbody><tr>
