@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>
+<span class='intro'> <p>​
           Product Owner of a Company/Account should be included into the Job Title.
         </p> </span>
 
