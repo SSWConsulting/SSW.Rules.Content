@@ -19,6 +19,6 @@ authors:
         </ul>
         <p>
           <b>Hint&#58;</b> When you deactivate a client - put a note in the notes field to say
-          why first.</p>
+          why first.</p><p><img src="/PublishingImages/CRM-DeactivateContact.jpg" alt="CRM-DeactivateContact.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureNormal">​​​​​Figure&#58; Once a contact moves on or their details are no longer relevant, deactivate them<br></dd>
 
 
