@@ -84,13 +84,13 @@ related: []
         <b>Figure&#58; There is only one scenario where you would use a lead</b>
         <p>
           It is better to have all your contacts in one place rather than split over 2 separate
-          tables. Leads are not needed except as a data entry tool to help you link new contacts,
+          tables. Leads are not needed except as a d​ata entry tool to help you link new contacts,
           companies, and opportunities. See <a href="/Communication/RulesToBetterCRMForUsers/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">
-            Quick Way to create and opportunity, contact and account in one step</a>.</p>
+            Quick Way to create an&#160;opportunity, contact and account in one step</a>.</p>
         <p>
           The only legitimate use of leads is for completely unqualified data, e.g.</p>
         <ul>
-          <li>You buy a contact database (too large to contact each one of them to qualify)</li>
+          <li>You buy a contact database (too large to be able to contact each one of them to qualify)</li>
         </ul>
 
 
