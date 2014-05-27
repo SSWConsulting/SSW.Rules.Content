@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>
+<p>​
           Product Owner of a Company/Account should be included into the Job Title.
         </p>
 <br><excerpt class='endintro'></excerpt><br>
