@@ -20,8 +20,8 @@ authors:
           <dt>
             <img alt="Ribbon CRM section in email" src="/Communication/RulesToBetterCRMForUsers/PublishingImages/CRMSectionInEmail.jpg" /></dt>
           <dd>
-            Figure&#58; When you receive an important email, click the 'Track in CRM' button in
-            on the CRM toolbar
+            Figure&#58; When you receive an important email, click the 'Track' button in
+            on the CRM toolbar​
           </dd>
         </dl>
         <p>
@@ -31,8 +31,7 @@ authors:
           <dt>
             <img alt="Toolbar CRM section in Inbox" src="/Communication/RulesToBetterCRMForUsers/PublishingImages/CRMSectionInInbox.jpg" /></dt>
           <dd>
-            Figure&#58; A shortcut to the same 'Track in CRM' button exists on the CRM Toolbar
-          </dd>
+            Figure&#58; A shortcut to the same 'Track' button exists on the CRM Toolbar in your Inbox</dd>
         </dl>
 
 
