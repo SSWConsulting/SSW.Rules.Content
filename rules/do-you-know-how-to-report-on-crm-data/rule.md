@@ -21,6 +21,6 @@ related: []
 <dl class="goodImage">
    <dt>
       <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/report-crm-good.jpg" alt="" />
-   </dt><dd>Figure&#58; Good Example - The better way to do it is through CRM reports (built in SQL Reporting Services), as this gives you a reusable report you can come back to every time you need it​</dd></dl>
+   </dt><dd>Figure&#58; Good Example - The better way to do it is through CRM 2013&#160;​reports (built in SQL Reporting Services), as this gives you a reusable report you can come back to every time you need it​</dd></dl>
 
 
