@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<strong>Note&#58;</strong> Please make sure that there is no existing company before you make the entry.
+Although you can create a Contact first, it's better to always create the Company first so you don't​ get orphan Contacts.&#160;<br><div><strong><br></strong></div><div><strong>Tip #1&#58;</strong> Make sure that there is no existing company before you make the entry.</div><div><strong>Tip #2&#58;&#160;</strong>Generally you should be <a href="/Communication/RulesToBetterCRMForUsers/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">creating these from leads</a>, as it speeds up the process.<br></div>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
           <dt>
