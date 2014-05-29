@@ -29,10 +29,10 @@ related: []
           <li>Emails&#58; Sales related emails </li>
         </ul>
         <p>
-          All sales activities should be set regarding an opportunity, company or contact.</p>
+          All sales activities should be set regarding to&#160;an opportunity, company or contact.</p>
         <dl>
 <dt class="greyBox">
-<p>            From&#58; Marlon Marescia www.ssw.com.au <br>
+<p>            From&#58; Marlon Marescia​ www.ssw.com.au <br>
             Sent&#58; Thursday, 25 February 2010 10&#58;40 AM<br>
             To&#58; some-email-address<br>
             Subject&#58; RE&#58; Consulting<br></p>
