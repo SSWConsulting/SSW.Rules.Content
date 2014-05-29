@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​​Email newsletters&#160;can be sent and responses can be tracked using Microsoft Dynamic CRM 2013&#58;</p>
+<p>​​​Email newsletters&#160;can be sent and responses can be tracked using Microsoft Dynamic CRM 2013&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Find contacts that you&#160;will send the newsletters to. 
       <br>The first&#160;time - use 
@@ -24,7 +24,7 @@ related: []
       </dt><dd>
          <span style="font-size&#58;11px;">Figure&#58; 
             <strong>
-               <span style="font-family&#58;'segoe ui', sans-serif;">From the CRM home screen, hover your mouse over “Workplace”, and then click “Activities” in the menu that drops down&#160;</span></strong></span></dd></dl><dl class="image"><dt>
+               <span style="font-family&#58;'segoe ui', sans-serif;">From the CRM home screen, hover your mouse over “Workplace”, and then click “Contacts” in the menu that drops down&#160;</span></strong></span></dd></dl><dl class="image"><dt>
          <img src="/Communication/RulesToBetterCRMForUsers/SiteAssets/Pages/how-to-send-newsletter-in-Microsoft-CRM/crm02.png" alt="crm02.png" style="margin&#58;5px;width&#58;600px;height&#58;147px;" />
       </dt><dd>
          <span style="font-size&#58;11px;">Figure&#58; F<strong><span style="font-family&#58;'segoe ui', sans-serif;">rom the “Activities” page, click “…” | “Advanced Find”. This will activate a pop-up.</span></strong></span></dd></dl><dl class="image"><dt>
