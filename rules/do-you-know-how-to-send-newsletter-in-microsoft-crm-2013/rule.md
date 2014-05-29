@@ -18,7 +18,7 @@ related: []
 <p>​​Email newsletter can be sent and responses can be tracked using Microsoft Dynamic CRM 2013&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Find contacts that we will send the newsletters to by using 
-      <strong>Advanced Find</strong> in CRM 2013. In the instructions below we're only interested in New Zealand contacts.</li><div class="ssw-rteStyle-SSW-Only"><h1>Attention&#58; SSW Developers</h1><p>At SSW, we used different <b>System View</b> for different list of newsletter contacts, you don't have to perform an <b>Advanced Find</b> everytime you want to send the newsletter.</p></div><dl class="image"><dt> 
+      <strong>Advanced Find</strong> in CRM 2013. In the instructions below we're only interested in New Zealand contacts.</li><div class="ssw-rteStyle-SSW-Only"><h1>Attention&#58; SSW Developers</h1><p>At SSW, we used different <b>System View</b> for different list of newsletter contacts, you don't have to perform an <b>Advanced Find</b> every time​ you want to send the newsletter.</p></div><dl class="image"><dt> 
          <img src="/Communication/RulesToBetterCRMForUsers/SiteAssets/Pages/how-to-send-newsletter-in-Microsoft-CRM/crm01.png" alt="crm01.png" style="margin&#58;5px;width&#58;600px;" /> 
       </dt><dd><span style="font-size&#58;11px;">Figure&#58; <strong><span style="font-family&#58;'segoe ui', sans-serif;">From the CRM home screen, hover your mouse over
 “Workplace”, and then click “Activities” in the menu that drops down&#160;</span></strong></span></dd></dl><dl class="image"><dt> 
@@ -44,6 +44,6 @@ Zealand.</span></strong><br></dd></dl><li>Create the newsletter in Microsoft CRM
       <b>Next</b> to create all email activities in Microsoft CRM 2013.</li><li>If you're using&#58; 
       <ul><li> 
             <b>Microsoft CRM Outlook</b> for outgoing email, then you need to open your Microsoft Outlook, so the email activities can be promoted to Outlook and sent out. This method is slow because of the synchronization process between CRM and Microsoft Outlook and you need to leave outlook open during the entire process.</li><li> 
-            <b>Email router</b> for outgoing email, then those email activites will be sent out automatically by Email router. This method is our prefer method of sending the newsletter, CRM email router can be configured to send out newsletters immediately and user don't have to open Outlook while the emails are being processed.​</li></ul></li></ol>
+            <b>Email router</b> for outgoing email, then those email activities will be sent out automatically by Email router. This method is our prefer method of sending the newsletter, CRM email router can be configured to send out newsletters immediately and user don't have to open Outlook while the emails are being processed.​</li></ul></li></ol>
 
 
