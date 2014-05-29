@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <div><div><strong>Tip #1&#58;</strong>&#160;Search to see if the&#160;Contact&#160;​already exists before creating it to avoid duplicates.</div><div><strong>Tip #2&#58;&#160;</strong>Generally you should be&#160;<a href="/Communication/RulesToBetterCRMForUsers/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">creating these from leads</a>, as it speeds up​ the process.</div><br></div> </span>
+<span class='intro'> <div><div><strong>Tip #1&#58;</strong>&#160;Avoid duplicates -&#160;Search to see if the&#160;Contact&#160;​already exists before creating it.</div><div><strong>Tip #2&#58;&#160;</strong>Generally you should be&#160;<a href="/Communication/RulesToBetterCRMForUsers/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">creating these from leads</a>, as it speeds up​ the process.​</div></div> </span>
 
 <dl class="goodImage">
           <dt>
