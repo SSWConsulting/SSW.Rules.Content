@@ -13,10 +13,9 @@ related: []
 ---
 
 
-<p>
-          Once you create an opportunity, you should always click the &quot;Follow Up&quot; button to
+<p>Once you create an opportunity, you should click the &quot;Follow Up&quot; button to
           create an activity to call up the client after approximately 1 week. Each time you
-          make this call, you should complete this activity and create a new one, with a time
+          make this call, you should complete the&#160;activity and create a new one, with a time
           interval based on the specific circumstances of the opportunity.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image">
@@ -27,10 +26,10 @@ related: []
         </dl>
         <p>
           You can see your outstanding activities in your CRM workspace homepage, and this
-          should keep you on top of all of your current opportunities.<br>
+          should keep you on top of all of your current opportunities.</p><p><br>
           Make sure you never have an opportunity in CRM without a follow up activity against
-          it; otherwise you're just hoping that they will remember to call you?never a good
+          it; otherwise you're just hoping that they will remember to call you, which is&#160;never a good
           sales strategy.
-        </p>
+        <br><br>The alternative to CRM activities is to use <a href="/Communication/RulesToBetterEmail/Pages/FollowUpEmailsEffectively.aspx">FollowUpThen</a> instead. This is more convenient but is not centralised, meaning that&#160;​when a salesperson leaves an organisation, their opportunities will need to be handed over manually.</p>
 
 
