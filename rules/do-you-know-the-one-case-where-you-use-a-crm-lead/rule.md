@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>​It can sometimes be hard to work out when to use a lead vs a contact and company,&#160;​or even an opportunity.</p>
+<p>​​It can sometimes be hard to work out when to use a lead vs a contact and company,&#160;​or even an opportunity.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <table cellspacing="3" cellpadding="3" class="clsSSWTable">
           <tbody><tr>
@@ -58,10 +58,9 @@ related: []
           </tr>
           <tr>
             <td>
-              Random business cards from TechEd 2009
-            </td>
+              Random business cards from TechEd 2013</td>
             <td>
-              Contact + Tag &quot;Tech Ed 2009&quot;
+              Contact + Tag &quot;Tech Ed 2013&quot;
             </td>
           </tr>
           <tr>
@@ -82,10 +81,10 @@ related: []
           </tr>
         </tbody></table>
         <b>Figure&#58; There is only one scenario where you would use a lead</b>
-        <p>
+        <p><br></p><p>
           It is better to have all your contacts in one place rather than split over 2 separate
           tables. Leads are not needed except as a d​ata entry tool to help you link new contacts,
-          companies, and opportunities. See <a href="/Communication/RulesToBetterCRMForUsers/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">
+          companies, and opportunities. See <a href="/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">
             Quick Way to create an&#160;opportunity, contact and account in one step</a>.</p>
         <p>
           The only legitimate use of leads is for completely unqualified data, e.g.</p>
