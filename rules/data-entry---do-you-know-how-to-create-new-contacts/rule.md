@@ -13,8 +13,7 @@ related: []
 ---
 
 
-<strong>​Note&#58;</strong> In order to enter new contacts into CRM, the company the contact belongs to
- must first exist.
+<div><div><strong>Tip #1&#58;</strong>&#160;Make sure that there is no existing Contact before you make the entry.</div><div><strong>Tip #2&#58;&#160;</strong>Generally you should be&#160;<a href="/Communication/RulesToBetterCRMForUsers/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">creating these from leads</a>, as it speeds up​ the process.</div><br></div>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
           <dt>
