@@ -15,22 +15,21 @@ related: []
 ---
 
 
-<strong>Note&#58;</strong> In order to enter new opportunities into CRM, the company the opportunity belongs to must already&#160;exist. 
+You need to know what's in the sales pipeline, and the way to do that is by entering a potential sale and it's value.<div><strong><br></strong></div><div><strong>Note&#58;</strong> In order to enter new Opportunities into CRM, the company the Opportunity belongs to must already&#160;exist. </div>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage">
           <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/Sales-Opportunities.jpg" alt="Change CRM company Logo" style="width&#58;600px;height&#58;186px;" />
+            <img src="/PublishingImages/Sales-Opportunities.jpg" alt="Change CRM company Logo" style="width&#58;600px;height&#58;186px;" />
           </dt>
           <dd>
             Figure&#58; In CRM 2013, click on Sales | Opportunities​</dd>
         </dl>
         <dl class="goodImage">
           <dt>
-            <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/NewOpportunity.jpg" alt="Change CRM company Logo" style="width&#58;600px;height&#58;283px;" />
+            <img src="/PublishingImages/NewOpportunity.jpg" alt="Change CRM company Logo" style="width&#58;600px;height&#58;283px;" />
           </dt>
           <dd>
-            Figure&#58; Click New, enter as much details as possible, and then Click Save and Close.
-          </dd>
+            Figure&#58; Click New, enter the Opportunity, especially the $&#160;value and the chance of success</dd>
         </dl>
 
 
