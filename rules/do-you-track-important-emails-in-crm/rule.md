@@ -17,7 +17,7 @@ related: []
 ---
 
 
-Whenever you email a client with a correspondence that relates to an existing CRM opportunity (i.e. an &quot;as per our conversation&quot; about when you think the project would get going etc.) you should track it in CRM so it is centralised and can be seen by anyone else who tries to follow up that opportunity.
+​Whenever you email a client with a correspondence that relates to an existing CRM opportunity (i.e. an &quot;as per our conversation&quot; about when you think the project would get going etc.) you should track it in CRM so it is centralised and can be seen by anyone else who tries to follow up that opportunity.<div><br></div><div>You can see other activities worth tracking in&#160;​<a href="/Communication/RulesToBetterCRMForUsers/Pages/Track-all-sales-related-activities-in-CRM.aspx">Sales - Do you track all sales related activities in CRM?​​</a></div>
 <br><excerpt class='endintro'></excerpt><br>
  <p>
           The simplest way is, when writing or receiving the email, click the track in CRM
