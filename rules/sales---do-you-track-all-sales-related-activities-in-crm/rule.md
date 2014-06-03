@@ -17,8 +17,8 @@ related: []
 ---
 
 
-<p>Microsoft Dynamics CRM 2013&#160;allows users to track activities such as emails, appointments,
-          phone calls, etc. This feature can be easily abused by users to record unrelated
+<p>Microsoft Dynamics CRM 2013&#160;allows users to track activities such as <span style="line-height&#58;20.799999237060547px;">appointments</span>, phone calls,&#160;emails,
+​etc. This feature can be easily abused by users to record unrelated
           activities inside CRM. It is difficult sometimes to work out which type of activities
           should be recorded. These are the types of activities you should track in CRM&#58;
         </p>
