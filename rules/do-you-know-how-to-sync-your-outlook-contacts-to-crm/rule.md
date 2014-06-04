@@ -17,7 +17,7 @@ redirects: []
 
 
 <p>
-          It can be useful to have the contacts you deal with regularly in your outlook (for
+          It can be useful to have the contacts you deal with regularly in your O​utlook (for
           offline access and easy editing).
         </p>
 <br><excerpt class='endintro'></excerpt><br>
