@@ -15,12 +15,14 @@ authors:
 
 <span class='intro'> By default WordPress shows the whole article content on a post list. Knowing that some posts are quite long - taking a lot of real estate on the page - it's a good idea to summarize it and add a &quot;read more&quot; link.​  </span>
 
-<p>You can easily split your blog entries so that only the first part of certain posts is displayed on the home and archive pages. When you do this, a link will be placed after the intro, pointing the reader to the full post. To do so, find the &quot;Read More&quot; tag button in the first ​row of the visual editor toolbar or press 
-   <strong>Alt+Shift+T</strong>&#58; </p><dl class="goodImage"><dt>
-         <img src="/WebSites/RulesToBetterWordPress/PublishingImages/readmore-tag.png" alt="" />
-      </dt><dd>Figure&#58; Good example - click on the &quot;Read More&quot; tag on the post visual editor</dd></dl><h3>Custom Read More Message</h3> To customize the message, simply add a space after 
-   <strong> &lt;!--more</strong> and insert the text you want to show&#58; 
-   <dl class="image"><dt class="greyBox"><p>&lt;!--more 
-            <span class="ssw15-rteStyle-Highlight">Read the full post​</span>--&gt;</p></dt><dd>Figure&#58; Custom &quot;read more&quot; link</dd></dl>​<p>It&#160;can also&#160;be done&#160;it in the hard way, by editing the source index.php (or similar) file.​</p><dl class="badImage"><dt class="greyBox">replace &lt;?php the_content(); ?&gt; with &lt;?php&#160;<span class="ssw15-rteStyle-Highlight">the_excerpt();</span>&#160;?&gt;</dt><dd>Figure&#58; Bad example - changing source php files​</dd></dl>
+<p>You can split your blog entries so that only the first part of certain posts is displayed on the home and archive pages. When you do this, a link will be placed after the intro, pointing the reader to the full post.</p>
+
+To do so, you can either edit the source index.php (or similar) file; or just click the &quot;Read More&quot; tag button in the first ​row of the visual editor toolbar (or press <strong>Alt+Shift+T</strong>)&#58; <p></p><dl class="badImage"><dt class="greyBox">replace <strong>&lt;?php the_content(); ?&gt;</strong> with <strong>&lt;?php&#160;</strong><span class="ssw15-rteStyle-Highlight"><strong>the_excerpt();</strong></span><strong>&#160;?&gt;</strong></dt><dd>Figure&#58; Bad example - changing source php files is complicated​</dd></dl><dl class="goodImage"><dt> 
+      <img src="/WebSites/RulesToBetterWordPress/PublishingImages/readmore-tag.png" alt="" /> 
+   </dt><dd>Figure&#58; Good example - click on the &quot;Read More&quot; tag on the post visual editor</dd></dl><h3>Custom Read More Message</h3> To customize the message, simply add a space after 
+<strong> &lt;!--more</strong> and insert the text you want to show&#58; 
+<dl class="image"><dt class="greyBox"><p>&lt;!--more 
+         <span class="ssw15-rteStyle-Highlight">Read the full post​</span>--&gt;</p></dt><dd>Figure&#58; Custom &quot;read more&quot; link</dd></dl>​
+
 
 
