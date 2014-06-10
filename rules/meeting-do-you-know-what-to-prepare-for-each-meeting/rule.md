@@ -20,7 +20,7 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 <li>Be ready to answer&#160;the 3 main questions&#58;</li></ul>
 <blockquote dir="ltr" style="margin-right&#58;0px;"><blockquote dir="ltr" style="margin-right&#58;0px;"><blockquote dir="ltr" style="margin-right&#58;0px;"><p>What did you do yesterday?&#160;e.g. &quot;Yesterday I did xxx&quot;</p>
 <p>What&#160;are you&#160;doing today?&#160;e.g.&#160;&quot;Today I will do&#160;yyy&quot;&#160;</p>
-<p>Do you forsee&#160;any&#160;impediments or roadblocks?&#160;e.g. &quot;I might hit a roadblock today because of xxx&quot;</p></blockquote></blockquote></blockquote>
+<p>Do you foresee​&#160;any&#160;impediments or roadblocks?&#160;e.g. &quot;I might hit a roadblock today because of xxx&quot;</p></blockquote></blockquote></blockquote>
 <ul><li>Remember to say &quot;Let's Park&quot; that conversation for after the scrum&quot;. Major discussions are not to be conducted during the time boxed scrum meeting.</li>
 <li>Being online on Skype (especially for team members in different locations) Lync is better</li></ul>
 <p><strong>Related Links</strong></p>
@@ -41,11 +41,9 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 <ul><li>Having all your tasks and user stories from the last sprint closed </li>
 <li>Having your sprint feedback ready in advance, so members don’t need to think about it during the meeting, saving time </li>
 <li>Being clear and pointing issues that need further discussions </li></ul>
-<p><strong>Planning WHAT meetings</strong> - all members of the team must be well prepared by&#58;</p>
+<p><strong>Planning meetings</strong> - all members of the team must be well prepared by&#58;</p>
 <ul><li>Having all bugs and&#160;User Stories&#160;up-to-date on the backlog </li>
-<li><span style="font-family&#58;verdana, sans-serif;font-size&#58;10pt;">Having all stories on the backlog “groomed” in order of priority (according to the Product Owner)​</span></li></ul>
-<p><strong>Planning HOW meetings</strong> - all members of the team must be well prepared by&#58;</p>
-<ul><li>Understanding all Stories and Product Owner’s priorities </li>
+<li><span style="font-family&#58;verdana, sans-serif;font-size&#58;10pt;">Having all stories on the backlog “groomed” in order of priority (according to the Product Owner)​</span></li><li>Understanding all Stories and Product Owner’s priorities </li>
 <li>Being responsible on estimates </li>
 <li>Volunteering to be owner of stories and tasks, even if they are not related to your best skills – read <a href="/Management/RulesToBetterScrumUsingTFS/Pages/BeingMultiSkilled.aspx" shape="rect">Do you encourage multi-skilled teams?</a> &#160; </li></ul>
 
