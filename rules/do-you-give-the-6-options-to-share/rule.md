@@ -15,7 +15,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 ​
 <dl class="goodImage"><dt>
-      <img alt="social networks links" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/social-networks.jpg" />
+      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/social-networks.jpg" alt="social networks links" />
    </dt><dd>Figure&#58; Good example – User can easily share information via 6 avenues, Google+, Twitter, Facebook, email, SMS, and copy to clipboard for pasting.</dd></dl><p>
    <br>
 </p>
