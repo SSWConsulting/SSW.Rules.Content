@@ -16,13 +16,13 @@ related: []
 <li>Buttons can be pressed</li>
 <li>Scrollbar moves the document in the window</li></ol>
 <br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-Affordance2.jpg" alt="False affordance" /></dt>
+​<dl class="badImage"><dt><img alt="False affordance" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-Affordance2.jpg" /></dt>
 <dd>Figure&#58; Bad Example - The affordance of the checkbox makes this UI misleading</dd></dl>
-<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-FalseAffordance.jpg" alt="False affordance" /></dt>
+<dl class="badImage"><dt><img alt="False affordance" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-FalseAffordance.jpg" /></dt>
 <dd>Figure&#58; Bad Example - If this mop sink didn't look so much like a urinal and wasn't right next to the toilet, maybe the sign wouldn't be necessary.</dd></dl>
-<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-Affordance3.jpg" alt="False affordance" /></dt>
+<dl class="badImage"><dt><img alt="False affordance" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-Affordance3.jpg" /></dt>
 <dd>Figure&#58; Bad Example – It might not have been a good idea to place a male policeman where the exhaust pipe is.</dd></dl>
-<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-Affordance.jpg" alt="False affordance" /></dt>
+<dl class="badImage"><dt><img alt="False affordance" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-Affordance.jpg" /></dt>
 <dd>Figure&#58; Bad Example - Old MS Word - Because of the UI, people never knew they could use styles e.g. normal, H1, H2</dd></dl>
 <dl class="goodImage"><dt><img width="570px" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Good-Affordance.jpg" alt="" /></dt>
 <dd>Figure&#58; Good Example - New MS Word - Because of the new ribbon UI, people intuitively know how to use styles</dd></dl>
