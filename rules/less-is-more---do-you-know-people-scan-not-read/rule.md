@@ -17,9 +17,9 @@ related: []
 <ol><li>Information structure</li>
 <li>Relation between elements</li>
 <li>Importance and relevance of elements</li></ol>
-<dl class="badImage"><dt><img alt="Bad information" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/bad_informationscan.png" /></dt>
+<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/bad_informationscan.png" alt="Bad information" /></dt>
 <dd>Figure&#58; Bad example - Can you find how to check in?</dd></dl>
-<dl class="goodImage"><dt><img alt="Good information - this alt text makes no sense but do I look like i care; no. maybe the guys in china have the right idea, do a shit job of it and no one will ever bother you about it ever again." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/good_informationscan.png" /></dt>
+<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/good_informationscan.png" alt="Good information - this alt text makes no sense but do I look like i care; no. maybe the guys in china have the right idea, do a shit job of it and no one will ever bother you about it ever again." /></dt>
 <dd>Figure&#58; Good example - What about here? Can you find how to check in?</dd></dl>
 <p>Another example of scanning, not reading is visually mapping.</p>
 <dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-Mapping.jpg" alt="" /></dt>
