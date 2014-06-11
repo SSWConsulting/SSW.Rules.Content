@@ -15,17 +15,17 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 ​ 
 <dl class="badImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/weblogin_bad.gif" alt="sample of logged in page" /> 
+      <img alt="sample of logged in page" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/weblogin_bad.gif" /> 
    </dt><dd>Figure&#58; Bad Example on Web form - The user is logged in, but it isn't very clear</dd></dl><dl class="goodImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/weblogin_good.gif" alt="sample of logged in page" /> 
+      <img alt="sample of logged in page" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/weblogin_good.gif" /> 
    </dt><dd>Figure&#58; Good Example on Web form - It's clear that the user is logged in</dd></dl><dl class="badImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/winlogin_bad.gif" alt="sample of logged in form" /> 
+      <img alt="sample of logged in form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/winlogin_bad.gif" /> 
    </dt><dd>Figure&#58; Bad Example on Win form - The user is logged in, but it isn't very clear</dd></dl><dl class="goodImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BetterInterface_sqlAuditorLogin.jpg" alt="sample of logged in form" /> 
+      <img alt="sample of logged in form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BetterInterface_sqlAuditorLogin.jpg" /> 
    </dt><dd>Figure&#58; Good Example on Win form - It's clear that the user is logged in</dd></dl><dl class="goodImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/weblogoff.gif" alt="sample of logged off page" /> 
+      <img alt="sample of logged off page" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/weblogoff.gif" /> 
    </dt><dd>Figure&#58; Good Example on Web form - Logged off state</dd></dl><dl class="ssw15-rteElement-ImageArea">
-   <img alt="MetroLoggedIn.jpg" src="/DesignandPresentation/RulestoBetterInterfacesGeneral/SiteAssets/Pages/Authentication---Do-you-make-the-logged-in-state-clear/MetroLoggedIn.jpg" style="margin&#58;5px;" />
+   <img src="/PublishingImages/MetroLoggedIn.jpg" alt="MetroLoggedIn.jpg" style="margin&#58;5px;" />
 </dl><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example – Metro UI’s new logged in state 
    <br></dd>
 
