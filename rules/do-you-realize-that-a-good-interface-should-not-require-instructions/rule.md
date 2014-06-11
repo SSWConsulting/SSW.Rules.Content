@@ -27,9 +27,9 @@ related: []
 <li>Good error handling</li>
 <li>Easy to customize + apps (aka a platform)</li>
 <li>Gamification e.g. badges</li></ul>
-<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodUITeamViewer.png" alt="Team Viewer Interface" /></dt>
+<dl class="goodImage"><dt><img alt="Team Viewer Interface" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodUITeamViewer.png" /></dt>
 <dd>Figure&#58; Good example - Teamviewer's interface requires very little explanation</dd></dl>
-<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/FlyInUrinal.jpg" alt="Fly in a Urinal" /></dt>
+<dl class="goodImage"><dt><img alt="Fly in a Urinal" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/FlyInUrinal.jpg" /></dt>
 <dd>Figure&#58; Good Example - See the fly? (an example of excellent usability) Dutch manufacturers realized that a fly painted on the urinal became a &quot;target&quot; for men using the facility. And the fly is positioned in precisely the right place for minimal spillage or splash back. Clever people those Dutch!</dd></dl>
 
 
