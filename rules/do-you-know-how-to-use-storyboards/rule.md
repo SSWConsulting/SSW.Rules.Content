@@ -13,6 +13,6 @@ related: []
 
 <p>Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. Spend more time on mockups compared with time on documentation.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<a href="/Management/RulesToSuccessfulProjects/Pages/SpecificationByMockUp.aspx">Read more about storyboarding</a>
+<a href="/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups" target="_blank">Read more about storyboarding</a>
 
 
