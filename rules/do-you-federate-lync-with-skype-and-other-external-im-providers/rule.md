@@ -19,9 +19,9 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <p>Frequently Asked Questions about Provisioning your Lync Server Deployment for PIC (Public IM Connectivity) can be found <a target="_blank" href="https&#58;//pic.lync.com/provision/Logon/FAQ.htm">here</a>.</p>
 
-<p>Some businesses such as SSW used MSN accounts to improve collaboration with Partners and clients. Now that Lync has the ability to federate with public IM services, we have banned the usage of MSN as Lync is now federated with MSN. Important to note that when you make a provisioning request for federation with Windows Live and specify a domain (such as SSW.com.au) as one of your SIP domains, you are reserving that domain for your organization's Lync Server instant messaging system. Affected Windows Live users must change their Windows Live IDs if this is associated with SSW.com.au in our example.</p>
+<p>Some businesses such as SSW used Microsoft accounts to improve collaboration with Partners and clients. Now that Lync has the ability to federate with public IM services, we have banned the usage of Skype,​ as Lync is now federated with Skype. Important to note that when you make a provisioning request for federation with Windows Live and specify a domain (such as SSW.com.au) as one of your SIP domains, you are reserving that domain for your organization's Lync Server instant messaging system. Affected Windows Live users must change their Windows Live IDs if this is associated with SSW.com.au in our example.</p>
 
-<p>Lync Server enables one-to-one audio and video exclusively to PIC contacts that are homed to the MSN service. This change enables corporate users with a strong MSN presence outside of work to reduce the need to run a separate client on their corporate workstation, yet maintain a robust communications experience.</p>
+<p>Lync Server enables one-to-one audio and video exclusively to PIC contacts that are homed to the Skype service. This change enables corporate users with a strong&#160;presence outside of work to reduce the need to run a separate client on their corporate workstation, yet maintain a robust communications experience.</p>
 
 <p>You can request to have your Lync provisioned with PIC via <a target="_blank" href="https&#58;//pic.lync.com/">this link</a>.</p>
 
