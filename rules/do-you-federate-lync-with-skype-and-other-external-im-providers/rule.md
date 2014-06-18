@@ -15,7 +15,7 @@ related: []
 ---
 
 
-Lync supports &quot;federation&quot; - enabling interoperability with other IM networks. Lync Server enables organizations to interoperate with four external IM services&#58; AOL Instant Messenger, .NET Messenger Service, Yahoo! Messenger, and Google Talk. 
+​Lync supports &quot;federation&quot; - enabling interoperability with other IM networks. Lync Server enables organizations to interoperate with four external IM services&#58; AOL Instant Messenger, .NET Messenger Service, Yahoo! Messenger, and Google Talk. 
 <br><excerpt class='endintro'></excerpt><br>
 <p>Frequently Asked Questions about Provisioning your Lync Server Deployment for PIC (Public IM Connectivity) can be found <a target="_blank" href="https&#58;//pic.lync.com/provision/Logon/FAQ.htm">here</a>.</p>
 
