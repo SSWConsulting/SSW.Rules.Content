@@ -13,7 +13,7 @@ related: []
 ---
 
 
-The Lync meeting experience is designed to allow people to collaborate productively from different locations. In Microsoft Lync, conference call leaders are referred to as presenters. The meeting organizer is automatically a leader.
+​The Lync meeting experience is designed to allow people to collaborate productively from different locations. In Microsoft Lync, conference call leaders are referred to as presenters. The meeting organizer is automatically a leader.
 <br><excerpt class='endintro'></excerpt><br>
 <p>Lync presenter's best practices can be found 
    <a target="_blank" href="http&#58;//office.microsoft.com/en-us/communicator-help/organizer-and-presenter-best-practices-HA102006921.aspx">here</a>.</p><h3>Features</h3> 
