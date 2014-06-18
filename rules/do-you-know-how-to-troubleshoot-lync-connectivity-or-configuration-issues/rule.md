@@ -24,9 +24,9 @@ At times especially during the initial implementation you may encounter some iss
 </ul>
 <img src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/lync-auto-discovery.jpg" alt="Lync Auto-discovery" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Lync Auto-Discovery Mobility DNS record</span>
-<h2>Lync Monitoring Reports</h2>
+<h3 class="ssw15-rteElement-H3">Lync Monitoring Reports</h3>
 <p>The Monitoring Server collects data from the call detail recording (CDR) and Quality of Experience (QoE) databases and presents that data with the help of the SQL Server Reporting Services and the predefined Monitoring reports. These reports will show statistics which will assist in identifying issues such as network issues such as latency and packet loss.</p>
-<h2>Internet Network connectivity tests</h2>
+<h3 class="ssw15-rteElement-H3">Internet Network connectivity tests</h3>
 <p>Tools such as <a href="http&#58;//pingtest.net/" target="_blank">Pingtest.net</a> and VisualRoute 2010 will assist in highlight problems related latency and packet loss.</p>
 <img src="/ITAndNetworking/Rules-to-Better-Lync/PublishingImages/visualroute-tool.jpg" alt="VisualRoute 2010 tool" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; VisualRoute 2010 tool showing a test to a Google DNS server</span>
