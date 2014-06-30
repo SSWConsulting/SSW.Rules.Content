@@ -15,7 +15,7 @@ related: []
 ---
 
 
-When discussing client work in an email, it is not always clear which client you are referring to. By using the ClientID as your email subject prefix, those involved in the email conversation will immediately know which client you are talking about.
+<p>When discussing client work in an email, it is not always clear which client you are referring to. By using the ClientID as your email subject prefix, those involved in the email conversation will immediately know which client you are talking about.</p><p><img src="/Communication/RulesToBetterOutsourcing/PublishingImages/AddClientAsEmailSubjectPrefix.png" alt="" style="margin&#58;5px;" />&#160;</p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
