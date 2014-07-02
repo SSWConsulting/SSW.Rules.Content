@@ -24,12 +24,7 @@ If a product owner sends an email to the development team with a request, that e
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt> 
       <img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/email-to-tfs-1.jpg" alt="" /> 
-   </dt><dd>Figure&#58; Team Companion lets you create a new work item straight from an email</dd></dl><p> 
-   <strong>Note&#58;</strong> Once you've moved the email into TFS as work item, you should delete the original email from your inbox or move it to a outlook folder called &quot;Moved to TFS&quot; to avoid duplication.</p><p>It is just as important to let the client know that a request has been turned into a Work Item.</p><p>Using Team Companion, you can navigate to the appropriate Work Item and click the Send button.  This will let you send an email to the Product Owner with the details of the Work Item including a link to the work item in Web Access.</p><dl class="image"><dt> 
-      <img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/email-to-tfs-2.jpg" alt="" /> 
-   </dt><dd>Figure&#58; The Send button when looking at a User Story in Team Companion</dd></dl><dl class="image">​​​
-   <dt> 
-      <img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/email-to-tfs-3.jpg" alt="" /> 
-   </dt><dd>Figure&#58; Sending an email using Team Companion keeps the Product Owner in the loop</dd></dl> ​
+   </dt><dd>Figure&#58; Team Companion lets you create a new work item straight from an email</dd></dl><p>If the email's contents or subject do not need changing, then no response email is required. This would create another unnecessary email in the world.<br></p><p>However, if the subject is unclear, send a response as per the rules&#160;<a href="/Communication/RulesToBetterEmail/Pages/WhenToChangeEmailSubject.aspx">http&#58;//rules.ssw.com.au/Communication/RulesToBetterEmail/Pages/WhenToChangeEmailSubject.aspx​</a> and&#160;<a href="/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx">http&#58;//rules.ssw.com.au/Communication/RulesToBetterEmail/Pages/ImportanceOfAGoodSubject.aspx​</a>.</p><p>If the request from the client is too large for one Work Item, then it will need to be turned into multiple Work Items as per the rule&#160;<a href="/Management/RulestoBetterSpecificationReviews/Pages/TaskUnderFourHours.aspx">http&#58;//rules.ssw.com.au/Management/RulestoBetterSpecificationReviews/Pages/TaskUnderFourHours.aspx​​</a>. In this case, you will need to let the client know this and include URLs to each Work Item.</p><p> 
+   <strong>Note&#58;</strong> Once you've moved the email into TFS as work item, you should delete the original email from your inbox or move it to a outlook folder called &quot;Moved to TFS&quot; to avoid duplication.​<span style="line-height&#58;20px;">​</span></p>
 
 
