@@ -25,17 +25,16 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad">
                     <dt>
-                    [Appointment to SSWAbsence and SSWAdmin]<br><br>
-                    Hi Admin,<br>
+                    [Appointment to SSWAbsence]<br><br>
+                    Hi SSW Absence,<br>
                     I'm going to Brazil for 2 weeks on Monday... wish me luck &#58;)
                     </dt>
                 <dd>
                       Figure&#58; Bad Example - not enough notice for substantial leave</dd></dl>
                 <dl class="good">
                     <dt>
-                    [Appointment to SSWAbsence and SSWAdmin]<br>
-                    FYI (You can delete this since it will be shown on the SSWAbsence calendar)<br><br>
-                    Hi Admin,<br>
+                    [Appointment to SSWAbsence]<br><br>
+                    Hi <span style="background-color&#58;#f5f5f5;">SSW Absence</span>​,<br>
                     I want to book a ticket to go to Brazil for 2 weeks.<br>
                     I'd like to leave in about 4 weeks.<br>
                     Please approve
