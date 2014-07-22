@@ -13,8 +13,9 @@ related: []
 ---
 
 
-<iframe width="682" height="384" src="http&#58;//www.youtube.com/embed/YkWn_3j8VJw?rel=0" frameborder="0"></iframe>​
-<p>​OK you say you do Scrum, but do you use the &quot;Business Value&quot; field?</p><p>​​That's OK, most teams don't... but it is a terrible shame, because developers go to the trouble of estimating 'Effort' and if you have Effort, all you need is Business Value and you can calculate ROI. </p><p>Once you have ROI a Product Owner can use the ROI field to sort priority. Awesome.</p>
+​
+<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive" unselectable="on"><iframe width="682" height="384" src="http&#58;//www.youtube.com/embed/YkWn_3j8VJw?rel=0" frameborder="0"></iframe>&#160;</div>
+<p>​​OK you say you do Scrum, but do you use the &quot;Business Value&quot; field?</p><p>​​That's OK, most teams don't... but it is a terrible shame, because developers go to the trouble of estimating 'Effort' and if you have Effort, all you need is Business Value and you can calculate ROI. </p><p>Once you have ROI a Product Owner can use the ROI field to sort priority. Awesome.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>ROI (Return on Investment) is an unbelievably simply calculation.</p><dl class="image"><dt> 
       <img src="/Management/RulesToBetterScrumUsingTFS/PublishingImages/business-value-field.jpg" alt="Business Value field" />
