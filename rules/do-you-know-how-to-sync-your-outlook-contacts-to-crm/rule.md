@@ -16,13 +16,12 @@ related: []
 
 
 <p>
-          It can be useful to have the contacts you deal with regularly in your O​utlook (for
+          It can be useful to have the contacts you deal with regularly in your O​​utlook (for
           offline access and easy editing).
         </p>
 <br><excerpt class='endintro'></excerpt><br>
- <p>
-          Contacts that you create or have transferred to you are tagged as your &quot;Active contacts&quot;.
-          These are the only ones that will sync from CRM to your Outlook.&#160;</p>
+ <p>Contacts that you create or have transferred to you are tagged as your &quot;Active contacts&quot;.
+<span style="line-height&#58;20.799999237060547px;">By default, t</span>hese are the only ones that will sync from CRM to your Outlook. You can, however configure this to use any criteria you want to decide which contacts to sync.</p>
         <p>
           To do this, in Outlook, click File |&#160;CRM | Option​s | Synchronization, and click Outlook Filters.
         </p>
@@ -33,7 +32,7 @@ related: []
         </dl>
         <p>
           Remember, if your Outlook syncs to your mobile device, and you have a very large
-          number of active contacts under your name, often it is not a scalable option to sync
+          number of active contacts under your name,&#160;it may&#160;not be&#160;a scalable option to sync
           to CRM as you may get too many contacts to easily deal with.
         </p><p><span style="line-height&#58;20.799999237060547px;">In Outlook, you can also&#160;choose which of your personal contacts you want to sync to CRM by using the toolbar option &quot;Track&quot; and &quot;Set Parent&quot; (i.e. company).​</span><br></p>
 
