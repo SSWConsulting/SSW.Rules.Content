@@ -25,6 +25,6 @@ related: []
 <dd>Figure&#58; Bad example - if this was a popup form it would be easier to focus on where to look (as a minimum you would be looking at half the screen)</dd></dl>
 <dl class="goodImage"><dt><img alt="Adobe Illustrator" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Popup02.jpg" /></dt>
 <dd>Figure&#58; Good example - the popup with the dimmed background is much more intuitive</dd></dl>
-<div>For example, adding a webpart in SharePoint 2010 should use a popup form. <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/sharepoint2010.aspx#PopupForm">See our suggestion to Microsoft</a>.</div>
+<div>For example, adding a webpart in SharePoint 2010 should use a popup form. <a href="http&#58;//www.ssw.com.au/ssw/standards/BetterSoftwareSuggestions/sharepoint.aspx#PopupForm">See our suggestion to Microsoft</a>.</div>
 
 
