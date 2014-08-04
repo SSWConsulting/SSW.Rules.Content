@@ -21,22 +21,7 @@ related: []
 ---
 
 
-<ul>The best way of getting the most out of TFS is to have a 'TFS master'. A 'TFS master' is like a Scrum Master but only interested in helping you get 100% from TFS&#58; <li>Taking you beyond, TFS as a source control system </li>
-<li>Getting TFS to help you on a proper ALM road </li>
-<li>Make sure that Build are created and managed properly by the developers </li>
-<li>Manage the Build servers (builds themselves are the responsibility of the developers) </li>
-<li>Check the builds are fit for purpose, and that unit tests are included </li>
-<li>Deployment is fine and working properly </li>
-<li>Checking Wix files </li>
-<li>Checking the right check-in policies are enabled </li>
-<li>Code analysis is enabled and getting stronger </li>
-<li>Code auditor is running </li>
-<li>Checking the reports are looking healthy </li>
-<li>Clean up unused Workspaces (this removes old check outs by default) </li>
-<li>Make sure all patches are applied to the servers </li>
-<li>Send out check-in warnings every week to people which have left over check outs. (No task should take longer than 8 hours) </li>
-<li>etc... </li></ul>
-<p>These duties need to be taken care of on a regular basis.</p>
+<p>​The best way of getting the most out of TFS is to have a &quot;TFS Master&quot;. A TFS Master is like a Scrum Master but is only interested in helping you get 100% from TFS.</p><p>It's important to note that a TFS Master is not a management position. It's simply a role that encourages the team to use TFS in the best way possible. With a specialist knowledge of TFS, they're in the best position to know what should change and what could be done better.</p><p>Some of the things they should focus on are&#58;</p><ul><li>​Taking you beyond TFS as just a source control system</li><li>Using TFS to help you on a proper ALM road</li><li>Making sure that automated builds are created and managed properly by the developers</li><li>Managing the build servers if additional help is needed (builds themselves are the responsibility of the developers)</li><li>Checking the builds are fit for purpose, and that unit tests are included</li><li>Checking that deployment is working properly</li><li>Checking the right check-in policies are enabled and developers are leaving meaningful check-in or commit messages</li><li>Ensuring code analysis is enabled and getting stronger</li><li>Ensuring Code Auditor is running</li><li>Cleaning up unused Workspaces (this removes old check-outs by default)</li><li>Making sure all patches are applied to the servers (they might not do the work, but they make sure it's being done)</li><li>If the team is using TFVC with Server Workspaces, sending out check-in warnings every week to people which have left over check-outs as per the <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#CheckinRegularly" title="Do you make small changes and check in early and often">Do you make small changes and check in early and often?</a> rule</li></ul><p>These duties need to be taken care of on a regular basis, but most of all, the all members of the team should be encouraged to improve things themselves.</p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
