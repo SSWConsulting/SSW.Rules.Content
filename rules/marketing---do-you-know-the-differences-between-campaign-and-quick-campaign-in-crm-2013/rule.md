@@ -17,6 +17,6 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt> 
       <img alt="Color of CRM Development Server" src="/Communication/RulesToBetterCRMForUsers/PublishingImages/CampaignVSQuickCampaign.jpg" />
-   </dt><dd> Figure&#58; Campaign VS Quick Campaign flowchart.</dd></dl><p>A Campaign can extend over a long period of time, with potentially multiple different media types being used for a common purpose. It has extensive meta-data to both plan activities and then show rep​orts on results.<br></p><p>A quick campaign, however,&#160;is for a one-off distribution of emails to a targeted group of contacts.</p>
+   </dt><dd> Figure&#58; Campaign VS Quick Campaign flowchart.</dd></dl><p>A Campaign can extend over a long period of time, with potentially multiple different media types being used for a common purpose. It has extensive meta-data to both plan activities and then show rep​orts on results.​ e.g.<br></p><ul><li><span style="line-height&#58;1.6;">​</span><span style="line-height&#58;1.6;">​A monthly newsletter</span><br></li><li><span style="line-height&#58;1.6;">A flyer campaign</span></li><li><span style="line-height&#58;1.6;">A cold-calling campaign</span></li></ul><p>A Quick Campaign, however,&#160;is for a one-off distribution of emails to a targeted group of contacts. e.g.</p><ul><li><span style="line-height&#58;1.6;">​Letting your local clients know about an upcoming event by email​</span><br></li></ul>
 
 
