@@ -20,8 +20,8 @@ related: []
           offline access and easy editing).
         </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Contacts that you create or have transferred to you are tagged as your &quot;Active contacts&quot;. 
-   <span style="line-height&#58;20.799999237060547px;">By default, t</span>hese are the only ones that will sync from CRM to your Outlook. You can, however configure this to use any criteria you want to decide which contacts to sync.</p><p> To do this, in Outlook, click File |&#160;CRM | Option​s | Synchronization, and click Outlook Filters. </p><p><br></p><dl class="image"><dt> 
+<p>Contacts that you create or are allocated&#160;to you (that have not been deactivated)&#160;are your &quot;Active Contacts&quot;. 
+   <span style="line-height&#58;20.799999237060547px;">By default, t</span>hese are the only ones that will sync from CRM to your Outlook. You can, however configure this to use any criteria you want to decide which contacts to sync.​</p><p> To do this, in Outlook, click File |&#160;CRM | Option​s | Synchronization, and click Outlook Filters. </p><p><br></p><dl class="image"><dt> 
       <img src="/Communication/RulesToBetterCRMForUsers/PublishingImages/ContactSynchronizationEnabled.jpg" alt="Contact Synchronization enabled" />
    </dt><dd>Figure&#58; Contact Synchronization enabled in&#160;MS&#160;Outlook 2013</dd></dl><p><span style="line-height&#58;20.799999237060547px;">In Outlook, you can also&#160;choose which of your personal contacts you want to sync to CRM by using the toolbar option &quot;Track&quot; and &quot;Set Parent&quot; (i.e. company).​</span><span style="line-height&#58;20.799999237060547px;">​</span><br></p><p>
    <strong>You now know how to do this, although it is not recommended</strong></p><p>
