@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> The rule structure is&#160;http&#58;//rules.ssw.com.au/RuleCategory/Rule-SubCategory/Pages/rule-title.aspx.<div><br></div><div>Here is how you&#160;create&#160;a <b>new</b> <b>rule category</b>&#58;<b></b></div> </span>
+<span class='intro'> ​The rule structure is&#160;http&#58;//rules.ssw.com.au/RuleCategory/Rule-SubCategory/Pages/rule-title.aspx.<div><br></div><div>Here is how you&#160;create&#160;a <b>new</b> <b>rule category</b>&#58;<b></b></div> </span>
 
 <ol><li> 
       <span style="line-height&#58;1.6;">​​Go to&#160;<a href="/">http&#58;//rules.ssw.com.au</a></span><br></li><li> 
