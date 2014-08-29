@@ -20,10 +20,10 @@ redirects:
 ---
 
 
-<p>​The word “integrity” can be loaded with ethical connotations, so let me define my meaning&#58;</p>
+<p>​The word “integrity” can be loaded with ethical connotations, but in this context, integrity means&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p class="p1">​Integrity is&#58;</p><ol class="ol1"><li class="li2"> 
-      <strong>Being true to your word</strong> 
+<ol class="ol1"><li class="li2"> 
+      <strong>​Being true to your word</strong> 
       <ol style="list-style-type&#58;lower-alpha;"><li>This means doing what you say you’d​&#160;do, by the time you said you’d do it</li></ol></li><li> 
       <strong>If you can’t deliver on your promise, have a plan for a path forward</strong> 
       <ol style="list-style-type&#58;lower-alpha;"><li>If you can’t get the agreed task done by the deadline, tell the person why and set a new deadline, or agree on a different deliverable.&#160;</li><li class="li2">Never leave them guessing</li></ol></li><li class="li2"> 
