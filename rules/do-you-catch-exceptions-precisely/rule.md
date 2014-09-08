@@ -13,9 +13,9 @@ authors:
 
 
 
-<span class='intro'> <p>​In the try and catch block, if you always catch for normal 
+<span class='intro'> <p>​​In the try and catch block, if you always catch for normal 
    <a href="http&#58;//msdn.microsoft.com/en-us/library/system.exception.aspx">
-      <span class="s1">Exception</span></a> you will never know where the true problem is. When using try we should always expect some exception may happen, in our code we always catch the specific exceptions.</p> </span>
+      <span class="s1">Exception</span></a> you will never know where the true problem is. When using try you&#160;should always expect some exception may happen, so&#160;in our code we always catch the specific exceptions.</p> </span>
 
 <dl class="bad"><dt><pre>try 
 &#123; 
