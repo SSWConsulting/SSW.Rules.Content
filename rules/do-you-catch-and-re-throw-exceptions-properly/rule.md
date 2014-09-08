@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-<p>A good catch and re-throw will make life easier while debugging, a bad catch and re-throw will ruin the exception's stack trace and make debugging difficult.</p>
+<p>​A good catch and re-throw will make life easier while debugging, a bad catch and re-throw will ruin the exception's stack trace and make debugging difficult.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad"><dt><pre>catch &#123;&#125; 
 <span style="color&#58;#ff0000;">(Never use an empty catch block. Do something in the block or remove it.)</span>
