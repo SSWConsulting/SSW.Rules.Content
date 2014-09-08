@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>A good catch and re-throw will make life easier while debugging, a bad catch and re-throw will ruin the exception's stack trace and make debugging difficult.</p> </span>
+<span class='intro'> <p>​A good catch and re-throw will make life easier while debugging, a bad catch and re-throw will ruin the exception's stack trace and make debugging difficult.</p> </span>
 
 <dl class="bad"><dt><pre>catch &#123;&#125; 
 <span style="color&#58;#ff0000;">(Never use an empty catch block. Do something in the block or remove it.)</span>
