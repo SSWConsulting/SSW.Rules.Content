@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>​Never use On Error Resume Next in VB (and VB.NET) projects.<br>
+<p>​​Never use On Error Resume Next in VB (and VB.NET) projects.<br>
 <br>
 If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling.</p>
 <br><excerpt class='endintro'></excerpt><br>
