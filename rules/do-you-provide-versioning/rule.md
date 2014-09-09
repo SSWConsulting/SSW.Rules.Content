@@ -14,8 +14,7 @@ authors:
 <span class='intro'> <p>As an API provider, one of your most important tasks is to make sure that breaking changes will never occur in your API. Making breaking changes will make life difficult for the developers who depend on your service and can easily start causing frustration when things start to break.</p> </span>
 
 <p>There are typically three main ways people provide versioning.</p><ol><li> 
-      <strong>Change the URL&#58;</strong> Append a version number in the path<br>e.g. 
-      <a href="/SoftwareDevelopment/RulesToBetterWebAPI/Pages/">https&#58;//dimensiondataaperture.com/api/v2/account/</a> 
+      <strong>Change the URL&#58;</strong> Append a version number in the path<br>e.g. <a href="https&#58;//developer.github.com/v3/">https&#58;//developer.github.com/v3/</a>
       <ol style="list-style&#58;lower-alpha;"><li>Best choice for anonymous API access (callers may not be authenticated)</li><li>E.g. Github, Twitter​</li></ol></li><li>
       <strong>Based upon caller&#58;</strong> The caller has been authenticated and you determine the version of the API based upon the customer's record. 
       <ol style="list-style&#58;lower-alpha;"><li>Your URL's never change</li><li>Allows you to see the oldest version that customers are using and notifying customers to upgrade</li><li>E.g. Salesforce</li></ol></li><li>
