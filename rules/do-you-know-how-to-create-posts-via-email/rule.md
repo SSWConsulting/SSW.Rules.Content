@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p><span style="font-family&#58;arial, sans-serif;line-height&#58;17px;">Did you know you can&#160;post to wordpress via email?&#160;Thanks to the Jetpack plugin it's possible. Watch how you do it on Ben Cull's video&#58;</span></p>
+<p><span style="font-family&#58;arial, sans-serif;line-height&#58;17px;">If you ever need to create a new post to your blog without access to&#160;WordPress admin are<b>&#160;</b>y<b></b>ou can do it via email, t<b></b>hanks to the Jetpack plugin.​ Watch how you do it on Ben Cull's video&#58;</span></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="560" height="315" src="http&#58;//www.youtube.com/embed/n9PlO826StQ?rel=0" frameborder="0"></iframe>&#160;</div>
 
