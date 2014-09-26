@@ -17,7 +17,9 @@ related: []
 ---
 
 
-<p>Whenever we setup a new Team Project we implement a basic version control structure. We put &quot;readme.txt&quot; files in the folder structure explaining the different levels, and a solution file called [Client].[Product].sln?located at ?/[Client]/[Product]/DEV/Main?within version control.</p><dl><dt><img alt="Messy solution " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/MessySolution.jpg" style="margin&#58;5px;" /></dt><dd>Figure&#58; Bad Example, how would anyone know how to sort this mess out?</dd></dl>
+<p>​​Whenever we setup a new Team Project we implement a basic version control structure. We put &quot;readme.txt&quot; files in the folder structure explaining the different levels, and a solution file called [Client].[Product].sln?located at ?/[Client]/[Product]/DEV/Main?within version control.</p><dl><dt>
+      <img alt="Messy solution " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/MessySolution.jpg" style="margin&#58;5px;" />
+   </dt><dd>Figure&#58; Bad Example, how would anyone know how to sort this mess out?</dd></dl><h3>Related rule</h3><ul><li><a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/SolutionStructure.aspx">Do you have a consistent .NET Solution Structure?​</a></li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 
 <dl><dt><img alt="Ideal solution " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/IdealSolution.jpg" /></dt>
