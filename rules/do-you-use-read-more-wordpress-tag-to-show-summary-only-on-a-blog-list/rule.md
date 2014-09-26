@@ -15,7 +15,7 @@ related: []
 ---
 
 
-By default WordPress shows the whole article content on a post list. Knowing that some posts are quite long - taking a lot of real estate on the page - it's a good idea to summarize it and add a &quot;read more&quot; link.​ 
+​By default WordPress shows the whole article content on a post list. Knowing that some posts are quite long - taking a lot of real estate on the page - it's a good idea to summarize it and add a &quot;read more&quot; link.​ 
 <br><excerpt class='endintro'></excerpt><br>
 <p>You can split your blog entries so that only the first part of certain posts is displayed on the home and archive pages. When you do this, a link will be placed after the intro, pointing the reader to the full post.</p>
 
