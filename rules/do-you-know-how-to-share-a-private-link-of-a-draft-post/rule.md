@@ -11,9 +11,8 @@ authors:
 
 
 
-<span class='intro'> <p>To share a draft of a post with others you need to install a plugin.</p>
-<p>The plugin is called 'Simple Preview' and can be located <a href="http&#58;//gabriel.nagmay.com/2009/10/simple-preview/" target="_blank">here</a> <img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /> <img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /> <img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" />.
-</p> </span>
+<span class='intro'> <p>To share a draft of a post with others you need to install a plugin.</p><p>The plugin is called 'Simple Preview' and can be located 
+   <a href="http&#58;//gabriel.nagmay.com/2009/10/simple-preview/" target="_blank">here</a>​. </p> </span>
 
 <p>Once you have plugin installed, all you need to do is enable it and then follow the steps below&#58;</p>
 <ol>
@@ -22,10 +21,10 @@ Once enabled, it will create a preview link, that you can send to as many people
 <strong>Note&#58;</strong> Once you publish the post the URL becomes inactive.</li>
 <li>Click on 'Save Draft', then 'Preview'. The post will open in your browser, with the URL that you can share.</li>
 </ol>
-<img class="ms-rteCustom-ImageArea" alt="NOT Done Email" src="/WebSites/RulesToBetterWordPress/PublishingImages/wp-allow-anonymous-preview.jpg" style="width&#58;600px;" />
+<img class="ms-rteCustom-ImageArea" alt="NOT Done Email" src="/PublishingImages/wp-allow-anonymous-preview.jpg" style="width&#58;600px;" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; How to enable ‘Allow Anonymous Preview’ so you can share your URL before going live</span>
 
-<img class="ms-rteCustom-ImageArea" alt="NOT Done Email" src="/WebSites/RulesToBetterWordPress/PublishingImages/wp-preview-url.jpg" />
+<img class="ms-rteCustom-ImageArea" alt="NOT Done Email" src="/PublishingImages/wp-preview-url.jpg" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The URL suffix will be similar to this&#58; ‘…?p=1418&amp;preview=true’</span>
 
 <h4>More Information&#58;</h4>
@@ -33,7 +32,7 @@ Once enabled, it will create a preview link, that you can send to as many people
 <p>Note #2&#58; Another solution is ‘Share a Draft’, however it has more options and is more complicated.</p>
 <p>It has a time limit function for the post, which allows you to set and extend. The URL it generates is a bit messy.</p>
 
-<img class="ms-rteCustom-ImageArea" alt="NOT Done Email" src="/WebSites/RulesToBetterWordPress/PublishingImages/wp-share-draft-screenshot.jpg" />
+<img class="ms-rteCustom-ImageArea" alt="NOT Done Email" src="/PublishingImages/wp-share-draft-screenshot.jpg" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; The URL is pretty messy and it is not as simple as just ticking a box. This is a whole other page</span>
 
 
