@@ -17,13 +17,16 @@ related: []
 ---
 
 
-<p>​​Whenever we setup a new Team Project we implement a basic version control structure. We put &quot;readme.txt&quot; files in the folder structure explaining the different levels, and a solution file called [Client].[Product].sln?located at ?/[Client]/[Product]/DEV/Main?within version control.</p><dl><dt>
+<p>​​​Whenever we setup a new Team Project we implement a basic version control structure. We put &quot;readme.txt&quot; files in the folder structure explaining the different levels, and a solution file called [Client].[Product].sln?located at ?/[Client]/[Product]/DEV/Main?within version control.</p><dl class="image"><dt>
       <img alt="Messy solution " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/MessySolution.jpg" style="margin&#58;5px;" />
-   </dt><dd>Figure&#58; Bad Example, how would anyone know how to sort this mess out?</dd></dl><h3>Related rule</h3><ul><li><a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/SolutionStructure.aspx">Do you have a consistent .NET Solution Structure?​</a></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
+   </dt><dd>Figure&#58; Bad Example, how would anyone know how to sort this mess out?</dd></dl>
 
-<dl><dt><img alt="Ideal solution " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/IdealSolution.jpg" /></dt>
-<dd>Figure&#58; Good Example, The ideal solution. </dd></dl>
-<p>For more implementation details see&#58; <br><a href="http&#58;//www.ssw.com.au/ssw/redirect/LayoutSolution.htm">http&#58;//blog.hinshelwood.com/archive/2010/05/17/guidance-how-to-layout-you-files-for-an-ideal-solution.aspx</a></p>
+<br><excerpt class='endintro'></excerpt><br>
+<dl class="image"><dt> 
+      <img alt="Ideal solution " src="/TFS/RulesToBetterVersionControlwithTFS(AKASourceControl)/PublishingImages/IdealSolution.jpg" /> 
+   </dt><dd>Figure&#58; Good Example, The ideal solution. </dd></dl><p>For more implementation details see&#58; 
+   <br> 
+   <a href="http&#58;//www.ssw.com.au/ssw/redirect/LayoutSolution.htm">http&#58;//blog.hinshelwood.com/archive/2010/05/17/guidance-how-to-layout-you-files-for-an-ideal-solution.aspx</a></p><h3>Related rule</h3><ul><li> 
+      <a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/SolutionStructure.aspx">Do you have a consistent .NET Solution Structure?​</a>​</li></ul>
 
 
