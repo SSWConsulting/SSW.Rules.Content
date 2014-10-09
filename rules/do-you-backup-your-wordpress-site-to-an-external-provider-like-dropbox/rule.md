@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>Backing up your Wordpress site is important and while most hosting providers will perform backups on your behalf, it doesn’t hurt to have another copy tucked away safely. For this purpose we use and recommend the 
+<p>​Backing up your WordPress site is important and while most hosting providers will perform backups on your behalf, it doesn’t hurt to have another copy tucked away safely. For this purpose we use and recommend the 
    <a href="https&#58;//wordpress.org/plugins/backwpup">BackWPup WordPress plugin</a>​.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>It simplifies Wordpress backups and can be configured to back up your site to&#58;</p><div><ul><li> 
