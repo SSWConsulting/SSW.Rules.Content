@@ -21,5 +21,5 @@ index:
 
 ---
 
-​​Rules to Better Continuous Deployment with TFS 2012’
+​​Rules to Better Continuous Deployment with TFS 2012 / TFS2013​
 
