@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">One of the best ways to generate new opportunities for your business is to hold a webinar. It is very important that you follow up with each attendee after each webinar otherwise you will waste the opportunities you have created. After each webinar you should complete the following&#58;​</p> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​One of the best ways to generate new opportunities for your business is to hold a webinar. It is very important that you follow up with each attendee after each webinar otherwise you will waste the opportunities you have created. After each webinar you should complete the following&#58;​</p> </span>
 
 ​ 
 <p> 
