@@ -19,10 +19,12 @@ authors:
 <strong>Alt+Shift+T</strong>)&#58; 
 <p></p><dl class="badImage"><dt class="greyBox">replace 
       <strong>&lt;?php the_content(); ?&gt;</strong> with 
-      <strong>&lt;?php&#160;</strong><span class="ssw15-rteStyle-Highlight"><strong>the_excerpt();</strong></span><strong>&#160;?&gt;</strong></dt><dd>Figure&#58; Bad example - changing source php files is complicated​ and require developer skills​</dd></dl><dl class="goodImage"><dt> 
-      <img src="/WebSites/RulesToBetterWordPress/PublishingImages/readmore-tag.png" alt="" /> 
-   </dt><dd>Figure&#58; Good example - click on the &quot;Read More&quot; tag on the post visual editor</dd></dl><h3>Custom Read More Message</h3><p>To customize the message, simply add a space after 
+      <strong>&lt;?php&#160;</strong><span class="ssw15-rteStyle-Highlight"><strong>the_excerpt();</strong></span><strong>&#160;?&gt;</strong></dt><dd>Figure&#58; Bad example - changing source php files is complicated​ and require developer skills​</dd></dl><dl class="goodImage"><dt>
+      <img src="/PublishingImages/readmore-tag.png" alt="" />
+   </dt><dd>Figure&#58; Good example - click on the &quot;Read More&quot; tag on the post visual editor</dd></dl><p><strong>Note&#58;</strong> This is out-of-the-box with WordPress. You won't need a plugin.</p><h3>Custom Read More Message</h3><p>To customize the message, simply add a space after 
    <strong> &lt;!--more</strong> and insert the text you want to show&#58; </p><dl class="image"><dt class="greyBox"><p>&lt;!--more 
-         <span class="ssw15-rteStyle-Highlight">Read the full post​</span>--&gt;</p></dt><dd>Figure&#58; Custom &quot;read more&quot; link</dd></dl><h3>Some WordPress themes do this automatically</h3><p>Many WordPress themes will have an option to not show the full blog content on the homepage. E.g. in Avada (one of the most popular themes) it has this&#58; </p><dl class="goodImage"><dt><img src="/WebSites/RulesToBetterWordPress/SiteAssets/Pages/use-read-more-tag/excerpt.png" alt="excerpt.png" /></dt><dd>Figure&#58; Many WordPress themes makes it​ easier to you</dd></dl><p></p><p>Always check theme options before going back through posts to add in the Read More tags manually.</p>
+         <span class="ssw15-rteStyle-Highlight">Read the full post​</span>--&gt;</p></dt><dd>Figure&#58; Custom &quot;read more&quot; link</dd></dl><h3>Some WordPress themes do this automatically</h3><p>Many WordPress themes will have an option to not show the full blog content on the homepage. E.g. in Avada (one of the most popular themes) it has this&#58; </p><dl class="goodImage"><dt>
+      <img src="/PublishingImages/excerpt.png" alt="excerpt.png" />
+   </dt><dd>Figure&#58; Many WordPress themes makes it​ easier to you</dd></dl><p></p><p>Always check theme options before going back through posts to add in the Read More tags manually.</p>
 
 
