@@ -11,20 +11,20 @@ authors:
 
 
 
-<span class='intro'> <p>​How do you want customers to send you feedback? Phone calls? Emails? A website?&#160;<br>There are a number of web applications that do a great job on this&#58;</p> </span>
+<span class='intro'> <p>​​How do you want customers to send you feedback? Phone calls? Emails? A website?&#160;<br>There are a number of web applications that do a great job on this&#58;</p> </span>
 
 <ul><ul><li> 
          <span style="line-height&#58;1.6;background-color&#58;initial;"></span>
          <span style="line-height&#58;1.6;background-color&#58;initial;"></span>
          <span style="line-height&#58;1.6;background-color&#58;initial;"></span>
-         <span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;">U</span><span style="line-height&#58;1.6;background-color&#58;initial;">serVoice</span></li><li> 
+         <span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;">U</span><span style="line-height&#58;1.6;background-color&#58;initial;">serVoice</span></li><li> 
          <span style="line-height&#58;1.6;background-color&#58;initial;"></span>
          <span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;"></span>
          <span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;"></span>
          <span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;"></span>
          <span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;"></span>
-         <span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;"></span><span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;">G</span><span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;">etSati</span><span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;">sfication​</span></li><li> 
-         <span style="line-height&#58;1.6;background-color&#58;initial;">U</span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;">serE</span><span style="line-height&#58;1.6;background-color&#58;initial;">cho​</span></li></ul></ul> 
+         <span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;"></span><span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;"></span><span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;">G</span><span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;">etSati</span><span style="white-space&#58;nowrap;line-height&#58;1.6;background-color&#58;initial;">sfication​</span></li><li> 
+         <span style="line-height&#58;1.6;background-color&#58;initial;">U</span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;"></span><span style="line-height&#58;1.6;background-color&#58;initial;">serE</span><span style="line-height&#58;1.6;background-color&#58;initial;">cho​</span></li></ul></ul> 
 <img src="/SoftwareDevelopment/RulesToBetterBugReporting/PublishingImages/codeauditoruservoice.jpg" alt="codeauditoruservoice.jpg" style="width&#58;650px;" />
 <span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;">Figure&#58; The UserVoice website allows user to enter suggestions (used he</span><span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;">re b​y SSW Code Auditor)</span>
 <div> 
