@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p class="p1">Developers should&#160;add a version number at the end of the out package.&#160;E.g. SSWCodeAuditor_<span class="ssw15-rteStyle-Highlight">v14.0.0</span>.exe</p><p class="p1">Here is how you do it in Advanced Installer&#58;</p> </span>
+<span class='intro'> <p class="p1">​Developers should&#160;add a version number at the end of the out package.&#160;E.g. SSWCodeAuditor_<span class="ssw15-rteStyle-Highlight">v14.0.0</span>.exe</p><p class="p1">Here is how you do it in Advanced Installer&#58;</p> </span>
 
 <ol class="ol1"><li class="li1">​In the navigation pane look for 
       <strong>Media</strong></li><li class="li1">Choose 
