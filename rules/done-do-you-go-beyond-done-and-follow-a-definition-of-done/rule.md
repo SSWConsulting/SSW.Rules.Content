@@ -22,7 +22,7 @@ redirects: []
 
 ​Having a clear Definition of Done for&#160;your team is critical to&#160;your success and quality management in Scrum.<br><br>Every team is different, but all need to agree on which items are in their &quot;Definition of Done&quot;. 
 <br><excerpt class='endintro'></excerpt><br>
-<h1>There are 3 levels of &quot;Done&quot; in communication</h1><h2>Level 1</h2><ul><li>Sending a &quot;Done&quot; email</li></ul><h2>Level 2</h2><ul><li>Sending a &quot;Done&quot; email</li><li>screenshots</li><li>code</li></ul><h2>Level 3</h2><ul><li>Sending a &quot;Done&quot; email </li><li>video</li><li>code (showing a full scenario e.g. a user story)</li></ul><h4>Example of a level 3 &quot;done&quot;</h4><div class="greyBox"><p>Subject&#58; RE&#58; Manad - Coded UI Tests #2</p><p style="margin-left&#58;20px;">{gtHTMLChar} Create a new CodedUI test on your feedback form – search only to test the telerik</p><p>Done</p>
+<h1>There are 3 levels of &quot;Done&quot; in communication</h1><h2>Level 1</h2><ul><li>Sending a &quot;Done&quot; email</li></ul><h2>Level 2</h2><ul><li>Sending a &quot;Done&quot; email</li><li>screenshots</li><li>code</li></ul><h2>Level 3</h2><ul><li>Sending a &quot;Done&quot; email </li><li>video</li><li>code (showing a full scenario e.g. a user story)​</li></ul><h4>Example of a level 3 &quot;done&quot;</h4><div class="greyBox"><p>Subject&#58; RE&#58; Manad - Coded UI Tests #2</p><p style="margin-left&#58;20px;">{gtHTMLChar} Create a new CodedUI test on your feedback form – search only to test the Telerik</p><p>Done</p>
    <img class="ms-rteCustom-ImageArea" alt="Coded UI Test passes in Visual Studio" src="/Management/RulesToSuccessfulProjects/PublishingImages/level-3-done.jpg" />
    <span class="ms-rteCustom-FigureNormal">Figure – Coded UI Test passes in Visual Studio</span>
    <p>Jing Video of the test running&#58; 
@@ -41,14 +41,14 @@ redirects: []
       <em>All of the above, plus</em> </li><li>Deployed to UAT (ideally using Continuous Deployment) </li><li>Complex code is documented (removing technical debt) </li><li>Product Owner acceptance </li></ul><h2>Team - Level 6</h2><ul><li> 
       <em>All of the above, plus</em> </li><li>Multiple environments automatically tested using Lab Management </li></ul>
 <img class="ms-rteCustom-ImageArea" alt="Lab management" src="/Management/RulesToSuccessfulProjects/PublishingImages/LabManagement.jpg" />
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - A tester Lab Management to create VMs for testing the application, then defines a test plan for that pplication with Test Case Management</font>
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - A tester Lab Management to create VMs for testing the application, then defines a test plan for that application with Test Case Management</font>
 <h2>Team - Level 7</h2><ul><li> 
       <em>All of the above, plus</em> </li><li>Automated Load Testing </li><li>Continuous Deployment </li></ul>
 <img class="ms-rteCustom-ImageArea" alt="Acceptance Tests in MTM" src="/Management/RulesToSuccessfulProjects/PublishingImages/LoadTesting.jpg" />
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behaviour of manu simultaneous users)</font><strong>Team - Level 8 (Gold)</strong> 
+<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behaviour of many simultaneous users)</font><strong>Team - Level 8 (Gold)</strong> 
 <ul><li> 
-      <em>All of the above, plus</em> </li><li>Inspected by the Product Owner</li><li>Deployed to Production</li></ul><ul> 
-   <span>Congratulations! You are frequently deploying to production. This idea is called “Continuous Delivery” and allows you to gather quick feedback from your end users.</span> 
+      <em>All of the above, plus</em></li><li>Deployed to Production</li></ul><ul> 
+   <span>Congratulations! You are frequently deploying to production. This is called “Continuous Delivery” and allows you to gather quick feedback from your end users.</span> 
    <div style="margin&#58;0cm 0cm 0pt;"> 
       <span style="font-family&#58;verdana, sans-serif;font-size&#58;10pt;"></span>&#160;</div><div style="margin&#58;0cm 0cm 0pt;"> 
       <span style="font-family&#58;verdana, sans-serif;font-size&#58;10pt;"> 
