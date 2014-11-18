@@ -13,7 +13,7 @@ redirects: []
 
 
 
-  <p>Office meetings often are ineffective, because&#58; </p>
+  <p>​Office meetings often are ineffective, because&#58; </p>
 <ul>
     <li>There is a lot of discussion but no resulting &quot;action items&quot; </li>
     <li>Time is wasted digressing to unrelated topics </li>
@@ -45,7 +45,7 @@ redirects: []
         <li>The final step in the agenda being &quot;Set a date for the next meeting&quot; </li>
         <li>A note mentioning if the meeting is billable or not </li>
         <li>Your standard footer in message (same footer as in mail messages) </li>
-        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> <img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> </li>
+        <li>A URL mentioning <a href="http&#58;//www.ssw.com.au/ssw/Redirect/TipsForMeeting.htm">Tips for better meetings</a> ​​</li>
     </ol>
     </li>
 </ol>
