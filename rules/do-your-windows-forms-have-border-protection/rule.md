@@ -17,14 +17,14 @@ the Windows Forms look better, especially on designing wizard forms
 where all forms have the same size.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionExample.gif" alt="Designing border protection." style="margin&#58;5px;" />
+      <img alt="Designing border protection." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionExample.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example - Good border protection on a form at run time. The only problem is you would have to imagine these blue lines to get consistency</dd></dl><p>
    <strong>Border protection in action&#58;</strong></p><dl class="badImage"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionBad.gif" alt="SSW Link Auditor - UI without border protection." style="margin&#58;5px;" />
+      <img alt="SSW Link Auditor - UI without border protection." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionBad.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Bad Example - Controls placed very near to the border and not aligned correctly</dd></dl><dl class="goodImage"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionGood.gif" alt="SSW Link Auditor - UI with border protection." style="margin&#58;5px;" />
+      <img alt="SSW Link Auditor - UI with border protection." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionGood.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example - All controls are in the border protection area and aligned correctly</dd></dl><dl class="image"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionDesign.gif" alt="SSW Link Auditor - UI with border protection." style="margin&#58;5px;" />
+      <img alt="SSW Link Auditor - UI with border protection." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BorderProtectionDesign.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Design mode</dd></dl><p>The way to implement border protection (the 2 vertical red lines) is implement it in the base form or base user control, and all other forms and user controls inherit the base class to get consistent border protection lines.</p><dl class="code"><dt><pre>            private void BaseForm_Paint(object sender, PaintEventArgs e)
             &#123;
                 // Draw border protection lines 
