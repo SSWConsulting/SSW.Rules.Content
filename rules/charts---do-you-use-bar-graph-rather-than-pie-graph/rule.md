@@ -25,11 +25,11 @@ larger.</p>
 bar graph which is more multi-purpose.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Pie graphs are used to show the general composition of an element. It's good for seeing at a glance what section is dominating, but it doesn't handle details very well.</p><dl class="badImage"><dt> 
-      <img alt="Bad Label" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PieGraph.gif" style="margin&#58;5px;" /> 
+      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PieGraph.gif" alt="Bad Label" style="margin&#58;5px;" /> 
    </dt><dd> Figure&#58; Bad Example - This Pie Graph is too complicated and difficult to understand.</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Good Label" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PieGraph-Good.jpg" style="margin&#58;5px;" /> 
+      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PieGraph-Good.jpg" alt="Good Label" style="margin&#58;5px;" /> 
    </dt><dd> Figure&#58; Good Example - This Pie Graph has been simplified and it is easy to see at a glance that Nike sold the most sneakers this month compared to others.</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Good Label" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BarGraph.gif" style="margin&#58;5px;width&#58;650px;" /> 
+      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BarGraph.gif" alt="Good Label" style="margin&#58;5px;width&#58;650px;" /> 
    </dt><dd> Figure&#58; Good Example - This Bar Graph data hasn't even been processed but it's still readable.</dd></dl>
 
 
