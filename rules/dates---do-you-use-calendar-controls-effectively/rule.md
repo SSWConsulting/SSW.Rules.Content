@@ -18,10 +18,10 @@ related: []
                     Users are familiar with the Outlook calendar control. When the calendar control 
                     is used it should incorporate all of these features of the Outlook calendar 
                     control.</p><dl class="badImage"><dt>
-                        <img alt="Calendar Control" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/CalendarControlBad.gif" style="margin&#58;5px;width&#58;171px;" /></dt><dd>
+                        <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/CalendarControlBad.gif" alt="Calendar Control" style="margin&#58;5px;width&#58;171px;" /></dt><dd>
                         Figure&#58; Bad Example - Calendar Control - Sunday is at the front, today's date is 
                         not highlighted, and items with data are not bolded</dd></dl><dl class="goodImage"><dt>
-                        <img width="171" height="155" alt="Calendar Control" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/CalendarControlGood.gif" style="margin&#58;5px;" /></dt><dd>
+                        <img width="171" height="155" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/CalendarControlGood.gif" alt="Calendar Control" style="margin&#58;5px;" /></dt><dd>
                         Figure&#58; Good Example - Calendar Control - Monday is at the front, today's date 
                         is highlighted, and items with data are bolded</dd></dl>
                 
