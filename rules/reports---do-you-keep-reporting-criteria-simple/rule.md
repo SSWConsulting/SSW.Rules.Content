@@ -16,7 +16,7 @@ related: []
                                 have a generic solution. </li><li>Also it is disorientating for the user to have this as a selection</li></ul></li></ol>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt> 
-      <img border="1" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GraphInterface.gif" alt="Reporting Criteria" style="margin&#58;5px;width&#58;600px;" />
+      <img border="1" alt="Reporting Criteria" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GraphInterface.gif" style="margin&#58;5px;width&#58;600px;" />
    </dt></dl><p> More 
    <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperDotNet/GuidelinesForReporting.aspx">Options for Reporting</a></p>
 
