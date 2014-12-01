@@ -32,7 +32,7 @@ related: []
                     </li></ol>
                 <br>
                 <dl class="goodImage"><dt>
-                        <img border="0" alt="SSW Link Auditor - Scan Target" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodInformationFlow.gif" style="margin&#58;5px;width&#58;600px;" /></dt><dd>Figure&#58; Good Example - SSW Link Auditor Wizard's
+                        <img border="0" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodInformationFlow.gif" alt="SSW Link Auditor - Scan Target" style="margin&#58;5px;width&#58;600px;" /></dt><dd>Figure&#58; Good Example - SSW Link Auditor Wizard's
                                 better flow of information</dd></dl><p>
                     Technical Note&#58; To ensure visual consistency across applications, create a base
                     form then set the properties in that form (application icon, menu structure, button
@@ -48,9 +48,9 @@ related: []
                     the user closes the Wizard.</p><p>
                     For longer processes, the Wizard should implement &quot;Start&quot; and &quot;Skip&quot;
                     features to guide the user through from start to finish.</p><dl class="goodImage"><dt>
-                        <img border="0" alt="SSW Code Auditor - Start Process" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/StartProcess.gif" style="margin&#58;5px;width&#58;550px;" /></dt><dd>Figure&#58; Good Example - SSW Code Auditor Wizard featuring
+                        <img border="0" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/StartProcess.gif" alt="SSW Code Auditor - Start Process" style="margin&#58;5px;width&#58;550px;" /></dt><dd>Figure&#58; Good Example - SSW Code Auditor Wizard featuring
                                 &quot;Start&quot; and &quot;Skip&quot; options</dd></dl><p>
-                    Here's some more information on the <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/wizard.htm" target="_blank">
-                        Microsoft Standard for Wizard Welcome and Completion Page art</a> and <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/wizard2.htm" target="_blank">Interior Page art</a>.<br></p>
+                    Here's some more information on the <a target="_blank" href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/wizard.htm">
+                        Microsoft Standard for Wizard Welcome and Completion Page art</a> and <a target="_blank" href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/wizard2.htm">Interior Page art</a>.<br></p>
 
 
