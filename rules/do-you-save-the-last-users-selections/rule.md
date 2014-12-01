@@ -20,9 +20,9 @@ modified query. If they don't then they can simply select what they are
 after anyway.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SampleSelect.jpg" alt="Sample Select" style="margin&#58;5px;" />
+      <img alt="Sample Select" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SampleSelect.jpg" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Bad Example - This is suitable for first view, but not for a return view</dd></dl><dl class="goodImage"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SampleSelect2.jpg" alt="Sample Select 2" style="margin&#58;5px;" />
+      <img alt="Sample Select 2" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SampleSelect2.jpg" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example - Instead, save the users last selection</dd></dl>
 
 
