@@ -15,9 +15,9 @@ related: []
                     so that they know that the process has finished. We use a finish flag to do this.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadFinishedPage.gif" alt="ssw SQL Auditor - Results" style="margin&#58;5px;width&#58;550px;" />
+      <img alt="ssw SQL Auditor - Results" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadFinishedPage.gif" style="margin&#58;5px;width&#58;550px;" />
    </dt><dd>Figure&#58; Bad Example - This is the last page of the wizard but it is not obvious because the finish flag is small and the &quot;Next&quot; button still enabled</dd></dl><dl class="goodImage"><dt> 
-      <img border="0" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodFlagImage.png" alt="SSW Link Auditor - Finished" style="margin&#58;5px;width&#58;640px;" />
+      <img border="0" alt="SSW Link Auditor - Finished" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodFlagImage.png" style="margin&#58;5px;width&#58;640px;" />
    </dt><dd> Figure&#58; Good Example - Good quality Finish flag on the last page of a wizard.</dd></dl>
 
 
