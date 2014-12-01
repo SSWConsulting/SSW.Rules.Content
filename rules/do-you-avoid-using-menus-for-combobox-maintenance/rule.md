@@ -16,9 +16,9 @@ better solution is to use an ellipses button to drill down into the
 menu.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ComboBoxMenuBad.gif" alt="Menu driven ComboBox Maintenance System" style="margin&#58;5px;" />
+      <img alt="Menu driven ComboBox Maintenance System" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ComboBoxMenuBad.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Bad Example - Menu driven ComboBox maintenance form</dd></dl><dl class="goodImage"><dt>
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Ellipses.gif" alt="SSW eXtreme Emails! - Add Incident" style="margin&#58;5px;" />
+      <img alt="SSW eXtreme Emails! - Add Incident" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Ellipses.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example - Use ellipses to drill down into a ComboBox maintenance form</dd></dl>
 
 
