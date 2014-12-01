@@ -16,7 +16,7 @@ related: []
                     line &quot;Generated from [e.g.] SSW SQL Deploy - www.ssw.com.au&quot;.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Or, even better, you can send or keep detailed information about the report for you and your company&#58;</p><dl class="image"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BetterInterface_ReportFooter.jpg" alt="ssw Report Footer" style="margin&#58;5px;width&#58;650px;" />
+      <img alt="ssw Report Footer" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BetterInterface_ReportFooter.jpg" style="margin&#58;5px;width&#58;650px;" />
    </dt></dl><p class="productBox"> For more details about how to generate a footer like this, check our 
    <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLReportingServices.aspx#UsefulFooter">Rules to Better SQL Reporting Services</a>. </p>
 
