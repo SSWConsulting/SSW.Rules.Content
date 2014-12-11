@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>
+<span class='intro'> <p>​
                     Although most of the sites have a 'Log Off' submenu, we recommend adding a short
                     cut next to the user name, this will make the 'log Off' operation more convenient.</p> </span>
 
