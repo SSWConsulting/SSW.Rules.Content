@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>
+<p>​
                     Although most of the sites have a 'Log Off' submenu, we recommend adding a short
                     cut next to the user name, this will make the 'log Off' operation more convenient.</p>
 <br><excerpt class='endintro'></excerpt><br>
