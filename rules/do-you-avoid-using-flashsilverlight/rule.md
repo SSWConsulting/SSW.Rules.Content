@@ -27,9 +27,8 @@ authors:
                         and lighter</li><li>You get an inconsistent UI if you use it for controls such as text boxes</li><li>Flash and Silverlight do not support CSS, so you need to follow unfamilar concepts
                         for re-skinning</li></ul><p>
                     Finally, and saddest of all, when Flash/Silverlight is used, it is normally ​over used.</p><div class="greyBox"><p>
-                        <b>Footnote #1&#58;</b> It is clear that Flash has been quite successful - the penetration
-                        of its run time is 99% on PCs.</p><p>
-                        <b>Footnote #2&#58;</b> Silverlight got up to 80%. Microsoft could get near
-                        100% if they included it with Windows Update.</p></div>
+                        <b>Footnote #1&#58;</b> It is clear that Flash has been quite successful in the past - the penetration
+                        of its run time is 99% on PCs,&#160;<span style="font-size&#58;9pt;font-family&#58;verdana;background-color&#58;#f6f6f6;">however because of the fact iPhone and iPad don</span><span style="font-size&#58;9pt;font-family&#58;verdana;background-color&#58;#f6f6f6;">’</span><span style="font-size&#58;9pt;font-family&#58;verdana;background-color&#58;#f6f6f6;">t run it and the&#160;</span><span style="font-family&#58;verdana;font-size&#58;9pt;line-height&#58;1.6;background-color&#58;#f6f6f6;">growth of HTML 5, Flash is now considered an old technology.&#160;</span><span style="font-family&#58;verdana;font-size&#58;9pt;line-height&#58;1.6;background-color&#58;#f6f6f6;">​</span></p><p>
+                        <b>Footnote #2&#58;&#160;</b><span style="font-family&#58;arial;font-size&#58;10pt;line-height&#58;1.6;background-color&#58;#f6f6f6;">The development of Silverlight has been discontinued as&#160;​</span><span style="font-family&#58;arial;font-size&#58;10pt;line-height&#58;1.6;background-color&#58;#f6f6f6;">of 2012 due to the poor acceptance of Silverlight and restrictions Microsoft imposed on its utility.&#160;</span><span style="font-family&#58;arial;font-size&#58;10pt;line-height&#58;1.6;background-color&#58;#f6f6f6;">​</span></p></div>
 
 
