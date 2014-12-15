@@ -17,6 +17,6 @@ authors:
 Instead of &quot;OK&quot; buttons to confirm an action the users want, it’s more efficient and effective to give them button that is labeled with that&#160;specific action.
  </span>
 
-<dl class="badImage"><dt>​<img src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/OKBadExample.png" alt="Ok" /></dt><dd>Figure&#58; Bad example - web application&#160;button labeled as&#160;&quot;OK&quot;</dd></dl><dl class="goodImage"><dt>​<img src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/OKGoodExample.png" alt="OK" /></dt><dd>Figure&#58; Good example -&#160;button is labeled with the specific action​</dd></dl>​​​​​
+<dl class="badImage"><dt>​<img src="/PublishingImages/OKBadExample.png" alt="Ok" /></dt><dd>Figure&#58; Bad example - web application&#160;button labeled as&#160;&quot;OK&quot;</dd></dl><dl class="goodImage"><dt>​<img src="/PublishingImages/OKGoodExample.png" alt="OK" /></dt><dd>Figure&#58; Good example -&#160;button is labeled with the specific action​</dd></dl>​​​​​
 
 
