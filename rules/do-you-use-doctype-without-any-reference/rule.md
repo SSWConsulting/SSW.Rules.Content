@@ -1,0 +1,27 @@
+---
+type: rule
+archivedreason: 
+title: Do you use DOCTYPE without any reference?
+guid: fce75b30-c3a2-49b7-b80a-5dd74480325e
+uri: do-you-use-doctype-without-any-reference
+created: 2014-12-15T17:59:16.0000000Z
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+related: []
+redirects: []
+
+---
+
+
+Since HTML5, DOCTYPE no longer requires a reference to a DTD. Back in HTML 4.01, The DTD links were used in to specify the rules for the markup language (Transitional, Strict, Frameset etc) so that the browsers render the content correctly. It’s no longer necessary.
+<br><excerpt class='endintro'></excerpt><br>
+​
+<p class="ssw15-rteElement-GreyBox">{ltHTMLChar}!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01//EN&quot; &quot;<a href="http&#58;//www.w3.org/TR/html4/strict.dtd">http&#58;//www.w3.org/TR/html4/strict.dtd</a>&quot;{gtHTMLChar}</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example – XXX</dd><p class="ssw15-rteElement-GreyBox">{ltHTMLChar}!DOCTYPE html{gtHTMLChar}</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example – XXX</dd><p class="p5">
+   <span class="s2">For more information, go to 
+      <a href="http&#58;//www.w3schools.com/tags/tag_doctype.asp">
+         <span class="s1">HTML !DOCTYPE Declaration on w3schools.com</span></a>​​</span></p>
+
+
