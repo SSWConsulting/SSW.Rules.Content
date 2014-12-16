@@ -20,6 +20,6 @@ related: []
                 
                
 <br><excerpt class='endintro'></excerpt><br>
-<p>​​Each method mentioned above has their disadvantages. We discourage #1 and #2 - Images are bad for Google juice and cannot be selected;​&#160;sFIR uses old technology based on nearly dead&#160;Flash.</p><p>For more information on the other methods&#160;read&#58;&#160;<span style="line-height&#58;20px;"><a href="http&#58;//www.webdesignerdepot.com/2014/03/the-best-way-to-serve-fonts-to-your-website/%E2%80%8B" target="_blank">The best way to serve fonts to your website</a>.</span></p><br>
+<p>​​Each method mentioned above has their disadvantages. We discourage #1 - Images are bad for Google juice and cannot be selected;​&#160;<span style="line-height&#58;20.7999992370605px;">and #2&#160;</span>-&#160;sFIR uses old technology based on nearly dead&#160;Flash.</p><p>For more information on the differences between the other methods&#160;read&#58;&#160;<span style="line-height&#58;20px;"><a target="_blank">The best way to serve fonts to your website</a>.</span></p>​<br>
 
 
