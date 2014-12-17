@@ -24,25 +24,13 @@ redirects: []
 <div class="greyBox"><em>&quot;I've looked at the code and cleaned it up - not sure if this is suitable - please tell me if you are OK with the performance now.&quot;</em></div>
 
 <br><excerpt class='endintro'></excerpt><br>
-<p>A better way is&#58;</p>
-  <ul>
-    <li>Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
-    </li>
-    <li>Add some code to record the time the function takes to run
-    </li>
-    <li>Reproduce the steps and record the time
-    </li>
-    <li>Change the code
-    </li>
-    <li>Reproduce the steps and record the time again
-    </li>
-    <li>Reply to the customer&#58;<br> &quot;It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds.&quot;<br></li>
-</ul>
-<dt><img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/Code-Auditor-performance.jpg" alt=" " class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW Code Auditor)</span>
-<p>This is because performance is an emotional thing, sometimes it just *feels* slower. Without numbers, a person cannot really know for sure whether something has become quicker. </p>
-<h4>Related</h4>
-<p>For sample code on how to measure performance for windows application form, please refer to rule <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#Performance">Do you have tests for Performance?</a>&#160;on <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx">Rules To Better Unit Tests</a>.</p><h3 class="ssw15-rteElement-H3">Related Rule​</h3><ul><li><span style="line-height&#58;1.6;">​<a>Do you keep your website loading time acceptable?​</a></span><br></li></ul>
-</dt>
-
+<p>A better way is&#58;</p><ul><li>Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds) </li><li>Add some code to record the time the function takes to run </li><li>Reproduce the steps and record the time </li><li>Change the code </li><li>Reproduce the steps and record the time again </li><li>Reply to the customer&#58;<br> &quot;It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds.&quot;<br></li></ul><dt> 
+   <img border="0" src="/Management/RulesToSuccessfulProjects/PublishingImages/Code-Auditor-performance.jpg" alt=" " class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" />
+   <span class="ms-rteCustom-FigureGood">Figure&#58; Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW Code Auditor)</span>
+   <p>This is because performance is an emotional thing, sometimes it just *feels* slower. Without numbers, a person cannot really know for sure whether something has become quicker. </p><h4>Related</h4><p>For sample code on how to measure performance for windows application form, please refer to rule 
+      <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#Performance">Do you have tests for Performance?</a>&#160;on 
+      <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx">Rules To Better Unit Tests</a>.</p>​
+   <h3 class="ssw15-rteElement-H3">Related Rule​</h3><ul><li> 
+         <span style="line-height&#58;1.6;">​<a href="/WebSites/RulesToBetterWebsiteDevelopmentASPDotNet/Pages/keep-your-website-loading-time-acceptable.aspx">Do you keep your website loading ti​me acceptable?​</a></span><br></li></ul></dt>
 
 
