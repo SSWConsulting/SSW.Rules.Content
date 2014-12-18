@@ -14,8 +14,7 @@ redirects: []
 ---
 
 
-When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become outdated. Rather than hit the DELETE key put a 'zz' at the front of the filename. The old versions should not be deleted straight away - it is just an unnecessary risk!
-
+​​When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become outdated. Rather than hit the DELETE key put a 'zz' at the front of the filename. The old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them.
 <br><excerpt class='endintro'></excerpt><br>
  
 <img border="0" alt="Obsolete old files aggressively" src="/Management/RulesToSuccessfulProjects/PublishingImages/ObseleteOldFilesAggressively.gif" class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" /> 
