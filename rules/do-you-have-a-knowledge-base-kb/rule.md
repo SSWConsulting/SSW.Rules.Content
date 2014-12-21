@@ -19,7 +19,7 @@ redirects:
 
 ​​Do you know what the most useful thing on Microsoft web site is? It is their knowledge base at 
 <a class="external" href="http&#58;//support.microsoft.com/" target="_blank">http&#58;//support.microsoft.com/</a> 
-<img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /> When a problem arises&#160;it&#160;should be your&#160;first port of call - it allows&#160;you to help yourself. ​
+​ When a problem arises&#160;it&#160;should be your&#160;first port of call - it allows&#160;you to help yourself. ​
 <br><excerpt class='endintro'></excerpt><br>
 <p>So, if you answer questions on your products to customers, you are wasting time if you don't have a knowledge base. Just think, you might not be answering Harry's question if he could have looked it up himself. </p>
 <p>Now of course there are many customers who don't look for a KB, but instead you fire off the same old email that you already know is an MDAC related error, and your current solution is to tell them to run SSW Diagnostics and get all the green ticks. </p>
