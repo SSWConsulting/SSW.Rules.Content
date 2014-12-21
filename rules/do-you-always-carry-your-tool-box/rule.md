@@ -27,7 +27,7 @@ Here are the things you should also physically carry&#58;
 <table width="20%" align="right" id="Table9">
     <tbody>
         <tr>
-            <td><img class="ms-rteCustom-ImageArea" alt="Carry the right tools and you'll rescue someone, one day..." src="/Management/RulesToSuccessfulProjects/PublishingImages/StBernardDog.jpg" border="0" style="border&#58;0px solid currentcolor;width&#58;200px;height&#58;162px;" /> </td>
+            <td><img class="ms-rteCustom-ImageArea" alt="Carry the right tools and you'll rescue someone, one day..." src="/PublishingImages/StBernardDog.jpg" border="0" style="border&#58;0px solid currentcolor;width&#58;200px;height&#58;162px;" /> </td>
         </tr>
         <tr>
             <td><span class="ms-rteCustom-FigureNormal">Figure&#58; St. Bernards are known for rescuing lost mountaineers, bringing life saving provisions</span></td>
@@ -51,8 +51,8 @@ Here are the things you should also physically carry&#58;
 <br>
 If you need to quickly share something with your mate&#58; </p>
 <ul>
-    <li>Use a thumb drive that you carry as per <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Always-carry-a-USB-drive.aspx">Rules to better Software Consultants - Carry a thumb drive</a> </li>
-    <li>Setup a wireless ad hoc network as per <a href="http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/">http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/</a> <img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /> </li>
+    <li>Use a thumb drive that you carry as per <a href="/do-you-carry-your-usb-flash-drive-on-your-key-ring">Rules to better Software Consultants - Carry a thumb drive</a> </li>
+    <li>Setup a wireless ad hoc network as per <a href="http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/">http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/</a> ​ </li>
 </ul>
 <p>&#160;</p>
 * One of our mean guys put a house brick in the bottom a bag to see if he noticed it. He carried it for 2 weeks. It was very funny.<br>
