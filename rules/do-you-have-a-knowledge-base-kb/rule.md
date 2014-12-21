@@ -50,7 +50,7 @@ redirects:
 <font class="ms-rteCustom-FigureGood">Figure&#58; Informing of a Fix (Email 1 of 2) Note&#58; In this email, you can offer them an interim build</font> <div class="ms-rteCustom-GreyBox"><p>Dear Harry,</p>
 <p>Thank you for taking the time to report the issue for SSW Code Auditor. I'm happy to let you know that this problem is fixed in this release.</p>
 <p>Please download the new version at <a href="http&#58;//www.ssw.com.au/ssw/Download/download.aspx">http&#58;//www.ssw.com.au/ssw/Download/download.aspx</a></p>
-<p>P.S. Don't forget to run SSW Diagnostics and gets all green ticks <a href="/Standards/Management/RulesToSuccessfulProjects/Pages/www.ssw.com.au/diagnostics">www.ssw.com.au/diagnostics</a></p>
+<p>P.S. Don't forget to run SSW Diagnostics and gets all green ticks <a href="http&#58;//www.ssw.com.au/SSW/Diagnostics/default.aspx" target="_blank">www.ssw.co​m.au/diagnostics</a></p>
 <p>Kind Regards, <br>Bob</p></div>
 <font class="ms-rteCustom-FigureGood">Figure&#58; Informing of a New Version (Email 2 of 2)</font> <p>Notice how by just giving them the URL, this email does the job of encouraging them to use your knowledge base in the future. You need to make sure the support staff know that there are really only 4 types of emails customers should be receiving (see the 4 grey boxes). </p>
 <p>Things are running well when you have support staff adding new KB for&#58; </p>
