@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>
+<p>​
                     Every website out there has a page which displays the results of a search. I am
                     amazed that no standard has been adopted throughout the Web as nearly every site
                     seems to have a different way of displaying data.</p>
@@ -30,7 +30,7 @@ related: []
                     </p><ol><li>Filters at the top (if more than one search parameter,then add a &quot;search&quot; button)</li><li>The number of results found + how many seconds the search took to execute</li><li>A statement that explains the criteria that you used for searching (or keep the criteria in the text box like google does)</li><li>The number of pages found (hyperlinks centered in the middle), and these hyperlinks
                         should be shown on the footer of the page only.</li></ol><dl class="image"><dt>
                         <img src="/WebSites/RulesToBetterWebsitesLayout/PublishingImages/results-filter.jpg" alt="Result Pages" /></dt><dd>
-                        Figure&#58; The header of <a href="/ssw/Products/ProdCategoryList.aspx">SSW results screen
+                        Figure&#58; The header of <a href="http&#58;//www.ssw.com.au/ssw/Products/ProdCategoryList.aspx">SSW results screen
                         </a>- filter, number of results found, search criteria and time taken</dd></dl><dl class="image"><dt>
                         <img src="/WebSites/RulesToBetterWebsitesLayout/PublishingImages/results-pagination.jpg" alt="Result Pages" /></dt><dd>
                         Figure&#58; Good example - The footer of <a href="/ssw/Products/ProdCategory.aspx?CategoryID=CODAUD">SSW product order listing page</a>
