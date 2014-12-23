@@ -19,6 +19,6 @@ If you are working remotely you should be sharing your screen with your programm
 <br><excerpt class='endintro'></excerpt><br>
 <p class="p1">For a list of our recommended screen sharing tools, please check the 
    <span class="s1">
-      <a href="/Management/RulesToSuccessfulProjects/Pages/RemoteSupport.aspx">SSW rules for remote support</a>.​</span></p><p class="p1">​Another good practice that follows on from this, is to leave a skype session open. This eliminates to need to call your programming partner every time you have a query or question to ask.</p>
+      <a href="/do-you-know-the-best-way-to-give-the-best-customer-support">SSW rules for remote support</a>.​</span></p><p class="p1">​Another good practice that follows on from this, is to leave a S​kype session open. This eliminates to need to call your programming partner every time you have a query or question to ask.</p>
 
 
