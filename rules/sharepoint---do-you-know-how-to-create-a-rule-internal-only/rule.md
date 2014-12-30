@@ -18,8 +18,7 @@ related: []
 This is how you create a rule at <strong>rules.ssw.com.au</strong>.
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Log in to 
-      <a href="/admin/Pages/default.aspx"><span class="s2">http&#58;//rules.ssw.com.au/admin/Pages/default.aspx​</span></a></li><li>Go to the category index. E.g For “Communication” go to http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">Communicatio​n</span>/Pages/default.aspx</li><li>Then to the subcategory E.g. http&#58;//rules.ssw.com.au/Communication/<span class="ssw15-rteStyle-Highlight">RulesToBetterSomething</span>​</li><li class="li2">Click on “Add a page” 
-      <dl class="image"><dt> 
+      <a href="/admin/Pages/default.aspx"><span class="s2">http&#58;//rules.ssw.com.au/admin/Pages/default.aspx​</span></a></li><li>Go to the category index. E.g For “Communication” go to http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">Communicatio​n</span>/Pages/default.aspx</li><li>Then to the subcategory E.g. http&#58;//rules.ssw.com.au/Communication/<span class="ssw15-rteStyle-Highlight">RulesToBetterSomething</span>​<br><strong>Note&#58;</strong> It's very <strong>important </strong>to make sure you are at the right location before creating a rule!!!​<br><br></li><li>Click on “Add a page”<br></li><li class="li2"><dl class="image"><dt> 
             <img alt="Create Rule" src="/Communication/Rules-to-Better-Adding-Rules/PublishingImages/create-rule1.jpg" /> 
          </dt></dl><p>Note&#58; Each rule will be a “page” on SharePoint – with its own URL - differently from old aspx, where rules where sections on a single page.</p></li><li>​Add the URL 
       <dl class="image"><dt> 
