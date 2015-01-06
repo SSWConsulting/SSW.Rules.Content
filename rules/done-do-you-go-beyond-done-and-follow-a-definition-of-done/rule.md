@@ -34,7 +34,7 @@ redirects: []
 <img class="ms-rteCustom-ImageArea" alt="Check in policy" src="/Management/RulesToSuccessfulProjects/PublishingImages/CheckinPolicy.jpg" />
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example&#160;- Add check in policies to enforce your Definition of Done</font>
 <h2>Team - Level 4</h2><ul><li> 
-      <em>All of the above, plus</em> </li><li>All acceptance criteria have been met </li><li>All acceptance criteria have an associated test passing (aka. Automated functional testing with Web Tests, Coded UI Tests, or Telerik Tests) </li><li>Sending a Done email (with video recording using Jing) </li></ul>
+      <em>All of the above, plus</em> </li><li>All acceptance criteria have been met </li><li>All acceptance criteria have an associated test passing (aka. Automated functional testing with Web Tests (Selenium), Coded UI Tests, or Telerik Tests) </li><li>Sending a Done email (with video recording using Jing) </li></ul>
 <img class="ms-rteCustom-ImageArea" alt="Acceptance Tests in MTM" src="/Management/RulesToSuccessfulProjects/PublishingImages/AcceptanceTestsInMTM.jpg" />
 <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - Acceptance Tests in MTM</font>
 <h2>Team - Level 5</h2><ul><li> 
