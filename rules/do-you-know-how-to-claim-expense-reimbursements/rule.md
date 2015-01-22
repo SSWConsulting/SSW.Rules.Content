@@ -16,8 +16,7 @@ related: []
 <img src="/Management/Rules-to-Better-Accounting/PublishingImages/expense-reimbursement.png" alt="" />
 <p>​You should be reimbursed for all reasonable expenses incurred in carrying out your duties, which are above your normal costs, to and from the office.</p><p>A common example is bus and train fares to client sites. Amounts under $40 should be reimbursed through Petty Cash.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>If greater than $40 then use the 
-   <a href="http&#58;//www.ssw.com.au/ssw/StandardsInternal/Forms/ExpensesReimbursement.xls">expense claim form</a>.</p><p>Use 
-   <a href="http&#58;//www.ssw.com.au/ssw/StandardsInternal/Forms/ExpensesReimbursementKM.xlt">the KM reimbursement form</a> if you want your reasonable km expenses reimbursed. </p><p>Remember to treat your company's money like your own and minimize costs where possible. Try to search around for a better price before committing to a purchase. </p><p>All expense claims must&#58;</p><ul><li>Be work related</li><li>​​Be made within a week</li><li>Be signed by the claimant and authorized by the relevant Manager</li><li>Be supported by Tax Invoices</li><li>Not include alcohol, as it incurs FBT</li></ul>​​
+<p>Remember to treat your company's money like your own and minimize costs where possible. Try to search around for a better price before committing to a purchase. </p><p>All expense claims must&#58;</p><ul><li>Be work related</li><li>​​Be made within a week</li>
+   <li>Be signed by the claimant and authorized by the relevant Manager</li><li>Be supported by Tax Invoices</li><li>Not include alcohol, as it incurs FBT</li></ul>​​
 
 
