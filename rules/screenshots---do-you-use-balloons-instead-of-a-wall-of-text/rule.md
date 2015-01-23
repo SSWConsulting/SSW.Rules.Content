@@ -20,15 +20,18 @@ related:
 <p>The balloon is great because you can point to a specific part of the image. It is much easier than reading the old ‘Wall of Text’.<br><br>Let's look at bad and good examples&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 &#160;&#160; 
-<img src="/Communication/RulesToBetterEmail/PublishingImages/BalloonBadExample.jpg" alt="Baloon Bad Example" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image</span><br>
-<img src="/Communication/RulesToBetterEmail/PublishingImages/BalloonGoodExample.jpg" alt="Check the shadow properties" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good example – The balloon with text on the screenshot, makes it quicker to understand</span> 
-<p>See more details on <a href="/Communication/RulesToBetterEmail/Pages/HowToConfigureBalloonBranding.aspx">how to configure balloons branding in Fullshot and Snagit</a>.<br><span class="ms-rteCustom-FigureNormal"></span><span class="ms-rteCustom-FigureNormal"></span></p>
-<p>Now be aware not to crazy with this balloon rule.</p>
-<img src="/Communication/RulesToBetterEmail/PublishingImages/Balloon-overload.jpg" alt="Balloon Bad Example" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – Balloon overload</span><br>
-<img src="/Communication/RulesToBetterEmail/PublishingImages/Balloon-not-needed.jpg" alt="Balloon good example" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good example – See 3 balloons were not needed </span> 
+<img src="/PublishingImages/BalloonBadExample.jpg" alt="Baloon Bad Example" class="ms-rteCustom-ImageArea" /> 
+<span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image</span><br> 
+<img src="/PublishingImages/BalloonGoodExample.jpg" alt="Check the shadow properties" class="ms-rteCustom-ImageArea" /> 
+<span class="ms-rteCustom-FigureGood">Figure&#58; Good example – The balloon with text on the screenshot, makes it quicker to understand</span>
+<p>See more details on 
+   <a href="/Pages/HowToConfigureBalloonBranding.aspx">how to configure balloons branding in Fullshot and Snagit</a>.<br><span class="ms-rteCustom-FigureNormal"></span><span class="ms-rteCustom-FigureNormal"></span></p><p>Now be aware not to crazy with this balloon rule.</p> 
+<img src="/PublishingImages/balloon-overload.jpg" alt="Balloon Bad Example" class="ms-rteCustom-ImageArea" /> 
+<span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – Balloon overload</span><br> 
+<img src="/PublishingImages/balloon-not-needed.JPG" alt="Balloon good example" class="ms-rteCustom-ImageArea" /> 
+<span class="ms-rteCustom-FigureGood">Figure&#58; Good example – See 3 balloons were not needed </span>
 
-
+<iframe width="560" height="315" src="http&#58;//www.youtube.com/embed/5TB61bqQKtE" frameborder="0"></iframe>
+<span class="ms-rteCustom-FigureGood">Figure&#58; Good example – Betsy Weber Techsmith - Part 1 - Creator of Snagit. See <a href="http&#58;//tv.ssw.com/204/betsy-weber-teched-interview">full series here</a></span>​
 
 
