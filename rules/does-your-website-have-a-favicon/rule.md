@@ -15,13 +15,7 @@ authors:
 
 <span class='intro'> <p>
       Don't forget to add a favicon to the address bar of your website! That extra bit of polish gives your site credibility.
-     </p><p>
-      Simply add the following within the head tags on your document&#58;
-     </p>
-                    
-      &lt;head&gt;<br>
-      &lt;LINK REL=&quot;SHORTCUT ICON&quot; HREF=&quot;/ssw/Images/icossw_v2.ico&quot;&gt;<br>
-      &lt;/head&gt; </span>
+     </p> </span>
 
 <p>
       Simply add the following within the head tags on your document&#58;
