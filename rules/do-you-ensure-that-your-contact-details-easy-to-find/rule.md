@@ -19,6 +19,6 @@ authors: []
       the site.
      </p> </span>
 
-
+<dl class="image"><dt><img border="1" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MarketingContactBar.gif" alt="" /></dt><dd>Figure&#58; SSW's contact details on the web site</dd></dl>
 
 
