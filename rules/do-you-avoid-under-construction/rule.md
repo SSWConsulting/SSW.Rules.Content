@@ -16,7 +16,7 @@ authors: []
    </p> </span>
 
 <p>​</p><dl class="image"><dt>
-     <img alt="Websites Under Construction" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Websites_UnderConstruction.jpg" style="margin&#58;5px;width&#58;99px;" /></dt><dd>
+     <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Websites_UnderConstruction.jpg" alt="Websites Under Construction" style="margin&#58;5px;width&#58;99px;" /></dt><dd>
      Figure&#58; &quot;We just can't get our act together on our website&quot;</dd></dl>
 
 
