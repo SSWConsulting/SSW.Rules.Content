@@ -1,0 +1,23 @@
+
+
+---
+authors:
+
+---
+
+
+
+
+<span class='intro'> <p>
+      It's crucial that contact details are placed exactly where the user expects to find
+      them - preferably on every page. People will often come to your site just to find
+      a phone number or an email address, so make sure they're search isn't harder than
+      it needs to be.
+     </p><p>
+      SSW has its contact details in the top navigation, which is found on all pages across
+      the site.
+     </p> </span>
+
+<dl class="image"><dt><img border="1" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MarketingContactBar.gif" alt="" /></dt><dd>Figure&#58; SSW's contact details on the web site</dd></dl>
+
+
