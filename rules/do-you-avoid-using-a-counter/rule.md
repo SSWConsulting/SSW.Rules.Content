@@ -27,7 +27,7 @@ authors: []
 rid of the
    counters and most professional sites have. Google Analytics allows 
 them to track their visitors much more comprehensively and use the
-   statistics to guide their marketing efforts.</p><p>See our <a href="/WebSites/RulestoBetterGoogleAnalyticsReports/Pages/default.aspx"> to Better Google Analytics Reports</a></p> </span>
+   statistics to guide their marketing efforts.</p><p>See our <a href="/rules-to-better-google-analytics-reports"> to Better Google Analytics Reports</a></p> </span>
 
 
 
