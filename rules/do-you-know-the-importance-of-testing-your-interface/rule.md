@@ -17,6 +17,6 @@ data.</p>
 
  </span>
 
-<p>​<img alt="" style="margin&#58;5px;width&#58;650px;" /><img src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/UsabilityTesting.jpg" alt="" style="margin&#58;5px;width&#58;650px;" /></p>
+<p>​<img alt="" style="margin&#58;5px;width&#58;650px;" /><img src="/PublishingImages/UsabilityTesting.jpg" alt="" style="margin&#58;5px;width&#58;650px;" /></p>
 
 
