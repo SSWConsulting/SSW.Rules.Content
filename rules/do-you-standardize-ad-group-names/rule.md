@@ -17,8 +17,8 @@ related: []
 
 <p>​​The use of standardised AD Group names is a simple yet crucial step, towards building a more manageable software. Raining in on the number of AD Groups will make it simpler to manage and allow new developers to pick up an existing projecting faster.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​​The use of standardised AD Group names is a simple yet crucial step, towards building a more manageable software. Raining in on the number of AD Groups will make it simpler to manage and allow new developers to pick up an existing projecting faster.</p><p> 
-   <strong>You can save yourself countless confused conversations by standardising AD Group Names.​</strong><br></p><p>For example&#58; This is a list of AD groups associated with products.<br></p><p class="ssw15-rteElement-GreyBox"> SugarLearningEvents<br> CodeAuditorAlerts<br> LinkAuditorDevs </p><p> 
+<p> 
+   <strong>​You can save yourself countless confused conversations by standardising AD Group Names.​</strong><br></p><p>For example&#58; This is a list of AD groups associated with products.<br></p><p class="ssw15-rteElement-GreyBox"> SugarLearningEvents<br> CodeAuditorAlerts<br> LinkAuditorDevs </p><p> 
    <strong>Figure&#58; Bad Example – It is difficult to know the correct name for an AD group​</strong> </p><p class="ssw15-rteElement-GreyBox"> SugarLearning<br> SugarLearningEvents<br> CodeAuditor<br> CodeAuditorEvents<br> LinkAuditor<br> LinkAuditorEvents</p>​ 
 <p> 
    <strong>Figure&#58; Good Example – By standardising the names of AD groups it saves confusion.</strong> </p><p>It is recommend by default having two AD groups, use the following table as a guide.</p><table class="normal"><tbody><tr><th>Name</th><th>Type</th><th>Purpose</th></tr><tr><td>&lt;ProductName&gt;</td><td>Distribution group</td><td>This email is using to send emails to the development team for a product.</td></tr><tr><td>&lt;ProductName&gt;Events</td><td>Mailbox</td><td>Acts as the collection point for all automatic notifications. For example notifications from Elmah and application insights.</td></tr></tbody></table>​​
