@@ -31,7 +31,7 @@ authors:
 
 <dl class="badImage"><p class="ssw15-rteElement-GreyBox"> 
       <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterWebsitesNavigation.aspx#" style="border-bottom&#58;medium none;color&#58;#333333;">Go to SSW</a> </p><dd>Bad Example&#58; This link is hard to recognize.</dd></dl><dl class="goodImage"><p class="ssw15-rteElement-GreyBox"> 
-      <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterWebsitesNavigation.aspx#" style="border-bottom&#58;1px dotted #448ccb;color&#58;#448ccb;">Go to SSW</a> </p><dd>Good Example&#58; This link is obvious.</dd></dl> We have a program called 
+      <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterWebsitesNavigation.aspx#" style="border-bottom-style&#58;dotted;color&#58;#448ccb;">Go to SSW</a> </p><dd>Good Example&#58; This link is obvious.</dd></dl> We have a program called 
 <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#BreadCrumbs">SSW Code Auditor</a> to check for this rule.
 
 
