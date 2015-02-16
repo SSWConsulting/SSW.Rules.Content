@@ -18,9 +18,9 @@ authors:
 <span class='intro'> <p>Every user under 40 expects underlined text to be a hyperlink. Never underline text that isn't a link.</p> </span>
 
 <dl class="image"><dt> 
-      <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/Websites_UnderlineNoHyperlink.gif" alt="Websites - Underline no hyperlink" style="margin&#58;5px;width&#58;377px;" />
+      <img alt="Websites - Underline no hyperlink" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/Websites_UnderlineNoHyperlink.gif" style="margin&#58;5px;width&#58;377px;" />
    </dt><dd>Figure&#58; Never underline the text when it isn't a link (even 
-      <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/ScottGu.htm" target="_blank">Scott Guthrie agrees</a>!)</dd></dl> We have a program called 
+      <a target="_blank" href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/ScottGu.htm">Scott Guthrie agrees</a>!)</dd></dl> We have a program called 
 <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#BreadCrumbs">SSW Code Auditor</a> to check for this rule. 
 
 
