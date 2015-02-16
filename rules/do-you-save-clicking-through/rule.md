@@ -12,7 +12,7 @@ redirects: []
 ---
 
 
-<p>Avoid forcing users to click to another page for more information.<br></p>
+<p>You should always avoid forcing users to click to another page if possible. Additional information can be shown on hover as a tooltip, or applications allow for inline editing.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​</p><dl class="goodImage"><dt>
                         <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/images/Clickingthrough.jpg" alt="" style="margin&#58;5px;width&#58;650px;" />
