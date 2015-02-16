@@ -18,9 +18,9 @@ and make use of typography, icons and supporting images to explain
 user's choices.</p> </span>
 
 <p>By dividing site navigation into groups users will have better view of your site's structure at a glance and thus presenting them with meaningful choices. You can also group key pages together and give them emphasis.</p><p>Of course, don't use a mega dropdown menu just because you can. Turning your normal navigation into mega-menu whilst keeping it as one continuous level is generally a no-no. in the same manner, just because mega-menus have room, doesn't mean you should overload them.</p><dl class="badImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/longmenu.jpg" alt="long dropdown menu" style="margin&#58;5px;width&#58;167px;" /> 
+      <img alt="long dropdown menu" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/longmenu.jpg" style="margin&#58;5px;width&#58;167px;" /> 
    </dt><dd>Figure&#58; Bad Example - Long drop down menu requires scrolling and difficult to see at a glance.</dd></dl><dl class="goodImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/megamenu.png" alt="mega menu" style="margin&#58;5px;width&#58;593px;" /> 
+      <img alt="mega menu" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/megamenu.png" style="margin&#58;5px;width&#58;593px;" /> 
    </dt><dd>Figure&#58; Good Example - Links are grouped into distinct category</dd></dl>
 
 
