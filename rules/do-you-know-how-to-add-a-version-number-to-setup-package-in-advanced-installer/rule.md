@@ -21,6 +21,6 @@ authors:
       <strong>MSI name</strong> text box which is located under 
       <strong>Output</strong> section</li><li class="li1">Next to the text add 
       <span class="s1">[|ProductVersion]</span>. If the text-box is empty you may want to start it with 
-      <span class="s1">[|ProductName]</span></li></ol><dl class="image"><dt><img src="/SoftwareDevelopment/RulesToBetterInstallers/PublishingImages/installer-add-version-number.jpg" alt="" /></dt><dd>Figure​&#58; Advanced Installer - Add version to output package</dd></dl>
+      <span class="s1">[|ProductName]</span></li></ol><dl class="image"><dt><img src="/PublishingImages/installer-add-version-number.jpg" alt="" /></dt><dd>Figure​&#58; Advanced Installer - Add version to output package</dd></dl>
 
 
