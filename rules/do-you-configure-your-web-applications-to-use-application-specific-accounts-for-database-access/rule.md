@@ -24,9 +24,9 @@ authors:
    <strong>Table&#58; Database roles taken from </strong>
    <a href="https&#58;//msdn.microsoft.com/en-us/library/ms189121.aspx">
       <span style="text-decoration&#58;underline;">
-         <strong>Database-Level Roles</strong></span></a> 
-   <img title="You are now leaving SSW" src="/Style%20Library/SSW/CoreImages/external.gif" alt="" /> 
-   <img title="You are now leaving SSW" src="/Style%20Library/SSW/CoreImages/external.gif" alt="" /></p><p>If you are running a web application on Azure as you should configure you application to use its own specific account that has some restrictions.&#160; The following script demonstrates setting up an sql user for myappstaging and another for myappproduction that also use EF code first migrations&#58;</p><blockquote><p>
+         <strong>Database-Level Roles</strong></span></a> <img title="You are now leaving SSW" src="/Style%20Library/SSW/CoreImages/external.gif" alt="" />
+
+</p><p>If you are running a web application on Azure as you should configure you application to use its own specific account that has some restrictions.&#160; The following script demonstrates setting up an sql user for myappstaging and another for myappproduction that also use EF code first migrations&#58;</p><blockquote><p>
       <font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2">USE</font></font></font><font face="Consolas" size="2"><font face="Consolas" size="2"> </font></font>
       <font color="#0000ff" face="Consolas" size="2">
          <font color="#0000ff" face="Consolas" size="2">
@@ -181,7 +181,6 @@ authors:
    <font color="#808080" face="Consolas" size="2"><font color="#808080" face="Consolas" size="2"><font color="#808080" face="Consolas" size="2"> </font></font></font>
    <font face="Consolas" size="2">
       <font face="Consolas" size="2"></font></font></blockquote><p>
-   <strong>Figure&#58; Example script to create a service user for myappstaging</strong></p><p class="ssw15-rteElement-GreyBox">Data Source=tcp&#58;xyzsqlserver.database.windows.net,1433; Initial Catalog=myapp-staging-db; User 
-   <a href="mailto&#58;ID=myappstaging@xyzsqlserver;Password='*************'">ID=myappstaging@xyzsqlserver;Password='*************'</a></p><p>​<strong>Figure&#58; Example connection string</strong></p>
+   <strong>Figure&#58; Example script to create a service user for myappstaging</strong></p><p class="ssw15-rteElement-GreyBox">Data Source=tcp&#58;xyzsqlserver.database.windows.net,1433; Initial Catalog=myapp-staging-db; User <a href="mailto&#58;ID=myappstaging@xyzsqlserver">ID=myappstaging@xyzsqlserver</a>; Password='*************'&#160;</p><p>​<strong>Figure&#58; Example connection string</strong></p>
 
 
