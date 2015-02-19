@@ -19,9 +19,9 @@ redirects: []
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt> 
-      <img alt="Page with a good title" src="http&#58;//www.ssw.com.au/ssw/standards/rules/Images/BadTitle.jpg" style="margin&#58;5px;width&#58;650px;" /> 
+      <img src="http&#58;//www.ssw.com.au/ssw/standards/rules/Images/BadTitle.jpg" alt="Page with a good title" style="margin&#58;5px;width&#58;650px;" /> 
    </dt><dd>Figure&#58; Bad example - A page with the default title </dd></dl><dl class="goodImage"><dt> 
-      <img alt="Page with a good title" src="http&#58;//www.ssw.com.au/ssw/standards/rules/Images/GoodTitle.jpg" style="margin&#58;5px;width&#58;650px;" /> 
+      <img src="http&#58;//www.ssw.com.au/ssw/standards/rules/Images/GoodTitle.jpg" alt="Page with a good title" style="margin&#58;5px;width&#58;650px;" /> 
    </dt><dd>Figure&#58; Good example - A page with a good title </dd></dl>
 
 
