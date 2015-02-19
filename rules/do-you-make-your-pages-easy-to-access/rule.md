@@ -20,7 +20,7 @@ authors: []
                 </p> </span>
 
 <dl class="image"><dt> 
-      <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/drop_down_menu.gif" alt="Drop-down menu" style="margin&#58;5px;" />
+      <img alt="Drop-down menu" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/drop_down_menu.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Have a useful navigation system</dd></dl><p> It is important to remember that Menu links are intended as shortcuts to pages, while Breadcrumbs are &quot;where am I?&quot; </p>
 
 
