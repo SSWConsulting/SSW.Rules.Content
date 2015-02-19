@@ -29,12 +29,12 @@ authors: []
 
 <p> 
    <strong>SSW Example&#58;</strong> </p><ul><li>Product Basket - Add/Remove products in your shopping Basket</li><li>Shipping Details - Enter where you would like products shipped</li><li>Payment Details - Select how you pay and enter details</li><li>Confirmation of Purchase - Display information about their purchase</li></ul><dl class="image"><dt> 
-      <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/ExamleHeadingforShoppingBasket.gif" alt="Example Header" style="margin&#58;5px;width&#58;505px;" />
+      <img alt="Example Header" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/ExamleHeadingforShoppingBasket.gif" style="margin&#58;5px;width&#58;505px;" />
    </dt><dd>Figure&#58; Simple Header that tells the user where they have come from</dd></dl><p> 
    <strong>Amazon Example&#58;</strong> </p><ul><li>Welcome Icon - Ordering from Amazon.com is quick and easy</li><li>Address Icon - Choose a shipping address</li><li>Ship Icon - Choose your shipping options</li><li>Pay Icon - Select a payment method</li></ul><p> The following heading from Amazon shows the user at what stage of the ordering process they are at and what they can expect next. This covers the whole billing process. </p><dl class="image"><dt> 
-      <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/amazonshopping.jpg" alt="Amazon Shopping" style="margin&#58;5px;width&#58;383px;" />
+      <img alt="Amazon Shopping" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/amazonshopping.jpg" style="margin&#58;5px;width&#58;383px;" />
    </dt><dd>Figure&#58; This is how headings should look</dd></dl><dl class="image"><dt> 
-      <img width="600" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/virgin-flight-navigation.png" alt="Virgin Flight Booking" style="margin&#58;5px;" />
+      <img width="600" alt="Virgin Flight Booking" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/virgin-flight-navigation.png" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Virgin Australia uses a more subtle approach</dd></dl>
 
 
