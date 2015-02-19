@@ -26,7 +26,7 @@ redirects: []
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt> 
-      <img border="0" src="http&#58;//www.ssw.com.au/ssw/standards/rules/Images/GoodLoginError.gif" alt="Good message for invalid account" style="margin&#58;5px;" /> 
+      <img border="0" alt="Good message for invalid account" src="http&#58;//www.ssw.com.au/ssw/standards/rules/Images/GoodLoginError.gif" style="margin&#58;5px;" /> 
    </dt><dd>Figure&#58; Good example - for security reasons, you don't say if it was an invalid user name or password.</dd></dl><p> See 
    <a href="http&#58;//www.ssw.com.au/ssw/shop/Login.aspx">Login.aspx</a> for a real example. </p>
 
