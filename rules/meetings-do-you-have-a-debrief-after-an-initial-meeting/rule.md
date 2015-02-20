@@ -27,7 +27,7 @@ redirects: []
 <li>Do you think I connected with the client?</li>
 <li>How can we improve our sales process from what we learned in this meeting?</li>
             </ol>
-            <p>You should be as honest as possible with each other during the debrief but always use the <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/The-sandwich-rule.aspx">sandwich rule</a>.</p>
+            <p>You should be as honest as possible with each other during the debrief but always use the <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/The-sandwich-rule.aspx" target="_blank">sandwich rule</a>.</p>
             Any good ideas or suggested changes should be emailed to the Product Owner.
              <p></p>
 
