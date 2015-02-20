@@ -16,15 +16,13 @@ redirects: []
 ---
 
 
-<p>A client will always prefer to be told ahead of time if a release is going to take longer than anticipated. It gives them more control of what is going on. The other opinion is landing them with an oversized invoice with no warning. </p>
+<p>A client will always prefer to be told ahead of time if a piece of functionality&#160;is going to take longer than anticipated. It gives them more control of what is going on. The other opinion is landing them with an oversized invoice with no warning. </p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt><img alt="Email update" src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/email-update.jpg" /></dt>
-<dd>Figure&#58; You are responsible for sending update reports to your clients every Friday</dd></dl>
-<p>For this reason, any developer working on a client project should send an updated release plan to the relevant project manager every Friday so that they can call the client, if needs be, to inform them of what's going on and ask &quot;do you want us to continue?&quot;. </p>
-<dl class="bad"><dt>$100k estimate. Calling the client when you reach $110k to say you have $20k to go. </dt>
+<dl class="goodImage"><dt><span style="line-height&#58;1.6;">For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surpirse in the Sprint Review.&#160;</span></dt><dt><span style="line-height&#58;1.6;"><br></span></dt><dt><span style="line-height&#58;1.6;">For big delays,&#160;it's best to tell&#160;the client as soon as the risk is identified to inform them of what's going on and ask &quot;Do you want us to continue?&quot;.</span><br></dt></dl>
+<dl class="bad"><dt>$100k estimate. Calling the client when you reach $110k to say you have $20k to go.​ </dt>
 <dd>Bad Example&#58; Not giving the client enough warning. </dd></dl>
 <dl class="good"><dt>$100k estimate. Calling the client when you reach $80k to say you have $40k to go, and does he want to continue? </dt>
 <dd>Good Example&#58; Giving the client a warning ahead of time and asking for permission to continue. </dd></dl>
-<p>If you're working to a release plan, <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/fridaySign.jpg">here is a reminder</a> about sending updates to put up in your office. </p>
+
 
 
