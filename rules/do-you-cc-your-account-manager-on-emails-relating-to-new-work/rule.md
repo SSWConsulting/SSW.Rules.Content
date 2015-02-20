@@ -17,11 +17,10 @@ redirects:
 ---
 
 
-<p>
-                    Once a project gets underway, it is not uncommon for the lead developer to take
-                    over a lot of the project management workload. Since they are the person most in
+<p>Once a project gets underway, it is not uncommon for the development&#160;team&#160;to take
+                    over a lot of the project management workload. Since they are the people&#160;most in
                     contact with the client, sometimes new work will be organized through them instead
-                    of the Account Manager.
+                    of the Account Manager.​
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
  <p>
