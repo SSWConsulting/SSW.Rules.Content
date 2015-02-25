@@ -17,7 +17,7 @@ related: []
 ---
 
 
-​Replying inline should be the exception rather than the rule as it messes up the history of the email thread. If you do - copy and paste the entire email in your reply and comment on each issue at a time. It's useful to write your comments in red. And make sure what you type should always be aligned left, not indented. Remember, if you write emails with one issue at a time you won't need to do this too often.
+​​Replying inline should be the exception rather than the rule as it messes up the history of the email thread. If you do - copy and paste the entire email in your reply and comment on each issue at a time. It's useful to write your comments in red. You should always mention what color your comments are in (sometimes there is more than one person making in-line comments).&#160;​And make sure what you type should always be aligned left, not indented. Remember, if you write emails with one issue at a time you won't need to do this too often.
 
 <br><excerpt class='endintro'></excerpt><br>
 <span class="ms-rteCustom-GreyBox">
