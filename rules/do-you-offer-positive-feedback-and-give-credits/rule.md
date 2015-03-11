@@ -18,6 +18,6 @@ authors:
 
 <p>
                     This is a simple rule - if someone goes beyond the call of duty, you thank them.
-                </p>
+                </p><p><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/GoodJob.jpg" alt="GoodJob.jpg" style="margin&#58;5px;width&#58;500px;height&#58;337px;" /><br>Figure&#58; Give credit where credit is due​</p>
 
 
