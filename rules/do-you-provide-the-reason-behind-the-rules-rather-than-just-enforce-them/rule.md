@@ -15,36 +15,21 @@ redirects:
 ---
 
 
-<p>
-                    A long time ago BF Skinner, a psychologist, proved through experiments that an animal
-                    rewarded for good behavior will learn much more rapidly and retain what it learns
-                    far more effectively than an animal punished for bad behavior (<em>Fundamental Techniques
-                        in Handling People, Brian Elfstrom</em>).
-                </p>
+<p></p><p>If you criticize&#160;your staff&#58;</p><ul><li>You don't make lasting changes</li><li>They will resent you, resulting in lower productivity and&#160;employee morale</li></ul>
 <br><excerpt class='endintro'></excerpt><br>
-<p>If you criticize your staff&#58;</p>
-                <ul>
-                    <li>You don't make lasting changes </li>
-                    <li>They will resent you, resulting in lower productivity and employee morale</li>
-                </ul>
+
                 <p>
-                    An example&#58; If one of your responsibilities is to make sure all your developers
-                    have signed released plans you can run around with a lot of authority telling them
+                    For&#160;example&#58; If one of your responsibilities is to make sure all your developers sent &quot;test please&quot; emails,&#160;you can run around with a lot of authority telling them
                     they'd better comply, but at soon as you're not around, they will resent you and
                     not bother about it.
                 </p>
-                A better approach is, when you see developers not using signed release plans&#58;<br>
-                <ul>
-                    <li>Ask, &quot;Is there anything I can do to make it easier for you to complete the release
-                        plan or make it simpler to produce?&quot; </li>
-                    <li>Explain that release plans are there to make sure we are working on authorized work
-                    </li>
-                    <li>Explain that release plans make sure we get paid for our work - without them it
-                        is hard to track work done on a project </li>
+                A better approach is, when you see developers not sending &quot;test please&quot; emails&#58;<ul>
+                    <li>Explain that these emails&#160;are there to make sure we are working on the right thing in the right way</li>
+                    <li>Explain that they save time by getting early feedback, allowing bugs to be fixed while it's still fresh in the developers'&#160;minds</li>
                 </ul>
 <dl class="image">
                                     <dt>
-                                        <img width="176" height="172" alt="Don't Criticize" src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/DontCriticize.jpg" /> 
+                                        <img alt="Don't Criticize" src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/DontCriticize.jpg" /> 
                                     </dt>
                                     <dd>
                                         Figure&#58; &quot;The whipping must continue until moral improves&quot;</dd>
