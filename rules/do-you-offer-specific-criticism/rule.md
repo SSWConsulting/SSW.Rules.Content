@@ -16,8 +16,8 @@ redirects:
 
 
 <p>
-                    Every day I come across something that could be improved. I believe that, if we're
-                    not making improvements, we're going backwards. But I don't make suggestions or
+                    Every day you will probably&#160;come across something that could be improved. If you're
+                    not making improvements, you're going backwards. But&#160;don't make suggestions or
                     criticisms without being specific.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
@@ -26,7 +26,7 @@ redirects:
 <dd>Figure&#58;
                         Bad Example - Non specific criticism</dd></dl>
                 <p>
-                    When I find a problem, I pinpoint it directly (and recommend a solution)&#58;
+                    When you find a problem, pinpoint it directly (and recommend a solution)&#58;
                 </p>
                 <dl class="good">
                     <dt>&quot;The current sales process does not ensure that a prospect is followed up by a phone
@@ -42,7 +42,7 @@ redirects:
                     and then request that action be taken.
                 </p>
                 <p>
-                    When criticism is general, it is impossible to know what to fix.
+                    When criticism is general, it is impossible to know what to fix.​
                 </p>
 
 <dl class="good">
