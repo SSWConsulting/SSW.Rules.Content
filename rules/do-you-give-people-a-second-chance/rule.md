@@ -17,7 +17,7 @@ authors:
                         Bob Hoover, a famous test pilot and frequent performer at air shows, was returning
                         to his home in Los Angeles from an air show in San Diego. As described in the magazine
                         <i>Flight Operations</i>, at three hundred feet in the air, both engines suddenly
-                        stopped. By deft maneuvering he managed to land the plane, but it was badly damaged
+                        stopped. By deft manoeuvring​ he managed to land the plane, but it was badly damaged
                         although nobody was hurt.
                     </p>
  <p>
@@ -47,9 +47,9 @@ authors:
                     was upset, but instead of coming down on him like a ton of bricks, I&#58;
                 </p>
                 <ol>
-                    <li>Went through the steps he took</li>
-                    <li>Identified where he did not do what he was supposed to, and</li>
-                    <li>Showed him the company standard for backups</li>
+                    <li>Went through the steps he took;</li>
+                    <li>Identified where he did not do what he was supposed to; and</li>
+                    <li>Showed him the company standard for backups.</li>
                 </ol>
                 <p>
                     By giving him a second chance, I ensured that he and others would not make the same
