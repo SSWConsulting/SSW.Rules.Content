@@ -23,7 +23,7 @@ redirects:
                     they'd better comply, but at soon as you're not around, they will resent you and
                     not bother about it.
                 </p>
-                A better approach is, when you see developers not sending &quot;test please&quot; emails&#58;<ul>
+                A better approach is, when you see developers not sending &quot;test please&quot; emails&#58;​<ul>
                     <li>Explain that these emails&#160;are there to make sure we are working on the right thing in the right way</li>
                     <li>Explain that they save time by getting early feedback, allowing bugs to be fixed while it's still fresh in the developers'&#160;minds</li>
                 </ul>
