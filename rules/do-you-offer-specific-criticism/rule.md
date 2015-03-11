@@ -42,20 +42,7 @@ redirects:
                     and then request that action be taken.
                 </p>
                 <p>
-                    When criticism is general, it is impossible to know what to fix.​
-                </p>
-
-<dl class="good">
-                    <dt>
-                    <strong>Quote #1&#58;</strong> I don't mind being called a shit boss, just explain why.<br><br>
-                    Adam Cogan, The Oaks (with David Klein) 2002<br><br>
-                    <strong>Quote #2&#58;</strong> How can you be influential, if you can't explain why.<br><br>
-                    Alison Young, SSW Boardroom 22/1/2009
-                    </dt>
-                    <dd>
-                         Figure&#58; Relevant quotes that encourage you to be specific
-                    </dd>
-                </dl>
+                    When criticism is general, it is impossible to know what to fix.​​</p>
 
 
 
