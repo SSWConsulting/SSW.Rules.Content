@@ -21,10 +21,10 @@ redirects:
 
 <p>Imagine you see one port of a hub not working, what do you do?</p>
                 <p>
-                    When you see something not working like a phone or a powerpoint, don't ignore it,
+                    When you see something not working like a phone or a PowerPoint, don't ignore it,
                     stick a note to it and tell the appropriate person.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Create a form that reminds you what is broken, who you have to call to fix it and any notes that may need to ensure that the item in question is fixed properly or replaced.</p>
+<p>Create a form that reminds you what is broken, who you have to call to fix it and any notes that may need to ensure that the item in question is fixed properly or replaced.</p><p><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/LeaningTowerOfPisa.jpg" alt="LeaningTowerOfPisa.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Label​ broken equipment<br></dd>
 
 
