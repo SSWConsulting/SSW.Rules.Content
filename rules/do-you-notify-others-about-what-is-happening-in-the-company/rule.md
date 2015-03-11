@@ -25,7 +25,7 @@ redirects:
                     <li>An update to a company standard or procedure (including a link to it)</li>
                     <li>Births and marriages</li>
                     <li>Employees who are starting or finishing</li>
-                    <li>Anything significant that is happening in your life or the life of a loved one</li>
+                    <li>Anything significant that is happening in your life</li>
                 </ul>
                 <p>
                     You should really feel free to share any good news you have with everyone. It will
