@@ -27,6 +27,6 @@ redirects:
                 </ol>
                 <p>
                     This optimistic approach allows you to maintain a healthy relationship with your
-                    team members and clients.</p>
+                    team members and clients.</p><p><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/criticize-behavior-not-person.gif" alt="criticize-behavior-not-person.gif" style="margin&#58;5px;" />&#160;</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; What not to do​</dd>
 
 
