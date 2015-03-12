@@ -62,14 +62,13 @@ redirects:
                 </p>
                 <p>
                     I've also been into a few offices that use ambient music to subdue their employees.
-                    Again, I'm not convinced of this as a method mostly due to the fact that your not
+                    Again, I'm not convinced of this as a method mostly due to the fact that you're not
                     likely to be able to attend to everyone's tastes, and you're even more likely to
-                    intensify the &quot;oh, I love this song&quot; factor.
+                    intensify the &quot;oh, I love this song&quot; factor.​
                 </p>
                 <p>
                     Note&#58; Please see our <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterDeadTime.aspx#AudioDevice">Rules To Better
-                        Dead Time</a> for how we like to effectively use audio devices like Zunes and
-                    iPods when we're not at work.
+                        Dead Time</a> for how we like to effectively use audio devices like iPods when we're not at work.
                 </p>
 
 
