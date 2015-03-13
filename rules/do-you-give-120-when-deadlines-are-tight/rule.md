@@ -17,6 +17,6 @@ redirects:
 
 <p>There are times when you can happily work your standard hours, but there are times when your whole team would appreciate some hard work. This should not be the standard, but extra work at certain times is a given in a professional industry. </p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​<img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/WorkingHard.jpg" alt="WorkingHard.jpg" style="margin&#58;5px;" /><br>Figure&#58; On occasion, everyone has to work extra hard​</p>
 
 
