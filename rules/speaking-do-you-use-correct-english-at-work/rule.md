@@ -17,8 +17,8 @@ redirects:
 
 <p>
                     Communication and how you express yourself to your co-workers and clients is reflective
-                    of the company you work for. At SSW, we find it beneficial to practice correct English,
-                    as it displays our professionalism and courtesy. For example&#58;
+                    of the company you work for. You should&#160;practice correct English,
+                    as it displays your professionalism and courtesy.&#160;</p><p>​For example&#58;
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad">
