@@ -29,27 +29,23 @@ authors:
                         sign a Non-Disclosure Agreement (NDA) which you should always consider.
                     </p>
                     <p>
-                        Long term clients should re-sign the Terms and Conditions every year. Signed Terms
+                        Long term clients should re-sign the Terms and Conditions every couple of&#160;years. Signed Terms
                         and Conditions should be given to the&#160;Accounts department for record keeping.
                     </p>
-                    <p>
-                        Generally speaking, a signed set of Terms and Conditions authorizes you&#160;to conduct
-                        a Specification Review.
-                    </p>
+                    
 </li>
                     <li><strong>Proposals&#160;</strong><p>
-                        At the conclusion of a <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/SpecificationReview.aspx">Specification Review</a>,&#160;you should&#160;provide a proposal to the client.&#160;This&#160;will include all the relevant information
+                        At the conclusion of a <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/SpecificationReview.aspx">Specification Review</a>,&#160;you should&#160;provide a proposal to the client.&#160;This&#160;will include all of&#160;the relevant information
                         you&#160;have&#160;discovered during the Specification Review process. The proposal may take
                         the form of a PowerPoint presentation (preferred) or a Word doc.
                     </p>
                     <p>
                         However, the proposal is not a contract. It does not supersede the Terms and Conditions. In effect, 
-                        the proposal is a sales document which describes broadly the scope of the work to be done and our                        capacity to complete that work. It is not a working document from which the project is managed. 
+                        the proposal is a sales document which describes broadly the scope of the work to be done and our                        capacity to complete that work.&#160;In an Agile project,&#160;it is not a working document from which the project is managed. 
                         The project will generally be managed using&#160;Scrum, with a backlog in TFS.</p>
 </li>
                     <li><strong>Ad Hoc Emails, Instant Messenger and Verbal Agreements</strong>
-                    <p>
-                        Electronic communication such as email and Instant Messenger are extremely useful
+                    <p>The most common form of mini-contract is a confirmation email.<br>​Electronic communication such as email and Instant Messenger are extremely useful
                         in getting decisions confirmed quickly but it is important to follow strict standards
                         to ensure any agreements are clear to everyone. You should not generally rely upon
                         verbal agreements, always confirming anything agreed verbally in writing. The following
@@ -57,9 +53,9 @@ authors:
                     </p></li>
                     </ul>
             <ul>
-                <li><a href="/Communication/RulesToBetterEmail/Pages/PrepareAndConfirm.aspx">Do you
+                <li><a href="/do-you-prepare-then-confirm-conversations-decisions">Do you
                     prepare then confirm conversations/decisions?</a></li>
-                <li><a href="/Communication/RulesToBetterEmail/Pages/EmailToMyself.aspx">Do you send
+                <li><a href="/dones-do-you-send-yourself-emails">Do you send
                     yourself emails?</a></li>
                 <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ImportantChatsEmail">
                     Do you confirm important IM chats by email</a></li>
@@ -67,9 +63,6 @@ authors:
             <p>
                 Email, Instant Messenger and (confirmed) verbal agreements are utilized extensively
                 during a project where newly discovered work, delays, or other work outside the
-                initial scope is required.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </p>
-            <p>
-                Next - now run your project better with 
-                    <a href="/Management/RulesToBetterScrumUsingTFS/Pages/default.aspx">Rules to Better Scrum Using TFS</a>​            </p>
+                initial scope is required.</p>
 
 
