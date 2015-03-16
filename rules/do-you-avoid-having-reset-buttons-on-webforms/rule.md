@@ -15,18 +15,18 @@ authors:
 
 
 
-<span class='intro'> Why do web pages have Reset buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button.
+<span class='intro'> Why do web pages have &quot;Reset&quot; buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button.
  </span>
 
-  <span>
-<dl class="badImage">
-    <dt><img width="300" height="300" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" alt="" /> </dt>
-    <dd>Figure&#58; The Reset button isn't useful at all </dd>
-</dl>
-<p class="productBox" style="display&#58;block;">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p>
-<p class="productBox" style="display&#58;block;">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule. <br>
-We offer a <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</p>
-</span>
-
+  
+<span> 
+   <dl class="badImage"><dt>
+         <img width="300" height="300" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" alt="" /> 
+      </dt><dd>Figure&#58; The &quot;Reset&quot;​​​ button isn't useful at all </dd></dl> 
+   <p class="productBox" style="display&#58;block;">We have a program called 
+      <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p> 
+   <p class="productBox" style="display&#58;block;">We have a program called 
+      <a href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule.​</p><p>We offer a 
+      <a href="http&#58;//www.ssw.com.au/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</p> </span> 
 
 
