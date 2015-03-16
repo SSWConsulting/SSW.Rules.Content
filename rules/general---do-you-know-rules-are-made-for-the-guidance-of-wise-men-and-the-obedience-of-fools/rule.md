@@ -15,22 +15,17 @@ authors:
 
 <span class='intro'> 
   <p><strong>Standards should *not*&#160;be followed blindly. Aim for continual improvement.</strong></p>
-<div>Of course there are pros and cons to having standards.</div>
-<div>The pros&#58;</div>
-<ul><li>They help speed up the decision making process – getting you to the best decision faster</li>
-<li>They help <a href="/Management/RulesToSuccessfulProjects/Pages/DoYouUnderstandTheValueOfConsistency.aspx">consistency</a></li></ul>
-<div>The cons&#58;</div>
-<ul><li>They take time to write in a generic fashion</li>
-<li>Technology ones rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and need continual updating</li>
-<li>They have errors as they are written by imperfect people.</li>
-<li>People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so&#160; cases can and will appear that the standards fail to cater for.</li></ul>
-<p class="ssw15-rteElement-P"><strong>So standards should always help the critical thinking process, never replace it</strong></p>
+<p class="ssw15-rteElement-P">Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.​</p><p class="ssw15-rteElement-P">But there are pros and cons to having standards.</p>
 
-<p>If you think something can be done better or the standard is simply out of date, improve the standard.&#160;Email the&#160;person responsible for&#160;the standard the specific changes you want made <a id="with specific changes e.g. From x To y" href="/Communication/RulesToBetterEmail/Pages/Change-from-X-to-Y.aspx" shape="rect">(e.g. change &quot;x&quot; to &quot;y</a>&quot;). </p>
-<p>For any rules on our site you can click the 'Feedback to SSW' link at the bottom left.</p>
+
  </span>
 
-&#160; 
-
+<p class="ssw15-rteElement-P">The pros&#58;</p><ul><li>They help speed up the decision making process – getting you to the best decision faster</li><li>They help&#160;<a href="/Management/RulesToSuccessfulProjects/Pages/DoYouUnderstandTheValueOfConsistency.aspx">consistency</a></li></ul><p class="ssw15-rteElement-P">The cons&#58;</p><ul><li>They take time to write in a generic fashion</li><li>Technology ones rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and need continual updating</li><li>They have errors as they are written by imperfect people.</li><li>People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so&#160; cases can and will appear that the standards fail to cater for.</li></ul><p class="ssw15-rteElement-P"> 
+   <strong>So standards should always help the critical thinking process, never replace it</strong></p><p>If you think something can be done better or the standard is simply out of date, you should&#160;improve the standard.&#160;This is best done as a team effort a with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have four options&#58;</p><ol class="ol1"><li class="li1">Ignore it and hope someone fixes it (this is punishable by being sat on by a wild hippo);</li><li class="li1">Fix it yourself straight away (preferred);</li><li class="li2"> 
+      <span class="s1">Fix it yourself later (</span><span class="s2"><a href="/Communication/RulesToBetterEmail/Pages/EmailToMyself.aspx">send yourself an email</a></span><span class="s1">);</span></li><li class="li2"> 
+      <span style="line-height&#58;1.6;">Ask someone else to fix it (following the </span> 
+      <span class="s4" style="line-height&#58;1.6;"> 
+         <a href="/Communication/RulesToBetterEmail/Pages/Change-from-X-to-Y.aspx">change &quot;x&quot; to &quot;y&quot;</a></span><span style="line-height&#58;1.6;"> rule)</span><span style="line-height&#58;1.6;">&#160;</span><span style="line-height&#58;1.6;">​​​</span></li></ol> ​ 
+<p>For any rules on our site you can click the 'Feedback to SSW' link at the bottom left.</p>
 
 
