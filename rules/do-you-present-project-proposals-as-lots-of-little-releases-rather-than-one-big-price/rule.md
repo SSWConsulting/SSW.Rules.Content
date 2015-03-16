@@ -21,16 +21,8 @@ authors:
                 lead to bigger ones.
                 </p> </span>
 
-<p>
-                    This approach also allows you to side-step common delaying tactics of prospective clients by making it easier to 
-                    get the project moving.
-                </p>
-                <dl class="image">
-                <dt><img alt="One big price is like a slap in the face" src="/Management/RulesToSuccessfulSalesAndAccountManagement/PublishingImages/AccountManagement-FaceSlap.jpg" />
-                </dt>
-                <dd>
-                Figure&#58; One big price is like a slap in the face
-                </dd>
-                </dl>
+<p> This approach also allows you to side-step common delaying tactics of prospective clients by making it easier to get the project moving. </p><dl class="image"><dt>
+      <img alt="One big price is like a slap in the face" src="/Management/RulesToSuccessfulSalesAndAccountManagement/PublishingImages/AccountManagement-FaceSlap.jpg" /> 
+   </dt><dd> Figure&#58; One big price is like a slap in the face </dd></dl><p>One great example​ of this is <a href="/Management/RulestoBetterSpecificationReviews/Pages/SpecificationReview.aspx">selling a specification review first</a>, rather than trying to sell the entire project.</p>
 
 
