@@ -17,10 +17,10 @@ redirects:
 ---
 
 
-<p>A common mistake for anyone in an organization is to use code/emails that you have previously written, and stored somewhere on your computer, and change around key bits to make it relevant.</p>
+<p>A common mistake&#160;is to use code or&#160;emails that you have previously written, and stored somewhere on your computer, and change around key bits to make it relevant for the current situation.</p>
                 <p>The problem with this is that you make it impossible for anyone else in your organization to do the same task to the same quality level. </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Make sure your company has a common code base email template store and endeavor to improve it regularly. This shares knowledge across your organization and makes sure everyone is working to the level that your company standards require. </p>
+<p>Make sure your company has a common code base and&#160;email template store and endeavour​ to improve it regularly. This shares knowledge across your organization and makes sure everyone is working to the level that your company standards require. </p>
 
             
 
