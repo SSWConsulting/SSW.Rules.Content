@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>
+<span class='intro'> <p>​
                     When building an application for a client, you should implement functionality which
                     will notify you personally whenever it throws an exception and log the issue for
                     review.
