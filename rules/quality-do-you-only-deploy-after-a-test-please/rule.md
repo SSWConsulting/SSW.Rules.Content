@@ -16,9 +16,8 @@ redirects: []
 ---
 
 
-<p>
-                    In order to ensure the quailty of the code you deploy, make sure you don't deploy
-                    until you have got your code fully tested.
+<p>In order to ensure the quality​ of the code you deploy, make sure you don't deploy
+                    until you have got your code fully tested and received a &quot;test passed&quot;.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
