@@ -20,7 +20,7 @@ related: []
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
-                    Whenever anyone in your organization responds to a blog entry, forum, or usergroup,
+                    Whenever anyone in your organization responds to a blog entry or&#160;forum,
                     they should always use the <a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterBranding.aspx#EmailSignatures">
                         standard company footer</a>.
                 </p>
