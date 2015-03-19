@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'>  <p>It never hurts to get the advice of your colleagues, and getting advice from someone
+<span class='intro'>  <p>​It never hurts to get the advice of your colleagues, and getting advice from someone
                     who's been doing what you're doing for a while will always teach you something new
                     and improve the quality of your work. <br></p> </span>
 
