@@ -26,7 +26,7 @@ redirects:
                 </ul>
                 <p>
                     If you are working onsite, you can still use TFS remotely and it's important to
-                    talk the client into this in order to avoid any possible disasters.
-                </p><p><br></p><p><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/Backup.gif" alt="Backup.gif" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Have a backup</dd>
+                    talk the client into this in order to avoid any possible disasters.​
+                </p><p><br></p><p class="ssw15-rteElement-GreyBox"><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/Backup.gif" alt="Backup.gif" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Have a backup</dd>
 
 
