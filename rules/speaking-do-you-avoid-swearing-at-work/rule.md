@@ -19,6 +19,6 @@ redirects:
                     bad language and the work environment would suffer.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​<img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/GORDON-RAMSAY.jpg" alt="GORDON-RAMSAY.jpg" style="margin&#58;5px;width&#58;650px;" /><br><b>Figure&#58; Gordon Ramsay - The only man who can get away with professional swearing</b></p>
+<dl class="ssw15-rteElement-ImageArea">​<img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/GORDON-RAMSAY.jpg" alt="GORDON-RAMSAY.jpg" style="margin&#58;5px;width&#58;650px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Gordon Ramsay - The only man who​ can ​​​​get away with professional swearing</dd>
 
 
