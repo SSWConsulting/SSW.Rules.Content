@@ -25,6 +25,6 @@ redirects:
                     stick a note to it and tell the appropriate person.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Create a form that reminds you what is broken, who you have to call to fix it and any notes that may need to ensure that the item in question is fixed properly or replaced.</p><p><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/LeaningTowerOfPisa.jpg" alt="LeaningTowerOfPisa.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Label​ broken equipment<br></dd>
+<p>Create a form that reminds you what is broken, who you have to call to fix it and any notes that may need to ensure that the item in question is fixed properly or replaced.</p><p class="ssw15-rteElement-GreyBox"><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/LeaningTowerOfPisa.jpg" alt="LeaningTowerOfPisa.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Label broken equ​​​ipment<br></dd>
 
 
