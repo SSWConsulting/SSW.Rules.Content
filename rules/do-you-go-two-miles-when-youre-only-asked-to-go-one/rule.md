@@ -35,6 +35,6 @@ redirects:
                     <li>Others will return the favour when you really need it</li>
                     <li>The sense of work-place isolation disappears</li>
                     <li>Productivity lifts as tasks can be achieved quicker</li>
-                </ul><div><span style="line-height&#58;21px;"><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/CowsBum.JPG" alt="CowsBum.JPG" style="margin&#58;5px;" /><br></span></div><div><span style="line-height&#58;21px;"><strong>Figure&#58; Going the extra mile​</strong></span></div>
+                </ul><dl class="ssw15-rteElement-ImageArea"><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/CowsBum.JPG" alt="CowsBum.JPG" style="margin&#58;5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">​Figure&#58; Going​ the extra mile​</dd>
 
 
