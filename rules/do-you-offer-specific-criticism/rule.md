@@ -22,15 +22,15 @@ redirects:
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad">
-                    <dt>&quot;Do you know our sales process is hopeless, what are you going to do about it?&quot;</dt>
+                    <dt>&quot;Do you know our sales process is pretty bad, what are you going to do about it?&quot;</dt>
 <dd>Figure&#58;
                         Bad Example - Non specific criticism</dd></dl>
                 <p>
                     When you find a problem, pinpoint it directly (and recommend a solution)&#58;
                 </p>
                 <dl class="good">
-                    <dt>&quot;The current sales process does not ensure that a prospect is followed up by a phone
-                        call within 7 days of an initial meeting. Please create a workflow in CRM4, have it tested by the sales manager, and then we will email the sales team to inform them about the improvement.&quot; </dt>
+                    <dt>&quot;The current sales process is pretty bad. It&#160;does not ensure that a prospect is followed up by a phone
+                        call within 7 days of an initial meeting. Please create a workflow in CRM,​ have it tested by the sales manager, and then we will email the sales team to inform them about the improvement.&quot; </dt>
                     <dd>
                         Figure&#58; Good Example - Offering criticism in this way ensures that something will
                         happen to fix the problem.
