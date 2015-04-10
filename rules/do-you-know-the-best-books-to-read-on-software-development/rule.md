@@ -21,7 +21,7 @@ redirects:
 ---
 
 
-<p class="p1">As a software consultant, knowing your industry, your project management methods and your technologies are vital.&#160;</p><p class="p1">Although everyone learns differently, and some prefer video sites like 
+<p class="p1">As a software consultant, knowing your industry, your project management methods and your technologies are vital. Although we're always looking for the latest best practices and shiney new technologies, knowing the fundamentals is vital.​</p><p class="p1">Although everyone learns differently, and some prefer video sites like 
    <a href="http&#58;//www.pluralsight.com/" target="_blank">www.pluralsight.com​</a> to reading, these books are still full of useful information&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul class="ul1"><li class="li1">
