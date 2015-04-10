@@ -40,6 +40,6 @@ authors:
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; The document _InstructionsCodeAnalysis.doc shows that there were 3 StyleCop rules disabled.</span>
 <div class="ssw-rteStyle-GreyBox"><p>Suggestion to MS&#58; Allow developers to put a comment against any disabled rule when you turn&#160;it off</p>
 TODO - Damian&#58; Add image</div>
-<div><p class="ssw15-rteElement-P">​​​<br></p></div><div><p>See&#160;<a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/AddCAFxCopToSolution.aspx">Do you add SSW Code Auditor, NUnit and Microsoft FxCop project files to your Solution?</a></p><p>See&#160;<a href="/Management/RulesToSuccessfulProjects/Pages/CheckCodeByCodeAuditorBeforeCheckIn.aspx">Do you check your code by Code Auditor before check-in?</a></p></div>
+<div><p class="ssw15-rteElement-P">​​​​<br></p></div>
 
 
