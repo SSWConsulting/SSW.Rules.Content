@@ -15,7 +15,7 @@ authors:
                 </p> </span>
 
 <p>
-                    Regardless of whether it is AC/DC or DotNetRocks, music/podcasts should not be used in the work place because&#58;
+                    Regardless of whether it is AC/DC or DotNetRocks, music/podcasts should not be used in the work place, especially using headphones, because&#58;​
                 </p>
                 <ul>
                     <li>I want my team to work with each other, and I don't mind that they hear other conversations
