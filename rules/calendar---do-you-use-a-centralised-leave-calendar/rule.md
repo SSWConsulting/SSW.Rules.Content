@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>People take leave all the time, and it can be frustrating to find out that someone is not in the office after you've already sent an email to book them for a meeting. 
+<span class='intro'> <p>​People take leave all the time, and it can be frustrating to find out that someone is not in the office after you've already sent an email to book them for a meeting. 
 You should have a centralized system to check for everyone's availability. 
 </p> </span>
 
