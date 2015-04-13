@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>You should always set your working hours in your outlook calendar so others knows when you are working, this will help us to do resource scheduling.  This is especially important for people who are not working as full time, e.g. part-time, contractors etc.</p> </span>
+<span class='intro'> <p>​You should always set your working hours in your outlook calendar so others knows when you are working, this will help us to do resource scheduling.  This is especially important for people who are not working as full time, e.g. part-time, contractors etc.</p> </span>
 
 <p>You can find this setting in File | Options | Calendar Options, it looks like below&#58;</p>
               <dl class="image">
