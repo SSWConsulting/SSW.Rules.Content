@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>
+<p>​
                    Imagine someone wants an appointment with a team member who has <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Share-your-calendar-with-everyone.aspx">shared their calendar</a> with you. Offer to look up the calendar and book in time straightaway.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
