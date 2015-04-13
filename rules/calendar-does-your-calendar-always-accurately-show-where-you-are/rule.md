@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>The follow steps will help you to setup your calendar to allow us track your current availabilities and improve our team collaboration.</p>
+<p>​The follow steps will help you to setup your calendar to allow us track your current availabilities and improve our team collaboration.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p><strong>Step 1&#58;</strong> Set your work hours in Outlook<br>
              Read rule&#58; <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Set-your-work-hours-in-your-calendars.aspx">Do you set your work hours in your Calendars?</a>
