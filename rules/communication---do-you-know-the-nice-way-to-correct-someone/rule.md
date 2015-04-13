@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>
+<span class='intro'> <p>​
                     When you notice that someone has done something against our standards, make sure
                     you are tactful in your corrections; especially if the person you are correcting
                     is a client.
