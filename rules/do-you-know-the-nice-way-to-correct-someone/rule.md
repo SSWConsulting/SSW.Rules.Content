@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>
+<p>​
                     When you notice that someone has done something against our standards, make sure
                     you are tactful in your corrections; especially if the person you are correcting
                     is a client.
