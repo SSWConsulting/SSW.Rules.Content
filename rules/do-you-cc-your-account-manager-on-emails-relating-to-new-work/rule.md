@@ -25,7 +25,7 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
  <p>
                     When this is the case, the &quot;As per our conversation&quot; email should CC the Account Manager
-                    so he is always aware of all work being done.
+                    so he is always aware of all work being done, and can create a <a href="/Communication/RulesToBetterCRMForUsers/Pages/How-to-Create-New-Opportunities.aspx">new CRM opportunity</a> if required.
                 </p>
                 <p>
                     If an initial meeting is required for the new work, the Account Manager should be in attendance
@@ -35,7 +35,7 @@ redirects:
                <dl class="good">                    
                     <dt>
                         <p>Hi Bill,<br>
-                           As per our conversation, you want me to work for another 2 weeks to work on this additional work.</p>
+                           As per our conversation, you want to book me&#160;for another 2 weeks on this additional work.​</p>
                     </dt>
                     <dd>Figure&#58; Good Example - the account manager should be CCed on an email like this.</dd>
                 </dl>
