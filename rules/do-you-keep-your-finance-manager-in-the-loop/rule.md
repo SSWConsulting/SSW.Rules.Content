@@ -9,8 +9,8 @@ authors: []
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> ​Save your finance manager the trouble of chasing you for the purchasing records by forwarding them a copy of the flight (or accommodation) invoice as soon as you receive it.​​ </span>
 
-<p>​Save your finance manager the trouble of chasing you for the purchasing records by forwarding them a copy of the flight (or accommodation) invoice as soon as you receive it.​</p>
+
 
 
