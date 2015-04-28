@@ -11,8 +11,8 @@ related: []
 ---
 
 
-Enter Intro Text
+​Save your finance manager the trouble of chasing you for the purchasing records by forwarding them a copy of the flight (or accommodation) invoice as soon as you receive it.​​
 <br><excerpt class='endintro'></excerpt><br>
-<p>​Save your finance manager the trouble of chasing you for the purchasing records by forwarding them a copy of the flight (or accommodation) invoice as soon as you receive it.​</p>
+
 
 
