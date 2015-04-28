@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>Follow <a href="http&#58;//www.ssw.com.au/ssw/standards/Rules/RulesToBookingBetterFlights.aspx">Rules to Better Flights</a>.​</p> </span>
+<span class='intro'> <p>​Follow <a href="/rules-to-better-flights">Rules to Better Flights</a>.​</p> </span>
 
 
 
