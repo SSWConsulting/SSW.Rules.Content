@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>Follow <a href="http&#58;//www.ssw.com.au/ssw/standards/Rules/RulesToBookingBetterFlights.aspx">Rules to Better Flights</a>.​</p>
+<p>​Follow <a href="/rules-to-better-flights">Rules to Better Flights</a>.​</p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
