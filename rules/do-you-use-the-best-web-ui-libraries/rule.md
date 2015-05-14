@@ -23,7 +23,7 @@ authors:
          </dt><dd>Figure&#58; Bad example - Zurb Foundation is the second most popular, but it uses Sass files and​&#160;has the worst name</dd></dl><p>
          <strong>Note&#58;</strong>&#160;Zurb Foundation was always out of date on nuget.&#160;So if you use&#160;it (not recommended)&#160;download direct from ​Github&#160;</p><dl class="goodImage"><dt>
             <img src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/bootstrap.png" alt="bootstrap.png" style="margin&#58;5px;" />
-         </dt><dd>Figure&#58; Good example -&#160;leader among frameworks today, Boostrap&#160;toolkit is recommended to build​&#160;successful websites</dd></dl><h3 class="ssw15-rteElement-H3">Other useful frameworks</h3><ul><li> ​<b><a href="http&#58;//www.kendoui.com/" style="background-color&#58;initial;">KendoUI</a></b> for enhanced HTML and jQuery controls</li><li>
+         </dt><dd>Figure&#58; Good example -&#160;leader among frameworks today, Boostrap&#160;toolkit is recommended to build​&#160;successful websites</dd></dl><h3 class="ssw15-rteElement-H3">Other useful frameworks</h3><p>Now that you saved a lot of UI develpment time by using Bootstrap, you can play around with other useful frameworks.​<br></p><ul><li> ​<b><a href="http&#58;//www.kendoui.com/" style="background-color&#58;initial;">KendoUI</a></b> for enhanced HTML and jQuery controls</li><li>
       <a href="http&#58;//knockoutjs.com/"> 
          <b>KnockoutJS</b></a>&#160;for view-model&#160;data binding</li><li>
       <b> 
