@@ -1,0 +1,26 @@
+---
+type: rule
+title: Do you use the best Web UI libraries?
+uri: do-you-use-the-best-web-ui-libraries
+created: 2013-12-18T15:32:43.0000000Z
+authors:
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 36
+  title: Daniel Šmon
+
+---
+
+
+
+<span class='intro'> ​Don't waste time evaluating which Web UI libraries to use. Most of the commonly used libraries are very similar in functionality​. We have selected the best ones. By sticking them, you can&#160;increase your expertise in it, reducing development time in the future. </span>
+
+<p>​These are the libraries we recommend​​&#58;</p><ul><li> 
+      <b><a href="/SoftwareDevelopment/RulesToBetterMVC/Pages/Do-you-use-Twitter-Bootstrap.aspx">Twitter Bootstrap</a>&#160;</b>for UI framework<br>It's the most popular available framework today, which&#160;means more people involved in the project, more tutorials and articles from the community, more real-world examples/websites, more third-party extensions, and better integration with relative web development products<br><dl class="badImage"><dt><img src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/zurb.png" alt="zurb.png" style="margin&#58;5px;" /></dt><dd>Figure&#58; Bad example - Zurb Foundation is the second most popular, but it uses Sass files and​&#160;has the worst name</dd></dl><p><strong>Note&#58;</strong>&#160;Zurb Foundation was always out of date on nugget.&#160;So just download direct from Github​</p><dl class="goodImage"><dt><img src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/bootstrap.png" alt="bootstrap.png" style="margin&#58;5px;" /></dt><dd>Figure&#58; Good example -&#160;leader among frameworks today, Boostrap&#160;toolkit is recommended to build​&#160;successful websites</dd></dl></li><li> 
+      <a href="http&#58;//www.kendoui.com/" style="background-color&#58;initial;"><b>KendoUI</b></a> for enhanced HTML and jQuery controls</li><li> 
+      <a href="http&#58;//knockoutjs.com/"><b>KnockoutJS</b></a>&#160;for view-model&#160;data binding</li><li> 
+      <b><a href="http&#58;//signalr.net/">SignalR</a>&#160;</b>for real-time web functionality​</li></ul><dl class="badImage"><dt><br></dt></dl>
+
+
