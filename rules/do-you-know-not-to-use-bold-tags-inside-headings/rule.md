@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> You should avoid any extra ￼tag in your heading text, because is unnecessary. You can ​do all the styling via CSS.
+<span class='intro'> You should avoid any extra style tags in your heading text, because is unnecessary. You can ​do all the styling via CSS.
  </span>
 
 
