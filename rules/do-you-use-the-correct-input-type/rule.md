@@ -14,12 +14,13 @@ related: []
 <p>HTML5 introduced a whole slew of new type properties for forms. Gone are the days of just using type=&quot;text&quot; for every field in a form (barring buttons and checkboxes).</p><p>Although most of these don't do anything on desktop, on mobile devices they bring up the correct keyboard. As we move into a more mobile digital age, small things like the proper numerical keyboard or a keyboard with a quick &quot;.com&quot; becomes increasingly important.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="ssw15-rteElement-ImageArea"><dt><div> 
-         <img width="200px" src="/WebSites/RulesToBetterWebsitesLayout/PublishingImages/fieldtype-text.PNG" alt="" />
+         <img width="200px" src="/PublishingImages/fieldtype-text.PNG" alt="" />
       </div><p class="ssw15-rteElement-CodeArea">&lt;label for=&quot;phone&quot;&gt;Phone&lt;/label&gt;&#58; &lt;input 
          <span class="ssw15-rteStyle-Highlight">type=&quot;text&quot;</span> name=&quot;phone&quot;&gt;&lt;/input&gt;</p></dt><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example – This field is using a text type and shows a standard keyboard on mobile</dd></dl>
 <br>
-<dl class="ssw15-rteElement-ImageArea"><dt> 
-      <img src="/WebSites/RulesToBetterWebsitesLayout/PublishingImages/fieldtype-tel.PNG" alt="" />
+<dl class="ssw15-rteElement-ImageArea"><dt><div> 
+      <img width="200px" src="/PublishingImages/fieldtype-tel.PNG" alt="" />
+      </div>
       <p class="ssw15-rteElement-CodeArea">&lt;label for=&quot;phone&quot;&gt;Phone&lt;/label&gt;&#58; &lt;input 
          <span class="ssw15-rteStyle-Highlight">type=&quot;tel&quot;</span> name=&quot;phone&quot;&gt;&lt;/input&gt;</p></dt><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example – This field is using the correct field type and shows the keypad on mobile</dd></dl><p>
    <br>
