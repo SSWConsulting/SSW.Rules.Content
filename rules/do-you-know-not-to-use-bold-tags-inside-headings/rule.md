@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-You should avoid any extra ￼tag in your heading text, because is unnecessary. You can ​do all the styling via CSS.
+You should avoid any extra style tags in your heading text, because is unnecessary. You can ​do all the styling via CSS.
 
 <br><excerpt class='endintro'></excerpt><br>
 
