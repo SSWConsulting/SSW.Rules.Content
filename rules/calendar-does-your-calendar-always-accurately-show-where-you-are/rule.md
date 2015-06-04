@@ -25,8 +25,7 @@ redirects: []
             </p>
             <p>
             <strong>Step 3&#58;</strong> Share your outlook calendar with everyone<br>
-            Read rule&#58; <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Share-your-calendar-with-everyone.aspx">Do you share your calendar with everyone?</a> 
-            </p>
+            Read rule&#58;&#160;​​​​​<a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Know-the-ways-to-share-and-see-calendars.aspx">Do you know the ways to share and see others' calendars?​</a></p>
             <p>
             <strong>Step 4&#58;</strong> Allow calendar admins to have full access to your calendar<br>
             Read rule&#58; <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Allow-full-access-to-calendar-admins.aspx">Do you allow full access to Calendar Admins?​​ </a>
