@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p><span style="line-height&#58;20.7999992370605px;">Imagine someone wants an appointment with a team member who has&#160;</span><a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Share-your-calendar-with-everyone.aspx" style="line-height&#58;20.7999992370605px;">shared their calendar</a><span style="line-height&#58;20.7999992370605px;">&#160;with you. Offer to look up the calendar and book in time straightaway.</span>​</p>
+<p><span style="line-height&#58;20.7999992370605px;">​​Imagine someone wants an appointment with a team member who has&#160;</span><a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Know-the-ways-to-share-and-see-calendars.aspx" style="line-height&#58;20.7999992370605px;">shared their calendar</a><span style="line-height&#58;20.7999992370605px;">&#160;with you. Offer to look up the calendar and book in time straightaway.</span>​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad">
                     <dt>Try calling him.
