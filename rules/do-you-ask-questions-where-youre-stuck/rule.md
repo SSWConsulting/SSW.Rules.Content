@@ -23,6 +23,6 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
 <p>No-one gets a medal for solving a problem
                     on their own in 2 days, when it could've been solved by 2 people in a couple of
-                    hours.</p><p>​The <a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx">Daily Scrum</a>​​ is a good time to bring up any ongoing issues or sticking points if you haven't already.<br></p>
+                    hours.</p><p>​The <a href="/methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)">Daily Scrum</a>​​ is a good time to bring up any ongoing issues or sticking points if you haven't already.<br></p>
 
 
