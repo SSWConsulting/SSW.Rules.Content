@@ -22,11 +22,11 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
 <ul>
                     <li>Your <a href="http&#58;//www.ssw.com.au/ssw/standards/rulestobetterdeadtime/images/developergeneral/windowstools.aspx#backup">backups </a>are working properly</li>
-                    <li>You are using <a href="/ALM/RulesToBetterVersionControlwithTFS(AKASourceControl)/Pages/default.aspx">source control</a> for any code you develop</li>
+                    <li>You are using <a href="/rules-to-better-version-control-with-tfs-(aka-source-control)">source control</a> for any code you develop</li>
                 </ul>
                 <p>
                     If you are working onsite, you can still use TFS remotely and it's important to
                     talk the client into this in order to avoid any possible disasters.​
-                </p><p><br></p><p class="ssw15-rteElement-GreyBox"><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/Backup.gif" alt="Backup.gif" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Have a backup</dd>
+                </p><p><br></p><p class="ssw15-rteElement-GreyBox"><img src="/PublishingImages/Backup.gif" alt="Backup.gif" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Have a backup</dd>
 
 
