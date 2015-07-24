@@ -31,6 +31,6 @@ redirects:
                     best way to handle this is</span><span style="line-height&#58;1.6;"> to give realistic estimates, and inform the clients as
                     soon as it looks like they will be exceeded. A client who has accepted the realities
                     of his project is less scary than working on code that's already over-budget with
-                    an impending unknown client reaction.​</span></p><dl class="ssw15-rteElement-ImageArea"><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/hefner.jpg" alt="hefner.jpg" style="margin&#58;5px;" />​​<span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;">​​Figure&#58; It's possible to REALLY&#160;enjoy your job</span></dl>
+                    an impending unknown client reaction.​</span></p><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/hefner.jpg" alt="hefner.jpg" style="margin&#58;5px;" />​​<span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;">​​Figure&#58; It's possible to REALLY&#160;enjoy your job</span></dl>
 
 
