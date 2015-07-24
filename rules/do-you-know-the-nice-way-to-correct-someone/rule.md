@@ -28,7 +28,7 @@ redirects:
                         <br>
                         Hi Mary,<br>
                         <br>
-                        FYI - an appointment would have been better. See rule #48 in <a href="/Communication/RulesToBetterEmail/Pages/SendOutlookCalendarAppointmentsWhenAppropriate.aspx">
+                        FYI - an appointment would have been better. See rule #48 in <a href="/appointments-do-you-send-outlook-calendar-appointments-when-appropriate">
                             Rules to better Email</a> </dt>
                     <dd>
                         Figure&#58; Bad Example</dd></dl>
@@ -41,7 +41,7 @@ redirects:
                         but I have gone ahead and created one so we don't all have to create one individually.
                         <br>
                         We have a number of helpful standards like this which you can have a look at in
-                        our <a href="/Communication/RulesToBetterEmail/Pages/SendOutlookCalendarAppointmentsWhenAppropriate.aspx">Rules to
+                        our <a href="/appointments-do-you-send-outlook-calendar-appointments-when-appropriate">Rules to
                             better Email</a> if you're interested. </dt>
                     <dd>
                         Figure&#58; Good Example</dd></dl>
