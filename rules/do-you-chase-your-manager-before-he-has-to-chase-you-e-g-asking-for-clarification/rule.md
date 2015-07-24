@@ -45,6 +45,6 @@ redirects:
                     <dd>Figure&#58; Good example - No bounce, still owning the task - even though you need clarification</dd>
                 </dl>
 
-                <p>You can see more information on this at <a href="/Communication/RulesToBetterEmail/Pages/EmailForTasksNotCommunication.aspx">Do you use email for tasks only - not communication?</a> and <a href="/Communication/RulesToBetterEmail/Pages/SeekClarificationViaTelephoneFirst.aspx">Do you seek clarification via the telephone first?</a></p>
+                <p>You can see more information on this at <a href="/dones-do-you-use-email-for-tasks-only-not-communication">Do you use email for tasks only - not communication?</a> and <a href="/do-you-seek-clarification-via-the-telephone-first">Do you seek clarification via the telephone first?</a></p>
 
 
