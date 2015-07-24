@@ -35,6 +35,6 @@ redirects:
                     <li>Others will return the favour when you really need it</li>
                     <li>The sense of work-place isolation disappears​</li>
                     <li>Productivity lifts as tasks can be achieved quicker</li>
-                </ul><dl class="ssw15-rteElement-ImageArea"><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/CowsBum.JPG" alt="CowsBum.JPG" style="margin&#58;5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">​Figure&#58; Going​ the extra mile​</dd><p class="ssw15-rteElement-P">T​his rule particularly applies when a person is <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Ask-questions-where-you-are-stuck.aspx">blocked </a>​– as identified&#160;in their Daily Scrum.<br></p>
+                </ul><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/CowsBum.JPG" alt="CowsBum.JPG" style="margin&#58;5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">​Figure&#58; Going​ the extra mile​</dd><p class="ssw15-rteElement-P">T​his rule particularly applies when a person is <a href="/Pages/Ask-questions-where-you-are-stuck.aspx">blocked </a>​– as identified&#160;in their Daily Scrum.<br></p>
 
 
