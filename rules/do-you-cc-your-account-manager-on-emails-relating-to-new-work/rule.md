@@ -25,7 +25,7 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
  <p>
                     When this is the case, the &quot;As per our conversation&quot; email should CC the Account Manager
-                    so he is always aware of all work being done, and can create a <a href="/Communication/RulesToBetterCRMForUsers/Pages/How-to-Create-New-Opportunities.aspx">new CRM opportunity</a> if required.
+                    so he is always aware of all work being done, and can create a <a href="/data-entry-do-you-know-how-to-create-new-opportunities">new CRM opportunity</a> if required.
                 </p>
                 <p>
                     If an initial meeting is required for the new work, the Account Manager should be in attendance
