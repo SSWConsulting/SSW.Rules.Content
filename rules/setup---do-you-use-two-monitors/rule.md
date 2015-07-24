@@ -29,7 +29,7 @@ authors:
                 </p>
                 <dl class="goodImage">
                     <dt>
-                        <img alt="Two Monitors Better Than One " src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/TwoMonitorsBetterThanOne.JPG" />
+                        <img alt="Two Monitors Better Than One " src="/PublishingImages/TwoMonitorsBetterThanOne.JPG" />
                     </dt>
                     <dd>
                        Figure&#58; Two monitors are better than one
