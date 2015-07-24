@@ -20,7 +20,7 @@ redirects:
 <p>You should also let your manager know what work you'd prefer NOT to do. This might be older technology, testing or niche areas. Despite the expression of your preferences to avoid particular types of work, you should understand that your manager will sometimes unavoidably have to give you tasks in those areas. </p>
                <dl class="image">
                  <dt>
-                    <img alt="Tell the boss what work you prefer to do." src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/PreferStuff.jpg" />
+                    <img alt="Tell the boss what work you prefer to do." src="/PublishingImages/PreferStuff.jpg" />
                   </dt>
                   <dd>
                     Figure&#58; Clearly tell your manager what work you prefer to do, but don't scream when you are asked to do other, less interesting work.              
