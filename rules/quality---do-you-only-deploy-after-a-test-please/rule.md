@@ -18,7 +18,7 @@ authors:
                 </p> </span>
 
 <p>
-                    For more information on this, see <a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">
+                    For more information on this, see <a href="/do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client">
                         Rules to Successful Projects</a>.
                 </p>
 
