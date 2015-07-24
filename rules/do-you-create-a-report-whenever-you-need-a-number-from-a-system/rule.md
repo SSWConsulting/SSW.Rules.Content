@@ -21,7 +21,7 @@ redirects:
 <p>If you find yourself doing adhoc reports, or random SQL queries you should make sure the boss knows you could not find the data you needed.</p>
                     <dl class="goodImage">
                     <dt>
-                        <img alt="Eg. Email your boss to ask a number" src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/CreateReport.JPG" />
+                        <img alt="Eg. Email your boss to ask a number" src="/PublishingImages/CreateReport.JPG" />
                     </dt>
                     <dd>
                         Figure&#58; Sample Email -- Send an email to your boss for a number. 
