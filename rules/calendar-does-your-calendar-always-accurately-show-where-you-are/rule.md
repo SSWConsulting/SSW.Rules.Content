@@ -17,21 +17,21 @@ redirects: []
 <p>​The follow steps will help you to setup your calendar to allow us track your current availabilities and improve our team collaboration.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p><strong>Step 1&#58;</strong> Set your work hours in Outlook<br>
-             Read rule&#58; <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Set-your-work-hours-in-your-calendars.aspx">Do you set your work hours in your Calendars?</a>
+             Read rule&#58; <a href="/Pages/Set-your-work-hours-in-your-calendars.aspx">Do you set your work hours in your Calendars?</a>
             </p>
             <p>
             <strong>Step 2&#58;</strong> Set your work hours in CRM<br>
-            Read rule&#58; <a href="/Communication/RulesToBetterCRMForUsers/Pages/How-to-book-developers-for-a-project.aspx">Do you set your work hours in CRM / Users? </a>
+            Read rule&#58; <a href="/scheduling-do-you-know-how-to-book-developers-for-a-project">Do you set your work hours in CRM / Users? </a>
             </p>
             <p>
             <strong>Step 3&#58;</strong> Share your outlook calendar with everyone<br>
-            Read rule&#58;&#160;​​​​​<a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Know-the-ways-to-share-and-see-calendars.aspx">Do you know the ways to share and see others' calendars?​</a></p>
+            Read rule&#58;&#160;​​​​​<a href="/Pages/Know-the-ways-to-share-and-see-calendars.aspx">Do you know the ways to share and see others' calendars?​</a></p>
             <p>
             <strong>Step 4&#58;</strong> Allow calendar admins to have full access to your calendar<br>
-            Read rule&#58; <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Allow-full-access-to-calendar-admins.aspx">Do you allow full access to Calendar Admins?​​ </a>
+            Read rule&#58; <a href="/Pages/Allow-full-access-to-calendar-admins.aspx">Do you allow full access to Calendar Admins?​​ </a>
             </p>
             <p>
             <strong>Step 5&#58;</strong> Send your leave appointments to a centralised leave calendar<br>
-            Read rule&#58; <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Inform-when-you-are-out-of-the-office-during-work-hours.aspx">Do you use a centralised leave calendar?</a></p>
+            Read rule&#58; <a href="/Pages/Inform-when-you-are-out-of-the-office-during-work-hours.aspx">Do you use a centralised leave calendar?</a></p>
 
 
