@@ -26,10 +26,10 @@ redirects:
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Create a form that reminds you what is broken, who you have to call to fix it and any notes that may need to ensure that the item in question is fixed properly or replaced.</p><dl class="goodImage"><dt> 
-      <img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/LeaningTowerOfPisa.jpg" alt="LeaningTowerOfPisa.jpg" />
-   </dt><dd>Figure&#58; Label broken things</dd></dl>​ SSW Design Team has created <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Documents/SSW-label-broken-things.pdf">this PDF​</a> which can be printed and attached to stuff that needs fixing. 
+      <img src="/PublishingImages/LeaningTowerOfPisa.jpg" alt="LeaningTowerOfPisa.jpg" />
+   </dt><dd>Figure&#58; Label broken things</dd></dl>​ SSW Design Team has created <a href="/Documents/SSW-label-broken-things.pdf">this PDF​</a> which can be printed and attached to stuff that needs fixing. 
 <dl class="goodImage"><dt> 
-      <img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/broken-things.jpg" alt="Broken Things SSW label" style="width&#58;500px;height&#58;325px;" />
+      <img src="/PublishingImages/broken-things.jpg" alt="Broken Things SSW label" style="width&#58;500px;height&#58;325px;" />
    </dt><dd>Figure&#58; Print PDF, fill the form and attach to broken things in the office​</dd></dl>​ 
 
 
