@@ -30,10 +30,10 @@ redirects:
       If this is for a client, include the Client ID/name</li><li>
       If it is for a client, include if it is to be on-charged (E.g. please invoice (add 20%))</li></ul> ​ 
 <p> ​
-   <img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/purchase-please-bad-example.jpg" alt="" />
+   <img src="/PublishingImages/purchase-please-bad-example.jpg" alt="" />
    </p><dd class="ssw15-rteElement-FigureBad">
    Figure&#58; Bad Exa​mple - this expense will not be reimbursed​</dd><p><br> </p><p> 
-   <img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/PublishingImages/purchase-please-good-example.jpg" alt="" />​
+   <img src="/PublishingImages/purchase-please-good-example.jpg" alt="" />​
    </p><dd class="ssw15-rteElement-FigureGood">
    Figure&#58; Good Example - this expense will be reimbursed, if David gets a reply from Adam</dd>
 
