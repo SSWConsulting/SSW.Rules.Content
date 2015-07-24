@@ -21,6 +21,6 @@ service. ​​​The best exception handling service is Application Insights fo
 quick, simple and relatively painless. For this reason, ​At SSW we use
 Application Insights for Visual Studio Online.</span></p> </span>
 
-<p>&#160;<em>​Application Insights will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you'll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle. &#160;</em> </p><p>Can't use Application Insights? Check out the following rule '<em>Do you use the best exception handling library?'</em></p>
+<p>&#160;<em>​Application Insights will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you'll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can t​​une it to their needs in each development cycle. &#160;</em> </p><p>Can't use Application Insights? Check out the following rule ''<a href="/SoftwareDevelopment/RulesForErrorHandling/Pages/use-the-best-exception-handling-framework.aspx">Do you use the best exception handling library?</a></p>
 
 
