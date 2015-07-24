@@ -17,7 +17,7 @@ related:
 ---
 
 
-<p><span style="font-size&#58;10pt;font-family&#58;'segoe ui', sans-serif;background-image&#58;initial;background-attachment&#58;initial;background-size&#58;initial;background-origin&#58;initial;background-clip&#58;initial;background-position&#58;initial;background-repeat&#58;initial;">​When
+<p><span style="font-size&#58;10pt;font-family&#58;'segoe ui', sans-serif;background-image&#58;initial;background-attachment&#58;initial;background-size&#58;initial;background-origin&#58;initial;background-clip&#58;initial;background-position&#58;initial;background-repeat&#58;initial;">​​When
 developing software, exceptions are a fact-of-life you will need to deal with.
 Don't reinvent the wheel, use an existing exception handling library or
 service. ​​​The best exception handling service is Application Insights for
