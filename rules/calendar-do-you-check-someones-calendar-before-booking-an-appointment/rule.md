@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p><span style="line-height&#58;20.7999992370605px;">​​Imagine someone wants an appointment with a team member who has&#160;</span><a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/Know-the-ways-to-share-and-see-calendars.aspx" style="line-height&#58;20.7999992370605px;">shared their calendar</a><span style="line-height&#58;20.7999992370605px;">&#160;with you. Offer to look up the calendar and book in time straightaway.</span>​</p>
+<p><span style="line-height&#58;20.7999992370605px;">​​Imagine someone wants an appointment with a team member who has&#160;</span><a href="/Pages/Know-the-ways-to-share-and-see-calendars.aspx" style="line-height&#58;20.7999992370605px;">shared their calendar</a><span style="line-height&#58;20.7999992370605px;">&#160;with you. Offer to look up the calendar and book in time straightaway.</span>​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad">
                     <dt>Try calling him.
@@ -25,7 +25,7 @@ redirects:
                     <dd>
                         Bad Example</dd></dl>
                 <dl class="good">
-                    <dt><img src="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/SiteAssets/Pages/Check-calendar-before-booking-an-appointment/adams-calendar.jpg" alt="adams-calendar.jpg" style="margin&#58;5px;width&#58;550px;" /><br></dt><dt>
+                    <dt><img src="/PublishingImages/adams-calendar.jpg" alt="adams-calendar.jpg" style="margin&#58;5px;width&#58;550px;" /><br></dt><dt>
                     Sure, I'll just look up Adam's calendar and see when he's free. Obviously it's not a good idea to call Adam now as he is on a plane.&#160;</dt>
                     <dd>
                         Good Example</dd></dl>
