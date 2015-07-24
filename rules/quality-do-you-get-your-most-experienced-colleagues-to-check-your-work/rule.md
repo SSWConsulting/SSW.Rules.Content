@@ -22,6 +22,6 @@ redirects: []
                     For development, as your application starts to develop into a usable entity, make
                     sure you get your Chief Architect (or equivalent) to have a look at what you're
                     doing and w​eigh in with their advice.
-                </p><p>You can do this through either a <a href="/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx">test please </a>on an individual piece of work, or a <a href="/SoftwareDevelopment/RulestobetterArchitectureandCodeReview/Pages/Default.aspx">code review</a> for the entire project.</p>
+                </p><p>You can do this through either a <a href="/do-you-conduct-a-＂test-please＂-internally-and-then-with-the-client">test please </a>on an individual piece of work, or a <a href="/rules-to-better-architecture-and-code-review">code review</a> for the entire project.</p>
 
 
