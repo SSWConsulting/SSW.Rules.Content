@@ -19,7 +19,7 @@ related: []
       <a href="https&#58;//bit.ly/cPD0vg" shape="rect">https&#58;//bit.ly/cPD0vg</a> &#58;) Thanks Brian... 
       <a href="http&#58;//twitter.com/MrHinsh/status/10160987074" shape="rect"><br>7&#58;30 AM Mar 8th </a>
       via 
-      <a href="https&#58;//bitly.com/" shape="rect">bit.ly</a><img title="You are now leaving SSW" src="/_LAYOUTS/15/Images/SSW/external.gif" alt="" /></p><p>
+      <a href="https&#58;//bitly.com/" shape="rect">bit.ly</a>​</p><p>
       <strong>Figure&#58; Good example, always thanking someone is not just good practice and polite, you both get Google juice as well.<br><br> </strong></p></blockquote><p>Remember to say something constructive and not just &quot;thanks&quot;.</p> ​​​
 <br><excerpt class='endintro'></excerpt><br>
 
