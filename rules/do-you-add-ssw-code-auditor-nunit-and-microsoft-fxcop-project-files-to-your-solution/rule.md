@@ -16,7 +16,7 @@ authors:
 <span class='intro'>   <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx" shape="rect">SSW Code Auditor</a>, <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit" shape="rect">NUnit</a> and <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop" shape="rect">Microsoft FxCop</a> are tools to keep your code &quot;healthy&quot;. That is why they should be easily accessible in every solution so that they can be run with a double click of a mouse button. </span>
 
   <p>&#160;</p>
-<dl class="goodImage"> <dt><img alt="Code Auditor Project File" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/CodeAuditorProjectFile.gif" border="0" style="border&#58;0px solid currentcolor;" /> </dt> </dl>
+<dl class="goodImage"> <dt><img alt="Code Auditor Project File" src="/PublishingImages/CodeAuditorProjectFile.gif" border="0" style="border&#58;0px solid currentcolor;" /> </dt> </dl>
 <p>To add a <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx" shape="rect">SSW Code Auditor</a> file to your solution&#58;</p>
 <ol>
     <li>Start up SSW Code Auditor</li>
@@ -29,11 +29,11 @@ authors:
     <li>Right click and <b>add existing file</b> </li>
     <li>Select the <b>SSW Code Auditor project file</b> </li>
     <li>&#160;Right click the newly added file and select &quot;<b>Open With</b>&quot;<br>
-    <dl class="goodImage"> <dt><img alt="Open With" src="/SoftwareDevelopment/RulesToBetterDotNETProjects/PublishingImages/OpenWith.gif" border="0" style="border&#58;0px solid currentcolor;" /> </dt> </dl>
+    <dl class="goodImage"> <dt><img alt="Open With" src="/PublishingImages/OpenWith.gif" border="0" style="border&#58;0px solid currentcolor;" /> </dt> </dl>
     </li>
     <li>&#160;Point it to the SSW Code Auditor executable</li>
 </ol>
-<br>See <a href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/AddCAFxCopToSolution.aspx" shape="rect">Do you run SSW Code Auditor?</a> <br>See <a id="Do you check your code by Code Auditor before check-in?" href="/SoftwareDevelopment/RulesToBetterDotNETProjects/Pages/AddCAFxCopToSolution.aspx" shape="rect">Do you check your code by Code Auditor before check-in?</a> <br>To add a <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop" shape="rect">Microsoft Fx</a><span>C</span><span>op</span> file to your solution&#58;​<ol>
+<br>See <a href="/Pages/AddCAFxCopToSolution.aspx" shape="rect">Do you run SSW Code Auditor?</a> <br>See <a id="Do you check your code by Code Auditor before check-in?" href="/Pages/AddCAFxCopToSolution.aspx" shape="rect">Do you check your code by Code Auditor before check-in?</a> <br>To add a <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop" shape="rect">Microsoft Fx</a><span>C</span><span>op</span> file to your solution&#58;​<ol>
     <li>Stat up <b>Microsoft FxC</b></li><li><b>op</b> </li>
     <li>Create a <b>New Project</b> </li>
     <li>Right click the project and <b>Add Target</b> </li>
