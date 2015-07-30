@@ -26,7 +26,7 @@ redirects: []
 <p>
                     When determining which staff are appropriate for which projects you need to analyse​ the needs of the project.
                     Some may not require management skills, (for example if we are providing resources to another technical
-                    organization), while some projects may require only a narrow field of knowledge,&#160;(e.g. creating reports).&#160;</p><p>                    For any major project, a broad spectrum of individuals may be required which will utilize each level of staff. 
+                    organization), while some projects may require only a narrow field of knowledge,&#160;(e.g. creating Xamarin forms​).&#160;</p><p>                    For any major project, a broad spectrum of individuals may be required which will utilize each level of staff. 
                 </p>
 
 
