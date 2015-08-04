@@ -19,7 +19,7 @@ authors:
             <span style="line-height&#58;20px;"><a href="https&#58;//disqus.com/" target="_blank">​Disqus</a></span><br></li><li>
             <span style="line-height&#58;20px;"><a href="https&#58;//www.yotpo.com/" target="_blank">Yotpo</a></span></li><li>
             <span style="line-height&#58;20px;"><a href="https&#58;//www.facebook.com/" target="_blank">Facebook</a></span></li><li>
-            <span style="line-height&#58;20px;"><a href="https&#58;//twitter.com/" target="_blank">Twitter​</a></span></li></ul></div></div><p>​The following video shows an overview of Yotpo ratings that we've implemented for our SSW Rules.</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"> 
+            <span style="line-height&#58;20px;"><a href="https&#58;//twitter.com/" target="_blank">Twitter​</a></span></li></ul></div></div><p>​The following video shows an overview of Yotpo ratings which&#160;we've implemented for our SSW Rules.</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"> 
    <iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/JcnPYEm76-4?rel=0" frameborder="0"></iframe>&#160;</div><dd class="ssw15-rteElement-FigureGood">Good Example&#58; Yotpo ratings on the SSW Rules site​</dd><p>
    <br>
 </p>
