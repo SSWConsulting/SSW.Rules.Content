@@ -21,7 +21,7 @@ authors:
   
 <span> 
    <dl class="badImage"><dt>
-         <img width="300" height="300" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" alt="" /> 
+         More detailed information about this rule can be found&#160;in this article&#160;<a href="http&#58;//www.nngroup.com/articles/reset-and-cancel-buttons/">http&#58;//www.nngroup.com/articles/reset-and-cancel-buttons/</a></dt><dt></dt><dt><img width="300" height="300" src="/WebSites/RulesToBetterWebsitesLayout/Publishing%20Image/_w/ResetButton_gif.jpg" alt="" /> 
       </dt><dd>Figure&#58; The &quot;Reset&quot;​​​ button isn't useful at all </dd></dl> 
    <p class="productBox" style="display&#58;block;">We have a program called 
       <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p> 
