@@ -27,9 +27,9 @@ desktop can be used for a large variety of cases, including the creation
  on the move. The focus of a mobile design for EBay centers on browsing,
  bidding and status updates for products - it doesn't need to cover all 
 cases, just the right ones.</p><p>True mobile interface design focuses that which is used on mobile and simplifies the process.</p><dl class="badImage"><dt>
-                      <img src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/TimePro-NotMobile.png" alt="" style="margin&#58;5px;" />
+                      <img src="/PublishingImages/TimePro-NotMobile.png" alt="" style="margin&#58;5px;" />
                    </dt><dd>​Figure&#58; Bad Example - TimePro as it renders on mobile. It is near unusable!<br></dd></dl><dl class="goodImage"><dt>
-                      <img width="286" src="/DesignandPresentation/RulestoBetterInterfacesGeneral/PublishingImages/TimePro-Mobile.png" alt="" style="margin&#58;5px;" />
+                      <img width="286" src="/PublishingImages/TimePro-Mobile.png" alt="" style="margin&#58;5px;" />
                    </dt><dd>​Figure&#58; Good Example - TimePro designed for mobile.</dd></dl>
 
 
