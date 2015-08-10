@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>Sometimes you might need to move a rule from a category to another. You can do this by following these steps&#58;</p><p>(Steps 1 and 2 can be skipped&#160;by clicking on&#160;<a href="/_layouts/15/sitemanager.aspx?Source=%7bWebUrl%7d_layouts/15/settings.aspx" style="color&#58;#cc4141;border-bottom-color&#58;#cc4141;line-height&#58;20.7999992370605px;">this link</a>​)</p>
+<span class='intro'> <p>​Sometimes you might need to move a rule from a category to another. You can do this by following these steps&#58;</p><p>(Steps 1 and 2 can be skipped&#160;by clicking on&#160;<a href="/_layouts/15/sitemanager.aspx?Source=%7bWebUrl%7d_layouts/15/settings.aspx" style="color&#58;#cc4141;border-bottom-color&#58;#cc4141;line-height&#58;20.7999992370605px;">this link</a>​)</p>
  </span>
 
 <ol><li>​Click on &quot;Site Settings&quot;&#58; 
