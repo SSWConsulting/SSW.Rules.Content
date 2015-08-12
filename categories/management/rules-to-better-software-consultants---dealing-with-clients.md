@@ -55,9 +55,9 @@ index:
 - do-you-use-backchannels-effectively
 
 ---
-<p>​​</p>
+<p>​​​</p>
 <p>​​​​​Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.</p><p>The other half of being the best consultant possible can be found at 
-   <a href="/Management/Rules-to-Better-Software-Consultants-Working-in-a-Team/Pages/default.aspx">
+   <a href="/rules-to-better-software-consultants-working-in-a-team">
       <span class="s1">Rules to Better​ Software Consultants - Working in a Team</span></a>.<br></p><p>Do you agree with them all? Are we missing some? Comment on individual rules, or 
    <a tabindex="100" class="email" id="encode_email_us_link">ema​il us</a>.​</p><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 57ee2f07-c41d-4e2b-8a52-a4aae220216b" id="div_57ee2f07-c41d-4e2b-8a52-a4aae220216b" unselectable="on"></div><div id="vid_57ee2f07-c41d-4e2b-8a52-a4aae220216b" unselectable="on" style="display&#58;none;"></div></div>
 
