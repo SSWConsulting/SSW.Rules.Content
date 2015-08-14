@@ -2,21 +2,17 @@
 type: rule
 archivedreason: 
 title: Do you do a quick test after the upgrade finishes?
-guid: 8011cf1f-b043-417c-862f-4174d032e387
+guid: e23eb370-ccf0-41a7-b795-b52875370898
 uri: do-you-do-a-quick-test-after-the-upgrade-finishes
-created: 2009-11-08T01:57:54.0000000Z
+created: 2015-08-14T11:31:19.0000000Z
 authors: []
 related: []
 
 ---
 
-All of the hard work has been done, now you need to do a quick test.
 
-1. Open http://tfs.northwind.com:8080/tfs/web/
-2. Confirm the Team Web Access page load and shows all your team projects
-
-![](QuickTestAfterUpgrade.png) 
-<font class="ms-rteCustom-FigureNormal">Figure: Make sure you can access TSWA after the upgrade.</font>
+Enter Intro Text
+<br><excerpt class='endintro'></excerpt><br>
 
 
-<!--endintro-->
+
