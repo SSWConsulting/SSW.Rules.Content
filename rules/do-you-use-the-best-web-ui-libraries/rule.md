@@ -15,11 +15,7 @@ authors:
 
 
 
-<span class='intro'> <p>​​Don't waste time evaluating which Web UI libraries to use. Most of the commonly used libraries are very similar in functionality​. 
-<span style="line-height&#58;20.7999992370605px;">​The&#160;</span><span style="line-height&#58;20.7999992370605px;">recommend</span><span style="line-height&#58;20.7999992370605px;">​&#160;</span><span style="line-height&#58;20.7999992370605px;">library is </span>
-<span style="line-height&#58;20.7999992370605px;">
-   <strong>
-      <a href="/do-you-use-twitter-bootstrap">Twitter Bootstrap</a></strong>.</span></p> </span>
+<span class='intro'> <p>​ Don't waste time evaluating which Web UI libraries to use. Most of the commonly used libraries are very similar in functionality . <span style="line-height&#58;20.7999992370605px;"> The&#160;</span><span style="line-height&#58;20.7999992370605px;">recommend</span><span style="line-height&#58;20.7999992370605px;"> &#160;</span><span style="line-height&#58;20.7999992370605px;">library is </span> <span style="line-height&#58;20.7999992370605px;"> <strong> <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f02abbb2-35fb-47b3-b379-486061d69a70">Twitter Bootstrap</a></strong>.</span></p> </span>
 
 <p>It's the most popular available framework today, which&#160;means more people involved in the project, more tutorials and articles from the community, more real-world examples/websites, more third-party extensions, and better integration with other​ web development products<br> </p><dl class="badImage"><dt> 
       <img src="/PublishingImages/zurb.png" alt="zurb.png" style="margin&#58;5px;" /> 
