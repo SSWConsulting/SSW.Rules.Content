@@ -24,9 +24,6 @@ authors:
                <span style="line-height&#58;20px;"> </span> <a href="https&#58;//azure.microsoft.com/en-us/documentation/articles/app-insights-sharepoint/%E2%80%8B" style="line-height&#58;20px;">https&#58;//azure.microsoft.com/en-us/documentation/articles/app-insights-sharepoint/ </a></li><li> 
                <span style="line-height&#58;20px;"> <a href="https&#58;//azure.microsoft.com/en-us/blog/understand-your-sharepoint-usage-with-application-insights-2/%E2%80%8B%E2%80%8B%E2%80%8B">https&#58;//azure.microsoft.com/en-us/blog/understand-your-sharepoint-usage-with-application-insights-2/ </a></span></li></ul></ul></li><li>Use Application Insights Status Monitor configuration tool&#160;to add DLLs reference and update web.config (no coding work involved), there are two articles include the detail steps<br>
       <ul><li style="list-style-position&#58;inside;"></li><li style="list-style-position&#58;inside;"><a href="http&#58;//blogs.msdn.com/b/visualstudioalm/archive/2014/08/28/monitoring-your-existing-applications.aspx%E2%80%8B">http&#58;//blogs.msdn.com/b/visualstudioalm/archive/2014/08/28/monitoring-your-existing-applications.aspx </a></li><li style="list-style-position&#58;inside;">
-            <a href="https&#58;//azure.microsoft.com/en-us/documentation/articles/app-insights-monitor-performance-live-website-now/" style="line-height&#58;20px;">https&#58;//azure.microsoft.com/en-us/documentation/articles/app-insights-monitor-performance-live-website-now/ </a><span style="line-height&#58;20px;background-color&#58;initial;"> </span></li></ul>
-      ​<br>​​<br></li></ol>​​ 
-<p> 
-   <span style="line-height&#58;20.7999992370605px;"> <br></span></p>
+            <a href="https&#58;//azure.microsoft.com/en-us/documentation/articles/app-insights-monitor-performance-live-website-now/" style="line-height&#58;20px;">https&#58;//azure.microsoft.com/en-us/documentation/articles/app-insights-monitor-performance-live-website-now/</a>​</li></ul></li></ol>
 
 
