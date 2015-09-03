@@ -22,6 +22,6 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <p>There is a brilliant service called followupthen which can do all the administrative work for you.</p><p>Simply BCC &lt;period of time&gt;@followupthen.com and it will send you an email when that time expires, reminding you to follow up with another phone call or email.</p><p>
    <strong> <img src="/PublishingImages/FollowUpThen.jpg" alt="" style="margin&#58;5px;" /></strong> <strong></strong>&#160;</p><p>
-   <strong><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Use <a href="mailto&#58;1week@followupthen.com">1week@followupthen.com</a>&#160; to be reminded about this email in 1 week</span>​<br></strong></p>
+   <strong><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Use <a href="mailto&#58;1week@followupthen.com">1week@followupthen.com</a>&#160; to be reminded about this email in 1 week​</span></strong></p>
 
 
