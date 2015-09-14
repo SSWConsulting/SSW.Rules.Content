@@ -17,8 +17,7 @@ authors:
  </span>
 
 
-  <p>Guidelines/standards and rules for the SSW website pages can be found at&#58; </p>
-<p><a href="http&#58;//www.ssw.com.au/ssw/standards/Templates/SSWWebTemplate.aspx" target="_blank">http&#58;//www.ssw.com.au/ssw/standards/Templates/SSWWebTemplate.aspx</a></p>
+  <p>Guidelines and standards&#160;for the SSW website pages can be found at&#160;<span style="line-height&#58;20px;"><a>SSW&#160;Web Design References </a> .</span></p>
 
 
 
