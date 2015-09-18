@@ -17,6 +17,6 @@ redirects:
 
 Enter Intro Text
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​You should have monthly meetings​</p>
 
 
