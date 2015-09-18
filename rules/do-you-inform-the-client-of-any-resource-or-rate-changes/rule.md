@@ -24,7 +24,7 @@ authors:
                     very important to inform the client, before sending them the next invoice, where they will find out 
                     and could think that you're being shifty.
                 </p>
-                <p>We have standard templates for these situations in our CRM. You can see an example here&#58;
+                <p>We have standard templates for these situations in our intranet shared documents​. You can see an example here&#58;
                 </p>
                 <dl class="good">
                 <dt>
