@@ -13,6 +13,6 @@ authors:
 
 <span class='intro'> Enter Intro Text </span>
 
-
+<p>​You should have monthly meetings​</p>
 
 
