@@ -15,8 +15,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+<span style="line-height&#58;20.8px;">​It is important to have monthly meetings​ to get an overview of where the company finances are throughout the year.</span>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​You should have monthly meetings​</p>
+In this&#160;meeting, key staff members should review the past month and look at forecasts for next month.&#160;​
 
 
