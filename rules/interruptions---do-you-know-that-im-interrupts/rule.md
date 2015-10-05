@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p>When somebody sends you an email, they are not interrupting you. You have made the decision to read your emails, so email is in actual fact far more polite than IM which can be a nuisance.</p><p><br>IM is only to be used if they would like you to do something NOW.</p> </span>
 
 
 
