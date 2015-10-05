@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p>When somebody sends you an email, they are not interrupting you. You have made the decision to read your emails, so email is in actual fact far more polite than IM which can be a nuisance.</p><p><br>IM is only to be used if they would like you to do something NOW.</p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
