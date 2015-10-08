@@ -14,7 +14,7 @@ authors:
 
 
 <span class='intro'> 
-  <span lang="EN-AU" style="font-family&#58;calibri, sans-serif;font-size&#58;11pt;">Microsoft SharePoint Technologies is built on top of ASP.NET technologies.&#160; In particular, MOSS 2007 is based on ASP.NET 2.0, SharePoint 2010 is based on ASP.NET 3.5, SharePoint 2013 is based on ASP.NET 4</span> </span>
+  <span lang="EN-AU" style="font-family&#58;calibri, sans-serif;font-size&#58;11pt;">Microsoft SharePoint Technologies is built on top of ASP.NET technologies.&#160; In particular, MOSS 2007 is based on ASP.NET 2.0, SharePoint 2010 is based on ASP.NET 3.5, SharePoint 2013 is based on ASP.NET 4.​</span> </span>
 
 
   <p>
