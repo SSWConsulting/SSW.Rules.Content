@@ -13,7 +13,11 @@ redirects: []
 ---
 
 
-Enter Intro Text
+<p>
+          Communicating problems is more effective when using screenshots. To make screen captures even 
+          better, add balloons that have the message (aka speech bubbles). The balloon is great because 
+          you can point to a specific part of the image. It is much easier than reading a 'wall of text'.
+          </p>  
 <br><excerpt class='endintro'></excerpt><br>
 
 
