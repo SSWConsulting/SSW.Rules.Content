@@ -16,7 +16,7 @@ related:
 ---
 
 
-<p>Some people communicate with a&#160;'Wall of Text'. Communicate better by using screenshots and reduce your amount of words. <br><br>You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles).&#160;Sometimes you need only the text in the balloon and no text in the email.</p>
+<p>​Some people communicate with a&#160;'Wall of Text'. Communicate better by using screenshots and reduce your amount of words. <br><br>You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles).&#160;Sometimes you need only the text in the balloon and no text in the email.</p>
 <p>The balloon is great because you can point to a specific part of the image. It is much easier than reading the old ‘Wall of Text’.<br><br>Let's look at bad and good examples&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 &#160;&#160; <img src="/PublishingImages/BalloonBadExample.jpg" alt="Baloon Bad Example" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image</span><br><img src="/PublishingImages/BalloonGoodExample.jpg" alt="Check the shadow properties" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good example – The balloon with text on the screenshot, makes it quicker to understand</span> 
