@@ -9,8 +9,10 @@ authors: []
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p>Never use bitmap images (.BMP format) on your website or in emails. BMP is an uncompressed format, and typically has an unlimited color palette. This results in unnecessarily large file 
+   sizes, which makes it unsuitable for pretty much everything.</p><p>As an alternative, the most ideal format for Internet-ready lossless images is PNG.</p>
+    </span>
 
-
+<p><span class="productBox">We have a program called <a href="/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule.</span></p> 
 
 
