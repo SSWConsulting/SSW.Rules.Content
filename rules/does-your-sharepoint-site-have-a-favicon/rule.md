@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>All websites should be following 
+<span class='intro'> <p>​All websites should be following 
    <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterWebsitesGraphics.aspx#Favicon">the favicon rule</a>.</p><p>A Favicon is a small image file included on nearly all professional developed sites. When a browser hits your web site and a user bookmarks that site then the favicon.ico graphic will be displayed in the browser’s URL/address line upon subsequent visits to that site. </p> </span>
 
 <p>Let's see how it's done for SharePoint&#58;</p>
