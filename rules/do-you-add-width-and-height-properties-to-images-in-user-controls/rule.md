@@ -13,7 +13,7 @@ redirects: []
 ---
 
 
-<p>Framework pages (i.e., user controls and common layout files) <b>should</b> have width and height properties specified for all images 
+<p>​Framework pages (i.e., user controls and common layout files) <b>should</b> have width and height properties specified for all images 
    that are used. This means that the page's layout will be rendered correctly while loading and when the user has images turned off in their browser.</p><p>
                 Images that have a height and width property set can improve your page’s load times by a few milliseconds. 
                 However, this will cause problems for any responsive behaviour of the page and should be used when appropriate. 
