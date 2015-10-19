@@ -17,7 +17,7 @@ related: []
 ---
 
 
-​After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the sprint&#58;
+​​After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the sprint&#58;
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li>Subject&#58; &lt;Client Name&gt; Sprint XX Review/Retro </li><li>This is a reply to the 
       <a href="/Pages/Do-you-create-a-Sprint-Forecast-email.aspx">Sprint Forecast email </a></li><li>Screenshot of Burndown from TFS</li><li>Breakdown of work completed (including current code coverage value)</li><li>Link to test environment </li><li>Relevant notes from the retrospective</li></ul><div class="greyBox"><p>Hi [Product Owner], </p><table><tbody><tr><td>Sprint in Review&#58; </td><td>[Sprint Number]</td></tr><tr><td>Sprint Goal&#58; </td><td>[Goal​]</td></tr><tr><td>Sprint Duration&#58; </td><td>[Numbe​r of weeks]</td></tr><tr><td>Project&#58; </td><td>[Project Name]</td></tr><tr><td>Project Portal&#58; </td><td>[Link to project Portal]</td></tr><tr><td>Test Environment&#58; &#160; &#160; </td><td>[Link to test environment]</td></tr><tr><td>Product Owner&#58; </td><td>[Product Owner Name]</td></tr></tbody></table><p>Attendees&#58; 
@@ -32,9 +32,9 @@ related: []
       </dt><dd>Figure&#58; Sprint Burndown</dd></dl><p>2. Code Coverage (hopefully tests are increasing each sprint)<br>XXX</p><p>3. Velocity 
       <em>(Optional)</em><br>XXX</p><p>4. Burnup (for the release - the whole project, how are we tracking for the big picture?)</p><dl class="image"><dt>
          <img alt="Release Burnup.jpg" src="/PublishingImages/Release%20Burnup.jpg" style="width&#58;600px;" />
-      </dt><dd>Figure&#58; Release Burnup</dd></dl><p>5. Production Deployments (How many times did we deploy to Production?)</p><dl class="image"><dt>
+      </dt><dd>Figure&#58; Release Burnup</dd></dl><p>5. Production Deployments (How many times did we deploy to Producti​on?)</p><dl class="image"><dt>
          <img alt="production-deploy.jpg" src="/PublishingImages/production-deploy.png" style="width&#58;600px;" />
-      </dt><dd>Figure&#58; Deployments from Octopus Deploy</dd></dl><h3 class="ssw15-rteElement-H3">Sprint Retrospective</h3><p>As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective&#58;</p><p> 
+      </dt><dd>Figure&#58; Deployments from Octopus Deploy</dd></dl><p><span style="line-height&#58;20.8px;background-color&#58;#f5f5f5;">6​​. Application Health Overview Timeline&#160;(For the entire spirnt</span><span style="line-height&#58;20.8px;background-color&#58;#f5f5f5;">)</span><span style="background-color&#58;#f5f5f5;">​</span><br></p><p><span style="background-color&#58;#f5f5f5;"><img src="/PublishingImages/Application%20Health%20Overview%20Timeline.png" alt="Application Health Overview Timeline.png" style="margin&#58;5px;" /><br></span></p><h3 class="ssw15-rteElement-H3">​Sprint Retrospective</h3><p>As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective&#58;</p><p> 
       <strong>What went well?</strong><br>&lt;insert what went well from retro&gt;</p><p> 
       <strong>What didn’t go so well?</strong><br>&lt;insert what did not went well from retro&gt;</p><p> 
       <strong>What improvements will be made for the next Sprint?</strong><br>&lt;insert what improvements will be made for the next Sprint&gt;</p><p> 
