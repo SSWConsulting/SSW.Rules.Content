@@ -22,7 +22,7 @@ redirects:
 <p>So always make sure the admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you. ​</p>
                 
                 <dl class="image">
-                    <dt><img src="/PublishingImages/CalendarPermissions.jpg" alt="Click on Calendar Permissions" style="width&#58;550px;" /></dt>
+                    <dt><img src="/PublishingImages/CalendarPermissions.jpg" alt="Click on Calendar Permissions" style="width&#58;550px;" />​</dt>
                     <dd>Figure&#58; Click on &quot;Calendar Permissions&quot;</dd>
                 </dl>
                 <dl class="image">
