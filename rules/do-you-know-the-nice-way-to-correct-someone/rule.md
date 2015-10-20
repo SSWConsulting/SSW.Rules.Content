@@ -17,8 +17,7 @@ redirects:
 ---
 
 
-<p>​
-                    When you notice that someone has done something against our standards, make sure
+<p>When you notice that someone has done something against our standards, make sure
                     you are tactful in your corrections; especially if the person you are correcting
                     is a client.
                 </p>
@@ -28,7 +27,7 @@ redirects:
                         <br>
                         Hi Mary,<br>
                         <br>
-                        FYI - an appointment would have been better. See rule #48 in <a href="/appointments-do-you-send-outlook-calendar-appointments-when-appropriate">
+                        FYI - an appointment would have been better. See rule #48 in <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=35452dab-3ce2-469d-8642-9e64eaa6b6f6">
                             Rules to better Email</a> </dt>
                     <dd>
                         Figure&#58; Bad Example</dd></dl>
@@ -41,7 +40,7 @@ redirects:
                         but I have gone ahead and created one so we don't all have to create one individually.
                         <br>
                         We have a number of helpful standards like this which you can have a look at in
-                        our <a href="/appointments-do-you-send-outlook-calendar-appointments-when-appropriate">Rules to
+                        our <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=35452dab-3ce2-469d-8642-9e64eaa6b6f6">Rules to
                             better Email</a> if you're interested. </dt>
                     <dd>
                         Figure&#58; Good Example</dd></dl>
