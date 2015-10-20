@@ -21,7 +21,7 @@ authors:
                     </dt>
                     <dd>
                         Figure&#58; Sample Email -- Send an email to your boss for a number. 
-                    </dd>
+                    </dd><p class="ssw15-rteElement-P">​​<br></p><p class="ssw15-rteElement-P">Power BI is generally the best tool for this.​</p>
                 </dl>
 
 
