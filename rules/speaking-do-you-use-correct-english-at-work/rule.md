@@ -22,6 +22,6 @@ redirects:
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad"><dt>&quot;It's going good&quot; </dt><dd> Bad Example - using incorrect English</dd></dl><dl class="good"><dt>&quot;It's going well&quot;</dt><dd>Good Example - using correct English</dd></dl><p>&#160;</p><p>Check out this video which highlights 5 common mistakes made by native english speakers&#58;</p>
-<iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/75CP1xyoNFo" frameborder="0"></iframe>
+<iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/75CP1xyoNFo" frameborder="0"></iframe><div>.​</div><div>If you feel very strongly about this, you could enforce 10 pushups per infraction, similar to the penalty for&#160;swearing</div>
 
 
