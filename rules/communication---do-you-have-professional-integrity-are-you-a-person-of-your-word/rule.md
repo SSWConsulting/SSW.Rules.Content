@@ -16,7 +16,7 @@ related:
 ---
 
 
-<p>​The word “integrity” can be loaded with ethical connotations, but in this context, integrity means&#58;</p>
+<p>​​The word “integrity” can be loaded with ethical connotations, but in this context, integrity means&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol class="ol1"><li class="li2">
       <strong>​Being true to your word</strong>
