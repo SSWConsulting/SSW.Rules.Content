@@ -15,8 +15,7 @@ redirects:
 ---
 
 
-<p>
-                    Every day you will probably&#160;come across something that could be improved. If you're
+<p>Every day you will probably&#160;come across something that could be improved. If you're
                     not making improvements, you're going backwards. But&#160;don't make suggestions or
                     criticisms without being specific.
                 </p>
@@ -36,8 +35,8 @@ redirects:
                         happen to fix the problem.
                     </dd>
                 </dl>
-                <p>
-                    Of course there are times that you can 'feel' that a problem exists, but you may not even be sure how are unable to pinpoint it, or can't think of a good solution. In this instance you should speak
+                <p class="ssw15-rteElement-GreyBox">&quot;Not done, please try again&quot;</p><dd class="ssw15-rteElement-FigureBad">​​Figure&#58; Bad Example - If they don't immediately know what to fix, this might end up in their &quot;too hard&quot; bucket and never get done&quot;<br></dd><p class="ssw15-rteElement-GreyBox">&quot;Not done, you missed the second requirement&quot;</p><dd class="ssw15-rteElement-FigureGood">​The specific missed requirement lets them quickly fix the mistake<br></dd><p>
+                    Of course there are times that you can 'feel' that a​ problem exists, but you may not even be sure how are unable to pinpoint it, or can't think of a good solution. In this instance you should speak
                     to someone who you think may be able to identify a solution, come to an agreement,
                     and then request that action be taken.
                 </p>
