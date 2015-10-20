@@ -26,7 +26,7 @@ redirects:
                                         <img alt="Don't Criticize" src="/PublishingImages/DontCriticize.jpg" /> 
                                     </dt>
                                     <dd>
-                                        Figure&#58; &quot;The whipping must continue until moral improves&quot;</dd>
+                                        Figure&#58; &quot;The floggings&#160;will&#160;continue until morale improves&quot;</dd>
                                 </dl>
 </div>
 
