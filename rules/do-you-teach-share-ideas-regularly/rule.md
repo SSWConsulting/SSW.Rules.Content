@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-<p>
+<p>​
                     Each team member has their own set of skills. There is no use hiding those skills
                     &quot;under a bushel&quot;. If you can at least share one idea a week the team's shared knowledge
                     increases. This has many positive spin-offs, for example, the teams don't become
