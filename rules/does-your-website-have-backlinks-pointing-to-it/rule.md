@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> Who's linking to you is an important question for SEO strategies, and one that can be easily answered. To find out how many inbound links you have and where they're coming from, go to www.google.com and type in &quot;link&#58;&quot; then the URL of your page. Click this link and&#160;see <a href="https&#58;//www.google.com/?gfe_rd=cr&amp;ei=rps7VumlEIGC8QfOwKeICA&amp;gws_rd=cr&amp;fg=1#safe=off&amp;q=link&#58;http&#58;//www.ssw.com.au" target="_blank">who is linking to SSW </a>.<br> </span>
 
 
 
