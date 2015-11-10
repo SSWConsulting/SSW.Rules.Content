@@ -18,7 +18,7 @@ related: []
 
 
 
-  <p>What is Slideshare? <a target="_blank" shape="rect" href="http&#58;//www.slideshare.net/">Slideshare</a> is an online archive of presentations and other documents.&#160;It is the best way to store your training material for search engines and is easily accessible. Follow these steps to ensure you get as much coverage as possible before and after your presentation.</p>
+  <p>​What is Slideshare? <a target="_blank" shape="rect" href="http&#58;//www.slideshare.net/">Slideshare</a> is an online archive of presentations and other documents.&#160;It is the best way to store your training material for search engines and is easily accessible. &#160;</p><p>​​<img src="/PublishingImages/FodyAsyncErrorHandlerXamarinGoogleSearch.png" alt="FodyAsyncErrorHandlerXamarinGoogleSearch.png" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Slideshare ranks well in google searches</dd><p>​<img src="/PublishingImages/FodyAsyncErrorHandlerGoogleImageSearch.png" alt="FodyAsyncErrorHandlerGoogleImageSearch.png" style="margin&#58;5px;width&#58;808px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​​​Interestingly, keyword heavy slides from your PowerPoint​​​ will rank highly on Google Image Search​</dd><p class="ssw15-rteElement-P">​​​Check out the slideshare shown above&#58;&#160;​'<a href="http&#58;//www.slideshare.net/ChrisBriggsy/supercharging-your-xamarin-app-3-must-use-libraries">'Supercharging your Xamarin app! 3 must use libraries</a>&quot;<br></p><p>Follow these steps to ensure you get as much coverage as possible before and after your presentation.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -41,10 +41,7 @@ related: []
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Adding the version number to the title (after uploading) won’t affect the URL</span>
 </li>
     <li>Create a &quot;_OnSlideshare.txt&quot; file with the Slideshare URL and add it to SharePoint on the same folder where the original PPT is</li>
-    <li>Now you can present! </li>
-</ol>
-<img class="ms-rteCustom-ImageArea" src="/PublishingImages/slideshareend.jpg" alt="" />
-<span class="ms-rteCustom-FigureNormal">Figure&#58; the SSW example of a Slideshare link slide</span>
-
+    <li>Now you can present!<br><dd class="ssw15-rteElement-FigureGood"><img class="ms-rteCustom-ImageArea" src="/PublishingImages/slideshareend.jpg" alt="" style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;line-height&#58;20px;" />
+</dd><dd class="ssw15-rteElement-FigureGood">Figure&#58; the SSW example of a Slideshare link slide&#160;​​​​</dd></li></ol><div><font color="#555555"><span style="font-size&#58;11px;line-height&#58;21px;"><b>​​​<img src="/PublishingImages/YoutubeEmbedSlideShare.png" alt="YoutubeEmbedSlideShare.png" style="margin&#58;5px;" /><br></b></span></font></div><dd class="ssw15-rteElement-FigureGood">Figure&#58;&#160;If you presentation is being recorded be sure to send yourself a reminder email to embedd the video in to the slideshare.​​​​​​​<br></dd>
 
 
