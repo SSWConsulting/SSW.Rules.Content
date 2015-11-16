@@ -12,7 +12,7 @@ redirects: []
 ---
 
 
-​Everyone who will be involved in Scrum (pigs and chickens alike) should have read and understood the Scrum guide. 
+​​Everyone who will be involved in Scrum (pigs and chickens alike) should have read and understood the Scrum guide. 
 <br><excerpt class='endintro'></excerpt><br>
 <p>&#160;</p><div>Understanding the concepts of Scrum is easy; implementing it is hard!</div><dl><dt> 
       <img src="/PublishingImages/ScrumChickenPig.jpg" class="ms-rteCustom-ImageArea" alt="" />
