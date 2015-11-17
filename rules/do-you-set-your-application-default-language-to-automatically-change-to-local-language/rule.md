@@ -13,6 +13,6 @@ authors:
 
 <span class='intro'> <p>If you are localizing your web application to make it available in a varitety of languages, it's better to ​set your application default language to automatically change to local language. e.g. Make the web application default language as same as the browser language. </p> </span>
 
-<p>​In order to use your web application in your preferred language, simply set that language in your browser, save/apply the new settings and then launch your application.&#160;<br><br><img alt="DefaultLanguage.jpg" src="/PublishingImages/DefaultLanguage.jpg" style="margin&#58;5px;width&#58;758px;" />&#160;&#160;&#160;&#160; </p><dd style="border&#58;currentcolor;line-height&#58;16px;">Figure&#58;&#160;Set your application default language as same as the browser language. ​</dd><p>&#160;</p>
+<p>​In order to use your web application in your preferred language, simply set that language in your browser, save/apply the new settings and then launch your application.&#160;<br><br><img alt="DefaultLanguage.jpg" src="/PublishingImages/DefaultLanguage.jpg" style="margin&#58;5px;width&#58;758px;" />&#160;&#160;&#160;&#160; </p><dd style="border&#58;currentcolor;line-height&#58;16px;">Figure&#58;&#160;Detect your users language preference and display in that language​. ​</dd><p>&#160;</p>
 
 
