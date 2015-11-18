@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <iframe width="640" height="360" src="http&#58;//www.youtube.com/embed/z45_IMwslYw" frameborder="0"></iframe> 
+<span class='intro'> ​​<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/z45_IMwslYw?rel=0" frameborder="0"></iframe>&#160;</div>
 <p>There are a lot of features of Microsoft Lync. The primary features are&#58;</p> </span>
 
 <ul><li> 
