@@ -22,10 +22,10 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
 <p>
       Simply add the following within the head tags on your document&#58;
-     </p><div class="code">
+     </p><div class="code"><p class="ssw15-rteElement-CodeArea">
       {ltHTMLChar}head{gtHTMLChar}<br>
       {ltHTMLChar}LINK REL=&quot;SHORTCUT ICON&quot; HREF=&quot;/ssw/Images/icossw_v2.ico&quot;{gtHTMLChar}<br>
-      {ltHTMLChar}/head{gtHTMLChar}<br>
+      {ltHTMLChar}/head{gtHTMLChar}</p>
                     </div>
 
 
