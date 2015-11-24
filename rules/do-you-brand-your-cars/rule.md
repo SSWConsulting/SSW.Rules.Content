@@ -13,8 +13,8 @@ related: []
 ---
 
 
-Enter Intro Text
+<p><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;17px;">It's a good idea to brand your company's cars when they're on the road. These cars are essentially moving billboards for the company.</span></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​​​To get more cars, you can reward employees to brand their personal cars.​​</p><dl class="image"><dt>​​<img src="/PublishingImages/car-branding.jpg" alt="car-branding.jpg" /></dt><dd>Figure&#58; Branded car​</dd></dl>
 
 
