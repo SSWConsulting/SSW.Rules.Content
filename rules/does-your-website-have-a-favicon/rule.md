@@ -19,10 +19,10 @@ authors:
 
 <p>
       Simply add the following within the head tags on your document&#58;
-     </p><div class="code">
+     </p><div class="code"><p class="ssw15-rteElement-CodeArea">
       &lt;head&gt;<br>
       &lt;LINK REL=&quot;SHORTCUT ICON&quot; HREF=&quot;/ssw/Images/icossw_v2.ico&quot;&gt;<br>
-      &lt;/head&gt;<br>
+      &lt;/head&gt;</p>
                     </div>
 
 
