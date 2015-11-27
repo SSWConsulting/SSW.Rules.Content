@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>Ideally Builds are created once, and can then be deployed to any environment, at any point in time (Build Once, Deploy Many).<br>We do this by including deployment batch files in the solution, and specifying them to be called in the Build Process Template. </p>
+<p>​Ideally Builds are created once, and can then be deployed to any environment, at any point in time (Build Once, Deploy Many).<br>We do this by including deployment batch files in the solution, and specifying them to be called in the Build Process Template. </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt> 
       <img src="/Pages/The-Reasons-why-calling-a-Batch-File-from-the-Build-Process-Template-is-better-than-Deploying-Directly-from-the-Build.aspx#" alt="" /> 
