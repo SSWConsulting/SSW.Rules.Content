@@ -44,8 +44,8 @@ Tip #2&#58; While it is better to conduct an internal &quot;Test Please&quot; be
 <p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/Reports.zip">SSW Release Upd​​ate Report.</a></p>
 <p><strong>If you are at the end of a main section of work, promote your success </strong></p>
 <ul>
-    <li><a name="Ask for a testimonial for the work you have done" id="Ask for a testimonial for the work you have done" href="/rules-to-better-software-consultants-dealing-with-clients">Ask for&#160;a testimonial for the work you have done</a> </li>
-    <li>Create a case study and get it approved - This should be a win-win for the client. eg.&#160;&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/WorleyparsonsCaseStudy.aspx">WorleyParsons</a> </li>
+    <li><a name="Ask for a testimonial for the work you have done" id="Ask for a testimonial for the work you have done" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=c14a312e-5c0d-489f-80e1-8722fd99d607">Ask for&#160;a testimonial for the work you have done</a> </li>
+    <li>Create a case study and get it approved - This should be a win-win for the client. eg.&#160;&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Case-Study/WorleyParsons.aspx">WorleyParsons</a> </li>
     <li>Add&#160;a link to the work you have done from your website or marketing material. eg. at SSW we do this via the&#160;<a href="http&#58;//www.ssw.com.au/ssw/Company/OurClients.aspx">Our Clients</a> page </li>
 </ul>
 ​
