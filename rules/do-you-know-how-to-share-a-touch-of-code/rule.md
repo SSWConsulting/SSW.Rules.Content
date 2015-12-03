@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>Any regular blogger who writes about code knows that embedding code snippets into their posts can be a real pain!&#160;​</p><div>Syntax highlighting, special tags and keeping a track of your code snippets can be a nightmare. As a developer, you're sold on the virtues of source control, making changes then rolling back, forking, and cloning code. Wouldn't it be great if there were a simple way to share a touch of code?</div>
+<p>​Any regular blogger who writes about code knows that embedding code snippets into their posts can be a real pain!&#160;​</p><div>Syntax highlighting, special tags and keeping a track of your code snippets can be a nightmare. As a developer, you're sold on the virtues of source control, making changes then rolling back, forking, and cloning code. Wouldn't it be great if there were a simple way to share a touch of code?</div>
 <br><excerpt class='endintro'></excerpt><br>
 <div><a href="https&#58;//shigemimatsumoto.wordpress.com/2014/03/08/multi-tenancy-with-mvc5-2of2/">
    <img src="/SiteAssets/do-you-know-how-to-share-a-touch-of-code/2014-03-08_19-49-571.png" alt="2014-03-08_19-49-571.png" style="margin&#58;5px;width&#58;808px;" /></a><a>
