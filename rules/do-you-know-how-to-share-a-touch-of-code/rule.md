@@ -18,9 +18,9 @@ authors:
    <br>
 </a></div><a>
 <dd class="ssw15-rteElement-FigureBad">​Figure -&#160;Using images for code snippets is difficult to maintain.​ ​</dd>
-<div>​Introducing Github Gists, which makes sharing, embedding and keeping track of code snippets easy. The standout feature of Github Gists is that every code snippet (often referred to by GitHub as a Gist) is behind the scenes a Git repository, which in turn gives you access to all of the benefits of source control.</div>
-<div>​<br></div>
-<div>Upon editing an already published Gist, the previous versions are preserved. As to be expected with any good source control, you can use the built-in diff engine to highlight clearly the changes between any two versions of a single Gist.​ This sounds like it can get out of hand quickly, but you can easily view all your Gists by heading to https&#58;//gist.github.com/&lt;username&gt;/.&#160;</div>
+<p class="ssw15-rteElement-P">​Introducing Github Gists, which makes sharing, embedding and keeping track of code snippets easy. The standout feature of Github Gists is that every code snippet (often referred to by GitHub as a Gist) is behind the scenes a Git repository, which in turn gives you access to all of the benefits of source control.​</p>
+<p class="ssw15-rteElement-P">​<br></p>
+<p class="ssw15-rteElement-P">Upon editing an already published Gist, the previous versions are preserved. As to be expected with any good source control, you can use the built-in diff engine to highlight clearly the changes between any two versions of a single Gist.​ This sounds like it can get out of hand quickly, but you can easily view all your Gists by heading to https&#58;//gist.github.com/&lt;username&gt;/.&#160;</p>
 <div>
    <br>
 </div>
