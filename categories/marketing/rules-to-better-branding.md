@@ -22,6 +22,6 @@ index:
 - linkedin---do-you-have-links-to-your-main-services-on-your-profile
 
 ---
-<p>Branding is a key to success. In the cluttered global market, your company's brand is the way the outside world perceives your product or service. Many business problems revolve around poor branding&#58; your clients might think you're too small for a job, or not technically capable, or charge too much. Common customer grievances could be alleviated by a positive brand image.</p><p>Branding isn't necessarily tangible. It touches the emotive side of human behavior ​ - you feel, see or relate to a brand. But because it has such power it needs to be managed in any organization, no matter how big or small.</p><p>Here's a series of branding rules that govern how we believe branding should work.&#160;</p>
+<p>​Branding is a key to success. In the cluttered global market, your company's brand is the way the outside world perceives your product or service. Many business problems revolve around poor branding&#58; your clients might think you're too small for a job, or not technically capable, or charge too much. Common customer grievances could be alleviated by a positive brand image.</p><p>Branding isn't necessarily tangible. It touches the emotive side of human behavior ​ - you feel, see or relate to a brand. But because it has such power it needs to be managed in any organization, no matter how big or small.</p><p>Here's a series of branding rules that govern how we believe branding should work.&#160;</p>
 
 
