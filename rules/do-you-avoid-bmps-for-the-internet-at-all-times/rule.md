@@ -13,6 +13,6 @@ authors: []
    sizes, which makes it unsuitable for pretty much everything.</p><p>As an alternative, the most ideal format for Internet-ready lossless images is PNG.</p>
     </span>
 
-<p><span class="productBox">We have a program called <a href="/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule.</span></p> 
+<p><span class="productBox">We have a program called <a href="https&#58;//www.ssw.com.au/ssw/CodeAuditor/">SSW Code Auditor</a> to check for this rule.</span></p> 
 
 
