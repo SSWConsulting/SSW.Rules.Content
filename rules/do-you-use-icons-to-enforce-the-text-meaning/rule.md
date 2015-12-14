@@ -17,7 +17,7 @@ related:
 ---
 
 
-​<span style="line-height&#58;1.6;">People may not pay attention to some important words in your pages. While adding a simple and clear icon beside the words will make the difference. Add a green tick for successful messages and a red cross for error messages.</span><br>
+​<span style="line-height&#58;1.6;">​People may not pay attention to some important words in your pages. While adding a simple and clear icon beside the words will make the difference. Add a green tick for successful messages and a red cross for error messages.</span><br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt></dt></dl><dl class="badImage"><dt>
       <img src="/PublishingImages/validation-bad.jpg" alt="no icons to indicate the status" style="margin&#58;5px;" />
