@@ -12,7 +12,7 @@ redirects: []
 ---
 
 
-<p>Using branded stickers on coffee cups &#160;is a great way to promote your brand at events, conferences, training seminars and any other function. It is a cost-effective way to make a lasting impression about your brand.&#160;</p><dl class="ssw15-rteElement-ImageArea">​​​​​​<img src="/PublishingImages/ssw-coffee-cup.png" alt="ssw-coffee-cup.png" style="margin&#58;5px;width&#58;205px;" /><br></dl><dd class="ssw15-rteElement-FigureNormal">​​​Figure&#58; SSW Take Away&#160;Coffee Cup<br></dd>
+<p>Using branded stickers on coffee cups &#160;is a great way to promote your brand at events, conferences, training seminars and other functions. It is a cost-effective way to make a lasting impression about your brand.&#160;</p><dl class="ssw15-rteElement-ImageArea">​​​​​​<img alt="ssw-coffee-cup.png" src="/PublishingImages/ssw-coffee-cup.png" style="margin&#58;5px;width&#58;205px;" /><br></dl><dd class="ssw15-rteElement-FigureNormal">​​​Figure&#58; SSW Take Away&#160;Coffee Cup<br></dd>
 <br><excerpt class='endintro'></excerpt><br>
 
 
