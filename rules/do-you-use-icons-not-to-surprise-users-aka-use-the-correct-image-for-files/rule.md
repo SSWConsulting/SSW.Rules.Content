@@ -13,13 +13,13 @@ authors:
 
 
 
-<span class='intro'> <p>When a user clicks on a hyperlink they expect to open an 
+<span class='intro'> <p>​When a user clicks on a hyperlink they expect to open an 
      html file. If you click on a hyperlink (but it is actually a 
      .doc file) you wait and wait while it takes forever to 
      instantiate an instance of Microsoft Word in the background.
                 </p> </span>
 
-<p>Don't surprise users! Use the following icons&#58; </p><table cellspacing="0" cellpadding="3" class="style1" style="width&#58;738px;"><tbody><tr><th scope="col">File Type </th><th scope="col">Example </th></tr><tr><td>PDF </td><td> 
+<p>Don't surprise users! Use the following icons&#58; </p><table cellspacing="0" cellpadding="3" class="style1 " style="width&#58;738px;"><tbody><tr><th scope="col">File Type </th><th scope="col">Example </th></tr><tr><td>PDF </td><td> 
             <img alt="Icon PDF" src="http&#58;//www.ssw.com.au/ssw/Images/IconPdf.png" style="margin&#58;5px;" /> This is a PDF file </td></tr><tr><td>JPG </td><td> 
             <img alt="Icon JPG" src="http&#58;//www.ssw.com.au/ssw/Images/IconJpg.gif" style="margin&#58;5px;" /> This is a Image file </td></tr><tr><td>DOC or DOT </td><td> 
             <img alt="Icon DOC" src="http&#58;//www.ssw.com.au/ssw/Images/IconDoc.png" style="margin&#58;5px;" /> This is a Word Document file </td></tr><tr><td>XLS </td><td> 
@@ -35,7 +35,7 @@ authors:
             <img alt="Icon MailTo" src="http&#58;//www.ssw.com.au/ssw/Images/IconMailTo.gif" style="margin&#58;5px;" /> This will send an email </td></tr><tr><td>XML / RSS </td><td> 
             <img alt="Icon XML" src="http&#58;//www.ssw.com.au/ssw/Images/IconXML.gif" style="margin&#58;5px;" /> This will subscribe to RSS</td></tr><tr><td>ODF</td><td> 
             <img alt="Icon ODF" src="http&#58;//www.ssw.com.au/ssw/Images/IconOFT.gif" style="margin&#58;5px;" /> This is an Outlook Item Template</td></tr><tr><td>Page                         </td><td> 
-            <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/ms_lock.gif" alt="" style="margin&#58;5px;width&#58;20px;" /> This is a link to password protected page </td></tr></tbody></table> 
+            <img src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/ms_lock.gif" alt="" style="margin&#58;5px;width&#58;20px;" /> This is a link to password protected page </td></tr><tr><td rowspan="1">​YouTube</td><td rowspan="1">​<img src="/PublishingImages/_t/youtube-icon_png.jpg" alt="" style="margin&#58;5px;" />This is a link to a YouTube Video</td></tr></tbody></table> 
 <dl><dl class="ssw15-rteElement-ImageArea"> 
       <img border="0" alt="Image good link" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/GoogleIcons.gif" style="margin&#58;5px;" />
    </dl><dd>Figure&#58; FYI there are the same images used by Google at 
