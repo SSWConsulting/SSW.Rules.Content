@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>The <b>&lt;img&gt;</b> tag of HTML has 2 attributes that should not be used - height and width. &#160;Any image resizing should&#160; be done via CSS.&#160;If the height / width ratio doesn't match that of original image, the image will be stretched.</p> </span>
+<span class='intro'> <p>The <b>&lt;img&gt;</b> tag of HTML has 2 attributes that should not be used - <b>&quot;height&quot; </b>and<b> &quot;width&quot;</b>. &#160;Any image resizing should&#160; be done via CSS.&#160;If the height / width ratio doesn't match that of original image, the image will be stretched.</p> </span>
 
 <dl class="badImage"><dt>
       <img src="/PublishingImages/streched-image.jpg" alt="Stretched image which looks ugly" /> 
