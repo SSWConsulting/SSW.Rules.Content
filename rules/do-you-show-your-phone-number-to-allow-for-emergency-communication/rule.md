@@ -20,6 +20,6 @@ authors:
 <p class="ssw15-rteElement-P">​The standard procedure of dealing with SkypeIn calls​&#58;</p><ol><li>If your Skype is online, it will ring your computer.&#160;(just like normal)</li><li>If your Skype is offline, it will redirect the call to your mobile / local phone.</li></ol><p>
    <span class="s1">So get ​
       <a href="http&#58;//www.skype.com/allfeatures/onlinenumber/">
-         <span class="s2">a Skype online number</span></a>&#160;.</span></p>
+         <span class="s2">a Skype online number</span></a>&#160;and make sure that your main contact in a remote office is always contactable.</span></p>
 
 
