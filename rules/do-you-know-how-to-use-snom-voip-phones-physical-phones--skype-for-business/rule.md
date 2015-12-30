@@ -53,6 +53,6 @@ related: []
          <em></em><img src="/PublishingImages/Tick.png" alt="" style="vertical-align&#58;middle;" /> 
          <i>(Tick)</i> 
          <p>&#160;</p></li></ul></div><p>Read more about 
-   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx">​implementing Microsoft Lync</a>.</p>​
+   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx">​</a><a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx" style="line-height&#58;20px;">implementing Skype for Business​.​​</a></p>
 
 
