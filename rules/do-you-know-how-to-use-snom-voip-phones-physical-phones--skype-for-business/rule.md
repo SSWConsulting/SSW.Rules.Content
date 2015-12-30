@@ -11,7 +11,7 @@ related: []
 ---
 
 
-<p>​</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/NZTY5f1mMWk?rel=0" frameborder="0"></iframe>&#160;</div><p>Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy. ​
+<p>​​</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/NZTY5f1mMWk?rel=0" frameborder="0"></iframe>&#160;</div><p>Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy. ​
 ​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <b>Transferring a call</b> 
