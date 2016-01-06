@@ -23,7 +23,7 @@ related:
 ---
 
 
-<p>​​Implement a policy of following up 
+<p>​Implement a policy of following up 
    <strong>important</strong> telephone conversations with an email that begins with the words &quot;As per our conversation&quot;. The intent is to document what was said and agreed upon.</p><p>Watch the video below and see how a single email can make your job easier.</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive" unselectable="on"> 
    <iframe height="338" frameborder="0" width="600" src="https&#58;//www.youtube.com/embed/falcO6smD_8?rel=0"></iframe>&#160;</div> 
 <br> 
