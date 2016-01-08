@@ -16,8 +16,8 @@ redirects: []
 ---
 
 
-Enter Intro Text
+<p><span class="valid-text" style="color&#58;#444444;display&#58;inline;">A contract or&#160;Non&#160;Disclosure Agreement (NDA) also known as a&#160;Confidentiality Agreement can sometimes have a lot of legal implications and you should be careful before signing one.</span></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​​The correct process would be&#58;</p><ol><li><span style="line-height&#58;1.6;">​</span>Browse over it to see if there are any issues I can pick up (So I can learn)</li><li>Give it to your legal guy(s)&#160;to review and make his comments</li><li>Send feedback from the&#160;legal guys&#160;to the client</li><li>Make changes to the document as requested&#160;by the legal guys&#160;and agreed to by client.</li><li>Sign document<br></li></ol>
 
 
