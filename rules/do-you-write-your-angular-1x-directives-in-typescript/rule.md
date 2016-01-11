@@ -15,11 +15,10 @@ authors:
 
 
 
-<span class='intro'> <p>​​​​​​​​​​​Angular 1.x directives are awesome and they help you reuse your code base by being able to drop directives (aka reuasable HTML elements)&#160;into several pages without having to duplicate your code base.​</p> </span>
+<span class='intro'> <p>​​​​​​​​​​​​​Angular 1.x directives are awesome and they help you reuse your code base by being able to drop directives (aka reuasable HTML elements)&#160;into several pages without having to duplicate your code base.​</p> </span>
 
 <style>
 li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
-list-style-type:decimal !important;
 }
 </style>​​ 
 <div><div class="rulesummarycontenttop"><p class="p1" style="font-family&#58;'segoe ui', verdana, arial, helvetica, sans-serif;margin-bottom&#58;0px;"> 
