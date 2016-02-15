@@ -11,10 +11,10 @@ authors:
 
 
 
-<span class='intro'> <p>​​Like most skills, it can take a little while to get your head around Git.<br>We rate our devs and the devs that we mentor on the following scale.</p> 
-<h4>Where are you?</h4> </span>
+<span class='intro'> <p>​​Like most skills, it can take a little while to get your head around Git.<br>We rate our devs and the devs that we mentor on the following scale.</p>
+<p><strong>Where are you?</strong></p> </span>
 
-<h3>**&#160;Level&#160;1 -&#160;Understanding&#160;the basic principles</h3><p>At this&#160;level,</p><p>Your workflow looks like this&#58;</p><ul><li>init local repository /&#160;clone</li><li>pull</li><li>&lt;code&gt;<br></li><li>commit <br></li><li>push&#160;&#160;<br></li></ul><h3>**&#160;Level&#160;2 -&#160; Working with Git on a team</h3><p>Now that you know the basic Git commands you can start working on projects with more than one developer.</p><p>You should be&#160;using local feature branches for your work.</p><p>Your workflow involves&#58;</p><ul><li>
+<h3>**&#160;Level&#160;1 -&#160;Understanding&#160;the basic principles</h3><p>At this&#160;level,&#160;you need to have an understanding of the basic operations (including branching).​</p><p>Your workflow looks like this&#58;</p><ul><li>init local repository /&#160;clone</li><li>pull</li><li>&lt;code&gt;<br></li><li>commit <br></li><li>push&#160;&#160;<br></li></ul><h3>**&#160;Level&#160;2 -&#160; Working with Git on a team</h3><p>Now that you know the basic Git commands you can start working on projects with more than one developer.</p><p>You should be&#160;using local feature branches for your work.</p><p>Your workflow involves&#58;</p><ul><li>
       <span style="line-height&#58;1.6;">pull&#160;</span><br></li><li>
       <span style="line-height&#58;1.6;">merge</span><br></li><li>
       <span style="line-height&#58;1.6;">push&#160;</span><span style="line-height&#58;1.6;">&#160;</span><br></li></ul><h3>**&#160;Level&#160;3 -&#160;Learning&#160;to use pull requests&#160;</h3><p>Pull requests can be used for code reviews within your team, or to accept suggested changes from people outside your team.</p>
