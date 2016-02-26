@@ -16,8 +16,8 @@ redirects: []
 ---
 
 
-Enter Intro Text
+Having a minimum number for live events is important so everyone is on the same page.
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​It is&#160;important not to cancel live events because people who have already registered become disappointed&#160;in the business and the business loses credibility​. At times people who have already booked tickets, have also booked&#160;accommodation and air fares which causes additional pain to everyone. Having a reasonable number of attendees to attend each event will&#160;reduce these issues.</p><p>If you are running these events for lead generation&#160;purposes then not covering event costs with ticket sales isn't a problem. Additionally if&#160;you don't run a lead generation&#160;event you potentially lose the leads&#160;you have.</p>
 
 
