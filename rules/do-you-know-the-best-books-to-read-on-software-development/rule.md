@@ -31,6 +31,6 @@ redirects:
       <span class="s4"><a target="_blank" href="http&#58;//www.amazon.com/Design-Patterns-Object-Oriented-Professional-Computing/dp/0201634988"><span class="s2">Design Patterns&#160;</span></a></span>(by the Gang of Four)</li><li class="li1">
       <span class="s1"><a target="_blank" href="http&#58;//www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X"><span class="s2">The Pragmatic Programmer</span></a></span><span class="s3"> (by Andrew Hunt)</span></li><li class="li2">
       <span class="s4"><a target="_blank" href="http&#58;//www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959"><span class="s2">The Mythical Man Month</span></a></span> (by Frederick P. Brooks)</li><li class="li1">
-      <span class="s1"><a target="_blank" href="http&#58;//www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530"><span class="s2">Test Driven Development&#58; By Example</span></a></span><span class="s3"> (by Kent Beck)​</span></li></ul>
+      <span class="s1"><a target="_blank" href="http&#58;//www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530"><span class="s2">Test Driven Development&#58; By Example</span></a></span><span class="s3"> (by Kent Beck)​</span></li><li class="li1"><a href="http&#58;//www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262509/ref=asap_bc?ie=UTF8">The Phoenix Project&#58; A Novel about IT, DevOps, and Helping Your Business Win​</a> (by&#160;Gene Kim,&#160;Kevin Behr &amp;&#160;George Spafford)<span class="s3"><br></span></li></ul>
 
 
