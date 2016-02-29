@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>​Before you configure continuous deployment, you need to ensure that the code that you have on the server compiles. A successful CI build without deployment lets you know the solution will compile.</p>
+<p>​​​Before you configure continuous deployment, you need to ensure that the code that you have on the server compiles. A successful CI build without deployment lets you know the solution will compile.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt>
       <img src="/PublishingImages/ci-build-1.jpg" alt="" />
