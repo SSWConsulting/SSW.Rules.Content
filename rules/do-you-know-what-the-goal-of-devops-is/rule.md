@@ -15,8 +15,8 @@ related: []
 ---
 
 
-Enter Intro Text
+<div><br></div><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="853" height="480" src="https&#58;//www.youtube.com/embed/_I94-tJlovg?rel=0" frameborder="0"></iframe>&#160;</div> DevOps is all about bringing the developers and operations together so that they are working as a team in the best interests of the product rather than themselves. The main goals you want to achieve by implementing DevOps is &#58;
 <br><excerpt class='endintro'></excerpt><br>
-
+<ol><li>​Hands free deployment</li><li>Measure and continually reduce the most painful piece of your deployment</li></ol>
 
 
