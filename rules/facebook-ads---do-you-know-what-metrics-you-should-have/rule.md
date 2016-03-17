@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <span style="font-size&#58;10pt;font-family&#58;'open sans', sans-serif;">Facebook
+<span class='intro'> <span style="font-size&#58;10pt;font-family&#58;'open sans', sans-serif;">​Facebook
 ads have a limited run. Often, ads will work for a certain period and then
 become in-effective. It is important to monitor ads regularly to see if they
 are still performing.&#160;</span><br> </span>
