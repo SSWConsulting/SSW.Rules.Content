@@ -15,8 +15,8 @@ redirects: []
 ---
 
 
-Enter Intro Text
+<p>A product backlog is a great way to see the fairly small broken up PBIs (Product Backlog Items) that make up your team's to do list but it can be a bit too zoomed in.</p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​To&#160;get a better zoomed out look, you should have a product roadmap. this could be using TFS Features or Epics, or could known as&#160;MMFs (minimal marketable features), but the concept is the same... what is the order of the main feature groups that you will be working on?</p>
 
 
