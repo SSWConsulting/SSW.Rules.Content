@@ -33,7 +33,7 @@ redirects: []
                </dt><dd>Figure&#58; Wireframe storyboard mockup on Balsamiq</dd></dl></li><li></li><li>
             <a href="http&#58;//www.adobe.com/au/products/experience-design.html">Adobe XD</a>&#160;- preloaded with the&#160;most popular&#160;UI design blocks&#160;<strong>(recommended)​</strong></li></ul><dl class="ssw15-rteElement-ImageArea">
          <img src="/SiteAssets/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups/AdobeXD.jpg" alt="AdobeXD.jpg" style="margin&#58;5px;" />
-         <dd class="ssw15-rteElement-FigureNormal">Figure&#58;&#160;Adobe XD prototyping</dd><p>​​​​​</p>​
+         <dd class="ssw15-rteElement-FigureNormal">Figure&#58;&#160;Adobe XD prototyping</dd><p>​​​​​<img src="/PublishingImages/AdobeXDMaterialDesign.png" alt="AdobeXDMaterialDesign.png" style="margin&#58;5px;" /></p><dd class="ssw15-rteElement-FigureNormal">Figure&#58;&#160;​​​Adobe XD Google ​material design UI kit</dd></dl><dl class="ssw15-rteElement-ImageArea"><br>
          <p>Others&#58;​</p><ul><ul><li><p>
                      <a target="_blank" href="http&#58;//msdn.microsoft.com/en-us/library/ee341449%28v=expression.40%29.aspx">Sketch​flow</a> (required if the frontend will be a Silverlight or a WPF application - read 
                      <a href="/Pages/UseExpressionBlendSketchflow.aspx">Do you use Expression Blend + SketchFlow to create mock-ups?</a>​ for further information)</p></li><li><p>
