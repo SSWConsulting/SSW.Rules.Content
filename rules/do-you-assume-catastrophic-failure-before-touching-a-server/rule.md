@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>If you are going to install a service pack on a machine, moving a virtual server to another drive or doing any critical system level changes, make sure you back up your machine first. For virtualized machine, make sure you back up all related files, including vhd, avhd etc.​</p>
+<p>​​If you are going to install a service pack on a machine, moving a virtual server to another drive or doing any critical system level changes, make sure you back up your machine first. For virtualized machine, make sure you back up all related files, including vhd, avhd etc.​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>You should already assume there could be catastrophic failure after these kind of operations and you should always be prepared for them by having a full backup somewhere. This is especially important when you are working your production or critical servers.​</p>
 
