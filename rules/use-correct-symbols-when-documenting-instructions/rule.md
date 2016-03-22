@@ -1,0 +1,29 @@
+---
+type: rule
+archivedreason: 
+title: 'Reference: Do you use the correct symbols when documenting instructions?'
+guid: ff9b08bd-f85d-41c8-883a-9d226b3b9fc5
+uri: use-correct-symbols-when-documenting-instructions
+created: 2016-03-22T04:45:05.0000000Z
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+related:
+- reference-do-you-use-the-right-order-of-instructions
+- do-you-highlight-actions-correctly-in-your-document
+- do-you-make-numbers-more-readable
+- do-you-include-version-numbers-in-your-file
+- do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
+- tiny-do-you-use-active-phrases-no-zombies-please
+- awesome-documentation
+redirects:
+- reference-do-you-use-the-correct-symbols-when-documenting-instructions
+
+---
+
+
+Enter Intro Text
+<br><excerpt class='endintro'></excerpt><br>
+
+
+
