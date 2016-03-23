@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p class="p1">Microsoft automatic updates can be dangerous.&#160;</p><p class="p1">Microsoft Update is a service that allows for the periodic patching of system files to address known issues with Microsoft products. Originally called Windows Update, it was specifically focused on Operating System patches for Windows. More recently however, it has been expanded to include all Microsoft products and the name has changed to Microsoft Update, allowing the automated patching of non-OS software such as Internet Explorer and Microsoft Office.&#160;</p>
+<p class="p1">​​Microsoft automatic updates can be dangerous.&#160;</p><p class="p1">Microsoft Update is a service that allows for the periodic patching of system files to address known issues with Microsoft products. Originally called Windows Update, it was specifically focused on Operating System patches for Windows. More recently however, it has been expanded to include all Microsoft products and the name has changed to Microsoft Update, allowing the automated patching of non-OS software such as Internet Explorer and Microsoft Office.&#160;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​<span style="line-height&#58;1.6;">It is important to keep your machine up-to-date, but Windows Update Automatic installation can be somewhat intrusive to your work flow. There is nothing worse than getting Windows Updates installing during important presentation. You should set Windows Updates to be installed manually.</span></p><p class="p1">Go to 
    <strong>Control Panel | Windows Update | Change Settings </strong>and set updates to 
