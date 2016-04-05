@@ -13,8 +13,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p>When you sell a training engagement you should invoice the client as soon as the training is confirmed by email, as training is always fixed price and the cost will not vary like a time and materials engagement.<br></p> </span>
 
-
+<p>​​Sending an invoice before the training begins acts as a confirmation of the training and allows the invoice to be paid a little earlier than usual.<br><br></p>
 
 
