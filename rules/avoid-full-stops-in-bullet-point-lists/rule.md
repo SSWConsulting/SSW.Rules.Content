@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-Excess punctuation without a purpose can make a document or web page look overly busy. For a list of short sentences, don't&#160;have full stops at the end of each bullet point. The exception to this rule is when you have more than one sentence in a single bullet point.<br><div><br></div>
+​​Excess punctuation without a purpose can make a document or web page look overly busy. For a list of short sentences, don't&#160;have full stops at the end of each bullet point. The exception to this rule is when you have more than one sentence in a single bullet point.<br><div><br></div>
 <br><excerpt class='endintro'></excerpt><br>
 <p>For example&#58;</p><dt class="greyBox"><ul><li>Sentence 1.</li><li>Sentence 2.</li><li>Sentence 3.</li></ul></dt><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - Too much punctuation</dd> 
 <br> 
