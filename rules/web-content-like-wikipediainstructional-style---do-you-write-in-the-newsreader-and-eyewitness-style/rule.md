@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.8px;">General web content should always be written as if read by a newsreader. It is objective and describes its content professionally. A good example of this is Wikipedia.</span>​​ </span>
+<span class='intro'> <span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.8px;">​General web content should always be written as if read by a newsreader. It is objective and describes its content professionally. A good example of this is Wikipedia.</span>​​ </span>
 
 <dl class="badImage"><dt><p class="greyBox" style="width&#58;480px;">
                             I don't like JavaScript. I prefer jQuery because...</p></dt><dd>Figure&#58; Bad Example - using 1st person writing makes it sound like opinion</dd></dl><dl class="goodImage"><dt><p class="greyBox" style="width&#58;480px;">
