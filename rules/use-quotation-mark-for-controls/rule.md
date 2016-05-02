@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>​Quotation marks can help user distinguish controls from the normal words. This is especially important in technical documentation, as the control names can be normal words.</p>
+<p>​​​​​Quotation marks can help user distinguish controls from the normal words. This is especially important in technical documentation, as the control names can be normal words.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p class="ssw15-rteElement-GreyBox">​Click the Upgrade link</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - It's not clear that Upgrade is a control</dd><p class="ssw15-rteElement-GreyBox">Click the &quot;Upgrade&quot; link</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - This is much clearer to the user what to search for.</dd>
 
