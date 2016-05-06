@@ -13,7 +13,7 @@ related: []
 ---
 
 
-There are multiple ways to get SharePoint version&#58;<div><br><dd class="ssw15-rteElement-FigureBad">Check SharePoint DLL version</dd><dd class="ssw15-rteElement-FigureBad">Check&#160;http&#58;//&lt;CentralAdminSite&gt;/_admin/FarmServers.​aspx​</dd><dd class="ssw15-rteElement-FigureGood">Check&#160;​​http&#58;//&lt;AnySiteCollection&gt;/_vti_pvt/service.cnf, see&#160;<a href="http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/">http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/</a>​ for details.</dd></div>
+You want to be on the latest version of SharePoint.<br><br>There are multiple ways to get it&#58;​<div><br><dd class="ssw15-rteElement-FigureBad">Check SharePoint DLL version</dd><dd class="ssw15-rteElement-FigureBad">Check&#160;http&#58;//&lt;CentralAdminSite&gt;/_admin/FarmServers. aspx </dd><dd class="ssw15-rteElement-FigureGood">Check&#160; http&#58;//&lt;AnySiteCollection&gt;/_vti_pvt/service.cnf, see&#160;<a href="http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/">http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/</a> for details.</dd></div>
 <br><excerpt class='endintro'></excerpt><br>
 
 
