@@ -38,11 +38,10 @@ related: []
 <div><img class="ssw-rteStyle-ImageArea" alt="CheckedOutDocuments.png" src="/PublishingImages/CheckedOutDocuments.png" style="margin&#58;5px;" /><br></div>
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Checked Out Documents report link</span> make sure there are no files checked out, otherwise, go step 3. <div><br>3. Go chase after the users.</div>
 <div><br></div>
-<div><strong>B. Custom application report (Includes some coding work)</strong><br>In SSW, to make the chase work easier, we have a custom page to show the &quot;Checked out files&quot; and send the notification email to naughty people&#58;</div>
-<div><img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/PublishingImages/CheckedOutFilesApplicationReport.png" style="margin&#58;5px;" />&#160;</div>
-<div class="ssw-rteStyle-FigureNormal">Figure&#58; &quot;Checked out Files&quot; custom application report</div>
+<div><strong>B. Custom application report (Includes some coding work)</strong><br>To make reminding users&#160;easier, this SharePoint Add-in&#160;has&#160;a custom page to show the &quot;Checked out files&quot;. One button will&#160;send the notification email to all the naughty people.</div>
+<div><img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/PublishingImages/CheckedOutFilesApplicationReport.png" style="margin&#58;5px;" />&#160;<span style="font-size&#58;inherit;font-weight&#58;bold;line-height&#58;1.5em;">Figure&#58; One button reminds all users of their&#160;&quot;Checked out Files&quot;</span></div>
 <div class="ssw-rteStyle-FigureNormal">&#160;</div>
-<div class="ssw-rteStyle-FigureNormal">Notification email sample&#58; </div>
+
 <div class="ssw-rteStyle-GreyBox" style="width&#58;862px;height&#58;344px;"><div><strong>Hi Daragh, </strong></div>
 <div><strong></strong>&#160;</div>
 <div>You have some pages checked out in SharePoint. </div>
@@ -53,8 +52,8 @@ related: []
 <div>You currently have the following pages checked out&#58; </div>
 <blockquote dir="ltr"><div>• <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx</font></a><br>• <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx</font></a></div></blockquote>
 <div><br>Remember, you can check which files you have checked out at any time by going to <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/_layouts/<span>SSWReports/CheckedOutReport.aspx</span></font></a></div>
-<div><br>&lt;As per rule <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//rules.ssw.com.au/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx</font></a> &gt;</div>
-<p>William </p></div>
-<p>&#160;</p>
+<div><br>&lt;As per rule <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//rules.ssw.com.au/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx</font></a> &gt;</div><div><br></div>
+<p>​<span style="line-height&#58;1.6;font-size&#58;inherit;">--Powered by SSW.SharePoint.CheckedOutFilesReport</span><span style="line-height&#58;1.6;font-size&#58;inherit;">​</span><br></p></div>
+<dd class="ssw15-rteElement-FigureNormal">&#160;Figure&#58; An example of the reminder email that all users receive​</dd>
 
 
