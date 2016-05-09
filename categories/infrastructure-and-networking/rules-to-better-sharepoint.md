@@ -25,13 +25,11 @@ index:
 - sharepoint-online---do-you-get-rid-of-classic-features
 
 ---
-<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx">SharePoint Server Consulting </a>&#160;and book in a consultant. 
-   <br> 
-   <br> 
-   <b>Other SharePoint Rules&#58; </b></p><ol class="ruleSortHeader" style="padding-bottom&#58;20px;padding-left&#58;35px;"><li style="line-height&#58;32px;"> 
-      <a class="RuleSortList" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b08818c1-254a-4593-889e-41338b9c52cb">Rules to Better SharePoint Development</a>​​​​</li><li style="line-height&#58;32px;"> 
-      <a class="RuleSortList" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=aa51e478-fbc4-4ba6-9520-9487c89b11f8">Rules to Better SharePoint for End Users</a></li><li style="line-height&#58;32px;"> 
-      <a class="RuleSortList" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=fec125fb-6168-4a52-b0ea-f30d006d8cda">Rules to Better SharePoint Migration from 2007 to 2010</a></li><li style="line-height&#58;32px;"> 
+<p>Organizations are extremely good at accumulating data. Mostly in the form of documents and records, this data is often haphazardly located across the organization, and poorly integrated into document processes.</p><p><a href="https&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx" target="_blank">SharePoint </a> is the best organization tool to improve this situation by storing all documents &amp; records in a centralized system. SharePoint stores every version of a document, allows you to enforce information management policies, and improves efficiency by automating common business processes. Here you will find many rules for a better experience with​ SharePoint.</p><p>
+   <b>Other SharePoint Rules&#58; </b></p><ol class="ruleSortHeader" style="padding-bottom&#58;20px;padding-left&#58;35px;"><li style="line-height&#58;32px;">
+      <a class="RuleSortList" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b08818c1-254a-4593-889e-41338b9c52cb">Rules to Better SharePoint Development</a>​​​​</li><li style="line-height&#58;32px;">
+      <a class="RuleSortList" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=aa51e478-fbc4-4ba6-9520-9487c89b11f8">Rules to Better SharePoint for End Users</a></li><li style="line-height&#58;32px;">
+      <a class="RuleSortList" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=fec125fb-6168-4a52-b0ea-f30d006d8cda">Rules to Better SharePoint Migration from 2007 to 2010</a></li><li style="line-height&#58;32px;">
       <a class="RuleSortList" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=177d957e-6d2e-4857-9f1b-e38bf1f8f9e5">Rules to Better SharePoint Migration from 2010 to 2013</a>​</li></ol>
 
 
