@@ -17,9 +17,9 @@ related: []
 ---
 
 
-Even though you have advised staff members a migration is taking place – you can guarantee someone will try to check-in or edit documents. The best way to prevent this is to put your content database into read-only mode.&#160;
+Even though you have advised staff members a migration is taking place – you can guarantee someone will try to check-in or edit documents. The best way to prevent this is to put your content database into read-only mode,&#160;<span style="line-height&#58;20.8px;">locking the&#160;content database.</span>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Even though you have advised staff members a migration is taking place – you can guarantee someone will try to check-in or edit documents. The best way to prevent this is to lock the&#160;content database.</p><p>There are two options to lock the content database.</p><p> 
+<p>​<span style="line-height&#58;1.6;">There are two options to lock the content database.</span></p><p> 
    <span style="line-height&#58;20.8px;">Option 1 (<strong>Recommended</strong>)&#58;</span> ​​ 
    <br></p><p>1. &#160;Open&#160;<span style="color&#58;#2a2a2a;font-family&#58;'segoe ui', 'lucida grande', verdana, arial, helvetica, sans-serif;line-height&#58;18px;"><strong>SharePoint Central Administration</strong> site, navigate&#160;to &quot;<strong style="color&#58;#2a2a2a;font-family&#58;'segoe ui', 'lucida grande', verdana, arial, helvetica, sans-serif;line-height&#58;18px;">Application Management</strong>&quot; |&#160;&quot;<strong style="color&#58;#2a2a2a;font-family&#58;'segoe ui', 'lucida grande', verdana, arial, helvetica, sans-serif;line-height&#58;18px;">Site Collections</strong><span style="color&#58;#2a2a2a;font-family&#58;'segoe ui', 'lucida grande', verdana, arial, helvetica, sans-serif;line-height&#58;18px;">&quot; | &quot;<span style="color&#58;#2a2a2a;font-family&#58;'segoe ui', 'lucida grande', verdana, arial, helvetica, sans-serif;line-height&#58;18px;"><strong>Configure quotas and locks</strong>&quot;.</span></span></span></p><dl class="ssw15-rteElement-ImageArea"> 
    <img src="/PublishingImages/quotas-and-locks.jpg" alt="quotas-and-locks.jpg" data-pin-nopin="true" style="width&#58;800px;" /> 
