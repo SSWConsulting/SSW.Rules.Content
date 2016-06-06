@@ -22,7 +22,7 @@ redirects: []
 ---
 
 
-<dl class="image"><dt> <img src="/PublishingImages/finishing-a-feature-with-world-class-flow.jpg" alt="" />
+<dl class="image"><dt>​ <img src="/PublishingImages/finishing-a-feature-with-world-class-flow.jpg" alt="" />
 <p><b>Note&#58; This rule applies&#160;to git. For branching advice in TFVC, see&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=cd330379-4568-45fa-bd68-7229044697b7">Do you know when to branch in TFVC?</a></b> </p>The best way to handle continuous developm​ent and deployment is following&#160;<a href="https&#58;//guides.github.com/introduction/flow/">GitHub Flow</a>. &#160;The basic idea is to always deploy from <strong>master</strong>, and to create a feature branch for every feature. &#160;When the feature is complete, it is merged back to master via a pull request, which provides a trigger for other developers to build.<p></p><p>Using this strategy, <strong>master </strong>is always production-ready and deployable.</p> </dt></dl>
 <br><excerpt class='endintro'></excerpt><br>
 <div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive">
