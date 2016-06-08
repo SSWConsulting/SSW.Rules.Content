@@ -15,8 +15,8 @@ related: []
 ---
 
 
-Enter Intro Text
+<img src="/PublishingImages/learn-rate.png" alt="learn-rate.png" style="margin&#58;0px;width&#58;800px;height&#58;590px;" /><br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<h3 class="ssw15-rteElement-H3">​Related link​</h3><ul><li><a href="http&#58;//adamcogan.com/2016/06/06/train-devs-quickly/" title="I have learnt how to train developers in the shortest time possible" target="_blank">I have learnt how to train developers in the shortest time possible</a>​</li></ul>
 
 
