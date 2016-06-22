@@ -22,7 +22,7 @@ This is how you create a rule at <strong>rules.ssw.com.au</strong>.
       <dl class="image"><dt>
             <img alt="Create Rule" src="/PublishingImages/create-rule1.jpg" />
          </dt><dt></dt></dl> 
-      <b></b><span style="line-height&#58;1.6;"><b>Note&#58;</b> Each rule will be a “page” on SharePoint – with its own URL - differently from old&#160;aspx, where rules&#160;where&#160;sections on a single page.</span></li><li>Add the URL 
+      <b></b><span style="line-height&#58;1.6;"><b>Note&#58;</b> Each rule will be a “page” on SharePoint – with its own URL - differently from old&#160;aspx, where rules&#160;were&#160;sections on a single page.</span></li><li>Add the URL 
       <dl class="image"><dt> 
             <img alt="Create Rule" src="/PublishingImages/create-rule2.jpg" style="margin&#58;5px;" /> 
          </dt></dl><p>
@@ -47,7 +47,7 @@ This is how you create a rule at <strong>rules.ssw.com.au</strong>.
                   <dl class="image"><dt> 
                         <img alt="Create Rule" src="/PublishingImages/create-rule8.jpg" style="margin&#58;5px;" /> 
                      </dt></dl></li><li>Now fix up the images – This part is a bit painful 
-                  <ul><li>Firstly you will need to save all the images to your local drive</li><li>We don’t use the &quot;Insert &gt; Picture&quot; on the ribbon&#160;because it doesn’t generate the HTML code we use as default as per&#160;<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterWebsiteslayout.aspx#AddFigureWithRightCode">Do you use the&#160;righ&#160;t HTML/CSS code to add the useful figure/caption?</a></li><li>Instead, upload them to the Images folder -&#160;<span class="s2">http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">PublishingImages</span>/</span> 
+                  <ul><li>Firstly you will need to save all the images to your local drive</li><li>We don’t use the &quot;Insert &gt; Picture&quot; on the ribbon&#160;because it doesn’t generate the HTML code we use as default as per&#160;<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterWebsiteslayout.aspx#AddFigureWithRightCode">Do you use the&#160;right HTML/CSS code to add the useful figure/caption?</a></li><li>Instead, upload them to the Images folder -&#160;<span class="s2">http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">PublishingImages</span>/</span> 
                         <ul class="ul1"><li>Go to “Site Contents” 
                               <dl class="image"><dt> 
                                     <img alt="Create Rule" src="/PublishingImages/create-rule9.jpg" style="margin&#58;5px;" /> 
@@ -60,7 +60,7 @@ This is how you create a rule at <strong>rules.ssw.com.au</strong>.
                                  </dt></dl></li><li>Make sure you “Check In” all the images (otherwise they won’t be visible for anonymous users) 
                               <dl class="image"><dt> 
                                     <img alt="Create Rule" src="/PublishingImages/create-rule12.jpg" style="margin&#58;5px;" /> 
-                                 </dt></dl></li><li>On the screen above you can see the path for each image. Copy it so you can paste into the HTML.<br>E.g. &lt;img src=”<span class="ssw15-rteStyle-Highlight">http&#58;//rules.ssw.com.au/Communication/RulesToBetterBlogging/PublishingImages/RulesBloggingAcknowledgeBad.jpg</span>&quot;&gt;</li></ul></li></ul></li><li>Double check the links – you might have got a relative link E.g.&#160;<strong>&lt;a href=”<span class="ssw15-rteStyle-Highlight">../</span>company/Offices.aspx”&gt;&#160;</strong>which will not work because it’s now on a different site.<br>So you will need to make it absolute E.g.&#160;<strong>&lt;a href=”</strong><a href="http&#58;//www.ssw.com.au/ssw/"><span class="s2"><strong><span class="ssw15-rteStyle-Highlight">http&#58;//www.ssw.com.au/</span>ssw/company/Offices.aspx</strong></span></a><strong>”&gt;</strong></li></ol></li></ol></li><li>Add the rule intro 
+                                 </dt></dl></li><li>On the screen above you can see the path for each image. Copy it so you can paste into the HTML.<br>E.g. &lt;img src=”<span class="ssw15-rteStyle-Highlight">http&#58;//rules.ssw.com.au/Communication/RulesToBetterBlogging/PublishingImages/RulesBloggingAcknowledgeBad.jpg</span>&quot;&gt;</li></ul></li></ul></li><li>Double check the links – you might have got a relative link E.g.&#160;<strong>&lt;a href=”<span class="ssw15-rteStyle-Highlight">../</span>company/Offices.aspx”&gt;&#160;</strong>which will not work because it’s now on a different site.<br>So you will nee​d to make it absolute E.g.&#160;<strong>&lt;a href=”</strong><a href="http&#58;//www.ssw.com.au/ssw/"><span class="s2"><strong><span class="ssw15-rteStyle-Highlight">http&#58;//www.ssw.com.au/</span>ssw/company/Offices.aspx</strong></span></a><strong>”&gt;</strong></li></ol></li></ol></li><li>Add the rule intro 
       <p>Try to have a catch at the end so the user will want to read the rest of the rule. E.g. “ To reply to a bug effectively and efficiently in your emails, you need to include&#58;”</p><dl class="image"><dt> 
             <img alt="Create Rule" src="/PublishingImages/create-rule13.jpg" style="margin&#58;5px;width&#58;650px;" /> 
          </dt></dl><dl class="image"><dt> 
