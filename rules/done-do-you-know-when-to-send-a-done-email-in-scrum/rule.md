@@ -17,7 +17,7 @@ redirects: []
 
 
 
-  <p>​Most devs don't send 'Done' emails. Do you really expect Product Owners to always be checking TFS?<br>
+  <p>​​Most devs don't send 'Done' emails. Do you really expect Product Owners to always be checking TFS?<br>
 <br>
 The better approach is&#58;<br>
 &#160;&#160;&#160;&#160;- If task/bug came from a client, when it is completed, send&#160;the 'Done'&#160;email to Product Owner.<br>
