@@ -18,22 +18,18 @@ redirects:
 ---
 
 
-<span style="line-height&#58;1.6;">Most developers (even WordPress) put the image and the caption in a DIV tag. The figure is just a paragraph.</span>
+<span style="line-height&#58;1.6;">Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.</span>
 <br><excerpt class='endintro'></excerpt><br>
-<font class="ms-rteCustom-CodeArea"> 
-   <pre>{ltHTMLChar}div{gtHTMLChar}
+<font class="ms-rteCustom-CodeArea"> <pre>{ltHTMLChar}div{gtHTMLChar}
 {ltHTMLChar}img alt=&quot;&quot;/{gtHTMLChar}
 {ltHTMLChar}p{gtHTMLChar}Figure&#58; Caption{ltHTMLChar}/p{gtHTMLChar}
 {ltHTMLChar}/div{gtHTMLChar}
-</pre> </font>
-<span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span>
-<p>Instead, use a figure under the image, using a DL. A DL is a HTML tag that stands for ‘Definition List’. It contains a DT which is the item in the list – in our case an image. A DD (the description of the item). This structure gives the image and the figure, semantic meaning.</p> 
-<font class="ms-rteCustom-CodeArea"> 
-   <pre>{ltHTMLChar}dl{gtHTMLChar}
+</pre> </font> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span>
+<p>Instead, you should use {ltHTMLChar}DL{gtHTMLChar},&#160;{ltHTMLChar}DT{gtHTMLChar} (which is the item in the list – in our case an image) and {ltHTMLChar}DD{gtHTMLChar}for caption. This structure gives <span style="line-height&#58;20.8px;">&#160;semantic meaning</span> to&#160;the image and&#160;figure.​<br></p> 
+<font class="ms-rteCustom-CodeArea"> <pre>{ltHTMLChar}dl{gtHTMLChar}
 {ltHTMLChar}dt{gtHTMLChar}{ltHTMLChar}img alt=&quot;&quot;/{gtHTMLChar}{ltHTMLChar}/dt{gtHTMLChar}
 {ltHTMLChar}dd{gtHTMLChar}Figure&#58; Caption{ltHTMLChar}/dd{gtHTMLChar}
 {ltHTMLChar}/dl{gtHTMLChar}
-</pre> </font>
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example​</span> ​​
+</pre> </font> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example </span> <b>Note&#58;</b>&#160;{ltHTMLChar}dl{gtHTMLChar} stands for &quot;<b>definition list</b>&quot;; {ltHTMLChar}dt{gtHTMLChar} for &quot;<b>definition term</b>&quot;; and {ltHTMLChar}dd{gtHTMLChar} for &quot;<b>definition description</b>&quot;.<br>
 
 
