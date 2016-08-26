@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Ok, once a project gets going, you can end up dealing with many people on the client side. From the Boss to the Business Decision Maker (we call them the &quot;Product Owner&quot;) through to Mary the receptionist (aka &quot;users&quot;), everyone has something to say about the software as it is being developed. However, when you are working on a Time &amp; Materials basis in a rapid development environment with continually changing specs, you have to be certain that the work you are doing is authorised by the person who signs the cheques.
-<br> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​Ok, once a project gets going, you can end up dealing with many people on the client side. From the Boss to the Business Decision Maker (we call them the &quot;Product Owner&quot;) through to Mary the receptionist (aka &quot;users&quot;), everyone has something to say about the software as it is being developed. However, when you are working on a Time &amp; Materials basis in a rapid development environment with continually changing specs, you have to be certain that the work you are doing is authorised by the person who signs the cheques.
+<br></p> </span>
 
 <div class="greyBox">
       <strong>To&#58;</strong> Angelo;<br> 
