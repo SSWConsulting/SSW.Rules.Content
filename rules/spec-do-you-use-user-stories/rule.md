@@ -23,6 +23,6 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt><img alt="TFS2012UserStory.gif" src="/PublishingImages/TFS2012UserStory.gif" style="width&#58;593px;" /></dt><dd>Figure&#58; User Story - Product Backlog Item form</dd></dl><dl class="bad"><dt>I want to be able to search for customers.<br></dt><dd>Figure&#58; Bad Example - the user story is too vague and broad in scope</dd></dl><dl class="good"><dt>As a Marketing Manager...<br>
    I want to be able to search for customers by country and last name.<br>
-   So that I can find their numbers and call customers close to me. </dt><dd>Figure&#58; Good Example - Clear user story following the INVEST principle<br></dd></dl>
+   So that I can find their numbers and call customers close to me. </dt><dd>Figure&#58; Good Example - Clear user story following the INVEST principle<br></dd><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P">​​​​Note&#58; In the TFS&#160;Scrum template&#160;(since we now have a title, description, and acceptance criteria), we no longer generally need to use User Story formatting.​<br></p></dl>
 
 
