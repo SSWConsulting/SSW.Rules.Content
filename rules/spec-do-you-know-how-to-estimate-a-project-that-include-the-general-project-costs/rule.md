@@ -24,7 +24,7 @@ redirects:
 
 
 
-  <p>Estimates&#160;contain two main classes of work&#58; Work&#160;relating to the particular product (e.g. Create Customers.aspx) and work relating to the project as a whole&#160;(e.g. management, administration, testing, software audit etc). <br></p>
+  <p>Estimates&#160;contain two main classes of work&#58; Work&#160;relating to the particular product (e.g. Create Customers.aspx) and work relating to the project as a whole&#160;(e.g. management, administration, testing, software audit etc.). <br></p>
 <p>PBIs may&#160;only make up about&#160;60% of the total project time. Project Managers and developers should not think that the only work being charged on a project are coding tasks.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -38,7 +38,7 @@ redirects:
     <li>Fixes from the Software Audit&#58; 5% </li>
     <li>Project Administration&#58; 5% - this includes items like stand up meetings, timesheets, standard updates </li>
     <li>Project Management&#58; at least 1 day per week per resource on the project (e.g. two developers full time requires a PM two days per week) UNLESS the client provides a full time Project Manager and takes full responsibility for all resources </li>
-    <li>Unknowns&#58; 10%. While this is arbitrary it raises awareness for everybody that 'there are things we still don't know!' </li>
+    <li>Unknowns&#58; 10%. While this is arbitrary it raises awareness for everybody ​that 'there are things we still don't know!' </li>
 </ul>
 <p><strong>Project Specific Costs </strong></p>
 <p>At SSW, estimates for a project will be done by a developer, checked by another developer, and finally triple checked by a project manager. While every project is different in some way, there are common elements. SSW has built an estimates calculator to assist in creating estimates. </p>
