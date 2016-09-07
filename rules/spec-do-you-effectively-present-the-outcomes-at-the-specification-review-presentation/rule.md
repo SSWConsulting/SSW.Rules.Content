@@ -36,7 +36,7 @@ redirects:
 <br>
 <ul><li>An email (if they want to minimize documentation time), or </li><li>A Word document (if they need to get approval from someone higher up), or </li><li>A&#160;PowerPoint presentation (if they are the decision maker, and they don't want a doc)<br></li><li>A&#160;PowerPoint presentation with narrations, exported to a video (if needed)<br><span style="font-family&#58;calibri, sans-serif;font-size&#58;11pt;"> 
          <dl class="image"><dt>
-               <img alt="3-01-2014 10-13-04 PM.png" src="/PublishingImages/3-01-2014%2010-13-04%20PM.png" style="width&#58;597px;" />
+               <img alt="3-01-2014 10-13-04 PM.png" src="/PublishingImages/3-01-2014%2010-13-04%20PM.png" style="width&#58;612px;height&#58;292px;" />
             </dt></dl></span></li></ul><dl class="goodImage"><dt>
       <iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/sPMT6Udh7rQ" frameborder="0"></iframe></dt><dd>Good Example&#58; FireBootCamp - Scrum Commitments Specification Video</dd></dl><dl class="goodImage"><dt>
       <iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/nywSzMhkZV4" frameborder="0"></iframe></dt><dd>Good Example&#58; FireBootCamp - SugarLearning Specification Video</dd></dl><dl class="goodImage"><dt>
