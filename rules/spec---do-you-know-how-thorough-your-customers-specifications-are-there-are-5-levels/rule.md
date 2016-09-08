@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> Different clients will have different levels of documentation on what they want built. You need to be ready to do a spec review&#160;for any one of the following 5 possible cases&#58;<br> </span>
+<span class='intro'> ​Different clients will have different levels of documentation on what they want built. You need to be ready to do a spec review&#160;for any one of the following 5 possible cases&#58;<br> </span>
 
 <h4>Types of specifications</h4>
 <ol><li><h3 class="ssw15-rteElement-H3">I have an idea… </h3>Run from this<br>or<br>verify they have a really hefty bank account!</li>
