@@ -30,18 +30,18 @@ redirects:
 
   <p>
     <strong>General Project Costs <br>
-</strong>Management costs can change depending on how much management the client requires. SSW will recommend a suitable level of management. 'Management,&#160;accountability and transparency' has a cost. </p>
-<p>You should add general project costs as a % of the work items generally in line with the following&#58;<br></p><ul>
+</strong>Management costs can change depending on how much management the client requires. You should&#160;recommend a suitable level of management. 'Management,&#160;accountability and transparency' has a cost. </p>
+<p>You should add general project costs as a % of the work items generally in line with the following (note that these numbers are just best guesses)&#58;<br></p><ul>
     <li>Testing&#58; 20%​<br></li><li>Bug Fixes&#58; 20%<br></li>
     <li>Software Audit (if relevant)&#58; 4 hours per Release - usually conducted by two experienced Architects </li>
     <li>Fixes from the Software Audit&#58; 5% </li>
     <li>DevOps&#58; 10%<br></li><li>Project Management&#58; 15% - this includes items like stand up meetings, timesheets, standard updates, reviews, etc.<br></li>
-    <li>Unknowns (for risky projects)&#58; 10%. While this is arbitrary it raises awareness for everybody ​that 'there are things we still don't know!' </li>
+    <li>Unknowns (for risky projects)&#58; 10%. While this is arbitrary it raises awareness for everybody ​that 'there are things we still don't know!'<br></li>
 </ul>
 <p><strong>Project Specific Costs </strong></p>
-<p>At SSW, estimates for a project will be done by a developer, checked by another developer, and finally triple checked by a project manager. While every project is different in some way, there are common elements. SSW has built an estimates calculator to assist in creating estimates. </p>
-<p>See the <a href="https&#58;//projects.ssw.com.au/Templates/Forms/AllItems.aspx">Estimates Calculator </a>(NOTE&#58; this is an Excel template file.&#160;&#160;Save the File (&quot;Save as&quot; don't &quot;Open&quot; it) and then open the file in Windows Explorer) </p>
-<p>​If the client requires a fixed price quotation a 20% premium is added to the estimates for the sprints&#160;specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract, work is completed offsite only to facilitate project management and prevent unauthorized scope development.​ </p>
+<p>Estimates for a project should&#160;be done by a developer, checked by another developer, and finally triple checked by an Account&#160;Manager. While every project is different in some way, there are common elements.&#160;<br></p><p>SSW has built an estimates calculator to assist in cre​ating estimates. </p>
+<p>See the <a href="https&#58;//projects.ssw.com.au/Templates/Forms/AllItems.aspx">Estimates Calculator </a>(NOTE&#58; this is an Excel template file.&#160;&#160;Save the File (&quot;Save as&quot; don't &quot;Open&quot; it) and then open the file in Windows Explorer)​ </p>
+<p>​If the client requires a fixed price quotation, a 20% premium is added to the estimates for the sprints&#160;specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract, work is completed offsite only to facilitate project management and prevent unauthorized scope development.​ </p>
 <p>Note&#58; It would be great if TFS&#160;had functionality “Add <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems">Standard Items </a>to a Iteration (aka Sprint, Release etc.)” </p>
 
 
