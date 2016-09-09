@@ -32,7 +32,7 @@ redirects:
     <strong>General Project Costs <br>
 </strong>Management costs can change depending on how much management the client requires. You should&#160;recommend a suitable level of management. 'Management,&#160;accountability and transparency' has a cost. </p>
 <p>You should add general project costs as a % of the work items generally in line with the following (note that these numbers are just best guesses)&#58;<br></p><ul>
-    <li>Testing&#58; 20%​<br></li><li>Bug Fixes&#58; 20%<br></li>
+    <li>​Testing&#58; 20%​<br></li><li>Bug Fixes&#58; 20%<br></li>
     <li>Software Audit (if relevant)&#58; 4 hours per Release - usually conducted by two experienced Architects </li>
     <li>Fixes from the Software Audit&#58; 5% </li>
     <li>DevOps&#58; 10%<br></li><li>Project Management&#58; 15% - this includes items like stand up meetings, timesheets, standard updates, reviews, etc.<br></li>
