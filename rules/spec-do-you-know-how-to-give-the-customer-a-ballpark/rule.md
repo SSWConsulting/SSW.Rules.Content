@@ -22,11 +22,11 @@ redirects: []
 
 <h3 class="ssw15-rteElement-H3">​How to create an Estimate For a Spec Review (Summary)<br></h3>
 <p>This process can take up to a few days, so if you're just after a ballpark, use epics instead of PBIs (Product Backlog Items).</p>
-<ol><li>Usually using the browser, list all of the PBIs in TFS, sizing them with story points.</li>
-<li>Using Visual Studio, export the list of PBIs and Story Points to Excel.<br></li>
+<ol><li>List all of the PBIs in TFS, sizing them with story points.<br></li>
+<li>Export the list of PBIs and Story Points to Excel.<br></li>
 <li>In Excel, add a column called &quot;Hours&quot;​<br>Note&#58; Once we move to estimating in time, this is no longer Scrum.<br></li>
-<li>In Excel, copy this list and paste into&#160;another spreadsheet called the <img title="Excel File" src="/Style%20Library/SSW/CoreImages/iconXls.png" alt="" /> <a href="/Documents/4.%20Estimates%20Calculator.xlsx?d=w6f09d6a75d074fbda81e5e5dd3e18c76" target="_blank" shape="rect">Estimates&#160;Calcul​ator</a>,&#160;in order to add all of the extra items (testing, DevOps,&#160;Project management, etc.).<br>Note&#58; It would be great if TFS Web Access had functionality to add <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems" shape="rect"><font color="#3a66cc">standard items to a Release</font></a> (aka iteration)<br></li>
-<li>Run&#160;a <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d66a9404-2ca9-4d19-ad6c-df1618b4fc28" shape="rect">test please</a>&#160;on this.<br></li>
+<li>In Excel, copy this list and paste into&#160;another spreadsheet called the <img title="Excel File" src="/Style%20Library/SSW/CoreImages/iconXls.png" alt="" /> <a href="/Documents/4.%20Estimates%20Calculator.xlsx?d=w6f09d6a75d074fbda81e5e5dd3e18c76" target="_blank" shape="rect">Estimates&#160;Calcul​ator</a>,&#160;in order to add all of the extra items (testing, DevOps,&#160;Project management, etc.).<br>Note&#58; It would be great if TFS Web Access had functionality to add <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems" shape="rect"><font color="#3a66cc">standard items to a Sprint</font></a><br></li>
+<li>Run&#160;a <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d66a9404-2ca9-4d19-ad6c-df1618b4fc28" shape="rect">test please</a>&#160;on this.​<br></li>
 <li>Add this spreadsheet to your specification review document.<br></li>
 <li>When the Estimate is approved by the client,&#160;start work following these rules&#58;&#160;<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx" shape="rect">Rules to Better Project Management with TFS</a>.<br><br></li></ol>
 <br><excerpt class='endintro'></excerpt><br>
