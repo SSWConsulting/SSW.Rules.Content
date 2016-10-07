@@ -27,6 +27,6 @@ authors:
       <span style="color&#58;#555555;font-size&#58;14.4px;font-weight&#58;bold;line-height&#58;16px;">&quot;Figure&#58; SOE Software that are not supported by&#160;Chocolatey&quot;</span>​ </dt></dl><dl class="image"><dt>
 <img src="/SiteAssets/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running/SSWLaptopBranding.jpg" alt="SSWLaptopBranding.jpg" style="margin&#58;5px;" />
 </dt><dt>
- <span style="color&#58;#555555;font-size&#58;14.4px;font-weight&#58;bold;line-height&#58;16px;">&quot;Figure&#58; SOE Software that are not supported by&#160;Chocolatey&quot;</span>​</dt></dl>
+ <span style="color&#58;#555555;font-size&#58;14.4px;font-weight&#58;bold;line-height&#58;16px;">&quot;Figure&#58; Company&#160;branding on&#160;laptop&quot;</span>​<br></dt></dl>
 
 
