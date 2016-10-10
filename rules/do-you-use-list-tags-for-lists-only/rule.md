@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>The HTML list tags &lt;ul&gt; and &lt;ol&gt; should be used for unordered and ordered lists <strong>only</strong>.</p>
+<p>​The HTML list tags &lt;ul&gt; and &lt;ol&gt; should be used for unordered and ordered lists <strong>only</strong>.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p><strong>Tip&#58; </strong>If your list tag (&lt;ul&gt; or &lt;ol&gt;) doesn't have a list item (&lt;li&gt;) inside it, then it's not a list. Consider using another HTML tag (E.g. &lt;p&gt;).
 </p>
@@ -24,7 +24,7 @@ A normal text
 </div>
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Using the &lt;ul&gt; for a text</span>
 <div class="ms-rteCustom-GreyBox">
-<p>&gt;&lt;li&gt;A list item&lt;/li&gt;&lt;/ul&gt;</p>
+<p>&lt;ul&gt;&lt;li&gt;A list item&lt;/li&gt;&lt;/ul&gt;</p>
 <p>&lt;ol&gt;&lt;li&gt;A list item&lt;/li&gt;&lt;/ol&gt;</p>
 </div>
 <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Using the &lt;ul&gt; and &lt;ol&gt; for lists</span>
