@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> ​​Do you know what the most useful thing on Microsoft web site is? It is their knowledge base at 
+<span class='intro'> ​​Do you know what the most useful thing on Microsoft website is? It is their knowledge base at​ 
 <a class="external" href="http&#58;//support.microsoft.com/" target="_blank">http&#58;//support.microsoft.com/</a> 
 ​ When a problem arises&#160;it&#160;should be your&#160;first port of call - it allows&#160;you to help yourself. ​ </span>
 
