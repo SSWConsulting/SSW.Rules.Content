@@ -19,7 +19,7 @@ authors:
 
   <dl class="badCode">
     <dt style="width&#58;92.63%;height&#58;76px;">
-    <pre>SqlCommand sqlcmd = new SqlCommand(); sqlcmd.CommandText = &quot;<span style="background-color&#58;#ff0000;">
+    <pre>SqlCommand sqlcmd = new SqlCommand(); sqlcmd.CommandText = &quot;<span style="background-color&#58;rgb(255, 0, 0);">
                     proc_InsertCustomer</span>&quot; sqlcmd.CommandType
                     = CommandType.StoredProcedure; sqlcmd.Connection = sqlcon;</pre>
     </dt>
@@ -28,7 +28,7 @@ authors:
 <dl class="goodCode">
     <dt style="width&#58;93.1%;height&#58;80px;">
     <pre>SqlCommand sqlcmd = new SqlCommand(); sqlcmd.CommandText = &quot;
-                     <span style="background-color&#58;#00ff00;">dbo.proc_InsertCustomer</span>&quot;; sqlcmd.CommandType
+                     <span style="background-color&#58;rgb(0, 255, 0);">dbo.proc_InsertCustomer</span>&quot;; sqlcmd.CommandType
                      = CommandType.StoredProcedure; sqlcmd.Connection = sqlcon;</pre>
     </dt>
     <dd>Good Example </dd>
