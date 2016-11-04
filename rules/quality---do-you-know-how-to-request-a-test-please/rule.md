@@ -19,7 +19,7 @@ related:
 ---
 
 
-These are the steps you should take when request a &quot;test please&quot; &#58;<br>
+​These are the steps you should take when request a &quot;test please&quot; &#58;<br>
 
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Find two free testers to send the email below</li><li>Stop working on the project until you receive either a &quot;pass&quot; or &quot;fail&quot; email</li><li>Create your &quot;test please&quot; following this template&#58;<div class="greyBox"><p> 
