@@ -17,8 +17,8 @@ redirects:
 ---
 
 
-You should never use any&#160;copyrighted work&#160;without permission. When it comes to videos,&#160;if you have licensed music or songs&#160;on your YouTube video, it might be entirely&#160;removed from the site. To avoid this, use&#160;<a href="https&#58;//audiojungle.net/">audiojungle.net</a>.
+​<p>You should never use any&#160;copyrighted work&#160;without permission. When it comes to videos,&#160;if you have licensed music or songs&#160;on your YouTube video, it might be entirely&#160;removed from the site. To avoid this, use&#160;<a href="https&#58;//audiojungle.net/">audiojungle.net</a>.</p><br>
 <br><excerpt class='endintro'></excerpt><br>
-<dd class="ssw15-rteElement-FigureBad">​Bad example&#58; Ripping someone's song - your video will get taken down by YouTube</dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; Use audiojungle.net - you can pay $1 for a laugh track​<br></dd><p><br></p>
+<dd class="ssw15-rteElement-FigureBad">​Bad example&#58; Ripping someone's song - your video will get taken down by YouTube</dd><dd class="ssw15-rteElement-FigureGood">​Good example&#58; Use audiojungle.net - you can pay $1 for a laugh track​<br></dd><p><br></p>
 
 
