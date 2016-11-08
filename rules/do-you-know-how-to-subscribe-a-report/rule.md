@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-Here are&#160;the steps to subscribe&#160;a report&#58;<div><br></div>
+​Here are&#160;the steps to subscribe&#160;a report&#58;<div><br></div>
 ​
 <br><excerpt class='endintro'></excerpt><br>
 ​1. Open IE,&#160;go to the folder view which contains the report you're going to subscribe.<div><img src="/PublishingImages/reportFolderView.png" alt="reportFolderView.png" class="ssw-rteStyle-ImageArea" style="width&#58;547px;height&#58;247px;" /><div><div class="ssw-rteStyle-FigureNormal">Figure. Reports folder view</div>
