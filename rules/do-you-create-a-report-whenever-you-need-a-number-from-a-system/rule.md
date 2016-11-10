@@ -15,17 +15,12 @@ redirects:
 ---
 
 
-<p>​
-                    Whenever you need a number from a system you should think of how you can create a report, so next time you can press a button to get the result.<br></p>
+<p>Whenever you need a number from a system you should think of how you can create a report, so next time you can press a button to get the result.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>If you find yourself doing ad-hoc reports, or random SQL queries, you should make sure the boss knows you could not find the data you needed.​<br></p>
-                    <dl class="goodImage">
-                    <dt>
-                        <img alt="Eg. Email your boss to ask a number" src="/PublishingImages/CreateReport.JPG" />
-                    </dt>
-                    <dd>
-                        Figure&#58; Sample Email -- Send an email to your boss for a number. 
-                    </dd><p class="ssw15-rteElement-P">​​<br></p>​As you can see in Ulysses' video, Power BI is the ultimate tool for this&#58;&#160;<a href="https&#58;//tv.ssw.com/6839/power-bi-finally-can-make-decisions-based-facts-ulysses-maclaren">https&#58;//tv.ssw.com/6839/power-bi-finally-can-make-decisions-based-facts-ulysses-maclaren</a>&#160;<br></dl>
-
+<p>If you found yourself doing ad-hoc reports, or random SQL queries, a few years ago, the best thing to do was to make sure the boss knows you could not find the data you needed, so he could comission a new report to be built.</p><p>Since 2015, the best practice is instead to jump into Power BI and build the report yourself.</p><dl><dl class="ssw15-rteElement-ImageArea">
+      <img alt="Eg. Email your boss to ask a number" src="/PublishingImages/CreateReport.JPG" />
+   </dl><dd class="ssw15-rteElement-FigureBad"> Fig​​​ure - Bad Example&#58;&#160;If you can't&#160;build it yourself,&#160;send an email to your boss for a number. </dd></dl><dl><dt class="ssw15-rteElement-ImageArea">​
+      <dl class="ssw15-rteElement-ImageArea">
+         <img src="/PublishingImages/Power%20BI.png" alt="Power BI.png" style="margin&#58;5px;width&#58;808px;" />​</dl></dt><dd class="ssw15-rteElement-FigureGood">​Figure - Good Example&#58; Sate your own curiosity with Power BI</dd></dl><p>You can see in Ulysses' video how&#160;Power BI is the best&#160;tool for this&#58;&#160;<a href="https&#58;//tv.ssw.com/6839/power-bi-finally-can-make-decisions-based-facts-ulysses-maclaren">https&#58;//tv.ssw.com/6839/power-bi-finally-can-make-decisions-based-facts-ulysses-maclaren</a>​<br></p>
 
 
