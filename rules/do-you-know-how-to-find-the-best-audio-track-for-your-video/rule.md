@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> ​<p>You should never use any&#160;copyrighted work&#160;without permission. When it comes to videos,&#160;if you have licensed music or songs&#160;on your YouTube video, it might be entirely&#160;removed from the site. To avoid this, use royalty free music.​<br></p> </span>
+<span class='intro'> ​<p>​You should never use any&#160;copyrighted work&#160;without permission. When it comes to videos,&#160;if you have licensed music or songs&#160;on your YouTube video, it might be entirely&#160;removed from the site. To avoid this, use <b>royalty free</b> music.​<br></p> </span>
 
 <dl class="badImage"><dt>
       <img src="/PublishingImages/audio-video-bad.jpg" alt="audio-video-bad.jpg" />
