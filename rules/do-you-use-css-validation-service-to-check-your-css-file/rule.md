@@ -1,0 +1,20 @@
+---
+type: rule
+archivedreason: 
+title: Do you use CSS Validation Service to check your CSS file?
+guid: 82b808d3-5588-4521-b4d3-0dbdba71020e
+uri: do-you-use-css-validation-service-to-check-your-css-file
+created: 2016-11-16T18:28:26.0000000Z
+authors:
+- id: 1
+  title: Adam Cogan
+related: []
+
+---
+
+
+Enter Intro Text
+<br><excerpt class='endintro'></excerpt><br>
+
+
+
