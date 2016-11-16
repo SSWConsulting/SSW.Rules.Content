@@ -22,7 +22,7 @@ redirects: []
         <li>It is a good way to check the client is happy </li>
         <li>If your company is a Microsoft Gold Certified Partner, these references can lead to competencies such as Custom Development Solutions and ISV/Software Solution </li>
         <li>An example of what to say to the client is&#58; &quot;We are a Microsoft Gold Certified Partner and I would like to submit a short description of the project to Microsoft, you will receive an email from Microsoft asking you to approve the reference. How does that sound?&quot; </li>
-        <li>We would also love a testimonial to add to our website. Would you be happy to give a testimonial for the work we've done for you? Can you please email it to me?<br></li><li>If there is going to be further work, ask to pencil in a booking for say a month's time or so​, so that you don't get too booked out by other clients.<br></li></ul></li></ol>
+        <li>We would also love a testimonial to add to our website. Would you be happy to give a testimonial for the work we've done for you? Can you please email it to me?<br></li><li>If there is going to be further work down the line​, ask to pencil in a booking for say a month's time or so​, so that you don't get too booked out by other clients.<br></li></ul></li></ol>
 <ol start="2">
     <li>The next thing to do is to call your last few clients. You should always be in contact with them at least every 6 months
     <ul>
