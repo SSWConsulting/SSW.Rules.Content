@@ -11,8 +11,9 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p><b>Markup Validation Service</b> allows you to check your web page against the W3C recommendations. When developing web pages you want to create a clean and valid web page. It makes it easier for someone else to read and add new parts to a web page. Every web language like HTML has its own syntax it must follow in order to produce a clean and valid web page, <b>Markup Validation Service</b> allows you to achieve that goal.&#160;<br></p> </span>
 
-
+<p>Go to <a href="https&#58;//validator.w3.org/" target="_blank">Markup Validation Service​</a>&#58;</p><ol><li>Enter the URL or upload file to check ​<br></li><li>Review the results and make changes to fix errors<br></li></ol>
+​<br>
 
 
