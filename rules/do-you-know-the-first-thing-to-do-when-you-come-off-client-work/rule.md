@@ -12,8 +12,8 @@ redirects: []
 ---
 
 
-Here are the first things you should do EVERY time you come off client work&#58;
-
+​Here are the first things you should do EVERY time you come off client work&#58;
+<br>
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
@@ -22,11 +22,7 @@ Here are the first things you should do EVERY time you come off client work&#58;
         <li>It is a good way to check the client is happy </li>
         <li>If your company is a Microsoft Gold Certified Partner, these references can lead to competencies such as Custom Development Solutions and ISV/Software Solution </li>
         <li>An example of what to say to the client is&#58; &quot;We are a Microsoft Gold Certified Partner and I would like to submit a short description of the project to Microsoft, you will receive an email from Microsoft asking you to approve the reference. How does that sound?&quot; </li>
-        <li>We would also love a testimonial to add to our website. Would you be happy to give a testimonial for the work we've done for you? Can you please email it to me? </li>
-    </ul>
-    </li>
-</ol>
-<br>
+        <li>We would also love a testimonial to add to our website. Would you be happy to give a testimonial for the work we've done for you? Can you please email it to me?<br></li><li>If there is going to be further work, ask to pencil in a booking for say a month's time or so​, so that you don't get too booked out by other clients.<br></li></ul></li></ol>
 <ol start="2">
     <li>The next thing to do is to call your last few clients. You should always be in contact with them at least every 6 months
     <ul>
@@ -57,7 +53,7 @@ Here are the first things you should do EVERY time you come off client work&#58;
         <li>Always ask if they know of some other projects we could help them with, or if they know of anybody that may need some software development gurus. </li>
         <li>Send a follow up email
         <ul>
-            <li>Send an &quot;<a href="/do-you-send-＂as-per-our-conversation＂-emails"> as per our conversation</a>&quot;. Include some of your notes, a thank you for the time, and CC a project manager. If they were interested in a consultation, then ask the project manager to follow up </li>
+            <li>Send an &quot;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=0dddad89-e1a1-4ef4-991a-8b600462c2cd"> as per our conversation</a>&quot;. Include some of your notes, a thank you for the time, and CC a project manager. If they were interested in a consultation, then ask the project manager to follow up </li>
             <li>Document the call date, and email subject line &amp; results in the Notes field for the client in your corporate database </li>
         </ul>
         </li>
