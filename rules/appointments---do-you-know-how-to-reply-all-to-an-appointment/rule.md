@@ -16,7 +16,7 @@ related: []
 
 
 Some of us have Outlook calendars that are full to the brim. We might use our Calendar to remind us to do certain personal tasks, we might have an appointment telling us that someone else is going on leave, and, of course, we all have meetings with clients or colleagues. Our calendars can get very messy and it's easy to miss something important. This is why you should remind attendees by email of your meeting the day before it is scheduled. Outlook makes this easy.
-
+<br>
 <br><excerpt class='endintro'></excerpt><br>
 
   <h6>
