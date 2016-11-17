@@ -16,7 +16,7 @@ related: []
 <p>
                     If you have a date for any event appearing on your site, you should make it as easy
                     as possible for the user to add it to their Outlook calendar. This is why we use
-                    ICS links for all dates on our site</p>
+                    ICS links for all dates on our site<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><p class="ssw15-rteElement-GreyBox"> Next User Group Meeting&#58;<br> Wednesday, 15 February 2006 5&#58;45 PM </p><dd> Figure&#58; Bad Example - User cannot add reminder</dd></dl><dl class="goodImage"><p class="ssw15-rteElement-GreyBox">Next User Group Meeting&#58;<br>Wednesday, 15 February 2006 5&#58;45 PM ​<br> 
       <img src="http&#58;//www.ssw.com.au/ssw/Images/IconVCS.gif" alt="" />​ ​
