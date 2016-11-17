@@ -19,7 +19,7 @@ related: []
 ---
 
 
-<p>Make sure appointments have address details unless it's obvious for all attendees.</p>
+<p>Make sure appointments have address details unless it's obvious for all attendees.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <img class="ms-rteCustom-ImageArea" alt="Bad location" src="/PublishingImages/appointment-location-bad-example.jpg" />
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Appointments should have addresses in location when appropriate </span>
