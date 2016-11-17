@@ -13,14 +13,14 @@ related: []
 ---
 
 
-<p>SkypePOP is an easy to use screen pop application that supports Office 365, Microsoft Skype for Business and Microsoft Dynamics CRM and CRM Online, maximizing your investment in these two leading applications.<br></p>
+<p>​SkypePOP is an easy to use screen pop application that supports Office 365, Microsoft Skype for Business and Microsoft Dynamics CRM and CRM Online, maximizing your investment in these two leading applications.<br></p><p>Even though it works great for direct calls on Skype for Business, transferred calls will not show the CRM entry of&#160;the person being transferred. This is because SkypePOP will always recognize the person who transfers the call as the actual caller.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>SkypePOP can be purchased from 
-   <a target="_blank" href="http&#58;//www.appvnet.com/">appVnet website</a>.</p><h3>SkypePOP Features and Benefits</h3><ul><li>With support Office 365, Microsoft Skype for Business 2015 (as well as older versions)<br></li><li>Fast - pop's CRM records in milliseconds</li><li>Multiple records – handles multiple CRM records of different types with the same number</li><li>Pops information from CRM Contacts, Leads, Accounts and System Users</li><li>Presence Aware – control over what the application does based on Lync/OCS presence</li><li>Phone Activity – provides multiple options to record the call against a CRM record​<br></li></ul>
+   <a target="_blank" href="http&#58;//www.appvnet.com/">appVnet website</a>.<br></p><h3>SkypePOP Features and Benefits<br></h3><ul><li>With support Office 365, Microsoft Skype for Business 2015 (as well as older versions)<br></li><li>Works with Skype for Business (doesn't work with Skype or Skype Preview)<br></li><li>Fast - pop's CRM records in milliseconds</li><li>Multiple records – handles multiple CRM records of different types with the same number</li><li>Pops information from CRM Contacts, Leads, Accounts and System Users</li><li>Presence Aware – control over what the application does based on Lync/OCS presence</li><li>Phone Activity – provides multiple options to record the call against a CRM record​<br></li></ul>
 <img src="/SiteAssets/do-you-integrate-crm-with-microsoft-lync/lyncPOP-options.png" alt="lyncPOP-options.png" class="ms-rteCustom-ImageArea" />
 <span class="ms-rteCustom-FigureNormal">Figure&#58; SkypePOP advanced options</span>
 <p>This tool is vital for sales staff and receptionists as a minimum. 
    <br>Receptionists get the client record (based upon the inbound number) popup as the phone is ringing. They can answer the call accordantly. Sales staff has the ability to log the call in CRM along with what the call was about and also set a reminder for them to catch up in a few days.</p><p>Read more about 
-   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx"> implementing Microsoft Lync</a>.</p>​
+   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx"> implementing Microsoft Lync</a>.<br></p><h3 class="ssw15-rteElement-H3">SkypePOP​​ Setup​​</h3><p>​​<img src="/SiteAssets/do-you-integrate-crm-with-microsoft-lync/SkypePOPSetupConnection.jpg" alt="SkypePOPSetup.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Good example - use the discovery service of your CRM<br></dd><br><br>
 
 
