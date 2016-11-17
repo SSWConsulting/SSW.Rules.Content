@@ -15,8 +15,10 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">The popup blockers in several browsers prevent JavaScript from being used to open windows without user interaction (e.g. clicking a link). You should use an anchor tag instead.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p class="ssw15-rteElement-CodeArea">​{ltHTMLChar}body onload=&quot;window.open('http&#58;//www.mydomain.com/document.html');return true;&quot;{gtHTMLChar} 
+   <br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - using JavaScrip in OnLoad event​<br></dd><p class="ssw15-rteElement-CodeArea">​{ltHTMLChar}a href=&quot;http&#58;//www.mydomain.com/document.html&quot; target=&quot;_new&quot;{gtHTMLChar}Document{ltHTMLChar}/a{gtHTMLChar} </p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration​​<br></dd>
+<p class="ssw15-rteElement-CodeArea">{ltHTMLChar}a href=&quot;#&quot; onclick=&quot;window.open('http&#58;//www.mydomain.com/document.html');return false;&quot;{gtHTMLChar}Document{ltHTMLChar}/a{gtHTMLChar} </p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Using Javascript in an onclick event means you can force a popup window in preference to a new tab and also control the size and placement of the window</dd><p class="ssw15-rteElement-YellowBorderBox">We have a program called&#160;<a href="https&#58;//www.ssw.com.au/ssw/CodeAuditor/" target="_blank">SSW Code Auditor</a>&#160;to check for this rule.<br></p><p>​<br></p>
 
 
