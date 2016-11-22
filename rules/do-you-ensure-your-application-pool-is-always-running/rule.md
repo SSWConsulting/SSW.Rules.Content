@@ -25,7 +25,7 @@ authors:
          </dt><dd>Figure&#58; Preload setting</dd></dl></li></ol> ​ 
 <h3>Instructions below for IIS 7.5&#58;</h3>​ 
 <ol class="ol1"><li class="li2">On the application server install 
-      <a href="http&#58;//www.iis.net/downloads/microsoft/application-initialization"> 
+      <a href="http&#58;//www.iis.net/downloads/microsoft/application-initialization">
          <span class="s1">http&#58;//www.iis.net/downloads/microsoft/application-initialization</span></a> or it can be installed using the Web Platform installer</li><li class="li2">Open 
       <strong>Internet Information Services (IIS)</strong></li><li class="li2">Select the server&#160;</li><li class="li2">Scroll down and select 
       <strong>Configuration Editor</strong> 
@@ -45,7 +45,12 @@ authors:
       <dl class="image"><dt> 
             <img src="/PublishingImages/iis7-3.jpg" alt="" /> 
          </dt><dd>Figure&#58; Set &quot;start Mode&quot;</dd></dl></li><li class="li2">On the top right select 
-      <strong>Apply</strong></li><li>There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is located at c&#58;\windows\system32\inetsvr\config on a standard install of IIS. 
-      <p class="p4">I recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format&#58;</p><p class="ssw15-rteElement-CodeArea">&lt;add name=”Application Pool Name” managedRuntimeVersion=”v4.0″ /&gt;​</p></li><li class="li2">Save this file and perform an IISReset so that the change is read into the running memory of the IIS server.​</li></ol> ​
+      <strong>Apply</strong></li></ol><div> 
+   <b>
+      <br></b></div><div><h3>Alternative Instructions for IIS 7.5&#58;</h3> 
+   <b>
+      <br></b></div><ol class="ol1"><li>​​​There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is called appp​located at c&#58;\windows\system32\inetsvr\config on a standard install of IIS. 
+      <p class="p4">I recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format&#58;</p><p class="ssw15-rteElement-CodeArea">&lt;add name=”Application Pool Name” managedRuntimeVersion=”v4.0″ /&gt;​<br></p></li><li class="li2">​​add the Always Running mode by adding&#160;​startMode=&quot;AlwaysRunning&quot;​<br>
+   <p></p><p class="ssw15-rteElement-CodeArea">&lt;add name=”Application Pool Name” managedRuntimeVersion=”v4.0″&#160;<span style="color&#58;#ff3300;">startMode=&quot;AlwaysRunning&quot;</span><br>​ /&gt;​​<br></p></li><li class="li2">Save this file and perform an IISReset so that the change is read into the running memory of the IIS server.​<br></li></ol>
 
 
