@@ -13,8 +13,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p>To maintain the stability of your server and help protect against harmful attacks, your server should only be running necessary services, and all software should have the latest updates.</p><p>This includes&#58;​​<br></p> </span>
 
-
+<ul><li>Check that your operating system has the latest patches<br></li><li>Check the system for software updates​<br></li><li>Check system event logs for software error reports</li><li>Check the system is only running necessary services​<br></li></ul>
 
 
