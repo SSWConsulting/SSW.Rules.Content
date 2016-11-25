@@ -18,7 +18,7 @@ related:
 ---
 
 
-Email is a very powerful business tool. The main problem, however, is that for most people it is out of control - emails build up until they are impossible to manage. To help minimize mailbox clutter, try these tips&#58;&#160;​
+Email is a very powerful business tool. The main problem, however, is that for most people it is out of control - emails build up until they are impossible to manage. To help minimize mailbox clutter, try these tips&#58;&#160;​<br>
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li>Send emails that contain clear tasks, not banter </li>
 <li>If the email you receive is not clear, call up the person who sent it and ask for more information. Too many people reply to the unclear email asking for clarification, which wastes time and does not guarantee a response. </li>
@@ -27,6 +27,6 @@ Email is a very powerful business tool. The main problem, however, is that for m
 <p>Using your mailbox as a task list also saves you from having to use inefficient paper-based cards to track your tasks.</p>
 <img class="ms-rteCustom-ImageArea" alt="Bad email" src="/PublishingImages/EmailBad.gif" border="0" /><span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - A bad email is one that gives no clear action items</span> <img class="ms-rteCustom-ImageArea" alt="Good email" src="/PublishingImages/EmailGood.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - A good email has a clear next step action point</span>&#160; <p>It is better that <span style="text-decoration&#58;underline;">email is not used as communication</span>, but for many instances, if the person is unavailable, it is better to send the email, than not. If you can’t do an ‘<a href="/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx" shape="rect">as per our conversation</a>’ then add some text at the top of the email.&#160;e.g.</p>
 <p>&quot;As per the message I left on your phone…&quot; and detail the questions you would like answered.</p><p class="ssw15-rteElement-P">
-Make sure to number your tasks, if there is more than one, as per &quot;<a href="/Pages/NumberSmallTasks.aspx" shape="rect">Do you number small tasks related to 1 topic</a>?&quot;</p><p class="ssw15-rteElement-P"><b>VIDEO</b> - <a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10 Rules to Better Email Communication with Ulysses Maclaren</a>​<br></p>
+Make sure to number your tasks, if there is more than one, as per &quot;<a href="/Pages/NumberSmallTasks.aspx" shape="rect">Do you number small tasks related to 1 topic</a>?&quot;</p><p class="ssw15-rteElement-P"><b>VIDEO</b> - <a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+ Rules to Better Email Communication with Ulysses Maclaren</a>​<br></p>
 
 
