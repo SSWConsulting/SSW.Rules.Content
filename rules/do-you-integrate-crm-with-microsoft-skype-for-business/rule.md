@@ -21,6 +21,6 @@ related: []
 <span class="ms-rteCustom-FigureNormal">Figure&#58; SkypePOP advanced options</span>
 <p>This tool is vital for sales staff and receptionists as a minimum. 
    <br>Receptionists get the client record (based upon the inbound number) popup as the phone is ringing. They can answer the call accordantly. Sales staff has the ability to log the call in CRM along with what the call was about and also set a reminder for them to catch up in a few days.</p><p>Read more about 
-   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx"> implementing Microsoft Lync</a>.<br></p><h3 class="ssw15-rteElement-H3">SkypePOP​​ Setup​​</h3><p>​​<img src="/SiteAssets/do-you-integrate-crm-with-microsoft-lync/SkypePOPSetupConnection.jpg" alt="SkypePOPSetup.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Good example - use the discovery service of your CRM<br></dd><br><br>
+   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx"> implementing Microsoft Lync</a>.<br></p><h3 class="ssw15-rteElement-H3">SkypePOP​​ Setup​​<br></h3><p>​​​<img src="/SiteAssets/do-you-integrate-crm-with-microsoft-lync/2016-12-02_15-14-23.jpg" alt="2016-12-02_15-14-23.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Good example - use the discovery service of your CRM (connect using &lt;yourname&gt;@&lt;yourdomain&gt; as a username)<br></dd><br><br>
 
 
