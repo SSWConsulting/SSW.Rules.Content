@@ -15,8 +15,9 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <dd class="ssw15-rteElement-FigureBad">Bad example&#58; use the out of the box pull requests to ensure all code is reviewed<br></dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; Use the plugin &quot;Reviewable&quot;</dd>Reviewable improves pull requests and code reviews with a powerful UI and easy code commenting.<br> </span>
 
-
+<dl class="image"><dt>​​<img src="/PublishingImages/github-pullrequest-1.png" alt="github-pullrequest-1.png" /></dt><dd>Figure&#58; see the Reviewable icon</dd></dl><dl class="image"><dt>​​<img src="/PublishingImages/github-pullrequest-2.png" alt="github-pullrequest-2.png" /></dt><dd>Figure&#58; see how easy it is to see the code rejected</dd></dl>
+​​<br>
 
 
