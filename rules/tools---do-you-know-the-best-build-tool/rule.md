@@ -13,8 +13,10 @@ authors:
 
 
 
-<span class='intro'> Building, bundling and compiling Angular 2 applications can get complicated. You need great build tools.<br> </span>
+<span class='intro'> Building, bundling and compiling Angular&#160;applications can get complicated. You need great build tools.<br> </span>
 
-<dl class="badImage"><dt>​​​<img src="/PublishingImages/gulp.png" alt="gulp.png" /></dt><dd>Figure&#58; Bad Example - Gulp requires hundreds of lines of config to build and bundle Angular 2 applications</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/cli.png" alt="cli.png" style="width&#58;400px;" /></dt><dd>Figure&#58; Go​od Example - Use the The Angular CLI on all new projects. The Angular CLI generates components, routes, services and pipes, follows our best practices as well as building applications for production </dd></dl><br><br>
+<dl class="badImage"><dt> <img src="/PublishingImages/gulp.png" alt="gulp.png" /> </dt><dd>Figure&#58; Bad Example - Gulp requires hundreds of lines of config to build and bundle Angular applications<br></dd></dl><dl class="goodImage"><dt> <img src="/PublishingImages/webpack.png" alt="webpack.png" /> <br> 
+   </dt><dd>Figure&#58; Good Example - Webpack is an open-source JavaScript module bundler that can be used to build your application (and lots more as well). Teams with advanced build requirements use Webpack. The downside of Webpack is that it requires a large investment in learning Webpack - if it isn't required, the Angular CLI is a better choice</dd></dl><dl class="goodImage"> <dt> <img src="/PublishingImages/cli.png" alt="cli.png" style="width&#58;400px;" /> </dt><dd>Figure&#58; Good Example - Use the&#160;Angular CLI on all new projects that don't require custom Webpack builds. The Angular CLI generates components, routes, services, and pipes, follows&#160;best practices as well as building applications for production. The Angular CLI build includes best practices including Tree Shaking and Ahead of Time (AoT) compilation out of the box! The Angular CLI uses Webpack&#160;under the covers and the ability to customize the Webpack build is currently under development<br>​<br></dd> <br> 
+<br></dl>
 
 
