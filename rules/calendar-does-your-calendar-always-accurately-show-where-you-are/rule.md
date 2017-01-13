@@ -14,14 +14,14 @@ redirects: []
 ---
 
 
-<p>​The follow steps will help you to setup your calendar to allow us track your current availabilities and improve our team collaboration.</p>
+<p>​​The following steps will help you to setup your calendar to allow us track your current availabilities and improve our team collaboration.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p><strong>Step 1&#58;</strong> Set your work hours in Outlook<br>
              Read rule&#58; <a href="/Pages/Set-your-work-hours-in-your-calendars.aspx">Do you set your work hours in your Calendars?</a>
             </p>
             <p>
             <strong>Step 2&#58;</strong> Set your work hours in CRM<br>
-            Read rule&#58; <a href="/scheduling-do-you-know-how-to-book-developers-for-a-project">Do you set your work hours in CRM / Users? </a>
+            Read rule&#58; <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d51b4fd0-dc73-4e51-a6fd-e2354b6add89">Do you set your work hours in CRM / Users? </a>
             </p>
             <p>
             <strong>Step 3&#58;</strong> Share your outlook calendar with everyone<br>
