@@ -17,13 +17,13 @@ authors:
                     It's often quoted in marketing circles that it costs between 60% and 600% more to
                     sell to new clients as opposed to existing ones. It makes sense then to nurture
                     your existing client relationships.
-                </p> </span>
+                <br></p> </span>
 
 <p>There are two strategies that need to be employed here&#58;</p>
 <h4>Keep your current clients happy​</h4>
                 <p>Feedback has been received&#160;from larger clients in the past that they expect regular
-                    checkups and guidance from senior staff. A nice informal way to arrange this is
-                    to buy your client lunch one a month. You can review the project for half an hour,
+                    check-ups​ and guidance from senior staff. A nice informal way to arrange this is
+                    to buy your client lunch once&#160;a month. You can review the project for half an hour,
                     then grab a bite to eat. The review should cover the project as a whole, any niggling
                     problems, and discuss any upcoming projects. You should&#160;do this review free of charge.
                 </p>
