@@ -15,7 +15,7 @@ authors:
 
 <span class='intro'> <p>
                     The first meeting is on you. While you&#160;have&#160;1 - 2 hours to provide the prospective
-                    client with enough information to decide whether to pursue a <a href="/rules">Spec Review</a>, the focus
+                    client with enough information to decide whether to pursue a <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=8d7b1fab-5923-4e07-8da2-ba906053c056">Spec Review</a>, the focus
                     of the initial meeting is the client, their problem, and how you&#160;might build
                     a solution. </p><p>The best way to action this is to ask questions, listen and take notes&#58;
                     Clients appreciate someone genuinely considering their needs. A brainstorming session
@@ -41,7 +41,7 @@ authors:
                     <li>Listen - Understand as much as you can about the processes/business rules the system has
                         to manage. Every level of detail you can correctly comprehend and confirm back builds
                         your credibility as a good communicator&#160;and supplier!</li>
-                    <li>Listen - Assess the overall scope of the project, i.e. is this is 'small', 'medium' or 'large'
+                    <li>Listen - Assess the overall scope of the project, i.e. is this a&#160;​'small', 'medium' or 'large'
                         project. The attending Architect should start guessing how many man months this project
                         might be. This information will help you assess how long the spec review should be.
                         These initial thoughts should not be shared with the client at this stage as they
