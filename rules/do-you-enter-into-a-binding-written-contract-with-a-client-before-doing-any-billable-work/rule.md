@@ -16,12 +16,12 @@ redirects: []
 ---
 
 
-<p>Before you&#160;engage&#160;in any billable work, the two parties must enter into a binding
+<p>​Before you&#160;engage&#160;in any billable work, the two parties must enter into a binding
                     written contract. This ensures contractual obligations are clear on both sides,
                     mitigating the potential for disagreements down the line and protecting both you                   and the client in the event of a disagreement. Binding contracts can take the form
-                    of Terms and Conditions, Emails and Instant Messenger and or even verbal
+                    of Terms and Conditions, Emails and Instant Messenger or even verbal
                     agreements.
-                </p>
+                <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul>
                     <li><strong>Terms and Conditions</strong>
@@ -56,9 +56,9 @@ redirects: []
                     </p></li>
                     </ul>
             <ul>
-                <li><a href="/do-you-prepare-then-confirm-conversations-decisions">Do you
+                <li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2b86d144-7041-41f3-92aa-d7d59b88149a">Do you
                     prepare then confirm conversations/decisions?</a></li>
-                <li><a href="/dones-do-you-send-yourself-emails">Do you send
+                <li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=5c16d531-007d-49ef-8acc-b26596e13e84">Do you send
                     yourself emails?</a></li>
                 <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ImportantChatsEmail">
                     Do you confirm important IM chats by email</a></li>
