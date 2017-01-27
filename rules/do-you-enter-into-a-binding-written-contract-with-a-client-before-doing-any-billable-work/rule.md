@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>​Before you&#160;engage&#160;in any billable work, the two parties must enter into a binding
+<span class='intro'> <p>​​Before you&#160;engage&#160;in any billable work, the two parties must enter into a binding
                     written contract. This ensures contractual obligations are clear on both sides,
                     mitigating the potential for disagreements down the line and protecting both you                   and the client in the event of a disagreement. Binding contracts can take the form
                     of Terms and Conditions, Emails and Instant Messenger or even verbal
@@ -48,7 +48,7 @@ authors:
                     <p>The most common form of mini-contract is a confirmation email.<br>​Electronic communication such as email and Instant Messenger are extremely useful
                         in getting decisions confirmed quickly but it is important to follow strict standards
                         to ensure any agreements are clear to everyone. You should not generally rely upon
-                        verbal agreements, always confirming anything agreed verbally in writing. The following
+                        verbal agreements, always confirm&#160;anything agreed verbally in writing. The following
                         are important rules to follow&#58;
                     </p></li>
                     </ul>
