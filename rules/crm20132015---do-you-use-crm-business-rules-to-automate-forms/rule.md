@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p class="p1">​Prior to CRM 2013 if a CRM user wanted to&#58;</p><ul class="ul1"><li class="li3">Show an error message</li><li class="li3">Set a field value</li><li class="li3">Set business required</li><li class="li3">Set field visibility (show/hide fields)</li><li class="li3">Lock or unlock a field&#160;</li></ul><p class="p1">They would normally need to get a CRM developer involved to write JavaScript code to automate these actions.</p><p class="p1">Starting with CRM 2013 (and much improved in CRM 2015), users can now use Business Rules to automate these actions without getting a CRM developer involved.</p>
+<p class="p1">​Prior to CRM 2013 if a CRM user wanted to&#58;<br></p><ul class="ul1"><li class="li3">Show an error message</li><li class="li3">Set a field value</li><li class="li3">Set business required</li><li class="li3">Set field visibility (show/hide fields)</li><li class="li3">Lock or unlock a field&#160;</li></ul><p class="p1">They would normally need to get a CRM developer involved to write JavaScript code to automate these actions.</p><p class="p1">Starting with CRM 2013 (and much improved in CRM 2015), users can now use Business Rules to automate these actions without getting a CRM developer involved.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p class="p1">​​Take the following Example&#58;</p><dl class="image"><dt> 
       <img src="/PublishingImages/crm-automated-forms-1.png" alt="" /> 
@@ -21,7 +21,7 @@ related: []
       <img src="/PublishingImages/crm-automated-forms-2.png" alt="" /> 
    </dt><dd>Figure&#58; Show the ‘Customer Type Other’ field when Customer Type equals Other</dd></dl><p class="p1">The flip side of the expression also needs to be set where Customer Type doesn’t equal Other to hide the ‘Customer Type Other’ field (you could also optionally clear this field too)</p><dl class="image"><dt> 
       <img src="/PublishingImages/crm-automated-forms-3.png" alt="" /> 
-   </dt><dd>igure&#58; Hide the ‘Customer Type Other’ field when Customer Type doesn’t equal Other</dd></dl><p class="p1">Finally the last step is to 
+   </dt><dd>Figure​&#58; Hide the ‘Customer Type Other’ field when Customer Type doesn’t equal Other<br></dd></dl><p class="p1">Finally the last step is to 
    <strong>Activate</strong> the Business Rules. To activate click the activate button on the top right of the tool bar.</p><p class="p1">Now the form will look like this&#58;</p><dl class="image"><dt> 
       <img src="/PublishingImages/crm-automated-forms-4.png" alt="" /> 
    </dt><dd>Figure&#58; Great. Now ‘Customer Type Other’ is hidden</dd></dl><dl class="image"><dt> 
