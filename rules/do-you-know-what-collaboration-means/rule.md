@@ -14,12 +14,9 @@ redirects: []
 ---
 
 
-Among other things it means never sending attachments in an email. Once an attachment is included in an email there are multiple copies of that attachment. If people change the contents of the attachment there is confusion about who holds the &quot;master version&quot; of that file. 
-
+Among other things,​ it means never sending attachments in an email. Once an attachment is included in an email there are multiple copies of that attachment. If people change the contents of the attachment there is confusion about who holds the &quot;master version&quot; of that file. <br>
 <br><excerpt class='endintro'></excerpt><br>
-SharePoint changes this by allowing you to easily email a link to a SharePoint file. This means all recipients review and edit the single &quot;master version&quot; of the file. <br>
-<img alt="" src="/PublishingImages/SharePoint-EmailaLink.jpg" /><br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example&#58; Email a link, not a file</font> 
-
+SharePoint changes this by allowing you to easily email a link to a SharePoint file. This means all recipients review and edit the single &quot;master version&quot; of the file. <dl class="goodImage"><dt> <img src="/PublishingImages/share-link1.jpg" alt="share-link1.jpg" /> <br>
+</dt><dt> <img src="/PublishingImages/share-link2.jpg" alt="share-link2.jpg" /> </dt><dd>Figure&#58; Good example&#58; Email a link, not a file</dd> </dl>
 
 
