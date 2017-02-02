@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <h3 class="ssw15-rteElement-H3">Cross platform</h3>.NET Core works on multiple platforms like MacOS, Linux and Windows. So developers can code on their operating system of choice using Visual Studio, Visual Studio for Mac or Visual Studio Code, working on the same code base as developers on a different operating system, and best of all they can also deploy to Linux.<h3 class="ssw15-rteElement-H3">Performance<br></h3>.NET Core is fast, and you get that performance out of the box.<br> </span>
+<span class='intro'> <h3 class="ssw15-rteElement-H3">Cross platform<br></h3>.NET Core works on multiple platforms like MacOS, Linux and Windows. So developers can code on their operating system of choice using Visual Studio, Visual Studio for Mac or Visual Studio Code, working on the same code base as developers on a different operating system, and best of all they can also deploy to Linux.<h3 class="ssw15-rteElement-H3">Performance<br></h3>.NET Core is fast, and you get that performance out of the box.<br> </span>
 
 <dl class="image"><dt>
    <img src="/PublishingImages/dotnet-core-performance.jpg" alt="dotnet-core-performance.jpg" />
