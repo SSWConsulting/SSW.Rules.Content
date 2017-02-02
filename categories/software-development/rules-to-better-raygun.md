@@ -10,6 +10,6 @@ index:
 - do-you-know-what-errors-to-filter-out
 
 ---
-<p>​​RayGun is a paid&#160;cloud based application monitoring product that does Crash Reporting and User Monitoring for your web or mobile&#160;application. Raygun makes triaging and reporting exceptions in your application easy by grouping the exceptions and tracking them against deployments so you can easy see if they are new exceptions, recurring exceptions or regressions.​<br></p>
-
+<p>​​RayGun is a paid&#160;cloud based application monitoring product that does Crash Reporting and User Monitoring for your web or mobile&#160;application. Raygun makes triaging and reporting exceptions in your application easy by grouping the exceptions and tracking them against deployments so you can easy see if they are new exceptions, recurring exceptions or regressions.​<br><br></p>
+<p>​</p>​<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/2biKJboCoE4" frameborder="0"></iframe>&#160;</div><p>​<br><br></p>
 
