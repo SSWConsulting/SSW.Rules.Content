@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>(Before you configure continuous deployment) Y ou need to ensure that the code that you have on the server compiles. A successful CI build without deployment lets you know the solution will compile.<br></p> </span>
+<span class='intro'> <p>​(Before you configure continuous deployment) You need to ensure that the code that you have on the server compiles. A successful CI build without deployment lets you know the solution will compile.<br></p> </span>
 
 <dl class="image"><dt>
       <img src="/PublishingImages/ci-build-1.jpg" alt="" />
