@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>​When exceptions occur in CRM they are trapped by the platform layer and a standard error message is displayed to the user. At SSW we similarly implement exception handling and use <a href="/do-you-catch-and-re-throw-exceptions-properly"> SSW Code Auditor to audit exception handling</a>.</p>
+<span class='intro'> <p>​​When exceptions occur in CRM they are trapped by the platform layer and a standard error message is displayed to the user. At SSW we similarly implement exception handling and use <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d700d2a5-872d-4fbd-acb7-1e2a2df1f07e"> SSW Code Auditor to audit exception handling</a>.</p>
                  </span>
 
 <p>By turning DevErrors on (mainly applicable to CRM 3 and 4) you will obtain the actual error. This is what that will be posted onto newsgroups. Microsoft Support should also ask you for this information, so you probably cannot do any meaningful troubleshooting until this has been activated. To switch DevErrors on, open the web.config and change DevErrors value =&quot;On&quot;.</p>
