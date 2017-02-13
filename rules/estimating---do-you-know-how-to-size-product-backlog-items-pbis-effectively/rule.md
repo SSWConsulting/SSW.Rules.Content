@@ -19,7 +19,7 @@ related: []
 ---
 
 
-<p>​A team knows how many stories they can commit to my measuring their velocity.&#160;The Team estimates the highest priority stories in the Product Backlog in Story Points. ​It is very important for teams to estimate tasks effectively.&#160;There are several methods for estimating&#58; <br></p><ul><li>Shirt Sizes</li><li>Fibonacci Extended (1-100)</li><li>Fibonacci Original&#160;(1-21)</li><li>Doubling</li><li>Thr​own </li></ul>
+<p>​​A team knows how many stories they can commit to by measuring their velocity.&#160;The Team estimates the highest priority stories in the Product Backlog in Story Points. ​It is very important for teams to estimate tasks effectively.&#160;There are several methods for estimating&#58; <br></p><ul><li>Shirt Sizes</li><li>Fibonacci Extended (1-100)</li><li>Fibonacci Original&#160;(1-21)</li><li>Doubling</li><li>Thr​own </li></ul>
 
 <br><excerpt class='endintro'></excerpt><br>
 <p>Let's go through them&#58;</p><h3>Shirt Sizes</h3><p>This method is popular with Microsoft teams, but it has the problem of not easily mapping to the common 7 numbers when you enter it into a Task tracking Bug database. eg.</p><blockquote dir="ltr" style="margin-right&#58;0px;"><p class="ssw15-rteElement-GreyBox">1 = XS<br>2 = S<br>4 = M<br>8 = L<br>16 = XL<br>32 = XXL<br>64 = XXXL​<br></p><p>
