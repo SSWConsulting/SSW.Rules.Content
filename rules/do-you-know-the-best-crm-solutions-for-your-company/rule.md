@@ -17,7 +17,7 @@ redirects: []
 ---
 
 
-There are a lot of different CRM solutions on the market.&#160;We would never suggest to develop a CRM solution from scratch. Instead pick an existing solution and customize it for your needs.<br>
+​There are a lot of different CRM solutions on the market.&#160;We would never suggest to develop a CRM solution from scratch. Instead pick an existing solution and customize it for your needs.<br>
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -26,7 +26,7 @@ There are a lot of different CRM solutions on the market.&#160;We would never su
     <li><a title="Salesforce" href="http&#58;//www.salesforce.com/crm/" target="_blank">Salesforce&#160;</a> </li>
     <li><a title="Microsoft CRM " href="https&#58;//www.ssw.com.au/ssw/Consulting/MicrosoftCRM.aspx" target="_blank">Microsoft CRM</a> </li>
 </ul>
-<p>At SSW we implemented a lot of CRM serices based on Microsoft CRM. <br>
+<p>At SSW we implemented a lot of CRM services based on Microsoft CRM. <br>
 The experience with this solution showed us high trust in using MS CRM as a base for future business needs.<br>
 <br>
 But, we still have a couple of feature and <a title="SSW Microsoft CRM Suggestions" href="http&#58;//www.ssw.com.au/SSW/Standards/BetterSoftwareSuggestions/CRM.aspx" target="_blank">software suggestions for Microsoft CRM</a> <br>
