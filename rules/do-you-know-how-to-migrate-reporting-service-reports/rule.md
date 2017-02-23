@@ -19,8 +19,7 @@ authors:
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=ed18874b-3724-4388-8411-45f27f63f909">Do you know which reports are being used?</a></li><li>Find&#160;creators of those reports, by clicking “Detail Views” in reports folder
       <dl class="image"><dt>
             <img src="/SiteAssets/do-you-know-how-to-migrate-reporting-service-reports/detailsview.png" alt="detailsview.png" style="width&#58;750px;" />
-         </dt><dd>Figure&#58; Find reports creators by clicking &quot;Details View&quot; inside report folder</dd></dl></li><li>Send an email to ask permission&quot;&gt; 
-      <dl class="image"><dt> 
+         </dt><dd>Figure&#58; Find reports creators by clicking &quot;Details View&quot; inside report folder</dd></dl></li><li>Send an email to report creater&#160;ask for&#160;permission to delete&#160;<br><dl class="image"><dt> 
             <img src="/SiteAssets/do-you-know-how-to-migrate-reporting-service-reports/sent.png" alt="sent.png" style="width&#58;750px;" /> 
          </dt><dd>&#160;Figure&#58;&#160;&#160;Send an email to ask permission</dd></dl><dl class="image"><dt> 
             <img src="/SiteAssets/do-you-know-how-to-migrate-reporting-service-reports/receive.png" alt="receive.png" style="width&#58;750px;height&#58;327px;" /> 
