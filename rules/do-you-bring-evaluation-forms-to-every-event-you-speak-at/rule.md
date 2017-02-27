@@ -16,8 +16,8 @@ redirects: []
 ---
 
 
-<p>The best way to find out how your clients and customers think about you is to ask them. If you're not up to putting your pride on the line by asking them yourself then the next best way is to use surveys or evaluation forms. It's discrete, impartial and gives the evaluator a chance to add comments that may be difficult to say to you in person.</p>
+<p>​The best way to find out how your clients and customers think about you is to ask them. If you're not up to putting your pride on the line by asking them yourself then the next best way is to use surveys or evaluation forms. It's discrete, impartial and gives the evaluator a chance to add comments that may be difficult to say to you in person.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​​At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results. Take a look at our&#160;<a href="http&#58;//www.ssw.com.au/ssw/standards/forms/evaluationSurvey.pdf">Speakers and Presentation Evaluation Form</a>.​</p>
+<p>​​At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results. Take a look at our&#160;<a href="https&#58;//www.ssw.com.au/ssw/standards/forms/SSWEvaluationSurvey.pdf">Speakers and Presentation Evaluation Form</a>.​</p>
 
 
