@@ -17,7 +17,7 @@ related: []
 ---
 
 
-<p>You can communicate better by using screenshots with balloons and other visual&#160;elements (arrows, shapes, and highlights) instead of only text. <a href="/Pages/HowToUseBalloons.aspx">Read the benefits of using screenshots here</a>.</p>
+<p>​You can communicate better by using screenshots with balloons and other visual&#160;elements (arrows, shapes, and highlights) instead of only text. <a href="/Pages/HowToUseBalloons.aspx">Read the benefits of using screenshots here</a>.</p>
 ​<span></span><span></span>
    <p>We recommend you define a standard style for your visual elements by changing the default colours and shapes&#160;according to your branding.</p><h3 class="ssw15-rteElement-H3">More Information on SSW Branding<br></h3><dl class="badImage"><dt> <img src="/PublishingImages/snagit-bad-branding.jpg" alt="snagit-bad-branding.jpg" style="margin&#58;5px;" /> </dt><dd>Figure&#58; Bad example - The&#160;balloon doesn't match our company&#160;colours<br></dd></dl><dl class="goodImage"><dt> <img src="/PublishingImages/snagit-good-branding.jpg" alt="snagit-good-branding.jpg" data-pin-nopin="true" style="margin&#58;5px;" /> <br>
       </dt><dd>Figure&#58; Good example - Balloon follows SSW branding<br></dd></dl>
