@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive" unselectable="on"> 
+<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"> 
    <iframe width="560" height="315" src="https&#58;//www.youtube.com/embed/-FvYcZ70VHY" frameborder="0"></iframe>&#160;</div>​​
 <div>
    <br>​</div>
