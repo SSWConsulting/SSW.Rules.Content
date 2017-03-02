@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>ASP.NET MVC provides the <a href="http&#58;//www.google.com.au/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CBQQFjAA&amp;url=http&#58;//msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx&amp;ei=1ZBrTN2_LMjIcbOgpVU&amp;usg=AFQjCNEHsdmOFBGQVLASZUrcBHMvch4x-g" target="_blank">AuthorizeAttribute</a> which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged in user exists in code as the authorisation itself doesn’t need to be repeated.</p>
+<p>ASP.NET MVC provides the <a href="https&#58;//msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx" target="_blank">AuthorizeAt​tribute</a> which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged-in user exists in code as the authorisation itself doesn’t need to be repeated.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt><div class="greyBox"><pre>public ActionResult Delete(string tagName)
 &#123;
