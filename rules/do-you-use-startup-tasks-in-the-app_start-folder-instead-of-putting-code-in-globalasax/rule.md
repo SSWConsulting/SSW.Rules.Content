@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>Adding code to the Application_Start method in the Global.asax file is the easiest and most straight-forward approach for executing startup logic, however this code should be encapsulated in static methods outside the Global.asax file.  Doing this helps provide cleaner code and encourages proper adherence to the Single Responsibility principle.</p> </span>
+<span class='intro'> <p>Adding code to the Application_Start method in the Global.asax file is the easiest and most straight-forward approach for executing startup logic, however,​ this code should be encapsulated in static methods outside the Global.asax file. Doing this helps provide cleaner code and encourages proper adherence to the Single Responsibility principle.<br></p> </span>
 
 <dl class="badImage"><dt><div class="greyBox"><pre>public class MvcApplication &#58; System.Web.HttpApplication
 &#123;
@@ -42,9 +42,6 @@ authors:
     &#125;
 &#125;
 </pre></div><br>
-      <img src="/PublishingImages/startup-task.jpg" alt="" />
-   </dt><dd>Figure&#58; Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder</dd></dl><p>
-   <strong>Note&#58;</strong> You can also use the 
-   <a href="http&#58;//nuget.org/packages/WebActivator/">WebActivator Nuget package</a> to avoid putting any code in your Global.asax at all.&#160; This is particularly useful for creating your own Nuget packages that need to execute code on startup of the application.</p>
+      <img src="/PublishingImages/startup-task.jpg" alt="" /> </dt><dd>Figure&#58; Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder​<br><br></dd></dl>
 
 
