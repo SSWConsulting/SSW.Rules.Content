@@ -15,8 +15,8 @@ authors:
 
 <span class='intro'> <p>Before starting a software project and evaluating a new technology, it is important to know what the best practices are. The easiest way to get up and running is by looking at a sample application. Below are a list of sample applications that we’ve curated and given our seal of approval.<br></p> </span>
 
-<h4>SQL Server</h4><ul><li><b>AdventureWorks &amp; Northwind</b> – 
-      <a href="https&#58;//msftdbprodsamples.codeplex.com/">https&#58;//msftdbprodsamples.codeplex.com</a>&#160;​</li></ul><h4>ASP.NET MVC + WebAPI</h4><ul><li><b>MVC Music Store</b> - 
+<h4>SQL Server (2014 and below)<br></h4><ul><li><b>AdventureWorks &amp; Northwind</b> – 
+      <a href="https&#58;//msftdbprodsamples.codeplex.com/">https&#58;//msftdbprodsamples.codeplex.com</a>&#160;​<br></li></ul><h4>SQL Server 2016 and Azure SQL Database<br></h4><ul style="text-align&#58;left;"><li>​​​<strong>WideWorldImporters Sample Database</strong> -&#160;<a href="https&#58;//github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers">https&#58;//github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers</a><br></li></ul><h4>ASP.NET MVC + WebAPI</h4><ul><li><b>MVC Music Store</b> - 
       <a href="http&#58;//mvcmusicstore.codeplex.com/">http&#58;//mvcmusicstore.codeplex.com/</a>&#160;​<br><span style="background-color&#58;initial;">Nice simple sample of ASP.NET MVC with Entity Framework</span></li><li><b>MyCompany Demo</b> - 
       <a href="http&#58;//aka.ms/mycompanyapps">http&#58;//aka.ms/mycompanyapps</a>&#160; &#160;&#160;<br><span style="background-color&#58;initial;">More complicated sample showing off a lot of technologies as well as mobile platform</span></li><li><b>Enterprise MVC Music Store</b> - 
       <a href="https&#58;//github.com/SSWConsulting/enterprise-musicstore-mvc4">https&#58;//github.com/SSWConsulting/enterprise-musicstore-mvc4</a> &amp; 
