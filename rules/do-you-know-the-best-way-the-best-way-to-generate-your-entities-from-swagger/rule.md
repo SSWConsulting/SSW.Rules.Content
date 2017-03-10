@@ -17,9 +17,11 @@ authors:
 
 <span class='intro'> <p>To generate entities from a&#160;swagger rest definition a tool can automate this.​<br></p><p>There are 2 main ones&#58;​<br></p> </span>
 
-<ol><li>
-      <a href="https&#58;//github.com/Azure/autorest%22%20%5co%20%22https&#58;//github.com/Azure/autorestCtrl+Click%20or%20tap%20to%20follow%20the%20link" target="_blank">https&#58;//github.com/Azure/autorest</a></li><li>
-      <a href="https&#58;//github.com/NSwag/NSwag/wiki/NSwagStudio" target="_blank">https&#58;//github.com/NSwag/NSwag/wiki/NSwagStudio</a>​<br></li></ol><dl class="badImage"><dt><img src="/PublishingImages/autorest-search.jpg" alt="autorest-search.jpg" />​</dt>
-<dd>Figure&#58; Bad example - only around 1000 results</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/nswagstudio-search.jpg" alt="nswagstudio-search.jpg" /></dt><dd>Figure&#58; Good example - 130,000+ results</dd></dl>
+<ol><li> 
+      <a href="https&#58;//github.com/Azure/autorest%22%20%5co%20%22https&#58;//github.com/Azure/autorestCtrl+Click%20or%20tap%20to%20follow%20the%20link" target="_blank">https&#58;//github.com/Azure/autorest</a></li><li> 
+      <a href="https&#58;//github.com/NSwag/NSwag/wiki/NSwagStudio" target="_blank">https&#58;//github.com/NSwag/NSwag/wiki/NSwagStudio</a>​<br></li></ol><dl class="badImage"><dt><img src="/PublishingImages/nswagstudio-search.jpg" alt="nswagstudio-search.jpg" />​
+      ​</dt><dd>Figure&#58; Bad example - only around 1000 results</dd></dl><dl class="goodImage"><dt>
+      <img src="/PublishingImages/autorest-search.jpg" alt="autorest-search.jpg" />
+   </dt><dd>Figure&#58; Good example - 130,000+ results</dd></dl>
 
 
