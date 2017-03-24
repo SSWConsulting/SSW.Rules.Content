@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<div>Multi-select listboxes are the bane of a graphical user interface, they have a number of behavioral quirks that make it difficult for users to get used to them&#58;</div>
+<div>Multi-select listboxes are the bane of a graphical user interface, they have a number of behavioral quirks that make it difficult for users to get used to them&#58;<br></div>
 <ul><li>They require users to know that you select more than one entry by holding down the Ctrl key</li>
 <li>They lose all selections if you click in the wrong place.</li>
 <li>You can't tell if a Listbox is single-select or multi-select at first glance.</li></ul>
@@ -54,7 +54,7 @@ related: []
                      <input id="cblList_8" type="checkbox" />
                      <label>Item 9</label></td></tr><tr><td>
                      <input id="cblList_9" type="checkbox" />
-                     <label>Item 10</label></td></tr></tbody></table></div></dt><dd>Figure&#58; Good Example - The beauty of the CheckListBox in ASP.NET</dd></dl> We have a program called 
-<a href="http&#58;//www.ssw.com.au/ssw/codeauditor/">SSW Code Auditor</a> to check for this rule.
+                     <label>Item 10</label></td></tr></tbody></table></div></dt><dd>Figure&#58; Good Example - The beauty of the CheckListBox in ASP.NET</dd></dl><p class="ssw15-rteElement-YellowBorderBox"> We have a program called 
+<a href="https&#58;//www.ssw.com.au/ssw/codeauditor/">SSW Code Auditor</a> to check for this rule.​​​<br></p>
 
 
