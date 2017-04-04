@@ -15,6 +15,6 @@ authors:
 
 <ul><li>
       <a href="https&#58;//www.skype.com/" target="_blank"><b>Skype</b></a><br></li><li>
-      <a href="https&#58;//slack.com/" target="_blank"><b>Slack​</b></a><br></li></ul>
+      <b><a href="https&#58;//slack.com/" target="_blank">Slack​</a></b><br></li></ul><div>Hopefully&#160;<a href="https&#58;//teams.microsoft.com/">Microsoft Teams</a>&#160;and&#160;<a href="https&#58;//workplace.fb.com/">Workplace by Facebook</a>&#160;will take the lead, we need more app integrations to come e.g. Zapier.</div><div>We think <a href="https&#58;//www.yammer.com/">Yammer​</a>&#160;could soon be decommissioned to reduce confusion.<br><br></div>
 
 
