@@ -15,10 +15,9 @@ redirects: []
 
 
 
-  <p>Software development can be painful and costly. Hang on, that should say</p>
+  <p>Software development can be painful and costly. Hang on, that should say<br></p>
 <p>&#160;&#160;&#160; &#160;&quot;Software development IS painful and costly.&quot; </p>
-<p>Well, not always, but it has been observed that in 1999&#58; &quot;75% of all development projects missed their target release date or never shipped at all.&quot; <br>
-<br>
+<p>There's no doubt custom software development is a challenging industry. According to the Standish Group Report, 1999&#58; Nearly 75% of all development projects missed their target release date or never ship at all. But what I find so interesting is that at least 7 of the 10 most common signs of product development failure are present&#160;before&#160;the design is created or a single line of code is written. (John S. Reel 1999).​<br>​<br>
 Projects often fail because clients think suppliers under-deliver and over-charge. The client and the supplier have different expectations about the goals of the project. This difference of opinion often leads to a project's absolute failure. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
