@@ -15,8 +15,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+​[insert video - Part A]<br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p><br><br></p>
 
 
