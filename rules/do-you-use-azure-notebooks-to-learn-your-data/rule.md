@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> ​[insert video - Part A]<br> </span>
 
-
+<p><br><br></p>
 
 
