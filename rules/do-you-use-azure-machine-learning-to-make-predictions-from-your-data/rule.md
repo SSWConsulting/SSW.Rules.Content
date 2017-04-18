@@ -13,8 +13,8 @@ related: []
 ---
 
 
-Enter Intro Text
+[insert video - Part B]<br><br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p><br><br></p>
 
 
