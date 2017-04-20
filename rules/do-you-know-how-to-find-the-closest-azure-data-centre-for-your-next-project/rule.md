@@ -11,8 +11,12 @@ authors:
 
 
 
-<span class='intro'> <p class="p1">Here’s a cool site that pings all the Azure DC’s from your machine. It can be used to work out which Azure Data Centre is best for your project based on the target user audience&#58;&#160;<a href="http&#58;//azureping.info/" style="line-height&#58;1.6;">http&#58;//azureping.info/</a><span style="line-height&#58;1.6;">​</span></p> </span>
+<span class='intro'> <p class="p1"><span style="line-height&#58;1.6;">Here's a cool site that tests the latency of &#160;Azure Data Centres from your machine. It can be used to work out which Azure Data Centre is best for your project based on the target user audience&#58;&#160;<a href="http&#58;//www.azurespeed.com/" target="_blank">http&#58;//www.azurespeed.com</a>​<br></span></p> </span>
 
-<dl class="image"><dt>​<img src="/PublishingImages/azureping.png" alt="azureping.png" style="width&#58;600px;" /></dt><dd>Figure&#58; Azure Ping returns Azure DC latency</dd></dl>
+<p>As well as testing latency it has additional tests that come in handy like&#58; 
+   <br></p><ul><li>CDN Test</li><li>Upload Test</li><li>Large File Upload Test</li><li>Download Test 
+      <br></li></ul><dl class="image"><dt>
+      <img src="/PublishingImages/azure-speed.jpg" alt="azure-speed.jpg" />
+   </dt><dd>Figure&#58; AzureSpeed.com example​<br></dd></dl>
 
 
