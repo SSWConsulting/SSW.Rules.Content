@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> [insert video - Part B]<br><br> </span>
+<span class='intro'> Azure Machine Learning provides an easy to use yet feature rich platform for conducting machine learning experiments. &#160;This introduction provides an overview of ML Studio functionality, and how it can be used to model and predict interesting rule world problems.​<br><br> </span>
 
-<p><br><br></p>
+<iframe width="560" height="315" src="https&#58;//www.youtube.com/embed/sUN5eIfbVM0?start=4120" frameborder="0"></iframe>​<br>
 
 
