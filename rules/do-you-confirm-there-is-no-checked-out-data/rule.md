@@ -17,7 +17,7 @@ related: []
 ---
 
 
-<p><br><br></p><p class="p1">One of the annoying things with SharePoint document libraries is that users often accidentally leave checked out files, that preventing others from modifying them.​</p><p class="p1">Suggestion to Microsoft&#58; send an email to the user to remind them they have outstanding checkouts potentially blocking other users.</p><dl class="image"><dt>
+<p>​<br></p><p class="p1">One of the annoying things with SharePoint document libraries is that users often accidentally leave checked out files, that preventing others from modifying them.​​<br></p><p class="p1">Suggestion to Microsoft&#58; send an email to the user to remind them they have outstanding checkouts potentially blocking other users.</p><dl class="image"><dt>
       <img src="/PublishingImages/sp-docs.jpg" alt="sp-docs.jpg" style="margin&#58;0px;width&#58;780px;height&#58;585px;" />
    </dt><dd>Figure&#58; Here Eric Phan has not checked in a file </dd></dl><p></p><p>
    <b>Upgrade warning&#58;</b> The pages that are not checked-in, will not be migrated on a SharePoint upgrade. There is *no* warning either.​</p><p>There are 2 ways to remind users of their &quot;checked out files&quot;&#58;​</p><ul><li> 
