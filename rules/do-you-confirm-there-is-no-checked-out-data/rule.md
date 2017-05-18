@@ -42,8 +42,7 @@ related: []
          <b>TODO&#58; </b>Move this tool to GitHub, find a better name than &quot;SSW.SharePoint.CheckedOutFilesReport&quot;. </span> 
       <span style="color&#58;#cc0000;"> Also</span><span style="color&#58;#cc0000;"> change from a farm solution to a solution that can be used on Office365 - now in SharePoint 2016 and SharePoint online called &quot;Sharepoint Add-ins&quot;&#160;</span></div><div>
       <font color="#cc0000"> 
-         <br></font>To make reminding users&#160;easier, this SharePoint Add-in&#160;has&#160;a custom page to show the &quot;Checked out files&quot;. One button will&#160;send the notification email to all the naughty people. 
-      <br></div><dl><dt>
+         <br></font>To make reminding users&#160;easier, this SharePoint Add-in&#160;ha​s&#160;a custom page to show the &quot;Checked out files&quot;. One button will&#160;send the notification email to all the naughty people. <br><br></div><div>Even better, we have also improved the application with&#160;a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically​ every night.<br><br></div><dl><dt>
          <img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/PublishingImages/CheckedOutFilesApplicationReport.png" />
       </dt><dd>Figure&#58; One button reminds all users of their&#160;&quot;Checked out Files&quot;<br><br></dd></dl><div class="ssw-rteStyle-GreyBox" style="width&#58;862px;height&#58;344px;"><div>
          <strong>Hi Daragh, </strong></div><div>
@@ -60,8 +59,6 @@ related: []
          <br>
       </div><p>​<span style="line-height&#58;1.6;font-size&#58;inherit;">--Powered by SSW.SharePoint.CheckedOutFilesReport</span><span style="line-height&#58;1.6;font-size&#58;inherit;"> </span> 
          <br></p></div><dd class="ssw15-rteElement-FigureNormal">&#160;Figure&#58; An example of the reminder email that all users receive </dd><dd class="ssw15-rteElement-FigureNormal">
-      <br></dd></div><div>
-Even better, we have also improved the application with&#160;a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically​ every night.<br>
-</div><div><br></div>
+      <br><br></dd></div>
 
 
