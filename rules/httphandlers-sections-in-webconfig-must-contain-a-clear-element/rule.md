@@ -21,9 +21,7 @@ redirects:
 ---
 
 
-<p>If web.config contains a {ltHTMLChar}httpHandlers{gtHTMLChar} or {ltHTMLChar}httpModules{gtHTMLChar} section, that section must contain a {ltHTMLChar}remove... /{gtHTMLChar} or a {ltHTMLChar}clear /{gtHTMLChar} element.
-</p><p>This basically forces developers to explicitly enable inheritance in nested virtual directories. In 99% of cases this developers won't use inheritance on these two sections, however it causes issues when somebody wants to add a module or handler to the parent virtual directory.
-</p>
+<p>If web.config contains a {ltHTMLChar}httpHandlers{gtHTMLChar} or {ltHTMLChar}httpModules{gtHTMLChar} section, that section must contain a {ltHTMLChar}remove... /{gtHTMLChar} or a {ltHTMLChar}clear /{gtHTMLChar} element. <br></p><p>This basically forces developers to explicitly enable inheritance in nested virtual directories. In 99% of cases this developers won't use inheritance on these two sections, however it causes issues when somebody wants to add a module or handler to the parent virtual directory.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt><div class="greyBox"><pre>{ltHTMLChar}configuration{gtHTMLChar}
    {ltHTMLChar}system.web{gtHTMLChar}
