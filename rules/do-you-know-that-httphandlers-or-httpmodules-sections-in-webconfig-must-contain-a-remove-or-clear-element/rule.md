@@ -15,9 +15,7 @@ related: []
 ---
 
 
-<p>If web.config contains a &lt;httpHandlers&gt; or &lt;httpModules&gt; section, that section must contain a &lt;remove... /&gt; or a &lt;clear /&gt; element.
-</p><p>This basically forces developers to explicitly enable inheritance in nested virtual directories. In 99% of cases this developers won't use inheritance on these two sections, however it causes issues when somebody wants to add a module or handler to the parent virtual directory.
-</p>
+<p>If web.config contains a &lt;httpHandlers&gt; or &lt;httpModules&gt; section, that section must contain a &lt;remove... /&gt; or a &lt;clear /&gt; element. <br></p><p>This basically forces developers to explicitly enable inheritance in nested virtual directories. In 99% of cases this developers won't use inheritance on these two sections, however it causes issues when somebody wants to add a module or handler to the parent virtual directory.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt><div class="greyBox"><pre>&lt;configuration&gt;
    &lt;system.web&gt;
