@@ -27,10 +27,10 @@ related: []
 <img class="ms-rteCustom-ImageArea" alt="Good location" src="/PublishingImages/appointment-location-good-example.jpg" />
 <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Address is clearly identified in the location field, meaning this can easily be used by mapping applications on smartphones</span>
 
-<p>It's important to always add the address information in appointments when a third party is included. ie&#58;<br></p>
+<p>If you are meeting at SSW Sydney, it is important to book the Chapel, or another meeting room. You can do this by adding the room name to&#160;the Location field. If it is the SSW Chapel, it will then appear in the Chapel Bookings calendar and alert all necessary parties that you will be using the space.<br></p><p>It's important to always add the address information in appointments when a third party is included. i.e.&#58;<br></p>
 <ul>
 <li>A client meeting at your location</li>
-<li>A meeting at the client location</li>
+<li>A meeting at the client location<br></li>
 </ul>
 <p>The exception is for internal meeting appointments&#58;</p>
 <div class="greyBox">
