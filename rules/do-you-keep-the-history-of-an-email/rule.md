@@ -15,10 +15,8 @@ related: []
 ---
 
 
-Often I receive a reply to an email I sent and it has one word - &quot;Yes.&quot; I can't remember what I asked for and the respondent has deleted the history, so I don't know what's going on. I can't check to see whether they have answered all my questions, or what the URL was in the original email, and I can't CC someone else on my reply because the email is missing half the information. So I have to go back into my sent items, find what I asked for and copy and paste it into my reply.
-
+<p class="ssw15-rteElement-P">Often we receive a reply to an email and it has one word - &quot;Yes.&quot; <br></p><p class="ssw15-rteElement-P">If the sender can't remember what was asked and the respondent has deleted the history, it's hard to tell what's going on. It's not possible to&#160;check whether all questions were answered, or what&#160;URL was in the original email.&#160;Also, we&#160;can't CC someone else on the new reply because the email is missing half the information.&#160;</p><p class="ssw15-rteElement-P">So the only way is to go back into 'sent items', find what was asked&#160;for and copy and paste it into my reply, which can be very frustrating.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-&#160;Crazy. Just don't delete the history! Geezzzzeeeee, surely we aren't that hard up for disk space.
-
+Crazy. Just <b>don't delete the history</b>! Geezzzzeeeee, surely we aren't that hard up for disk space ;)​<h3 class="ssw15-rteElement-H3">Related Rule <br></h3><p><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=c299f09d-ef42-474d-8368-9f77a775a983">Dones - Do you include relevant info from attachments in the body of the email? </a><br></li></ul></p>
 
 
