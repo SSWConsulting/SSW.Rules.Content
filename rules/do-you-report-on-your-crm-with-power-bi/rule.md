@@ -13,8 +13,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <h3 class="ssw15-rteElement-H3">Option 1 &#160;</h3><div>Custom - see Ulysses'&#160;Power BI&#160;session -&#160;<a href="https&#58;//tv.ssw.com/6839/power-bi-finally-can-make-decisions-based-facts-ulysses-maclaren">https&#58;//tv.ssw.com/6839/power-bi-finally-can-make-decisions-based-facts-ulysses-maclaren​</a><br><br></div> </span>
 
-
+<h3 class="ssw15-rteElement-H3">Option 2<br></h3><div>Sales management for Dynamics 365<br></div><div><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/YjhLp_Cj40w" frameborder="0" style="margin&#58;0px;padding&#58;0px;border&#58;none;"></iframe>&#160;</div><span style="margin&#58;0px;padding&#58;0px;"></span></div><p><br></p>
 
 
