@@ -25,7 +25,7 @@ redirects: []
 
   <p>To ensure your meetings are productive and successful, you should&#58; </p>
 <ul>
-    <li>Make Sure the AV setup is correct. Please refer to the SugarLearning item&#160;'AV Setup for Skype for Business Meetings​​'.&#160;&#160;&#160;<br></li><li>Create a meeting agenda prior to the meeting. Give each attendee a copy. If the discussion strays from the topic, the agenda will help you&#160;keep it on track.<br></li>
+    <li>Make Sure the AV setup is correct. Please refer to the SugarLearning item&#160;'<a href="https&#58;//sugarlearning.com/companies/SSW/items/13053/av-setup-for-skype-for-business-meetings">AV Setup for Skype for Business Meetings​</a>​​'.&#160;&#160;&#160;<br></li><li>Create a meeting agenda prior to the meeting. Give each attendee a copy. If the discussion strays from the topic, the agenda will help you&#160;keep it on track.<br></li>
     <li>Send <a href="/Pages/WayMeetingsShouldWork.aspx">an appointment</a> to all meeting attendees to ensure the meeting appears on their calendar. </li>
     <li>If you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving. </li>
     <li>To improve future meetings, at the end of the meeting, do a quick debrief to see how long the meeting took, if anything was covered that didn't need to be, etc. </li>
