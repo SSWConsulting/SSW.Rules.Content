@@ -28,6 +28,6 @@ index:
 - calendar---does-your-calendar-always-accurately-show-where-you-are
 
 ---
-<p>​It's important to use your calendar correctly as it's your main organizational​ tool and how others view your time.</p>
+<p>​​It's important to use your calendar correctly as it's your main organizational​ tool and how others view your time.<br></p>
 
 
