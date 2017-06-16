@@ -22,6 +22,6 @@ index:
 - do-you-track-your-initial-meetings
 
 ---
-<p>​It's important to use your calendar correctly as it's your main organizational​ tool and how others view your time.</p>
+<p>​​It's important to use your calendar correctly as it's your main organizational​ tool and how others view your time.<br></p>
 
 
