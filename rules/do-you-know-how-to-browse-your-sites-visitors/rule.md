@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">With the&#160;Visitors&#160;activity, you can see&#160;is a real-time list of all the visitors currently on your website. It helps summarize all visitor information at a glance, including information about their browser, operating system, location, pages visited, and referral page.&#160;<br></p> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">in the Chat section,&#160;w​ith the&#160;Visitors&#160;activity, you can see&#160;is a real-time list of all the visitors currently on your website. It helps summarize all visitor information at a glance, including information about their browser, operating system, location, pages visited, and referral page.&#160;<br></p> </span>
 
 <p>
    <strong>Monitoring your website visitors </strong></p><p>The Visitors activity gives you&#160;a birds-eye view of all the visitors on your website by putting them into different categories&#58; 
