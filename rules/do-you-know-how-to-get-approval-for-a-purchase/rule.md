@@ -15,23 +15,8 @@ redirects:
 ---
 
 
-​When you need to spend money, don't assume you will get authorization – make sure you have approval before spending the money.
+​When you need to spend money, don't assume you will get authorization – make sure you have approval before spending the money.<br>
 <br><excerpt class='endintro'></excerpt><br>
-<span style="line-height&#58;21px;">Let's have a look at the best way to get authorization&#58;</span><br><ol><li>​Send an email to your boss, manager, or financial controller (or whoever the appropriate person is in your company) outlining what you want to purchase and why.&#160;</li><li>The email subject should be &quot;Purchase Please&#160;- Request for xx&quot;​​​</li><li>
-      If appropriate, include 2 or 3 quotes, aiming to keep expenses low, and which you think is the best option</li><li>
-      End the email with &quot;Please approve&quot;</li><li>Wait for an email back with &quot;Approved&quot; (prior to the purchase, or you may not get reimbursed later)</li><li>
-      Forward a copy of the email to the financial controller with&#58;</li></ol><ul><li>
-      Your manager's approval (in the history)​</li><li>
-      Attach the tax invoice​​​</li><li>
-      State how the payment was made (whether you paid it yourself and need reimbursing or if it was on a company credit card, and if so, which one)</li><li>
-      If this is for a client, include the Client ID/name</li><li>
-      If it is for a client, include if it is to be on-charged (E.g. please invoice (add 20%))</li></ul> ​ 
-<p> ​
-   <img src="/PublishingImages/purchase-please-bad-example.jpg" alt="" />​
-   </p><dd class="ssw15-rteElement-FigureBad">
-   Figure&#58; Bad Exa​mple - this expense will not be reimbursed​</dd><p><br> </p><p> 
-   <img src="/PublishingImages/purchase-please-good-example.jpg" alt="" />​
-   </p><dd class="ssw15-rteElement-FigureGood">
-   Figure&#58; Good Example - this expense will be reimbursed, if David gets a reply from Adam</dd>
+<p>Let's have a look at the best way to get authorization&#58;</p><ol><li>Send an email to your boss, manager, or financial controller (or whoever the appropriate person is in your company) outlining what you want to purchase and why.&#160;</li><li>The email subject should be &quot;Purchase Please&#160;- Request for xx&quot; <br></li><li>If appropriate, include 2 or 3 quotes (call them &quot;Option A, Option B etc&quot;)​ aiming to keep expenses low, and which you think is the best option</li><li>End the email with &quot;Please approve&quot;</li><li>Wait for an email back with &quot;Approved&quot; (prior to the purchase, or you may not get reimbursed later)</li><li>Forward a copy of the email to the financial controller with&#58;<ul><li>Your manager's approval (in the history)</li><li>Attach the tax invoice</li><li>State how the payment was made (whether you paid it yourself and need reimbursing or if it was on a company credit card, and if so, which one)</li><li>If this is for a client, include the Client ID/name</li><li>If it is for a client, include if it is to be on-charged (E.g. please invoice (add 20%))</li></ul></li></ol><dl class="badImage"> <dt><img src="/PublishingImages/purchase-please-bad-example.jpg" alt="" /> </dt><dd> Figure&#58; Bad Exa mple - this expense will not be reimbursed </dd></dl><dl class="goodImage"> <dt><img src="/PublishingImages/purchase-please-good-example.jpg" alt="" /> </dt><dd> Figure&#58; Good Example - this expense will be reimbursed, if David gets a reply from Adam</dd></dl> <br>
 
 
