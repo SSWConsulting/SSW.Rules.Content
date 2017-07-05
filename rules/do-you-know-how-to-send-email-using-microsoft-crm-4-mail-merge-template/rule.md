@@ -13,9 +13,9 @@ related: []
 ---
 
 
-<p>You can use mail merge template, to send email to account, contact... Each mail merge template is associated to an entity, and you can only use the mail merge template that associated to the entity you're sending email to. In the following instructions, I'm sending email to the contact entity&#58;</p>
+<p>You can use mail merge template, to send email to account, contact... Each mail merge template is associated to an entity, and you can only use the mail merge template that associated to the entity you're sending email to. In the following instructions, I'm sending email to the contact entity&#58;<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>From Microsoft CRM 4&#160;homepage, click 
+<ol><li>From Dynamics CRM, click 
       <b>Contacts</b> to view the list of contacts.</li><li>Search for the contact that you want to send email to.</li><li>Highlight the contact that you want to send email to, and click the mail merge button.</li><dl class="image"><dt> 
          <img src="/PublishingImages/send-mail-merge-1.jpg" alt="Mail Merge Button" /> 
       </dt><dd>Figure&#58; Mail merge button</dd></dl><li>At 
