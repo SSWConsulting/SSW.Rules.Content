@@ -13,6 +13,6 @@ authors:
 
 <span class='intro'> <p><span style="font-family&#58;arial, sans-serif;line-height&#58;17px;">If you ever need to create a new post to your blog without access to&#160;WordPress admin&#160;area<b>&#160;</b>(<b>/wp-admin</b>)<b>&#160;</b>y<b></b>ou can do it via email, t<b></b>hanks to the Jetpack plugin.​ Watch how you do it on Ben Cull's video&#58;</span></p> </span>
 
-<p>​</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="560" height="315" src="http&#58;//www.youtube.com/embed/n9PlO826StQ?rel=0" frameborder="0"></iframe>&#160;</div>
+<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/n9PlO826StQ" frameborder="0"></iframe>&#160;</div><p>​​​<br></p>
 
 
