@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p><a href="https&#58;//www.ssw.com.au/ssw/Consulting/Angular.aspx">Angular</a> is great  for building large enterprise applications but it is a full framework that works best as a full application.</p><p>
+   <b>React</b>,&#160;however, is easier to embed on another framework or application such as Office 365 or Sharepoint.</p> </span>
 
 
 
