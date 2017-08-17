@@ -17,8 +17,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+LinkedIn&#160;is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company services.<br><br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​Use the​ &quot;Link&quot; button in your profile &quot;edit mode&quot; to include the URLs for the main services your provide.</p><dl class="goodImage"><dt><img src="/PublishingImages/linkedin-links.jpg" alt="linkedin-links.jpg" /></dt><dd>Figure&#58; Good Example - LinkedIn profile including mains services' URLs</dd></dl>​<br>
 
 
