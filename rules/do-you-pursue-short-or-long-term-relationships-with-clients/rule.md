@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Treat clients the same way you would treat a prospective partner - that is, with lots of TLC. Think about your first conversation with a nice girl. You have two approaches you could try. 
- </span>
+<span class='intro'> Treat clients the same way you would treat a prospective partner - that is, with lots of TLC. Think about your first conversation with a nice girl/guy. You have two approaches you could try. 
+<br> </span>
 
 
   <p>The first kind of approach is where you try and seal the whole deal in one go&#58; <br>
