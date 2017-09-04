@@ -17,8 +17,7 @@ redirects:
 ---
 
 
-<p>​​​​When you create a new git repository and need to push it to VSTS you need to provide login credentials.​/p{gtHTMLChar}
-</p><p>It isn't always clear how to do this.</p>
+<p>​​​​When you create a new git repository and need to push it to VSTS you need to provide login credentials.​<br></p><p>It isn't always clear how to do this.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
       <img src="/PublishingImages/vsts-alternative-login.png" alt="vsts-alternative-login.png" style="width&#58;750px;" />
