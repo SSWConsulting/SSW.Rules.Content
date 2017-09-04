@@ -13,8 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>​​​​When you create a new git repository and need to push it to VSTS you need to provide login credentials.​/p&gt;
-</p><p>It isn't always clear how to do this.</p> </span>
+<span class='intro'> <p>​​​​When you create a new git repository and need to push it to VSTS you need to provide login credentials.​<br></p><p>It isn't always clear how to do this.</p> </span>
 
 <dl class="badImage"><dt>
       <img src="/PublishingImages/vsts-alternative-login.png" alt="vsts-alternative-login.png" style="width&#58;750px;" />
