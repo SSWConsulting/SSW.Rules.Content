@@ -17,74 +17,72 @@ related: []
 
 This is how you create a rule at <strong>rules.ssw.com.au</strong>.
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>Log&#160;in&#160;to&#160;<a href="/admin/Pages/default.aspx"><span class="s2">http&#58;//rules.ssw.com.au/admin/Pages/default.aspx</span></a></li><li style="text-decoration&#58;line-through;">Go to the category index. E.g For “Communication” go to http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">Communicatio n</span>/Pages/default.aspx</li><li> 
+<ol><li>Log&#160;in&#160;to&#160;<a href="/admin/Pages/default.aspx"><span class="s2">http&#58;//rules.ssw.com.au/admin/Pages/default.aspx</span></a></li><li style="text-decoration&#58;line-through;">Go to the category index. E.g For “Communication” go to http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">Communicatio n</span>/Pages/default.aspx</li><li>
       <span style="text-decoration&#58;line-through;">Then to the subcategory E.g. http&#58;//rules.ssw.com.au/Communication/</span><span class="ssw15-rteStyle-Highlight" style="text-decoration&#58;line-through;">RulesToBetterSomething</span><span style="text-decoration&#58;line-through;">&#160;</span><br style="text-decoration&#58;line-through;"><strong style="text-decoration&#58;line-through;">Note&#58;</strong><span style="text-decoration&#58;line-through;">&#160;It's very&#160;</span><strong style="text-decoration&#58;line-through;">important&#160;</strong><span style="text-decoration&#58;line-through;">to make sure you are at the right location before creating a rule!!!&#160;</span><br><strong>Note&#58;&#160;</strong>Step 2 &amp; 3 are not needed anymore after we moved all rule pages from 100+ subwebs into one &quot;Pages&quot; library in&#160;root&#160;web.</li><li>Click on “Add a page” 
-      <dl class="image"><dt>
-            <img alt="Create Rule" src="/PublishingImages/create-rule1.jpg" />
-         </dt><dt></dt></dl> 
-      <b></b><span style="line-height&#58;1.6;"><b>Note&#58;</b> Each rule will be a “page” on SharePoint – with its own URL - differently from old&#160;aspx, where rules&#160;were&#160;sections on a single page.</span></li><li>Add the URL 
       <dl class="image"><dt> 
-            <img alt="Create Rule" src="/PublishingImages/create-rule2.jpg" style="margin&#58;5px;" /> 
-         </dt></dl><p>
-         <b>Note&#58;</b> We use only the most important words of a&#160;rule&#160;title. The words in&#160;<span style="color&#58;purple;"><strong>purple</strong></span>&#160;are typically not used.</p><p>E.g. #1 “<strong><span style="color&#58;purple;">HTML/CSS - Do you know</span>&#160;how to create spaces in a web page?</strong>” should be “http&#58;//rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout/Pages/<span class="ssw15-rteStyle-Highlight">How-to-create-spaces-in-a-web-page</span>.aspx”</p><p>E.g. #2 “<strong><span style="color&#58;purple;">Do you</span>&#160;use &quot;list&quot; tags for lists only?</strong>” should be “http&#58;//rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout/Pages/<span class="ssw15-rteStyle-Highlight">Use-list-tags-for-lists-only</span>.aspx”<br><br>Note&#58; Friendly URL should be automatically generated like&#58;</p><dl class="ssw15-rteElement-ImageArea"> 
-         <img src="/PublishingImages/auto-generate-friendlyurl.jpg" alt="auto-generate-friendlyurl.jpg" style="margin&#58;5px;width&#58;550px;" /> 
-      </dl></li><li><dl class="ssw15-rteElement-ImageArea">Add the rule title<img alt="Create Rule" src="/PublishingImages/create-rule3.jpg" style="margin&#58;5px;" /></dl></li><li><dl class="ssw15-rteElement-ImageArea">Add the rule category (so that it will be shown on the summary page)&#58;</dl><dl class="ssw15-rteElement-ImageArea"> 
-         <img src="/PublishingImages/add-rule-category.jpg" alt="add-rule-category.jpg" style="margin&#58;5px;width&#58;650px;" /> 
+            <img alt="Create Rule" src="/PublishingImages/create-rule1.jpg" /> 
+         </dt><dt></dt></dl>
+      <b></b><span style="line-height&#58;1.6;"><b>Note&#58;</b> Each rule will be a “page” on SharePoint – with its own URL - differently from old&#160;aspx, where rules&#160;were&#160;sections on a single page.</span></li><li>Add the URL 
+      <dl class="image"><dt>
+            <img alt="Create Rule" src="/PublishingImages/create-rule2.jpg" style="margin&#58;5px;" />
+         </dt></dl><p> 
+         <b>Note&#58;</b> We use only the most important words of a&#160;rule&#160;title. The words in&#160;<span style="color&#58;purple;"><strong>purple</strong></span>&#160;are typically not used.</p><p>E.g. #1 “<strong><span style="color&#58;purple;">HTML/CSS - Do you know</span>&#160;how to create spaces in a web page?</strong>” should be “http&#58;//rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout/Pages/<span class="ssw15-rteStyle-Highlight">How-to-create-spaces-in-a-web-page</span>.aspx”</p><p>E.g. #2 “<strong><span style="color&#58;purple;">Do you</span>&#160;use &quot;list&quot; tags for lists only?</strong>” should be “http&#58;//rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout/Pages/<span class="ssw15-rteStyle-Highlight">Use-list-tags-for-lists-only</span>.aspx”<br><br>Note&#58; Friendly URL should be automatically generated like&#58;</p><dl class="ssw15-rteElement-ImageArea">
+         <img src="/PublishingImages/auto-generate-friendlyurl.jpg" alt="auto-generate-friendlyurl.jpg" style="margin&#58;5px;width&#58;550px;" />
+      </dl></li><li><dl class="ssw15-rteElement-ImageArea">Add the rule title<img alt="Create Rule" src="/PublishingImages/create-rule3.jpg" style="margin&#58;5px;" /></dl></li><li><dl class="ssw15-rteElement-ImageArea">Add the rule category (so that it will be shown on the summary page)&#58;</dl><dl class="ssw15-rteElement-ImageArea">
+         <img src="/PublishingImages/add-rule-category.jpg" alt="add-rule-category.jpg" style="margin&#58;5px;width&#58;650px;" />
       </dl></li><li>​​<strong>IMPORTANT</strong>&#160;– Adding rule intro + content 
       <p class="p4">You have three options&#58;&#160;​</p><ol style="list-style&#58;lower-alpha;"><li>​​<strong>Option 1</strong>&#160;– Start from scratch - Write content down on the fields</li><li>​​<strong>Option 2</strong>&#160;- Paste the content from another place -&#160;a HTML&#160;page on the browser or a Word document&#160; 
-            <p>Warning&#58; Select the “<strong>Paste Plaintext</strong>” when pasting or you will have a lot of work later</p><dl class="goodImage"><dt> 
-                  <img alt="Create Rule" src="/PublishingImages/create-rule4.jpg" style="margin&#58;5px;" /> 
-               </dt><dd>Figure&#58; Good Example - If you don’t select this, SharePoint will generate a lot of inline&#160;styling, which will cause triple work to fix.</dd></dl><dl class="badImage"><dt> 
-                  <img alt="Create Rule" src="/PublishingImages/create-rule5.jpg" style="margin&#58;5px;" /> 
-               </dt><dd>Figure&#58;&#160;Terrible&#160;example of&#160;a HTML&#160;generated by&#160;pasting&#160;normally – not plaintext. All the margins, font family, external images aren’t necessary</dd></dl><p>Since you have pasted the plain text, you’ll need to manually add the styling - headings, links, captions etc.&#160;</p><dl class="image"><dt> 
-                  <img alt="Create Rule" src="/PublishingImages/create-rule6.jpg" style="margin&#58;5px;" /> 
-               </dt><dd>Figure&#58; Add the styles. In SharePoint is very similar to Microsoft Word. The custom styles will have pretty much everything you'll need without having to touch the HTML code</dd></dl></li><li> 
+            <p>Warning&#58; Select the “<strong>Paste Plaintext</strong>” when pasting or you will have a lot of work later<br></p><dl class="badImage"><dt>
+                  <img alt="Create Rule" src="/PublishingImages/create-rule5.jpg" style="margin&#58;5px;" />
+               </dt><dd>Figure&#58;&#160;Terrible&#160;example of&#160;a HTML&#160;generated by&#160;pasting&#160;normally – not plaintext. All the margins, font family, external images aren’t necessary<br></dd></dl><dl class="goodImage"><dt>
+                  <img alt="Create Rule" src="/PublishingImages/create-rule4.jpg" style="margin&#58;5px;" />
+               </dt><dd>Figure&#58; Good Example - If you don’t select this, SharePoint will generate a lot of inline&#160;styling, which will cause triple work to fix.<br><br></dd></dl><p>Since you have pasted the plain text, you’ll need to manually add the styling - headings, links, captions etc.&#160;</p><dl class="image"><dt>
+                  <img alt="Create Rule" src="/PublishingImages/create-rule6.jpg" style="margin&#58;5px;" />
+               </dt><dd>Figure&#58; Add the styles. In SharePoint is very similar to Microsoft Word. The custom styles will have pretty much everything you'll need without having to touch the HTML code</dd></dl></li><li>
             <strong>Option 3</strong>&#160;- Paste the HTML code (recommended if you already have the&#160;content in&#160;the internet and the HTML is neat enough) 
             <ol style="list-style&#58;lower-roman;"><li>Open up and copy the HTML code (from “view source” on a browser)</li><li>Go back to SharePoint (where you are adding the rule)&#160;</li><li>Click in the field you are going to edit</li><li>In the “Format Text” ribbon, click “Edit Source” 
-                  <dl class="image"><dt> 
-                        <img alt="Create Rule" src="/PublishingImages/create-rule7.jpg" style="margin&#58;5px;" /> 
+                  <dl class="image"><dt>
+                        <img alt="Create Rule" src="/PublishingImages/create-rule7.jpg" style="margin&#58;5px;" />
                      </dt></dl></li><li>Paste the HTML there 
-                  <dl class="image"><dt> 
-                        <img alt="Create Rule" src="/PublishingImages/create-rule8.jpg" style="margin&#58;5px;" /> 
+                  <dl class="image"><dt>
+                        <img alt="Create Rule" src="/PublishingImages/create-rule8.jpg" style="margin&#58;5px;" />
                      </dt></dl></li><li>Now fix up the images – This part is a bit painful 
-                  <ul><li>Firstly you will need to save all the images to your local drive</li><li>We don’t use the &quot;Insert &gt; Picture&quot; on the ribbon&#160;because it doesn’t generate the HTML code we use as default as per&#160;<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterWebsiteslayout.aspx#AddFigureWithRightCode">Do you use the&#160;right HTML/CSS code to add the useful figure/caption?</a></li><li>Instead, upload them to the Images folder -&#160;<span class="s2">http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">PublishingImages</span>/</span> 
+                  <ul><li>Firstly you will need to save all the images to your local drive</li><li>We don’t use the &quot;Insert &gt; Picture&quot; on the ribbon&#160;because it doesn’t generate the HTML code we use as default as per&#160;<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterWebsiteslayout.aspx#AddFigureWithRightCode">Do you use the&#160;right HTML/CSS code to add the useful figure/caption?</a></li><li>Instead, upload them to the Images folder -&#160;<span class="s2">http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">PublishingImages</span>/</span>
                         <ul class="ul1"><li>Go to “Site Contents” 
-                              <dl class="image"><dt> 
-                                    <img alt="Create Rule" src="/PublishingImages/create-rule9.jpg" style="margin&#58;5px;" /> 
+                              <dl class="image"><dt>
+                                    <img alt="Create Rule" src="/PublishingImages/create-rule9.jpg" style="margin&#58;5px;" />
                                  </dt></dl></li><li>Click on “Images” 
-                              <dl class="image"><dt> 
-                                    <img alt="Create Rule" src="/PublishingImages/create-rule10.jpg" style="margin&#58;5px;" /> 
+                              <dl class="image"><dt>
+                                    <img alt="Create Rule" src="/PublishingImages/create-rule10.jpg" style="margin&#58;5px;" />
                                  </dt></dl></li><li>Drag the images from your local drive to the Images folder in SharePoint&#58; 
-                              <dl class="image"><dt> 
-                                    <img alt="Create Rule" src="/PublishingImages/create-rule11.jpg" style="margin&#58;5px;" /> 
+                              <dl class="image"><dt>
+                                    <img alt="Create Rule" src="/PublishingImages/create-rule11.jpg" style="margin&#58;5px;" />
                                  </dt></dl></li><li>Make sure you “Check In” all the images (otherwise they won’t be visible for anonymous users) 
-                              <dl class="image"><dt> 
-                                    <img alt="Create Rule" src="/PublishingImages/create-rule12.jpg" style="margin&#58;5px;" /> 
+                              <dl class="image"><dt>
+                                    <img alt="Create Rule" src="/PublishingImages/create-rule12.jpg" style="margin&#58;5px;" />
                                  </dt></dl></li><li>On the screen above you can see the path for each image. Copy it so you can paste into the HTML.<br>E.g. &lt;img src=”<span class="ssw15-rteStyle-Highlight">http&#58;//rules.ssw.com.au/Communication/RulesToBetterBlogging/PublishingImages/RulesBloggingAcknowledgeBad.jpg</span>&quot;&gt;</li></ul></li></ul></li><li>Double check the links – you might have got a relative link E.g.&#160;<strong>&lt;a href=”<span class="ssw15-rteStyle-Highlight">../</span>company/Offices.aspx”&gt;&#160;</strong>which will not work because it’s now on a different site.<br>So you will nee​d to make it absolute E.g.&#160;<strong>&lt;a href=”</strong><a href="http&#58;//www.ssw.com.au/ssw/"><span class="s2"><strong><span class="ssw15-rteStyle-Highlight">http&#58;//www.ssw.com.au/</span>ssw/company/Offices.aspx</strong></span></a><strong>”&gt;</strong></li></ol></li></ol></li><li>Add the rule intro 
-      <p>Try to have a catch at the end so the user will want to read the rest of the rule. E.g. “ To reply to a bug effectively and efficiently in your emails, you need to include&#58;”</p><dl class="image"><dt> 
-            <img alt="Create Rule" src="/PublishingImages/create-rule13.jpg" style="margin&#58;5px;width&#58;650px;" /> 
-         </dt></dl><dl class="image"><dt> 
-            <img alt="Create Rule" src="/PublishingImages/create-rule14.jpg" style="margin&#58;5px;" /> 
+      <p>Try to have a catch at the end so the user will want to read the rest of the rule. E.g. “ To reply to a bug effectively and efficiently in your emails, you need to include&#58;”</p><dl class="image"><dt>
+            <img alt="Create Rule" src="/PublishingImages/create-rule13.jpg" style="margin&#58;5px;width&#58;650px;" />
+         </dt></dl><dl class="image"><dt>
+            <img alt="Create Rule" src="/PublishingImages/create-rule14.jpg" style="margin&#58;5px;" />
          </dt><dd>Figure&#58; The “Brief Blurb” should clearly explain what the rule is about and have a catch at the end</dd></dl></li><li>Add the rule content 
-      <dl class="image"><dt> 
-            <img alt="Create Rule" src="/PublishingImages/create-rule15.jpg" style="margin&#58;5px;" /> 
-         </dt></dl></li><li>
-      <a href="/Pages/add-acknowledgements-to-rules.aspx">Add the&#160;acknowledgements</a> 
-      <dl class="image"><dt> 
-            <img alt="Create Rule" src="/PublishingImages/create-rule16.jpg" style="margin&#58;5px;" /> 
-         </dt></dl></li><li>Hit “Publish”, add your comments and “Continue” 
-      <dl class="image"><dt> 
-            <img alt="Create Rule" src="/PublishingImages/create-rule17.jpg" style="margin&#58;5px;" /> 
-         </dt></dl></li><li>Test on a browser you aren’t logged in.&#160;<br>Tip&#58; In Chrome, select “New Incognito Window” 
-      <dl class="image"><dt> 
-            <img alt="Create Rule" src="/PublishingImages/create-rule18.jpg" style="margin&#58;5px;" /> 
-         </dt></dl></li><li>Check on the summary page (e.g.&#160;<span class="s2">http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">RulesToBetterSomething</span>/</span>&#160;) if the order is correct&#160;<br>If not it’s not correct, you can change the order of rules by following the instructions as per the section&#160;below&#58;<br>
       <dl class="image"><dt>
-            <img alt="Create Rule" src="/PublishingImages/create-rule19.jpg" style="margin&#58;5px;width&#58;650px;" /> 
-         </dt></dl>
-      <strong>​Tip&#58;&#160;</strong>You might need to refresh the cache – See “Rule Cache Management” also on the section above.​</li>
-
-</ol><p>Congratulations, you’ve just added a rule!</p><p class="p16">To increase traction in the&#160;community&#160;you should now tweet and Facebook it.&#160;</p><p class="ssw15-rteElement-GreyBox">E.g. “I just added a rule on http&#58;//rules.ssw.com.au/Communication/RulesToBetterSomething/Pages/How-to-do-something-right.aspx@SSW_TV #SSWRules”</p> 
+            <img alt="Create Rule" src="/PublishingImages/create-rule15.jpg" style="margin&#58;5px;" />
+         </dt></dl></li><li> 
+      <a href="/Pages/add-acknowledgements-to-rules.aspx">Add the&#160;acknowledgements</a>
+      <dl class="image"><dt>
+            <img alt="Create Rule" src="/PublishingImages/create-rule16.jpg" style="margin&#58;5px;" />
+         </dt></dl></li><li>Hit “Publish”, add your comments and “Continue” 
+      <dl class="image"><dt>
+            <img alt="Create Rule" src="/PublishingImages/create-rule17.jpg" style="margin&#58;5px;" />
+         </dt></dl></li><li>Test on a browser you aren’t logged in.&#160;<br>Tip&#58; In Chrome, select “New Incognito Window” 
+      <dl class="image"><dt>
+            <img alt="Create Rule" src="/PublishingImages/create-rule18.jpg" style="margin&#58;5px;" />
+         </dt></dl></li><li>Check on the summary page (e.g.&#160;<span class="s2">http&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">RulesToBetterSomething</span>/</span>&#160;) if the order is correct&#160;<br>If not it’s not correct, you can change the order of rules by following the instructions as per the section&#160;below&#58;<br> 
+      <dl class="image"><dt> 
+            <img alt="Create Rule" src="/PublishingImages/create-rule19.jpg" style="margin&#58;5px;width&#58;650px;" />
+         </dt></dl> 
+      <strong>​Tip&#58;&#160;</strong>You might need to refresh the cache – See “Rule Cache Management” also on the section above.​</li></ol><p>Congratulations, you’ve just added a rule!</p><p class="p16">To increase traction in the&#160;community&#160;you should now tweet and Facebook it.&#160;</p><p class="ssw15-rteElement-GreyBox">E.g. “I just added a rule on http&#58;//rules.ssw.com.au/Communication/RulesToBetterSomething/Pages/How-to-do-something-right.aspx@SSW_TV #SSWRules”</p>
 <br>
 
 
