@@ -17,8 +17,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+Use the VSTS Branch Policies feature. This is a super sexy feature.<br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<dl class="badImage"><dt><img src="/PublishingImages/protect-branch-bad.jpg" alt="protect-branch-bad.jpg" /></dt><dd>Figure&#58; Bad example – no protection – anyone can make unreviewed changes</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/protect-branch-good.jpg" alt="protect-branch-good.jpg" /></dt><dd>Figure&#58; Good example – the branch protected</dd></dl> ​<br>
 
 
