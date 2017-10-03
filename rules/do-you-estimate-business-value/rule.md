@@ -13,10 +13,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">​​​​​​<br></p><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 9fb6731a-54ef-4ef5-bad3-81325d5df190" id="div_9fb6731a-54ef-4ef5-bad3-81325d5df190" unselectable="on"></div><div id="vid_9fb6731a-54ef-4ef5-bad3-81325d5df190" unselectable="on" style="display&#58;none;"></div></div>​​​​​​
-
-<p>​​OK you say you do Scrum, but do you use the &quot;Business Value&quot; field?</p><p>​​That's OK, most teams don't... but it is a terrible shame, because developers go to the trouble of estimating 'Effort' and if you have Effort, all you need is Business Value and you can calculate ROI.</p><p>Once you have ROI a Product Owner can use the ROI field to sort priority. Awesome.</p>
-<br>
+<p class="ssw15-rteElement-P">OK&#160;you say you do Scrum, but do you use the &quot;Business Value&quot; field?<br></p><p class="ssw15-rteElement-P">That's OK, most teams don't... but it is a terrible&#160;shame,&#160;because developers go to the trouble of estimating 'Effort' and if you have Effort, all you need is Business Value and you can calculate ROI.&#160;<br></p><p class="ssw15-rteElement-P">Once you have ROI a Product Owner can use the ROI field to sort priority. Awesome.​<br></p><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 9fb6731a-54ef-4ef5-bad3-81325d5df190" id="div_9fb6731a-54ef-4ef5-bad3-81325d5df190" unselectable="on"></div><div id="vid_9fb6731a-54ef-4ef5-bad3-81325d5df190" unselectable="on" style="display&#58;none;"></div></div>​​​​<br>
 <br><excerpt class='endintro'></excerpt><br>
 <p>ROI (Return on Investment) is an unbelievably simply calculation.</p><dl class="image"><dt>
       <img src="/PublishingImages/business-value-field.jpg" alt="Business Value field" /> 
