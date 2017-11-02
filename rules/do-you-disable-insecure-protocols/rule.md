@@ -1,0 +1,22 @@
+---
+type: rule
+archivedreason: 
+title: Do you disable insecure protocols?
+guid: ccc5ea3b-e835-4b8c-b5bc-d49d98bade9b
+uri: do-you-disable-insecure-protocols
+created: 2017-11-02T22:51:47.0000000Z
+authors:
+- id: 1
+  title: Adam Cogan
+- id: 71
+  title: Steven Andrews
+related: []
+
+---
+
+
+Enter Intro Text
+<br><excerpt class='endintro'></excerpt><br>
+
+
+
