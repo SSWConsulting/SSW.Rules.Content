@@ -13,8 +13,8 @@ authors:
 
 
 
-<span class='intro'> <div>​For better security all our servers in our environment especially those that are public facing should have certain Security protocols and Cipers disabled.<br>​<br></div><div class="ssw15-rteElement-ContentBlock-SSW-Only">​SSW Internal<br></div><br> </span>
+<span class='intro'> <div>​For better server security (especially regarding&#160;public facing servers​),&#160;certain security protocols and ciphers should be disabled.<br></div> </span>
 
-<p>​​​Using a tool called &quot;IIS Crypto 2.0&quot; by <a href="https&#58;//www.nartac.com/Products/IISCrypto">Nartac</a>, these protocols can be easily disabled instead of having to manually edit the Registry Keys,.<br>​​</p><p>1. Download IIS Crypto 2.0</p><p>2. Run this on the server you wish to lock down</p><p>3. Select the best practices button</p><p><img src="/PublishingImages/IIS%20Crypto%202.0.png" alt="IIS Crypto 2.0.png" style="margin&#58;5px;width&#58;808px;" /><br>​<br>4. Ensure that TLS 1.0 is also disabled and hit apply<br></p><p>5. The server will need to be rebooted before the settings take affect<br></p>
+<p>​​​Using a tool called &quot;IIS Crypto 2.0&quot; by <a href="https&#58;//www.nartac.com/Products/IISCrypto">Nartac</a>, these protocols can be easily disabled instead of having to manually edit the Registry Keys,.<br></p><ol><li>Download IIS Crypto 2.0 (<a href="https&#58;//www.nartac.com/Products/IISCrypto/Download">https&#58;//www.nartac.com/Products/IISCrypto/Download​</a>)<br></li><li>Run this on the se​rver you wish to lock down<br></li><li>Select the best practices button<img src="/PublishingImages/IIS%20Crypto%202.0.png" alt="IIS Crypto 2.0.png" style="margin&#58;5px;width&#58;808px;" /><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Good exa​​mple – TLS should be enabled a​​n​d SSL should be disabled​</dd></li><li>Ensure that TLS 1.0 is also disabled and hit apply​<br></li><li>The server will need to be rebooted before the settings take affect<br></li></ol><p></p><p><br></p>
 
 
