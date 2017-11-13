@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-When configuring your email settings for Dynamics CRM, make sure you configure Serverside Sync.<br>
+​When configuring your email settings for Dynamics CRM, make sure you configure Serverside Sync.<br>
 <br><excerpt class='endintro'></excerpt><br>
 <p>As per CRM Tip of the Day 
    <a href="https&#58;//crmtipoftheday.com/979/start-planning-farewell-party-for-email-router/">https&#58;//crmtipoftheday.com/979/start-planning-farewell-party-for-email-router/</a>&#160;the CRM Email router is to be deprecated. You should use the Serverside Sync now instead<br>​<br></p> 
