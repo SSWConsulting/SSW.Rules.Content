@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>Tight project teams have a Daily 'Scrum' every day at the same time.<br></p><p>It was once&#160;called a 'stand-up meeting' but that discriminates people in wheelchairs. </p><p>It is best to have it standing up, so it's short and to the point. No-one wants to stand around waffling.<br></p> </span>
+<span class='intro'> <p>​Tight project teams have a Daily 'Scrum' every day at the same time.<br></p><p>It was once&#160;called a 'stand-up meeting' but that discriminates people in wheelchairs. </p><p>It is best to have it standing up, so it's short and to the point. No-one wants to stand around waffling.<br></p> </span>
 
 <p>Everybody knows the 3 essential questions&#58;</p><ol><li>
       <strong>What did you do yesterday?</strong> (and did you update TFS/other bug tracking system)?</li><li>
