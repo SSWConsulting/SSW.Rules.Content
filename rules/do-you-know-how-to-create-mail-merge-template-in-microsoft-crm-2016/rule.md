@@ -13,10 +13,10 @@ related: []
 ---
 
 
-<p>The following instructions to create Microsoft CRM 2011&#160;mail merge template require you to have Microsoft CRM Outlook add-in installed on your Outlook, and you need to open Outlook while creating the template&#58;<br></p>
+<p>The following instructions to create Microsoft CRM 2016&#160;mail merge template require you to have Microsoft CRM Outlook add-in installed on your Outlook, and you need to open Outlook while creating the template&#58;<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Go to 
-      <b>Settings</b> from Microsoft CRM 2011&#160;home page.</li><li>Click 
+      <b>Settings</b> from Microsoft CRM 2016&#160;home page.</li><li>Click 
       <b>Templates</b> on the left navigation panel.</li><li>Click 
       <b>Mail Merge Templates</b> on right content panel.</li><li>Click button 
       <b>New</b> to create the new mail merge template.<br></li><li>Fill in the mail merge template details and leave the 
