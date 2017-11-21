@@ -15,8 +15,7 @@ related: []
 ---
 
 
-<p>Downtime occurs when you have a single server setup.</p>
-<p>Use NLB to allow load balancing and failover. On each of your Windows Servers you will host your website. </p>
+<p>Downtime occurs when you have a single server setup.<br></p><p class="ssw15-rteElement-InfoBox"><b>TODO&#58; This is 2008 R2 – update to 2016</b><br><b>Note&#58;&#160;</b>2008 R2 was not as reliable as later versions. So it would be better to use failover cluster in Server 2012 R2 or 2016 for a more reliable infrastructure configuration.&#160;</p><p>​​Use NLB to allow load balancing and failover. On each of your Windows Servers, you will host your website.</p>
 <p>You need to follow these steps to get it up and running&#58;</p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>On all nodes of the NBL cluster, the Network Load Balancing Feature needs to be installed.<br><img class="ms-rteCustom-ImageArea" alt="Setup NLB" src="/PublishingImages/Setup-NLB-1.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Install the NLB Feature</span> </li>
