@@ -18,7 +18,7 @@ redirects:
 ---
 
 
-<span style="line-height&#58;1.6;">Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.</span>
+<span style="line-height&#58;1.6;">​Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.</span>
 <br><excerpt class='endintro'></excerpt><br>
 <font class="ms-rteCustom-CodeArea"> <pre>{ltHTMLChar}div{gtHTMLChar}
 {ltHTMLChar}img alt=&quot;&quot;/{gtHTMLChar}
