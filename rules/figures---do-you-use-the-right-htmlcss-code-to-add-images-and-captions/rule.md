@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <span style="line-height&#58;1.6;">Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.</span> </span>
+<span class='intro'> <span style="line-height&#58;1.6;">​Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.</span> </span>
 
 <font class="ms-rteCustom-CodeArea"> <pre>&lt;div&gt;
 &lt;img alt=&quot;&quot;/&gt;
