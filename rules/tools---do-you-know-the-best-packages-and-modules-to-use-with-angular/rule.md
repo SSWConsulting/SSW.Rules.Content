@@ -22,11 +22,11 @@ authors:
 <p> 
    <strong> Lodash</strong><br><span style="line-height&#58;20px;">A modern JavaScript utility library delivering&#160;modularity, performance, &amp;&#160;ex</span><span style="line-height&#58;20px;">t</span><span style="line-height&#58;20px;">ras.</span><span style="line-height&#58;20px;"> <br></span></p><p> 
    <span style="line-height&#58;20px;"> <a href="https&#58;//lodash.com/">https&#58;//lodash.com</a> <br></span> <strong style="line-height&#58;1.6;"> <br></strong></p><p> 
-   <strong style="line-height&#58;1.6;">Angular&#160;Bootstrap</strong><span style="line-height&#58;20px;"><br></span></p><p>Angular&#160;components for bootstrap components.</p><p> 
-   <a href="http&#58;//valor-software.com/ng2-bootstrap/">http&#58;//valor-software.com/ng2-bootstrap/ </a> <br></p><p> 
+   <strong style="line-height&#58;1.6;">Angular&#160;Bootstrap</strong><span style="line-height&#58;20px;"><br></span></p><p>Angular&#160;components for Bootstrap​ 4.<br></p><p> 
+   </p><p><a href="https&#58;//ng-bootstrap.github.io/">https&#58;//ng-bootstrap.github.io/ ​</a><br>​ 
    <br> 
 </p><p> 
-   <strong>Angular&#160;Bootstrap Modal Popups</strong><br>Bootstrap themed modal popups for Angular​<br></p><p> 
+   <strong>Angular&#160;Bootstrap Modal Popups</strong><br>Bootstrap themed modal popups for Angular <br></p><p> 
    <a href="https&#58;//github.com/dougludlow/ng2-bs3-modal">https&#58;//github.com/dougludlow/ng2-bs3-modal </a> <br></p><p> 
    <br> 
 </p><p> 
