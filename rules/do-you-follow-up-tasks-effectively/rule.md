@@ -17,11 +17,9 @@ related: []
 ---
 
 
-<p>​​Promises made by email are often pretty empty - the person who made the promise either has to make a note in a paper diary, stick a post-it note to his screen, or regularly trawl through Sent Items for all the off-hand promises made. </p>
-<p>To ensure you follow up when you make a promise, you should do the following&#58; </p>
+<p>Sometimes the person responsible for a task isn't able to complete it right away or anytime soon. In this case, a promise is made and the person either has to make a note in a paper diary, stick a post-it note to his screen, or regularly trawl through 'Sent Items' for all the off-hand promises made. <br></p><p>Another scenario is when the task should be done after a period of time. For example&#58; &quot;Send Google Analytics data after a month&quot; or &quot;Remove course banner after the course is completed&quot;.&#160;<br></p>
+<p>To ensure you follow up any task like these,&#160;there is a brilliant service called&#160;<span><a href="https&#58;//www.followupthen.com/">followupthen</a></span>&#160;which can do all the administrative work for you. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>There is a brilliant service called followupthen which can do all the administrative work for you.</p><p>Simply BCC &lt;period of time&gt;@followupthen.com and it will send you an email when that time expires, reminding you to follow up with another phone call or email.</p><p>
-   <strong> <img src="/PublishingImages/FollowUpThen.jpg" alt="" style="margin&#58;5px;" /></strong> <strong></strong>&#160;</p><p>
-   <strong><span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Use <a href="mailto&#58;1week@followupthen.com">1week@followupthen.com</a>&#160; to be reminded about this email in 1 week​</span></strong></p>
+<p>Simply BCC or email <b>&lt;period of time&gt;@followupthen.com</b> and it will send you an email when that time expires, reminding you to follow up with another​ email.</p><dl class="goodImage"><dt><img src="/PublishingImages/FollowUpThen.jpg" alt="followupthen" /></dt><dd>Figure&#58; Good Example - Use <a href="mailto&#58;1week@followupthen.com">1week@followupthen.com</a>&#160; to be reminded about this email in 1 week </dd></dl>
 
 
