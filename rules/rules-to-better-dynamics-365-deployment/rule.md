@@ -12,7 +12,7 @@ redirects: []
 ---
 
 
-Enter Intro Text
+​Enter Intro Text<br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
