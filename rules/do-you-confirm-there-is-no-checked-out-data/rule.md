@@ -17,13 +17,12 @@ related: []
 ---
 
 
-<p>​<br></p><p class="p1">One of the annoying things with SharePoint document libraries is that users often accidentally leave checked out files, that preventing others from modifying them.​​<br></p><p class="p1">Suggestion to Microsoft&#58; send an email to the user to remind them they have outstanding checkouts potentially blocking other users.</p><dl class="image"><dt>
-      <img src="/PublishingImages/sp-docs.jpg" alt="sp-docs.jpg" style="margin&#58;0px;width&#58;780px;height&#58;585px;" />
-   </dt><dd>Figure&#58; Here Eric Phan has not checked in a file </dd></dl><p></p><p>
-   <b>Upgrade warning&#58;</b> The pages that are not checked-in, will not be migrated on a SharePoint upgrade. There is *no* warning either.​</p><p>There are 2 ways to remind users of their &quot;checked out files&quot;&#58;​</p><ul><li> 
-      <strong>Solution A&#58; Manage Content and Structure Report (No Code)​</strong></li><li> 
-      <strong> 
-         <strong>Solution B&#58; Custom application report (Includes some coding work)​<br>Eg.&#160;SSW.SharePoint.CheckedOutFilesReport​<br></strong></strong></li></ul>
+<p>​<br></p><p class="p1">One of the annoying things with SharePoint document libraries is that users often accidentally leave checked out files, that preventing others from modifying them.​​<br></p><p class="p1">Suggestion to Microsoft&#58; send an email to the user to remind them they have outstanding checkouts potentially blocking other users.</p><dl class="image"><dt> 
+      <img src="/PublishingImages/sp-docs.jpg" alt="sp-docs.jpg" style="margin&#58;0px;width&#58;780px;height&#58;120px;" /> 
+   </dt><dd>Figure&#58; Here Greg Harris has not checked in a file </dd></dl><p></p><p> 
+   <b>Upgrade warning&#58;</b> The pages that are not checked-in, will not be migrated on a SharePoint upgrade. There is *no* warning either.​</p><p>There are 2 ways to remind users of their &quot;checked out files&quot;&#58;​<br></p><ul><li>
+      <strong>Solution A&#58; Manage Content and Structure Report (No Code)​</strong></li><li>
+      <strong><strong>Solution B&#58; Custom application report (Includes some coding work)​<br>Eg.&#160;SSW.SharePoint.Mama​<br></strong></strong></li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 ​ 
 <div>
@@ -42,7 +41,7 @@ related: []
          <b>TODO&#58; </b>Move this tool to GitHub, find a better name than &quot;SSW.SharePoint.CheckedOutFilesReport&quot;. </span> 
       <span style="color&#58;#cc0000;"> Also</span><span style="color&#58;#cc0000;"> change from a farm solution to a solution that can be used on Office365 - now in SharePoint 2016 and SharePoint online called &quot;Sharepoint Add-ins&quot;&#160;</span></div><div>
       <font color="#cc0000"> 
-         <br></font>To make reminding users&#160;easier, this SharePoint Add-in&#160;ha​s&#160;a custom page to show the &quot;Checked out files&quot;. One button will&#160;send the notification email to all the naughty people. <br><br></div><div>Even better, we have also improved the application with&#160;a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically​ every night.<br><br></div><dl><dt>
+         <br></font>To make reminding users&#160;easier, this SharePoint Add-in&#160;ha​s&#160;a custom page to show the &quot;Checked out files&quot;. One button will&#160;send the notification email to all the naughty people. <br><br></div><div>Even better, we have also improved the application with&#160;a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically​ every night.<br>​<br></div><dl><dt>
          <img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/PublishingImages/CheckedOutFilesApplicationReport.png" />
       </dt><dd>Figure&#58; One button reminds all users of their&#160;&quot;Checked out Files&quot;<br><br></dd></dl><div class="ssw-rteStyle-GreyBox" style="width&#58;862px;height&#58;344px;"><div>
          <strong>Hi Daragh, </strong></div><div>
@@ -57,8 +56,7 @@ related: []
          <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"> 
             <font color="#3a66cc">http&#58;//rules.ssw.com.au/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx</font></a> &gt;</div><div>
          <br>
-      </div><p>​<span style="line-height&#58;1.6;font-size&#58;inherit;">--Powered by SSW.SharePoint.CheckedOutFilesReport</span><span style="line-height&#58;1.6;font-size&#58;inherit;"> </span> 
-         <br></p></div><dd class="ssw15-rteElement-FigureNormal">&#160;Figure&#58; An example of the reminder email that all users receive </dd><dd class="ssw15-rteElement-FigureNormal">
+      </div><p>​<span style="line-height&#58;1.6;font-size&#58;inherit;">--Powered by SSW.SharePoint.Mama&#160;(v16.1.6548.28338) on [Server Name]<br></span><br></p></div><dd class="ssw15-rteElement-FigureNormal">&#160;Figure&#58; An example of the reminder email that all users receive </dd><dd class="ssw15-rteElement-FigureNormal">
       <br><br></dd></div>
 
 
