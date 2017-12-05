@@ -15,9 +15,9 @@ related: []
 ---
 
 
-<p>It's better to use links to a portal or document store instead of having attachments in your emails. </p>
-<p>If you're sending to a fellow employee, use a link to a document store on your intranet (e.g. intranet.northwind.com/SharedDocuments) </p>
-<p>If you're sending to a client, it would be a link to a document store on their <a href="/do-you-use-a-project-portal-for-your-team-and-client">project portal</a>. (e.g. projects.northwind.com/SharedDocuments)</p>
+<p>It's better to use links to a portal or document store instead of having attachments in your emails. <br></p>
+<p>If you're sending to a fellow employee, use a link to a document store on your intranet (e.g. intranet.northwind.com/SharedDocuments)</p>
+<p>If you're sending to a client, it would be a link to a document store on their <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=846474eb-27a1-4645-90ee-10a349fef714">proje ct portal</a>. (e.g. projects.northwind.com/SharedDocuments)</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
       <img alt="Forward client attachments" src="/PublishingImages/Email_Attachment_1_small.jpg" />
