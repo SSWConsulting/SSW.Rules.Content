@@ -24,15 +24,14 @@ redirects:
 <p>There are three options for how to a add new PBI (Product Backlog item) to the backlog&#58;<br></p>
 
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>Emails 
+<ol><li>Emails​ 
       <dd class="ssw15-rteElement-FigureBad">Bad Example - This is a poor way to add a PBI as you can’t order emails by business prior​​ity​<br></dd></li><li> 
-      <b>Visual Studio Team Services</b> - E.g. https&#58;//ssw.visualstudio.com (Recommended)<br> 
+      <b>Visual Studio Team Services</b> - E.g. https&#58;//ssw.visualstudio.com <br> 
 ​         <dt>
             <img title="image" alt="image" src="/SiteAssets/product-owner-do-you-know-how-to-update-the-backlog/RulesScrumUpdateBacklogGood.jpg" style="width&#58;600px;" /> 
-         </dt><dd class="ssw15-rteElement-FigureGood">​​​​Figure&#58; Good Example -&#160;VSTS&#160;allows you to enter an item directly into the backlog, in the priority order of your choosing<br></dd></li><li> 
-      <strong>Team Companion</strong>
-      <dl class="image"><dt> 
+         </dt><dd class="ssw15-rteElement-FigureGood">​​​​Figure&#58; Good Example -&#160;VSTS&#160;allows you to enter an item into the backlog, in any&#160;priority order<br></dd></li><li> 
+      <strong>Team Companion&#160;(Recommended)<br></strong><dl><dt> 
             <img src="/PublishingImages/RulesScrumUpdateBacklogBest.jpg" alt="" style="width&#58;600px;height&#58;450px;" />
-         </dt><dd>Figure&#58; Team Com​panion lets you convert an email to a PBI<br></dd></dl></li></ol><p>Decide whatever works best for you; SSW recommends using the backlog directly via web access</p>
+         </dt><dd><dd class="ssw15-rteElement-FigureGood">Figure&#58; Team Com​panion lets you convert an email to a PBI, giving you the best of both worlds<br></dd></dd></dl></li></ol>
 
 
