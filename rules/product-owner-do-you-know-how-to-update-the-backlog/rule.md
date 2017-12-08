@@ -32,6 +32,6 @@ redirects:
          </dt><dd class="ssw15-rteElement-FigureGood">​​​​Figure&#58; Good Example -&#160;VSTS&#160;allows you to enter an item into the backlog, in any&#160;priority order<br></dd></li><li> 
       <strong>Team Companion&#160;(Recommended)<br></strong><dl><dt> 
             <img src="/PublishingImages/RulesScrumUpdateBacklogBest.jpg" alt="" style="width&#58;600px;height&#58;450px;" />
-         </dt><dd><dd class="ssw15-rteElement-FigureGood">Figure&#58; Team Com​panion lets you convert an email to a PBI, giving you the best of both worlds<br></dd></dd></dl></li></ol>
+         </dt><dd></dd><dd class="ssw15-rteElement-FigureGood">Figure&#58; Team Com​panion lets you convert an email to a PBI, giving you the best of both worlds<br></dd><p class="ssw15-rteElement-P">​<br></p><p class="ssw15-rteElement-P">Note&#58; You can also create a PBI using VSTS and attach and email directly&#160;if needed, without using Team Companion<br></p></dl></li></ol>
 
 
