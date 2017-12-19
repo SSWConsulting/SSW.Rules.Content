@@ -11,6 +11,6 @@ index:
 - deprecated-do-you-use-built-in-authentication-from-ms
 
 ---
-
+Do you know the best free .NET security videos? <a href="https&#58;//tv.ssw.com/category/security">Watch them on&#160;SSW TV</a> .<br>
 Rules to Better Security
 
