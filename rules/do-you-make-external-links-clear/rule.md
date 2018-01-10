@@ -16,8 +16,8 @@ redirects: []
 ---
 
 
-<p>When you&#160;create links you should&#160;follow a few basic rules&#58;
-                <br></p>
+<p>When creating&#160;links,​​ you should&#160;follow a few basic rules&#58;
+​                <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>If your link is an internal link, then it should navigate&#160;within the same window. If the link is external, it should open in a new tab and be visually clear to the user that it will lead them away from the current site, that way it is not a surprise.<br></li><li>If a link is to an external site, a 
       <b>visual indication</b> should be provided to the user like this&#58; 
