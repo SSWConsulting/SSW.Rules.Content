@@ -16,10 +16,10 @@ redirects: []
 ---
 
 
-<p>When I create links I follow a few basic rules&#58;
+<p>When you&#160;create links you should&#160;follow a few basic rules&#58;
                 <br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>If a link is to an external site, a 
+<ol><li>If your link is an internal link, then it should navigate&#160;within the same window. If the link is external, it should open in a new tab and be visually clear to the user that it will lead them away from the current site, that way it is not a surprise.<br></li><li>If a link is to an external site, a 
       <b>visual indication</b> should be provided to the user like this&#58; 
       <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/microsoft.htm" target="_blank">This is a link to another site</a>. 
       <dl class="badImage"><p class="ssw15-rteElement-GreyBox">Search Engines (<a class="ignore" href="http&#58;//www.ssw.com.au/ssw/Redirect/Web/Google.htm" target="_blank">http&#58;//www.google.com</a> is by far the best but try other search engines as well)</p><dd>Figure&#58; Bad example - Without visual indication</dd></dl><dl class="goodImage"><p class="ssw15-rteElement-GreyBox">Search Engines (<a href="http&#58;//www.ssw.com.au/ssw/Redirect/Web/Google.htm" target="_blank">http&#58;//www.google.com</a>&#160;is by far the best but try other search engines as well) 
