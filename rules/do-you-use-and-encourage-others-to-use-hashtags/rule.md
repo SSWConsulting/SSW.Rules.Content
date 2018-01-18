@@ -35,20 +35,16 @@ related:
 ---
 
 
-​Hashtags identify the keyword&#160;or&#160;topic&#160;of&#160;interest&#160;that the post is about. They allow searching&#160;for&#160;similar posts on the topic. They were popularized on twitter and now work on&#160;Facebook, Pinterest, and Google+. On twitter, it is possible to &quot;track&quot; (aka Subscribe to)&#160;a tag.&#160; <br>
+ Hashtags identify the keyword&#160;or&#160;topic&#160;of&#160;interest&#160;that the post is about. They allow searching&#160;for&#160;similar posts on the topic. They were popularized on twitter and now work on&#160;Facebook, Pinterest, and Google+. On twitter, it is possible to &quot;track&quot; (aka Subscribe to)&#160;a tag.&#160; <br>
 <br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P">The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic.<br></p><p class="ssw15-rteElement-P"></p><dl class="image"><dt>​<img src="/PublishingImages/tweet-with-mentions-and-hashtags.png" alt="hashtag-stream.jpg" style="width&#58;590px;" /></dt><dd>Figure&#58; Figure&#58; This tweet utilises @mentions, #hashtags, and an external link, which will create higher engagement and let the reader further explore the topic<br></dd></dl><h3>Tips for companies<br></h3><p>
-   <strong style="line-height&#58;1.6;">Tip #1&#58; </strong> 
-   <span style="line-height&#58;1.6;">Encourage people to use the correct hashtag by adding the hashtag to your sidebar or footer.</span></p><dl class="image"><dt>​<img src="/PublishingImages/hashtag-stream.jpg" alt="hashtag-stream.jpg" style="width&#58;650px;" /></dt><dd>Figure&#58; On 
-      <a href="https&#58;//www.ssw.com.au/ssw/netug"> www.ssw.com.au/ssw/netug</a> you can see the sidebar shows a feed with the hashtag used</dd></dl><p>
+<p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P">The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic. See our rule&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=6a8d0728-51f6-4f74-8f07-2e08fd0702f7">Do you know when to use a hashtag vs. a @mention?​</a> to see how to best leverage them in combination.&#160;​<br></p><dl class="image"><dt></dt></dl><h3>Tips for companies<br></h3><p>
+   <strong style="line-height&#58;1.6;">Tip #1&#58; </strong> <span style="line-height&#58;1.6;">Encourage people to use the correct hashtag by adding the hashtag to your sidebar or footer.</span></p><dl class="image"><dt> <img src="/PublishingImages/hashtag-stream.jpg" alt="hashtag-stream.jpg" style="width&#58;650px;" /></dt><dd>Figure&#58; On <a href="https&#58;//www.ssw.com.au/ssw/netug"> www.ssw.com.au/ssw/netug</a> you can see the sidebar shows a feed with the hashtag used</dd></dl><p>
    <strong>Tip&#160;#2&#58; </strong>When creating your own hashtag to promote a service, product or event, check it isn't already in use for anything else.</p><h3>Tips for everyone</h3><p>
    <strong>Tip #3&#58; </strong> Don't use too many hashtags – 2 or 3 maximum per post, or you may appear to be &quot;spammy&quot; and turn people off.</p><p>
-   <strong>Tip #4&#58; </strong> Keep your hashtags on topic – again, you might seem &quot;spammy&quot; if you use hashtags that are unrelated to your post.<br></p><h3 class="ssw15-rteElement-H3">Examples of hashtags 
-   <br></h3><ul><li>​​<b>#SSW</b> - &#160;For our&#160;company related posts<br></li><li>
+   <strong>Tip #4&#58; </strong> Keep your hashtags on topic – again, you might seem &quot;spammy&quot; if you use hashtags that are unrelated to your post.<br></p><h3 class="ssw15-rteElement-H3">Examples of hashtags <br></h3><ul><li>​​<b>#SSW</b> - &#160;For our&#160;company related posts<br></li><li>
       <b>#SSWRules</b> - For our public standards<br></li><li>
-      <b>#SSWTV</b> - For our video channel 
-      <br></li><li>
+      <b>#SSWTV</b> - For our video channel <br></li><li>
       <b>#FireBootCamp </b>- For our&#160;training&#160;programs<br></li><li>
-      <b>#AngularHackDay </b>- For one of our training events​<br><br><br></li></ul>
+      <b>#AngularHackDay </b>- For one of our training events <br><br><br></li></ul>
 
 
