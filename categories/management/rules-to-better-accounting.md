@@ -16,6 +16,6 @@ index:
 - do-you-treat-freebies-as-real-customers
 
 ---
-<p>​​<br></p>
+<p>​​​<br></p>
 Rules to Better Accounting
 
