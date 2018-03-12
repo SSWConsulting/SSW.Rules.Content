@@ -15,7 +15,7 @@ redirects: []
 
 
 The impulse to win an argument and prove that you are right can be a strong driving force, but it's important not to let it take priority over keeping a good client.
-
+<br>
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>If the client is unhappy or upset, it's more important to show empathy and demonstrate that you understand your client's point of view, as it is more likely to win you future work. </p>
