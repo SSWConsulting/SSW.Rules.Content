@@ -11,10 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>Every day you will probably&#160;come across something that could be improved. If you're
-                    not making improvements, you're going backwards. But&#160;don't make suggestions or
-                    criticisms without being specific.
-                </p> </span>
+<span class='intro'> <p>Every day you will probably&#160;come across something that could be improved. If you're not making improvements, you're going backwards. But&#160;don't make suggestions or criticisms without being specific. <br></p> </span>
 
 <dl class="bad">
                     <dt>&quot;Do you know our sales process is pretty bad, what are you going to do about it?&quot;</dt>
