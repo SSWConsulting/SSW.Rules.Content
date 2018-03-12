@@ -13,7 +13,7 @@ authors:
 
 <span class='intro'> <p>
                     The sandwich rule approach is an effective way to provide feedback to other team
-                    members and clients.</p> </span>
+                    members and clients.<br></p> </span>
 
 <ol>
                     <li>Start with positive feedback</li>
