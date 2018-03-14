@@ -13,7 +13,7 @@ redirects: []
 
 
 
-  <p>At the end of every Sprint the Development&#160;Team performs a Sprint Retrospective also&#160;known as the Retro.&#160;The Retro&#160;provides an opportunity for the Scrum&#160;Team&#160;to reflect on what has gone well, what has gone poorly, and what the team wants to change.&#160;</p>
+  <p>At the end of every Sprint the Development&#160;Team performs a Sprint Retrospective also&#160;known as the Retro.&#160;The Retro&#160;provides an opportunity for the Scrum&#160;Team&#160;to reflect on what has gone well, what has gone poorly, and what the team wants to change.&#160;<br></p>
 <p>Inspect-and-adapt is a key component of the Scrum framework and the Retro&#160;gives Scrum Teams an opportunity to learn from their&#160;successes and&#160;mistakes.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
