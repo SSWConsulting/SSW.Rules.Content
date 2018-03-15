@@ -15,14 +15,14 @@ related: []
 ---
 
 
-Outlook by default reads your emails and can flag your email as potential junk email, or adult content email by examining a list of bad words. <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/OutlookBadWords.htm">Microsoft list of words</a>.<br>
+Outlook by default reads your emails and can flag your email as potential junk email, or adult content email by examining a list of Sensitive words. This list is not available to the public.<br>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>Sometimes, you would want to avoid using swear words, or using an angry tone as well.</p>
-<div class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br>
+  <p>You should avoid&#160;any&#160;swear words or be using an angry tone as well.</p>
+<p class="ssw15-rteElement-YellowBorderBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br>
 <img class="ms-rteCustom-ImageArea" alt="Contact or bad word" src="/PublishingImages/ContactorBadWord.GIF" /> <br>
-<span class="ms-rteCustom-FigureNormal">Figure&#58; SSW LookOut! for Outlook checks that you don't use bad words.</span></div>
+Figure&#58; SSW LookOut! for Outlook checks that you don't use bad words.​​<br></p>
 
 
 
