@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>When you notice that someone has done something that could have&#160;been done better, make sure you are tactful in your correction/suggestions. When you are giving someone a correction or tip, try to include an URL to back up your point.<br></p><p>For example, if someone sends you an email like that&#58;<br></p>
+<p>​When you notice that someone has done something that could have&#160;been done better, make sure you are tactful in your correction/suggestions. When you are giving someone a correction or tip, try to include an URL to back up your point.<br></p><p>For example, if someone sends you an email like that&#58;<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl><dt><p class="ssw15-rteElement-GreyBox"><b>Subject&#58;&#160;Meeting</b><br>​<br>Hi Guys,<br> ​<br>Let's meet on Thursday at 3 PM<br></p></dt><dd class="ssw15-rteElement-FigureNormal"> Figure&#58; Someone requests a meeting<br></dd><p class="ssw15-rteElement-P">​​</p><p class="ssw15-rteElement-P">You could reply in different ways&#58;<br></p></dl><dl class="bad"><p class="ssw15-rteElement-GreyBox"><b>Subject&#58; RE&#58; Meeting</b><br> 
       <br>Hi Mary,<br> ​<br>FYI - an appointment would have been better. See rule #48 in <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=35452dab-3ce2-469d-8642-9e64eaa6b6f6"> Rules to better Email</a><br></p><dd class="ssw15-rteElement-FigureBad"> Figure&#58; Bad Example<br></dd><p class="ssw15-rteElement-P">​​​<br></p></dl><dl class="good"><p class="ssw15-rteElement-GreyBox"><b>Subject RE&#58; Meeting</b><br> 
