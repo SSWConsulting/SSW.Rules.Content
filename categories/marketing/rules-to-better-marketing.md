@@ -49,6 +49,6 @@ index:
 - do-you-share-when-you-upgrade-an-application
 
 ---
-<p>​​</p>
+<p>​​​<br></p>
 
 
