@@ -17,7 +17,7 @@ authors:
                     An important source of comfort for any client is a feeling that they are in control and they know
                     the basics of what is going on. The fundamental part of this is who is working for them and how 
                     much it is&#160;costing.
-                </p> </span>
+                <br></p> </span>
 
 <p>
                     Therefore, if you change the developers on a project or if one or more of their rates change, it is 
@@ -31,10 +31,10 @@ authors:
                     <p>
                         Hi Marlon, 
                     </p>
-                    <p>As per our conversation, I wanted&#160;to let you know that Eric was promoted to Solution Architect earlier this year. We held back his rate change until the end of this phase of the project, but we will be implementing his new rate as of 9/10/2013. 
+                    <p>As per our conversation, I wanted&#160;to let you know that Eric was promoted to Solution Architect earlier this year. We held back his rate change until the end of this phase of the project, but we will be implementing his new rate as of 9/1/2019. 
                     </p>
                     <p>
-                        His new standard rate is $245/hour+GST. Don't forget SSW offers a competitive rate to those clients pre-paying time in blocks of 40 hours per Project Team Member.&#160;</p>
+                        His new standard rate is $285/hour+GST. Don't forget SSW offers a competitive rate to those clients pre-paying time in blocks of 40 hours per Project Tea​m Member.&#160;<br></p>
                     <p>
                         I trust you've been happy with Eric's contribution to your project so far. We look forward to working with you soon. 
                     </p>
