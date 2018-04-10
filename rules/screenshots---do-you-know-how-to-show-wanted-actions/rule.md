@@ -17,10 +17,10 @@ related: []
 <ol>
 <li>To enter data – Use the yellow highlighting</li>
 <li>To click on a button – Put a square box around it</li>
-<li>To point out something  – Use the arrow</li>
+<li>To point out something  – Use the arrow​​<br></li>
 </ol>
 
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/snagit-actions-bad.jpg" alt="Snagit Bad Example" class="ms-rteCustom-ImageArea" /></dl><dd class="ssw15-rteElement-FigureBad">&#160;​<span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;">Figure&#58; Bad example – There is no visual difference between different actions&#160;</span>​</dd><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/snagit-actions-good.jpg" alt="Snagit Good Example" class="ms-rteCustom-ImageArea" />​</dl><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example – This screenshot tells that the user should be on the &quot;Message&quot; tab, click on &quot;Attach File&quot; and edit the subject to be &quot;Button types&quot;​&#160;</dd>
+<dl class="badImage"><dt><img src="/PublishingImages/snagit-actions-bad.jpg" alt="Snagit Bad Example" /></dt><dd>Figure&#58; Bad example – There is no visual difference between different actions</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/snagit-actions-good.jpg" alt="Snagit Good Example" />​</dt><dd>Figure&#58; Good example – This screenshot tells that the user should be on the &quot;Message&quot; tab, click on &quot;Attach File&quot; and edit the subject to be &quot;Button types&quot;​<span style="color&#58;#444444;">​</span></dd></dl>
 
 
