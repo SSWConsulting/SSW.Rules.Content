@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p class="ssw15-rteElement-P">Software and document version numbers should be consistent and meaningful to both the developer and the user.​​​​​<br></p> </span>
 
-
+<p class="ssw15-rteElement-P">​Generally, version numbering should begin at 0.1. Once the project has been approved for release by the client or tester, the version number will be incremented to 1.0. The numbering after the decimal point needs to be decided on and uniform. For example, 1.1 might have many bug fixes and a minor new feature, while 1.11 might only include one minor bug fix.​<br><br></p>
 
 
