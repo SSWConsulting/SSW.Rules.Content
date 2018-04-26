@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p class="ssw15-rteElement-P">Using &quot;Magic numbers&quot; in your code makes it confusing and really hard to maintain.​​​<br></p> </span>
 
-
+<dl class="badImage"><dt><img src="/PublishingImages/MagicNumberBad.jpg" alt="MagicNumberBad.jpg" />​</dt><dd>Figure&#58; Bad example - &quot;Magic Number&quot; works, but is a bad idea</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/MagicNumberGood.jpg" alt="MagicNumberGood.jpg" /></dt><dd>Figure&#58; Good example - No Magic Number, looks good and is easy to manage​<br></dd></dl>
 
 
