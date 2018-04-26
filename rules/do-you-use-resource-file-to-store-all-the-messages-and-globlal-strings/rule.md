@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> Storing all the messages and global strings in one place will make it easy to manage them and to keep the applications in the same style.<br><br> </span>
 
-
+<dl class="image"><dt><img src="/PublishingImages/Code_StoreMessage.jpg" alt="Code_StoreMessage.jpg" /></dt><dd> ​Store messages in the Message.resx</dd></dl><p class="ssw15-rteElement-CodeArea">Catch(SqlNullValueException sqlex)<br>&#123;<br>Response.Write(&quot;The value cannot be null.&quot;);<br>&#125;</p><dd class="ssw15-rteElement-FigureBad">Bad Example - if you want to change the message, it will cost you lots of time to investigate every try-catch block</dd><p class="ssw15-rteElement-CodeArea">Catch(SqlNullValueException sqlex)<br>&#123;<br>Response.Write(GetGlobalResourceObject(&quot;Messages&quot;, &quot;SqlValueNotNull&quot;));<br>&#125;</p><dd class="ssw15-rteElement-FigureGood">Better Example - better than the hard code, but still wordy<br></dd><p class="ssw15-rteElement-CodeArea">Catch(SqlNullValueException sqlex)<br>&#123;<br>Response.Write(Resources.Messages.SqlValueNotNull); 'Good Code - storing message in resource file. <br>&#125;&#160;</p><dd class="ssw15-rteElement-FigureGood">Good Example <br></dd>
 
 
