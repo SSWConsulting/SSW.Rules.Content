@@ -13,8 +13,8 @@ related: []
 ---
 
 
-Enter Intro Text
+<p>The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.</p><p>As per&#58;&#160; <a href="http&#58;//msdn.microsoft.com/en-us/library/c84eby0h%28v=vs.90%29.aspx">Strings</a>&#160;<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p class="ssw15-rteElement-CodeArea">​string p2 = &quot;\\My Documents\\My Files\\&quot;;</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example - Using &quot;\\&quot;</dd><p class="ssw15-rteElement-CodeArea">string p2 = @&quot;\My Documents\My Files\&quot;;</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example - Using @​​<br></dd>
 
 
