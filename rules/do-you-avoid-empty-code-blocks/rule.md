@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>Empty Visual C# .NET method consumes program resources unnecessarily. Put a ​​comment in code block if its stub for future application.</p><p><strong>Exception&#58;</strong>&#160;If a Class implements an Inherited Interface method, you should add a comment within the Code block <br></p><br> </span>
+<span class='intro'> <p>​Empty Visual C# .NET method consumes program resources unnecessarily. Put a ​​comment in code block if its stub for future application.<br></p><p><strong>Exception&#58;</strong>&#160;If a Class implements an Inherited Interface method, you should add a comment within the Code block <br></p><br> </span>
 
 <p class="ssw15-rteElement-CodeArea">​public class Example<br> &#123;<br> public double salary()<br> &#123; 
    <br> &#125;<br> &#125;</p><dd class="ssw15-rteElement-FigureBad">​​Figure&#58; Bad Example - Method is empty​​​​​<br></dd><p class="ssw15-rteElement-CodeArea">​public class Sample<br> &#123;<br> public double salary()<br> &#123;<br> return 2500.00;<br> &#125;<br> &#125;</p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; G​ood Example - Method implements some code<br></dd><p class="ssw15-rteElement-CodeArea">
