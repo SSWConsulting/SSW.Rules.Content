@@ -15,8 +15,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p>If you have to use a workaround you should always comment your code and reference. You should also make a Suggestion to [Product] if you think it is something that the product should do.</p><ol><li>Comment in the code with URL to an existing or new Suggestion</li><li>Create a Suggestion to .NET 3 that points to blog post<br></li></ol>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p></p><p class="ssw15-rteElement-GreyBox">&quot;This is a&#160;workaround&#160;as per the suggestion&#160;<br>&quot;[URL]</p><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Always add a URL to the suggestion that you are compensating for<br></dd>
 
 
