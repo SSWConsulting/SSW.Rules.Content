@@ -10,7 +10,7 @@ authors:
 
 <span class='intro'> 
   <p>Member of the Scrum Team should understand their&#160;responsibilities and respect the implicit contract (promises) they have made. 
-</p>
+<br></p>
  </span>
 
 
@@ -41,7 +41,7 @@ authors:
         </tr>
         <tr>
             <td width="319" valign="top">
-            <p>Product Owner</p>
+            <p>Product Owner​<br></p>
             </td>
             <td width="502" valign="top">
             <ul>
@@ -57,7 +57,7 @@ authors:
         </tr>
         <tr>
             <td width="319" valign="top">
-            <p>ScrumMaster</p>
+            <p>Scrum Master</p>
             </td>
             <td width="502" valign="top">
             <ul>
