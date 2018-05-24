@@ -35,7 +35,7 @@ related: []
             <ul>
                 <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
                 <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
-                <li>they will help the ScrumMaster in the removal of impediments to the Scrum team’s progress </li>
+                <li>they will help the Scrum Master in the removal of impediments to the Scrum team’s progress </li>
                 <li>the team that they will not change priorities or constraints in the middle of a sprint without team’s consent </li>
                 <li>that being on a Scrum team will not hurt the members’ careers </li>
                 <li>not to divert team members to other work on a Scrum Day during a sprint </li>
@@ -90,10 +90,10 @@ related: []
             </td>
             <td width="502" valign="top">
             <ul>
-                <li>to bring issues, problems, impediments and realities encountered to the team </li>
+                <li>to bring issues, problems, impediments​ and realities encountered to the team </li>
                 <li>to be available and working with the team on every defined Scrum Day of a sprint in which they committed and any required absences will be scheduled before the beginning of the sprint </li>
                 <li>to attend every Scrum, Review, Retrospective &amp; Planning Meeting </li>
-                <li>to refer any external request that will take more than 15 minutes of Scrum Day time to the ScrumMaster </li>
+                <li>to refer any external request that will take more than 15 minutes of Scrum Day time to the Scrum Master </li>
             </ul>
             </td>
         </tr>
