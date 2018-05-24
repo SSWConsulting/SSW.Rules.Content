@@ -13,7 +13,7 @@ redirects:
 ---
 
 
-The role of the <a href="/Pages/OwnerForEveryUserStory.aspx" shape="rect"><font color="#000080">Story Owner</font></a>&#160;is like a mini project manager.&#160;The Story Owner resolves any road blocks, performs the&#160;“<a href="/Pages/TestPleaseInScrum.aspx" shape="rect"><font color="#000080">Test Please</font></a>” and makes sure there is a good presentation at the Review Meeting.&#160;In addition having a Story Owner makes it easy for Product Owners and others to talk to the right person. 
+The role of the <a href="/Pages/OwnerForEveryUserStory.aspx" shape="rect"><font color="#000080">PBI Owner</font></a>&#160;is like a mini project manager.&#160;The PBI&#160;Owner resolves any road blocks, performs the&#160;“<a href="/Pages/TestPleaseInScrum.aspx" shape="rect"><font color="#000080">Test Please</font></a>” and makes sure there is a good presentation at the Review Meeting.&#160;In addition having a PBI Owner makes it easy for Product Owners and others to talk to the right person. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -21,8 +21,8 @@ The role of the <a href="/Pages/OwnerForEveryUserStory.aspx" shape="rect"><font 
 <ul>
     <li>Manage / Own the story and its sub tasks </li>
     <li>Make sure a “<a href="/Pages/TestPleaseInScrum.aspx" shape="rect"><font color="#000080">Test Please</font></a>” is conducted (or that their story is included in one) </li>
-    <li>Make every effort to show the story to the Product Owner before the Sprint Review (aka a <a href="/spec-do-you-conduct-a-specification-review-(ask-for-a-coffee-not-a-marriage)">corridor conversation</a>) </li>
-    <li>Prepare for the Sprint Review. Make sure he ready for the review. Have a scribe, have a demo plan/script and get the story accepted quickly. </li>
+    <li>Make every effort to show the story to the Product Owner before the Sprint Review (aka a <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=70e9f0e5-38ea-4616-bb21-6ba5167beb6b">corridor conversation</a>) </li>
+    <li>Prepare for the Sprint Review. Make sure h​e ready for the review. Have a scribe, have a demo plan/script and get the story accepted quickly. </li>
     <li>Present the completed Story at the Sprint Review </li>
 </ul>
 <p>Note&#58; Make sure you are ready for the review. Have a scribe and how you are demoing worked out before hand. </p>
