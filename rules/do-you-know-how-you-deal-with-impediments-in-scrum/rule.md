@@ -16,7 +16,7 @@ related: []
 
 
 
-  <p>Exercise – Click Click Scrum</p>
+  <p>Exercise – Click Click Scrum<br></p>
 <p>This exercise uses the VS2010 planning poker deck of cards &amp; TFS</p>
 ​​
 <br><excerpt class='endintro'></excerpt><br>
@@ -36,26 +36,22 @@ related: []
 <p><strong>Total for 1 complete Sprint&#58;</strong> 170 minutes (~3 hours)</p>
 <h1>Sprint Planning Meeting (What)</h1>
 <ol>
-    <li>The trainer acts as PO and gives User Stories &amp; prioritises them </li>
-    <li>Students clarify the requirements of the User Stories (Details, Acceptance Criteria)</li>
-    <li>Students do Planning Poker to Estimate</li>
-</ol>
-<h1>The Sprint Planning Meeting (How)</h1>
-<ol>
-    <li>Students break User Stories into tasks</li>
+    <li>The trainer acts as PO and gives PBIs&#160;&amp; prioritises them </li>
+    <li>Students clarify the requirements of the PBIs (Details, Acceptance Criteria)</li>
+    <li>Students do Planning Poker to Estimate<br></li><li>Students break PBIs into tasks</li>
     <li>Students put estimates on each task (typical times for work in a day e.g 4 hours, 8 hours)</li>
 </ol>
 <h1>Each Day in the sprint</h1>
 <ol>
     <li>Get the students “Click-Click” their fingers instead of doing actual coding</li>
     <li>The trainer deals one or two cards from the Chance Cards</li>
-    <li>The trainer looks up the meaning of the cards (see table below) and the trainer makes up a suitable story that fits the card and the work the students are doing </li>
+    <li>The trainer looks up the meaning of the cards (see table below) and the trainer makes up a suitable PBI that fits the card and the work the students are doing </li>
     <li>The students add or change work items based on the scenario of the Chance cards</li>
     <li>The team reduces the remaining hours on their assigned tasks, with the assumption that each student works 8 hours</li>
     <li>Do the Daily Scrum (describing their day based on the work they just updated in TFS)</li>
 </ol>
 <p>NOTE&#58; It is OK to really code rather than use “Click-Click” development as long as TFS is updated.</p>
-<h1>The Review Meeting</h1>
+<h1>The Review Meeting<br></h1>
 <p>The PO reviews the work of the team (Note&#58; if all the work was “Click-Click” then review the TFS work items to check that they are entered OK).</p>
 <h1>The Retro</h1>
 <p>Students and PO do a standard Scrum retro for the exercise.</p>
@@ -151,8 +147,8 @@ related: []
             <p>&#160;</p>
             <ul>
                 <li>Draw a point card </li>
-                <li>Create a new User Story</li>
-                <li>Set the User Story points to the value</li>
+                <li>Create a new PBI<br></li>
+                <li>Set the PBI points to the value</li>
             </ul>
             <p>e.g. The current implementation may not support real-time display of information with the    performance expected by users – investigate</p>
             <p>&#160;</p>
@@ -188,7 +184,7 @@ related: []
             <p>&#160;</p>
             <ul>
                 <li>Cancel all tasks</li>
-                <li>Recycle the User Stories to the Product Backlog </li>
+                <li>Recycle the PBIs ​to the Product Backlog </li>
             </ul>
             </td>
         </tr>
