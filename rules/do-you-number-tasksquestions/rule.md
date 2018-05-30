@@ -17,14 +17,13 @@ related: []
 ---
 
 
-<p>It is good practice to be clear on what you want. One way you can make things clearer is to number tasks or questions. </p>
+<p>It is good practice to be clear on what you want. One way you can make things clearer is to number tasks or questions. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<div class="greyBox"><p><b>Hi PeterG,</b><br>Make sure to use Linq to SQL for the bit where you execute Stored Procs. First, double check that executing Stored Procs is still an outstanding issue with EDMX. 
-      <br> Don't forget create a .txt file of the same name to the rule, so other developers know why you did this.</p></div> 
+<div class="greyBox"><p><b>Hi PeterG,</b><br>Make sure to use Linq to SQL for the bit where you execute Stored Procs. First, double check that executing Stored Procs is still an outstanding issue with EDMX. <br>Don't forget to create a .txt file of the same name to the rule, so other developers know why you did this.</p></div> 
 <font class="ms-rteCustom-FigureBad" size="+0">Bad example - the different tasks may be skipped if the reader does not read carefully</font>
-<div class="greyBox"><p><b>Hi PeterG,</b></p><ol><li>Double check that executing stored procedures is is still an outstanding issue with EDMX </li><li>Add .txt file of same name with a link to the rule, so other developers know why you did this</li><li>In the .txt file, link to the UserVoice suggestion </li><li>In the .txt file, link to the rule on Rules to better LINQ </li><li>Make sure that actual rule links to the UserVoice (or Connect) suggestion too</li></ol></div>
+<div class="greyBox"><p><b>Hi PeterG,</b></p><ol><li>Double check that executing stored procedures​&#160;is still an outstanding issue with EDMX</li><li>Add .txt file of the same name with a link to the rule, so other developers know why you did this</li><li>In the .txt file, link to the UserVoice suggestion</li><li>In the .txt file, link to the rule on Rules to better LINQ</li><li>Make sure that actual rule links to the UserVoice (or Connect) suggestion too</li></ol></div>
 <font class="ms-rteCustom-FigureGood" size="+0">Good example - the different tasks are clear</font>
 
-<p><strong>See also</strong>&#58; <a href="/Pages/SendTasksOneEmailAtATime.aspx">Do you send tasks one email at a time?</a><br></p><p><strong>VIDEO</strong>&#160;-&#160;<a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a> ​<br></p>
+<p><strong>See also</strong>&#58; <a href="/Pages/SendTasksOneEmailAtATime.aspx">Do you send tasks one email at a time?</a><br></p><p><strong>VIDEO</strong>&#160;-&#160;<a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a> <br></p>
 
 
