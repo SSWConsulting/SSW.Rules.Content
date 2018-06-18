@@ -11,9 +11,9 @@ authors:
 
 
 
-<span class='intro'> <p>The goal is that I don't want CRM developers to move from Dev to Test and to Production manually. Basically I don't want a developer to touch Test or Production servers. The testers can run the .bat file. <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx">See SSW rules to setup packages</a>.</p> </span>
+<span class='intro'> <p>The goal is that CRM developers <b>to not&#160;</b>move from Dev to Test and to Production manually. Basically, we don't want a developer to touch Test or Production servers. The testers can run the .bat file. <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx">See SSW rules to setup packages</a>.</p> </span>
 
-<p>How developers should work? </p>
+<p>How should developers work?</p>
 <ul><li>All development done in a Virtual Server</li>
 <li>Use TFS and VS.NET 2003 (since working with VS.NET 2003 you need to TFS adapter for 2003)</li>
 <li>Backup your customizations.xml</li>
@@ -38,11 +38,11 @@ authors:
             REM (avoid server side validation logic in v3)
             REM  Deploy a 1.1 web service
          </pre></div>
-<p>Deploy to Test Server </p>
+<p>Deploy to Test Server</p>
 <ul><li>Import the customizations.xml</li>
-<li>Run .bat file</li></ul>
-<p>&#160;</p>
-<p>Deploy to Production Server </p>
+<li>Run .bat file​<br></li></ul>
+
+<p>Deploy to Production Server</p>
 <ul><li>Import the customizations.xml</li>
 <li>Run .bat file</li></ul>
 
