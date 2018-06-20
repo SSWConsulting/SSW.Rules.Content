@@ -14,10 +14,8 @@ redirects: []
 ---
 
 
-<p>R eading down should show you the what (all the intend)<br></p>
-<p>Reading across should show you the how (F12)</p>
-<p></p>
-<p></p>
+<p>Reading down should show you the what (all the intend)<br></p><p>​Reading across should show you the how (F12)</p> 
+​​<br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
