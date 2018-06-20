@@ -11,10 +11,8 @@ authors:
 
 
 
-<span class='intro'> <p>R eading down should show you the what (all the intend)<br></p>
-<p>Reading across should show you the how (F12)</p>
-<p></p>
-<p></p> </span>
+<span class='intro'> <p>Reading down should show you the what (all the intend)<br></p><p>​Reading across should show you the how (F12)</p> 
+​​<br> </span>
 
 
 
