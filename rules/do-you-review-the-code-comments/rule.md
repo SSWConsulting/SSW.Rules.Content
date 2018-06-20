@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>Comments can be useful for documenting code but should be used properly. Some developers like seeing lots of code comments and some don't.<br></p> </span>
+<span class='intro'> <p>​Comments can be useful for documenting code but should be used properly. Some developers like seeing lots of code comments and some don't.<br></p> </span>
 
 <p><span lang="EN-AU"></span>Some tips for including comments in your code are&#58;</p>
 <ol><li><span><span lang="EN-AU">Comments aren't always the solution.&#160; Sometimes it's better to refactor the comments into the actual method name. If your method needs a comment to tell a developer what it does, then the method name is probably not very clear.</span></span></li>
