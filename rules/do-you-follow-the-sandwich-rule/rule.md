@@ -16,7 +16,7 @@ redirects:
 ---
 
 
-<p>​
+<p>​​
                     The sandwich rule approach is an effective way to provide feedback to other team
                     members and clients.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
