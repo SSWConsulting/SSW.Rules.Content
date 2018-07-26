@@ -15,7 +15,7 @@ redirects:
 ---
 
 
- <p>​
+ <p>​​​
                     Many developers sit with their faces to the screen, isolating themselves from
                     the team, trying to solve a problem on their own. If you're stuck on one bug for
                     more than an hour, ask someone to help.
