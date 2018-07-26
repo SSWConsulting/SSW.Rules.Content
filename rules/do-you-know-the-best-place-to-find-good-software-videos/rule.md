@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-The easiest way to digest complex information can often be in video form, as it gives you both audio and visual queues to help with your comprehension.&#160;<div>the best places to find good software development videos are&#58;</div>
+​​The easiest way to digest complex information can often be in video form, as it gives you both audio and visual queues to help with your comprehension.&#160;<div>the best places to find good software development videos are&#58;</div>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li><span style="line-height&#58;1.6;">​</span><span style="line-height&#58;1.6;"><a href="http&#58;//www.pluralsight.com/">Pluralsight </a>- showing developer courses to help learn new technologies</span><span style="line-height&#58;1.6;">​</span><br></li><li><span style="line-height&#58;1.6;"><a href="http&#58;//tv.ssw.com.au/">SSW TV</a> - showing webinars,&#160;​how to videos, and interviews with leading industry​ experts to keep you updated on all things Microsoft</span></li></ol><p><br></p>
 
