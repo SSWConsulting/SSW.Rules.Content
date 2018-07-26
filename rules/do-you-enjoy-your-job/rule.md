@@ -15,7 +15,7 @@ redirects:
 ---
 
 
- <p>Long term success in a career requires&#58;             </p>
+ <p>Long term success in a career requires&#58; <br></p>
                 <ul>
                     <li>First is to put your heart into your job and enjoy yourself</li>
                     <li>Get your responsibilities done</li>
