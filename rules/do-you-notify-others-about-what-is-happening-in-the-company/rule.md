@@ -15,9 +15,9 @@ redirects:
 ---
 
 
-<p>
+<p>​
                     When something happens in your company, always send around an email so that the
-                    whole team is kept in the loop. </p>
+                    whole team is kept in the loop. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Examples of events that you should send an email
                     around for&#58;</p>
