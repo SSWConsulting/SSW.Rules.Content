@@ -15,11 +15,11 @@ redirects:
 ---
 
 
-<p>
+<p>​
                     If you see something in a blog that interests you or that you disagree with, reply
                     to it. You should not be afraid to voice your opinion and it's a great way to make
                     a name for yourself and your company on the world wide web.
-                </p>
+                <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
                     Whenever anyone in your organization responds to a blog entry or&#160;forum,
