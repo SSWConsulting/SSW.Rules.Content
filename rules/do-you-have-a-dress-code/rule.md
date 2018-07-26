@@ -17,10 +17,7 @@ redirects:
 ---
 
 
-<p>​​The way you and all members of your team present themselves is a crucial part of
-                    creating a good impression for your clients, particularly in their first encounters
-                    with you.
-                <br></p>
+<p>The way you and all members of your team present themselves is a crucial part of creating a good impression for your clients, particularly in their first encounters with you. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <h3>Dressing Up</h3><p>One aspect of this is dress code. Dress code is important for two reasons&#58;</p><ul><li>Looking professional and keen for business<br></li><li>Reinforce&#160;the company's&#160;<a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterBranding.aspx#BrandingEmployees">branding</a></li></ul><p>
    <span style="line-height&#58;1.6;"> <span style="line-height&#58;20.8px;">E.g. At SSW, our&#160;employees</span>&#160;</span><span style="line-height&#58;1.6;"><b>&quot;Dress Up&quot;&#160;on Mondays and Tuesdays by wearing company colors</b>,<b></b></span><span style="line-height&#58;1.6;">&#160;with a nice shirt (business or polo), trousers (not blue jeans), belt,&#160;nice&#160;shoes (no sneakers, joggers or thongs). So most employees wear their SSW shirts on Mondays. </span> <br></p><h3>The Obvious</h3><p>Of course when&#160;in a&#160;public event&#160;such as a User Group, conference&#160;or seeing clients you should &quot;Dress Up&quot;. <br></p><p>It should go without saying, but of course, things such as&#160;shaving off your weekend facial growth, using deodorant and having clean teeth and nice breath is assumed.</p><p class="ssw15-rteElement-Reference">&quot;There is nothing wrong with being the best-dressed man in the room.&quot;</p>-&#160;<strong>Sean Connery</strong> <br>
