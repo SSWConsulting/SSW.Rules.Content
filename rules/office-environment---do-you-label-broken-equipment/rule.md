@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> <p>Imagine you see one port of a hub not working, what do you do?<br></p>
+<span class='intro'> <p>​​Imagine you see one port of a hub not working, what do you do?<br></p>
                 <p>
                     When you see something not working like a phone or a PowerPoint, don't ignore it,
                     stick a note to it and tell the appropriate person.
