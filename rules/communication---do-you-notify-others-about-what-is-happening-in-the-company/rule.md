@@ -11,9 +11,9 @@ authors:
 
 
 
-<span class='intro'> <p>
+<span class='intro'> <p>​
                     When something happens in your company, always send around an email so that the
-                    whole team is kept in the loop. </p> </span>
+                    whole team is kept in the loop. <br></p> </span>
 
 <p>Examples of events that you should send an email
                     around for&#58;</p>
