@@ -15,10 +15,10 @@ redirects:
 ---
 
 
-<p>
+<p>​
                     Receiving positive feedback makes everyone feel good. Forgetting to recognize success
                     means the team has no motivation to succeed.
-                </p>
+                <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
                     This is a simple rule - if someone goes beyond the call of duty, you thank them.
