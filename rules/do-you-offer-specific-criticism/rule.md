@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-<p>Every day you will probably&#160;come across something that could be improved. If you're not making improvements, you're going backwards. But&#160;don't make suggestions or criticisms without being specific. <br></p>
+<p>​​Every day you will probably&#160;come across something that could be improved. If you're not making improvements, you're going backwards. But&#160;don't make suggestions or criticisms without being specific. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad"> <p class="ssw15-rteElement-GreyBox">&quot;Do you know our sales process is pretty bad, what are you going to do about it?&quot;</p> <dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - Nonspecific criticism <br></dd></dl>
                 <p>When you find a problem, pinpoint it directly (and recommend a solution)&#58;</p>
