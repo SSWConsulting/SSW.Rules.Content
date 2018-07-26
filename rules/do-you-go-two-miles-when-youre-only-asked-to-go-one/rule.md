@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>
+<p>​
                     This idea is different from the above rules in that it strikes at the heart of our
                     everyday behaviour, not just when a crisis is looming. <a href="http&#58;//www.biblegateway.com/passage/?search=matt%205&#58;41&amp;version=NKJV%3b">Jesus of Nazareth</a>&#160;said&#58;</p>
                     
