@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-<p>Whenever you need a number from a system you should think of how you can create a report, so next time you can press a button to get the result.<br></p>
+<p>​Whenever you need a number from a system you should think of how you can create a report, so next time you can press a button to get the result.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>If you found yourself doing ad-hoc reports, or random SQL queries, a few years ago, the best thing to do was to make sure the boss knows you could not find the data you needed, so he could comission a new report to be built.</p><p>Since 2015, the best practice is instead to jump into Power BI and build the report yourself.</p><dl class="ssw15-rteElement-ImageArea"> 
    <img alt="Eg. Email your boss to ask a number" src="/PublishingImages/CreateReport.JPG" /> 
