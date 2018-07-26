@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>If you criticize&#160;your staff&#58;</p><ul><li>You don't make lasting changes</li><li>They will resent you, resulting in lower productivity and&#160;employee morale</li></ul> </span>
+<span class='intro'> <p>​If you criticize&#160;your staff&#58;<br></p><ul><li>You don't make lasting changes</li><li>They will resent you, resulting in lower productivity and&#160;employee morale</li></ul> </span>
 
 
                 <p>
