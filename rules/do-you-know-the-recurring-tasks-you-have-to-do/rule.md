@@ -15,13 +15,7 @@ redirects:
 ---
 
 
-<p>Recurring tasks are the tasks that have been allocated to you to be done on a periodical basis. 
-                    You may not have a specific task email in your inbox telling you to do this. 
-                    However, these kinds of tasks are normally very important as they keep our system running.&#160;</p><p>
-                    For example&#58; We have a&#160;Network Health report to tell our Network Administrators that 
-                    everything in our network is running ok, so it will be the network administrator's responsibility 
-                    to check these reports daily to make sure all issues are fixed or escalated. 
-                </p>
+<p>​​Recurring tasks are the tasks that have been allocated to you to be done on a periodical basis. You may not have a specific task email in your inbox telling you to do this. However, these kinds of tasks are normally very important as they keep our system running.&#160;<br></p><p>For example&#58; We have a&#160;Network Health report to tell our Network Administrators that everything in our network is running ok, so it will be the network administrator's responsibility to check these reports daily to make sure all issues are fixed or escalated.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
                     Check your employee responsibilities and make sure you do all of your recurring tasks on time and efficiently. 
