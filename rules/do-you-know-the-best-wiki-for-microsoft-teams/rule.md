@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> ​You should use OneNote instead of the default Wiki. This way you can use it offline&#160;on your&#160;mobile apps.<br><br> </span>
+<span class='intro'> ​​You should use OneNote instead of the default Wiki. This way you can use it offline&#160;on your&#160;mobile apps.<br><br> </span>
 
 <dl class="badImage"><dt>​​<img src="/PublishingImages/teams-best-wiki-1.jpg" alt="teams-best-wiki-1.jpg" style="width&#58;800px;" /></dt><dd>Bad Example&#58; Default tab – Wiki. There is no offline mobile application</dd></dl><dl class="goodImage"><dt> 
       <img src="/PublishingImages/teams-best-wiki-2.jpg" alt="teams-best-wiki-2.jpg" style="width&#58;800px;" /> 
