@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-​Tasking out work means&#160;adding it to the backlog. Adding it to
+​​Tasking out work means&#160;adding it to the backlog. Adding it to
 the backlog has project management benefits and is easy to do if you have a tab
 for VSTS in the channel.<br>
 <br><excerpt class='endintro'></excerpt><br>
