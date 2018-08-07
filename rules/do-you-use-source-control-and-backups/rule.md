@@ -15,14 +15,14 @@ redirects:
 ---
 
 
-<p>
+<p>​
                     As a responsible employee, there should be no excuse for ever losing data, especially
                     if it belongs to a client. For this reason, it's important to make sure&#58;
-                </p>
+                <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul>
                     <li>Your <a href="http&#58;//www.ssw.com.au/ssw/standards/rulestobetterdeadtime/images/developergeneral/windowstools.aspx#backup">backups </a>are working properly</li>
-                    <li>You are using <a href="/rules-to-better-version-control-with-tfs-(aka-source-control)">source control</a> for any code you develop</li>
+                    <li>You are using <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eb7e3b10-ce4f-432f-92a8-bafda609877e">source control</a> for any code you develop</li>
                 </ul>
                 <p>
                     If you are working onsite, you can still use TFS remotely and it's important to
