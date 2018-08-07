@@ -36,13 +36,8 @@ related:
     <li>The receiver knows who else agrees with the content </li>
 </ul>
 <div class="ms-rteCustom-GreyBox">
-<p>
-(Checked by Peter)&#160;<br>
-Dear Adam,</p>
-<p>[email content]
-</p>
-<p>Regards, Phil 
-</p>
+<p>Dear Adam,</p>
+<p>(Checked by Peter)&#160;</p><p>[email content]</p><p>​Regards, Phil</p>
 </div>
 <span class="ms-rteCustom-FigureNormal">Figure&#58; Use 'Checked by xxx' when sending a complicated email to a group of people </span>
 
