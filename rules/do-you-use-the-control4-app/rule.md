@@ -35,7 +35,7 @@ authors:
       </dl></dd></dl><blockquote style="margin&#58;0px 0px 0px 40px;border&#58;none;padding&#58;0px;"><dl><dd><dl class="ssw15-rteElement-ImageArea">​​<span style="background-color&#58;initial;color&#58;#333333;">2.​</span><span style="background-color&#58;initial;"> Select &quot;connect now&quot; from the menu.</span></dl></dd></dl></blockquote><dl><dl class="ssw15-rteElement-ImageArea">
       <img src="/PublishingImages/Control4%202.png" alt="Control4 2.png" style="margin&#58;5px;width&#58;500px;height&#58;889px;" />
       <br>
-   </dl></dl><blockquote style="margin&#58;0px 0px 0px 40px;border&#58;none;padding&#58;0px;"><dl><dd><div>3.&#160;Contact your SysAdmin to set you up with an account for logging in.<br></div></dd><dd><div>4. Make sure you are on the same WiFi network as your Control4 System and that you have an internate connection.<br></div></dd><dd>5. Use your&#160;credentials to sign into Control4&#58;</dd><dd><div>
+   </dl></dl><blockquote style="margin&#58;0px 0px 0px 40px;border&#58;none;padding&#58;0px;"><dl><dd><div>3.&#160;Contact your SysAdmin to set you up with an account for logging in.<br></div></dd><dd><div>4. Make sure you are on the same WiFi network as your Control4 System and that you have an internet​ connection.<br></div></dd><dd>5. Use your&#160;credentials to sign into Control4&#58;</dd><dd><div>
             <br>
          </div></dd></dl></blockquote><dl><dd><dl class="ssw15-rteElement-ImageArea">
          <img src="/SiteAssets/use-control4-app/Control4Rule-LogIn-ScreenShot.png" alt="Control4 3.png" style="margin&#58;5px;width&#58;500px;height&#58;889px;" />
