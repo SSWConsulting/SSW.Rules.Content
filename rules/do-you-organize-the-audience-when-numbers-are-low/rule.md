@@ -11,11 +11,11 @@ authors:
 
 
 
-<span class='intro'> Audience shots are great except when you don’t have a full house.​​ In this case you should move people to be next to each other.<br> </span>
+<span class='intro'> ​Audience shots are great except when you don’t have a full house.​​ In this case you should move people to be next to each other.<br> </span>
 
 <dl class="badImage">​
 <dt>​<img src="/PublishingImages/bad-audience.jpg" alt="bad-audience.jpg" /></dt><dd>Figure&#58; Bad example – the audience shot shows the bad numbers. It would be better to not use this view</dd></dl><dl class="badImage">​
 <dt>​<img src="/PublishingImages/bad-audience-2.jpg" alt="bad-audience-2.jpg" /></dt><dd>Figure&#58; Bad example – the audience shot shows the bad numbers. You want to use this wide shot, but you need to make sure the attendees not in the shot are moved so their head is visible</dd></dl><dl class="goodImage">​
-<dt><img src="/PublishingImages/good-audience.jpg" alt="good-audience.jpg" /></dt><dd>Figure&#58; Good example – a shot from the <a href="https&#58;//www.ssw.com.au/ssw/events/venues/hire-conference-room.aspx" target="_blank">SSW Chapel​</a> where the audience has been moved so they are in shot</dd></dl>​​<br>
+<dt><img src="/PublishingImages/good-audience.jpg" alt="good-audience.jpg" /></dt><dd>Figure&#58; Good example – a shot from the <a href="https&#58;//www.ssw.com.au/ssw/events/venues/hire-conference-room.aspx" target="_blank">SSW Chapel​</a> where the audience has been moved so they are in shot</dd></dl>​​TIP&#58; To ensure you get the best shot possible, fill seating&#160;from the front back. It's​&#160;a good idea to use VIP signs and place them on the back row to prevent people sitting there initially. These can be moved later when all seats are filled at the front.<div><br></div><div><img src="/SiteAssets/organize-the-audience-when-numbers-are-low/vip.jpg" alt="vip.jpg" style="margin&#58;5px;width&#58;808px;" /><br><div><br></div></div>
 
 
