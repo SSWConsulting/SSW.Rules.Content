@@ -13,8 +13,8 @@ related: []
 ---
 
 
-Enter Intro Text
+People don’t act like robots and answer the same way all the time. Neither should bots!&#160; All you need is a few different welcome messages and use a rand() function.<br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<dl class="goodImage"><dt>​​​<img src="/PublishingImages/bots-responses.jpg" alt="bots-responses.jpg" /></dt><dd>Figure&#58; Good examples - responses vary depending on the entries​​<br></dd></dl>
 
 
