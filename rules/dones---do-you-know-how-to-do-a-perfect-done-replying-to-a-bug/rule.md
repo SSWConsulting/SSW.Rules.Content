@@ -14,7 +14,7 @@ authors:
 
 
 <span class='intro'> To reply to a bug effectively and efficiently in your emails, you need to include&#58; 
- </span>
+<br> </span>
 
 
   <ul>
