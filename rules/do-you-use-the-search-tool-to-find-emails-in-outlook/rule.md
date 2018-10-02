@@ -17,7 +17,7 @@ related: []
 ---
 
 
-Looking manually through your Outlook sent items is something you shouldn't&#160;be doing. The better way is to use Outlook &quot;search&quot; functionality.
+Looking manually through your Outlook sent items is something you shouldn't&#160;be doing. The better way is to use Outlook &quot;search&quot; functionality.<br>
 <br><excerpt class='endintro'></excerpt><br>
 <p><a href="http&#58;//office.microsoft.com/en-001/outlook-help/learn-to-narrow-your-search-criteria-for-better-searches-in-outlook-HA010238831.aspx" target="_blank">Learn to narrow your search criteria for better searches in Outlook​​</a>.</p>
 
