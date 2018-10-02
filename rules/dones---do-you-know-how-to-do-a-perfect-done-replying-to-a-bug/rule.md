@@ -16,7 +16,7 @@ related: []
 
 
 To reply to a bug effectively and efficiently in your emails, you need to include&#58; 
-
+<br>
 <br><excerpt class='endintro'></excerpt><br>
 
   <ul>
