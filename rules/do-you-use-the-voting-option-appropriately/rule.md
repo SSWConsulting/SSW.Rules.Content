@@ -16,7 +16,7 @@ related: []
 
 
 Usually when an employee from the company wants to make a decision about either a naming convention, a button style, using user-controls or forms, or even something as simple as changing a font; there should always be reassurance from the rest of the team that it should/should not be done. 
-
+<br>
 <br><excerpt class='endintro'></excerpt><br>
 
   <img class="ms-rteCustom-ImageArea" alt="Outlook Voting" src="/PublishingImages/OutlookVoting.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - using the voting buttons option.</span>
