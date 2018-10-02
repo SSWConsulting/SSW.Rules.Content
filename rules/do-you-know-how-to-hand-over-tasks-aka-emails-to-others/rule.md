@@ -56,7 +56,7 @@ keeps crashing when I do a search under 'Company', please fix
 </span><span class="ms-rteCustom-FigureGood">Figure&#58; Good example - task clearly redirected</span> <br>
 <br>
 <p>If you need to handover an entire project there are more details here&#58;<br>
-<a shape="rect" href="/do-you-know-how-to-handover-a-project">http&#58;//rules.ssw.com.au/Management/RulesToSuccessfulProjects/Pages/HandOverProject.aspx</a> </p>
+<a shape="rect" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7f4ea680-012b-4d7c-9fb8-ca94c21f6c5c">http&#58;//rules.ssw.com.au/Management/RulesToSuccessfulProjects/Pages/HandOverProject.aspx</a> </p>
 
 
 
