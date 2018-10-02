@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">​OK - so now you've got your important emails identified, don't let them get lost in the quagmire. If you use Outlook make use of its inbuilt functionality. Always sort your emails by the Received, but add a secondary sort by &quot;Important&quot;. This way your important emails always stay at the top to haunt you until they are done. </p>
+<p class="ssw15-rteElement-P">​OK - so now you've got your important emails identified, don't let them get lost in the quagmire. If you use Outlook make use of its inbuilt functionality. Always sort your emails by the Received, but add a secondary sort by &quot;Important&quot;. This way your important emails always stay at the top to haunt you until they are done. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <div><p><img class="ms-rteCustom-ImageArea" alt="Sort by Recieved and Important" src="/PublishingImages/OutlookSortbyReceivedThenImportant.gif" /><br><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example - Sorted by Important and Received Date</font><br>The Red Exclamation Mark is a good start, but&#160;the Blue Arrow&#160;keeps getting my attention.</p>
 <p>Use sort by importance to sort the items with the blue arrow to the bottom.</p></div>
