@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> Improper spelling, grammar, and punctuation on your emails&#160;give a bad impression of your company. It looks unprofessional and can result in your message not being conveyed correctly. To ensure this doesn't happen, use Microsoft&#160;Outlook Spelling &amp; Grammar Checker on the 'Editor Options' window.<br>
+<span class='intro'> ​​Improper spelling, grammar, and punctuation on your emails&#160;give a bad impression of your company. It looks unprofessional and can result in your message not being conveyed correctly. To ensure this doesn't happen, use Microsoft&#160;Outlook Spelling &amp; Grammar Checker on the 'Editor Options' window.<br>
  </span>
 
 ​<dl class="image"><dt> 
