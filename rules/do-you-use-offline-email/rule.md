@@ -15,14 +15,10 @@ related: []
 ---
 
 
-And remember to periodically select &quot;Check All Subfolders&quot; to make sure all folders are being synced in your .ost file<br>
+​​And remember to periodically select &quot;Check All Subfolders&quot; to make sure all folders are being synced in your .ost file.<br>
 <br>
 
 <br><excerpt class='endintro'></excerpt><br>
-
-  <img border="0" src="/PublishingImages/offline.JPG" alt="offline" class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" />
-<span class="ms-rteCustom-FigureNormal">Figure&#58; Periodically check that all your mail folders are being synced in your offline.ost file
-</span>
-
+<dl class="image"><dt><img src="/PublishingImages/offline.JPG" alt="offline" /></dt><dd>Figure&#58; Periodically check that all your mail folders are being synced in your offline.ost file </dd> </dl>
 
 
