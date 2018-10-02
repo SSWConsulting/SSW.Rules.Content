@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">​​​​Often your conv​ersation flow with someone will go from a phone call, to emails, to&#160;an appointment, and then back to emails.</p><p class="ssw15-rteElement-P"><span style="color&#58;#444444;">It's nice to be able to look back and see the whole history in 1 thread, so you will need to be able to Reply All to an appointment to continue the email conversation after the meeting.</span></p><p class="ssw15-rteElement-P"><span style="color&#58;#444444;">Outlook makes this easy&#58;</span></p>
+<p class="ssw15-rteElement-P">Often your conversation flow with someone will go from a phone call, to emails, to&#160;an appointment, and then back to emails.<br></p><p class="ssw15-rteElement-P"><span style="color&#58;#444444;">It's nice to be able to look back and see the whole history in 1 thread, so you will need to be able to Reply All to an appointment to continue the email conversation after the meeting.</span></p><p class="ssw15-rteElement-P"><span style="color&#58;#444444;">Outlook makes this easy&#58;</span></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt>
       <img class="ms-rteCustom-ImageArea" alt="Calendar window" src="/SiteAssets/appointments-do-you-remind-attendees-about-tomorrows-appointment/Outlook%201.png" style="width&#58;790px;height&#58;513px;" />
