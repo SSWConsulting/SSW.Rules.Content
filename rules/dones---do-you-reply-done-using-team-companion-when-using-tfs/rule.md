@@ -14,7 +14,7 @@ related: []
 
 
 
-  <p>Before you do the task – say if the task requires a code change and you are using TFS, make sure it goes in as a work item.<a href="/triaging-do-you-correctly-triage-additional-item-requests"> Follow the rule to happy clients - triage rule</a>. </p>
+  <p>​​Before you do the task – say if the task requires a code change and you are using TFS, make sure it goes in as a work item.<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f1e392b8-3793-4e10-96a3-c32d0d0944b4"> Follow the rule to happy clients - triage rule</a>. </p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
