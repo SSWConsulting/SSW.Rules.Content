@@ -19,7 +19,7 @@ related: []
 ---
 
 
-You can improve your Angular  development experience by using some of these recommended packages and modules.<div><br><div>We recommend you use NPM to include them. <br></div></div>
+​You can improve your Angular  development experience by using some of these recommended packages and modules.<div><br><div>We recommend you use NPM to include them. <br></div></div>
 <br><excerpt class='endintro'></excerpt><br>
 <h3 class="ssw15-rteElement-H3">Angular&#160;Bootstrap</h3><p class="ssw15-rteElement-P">Angular&#160;components for Bootstrap 4.<br><a href="https&#58;//ng-bootstrap.github.io/">https&#58;//ng-bootstrap.github.io/</a><br></p><h3 class="ssw15-rteElement-H3">Ng-boostrap</h3><p><b></b>Best way to quickly integrate&#160;Bootstrap 3&#160;or&#160;Bootstrap 4&#160;Components with&#160;Angular.&#160;<br><a href="https&#58;//ng-bootstrap.github.io/">https&#58;//ng-bootstrap.github.io</a><br> 
 </p><h3 class="ssw15-rteElement-H3">OpenID Token Manager</h3><p>Handles management of OpenID authentication and tokens.<br><a href="https&#58;//github.com/IdentityModel/oidc-token-manager">https&#58;//github.com/IdentityModel/oidc-token-manager</a><br></p><p> 
