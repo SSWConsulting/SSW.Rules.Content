@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> ​Debugging JavaScript application can be difficult. Having to console.log results can make for a slow and cumbersome development experience. There are five ways you can debug a JavaScript application without leaning on console.log() as your main tool.​<br> </span>
+<span class='intro'> ​​Debugging JavaScript application can be difficult. Having to console.log results can make for a slow and cumbersome development experience. There are five ways you can debug a JavaScript application without leaning on console.log() as your main tool.​<br> </span>
 
 <h3 class="ssw15-rteElement-H3">Options for Debugging JavaScript applications <br></h3><ol><li>
       <b>Debug your JavaScript using console.log()<br></b>While this is a valid approach it should only be utilized for the simplest of manual debugging tests as they are slow, you have to re-run the app every time, do not allow you to change state mid-flight and developers sometimes forget to clean up after themselves and the code becomes riddled&#160;with console.log statements. <dl class="badImage"><dt> <img src="/PublishingImages/debug-js-1.png" alt="debug-js-1.png" /> </dt><dd>Bad code - Using console.log() to debug your JavaScript<br></dd></dl></li><li> 
