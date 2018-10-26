@@ -28,6 +28,6 @@ index:
 - the-best-ui-framework-for-angular-2
 
 ---
-<p>​​​​Angular (2+) comes with a set of rules and guidelines to get you up and running with the least pain.<br>As of Version 4.0 of the framework, it has been called just&#160;<strong>Angular</strong>​ <strong></strong>​without the version suffix.&#160; <br><br></p>
+<p>Angular (2+) comes with a set of rules and guidelines to get you up and running with the least pain.<br>As of Version 4.0 of the framework, it has been called just&#160;<b>Angular</b> without<strong></strong> the version suffix.<br></p><h3 class="ssw15-rteElement-H3">Want&#160;to build an Angular application?​<br></h3><p>Check <a href="https&#58;//www.ssw.com.au/ssw/Consulting/Angular.aspx">SSW's Angular Consulting page</a>.<br><br></p>
 
 
