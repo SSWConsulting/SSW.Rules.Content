@@ -19,12 +19,10 @@ related:
 ---
 
 
-<p class="MsoListParagraph">​Customized process template is very
-important asset for your team, you should use Source Control to store the
-work-in-progress template so you can track the changes and avoid mistakes.&#160;<br><img src="/PublishingImages/CheckInTemplateIntoSourceControl.png" alt="CheckInTemplateIntoSourceControl.png" class="ssw-rteStyle-ImageArea" style="margin&#58;5px;" /><br><span style="font-weight&#58;bold;">Figure&#58; customized process template in source control​</span>
-</p>
+<p>The customized process template is a very important asset for your team, you should use Source Control to store the work-in-progress template so you can track the changes and avoid mistakes.</p><dl class="image"><dt><img src="/PublishingImages/CheckInTemplateIntoSourceControl.png" alt="CheckInTemplateIntoSourceControl.png" /></dt><dd>Figure&#58; customized process template in source control </dd> </dl>
 <br><excerpt class='endintro'></excerpt><br>
-​You should also keep a version history log in
-ProcessTemplate.xml so you can track the deployed version easily.<img width="628" height="271" src="/PublishingImages/KeepHistoryForTemplate.png" class="ssw-rteStyle-ImageArea" alt="" /><br><b>Figure&#58; ProcessTemplate.xml with version history log&#160;</b>
+​
+<p>You should also keep a version history log in ProcessTemplate.xml so you can track the deployed version easily.</p><dl class="image"><dt><img src="/PublishingImages/KeepHistoryForTemplate.png" alt="keep history" />
+   </dt><dd>Figure&#58; ProcessTemplate.xml with version history log​<br></dd></dl>
 
 
