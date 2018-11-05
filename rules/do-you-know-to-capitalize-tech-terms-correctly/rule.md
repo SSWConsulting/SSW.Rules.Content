@@ -13,22 +13,18 @@ authors:
 
 <span class='intro'> <p>​​​​With so many different capitalization conventions used in technology names, it can be confusing to know which convention to use for which technology.&#160;<br></p> </span>
 
-<blockquote data-lang="en"><p class="ssw15-rteElement-GreyBox">
-      <img src="/PublishingImages/john-bristow-tweet.jpg" alt="John Bristowe tweeted corrections for some commonly mis-capitalised tech names" style="margin&#58;5px;" />
-      <br>
-   </p></blockquote><div>Figure&#58; John Bristowe tackled some of the most commonly confused tech names in this tweet <br></div>
-<br>The main 5 types used are&#58;<br>
-<blockquote class="twitter-tweet" data-lang="en"><ol><li>
-         <span style="line-height&#58;1.5em;">All uppercase – ALL UPPERCASE</span><br></li><li>
-         <span style="line-height&#58;1.5em;">All lower case – all lowercase</span><br></li><li>
-         <span style="line-height&#58;1.5em;">Pascal case - PascalCase​​​</span><br></li><li>
-         <span style="line-height&#58;1.5em;">Camel case – camelCase</span><br></li><li>
-         <span style="line-height&#58;1.5em;">Only</span><span style="line-height&#58;1.5em;"> first letter capitalized - Onlythefirstletter</span><br></li></ol></blockquote> <br>Here’s a quick overview&#58;<br>​
-<blockquote class="twitter-tweet" data-lang="en"><table class="ssw15-rteTable-default" width="100%" cellspacing="0"><tbody><tr><td class="ssw15-rteTable-default" style="width&#58;50%;">
-               <strong>Technology name&#58;</strong></td><td class="ssw15-rteTable-default" style="width&#58;50%;">
+<dl class="image"><dt>
+      <img src="/PublishingImages/john-bristow-tweet.jpg" alt="John Bristowe tweeted corrections for some commonly mis-capitalised tech names" />
+   </dt><dd>Figure&#58; John Bristowe tackled some of the most commonly confused tech names in this tweet</dd></dl><p>The main 5 types used are&#58;</p><ol><li>All uppercase – ALL UPPERCASE<br></li><li>All lower case – all lowercase<br></li><li>Pascal case - PascalCase 
+      <br></li><li>Camel case – camelCase<br></li><li>Only first letter capitalized - Onlythefirstletter 
+      <br></li></ol><div><font color="#333333">​<br></font></div><p>Here’s a quick overview&#58;</p><blockquote class="twitter-tweet" data-lang="en"><table class="ssw15-rteTable-default" width="100%" cellspacing="0"><tbody><tr><td class="ssw15-rteTable-default" style="width&#58;50%;"> 
+               <strong>Technology name&#58;</strong></td><td class="ssw15-rteTable-default" style="width&#58;50%;"> 
                <strong>Capitalisation Convention</strong></td></tr><tr><td class="ssw15-rteTable-default">.NET<br><br></td><td class="ssw15-rteTable-default">All uppercase​​<br><br></td></tr><tr><td class="ssw15-rteTable-default">DevOps<br><br></td><td class="ssw15-rteTable-default">Pascal case<br>​<br></td></tr><tr><td class="ssw15-rteTable-default">​JavaScript<br><br></td><td class="ssw15-rteTable-default">Pascal case<br><br></td></tr><tr><td class="ssw15-rteTable-default">jQuery<br><br></td><td class="ssw15-rteTable-default">Camel case<br><br></td></tr><tr><td class="ssw15-rteTable-default">Angular (previously AngularJS)<br><br></td><td class="ssw15-rteTable-default">Only first letter capitalized<br><br></td></tr><tr><td class="ssw15-rteTable-default">SharePoint<br><br></td><td class="ssw15-rteTable-default">Pascal case<br><br></td></tr><tr><td class="ssw15-rteTable-default">email<br><br></td><td class="ssw15-rteTable-default">All lowercase<br><br></td></tr><tr><td class="ssw15-rteTable-default">MVC<br><br></td><td class="ssw15-rteTable-default">All uppercase<br><br></td></tr><tr><td class="ssw15-rteTable-default">CRM<br><br></td><td class="ssw15-rteTable-default">All uppercase<br><br></td></tr><tr><td class="ssw15-rteTable-default">SAP<br><br></td><td class="ssw15-rteTable-default">All uppercase<br><br></td></tr><tr><td class="ssw15-rteTable-default">Salesforce<br><br></td><td class="ssw15-rteTable-default">Only first letter capitalized<br><br></td></tr><tr><td class="ssw15-rteTable-default">gulp​<br><br></td><td class="ssw15-rteTable-default">All lowercase 
                <br>
-               <br></td></tr><tr><td class="ssw15-rteTable-default">Agile<br><br></td><td class="ssw15-rteTable-default">Only first letter capitalized<br><br></td></tr><tr><td class="ssw15-rteTable-default">Scrum<br><br></td><td class="ssw15-rteTable-default"><p>Only first letter capitalized </p><p>(Note&#58; it is not an acronym, so it should never be spelled &quot;SCRUM&quot;)​<br></p></td></tr></tbody></table></blockquote> <dl class="ssw15-rteElement-ImageArea"> <img src="/PublishingImages/bad-example-incorrect-capitalization.jpg" alt="Bad example&#58; This banner uses the wrong capitalization convention" style="margin&#58;5px;" /> </dl><dd class="ssw15-rteElement-FigureBad">Figure&#58; bad example. If you want to be taken seriously as an expert in the subject, you should properly and consistently spell, punctuate, and capitalize the technology you are working with.&#160; <br></dd><p class="ssw15-rteElement-P">​<br></p><dl class="ssw15-rteElement-ImageArea"> <img src="/PublishingImages/good-example-correctly-capitalized.jpg" alt="Good example&#58; This banner shows the correct capitalization for .NET" style="margin&#58;5px;" /> </dl><p class="ssw15-rteElement-P">
-</p><div><dd class="ssw15-rteElement-FigureGood">Figure&#58; good example – the technology is consistently capitalized correctly across the page .</dd> <br></div>
+               <br></td></tr><tr><td class="ssw15-rteTable-default">Agile<br><br></td><td class="ssw15-rteTable-default">Only first letter capitalized<br><br></td></tr><tr><td class="ssw15-rteTable-default">Scrum<br><br></td><td class="ssw15-rteTable-default"><p>Only first letter capitalized </p><p>(Note&#58; it is not an acronym, so it should never be spelled &quot;SCRUM&quot;)​<br></p></td></tr></tbody></table></blockquote><dl class="badImage"><dt>
+      <img src="/PublishingImages/bad-example-incorrect-capitalization.jpg" alt="Bad example&#58; This banner uses the wrong capitalization convention" /> 
+   </dt><dd>Figure&#58; Bad example - If you want to be taken seriously as an expert in the subject, you should properly and consistently spell, punctuate, and capitalize the technology you are working with</dd></dl><dl class="goodImage"><dt>
+         <img src="/PublishingImages/good-example-correctly-capitalized.jpg" alt="Good example&#58; This banner shows the correct capitalization for .NET" />
+      </dt><dd>Figure&#58; Good example – the technology is consistently capitalized correctly across the page​<br></dd></dl>
 
 
