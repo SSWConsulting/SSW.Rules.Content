@@ -17,7 +17,7 @@ related: []
 ---
 
 
-Replying inline can mess up the history of the email thread. What you should do is to&#160;copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact.<br><br>It's important to write your comments in a different color. You might want to mention what color your comments are in (sometimes there is more than one person making in-line comments).&#160; Make sure what you type should always be aligned left, not indented. Remember, if you write emails with one issue at a time you won't need to do this too often. <br>
+<p class="ssw15-rteElement-InfoBox"><b>Warning&#58;</b> there is very rarely a reason to use inline – avoid it.&#160; You should copy the tasks and paste in your response area ​instead.<br></p><div><br></div><div>Replying inline can mess up the history of the email thread. What you should do is to&#160;copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact.<br><br>It's important to write your comments in a different color. You might want to mention what color your comments are in (sometimes there is more than one person making in-line comments).&#160; Make sure what you type should always be aligned left, not indented. Remember, if you write emails with one issue at a time you won't need to do this too often. <br></div>
 <br><excerpt class='endintro'></excerpt><br>
 <span class="ms-rteCustom-GreyBox"> <p>-----Original Message-----</p>
    <p>From&#58; Daniel Hyles www.ssw.com.au<br>Sent&#58; Tuesday, 28 May 2002 7&#58;31 AM<br>To&#58; Adam Cogan www.ssw.com.au<br>Subject&#58; FW&#58; Morning Goals</p>
