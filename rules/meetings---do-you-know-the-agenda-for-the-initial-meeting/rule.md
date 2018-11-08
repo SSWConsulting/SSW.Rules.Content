@@ -50,17 +50,17 @@ authors:
                         with the business owner or a line manager in a corporation? Do they have a fixed
                         amount to spend? Do they have a time period to spend it in?​</li>
                     <li>Listen - Find out if this is the sort of project you can do and want to do</li>
-                    <li>Listen - Qualify the client to make sure they can afford what they want</li>
-                    <li>Consider technology options</li>
+                    <li>Listen - Qualify the client to make sure they can afford what they want<br></li>
+                    <li>Consider technology options<br></li>
                     <li>Introduce your&#160;team, explain&#160;how our involvement
                         can​ help them, and whether you&#160;have a 'good fit'</li>
                     <li>Explain your&#160;rates, including pre-paid</li>
-                    <li>Explain the strengths and challenges of a Time and Materials or Fixed Price approach</li>
-                    <li>Explain our development method including the importance of a Specification Review</li>
-                    <li>Take exceptional notes</li>
+                    <li>Explain the strengths and challenges of a Time and Mat​erials or Fixed Price approach</li>
+                    <li>Explain our development method including the importance of a Specification Review<br></li>
+                    <li>Take exceptional notes<br></li>
                     <li>Ask for the sale&#58; &quot;This project is right up our alley and we'd love to be involved,
                         is there anything stopping you&#160;from scheduling a <a href="/Pages/Ensure-an-excellent-1st-date.aspx">
-                        Specification Review</a>?&quot; This will focus the mind of the client on the next step​</li>
+                        Specification Review</a>?&quot; This will focus the mind of the client on the next step​</li><li>Leave a bit of marketing collateral behind. Branded Notepads or USB sticks are ideal.<br></li>
                 </ul>
                 <dl class="image">
                     <dt>
