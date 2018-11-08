@@ -38,7 +38,7 @@ authors:
                         client and what level of project management they require. E.g. if a project must
                         be delivered by June 30, a high level of management will be required to ensure enough
                         resources are supplied to achieve this</li>
-                    <li>Listen - Understand as much as you can about the processes/business rules the system has
+                    <li>Listen - Understand as much as you can about the processes/business rules the sy​stem has
                         to manage. Every level of detail you can correctly comprehend and confirm back builds
                         your credibility as a good communicator&#160;and supplier!</li>
                     <li>Listen - Assess the overall scope of the project, i.e. is this a&#160;​'small', 'medium' or 'large'
@@ -56,7 +56,7 @@ authors:
                         can​ help them, and whether you&#160;have a 'good fit'</li>
                     <li>Explain your&#160;rates, including pre-paid</li>
                     <li>Explain the strengths and challenges of a Time and Mat​erials or Fixed Price approach</li>
-                    <li>Explain our development method including the importance of a Specification Review<br></li>
+                    <li>Explain our Scrum development method including the importance of a Specification Review<br></li><li>Potentially explain their role as the Product Owner and show a bit of the <a href="https&#58;//www.youtube.com/watch?v=3eljozEWpf8">Product Owner video</a><br></li>
                     <li>Take exceptional notes<br></li>
                     <li>Ask for the sale&#58; &quot;This project is right up our alley and we'd love to be involved,
                         is there anything stopping you&#160;from scheduling a <a href="/Pages/Ensure-an-excellent-1st-date.aspx">
