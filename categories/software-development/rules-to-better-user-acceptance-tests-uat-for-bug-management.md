@@ -19,6 +19,6 @@ index:
 - do-you-use-problem-steps-recorder
 
 ---
-<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;<br></p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">SSW Consulting Services&#160; </a>and book in a consultant.</p>
+<p>​ Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;<br></p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">SSW Consulting Services&#160; </a>and book in a consultant.</p>
 
 
