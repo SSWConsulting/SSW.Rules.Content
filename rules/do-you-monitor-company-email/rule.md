@@ -13,9 +13,7 @@ authors:
 
 
 
-<span class='intro'> 
-Following from the previous rule, if email is actually the property of the employer, then it makes sense to actually track who is sending emails to whom. 
- </span>
+<span class='intro'> Following from the previous rule, if email is actually the property of the employer, then it makes sense to actually track who is sending emails to whom. <br> </span>
 
 
   <p>Using the Microsoft Exchange Web Storage System, you should&#160;track the number of emails sent internally (i.e. to a colleague) and emails sent to clients in your&#160;corporate database.</p>
