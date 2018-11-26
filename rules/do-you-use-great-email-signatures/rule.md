@@ -17,8 +17,8 @@ authors:
 
 
 
-<span class='intro'> <p>Email signatures are great when they&#58;<br></p><ul><li>Have a little&#160;branding&#160;and&#160;advertising&#160;(can be a tagline or company news), so people know instantly who it is from</li><li>Include your phone number (in international format - it's important to add the country code so people from all around the world can easily add you&#160;to their contacts)</li><li>Include the company website link</li><li>Include work-related&#160;social media and blog link</li>
-   <li>Include your position and city/country&#160;where you are based <br></li></ul> </span>
+<span class='intro'> <p>Email signatures are great when they&#58;<br></p><ul><li>Have a little&#160;<b>branding</b>&#160;and&#160;advertising&#160;(can be a tagline or company news), so people know instantly who it is from</li><li>Include your <b>phone number</b> (in international format - it's important to add the country code so people from all around the world can easily add you&#160;to their contacts - as per&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=19e719e8-a1ff-47c4-a642-5c7e3189f25e">Do you know the right format to show phone numbers? </a>)</li><li>Include the company <b>website link</b></li><li>Include work-related&#160;<b>social media</b> and <b>blog</b> link</li>
+   <li>Include your <b>position</b>&#160;</li><li>Include your​ <b>location</b> (city/country) where you are based <br></li></ul> </span>
 
 <h3>Long Signature</h3><p> 
    <b>Use the complete &quot;long signature&quot; when sending a new email to a client.</b> </p><p>This is created in HTML and goes well on emails with Word used as the email editor. Include some product advertising and rotate on a monthly basis to coincide with what's on your homepage and monthly newsletter. It should have the com pany colors&#160;somewhere.<br></p><dl class="image"><dt> <img src="/SiteAssets/great-email-signatures/outlook-signature.png" alt="outlook-signature.png" style="max-width&#58;100%;" /> <br>
