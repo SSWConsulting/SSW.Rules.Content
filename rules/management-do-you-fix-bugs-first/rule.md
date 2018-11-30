@@ -15,16 +15,16 @@ redirects: []
 
 
 
-  <p>This rule has been important for a long time&#58; Fix bugs/issues before adding functionality/improvements. <br></p>
+  <p>This rule has been important for a long time&#58; Fix bugs before adding functionality.​<br></p>
 <ul>
-    <li>Bugs and issues get more expensive as they get older</li>
-    <li>Bugs and issues become more complex the longer you wait to fix them</li>
-    <li>You have better access to the developer or person who created it who will be able to solve&#160;it faster<br></li>
+    <li>Bugs get more expensive as they get older<br></li>
+    <li>Bugs become more complex the longer you wait to fix them</li>
+    <li>You have better access to the developer&#160;who created it who will be able to fix it&#160;faster<br></li>
 </ul>
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p></p><p>Failing to follow this rule encourages developers and creators to focus on new 'interesting' functionality and improvements which is exactly what you don't want...<br>You must be strong in the face of pressures from project plan scheduling!<br><br></p>
+  <p></p><p>Failing to follow this rule encourages developers and creators to focus on new 'interesting' functionality&#160;which is exactly what you don't want...<br>You must be strong in the face of pressures from project plan scheduling!<br><br></p>
 
 
 
