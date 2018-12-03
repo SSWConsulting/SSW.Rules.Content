@@ -12,7 +12,7 @@ authors:
 
 
 <span class='intro'> 
-  <p>A migration from one technology to another is a process fraught with danger. Everyone would love the &quot;upgrade&quot; button to work perfectly but it doesn't. Expect any migration to fail first go. Any statement that &quot;I didn't expect to have any problems&quot; shows inexcuseable ignorance. </p>
+  <p>A migration from one technology to another is a process fraught with danger. Everyone would love the &quot;upgrade&quot; button to work perfectly but it doesn't. Expect any migration to fail first go. Any statement that &quot;I didn't expect to have any problems&quot; shows inexcusable ignorance. <br></p>
  </span>
 
 
@@ -36,7 +36,7 @@ authors:
     </li>
     <li>Phone system to VoIP
     </li>
-    <li>etc </li>
+    <li>etc.​ </li>
 </ol>
 
 
