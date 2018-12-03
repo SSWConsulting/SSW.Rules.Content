@@ -15,15 +15,15 @@ redirects: []
 
 
 The best developers are also extremely good at finding a solution to a problem they don't know. 
-
+<br>
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>I am pretty good at Googling but&#160;when I can't find something, I ask my friend Scott on IM. Scott Hanselman is the best Googler I know. He can find anything in 2 minutes...</p>
 <strong>Tips&#58;</strong>
 <ol>
-    <li>Think of a piece of the code that will be in the answer </li>
+    <li>Think of a piece of the code that will be in the answer</li>
     <li>Include the company name if possible </li>
-    <li>Use the advanced searching functionality </li>
+    <li>Use the advanced searching functionality​ </li>
     <li>Use quotation marks when you're searching for an exact string </li>
     <li>Include the technology used if appropriate</li>
 </ol>
