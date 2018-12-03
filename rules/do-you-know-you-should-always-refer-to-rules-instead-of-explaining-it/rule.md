@@ -11,10 +11,10 @@ authors:
 
 
 
-<span class='intro'> 
-  <p>When a new programmer on your team needs to get up and running on the SharePoint image you know the right and wrong way to say it.</p>
-<span class="ms-rteCustom-GreyBox">Sit with John Liu and he will get you up on our SharePoint image </span><span class="ms-rteCustom-FigureBad">Bad Example&#58; Explain how to run the SharePoint image</span> <span class="ms-rteCustom-GreyBox">Get the URL to the standard from our intranet, if the standard is unclear, check your changes with John Liu and then make them</span> <span class="ms-rteCustom-FigureGood">Good Example&#58; Refer to SharePoint rules</span> 
- </span>
+<span class='intro'> <p>​When a new programmer on your team needs to get up and running on the SharePoint image you know the right and wrong way to say it.</p><div class="ms-rteCustom-GreyBox">Sit with John Liu and he will get you up on our SharePoint image ​​​</div>
+<span class="ms-rteCustom-FigureBad">Bad Example&#58; Explain how to run the SharePoint image</span>
+<div class="ms-rteCustom-GreyBox">​Get the URL to the standard from our intranet, if the standard is unclear, check your changes with John Liu and​​ then make them</div>
+​<span class="ms-rteCustom-FigureGood">Good Example&#58; Refer to SharePoint rules</span> </span>
 
 
 
