@@ -15,7 +15,7 @@ redirects: []
 
 
 
-  <p>Developers are notoriously unhealthy people. They don't exercise enough, don't sleep enough and eat the wrong food. An unhealthy developer is not going to be able to concentrate or put in the hard-yards when required, nor are they going to be very happy. In the office I try to look after them as best I can by&#58;</p>
+  <p>Developers are notoriously unhealthy people. They don't exercise enough, don't sleep enough and eat the wrong food. An unhealthy developer is not going to be able to concentrate or put in the hard-yards when required, nor are they going to be very happy. In the office I try to look after them as best I can by&#58;<br></p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -26,7 +26,7 @@ redirects: []
     </li>
     <li>Encouraging them to do as much exercise as possible - even doing push-ups every day.
     </li>
-    <li>And instead of dinners for birthdays where you eat and drink all night, every few months we always do something fun for someone's birthday, like indoor climbing, ten-pin bowling or even a bush walk in the Blue Mountains.</li>
+    <li>And instead of dinners for birthdays where you eat and drink all night, every few months we always do something fun for someone's birthday, like indoor climbing, ten-pin bowling or even a bush walk in the Blue Mountains.​<br></li>
 </ul>
 <p>I also conduct a monthly weigh-in, with incentives to look after yourself. I don't encourage my developers to stay up all night investigating new stuff, and I take them away for a two weeks every year to work by the beach and get some fresh air into their system, as well some early morning swims. </p>
 <p>I find that encouraging a healthy life-style really helps my team be more productive and have more fun. </p>
