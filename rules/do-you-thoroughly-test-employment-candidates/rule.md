@@ -15,7 +15,7 @@ redirects: []
 
 
 
-  <p>Do you rely entirely on the claims of Recruitment Agencies when selecting new employees? If you do, it may be a very costly mistake. I have been giving coding tests to new employees for 10 years. A candidate has to prove they can walk the walk before they can join our team. </p>
+  <p>​Do you rely entirely on the claims of Recruitment Agencies when selecting new employees? If you do, it may be a very costly mistake. I have been giving coding tests to new employees for 10 years. A candidate has to prove they can walk the walk before they can join our team. <br></p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
