@@ -25,7 +25,7 @@ Using Expression + SketchFlow, you can&#58;</p>
 </ul>
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img alt="" width="487" height="299" class="ms-rteCustom-ImageArea" src="/PublishingImages/sketchflow.jpg" /> <br>
+  <img width="487" height="299" class="ms-rteCustom-ImageArea" src="/PublishingImages/sketchflow.jpg" alt="" /> ​<br>
 <font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Expression + SketchFlow</font>
 <p>Read <a href="/Pages/SpecificationByMockUp.aspx">Do you conduct specification analysis by creating mock-ups?</a> to learn more about other mock-up types.</p>
 
