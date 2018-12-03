@@ -15,7 +15,7 @@ redirects: []
 
 
 
-  <p>It is common during the course of a project to assemble a pile of papers of notes and other information related to the client you are working with. Some of these will be tasks that relate to the project, some will be general information that does not require any action, and some will have no use. In any case, it's important that you don't lose anything that may be needed later. </p>
+  <p>​It is common during the course of a project to assemble a pile of papers of notes and other information related to the client you are working with. Some of these will be tasks that relate to the project, some will be general information that does not require any action, and some will have no use. In any case, it's important that you don't lose anything that may be needed later. <br></p>
 At SSW we use the following system for managing papers around the office&#58; 
 
 <br><excerpt class='endintro'></excerpt><br>
