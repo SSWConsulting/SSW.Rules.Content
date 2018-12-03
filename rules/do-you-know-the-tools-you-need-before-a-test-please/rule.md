@@ -17,7 +17,7 @@ redirects:
 
 Don't let your client find bugs in production that they would have found if you had asked them to do a 'Test Please' 1st<br>
 Better still... Don't let your client find bugs that your internal tester would have found.<br>
-Better still... Don't let your tester find bugs that a tool could have found?<br>
+Better still... Don't let your t​ester find bugs that a tool could have found?<br>
 <br>
 So, prior to a version being submitted to the client, these are the 4 steps you should follow&#58; 
 
