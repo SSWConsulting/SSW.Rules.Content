@@ -15,7 +15,7 @@ authors:
 Microsoft tools are the most important tools&#160;we have, but they only cover the first 90%. I spend most of my time using Outlook, Visual Studio .NET, SQL Server Management Studio. However Microsoft tools don'​t do everything. Rather than spending our time recreating the wheel, we should always look out for non-Microsoft options or extensions that will save me time.
  </span>
 
-We have 
-<a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/Favourite3rdPartyTools.aspx">these 3rd party tools</a> installed and they make us better than developer next to us.<br>
+<p class="ssw15-rteElement-P">We have 
+   <a href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/Favourite3rdPartyTools.aspx">these 3rd party tools</a> installed and they make us better than developer next to us.<br></p>
 
 
