@@ -23,7 +23,6 @@ redirects:
 <p class="ssw15-rteElement-GreyBox">What do you want to charge for Cameron's rate?<br></p><dd class="ssw15-rteElement-FigureBad">
    Figure&#58; Bad Example - Nothing to approve 
    <br></dd><p class="ssw15-rteElement-GreyBox">What do you want to charge for Cameron's rate?<br><br>I would advise the standard $165 + GST until he has more experience.<br>Please approve.<br></p>
-<br>
 <div><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example 
       <br></dd><p>When you are giving someone multiple options, you&#160;should recommend one and state why. For example&#58;</p><p class="ssw15-rteElement-GreyBox">When you are giving someone multiple options, you&#160;should recommend one and state why. For example&#58;<br>We want to integrate our database with our website so that customers can purchase online.<br><br>The choices&#58; Buy a&#160;ready-made solution -&#160;The ready-made solution is cheap but it does not have everything that we need and has unnecessary features.<br><br><b>Option A</b>&#160;- Buy a&#160;ready-made solution -&#160;The ready-made solution is cheap but it does not have everything that we need and has unnecessary features. 
       <br>
