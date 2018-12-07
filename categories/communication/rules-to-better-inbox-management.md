@@ -15,6 +15,6 @@ index:
 - do-you-unsubscribe-from-irrelevant-newsletters
 
 ---
-<p>​​​​​​​<br></p>
-
+<p>​​​​​​​​<br></p>
+<p>According to Statista, 269 billion emails were sent per day in 2017. That’s a lot of emails, and they can pile up fast - which is why it’s so important to keep your inbox under control. Emails are legal documents and should be treated with the same care as any other correspondence with clients or employees. You should endeavour to keep your inbox as a to-do list only and know how to file or delete emails as necessary so that your inbox reflects an accurate record of requests, conversations, and decisions.</p><p>Just as <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=9775587d-d391-4b7d-8654-96953eeb9cfc">Rules to Better Email </a> is about how to best write and use emails, Rules to Bette r Inbox Management covers how best to organise and store emails. An analogue equivalent to these rules might be “How to write books” and “How to organise your library”.</p><p>Read on to see our top tips on how to manage your Inbox.<br></p><br>
 
