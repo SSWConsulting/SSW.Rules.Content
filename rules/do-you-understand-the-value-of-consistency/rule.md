@@ -14,10 +14,9 @@ redirects: []
 ---
 
 
-If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get&#58; <br>
+<p class="ssw15-rteElement-P">​If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get&#58; <br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<img src="/PublishingImages/consitency.png" alt="" style="float&#58;right;margin-left&#58;10px;" />&#160;<p>Say we are creating a windows forms application. We can expect to&#58;</p>
-<ul><li><b> Improve productivity - because there are fewer decisions to make, and you build on existing work.</b> <br>For example, we don't need to discuss the pros and cons of MDI versus SDI because there is <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI" shape="rect">already a standard.</a> </li>
+<img src="/PublishingImages/consitency.png" alt="" style="float&#58;right;margin-left&#58;10px;" />Say we are creating a windows forms application. We can expect to&#58;<ul><li><b> Improve productivity - because there are fewer decisions to make, and you build on existing work.</b> <br>For example, we don't need to discuss the pros and cons of MDI versus SDI because there is <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI" shape="rect">already a standard.</a> </li>
 <li><b>Improve quality - because you are following best practices.</b><br>For example, which logging library is better out of <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement" shape="rect">Microsoft Application Block</a> or <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net" shape="rect">Log4NET</a>.</li>
 <li><b>Improve communications - because people know what to expect.</b> <br>For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we <a href="/Pages/BugDefinition.aspx" shape="rect">define what's a bug.</a> </li>
 <li><b>Get straight to the meat of the customer's problem.</b><br>For example, our developers don't need to decide whether to implement base forms or user controls. They already know because it's covered in <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls" shape="rect">Rules to Better Windows Forms Applications.</a> </li></ul>
@@ -38,7 +37,7 @@ If you need to do something more than once, then there should be a standard for 
 <p>I would have been embarrassed to ask for these things, let alone to give my reasons for wanting them. They were all so totally emotional, so illogical. How could I have explained them, or justified them, without appearing to be a boob?</p>
 <p>What the barber did was to give me a delightful experience and then take it away.</p>
 <p>What you do in your model is not nearly as important as doing what you do the same way, each and every time.</p></div>
-<dl><dd class="ssw15-rteElement-FigureNormal">​Figure&#58; The Barber gave an inconsistent experience. Excerpt from &quot;The E Myth&quot; page 10 </dd><br></dl>
+<dl><dd class="ssw15-rteElement-FigureNormal"> Figure&#58; The Barber gave an inconsistent experience. Excerpt from &quot;The E Myth&quot; page 10 </dd><br></dl>
 <p>Standards don't need to come at the expense of creativity. Following standards means less time doing the administrative stuff and more time for the creative. Of course, standards are works in progress, and so we are always on the lookout for improvements. That's why standards should be shared with everyone.</p>
 
 
