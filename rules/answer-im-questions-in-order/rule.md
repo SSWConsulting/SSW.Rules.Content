@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-If you get a few questions, answer IM questions in order.<br><br>
+If you receive more than 1&#160;question in an IM chat, answer each question&#160;in order, so the conversation is clear.​<br><br>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​<br><br></p>
 
