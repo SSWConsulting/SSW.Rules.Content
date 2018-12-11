@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> Always start your answer to a question with ‘Yes’ or ‘No’ first, then follow that with your opinion.​<br> </span>
 
 
 
