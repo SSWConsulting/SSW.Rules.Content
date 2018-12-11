@@ -13,7 +13,7 @@ related: []
 ---
 
 
-Enter Intro Text
+Always start your answer to a question with ‘Yes’ or ‘No’ first, then follow that with your opinion.​<br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
