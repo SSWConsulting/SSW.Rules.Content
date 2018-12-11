@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> <p style="margin&#58;5.25pt 0cm 5.25pt 15pt;line-height&#58;16.8pt;"><span style="font-size&#58;9pt;font-family&#58;verdana, sans-serif;color&#58;black;">Always try to ping someone on IM first with &quot;can I call you
-now?&quot;, because they might be with a client, or in a session.​</span></p><p style="margin&#58;5.25pt 0cm 5.25pt 15pt;line-height&#58;16.8pt;"><span style="font-size&#58;9pt;font-family&#58;verdana, sans-serif;color&#58;black;">The exception to this rule is when you're blocked and cannot proceed with a task without speaking to them.&#160;</span></p> </span>
+<span class='intro'> <p>​Always try to ping someone on IM first with &quot;can I call you now?&quot;, because they might be with a client, or in a session.​</p>
+<p>The exception to this rule is when you're blocked and cannot proceed with a task without speaking to them.&#160;</p> </span>
 
 
 
