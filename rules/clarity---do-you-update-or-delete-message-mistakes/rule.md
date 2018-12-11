@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> If the message you type has a mistake, update it (or delete it) so the recipient&#160;doesn't see the&#160;mistake.​<br> </span>
 
 
 
