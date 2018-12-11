@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-Enter Intro Text
+If the message you type has a mistake, update it (or delete it) so the recipient&#160;doesn't see the&#160;mistake.​<br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
