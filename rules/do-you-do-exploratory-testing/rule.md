@@ -43,6 +43,6 @@ authors:
          </dt><dd>Figure&#58; Test &amp; Feedback start session button</dd></dl></li><li>Upload the screenshot to a PBI.
       <p></p><dl class="image"><dt> 
             <img src="/PublishingImages/pbi-screenshot.jpg" alt="pbi-screenshot.jpg" style="width&#58;750px;" /> 
-         </dt><dd>Figure&#58; PBI in Visual Studio Team Services (VSTS)&#160;showing the screenshot<br></dd></dl></li></ol><h3>​Related Links<br></h3><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eaa11776-38b4-4178-87ec-2e9aabe3f76e">Do you use Exploratory Testing to create Acceptance Tests?​</a><br></li></ul>
+         </dt><dd>Figure&#58; PBI in Visual Studio Team Services (VSTS)&#160;showing the screenshot<br></dd></dl></li></ol><h3>​Related Links<br></h3><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eaa11776-38b4-4178-87ec-2e9aabe3f76e">Do you use Exploratory Testing to create Acceptance Tests?​</a><br></li><li><a href="https&#58;//docs.microsoft.com/en-us/azure/devops/test/explore-workitems-exploratory-testing">Azure DevOps -&#160;Explore work items with the Test &amp; Feedback extension​</a>​<br></li></ul>
 
 
