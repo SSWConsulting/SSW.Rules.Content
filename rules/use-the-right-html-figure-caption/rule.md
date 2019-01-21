@@ -18,7 +18,7 @@ redirects:
 ---
 
 
-<p>​​Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.​</p>
+<p>​​Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <font class="ms-rteCustom-CodeArea"> <pre>{ltHTMLChar}div{gtHTMLChar}
 {ltHTMLChar}img alt=&quot;&quot;/{gtHTMLChar}
@@ -26,7 +26,7 @@ redirects:
 {ltHTMLChar}/div{gtHTMLChar}
 </pre> </font> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span> 
 <p>Instead, you should use {ltHTMLChar}DL{gtHTMLChar},&#160;{ltHTMLChar}DT{gtHTMLChar} (which is the item in the list – in our case an image) and {ltHTMLChar}DD{gtHTMLChar}for a caption. This structure gives semantic<span style="line-height&#58;20.8px;"> meaning</span> to&#160;the image and&#160;figure. <br></p>
-<font class="ms-rteCustom-CodeArea"> <pre>{ltHTMLChar}dl{gtHTMLChar}
+<font class="ms-rteCustom-CodeArea"> <pre>{ltHTMLChar}dl class=&quot;image&quot;{gtHTMLChar} OR {ltHTMLChar}dl class=&quot;badImage&quot;{gtHTMLChar} OR {ltHTMLChar}dl class=&quot;goodImage&quot;{gtHTMLChar}
 {ltHTMLChar}dt{gtHTMLChar}{ltHTMLChar}img alt=&quot;&quot;/{gtHTMLChar}{ltHTMLChar}/dt{gtHTMLChar}
 {ltHTMLChar}dd{gtHTMLChar}Figure&#58; Caption{ltHTMLChar}/dd{gtHTMLChar}
 {ltHTMLChar}/dl{gtHTMLChar}
