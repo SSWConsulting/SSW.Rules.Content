@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​​Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.​</p>
+<p>​​Most developers put the image and the caption in a DIV tag. The figure is just a paragraph.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <font class="ms-rteCustom-CodeArea"> <pre>&lt;div&gt;
 &lt;img alt=&quot;&quot;/&gt;
@@ -23,7 +23,7 @@ related: []
 &lt;/div&gt;
 </pre> </font> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span> 
 <p>Instead, you should use &lt;DL&gt;,&#160;&lt;DT&gt; (which is the item in the list – in our case an image) and &lt;DD&gt;for a caption. This structure gives semantic<span style="line-height&#58;20.8px;"> meaning</span> to&#160;the image and&#160;figure. <br></p>
-<font class="ms-rteCustom-CodeArea"> <pre>&lt;dl&gt;
+<font class="ms-rteCustom-CodeArea"> <pre>&lt;dl class=&quot;image&quot;&gt; OR &lt;dl class=&quot;badImage&quot;&gt; OR &lt;dl class=&quot;goodImage&quot;&gt;
 &lt;dt&gt;&lt;img alt=&quot;&quot;/&gt;&lt;/dt&gt;
 &lt;dd&gt;Figure&#58; Caption&lt;/dd&gt;
 &lt;/dl&gt;
