@@ -25,7 +25,7 @@ There are a few methods to control a client's machine remotely, all of them have
             <br></dd></dl></li><li>
       <a href="http&#58;//www.ssw.com.au/ssw/Standards/Support/RemoteSupportViaTeamViewer.aspx" shape="rect">TeamViewer</a>&#160;&#160;</li><li>
       <a href="http&#58;//www.skype.com/">Skype</a>&#160;- via screen&#160;share&#160;</li><li>
-      <a href="https&#58;//www.skype.com/en/business/skype-for-business/">Skype for Business (previously Lync)</a></li><li>
+      <a href="https&#58;//www.skype.com/en/business/skype-for-business/">Skype for Business (previously Lync)</a><br></li><li><a href="https&#58;//www.aeroadmin.com/en/">Aeroadmin​</a>&#160;<br></li><li>
       <a href="https&#58;//www.mikogo.com/">Mikogo</a>&#160;(Free)</li><li>
       <a href="https&#58;//www.join.me/">JoinMe</a>&#160;(Free)</li><li>
       <a href="http&#58;//www.ssw.com.au/ssw/Standards/Support/RemoteSupportViaUltraVNC.aspx" shape="rect">UltraVNC</a>&#160;(Free)<br></li></ul><h3 class="ssw15-rteElement-H3">Servers<br></h3><p>For server machines, we recommend using either Windows' built-in Remote Desktop (also knows as &quot;Terminal Services&quot;) or a VNC-based tool. Remote Desktop provides each authenticated user a Windows login session that is not shared.&#160;If your client lives in a place where the time zone is different, Remote Desktop should be your first choice as it doesn't need the client's interaction once Remote Desktop is enabled (typically it should have been enabled for a server for the ease for remote maintenance and monitoring). For servers, Remote Desktop is usually enabled via a group policy (AD GPO), although it can also be enabled through Windows System Properties.<br></p><dl class="image"><dt>
