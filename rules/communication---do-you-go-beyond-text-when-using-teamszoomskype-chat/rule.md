@@ -25,13 +25,12 @@ related:
 <br><excerpt class='endintro'></excerpt><br>
 &#160; &#160;&#160; 
 <div><ol><li>Answe<span style="color&#58;#444444;">r the call with video</span><br></li><li>Sound - Be ready with the headset already on (it looks disorganized plugging it in after you take the call)<br></li><li>Sound - Check the sound quality of the microphone - you need a good mic and it should be close to your mouth - if you are using the laptop mic, sit in close.<br></li><li>Video - Check the image quality of the camera. Beware of the angle of the camera - the ones with thin bezels now put the camera at the base, looking up your nose. Avoid them.<br></li><li>Consider what is in the background&#160;<br></li><li>Help the other person by taking a screenshot and giving them a mark /10 with good and bad feedback of the call quality&#160;and background.<br></li><li>​​Get<span style="color&#58;#444444;"> your video background right. Check&#160; </span> 
-         <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f6b90f42-7f48-4c44-b766-295de647bb47">Rules to Better Branding</a><br></li></ol><dl class="badImage"><dt>
+         <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f6b90f42-7f48-4c44-b766-295de647bb47">Rules to Better Branding</a><br></li></ol><dl class="badImage"><dt> 
          <img src="/SiteAssets/do-you-go-beyond-just-using-skype-chat/Bad-Video-Background-orgn.png" alt="" style="margin&#58;5px;" /> 
-         <br>
-      </dt><dd class="ssw15-rteElement-FigureBad">
-         <strong>Figure&#58; Bad Example - ugly​​​ background eg. Air conditioner</strong><br>​​​​​<br></dd></dl><dl class="goodImage"><dt>
-         <img src="/SiteAssets/do-you-go-beyond-just-using-skype-chat/Good-Video-Background-orgn.png" alt="" style="margin&#58;5px;" /> 
-         <br>
-      </dt><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Good Example - good background​​​<br></dd></dl></div>
+         <br> 
+      </dt><dd>Figure&#58; Bad Example - ugly​​​ background eg. Air conditioner​​​<br></dd></dl><dl class="goodImage"><dt> 
+         <img src="/SiteAssets/do-you-go-beyond-just-using-skype-chat/Good-Video-Background-orgn.png" alt="" style="margin&#58;5px;" />
+         <br> 
+      </dt><dd>​Figure&#58; Good Example - good background​​​<br></dd></dl></div>
 
 
