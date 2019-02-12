@@ -16,14 +16,14 @@ related: []
 <p>
                     The text of a URL should make sense and relate to the content of the relevant page.
                     Apart from helping with Google Juice users frequently read URL's.
-                </p><p>
+                <br></p><p>
                     There are a few options for how you format the text of a URL. The following suggestions
                     are in preference order&#58;
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>Dashes between words&#58; 
-      <b>rules-to-better-website-layouts.aspx</b> - This option appears to be most common and 
-      <a href="http&#58;//www.craigbailey.net/" target="_blank">Craig Bailey</a>​'s ￼ preferred way</li><li>​Capitalize each word (Title Case)&#58; 
+      <b>rules-to-better-website-layouts.aspx<br></b>[RECOMMENDED] This option appears to be most common and 
+      <a href="http&#58;//www.craigbailey.net/" target="_blank">Craig Bailey</a>​'s ￼ preferred way​<br></li><li>​Capitalize each word (Title Case)&#58; 
       <b>RulesToBetterWebsiteLayouts.aspx</b></li><li>Upper case for appropriate words&#58; 
       <b>RulestoBetterWebsiteLayouts.aspx</b></li><li>Underscores between words&#58; 
       <b>rules_to_better_website_layouts.aspx</b></li><li>Lower case for all words&#58; 
