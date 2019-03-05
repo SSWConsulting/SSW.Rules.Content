@@ -13,6 +13,6 @@ index:
 - tools---do-you-know-what-angular-tools-to-install-for-an-angular-project
 
 ---
-<p><span style="color&#58;#222222;font-family&#58;sans-serif;font-size&#58;14px;">Angular 2+ versions are simply called&#160;</span>Angular<span style="color&#58;#222222;font-family&#58;sans-serif;font-size&#58;14px;">. Angular is an incompatible rewrite of AngularJS.</span><br></p><p>Read <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=c9d803de-ebea-4ec0-bca3-7a36ffa7a361">Rules to Better Angular</a>​.<br></p>
+<h3 class="ssw15-rteElement-H3">*Depreciated​*​<br></h3><p class="ssw15-rteElement-P">Angular 2+ versions are simply called&#160;Angular. Angular is an incompatible rewrite of AngularJS.<br></p><p>Read <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=c9d803de-ebea-4ec0-bca3-7a36ffa7a361">Rules to Better Angular</a>​.<br></p>
 AngularJS is a powerful and elegant front-end javascript framework. It is designed to make highly interactive front-end designs.
 
