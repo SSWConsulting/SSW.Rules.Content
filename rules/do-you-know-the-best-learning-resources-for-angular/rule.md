@@ -17,7 +17,7 @@ related: []
 ---
 
 
-<p>​Here are the best collection of resources for Angular.<br></p><dl class="image"><dt> 
+<p>​​Here are the best collection of resources for Angular.<br></p><dl class="image"><dt> 
       <img alt="The-Little-Book-of-Angular-v1-8.jpg" src="/PublishingImages/The-Little-Book-of-Angular-v1-8.jpg" style="width&#58;750px;" /> 
       <br> 
    </dt><dd>Figure&#58; Download the​​&#160;<a href="/SiteCollectionDocuments/Little-Book-Angular.pdf" target="_blank">Little Book of Angular</a><br></dd></dl>
