@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>​​​​Every rule page has two URLs&#58;</p><ul><li><span style="line-height&#58;1.6;"><span class="ssw15-rteStyle-Caption">Physical URL</span> -&#160;e.g. https&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">Pages/</span>tweet-rules-you-follow<span class="ssw15-rteStyle-Highlight">.aspx </span></span><br></li><li><span style="line-height&#58;1.6;"><span class="ssw15-rteStyle-Caption">Friendly URL</span> -&#160;</span><span style="line-height&#58;1.6;">e.g. https&#58;//rules.ssw.com.au/tweet-rules-you-follow </span><br></li></ul><span style="line-height&#58;20.8px;">Please follow the below instruction to rename one or both of them.</span><br><p></p> </span>
+<span class='intro'> <p>​​​​​Every rule page has two URLs&#58;<br></p><ul><li><span style="line-height&#58;1.6;"><span class="ssw15-rteStyle-Caption">Physical URL</span> -&#160;e.g. https&#58;//rules.ssw.com.au/<span class="ssw15-rteStyle-Highlight">Pages/</span>tweet-rules-you-follow<span class="ssw15-rteStyle-Highlight">.aspx </span></span><br></li><li><span style="line-height&#58;1.6;"><span class="ssw15-rteStyle-Caption">Friendly URL</span> -&#160;</span><span style="line-height&#58;1.6;">e.g. https&#58;//rules.ssw.com.au/tweet-rules-you-follow </span><br></li></ul><span style="line-height&#58;20.8px;">Please follow the below instruction to rename one or both of them.</span><br><p></p> </span>
 
 <h3 class="ssw15-rteElement-H3">Rename&#160;Physical URL</h3> 
 <span style="line-height&#58;1.6;background-color&#58;initial;"> <ol><li> 
