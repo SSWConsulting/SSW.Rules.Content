@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-We are always disappointed when adding version information to a Word document. When you use the Work version you get a number that indicates the number of times the document has been saved and not a proper version number.
+​We are always disappointed when adding version information to a Word document. When you use the Word&#160;version you get a number that indicates the number of times the document has been saved and not a proper version number.
 <div><br>
 It is possible to get the number into Word for the version of the document on the SharePoint document library.
 </div>
