@@ -39,7 +39,7 @@ related:
    <strong>by the client</strong>.<br>If 
    <strong>you</strong> are the one making the first contact, also follow&#58; 
    <a href="/Pages/PrepareAndConfirm.aspx">Do you prepare, then confirm conversations/decisions? </a>
-   <br></p><p>
+   <br></p><p><strong><br></strong></p><p><strong>​Note&#58;&#160;</strong>For a major architectural decision, etc. that could be difficult or expensive to change later, which was&#160;made against your recommendation, consider sending a&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=59e4c25f-a62d-4944-af14-70fe2a648447">&quot;For the record&quot; email</a>.<br></p><p>
    <br>
 </p><p>
    <strong>Note&#58;&#160;</strong>​It's easy to fall into the trap of sounding rather robotic if you start every email with &quot;As per our conversation&quot;, or &quot;As per the message I just left on your mobile&quot;, etc. Here's a list of nice email openers that have the same effect&#58;<br></p><p>&quot;As per our conversation&quot; alternatives&#58;<br></p><ol><li>​Thanks for the chat<br></li><li>Good talking to you<br></li><li>As discussed...<br></li></ol><p>&quot;As per the message I​ left on your mobile&quot; alternatives&#58;<br></p><ol><li>I couldn't&#160;catch you on the phone today.<br></li><li>I just left you a&#160;quick voicemail.<br></li><li>I called earlier but couldn't get through.<br></li><li>Hey I​ just called earlier to say...​<br></li></ol><p><strong>VIDEO</strong>&#160;-&#160;<a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a> ​<br></p>
