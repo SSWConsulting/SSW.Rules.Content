@@ -17,7 +17,7 @@ related: []
 ---
 
 
-There are many great resources for learning the principles of Clean Architecture, but a the best place to start is with Jason Taylor’s video&#58;<br>
+​There are many great resources for learning the principles of Clean Architecture, but a the best place to start is with Jason Taylor’s video&#58;<br>
 <div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify">
    <iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/_lwCVE_XgqI" frameborder="0"></iframe>&#160;</div><div>
    <br>
