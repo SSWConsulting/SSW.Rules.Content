@@ -13,7 +13,7 @@ redirects:
 ---
 
 
-<p>​Is your price&#58; </p><ul><li>​$100 per hour + GST (the $100 being the amount exclusive of GST)</li><li>$110 per hour (the $110 being the total amount) </li></ul>
+<p>​Is your price&#58; <br></p><ul><li>​$100 per hour + GST (the $100 being the amount exclusive of GST)</li><li>$110 per hour (the $110 being the total amount) </li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>We say the first one. When providing quotes to prospects/clients, it is always better to display the net value + 10% GST rather than the total. </p>
@@ -33,7 +33,7 @@ redirects:
     <dt>The total fixed price total is $AUD 60,000 + GST (10%). Please find quote attached. </dt>
     <dd>Good Example </dd>
 </dl>
-<p><b>Note</b> &#58; SSW and other Australian companies do not charge GST to external clients outside of Australia.</p>
+<p><b>Note</b> &#58; SSW and other Australian companies do not charge GST to external clients outside of Australia.<br></p><p>​While you are writing out a quote, make sure&#160;​<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b2c96952-bfc1-440f-af5f-ec26fcc36002">you know when to use a round or exact figure</a>.​<br><br></p>
 
 
 
