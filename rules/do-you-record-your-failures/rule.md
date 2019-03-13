@@ -19,7 +19,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> If you attempt a few different things while trying to find a solution, make sure to save the attempts in separate commits for research purposes.<br><div><img src="/SiteAssets/do-you-record-you-failures/commit-failed-experiments.png" alt="commit-failed-experiments.png" style="margin&#58;5px;width&#58;808px;" />​</div><div><dd class="ssw15-rteElement-FigureGood">Good Example&#58; Each attempt has a new commit and is not lost when retrieving history<br></dd><div><br></div></div> </span>
 
 
 
