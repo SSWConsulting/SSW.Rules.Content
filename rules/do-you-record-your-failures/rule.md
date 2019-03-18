@@ -19,7 +19,7 @@ authors:
 
 
 
-<span class='intro'> If you attempt a few different things while trying to find a solution, make sure to save the attempts in separate commits for research purposes.<br><div><img src="/SiteAssets/do-you-record-you-failures/commit-failed-experiments.png" alt="commit-failed-experiments.png" style="margin&#58;5px;width&#58;808px;" />​</div><div><dd class="ssw15-rteElement-FigureGood">Good Example&#58; Each attempt has a new commit and is not lost when retrieving history<br></dd><div><br></div></div> </span>
+<span class='intro'> <div>While developing a feature or fix, it is important to show the attempts you make. If you run into a dead end or your attempt does not have the intended affect, make sure to save the attempts in separate commits to record the history of experimentation.</div><div>​</div><div>​​<img src="/SiteAssets/do-you-record-you-failures/single-commit-not-showing-experimentation.png" alt="single-commit-not-showing-experimentation.png" style="margin&#58;5px;width&#58;508px;" /><dd class="ssw15-rteElement-FigureBad">Bad Example&#58; Only the final solution is commited. Experimentation history is not recorded​<br></dd></div><div><br><div><img src="/SiteAssets/do-you-record-you-failures/commit-failed-experiments.png" alt="commit-failed-experiments.png" style="margin&#58;5px;width&#58;508px;" />​<br></div><div><dd class="ssw15-rteElement-FigureGood">Good Example&#58; Each attempt has a new commit and is not lost when retrieving history<br></dd></div></div> </span>
 
 
 
