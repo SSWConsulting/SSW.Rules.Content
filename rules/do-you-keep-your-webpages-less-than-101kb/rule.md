@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> <p>In the past, Google crawl was limited to 100kb page size. These days, Google will index more than 101K of a page (actually Google will index up to 2.5MB of an HTML file), but there’s still a good reason to recommend keeping to under a hundred links or so&#58; the User Experience. Remember the more small pages you have, more links you'll get.​​<br></p> </span>
+<span class='intro'> <p>In the past, Google crawl was limited to 100kb page size. These days, Google will index more than 101K of a page (actually Google will index up to 2.5MB of an HTML file), but there’s still a good reason to recommend keeping to under a hundred links or so&#58; the User Experience.&#160;It's important to keep in mind that the faster your loading speed, the better your mobile friendliness rate will be.&#160;Remember the more small pages you have, the more links you'll get. <br></p> </span>
 
 <p class="ssw15-rteElement-YellowBorderBox">We have a program called&#160;<a href="https&#58;//sswlinkauditor.com/" target="_blank">SSW Link Auditor​</a>&#160;to check for this rule.​<br></p><p>​<br></p>
 
