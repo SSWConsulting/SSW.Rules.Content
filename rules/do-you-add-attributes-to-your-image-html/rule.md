@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>What do you do when you want images to link to your site? In the case of images, Google will look for the &quot;alt&quot; text and factor this into the search results. So when you ask someone else to link to your site with an image you should always add attributes like &quot;alt&quot; and &quot;title&quot; into the code. Here's an example.&#160;</p> </span>
+<span class='intro'> <p>​What do you do when you want images to link to your site? In the case of images, Google will look for the &quot;alt&quot; text and factor this into the search results. So when you ask someone else to link to your site with an image you should always add attributes like &quot;alt&quot; and &quot;title&quot; into the code. Here's an example.&#160;<br></p> </span>
 
 <p>​<span style="line-height&#58;20.8px;">Hold the cursor over the image below and see what happens. </span></p><dl class="badImage"><dt>
       <img src="https&#58;//www.ssw.com.au/SSW/images/Raven/SSWLogo.png" data-pin-nopin="true" alt="" />
