@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>​The <b>{ltHTMLChar}title{gtHTMLChar}</b>, <b>{ltHTMLChar}h1{gtHTMLChar}</b>, and <b>{ltHTMLChar}h2{gtHTMLChar}</b> tags need to be descriptive. They should briefly describe the purpose or content of the page. Have a look at the following two images. The first image is a bad example as the title bar and page heading are not very descriptive. The second image is a better example as title bar and page heading are more informative.​</p>
+<p>​​The <b>{ltHTMLChar}title{gtHTMLChar}</b>, <b>{ltHTMLChar}h1{gtHTMLChar}</b>, and <b>{ltHTMLChar}h2{gtHTMLChar}</b> tags need to be descriptive. They should briefly describe the purpose or content of the page. Have a look at the following two images. The first image is a bad example as the title bar and page heading are not very descriptive. The second image is a better example as title bar and page heading are more informative.​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
    ​​​<img src="/PublishingImages/bad-title-headings.png" alt="bad-title-headings.png" /></dt><dd>Figure&#58; Bad Example - non-descriptive title/headings​</dd></dl><dl class="goodImage"><dt> 
