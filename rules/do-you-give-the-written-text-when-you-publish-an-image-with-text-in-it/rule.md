@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>This is one of the most common errors tech bloggers do. Most bloggers do not think (or remember) to add more than just the image of the error screen capture.</p><p>If you add the text of the error message it will help others when they search, and help their Google juice.​​​</p> </span>
+<span class='intro'> <p>​This is one of the most common errors tech bloggers do. Most bloggers do not think (or remember) to add more than just the image of the error screen capture.<br></p><p>If you add the text of the error message it will help others when they search, and help their Google juice.</p> </span>
 
 <p>​​Let's look at 3 examples&#58;​​</p><dl class="badImage"><dt><img src="/PublishingImages/BadExampleErrorMSG.jpg" alt="BadExampleErrorMSG.jpg" /></dt><dd>Figure&#58; Bad Example - this image gives no context of the surrounding areas, and without the text as well you get no google love</dd></dl><dl class="image"><dt><img src="/PublishingImages/OKExampleForErrorMSG.jpg" alt="OKExampleForErrorMSG.jpg" /></dt><dd>Figure&#58; OK Example - this image is great because it gives context by including the surrounding area, but you still need the text for SEO benefits</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/OKExampleForErrorMSG.jpg" alt="OKExampleForErrorMSG.jpg" /><p class="ssw15-rteElement-GreyBox">
    Microsoft SharePoint Designer 
