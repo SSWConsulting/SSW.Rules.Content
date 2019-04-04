@@ -33,7 +33,7 @@ redirects: []
 <ul>
 <li>Velocity</li>
 <li>the Burndown</li>
-<li>Code Coverage</li>
+<li>Code Coverage<br></li><li>Number of deployments<br></li><li>Number of errors in Application Insights​<br></li>
 </ul>
 <p>For example the Scrum Master can find User Stories in the Sprint that were successful / not successful and then facilitate the discussion as to why.
 </p>
