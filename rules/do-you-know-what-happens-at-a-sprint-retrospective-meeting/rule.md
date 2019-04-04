@@ -31,11 +31,11 @@ redirects: []
 </ul>
 <p>To help aid discussion it can be useful for the Scrum Master to prepare items for review by inspecting the Sprint Backlog and statistics such as&#58;</p>
 <ul>
-<li>Velocity</li>
+<li>Velocity<br></li>
 <li>the Burndown</li>
 <li>Code Coverage<br></li><li>Number of deployments<br></li><li>Number of errors in Application Insights​<br></li>
 </ul>
-<p>For example the Scrum Master can find User Stories in the Sprint that were successful / not successful and then facilitate the discussion as to why.
+<p>For example the Scrum Master can find PBIs (Product Backlog Items)&#160;in the Sprint that were successful / not successful and then facilitate the discussion as to why.
 </p>
 
 <dl class="image"><dt><img src="/PublishingImages/retrospective-meeting-1.jpg" alt="" /> </dt>
@@ -54,7 +54,7 @@ redirects: []
 <br>
 If the timebox limit is reached, the remaining issues should be recorded and dealt with by the Scrum&#160;Master.&#160; Any&#160;outstanding issues must be&#160;raised at the next Retrospective if they are still relevant.<br>
 <br>
-The time-box for this meeting is usually as many hours as weeks in the Sprint.</p>
+The time-box for this meeting is usually as many hours as weeks in the Sprint.<br></p>
 <br>
 <font size="+0" class="ms-rteCustom-GreyBox">In Scrum, there are 4 meeting​s in total&#160;that you need to know about&#58;
 <ul>
