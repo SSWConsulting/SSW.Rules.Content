@@ -1,0 +1,20 @@
+---
+type: rule
+archivedreason: 
+title: Do you have a good page speed?
+guid: fdd7cf8b-d165-4010-9e96-481d3bd406b9
+uri: do-you-have-a-good-page-speed
+created: 2019-04-16T22:59:21.0000000Z
+authors:
+- id: 83
+  title: Camilla Rosa Silva
+related: []
+
+---
+
+
+Enter Intro Text
+<br><excerpt class='endintro'></excerpt><br>
+
+
+
