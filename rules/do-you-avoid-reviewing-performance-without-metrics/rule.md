@@ -17,7 +17,7 @@ redirects: []
 
 
 
-  <p>​If a client says&#58;</p>
+  <p>​If a client says&#58;<br></p>
 <div class="greyBox">
 <em>&quot;This application is too slow, I don't really want to put up with such poor performance. Please fix.&quot;</em></div>
 <p>We don't jump in and look at the code and clean it up and reply with something like&#58;</p>
