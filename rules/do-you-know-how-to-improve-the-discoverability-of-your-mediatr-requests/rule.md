@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">​When using MediatR within an ASP.NET Controller it is typical to see actions such as the following&#58;<br></p> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​​When using MediatR within an ASP.NET Controller it is typical to see actions such as the following&#58;<br></p> </span>
 
 <dl class="image"><dt>
       <img src="/PublishingImages/improve-mediatr-typical.png" alt="improve-mediatr-typical.png" />
@@ -20,7 +20,7 @@ authors:
    </dt><dd>Figure&#58; Bad Example - The request is contained within CreateProductCommand.cs<br></dd></dl><dl class="badImage"><dt>
          <img src="/PublishingImages/improve-mediatr-bad-2.png" alt="improve-mediatr-bad-2.png" />
       </dt><dd>Figure&#58; Bad Example - The request handler is contained within CreateProductCommandHandler.cs</dd></dl><p>In the above implementation, the request handler is cleanly separated from the request. However, this separation results in reducing discoverability of the handler. For example, a developer looking at the action in this first figure might be interested in the logic behind the command. So, they press F12 to go to the definition and can see the request (CreateProductCommand), but not the logic since it is contained within the request handler (CreateProductCommandHandler). The developer must then navigate to the handler using Solution Explorer or some keyboard wizardry. This is assuming that the developer is familiar with the design, and knows that there is an underlying request handler that contains the logic of interest. We can avoid these problems and improve discoverability by instead using the following approach&#58;</p><dl class="goodImage"><dt>
-         <img src="/PublishingImages/business-logic-presentation-layer-good.png" alt="business-logic-presentation-layer-good.png" />
+         <img src="/PublishingImages/improve-mediatr-good.jpg" alt="business-logic-presentation-layer-good.png" style="width&#58;1894px;" />
       </dt><dd>Figure&#58; Good Example - Nesting the Request Handler within the Request Improves Discoverability of Command and Associated Command Logic</dd></dl><p>In the above example the request handler is nested within the request, there by improving the discoverability of the command and associated command logic.<br></p>
 ​<br>
 
