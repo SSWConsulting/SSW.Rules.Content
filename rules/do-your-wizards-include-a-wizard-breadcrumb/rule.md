@@ -18,17 +18,7 @@ redirects: []
      unsure in what he/she should be doing next, if a website 
      dose not directs them properly. Good navigation through 
      directing headings removes this feeling and gives the user 
-     confidence. This rule becomes especially important when it 
-     comes to shopping applications. Showing the user where they 
-     are up to in buying products, previous steps and the next 
-     step in the process, gives the user the confidence that they 
-     are doing the right steps in purchasing a product. Allowing 
-     the user to go back to previous steps allows them to change 
-     or review a previous choice. Showing the user where they are 
-     up to and what is next shows the user what is left in the 
-     process in purchasing a product. Amazon is a very good 
-     example of a good shopping Application.
-                </p>
+     confidence. This rule becomes especially important when it comes to shopping applications, of which Amazon is exemplary. A great shopping application includes the following breadcrumbs&#58;<br><ul><li>Showing the user where they are up to in buying products, previous steps and the next step in the process, gives the user the confidence that they are doing the right steps in purchasing a product.</li><li>Allowing the user to go back to previous steps allows them to change or review a previous choice.</li><li>​Showing the user where they are up to and what is next shows the user what is left in the process in purchasing a product.&#160;<br></li></ul></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p> 
    <strong>SSW Example&#58;</strong> </p><ul><li>Product Basket - Add/Remove products in your shopping Basket</li><li>Shipping Details - Enter where you would like products shipped</li><li>Payment Details - Select how you pay and enter details</li><li>Confirmation of Purchase - Display information about their purchase</li></ul><dl class="image"><dt> 
@@ -38,6 +28,6 @@ redirects: []
       <img alt="Amazon Shopping" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/amazonshopping.jpg" style="margin&#58;5px;width&#58;383px;" />
    </dt><dd>Figure&#58; This is how headings should look</dd></dl><dl class="image"><dt> 
       <img width="600" alt="Virgin Flight Booking" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/virgin-flight-navigation.png" style="margin&#58;5px;" />
-   </dt><dd>Figure&#58; Virgin Australia uses a more subtle approach</dd></dl>
+   </dt><dd>Figure&#58; Virgin Australia uses a more subtle approach<br><br></dd></dl>
 
 
