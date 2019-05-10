@@ -11,7 +11,7 @@ related: []
 ---
 
 
-<p>​Headings that direct the user around your web page are 
+<p>​​​​​Headings that direct the user around your web page are 
      important as it gives the user the feeling of confident in 
      using your web page. The user will tend to feel lost and 
      unsure in what he/she should be doing next, if a website 
