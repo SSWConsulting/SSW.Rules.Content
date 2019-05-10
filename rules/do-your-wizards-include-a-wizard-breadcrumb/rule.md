@@ -12,13 +12,13 @@ redirects: []
 ---
 
 
-<p>Headings that direct the user around your web page are 
+<p>​Headings that direct the user around your web page are 
      important as it gives the user the feeling of confident in 
      using your web page. The user will tend to feel lost and 
      unsure in what he/she should be doing next, if a website 
      dose not directs them properly. Good navigation through 
      directing headings removes this feeling and gives the user 
-     confidence. This rule becomes especially important when it comes to shopping applications, of which Amazon is exemplary. A great shopping application includes the following breadcrumbs&#58;<br><ul><li>Showing the user where they are up to in buying products, previous steps and the next step in the process, gives the user the confidence that they are doing the right steps in purchasing a product.</li><li>Allowing the user to go back to previous steps allows them to change or review a previous choice.</li><li>​Showing the user where they are up to and what is next shows the user what is left in the process in purchasing a product.&#160;<br></li></ul></p>
+     confidence. This rule becomes especially important when it comes to shopping applications, of which Amazon is exemplary. A great shopping application includes the following breadcrumbs&#58;<br></p><ul><li>Showing the user where they are up to in buying products, previous steps and the next step in the process, gives the user the confidence that they are doing the right steps in purchasing a product.</li><li>Allowing the user to go back to previous steps allows them to change or review a previous choice.</li><li>​Showing the user where they are up to and what is next shows the user what is left in the process in purchasing a product.&#160;<br></li></ul><p></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p> 
    <strong>SSW Example&#58;</strong> </p><ul><li>Product Basket - Add/Remove products in your shopping Basket</li><li>Shipping Details - Enter where you would like products shipped</li><li>Payment Details - Select how you pay and enter details</li><li>Confirmation of Purchase - Display information about their purchase</li></ul><dl class="image"><dt> 
