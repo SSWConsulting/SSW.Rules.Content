@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>Just as barcodes allow machines to read data from an items in stores, QR codes are a barcode-like vector between online and offline information. QR codes can be easily accessed by any phone in the world that has a camera. They enable everything from online to offline (O2O) marketplaces, which are huge in China.<br></p> </span>
+<span class='intro'> <p>Just as barcodes allow machines to read data from items in stores, QR codes are a barcode-like vector between online and offline information. QR codes can be easily accessed by any phone in the world that has a camera. They enable everything from online to offline (O2O) marketplaces, which are huge in China.<br></p> </span>
 
 <h3 class="ssw15-rteElement-H3">#1&#160;Use a QR code to follow a WeChat Business/Brand Account<br></h3><p>Customers - WeChat allows users to follow a Business/Brand account upon scanning (use the built-in QR scanner). QR codes aren’t just used online, but also in a store or on business cards to save you typing in a URL.</p><p>Businesses - Followers of the WeChat Business/Brand accounts can be sent a limited number of messages per month, usually product info and promotion offers. <br></p><dl class="ssw15-rteElement-ImageArea"> <img src="/PublishingImages/Microsoft%20official%20account.GIF" alt="" style="width&#58;770px;" /> </dl><p> 
    <strong>Figure&#58; </strong> <strong>A QR code printed on an ad flyer from Microsoft’s Official Account, it allows customers to scan and follow the business.<br></strong></p><p>
