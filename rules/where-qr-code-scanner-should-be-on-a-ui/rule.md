@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-When implementing a QR code scanner on a Mobile App, do you know that it is best to put it on top of the home page with a “Scanner” icon and labeled “Scan”?<br>
+The best place for a QR code scanner is to put it on top of the home page with a “Scanner” icon and labeled “Scan”?<br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/qr%20scanner%20on%20UI.png" alt="" style="width&#58;770px;" /> 
 </dl><dd class="ssw15-rteElement-FigureGood">
