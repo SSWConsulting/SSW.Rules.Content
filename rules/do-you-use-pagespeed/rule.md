@@ -17,9 +17,9 @@ related: []
 ---
 
 
-PageSpeed can analyze the performance of your webpages and get specific suggestions on how to optimize them.<br><br>
+​PageSpeed can analyze the performance of your webpages and get specific suggestions on how to optimize them.<br><br>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​<strong style="color&#58;#333333;">How to install PageSpeed?​​</strong><br></p><p class="ssw15-rteElement-P">Install PageSpeed from&#160;<a href="https&#58;//chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en-GB">https&#58;//chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en-GB</a><br>​<br><img src="/SiteAssets/do-you-use-gzip/2d.png" alt="2d.png" style="margin&#58;5px;width&#58;808px;" /><br><br></p><p class="ssw15-rteElement-P">Figure&#58;&#160;&#160;Install PageSpeed Insights (with PNaCl).<br></p><p class="ssw15-rteElement-P">
+<p>​<strong style="color&#58;#333333;">How to install PageSpeed?​​</strong><br></p><p class="ssw15-rteElement-P">Install PageSpeed from&#160;<a href="https&#58;//chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en-GB" target="_blank">https&#58;//chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en-GB</a><br>​<br><img src="/SiteAssets/do-you-use-gzip/2d.png" alt="2d.png" style="margin&#58;5px;width&#58;808px;" /><br><br></p><p class="ssw15-rteElement-P">Figure&#58;&#160;&#160;Install PageSpeed Insights (with PNaCl).<br></p><p class="ssw15-rteElement-P">
    <br>
 </p><p class="ssw15-rteElement-P">
    <strong>How to use&#160;PageSpeed?</strong><br></p><p class="ssw15-rteElement-P">In Developer Tools (F12), you will have a new tab&#160;​​​named PageSpeed.<br></p><p class="ssw15-rteElement-P">
