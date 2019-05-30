@@ -11,21 +11,19 @@ authors:
 
 
 
-<span class='intro'> Gzip&#160;is a&#160;file format&#160;and a&#160;software application&#160;used for&#160;file compression and decompression.<br>Gzip can reduce file size and storage space, and reduce transmission time when transferring files over the network. It runs on both Linux and Windows.<br><br> </span>
+<span class='intro'> Gzip&#160;is a&#160;file format&#160;and a&#160;software application&#160;used for&#160;file compression and decompression.<br>Gzip can reduce file size and storage space, and reduce transmission time when transferring files over the network. It runs on both Linux and Windows.<div><br></div> </span>
 
-<p class="ssw15-rteElement-P"> 
-   <strong>How to use PageSpeed to find which files on your site would benefit from being compressed with Gzip?</strong></p><p class="ssw15-rteElement-Tip"> 
+<p class="ssw15-rteElement-P">​Use PageSpeed Insights extension in Chrome to determine if your site will benefit from using Gzip.&#160;<br><br></p><p class="ssw15-rteElement-P"><strong><br></strong></p><p class="ssw15-rteElement-P"><strong>How to use PageSpeed to find which files on your site would benefit from being compressed with Gzip?</strong><br></p><p class="ssw15-rteElement-Tip"> 
+   <br> 
+</p><p class="ssw15-rteElement-P"><strong>What PageSpeed is?</strong><br></p><p class="ssw15-rteElement-P">PageSpeed can analyze the performance of your webpages and get specific suggestions on how to optimize them.</p><p class="ssw15-rteElement-P"> 
+   <br> 
+   <strong>How to install PageSpeed?​​</strong><br></p><p class="ssw15-rteElement-P">Install PageSpeed from&#160;<a href="https&#58;//chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en-GB">https&#58;//chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en-GB</a><br>​<br><img src="/SiteAssets/do-you-use-gzip/2d.png" alt="2d.png" style="margin&#58;5px;width&#58;808px;" /><br><br></p><p class="ssw15-rteElement-P">Figure&#58;&#160;&#160;Install PageSpeed Insights (with PNaCl).<br></p><p class="ssw15-rteElement-P"> 
    <br> 
 </p><p class="ssw15-rteElement-P"> 
-   <strong>what PageSpeed is?</strong><br></p><p class="ssw15-rteElement-P">PageSpeed can analyze the performance of your webpages and get specific suggestions on how to optimize them.</p><p class="ssw15-rteElement-P"> 
-   <br> 
-   <strong>How to install PageSpeed?​</strong><br></p><p class="ssw15-rteElement-P">Install PageSpeed from&#160;<a href="https&#58;//chrome.google.com/webstore/category/extensions?hl=en-GB">https&#58;//chrome.google.com/webstore/category/extensions?hl=en-GB​</a><br>select PageSpeed, choose the following extension, and install it&#58;​<img src="/SiteAssets/do-you-use-gzip/2d.png" alt="2d.png" style="margin&#58;5px;width&#58;808px;" /><br><br></p><p class="ssw15-rteElement-P">Figure&#58; Try to Install PageSpeed Insights.<br></p><p class="ssw15-rteElement-P"> 
-   <br> 
-</p><p class="ssw15-rteElement-P"> 
-   <strong>How to use&#160;PageSpeed?</strong><br></p><p class="ssw15-rteElement-P">See in developer tool, you will have a new part named PageSpeed.<br></p><p class="ssw15-rteElement-P"> 
+   <strong>How to use&#160;PageSpeed?</strong><br></p><p class="ssw15-rteElement-P">In Developer Tools (F12), you will have a new tab&#160;​​​named PageSpeed.<br></p><p class="ssw15-rteElement-P"> 
    <img src="/SiteAssets/do-you-use-gzip/use-pageSpeed.png" alt="use-pageSpeed.png" style="margin&#58;5px;width&#58;808px;" /> 
-   <br>Figure&#58; Start your PageSpeed by clicking &quot;ANALYZE&quot;.​<br><br></p><p class="ssw15-rteElement-P">See the refresh results&#160;from PageSpeed.<br></p><p>
-   <img src="/SiteAssets/do-you-use-gzip/1.png" alt="1.png" style="margin&#58;5px;width&#58;808px;" />Figure&#58;&#160;Some files can be compressed more than 80%​<br><br></p><p class="ssw15-rteElement-P"> 
+   <br>Figure&#58; Start your PageSpeed by clicking &quot;ANALYZE&quot;.​<br><br></p><p class="ssw15-rteElement-P">The result of the analysis will be displayed in the PageSpeed tab.<br></p><p>
+   <img src="/SiteAssets/do-you-use-gzip/1.png" alt="1.png" style="margin&#58;5px;width&#58;808px;" />Figure&#58; Some files can be compressed more than 80%​<br><br></p><p class="ssw15-rteElement-P"> 
    <strong>Three ways to add Gzip compression to your site&#58; ​</strong><br></p><p class="ssw15-rteElement-P">Use one of the methods described below to add Gzip compression to your site ASP.Net/Angular website</p><p class="ssw15-rteElement-Tip">​<br></p><ul><li>Method 1&#58;&#160;Turn on &quot;Dynamic Content Compression&quot; In IIS Server.&#160;<img src="/SiteAssets/do-you-use-gzip/2.png" alt="2.png" style="background-color&#58;initial;margin&#58;5px;width&#58;808px;" />Figure&#58; Choose&#160;the website which you want to use Gzip and click on Compression.​​​​<img src="/SiteAssets/do-you-use-gzip/3.png" alt="3.png" style="background-color&#58;initial;margin&#58;5px;width&#58;808px;" />Figure&#58; Install &quot;dynamic content compression&quot; if you haven't installed it.​<br></li> 
    <br> ​​<br> In 
    <strong>Control Panel</strong> navigate to 
@@ -93,6 +91,6 @@ namespace HTTPCompression.ActionFilters
     return View(); 
  &#125; 
 </code>​​
-</pre> </span><span style="background-color&#58;initial;"><pre><img src="/SiteAssets/do-you-use-gzip/5.28.6.png" alt="5.28.6.png" style="margin&#58;5px;width&#58;808px;" /><br></pre></span><dd class="ssw15-rteElement-FigureBad">​Figure&#58; Bad&#160;Example​, files with large size and cost a long time.<br>​<br></dd><p class="ssw15-rteElement-P">​​​<img src="/SiteAssets/do-you-use-gzip/5.28.7.png" alt="5.28.7.png" style="margin&#58;5px;width&#58;808px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​​​​Figure&#58; Good Example​, gzipped&#160;files with less size&#160;and cost less time.<br><br></dd><br></ul>​<br></div></ul>
+</pre> </span><span style="background-color&#58;initial;"><pre><img src="/SiteAssets/do-you-use-gzip/5.28.6.png" alt="5.28.6.png" style="margin&#58;5px;width&#58;808px;" /><br></pre></span><dd class="ssw15-rteElement-FigureBad">​Figure&#58; Bad&#160;Example​, files with large size and slow load&#160;time.<br>​<br></dd><p class="ssw15-rteElement-P">​​​<img src="/SiteAssets/do-you-use-gzip/5.28.7.png" alt="5.28.7.png" style="margin&#58;5px;width&#58;808px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​​​​Figure&#58; Good Example​, gzipped&#160;files with smaller&#160;size&#160;and faster load time.<br><br></dd><br></ul>​<br><br><br><br></div></ul>
 
 
