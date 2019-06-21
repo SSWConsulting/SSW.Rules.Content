@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>​​​​Words like “verses” and “versus” are homophones, meaning they are pronounced the same, but have different spellings and different meanings.<br></p><p>When using a homophone in a sentence, it is important to ensure you are using the correct word, as if you are not, it won’t be picked up by your spell check and you'll look less intelligent.<br></p> </span>
+<span class='intro'> <p>​​​​​Words like “verses” and “versus” are homophones, meaning they are pronounced the same, but have different spellings and different meanings.<br></p><p>When using a homophone in a sentence, it is important to ensure you are using the correct word, as if you are not, it won’t be picked up by your spell check and you'll look less intelligent.<br></p> </span>
 
 ​In this case, “verses” refers to lines of poetry or bible
 passages. “Versus” refers to 2 or more parties in opposition to one another,
