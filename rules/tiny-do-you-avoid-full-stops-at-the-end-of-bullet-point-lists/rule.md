@@ -15,6 +15,6 @@ authors:
 
 <p>For example&#58;</p><dt class="greyBox"><ul><li>Sentence 1.</li><li>Sentence 2.</li><li>Sentence 3.</li></ul></dt><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - Too much punctuation</dd> 
 <br> 
-<dt class="greyBox"><ul><li>Sentence 1.</li><li>Sentence 2. Sentence 3</li><li>Sentence 4</li></ul></dt><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Full stop is only used in the bullet point that has multiple sentences, except in the last one​</dd>
+<dt class="greyBox"><ul><li>Sentence 1​<br></li><li>Sentence 2. Sentence 3</li><li>Sentence 4</li></ul></dt><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Full stop is only used in the bullet point that has multiple sentences, except in the last one​</dd>
 
 
