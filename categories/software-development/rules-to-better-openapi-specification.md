@@ -10,6 +10,6 @@ index:
 - do-you-define-your-response-types
 
 ---
-<p>​​AKA&#160;<b>OAS</b>. Previously known as&#160;Swagger.<br></p>
+<p>​​​AKA&#160;OAS. Previously known as&#160;Swagger.<br></p>
 
 
