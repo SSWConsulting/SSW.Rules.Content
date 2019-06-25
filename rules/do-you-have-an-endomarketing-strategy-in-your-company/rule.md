@@ -18,10 +18,10 @@ authors:
 </div><div>Richard Branson once said&#58; &quot;If you take care of your employees, they will take care of the clients,&quot; and this is another&#160;reason why you should start taking care of your team in a more hands-on way. 
    <br></div><div>
    <br>
-</div><div>The main benefits of this strategy are&#58;</div><ul><li>It generates greater motivation for your employees and at the same time make your team to feel more connected with the business brand</li><li>Your company will attract more qualified professionals</li><li>Your clients will be well assisted by your happy team</li><li>Rotation of workers will decrease as you increase their satisfaction and commitment to the organization will increase at the same rate</li><li>It also improves workers’ mental health and quality of life which, in the long term, will reduce the number of casualties in the company</li></ul><div>
-   <img src="/SiteAssets/do-you-have-an-endomarketing-strategy-in-your-company/bunny.jpg" alt="bunny.jpg" style="margin&#58;5px;width&#58;808px;" />
+</div><div>The main benefits of this strategy are&#58;</div><ul><li>It generates greater motivation for your employees and at the same time make your team to feel more connected with the business brand</li><li>Your company will attract more qualified professionals</li><li>Your clients will be well assisted by your happy team</li><li>Rotation of workers will decrease as you increase their satisfaction and commitment to the organization will increase at the same rate</li><li>It also improves workers’ mental health and quality of life which, in the long term, will reduce the number of casualties in the company<br></li></ul><div>
+   ​</div><div><img src="/SiteAssets/do-you-have-an-endomarketing-strategy-in-your-company/bunny.jpg" alt="bunny.jpg" style="margin&#58;5px;width&#58;808px;" />
    <br>
-</div>
-Good Example – Figure&#58; Celebrate special dates with your team!
+</div><dd class="ssw15-rteElement-FigureGood">
+Good Example – Figure&#58; Celebrate special dates with your team!<br><br></dd>
 
 
