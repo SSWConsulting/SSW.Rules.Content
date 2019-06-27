@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> ​​Excess punctuation without a purpose can make a document or web page look overly busy. For a list of short sentences, don't&#160;have full stops at the end of each bullet point. The exception to this rule is when you have more than one sentence in a single bullet point.<br><div><br></div> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​​​Excess punctuation without a purpose can make a document or web page look overly busy. For a list of <b>short sentences</b><b></b> and&#160;for&#160;<b>figure captions</b>, don't&#160;add full stops at the end. The exception to this rule is when you have more than one sentence, then only avoid the full stop in the <b>last sentence</b>.<br><br></p> </span>
 
 <p>For example&#58;</p><dt class="greyBox"><ul><li>Sentence 1.</li><li>Sentence 2.</li><li>Sentence 3.</li></ul></dt><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - Too much punctuation</dd> 
 <br> 
