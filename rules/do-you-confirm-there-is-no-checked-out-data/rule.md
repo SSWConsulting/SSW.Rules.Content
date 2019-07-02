@@ -22,7 +22,7 @@ related: []
    </dt><dd>Figure&#58; Here Greg Harris has not checked in a file </dd></dl><p></p><p> 
    <b>Upgrade warning&#58;</b> The pages that are not checked-in, will not be migrated on a SharePoint upgrade. There is *no* warning either.​</p><p>There are 2 ways to remind users of their &quot;checked out files&quot;&#58;​<br></p><ul><li>
       <strong>Solution A&#58; Manage Content and Structure Report (No Code)​</strong></li><li>
-      <strong><strong>Solution B&#58; Custom application report (Includes some coding work)​<br>Eg.&#160;SSW.SharePoint.Mama​<br></strong></strong></li></ul>
+      <strong><strong>Solution B&#58; Custom application report (Includes some coding work)​<br>Eg.&#160;SSW.Dory​​<br></strong></strong></li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 ​ 
 <div>
@@ -44,19 +44,11 @@ related: []
          <br></font>To make reminding users&#160;easier, this SharePoint Add-in&#160;ha​s&#160;a custom page to show the &quot;Checked out files&quot;. One button will&#160;send the notification email to all the naughty people. <br><br></div><div>Even better, we have also improved the application with&#160;a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically​ every night.<br>​<br></div><dl><dt>
          <img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="/PublishingImages/CheckedOutFilesApplicationReport.png" />
       </dt><dd>Figure&#58; One button reminds all users of their&#160;&quot;Checked out Files&quot;<br><br></dd></dl><div class="ssw-rteStyle-GreyBox" style="width&#58;862px;height&#58;344px;"><div>
-         <strong>Hi Daragh, </strong></div><div>
-         <strong></strong>&#160;</div><div>You have some pages checked out in SharePoint.</div><blockquote dir="ltr" style="margin-right&#58;0px;"><div>1. Revise our SSW rule 
-            <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">on Frequent SharePoint Check-ins</font></a>.<br>2. If you are no longer editing these files, check them in! </div></blockquote><div>&#160;</div><div></div><div></div><div>You currently have the following pages checked out&#58;</div><blockquote dir="ltr"><div>• 
-            <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx</font></a><br>• 
-            <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx</font></a></div></blockquote><div>
-         <br>Remember, you can check which files you have checked out at any time by going to 
-         <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"> 
-            <font color="#3a66cc"> http&#58;//&lt;siteurl&gt;/_layouts/<span>SSWReports/CheckedOutReport.aspx</span></font></a></div><div>
-         <br>&lt;As per rule 
-         <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"> 
-            <font color="#3a66cc">http&#58;//rules.ssw.com.au/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx</font></a> &gt;</div><div>
-         <br>
-      </div><p>​<span style="line-height&#58;1.6;font-size&#58;inherit;">--Powered by SSW.SharePoint.Mama&#160;(v16.1.6548.28338) on [Server Name]<br></span><br></p></div><dd class="ssw15-rteElement-FigureNormal">&#160;Figure&#58; An example of the reminder email that all users receive </dd><dd class="ssw15-rteElement-FigureNormal">
+         <strong>Hi Sophie, </strong></div><div>
+         <strong></strong>&#160;</div><div>You have some pages checked out in SharePoint.</div><blockquote dir="ltr" style="margin-right&#58;0px;"><div>1. You should check in at least daily. Revise our SSW rule <a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">on Frequent SharePoint Check-ins</font></a>.<br>2. If you are no longer editing these files, check them in! </div><div>3.&#160;Reply to this email with something like&#58;<br>&#160; &#160; ‘Done - x files checked in’</div><div><span style="font-size&#58;inherit;"><br></span></div><div><span style="font-size&#58;inherit;">You currently have the following pages checked out&#58;</span><br></div></blockquote><blockquote dir="ltr"><div>• 
+            <font color="#3a66cc"><a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx</a>&#160;&#160;(parent folder)</font><br>• 
+            <font color="#3a66cc"><a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx">http&#58;//&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx</a>&#160;&#160;(parent folder)</font></div></blockquote><div>
+         <br>Tip&#58; See all files you have checked&#160;out at&#160;<a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx"><font color="#3a66cc">http&#58;//&lt;siteurl&gt;/_layouts/<span>SSWReports/CheckedOutReport.aspx</span></font></a></div><div><span style="font-size&#58;inherit;">&lt;As per rule http&#58;//rules.ssw.com.au/ITAndNetworking/SharePoint/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx&gt;</span><br></div><p><br><span style="font-size&#58;inherit;">-- Powered by SSW.Dory<br></span><span style="font-size&#58;inherit;">-- </span><span style="font-size&#58;inherit;">v16.1.7122.24300 Server&#58; DESKTOP-C7SF4A3</span></p><p><br><br></p></div><dd class="ssw15-rteElement-FigureNormal">&#160;Figure&#58; An example of the reminder email that all users receive </dd><dd class="ssw15-rteElement-FigureNormal">
       <br><br></dd></div>
 
 
