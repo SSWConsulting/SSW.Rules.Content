@@ -11,6 +11,6 @@ index:
 - do-you-know-you-should-write-notes-when-an-activity-is-going
 
 ---
+<p>​​<br></p>
 
-Rules to Better Communication
 
