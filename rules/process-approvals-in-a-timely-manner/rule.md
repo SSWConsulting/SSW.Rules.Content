@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">Don’t leave people hanging – ensure you review your email, SugarLearning, Timepro,&#160;or Intranet accounts for items from staff and colleagues to review and approve each day.&#160;​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
