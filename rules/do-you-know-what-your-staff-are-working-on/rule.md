@@ -13,8 +13,9 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p class="ssw15-rteElement-P">Ensuring that clients see and receive value from work is one of the top jobs of a consultant or employee.&#160;&#160;Thus, as a manager and team member you should make sure that each day you&#58;​<br></p> </span>
 
-
+<ol style="list-style-type&#58;lower-alpha;">
+      <li>​​Ensure you know which client each staff member is working on. &#160;</li><li>If they are not working on client work, they should be working for a manager or internal client (see Rule on managing dead time)</li><li>Make sure that your team are booked into new work by sending calendar invites to staff, CC the client contact. This way staff know where to go and when, and also have a contact name they can reach out to with questions.<br></li></ol><p class="ssw15-rteElement-P">Make any changes to existing client bookings as required.<br><br></p>
 
 
