@@ -33,7 +33,6 @@ authors:
    <div>
       <br>
    </div><div><ul><li>VS Code -&#160;<a href="https&#58;//marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare">Install extension</a>&#160;<br></li><li>Visual Studio 2019 Beta -&#160;Built-in<br></li><li>Visual Studio 2017 - 
-            <a href="https&#58;//marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs">Install extension</a>​<br></li></ul><div><br></div><div>Please complete this survey&#58;<br></div><div><a href="https&#58;//forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhUMjdMN0g2MEZHNjZJU1NVNVBOTzY1TjJXRyQlQCN0PWcu" target="_blank">https&#58;//forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhUMjdMN0g2MEZHNjZJU1NVNVBOTzY1TjJXRyQlQCN0PWcu<br>​</a><br></div><h3 class="ssw15-rteElement-H3">Related Rule​<br></h3></div><div><ul><li>
-            <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b44ce620-2be6-4c95-ba62-cb6b36bfbb4a">​Do you know when to do use 'Checked by xxx'?​</a><br></li></ul></div></div>
+            <a href="https&#58;//marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs">Install extension</a>​<br></li></ul><div><br></div><div>Please complete this survey&#58;<br></div><div><a href="https&#58;//forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhUMjdMN0g2MEZHNjZJU1NVNVBOTzY1TjJXRyQlQCN0PWcu" target="_blank">https&#58;//forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhUMjdMN0g2MEZHNjZJU1NVNVBOTzY1TjJXRyQlQCN0PWcu<br></a><br></div></div></div>
 
 
