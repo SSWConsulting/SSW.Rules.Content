@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <ol style="list-style-type&#58;lower-alpha;"><li>If you participate in any daily scrum meetings, ensure you are prepared to discuss your planned work, your prior period’s work, and any blockers you need help with.</li><li>If you are the scrum master, ensure that you are responding to any team blockers or taking action on individual matters as they impact your scrum team.​<br></li></ol> </span>
+<span class='intro'> <p> &#160; &#160; 0. &#160; &#160; If you participate in any daily scrum meetings, ensure you are prepared to discuss your planned work, your prior period’s work, and any blockers you need help with.</p><p>&#160; &#160;&#160; 1. &#160; &#160; If you are the Scrum Master, ensure that you are responding to any team blockers or taking action on individual matters as they impact your scrum team.​</p><br> </span>
 
 
 
