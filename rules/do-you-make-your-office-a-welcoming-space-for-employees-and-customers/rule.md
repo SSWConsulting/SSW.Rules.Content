@@ -13,8 +13,10 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">As part of the team role as an account manager, it’s important to craft appropriate communications to prospects including spec reviews, proposal documents, and emails - staying as close as possible to company templates and communication structures (see <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=5d11beef-c0d8-4b0e-a288-a92b1afade31">Rules for Better Communication​</a>).<br></p> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">Your office reflects your business and provides a consistent experience to both current and potential customers.&#160;Much like your house, you usually wouldn't invite guests over if your house isn't clean or organized.&#160;The same with your office space, you should make sure everyday that if your customers walked in, at any time they would be impressed by your team's professional appearance.</p><p class="ssw15-rteElement-P">Here is a sample&#160;DailyOps Checklist. It is all about the experience.<br></p> </span>
 
-
+<p></p><ol><li>​<b>IMPORTANT&#58;</b>&#160;Ensure your office is open and closed on time as per your advertised business hours.&#160; The start time of the first and last time should be in sync with your Google Maps account at https&#58;//maps.google.com&#160;</li><li>Ensure your office is clean and tidy. The first person in should do a walk through to check on the evening cleaner</li><li>Perform a client ready walk through each day. It is all about the experience.
+   <ol style="list-style-type&#58;lower-alpha;">
+      <li>Pretend you are a client walking through the office</li><li>TV monitors, Bots, and other featured office gadgets should be turned on and working</li><li>Marketing material should be present, available, and neatly arranged, where appropriate</li><li>All conference room whiteboards should be clean and clear and conference room tables empty of debris</li><li>All conference room cords should be hidden to the best of ability</li><li>​Conference room chairs and furniture should be arranged neatly</li><li>Ensure that everything else in sight would be appropriate to a visiting client.</li></ol></li></ol>
 
 
