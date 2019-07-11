@@ -15,6 +15,6 @@ index:
 - do-you-purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 
 ---
-<p>​​<br></p>
-
+<p><br><br></p>
+<p>​DevOps is about keeping software healthy by releasing often and inspecting stats each day from the live system.<br>DailyOps or ConsultingOps is about managers keeping a consulting company of engineers working well every day.&#160;<br><br></p>
 
