@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<ol><li>If you participate in any Daily Scrum meetings, ensure you are prepared to discuss your planned work, your prior period’s work, and any blockers you need help with.&#160;</li><li>If you are the Scrum Master, ensure that you are responding to any team blockers or taking action on individual matters as they impact your scrum team.​<br></li></ol><br>
+<ol><li>If you participate in any Daily Scrum meetings, ensure you are prepared to discuss your planned work, your prior period’s work, and any blockers you need help with.&#160;<br></li><li>If you are the Scrum Master, ensure that you are responding to any team blockers or taking action on individual matters as they impact your scrum team.​<br><br></li></ol><br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
