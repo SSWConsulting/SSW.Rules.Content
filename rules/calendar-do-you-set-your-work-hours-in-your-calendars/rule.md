@@ -21,7 +21,7 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
 <p>You can find this setting in File | Options | Calendar Options, it looks like below&#58;</p>
               <dl class="image">
-               <dt><img alt="Choose your working hours" src="/PublishingImages/CalendarOptions.jpg" style="width&#58;550px;" /></dt>
+               <dt><img alt="Choose your working hours" src="/PublishingImages/Outlook%20work%20hours.jpg" style="width&#58;551px;" /><br></dt>
                <dd>Figure&#58; Outlook Calendar options for working hours settings</dd>
                </dl>
             
@@ -29,7 +29,7 @@ redirects:
             Once you set&#160;this&#160;up, you will be able to see the&#160;grey area in &quot;Scheduling assistant&quot; so you know what's the best time to book that person.</p>
                <dl class="image">
                <dt><img alt="You can see the working hours in Scheduling Assistant." src="/PublishingImages/SchedulingAssistant.jpg" style="width&#58;550px;" /></dt>
-               <dd>Figure&#58; Working hours will be shown in Scheduling Assistant</dd><dd><br></dd><dd><img src="/PublishingImages/CRM%20work%20hours.jpg" alt="CRM work hours.jpg" style="margin&#58;5px;width&#58;808px;" /></dd><dd></dd><p class="ssw15-rteElement-P">​​​​​​​​​​<strong>Figure&#58; In CRM, go to your User Profile | click the arrow to the right of your name in the breadcrumb | select work hours</strong><br></p><br>
+               <dd>Figure&#58; Working hours will be shown in Scheduling Assistant</dd><dd>​<br></dd><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/CRM%20work%20hours.jpg" alt="CRM work hours.jpg" style="margin&#58;5px;width&#58;808px;" /></dl><dd></dd><p class="ssw15-rteElement-P">​​​​​​​​​​<strong>Figure&#58; In CRM, go to your User Profile | click the arrow to the right of your name in the breadcrumb | select work hours</strong><br></p><br>
                </dl>
   
 
