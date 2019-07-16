@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>​ &#160; &#160; 0. &#160; &#160; If you participate in any Daily Scrum meetings, ensure you are prepared to discuss your planned work, your prior period’s work, and any blockers you need help with.<br></p><p>&#160; &#160;&#160; 1. &#160; &#160; If you are the Scrum Master, ensure that you are responding to any team blockers or taking action on individual matters as they impact your scrum team.​</p><br>
+<ol><li>If you participate in any Daily Scrum meetings, ensure you are prepared to discuss your planned work, your prior period’s work, and any blockers you need help with.&#160;</li><li>If you are the Scrum Master, ensure that you are responding to any team blockers or taking action on individual matters as they impact your scrum team.​<br></li></ol><br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
