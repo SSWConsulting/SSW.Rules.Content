@@ -11,7 +11,7 @@ related: []
 ---
 
 
-<p>​​​Recording live video interviews on location can be difficult. The key to success is to make the process as simple as possible, so you continue to record and release interviews. </p>
+<p>​​​​​​Recording live video interviews on location can be difficult. The key to success is to make the process as simple as possible, so you continue to record and release interviews. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>A good example of an effective but easy to record interview is&#58;</p>
 
@@ -23,9 +23,8 @@ related: []
 <ol>
 <li>The interviewer should hold the camera and interview the subject at the same time</li>
 <li>Keep a tight frame. Don’t have lots of empty space around the subject</li>
-<li>Use the rule of thirds. See&#58;</li>
-<div class="ms-rtestate-read ms-rte-wpbox"><div id="div_36ad5df3-a588-4bea-836f-49ce977e5085" class="ms-rtestate-notify  ms-rtestate-read 36ad5df3-a588-4bea-836f-49ce977e5085"></div>
-<div id="vid_36ad5df3-a588-4bea-836f-49ce977e5085" style="display&#58;none;"></div></div>
+<li>Use the rule of thirds. See&#58;<br></li>
+​<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="560" height="345" src="https&#58;//www.youtube.com/embed/iH3Z-3SeWiM" frameborder="0"></iframe>&#160;</div>
 
 <li>Don't zoom erratically – Ease in and ease out of zooms</li>
 <li>If someone starts speaking off camera, move to them slowly and smoothly without rushing (it is OK for them to talk off camera for a short time)</li>
