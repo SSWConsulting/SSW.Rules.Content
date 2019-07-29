@@ -41,6 +41,6 @@ index:
 - do-you-use-your-ioc-container-to-inject-dependencies--and-not-as-a-singleton-container
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;If you still need help, visit SSW Consulting Services&#160;and book in a consultant.​
+​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;If you&#160;need help, visit SSW Consulting Services&#160;and book in a consultant.​<br>
 
 
