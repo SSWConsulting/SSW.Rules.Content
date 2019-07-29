@@ -22,7 +22,7 @@ redirects:
 
 
 
-  <p>There are 2 main parts to any application. The UI which is what the customer can see and provide feedback on, and the underlying code which they really can't know if it is healthy or not.</p><p>Therefore it is important to conduct a '<a href="/do-you-know-the-tools-you-need-before-a-＂test-please＂">test please</a>' on the internal code and architecture of the application.</p><div>Ideally conduct a small 'Code + Architecture Review' for every sprint. Assuming a 2 week sprint, schedule a&#160;4 hour (2 architects x 2 hours) review during all sprints. </div>
+  <p>There are 2 main parts to any application. The UI which is what the customer can see and provide feedback on, and the underlying code which they really can't know if it is healthy or not.<br></p><p>Therefore it is important to conduct a '<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7ba5e1cd-da39-4bf2-9fe2-5b899589b3d2">test please</a>' on the internal code and architecture of the application.</p><div>Ideally conduct a small 'Code + Architecture Review' for every sprint. Assuming a 2 week sprint, schedule a&#160;4 hour (2 architects x 2 hours) review.<br></div>
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -42,7 +42,7 @@ redirects:
     <li>Smart client (any disconnected users?) </li>
     <li>Technology choices
     <ul>
-        <li>Persistence layer (SQL Server, Access, SQL Express, LINQ, netTiers) </li>
+        <li>Persistence layer (e.g. Database) </li>
         <li>Business layer </li>
         <li>UI </li>
         <li>Communications </li>
@@ -58,7 +58,7 @@ redirects:
         <li>SharePoint </li>
     </ul>
     </li>
-    <li>Data migrations </li>
+    <li>Usage Telemetry</li><li>Performance Monitoring</li><li>​Data migrations </li>
     <li>Data reporting </li>
     <li>User experience </li>
     <li>Network </li>
