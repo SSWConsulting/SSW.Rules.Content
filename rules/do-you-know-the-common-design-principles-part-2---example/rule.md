@@ -17,7 +17,7 @@ related: []
 ---
 
 
-<p>The hot spots identified in your solution often indicate violations of common design principles.</p>
+<p>The hot spots identified in your solution often indicate violations of common design principles.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 ​<img class="ms-rteCustom-ImageArea" src="/PublishingImages/CodeMetrics_3.png" alt="Check Address" style="width&#58;600px;" />
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities</span>
@@ -46,7 +46,7 @@ related: []
     // ...
 &#125;
 </pre>
-<span class="ssw-rteStyle-FigureBad">Figure&#58; Bad example - This class does two distinct jobs. It creates print jobs and manages printers.</span>
+<span class="ssw-rteStyle-FigureBad">Figure&#58; Bad example - This class does two distinct jobs. It creates print jobs and manages printers</span>
 <pre class="ssw-rteStyle-CodeArea">public class Printers &#123;
     public string CreateJob(PrintJob data) &#123; //...
     &#125;
@@ -62,8 +62,8 @@ public class PrinterManager &#123;
     &#125;
 &#125;
 </pre>
-<span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Each class has a single responsibility.</span>
-<p>Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change, but can be resolved by implementing the Inversion of Control <strong>*and*</strong> Dependency Injection patterns.</p>
+<span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Each class has a single responsibility</span>
+<p>Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change​ but can be resolved by implementing the Inversion of Control <strong>*and*</strong> Dependency Injection patterns.</p>
 <p>TODO&#58; Replace example with TailSpin</p>
 <p>TODO&#58; Updated Code Metrics diagram after fix</p>
 
