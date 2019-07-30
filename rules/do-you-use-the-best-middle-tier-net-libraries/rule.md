@@ -13,8 +13,8 @@ authors:
 
 
 
-<span class='intro'> Don't waste time evaluating which middle tier .Net libraries to use. Most of the commonly used libraries are very similar in fuctionality. By sticking to a library, you can also increase your expertise in it, reducing development time in the future. </span>
+<span class='intro'> ​Don't waste time evaluating which middle tier .Net libraries to use. Most of the commonly used libraries are very similar in fuctionality. By sticking to a library, you can also increase your expertise in it, reducing development time in the future.<br> </span>
 
-<p>​At SSW, we use&#58;</p><ul><li><a href="/Pages/Do-You-Know-the-Best-Dependency-Injection-Container.aspx">StructureMap</a> for IoC</li><li><a href="/do-you-use-the-best-trace-logging-library">Log4Net</a>, or <a href="http&#58;//www.telerik.com/analytics">Telerik&#160;EQATE​C</a> for Tracing</li><li><a href="/rules-to-better-application-insights-for-visual-studio-online">Application Insights for Visual Studio Online</a>,&#160;<a href="http&#58;//www.telerik.com/analytics">Telerik EQATEK​</a>, or <a href="/do-you-use-the-best-exception-handling-library">ELMAH</a> for Error Handling</li></ul>
+<p class="ssw15-rteElement-P">​Don't waste time evaluating which middle tier .NET&#160;libraries to use. Most of the commonly used libraries are very similar in functionality. By sticking to a library, you can also increase your expertise in it, reducing development time in the future.<br></p><div><p class="ssw15-rteElement-P">Great products include&#58;</p><ul><li><a href="https&#58;//autofac.org/">AutoFac</a> (was StructureMap)&#160;for IoC</li><li><a href="https&#58;//serilog.net/">Serilog</a>&#160;and <a href="https&#58;//datalust.co/">Seq</a> (was Log4Net) for Logging and Tracing</li><li><a href="/rules-to-better-application-insights-for-visual-studio-online">Application Insights</a>&#160;(was ELAMH) for Usage Telemetry and Error Reporting<br></li></ul></div>
 
 
