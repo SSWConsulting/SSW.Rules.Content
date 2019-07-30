@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Using subdomains&#160;over directories has 2 benefits&#58; </span>
+<span class='intro'> Using subdomains&#160;over directories has 2 benefits&#58;<br> </span>
 
-<p>1. it is easier to host different sections of your website on different platforms, and </p><p>2. in different geographic locations.</p><p>&#160;</p><p class="ssw15-rteElement-GreyBox">​​​​http&#58;//<strong>ssw</strong>.myservice.com/<br>http&#58;//<strong>northwind</strong>.myservice.com/</p><div><dd class="ssw15-rteElement-FigureGood">Figure&#58;&#160;​Good Example - A subdomain is used to distinguish&#160;​organisations </dd><p class="ssw15-rteElement-GreyBox">​​​http&#58;//www.myservice.com/<strong>ssw</strong>/<br>http&#58;//www.myservice.com/<strong>northwind</strong>/</p></div><div><dd class="ssw15-rteElement-FigureBad">​​Figure&#58; Bad Example - Virtual directories are used to distinguish organisations<br></dd></div>
+<ol><li>it is easier to host different sections of your website on different platforms, and </li><li>in different geographic locations&#160;</li></ol><p class="ssw15-rteElement-GreyBox">​​​http&#58;//www.myservice.com/<strong>ssw</strong>/<br>http&#58;//www.myservice.com/<strong>northwind</strong>/</p><div><dd class="ssw15-rteElement-FigureBad">​​Figure&#58; Bad Example - Virtual directories&#160;used to distinguish organizations<br><br></dd></div><p class="ssw15-rteElement-GreyBox">​​​​http&#58;//<strong>ssw</strong>.myservice.com/<br>http&#58;//<strong>northwind</strong>.myservice.com/<br></p><div><dd class="ssw15-rteElement-FigureGood">Figure&#58;&#160;​Good Example - S​ubdomains&#160;used to distinguish&#160;​organizations </dd></div>
 
 
