@@ -15,7 +15,7 @@ authors:
 
 <span class='intro'> <p><span lang="EN-AU">GRASP stands for General Responsibility Assignment Software Patterns and describes guidelines for working out what objects are responsible for what areas of the application.</span></p> </span>
 
-<p>​The fundamentals of GRASP are the building blocks of Object Oriented design.&#160; It is important that responsibilities in your application are assigned predictably and sensibly to achieve maximum extensibility and maintainability.</p>
+<p>​The fundamentals of GRASP are the building blocks of Object-​Oriented design.&#160; It is important that responsibilities in your application are assigned predictably and sensibly to achieve maximum extensibility and maintainability.</p>
 <p>GRASP consists of a set of&#160;patterns and principles that describe different ways of constructing relationships between classes and objects.</p>
 <table cellpadding="4" border="1" style="border-collapse&#58;collapse;">
 <tbody><tr><th>Creator</th>
