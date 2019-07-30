@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>The repository pattern is a great way to handle your data access layer and should be used wherever you have a need to retrieve data and turn it into domain objects.</p>
+<p>The repository pattern is a great way to handle your data access layer and should be used wherever you have a need to retrieve data and turn it into domain objects.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>The advantages of using a repository pattern are&#58;</p>
 <ul>
@@ -23,6 +23,6 @@ redirects: []
 <li>Testability of your code without having to hit the database (you can just mock the repository)</li>
 <li>Reusability of data access code without having to worry about consistency</li></ul>
 <p>Even better, by providing a consistent repository base class, you can get all your CRUD operations while avoiding any plumbing code.</p>
-<p>See&#160;the <a href="http&#58;//blog.damianbrady.com.au/2012/03/07/a-generic-crud-repository-for-entity-framework/">&quot;A Generic CRUD Repository for Entity Framework&quot;</a>&#160;blog post by Damian Brady for an example of how to implement a repository pattern.</p>
+<p>Tip&#58; Entity Framework provides a great abstraction for data access out of the box. See <a href="https&#58;//tv.ssw.com/clean-architecture-with-asp-net-core-2-1-jason-taylor-ddd-sydney-2018/">Jason’s Clean Architecture with ASP.NET Core talk</a>&#160;​for more information​</p>
 
 
