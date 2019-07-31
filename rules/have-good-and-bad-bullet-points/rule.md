@@ -18,7 +18,7 @@ redirects:
 ---
 
 
-Make your positive and negative points a tick and cross. 
+​Make your positive and negative points a tick and cross. 
 <br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
