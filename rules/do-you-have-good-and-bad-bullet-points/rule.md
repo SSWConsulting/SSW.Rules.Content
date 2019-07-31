@@ -14,7 +14,7 @@ authors:
 
 
 <span class='intro'> Make your positive and negative points a tick and cross. 
- </span>
+<br> </span>
 
 <dl class="badImage"><dt>
       <img src="/PublishingImages/TicksBad.jpg" alt="" /> 
@@ -30,6 +30,6 @@ authors:
          <img src="/PublishingImages/RulesBullets04.jpg" alt="" /> 
       </dt><dd>Figure&#58; The bullet is now loaded! </dd></dl><dl class="image"><dt>
          <img src="/PublishingImages/RulesBullets05.jpg" alt="" /> 
-      </dt><dd>Figure&#58; Congratulations - your bullet points now show your positive and negative points</dd></dl>​fixed&#160;<br>
+      </dt><dd>Figure&#58; Congratulations - your bullet points now show your positive and negative points​<br></dd></dl>
 
 
