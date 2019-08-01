@@ -19,7 +19,7 @@ redirects:
 ---
 
 
-​​​​​​​With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still&#160;removing roadblocks for others. <br>
+​​​​​​​​​With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still&#160;removing roadblocks for others. <br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><p class="ssw15-rteElement-GreyBox"> ​The word &quot;Urgent&quot; is more important than the word &quot;Important&quot;<br></p><dt> <img alt="Challenges ahead sign" src="/PublishingImages/challenges-ahead-sign.jpg" /> </dt><dd>Figure&#58; Remove roadblocks</dd></dl><p>This is the order which you should work&#58;</p><ol><li> 
       <strong>Urgent emails</strong> - emails with &quot;URGENT&quot; in the subject e.g. URGENT - the website is down</li><li>Emails about <strong></strong> <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=ffae6faf-35b2-48d6-8999-37a02ad3b9af">Timesheets </a>or invoicing issues<br></li><li>Your calendar - <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=0786a7f7-bd71-418c-908e-3e12fca21264">keep your calendar up-to-date,​ ​​</a>so people know where you are&#160;<br></li><li> 
