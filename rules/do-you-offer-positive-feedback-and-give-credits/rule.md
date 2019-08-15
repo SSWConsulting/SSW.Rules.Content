@@ -11,13 +11,10 @@ authors:
 
 
 
-<span class='intro'> <p>​
-                    Receiving positive feedback makes everyone feel good. Forgetting to recognize success
+<span class='intro'> <p class="ssw15-rteElement-P">​Receiving positive feedback makes everyone feel good. Forgetting to recognize success
                     means the team has no motivation to succeed.
                 <br></p> </span>
 
-<p>
-                    This is a simple rule - if someone goes beyond the call of duty, you thank them.
-                </p><p class="ssw15-rteElement-GreyBox"><img src="/PublishingImages/GoodJob.jpg" alt="GoodJob.jpg" style="margin&#58;5px;width&#58;500px;height&#58;337px;" />&#160;</p><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Give credit whe​​re credit is due​</dd>
+<p> This is a simple rule - if someone goes beyond the call of duty, you thank them.​​​<br></p><dl class="image"><dt><img src="/PublishingImages/GoodJob.jpg" alt="GoodJob.jpg" style="width&#58;500px;height&#58;337px;" /></dt><dd>Figure&#58; Give credit whe​​re credit is due​</dd></dl>
 
 
