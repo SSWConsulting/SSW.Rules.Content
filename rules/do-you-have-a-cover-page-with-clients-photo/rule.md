@@ -11,8 +11,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p class="ssw15-rteElement-P">Add a photo of the client on your proposal cover&#160;to make your proposal memorable.​<br></p> </span>
 
-
+<p>Search for the client photo in Google Images or Facebook&#58;<br></p><ul><li>&quot;Tom Northwind&quot; Australia</li><li>&quot;Tom Northwind&quot; Facebook​<br></li></ul><dl class="image"><dt><img src="/PublishingImages/Proposals_ClientPhoto.jpg" alt="Proposals_ClientPhoto.jpg" /></dt><dd>Figure&#58; Remember to a​​dd a photo of the client</dd></dl>
 
 
