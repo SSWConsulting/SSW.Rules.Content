@@ -15,8 +15,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">Use a table to summarize the major features of the project. Columns that are needed are&#58;​<br></p><ul><li>Required</li><li>Desired</li><li>Option A</li><li>Option B​</li></ul>
 <br><excerpt class='endintro'></excerpt><br>
-
+<dl class="image"><dt>​<img src="/PublishingImages/Proposals_OptionAHighlighted.jpg" alt="Proposals_OptionAHighlighted.jpg" /></dt><dd>Figure&#58; Highlight Option A which should be the recommended option in yellow</dd></dl>
 
 
