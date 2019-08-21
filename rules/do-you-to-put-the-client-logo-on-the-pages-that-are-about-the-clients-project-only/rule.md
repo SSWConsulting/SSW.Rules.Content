@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p class="ssw15-rteElement-P">It's very important to make clear which part of your proposal is relevant for the client or not. Adding the client logo in the pages related to their company is a good way to do this.​<br></p> </span>
 
 
 
