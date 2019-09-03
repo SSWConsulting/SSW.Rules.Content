@@ -25,6 +25,6 @@ index:
 - sysadmin---do-you-archive-old-teams
 
 ---
-<p>​​Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work and increased transparency.</p><p>Take charge of communication in your Team and get started with Microsoft Teams. This video will guide you through your first few steps with Teams using the simple example of a building at 81 Military Road​&#58;<br><br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/blSJnmJcwnI" frameborder="0"></iframe>&#160;</div><p><br></p>
+<p>​​​Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work and increased transparency.<br></p>
 
 
