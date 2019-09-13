@@ -19,7 +19,7 @@ redirects:
 ---
 
 
-<p>​​​​​​​​In any job, you will most likely at some point face some criticism. Someone may be telling you that you’ve done something wrong or just expressing displeasure because you didn’t do something they wanted.<br></p>
+<p>​​​​​​​​​In any job, you will most likely at some point face some criticism. Someone may be telling you that you’ve done something wrong or just expressing displeasure because you didn’t do something they wanted.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>The best way to take this is to reply to the person, and tell them the following the&#160;3 A's.<br></p><h3 class="ssw15-rteElement-H3">The three A’s&#58;&#160;​Acknowledge, Apologize, Act&#160;​​<br></h3><p>
    <b>A - </b>The first part of a good customer service&#160;is&#160;<b>acknowledging</b>&#160;that something happened. If you don't acknowledge the pain, then&#160;other person won't know if you agree or not that&#160;something is wrong.</p><p>
@@ -34,7 +34,7 @@ redirects:
       <br> 
    </dt><dd>Figure&#58; Make sure you know how to take criticism well<br></dd></dl><p class="ssw15-rteElement-Reference">Defensive behaviour is the primary barrier to effective communication because when a person is being defensive they actually don’t really 
    <b>listen</b> to the other person. And if listening isn’t present, how can two people 
-   <b>effectively communicate</b> with each other?<br><br>- flowingwithchange.com​<br></p><p></p><div><h3 class="ssw15-rteElement-H3">Video​<br></h3><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 82501a2d-ffaa-4b83-859a-9bb76e8613fe" id="div_82501a2d-ffaa-4b83-859a-9bb76e8613fe" unselectable="on"></div><div id="vid_82501a2d-ffaa-4b83-859a-9bb76e8613fe" unselectable="on" style="display&#58;none;"></div></div><h3 class="ssw15-rteElement-H3">​​​Re​​lated Rule​​<br></h3><ul class="ssw15-rteElement-P"><li> 
+   <b>effectively communicate</b> with each other?<br><br>- flowingwithchange.com​<br></p><p></p><div><h3 class="ssw15-rteElement-H3">Video​<br></h3><div class="ms-rtestate-read ms-rte-wpbox" unselectable="on"><div class="ms-rtestate-notify  ms-rtestate-read 82501a2d-ffaa-4b83-859a-9bb76e8613fe" id="div_82501a2d-ffaa-4b83-859a-9bb76e8613fe" unselectable="on"></div><div id="vid_82501a2d-ffaa-4b83-859a-9bb76e8613fe" unselectable="on" style="display&#58;none;"></div></div><h3 class="ssw15-rteElement-H3">​​​Re​​lated Rule​​<br></h3><ul class="ssw15-rteElement-P"><li> 
          <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b5fd502e-4e23-458f-97f6-f5c5136eb3c5">Communication - Do you know how to take feedback/criticism (The 3 A’s)?</a><br></li></ul></div>
 
 
