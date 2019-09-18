@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">​Lighthouse is an&#160;open-source tool built into Google Chrome that can audit for performance, accessibility, progressive web apps, and more. Allowing you to improve the quality of web pages.​​<br></p>
+<p class="ssw15-rteElement-P">​​Lighthouse is an&#160;open-source tool built into Google Chrome that can audit for performance, accessibility, progressive web apps, and more. Allowing you to improve the quality of web pages.​​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>You can run Lighthouse&#58;</p><ul><li>In Chrome DevTools</li><li>From the command line​<br></li><li>As a Node module</li></ul><p class="ssw15-rteElement-P">It runs a series of audits against a URL and then it generates a report on how well the page did. From there, you can use the failing audits as indicators on how to improve the page. Each audit has a reference doc explaining why the audit is important, as well as how to fix it.</p>
 <dl class="goodImage">
