@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-Your existing clients should always be the first thing on your mind. Any work relating to <i>existing</i> clients should be done before looking into anything else, including <i>prospective</i> client work. 
+​Your existing clients should always be the first thing on your mind. Any work relating to <i>existing</i> clients should be done before looking into anything else, including <i>prospective</i> client work. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
