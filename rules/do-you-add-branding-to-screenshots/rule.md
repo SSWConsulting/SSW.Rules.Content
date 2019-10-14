@@ -26,12 +26,12 @@ related: []
       <br> 
    </dt><dd>Figure&#58; Good example - Balloon follows SSW branding<br></dd></dl>​<br><br>
 <br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-SSW-Only">To use SSW branding on your next screenshots, you should have the latest version of Snagit (which is the leading screen capture utility) and import the theme.<br>Find SSW Snagit theme here&#58;&#160;<a href="file&#58;///fileserver/DataSSW/DataSSWEmployees/Templates/SSW.snagtheme">\\fileserver\DataSSW\DataSSWEmployees\Templates\SSW.snagtheme</a>.</p><dl class="image"><dt>
-      <img src="/PublishingImages/2019-10-14-Snagit-Themes.png" alt="2019-10-14-Snagit-Themes.png" />
+<p class="ssw15-rteElement-SSW-Only">To use SSW branding on your next screenshots, you should have the latest version of Snagit (which is the leading screen capture utility) and import the theme.<br>Find SSW Snagit theme here&#58;&#160;<a href="file&#58;///fileserver/DataSSW/DataSSWEmployees/Templates/SSW.snagtheme">\\fileserver\DataSSW\DataSSWEmployees\Templates\SSW.snagtheme</a>.</p><dl class="image"><dt> 
+      <img src="/PublishingImages/2019-10-14-Snagit-Themes.png" alt="2019-10-14-Snagit-Themes.png" style="width&#58;90%;" /> 
    </dt><dd>Figure&#58; SSW theme already includes all tools you need with our branding<br></dd></dl><p>Instructions to create and use Snagit themes can be found at 
-   <a href="https&#58;//www.techsmith.com/tutorial-snagit-13-quick-style-themes.html?utm_source=product&amp;utm_medium=snagit&amp;utm_campaign=sw13">Quick Style Themes Tutorial</a>.​<br></p><p class="ssw15-rteElement-YellowBorderBox"> 
-   <b>Tip&#58;</b>&#160;You can automatically have your SSW ​Snagit presets on&#160;sign-in via a script. See&#160;<a href="https&#58;//github.com/SSWConsulting/LoginScript">https&#58;//github.com/SSWConsulting/LoginScript</a>.</p><p> 
-   <br> 
+   <a href="https&#58;//www.techsmith.com/tutorial-snagit-13-quick-style-themes.html?utm_source=product&amp;utm_medium=snagit&amp;utm_campaign=sw13">Quick Style Themes Tutorial</a>.​<br></p><p class="ssw15-rteElement-YellowBorderBox">
+   <b>Tip&#58;</b>&#160;You can automatically have your SSW ​Snagit presets on&#160;sign-in via a script. See&#160;<a href="https&#58;//github.com/SSWConsulting/LoginScript">https&#58;//github.com/SSWConsulting/LoginScript</a>.</p><p>
+   <br>
 </p>
 
 
