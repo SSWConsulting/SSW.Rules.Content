@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>​​​Scrum is easier than it seems, we'll explain how in these 8 simple steps. <br></p> </span>
+<span class='intro'> <p>​​​​Scrum is easier than it seems, we'll explain how in these 8 simple steps. <br></p> </span>
 
 <dl class="goodImage"><dt> 
       <img src="/PublishingImages/8Steps_preview.jpg" alt="" />​</dt><dd>Fi​gure&#58; This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print this 
