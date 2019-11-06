@@ -12,7 +12,7 @@ authors:
 
 
 <span class='intro'> 
-  <p>We always use two tables for tracking versioning information&#58;<br></p>
+  <p>​We always use two tables for tracking versioning information&#58;<br></p>
 <ul>
     <li>_zsDataVersion tracks the schema changes, and which update script we are up to. This helps tremendously in determining which version of the scripts are still required between development, test, and production databases. </li>
     <li>_zsVersionLatest tracks which version the front-end client should be. This allows us to give a warning to (or even deny) users who are connecting to the database while not using the right version of the front-end client.<br></li>
