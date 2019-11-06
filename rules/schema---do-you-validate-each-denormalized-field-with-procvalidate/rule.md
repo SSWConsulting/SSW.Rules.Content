@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>90% of the databases that SSW works with make use of denormalized fields. We believe this is with good reason. However, several precautions should be taken to ensure that the data held within these fields is reliable. This is particularly the case several applications are updating your denormalized data. To illustrate, let's say that we want to show all Customers with a calculated field totalling their order amount (ie Customer.OrderTotal). <br></p>
+<span class='intro'> <p>​90% of the databases that SSW works with make use of denormalized fields. We believe this is with good reason. However, several precautions should be taken to ensure that the data held within these fields is reliable. This is particularly the case several applications are updating your denormalized data. To illustrate, let's say that we want to show all Customers with a calculated field totalling their order amount (ie Customer.OrderTotal). <br></p>
 <p>With this example in mind, the main reasons we use denormalized fields are&#58; </p> </span>
 
 <blockquote dir="ltr" style="margin-right&#58;0px;"><blockquote dir="ltr" style="margin-right&#58;0px;"><p>&#160;</p></blockquote></blockquote>
