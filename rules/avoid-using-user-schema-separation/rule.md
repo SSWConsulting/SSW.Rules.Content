@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-<p>User-schema separation is a new feature introduced in SQL 2005.</p><p>In SQL 2000&#58;<br></p><ul><li>All objects are owned by users</li><li>If a user is deleted, all these objects must be deleted or have the owner reassigned</li><li>In script the naming convention is databaseName.ownerName.objectName</li><li>You need to update all scripts when a user changes.</li></ul><p>User-schema separation solves this problem by adding another level of naming, and shifting ownership of database objects to the schema, not the user. So, is it worth doing? Unless you are working with a very large database (100+ tables), the answer is &quot;no&quot;. Most smaller databases have all objects with owner &quot;dbo&quot;, which is fine in most cases.​<br></p>
+<p>​​User-schema separation is a new feature introduced in SQL 2005.<br></p><p>In SQL 2000&#58;<br></p><ul><li>All objects are owned by users</li><li>If a user is deleted, all these objects must be deleted or have the owner reassigned</li><li>In script the naming convention is databaseName.ownerName.objectName</li><li>You need to update all scripts when a user changes.</li></ul><p>User-schema separation solves this problem by adding another level of naming, and shifting ownership of database objects to the schema, not the user. So, is it worth doing? Unless you are working with a very large database (100+ tables), the answer is &quot;no&quot;. Most smaller databases have all objects with owner &quot;dbo&quot;, which is fine in most cases.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
       <img src="/PublishingImages/SQLDatabases_UserSchema_Bad.jpg" alt="SQLDatabases_UserSchema_Bad.jpg" />
