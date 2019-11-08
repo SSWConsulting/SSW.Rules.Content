@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p class="ssw15-rteElement-P">Standardize on the return values of stored procedures for success and failures.​​<br></p> </span>
 
 
 
