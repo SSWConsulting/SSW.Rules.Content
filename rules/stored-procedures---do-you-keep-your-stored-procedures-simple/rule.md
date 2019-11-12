@@ -1,0 +1,20 @@
+---
+type: rule
+archivedreason: 
+title: Stored Procedures - Do you keep your Stored Procedures simple?
+guid: 89c2edec-cd84-4ac4-babd-f501fc54ce40
+uri: stored-procedures---do-you-keep-your-stored-procedures-simple
+created: 2019-11-12T22:31:13.0000000Z
+authors:
+- id: 1
+  title: Adam Cogan
+related: []
+
+---
+
+
+Enter Intro Text
+<br><excerpt class='endintro'></excerpt><br>
+
+
+
