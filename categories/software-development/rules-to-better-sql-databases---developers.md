@@ -65,6 +65,6 @@ index:
 - views---do-you-use-sql-views
 
 ---
-<p class="ssw15-rteElement-P">​Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of&#58;</p><ul><li>​Ensuring your databases are Normalized and in 3rd Normal Form&#160;</li><li>Making sure you have primary keys, foreign keys and simple indexes to improve performance&#160;</li><li>Making sure you Back up regularly&#160;</li><li>​Basic Naming conventions (see some of our object naming conventions)&#160;</li><li>Minimizing resultset sizes and data over the wire​​​​</li></ul>
+<p class="ssw15-rteElement-P">​Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of&#58;</p><ul><li>​Ensuring your databases are Normalized and in 3rd Normal Form&#160;</li><li>Making sure you have primary keys, foreign keys and simple indexes to improve performance&#160;</li><li>Making sure you Back up regularly&#160;</li><li>​Basic Naming conventions (see some of our object naming conventions)&#160;</li><li>Minimizing resultset sizes and data over the wire​​​​</li></ul><div><br></div><div>Link&#58;&#160;<a href="http&#58;//www.nyx.net/~bwunder/dbChangeControl/standard.htm">Database Coding Standard and Guideline​</a><br></div>
 
 
