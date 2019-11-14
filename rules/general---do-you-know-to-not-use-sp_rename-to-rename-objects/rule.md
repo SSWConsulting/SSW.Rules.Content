@@ -11,7 +11,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> <p>Do not use &quot;sp_rename&quot; to rename objects like stored procedures, views and triggers.​</p>
+​​​Object name should be the same as name used in the object's script (e.g. CREATE script for stored procedures, views and triggers). Inconsistency can happen when object is renamed with sp_rename, but its script is not updated. </span>
 
 
 
