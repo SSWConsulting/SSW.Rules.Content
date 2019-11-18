@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>SQL Server 2000 and 2005 have several different services that support them.</p><ul><li>SQL Server</li><li>SQL Server Agent</li><li>SQL Server Reporting Services</li><li>SQL Server Integration Services</li><li>SQL Server Fulltext search</li><li>SQL Server Analysis Services</li></ul><p>In the service properties window for these services, ensure that the Service Startup Account is run as &quot;This Account&quot; and not as &quot;Built-in Account&quot; (SQL 2005) or &quot;Service Account&quot; (SQL 2000). Otherwise, you won't get all the functionality by default such as the ability to use Replication, Linked Servers, connect to other machines or use SQL Server mail.</p><p>For security you should not have this domain acccount in the Administrators group.​<br><br></p>
+<p>SQL Server 2000 and 2005 have several different services that support them.<br></p><ul><li>SQL Server</li><li>SQL Server Agent</li><li>SQL Server Reporting Services</li><li>SQL Server Integration Services</li><li>SQL Server Fulltext search</li><li>SQL Server Analysis Services</li></ul><p>In the service properties window for these services, ensure that the Service Startup Account is run as &quot;This Account&quot; and not as &quot;Built-in Account&quot; (SQL 2005) or &quot;Service Account&quot; (SQL 2000). Otherwise, you won't get all the functionality by default such as the ability to use Replication, Linked Servers, connect to other machines or use SQL Server mail.</p><p>For security you should not have this domain account​ in the Administrators group.​<br><br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
       <img src="/PublishingImages/SQLDatabases_RunAsAccount_Bad.png" alt="SQLDatabases_RunAsAccount_Bad.png" />
