@@ -16,6 +16,6 @@ index:
 - do-you-have-a-cloud-architect-in-your-projects
 
 ---
-<p>​​​<br></p>
+<p>SSW implements strict standards on all code produced. Implementing strict coding standards means your code can be easily read, easily modified and easily tested. Our experts are experienced in Angular, React, Vue, C#, .NET Core Web API, Azure, Dynamics CRM, and SharePoint.</p><p>​Learn more on <a href="https&#58;//www.ssw.com.au/ssw/Consulting/Software-Audit.aspx">our Software Auditing p​age</a>.​​​<br></p>
 
 
