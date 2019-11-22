@@ -21,6 +21,6 @@ related: []
       <span style="color&#58;#444444;">All White (in a dark background)​</span><br></li></ol><dl class="ssw15-rteElement-ImageArea">
       <img src="/PublishingImages/ssw%20logo%20sample.png" alt="" style="width&#58;770px;" />
    </dl><dd class="ssw15-rteElement-FigureGood">Figure&#58;&#160;Good Example -​&#160;SSW logo design has three different color set​<br></dd>
-<p></p><h3 class="ssw15-rteElement-H3">6. Source file&#58; Illustrator/Sketch</h3><p>​Always keep a copy of the source file in Illustrator/Sketch for designers.<br></p><p>​<br></p>
+<p></p><h3 class="ssw15-rteElement-H3">6. Source file&#58; Illustrator/Sketch</h3><p>​Always keep a copy of the source file in Illustrator/Sketch for designers.<br></p><h3 class="ssw15-rteElement-H3">​Good Example&#58;<br></h3><ul><li><a href="https&#58;//www.ssw.com.au/ssw/logo/">SSW Logo Index​</a>​<br></li></ul>
 
 
