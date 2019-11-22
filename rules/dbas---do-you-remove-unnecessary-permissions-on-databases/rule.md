@@ -13,7 +13,7 @@ related: []
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">What goes for permissions to Windows objects also goes for SQL Server objects. Remove all permissions but the bare minimum required to operate your application.​​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
