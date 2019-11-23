@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> NULLs complicate your life. To avoid having to constantly differentiate between empty strings and NULLs, you should avoid storing NULLS if you can.<p class="ssw15-rteElement-P">Why? Well what is wrong with this?​​​<br></p> </span>
+<span class='intro'> ​NULLs complicate your life. To avoid having to constantly differentiate between empty strings and NULLs, you should avoid storing NULLS if you can.<p class="ssw15-rteElement-P">Why? Well what is wrong with this?​​​<br></p> </span>
 
 <p class="ssw15-rteElement-CodeArea">​SELECT ContactName FROM Customer WHERE ContactName &lt;&gt; ''<br></p><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Selecting on empty string​<br></dd><p>Nothing if your data is perfect, but if you allow Nulls in your database, then statements like this will give you unexpected results. To get it working you would have to add the following to the last line&#58;</p><p class="ssw15-rteElement-CodeArea">WHERE ContactName &lt;&gt; '' OR ContactName Is Null </p><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Allowing null strings makes queries more complex<br><br></dd><p>What about only allowing empty strings? Well we choose to block Nulls because it is a lot easier to check off a check box in Enterprise Manager than it is to put a constraint on every field that disallows empty string ('').​</p><dl class="image"><dt>
       <img src="/PublishingImages/SQLServerNullsAndEmptyStrings.gif" alt="SQLServerNullsAndEmptyStrings.gif" />
