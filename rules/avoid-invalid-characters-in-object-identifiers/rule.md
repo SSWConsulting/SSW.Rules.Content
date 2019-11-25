@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">We believe it is not good that use invalid characters (most of are Symbol characters, like&#160;&quot;,;&quot;\/(&quot;, etc.) in object identifiers. Though it is legal, it is easy confused and probably cause error during run script on these objects.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
