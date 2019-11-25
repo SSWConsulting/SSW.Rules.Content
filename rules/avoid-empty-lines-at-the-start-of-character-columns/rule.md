@@ -16,8 +16,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">Character columns (char, varchar, text, nchar, varchar, text) can store data as {ltHTMLChar}Ctrl{gtHTMLChar}+{ltHTMLChar}Enter{gtHTMLChar} in the first line and the rest of data in the second line.​​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p class="ssw15-rteElement-P"><b>​Note&#58;&#160;</b>If the front-end is Microsoft Access, then the data in the second line is not shown.​<br></p>
 
 
