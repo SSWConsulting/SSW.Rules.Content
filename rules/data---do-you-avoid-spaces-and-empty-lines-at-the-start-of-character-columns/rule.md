@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">Text in character columns (char, varchar, text, nchar, varchar, text) can start with spaces which is usually data entry error.​<br></p>
+<p class="ssw15-rteElement-P">​Text in character columns (char, varchar, text, nchar, varchar, text) can start with spaces which is usually data entry error.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
