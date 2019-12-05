@@ -31,7 +31,7 @@ redirects:
          <img alt="complexity and false hope" src="/PublishingImages/complexity-and-false-hope.jpg" style="width&#58;600px;" /> 
       <br></dt><dd> Figure&#58; Hard decision - this guy needs to state why he recommends this option<br></dd></dl><h3 class="ssw15-rteElement-H3">Related Rule 
       <br></h3><ul><li>
-         <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=48889512-6575-4e0e-8a3a-7e6933a41128">Do you know how to get approval for a purchase?</a>​<br></li></ul>
+         <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=48889512-6575-4e0e-8a3a-7e6933a41128">Do you know how to get approval for a purchase?</a>​<br></li><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2b96c878-2c4f-4c5c-8807-304930169da6">Do you always propose all available options?​</a><br></li></ul>
 </div>
 
 
