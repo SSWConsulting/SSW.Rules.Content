@@ -29,9 +29,9 @@ redirects:
       <b>Option B</b>&#160;- Build a new solution using a&#160;third party company - It will be expensive and it will take a long time.<br><b>Option C</b> &#160;- Customize a&#160;ready-made solution&#160;(Recommended) -&#160;We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.<br><br>Please decide so I can move forward&#160;<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example 
       <br></dd><dl class="image"><dt> 
          <img alt="complexity and false hope" src="/PublishingImages/complexity-and-false-hope.jpg" style="width&#58;600px;" /> 
-      <br></dt><dd> Figure&#58; Hard decision - this guy needs to state why he recommends this option<br></dd></dl><h3 class="ssw15-rteElement-H3">Related Rule 
+      <br></dt><dd> Figure&#58; Hard decision - this guy needs to state why he recommends this option<br></dd></dl><h3 class="ssw15-rteElement-H3">Related Rules&#160;
       <br></h3><ul><li>
-         <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=48889512-6575-4e0e-8a3a-7e6933a41128">Do you know how to get approval for a purchase?</a>​<br></li><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2b96c878-2c4f-4c5c-8807-304930169da6">Do you always propose all available options?​</a><br></li></ul>
+         <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=48889512-6575-4e0e-8a3a-7e6933a41128">Do you know how to get approval for a purchase?</a>​<br></li><li>​<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2b96c878-2c4f-4c5c-8807-304930169da6">Do you always propose all available options?​</a><br></li></ul>
 </div>
 
 
