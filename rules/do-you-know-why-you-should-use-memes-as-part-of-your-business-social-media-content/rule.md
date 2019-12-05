@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <div style="text-align&#58;justify;">Memes are one of the greatest symbols of social media – fun fact&#58; some people use social networks mainly for that reason. They’re funny and they usually carry personality, either to a person or a brand. They’re easy to engage with, but sometimes besides bringing some popularity to your account, they can also be risky for your business depending on its content. They can bring great results to your business’ social media, but you must plan it accordingly to fit your audience’s interest.</div><br> </span>
+<span class='intro'> <div style="text-align&#58;justify;">Memes are one of the greatest symbols of social media – fun fact&#58; some people use social networks mainly for that reason. They’re funny and they usually carry personality, either to a person or a brand. They’re easy to engage with, but sometimes besides bringing some popularity to your account, they can also be risky for your business depending on its content. They can bring great results to your business’ social media, but you must plan it accordingly to fit your audience’s interest.<br></div><br> </span>
 
 <div style="text-align&#58;justify;"> 
    <strong>Why do memes work? <br></strong></div><div style="text-align&#58;justify;"><strong></strong> <br></div><div style="text-align&#58;justify;"><div> 
@@ -44,10 +44,10 @@ authors:
    </div><div> 
 </div></div><div style="text-align&#58;justify;">Correlating it to <a href="https&#58;//docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture">DevOps Culture</a>, as a marketer, you should have a growth mindset on this. After testing a meme and posting it, you’ll learn from your experiments and gather insights on what’s the best way to implement this to your social media strategy.</div><div> 
    <br> 
-</div><div> 
-   <img src="/SiteAssets/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content/doritos.jpg" alt="doritos.jpg" style="margin&#58;5px;" /> <dd class="ssw15-rteElement-FigureBad">Figure - Bad Example&#58; Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea </dd></div><div><br>
-   </div><div><img src="/SiteAssets/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content/nswpolice.jpg" alt="nswpolice.jpg" style="margin&#58;5px;width&#58;808px;" /><br>
-</div><div>
+</div><div><dl class="ssw15-rteElement-ImageArea"> 
+   <img src="/SiteAssets/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content/doritos.jpg" alt="doritos.jpg" style="margin&#58;5px;" /> </dl><dd class="ssw15-rteElement-FigureBad">Figure - Bad Example&#58; Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea </dd></div><div><br>
+   </div><div><dl class="ssw15-rteElement-ImageArea"><img src="/SiteAssets/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content/nswpolice.jpg" alt="nswpolice.jpg" style="margin&#58;5px;width&#58;808px;" /></dl>
+&#160;</div><div>
     <dd class="ssw15-rteElement-FigureGood">Figure - Good Example&#58; By using a light-hearted tone, the <a href="https&#58;//www.facebook.com/nswpoliceforce/">NSW Police</a> manages to get across their point on controversial topics</dd></div> <br>
 
 
