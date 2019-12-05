@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you turn off auto update on your servers?
+title: Do you turn off auto-update on your servers?
 uri: do-you-turn-off-auto-update-on-your-servers
 created: 2010-06-24T01:43:02.0000000Z
 authors:
