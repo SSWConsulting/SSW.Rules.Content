@@ -18,14 +18,13 @@ redirects:
 ---
 
 
-<p>​​​​Managing up is providing your manager with an option to approve, rather than asking a general question.<br></p>
+<p>​​​​​Managing up is providing your manager with an option to approve, rather than asking a general question.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p class="ssw15-rteElement-GreyBox">What do you want to charge for Cameron's rate?<br></p><dd class="ssw15-rteElement-FigureBad">
-   Figure&#58; Bad Example - Nothing to approve 
-   <br></dd><p class="ssw15-rteElement-GreyBox">What do you want to charge for Cameron's rate?<br><br>I would advise the standard $165 + GST until he has more experience.<br>Please approve.<br></p>
-<div><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example – Option to approve&#160;<br></dd><p>When you are giving someone multiple options, you&#160;should recommend one and state why. For example&#58;</p><p class="ssw15-rteElement-GreyBox">We want to integrate our database with our website so that customers can purchase online.<br><br>The choices&#58;<br><br><b>Option A</b>&#160;- Buy a&#160;ready-made solution -&#160;The ready-made solution is cheap but it does not have everything that we need and has unnecessary features. 
+   Figure&#58; Bad Example - Nothing to approve<br></dd><p class="ssw15-rteElement-GreyBox">What do you want to charge for Cameron's rate?<br><br>I would advise the standard $165 + GST until he has more experience.<br>Please approve.<br></p>
+<div><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Option to approve&#160;<br></dd><p>When you are giving someone multiple options, you&#160;should recommend one and state why. For example&#58;</p><p class="ssw15-rteElement-GreyBox">We want to integrate our database with our website so that customers can purchase online.<br><br>The choices&#58;<br><br><b>Option A</b>&#160;- Buy a&#160;ready-made solution -&#160;The ready-made solution is cheap but it does not have everything that we need and has unnecessary features. 
       <br>
-      <b>Option B</b>&#160;- Build a new solution using a&#160;third party company - It will be expensive and it will take a long time.<br><b>Option C</b>&#160;- Customize a&#160;ready-made solution&#160;(Recommended) -&#160;We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.<br><br>Please decide so I can move forward&#160;<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example – Multiple options to approve with reasons for each
+      <b>Option B</b>&#160;- Build a new solution using a&#160;third party company - It will be expensive and it will take a long time.<br><b>Option C</b>&#160;- Customize a&#160;ready-made solution&#160;(Recommended) -&#160;We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.<br><br>Please decide so I can move forward&#160;<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Multiple options to approve with reasons for each
       <br></dd><dl class="image"><dt> 
          <img alt="complexity and false hope" src="/PublishingImages/complexity-and-false-hope.jpg" style="width&#58;600px;" /> 
       <br></dt><dd> Figure&#58; Har​d decision - this guy needs to state why he recommends this option<br></dd></dl><h3 class="ssw15-rteElement-H3">Related Rules&#160;
