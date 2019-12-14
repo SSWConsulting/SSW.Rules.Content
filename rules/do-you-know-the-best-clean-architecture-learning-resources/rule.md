@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> ​​There are many great resources for learning the principles of Clean Architecture, but a the best place to start is with Jason Taylor’s video&#58;<br> 
+<span class='intro'> ​​​There are many great resources for learning the principles of Clean Architecture, but a the best place to start is with Jason Taylor’s video&#58;<br> 
 <div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"> 
    <iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/5OtUm1BLmG0" frameborder="0"></iframe>&#160;</div><dd class="ssw15-rteElement-FigureNormal">Figure​​​​&#58; Clean Architecture with ASP.NET Core 3.0 <span class="ssw15-rteStyle-Highlight">(Recommended)</span><br></dd>
    ​
