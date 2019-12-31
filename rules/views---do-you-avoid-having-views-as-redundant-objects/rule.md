@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">Don't have views as redundant objects. e.g. vwCustomers as SELECT * FROM Customers. This is unnecessary. Instead Views should be generally used for security.​​<br></p>
+<p class="ssw15-rteElement-P">Don't have views as redundant objects. e.g. vwCustomers as SELECT * FROM Customers. This is unnecessary. Instead, Views should be generally used for security.​​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
