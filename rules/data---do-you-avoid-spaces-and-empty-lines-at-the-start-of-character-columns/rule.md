@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">​Text in character columns (char, varchar, text, nchar, varchar, text) can start with spaces which is usually data entry error.​<br></p> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​​Text in character columns (char, varchar, text, nchar, varchar, text) can start with spaces which is usually data entry error.​<br></p><p class="ssw15-rteElement-P">The best way to avoid this issue is to handle whitespace in the middle-tier before it reaches the database.<br>However, if you are using stored procedures you can also remove leading&#160;spaces using <a href="https&#58;//docs.microsoft.com/en-us/sql/t-sql/functions/ltrim-transact-sql?view=sql-server-ver15">LTRIM (Transact-SQL)​</a>.<br></p> </span>
 
 
 
