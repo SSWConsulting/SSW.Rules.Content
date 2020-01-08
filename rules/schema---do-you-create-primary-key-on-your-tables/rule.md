@@ -13,7 +13,7 @@ related: []
 ---
 
 
-When you specify a PRIMARY KEY constraint for a table, SQL Server enforces data uniqueness by creating a unique index for the primary key columns. This index also permits fast access to data when the primary key is used in queries.<p class="ssw15-rteElement-P">Although, strictly speaking, the primary key is not essential you can update tables in SQL Enterprise Manager without it - we recommend all tables have a primary key (except tables that have a high volume of continuous transactions). Especially, when you have a client like Access, it would help you to avoid the problems.​​<br></p>
+​When you specify a PRIMARY KEY constraint for a table, SQL Server enforces data uniqueness by creating a unique index for the primary key columns. This index also permits fast access to data when the primary key is used in queries.<p class="ssw15-rteElement-P">Although, strictly speaking, the primary key is not essential&#160;- we recommend all tables have a primary key (except tables that have a high volume of continuous transactions).&#160;<br></p><p class="ssw15-rteElement-P"><strong>Legacy&#58;</strong>&#160;<br></p><p class="ssw15-rteElement-P">Especially, when you have a client like Access, it would help you to avoid the problems.​​</p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
