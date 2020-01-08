@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>​​90% of the databases that SSW works with make use of denormalized fields. We believe this is with good reason. However, several precautions should be taken to ensure that the data held within these fields is reliable. This is particularly the case several applications are updating your denormalized data. To illustrate, let's say that we want to show all Customers with a calculated field totalling their order amount (ie Customer.OrderTotal). <br></p>
+<span class='intro'> <p>​​​90% of the databases that SSW works with make use of denormalized fields. We believe this is with good reason. However, several precautions should be taken to ensure that the data held within these fields is reliable. This is particularly the case several applications are updating your denormalized data. To illustrate, let's say that we want to show all Customers with a calculated field totalling their order amount (ie Customer.OrderTotal). <br></p>
 <p>With this example in mind, the main reasons we use denormalized fields are&#58; </p> </span>
 
 <blockquote dir="ltr" style="margin-right&#58;0px;"><blockquote dir="ltr" style="margin-right&#58;0px;"><p>&#160;</p></blockquote></blockquote>
@@ -48,7 +48,7 @@ ORDER BY Customer.CustomerID</pre></font></dt>
 <font class="ms-rteCustom-FigureBad" size="2"><font size="2">They have to be maintained and can potentially get out of synch</font></font> <p>This can make&#160;them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields </p>
 <font class="ms-rteCustom-FigureBad" size="2"><font size="2">They can be seen as an unnecessary waste of space</font></font> <p>All in all, we choose to still use denormalized fields because they can save development time. We do this with some provisos. In particular, they must be validated correctly to ensure the integrity of the data. </p>
 <p>Here is how we ensure that this data is validated&#58; </p>
-<ol><li>Change the description on any denormalized fields to include &quot;Denormalized&quot; in the description - &quot;Denormalized&#58; Sum(OrderTotal) FROM Orders&quot; in description in Enterprise Manager </li>
+<ol><li>Change the description on any denormalized fields to include &quot;Denormalized&quot; in the description - &quot;Denormalized&#58; Sum(OrderTotal) FROM Orders&quot; in description in SQL Server Management Studio.<br></li>
 <li>Create a view that lists all the denormalized fields in the database - based on the description field. <dl class="image"><dt><font class="ms-rteCustom-CodeArea" size="+0"><pre>CREATE VIEW dbo.vwValidateDenormalizedFields
 AS
     SELECT OBJECT_NAME(id) AS TableName, 
