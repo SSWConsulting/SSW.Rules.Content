@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p>When you have a denormalized field, use a computed column.&#160; In&#160;SQL Server&#160;​they can be persisted.<br></p><p>Use the suffix &quot;Computed&quot; to clearly distinguish that this field is a computed field.<br><br><img src="/PublishingImages/NormalizedFields_Bad.jpg" alt="NormalizedFields_Bad.jpg style=" style="width&#58;750px;" /><br></p><dl class="badImage"><dd>Figure&#58; Bad Example - This field was updated from code in the middle tier.<br></dd></dl><dl class="goodImage"><dt>
+<p>When you have a denormalized field, use a computed column.&#160; In&#160;SQL Server&#160;​they can be persisted.<br></p><p>Use the suffix &quot;Computed&quot; to clearly distinguish that this field is a computed field.<br><br><img src="/PublishingImages/NormalizedFields_Bad.jpg" alt="NormalizedFields_Bad.jpg style=" style="width&#58;750px;" /><br></p><dl class="badImage"><dd>Figure&#58; Bad Example - This field was manually​ updated from code in the middle tier.<br></dd></dl><dl class="goodImage"><dt>
       <img src="/PublishingImages/NormalizedFields_Good.jpg" alt="NormalizedFields_Good.jpg" style="width&#58;750px;" />
    </dt><dd>Figure&#58; Good Example​ - There was no code in the middle tier to calculate this (and it has the correct&#160;name)<br><br></dd></dl>
 <br><excerpt class='endintro'></excerpt><br>
