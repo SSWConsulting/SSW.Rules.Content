@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">Character columns (char, varchar, text, nchar, varchar, text) can store data as &lt;Ctrl&gt;+&lt;Enter&gt; in the first line and the rest of data in the second line.​​<br></p>
+<p class="ssw15-rteElement-P">​​Character columns (char, varchar, text, nchar, varchar, text) can store data as &lt;Ctrl&gt;+&lt;Enter&gt; in the first line and the rest of data in the second line.​​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
