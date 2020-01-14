@@ -17,7 +17,7 @@ redirects: []
 ---
 
 
-<p>​You should link all your accounts (available at the moment&#58;&#160;Twitter and Facebook) to your bit.ly account. This can be done under the <a href="https&#58;//bitly.com/a/settings/connected" target="_blank">&quot;Connected Account&quot; tab</a>.
+<p>​​​You should link all your accounts (available at the moment&#58;&#160;Twitter and Facebook) to your bit.ly account. This can be done under the <a href="https&#58;//bitly.com/a/settings/connected" target="_blank">&quot;Connected Account&quot; tab</a>.
 
 </p>
 <br><excerpt class='endintro'></excerpt><br>
