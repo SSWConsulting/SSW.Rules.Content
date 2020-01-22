@@ -41,7 +41,7 @@ authors:
       <a href="http&#58;//prosemirror.net/">​​ProseM​irror</a>​<br></li><li> 
       <a href="https&#58;//pandao.github.io/editor.md/">Editor.Md</a><br> Note&#58; It is the #1 editor on 
       <a href="https&#58;//ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins">Top 7&#58; Best Markdown editors Javascript and jQuery plugins</a><br></li><li>
-      <a href="https&#58;//ui.toast.com/tui-editor/">ToastUI​</a> (recommended)<br>​Note&#58; ToastUI provides more customisation options (menu and language) than Editor.md</li></ul><dl class="goodImage"><dt>
+      <a href="https&#58;//ui.toast.com/tui-editor/">ToastUII Editor</a>&#160;(recommended)<br>​Note&#58; ToastUI provides more customisation options (menu and language) than Editor.md</li></ul><dl class="goodImage"><dt>
       <img src="/PublishingImages/markdown-good.jpg" alt="markdown-good.jpg" />
    </dt><dd>Figure&#58; Good example - Markdown looks clean<br></dd></dl><h3 class="ssw15-rteElement-H3">​​Markdown can have rich content too​</h3><p>Markdown is simple and limited, but you can&#160;make it richer​.</p><p>One way is to use inline HTML, this allows you to use HTML tags that you are familiar with (only if you need to) and embed things like YouTube videos or JavaScript.​<br><br></p><dl class="image"><dt> 
       <img src="/PublishingImages/use-html-in-markdown.png" alt="use-html-in-markdown.png" style="width&#58;750px;" /> 
