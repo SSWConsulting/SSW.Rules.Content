@@ -11,10 +11,10 @@ authors:
 
 
 
-<span class='intro'> <p style="margin-bottom&#58;17px;color&#58;#585651;font-family&#58;verdana, arial, sans-serif;font-size&#58;12px;line-height&#58;19.8px;">​​There are many tools used to communicate and collaborate online.&#160;<span style="line-height&#58;19.8px;">The 2 most efficient platforms for chats and calls&#160;are&#58;​​​</span></p>  </span>
+<span class='intro'> <p style="margin-bottom&#58;17px;color&#58;#585651;font-family&#58;verdana, arial, sans-serif;font-size&#58;12px;line-height&#58;19.8px;">​​​There are many tools used to communicate and collaborate online.&#160;<span style="line-height&#58;19.8px;">The&#160;most efficient platforms for chats and calls&#160;are&#58;​​​​</span></p>  </span>
 
-<ul><li>
-      <a href="https&#58;//www.skype.com/" target="_blank"><b>Skype</b></a><br></li><li>
-      <b><a href="https&#58;//slack.com/" target="_blank">Slack​</a></b><br></li></ul><div>Hopefully&#160;<a href="https&#58;//teams.microsoft.com/">Microsoft Teams</a>&#160;and&#160;<a href="https&#58;//workplace.fb.com/">Workplace by Facebook</a>&#160;will take the lead, we need more app integrations to come e.g. Zapier.</div><div>We think <a href="https&#58;//www.yammer.com/">Yammer​</a>&#160;could soon be decommissioned to reduce confusion.<br><br></div>
+<ul><li><a href="https&#58;//products.office.com/en-ca/microsoft-teams/group-chat-software"><b>Teams</b></a><br></li><li>
+      <b><a href="https&#58;//www.skype.com/" target="_blank">Skype</a></b><b></b><br></li><li>
+      <b><a href="https&#58;//slack.com/" target="_blank">Slack​</a></b><br></li><li>China&#58;&#160;<b><a href="https&#58;//web.wechat.com/">WeChat</a></b> (personal) and <b><a href="https&#58;//www.dingtalk.com/en">DingTalk</a></b> (businesses)<br></li></ul><div>We think <a href="https&#58;//www.yammer.com/">Yammer​</a>&#160;could soon be decommissioned to reduce confusion.<br></div>
 
 
