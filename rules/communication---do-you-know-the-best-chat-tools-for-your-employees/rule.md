@@ -19,10 +19,9 @@ authors:
       <b> 
          <a href="https&#58;//www.skype.com/" target="_blank">Skype</a></b><b></b><br></li><li>
       <b> 
-         <a href="https&#58;//slack.com/" target="_blank">Slack​</a></b></li></ul><p>In China&#58;</p><ul>
+         <a href="https&#58;//slack.com/" target="_blank">Slack​</a></b></li></ul><p>We think&#160;<a href="https&#58;//www.yammer.com/">Yammer​</a>&#160;could soon be decommissioned to reduce confusion.<br></p><p>In China&#58;</p><ul>
 <li><b>​<a href="https&#58;//web.wechat.com/">WeChat</a></b><span style="background-color&#58;initial;"> (personal)&#160;</span></li><li> 
    <b>
-      <a href="https&#58;//www.dingtalk.com/en">DingTalk</a></b><span style="background-color&#58;initial;"> (businesses)</span><br></li></ul><p>We think 
-   <a href="https&#58;//www.yammer.com/">Yammer​</a>&#160;could soon be decommissioned to reduce confusion.<br></p>
+      <a href="https&#58;//www.dingtalk.com/en">DingTalk</a></b><span style="background-color&#58;initial;"> (businesses)​</span><br></li></ul>
 
 
