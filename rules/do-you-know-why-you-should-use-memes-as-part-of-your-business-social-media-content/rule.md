@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <div style="text-align&#58;justify;">Memes are one of the greatest symbols of social media – fun fact&#58; some people use social networks mainly for that reason. They’re funny and they usually carry personality, either to a person or a brand. They’re easy to engage with, but sometimes besides bringing some popularity to your account, they can also be risky for your business depending on its content. They can bring great results to your business’ social media, but you must plan it accordingly to fit your audience’s interest.<br></div><br> </span>
+<span class='intro'> <div style="text-align&#58;justify;">​Memes are one of the greatest symbols of social media – fun fact&#58; some people use social networks mainly for that reason. They’re funny and they usually carry personality, either to a person or a brand. They’re easy to engage with, but sometimes besides bringing some popularity to your account, they can also be risky for your business depending on its content. They can bring great results to your business’ social media, but you must plan it accordingly to fit your audience’s interest.<br></div><br> </span>
 
 <div style="text-align&#58;justify;"> 
    <strong>Why do memes work? <br></strong></div><div style="text-align&#58;justify;"><strong></strong> <br></div><div style="text-align&#58;justify;"><div> 
