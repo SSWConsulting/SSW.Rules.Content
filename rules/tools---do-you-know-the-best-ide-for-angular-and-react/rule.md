@@ -15,7 +15,7 @@ related: []
 ---
 
 
-​​​When developing Angular or React, there are lots of choices for code editors.&#160;The best experience by far is to use <a href="https&#58;//visualstudio.microsoft.com/downloads/">Visual Studio Code</a>.&#160; &#160;<br>
+​​​​When developing Angular or React, there are lots of choices for code editors.&#160;The best experience by far is to use <a href="https&#58;//visualstudio.microsoft.com/downloads/">Visual Studio Code</a>.&#160; &#160;<br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt> 
       <img alt="angular-machine-setup-1.png" src="/PublishingImages/angular-machine-setup-1.png" /> 
@@ -29,6 +29,6 @@ related: []
       <img src="/PublishingImages/open-in-vscode.png" alt="open-in-vscode.png" />
    </dt><dd>Figure&#58; Get to Visual Studio Code quickly from within Visual Studio - 
       <a href="https&#58;//marketplace.visualstudio.com/items?itemName=MadsKristensen.OpeninVisualStudioCode">Open in Visual Studio Code&#160;extension</a>​<br></dd></dl><p> 
-   <b>More&#58;</b><a href="https&#58;//stackshare.io/posts/why-developers-love-visual-studio-code">Why do others love VS Code?​</a><br></p>
+   <b>More&#58;&#160;</b><a href="https&#58;//stackshare.io/posts/why-developers-love-visual-studio-code">Why do others love VS Code?​</a><br></p>
 
 
