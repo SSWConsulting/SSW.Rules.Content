@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> When you setup a new Windows 2008 R2 VHD it will be lacking a few components that need to be installed so it can function as a personal computer as well as a presentation computer.
+<span class='intro'> When you setup a new Windows Server VHD it will be lacking a few components that need to be installed so it can function as a personal computer as well as a presentation computer.
  </span>
 
 
