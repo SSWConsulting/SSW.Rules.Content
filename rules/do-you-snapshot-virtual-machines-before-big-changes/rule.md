@@ -14,21 +14,19 @@ related: []
 
 
 
-  <p>Snapshots are a very convent way to back up a system before a big change is made. It is important to note that Microsoft does not support snapshots of running systems. This is because a snapshot is taken of the system exactly as is, with open connections and interrupt requests. For more information on this you can read Brian Harry’s blog post here&#58; <a shape="rect" href="http&#58;//blogs.msdn.com/bharry/archive/2010/02/10/a-tfs-2010-upgrade-success-story.aspx">http&#58;//blogs.msdn.com/bharry/archive/2010/02/10/a-tfs-2010-upgrade-success-story.aspx</a></p>
-<p>This is why you <strong>MUST </strong>shut down your server before taking a snapshot.</p>
+  <p>Snapshots are a very easy way to back up a system before a big change is made. They can also be easily restored if something goes wrong during the change.<br></p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
-    <li>Shutdown the virtual server</li>
+    
     <li>In the <strong>Hyper-V Manager</strong>, ensure the Virtual Machine has the state of <strong>Off</strong></li>
     <li>Right click on the virtual machine you wish to snapshot and click <strong>Snapshot</strong></li>
     <li>The snapshot should run very quickly and you will notice the snapshot in the <strong>Snapshots </strong>area of the <strong>Hyper-V Manager<br>
     <br>
     <img alt="You will see the snapshots associated with a Virtual Machine when you click on them" src="/PublishingImages/snapshot-while-off.jpg" /></strong></li>
-    <font class="ms-rteCustom-FigureGood" size="+0"><strong>You will see the snapshots associated with a Virtual Machine when you click on them<br>
-    </strong></font><br>
-    <li>You can start your server back up again</li>
+    <font class="ms-rteCustom-FigureGood" size="+0"><strong>You will see the snapshots associated with a Virtual Machine when you click on them</strong></font>
+    
 </ol>
 
 
