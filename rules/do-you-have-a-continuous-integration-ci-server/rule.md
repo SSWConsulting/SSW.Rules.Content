@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> A continuous build server monitors the Source Control repository and, when something changes, it will update, build and test the software. If something is wrong, notifications are sent out via email.​<br> </span>
 
 
 
