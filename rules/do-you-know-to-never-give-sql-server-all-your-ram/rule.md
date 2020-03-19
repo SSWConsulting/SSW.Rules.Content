@@ -13,13 +13,13 @@ related: []
 ---
 
 
-Microsoft SQL Server is made to use all the available memory in a server for itself. It will eat all the memory you throw at it. This can be a problem because your other applications may suffer performance problems as all the system memory is gone. To limit this behaviour you can limit the maximum amount of memory SQL is allowed to use. 
+​Microsoft SQL Server is made to use all the available memory in a server for itself. It will eat all the memory you throw at it. This can be a problem because your other applications may suffer performance problems as all the system memory is gone. To limit this behaviour you can limit the maximum amount of memory SQL is allowed to use. 
 <br>
 <br><excerpt class='endintro'></excerpt><br>
 
   <ol>
     <li>Open SQL Server Management Studio<dl class="ssw15-rteElement-ImageArea">
-    <img src="/PublishingImages/SqlServerAllYourRam_01.png" alt="" style="width&#58;757px;height&#58;427px;" />​​<span style="font-weight&#58;bold;">Figure&#58; SQL Server Nanagement Studio - Login Screen</span></dl></li>
+    <img src="/PublishingImages/SqlServerAllYourRam_01.png" alt="" style="width&#58;757px;height&#58;427px;" />​​<span style="font-weight&#58;bold;">Figure&#58; SQL Server Management Studio - Login Screen</span></dl></li>
     <li>Right click on the server name and select “Properties”<dl class="ssw15-rteElement-ImageArea">
     <img src="/PublishingImages/SqlServerAllYourRam_02.png" alt="" style="width&#58;759px;height&#58;442px;" /><strong>Figure&#58; SQL Database options and properties menu</strong><br></dl></li>
     <li>Select the “Memory” tab <dl class="ssw15-rteElement-ImageArea">
