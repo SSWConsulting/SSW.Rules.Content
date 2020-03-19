@@ -21,11 +21,11 @@ When using your presentation computer you may want to still be able to send emai
 <p>Here is how you do it&#58;</p><ol><li>Open Outlook and create a new Exchange account&#58; 
       <br> 
       <dl class="image"><dt> 
-            <img src="/PublishingImages/new-account.jpg" alt="Create New Account" /> 
+            <img src="/SiteAssets/do-you-know-how-to-setup-your-outlook-to-send-but-not-receive/mail1.png" alt="Create New Account" style="width&#58;400px;height&#58;449px;" /> 
          </dt><dd>Figure - Tick manually configure server settings</dd></dl></li><li>​Enter your server name and user name, but un-tick 
       <strong>Use Cached Exchange Mode</strong>&#58; ​ 
       <dl class="image"><dt> 
-            <img src="/PublishingImages/fig3-untickcached.png" alt="Un-tick Use Cached Exchange Mode" width="595" height="413" /> 
+            <img src="/SiteAssets/do-you-know-how-to-setup-your-outlook-to-send-but-not-receive/Mail3.png" alt="Un-tick Use Cached Exchange Mode" style="width&#58;400px;height&#58;449px;" /> 
          </dt><dd>Figure - Un-tick Use Cached Exchange Mode</dd></dl></li><li>Finish the setup and then open Outlook </li><li>Configure your Send / Receive Groups&#58; 
       <dl class="image"><dt> 
             <img src="/SiteAssets/do-you-know-how-to-setup-your-outlook-to-send-but-not-receive/Email2.png" alt="Click Send / Receive | Click Send / Receive Groups | Click Define Send / Receive Groups" style="width&#58;400px;height&#58;398px;" /> 
