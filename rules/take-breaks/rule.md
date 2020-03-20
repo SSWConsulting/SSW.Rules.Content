@@ -15,8 +15,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+When alone it is very easy to walk into the kitchen, grab your lunch and then walk back over to your workspace and eat where you work. Not only is this bad for you sitting all day, but it is also bad for your mental well being.<br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​We recommend taking 5 minutes every few hours to stretch and walk around.​​<br></p>
 
 
