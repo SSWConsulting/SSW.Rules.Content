@@ -20,11 +20,11 @@ redirects:
 <p>
                     Studies have shown that you can get up to a 30% increase in productivity by using
                     more than one monitor when you work.
-                </p>
+                <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
                     Providing users with the ability to access more information and images simultaneously,
-                    multiple monitor configurations allow for more efficient multi-tasking between applications.
+                    multiple monitor configurations allow for more efficient multitasking between applications.
                 </p>
                 <p>
                     For example, if you were a developer; you could have your references in one monitor
