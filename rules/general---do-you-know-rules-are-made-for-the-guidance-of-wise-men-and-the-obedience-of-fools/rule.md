@@ -14,7 +14,7 @@ authors:
 
 
 <span class='intro'> 
-  <p><strong>​​Standards should *not*&#160;be followed blindly. Aim for continual improvement.</strong></p>
+  <p><strong>​​​Standards should *not*&#160;be followed blindly. Aim for continual improvement.</strong></p>
 <p class="ssw15-rteElement-P">Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.​<br></p><p class="ssw15-rteElement-P">But there are pros and cons to having standards.<br></p>
 
 
