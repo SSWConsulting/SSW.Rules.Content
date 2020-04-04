@@ -15,9 +15,8 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">​​Sometimes you can’t resolve a ticket without seeing the users PC. Ask a user to install TeamViewer and then for the ID and Password isn't the&#160;<br>easier way.</p><div><p class="ssw15-rteElement-P">  You should just give them a link they click on.<br></p></div> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​​​Sometimes you can’t resolve an issue&#160;without seeing the users' PC.<br></p><p class="ssw15-rteElement-P">Luckily you can easily share screens and control the users' computer&#160;when <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=6d77ed73-bb6a-4127-a371-268d8de4ef51">calling from <b>Zoom</b> or <b>Microsoft Teams</b></a>&#160;but they're limited.<br></p> </span>
 
-<dl class="image"><dt> <img src="/PublishingImages/zendesk-teamviewer-link-2.jpg" alt="zendesk-teamviewer-link-2.jpg" style="width&#58;800px;" /> </dt><dd>Figure&#58; Install TeamViewer app from Marketplace</dd></dl><dl class="image"><dt> <img src="/PublishingImages/zendesk-teamviewer-link-1.jpg" alt="zendesk-teamviewer-link-1.jpg" style="width&#58;800px;" /> </dt><dd>Figure&#58; Easily send a link to the user <br></dd></dl><p>
-   <b>More info&#58;</b> <a href="https&#58;//www.youtube.com/watch?v=6PXfGs7iaus"> Integrate TeamViewer with Zendesk </a> <br></p>
+<p>A full remote control experience is&#160;<b>​TeamViewer</b>.​​<br></p>
 
 
