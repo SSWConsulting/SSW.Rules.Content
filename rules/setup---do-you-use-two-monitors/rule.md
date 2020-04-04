@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>
+<span class='intro'> <p>​
                     Studies have shown that you can get up to a 30% increase in productivity by using
                     more than one monitor when you work.
                 <br></p> </span>
