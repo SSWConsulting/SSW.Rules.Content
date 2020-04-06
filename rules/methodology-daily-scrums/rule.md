@@ -16,7 +16,7 @@ redirects:
 ---
 
 
-<p>​Tight project teams have a Daily 'Scrum' every day at the same time.<br></p><p>It was once&#160;called a 'stand-up meeting' but that discriminates people in wheelchairs. </p><p>It is best to have it standing up, so it's short and to the point. No-one wants to stand around waffling.<br></p>
+<p>​​Tight project teams have a Daily 'Scrum' every day at the same time.<br></p><p>It was once&#160;called a 'stand-up meeting' but that discriminates people in wheelchairs. </p><p>It is best to have it standing up, so it's short and to the point. No-one wants to stand around waffling.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Everybody knows the 3 essential questions&#58;</p><ol><li>
       <strong>What did you do yesterday?</strong> (and did you update TFS/other bug tracking system)?</li><li>
@@ -31,10 +31,9 @@ redirects:
    <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=845e0bac-8c39-4acb-a62d-68b886f5ea2a">review the current burn down</a> to check on the progress of the team.</p><dl class="image"><dt> 
       <img alt="burndowntfspreview.png" src="/PublishingImages/burndowntfspreview.png" /> 
    </dt><dd>Figure&#58; The burndown chart in tfs.visualstudio.com<br></dd></dl><p class="ssw15-rteElement-P"> 
-   <b>Tip 3&#58; Keep a schedule of the Daily Scrum times on a wall (+ have&#160;a recurring&#160;appointment in Outlook)​​​</b><br></p><dl class="image"><dt><div class="greyBox"><p>Subject&#58; Daily Scrum – 
-            <b>[Project Name]<br></b><br>Hi<b>&#160;[Team name]</b>,<br>As per our conversation, the Daily Scrum will be held each day.<br><br>Project&#58;<b> [Project Name]&#160;</b><br></p><p>{ltHTMLChar}This email was sent as per 
-            <a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx">Do you do Daily Scrums? </a>{gtHTMLChar}&#160; 
-            <br></p></div></dt><dd>Figure&#58; Schedule a recurring Daily Scrum meeting in Outlook using this template<br></dd></dl>
+   <b>Tip 3&#58; Keep a schedule of the Daily Scrum times on a wall (+ have&#160;a recurring&#160;appointment in Outlook)​​​</b><br></p><dl class="image"><dt><div class="greyBox"><p>Subject&#58; &#128587;Daily Scrum – 
+            <b>[Project Name]<br></b><br>Hi<b>&#160;[Team name]</b>,<br>As per our conversation, the Daily Scrum will be held each day.<br><br>Project&#58;<b> [Project Name]<br></b>Scrum Master&#58; <b>[Scrum Master Name]<br></b><br>Regards,<br><br><b>[Your name here]</b></p><p>{ltHTMLChar}This email was sent as per 
+            <a href="/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx">Do you do Daily Scrums? </a>{gtHTMLChar}&#160;&#160;<br></p></div></dt><dd>Figure&#58; Schedule a recurring Daily Scrum meeting in Outlook using this template<br></dd></dl>
 <dl class="image">
 <dt><img src="/PublishingImages/teams-meeting-daily-scrum.jpg" alt="teams-meeting-daily-scrum.jpg" style="width&#58;750px;height&#58;818px;" /></dt><dd>Figure&#58; Or you can use Microsoft Teams</dd></dl><p> 
    <strong>Tip 4&#58;&#160;Keep to the&#160;schedule. Same place,&#160;same time (and start even if people are&#160;missing)</strong></p><p>Get started on time. Especially in the beginning, people will be late, but the meeting should be held with the remaining people. Don't worry. People learn.</p><p>If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.</p><p>Note #1&#58; The Product Owner (often the client) is not required at the stand-up meeting. If&#160;he wants to&#160;turn up, remind him that he has tape&#160;stuck over his mouth, so he&#160;does&#160;not talk.&#160;</p><p>Note #2&#58; If you are not doing an approved sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends (<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=e86b7bb9-95a1-45c2-909c-d0ec85296be5">see Ad Hoc work</a>).</p><p> 
