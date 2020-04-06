@@ -13,8 +13,8 @@ authors:
 
 
 
-<span class='intro'> Enter Intro Text </span>
+<span class='intro'> Every time you add an image to your content, make sure it&#58;<br> </span>
 
-
+<p><ul><li>​​Has at least 800px width (except for logos, icons,&#160;and&#160;profile images)<br></li><li>Is readable if it has any text on it<br></li><li>Looks consistent with others on the same page<br></li><li>(optional) Is not in dark-mode - Light background&#160;images look better most of the times​<br></li></ul></p>
 
 
