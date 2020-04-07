@@ -16,7 +16,7 @@ related: []
 
 
 <div>Sending appointments from Teams feels less natural than from Outlook&#160;but there are some great&#160;benefits&#58;<br> 
-   <ul><li>Appointment - &#160;You don’t need to remember everyone’s name - The whole team is invited</li><li>Appointment - In the appointment it auto-generates a link so that everyone goes to the right place to attend</li><li>Visibility - It shows up in Teams Calendar</li><li>Visibility - It appears in the Teams chat (for the channel that was invited)</li><li>Visibility – When the appointment is beginning the app&#160;pops up with a button to&#160;“Join”</li><li>History - If you decide to record the meeting, the link to the recording shows up in the chat history as well<br></li></ul></div><div><div> 
+   <ul><li>Appointment - &#160;You don’t need to remember everyone’s name - The whole team is invited</li><li>Appointment - In the appointment, it auto-generates a link so that everyone goes to the right place to attend</li><li>Visibility - It shows up in Teams Calendar</li><li>Visibility - It appears in the Teams chat (for the channel that was invited)</li><li>Visibility – When the appointment is beginning the app&#160;pops up with a button to&#160;“Join”</li><li>History - If you decide to record the meeting, the link to the recording shows up in the chat history as well<br></li></ul></div><div><div> 
       <br> 
    </div><div> 
       <b>Important&#58;</b>&#160;Although the meeting app works great to organize Teamwork such as Scrum meetings or other client meetings, it is not very suitable for more global events such as a retreat or a conference. At SSW we use Microsoft Outlook appointments in those instances.<br><br></div><div>
