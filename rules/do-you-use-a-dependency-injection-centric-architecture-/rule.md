@@ -18,6 +18,6 @@ authors:
 <p>The classes in each layer can depend on layers toward the centre.</p><p>It emphasizes the use of interfaces for the business logic and repository layers. The repository layer corresponds to the Data Access layer in an n-Tier architecture.</p><p>An n-Tier architecture has at its base the database.<br>The core of the onion architecture is the Domain Model, and all dependencies are injected. This leads to more ​maintainable applications since it emphasizes separation of concerns.</p>
 <h4> Further Reading&#58; </h4><ul><li>
       <a href="/Pages/The-layers-of-the-onion-architecture.aspx">Do you know the layers of the onion architecture?</a></li><li>
-      <a href="/do-you-know-the-best-dependency-injection-container-(aka-don’t-waste-days-evaluating-ioc-containers)">Do you know the best dependency injection container?​</a></li></ul>
+      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=0aa194e1-2de9-4ed1-b430-444109d65a50">Do you know the best dependency injection container​?​</a></li></ul>
 
 
