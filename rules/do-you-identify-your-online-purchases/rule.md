@@ -13,7 +13,7 @@ related: []
 ---
 
 
-When making an online purchase from the&#160;company account,&#160;remember to include your name in the postal details so that the item is correctly identified and given to you - having it sent to the company unidentified or with the boss's name on it instead&#160;can lead to confusion and the package may end&#160;up in limbo.&#160;
+When making an online purchase using the&#160;company account,&#160;remember to include <b>your name</b> in the postal details so that the item is correctly identified and given to you. Having it sent to the company unidentified or under the boss's name​&#160;can lead to confusion and the package may end&#160;up in limbo.&#160;<br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
