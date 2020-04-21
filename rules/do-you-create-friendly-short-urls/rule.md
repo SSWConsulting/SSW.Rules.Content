@@ -14,7 +14,7 @@ authors:
 
 
 <span class='intro'> 
-  <p>When you create short URLs, it is worth considering exactly why you are shortening it.</p>
+  <p>When you create short URLs, it is worth considering exactly why you are shortening it.<br></p>
 <p> Is it for space or readability? If it is for readability or you expect anyone to ever type it in, then consider making a friendly short URL.<span style="line-height&#58;20px;">​​</span></p> </span>
 
 
@@ -23,7 +23,7 @@ authors:
 <font class="ms-rteCustom-FigureBad">Bad example - People can’t easily type this URL in…. it is too long</font>
 <div class="ms-rteCustom-GreyBox">Thanks Rob, that is great.<br>
 Made a bit.ly at <a href="http&#58;//bit.ly/aC5Lb2" target="_blank">http&#58;//bit.ly/aC5Lb2</a><a href="http&#58;//bit.ly/aC5Lb2" target="_blank"></a></div>
-<font class="ms-rteCustom-FigureBad">Bad example -&#160;How will I remember that?</font><div class="ms-rteCustom-GreyBox"><a href="http&#58;//bit.ly/VS2010VM">http&#58;//bit.ly/VS2010VM</a></div>
+<font class="ms-rteCustom-FigureBad">Bad example -&#160;How will I​ remember that?</font><div class="ms-rteCustom-GreyBox"><a href="http&#58;//bit.ly/VS2010VM">http&#58;//bit.ly/VS2010VM</a></div>
 <font class="ms-rteCustom-FigureGood">Good example - Easier to remember</font>​​
 
 
