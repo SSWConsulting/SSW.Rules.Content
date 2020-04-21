@@ -13,8 +13,7 @@ authors:
 
 
 
-<span class='intro'> Readability of URLs is important. It is not just making the length as short as possible. 
-<br> </span>
+<span class='intro'> Readability of URLs is important,&#160;so you should consider making a&#160;short URL. However, it is not just making the length as short as possible - it should be friendly.​&#160;<br> </span>
 
 <p>If you use a shortened link people can't see what they are clicking through to. In fact, this is what most spammers rely on&#58;</p><p class="ssw15-rteElement-GreyBox">
    <a shape="rect" href="http&#58;//twb.ly/1uJtUG">http&#58;//twb.ly/1uJtUG</a> </p><p> 
