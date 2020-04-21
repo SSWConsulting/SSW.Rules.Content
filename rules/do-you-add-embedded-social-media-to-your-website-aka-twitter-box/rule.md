@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p>People don't go to your Twitter profile as often as they visit your website. It's a good idea to have your Twitter timeline on your website. The Embeddable timelines are interactive and also enable your visitors to reply, Retweet, and favorite Tweets directly from your website&#160;pages.​​ The best place to put it is on the sidebar.</p> </span>
+<span class='intro'> <p>People don't go to your Twitter profile as often as they visit your website. It's a good idea to have your Twitter timeline on your website. The Embeddable timelines are interactive and also enable your visitors to reply, Retweet, and favorite Tweets directly from your website&#160;pages.​​ The best place to put it is on the sidebar.<br></p> </span>
 
 <p>Visit 
    <a href="https&#58;//dev.twitter.com/web/embedded-timelines" target="_blank">https&#58;//dev.twitter.com/web/embedded-timelines​</a> to view instructions on creating your embedded Twitter timeline.</p><dl class="image"><dt>​​​<img src="/PublishingImages/sswtv-twitterbox.jpg" alt="sswtv-twitterbox.jpg" /></dt><dd>Figure&#58; SSW TV Twitter timeline on 
