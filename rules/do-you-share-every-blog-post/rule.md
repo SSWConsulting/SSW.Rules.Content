@@ -14,12 +14,12 @@ authors:
 
 
 <span class='intro'> 
-  <p>You should always publish your blog posts to Twitter. It helps boost traffic and visibility for your site.<br></p>
+  <p>You should always publish your blog posts to Twitter and other social media​. It helps boost traffic and visibility for your site.<br></p>
 <p>Make it automatic. You do not need to do this manually, there are services out there that will monitor your blogs RSS or ATOM feed and publish when you do.</p>
 <p>The best one is&#58;<br></p>
  </span>
 
 <ul><li>
-      <a shape="rect" href="https&#58;//dlvrit.com/" target="_blank"> dlvr.it </a> - This offers a dedicated established service that will publish your feed to Facebook, Twitter, Pinterest and more.​<br><br></li></ul>
+      <a shape="rect" href="https&#58;//dlvrit.com/" target="_blank"> dlvr.it </a> - This offers a dedicated established service that will publish your feed to Facebook, Twitter, Pinterest and more.​<br></li></ul>
 
 
