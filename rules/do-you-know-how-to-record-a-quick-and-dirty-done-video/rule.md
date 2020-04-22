@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">When you've finished a PBI you should record a video to send to your Product Owner and anyone else that is interested. A 'Done'&#160;video&#160;is much better than a screenshot because you are proving&#160;the PBI workflow actually works. Even better,&#160;this video can double as documentation or&#160;release notes for your users. <br></p> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​When you've finished a PBI you should record a video to send to your Product Owner and anyone else that is interested. A 'Done'&#160;video&#160;is much better than a screenshot because you are proving&#160;the PBI workflow actually works. Even better,&#160;this video can double as documentation or&#160;release notes for your users. <br></p> </span>
 
 <p>When deciding whether a PBI might be a good contender to record a done video for, consider these factors&#58;</p><ol><li>Is it a key piece of functionality that has high business value?<br></li><li>Would it be difficult to quickly demo in the Sprint&#160;Review&#160;without a video?<br></li><li>Is it UI heavy?&#160;i.e. would the video be compelling?<br></li></ol><div><font color="#333333">​<br></font></div>Here's a quick video describing how to record and edit&#160;a quick done video. (Notice&#160;how it itself is also in the done video format?)<br><p></p>
 <iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/CjwkGk1LcJ0" frameborder="0"></iframe>&#160;<br>
