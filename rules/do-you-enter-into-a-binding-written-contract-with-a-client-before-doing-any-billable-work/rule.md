@@ -26,14 +26,8 @@ authors:
                         A signed copy of <a href="http&#58;//www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx">standard Terms and Conditions</a> are mandatory before billable work commences
                         as they explain the terms on which you&#160;work&#160;and the rates which will be billed.
                         Some clients may also have their own set of Terms and Conditions which you should&#160;consider signing if agreeable. It is also common for clients to ask you&#160;to
-                        sign a Non-Disclosure Agreement (NDA) which you should always consider.
-                    </p>
-                    <p>
-                        Long term clients should re-sign the Terms and Conditions every couple of&#160;years. Signed Terms
-                        and Conditions should be given to the&#160;Accounts department for record keeping.
-                    </p>
-                    
-</li>
+                        sign a Non-Disclosure Agreement (NDA) which you should always consider.&#160;<span style="background-color&#58;initial;">Long term clients should re-sign the Terms and Conditions every couple of&#160;years.&#160;​</span></p><p><span style="background-color&#58;initial;">Signed Terms
+                        and Conditions should b</span><span style="background-color&#58;initial;">e </span><span style="background-color&#58;initial;">stored in your CRM system against the relevant client</span><span style="background-color&#58;initial;">&#160;(you could enter it in as an attachment to a note).</span><br></p></li>
                     <li><strong>Proposals&#160;</strong><p>
                         At the conclusion of a <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/SpecificationReview.aspx">Specification Review</a>,&#160;you should&#160;provide a proposal to the client.&#160;This&#160;will include all of&#160;the relevant information
                         you&#160;have&#160;discovered during the Specification Review process. The proposal may take
