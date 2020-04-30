@@ -1,0 +1,24 @@
+.ignore:after {
+  content: none !important;
+  padding-left: 0;
+}
+.level1 {
+  padding-bottom: 0;
+  padding-right: 2px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  background: none;
+}
+.level1 a {
+  background: none repeat scroll 0 0 transparent;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  margin-bottom: 5px;
+  text-transform: none;
+  display: block;
+  line-height: normal;
+}

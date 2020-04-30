@@ -1,0 +1,374 @@
+/* purgecss start ignore */
+
+/**
+ * This injects Tailwind's base styles and any base styles registered by
+ * plugins.
+ */
+
+@tailwind base;
+/* purgecss end ignore */
+
+html {
+  font-family: "Helvetica", "SegoeUILight", "sans-serif"
+}
+
+h1 {
+  @apply text-4xl;
+  @apply mb-2;
+  @apply text-ssw-red;
+}
+
+h1.title {
+  font-size: 2em;
+  color: #414141;
+  margin-bottom: 0.1em;
+}
+
+h2 {
+  @apply text-3xl;
+  @apply mb-2;
+  @apply text-ssw-red;
+}
+
+h3 {
+  @apply text-2xl;
+  @apply mb-2;
+}
+
+h4 {
+  @apply text-lg;
+  @apply mb-2;
+}
+
+a,
+a:link {
+  &:not(.unstyled)    {
+    border-bottom: 2px dotted #9e9e9e;
+
+    &.footer-link  {
+      @apply text-gray-300;
+      font-weight: bolder;
+      transition: all 0.3s ease-in-out;
+    }
+
+    &:hover {
+      @apply text-ssw-red;
+      border-bottom: 2px dotted #cc4141;
+    }
+  }
+}
+
+a.gatsby-resp-image-link,
+a:link.gatsby-resp-image-link {
+  border-bottom: none;
+
+  &:hover {
+    border-bottom: none;
+  }
+}
+
+a.footer-facebook {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAA4CAYAAADJnhlcAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AILBxgJEkgRLQAAAOpJREFUSMftVMENwyAMPEdRv+HZX5dgAQbqQl2GBbJHvuFbqXI/IKGUGENUqVJ6P7AOn7mTCRHMzBBARAQAA3ohdchrYwvxeIcSKQ2bMEhFAK/tA2PtRZGgGbjfhzOBWvJDRFT71ns00nyEawcXZl7SoSYpEJHJa5KkQEQmy5ZK0srMU37RlaXvE5qNO2+8AWB2Tvwp6/3B7S11yGtjC/F4hxIpDVsM37ao2t4F0j5BM/B/e6vjrc2P9b6+vaORRuvDY3ZuAbBqCMF6/wRw1TgdrPcmy5bZDV/ENDu3Arjlcn50e0uEaau/C299qrIdHcgr4wAAAABJRU5ErkJggg==') no-repeat right -14px;
+  padding-right: 16px;
+}
+
+a.footer-html {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAA4CAYAAADJnhlcAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AILBxgJEkgRLQAAAOpJREFUSMftVMENwyAMPEdRv+HZX5dgAQbqQl2GBbJHvuFbqXI/IKGUGENUqVJ6P7AOn7mTCRHMzBBARAQAA3ohdchrYwvxeIcSKQ2bMEhFAK/tA2PtRZGgGbjfhzOBWvJDRFT71ns00nyEawcXZl7SoSYpEJHJa5KkQEQmy5ZK0srMU37RlaXvE5qNO2+8AWB2Tvwp6/3B7S11yGtjC/F4hxIpDVsM37ao2t4F0j5BM/B/e6vjrc2P9b6+vaORRuvDY3ZuAbBqCMF6/wRw1TgdrPcmy5bZDV/ENDu3Arjlcn50e0uEaau/C299qrIdHcgr4wAAAABJRU5ErkJggg==') no-repeat right 1px;
+  padding-right: 14px;
+}
+
+a.footer-facebook:hover {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAA4CAYAAADJnhlcAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AILBxgJEkgRLQAAAOpJREFUSMftVMENwyAMPEdRv+HZX5dgAQbqQl2GBbJHvuFbqXI/IKGUGENUqVJ6P7AOn7mTCRHMzBBARAQAA3ohdchrYwvxeIcSKQ2bMEhFAK/tA2PtRZGgGbjfhzOBWvJDRFT71ns00nyEawcXZl7SoSYpEJHJa5KkQEQmy5ZK0srMU37RlaXvE5qNO2+8AWB2Tvwp6/3B7S11yGtjC/F4hxIpDVsM37ao2t4F0j5BM/B/e6vjrc2P9b6+vaORRuvDY3ZuAbBqCMF6/wRw1TgdrPcmy5bZDV/ENDu3Arjlcn50e0uEaau/C299qrIdHcgr4wAAAABJRU5ErkJggg==') no-repeat right -44px;
+}
+
+a.footer-html:hover {
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAA4CAYAAADJnhlcAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AILBxgJEkgRLQAAAOpJREFUSMftVMENwyAMPEdRv+HZX5dgAQbqQl2GBbJHvuFbqXI/IKGUGENUqVJ6P7AOn7mTCRHMzBBARAQAA3ohdchrYwvxeIcSKQ2bMEhFAK/tA2PtRZGgGbjfhzOBWvJDRFT71ns00nyEawcXZl7SoSYpEJHJa5KkQEQmy5ZK0srMU37RlaXvE5qNO2+8AWB2Tvwp6/3B7S11yGtjC/F4hxIpDVsM37ao2t4F0j5BM/B/e6vjrc2P9b6+vaORRuvDY3ZuAbBqCMF6/wRw1TgdrPcmy5bZDV/ENDu3Arjlcn50e0uEaau/C299qrIdHcgr4wAAAABJRU5ErkJggg==') no-repeat right -29px;
+}
+
+footer {
+  color: #9e9e9e;
+  font-size: 0.75rem;
+}
+
+ul li {
+  background: url(./images/bullet_square.gif) 0 7px no-repeat;
+  padding: 0 0 10px 15px;
+  line-height: 1.5em;
+}
+
+.clear-filter {
+  @apply text-ssw-red;
+}
+
+.hero-para h1 {
+  @apply text-2xl;
+  @apply mb-2;
+  @apply text-black;
+}
+
+.gatsby-resp-image-wrapper {
+  margin-left: 0% !important;
+}
+
+.breadcrumb-container{
+  font-size: 0.8rem;
+  color: #5b5656;
+  margin-top: 1rem;
+}
+
+.breadcrumb {
+  display: inline-flex;
+  color: "#5b5656";
+  text-align: center;
+  flex-wrap: wrap;
+
+  span {
+    min-width: 1.5rem;
+  }
+}
+
+.breadcrumb a{
+  &:not(.breadcrumb__link__active){
+    color: #999;
+    border-bottom: 1px dotted #9e9e9e;
+  }
+  &.breadcrumb__link__active{
+    color:black ;
+    text-decoration: none;
+    border-bottom: 0px ;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+.breadcrumb a:hover{
+  &:not(.breadcrumb__link__active){
+    @apply text-ssw-red;
+    border-bottom: 1px dotted #cc4141;
+  }
+}
+
+.breadcrumb__link__active:hover{
+  color:black ;
+}
+
+.hovered {
+  @apply bg-ssw-red;
+  color: #fff;
+  fill: #fff;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.text-ssw-red {
+  color: #cc4141;
+}
+
+.bg-ssw-red {
+  background-color: #cc4141;
+}
+
+.bg-ssw-grey {
+  background-color: rgb(238, 238, 238);
+}
+
+.bg-ssw-dark-grey {
+  background-color: #CCCCCC;
+}
+
+.bg-grey-translucent {
+  background-color: rgba(102, 102, 102, 0.1);
+}
+
+.border-ssw-grey {
+  border-color:rgb(238, 238, 238);
+}
+
+.flex-profile-box {
+  flex-grow: 0;
+  flex-basis: 172px;
+}
+
+/** Custom blocks images handling **/
+.img-badge {
+  margin: 5px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 135px;
+  width: auto;
+  max-height: 135px;
+
+  a {
+    border-bottom: none !important;
+  }
+
+  img {
+    width: auto;
+    max-height: 135px;
+  }
+
+  figcaption {
+    display: none;
+  }
+
+}
+
+.img-badge .gatsby-resp-image-wrapper{
+  margin-left: auto !important;
+  margin-right: auto;
+}
+
+.img-banner figcaption {
+  display: none;
+}
+
+
+.img-medium {
+  height: auto;
+  max-width: 400px;
+}
+
+.img-small {
+  height: auto;
+  max-width: 200px;
+}
+
+.img-large .gatsby-resp-image-wrapper,
+.img-medium .gatsby-resp-image-wrapper,
+.img-small .gatsby-resp-image-wrapper {
+  border: 5px solid #eee;
+  border-radius: .25rem;
+
+}
+
+figure figcaption {
+  font-weight: 700;
+  margin-top: 5px;
+  line-height: initial;
+}
+
+figure figcaption:before {
+  content: 'Figure: ';
+}
+
+div.youtube-playlist li {
+  background: none;
+}
+
+.youtube-playlist-arrows{
+  display: flex;
+  justify-content: space-between
+}
+
+blockquote {
+  font-style: italic;
+  padding: .5rem 1rem;
+  background-color: #eee;
+  border-left: 4px solid #cc4141;
+  border-radius: 0 .25rem .25rem 0;
+  margin: 1rem 0;
+}
+
+blockquote p {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+pre {
+  white-space: pre-wrap;       /* css-3 */
+  white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;      /* Opera 4-6 */
+  white-space: -o-pre-wrap;    /* Opera 7 */
+  word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  overflow-wrap: break-word;
+  background-color: #1b262c;
+  color: #fff;
+  border-radius: .5rem;
+  padding: .5rem 1rem;
+  word-break: break-all;
+}
+
+.footer-link {
+  display: inline-block;
+  line-height: initial;
+}
+
+/*GitHub Calendar Styling */
+.styles_title__HcRKb{
+  display:none;
+}
+
+.styles_calendar__1PAia{
+  width: 100%;
+
+  text {
+    font-size: .5rem !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.category:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.text-ident{
+  padding-left: 0.5em;
+  text-indent:-0.5em;
+}
+
+@media screen and (min-width: 600px) {
+  .img-large,
+  .img-banner img,
+  .img-banner {
+    height: auto;
+    min-width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header>div.flex {
+    flex-direction: column;
+  }
+}
+
+.main-container {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/**
+* This injects Tailwind's component classes and any component classes
+* registered by plugins.
+*/
+
+@tailwind components;
+/**
+* This injects Tailwind's utility classes and any utility classes registered
+* by plugins.
+*/
+
+@tailwind utilities;
+/**
+* Use this directive to control where Tailwind injects the responsive
+* variations of each utility.
+*
+* If omitted, Tailwind will append these classes to the very end of
+* your stylesheet by default.
+*/
+
+@tailwind screens;
