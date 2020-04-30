@@ -13,18 +13,17 @@ related: []
 ---
 
 
-<div dir="ltr" style="text-align&#58;left;">​&quot;Gamification&quot; is a method of encouraging user participation. Usually, these are a set of fictional incentives such as points or achievement badges.<br></div>
+<p class="ssw15-rteElement-P">​&quot;Gamification&quot; is a method of encouraging user participation. Usually, these are a set of fictional incentives such as points or achievement badges.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-​ 
-<div>It originated with Frequent Flyer programs and has crossed over into the software world with the success of FourSquare.</div><div>This concept is being utilized even in 
+<p class="ssw15-rteElement-P">​​It originated with Frequent Flyer programs and has crossed over into the software world with the success of FourSquare.</p><div>This concept is being utilized even in 
    <a href="https&#58;//channel9.msdn.com/achievements/visualstudio" target="_blank">Visual Studio</a>. </div><dl class="goodImage"><dt>
-      <img alt="MSDN Screenshot" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/msdn-statistics.jpg" />
-   </dt><dd>Figure&#58; Good Example – MSDN allows users to score achievement points</dd></dl><dl class="goodImage"><dt>
-      <img width="400px" alt="Stack Overflow Screenshot" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/stack-overflow-points.jpg" />
+      <img src="/PublishingImages/microsoft-rewards.jpg" alt="microsoft-rewards.jpg" style="width&#58;759px;" /> 
+   </dt><dd>Figure&#58; Good Example – Microsoft Rewards gives&#160;points when you search on Bing.com and buy things from the&#160;Microsoft&#160;Store online and in Windows 10<br>​</dd></dl><dl class="goodImage"><dt>
+      <img src="/PublishingImages/stack-overflow-reputation.jpg" alt="stack-overflow-reputation.jpg" style="width&#58;750px;" />
    </dt><dd>Figure&#58; Good Example – Stack Overflow uses reputation points, awarded by how useful your answer to other user submitted questions were</dd></dl><dl class="goodImage"><dt>
-      <img width="400px" alt="TimePro Screenshot" src="/PublishingImages/gamification-timepro.png" />
-   </dt><dd>Figure&#58; Good Example – TimePro uses gamification to encourage users to do their timesheets on time.</dd></dl><dl class="goodImage"><dt>
-      <img width="400px" alt="Dropbox Screenshot" src="/PublishingImages/gamification-dropbox.png" />
-   </dt><dd>Figure&#58; Good Example – Dropbox rewards its users with extra storage space instead of imaginary points. This is more effective.</dd></dl>
+      <img alt="TimePro Screenshot" src="/PublishingImages/gamification-timepro.png" style="width&#58;750px;" />
+   </dt><dd>Figure&#58; Good Example – TimePro uses gamification to encourage users to do their timesheets on time<br><br></dd></dl><dl class="goodImage"><dt>
+      <img alt="Dropbox Screenshot" src="/PublishingImages/gamification-dropbox.png" style="width&#58;750px;" />
+   </dt><dd>Figure&#58; Good Example – Dropbox rewards its users with extra storage space instead of imaginary points. This is more effective</dd></dl>
 
 
