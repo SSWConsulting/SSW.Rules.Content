@@ -1,0 +1,714 @@
+{
+    "menuItems" : [
+    {
+        "text": "Services",
+        "groupImageUrl": "Menu-Banner-Services.png",
+        "children": [
+            {
+                "text": "All Services",
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Consulting/Default.aspx#filter=.all%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "children": [
+                    {
+                        "text": "See All Services",
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Default.aspx"
+                    }
+                ]
+            },
+            {
+                "text": "Development Teams",
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Consulting/Default.aspx#filter=.webdev%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Web-Applications.aspx",
+                        "text": "Web Applications",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl":
+                            "https://www.ssw.com.au/ssw/Consulting/Mobile-Application-Development.aspx",
+                        "text": "Mobile Apps",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Angular.aspx",
+                        "text": "Angular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/React.aspx",
+                        "text": "React"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Vuejs.aspx",
+                        "text": "VueJS"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Database-Development.aspx",
+                        "text": "Database Development"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Enterprise-Reporting.aspx",
+                        "text": "Enterprise Reporting & BI"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Power-BI.aspx",
+                        "text": "Power BI"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Desktop-Development.aspx",
+                        "text": "Windows Desktop Applications"
+                    }
+                ]
+            },
+            {
+                "text": "Creative Teams",
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Consulting/Default.aspx#filter=.design%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/UI-UX-Design.aspx",
+                        "text": "UI & UX Design Showcase"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Video-Production",
+                        "text": "Video Production"
+                    },
+                    { "navigateUrl": "https://sswdigital.com/", "text": "SSW Digital" }
+                ]
+            },
+
+            {
+                "text": "Consulting",
+                "breakListBefore": true,
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Consulting/Default.aspx#filter=.consulting-services%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Remote-Work.aspx",
+                        "text": "Remote work",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Chinafy-App.aspx",
+                        "text": "Bring Your Apps to China",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Strategic-Architecture.aspx",
+                        "text": "Strategic Architecture"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Software-Audit.aspx",
+                        "text": "Software Auditing",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Bots.aspx",
+                        "text": "Bots",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/ALM-Azure-DevOps.aspx",
+                        "text": "ALM and Azure DevOps/TFS"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/DevOps.aspx", "text": "DevOps" },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Scrum.aspx", "text": "Scrum" },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Kubernetes.aspx",
+                        "text": "Kubernetes"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Office-365.aspx",
+                        "text": "Microsoft Office 365"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Document-Management-Workflow.aspx",
+                        "text": "Document Management Workflow"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/PayPerClick.aspx",
+                        "text": "Pay Per Click"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/HoloLens.aspx",
+                        "text": "Microsoft HoloLens"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/ArtificialIntelligence.aspx",
+                        "text": "AI & Machine Learning"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Smart-Office-and-Smart-Home.aspx",
+                        "text": "Smart Office & Smart Home"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Access-Database-Upsizing.aspx",
+                        "text": "Access Database Upsizing"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Zendesk.aspx", "text": "Zendesk" },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Educational/", "text": "Educational Industry" }
+                ]
+            },
+
+            {
+                "text": "Platform Development",
+                "breakListBefore": true,
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Consulting/Default.aspx#filter=.cms%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/SharePoint.aspx",
+                        "text": "SharePoint",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Microsoft-Dynamics-365.aspx",
+                        "text": "Dynamics 365",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Power-Platform.aspx",
+                        "text": "Power Platform"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/WordPress.aspx",
+                        "text": "WordPress"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Kentico.aspx", "text": "Kentico" },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/DNN-DotNetNuke.aspx",
+                        "text": "DotNetNuke"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Sitefinity.aspx",
+                        "text": "Sitefinity"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Orchard.aspx", "text": "Orchard" },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Sitecore.aspx", "text": "Sitecore" },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Umbraco.aspx", "text": "Umbraco" }
+                ]
+            },
+
+            {
+                "text": "Cloud and Infrastructure",
+                "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Default.aspx#filter=.hosting-solutions%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Azure.aspx",
+                        "text": "Microsoft Azure",
+                        "cssClass": "Popular"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Vault.aspx", "text": "Vault" },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Network-Architecture.aspx",
+                        "text": "Network Architecture"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Hyper-V.aspx",
+                        "text": "Virtualization with Hyper-V"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Data-Protection-Manager.aspx",
+                        "text": "Data Protection Manager"
+                    },
+                    {
+                        "navigateUrl":
+                            "https://www.ssw.com.au/ssw/Consulting/BackBlaze-and-CloudBerry-Backup.aspx",
+                        "text": "BackBlaze and CloudBerry Backup"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Backup-Recovery.aspx",
+                        "text": "Backup/Disaster Recovery Audit"
+                    }, 
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Video-Conferencing.aspx",
+                        "text": "Video Conferencing"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Microsoft-Teams.aspx",
+                        "text": "Microsoft Teams"
+                    },
+                   
+
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx",
+                        "text": "Skype for Business"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Service-Desk.aspx",
+                        "text": "Service Desk"
+                    }
+                ]
+            },
+
+            {
+                "text": "Book Now",
+                "breakListBefore": true,
+                "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Consulting.aspx",
+                "navigateUrlOnMobileOnly": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Consulting.aspx",
+                        "text": "Team of Developers and Scrum Masters"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/Training/Courses.aspx",
+                        "text": "A Trainer"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Mentoring.aspx", "text": "A Mentor" }
+                ]
+            }
+        ]
+    },
+
+    {
+        "text": "Products",
+        "groupImageUrl": "Menu-Banner-Products.png",
+        "children": [
+            {
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Products/Default.aspx#filter=.all%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "text": "All Products",
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Products/Default.aspx",
+                        "text": "See All Products"
+                    }
+                ]
+            },
+
+            {
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Products/Default.aspx#filter=.ai-prod%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "text": "AI",
+                "children": [
+                    {
+                        "navigateUrl": "https://sswsophie.com/sophie-ai/",
+                        "target": "_blank",
+                        "text": "Sophie AI",
+                        "cssClass": "ignore Popular"
+                    },
+                    {
+                        "navigateUrl": "https://sswsophie.com",
+                        "target": "_blank",
+                        "text": "Sophie Hub",
+                        "cssClass": "ignore Popular"
+                    }
+                ]
+            },
+
+            {
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Products/Default.aspx#filter=.web-prod%3Anot(.decommissioned)",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Web",
+                "breakListBefore": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://sugarlearning.com/",
+                        "target": "_blank",
+                        "text": "SugarLearning",
+                        "cssClass": "ignore Popular"
+                    },
+                    {
+                        "navigateUrl": "https://sswtimepro.com/",
+                        "target": "_blank",
+                        "text": "TimePro",
+                        "cssClass": "ignore Popular"
+                    },
+                    {
+                        "navigateUrl": "https://sswlinkauditor.com/",
+                        "target": "_blank",
+                        "text": "LinkAuditor",
+                        "cssClass": "ignore Popular"
+                    },
+                    {
+                        "navigateUrl": "https://sswhealthcheck.com/",
+                        "target": "_blank",
+                        "text": "HealthCheck",
+                        "cssClass": "ignore"
+                    },
+                    {
+                        "navigateUrl": "https://smashingbarrier.com/",
+                        "target": "_blank",
+                        "text": "SmashingBarrier",
+                        "cssClass": "ignore"
+                    }
+                ]
+            },
+
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Support",
+                "breakListBefore": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://pdi-ssw.zendesk.com/hc",
+                        "text": "Knowledge Base"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx",
+                        "text": "Report a Bug"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Training",
+        "groupImageUrl": "Menu-Banner-Training.png",
+        "children": [
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Events/?upcomingeventsonly=false",
+                "navigateUrlOnMobileOnly": true,
+                "text": "All Events",
+                "children": [
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Events/", "text": "See All Events" },
+                    {
+                        "navigateUrl": "https://angularhackday.com",
+                        "text": "Angular Hack Days",
+                        "cssClass": "Popular"
+                    },
+                    {
+                        "navigateUrl": "https://xamarinhackday.com",
+                        "text": "Xamarin Hack Days",
+                        "cssClass": "Popular"
+                    },
+                    { 
+                        "navigateUrl": "https://aihackday.com", 
+                        "text": "AI Hack Days", 
+                        "cssClass": "Popular" 
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/Training/Angular-Workshop.aspx",
+                        "text": "Angular 2-Day Workshop"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/Training/Clean-Architecture-Workshop.aspx",
+                        "text": "Clean Architecture 2-Day Workshop"
+                    },
+
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/Training/Angular-Superpowers-Tour.aspx",
+                        "text": "Angular SuperPowers Tour",
+                        "breakListBefore": true
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/Training/Azure-Superpowers-Tour.aspx",
+                        "text": "Azure SuperPowers Tour"
+                    },
+                    {
+                        "navigateUrl":
+                            "https://www.ssw.com.au/ssw/Events/Training/NET-Core-Superpowers-Tour.aspx",
+                        "text": ".NET Core SuperPowers Tour"
+                    },
+                    {
+                        "navigateUrl":
+                            "https://www.ssw.com.au/ssw/Events/Training/Clean-Architecture-Superpowers-Tour.aspx",
+                        "text": "Clean Architecture SuperPowers Tour"
+                    },
+
+                    {
+                        "navigateUrl":
+                            "https://www.ssw.com.au/ssw/Events/Training/Scrum-Training-Course-3-days.aspx",
+                        "text": "Professional Scrum Developer Training"
+                    },
+                    {
+                        "navigateUrl":
+                            "https://www.ssw.com.au/ssw/Events/Training/Professional-Tailored-Scrum.aspx",
+                        "text": "Professional Tailored Scrum Training"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/Training/Training-Options.aspx",
+                        "text": "Customized Training",
+                        "cssClass": "Popular"
+                    }
+                ]
+            },
+
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Events/?upcomingeventsonly=true",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Events by Technology",
+                "breakListBefore": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/?tech=angular_and_react",
+                        "text": "Angular / React"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/events/?tech=sharepoint", "text": "SharePoint" },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Events/?tech=dynamics_365",
+                        "text": "Dynamics 365"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/events/?tech=visual_studio_and_tfs",
+                        "text": "Visual Studio / TFS"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/events/?tech=scrum", "text": "Scrum" },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/Events/?tech=_net_core", "text": ".NET Core" },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/events/?tech=mobile_development",
+                        "text": "Mobile Development"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/events/?tech=sql_server", "text": "SQL Server" },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/events/?tech=other", "text": "Other" }
+                ]
+            },
+
+            {
+                "navigateUrl":
+                    "https://www.ssw.com.au/ssw/Events/?upcomingeventsonly=true%26types=ssw_courses",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Events by Type",
+                "breakListBefore": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/events/?types=ssw_courses",
+                        "text": "SSW Training"
+                    },
+                    { "navigateUrl": "https://www.ssw.com.au/ssw/events/?types=webinar", "text": "Webinars" }
+                ]
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Events/?videoonly=true%26upcomingeventsonly=true",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Related Services",
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Consulting/Video-Production/",
+                        "text": "Video Recording / Live Streaming"
+                    },
+                    {
+                        "navigateUrl": "http://sswchapel.com.au/",
+                        "target": "_blank",
+                        "text": "Conference Room for Hire",
+                        "cssClass": "ignore"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "text": "User Group",
+        "groupImageUrl": "Menu-Banner-UserGroup.png",
+        "children": [
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Sydney.aspx",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Sydney .NET UG",
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Sydney.aspx",
+                        "text": "Upcoming Sessions"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Company/Directions/NeutralBay/",
+                        "text": "Map to SSW Sydney",
+                        "cssClass": "map"
+                    }
+                ]
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Canberra.aspx",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Canberra .NET UG",
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Canberra.aspx",
+                        "text": "Upcoming Sessions"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/UserGroupMapDirectionsCanberra.aspx",
+                        "text": "Map to Microsoft Canberra",
+                        "cssClass": "map"
+                    }
+                ]
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Melbourne.aspx",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Melbourne .NET UG",
+                "breakListBefore": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Melbourne.aspx",
+                        "text": "Upcoming Sessions"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Company/Directions/Melbourne/",
+                        "text": "Map to SSW Melbourne",
+                        "cssClass": "map"
+                    }
+                ]
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Brisbane.aspx",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Brisbane Full Stack UG",
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Brisbane.aspx",
+                        "text": "Upcoming Sessions"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Company/Directions/Brisbane/",
+                        "text": "Map to SSW Brisbane",
+                        "cssClass": "map"
+                    }
+                ]
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Live/",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Live UG",
+                "breakListBefore": true,
+                "children": [{ "navigateUrl": "https://www.ssw.com.au/ssw/Live/", "text": "Sydney .NET UG Live" }]
+            },
+            {
+                "navigateUrl": "https://fireusergroup.com/",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Fire UG - China",
+                "children": [{ "navigateUrl": "https://fireusergroup.com/", "text": "Upcoming Sessions" }]
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/",
+                "navigateUrlOnMobileOnly": true,
+                "text": "Resources",
+                "breakListBefore": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/SSWUpdatePrevious.aspx",
+                        "text": "Newsletters"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/PastSessions.aspx",
+                        "text": "Past Sessions"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/UGEvaluationSurvey.aspx",
+                        "text": "Evaluation Survey"
+                    },
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/Developerlinks.aspx",
+                        "text": "Developer Links"
+                    }
+                ]
+            }
+        ]
+    },
+
+    {
+        "text": "Rules",
+        "groupImageUrl": "Menu-Banner-Standards.png",
+        "children": [
+            {
+                "navigateUrl": "https://rules.ssw.com.au/Pages/default.aspx",
+                "text": "New SSW Rules"
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Standards/Default.aspx",
+                "text": "SSW Rules"
+            },
+            {
+                "text": "Popular Rules",
+                "navigateUrl": "https://www.ssw.com.au/ssw/Standards/Default.aspx",
+                "breakListBefore": true,
+                "children": [
+                    {
+                        "navigateUrl": "https://rules.ssw.com.au/rules-to-successful-projects",
+                        "text": "Rules to Successful Projects"
+                    },
+                    {
+                        "navigateUrl": "https://rules.ssw.com.au/rules-to-better-email",
+                        "text": "Rules to Better Email"
+                    },
+                    {
+                        "navigateUrl": "https://rules.ssw.com.au/rules-to-better-google-rankings",
+                        "text": "Rules to Better Google Rankings"
+                    },
+                    {
+                        "navigateUrl":
+                            "https://rules.ssw.com.au/rules-to-better-interfaces-(general-usability-practices)",
+                        "text": "Rules to Better Interfaces"
+                    },
+                    {
+                        "navigateUrl": "https://rules.ssw.com.au/rules-to-better-code",
+                        "text": "Rules to Better Code"
+                    },
+                    {
+                        "navigateUrl": "https://rules.ssw.com.au/rules-to-better-scrum-using-azure-devops",
+                        "text": "Rules to Better Scrum using Azure DevOps"
+                    }
+                ]
+            },
+            {
+                "navigateUrl": "https://bettersoftwaresuggestions.com/",
+                "text": "New SSW Better Software Suggestions",
+                "breakListBefore": true
+            },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/",
+                "text": "SSW Better Software Suggestions"
+            }
+        ]
+    },
+    {
+        "text": "About Us",
+        "groupImageUrl": "Menu-Banner-AboutUs.png",
+        "children": [
+            { "navigateUrl": "https://www.ssw.com.au/ssw/Company/AboutUs.aspx", "text": "About Us" },
+            { "navigateUrl": "https://www.ssw.com.au/ssw/Company/Awards.aspx", "text": "Awards" },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/News/",
+                "text": "News & Press",
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/NETUG/SSWUpdatePrevious.aspx",
+                        "text": "Newsletters"
+                    }
+                ]
+            },
+            { "navigateUrl": "https://blog.ssw.com/", "text": "Blog", "breakListBefore": true },
+            { "navigateUrl": "https://www.ssw.com.au/ssw/Company/Culture", "text": "Our Culture" },
+            { "navigateUrl": "https://www.ssw.com.au/people/", "text": "Our People" },
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Company/Clients",
+                "text": "Our Clients",
+                "children": [
+                    {
+                        "navigateUrl": "https://www.ssw.com.au/ssw/Testimonials/default.aspx",
+                        "text": "Testimonials"
+                    }
+                ]
+            },
+            { "navigateUrl": "https://www.ssw.com.au/ssw/Company/History.aspx", "text": "Our History", "breakListBefore": true },
+            { "navigateUrl": "https://www.ssw.com.au/ssw/Company/Offices.aspx", "text": "Our Offices" },
+
+            {
+                "navigateUrl": "https://www.ssw.com.au/ssw/Employment/Employment.aspx",
+                "text": "Employment Opportunities"
+            },
+
+            { "navigateUrl": "https://www.ssw.com.au/ssw/Company/ContactUs.aspx", "text": "Contact Us" }
+        ]
+    },
+    {
+        "text": "SSW TV",
+        "cssClass": "ignore no-dropdown menu-ssw-tv",
+        "navigateUrl": "http://tv.ssw.com",
+        "target": "_blank"
+    }
+]
+}
