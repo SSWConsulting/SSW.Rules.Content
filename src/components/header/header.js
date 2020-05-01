@@ -38,7 +38,7 @@ const Header = ({ displayActions, profileId }) => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://github.com/SSWConsulting/People/blob/master/${profileId}/${profileId}.md`}
+                href={`https://github.com/SSWConsulting/SSW.Rules/blob/master/${profileId}/${profileId}.md`}
                 className="action-btn-link"
               >
                 <div className="action-btn-label">Edit</div>

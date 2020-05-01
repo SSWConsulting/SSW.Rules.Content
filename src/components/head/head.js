@@ -87,7 +87,7 @@ const Head = ({
       name="msapplication-square310x310"
     />
 
-    <link href="/people/manifest.json" rel="manifest" />
+    <link href="/rules/manifest.json" rel="manifest" />
 
     <link
       href="/ssw/include/pigeon/img/apple-touch-icon-57x57.png"

@@ -2,12 +2,10 @@
 const path = require(`path`);
 
 module.exports = {
-  siteTitle: `SSW.People | Australia's Leading .NET and Azure Consultants`,
-  siteTitleShort: `SSW.People | Australia's Leading .NET and Azure Consultants`,
-  siteDescription:
-    `We work together to form an amazing collective brain - SSW is made up of a great team of staff that are passionate about technology and how it meets business needs!` +
-    `We're enthusiastic and have a "Make it happen" culture.`,
-  siteUrl: `https://ssw.com.au/people`,
+  siteTitle: `SSW.Rules | Australia's Leading .NET and Azure Consultants`,
+  siteTitleShort: `SSW.Rules | Australia's Leading .NET and Azure Consultants`,
+  siteDescription: ``,
+  siteUrl: `https://ssw.com.au/rules`,
   themeColor: `#cc4141`,
   backgroundColor: `#fff`,
   pathPrefix: null,
