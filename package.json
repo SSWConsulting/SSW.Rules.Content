@@ -14,7 +14,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "lint": "eslint --fix --max-warnings=0 . --ext ts --ext tsx --ext js --ext jsx"
+    "lint": "eslint --max-warnings=0 . --ext ts --ext tsx --ext js --ext jsx"
   },
   "dependencies": {
     "autoprefixer": "^9.7.6",
