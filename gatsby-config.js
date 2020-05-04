@@ -15,11 +15,12 @@ module.exports = {
     'gatsby-transformer-json',
     'gatsby-plugin-postcss',
     {
-    resolve: 'gatsby-plugin-breadcrumb',
-    options: {
-      useAutoGen: true,
-      autoGenHomeLabel: 'Rules',
-      useClassNames: true,
+      resolve: 'gatsby-plugin-breadcrumb',
+      options: {
+        useAutoGen: true,
+        autoGenHomeLabel: 'Rules',
+        useClassNames: true,
+      },
     },
-  }],
-}
+  ],
+};

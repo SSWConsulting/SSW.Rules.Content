@@ -25,7 +25,7 @@ const Layout = ({
     setIsMenuOpened(!isMenuOpened);
   };
 
-  const handleClick = e => {
+  const handleClick = (e) => {
     if (node.current.contains(e.target)) {
       setIsMenuOpened(false);
     }
@@ -40,7 +40,7 @@ const Layout = ({
       {/* eslint-disable-next-line jsx-a11y/no-static-element-interactions */}
       <div
         ref={node}
-        onMouseDown={isMenuOpened ? event => handleClick(event) : null}
+        onMouseDown={isMenuOpened ? (event) => handleClick(event) : null}
         style={{
           transform: isMenuOpened ? 'translateX(84%)' : 'translateX(0px)',
         }}
@@ -74,7 +74,7 @@ Layout.propTypes = {
   crumbLabel: PropTypes.string,
 };
 
-const LayoutWithQuery = props => (
+const LayoutWithQuery = (props) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -85,7 +85,7 @@ const LayoutWithQuery = props => (
         }
       }
     `}
-    render={data => <Layout data={data} {...props} />}
+    render={(data) => <Layout data={data} {...props} />}
   />
 );
 

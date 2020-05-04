@@ -1,26 +1,25 @@
-import React from "react"
+import React from 'react';
 import Layout from '../components/layout/layout';
 import PropTypes from 'prop-types';
 
 const Index = ({
-    data,
-    pageContext: {
-      breadcrumb: { crumbs },
-    },
-  }) => 
-<Layout crumbs={crumbs} displayActions={false}>
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) => (
+  <Layout crumbs={crumbs} displayActions={false}>
     <div>
-        <h1>SSW.Rules</h1>
-        <h4>Ready to start!</h4>
+      <h1>SSW.Rules</h1>
+      <h4>Ready to start!</h4>
     </div>
-</Layout>
-
+  </Layout>
+);
 
 Index.propTypes = {
-    data: PropTypes.object.isRequired,
-    search: PropTypes.object.isRequired,
-    pageContext: PropTypes.object.isRequired,
-    location: PropTypes.object.isRequired,
-  };
+  data: PropTypes.object.isRequired,
+  search: PropTypes.object.isRequired,
+  pageContext: PropTypes.object.isRequired,
+  location: PropTypes.object.isRequired,
+};
 
-  export default Index;
+export default Index;
