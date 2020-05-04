@@ -5,13 +5,16 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
+    "build:dir": "mkdirp ./public/icons/",
+    "build:favicons": "node scripts/favicons",
+    "build": "gatsby clean && npm run build:dir && npm run build:favicons && gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "eslint --max-warnings=0 . --ext ts --ext tsx --ext js --ext jsx"
   },
   "dependencies": {   
     "autoprefixer": "^9.7.6",
