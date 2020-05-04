@@ -41,18 +41,18 @@ const configuration = {
   },
 };
 
-const callback = function(err, res) {
+const callback = function (err, res) {
   if (err) {
     // eslint-disable-next-line no-console
     console.log(err.message);
     return;
   }
 
-  res.images.forEach(image => {
+  res.images.forEach((image) => {
     fs.writeFile(
       path.resolve(__dirname, '../public/icons/', image.name),
       image.contents,
-      err => {
+      (err) => {
         if (err) {
           // eslint-disable-next-line no-console
           console.log(err);
@@ -61,11 +61,11 @@ const callback = function(err, res) {
     );
   });
 
-  res.files.forEach(file => {
+  res.files.forEach((file) => {
     fs.writeFile(
       path.resolve(__dirname, '../public/', file.name),
       file.contents,
-      err => {
+      (err) => {
         if (err) {
           // eslint-disable-next-line no-console
           console.log(err);
