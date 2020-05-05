@@ -13,7 +13,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">​&quot;Gamification&quot; is a method of encouraging user participation. Usually, these are a set of fictional incentives such as points or achievement badges.​<br></p>
+<p class="ssw15-rteElement-P">​&quot;Gamification&quot; is a method of encouraging user participation. Usually, these are a set of incentives such as points or achievement badges which are linked to some other form of redeemable value.​​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p class="ssw15-rteElement-P">​​It originated with Frequent Flyer programs and has crossed over into the software world with the success of Foursquare​.</p><div>This concept is being utilized even in 
    <a href="https&#58;//channel9.msdn.com/achievements/visualstudio" target="_blank">Visual Studio</a>. </div><dl class="goodImage"><dt> 
