@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-<p class="ssw15-rteElement-P">The status message is often not used but can be quite helpful. People can instantly see what you are up to when they chat with you.&#160;​​<br></p><p class="ssw15-rteElement-P">It tells people 3 things&#58;​<br></p><ul><li>What project you’re working on</li><li>The people that you need to speak to (they will get the notifications)</li><li>The location of where you are​</li></ul>
+<p class="ssw15-rteElement-P">​The status message is often not used but can be quite helpful. People can instantly see what you are up to when they chat with you.&#160;​​<br></p><p class="ssw15-rteElement-P">It tells people 3 things&#58;​<br></p><ul><li>What project you’re working on</li><li>The people that you need to speak to (they will get the notifications)</li><li>The location of where you are​</li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt>
       <img src="/PublishingImages/teams-status-message.jpg" alt="teams-status-message.jpg" style="width&#58;800px;" />​</dt><dd>Figure&#58; When people chat with you, they can see what you’re up to</dd></dl><h3 class="ssw15-rteElement-H3">More information​<br></h3><p class="ssw15-rteElement-P">To update the status message, follow these steps&#58;​​​<br></p><ul><li>On the top right, click on your photo</li><li>Click on the pencil icon to edit the status message​<br></li></ul><dl class="image"><dt>
