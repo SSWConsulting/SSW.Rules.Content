@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-​​Keeping your mind on the job is so important if you're trying to fix&#160;a&#160;bug/issue, and finalizing a task to meet this afternoon's deadline. Here&#160;are a few practical suggestions that are used&#160;in the SSW office to help the team keep &quot;in the zone&quot;.<br><div><br></div>
+Keeping your mind on the job is so important if you're trying to fix&#160;a&#160;bug/issue to finalize&#160;a task to meet this afternoon's deadline. Here&#160;is how you keep &quot;in the zone&quot;.​<br><div><br></div>
 <br><excerpt class='endintro'></excerpt><br>
 <ol>
     <li>Programming/working in pairs means you won't cruise the web, or play Solitaire, you'll be forced to focus.<br></li>
