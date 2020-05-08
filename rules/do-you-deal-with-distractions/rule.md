@@ -19,7 +19,7 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
 <ol>
     <li>Programming/working in pairs means you won't cruise the web, or play Solitaire, you'll be forced to focus.<br></li>
-    <li>Don't interrupt people unnecessarily when they're working - create comprehensive standards for people to refer to.</li>
+    <li>Refer people to standards and you will be helping them learn + reducing the number of interruptions they get. This is why we invest in the SSW Rules.​<br></li>
     <li>Avoid multi-tasking as much as possible. Don't open an email, respond to half the questions, and then open another. Complete the first task&#160;and then&#160;delete the email.&#160;When you multi-task, there’s a higher chance your work quality will be dropped, as well as your attention to detail.<br></li>
     <li>Set your Browser's default to &quot;About&#58; Blank&quot;&#160; so you don't get distracted by news or social media, for example.<br>Tip&#58;​​&#160;There is an extension for Google Chrome to replace your homepage called <a href="https&#58;//chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en-US">Momentum​</a>,&#160;where you will be shown a photograph&#160;as the background, time,&#160;greetings, and your own focus for the day.<br></li>
     <li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=ab17d85c-5ee1-44a9-8433-200bd5771337">Minimize Microsoft Team distractions​</a>.<br></li><li><a shape="rect" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7d2b06ad-cac7-4afc-b7af-0552fe30b6ac">Minimize Outlook distractions</a>.</li>
