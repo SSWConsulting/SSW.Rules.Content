@@ -28,6 +28,6 @@ related: []
       <br>
    </dt><dd>Figure&#58; Better example – Windows Updates setting is pushed to *ALL* users via group policy​<br></dd></dl><h3> ​​Related Rules<br></h3><ul><li></li><li>
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3b0722be-c3e3-4369-a590-258c7501a67a">Do you turn off auto-update on your servers?</a> [for Servers]</li><li>
-      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eb2f95c5-22c8-4568-9173-9e52e3087faf">Do you use Group Policy to manage your Windows Update Policy?​</a> [for both]<br></li></ul>
+      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eb2f95c5-22c8-4568-9173-9e52e3087faf">Do you use Group Policy to manage your Windows Update Policy?​</a> [for both Servers and PCs​]<br></li></ul>
 
 
