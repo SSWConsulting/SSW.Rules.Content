@@ -24,7 +24,7 @@ authors:
 <p>Windows Update remains the best thing for end-users to protect their systems.&#160; But in a server, especially a production server environment - Windows Update patches are just like any new versions of the software that's built internally.&#160; It should be tested and then deployed in a controlled manner.<br>
 <br>So recommendations for managing updates are as follows&#58;</p>
 <ol>
-    <li>Use WSUS to approve/deny updates for your servers.<br></li><li>Update Staging/Development servers first to see if any issues arise from the updates.<br></li><li>Roll these updates out to Production once confident there are no issues​.<br></li><li>Windows Updates may be critical and should be kept relatively up to date.<br></li>
+    <li>Use WSUS to approve/deny updates for your servers.<br></li><li>Update Staging/Development servers first to see if any issues arise from the updates.<br></li><li>Roll these updates out to Production once confident there are no issues​.<br></li><li>Windows Updates may be critical and should be kept relatively up to date.</li><li>Do all of this on a schedule - have an email sent to your SysAdmins to remind them to review and reboot needed machines&#58;</li></ol><div><img src="/SiteAssets/do-you-turn-off-auto-update-on-your-servers/WSUSReport.png" alt="WSUSReport.png" style="margin&#58;5px;width&#58;808px;" /><dd class="ssw15-rteElement-FigureGood">Good Example&#58; Scheduled email showing clear action points and WSUS stats<br></dd></div><ol>
 </ol>
 
 
