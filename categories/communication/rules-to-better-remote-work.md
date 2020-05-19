@@ -31,6 +31,6 @@ index:
 - do-you-know-how-to-set-up-your-workspace-for-video
 
 ---
-<p>​Working Remotely is something that is going to begin to become more common, it is important that we have the tools to continue to <b>work&#160;from home&#160;</b>(aka&#160;<b>WTH</b>)<b>&#160;</b>effectively and efficiently whilst also maintaining good mental health.​​​<br></p><p>If you need help with&#160;your business,&#160;SSW can assist in putting the tools in place to allow your employees to continue working from home with little to no impact on their efficiency and productivity.​ Learn more on our​&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Remote-Work.aspx">Remote Work consulting page</a>.<br></p>
+<p>​Working Remotely is something that is going to become more common. It is important that we have the tools to continue to <b>work&#160;from home&#160;</b>(aka&#160;<b>WFH</b>)<b>&#160;</b>effecti​vely&#160;and efficiently whilst also maintaining good mental health.​​​<br></p><p>If you need help with&#160;your business,&#160;SSW can assist in putting the tools in place to allow your employees to continue working from home with little to no impact on their efficiency and productivity.​ Learn more on our​&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Remote-Work.aspx">Remote Work consulting page</a>.<br></p>
 
 
