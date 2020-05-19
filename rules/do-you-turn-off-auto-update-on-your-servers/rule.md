@@ -24,6 +24,6 @@ authors:
 
 <h3> ​​Related Rules<br></h3><ul><li>
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f5432cb4-40af-491b-8da5-33b8a80dcb0a">​Do you enable automatic Windows Update Installations?​</a> [for PCs]&#160;​<br></li><li>
-      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eb2f95c5-22c8-4568-9173-9e52e3087faf">Do you use Group Policy to manage your Windows Update Policy?​</a> [for both]</li></ul>
+      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eb2f95c5-22c8-4568-9173-9e52e3087faf">Do you use Group Policy to manage your Windows Update Policy?​</a> [for both PCs and Servers]​<br></li></ul>
 
 
