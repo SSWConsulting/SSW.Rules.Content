@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> A nice looking image can be harmful to your website if it's not optimized. It's important to optimize images for the web because the fewer bytes the browser has to download, the less bandwidth the client uses&#160;and the faster the browser can download and render your content on the screen.​<br> </span>
+<span class='intro'> A nice looking image can be harmful to your website if it's not optimized. It's important to optimize images for the web because the fewer bytes the browser has to download, the less bandwidth the client uses, and the faster the browser can download and render your content on the screen.​<br> </span>
 
 <p>The first&#160;thing is to <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b31a3b62-54d2-4726-a246-5f6d01766eb4">save your graphics in the right format</a>&#160;​and size.&#160;After that, you should run an image optimizer.&#160;<br></p><p>Some tips and techniques to keep in mind as you work on optimizing your images&#58;<br></p><ul><li> 
       <b style="background-color&#58;initial;">Don't be afraid to dial down the &quot;quality&quot; settings</b><span style="background-color&#58;initial;"> if the results are&#160;very good and byte savings are significant</span><br></li><li>
