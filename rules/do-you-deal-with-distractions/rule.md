@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-<b>​Keeping your mind on the job </b>is very&#160;important, especially when&#160;you're trying to fix&#160;a&#160;bug/issue or finalize&#160;a task to meet this afternoon's deadline. Here&#160;is how you keep &quot;in the zone&quot;&#58;​<div><div><br></div></div>
+<b>​​Keeping your mind on the job </b>is very&#160;important, especially when&#160;you're trying to fix&#160;a&#160;bug/issue or finalize&#160;a task to meet this afternoon's deadline. Here&#160;is how you keep &quot;in the zone&quot;&#58;​<div><div><br></div></div>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>​Refer people to standards and you will be helping them learn + reducing the number of interruptions they get. This is why we invest in the SSW Rules.​<br></li><li>Avoid multi-tasking as much as possible. Don't open an email, respond to half the questions, and then open another. Complete the first task&#160;and then&#160;delete the email.&#160;When you multi-task, there’s a higher chance your work quality will be dropped, as well as your attention to detail.<br></li><li>Set your Browser's default to &quot;About&#58; Blank&quot;&#160; so you don't get distracted by news or social media, for example.&#160;<b>Tip&#58;​​&#160;</b>There is an extension for Google Chrome to replace your homepage called 
       <a href="https&#58;//chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=en-US">Momentum​</a>,&#160;where you will be shown a photograph&#160;as the background, time,&#160;greetings, and your own focus for the day.<br></li><li>Minimize Phone distractions. If you are in a meeting, it’s a good idea to put your mobile phone to “do not disturb”.<br></li><li>
