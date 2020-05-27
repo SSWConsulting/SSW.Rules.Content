@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">Many businesses have made the transition to working from home (WFH). It’s important to still be able to easily and clearly communicate with your colleagues and externals.&#160;​<br></p> </span>
+<span class='intro'> <p class="ssw15-rteElement-P">​Many businesses have made the transition to working from home (WFH). It’s important to still be able to easily and clearly communicate with your colleagues and externals.&#160;​<br></p> </span>
 
 <p class="ssw15-rteElement-P">​Without a spare room, it can be difficult to create a workable setup, however as you will see in the following examples, it is easy to create a clean and workable setup with a few smart tricks.​​<br></p><h3 class="ssw15-rteElement-H3">Tip 1&#58; Use a room divider​​<br></h3><dl class="image"><dt> 
       <img src="/PublishingImages/room-divider.jpg" alt="room-divider.jpg" /> 
