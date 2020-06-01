@@ -15,6 +15,17 @@ module.exports = {
     'gatsby-transformer-json',
     'gatsby-plugin-postcss',
     {
+      resolve: 'gatsby-source-git',
+      options: {
+        name: 'rules',
+        remote: 'https://github.com/SSWConsulting/SSW.Rules.git',
+        // Optionally supply a branch. If none supplied, you'll get the default branch.
+        branch: '53120-CreateIndexTemplate',
+        // Tailor which files get imported eg. import the docs folder from a codebase.
+        patterns: 'markdown/**',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-breadcrumb',
       options: {
         useAutoGen: true,
@@ -22,5 +33,13 @@ module.exports = {
         useClassNames: true,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content`,
+      },
+    },
+    { resolve: `gatsby-transformer-remark` }
   ],
 };

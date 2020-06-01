@@ -1,4 +1,5 @@
 import React from 'react';
+import { StaticQuery, graphql } from 'gatsby';
 import Layout from '../components/layout/layout';
 import PropTypes from 'prop-types';
 
@@ -22,4 +23,30 @@ Index.propTypes = {
   location: PropTypes.object.isRequired,
 };
 
-export default Index;
+const IndexWithQuery = (props) => (
+  <StaticQuery
+    query={graphql`
+      query HomepageQuery {
+        rules: allMarkdownRemark(
+          filter: { frontmatter: { type: { eq: "top_category" } } }
+        ) {
+          nodes {
+            html
+            frontmatter {
+              type
+              title
+            }
+            parent {
+              ... on File {
+                name
+              }
+            }
+          }
+        }
+      }
+    `}
+    render={(data) => <Index {...data.HomepageQuery} {...props} />}
+  />
+);
+
+export default IndexWithQuery;
