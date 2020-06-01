@@ -13,10 +13,10 @@ const Index = ({
   const displayTopCategories = (topcategory) => {
     return (
       <>
-        <div className="top-category bg-ssw-grey mt-6">
+        <div className="top-category bg-ssw-darker-grey text-white mt-6 ">
           {topcategory.frontmatter.title}
         </div>
-        <ol className="list-decimal list-inside">
+        <ol className="categories list-decimal list-inside bg-ssw-grey">
           {topcategory.frontmatter.index.map((category, i) => {
             const cats = data.categories.nodes.filter(
               (c) =>
@@ -41,35 +41,19 @@ const Index = ({
   return (
     <Layout crumbs={crumbs} displayActions={false}>
       <div className="w-full">
-        {
-          data.main.nodes.map((element) => {
-            return element.frontmatter.index.map((cat) => {
-              const cats = data.topCategories.nodes.filter(
-                (c) =>
-                  c.parent.relativeDirectory
-                    .toLowerCase()
-                    .indexOf(cat.toLowerCase()) >= 0
-              );
-              if (cats && cats.length > 0) {
-                return displayTopCategories(cats[0]);
-              }
-            });
-          })
-
-          /* return (
-          <>
-            <div className="top-category bg-ssw-grey mt-6">
-              {element.frontmatter.title}
-            </div>
-            <ol className="list-decimal list-inside">
-              {element.frontmatter.index.map((rule, i) => (
-                <li key={i}> {rule}</li>
-              ))}
-            </ol>
-          </>
-        );
-      })*/
-        }
+        {data.main.nodes.map((element) => {
+          return element.frontmatter.index.map((cat) => {
+            const cats = data.topCategories.nodes.filter(
+              (c) =>
+                c.parent.relativeDirectory
+                  .toLowerCase()
+                  .indexOf(cat.toLowerCase()) >= 0
+            );
+            if (cats && cats.length > 0) {
+              return displayTopCategories(cats[0]);
+            }
+          });
+        })}
       </div>
     </Layout>
   );

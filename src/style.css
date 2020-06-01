@@ -182,6 +182,10 @@ button:focus {
   background-color: #CCCCCC;
 }
 
+.bg-ssw-darker-grey {
+  background-color: #888;
+}
+
 .bg-grey-translucent {
   background-color: rgba(102, 102, 102, 0.1);
 }
@@ -363,6 +367,18 @@ pre {
   max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.top-category{
+  line-height: 30px;
+  font-size: 18px;
+  padding-left: 22px;
+  display: block;
+  height: 100%;
+}
+
+.categories{
+  padding: 12px 0 20px 20px;
 }
 
 /**
