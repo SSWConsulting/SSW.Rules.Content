@@ -23,6 +23,9 @@ exports.createPages = async ({ graphql, actions }) => {
                 fields {
                     slug
                 }
+                frontmatter{
+                    index
+                }
                 parent {
                     ... on File {
                       name
@@ -53,6 +56,7 @@ exports.createPages = async ({ graphql, actions }) => {
         component: categoryTemplate,
         context: {
             slug: node.fields.slug,
+            index: node.frontmatter.index
         },
     })
   })
