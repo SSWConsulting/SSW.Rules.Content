@@ -1,5 +1,5 @@
-import React from 'react';
-import { StaticQuery, graphql } from 'gatsby';
+import React, { useRef } from 'react';
+import { StaticQuery, graphql, Link } from 'gatsby';
 import Layout from '../components/layout/layout';
 import PropTypes from 'prop-types';
 
@@ -9,6 +9,7 @@ const Index = ({
     breadcrumb: { crumbs },
   },
 }) => {
+  const linkRef = useRef();
   const displayTopCategories = (topcategory) => {
     return (
       <>
@@ -16,20 +17,22 @@ const Index = ({
           {topcategory.frontmatter.title}
         </div>
         <ol className="list-decimal list-inside">
-          {         
-          topcategory.frontmatter.index.map((category, i) => {
-            const cats = data.topCategories.nodes.filter( cat =>
+          {topcategory.frontmatter.index.map((category, i) => {
+            const cats = data.categories.nodes.filter(
               (c) =>
-                c.parent.name
-                  .toLowerCase()
-                  .indexOf(cat.toLowerCase()) >= 0
+                c.parent.name.toLowerCase().indexOf(category.toLowerCase()) >= 0
             );
-
-            return (
-            <li key={i}> {cats[0].frontmatter.title}</li>
-            )
-          }
-        )}
+            if (cats && cats.length > 0) {
+              return (
+                <li key={i}>
+                  {' '}
+                  <Link ref={linkRef} to={`/${cats[0].parent.name}`}>
+                    {cats[0].frontmatter.title}
+                  </Link>
+                </li>
+              );
+            }
+          })}
         </ol>
       </>
     );
@@ -47,8 +50,9 @@ const Index = ({
                     .toLowerCase()
                     .indexOf(cat.toLowerCase()) >= 0
               );
-
-              return displayTopCategories(cats[0]);
+              if (cats && cats.length > 0) {
+                return displayTopCategories(cats[0]);
+              }
             });
           })
 
