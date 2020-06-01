@@ -4,14 +4,27 @@ import Layout from '../components/layout/layout';
 import PropTypes from 'prop-types';
 
 const Index = ({
+  data,
   pageContext: {
     breadcrumb: { crumbs },
   },
 }) => (
   <Layout crumbs={crumbs} displayActions={false}>
     <div>
-      <h1>SSW.Rules</h1>
-      <h4>Ready to start!</h4>
+      {data.rules.nodes.map((element) => {
+        return (
+          <>
+            <div className="top-category bg-gray-500 mt-6">
+              {element.frontmatter.title}
+            </div>
+            <ol className="list-decimal">
+              {element.frontmatter.index.map((rule, i) => (
+                <li key={i}> {rule}</li>
+              ))}
+            </ol>
+          </>
+        );
+      })}
     </div>
   </Layout>
 );
@@ -35,6 +48,7 @@ const IndexWithQuery = (props) => (
             frontmatter {
               type
               title
+              index
             }
             parent {
               ... on File {
