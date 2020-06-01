@@ -15,29 +15,55 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
+  
   const result = await graphql(`
     query {
-      allMarkdownRemark {
-        edges {
-          node {
-            fields {
-              slug
+        categories: allMarkdownRemark(filter: {frontmatter: {type: {eq: "category"}}}) {
+            nodes {
+                fields {
+                    slug
+                }
+                parent {
+                    ... on File {
+                      name
+                      relativeDirectory
+                    }
+                  }
+                }
             }
-          }
+        rules: allMarkdownRemark(filter: {frontmatter: {type: {nin: ["category","top_category","main"]}}}) {
+            nodes {
+                fields {
+                    slug
+                }
+                frontmatter {
+                    folder
+                }
+            }
         }
-      }
     }
   `)
 
-  result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+  const categoryTemplate = require.resolve(`./src/templates/category.js`)
+  const ruleTemplate = require.resolve('./src/templates/rule.js')
+
+  result.data.categories.nodes.forEach(node => {
     createPage({
-      path: node.fields.slug,
-      component: path.resolve(`./src/templates/category.js`),
+        path: node.parent.name,
+        component: categoryTemplate,
+        context: {
+            slug: node.fields.slug,
+        },
+    })
+  })
+
+  result.data.rules.nodes.forEach(node => {
+    createPage ({
+      path: node.frontmatter.folder,
+      component: ruleTemplate,
       context: {
-        // Data passed to context is available
-        // in page queries as GraphQL variables.
         slug: node.fields.slug,
-      },
+      }
     })
   })
 }
