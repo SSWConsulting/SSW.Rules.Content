@@ -1,0 +1,27 @@
+
+
+---
+authors:
+  - id: 21
+    title: Matthew Hodgkins
+---
+
+
+
+
+<span class='intro'> When formatting a new virtual disk you have attached to a Hyper-V Virtual Machine, you can choose to to format the disk as a <strong>Basic disk </strong>or <strong>Dynamic</strong> <strong>disk</strong>.<br>
+<br>
+A <strong>Dynamic</strong> <strong>disk </strong>might be useful in situations where you want to create a software RAID array, but when using Hyper-V this not a good idea because it prevents Microsoft Data Protection Manager (DPM) from doing Child State Backups (backups while the machine is running).<br>
+<br>
+For this reason, never use <strong>Dynamic disks </strong>inside Hyper-V Virtual Machines.<br>
+<br>
+<img alt="Bad Example - DPM cannot backup this Virtual Machine's child state as it has a Dynamic Disk" src="/PublishingImages/basicvolumes-badexample.jpg" /><br>
+<font class="ms-rteCustom-FigureBad" size="+0">Figure&#58;&#160;Bad Example - DPM cannot backup this Virtual Machine's child state as it has a Dynamic Disk<br>
+</font><br>
+<img alt="Good example – Using Basic Volumes allows DPM to backup the Virtual Machine’s child state" src="/PublishingImages/basicvolumes-goodexample.jpg" /><br>
+<font class="ms-rteCustom-FigureGood" size="+0">Good example – Using Basic Volumes allows DPM to backup the Virtual Machine’s child state</font> 
+ </span>
+
+
+
+
