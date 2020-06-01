@@ -55,7 +55,7 @@ const Layout = ({
           ) : (
             <div></div>
           )}
-          <main className="flex-1 mx-auto">{children}</main>
+          <main className="flex-1">{children}</main>
         </div>
         <Footer />
       </div>

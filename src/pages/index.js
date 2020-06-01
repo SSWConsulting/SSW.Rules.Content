@@ -8,27 +8,68 @@ const Index = ({
   pageContext: {
     breadcrumb: { crumbs },
   },
-}) => (
-  <Layout crumbs={crumbs} displayActions={false}>
-    <div>
-      {data.rules.nodes.map((element) => {
-        return (
+}) => {
+  const displayTopCategories = (topcategory) => {
+    return (
+      <>
+        <div className="top-category bg-ssw-grey mt-6">
+          {topcategory.frontmatter.title}
+        </div>
+        <ol className="list-decimal list-inside">
+          {         
+          topcategory.frontmatter.index.map((category, i) => {
+            const cats = data.topCategories.nodes.filter( cat =>
+              (c) =>
+                c.parent.name
+                  .toLowerCase()
+                  .indexOf(cat.toLowerCase()) >= 0
+            );
+
+            return (
+            <li key={i}> {cats[0].frontmatter.title}</li>
+            )
+          }
+        )}
+        </ol>
+      </>
+    );
+  };
+
+  return (
+    <Layout crumbs={crumbs} displayActions={false}>
+      <div className="w-full">
+        {
+          data.main.nodes.map((element) => {
+            return element.frontmatter.index.map((cat) => {
+              const cats = data.topCategories.nodes.filter(
+                (c) =>
+                  c.parent.relativeDirectory
+                    .toLowerCase()
+                    .indexOf(cat.toLowerCase()) >= 0
+              );
+
+              return displayTopCategories(cats[0]);
+            });
+          })
+
+          /* return (
           <>
-            <div className="top-category bg-gray-500 mt-6">
+            <div className="top-category bg-ssw-grey mt-6">
               {element.frontmatter.title}
             </div>
-            <ol className="list-decimal">
+            <ol className="list-decimal list-inside">
               {element.frontmatter.index.map((rule, i) => (
                 <li key={i}> {rule}</li>
               ))}
             </ol>
           </>
         );
-      })}
-    </div>
-  </Layout>
-);
-
+      })*/
+        }
+      </div>
+    </Layout>
+  );
+};
 Index.propTypes = {
   data: PropTypes.object.isRequired,
   search: PropTypes.object.isRequired,
@@ -40,8 +81,11 @@ const IndexWithQuery = (props) => (
   <StaticQuery
     query={graphql`
       query HomepageQuery {
-        rules: allMarkdownRemark(
-          filter: { frontmatter: { type: { eq: "top_category" } } }
+        main: allMarkdownRemark(
+          filter: {
+            fileAbsolutePath: { regex: "/(categories)/" }
+            frontmatter: { type: { eq: "main" } }
+          }
         ) {
           nodes {
             html
@@ -53,6 +97,48 @@ const IndexWithQuery = (props) => (
             parent {
               ... on File {
                 name
+              }
+            }
+          }
+        }
+        topCategories: allMarkdownRemark(
+          filter: {
+            fileAbsolutePath: { regex: "/(categories)/" }
+            frontmatter: { type: { eq: "top_category" } }
+          }
+        ) {
+          nodes {
+            html
+            frontmatter {
+              type
+              title
+              index
+            }
+            parent {
+              ... on File {
+                name
+                relativeDirectory
+              }
+            }
+          }
+        }
+        categories: allMarkdownRemark(
+          filter: {
+            fileAbsolutePath: { regex: "/(categories)/" }
+            frontmatter: { type: { eq: "category" } }
+          }
+        ) {
+          nodes {
+            html
+            frontmatter {
+              type
+              title
+              index
+            }
+            parent {
+              ... on File {
+                name
+                relativeDirectory
               }
             }
           }

@@ -17,12 +17,12 @@ module.exports = {
     {
       resolve: 'gatsby-source-git',
       options: {
-        name: 'rules',
+        name: 'categories',
         remote: 'https://github.com/SSWConsulting/SSW.Rules.git',
         // Optionally supply a branch. If none supplied, you'll get the default branch.
         branch: '53120-CreateIndexTemplate',
         // Tailor which files get imported eg. import the docs folder from a codebase.
-        patterns: 'markdown/**',
+        patterns: ['categories/**/*.md', 'rules/**/*'] ,
       },
     },
     {
