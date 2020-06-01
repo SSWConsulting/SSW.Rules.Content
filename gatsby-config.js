@@ -22,7 +22,7 @@ module.exports = {
         // Optionally supply a branch. If none supplied, you'll get the default branch.
         branch: '53120-CreateIndexTemplate',
         // Tailor which files get imported eg. import the docs folder from a codebase.
-        patterns: ['categories/**/*.md', 'rules/**/*'] ,
+        patterns: ['categories/**/*.md', 'rules/**/*'],
       },
     },
     {
