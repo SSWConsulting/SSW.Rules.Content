@@ -1,37 +1,40 @@
 import React, { useRef } from 'react';
-import { graphql, Link } from "gatsby";
+import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout/layout';
-export default function Category({ data, 
-    pageContext: {
-      breadcrumb: { crumbs },
-    } 
-  }) {
-  
+export default function Category({
+  data,
+  pageContext: {
+    breadcrumb: { crumbs },
+  },
+}) {
   const linkRef = useRef();
-  const category = data.markdownRemark
+  const category = data.markdownRemark;
   return (
-    <Layout crumbs={crumbs} crumbLabel={category.frontmatter.title} displayActions={false}>
-        <div>
+    <Layout
+      crumbs={crumbs}
+      crumbLabel={category.frontmatter.title}
+      displayActions={false}
+    >
+      <div>
         <h1>{category.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: category.html }} />
-        <br/>
+        <br />
       </div>
-      <ol className="list-decimal list-inside">
-       { data.rule.nodes.map((element, i) => 
-       <>
-        <li key={i} className="blockquote">
-            {' '}
-            <Link ref={linkRef} to={`/${element.frontmatter.folder}`}>
-            {element.frontmatter.title}
-            </Link>
-        </li>
-        <div dangerouslySetInnerHTML={{ __html: element.html }} />
-        <br/>
-        </>
-        )}
-        </ol>
+      <ol className="list-decimal list-outside">
+        {data.rule.nodes.map((element, i) => (
+          <>
+            <li key={i} className="rule-title">
+              <Link ref={linkRef} to={`/${element.frontmatter.folder}`}>
+                {element.frontmatter.title}
+              </Link>
+            </li>
+            <div dangerouslySetInnerHTML={{ __html: element.html }} />
+            <br />
+          </>
+        ))}
+      </ol>
     </Layout>
-  )
+  );
 }
 export const query = graphql`
   query($slug: String!, $index: [String]!) {
@@ -40,15 +43,17 @@ export const query = graphql`
       frontmatter {
         title
       }
-    },
-    rule: allMarkdownRemark(filter: {frontmatter: {folder: {in: $index}}}) {
-        nodes {
-            frontmatter {
-              folder
-              title
-            }
-            html
-          }
+    }
+    rule: allMarkdownRemark(
+      filter: { frontmatter: { folder: { in: $index } } }
+    ) {
+      nodes {
+        frontmatter {
+          folder
+          title
         }
+        html
       }
-`
+    }
+  }
+`;
