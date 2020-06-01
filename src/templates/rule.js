@@ -6,12 +6,12 @@ export default function Rule({ data,
         breadcrumb: { crumbs },
     } 
   }) {
-  const post = data.markdownRemark
+  const rule = data.markdownRemark
   return (
-    <Layout crumbs={crumbs} displayActions={false}>
+    <Layout crumbs={crumbs} crumbLabel={rule.frontmatter.title} displayActions={false}>
       <div>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h1>{rule.frontmatter.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: rule.html }} />
       </div>
     </Layout>
   )

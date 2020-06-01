@@ -8,21 +8,26 @@ export default function Category({ data,
   }) {
   
   const linkRef = useRef();
-  const post = data.markdownRemark
+  const category = data.markdownRemark
   return (
-    <Layout crumbs={crumbs} displayActions={false}>
+    <Layout crumbs={crumbs} crumbLabel={category.frontmatter.title} displayActions={false}>
         <div>
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h1>{category.frontmatter.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: category.html }} />
+        <br/>
       </div>
       <ol className="list-decimal list-inside">
        { data.rule.nodes.map((element, i) => 
-        <li key={i}>
+       <>
+        <li key={i} className="blockquote">
             {' '}
             <Link ref={linkRef} to={`/${element.frontmatter.folder}`}>
             {element.frontmatter.title}
             </Link>
         </li>
+        <div dangerouslySetInnerHTML={{ __html: element.html }} />
+        <br/>
+        </>
         )}
         </ol>
     </Layout>
