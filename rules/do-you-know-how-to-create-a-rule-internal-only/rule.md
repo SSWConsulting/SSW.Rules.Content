@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-create-a-rule-internal-only
+title: Do you know how to create a rule? (internal only)
+created: YYYY-02-DD 20:16:54
 authors:
   - id: 1
     title: Adam Cogan
