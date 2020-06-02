@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-include-google-analytics-in-your-website
+title: Do you include Google Analytics in your website?
+created: YYYY-08-DD 02:43:16
 authors:
   - id: 38
     title: Drew Robson
