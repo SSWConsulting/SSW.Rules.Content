@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-reply-to-the-correct-zendesk-email
+title: Do you reply to the correct Zendesk email?
+created: YYYY-06-DD 23:13:36
 authors:
   - id: 1
     title: Adam Cogan
