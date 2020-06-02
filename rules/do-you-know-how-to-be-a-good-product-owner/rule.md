@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-be-a-good-product-owner
+title: Do you know how to be a good Product Owner?
+created: YYYY-06-DD 20:04:21
 authors:
   - id: 4
     title: Ulysses Maclaren
