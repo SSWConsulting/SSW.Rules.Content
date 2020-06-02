@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-record-your-research-under-the-pbi
+title: Do you record your research under the PBI?
+created: YYYY-03-DD 04:35:58
 authors:
   - id: 1
     title: Adam Cogan
