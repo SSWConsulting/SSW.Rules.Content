@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-resource-file-to-store-all-the-messages-and-globlal-strings
+title: Do you use resource file to store all the messages and globlal strings?
+created: YYYY-04-DD 21:08:00
 authors:
   - id: 1
     title: Adam Cogan
