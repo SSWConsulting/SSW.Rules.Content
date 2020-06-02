@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-store-your-secrets-securely
+title: Do you store your secrets securely?
+created: YYYY-04-DD 19:19:40
 authors:
   - id: 1
     title: Adam Cogan
