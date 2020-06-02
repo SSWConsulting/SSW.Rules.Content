@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-provide-fresh-content
+title: Do you provide fresh content?
+created: YYYY-11-DD 15:04:33
 authors:
   - id: 1
     title: Adam Cogan
