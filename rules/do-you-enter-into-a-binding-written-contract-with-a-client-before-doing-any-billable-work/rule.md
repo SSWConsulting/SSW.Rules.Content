@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
+title: Do you enter into a binding written contract with a client before doing any billable work?
+created: YYYY-08-DD 13:01:02
 authors:
   - id: 1
     title: Adam Cogan
