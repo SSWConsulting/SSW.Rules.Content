@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-keep-crm-opportunities-updated
+title: Do you know how to keep CRM Opportunities updated?
+created: YYYY-10-DD 04:30:02
 authors:
   - id: 30
     title: Marlon Marescia
