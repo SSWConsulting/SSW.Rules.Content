@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-let-the-adapter-handle-the-connection-for-you
+title: Do you let the adapter handle the connection for you?
+created: YYYY-04-DD 07:35:13
 authors:
   - id: 1
     title: Adam Cogan
