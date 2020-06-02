@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-right-way-to-create-your-angular-project
+title: Do you know the right way to create your Angular project?
+created: YYYY-10-DD 21:33:46
 authors:
   - id: 1
     title: Adam Cogan
