@@ -1,6 +1,9 @@
 
 
 ---
+uri: office-environment---do-you-know-how-to-get-approval-for-a-purchase
+title: Office environment - Do you know how to get approval for a purchase?
+created: YYYY-03-DD 01:25:30
 authors:
   - id: 1
     title: Adam Cogan
