@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-using-images-in-your-email-signatures
+title: Do you avoid using images in your email signatures?
+created: YYYY-03-DD 03:24:55
 authors:
   - id: 1
     title: Adam Cogan
