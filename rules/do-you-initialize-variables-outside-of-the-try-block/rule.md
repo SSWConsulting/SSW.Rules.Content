@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-initialize-variables-outside-of-the-try-block
+title: Do you initialize variables outside of the try block?
+created: YYYY-04-DD 21:41:56
 authors:
   - id: 1
     title: Adam Cogan
