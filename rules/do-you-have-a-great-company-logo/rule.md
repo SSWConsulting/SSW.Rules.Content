@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-great-company-logo
+title: Do you have a great company logo?
+created: YYYY-11-DD 17:19:59
 authors:
   - id: 16
     title: Tiago Araujo
