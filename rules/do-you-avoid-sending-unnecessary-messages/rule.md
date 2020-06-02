@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-sending-unnecessary-messages
+title: Do you avoid sending unnecessary messages?
+created: YYYY-10-DD 05:32:56
 authors:
   - id: 1
     title: Adam Cogan
