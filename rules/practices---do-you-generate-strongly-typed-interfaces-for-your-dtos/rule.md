@@ -1,6 +1,9 @@
 
 
 ---
+uri: practices---do-you-generate-strongly-typed-interfaces-for-your-dtos
+title: Practices - Do you generate strongly-typed interfaces for your DTOs?
+created: YYYY-04-DD 22:33:50
 authors:
   - id: 55
     title: Steve Leigh
