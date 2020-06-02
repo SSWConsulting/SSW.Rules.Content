@@ -1,6 +1,9 @@
 
 
 ---
+uri: are-your-customizable-and-non-customizable-settings-in-different-files
+title: Are your customizable and non-customizable settings in different files?
+created: YYYY-04-DD 06:42:19
 authors:
   - id: 1
     title: Adam Cogan
