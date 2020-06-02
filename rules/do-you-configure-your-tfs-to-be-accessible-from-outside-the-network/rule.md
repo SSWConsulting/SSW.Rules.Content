@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-configure-your-tfs-to-be-accessible-from-outside-the-network
+title: Do you configure your TFS to be accessible from outside the network?
+created: YYYY-11-DD 03:53:00
 authors:
   - id: 22
     title: David Klein
