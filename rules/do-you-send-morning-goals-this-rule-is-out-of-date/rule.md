@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-send-morning-goals-this-rule-is-out-of-date
+title: Do you send Morning Goals? (This rule is out of date)
+created: YYYY-02-DD 09:44:13
 authors:
   - id: 1
     title: Adam Cogan
