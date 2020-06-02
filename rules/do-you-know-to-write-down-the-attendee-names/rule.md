@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-write-down-the-attendee-names
+title: Do you know to write down the Attendee Names?
+created: YYYY-01-DD 19:50:06
 authors:
   - id: 1
     title: Adam Cogan
