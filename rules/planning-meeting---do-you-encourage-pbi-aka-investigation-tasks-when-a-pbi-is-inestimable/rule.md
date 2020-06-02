@@ -1,6 +1,9 @@
 
 
 ---
+uri: planning-meeting---do-you-encourage-pbi-aka-investigation-tasks-when-a-pbi-is-inestimable
+title: Planning Meeting - Do you encourage PBI (aka investigation tasks) when a PBI is inestimable?
+created: YYYY-04-DD 03:32:39
 authors:
   - id: 1
     title: Adam Cogan
