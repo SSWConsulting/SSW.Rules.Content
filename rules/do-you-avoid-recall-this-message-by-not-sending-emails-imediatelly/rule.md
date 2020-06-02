@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
+title: Do you avoid "Recall this message..." by not sending emails imediatelly?
+created: YYYY-04-DD 14:19:27
 authors:
   - id: 16
     title: Tiago Araujo
