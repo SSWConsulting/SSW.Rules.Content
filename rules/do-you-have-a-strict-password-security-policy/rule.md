@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-strict-password-security-policy
+title: Do you have a strict password security policy?
+created: YYYY-07-DD 20:55:19
 authors:
   - id: 47
     title: Stanley Sidik
