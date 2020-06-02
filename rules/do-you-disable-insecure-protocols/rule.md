@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-disable-insecure-protocols
+title: Do you disable insecure protocols?
+created: YYYY-11-DD 22:51:47
 authors:
   - id: 1
     title: Adam Cogan
