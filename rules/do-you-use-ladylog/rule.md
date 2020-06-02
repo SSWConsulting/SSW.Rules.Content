@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-ladylog
+title: Do you use LadyLog?
+created: YYYY-09-DD 21:50:56
 authors:
   - id: 1
     title: Adam Cogan
