@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-code-health-extensions-in-vs-code
+title: Do you use the Code Health Extensions in VS Code?
+created: YYYY-03-DD 22:12:04
 authors:
   - id: 1
     title: Adam Cogan
