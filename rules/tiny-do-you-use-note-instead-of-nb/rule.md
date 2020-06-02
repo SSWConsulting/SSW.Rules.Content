@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-use-note-instead-of-nb
+title: Tiny: Do you use "Note" instead of "NB"?
+created: YYYY-09-DD 06:32:10
 authors:
   - id: 1
     title: Adam Cogan
