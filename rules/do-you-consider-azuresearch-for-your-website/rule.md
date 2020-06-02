@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-consider-azuresearch-for-your-website
+title: Do you consider AzureSearch for your website?
+created: YYYY-04-DD 01:23:12
 authors:
 
 ---
