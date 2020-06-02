@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-projectversion-conventions
+title: Do you know the best Project/Version conventions?
+created: YYYY-11-DD 03:52:36
 authors:
   - id: 22
     title: David Klein
