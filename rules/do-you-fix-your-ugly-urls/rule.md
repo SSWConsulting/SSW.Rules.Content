@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-fix-your-ugly-urls
+title: Do you fix your ugly URL's?
+created: YYYY-11-DD 21:02:11
 authors:
   - id: 1
     title: Adam Cogan
