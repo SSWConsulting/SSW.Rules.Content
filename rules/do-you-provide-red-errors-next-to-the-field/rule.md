@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-provide-red-errors-next-to-the-field
+title: Do you provide red errors next to the field?
+created: YYYY-12-DD 11:47:19
 authors:
   - id: 1
     title: Adam Cogan
