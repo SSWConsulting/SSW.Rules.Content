@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-juicy-words-in-your-urls
+title: Do you use "juicy words" in your URLs?
+created: YYYY-11-DD 19:20:55
 authors:
   - id: 1
     title: Adam Cogan
