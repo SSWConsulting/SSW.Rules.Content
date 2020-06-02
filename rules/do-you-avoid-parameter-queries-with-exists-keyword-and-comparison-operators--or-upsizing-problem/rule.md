@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators--or-upsizing-problem
+title: Do you avoid parameter queries with EXISTS keyword and comparison operators (<> or =)(Upsizing Problem)?
+created: YYYY-07-DD 03:28:36
 authors:
   - id: 1
     title: Adam Cogan
