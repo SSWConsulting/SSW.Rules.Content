@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-inject-your-dependencies
+title: Do you inject your dependencies?
+created: YYYY-10-DD 17:23:08
 authors:
   - id: 24
     title: Adam Stephensen
