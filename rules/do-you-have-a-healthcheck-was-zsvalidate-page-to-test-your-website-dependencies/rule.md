@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
+title: Do you have a /HealthCheck (was /zsValidate) page to test your website dependencies?
+created: YYYY-03-DD 20:57:37
 authors:
   - id: 1
     title: Adam Cogan
