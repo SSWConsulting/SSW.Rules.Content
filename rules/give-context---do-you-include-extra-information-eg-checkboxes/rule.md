@@ -1,6 +1,9 @@
 
 
 ---
+uri: give-context---do-you-include-extra-information-eg-checkboxes
+title: Give Context - Do you include extra information (e.g. Checkboxes)?
+created: YYYY-11-DD 02:07:36
 authors:
 
 ---
