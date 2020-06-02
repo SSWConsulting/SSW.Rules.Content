@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-hard-code-your-connectionstring
+title: Do you hard code your ConnectionString?
+created: YYYY-04-DD 05:36:44
 authors:
   - id: 1
     title: Adam Cogan
