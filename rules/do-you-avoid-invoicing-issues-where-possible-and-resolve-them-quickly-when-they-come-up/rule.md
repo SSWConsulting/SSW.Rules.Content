@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-invoicing-issues-where-possible-and-resolve-them-quickly-when-they-come-up
+title: Do you avoid invoicing issues where possible and resolve them quickly when they come up?
+created: YYYY-07-DD 06:07:03
 authors:
 
 ---
