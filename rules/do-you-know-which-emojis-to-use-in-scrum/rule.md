@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-which-emojis-to-use-in-scrum
+title: Do you know which emojis to use in Scrum?
+created: YYYY-04-DD 07:26:07
 authors:
 
 ---
