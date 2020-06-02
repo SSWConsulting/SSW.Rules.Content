@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-optinmonster-for-your-content-downloads
+title: Do you use OptinMonster for your content downloads?
+created: YYYY-08-DD 04:40:46
 authors:
   - id: 83
     title: Camilla Rosa Silva
