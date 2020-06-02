@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-create-a-negative-keyword-list
+title: Do you know how to create a negative keyword list?
+created: YYYY-03-DD 22:02:27
 authors:
   - id: 83
     title: Camilla Rosa Silva
