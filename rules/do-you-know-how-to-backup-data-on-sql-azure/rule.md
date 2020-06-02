@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-backup-data-on-sql-azure
+title: Do You Know How to Backup Data on SQL Azure?
+created: YYYY-01-DD 02:15:44
 authors:
   - id: 44
     title: Duncan Hunter
