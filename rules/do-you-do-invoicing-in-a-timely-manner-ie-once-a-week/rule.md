@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-do-invoicing-in-a-timely-manner-ie-once-a-week
+title: Do you do invoicing in a timely manner (i.e. once a week)?
+created: YYYY-07-DD 21:58:42
 authors:
   - id: 1
     title: Adam Cogan
