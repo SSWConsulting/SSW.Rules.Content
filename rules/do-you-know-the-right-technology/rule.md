@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-right-technology
+title: Do you know the right technology?
+created: YYYY-07-DD 17:56:03
 authors:
   - id: 1
     title: Adam Cogan
