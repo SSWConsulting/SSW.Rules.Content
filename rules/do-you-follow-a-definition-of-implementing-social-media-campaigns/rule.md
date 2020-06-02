@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-a-definition-of-implementing-social-media-campaigns
+title: Do you follow a 'Definition of Implementing Social Media Campaigns'?
+created: YYYY-09-DD 02:01:26
 authors:
   - id: 50
     title: Martin Li
