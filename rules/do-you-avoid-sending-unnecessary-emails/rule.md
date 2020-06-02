@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-sending-unnecessary-emails
+title: Do you avoid sending unnecessary emails?
+created: YYYY-03-DD 04:16:56
 authors:
   - id: 1
     title: Adam Cogan
