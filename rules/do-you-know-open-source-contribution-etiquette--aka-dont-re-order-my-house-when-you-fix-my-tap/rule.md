@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-open-source-contribution-etiquette--aka-dont-re-order-my-house-when-you-fix-my-tap
+title: Do You Know Open Source Contribution Etiquette? ( a.k.a. don't re-order my house when you fix my tap)
+created: YYYY-03-DD 18:59:01
 authors:
   - id: 24
     title: Adam Stephensen
