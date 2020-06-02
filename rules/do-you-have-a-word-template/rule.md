@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-word-template
+title: Do you have a Word template?
+created: YYYY-08-DD 20:46:40
 authors:
   - id: 4
     title: Ulysses Maclaren
