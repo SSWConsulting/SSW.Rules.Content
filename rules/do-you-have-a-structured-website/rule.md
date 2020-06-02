@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-structured-website
+title: Do you have a structured website?
+created: YYYY-08-DD 18:48:19
 authors:
   - id: 1
     title: Adam Cogan
