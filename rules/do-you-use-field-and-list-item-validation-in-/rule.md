@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-field-and-list-item-validation-in-
+title: Do you use field and list item validation (in 2010)
+created: YYYY-12-DD 02:23:00
 authors:
   - id: 1
     title: Adam Cogan
