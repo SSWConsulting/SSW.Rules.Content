@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-words-instead-of-digits-for-low-numbers
+title: Do you use words instead of digits for low numbers?
+created: YYYY-04-DD 05:57:12
 authors:
 
 ---
