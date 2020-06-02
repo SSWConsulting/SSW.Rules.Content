@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments---do-you-know-how-to-send-a-schedule
+title: Appointments - Do you know how to send a schedule?
+created: YYYY-06-DD 08:07:09
 authors:
   - id: 1
     title: Adam Cogan
