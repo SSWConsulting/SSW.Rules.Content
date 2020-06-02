@@ -1,6 +1,9 @@
 
 
 ---
+uri: being-pedantic---do-you-avoid-ending-labels-text-with-a-colon
+title: Being Pedantic - Do you avoid ending labels text with a colon?
+created: YYYY-03-DD 22:32:52
 authors:
   - id: 1
     title: Adam Cogan
