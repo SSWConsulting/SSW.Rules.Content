@@ -1,6 +1,9 @@
 
 
 ---
+uri: what-does-a-sharepoint-image-need
+title: What does a SharePoint image need?
+created: YYYY-02-DD 02:03:33
 authors:
 
 ---
