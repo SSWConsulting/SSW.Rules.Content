@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-the-application-name-in-the-sql-server-connection-string
+title: Do you add the Application Name in the SQL Server connection string?
+created: YYYY-04-DD 21:01:36
 authors:
   - id: 1
     title: Adam Cogan
