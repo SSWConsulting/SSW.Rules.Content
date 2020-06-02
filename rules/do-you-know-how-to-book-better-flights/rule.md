@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-book-better-flights
+title: Do you know how to book better flights?
+created: YYYY-04-DD 04:43:50
 authors:
   - id: 1
     title: Adam Cogan
