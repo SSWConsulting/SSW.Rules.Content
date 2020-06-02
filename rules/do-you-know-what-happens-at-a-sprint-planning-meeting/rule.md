@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-happens-at-a-sprint-planning-meeting
+title: Do you know what happens at a Sprint Planning Meeting?
+created: YYYY-05-DD 04:11:55
 authors:
 
 ---
