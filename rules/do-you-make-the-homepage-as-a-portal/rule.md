@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-the-homepage-as-a-portal
+title: Do you make the homepage as a portal?
+created: YYYY-11-DD 02:00:58
 authors:
 
 ---
