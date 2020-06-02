@@ -1,6 +1,9 @@
 
 
 ---
+uri: are-you-still-ui-aware
+title: Are you still UI aware?
+created: YYYY-06-DD 09:43:56
 authors:
   - id: 1
     title: Adam Cogan
