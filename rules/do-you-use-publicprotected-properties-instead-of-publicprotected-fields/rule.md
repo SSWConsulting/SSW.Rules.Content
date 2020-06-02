@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-publicprotected-properties-instead-of-publicprotected-fields
+title: Do you use Public/Protected Properties instead of Public/Protected Fields?
+created: YYYY-04-DD 21:45:02
 authors:
   - id: 1
     title: Adam Cogan
