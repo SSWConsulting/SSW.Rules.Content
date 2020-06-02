@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-evaluate-the-processes
+title: Do you evaluate the processes?
+created: YYYY-03-DD 07:22:35
 authors:
   - id: 1
     title: Adam Cogan
