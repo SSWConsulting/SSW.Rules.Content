@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-factual-content-is-king
+title: Do you know that 'Factual Content is King'?
+created: YYYY-06-DD 09:53:40
 authors:
   - id: 1
     title: Adam Cogan
