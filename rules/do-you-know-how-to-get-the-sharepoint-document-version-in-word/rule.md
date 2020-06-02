@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-get-the-sharepoint-document-version-in-word
+title: Do you know how to get the SharePoint document version in Word?
+created: YYYY-04-DD 02:55:17
 authors:
   - id: 1
     title: Adam Cogan
