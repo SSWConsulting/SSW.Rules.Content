@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-start-versioning-at--and-change-to--once-approved-by-a-client-or-tester
+title: Do you start versioning at 0.1 and change to 1.0 once approved by a client or tester?
+created: YYYY-04-DD 23:32:49
 authors:
   - id: 1
     title: Adam Cogan
