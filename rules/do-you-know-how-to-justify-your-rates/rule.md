@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-justify-your-rates
+title: Do you know how to justify your rates?
+created: YYYY-08-DD 17:42:28
 authors:
   - id: 4
     title: Ulysses Maclaren
