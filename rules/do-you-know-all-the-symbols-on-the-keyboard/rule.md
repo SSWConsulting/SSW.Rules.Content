@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-all-the-symbols-on-the-keyboard
+title: Do you know all the symbols on the keyboard?
+created: YYYY-03-DD 01:38:31
 authors:
   - id: 1
     title: Adam Cogan
