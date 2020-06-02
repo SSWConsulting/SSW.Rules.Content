@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-always-use-varchar
+title: Schema - Do you always use Varchar?
+created: YYYY-11-DD 22:48:11
 authors:
   - id: 1
     title: Adam Cogan
