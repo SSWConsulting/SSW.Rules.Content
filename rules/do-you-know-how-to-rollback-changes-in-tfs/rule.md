@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-rollback-changes-in-tfs
+title: Do you know how to rollback changes in TFS?
+created: YYYY-11-DD 03:52:54
 authors:
   - id: 22
     title: David Klein
