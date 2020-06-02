@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-required-property-on-a-field
+title: Do you use the Required property on a field?
+created: YYYY-07-DD 02:39:59
 authors:
   - id: 1
     title: Adam Cogan
