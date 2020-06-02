@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-css-class-form-horizontal-to-arrange-your-fields-and-labels
+title: Do you use the CSS class "form horizontal" to arrange your fields and labels?
+created: YYYY-09-DD 20:59:34
 authors:
   - id: 38
     title: Drew Robson
