@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-golden-rule-of-rebasing
+title: Do you know The Golden Rule of Rebasing?
+created: YYYY-02-DD 20:11:38
 authors:
   - id: 24
     title: Adam Stephensen
