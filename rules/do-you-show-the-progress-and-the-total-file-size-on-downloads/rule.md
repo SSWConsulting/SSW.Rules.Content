@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-show-the-progress-and-the-total-file-size-on-downloads
+title: Do you show the progress and the total file size on downloads?
+created: YYYY-12-DD 18:33:09
 authors:
   - id: 1
     title: Adam Cogan
