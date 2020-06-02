@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-image-standard-sizes-on-social-media
+title: Do you follow image standard sizes on social media?
+created: YYYY-02-DD 23:29:29
 authors:
   - id: 83
     title: Camilla Rosa Silva
