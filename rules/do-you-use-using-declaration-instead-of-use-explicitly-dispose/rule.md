@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-using-declaration-instead-of-use-explicitly-dispose
+title: Do you use "using" declaration instead of use explicitly "dispose"?
+created: YYYY-04-DD 20:56:47
 authors:
   - id: 1
     title: Adam Cogan
