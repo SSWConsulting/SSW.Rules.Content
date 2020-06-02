@@ -1,6 +1,9 @@
 
 
 ---
+uri: less-is-more---do-you-realize-that-when-it-comes-to-interface-design-less-is-more
+title: Less is More - Do you realize that when it comes to interface design 'less is more'?
+created: YYYY-11-DD 01:41:21
 authors:
 
 ---
