@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-legacy-check-tool-before-migrating
+title: Do you use legacy check tool before migrating
+created: YYYY-06-DD 04:29:44
 authors:
 
 ---
