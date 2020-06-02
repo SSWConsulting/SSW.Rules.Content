@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-track-requests-in-jira
+title: Do you know how to track requests in Jira?
+created: YYYY-09-DD 02:09:58
 authors:
 
 ---
