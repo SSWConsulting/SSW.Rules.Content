@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-generic-exception-handler-in-your-globalasax
+title: Do you have generic exception handler in your Global.asax?
+created: YYYY-08-DD 14:47:18
 authors:
   - id: 1
     title: Adam Cogan
