@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-put-all-images-in-the-images-folder
+title: Do you put all images in the \images folder?
+created: YYYY-05-DD 05:44:00
 authors:
   - id: 1
     title: Adam Cogan
