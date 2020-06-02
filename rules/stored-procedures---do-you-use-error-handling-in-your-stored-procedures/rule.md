@@ -1,6 +1,9 @@
 
 
 ---
+uri: stored-procedures---do-you-use-error-handling-in-your-stored-procedures
+title: Stored Procedures - Do you use error handling in your Stored Procedures?
+created: YYYY-03-DD 03:41:49
 authors:
   - id: 99
     title: Christian Morford-Waite
