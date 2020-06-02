@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-point-home-directory-to-a-different-drive
+title: Do you point Home directory to a different drive?
+created: YYYY-05-DD 06:23:41
 authors:
   - id: 46
     title: Danijel Malik
