@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-allow-users-to-facebook-like-every-page
+title: Do you allow users to Facebook 'Like' every page?
+created: YYYY-05-DD 05:16:06
 authors:
   - id: 1
     title: Adam Cogan
