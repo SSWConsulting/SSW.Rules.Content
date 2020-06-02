@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-create-your-own-process-template-to-fit-into-your-environment
+title: Do you create your own Process Template to fit into your environment?
+created: YYYY-11-DD 05:58:22
 authors:
   - id: 10
     title: Lei Xu
