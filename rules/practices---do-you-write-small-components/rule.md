@@ -1,6 +1,9 @@
 
 
 ---
+uri: practices---do-you-write-small-components
+title: Practices - Do you write small components?
+created: YYYY-04-DD 22:43:46
 authors:
   - id: 55
     title: Steve Leigh
