@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-know-scrum-should-be-capitalized
+title: Tiny: Do you know "Scrum" should be capitalized?
+created: YYYY-03-DD 00:28:43
 authors:
   - id: 1
     title: Adam Cogan
