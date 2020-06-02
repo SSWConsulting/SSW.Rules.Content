@@ -1,6 +1,9 @@
 
 
 ---
+uri: efficiency---do-all-your-employees-know-the-quickest-way-to-fix-small-web-errors
+title: Efficiency - Do all your employees know the quickest way to fix small web errors?
+created: YYYY-11-DD 16:22:22
 authors:
   - id: 1
     title: Adam Cogan
