@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-service-accounts
+title: Do you use service accounts?
+created: YYYY-08-DD 05:08:37
 authors:
   - id: 73
     title: Kaique Biancatti
