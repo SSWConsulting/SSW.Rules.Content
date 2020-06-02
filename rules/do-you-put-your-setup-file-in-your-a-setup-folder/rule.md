@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-put-your-setup-file-in-your-a-setup-folder
+title: Do you put your setup file in your a \setup folder?
+created: YYYY-05-DD 05:51:11
 authors:
   - id: 1
     title: Adam Cogan
