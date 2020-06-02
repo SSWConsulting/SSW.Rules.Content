@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-integrate-raygun-with-octopus-deploy
+title: Do you know how to integrate RayGun with Octopus Deploy?
+created: YYYY-10-DD 17:17:59
 authors:
   - id: 3
     title: Eric Phan
