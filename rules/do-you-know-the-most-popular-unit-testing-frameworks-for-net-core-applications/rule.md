@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-most-popular-unit-testing-frameworks-for-net-core-applications
+title: Do you know the most popular unit testing frameworks for .NET Core applications?
+created: YYYY-03-DD 20:05:20
 authors:
   - id: 1
     title: Adam Cogan
