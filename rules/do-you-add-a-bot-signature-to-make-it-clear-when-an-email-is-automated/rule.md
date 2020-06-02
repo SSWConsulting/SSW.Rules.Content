@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-a-bot-signature-to-make-it-clear-when-an-email-is-automated
+title: Do you add a Bot signature to make it clear when an email is automated?
+created: YYYY-04-DD 22:40:33
 authors:
   - id: 1
     title: Adam Cogan
