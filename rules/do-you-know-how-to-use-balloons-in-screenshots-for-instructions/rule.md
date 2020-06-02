@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-balloons-in-screenshots-for-instructions
+title: Do you know how to use balloons in screenshots for instructions?
+created: YYYY-10-DD 00:33:20
 authors:
 
 ---
