@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-reference-very-calmstable-dlls-by-assembly
+title: Do you reference "very calm/stable" .dlls by Assembly?
+created: YYYY-04-DD 06:33:27
 authors:
   - id: 1
     title: Adam Cogan
