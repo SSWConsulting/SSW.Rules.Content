@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-a-chat-window-open-at-the-side-of-the-screen-at-all-times
+title: Do you keep a chat window open at the side of the screen at all times?
+created: YYYY-11-DD 23:43:59
 authors:
 
 ---
