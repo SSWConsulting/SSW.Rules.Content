@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-if-google-has-indexed-your-page
+title: Do you know if Google has indexed your page?
+created: YYYY-11-DD 18:03:57
 authors:
   - id: 16
     title: Tiago Araujo
