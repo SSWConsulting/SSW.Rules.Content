@@ -1,6 +1,9 @@
 
 
 ---
+uri: practices---do-you-use-client-side-routing
+title: Practices - Do you use client-side routing?
+created: YYYY-04-DD 22:39:45
 authors:
   - id: 55
     title: Steve Leigh
