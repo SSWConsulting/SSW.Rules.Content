@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-wait-before-applying-service-packs-or-upgrades
+title: Do you wait before applying Service Packs or upgrades?
+created: YYYY-03-DD 05:10:14
 authors:
   - id: 21
     title: Matthew Hodgkins
