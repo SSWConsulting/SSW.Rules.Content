@@ -1,6 +1,9 @@
 
 
 ---
+uri: twitter---do-you-change-your-display-name-when-travelling
+title: Twitter - Do you change your display name when travelling?
+created: YYYY-06-DD 22:45:41
 authors:
   - id: 1
     title: Adam Cogan
