@@ -1,6 +1,9 @@
 
 
 ---
+uri: display---do-you-use-your-personal-message-to-share-good-news-with-your-contacts
+title: Display - Do you use your personal message to share good news with your contacts?
+created: YYYY-10-DD 06:10:25
 authors:
   - id: 1
     title: Adam Cogan
