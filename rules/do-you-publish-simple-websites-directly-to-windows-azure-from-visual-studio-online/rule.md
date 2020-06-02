@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-publish-simple-websites-directly-to-windows-azure-from-visual-studio-online
+title: Do you publish simple websites directly to Windows Azure from Visual Studio Online?
+created: YYYY-06-DD 19:20:33
 authors:
   - id: 24
     title: Adam Stephensen
