@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-the-written-text-when-you-publish-an-image-with-text-in-it
+title: Do you give the written text when you publish an image with text in it?
+created: YYYY-11-DD 18:02:14
 authors:
   - id: 1
     title: Adam Cogan
