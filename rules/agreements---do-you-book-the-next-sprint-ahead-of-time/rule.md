@@ -1,6 +1,9 @@
 
 
 ---
+uri: agreements---do-you-book-the-next-sprint-ahead-of-time
+title: Agreements - Do You Book the Next Sprint Ahead of Time?
+created: YYYY-05-DD 05:09:11
 authors:
   - id: 4
     title: Ulysses Maclaren
