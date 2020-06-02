@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-write-your-angular-x-directives-in-typescript
+title: Do you write your Angular 1.x directives in TypeScript?
+created: YYYY-01-DD 01:10:43
 authors:
   - id: 46
     title: Danijel Malik
