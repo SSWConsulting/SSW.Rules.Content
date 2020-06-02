@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-the-best-possible-bug-database
+title: Do you keep the best possible bug database?
+created: YYYY-02-DD 09:44:02
 authors:
   - id: 1
     title: Adam Cogan
