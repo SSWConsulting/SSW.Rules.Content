@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-control-app
+title: Do you use the Control4 app?
+created: YYYY-09-DD 23:17:29
 authors:
   - id: 1
     title: Adam Cogan
