@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-cover-page-with-clients-photo
+title: ​Do you have a cover page with client's photo?
+created: YYYY-08-DD 21:11:57
 authors:
   - id: 1
     title: Adam Cogan
