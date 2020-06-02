@@ -1,6 +1,9 @@
 
 
 ---
+uri: practices---do-you-avoid-directly-modifying-the-dom-from-your-components
+title: Practices - Do you avoid directly modifying the DOM from your components?
+created: YYYY-04-DD 22:18:30
 authors:
   - id: 55
     title: Steve Leigh
