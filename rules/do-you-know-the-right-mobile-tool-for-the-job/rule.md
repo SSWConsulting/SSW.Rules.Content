@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-right-mobile-tool-for-the-job
+title: Do you know the right mobile tool for the job?
+created: YYYY-06-DD 22:09:02
 authors:
   - id: 24
     title: Adam Stephensen
