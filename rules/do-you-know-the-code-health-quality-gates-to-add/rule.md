@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-code-health-quality-gates-to-add
+title: Do you know the Code Health (Quality Gates) to add?
+created: YYYY-02-DD 22:26:58
 authors:
   - id: 1
     title: Adam Cogan
