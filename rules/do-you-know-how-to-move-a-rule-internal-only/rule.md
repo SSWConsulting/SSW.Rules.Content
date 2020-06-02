@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-move-a-rule-internal-only
+title: Do you know how to move a rule? (internal only)
+created: YYYY-10-DD 18:09:49
 authors:
   - id: 16
     title: Tiago Araujo
