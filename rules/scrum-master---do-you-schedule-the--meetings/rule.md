@@ -1,6 +1,9 @@
 
 
 ---
+uri: scrum-master---do-you-schedule-the--meetings
+title: Scrum Master - Do you schedule the 3 meetings?
+created: YYYY-05-DD 05:41:54
 authors:
   - id: 1
     title: Adam Cogan
