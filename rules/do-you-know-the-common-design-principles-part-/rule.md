@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-common-design-principles-part-
+title: Do you know the common Design Principles? (Part 1)
+created: YYYY-04-DD 00:29:11
 authors:
   - id: 24
     title: Adam Stephensen
