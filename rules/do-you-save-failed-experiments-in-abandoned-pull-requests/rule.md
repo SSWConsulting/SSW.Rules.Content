@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-save-failed-experiments-in-abandoned-pull-requests
+title: Do you save failed experiments in abandoned pull requests?
+created: YYYY-03-DD 04:58:30
 authors:
   - id: 1
     title: Adam Cogan
