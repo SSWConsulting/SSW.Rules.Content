@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-inform-the-client-of-any-resource-or-rate-changes
+title: Do you inform the client of any resource or rate changes?
+created: YYYY-08-DD 13:05:19
 authors:
   - id: 1
     title: Adam Cogan
