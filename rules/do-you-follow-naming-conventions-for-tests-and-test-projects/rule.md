@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-naming-conventions-for-tests-and-test-projects
+title: Do you follow naming conventions for tests and test projects?
+created: YYYY-03-DD 00:04:10
 authors:
   - id: 1
     title: Adam Cogan
