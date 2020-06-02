@@ -1,6 +1,6 @@
 ---
 uri: deprecated-do-you-use-built-in-authentication-from-ms
-title: [DEPRECATED] Do you use built in authentication from MS?
+title: DEPRECATED Do you use built in authentication from MS?
 created: 2013-05-02 21:19:33
 authors:
   - id: 1
