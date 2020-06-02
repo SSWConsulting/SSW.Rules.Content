@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-your-site-easy-to-maintain
+title: Do you make your site easy to maintain?
+created: YYYY-08-DD 18:32:10
 authors:
   - id: 1
     title: Adam Cogan
