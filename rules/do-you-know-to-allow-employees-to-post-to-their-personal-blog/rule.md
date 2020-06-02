@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-allow-employees-to-post-to-their-personal-blog
+title: Do you know to allow employees to post to their personal blog?
+created: YYYY-09-DD 15:52:47
 authors:
   - id: 1
     title: Adam Cogan
