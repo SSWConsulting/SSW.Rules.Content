@@ -1,6 +1,9 @@
 
 
 ---
+uri: the-team---do-you-help-your-scrum-master-protect-and-serve-the-team
+title: The Team - Do you help your Scrum Master protect and serve The Team?
+created: YYYY-04-DD 06:39:22
 authors:
   - id: 13
     title: Paul Neumeyer
