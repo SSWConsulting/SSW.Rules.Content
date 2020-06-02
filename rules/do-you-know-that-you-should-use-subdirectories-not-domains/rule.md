@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-you-should-use-subdirectories-not-domains
+title: Do you know that you should use subdirectories, not domains?
+created: YYYY-01-DD 02:02:06
 authors:
   - id: 83
     title: Camilla Rosa Silva
