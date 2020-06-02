@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-chrome-devtools-device-mode-to-design-and-test-your-mobile-views
+title: Do you use Chrome DevTools Device Mode to design and test your mobile views?
+created: YYYY-02-DD 06:10:29
 authors:
   - id: 44
     title: Duncan Hunter
