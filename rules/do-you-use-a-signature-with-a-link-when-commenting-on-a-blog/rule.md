@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-signature-with-a-link-when-commenting-on-a-blog
+title: Do you use a signature with a link when commenting on a blog?
+created: YYYY-11-DD 00:55:31
 authors:
   - id: 4
     title: Ulysses Maclaren
