@@ -3,35 +3,19 @@
 ---
 uri: do-you-know-which-check-in-policies-to-enable
 title: Do you know which check-in policies to enable?
-created: YYYY-11-DD 03:52:26
+created: YYYY-05-DD 15:15:33
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
+  - id: 23
+    title: Damian Brady
 ---
 
 
 
 
-<span class='intro'> <p>Check-in policies are a great tool to enforce quality code before it hits your source control repository. SSW recommends that the following check-in policies be enabled by default on your project&#58; <br></p> </span>
+<span class='intro'> <p>Check-in policies are a great way to enforce code quality before it hits your source control repository. SSW recommends that the following check-in policies be enabled by default on your project&#58;<br></p><ol><li>Changeset Comments Policy - To enforce that all check-in contain comments</li><li>SSW Code Auditor - To enforce coding standards and best practices before check-in</li><li>Work Items – To ensure check-ins are linked to a Work Item in TFS</li></ol>
 
-<ol><li>Changeset Comments Policy - To enforce that all check-in contain comments </li>
-<li>SSW Code Auditor - To enforce coding standards and best practices before check-in </li>
-<li>Testing Policy - To enforce that unit tests should all pass before code can be checked-in<br></li>
-<li>Code Analysis Policy – To enforce that code analysis rules are not broken</li>
-<li>​Builds Policy – To enforce that the developer has built the project end to end before they check-in </li></ol>
-<p><b>More Information</b></p>
-<p>To enable these policies&#58; </p>
-<ol><li>Right click the <strong>Team Project in Team Explorer &gt; Team Project Settings &gt; Source Control</strong></li>
-<li>Select the check-in policies above </li>
-<li>Click <strong>OK</strong></li></ol>
-<dl><dt><img alt="Chose check in policy" src="/PublishingImages/SC_TFSCI.jpg" /></dt>
-<dd>Figure&#58; Chose check-in policies in TFS </dd></dl>
+ </span>
 
+<p>To enable these policies&#58;</p><ol><li>Click Settings in the Team Explorer Home hub</li><li>Click Source Control in the Team Project section (not Team Project Collection)</li><li>Open the Check-in Policy tab</li><li>Click Add... and select the check-in policies above. If you don’t have SSW Code Auditor installed, <a href="https&#58;//www.ssw.com.au/ssw/codeauditor/" target="_blank">download it</a>&#160;here.​add<br></li></ol><dl class="image"><dt> <img src="/PublishingImages/checkin-policies.jpg" alt="check in policies" /> </dt><dd>Figure&#58; Choose check-in policies in TFS</dd></dl>​
 
 
