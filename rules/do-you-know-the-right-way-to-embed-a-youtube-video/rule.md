@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-right-way-to-embed-a-youtube-video
+title: Do you know the right way to embed a YouTube video?
+created: YYYY-09-DD 01:29:34
 authors:
   - id: 51
     title: Farrukh Khan
