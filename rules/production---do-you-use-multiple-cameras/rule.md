@@ -1,6 +1,9 @@
 
 
 ---
+uri: production---do-you-use-multiple-cameras
+title: Production - Do you use multiple cameras?
+created: YYYY-02-DD 01:23:11
 authors:
   - id: 29
     title: Raj Dhatt
