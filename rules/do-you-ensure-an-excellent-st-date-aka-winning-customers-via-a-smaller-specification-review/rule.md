@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-ensure-an-excellent-st-date-aka-winning-customers-via-a-smaller-specification-review
+title: Do you ensure an excellent 1st date? (aka winning customers via a smaller "Specification Review")
+created: YYYY-08-DD 13:02:06
 authors:
   - id: 1
     title: Adam Cogan
