@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context
+title: Do you know how to correctly use the terms: Configuration and Customization in the TFS context?
+created: YYYY-06-DD 06:28:57
 authors:
   - id: 32
     title: Mehmet Ozdemir
