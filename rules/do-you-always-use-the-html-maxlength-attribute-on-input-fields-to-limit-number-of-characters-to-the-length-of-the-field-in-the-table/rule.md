@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-use-the-html-maxlength-attribute-on-input-fields-to-limit-number-of-characters-to-the-length-of-the-field-in-the-table
+title: Do you always use the html maxlength attribute on input fields to limit number of characters to the length of the field in the table?
+created: YYYY-08-DD 21:56:21
 authors:
   - id: 1
     title: Adam Cogan
