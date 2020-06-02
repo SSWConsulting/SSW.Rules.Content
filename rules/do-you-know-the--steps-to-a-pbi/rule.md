@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the--steps-to-a-pbi
+title: Do you know the 3 steps to a PBI?
+created: YYYY-08-DD 06:33:21
 authors:
   - id: 1
     title: Adam Cogan
