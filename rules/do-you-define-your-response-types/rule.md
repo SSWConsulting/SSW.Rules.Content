@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-define-your-response-types
+title: Do you define your response types?
+created: YYYY-05-DD 02:12:33
 authors:
   - id: 1
     title: Adam Cogan
