@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-sort-your-videos-into-playlists
+title: Do you sort your videos into playlists?
+created: YYYY-05-DD 22:58:44
 authors:
   - id: 74
     title: Florent Dezettre
