@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-security-checklists
+title: Do you follow Security Checklists?
+created: YYYY-06-DD 15:18:50
 authors:
   - id: 1
     title: Adam Cogan
