@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-get-a-new-tfs-server-ready
+title: Do you get a new TFS2010 Server ready?
+created: YYYY-11-DD 23:10:40
 authors:
   - id: 1
     title: Adam Cogan
