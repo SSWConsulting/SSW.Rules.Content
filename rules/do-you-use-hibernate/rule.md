@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-hibernate
+title: Do you use Hibernate?
+created: YYYY-03-DD 22:34:39
 authors:
   - id: 47
     title: Stanley Sidik
