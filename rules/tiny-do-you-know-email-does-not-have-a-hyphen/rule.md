@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-know-email-does-not-have-a-hyphen
+title: Tiny: Do you know "email" does not have a hyphen?
+created: YYYY-04-DD 07:43:42
 authors:
   - id: 1
     title: Adam Cogan
