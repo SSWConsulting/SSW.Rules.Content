@@ -1,6 +1,9 @@
 
 
 ---
+uri: how-do-you-reply-to-free-support-requests-which-would-need-more-than--minutes-work
+title: How do you reply to free support requests which would need more than 20 minutes work?
+created: YYYY-04-DD 09:08:36
 authors:
   - id: 1
     title: Adam Cogan
