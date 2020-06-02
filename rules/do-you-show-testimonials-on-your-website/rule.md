@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-show-testimonials-on-your-website
+title: Do you show testimonials on your website?
+created: YYYY-02-DD 01:30:19
 authors:
   - id: 20
     title: Rebecca Liu
