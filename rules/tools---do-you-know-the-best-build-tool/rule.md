@@ -1,6 +1,9 @@
 
 
 ---
+uri: tools---do-you-know-the-best-build-tool
+title: Tools - Do you know the best Build Tool?
+created: YYYY-08-DD 14:15:28
 authors:
   - id: 24
     title: Adam Stephensen
