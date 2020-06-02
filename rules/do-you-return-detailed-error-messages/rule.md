@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-return-detailed-error-messages
+title: Do you return detailed error messages?
+created: YYYY-08-DD 01:00:17
 authors:
   - id: 48
     title: Jeremy Cade
