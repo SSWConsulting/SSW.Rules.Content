@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-warn-users-before-starting-a-long-process
+title: Do you warn users before starting a long process?
+created: YYYY-04-DD 20:50:36
 authors:
   - id: 1
     title: Adam Cogan
