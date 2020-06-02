@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-manage-your-papers
+title: Do you manage your papers?
+created: YYYY-03-DD 08:59:16
 authors:
   - id: 1
     title: Adam Cogan
