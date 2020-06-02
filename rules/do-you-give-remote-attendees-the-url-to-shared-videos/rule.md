@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-remote-attendees-the-url-to-shared-videos
+title: Do you give remote attendees the URL to shared videos?
+created: YYYY-11-DD 23:42:27
 authors:
 
 ---
