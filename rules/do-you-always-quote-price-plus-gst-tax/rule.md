@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-quote-price-plus-gst-tax
+title: Do you always quote price plus GST (Tax)?
+created: YYYY-07-DD 04:38:32
 authors:
 
 ---
