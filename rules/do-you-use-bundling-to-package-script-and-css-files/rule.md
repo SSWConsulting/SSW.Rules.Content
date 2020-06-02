@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-bundling-to-package-script-and-css-files
+title: Do you use Bundling to package script and css files?
+created: YYYY-03-DD 14:33:01
 authors:
   - id: 23
     title: Damian Brady
