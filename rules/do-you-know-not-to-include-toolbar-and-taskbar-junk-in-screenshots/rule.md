@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-not-to-include-toolbar-and-taskbar-junk-in-screenshots
+title: Do you know not to include toolbar and taskbar junk in screenshots?
+created: YYYY-10-DD 00:53:52
 authors:
 
 ---
