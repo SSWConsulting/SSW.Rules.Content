@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-include-version-numbers-in-your-file
+title: Do you include version numbers in your file?
+created: YYYY-03-DD 05:59:17
 authors:
   - id: 1
     title: Adam Cogan
