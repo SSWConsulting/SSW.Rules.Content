@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-ensure-your-team-get-relevant-communications
+title: Do you ensure your team get relevant communications?
+created: YYYY-07-DD 22:31:06
 authors:
   - id: 1
     title: Adam Cogan
