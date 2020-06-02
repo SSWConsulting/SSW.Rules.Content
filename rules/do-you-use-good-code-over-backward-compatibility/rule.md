@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-good-code-over-backward-compatibility
+title: Do you use good code over backward compatibility?
+created: YYYY-04-DD 21:15:21
 authors:
   - id: 1
     title: Adam Cogan
