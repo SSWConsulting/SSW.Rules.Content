@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-a-heads-up-when-logging-in-to-someone-elses-accounts
+title: Do you give a heads up when logging in to someone else's accounts?
+created: YYYY-12-DD 20:51:07
 authors:
   - id: 1
     title: Adam Cogan
