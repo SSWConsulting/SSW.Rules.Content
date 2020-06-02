@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-you-should-never-throw-an-exception-using-systemexception
+title: Do you know that you should never throw an exception using System.Exception?
+created: YYYY-09-DD 21:27:14
 authors:
   - id: 1
     title: Adam Cogan
