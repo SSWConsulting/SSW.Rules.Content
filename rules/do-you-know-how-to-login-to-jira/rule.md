@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-login-to-jira
+title: Do you know how to login to Jira?
+created: YYYY-08-DD 05:16:57
 authors:
 
 ---
