@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-use-performance-alerts
+title: DBAs - Do you use Performance Alerts?
+created: YYYY-11-DD 20:37:16
 authors:
   - id: 1
     title: Adam Cogan
