@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-assume-catastrophic-failure-before-touching-a-server
+title: Do you assume catastrophic failure before touching a server?
+created: YYYY-09-DD 19:21:57
 authors:
   - id: 1
     title: Adam Cogan
