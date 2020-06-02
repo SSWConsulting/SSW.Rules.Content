@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-write-a-follow-up-email-after-an-outbound-call
+title: Do you know how to write a follow-up email after an outbound call?
+created: YYYY-04-DD 17:53:50
 authors:
   - id: 1
     title: Adam Cogan
