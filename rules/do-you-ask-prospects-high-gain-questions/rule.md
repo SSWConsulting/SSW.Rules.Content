@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-ask-prospects-high-gain-questions
+title: Do you ask prospects high-gain questions?
+created: YYYY-06-DD 21:17:07
 authors:
   - id: 1
     title: Adam Cogan
