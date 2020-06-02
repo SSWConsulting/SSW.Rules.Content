@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-brand-your-products
+title: Do you brand your products?
+created: YYYY-11-DD 17:46:20
 authors:
   - id: 1
     title: Adam Cogan
