@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-post-all-useful-internal-emails-to-the-company-blog
+title: Do you post all useful internal emails to the Company Blog
+created: YYYY-06-DD 09:55:41
 authors:
   - id: 1
     title: Adam Cogan
