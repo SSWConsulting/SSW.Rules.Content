@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-enable-automatic-windows-update-installations
+title: Do you enable automatic Windows Update Installations?
+created: YYYY-08-DD 20:08:15
 authors:
   - id: 40
     title: Igor Goldobin
