@@ -1,6 +1,9 @@
 
 
 ---
+uri: never-dispose-objects-from-spcontextcurrent
+title: Never Dispose Objects from SPContext.Current
+created: YYYY-08-DD 00:36:26
 authors:
   - id: 9
     title: William Yin
