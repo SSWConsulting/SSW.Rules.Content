@@ -1,6 +1,9 @@
 
 
 ---
+uri: videos---do-you-have-a-video-on-the-homepage-of-products-websites
+title: Videos - Do you have a video on the homepage of products websites?
+created: YYYY-12-DD 19:27:31
 authors:
   - id: 1
     title: Adam Cogan
