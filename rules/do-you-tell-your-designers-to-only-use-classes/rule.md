@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-tell-your-designers-to-only-use-classes
+title: Do you tell your designers to only use classes?
+created: YYYY-04-DD 21:08:06
 authors:
   - id: 1
     title: Adam Cogan
