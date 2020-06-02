@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-clean-on-imports-of-project-property
+title: Do you keep clean on Imports of Project Property?
+created: YYYY-04-DD 09:22:16
 authors:
   - id: 1
     title: Adam Cogan
