@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-sure-your-screen-recordings-are-easy-to-view
+title: Do you make sure your screen recordings are easy to view?
+created: YYYY-05-DD 18:41:30
 authors:
   - id: 55
     title: Steve Leigh
