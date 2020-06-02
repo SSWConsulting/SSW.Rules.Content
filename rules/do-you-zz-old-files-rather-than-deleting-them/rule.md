@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-zz-old-files-rather-than-deleting-them
+title: Do you 'zz' old files rather than deleting them?
+created: YYYY-03-DD 02:45:33
 authors:
   - id: 1
     title: Adam Cogan
