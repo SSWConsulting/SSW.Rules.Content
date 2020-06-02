@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-why-you-should-chinafy-your-app
+title: Do you know why you should Chinafy your app?
+created: YYYY-02-DD 04:52:26
 authors:
   - id: 1
     title: Adam Cogan
