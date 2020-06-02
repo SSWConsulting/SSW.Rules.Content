@@ -1,6 +1,9 @@
 
 
 ---
+uri: reference-do-you-use-the-right-order-of-instructions
+title: Reference: Do you use the right order of instructions?
+created: YYYY-03-DD 04:50:29
 authors:
   - id: 1
     title: Adam Cogan
