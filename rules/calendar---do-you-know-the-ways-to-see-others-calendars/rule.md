@@ -1,6 +1,9 @@
 
 
 ---
+uri: calendar---do-you-know-the-ways-to-see-others-calendars
+title: Calendar - Do you know the ways to see others' calendars?
+created: YYYY-09-DD 18:07:48
 authors:
   - id: 1
     title: Adam Cogan
