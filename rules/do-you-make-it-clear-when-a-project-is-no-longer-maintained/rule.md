@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-it-clear-when-a-project-is-no-longer-maintained
+title: Do you make it clear when a project is no longer maintained?
+created: YYYY-12-DD 18:36:53
 authors:
   - id: 24
     title: Adam Stephensen
