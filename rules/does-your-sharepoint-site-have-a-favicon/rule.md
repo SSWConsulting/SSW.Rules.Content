@@ -1,6 +1,9 @@
 
 
 ---
+uri: does-your-sharepoint-site-have-a-favicon
+title: Does your SharePoint site have a favicon?
+created: YYYY-04-DD 03:40:52
 authors:
   - id: 8
     title: John Liu
