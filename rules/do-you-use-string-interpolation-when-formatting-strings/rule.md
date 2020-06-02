@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-string-interpolation-when-formatting-strings
+title: Do you use string interpolation when formatting strings
+created: YYYY-01-DD 05:13:02
 authors:
   - id: 66
     title: Liam Elliott
