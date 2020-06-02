@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-an-endomarketing-strategy-in-your-company
+title: Do you have an Endomarketing strategy in your company?
+created: YYYY-06-DD 04:17:06
 authors:
   - id: 83
     title: Camilla Rosa Silva
