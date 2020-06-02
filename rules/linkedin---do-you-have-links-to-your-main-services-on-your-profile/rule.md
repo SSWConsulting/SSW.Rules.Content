@@ -1,6 +1,9 @@
 
 
 ---
+uri: linkedin---do-you-have-links-to-your-main-services-on-your-profile
+title: LinkedIn - Do you have links to your main services on your profile?
+created: YYYY-08-DD 22:02:45
 authors:
   - id: 1
     title: Adam Cogan
