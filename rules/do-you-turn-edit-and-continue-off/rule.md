@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-turn-edit-and-continue-off
+title: Do you turn Edit and Continue OFF?
+created: YYYY-08-DD 20:30:54
 authors:
   - id: 1
     title: Adam Cogan
