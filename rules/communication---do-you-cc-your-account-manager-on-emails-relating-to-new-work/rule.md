@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-cc-your-account-manager-on-emails-relating-to-new-work
+title: Communication - Do you CC your Account Manager on emails relating to new work?
+created: YYYY-09-DD 17:49:58
 authors:
   - id: 1
     title: Adam Cogan
