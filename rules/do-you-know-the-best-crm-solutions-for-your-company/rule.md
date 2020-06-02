@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-crm-solutions-for-your-company
+title: Do you know the best CRM solutions for your company?
+created: YYYY-08-DD 01:45:37
 authors:
   - id: 1
     title: Adam Cogan
