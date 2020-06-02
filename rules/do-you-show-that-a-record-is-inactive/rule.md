@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-show-that-a-record-is-inactive
+title: Do you show that a record is inactive?
+created: YYYY-06-DD 17:51:11
 authors:
   - id: 1
     title: Adam Cogan
