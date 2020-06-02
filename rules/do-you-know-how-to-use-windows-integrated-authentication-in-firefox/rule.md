@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-windows-integrated-authentication-in-firefox
+title: Do you know how to use Windows Integrated Authentication in Firefox?
+created: YYYY-02-DD 19:28:24
 authors:
   - id: 1
     title: Adam Cogan
