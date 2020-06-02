@@ -1,6 +1,9 @@
 
 
 ---
+uri: agreements---do-you-provide-a-product-owner
+title: Agreements - Do you provide a Product Owner?
+created: YYYY-05-DD 10:10:03
 authors:
 
 ---
