@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-send-an-appointment-or-a-teams-meeting
+title: Do you know when to send an Appointment or a Teams Meeting?
+created: YYYY-03-DD 21:29:28
 authors:
   - id: 69
     title: Jean Thirion
