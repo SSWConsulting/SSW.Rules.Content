@@ -1,6 +1,9 @@
 
 
 ---
+uri: ip---do-you-make-your-templates-accessible-to-everyone-in-your-organisation
+title: IP - Do you make your templates accessible to everyone in your organisation?
+created: YYYY-09-DD 18:01:13
 authors:
   - id: 1
     title: Adam Cogan
