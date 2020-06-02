@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-use-data-connection-library-for-infopath-forms
+title: Do you always use Data Connection Library for InfoPath forms?
+created: YYYY-05-DD 14:19:06
 authors:
   - id: 8
     title: John Liu
