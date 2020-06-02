@@ -3,18 +3,16 @@
 ---
 uri: do-you-know-to-upgrade-your-third-party-tools
 title: Do you know to upgrade your third party tools
-created: YYYY-06-DD 00:46:45
+created: YYYY-08-DD 14:27:04
 authors:
-  - id: 23
-    title: Damian Brady
+
 ---
 
 
 
 
-<span class='intro'> After upgrading, some third-party tools will no longer work.&#160; Check for updates for these tools. </span>
+<span class='intro'> <p><span style="line-height&#58;20.7999992370605px;">​</span><span style="line-height&#58;20.7999992370605px;">After upgrading, some third-party t</span><span style="line-height&#58;20.7999992370605px;">ools will no longer work.&#160; Check for updates for these tools.</span></p> </span>
 
-<ol><li>​<a href="http&#58;//www.teamcompanion.com/download/">TeamCompanion</a><br>TeamCompanion is compatible with TFS 2012 from version 4.4.</li>
-<li><a href="http&#58;//www.attrice.info/cm/tfs/">Team Foundation SideKicks</a><br>Version 3.0 is compatible with TFS 2012.</li></ol>
+<p>a.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http&#58;//www.teamcompanion.com/download/">TeamCompanion</a>&#160; <br>TeamCompanion version 5.2 Update 1 officially supports up to Outlook 2013 and Team Explorer 2013.</p><p>b.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http&#58;//www.attrice.info/cm/tfs/">Team Foundation SideKicks</a>&#160; <br>Team Foundation Sidekicks Version 5.0 officially supports TFS 2013.</p>
 
 
