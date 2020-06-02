@@ -1,6 +1,9 @@
 
 
 ---
+uri: zz_do-you-use-word-as-your-editor
+title: zz_Do you use Word as your editor?
+created: YYYY-03-DD 03:38:31
 authors:
   - id: 1
     title: Adam Cogan
