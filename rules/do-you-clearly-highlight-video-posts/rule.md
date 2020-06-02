@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-clearly-highlight-video-posts
+title: Do you clearly highlight video posts?
+created: YYYY-12-DD 03:46:06
 authors:
   - id: 45
     title: Chris Briggs
