@@ -1,6 +1,9 @@
 
 
 ---
+uri: meetings---are-you-prepared-for-the-initial-meeting
+title: Meetings - Are you prepared for the initial meeting?
+created: YYYY-08-DD 12:57:36
 authors:
   - id: 1
     title: Adam Cogan
