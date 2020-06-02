@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-redundant-linking-aka-single-link-to-single-location
+title: Do you avoid redundant linking (aka single link to single location)?
+created: YYYY-02-DD 02:15:22
 authors:
 
 ---
