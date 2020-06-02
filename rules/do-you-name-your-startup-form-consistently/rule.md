@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-name-your-startup-form-consistently
+title: Do you name your startup form consistently?
+created: YYYY-04-DD 07:41:12
 authors:
   - id: 1
     title: Adam Cogan
