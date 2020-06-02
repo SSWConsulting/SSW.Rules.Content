@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-group-policy-to-enable-auditing-of-logon-attempts
+title: Do you use Group Policy to enable auditing of logon attempts​?
+created: YYYY-07-DD 20:57:45
 authors:
   - id: 71
     title: Steven Andrews
