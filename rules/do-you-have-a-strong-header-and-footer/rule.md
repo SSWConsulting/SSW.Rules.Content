@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-strong-header-and-footer
+title: Do you have a strong header and footer?
+created: YYYY-08-DD 21:24:25
 authors:
   - id: 1
     title: Adam Cogan
