@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-favicon-in-your-webpage
+title: Do you have a favicon in your webpage?
+created: YYYY-10-DD 00:47:56
 authors:
   - id: 1
     title: Adam Cogan
