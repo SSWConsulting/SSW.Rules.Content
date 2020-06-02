@@ -1,6 +1,9 @@
 
 
 ---
+uri: quality---do-you-go-two-miles-when-youre-only-asked-to-go-one
+title: Quality - Do you go two miles when you're only asked to go one?
+created: YYYY-09-DD 17:59:09
 authors:
   - id: 1
     title: Adam Cogan
