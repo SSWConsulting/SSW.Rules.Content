@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-way-to-give-the-best-customer-support
+title: Do you know the best way to give the best customer support?
+created: YYYY-03-DD 06:49:46
 authors:
   - id: 1
     title: Adam Cogan
