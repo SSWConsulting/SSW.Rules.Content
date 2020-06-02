@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-are-the-best-examples-of-visually-cool-jquery-plug-ins
+title: Do you know what are the best examples of visually cool jQuery plug-ins?
+created: YYYY-11-DD 15:59:21
 authors:
   - id: 1
     title: Adam Cogan
