@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-windows-integrated-authentication
+title: Do you use Windows Integrated Authentication?
+created: YYYY-11-DD 15:50:39
 authors:
   - id: 1
     title: Adam Cogan
