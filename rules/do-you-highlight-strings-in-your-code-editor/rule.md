@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-highlight-strings-in-your-code-editor
+title: Do you highlight strings in your code editor?
+created: YYYY-05-DD 07:45:41
 authors:
   - id: 1
     title: Adam Cogan
