@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-package-manager
+title: Do you use a package manager?
+created: YYYY-06-DD 06:29:18
 authors:
   - id: 47
     title: Stanley Sidik
