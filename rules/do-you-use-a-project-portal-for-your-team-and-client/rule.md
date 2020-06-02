@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-project-portal-for-your-team-and-client
+title: Do you use a Project Portal for your team and client?
+created: YYYY-06-DD 21:21:17
 authors:
   - id: 1
     title: Adam Cogan
