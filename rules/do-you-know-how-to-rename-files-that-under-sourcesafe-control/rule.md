@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-rename-files-that-under-sourcesafe-control
+title: Do you know how to rename files that under SourceSafe control?
+created: YYYY-05-DD 08:46:37
 authors:
   - id: 1
     title: Adam Cogan
