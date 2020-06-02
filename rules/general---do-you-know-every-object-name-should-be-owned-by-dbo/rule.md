@@ -1,6 +1,9 @@
 
 
 ---
+uri: general---do-you-know-every-object-name-should-be-owned-by-dbo
+title: General - Do you know every object name should be owned by dbo?
+created: YYYY-11-DD 21:51:26
 authors:
   - id: 1
     title: Adam Cogan
