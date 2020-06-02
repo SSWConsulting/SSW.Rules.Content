@@ -1,6 +1,9 @@
 
 
 ---
+uri: quality---do-you-know-the-best-place-to-find-good-software-videos
+title: Quality - Do you know the best place to find good software videos?
+created: YYYY-04-DD 00:39:15
 authors:
   - id: 4
     title: Ulysses Maclaren
