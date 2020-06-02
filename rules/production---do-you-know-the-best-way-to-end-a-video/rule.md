@@ -1,6 +1,9 @@
 
 
 ---
+uri: production---do-you-know-the-best-way-to-end-a-video
+title: Production - Do you know the best way to end a video?
+created: YYYY-10-DD 15:48:28
 authors:
   - id: 27
     title: Titus Maclaren
