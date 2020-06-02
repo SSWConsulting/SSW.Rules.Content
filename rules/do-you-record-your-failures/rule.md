@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-record-your-failures
+title: Do you record your failures?
+created: YYYY-03-DD 04:50:25
 authors:
   - id: 1
     title: Adam Cogan
