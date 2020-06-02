@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-structure-a-project-for-github
+title: Do you know how to structure a project for GitHub?
+created: YYYY-02-DD 18:37:55
 authors:
   - id: 24
     title: Adam Stephensen
