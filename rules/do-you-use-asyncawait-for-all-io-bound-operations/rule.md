@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-asyncawait-for-all-io-bound-operations
+title: Do you use async/await for all IO-bound operations?
+created: YYYY-08-DD 17:27:54
 authors:
   - id: 34
     title: Brendan Richards
