@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-see-whats-going-on-in-your-project
+title: Do you know how to see what’s going on in your project?
+created: YYYY-11-DD 00:19:09
 authors:
   - id: 1
     title: Adam Cogan
