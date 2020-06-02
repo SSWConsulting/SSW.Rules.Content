@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-table-summarizing-the-major-features-and-options
+title: Do you have a table summarizing the major features and options?
+created: YYYY-08-DD 22:24:04
 authors:
   - id: 1
     title: Adam Cogan
