@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-content-editor-web-part-with-care
+title: Do you use content editor web part with care?
+created: YYYY-11-DD 23:32:03
 authors:
   - id: 8
     title: John Liu
