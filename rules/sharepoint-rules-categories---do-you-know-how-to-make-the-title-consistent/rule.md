@@ -1,6 +1,9 @@
 
 
 ---
+uri: sharepoint-rules-categories---do-you-know-how-to-make-the-title-consistent
+title: SharePoint Rules Categories - Do You Know How to Make the Title Consistent?
+created: YYYY-11-DD 07:37:42
 authors:
   - id: 1
     title: Adam Cogan
