@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-less-is-more
+title: Do you know that less is more?
+created: YYYY-03-DD 05:25:31
 authors:
   - id: 1
     title: Adam Cogan
