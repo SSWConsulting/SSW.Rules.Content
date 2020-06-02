@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-finish-your-presentation-with-a-thank-you-slide
+title: Do you finish your presentation with a 'Thank You' slide?
+created: YYYY-06-DD 10:16:43
 authors:
 
 ---
