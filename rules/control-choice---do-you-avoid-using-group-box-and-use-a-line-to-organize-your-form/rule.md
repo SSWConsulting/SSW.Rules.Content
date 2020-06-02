@@ -1,6 +1,9 @@
 
 
 ---
+uri: control-choice---do-you-avoid-using-group-box-and-use-a-line-to-organize-your-form
+title: Control Choice - Do you avoid using Group Box and use a line to organize your form?
+created: YYYY-11-DD 08:57:50
 authors:
 
 ---
