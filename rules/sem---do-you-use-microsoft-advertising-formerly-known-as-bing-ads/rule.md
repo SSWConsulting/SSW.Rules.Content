@@ -1,6 +1,9 @@
 
 
 ---
+uri: sem---do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+title: SEM - Do you use Microsoft Advertising? (Formerly known as Bing Ads)
+created: YYYY-05-DD 03:53:19
 authors:
   - id: 83
     title: Camilla Rosa Silva
