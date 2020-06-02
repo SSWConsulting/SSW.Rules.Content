@@ -1,6 +1,9 @@
 
 
 ---
+uri: data---do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete
+title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka Soft Delete)?
+created: YYYY-11-DD 19:14:13
 authors:
   - id: 1
     title: Adam Cogan
