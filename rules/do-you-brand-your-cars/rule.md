@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-brand-your-cars
+title: Do you brand your cars?
+created: YYYY-11-DD 18:36:26
 authors:
   - id: 1
     title: Adam Cogan
