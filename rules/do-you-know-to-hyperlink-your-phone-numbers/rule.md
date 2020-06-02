@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-hyperlink-your-phone-numbers
+title: Do you know to hyperlink your phone numbers?
+created: YYYY-12-DD 01:00:44
 authors:
   - id: 51
     title: Farrukh Khan
