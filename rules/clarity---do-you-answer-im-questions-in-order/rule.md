@@ -1,6 +1,9 @@
 
 
 ---
+uri: clarity---do-you-answer-im-questions-in-order
+title: Clarity - Do you answer IM questions in order?
+created: YYYY-12-DD 19:02:10
 authors:
   - id: 1
     title: Adam Cogan
