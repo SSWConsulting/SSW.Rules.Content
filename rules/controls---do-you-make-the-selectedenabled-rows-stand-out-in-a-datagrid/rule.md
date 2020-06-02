@@ -1,6 +1,9 @@
 
 
 ---
+uri: controls---do-you-make-the-selectedenabled-rows-stand-out-in-a-datagrid
+title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
+created: YYYY-11-DD 09:19:10
 authors:
   - id: 1
     title: Adam Cogan
