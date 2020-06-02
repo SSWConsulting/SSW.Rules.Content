@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-continually-improve-the-user-interface
+title: Do you continually improve the user interface?
+created: YYYY-11-DD 15:39:37
 authors:
   - id: 1
     title: Adam Cogan
