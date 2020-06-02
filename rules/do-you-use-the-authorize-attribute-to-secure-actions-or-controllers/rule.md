@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-authorize-attribute-to-secure-actions-or-controllers
+title: Do you use the Authorize attribute to secure actions or controllers?
+created: YYYY-03-DD 18:44:09
 authors:
   - id: 23
     title: Damian Brady
