@@ -18,16 +18,16 @@ const Index = ({
         </div>
         <ol className="categories list-decimal list-inside bg-ssw-grey">
           {topcategory.frontmatter.index.map((category, i) => {
-            const cats = data.categories.nodes.filter(
+            const cat = data.categories.nodes.find(
               (c) =>
                 c.parent.name.toLowerCase().indexOf(category.toLowerCase()) >= 0
             );
-            if (cats && cats.length > 0) {
+            if (cat) {
               return (
                 <li key={i}>
                   {' '}
-                  <Link ref={linkRef} to={`/${cats[0].parent.name}`}>
-                    {cats[0].frontmatter.title}
+                  <Link ref={linkRef} to={`/${cat.parent.name}`}>
+                    {cat.frontmatter.title}
                   </Link>
                 </li>
               );
@@ -42,15 +42,15 @@ const Index = ({
     <Layout crumbs={crumbs} displayActions={false}>
       <div className="w-full">
         {data.main.nodes.map((element) => {
-          return element.frontmatter.index.map((cat) => {
-            const cats = data.topCategories.nodes.filter(
+          return element.frontmatter.index.map((category) => {
+            const cat = data.topCategories.nodes.find(
               (c) =>
                 c.parent.relativeDirectory
                   .toLowerCase()
-                  .indexOf(cat.toLowerCase()) >= 0
+                  .indexOf(category.toLowerCase()) >= 0
             );
-            if (cats && cats.length > 0) {
-              return displayTopCategories(cats[0]);
+            if (cat) {
+              return displayTopCategories(cat);
             }
           });
         })}
