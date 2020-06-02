@@ -1,6 +1,9 @@
 
 
 ---
+uri: quality---do-you-only-deploy-after-a-test-please
+title: Quality - Do you only deploy after a test please?
+created: YYYY-09-DD 18:02:47
 authors:
   - id: 1
     title: Adam Cogan
