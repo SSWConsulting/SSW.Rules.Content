@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-not-push-your-pull-requests-aka-discuss-then-build
+title: Do You Know to not 'Push' your Pull Requests? (a.k.a. discuss then build)
+created: YYYY-03-DD 18:35:55
 authors:
   - id: 24
     title: Adam Stephensen
