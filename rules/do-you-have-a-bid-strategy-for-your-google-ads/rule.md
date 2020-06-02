@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-bid-strategy-for-your-google-ads
+title: Do you have a Bid Strategy for your Google Ads?
+created: YYYY-03-DD 22:09:36
 authors:
   - id: 83
     title: Camilla Rosa Silva
