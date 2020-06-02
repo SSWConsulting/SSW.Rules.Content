@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-run-dog-food-stats-after
+title: Do you run Dog Food Stats (after)?
+created: YYYY-11-DD 02:01:52
 authors:
 
 ---
@@ -8,8 +11,46 @@ authors:
 
 
 
-<span class='intro'> <p>Running the&#160;<a href="http&#58;//blogs.msdn.com/b/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx" style="color&#58;#cc4141;border-bottom-color&#58;#cc4141;">DogFoodStats queries</a>&#160;&#160;&#160;over the new TFS 2015 server is a good way to see if the upgrade was successful.&#160; You should check the new values against the&#160;<a href="/ALM/RulesToBetterTFS2012Migration/Pages/DogfoodStatsBefore.aspx">stats you recorded from your TFS 2013 Update 4 databases</a>.</p><div><br></div> </span>
+<span class='intro'> <p>Running the &quot;Dog Food&quot; stats on your new TFS 2010 server is a good way to see if the upgrade was successful. You should check the new values&#160;against the <a href="/Pages/DogfoodStatsBefore.aspx" shape="rect">stats you noted down from your TFS 2008 server</a>.</p>
+<ol><li>On TFS2010, run the DogFoodStats queries and save the results<br>(<a class="ms-rteCustom-External" href="http&#58;//blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx" shape="rect">http&#58;//blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx</a>)&#160; </li>
+<li>Compare the numbers are the same <ol><li>Note&#58; Number will differ slightly (usually increases as TFS2010 checks in a few more items) <br>Note&#58; Grant Holliday has never&#160;published exactly why they are not the same.</li></ol></li></ol>
+<div><span class="ms-rteCustom-CodeArea"><div>TFS2008&#58;</div>
+<div>===========================================</div>
+<div>Files</div>
+<div>-------- -----------</div>
+<div>1 &#160; &#160; &#160; &#160;<font style="background-color&#58;#ffff00;">28052</font></div>
+<div>2 &#160; &#160; &#160; &#160;<font style="background-color&#58;#ffff00;">335168</font></div>
+<div>-- Compressed file size&#58;</div>
+<div>--------------------</div>
+<div>11837952896</div>
+<div><br></div>
+<div>-- Uncompressed file sizes&#58;</div>
+<div>--------------------</div>
+<div>24868196032</div>
+<div>-- Areas &amp; Iterations&#58;</div>
+<div>-----------</div>
+<div><font style="background-color&#58;#ffff00;">1096</font></div></span></div>
+<div><span class="ms-rteCustom-FigureNormal">Figure&#58; Have a look at the dogfoodstats you ran before</span></div>
+<div><span class="ms-rteCustom-CodeArea"><div>TFS2010&#58;</div>
+<div>=============================================</div>
+<div>Areas and Iterations</div>
+<div>--------------------</div>
+<div><font style="background-color&#58;#ffff00;">1096</font></div>
+<div><br></div>
+<div>Files</div>
+<div>-----------</div>
+<div><font style="background-color&#58;#ffff00;">347629</font></div>
+<div><br></div>
+<div>Compressed File Sizes</div>
+<div>---------------------</div>
+<div>11296</div>
+<div><br></div>
+<div>Uncompressed File Sizes</div>
+<div>-----------------------</div>
+<div>23723</div></span></div>
+<div><span class="ms-rteCustom-FigureNormal">Figure&#58; You should get the same number or more for your TFS2010 server. We’re not worried unless it’s slightly less</span></div>
+<div>&#160;</div> </span>
 
-<p><span style="line-height&#58;1.6;">a.</span><span style="line-height&#58;1.6;">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </span><span style="line-height&#58;1.6;">On your TFS 2015 databases, run the DogFoodStats queries and save the results.</span><br></p><p>b.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Check that the numbers are the same or very close.&#160; Note any big differences.<br> <strong>Note&#58;</strong>&#160;The numbers may not be identical due to schema changes.</p><p>Recent Users</p><p>31</p><p>&#160;</p><p>Users with Assigned Work Items</p><p>144</p><p>&#160;</p><p>Version Control Users</p><p>244</p><p>&#160;</p><p>Total Work Items</p><p>20608</p><p>&#160;</p><p>Areas and Iterations</p><p>1838</p><p>&#160;</p><p>Work Item Versions</p><p>93300</p><p>&#160;</p><p>Work Item Attachments</p><p>11332</p><p>&#160;</p><p>Work Item Queries</p><p>12768</p><p>&#160;</p><p>Compressed File Sizes</p><p>21230</p><p>&#160;</p><p>Uncompressed File Sizes</p><p>39504</p><p>&#160;</p><p>Checkins</p><p>53302</p><p>&#160;</p><p>Shelvesets</p><p>386</p><p>&#160;</p><p>Merge History</p><p>846922</p><p>&#160;</p><p>Pending Changes</p><p>947</p><p>&#160;</p><p>Workspaces</p><p>259</p><p>&#160;</p><p>Local Copies</p><p>4197428</p><p>&#160;</p><p>CheckIn&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 164</p><p>Get&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 474</p><p>Shelve&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 63</p><p>Upload&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 115</p><p>VCDownloadHandler&#160;&#160;&#160; 949</p><p>GetWorkItem&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 491</p><p>QueryWorkitems&#160;&#160;&#160;&#160; &#160; 601</p><p>Update &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;240</p><p><strong>Figure&#58; Example DogFoodStats after the upgrade</strong></p>
+
 
 
