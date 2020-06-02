@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-sure-that-the-test-can-be-failed
+title: Do you make sure that the test can be failed?
+created: YYYY-03-DD 23:16:37
 authors:
   - id: 1
     title: Adam Cogan
