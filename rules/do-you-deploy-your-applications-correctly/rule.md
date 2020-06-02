@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-deploy-your-applications-correctly
+title: Do you deploy your applications correctly?
+created: YYYY-05-DD 06:05:52
 authors:
   - id: 1
     title: Adam Cogan
