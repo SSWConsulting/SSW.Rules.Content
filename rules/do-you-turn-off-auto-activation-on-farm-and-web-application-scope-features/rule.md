@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-turn-off-auto-activation-on-farm-and-web-application-scope-features
+title: Do you turn off auto activation on farm and web application scope features?
+created: YYYY-04-DD 12:58:32
 authors:
   - id: 8
     title: John Liu
