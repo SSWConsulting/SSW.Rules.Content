@@ -1,6 +1,9 @@
 
 
 ---
+uri: general---do-you-know-object-name-should-not-be-a-reserved-word
+title: General - Do you know object name should not be a reserved word?
+created: YYYY-11-DD 21:07:23
 authors:
   - id: 1
     title: Adam Cogan
