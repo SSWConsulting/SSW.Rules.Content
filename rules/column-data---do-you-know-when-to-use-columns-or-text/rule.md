@@ -1,6 +1,9 @@
 
 
 ---
+uri: column-data---do-you-know-when-to-use-columns-or-text
+title: Column Data - Do you know when to use columns or text?
+created: YYYY-11-DD 01:59:48
 authors:
 
 ---
