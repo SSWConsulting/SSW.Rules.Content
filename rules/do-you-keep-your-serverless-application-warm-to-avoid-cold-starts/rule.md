@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-serverless-application-warm-to-avoid-cold-starts
+title: Do you keep your serverless application warm (to avoid cold starts)?
+created: YYYY-07-DD 03:44:14
 authors:
   - id: 1
     title: Adam Cogan
