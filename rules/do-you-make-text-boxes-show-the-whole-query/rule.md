@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-text-boxes-show-the-whole-query
+title: Do you make text boxes show the whole query?
+created: YYYY-05-DD 17:42:51
 authors:
   - id: 1
     title: Adam Cogan
