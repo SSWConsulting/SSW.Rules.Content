@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-sure-your-website-doesnt-have-multiple-copies-of-the-same-image
+title: Do you make sure your website doesn't have multiple copies of the same image?
+created: YYYY-10-DD 00:35:50
 authors:
 
 ---
