@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-bring-evaluation-forms-to-every-event-you-speak-at
+title: Do you bring evaluation forms to every event you speak at?
+created: YYYY-10-DD 18:28:41
 authors:
   - id: 4
     title: Ulysses Maclaren
