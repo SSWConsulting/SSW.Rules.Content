@@ -1,6 +1,9 @@
 
 
 ---
+uri: control-choice---do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only
+title: Control Choice - Do you use ListView over GridView (was DataGrid) for ReadOnly? (Windows Forms only)
+created: YYYY-11-DD 08:50:09
 authors:
   - id: 1
     title: Adam Cogan
