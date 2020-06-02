@@ -1,6 +1,9 @@
 
 
 ---
+uri: calendar---do-you-set-your-work-hours-in-crm-and-your-calendars
+title: Calendar - Do you set your work hours in CRM and your calendars?
+created: YYYY-09-DD 18:08:17
 authors:
   - id: 1
     title: Adam Cogan
