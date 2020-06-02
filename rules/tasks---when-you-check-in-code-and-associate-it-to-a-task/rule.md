@@ -1,6 +1,9 @@
 
 
 ---
+uri: tasks---when-you-check-in-code-and-associate-it-to-a-task
+title: Tasks - When you check in code and associate it to a task?
+created: YYYY-12-DD 23:33:01
 authors:
   - id: 3
     title: Eric Phan
