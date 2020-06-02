@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-have-standard-tables-and-columns
+title: Schema - Do you have standard Tables and Columns?
+created: YYYY-11-DD 22:52:15
 authors:
   - id: 1
     title: Adam Cogan
