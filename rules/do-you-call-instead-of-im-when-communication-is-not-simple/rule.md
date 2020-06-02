@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-call-instead-of-im-when-communication-is-not-simple
+title: Do you call instead of IM when communication is not simple?
+created: YYYY-12-DD 19:26:54
 authors:
   - id: 1
     title: Adam Cogan
