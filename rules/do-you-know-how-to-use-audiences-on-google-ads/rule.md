@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-audiences-on-google-ads
+title: Do you know how to use Audiences on Google Ads?
+created: YYYY-03-DD 22:39:24
 authors:
   - id: 83
     title: Camilla Rosa Silva
