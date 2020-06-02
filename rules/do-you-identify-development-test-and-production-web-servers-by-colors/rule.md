@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-identify-development-test-and-production-web-servers-by-colors
+title: Do you identify Development, Test and Production Web Servers by colors?
+created: YYYY-12-DD 19:42:40
 authors:
   - id: 1
     title: Adam Cogan
