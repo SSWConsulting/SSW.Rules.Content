@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-resource-file-to-store-messages
+title: Do you use resource file to store messages?
+created: YYYY-04-DD 23:19:47
 authors:
   - id: 1
     title: Adam Cogan
