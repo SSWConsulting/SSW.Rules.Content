@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-conduct-an-architecture-review-every-few-sprints
+title: Do you conduct an architecture review every few Sprints?
+created: YYYY-02-DD 02:02:17
 authors:
   - id: 1
     title: Adam Cogan
