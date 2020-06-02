@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments---do-you-show-all-the-necessary-information-in-the-subject
+title: Appointments - Do you show all the necessary information in the subject?
+created: YYYY-04-DD 06:27:53
 authors:
   - id: 1
     title: Adam Cogan
