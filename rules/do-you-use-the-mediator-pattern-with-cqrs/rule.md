@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-mediator-pattern-with-cqrs
+title: Do you use the Mediator pattern with CQRS?
+created: YYYY-03-DD 16:37:03
 authors:
   - id: 1
     title: Adam Cogan
