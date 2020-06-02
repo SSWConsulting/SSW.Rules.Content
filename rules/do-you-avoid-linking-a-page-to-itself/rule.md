@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-linking-a-page-to-itself
+title: Do you avoid linking a page to itself?
+created: YYYY-02-DD 02:19:41
 authors:
 
 ---
