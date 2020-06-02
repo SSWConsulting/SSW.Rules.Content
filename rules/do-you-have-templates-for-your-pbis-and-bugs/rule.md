@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-templates-for-your-pbis-and-bugs
+title: Do you have templates for your PBIs and Bugs?
+created: YYYY-07-DD 05:34:05
 authors:
   - id: 78
     title: Matt Wicks
