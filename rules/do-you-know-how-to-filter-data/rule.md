@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-filter-data
+title: Do you know how to filter data?
+created: YYYY-08-DD 04:04:26
 authors:
   - id: 1
     title: Adam Cogan
