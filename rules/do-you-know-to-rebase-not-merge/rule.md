@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-rebase-not-merge
+title: Do you know to Rebase not Merge?
+created: YYYY-02-DD 19:58:36
 authors:
   - id: 24
     title: Adam Stephensen
