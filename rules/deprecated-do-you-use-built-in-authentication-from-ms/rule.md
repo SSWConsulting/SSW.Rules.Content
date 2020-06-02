@@ -1,6 +1,9 @@
 
 
 ---
+uri: deprecated-do-you-use-built-in-authentication-from-ms
+title: [DEPRECATED] Do you use built in authentication from MS?
+created: YYYY-05-DD 21:19:33
 authors:
   - id: 1
     title: Adam Cogan
