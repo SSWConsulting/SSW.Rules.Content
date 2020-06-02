@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-run-events
+title: Do you run events?
+created: YYYY-03-DD 06:07:51
 authors:
   - id: 57
     title: Brittany Lawrence
