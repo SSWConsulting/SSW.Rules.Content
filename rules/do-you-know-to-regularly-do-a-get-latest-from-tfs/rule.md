@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-regularly-do-a-get-latest-from-tfs
+title: Do you know to regularly do a Get Latest from TFS?
+created: YYYY-03-DD 23:43:02
 authors:
   - id: 23
     title: Damian Brady
