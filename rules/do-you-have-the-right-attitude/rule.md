@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-the-right-attitude
+title: Do you have the right attitude?
+created: YYYY-04-DD 21:53:02
 authors:
   - id: 1
     title: Adam Cogan
