@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-tools-you-need-before-a-test-please
+title: Do you know the tools you need before a "Test Please"?
+created: YYYY-02-DD 02:44:26
 authors:
   - id: 1
     title: Adam Cogan
