@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-sharepoint--development-environment
+title: Do you know the best SharePoint 2010 development environment?
+created: YYYY-12-DD 06:34:40
 authors:
   - id: 8
     title: John Liu
