@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-tracking-codes-in-urls
+title: Do you add tracking codes in URLs?
+created: YYYY-04-DD 03:15:46
 authors:
   - id: 41
     title: Joanna Feely
