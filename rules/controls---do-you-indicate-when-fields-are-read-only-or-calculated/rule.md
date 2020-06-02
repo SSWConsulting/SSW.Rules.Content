@@ -1,6 +1,9 @@
 
 
 ---
+uri: controls---do-you-indicate-when-fields-are-read-only-or-calculated
+title: Controls - Do you indicate when fields are "read only" or "calculated"?
+created: YYYY-11-DD 08:37:31
 authors:
 
 ---
