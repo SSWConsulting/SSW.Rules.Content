@@ -1,6 +1,9 @@
 
 
 ---
+uri: how-are-you-collecting-feedback
+title: How Are You Collecting Feedback?
+created: YYYY-12-DD 00:43:50
 authors:
   - id: 1
     title: Adam Cogan
