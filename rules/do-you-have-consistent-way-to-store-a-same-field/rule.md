@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-consistent-way-to-store-a-same-field
+title: Do you have consistent way to store a same field?
+created: YYYY-12-DD 00:59:54
 authors:
 
 ---
