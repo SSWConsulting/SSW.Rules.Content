@@ -1,6 +1,9 @@
 
 
 ---
+uri: spec---do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
+title: Spec - Do you conduct a Specification Review? (Ask for a coffee not a marriage)
+created: YYYY-03-DD 05:04:02
 authors:
   - id: 1
     title: Adam Cogan
