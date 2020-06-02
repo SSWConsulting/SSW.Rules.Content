@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-preflight-checklist
+title: Do you have a Preflight Checklist?
+created: YYYY-11-DD 21:13:26
 authors:
   - id: 37
     title: Ben Cull
