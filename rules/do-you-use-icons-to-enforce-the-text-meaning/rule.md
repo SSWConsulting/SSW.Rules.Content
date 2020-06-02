@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-icons-to-enforce-the-text-meaning
+title: Do you use icons to enforce the text meaning?
+created: YYYY-12-DD 18:16:16
 authors:
   - id: 1
     title: Adam Cogan
