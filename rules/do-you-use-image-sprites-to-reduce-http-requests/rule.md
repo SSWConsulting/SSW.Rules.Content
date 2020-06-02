@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-image-sprites-to-reduce-http-requests
+title: Do you use image sprites to reduce HTTP requests?
+created: YYYY-10-DD 00:58:22
 authors:
 
 ---
