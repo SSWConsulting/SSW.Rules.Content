@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-way-to-see-if-someone-is-in-the-office
+title: Do you know the best way to see if someone is in the office?
+created: YYYY-04-DD 07:06:21
 authors:
   - id: 1
     title: Adam Cogan
