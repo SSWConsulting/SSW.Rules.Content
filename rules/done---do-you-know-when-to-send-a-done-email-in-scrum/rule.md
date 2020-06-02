@@ -1,6 +1,9 @@
 
 
 ---
+uri: done---do-you-know-when-to-send-a-done-email-in-scrum
+title: Done - Do you know when to send a done email in Scrum?
+created: YYYY-04-DD 17:10:41
 authors:
   - id: 1
     title: Adam Cogan
