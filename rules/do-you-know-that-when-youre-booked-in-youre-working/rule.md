@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-when-youre-booked-in-youre-working
+title: Do you know that when you're booked in, you're working?
+created: YYYY-04-DD 20:30:40
 authors:
   - id: 1
     title: Adam Cogan
