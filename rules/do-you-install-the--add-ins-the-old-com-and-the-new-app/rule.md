@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-install-the--add-ins-the-old-com-and-the-new-app
+title: Do you install the 2 add-ins (the old COM and the new app)?
+created: YYYY-09-DD 17:27:31
 authors:
   - id: 1
     title: Adam Cogan
