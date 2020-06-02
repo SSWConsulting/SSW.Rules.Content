@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-release-build-your-web-applications-before-you-deploy-them
+title: Do you release build your web applications before you deploy them?
+created: YYYY-11-DD 18:34:36
 authors:
   - id: 1
     title: Adam Cogan
