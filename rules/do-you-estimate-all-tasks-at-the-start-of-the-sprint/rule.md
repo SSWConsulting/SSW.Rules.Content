@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-estimate-all-tasks-at-the-start-of-the-sprint
+title: Do you estimate all tasks at the start of the sprint?
+created: YYYY-01-DD 01:21:38
 authors:
   - id: 23
     title: Damian Brady
