@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-review-the-solution-and-project-names
+title: Do you review the Solution and Project names?
+created: YYYY-03-DD 07:55:22
 authors:
   - id: 1
     title: Adam Cogan
