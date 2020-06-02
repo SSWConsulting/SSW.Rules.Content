@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-gamification
+title: Do you know how to use "gamification"?
+created: YYYY-11-DD 01:42:48
 authors:
   - id: 1
     title: Adam Cogan
