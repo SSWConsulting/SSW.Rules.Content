@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-data-junk-data-not-manually-entered-by-yourself
+title: Do you avoid "Data Junk" (data not manually entered by yourself)?
+created: YYYY-12-DD 00:51:13
 authors:
 
 ---
