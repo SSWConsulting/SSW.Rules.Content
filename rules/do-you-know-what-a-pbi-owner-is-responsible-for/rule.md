@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-a-pbi-owner-is-responsible-for
+title: Do you know what a PBI Owner is responsible for?
+created: YYYY-05-DD 22:30:32
 authors:
 
 ---
