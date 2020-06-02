@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-no-carriage-returns-without-line-feed
+title: Do you know that no carriage returns without line feed?
+created: YYYY-04-DD 22:26:48
 authors:
   - id: 1
     title: Adam Cogan
