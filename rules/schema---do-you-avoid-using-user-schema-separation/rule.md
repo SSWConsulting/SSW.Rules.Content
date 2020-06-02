@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-avoid-using-user-schema-separation
+title: Schema - Do you avoid using user-schema separation?
+created: YYYY-11-DD 17:57:17
 authors:
   - id: 1
     title: Adam Cogan
