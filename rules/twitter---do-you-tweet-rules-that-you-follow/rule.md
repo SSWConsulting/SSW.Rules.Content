@@ -1,6 +1,9 @@
 
 
 ---
+uri: twitter---do-you-tweet-rules-that-you-follow
+title: Twitter - Do you tweet rules that you follow?
+created: YYYY-05-DD 06:02:00
 authors:
   - id: 16
     title: Tiago Araujo
