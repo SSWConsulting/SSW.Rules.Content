@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-remove-my-site-and-my-profile-if-you-are-not-using-them
+title: Do you remove ‘My Site’ and ‘My Profile’ if you are not using them?
+created: YYYY-10-DD 08:33:09
 authors:
   - id: 1
     title: Adam Cogan
