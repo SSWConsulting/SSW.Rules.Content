@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-tfs-master
+title: Do you have a TFS Master?
+created: YYYY-11-DD 03:53:00
 authors:
   - id: 22
     title: David Klein
