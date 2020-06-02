@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-active-directory-federation-services-activated
+title: Do you have Active Directory Federation Services activated?
+created: YYYY-10-DD 18:18:30
 authors:
   - id: 73
     title: Kaique Biancatti
