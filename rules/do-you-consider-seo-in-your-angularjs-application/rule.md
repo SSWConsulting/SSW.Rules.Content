@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-consider-seo-in-your-angularjs-application
+title: Do you consider SEO in your AngularJS application?
+created: YYYY-10-DD 23:53:12
 authors:
   - id: 44
     title: Duncan Hunter
