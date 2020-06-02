@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-use-smartpart-or-webpart
+title: Do you know when to use SmartPart or WebPart?
+created: YYYY-04-DD 01:09:00
 authors:
   - id: 8
     title: John Liu
