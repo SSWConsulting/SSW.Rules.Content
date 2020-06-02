@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-backup-your-wordpress-site-to-an-external-provider-like-dropbox
+title: Do you backup your WordPress site to an external provider like Dropbox?
+created: YYYY-10-DD 14:53:01
 authors:
   - id: 32
     title: Mehmet Ozdemir
