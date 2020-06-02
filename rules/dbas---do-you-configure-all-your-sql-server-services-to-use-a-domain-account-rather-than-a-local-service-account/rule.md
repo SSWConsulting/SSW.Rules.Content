@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-configure-all-your-sql-server-services-to-use-a-domain-account-rather-than-a-local-service-account
+title: ​DBAs - Do you configure all your SQL Server Services to use a Domain Account rather than a local service account?
+created: YYYY-11-DD 19:52:14
 authors:
   - id: 1
     title: Adam Cogan
