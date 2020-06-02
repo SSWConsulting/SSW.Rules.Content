@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-refer-to-form-controls-directly
+title: Do you refer to form controls directly?
+created: YYYY-04-DD 18:05:11
 authors:
   - id: 1
     title: Adam Cogan
