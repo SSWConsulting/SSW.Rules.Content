@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-respond-js-to-target-ie-with-bootstrap
+title: Do you use Respond JS to target IE8 with Bootstrap?
+created: YYYY-06-DD 04:58:49
 authors:
   - id: 37
     title: Ben Cull
