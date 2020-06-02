@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-width-and-height-properties-to-images-in-user-controls
+title: Do you add width and height properties to images in user controls?
+created: YYYY-10-DD 00:41:12
 authors:
 
 ---
