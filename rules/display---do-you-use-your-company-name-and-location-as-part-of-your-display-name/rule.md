@@ -1,6 +1,9 @@
 
 
 ---
+uri: display---do-you-use-your-company-name-and-location-as-part-of-your-display-name
+title: Display - Do you use your company name and location as part of your display name?
+created: YYYY-10-DD 06:02:57
 authors:
   - id: 1
     title: Adam Cogan
