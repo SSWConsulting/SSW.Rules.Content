@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-set-design-guidelines-for-your-company
+title: Do you set design guidelines for your company?
+created: YYYY-11-DD 17:40:06
 authors:
   - id: 1
     title: Adam Cogan
