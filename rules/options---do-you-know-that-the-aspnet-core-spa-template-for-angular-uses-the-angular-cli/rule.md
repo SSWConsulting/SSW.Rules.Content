@@ -1,6 +1,9 @@
 
 
 ---
+uri: options---do-you-know-that-the-aspnet-core-spa-template-for-angular-uses-the-angular-cli
+title: Options - Do you know that the ASP.NET Core SPA Template for Angular uses the Angular CLI?
+created: YYYY-10-DD 21:43:41
 authors:
   - id: 34
     title: Brendan Richards
