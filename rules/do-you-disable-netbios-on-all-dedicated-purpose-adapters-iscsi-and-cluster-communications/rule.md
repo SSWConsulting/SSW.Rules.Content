@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-disable-netbios-on-all-dedicated-purpose-adapters-iscsi-and-cluster-communications
+title: Do you disable NetBIOS on all dedicated purpose adapters (iSCSI and Cluster Communications)?
+created: YYYY-03-DD 19:44:44
 authors:
 
 ---
