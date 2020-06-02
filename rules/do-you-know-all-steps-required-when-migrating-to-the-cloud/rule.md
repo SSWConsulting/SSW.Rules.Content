@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-all-steps-required-when-migrating-to-the-cloud
+title: Do you know all steps required when migrating to the Cloud?
+created: YYYY-01-DD 12:57:43
 authors:
   - id: 46
     title: Danijel Malik
