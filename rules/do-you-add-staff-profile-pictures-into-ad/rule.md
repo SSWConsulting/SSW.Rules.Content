@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-staff-profile-pictures-into-ad
+title: Do you add Staff profile pictures into AD?
+created: YYYY-08-DD 23:42:18
 authors:
   - id: 47
     title: Stanley Sidik
