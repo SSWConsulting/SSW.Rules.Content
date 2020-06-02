@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-get-started-with-your-training
+title: Do you know how to get started with your Training?
+created: YYYY-07-DD 06:48:57
 authors:
 
 ---
