@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-perform-migration-procedures-with-an-approved-release-plan
+title: Do you perform migration procedures with an approved release plan?
+created: YYYY-03-DD 07:45:29
 authors:
   - id: 1
     title: Adam Cogan
