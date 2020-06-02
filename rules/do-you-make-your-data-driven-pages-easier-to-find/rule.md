@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-your-data-driven-pages-easier-to-find
+title: Do you make your data-driven pages easier to find?
+created: YYYY-11-DD 17:51:49
 authors:
   - id: 1
     title: Adam Cogan
