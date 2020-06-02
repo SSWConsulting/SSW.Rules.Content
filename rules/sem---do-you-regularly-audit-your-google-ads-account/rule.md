@@ -1,6 +1,9 @@
 
 
 ---
+uri: sem---do-you-regularly-audit-your-google-ads-account
+title: SEM - Do you regularly audit your Google Ads account?
+created: YYYY-10-DD 19:10:27
 authors:
   - id: 4
     title: Ulysses Maclaren
