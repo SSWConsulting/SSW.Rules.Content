@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-sure-that-all-your-tags-are-well-formed-
+title: Do you make sure that all your tags are well formed ?
+created: YYYY-04-DD 09:29:10
 authors:
   - id: 1
     title: Adam Cogan
