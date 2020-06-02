@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-azure-machine-learning-to-make-predictions-from-your-data
+title: Do you use Azure Machine Learning to make predictions from your data?
+created: YYYY-04-DD 01:29:22
 authors:
   - id: 1
     title: Adam Cogan
