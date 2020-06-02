@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-consistent-brand-image
+title: Do you have a consistent brand image?
+created: YYYY-10-DD 17:30:46
 authors:
   - id: 4
     title: Ulysses Maclaren
