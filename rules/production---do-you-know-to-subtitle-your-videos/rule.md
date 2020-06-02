@@ -1,6 +1,9 @@
 
 
 ---
+uri: production---do-you-know-to-subtitle-your-videos
+title: Production - Do you know to subtitle your videos?
+created: YYYY-02-DD 18:44:53
 authors:
   - id: 1
     title: Adam Cogan
