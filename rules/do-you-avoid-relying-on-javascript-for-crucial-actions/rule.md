@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-relying-on-javascript-for-crucial-actions
+title: Do you avoid relying on Javascript for crucial actions?
+created: YYYY-07-DD 18:11:08
 authors:
   - id: 16
     title: Tiago Araujo
