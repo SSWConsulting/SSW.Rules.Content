@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-document-the-details-of-your-sharepoint--web-application
+title: Do you document the details of your SharePoint 2007 web application
+created: YYYY-12-DD 03:00:52
 authors:
   - id: 9
     title: William Yin
