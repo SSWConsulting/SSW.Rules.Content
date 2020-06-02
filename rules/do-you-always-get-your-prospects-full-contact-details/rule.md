@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-get-your-prospects-full-contact-details
+title: Do you always get your prospect's full contact details?
+created: YYYY-06-DD 20:47:00
 authors:
   - id: 1
     title: Adam Cogan
