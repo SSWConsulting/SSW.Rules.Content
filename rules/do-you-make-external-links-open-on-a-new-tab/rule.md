@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-external-links-open-on-a-new-tab
+title: Do you make external links open on a new tab?
+created: YYYY-08-DD 21:22:08
 authors:
   - id: 1
     title: Adam Cogan
