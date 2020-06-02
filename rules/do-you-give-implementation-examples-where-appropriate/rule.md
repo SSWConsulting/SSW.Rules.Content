@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-implementation-examples-where-appropriate
+title: Do you give implementation examples where appropriate?
+created: YYYY-03-DD 00:39:38
 authors:
 
 ---
