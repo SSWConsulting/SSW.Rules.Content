@@ -1,6 +1,9 @@
 
 
 ---
+uri: column-data---do-you-make-matrix-columns-as-simple-as-possible
+title: Column Data - Do you make matrix columns as simple as possible?
+created: YYYY-11-DD 01:53:59
 authors:
 
 ---
