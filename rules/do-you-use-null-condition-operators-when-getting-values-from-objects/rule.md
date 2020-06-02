@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-null-condition-operators-when-getting-values-from-objects
+title: Do you use null condition operators when getting values from objects
+created: YYYY-01-DD 05:20:27
 authors:
   - id: 66
     title: Liam Elliott
