@@ -1,6 +1,9 @@
 
 
 ---
+uri: management---do-you-use-xpscrum-wisely
+title: Management - Do you use XP/Scrum wisely?
+created: YYYY-02-DD 09:45:21
 authors:
   - id: 1
     title: Adam Cogan
