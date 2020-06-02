@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-cc-everyone-and-reply-to-all-when-necessary
+title: Do you CC everyone and reply to all when necessary?
+created: YYYY-03-DD 02:42:00
 authors:
   - id: 1
     title: Adam Cogan
