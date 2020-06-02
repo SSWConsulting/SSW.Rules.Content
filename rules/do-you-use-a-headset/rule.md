@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-headset
+title: Do you use a headset?
+created: YYYY-06-DD 22:54:53
 authors:
   - id: 1
     title: Adam Cogan
