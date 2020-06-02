@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-test-which-pain-points-are-relevant-to-your-prospect
+title: Do you know how to test which pain points are relevant to your prospect?
+created: YYYY-06-DD 05:28:41
 authors:
   - id: 83
     title: Camilla Rosa Silva
