@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-sure-you-get-latest-and-compile
+title: Do you make sure you get latest and compile?
+created: YYYY-03-DD 07:44:28
 authors:
   - id: 1
     title: Adam Cogan
