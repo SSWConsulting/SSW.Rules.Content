@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-check-the-calendar-when-planning-an-event
+title: Do you check the calendar when planning an event?
+created: YYYY-10-DD 00:50:45
 authors:
 
 ---
