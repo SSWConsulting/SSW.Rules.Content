@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-create-an-online-itinerary
+title: Do you create an online itinerary?
+created: YYYY-04-DD 05:11:40
 authors:
   - id: 1
     title: Adam Cogan
