@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-dashes-in-your-urls
+title: Do you use dashes in your URLs?
+created: YYYY-11-DD 20:51:46
 authors:
   - id: 1
     title: Adam Cogan
