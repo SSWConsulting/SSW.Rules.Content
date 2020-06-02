@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-general-contact-detail-table
+title: Do you have a general Contact Detail table?
+created: YYYY-11-DD 21:41:18
 authors:
   - id: 1
     title: Adam Cogan
