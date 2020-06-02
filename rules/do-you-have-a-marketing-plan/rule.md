@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-marketing-plan
+title: Do you have a marketing plan?
+created: YYYY-10-DD 16:53:07
 authors:
   - id: 4
     title: Ulysses Maclaren
