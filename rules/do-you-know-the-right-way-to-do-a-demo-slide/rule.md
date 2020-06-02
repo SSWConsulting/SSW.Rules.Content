@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-right-way-to-do-a-demo-slide
+title: Do you know the right way to do a 'Demo' slide?
+created: YYYY-06-DD 09:50:02
 authors:
 
 ---
