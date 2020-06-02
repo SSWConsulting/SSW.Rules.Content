@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-devops-checklist
+title: Do you have a DevOps Checklist?
+created: YYYY-10-DD 01:12:53
 authors:
   - id: 48
     title: Jeremy Cade
