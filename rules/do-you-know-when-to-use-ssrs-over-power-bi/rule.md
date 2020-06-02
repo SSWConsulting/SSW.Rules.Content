@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-use-ssrs-over-power-bi
+title: Do you know when to use SSRS over Power BI?
+created: YYYY-02-DD 03:15:19
 authors:
   - id: 1
     title: Adam Cogan
