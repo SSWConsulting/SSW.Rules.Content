@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-naming-conventions-for-your-boolean-property
+title: Do you follow naming conventions for your Boolean Property?
+created: YYYY-04-DD 21:35:27
 authors:
   - id: 1
     title: Adam Cogan
