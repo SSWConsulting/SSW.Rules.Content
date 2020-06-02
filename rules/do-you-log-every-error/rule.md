@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-log-every-error
+title: Do you log every error?
+created: YYYY-02-DD 09:43:21
 authors:
   - id: 1
     title: Adam Cogan
