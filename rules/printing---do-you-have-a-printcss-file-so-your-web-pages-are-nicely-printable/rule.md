@@ -1,6 +1,9 @@
 
 
 ---
+uri: printing---do-you-have-a-printcss-file-so-your-web-pages-are-nicely-printable
+title: Printing - Do you have a print.css file so your web pages are nicely printable?
+created: YYYY-12-DD 19:14:24
 authors:
   - id: 1
     title: Adam Cogan
