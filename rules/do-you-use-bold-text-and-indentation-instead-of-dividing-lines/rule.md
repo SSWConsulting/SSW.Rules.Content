@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-bold-text-and-indentation-instead-of-dividing-lines
+title: Do you use bold text and indentation, instead of dividing lines?
+created: YYYY-12-DD 04:06:48
 authors:
   - id: 1
     title: Adam Cogan
