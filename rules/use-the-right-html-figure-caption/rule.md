@@ -31,6 +31,6 @@ redirects:
 {ltHTMLChar}dd{gtHTMLChar}Figure&#58; Caption{ltHTMLChar}/dd{gtHTMLChar}
 {ltHTMLChar}/dl{gtHTMLChar}
 </pre> </font> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example </span> 
-<p><b>Note&#58;</b>&#160;{ltHTMLChar}dl{gtHTMLChar} stands for &quot;<b>definition list</b>&quot;; {ltHTMLChar}dt{gtHTMLChar} for &quot;<b>definition term</b>&quot;; and {ltHTMLChar}dd{gtHTMLChar} for &quot;<b>definition description</b>&quot;.</p>​<br>
+<p><b>Note&#58;</b>&#160;{ltHTMLChar}dl{gtHTMLChar} stands for &quot;<b>definition list</b>&quot;; {ltHTMLChar}dt{gtHTMLChar} for &quot;<b>definition term</b>&quot;; and {ltHTMLChar}dd{gtHTMLChar} for &quot;<b>definition description</b>&quot;.</p><h3 class="ssw15-rteElement-H3">​Relate Rule<br></h3><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=810b7dab-f94c-4495-bf88-bb80c3bc9776">Figures - Do you add useful and concise figure text?​​​</a><br></li></ul>
 
 
