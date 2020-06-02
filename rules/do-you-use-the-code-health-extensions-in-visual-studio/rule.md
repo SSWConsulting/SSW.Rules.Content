@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-code-health-extensions-in-visual-studio
+title: Do you use the Code Health Extensions in Visual Studio?
+created: YYYY-03-DD 22:11:25
 authors:
   - id: 1
     title: Adam Cogan
