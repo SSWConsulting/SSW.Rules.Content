@@ -1,6 +1,9 @@
 
 
 ---
+uri: long-process---do-you-know-how-to-make-long-running-processes-user-friendly
+title: Long Process - Do you know how to make long-running processes user-friendly?
+created: YYYY-11-DD 02:58:30
 authors:
 
 ---
