@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-tell-people-the-coding-standards-you-expect
+title: Do You Tell People the Coding Standards You Expect?
+created: YYYY-03-DD 19:54:30
 authors:
   - id: 24
     title: Adam Stephensen
