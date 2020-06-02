@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-check-your-dns-settings
+title: Do you check your DNS settings?
+created: YYYY-09-DD 19:30:49
 authors:
   - id: 1
     title: Adam Cogan
