@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-the-necessary-code-so-you-can-always-sync-the-webconfig-file
+title: Do you add the necessary code so you can always sync the web.config file?
+created: YYYY-04-DD 02:05:28
 authors:
   - id: 1
     title: Adam Cogan
