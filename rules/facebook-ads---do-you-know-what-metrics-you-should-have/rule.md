@@ -1,6 +1,9 @@
 
 
 ---
+uri: facebook-ads---do-you-know-what-metrics-you-should-have
+title: Facebook Ads - Do you know what metrics you should have?
+created: YYYY-11-DD 22:36:30
 authors:
   - id: 30
     title: Marlon Marescia
