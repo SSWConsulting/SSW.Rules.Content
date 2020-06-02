@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-perform-security-and-system-checks
+title: Do you perform security and system checks?
+created: YYYY-11-DD 16:49:23
 authors:
   - id: 1
     title: Adam Cogan
