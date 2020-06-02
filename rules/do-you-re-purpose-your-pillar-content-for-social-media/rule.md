@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-re-purpose-your-pillar-content-for-social-media
+title: Do you re-purpose your pillar content for social media?
+created: YYYY-01-DD 04:58:26
 authors:
   - id: 30
     title: Marlon Marescia
