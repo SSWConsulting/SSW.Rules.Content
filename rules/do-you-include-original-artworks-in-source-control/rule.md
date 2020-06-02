@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-include-original-artworks-in-source-control
+title: Do you include original artworks in Source Control?
+created: YYYY-11-DD 03:52:46
 authors:
   - id: 22
     title: David Klein
