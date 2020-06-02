@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-establish-a-baseline
+title: Do you establish a baseline?
+created: YYYY-04-DD 17:56:10
 authors:
   - id: 3
     title: Eric Phan
