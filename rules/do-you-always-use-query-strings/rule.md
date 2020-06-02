@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-use-query-strings
+title: Do you always use query strings?
+created: YYYY-08-DD 17:39:16
 authors:
   - id: 1
     title: Adam Cogan
