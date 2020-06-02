@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-sort-of-insurance-to-buy-when-travelling
+title: Do you know what sort of insurance to buy when travelling?
+created: YYYY-04-DD 06:44:21
 authors:
   - id: 1
     title: Adam Cogan
