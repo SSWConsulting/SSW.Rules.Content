@@ -1,6 +1,9 @@
 
 
 ---
+uri: after-work-do-you-only-check-in-code-when-it-has-compiled-and-passed-the-unit-tests
+title: (After work) Do you only check-in code when it has compiled and passed the unit tests?
+created: YYYY-11-DD 03:52:34
 authors:
   - id: 22
     title: David Klein
