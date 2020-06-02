@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-attaching-emails-to-emails
+title: Do you avoid attaching emails to emails?
+created: YYYY-04-DD 09:27:10
 authors:
   - id: 1
     title: Adam Cogan
