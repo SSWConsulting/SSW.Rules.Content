@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
+title: Do you explain the 'Cone of Uncertainty' to people on the fence about Agile?
+created: YYYY-07-DD 20:28:05
 authors:
 
 ---
