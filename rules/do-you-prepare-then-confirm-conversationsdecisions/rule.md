@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-prepare-then-confirm-conversationsdecisions
+title: Do you prepare, then confirm conversations/decisions?
+created: YYYY-03-DD 05:43:42
 authors:
   - id: 1
     title: Adam Cogan
