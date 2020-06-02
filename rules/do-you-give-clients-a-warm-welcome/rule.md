@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-clients-a-warm-welcome
+title: Do you give clients a warm welcome?
+created: YYYY-07-DD 06:10:11
 authors:
   - id: 1
     title: Adam Cogan
