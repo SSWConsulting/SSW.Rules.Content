@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-witadmin-script-to-import-work-item-definitions
+title: Do you have a WitAdmin script to import work item definitions?
+created: YYYY-07-DD 07:34:00
 authors:
   - id: 10
     title: Lei Xu
