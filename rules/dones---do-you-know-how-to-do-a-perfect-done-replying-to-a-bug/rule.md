@@ -1,6 +1,9 @@
 
 
 ---
+uri: dones---do-you-know-how-to-do-a-perfect-done-replying-to-a-bug
+title: Dones - Do you know how to do a perfect 'Done' (replying to a bug)?
+created: YYYY-04-DD 09:05:06
 authors:
   - id: 1
     title: Adam Cogan
