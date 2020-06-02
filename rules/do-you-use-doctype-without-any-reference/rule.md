@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-doctype-without-any-reference
+title: Do you use DOCTYPE without any reference?
+created: YYYY-12-DD 17:59:16
 authors:
   - id: 1
     title: Adam Cogan
