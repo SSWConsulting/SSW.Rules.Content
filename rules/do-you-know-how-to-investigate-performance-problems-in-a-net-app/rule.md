@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-investigate-performance-problems-in-a-net-app
+title: Do you know how to investigate performance problems in a .NET app?
+created: YYYY-04-DD 00:13:21
 authors:
   - id: 1
     title: Adam Cogan
