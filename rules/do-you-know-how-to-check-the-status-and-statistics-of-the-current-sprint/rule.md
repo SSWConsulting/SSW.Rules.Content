@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint
+title: Do you know how to check the status and statistics of the current Sprint?
+created: YYYY-08-DD 18:29:05
 authors:
   - id: 24
     title: Adam Stephensen
