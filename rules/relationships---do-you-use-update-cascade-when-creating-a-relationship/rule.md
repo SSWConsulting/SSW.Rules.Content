@@ -1,6 +1,9 @@
 
 
 ---
+uri: relationships---do-you-use-update-cascade-when-creating-a-relationship
+title: Relationships - Do you use Update Cascade when creating a relationship?
+created: YYYY-11-DD 00:17:52
 authors:
   - id: 1
     title: Adam Cogan
