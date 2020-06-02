@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-tell-the-world-about-your-event-sponsorship
+title: Do you tell the world about your event sponsorship?
+created: YYYY-10-DD 19:45:26
 authors:
   - id: 4
     title: Ulysses Maclaren
