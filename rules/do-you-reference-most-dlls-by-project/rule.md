@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-reference-most-dlls-by-project
+title: Do you reference "most" .dlls by Project?
+created: YYYY-04-DD 03:36:16
 authors:
   - id: 1
     title: Adam Cogan
