@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-know-the-nice-way-to-correct-someone
+title: Communication - Do you know the nice way to correct someone?
+created: YYYY-09-DD 17:55:02
 authors:
   - id: 1
     title: Adam Cogan
