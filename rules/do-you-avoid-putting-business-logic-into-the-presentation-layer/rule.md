@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-putting-business-logic-into-the-presentation-layer
+title: Do you avoid putting business logic into the presentation layer?
+created: YYYY-04-DD 22:25:39
 authors:
   - id: 1
     title: Adam Cogan
