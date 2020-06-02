@@ -1,6 +1,9 @@
 
 
 ---
+uri: customization---do-you-always-make-backup-versions-of-the-xml-schema-crm--only
+title: Customization - Do you always make backup versions of the XML schema? (CRM 4 only)
+created: YYYY-12-DD 18:31:19
 authors:
   - id: 1
     title: Adam Cogan
