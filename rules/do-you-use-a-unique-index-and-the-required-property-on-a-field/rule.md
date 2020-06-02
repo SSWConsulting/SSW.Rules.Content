@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-unique-index-and-the-required-property-on-a-field
+title: Do you use a unique index and the Required property on a field?
+created: YYYY-07-DD 02:43:46
 authors:
   - id: 1
     title: Adam Cogan
