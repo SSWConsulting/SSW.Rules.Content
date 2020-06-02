@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-a-prefix-on-blog-posts-titles
+title: Do you add a prefix on blog posts titles?
+created: YYYY-02-DD 17:29:57
 authors:
   - id: 1
     title: Adam Cogan
