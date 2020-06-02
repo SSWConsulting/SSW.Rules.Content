@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-view-changes-made-to-a-sharepoint-page
+title: Do you know how to view changes made to a SharePoint page?
+created: YYYY-10-DD 04:25:42
 authors:
   - id: 36
     title: Daniel Šmon
