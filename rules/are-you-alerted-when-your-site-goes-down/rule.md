@@ -1,6 +1,9 @@
 
 
 ---
+uri: are-you-alerted-when-your-site-goes-down
+title: Are you alerted when your site goes down?
+created: YYYY-07-DD 00:34:17
 authors:
 
 ---
