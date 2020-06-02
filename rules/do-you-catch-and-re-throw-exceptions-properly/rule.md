@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-catch-and-re-throw-exceptions-properly
+title: Do you catch and re-throw exceptions properly?
+created: YYYY-09-DD 21:16:44
 authors:
   - id: 1
     title: Adam Cogan
