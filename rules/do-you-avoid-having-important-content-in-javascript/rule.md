@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-having-important-content-in-javascript
+title: Do you avoid having important content in JavaScript?
+created: YYYY-11-DD 19:28:08
 authors:
   - id: 1
     title: Adam Cogan
