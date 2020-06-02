@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-clean-your-inbox-per-topics
+title: Do you clean your inbox per topics?
+created: YYYY-05-DD 01:02:05
 authors:
   - id: 1
     title: Adam Cogan
