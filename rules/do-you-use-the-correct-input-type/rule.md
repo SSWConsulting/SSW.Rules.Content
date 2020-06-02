@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-correct-input-type
+title: Do you use the correct input type?
+created: YYYY-05-DD 03:02:36
 authors:
 
 ---
