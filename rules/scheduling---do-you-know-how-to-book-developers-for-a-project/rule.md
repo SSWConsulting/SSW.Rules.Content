@@ -1,6 +1,9 @@
 
 
 ---
+uri: scheduling---do-you-know-how-to-book-developers-for-a-project
+title: Scheduling - Do you know how to book developers for a project?
+created: YYYY-12-DD 13:32:15
 authors:
   - id: 1
     title: Adam Cogan
