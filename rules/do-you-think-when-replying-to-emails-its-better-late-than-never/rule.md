@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-think-when-replying-to-emails-its-better-late-than-never
+title: Do you think when replying to emails it's better late than never?
+created: YYYY-03-DD 02:52:19
 authors:
   - id: 1
     title: Adam Cogan
