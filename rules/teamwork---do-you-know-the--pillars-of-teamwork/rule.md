@@ -1,6 +1,9 @@
 
 
 ---
+uri: teamwork---do-you-know-the--pillars-of-teamwork
+title: Teamwork - Do you know the 5 pillars of teamwork?
+created: YYYY-10-DD 06:24:47
 authors:
   - id: 4
     title: Ulysses Maclaren
