@@ -1,6 +1,9 @@
 
 
 ---
+uri: practices---do-you-know-to-use-ngrx-on-complex-applications
+title: Practices - Do you know to use NgRx on complex applications?
+created: YYYY-08-DD 14:25:26
 authors:
   - id: 24
     title: Adam Stephensen
