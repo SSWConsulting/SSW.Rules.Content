@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-text-rather-than-images-where-appropriate
+title: Do you use text rather than images where appropriate?
+created: YYYY-10-DD 00:08:16
 authors:
 
 ---
