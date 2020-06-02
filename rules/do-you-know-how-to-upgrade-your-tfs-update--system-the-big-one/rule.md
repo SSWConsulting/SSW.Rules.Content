@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-upgrade-your-tfs-update--system-the-big-one
+title: Do you know how to upgrade your TFS2013 Update 4 system? (the big one)
+created: YYYY-08-DD 12:32:42
 authors:
 
 ---
