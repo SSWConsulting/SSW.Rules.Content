@@ -40,7 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
                     slug
                 }
                 frontmatter {
-                    folder
+                    uri
                 }
             }
         }
@@ -63,7 +63,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   result.data.rules.nodes.forEach(node => {
     createPage ({
-      path: node.frontmatter.folder,
+      path: node.frontmatter.uri,
       component: ruleTemplate,
       context: {
         slug: node.fields.slug,
