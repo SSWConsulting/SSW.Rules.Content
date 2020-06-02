@@ -1,6 +1,9 @@
 
 
 ---
+uri: does-the-first-form-provide-the-user-product-information
+title: Does the first form provide the user product information?
+created: YYYY-12-DD 03:49:09
 authors:
 
 ---
