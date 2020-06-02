@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-letting-the-screen-go-white
+title: Do you avoid letting the screen go white?
+created: YYYY-02-DD 04:18:03
 authors:
 
 ---
