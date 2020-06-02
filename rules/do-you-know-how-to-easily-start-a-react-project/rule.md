@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-easily-start-a-react-project
+title: Do you know how to easily start a React project?
+created: YYYY-04-DD 20:17:31
 authors:
   - id: 80
     title: Shane Ye
