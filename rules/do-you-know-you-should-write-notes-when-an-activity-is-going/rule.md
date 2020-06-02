@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-you-should-write-notes-when-an-activity-is-going
+title: Do you know you should write notes when an activity is going?
+created: YYYY-09-DD 18:21:26
 authors:
   - id: 1
     title: Adam Cogan
