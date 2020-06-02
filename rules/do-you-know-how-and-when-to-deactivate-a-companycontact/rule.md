@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-and-when-to-deactivate-a-companycontact
+title: Do you know how and when to deactivate a Company/Contact?
+created: YYYY-12-DD 17:14:32
 authors:
   - id: 1
     title: Adam Cogan
