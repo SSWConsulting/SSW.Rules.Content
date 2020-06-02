@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-batch-files-for-deployment-to-test-and-production-servers-crm--only
+title: Do you make batch files for deployment to Test and Production servers? (CRM 4 Only)
+created: YYYY-12-DD 19:51:27
 authors:
   - id: 1
     title: Adam Cogan
