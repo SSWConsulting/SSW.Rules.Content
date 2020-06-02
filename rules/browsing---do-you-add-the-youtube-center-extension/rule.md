@@ -1,6 +1,9 @@
 
 
 ---
+uri: browsing---do-you-add-the-youtube-center-extension
+title: Browsing - Do you add the YouTube Center extension?
+created: YYYY-05-DD 22:05:35
 authors:
   - id: 32
     title: Mehmet Ozdemir
