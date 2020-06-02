@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-where-to-upload-work-related-videos
+title: Do you know where to upload work related videos?
+created: YYYY-02-DD 17:44:02
 authors:
   - id: 4
     title: Ulysses Maclaren
