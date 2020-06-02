@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-content-is-king
+title: Do you know that Content is king?
+created: YYYY-04-DD 05:50:58
 authors:
   - id: 83
     title: Camilla Rosa Silva
