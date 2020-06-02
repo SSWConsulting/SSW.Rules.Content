@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-carry-your-tool-box
+title: Do you always carry your Tool Box?
+created: YYYY-03-DD 07:54:15
 authors:
   - id: 1
     title: Adam Cogan
