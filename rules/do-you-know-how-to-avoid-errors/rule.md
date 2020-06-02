@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-avoid-errors
+title: Do you know how to avoid errors?
+created: YYYY-01-DD 22:59:30
 authors:
   - id: 69
     title: Jean Thirion
