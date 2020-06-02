@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-stylesheet-file-for-all-your-formatting
+title: Do you have a stylesheet file for all your formatting?
+created: YYYY-08-DD 18:01:07
 authors:
   - id: 1
     title: Adam Cogan
