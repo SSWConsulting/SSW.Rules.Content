@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-jquery-tooltips-to-save-drilling-through
+title: Do you use jQuery Tooltips to save drilling through?
+created: YYYY-08-DD 01:47:26
 authors:
   - id: 1
     title: Adam Cogan
