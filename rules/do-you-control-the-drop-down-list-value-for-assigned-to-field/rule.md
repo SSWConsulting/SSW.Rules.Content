@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-control-the-drop-down-list-value-for-assigned-to-field
+title: Do you control the drop down list value for Assigned To field?
+created: YYYY-07-DD 07:44:27
 authors:
   - id: 10
     title: Lei Xu
