@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-secure-your-server-by-changing-the-defaults
+title: DBAs - Do you secure your server by changing the 'defaults'?
+created: YYYY-11-DD 17:49:51
 authors:
   - id: 1
     title: Adam Cogan
