@@ -1,6 +1,9 @@
 
 
 ---
+uri: sample---do-you-avoid-dropping-a-users-database-when-you-attempt-to-create-a-database
+title: Sample - Do you avoid dropping a user's database when you attempt to create a database?
+created: YYYY-11-DD 03:09:46
 authors:
 
 ---
