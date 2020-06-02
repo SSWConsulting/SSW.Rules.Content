@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-costs-of-old-versus-new-technologies
+title: Do you know the costs of old versus new technologies?
+created: YYYY-11-DD 15:22:28
 authors:
   - id: 4
     title: Ulysses Maclaren
