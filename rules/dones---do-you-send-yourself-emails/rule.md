@@ -1,6 +1,9 @@
 
 
 ---
+uri: dones---do-you-send-yourself-emails
+title: Dones - Do you send yourself emails?
+created: YYYY-03-DD 02:29:14
 authors:
   - id: 1
     title: Adam Cogan
