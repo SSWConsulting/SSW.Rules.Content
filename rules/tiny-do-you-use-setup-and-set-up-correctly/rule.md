@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-use-setup-and-set-up-correctly
+title: Tiny: Do you use "setup" and "set up" correctly?
+created: YYYY-04-DD 06:06:06
 authors:
   - id: 1
     title: Adam Cogan
