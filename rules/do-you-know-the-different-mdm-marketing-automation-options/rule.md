@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-different-mdm-marketing-automation-options
+title: Do you know the different MDM Marketing Automation options?
+created: YYYY-10-DD 21:30:24
 authors:
   - id: 4
     title: Ulysses Maclaren
