@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-why-to-use-data-protection-manager-dpm
+title: Do you know why to use Data Protection Manager (DPM)?
+created: YYYY-07-DD 21:37:04
 authors:
   - id: 71
     title: Steven Andrews
