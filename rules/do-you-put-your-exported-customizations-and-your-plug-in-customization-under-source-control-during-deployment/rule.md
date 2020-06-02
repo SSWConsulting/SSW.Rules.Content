@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-put-your-exported-customizations-and-your-plug-in-customization-under-source-control-during-deployment
+title: Do you put your exported customizations and your plug-in customization under source-control during deployment?
+created: YYYY-12-DD 20:21:04
 authors:
   - id: 1
     title: Adam Cogan
