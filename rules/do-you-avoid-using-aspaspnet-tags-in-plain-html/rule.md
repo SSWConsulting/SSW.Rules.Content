@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-using-aspaspnet-tags-in-plain-html
+title: Do you avoid using ASP/ASP.NET tags in plain HTML?
+created: YYYY-08-DD 18:44:10
 authors:
   - id: 1
     title: Adam Cogan
