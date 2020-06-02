@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-use-will-not-should
+title: Tiny: Do you use "will", not "should"?
+created: YYYY-04-DD 02:23:15
 authors:
   - id: 1
     title: Adam Cogan
