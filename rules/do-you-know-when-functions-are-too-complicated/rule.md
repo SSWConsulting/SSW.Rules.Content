@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-functions-are-too-complicated
+title: Do you know when functions are too complicated?
+created: YYYY-03-DD 21:53:03
 authors:
   - id: 1
     title: Adam Cogan
