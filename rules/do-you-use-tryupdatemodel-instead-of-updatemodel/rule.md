@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-tryupdatemodel-instead-of-updatemodel
+title: Do you use TryUpdateModel instead of UpdateModel?
+created: YYYY-03-DD 18:11:22
 authors:
   - id: 23
     title: Damian Brady
