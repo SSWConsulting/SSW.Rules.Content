@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-full-slide-for-screenshots
+title: Do you use the full slide for screenshots?
+created: YYYY-06-DD 10:11:45
 authors:
 
 ---
