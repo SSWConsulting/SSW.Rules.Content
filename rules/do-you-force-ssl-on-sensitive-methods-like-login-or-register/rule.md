@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-force-ssl-on-sensitive-methods-like-login-or-register
+title: Do you force SSL on sensitive methods like “Login” or “Register”?
+created: YYYY-03-DD 18:21:09
 authors:
   - id: 23
     title: Damian Brady
