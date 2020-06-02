@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-casts-and-use-the-as-operator-instead
+title: Do you avoid casts and use the "as operator" instead?
+created: YYYY-04-DD 18:40:09
 authors:
   - id: 1
     title: Adam Cogan
