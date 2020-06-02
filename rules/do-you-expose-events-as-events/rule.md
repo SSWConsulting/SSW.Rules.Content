@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-expose-events-as-events
+title: Do you expose events as events?
+created: YYYY-04-DD 19:30:42
 authors:
   - id: 1
     title: Adam Cogan
