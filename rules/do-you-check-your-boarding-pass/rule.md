@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-check-your-boarding-pass
+title: Do you check your boarding pass
+created: YYYY-03-DD 00:44:00
 authors:
   - id: 41
     title: Joanna Feely
