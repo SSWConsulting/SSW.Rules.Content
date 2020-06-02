@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-tool-to-migration-from-tfvc-to-git
+title: Do you know the best tool to migration from TFVC to Git?
+created: YYYY-04-DD 23:23:08
 authors:
   - id: 1
     title: Adam Cogan
