@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-place-scripts-at-the-bottom-of-your-page
+title: Do You Place Scripts at the Bottom of Your Page?
+created: YYYY-07-DD 18:10:46
 authors:
   - id: 16
     title: Tiago Araujo
