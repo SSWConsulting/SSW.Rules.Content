@@ -1,6 +1,9 @@
 
 
 ---
+uri: tips---do-you-have-a-pleasant-development-workflow
+title: Tips - Do you have a pleasant development workflow?
+created: YYYY-04-DD 22:24:13
 authors:
   - id: 55
     title: Steve Leigh
