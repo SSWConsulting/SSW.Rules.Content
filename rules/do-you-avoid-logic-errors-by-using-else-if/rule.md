@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-logic-errors-by-using-else-if
+title: Do you avoid logic errors by using Else If?
+created: YYYY-04-DD 17:44:41
 authors:
   - id: 1
     title: Adam Cogan
