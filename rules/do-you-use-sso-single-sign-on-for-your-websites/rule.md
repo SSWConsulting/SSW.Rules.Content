@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-sso-single-sign-on-for-your-websites
+title: Do you use SSO (Single sign-on) for your websites?
+created: YYYY-11-DD 19:12:04
 authors:
   - id: 1
     title: Adam Cogan
