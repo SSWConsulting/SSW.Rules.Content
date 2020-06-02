@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-save-your-graphics-in-the-right-format
+title: Do you know how to save your graphics in the right format?
+created: YYYY-10-DD 00:22:31
 authors:
 
 ---
