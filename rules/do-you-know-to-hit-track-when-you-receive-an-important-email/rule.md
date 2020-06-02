@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-hit-track-when-you-receive-an-important-email
+title: Do you know to hit 'Track' when you receive an important email?
+created: YYYY-12-DD 17:16:45
 authors:
   - id: 1
     title: Adam Cogan
