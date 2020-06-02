@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-check-in-your-process-template-into-source-control-legacy
+title: Do you Check-in your process template into source control? (legacy)
+created: YYYY-07-DD 07:16:38
 authors:
   - id: 10
     title: Lei Xu
