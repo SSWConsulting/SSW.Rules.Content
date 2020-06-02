@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-respond-to-each-email-individually
+title: Do you respond to each email individually?
+created: YYYY-03-DD 02:14:33
 authors:
   - id: 1
     title: Adam Cogan
