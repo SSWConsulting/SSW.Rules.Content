@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-add-or-remove-someone-from-the-conversation
+title: Do you know how to add or remove someone from the conversation?
+created: YYYY-03-DD 02:33:59
 authors:
   - id: 1
     title: Adam Cogan
