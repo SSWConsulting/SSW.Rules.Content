@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-run-unit-tests-in-visual-studio
+title: Do you run Unit Tests in Visual Studio?
+created: YYYY-03-DD 20:14:02
 authors:
   - id: 1
     title: Adam Cogan
