@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-have-a-unique-index-on-a-table
+title: Do you always have a unique index on a table?
+created: YYYY-07-DD 02:04:18
 authors:
   - id: 1
     title: Adam Cogan
