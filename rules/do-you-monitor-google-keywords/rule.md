@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-monitor-google-keywords
+title: Do you monitor Google keywords?
+created: YYYY-11-DD 19:39:24
 authors:
   - id: 1
     title: Adam Cogan
