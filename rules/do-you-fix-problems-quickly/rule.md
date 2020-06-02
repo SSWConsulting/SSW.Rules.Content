@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-fix-problems-quickly
+title: Do you fix problems quickly?
+created: YYYY-07-DD 06:48:10
 authors:
   - id: 1
     title: Adam Cogan
