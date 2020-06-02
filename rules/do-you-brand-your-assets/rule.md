@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-brand-your-assets
+title: Do you brand your assets?
+created: YYYY-01-DD 03:54:36
 authors:
   - id: 83
     title: Camilla Rosa Silva
