@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-using-if-else-instead-of-switch-block
+title: Do you avoid using if-else instead of switch block?
+created: YYYY-04-DD 22:12:26
 authors:
   - id: 1
     title: Adam Cogan
