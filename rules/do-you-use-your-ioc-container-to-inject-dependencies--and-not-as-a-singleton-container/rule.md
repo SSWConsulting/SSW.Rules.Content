@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-your-ioc-container-to-inject-dependencies--and-not-as-a-singleton-container
+title: Do you use your IOC container to Inject Dependencies – and not as a singleton container
+created: YYYY-11-DD 03:53:14
 authors:
   - id: 34
     title: Brendan Richards
