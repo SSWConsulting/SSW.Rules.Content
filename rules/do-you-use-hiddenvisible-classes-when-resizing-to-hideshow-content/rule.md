@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-hiddenvisible-classes-when-resizing-to-hideshow-content
+title: Do you use hidden/visible classes when resizing to hide/show content?
+created: YYYY-06-DD 05:16:40
 authors:
   - id: 37
     title: Ben Cull
