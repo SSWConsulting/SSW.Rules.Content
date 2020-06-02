@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-check-your-buttons-event-handler-hook-up
+title: Do you always check your button's event handler hook-up?
+created: YYYY-04-DD 21:27:02
 authors:
   - id: 1
     title: Adam Cogan
