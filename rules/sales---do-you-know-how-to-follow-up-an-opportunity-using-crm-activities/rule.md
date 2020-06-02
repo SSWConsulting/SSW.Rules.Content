@@ -1,6 +1,9 @@
 
 
 ---
+uri: sales---do-you-know-how-to-follow-up-an-opportunity-using-crm-activities
+title: Sales - Do you know how to follow up an opportunity using CRM Activities?
+created: YYYY-12-DD 18:03:32
 authors:
   - id: 1
     title: Adam Cogan
