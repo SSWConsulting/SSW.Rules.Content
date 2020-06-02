@@ -1,6 +1,9 @@
 
 
 ---
+uri: setup---do-you-have-good-audio-conferencing
+title: Setup - Do you have good audio conferencing?
+created: YYYY-03-DD 00:56:47
 authors:
   - id: 1
     title: Adam Cogan
