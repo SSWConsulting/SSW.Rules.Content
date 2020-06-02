@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-write-end-to-end-tests-for-critical-happy-paths
+title: Do you write end-to-end tests for critical happy-paths?
+created: YYYY-05-DD 18:13:41
 authors:
   - id: 55
     title: Steve Leigh
