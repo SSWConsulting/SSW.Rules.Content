@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-name-your-events-properly
+title: Do you name your events properly?
+created: YYYY-04-DD 22:51:18
 authors:
   - id: 1
     title: Adam Cogan
