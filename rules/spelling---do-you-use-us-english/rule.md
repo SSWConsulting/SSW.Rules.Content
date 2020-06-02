@@ -1,6 +1,9 @@
 
 
 ---
+uri: spelling---do-you-use-us-english
+title: Spelling - Do you use US English?
+created: YYYY-11-DD 20:26:49
 authors:
   - id: 1
     title: Adam Cogan
