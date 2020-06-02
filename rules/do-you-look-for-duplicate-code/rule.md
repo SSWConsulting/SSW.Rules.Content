@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-look-for-duplicate-code
+title: Do you look for duplicate code?
+created: YYYY-04-DD 09:56:14
 authors:
   - id: 1
     title: Adam Cogan
