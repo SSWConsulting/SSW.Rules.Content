@@ -1,6 +1,9 @@
 
 
 ---
+uri: does-your-navigation-device-support-touch
+title: Does your navigation device support touch?
+created: YYYY-03-DD 20:17:44
 authors:
   - id: 1
     title: Adam Cogan
