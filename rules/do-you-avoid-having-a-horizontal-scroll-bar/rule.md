@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-having-a-horizontal-scroll-bar
+title: Do you avoid having a horizontal scroll bar?
+created: YYYY-12-DD 19:09:17
 authors:
   - id: 1
     title: Adam Cogan
