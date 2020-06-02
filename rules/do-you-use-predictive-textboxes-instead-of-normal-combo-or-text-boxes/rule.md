@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-predictive-textboxes-instead-of-normal-combo-or-text-boxes
+title: Do you use predictive-textboxes instead of normal combo or text boxes?
+created: YYYY-12-DD 19:47:18
 authors:
   - id: 1
     title: Adam Cogan
