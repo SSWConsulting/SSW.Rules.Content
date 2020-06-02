@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-only-use-your-nodes-for-virtual-machine-management
+title: Do you only use your nodes for Virtual Machine Management?
+created: YYYY-03-DD 19:35:14
 authors:
 
 ---
