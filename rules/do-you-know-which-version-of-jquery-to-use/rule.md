@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-which-version-of-jquery-to-use
+title: Do you know which version of jQuery to use?
+created: YYYY-04-DD 06:20:48
 authors:
   - id: 23
     title: Damian Brady
