@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-separate-development-testing-and-production-environments
+title: Do you have separate development, testing and production environments?
+created: YYYY-03-DD 07:02:13
 authors:
   - id: 1
     title: Adam Cogan
