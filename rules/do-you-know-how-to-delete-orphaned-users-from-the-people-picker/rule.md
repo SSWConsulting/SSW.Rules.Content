@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-delete-orphaned-users-from-the-people-picker
+title: Do you know how to delete orphaned users from the People Picker?
+created: YYYY-02-DD 15:49:49
 authors:
 
 ---
