@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-aname-record
+title: Do you use ANAME record?
+created: YYYY-10-DD 22:51:42
 authors:
   - id: 47
     title: Stanley Sidik
