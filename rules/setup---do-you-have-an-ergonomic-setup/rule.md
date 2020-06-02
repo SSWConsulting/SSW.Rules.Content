@@ -1,6 +1,9 @@
 
 
 ---
+uri: setup---do-you-have-an-ergonomic-setup
+title: Setup - Do you have an ergonomic setup?
+created: YYYY-03-DD 01:01:39
 authors:
   - id: 1
     title: Adam Cogan
