@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-resist-the-urge-to-spam-to-an-email-alias
+title: Do you resist the urge to SPAM to an email alias?
+created: YYYY-04-DD 05:57:48
 authors:
   - id: 1
     title: Adam Cogan
