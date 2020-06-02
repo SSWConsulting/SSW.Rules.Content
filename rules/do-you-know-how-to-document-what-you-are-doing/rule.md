@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-document-what-you-are-doing
+title: Do you know how to document what you are doing?
+created: YYYY-09-DD 16:16:33
 authors:
   - id: 1
     title: Adam Cogan
