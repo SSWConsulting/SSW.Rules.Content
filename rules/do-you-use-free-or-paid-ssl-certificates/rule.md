@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-free-or-paid-ssl-certificates
+title: Do you use free or paid SSL certificates?
+created: YYYY-05-DD 07:16:32
 authors:
   - id: 73
     title: Kaique Biancatti
