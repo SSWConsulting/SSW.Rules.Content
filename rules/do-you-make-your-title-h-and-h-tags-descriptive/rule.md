@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-your-title-h-and-h-tags-descriptive
+title: Do you make your "title", "h1", and "h2" tags descriptive?
+created: YYYY-11-DD 18:48:50
 authors:
   - id: 1
     title: Adam Cogan
