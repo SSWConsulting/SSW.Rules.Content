@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-start-reading-code
+title: Do you start reading code?
+created: YYYY-03-DD 03:46:01
 authors:
   - id: 1
     title: Adam Cogan
