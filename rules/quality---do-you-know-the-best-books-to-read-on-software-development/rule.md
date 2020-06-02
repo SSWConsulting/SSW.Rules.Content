@@ -1,6 +1,9 @@
 
 
 ---
+uri: quality---do-you-know-the-best-books-to-read-on-software-development
+title: Quality - Do you know the best books to read on software development?
+created: YYYY-04-DD 19:54:28
 authors:
   - id: 4
     title: Ulysses Maclaren
