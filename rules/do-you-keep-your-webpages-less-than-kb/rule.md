@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-webpages-less-than-kb
+title: Do you keep your webpages less than 101kb?
+created: YYYY-11-DD 19:44:49
 authors:
   - id: 1
     title: Adam Cogan
