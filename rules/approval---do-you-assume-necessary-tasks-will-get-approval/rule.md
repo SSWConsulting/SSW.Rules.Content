@@ -1,6 +1,9 @@
 
 
 ---
+uri: approval---do-you-assume-necessary-tasks-will-get-approval
+title: Approval - Do you assume necessary tasks will get approval?
+created: YYYY-04-DD 07:01:42
 authors:
   - id: 1
     title: Adam Cogan
