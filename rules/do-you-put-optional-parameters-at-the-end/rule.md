@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-put-optional-parameters-at-the-end
+title: Do you put optional parameters at the end?
+created: YYYY-04-DD 23:44:44
 authors:
   - id: 1
     title: Adam Cogan
