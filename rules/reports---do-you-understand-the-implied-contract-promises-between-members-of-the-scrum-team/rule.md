@@ -1,6 +1,9 @@
 
 
 ---
+uri: reports---do-you-understand-the-implied-contract-promises-between-members-of-the-scrum-team
+title: Reports - Do you understand the implied contract (promises) between Members of the Scrum Team?
+created: YYYY-04-DD 06:50:19
 authors:
 
 ---
