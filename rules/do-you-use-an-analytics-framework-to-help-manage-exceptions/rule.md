@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-an-analytics-framework-to-help-manage-exceptions
+title: Do you use an analytics framework to help manage exceptions?
+created: YYYY-02-DD 06:47:08
 authors:
   - id: 40
     title: Igor Goldobin
