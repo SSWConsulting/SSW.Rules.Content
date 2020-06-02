@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-look-for-code-coverage
+title: Do you look for Code Coverage?
+created: YYYY-04-DD 11:02:56
 authors:
   - id: 1
     title: Adam Cogan
