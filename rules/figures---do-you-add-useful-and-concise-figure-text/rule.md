@@ -1,6 +1,9 @@
 
 
 ---
+uri: figures---do-you-add-useful-and-concise-figure-text
+title: Figures - Do you add useful and concise figure text?
+created: YYYY-12-DD 20:24:03
 authors:
   - id: 1
     title: Adam Cogan
