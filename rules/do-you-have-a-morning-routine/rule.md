@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-morning-routine
+title: Do you have a morning routine?
+created: YYYY-03-DD 01:08:06
 authors:
   - id: 1
     title: Adam Cogan
