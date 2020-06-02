@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-install-your-video-card-driver-on-your-vhd
+title: Do you install your Video Card Driver on your VHD?
+created: YYYY-04-DD 06:12:23
 authors:
   - id: 21
     title: Matthew Hodgkins
