@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-dependency-injection-container-aka-do-not-waste-days-evaluating-ioc-containers
+title: Do you know the best dependency injection container? (aka Do not waste days evaluating IOC containers)
+created: YYYY-02-DD 16:43:44
 authors:
   - id: 24
     title: Adam Stephensen
