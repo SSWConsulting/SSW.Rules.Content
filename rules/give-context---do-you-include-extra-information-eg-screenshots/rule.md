@@ -1,6 +1,9 @@
 
 
 ---
+uri: give-context---do-you-include-extra-information-eg-screenshots
+title: Give Context - Do you include extra information (e.g. Screenshots)?
+created: YYYY-11-DD 02:09:20
 authors:
 
 ---
