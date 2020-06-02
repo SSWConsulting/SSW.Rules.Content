@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-your-files-available-offline
+title: Do you have your files available offline?
+created: YYYY-07-DD 00:49:13
 authors:
   - id: 1
     title: Adam Cogan
