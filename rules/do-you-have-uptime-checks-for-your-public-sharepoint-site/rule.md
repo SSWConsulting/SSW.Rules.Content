@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-uptime-checks-for-your-public-sharepoint-site
+title: Do you have uptime checks for your public sharepoint site?
+created: YYYY-12-DD 02:54:08
 authors:
   - id: 1
     title: Adam Cogan
