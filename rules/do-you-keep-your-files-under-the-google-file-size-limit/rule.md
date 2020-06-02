@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-files-under-the-google-file-size-limit
+title: Do you keep your files under the Google file size limit?
+created: YYYY-11-DD 19:57:28
 authors:
   - id: 1
     title: Adam Cogan
