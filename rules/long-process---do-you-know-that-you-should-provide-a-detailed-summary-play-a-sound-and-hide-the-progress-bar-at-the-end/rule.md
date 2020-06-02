@@ -1,6 +1,9 @@
 
 
 ---
+uri: long-process---do-you-know-that-you-should-provide-a-detailed-summary-play-a-sound-and-hide-the-progress-bar-at-the-end
+title: Long Process - Do you know that you should provide a detailed summary, play a sound and hide the progress bar at the end?
+created: YYYY-11-DD 03:07:01
 authors:
 
 ---
