@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-ensure-your-build-succeeded
+title: Do you know how to ensure your build succeeded?
+created: YYYY-01-DD 17:20:24
 authors:
   - id: 1
     title: Adam Cogan
