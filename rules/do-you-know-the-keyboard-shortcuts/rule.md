@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-keyboard-shortcuts
+title: Do you know the keyboard shortcuts?
+created: YYYY-05-DD 18:45:52
 authors:
   - id: 9
     title: William Yin
