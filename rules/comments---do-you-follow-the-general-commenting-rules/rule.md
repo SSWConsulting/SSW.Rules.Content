@@ -1,6 +1,9 @@
 
 
 ---
+uri: comments---do-you-follow-the-general-commenting-rules
+title: Comments - Do you follow the general commenting rules?
+created: YYYY-04-DD 23:28:08
 authors:
   - id: 1
     title: Adam Cogan
