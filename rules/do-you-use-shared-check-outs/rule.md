@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-shared-check-outs
+title: Do you use shared check-outs?
+created: YYYY-11-DD 03:52:56
 authors:
   - id: 22
     title: David Klein
