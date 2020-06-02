@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-an-usb-adaptor-in-your-car
+title: Do you have an USB adaptor in your car?
+created: YYYY-09-DD 18:12:16
 authors:
   - id: 1
     title: Adam Cogan
