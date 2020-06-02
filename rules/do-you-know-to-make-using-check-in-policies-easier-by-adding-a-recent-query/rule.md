@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-make-using-check-in-policies-easier-by-adding-a-recent-query
+title: Do you know to make using Check-in Policies easier (by adding a 'Recent' Query)?
+created: YYYY-11-DD 03:52:51
 authors:
   - id: 22
     title: David Klein
