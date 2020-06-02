@@ -1,6 +1,9 @@
 
 
 ---
+uri: the-team---do-you-have-a-scrum-master-outside-the-dev-team
+title: The Team - Do You Have a Scrum Master Outside the Dev Team?
+created: YYYY-05-DD 05:48:53
 authors:
   - id: 4
     title: Ulysses Maclaren
