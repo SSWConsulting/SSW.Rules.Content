@@ -1,6 +1,9 @@
 
 
 ---
+uri: stored-procedures---do-you-use-scope_identity-to-get-the-most-recent-row-identity
+title: Stored Procedures - Do you use SCOPE_IDENTITY() to get the most recent row identity?
+created: YYYY-11-DD 22:20:30
 authors:
   - id: 1
     title: Adam Cogan
