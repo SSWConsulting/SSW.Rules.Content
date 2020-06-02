@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-way-to-implement-administrators-login
+title: Do you know the best way to implement administrators' login
+created: YYYY-12-DD 02:57:12
 authors:
   - id: 1
     title: Adam Cogan
