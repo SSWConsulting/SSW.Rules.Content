@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
+title: Do you use spelling and grammar checker to make your email professional?
+created: YYYY-10-DD 03:56:47
 authors:
   - id: 1
     title: Adam Cogan
