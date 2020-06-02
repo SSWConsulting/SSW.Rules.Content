@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-write-a-rule
+title: Do you know when to write a rule?
+created: YYYY-03-DD 08:00:54
 authors:
   - id: 1
     title: Adam Cogan
