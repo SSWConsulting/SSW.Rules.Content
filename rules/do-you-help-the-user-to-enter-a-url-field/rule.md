@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-help-the-user-to-enter-a-url-field
+title: Do you help the user to enter a URL field?
+created: YYYY-12-DD 17:36:25
 authors:
   - id: 1
     title: Adam Cogan
