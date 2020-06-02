@@ -1,6 +1,9 @@
 
 
 ---
+uri: calendar---do-you-check-someones-calendar-before-booking-an-appointment
+title: Calendar - Do you check someone's calendar before booking an appointment?
+created: YYYY-09-DD 18:06:36
 authors:
   - id: 1
     title: Adam Cogan
