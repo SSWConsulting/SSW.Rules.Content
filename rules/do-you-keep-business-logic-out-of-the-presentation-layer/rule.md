@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-business-logic-out-of-the-presentation-layer
+title: Do you keep business logic out of the presentation layer?
+created: YYYY-04-DD 21:50:59
 authors:
   - id: 81
     title: Jason Taylor
