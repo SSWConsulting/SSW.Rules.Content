@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-laser-in-on-the-smelliest-code
+title: Do you know how to laser in on the smelliest code?
+created: YYYY-03-DD 08:36:31
 authors:
   - id: 1
     title: Adam Cogan
