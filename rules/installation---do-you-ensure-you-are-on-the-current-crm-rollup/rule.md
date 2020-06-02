@@ -1,6 +1,9 @@
 
 
 ---
+uri: installation---do-you-ensure-you-are-on-the-current-crm-rollup
+title: Installation - Do you ensure you are on the current CRM Rollup?
+created: YYYY-06-DD 04:54:14
 authors:
   - id: 32
     title: Mehmet Ozdemir
