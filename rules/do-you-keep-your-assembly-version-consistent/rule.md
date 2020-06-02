@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-assembly-version-consistent
+title: Do you keep your Assembly Version Consistent?
+created: YYYY-04-DD 07:03:16
 authors:
   - id: 1
     title: Adam Cogan
