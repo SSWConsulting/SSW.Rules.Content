@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-ask-a-question-about-jira-or-make-a-request-for-a-jira-improvement
+title: Do you know how to ask a question about Jira or make a request for a Jira improvement?
+created: YYYY-09-DD 08:15:20
 authors:
 
 ---
