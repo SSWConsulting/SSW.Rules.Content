@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-stop-dealing-with-data-and-schema
+title: Do you stop dealing with Data and Schema?
+created: YYYY-03-DD 06:36:56
 authors:
   - id: 1
     title: Adam Cogan
