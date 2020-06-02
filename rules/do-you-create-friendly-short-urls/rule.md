@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-create-friendly-short-urls
+title: Do you create friendly short URL's?
+created: YYYY-06-DD 21:44:06
 authors:
   - id: 1
     title: Adam Cogan
