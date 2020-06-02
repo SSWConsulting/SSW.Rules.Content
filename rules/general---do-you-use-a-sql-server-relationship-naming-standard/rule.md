@@ -1,6 +1,9 @@
 
 
 ---
+uri: general---do-you-use-a-sql-server-relationship-naming-standard
+title: General - Do you use a SQL Server Relationship Naming Standard?
+created: YYYY-12-DD 05:04:48
 authors:
   - id: 1
     title: Adam Cogan
