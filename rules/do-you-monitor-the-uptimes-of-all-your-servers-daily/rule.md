@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-monitor-the-uptimes-of-all-your-servers-daily
+title: Do you monitor the uptimes of all your servers daily?
+created: YYYY-07-DD 23:10:04
 authors:
   - id: 1
     title: Adam Cogan
