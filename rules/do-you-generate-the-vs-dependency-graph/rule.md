@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-generate-the-vs-dependency-graph
+title: Do you generate the VS Dependency Graph?
+created: YYYY-03-DD 08:04:49
 authors:
   - id: 1
     title: Adam Cogan
