@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-use-bitnumeric-data-type-correctly
+title: Schema - Do you use Bit/Numeric data type correctly?
+created: YYYY-11-DD 23:02:43
 authors:
   - id: 1
     title: Adam Cogan
