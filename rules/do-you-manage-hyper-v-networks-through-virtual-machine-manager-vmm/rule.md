@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-manage-hyper-v-networks-through-virtual-machine-manager-vmm
+title: Do you manage Hyper-V Networks through Virtual Machine Manager (VMM)?
+created: YYYY-10-DD 23:09:31
 authors:
   - id: 73
     title: Kaique Biancatti
