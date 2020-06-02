@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-regularly-update-your-dependencies-in-nuget
+title: Do you regularly update your dependencies in NuGet?
+created: YYYY-10-DD 14:28:10
 authors:
   - id: 23
     title: Damian Brady
