@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout/layout';
-import { element } from 'prop-types';
 export default function Category({
   data,
   pageContext: {
@@ -23,24 +22,23 @@ export default function Category({
       </div>
       <ol className="list-decimal list-outside">
         {category.frontmatter.index.map((ruleUri, i) => {
-            const rule = data.rule.nodes.find(
-              (r) =>
-                r.frontmatter.uri === ruleUri
-            );
-            if(rule) {
+          const rule = data.rule.nodes.find(
+            (r) => r.frontmatter.uri === ruleUri
+          );
+          if (rule) {
             return (
-            <>
-            <li key={i} className="rule-title">
-              <Link ref={linkRef} to={`/${ rule.frontmatter.uri}`}>
-                {rule.frontmatter.title}
-              </Link>
-            </li>
-            <div dangerouslySetInnerHTML={{ __html: rule.html }} />
-            <br />
-            </>
-            )
-            }}
-        )}
+              <>
+                <li key={i} className="rule-title">
+                  <Link ref={linkRef} to={`/${rule.frontmatter.uri}`}>
+                    {rule.frontmatter.title}
+                  </Link>
+                </li>
+                <div dangerouslySetInnerHTML={{ __html: rule.html }} />
+                <br />
+              </>
+            );
+          }
+        })}
       </ol>
     </Layout>
   );
@@ -54,9 +52,7 @@ export const query = graphql`
         index
       }
     }
-    rule: allMarkdownRemark(
-      filter: { frontmatter: { uri: { in: $index } } }
-    ) {
+    rule: allMarkdownRemark(filter: { frontmatter: { uri: { in: $index } } }) {
       nodes {
         frontmatter {
           uri
