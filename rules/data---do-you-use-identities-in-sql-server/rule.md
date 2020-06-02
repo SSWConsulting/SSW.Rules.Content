@@ -1,6 +1,9 @@
 
 
 ---
+uri: data---do-you-use-identities-in-sql-server
+title: Data - Do you use Identities in SQL Server?
+created: YYYY-11-DD 19:08:06
 authors:
   - id: 1
     title: Adam Cogan
