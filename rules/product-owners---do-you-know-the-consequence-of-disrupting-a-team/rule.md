@@ -1,6 +1,9 @@
 
 
 ---
+uri: product-owners---do-you-know-the-consequence-of-disrupting-a-team
+title: Product Owners - Do you know the consequence of disrupting a team?
+created: YYYY-04-DD 01:56:44
 authors:
 
 ---
