@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-do-keyword-planning
+title: Do you know how to do Keyword Planning?
+created: YYYY-03-DD 21:10:42
 authors:
   - id: 83
     title: Camilla Rosa Silva
