@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-deploy-changes-from-staging-to-live
+title: Do you know how to deploy changes from Staging to Live?
+created: YYYY-01-DD 06:12:14
 authors:
   - id: 1
     title: Adam Cogan
