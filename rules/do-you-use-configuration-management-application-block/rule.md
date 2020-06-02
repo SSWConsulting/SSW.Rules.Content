@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-configuration-management-application-block
+title: Do you use configuration management application block?
+created: YYYY-04-DD 04:40:53
 authors:
   - id: 1
     title: Adam Cogan
