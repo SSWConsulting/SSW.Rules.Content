@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-auto-generated-maintenance-pages-on-every-project-
+title: Do you have auto-generated maintenance pages on every project ?
+created: YYYY-11-DD 18:52:32
 authors:
   - id: 1
     title: Adam Cogan
