@@ -1,6 +1,9 @@
 
 
 ---
+uri: tips---do-you-know-how-to-check-the-version-of-angular
+title: Tips - Do you know how to check the version of Angular?
+created: YYYY-06-DD 21:43:38
 authors:
   - id: 68
     title: Edgar Rocha
