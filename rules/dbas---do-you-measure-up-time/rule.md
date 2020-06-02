@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-measure-up-time
+title: ​DBAs - Do you measure Up-Time?
+created: YYYY-11-DD 18:22:58
 authors:
   - id: 1
     title: Adam Cogan
