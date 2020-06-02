@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-run-acceptance-tests
+title: Do You Run Acceptance Tests?
+created: YYYY-08-DD 15:07:10
 authors:
   - id: 24
     title: Adam Stephensen
