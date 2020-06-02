@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-snom-voip-phones-physical-phones--skype-for-business
+title: Do you know how to use SNOM VOIP phones? (Physical Phones + Skype for Business)
+created: YYYY-02-DD 23:29:12
 authors:
 
 ---
