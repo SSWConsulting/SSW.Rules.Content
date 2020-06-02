@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-merge-accounts-or-contacts-when-you-see-duplicates
+title: Do you merge Accounts or Contacts when you see duplicates?
+created: YYYY-03-DD 22:55:50
 authors:
   - id: 4
     title: Ulysses Maclaren
