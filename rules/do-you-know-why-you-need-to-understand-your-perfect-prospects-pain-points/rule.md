@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-why-you-need-to-understand-your-perfect-prospects-pain-points
+title: Do you know why you need to understand your perfect prospects pain points?
+created: YYYY-06-DD 05:02:55
 authors:
   - id: 83
     title: Camilla Rosa Silva
