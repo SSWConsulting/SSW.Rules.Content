@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-enums-instead-of-hard-coded-strings
+title: Do you use Enums instead of hard coded strings?
+created: YYYY-04-DD 15:49:27
 authors:
   - id: 1
     title: Adam Cogan
