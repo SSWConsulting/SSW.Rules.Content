@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-tests-for-difficult-to-spot-errors---eg-arithmetic-rounding-regular-expressions
+title: Do you have tests for difficult to spot errors - e.g. Arithmetic, Rounding, Regular Expressions?
+created: YYYY-03-DD 19:51:40
 authors:
   - id: 1
     title: Adam Cogan
