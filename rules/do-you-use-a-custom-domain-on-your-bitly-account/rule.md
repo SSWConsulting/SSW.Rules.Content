@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-custom-domain-on-your-bitly-account
+title: Do you use a custom domain on your bit.ly account?
+created: YYYY-03-DD 21:07:29
 authors:
   - id: 1
     title: Adam Cogan
