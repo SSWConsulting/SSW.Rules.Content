@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-where-to-keep-your-files
+title: Do you know where to keep your files?
+created: YYYY-08-DD 19:18:47
 authors:
   - id: 1
     title: Adam Cogan
