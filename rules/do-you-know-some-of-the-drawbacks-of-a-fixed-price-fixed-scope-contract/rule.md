@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-some-of-the-drawbacks-of-a-fixed-price-fixed-scope-contract
+title: Do you know some of the drawbacks of a fixed price fixed scope contract?
+created: YYYY-08-DD 19:01:46
 authors:
   - id: 1
     title: Adam Cogan
