@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-your-presentations-promote-online-discussion
+title: Do your presentations promote online discussion?
+created: YYYY-03-DD 14:58:29
 authors:
   - id: 24
     title: Adam Stephensen
