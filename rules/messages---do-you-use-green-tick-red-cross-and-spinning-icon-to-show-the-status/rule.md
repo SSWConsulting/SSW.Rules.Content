@@ -1,6 +1,9 @@
 
 
 ---
+uri: messages---do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-status
+title: Messages - Do you use green tick, red cross and spinning icon to show the status?
+created: YYYY-11-DD 04:40:28
 authors:
 
 ---
