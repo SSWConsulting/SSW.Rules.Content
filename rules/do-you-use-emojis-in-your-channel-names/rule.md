@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-emojis-in-your-channel-names
+title: Do you use emojis in your channel names?
+created: YYYY-09-DD 18:50:35
 authors:
   - id: 69
     title: Jean Thirion
