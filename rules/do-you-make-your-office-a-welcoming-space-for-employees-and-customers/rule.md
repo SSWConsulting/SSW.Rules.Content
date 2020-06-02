@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-your-office-a-welcoming-space-for-employees-and-customers
+title: Do you make your office a welcoming space for employees and customers?
+created: YYYY-07-DD 22:15:20
 authors:
   - id: 1
     title: Adam Cogan
