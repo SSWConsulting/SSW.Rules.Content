@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-try-a-second-time-straight-away-when-you-are-calling-a-client
+title: Do you try a second time straight away when you are calling a client?
+created: YYYY-07-DD 06:48:35
 authors:
 
 ---
