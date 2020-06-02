@@ -1,6 +1,9 @@
 
 
 ---
+uri: is-your-first-aim-to-customize-a-sharepoint-webpart
+title: Is your first aim to customize a SharePoint webpart?
+created: YYYY-02-DD 09:14:44
 authors:
   - id: 1
     title: Adam Cogan
