@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-explain-the-logistics
+title: Do you explain the logistics?
+created: YYYY-01-DD 20:03:42
 authors:
   - id: 1
     title: Adam Cogan
