@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-integrate-with-sharepoint-
+title: Do you know how to integrate with SharePoint 2010?
+created: YYYY-05-DD 09:08:46
 authors:
   - id: 14
     title: Martin Hinshelwood
