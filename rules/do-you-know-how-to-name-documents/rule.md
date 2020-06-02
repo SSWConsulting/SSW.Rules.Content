@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-name-documents
+title: Do you know how to name documents?
+created: YYYY-02-DD 01:04:10
 authors:
   - id: 1
     title: Adam Cogan
