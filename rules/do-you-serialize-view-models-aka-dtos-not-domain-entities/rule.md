@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-serialize-view-models-aka-dtos-not-domain-entities
+title: Do You Serialize View Models (aka DTOs), not Domain Entities?
+created: YYYY-03-DD 19:04:34
 authors:
   - id: 34
     title: Brendan Richards
