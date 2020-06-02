@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-know-the-best-chat-tools-for-your-employees
+title: Communication - Do you know the best chat tools for your employees?
+created: YYYY-09-DD 18:16:46
 authors:
   - id: 1
     title: Adam Cogan
