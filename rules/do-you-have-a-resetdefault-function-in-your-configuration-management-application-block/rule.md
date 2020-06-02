@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-resetdefault-function-in-your-configuration-management-application-block
+title: Do you have a resetdefault() function in your configuration management application block?
+created: YYYY-04-DD 05:14:07
 authors:
   - id: 1
     title: Adam Cogan
