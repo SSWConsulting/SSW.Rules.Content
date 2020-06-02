@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-bak-files-must-not-exist
+title: Do you know BAK files must not exist?
+created: YYYY-01-DD 14:24:03
 authors:
   - id: 1
     title: Adam Cogan
