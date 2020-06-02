@@ -1,6 +1,9 @@
 
 
 ---
+uri: connection-stream---do-you-use-a-udl-when-getting-database-settings
+title: Connection Stream - Do you use a UDL when getting database settings?
+created: YYYY-11-DD 09:22:39
 authors:
 
 ---
