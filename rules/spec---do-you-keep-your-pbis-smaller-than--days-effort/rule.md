@@ -1,6 +1,9 @@
 
 
 ---
+uri: spec---do-you-keep-your-pbis-smaller-than--days-effort
+title: Spec - Do you keep your PBIs smaller than 2 days' effort?
+created: YYYY-09-DD 09:20:55
 authors:
   - id: 1
     title: Adam Cogan
