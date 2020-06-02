@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-implement-idisposable
+title: Do you know when to implement IDisposable?
+created: YYYY-01-DD 23:59:37
 authors:
 
 ---
