@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-communicate-effectively
+title: Do you know to communicate effectively?
+created: YYYY-06-DD 21:06:30
 authors:
   - id: 1
     title: Adam Cogan
