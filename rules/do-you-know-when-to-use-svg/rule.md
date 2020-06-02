@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-use-svg
+title: Do you know when to use SVG?
+created: YYYY-10-DD 00:16:27
 authors:
 
 ---
