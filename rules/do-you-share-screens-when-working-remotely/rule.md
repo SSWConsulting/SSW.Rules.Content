@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-share-screens-when-working-remotely
+title: Do you share screens when working remotely?
+created: YYYY-12-DD 19:41:23
 authors:
   - id: 32
     title: Mehmet Ozdemir
