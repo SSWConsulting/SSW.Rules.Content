@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-using-bcs-when-you-need-workflow
+title: Do you avoid using BCS when you need Workflow?
+created: YYYY-06-DD 06:39:12
 authors:
   - id: 1
     title: Adam Cogan
