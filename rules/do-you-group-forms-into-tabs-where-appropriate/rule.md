@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-group-forms-into-tabs-where-appropriate
+title: Do you group forms into tabs where appropriate?
+created: YYYY-12-DD 13:33:14
 authors:
   - id: 1
     title: Adam Cogan
