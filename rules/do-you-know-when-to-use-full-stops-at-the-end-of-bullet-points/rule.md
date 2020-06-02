@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
+title: Do you know when to use full stops at the end of bullet points?
+created: YYYY-02-DD 02:55:34
 authors:
 
 ---
