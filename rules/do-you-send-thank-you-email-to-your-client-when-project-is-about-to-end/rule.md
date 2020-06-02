@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-send-thank-you-email-to-your-client-when-project-is-about-to-end
+title: Do you send thank you email to your client when project is about to end?
+created: YYYY-10-DD 21:07:44
 authors:
   - id: 60
     title: Anthony Nguyen
