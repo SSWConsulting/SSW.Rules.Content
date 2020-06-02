@@ -1,6 +1,9 @@
 
 
 ---
+uri: post-production---do-you-know-how-to-structure-your-files
+title: Post Production - Do You Know How To Structure Your Files?
+created: YYYY-10-DD 22:19:03
 authors:
 
 ---
