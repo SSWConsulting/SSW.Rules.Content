@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-if-you-are-using-the-template
+title: Do you know if you are using the template?
+created: YYYY-06-DD 07:43:21
 authors:
 
 ---
