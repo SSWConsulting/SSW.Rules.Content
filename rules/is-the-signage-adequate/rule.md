@@ -1,6 +1,9 @@
 
 
 ---
+uri: is-the-signage-adequate
+title: Is the signage adequate?
+created: YYYY-12-DD 00:36:40
 authors:
 
 ---
