@@ -1,6 +1,9 @@
 
 
 ---
+uri: production---do-you-set-up-the-speaker-prior-to-recording
+title: Production - Do you set up the speaker prior to recording?
+created: YYYY-07-DD 08:40:26
 authors:
   - id: 27
     title: Titus Maclaren
