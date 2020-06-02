@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-modern-alternatives-to-using-a-whiteboard
+title: Do you know the modern alternatives to using a whiteboard?
+created: YYYY-09-DD 18:37:51
 authors:
   - id: 1
     title: Adam Cogan
