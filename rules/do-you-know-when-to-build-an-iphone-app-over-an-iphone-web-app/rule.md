@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-build-an-iphone-app-over-an-iphone-web-app
+title: Do you know when to build an iPhone app over an iPhone web app?
+created: YYYY-11-DD 23:56:46
 authors:
 
 ---
