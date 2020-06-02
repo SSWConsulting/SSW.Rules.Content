@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-website-loading-time-acceptable
+title: Do you keep your website loading time acceptable?
+created: YYYY-09-DD 19:52:02
 authors:
   - id: 1
     title: Adam Cogan
