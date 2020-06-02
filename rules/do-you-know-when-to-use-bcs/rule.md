@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-use-bcs
+title: Do you know when to use BCS?
+created: YYYY-06-DD 05:43:44
 authors:
   - id: 13
     title: Paul Neumeyer
