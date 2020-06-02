@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-benefits-of-using-zendesk
+title: Do you know the benefits of using Zendesk?
+created: YYYY-06-DD 22:02:45
 authors:
   - id: 4
     title: Ulysses Maclaren
