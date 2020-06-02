@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-where-bottlenecks-can-happen
+title: Do you know where bottlenecks can happen?
+created: YYYY-04-DD 18:32:53
 authors:
   - id: 3
     title: Eric Phan
