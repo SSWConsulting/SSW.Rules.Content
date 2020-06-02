@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-put-javascript-in-a-separate-file
+title: Do you always put JavaScript in a separate file?
+created: YYYY-09-DD 18:32:24
 authors:
   - id: 1
     title: Adam Cogan
