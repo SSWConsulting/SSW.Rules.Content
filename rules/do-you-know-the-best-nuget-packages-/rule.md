@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-nuget-packages-
+title: Do you know the best NuGet Packages ?
+created: YYYY-10-DD 19:00:36
 authors:
   - id: 24
     title: Adam Stephensen
