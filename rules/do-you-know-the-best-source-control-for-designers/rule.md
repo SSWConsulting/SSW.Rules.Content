@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-source-control-for-designers
+title: Do you know the best Source Control for designers?
+created: YYYY-03-DD 04:11:03
 authors:
   - id: 20
     title: Rebecca Liu
