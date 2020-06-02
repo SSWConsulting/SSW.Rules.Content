@@ -1,6 +1,9 @@
 
 
 ---
+uri: customization---do-you-export-only-the-customizations-of-entities-that-you-did-customize
+title: Customization - Do you export only the customizations of entities that you did customize?
+created: YYYY-12-DD 19:11:13
 authors:
   - id: 1
     title: Adam Cogan
