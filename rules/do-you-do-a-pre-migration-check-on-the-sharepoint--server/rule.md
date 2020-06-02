@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-do-a-pre-migration-check-on-the-sharepoint--server
+title: Do you do a pre-migration check on the SharePoint 2007 Server
+created: YYYY-12-DD 02:47:08
 authors:
   - id: 8
     title: John Liu
