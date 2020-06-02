@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-complex-queries-upsizing-problem
+title: Do you have complex queries (Upsizing Problem)?
+created: YYYY-07-DD 03:23:22
 authors:
   - id: 1
     title: Adam Cogan
