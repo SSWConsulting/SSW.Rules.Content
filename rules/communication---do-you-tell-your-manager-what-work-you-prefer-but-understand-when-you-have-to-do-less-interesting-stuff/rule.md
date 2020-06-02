@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
+title: Communication - Do you tell your manager what work you prefer but understand when you have to do less interesting stuff?
+created: YYYY-09-DD 18:11:36
 authors:
   - id: 1
     title: Adam Cogan
