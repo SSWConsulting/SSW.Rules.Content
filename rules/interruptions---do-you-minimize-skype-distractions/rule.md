@@ -1,6 +1,9 @@
 
 
 ---
+uri: interruptions---do-you-minimize-skype-distractions
+title: Interruptions - Do you minimize Skype distractions?
+created: YYYY-10-DD 05:13:15
 authors:
   - id: 1
     title: Adam Cogan
