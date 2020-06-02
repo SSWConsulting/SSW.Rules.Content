@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments---do-you-explain-why-youve-deleted-or-modified-an-appointment
+title: Appointments - Do you explain why you've deleted or modified an appointment?
+created: YYYY-03-DD 08:42:32
 authors:
   - id: 1
     title: Adam Cogan
