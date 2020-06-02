@@ -1,6 +1,9 @@
 
 
 ---
+uri: efficiency---reuse---do-you-create-a-report-whenever-you-need-a-number-from-a-system
+title: Efficiency - Reuse - Do you create a report whenever you need a number from a system?
+created: YYYY-09-DD 18:04:31
 authors:
   - id: 1
     title: Adam Cogan
