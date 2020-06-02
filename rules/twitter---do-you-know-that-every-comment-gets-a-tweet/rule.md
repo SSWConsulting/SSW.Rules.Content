@@ -1,6 +1,9 @@
 
 
 ---
+uri: twitter---do-you-know-that-every-comment-gets-a-tweet
+title: Twitter - Do you know that every comment gets a tweet?
+created: YYYY-03-DD 15:26:58
 authors:
   - id: 14
     title: Martin Hinshelwood
