@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-schema-master
+title: Do you have a "Schema Master"?
+created: YYYY-10-DD 05:51:48
 authors:
   - id: 1
     title: Adam Cogan
