@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-grid-to-display-tabular-information
+title: Do you use a grid to display tabular information?
+created: YYYY-08-DD 06:17:44
 authors:
   - id: 1
     title: Adam Cogan
