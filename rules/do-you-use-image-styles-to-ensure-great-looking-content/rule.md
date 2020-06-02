@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-image-styles-to-ensure-great-looking-content
+title: Do you use image styles to ensure great looking content?
+created: YYYY-10-DD 00:27:47
 authors:
 
 ---
