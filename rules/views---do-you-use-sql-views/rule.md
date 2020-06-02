@@ -1,6 +1,9 @@
 
 
 ---
+uri: views---do-you-use-sql-views
+title: Views - Do you use SQL Views?
+created: YYYY-03-DD 01:05:11
 authors:
   - id: 99
     title: Christian Morford-Waite
