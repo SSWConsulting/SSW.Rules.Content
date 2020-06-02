@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-finance-manager-in-the-loop
+title: Do you keep your finance manager in the loop?
+created: YYYY-04-DD 05:13:51
 authors:
 
 ---
