@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-dynamics--crm-competitors
+title: Do you know the Dynamics 365 (CRM) competitors?
+created: YYYY-06-DD 18:02:41
 authors:
   - id: 1
     title: Adam Cogan
