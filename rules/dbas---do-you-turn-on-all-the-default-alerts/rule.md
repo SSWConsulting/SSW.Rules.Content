@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-turn-on-all-the-default-alerts
+title: DBAs - Do you turn on all the default alerts?
+created: YYYY-11-DD 18:31:02
 authors:
   - id: 1
     title: Adam Cogan
