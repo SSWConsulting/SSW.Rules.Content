@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-web-api-rest
+title: Do you use the Web API (REST)?
+created: YYYY-04-DD 10:02:07
 authors:
   - id: 1
     title: Adam Cogan
