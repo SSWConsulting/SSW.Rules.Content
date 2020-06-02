@@ -1,6 +1,9 @@
 
 
 ---
+uri: spec---do-you-know-how-to-give-the-customer-a-ballpark
+title: Spec - Do you know how to give the customer a ballpark?
+created: YYYY-11-DD 08:35:51
 authors:
   - id: 1
     title: Adam Cogan
