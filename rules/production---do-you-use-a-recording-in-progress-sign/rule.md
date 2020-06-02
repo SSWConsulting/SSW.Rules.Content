@@ -1,6 +1,9 @@
 
 
 ---
+uri: production---do-you-use-a-recording-in-progress-sign
+title: Production - Do you use a 'Recording in Progress' sign?
+created: YYYY-12-DD 05:21:57
 authors:
   - id: 1
     title: Adam Cogan
