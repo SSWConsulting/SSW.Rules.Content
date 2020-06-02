@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-decide-on-the-level-of-the-verboseness-eg-ternary-operators
+title: Do you decide on the level of the verboseness? E.g. ternary operators
+created: YYYY-04-DD 09:20:06
 authors:
   - id: 1
     title: Adam Cogan
