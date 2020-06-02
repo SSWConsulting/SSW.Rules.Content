@@ -1,6 +1,9 @@
 
 
 ---
+uri: bugs---do-you-know-how-to-handle-bugs-on-the-product-backlog
+title: Bugs - Do you know how to handle Bugs on the Product Backlog?
+created: YYYY-05-DD 04:38:50
 authors:
   - id: 1
     title: Adam Cogan
