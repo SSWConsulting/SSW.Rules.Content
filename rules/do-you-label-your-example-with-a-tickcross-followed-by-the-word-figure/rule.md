@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-label-your-example-with-a-tickcross-followed-by-the-word-figure
+title: Do you label your example with a tick/cross followed by the word Figure:?
+created: YYYY-03-DD 00:46:30
 authors:
 
 ---
