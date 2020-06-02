@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-the-vhd-file-will-expand-to-the-size-of-the-partition-inside-the-vhd-when-you-boot-into-it
+title: Do you know that the VHD file will expand to the size of the partition inside the VHD when you boot into it?
+created: YYYY-04-DD 06:01:36
 authors:
   - id: 21
     title: Matthew Hodgkins
