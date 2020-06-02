@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-minimum-image-sizes-on-social-media
+title: Do you follow minimum image sizes on social media?
+created: YYYY-07-DD 22:09:58
 authors:
   - id: 16
     title: Tiago Araujo
