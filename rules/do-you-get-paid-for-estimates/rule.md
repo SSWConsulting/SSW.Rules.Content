@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-get-paid-for-estimates
+title: Do you get paid for estimates?
+created: YYYY-07-DD 04:21:49
 authors:
 
 ---
