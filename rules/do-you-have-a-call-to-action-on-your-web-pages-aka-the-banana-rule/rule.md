@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-call-to-action-on-your-web-pages-aka-the-banana-rule
+title: Do you have a call to action on your web pages (aka The Banana Rule)?
+created: YYYY-12-DD 20:16:58
 authors:
   - id: 1
     title: Adam Cogan
