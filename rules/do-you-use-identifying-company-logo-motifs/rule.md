@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-identifying-company-logo-motifs
+title: Do you use identifying company logo motifs?
+created: YYYY-12-DD 00:03:02
 authors:
 
 ---
