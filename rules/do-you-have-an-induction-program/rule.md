@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-an-induction-program
+title: Do you have an induction program?
+created: YYYY-02-DD 00:40:37
 authors:
   - id: 1
     title: Adam Cogan
