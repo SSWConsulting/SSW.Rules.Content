@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-informative-messages
+title: Do you give informative messages?
+created: YYYY-06-DD 21:11:22
 authors:
   - id: 1
     title: Adam Cogan
