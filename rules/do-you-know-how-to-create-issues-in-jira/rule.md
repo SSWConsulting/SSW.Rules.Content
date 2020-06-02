@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-create-issues-in-jira
+title: Do you know how to create issues in Jira?
+created: YYYY-09-DD 01:34:40
 authors:
 
 ---
