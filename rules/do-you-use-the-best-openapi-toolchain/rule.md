@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-best-openapi-toolchain
+title: Do you use the best OpenAPI toolchain?
+created: YYYY-05-DD 01:48:38
 authors:
   - id: 1
     title: Adam Cogan
