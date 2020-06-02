@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-subscribe-button-on-your-blog-aka-rss
+title: Do you have a 'subscribe' button on your blog? (aka RSS)
+created: YYYY-10-DD 19:10:15
 authors:
   - id: 1
     title: Adam Cogan
