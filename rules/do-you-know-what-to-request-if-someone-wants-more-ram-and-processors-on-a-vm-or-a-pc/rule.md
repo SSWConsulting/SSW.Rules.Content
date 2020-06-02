@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-to-request-if-someone-wants-more-ram-and-processors-on-a-vm-or-a-pc
+title: Do you know what to request if someone wants more RAM and processors on a VM or a PC?
+created: YYYY-03-DD 04:32:19
 authors:
   - id: 28
     title: Daragh Bannigan
