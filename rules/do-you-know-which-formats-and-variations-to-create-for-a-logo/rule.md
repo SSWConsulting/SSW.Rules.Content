@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-which-formats-and-variations-to-create-for-a-logo
+title: Do you know which formats and variations to create for a logo？
+created: YYYY-11-DD 05:32:19
 authors:
   - id: 90
     title: Ken Shi
