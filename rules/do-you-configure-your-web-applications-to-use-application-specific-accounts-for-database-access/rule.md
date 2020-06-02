@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
+title: Do you configure your web applications to use application specific accounts for database access?
+created: YYYY-02-DD 23:55:56
 authors:
   - id: 43
     title: Michael Demarco
