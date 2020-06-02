@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
+title: Do you ring a bell or similar when you secure a big deal, make a sale or get some great feedback?
+created: YYYY-03-DD 06:03:06
 authors:
   - id: 1
     title: Adam Cogan
