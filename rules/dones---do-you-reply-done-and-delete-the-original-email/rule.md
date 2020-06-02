@@ -1,6 +1,9 @@
 
 
 ---
+uri: dones---do-you-reply-done-and-delete-the-original-email
+title: Dones - Do you reply 'Done' and delete the original email?
+created: YYYY-03-DD 04:03:34
 authors:
   - id: 1
     title: Adam Cogan
