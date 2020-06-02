@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-comment-your-javascript-code
+title: Do you comment your JavaScript code?
+created: YYYY-07-DD 18:14:28
 authors:
   - id: 16
     title: Tiago Araujo
