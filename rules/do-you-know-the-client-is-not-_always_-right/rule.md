@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-client-is-not-_always_-right
+title: Do you know the client is not _always_ right?
+created: YYYY-08-DD 02:43:27
 authors:
   - id: 2
     title: Cameron Shaw
