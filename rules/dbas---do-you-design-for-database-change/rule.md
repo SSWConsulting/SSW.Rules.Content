@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-design-for-database-change
+title: ​DBAs - Do you design for database change?
+created: YYYY-11-DD 19:10:50
 authors:
   - id: 1
     title: Adam Cogan
