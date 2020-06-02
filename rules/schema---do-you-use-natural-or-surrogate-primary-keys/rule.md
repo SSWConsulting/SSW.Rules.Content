@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-use-natural-or-surrogate-primary-keys
+title: Schema - Do you use Natural or Surrogate primary keys?
+created: YYYY-11-DD 23:14:05
 authors:
   - id: 1
     title: Adam Cogan
