@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-an-indoor-exercise-routine
+title: Do you have an indoor exercise routine?
+created: YYYY-03-DD 01:44:58
 authors:
   - id: 1
     title: Adam Cogan
