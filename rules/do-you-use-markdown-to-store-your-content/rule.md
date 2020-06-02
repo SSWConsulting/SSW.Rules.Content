@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-markdown-to-store-your-content
+title: Do you use Markdown to store your content?
+created: YYYY-11-DD 17:36:52
 authors:
   - id: 1
     title: Adam Cogan
