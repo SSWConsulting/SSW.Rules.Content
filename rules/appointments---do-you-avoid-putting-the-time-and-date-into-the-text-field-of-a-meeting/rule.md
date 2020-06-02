@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments---do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting
+title: Appointments - Do you avoid putting the time and date into the text field of a meeting?
+created: YYYY-04-DD 06:51:13
 authors:
   - id: 1
     title: Adam Cogan
