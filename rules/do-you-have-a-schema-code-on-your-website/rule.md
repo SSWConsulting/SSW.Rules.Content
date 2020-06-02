@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-schema-code-on-your-website
+title: Do you have a Schema code on your website?
+created: YYYY-04-DD 01:42:41
 authors:
   - id: 83
     title: Camilla Rosa Silva
