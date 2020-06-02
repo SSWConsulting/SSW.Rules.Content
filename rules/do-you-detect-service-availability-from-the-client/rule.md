@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-detect-service-availability-from-the-client
+title: Do you detect service availability from the client?
+created: YYYY-12-DD 04:58:24
 authors:
   - id: 34
     title: Brendan Richards
