@@ -2,17 +2,16 @@
 
 ---
 uri: do-you-know-what-guidelines-to-follow-for-wp
-title: Do you know what guidelines to follow for WP8?
-created: YYYY-10-DD 05:42:10
+title: Do you know what guidelines to follow for WP?
+created: YYYY-11-DD 23:59:28
 authors:
-  - id: 58
-    title: Jernej Kavka
+
 ---
 
 
 
 
-<span class='intro'> Microsoft has published their User Experience Design Guidelines for Windows Phone&#58;&#160;<a href="https&#58;//msdn.microsoft.com/library/windows/apps/fa00461b-abe1-41d1-be87-0b0fe3d3389d%28v=vs.105%29.aspx">https&#58;//msdn.microsoft.com/library/windows/apps/fa00461b-abe1-41d1-be87-0b0fe3d3389d(v=vs.105).aspx​</a><br>​<br> </span>
+<span class='intro'> <p>Microsoft has extensive documentation regarding the use of WP design guidelines&#58; <a href="http&#58;//msdn.microsoft.com/en-us/library/windowsphone/design/hh202915%28v=vs.92%29.aspx">http&#58;//msdn.microsoft.com/en-us/library/windowsphone/design/hh202915(v=vs.92).aspx</a> ​</p> </span>
 
 
 
