@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-using-web-site-projects
+title: Do you avoid using Web Site Projects?
+created: YYYY-11-DD 18:41:17
 authors:
   - id: 1
     title: Adam Cogan
