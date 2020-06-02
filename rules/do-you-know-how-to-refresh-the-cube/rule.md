@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-refresh-the-cube
+title: Do you know how to refresh the Cube?
+created: YYYY-11-DD 03:52:52
 authors:
   - id: 22
     title: David Klein
