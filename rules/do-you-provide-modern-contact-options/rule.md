@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-provide-modern-contact-options
+title: Do you provide modern contact options?
+created: YYYY-10-DD 23:58:21
 authors:
   - id: 1
     title: Adam Cogan
