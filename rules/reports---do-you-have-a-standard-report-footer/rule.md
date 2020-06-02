@@ -1,6 +1,9 @@
 
 
 ---
+uri: reports---do-you-have-a-standard-report-footer
+title: Reports - Do you have a standard Report footer?
+created: YYYY-12-DD 05:46:16
 authors:
 
 ---
