@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-confirm-there-is-no-data-lost-after-the-migration
+title: Do you confirm there is no data lost after the migration
+created: YYYY-12-DD 07:18:06
 authors:
   - id: 21
     title: Matthew Hodgkins
