@@ -1,6 +1,9 @@
 
 
 ---
+uri: facebook---do-you-create-a-call-to-action-on-your-facebook-page
+title: Facebook - Do you create a call to action on your Facebook page?
+created: YYYY-05-DD 20:07:50
 authors:
   - id: 1
     title: Adam Cogan
