@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-combining-different-entities
+title: Do you avoid combining different entities?
+created: YYYY-12-DD 00:54:50
 authors:
 
 ---
