@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-generic-and-consistent-names-on-examples
+title: Do you use generic and consistent names on examples?
+created: YYYY-04-DD 20:09:58
 authors:
   - id: 1
     title: Adam Cogan
