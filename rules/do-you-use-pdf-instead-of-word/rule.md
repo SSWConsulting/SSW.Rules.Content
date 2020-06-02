@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-pdf-instead-of-word
+title: Do you use PDF instead of Word?
+created: YYYY-10-DD 01:28:50
 authors:
   - id: 71
     title: Steven Andrews
