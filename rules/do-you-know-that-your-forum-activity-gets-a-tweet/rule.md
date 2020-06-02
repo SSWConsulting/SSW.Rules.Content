@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-your-forum-activity-gets-a-tweet
+title: Do you know that your forum activity gets a tweet?
+created: YYYY-03-DD 16:31:08
 authors:
   - id: 1
     title: Adam Cogan
