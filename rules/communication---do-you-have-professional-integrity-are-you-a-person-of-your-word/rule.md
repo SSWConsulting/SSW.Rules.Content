@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-have-professional-integrity-are-you-a-person-of-your-word
+title: Communication - Do you have professional integrity? (Are you a person of your word?)
+created: YYYY-08-DD 17:23:41
 authors:
   - id: 4
     title: Ulysses Maclaren
