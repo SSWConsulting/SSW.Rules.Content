@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-each-project-a-project-page-that-you-refer-customers-to
+title: Do you give each project a project page (that you refer customers to)?
+created: YYYY-02-DD 02:45:54
 authors:
   - id: 1
     title: Adam Cogan
