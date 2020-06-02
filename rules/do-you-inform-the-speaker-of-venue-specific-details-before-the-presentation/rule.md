@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-inform-the-speaker-of-venue-specific-details-before-the-presentation
+title: Do you inform the speaker of venue specific details before the presentation?
+created: YYYY-05-DD 16:42:46
 authors:
   - id: 1
     title: Adam Cogan
