@@ -1,6 +1,9 @@
 
 
 ---
+uri: reports---do-you-keep-reporting-criteria-simple
+title: Reports - Do you keep Reporting criteria simple?
+created: YYYY-12-DD 05:47:39
 authors:
 
 ---
