@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
+title: Do you know that the editor’s aim is to be a coach, not just a video editor?
+created: YYYY-03-DD 14:08:08
 authors:
   - id: 29
     title: Raj Dhatt
