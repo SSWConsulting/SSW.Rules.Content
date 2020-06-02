@@ -1,6 +1,9 @@
 
 
 ---
+uri: why-do-we-use-vm-for-sharepoint-development
+title: Why do we use VM for SharePoint development?
+created: YYYY-02-DD 02:03:30
 authors:
   - id: 1
     title: Adam Cogan
