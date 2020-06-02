@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-automate-the-generation-of-your-api-specification-and-required-clients
+title: Do you automate the generation of your API specification and required clients?
+created: YYYY-05-DD 01:58:58
 authors:
   - id: 1
     title: Adam Cogan
