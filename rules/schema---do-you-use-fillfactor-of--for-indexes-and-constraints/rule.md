@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-use-fillfactor-of--for-indexes-and-constraints
+title: Schema - Do you use FillFactor of 90% for indexes and constraints?
+created: YYYY-11-DD 17:32:18
 authors:
   - id: 1
     title: Adam Cogan
