@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-deployment-plan
+title: Do you have a deployment plan?
+created: YYYY-08-DD 19:34:05
 authors:
 
 ---
