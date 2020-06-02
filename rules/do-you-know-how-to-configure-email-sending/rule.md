@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-configure-email-sending
+title: Do you know how to configure email sending?
+created: YYYY-11-DD 22:51:47
 authors:
   - id: 66
     title: Liam Elliott
