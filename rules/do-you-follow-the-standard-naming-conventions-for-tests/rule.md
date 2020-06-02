@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-the-standard-naming-conventions-for-tests
+title: Do you follow the standard naming conventions for tests?
+created: YYYY-03-DD 20:18:31
 authors:
   - id: 1
     title: Adam Cogan
