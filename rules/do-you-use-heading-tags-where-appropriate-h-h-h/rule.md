@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-heading-tags-where-appropriate-h-h-h
+title: Do you use heading tags where appropriate (H1, H2, H3...)?
+created: YYYY-08-DD 17:30:06
 authors:
   - id: 1
     title: Adam Cogan
