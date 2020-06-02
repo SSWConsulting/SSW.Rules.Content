@@ -1,6 +1,9 @@
 
 
 ---
+uri: general---do-you-enjoy-your-job
+title: General - Do you enjoy your job?
+created: YYYY-09-DD 17:59:27
 authors:
   - id: 1
     title: Adam Cogan
