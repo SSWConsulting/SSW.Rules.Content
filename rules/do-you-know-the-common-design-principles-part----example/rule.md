@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-common-design-principles-part----example
+title: Do you know the common Design Principles? (Part 2 - Example)
+created: YYYY-04-DD 01:45:17
 authors:
   - id: 1
     title: Adam Cogan
