@@ -1,6 +1,9 @@
 
 
 ---
+uri: less-is-more---do-you-know-people-scan-not-read
+title: Less is More - Do you know people scan, not read?
+created: YYYY-11-DD 01:44:03
 authors:
 
 ---
