@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-multilingual-support-angular
+title: Do you add multilingual support (Angular)?
+created: YYYY-11-DD 22:06:41
 authors:
   - id: 1
     title: Adam Cogan
