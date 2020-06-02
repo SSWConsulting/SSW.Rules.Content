@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-clear-text-email-addresses-in-web-pages
+title: Do you avoid clear text email addresses in web pages?
+created: YYYY-04-DD 20:39:13
 authors:
   - id: 1
     title: Adam Cogan
