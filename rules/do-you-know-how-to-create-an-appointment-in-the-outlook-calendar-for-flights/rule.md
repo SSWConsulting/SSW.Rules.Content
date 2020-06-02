@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights
+title: Do you know how to create an appointment in the Outlook calendar for flights?
+created: YYYY-04-DD 04:38:52
 authors:
   - id: 1
     title: Adam Cogan
