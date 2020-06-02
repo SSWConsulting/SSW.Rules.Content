@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-people-a-second-chance
+title: Do you give people a second chance?
+created: YYYY-09-DD 17:56:02
 authors:
   - id: 1
     title: Adam Cogan
