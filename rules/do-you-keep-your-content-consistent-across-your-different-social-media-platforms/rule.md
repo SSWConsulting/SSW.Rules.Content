@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-content-consistent-across-your-different-social-media-platforms
+title: Do you keep your content consistent across your different social media platforms?
+created: YYYY-04-DD 01:36:58
 authors:
   - id: 83
     title: Camilla Rosa Silva
