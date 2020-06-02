@@ -1,6 +1,9 @@
 
 
 ---
+uri: data-entry---do-you-know-how-to-create-new-contacts
+title: Data Entry - Do you know how to create new Contacts?
+created: YYYY-12-DD 18:33:08
 authors:
   - id: 1
     title: Adam Cogan
