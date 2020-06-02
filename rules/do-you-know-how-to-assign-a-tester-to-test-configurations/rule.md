@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-assign-a-tester-to-test-configurations
+title: Do you know how to assign a tester to test configurations?
+created: YYYY-07-DD 19:07:01
 authors:
   - id: 24
     title: Adam Stephensen
