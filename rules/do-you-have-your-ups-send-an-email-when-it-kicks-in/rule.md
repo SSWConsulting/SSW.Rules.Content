@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-your-ups-send-an-email-when-it-kicks-in
+title: Do you have your UPS send an email when it kicks in?
+created: YYYY-07-DD 00:21:30
 authors:
   - id: 1
     title: Adam Cogan
