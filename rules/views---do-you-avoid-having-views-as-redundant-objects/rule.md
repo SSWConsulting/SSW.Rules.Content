@@ -1,6 +1,9 @@
 
 
 ---
+uri: views---do-you-avoid-having-views-as-redundant-objects
+title: Views - Do you avoid having views as redundant objects?
+created: YYYY-11-DD 20:59:16
 authors:
   - id: 1
     title: Adam Cogan
