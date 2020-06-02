@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-your-windows-forms-have-border-protection
+title: Do your Windows Forms have border protection?
+created: YYYY-12-DD 01:03:09
 authors:
 
 ---
