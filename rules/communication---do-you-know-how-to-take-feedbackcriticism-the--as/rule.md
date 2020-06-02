@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-know-how-to-take-feedbackcriticism-the--as
+title: Communication - Do you know how to take feedback/criticism (The 3 A’s)?
+created: YYYY-03-DD 20:55:30
 authors:
   - id: 1
     title: Adam Cogan
