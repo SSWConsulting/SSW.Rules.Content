@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-ready-function
+title: Do you use the .ready() function?
+created: YYYY-04-DD 06:39:55
 authors:
   - id: 23
     title: Damian Brady
