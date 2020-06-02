@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-call-angularjs-services-from-your-kendo-datasource
+title: Do you call AngularJS services from your Kendo datasource?
+created: YYYY-05-DD 19:23:00
 authors:
   - id: 44
     title: Duncan Hunter
