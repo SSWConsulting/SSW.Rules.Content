@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-enable-presentation-mode-in-visual-studio
+title: Do you enable presentation mode in Visual Studio
+created: YYYY-02-DD 15:49:20
 authors:
   - id: 1
     title: Adam Cogan
