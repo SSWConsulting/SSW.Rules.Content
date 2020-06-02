@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-target-the-right-people
+title: Do you target the right people?
+created: YYYY-04-DD 22:00:45
 authors:
   - id: 1
     title: Adam Cogan
