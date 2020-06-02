@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-developers-should-do-all-their-custom-work-in-their-own-sharepoint-development-environment
+title: Do you know that developers should do all their custom work in their own SharePoint development environment?
+created: YYYY-04-DD 09:00:40
 authors:
   - id: 8
     title: John Liu
