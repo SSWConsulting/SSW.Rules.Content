@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-where-to-store-your-applications-files
+title: Do you know where to store your application's files?
+created: YYYY-04-DD 17:49:25
 authors:
   - id: 1
     title: Adam Cogan
