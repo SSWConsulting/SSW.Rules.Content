@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-common-design-patterns-part-
+title: Do you know the common Design Patterns? (Part 1)
+created: YYYY-04-DD 04:44:06
 authors:
   - id: 1
     title: Adam Cogan
