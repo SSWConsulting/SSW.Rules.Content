@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-the-requirements-to-create-a-new-repository
+title: Do you know to the requirements to create a new repository?
+created: YYYY-02-DD 18:34:17
 authors:
   - id: 24
     title: Adam Stephensen
