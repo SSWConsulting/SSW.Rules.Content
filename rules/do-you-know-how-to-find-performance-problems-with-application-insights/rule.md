@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-find-performance-problems-with-application-insights
+title: Do you know how to find performance problems with Application Insights?
+created: YYYY-10-DD 13:34:58
 authors:
   - id: 45
     title: Chris Briggs
