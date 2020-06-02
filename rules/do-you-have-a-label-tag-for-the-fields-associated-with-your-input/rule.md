@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-label-tag-for-the-fields-associated-with-your-input
+title: Do you have a label tag for the fields associated with your input?
+created: YYYY-12-DD 18:47:45
 authors:
   - id: 1
     title: Adam Cogan
