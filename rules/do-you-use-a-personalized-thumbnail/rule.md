@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-personalized-thumbnail
+title: Do you use a personalized thumbnail?
+created: YYYY-05-DD 22:28:44
 authors:
   - id: 74
     title: Florent Dezettre
