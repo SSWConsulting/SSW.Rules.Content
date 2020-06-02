@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-fluent-validation
+title: Do you use Fluent Validation?
+created: YYYY-01-DD 18:39:08
 authors:
   - id: 34
     title: Brendan Richards
