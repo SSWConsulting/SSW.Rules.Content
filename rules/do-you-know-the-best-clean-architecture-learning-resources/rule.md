@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-clean-architecture-learning-resources
+title: Do you know the best Clean Architecture learning resources?
+created: YYYY-02-DD 21:35:13
 authors:
   - id: 1
     title: Adam Cogan
