@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments---do-you-know-how-to-reply-all-to-an-appointment
+title: Appointments - Do you know how to Reply All to an Appointment?
+created: YYYY-04-DD 05:16:31
 authors:
   - id: 1
     title: Adam Cogan
