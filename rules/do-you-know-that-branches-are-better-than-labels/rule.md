@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-branches-are-better-than-labels
+title: Do you know that branches are better than Labels?
+created: YYYY-11-DD 03:52:47
 authors:
   - id: 22
     title: David Klein
