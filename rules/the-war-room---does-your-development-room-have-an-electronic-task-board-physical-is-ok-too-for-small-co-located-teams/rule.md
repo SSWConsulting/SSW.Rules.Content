@@ -1,6 +1,9 @@
 
 
 ---
+uri: the-war-room---does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams
+title: The War Room - Does your development room have an electronic task board? (Physical is OK too for small, co-located teams)
+created: YYYY-06-DD 04:28:01
 authors:
   - id: 1
     title: Adam Cogan
