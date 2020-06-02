@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-your-robotstxt-file-effectively
+title: Do you use your Robots.txt file effectively?
+created: YYYY-11-DD 19:49:04
 authors:
   - id: 1
     title: Adam Cogan
