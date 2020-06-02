@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-only-use-unicode-datatypes-nchar-nvarchar-and-ntext-in-special-circumstances
+title: Schema - Do you only use Unicode datatypes (nchar, nvarchar and ntext) in special circumstances?
+created: YYYY-11-DD 22:41:29
 authors:
   - id: 1
     title: Adam Cogan
