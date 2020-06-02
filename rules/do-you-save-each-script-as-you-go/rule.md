@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-save-each-script-as-you-go
+title: Do you save each script as you go?
+created: YYYY-10-DD 23:42:21
 authors:
   - id: 1
     title: Adam Cogan
