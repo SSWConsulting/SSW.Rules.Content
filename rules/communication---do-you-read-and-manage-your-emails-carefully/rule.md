@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-read-and-manage-your-emails-carefully
+title: Communication - Do you read and manage your emails carefully?
+created: YYYY-05-DD 10:17:52
 authors:
 
 ---
