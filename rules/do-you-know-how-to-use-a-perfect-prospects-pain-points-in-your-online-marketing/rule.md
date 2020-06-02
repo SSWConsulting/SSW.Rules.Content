@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-a-perfect-prospects-pain-points-in-your-online-marketing
+title: Do you know how to use a perfect prospect’s pain points in your online marketing?
+created: YYYY-06-DD 05:38:48
 authors:
   - id: 83
     title: Camilla Rosa Silva
