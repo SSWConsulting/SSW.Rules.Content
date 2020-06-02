@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-minimize-your-outlook-distractions
+title: Do you minimize your Outlook Distractions?
+created: YYYY-03-DD 02:55:57
 authors:
   - id: 1
     title: Adam Cogan
