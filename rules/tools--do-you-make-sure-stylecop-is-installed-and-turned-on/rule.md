@@ -1,6 +1,9 @@
 
 
 ---
+uri: tools--do-you-make-sure-stylecop-is-installed-and-turned-on
+title: Tools – Do you make sure StyleCop is installed and turned on?
+created: YYYY-04-DD 23:02:07
 authors:
   - id: 1
     title: Adam Cogan
