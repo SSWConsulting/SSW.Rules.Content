@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-up-course-attendees-for-consulting-work
+title: Do you follow up course attendees for consulting work?
+created: YYYY-08-DD 13:07:15
 authors:
   - id: 1
     title: Adam Cogan
