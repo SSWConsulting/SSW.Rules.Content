@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-jquery-instead-of-javascript
+title: Do you use jQuery instead of JavaScript?
+created: YYYY-11-DD 15:55:05
 authors:
   - id: 1
     title: Adam Cogan
