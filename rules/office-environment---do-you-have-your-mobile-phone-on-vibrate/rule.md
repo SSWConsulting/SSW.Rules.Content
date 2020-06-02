@@ -1,6 +1,9 @@
 
 
 ---
+uri: office-environment---do-you-have-your-mobile-phone-on-vibrate
+title: Office environment - Do you have your mobile phone on vibrate?
+created: YYYY-03-DD 21:31:03
 authors:
   - id: 1
     title: Adam Cogan
