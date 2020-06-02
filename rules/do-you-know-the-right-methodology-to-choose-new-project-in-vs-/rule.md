@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-right-methodology-to-choose-new-project-in-vs-
+title: Do you know the right methodology to choose (new project in VS 2012)?
+created: YYYY-11-DD 05:38:39
 authors:
   - id: 10
     title: Lei Xu
