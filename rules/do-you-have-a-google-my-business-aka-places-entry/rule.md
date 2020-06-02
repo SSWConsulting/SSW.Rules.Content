@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-google-my-business-aka-places-entry
+title: Do you have a Google My Business (aka Places) entry?
+created: YYYY-11-DD 20:36:16
 authors:
   - id: 1
     title: Adam Cogan
