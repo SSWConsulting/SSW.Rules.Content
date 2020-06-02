@@ -1,6 +1,9 @@
 
 
 ---
+uri: tools---do-you-know-the-best-ide-for-angular-and-react
+title: Tools - Do you know the best IDE for Angular and React?
+created: YYYY-01-DD 19:17:23
 authors:
   - id: 24
     title: Adam Stephensen
