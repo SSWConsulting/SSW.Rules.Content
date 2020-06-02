@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-confirm-there-is-no-checked-out-data
+title: Do you confirm there is no checked out data?
+created: YYYY-05-DD 03:08:59
 authors:
   - id: 70
     title: Greg Harris
