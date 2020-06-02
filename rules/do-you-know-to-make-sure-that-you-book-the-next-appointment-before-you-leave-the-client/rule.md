@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-make-sure-that-you-book-the-next-appointment-before-you-leave-the-client
+title: Do you know to make sure that you book the next appointment before you leave the client?
+created: YYYY-10-DD 08:15:32
 authors:
   - id: 1
     title: Adam Cogan
