@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-avoid-using-indexes-on-rowguid-column
+title: Schema - Do you avoid using indexes on RowGuid column?
+created: YYYY-11-DD 01:32:42
 authors:
   - id: 1
     title: Adam Cogan
