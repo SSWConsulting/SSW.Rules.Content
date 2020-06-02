@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review
+title: Do you know the difference between a brief proposal and a specification review?
+created: YYYY-07-DD 02:42:14
 authors:
 
 ---
