@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-dash-cam
+title: Do you have a dash cam?
+created: YYYY-03-DD 20:38:36
 authors:
   - id: 1
     title: Adam Cogan
