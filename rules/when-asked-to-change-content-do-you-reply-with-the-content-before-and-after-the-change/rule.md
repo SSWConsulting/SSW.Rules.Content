@@ -1,6 +1,9 @@
 
 
 ---
+uri: when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
+title: When asked to change content, do you reply with the content before and after the change?
+created: YYYY-03-DD 02:58:51
 authors:
   - id: 1
     title: Adam Cogan
