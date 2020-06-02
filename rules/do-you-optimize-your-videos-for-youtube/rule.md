@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-optimize-your-videos-for-youtube
+title: Do you optimize your videos for YouTube?
+created: YYYY-05-DD 00:08:58
 authors:
   - id: 74
     title: Florent Dezettre
