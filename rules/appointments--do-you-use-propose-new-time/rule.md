@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments--do-you-use-propose-new-time
+title: Appointments – Do you use Propose New Time?
+created: YYYY-11-DD 19:46:32
 authors:
   - id: 36
     title: Daniel Šmon
