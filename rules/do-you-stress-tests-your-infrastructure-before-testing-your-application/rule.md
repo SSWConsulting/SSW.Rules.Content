@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-stress-tests-your-infrastructure-before-testing-your-application
+title: Do you stress tests your infrastructure before testing your application?
+created: YYYY-04-DD 18:22:45
 authors:
   - id: 3
     title: Eric Phan
