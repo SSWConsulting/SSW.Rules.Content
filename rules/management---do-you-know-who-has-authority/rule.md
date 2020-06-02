@@ -1,6 +1,9 @@
 
 
 ---
+uri: management---do-you-know-who-has-authority
+title: Management - Do you know who has authority?
+created: YYYY-02-DD 02:27:53
 authors:
   - id: 1
     title: Adam Cogan
