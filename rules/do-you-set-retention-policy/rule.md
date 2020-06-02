@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-set-retention-policy
+title: Do you set retention policy?
+created: YYYY-05-DD 06:41:05
 authors:
   - id: 46
     title: Danijel Malik
