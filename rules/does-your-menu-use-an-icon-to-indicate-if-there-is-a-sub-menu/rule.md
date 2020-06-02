@@ -1,6 +1,9 @@
 
 
 ---
+uri: does-your-menu-use-an-icon-to-indicate-if-there-is-a-sub-menu
+title: Does your menu use an icon to indicate if there is a sub menu?
+created: YYYY-02-DD 03:00:07
 authors:
 
 ---
