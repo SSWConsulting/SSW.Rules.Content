@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-gzip
+title: Do you use Gzip?
+created: YYYY-05-DD 03:05:06
 authors:
   - id: 82
     title: Barry Sanders
