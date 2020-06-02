@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-link-auditor-to-tell-you-about-bad-links
+title: Do you use Link Auditor to tell you about bad links?
+created: YYYY-08-DD 17:35:03
 authors:
   - id: 1
     title: Adam Cogan
