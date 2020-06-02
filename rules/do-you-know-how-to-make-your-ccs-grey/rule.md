@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-make-your-ccs-grey
+title: Do you know how to make your CC’s grey?
+created: YYYY-06-DD 18:58:03
 authors:
   - id: 1
     title: Adam Cogan
