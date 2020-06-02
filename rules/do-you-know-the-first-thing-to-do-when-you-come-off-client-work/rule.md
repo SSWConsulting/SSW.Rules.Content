@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work
+title: Do you know the first thing to do when you come off client work?
+created: YYYY-07-DD 06:28:30
 authors:
 
 ---
