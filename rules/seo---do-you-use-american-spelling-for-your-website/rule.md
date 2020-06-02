@@ -1,6 +1,9 @@
 
 
 ---
+uri: seo---do-you-use-american-spelling-for-your-website
+title: SEO - Do you use American spelling for your Website?
+created: YYYY-10-DD 19:08:40
 authors:
   - id: 4
     title: Ulysses Maclaren
