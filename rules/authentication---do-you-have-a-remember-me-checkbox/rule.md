@@ -1,6 +1,9 @@
 
 
 ---
+uri: authentication---do-you-have-a-remember-me-checkbox
+title: Authentication - Do you have a 'Remember me' checkbox?
+created: YYYY-12-DD 20:13:20
 authors:
   - id: 1
     title: Adam Cogan
