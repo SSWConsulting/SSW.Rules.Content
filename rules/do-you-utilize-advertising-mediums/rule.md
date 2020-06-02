@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-utilize-advertising-mediums
+title: Do you utilize advertising mediums?
+created: YYYY-10-DD 19:29:09
 authors:
   - id: 4
     title: Ulysses Maclaren
