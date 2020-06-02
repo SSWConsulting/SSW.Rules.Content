@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-create-a-custom-library-provider
+title: Do you know to create a Custom Library Provider?
+created: YYYY-04-DD 21:24:21
 authors:
   - id: 1
     title: Adam Cogan
