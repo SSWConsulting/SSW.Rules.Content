@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-change-the-connection-timeout-to--seconds
+title: Do you change the connection timeout to 5 seconds?
+created: YYYY-04-DD 20:09:55
 authors:
   - id: 1
     title: Adam Cogan
