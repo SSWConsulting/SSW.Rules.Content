@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-not-to-put-exit-sub-before-end-sub-vb
+title: Do you know not to put Exit Sub before End Sub? (VB)
+created: YYYY-04-DD 21:23:55
 authors:
   - id: 1
     title: Adam Cogan
