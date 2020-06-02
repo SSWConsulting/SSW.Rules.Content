@@ -1,6 +1,9 @@
 
 
 ---
+uri: meetings---do-you-know-the-way-meetings-should-work
+title: Meetings - Do you know the way meetings should work?
+created: YYYY-07-DD 06:08:10
 authors:
 
 ---
