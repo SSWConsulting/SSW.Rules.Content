@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-remove-the-need-to-type-tfs-
+title: Do you remove the need to type “/tfs” ?
+created: YYYY-05-DD 19:49:26
 authors:
   - id: 1
     title: Adam Cogan
