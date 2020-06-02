@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-thoroughly-test-employment-candidates
+title: Do you thoroughly test employment candidates?
+created: YYYY-03-DD 07:26:02
 authors:
   - id: 1
     title: Adam Cogan
