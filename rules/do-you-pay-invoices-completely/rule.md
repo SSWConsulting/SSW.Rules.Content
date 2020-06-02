@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-pay-invoices-completely
+title: Do you pay invoices completely?
+created: YYYY-07-DD 22:46:03
 authors:
   - id: 1
     title: Adam Cogan
