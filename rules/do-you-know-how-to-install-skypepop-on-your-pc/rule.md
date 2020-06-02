@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-install-skypepop-on-your-pc
+title: Do you know how to install SkypePOP on your PC?
+created: YYYY-12-DD 21:04:20
 authors:
   - id: 4
     title: Ulysses Maclaren
