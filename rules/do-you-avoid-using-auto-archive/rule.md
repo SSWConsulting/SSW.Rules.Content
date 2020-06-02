@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-using-auto-archive
+title: Do you avoid using Auto Archive?
+created: YYYY-04-DD 06:53:35
 authors:
   - id: 1
     title: Adam Cogan
