@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-to-do-when-running-out-of-disk-space
+title: Do you know what to do when running out of disk space?
+created: YYYY-09-DD 18:40:52
 authors:
   - id: 1
     title: Adam Cogan
