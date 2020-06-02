@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-your-client-informed-of-progress
+title: Do you keep your client informed of progress?
+created: YYYY-09-DD 17:50:48
 authors:
   - id: 1
     title: Adam Cogan
