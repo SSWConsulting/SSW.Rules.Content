@@ -1,6 +1,9 @@
 
 
 ---
+uri: interruptions---do-you-know-important-chats-should-be-in-an-email
+title: Interruptions - Do you know important chats should be in an email?
+created: YYYY-10-DD 01:40:51
 authors:
   - id: 1
     title: Adam Cogan
