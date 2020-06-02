@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-one-case-where-you-use-a-crm-lead
+title: Do you know the one case where you use a CRM lead?
+created: YYYY-12-DD 17:10:45
 authors:
   - id: 1
     title: Adam Cogan
