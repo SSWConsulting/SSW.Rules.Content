@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-the-history-of-an-email
+title: Do you keep the history of an email?
+created: YYYY-03-DD 04:14:04
 authors:
   - id: 1
     title: Adam Cogan
