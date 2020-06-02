@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-which-packages-to-add-to-your-new-mvc-project
+title: Do You Know Which Packages To Add To Your New MVC Project?
+created: YYYY-12-DD 00:24:02
 authors:
   - id: 3
     title: Eric Phan
