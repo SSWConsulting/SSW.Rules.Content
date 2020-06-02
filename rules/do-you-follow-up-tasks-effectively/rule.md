@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-follow-up-tasks-effectively
+title: Do you follow up tasks effectively?
+created: YYYY-03-DD 03:06:15
 authors:
   - id: 1
     title: Adam Cogan
