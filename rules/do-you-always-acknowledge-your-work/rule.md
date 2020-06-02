@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-acknowledge-your-work
+title: Do you always acknowledge your work?
+created: YYYY-12-DD 19:01:12
 authors:
   - id: 1
     title: Adam Cogan
