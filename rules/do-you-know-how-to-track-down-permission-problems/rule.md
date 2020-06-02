@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-track-down-permission-problems
+title: Do you know how to track down permission problems?
+created: YYYY-10-DD 15:22:15
 authors:
   - id: 33
     title: Gerard Beckerleg
