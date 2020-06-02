@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-migrate-reporting-service-reports
+title: Do you know how to migrate reporting service reports
+created: YYYY-10-DD 08:35:33
 authors:
   - id: 61
     title: Moss Gu
