@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-format-environmentnewline-at-the-end-of-a-line
+title: Do you format "Environment.NewLine" at the end of a line?
+created: YYYY-04-DD 21:46:51
 authors:
   - id: 1
     title: Adam Cogan
