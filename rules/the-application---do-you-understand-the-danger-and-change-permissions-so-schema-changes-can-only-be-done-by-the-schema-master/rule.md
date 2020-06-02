@@ -1,6 +1,9 @@
 
 
 ---
+uri: the-application---do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
+title: The application - Do you understand the danger, and change permissions so "Schema Changes" can only be done by the "Schema Master"?
+created: YYYY-10-DD 00:04:12
 authors:
   - id: 1
     title: Adam Cogan
