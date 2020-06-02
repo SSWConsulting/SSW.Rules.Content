@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
+title: Do you sometimes write off small amounts of time to keep clients happy?
+created: YYYY-07-DD 07:21:51
 authors:
   - id: 2
     title: Cameron Shaw
