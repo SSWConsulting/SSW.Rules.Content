@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments---do-you-send-outlook-calendar-appointments-when-appropriate
+title: Appointments - Do you send Outlook Calendar appointments when appropriate?
+created: YYYY-04-DD 03:37:31
 authors:
   - id: 1
     title: Adam Cogan
