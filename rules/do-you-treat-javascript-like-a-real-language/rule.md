@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-treat-javascript-like-a-real-language
+title: Do you treat JavaScript like a real language?
+created: YYYY-04-DD 06:08:14
 authors:
   - id: 23
     title: Damian Brady
