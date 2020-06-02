@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-apply-tags-to-your-azure-resource-groups
+title: Do you apply Tags to your Azure Resource Groups?
+created: YYYY-12-DD 22:00:09
 authors:
   - id: 1
     title: Adam Cogan
