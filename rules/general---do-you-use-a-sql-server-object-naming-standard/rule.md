@@ -1,6 +1,9 @@
 
 
 ---
+uri: general---do-you-use-a-sql-server-object-naming-standard
+title: General - Do you use a SQL Server Object Naming Standard?
+created: YYYY-12-DD 04:20:06
 authors:
   - id: 1
     title: Adam Cogan
