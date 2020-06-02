@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-know-commas-and-full-stops-always-should-have--space-after-them
+title: Tiny: Do you know commas and full stops always should have 1 space after them?
+created: YYYY-04-DD 02:41:54
 authors:
 
 ---
