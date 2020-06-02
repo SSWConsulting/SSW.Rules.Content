@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-when-to-do-use-checked-by-xxx
+title: Do you know when to do use 'Checked by xxx'?
+created: YYYY-03-DD 06:05:18
 authors:
   - id: 1
     title: Adam Cogan
