@@ -1,6 +1,9 @@
 
 
 ---
+uri: column-data---do-you-do-alphanumeric-down-instead-of-across
+title: Column Data - Do you do alphanumeric down instead of across?
+created: YYYY-11-DD 01:58:25
 authors:
 
 ---
