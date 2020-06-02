@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-use-semicolons-on-your-js-file
+title: Do you always use semicolons on your JS file?
+created: YYYY-07-DD 18:12:03
 authors:
   - id: 16
     title: Tiago Araujo
