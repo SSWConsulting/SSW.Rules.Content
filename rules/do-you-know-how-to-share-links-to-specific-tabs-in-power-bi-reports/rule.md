@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-share-links-to-specific-tabs-in-power-bi-reports
+title: Do you know how to share links to specific tabs in Power BI reports
+created: YYYY-01-DD 03:52:35
 authors:
   - id: 4
     title: Ulysses Maclaren
