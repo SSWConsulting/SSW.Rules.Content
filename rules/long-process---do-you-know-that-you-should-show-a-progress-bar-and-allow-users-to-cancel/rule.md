@@ -1,6 +1,9 @@
 
 
 ---
+uri: long-process---do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel
+title: Long Process - Do you know that you should show a progress bar and allow users to cancel?
+created: YYYY-11-DD 03:05:05
 authors:
 
 ---
