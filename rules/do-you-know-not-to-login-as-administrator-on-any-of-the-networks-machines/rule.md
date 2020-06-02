@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-not-to-login-as-administrator-on-any-of-the-networks-machines
+title: Do you know not to login as Administrator on any of the networks machines?
+created: YYYY-09-DD 18:22:13
 authors:
   - id: 1
     title: Adam Cogan
