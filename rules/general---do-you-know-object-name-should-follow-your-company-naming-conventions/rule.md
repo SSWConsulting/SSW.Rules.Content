@@ -1,6 +1,9 @@
 
 
 ---
+uri: general---do-you-know-object-name-should-follow-your-company-naming-conventions
+title: General - Do you know object name should follow your company Naming Conventions?
+created: YYYY-11-DD 21:48:00
 authors:
   - id: 1
     title: Adam Cogan
