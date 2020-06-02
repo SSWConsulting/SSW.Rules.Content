@@ -1,6 +1,9 @@
 
 
 ---
+uri: communication---do-you-use-correct-english-at-work
+title: Communication - Do you use correct English at work?
+created: YYYY-09-DD 18:00:12
 authors:
   - id: 1
     title: Adam Cogan
