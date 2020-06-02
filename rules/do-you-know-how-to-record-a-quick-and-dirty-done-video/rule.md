@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-record-a-quick-and-dirty-done-video
+title: Do you know how to record a quick and dirty 'Done Video'?
+created: YYYY-05-DD 09:09:50
 authors:
   - id: 37
     title: Ben Cull
