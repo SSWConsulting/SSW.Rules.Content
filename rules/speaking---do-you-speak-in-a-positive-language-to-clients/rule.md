@@ -1,6 +1,9 @@
 
 
 ---
+uri: speaking---do-you-speak-in-a-positive-language-to-clients
+title: Speaking - Do you speak in a positive language to clients?
+created: YYYY-07-DD 06:41:34
 authors:
   - id: 1
     title: Adam Cogan
