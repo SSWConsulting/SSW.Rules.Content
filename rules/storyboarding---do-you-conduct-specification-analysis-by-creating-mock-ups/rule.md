@@ -1,6 +1,9 @@
 
 
 ---
+uri: storyboarding---do-you-conduct-specification-analysis-by-creating-mock-ups
+title: Storyboarding - Do you conduct specification analysis by creating mock-ups?
+created: YYYY-02-DD 09:45:02
 authors:
   - id: 1
     title: Adam Cogan
