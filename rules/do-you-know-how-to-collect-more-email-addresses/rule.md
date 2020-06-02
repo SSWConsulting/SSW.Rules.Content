@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-collect-more-email-addresses
+title: Do you know how to collect more email addresses?
+created: YYYY-10-DD 00:18:11
 authors:
 
 ---
