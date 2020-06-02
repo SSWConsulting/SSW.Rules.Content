@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-sell-the-sizzle-not-the-steak
+title: Do you sell the sizzle, not the steak?
+created: YYYY-10-DD 17:07:27
 authors:
   - id: 4
     title: Ulysses Maclaren
