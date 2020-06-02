@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-an-ellipsis--to-indicate-an-action-requiring-more-user-input
+title: Do you use an ellipsis (...) to indicate an action requiring more user input?
+created: YYYY-11-DD 09:08:21
 authors:
 
 ---
