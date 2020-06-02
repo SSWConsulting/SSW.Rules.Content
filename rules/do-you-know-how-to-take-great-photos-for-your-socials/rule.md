@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-take-great-photos-for-your-socials
+title: Do you know how to take great photos for your socials?
+created: YYYY-02-DD 23:06:04
 authors:
   - id: 83
     title: Camilla Rosa Silva
