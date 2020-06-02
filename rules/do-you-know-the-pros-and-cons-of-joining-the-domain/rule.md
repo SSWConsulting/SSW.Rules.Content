@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-pros-and-cons-of-joining-the-domain
+title: Do you know the pros and cons of joining the domain?
+created: YYYY-11-DD 00:56:28
 authors:
   - id: 73
     title: Kaique Biancatti
