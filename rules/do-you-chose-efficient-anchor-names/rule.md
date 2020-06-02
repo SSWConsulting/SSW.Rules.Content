@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-chose-efficient-anchor-names
+title: Do you chose efficient anchor names?
+created: YYYY-08-DD 19:57:36
 authors:
   - id: 1
     title: Adam Cogan
