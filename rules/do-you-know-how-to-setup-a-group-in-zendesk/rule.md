@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-setup-a-group-in-zendesk
+title: Do you know how to setup a group in Zendesk?
+created: YYYY-05-DD 01:01:47
 authors:
   - id: 30
     title: Marlon Marescia
