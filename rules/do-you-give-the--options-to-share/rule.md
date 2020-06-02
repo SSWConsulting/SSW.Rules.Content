@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-the--options-to-share
+title: Do you give the 6 options to share?
+created: YYYY-11-DD 02:16:07
 authors:
 
 ---
