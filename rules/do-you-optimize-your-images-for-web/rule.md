@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-optimize-your-images-for-web
+title: Do you optimize your images for web?
+created: YYYY-02-DD 17:13:26
 authors:
   - id: 1
     title: Adam Cogan
