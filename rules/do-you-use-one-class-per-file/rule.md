@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-one-class-per-file
+title: Do you use one class per file?
+created: YYYY-05-DD 02:03:55
 authors:
   - id: 1
     title: Adam Cogan
