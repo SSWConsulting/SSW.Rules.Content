@@ -1,6 +1,9 @@
 
 
 ---
+uri: stored-procedures---do-you-know-sql-stored-procedure-names-should-be-prefixed-with-the-owner
+title: Stored Procedures - Do you know SQL stored procedure names should be prefixed with the owner?
+created: YYYY-11-DD 23:28:52
 authors:
   - id: 1
     title: Adam Cogan
