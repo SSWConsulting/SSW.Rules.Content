@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-submit-all-your-software-to-download-sites
+title: Do you submit all your software to download sites?
+created: YYYY-11-DD 19:41:42
 authors:
   - id: 1
     title: Adam Cogan
