@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-script-out-all-changes
+title: ​DBAs - Do you script out all changes?
+created: YYYY-11-DD 19:21:18
 authors:
   - id: 1
     title: Adam Cogan
