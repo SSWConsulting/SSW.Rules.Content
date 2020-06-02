@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-dependency-injection-centric-architecture-
+title: Do You Use a Dependency Injection Centric Architecture ?
+created: YYYY-10-DD 19:11:41
 authors:
   - id: 24
     title: Adam Stephensen
