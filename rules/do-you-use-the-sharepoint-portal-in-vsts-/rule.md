@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-sharepoint-portal-in-vsts-
+title: Do you use the SharePoint portal in VSTS 2012?
+created: YYYY-11-DD 06:23:08
 authors:
   - id: 1
     title: Adam Cogan
