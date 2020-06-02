@@ -1,6 +1,9 @@
 
 
 ---
+uri: twitter---do-you-know-how-to-verify-your-account
+title: Twitter - Do you know how to verify your account?
+created: YYYY-07-DD 04:52:07
 authors:
   - id: 1
     title: Adam Cogan
