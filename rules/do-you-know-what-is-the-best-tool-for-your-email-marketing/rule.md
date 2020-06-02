@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-is-the-best-tool-for-your-email-marketing
+title: Do you know what is the best tool for your email marketing?
+created: YYYY-11-DD 00:02:48
 authors:
   - id: 1
     title: Adam Cogan
