@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-seek-approval-for-your-social-media-content
+title: Do you know to seek approval for your social media content?
+created: YYYY-05-DD 02:58:46
 authors:
   - id: 83
     title: Camilla Rosa Silva
