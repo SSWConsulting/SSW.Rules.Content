@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-ticketing-systems
+title: Do you know the best ticketing systems?
+created: YYYY-11-DD 23:43:59
 authors:
   - id: 1
     title: Adam Cogan
