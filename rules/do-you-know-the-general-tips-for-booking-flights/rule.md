@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-general-tips-for-booking-flights
+title: Do you know the general tips for booking flights?
+created: YYYY-04-DD 02:57:03
 authors:
   - id: 1
     title: Adam Cogan
