@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
+title: Do you have a DOG (AKA digital on-screen graphic) on your videos?
+created: YYYY-09-DD 18:31:20
 authors:
   - id: 27
     title: Titus Maclaren
