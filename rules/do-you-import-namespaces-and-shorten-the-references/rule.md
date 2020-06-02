@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-import-namespaces-and-shorten-the-references
+title: Do you import namespaces and shorten the references?
+created: YYYY-04-DD 22:28:24
 authors:
   - id: 1
     title: Adam Cogan
