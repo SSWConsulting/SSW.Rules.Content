@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-group-policy-to-apply-settings-to-all-of-your-pcs
+title: Do you use Group Policy to Apply Settings to all of your PCs?
+created: YYYY-03-DD 05:45:10
 authors:
   - id: 47
     title: Stanley Sidik
