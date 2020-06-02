@@ -1,6 +1,9 @@
 
 
 ---
+uri: done---do-you-go-beyond-done-and-follow-a-definition-of-done
+title: Done - Do you go beyond 'Done' and follow a 'Definition of Done'?
+created: YYYY-02-DD 00:09:02
 authors:
   - id: 1
     title: Adam Cogan
