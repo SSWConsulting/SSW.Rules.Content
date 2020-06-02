@@ -1,6 +1,9 @@
 
 
 ---
+uri: comments---do-you-have-brand-at-the-top-of-each-file
+title: Comments - Do you have brand at the top of each file?
+created: YYYY-04-DD 23:39:43
 authors:
   - id: 1
     title: Adam Cogan
