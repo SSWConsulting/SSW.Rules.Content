@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-do-your-validation-with-return
+title: Do you do your validation with Return?
+created: YYYY-04-DD 23:05:48
 authors:
   - id: 1
     title: Adam Cogan
