@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-way-to-install-dpm
+title: Do you know the best way to install DPM?
+created: YYYY-06-DD 02:32:32
 authors:
   - id: 21
     title: Matthew Hodgkins
