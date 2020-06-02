@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-brand-your-events
+title: Do you brand your events?
+created: YYYY-11-DD 18:05:30
 authors:
   - id: 1
     title: Adam Cogan
