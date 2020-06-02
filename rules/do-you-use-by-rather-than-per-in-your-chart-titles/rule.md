@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-by-rather-than-per-in-your-chart-titles
+title: Do you use “by” rather than “per” in your chart titles?
+created: YYYY-06-DD 22:16:46
 authors:
   - id: 1
     title: Adam Cogan
