@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-provide-at-least-two-days-notice-for-people-in-other-time-zones
+title: Do you provide at least two days’ notice for people in other time zones?
+created: YYYY-11-DD 23:38:57
 authors:
 
 ---
