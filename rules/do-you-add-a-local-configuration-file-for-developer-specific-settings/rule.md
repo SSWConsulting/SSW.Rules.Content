@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-a-local-configuration-file-for-developer-specific-settings
+title: Do you add a local configuration file for developer-specific settings?
+created: YYYY-01-DD 19:45:12
 authors:
   - id: 1
     title: Adam Cogan
