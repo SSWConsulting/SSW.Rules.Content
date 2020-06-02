@@ -1,6 +1,9 @@
 
 
 ---
+uri: management---do-you-fix-bugs-first
+title: Management - Do you fix bugs first?
+created: YYYY-02-DD 09:43:45
 authors:
   - id: 1
     title: Adam Cogan
