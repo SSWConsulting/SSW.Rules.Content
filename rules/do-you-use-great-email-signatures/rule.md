@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-great-email-signatures
+title: Do you use great email signatures?
+created: YYYY-11-DD 20:01:33
 authors:
   - id: 1
     title: Adam Cogan
