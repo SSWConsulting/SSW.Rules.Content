@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-have-a-defaultindex-page
+title: Do you always have a default/index page?
+created: YYYY-08-DD 19:20:27
 authors:
   - id: 1
     title: Adam Cogan
