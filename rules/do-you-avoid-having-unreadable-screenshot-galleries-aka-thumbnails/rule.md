@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
+title: Do you avoid having unreadable screenshot galleries (aka thumbnails)?
+created: YYYY-10-DD 00:30:14
 authors:
 
 ---
