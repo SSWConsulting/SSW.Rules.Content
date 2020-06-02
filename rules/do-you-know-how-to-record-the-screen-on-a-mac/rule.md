@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-record-the-screen-on-a-mac
+title: Do you know how to record the screen on a Mac?
+created: YYYY-12-DD 12:03:19
 authors:
   - id: 36
     title: Daniel Šmon
