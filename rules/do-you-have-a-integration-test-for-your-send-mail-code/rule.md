@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-integration-test-for-your-send-mail-code
+title: Do you have a integration test for your send mail code?
+created: YYYY-03-DD 20:42:54
 authors:
   - id: 1
     title: Adam Cogan
