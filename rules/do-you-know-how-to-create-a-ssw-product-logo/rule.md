@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-create-a-ssw-product-logo
+title: Do you know how to create a SSW product logo?
+created: YYYY-11-DD 05:37:38
 authors:
   - id: 90
     title: Ken Shi
