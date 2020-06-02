@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-get-your-rules-proof-read
+title: Do you always get your rules proof read?
+created: YYYY-03-DD 01:00:47
 authors:
 
 ---
