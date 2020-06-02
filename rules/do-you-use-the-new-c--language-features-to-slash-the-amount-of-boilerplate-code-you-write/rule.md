@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-new-c--language-features-to-slash-the-amount-of-boilerplate-code-you-write
+title: Do you use the new C# 7 language features to slash the amount of boilerplate code you write?
+created: YYYY-04-DD 22:39:55
 authors:
   - id: 1
     title: Adam Cogan
