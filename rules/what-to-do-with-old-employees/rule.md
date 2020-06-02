@@ -1,6 +1,9 @@
 
 
 ---
+uri: what-to-do-with-old-employees
+title: What to do with old employees?
+created: YYYY-01-DD 11:02:26
 authors:
   - id: 46
     title: Danijel Malik
