@@ -1,6 +1,9 @@
 
 
 ---
+uri: tasks---do-you-know-to-use-clear-task-descriptions
+title: Tasks - Do you know to use clear task descriptions?
+created: YYYY-04-DD 17:56:54
 authors:
   - id: 1
     title: Adam Cogan
