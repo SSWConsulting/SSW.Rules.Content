@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-connection-string-in-net-
+title: Do you know how to use Connection String in .NET 2.0?
+created: YYYY-05-DD 08:53:04
 authors:
   - id: 1
     title: Adam Cogan
