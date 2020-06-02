@@ -40,6 +40,6 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
-    { resolve: `gatsby-transformer-remark` }
+    { resolve: 'gatsby-transformer-remark' },
   ],
 };

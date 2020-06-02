@@ -21,17 +21,24 @@ export default function Category({
         <br />
       </div>
       <ol className="list-decimal list-outside">
-        {data.rule.nodes.map((element, i) => (
-          <>
-            <li key={i} className="rule-title">
-              <Link ref={linkRef} to={`/${element.frontmatter.uri}`}>
-                {element.frontmatter.title}
-              </Link>
-            </li>
-            <div dangerouslySetInnerHTML={{ __html: element.html }} />
-            <br />
-          </>
-        ))}
+        {category.frontmatter.index.map((ruleUri, i) => {
+          const rule = data.rule.nodes.find(
+            (r) => r.frontmatter.uri === ruleUri
+          );
+          if (rule) {
+            return (
+              <>
+                <li key={i} className="rule-title">
+                  <Link ref={linkRef} to={`/${rule.frontmatter.uri}`}>
+                    {rule.frontmatter.title}
+                  </Link>
+                </li>
+                <div dangerouslySetInnerHTML={{ __html: rule.html }} />
+                <br />
+              </>
+            );
+          }
+        })}
       </ol>
     </Layout>
   );
@@ -45,9 +52,7 @@ export const query = graphql`
         index
       }
     }
-    rule: allMarkdownRemark(
-      filter: { frontmatter: { uri: { in: $index } } }
-    ) {
+    rule: allMarkdownRemark(filter: { frontmatter: { uri: { in: $index } } }) {
       nodes {
         frontmatter {
           uri
