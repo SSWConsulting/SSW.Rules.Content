@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-environmentnewline-to-make-a-new-line-in-your-string
+title: Do you use Environment.NewLine to make a new line in your string?
+created: YYYY-04-DD 22:46:14
 authors:
   - id: 1
     title: Adam Cogan
