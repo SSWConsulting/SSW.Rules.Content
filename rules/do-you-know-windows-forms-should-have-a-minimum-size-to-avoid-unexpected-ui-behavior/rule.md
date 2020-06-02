@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-windows-forms-should-have-a-minimum-size-to-avoid-unexpected-ui-behavior
+title: Do you know Windows Forms should have a minimum size to avoid unexpected UI behavior
+created: YYYY-06-DD 08:31:56
 authors:
   - id: 1
     title: Adam Cogan
