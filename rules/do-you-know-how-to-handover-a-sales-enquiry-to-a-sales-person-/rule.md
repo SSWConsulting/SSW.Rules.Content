@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person-
+title: Do you know how to handover a sales enquiry to a sales person ?
+created: YYYY-04-DD 07:43:10
 authors:
   - id: 30
     title: Marlon Marescia
