@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-right-place-to-store-employee-data
+title: Do you know the right place to store Employee Data?
+created: YYYY-01-DD 17:52:46
 authors:
   - id: 1
     title: Adam Cogan
