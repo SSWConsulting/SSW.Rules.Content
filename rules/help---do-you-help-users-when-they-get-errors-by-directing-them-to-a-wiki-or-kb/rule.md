@@ -1,6 +1,9 @@
 
 
 ---
+uri: help---do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
+title: Help - Do you help users when they get errors by directing them to a wiki or KB?
+created: YYYY-11-DD 02:11:48
 authors:
 
 ---
