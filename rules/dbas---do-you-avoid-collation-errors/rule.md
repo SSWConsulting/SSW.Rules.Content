@@ -1,6 +1,9 @@
 
 
 ---
+uri: dbas---do-you-avoid-collation-errors
+title: DBAs - Do you avoid collation errors?
+created: YYYY-11-DD 22:54:08
 authors:
   - id: 1
     title: Adam Cogan
