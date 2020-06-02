@@ -1,6 +1,9 @@
 
 
 ---
+uri: slide-master---do-you-have-your-logo-and-tag-line-at-the-bottom
+title: Slide Master - Do you have your logo and tag line at the bottom?
+created: YYYY-06-DD 08:41:21
 authors:
 
 ---
