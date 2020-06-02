@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-named-anchor-links
+title: Do you know how to use named anchor links?
+created: YYYY-07-DD 20:11:55
 authors:
   - id: 16
     title: Tiago Araujo
