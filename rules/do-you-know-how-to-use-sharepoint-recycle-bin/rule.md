@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-sharepoint-recycle-bin
+title: Do you know how to use SharePoint Recycle Bin?
+created: YYYY-02-DD 17:00:50
 authors:
   - id: 9
     title: William Yin
