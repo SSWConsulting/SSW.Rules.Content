@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-have-an-outbound-script
+title: Do have an outbound script?
+created: YYYY-04-DD 22:04:06
 authors:
   - id: 1
     title: Adam Cogan
