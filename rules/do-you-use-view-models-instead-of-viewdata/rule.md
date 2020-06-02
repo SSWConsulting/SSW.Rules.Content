@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-view-models-instead-of-viewdata
+title: Do you use View Models instead of ViewData?
+created: YYYY-03-DD 18:23:38
 authors:
   - id: 23
     title: Damian Brady
