@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-provide-security-to-your-website-visitors
+title: Do you provide security to your website visitors?
+created: YYYY-04-DD 04:30:30
 authors:
   - id: 83
     title: Camilla Rosa Silva
