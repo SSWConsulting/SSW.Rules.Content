@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-not-to-use-bold-tags-inside-headings
+title: Do you know not to use bold tags inside headings?
+created: YYYY-12-DD 12:39:36
 authors:
   - id: 1
     title: Adam Cogan
