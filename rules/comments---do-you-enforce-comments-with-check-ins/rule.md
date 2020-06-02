@@ -1,6 +1,9 @@
 
 
 ---
+uri: comments---do-you-enforce-comments-with-check-ins
+title: Comments - Do you enforce comments with check-ins?
+created: YYYY-11-DD 03:52:40
 authors:
   - id: 22
     title: David Klein
