@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-try-to-use-the-content-query-web-part-cqwp-over-the-data-view-web-part-dvwp
+title: Do you know to try to use the Content Query Web Part (CQWP) over the Data View Web Part (DVWP)?
+created: YYYY-06-DD 06:18:23
 authors:
   - id: 8
     title: John Liu
