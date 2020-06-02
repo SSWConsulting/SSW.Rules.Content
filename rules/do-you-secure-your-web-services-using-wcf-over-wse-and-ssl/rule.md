@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-secure-your-web-services-using-wcf-over-wse-and-ssl
+title: Do you secure your web services using WCF over WSE3 and SSL?
+created: YYYY-04-DD 06:47:17
 authors:
   - id: 1
     title: Adam Cogan
