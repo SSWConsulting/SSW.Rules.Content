@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-rename-staging-url-on-azure
+title: Do you always rename staging Url on Azure?
+created: YYYY-03-DD 23:23:53
 authors:
   - id: 1
     title: Adam Cogan
