@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-numbers-more-readable
+title: Do you make numbers more readable?
+created: YYYY-03-DD 05:56:01
 authors:
   - id: 1
     title: Adam Cogan
