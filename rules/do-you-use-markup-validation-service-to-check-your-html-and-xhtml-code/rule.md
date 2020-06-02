@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-markup-validation-service-to-check-your-html-and-xhtml-code
+title: Do you use Markup Validation Service to check your HTML and XHTML code?
+created: YYYY-11-DD 18:21:02
 authors:
   - id: 1
     title: Adam Cogan
