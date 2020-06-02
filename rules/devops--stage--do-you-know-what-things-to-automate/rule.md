@@ -1,6 +1,9 @@
 
 
 ---
+uri: devops--stage--do-you-know-what-things-to-automate
+title: DevOps – Stage 2: Do you know what things to automate?
+created: YYYY-03-DD 17:56:22
 authors:
   - id: 3
     title: Eric Phan
