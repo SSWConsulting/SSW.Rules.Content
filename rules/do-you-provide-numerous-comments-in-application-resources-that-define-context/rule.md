@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-provide-numerous-comments-in-application-resources-that-define-context
+title: Do you provide numerous comments in application resources that define context?
+created: YYYY-10-DD 09:57:27
 authors:
   - id: 50
     title: Martin Li
