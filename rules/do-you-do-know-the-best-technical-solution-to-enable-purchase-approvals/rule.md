@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-do-know-the-best-technical-solution-to-enable-purchase-approvals
+title: Do you do know the best technical solution to enable purchase approvals?
+created: YYYY-04-DD 19:04:02
 authors:
   - id: 1
     title: Adam Cogan
