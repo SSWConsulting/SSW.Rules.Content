@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-share-code-using-packages-binary-and-source-sharing
+title: Do you share code using packages? (Binary and source sharing)
+created: YYYY-05-DD 16:58:36
 authors:
   - id: 1
     title: Adam Cogan
