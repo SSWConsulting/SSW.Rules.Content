@@ -3,17 +3,16 @@
 ---
 uri: do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
 title: Do you turn off Database Mirroring before Upgrading your TFS databases?
-created: YYYY-05-DD 21:20:16
+created: YYYY-08-DD 16:10:38
 authors:
-  - id: 23
-    title: Damian Brady
+
 ---
 
 
 
 
-<span class='intro'> <p>To avoid headaches while upgrading the TFS database schemas, you should manually turn off database mirroring prior to running the Verify step of your configuration.</p> </span>
+<span class='intro'> <p>​To avoid headaches while upgrading the TFS database schemas, you should manually turn off database mirroring prior to running the Verify step of your configuration.</p> </span>
 
-<p>If database mirroring is enabled on your TFS database, an additional step is required to temporarily turn it off when upgrading the database schema.  This may require additional permissions that are difficult to check in the Verify step.  Verification may hang with no sign of what’s happening until you delve into the SQL Server logs.  It’s safer (and avoids problems) if you manually turn it off before you start.​​​</p>
+<p><span style="line-height&#58;1.6;">If database mirroring is enabled on your TFS database, an additional step is required to temporarily turn it off when upgrading the database schema. This may require additional permissions that are difficult to check in the Verify step. Verification may hang with no sign of what's happening until you delve into the SQL Server logs. It's safer (and avoids problems) if you manually turn it off before you start.</span><br></p>
 
 
