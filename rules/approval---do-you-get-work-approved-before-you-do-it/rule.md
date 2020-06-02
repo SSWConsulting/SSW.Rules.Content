@@ -1,6 +1,9 @@
 
 
 ---
+uri: approval---do-you-get-work-approved-before-you-do-it
+title: Approval - Do you get work approved before you do it?
+created: YYYY-08-DD 06:01:54
 authors:
   - id: 1
     title: Adam Cogan
