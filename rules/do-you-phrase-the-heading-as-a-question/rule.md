@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-phrase-the-heading-as-a-question
+title: Do you phrase the heading as a question?
+created: YYYY-03-DD 00:11:28
 authors:
 
 ---
