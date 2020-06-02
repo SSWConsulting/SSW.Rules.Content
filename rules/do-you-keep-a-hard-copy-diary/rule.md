@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-keep-a-hard-copy-diary
+title: Do you keep a hard copy diary?
+created: YYYY-05-DD 00:03:23
 authors:
 
 ---
