@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-deploy-controlled-lookup-data-
+title: Do you deploy "Controlled Lookup Data" ?
+created: YYYY-10-DD 06:26:18
 authors:
   - id: 1
     title: Adam Cogan
