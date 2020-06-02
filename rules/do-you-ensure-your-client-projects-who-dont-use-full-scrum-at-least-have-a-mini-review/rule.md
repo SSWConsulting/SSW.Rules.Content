@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-ensure-your-client-projects-who-dont-use-full-scrum-at-least-have-a-mini-review
+title: Do you ensure your client projects who don't use full Scrum, at least have a "Mini-Review"?
+created: YYYY-11-DD 20:51:45
 authors:
   - id: 1
     title: Adam Cogan
