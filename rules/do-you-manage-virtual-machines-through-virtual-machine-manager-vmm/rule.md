@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-manage-virtual-machines-through-virtual-machine-manager-vmm
+title: Do you manage Virtual Machines through Virtual Machine Manager (VMM)?
+created: YYYY-10-DD 00:15:26
 authors:
 
 ---
