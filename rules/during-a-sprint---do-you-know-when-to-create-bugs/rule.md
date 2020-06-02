@@ -1,6 +1,9 @@
 
 
 ---
+uri: during-a-sprint---do-you-know-when-to-create-bugs
+title: During a sprint - Do you know when to create bugs?
+created: YYYY-09-DD 16:13:21
 authors:
   - id: 1
     title: Adam Cogan
