@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-structure-a-unit-test-aka-the--as
+title: Do you know how to structure a unit test (aka the 3 a's)?
+created: YYYY-03-DD 16:51:15
 authors:
   - id: 1
     title: Adam Cogan
