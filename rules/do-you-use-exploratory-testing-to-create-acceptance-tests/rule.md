@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-exploratory-testing-to-create-acceptance-tests
+title: Do you use Exploratory Testing to create Acceptance Tests?
+created: YYYY-08-DD 22:15:34
 authors:
   - id: 23
     title: Damian Brady
