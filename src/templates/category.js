@@ -24,7 +24,7 @@ export default function Category({
         {data.rule.nodes.map((element, i) => (
           <>
             <li key={i} className="rule-title">
-              <Link ref={linkRef} to={`/${element.frontmatter.folder}`}>
+              <Link ref={linkRef} to={`/${element.frontmatter.uri}`}>
                 {element.frontmatter.title}
               </Link>
             </li>
@@ -42,14 +42,15 @@ export const query = graphql`
       html
       frontmatter {
         title
+        index
       }
     }
     rule: allMarkdownRemark(
-      filter: { frontmatter: { folder: { in: $index } } }
+      filter: { frontmatter: { uri: { in: $index } } }
     ) {
       nodes {
         frontmatter {
-          folder
+          uri
           title
         }
         html
