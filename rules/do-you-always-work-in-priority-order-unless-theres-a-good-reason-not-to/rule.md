@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-always-work-in-priority-order-unless-theres-a-good-reason-not-to
+title: Do you always work in priority order, unless there’s a good reason not to?
+created: YYYY-11-DD 15:10:28
 authors:
   - id: 23
     title: Damian Brady
