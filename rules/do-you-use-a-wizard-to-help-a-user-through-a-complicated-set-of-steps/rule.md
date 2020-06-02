@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-wizard-to-help-a-user-through-a-complicated-set-of-steps
+title: Do you use a Wizard to help a user through a complicated set of steps?
+created: YYYY-12-DD 03:43:47
 authors:
 
 ---
