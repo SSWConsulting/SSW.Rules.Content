@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-subdomains-instead-of-virtual-directories
+title: Do you use subdomains instead of virtual directories?
+created: YYYY-10-DD 07:53:27
 authors:
   - id: 1
     title: Adam Cogan
