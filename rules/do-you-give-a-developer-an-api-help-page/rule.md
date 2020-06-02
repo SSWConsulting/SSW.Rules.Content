@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-give-a-developer-an-api-help-page
+title: Do you give a developer an API help page?
+created: YYYY-05-DD 01:55:31
 authors:
   - id: 1
     title: Adam Cogan
