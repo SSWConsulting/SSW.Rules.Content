@@ -1,6 +1,9 @@
 
 
 ---
+uri: messages---do-you-avoid-message-boxes-at-all-costs
+title: Messages - Do you avoid message boxes at all costs?
+created: YYYY-11-DD 04:24:26
 authors:
 
 ---
