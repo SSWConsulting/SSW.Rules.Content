@@ -1,6 +1,9 @@
 
 
 ---
+uri: calling---do-you-im-your-contact-to-see-if-theyre-free-before-you-try-calling-them
+title: Calling - Do you IM your contact to see if they’re free before you try calling them?
+created: YYYY-10-DD 05:50:19
 authors:
   - id: 1
     title: Adam Cogan
