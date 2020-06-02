@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-interoperability-mechanism-for-com-object
+title: Do you use interoperability mechanism for COM object?
+created: YYYY-04-DD 22:10:13
 authors:
 
 ---
