@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-make-your-videos-youtube-friendly
+title: Do you make your videos YouTube friendly?
+created: YYYY-05-DD 00:03:43
 authors:
   - id: 74
     title: Florent Dezettre
