@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-pwa-progressive-web-app
+title: Do you have a PWA (Progressive Web App)?
+created: YYYY-05-DD 18:54:31
 authors:
   - id: 1
     title: Adam Cogan
