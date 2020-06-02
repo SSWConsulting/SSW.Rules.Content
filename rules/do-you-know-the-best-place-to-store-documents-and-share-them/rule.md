@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-place-to-store-documents-and-share-them
+title: Do you know the best place to store documents and share them?
+created: YYYY-07-DD 01:05:40
 authors:
   - id: 1
     title: Adam Cogan
