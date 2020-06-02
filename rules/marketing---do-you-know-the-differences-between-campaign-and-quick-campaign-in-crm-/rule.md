@@ -1,6 +1,9 @@
 
 
 ---
+uri: marketing---do-you-know-the-differences-between-campaign-and-quick-campaign-in-crm-
+title: Marketing - Do you know the differences between Campaign and Quick Campaign in CRM 2013?
+created: YYYY-12-DD 16:55:12
 authors:
   - id: 1
     title: Adam Cogan
