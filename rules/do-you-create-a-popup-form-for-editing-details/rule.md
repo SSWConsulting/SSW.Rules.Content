@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-create-a-popup-form-for-editing-details
+title: Do you create a popup form for editing details?
+created: YYYY-12-DD 00:58:48
 authors:
 
 ---
