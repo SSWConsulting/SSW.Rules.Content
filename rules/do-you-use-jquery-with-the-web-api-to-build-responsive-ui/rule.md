@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-jquery-with-the-web-api-to-build-responsive-ui
+title: Do you use jQuery with the Web API to build responsive UI?
+created: YYYY-10-DD 17:36:51
 authors:
   - id: 24
     title: Adam Stephensen
