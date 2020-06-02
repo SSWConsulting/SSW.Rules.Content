@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-where-your-goal-posts-are
+title: Do you know where your goal posts are?
+created: YYYY-04-DD 17:51:02
 authors:
   - id: 3
     title: Eric Phan
