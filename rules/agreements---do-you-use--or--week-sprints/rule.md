@@ -1,6 +1,9 @@
 
 
 ---
+uri: agreements---do-you-use--or--week-sprints
+title: Agreements - Do you use 1 or 2 week sprints?
+created: YYYY-05-DD 02:16:06
 authors:
   - id: 4
     title: Ulysses Maclaren
