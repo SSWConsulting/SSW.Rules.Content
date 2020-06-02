@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-your-wizards-include-a-wizard-breadcrumb
+title: Do your wizards include a 'Wizard Breadcrumb'?
+created: YYYY-02-DD 02:20:37
 authors:
 
 ---
