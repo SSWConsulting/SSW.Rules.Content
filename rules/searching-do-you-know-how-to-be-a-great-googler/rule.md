@@ -1,6 +1,9 @@
 
 
 ---
+uri: searching-do-you-know-how-to-be-a-great-googler
+title: Searching: Do you know how to be a great Googler?
+created: YYYY-02-DD 02:56:04
 authors:
   - id: 1
     title: Adam Cogan
