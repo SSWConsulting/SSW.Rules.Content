@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-sharepoint-designer-well
+title: Do you use SharePoint designer well?
+created: YYYY-04-DD 03:07:49
 authors:
   - id: 8
     title: John Liu
