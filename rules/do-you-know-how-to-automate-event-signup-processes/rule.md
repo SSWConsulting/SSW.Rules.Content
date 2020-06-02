@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-automate-event-signup-processes
+title: Do you know how to automate event signup processes?
+created: YYYY-02-DD 00:36:43
 authors:
   - id: 4
     title: Ulysses Maclaren
