@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-look-at-the-architecture
+title: Do you look at the architecture?
+created: YYYY-03-DD 08:33:48
 authors:
   - id: 1
     title: Adam Cogan
