@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-concept-of-drafts
+title: Do you use the concept of drafts?
+created: YYYY-12-DD 01:08:48
 authors:
 
 ---
