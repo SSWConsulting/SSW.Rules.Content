@@ -1,6 +1,9 @@
 
 
 ---
+uri: have-you-got-an-appropriate-agenda
+title: Have you got an appropriate agenda?
+created: YYYY-12-DD 00:20:06
 authors:
 
 ---
