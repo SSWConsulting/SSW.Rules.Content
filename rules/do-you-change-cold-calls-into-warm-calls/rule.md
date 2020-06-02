@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-change-cold-calls-into-warm-calls
+title: Do you change cold calls into warm calls?
+created: YYYY-04-DD 00:26:29
 authors:
   - id: 1
     title: Adam Cogan
