@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-use-sharepoint-search
+title: Do you know how to use SharePoint search?
+created: YYYY-01-DD 12:18:03
 authors:
   - id: 36
     title: Daniel Šmon
