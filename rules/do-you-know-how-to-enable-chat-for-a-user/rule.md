@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-enable-chat-for-a-user
+title: Do you know how to enable chat for a user?
+created: YYYY-06-DD 22:33:52
 authors:
   - id: 4
     title: Ulysses Maclaren
