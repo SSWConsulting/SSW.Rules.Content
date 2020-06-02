@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-lead-magnets-as-part-of-your-marketing-strategy
+title: Do you use Lead Magnets as part of your marketing strategy?
+created: YYYY-08-DD 22:05:39
 authors:
   - id: 83
     title: Camilla Rosa Silva
