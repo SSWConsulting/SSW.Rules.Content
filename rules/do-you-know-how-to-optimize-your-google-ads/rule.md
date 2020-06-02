@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-optimize-your-google-ads
+title: Do you know how to optimize your Google Ads?
+created: YYYY-03-DD 21:22:25
 authors:
   - id: 83
     title: Camilla Rosa Silva
