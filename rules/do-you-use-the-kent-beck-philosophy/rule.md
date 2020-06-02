@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-the-kent-beck-philosophy
+title: Do you use the Kent Beck philosophy?
+created: YYYY-04-DD 09:28:34
 authors:
   - id: 1
     title: Adam Cogan
