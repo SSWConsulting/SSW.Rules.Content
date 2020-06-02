@@ -1,6 +1,9 @@
 
 
 ---
+uri: zzdo-you-provide-ux-details-when-reporting-a-bug
+title: zzDo you provide UX details when reporting a bug?
+created: YYYY-03-DD 18:17:10
 authors:
   - id: 1
     title: Adam Cogan
