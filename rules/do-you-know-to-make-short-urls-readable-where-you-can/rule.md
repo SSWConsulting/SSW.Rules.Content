@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-make-short-urls-readable-where-you-can
+title: Do you know to make short URL’s readable where you can?
+created: YYYY-09-DD 15:14:23
 authors:
   - id: 1
     title: Adam Cogan
