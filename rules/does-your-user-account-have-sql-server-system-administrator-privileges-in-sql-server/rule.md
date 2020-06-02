@@ -3,17 +3,16 @@
 ---
 uri: does-your-user-account-have-sql-server-system-administrator-privileges-in-sql-server
 title: Does your user account have SQL Server System Administrator privileges in SQL Server?
-created: YYYY-05-DD 21:22:08
+created: YYYY-08-DD 15:57:43
 authors:
-  - id: 23
-    title: Damian Brady
+
 ---
 
 
 
 
-<span class='intro'> <p>If you’re upgrading TFS 2010 to 2012, it’s highly recommended that you assign sysadmin privileges to the user account that’s doing the upgrade.</p> </span>
+<span class='intro'> <p><span style="line-height&#58;20.7999992370605px;">​</span><span style="line-height&#58;20.7999992370605px;">If you're upgrading TFS 2010 to 2012, we recommend that you assign sysadmin privileges to the user account that's doing the upgrade.</span></p> </span>
 
-<p>Some database upgrade steps involve ALTER DATABASE statements and other commands that can’t be done by a normal user.  If a step fails, you are likely to end up with a corrupted Configuration database (so you have to restore from backup).​​​</p>
+<p>Some database upgrade steps involve ALTER DATABASE statements and other commands that can't be done by a normal user. If a step fails, you are likely to end up with a corrupted Configuration database (so you have to restore from backup).</p>
 
 
