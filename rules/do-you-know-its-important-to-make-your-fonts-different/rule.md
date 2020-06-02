@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-its-important-to-make-your-fonts-different
+title: Do you know it's important to make your fonts different?
+created: YYYY-12-DD 18:08:26
 authors:
   - id: 1
     title: Adam Cogan
