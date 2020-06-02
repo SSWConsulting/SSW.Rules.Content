@@ -1,6 +1,9 @@
 
 
 ---
+uri: setup---do-you-have-a-nice-background-in-your-home-office
+title: Setup - Do you have a nice background in your home office?
+created: YYYY-03-DD 02:09:43
 authors:
   - id: 1
     title: Adam Cogan
