@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-azure-notebooks-to-learn-your-data
+title: Do you use Azure Notebooks to learn your data?
+created: YYYY-04-DD 01:27:59
 authors:
   - id: 1
     title: Adam Cogan
