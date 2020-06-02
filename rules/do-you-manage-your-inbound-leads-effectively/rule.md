@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-manage-your-inbound-leads-effectively
+title: Do you manage your inbound leads effectively?
+created: YYYY-08-DD 12:40:27
 authors:
   - id: 4
     title: Ulysses Maclaren
