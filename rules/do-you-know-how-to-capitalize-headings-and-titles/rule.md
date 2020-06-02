@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-capitalize-headings-and-titles
+title: Do you know how to capitalize headings and titles?
+created: YYYY-04-DD 06:04:30
 authors:
 
 ---
