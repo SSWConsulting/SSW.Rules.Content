@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-use-smalldatetime-datatype-where-possible-instead-of-datetime-datatype
+title: Schema - Do you use "smalldatetime datatype", where possible, instead of "datetime datatype"?
+created: YYYY-11-DD 00:25:07
 authors:
   - id: 1
     title: Adam Cogan
