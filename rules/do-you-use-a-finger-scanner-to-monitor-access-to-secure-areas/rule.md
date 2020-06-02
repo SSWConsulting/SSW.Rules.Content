@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-a-finger-scanner-to-monitor-access-to-secure-areas
+title: Do you use a finger scanner to monitor access to secure areas?
+created: YYYY-03-DD 23:39:06
 authors:
   - id: 62
     title: Penny Walker
