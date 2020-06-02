@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-attributes-to-your-image-html
+title: Do you add attributes to your image HTML?
+created: YYYY-11-DD 18:31:57
 authors:
   - id: 1
     title: Adam Cogan
