@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-set-up-separate-user-accounts-in-control
+title: Do you set up separate user accounts in Control4?
+created: YYYY-11-DD 23:59:19
 authors:
   - id: 70
     title: Greg Harris
