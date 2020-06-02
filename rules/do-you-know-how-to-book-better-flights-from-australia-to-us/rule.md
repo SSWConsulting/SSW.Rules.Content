@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-book-better-flights-from-australia-to-us
+title: Do you know how to book better flights from Australia to US?
+created: YYYY-04-DD 04:57:55
 authors:
   - id: 1
     title: Adam Cogan
