@@ -1,6 +1,9 @@
 
 
 ---
+uri: production---do-you-know-how-to-record-live-video-interviews-on-location
+title: Production - Do you know how to record live video interviews on location?
+created: YYYY-08-DD 18:02:28
 authors:
 
 ---
