@@ -1,6 +1,9 @@
 
 
 ---
+uri: control-choice---do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
+title: Control Choice - Do you know when to use options group Radio Buttons instead of ComboBox?
+created: YYYY-11-DD 09:01:24
 authors:
 
 ---
