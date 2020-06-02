@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-errors-to-filter-out
+title: Do you know what errors to filter out?
+created: YYYY-10-DD 16:49:58
 authors:
   - id: 3
     title: Eric Phan
