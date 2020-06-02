@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-add-a-sweet-audio-indication-when-text-arrives-on-the-screen
+title: Do you add a sweet audio indication when text arrives on the screen?
+created: YYYY-05-DD 20:08:27
 authors:
   - id: 1
     title: Adam Cogan
