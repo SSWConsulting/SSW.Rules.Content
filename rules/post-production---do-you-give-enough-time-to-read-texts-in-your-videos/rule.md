@@ -1,6 +1,9 @@
 
 
 ---
+uri: post-production---do-you-give-enough-time-to-read-texts-in-your-videos
+title: Post-Production - Do you give enough time to read texts in your videos?
+created: YYYY-07-DD 20:12:04
 authors:
   - id: 1
     title: Adam Cogan
