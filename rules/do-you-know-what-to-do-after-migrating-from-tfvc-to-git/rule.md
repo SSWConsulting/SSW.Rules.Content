@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-to-do-after-migrating-from-tfvc-to-git
+title: Do you know what to do after migrating from TFVC to Git?
+created: YYYY-04-DD 00:34:51
 authors:
   - id: 1
     title: Adam Cogan
