@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-answer-a-question-in-jira
+title: Do you know how to answer a question in Jira?
+created: YYYY-08-DD 05:44:46
 authors:
 
 ---
