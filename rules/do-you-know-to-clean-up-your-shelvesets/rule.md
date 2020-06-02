@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-clean-up-your-shelvesets
+title: Do you know to clean up your Shelveset’s?
+created: YYYY-11-DD 07:42:21
 authors:
   - id: 3
     title: Eric Phan
