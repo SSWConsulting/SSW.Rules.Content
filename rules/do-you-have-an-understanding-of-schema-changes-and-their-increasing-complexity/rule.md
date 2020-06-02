@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity
+title: Do you have an understanding of 'schema changes' and their increasing complexity?
+created: YYYY-10-DD 23:32:50
 authors:
   - id: 1
     title: Adam Cogan
