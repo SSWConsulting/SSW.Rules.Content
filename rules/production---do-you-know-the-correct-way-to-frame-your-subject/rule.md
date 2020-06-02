@@ -1,6 +1,9 @@
 
 
 ---
+uri: production---do-you-know-the-correct-way-to-frame-your-subject
+title: Production - Do you know the correct way to frame your subject?
+created: YYYY-10-DD 15:23:00
 authors:
   - id: 27
     title: Titus Maclaren
