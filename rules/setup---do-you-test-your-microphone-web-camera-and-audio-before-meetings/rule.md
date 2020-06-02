@@ -1,6 +1,9 @@
 
 
 ---
+uri: setup---do-you-test-your-microphone-web-camera-and-audio-before-meetings
+title: Setup - Do you test your microphone, web camera and audio before meetings?
+created: YYYY-03-DD 02:33:43
 authors:
   - id: 1
     title: Adam Cogan
