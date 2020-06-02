@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-why-you-want-to-use-application-insights
+title: Do you know why you want to use Application Insights?
+created: YYYY-07-DD 04:40:05
 authors:
   - id: 45
     title: Chris Briggs
