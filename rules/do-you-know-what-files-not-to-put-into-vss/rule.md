@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-what-files-not-to-put-into-vss
+title: Do you know what files not to put into VSS?
+created: YYYY-05-DD 09:39:03
 authors:
   - id: 1
     title: Adam Cogan
