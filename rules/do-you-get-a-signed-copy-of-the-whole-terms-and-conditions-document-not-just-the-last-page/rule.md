@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
+title: Do you get a signed copy of the whole Terms and Conditions document (not just the last page)?
+created: YYYY-11-DD 19:17:27
 authors:
   - id: 2
     title: Cameron Shaw
