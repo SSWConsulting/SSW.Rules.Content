@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-logging-out-and-logging-in
+title: Do you avoid logging out and logging in?
+created: YYYY-02-DD 16:00:43
 authors:
   - id: 1
     title: Adam Cogan
