@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-that-enum-types-should-not-be-suffixed-with-the-word-enum
+title: Do you know that Enum types should not be suffixed with the word "Enum"?
+created: YYYY-04-DD 23:53:39
 authors:
   - id: 1
     title: Adam Cogan
