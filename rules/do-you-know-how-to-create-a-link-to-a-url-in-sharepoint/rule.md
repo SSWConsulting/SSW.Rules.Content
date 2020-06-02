@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-create-a-link-to-a-url-in-sharepoint
+title: Do you know how to create a link to a URL in SharePoint?
+created: YYYY-07-DD 00:38:30
 authors:
   - id: 9
     title: William Yin
