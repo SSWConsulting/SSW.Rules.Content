@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-postmaster-account-in-your-microsoft-exchange
+title: Do you have a postmaster account in your Microsoft Exchange?
+created: YYYY-04-DD 18:59:46
 authors:
   - id: 47
     title: Stanley Sidik
