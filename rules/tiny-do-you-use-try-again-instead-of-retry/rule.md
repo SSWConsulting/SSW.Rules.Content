@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-use-try-again-instead-of-retry
+title: Tiny: Do you use "Try Again" instead of "Retry"?
+created: YYYY-04-DD 05:34:31
 authors:
 
 ---
