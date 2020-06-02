@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-emailing-sensitive-information
+title: Do you avoid emailing sensitive information?
+created: YYYY-03-DD 03:01:59
 authors:
   - id: 1
     title: Adam Cogan
