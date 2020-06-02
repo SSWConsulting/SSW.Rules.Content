@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-publishing-from-visual-studio
+title: Do you avoid publishing from Visual Studio?
+created: YYYY-02-DD 18:47:32
 authors:
   - id: 24
     title: Adam Stephensen
