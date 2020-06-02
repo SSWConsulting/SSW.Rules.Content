@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-take-care-of-your-personal-appearance-even-for-remote-meetings
+title: Do you take care of your personal appearance even for remote meetings?
+created: YYYY-03-DD 03:16:15
 authors:
   - id: 1
     title: Adam Cogan
