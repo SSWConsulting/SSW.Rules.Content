@@ -1,6 +1,9 @@
 
 
 ---
+uri: tiny-do-you-avoid-full-stops-at-the-end-of-bullet-point-lists
+title: Tiny: Do you avoid full stops at the end of bullet point lists?
+created: YYYY-04-DD 07:21:23
 authors:
   - id: 1
     title: Adam Cogan
