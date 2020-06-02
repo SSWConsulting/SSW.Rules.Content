@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-dynamics--app-for-outlook
+title: Do you use Dynamics 365 App for Outlook?
+created: YYYY-07-DD 05:21:31
 authors:
 
 ---
