@@ -1,6 +1,9 @@
 
 
 ---
+uri: schema---do-you-use-computed-columns-rather-than-denormalized-fields
+title: Schema - Do you use computed columns rather than denormalized fields?
+created: YYYY-11-DD 20:29:18
 authors:
   - id: 1
     title: Adam Cogan
