@@ -1,6 +1,9 @@
 
 
 ---
+uri: ip---do-you-teach--share-ideas-regularly
+title: IP - Do you teach & share ideas regularly?
+created: YYYY-09-DD 17:51:59
 authors:
   - id: 1
     title: Adam Cogan
