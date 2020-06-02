@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-deploy-to-other-environments
+title: Do you Deploy to other Environments?
+created: YYYY-02-DD 18:56:41
 authors:
   - id: 24
     title: Adam Stephensen
