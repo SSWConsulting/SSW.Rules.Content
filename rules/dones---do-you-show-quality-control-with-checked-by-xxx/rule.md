@@ -1,6 +1,9 @@
 
 
 ---
+uri: dones---do-you-show-quality-control-with-checked-by-xxx
+title: Dones - Do you show quality control with "Checked by xxx"?
+created: YYYY-04-DD 09:31:23
 authors:
   - id: 1
     title: Adam Cogan
