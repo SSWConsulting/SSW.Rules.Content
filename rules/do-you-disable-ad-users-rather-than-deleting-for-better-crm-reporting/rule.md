@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-disable-ad-users-rather-than-deleting-for-better-crm-reporting
+title: Do you Disable AD Users rather than Deleting for better CRM Reporting?
+created: YYYY-07-DD 22:47:08
 authors:
   - id: 71
     title: Steven Andrews
