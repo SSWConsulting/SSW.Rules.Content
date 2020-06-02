@@ -1,6 +1,9 @@
 
 
 ---
+uri: appointments---do-you-know-how-to-add-an-appointment-in-someone-elses-calendar
+title: Appointments - Do you know how to add an appointment in someone else's calendar?
+created: YYYY-04-DD 03:51:05
 authors:
   - id: 1
     title: Adam Cogan
