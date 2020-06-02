@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-cheat-sheet-for-google-ads
+title: Do you have a Cheat Sheet for Google Ads?
+created: YYYY-03-DD 23:06:00
 authors:
   - id: 83
     title: Camilla Rosa Silva
