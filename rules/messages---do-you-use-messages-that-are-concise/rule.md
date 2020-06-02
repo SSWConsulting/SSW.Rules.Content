@@ -1,6 +1,9 @@
 
 
 ---
+uri: messages---do-you-use-messages-that-are-concise
+title: Messages - Do you use messages that are concise?
+created: YYYY-11-DD 04:41:51
 authors:
 
 ---
