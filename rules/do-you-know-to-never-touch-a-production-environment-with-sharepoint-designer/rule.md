@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-to-never-touch-a-production-environment-with-sharepoint-designer
+title: Do you know to *never* touch a production environment with SharePoint designer?
+created: YYYY-04-DD 08:31:00
 authors:
   - id: 8
     title: John Liu
