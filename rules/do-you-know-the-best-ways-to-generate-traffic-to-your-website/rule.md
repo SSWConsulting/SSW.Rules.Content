@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-ways-to-generate-traffic-to-your-website
+title: Do you know the best ways to generate traffic to your website?
+created: YYYY-11-DD 18:23:22
 authors:
   - id: 1
     title: Adam Cogan
