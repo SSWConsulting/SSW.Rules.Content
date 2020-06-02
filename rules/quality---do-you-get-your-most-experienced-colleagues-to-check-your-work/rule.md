@@ -1,6 +1,9 @@
 
 
 ---
+uri: quality---do-you-get-your-most-experienced-colleagues-to-check-your-work
+title: Quality - Do you get your most experienced colleagues to check your work?
+created: YYYY-09-DD 18:03:09
 authors:
   - id: 1
     title: Adam Cogan
