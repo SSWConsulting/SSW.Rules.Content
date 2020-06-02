@@ -1,6 +1,9 @@
 
 
 ---
+uri: scheduling---do-you-have-a-consistent-naming-convention-for-your-bookings
+title: Scheduling - Do you have a consistent naming convention for your bookings?
+created: YYYY-06-DD 06:32:15
 authors:
 
 ---
