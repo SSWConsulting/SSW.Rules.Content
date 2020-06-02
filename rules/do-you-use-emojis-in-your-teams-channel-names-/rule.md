@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-use-emojis-in-your-teams-channel-names-
+title: Do you use emojis in your Teams' channel names ?
+created: YYYY-09-DD 06:29:11
 authors:
   - id: 1
     title: Adam Cogan
