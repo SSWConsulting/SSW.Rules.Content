@@ -1,6 +1,9 @@
 
 
 ---
+uri: can-sponsors-set-up-a-booth-somewhere
+title: Can Sponsors Set Up A Booth Somewhere?
+created: YYYY-12-DD 00:39:06
 authors:
 
 ---
