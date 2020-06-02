@@ -1,6 +1,9 @@
 
 
 ---
+uri: estimating---do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items
+title: Estimating - Do you know what tasks are involved in addition to just Development Work Items?
+created: YYYY-08-DD 04:45:49
 authors:
   - id: 1
     title: Adam Cogan
