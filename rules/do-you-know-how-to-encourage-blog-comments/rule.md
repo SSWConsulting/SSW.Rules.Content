@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-encourage-blog-comments
+title: Do you know how to encourage blog comments?
+created: YYYY-09-DD 16:30:10
 authors:
   - id: 1
     title: Adam Cogan
