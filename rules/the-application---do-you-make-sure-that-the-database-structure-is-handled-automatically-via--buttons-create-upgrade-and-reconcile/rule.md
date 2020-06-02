@@ -1,6 +1,9 @@
 
 
 ---
+uri: the-application---do-you-make-sure-that-the-database-structure-is-handled-automatically-via--buttons-create-upgrade-and-reconcile
+title: The application - Do you make sure that the database structure is handled automatically via 3 buttons "Create", "Upgrade" and "Reconcile"?
+created: YYYY-10-DD 00:19:11
 authors:
   - id: 1
     title: Adam Cogan
