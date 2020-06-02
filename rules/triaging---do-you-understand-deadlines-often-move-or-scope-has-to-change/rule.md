@@ -1,6 +1,9 @@
 
 
 ---
+uri: triaging---do-you-understand-deadlines-often-move-or-scope-has-to-change
+title: Triaging - Do you understand deadlines often move or scope has to change?
+created: YYYY-05-DD 10:36:45
 authors:
 
 ---
