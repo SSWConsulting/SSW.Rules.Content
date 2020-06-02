@@ -1,6 +1,9 @@
 
 
 ---
+uri: agreements---do-you-know-who-pays-for-bugs
+title: Agreements - Do you know who pays for 'bugs'?
+created: YYYY-05-DD 10:30:33
 authors:
 
 ---
