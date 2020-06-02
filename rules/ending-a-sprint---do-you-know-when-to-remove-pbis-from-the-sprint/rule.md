@@ -1,6 +1,9 @@
 
 
 ---
+uri: ending-a-sprint---do-you-know-when-to-remove-pbis-from-the-sprint
+title: Ending a sprint - Do you know when to remove PBIs from the sprint?
+created: YYYY-09-DD 11:40:30
 authors:
   - id: 14
     title: Martin Hinshelwood
