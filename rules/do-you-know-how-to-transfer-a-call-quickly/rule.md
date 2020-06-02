@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-transfer-a-call-quickly
+title: Do you know how to transfer a call quickly?
+created: YYYY-06-DD 21:22:24
 authors:
   - id: 1
     title: Adam Cogan
