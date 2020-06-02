@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-check-your-website-is-multi-browser-compatible
+title: Do you check your website is multi-browser compatible?
+created: YYYY-12-DD 19:18:01
 authors:
   - id: 1
     title: Adam Cogan
