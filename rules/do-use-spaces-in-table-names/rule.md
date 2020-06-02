@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-use-spaces-in-table-names
 title: Do use spaces in table names?
-created: YYYY-07-DD 05:09:16
+created: 2010-07-22 05:09:16
 authors:
   - id: 1
     title: Adam Cogan

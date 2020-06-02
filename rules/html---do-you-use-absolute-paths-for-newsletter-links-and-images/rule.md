@@ -1,9 +1,7 @@
-
-
 ---
 uri: html---do-you-use-absolute-paths-for-newsletter-links-and-images
 title: HTML - Do you use absolute paths for newsletter links and images?
-created: YYYY-06-DD 21:48:16
+created: 2018-06-07 21:48:16
 authors:
   - id: 16
     title: Tiago Araujo

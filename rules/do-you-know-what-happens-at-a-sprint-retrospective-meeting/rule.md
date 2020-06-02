@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-happens-at-a-sprint-retrospective-meeting
 title: Do you know what happens at a Sprint Retrospective Meeting?
-created: YYYY-05-DD 03:18:17
+created: 2010-05-06 03:18:17
 authors:
 
 ---

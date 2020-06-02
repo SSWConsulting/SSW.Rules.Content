@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
 title: Do you know you should always use the language of your head office? (usually English)
-created: YYYY-04-DD 04:14:41
+created: 2013-04-01 04:14:41
 authors:
   - id: 1
     title: Adam Cogan

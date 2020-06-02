@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-do-a-retro
 title: Do you do a retro?
-created: YYYY-03-DD 04:19:31
+created: 2018-03-15 04:19:31
 authors:
   - id: 1
     title: Adam Cogan

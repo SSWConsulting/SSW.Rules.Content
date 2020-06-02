@@ -1,9 +1,7 @@
-
-
 ---
 uri: twitter---do-you-know-the-best-practices-for-your-twitter-ads
 title: Twitter - Do you know the best practices for your Twitter ads?
-created: YYYY-08-DD 06:28:19
+created: 2018-08-24 06:28:19
 authors:
   - id: 74
     title: Florent Dezettre

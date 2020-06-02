@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-upsell-your-products-or-services
 title: Do you upsell your products or services?
-created: YYYY-06-DD 21:27:55
+created: 2018-06-08 21:27:55
 authors:
   - id: 1
     title: Adam Cogan

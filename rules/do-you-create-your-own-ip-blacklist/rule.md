@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-create-your-own-ip-blacklist
 title: Do you create your own IP Blacklist?
-created: YYYY-10-DD 21:59:55
+created: 2019-10-01 21:59:55
 authors:
   - id: 71
     title: Steven Andrews

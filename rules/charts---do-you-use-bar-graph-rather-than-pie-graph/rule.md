@@ -1,9 +1,7 @@
-
-
 ---
 uri: charts---do-you-use-bar-graph-rather-than-pie-graph
 title: Charts - Do you use bar graph rather than pie graph?
-created: YYYY-12-DD 05:54:53
+created: 2014-12-01 05:54:53
 authors:
 
 ---

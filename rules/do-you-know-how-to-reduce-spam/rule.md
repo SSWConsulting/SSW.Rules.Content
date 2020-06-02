@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-reduce-spam
 title: Do you know how to reduce spam?
-created: YYYY-04-DD 07:49:39
+created: 2009-04-07 07:49:39
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-enter-detailed-and-accurate-time-sheets
 title: Do you enter detailed and accurate time sheets?
-created: YYYY-07-DD 06:37:36
+created: 2010-07-16 06:37:36
 authors:
 
 ---

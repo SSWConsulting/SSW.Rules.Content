@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Better User Acceptance Tests (UAT) for Bug Management

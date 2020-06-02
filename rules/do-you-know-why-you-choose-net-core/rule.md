@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-you-choose-net-core
 title: Do you know why you choose .NET Core?
-created: YYYY-01-DD 14:17:23
+created: 2017-01-31 14:17:23
 authors:
   - id: 3
     title: Eric Phan

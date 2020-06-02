@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-create-suggestions-when-something-is-hard-to-do
 title: Do you always create suggestions when something is hard to do?
-created: YYYY-04-DD 22:04:43
+created: 2018-04-30 22:04:43
 authors:
   - id: 1
     title: Adam Cogan

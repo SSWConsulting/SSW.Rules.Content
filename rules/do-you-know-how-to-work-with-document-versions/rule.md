@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-work-with-document-versions
 title: Do you know how to work with document versions?
-created: YYYY-07-DD 03:16:53
+created: 2009-07-23 03:16:53
 authors:
   - id: 8
     title: John Liu

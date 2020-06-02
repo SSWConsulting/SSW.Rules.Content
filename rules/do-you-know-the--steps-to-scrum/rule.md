@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the--steps-to-scrum
 title: Do you know the 8 Steps to Scrum?
-created: YYYY-06-DD 03:50:10
+created: 2013-06-28 03:50:10
 authors:
   - id: 1
     title: Adam Cogan

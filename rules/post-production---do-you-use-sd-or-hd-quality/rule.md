@@ -1,9 +1,7 @@
-
-
 ---
 uri: post-production---do-you-use-sd-or-hd-quality
 title: Post-Production - Do you use 'SD' or 'HD' quality?
-created: YYYY-08-DD 16:17:24
+created: 2011-08-24 16:17:24
 authors:
   - id: 27
     title: Titus Maclaren

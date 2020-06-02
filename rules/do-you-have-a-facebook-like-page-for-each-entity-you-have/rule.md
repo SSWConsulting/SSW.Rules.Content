@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-facebook-like-page-for-each-entity-you-have
 title: Do you have a Facebook Like Page for each entity you have?
-created: YYYY-05-DD 02:51:52
+created: 2010-05-11 02:51:52
 authors:
   - id: 1
     title: Adam Cogan

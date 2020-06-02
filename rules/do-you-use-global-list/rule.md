@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-global-list
 title: Do you use Global List?
-created: YYYY-07-DD 07:23:54
+created: 2012-07-18 07:23:54
 authors:
   - id: 10
     title: Lei Xu

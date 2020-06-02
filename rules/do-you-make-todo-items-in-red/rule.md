@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-todo-items-in-red
 title: Do you make 'TODO' items in red?
-created: YYYY-06-DD 10:06:05
+created: 2010-06-08 10:06:05
 authors:
 
 ---

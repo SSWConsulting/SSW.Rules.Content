@@ -1,9 +1,7 @@
-
-
 ---
 uri: general---do-you-use-a-sql-server-indexes-naming-standard
 title: General - Do you use a SQL Server Indexes Naming Standard?
-created: YYYY-12-DD 04:47:26
+created: 2019-12-31 04:47:26
 authors:
 
 ---

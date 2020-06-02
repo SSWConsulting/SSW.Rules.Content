@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-distribute-a-product-in-release-mode
 title: Do you distribute a product in Release mode?
-created: YYYY-05-DD 06:48:04
+created: 2009-05-05 06:48:04
 authors:
   - id: 1
     title: Adam Cogan

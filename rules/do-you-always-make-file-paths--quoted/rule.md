@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-make-file-paths--quoted
 title: Do you always make file paths @-quoted?
-created: YYYY-05-DD 06:57:56
+created: 2009-05-13 06:57:56
 authors:
   - id: 1
     title: Adam Cogan

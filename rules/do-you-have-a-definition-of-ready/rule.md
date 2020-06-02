@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-definition-of-ready
 title: Do you have a "Definition of Ready"?
-created: YYYY-08-DD 18:42:58
+created: 2013-08-23 18:42:58
 authors:
   - id: 3
     title: Eric Phan

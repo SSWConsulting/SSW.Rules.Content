@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-do-organize-your-hard-disk
 title: Do you do organize your hard disk?
-created: YYYY-06-DD 02:06:32
+created: 2018-06-04 02:06:32
 authors:
   - id: 73
     title: Kaique Biancatti

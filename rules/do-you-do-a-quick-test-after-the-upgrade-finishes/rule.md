@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-do-a-quick-test-after-the-upgrade-finishes
 title: Do you do a quick test after the upgrade finishes?
-created: YYYY-08-DD 11:31:19
+created: 2015-08-14 11:31:19
 authors:
 
 ---

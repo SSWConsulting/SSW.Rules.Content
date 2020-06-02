@@ -1,9 +1,7 @@
-
-
 ---
 uri: interruptions---do-you-minimize-microsoft-teams-distractions
 title: Interruptions - Do you minimize Microsoft Teams distractions?
-created: YYYY-10-DD 01:52:21
+created: 2017-10-13 01:52:21
 authors:
   - id: 1
     title: Adam Cogan

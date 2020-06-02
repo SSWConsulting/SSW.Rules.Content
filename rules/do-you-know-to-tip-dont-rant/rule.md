@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-tip-dont-rant
 title: Do you know to tip, don’t rant
-created: YYYY-09-DD 15:53:44
+created: 2010-09-07 15:53:44
 authors:
   - id: 1
     title: Adam Cogan

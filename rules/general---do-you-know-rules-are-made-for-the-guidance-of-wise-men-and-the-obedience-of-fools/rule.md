@@ -1,9 +1,7 @@
-
-
 ---
 uri: general---do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
 title: General - Do you know rules are made for the guidance of wise men and the obedience of fools?
-created: YYYY-02-DD 09:44:50
+created: 2009-02-28 09:44:50
 authors:
   - id: 1
     title: Adam Cogan

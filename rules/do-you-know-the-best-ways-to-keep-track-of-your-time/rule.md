@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-ways-to-keep-track-of-your-time
 title: Do you know the best ways to keep track of your time?
-created: YYYY-04-DD 19:33:05
+created: 2013-04-19 19:33:05
 authors:
   - id: 1
     title: Adam Cogan

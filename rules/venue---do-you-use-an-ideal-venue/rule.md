@@ -1,9 +1,7 @@
-
-
 ---
 uri: venue---do-you-use-an-ideal-venue
 title: Venue - Do you use an ideal venue?
-created: YYYY-12-DD 23:45:47
+created: 2014-12-30 23:45:47
 authors:
 
 ---

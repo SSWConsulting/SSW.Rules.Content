@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-live-unit-testing-to-see-code-coverage
 title: Do you use Live Unit Testing to see code coverage?
-created: YYYY-03-DD 23:43:11
+created: 2020-03-12 23:43:11
 authors:
   - id: 1
     title: Adam Cogan

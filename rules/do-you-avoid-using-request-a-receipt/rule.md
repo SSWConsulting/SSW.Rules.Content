@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-request-a-receipt
 title: Do you avoid using "Request a Receipt"?
-created: YYYY-04-DD 03:26:51
+created: 2009-04-03 03:26:51
 authors:
   - id: 1
     title: Adam Cogan

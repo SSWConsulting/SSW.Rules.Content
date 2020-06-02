@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-run-nunit-tests-from-within-visual-studio
 title: Do you know how to run nUnit tests from within Visual Studio?
-created: YYYY-03-DD 22:45:00
+created: 2020-03-12 22:45:00
 authors:
   - id: 1
     title: Adam Cogan

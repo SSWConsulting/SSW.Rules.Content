@@ -1,9 +1,7 @@
-
-
 ---
 uri: messages---do-you-know-what-icons-to-use--icons
 title: Messages - Do you know what icons to use? (3/3 Icons)
-created: YYYY-11-DD 04:37:34
+created: 2012-11-27 04:37:34
 authors:
 
 ---

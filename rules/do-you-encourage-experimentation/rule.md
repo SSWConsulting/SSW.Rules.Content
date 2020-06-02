@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-encourage-experimentation
 title: Do you encourage experimentation?
-created: YYYY-10-DD 02:57:11
+created: 2013-10-31 02:57:11
 authors:
 
 ---

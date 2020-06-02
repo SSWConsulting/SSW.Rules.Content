@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-use-creative-commons-images
 title: Do you know to use Creative Commons images?
-created: YYYY-02-DD 17:01:45
+created: 2017-02-14 17:01:45
 authors:
   - id: 1
     title: Adam Cogan

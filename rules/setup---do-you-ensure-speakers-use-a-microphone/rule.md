@@ -1,9 +1,7 @@
-
-
 ---
 uri: setup---do-you-ensure-speakers-use-a-microphone
 title: Setup - Do you ensure speakers use a microphone?
-created: YYYY-11-DD 23:40:22
+created: 2014-11-05 23:40:22
 authors:
 
 ---

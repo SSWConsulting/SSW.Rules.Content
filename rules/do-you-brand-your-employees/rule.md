@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-brand-your-employees
 title: Do you brand your employees?
-created: YYYY-11-DD 18:20:16
+created: 2015-11-24 18:20:16
 authors:
   - id: 1
     title: Adam Cogan

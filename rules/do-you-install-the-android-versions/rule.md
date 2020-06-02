@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-install-the-android-versions
 title: Do you install the Android versions?
-created: YYYY-04-DD 23:24:20
+created: 2014-04-07 23:24:20
 authors:
   - id: 28
     title: Daragh Bannigan

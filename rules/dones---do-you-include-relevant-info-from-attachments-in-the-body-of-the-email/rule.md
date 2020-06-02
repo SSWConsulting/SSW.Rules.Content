@@ -1,9 +1,7 @@
-
-
 ---
 uri: dones---do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
 title: Dones - Do you include relevant info from attachments in the body of the email?
-created: YYYY-04-DD 09:01:23
+created: 2009-04-03 09:01:23
 authors:
   - id: 1
     title: Adam Cogan

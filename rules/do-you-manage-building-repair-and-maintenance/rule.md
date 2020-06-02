@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-manage-building-repair-and-maintenance
 title: Do you manage building repair and maintenance?
-created: YYYY-07-DD 22:17:48
+created: 2019-07-05 22:17:48
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: management---do-you-spec-in-bite-sized-pieces
 title: Management - Do you spec in bite-sized pieces?
-created: YYYY-02-DD 09:45:07
+created: 2009-02-28 09:45:07
 authors:
   - id: 1
     title: Adam Cogan

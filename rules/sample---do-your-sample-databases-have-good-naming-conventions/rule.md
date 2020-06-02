@@ -1,9 +1,7 @@
-
-
 ---
 uri: sample---do-your-sample-databases-have-good-naming-conventions
 title: Sample - Do your sample databases have good Naming Conventions?
-created: YYYY-11-DD 03:08:58
+created: 2012-11-27 03:08:58
 authors:
 
 ---

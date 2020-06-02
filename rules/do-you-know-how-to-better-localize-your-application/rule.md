@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-better-localize-your-application
 title: Do you know how to better localize your application?
-created: YYYY-09-DD 05:41:31
+created: 2015-09-30 05:41:31
 authors:
   - id: 50
     title: Martin Li

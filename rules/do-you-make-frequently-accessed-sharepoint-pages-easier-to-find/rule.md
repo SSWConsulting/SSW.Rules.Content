@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-frequently-accessed-sharepoint-pages-easier-to-find
 title: Do you make frequently accessed SharePoint pages easier to find?
-created: YYYY-03-DD 20:30:47
+created: 2020-03-27 20:30:47
 authors:
   - id: 69
     title: Jean Thirion

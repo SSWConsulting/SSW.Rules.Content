@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-use-separate-lookup-tables-rather-than-one-large-lookup-table-for-your-lookup-data
 title: Schema - Do you use separate lookup tables rather than one large lookup table for your lookup data?
-created: YYYY-11-DD 20:11:29
+created: 2019-11-07 20:11:29
 authors:
   - id: 1
     title: Adam Cogan

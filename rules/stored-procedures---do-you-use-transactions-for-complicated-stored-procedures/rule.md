@@ -1,9 +1,7 @@
-
-
 ---
 uri: stored-procedures---do-you-use-transactions-for-complicated-stored-procedures
 title: Stored Procedures - Do you use transactions for complicated stored procedures?
-created: YYYY-11-DD 23:23:19
+created: 2019-11-12 23:23:19
 authors:
   - id: 1
     title: Adam Cogan

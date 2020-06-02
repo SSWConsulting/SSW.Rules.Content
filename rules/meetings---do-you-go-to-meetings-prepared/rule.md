@@ -1,9 +1,7 @@
-
-
 ---
 uri: meetings---do-you-go-to-meetings-prepared
 title: Meetings - Do you go to meetings prepared?
-created: YYYY-07-DD 06:25:57
+created: 2010-07-16 06:25:57
 authors:
 
 ---

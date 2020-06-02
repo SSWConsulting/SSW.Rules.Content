@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-tools-for-database-schema-update
 title: Do you know the best tools for Database Schema Update?
-created: YYYY-10-DD 23:23:45
+created: 2009-10-06 23:23:45
 authors:
   - id: 1
     title: Adam Cogan

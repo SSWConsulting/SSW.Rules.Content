@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-nuget-packages-small
 title: Do you keep your nuget packages small?
-created: YYYY-01-DD 04:51:09
+created: 2015-01-31 04:51:09
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-do-exploratory-testing
 title: Do you do exploratory testing?
-created: YYYY-12-DD 04:41:54
+created: 2015-12-17 04:41:54
 authors:
   - id: 1
     title: Adam Cogan

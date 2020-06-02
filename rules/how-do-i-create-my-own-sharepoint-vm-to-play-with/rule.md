@@ -1,9 +1,7 @@
-
-
 ---
 uri: how-do-i-create-my-own-sharepoint-vm-to-play-with
 title: How do I create my own SharePoint VM to play with?
-created: YYYY-02-DD 02:03:39
+created: 2009-02-26 02:03:39
 authors:
   - id: 1
     title: Adam Cogan

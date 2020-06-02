@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Better CRM Migration from 2015 to 2016

@@ -1,9 +1,7 @@
-
-
 ---
 uri: reference-do-you-use-the-correct-symbols-when-documenting-instructions
 title: Reference: Do you use the correct symbols when documenting instructions?
-created: YYYY-03-DD 04:45:05
+created: 2016-03-22 04:45:05
 authors:
   - id: 1
     title: Adam Cogan

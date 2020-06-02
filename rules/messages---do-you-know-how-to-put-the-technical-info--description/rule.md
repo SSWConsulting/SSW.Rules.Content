@@ -1,9 +1,7 @@
-
-
 ---
 uri: messages---do-you-know-how-to-put-the-technical-info--description
 title: Messages - Do you know how to put the technical info? (2/3 Description)
-created: YYYY-11-DD 04:36:22
+created: 2012-11-27 04:36:22
 authors:
 
 ---

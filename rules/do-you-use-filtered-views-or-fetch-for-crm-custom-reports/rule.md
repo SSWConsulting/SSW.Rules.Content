@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-filtered-views-or-fetch-for-crm-custom-reports
 title: Do you use Filtered Views or Fetch for CRM Custom Reports?
-created: YYYY-12-DD 18:40:08
+created: 2012-12-10 18:40:08
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: comments---do-you-create-task-list-comments-for-your-code
 title: Comments - Do you create Task List Comments for your code?
-created: YYYY-04-DD 20:53:05
+created: 2018-04-24 20:53:05
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-make-quotations-easier-to-identify
 title: Do you know how to make quotations easier to identify?
-created: YYYY-04-DD 04:15:15
+created: 2016-04-21 04:15:15
 authors:
 
 ---

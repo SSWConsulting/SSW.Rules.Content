@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-basic-volumes-inside-vhds
 title: Do you use Basic Volumes inside VHD's?
-created: YYYY-02-DD 03:23:59
+created: 2011-02-14 03:23:59
 authors:
   - id: 21
     title: Matthew Hodgkins

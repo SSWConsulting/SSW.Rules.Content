@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-reporting-services
 title: Do you know when to use Reporting Services?
-created: YYYY-07-DD 08:25:41
+created: 2013-07-02 08:25:41
 authors:
 
 ---

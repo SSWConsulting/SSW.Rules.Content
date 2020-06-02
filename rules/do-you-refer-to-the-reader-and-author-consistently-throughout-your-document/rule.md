@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
 title: Do you refer to the reader and author consistently throughout your document?
-created: YYYY-03-DD 06:05:49
+created: 2016-03-22 06:05:49
 authors:
   - id: 1
     title: Adam Cogan

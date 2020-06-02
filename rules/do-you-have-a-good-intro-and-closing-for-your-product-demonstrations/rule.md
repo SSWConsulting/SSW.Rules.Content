@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-good-intro-and-closing-for-your-product-demonstrations
 title: Do you have a good intro and closing for your product demonstrations?
-created: YYYY-02-DD 21:53:57
+created: 2017-02-20 21:53:57
 authors:
   - id: 1
     title: Adam Cogan

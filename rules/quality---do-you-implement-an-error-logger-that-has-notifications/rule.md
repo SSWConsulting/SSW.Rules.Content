@@ -1,9 +1,7 @@
-
-
 ---
 uri: quality---do-you-implement-an-error-logger-that-has-notifications
 title: Quality - Do you implement an error logger that has notifications?
-created: YYYY-09-DD 18:02:29
+created: 2012-09-25 18:02:29
 authors:
   - id: 1
     title: Adam Cogan

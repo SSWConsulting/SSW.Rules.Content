@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-an-on-premises-build-server-with-visual-studio-online
 title: Do you know when to use an on-premises build server with Visual Studio Online?
-created: YYYY-08-DD 05:28:30
+created: 2014-08-25 05:28:30
 authors:
   - id: 23
     title: Damian Brady

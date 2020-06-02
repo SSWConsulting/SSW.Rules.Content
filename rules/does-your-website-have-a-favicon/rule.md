@@ -1,9 +1,7 @@
-
-
 ---
 uri: does-your-website-have-a-favicon
 title: Does your website have a favicon?
-created: YYYY-02-DD 02:02:42
+created: 2015-02-13 02:02:42
 authors:
   - id: 1
     title: Adam Cogan

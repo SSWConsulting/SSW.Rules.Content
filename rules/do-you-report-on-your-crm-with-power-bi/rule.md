@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-report-on-your-crm-with-power-bi
 title: Do you report on your CRM with Power BI?
-created: YYYY-05-DD 18:53:20
+created: 2017-05-23 18:53:20
 authors:
   - id: 1
     title: Adam Cogan

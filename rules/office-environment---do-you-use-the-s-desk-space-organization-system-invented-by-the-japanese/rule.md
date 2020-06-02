@@ -1,9 +1,7 @@
-
-
 ---
 uri: office-environment---do-you-use-the-s-desk-space-organization-system-invented-by-the-japanese
 title: Office environment - Do you use the 5S desk space organization system invented by the Japanese?
-created: YYYY-04-DD 04:55:25
+created: 2018-04-04 04:55:25
 authors:
   - id: 1
     title: Adam Cogan

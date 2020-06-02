@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-evaluate-your-event-feedback
 title: Do you evaluate your event feedback?
-created: YYYY-12-DD 01:18:40
+created: 2014-12-31 01:18:40
 authors:
   - id: 62
     title: Penny Walker

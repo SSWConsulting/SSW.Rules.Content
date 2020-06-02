@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-create-primary-key-on-your-tables
 title: Schema - Do you create primary key on your tables?
-created: YYYY-11-DD 23:57:23
+created: 2019-11-05 23:57:23
 authors:
   - id: 1
     title: Adam Cogan

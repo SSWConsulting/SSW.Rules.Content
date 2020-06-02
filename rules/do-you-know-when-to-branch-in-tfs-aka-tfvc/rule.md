@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-branch-in-tfs-aka-tfvc
 title: Do you know when to branch in TFS (aka TFVC)?
-created: YYYY-12-DD 17:54:34
+created: 2013-12-06 17:54:34
 authors:
   - id: 24
     title: Adam Stephensen

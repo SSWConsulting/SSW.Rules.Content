@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-align-your-addeditdelete-buttons-horizontal-and-bottom-right
 title: Do you align your Add/Edit/Delete buttons horizontal and bottom right?
-created: YYYY-12-DD 00:48:18
+created: 2014-12-01 00:48:18
 authors:
 
 ---

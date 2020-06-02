@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-the-office-looking-great
 title: Do you keep the office looking great?
-created: YYYY-07-DD 21:33:15
+created: 2013-07-30 21:33:15
 authors:
   - id: 1
     title: Adam Cogan

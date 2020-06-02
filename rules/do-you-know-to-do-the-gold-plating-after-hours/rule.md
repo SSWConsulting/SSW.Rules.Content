@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-do-the-gold-plating-after-hours
 title: Do you know to do the gold plating after hours?
-created: YYYY-09-DD 15:57:13
+created: 2010-09-08 15:57:13
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-plan-your-additional-steps
 title: Do you plan your additional steps?
-created: YYYY-08-DD 13:46:55
+created: 2015-08-13 13:46:55
 authors:
 
 ---

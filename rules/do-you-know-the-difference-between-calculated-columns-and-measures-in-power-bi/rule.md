@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-difference-between-calculated-columns-and-measures-in-power-bi
 title: Do you know the difference between Calculated Columns and Measures in Power BI?
-created: YYYY-10-DD 06:02:07
+created: 2016-10-24 06:02:07
 authors:
 
 ---

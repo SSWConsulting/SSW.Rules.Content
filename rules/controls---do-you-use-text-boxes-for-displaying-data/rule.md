@@ -1,9 +1,7 @@
-
-
 ---
 uri: controls---do-you-use-text-boxes-for-displaying-data
 title: Controls - Do you use Text Boxes for displaying data?
-created: YYYY-11-DD 09:21:17
+created: 2012-11-27 09:21:17
 authors:
 
 ---

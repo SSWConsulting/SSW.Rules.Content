@@ -1,4 +1,3 @@
-
 ---
 type: main
 index:
@@ -15,3 +14,4 @@ index:
   - others
   - software
 ---
+

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-commas-on-more-than--figures-numbers
 title: Do you use commas on more than 3 figures numbers?
-created: YYYY-06-DD 19:42:52
+created: 2015-06-16 19:42:52
 authors:
   - id: 1
     title: Adam Cogan

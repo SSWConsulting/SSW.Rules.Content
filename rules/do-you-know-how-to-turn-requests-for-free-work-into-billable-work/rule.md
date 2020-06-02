@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-turn-requests-for-free-work-into-billable-work
 title: Do you know how to turn requests for free work into billable work?
-created: YYYY-07-DD 05:51:42
+created: 2010-07-16 05:51:42
 authors:
 
 ---

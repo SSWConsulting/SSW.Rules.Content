@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-the-best-way-to-generate-your-entities-from-swagger
 title: Do you know the best way the best way to generate your entities from swagger?
-created: YYYY-03-DD 20:30:41
+created: 2017-03-10 20:30:41
 authors:
   - id: 1
     title: Adam Cogan

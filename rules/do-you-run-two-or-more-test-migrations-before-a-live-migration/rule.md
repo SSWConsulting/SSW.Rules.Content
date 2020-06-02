@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-run-two-or-more-test-migrations-before-a-live-migration
 title: Do you run two or more test migrations before a live migration
-created: YYYY-11-DD 07:47:10
+created: 2013-11-11 07:47:10
 authors:
   - id: 32
     title: Mehmet Ozdemir

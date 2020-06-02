@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-snapshot-virtual-machines-before-big-changes
 title: Do you snapshot Virtual Machines before big changes?
-created: YYYY-02-DD 06:18:58
+created: 2011-02-14 06:18:58
 authors:
   - id: 21
     title: Matthew Hodgkins

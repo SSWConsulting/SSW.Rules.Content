@@ -1,9 +1,7 @@
-
-
 ---
 uri: indicate-the-magnitude-of-a-page-edit
 title: Indicate the magnitude of a page edit
-created: YYYY-11-DD 08:24:15
+created: 2009-11-09 08:24:15
 authors:
   - id: 4
     title: Ulysses Maclaren

@@ -1,9 +1,7 @@
-
-
 ---
 uri: xamarin---do-you-know-the-stuff-to-install
 title: Xamarin - Do you know the stuff to install?
-created: YYYY-08-DD 17:53:30
+created: 2016-08-19 17:53:30
 authors:
   - id: 1
     title: Adam Cogan

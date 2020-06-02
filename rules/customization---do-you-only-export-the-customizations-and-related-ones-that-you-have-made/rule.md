@@ -1,9 +1,7 @@
-
-
 ---
 uri: customization---do-you-only-export-the-customizations-and-related-ones-that-you-have-made
 title: Customization - Do you only export the customizations and related ones that you have made?
-created: YYYY-12-DD 18:20:38
+created: 2012-12-10 18:20:38
 authors:
   - id: 1
     title: Adam Cogan

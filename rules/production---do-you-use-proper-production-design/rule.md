@@ -1,9 +1,7 @@
-
-
 ---
 uri: production---do-you-use-proper-production-design
 title: Production - Do You Use Proper Production Design?
-created: YYYY-12-DD 06:25:55
+created: 2011-12-06 06:25:55
 authors:
   - id: 27
     title: Titus Maclaren

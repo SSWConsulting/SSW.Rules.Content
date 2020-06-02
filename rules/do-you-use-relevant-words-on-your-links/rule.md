@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-relevant-words-on-your-links
 title: Do you use relevant words on your links?
-created: YYYY-11-DD 17:38:35
+created: 2015-11-10 17:38:35
 authors:
   - id: 1
     title: Adam Cogan

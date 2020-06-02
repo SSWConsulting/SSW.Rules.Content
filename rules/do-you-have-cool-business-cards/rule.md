@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-cool-business-cards
 title: Do you have cool business cards?
-created: YYYY-11-DD 18:12:26
+created: 2015-11-24 18:12:26
 authors:
   - id: 1
     title: Adam Cogan

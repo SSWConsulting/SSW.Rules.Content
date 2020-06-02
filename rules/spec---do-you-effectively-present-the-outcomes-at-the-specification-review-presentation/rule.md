@@ -1,9 +1,7 @@
-
-
 ---
 uri: spec---do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
 title: Spec - Do you effectively present the outcomes at the "Specification Review Presentation"?
-created: YYYY-03-DD 02:12:35
+created: 2009-03-18 02:12:35
 authors:
   - id: 1
     title: Adam Cogan

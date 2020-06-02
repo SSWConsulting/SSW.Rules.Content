@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-return-the-correct-response-code
 title: Do you return the correct response code?
-created: YYYY-11-DD 20:39:42
+created: 2014-11-05 20:39:42
 authors:
   - id: 45
     title: Chris Briggs

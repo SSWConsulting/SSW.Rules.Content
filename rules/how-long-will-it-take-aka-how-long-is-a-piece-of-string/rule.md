@@ -1,9 +1,7 @@
-
-
 ---
 uri: how-long-will-it-take-aka-how-long-is-a-piece-of-string
 title: How long will it take (aka How long is a piece of string)?
-created: YYYY-08-DD 13:33:07
+created: 2011-08-30 13:33:07
 authors:
   - id: 1
     title: Adam Cogan

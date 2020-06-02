@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-open-graph-to-control-how-your-links-are-shared
 title: Do you use Open Graph to control how your links are shared?
-created: YYYY-02-DD 22:32:29
+created: 2018-02-16 22:32:29
 authors:
   - id: 1
     title: Adam Cogan

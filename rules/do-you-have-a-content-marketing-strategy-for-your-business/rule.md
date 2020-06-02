@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-content-marketing-strategy-for-your-business
 title: Do you have a content marketing strategy for your business?
-created: YYYY-07-DD 05:16:19
+created: 2019-07-08 05:16:19
 authors:
   - id: 83
     title: Camilla Rosa Silva

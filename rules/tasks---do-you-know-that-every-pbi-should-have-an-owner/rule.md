@@ -1,9 +1,7 @@
-
-
 ---
 uri: tasks---do-you-know-that-every-pbi-should-have-an-owner
 title: Tasks - Do you know that every PBI should have an owner?
-created: YYYY-04-DD 16:19:00
+created: 2010-04-14 16:19:00
 authors:
   - id: 1
     title: Adam Cogan

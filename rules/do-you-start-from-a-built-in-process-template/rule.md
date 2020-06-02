@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-start-from-a-built-in-process-template
 title: Do you start from a built-in process template?
-created: YYYY-07-DD 06:54:03
+created: 2012-07-18 06:54:03
 authors:
   - id: 10
     title: Lei Xu

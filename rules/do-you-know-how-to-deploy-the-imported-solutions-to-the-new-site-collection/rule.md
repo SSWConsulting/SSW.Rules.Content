@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-deploy-the-imported-solutions-to-the-new-site-collection
 title: Do you know how to deploy the imported solutions to the new site collection
-created: YYYY-12-DD 06:36:51
+created: 2010-12-23 06:36:51
 authors:
   - id: 9
     title: William Yin

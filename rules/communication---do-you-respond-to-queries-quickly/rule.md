@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-respond-to-queries-quickly
 title: Communication - Do you respond to queries quickly?
-created: YYYY-05-DD 10:21:38
+created: 2010-05-20 10:21:38
 authors:
 
 ---

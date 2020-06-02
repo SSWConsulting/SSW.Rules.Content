@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-send-tasks-one-email-at-a-time
 title: Do you send tasks one email at a time?
-created: YYYY-03-DD 03:26:32
+created: 2009-03-30 03:26:32
 authors:
   - id: 1
     title: Adam Cogan

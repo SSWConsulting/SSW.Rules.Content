@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-consider-optical-alignment
 title: Do you consider optical alignment?
-created: YYYY-11-DD 01:51:02
+created: 2012-11-27 01:51:02
 authors:
 
 ---

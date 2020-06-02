@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-about-brand-power-and-social-signals
 title: Do you know about Brand Power and Social Signals?
-created: YYYY-04-DD 02:13:41
+created: 2019-04-17 02:13:41
 authors:
   - id: 83
     title: Camilla Rosa Silva

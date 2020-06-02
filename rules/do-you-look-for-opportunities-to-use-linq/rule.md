@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-look-for-opportunities-to-use-linq
 title: Do you look for opportunities to use Linq?
-created: YYYY-04-DD 09:23:06
+created: 2012-04-01 09:23:06
 authors:
   - id: 1
     title: Adam Cogan

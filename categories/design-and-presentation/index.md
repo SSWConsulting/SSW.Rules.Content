@@ -1,4 +1,3 @@
-
 ---
 type: top-category
 title: Design and Presentation

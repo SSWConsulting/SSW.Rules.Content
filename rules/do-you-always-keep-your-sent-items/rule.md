@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-keep-your-sent-items
 title: Do you always keep your sent items?
-created: YYYY-03-DD 02:49:41
+created: 2009-03-27 02:49:41
 authors:
   - id: 1
     title: Adam Cogan

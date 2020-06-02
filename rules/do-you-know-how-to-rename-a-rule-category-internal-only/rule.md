@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-rename-a-rule-category-internal-only
 title: Do you know how to rename a rule category? (internal only)
-created: YYYY-12-DD 16:30:13
+created: 2016-12-23 16:30:13
 authors:
   - id: 9
     title: William Yin

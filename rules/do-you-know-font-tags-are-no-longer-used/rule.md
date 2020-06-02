@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-font-tags-are-no-longer-used
 title: Do you know FONT tags are no longer used?
-created: YYYY-07-DD 21:32:42
+created: 2012-07-17 21:32:42
 authors:
   - id: 16
     title: Tiago Araujo

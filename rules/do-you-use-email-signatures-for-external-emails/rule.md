@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-email-signatures-for-external-emails
 title: Do you use email signatures for external emails?
-created: YYYY-03-DD 03:20:39
+created: 2009-03-26 03:20:39
 authors:
   - id: 1
     title: Adam Cogan

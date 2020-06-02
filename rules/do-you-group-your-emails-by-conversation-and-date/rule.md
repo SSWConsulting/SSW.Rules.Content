@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-group-your-emails-by-conversation-and-date
 title: Do you group your emails by Conversation and Date?
-created: YYYY-12-DD 02:11:38
+created: 2010-12-22 02:11:38
 authors:
   - id: 1
     title: Adam Cogan

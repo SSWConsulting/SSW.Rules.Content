@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-double-negative-conditionals-in-if-statements
 title: Do you avoid Double-Negative Conditionals in if-statements?
-created: YYYY-04-DD 22:03:21
+created: 2018-04-24 22:03:21
 authors:
   - id: 1
     title: Adam Cogan

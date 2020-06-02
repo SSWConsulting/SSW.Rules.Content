@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-content-query-web-part
 title: Do you use content query web part?
-created: YYYY-05-DD 07:15:16
+created: 2012-05-17 07:15:16
 authors:
   - id: 1
     title: Adam Cogan

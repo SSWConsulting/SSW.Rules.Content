@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ask-clients-to-initial-your-work
 title: Do you ask clients to initial your work?
-created: YYYY-03-DD 07:27:19
+created: 2009-03-17 07:27:19
 authors:
   - id: 1
     title: Adam Cogan

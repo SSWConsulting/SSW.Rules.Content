@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-do-data-you-need-caml
 title: Do you know to do data you need CAML?
-created: YYYY-05-DD 23:18:19
+created: 2009-05-21 23:18:19
 authors:
   - id: 8
     title: John Liu

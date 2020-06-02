@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-lock-the-sharepoint-content-database-before-making-a-backup
 title: Do you lock the SharePoint Content Database before making a backup?
-created: YYYY-12-DD 06:55:11
+created: 2010-12-23 06:55:11
 authors:
   - id: 36
     title: Daniel Šmon

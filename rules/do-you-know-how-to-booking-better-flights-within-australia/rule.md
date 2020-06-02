@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-booking-better-flights-within-australia
 title: Do you know how to booking better flights within Australia?
-created: YYYY-04-DD 05:02:18
+created: 2015-04-28 05:02:18
 authors:
 
 ---

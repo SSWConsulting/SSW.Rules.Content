@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-your-cheque-and-memo-fields-have-a-good-description
 title: Do your cheque and memo fields have a good description?
-created: YYYY-04-DD 18:45:40
+created: 2013-04-19 18:45:40
 authors:
   - id: 4
     title: Ulysses Maclaren

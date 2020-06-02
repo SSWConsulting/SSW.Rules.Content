@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-check-the-audit-log-for-modification
 title: Do you check the audit log for modification?
-created: YYYY-05-DD 23:38:45
+created: 2018-05-04 23:38:45
 authors:
   - id: 1
     title: Adam Cogan

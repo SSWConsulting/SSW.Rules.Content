@@ -1,9 +1,7 @@
-
-
 ---
 uri: setup---do-you-have-good-lighting-in-your-home-office
 title: Setup - Do you have good lighting in your home office?
-created: YYYY-03-DD 02:58:57
+created: 2020-03-25 02:58:57
 authors:
   - id: 1
     title: Adam Cogan

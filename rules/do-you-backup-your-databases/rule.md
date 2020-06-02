@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-backup-your-databases
 title: Do you backup your databases?
-created: YYYY-08-DD 16:20:53
+created: 2015-08-12 16:20:53
 authors:
 
 ---

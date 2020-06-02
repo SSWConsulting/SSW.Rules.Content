@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-invoice-a-customised-training-client
 title: Do you know how to invoice a customised training client?
-created: YYYY-04-DD 13:09:16
+created: 2016-04-05 13:09:16
 authors:
   - id: 30
     title: Marlon Marescia

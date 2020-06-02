@@ -1,9 +1,7 @@
-
-
 ---
 uri: management---do-you-enforce-deadlines-have-a-sprint-plan-a-reviewretro-and-a-mark-
 title: Management - Do you enforce deadlines, have a sprint plan, a review/retro and a mark /10
-created: YYYY-02-DD 01:23:55
+created: 2009-02-20 01:23:55
 authors:
   - id: 1
     title: Adam Cogan

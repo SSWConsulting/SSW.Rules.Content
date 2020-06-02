@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-get-ready-to-wait
 title: Do you get ready to wait?
-created: YYYY-04-DD 21:16:31
+created: 2013-04-10 21:16:31
 authors:
   - id: 1
     title: Adam Cogan

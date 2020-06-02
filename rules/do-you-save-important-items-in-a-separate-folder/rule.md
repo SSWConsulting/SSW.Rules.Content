@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-save-important-items-in-a-separate-folder
 title: Do you save important items in a separate folder?
-created: YYYY-03-DD 05:50:33
+created: 2009-03-23 05:50:33
 authors:
   - id: 1
     title: Adam Cogan

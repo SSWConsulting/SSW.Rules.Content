@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-not-use-red-gate-sql-compare-or-microsofts-data-dude-for-deployment-because-they-are-a-step-at-the-end-of-your-process
 title: Do you *not* use Red-Gate SQL Compare (or Microsoft's Data Dude) for deployment (because they are a step at the end of your process)?
-created: YYYY-10-DD 23:21:49
+created: 2009-10-05 23:21:49
 authors:
   - id: 1
     title: Adam Cogan

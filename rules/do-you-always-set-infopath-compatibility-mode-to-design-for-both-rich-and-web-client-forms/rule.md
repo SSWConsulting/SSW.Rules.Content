@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-set-infopath-compatibility-mode-to-design-for-both-rich-and-web-client-forms
 title: Do you always set InfoPath compatibility mode to design for both Rich and Web client forms?
-created: YYYY-05-DD 14:14:15
+created: 2009-05-27 14:14:15
 authors:
   - id: 8
     title: John Liu

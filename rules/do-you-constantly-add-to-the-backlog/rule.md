@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-constantly-add-to-the-backlog
 title: Do you constantly add to the backlog?
-created: YYYY-02-DD 00:56:56
+created: 2009-02-27 00:56:56
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-know-what-are-you-working-on
 title: Do you always know what are you working on?
-created: YYYY-04-DD 01:36:00
+created: 2010-04-07 01:36:00
 authors:
 
 ---

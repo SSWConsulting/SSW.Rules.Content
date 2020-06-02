@@ -1,9 +1,7 @@
-
-
 ---
 uri: twitter---do-you-know-to-tweet-relevant-stuff-only
 title: Twitter - Do you know to tweet relevant stuff only?
-created: YYYY-01-DD 04:22:19
+created: 2011-01-31 04:22:19
 authors:
   - id: 21
     title: Matthew Hodgkins

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-weed-out-spammers
 title: Do you know how to weed out spammers?
-created: YYYY-05-DD 02:53:37
+created: 2016-05-06 02:53:37
 authors:
   - id: 41
     title: Joanna Feely

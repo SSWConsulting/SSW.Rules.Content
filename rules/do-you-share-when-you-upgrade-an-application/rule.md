@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-share-when-you-upgrade-an-application
 title: Do you share when you upgrade an application?
-created: YYYY-12-DD 06:43:04
+created: 2014-12-22 06:43:04
 authors:
   - id: 1
     title: Adam Cogan

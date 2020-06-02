@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-tools-to-use-to-create-setup-packages
 title: Do you know what tools to use to create Setup packages?
-created: YYYY-08-DD 20:33:24
+created: 2014-08-27 20:33:24
 authors:
   - id: 1
     title: Adam Cogan

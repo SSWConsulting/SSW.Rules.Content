@@ -1,9 +1,7 @@
-
-
 ---
 uri: screenshots---do-you-use-balloons-instead-of-a-wall-of-text
 title: Screenshots - Do you use balloons instead of a 'Wall of Text'?
-created: YYYY-03-DD 05:07:01
+created: 2009-03-25 05:07:01
 authors:
   - id: 1
     title: Adam Cogan

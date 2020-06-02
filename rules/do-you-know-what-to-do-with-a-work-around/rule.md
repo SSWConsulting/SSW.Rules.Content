@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-to-do-with-a-work-around
 title: Do you know what to do with a work around?
-created: YYYY-04-DD 21:37:19
+created: 2018-04-30 21:37:19
 authors:
   - id: 1
     title: Adam Cogan

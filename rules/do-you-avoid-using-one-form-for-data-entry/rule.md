@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-one-form-for-data-entry
 title: Do you avoid using one form for data entry?
-created: YYYY-12-DD 00:57:26
+created: 2014-12-01 00:57:26
 authors:
 
 ---

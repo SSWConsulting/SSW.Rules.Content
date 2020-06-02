@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-font-awesome-for-icons
 title: Do you use Font Awesome for icons?
-created: YYYY-06-DD 05:00:53
+created: 2014-06-18 05:00:53
 authors:
   - id: 37
     title: Ben Cull

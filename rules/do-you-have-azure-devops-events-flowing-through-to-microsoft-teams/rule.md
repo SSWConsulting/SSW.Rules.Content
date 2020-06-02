@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-azure-devops-events-flowing-through-to-microsoft-teams
 title: Do you have Azure DevOps Events flowing through to Microsoft Teams?
-created: YYYY-06-DD 23:33:28
+created: 2019-06-21 23:33:28
 authors:
   - id: 1
     title: Adam Cogan

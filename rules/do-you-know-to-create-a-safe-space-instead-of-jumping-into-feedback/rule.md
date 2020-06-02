@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-create-a-safe-space-instead-of-jumping-into-feedback
 title: Do you know to create a safe space instead of jumping into feedback?
-created: YYYY-03-DD 19:35:24
+created: 2018-03-14 19:35:24
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-not-avoid-checking-in-nuget-or-npm-packages-into-source-control
 title: Do not avoid checking in nuget or npm packages into source control?
-created: YYYY-03-DD 03:23:01
+created: 2018-03-26 03:23:01
 authors:
 
 ---

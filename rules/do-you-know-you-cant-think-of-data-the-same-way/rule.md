@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-you-cant-think-of-data-the-same-way
 title: Do you know you can't think of data the same way?
-created: YYYY-05-DD 23:35:36
+created: 2009-05-21 23:35:36
 authors:
   - id: 18
     title: Jay Lin

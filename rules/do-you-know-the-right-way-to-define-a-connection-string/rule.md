@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-right-way-to-define-a-connection-string
 title: Do you know the right way to define a connection string?
-created: YYYY-04-DD 22:05:50
+created: 2018-04-26 22:05:50
 authors:
   - id: 1
     title: Adam Cogan

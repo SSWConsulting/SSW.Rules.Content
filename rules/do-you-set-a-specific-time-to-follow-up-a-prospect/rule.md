@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-set-a-specific-time-to-follow-up-a-prospect
 title: Do you set a specific time to follow up a prospect?
-created: YYYY-08-DD 13:06:15
+created: 2012-08-30 13:06:15
 authors:
   - id: 1
     title: Adam Cogan

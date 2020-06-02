@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-isolate-your-logic-from-your-io-to-increase-the-testability
 title: Do you isolate your logic from your IO to increase the testability?
-created: YYYY-03-DD 22:19:47
+created: 2020-03-12 22:19:47
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-allow-users-to-get-up-to-date-messages
 title: Do you allow users to get up-to-date messages?
-created: YYYY-05-DD 18:10:59
+created: 2017-05-31 18:10:59
 authors:
   - id: 1
     title: Adam Cogan

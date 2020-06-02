@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-choose-the-best-method-of-authentication-for-your-situation
 title: Do you choose the best method of authentication for your situation?
-created: YYYY-05-DD 18:27:29
+created: 2016-05-02 18:27:29
 authors:
   - id: 81
     title: Jason Taylor

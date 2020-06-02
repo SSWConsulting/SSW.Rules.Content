@@ -1,9 +1,7 @@
-
-
 ---
 uri: webinar---do-you-know-the-planning-that-should-be-done-for-a-webinar
 title: Webinar - Do you know the planning that should be done for a webinar?
-created: YYYY-11-DD 04:57:48
+created: 2015-11-23 04:57:48
 authors:
   - id: 30
     title: Marlon Marescia

@@ -1,9 +1,7 @@
-
-
 ---
 uri: production---do-you-manage-audience-interactivity
 title: Production - Do You Manage Audience Interactivity?
-created: YYYY-05-DD 01:08:56
+created: 2013-05-24 01:08:56
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: calendar---do-you-give-your-pa-administrator-permissions-for-your-calendar
 title: Calendar - Do you give your PA administrator permissions for your calendar?
-created: YYYY-09-DD 18:08:57
+created: 2012-09-25 18:08:57
 authors:
   - id: 1
     title: Adam Cogan

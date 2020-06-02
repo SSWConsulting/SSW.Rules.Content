@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-redirecttoaction-instead-of-returning-a-view-thats-not-named-the-same-as-the-action
 title: Do you use RedirectToAction instead of returning a view that’s not named the same as the action?
-created: YYYY-03-DD 18:33:55
+created: 2013-03-07 18:33:55
 authors:
   - id: 23
     title: Damian Brady

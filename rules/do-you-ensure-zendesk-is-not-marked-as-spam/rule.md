@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ensure-zendesk-is-not-marked-as-spam
 title: Do you ensure Zendesk is not marked as spam?
-created: YYYY-12-DD 22:00:10
+created: 2019-12-06 22:00:10
 authors:
   - id: 1
     title: Adam Cogan

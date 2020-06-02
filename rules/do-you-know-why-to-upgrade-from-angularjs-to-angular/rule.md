@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-to-upgrade-from-angularjs-to-angular
 title: Do you know why to upgrade from AngularJS to Angular?
-created: YYYY-10-DD 05:33:25
+created: 2017-10-23 05:33:25
 authors:
   - id: 60
     title: Anthony Nguyen

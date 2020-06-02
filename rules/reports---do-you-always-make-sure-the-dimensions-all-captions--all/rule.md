@@ -1,9 +1,7 @@
-
-
 ---
 uri: reports---do-you-always-make-sure-the-dimensions-all-captions--all
 title: Reports - Do you always make sure the dimensions All Captions = All?
-created: YYYY-12-DD 06:06:37
+created: 2014-12-01 06:06:37
 authors:
 
 ---

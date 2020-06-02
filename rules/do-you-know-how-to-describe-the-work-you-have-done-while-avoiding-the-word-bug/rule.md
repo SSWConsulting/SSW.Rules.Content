@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
 title: Do you know how to describe the work you have done (while avoiding the word 'Bug')?
-created: YYYY-04-DD 19:39:34
+created: 2013-04-19 19:39:34
 authors:
   - id: 1
     title: Adam Cogan

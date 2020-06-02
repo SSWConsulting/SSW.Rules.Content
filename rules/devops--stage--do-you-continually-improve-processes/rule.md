@@ -1,9 +1,7 @@
-
-
 ---
 uri: devops--stage--do-you-continually-improve-processes
 title: DevOps – Stage 4: Do you continually improve processes?
-created: YYYY-03-DD 18:51:30
+created: 2016-03-07 18:51:30
 authors:
   - id: 3
     title: Eric Phan

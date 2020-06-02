@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-designer-for-all-visual-elements
 title: Do you use the designer for all visual elements?
-created: YYYY-04-DD 02:20:39
+created: 2009-04-28 02:20:39
 authors:
   - id: 1
     title: Adam Cogan

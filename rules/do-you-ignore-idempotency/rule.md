@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ignore-idempotency
 title: Do you ignore Idempotency?
-created: YYYY-10-DD 06:03:28
+created: 2009-10-05 06:03:28
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-install-the-ios-versions
 title: Do you install the iOS versions?
-created: YYYY-01-DD 04:51:57
+created: 2012-01-24 04:51:57
 authors:
   - id: 28
     title: Daragh Bannigan

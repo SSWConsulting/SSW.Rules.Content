@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-unit-test-your-database
 title: Do you unit test your database?
-created: YYYY-03-DD 23:28:06
+created: 2020-03-12 23:28:06
 authors:
   - id: 1
     title: Adam Cogan

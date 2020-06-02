@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-make-a-video-of-a-responsive-website-as-it-appears-on-a-mobile-phone
 title: Do you know how to make a video of a responsive website as it appears on a mobile phone?
-created: YYYY-02-DD 00:44:22
+created: 2015-02-16 00:44:22
 authors:
   - id: 44
     title: Duncan Hunter

@@ -1,9 +1,7 @@
-
-
 ---
 uri: are-you-always-careful-with-your-spelling-grammar-and-punctuation
 title: Are you always careful with your spelling, grammar, and punctuation?
-created: YYYY-03-DD 02:31:33
+created: 2009-03-30 02:31:33
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-organize-the-audience-when-numbers-are-low
 title: Do you organize the audience when numbers are low?
-created: YYYY-07-DD 14:46:51
+created: 2016-07-29 14:46:51
 authors:
   - id: 51
     title: Farrukh Khan

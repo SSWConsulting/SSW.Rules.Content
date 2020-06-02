@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use--back-instead-of--previous-or-other-variations
 title: Do you use "< Back" instead of "< Previous" or other variations?
-created: YYYY-12-DD 09:16:18
+created: 2009-12-04 09:16:18
 authors:
   - id: 1
     title: Adam Cogan

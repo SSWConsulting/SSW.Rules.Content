@@ -1,9 +1,7 @@
-
-
 ---
 uri: figures---do-you-use-images-to-reduce-the-words
 title: Figures - Do you use images to reduce the words?
-created: YYYY-12-DD 20:21:31
+created: 2014-12-04 20:21:31
 authors:
   - id: 1
     title: Adam Cogan

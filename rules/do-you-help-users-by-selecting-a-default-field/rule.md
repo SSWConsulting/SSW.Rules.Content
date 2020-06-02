@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-help-users-by-selecting-a-default-field
 title: Do You Help Users By Selecting A Default Field
-created: YYYY-04-DD 04:31:18
+created: 2012-04-19 04:31:18
 authors:
 
 ---

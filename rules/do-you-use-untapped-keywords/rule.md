@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-untapped-keywords
 title: Do you use untapped keywords?
-created: YYYY-05-DD 23:22:34
+created: 2018-05-20 23:22:34
 authors:
   - id: 74
     title: Florent Dezettre

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-solution-folders-to-neatly-structure-your-solution
 title: Do you use Solution Folders to Neatly Structure your Solution?
-created: YYYY-04-DD 08:57:42
+created: 2009-04-27 08:57:42
 authors:
   - id: 1
     title: Adam Cogan

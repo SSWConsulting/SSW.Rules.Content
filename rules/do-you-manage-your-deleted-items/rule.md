@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-manage-your-deleted-items
 title: Do you manage your Deleted Items?
-created: YYYY-03-DD 02:50:56
+created: 2009-03-30 02:50:56
 authors:
   - id: 1
     title: Adam Cogan

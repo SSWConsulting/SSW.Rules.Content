@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-be-prepared-for-inbound-calls
 title: Do you know how to be prepared for inbound calls?
-created: YYYY-06-DD 20:44:01
+created: 2018-06-08 20:44:01
 authors:
   - id: 1
     title: Adam Cogan

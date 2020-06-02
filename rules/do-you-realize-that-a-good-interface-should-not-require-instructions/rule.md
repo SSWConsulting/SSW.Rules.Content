@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-realize-that-a-good-interface-should-not-require-instructions
 title: Do you realize that a good interface should not require instructions?
-created: YYYY-11-DD 01:23:48
+created: 2012-11-27 01:23:48
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: search---do-you-use-default-zone-url-in-search-content-source
 title: Search - Do you use default zone URL in search content source
-created: YYYY-05-DD 07:29:19
+created: 2016-05-20 07:29:19
 authors:
   - id: 15
     title: Mark Liu

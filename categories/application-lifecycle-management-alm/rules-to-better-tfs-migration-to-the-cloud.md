@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Better TFS Migration to the Cloud

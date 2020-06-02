@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 title: Do you use Hyperlinks instead of JavaScript to open pages?
-created: YYYY-07-DD 03:04:16
+created: 2013-07-28 03:04:16
 authors:
   - id: 23
     title: Damian Brady

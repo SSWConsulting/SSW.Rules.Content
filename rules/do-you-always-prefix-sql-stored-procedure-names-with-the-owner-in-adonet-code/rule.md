@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-prefix-sql-stored-procedure-names-with-the-owner-in-adonet-code
 title: Do you always prefix SQL stored procedure names with the owner in ADO.NET code?
-created: YYYY-05-DD 06:49:36
+created: 2009-05-13 06:49:36
 authors:
   - id: 1
     title: Adam Cogan

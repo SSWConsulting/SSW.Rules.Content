@@ -1,9 +1,7 @@
-
-
 ---
 uri: installation---do-you-log-each-screen-which-is-different-to-the-default
 title: Installation - Do you log each screen which is different to the default?
-created: YYYY-12-DD 17:48:36
+created: 2012-12-10 17:48:36
 authors:
   - id: 1
     title: Adam Cogan

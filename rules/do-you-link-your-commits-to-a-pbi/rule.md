@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-link-your-commits-to-a-pbi
 title: Do you link your commits to a PBI?
-created: YYYY-03-DD 01:00:33
+created: 2019-03-13 01:00:33
 authors:
   - id: 1
     title: Adam Cogan

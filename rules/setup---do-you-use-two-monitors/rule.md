@@ -1,9 +1,7 @@
-
-
 ---
 uri: setup---do-you-use-two-monitors
 title: Setup - Do you use two monitors?
-created: YYYY-09-DD 17:53:17
+created: 2012-09-25 17:53:17
 authors:
   - id: 1
     title: Adam Cogan

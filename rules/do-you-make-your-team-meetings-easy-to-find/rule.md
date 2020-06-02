@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-your-team-meetings-easy-to-find
 title: Do you make your team meetings easy to find?
-created: YYYY-04-DD 06:07:17
+created: 2020-04-02 06:07:17
 authors:
   - id: 78
     title: Matt Wicks

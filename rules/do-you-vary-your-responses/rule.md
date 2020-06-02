@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-vary-your-responses
 title: Do you vary your responses?
-created: YYYY-09-DD 20:11:30
+created: 2018-09-18 20:11:30
 authors:
   - id: 1
     title: Adam Cogan

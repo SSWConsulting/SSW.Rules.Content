@@ -1,9 +1,7 @@
-
-
 ---
 uri: comments---do-you-comment-each-property-and-method
 title: Comments - Do you comment each property and method?
-created: YYYY-04-DD 17:58:34
+created: 2018-04-24 17:58:34
 authors:
   - id: 1
     title: Adam Cogan

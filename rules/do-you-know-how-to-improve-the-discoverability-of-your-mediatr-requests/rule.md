@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-improve-the-discoverability-of-your-mediatr-requests
 title: Do you know how to improve the discoverability of your MediatR requests?
-created: YYYY-04-DD 22:24:33
+created: 2019-04-14 22:24:33
 authors:
   - id: 81
     title: Jason Taylor

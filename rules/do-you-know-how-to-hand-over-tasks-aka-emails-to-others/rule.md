@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-hand-over-tasks-aka-emails-to-others
 title: Do you know how to hand over tasks (aka Emails) to others?
-created: YYYY-04-DD 09:17:56
+created: 2009-04-08 09:17:56
 authors:
   - id: 1
     title: Adam Cogan

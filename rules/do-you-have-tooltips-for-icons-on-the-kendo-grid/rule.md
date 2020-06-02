@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-tooltips-for-icons-on-the-kendo-grid
 title: Do You have Tooltips for Icons on the Kendo Grid?
-created: YYYY-05-DD 19:09:56
+created: 2014-05-05 19:09:56
 authors:
   - id: 34
     title: Brendan Richards

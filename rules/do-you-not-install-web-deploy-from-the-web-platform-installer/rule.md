@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-not-install-web-deploy-from-the-web-platform-installer
 title: Do you not install Web Deploy from the Web Platform Installer?
-created: YYYY-02-DD 18:38:16
+created: 2013-02-06 18:38:16
 authors:
   - id: 24
     title: Adam Stephensen

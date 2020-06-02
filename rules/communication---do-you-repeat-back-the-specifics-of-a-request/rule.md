@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-repeat-back-the-specifics-of-a-request
 title: Communication - Do you repeat back the specifics of a request?
-created: YYYY-09-DD 17:55:35
+created: 2012-09-25 17:55:35
 authors:
   - id: 1
     title: Adam Cogan

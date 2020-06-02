@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-encourage-your-boss-to-put-new-appointments-directly-into-his-phone
 title: Do you encourage your boss to put new appointments directly into his phone?
-created: YYYY-07-DD 21:28:25
+created: 2013-07-30 21:28:25
 authors:
   - id: 1
     title: Adam Cogan

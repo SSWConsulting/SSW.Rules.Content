@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-making-changes-to-individual-css-styles-using-jquery
 title: Do you avoid making changes to individual CSS styles using jQuery?
-created: YYYY-07-DD 18:13:03
+created: 2012-07-24 18:13:03
 authors:
   - id: 16
     title: Tiago Araujo

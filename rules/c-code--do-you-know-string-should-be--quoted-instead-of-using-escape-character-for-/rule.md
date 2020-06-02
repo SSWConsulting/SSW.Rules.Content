@@ -1,9 +1,7 @@
-
-
 ---
 uri: c-code--do-you-know-string-should-be--quoted-instead-of-using-escape-character-for-
 title: C# Code- Do you know String should be @-quoted instead of using escape character for "\\"?
-created: YYYY-04-DD 22:20:15
+created: 2018-04-30 22:20:15
 authors:
   - id: 1
     title: Adam Cogan

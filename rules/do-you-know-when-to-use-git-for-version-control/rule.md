@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-git-for-version-control
 title: Do you know when to use Git for version control?
-created: YYYY-08-DD 16:39:49
+created: 2013-08-21 16:39:49
 authors:
   - id: 1
     title: Adam Cogan

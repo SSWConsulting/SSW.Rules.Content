@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-continuous-integration-ci-server
 title: Do you have a Continuous Integration (CI) Server?
-created: YYYY-03-DD 23:23:23
+created: 2020-03-12 23:23:23
 authors:
   - id: 1
     title: Adam Cogan

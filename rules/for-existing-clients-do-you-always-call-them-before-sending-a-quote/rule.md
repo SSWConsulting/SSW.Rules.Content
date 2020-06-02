@@ -1,9 +1,7 @@
-
-
 ---
 uri: for-existing-clients-do-you-always-call-them-before-sending-a-quote
 title: For existing clients, do you always call them before sending a quote?
-created: YYYY-07-DD 04:23:52
+created: 2010-07-16 04:23:52
 authors:
 
 ---

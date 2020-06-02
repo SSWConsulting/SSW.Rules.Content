@@ -1,9 +1,7 @@
-
-
 ---
 uri: check-in-before-lunch-and-dinner-do-you-work-in-small-chunks--check-in-after-completing-each-one
 title: (Check-in before lunch and dinner) Do you work in small chunks & check in after completing each one?
-created: YYYY-11-DD 03:52:27
+created: 2011-11-18 03:52:27
 authors:
   - id: 22
     title: David Klein

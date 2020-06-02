@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-remember-your-attachment
 title: Do you always remember your attachment?
-created: YYYY-03-DD 03:04:48
+created: 2009-03-31 03:04:48
 authors:
   - id: 1
     title: Adam Cogan

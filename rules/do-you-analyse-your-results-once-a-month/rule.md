@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-analyse-your-results-once-a-month
 title: Do you analyse your results once a month?
-created: YYYY-07-DD 06:00:07
+created: 2014-07-04 06:00:07
 authors:
   - id: 1
     title: Adam Cogan

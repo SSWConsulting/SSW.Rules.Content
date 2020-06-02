@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-where-to-find-images-for-your-blog
 title: Do you know where to find images for your blog?
-created: YYYY-04-DD 23:43:14
+created: 2018-04-03 23:43:14
 authors:
   - id: 1
     title: Adam Cogan

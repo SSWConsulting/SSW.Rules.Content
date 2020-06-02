@@ -1,9 +1,7 @@
-
-
 ---
 uri: less-is-more---do-you-always-try-to-reduce-complexity
 title: Less is More - Do you always try to reduce complexity?
-created: YYYY-11-DD 01:45:45
+created: 2012-11-27 01:45:45
 authors:
 
 ---

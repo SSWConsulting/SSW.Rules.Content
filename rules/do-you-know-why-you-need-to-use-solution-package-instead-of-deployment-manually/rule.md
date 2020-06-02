@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manually
 title: Do you know why you need to use solution package instead of deployment manually?
-created: YYYY-04-DD 02:44:19
+created: 2009-04-09 02:44:19
 authors:
   - id: 8
     title: John Liu

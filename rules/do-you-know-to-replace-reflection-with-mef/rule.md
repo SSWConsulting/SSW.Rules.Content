@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-replace-reflection-with-mef
 title: Do you know to replace reflection with MEF?
-created: YYYY-03-DD 01:47:46
+created: 2012-03-21 01:47:46
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Better SharePoint Migration from 2013 to 2016

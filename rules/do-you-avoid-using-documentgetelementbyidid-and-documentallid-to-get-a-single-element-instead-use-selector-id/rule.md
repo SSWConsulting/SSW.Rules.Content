@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-documentgetelementbyidid-and-documentallid-to-get-a-single-element-instead-use-selector-id
 title: Do you avoid using document.getElementById(id) and document.all(id) to get a single element, instead use selector $(#id)?
-created: YYYY-11-DD 15:17:08
+created: 2016-11-17 15:17:08
 authors:
   - id: 1
     title: Adam Cogan

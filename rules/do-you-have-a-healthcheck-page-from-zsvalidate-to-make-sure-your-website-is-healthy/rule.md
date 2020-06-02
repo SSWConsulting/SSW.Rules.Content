@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-healthcheck-page-from-zsvalidate-to-make-sure-your-website-is-healthy
 title: Do you have a HealthCheck page (from /zsValidate) to make sure your website is healthy?
-created: YYYY-11-DD 18:46:01
+created: 2016-11-28 18:46:01
 authors:
   - id: 1
     title: Adam Cogan

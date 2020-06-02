@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-standardize-ad-group-names
 title: Do you standardize AD group names?
-created: YYYY-02-DD 00:13:41
+created: 2015-02-16 00:13:41
 authors:
   - id: 45
     title: Chris Briggs

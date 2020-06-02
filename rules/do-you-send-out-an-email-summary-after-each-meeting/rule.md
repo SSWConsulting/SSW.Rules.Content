@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-send-out-an-email-summary-after-each-meeting
 title: Do you send out an email summary after each meeting?
-created: YYYY-11-DD 23:45:03
+created: 2014-11-05 23:45:03
 authors:
 
 ---

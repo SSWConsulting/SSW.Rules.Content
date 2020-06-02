@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-ticket-deflection
 title: Do you use ticket deflection?
-created: YYYY-10-DD 16:43:57
+created: 2017-10-14 16:43:57
 authors:
   - id: 1
     title: Adam Cogan

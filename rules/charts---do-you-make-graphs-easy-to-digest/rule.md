@@ -1,9 +1,7 @@
-
-
 ---
 uri: charts---do-you-make-graphs-easy-to-digest
 title: Charts - Do you make graphs easy to digest?
-created: YYYY-12-DD 05:49:05
+created: 2014-12-01 05:49:05
 authors:
 
 ---

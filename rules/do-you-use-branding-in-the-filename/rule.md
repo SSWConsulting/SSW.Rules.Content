@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-branding-in-the-filename
 title: Do you use branding in the filename?
-created: YYYY-10-DD 01:31:14
+created: 2019-10-01 01:31:14
 authors:
 
 ---

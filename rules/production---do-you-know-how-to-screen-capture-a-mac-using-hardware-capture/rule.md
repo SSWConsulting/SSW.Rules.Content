@@ -1,9 +1,7 @@
-
-
 ---
 uri: production---do-you-know-how-to-screen-capture-a-mac-using-hardware-capture
 title: Production - Do You Know How to Screen Capture a Mac Using Hardware Capture?
-created: YYYY-10-DD 01:51:33
+created: 2014-10-29 01:51:33
 authors:
   - id: 29
     title: Raj Dhatt

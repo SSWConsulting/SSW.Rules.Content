@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-restore-your-content-database-to-sharepoint-
 title: Do you know how to restore your content database to SharePoint 2010?
-created: YYYY-12-DD 07:23:48
+created: 2010-12-23 07:23:48
 authors:
   - id: 21
     title: Matthew Hodgkins

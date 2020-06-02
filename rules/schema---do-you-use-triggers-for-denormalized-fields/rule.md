@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-use-triggers-for-denormalized-fields
 title: Schema - Do you use triggers for denormalized fields?
-created: YYYY-11-DD 18:13:04
+created: 2019-11-06 18:13:04
 authors:
   - id: 1
     title: Adam Cogan

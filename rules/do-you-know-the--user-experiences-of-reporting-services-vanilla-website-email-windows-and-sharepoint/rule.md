@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the--user-experiences-of-reporting-services-vanilla-website-email-windows-and-sharepoint
 title: Do you know the 5 user experiences of Reporting Services: Vanilla, Website, Email, Windows and SharePoint
-created: YYYY-07-DD 07:51:10
+created: 2013-07-02 07:51:10
 authors:
   - id: 1
     title: Adam Cogan

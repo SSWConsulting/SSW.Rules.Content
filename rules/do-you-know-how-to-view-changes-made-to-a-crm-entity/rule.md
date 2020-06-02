@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-view-changes-made-to-a-crm-entity
 title: Do you know how to view changes made to a CRM entity?
-created: YYYY-10-DD 23:14:07
+created: 2019-10-07 23:14:07
 authors:
   - id: 1
     title: Adam Cogan

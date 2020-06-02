@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-an-internetintranet-for-sharing-common-information-such-as-company-standards
 title: Do you use an Internet/Intranet for sharing common information such as Company Standards?
-created: YYYY-03-DD 08:06:37
+created: 2009-03-10 08:06:37
 authors:
   - id: 1
     title: Adam Cogan

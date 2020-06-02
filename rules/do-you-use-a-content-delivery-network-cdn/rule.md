@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-content-delivery-network-cdn
 title: Do you use a Content Delivery Network (CDN)?
-created: YYYY-05-DD 06:32:40
+created: 2019-05-16 06:32:40
 authors:
   - id: 82
     title: Barry Sanders

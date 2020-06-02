@@ -1,9 +1,7 @@
-
-
 ---
 uri: post-production---do-you-have-a-branded-intro-and-outro-in-your-videos
 title: Post-Production - Do you have a branded intro and outro in your videos?
-created: YYYY-05-DD 15:19:33
+created: 2019-05-30 15:19:33
 authors:
   - id: 29
     title: Raj Dhatt

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-more-meaningful-names-than-hungarian-short-form
 title: Do you use more meaningful names than Hungarian short form?
-created: YYYY-05-DD 07:29:18
+created: 2009-05-05 07:29:18
 authors:
   - id: 1
     title: Adam Cogan

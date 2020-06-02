@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-your-projects-regenerated-easily
 title: Do you make your projects regenerated easily?
-created: YYYY-06-DD 06:43:07
+created: 2009-06-09 06:43:07
 authors:
   - id: 1
     title: Adam Cogan

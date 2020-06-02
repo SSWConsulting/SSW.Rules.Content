@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-continuously-deploy-
 title: Do You Continuously Deploy ?
-created: YYYY-06-DD 04:10:42
+created: 2012-06-21 04:10:42
 authors:
   - id: 24
     title: Adam Stephensen

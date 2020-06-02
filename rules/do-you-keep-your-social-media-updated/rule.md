@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-social-media-updated
 title: Do you keep your social media updated?
-created: YYYY-07-DD 05:58:05
+created: 2014-07-04 05:58:05
 authors:
   - id: 1
     title: Adam Cogan

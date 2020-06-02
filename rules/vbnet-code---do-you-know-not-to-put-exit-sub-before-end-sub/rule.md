@@ -1,9 +1,7 @@
-
-
 ---
 uri: vbnet-code---do-you-know-not-to-put-exit-sub-before-end-sub
 title: VB.NET Code - Do you know not to put Exit Sub before End Sub?
-created: YYYY-04-DD 22:32:50
+created: 2018-04-30 22:32:50
 authors:
   - id: 1
     title: Adam Cogan

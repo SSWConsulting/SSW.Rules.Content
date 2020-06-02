@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-versioning
 title: Do you provide versioning?
-created: YYYY-07-DD 21:34:48
+created: 2014-07-17 21:34:48
 authors:
   - id: 1
     title: Adam Cogan

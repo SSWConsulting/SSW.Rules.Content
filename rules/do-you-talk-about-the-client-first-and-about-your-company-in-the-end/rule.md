@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-talk-about-the-client-first-and-about-your-company-in-the-end
 title: Do you talk about the client first and about your company in the end?
-created: YYYY-08-DD 22:43:38
+created: 2019-08-21 22:43:38
 authors:
   - id: 1
     title: Adam Cogan

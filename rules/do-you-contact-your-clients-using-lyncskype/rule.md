@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-contact-your-clients-using-lyncskype
 title: Do you contact your clients using Lync/Skype?
-created: YYYY-07-DD 06:46:49
+created: 2010-07-16 06:46:49
 authors:
 
 ---

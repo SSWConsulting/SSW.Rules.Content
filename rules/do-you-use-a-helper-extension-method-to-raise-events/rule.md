@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-helper-extension-method-to-raise-events
 title: Do you use a helper extension method to raise events?
-created: YYYY-04-DD 21:21:26
+created: 2018-04-30 21:21:26
 authors:
   - id: 1
     title: Adam Cogan

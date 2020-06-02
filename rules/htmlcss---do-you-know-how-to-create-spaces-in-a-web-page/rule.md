@@ -1,9 +1,7 @@
-
-
 ---
 uri: htmlcss---do-you-know-how-to-create-spaces-in-a-web-page
 title: HTML/CSS - Do you know how to create spaces in a web page?
-created: YYYY-07-DD 14:19:41
+created: 2012-07-02 14:19:41
 authors:
   - id: 16
     title: Tiago Araujo

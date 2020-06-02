@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-link-your-social-accounts-to-bitly
 title: Do you link your social accounts to bit.ly?
-created: YYYY-03-DD 21:12:16
+created: 2013-03-05 21:12:16
 authors:
   - id: 1
     title: Adam Cogan

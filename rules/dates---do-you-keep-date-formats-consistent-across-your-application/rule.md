@@ -1,9 +1,7 @@
-
-
 ---
 uri: dates---do-you-keep-date-formats-consistent-across-your-application
 title: Dates - Do you keep Date formats consistent across your application?
-created: YYYY-12-DD 05:59:36
+created: 2014-12-01 05:59:36
 authors:
 
 ---

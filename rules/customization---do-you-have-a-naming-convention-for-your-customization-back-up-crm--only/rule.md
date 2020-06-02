@@ -1,9 +1,7 @@
-
-
 ---
 uri: customization---do-you-have-a-naming-convention-for-your-customization-back-up-crm--only
 title: Customization - Do you have a naming convention for your customization back up? (CRM 4 only)
-created: YYYY-12-DD 18:22:46
+created: 2012-12-10 18:22:46
 authors:
   - id: 1
     title: Adam Cogan

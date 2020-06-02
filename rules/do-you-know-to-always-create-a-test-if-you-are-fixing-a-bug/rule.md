@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-always-create-a-test-if-you-are-fixing-a-bug
 title: Do you know to always create a test if you are fixing a bug?
-created: YYYY-11-DD 03:52:38
+created: 2011-11-18 03:52:38
 authors:
   - id: 22
     title: David Klein

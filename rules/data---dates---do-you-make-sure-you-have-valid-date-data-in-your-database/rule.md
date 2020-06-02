@@ -1,9 +1,7 @@
-
-
 ---
 uri: data---dates---do-you-make-sure-you-have-valid-date-data-in-your-database
 title: Data - Dates - Do you make sure you have valid date data in your database?
-created: YYYY-11-DD 19:27:33
+created: 2019-11-25 19:27:33
 authors:
   - id: 1
     title: Adam Cogan

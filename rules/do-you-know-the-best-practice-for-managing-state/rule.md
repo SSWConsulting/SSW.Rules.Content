@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-practice-for-managing-state
 title: Do you know the best practice for managing state?
-created: YYYY-08-DD 23:35:06
+created: 2017-08-15 23:35:06
 authors:
   - id: 24
     title: Adam Stephensen

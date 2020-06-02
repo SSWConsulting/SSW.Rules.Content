@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-run-dog-food-stats-after
 title: Do you run Dog Food Stats (After)?
-created: YYYY-08-DD 13:00:01
+created: 2015-08-13 13:00:01
 authors:
 
 ---

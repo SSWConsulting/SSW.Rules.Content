@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-setup-web-application-for-internal-and-external-access
 title: Do you setup web application for internal and external access
-created: YYYY-05-DD 06:15:03
+created: 2016-05-20 06:15:03
 authors:
   - id: 15
     title: Mark Liu

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-give-your-emails-a-business-value
 title: Do you give your emails a Business Value?
-created: YYYY-05-DD 04:05:56
+created: 2017-05-02 04:05:56
 authors:
   - id: 1
     title: Adam Cogan

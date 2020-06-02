@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-register-your-guests-and-help-them-find-you
 title: Do you register your guests and help them find you?
-created: YYYY-12-DD 00:30:38
+created: 2014-12-31 00:30:38
 authors:
   - id: 62
     title: Penny Walker

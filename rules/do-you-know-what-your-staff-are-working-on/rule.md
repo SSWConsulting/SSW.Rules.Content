@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-your-staff-are-working-on
 title: Do you know what your staff are working on?
-created: YYYY-07-DD 21:46:36
+created: 2019-07-05 21:46:36
 authors:
   - id: 1
     title: Adam Cogan

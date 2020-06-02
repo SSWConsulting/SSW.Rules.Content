@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-sometimes-use-off-the-record-conversations
 title: Do you sometimes use ‘off the record’ conversations?
-created: YYYY-03-DD 21:14:36
+created: 2018-03-14 21:14:36
 authors:
   - id: 1
     title: Adam Cogan

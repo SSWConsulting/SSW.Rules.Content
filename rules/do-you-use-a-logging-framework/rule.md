@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-logging-framework
 title: Do you use a logging framework?
-created: YYYY-04-DD 09:53:00
+created: 2012-04-01 09:53:00
 authors:
   - id: 1
     title: Adam Cogan

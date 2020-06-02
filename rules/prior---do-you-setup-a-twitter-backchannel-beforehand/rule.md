@@ -1,9 +1,7 @@
-
-
 ---
 uri: prior---do-you-setup-a-twitter-backchannel-beforehand
 title: Prior - Do you setup a Twitter backchannel beforehand?
-created: YYYY-10-DD 01:07:04
+created: 2010-10-22 01:07:04
 authors:
 
 ---

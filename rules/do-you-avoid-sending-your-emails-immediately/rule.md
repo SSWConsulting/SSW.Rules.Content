@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-sending-your-emails-immediately
 title: Do you avoid sending your emails immediately?
-created: YYYY-04-DD 02:51:28
+created: 2009-04-03 02:51:28
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-claim-expense-reimbursements
 title: Do you know how to claim expense reimbursements?
-created: YYYY-04-DD 18:33:33
+created: 2013-04-19 18:33:33
 authors:
   - id: 4
     title: Ulysses Maclaren

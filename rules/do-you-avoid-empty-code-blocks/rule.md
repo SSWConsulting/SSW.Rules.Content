@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-empty-code-blocks
 title: Do you avoid Empty code blocks?
-created: YYYY-04-DD 22:08:47
+created: 2018-04-30 22:08:47
 authors:
   - id: 1
     title: Adam Cogan

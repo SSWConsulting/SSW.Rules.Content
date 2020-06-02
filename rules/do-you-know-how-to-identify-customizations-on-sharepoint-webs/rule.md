@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-identify-customizations-on-sharepoint-webs
 title: Do you know how to identify customizations on SharePoint webs
-created: YYYY-04-DD 03:14:17
+created: 2013-04-24 03:14:17
 authors:
   - id: 9
     title: William Yin

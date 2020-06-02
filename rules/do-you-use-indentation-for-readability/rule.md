@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-indentation-for-readability
 title: Do you use indentation for readability?
-created: YYYY-09-DD 02:53:29
+created: 2010-09-01 02:53:29
 authors:
   - id: 1
     title: Adam Cogan

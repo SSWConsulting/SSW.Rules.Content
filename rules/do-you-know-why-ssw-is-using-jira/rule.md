@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-ssw-is-using-jira
 title: Do you know why SSW is using Jira?
-created: YYYY-08-DD 01:46:54
+created: 2009-08-13 01:46:54
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-understand-a-data-type-change--data-motion-scripts
 title: Do you understand a data type change = "Data Motion Scripts"?
-created: YYYY-10-DD 00:12:39
+created: 2009-10-07 00:12:39
 authors:
   - id: 1
     title: Adam Cogan

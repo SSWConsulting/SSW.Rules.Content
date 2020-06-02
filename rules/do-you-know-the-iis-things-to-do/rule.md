@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-iis-things-to-do
 title: Do you know the IIS things to do?
-created: YYYY-11-DD 20:52:33
+created: 2015-11-10 20:52:33
 authors:
   - id: 1
     title: Adam Cogan

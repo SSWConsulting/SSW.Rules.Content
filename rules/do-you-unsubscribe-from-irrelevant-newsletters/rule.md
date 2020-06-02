@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-unsubscribe-from-irrelevant-newsletters
 title: Do you unsubscribe from irrelevant newsletters?
-created: YYYY-04-DD 08:08:25
+created: 2009-04-03 08:08:25
 authors:
   - id: 1
     title: Adam Cogan

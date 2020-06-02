@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-comment-based-help-in-powershell-functions-and-scripts
 title: Do you use Comment-Based Help in PowerShell functions and scripts?
-created: YYYY-03-DD 21:36:14
+created: 2020-03-24 21:36:14
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-consistent-naming-convention-for-each-machine
 title: Do you have a consistent naming convention for each machine?
-created: YYYY-09-DD 19:12:45
+created: 2014-09-03 19:12:45
 authors:
   - id: 1
     title: Adam Cogan

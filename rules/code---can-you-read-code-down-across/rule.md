@@ -1,9 +1,7 @@
-
-
 ---
 uri: code---can-you-read-code-down-across
 title: Code - Can you read code down across?
-created: YYYY-04-DD 02:25:09
+created: 2012-04-01 02:25:09
 authors:
   - id: 1
     title: Adam Cogan

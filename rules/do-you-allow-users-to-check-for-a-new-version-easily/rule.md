@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-allow-users-to-check-for-a-new-version-easily
 title: Do you allow users to check for a new version easily?
-created: YYYY-02-DD 09:42:15
+created: 2009-02-28 09:42:15
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-not-to-send-attachments-in-emails
 title: Do you know not to send attachments in emails?
-created: YYYY-04-DD 09:35:54
+created: 2009-04-08 09:35:54
 authors:
   - id: 1
     title: Adam Cogan

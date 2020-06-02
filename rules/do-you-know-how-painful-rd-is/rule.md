@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-painful-rd-is
 title: Do you know how painful R&D is?
-created: YYYY-03-DD 22:20:52
+created: 2019-03-28 22:20:52
 authors:
   - id: 1
     title: Adam Cogan

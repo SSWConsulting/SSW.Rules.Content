@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-eye-contact-with-the-audience
 title: Do you keep eye contact with the audience?
-created: YYYY-08-DD 17:48:33
+created: 2011-08-09 17:48:33
 authors:
 
 ---

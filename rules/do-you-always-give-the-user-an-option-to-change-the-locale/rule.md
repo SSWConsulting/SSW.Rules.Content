@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-give-the-user-an-option-to-change-the-locale
 title: Do you always give the user an option to change the locale?
-created: YYYY-10-DD 08:02:13
+created: 2015-10-21 08:02:13
 authors:
   - id: 50
     title: Martin Li

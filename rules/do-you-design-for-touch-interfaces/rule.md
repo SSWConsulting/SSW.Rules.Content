@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-design-for-touch-interfaces
 title: Do you design for touch interfaces?
-created: YYYY-11-DD 23:54:48
+created: 2014-11-25 23:54:48
 authors:
 
 ---

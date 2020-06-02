@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-stringbuilder
 title: Do you know when to use StringBuilder?
-created: YYYY-01-DD 01:08:17
+created: 2019-01-12 01:08:17
 authors:
 
 ---

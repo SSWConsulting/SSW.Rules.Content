@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-format-and-inputmask-properties-on-a-field
 title: Do you use the Format and InputMask properties on a field?
-created: YYYY-07-DD 02:28:36
+created: 2010-07-23 02:28:36
 authors:
   - id: 1
     title: Adam Cogan

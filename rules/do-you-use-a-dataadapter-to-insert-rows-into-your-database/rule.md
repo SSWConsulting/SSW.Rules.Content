@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-dataadapter-to-insert-rows-into-your-database
 title: Do you use a DataAdapter to insert rows into your database?
-created: YYYY-05-DD 05:30:52
+created: 2009-05-05 05:30:52
 authors:
   - id: 1
     title: Adam Cogan

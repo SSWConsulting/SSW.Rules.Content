@@ -1,9 +1,7 @@
-
-
 ---
 uri: comment---do-you-know-the-comment-convention-you-should-use
 title: Comment - Do you know the comment convention you should use?
-created: YYYY-11-DD 03:52:32
+created: 2011-11-18 03:52:32
 authors:
   - id: 22
     title: David Klein

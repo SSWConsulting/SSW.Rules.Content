@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-declare-member-accessibility-for-all-classes
 title: Do you declare member accessibility for all classes?
-created: YYYY-04-DD 22:45:00
+created: 2018-04-25 22:45:00
 authors:
   - id: 1
     title: Adam Cogan

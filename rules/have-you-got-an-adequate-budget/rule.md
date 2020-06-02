@@ -1,9 +1,7 @@
-
-
 ---
 uri: have-you-got-an-adequate-budget
 title: Have you got an adequate budget?
-created: YYYY-12-DD 00:13:48
+created: 2014-12-31 00:13:48
 authors:
 
 ---

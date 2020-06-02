@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the--important-parts-of-azure
 title: Do you know the 9 important parts of Azure?
-created: YYYY-06-DD 23:50:13
+created: 2019-06-28 23:50:13
 authors:
   - id: 1
     title: Adam Cogan

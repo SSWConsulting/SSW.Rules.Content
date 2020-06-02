@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-to-display-code-on-your-website
 title: Do you know the best way to display code on your website?
-created: YYYY-08-DD 18:57:08
+created: 2016-08-05 18:57:08
 authors:
   - id: 1
     title: Adam Cogan

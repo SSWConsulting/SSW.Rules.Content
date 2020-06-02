@@ -1,9 +1,7 @@
-
-
 ---
 uri: before-starting-do-you-follow-a-test-driven-process
 title: (Before starting) Do you follow a Test Driven Process?
-created: YYYY-11-DD 03:52:57
+created: 2011-11-18 03:52:57
 authors:
   - id: 5
     title: Justin King

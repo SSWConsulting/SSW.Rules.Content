@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-css-validation-service-to-check-your-css-file
 title: Do you use CSS Validation Service to check your CSS file?
-created: YYYY-11-DD 18:28:26
+created: 2016-11-16 18:28:26
 authors:
   - id: 1
     title: Adam Cogan

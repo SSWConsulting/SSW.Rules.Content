@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-you-should-do-a-retrospective-after-an-activity-ends-aka-feedback
 title: Do you know you should do a retrospective after an activity ends (a.k.a. Feedback)?
-created: YYYY-09-DD 18:27:34
+created: 2014-09-24 18:27:34
 authors:
   - id: 1
     title: Adam Cogan

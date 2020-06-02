@@ -1,9 +1,7 @@
-
-
 ---
 uri: chinafy---do-you-manage-rd-party-dependencies
 title: Chinafy - Do you manage 3rd party dependencies?
-created: YYYY-12-DD 03:38:44
+created: 2018-12-10 03:38:44
 authors:
   - id: 34
     title: Brendan Richards

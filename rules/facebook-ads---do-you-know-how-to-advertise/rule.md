@@ -1,9 +1,7 @@
-
-
 ---
 uri: facebook-ads---do-you-know-how-to-advertise
 title: Facebook Ads - Do you know how to advertise?
-created: YYYY-09-DD 17:53:43
+created: 2015-09-24 17:53:43
 authors:
   - id: 4
     title: Ulysses Maclaren

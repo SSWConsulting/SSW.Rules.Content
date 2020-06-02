@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-migration-plan
 title: Do you have a Migration plan?
-created: YYYY-01-DD 19:21:26
+created: 2018-01-17 19:21:26
 authors:
   - id: 69
     title: Jean Thirion

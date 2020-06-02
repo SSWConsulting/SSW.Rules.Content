@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-right-source-control-to-use
 title: Do you know the right source control to use?
-created: YYYY-11-DD 03:52:53
+created: 2011-11-18 03:52:53
 authors:
   - id: 22
     title: David Klein

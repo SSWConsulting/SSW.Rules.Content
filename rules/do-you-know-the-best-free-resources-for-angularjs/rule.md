@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-free-resources-for-angularjs
 title: Do you know the best free resources for AngularJS
-created: YYYY-02-DD 14:02:15
+created: 2016-02-19 14:02:15
 authors:
 
 ---

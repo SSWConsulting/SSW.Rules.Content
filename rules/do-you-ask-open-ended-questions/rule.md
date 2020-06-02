@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ask-open-ended-questions
 title: Do you ask open-ended questions?
-created: YYYY-04-DD 23:42:39
+created: 2018-04-09 23:42:39
 authors:
   - id: 1
     title: Adam Cogan

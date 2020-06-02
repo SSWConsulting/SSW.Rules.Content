@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-remember-to-change-the-default-title-of-a-newly-created-page
 title: Do you remember to change the default title of a newly created page?
-created: YYYY-02-DD 02:00:34
+created: 2015-02-16 02:00:34
 authors:
 
 ---

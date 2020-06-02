@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-send-a-v-of-an-email
 title: Do you know how to send a v2 of an email?
-created: YYYY-01-DD 15:33:23
+created: 2020-01-13 15:33:23
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-know-how-to-take-feedbackcriticism-even-if-its-not-your-fault
 title: Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?
-created: YYYY-04-DD 20:28:20
+created: 2013-04-08 20:28:20
 authors:
   - id: 1
     title: Adam Cogan

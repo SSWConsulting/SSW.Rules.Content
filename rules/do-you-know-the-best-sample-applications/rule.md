@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-sample-applications
 title: Do you know the best sample applications?
-created: YYYY-03-DD 18:31:47
+created: 2016-03-15 18:31:47
 authors:
   - id: 1
     title: Adam Cogan

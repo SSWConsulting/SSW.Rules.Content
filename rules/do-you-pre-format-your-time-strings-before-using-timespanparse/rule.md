@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-pre-format-your-time-strings-before-using-timespanparse
 title: Do you pre-format your time strings before using TimeSpan.Parse()?
-created: YYYY-04-DD 22:00:38
+created: 2018-04-25 22:00:38
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-monitor-company-email
 title: Do you Monitor Company Email?
-created: YYYY-04-DD 07:12:18
+created: 2009-04-03 07:12:18
 authors:
   - id: 1
     title: Adam Cogan

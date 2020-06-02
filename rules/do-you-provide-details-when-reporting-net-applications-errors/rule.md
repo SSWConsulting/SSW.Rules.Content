@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-details-when-reporting-net-applications-errors
 title: Do you provide details when reporting .NET Applications errors
-created: YYYY-02-DD 16:59:27
+created: 2016-02-09 16:59:27
 authors:
 
 ---

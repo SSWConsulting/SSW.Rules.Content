@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-organize-your-product-information-on-your-website-appropriately
 title: Do you organize your product information on your website appropriately?
-created: YYYY-02-DD 02:37:24
+created: 2015-02-13 02:37:24
 authors:
 
 ---

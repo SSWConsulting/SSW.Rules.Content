@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-remove-the-debug-attribute-in-webconfig-compilation-element
 title: Do you remove the debug attribute in Web.config compilation element?
-created: YYYY-08-DD 22:22:22
+created: 2016-08-24 22:22:22
 authors:
   - id: 1
     title: Adam Cogan

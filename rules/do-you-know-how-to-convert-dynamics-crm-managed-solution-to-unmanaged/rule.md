@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-convert-dynamics-crm-managed-solution-to-unmanaged
 title: Do you know how to convert Dynamics CRM managed solution to unmanaged
-created: YYYY-06-DD 04:36:23
+created: 2015-06-18 04:36:23
 authors:
 
 ---

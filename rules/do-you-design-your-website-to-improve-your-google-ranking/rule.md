@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-design-your-website-to-improve-your-google-ranking
 title: Do you design your website to improve your Google Ranking?
-created: YYYY-08-DD 18:36:10
+created: 2016-08-03 18:36:10
 authors:
   - id: 1
     title: Adam Cogan

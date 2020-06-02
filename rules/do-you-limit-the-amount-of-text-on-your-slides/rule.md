@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-limit-the-amount-of-text-on-your-slides
 title: Do you limit the amount of text on your slides?
-created: YYYY-06-DD 08:17:30
+created: 2010-06-08 08:17:30
 authors:
 
 ---

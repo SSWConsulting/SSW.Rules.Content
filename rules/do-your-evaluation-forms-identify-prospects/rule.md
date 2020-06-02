@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-your-evaluation-forms-identify-prospects
 title: Do your evaluation forms identify prospects?
-created: YYYY-10-DD 18:47:24
+created: 2014-10-13 18:47:24
 authors:
   - id: 4
     title: Ulysses Maclaren

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-png
 title: Do you know when to use PNG?
-created: YYYY-10-DD 00:13:51
+created: 2015-10-13 00:13:51
 authors:
 
 ---

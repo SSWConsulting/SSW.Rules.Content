@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-external-links-clear
 title: Do you make external links clear?
-created: YYYY-02-DD 02:21:22
+created: 2015-02-16 02:21:22
 authors:
   - id: 1
     title: Adam Cogan

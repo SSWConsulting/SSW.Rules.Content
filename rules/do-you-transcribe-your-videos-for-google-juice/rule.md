@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-transcribe-your-videos-for-google-juice
 title: Do you transcribe your videos for Google juice?
-created: YYYY-12-DD 17:41:31
+created: 2015-12-07 17:41:31
 authors:
   - id: 1
     title: Adam Cogan

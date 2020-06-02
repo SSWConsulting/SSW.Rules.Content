@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-add-zs-prefix-to-system-tables
 title: Schema - Do you add zs prefix to system tables?
-created: YYYY-11-DD 20:39:28
+created: 2019-11-07 20:39:28
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-use-database-mail-not-sql-mail
 title: DBAs - Do you use Database Mail (not SQL Mail)?
-created: YYYY-11-DD 17:57:28
+created: 2019-11-19 17:57:28
 authors:
   - id: 1
     title: Adam Cogan

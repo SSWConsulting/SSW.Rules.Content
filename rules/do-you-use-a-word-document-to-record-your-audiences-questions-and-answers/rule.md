@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-word-document-to-record-your-audiences-questions-and-answers
 title: Do you use a word document to record your audience's Questions and Answers?
-created: YYYY-06-DD 00:01:49
+created: 2010-06-09 00:01:49
 authors:
 
 ---

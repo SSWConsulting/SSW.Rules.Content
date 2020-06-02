@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-confirm-your-list-of-installed-sharepoint--solutions
 title: Do you confirm your list of installed SharePoint 2007 Solutions
-created: YYYY-12-DD 02:53:48
+created: 2010-12-23 02:53:48
 authors:
   - id: 8
     title: John Liu

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-your-speakers-know-what-they-need-to-do-at-an-event
 title: Do your speakers know what they need to do at an event?
-created: YYYY-12-DD 00:41:13
+created: 2014-12-31 00:41:13
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-sure-your-page-name-is-consistent-in-three-places
 title: Do you make sure your page name is consistent in three places?
-created: YYYY-02-DD 01:53:43
+created: 2015-02-16 01:53:43
 authors:
 
 ---

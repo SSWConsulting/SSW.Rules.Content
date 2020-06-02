@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-track-your-initial-meetings
 title: Do you track your initial meetings?
-created: YYYY-04-DD 17:41:02
+created: 2018-04-05 17:41:02
 authors:
   - id: 4
     title: Ulysses Maclaren

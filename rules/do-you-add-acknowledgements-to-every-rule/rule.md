@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-acknowledgements-to-every-rule
 title: Do you add acknowledgements to every rule?
-created: YYYY-10-DD 17:41:34
+created: 2014-10-28 17:41:34
 authors:
   - id: 9
     title: William Yin

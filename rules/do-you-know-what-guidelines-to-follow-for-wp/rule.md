@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-guidelines-to-follow-for-wp
 title: Do you know what guidelines to follow for WP?
-created: YYYY-11-DD 23:59:28
+created: 2014-11-25 23:59:28
 authors:
 
 ---

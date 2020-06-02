@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-any
 title: Do you avoid using “any”?
-created: YYYY-04-DD 19:32:36
+created: 2016-04-28 19:32:36
 authors:
   - id: 55
     title: Steve Leigh

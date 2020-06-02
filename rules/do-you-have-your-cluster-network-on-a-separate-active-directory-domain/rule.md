@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-your-cluster-network-on-a-separate-active-directory-domain
 title: Do you have your cluster network on a separate Active Directory domain?
-created: YYYY-03-DD 19:21:26
+created: 2012-03-02 19:21:26
 authors:
 
 ---

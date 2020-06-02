@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---are-you-specific-in-your-requirements
 title: Communication - Are you specific in your requirements?
-created: YYYY-05-DD 10:14:31
+created: 2010-05-20 10:14:31
 authors:
 
 ---

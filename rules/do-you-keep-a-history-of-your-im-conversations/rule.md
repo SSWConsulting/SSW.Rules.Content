@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-a-history-of-your-im-conversations
 title: Do you keep a history of your IM conversations?
-created: YYYY-10-DD 05:37:49
+created: 2015-10-05 05:37:49
 authors:
   - id: 1
     title: Adam Cogan

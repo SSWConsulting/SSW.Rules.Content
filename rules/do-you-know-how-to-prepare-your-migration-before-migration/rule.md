@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-prepare-your-migration-before-migration
 title: Do you know how to prepare your migration? (before migration)
-created: YYYY-01-DD 23:31:47
+created: 2018-01-17 23:31:47
 authors:
   - id: 69
     title: Jean Thirion

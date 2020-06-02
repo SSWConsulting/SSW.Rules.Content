@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-validate-each-denormalized-field-with-procvalidate
 title: Schema - Do you validate each "Denormalized Field" with procValidate?
-created: YYYY-10-DD 01:11:30
+created: 2009-10-06 01:11:30
 authors:
   - id: 1
     title: Adam Cogan

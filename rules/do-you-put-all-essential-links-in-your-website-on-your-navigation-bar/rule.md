@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-put-all-essential-links-in-your-website-on-your-navigation-bar
 title: Do you put all essential links in your website on your navigation bar?
-created: YYYY-02-DD 01:59:08
+created: 2015-02-16 01:59:08
 authors:
 
 ---

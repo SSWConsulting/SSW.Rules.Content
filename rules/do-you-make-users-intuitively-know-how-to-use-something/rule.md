@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-users-intuitively-know-how-to-use-something
 title: Do you make users intuitively know how to use something?
-created: YYYY-11-DD 01:38:45
+created: 2012-11-27 01:38:45
 authors:
 
 ---

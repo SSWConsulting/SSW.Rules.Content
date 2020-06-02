@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-branding-to-screenshots
 title: Do you add branding to screenshots?
-created: YYYY-04-DD 02:28:41
+created: 2011-04-21 02:28:41
 authors:
   - id: 1
     title: Adam Cogan

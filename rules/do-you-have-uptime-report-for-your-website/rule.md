@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-uptime-report-for-your-website
 title: Do you have uptime report for your website?
-created: YYYY-11-DD 17:45:52
+created: 2016-11-24 17:45:52
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-buffer-to-post-on-social-media
 title: Do you use Buffer to post on social media?
-created: YYYY-04-DD 05:50:56
+created: 2014-04-03 05:50:56
 authors:
   - id: 41
     title: Joanna Feely

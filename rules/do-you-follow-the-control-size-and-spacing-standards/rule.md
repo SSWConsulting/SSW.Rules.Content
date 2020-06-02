@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-follow-the-control-size-and-spacing-standards
 title: Do you follow the control size and spacing standards?
-created: YYYY-12-DD 00:31:14
+created: 2014-12-01 00:31:14
 authors:
 
 ---

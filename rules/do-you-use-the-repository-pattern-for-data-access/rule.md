@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-repository-pattern-for-data-access
 title: Do you use the repository pattern for data access?
-created: YYYY-03-DD 05:16:01
+created: 2012-03-30 05:16:01
 authors:
   - id: 23
     title: Damian Brady

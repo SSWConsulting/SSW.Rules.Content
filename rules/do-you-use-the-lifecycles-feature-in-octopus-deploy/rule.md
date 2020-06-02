@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-lifecycles-feature-in-octopus-deploy
 title: Do you use the Lifecycles feature in Octopus Deploy?
-created: YYYY-01-DD 02:10:20
+created: 2015-01-02 02:10:20
 authors:
   - id: 23
     title: Damian Brady

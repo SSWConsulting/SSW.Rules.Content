@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-time-to-tackle-performance-testing
 title: Do you know the best time to tackle performance testing?
-created: YYYY-08-DD 17:28:21
+created: 2019-08-27 17:28:21
 authors:
   - id: 78
     title: Matt Wicks

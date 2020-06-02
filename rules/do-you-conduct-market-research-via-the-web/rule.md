@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-conduct-market-research-via-the-web
 title: Do you conduct Market Research via the Web?
-created: YYYY-02-DD 02:47:22
+created: 2009-02-19 02:47:22
 authors:
   - id: 1
     title: Adam Cogan

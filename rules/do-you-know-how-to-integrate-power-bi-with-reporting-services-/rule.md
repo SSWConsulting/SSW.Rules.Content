@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-integrate-power-bi-with-reporting-services-
 title: Do you know how to integrate Power BI with Reporting Services 2016?
-created: YYYY-10-DD 06:21:04
+created: 2016-10-24 06:21:04
 authors:
 
 ---

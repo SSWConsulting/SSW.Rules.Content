@@ -1,9 +1,7 @@
-
-
 ---
 uri: priorities---do-you-complete-work-in-order-of-importance-aka-priorities
 title: PRIORITIES - Do you complete work in order of importance (aka priorities)?
-created: YYYY-03-DD 17:57:49
+created: 2012-03-20 17:57:49
 authors:
   - id: 1
     title: Adam Cogan

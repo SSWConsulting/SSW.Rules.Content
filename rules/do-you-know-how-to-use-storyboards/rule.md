@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-use-storyboards
 title: Do you know how to use storyboards?
-created: YYYY-11-DD 01:46:49
+created: 2012-11-27 01:46:49
 authors:
 
 ---

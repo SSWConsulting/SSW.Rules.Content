@@ -1,9 +1,7 @@
-
-
 ---
 uri: efficiency---do-you-always-try-to-work-in-pairs
 title: Efficiency - Do you always try to work in pairs?
-created: YYYY-03-DD 07:35:05
+created: 2009-03-17 07:35:05
 authors:
   - id: 1
     title: Adam Cogan

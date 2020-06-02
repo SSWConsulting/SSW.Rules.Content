@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-stop-editing-when-you-see-read-only
 title: Do you stop editing, when you see “Read Only”?
-created: YYYY-06-DD 03:27:28
+created: 2011-06-22 03:27:28
 authors:
   - id: 1
     title: Adam Cogan

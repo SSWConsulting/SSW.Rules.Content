@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-right-notification-for-backups
 title: Do you know the right notification for backups?
-created: YYYY-07-DD 23:20:11
+created: 2017-07-10 23:20:11
 authors:
   - id: 1
     title: Adam Cogan

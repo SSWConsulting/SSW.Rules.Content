@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-skype-for-business-setup-in-hybrid-to-get-the-full-functionality-out-of-teams
 title: Do you have Skype for Business setup in Hybrid to get the full functionality out of Teams?
-created: YYYY-10-DD 18:21:20
+created: 2019-10-16 18:21:20
 authors:
   - id: 73
     title: Kaique Biancatti

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-text-limit-for-images
 title: Do you know the text limit for images?
-created: YYYY-10-DD 22:05:56
+created: 2015-10-07 22:05:56
 authors:
   - id: 30
     title: Marlon Marescia

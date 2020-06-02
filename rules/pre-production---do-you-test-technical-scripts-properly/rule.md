@@ -1,9 +1,7 @@
-
-
 ---
 uri: pre-production---do-you-test-technical-scripts-properly
 title: Pre-Production - Do You Test Technical Scripts Properly?
-created: YYYY-12-DD 22:51:59
+created: 2012-12-23 22:51:59
 authors:
   - id: 27
     title: Titus Maclaren

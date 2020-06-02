@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-verify-that-your-server-meets-the-minimum-requirements
 title: Do you verify that your server meets the minimum requirements?
-created: YYYY-08-DD 15:12:25
+created: 2015-08-12 15:12:25
 authors:
 
 ---

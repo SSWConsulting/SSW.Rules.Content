@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-unnecessary-words
 title: Do you avoid using unnecessary words?
-created: YYYY-04-DD 01:45:50
+created: 2016-04-20 01:45:50
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: authentication---do-you-make-the-logged-in-state-clear
 title: Authentication - Do you make the logged in state clear?
-created: YYYY-11-DD 02:03:35
+created: 2012-11-27 02:03:35
 authors:
 
 ---

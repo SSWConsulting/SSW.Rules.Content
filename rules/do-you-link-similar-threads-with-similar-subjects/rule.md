@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-link-similar-threads-with-similar-subjects
 title: Do you link similar threads with similar subjects?
-created: YYYY-02-DD 17:45:17
+created: 2015-02-03 17:45:17
 authors:
   - id: 4
     title: Ulysses Maclaren

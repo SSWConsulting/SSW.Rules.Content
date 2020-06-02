@@ -1,9 +1,7 @@
-
-
 ---
 uri: are-you-flexible-with-the-order-you-do-the-work-ie-cancelling-a-sprint
 title: Are you flexible with the order you do the work (i.e. Cancelling a sprint)?
-created: YYYY-08-DD 04:57:29
+created: 2009-08-20 04:57:29
 authors:
   - id: 1
     title: Adam Cogan

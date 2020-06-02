@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-discover-your-perfect-prospects-pain-points
 title: Do you know how to discover your perfect prospect’s pain points?
-created: YYYY-06-DD 05:22:18
+created: 2019-06-04 05:22:18
 authors:
   - id: 83
     title: Camilla Rosa Silva

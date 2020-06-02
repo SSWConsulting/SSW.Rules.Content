@@ -1,9 +1,7 @@
-
-
 ---
 uri: authentication---do-you-use-email-address-instead-of-user-name
 title: Authentication - Do you use email address instead of user name?
-created: YYYY-12-DD 19:57:46
+created: 2014-12-09 19:57:46
 authors:
   - id: 1
     title: Adam Cogan

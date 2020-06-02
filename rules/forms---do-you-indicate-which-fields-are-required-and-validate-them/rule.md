@@ -1,9 +1,7 @@
-
-
 ---
 uri: forms---do-you-indicate-which-fields-are-required-and-validate-them
 title: Forms - Do you indicate which fields are required and validate them?
-created: YYYY-12-DD 19:32:54
+created: 2014-12-04 19:32:54
 authors:
   - id: 1
     title: Adam Cogan

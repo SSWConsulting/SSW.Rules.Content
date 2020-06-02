@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-invalid-defaultvalue-and-validationrule-properties-upsizing-problem
 title: Do you have invalid DefaultValue and ValidationRule properties (Upsizing problem)?
-created: YYYY-07-DD 02:12:36
+created: 2010-07-23 02:12:36
 authors:
   - id: 1
     title: Adam Cogan

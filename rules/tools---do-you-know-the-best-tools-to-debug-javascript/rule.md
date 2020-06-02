@@ -1,9 +1,7 @@
-
-
 ---
 uri: tools---do-you-know-the-best-tools-to-debug-javascript
 title: Tools - Do you know the best tools to debug JavaScript?
-created: YYYY-11-DD 19:58:36
+created: 2016-11-29 19:58:36
 authors:
   - id: 1
     title: Adam Cogan

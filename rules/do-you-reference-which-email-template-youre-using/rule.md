@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-reference-which-email-template-youre-using
 title: Do you reference which email template you’re using?
-created: YYYY-06-DD 21:32:34
+created: 2012-06-06 21:32:34
 authors:
   - id: 4
     title: Ulysses Maclaren

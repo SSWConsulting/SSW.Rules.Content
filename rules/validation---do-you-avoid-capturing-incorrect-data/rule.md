@@ -1,9 +1,7 @@
-
-
 ---
 uri: validation---do-you-avoid-capturing-incorrect-data
 title: Validation - Do you avoid capturing incorrect data?
-created: YYYY-11-DD 09:03:27
+created: 2012-11-27 09:03:27
 authors:
 
 ---

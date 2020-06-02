@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-catch-exceptions-precisely
 title: Do you catch exceptions precisely?
-created: YYYY-09-DD 19:22:41
+created: 2013-09-11 19:22:41
 authors:
   - id: 1
     title: Adam Cogan

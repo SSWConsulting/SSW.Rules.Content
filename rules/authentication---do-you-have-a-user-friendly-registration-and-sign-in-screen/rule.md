@@ -1,9 +1,7 @@
-
-
 ---
 uri: authentication---do-you-have-a-user-friendly-registration-and-sign-in-screen
 title: Authentication - Do you have a user friendly registration and sign in screen?
-created: YYYY-12-DD 19:50:46
+created: 2014-12-09 19:50:46
 authors:
   - id: 1
     title: Adam Cogan

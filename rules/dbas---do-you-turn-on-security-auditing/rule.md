@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-turn-on-security-auditing
 title: DBAs - Do you turn on security auditing?
-created: YYYY-11-DD 17:55:00
+created: 2019-11-21 17:55:00
 authors:
   - id: 1
     title: Adam Cogan

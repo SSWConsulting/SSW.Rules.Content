@@ -1,9 +1,7 @@
-
-
 ---
 uri: how-to-publish-a-report-based-on-a-list
 title: How to publish a report based on a list?
-created: YYYY-09-DD 08:18:21
+created: 2009-09-22 08:18:21
 authors:
   - id: 1
     title: Adam Cogan

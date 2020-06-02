@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-doing-small-bug-fixes-on-your-test-server
 title: Do you avoid doing small bug fixes on your test-server?
-created: YYYY-12-DD 20:24:33
+created: 2012-12-10 20:24:33
 authors:
   - id: 1
     title: Adam Cogan

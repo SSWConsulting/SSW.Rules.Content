@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-glimpse
 title: Do you use Glimpse?
-created: YYYY-04-DD 15:08:43
+created: 2012-04-02 15:08:43
 authors:
   - id: 3
     title: Eric Phan

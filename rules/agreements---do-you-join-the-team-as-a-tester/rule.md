@@ -1,9 +1,7 @@
-
-
 ---
 uri: agreements---do-you-join-the-team-as-a-tester
 title: Agreements - Do You Join the Team as a Tester?
-created: YYYY-05-DD 04:53:37
+created: 2012-05-01 04:53:37
 authors:
   - id: 4
     title: Ulysses Maclaren

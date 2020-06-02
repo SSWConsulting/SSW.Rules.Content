@@ -1,9 +1,7 @@
-
-
 ---
 uri: data---do-you-avoid-invalid-characters-in-object-identifiers
 title: Data - Do you avoid invalid characters in object identifiers?
-created: YYYY-11-DD 22:41:25
+created: 2019-11-25 22:41:25
 authors:
   - id: 1
     title: Adam Cogan

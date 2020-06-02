@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-regular-expression-to-validate-an-url
 title: Do you use a regular expression to validate an URL?
-created: YYYY-04-DD 17:31:11
+created: 2018-04-26 17:31:11
 authors:
   - id: 1
     title: Adam Cogan

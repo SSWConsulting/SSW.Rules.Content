@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-not-have-heightwidth-in-an-img-tag
 title: Do you *not* have height/width in an <img> tag?
-created: YYYY-12-DD 12:28:11
+created: 2014-12-22 12:28:11
 authors:
   - id: 1
     title: Adam Cogan

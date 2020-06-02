@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-understand-the-importance-of-language-in-your-ui
 title: Do you understand the importance of language in your UI?
-created: YYYY-12-DD 03:09:10
+created: 2014-12-02 03:09:10
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-screen-unwanted-sales-calls
 title: Do you screen unwanted sales calls?
-created: YYYY-06-DD 23:47:31
+created: 2018-06-08 23:47:31
 authors:
   - id: 1
     title: Adam Cogan

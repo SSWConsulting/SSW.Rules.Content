@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-putting-your-phone-calls-on-hold
 title: Do you avoid putting your phone calls on hold?
-created: YYYY-06-DD 23:40:28
+created: 2018-06-08 23:40:28
 authors:
   - id: 1
     title: Adam Cogan

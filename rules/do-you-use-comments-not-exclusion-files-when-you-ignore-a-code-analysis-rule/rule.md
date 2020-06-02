@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule
 title: Do you use comments not exclusion files when you ignore a Code Analysis rule?
-created: YYYY-06-DD 14:17:49
+created: 2012-06-12 14:17:49
 authors:
   - id: 3
     title: Eric Phan

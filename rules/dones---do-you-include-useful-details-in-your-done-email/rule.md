@@ -1,9 +1,7 @@
-
-
 ---
 uri: dones---do-you-include-useful-details-in-your-done-email
 title: Dones - Do you include useful details in your 'Done' email?
-created: YYYY-05-DD 16:10:16
+created: 2011-05-29 16:10:16
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-domain-layer-independent-of-the-data-access-concerns
 title: Do you keep your domain layer independent of the data access concerns?
-created: YYYY-04-DD 23:15:40
+created: 2019-04-09 23:15:40
 authors:
   - id: 81
     title: Jason Taylor

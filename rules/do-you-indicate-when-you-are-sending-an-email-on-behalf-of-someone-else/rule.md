@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-indicate-when-you-are-sending-an-email-on-behalf-of-someone-else
 title: Do you indicate when you are sending an email on behalf of someone else?
-created: YYYY-07-DD 21:24:59
+created: 2013-07-30 21:24:59
 authors:
   - id: 1
     title: Adam Cogan

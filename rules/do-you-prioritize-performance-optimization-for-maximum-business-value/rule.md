@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-prioritize-performance-optimization-for-maximum-business-value
 title: Do you prioritize performance optimization for maximum business value?
-created: YYYY-08-DD 17:51:08
+created: 2019-08-29 17:51:08
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-sort-in-view-by-a-column-through-code
 title: Do you know how to sort in view by a column through code
-created: YYYY-07-DD 05:40:10
+created: 2013-07-08 05:40:10
 authors:
   - id: 9
     title: William Yin

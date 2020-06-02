@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use--code-to-redirect-renamed-or-moved-pages
 title: Do you use "301" code to redirect renamed or moved pages?
-created: YYYY-11-DD 19:16:40
+created: 2015-11-09 19:16:40
 authors:
   - id: 1
     title: Adam Cogan

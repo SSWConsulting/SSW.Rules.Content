@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-handover-a-project
 title: Do you know how to handover a project?
-created: YYYY-03-DD 06:22:03
+created: 2010-03-15 06:22:03
 authors:
   - id: 1
     title: Adam Cogan

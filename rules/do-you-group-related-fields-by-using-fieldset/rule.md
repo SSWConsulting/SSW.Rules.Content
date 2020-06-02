@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-group-related-fields-by-using-fieldset
 title: Do you group related fields by using FieldSet?
-created: YYYY-12-DD 11:52:59
+created: 2014-12-22 11:52:59
 authors:
   - id: 1
     title: Adam Cogan

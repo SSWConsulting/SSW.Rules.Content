@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-send-newsletters-in-microsoft-dynamics-crm-
 title: Do you know how to send newsletters in Microsoft Dynamics CRM 2016?
-created: YYYY-12-DD 23:23:35
+created: 2016-12-20 23:23:35
 authors:
 
 ---

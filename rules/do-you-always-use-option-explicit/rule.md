@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-use-option-explicit
 title: Do you always use Option Explicit?
-created: YYYY-05-DD 07:01:27
+created: 2009-05-13 07:01:27
 authors:
   - id: 1
     title: Adam Cogan

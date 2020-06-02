@@ -1,9 +1,7 @@
-
-
 ---
 uri: tools---do-you-make-sure-you-have-visual-studio-code-analysis-turned-on
 title: Tools - Do you make sure you have Visual Studio Code Analysis turned on?
-created: YYYY-04-DD 22:55:52
+created: 2018-04-30 22:55:52
 authors:
   - id: 1
     title: Adam Cogan

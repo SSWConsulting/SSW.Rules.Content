@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-upgrade-your-third-party-tools
 title: Do you know to upgrade your third party tools
-created: YYYY-08-DD 14:27:04
+created: 2015-08-13 14:27:04
 authors:
 
 ---

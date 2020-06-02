@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-an-about-the-presenter-slide
 title: Do you have an 'About the Presenter' Slide?
-created: YYYY-06-DD 10:04:10
+created: 2010-06-08 10:04:10
 authors:
 
 ---

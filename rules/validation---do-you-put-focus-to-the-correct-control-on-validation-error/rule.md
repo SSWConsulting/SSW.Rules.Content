@@ -1,9 +1,7 @@
-
-
 ---
 uri: validation---do-you-put-focus-to-the-correct-control-on-validation-error
 title: Validation - Do you put focus to the correct control on validation error?
-created: YYYY-11-DD 09:05:50
+created: 2012-11-27 09:05:50
 authors:
 
 ---

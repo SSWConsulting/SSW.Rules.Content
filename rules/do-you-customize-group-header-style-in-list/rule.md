@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-customize-group-header-style-in-list
 title: Do you customize group header style in list
-created: YYYY-08-DD 06:07:04
+created: 2018-08-22 06:07:04
 authors:
   - id: 9
     title: William Yin

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-document-your-webapi
 title: Do you document your WebAPI
-created: YYYY-11-DD 00:27:10
+created: 2016-11-07 00:27:10
 authors:
   - id: 3
     title: Eric Phan

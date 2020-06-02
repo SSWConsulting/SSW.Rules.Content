@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-know-how-to-provide-best-database-schema-document
 title: Schema - Do you know how to provide best database schema document?
-created: YYYY-11-DD 22:47:26
+created: 2019-11-22 22:47:26
 authors:
   - id: 1
     title: Adam Cogan

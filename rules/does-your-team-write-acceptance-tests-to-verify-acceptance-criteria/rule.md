@@ -1,9 +1,7 @@
-
-
 ---
 uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 title: Does Your Team Write Acceptance Tests to Verify Acceptance Criteria?
-created: YYYY-11-DD 19:00:32
+created: 2012-11-08 19:00:32
 authors:
   - id: 24
     title: Adam Stephensen

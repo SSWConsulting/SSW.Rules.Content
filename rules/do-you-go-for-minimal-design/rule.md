@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-go-for-minimal-design
 title: Do you go for Minimal Design?
-created: YYYY-02-DD 01:31:56
+created: 2015-02-13 01:31:56
 authors:
 
 ---

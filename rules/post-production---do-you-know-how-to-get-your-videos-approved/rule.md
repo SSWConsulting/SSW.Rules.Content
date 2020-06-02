@@ -1,9 +1,7 @@
-
-
 ---
 uri: post-production---do-you-know-how-to-get-your-videos-approved
 title: Post-Production - Do you know how to get your videos approved?
-created: YYYY-10-DD 04:35:10
+created: 2012-10-31 04:35:10
 authors:
   - id: 29
     title: Raj Dhatt

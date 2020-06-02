@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-mobile-friendly-website
 title: Do you have a Mobile friendly website?
-created: YYYY-04-DD 06:49:54
+created: 2019-04-16 06:49:54
 authors:
   - id: 83
     title: Camilla Rosa Silva

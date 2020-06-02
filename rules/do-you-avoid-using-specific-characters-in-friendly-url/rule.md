@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-specific-characters-in-friendly-url
 title: Do you avoid using specific characters in friendly URL?
-created: YYYY-04-DD 20:15:26
+created: 2017-04-26 20:15:26
 authors:
   - id: 9
     title: William Yin

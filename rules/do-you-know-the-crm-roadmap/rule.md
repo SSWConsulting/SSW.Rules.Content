@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-crm-roadmap
 title: Do you know the CRM roadmap?
-created: YYYY-07-DD 20:16:01
+created: 2016-07-26 20:16:01
 authors:
   - id: 1
     title: Adam Cogan

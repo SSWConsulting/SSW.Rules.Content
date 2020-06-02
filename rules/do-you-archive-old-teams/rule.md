@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-archive-old-teams
 title: Do you archive old Teams?
-created: YYYY-09-DD 18:48:19
+created: 2019-09-30 18:48:19
 authors:
   - id: 1
     title: Adam Cogan

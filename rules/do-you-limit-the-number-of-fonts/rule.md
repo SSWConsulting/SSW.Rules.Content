@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-limit-the-number-of-fonts
 title: Do you limit the number of fonts?
-created: YYYY-06-DD 08:13:50
+created: 2010-06-08 08:13:50
 authors:
 
 ---

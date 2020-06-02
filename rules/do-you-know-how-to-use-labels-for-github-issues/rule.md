@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-use-labels-for-github-issues
 title: Do you know how to use labels for GitHub Issues?
-created: YYYY-11-DD 04:19:40
+created: 2019-11-15 04:19:40
 authors:
   - id: 1
     title: Adam Cogan

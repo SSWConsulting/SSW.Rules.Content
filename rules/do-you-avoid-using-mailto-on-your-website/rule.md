@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-mailto-on-your-website
 title: Do you avoid using mailto: on your website?
-created: YYYY-11-DD 17:15:31
+created: 2016-11-16 17:15:31
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-suffix-unit-test-classes-with-tests
 title: Do you suffix unit test classes with "Tests"?
-created: YYYY-04-DD 23:24:57
+created: 2018-04-25 23:24:57
 authors:
   - id: 1
     title: Adam Cogan

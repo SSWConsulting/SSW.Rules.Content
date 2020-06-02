@@ -1,9 +1,7 @@
-
-
 ---
 uri: management---is-your-client-clear-on-the-definition-of-a-bug
 title: Management - Is your client clear on the definition of a bug?
-created: YYYY-02-DD 09:42:39
+created: 2009-02-28 09:42:39
 authors:
   - id: 1
     title: Adam Cogan

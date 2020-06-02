@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-book-better-flights-within-us
 title: Do you know how to book better flights within US?
-created: YYYY-04-DD 05:03:42
+created: 2015-04-28 05:03:42
 authors:
 
 ---

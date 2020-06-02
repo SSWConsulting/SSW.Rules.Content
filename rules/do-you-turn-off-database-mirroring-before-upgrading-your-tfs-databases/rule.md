@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
 title: Do you turn off Database Mirroring before Upgrading your TFS databases?
-created: YYYY-08-DD 16:10:38
+created: 2015-08-12 16:10:38
 authors:
 
 ---

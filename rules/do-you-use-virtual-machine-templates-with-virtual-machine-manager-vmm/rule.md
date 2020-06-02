@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-virtual-machine-templates-with-virtual-machine-manager-vmm
 title: Do you use Virtual Machine templates with Virtual Machine Manager (VMM)?
-created: YYYY-10-DD 00:33:00
+created: 2019-10-18 00:33:00
 authors:
 
 ---

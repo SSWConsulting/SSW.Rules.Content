@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-the-time-taken-in-the-status-bar
 title: Do you have the time taken in the status bar?
-created: YYYY-04-DD 21:00:32
+created: 2018-04-25 21:00:32
 authors:
   - id: 1
     title: Adam Cogan

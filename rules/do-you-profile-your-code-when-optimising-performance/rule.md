@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-profile-your-code-when-optimising-performance
 title: Do you profile your code when optimising performance?
-created: YYYY-05-DD 08:54:43
+created: 2009-05-06 08:54:43
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: data---do-you-use-a-url-instead-of-an-image-in-your-database
 title: Data - Do you use a URL instead of an image in your database?
-created: YYYY-11-DD 22:53:47
+created: 2019-11-25 22:53:47
 authors:
   - id: 1
     title: Adam Cogan

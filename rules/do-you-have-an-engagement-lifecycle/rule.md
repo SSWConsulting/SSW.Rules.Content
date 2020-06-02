@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-an-engagement-lifecycle
 title: Do you have an Engagement Lifecycle?
-created: YYYY-03-DD 10:27:58
+created: 2014-03-03 10:27:58
 authors:
   - id: 1
     title: Adam Cogan

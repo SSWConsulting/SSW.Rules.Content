@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-expensify-for-expenses
 title: Do you use Expensify for expenses?
-created: YYYY-06-DD 16:13:40
+created: 2017-06-27 16:13:40
 authors:
   - id: 4
     title: Ulysses Maclaren

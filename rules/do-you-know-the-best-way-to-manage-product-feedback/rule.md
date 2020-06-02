@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-to-manage-product-feedback
 title: Do you know the best way to manage product feedback?
-created: YYYY-10-DD 05:06:38
+created: 2014-10-23 05:06:38
 authors:
   - id: 1
     title: Adam Cogan

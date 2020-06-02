@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-use-save-save-and-close-on-a-webpage
 title: Do you know to use Save, Save and Close on a webpage?
-created: YYYY-11-DD 03:54:09
+created: 2014-11-27 03:54:09
 authors:
   - id: 38
     title: Drew Robson

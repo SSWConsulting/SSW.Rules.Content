@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-main-principles-of-clean-architecture
 title: Do you know the main principles of Clean Architecture?
-created: YYYY-04-DD 21:34:38
+created: 2019-04-14 21:34:38
 authors:
   - id: 81
     title: Jason Taylor

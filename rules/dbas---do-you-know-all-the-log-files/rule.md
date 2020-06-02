@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-know-all-the-log-files
 title: DBAs - Do you know all the log files?
-created: YYYY-11-DD 17:47:35
+created: 2019-11-21 17:47:35
 authors:
   - id: 1
     title: Adam Cogan

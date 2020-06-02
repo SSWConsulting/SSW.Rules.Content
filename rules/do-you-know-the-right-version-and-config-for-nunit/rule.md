@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-right-version-and-config-for-nunit
 title: Do you know the right version and config for nUnit?
-created: YYYY-03-DD 23:01:15
+created: 2020-03-12 23:01:15
 authors:
   - id: 1
     title: Adam Cogan

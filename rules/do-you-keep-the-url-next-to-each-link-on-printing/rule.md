@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-the-url-next-to-each-link-on-printing
 title: Do you keep the URL next to each link on printing?
-created: YYYY-06-DD 21:04:47
+created: 2016-06-08 21:04:47
 authors:
   - id: 1
     title: Adam Cogan

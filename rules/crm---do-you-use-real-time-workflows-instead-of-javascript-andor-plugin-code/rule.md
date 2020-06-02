@@ -1,9 +1,7 @@
-
-
 ---
 uri: crm---do-you-use-real-time-workflows-instead-of-javascript-andor-plugin-code
 title: CRM2013 - Do you use Real-Time Workflows instead of Javascript and/or Plugin Code?
-created: YYYY-10-DD 16:41:35
+created: 2014-10-24 16:41:35
 authors:
   - id: 32
     title: Mehmet Ozdemir

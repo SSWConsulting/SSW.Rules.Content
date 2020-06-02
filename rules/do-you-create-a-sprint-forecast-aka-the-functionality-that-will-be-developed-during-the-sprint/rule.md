@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
-created: YYYY-12-DD 03:53:59
+created: 2010-12-02 03:53:59
 authors:
   - id: 1
     title: Adam Cogan

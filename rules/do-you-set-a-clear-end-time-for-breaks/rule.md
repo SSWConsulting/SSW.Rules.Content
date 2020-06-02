@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-set-a-clear-end-time-for-breaks
 title: Do you set a clear end time for breaks?
-created: YYYY-01-DD 14:15:53
+created: 2012-01-27 14:15:53
 authors:
   - id: 1
     title: Adam Cogan

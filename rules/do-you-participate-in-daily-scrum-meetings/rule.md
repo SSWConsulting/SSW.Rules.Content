@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-participate-in-daily-scrum-meetings
 title: Do you participate in Daily Scrum meetings?
-created: YYYY-07-DD 21:50:04
+created: 2019-07-05 21:50:04
 authors:
   - id: 1
     title: Adam Cogan

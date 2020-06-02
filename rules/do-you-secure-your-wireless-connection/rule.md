@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-secure-your-wireless-connection
 title: Do you secure your wireless connection?
-created: YYYY-07-DD 21:37:12
+created: 2017-07-10 21:37:12
 authors:
   - id: 47
     title: Stanley Sidik

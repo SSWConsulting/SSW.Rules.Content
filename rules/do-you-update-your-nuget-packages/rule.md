@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-update-your-nuget-packages
 title: Do you update your NuGet packages?
-created: YYYY-08-DD 19:03:22
+created: 2014-08-21 19:03:22
 authors:
   - id: 1
     title: Adam Cogan

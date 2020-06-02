@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-reliably-deliver-your-tasks
 title: Do you reliably deliver your tasks?
-created: YYYY-07-DD 06:36:49
+created: 2010-07-16 06:36:49
 authors:
 
 ---

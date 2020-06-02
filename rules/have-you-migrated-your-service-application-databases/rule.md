@@ -1,9 +1,7 @@
-
-
 ---
 uri: have-you-migrated-your-service-application-databases
 title: Have you migrated your service application databases
-created: YYYY-04-DD 00:12:43
+created: 2013-04-26 00:12:43
 authors:
   - id: 28
     title: Daragh Bannigan

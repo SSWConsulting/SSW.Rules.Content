@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-be-pushy-when-you-need-to-be
 title: Do you know how to be pushy when you need to be?
-created: YYYY-07-DD 04:34:06
+created: 2010-07-16 04:34:06
 authors:
 
 ---

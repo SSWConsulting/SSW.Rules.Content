@@ -1,9 +1,7 @@
-
-
 ---
 uri: middle-tier---do-you-implement-business-logic-in-middle-tier
 title: Middle Tier - Do you implement business logic in middle tier?
-created: YYYY-11-DD 22:30:36
+created: 2019-11-14 22:30:36
 authors:
   - id: 1
     title: Adam Cogan

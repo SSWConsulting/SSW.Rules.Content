@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use--and-indentation-to-keep-the-context
 title: Do you use > and indentation to keep the context?
-created: YYYY-03-DD 02:23:50
+created: 2009-03-31 02:23:50
 authors:
   - id: 1
     title: Adam Cogan

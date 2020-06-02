@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-presentation-simple
 title: Do you keep your presentation simple?
-created: YYYY-06-DD 10:02:40
+created: 2010-06-08 10:02:40
 authors:
 
 ---

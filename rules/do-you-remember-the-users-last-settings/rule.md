@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-remember-the-users-last-settings
 title: Do you remember the user's last settings?
-created: YYYY-12-DD 04:05:27
+created: 2014-12-01 04:05:27
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-underline-links-and-include-a-rollover
 title: Do you underline links (and include a rollover)?
-created: YYYY-02-DD 01:30:13
+created: 2015-02-16 01:30:13
 authors:
   - id: 1
     title: Adam Cogan

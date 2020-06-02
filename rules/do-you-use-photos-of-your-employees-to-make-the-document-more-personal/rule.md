@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-photos-of-your-employees-to-make-the-document-more-personal
 title: Do you use photos of your employees to make the document more personal?
-created: YYYY-08-DD 22:54:25
+created: 2019-08-21 22:54:25
 authors:
   - id: 1
     title: Adam Cogan

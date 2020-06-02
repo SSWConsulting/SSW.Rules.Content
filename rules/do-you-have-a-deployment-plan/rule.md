@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-deployment-plan
 title: Do you have a deployment plan?
-created: YYYY-08-DD 19:34:05
+created: 2011-08-26 19:34:05
 authors:
 
 ---

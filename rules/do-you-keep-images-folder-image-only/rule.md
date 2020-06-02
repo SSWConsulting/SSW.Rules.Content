@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-images-folder-image-only
 title: Do you keep \images folder image only?
-created: YYYY-05-DD 05:59:38
+created: 2009-05-05 05:59:38
 authors:
   - id: 1
     title: Adam Cogan

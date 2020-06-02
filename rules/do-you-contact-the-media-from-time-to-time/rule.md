@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-contact-the-media-from-time-to-time
 title: Do you contact the media from time to time?
-created: YYYY-02-DD 16:41:50
+created: 2015-02-04 16:41:50
 authors:
   - id: 30
     title: Marlon Marescia

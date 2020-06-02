@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-react
 title: Do you know when to use React?
-created: YYYY-08-DD 20:23:23
+created: 2017-08-15 20:23:23
 authors:
   - id: 24
     title: Adam Stephensen

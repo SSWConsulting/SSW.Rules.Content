@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-use-teams-search
 title: Do you know how to use Teams Search?
-created: YYYY-09-DD 20:08:15
+created: 2019-09-06 20:08:15
 authors:
   - id: 1
     title: Adam Cogan

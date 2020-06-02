@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-share-every-blog-post
 title: Do you share every blog post?
-created: YYYY-03-DD 16:58:32
+created: 2010-03-12 16:58:32
 authors:
   - id: 1
     title: Adam Cogan

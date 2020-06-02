@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-outlook-rules
 title: Do you avoid Outlook Rules?
-created: YYYY-03-DD 03:51:38
+created: 2009-03-27 03:51:38
 authors:
   - id: 1
     title: Adam Cogan

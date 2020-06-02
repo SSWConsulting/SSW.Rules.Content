@@ -1,9 +1,7 @@
-
-
 ---
 uri: rules-to-better-recruitment
 title: Rules to Better Recruitment
-created: YYYY-02-DD 07:23:43
+created: 2018-02-19 07:23:43
 authors:
   - id: 62
     title: Penny Walker

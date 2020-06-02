@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-time-links-on-your-youtube-videos
 title: Do you add time links on your YouTube videos?
-created: YYYY-07-DD 19:33:41
+created: 2019-07-02 19:33:41
 authors:
   - id: 16
     title: Tiago Araujo

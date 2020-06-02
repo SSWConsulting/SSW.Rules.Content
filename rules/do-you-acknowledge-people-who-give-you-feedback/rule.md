@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-acknowledge-people-who-give-you-feedback
 title: Do you acknowledge people who give you feedback?
-created: YYYY-09-DD 16:15:28
+created: 2010-09-07 16:15:28
 authors:
   - id: 1
     title: Adam Cogan

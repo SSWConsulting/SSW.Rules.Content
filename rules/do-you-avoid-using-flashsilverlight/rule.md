@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-flashsilverlight
 title: Do you avoid using Flash/Silverlight?
-created: YYYY-12-DD 19:17:57
+created: 2014-12-12 19:17:57
 authors:
   - id: 1
     title: Adam Cogan

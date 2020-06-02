@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-offline-email
 title: Do you use Offline Email?
-created: YYYY-04-DD 08:30:40
+created: 2009-04-03 08:30:40
 authors:
   - id: 1
     title: Adam Cogan

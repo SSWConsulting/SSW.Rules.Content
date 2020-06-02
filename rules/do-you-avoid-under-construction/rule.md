@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-under-construction
 title: Do you avoid "Under Construction"?
-created: YYYY-02-DD 02:39:13
+created: 2015-02-13 02:39:13
 authors:
 
 ---

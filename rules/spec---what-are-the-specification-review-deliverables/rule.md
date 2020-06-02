@@ -1,9 +1,7 @@
-
-
 ---
 uri: spec---what-are-the-specification-review-deliverables
 title: Spec - What are the Specification Review Deliverables?
-created: YYYY-02-DD 02:02:12
+created: 2009-02-26 02:02:12
 authors:
   - id: 1
     title: Adam Cogan

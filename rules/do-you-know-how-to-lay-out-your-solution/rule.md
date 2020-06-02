@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-lay-out-your-solution
 title: Do you know how to lay out your solution?
-created: YYYY-11-DD 03:52:49
+created: 2011-11-18 03:52:49
 authors:
   - id: 5
     title: Justin King

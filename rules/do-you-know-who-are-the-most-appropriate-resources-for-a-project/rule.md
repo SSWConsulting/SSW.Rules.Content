@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-who-are-the-most-appropriate-resources-for-a-project
 title: Do you know who are the most appropriate resources for a project?
-created: YYYY-09-DD 18:04:17
+created: 2012-09-25 18:04:17
 authors:
   - id: 1
     title: Adam Cogan

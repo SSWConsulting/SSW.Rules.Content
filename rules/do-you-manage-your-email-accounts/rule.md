@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-manage-your-email-accounts
 title: Do you manage your email accounts?
-created: YYYY-04-DD 03:21:10
+created: 2009-04-03 03:21:10
 authors:
   - id: 1
     title: Adam Cogan

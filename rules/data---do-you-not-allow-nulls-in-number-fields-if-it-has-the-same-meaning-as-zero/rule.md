@@ -1,9 +1,7 @@
-
-
 ---
 uri: data---do-you-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero
 title: Data - Do you not allow NULLs in number fields if it has the same meaning as zero?
-created: YYYY-11-DD 00:38:31
+created: 2019-11-23 00:38:31
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-to-get-metrics-out-of-your-browser
 title: Do you know the best way to get metrics out of your browser?
-created: YYYY-08-DD 17:42:09
+created: 2019-08-27 17:42:09
 authors:
   - id: 78
     title: Matt Wicks

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-find-the-closest-azure-data-centre-for-your-next-project
 title: Do you know how to find the closest Azure Data Centre for your next project?
-created: YYYY-11-DD 17:10:00
+created: 2014-11-28 17:10:00
 authors:
   - id: 32
     title: Mehmet Ozdemir

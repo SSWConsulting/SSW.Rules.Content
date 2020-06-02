@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-name-your-assemblies-consistently-companynamecomponentname
 title: Do you name your assemblies consistently (<CompanyName>.<ComponentName>)?
-created: YYYY-04-DD 02:16:10
+created: 2009-04-28 02:16:10
 authors:
   - id: 1
     title: Adam Cogan

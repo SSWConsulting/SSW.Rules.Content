@@ -1,9 +1,7 @@
-
-
 ---
 uri: relationships---do-you-avoid-using-cascade-delete
 title: Relationships - Do you avoid using Cascade Delete?
-created: YYYY-11-DD 00:23:04
+created: 2019-11-13 00:23:04
 authors:
   - id: 1
     title: Adam Cogan

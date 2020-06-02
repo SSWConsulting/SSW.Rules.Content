@@ -1,9 +1,7 @@
-
-
 ---
 uri: sample---do-you-supply-a-sample-database
 title: Sample - Do you supply a sample database?
-created: YYYY-11-DD 03:08:03
+created: 2012-11-27 03:08:03
 authors:
 
 ---

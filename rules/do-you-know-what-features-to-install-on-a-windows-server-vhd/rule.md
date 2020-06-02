@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-features-to-install-on-a-windows-server-vhd
 title: Do you know what features to install on a Windows Server VHD?
-created: YYYY-04-DD 05:51:43
+created: 2011-04-13 05:51:43
 authors:
   - id: 21
     title: Matthew Hodgkins

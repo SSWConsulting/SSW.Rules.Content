@@ -1,9 +1,7 @@
-
-
 ---
 uri: have-you-got-the-right-speakers
 title: Have You Got The Right Speakers?
-created: YYYY-12-DD 23:58:27
+created: 2014-12-30 23:58:27
 authors:
 
 ---

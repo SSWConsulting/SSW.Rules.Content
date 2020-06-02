@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-setup-your-outlook-to-send-but-not-receive
 title: Do you know how to setup your Outlook to send but not receive?
-created: YYYY-04-DD 06:18:47
+created: 2011-04-13 06:18:47
 authors:
   - id: 21
     title: Matthew Hodgkins

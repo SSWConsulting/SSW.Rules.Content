@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-war-room-summary
 title: Do you have a war room? (summary)
-created: YYYY-06-DD 19:33:02
+created: 2011-06-22 19:33:02
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: searching-can-you-instantly-find-any-file-on-your-computer-or-network
 title: Searching: Can you instantly find any file on your computer or network?
-created: YYYY-02-DD 08:13:24
+created: 2009-02-19 08:13:24
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-include-the-name-of-the-person-you-address-on-the-first-line
 title: Do you include the name of the person you address on the first line?
-created: YYYY-03-DD 03:06:59
+created: 2009-03-30 03:06:59
 authors:
   - id: 1
     title: Adam Cogan

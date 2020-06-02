@@ -1,9 +1,7 @@
-
-
 ---
 uri: webinar---do-you-know-how-to-create-a-webinar-using-gotowebinar
 title: Webinar - Do you know how to create a webinar using GoToWebinar?
-created: YYYY-10-DD 21:36:35
+created: 2015-10-07 21:36:35
 authors:
   - id: 30
     title: Marlon Marescia

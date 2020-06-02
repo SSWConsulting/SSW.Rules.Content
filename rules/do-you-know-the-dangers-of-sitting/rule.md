@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-dangers-of-sitting
 title: Do you know the dangers of sitting?
-created: YYYY-11-DD 06:25:25
+created: 2016-11-07 06:25:25
 authors:
   - id: 4
     title: Ulysses Maclaren

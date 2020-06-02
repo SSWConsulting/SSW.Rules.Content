@@ -1,9 +1,7 @@
-
-
 ---
 uri: tools---do-you-know-the-best-packages-and-modules-to-use-with-angular
 title: Tools - Do you know the best Packages and Modules to use with Angular?
-created: YYYY-01-DD 09:55:55
+created: 2016-01-18 09:55:55
 authors:
   - id: 37
     title: Ben Cull

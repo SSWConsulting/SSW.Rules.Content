@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-forms-solution
 title: Do you know the best forms solution?
-created: YYYY-09-DD 19:46:24
+created: 2017-09-15 19:46:24
 authors:
   - id: 1
     title: Adam Cogan

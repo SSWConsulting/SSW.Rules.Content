@@ -1,9 +1,7 @@
-
-
 ---
 uri: what-are-the-different-types-of-test-you-can-have
 title: What are the different types of test you can have?
-created: YYYY-03-DD 16:44:58
+created: 2020-03-11 16:44:58
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-and-when-not-to-give-away-products
 title: Do you know when, and when not, to give away products?
-created: YYYY-08-DD 13:04:40
+created: 2012-08-30 13:04:40
 authors:
   - id: 1
     title: Adam Cogan

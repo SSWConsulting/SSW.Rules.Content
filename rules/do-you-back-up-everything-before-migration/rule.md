@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-back-up-everything-before-migration
 title: Do you back up everything before migration
-created: YYYY-11-DD 07:49:34
+created: 2013-11-11 07:49:34
 authors:
   - id: 32
     title: Mehmet Ozdemir

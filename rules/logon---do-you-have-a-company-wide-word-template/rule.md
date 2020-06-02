@@ -1,9 +1,7 @@
-
-
 ---
 uri: logon---do-you-have-a-company-wide-word-template
 title: Logon - Do you have a company-wide Word template?
-created: YYYY-07-DD 17:42:29
+created: 2017-07-11 17:42:29
 authors:
   - id: 1
     title: Adam Cogan

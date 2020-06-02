@@ -1,9 +1,7 @@
-
-
 ---
 uri: calling---do-you-have-a-good-introduction
 title: Calling - Do you have a good introduction?
-created: YYYY-04-DD 23:00:02
+created: 2018-04-09 23:00:02
 authors:
   - id: 1
     title: Adam Cogan

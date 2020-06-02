@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-meta-description-and-meta-keywords-tags
 title: Do you use meta description and meta keywords tags?
-created: YYYY-11-DD 19:11:28
+created: 2015-11-09 19:11:28
 authors:
   - id: 1
     title: Adam Cogan

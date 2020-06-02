@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-to-take-sharepoint-data-offline
 title: Do you know the best way to take SharePoint data offline?
-created: YYYY-12-DD 07:50:38
+created: 2009-12-15 07:50:38
 authors:
   - id: 8
     title: John Liu

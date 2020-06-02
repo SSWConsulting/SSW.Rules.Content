@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-rollback-plan
 title: Do you have a rollback plan?
-created: YYYY-08-DD 15:35:42
+created: 2015-08-12 15:35:42
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-best-javascript-libraries
 title: Do you use the best JavaScript libraries?
-created: YYYY-05-DD 18:58:26
+created: 2015-05-05 18:58:26
 authors:
   - id: 37
     title: Ben Cull

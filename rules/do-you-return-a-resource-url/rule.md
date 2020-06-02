@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-return-a-resource-url
 title: Do you return a Resource URL?
-created: YYYY-11-DD 18:22:22
+created: 2014-11-05 18:22:22
 authors:
   - id: 24
     title: Adam Stephensen

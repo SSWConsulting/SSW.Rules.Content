@@ -1,9 +1,7 @@
-
-
 ---
 uri: scheduling---do-you-know-how-to-view-the-availability-of-each-developer-resource-scheduling
 title: Scheduling - Do you know how to view the availability of each developer? (Resource Scheduling)
-created: YYYY-12-DD 17:29:09
+created: 2012-12-07 17:29:09
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-write-unit-tests-to-confirm-bugfixes-aka-red-green-refactor
 title: Do you write unit tests to confirm bugfixes? (aka Red-Green-Refactor)
-created: YYYY-03-DD 17:39:51
+created: 2020-03-11 17:39:51
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: ending-a-sprint---do-you-know-what-to-do-when-your-sprint-fails
 title: Ending a sprint - Do you know what to do when your sprint fails?
-created: YYYY-09-DD 11:50:02
+created: 2010-09-17 11:50:02
 authors:
   - id: 1
     title: Adam Cogan

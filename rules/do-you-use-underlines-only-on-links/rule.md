@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-underlines-only-on-links
 title: Do you use underlines only on links?
-created: YYYY-02-DD 01:26:10
+created: 2015-02-16 01:26:10
 authors:
   - id: 1
     title: Adam Cogan

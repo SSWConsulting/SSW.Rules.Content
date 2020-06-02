@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-the-first-person-narrative
 title: Do you avoid the first person narrative?
-created: YYYY-03-DD 23:58:34
+created: 2010-03-18 23:58:34
 authors:
 
 ---

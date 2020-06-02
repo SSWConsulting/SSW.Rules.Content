@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-that-caching-is-disabled-when-debugtrue
 title: Do you know that caching is disabled when debug="true"
-created: YYYY-07-DD 02:27:16
+created: 2014-07-04 02:27:16
 authors:
   - id: 38
     title: Drew Robson

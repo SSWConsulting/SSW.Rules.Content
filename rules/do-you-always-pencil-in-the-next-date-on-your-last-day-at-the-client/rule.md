@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client
 title: Do you always pencil in the next date on your last day at the client?
-created: YYYY-07-DD 06:38:09
+created: 2010-07-16 06:38:09
 authors:
 
 ---

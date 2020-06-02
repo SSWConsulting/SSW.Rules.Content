@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-perform-client-follow-ups
 title: Do you perform client follow ups?
-created: YYYY-07-DD 22:03:31
+created: 2019-07-05 22:03:31
 authors:
   - id: 1
     title: Adam Cogan

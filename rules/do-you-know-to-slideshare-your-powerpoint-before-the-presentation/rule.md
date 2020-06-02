@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-slideshare-your-powerpoint-before-the-presentation
 title: Do you know to Slideshare your PowerPoint (before the presentation)?
-created: YYYY-10-DD 03:28:45
+created: 2010-10-22 03:28:45
 authors:
   - id: 1
     title: Adam Cogan

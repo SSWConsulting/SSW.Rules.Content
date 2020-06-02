@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-display-information-consistently
 title: Do you display information consistently?
-created: YYYY-02-DD 01:50:14
+created: 2015-02-16 01:50:14
 authors:
 
 ---

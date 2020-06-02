@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-connect-to-vsts-git-with-personal-access-tokens
 title: Do you know to connect to VSTS Git with Personal Access Tokens
-created: YYYY-07-DD 05:46:30
+created: 2017-07-03 05:46:30
 authors:
   - id: 24
     title: Adam Stephensen

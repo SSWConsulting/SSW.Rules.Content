@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-outlook-add-in-to-get-the-most-out-of-sharepoint
 title: Do you know the best Outlook add-in to get the most out of SharePoint?
-created: YYYY-05-DD 22:25:06
+created: 2016-05-06 22:25:06
 authors:
   - id: 1
     title: Adam Cogan

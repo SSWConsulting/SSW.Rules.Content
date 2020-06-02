@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-write-the-word-email-in-the-correct-format
 title: Do you write the word 'email' in the correct format?
-created: YYYY-12-DD 05:54:22
+created: 2014-12-17 05:54:22
 authors:
   - id: 1
     title: Adam Cogan

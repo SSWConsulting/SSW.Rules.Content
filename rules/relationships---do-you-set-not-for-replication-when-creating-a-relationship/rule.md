@@ -1,9 +1,7 @@
-
-
 ---
 uri: relationships---do-you-set-not-for-replication-when-creating-a-relationship
 title: Relationships - Do you set Not For Replication when creating a relationship?
-created: YYYY-11-DD 01:05:06
+created: 2019-11-13 01:05:06
 authors:
   - id: 1
     title: Adam Cogan

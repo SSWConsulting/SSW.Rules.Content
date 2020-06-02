@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-testing-stage-in-the-file-name
 title: Do you use the testing stage, in the file name?
-created: YYYY-04-DD 21:52:42
+created: 2018-04-23 21:52:42
 authors:
   - id: 1
     title: Adam Cogan

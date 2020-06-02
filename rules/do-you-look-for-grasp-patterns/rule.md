@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-look-for-grasp-patterns
 title: Do you look for GRASP Patterns?
-created: YYYY-04-DD 09:35:53
+created: 2012-04-01 09:35:53
 authors:
   - id: 1
     title: Adam Cogan

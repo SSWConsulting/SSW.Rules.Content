@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-prefix-your-images-appropriately
 title: Do you prefix your images appropriately?
-created: YYYY-10-DD 00:37:27
+created: 2015-10-13 00:37:27
 authors:
 
 ---

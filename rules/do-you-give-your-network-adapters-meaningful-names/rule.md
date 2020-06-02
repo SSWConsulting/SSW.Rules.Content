@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-give-your-network-adapters-meaningful-names
 title: Do you give your Network Adapters meaningful names?
-created: YYYY-03-DD 18:33:02
+created: 2012-03-02 18:33:02
 authors:
 
 ---

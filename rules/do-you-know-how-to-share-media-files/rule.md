@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-share-media-files
 title: Do you know how to share media files?
-created: YYYY-04-DD 19:35:33
+created: 2014-04-03 19:35:33
 authors:
   - id: 24
     title: Adam Stephensen

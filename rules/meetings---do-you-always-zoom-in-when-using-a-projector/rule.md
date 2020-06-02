@@ -1,9 +1,7 @@
-
-
 ---
 uri: meetings---do-you-always-zoom-in-when-using-a-projector
 title: Meetings - Do you always zoom in when using a projector?
-created: YYYY-09-DD 18:11:52
+created: 2012-09-25 18:11:52
 authors:
   - id: 1
     title: Adam Cogan

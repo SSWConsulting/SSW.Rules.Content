@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-package-manager-for-react
 title: Do you know the best package manager for React?
-created: YYYY-08-DD 23:12:15
+created: 2017-08-15 23:12:15
 authors:
   - id: 24
     title: Adam Stephensen

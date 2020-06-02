@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-an-useful-introduction-screen-with-an-image-of-where-it-is-going-prior-to-settings
 title: Do you add an useful introduction screen (with an image of where it is going) prior to settings?
-created: YYYY-12-DD 03:51:56
+created: 2014-12-01 03:51:56
 authors:
 
 ---

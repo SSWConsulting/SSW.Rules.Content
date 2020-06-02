@@ -1,9 +1,7 @@
-
-
 ---
 uri: data---do-you-use-temporal-tables-to-audit-data-changes
 title: Data - Do you use temporal tables to audit data changes?
-created: YYYY-11-DD 22:35:48
+created: 2019-11-25 22:35:48
 authors:
   - id: 1
     title: Adam Cogan

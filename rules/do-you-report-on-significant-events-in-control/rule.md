@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-report-on-significant-events-in-control
 title: Do you report on significant events in Control4?
-created: YYYY-11-DD 23:49:54
+created: 2017-11-02 23:49:54
 authors:
   - id: 70
     title: Greg Harris

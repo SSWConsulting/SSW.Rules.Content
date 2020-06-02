@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-your-agility-index
 title: Do you know your agility index?
-created: YYYY-08-DD 14:18:38
+created: 2011-08-25 14:18:38
 authors:
   - id: 1
     title: Adam Cogan

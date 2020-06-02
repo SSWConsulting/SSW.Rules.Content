@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-format-your-messagebox-code
 title: Do you know how to format your MessageBox code?
-created: YYYY-04-DD 23:10:49
+created: 2018-04-25 23:10:49
 authors:
   - id: 1
     title: Adam Cogan

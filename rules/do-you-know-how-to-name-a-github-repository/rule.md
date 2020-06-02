@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-name-a-github-repository
 title: Do you know how to name a GitHub Repository?
-created: YYYY-02-DD 18:18:15
+created: 2015-02-13 18:18:15
 authors:
   - id: 24
     title: Adam Stephensen

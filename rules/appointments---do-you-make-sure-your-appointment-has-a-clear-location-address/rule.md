@@ -1,9 +1,7 @@
-
-
 ---
 uri: appointments---do-you-make-sure-your-appointment-has-a-clear-location-address
 title: Appointments - Do you make sure your appointment has a clear location address?
-created: YYYY-08-DD 17:28:47
+created: 2012-08-21 17:28:47
 authors:
   - id: 30
     title: Marlon Marescia

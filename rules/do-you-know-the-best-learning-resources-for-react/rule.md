@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-learning-resources-for-react
 title: Do you know the best learning resources for React?
-created: YYYY-04-DD 12:56:44
+created: 2019-04-30 12:56:44
 authors:
   - id: 80
     title: Shane Ye

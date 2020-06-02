@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-your-own-database-to-find-prospects
 title: Do you use your own database to find prospects?
-created: YYYY-04-DD 21:57:52
+created: 2018-04-09 21:57:52
 authors:
   - id: 1
     title: Adam Cogan

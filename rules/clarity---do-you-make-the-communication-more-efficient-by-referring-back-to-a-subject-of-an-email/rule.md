@@ -1,9 +1,7 @@
-
-
 ---
 uri: clarity---do-you-make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 title: Clarity - Do you make the communication more efficient by referring back to a subject of an email?
-created: YYYY-10-DD 05:44:40
+created: 2015-10-05 05:44:40
 authors:
   - id: 1
     title: Adam Cogan

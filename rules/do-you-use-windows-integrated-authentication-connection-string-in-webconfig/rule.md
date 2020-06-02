@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-windows-integrated-authentication-connection-string-in-webconfig
 title: Do you use Windows Integrated Authentication connection string in web.config?
-created: YYYY-05-DD 07:09:13
+created: 2009-05-11 07:09:13
 authors:
   - id: 1
     title: Adam Cogan

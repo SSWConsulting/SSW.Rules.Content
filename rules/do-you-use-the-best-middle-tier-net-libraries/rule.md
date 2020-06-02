@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-best-middle-tier-net-libraries
 title: Do you use the best middle tier .NET libraries?
-created: YYYY-12-DD 15:47:37
+created: 2013-12-18 15:47:37
 authors:
   - id: 38
     title: Drew Robson

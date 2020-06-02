@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-standard-procedure-to-troubleshoot-if-a-website-is-down
 title: Do you know the standard procedure to troubleshoot if a website is down?
-created: YYYY-11-DD 19:44:43
+created: 2016-11-25 19:44:43
 authors:
   - id: 1
     title: Adam Cogan

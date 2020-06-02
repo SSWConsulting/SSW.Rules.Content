@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-resource-file-for-storing-your-static-script
 title: Do you use resource file for storing your static script?
-created: YYYY-05-DD 09:48:28
+created: 2009-05-06 09:48:28
 authors:
   - id: 1
     title: Adam Cogan

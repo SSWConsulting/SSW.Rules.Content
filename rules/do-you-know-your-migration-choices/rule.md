@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-your-migration-choices
 title: Do you know your migration choices?
-created: YYYY-08-DD 15:26:07
+created: 2015-08-12 15:26:07
 authors:
 
 ---

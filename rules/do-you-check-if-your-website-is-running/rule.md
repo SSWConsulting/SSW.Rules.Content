@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-check-if-your-website-is-running
 title: Do you check if your website is running?
-created: YYYY-08-DD 17:41:00
+created: 2016-08-22 17:41:00
 authors:
   - id: 1
     title: Adam Cogan

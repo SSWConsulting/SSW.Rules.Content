@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-importance-of-testing-your-interface
 title: Do you know the importance of testing your interface?
-created: YYYY-10-DD 02:45:05
+created: 2013-10-31 02:45:05
 authors:
 
 ---

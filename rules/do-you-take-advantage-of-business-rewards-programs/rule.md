@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-take-advantage-of-business-rewards-programs
 title: Do you take advantage of Business Rewards programs?
-created: YYYY-06-DD 06:14:26
+created: 2018-06-13 06:14:26
 authors:
   - id: 41
     title: Joanna Feely

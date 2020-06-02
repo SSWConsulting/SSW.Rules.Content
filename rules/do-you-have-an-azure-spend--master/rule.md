@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-an-azure-spend--master
 title: Do you have an Azure Spend $ master?
-created: YYYY-06-DD 00:15:42
+created: 2018-06-28 00:15:42
 authors:
   - id: 73
     title: Kaique Biancatti

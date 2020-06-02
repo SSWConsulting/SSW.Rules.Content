@@ -1,9 +1,7 @@
-
-
 ---
 uri: tiny-do-you-avoid-using-that-when-its-not-needed
 title: Tiny: Do you avoid using "that" when it's not needed?
-created: YYYY-04-DD 06:24:10
+created: 2016-04-21 06:24:10
 authors:
 
 ---

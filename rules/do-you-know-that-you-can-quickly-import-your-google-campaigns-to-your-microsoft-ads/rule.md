@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-that-you-can-quickly-import-your-google-campaigns-to-your-microsoft-ads
 title: Do you know that you can quickly import your Google campaigns to your Microsoft Ads?
-created: YYYY-03-DD 23:04:46
+created: 2020-03-18 23:04:46
 authors:
   - id: 83
     title: Camilla Rosa Silva

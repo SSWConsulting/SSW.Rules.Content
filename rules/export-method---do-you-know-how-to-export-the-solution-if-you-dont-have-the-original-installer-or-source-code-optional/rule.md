@@ -1,9 +1,7 @@
-
-
 ---
 uri: export-method---do-you-know-how-to-export-the-solution-if-you-dont-have-the-original-installer-or-source-code-optional
 title: Export Method - Do you know how to export the solution if you don’t have the original installer or source code? (optional)
-created: YYYY-12-DD 03:04:11
+created: 2010-12-23 03:04:11
 authors:
   - id: 1
     title: Adam Cogan

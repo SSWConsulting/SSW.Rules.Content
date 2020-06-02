@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-subscribe-a-report
 title: Do you know how to subscribe a report
-created: YYYY-05-DD 08:13:01
+created: 2012-05-07 08:13:01
 authors:
   - id: 1
     title: Adam Cogan

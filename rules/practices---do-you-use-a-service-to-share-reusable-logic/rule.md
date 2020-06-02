@@ -1,9 +1,7 @@
-
-
 ---
 uri: practices---do-you-use-a-service-to-share-reusable-logic
 title: Practices - Do you use a Service to share reusable logic?
-created: YYYY-11-DD 21:11:35
+created: 2018-11-01 21:11:35
 authors:
   - id: 82
     title: Barry Sanders

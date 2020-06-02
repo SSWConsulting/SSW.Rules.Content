@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-parameterize-all-input-to-your-database
 title: Do you parameterize all input to your database?
-created: YYYY-03-DD 23:01:46
+created: 2020-03-18 23:01:46
 authors:
   - id: 99
     title: Christian Morford-Waite

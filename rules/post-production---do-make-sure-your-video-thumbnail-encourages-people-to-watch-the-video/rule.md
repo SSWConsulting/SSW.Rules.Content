@@ -1,9 +1,7 @@
-
-
 ---
 uri: post-production---do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
 title: Post-Production - Do make sure your video thumbnail encourages people to watch the video?
-created: YYYY-12-DD 18:59:42
+created: 2012-12-14 18:59:42
 authors:
   - id: 30
     title: Marlon Marescia

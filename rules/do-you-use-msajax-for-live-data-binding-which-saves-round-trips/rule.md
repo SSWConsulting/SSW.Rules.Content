@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-msajax-for-live-data-binding-which-saves-round-trips
 title: Do you use MSAjax for Live Data Binding which saves round trips?
-created: YYYY-08-DD 02:47:57
+created: 2009-08-25 02:47:57
 authors:
   - id: 1
     title: Adam Cogan

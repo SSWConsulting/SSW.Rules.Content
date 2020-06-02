@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-remove-spaces-from-your-folders-and-filename
 title: Do you remove spaces from your folders and filename?
-created: YYYY-04-DD 21:58:29
+created: 2018-04-23 21:58:29
 authors:
   - id: 1
     title: Adam Cogan

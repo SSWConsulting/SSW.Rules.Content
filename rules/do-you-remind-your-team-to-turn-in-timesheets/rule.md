@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-remind-your-team-to-turn-in-timesheets
 title: Do you remind your team to turn in timesheets?
-created: YYYY-07-DD 22:22:50
+created: 2019-07-05 22:22:50
 authors:
   - id: 1
     title: Adam Cogan

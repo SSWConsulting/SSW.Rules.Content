@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-run-the-code-health-checks-in-your-visualstudiocom-continuous-integration-build
 title: Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?
-created: YYYY-03-DD 22:13:05
+created: 2017-03-09 22:13:05
 authors:
   - id: 1
     title: Adam Cogan

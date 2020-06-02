@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-a-redirect-from-http-to-https-for-owa
 title: Do you add a redirect from http to https for OWA?
-created: YYYY-05-DD 06:48:16
+created: 2016-05-02 06:48:16
 authors:
   - id: 47
     title: Stanley Sidik

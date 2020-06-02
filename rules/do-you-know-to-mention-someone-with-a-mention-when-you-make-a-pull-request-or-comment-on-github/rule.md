@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-mention-someone-with-a-mention-when-you-make-a-pull-request-or-comment-on-github
 title: Do you know to mention someone with a @mention when you make a pull request or comment on GitHub?
-created: YYYY-12-DD 18:21:03
+created: 2016-12-14 18:21:03
 authors:
   - id: 1
     title: Adam Cogan

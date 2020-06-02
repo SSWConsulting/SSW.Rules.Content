@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-get-visual-studio-to-remind-you-to-check-in
 title: Do you know to get Visual Studio to remind you to check in?
-created: YYYY-11-DD 03:52:24
+created: 2011-11-18 03:52:24
 authors:
   - id: 22
     title: David Klein

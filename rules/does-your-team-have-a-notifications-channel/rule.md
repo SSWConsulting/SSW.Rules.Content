@@ -1,9 +1,7 @@
-
-
 ---
 uri: does-your-team-have-a-notifications-channel
 title: Does Your Team Have a Notifications Channel?
-created: YYYY-02-DD 01:30:30
+created: 2020-02-07 01:30:30
 authors:
   - id: 1
     title: Adam Cogan

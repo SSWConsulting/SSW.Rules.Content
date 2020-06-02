@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
 title: Do you know what to do when you get an email that you don’t understand?
-created: YYYY-06-DD 06:51:07
+created: 2010-06-12 06:51:07
 authors:
   - id: 1
     title: Adam Cogan

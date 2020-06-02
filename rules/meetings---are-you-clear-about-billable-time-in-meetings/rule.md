@@ -1,9 +1,7 @@
-
-
 ---
 uri: meetings---are-you-clear-about-billable-time-in-meetings
 title: Meetings - Are you clear about billable time in meetings?
-created: YYYY-07-DD 06:25:10
+created: 2010-07-16 06:25:10
 authors:
 
 ---

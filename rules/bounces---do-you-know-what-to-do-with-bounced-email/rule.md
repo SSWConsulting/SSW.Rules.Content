@@ -1,9 +1,7 @@
-
-
 ---
 uri: bounces---do-you-know-what-to-do-with-bounced-email
 title: Bounces - Do you know what to do with bounced email?
-created: YYYY-08-DD 19:54:59
+created: 2011-08-25 19:54:59
 authors:
 
 ---

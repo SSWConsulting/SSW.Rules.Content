@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-difference-between-microsoft-dynamics-crm-marketing-and-microsoft-dynamics-marketing-mdm
 title: Do you know the difference between Microsoft Dynamics CRM marketing and Microsoft Dynamics Marketing (MDM)?
-created: YYYY-10-DD 20:45:31
+created: 2014-10-16 20:45:31
 authors:
   - id: 4
     title: Ulysses Maclaren

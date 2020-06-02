@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-email-for-tasks-only---not-chatting
 title: Do you use email for tasks only - not chatting?
-created: YYYY-03-DD 03:30:08
+created: 2009-03-23 03:30:08
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-the-temptation-of-link-farms
 title: Do you avoid the temptation of link farms?
-created: YYYY-11-DD 18:43:00
+created: 2015-11-10 18:43:00
 authors:
   - id: 1
     title: Adam Cogan

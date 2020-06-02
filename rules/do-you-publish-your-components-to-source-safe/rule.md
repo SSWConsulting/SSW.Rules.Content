@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-publish-your-components-to-source-safe
 title: Do you publish your components to Source Safe?
-created: YYYY-04-DD 03:04:50
+created: 2009-04-28 03:04:50
 authors:
   - id: 1
     title: Adam Cogan

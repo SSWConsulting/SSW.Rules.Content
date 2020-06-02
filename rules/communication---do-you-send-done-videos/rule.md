@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-send-done-videos
 title: Communication - Do you send "Done Videos"?
-created: YYYY-10-DD 23:05:17
+created: 2015-10-20 23:05:17
 authors:
   - id: 1
     title: Adam Cogan

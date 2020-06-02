@@ -1,9 +1,7 @@
-
-
 ---
 uri: the-application--do-you-make-the-app-do-the-work
 title: The application – Do you make the app do the work?
-created: YYYY-10-DD 00:01:45
+created: 2009-10-07 00:01:45
 authors:
   - id: 1
     title: Adam Cogan

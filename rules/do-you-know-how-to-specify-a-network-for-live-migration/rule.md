@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-specify-a-network-for-live-migration
 title: Do you know how to specify a Network for Live Migration?
-created: YYYY-03-DD 18:56:38
+created: 2012-03-02 18:56:38
 authors:
 
 ---

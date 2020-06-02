@@ -1,9 +1,7 @@
-
-
 ---
 uri: tools---do-you-know-the-best-packages-and-libraries-to-use-with-react
 title: Tools - Do you know the best Packages and Libraries to use with React?
-created: YYYY-05-DD 08:32:42
+created: 2019-05-16 08:32:42
 authors:
 
 ---

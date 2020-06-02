@@ -1,9 +1,7 @@
-
-
 ---
 uri: bored-developers---do-you-set-maximum-periods-for-a-developer-to-work-at-any-particular-client
 title: Bored Developers - Do you set maximum periods for a developer to work at any particular client?
-created: YYYY-11-DD 22:20:32
+created: 2019-11-27 22:20:32
 authors:
   - id: 4
     title: Ulysses Maclaren

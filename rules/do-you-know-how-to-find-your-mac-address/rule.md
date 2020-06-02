@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-find-your-mac-address
 title: Do you know how to find your mac address?
-created: YYYY-09-DD 21:59:31
+created: 2018-09-20 21:59:31
 authors:
   - id: 1
     title: Adam Cogan

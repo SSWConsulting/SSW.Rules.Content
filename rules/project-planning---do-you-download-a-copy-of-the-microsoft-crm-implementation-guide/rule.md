@@ -1,9 +1,7 @@
-
-
 ---
 uri: project-planning---do-you-download-a-copy-of-the-microsoft-crm-implementation-guide
 title: Project Planning - Do you download a copy of the Microsoft CRM Implementation Guide?
-created: YYYY-12-DD 17:25:20
+created: 2012-12-10 17:25:20
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-set-your-application-default-language-to-automatically-change-to-local-language
 title: Do you set your application default language to automatically change to local language?
-created: YYYY-10-DD 06:34:29
+created: 2015-10-21 06:34:29
 authors:
   - id: 50
     title: Martin Li

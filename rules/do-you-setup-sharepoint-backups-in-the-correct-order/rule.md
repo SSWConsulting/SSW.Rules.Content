@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-setup-sharepoint-backups-in-the-correct-order
 title: Do you setup SharePoint backups in the correct order?
-created: YYYY-06-DD 00:50:23
+created: 2011-06-15 00:50:23
 authors:
   - id: 21
     title: Matthew Hodgkins

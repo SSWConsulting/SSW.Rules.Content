@@ -1,9 +1,7 @@
-
-
 ---
 uri: prior---is-your-first-slide-pre-setup
 title: Prior - Is your first slide 'Pre-setup'?
-created: YYYY-06-DD 08:19:23
+created: 2010-06-08 08:19:23
 authors:
 
 ---

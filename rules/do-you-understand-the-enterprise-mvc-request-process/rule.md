@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-understand-the-enterprise-mvc-request-process
 title: Do you understand the Enterprise MVC request process?
-created: YYYY-10-DD 19:39:03
+created: 2012-10-19 19:39:03
 authors:
   - id: 24
     title: Adam Stephensen

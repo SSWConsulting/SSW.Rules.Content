@@ -1,9 +1,7 @@
-
-
 ---
 uri: data-entry---do-you-know-how-to-create-new-companies
 title: Data Entry - Do you know how to create new Companies?
-created: YYYY-12-DD 18:27:15
+created: 2012-12-06 18:27:15
 authors:
   - id: 1
     title: Adam Cogan

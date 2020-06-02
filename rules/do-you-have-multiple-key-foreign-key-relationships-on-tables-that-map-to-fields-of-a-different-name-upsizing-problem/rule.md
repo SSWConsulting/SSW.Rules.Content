@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-multiple-key-foreign-key-relationships-on-tables-that-map-to-fields-of-a-different-name-upsizing-problem
 title: Do you have multiple key foreign key relationships on tables that map to fields of a different name (Upsizing Problem)*?
-created: YYYY-07-DD 03:00:32
+created: 2010-07-23 03:00:32
 authors:
   - id: 1
     title: Adam Cogan

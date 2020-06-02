@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-high-quality-images
 title: Do you use high quality images?
-created: YYYY-06-DD 10:00:14
+created: 2010-06-08 10:00:14
 authors:
 
 ---

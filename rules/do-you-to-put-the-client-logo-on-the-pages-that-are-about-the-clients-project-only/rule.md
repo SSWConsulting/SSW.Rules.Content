@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-to-put-the-client-logo-on-the-pages-that-are-about-the-clients-project-only
 title: Do you to put the client logo on the pages that are about the client's project only?
-created: YYYY-08-DD 22:20:15
+created: 2019-08-21 22:20:15
 authors:
   - id: 4
     title: Ulysses Maclaren

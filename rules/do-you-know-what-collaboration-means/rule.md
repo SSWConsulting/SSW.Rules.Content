@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-collaboration-means
 title: Do you know what collaboration means?
-created: YYYY-10-DD 06:25:02
+created: 2010-10-12 06:25:02
 authors:
   - id: 9
     title: William Yin

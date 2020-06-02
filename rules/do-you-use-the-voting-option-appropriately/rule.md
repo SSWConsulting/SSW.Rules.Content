@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-voting-option-appropriately
 title: Do you use the voting option appropriately?
-created: YYYY-03-DD 05:20:04
+created: 2009-03-25 05:20:04
 authors:
   - id: 1
     title: Adam Cogan

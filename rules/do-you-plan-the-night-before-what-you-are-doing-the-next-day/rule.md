@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-plan-the-night-before-what-you-are-doing-the-next-day
 title: Do you plan the night before what you are doing the next day?
-created: YYYY-07-DD 06:38:46
+created: 2010-07-16 06:38:46
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-banner-to-advertize-the-hashtag-you-want-people-to-use
 title: Do you have a banner to advertize the hashtag you want people to use?
-created: YYYY-09-DD 18:01:46
+created: 2013-09-20 18:01:46
 authors:
   - id: 30
     title: Marlon Marescia

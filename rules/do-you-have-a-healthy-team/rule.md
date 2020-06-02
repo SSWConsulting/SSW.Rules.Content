@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-healthy-team
 title: Do you have a healthy team?
-created: YYYY-03-DD 07:31:53
+created: 2009-03-10 07:31:53
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-the-user-drill-downs-and-drill-arounds
 title: Do you provide the user Drill-Downs and Drill-Arounds?
-created: YYYY-12-DD 00:40:03
+created: 2014-12-01 00:40:03
 authors:
 
 ---

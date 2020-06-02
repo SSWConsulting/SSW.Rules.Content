@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-link-internal-emails-to-the-rule-they-follow
 title: Do you link internal emails to the rule they follow?
-created: YYYY-03-DD 15:13:20
+created: 2012-03-20 15:13:20
 authors:
 
 ---

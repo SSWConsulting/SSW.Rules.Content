@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-hand-off-a-new-live-chat-lead-to-a-sales-person-using-support
 title: Do you know how to hand off a new live chat lead to a sales person using support?
-created: YYYY-06-DD 23:13:02
+created: 2017-06-19 23:13:02
 authors:
   - id: 4
     title: Ulysses Maclaren

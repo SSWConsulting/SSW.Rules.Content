@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-group-policy-to-enable-hibernate-option
 title: Do you use Group Policy to enable Hibernate option
-created: YYYY-03-DD 23:43:52
+created: 2016-03-22 23:43:52
 authors:
   - id: 47
     title: Stanley Sidik

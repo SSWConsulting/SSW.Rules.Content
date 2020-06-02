@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-reference-the-issue-id-when-writing-a-test-to-confirm-a-bugfix
 title: Do you reference the issue ID when writing a test to confirm a bugfix?
-created: YYYY-03-DD 20:48:03
+created: 2020-03-11 20:48:03
 authors:
   - id: 1
     title: Adam Cogan

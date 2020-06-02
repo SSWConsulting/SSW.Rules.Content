@@ -1,9 +1,7 @@
-
-
 ---
 uri: very-long-process---do-you-know-that-long-running-processes-should-show-a-coffee-cup
 title: Very Long Process - Do you know that long-running processes should show a coffee cup?
-created: YYYY-11-DD 03:06:05
+created: 2012-11-27 03:06:05
 authors:
 
 ---

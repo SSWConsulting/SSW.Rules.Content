@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
 title: Do you use icons not to surprise users (aka use the correct image for files)?
-created: YYYY-02-DD 02:46:02
+created: 2015-02-16 02:46:02
 authors:
   - id: 1
     title: Adam Cogan

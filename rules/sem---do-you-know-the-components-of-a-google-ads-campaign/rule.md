@@ -1,9 +1,7 @@
-
-
 ---
 uri: sem---do-you-know-the-components-of-a-google-ads-campaign
 title: SEM - Do you know the components of a Google Ads campaign?
-created: YYYY-08-DD 22:16:41
+created: 2018-08-16 22:16:41
 authors:
   - id: 83
     title: Camilla Rosa Silva

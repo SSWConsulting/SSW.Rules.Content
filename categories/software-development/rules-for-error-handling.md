@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules for Error Handling

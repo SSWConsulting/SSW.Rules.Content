@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-measure-the-effectiveness-of-your-marketing-efforts
 title: Do you measure the effectiveness of your marketing efforts?
-created: YYYY-10-DD 17:12:10
+created: 2014-10-13 17:12:10
 authors:
   - id: 4
     title: Ulysses Maclaren

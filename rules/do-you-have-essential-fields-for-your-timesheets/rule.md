@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-essential-fields-for-your-timesheets
 title: Do you have essential fields for your timesheets?
-created: YYYY-04-DD 19:36:46
+created: 2013-04-19 19:36:46
 authors:
   - id: 1
     title: Adam Cogan

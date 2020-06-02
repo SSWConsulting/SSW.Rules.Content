@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-share-a-filefolder-in-sharepoint
 title: Do you know how to share a file/folder in SharePoint?
-created: YYYY-09-DD 18:17:11
+created: 2015-09-23 18:17:11
 authors:
   - id: 9
     title: William Yin

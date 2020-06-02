@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-maintain-separation-of-concerns
 title: Do you maintain separation of concerns?
-created: YYYY-04-DD 21:35:57
+created: 2018-04-23 21:35:57
 authors:
   - id: 1
     title: Adam Cogan

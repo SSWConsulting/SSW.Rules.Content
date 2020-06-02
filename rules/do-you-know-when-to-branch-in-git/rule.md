@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-branch-in-git
 title: Do you know when to branch in git?
-created: YYYY-01-DD 22:38:55
+created: 2016-01-19 22:38:55
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-best-trace-logging-library
 title: Do you use the best trace logging library?
-created: YYYY-09-DD 21:38:08
+created: 2013-09-11 21:38:08
 authors:
   - id: 1
     title: Adam Cogan

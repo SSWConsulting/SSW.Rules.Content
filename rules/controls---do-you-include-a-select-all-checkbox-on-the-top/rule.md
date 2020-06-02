@@ -1,9 +1,7 @@
-
-
 ---
 uri: controls---do-you-include-a-select-all-checkbox-on-the-top
 title: Controls - Do you include a "select all" checkBox on the top?
-created: YYYY-11-DD 08:42:03
+created: 2012-11-27 08:42:03
 authors:
   - id: 1
     title: Adam Cogan

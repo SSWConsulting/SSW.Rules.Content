@@ -1,9 +1,7 @@
-
-
 ---
 uri: screenshots---do-you-know-how-to-show-wanted-actions
 title: Screenshots - Do you know how to show wanted actions?
-created: YYYY-06-DD 14:42:49
+created: 2012-06-14 14:42:49
 authors:
   - id: 1
     title: Adam Cogan

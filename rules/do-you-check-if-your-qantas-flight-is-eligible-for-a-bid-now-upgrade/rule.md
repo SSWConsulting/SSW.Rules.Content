@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-check-if-your-qantas-flight-is-eligible-for-a-bid-now-upgrade
 title: Do you check if your Qantas flight is eligible for a "Bid Now" upgrade?
-created: YYYY-05-DD 01:59:35
+created: 2016-05-13 01:59:35
 authors:
   - id: 41
     title: Joanna Feely

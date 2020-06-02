@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
 title: Do you know why you should use memes as part of your business social media content?
-created: YYYY-07-DD 02:16:06
+created: 2019-07-30 02:16:06
 authors:
   - id: 83
     title: Camilla Rosa Silva

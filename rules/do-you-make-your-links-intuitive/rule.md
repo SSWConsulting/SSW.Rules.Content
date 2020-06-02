@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-your-links-intuitive
 title: Do you make your links intuitive?
-created: YYYY-02-DD 01:55:22
+created: 2015-02-16 01:55:22
 authors:
 
 ---

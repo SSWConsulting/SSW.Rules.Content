@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
 title: Do you review your team are giving "Client Love" to your customer every Friday?
-created: YYYY-08-DD 13:04:15
+created: 2012-08-30 13:04:15
 authors:
   - id: 1
     title: Adam Cogan

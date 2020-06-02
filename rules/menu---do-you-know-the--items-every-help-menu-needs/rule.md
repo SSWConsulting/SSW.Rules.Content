@@ -1,9 +1,7 @@
-
-
 ---
 uri: menu---do-you-know-the--items-every-help-menu-needs
 title: Menu - Do you know the 8 items every "Help" menu needs?
-created: YYYY-11-DD 02:49:59
+created: 2012-11-27 02:49:59
 authors:
 
 ---

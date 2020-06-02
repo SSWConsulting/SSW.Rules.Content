@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-create-posts-via-email
 title: Do you know how to create posts via email?
-created: YYYY-09-DD 20:43:24
+created: 2014-09-26 20:43:24
 authors:
   - id: 37
     title: Ben Cull

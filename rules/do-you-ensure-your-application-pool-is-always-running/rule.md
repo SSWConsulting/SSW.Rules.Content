@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ensure-your-application-pool-is-always-running
 title: Do you ensure your application pool is always running?
-created: YYYY-08-DD 18:48:34
+created: 2014-08-29 18:48:34
 authors:
   - id: 47
     title: Stanley Sidik

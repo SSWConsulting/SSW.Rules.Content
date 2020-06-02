@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-url-as-a-navigation-aid-aka-redirect-to-the-correct-url-if-it-is-incorrect
 title: Do you use the URL as a navigation aid (aka redirect to the correct url if it is incorrect)?
-created: YYYY-03-DD 20:26:11
+created: 2013-03-26 20:26:11
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-fix-peoples-display-name-in-sharepoint-
 title: Do you know how to fix people's display name in SharePoint ?
-created: YYYY-05-DD 01:51:03
+created: 2011-05-20 01:51:03
 authors:
   - id: 8
     title: John Liu

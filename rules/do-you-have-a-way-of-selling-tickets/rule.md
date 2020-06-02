@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-way-of-selling-tickets
 title: Do you have a way of selling tickets?
-created: YYYY-12-DD 00:16:25
+created: 2014-12-31 00:16:25
 authors:
 
 ---

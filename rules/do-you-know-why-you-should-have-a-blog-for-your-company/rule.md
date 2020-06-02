@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-you-should-have-a-blog-for-your-company
 title: Do you know why you should have a blog for your company?
-created: YYYY-07-DD 04:25:26
+created: 2019-07-08 04:25:26
 authors:
   - id: 83
     title: Camilla Rosa Silva

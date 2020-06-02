@@ -1,9 +1,7 @@
-
-
 ---
 uri: relationships---do-you-have-foreign-key-constraints-on-columns-ending-with-id
 title: Relationships - Do you have FOREIGN KEY constraints on columns ending with ID?
-created: YYYY-11-DD 18:23:27
+created: 2019-11-13 18:23:27
 authors:
   - id: 1
     title: Adam Cogan

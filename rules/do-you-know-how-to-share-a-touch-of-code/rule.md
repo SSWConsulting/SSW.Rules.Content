@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-share-a-touch-of-code
 title: Do you know how to share a touch of code?
-created: YYYY-12-DD 05:44:57
+created: 2015-12-03 05:44:57
 authors:
   - id: 45
     title: Chris Briggs

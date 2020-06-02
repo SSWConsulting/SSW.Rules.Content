@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-gravatar-for-your-profile-pictures
 title: Do you use Gravatar for your profile pictures?
-created: YYYY-03-DD 10:17:40
+created: 2015-03-16 10:17:40
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-small-incremental-changes-to-your-vsewss-projects
 title: Do you make small incremental changes to your VSeWSS projects?
-created: YYYY-04-DD 09:03:00
+created: 2009-04-20 09:03:00
 authors:
   - id: 8
     title: John Liu

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-suspend-on-your-notebook
 title: Do you use suspend on your notebook?
-created: YYYY-08-DD 08:38:37
+created: 2011-08-23 08:38:37
 authors:
   - id: 1
     title: Adam Cogan

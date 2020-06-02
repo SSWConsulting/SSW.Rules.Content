@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Better Interfaces (General Usability Practices)

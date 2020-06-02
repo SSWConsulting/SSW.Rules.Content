@@ -1,9 +1,7 @@
-
-
 ---
 uri: devops--stage--do-you-know-what-things-to-measure
 title: DevOps – Stage 1: Do you know what things to measure?
-created: YYYY-03-DD 17:14:29
+created: 2016-03-07 17:14:29
 authors:
   - id: 1
     title: Adam Cogan

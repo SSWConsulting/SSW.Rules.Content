@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-numbers-you-give-clients
 title: Do you know the numbers you give clients?
-created: YYYY-07-DD 06:50:39
+created: 2010-07-16 06:50:39
 authors:
 
 ---

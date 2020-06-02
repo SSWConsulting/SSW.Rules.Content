@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-table-tags-should-not-specify-the-width
 title: Do you know table tags should not specify the width?
-created: YYYY-12-DD 19:14:45
+created: 2014-12-12 19:14:45
 authors:
   - id: 1
     title: Adam Cogan

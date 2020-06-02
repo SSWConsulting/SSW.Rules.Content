@@ -1,9 +1,7 @@
-
-
 ---
 uri: sem---do-you-know-how-to-optimize-google-ads-campaigns
 title: SEM - Do you know how to optimize Google Ads campaigns?
-created: YYYY-02-DD 05:09:30
+created: 2016-02-01 05:09:30
 authors:
   - id: 30
     title: Marlon Marescia

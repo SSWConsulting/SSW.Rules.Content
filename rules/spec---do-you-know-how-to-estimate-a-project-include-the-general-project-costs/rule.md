@@ -1,9 +1,7 @@
-
-
 ---
 uri: spec---do-you-know-how-to-estimate-a-project-include-the-general-project-costs
 title: Spec - Do you know how to estimate a Project (include the 'General Project Costs')?
-created: YYYY-09-DD 02:44:19
+created: 2009-09-16 02:44:19
 authors:
   - id: 1
     title: Adam Cogan

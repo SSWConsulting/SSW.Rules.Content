@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-say-option-strict-on
 title: Do you always say "Option Strict On"?
-created: YYYY-04-DD 09:15:28
+created: 2009-04-27 09:15:28
 authors:
   - id: 1
     title: Adam Cogan

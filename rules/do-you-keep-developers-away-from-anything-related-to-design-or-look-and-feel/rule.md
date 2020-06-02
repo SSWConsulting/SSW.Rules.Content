@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
 title: Do you keep developers away from anything related to design or look and feel?
-created: YYYY-10-DD 03:50:51
+created: 2015-10-07 03:50:51
 authors:
 
 ---

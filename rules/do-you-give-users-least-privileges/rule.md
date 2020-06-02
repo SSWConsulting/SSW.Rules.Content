@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-give-users-least-privileges
 title: Do you give users least privileges?
-created: YYYY-04-DD 21:28:47
+created: 2018-04-09 21:28:47
 authors:
   - id: 71
     title: Steven Andrews

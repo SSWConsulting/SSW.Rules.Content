@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-which-check-in-policies-to-enable
 title: Do you know which check-in policies to enable?
-created: YYYY-11-DD 03:52:26
+created: 2011-11-18 03:52:26
 authors:
   - id: 22
     title: David Klein

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-programmatically-get-git-commits
 title: Do you know how to programmatically get Git commits?
-created: YYYY-08-DD 23:07:23
+created: 2014-08-07 23:07:23
 authors:
   - id: 38
     title: Drew Robson

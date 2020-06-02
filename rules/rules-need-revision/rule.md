@@ -1,9 +1,7 @@
-
-
 ---
 uri: rules-need-revision
 title: Rules Need Revision
-created: YYYY-12-DD 06:50:10
+created: 2009-12-15 06:50:10
 authors:
 
 ---

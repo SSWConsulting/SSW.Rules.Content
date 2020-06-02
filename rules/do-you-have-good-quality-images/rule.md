@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-good-quality-images
 title: Do you have good quality images?
-created: YYYY-04-DD 19:39:15
+created: 2020-04-06 19:39:15
 authors:
   - id: 1
     title: Adam Cogan

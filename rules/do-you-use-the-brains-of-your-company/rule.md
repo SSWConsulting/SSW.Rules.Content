@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-brains-of-your-company
 title: Do you use the brains of your company?
-created: YYYY-12-DD 02:15:11
+created: 2019-12-07 02:15:11
 authors:
   - id: 1
     title: Adam Cogan

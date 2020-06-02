@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-same-agenda-and-summary-slide
 title: Do you use the same Agenda and Summary slide?
-created: YYYY-06-DD 09:55:27
+created: 2010-06-08 09:55:27
 authors:
 
 ---

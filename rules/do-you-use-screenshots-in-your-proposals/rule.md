@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-screenshots-in-your-proposals
 title: Do you use screenshots in your proposals?
-created: YYYY-08-DD 22:30:54
+created: 2019-08-21 22:30:54
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-password-writeback-enabled
 title: Do you have Password Writeback enabled?
-created: YYYY-11-DD 04:10:57
+created: 2018-11-13 04:10:57
 authors:
   - id: 73
     title: Kaique Biancatti

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-create-a-deployment-project-alongside-your-web-application-for-any-additional-deployment-steps
 title: Do you Create a “.Deployment” Project alongside your Web Application for any additional deployment steps?
-created: YYYY-02-DD 18:51:03
+created: 2013-02-06 18:51:03
 authors:
   - id: 24
     title: Adam Stephensen

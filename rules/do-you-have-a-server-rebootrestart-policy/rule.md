@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-server-rebootrestart-policy
 title: Do you have a server reboot/restart policy?
-created: YYYY-06-DD 19:21:55
+created: 2017-06-30 19:21:55
 authors:
   - id: 1
     title: Adam Cogan

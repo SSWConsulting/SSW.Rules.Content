@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-offer-out-of-browser-support
 title: Do you offer out-of-browser support?
-created: YYYY-10-DD 00:57:03
+created: 2010-10-12 00:57:03
 authors:
   - id: 1
     title: Adam Cogan

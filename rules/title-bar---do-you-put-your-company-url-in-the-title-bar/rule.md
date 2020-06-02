@@ -1,9 +1,7 @@
-
-
 ---
 uri: title-bar---do-you-put-your-company-url-in-the-title-bar
 title: Title Bar - Do you put your company URL in the title bar?
-created: YYYY-11-DD 02:37:12
+created: 2012-11-27 02:37:12
 authors:
 
 ---

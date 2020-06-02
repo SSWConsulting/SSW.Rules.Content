@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-show-your-phone-number-to-allow-for-emergency-communication
 title: Do you show your phone number to allow for emergency communication?
-created: YYYY-05-DD 03:33:07
+created: 2010-05-24 03:33:07
 authors:
   - id: 32
     title: Mehmet Ozdemir

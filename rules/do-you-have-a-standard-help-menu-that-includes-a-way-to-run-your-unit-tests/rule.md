@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-standard-help-menu-that-includes-a-way-to-run-your-unit-tests
 title: Do you have a standard 'Help' menu that includes a way to run your unit tests?
-created: YYYY-03-DD 23:07:16
+created: 2020-03-12 23:07:16
 authors:
   - id: 1
     title: Adam Cogan

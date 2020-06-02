@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
 title: Do you know you should always refer to rules instead of explaining it?
-created: YYYY-03-DD 07:49:09
+created: 2009-03-17 07:49:09
 authors:
   - id: 1
     title: Adam Cogan

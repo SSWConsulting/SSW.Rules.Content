@@ -1,9 +1,7 @@
-
-
 ---
 uri: pre-production---do-you-define-the-level-of-quality-up-front-gold-vs-silver
 title: Pre-Production - Do you define the level of quality up front (Gold vs Silver)?
-created: YYYY-12-DD 14:07:04
+created: 2019-12-28 14:07:04
 authors:
   - id: 91
     title: Andrew Forsyth

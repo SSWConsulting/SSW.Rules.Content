@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-right-format-to-show-phone-numbers
 title: Do you know the right format to show phone numbers?
-created: YYYY-02-DD 02:52:06
+created: 2015-02-13 02:52:06
 authors:
 
 ---

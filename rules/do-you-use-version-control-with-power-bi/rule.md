@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-version-control-with-power-bi
 title: Do you use version control with Power BI?
-created: YYYY-03-DD 06:06:12
+created: 2017-03-29 06:06:12
 authors:
   - id: 32
     title: Mehmet Ozdemir

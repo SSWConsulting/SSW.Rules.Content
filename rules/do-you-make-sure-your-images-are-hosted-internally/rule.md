@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-sure-your-images-are-hosted-internally
 title: Do you make sure your images are hosted internally?
-created: YYYY-01-DD 13:26:09
+created: 2017-01-24 13:26:09
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: menu---do-you-use-icons-in-menu
 title: Menu - Do you use icons in menu?
-created: YYYY-11-DD 02:54:45
+created: 2012-11-27 02:54:45
 authors:
 
 ---

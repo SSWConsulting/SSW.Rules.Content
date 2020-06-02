@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-deploying-is-so-easy
 title: Do you know deploying is so easy?
-created: YYYY-10-DD 23:21:05
+created: 2009-10-06 23:21:05
 authors:
   - id: 1
     title: Adam Cogan

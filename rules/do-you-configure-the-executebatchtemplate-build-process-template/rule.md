@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-configure-the-executebatchtemplate-build-process-template
 title: Do you Configure the ExecuteBatchTemplate Build Process Template?
-created: YYYY-02-DD 18:55:26
+created: 2013-02-06 18:55:26
 authors:
   - id: 24
     title: Adam Stephensen

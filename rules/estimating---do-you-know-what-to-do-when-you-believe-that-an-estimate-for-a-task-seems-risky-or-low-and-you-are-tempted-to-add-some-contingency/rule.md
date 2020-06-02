@@ -1,9 +1,7 @@
-
-
 ---
 uri: estimating---do-you-know-what-to-do-when-you-believe-that-an-estimate-for-a-task-seems-risky-or-low-and-you-are-tempted-to-add-some-contingency
 title: Estimating - Do you know what to do when you believe that an estimate for a task seems risky or low and you are tempted to add some contingency?
-created: YYYY-05-DD 03:09:31
+created: 2010-05-06 03:09:31
 authors:
 
 ---

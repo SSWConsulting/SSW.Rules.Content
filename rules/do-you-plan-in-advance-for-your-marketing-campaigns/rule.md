@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-plan-in-advance-for-your-marketing-campaigns
 title: Do you plan in advance for your marketing campaigns?
-created: YYYY-10-DD 18:22:23
+created: 2014-10-13 18:22:23
 authors:
   - id: 4
     title: Ulysses Maclaren

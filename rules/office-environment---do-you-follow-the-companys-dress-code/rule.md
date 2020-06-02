@@ -1,9 +1,7 @@
-
-
 ---
 uri: office-environment---do-you-follow-the-companys-dress-code
 title: Office environment - Do you follow the company's dress code?
-created: YYYY-09-DD 17:57:39
+created: 2012-09-25 17:57:39
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-have-a-rowversion-column
 title: Schema - Do you have a rowversion column?
-created: YYYY-11-DD 17:27:42
+created: 2019-11-06 17:27:42
 authors:
   - id: 1
     title: Adam Cogan

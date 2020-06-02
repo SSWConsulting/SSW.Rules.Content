@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-do-a-retro-coffee-after-presentations
 title: Do you do a Retro Coffee after presentations?
-created: YYYY-04-DD 04:51:21
+created: 2012-04-18 04:51:21
 authors:
   - id: 1
     title: Adam Cogan

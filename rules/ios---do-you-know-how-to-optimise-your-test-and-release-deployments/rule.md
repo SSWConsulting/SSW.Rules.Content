@@ -1,9 +1,7 @@
-
-
 ---
 uri: ios---do-you-know-how-to-optimise-your-test-and-release-deployments
 title: iOS - Do you know how to optimise your test and release deployments?
-created: YYYY-11-DD 00:01:25
+created: 2019-11-05 00:01:25
 authors:
   - id: 97
     title: Matt Goldman

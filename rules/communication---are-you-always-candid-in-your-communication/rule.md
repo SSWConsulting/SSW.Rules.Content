@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---are-you-always-candid-in-your-communication
 title: Communication - Are you always candid in your communication?
-created: YYYY-09-DD 17:51:38
+created: 2012-09-25 17:51:38
 authors:
   - id: 1
     title: Adam Cogan

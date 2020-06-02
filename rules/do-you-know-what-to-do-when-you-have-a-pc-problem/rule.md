@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-to-do-when-you-have-a-pc-problem
 title: Do you know what to do when you have a PC problem
-created: YYYY-10-DD 10:50:19
+created: 2016-10-30 10:50:19
 authors:
   - id: 1
     title: Adam Cogan

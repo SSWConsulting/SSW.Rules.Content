@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-add-a-version-number-to-setup-package-in-advanced-installer
 title: Do you know how to add a version number to setup package in Advanced Installer?
-created: YYYY-09-DD 20:02:53
+created: 2014-09-18 20:02:53
 authors:
   - id: 1
     title: Adam Cogan

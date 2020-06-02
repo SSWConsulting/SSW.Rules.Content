@@ -1,9 +1,7 @@
-
-
 ---
 uri: post-production---do-you-know-which-video-hosting-service-to-choose
 title: Post Production - Do you know which video hosting service to choose?
-created: YYYY-05-DD 00:35:44
+created: 2013-05-21 00:35:44
 authors:
   - id: 29
     title: Raj Dhatt

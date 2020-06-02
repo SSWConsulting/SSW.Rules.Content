@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-use-site-columns-instead-of-list-columns
 title: Do you always use Site Columns instead of List Columns?
-created: YYYY-04-DD 03:22:00
+created: 2009-04-21 03:22:00
 authors:
   - id: 8
     title: John Liu

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-sync-your-outlook-contacts-to-crm
 title: Do you know how to sync your Outlook contacts to CRM?
-created: YYYY-12-DD 17:37:19
+created: 2012-12-07 17:37:19
 authors:
   - id: 1
     title: Adam Cogan

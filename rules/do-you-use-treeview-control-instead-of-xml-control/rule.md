@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-treeview-control-instead-of-xml-control
 title: Do you use TreeView control instead of XML control?
-created: YYYY-04-DD 06:20:33
+created: 2009-04-29 06:20:33
 authors:
   - id: 1
     title: Adam Cogan

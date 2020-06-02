@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-never-give-sql-server-all-your-ram
 title: Do you know to never give SQL Server all your RAM?
-created: YYYY-05-DD 06:54:56
+created: 2010-05-25 06:54:56
 authors:
   - id: 14
     title: Martin Hinshelwood

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-manage-requests-for-event-refunds-effectively
 title: Do you manage requests for event refunds effectively?
-created: YYYY-12-DD 16:31:25
+created: 2011-12-08 16:31:25
 authors:
 
 ---

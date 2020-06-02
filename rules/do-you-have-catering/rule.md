@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-catering
 title: Do You Have Catering?
-created: YYYY-12-DD 00:28:41
+created: 2014-12-31 00:28:41
 authors:
   - id: 62
     title: Penny Walker

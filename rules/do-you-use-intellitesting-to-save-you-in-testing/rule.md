@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-intellitesting-to-save-you-in-testing
 title: Do you use IntelliTesting to save you in testing?
-created: YYYY-03-DD 23:35:41
+created: 2020-03-12 23:35:41
 authors:
   - id: 1
     title: Adam Cogan

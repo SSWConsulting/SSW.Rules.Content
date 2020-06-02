@@ -1,9 +1,7 @@
-
-
 ---
 uri: printers---do-you-make-your-printers-easy-to-find
 title: Printers - Do you make your Printers easy to find?
-created: YYYY-03-DD 15:41:28
+created: 2012-03-05 15:41:28
 authors:
   - id: 1
     title: Adam Cogan

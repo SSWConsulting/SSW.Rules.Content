@@ -1,9 +1,7 @@
-
-
 ---
 uri: tools---do-you-know-the-best-ide-for-react
 title: Tools - Do you know the best IDE for React?
-created: YYYY-05-DD 14:52:53
+created: 2019-05-06 14:52:53
 authors:
   - id: 80
     title: Shane Ye

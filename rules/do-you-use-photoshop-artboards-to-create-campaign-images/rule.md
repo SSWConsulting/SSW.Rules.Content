@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-photoshop-artboards-to-create-campaign-images
 title: Do you use Photoshop artboards to create campaign images?
-created: YYYY-11-DD 01:44:02
+created: 2015-11-09 01:44:02
 authors:
   - id: 4
     title: Ulysses Maclaren

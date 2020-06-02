@@ -1,9 +1,7 @@
-
-
 ---
 uri: mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
 title: MEF: Do you know not to go overboard with dynamic dependencies?
-created: YYYY-03-DD 09:45:50
+created: 2012-03-21 09:45:50
 authors:
   - id: 1
     title: Adam Cogan

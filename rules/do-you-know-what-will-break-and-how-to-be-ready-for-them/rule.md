@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-will-break-and-how-to-be-ready-for-them
 title: Do you know what will break and how to be ready for them?
-created: YYYY-11-DD 21:18:21
+created: 2009-11-02 21:18:21
 authors:
   - id: 1
     title: Adam Cogan

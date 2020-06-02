@@ -1,9 +1,7 @@
-
-
 ---
 uri: spec---do-you-start-the-work-soon-after-the-specification-review
 title: Spec - Do you start the work soon after the Specification Review?
-created: YYYY-06-DD 07:08:00
+created: 2013-06-24 07:08:00
 authors:
   - id: 1
     title: Adam Cogan

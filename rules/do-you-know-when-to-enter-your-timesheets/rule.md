@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-enter-your-timesheets
 title: Do you know when to enter your timesheets?
-created: YYYY-04-DD 19:45:11
+created: 2013-04-19 19:45:11
 authors:
   - id: 1
     title: Adam Cogan

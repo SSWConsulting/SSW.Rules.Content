@@ -1,9 +1,7 @@
-
-
 ---
 uri: customization---do-you-have-only-one-person-making-changes-to-your-crm-customization
 title: Customization - Do you have only one person making changes to your CRM customization?
-created: YYYY-12-DD 18:11:23
+created: 2012-12-10 18:11:23
 authors:
   - id: 1
     title: Adam Cogan

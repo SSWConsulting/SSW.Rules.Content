@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-mfa-multi-factor-authentication-enabled
 title: Do you have MFA (Multi Factor Authentication) enabled?
-created: YYYY-09-DD 07:16:45
+created: 2018-09-06 07:16:45
 authors:
   - id: 73
     title: Kaique Biancatti

@@ -1,9 +1,7 @@
-
-
 ---
 uri: meetings---do-you-know-the-outcomes-from-your-initial-meeting-spec-review-or-ad-hoc-work
 title: Meetings - Do you know the outcomes from your initial meeting (Spec Review or Ad Hoc work)?
-created: YYYY-08-DD 13:00:36
+created: 2012-08-30 13:00:36
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-the-same-main-concept-when-redesigning-a-logo
 title: Do you keep the same main concept when redesigning a logo?
-created: YYYY-11-DD 17:30:19
+created: 2015-11-24 17:30:19
 authors:
   - id: 1
     title: Adam Cogan

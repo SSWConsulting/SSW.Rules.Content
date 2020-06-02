@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-change-the-layout-for-your-slides
 title: Do you know how to change the layout for your slides?
-created: YYYY-06-DD 08:09:56
+created: 2010-06-08 08:09:56
 authors:
 
 ---

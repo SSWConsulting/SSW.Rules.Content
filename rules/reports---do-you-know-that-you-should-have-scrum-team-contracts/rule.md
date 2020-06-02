@@ -1,9 +1,7 @@
-
-
 ---
 uri: reports---do-you-know-that-you-should-have-scrum-team-contracts
 title: Reports - Do you know that you should have Scrum Team contracts?
-created: YYYY-04-DD 16:29:04
+created: 2010-04-09 16:29:04
 authors:
 
 ---

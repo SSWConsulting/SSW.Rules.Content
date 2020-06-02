@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-give-users-the-friendlier-access-request-dialog
 title: Do you give users the friendlier Access Request dialog?
-created: YYYY-07-DD 02:20:38
+created: 2013-07-16 02:20:38
 authors:
   - id: 1
     title: Adam Cogan

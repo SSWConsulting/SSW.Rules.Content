@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-verify-that-report-server-authentication-settings-allow-a-wide-range-of-web-browsers
 title: Do you verify that Report Server authentication settings allow a wide range of web browsers?
-created: YYYY-11-DD 22:04:23
+created: 2017-11-16 22:04:23
 authors:
   - id: 70
     title: Greg Harris

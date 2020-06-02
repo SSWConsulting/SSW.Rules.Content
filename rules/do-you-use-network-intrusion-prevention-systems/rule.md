@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-network-intrusion-prevention-systems
 title: Do you use Network Intrusion Prevention Systems?
-created: YYYY-10-DD 21:47:06
+created: 2019-10-01 21:47:06
 authors:
   - id: 71
     title: Steven Andrews

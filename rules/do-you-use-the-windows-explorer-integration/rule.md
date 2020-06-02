@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-windows-explorer-integration
 title: Do you use the Windows Explorer Integration?
-created: YYYY-11-DD 03:53:02
+created: 2011-11-18 03:53:02
 authors:
   - id: 22
     title: David Klein

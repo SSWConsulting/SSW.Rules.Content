@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-few-slides-to-find-out-a-little-bit-about-who-is-in-your-audience
 title: Do you have a few slides to find out a little bit about who is in your audience?
-created: YYYY-06-DD 09:53:47
+created: 2010-06-08 09:53:47
 authors:
 
 ---

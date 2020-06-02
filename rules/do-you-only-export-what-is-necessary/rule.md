@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-only-export-what-is-necessary
 title: Do you only export what is necessary?
-created: YYYY-04-DD 19:50:49
+created: 2016-04-28 19:50:49
 authors:
   - id: 55
     title: Steve Leigh

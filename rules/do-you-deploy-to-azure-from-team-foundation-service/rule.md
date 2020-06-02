@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-deploy-to-azure-from-team-foundation-service
 title: Do you deploy to Azure from Team Foundation Service?
-created: YYYY-02-DD 14:29:26
+created: 2013-02-25 14:29:26
 authors:
   - id: 23
     title: Damian Brady

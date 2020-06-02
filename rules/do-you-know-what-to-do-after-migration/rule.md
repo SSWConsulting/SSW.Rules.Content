@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-to-do-after-migration
 title: Do you know what to do after migration?
-created: YYYY-01-DD 23:39:06
+created: 2018-01-17 23:39:06
 authors:
   - id: 69
     title: Jean Thirion

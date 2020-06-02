@@ -1,9 +1,7 @@
-
-
 ---
 uri: control-choice---do-you-know-when-to-use-checkboxes
 title: Control Choice - Do you know when to use CheckBoxes?
-created: YYYY-11-DD 08:51:11
+created: 2012-11-27 08:51:11
 authors:
 
 ---

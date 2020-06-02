@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-setfocusonerror-on-controls-that-fail-validation
 title: Do you use SetFocusOnError on controls that fail validation?
-created: YYYY-11-DD 09:07:08
+created: 2012-11-27 09:07:08
 authors:
 
 ---

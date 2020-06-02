@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-review-and-update-crm
 title: Do you review and update CRM?
-created: YYYY-07-DD 22:06:43
+created: 2019-07-05 22:06:43
 authors:
   - id: 1
     title: Adam Cogan

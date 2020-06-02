@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-attach-and-copy-emails-to-the-pbi
 title: Do you attach and copy emails to the PBI?
-created: YYYY-03-DD 04:19:36
+created: 2019-03-13 04:19:36
 authors:
   - id: 1
     title: Adam Cogan

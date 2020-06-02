@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-boardroom-av-solution
 title: Do you know the best boardroom AV solution?
-created: YYYY-04-DD 15:50:48
+created: 2020-04-22 15:50:48
 authors:
   - id: 1
     title: Adam Cogan

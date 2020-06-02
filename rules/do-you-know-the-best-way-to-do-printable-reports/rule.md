@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-to-do-printable-reports
 title: Do you know the best way to do printable reports?
-created: YYYY-01-DD 00:32:32
+created: 2014-01-31 00:32:32
 authors:
   - id: 38
     title: Drew Robson

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-understand-that-with-angular-you-read-and-write-to-the-model-never-to-the-page-aka-forget-about-jquery
 title: Do you understand that with Angular you read and write to the model... never to the page? (a.k.a. Forget about jQuery)
-created: YYYY-04-DD 20:18:33
+created: 2016-04-06 20:18:33
 authors:
   - id: 24
     title: Adam Stephensen

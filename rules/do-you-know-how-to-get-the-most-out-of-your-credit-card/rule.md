@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-get-the-most-out-of-your-credit-card
 title: Do you know how to get the most out of your credit card?
-created: YYYY-08-DD 05:29:22
+created: 2017-08-30 05:29:22
 authors:
   - id: 41
     title: Joanna Feely

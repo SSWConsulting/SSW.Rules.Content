@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database
 title: Do you make sure every customers' (and prospects') email is in your company database?
-created: YYYY-03-DD 03:28:39
+created: 2009-03-26 03:28:39
 authors:
   - id: 1
     title: Adam Cogan

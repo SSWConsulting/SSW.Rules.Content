@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-find-an-employee-or-clients-phone-number
 title: Do you know how to find an employee or client's phone number?
-created: YYYY-02-DD 20:24:07
+created: 2017-02-09 20:24:07
 authors:
   - id: 1
     title: Adam Cogan

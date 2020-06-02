@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-encapsulate-your-scripts-to-avoid-cluttering-the-global-namespace-and-clashing-with-other-scripts
 title: Do you encapsulate your scripts to avoid cluttering the global namespace and clashing with other scripts?
-created: YYYY-05-DD 05:30:10
+created: 2015-05-28 05:30:10
 authors:
 
 ---

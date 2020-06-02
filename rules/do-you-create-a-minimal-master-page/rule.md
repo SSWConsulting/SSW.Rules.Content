@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-create-a-minimal-master-page
 title: Do you create a minimal master page?
-created: YYYY-06-DD 06:46:53
+created: 2009-06-18 06:46:53
 authors:
   - id: 8
     title: John Liu

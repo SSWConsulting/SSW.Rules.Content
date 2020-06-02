@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-identify-your-target-market
 title: Do you identify your target market?
-created: YYYY-10-DD 16:55:26
+created: 2014-10-13 16:55:26
 authors:
   - id: 4
     title: Ulysses Maclaren

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-load-testing-tools-for-web-applications
 title: Do you know the best load testing tools for web applications?
-created: YYYY-04-DD 18:04:11
+created: 2016-04-28 18:04:11
 authors:
   - id: 3
     title: Eric Phan

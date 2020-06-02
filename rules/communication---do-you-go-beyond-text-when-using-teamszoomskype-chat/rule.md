@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-go-beyond-text-when-using-teamszoomskype-chat
 title: Communication - Do you go beyond text when using Teams/Zoom/Skype chat?
-created: YYYY-04-DD 08:08:47
+created: 2014-04-14 08:08:47
 authors:
   - id: 50
     title: Martin Li

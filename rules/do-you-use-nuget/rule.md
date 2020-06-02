@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-nuget
 title: Do you use NuGet?
-created: YYYY-07-DD 14:35:54
+created: 2012-07-23 14:35:54
 authors:
   - id: 1
     title: Adam Cogan

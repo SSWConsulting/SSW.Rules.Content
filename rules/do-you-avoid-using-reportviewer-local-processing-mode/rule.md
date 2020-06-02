@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-reportviewer-local-processing-mode
 title: Do you avoid using ReportViewer local processing mode?
-created: YYYY-11-DD 18:00:54
+created: 2016-11-11 18:00:54
 authors:
   - id: 1
     title: Adam Cogan

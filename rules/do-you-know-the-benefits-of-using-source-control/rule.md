@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-benefits-of-using-source-control
 title: Do you know the benefits of using source control?
-created: YYYY-11-DD 03:52:22
+created: 2011-11-18 03:52:22
 authors:
   - id: 17
     title: Ryan Tee

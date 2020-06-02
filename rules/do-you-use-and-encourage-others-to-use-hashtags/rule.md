@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-and-encourage-others-to-use-hashtags
 title: Do you use and encourage others to use hashtags?
-created: YYYY-09-DD 12:59:28
+created: 2010-09-07 12:59:28
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-propose-all-available-options
 title: Do you always propose all available options?
-created: YYYY-09-DD 22:31:19
+created: 2017-09-20 22:31:19
 authors:
   - id: 4
     title: Ulysses Maclaren

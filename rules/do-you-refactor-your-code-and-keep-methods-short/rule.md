@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-refactor-your-code-and-keep-methods-short
 title: Do you refactor your code and keep methods short?
-created: YYYY-04-DD 21:30:07
+created: 2018-04-23 21:30:07
 authors:
   - id: 1
     title: Adam Cogan

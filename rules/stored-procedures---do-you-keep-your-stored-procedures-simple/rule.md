@@ -1,9 +1,7 @@
-
-
 ---
 uri: stored-procedures---do-you-keep-your-stored-procedures-simple
 title: Stored Procedures - Do you keep your Stored Procedures simple?
-created: YYYY-11-DD 22:31:13
+created: 2019-11-12 22:31:13
 authors:
   - id: 1
     title: Adam Cogan

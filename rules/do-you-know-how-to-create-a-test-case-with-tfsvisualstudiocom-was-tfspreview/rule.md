@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-create-a-test-case-with-tfsvisualstudiocom-was-tfspreview
 title: Do you know how to create a Test Case with TFS.VisualStudio.com (was TFSPreview)?
-created: YYYY-07-DD 17:46:10
+created: 2012-07-09 17:46:10
 authors:
   - id: 24
     title: Adam Stephensen

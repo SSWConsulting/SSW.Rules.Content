@@ -1,9 +1,7 @@
-
-
 ---
 uri: stored-procedures---do-you-use-output-parameters-if-you-need-to-return-the-value-of-variables
 title: Stored Procedures - Do you use OUTPUT parameters if you need to return the value of variables?
-created: YYYY-11-DD 17:36:49
+created: 2019-11-08 17:36:49
 authors:
   - id: 1
     title: Adam Cogan

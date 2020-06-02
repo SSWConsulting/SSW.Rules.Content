@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-describe-types-sparsely
 title: Do you describe types sparsely?
-created: YYYY-04-DD 19:44:54
+created: 2016-04-28 19:44:54
 authors:
   - id: 55
     title: Steve Leigh

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-best-deployment-tool
 title: Do you use the best deployment tool?
-created: YYYY-01-DD 01:35:53
+created: 2015-01-02 01:35:53
 authors:
   - id: 23
     title: Damian Brady

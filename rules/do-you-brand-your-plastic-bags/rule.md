@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-brand-your-plastic-bags
 title: Do you brand your plastic bags?
-created: YYYY-11-DD 18:55:41
+created: 2015-11-24 18:55:41
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-minimum-builds-to-create-for-your-project
 title: Do you know the minimum builds to create for your project?
-created: YYYY-11-DD 03:52:49
+created: 2011-11-18 03:52:49
 authors:
   - id: 22
     title: David Klein

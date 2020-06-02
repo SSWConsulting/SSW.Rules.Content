@@ -1,9 +1,7 @@
-
-
 ---
 uri: post-production---do-you-know-how-to-conduct-a-test-please-for-video
 title: Post-Production - Do you know how to conduct a 'test please' for video?
-created: YYYY-12-DD 03:37:10
+created: 2011-12-19 03:37:10
 authors:
 
 ---

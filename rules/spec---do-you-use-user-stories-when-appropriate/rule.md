@@ -1,9 +1,7 @@
-
-
 ---
 uri: spec---do-you-use-user-stories-when-appropriate
 title: Spec - Do you use User Stories when appropriate?
-created: YYYY-11-DD 10:33:18
+created: 2009-11-03 10:33:18
 authors:
   - id: 1
     title: Adam Cogan

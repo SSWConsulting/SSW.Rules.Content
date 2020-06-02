@@ -1,9 +1,7 @@
-
-
 ---
 uri: what-are-the-different-images-available
 title: What are the different images available?
-created: YYYY-02-DD 02:03:35
+created: 2009-02-26 02:03:35
 authors:
 
 ---

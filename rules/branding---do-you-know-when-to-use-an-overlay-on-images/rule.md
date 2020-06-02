@@ -1,9 +1,7 @@
-
-
 ---
 uri: branding---do-you-know-when-to-use-an-overlay-on-images
 title: Branding - Do you know when to use an overlay on images?
-created: YYYY-02-DD 04:54:31
+created: 2020-02-10 04:54:31
 authors:
   - id: 83
     title: Camilla Rosa Silva

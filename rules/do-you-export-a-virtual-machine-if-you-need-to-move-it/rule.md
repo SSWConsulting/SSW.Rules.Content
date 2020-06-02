@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-export-a-virtual-machine-if-you-need-to-move-it
 title: Do you export a Virtual Machine if you need to move it?
-created: YYYY-02-DD 06:14:31
+created: 2011-02-14 06:14:31
 authors:
   - id: 21
     title: Matthew Hodgkins

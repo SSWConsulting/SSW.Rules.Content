@@ -1,9 +1,7 @@
-
-
 ---
 uri: bounces---do-you-know-how-to-correct-a-bounce
 title: Bounces - Do you know how to correct a bounce?
-created: YYYY-09-DD 06:23:29
+created: 2009-09-11 06:23:29
 authors:
   - id: 1
     title: Adam Cogan

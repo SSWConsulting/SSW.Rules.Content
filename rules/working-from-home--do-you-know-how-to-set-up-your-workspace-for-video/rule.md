@@ -1,9 +1,7 @@
-
-
 ---
 uri: working-from-home--do-you-know-how-to-set-up-your-workspace-for-video
 title: Working from Home – Do you know how to set up your workspace for video?
-created: YYYY-04-DD 16:37:30
+created: 2020-04-22 16:37:30
 authors:
   - id: 1
     title: Adam Cogan

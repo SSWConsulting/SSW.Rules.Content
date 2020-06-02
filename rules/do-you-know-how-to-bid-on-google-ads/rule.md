@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-bid-on-google-ads
 title: Do you know how to Bid on Google Ads?
-created: YYYY-03-DD 18:47:59
+created: 2019-03-22 18:47:59
 authors:
   - id: 83
     title: Camilla Rosa Silva

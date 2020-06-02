@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-difference-between-close-and-cancel
 title: Do you know the difference between Close and Cancel?
-created: YYYY-12-DD 04:16:17
+created: 2014-12-01 04:16:17
 authors:
 
 ---

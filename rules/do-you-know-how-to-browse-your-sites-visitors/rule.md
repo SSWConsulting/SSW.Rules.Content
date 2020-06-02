@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-browse-your-sites-visitors
 title: Do you know how to browse your site’s visitors?
-created: YYYY-06-DD 00:03:20
+created: 2017-06-20 00:03:20
 authors:
   - id: 4
     title: Ulysses Maclaren

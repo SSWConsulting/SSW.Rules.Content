@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-appropriate-and-user-friendly-icons
 title: Do you use appropriate and user-friendly icons?
-created: YYYY-12-DD 12:46:10
+created: 2015-12-18 12:46:10
 authors:
   - id: 1
     title: Adam Cogan

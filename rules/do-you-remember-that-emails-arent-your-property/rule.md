@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-remember-that-emails-arent-your-property
 title: Do you remember that emails aren't your property?
-created: YYYY-04-DD 07:07:37
+created: 2009-04-03 07:07:37
 authors:
   - id: 1
     title: Adam Cogan

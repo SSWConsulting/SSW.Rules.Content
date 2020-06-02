@@ -1,9 +1,7 @@
-
-
 ---
 uri: title-bar---do-you-put-the-current-documentproject-name-as-the-first-word-of-your-title-bar
 title: Title Bar - Do you put the current document/project name as the first word of your title bar?
-created: YYYY-11-DD 02:33:37
+created: 2012-11-27 02:33:37
 authors:
 
 ---

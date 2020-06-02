@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-upgrade-your-tfs-databases
 title: Do you know how to upgrade your TFS2008 databases?
-created: YYYY-11-DD 00:23:52
+created: 2009-11-08 00:23:52
 authors:
   - id: 1
     title: Adam Cogan

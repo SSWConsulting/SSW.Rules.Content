@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-manage-clients-expectations
 title: Do you manage clients' expectations?
-created: YYYY-02-DD 03:03:57
+created: 2009-02-26 03:03:57
 authors:
   - id: 1
     title: Adam Cogan

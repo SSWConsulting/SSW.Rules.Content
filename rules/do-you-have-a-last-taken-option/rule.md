@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-last-taken-option
 title: Do you have a "last taken" option?
-created: YYYY-05-DD 02:17:19
+created: 2015-05-19 02:17:19
 authors:
 
 ---

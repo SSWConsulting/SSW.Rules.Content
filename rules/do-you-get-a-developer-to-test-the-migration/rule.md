@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-get-a-developer-to-test-the-migration
 title: Do you get a developer to test the migration?
-created: YYYY-08-DD 11:37:58
+created: 2015-08-14 11:37:58
 authors:
 
 ---

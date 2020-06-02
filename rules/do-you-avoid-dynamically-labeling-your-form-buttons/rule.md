@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-dynamically-labeling-your-form-buttons
 title: Do you avoid dynamically labeling your form buttons?
-created: YYYY-12-DD 00:20:04
+created: 2014-12-01 00:20:04
 authors:
 
 ---

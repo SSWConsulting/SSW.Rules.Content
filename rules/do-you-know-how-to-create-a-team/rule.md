@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-create-a-team
 title: Do you know how to create a Team?
-created: YYYY-09-DD 06:03:49
+created: 2019-09-03 06:03:49
 authors:
   - id: 87
     title: Andreas Lengkeek

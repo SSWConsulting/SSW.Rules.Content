@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-tests-are-important
 title: Do you know why tests are important?
-created: YYYY-03-DD 16:00:41
+created: 2020-03-11 16:00:41
 authors:
   - id: 1
     title: Adam Cogan

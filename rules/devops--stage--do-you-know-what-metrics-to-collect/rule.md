@@ -1,9 +1,7 @@
-
-
 ---
 uri: devops--stage--do-you-know-what-metrics-to-collect
 title: DevOps – Stage 3: Do you know what metrics to collect?
-created: YYYY-03-DD 18:22:18
+created: 2016-03-07 18:22:18
 authors:
   - id: 3
     title: Eric Phan

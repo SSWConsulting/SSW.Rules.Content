@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-a-round-figure-or-an-exact-figure
 title: Do you know when to use a round figure or an exact figure?
-created: YYYY-11-DD 01:02:23
+created: 2009-11-03 01:02:23
 authors:
   - id: 1
     title: Adam Cogan

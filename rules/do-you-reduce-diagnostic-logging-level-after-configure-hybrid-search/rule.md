@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-reduce-diagnostic-logging-level-after-configure-hybrid-search
 title: Do you reduce diagnostic logging level after configure hybrid search?
-created: YYYY-04-DD 23:51:08
+created: 2017-04-25 23:51:08
 authors:
   - id: 9
     title: William Yin

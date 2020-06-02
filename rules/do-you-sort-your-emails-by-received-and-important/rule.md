@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-sort-your-emails-by-received-and-important
 title: Do you sort your emails by "Received" and "Important"?
-created: YYYY-03-DD 05:02:11
+created: 2009-03-24 05:02:11
 authors:
   - id: 1
     title: Adam Cogan

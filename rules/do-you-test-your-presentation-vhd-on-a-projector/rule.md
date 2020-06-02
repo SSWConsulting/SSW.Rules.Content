@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-test-your-presentation-vhd-on-a-projector
 title: Do you test your presentation VHD on a projector
-created: YYYY-04-DD 06:13:55
+created: 2011-04-13 06:13:55
 authors:
   - id: 21
     title: Matthew Hodgkins

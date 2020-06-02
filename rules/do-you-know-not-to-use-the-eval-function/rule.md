@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-not-to-use-the-eval-function
 title: Do you know not to use the "eval" function?
-created: YYYY-07-DD 18:13:38
+created: 2012-07-24 18:13:38
 authors:
   - id: 16
     title: Tiago Araujo

@@ -1,9 +1,7 @@
-
-
 ---
 uri: aspnet-vs-sharepoint-development---do-you-know-source-control-is-different
 title: ASP.NET vs SharePoint development - do you know source control is different?
-created: YYYY-12-DD 09:42:07
+created: 2009-12-04 09:42:07
 authors:
   - id: 9
     title: William Yin

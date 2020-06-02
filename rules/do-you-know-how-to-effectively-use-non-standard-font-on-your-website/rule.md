@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-effectively-use-non-standard-font-on-your-website
 title: Do you know how to effectively use non-standard font on your website?
-created: YYYY-12-DD 17:55:52
+created: 2014-12-16 17:55:52
 authors:
   - id: 16
     title: Tiago Araujo

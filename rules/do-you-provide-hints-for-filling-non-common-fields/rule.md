@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-hints-for-filling-non-common-fields
 title: Do you provide hints for filling non-common fields?
-created: YYYY-12-DD 18:38:54
+created: 2014-12-16 18:38:54
 authors:
   - id: 1
     title: Adam Cogan

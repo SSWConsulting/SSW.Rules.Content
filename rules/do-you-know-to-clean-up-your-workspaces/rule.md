@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-clean-up-your-workspaces
 title: Do you know to clean up your workspaces?
-created: YYYY-11-DD 03:52:31
+created: 2011-11-18 03:52:31
 authors:
   - id: 22
     title: David Klein

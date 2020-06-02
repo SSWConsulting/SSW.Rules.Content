@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again-whenever-its-used
 title: Do you wrap the same logic in a method instead of writing it again and again whenever it's used?
-created: YYYY-04-DD 23:35:54
+created: 2018-04-26 23:35:54
 authors:
   - id: 1
     title: Adam Cogan

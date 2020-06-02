@@ -1,9 +1,7 @@
-
-
 ---
 uri: display---do-you-show-your-phone-number
 title: Display - Do you show your phone number?
-created: YYYY-10-DD 06:47:30
+created: 2015-10-05 06:47:30
 authors:
   - id: 1
     title: Adam Cogan

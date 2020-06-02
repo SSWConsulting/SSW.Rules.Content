@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-validating-xml-documents-unnecessarily
 title: Do you avoid validating XML documents unnecessarily?
-created: YYYY-04-DD 19:38:17
+created: 2018-04-25 19:38:17
 authors:
   - id: 1
     title: Adam Cogan

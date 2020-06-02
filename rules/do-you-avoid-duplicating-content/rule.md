@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-duplicating-content
 title: Do you avoid duplicating content?
-created: YYYY-10-DD 19:00:21
+created: 2014-10-23 19:00:21
 authors:
   - id: 4
     title: Ulysses Maclaren

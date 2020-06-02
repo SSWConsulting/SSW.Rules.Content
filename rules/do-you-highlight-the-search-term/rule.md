@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-highlight-the-search-term
 title: Do you highlight the search term?
-created: YYYY-08-DD 05:56:34
+created: 2014-08-07 05:56:34
 authors:
   - id: 38
     title: Drew Robson

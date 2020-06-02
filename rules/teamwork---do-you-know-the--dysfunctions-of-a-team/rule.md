@@ -1,9 +1,7 @@
-
-
 ---
 uri: teamwork---do-you-know-the--dysfunctions-of-a-team
 title: Teamwork - Do you know the 5 dysfunctions of a team?
-created: YYYY-04-DD 17:26:27
+created: 2015-04-15 17:26:27
 authors:
   - id: 4
     title: Ulysses Maclaren

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-jpg
 title: Do you know when to use JPG?
-created: YYYY-10-DD 00:12:06
+created: 2015-10-13 00:12:06
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: the-application---do-you-show-what-version-the-app-is-and-what-version-the-database-is
 title: The application - Do you show what version the App is, and what version the Database is?
-created: YYYY-10-DD 05:26:57
+created: 2009-10-05 05:26:57
 authors:
   - id: 1
     title: Adam Cogan

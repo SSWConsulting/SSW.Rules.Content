@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-google-ranks-pages
 title: Do you know how Google ranks pages?
-created: YYYY-11-DD 17:56:43
+created: 2015-11-09 17:56:43
 authors:
   - id: 1
     title: Adam Cogan

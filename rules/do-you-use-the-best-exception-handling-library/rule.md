@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-best-exception-handling-library
 title: Do you use the best exception handling library?
-created: YYYY-09-DD 19:17:07
+created: 2013-09-11 19:17:07
 authors:
   - id: 1
     title: Adam Cogan

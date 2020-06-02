@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-words-that-make-your-email-like-junk-mail
 title: Do you avoid using words that make your email like junk mail?
-created: YYYY-04-DD 07:29:53
+created: 2009-04-03 07:29:53
 authors:
   - id: 1
     title: Adam Cogan

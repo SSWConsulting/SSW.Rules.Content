@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-expression-blend--sketchflow-to-create-mock-ups
 title: Do you use Expression Blend + SketchFlow to create mock-ups?
-created: YYYY-11-DD 13:15:02
+created: 2009-11-25 13:15:02
 authors:
   - id: 10
     title: Lei Xu

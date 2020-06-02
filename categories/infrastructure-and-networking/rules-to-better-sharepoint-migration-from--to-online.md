@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Better SharePoint Migration from 2016 to Online

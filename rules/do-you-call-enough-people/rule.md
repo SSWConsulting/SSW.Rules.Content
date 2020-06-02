@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-call-enough-people
 title: Do you call enough people?
-created: YYYY-04-DD 00:34:35
+created: 2018-04-10 00:34:35
 authors:
   - id: 1
     title: Adam Cogan

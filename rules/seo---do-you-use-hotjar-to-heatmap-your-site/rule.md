@@ -1,9 +1,7 @@
-
-
 ---
 uri: seo---do-you-use-hotjar-to-heatmap-your-site
 title: SEO - Do you use HotJar to Heatmap your site?
-created: YYYY-08-DD 23:22:33
+created: 2018-08-16 23:22:33
 authors:
   - id: 83
     title: Camilla Rosa Silva

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-value-objects
 title: Do you know when to use value objects?
-created: YYYY-04-DD 23:25:14
+created: 2019-04-14 23:25:14
 authors:
   - id: 81
     title: Jason Taylor

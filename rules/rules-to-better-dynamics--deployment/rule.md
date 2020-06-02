@@ -1,9 +1,7 @@
-
-
 ---
 uri: rules-to-better-dynamics--deployment
 title: Rules to better Dynamics 365 Deployment
-created: YYYY-11-DD 23:46:21
+created: 2017-11-20 23:46:21
 authors:
 
 ---

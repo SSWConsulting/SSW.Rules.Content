@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-test-your-javascript
 title: Do you test your JavaScript?
-created: YYYY-03-DD 22:56:26
+created: 2020-03-11 22:56:26
 authors:
   - id: 1
     title: Adam Cogan

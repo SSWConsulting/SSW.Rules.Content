@@ -1,9 +1,7 @@
-
-
 ---
 uri: authentication---do-you-have-a-logout-short-cut-next-to-the-user-name-
 title: Authentication - Do you have a 'Logout' short cut next to the user name ?
-created: YYYY-12-DD 20:20:21
+created: 2014-12-11 20:20:21
 authors:
   - id: 1
     title: Adam Cogan

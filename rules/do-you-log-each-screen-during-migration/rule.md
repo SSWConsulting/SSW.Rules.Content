@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-log-each-screen-during-migration
 title: Do you log each screen during migration
-created: YYYY-11-DD 07:55:25
+created: 2013-11-11 07:55:25
 authors:
   - id: 32
     title: Mehmet Ozdemir

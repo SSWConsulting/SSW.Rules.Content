@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-breadcrumb-to-every-page
 title: Do you add breadcrumb to every page?
-created: YYYY-02-DD 01:46:30
+created: 2015-02-16 01:46:30
 authors:
 
 ---

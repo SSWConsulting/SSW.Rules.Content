@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-realize-the-value-of-your-existing-clients
 title: Do you realize the value of your existing clients?
-created: YYYY-08-DD 13:03:16
+created: 2012-08-30 13:03:16
 authors:
   - id: 1
     title: Adam Cogan

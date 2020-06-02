@@ -1,9 +1,7 @@
-
-
 ---
 uri: data-entry---do-you-know-how-to-create-new-opportunities
 title: Data Entry - Do you know how to create new Opportunities?
-created: YYYY-12-DD 18:37:17
+created: 2012-12-06 18:37:17
 authors:
   - id: 1
     title: Adam Cogan

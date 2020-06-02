@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-disable-connections
 title: Do you disable connections?
-created: YYYY-08-DD 15:42:01
+created: 2015-08-12 15:42:01
 authors:
 
 ---

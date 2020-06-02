@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-make-what-you-can-make-public
 title: Do you know to make what you can make public?
-created: YYYY-09-DD 15:43:07
+created: 2010-09-08 15:43:07
 authors:
   - id: 1
     title: Adam Cogan

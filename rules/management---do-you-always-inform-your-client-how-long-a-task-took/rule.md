@@ -1,9 +1,7 @@
-
-
 ---
 uri: management---do-you-always-inform-your-client-how-long-a-task-took
 title: Management - Do you always inform your client how long a task took?
-created: YYYY-02-DD 09:43:40
+created: 2009-02-28 09:43:40
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-save-clicking-through
 title: Do you save clicking through?
-created: YYYY-02-DD 02:40:50
+created: 2015-02-16 02:40:50
 authors:
 
 ---

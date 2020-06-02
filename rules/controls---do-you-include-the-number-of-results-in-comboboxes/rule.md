@@ -1,9 +1,7 @@
-
-
 ---
 uri: controls---do-you-include-the-number-of-results-in-comboboxes
 title: Controls - Do you include the number of results in ComboBoxes?
-created: YYYY-11-DD 08:40:47
+created: 2012-11-27 08:40:47
 authors:
   - id: 1
     title: Adam Cogan

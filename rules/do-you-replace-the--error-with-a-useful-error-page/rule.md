@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-replace-the--error-with-a-useful-error-page
 title: Do you replace the 404 error with a useful error page?
-created: YYYY-08-DD 17:30:01
+created: 2016-08-11 17:30:01
 authors:
   - id: 1
     title: Adam Cogan

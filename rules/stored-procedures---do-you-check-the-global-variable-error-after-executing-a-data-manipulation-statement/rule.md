@@ -1,9 +1,7 @@
-
-
 ---
 uri: stored-procedures---do-you-check-the-global-variable-error-after-executing-a-data-manipulation-statement
 title: Stored Procedures - Do you check the global variable @@ERROR after executing a data manipulation statement?
-created: YYYY-11-DD 20:36:14
+created: 2019-11-08 20:36:14
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: how-to-use-ssw-style-in-radhtmlcontrol
 title: How to use SSW style in RadHtmlControl?
-created: YYYY-02-DD 17:36:43
+created: 2010-02-02 17:36:43
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: production---do-you-add-a-call-to-action
 title: Production - Do you add a call to action?
-created: YYYY-10-DD 18:10:55
+created: 2011-10-05 18:10:55
 authors:
   - id: 27
     title: Titus Maclaren

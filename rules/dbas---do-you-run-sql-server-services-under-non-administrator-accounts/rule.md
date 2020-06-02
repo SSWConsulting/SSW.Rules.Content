@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-run-sql-server-services-under-non-administrator-accounts
 title: ​DBAs - Do you run SQL Server Services under non-Administrator accounts?
-created: YYYY-11-DD 23:40:32
+created: 2019-11-18 23:40:32
 authors:
   - id: 1
     title: Adam Cogan

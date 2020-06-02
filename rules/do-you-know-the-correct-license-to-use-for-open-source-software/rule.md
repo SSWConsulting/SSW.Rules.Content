@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-correct-license-to-use-for-open-source-software
 title: Do you know the correct license to use for Open Source software?
-created: YYYY-02-DD 17:17:59
+created: 2015-02-06 17:17:59
 authors:
   - id: 24
     title: Adam Stephensen

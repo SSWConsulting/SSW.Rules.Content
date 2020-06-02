@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-delete-old-snapshots-before-making-a-new-one
 title: Do you delete old snapshots before making a new one?
-created: YYYY-02-DD 06:24:04
+created: 2011-02-14 06:24:04
 authors:
   - id: 21
     title: Matthew Hodgkins

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-avoid-errors-with-sharegate
 title: Do you know how to avoid errors (with Sharegate)?
-created: YYYY-01-DD 23:18:42
+created: 2018-01-17 23:18:42
 authors:
   - id: 69
     title: Jean Thirion

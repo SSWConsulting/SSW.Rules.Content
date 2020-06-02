@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-to-demo-microsoft-crm-to-clients
 title: Do you know the best way to demo Microsoft CRM to clients?
-created: YYYY-12-DD 18:06:49
+created: 2012-12-10 18:06:49
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-rename-a-rule-url-internal-only
 title: Do you know how to rename a rule URL? (internal only)
-created: YYYY-09-DD 06:13:01
+created: 2015-09-11 06:13:01
 authors:
   - id: 9
     title: William Yin

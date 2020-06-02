@@ -1,9 +1,7 @@
-
-
 ---
 uri: options---do-you-use-typescript-for-your-angular-and-react-applications
 title: Options - Do you use Typescript for your Angular and React Applications?
-created: YYYY-01-DD 09:33:46
+created: 2016-01-18 09:33:46
 authors:
   - id: 37
     title: Ben Cull

@@ -1,9 +1,7 @@
-
-
 ---
 uri: calendar---do-you-use-a-centralised-leave-calendar
 title: Calendar - Do you use a centralised leave calendar?
-created: YYYY-09-DD 18:10:18
+created: 2012-09-25 18:10:18
 authors:
   - id: 1
     title: Adam Cogan

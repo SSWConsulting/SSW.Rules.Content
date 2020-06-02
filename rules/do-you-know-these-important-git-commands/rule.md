@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-these-important-git-commands
 title: Do you know these important git commands?
-created: YYYY-05-DD 20:02:08
+created: 2014-05-22 20:02:08
 authors:
   - id: 24
     title: Adam Stephensen

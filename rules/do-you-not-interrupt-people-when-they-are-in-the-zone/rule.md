@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-not-interrupt-people-when-they-are-in-the-zone
 title: Do you not interrupt people when they are in the zone?
-created: YYYY-08-DD 21:31:15
+created: 2012-08-27 21:31:15
 authors:
   - id: 30
     title: Marlon Marescia

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-doing-an-embedded-add
 title: Do you avoid doing an embedded 'Add'?
-created: YYYY-12-DD 00:01:42
+created: 2014-12-01 00:01:42
 authors:
 
 ---

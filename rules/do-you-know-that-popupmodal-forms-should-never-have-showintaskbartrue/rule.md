@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-that-popupmodal-forms-should-never-have-showintaskbartrue
 title: Do you know that popup/modal forms should never have ShowInTaskbar=True?
-created: YYYY-11-DD 04:22:06
+created: 2012-11-27 04:22:06
 authors:
 
 ---

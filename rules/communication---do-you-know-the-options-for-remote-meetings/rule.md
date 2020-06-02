@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-know-the-options-for-remote-meetings
 title: Communication - Do you know the options for remote meetings?
-created: YYYY-06-DD 07:23:07
+created: 2017-06-20 07:23:07
 authors:
   - id: 65
     title: Yu Hsien Chen

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-regularly-check-up-on-your-clients-to-make-sure-theyre-happy
 title: Do you regularly check up on your clients to make sure they're happy?
-created: YYYY-08-DD 13:05:53
+created: 2012-08-30 13:05:53
 authors:
   - id: 1
     title: Adam Cogan

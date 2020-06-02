@@ -1,9 +1,7 @@
-
-
 ---
 uri: teamwork---do-you-manage-up-give-a-recommendation
 title: Teamwork - Do you manage up? (Give a recommendation)
-created: YYYY-09-DD 17:48:20
+created: 2012-09-25 17:48:20
 authors:
   - id: 1
     title: Adam Cogan

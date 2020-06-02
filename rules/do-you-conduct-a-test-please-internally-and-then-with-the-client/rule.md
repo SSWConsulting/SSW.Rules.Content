@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-conduct-a-test-please-internally-and-then-with-the-client
 title: Do you conduct a "test please" internally and then with the client?
-created: YYYY-03-DD 02:46:56
+created: 2009-03-02 02:46:56
 authors:
   - id: 1
     title: Adam Cogan

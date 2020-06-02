@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-your-developers-deploy-manually
 title: Do your developers deploy manually?
-created: YYYY-01-DD 18:42:41
+created: 2012-01-30 18:42:41
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 title: Do you isolate your logic and remove dependencies on instances of objects?
-created: YYYY-03-DD 22:04:06
+created: 2020-03-12 22:04:06
 authors:
   - id: 1
     title: Adam Cogan

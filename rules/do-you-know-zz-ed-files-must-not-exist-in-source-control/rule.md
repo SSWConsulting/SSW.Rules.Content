@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-zz-ed-files-must-not-exist-in-source-control
 title: Do you know zz-ed files must not exist in Source Control?
-created: YYYY-01-DD 12:39:24
+created: 2013-01-21 12:39:24
 authors:
   - id: 1
     title: Adam Cogan

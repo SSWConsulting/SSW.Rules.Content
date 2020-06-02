@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-enforce-work-item-association-with-check-in
 title: Do you enforce work item association with check-in?
-created: YYYY-11-DD 03:52:43
+created: 2011-11-18 03:52:43
 authors:
   - id: 22
     title: David Klein

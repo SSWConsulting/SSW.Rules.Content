@@ -1,9 +1,7 @@
-
-
 ---
 uri: fix-html---do-you-implement-css-friendly
 title: Fix HTML - Do you implement CSS friendly?
-created: YYYY-06-DD 01:52:11
+created: 2009-06-16 01:52:11
 authors:
   - id: 8
     title: John Liu

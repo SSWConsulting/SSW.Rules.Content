@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-name-your-builds
 title: Do you know how to name your builds?
-created: YYYY-11-DD 10:44:59
+created: 2015-11-02 10:44:59
 authors:
   - id: 37
     title: Ben Cull

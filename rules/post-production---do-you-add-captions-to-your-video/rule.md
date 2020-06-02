@@ -1,9 +1,7 @@
-
-
 ---
 uri: post-production---do-you-add-captions-to-your-video
 title: Post-Production - Do you add captions to your video?
-created: YYYY-12-DD 05:41:15
+created: 2011-12-05 05:41:15
 authors:
   - id: 1
     title: Adam Cogan

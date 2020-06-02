@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-you-use--mentions-in-a-pbi
 title: Do you know when you use @ mentions in a PBI?
-created: YYYY-09-DD 20:03:03
+created: 2016-09-20 20:03:03
 authors:
   - id: 3
     title: Eric Phan

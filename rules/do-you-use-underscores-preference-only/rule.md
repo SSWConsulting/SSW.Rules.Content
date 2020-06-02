@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-underscores-preference-only
 title: Do you use underscores (Preference only)?
-created: YYYY-07-DD 01:42:49
+created: 2010-07-23 01:42:49
 authors:
   - id: 1
     title: Adam Cogan

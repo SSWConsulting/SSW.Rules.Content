@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-deploying-source-code-on-the-production-server
 title: Do you avoid deploying source code on the production server?
-created: YYYY-11-DD 13:15:08
+created: 2016-11-17 13:15:08
 authors:
   - id: 1
     title: Adam Cogan

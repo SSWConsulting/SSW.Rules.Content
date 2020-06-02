@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-clean-no-match-found-screen
 title: Do you have a clean “no match found” screen?
-created: YYYY-08-DD 21:25:06
+created: 2015-08-25 21:25:06
 authors:
   - id: 1
     title: Adam Cogan

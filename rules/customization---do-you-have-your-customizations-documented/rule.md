@@ -1,9 +1,7 @@
-
-
 ---
 uri: customization---do-you-have-your-customizations-documented
 title: Customization - Do you have your customizations documented?
-created: YYYY-12-DD 18:42:37
+created: 2012-12-10 18:42:37
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-the-goal-of-devops-is
 title: Do you know what the goal of DevOps is?
-created: YYYY-03-DD 17:04:30
+created: 2016-03-07 17:04:30
 authors:
   - id: 3
     title: Eric Phan

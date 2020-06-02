@@ -1,9 +1,7 @@
-
-
 ---
 uri: web-content-like-wikipediainstructional-style---do-you-write-in-the-newsreader-and-eyewitness-style
 title: Web content like wikipedia/instructional style - Do you write in the newsreader and eyewitness style?
-created: YYYY-12-DD 19:30:38
+created: 2014-12-04 19:30:38
 authors:
   - id: 1
     title: Adam Cogan

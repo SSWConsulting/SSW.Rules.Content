@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-avoid-swearing-at-work
 title: Communication - Do you avoid swearing at work?
-created: YYYY-09-DD 18:00:31
+created: 2012-09-25 18:00:31
 authors:
   - id: 1
     title: Adam Cogan

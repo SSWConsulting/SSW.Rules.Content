@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-tell-people-how-to-get-involved-with-your-project
 title: Do You Tell People How To Get Involved with your Project?
-created: YYYY-03-DD 21:34:53
+created: 2016-03-28 21:34:53
 authors:
   - id: 24
     title: Adam Stephensen

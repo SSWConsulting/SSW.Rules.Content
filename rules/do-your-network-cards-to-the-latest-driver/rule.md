@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-your-network-cards-to-the-latest-driver
 title: Do your network cards to the latest driver?
-created: YYYY-03-DD 19:19:19
+created: 2012-03-02 19:19:19
 authors:
 
 ---

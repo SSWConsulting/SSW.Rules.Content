@@ -1,9 +1,7 @@
-
-
 ---
 uri: general---do-you-use-a-sql-server-stored-procedure-naming-standard
 title: General - Do you use a SQL Server Stored Procedure Naming Standard?
-created: YYYY-12-DD 04:37:51
+created: 2019-12-31 04:37:51
 authors:
   - id: 1
     title: Adam Cogan

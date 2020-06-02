@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-tfs-build-server
 title: Do you keep your TFS Build Server?
-created: YYYY-01-DD 13:06:30
+created: 2017-01-17 13:06:30
 authors:
   - id: 46
     title: Danijel Malik

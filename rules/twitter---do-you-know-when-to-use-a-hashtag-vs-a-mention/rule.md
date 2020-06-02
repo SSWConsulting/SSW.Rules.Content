@@ -1,9 +1,7 @@
-
-
 ---
 uri: twitter---do-you-know-when-to-use-a-hashtag-vs-a-mention
 title: Twitter - Do you know when to use a hashtag vs. a @mention?
-created: YYYY-07-DD 05:49:34
+created: 2014-07-04 05:49:34
 authors:
   - id: 1
     title: Adam Cogan

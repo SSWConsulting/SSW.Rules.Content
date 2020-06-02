@@ -1,9 +1,7 @@
-
-
 ---
 uri: general---do-you-know-object-name-should-not-contain-spaces
 title: General - Do you know object name should not contain spaces?
-created: YYYY-11-DD 21:10:34
+created: 2019-11-14 21:10:34
 authors:
   - id: 1
     title: Adam Cogan

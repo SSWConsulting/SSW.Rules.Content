@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-create-your-own-alerts
 title: DBAs - Do you create your own alerts?
-created: YYYY-11-DD 18:38:18
+created: 2019-11-19 18:38:18
 authors:
   - id: 1
     title: Adam Cogan

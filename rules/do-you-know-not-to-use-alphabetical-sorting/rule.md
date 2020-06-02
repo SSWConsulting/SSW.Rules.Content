@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-not-to-use-alphabetical-sorting
 title: Do you know not to use Alphabetical Sorting?
-created: YYYY-10-DD 05:14:11
+created: 2016-10-21 05:14:11
 authors:
   - id: 4
     title: Ulysses Maclaren

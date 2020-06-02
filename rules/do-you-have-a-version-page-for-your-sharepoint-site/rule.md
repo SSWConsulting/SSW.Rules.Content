@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-version-page-for-your-sharepoint-site
 title: Do you have a version page for your SharePoint site?
-created: YYYY-04-DD 09:20:00
+created: 2009-04-20 09:20:00
 authors:
   - id: 8
     title: John Liu

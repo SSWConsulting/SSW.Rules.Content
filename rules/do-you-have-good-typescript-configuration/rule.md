@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-good-typescript-configuration
 title: Do you have good TypeScript configuration?
-created: YYYY-03-DD 19:14:50
+created: 2016-03-30 19:14:50
 authors:
   - id: 24
     title: Adam Stephensen

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-all-the-things-you-can-use-qr-codes-for
 title: Do you know all the things you can use QR codes for?
-created: YYYY-05-DD 03:11:17
+created: 2019-05-20 03:11:17
 authors:
   - id: 90
     title: Ken Shi

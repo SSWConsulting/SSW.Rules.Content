@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-follow-naming-conventions
 title: Do you follow naming conventions?
-created: YYYY-04-DD 21:43:19
+created: 2018-04-23 21:43:19
 authors:
   - id: 1
     title: Adam Cogan

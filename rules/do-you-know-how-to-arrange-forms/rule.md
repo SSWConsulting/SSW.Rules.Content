@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-arrange-forms
 title: Do you know how to arrange forms?
-created: YYYY-09-DD 20:50:09
+created: 2014-09-08 20:50:09
 authors:
   - id: 38
     title: Drew Robson

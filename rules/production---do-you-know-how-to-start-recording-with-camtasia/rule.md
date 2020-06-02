@@ -1,9 +1,7 @@
-
-
 ---
 uri: production---do-you-know-how-to-start-recording-with-camtasia
 title: Production - Do you know how to start recording with Camtasia?
-created: YYYY-07-DD 08:46:47
+created: 2011-07-01 08:46:47
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-naming-convention-for-client-teams
 title: Do you have naming convention for client Teams?
-created: YYYY-03-DD 21:43:37
+created: 2020-03-27 21:43:37
 authors:
   - id: 69
     title: Jean Thirion

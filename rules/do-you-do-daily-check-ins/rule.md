@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-do-daily-check-ins
 title: Do you do daily check-ins?
-created: YYYY-07-DD 05:45:39
+created: 2017-07-24 05:45:39
 authors:
   - id: 62
     title: Penny Walker

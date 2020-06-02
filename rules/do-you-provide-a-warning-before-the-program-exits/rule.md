@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-a-warning-before-the-program-exits
 title: Do you provide a warning before the program exits?
-created: YYYY-11-DD 03:10:56
+created: 2012-11-27 03:10:56
 authors:
 
 ---

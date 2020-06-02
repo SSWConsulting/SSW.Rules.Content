@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-list-tags-for-lists-only
 title: Do you use "list" tags for lists only?
-created: YYYY-07-DD 15:02:44
+created: 2012-07-02 15:02:44
 authors:
   - id: 16
     title: Tiago Araujo

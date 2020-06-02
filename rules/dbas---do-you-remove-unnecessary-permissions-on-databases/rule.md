@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-remove-unnecessary-permissions-on-databases
 title: DBAs - Do you remove unnecessary permissions on databases?
-created: YYYY-11-DD 20:30:57
+created: 2019-11-22 20:30:57
 authors:
   - id: 1
     title: Adam Cogan

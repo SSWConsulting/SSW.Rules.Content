@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-proper-tools-in-your-tool-belt
 title: Do you have proper tools in your tool belt?
-created: YYYY-02-DD 18:12:12
+created: 2017-02-09 18:12:12
 authors:
   - id: 1
     title: Adam Cogan

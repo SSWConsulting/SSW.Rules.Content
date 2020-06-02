@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
 title: Do you use an icon so a password prompt should never be a surprise?
-created: YYYY-02-DD 02:47:30
+created: 2015-02-16 02:47:30
 authors:
 
 ---

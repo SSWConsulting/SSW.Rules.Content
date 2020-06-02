@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-benchmark-your-pc
 title: Do you benchmark your PC?
-created: YYYY-03-DD 06:04:40
+created: 2016-03-03 06:04:40
 authors:
   - id: 47
     title: Stanley Sidik

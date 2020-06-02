@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-federate-lync-with-skype-and-other-external-im-providers
 title: Do you federate Lync with Skype and other external IM providers?
-created: YYYY-04-DD 16:36:35
+created: 2012-04-17 16:36:35
 authors:
   - id: 28
     title: Daragh Bannigan

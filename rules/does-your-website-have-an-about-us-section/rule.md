@@ -1,9 +1,7 @@
-
-
 ---
 uri: does-your-website-have-an-about-us-section
 title: Does your website have an 'About Us' section?
-created: YYYY-02-DD 01:33:41
+created: 2015-02-13 01:33:41
 authors:
 
 ---

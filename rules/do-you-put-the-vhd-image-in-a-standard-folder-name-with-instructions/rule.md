@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-put-the-vhd-image-in-a-standard-folder-name-with-instructions
 title: Do you put the VHD image in a standard folder name with instructions?
-created: YYYY-04-DD 05:47:09
+created: 2011-04-13 05:47:09
 authors:
   - id: 21
     title: Matthew Hodgkins

@@ -1,9 +1,7 @@
-
-
 ---
 uri: search---do-you-add-https-by-extending-web-application
 title: Search - Do you add https by extending web application
-created: YYYY-05-DD 06:51:56
+created: 2016-05-20 06:51:56
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-create-clustered-index-on-your-tables
 title: Schema - Do you create clustered index on your tables?
-created: YYYY-11-DD 00:30:09
+created: 2019-11-06 00:30:09
 authors:
   - id: 1
     title: Adam Cogan

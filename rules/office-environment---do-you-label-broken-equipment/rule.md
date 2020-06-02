@@ -1,9 +1,7 @@
-
-
 ---
 uri: office-environment---do-you-label-broken-equipment
 title: Office environment - Do you label broken equipment?
-created: YYYY-09-DD 17:51:22
+created: 2012-09-25 17:51:22
 authors:
   - id: 1
     title: Adam Cogan

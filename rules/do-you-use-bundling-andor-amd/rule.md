@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-bundling-andor-amd
 title: Do you use Bundling and/or AMD
-created: YYYY-06-DD 07:41:41
+created: 2015-06-16 07:41:41
 authors:
   - id: 34
     title: Brendan Richards

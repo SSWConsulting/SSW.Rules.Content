@@ -1,9 +1,7 @@
-
-
 ---
 uri: web-servers---do-you-know-how-to-setup-nlb-on-windows-server--aka-network-load-balancing
 title: Web Servers - Do you know how to Setup NLB on Windows Server 2016? (aka Network Load Balancing)
-created: YYYY-11-DD 15:08:00
+created: 2011-11-14 15:08:00
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-good-page-speed
 title: Do you have a good page speed?
-created: YYYY-04-DD 22:59:21
+created: 2019-04-16 22:59:21
 authors:
   - id: 83
     title: Camilla Rosa Silva

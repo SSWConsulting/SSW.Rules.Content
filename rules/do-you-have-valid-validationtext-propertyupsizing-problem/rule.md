@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-valid-validationtext-propertyupsizing-problem
 title: Do you have valid ValidationText property(Upsizing problem)?
-created: YYYY-07-DD 02:24:30
+created: 2010-07-23 02:24:30
 authors:
   - id: 1
     title: Adam Cogan

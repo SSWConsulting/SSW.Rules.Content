@@ -1,9 +1,7 @@
-
-
 ---
 uri: display---do-you-set-your-display-picture-using-a-good-photographic-image-of-yourself
 title: Display - Do you set your display picture using a good photographic image of yourself?
-created: YYYY-10-DD 06:17:02
+created: 2015-10-05 06:17:02
 authors:
   - id: 1
     title: Adam Cogan

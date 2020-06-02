@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-manage-objections
 title: Do you know how to manage objections?
-created: YYYY-08-DD 13:03:32
+created: 2012-08-30 13:03:32
 authors:
   - id: 1
     title: Adam Cogan

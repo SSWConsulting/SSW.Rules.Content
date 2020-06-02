@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-slack-as-part-of-your-devops
 title: Do you use Slack as part of your DevOps?
-created: YYYY-06-DD 01:12:36
+created: 2016-06-06 01:12:36
 authors:
   - id: 3
     title: Eric Phan

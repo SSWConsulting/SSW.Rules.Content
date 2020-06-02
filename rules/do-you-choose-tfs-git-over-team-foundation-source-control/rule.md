@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-choose-tfs-git-over-team-foundation-source-control
 title: Do You Choose TFS-Git Over Team Foundation Source Control?
-created: YYYY-05-DD 19:47:49
+created: 2014-05-22 19:47:49
 authors:
   - id: 24
     title: Adam Stephensen

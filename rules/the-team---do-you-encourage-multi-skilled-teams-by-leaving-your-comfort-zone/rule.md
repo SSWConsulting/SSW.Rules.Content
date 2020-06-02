@@ -1,9 +1,7 @@
-
-
 ---
 uri: the-team---do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
 title: The Team - Do you encourage multi-skilled teams by leaving your comfort zone?
-created: YYYY-04-DD 04:28:36
+created: 2010-04-08 04:28:36
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-the-term-emotional
 title: Do you avoid the term "emotional"?
-created: YYYY-07-DD 18:09:19
+created: 2017-07-18 18:09:19
 authors:
   - id: 1
     title: Adam Cogan

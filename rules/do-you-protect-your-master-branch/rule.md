@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-protect-your-master-branch
 title: Do you protect your Master Branch?
-created: YYYY-09-DD 22:35:37
+created: 2017-09-12 22:35:37
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-layers-of-the-onion-architecture
 title: Do you know the layers of the onion architecture?
-created: YYYY-10-DD 19:23:27
+created: 2012-10-19 19:23:27
 authors:
   - id: 24
     title: Adam Stephensen

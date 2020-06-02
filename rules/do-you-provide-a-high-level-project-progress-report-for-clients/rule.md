@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-a-high-level-project-progress-report-for-clients
 title: Do you provide a high level "Project Progress" report for clients?
-created: YYYY-08-DD 04:35:01
+created: 2009-08-20 04:35:01
 authors:
   - id: 1
     title: Adam Cogan

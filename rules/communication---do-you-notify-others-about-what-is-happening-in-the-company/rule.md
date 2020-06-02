@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-notify-others-about-what-is-happening-in-the-company
 title: Communication - Do you notify others about what is happening in the company?
-created: YYYY-09-DD 17:54:03
+created: 2012-09-25 17:54:03
 authors:
   - id: 1
     title: Adam Cogan

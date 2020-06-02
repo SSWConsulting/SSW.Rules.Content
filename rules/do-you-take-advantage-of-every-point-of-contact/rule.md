@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-take-advantage-of-every-point-of-contact
 title: Do you take advantage of every point of contact?
-created: YYYY-10-DD 18:59:52
+created: 2014-10-13 18:59:52
 authors:
   - id: 4
     title: Ulysses Maclaren

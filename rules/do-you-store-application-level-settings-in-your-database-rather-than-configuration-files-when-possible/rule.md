@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-store-application-level-settings-in-your-database-rather-than-configuration-files-when-possible
 title: Do you store Application-Level Settings in your database rather than configuration files when possible?
-created: YYYY-04-DD 21:16:04
+created: 2018-04-26 21:16:04
 authors:
   - id: 1
     title: Adam Cogan

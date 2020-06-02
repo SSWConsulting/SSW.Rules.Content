@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-get-approval-to-book-a-flight
 title: Do you know how to get approval to book a flight?
-created: YYYY-06-DD 06:34:51
+created: 2016-06-22 06:34:51
 authors:
   - id: 1
     title: Adam Cogan

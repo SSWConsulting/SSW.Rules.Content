@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-create-a-consistent-primary-key-column-on-your-tables
 title: Schema - Do you create a consistent primary key column on your tables?
-created: YYYY-11-DD 18:21:56
+created: 2019-11-06 18:21:56
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: triaging---do-you-understand-that-all-feedback-will-be-worked-on-in-the-next-sprint
 title: Triaging - Do You Understand that All Feedback Will be Worked on in the Next Sprint?
-created: YYYY-05-DD 05:15:55
+created: 2012-05-01 05:15:55
 authors:
   - id: 4
     title: Ulysses Maclaren

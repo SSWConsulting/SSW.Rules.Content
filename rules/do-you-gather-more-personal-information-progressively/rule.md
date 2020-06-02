@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-gather-more-personal-information-progressively
 title: Do you gather more personal information progressively?
-created: YYYY-02-DD 02:50:56
+created: 2015-02-13 02:50:56
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-web-tests-to-application-insights-to-monitor-trends-over-time
 title: Do you add Web Tests to Application Insights to monitor trends over time?
-created: YYYY-09-DD 09:09:08
+created: 2015-09-02 09:09:08
 authors:
   - id: 45
     title: Chris Briggs

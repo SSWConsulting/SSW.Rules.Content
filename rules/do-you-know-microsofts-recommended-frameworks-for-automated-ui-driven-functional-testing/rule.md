@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-microsofts-recommended-frameworks-for-automated-ui-driven-functional-testing
 title: Do you know Microsoft’s recommended frameworks for Automated UI-driven Functional Testing?
-created: YYYY-03-DD 19:59:09
+created: 2020-03-16 19:59:09
 authors:
   - id: 1
     title: Adam Cogan

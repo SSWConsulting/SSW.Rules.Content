@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-in-what-currency-to-quote-overseas
 title: Do you know in what currency to quote overseas?
-created: YYYY-04-DD 04:08:02
+created: 2013-04-01 04:08:02
 authors:
   - id: 1
     title: Adam Cogan

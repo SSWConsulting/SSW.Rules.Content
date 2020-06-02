@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Successful Sales and Account Management

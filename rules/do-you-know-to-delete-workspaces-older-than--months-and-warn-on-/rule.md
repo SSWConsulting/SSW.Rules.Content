@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-delete-workspaces-older-than--months-and-warn-on-
 title: Do you know to delete workspaces older than 6 months and warn on 3?
-created: YYYY-11-DD 03:52:39
+created: 2011-11-18 03:52:39
 authors:
   - id: 22
     title: David Klein

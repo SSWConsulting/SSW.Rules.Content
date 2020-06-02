@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ensure-the-speaker-is-aware-of-their-social-media-responsibilities
 title: Do you ensure the speaker is aware of their social media responsibilities?
-created: YYYY-05-DD 16:40:41
+created: 2013-05-17 16:40:41
 authors:
   - id: 1
     title: Adam Cogan

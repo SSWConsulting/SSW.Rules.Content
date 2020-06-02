@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-first-get-your-cluster-and-san-going
 title: Do you first get your Cluster and SAN going?
-created: YYYY-03-DD 18:07:04
+created: 2012-03-02 18:07:04
 authors:
 
 ---

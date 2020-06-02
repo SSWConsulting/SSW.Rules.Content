@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-best-static-site-generator-
 title: Do you use the best static site generator ?
-created: YYYY-01-DD 04:00:36
+created: 2020-01-09 04:00:36
 authors:
   - id: 78
     title: Matt Wicks

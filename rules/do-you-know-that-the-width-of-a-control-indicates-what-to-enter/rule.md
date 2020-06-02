@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-that-the-width-of-a-control-indicates-what-to-enter
 title: Do you know that the width of a control indicates what to enter?
-created: YYYY-11-DD 09:13:26
+created: 2012-11-27 09:13:26
 authors:
 
 ---

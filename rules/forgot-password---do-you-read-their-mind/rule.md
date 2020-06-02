@@ -1,9 +1,7 @@
-
-
 ---
 uri: forgot-password---do-you-read-their-mind
 title: Forgot Password - Do you read their mind?
-created: YYYY-02-DD 03:06:23
+created: 2015-02-16 03:06:23
 authors:
 
 ---

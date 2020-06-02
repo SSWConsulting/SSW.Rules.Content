@@ -1,9 +1,7 @@
-
-
 ---
 uri: messages---do-you-avoid-giving-an-error-message-for-validation-purposes
 title: Messages - Do you avoid giving an "Error" message for validation purposes?
-created: YYYY-11-DD 04:26:58
+created: 2012-11-27 04:26:58
 authors:
 
 ---

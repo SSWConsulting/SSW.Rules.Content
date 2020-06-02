@@ -1,9 +1,7 @@
-
-
 ---
 uri: customization---do-you-set-the-schema-name-prefix
 title: Customization - Do you set the schema-name prefix?
-created: YYYY-12-DD 18:43:57
+created: 2012-12-10 18:43:57
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-correct-way-to-develop-data-entry-forms
 title: Do you know the correct way to develop Data Entry Forms?
-created: YYYY-12-DD 00:36:14
+created: 2014-12-01 00:36:14
 authors:
 
 ---

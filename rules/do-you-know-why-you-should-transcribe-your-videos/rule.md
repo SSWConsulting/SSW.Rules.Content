@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-you-should-transcribe-your-videos
 title: Do you know why you should transcribe your videos?
-created: YYYY-06-DD 14:53:27
+created: 2016-06-03 14:53:27
 authors:
   - id: 1
     title: Adam Cogan

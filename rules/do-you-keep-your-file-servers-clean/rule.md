@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-file-servers-clean
 title: Do you keep your file servers clean?
-created: YYYY-06-DD 23:58:40
+created: 2017-06-30 23:58:40
 authors:
   - id: 1
     title: Adam Cogan

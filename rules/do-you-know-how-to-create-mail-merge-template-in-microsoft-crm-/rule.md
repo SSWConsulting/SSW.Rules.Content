@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-create-mail-merge-template-in-microsoft-crm-
 title: Do you know how to create mail merge template in Microsoft CRM 2016?
-created: YYYY-03-DD 18:52:17
+created: 2013-03-13 18:52:17
 authors:
   - id: 1
     title: Adam Cogan

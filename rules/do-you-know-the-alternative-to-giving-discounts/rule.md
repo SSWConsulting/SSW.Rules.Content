@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-alternative-to-giving-discounts
 title: Do you know the alternative to giving discounts?
-created: YYYY-08-DD 13:04:56
+created: 2012-08-30 13:04:56
 authors:
   - id: 1
     title: Adam Cogan

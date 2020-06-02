@@ -1,9 +1,7 @@
-
-
 ---
 uri: control-choice---do-you-have-a-consistent-look-on-your-buttons-windows-forms-only
 title: Control Choice - Do you have a consistent look on your buttons? (Windows Forms Only)
-created: YYYY-11-DD 08:56:29
+created: 2012-11-27 08:56:29
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: office-environment---do-you-give-enough-notice-for-annual-leave
 title: Office environment - Do you give enough notice for annual leave?
-created: YYYY-09-DD 18:10:42
+created: 2012-09-25 18:10:42
 authors:
   - id: 1
     title: Adam Cogan

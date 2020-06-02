@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-plain-textboxes-for-notes
 title: Do you avoid using plain textboxes for notes?
-created: YYYY-12-DD 00:04:47
+created: 2014-12-01 00:04:47
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: use-enum-constants-instead-of-magic-numbers
 title: Use Enum Constants instead of Magic numbers?
-created: YYYY-04-DD 16:48:28
+created: 2018-04-26 16:48:28
 authors:
   - id: 1
     title: Adam Cogan

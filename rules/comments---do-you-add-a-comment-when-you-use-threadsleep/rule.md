@@ -1,9 +1,7 @@
-
-
 ---
 uri: comments---do-you-add-a-comment-when-you-use-threadsleep
 title: Comments - Do you add a comment when you use Thread.Sleep?
-created: YYYY-04-DD 22:00:01
+created: 2018-04-26 22:00:01
 authors:
   - id: 1
     title: Adam Cogan

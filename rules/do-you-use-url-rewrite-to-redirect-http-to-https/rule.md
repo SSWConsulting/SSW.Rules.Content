@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-url-rewrite-to-redirect-http-to-https
 title: Do you use URL Rewrite to redirect HTTP to HTTPS?
-created: YYYY-08-DD 08:47:17
+created: 2016-08-16 08:47:17
 authors:
   - id: 47
     title: Stanley Sidik

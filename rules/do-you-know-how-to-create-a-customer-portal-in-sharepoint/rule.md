@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-create-a-customer-portal-in-sharepoint
 title: Do you know how to create a "Customer Portal" (in SharePoint)?
-created: YYYY-05-DD 06:51:18
+created: 2009-05-28 06:51:18
 authors:
   - id: 9
     title: William Yin

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-display-dates-in-a-human-friendly-format
 title: Do you display dates in a human friendly format?
-created: YYYY-03-DD 04:47:35
+created: 2015-03-17 04:47:35
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: twitter---do-you-know-to-thank-others-for-each-reference-to-you
 title: Twitter - Do you know to thank others for each reference to you?
-created: YYYY-03-DD 17:02:09
+created: 2010-03-15 17:02:09
 authors:
   - id: 1
     title: Adam Cogan

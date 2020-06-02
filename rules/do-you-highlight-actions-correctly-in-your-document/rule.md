@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-highlight-actions-correctly-in-your-document
 title: Do you highlight actions correctly in your document?
-created: YYYY-03-DD 04:57:28
+created: 2016-03-22 04:57:28
 authors:
   - id: 1
     title: Adam Cogan

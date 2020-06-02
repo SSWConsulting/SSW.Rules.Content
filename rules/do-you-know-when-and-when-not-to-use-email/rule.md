@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-and-when-not-to-use-email
 title: Do you know when, and when NOT, to use email?
-created: YYYY-03-DD 05:12:14
+created: 2009-03-24 05:12:14
 authors:
   - id: 1
     title: Adam Cogan

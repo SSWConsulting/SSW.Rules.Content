@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-change-the-live-chat-appearance
 title: Do you know how to change the live chat appearance?
-created: YYYY-06-DD 22:52:13
+created: 2017-06-19 22:52:13
 authors:
   - id: 4
     title: Ulysses Maclaren

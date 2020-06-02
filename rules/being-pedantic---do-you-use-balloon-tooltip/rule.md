@@ -1,9 +1,7 @@
-
-
 ---
 uri: being-pedantic---do-you-use-balloon-tooltip
 title: Being Pedantic - Do you use balloon tooltip?
-created: YYYY-11-DD 09:23:38
+created: 2012-11-27 09:23:38
 authors:
 
 ---

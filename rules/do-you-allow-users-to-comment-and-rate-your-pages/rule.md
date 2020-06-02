@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-allow-users-to-comment-and-rate-your-pages
 title: Do you allow users to comment and rate your pages?
-created: YYYY-08-DD 15:26:20
+created: 2015-08-04 15:26:20
 authors:
   - id: 1
     title: Adam Cogan

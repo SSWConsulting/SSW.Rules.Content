@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-lodash-to-perform-your-daily-_foreach
 title: Do you use lodash to perform your daily _.foreach?
-created: YYYY-05-DD 18:45:14
+created: 2015-05-05 18:45:14
 authors:
   - id: 37
     title: Ben Cull

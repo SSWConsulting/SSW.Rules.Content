@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-see-if-your-powerpoint-is-using-the-latest-template
 title: Do you know how to see if your PowerPoint is using the latest template?
-created: YYYY-06-DD 07:57:36
+created: 2010-06-08 07:57:36
 authors:
 
 ---

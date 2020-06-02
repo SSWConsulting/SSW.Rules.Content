@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-version-your-xml-files
 title: Do you version your .xml files?
-created: YYYY-04-DD 06:07:29
+created: 2009-04-29 06:07:29
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: are-you-aware-of-the-importance-of-a-clients-email-attachment
 title: Are you aware of the importance of a client's email attachment?
-created: YYYY-04-DD 07:17:05
+created: 2009-04-07 07:17:05
 authors:
   - id: 1
     title: Adam Cogan

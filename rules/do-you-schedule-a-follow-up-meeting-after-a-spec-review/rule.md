@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-schedule-a-follow-up-meeting-after-a-spec-review
 title: Do you schedule a follow-up meeting after a Spec Review?
-created: YYYY-08-DD 04:48:38
+created: 2017-08-03 04:48:38
 authors:
   - id: 4
     title: Ulysses Maclaren

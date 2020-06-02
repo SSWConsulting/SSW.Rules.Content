@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-advise-staff-members-you-are-about-to-perform-a-migration
 title: Do you advise staff members you are about to perform a migration
-created: YYYY-12-DD 06:48:31
+created: 2010-12-23 06:48:31
 authors:
   - id: 21
     title: Matthew Hodgkins

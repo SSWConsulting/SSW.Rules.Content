@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-follow-the-campaign-checklist-for-every-marketing-campaign
 title: Do you follow the campaign checklist for every marketing campaign?
-created: YYYY-12-DD 18:39:54
+created: 2014-12-11 18:39:54
 authors:
   - id: 30
     title: Marlon Marescia

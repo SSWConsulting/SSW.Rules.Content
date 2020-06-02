@@ -1,9 +1,7 @@
-
-
 ---
 uri: server---do-you-use-the-best-backup-solution
 title: Server - Do you use the best backup solution?
-created: YYYY-06-DD 01:17:11
+created: 2018-06-04 01:17:11
 authors:
 
 ---

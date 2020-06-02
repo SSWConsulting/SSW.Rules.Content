@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-impact-of-adding-an-urgent-new-feature-to-the-sprint
 title: Do you know the impact of adding an "urgent new feature" to the sprint?
-created: YYYY-08-DD 13:37:20
+created: 2011-08-30 13:37:20
 authors:
   - id: 1
     title: Adam Cogan

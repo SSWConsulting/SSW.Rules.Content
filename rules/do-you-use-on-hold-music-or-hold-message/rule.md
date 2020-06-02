@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-on-hold-music-or-hold-message
 title: Do you use on hold music or hold message?
-created: YYYY-06-DD 23:44:13
+created: 2018-06-08 23:44:13
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-ip-phones-are-supported-by-microsoft-lync
 title: Do you know what IP phones are supported by Microsoft Lync?
-created: YYYY-04-DD 16:25:37
+created: 2012-04-17 16:25:37
 authors:
   - id: 28
     title: Daragh Bannigan

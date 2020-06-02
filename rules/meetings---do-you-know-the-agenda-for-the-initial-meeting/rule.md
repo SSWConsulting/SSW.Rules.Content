@@ -1,9 +1,7 @@
-
-
 ---
 uri: meetings---do-you-know-the-agenda-for-the-initial-meeting
 title: Meetings - Do you know the agenda for the initial meeting?
-created: YYYY-08-DD 12:58:29
+created: 2012-08-30 12:58:29
 authors:
   - id: 1
     title: Adam Cogan

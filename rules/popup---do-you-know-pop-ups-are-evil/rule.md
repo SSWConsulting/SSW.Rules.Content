@@ -1,9 +1,7 @@
-
-
 ---
 uri: popup---do-you-know-pop-ups-are-evil
 title: Popup - Do you know Pop-ups are evil?
-created: YYYY-11-DD 04:17:46
+created: 2012-11-27 04:17:46
 authors:
 
 ---

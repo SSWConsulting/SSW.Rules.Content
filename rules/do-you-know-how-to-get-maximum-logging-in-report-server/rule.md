@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-get-maximum-logging-in-report-server
 title: Do you know how to get maximum logging in Report Server?
-created: YYYY-09-DD 00:39:48
+created: 2016-09-12 00:39:48
 authors:
   - id: 3
     title: Eric Phan

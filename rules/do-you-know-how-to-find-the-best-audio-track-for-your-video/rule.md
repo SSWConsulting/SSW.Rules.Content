@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-find-the-best-audio-track-for-your-video
 title: Do you know how to find the best audio track for your video?
-created: YYYY-11-DD 20:12:07
+created: 2016-11-07 20:12:07
 authors:
   - id: 1
     title: Adam Cogan

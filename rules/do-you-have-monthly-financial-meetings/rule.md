@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-monthly-financial-meetings
 title: Do you have monthly financial meetings?
-created: YYYY-09-DD 05:50:26
+created: 2015-09-18 05:50:26
 authors:
   - id: 1
     title: Adam Cogan

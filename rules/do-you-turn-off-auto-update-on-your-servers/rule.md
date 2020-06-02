@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-turn-off-auto-update-on-your-servers
 title: Do you turn off auto-update on your servers?
-created: YYYY-06-DD 01:43:02
+created: 2010-06-24 01:43:02
 authors:
   - id: 8
     title: John Liu

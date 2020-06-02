@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-status-message-in-teams
 title: Do you use the status message in Teams?
-created: YYYY-04-DD 21:58:39
+created: 2020-04-08 21:58:39
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: tools---do-you-know-what-angular-tools-to-install-for-an-angular-project
 title: Tools - Do you know what Angular Tools to install for an Angular project?
-created: YYYY-12-DD 14:01:27
+created: 2016-12-20 14:01:27
 authors:
   - id: 1
     title: Adam Cogan

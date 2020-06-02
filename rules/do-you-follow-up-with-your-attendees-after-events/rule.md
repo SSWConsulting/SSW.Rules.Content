@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-follow-up-with-your-attendees-after-events
 title: Do you follow up with your attendees after events?
-created: YYYY-12-DD 00:46:18
+created: 2014-12-31 00:46:18
 authors:
   - id: 62
     title: Penny Walker

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-stsadm-to-environmental-variables
 title: Do you add stsadm to environmental variables
-created: YYYY-12-DD 01:48:27
+created: 2010-12-23 01:48:27
 authors:
   - id: 21
     title: Matthew Hodgkins

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-send-notification-if-you-cannot-access-essential-services
 title: Do you send notification if you cannot access essential services?
-created: YYYY-09-DD 19:36:56
+created: 2014-09-03 19:36:56
 authors:
   - id: 1
     title: Adam Cogan

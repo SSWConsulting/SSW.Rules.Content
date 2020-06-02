@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-aim-for-an-advancement-rather-than-a-continuance
 title: Do you aim for an advancement rather than a continuance?
-created: YYYY-08-DD 13:02:28
+created: 2012-08-30 13:02:28
 authors:
   - id: 1
     title: Adam Cogan

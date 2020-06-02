@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-check-for-errors-after-the-migration-process
 title: Do you check for errors after the migration process?
-created: YYYY-12-DD 07:11:10
+created: 2010-12-23 07:11:10
 authors:
 
 ---

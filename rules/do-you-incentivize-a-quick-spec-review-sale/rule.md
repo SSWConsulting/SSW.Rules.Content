@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-incentivize-a-quick-spec-review-sale
 title: Do you incentivize a quick Spec Review sale?
-created: YYYY-08-DD 00:30:36
+created: 2017-08-03 00:30:36
 authors:
   - id: 4
     title: Ulysses Maclaren

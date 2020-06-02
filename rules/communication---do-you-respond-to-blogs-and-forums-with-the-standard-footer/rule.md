@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-respond-to-blogs-and-forums-with-the-standard-footer
 title: Communication - Do you respond to blogs and forums with the standard footer?
-created: YYYY-09-DD 18:03:27
+created: 2012-09-25 18:03:27
 authors:
   - id: 1
     title: Adam Cogan

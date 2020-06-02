@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-check-your-teams-backup-status
 title: Do you check your teams backup status?
-created: YYYY-02-DD 17:07:20
+created: 2018-02-01 17:07:20
 authors:
   - id: 1
     title: Adam Cogan

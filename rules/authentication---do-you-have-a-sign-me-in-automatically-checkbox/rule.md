@@ -1,9 +1,7 @@
-
-
 ---
 uri: authentication---do-you-have-a-sign-me-in-automatically-checkbox
 title: Authentication - Do you have a 'Sign me in automatically' checkbox?
-created: YYYY-12-DD 20:17:49
+created: 2014-12-11 20:17:49
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: promotion---do-you-help-people-to-know-about-your-events
 title: Promotion - Do you help people to know about your events?
-created: YYYY-12-DD 00:08:10
+created: 2014-12-31 00:08:10
 authors:
   - id: 62
     title: Penny Walker

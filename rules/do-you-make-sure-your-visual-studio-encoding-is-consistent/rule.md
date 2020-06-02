@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-sure-your-visual-studio-encoding-is-consistent
 title: Do you make sure your Visual Studio encoding is consistent?
-created: YYYY-01-DD 16:19:13
+created: 2013-01-16 16:19:13
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: data---do-you-not-allow-nulls-in-text-fields
 title: Data - Do you not allow Nulls in text fields?
-created: YYYY-11-DD 00:18:45
+created: 2019-11-23 00:18:45
 authors:
   - id: 1
     title: Adam Cogan

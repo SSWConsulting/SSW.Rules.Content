@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-realize-the-importance-of-a-good-email-subject
 title: Do you realize the importance of a good email Subject?
-created: YYYY-03-DD 04:41:35
+created: 2009-03-24 04:41:35
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-include-the-number-of-results-in-drop-down-list
 title: Do you include the number of results in drop down list?
-created: YYYY-12-DD 19:23:59
+created: 2014-12-12 19:23:59
 authors:
   - id: 1
     title: Adam Cogan

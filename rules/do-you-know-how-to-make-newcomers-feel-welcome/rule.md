@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-make-newcomers-feel-welcome
 title: Do you know how to make newcomers feel welcome?
-created: YYYY-02-DD 04:13:21
+created: 2017-02-16 04:13:21
 authors:
   - id: 62
     title: Penny Walker

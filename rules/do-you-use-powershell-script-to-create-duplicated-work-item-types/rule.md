@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-powershell-script-to-create-duplicated-work-item-types
 title: Do you use PowerShell script to create duplicated work item types?
-created: YYYY-07-DD 07:41:10
+created: 2012-07-18 07:41:10
 authors:
   - id: 10
     title: Lei Xu

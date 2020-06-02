@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-methods-to-remotely-accesscontrol-a-users-pc
 title: Do you know the best methods to remotely access/control a users PC?
-created: YYYY-03-DD 18:11:37
+created: 2018-03-20 18:11:37
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-awesome-documentation
 title: Do you make awesome documentation?
-created: YYYY-03-DD 08:01:26
+created: 2012-03-16 08:01:26
 authors:
   - id: 1
     title: Adam Cogan

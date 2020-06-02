@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-that-what-your-audience-sees-is-as-important-as-your-content
 title: Do you know that what your audience sees is as important as your content?
-created: YYYY-08-DD 19:45:48
+created: 2017-08-14 19:45:48
 authors:
   - id: 1
     title: Adam Cogan

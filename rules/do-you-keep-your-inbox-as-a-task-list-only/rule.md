@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-inbox-as-a-task-list-only
 title: Do you keep your inbox as a task list only?
-created: YYYY-03-DD 03:56:22
+created: 2009-03-23 03:56:22
 authors:
   - id: 1
     title: Adam Cogan

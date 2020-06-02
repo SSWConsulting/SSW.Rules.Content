@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-do-a-critique-of-competitors-websites
 title: Do you do a critique of competitor's websites?
-created: YYYY-02-DD 02:20:04
+created: 2015-02-13 02:20:04
 authors:
 
 ---

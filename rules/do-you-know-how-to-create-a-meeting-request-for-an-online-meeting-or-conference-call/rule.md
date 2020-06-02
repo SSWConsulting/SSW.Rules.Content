@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-create-a-meeting-request-for-an-online-meeting-or-conference-call
 title: Do you know how to create a meeting request for an online meeting or conference call?
-created: YYYY-04-DD 22:04:40
+created: 2012-04-17 22:04:40
 authors:
   - id: 28
     title: Daragh Bannigan

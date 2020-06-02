@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-duplicate-email-content-in-a-calendar-appointment
 title: Do you know to duplicate email content in a calendar appointment?
-created: YYYY-07-DD 00:39:05
+created: 2018-07-12 00:39:05
 authors:
   - id: 1
     title: Adam Cogan

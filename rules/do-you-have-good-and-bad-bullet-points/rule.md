@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-good-and-bad-bullet-points
 title: Do you have good and bad bullet points?
-created: YYYY-06-DD 10:13:26
+created: 2010-06-08 10:13:26
 authors:
   - id: 1
     title: Adam Cogan

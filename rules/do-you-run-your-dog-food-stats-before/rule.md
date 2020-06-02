@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-run-your-dog-food-stats-before
 title: Do you run your dog food stats (before)?
-created: YYYY-08-DD 16:38:41
+created: 2015-08-12 16:38:41
 authors:
 
 ---

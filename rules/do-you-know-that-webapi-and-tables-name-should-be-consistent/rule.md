@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-that-webapi-and-tables-name-should-be-consistent
 title: Do you know that WebAPI and tables name should be consistent?
-created: YYYY-04-DD 13:30:47
+created: 2015-04-28 13:30:47
 authors:
   - id: 1
     title: Adam Cogan

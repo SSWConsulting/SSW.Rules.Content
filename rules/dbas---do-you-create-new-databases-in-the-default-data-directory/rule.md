@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-create-new-databases-in-the-default-data-directory
 title: DBAs - Do you create new databases in the default data directory?
-created: YYYY-11-DD 21:21:30
+created: 2019-11-22 21:21:30
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-follow-up-an-unanswered-email
 title: Do you know how to follow up an unanswered email?
-created: YYYY-03-DD 05:32:41
+created: 2009-03-24 05:32:41
 authors:
   - id: 1
     title: Adam Cogan

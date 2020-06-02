@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-your-page-urls-use-dashes-between-words
 title: Do your page URL’s use dashes between words?
-created: YYYY-12-DD 12:41:13
+created: 2014-12-22 12:41:13
 authors:
   - id: 1
     title: Adam Cogan

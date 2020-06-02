@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-server-side-comments
 title: Do you use server side comments?
-created: YYYY-08-DD 22:29:47
+created: 2016-08-24 22:29:47
 authors:
   - id: 1
     title: Adam Cogan

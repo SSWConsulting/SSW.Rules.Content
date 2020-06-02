@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-cms-solutions-for-your-internetintranet
 title: Do you know the best CMS solutions for your Internet/Intranet?
-created: YYYY-03-DD 08:44:37
+created: 2009-03-10 08:44:37
 authors:
   - id: 1
     title: Adam Cogan

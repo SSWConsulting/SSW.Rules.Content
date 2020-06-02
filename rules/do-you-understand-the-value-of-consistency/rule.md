@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-understand-the-value-of-consistency
 title: Do you understand the value of consistency?
-created: YYYY-02-DD 09:43:28
+created: 2009-02-28 09:43:28
 authors:
   - id: 1
     title: Adam Cogan

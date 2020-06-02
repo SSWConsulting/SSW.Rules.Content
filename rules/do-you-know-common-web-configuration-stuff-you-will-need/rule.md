@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-common-web-configuration-stuff-you-will-need
 title: Do you know common web configuration stuff you will need?
-created: YYYY-06-DD 01:41:30
+created: 2009-06-16 01:41:30
 authors:
   - id: 8
     title: John Liu

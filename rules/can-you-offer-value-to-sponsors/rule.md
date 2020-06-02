@@ -1,9 +1,7 @@
-
-
 ---
 uri: can-you-offer-value-to-sponsors
 title: Can you offer value to sponsors?
-created: YYYY-12-DD 00:10:46
+created: 2014-12-31 00:10:46
 authors:
 
 ---

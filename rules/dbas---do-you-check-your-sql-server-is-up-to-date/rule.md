@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-check-your-sql-server-is-up-to-date
 title: DBAs - Do you check your SQL Server is up-to-date?
-created: YYYY-11-DD 18:33:24
+created: 2019-11-18 18:33:24
 authors:
   - id: 1
     title: Adam Cogan

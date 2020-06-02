@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-adaptive-placeholders-on-your-forms
 title: Do you use adaptive placeholders on your forms?
-created: YYYY-10-DD 16:23:39
+created: 2017-10-06 16:23:39
 authors:
   - id: 1
     title: Adam Cogan

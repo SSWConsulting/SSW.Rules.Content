@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-manage-windows-update-services-through-virtual-machine-manager-vmm
 title: Do you manage Windows Update Services through Virtual Machine manager (VMM)?
-created: YYYY-10-DD 23:27:29
+created: 2019-10-17 23:27:29
 authors:
   - id: 73
     title: Kaique Biancatti

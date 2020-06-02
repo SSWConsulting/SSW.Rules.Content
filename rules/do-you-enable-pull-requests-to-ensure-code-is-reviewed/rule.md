@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-enable-pull-requests-to-ensure-code-is-reviewed
 title: Do you enable pull requests to ensure code is reviewed?
-created: YYYY-12-DD 12:52:43
+created: 2016-12-12 12:52:43
 authors:
   - id: 1
     title: Adam Cogan

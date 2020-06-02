@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-fields-with-multiple-key-indexes-upsizing-problem
 title: Do you have fields with multiple key indexes (Upsizing Problem)?
-created: YYYY-07-DD 03:09:31
+created: 2010-07-23 03:09:31
 authors:
   - id: 1
     title: Adam Cogan

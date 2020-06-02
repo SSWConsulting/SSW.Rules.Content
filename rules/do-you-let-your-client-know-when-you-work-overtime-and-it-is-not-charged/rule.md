@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-let-your-client-know-when-you-work-overtime-and-it-is-not-charged
 title: Do you let your client know when you work overtime and it is not charged?
-created: YYYY-07-DD 06:39:21
+created: 2010-07-16 06:39:21
 authors:
 
 ---

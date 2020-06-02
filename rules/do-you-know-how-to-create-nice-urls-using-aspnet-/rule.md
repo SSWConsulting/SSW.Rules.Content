@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-create-nice-urls-using-aspnet-
 title: Do you know how to create nice URLs using ASP.NET 4?
-created: YYYY-08-DD 02:07:36
+created: 2009-08-24 02:07:36
 authors:
   - id: 1
     title: Adam Cogan

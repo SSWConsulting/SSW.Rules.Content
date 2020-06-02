@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-avoid-problems-in-if-statements
 title: Do you know how to avoid problems in if-statements?
-created: YYYY-04-DD 22:00:00
+created: 2018-04-24 22:00:00
 authors:
   - id: 1
     title: Adam Cogan

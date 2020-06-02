@@ -1,9 +1,7 @@
-
-
 ---
 uri: popup---do-you-know-when-popup-forms-are-good
 title: Popup - Do you know when Popup forms are good?
-created: YYYY-11-DD 04:19:40
+created: 2012-11-27 04:19:40
 authors:
 
 ---

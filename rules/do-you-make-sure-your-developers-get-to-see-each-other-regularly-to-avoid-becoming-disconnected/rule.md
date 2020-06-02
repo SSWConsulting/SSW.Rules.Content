@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-sure-your-developers-get-to-see-each-other-regularly-to-avoid-becoming-disconnected
 title: Do you make sure your developers get to see each other regularly to avoid becoming disconnected?
-created: YYYY-01-DD 04:26:22
+created: 2016-01-19 04:26:22
 authors:
   - id: 4
     title: Ulysses Maclaren

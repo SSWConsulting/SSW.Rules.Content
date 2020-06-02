@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-package-managers-appropriately
 title: Do you use package managers appropriately?
-created: YYYY-04-DD 21:33:33
+created: 2016-04-28 21:33:33
 authors:
   - id: 55
     title: Steve Leigh

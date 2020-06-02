@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-bmps-for-the-internet-at-all-times
 title: Do you avoid BMPs for the Internet at all times?
-created: YYYY-10-DD 00:25:20
+created: 2015-10-13 00:25:20
 authors:
 
 ---

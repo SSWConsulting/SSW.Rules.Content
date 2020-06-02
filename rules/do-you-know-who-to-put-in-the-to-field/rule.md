@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-who-to-put-in-the-to-field
 title: Do you know who to put in the "To:" field?
-created: YYYY-04-DD 06:51:05
+created: 2011-04-25 06:51:05
 authors:
   - id: 14
     title: Martin Hinshelwood

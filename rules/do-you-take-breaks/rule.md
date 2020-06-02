@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-take-breaks
 title: Do you take breaks?
-created: YYYY-03-DD 01:36:42
+created: 2020-03-20 01:36:42
 authors:
   - id: 1
     title: Adam Cogan

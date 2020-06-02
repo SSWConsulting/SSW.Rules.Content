@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-bundle-and-minify-your-javascript
 title: Do you bundle and minify your JavaScript?
-created: YYYY-07-DD 17:35:19
+created: 2012-07-18 17:35:19
 authors:
   - id: 1
     title: Adam Cogan

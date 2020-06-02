@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-maintain-productivity
 title: Do you know how to maintain productivity?
-created: YYYY-03-DD 23:43:28
+created: 2020-03-25 23:43:28
 authors:
   - id: 62
     title: Penny Walker

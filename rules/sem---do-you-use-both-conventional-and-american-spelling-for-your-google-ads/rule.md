@@ -1,9 +1,7 @@
-
-
 ---
 uri: sem---do-you-use-both-conventional-and-american-spelling-for-your-google-ads
 title: SEM - Do you use both conventional and American spelling for your Google Ads?
-created: YYYY-10-DD 19:05:05
+created: 2014-10-13 19:05:05
 authors:
   - id: 4
     title: Ulysses Maclaren

@@ -1,9 +1,7 @@
-
-
 ---
 uri: long-process---do-you-know-that-long-running-processes-should-allow-to-skip-the-processing-when-appropriate
 title: Long Process - Do you know that long-running processes should allow to 'Skip' the processing (when appropriate)?
-created: YYYY-11-DD 03:01:02
+created: 2012-11-27 03:01:02
 authors:
 
 ---

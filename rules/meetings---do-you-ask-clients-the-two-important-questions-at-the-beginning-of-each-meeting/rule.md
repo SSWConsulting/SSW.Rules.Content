@@ -1,9 +1,7 @@
-
-
 ---
 uri: meetings---do-you-ask-clients-the-two-important-questions-at-the-beginning-of-each-meeting
 title: Meetings - Do you ask clients the two important questions at the beginning of each meeting?
-created: YYYY-07-DD 06:26:46
+created: 2010-07-16 06:26:46
 authors:
 
 ---

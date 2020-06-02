@@ -1,9 +1,7 @@
-
-
 ---
 uri: dbas---do-you-know-the-compatibility-issues-between-sql-server--and-
 title: DBAs - Do you know the compatibility issues between SQL Server 2000 and 2005?
-created: YYYY-11-DD 21:30:50
+created: 2019-11-22 21:30:50
 authors:
   - id: 1
     title: Adam Cogan

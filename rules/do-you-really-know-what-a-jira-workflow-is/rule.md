@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-really-know-what-a-jira-workflow-is
 title: Do you really know what a Jira Workflow is?
-created: YYYY-08-DD 00:29:49
+created: 2009-08-27 00:29:49
 authors:
 
 ---

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-system-up-to-date
 title: Do you keep your system up to date?
-created: YYYY-10-DD 03:59:04
+created: 2014-10-27 03:59:04
 authors:
   - id: 1
     title: Adam Cogan

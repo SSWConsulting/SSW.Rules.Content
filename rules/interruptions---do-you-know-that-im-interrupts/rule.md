@@ -1,9 +1,7 @@
-
-
 ---
 uri: interruptions---do-you-know-that-im-interrupts
 title: Interruptions - Do you know that IM interrupts?
-created: YYYY-10-DD 01:30:56
+created: 2015-10-05 01:30:56
 authors:
   - id: 1
     title: Adam Cogan

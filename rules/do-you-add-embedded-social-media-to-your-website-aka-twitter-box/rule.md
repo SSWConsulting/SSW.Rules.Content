@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-embedded-social-media-to-your-website-aka-twitter-box
 title: Do you add embedded social media to your website (aka Twitter Box)?
-created: YYYY-04-DD 21:05:19
+created: 2015-04-27 21:05:19
 authors:
   - id: 1
     title: Adam Cogan

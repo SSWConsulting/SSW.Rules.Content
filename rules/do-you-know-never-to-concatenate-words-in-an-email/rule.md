@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-never-to-concatenate-words-in-an-email
 title: Do you know NEVER to concatenate words in an email?
-created: YYYY-08-DD 14:29:54
+created: 2010-08-19 14:29:54
 authors:
   - id: 14
     title: Martin Hinshelwood

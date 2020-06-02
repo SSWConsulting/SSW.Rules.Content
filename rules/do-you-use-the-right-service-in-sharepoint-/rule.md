@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-right-service-in-sharepoint-
 title: Do you use the right service in SharePoint 2013
-created: YYYY-08-DD 06:31:48
+created: 2013-08-27 06:31:48
 authors:
   - id: 35
     title: Brian Farnhill

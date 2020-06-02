@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-create-a-deployment-batch-file-and-setparameters-file-for-each-environment
 title: Do you Create a Deployment Batch file and SetParameters file for each Environment?
-created: YYYY-02-DD 18:52:13
+created: 2013-02-06 18:52:13
 authors:
   - id: 24
     title: Adam Stephensen

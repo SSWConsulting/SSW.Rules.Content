@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-email-subscriptions-to-get-the-reports-you-need-in-your-inbox
 title: Do you use Email Subscriptions to get the reports you need in your inbox?
-created: YYYY-06-DD 21:14:51
+created: 2017-06-27 21:14:51
 authors:
   - id: 1
     title: Adam Cogan

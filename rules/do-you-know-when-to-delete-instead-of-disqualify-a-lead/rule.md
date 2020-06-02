@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-delete-instead-of-disqualify-a-lead
 title: Do you know when to delete instead of disqualify a lead?
-created: YYYY-12-DD 16:57:46
+created: 2012-12-07 16:57:46
 authors:
   - id: 1
     title: Adam Cogan

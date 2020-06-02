@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-your-pages-easy-to-access
 title: Do you make your pages easy to access?
-created: YYYY-02-DD 02:01:29
+created: 2015-02-16 02:01:29
 authors:
 
 ---

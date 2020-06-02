@@ -1,9 +1,7 @@
-
-
 ---
 uri: does-your-applications-interface-fit-in-a-small-screen-resolution
 title: Does your application's interface fit in a small screen resolution?
-created: YYYY-11-DD 02:02:11
+created: 2012-11-27 02:02:11
 authors:
 
 ---

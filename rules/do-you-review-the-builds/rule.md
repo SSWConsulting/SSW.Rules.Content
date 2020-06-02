@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-review-the-builds
 title: Do you review the Builds?
-created: YYYY-04-DD 10:14:24
+created: 2012-04-01 10:14:24
 authors:
   - id: 1
     title: Adam Cogan

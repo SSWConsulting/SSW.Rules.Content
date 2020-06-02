@@ -1,9 +1,7 @@
-
-
 ---
 uri: how-do-you-deploy-sharepoint
 title: How do you deploy SharePoint?
-created: YYYY-03-DD 00:44:00
+created: 2009-03-30 00:44:00
 authors:
 
 ---

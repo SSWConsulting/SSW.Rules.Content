@@ -1,9 +1,7 @@
-
-
 ---
 uri: have-you-considered-sharepoint--for-internet-sites-license
 title: Have you considered SharePoint 2010 for Internet Sites license?
-created: YYYY-12-DD 05:32:34
+created: 2009-12-09 05:32:34
 authors:
   - id: 8
     title: John Liu

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-link-your-customers-in-crm-to-their-respective-teams
 title: Do you link your customers in CRM to their respective Teams?
-created: YYYY-03-DD 21:55:12
+created: 2020-03-27 21:55:12
 authors:
   - id: 69
     title: Jean Thirion

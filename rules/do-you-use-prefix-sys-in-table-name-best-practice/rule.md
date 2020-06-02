@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-prefix-sys-in-table-name-best-practice
 title: Do you use prefix sys in table name (Best Practice)?
-created: YYYY-07-DD 02:47:37
+created: 2010-07-23 02:47:37
 authors:
   - id: 1
     title: Adam Cogan

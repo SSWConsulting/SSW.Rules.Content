@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-chase-your-product-owner-before-he-has-to-chase-you-eg-asking-for-clarification
 title: Communication - Do you chase your Product Owner before he has to chase you? (E.g. Asking for clarification)
-created: YYYY-09-DD 17:49:03
+created: 2012-09-25 17:49:03
 authors:
   - id: 1
     title: Adam Cogan

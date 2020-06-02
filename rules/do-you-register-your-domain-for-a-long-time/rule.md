@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-register-your-domain-for-a-long-time
 title: Do you register your domain for a long time?
-created: YYYY-11-DD 20:01:21
+created: 2015-11-10 20:01:21
 authors:
   - id: 1
     title: Adam Cogan

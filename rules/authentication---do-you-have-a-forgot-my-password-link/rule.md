@@ -1,9 +1,7 @@
-
-
 ---
 uri: authentication---do-you-have-a-forgot-my-password-link
 title: Authentication - Do you have a 'Forgot my password' link?
-created: YYYY-12-DD 20:10:16
+created: 2014-12-11 20:10:16
 authors:
   - id: 1
     title: Adam Cogan

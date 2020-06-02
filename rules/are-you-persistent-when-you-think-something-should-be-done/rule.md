@@ -1,9 +1,7 @@
-
-
 ---
 uri: are-you-persistent-when-you-think-something-should-be-done
 title: Are you persistent when you think something should be done?
-created: YYYY-07-DD 04:37:16
+created: 2010-07-16 04:37:16
 authors:
 
 ---

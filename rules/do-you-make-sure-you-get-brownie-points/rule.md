@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-sure-you-get-brownie-points
 title: Do you make sure you get brownie points?
-created: YYYY-07-DD 06:39:45
+created: 2010-07-16 06:39:45
 authors:
   - id: 1
     title: Adam Cogan

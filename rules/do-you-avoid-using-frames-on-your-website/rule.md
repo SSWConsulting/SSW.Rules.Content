@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-frames-on-your-website
 title: Do you avoid using frames on your website?
-created: YYYY-11-DD 19:08:07
+created: 2015-11-10 19:08:07
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: setup---do-you-have-a-dedicated-working-space
 title: Setup - Do you have a dedicated working space?
-created: YYYY-03-DD 01:31:43
+created: 2020-03-20 01:31:43
 authors:
   - id: 1
     title: Adam Cogan

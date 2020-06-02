@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-present-the-user-with-a-nice-error-screen-web-only
 title: Do you present the user with a nice error screen? (Web Only)
-created: YYYY-09-DD 21:08:47
+created: 2013-09-11 21:08:47
 authors:
   - id: 1
     title: Adam Cogan

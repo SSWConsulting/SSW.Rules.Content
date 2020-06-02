@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-sure-all-software-uses-english-language-setting
 title: Do you make sure all software uses English (Language setting)?
-created: YYYY-03-DD 06:16:19
+created: 2016-03-22 06:16:19
 authors:
   - id: 9
     title: William Yin

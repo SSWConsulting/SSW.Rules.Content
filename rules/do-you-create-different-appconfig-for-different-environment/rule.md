@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-create-different-appconfig-for-different-environment
 title: Do You Create Different App.Config for Different Environment?
-created: YYYY-12-DD 05:23:58
+created: 2009-12-10 05:23:58
 authors:
   - id: 11
     title: Andy Taslim

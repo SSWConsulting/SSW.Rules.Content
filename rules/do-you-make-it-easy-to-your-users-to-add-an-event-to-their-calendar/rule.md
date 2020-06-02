@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 title: Do you make it easy to your users to add an event to their calendar?
-created: YYYY-12-DD 19:56:44
+created: 2014-12-12 19:56:44
 authors:
   - id: 1
     title: Adam Cogan

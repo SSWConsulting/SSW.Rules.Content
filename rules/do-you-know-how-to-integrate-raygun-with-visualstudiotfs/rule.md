@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-integrate-raygun-with-visualstudiotfs
 title: Do you know how to integrate RayGun with VisualStudio/TFS?
-created: YYYY-10-DD 17:10:27
+created: 2016-10-25 17:10:27
 authors:
   - id: 3
     title: Eric Phan

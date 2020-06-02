@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-distributed-file-system-for-your-file-shares
 title: Do you use the Distributed File System for your file shares?
-created: YYYY-07-DD 21:18:15
+created: 2017-07-10 21:18:15
 authors:
   - id: 1
     title: Adam Cogan

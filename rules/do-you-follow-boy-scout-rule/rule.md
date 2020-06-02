@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-follow-boy-scout-rule
 title: Do you follow boy scout rule?
-created: YYYY-04-DD 22:01:51
+created: 2018-04-30 22:01:51
 authors:
   - id: 1
     title: Adam Cogan

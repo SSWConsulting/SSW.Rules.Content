@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-reference-websites-when-you-implement-something-you-found-on-google
 title: Do you reference websites when you implement something you found on Google?
-created: YYYY-04-DD 22:18:56
+created: 2018-04-26 22:18:56
 authors:
   - id: 1
     title: Adam Cogan

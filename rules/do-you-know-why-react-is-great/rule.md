@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-react-is-great
 title: Do you know why React is great?
-created: YYYY-05-DD 14:13:53
+created: 2019-05-06 14:13:53
 authors:
   - id: 80
     title: Shane Ye

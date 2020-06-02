@@ -1,9 +1,7 @@
-
-
 ---
 uri: middle-tier---do-you-submit-all-dates-to-sql-server-in-iso-format
 title: Middle Tier - Do you submit all dates to SQL Server in ISO format?
-created: YYYY-11-DD 22:25:52
+created: 2019-11-14 22:25:52
 authors:
   - id: 1
     title: Adam Cogan

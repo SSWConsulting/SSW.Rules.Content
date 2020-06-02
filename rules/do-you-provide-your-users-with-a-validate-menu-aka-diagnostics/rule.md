@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-your-users-with-a-validate-menu-aka-diagnostics
 title: Do you provide your users with a Validate Menu (aka Diagnostics)?
-created: YYYY-02-DD 01:59:41
+created: 2009-02-25 01:59:41
 authors:
   - id: 1
     title: Adam Cogan

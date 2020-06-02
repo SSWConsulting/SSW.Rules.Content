@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-make-yourself-accessible
 title: Communication - Do you make yourself accessible?
-created: YYYY-03-DD 23:24:43
+created: 2020-03-25 23:24:43
 authors:
   - id: 62
     title: Penny Walker

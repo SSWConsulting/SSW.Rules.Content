@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-set-up-application-insights-in-sharepoint
 title: Do you know how to set up Application Insights (in SharePoint)?
-created: YYYY-09-DD 00:28:34
+created: 2015-09-01 00:28:34
 authors:
   - id: 9
     title: William Yin

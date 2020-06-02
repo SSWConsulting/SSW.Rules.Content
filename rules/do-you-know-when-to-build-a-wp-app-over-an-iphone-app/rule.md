@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-build-a-wp-app-over-an-iphone-app
 title: Do you know when to build a WP app over an iPhone app?
-created: YYYY-11-DD 23:57:57
+created: 2014-11-25 23:57:57
 authors:
 
 ---

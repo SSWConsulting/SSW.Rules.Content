@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-seek-clarification-via-the-telephone-first
 title: Do you seek clarification via the telephone first?
-created: YYYY-03-DD 05:31:48
+created: 2009-03-25 05:31:48
 authors:
   - id: 1
     title: Adam Cogan

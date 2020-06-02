@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ask-for-content-changes-using-from-x-to-y
 title: Do you ask for content changes using from X to Y?
-created: YYYY-03-DD 04:50:21
+created: 2009-03-25 04:50:21
 authors:
   - id: 1
     title: Adam Cogan

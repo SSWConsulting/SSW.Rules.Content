@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
 title: Do you know that it's bad to win the fight, but lose the customer?
-created: YYYY-07-DD 06:49:58
+created: 2010-07-16 06:49:58
 authors:
   - id: 1
     title: Adam Cogan

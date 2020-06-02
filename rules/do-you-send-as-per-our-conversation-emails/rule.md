@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-send-as-per-our-conversation-emails
 title: Do you send "As Per Our Conversation" emails?
-created: YYYY-08-DD 06:58:46
+created: 2009-08-18 06:58:46
 authors:
   - id: 1
     title: Adam Cogan

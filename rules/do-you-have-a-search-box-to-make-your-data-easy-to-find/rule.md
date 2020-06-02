@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-search-box-to-make-your-data-easy-to-find
 title: Do you have a "search box" to make your data easy to find?
-created: YYYY-11-DD 01:48:43
+created: 2012-11-27 01:48:43
 authors:
 
 ---

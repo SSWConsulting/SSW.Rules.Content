@@ -1,9 +1,7 @@
-
-
 ---
 uri: stored-procedures---do-you-avoid-starting-user-stored-procedures-with-system-prefix-sp_-or-dt_
 title: Stored Procedures - Do you avoid starting user stored procedures with system prefix "sp_" or "dt_"?
-created: YYYY-11-DD 22:38:15
+created: 2019-11-12 22:38:15
 authors:
   - id: 1
     title: Adam Cogan

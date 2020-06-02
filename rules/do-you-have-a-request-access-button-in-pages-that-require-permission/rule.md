@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-request-access-button-in-pages-that-require-permission
 title: Do you have a "request access" button in pages that require permission?
-created: YYYY-02-DD 21:58:16
+created: 2017-02-20 21:58:16
 authors:
   - id: 1
     title: Adam Cogan

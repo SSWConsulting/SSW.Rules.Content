@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-way-to-learn
 title: Do you know the Best Way to Learn?
-created: YYYY-06-DD 22:30:24
+created: 2016-06-08 22:30:24
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-startup-tasks-in-the-app_start-folder-instead-of-putting-code-in-globalasax
 title: Do you use startup tasks in the ~/App_Start folder instead of putting code in Global.asax?
-created: YYYY-03-DD 18:37:31
+created: 2013-03-07 18:37:31
 authors:
   - id: 23
     title: Damian Brady

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-your-network-hardware-reliable
 title: Do you keep your network hardware reliable?
-created: YYYY-07-DD 20:50:02
+created: 2017-07-10 20:50:02
 authors:
   - id: 47
     title: Stanley Sidik

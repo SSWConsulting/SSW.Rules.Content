@@ -1,9 +1,7 @@
-
-
 ---
 uri: stored-procedures---do-you-avoid-using-select--when-inserting-data
 title: Stored Procedures - Do you avoid using SELECT * when inserting data?
-created: YYYY-11-DD 23:04:20
+created: 2019-11-12 23:04:20
 authors:
   - id: 1
     title: Adam Cogan

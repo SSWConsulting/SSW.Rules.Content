@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-apply-all-hotfixes-to-server-after-migration
 title: Do you apply all hotfixes to server after migration
-created: YYYY-11-DD 07:56:51
+created: 2013-11-11 07:56:51
 authors:
   - id: 32
     title: Mehmet Ozdemir

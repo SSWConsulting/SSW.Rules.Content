@@ -1,9 +1,7 @@
-
-
 ---
 uri: schema---do-you-know-the-maximum-row-size-for-a-table
 title: Schema - Do you know the maximum row size for a table?
-created: YYYY-11-DD 23:20:11
+created: 2019-11-05 23:20:11
 authors:
   - id: 1
     title: Adam Cogan

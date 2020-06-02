@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-correct-rule-structure
 title: Do you use the correct Rule structure?
-created: YYYY-03-DD 23:41:03
+created: 2010-03-18 23:41:03
 authors:
 
 ---

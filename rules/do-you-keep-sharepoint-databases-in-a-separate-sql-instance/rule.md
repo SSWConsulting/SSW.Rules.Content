@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-keep-sharepoint-databases-in-a-separate-sql-instance
 title: Do you keep SharePoint databases in a separate SQL instance?
-created: YYYY-06-DD 23:34:07
+created: 2018-06-25 23:34:07
 authors:
   - id: 1
     title: Adam Cogan

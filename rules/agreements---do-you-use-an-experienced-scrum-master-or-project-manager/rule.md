@@ -1,9 +1,7 @@
-
-
 ---
 uri: agreements---do-you-use-an-experienced-scrum-master-or-project-manager
 title: Agreements - Do you use an experienced Scrum Master (or Project Manager)?
-created: YYYY-05-DD 10:43:28
+created: 2010-05-20 10:43:28
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-animate-your-summary-slide
 title: Do you know to animate your summary slide
-created: YYYY-08-DD 20:14:22
+created: 2016-08-09 20:14:22
 authors:
   - id: 24
     title: Adam Stephensen

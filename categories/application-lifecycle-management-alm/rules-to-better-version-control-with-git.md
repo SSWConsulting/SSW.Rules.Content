@@ -1,4 +1,3 @@
-
 ---
 type: category
 title: Rules to Better Version Control with Git

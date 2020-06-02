@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-look-for-large-strings-in-code
 title: Do you look for large strings in code?
-created: YYYY-04-DD 09:17:55
+created: 2012-04-01 09:17:55
 authors:
   - id: 1
     title: Adam Cogan

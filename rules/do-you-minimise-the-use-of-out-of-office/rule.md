@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-minimise-the-use-of-out-of-office
 title: Do you minimise the use of Out of Office?
-created: YYYY-04-DD 08:48:34
+created: 2009-04-03 08:48:34
 authors:
   - id: 1
     title: Adam Cogan

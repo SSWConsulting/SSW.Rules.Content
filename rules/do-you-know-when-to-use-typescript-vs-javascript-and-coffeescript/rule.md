@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript
 title: Do you know when to use TypeScript (vs JavaScript and CoffeeScript)?
-created: YYYY-08-DD 15:13:31
+created: 2013-08-27 15:13:31
 authors:
   - id: 3
     title: Eric Phan

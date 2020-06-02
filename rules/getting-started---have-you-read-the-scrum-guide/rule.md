@@ -1,9 +1,7 @@
-
-
 ---
 uri: getting-started---have-you-read-the-scrum-guide
 title: Getting Started - Have you read the Scrum guide?
-created: YYYY-08-DD 06:42:01
+created: 2010-08-02 06:42:01
 authors:
 
 ---

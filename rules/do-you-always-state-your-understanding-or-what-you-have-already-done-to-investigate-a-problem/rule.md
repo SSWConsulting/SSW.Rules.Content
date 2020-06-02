@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-always-state-your-understanding-or-what-you-have-already-done-to-investigate-a-problem
 title: Do you always state your understanding or what you have already done to investigate a problem?
-created: YYYY-07-DD 06:35:43
+created: 2010-07-16 06:35:43
 authors:
   - id: 1
     title: Adam Cogan

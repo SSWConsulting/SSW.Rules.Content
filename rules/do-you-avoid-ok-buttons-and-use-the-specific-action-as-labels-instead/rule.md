@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
 title: Do you avoid “OK” buttons and use the specific action as labels instead?
-created: YYYY-12-DD 20:22:02
+created: 2014-12-10 20:22:02
 authors:
   - id: 1
     title: Adam Cogan

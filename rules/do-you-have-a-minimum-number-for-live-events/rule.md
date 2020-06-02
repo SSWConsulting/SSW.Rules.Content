@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-minimum-number-for-live-events
 title: Do you have a minimum number for live events
-created: YYYY-02-DD 06:01:25
+created: 2016-02-26 06:01:25
 authors:
   - id: 30
     title: Marlon Marescia

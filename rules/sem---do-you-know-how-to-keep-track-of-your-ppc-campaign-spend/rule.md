@@ -1,9 +1,7 @@
-
-
 ---
 uri: sem---do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
 title: SEM - Do you know how to keep track of your PPC campaign spend?
-created: YYYY-10-DD 21:32:14
+created: 2015-10-19 21:32:14
 authors:
   - id: 30
     title: Marlon Marescia

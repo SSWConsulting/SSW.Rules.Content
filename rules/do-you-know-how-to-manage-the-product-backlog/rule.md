@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-manage-the-product-backlog
 title: Do you know how to manage the Product Backlog?
-created: YYYY-09-DD 18:33:17
+created: 2013-09-10 18:33:17
 authors:
   - id: 1
     title: Adam Cogan

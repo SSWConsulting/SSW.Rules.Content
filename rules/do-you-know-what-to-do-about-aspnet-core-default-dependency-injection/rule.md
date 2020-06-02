@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-to-do-about-aspnet-core-default-dependency-injection
 title: Do you know what to do about ASP.NET Core default dependency injection?
-created: YYYY-02-DD 00:28:15
+created: 2016-02-05 00:28:15
 authors:
   - id: 40
     title: Igor Goldobin

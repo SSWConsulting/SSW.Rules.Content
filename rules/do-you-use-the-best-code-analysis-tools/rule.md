@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-the-best-code-analysis-tools
 title: Do you use the best Code Analysis tools?
-created: YYYY-03-DD 08:43:44
+created: 2012-03-16 08:43:44
 authors:
   - id: 1
     title: Adam Cogan

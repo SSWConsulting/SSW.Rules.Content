@@ -1,9 +1,7 @@
-
-
 ---
 uri: communication---do-you-ask-questions-when-youre-stuck
 title: Communication - Do you ask questions when you're stuck?
-created: YYYY-09-DD 17:58:29
+created: 2012-09-25 17:58:29
 authors:
   - id: 1
     title: Adam Cogan

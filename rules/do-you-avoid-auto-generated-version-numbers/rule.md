@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-auto-generated-version-numbers
 title: Do you avoid auto generated version numbers?
-created: YYYY-05-DD 23:16:46
+created: 2016-05-30 23:16:46
 authors:
 
 ---

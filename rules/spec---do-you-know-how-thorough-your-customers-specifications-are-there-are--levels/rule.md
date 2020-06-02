@@ -1,9 +1,7 @@
-
-
 ---
 uri: spec---do-you-know-how-thorough-your-customers-specifications-are-there-are--levels
 title: Spec - Do you know how thorough your customer's specifications are? (There are 5 levels)
-created: YYYY-02-DD 08:25:37
+created: 2011-02-28 08:25:37
 authors:
   - id: 3
     title: Eric Phan

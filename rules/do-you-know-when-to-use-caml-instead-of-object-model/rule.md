@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-to-use-caml-instead-of-object-model
 title: Do you know when to use CAML instead of object model?
-created: YYYY-04-DD 06:10:00
+created: 2009-04-09 06:10:00
 authors:
   - id: 8
     title: John Liu

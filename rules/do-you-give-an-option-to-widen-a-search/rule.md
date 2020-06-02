@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-give-an-option-to-widen-a-search
 title: Do you give an option to widen a search?
-created: YYYY-09-DD 06:04:33
+created: 2015-09-08 06:04:33
 authors:
   - id: 1
     title: Adam Cogan

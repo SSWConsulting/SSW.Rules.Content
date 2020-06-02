@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-azure-policies
 title: Do you use Azure Policies?
-created: YYYY-12-DD 22:10:23
+created: 2019-12-23 22:10:23
 authors:
   - id: 1
     title: Adam Cogan

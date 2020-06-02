@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-limiting-source-control-to-just-code
 title: Do you avoid limiting source control to just code?
-created: YYYY-11-DD 03:52:55
+created: 2011-11-18 03:52:55
 authors:
   - id: 22
     title: David Klein

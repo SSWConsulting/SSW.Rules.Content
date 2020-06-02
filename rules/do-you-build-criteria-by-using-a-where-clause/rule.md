@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-build-criteria-by-using-a-where-clause
 title: Do you build criteria by using a where clause?
-created: YYYY-11-DD 17:07:12
+created: 2016-11-16 17:07:12
 authors:
   - id: 1
     title: Adam Cogan

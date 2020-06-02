@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-learning-resources-for-angular
 title: Do you know the best learning resources for Angular?
-created: YYYY-02-DD 14:02:35
+created: 2016-02-19 14:02:35
 authors:
   - id: 24
     title: Adam Stephensen

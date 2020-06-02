@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-tests-for-performance
 title: Do you have tests for Performance?
-created: YYYY-03-DD 19:58:01
+created: 2020-03-12 19:58:01
 authors:
   - id: 1
     title: Adam Cogan

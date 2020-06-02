@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-not-to-assume-the-worst-of-peoples-intentions
 title: Do you know not to assume the worst of peoples intentions?
-created: YYYY-03-DD 19:16:39
+created: 2018-03-14 19:16:39
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-a-counter
 title: Do you avoid using a Counter?
-created: YYYY-02-DD 02:50:11
+created: 2015-02-13 02:50:11
 authors:
 
 ---

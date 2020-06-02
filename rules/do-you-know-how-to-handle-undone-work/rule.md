@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-handle-undone-work
 title: Do you know how to handle Undone Work?
-created: YYYY-07-DD 19:28:00
+created: 2014-07-24 19:28:00
 authors:
 
 ---

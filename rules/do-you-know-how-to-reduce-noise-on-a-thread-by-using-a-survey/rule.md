@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 title: Do you know how to reduce noise on a thread by using a survey?
-created: YYYY-07-DD 07:30:13
+created: 2015-07-03 07:30:13
 authors:
   - id: 1
     title: Adam Cogan

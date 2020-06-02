@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-inherit-value-of-styledisplay
 title: Do you avoid using "inherit" value of style.display?
-created: YYYY-12-DD 10:35:22
+created: 2010-12-02 10:35:22
 authors:
 
 ---

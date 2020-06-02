@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-your-controls-autopostback
 title: Do your controls autopostback?
-created: YYYY-02-DD 02:52:40
+created: 2015-02-16 02:52:40
 authors:
 
 ---

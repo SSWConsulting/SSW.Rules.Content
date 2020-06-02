@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-present-project-proposals-as-lots-of-little-releases-rather-than-one-big-price
 title: Do you present project proposals as lots of little releases rather than one big price?
-created: YYYY-08-DD 13:01:29
+created: 2012-08-30 13:01:29
 authors:
   - id: 1
     title: Adam Cogan

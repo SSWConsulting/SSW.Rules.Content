@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-visual-studio-extensions-and-nuget-packages-for-angularjs
 title: Do you know the best Visual Studio Extensions and NuGet Packages for AngularJS?
-created: YYYY-10-DD 22:59:31
+created: 2014-10-30 22:59:31
 authors:
   - id: 44
     title: Duncan Hunter

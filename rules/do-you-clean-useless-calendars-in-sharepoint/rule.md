@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-clean-useless-calendars-in-sharepoint
 title: Do you clean useless calendars in SharePoint?
-created: YYYY-09-DD 23:49:53
+created: 2013-09-05 23:49:53
 authors:
   - id: 9
     title: William Yin

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-introduce-yourself-correctly
 title: Do you know how to introduce yourself correctly?
-created: YYYY-06-DD 21:00:57
+created: 2018-06-08 21:00:57
 authors:
   - id: 1
     title: Adam Cogan

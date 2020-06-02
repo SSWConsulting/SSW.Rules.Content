@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
 title: Do you know what type of content marketing you should post on your socials?
-created: YYYY-02-DD 00:04:31
+created: 2020-02-12 00:04:31
 authors:
   - id: 83
     title: Camilla Rosa Silva

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-anchor-should-run-at-server
 title: Do you know when anchor should "run at server"?
-created: YYYY-08-DD 22:33:39
+created: 2016-08-24 22:33:39
 authors:
   - id: 1
     title: Adam Cogan

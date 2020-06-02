@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-find-broken-links
 title: Do you know how to find broken links?
-created: YYYY-11-DD 19:04:17
+created: 2016-11-28 19:04:17
 authors:
   - id: 1
     title: Adam Cogan

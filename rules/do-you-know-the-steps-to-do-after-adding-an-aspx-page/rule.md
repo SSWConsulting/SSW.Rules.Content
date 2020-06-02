@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-steps-to-do-after-adding-an-aspx-page
 title: Do you know the steps to do after adding an ASPX page?
-created: YYYY-07-DD 18:03:10
+created: 2016-07-29 18:03:10
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-using-magic-string-when-referencing-propertyvariable-names
 title: Do you avoid using magic string when referencing property/variable names
-created: YYYY-01-DD 05:00:13
+created: 2020-01-29 05:00:13
 authors:
   - id: 1
     title: Adam Cogan

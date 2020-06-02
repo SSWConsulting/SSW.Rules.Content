@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-declare-variables-when-you-need-them
 title: Do you declare variables when you need them?
-created: YYYY-04-DD 21:55:53
+created: 2018-04-24 21:55:53
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-perform-a-background-check
 title: Do you perform a background check?
-created: YYYY-08-DD 12:56:50
+created: 2012-08-30 12:56:50
 authors:
   - id: 1
     title: Adam Cogan

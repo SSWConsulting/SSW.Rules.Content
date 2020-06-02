@@ -1,9 +1,7 @@
-
-
 ---
 uri: product-owner---do-you-know-how-to-update-the-backlog
 title: Product Owner - Do you know how to update the backlog?
-created: YYYY-09-DD 15:18:19
+created: 2010-09-15 15:18:19
 authors:
   - id: 14
     title: Martin Hinshelwood

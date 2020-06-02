@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-what-to-do-when-asked-to-sign-an-nda
 title: Do you know what to do when asked to sign an NDA?
-created: YYYY-01-DD 04:50:39
+created: 2016-01-08 04:50:39
 authors:
   - id: 4
     title: Ulysses Maclaren

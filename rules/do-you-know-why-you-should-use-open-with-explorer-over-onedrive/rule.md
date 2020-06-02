@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-why-you-should-use-open-with-explorer-over-onedrive
 title: Do you know why you should use "Open with Explorer" over OneDrive?
-created: YYYY-08-DD 20:29:13
+created: 2013-08-12 20:29:13
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-refer-to-images-the-correct-way-in-asp-net
 title: Do you refer to images the correct way in ASP .NET?
-created: YYYY-04-DD 02:35:45
+created: 2009-04-28 02:35:45
 authors:
   - id: 1
     title: Adam Cogan

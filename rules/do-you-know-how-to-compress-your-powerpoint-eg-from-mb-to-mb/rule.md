@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-compress-your-powerpoint-eg-from-mb-to-mb
 title: Do you know how to compress your PowerPoint, e.g. from 26MB to 13MB?
-created: YYYY-10-DD 06:40:05
+created: 2016-10-14 06:40:05
 authors:
 
 ---

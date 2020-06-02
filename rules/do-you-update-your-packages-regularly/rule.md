@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-update-your-packages-regularly
 title: Do you update your packages regularly?
-created: YYYY-11-DD 18:18:39
+created: 2014-11-27 18:18:39
 authors:
   - id: 34
     title: Brendan Richards

@@ -1,9 +1,7 @@
-
-
 ---
 uri: tfs-master---do-you-have-a-report-to-see-who-has-not-checked-in
 title: TFS Master - Do you have a report to see who has not checked in?
-created: YYYY-11-DD 03:52:29
+created: 2011-11-18 03:52:29
 authors:
   - id: 22
     title: David Klein

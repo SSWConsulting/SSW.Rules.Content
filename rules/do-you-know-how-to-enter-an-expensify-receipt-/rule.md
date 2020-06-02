@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-enter-an-expensify-receipt-
 title: Do you know how to enter an Expensify receipt ?
-created: YYYY-08-DD 21:06:14
+created: 2017-08-02 21:06:14
 authors:
   - id: 24
     title: Adam Stephensen

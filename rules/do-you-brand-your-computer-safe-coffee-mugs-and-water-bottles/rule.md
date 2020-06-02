@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-brand-your-computer-safe-coffee-mugs-and-water-bottles
 title: Do you brand your (computer safe) coffee mugs and water bottles?
-created: YYYY-11-DD 18:47:49
+created: 2015-11-24 18:47:49
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-separate-javascript-functionality-aka-unobtrusive-javascript
 title: Do you separate JavaScript functionality (AKA Unobtrusive JavaScript)?
-created: YYYY-07-DD 18:09:29
+created: 2012-07-24 18:09:29
 authors:
   - id: 16
     title: Tiago Araujo

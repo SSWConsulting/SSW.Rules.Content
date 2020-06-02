@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-dynamic-application-loading-in-silverlight
 title: Do you use dynamic application loading in Silverlight?
-created: YYYY-05-DD 02:36:18
+created: 2011-05-20 02:36:18
 authors:
   - id: 8
     title: John Liu

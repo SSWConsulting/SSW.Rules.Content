@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-a-sharepoint-master
 title: Do you have a SharePoint Master?
-created: YYYY-12-DD 02:20:55
+created: 2010-12-23 02:20:55
 authors:
   - id: 1
     title: Adam Cogan

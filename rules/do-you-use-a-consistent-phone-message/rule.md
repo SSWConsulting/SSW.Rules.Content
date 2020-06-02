@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-consistent-phone-message
 title: Do you use a consistent phone message?
-created: YYYY-11-DD 18:42:48
+created: 2015-11-24 18:42:48
 authors:
   - id: 1
     title: Adam Cogan

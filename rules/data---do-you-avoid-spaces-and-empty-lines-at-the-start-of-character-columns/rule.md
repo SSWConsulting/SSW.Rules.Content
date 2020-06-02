@@ -1,9 +1,7 @@
-
-
 ---
 uri: data---do-you-avoid-spaces-and-empty-lines-at-the-start-of-character-columns
 title: Data - Do you avoid spaces and empty lines at the start of character columns?
-created: YYYY-11-DD 19:01:24
+created: 2019-11-25 19:01:24
 authors:
   - id: 1
     title: Adam Cogan

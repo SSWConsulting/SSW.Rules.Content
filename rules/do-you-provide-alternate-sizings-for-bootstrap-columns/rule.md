@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-provide-alternate-sizings-for-bootstrap-columns
 title: Do you provide alternate sizings for Bootstrap columns?
-created: YYYY-06-DD 05:04:12
+created: 2014-06-18 05:04:12
 authors:
   - id: 37
     title: Ben Cull

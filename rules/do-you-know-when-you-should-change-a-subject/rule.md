@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-when-you-should-change-a-subject
 title: Do you know when you should change a subject?
-created: YYYY-03-DD 04:53:58
+created: 2009-03-24 04:53:58
 authors:
   - id: 1
     title: Adam Cogan

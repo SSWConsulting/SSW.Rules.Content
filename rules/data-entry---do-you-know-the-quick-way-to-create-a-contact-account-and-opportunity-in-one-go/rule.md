@@ -1,9 +1,7 @@
-
-
 ---
 uri: data-entry---do-you-know-the-quick-way-to-create-a-contact-account-and-opportunity-in-one-go
 title: Data Entry - Do you know the quick way to create a Contact, Account, and Opportunity in one go?
-created: YYYY-12-DD 18:59:22
+created: 2012-12-06 18:59:22
 authors:
   - id: 1
     title: Adam Cogan

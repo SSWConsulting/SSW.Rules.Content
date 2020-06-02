@@ -1,9 +1,7 @@
-
-
 ---
 uri: performance-tuning---do-you-make-sure-to-clear-sql-server-cache-when-performing-benchmark-tests
 title: Performance Tuning - Do you make sure to clear SQL server cache when performing benchmark tests?
-created: YYYY-11-DD 23:15:10
+created: 2019-11-14 23:15:10
 authors:
   - id: 1
     title: Adam Cogan

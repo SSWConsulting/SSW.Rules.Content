@@ -1,9 +1,7 @@
-
-
 ---
 uri: import-method---do-you-know-how-to-import-a-solution-if-you-dont-have-the-original-installer-optional
 title: Import Method - Do you know how to import a solution if you don’t have the original installer? (optional)
-created: YYYY-12-DD 03:10:35
+created: 2010-12-23 03:10:35
 authors:
 
 ---

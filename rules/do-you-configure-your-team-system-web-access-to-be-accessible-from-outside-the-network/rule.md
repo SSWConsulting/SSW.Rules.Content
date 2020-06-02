@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-configure-your-team-system-web-access-to-be-accessible-from-outside-the-network
 title: Do you configure your Team System Web Access to be accessible from outside the network?
-created: YYYY-11-DD 03:52:35
+created: 2011-11-18 03:52:35
 authors:
   - id: 22
     title: David Klein

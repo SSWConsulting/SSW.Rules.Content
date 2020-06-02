@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-the-best-criteria-for-evaluating-rd-party-software
 title: Do you know the best criteria for evaluating 3rd party software?
-created: YYYY-12-DD 03:44:18
+created: 2013-12-23 03:44:18
 authors:
 
 ---

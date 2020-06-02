@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-have-opportunities-to-convert-use-linq-to-entities
 title: Do you have opportunities to convert use Linq to entities?
-created: YYYY-04-DD 09:26:00
+created: 2012-04-01 09:26:00
 authors:
   - id: 1
     title: Adam Cogan

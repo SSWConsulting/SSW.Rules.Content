@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-setup-a-boot-to-vhd-image
 title: Do you know how to setup a Boot to VHD Image?
-created: YYYY-04-DD 05:26:11
+created: 2011-04-13 05:26:11
 authors:
   - id: 21
     title: Matthew Hodgkins

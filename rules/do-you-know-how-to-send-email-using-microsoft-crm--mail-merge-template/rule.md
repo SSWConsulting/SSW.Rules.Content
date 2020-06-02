@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-to-send-email-using-microsoft-crm--mail-merge-template
 title: Do you know how to send email using Microsoft CRM 4 mail merge template?
-created: YYYY-03-DD 19:30:03
+created: 2013-03-13 19:30:03
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: tiny-do-you-use-active-phrases-no-zombies-please
 title: Tiny: Do you use active phrases? (No zombies please)
-created: YYYY-05-DD 04:40:39
+created: 2016-05-06 04:40:39
 authors:
   - id: 41
     title: Joanna Feely

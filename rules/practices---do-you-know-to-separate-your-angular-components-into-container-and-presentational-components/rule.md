@@ -1,9 +1,7 @@
-
-
 ---
 uri: practices---do-you-know-to-separate-your-angular-components-into-container-and-presentational-components
 title: Practices - Do you know to separate your Angular components into container and presentational components?
-created: YYYY-01-DD 16:52:00
+created: 2017-01-03 16:52:00
 authors:
   - id: 44
     title: Duncan Hunter

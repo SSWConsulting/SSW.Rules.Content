@@ -1,9 +1,7 @@
-
-
 ---
 uri: done---do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint
 title: Done - Do you know how to make sure you deliver a build that’s tested every Sprint
-created: YYYY-08-DD 13:07:10
+created: 2010-08-09 13:07:10
 authors:
   - id: 1
     title: Adam Cogan

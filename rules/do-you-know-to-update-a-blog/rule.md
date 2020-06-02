@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-to-update-a-blog
 title: Do you know to update a blog?
-created: YYYY-09-DD 10:23:19
+created: 2010-09-07 10:23:19
 authors:
   - id: 1
     title: Adam Cogan

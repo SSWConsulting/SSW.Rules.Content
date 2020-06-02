@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-know-how-the-gated-checkin-process-works
 title: Do you know how the Gated Checkin process works?
-created: YYYY-06-DD 19:08:28
+created: 2013-06-28 19:08:28
 authors:
   - id: 23
     title: Damian Brady

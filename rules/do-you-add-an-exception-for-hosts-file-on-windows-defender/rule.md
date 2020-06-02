@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-add-an-exception-for-hosts-file-on-windows-defender
 title: Do you add an exception for Hosts file on Windows Defender?
-created: YYYY-09-DD 18:15:45
+created: 2012-09-19 18:15:45
 authors:
   - id: 47
     title: Stanley Sidik

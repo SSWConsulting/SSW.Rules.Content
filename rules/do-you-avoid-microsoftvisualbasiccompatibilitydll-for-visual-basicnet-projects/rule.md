@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-avoid-microsoftvisualbasiccompatibilitydll-for-visual-basicnet-projects
 title: Do you avoid Microsoft.VisualBasic.Compatibility.dll for Visual Basic.NET projects?
-created: YYYY-04-DD 03:01:20
+created: 2009-04-28 03:01:20
 authors:
   - id: 1
     title: Adam Cogan

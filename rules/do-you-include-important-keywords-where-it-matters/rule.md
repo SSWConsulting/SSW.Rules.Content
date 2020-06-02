@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-include-important-keywords-where-it-matters
 title: Do you include important keywords where it matters?
-created: YYYY-11-DD 18:40:02
+created: 2015-11-09 18:40:02
 authors:
   - id: 1
     title: Adam Cogan

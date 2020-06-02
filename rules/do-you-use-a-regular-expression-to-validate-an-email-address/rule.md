@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-use-a-regular-expression-to-validate-an-email-address
 title: Do you use a regular expression to validate an email address?
-created: YYYY-04-DD 23:15:46
+created: 2018-04-25 23:15:46
 authors:
   - id: 1
     title: Adam Cogan

@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-send-a-for-the-record-email-when-you-disagree
 title: Do you send a 'For the record' email when you disagree?
-created: YYYY-07-DD 06:49:34
+created: 2010-07-16 06:49:34
 authors:
   - id: 1
     title: Adam Cogan

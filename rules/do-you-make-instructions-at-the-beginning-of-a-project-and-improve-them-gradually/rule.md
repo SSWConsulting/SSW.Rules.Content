@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
 title: Do you make instructions at the beginning of a project and improve them gradually?
-created: YYYY-05-DD 06:12:34
+created: 2009-05-13 06:12:34
 authors:
   - id: 1
     title: Adam Cogan

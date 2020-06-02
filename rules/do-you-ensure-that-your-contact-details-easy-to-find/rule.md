@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-ensure-that-your-contact-details-easy-to-find
 title: Do you ensure that your contact details easy to find?
-created: YYYY-02-DD 01:08:16
+created: 2015-02-13 01:08:16
 authors:
 
 ---

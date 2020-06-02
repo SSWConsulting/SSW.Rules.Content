@@ -1,9 +1,7 @@
-
-
 ---
 uri: do-you-write-integration-tests-to-validate-your-web-links
 title: Do you write integration tests to validate your web links?
-created: YYYY-03-DD 22:50:56
+created: 2020-03-11 22:50:56
 authors:
   - id: 1
     title: Adam Cogan
