@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-write-integration-test-for-dependencies---eg-dlls
+title: Do you write Integration Test for Dependencies - e.g. DLLs?
+created: YYYY-03-DD 21:59:13
 authors:
   - id: 1
     title: Adam Cogan
