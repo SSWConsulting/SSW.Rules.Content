@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout/layout';
+import { element } from 'prop-types';
 export default function Category({
   data,
   pageContext: {
@@ -21,17 +22,25 @@ export default function Category({
         <br />
       </div>
       <ol className="list-decimal list-outside">
-        {data.rule.nodes.map((element, i) => (
-          <>
+        {category.frontmatter.index.map((ruleUri, i) => {
+            const rule = data.rule.nodes.find(
+              (r) =>
+                r.frontmatter.uri === ruleUri
+            );
+            if(rule) {
+            return (
+            <>
             <li key={i} className="rule-title">
-              <Link ref={linkRef} to={`/${element.frontmatter.uri}`}>
-                {element.frontmatter.title}
+              <Link ref={linkRef} to={`/${ rule.frontmatter.uri}`}>
+                {rule.frontmatter.title}
               </Link>
             </li>
-            <div dangerouslySetInnerHTML={{ __html: element.html }} />
+            <div dangerouslySetInnerHTML={{ __html: rule.html }} />
             <br />
-          </>
-        ))}
+            </>
+            )
+            }}
+        )}
       </ol>
     </Layout>
   );
