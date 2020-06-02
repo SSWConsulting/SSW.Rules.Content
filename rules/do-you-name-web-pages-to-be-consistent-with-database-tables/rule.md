@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-name-web-pages-to-be-consistent-with-database-tables
+title: Do you name web pages to be consistent with database tables?
+created: YYYY-08-DD 17:47:04
 authors:
   - id: 1
     title: Adam Cogan
