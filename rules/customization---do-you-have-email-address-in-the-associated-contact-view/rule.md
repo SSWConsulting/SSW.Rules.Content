@@ -1,6 +1,9 @@
 
 
 ---
+uri: customization---do-you-have-email-address-in-the-associated-contact-view
+title: Customization - Do you have email address in the Associated Contact View?
+created: YYYY-12-DD 18:48:17
 authors:
   - id: 1
     title: Adam Cogan
