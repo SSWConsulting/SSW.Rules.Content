@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-avoid-ui-in-event-names
+title: Do you avoid "UI" in event names?
+created: YYYY-04-DD 21:07:59
 authors:
   - id: 1
     title: Adam Cogan
