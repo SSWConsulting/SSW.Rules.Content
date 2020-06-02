@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-finish-the-conversation-with-something-to-action
+title: Do you finish the conversation with something to action?
+created: YYYY-06-DD 23:53:59
 authors:
   - id: 1
     title: Adam Cogan
