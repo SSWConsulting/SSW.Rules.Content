@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-best-applicant-tracking-system-ats
+title: Do you know the best Applicant Tracking System (ATS)?
+created: YYYY-03-DD 23:20:30
 authors:
   - id: 62
     title: Penny Walker
