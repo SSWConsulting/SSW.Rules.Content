@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-strike-through-completed-items
+title: Do you strike-through completed items?
+created: YYYY-11-DD 02:13:04
 authors:
 
 ---
