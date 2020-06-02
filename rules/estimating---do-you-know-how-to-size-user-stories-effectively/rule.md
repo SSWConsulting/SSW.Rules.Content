@@ -1,6 +1,9 @@
 
 
 ---
+uri: estimating---do-you-know-how-to-size-user-stories-effectively
+title: Estimating - Do you know how to size user stories effectively?
+created: YYYY-09-DD 01:15:18
 authors:
   - id: 1
     title: Adam Cogan
