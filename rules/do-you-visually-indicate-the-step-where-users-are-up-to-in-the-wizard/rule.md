@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-visually-indicate-the-step-where-users-are-up-to-in-the-wizard
+title: Do you visually indicate the step where users are up to in the wizard?
+created: YYYY-12-DD 03:53:49
 authors:
 
 ---
