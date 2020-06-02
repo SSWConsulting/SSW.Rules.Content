@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-the-difference-between-data-transfer-objects-and-view-models
+title: Do you know the difference between data transfer objects and view models?
+created: YYYY-04-DD 21:58:44
 authors:
   - id: 81
     title: Jason Taylor
