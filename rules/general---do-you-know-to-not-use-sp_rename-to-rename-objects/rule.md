@@ -1,6 +1,9 @@
 
 
 ---
+uri: general---do-you-know-to-not-use-sp_rename-to-rename-objects
+title: General - Do you know to not use "sp_rename" to rename objects?
+created: YYYY-11-DD 21:42:49
 authors:
   - id: 1
     title: Adam Cogan
