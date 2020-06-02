@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-perform-a-thorough-check-on-documents-before-they-go-to-the-client
+title: Do you perform a thorough check on documents before they go to the client?
+created: YYYY-08-DD 23:01:12
 authors:
   - id: 1
     title: Adam Cogan
