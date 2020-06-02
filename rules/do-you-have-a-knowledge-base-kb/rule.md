@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-have-a-knowledge-base-kb
+title: Do you have a Knowledge Base (KB)?
+created: YYYY-03-DD 02:45:54
 authors:
   - id: 1
     title: Adam Cogan
