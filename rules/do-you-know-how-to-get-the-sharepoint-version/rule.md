@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-get-the-sharepoint-version
+title: Do you know how to get the SharePoint version?
+created: YYYY-09-DD 06:58:12
 authors:
   - id: 1
     title: Adam Cogan
