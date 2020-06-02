@@ -1,6 +1,9 @@
 
 
 ---
+uri: do-you-know-how-to-recall-an-email
+title: Do you know how to recall an email?
+created: YYYY-04-DD 03:08:36
 authors:
   - id: 1
     title: Adam Cogan
