@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-important-youtube-vocabulary
+type: rule
 title: Do you know the important YouTube vocabulary?
-created: 2018-05-21 00:23:40
+uri: do-you-know-the-important-youtube-vocabulary
+created: 2018-05-21T00:23:40.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

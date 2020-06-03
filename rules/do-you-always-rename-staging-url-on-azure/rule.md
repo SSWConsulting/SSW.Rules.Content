@@ -1,18 +1,19 @@
 ---
-uri: do-you-always-rename-staging-url-on-azure
+type: rule
 title: Do you always rename staging Url on Azure?
-created: 2015-03-08 23:23:53
+uri: do-you-always-rename-staging-url-on-azure
+created: 2015-03-08T23:23:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 47
-    title: Stanley Sidik
-  - id: 43
-    title: Michael Demarco
-  - id: 42
-    title: Shigemi Matsumoto
----
+- id: 1
+  title: Adam Cogan
+- id: 47
+  title: Stanley Sidik
+- id: 43
+  title: Michael Demarco
+- id: 42
+  title: Shigemi Matsumoto
 
+---
 
 
 

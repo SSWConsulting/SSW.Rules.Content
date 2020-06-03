@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-allow-employees-to-post-to-their-personal-blog
+type: rule
 title: Do you know to allow employees to post to their personal blog?
-created: 2010-09-08 15:52:47
+uri: do-you-know-to-allow-employees-to-post-to-their-personal-blog
+created: 2010-09-08T15:52:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

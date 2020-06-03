@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-microsoftvisualbasicdll-for-visual-basicnet-projects
+type: rule
 title: Do you use Microsoft.VisualBasic.dll for Visual Basic.NET projects?
-created: 2009-04-28 02:53:36
+uri: do-you-use-microsoftvisualbasicdll-for-visual-basicnet-projects
+created: 2009-04-28T02:53:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

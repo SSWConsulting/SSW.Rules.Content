@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-all-the-ways-you-can-migrate-to-the-cloud
+type: rule
 title: Do you know all the ways you can migrate to the cloud?
-created: 2017-01-19 17:01:09
+uri: do-you-know-all-the-ways-you-can-migrate-to-the-cloud
+created: 2017-01-19T17:01:09.0000000Z
 authors:
-  - id: 46
-    title: Danijel Malik
----
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

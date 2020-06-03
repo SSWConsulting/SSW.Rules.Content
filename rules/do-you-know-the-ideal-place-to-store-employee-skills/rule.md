@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-ideal-place-to-store-employee-skills
+type: rule
 title: Do you know the ideal place to store employee skills?
-created: 2017-01-09 05:30:58
+uri: do-you-know-the-ideal-place-to-store-employee-skills
+created: 2017-01-09T05:30:58.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

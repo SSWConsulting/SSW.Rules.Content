@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-chinese-or-messy-code-on-your-website
+type: rule
 title: Do you avoid Chinese or messy code on your website?
-created: 2012-03-23 02:27:32
+uri: do-you-avoid-chinese-or-messy-code-on-your-website
+created: 2012-03-23T02:27:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

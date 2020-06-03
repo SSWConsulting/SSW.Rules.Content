@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-postmaster-account-in-your-microsoft-exchange
+type: rule
 title: Do you have a postmaster account in your Microsoft Exchange?
-created: 2015-04-10 18:59:46
+uri: do-you-have-a-postmaster-account-in-your-microsoft-exchange
+created: 2015-04-10T18:59:46.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

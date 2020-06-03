@@ -1,11 +1,11 @@
 ---
-uri: do-you-try-a-second-time-straight-away-when-you-are-calling-a-client
+type: rule
 title: Do you try a second time straight away when you are calling a client?
-created: 2010-07-16 06:48:35
-authors:
+uri: do-you-try-a-second-time-straight-away-when-you-are-calling-a-client
+created: 2010-07-16T06:48:35.0000000Z
+authors: []
 
 ---
-
 
 
 

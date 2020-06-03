@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-auto-generated-version-numbers
+type: rule
 title: Do you avoid auto generated version numbers?
-created: 2016-05-30 23:16:46
-authors:
+uri: do-you-avoid-auto-generated-version-numbers
+created: 2016-05-30T23:16:46.0000000Z
+authors: []
 
 ---
-
 
 
 

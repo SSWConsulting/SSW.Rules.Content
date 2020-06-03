@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-basic-volumes-inside-vhds
+type: rule
 title: Do you use Basic Volumes inside VHD's?
-created: 2011-02-14 03:23:59
+uri: do-you-use-basic-volumes-inside-vhds
+created: 2011-02-14T03:23:59.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

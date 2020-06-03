@@ -1,14 +1,15 @@
 ---
-uri: do-you-manage-your-email-accounts
+type: rule
 title: Do you manage your email accounts?
-created: 2009-04-03 03:21:10
+uri: do-you-manage-your-email-accounts
+created: 2009-04-03T03:21:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

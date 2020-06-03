@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-and-when-not-to-use-email
+type: rule
 title: Do you know when, and when NOT, to use email?
-created: 2009-03-24 05:12:14
+uri: do-you-know-when-and-when-not-to-use-email
+created: 2009-03-24T05:12:14.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

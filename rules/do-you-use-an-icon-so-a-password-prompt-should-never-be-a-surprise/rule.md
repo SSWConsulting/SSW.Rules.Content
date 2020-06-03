@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
+type: rule
 title: Do you use an icon so a password prompt should never be a surprise?
-created: 2015-02-16 02:47:30
-authors:
+uri: do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
+created: 2015-02-16T02:47:30.0000000Z
+authors: []
 
 ---
-
 
 
 

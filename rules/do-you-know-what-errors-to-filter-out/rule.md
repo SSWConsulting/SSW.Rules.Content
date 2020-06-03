@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-errors-to-filter-out
+type: rule
 title: Do you know what errors to filter out?
-created: 2016-10-25 16:49:58
+uri: do-you-know-what-errors-to-filter-out
+created: 2016-10-25T16:49:58.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

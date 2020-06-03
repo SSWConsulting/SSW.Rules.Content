@@ -1,11 +1,11 @@
 ---
-uri: do-you-highlight-incomplete-work-with-red-text
+type: rule
 title: Do you highlight incomplete work with red text?
-created: 2014-06-11 05:40:53
-authors:
+uri: do-you-highlight-incomplete-work-with-red-text
+created: 2014-06-11T05:40:53.0000000Z
+authors: []
 
 ---
-
 
 
 

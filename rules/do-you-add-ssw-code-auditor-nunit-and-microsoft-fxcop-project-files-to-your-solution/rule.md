@@ -1,14 +1,15 @@
 ---
-uri: do-you-add-ssw-code-auditor-nunit-and-microsoft-fxcop-project-files-to-your-solution
+type: rule
 title: Do you Add SSW Code Auditor, NUnit and Microsoft FxCop project files to your Solution
-created: 2009-05-06 09:26:46
+uri: do-you-add-ssw-code-auditor-nunit-and-microsoft-fxcop-project-files-to-your-solution
+created: 2009-05-06T09:26:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

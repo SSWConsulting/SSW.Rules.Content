@@ -1,14 +1,15 @@
 ---
-uri: how-are-you-collecting-feedback
+type: rule
 title: How Are You Collecting Feedback?
-created: 2014-12-31 00:43:50
+uri: how-are-you-collecting-feedback
+created: 2014-12-31T00:43:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 30
-    title: Marlon Marescia
----
+- id: 1
+  title: Adam Cogan
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

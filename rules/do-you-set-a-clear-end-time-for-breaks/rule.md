@@ -1,12 +1,13 @@
 ---
-uri: do-you-set-a-clear-end-time-for-breaks
+type: rule
 title: Do you set a clear end time for breaks?
-created: 2012-01-27 14:15:53
+uri: do-you-set-a-clear-end-time-for-breaks
+created: 2012-01-27T14:15:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-the-gated-checkin-process-works
+type: rule
 title: Do you know how the Gated Checkin process works?
-created: 2013-06-28 19:08:28
+uri: do-you-know-how-the-gated-checkin-process-works
+created: 2013-06-28T19:08:28.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

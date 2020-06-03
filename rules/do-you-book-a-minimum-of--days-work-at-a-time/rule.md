@@ -1,14 +1,15 @@
 ---
-uri: do-you-book-a-minimum-of--days-work-at-a-time
+type: rule
 title: Do you book a minimum of 1 day's work at a time?
-created: 2013-04-24 19:27:01
+uri: do-you-book-a-minimum-of--days-work-at-a-time
+created: 2013-04-24T19:27:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

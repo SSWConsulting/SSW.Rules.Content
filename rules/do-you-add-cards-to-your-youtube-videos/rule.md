@@ -1,12 +1,13 @@
 ---
-uri: do-you-add-cards-to-your-youtube-videos
+type: rule
 title: Do you add cards to your YouTube videos?
-created: 2018-05-22 22:49:45
+uri: do-you-add-cards-to-your-youtube-videos
+created: 2018-05-22T22:49:45.0000000Z
 authors:
-  - id: 74
-    title: Florent Dezettre
----
+- id: 74
+  title: Florent Dezettre
 
+---
 
 
 

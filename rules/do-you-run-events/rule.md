@@ -1,12 +1,13 @@
 ---
-uri: do-you-run-events
+type: rule
 title: Do you run events?
-created: 2018-03-21 06:07:51
+uri: do-you-run-events
+created: 2018-03-21T06:07:51.0000000Z
 authors:
-  - id: 57
-    title: Brittany Lawrence
----
+- id: 57
+  title: Brittany Lawrence
 
+---
 
 
 

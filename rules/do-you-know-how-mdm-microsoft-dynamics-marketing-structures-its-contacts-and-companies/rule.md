@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-mdm-microsoft-dynamics-marketing-structures-its-contacts-and-companies
+type: rule
 title: Do you know how MDM (Microsoft Dynamics Marketing) structures its contacts and companies?
-created: 2014-10-16 21:27:41
+uri: do-you-know-how-mdm-microsoft-dynamics-marketing-structures-its-contacts-and-companies
+created: 2014-10-16T21:27:41.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

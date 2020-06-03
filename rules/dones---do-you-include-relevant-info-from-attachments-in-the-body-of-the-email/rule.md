@@ -1,14 +1,15 @@
 ---
-uri: dones---do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
+type: rule
 title: Dones - Do you include relevant info from attachments in the body of the email?
-created: 2009-04-03 09:01:23
+uri: dones---do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
+created: 2009-04-03T09:01:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

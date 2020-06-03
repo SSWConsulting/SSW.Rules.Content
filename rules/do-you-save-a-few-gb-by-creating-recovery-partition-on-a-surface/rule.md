@@ -1,12 +1,13 @@
 ---
-uri: do-you-save-a-few-gb-by-creating-recovery-partition-on-a-surface
+type: rule
 title: Do you save a few GB by creating Recovery partition on a Surface?
-created: 2014-05-05 21:15:55
+uri: do-you-save-a-few-gb-by-creating-recovery-partition-on-a-surface
+created: 2014-05-05T21:15:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

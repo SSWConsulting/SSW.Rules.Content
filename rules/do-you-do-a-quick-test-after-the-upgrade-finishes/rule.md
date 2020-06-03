@@ -1,11 +1,11 @@
 ---
-uri: do-you-do-a-quick-test-after-the-upgrade-finishes
+type: rule
 title: Do you do a quick test after the upgrade finishes?
-created: 2015-08-14 11:31:19
-authors:
+uri: do-you-do-a-quick-test-after-the-upgrade-finishes
+created: 2015-08-14T11:31:19.0000000Z
+authors: []
 
 ---
-
 
 
 

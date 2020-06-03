@@ -1,11 +1,11 @@
 ---
-uri: do-you-gather-more-personal-information-progressively
+type: rule
 title: Do you gather more personal information progressively?
-created: 2015-02-13 02:50:56
-authors:
+uri: do-you-gather-more-personal-information-progressively
+created: 2015-02-13T02:50:56.0000000Z
+authors: []
 
 ---
-
 
 
 

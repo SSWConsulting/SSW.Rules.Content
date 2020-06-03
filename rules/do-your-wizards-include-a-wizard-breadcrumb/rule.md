@@ -1,11 +1,11 @@
 ---
-uri: do-your-wizards-include-a-wizard-breadcrumb
+type: rule
 title: Do your wizards include a 'Wizard Breadcrumb'?
-created: 2015-02-16 02:20:37
-authors:
+uri: do-your-wizards-include-a-wizard-breadcrumb
+created: 2015-02-16T02:20:37.0000000Z
+authors: []
 
 ---
-
 
 
 

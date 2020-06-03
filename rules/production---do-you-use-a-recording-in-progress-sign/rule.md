@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-use-a-recording-in-progress-sign
+type: rule
 title: Production - Do you use a 'Recording in Progress' sign?
-created: 2011-12-09 05:21:57
+uri: production---do-you-use-a-recording-in-progress-sign
+created: 2011-12-09T05:21:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

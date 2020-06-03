@@ -1,12 +1,13 @@
 ---
-uri: do-you-update-crm-installation-files-before-migration
+type: rule
 title: Do you update CRM installation files before migration
-created: 2013-11-11 07:53:07
+uri: do-you-update-crm-installation-files-before-migration
+created: 2013-11-11T07:53:07.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

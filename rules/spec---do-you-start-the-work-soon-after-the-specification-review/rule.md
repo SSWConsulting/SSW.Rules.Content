@@ -1,14 +1,15 @@
 ---
-uri: spec---do-you-start-the-work-soon-after-the-specification-review
+type: rule
 title: Spec - Do you start the work soon after the Specification Review?
-created: 2013-06-24 07:08:00
+uri: spec---do-you-start-the-work-soon-after-the-specification-review
+created: 2013-06-24T07:08:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

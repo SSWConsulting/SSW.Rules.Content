@@ -1,14 +1,15 @@
 ---
-uri: facebook-ads---do-you-know-how-to-advertise
+type: rule
 title: Facebook Ads - Do you know how to advertise?
-created: 2015-09-24 17:53:43
+uri: facebook-ads---do-you-know-how-to-advertise
+created: 2015-09-24T17:53:43.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 57
-    title: Brittany Lawrence
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 57
+  title: Brittany Lawrence
 
+---
 
 
 

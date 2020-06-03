@@ -1,14 +1,15 @@
 ---
-uri: do-you-check-your-website-is-multi-browser-compatible
+type: rule
 title: Do you check your website is multi-browser compatible?
-created: 2014-12-09 19:18:01
+uri: do-you-check-your-website-is-multi-browser-compatible
+created: 2014-12-09T19:18:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

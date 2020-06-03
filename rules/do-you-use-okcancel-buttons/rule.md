@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-okcancel-buttons
+type: rule
 title: Do you use OK/Cancel Buttons?
-created: 2015-12-18 12:36:27
+uri: do-you-use-okcancel-buttons
+created: 2015-12-18T12:36:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

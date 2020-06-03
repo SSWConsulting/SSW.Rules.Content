@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-replying-to-all-when-you-are-only-bcced
+type: rule
 title: Do you avoid replying to all when you are only Bcc'ed?
-created: 2009-04-03 08:15:29
+uri: do-you-avoid-replying-to-all-when-you-are-only-bcced
+created: 2009-04-03T08:15:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

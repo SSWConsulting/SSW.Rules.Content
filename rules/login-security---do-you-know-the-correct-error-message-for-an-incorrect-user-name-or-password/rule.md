@@ -1,11 +1,11 @@
 ---
-uri: login-security---do-you-know-the-correct-error-message-for-an-incorrect-user-name-or-password
+type: rule
 title: Login Security - Do you know the correct error message for an incorrect user name or password?
-created: 2015-02-16 03:17:47
-authors:
+uri: login-security---do-you-know-the-correct-error-message-for-an-incorrect-user-name-or-password
+created: 2015-02-16T03:17:47.0000000Z
+authors: []
 
 ---
-
 
 
 

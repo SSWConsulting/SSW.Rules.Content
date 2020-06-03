@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-report-server-project
+type: rule
 title: Do you use Report Server Project?
-created: 2018-12-04 21:54:10
+uri: do-you-use-report-server-project
+created: 2018-12-04T21:54:10.0000000Z
 authors:
-  - id: 34
-    title: Brendan Richards
-  - id: 84
-    title: Patricia Barros
----
+- id: 34
+  title: Brendan Richards
+- id: 84
+  title: Patricia Barros
 
+---
 
 
 

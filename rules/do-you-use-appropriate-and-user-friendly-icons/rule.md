@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-appropriate-and-user-friendly-icons
+type: rule
 title: Do you use appropriate and user-friendly icons?
-created: 2015-12-18 12:46:10
+uri: do-you-use-appropriate-and-user-friendly-icons
+created: 2015-12-18T12:46:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-that-you-need-to-migrate-custom-site-template-before-upgrade-to-sharepoint--ui
+type: rule
 title: Do you know that you need to migrate 'custom site template' before upgrade to SharePoint 2013 UI?
-created: 2013-04-24 01:37:07
+uri: do-you-know-that-you-need-to-migrate-custom-site-template-before-upgrade-to-sharepoint--ui
+created: 2013-04-24T01:37:07.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
-  - id: 9
-    title: William Yin
----
+- id: 3
+  title: Eric Phan
+- id: 9
+  title: William Yin
 
+---
 
 
 

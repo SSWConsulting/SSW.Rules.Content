@@ -1,11 +1,11 @@
 ---
-uri: watch---do-you-conduct-user-acceptance-testing-thoroughly
+type: rule
 title: Watch - Do you conduct user acceptance testing thoroughly?
-created: 2010-05-20 10:28:04
-authors:
+uri: watch---do-you-conduct-user-acceptance-testing-thoroughly
+created: 2010-05-20T10:28:04.0000000Z
+authors: []
 
 ---
-
 
 
 

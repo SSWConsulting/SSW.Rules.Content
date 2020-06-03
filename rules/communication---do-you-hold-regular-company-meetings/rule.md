@@ -1,14 +1,15 @@
 ---
-uri: communication---do-you-hold-regular-company-meetings
+type: rule
 title: Communication - Do you hold regular company meetings?
-created: 2017-04-12 23:26:43
+uri: communication---do-you-hold-regular-company-meetings
+created: 2017-04-12T23:26:43.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

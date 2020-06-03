@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-to-use-save-save-and-close-on-a-webpage
+type: rule
 title: Do you know to use Save, Save and Close on a webpage?
-created: 2014-11-27 03:54:09
+uri: do-you-know-to-use-save-save-and-close-on-a-webpage
+created: 2014-11-27T03:54:09.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 44
-    title: Duncan Hunter
-  - id: 1
-    title: Adam Cogan
----
+- id: 38
+  title: Drew Robson
+- id: 44
+  title: Duncan Hunter
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

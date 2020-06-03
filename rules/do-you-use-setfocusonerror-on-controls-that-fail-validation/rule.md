@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-setfocusonerror-on-controls-that-fail-validation
+type: rule
 title: Do you use SetFocusOnError on controls that fail validation?
-created: 2012-11-27 09:07:08
-authors:
+uri: do-you-use-setfocusonerror-on-controls-that-fail-validation
+created: 2012-11-27T09:07:08.0000000Z
+authors: []
 
 ---
-
 
 
 

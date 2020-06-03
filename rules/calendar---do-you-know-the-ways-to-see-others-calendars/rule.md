@@ -1,16 +1,17 @@
 ---
-uri: calendar---do-you-know-the-ways-to-see-others-calendars
+type: rule
 title: Calendar - Do you know the ways to see others' calendars?
-created: 2012-09-25 18:07:48
+uri: calendar---do-you-know-the-ways-to-see-others-calendars
+created: 2012-09-25T18:07:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 86
-    title: Chris Clement
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 86
+  title: Chris Clement
 
+---
 
 
 

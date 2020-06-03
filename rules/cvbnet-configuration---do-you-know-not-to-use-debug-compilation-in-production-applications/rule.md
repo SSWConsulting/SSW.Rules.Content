@@ -1,11 +1,11 @@
 ---
-uri: cvbnet-configuration---do-you-know-not-to-use-debug-compilation-in-production-applications
+type: rule
 title: C#/VB.NET Configuration - Do you know not to use debug compilation in production applications?
-created: 2013-01-11 18:25:53
-authors:
+uri: cvbnet-configuration---do-you-know-not-to-use-debug-compilation-in-production-applications
+created: 2013-01-11T18:25:53.0000000Z
+authors: []
 
 ---
-
 
 
 

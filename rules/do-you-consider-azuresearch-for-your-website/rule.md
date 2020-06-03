@@ -1,11 +1,11 @@
 ---
-uri: do-you-consider-azuresearch-for-your-website
+type: rule
 title: Do you consider AzureSearch for your website?
-created: 2015-04-27 01:23:12
-authors:
+uri: do-you-consider-azuresearch-for-your-website
+created: 2015-04-27T01:23:12.0000000Z
+authors: []
 
 ---
-
 
 
 

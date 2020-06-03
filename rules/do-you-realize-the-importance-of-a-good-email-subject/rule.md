@@ -1,14 +1,15 @@
 ---
-uri: do-you-realize-the-importance-of-a-good-email-subject
+type: rule
 title: Do you realize the importance of a good email Subject?
-created: 2009-03-24 04:41:35
+uri: do-you-realize-the-importance-of-a-good-email-subject
+created: 2009-03-24T04:41:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

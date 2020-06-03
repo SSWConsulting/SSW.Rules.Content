@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-why-you-want-to-use-application-insights
+type: rule
 title: Do you know why you want to use Application Insights?
-created: 2015-07-24 04:40:05
+uri: do-you-know-why-you-want-to-use-application-insights
+created: 2015-07-24T04:40:05.0000000Z
 authors:
-  - id: 45
-    title: Chris Briggs
-  - id: 1
-    title: Adam Cogan
----
+- id: 45
+  title: Chris Briggs
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

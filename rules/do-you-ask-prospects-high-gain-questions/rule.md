@@ -1,12 +1,13 @@
 ---
-uri: do-you-ask-prospects-high-gain-questions
+type: rule
 title: Do you ask prospects high-gain questions?
-created: 2018-06-08 21:17:07
+uri: do-you-ask-prospects-high-gain-questions
+created: 2018-06-08T21:17:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

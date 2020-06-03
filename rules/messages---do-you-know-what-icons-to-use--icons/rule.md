@@ -1,11 +1,11 @@
 ---
-uri: messages---do-you-know-what-icons-to-use--icons
+type: rule
 title: Messages - Do you know what icons to use? (3/3 Icons)
-created: 2012-11-27 04:37:34
-authors:
+uri: messages---do-you-know-what-icons-to-use--icons
+created: 2012-11-27T04:37:34.0000000Z
+authors: []
 
 ---
-
 
 
 

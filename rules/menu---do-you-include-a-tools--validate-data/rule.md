@@ -1,11 +1,11 @@
 ---
-uri: menu---do-you-include-a-tools--validate-data
+type: rule
 title: Menu - Do you include a "Tools | Validate Data"?
-created: 2012-11-27 02:53:35
-authors:
+uri: menu---do-you-include-a-tools--validate-data
+created: 2012-11-27T02:53:35.0000000Z
+authors: []
 
 ---
-
 
 
 

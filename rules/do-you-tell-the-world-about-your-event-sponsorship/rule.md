@@ -1,12 +1,13 @@
 ---
-uri: do-you-tell-the-world-about-your-event-sponsorship
+type: rule
 title: Do you tell the world about your event sponsorship?
-created: 2014-10-13 19:45:26
+uri: do-you-tell-the-world-about-your-event-sponsorship
+created: 2014-10-13T19:45:26.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

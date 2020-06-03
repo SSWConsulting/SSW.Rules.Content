@@ -1,12 +1,13 @@
 ---
-uri: do-you-back-up-everything-before-migration
+type: rule
 title: Do you back up everything before migration
-created: 2013-11-11 07:49:34
+uri: do-you-back-up-everything-before-migration
+created: 2013-11-11T07:49:34.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

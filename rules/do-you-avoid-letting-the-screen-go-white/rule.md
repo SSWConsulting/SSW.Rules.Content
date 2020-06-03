@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-letting-the-screen-go-white
+type: rule
 title: Do you avoid letting the screen go white?
-created: 2015-02-16 04:18:03
-authors:
+uri: do-you-avoid-letting-the-screen-go-white
+created: 2015-02-16T04:18:03.0000000Z
+authors: []
 
 ---
-
 
 
 

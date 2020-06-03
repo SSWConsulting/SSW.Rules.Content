@@ -1,14 +1,15 @@
 ---
-uri: priorities---do-you-complete-work-in-order-of-importance-aka-priorities
+type: rule
 title: PRIORITIES - Do you complete work in order of importance (aka priorities)?
-created: 2012-03-20 17:57:49
+uri: priorities---do-you-complete-work-in-order-of-importance-aka-priorities
+created: 2012-03-20T17:57:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

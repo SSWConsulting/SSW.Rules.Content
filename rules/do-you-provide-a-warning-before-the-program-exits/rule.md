@@ -1,11 +1,11 @@
 ---
-uri: do-you-provide-a-warning-before-the-program-exits
+type: rule
 title: Do you provide a warning before the program exits?
-created: 2012-11-27 03:10:56
-authors:
+uri: do-you-provide-a-warning-before-the-program-exits
+created: 2012-11-27T03:10:56.0000000Z
+authors: []
 
 ---
-
 
 
 

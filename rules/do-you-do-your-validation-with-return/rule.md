@@ -1,12 +1,13 @@
 ---
-uri: do-you-do-your-validation-with-return
+type: rule
 title: Do you do your validation with Return?
-created: 2018-04-25 23:05:48
+uri: do-you-do-your-validation-with-return
+created: 2018-04-25T23:05:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

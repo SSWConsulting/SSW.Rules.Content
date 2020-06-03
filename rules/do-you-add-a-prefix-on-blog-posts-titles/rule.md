@@ -1,12 +1,13 @@
 ---
-uri: do-you-add-a-prefix-on-blog-posts-titles
+type: rule
 title: Do you add a prefix on blog posts titles?
-created: 2018-02-22 17:29:57
+uri: do-you-add-a-prefix-on-blog-posts-titles
+created: 2018-02-22T17:29:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

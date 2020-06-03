@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-morning-routine
+type: rule
 title: Do you have a morning routine?
-created: 2020-03-20 01:08:06
+uri: do-you-have-a-morning-routine
+created: 2020-03-20T01:08:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

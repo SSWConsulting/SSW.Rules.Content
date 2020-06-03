@@ -1,12 +1,13 @@
 ---
-uri: do-you-suffix-unit-test-classes-with-tests
+type: rule
 title: Do you suffix unit test classes with "Tests"?
-created: 2018-04-25 23:24:57
+uri: do-you-suffix-unit-test-classes-with-tests
+created: 2018-04-25T23:24:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

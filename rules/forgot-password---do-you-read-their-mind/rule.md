@@ -1,11 +1,11 @@
 ---
-uri: forgot-password---do-you-read-their-mind
+type: rule
 title: Forgot Password - Do you read their mind?
-created: 2015-02-16 03:06:23
-authors:
+uri: forgot-password---do-you-read-their-mind
+created: 2015-02-16T03:06:23.0000000Z
+authors: []
 
 ---
-
 
 
 

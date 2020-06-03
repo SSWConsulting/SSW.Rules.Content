@@ -1,11 +1,11 @@
 ---
-uri: does-your-applications-interface-fit-in-a-small-screen-resolution
+type: rule
 title: Does your application's interface fit in a small screen resolution?
-created: 2012-11-27 02:02:11
-authors:
+uri: does-your-applications-interface-fit-in-a-small-screen-resolution
+created: 2012-11-27T02:02:11.0000000Z
+authors: []
 
 ---
-
 
 
 

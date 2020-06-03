@@ -1,11 +1,11 @@
 ---
-uri: do-you-save-the-last-users-selections
+type: rule
 title: Do you save the last user's selections?
-created: 2014-12-01 01:01:51
-authors:
+uri: do-you-save-the-last-users-selections
+created: 2014-12-01T01:01:51.0000000Z
+authors: []
 
 ---
-
 
 
 

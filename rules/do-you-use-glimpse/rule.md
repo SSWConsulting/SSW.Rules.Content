@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-glimpse
+type: rule
 title: Do you use Glimpse?
-created: 2012-04-02 15:08:43
+uri: do-you-use-glimpse
+created: 2012-04-02T15:08:43.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

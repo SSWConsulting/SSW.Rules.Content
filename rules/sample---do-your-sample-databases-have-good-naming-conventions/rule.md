@@ -1,11 +1,11 @@
 ---
-uri: sample---do-your-sample-databases-have-good-naming-conventions
+type: rule
 title: Sample - Do your sample databases have good Naming Conventions?
-created: 2012-11-27 03:08:58
-authors:
+uri: sample---do-your-sample-databases-have-good-naming-conventions
+created: 2012-11-27T03:08:58.0000000Z
+authors: []
 
 ---
-
 
 
 

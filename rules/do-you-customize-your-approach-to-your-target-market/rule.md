@@ -1,12 +1,13 @@
 ---
-uri: do-you-customize-your-approach-to-your-target-market
+type: rule
 title: Do you customize your approach to your target market?
-created: 2014-10-13 17:02:42
+uri: do-you-customize-your-approach-to-your-target-market
+created: 2014-10-13T17:02:42.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

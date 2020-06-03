@@ -1,14 +1,15 @@
 ---
-uri: do-you-create-an-online-itinerary
+type: rule
 title: Do you create an online itinerary?
-created: 2015-04-28 05:11:40
+uri: do-you-create-an-online-itinerary
+created: 2015-04-28T05:11:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 41
-    title: Joanna Feely
----
+- id: 1
+  title: Adam Cogan
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

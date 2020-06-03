@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-part-of-sprint-review-to-drill-into-the-next-most-important-number-in-this-list
+type: rule
 title: Do you use part of sprint review to drill into the next most important number in this list?
-created: 2012-04-01 10:12:08
+uri: do-you-use-part-of-sprint-review-to-drill-into-the-next-most-important-number-in-this-list
+created: 2012-04-01T10:12:08.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

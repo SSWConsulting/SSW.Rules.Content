@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-share-a-touch-of-code
+type: rule
 title: Do you know how to share a touch of code?
-created: 2015-12-03 05:44:57
+uri: do-you-know-how-to-share-a-touch-of-code
+created: 2015-12-03T05:44:57.0000000Z
 authors:
-  - id: 45
-    title: Chris Briggs
----
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

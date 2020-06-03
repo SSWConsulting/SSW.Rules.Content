@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-high-quality-images
+type: rule
 title: Do you use high quality images?
-created: 2010-06-08 10:00:14
-authors:
+uri: do-you-use-high-quality-images
+created: 2010-06-08T10:00:14.0000000Z
+authors: []
 
 ---
-
 
 
 

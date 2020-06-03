@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-that-people-misunderstand-sarcasm-in-email
+type: rule
 title: Do you know that people misunderstand sarcasm in email?
-created: 2009-03-30 02:28:15
+uri: do-you-know-that-people-misunderstand-sarcasm-in-email
+created: 2009-03-30T02:28:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

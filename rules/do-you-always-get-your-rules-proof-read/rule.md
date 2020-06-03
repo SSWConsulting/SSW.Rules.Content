@@ -1,11 +1,11 @@
 ---
-uri: do-you-always-get-your-rules-proof-read
+type: rule
 title: Do you always get your rules proof read?
-created: 2010-03-19 01:00:47
-authors:
+uri: do-you-always-get-your-rules-proof-read
+created: 2010-03-19T01:00:47.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-using-one-form-for-data-entry
+type: rule
 title: Do you avoid using one form for data entry?
-created: 2014-12-01 00:57:26
-authors:
+uri: do-you-avoid-using-one-form-for-data-entry
+created: 2014-12-01T00:57:26.0000000Z
+authors: []
 
 ---
-
 
 
 

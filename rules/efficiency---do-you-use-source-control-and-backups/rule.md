@@ -1,12 +1,13 @@
 ---
-uri: efficiency---do-you-use-source-control-and-backups
+type: rule
 title: Efficiency - Do you use Source Control and Backups?
-created: 2012-09-25 17:51:06
+uri: efficiency---do-you-use-source-control-and-backups
+created: 2012-09-25T17:51:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-you-should-do-a-retrospective-after-an-activity-ends-aka-feedback
+type: rule
 title: Do you know you should do a retrospective after an activity ends (a.k.a. Feedback)?
-created: 2014-09-24 18:27:34
+uri: do-you-know-you-should-do-a-retrospective-after-an-activity-ends-aka-feedback
+created: 2014-09-24T18:27:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 46
-    title: Danijel Malik
----
+- id: 1
+  title: Adam Cogan
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

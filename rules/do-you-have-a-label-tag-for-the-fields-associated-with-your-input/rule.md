@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-label-tag-for-the-fields-associated-with-your-input
+type: rule
 title: Do you have a label tag for the fields associated with your input?
-created: 2014-12-16 18:47:45
+uri: do-you-have-a-label-tag-for-the-fields-associated-with-your-input
+created: 2014-12-16T18:47:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

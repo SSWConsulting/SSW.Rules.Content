@@ -1,11 +1,11 @@
 ---
-uri: do-you-make-sure-your-page-name-is-consistent-in-three-places
+type: rule
 title: Do you make sure your page name is consistent in three places?
-created: 2015-02-16 01:53:43
-authors:
+uri: do-you-make-sure-your-page-name-is-consistent-in-three-places
+created: 2015-02-16T01:53:43.0000000Z
+authors: []
 
 ---
-
 
 
 

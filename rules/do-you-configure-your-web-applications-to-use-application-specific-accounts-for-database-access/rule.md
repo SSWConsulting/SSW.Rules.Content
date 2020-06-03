@@ -1,12 +1,13 @@
 ---
-uri: do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
+type: rule
 title: Do you configure your web applications to use application specific accounts for database access?
-created: 2015-02-18 23:55:56
+uri: do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
+created: 2015-02-18T23:55:56.0000000Z
 authors:
-  - id: 43
-    title: Michael Demarco
----
+- id: 43
+  title: Michael Demarco
 
+---
 
 
 

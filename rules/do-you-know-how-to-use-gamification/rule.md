@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-use-gamification
+type: rule
 title: Do you know how to use "gamification"?
-created: 2012-11-27 01:42:48
+uri: do-you-know-how-to-use-gamification
+created: 2012-11-27T01:42:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

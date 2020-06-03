@@ -1,14 +1,15 @@
 ---
-uri: management---do-you-use-xpscrum-wisely
+type: rule
 title: Management - Do you use XP/Scrum wisely?
-created: 2009-02-28 09:45:21
+uri: management---do-you-use-xpscrum-wisely
+created: 2009-02-28T09:45:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

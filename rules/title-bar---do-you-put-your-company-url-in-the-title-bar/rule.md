@@ -1,11 +1,11 @@
 ---
-uri: title-bar---do-you-put-your-company-url-in-the-title-bar
+type: rule
 title: Title Bar - Do you put your company URL in the title bar?
-created: 2012-11-27 02:37:12
-authors:
+uri: title-bar---do-you-put-your-company-url-in-the-title-bar
+created: 2012-11-27T02:37:12.0000000Z
+authors: []
 
 ---
-
 
 
 

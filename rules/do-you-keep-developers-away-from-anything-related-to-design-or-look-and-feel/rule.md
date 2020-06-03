@@ -1,11 +1,11 @@
 ---
-uri: do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
+type: rule
 title: Do you keep developers away from anything related to design or look and feel?
-created: 2015-10-07 03:50:51
-authors:
+uri: do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
+created: 2015-10-07T03:50:51.0000000Z
+authors: []
 
 ---
-
 
 
 

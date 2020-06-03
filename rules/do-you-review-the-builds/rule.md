@@ -1,12 +1,13 @@
 ---
-uri: do-you-review-the-builds
+type: rule
 title: Do you review the Builds?
-created: 2012-04-01 10:14:24
+uri: do-you-review-the-builds
+created: 2012-04-01T10:14:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

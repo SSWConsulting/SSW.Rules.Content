@@ -1,14 +1,15 @@
 ---
-uri: are-you-always-careful-with-your-spelling-grammar-and-punctuation
+type: rule
 title: Are you always careful with your spelling, grammar, and punctuation?
-created: 2009-03-30 02:31:33
+uri: are-you-always-careful-with-your-spelling-grammar-and-punctuation
+created: 2009-03-30T02:31:33.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

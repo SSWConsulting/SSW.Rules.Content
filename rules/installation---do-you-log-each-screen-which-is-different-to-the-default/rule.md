@@ -1,12 +1,13 @@
 ---
-uri: installation---do-you-log-each-screen-which-is-different-to-the-default
+type: rule
 title: Installation - Do you log each screen which is different to the default?
-created: 2012-12-10 17:48:36
+uri: installation---do-you-log-each-screen-which-is-different-to-the-default
+created: 2012-12-10T17:48:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

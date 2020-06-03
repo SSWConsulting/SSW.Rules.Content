@@ -1,12 +1,13 @@
 ---
-uri: management---do-you-know-who-has-authority
+type: rule
 title: Management - Do you know who has authority?
-created: 2009-02-19 02:27:53
+uri: management---do-you-know-who-has-authority
+created: 2009-02-19T02:27:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

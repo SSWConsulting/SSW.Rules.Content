@@ -1,11 +1,11 @@
 ---
-uri: do-you-always-follow-up-your-clients
+type: rule
 title: Do you always follow up your clients?
-created: 2010-07-16 02:27:03
-authors:
+uri: do-you-always-follow-up-your-clients
+created: 2010-07-16T02:27:03.0000000Z
+authors: []
 
 ---
-
 
 
 

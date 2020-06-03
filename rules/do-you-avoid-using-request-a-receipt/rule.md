@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-using-request-a-receipt
+type: rule
 title: Do you avoid using "Request a Receipt"?
-created: 2009-04-03 03:26:51
+uri: do-you-avoid-using-request-a-receipt
+created: 2009-04-03T03:26:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

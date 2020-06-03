@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-modern-alternatives-to-using-a-whiteboard
+type: rule
 title: Do you know the modern alternatives to using a whiteboard?
-created: 2018-09-07 18:37:51
+uri: do-you-know-the-modern-alternatives-to-using-a-whiteboard
+created: 2018-09-07T18:37:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

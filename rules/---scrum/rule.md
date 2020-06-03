@@ -1,12 +1,13 @@
 ---
-uri: ---scrum
+type: rule
 title: 方法论 - 你是否每日进行Scrum会议（站立会议）
-created: 2012-03-05 07:14:24
+uri: '---scrum'
+created: 2012-03-05T07:14:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,18 +1,19 @@
 ---
-uri: do-you-know-to-clean-up-your-shelvesets
+type: rule
 title: Do you know to clean up your Shelveset’s?
-created: 2011-11-28 07:42:21
+uri: do-you-know-to-clean-up-your-shelvesets
+created: 2011-11-28T07:42:21.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 22
-    title: David Klein
----
+- id: 3
+  title: Eric Phan
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 22
+  title: David Klein
 
+---
 
 
 

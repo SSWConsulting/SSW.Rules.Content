@@ -1,12 +1,13 @@
 ---
-uri: general---do-you-enjoy-your-job
+type: rule
 title: General - Do you enjoy your job?
-created: 2012-09-25 17:59:27
+uri: general---do-you-enjoy-your-job
+created: 2012-09-25T17:59:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

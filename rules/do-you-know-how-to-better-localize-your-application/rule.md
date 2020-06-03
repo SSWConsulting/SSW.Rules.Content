@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-better-localize-your-application
+type: rule
 title: Do you know how to better localize your application?
-created: 2015-09-30 05:41:31
+uri: do-you-know-how-to-better-localize-your-application
+created: 2015-09-30T05:41:31.0000000Z
 authors:
-  - id: 50
-    title: Martin Li
----
+- id: 50
+  title: Martin Li
 
+---
 
 
 

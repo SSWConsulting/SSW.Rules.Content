@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-make-quotations-easier-to-identify
+type: rule
 title: Do you know how to make quotations easier to identify?
-created: 2016-04-21 04:15:15
-authors:
+uri: do-you-know-how-to-make-quotations-easier-to-identify
+created: 2016-04-21T04:15:15.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: long-process---do-you-show-the-status-of-progress-bar-on-winforms-title
+type: rule
 title: Long Process - Do you show the status of progress bar on winform's title?
-created: 2012-11-27 02:59:56
-authors:
+uri: long-process---do-you-show-the-status-of-progress-bar-on-winforms-title
+created: 2012-11-27T02:59:56.0000000Z
+authors: []
 
 ---
-
 
 
 

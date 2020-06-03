@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-tooltips-for-icons-on-the-kendo-grid
+type: rule
 title: Do You have Tooltips for Icons on the Kendo Grid?
-created: 2014-05-05 19:09:56
+uri: do-you-have-tooltips-for-icons-on-the-kendo-grid
+created: 2014-05-05T19:09:56.0000000Z
 authors:
-  - id: 34
-    title: Brendan Richards
-  - id: 1
-    title: Adam Cogan
----
+- id: 34
+  title: Brendan Richards
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

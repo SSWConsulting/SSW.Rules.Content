@@ -1,11 +1,11 @@
 ---
-uri: do-you-send-out-an-email-summary-after-each-meeting
+type: rule
 title: Do you send out an email summary after each meeting?
-created: 2014-11-05 23:45:03
-authors:
+uri: do-you-send-out-an-email-summary-after-each-meeting
+created: 2014-11-05T23:45:03.0000000Z
+authors: []
 
 ---
-
 
 
 

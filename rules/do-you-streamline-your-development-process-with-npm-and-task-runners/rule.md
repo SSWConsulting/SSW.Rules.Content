@@ -1,14 +1,15 @@
 ---
-uri: do-you-streamline-your-development-process-with-npm-and-task-runners
+type: rule
 title: Do you streamline your development process with NPM and Task Runners?
-created: 2015-08-11 04:20:48
+uri: do-you-streamline-your-development-process-with-npm-and-task-runners
+created: 2015-08-11T04:20:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 45
-    title: Chris Briggs
----
+- id: 1
+  title: Adam Cogan
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: charts---do-you-use-bar-graph-rather-than-pie-graph
+type: rule
 title: Charts - Do you use bar graph rather than pie graph?
-created: 2014-12-01 05:54:53
-authors:
+uri: charts---do-you-use-bar-graph-rather-than-pie-graph
+created: 2014-12-01T05:54:53.0000000Z
+authors: []
 
 ---
-
 
 
 

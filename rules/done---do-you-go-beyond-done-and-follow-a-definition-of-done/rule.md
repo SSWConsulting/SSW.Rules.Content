@@ -1,18 +1,19 @@
 ---
-uri: done---do-you-go-beyond-done-and-follow-a-definition-of-done
+type: rule
 title: Done - Do you go beyond 'Done' and follow a 'Definition of Done'?
-created: 2010-02-10 00:09:02
+uri: done---do-you-go-beyond-done-and-follow-a-definition-of-done
+created: 2010-02-10T00:09:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 12
-    title: Peter Gfader
-  - id: 13
-    title: Paul Neumeyer
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 12
+  title: Peter Gfader
+- id: 13
+  title: Paul Neumeyer
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

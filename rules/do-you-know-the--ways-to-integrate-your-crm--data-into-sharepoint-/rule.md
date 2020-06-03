@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-the--ways-to-integrate-your-crm--data-into-sharepoint-
+type: rule
 title: Do you know the 6 ways to integrate your CRM 2011 data into SharePoint 2010?
-created: 2011-08-24 03:52:23
+uri: do-you-know-the--ways-to-integrate-your-crm--data-into-sharepoint-
+created: 2011-08-24T03:52:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 24
-    title: Adam Stephensen
-  - id: 9
-    title: William Yin
----
+- id: 1
+  title: Adam Cogan
+- id: 24
+  title: Adam Stephensen
+- id: 9
+  title: William Yin
 
+---
 
 
 

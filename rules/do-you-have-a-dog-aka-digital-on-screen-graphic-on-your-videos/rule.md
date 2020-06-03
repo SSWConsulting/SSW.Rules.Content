@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
+type: rule
 title: Do you have a DOG (AKA digital on-screen graphic) on your videos?
-created: 2014-09-12 18:31:20
+uri: do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
+created: 2014-09-12T18:31:20.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 27
+  title: Titus Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

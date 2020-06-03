@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-bundling-andor-amd
+type: rule
 title: Do you use Bundling and/or AMD
-created: 2015-06-16 07:41:41
+uri: do-you-use-bundling-andor-amd
+created: 2015-06-16T07:41:41.0000000Z
 authors:
-  - id: 34
-    title: Brendan Richards
-  - id: 44
-    title: Duncan Hunter
----
+- id: 34
+  title: Brendan Richards
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

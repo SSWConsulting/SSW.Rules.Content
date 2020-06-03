@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-that-gated-checkins-mask-dysfunction
+type: rule
 title: Do You Know That Gated Checkins Mask Dysfunction?
-created: 2012-11-01 15:15:53
+uri: do-you-know-that-gated-checkins-mask-dysfunction
+created: 2012-11-01T15:15:53.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

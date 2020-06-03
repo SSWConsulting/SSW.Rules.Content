@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-you-should-write-notes-when-an-activity-is-going
+type: rule
 title: Do you know you should write notes when an activity is going?
-created: 2014-09-24 18:21:26
+uri: do-you-know-you-should-write-notes-when-an-activity-is-going
+created: 2014-09-24T18:21:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 46
-    title: Danijel Malik
-  - id: 41
-    title: Joanna Feely
----
+- id: 1
+  title: Adam Cogan
+- id: 46
+  title: Danijel Malik
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-which-reports-are-being-used
+type: rule
 title: Do you know which reports are being used?
-created: 2016-09-12 00:56:03
+uri: do-you-know-which-reports-are-being-used
+created: 2016-09-12T00:56:03.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

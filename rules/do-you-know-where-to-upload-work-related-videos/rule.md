@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-where-to-upload-work-related-videos
+type: rule
 title: Do you know where to upload work related videos?
-created: 2018-02-28 17:44:02
+uri: do-you-know-where-to-upload-work-related-videos
+created: 2018-02-28T17:44:02.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

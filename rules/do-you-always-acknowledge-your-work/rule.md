@@ -1,14 +1,15 @@
 ---
-uri: do-you-always-acknowledge-your-work
+type: rule
 title: Do you always acknowledge your work?
-created: 2014-12-09 19:01:12
+uri: do-you-always-acknowledge-your-work
+created: 2014-12-09T19:01:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

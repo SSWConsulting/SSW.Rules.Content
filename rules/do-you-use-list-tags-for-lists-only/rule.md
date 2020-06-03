@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-list-tags-for-lists-only
+type: rule
 title: Do you use "list" tags for lists only?
-created: 2012-07-02 15:02:44
+uri: do-you-use-list-tags-for-lists-only
+created: 2012-07-02T15:02:44.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

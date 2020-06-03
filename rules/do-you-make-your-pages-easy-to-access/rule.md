@@ -1,11 +1,11 @@
 ---
-uri: do-you-make-your-pages-easy-to-access
+type: rule
 title: Do you make your pages easy to access?
-created: 2015-02-16 02:01:29
-authors:
+uri: do-you-make-your-pages-easy-to-access
+created: 2015-02-16T02:01:29.0000000Z
+authors: []
 
 ---
-
 
 
 

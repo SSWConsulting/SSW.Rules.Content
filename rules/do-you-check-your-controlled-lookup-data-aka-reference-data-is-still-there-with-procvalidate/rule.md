@@ -1,12 +1,13 @@
 ---
-uri: do-you-check-your-controlled-lookup-data-aka-reference-data-is-still-there-with-procvalidate
+type: rule
 title: Do you check your "Controlled Lookup Data" (aka Reference Data) is still there with procValidate?
-created: 2009-10-05 22:35:51
+uri: do-you-check-your-controlled-lookup-data-aka-reference-data-is-still-there-with-procvalidate
+created: 2009-10-05T22:35:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

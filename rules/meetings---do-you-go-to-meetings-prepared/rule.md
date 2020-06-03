@@ -1,11 +1,11 @@
 ---
-uri: meetings---do-you-go-to-meetings-prepared
+type: rule
 title: Meetings - Do you go to meetings prepared?
-created: 2010-07-16 06:25:57
-authors:
+uri: meetings---do-you-go-to-meetings-prepared
+created: 2010-07-16T06:25:57.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: being-pedantic---do-you-use-balloon-tooltip
+type: rule
 title: Being Pedantic - Do you use balloon tooltip?
-created: 2012-11-27 09:23:38
-authors:
+uri: being-pedantic---do-you-use-balloon-tooltip
+created: 2012-11-27T09:23:38.0000000Z
+authors: []
 
 ---
-
 
 
 

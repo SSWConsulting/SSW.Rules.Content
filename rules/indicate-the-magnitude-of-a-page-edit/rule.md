@@ -1,12 +1,13 @@
 ---
-uri: indicate-the-magnitude-of-a-page-edit
+type: rule
 title: Indicate the magnitude of a page edit
-created: 2009-11-09 08:24:15
+uri: indicate-the-magnitude-of-a-page-edit
+created: 2009-11-09T08:24:15.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

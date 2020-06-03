@@ -1,14 +1,15 @@
 ---
-uri: do-you-update-your-nuget-packages
+type: rule
 title: Do you update your NuGet packages?
-created: 2014-08-21 19:03:22
+uri: do-you-update-your-nuget-packages
+created: 2014-08-21T19:03:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 40
-    title: Igor Goldobin
----
+- id: 1
+  title: Adam Cogan
+- id: 40
+  title: Igor Goldobin
 
+---
 
 
 

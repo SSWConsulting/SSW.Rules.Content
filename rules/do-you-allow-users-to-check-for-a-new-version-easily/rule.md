@@ -1,12 +1,13 @@
 ---
-uri: do-you-allow-users-to-check-for-a-new-version-easily
+type: rule
 title: Do you allow users to check for a new version easily?
-created: 2009-02-28 09:42:15
+uri: do-you-allow-users-to-check-for-a-new-version-easily
+created: 2009-02-28T09:42:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

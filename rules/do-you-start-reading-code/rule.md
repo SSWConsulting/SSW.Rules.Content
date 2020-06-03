@@ -1,16 +1,17 @@
 ---
-uri: do-you-start-reading-code
+type: rule
 title: Do you start reading code?
-created: 2012-03-20 03:46:01
+uri: do-you-start-reading-code
+created: 2012-03-20T03:46:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 24
-    title: Adam Stephensen
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 24
+  title: Adam Stephensen
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

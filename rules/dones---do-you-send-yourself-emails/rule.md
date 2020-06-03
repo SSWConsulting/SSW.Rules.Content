@@ -1,16 +1,17 @@
 ---
-uri: dones---do-you-send-yourself-emails
+type: rule
 title: Dones - Do you send yourself emails?
-created: 2009-03-26 02:29:14
+uri: dones---do-you-send-yourself-emails
+created: 2009-03-26T02:29:14.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

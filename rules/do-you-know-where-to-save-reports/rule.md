@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-where-to-save-reports
+type: rule
 title: Do you know where to save reports?
-created: 2016-04-26 14:42:38
+uri: do-you-know-where-to-save-reports
+created: 2016-04-26T14:42:38.0000000Z
 authors:
-  - id: 15
-    title: Mark Liu
----
+- id: 15
+  title: Mark Liu
 
+---
 
 
 

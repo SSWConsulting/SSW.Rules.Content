@@ -1,14 +1,15 @@
 ---
-uri: do-you-respond-to-each-email-individually
+type: rule
 title: Do you respond to each email individually?
-created: 2009-03-31 02:14:33
+uri: do-you-respond-to-each-email-individually
+created: 2009-03-31T02:14:33.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

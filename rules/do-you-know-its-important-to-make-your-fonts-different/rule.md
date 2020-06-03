@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-its-important-to-make-your-fonts-different
+type: rule
 title: Do you know it's important to make your fonts different?
-created: 2014-12-16 18:08:26
+uri: do-you-know-its-important-to-make-your-fonts-different
+created: 2014-12-16T18:08:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

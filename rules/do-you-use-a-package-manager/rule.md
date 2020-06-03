@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-a-package-manager
+type: rule
 title: Do you use a package manager?
-created: 2016-06-17 06:29:18
+uri: do-you-use-a-package-manager
+created: 2016-06-17T06:29:18.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

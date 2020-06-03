@@ -1,12 +1,13 @@
 ---
-uri: efficiency---do-all-your-employees-know-the-quickest-way-to-fix-small-web-errors
+type: rule
 title: Efficiency - Do all your employees know the quickest way to fix small web errors?
-created: 2016-11-16 16:22:22
+uri: efficiency---do-all-your-employees-know-the-quickest-way-to-fix-small-web-errors
+created: 2016-11-16T16:22:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

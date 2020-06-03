@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-ways-to-keep-track-of-your-time
+type: rule
 title: Do you know the best ways to keep track of your time?
-created: 2013-04-19 19:33:05
+uri: do-you-know-the-best-ways-to-keep-track-of-your-time
+created: 2013-04-19T19:33:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

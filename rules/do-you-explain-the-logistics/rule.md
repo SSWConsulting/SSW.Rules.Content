@@ -1,12 +1,13 @@
 ---
-uri: do-you-explain-the-logistics
+type: rule
 title: Do you explain the logistics?
-created: 2013-01-29 20:03:42
+uri: do-you-explain-the-logistics
+created: 2013-01-29T20:03:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

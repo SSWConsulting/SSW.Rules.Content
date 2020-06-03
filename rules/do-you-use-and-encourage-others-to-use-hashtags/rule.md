@@ -1,20 +1,21 @@
 ---
-uri: do-you-use-and-encourage-others-to-use-hashtags
+type: rule
 title: Do you use and encourage others to use hashtags?
-created: 2010-09-07 12:59:28
+uri: do-you-use-and-encourage-others-to-use-hashtags
+created: 2010-09-07T12:59:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 41
-    title: Joanna Feely
-  - id: 16
-    title: Tiago Araujo
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
+- id: 41
+  title: Joanna Feely
+- id: 16
+  title: Tiago Araujo
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

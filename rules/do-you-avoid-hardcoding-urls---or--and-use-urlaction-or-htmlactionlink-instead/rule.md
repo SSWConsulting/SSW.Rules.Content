@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-hardcoding-urls---or--and-use-urlaction-or-htmlactionlink-instead
+type: rule
 title: Do you avoid hardcoding URLs (“../”, “~/”, or “/”) and use Url.Action or Html.ActionLink instead?
-created: 2013-03-07 18:51:39
+uri: do-you-avoid-hardcoding-urls---or--and-use-urlaction-or-htmlactionlink-instead
+created: 2013-03-07T18:51:39.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

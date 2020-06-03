@@ -1,12 +1,13 @@
 ---
-uri: management---do-you-fix-bugs-first
+type: rule
 title: Management - Do you fix bugs first?
-created: 2009-02-28 09:43:45
+uri: management---do-you-fix-bugs-first
+created: 2009-02-28T09:43:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

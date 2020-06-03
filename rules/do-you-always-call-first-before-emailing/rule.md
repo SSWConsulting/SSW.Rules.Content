@@ -1,12 +1,13 @@
 ---
-uri: do-you-always-call-first-before-emailing
+type: rule
 title: Do you always call first before emailing?
-created: 2014-12-19 06:39:33
+uri: do-you-always-call-first-before-emailing
+created: 2014-12-19T06:39:33.0000000Z
 authors:
-  - id: 44
-    title: Duncan Hunter
----
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

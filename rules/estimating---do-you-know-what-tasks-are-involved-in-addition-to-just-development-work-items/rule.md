@@ -1,18 +1,19 @@
 ---
-uri: estimating---do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items
+type: rule
 title: Estimating - Do you know what tasks are involved in addition to just Development Work Items?
-created: 2009-08-20 04:45:49
+uri: estimating---do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items
+created: 2009-08-20T04:45:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

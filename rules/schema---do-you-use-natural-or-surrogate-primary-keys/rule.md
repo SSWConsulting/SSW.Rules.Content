@@ -1,12 +1,13 @@
 ---
-uri: schema---do-you-use-natural-or-surrogate-primary-keys
+type: rule
 title: Schema - Do you use Natural or Surrogate primary keys?
-created: 2019-11-05 23:14:05
+uri: schema---do-you-use-natural-or-surrogate-primary-keys
+created: 2019-11-05T23:14:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

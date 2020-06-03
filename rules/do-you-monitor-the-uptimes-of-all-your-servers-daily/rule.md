@@ -1,12 +1,13 @@
 ---
-uri: do-you-monitor-the-uptimes-of-all-your-servers-daily
+type: rule
 title: Do you monitor the uptimes of all your servers daily?
-created: 2017-07-10 23:10:04
+uri: do-you-monitor-the-uptimes-of-all-your-servers-daily
+created: 2017-07-10T23:10:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

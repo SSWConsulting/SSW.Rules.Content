@@ -1,18 +1,19 @@
 ---
-uri: do-you-use-ms-project-integration-with-tfs-
+type: rule
 title: Do you use MS Project integration with TFS 2012?
-created: 2009-11-03 11:32:03
+uri: do-you-use-ms-project-integration-with-tfs-
+created: 2009-11-03T11:32:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

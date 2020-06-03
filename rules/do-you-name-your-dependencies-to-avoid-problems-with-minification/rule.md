@@ -1,12 +1,13 @@
 ---
-uri: do-you-name-your-dependencies-to-avoid-problems-with-minification
+type: rule
 title: Do you name your dependencies to avoid problems with minification?
-created: 2014-10-07 14:42:09
+uri: do-you-name-your-dependencies-to-avoid-problems-with-minification
+created: 2014-10-07T14:42:09.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

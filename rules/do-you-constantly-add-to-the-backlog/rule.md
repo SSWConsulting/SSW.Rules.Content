@@ -1,14 +1,15 @@
 ---
-uri: do-you-constantly-add-to-the-backlog
+type: rule
 title: Do you constantly add to the backlog?
-created: 2009-02-27 00:56:56
+uri: do-you-constantly-add-to-the-backlog
+created: 2009-02-27T00:56:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

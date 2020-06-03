@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-thin-controllers-fat-models-and-dumb-views
+type: rule
 title: Do you use Thin controllers, Fat models and Dumb views?
-created: 2012-07-18 17:54:57
+uri: do-you-use-thin-controllers-fat-models-and-dumb-views
+created: 2012-07-18T17:54:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

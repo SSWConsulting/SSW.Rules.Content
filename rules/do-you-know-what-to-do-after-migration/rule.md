@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-to-do-after-migration
+type: rule
 title: Do you know what to do after migration?
-created: 2018-01-17 23:39:06
+uri: do-you-know-what-to-do-after-migration
+created: 2018-01-17T23:39:06.0000000Z
 authors:
-  - id: 69
-    title: Jean Thirion
----
+- id: 69
+  title: Jean Thirion
 
+---
 
 
 

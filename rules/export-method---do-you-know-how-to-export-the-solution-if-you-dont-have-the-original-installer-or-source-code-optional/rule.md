@@ -1,16 +1,17 @@
 ---
-uri: export-method---do-you-know-how-to-export-the-solution-if-you-dont-have-the-original-installer-or-source-code-optional
+type: rule
 title: Export Method - Do you know how to export the solution if you don’t have the original installer or source code? (optional)
-created: 2010-12-23 03:04:11
+uri: export-method---do-you-know-how-to-export-the-solution-if-you-dont-have-the-original-installer-or-source-code-optional
+created: 2010-12-23T03:04:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 9
-    title: William Yin
----
+- id: 1
+  title: Adam Cogan
+- id: 21
+  title: Matthew Hodgkins
+- id: 9
+  title: William Yin
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-to-check-if-your-control-director-is-running-slowly
+type: rule
 title: Do you know what to check if your Control4 Director is running slowly?
-created: 2017-11-02 03:44:57
+uri: do-you-know-what-to-check-if-your-control-director-is-running-slowly
+created: 2017-11-02T03:44:57.0000000Z
 authors:
-  - id: 70
-    title: Greg Harris
----
+- id: 70
+  title: Greg Harris
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-run-two-or-more-test-migrations-before-a-live-migration
+type: rule
 title: Do you run two or more test migrations before a live migration
-created: 2013-11-11 07:47:10
+uri: do-you-run-two-or-more-test-migrations-before-a-live-migration
+created: 2013-11-11T07:47:10.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

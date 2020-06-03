@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-configure-which-environments-to-use-for-a-particular-test
+type: rule
 title: Do you know how to configure which environments to use for a particular test?
-created: 2012-07-23 19:42:33
+uri: do-you-know-how-to-configure-which-environments-to-use-for-a-particular-test
+created: 2012-07-23T19:42:33.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

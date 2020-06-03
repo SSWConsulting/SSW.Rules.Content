@@ -1,20 +1,21 @@
 ---
-uri: do-you-understand-a-data-type-change--data-motion-scripts
+type: rule
 title: Do you understand a data type change = "Data Motion Scripts"?
-created: 2009-10-07 00:12:39
+uri: do-you-understand-a-data-type-change--data-motion-scripts
+created: 2009-10-07T00:12:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 44
-    title: Duncan Hunter
-  - id: 34
-    title: Brendan Richards
-  - id: 53
-    title: Thiago Passos
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
+- id: 44
+  title: Duncan Hunter
+- id: 34
+  title: Brendan Richards
+- id: 53
+  title: Thiago Passos
 
+---
 
 
 

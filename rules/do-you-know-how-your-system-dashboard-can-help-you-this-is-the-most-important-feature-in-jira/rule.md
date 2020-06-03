@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira
+type: rule
 title: Do you know how your System Dashboard can help you? (this is the most important feature in Jira)
-created: 2009-08-25 00:33:22
-authors:
+uri: do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira
+created: 2009-08-25T00:33:22.0000000Z
+authors: []
 
 ---
-
 
 
 

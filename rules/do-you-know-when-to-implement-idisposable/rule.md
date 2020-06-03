@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-when-to-implement-idisposable
+type: rule
 title: Do you know when to implement IDisposable?
-created: 2019-01-11 23:59:37
-authors:
+uri: do-you-know-when-to-implement-idisposable
+created: 2019-01-11T23:59:37.0000000Z
+authors: []
 
 ---
-
 
 
 

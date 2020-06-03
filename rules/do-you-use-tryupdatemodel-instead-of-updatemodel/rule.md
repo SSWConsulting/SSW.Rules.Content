@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-tryupdatemodel-instead-of-updatemodel
+type: rule
 title: Do you use TryUpdateModel instead of UpdateModel?
-created: 2013-03-07 18:11:22
+uri: do-you-use-tryupdatemodel-instead-of-updatemodel
+created: 2013-03-07T18:11:22.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

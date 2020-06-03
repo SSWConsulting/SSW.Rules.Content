@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-word-template
+type: rule
 title: Do you have a Word template?
-created: 2019-08-21 20:46:40
+uri: do-you-have-a-word-template
+created: 2019-08-21T20:46:40.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

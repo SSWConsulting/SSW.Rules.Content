@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-stringempty-instead-of-
+type: rule
 title: Do you use String.Empty instead of ""?
-created: 2018-04-25 21:51:21
+uri: do-you-use-stringempty-instead-of-
+created: 2018-04-25T21:51:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

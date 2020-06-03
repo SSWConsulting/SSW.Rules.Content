@@ -1,16 +1,17 @@
 ---
-uri: do-you-do-a-pre-migration-check-on-the-sharepoint--server
+type: rule
 title: Do you do a pre-migration check on the SharePoint 2007 Server
-created: 2010-12-23 02:47:08
+uri: do-you-do-a-pre-migration-check-on-the-sharepoint--server
+created: 2010-12-23T02:47:08.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 9
-    title: William Yin
----
+- id: 8
+  title: John Liu
+- id: 21
+  title: Matthew Hodgkins
+- id: 9
+  title: William Yin
 
+---
 
 
 

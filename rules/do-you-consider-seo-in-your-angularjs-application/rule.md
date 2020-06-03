@@ -1,14 +1,15 @@
 ---
-uri: do-you-consider-seo-in-your-angularjs-application
+type: rule
 title: Do you consider SEO in your AngularJS application?
-created: 2014-10-30 23:53:12
+uri: do-you-consider-seo-in-your-angularjs-application
+created: 2014-10-30T23:53:12.0000000Z
 authors:
-  - id: 44
-    title: Duncan Hunter
-  - id: 1
-    title: Adam Cogan
----
+- id: 44
+  title: Duncan Hunter
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

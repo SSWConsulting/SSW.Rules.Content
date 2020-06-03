@@ -1,11 +1,11 @@
 ---
-uri: estimating---do-you-know-what-to-do-when-you-believe-that-an-estimate-for-a-task-seems-risky-or-low-and-you-are-tempted-to-add-some-contingency
+type: rule
 title: Estimating - Do you know what to do when you believe that an estimate for a task seems risky or low and you are tempted to add some contingency?
-created: 2010-05-06 03:09:31
-authors:
+uri: estimating---do-you-know-what-to-do-when-you-believe-that-an-estimate-for-a-task-seems-risky-or-low-and-you-are-tempted-to-add-some-contingency
+created: 2010-05-06T03:09:31.0000000Z
+authors: []
 
 ---
-
 
 
 

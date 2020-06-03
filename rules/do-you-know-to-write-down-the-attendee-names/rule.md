@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-write-down-the-attendee-names
+type: rule
 title: Do you know to write down the Attendee Names?
-created: 2013-01-29 19:50:06
+uri: do-you-know-to-write-down-the-attendee-names
+created: 2013-01-29T19:50:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

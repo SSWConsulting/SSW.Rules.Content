@@ -1,11 +1,11 @@
 ---
-uri: do-you-provide-at-least-two-days-notice-for-people-in-other-time-zones
+type: rule
 title: Do you provide at least two days’ notice for people in other time zones?
-created: 2014-11-05 23:38:57
-authors:
+uri: do-you-provide-at-least-two-days-notice-for-people-in-other-time-zones
+created: 2014-11-05T23:38:57.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-draft-all-important-agreements-yourself
+type: rule
 title: Do you draft all important agreements yourself?
-created: 2009-05-13 06:37:31
+uri: do-you-draft-all-important-agreements-yourself
+created: 2009-05-13T06:37:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

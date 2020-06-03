@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-create-issues-in-jira
+type: rule
 title: Do you know how to create issues in Jira?
-created: 2009-09-02 01:34:40
-authors:
+uri: do-you-know-how-to-create-issues-in-jira
+created: 2009-09-02T01:34:40.0000000Z
+authors: []
 
 ---
-
 
 
 

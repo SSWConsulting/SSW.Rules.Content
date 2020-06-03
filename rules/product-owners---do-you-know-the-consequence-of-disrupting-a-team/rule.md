@@ -1,11 +1,11 @@
 ---
-uri: product-owners---do-you-know-the-consequence-of-disrupting-a-team
+type: rule
 title: Product Owners - Do you know the consequence of disrupting a team?
-created: 2010-04-13 01:56:44
-authors:
+uri: product-owners---do-you-know-the-consequence-of-disrupting-a-team
+created: 2010-04-13T01:56:44.0000000Z
+authors: []
 
 ---
-
 
 
 

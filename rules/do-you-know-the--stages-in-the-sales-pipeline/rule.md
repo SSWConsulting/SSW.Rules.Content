@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the--stages-in-the-sales-pipeline
+type: rule
 title: Do you know the 6 stages in the Sales Pipeline?
-created: 2012-08-30 13:06:58
+uri: do-you-know-the--stages-in-the-sales-pipeline
+created: 2012-08-30T13:06:58.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-reasons-why-calling-a-batch-file-from-the-build-process-template-is-better-than-deploying-directly-from-the-build
+type: rule
 title: Do you know the reasons why calling a Batch File from the Build Process Template is better than Deploying Directly from the Build?
-created: 2013-02-05 19:39:39
+uri: do-you-know-the-reasons-why-calling-a-batch-file-from-the-build-process-template-is-better-than-deploying-directly-from-the-build
+created: 2013-02-05T19:39:39.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

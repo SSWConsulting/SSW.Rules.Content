@@ -1,16 +1,17 @@
 ---
-uri: spec---what-are-the-specification-review-deliverables
+type: rule
 title: Spec - What are the Specification Review Deliverables?
-created: 2009-02-26 02:02:12
+uri: spec---what-are-the-specification-review-deliverables
+created: 2009-02-26T02:02:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 5
+  title: Justin King
 
+---
 
 
 

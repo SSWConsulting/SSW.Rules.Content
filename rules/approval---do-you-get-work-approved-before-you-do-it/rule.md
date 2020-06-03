@@ -1,18 +1,19 @@
 ---
-uri: approval---do-you-get-work-approved-before-you-do-it
+type: rule
 title: Approval - Do you get work approved before you do it?
-created: 2009-08-20 06:01:54
+uri: approval---do-you-get-work-approved-before-you-do-it
+created: 2009-08-20T06:01:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

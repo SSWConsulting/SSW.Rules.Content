@@ -1,12 +1,13 @@
 ---
-uri: do-you-make-your-team-meetings-easy-to-find
+type: rule
 title: Do you make your team meetings easy to find?
-created: 2020-04-02 06:07:17
+uri: do-you-make-your-team-meetings-easy-to-find
+created: 2020-04-02T06:07:17.0000000Z
 authors:
-  - id: 78
-    title: Matt Wicks
----
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

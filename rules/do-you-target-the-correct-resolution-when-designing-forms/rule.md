@@ -1,12 +1,13 @@
 ---
-uri: do-you-target-the-correct-resolution-when-designing-forms
+type: rule
 title: Do you target the correct resolution when designing forms?
-created: 2015-12-18 13:40:21
+uri: do-you-target-the-correct-resolution-when-designing-forms
+created: 2015-12-18T13:40:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

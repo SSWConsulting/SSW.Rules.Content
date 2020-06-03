@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-tip-dont-rant
+type: rule
 title: Do you know to tip, don’t rant
-created: 2010-09-07 15:53:44
+uri: do-you-know-to-tip-dont-rant
+created: 2010-09-07T15:53:44.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

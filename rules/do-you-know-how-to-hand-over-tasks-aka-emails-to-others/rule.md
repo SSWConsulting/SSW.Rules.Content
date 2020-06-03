@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-hand-over-tasks-aka-emails-to-others
+type: rule
 title: Do you know how to hand over tasks (aka Emails) to others?
-created: 2009-04-08 09:17:56
+uri: do-you-know-how-to-hand-over-tasks-aka-emails-to-others
+created: 2009-04-08T09:17:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

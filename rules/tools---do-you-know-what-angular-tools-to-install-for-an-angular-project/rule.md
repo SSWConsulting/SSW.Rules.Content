@@ -1,18 +1,19 @@
 ---
-uri: tools---do-you-know-what-angular-tools-to-install-for-an-angular-project
+type: rule
 title: Tools - Do you know what Angular Tools to install for an Angular project?
-created: 2016-12-20 14:01:27
+uri: tools---do-you-know-what-angular-tools-to-install-for-an-angular-project
+created: 2016-12-20T14:01:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 24
-    title: Adam Stephensen
-  - id: 44
-    title: Duncan Hunter
-  - id: 72
-    title: Gabriel George
----
+- id: 1
+  title: Adam Cogan
+- id: 24
+  title: Adam Stephensen
+- id: 44
+  title: Duncan Hunter
+- id: 72
+  title: Gabriel George
 
+---
 
 
 

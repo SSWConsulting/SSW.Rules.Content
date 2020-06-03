@@ -1,11 +1,11 @@
 ---
-uri: post-production---do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
+type: rule
 title: Post-Production - Do you add content to YouTube to feed traffic to your other sites?
-created: 2011-11-08 22:49:11
-authors:
+uri: post-production---do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
+created: 2011-11-08T22:49:11.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-name-documents
+type: rule
 title: Do you know how to name documents?
-created: 2019-02-26 01:04:10
+uri: do-you-know-how-to-name-documents
+created: 2019-02-26T01:04:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 9
-    title: William Yin
----
+- id: 1
+  title: Adam Cogan
+- id: 9
+  title: William Yin
 
+---
 
 
 

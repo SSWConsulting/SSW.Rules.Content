@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-when-to-use-value-objects
+type: rule
 title: Do you know when to use value objects?
-created: 2019-04-14 23:25:14
+uri: do-you-know-when-to-use-value-objects
+created: 2019-04-14T23:25:14.0000000Z
 authors:
-  - id: 81
-    title: Jason Taylor
----
+- id: 81
+  title: Jason Taylor
 
+---
 
 
 

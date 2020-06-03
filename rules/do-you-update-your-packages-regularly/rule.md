@@ -1,12 +1,13 @@
 ---
-uri: do-you-update-your-packages-regularly
+type: rule
 title: Do you update your packages regularly?
-created: 2014-11-27 18:18:39
+uri: do-you-update-your-packages-regularly
+created: 2014-11-27T18:18:39.0000000Z
 authors:
-  - id: 34
-    title: Brendan Richards
----
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

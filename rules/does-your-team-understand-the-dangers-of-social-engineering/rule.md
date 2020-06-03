@@ -1,12 +1,13 @@
 ---
-uri: does-your-team-understand-the-dangers-of-social-engineering
+type: rule
 title: Does your team understand the dangers of social engineering?
-created: 2016-06-02 21:43:24
+uri: does-your-team-understand-the-dangers-of-social-engineering
+created: 2016-06-02T21:43:24.0000000Z
 authors:
-  - id: 45
-    title: Chris Briggs
----
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

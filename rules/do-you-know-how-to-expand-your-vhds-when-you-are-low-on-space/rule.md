@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-expand-your-vhds-when-you-are-low-on-space
+type: rule
 title: Do you know how to expand your VHD's when you are low on space?
-created: 2011-02-14 03:46:30
+uri: do-you-know-how-to-expand-your-vhds-when-you-are-low-on-space
+created: 2011-02-14T03:46:30.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

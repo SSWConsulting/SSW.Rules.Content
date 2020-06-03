@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-add-the-clientid-as-your-email-subject-prefix-when-sending-an-email-regarding-a-client
+type: rule
 title: Do you know to add the ClientID as your email subject prefix when sending an email regarding a client?
-created: 2014-06-25 07:49:36
+uri: do-you-know-to-add-the-clientid-as-your-email-subject-prefix-when-sending-an-email-regarding-a-client
+created: 2014-06-25T07:49:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 9
-    title: William Yin
----
+- id: 1
+  title: Adam Cogan
+- id: 9
+  title: William Yin
 
+---
 
 
 

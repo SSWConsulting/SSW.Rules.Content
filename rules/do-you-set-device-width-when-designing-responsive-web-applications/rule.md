@@ -1,12 +1,13 @@
 ---
-uri: do-you-set-device-width-when-designing-responsive-web-applications
+type: rule
 title: Do you set device width when designing responsive web applications?
-created: 2014-06-21 03:26:58
+uri: do-you-set-device-width-when-designing-responsive-web-applications
+created: 2014-06-21T03:26:58.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

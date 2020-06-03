@@ -1,12 +1,13 @@
 ---
-uri: do-you-wait-before-applying-service-packs-or-upgrades
+type: rule
 title: Do you wait before applying Service Packs or upgrades?
-created: 2011-03-22 05:10:14
+uri: do-you-wait-before-applying-service-packs-or-upgrades
+created: 2011-03-22T05:10:14.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

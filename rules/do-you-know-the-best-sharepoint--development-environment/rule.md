@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-the-best-sharepoint--development-environment
+type: rule
 title: Do you know the best SharePoint 2010 development environment?
-created: 2009-12-15 06:34:40
+uri: do-you-know-the-best-sharepoint--development-environment
+created: 2009-12-15T06:34:40.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 8
+  title: John Liu
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

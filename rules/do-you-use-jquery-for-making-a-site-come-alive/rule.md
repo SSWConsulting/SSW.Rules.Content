@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-jquery-for-making-a-site-come-alive
+type: rule
 title: Do you use jQuery for making a site come alive?
-created: 2009-08-25 00:13:02
+uri: do-you-use-jquery-for-making-a-site-come-alive
+created: 2009-08-25T00:13:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

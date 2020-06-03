@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-perform-an-equipment-checklist
+type: rule
 title: Production - Do you perform an equipment checklist?
-created: 2011-07-01 08:33:35
+uri: production---do-you-perform-an-equipment-checklist
+created: 2011-07-01T08:33:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

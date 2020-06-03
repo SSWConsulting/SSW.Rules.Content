@@ -1,12 +1,13 @@
 ---
-uri: post-production---do-you-use-sd-or-hd-quality
+type: rule
 title: Post-Production - Do you use 'SD' or 'HD' quality?
-created: 2011-08-24 16:17:24
+uri: post-production---do-you-use-sd-or-hd-quality
+created: 2011-08-24T16:17:24.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

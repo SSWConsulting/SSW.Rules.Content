@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-group-policy-to-manage-your-windows-update-policy
+type: rule
 title: Do you use Group Policy to manage your Windows Update Policy?
-created: 2011-03-21 00:27:18
+uri: do-you-use-group-policy-to-manage-your-windows-update-policy
+created: 2011-03-21T00:27:18.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 1
-    title: Adam Cogan
----
+- id: 21
+  title: Matthew Hodgkins
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

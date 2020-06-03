@@ -1,14 +1,15 @@
 ---
-uri: do-you-include-application-insights-for-visual-studio-online-in-your-website
+type: rule
 title: Do you include Application Insights for Visual Studio Online in your website?
-created: 2014-08-20 04:10:49
+uri: do-you-include-application-insights-for-visual-studio-online-in-your-website
+created: 2014-08-20T04:10:49.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 1
-    title: Adam Cogan
----
+- id: 38
+  title: Drew Robson
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

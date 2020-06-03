@@ -1,12 +1,13 @@
 ---
-uri: do-you-follow-composite-application-guidance-formerly-code-named-prism-in-your-silverlight-and-wpf-projects
+type: rule
 title: Do you follow Composite Application Guidance (formerly code-named "Prism") in your Silverlight (and WPF) Projects?
-created: 2011-05-20 07:22:50
+uri: do-you-follow-composite-application-guidance-formerly-code-named-prism-in-your-silverlight-and-wpf-projects
+created: 2011-05-20T07:22:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

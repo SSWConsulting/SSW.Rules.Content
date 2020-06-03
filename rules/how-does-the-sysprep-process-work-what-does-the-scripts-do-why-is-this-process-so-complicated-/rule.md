@@ -1,11 +1,11 @@
 ---
-uri: how-does-the-sysprep-process-work-what-does-the-scripts-do-why-is-this-process-so-complicated-
+type: rule
 title: How does the sysprep process work, what does the scripts do? Why is this process so complicated ?
-created: 2009-02-26 02:03:41
-authors:
+uri: how-does-the-sysprep-process-work-what-does-the-scripts-do-why-is-this-process-so-complicated-
+created: 2009-02-26T02:03:41.0000000Z
+authors: []
 
 ---
-
 
 
 

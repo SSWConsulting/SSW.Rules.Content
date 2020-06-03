@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-the-best-deployment-tool
+type: rule
 title: Do you use the best deployment tool?
-created: 2015-01-02 01:35:53
+uri: do-you-use-the-best-deployment-tool
+created: 2015-01-02T01:35:53.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
-  - id: 1
-    title: Adam Cogan
----
+- id: 23
+  title: Damian Brady
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

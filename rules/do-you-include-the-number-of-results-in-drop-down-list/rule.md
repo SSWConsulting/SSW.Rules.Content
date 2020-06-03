@@ -1,12 +1,13 @@
 ---
-uri: do-you-include-the-number-of-results-in-drop-down-list
+type: rule
 title: Do you include the number of results in drop down list?
-created: 2014-12-12 19:23:59
+uri: do-you-include-the-number-of-results-in-drop-down-list
+created: 2014-12-12T19:23:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

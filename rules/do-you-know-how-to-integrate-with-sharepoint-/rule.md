@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-integrate-with-sharepoint-
+type: rule
 title: Do you know how to integrate with SharePoint 2010?
-created: 2010-05-17 09:08:46
+uri: do-you-know-how-to-integrate-with-sharepoint-
+created: 2010-05-17T09:08:46.0000000Z
 authors:
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

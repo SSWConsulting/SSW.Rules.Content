@@ -1,12 +1,13 @@
 ---
-uri: do-you-call-instead-of-im-when-communication-is-not-simple
+type: rule
 title: Do you call instead of IM when communication is not simple?
-created: 2018-12-11 19:26:54
+uri: do-you-call-instead-of-im-when-communication-is-not-simple
+created: 2018-12-11T19:26:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

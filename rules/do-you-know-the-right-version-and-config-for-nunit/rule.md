@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-right-version-and-config-for-nunit
+type: rule
 title: Do you know the right version and config for nUnit?
-created: 2020-03-12 23:01:15
+uri: do-you-know-the-right-version-and-config-for-nunit
+created: 2020-03-12T23:01:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

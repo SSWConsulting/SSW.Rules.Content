@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-the-security-options-in-outlook
+type: rule
 title: Do you use the security options in Outlook?
-created: 2009-04-03 08:20:20
+uri: do-you-use-the-security-options-in-outlook
+created: 2009-04-03T08:20:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

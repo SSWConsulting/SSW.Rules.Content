@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-be-pushy-when-you-need-to-be
+type: rule
 title: Do you know how to be pushy when you need to be?
-created: 2010-07-16 04:34:06
-authors:
+uri: do-you-know-how-to-be-pushy-when-you-need-to-be
+created: 2010-07-16T04:34:06.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-make-your-links-intuitive
+type: rule
 title: Do you make your links intuitive?
-created: 2015-02-16 01:55:22
-authors:
+uri: do-you-make-your-links-intuitive
+created: 2015-02-16T01:55:22.0000000Z
+authors: []
 
 ---
-
 
 
 

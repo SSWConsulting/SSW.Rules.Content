@@ -1,14 +1,15 @@
 ---
-uri: do-you-run-acceptance-tests
+type: rule
 title: Do You Run Acceptance Tests?
-created: 2012-08-01 15:07:10
+uri: do-you-run-acceptance-tests
+created: 2012-08-01T15:07:10.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

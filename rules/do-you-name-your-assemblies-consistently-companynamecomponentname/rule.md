@@ -1,14 +1,15 @@
 ---
-uri: do-you-name-your-assemblies-consistently-companynamecomponentname
+type: rule
 title: Do you name your assemblies consistently (<CompanyName>.<ComponentName>)?
-created: 2009-04-28 02:16:10
+uri: do-you-name-your-assemblies-consistently-companynamecomponentname
+created: 2009-04-28T02:16:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-sharepoint-master
+type: rule
 title: Do you have a SharePoint Master?
-created: 2010-12-23 02:20:55
+uri: do-you-have-a-sharepoint-master
+created: 2010-12-23T02:20:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 15
-    title: Mark Liu
----
+- id: 1
+  title: Adam Cogan
+- id: 15
+  title: Mark Liu
 
+---
 
 
 

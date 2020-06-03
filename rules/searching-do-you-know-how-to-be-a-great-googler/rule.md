@@ -1,12 +1,13 @@
 ---
+type: rule
+title: 'Searching: Do you know how to be a great Googler?'
 uri: searching-do-you-know-how-to-be-a-great-googler
-title: Searching: Do you know how to be a great Googler?
-created: 2009-02-19 02:56:04
+created: 2009-02-19T02:56:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,16 +1,17 @@
 ---
-uri: do-you-include-google-analytics-in-your-website
+type: rule
 title: Do you include Google Analytics in your website?
-created: 2014-08-20 02:43:16
+uri: do-you-include-google-analytics-in-your-website
+created: 2014-08-20T02:43:16.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 38
+  title: Drew Robson
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-the-ability-for-users-to-give-you-free-feedback-and-report-bugs-on-every-page
+type: rule
 title: Do you have the ability for users to give you free feedback and report bugs on every page?
-created: 2015-02-13 02:19:04
-authors:
+uri: do-you-have-the-ability-for-users-to-give-you-free-feedback-and-report-bugs-on-every-page
+created: 2015-02-13T02:19:04.0000000Z
+authors: []
 
 ---
-
 
 
 

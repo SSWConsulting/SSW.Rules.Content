@@ -1,12 +1,13 @@
 ---
-uri: do-you-analyze-your-website-statistics-aka-google-analytics
+type: rule
 title: Do you analyze your website statistics (aka Google Analytics)?
-created: 2016-11-24 16:35:41
+uri: do-you-analyze-your-website-statistics-aka-google-analytics
+created: 2016-11-24T16:35:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

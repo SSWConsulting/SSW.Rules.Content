@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-version-control-with-power-bi
+type: rule
 title: Do you use version control with Power BI?
-created: 2017-03-29 06:06:12
+uri: do-you-use-version-control-with-power-bi
+created: 2017-03-29T06:06:12.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
-  - id: 84
-    title: Patricia Barros
-  - id: 85
-    title: Chris Beaver
----
+- id: 32
+  title: Mehmet Ozdemir
+- id: 84
+  title: Patricia Barros
+- id: 85
+  title: Chris Beaver
 
+---
 
 
 

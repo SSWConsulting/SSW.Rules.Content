@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-an-about-the-presenter-slide
+type: rule
 title: Do you have an 'About the Presenter' Slide?
-created: 2010-06-08 10:04:10
-authors:
+uri: do-you-have-an-about-the-presenter-slide
+created: 2010-06-08T10:04:10.0000000Z
+authors: []
 
 ---
-
 
 
 

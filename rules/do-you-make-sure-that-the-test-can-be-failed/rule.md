@@ -1,12 +1,13 @@
 ---
-uri: do-you-make-sure-that-the-test-can-be-failed
+type: rule
 title: Do you make sure that the test can be failed?
-created: 2020-03-12 23:16:37
+uri: do-you-make-sure-that-the-test-can-be-failed
+created: 2020-03-12T23:16:37.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

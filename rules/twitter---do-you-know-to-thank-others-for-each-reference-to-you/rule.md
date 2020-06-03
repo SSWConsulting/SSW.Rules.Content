@@ -1,14 +1,15 @@
 ---
-uri: twitter---do-you-know-to-thank-others-for-each-reference-to-you
+type: rule
 title: Twitter - Do you know to thank others for each reference to you?
-created: 2010-03-15 17:02:09
+uri: twitter---do-you-know-to-thank-others-for-each-reference-to-you
+created: 2010-03-15T17:02:09.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

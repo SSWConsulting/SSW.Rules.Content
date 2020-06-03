@@ -1,14 +1,15 @@
 ---
-uri: do-you-version-your-xml-files
+type: rule
 title: Do you version your .xml files?
-created: 2009-04-29 06:07:29
+uri: do-you-version-your-xml-files
+created: 2009-04-29T06:07:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

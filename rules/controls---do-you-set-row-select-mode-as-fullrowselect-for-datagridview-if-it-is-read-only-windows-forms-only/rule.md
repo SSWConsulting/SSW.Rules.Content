@@ -1,11 +1,11 @@
 ---
-uri: controls---do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
+type: rule
 title: Controls - Do you set row select mode as "FullRowSelect" for DataGridView if it is read only? (Windows Forms Only)
-created: 2012-11-27 09:17:59
-authors:
+uri: controls---do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
+created: 2012-11-27T09:17:59.0000000Z
+authors: []
 
 ---
-
 
 
 

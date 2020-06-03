@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-find-broken-links
+type: rule
 title: Do you know how to find broken links?
-created: 2016-11-28 19:04:17
+uri: do-you-know-how-to-find-broken-links
+created: 2016-11-28T19:04:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

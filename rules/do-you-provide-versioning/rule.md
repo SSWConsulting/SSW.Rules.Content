@@ -1,12 +1,13 @@
 ---
-uri: do-you-provide-versioning
+type: rule
 title: Do you provide versioning?
-created: 2014-07-17 21:34:48
+uri: do-you-provide-versioning
+created: 2014-07-17T21:34:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

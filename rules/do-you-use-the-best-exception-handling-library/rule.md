@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-the-best-exception-handling-library
+type: rule
 title: Do you use the best exception handling library?
-created: 2013-09-11 19:17:07
+uri: do-you-use-the-best-exception-handling-library
+created: 2013-09-11T19:17:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 38
-    title: Drew Robson
----
+- id: 1
+  title: Adam Cogan
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

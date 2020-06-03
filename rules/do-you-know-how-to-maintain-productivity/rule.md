@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-maintain-productivity
+type: rule
 title: Do you know how to maintain productivity?
-created: 2020-03-25 23:43:28
+uri: do-you-know-how-to-maintain-productivity
+created: 2020-03-25T23:43:28.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

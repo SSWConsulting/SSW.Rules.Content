@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-what-tools-to-use-to-create-setup-packages
+type: rule
 title: Do you know what tools to use to create Setup packages?
-created: 2014-08-27 20:33:24
+uri: do-you-know-what-tools-to-use-to-create-setup-packages
+created: 2014-08-27T20:33:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 46
-    title: Danijel Malik
----
+- id: 1
+  title: Adam Cogan
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

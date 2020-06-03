@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-web-essentials
+type: rule
 title: Do you use Web Essentials?
-created: 2014-06-25 23:32:36
+uri: do-you-use-web-essentials
+created: 2014-06-25T23:32:36.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

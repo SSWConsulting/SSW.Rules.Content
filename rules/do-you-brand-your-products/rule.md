@@ -1,14 +1,15 @@
 ---
-uri: do-you-brand-your-products
+type: rule
 title: Do you brand your products?
-created: 2015-11-24 17:46:20
+uri: do-you-brand-your-products
+created: 2015-11-24T17:46:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

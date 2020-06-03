@@ -1,12 +1,13 @@
 ---
-uri: do-you-benchmark-your-pc
+type: rule
 title: Do you benchmark your PC?
-created: 2016-03-03 06:04:40
+uri: do-you-benchmark-your-pc
+created: 2016-03-03T06:04:40.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

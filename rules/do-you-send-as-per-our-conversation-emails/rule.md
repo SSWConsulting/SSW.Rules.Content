@@ -1,18 +1,19 @@
 ---
-uri: do-you-send-as-per-our-conversation-emails
+type: rule
 title: Do you send "As Per Our Conversation" emails?
-created: 2009-08-18 06:58:46
+uri: do-you-send-as-per-our-conversation-emails
+created: 2009-08-18T06:58:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

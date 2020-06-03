@@ -1,12 +1,13 @@
 ---
-uri: post-production---do-you-add-captions-to-your-video
+type: rule
 title: Post-Production - Do you add captions to your video?
-created: 2011-12-05 05:41:15
+uri: post-production---do-you-add-captions-to-your-video
+created: 2011-12-05T05:41:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: web-servers---do-you-get-zero-downtime-when-updating-a-server
+type: rule
 title: Web Servers - Do you get Zero Downtime when Updating a Server?
-created: 2012-03-02 15:46:51
+uri: web-servers---do-you-get-zero-downtime-when-updating-a-server
+created: 2012-03-02T15:46:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

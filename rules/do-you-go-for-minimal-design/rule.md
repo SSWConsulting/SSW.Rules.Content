@@ -1,11 +1,11 @@
 ---
-uri: do-you-go-for-minimal-design
+type: rule
 title: Do you go for Minimal Design?
-created: 2015-02-13 01:31:56
-authors:
+uri: do-you-go-for-minimal-design
+created: 2015-02-13T01:31:56.0000000Z
+authors: []
 
 ---
-
 
 
 

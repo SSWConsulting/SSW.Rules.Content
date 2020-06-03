@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-format-dates-to-include-the-weekday
+type: rule
 title: Do you know how to format dates to include the weekday?
-created: 2009-06-26 10:07:46
+uri: do-you-know-how-to-format-dates-to-include-the-weekday
+created: 2009-06-26T10:07:46.0000000Z
 authors:
-  - id: 9
-    title: William Yin
----
+- id: 9
+  title: William Yin
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: twitter---do-you-know-how-to-verify-your-account
+type: rule
 title: Twitter - Do you know how to verify your account?
-created: 2016-07-25 04:52:07
+uri: twitter---do-you-know-how-to-verify-your-account
+created: 2016-07-25T04:52:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

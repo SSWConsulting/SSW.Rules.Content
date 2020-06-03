@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-who-are-the-most-appropriate-resources-for-a-project
+type: rule
 title: Do you know who are the most appropriate resources for a project?
-created: 2012-09-25 18:04:17
+uri: do-you-know-who-are-the-most-appropriate-resources-for-a-project
+created: 2012-09-25T18:04:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-when-to-scale-out-your-servers-and-when-to-keep-it-as-a-standalone-server
+type: rule
 title: Do you know when to scale out your servers and when to keep it as a standalone server?
-created: 2014-09-03 19:33:29
+uri: do-you-know-when-to-scale-out-your-servers-and-when-to-keep-it-as-a-standalone-server
+created: 2014-09-03T19:33:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

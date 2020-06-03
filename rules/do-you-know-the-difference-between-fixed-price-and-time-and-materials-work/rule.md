@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-difference-between-fixed-price-and-time-and-materials-work
+type: rule
 title: Do you know the difference between Fixed Price and Time and Materials work?
-created: 2010-07-16 04:26:47
-authors:
+uri: do-you-know-the-difference-between-fixed-price-and-time-and-materials-work
+created: 2010-07-16T04:26:47.0000000Z
+authors: []
 
 ---
-
 
 
 

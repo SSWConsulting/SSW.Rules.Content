@@ -1,12 +1,13 @@
 ---
-uri: do-you-treat-freebies-as-real-customers
+type: rule
 title: Do you treat freebies as real customers?
-created: 2009-03-10 09:07:23
+uri: do-you-treat-freebies-as-real-customers
+created: 2009-03-10T09:07:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

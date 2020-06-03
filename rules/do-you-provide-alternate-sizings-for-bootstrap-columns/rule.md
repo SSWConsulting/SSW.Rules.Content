@@ -1,14 +1,15 @@
 ---
-uri: do-you-provide-alternate-sizings-for-bootstrap-columns
+type: rule
 title: Do you provide alternate sizings for Bootstrap columns?
-created: 2014-06-18 05:04:12
+uri: do-you-provide-alternate-sizings-for-bootstrap-columns
+created: 2014-06-18T05:04:12.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
-  - id: 38
-    title: Drew Robson
----
+- id: 37
+  title: Ben Cull
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

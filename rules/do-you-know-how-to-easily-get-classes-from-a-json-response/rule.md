@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-easily-get-classes-from-a-json-response
+type: rule
 title: Do you know how to easily get classes from a JSON response?
-created: 2014-08-08 05:26:43
+uri: do-you-know-how-to-easily-get-classes-from-a-json-response
+created: 2014-08-08T05:26:43.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
----
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: general---do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+type: rule
 title: General - Do you know rules are made for the guidance of wise men and the obedience of fools?
-created: 2009-02-28 09:44:50
+uri: general---do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+created: 2009-02-28T09:44:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

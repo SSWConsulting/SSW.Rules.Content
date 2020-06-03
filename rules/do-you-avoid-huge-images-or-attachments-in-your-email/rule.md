@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-huge-images-or-attachments-in-your-email
+type: rule
 title: Do you avoid huge images or attachments in your email?
-created: 2009-03-31 03:15:46
+uri: do-you-avoid-huge-images-or-attachments-in-your-email
+created: 2009-03-31T03:15:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

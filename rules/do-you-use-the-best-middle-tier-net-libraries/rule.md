@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-the-best-middle-tier-net-libraries
+type: rule
 title: Do you use the best middle tier .NET libraries?
-created: 2013-12-18 15:47:37
+uri: do-you-use-the-best-middle-tier-net-libraries
+created: 2013-12-18T15:47:37.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 78
-    title: Matt Wicks
----
+- id: 38
+  title: Drew Robson
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

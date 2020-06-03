@@ -1,11 +1,11 @@
 ---
-uri: do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
+type: rule
 title: Do you build the client relationship by completing "Client Love" each week? (aka Customer Love)
-created: 2010-07-16 06:45:19
-authors:
+uri: do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
+created: 2010-07-16T06:45:19.0000000Z
+authors: []
 
 ---
-
 
 
 

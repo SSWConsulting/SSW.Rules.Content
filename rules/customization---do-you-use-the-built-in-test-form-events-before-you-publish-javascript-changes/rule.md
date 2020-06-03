@@ -1,12 +1,13 @@
 ---
-uri: customization---do-you-use-the-built-in-test-form-events-before-you-publish-javascript-changes
+type: rule
 title: Customization - Do you use the built-in test form events before you publish JavaScript changes?
-created: 2012-12-10 18:33:57
+uri: customization---do-you-use-the-built-in-test-form-events-before-you-publish-javascript-changes
+created: 2012-12-10T18:33:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

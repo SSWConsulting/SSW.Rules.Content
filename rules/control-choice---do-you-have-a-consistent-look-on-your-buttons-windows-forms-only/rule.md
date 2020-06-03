@@ -1,11 +1,11 @@
 ---
-uri: control-choice---do-you-have-a-consistent-look-on-your-buttons-windows-forms-only
+type: rule
 title: Control Choice - Do you have a consistent look on your buttons? (Windows Forms Only)
-created: 2012-11-27 08:56:29
-authors:
+uri: control-choice---do-you-have-a-consistent-look-on-your-buttons-windows-forms-only
+created: 2012-11-27T08:56:29.0000000Z
+authors: []
 
 ---
-
 
 
 

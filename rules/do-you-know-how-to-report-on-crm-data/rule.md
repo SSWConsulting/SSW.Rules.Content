@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-report-on-crm-data
+type: rule
 title: Do you know how to report on CRM data?
-created: 2013-09-24 18:04:47
+uri: do-you-know-how-to-report-on-crm-data
+created: 2013-09-24T18:04:47.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-send-notification-if-you-cannot-access-essential-services
+type: rule
 title: Do you send notification if you cannot access essential services?
-created: 2014-09-03 19:36:56
+uri: do-you-send-notification-if-you-cannot-access-essential-services
+created: 2014-09-03T19:36:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

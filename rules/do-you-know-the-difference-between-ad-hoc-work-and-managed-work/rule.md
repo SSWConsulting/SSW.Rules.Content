@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-difference-between-ad-hoc-work-and-managed-work
+type: rule
 title: Do you know the difference between Ad-hoc Work and Managed Work?
-created: 2010-07-16 04:27:50
+uri: do-you-know-the-difference-between-ad-hoc-work-and-managed-work
+created: 2010-07-16T04:27:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

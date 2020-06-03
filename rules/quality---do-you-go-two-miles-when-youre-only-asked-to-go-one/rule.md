@@ -1,14 +1,15 @@
 ---
-uri: quality---do-you-go-two-miles-when-youre-only-asked-to-go-one
+type: rule
 title: Quality - Do you go two miles when you're only asked to go one?
-created: 2012-09-25 17:59:09
+uri: quality---do-you-go-two-miles-when-youre-only-asked-to-go-one
+created: 2012-09-25T17:59:09.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

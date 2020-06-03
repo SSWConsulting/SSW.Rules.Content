@@ -1,12 +1,13 @@
 ---
-uri: does-your-domain-have-power
+type: rule
 title: Does your domain have power?
-created: 2019-04-17 06:19:47
+uri: does-your-domain-have-power
+created: 2019-04-17T06:19:47.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

@@ -1,18 +1,19 @@
 ---
-uri: do-you-know-when-to-use-a-round-figure-or-an-exact-figure
+type: rule
 title: Do you know when to use a round figure or an exact figure?
-created: 2009-11-03 01:02:23
+uri: do-you-know-when-to-use-a-round-figure-or-an-exact-figure
+created: 2009-11-03T01:02:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: post-production---do-you-know-which-video-hosting-service-to-choose
+type: rule
 title: Post Production - Do you know which video hosting service to choose?
-created: 2013-05-21 00:35:44
+uri: post-production---do-you-know-which-video-hosting-service-to-choose
+created: 2013-05-21T00:35:44.0000000Z
 authors:
-  - id: 29
-    title: Raj Dhatt
----
+- id: 29
+  title: Raj Dhatt
 
+---
 
 
 

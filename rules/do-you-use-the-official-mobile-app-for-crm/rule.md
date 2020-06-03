@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-official-mobile-app-for-crm
+type: rule
 title: Do you use the official mobile app for CRM?
-created: 2014-04-03 04:39:25
+uri: do-you-use-the-official-mobile-app-for-crm
+created: 2014-04-03T04:39:25.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

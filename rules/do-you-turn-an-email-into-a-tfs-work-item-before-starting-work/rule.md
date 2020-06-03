@@ -1,16 +1,17 @@
 ---
-uri: do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
+type: rule
 title: Do you turn an email into a TFS Work Item before starting work?
-created: 2013-06-27 18:28:23
+uri: do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
+created: 2013-06-27T18:28:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 38
-    title: Drew Robson
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: productionpost-production---do-you-use-cutaways-aka-removing-the-talking-head
+type: rule
 title: Production/Post Production - Do you use cutaways? (aka Removing the talking head)
-created: 2011-10-19 16:05:05
+uri: productionpost-production---do-you-use-cutaways-aka-removing-the-talking-head
+created: 2011-10-19T16:05:05.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

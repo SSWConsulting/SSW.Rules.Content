@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-opportunities-to-convert-use-linq-to-entities
+type: rule
 title: Do you have opportunities to convert use Linq to entities?
-created: 2012-04-01 09:26:00
+uri: do-you-have-opportunities-to-convert-use-linq-to-entities
+created: 2012-04-01T09:26:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

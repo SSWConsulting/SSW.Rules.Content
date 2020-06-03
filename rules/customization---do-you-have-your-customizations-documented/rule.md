@@ -1,12 +1,13 @@
 ---
-uri: customization---do-you-have-your-customizations-documented
+type: rule
 title: Customization - Do you have your customizations documented?
-created: 2012-12-10 18:42:37
+uri: customization---do-you-have-your-customizations-documented
+created: 2012-12-10T18:42:37.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: office-environment---do-you-avoid-listening-to-music-while-at-work
+type: rule
 title: Office environment - Do you avoid listening to music while at work?
-created: 2012-09-25 17:58:05
+uri: office-environment---do-you-avoid-listening-to-music-while-at-work
+created: 2012-09-25T17:58:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,18 +1,19 @@
 ---
-uri: spec---do-you-know-how-to-give-the-customer-a-ballpark
+type: rule
 title: Spec - Do you know how to give the customer a ballpark?
-created: 2009-11-04 08:35:51
+uri: spec---do-you-know-how-to-give-the-customer-a-ballpark
+created: 2009-11-04T08:35:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

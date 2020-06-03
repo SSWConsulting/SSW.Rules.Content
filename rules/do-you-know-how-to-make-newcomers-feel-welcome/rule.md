@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-make-newcomers-feel-welcome
+type: rule
 title: Do you know how to make newcomers feel welcome?
-created: 2017-02-16 04:13:21
+uri: do-you-know-how-to-make-newcomers-feel-welcome
+created: 2017-02-16T04:13:21.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 62
+  title: Penny Walker
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

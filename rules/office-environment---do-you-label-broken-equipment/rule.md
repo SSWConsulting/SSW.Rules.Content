@@ -1,16 +1,17 @@
 ---
-uri: office-environment---do-you-label-broken-equipment
+type: rule
 title: Office environment - Do you label broken equipment?
-created: 2012-09-25 17:51:22
+uri: office-environment---do-you-label-broken-equipment
+created: 2012-09-25T17:51:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

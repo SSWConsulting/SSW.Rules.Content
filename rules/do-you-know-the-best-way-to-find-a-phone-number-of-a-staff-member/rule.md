@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
+type: rule
 title: Do you know the best way to find a phone number of a staff member?
-created: 2011-04-01 07:25:10
+uri: do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
+created: 2011-04-01T07:25:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

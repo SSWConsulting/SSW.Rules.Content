@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-how-to-laser-in-on-the-smelliest-code
+type: rule
 title: Do you know how to laser in on the smelliest code?
-created: 2012-03-16 08:36:31
+uri: do-you-know-how-to-laser-in-on-the-smelliest-code
+created: 2012-03-16T08:36:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 24
-    title: Adam Stephensen
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

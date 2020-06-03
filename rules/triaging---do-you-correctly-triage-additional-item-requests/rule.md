@@ -1,18 +1,19 @@
 ---
-uri: triaging---do-you-correctly-triage-additional-item-requests
+type: rule
 title: Triaging - Do you correctly triage additional item requests?
-created: 2009-08-18 04:45:08
+uri: triaging---do-you-correctly-triage-additional-item-requests
+created: 2009-08-18T04:45:08.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

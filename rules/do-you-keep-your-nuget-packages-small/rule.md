@@ -1,11 +1,11 @@
 ---
-uri: do-you-keep-your-nuget-packages-small
+type: rule
 title: Do you keep your nuget packages small?
-created: 2015-01-31 04:51:09
-authors:
+uri: do-you-keep-your-nuget-packages-small
+created: 2015-01-31T04:51:09.0000000Z
+authors: []
 
 ---
-
 
 
 

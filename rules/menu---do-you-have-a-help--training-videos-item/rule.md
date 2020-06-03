@@ -1,11 +1,11 @@
 ---
-uri: menu---do-you-have-a-help--training-videos-item
+type: rule
 title: Menu - Do you have a "Help | Training Videos" item?
-created: 2012-11-27 02:50:59
-authors:
+uri: menu---do-you-have-a-help--training-videos-item
+created: 2012-11-27T02:50:59.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-using-plain-textboxes-for-notes
+type: rule
 title: Do you avoid using plain textboxes for notes?
-created: 2014-12-01 00:04:47
-authors:
+uri: do-you-avoid-using-plain-textboxes-for-notes
+created: 2014-12-01T00:04:47.0000000Z
+authors: []
 
 ---
-
 
 
 

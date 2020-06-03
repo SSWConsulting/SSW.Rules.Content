@@ -1,12 +1,13 @@
 ---
-uri: watch---do-you-know-what-is-going-on
+type: rule
 title: Watch - Do you know what is going on?
-created: 2010-05-20 09:58:31
+uri: watch---do-you-know-what-is-going-on
+created: 2010-05-20T09:58:31.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

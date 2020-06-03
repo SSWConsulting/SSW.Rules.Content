@@ -1,12 +1,13 @@
 ---
-uri: do-you-understand-the-enterprise-mvc-request-process
+type: rule
 title: Do you understand the Enterprise MVC request process?
-created: 2012-10-19 19:39:03
+uri: do-you-understand-the-enterprise-mvc-request-process
+created: 2012-10-19T19:39:03.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

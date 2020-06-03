@@ -1,12 +1,13 @@
 ---
-uri: dbas---do-you-make-sure-you-use-a-consistent-collation-server-wide
+type: rule
 title: DBAs - Do you make sure you use a consistent Collation server-wide?
-created: 2019-11-22 20:49:31
+uri: dbas---do-you-make-sure-you-use-a-consistent-collation-server-wide
+created: 2019-11-22T20:49:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

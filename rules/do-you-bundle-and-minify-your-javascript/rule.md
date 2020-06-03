@@ -1,12 +1,13 @@
 ---
-uri: do-you-bundle-and-minify-your-javascript
+type: rule
 title: Do you bundle and minify your JavaScript?
-created: 2012-07-18 17:35:19
+uri: do-you-bundle-and-minify-your-javascript
+created: 2012-07-18T17:35:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

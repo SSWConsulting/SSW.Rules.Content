@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-capitalize-tech-terms-correctly
+type: rule
 title: Do you know to capitalize tech terms correctly?
-created: 2016-04-21 07:37:05
+uri: do-you-know-to-capitalize-tech-terms-correctly
+created: 2016-04-21T07:37:05.0000000Z
 authors:
-  - id: 41
-    title: Joanna Feely
----
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

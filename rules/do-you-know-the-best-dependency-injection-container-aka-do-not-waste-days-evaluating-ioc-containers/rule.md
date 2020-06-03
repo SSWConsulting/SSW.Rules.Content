@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-the-best-dependency-injection-container-aka-do-not-waste-days-evaluating-ioc-containers
+type: rule
 title: Do you know the best dependency injection container? (aka Do not waste days evaluating IOC containers)
-created: 2013-02-01 16:43:44
+uri: do-you-know-the-best-dependency-injection-container-aka-do-not-waste-days-evaluating-ioc-containers
+created: 2013-02-01T16:43:44.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
-  - id: 34
-    title: Brendan Richards
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

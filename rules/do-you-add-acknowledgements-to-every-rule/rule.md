@@ -1,14 +1,15 @@
 ---
-uri: do-you-add-acknowledgements-to-every-rule
+type: rule
 title: Do you add acknowledgements to every rule?
-created: 2014-10-28 17:41:34
+uri: do-you-add-acknowledgements-to-every-rule
+created: 2014-10-28T17:41:34.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 16
-    title: Tiago Araujo
----
+- id: 9
+  title: William Yin
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

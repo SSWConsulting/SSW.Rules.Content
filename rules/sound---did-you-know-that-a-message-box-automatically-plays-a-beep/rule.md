@@ -1,11 +1,11 @@
 ---
-uri: sound---did-you-know-that-a-message-box-automatically-plays-a-beep
+type: rule
 title: Sound - Did you know that a message box automatically plays a beep?
-created: 2012-11-27 02:57:30
-authors:
+uri: sound---did-you-know-that-a-message-box-automatically-plays-a-beep
+created: 2012-11-27T02:57:30.0000000Z
+authors: []
 
 ---
-
 
 
 

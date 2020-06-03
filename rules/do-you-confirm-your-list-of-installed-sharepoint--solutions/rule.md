@@ -1,12 +1,13 @@
 ---
-uri: do-you-confirm-your-list-of-installed-sharepoint--solutions
+type: rule
 title: Do you confirm your list of installed SharePoint 2007 Solutions
-created: 2010-12-23 02:53:48
+uri: do-you-confirm-your-list-of-installed-sharepoint--solutions
+created: 2010-12-23T02:53:48.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

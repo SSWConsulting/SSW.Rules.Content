@@ -1,12 +1,13 @@
 ---
-uri: do-you-always-avoid-on-error-resume-next-vb-only
+type: rule
 title: Do you always avoid On Error Resume Next? (VB Only)
-created: 2013-09-11 22:01:01
+uri: do-you-always-avoid-on-error-resume-next-vb-only
+created: 2013-09-11T22:01:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

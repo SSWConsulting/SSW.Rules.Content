@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-you-should-change-a-subject
+type: rule
 title: Do you know when you should change a subject?
-created: 2009-03-24 04:53:58
+uri: do-you-know-when-you-should-change-a-subject
+created: 2009-03-24T04:53:58.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

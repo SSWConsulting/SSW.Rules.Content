@@ -1,12 +1,13 @@
 ---
-uri: appointments--do-you-use-propose-new-time
+type: rule
 title: Appointments – Do you use Propose New Time?
-created: 2013-11-07 19:46:32
+uri: appointments--do-you-use-propose-new-time
+created: 2013-11-07T19:46:32.0000000Z
 authors:
-  - id: 36
-    title: Daniel Šmon
----
+- id: 36
+  title: Daniel Šmon
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: display---do-you-show-your-phone-number
+type: rule
 title: Display - Do you show your phone number?
-created: 2015-10-05 06:47:30
+uri: display---do-you-show-your-phone-number
+created: 2015-10-05T06:47:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

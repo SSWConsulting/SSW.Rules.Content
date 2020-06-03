@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-gravatar-for-your-profile-pictures
+type: rule
 title: Do you use Gravatar for your profile pictures?
-created: 2015-03-16 10:17:40
-authors:
+uri: do-you-use-gravatar-for-your-profile-pictures
+created: 2015-03-16T10:17:40.0000000Z
+authors: []
 
 ---
-
 
 
 

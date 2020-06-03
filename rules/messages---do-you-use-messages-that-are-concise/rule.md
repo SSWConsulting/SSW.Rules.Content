@@ -1,11 +1,11 @@
 ---
-uri: messages---do-you-use-messages-that-are-concise
+type: rule
 title: Messages - Do you use messages that are concise?
-created: 2012-11-27 04:41:51
-authors:
+uri: messages---do-you-use-messages-that-are-concise
+created: 2012-11-27T04:41:51.0000000Z
+authors: []
 
 ---
-
 
 
 

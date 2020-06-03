@@ -1,12 +1,13 @@
 ---
-uri: ip---do-you-teach--share-ideas-regularly
+type: rule
 title: IP - Do you teach & share ideas regularly?
-created: 2012-09-25 17:51:59
+uri: ip---do-you-teach--share-ideas-regularly
+created: 2012-09-25T17:51:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

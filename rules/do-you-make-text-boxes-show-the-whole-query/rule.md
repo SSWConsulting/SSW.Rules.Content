@@ -1,14 +1,15 @@
 ---
-uri: do-you-make-text-boxes-show-the-whole-query
+type: rule
 title: Do you make text boxes show the whole query?
-created: 2015-05-21 17:42:51
+uri: do-you-make-text-boxes-show-the-whole-query
+created: 2015-05-21T17:42:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

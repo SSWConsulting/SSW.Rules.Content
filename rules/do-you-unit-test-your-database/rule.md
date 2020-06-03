@@ -1,12 +1,13 @@
 ---
-uri: do-you-unit-test-your-database
+type: rule
 title: Do you unit test your database?
-created: 2020-03-12 23:28:06
+uri: do-you-unit-test-your-database
+created: 2020-03-12T23:28:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

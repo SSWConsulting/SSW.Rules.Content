@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-upgrade-your-tfs-databases
+type: rule
 title: Do you know how to upgrade your TFS2008 databases?
-created: 2009-11-08 00:23:52
+uri: do-you-know-how-to-upgrade-your-tfs-databases
+created: 2009-11-08T00:23:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

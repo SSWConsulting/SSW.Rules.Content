@@ -1,12 +1,13 @@
 ---
-uri: post-production--do-you-know-how-to-create-the-swing-in-text-effect
+type: rule
 title: Post-Production – Do you know how to create the “Swing In” text effect?
-created: 2013-03-13 14:02:12
+uri: post-production--do-you-know-how-to-create-the-swing-in-text-effect
+created: 2013-03-13T14:02:12.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

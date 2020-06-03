@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-replace-reflection-with-mef
+type: rule
 title: Do you know to replace reflection with MEF?
-created: 2012-03-21 01:47:46
+uri: do-you-know-to-replace-reflection-with-mef
+created: 2012-03-21T01:47:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

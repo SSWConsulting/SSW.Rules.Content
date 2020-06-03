@@ -1,20 +1,21 @@
 ---
-uri: do-you-know-when-to-branch-in-git
+type: rule
 title: Do you know when to branch in git?
-created: 2016-01-19 22:38:55
+uri: do-you-know-when-to-branch-in-git
+created: 2016-01-19T22:38:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
-  - id: 46
-    title: Danijel Malik
-  - id: 68
-    title: Edgar Rocha
-  - id: 72
-    title: Gabriel George
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
+- id: 46
+  title: Danijel Malik
+- id: 68
+  title: Edgar Rocha
+- id: 72
+  title: Gabriel George
 
+---
 
 
 

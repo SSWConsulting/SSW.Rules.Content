@@ -1,12 +1,13 @@
 ---
-uri: do-you-backup-your-control-projects-to-the-cloud
+type: rule
 title: Do you backup your Control4 projects to the cloud?
-created: 2017-10-29 23:13:57
+uri: do-you-backup-your-control-projects-to-the-cloud
+created: 2017-10-29T23:13:57.0000000Z
 authors:
-  - id: 70
-    title: Greg Harris
----
+- id: 70
+  title: Greg Harris
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: post-production---do-you-know-how-to-conduct-a-test-please-for-video
+type: rule
 title: Post-Production - Do you know how to conduct a 'test please' for video?
-created: 2011-12-19 03:37:10
-authors:
+uri: post-production---do-you-know-how-to-conduct-a-test-please-for-video
+created: 2011-12-19T03:37:10.0000000Z
+authors: []
 
 ---
-
 
 
 

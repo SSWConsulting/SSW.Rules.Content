@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-hit-track-when-you-receive-an-important-email
+type: rule
 title: Do you know to hit 'Track' when you receive an important email?
-created: 2012-12-07 17:16:45
+uri: do-you-know-to-hit-track-when-you-receive-an-important-email
+created: 2012-12-07T17:16:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

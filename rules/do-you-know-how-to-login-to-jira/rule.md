@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-login-to-jira
+type: rule
 title: Do you know how to login to Jira?
-created: 2009-08-13 05:16:57
-authors:
+uri: do-you-know-how-to-login-to-jira
+created: 2009-08-13T05:16:57.0000000Z
+authors: []
 
 ---
-
 
 
 

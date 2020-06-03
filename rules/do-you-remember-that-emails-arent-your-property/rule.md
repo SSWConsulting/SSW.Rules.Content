@@ -1,14 +1,15 @@
 ---
-uri: do-you-remember-that-emails-arent-your-property
+type: rule
 title: Do you remember that emails aren't your property?
-created: 2009-04-03 07:07:37
+uri: do-you-remember-that-emails-arent-your-property
+created: 2009-04-03T07:07:37.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

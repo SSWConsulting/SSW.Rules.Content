@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-tweetdeck-to-read-twitter
+type: rule
 title: Do you use TweetDeck to read Twitter?
-created: 2011-01-31 00:44:04
+uri: do-you-use-tweetdeck-to-read-twitter
+created: 2011-01-31T00:44:04.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 1
-    title: Adam Cogan
-  - id: 12
-    title: Peter Gfader
----
+- id: 21
+  title: Matthew Hodgkins
+- id: 1
+  title: Adam Cogan
+- id: 12
+  title: Peter Gfader
 
+---
 
 
 

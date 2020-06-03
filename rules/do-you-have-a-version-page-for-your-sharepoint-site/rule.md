@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-version-page-for-your-sharepoint-site
+type: rule
 title: Do you have a version page for your SharePoint site?
-created: 2009-04-20 09:20:00
+uri: do-you-have-a-version-page-for-your-sharepoint-site
+created: 2009-04-20T09:20:00.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 1
-    title: Adam Cogan
----
+- id: 8
+  title: John Liu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

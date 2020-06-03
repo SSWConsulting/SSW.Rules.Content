@@ -1,12 +1,13 @@
 ---
-uri: do-you-control-the-drop-down-list-value-for-assigned-to-field
+type: rule
 title: Do you control the drop down list value for Assigned To field?
-created: 2012-07-18 07:44:27
+uri: do-you-control-the-drop-down-list-value-for-assigned-to-field
+created: 2012-07-18T07:44:27.0000000Z
 authors:
-  - id: 10
-    title: Lei Xu
----
+- id: 10
+  title: Lei Xu
 
+---
 
 
 

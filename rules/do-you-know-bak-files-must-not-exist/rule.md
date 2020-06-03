@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-bak-files-must-not-exist
+type: rule
 title: Do you know BAK files must not exist?
-created: 2013-01-14 14:24:03
+uri: do-you-know-bak-files-must-not-exist
+created: 2013-01-14T14:24:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

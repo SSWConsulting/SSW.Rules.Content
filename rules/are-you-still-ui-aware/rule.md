@@ -1,12 +1,13 @@
 ---
-uri: are-you-still-ui-aware
+type: rule
 title: Are you still UI aware?
-created: 2011-06-13 09:43:56
+uri: are-you-still-ui-aware
+created: 2011-06-13T09:43:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

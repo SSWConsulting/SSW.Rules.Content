@@ -1,11 +1,11 @@
 ---
-uri: do-you-create-a-popup-form-for-editing-details
+type: rule
 title: Do you create a popup form for editing details?
-created: 2014-12-01 00:58:48
-authors:
+uri: do-you-create-a-popup-form-for-editing-details
+created: 2014-12-01T00:58:48.0000000Z
+authors: []
 
 ---
-
 
 
 

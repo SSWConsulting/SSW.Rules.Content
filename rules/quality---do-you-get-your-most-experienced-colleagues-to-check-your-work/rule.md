@@ -1,12 +1,13 @@
 ---
-uri: quality---do-you-get-your-most-experienced-colleagues-to-check-your-work
+type: rule
 title: Quality - Do you get your most experienced colleagues to check your work?
-created: 2012-09-25 18:03:09
+uri: quality---do-you-get-your-most-experienced-colleagues-to-check-your-work
+created: 2012-09-25T18:03:09.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

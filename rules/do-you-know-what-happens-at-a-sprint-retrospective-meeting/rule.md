@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-what-happens-at-a-sprint-retrospective-meeting
+type: rule
 title: Do you know what happens at a Sprint Retrospective Meeting?
-created: 2010-05-06 03:18:17
-authors:
+uri: do-you-know-what-happens-at-a-sprint-retrospective-meeting
+created: 2010-05-06T03:18:17.0000000Z
+authors: []
 
 ---
-
 
 
 

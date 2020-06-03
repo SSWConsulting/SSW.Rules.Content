@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-a-content-delivery-network-cdn
+type: rule
 title: Do you use a Content Delivery Network (CDN)?
-created: 2019-05-16 06:32:40
+uri: do-you-use-a-content-delivery-network-cdn
+created: 2019-05-16T06:32:40.0000000Z
 authors:
-  - id: 82
-    title: Barry Sanders
-  - id: 1
-    title: Adam Cogan
-  - id: 80
-    title: Shane Ye
----
+- id: 82
+  title: Barry Sanders
+- id: 1
+  title: Adam Cogan
+- id: 80
+  title: Shane Ye
 
+---
 
 
 

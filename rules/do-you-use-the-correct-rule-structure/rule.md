@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-the-correct-rule-structure
+type: rule
 title: Do you use the correct Rule structure?
-created: 2010-03-18 23:41:03
-authors:
+uri: do-you-use-the-correct-rule-structure
+created: 2010-03-18T23:41:03.0000000Z
+authors: []
 
 ---
-
 
 
 

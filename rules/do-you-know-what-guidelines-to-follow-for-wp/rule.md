@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-what-guidelines-to-follow-for-wp
+type: rule
 title: Do you know what guidelines to follow for WP?
-created: 2014-11-25 23:59:28
-authors:
+uri: do-you-know-what-guidelines-to-follow-for-wp
+created: 2014-11-25T23:59:28.0000000Z
+authors: []
 
 ---
-
 
 
 

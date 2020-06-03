@@ -1,11 +1,11 @@
 ---
-uri: sample---do-you-supply-a-sample-database
+type: rule
 title: Sample - Do you supply a sample database?
-created: 2012-11-27 03:08:03
-authors:
+uri: sample---do-you-supply-a-sample-database
+created: 2012-11-27T03:08:03.0000000Z
+authors: []
 
 ---
-
 
 
 

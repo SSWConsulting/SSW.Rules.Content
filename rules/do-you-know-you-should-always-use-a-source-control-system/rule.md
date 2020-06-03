@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-you-should-always-use-a-source-control-system
+type: rule
 title: Do you know you should always use a source control system?
-created: 2009-03-17 07:15:10
+uri: do-you-know-you-should-always-use-a-source-control-system
+created: 2009-03-17T07:15:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

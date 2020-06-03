@@ -1,12 +1,13 @@
 ---
-uri: do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem
+type: rule
 title: Do you remove VBA function names in queries before upsizing queries (Upsizing problem)?
-created: 2010-07-23 03:36:59
+uri: do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem
+created: 2010-07-23T03:36:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

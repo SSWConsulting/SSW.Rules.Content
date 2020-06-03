@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-you-should-not-open-popup-windows-and-use-a-javascript-modal-instead
+type: rule
 title: Do you know you should not open popup windows and use a javascript modal instead?
-created: 2016-11-17 16:15:13
+uri: do-you-know-you-should-not-open-popup-windows-and-use-a-javascript-modal-instead
+created: 2016-11-17T16:15:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

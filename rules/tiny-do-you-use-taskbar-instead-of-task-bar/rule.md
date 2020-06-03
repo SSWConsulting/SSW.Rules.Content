@@ -1,11 +1,11 @@
 ---
+type: rule
+title: 'Tiny: Do you use "Taskbar" instead of "Task Bar"?'
 uri: tiny-do-you-use-taskbar-instead-of-task-bar
-title: Tiny: Do you use "Taskbar" instead of "Task Bar"?
-created: 2016-04-21 05:27:02
-authors:
+created: 2016-04-21T05:27:02.0000000Z
+authors: []
 
 ---
-
 
 
 

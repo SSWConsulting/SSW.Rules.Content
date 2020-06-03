@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-arrange-forms
+type: rule
 title: Do you know how to arrange forms?
-created: 2014-09-08 20:50:09
+uri: do-you-know-how-to-arrange-forms
+created: 2014-09-08T20:50:09.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 16
-    title: Tiago Araujo
----
+- id: 38
+  title: Drew Robson
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

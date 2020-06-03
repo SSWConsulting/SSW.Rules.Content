@@ -1,12 +1,13 @@
 ---
-uri: do-you-document-the-technologies-design-patterns-and-alm-processes
+type: rule
 title: Do you document the technologies, design patterns and ALM processes?
-created: 2013-07-15 21:25:49
+uri: do-you-document-the-technologies-design-patterns-and-alm-processes
+created: 2013-07-15T21:25:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

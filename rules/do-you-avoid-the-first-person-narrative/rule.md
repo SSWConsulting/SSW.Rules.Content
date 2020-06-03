@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-the-first-person-narrative
+type: rule
 title: Do you avoid the first person narrative?
-created: 2010-03-18 23:58:34
-authors:
+uri: do-you-avoid-the-first-person-narrative
+created: 2010-03-18T23:58:34.0000000Z
+authors: []
 
 ---
-
 
 
 

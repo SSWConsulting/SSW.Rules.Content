@@ -1,16 +1,17 @@
 ---
-uri: do-you-avoid-having-reset-buttons-on-webforms
+type: rule
 title: Do you avoid having "Reset" buttons on webforms?
-created: 2009-04-03 07:15:00
+uri: do-you-avoid-having-reset-buttons-on-webforms
+created: 2009-04-03T07:15:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 7
-    title: Jade Mitchell
----
+- id: 1
+  title: Adam Cogan
+- id: 6
+  title: Tristan Kurniawan
+- id: 7
+  title: Jade Mitchell
 
+---
 
 
 

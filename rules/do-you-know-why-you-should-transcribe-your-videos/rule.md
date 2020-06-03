@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-why-you-should-transcribe-your-videos
+type: rule
 title: Do you know why you should transcribe your videos?
-created: 2016-06-03 14:53:27
+uri: do-you-know-why-you-should-transcribe-your-videos
+created: 2016-06-03T14:53:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 45
-    title: Chris Briggs
----
+- id: 1
+  title: Adam Cogan
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

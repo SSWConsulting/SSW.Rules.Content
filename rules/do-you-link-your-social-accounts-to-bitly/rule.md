@@ -1,14 +1,15 @@
 ---
-uri: do-you-link-your-social-accounts-to-bitly
+type: rule
 title: Do you link your social accounts to bit.ly?
-created: 2013-03-05 21:12:16
+uri: do-you-link-your-social-accounts-to-bitly
+created: 2013-03-05T21:12:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 1
+  title: Adam Cogan
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

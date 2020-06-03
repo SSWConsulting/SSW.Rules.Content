@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-catering
+type: rule
 title: Do You Have Catering?
-created: 2014-12-31 00:28:41
+uri: do-you-have-catering
+created: 2014-12-31T00:28:41.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

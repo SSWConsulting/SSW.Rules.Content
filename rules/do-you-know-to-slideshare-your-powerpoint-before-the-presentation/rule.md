@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-to-slideshare-your-powerpoint-before-the-presentation
+type: rule
 title: Do you know to Slideshare your PowerPoint (before the presentation)?
-created: 2010-10-22 03:28:45
+uri: do-you-know-to-slideshare-your-powerpoint-before-the-presentation
+created: 2010-10-22T03:28:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 45
-    title: Chris Briggs
-  - id: 41
-    title: Joanna Feely
----
+- id: 1
+  title: Adam Cogan
+- id: 45
+  title: Chris Briggs
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

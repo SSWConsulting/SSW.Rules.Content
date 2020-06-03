@@ -1,11 +1,11 @@
 ---
-uri: do-you-enter-detailed-and-accurate-time-sheets
+type: rule
 title: Do you enter detailed and accurate time sheets?
-created: 2010-07-16 06:37:36
-authors:
+uri: do-you-enter-detailed-and-accurate-time-sheets
+created: 2010-07-16T06:37:36.0000000Z
+authors: []
 
 ---
-
 
 
 

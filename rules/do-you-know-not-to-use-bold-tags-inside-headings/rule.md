@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-not-to-use-bold-tags-inside-headings
+type: rule
 title: Do you know not to use bold tags inside headings?
-created: 2014-12-22 12:39:36
+uri: do-you-know-not-to-use-bold-tags-inside-headings
+created: 2014-12-22T12:39:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

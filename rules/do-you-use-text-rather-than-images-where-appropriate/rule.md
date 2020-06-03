@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-text-rather-than-images-where-appropriate
+type: rule
 title: Do you use text rather than images where appropriate?
-created: 2015-10-13 00:08:16
-authors:
+uri: do-you-use-text-rather-than-images-where-appropriate
+created: 2015-10-13T00:08:16.0000000Z
+authors: []
 
 ---
-
 
 
 

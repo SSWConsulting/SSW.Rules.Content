@@ -1,12 +1,13 @@
 ---
-uri: tasks---when-you-check-in-code-and-associate-it-to-a-task
+type: rule
 title: Tasks - When you check in code and associate it to a task?
-created: 2010-12-14 23:33:01
+uri: tasks---when-you-check-in-code-and-associate-it-to-a-task
+created: 2010-12-14T23:33:01.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

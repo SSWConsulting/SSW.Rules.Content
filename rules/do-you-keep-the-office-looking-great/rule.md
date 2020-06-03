@@ -1,12 +1,13 @@
 ---
-uri: do-you-keep-the-office-looking-great
+type: rule
 title: Do you keep the office looking great?
-created: 2013-07-30 21:33:15
+uri: do-you-keep-the-office-looking-great
+created: 2013-07-30T21:33:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

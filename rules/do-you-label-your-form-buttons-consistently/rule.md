@@ -1,11 +1,11 @@
 ---
-uri: do-you-label-your-form-buttons-consistently
+type: rule
 title: Do you label your form buttons consistently?
-created: 2014-12-01 00:09:41
-authors:
+uri: do-you-label-your-form-buttons-consistently
+created: 2014-12-01T00:09:41.0000000Z
+authors: []
 
 ---
-
 
 
 

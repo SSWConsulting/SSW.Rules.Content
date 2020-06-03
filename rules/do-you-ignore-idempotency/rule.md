@@ -1,12 +1,13 @@
 ---
-uri: do-you-ignore-idempotency
+type: rule
 title: Do you ignore Idempotency?
-created: 2009-10-05 06:03:28
+uri: do-you-ignore-idempotency
+created: 2009-10-05T06:03:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

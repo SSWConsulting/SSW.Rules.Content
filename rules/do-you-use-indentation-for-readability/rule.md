@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-indentation-for-readability
+type: rule
 title: Do you use indentation for readability?
-created: 2010-09-01 02:53:29
+uri: do-you-use-indentation-for-readability
+created: 2010-09-01T02:53:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

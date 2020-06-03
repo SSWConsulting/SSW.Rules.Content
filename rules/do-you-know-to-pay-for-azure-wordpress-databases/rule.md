@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-pay-for-azure-wordpress-databases
+type: rule
 title: Do You Know To Pay for Azure WordPress Databases?
-created: 2014-05-22 18:56:36
+uri: do-you-know-to-pay-for-azure-wordpress-databases
+created: 2014-05-22T18:56:36.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

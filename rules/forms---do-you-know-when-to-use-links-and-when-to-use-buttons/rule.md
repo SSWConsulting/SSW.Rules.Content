@@ -1,12 +1,13 @@
 ---
-uri: forms---do-you-know-when-to-use-links-and-when-to-use-buttons
+type: rule
 title: Forms - Do you know when to use links and when to use buttons?
-created: 2014-12-04 20:13:43
+uri: forms---do-you-know-when-to-use-links-and-when-to-use-buttons
+created: 2014-12-04T20:13:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

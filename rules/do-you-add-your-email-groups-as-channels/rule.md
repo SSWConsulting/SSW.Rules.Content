@@ -1,12 +1,13 @@
 ---
-uri: do-you-add-your-email-groups-as-channels
+type: rule
 title: Do you add your Email groups as Channels?
-created: 2015-06-03 21:36:43
+uri: do-you-add-your-email-groups-as-channels
+created: 2015-06-03T21:36:43.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

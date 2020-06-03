@@ -1,14 +1,15 @@
 ---
-uri: do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
+type: rule
 title: Do you get a signed copy of the whole Terms and Conditions document (not just the last page)?
-created: 2012-11-20 19:17:27
+uri: do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
+created: 2012-11-20T19:17:27.0000000Z
 authors:
-  - id: 2
-    title: Cameron Shaw
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 2
+  title: Cameron Shaw
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-the-best-web-ui-libraries
+type: rule
 title: Do you use the best Web UI libraries?
-created: 2013-12-18 15:32:43
+uri: do-you-use-the-best-web-ui-libraries
+created: 2013-12-18T15:32:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
-  - id: 36
-    title: Daniel Šmon
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 36
+  title: Daniel Šmon
 
+---
 
 
 

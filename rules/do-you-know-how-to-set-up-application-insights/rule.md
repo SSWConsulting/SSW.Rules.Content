@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-set-up-application-insights
+type: rule
 title: Do you know how to set up Application Insights?
-created: 2015-07-24 04:48:34
+uri: do-you-know-how-to-set-up-application-insights
+created: 2015-07-24T04:48:34.0000000Z
 authors:
-  - id: 45
-    title: Chris Briggs
----
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-send-tasks-one-email-at-a-time
+type: rule
 title: Do you send tasks one email at a time?
-created: 2009-03-30 03:26:32
+uri: do-you-send-tasks-one-email-at-a-time
+created: 2009-03-30T03:26:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

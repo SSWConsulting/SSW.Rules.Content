@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-do-a-hard-delete-of-large-files-in-mdm-microsoft-dynamics-marketing
+type: rule
 title: Do you know how to do a hard delete of large files in MDM (Microsoft Dynamics Marketing)?
-created: 2014-10-16 21:49:58
+uri: do-you-know-how-to-do-a-hard-delete-of-large-files-in-mdm-microsoft-dynamics-marketing
+created: 2014-10-16T21:49:58.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

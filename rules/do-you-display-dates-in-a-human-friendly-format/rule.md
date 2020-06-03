@@ -1,12 +1,13 @@
 ---
-uri: do-you-display-dates-in-a-human-friendly-format
+type: rule
 title: Do you display dates in a human friendly format?
-created: 2015-03-17 04:47:35
+uri: do-you-display-dates-in-a-human-friendly-format
+created: 2015-03-17T04:47:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-thoroughly-test-employment-candidates
+type: rule
 title: Do you thoroughly test employment candidates?
-created: 2009-03-10 07:26:02
+uri: do-you-thoroughly-test-employment-candidates
+created: 2009-03-10T07:26:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-ways-to-deploy-a-sharepoint-solution
+type: rule
 title: Do you know the best ways to deploy a SharePoint solution?
-created: 2009-04-17 05:39:16
+uri: do-you-know-the-best-ways-to-deploy-a-sharepoint-solution
+created: 2009-04-17T05:39:16.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 1
-    title: Adam Cogan
----
+- id: 8
+  title: John Liu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

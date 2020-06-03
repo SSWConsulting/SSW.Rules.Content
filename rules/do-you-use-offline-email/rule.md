@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-offline-email
+type: rule
 title: Do you use Offline Email?
-created: 2009-04-03 08:30:40
+uri: do-you-use-offline-email
+created: 2009-04-03T08:30:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

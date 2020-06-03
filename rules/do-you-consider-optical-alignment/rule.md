@@ -1,11 +1,11 @@
 ---
-uri: do-you-consider-optical-alignment
+type: rule
 title: Do you consider optical alignment?
-created: 2012-11-27 01:51:02
-authors:
+uri: do-you-consider-optical-alignment
+created: 2012-11-27T01:51:02.0000000Z
+authors: []
 
 ---
-
 
 
 

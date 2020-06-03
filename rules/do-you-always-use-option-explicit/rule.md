@@ -1,14 +1,15 @@
 ---
-uri: do-you-always-use-option-explicit
+type: rule
 title: Do you always use Option Explicit?
-created: 2009-05-13 07:01:27
+uri: do-you-always-use-option-explicit
+created: 2009-05-13T07:01:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

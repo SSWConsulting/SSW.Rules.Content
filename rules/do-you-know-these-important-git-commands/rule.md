@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-these-important-git-commands
+type: rule
 title: Do you know these important git commands?
-created: 2014-05-22 20:02:08
+uri: do-you-know-these-important-git-commands
+created: 2014-05-22T20:02:08.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-what-will-break-and-how-to-be-ready-for-them
+type: rule
 title: Do you know what will break and how to be ready for them?
-created: 2009-11-02 21:18:21
+uri: do-you-know-what-will-break-and-how-to-be-ready-for-them
+created: 2009-11-02T21:18:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

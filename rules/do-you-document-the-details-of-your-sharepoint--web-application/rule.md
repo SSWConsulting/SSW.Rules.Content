@@ -1,14 +1,15 @@
 ---
-uri: do-you-document-the-details-of-your-sharepoint--web-application
+type: rule
 title: Do you document the details of your SharePoint 2007 web application
-created: 2010-12-23 03:00:52
+uri: do-you-document-the-details-of-your-sharepoint--web-application
+created: 2010-12-23T03:00:52.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 9
+  title: William Yin
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

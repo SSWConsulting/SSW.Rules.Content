@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-content-query-web-part
+type: rule
 title: Do you use content query web part?
-created: 2012-05-17 07:15:16
+uri: do-you-use-content-query-web-part
+created: 2012-05-17T07:15:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 15
-    title: Mark Liu
----
+- id: 1
+  title: Adam Cogan
+- id: 15
+  title: Mark Liu
 
+---
 
 
 

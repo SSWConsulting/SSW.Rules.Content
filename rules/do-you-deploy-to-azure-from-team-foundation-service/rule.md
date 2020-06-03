@@ -1,12 +1,13 @@
 ---
-uri: do-you-deploy-to-azure-from-team-foundation-service
+type: rule
 title: Do you deploy to Azure from Team Foundation Service?
-created: 2013-02-25 14:29:26
+uri: do-you-deploy-to-azure-from-team-foundation-service
+created: 2013-02-25T14:29:26.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

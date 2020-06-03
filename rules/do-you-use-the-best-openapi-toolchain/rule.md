@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-best-openapi-toolchain
+type: rule
 title: Do you use the best OpenAPI toolchain?
-created: 2019-05-25 01:48:38
+uri: do-you-use-the-best-openapi-toolchain
+created: 2019-05-25T01:48:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

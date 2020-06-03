@@ -1,12 +1,13 @@
 ---
-uri: after-adding-a-rule-on-sharepoint---what-steps-should-you-take
+type: rule
 title: After adding a rule on SharePoint - what steps should you take?
-created: 2009-10-10 06:22:22
+uri: after-adding-a-rule-on-sharepoint---what-steps-should-you-take
+created: 2009-10-10T06:22:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

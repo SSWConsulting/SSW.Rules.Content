@@ -1,11 +1,11 @@
 ---
-uri: do-you-understand-the-importance-of-language-in-your-ui
+type: rule
 title: Do you understand the importance of language in your UI?
-created: 2014-12-02 03:09:10
-authors:
+uri: do-you-understand-the-importance-of-language-in-your-ui
+created: 2014-12-02T03:09:10.0000000Z
+authors: []
 
 ---
-
 
 
 

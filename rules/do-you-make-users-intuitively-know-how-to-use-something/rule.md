@@ -1,11 +1,11 @@
 ---
-uri: do-you-make-users-intuitively-know-how-to-use-something
+type: rule
 title: Do you make users intuitively know how to use something?
-created: 2012-11-27 01:38:45
-authors:
+uri: do-you-make-users-intuitively-know-how-to-use-something
+created: 2012-11-27T01:38:45.0000000Z
+authors: []
 
 ---
-
 
 
 

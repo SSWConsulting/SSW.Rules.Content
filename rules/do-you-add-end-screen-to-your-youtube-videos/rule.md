@@ -1,12 +1,13 @@
 ---
-uri: do-you-add-end-screen-to-your-youtube-videos
+type: rule
 title: Do you add end screen to your YouTube videos?
-created: 2018-07-27 00:10:17
+uri: do-you-add-end-screen-to-your-youtube-videos
+created: 2018-07-27T00:10:17.0000000Z
 authors:
-  - id: 74
-    title: Florent Dezettre
----
+- id: 74
+  title: Florent Dezettre
 
+---
 
 
 

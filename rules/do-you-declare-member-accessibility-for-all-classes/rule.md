@@ -1,12 +1,13 @@
 ---
-uri: do-you-declare-member-accessibility-for-all-classes
+type: rule
 title: Do you declare member accessibility for all classes?
-created: 2018-04-25 22:45:00
+uri: do-you-declare-member-accessibility-for-all-classes
+created: 2018-04-25T22:45:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

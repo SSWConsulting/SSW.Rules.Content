@@ -1,12 +1,13 @@
 ---
-uri: webinar---do-you-follow-up-with-people-who-register-for-webinars
+type: rule
 title: Webinar - Do you follow up with people who register for Webinars?
-created: 2014-10-14 19:31:40
+uri: webinar---do-you-follow-up-with-people-who-register-for-webinars
+created: 2014-10-14T19:31:40.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
----
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

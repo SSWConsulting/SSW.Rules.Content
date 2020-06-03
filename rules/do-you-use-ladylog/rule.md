@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-ladylog
+type: rule
 title: Do you use LadyLog?
-created: 2013-09-11 21:50:56
+uri: do-you-use-ladylog
+created: 2013-09-11T21:50:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

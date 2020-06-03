@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-answer-a-question-in-jira
+type: rule
 title: Do you know how to answer a question in Jira?
-created: 2009-08-13 05:44:46
-authors:
+uri: do-you-know-how-to-answer-a-question-in-jira
+created: 2009-08-13T05:44:46.0000000Z
+authors: []
 
 ---
-
 
 
 

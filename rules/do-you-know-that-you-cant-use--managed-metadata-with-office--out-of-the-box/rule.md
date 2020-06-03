@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-that-you-cant-use--managed-metadata-with-office--out-of-the-box
+type: rule
 title: Do you know that you can't use 2010 Managed Metadata with Office 2007 out of the box?
-created: 2010-12-23 07:51:54
+uri: do-you-know-that-you-cant-use--managed-metadata-with-office--out-of-the-box
+created: 2010-12-23T07:51:54.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 1
-    title: Adam Cogan
----
+- id: 8
+  title: John Liu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

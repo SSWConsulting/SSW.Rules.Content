@@ -1,14 +1,15 @@
 ---
-uri: do-you-minimize-your-outlook-distractions
+type: rule
 title: Do you minimize your Outlook Distractions?
-created: 2009-03-27 02:55:57
+uri: do-you-minimize-your-outlook-distractions
+created: 2009-03-27T02:55:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

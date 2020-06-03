@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-primary-features-of-lync-software-phones-with-microsoft-lync
+type: rule
 title: Do you know the primary features of Lync? (Software Phones with Microsoft Lync)
-created: 2013-02-28 03:38:21
+uri: do-you-know-the-primary-features-of-lync-software-phones-with-microsoft-lync
+created: 2013-02-28T03:38:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

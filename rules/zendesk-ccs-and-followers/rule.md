@@ -1,11 +1,11 @@
 ---
-uri: zendesk-ccs-and-followers
+type: rule
 title: Zendesk CCs and Followers
-created: 2019-09-06 06:16:32
-authors:
+uri: zendesk-ccs-and-followers
+created: 2019-09-06T06:16:32.0000000Z
+authors: []
 
 ---
-
 
 
 

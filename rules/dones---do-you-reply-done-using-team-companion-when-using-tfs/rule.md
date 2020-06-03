@@ -1,12 +1,13 @@
 ---
-uri: dones---do-you-reply-done-using-team-companion-when-using-tfs
+type: rule
 title: Dones - Do you reply 'Done' using Team Companion when using TFS?
-created: 2010-08-23 02:05:53
+uri: dones---do-you-reply-done-using-team-companion-when-using-tfs
+created: 2010-08-23T02:05:53.0000000Z
 authors:
-  - id: 12
-    title: Peter Gfader
----
+- id: 12
+  title: Peter Gfader
 
+---
 
 
 

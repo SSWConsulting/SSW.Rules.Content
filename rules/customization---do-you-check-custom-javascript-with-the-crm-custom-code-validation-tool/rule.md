@@ -1,12 +1,13 @@
 ---
-uri: customization---do-you-check-custom-javascript-with-the-crm-custom-code-validation-tool
+type: rule
 title: Customization - Do you check custom JavaScript with the CRM Custom Code Validation Tool?
-created: 2013-06-28 05:11:16
+uri: customization---do-you-check-custom-javascript-with-the-crm-custom-code-validation-tool
+created: 2013-06-28T05:11:16.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

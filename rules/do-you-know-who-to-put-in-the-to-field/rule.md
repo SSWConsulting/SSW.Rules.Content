@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-who-to-put-in-the-to-field
+type: rule
 title: Do you know who to put in the "To:" field?
-created: 2011-04-25 06:51:05
+uri: do-you-know-who-to-put-in-the-to-field
+created: 2011-04-25T06:51:05.0000000Z
 authors:
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

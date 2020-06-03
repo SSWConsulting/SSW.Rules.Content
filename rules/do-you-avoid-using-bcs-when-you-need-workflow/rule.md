@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-using-bcs-when-you-need-workflow
+type: rule
 title: Do you avoid using BCS when you need Workflow?
-created: 2010-06-04 06:39:12
+uri: do-you-avoid-using-bcs-when-you-need-workflow
+created: 2010-06-04T06:39:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

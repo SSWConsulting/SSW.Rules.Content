@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the--steps-to-a-pbi
+type: rule
 title: Do you know the 3 steps to a PBI?
-created: 2013-08-30 06:33:21
+uri: do-you-know-the--steps-to-a-pbi
+created: 2013-08-30T06:33:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

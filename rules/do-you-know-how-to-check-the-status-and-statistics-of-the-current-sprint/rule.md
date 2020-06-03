@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint
+type: rule
 title: Do you know how to check the status and statistics of the current Sprint?
-created: 2012-08-01 18:29:05
+uri: do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint
+created: 2012-08-01T18:29:05.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-create-one-test-plan-per-sprint
+type: rule
 title: Do you create one Test Plan per Sprint?
-created: 2013-08-19 19:37:13
+uri: do-you-create-one-test-plan-per-sprint
+created: 2013-08-19T19:37:13.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

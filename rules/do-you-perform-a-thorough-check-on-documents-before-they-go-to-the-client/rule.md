@@ -1,12 +1,13 @@
 ---
-uri: do-you-perform-a-thorough-check-on-documents-before-they-go-to-the-client
+type: rule
 title: Do you perform a thorough check on documents before they go to the client?
-created: 2019-08-21 23:01:12
+uri: do-you-perform-a-thorough-check-on-documents-before-they-go-to-the-client
+created: 2019-08-21T23:01:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-disable-connections
+type: rule
 title: Do you disable connections?
-created: 2015-08-12 15:42:01
-authors:
+uri: do-you-disable-connections
+created: 2015-08-12T15:42:01.0000000Z
+authors: []
 
 ---
-
 
 
 

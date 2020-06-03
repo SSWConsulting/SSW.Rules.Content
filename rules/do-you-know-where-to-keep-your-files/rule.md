@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-where-to-keep-your-files
+type: rule
 title: Do you know where to keep your files?
-created: 2011-08-29 19:18:47
+uri: do-you-know-where-to-keep-your-files
+created: 2011-08-29T19:18:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
-  - id: 66
-    title: Liam Elliott
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 66
+  title: Liam Elliott
 
+---
 
 
 

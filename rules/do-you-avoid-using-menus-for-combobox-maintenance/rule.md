@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-using-menus-for-combobox-maintenance
+type: rule
 title: Do you avoid using menus for ComboBox maintenance?
-created: 2014-12-01 00:42:53
-authors:
+uri: do-you-avoid-using-menus-for-combobox-maintenance
+created: 2014-12-01T00:42:53.0000000Z
+authors: []
 
 ---
-
 
 
 

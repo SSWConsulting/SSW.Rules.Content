@@ -1,12 +1,13 @@
 ---
-uri: do-you-separate-your-expenses-by-creating-separate-reports-in-expensify
+type: rule
 title: Do you separate your expenses by creating separate reports in Expensify?
-created: 2017-10-10 02:52:20
+uri: do-you-separate-your-expenses-by-creating-separate-reports-in-expensify
+created: 2017-10-10T02:52:20.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

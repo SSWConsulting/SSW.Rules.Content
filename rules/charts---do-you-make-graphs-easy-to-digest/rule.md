@@ -1,11 +1,11 @@
 ---
-uri: charts---do-you-make-graphs-easy-to-digest
+type: rule
 title: Charts - Do you make graphs easy to digest?
-created: 2014-12-01 05:49:05
-authors:
+uri: charts---do-you-make-graphs-easy-to-digest
+created: 2014-12-01T05:49:05.0000000Z
+authors: []
 
 ---
-
 
 
 

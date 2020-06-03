@@ -1,12 +1,13 @@
 ---
-uri: office-environment---do-you-know-how-to-get-approval-for-a-purchase
+type: rule
 title: Office environment - Do you know how to get approval for a purchase?
-created: 2015-03-26 01:25:30
+uri: office-environment---do-you-know-how-to-get-approval-for-a-purchase
+created: 2015-03-26T01:25:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

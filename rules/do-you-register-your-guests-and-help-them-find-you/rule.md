@@ -1,12 +1,13 @@
 ---
-uri: do-you-register-your-guests-and-help-them-find-you
+type: rule
 title: Do you register your guests and help them find you?
-created: 2014-12-31 00:30:38
+uri: do-you-register-your-guests-and-help-them-find-you
+created: 2014-12-31T00:30:38.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

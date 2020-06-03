@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-difference-between-close-and-cancel
+type: rule
 title: Do you know the difference between Close and Cancel?
-created: 2014-12-01 04:16:17
-authors:
+uri: do-you-know-the-difference-between-close-and-cancel
+created: 2014-12-01T04:16:17.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: authentication---do-you-make-the-logged-in-state-clear
+type: rule
 title: Authentication - Do you make the logged in state clear?
-created: 2012-11-27 02:03:35
-authors:
+uri: authentication---do-you-make-the-logged-in-state-clear
+created: 2012-11-27T02:03:35.0000000Z
+authors: []
 
 ---
-
 
 
 

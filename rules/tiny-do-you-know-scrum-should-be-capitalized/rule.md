@@ -1,12 +1,13 @@
 ---
+type: rule
+title: 'Tiny: Do you know "Scrum" should be capitalized?'
 uri: tiny-do-you-know-scrum-should-be-capitalized
-title: Tiny: Do you know "Scrum" should be capitalized?
-created: 2020-03-11 00:28:43
+created: 2020-03-11T00:28:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

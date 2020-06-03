@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-view-a-projects-activity-traffic-and-contributions
+type: rule
 title: Do you know how to view a project’s activity, traffic and contributions?
-created: 2020-04-17 21:50:16
+uri: do-you-know-how-to-view-a-projects-activity-traffic-and-contributions
+created: 2020-04-17T21:50:16.0000000Z
 authors:
-  - id: 84
-    title: Patricia Barros
----
+- id: 84
+  title: Patricia Barros
 
+---
 
 
 

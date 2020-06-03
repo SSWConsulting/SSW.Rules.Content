@@ -1,14 +1,15 @@
 ---
-uri: approval---do-you-assume-necessary-tasks-will-get-approval
+type: rule
 title: Approval - Do you assume necessary tasks will get approval?
-created: 2009-04-07 07:01:42
+uri: approval---do-you-assume-necessary-tasks-will-get-approval
+created: 2009-04-07T07:01:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

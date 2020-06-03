@@ -1,11 +1,11 @@
 ---
-uri: getting-started---have-you-read-the-scrum-guide
+type: rule
 title: Getting Started - Have you read the Scrum guide?
-created: 2010-08-02 06:42:01
-authors:
+uri: getting-started---have-you-read-the-scrum-guide
+created: 2010-08-02T06:42:01.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-transcribe-your-videos-for-google-juice
+type: rule
 title: Do you transcribe your videos for Google juice?
-created: 2015-12-07 17:41:31
+uri: do-you-transcribe-your-videos-for-google-juice
+created: 2015-12-07T17:41:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

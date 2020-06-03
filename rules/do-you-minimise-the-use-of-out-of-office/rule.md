@@ -1,16 +1,17 @@
 ---
-uri: do-you-minimise-the-use-of-out-of-office
+type: rule
 title: Do you minimise the use of Out of Office?
-created: 2009-04-03 08:48:34
+uri: do-you-minimise-the-use-of-out-of-office
+created: 2009-04-03T08:48:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

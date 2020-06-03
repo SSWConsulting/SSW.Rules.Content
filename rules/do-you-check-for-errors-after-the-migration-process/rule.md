@@ -1,11 +1,11 @@
 ---
-uri: do-you-check-for-errors-after-the-migration-process
+type: rule
 title: Do you check for errors after the migration process?
-created: 2010-12-23 07:11:10
-authors:
+uri: do-you-check-for-errors-after-the-migration-process
+created: 2010-12-23T07:11:10.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-consistent-brand-image
+type: rule
 title: Do you have a consistent brand image?
-created: 2014-10-13 17:30:46
+uri: do-you-have-a-consistent-brand-image
+created: 2014-10-13T17:30:46.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

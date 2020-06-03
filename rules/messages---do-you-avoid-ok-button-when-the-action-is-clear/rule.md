@@ -1,11 +1,11 @@
 ---
-uri: messages---do-you-avoid-ok-button-when-the-action-is-clear
+type: rule
 title: Messages - Do you avoid 'OK' button when the action is clear?
-created: 2012-11-27 04:31:59
-authors:
+uri: messages---do-you-avoid-ok-button-when-the-action-is-clear
+created: 2012-11-27T04:31:59.0000000Z
+authors: []
 
 ---
-
 
 
 

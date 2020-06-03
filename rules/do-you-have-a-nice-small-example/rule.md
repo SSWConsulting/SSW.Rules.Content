@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-a-nice-small-example
+type: rule
 title: Do you have a nice small example?
-created: 2010-03-19 00:53:49
-authors:
+uri: do-you-have-a-nice-small-example
+created: 2010-03-19T00:53:49.0000000Z
+authors: []
 
 ---
-
 
 
 

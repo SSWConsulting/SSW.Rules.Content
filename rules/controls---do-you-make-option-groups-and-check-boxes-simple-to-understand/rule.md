@@ -1,11 +1,11 @@
 ---
-uri: controls---do-you-make-option-groups-and-check-boxes-simple-to-understand
+type: rule
 title: Controls - Do you make Option Groups and Check Boxes simple to understand?
-created: 2012-11-27 09:11:19
-authors:
+uri: controls---do-you-make-option-groups-and-check-boxes-simple-to-understand
+created: 2012-11-27T09:11:19.0000000Z
+authors: []
 
 ---
-
 
 
 

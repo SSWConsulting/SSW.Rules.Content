@@ -1,12 +1,13 @@
 ---
-uri: done---do-you-know-when-to-do-a-test-please-in-scrum
+type: rule
 title: Done - Do you know when to do a “Test Please” in Scrum?
-created: 2010-05-12 22:10:57
+uri: done---do-you-know-when-to-do-a-test-please-in-scrum
+created: 2010-05-12T22:10:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: communication---do-you-follow-the-sandwich-rule-avoid-curt-emails-when-correcting-people
+type: rule
 title: Communication - Do you follow the sandwich rule? (Avoid curt emails when correcting people)
-created: 2012-09-25 17:57:25
+uri: communication---do-you-follow-the-sandwich-rule-avoid-curt-emails-when-correcting-people
+created: 2012-09-25T17:57:25.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

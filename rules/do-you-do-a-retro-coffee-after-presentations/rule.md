@@ -1,16 +1,17 @@
 ---
-uri: do-you-do-a-retro-coffee-after-presentations
+type: rule
 title: Do you do a Retro Coffee after presentations?
-created: 2012-04-18 04:51:21
+uri: do-you-do-a-retro-coffee-after-presentations
+created: 2012-04-18T04:51:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 24
-    title: Adam Stephensen
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

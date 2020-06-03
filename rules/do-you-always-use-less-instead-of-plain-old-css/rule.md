@@ -1,12 +1,13 @@
 ---
-uri: do-you-always-use-less-instead-of-plain-old-css
+type: rule
 title: Do you always use LESS instead of plain old CSS?
-created: 2014-06-18 05:34:37
+uri: do-you-always-use-less-instead-of-plain-old-css
+created: 2014-06-18T05:34:37.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

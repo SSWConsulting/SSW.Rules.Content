@@ -1,12 +1,13 @@
 ---
-uri: do-you-get-ready-to-wait
+type: rule
 title: Do you get ready to wait?
-created: 2013-04-10 21:16:31
+uri: do-you-get-ready-to-wait
+created: 2013-04-10T21:16:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

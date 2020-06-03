@@ -1,14 +1,15 @@
 ---
-uri: do-you-think-when-replying-to-emails-its-better-late-than-never
+type: rule
 title: Do you think when replying to emails it's better late than never?
-created: 2009-03-27 02:52:19
+uri: do-you-think-when-replying-to-emails-its-better-late-than-never
+created: 2009-03-27T02:52:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

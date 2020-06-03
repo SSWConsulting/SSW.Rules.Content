@@ -1,12 +1,13 @@
 ---
-uri: search-results---do-you-always-give-more-information-when-searching-doesnt-find-anything
+type: rule
 title: Search Results - Do you always give more information when searching doesn’t find anything?
-created: 2014-12-22 12:15:42
+uri: search-results---do-you-always-give-more-information-when-searching-doesnt-find-anything
+created: 2014-12-22T12:15:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

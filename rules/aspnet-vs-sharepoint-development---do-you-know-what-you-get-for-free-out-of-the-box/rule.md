@@ -1,14 +1,15 @@
 ---
-uri: aspnet-vs-sharepoint-development---do-you-know-what-you-get-for-free-out-of-the-box
+type: rule
 title: ASP.NET vs SharePoint development - do you know what you get for free out of the box?
-created: 2009-06-16 01:23:22
+uri: aspnet-vs-sharepoint-development---do-you-know-what-you-get-for-free-out-of-the-box
+created: 2009-06-16T01:23:22.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

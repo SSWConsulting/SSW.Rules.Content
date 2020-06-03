@@ -1,14 +1,15 @@
 ---
-uri: do-you-post-all-useful-internal-emails-to-the-company-blog
+type: rule
 title: Do you post all useful internal emails to the Company Blog
-created: 2011-06-13 09:55:41
+uri: do-you-post-all-useful-internal-emails-to-the-company-blog
+created: 2011-06-13T09:55:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

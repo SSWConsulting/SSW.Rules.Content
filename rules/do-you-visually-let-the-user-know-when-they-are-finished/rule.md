@@ -1,11 +1,11 @@
 ---
-uri: do-you-visually-let-the-user-know-when-they-are-finished
+type: rule
 title: Do you visually let the user know when they are finished?
-created: 2014-12-01 03:56:24
-authors:
+uri: do-you-visually-let-the-user-know-when-they-are-finished
+created: 2014-12-01T03:56:24.0000000Z
+authors: []
 
 ---
-
 
 
 

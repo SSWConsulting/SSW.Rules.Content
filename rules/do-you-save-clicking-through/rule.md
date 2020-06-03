@@ -1,11 +1,11 @@
 ---
-uri: do-you-save-clicking-through
+type: rule
 title: Do you save clicking through?
-created: 2015-02-16 02:40:50
-authors:
+uri: do-you-save-clicking-through
+created: 2015-02-16T02:40:50.0000000Z
+authors: []
 
 ---
-
 
 
 

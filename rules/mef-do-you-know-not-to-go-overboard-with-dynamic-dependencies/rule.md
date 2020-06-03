@@ -1,12 +1,13 @@
 ---
+type: rule
+title: 'MEF: Do you know not to go overboard with dynamic dependencies?'
 uri: mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
-title: MEF: Do you know not to go overboard with dynamic dependencies?
-created: 2012-03-21 09:45:50
+created: 2012-03-21T09:45:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

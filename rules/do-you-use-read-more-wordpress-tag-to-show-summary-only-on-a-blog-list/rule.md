@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list
+type: rule
 title: Do you use 'read more' WordPress tag to show summary only on a blog list?
-created: 2014-06-09 15:12:04
+uri: do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list
+created: 2014-06-09T15:12:04.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
-  - id: 1
-    title: Adam Cogan
----
+- id: 16
+  title: Tiago Araujo
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

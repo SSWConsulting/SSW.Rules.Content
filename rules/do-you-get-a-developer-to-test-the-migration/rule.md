@@ -1,11 +1,11 @@
 ---
-uri: do-you-get-a-developer-to-test-the-migration
+type: rule
 title: Do you get a developer to test the migration?
-created: 2015-08-14 11:37:58
-authors:
+uri: do-you-get-a-developer-to-test-the-migration
+created: 2015-08-14T11:37:58.0000000Z
+authors: []
 
 ---
-
 
 
 

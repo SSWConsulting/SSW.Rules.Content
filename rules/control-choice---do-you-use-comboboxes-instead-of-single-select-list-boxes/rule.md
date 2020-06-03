@@ -1,11 +1,11 @@
 ---
-uri: control-choice---do-you-use-comboboxes-instead-of-single-select-list-boxes
+type: rule
 title: Control Choice - Do you use ComboBoxes instead of single-select List Boxes?
-created: 2012-11-27 08:52:24
-authors:
+uri: control-choice---do-you-use-comboboxes-instead-of-single-select-list-boxes
+created: 2012-11-27T08:52:24.0000000Z
+authors: []
 
 ---
-
 
 
 

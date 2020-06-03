@@ -1,16 +1,17 @@
 ---
-uri: do-you-use--back-instead-of--previous-or-other-variations
+type: rule
 title: Do you use "< Back" instead of "< Previous" or other variations?
-created: 2009-12-04 09:16:18
+uri: do-you-use--back-instead-of--previous-or-other-variations
+created: 2009-12-04T09:16:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 7
-    title: Jade Mitchell
----
+- id: 1
+  title: Adam Cogan
+- id: 6
+  title: Tristan Kurniawan
+- id: 7
+  title: Jade Mitchell
 
+---
 
 
 

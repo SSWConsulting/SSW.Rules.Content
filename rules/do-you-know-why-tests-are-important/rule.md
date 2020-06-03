@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-why-tests-are-important
+type: rule
 title: Do you know why tests are important?
-created: 2020-03-11 16:00:41
+uri: do-you-know-why-tests-are-important
+created: 2020-03-11T16:00:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-point-home-directory-to-a-different-drive
+type: rule
 title: Do you point Home directory to a different drive?
-created: 2016-05-30 06:23:41
+uri: do-you-point-home-directory-to-a-different-drive
+created: 2016-05-30T06:23:41.0000000Z
 authors:
-  - id: 46
-    title: Danijel Malik
----
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

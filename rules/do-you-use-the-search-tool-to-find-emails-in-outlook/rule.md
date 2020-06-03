@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-the-search-tool-to-find-emails-in-outlook
+type: rule
 title: Do you use the search tool to find emails in Outlook?
-created: 2009-04-07 05:27:31
+uri: do-you-use-the-search-tool-to-find-emails-in-outlook
+created: 2009-04-07T05:27:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

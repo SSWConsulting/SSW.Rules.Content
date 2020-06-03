@@ -1,12 +1,13 @@
 ---
-uri: general---ethics---do-you-only-do-what-you-think-is-right-professional-integrity
+type: rule
 title: General - Ethics - Do you only do what you think is right? (Professional integrity)
-created: 2012-09-25 17:59:49
+uri: general---ethics---do-you-only-do-what-you-think-is-right-professional-integrity
+created: 2012-09-25T17:59:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

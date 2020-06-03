@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-tfs--instead-of-tfs-
+type: rule
 title: Do you use TFS 2012 instead of TFS 2010?
-created: 2009-11-05 06:35:33
+uri: do-you-use-tfs--instead-of-tfs-
+created: 2009-11-05T06:35:33.0000000Z
 authors:
-  - id: 10
-    title: Lei Xu
----
+- id: 10
+  title: Lei Xu
 
+---
 
 
 

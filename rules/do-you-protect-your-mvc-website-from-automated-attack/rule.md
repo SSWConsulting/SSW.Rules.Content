@@ -1,12 +1,13 @@
 ---
-uri: do-you-protect-your-mvc-website-from-automated-attack
+type: rule
 title: Do you protect your MVC website from automated attack?
-created: 2015-04-27 05:14:32
+uri: do-you-protect-your-mvc-website-from-automated-attack
+created: 2015-04-27T05:14:32.0000000Z
 authors:
-  - id: 42
-    title: Shigemi Matsumoto
----
+- id: 42
+  title: Shigemi Matsumoto
 
+---
 
 
 

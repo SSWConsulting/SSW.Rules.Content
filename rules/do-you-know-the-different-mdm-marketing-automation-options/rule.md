@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-different-mdm-marketing-automation-options
+type: rule
 title: Do you know the different MDM Marketing Automation options?
-created: 2014-10-16 21:30:24
+uri: do-you-know-the-different-mdm-marketing-automation-options
+created: 2014-10-16T21:30:24.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

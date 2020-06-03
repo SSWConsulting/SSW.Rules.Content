@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-book-better-flights-within-us
+type: rule
 title: Do you know how to book better flights within US?
-created: 2015-04-28 05:03:42
-authors:
+uri: do-you-know-how-to-book-better-flights-within-us
+created: 2015-04-28T05:03:42.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-follow-policies-for-recording-time
+type: rule
 title: Do you follow policies for recording time?
-created: 2013-04-19 19:26:29
+uri: do-you-follow-policies-for-recording-time
+created: 2013-04-19T19:26:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

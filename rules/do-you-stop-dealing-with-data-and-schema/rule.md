@@ -1,12 +1,13 @@
 ---
-uri: do-you-stop-dealing-with-data-and-schema
+type: rule
 title: Do you stop dealing with Data and Schema?
-created: 2009-03-10 06:36:56
+uri: do-you-stop-dealing-with-data-and-schema
+created: 2009-03-10T06:36:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

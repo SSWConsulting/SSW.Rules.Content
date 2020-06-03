@@ -1,12 +1,13 @@
 ---
-uri: figures---do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
+type: rule
 title: Figures - Do you use 'Bad Example' and 'Good Example' with ticks and crosses in captions?
-created: 2014-12-04 20:29:04
+uri: figures---do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
+created: 2014-12-04T20:29:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

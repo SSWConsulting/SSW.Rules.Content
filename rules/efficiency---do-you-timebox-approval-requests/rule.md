@@ -1,11 +1,11 @@
 ---
-uri: efficiency---do-you-timebox-approval-requests
+type: rule
 title: Efficiency - Do you timebox approval requests?
-created: 2017-05-12 05:03:32
-authors:
+uri: efficiency---do-you-timebox-approval-requests
+created: 2017-05-12T05:03:32.0000000Z
+authors: []
 
 ---
-
 
 
 

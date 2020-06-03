@@ -1,14 +1,15 @@
 ---
-uri: do-you-acknowledge-people-who-give-you-feedback
+type: rule
 title: Do you acknowledge people who give you feedback?
-created: 2010-09-07 16:15:28
+uri: do-you-acknowledge-people-who-give-you-feedback
+created: 2010-09-07T16:15:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

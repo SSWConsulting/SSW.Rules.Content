@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-specify-a-network-for-live-migration
+type: rule
 title: Do you know how to specify a Network for Live Migration?
-created: 2012-03-02 18:56:38
-authors:
+uri: do-you-know-how-to-specify-a-network-for-live-migration
+created: 2012-03-02T18:56:38.0000000Z
+authors: []
 
 ---
-
 
 
 

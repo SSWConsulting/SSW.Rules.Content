@@ -1,12 +1,13 @@
 ---
-uri: do-you-follow-the-standard-naming-conventions-for-tests
+type: rule
 title: Do you follow the standard naming conventions for tests?
-created: 2020-03-11 20:18:31
+uri: do-you-follow-the-standard-naming-conventions-for-tests
+created: 2020-03-11T20:18:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

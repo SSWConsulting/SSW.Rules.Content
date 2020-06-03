@@ -1,12 +1,13 @@
 ---
-uri: do-you-keep-your-databindereval-clean
+type: rule
 title: Do you keep your "DataBinder.Eval" clean?
-created: 2016-09-01 18:07:57
+uri: do-you-keep-your-databindereval-clean
+created: 2016-09-01T18:07:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

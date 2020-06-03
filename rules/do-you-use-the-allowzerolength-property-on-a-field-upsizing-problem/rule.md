@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-allowzerolength-property-on-a-field-upsizing-problem
+type: rule
 title: Do you use the AllowZeroLength property on a field (Upsizing Problem)?
-created: 2010-07-23 02:36:10
+uri: do-you-use-the-allowzerolength-property-on-a-field-upsizing-problem
+created: 2010-07-23T02:36:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

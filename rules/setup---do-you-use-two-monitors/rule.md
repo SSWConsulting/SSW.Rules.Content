@@ -1,14 +1,15 @@
 ---
-uri: setup---do-you-use-two-monitors
+type: rule
 title: Setup - Do you use two monitors?
-created: 2012-09-25 17:53:17
+uri: setup---do-you-use-two-monitors
+created: 2012-09-25T17:53:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

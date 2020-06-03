@@ -1,14 +1,15 @@
 ---
-uri: do-you-manage-your-deleted-items
+type: rule
 title: Do you manage your Deleted Items?
-created: 2009-03-30 02:50:56
+uri: do-you-manage-your-deleted-items
+created: 2009-03-30T02:50:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

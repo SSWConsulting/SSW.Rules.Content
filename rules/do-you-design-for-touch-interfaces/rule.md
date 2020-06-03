@@ -1,11 +1,11 @@
 ---
-uri: do-you-design-for-touch-interfaces
+type: rule
 title: Do you design for touch interfaces?
-created: 2014-11-25 23:54:48
-authors:
+uri: do-you-design-for-touch-interfaces
+created: 2014-11-25T23:54:48.0000000Z
+authors: []
 
 ---
-
 
 
 

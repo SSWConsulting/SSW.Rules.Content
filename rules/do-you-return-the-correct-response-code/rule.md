@@ -1,14 +1,15 @@
 ---
-uri: do-you-return-the-correct-response-code
+type: rule
 title: Do you return the correct response code?
-created: 2014-11-05 20:39:42
+uri: do-you-return-the-correct-response-code
+created: 2014-11-05T20:39:42.0000000Z
 authors:
-  - id: 45
-    title: Chris Briggs
-  - id: 38
-    title: Drew Robson
----
+- id: 45
+  title: Chris Briggs
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

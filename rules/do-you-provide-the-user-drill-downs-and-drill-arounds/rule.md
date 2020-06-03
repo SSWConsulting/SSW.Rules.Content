@@ -1,11 +1,11 @@
 ---
-uri: do-you-provide-the-user-drill-downs-and-drill-arounds
+type: rule
 title: Do you provide the user Drill-Downs and Drill-Arounds?
-created: 2014-12-01 00:40:03
-authors:
+uri: do-you-provide-the-user-drill-downs-and-drill-arounds
+created: 2014-12-01T00:40:03.0000000Z
+authors: []
 
 ---
-
 
 
 

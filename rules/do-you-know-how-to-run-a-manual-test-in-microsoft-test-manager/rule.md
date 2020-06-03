@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-run-a-manual-test-in-microsoft-test-manager
+type: rule
 title: Do you know how to run a manual test in Microsoft Test Manager?
-created: 2012-07-09 17:46:58
+uri: do-you-know-how-to-run-a-manual-test-in-microsoft-test-manager
+created: 2012-07-09T17:46:58.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

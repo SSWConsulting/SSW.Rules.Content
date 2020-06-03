@@ -1,12 +1,13 @@
 ---
-uri: calendar---does-your-calendar-always-accurately-show-where-you-are
+type: rule
 title: Calendar - Does your calendar always accurately show where you are?
-created: 2012-09-25 18:11:12
+uri: calendar---does-your-calendar-always-accurately-show-where-you-are
+created: 2012-09-25T18:11:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

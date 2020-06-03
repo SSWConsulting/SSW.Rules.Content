@@ -1,11 +1,11 @@
 ---
-uri: messages---do-you-know-how-to-make-message-boxes-user-friendly--titles
+type: rule
 title: Messages - Do you know how to make message boxes user friendly? (1/3 Titles)
-created: 2012-11-27 04:33:49
-authors:
+uri: messages---do-you-know-how-to-make-message-boxes-user-friendly--titles
+created: 2012-11-27T04:33:49.0000000Z
+authors: []
 
 ---
-
 
 
 

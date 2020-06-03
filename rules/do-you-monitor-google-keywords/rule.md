@@ -1,12 +1,13 @@
 ---
-uri: do-you-monitor-google-keywords
+type: rule
 title: Do you monitor Google keywords?
-created: 2016-11-25 19:39:24
+uri: do-you-monitor-google-keywords
+created: 2016-11-25T19:39:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

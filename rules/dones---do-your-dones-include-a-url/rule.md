@@ -1,16 +1,17 @@
 ---
-uri: dones---do-your-dones-include-a-url
+type: rule
 title: Dones - Do your 'Dones' include a URL?
-created: 2009-12-10 06:55:30
+uri: dones---do-your-dones-include-a-url
+created: 2009-12-10T06:55:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

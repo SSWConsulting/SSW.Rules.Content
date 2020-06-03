@@ -1,14 +1,15 @@
 ---
-uri: facebook---do-you-create-a-call-to-action-on-your-facebook-page
+type: rule
 title: Facebook - Do you create a call to action on your Facebook page?
-created: 2015-05-08 20:07:50
+uri: facebook---do-you-create-a-call-to-action-on-your-facebook-page
+created: 2015-05-08T20:07:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

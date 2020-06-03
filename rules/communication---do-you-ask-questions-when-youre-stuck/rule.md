@@ -1,12 +1,13 @@
 ---
-uri: communication---do-you-ask-questions-when-youre-stuck
+type: rule
 title: Communication - Do you ask questions when you're stuck?
-created: 2012-09-25 17:58:29
+uri: communication---do-you-ask-questions-when-youre-stuck
+created: 2012-09-25T17:58:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

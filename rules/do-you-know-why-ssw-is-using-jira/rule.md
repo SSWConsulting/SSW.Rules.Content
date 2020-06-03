@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-why-ssw-is-using-jira
+type: rule
 title: Do you know why SSW is using Jira?
-created: 2009-08-13 01:46:54
-authors:
+uri: do-you-know-why-ssw-is-using-jira
+created: 2009-08-13T01:46:54.0000000Z
+authors: []
 
 ---
-
 
 
 

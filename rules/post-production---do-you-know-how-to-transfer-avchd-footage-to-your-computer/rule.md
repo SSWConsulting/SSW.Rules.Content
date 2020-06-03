@@ -1,12 +1,13 @@
 ---
-uri: post-production---do-you-know-how-to-transfer-avchd-footage-to-your-computer
+type: rule
 title: Post-Production - Do you know how to transfer AVCHD footage to your computer?
-created: 2012-07-03 08:01:39
+uri: post-production---do-you-know-how-to-transfer-avchd-footage-to-your-computer
+created: 2012-07-03T08:01:39.0000000Z
 authors:
-  - id: 29
-    title: Raj Dhatt
----
+- id: 29
+  title: Raj Dhatt
 
+---
 
 
 

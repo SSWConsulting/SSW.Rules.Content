@@ -1,12 +1,13 @@
 ---
-uri: dbas---do-you-increase-the-log-size-of-your-event-viewer
+type: rule
 title: DBAs - Do you increase the Log Size of your Event Viewer?
-created: 2019-11-22 20:19:16
+uri: dbas---do-you-increase-the-log-size-of-your-event-viewer
+created: 2019-11-22T20:19:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

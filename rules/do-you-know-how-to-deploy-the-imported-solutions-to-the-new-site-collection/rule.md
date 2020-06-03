@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-deploy-the-imported-solutions-to-the-new-site-collection
+type: rule
 title: Do you know how to deploy the imported solutions to the new site collection
-created: 2010-12-23 06:36:51
+uri: do-you-know-how-to-deploy-the-imported-solutions-to-the-new-site-collection
+created: 2010-12-23T06:36:51.0000000Z
 authors:
-  - id: 9
-    title: William Yin
----
+- id: 9
+  title: William Yin
 
+---
 
 
 

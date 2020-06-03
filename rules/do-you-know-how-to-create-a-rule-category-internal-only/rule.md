@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-create-a-rule-category-internal-only
+type: rule
 title: Do you know how to create a rule category? (internal only)
-created: 2014-08-21 20:38:15
+uri: do-you-know-how-to-create-a-rule-category-internal-only
+created: 2014-08-21T20:38:15.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

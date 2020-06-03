@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-know-that-shotgun-mics-can-only-do-so-much
+type: rule
 title: Production - Do you know that Shotgun Mics can only do so much?
-created: 2012-02-26 23:33:52
+uri: production---do-you-know-that-shotgun-mics-can-only-do-so-much
+created: 2012-02-26T23:33:52.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-review-the-code-comments
+type: rule
 title: Do you review the code comments?
-created: 2012-04-01 09:31:34
+uri: do-you-review-the-code-comments
+created: 2012-04-01T09:31:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

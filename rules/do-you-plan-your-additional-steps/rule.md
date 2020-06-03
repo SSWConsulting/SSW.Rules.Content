@@ -1,11 +1,11 @@
 ---
-uri: do-you-plan-your-additional-steps
+type: rule
 title: Do you plan your additional steps?
-created: 2015-08-13 13:46:55
-authors:
+uri: do-you-plan-your-additional-steps
+created: 2015-08-13T13:46:55.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-start-from-a-built-in-process-template
+type: rule
 title: Do you start from a built-in process template?
-created: 2012-07-18 06:54:03
+uri: do-you-start-from-a-built-in-process-template
+created: 2012-07-18T06:54:03.0000000Z
 authors:
-  - id: 10
-    title: Lei Xu
----
+- id: 10
+  title: Lei Xu
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: dones---do-you-know-how-to-do-a-perfect-done-replying-to-a-bug
+type: rule
 title: Dones - Do you know how to do a perfect 'Done' (replying to a bug)?
-created: 2009-04-08 09:05:06
+uri: dones---do-you-know-how-to-do-a-perfect-done-replying-to-a-bug
+created: 2009-04-08T09:05:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

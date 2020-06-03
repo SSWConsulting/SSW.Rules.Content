@@ -1,11 +1,11 @@
 ---
-uri: give-context---do-you-include-extra-information-eg-screenshots
+type: rule
 title: Give Context - Do you include extra information (e.g. Screenshots)?
-created: 2012-11-27 02:09:20
-authors:
+uri: give-context---do-you-include-extra-information-eg-screenshots
+created: 2012-11-27T02:09:20.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-leave-messages-when-your-phone-call-is-unanswered
+type: rule
 title: Do you leave messages when your phone call is unanswered?
-created: 2010-07-16 06:47:22
-authors:
+uri: do-you-leave-messages-when-your-phone-call-is-unanswered
+created: 2010-07-16T06:47:22.0000000Z
+authors: []
 
 ---
-
 
 
 

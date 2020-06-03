@@ -1,12 +1,13 @@
 ---
-uri: do-you-optimize-your-videos-for-youtube
+type: rule
 title: Do you optimize your videos for YouTube?
-created: 2018-05-21 00:08:58
+uri: do-you-optimize-your-videos-for-youtube
+created: 2018-05-21T00:08:58.0000000Z
 authors:
-  - id: 74
-    title: Florent Dezettre
----
+- id: 74
+  title: Florent Dezettre
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: web-content-like-wikipediainstructional-style---do-you-write-in-the-newsreader-and-eyewitness-style
+type: rule
 title: Web content like wikipedia/instructional style - Do you write in the newsreader and eyewitness style?
-created: 2014-12-04 19:30:38
+uri: web-content-like-wikipediainstructional-style---do-you-write-in-the-newsreader-and-eyewitness-style
+created: 2014-12-04T19:30:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

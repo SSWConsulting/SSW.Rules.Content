@@ -1,11 +1,11 @@
 ---
-uri: menu---do-you-have-your-help--user-guide-online
+type: rule
 title: Menu - Do you have your "Help | User Guide" online?
-created: 2012-11-27 02:52:19
-authors:
+uri: menu---do-you-have-your-help--user-guide-online
+created: 2012-11-27T02:52:19.0000000Z
+authors: []
 
 ---
-
 
 
 

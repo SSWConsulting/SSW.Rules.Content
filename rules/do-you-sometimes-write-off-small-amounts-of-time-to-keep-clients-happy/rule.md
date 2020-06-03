@@ -1,12 +1,13 @@
 ---
-uri: do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
+type: rule
 title: Do you sometimes write off small amounts of time to keep clients happy?
-created: 2010-07-27 07:21:51
+uri: do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
+created: 2010-07-27T07:21:51.0000000Z
 authors:
-  - id: 2
-    title: Cameron Shaw
----
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

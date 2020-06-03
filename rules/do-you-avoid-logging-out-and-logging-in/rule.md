@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-logging-out-and-logging-in
+type: rule
 title: Do you avoid logging out and logging in?
-created: 2019-02-07 16:00:43
+uri: do-you-avoid-logging-out-and-logging-in
+created: 2019-02-07T16:00:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

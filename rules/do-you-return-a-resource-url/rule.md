@@ -1,12 +1,13 @@
 ---
-uri: do-you-return-a-resource-url
+type: rule
 title: Do you return a Resource URL?
-created: 2014-11-05 18:22:22
+uri: do-you-return-a-resource-url
+created: 2014-11-05T18:22:22.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

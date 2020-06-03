@@ -1,14 +1,15 @@
 ---
-uri: teamwork---do-you-manage-up-give-a-recommendation
+type: rule
 title: Teamwork - Do you manage up? (Give a recommendation)
-created: 2012-09-25 17:48:20
+uri: teamwork---do-you-manage-up-give-a-recommendation
+created: 2012-09-25T17:48:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

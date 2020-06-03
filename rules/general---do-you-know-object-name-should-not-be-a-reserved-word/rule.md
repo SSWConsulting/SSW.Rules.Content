@@ -1,12 +1,13 @@
 ---
-uri: general---do-you-know-object-name-should-not-be-a-reserved-word
+type: rule
 title: General - Do you know object name should not be a reserved word?
-created: 2019-11-14 21:07:23
+uri: general---do-you-know-object-name-should-not-be-a-reserved-word
+created: 2019-11-14T21:07:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

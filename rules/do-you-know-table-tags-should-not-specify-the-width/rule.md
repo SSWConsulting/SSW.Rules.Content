@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-table-tags-should-not-specify-the-width
+type: rule
 title: Do you know table tags should not specify the width?
-created: 2014-12-12 19:14:45
+uri: do-you-know-table-tags-should-not-specify-the-width
+created: 2014-12-12T19:14:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

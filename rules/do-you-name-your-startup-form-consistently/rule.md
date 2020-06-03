@@ -1,14 +1,15 @@
 ---
-uri: do-you-name-your-startup-form-consistently
+type: rule
 title: Do you name your startup form consistently?
-created: 2009-04-27 07:41:12
+uri: do-you-name-your-startup-form-consistently
+created: 2009-04-27T07:41:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

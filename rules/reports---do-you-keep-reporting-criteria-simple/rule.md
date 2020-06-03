@@ -1,11 +1,11 @@
 ---
-uri: reports---do-you-keep-reporting-criteria-simple
+type: rule
 title: Reports - Do you keep Reporting criteria simple?
-created: 2014-12-01 05:47:39
-authors:
+uri: reports---do-you-keep-reporting-criteria-simple
+created: 2014-12-01T05:47:39.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: communication---do-you-offer-specific-feedback
+type: rule
 title: Communication - Do you offer specific feedback?
-created: 2012-09-25 17:54:21
+uri: communication---do-you-offer-specific-feedback
+created: 2012-09-25T17:54:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

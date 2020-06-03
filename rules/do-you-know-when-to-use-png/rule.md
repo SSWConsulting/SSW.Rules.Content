@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-when-to-use-png
+type: rule
 title: Do you know when to use PNG?
-created: 2015-10-13 00:13:51
-authors:
+uri: do-you-know-when-to-use-png
+created: 2015-10-13T00:13:51.0000000Z
+authors: []
 
 ---
-
 
 
 

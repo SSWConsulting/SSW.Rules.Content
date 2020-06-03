@@ -1,14 +1,15 @@
 ---
-uri: product-owner---do-you-know-how-to-update-the-backlog
+type: rule
 title: Product Owner - Do you know how to update the backlog?
-created: 2010-09-15 15:18:19
+uri: product-owner---do-you-know-how-to-update-the-backlog
+created: 2010-09-15T15:18:19.0000000Z
 authors:
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 12
-    title: Peter Gfader
----
+- id: 14
+  title: Martin Hinshelwood
+- id: 12
+  title: Peter Gfader
 
+---
 
 
 

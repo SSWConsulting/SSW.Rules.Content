@@ -1,14 +1,15 @@
 ---
-uri: do-you-add-contextreasoning-to-your-emails
+type: rule
 title: Do you add context/reasoning to your emails?
-created: 2009-03-27 03:20:53
+uri: do-you-add-contextreasoning-to-your-emails
+created: 2009-03-27T03:20:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-add-a-printer
+type: rule
 title: Do you know how to add a printer?
-created: 2015-05-21 17:25:55
+uri: do-you-know-how-to-add-a-printer
+created: 2015-05-21T17:25:55.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

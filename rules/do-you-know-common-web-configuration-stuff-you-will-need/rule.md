@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-common-web-configuration-stuff-you-will-need
+type: rule
 title: Do you know common web configuration stuff you will need?
-created: 2009-06-16 01:41:30
+uri: do-you-know-common-web-configuration-stuff-you-will-need
+created: 2009-06-16T01:41:30.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

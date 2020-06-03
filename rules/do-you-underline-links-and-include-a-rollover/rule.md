@@ -1,16 +1,17 @@
 ---
-uri: do-you-underline-links-and-include-a-rollover
+type: rule
 title: Do you underline links (and include a rollover)?
-created: 2015-02-16 01:30:13
+uri: do-you-underline-links-and-include-a-rollover
+created: 2015-02-16T01:30:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 44
-    title: Duncan Hunter
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 44
+  title: Duncan Hunter
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

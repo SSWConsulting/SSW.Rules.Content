@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-tools-you-need-before-a-test-please
+type: rule
 title: Do you know the tools you need before a "Test Please"?
-created: 2009-02-26 02:44:26
+uri: do-you-know-the-tools-you-need-before-a-test-please
+created: 2009-02-26T02:44:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

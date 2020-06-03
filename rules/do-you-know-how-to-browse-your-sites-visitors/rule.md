@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-browse-your-sites-visitors
+type: rule
 title: Do you know how to browse your site’s visitors?
-created: 2017-06-20 00:03:20
+uri: do-you-know-how-to-browse-your-sites-visitors
+created: 2017-06-20T00:03:20.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

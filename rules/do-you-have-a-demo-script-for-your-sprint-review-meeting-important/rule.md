@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-demo-script-for-your-sprint-review-meeting-important
+type: rule
 title: Do you have a demo script for your Sprint Review Meeting? *IMPORTANT*
-created: 2011-04-11 03:28:51
+uri: do-you-have-a-demo-script-for-your-sprint-review-meeting-important
+created: 2011-04-11T03:28:51.0000000Z
 authors:
-  - id: 12
-    title: Peter Gfader
----
+- id: 12
+  title: Peter Gfader
 
+---
 
 
 

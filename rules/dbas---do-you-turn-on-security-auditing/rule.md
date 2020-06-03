@@ -1,12 +1,13 @@
 ---
-uri: dbas---do-you-turn-on-security-auditing
+type: rule
 title: DBAs - Do you turn on security auditing?
-created: 2019-11-21 17:55:00
+uri: dbas---do-you-turn-on-security-auditing
+created: 2019-11-21T17:55:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

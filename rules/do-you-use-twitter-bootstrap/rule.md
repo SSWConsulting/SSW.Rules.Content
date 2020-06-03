@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-twitter-bootstrap
+type: rule
 title: Do you use Twitter Bootstrap?
-created: 2012-07-23 16:04:48
+uri: do-you-use-twitter-bootstrap
+created: 2012-07-23T16:04:48.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

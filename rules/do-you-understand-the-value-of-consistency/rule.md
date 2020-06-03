@@ -1,12 +1,13 @@
 ---
-uri: do-you-understand-the-value-of-consistency
+type: rule
 title: Do you understand the value of consistency?
-created: 2009-02-28 09:43:28
+uri: do-you-understand-the-value-of-consistency
+created: 2009-02-28T09:43:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

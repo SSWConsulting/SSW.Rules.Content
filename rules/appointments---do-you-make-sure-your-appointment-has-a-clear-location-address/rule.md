@@ -1,18 +1,19 @@
 ---
-uri: appointments---do-you-make-sure-your-appointment-has-a-clear-location-address
+type: rule
 title: Appointments - Do you make sure your appointment has a clear location address?
-created: 2012-08-21 17:28:47
+uri: appointments---do-you-make-sure-your-appointment-has-a-clear-location-address
+created: 2012-08-21T17:28:47.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
-  - id: 62
-    title: Penny Walker
----
+- id: 30
+  title: Marlon Marescia
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

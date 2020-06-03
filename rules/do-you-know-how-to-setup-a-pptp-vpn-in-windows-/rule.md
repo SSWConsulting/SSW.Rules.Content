@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-setup-a-pptp-vpn-in-windows-
+type: rule
 title: Do you know how to setup a PPTP VPN in Windows 7?
-created: 2010-09-29 08:05:53
+uri: do-you-know-how-to-setup-a-pptp-vpn-in-windows-
+created: 2010-09-29T08:05:53.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

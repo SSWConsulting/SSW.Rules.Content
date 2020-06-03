@@ -1,12 +1,13 @@
 ---
-uri: do-you-manage-your-email
+type: rule
 title: Do you manage your email?
-created: 2009-03-10 08:49:45
+uri: do-you-manage-your-email
+created: 2009-03-10T08:49:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

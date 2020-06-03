@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-levels-to-git-mastery
+type: rule
 title: Do you know The Levels to Git Mastery?
-created: 2016-02-15 19:15:15
+uri: do-you-know-the-levels-to-git-mastery
+created: 2016-02-15T19:15:15.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

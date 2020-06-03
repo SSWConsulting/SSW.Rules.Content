@@ -1,11 +1,11 @@
 ---
-uri: do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
+type: rule
 title: Do you visually indicate the page you are at on the menu (aka active state)?
-created: 2015-02-16 01:43:42
-authors:
+uri: do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
+created: 2015-02-16T01:43:42.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-deploy-controlled-lookup-data-
+type: rule
 title: Do you deploy "Controlled Lookup Data" ?
-created: 2009-10-05 06:26:18
+uri: do-you-deploy-controlled-lookup-data-
+created: 2009-10-05T06:26:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: tasks---do-you-know-that-every-pbi-should-have-an-owner
+type: rule
 title: Tasks - Do you know that every PBI should have an owner?
-created: 2010-04-14 16:19:00
+uri: tasks---do-you-know-that-every-pbi-should-have-an-owner
+created: 2010-04-14T16:19:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

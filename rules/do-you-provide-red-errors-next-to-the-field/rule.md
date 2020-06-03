@@ -1,12 +1,13 @@
 ---
-uri: do-you-provide-red-errors-next-to-the-field
+type: rule
 title: Do you provide red errors next to the field?
-created: 2014-12-22 11:47:19
+uri: do-you-provide-red-errors-next-to-the-field
+created: 2014-12-22T11:47:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

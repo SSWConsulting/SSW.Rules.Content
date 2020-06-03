@@ -1,12 +1,13 @@
 ---
-uri: do-you-name-your-virtual-machines-with-a-standadized-naming-convention
+type: rule
 title: Do you name your Virtual Machines with a standadized naming convention?
-created: 2011-02-14 05:06:05
+uri: do-you-name-your-virtual-machines-with-a-standadized-naming-convention
+created: 2011-02-14T05:06:05.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: data--do-you-avoid-empty-lines-at-the-start-of-character-columns
+type: rule
 title: Data – Do you avoid empty lines at the start of character columns?
-created: 2019-11-25 18:57:45
+uri: data--do-you-avoid-empty-lines-at-the-start-of-character-columns
+created: 2019-11-25T18:57:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

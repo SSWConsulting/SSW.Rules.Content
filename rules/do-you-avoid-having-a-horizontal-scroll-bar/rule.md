@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-having-a-horizontal-scroll-bar
+type: rule
 title: Do you avoid having a horizontal scroll bar?
-created: 2014-12-12 19:09:17
+uri: do-you-avoid-having-a-horizontal-scroll-bar
+created: 2014-12-12T19:09:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

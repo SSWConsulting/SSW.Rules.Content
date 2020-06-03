@@ -1,11 +1,11 @@
 ---
-uri: is-the-signage-adequate
+type: rule
 title: Is the signage adequate?
-created: 2014-12-31 00:36:40
-authors:
+uri: is-the-signage-adequate
+created: 2014-12-31T00:36:40.0000000Z
+authors: []
 
 ---
-
 
 
 

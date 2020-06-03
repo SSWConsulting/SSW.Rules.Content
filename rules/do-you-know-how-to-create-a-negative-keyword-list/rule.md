@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-create-a-negative-keyword-list
+type: rule
 title: Do you know how to create a negative keyword list?
-created: 2019-03-26 22:02:27
+uri: do-you-know-how-to-create-a-negative-keyword-list
+created: 2019-03-26T22:02:27.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: controls---do-you-use-the-fonts-recommended-by-microsoft-in-your-application-windows-forms-only
+type: rule
 title: Controls - Do you use the fonts recommended by Microsoft in your application? (Windows Forms Only)
-created: 2012-11-27 09:16:16
-authors:
+uri: controls---do-you-use-the-fonts-recommended-by-microsoft-in-your-application-windows-forms-only
+created: 2012-11-27T09:16:16.0000000Z
+authors: []
 
 ---
-
 
 
 

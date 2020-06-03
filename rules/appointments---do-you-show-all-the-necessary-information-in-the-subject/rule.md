@@ -1,14 +1,15 @@
 ---
-uri: appointments---do-you-show-all-the-necessary-information-in-the-subject
+type: rule
 title: Appointments - Do you show all the necessary information in the subject?
-created: 2009-04-03 06:27:53
+uri: appointments---do-you-show-all-the-necessary-information-in-the-subject
+created: 2009-04-03T06:27:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

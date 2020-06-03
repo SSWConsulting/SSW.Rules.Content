@@ -1,14 +1,15 @@
 ---
-uri: during-a-sprint---do-you-know-when-to-create-bugs
+type: rule
 title: During a sprint - Do you know when to create bugs?
-created: 2010-09-16 16:13:21
+uri: during-a-sprint---do-you-know-when-to-create-bugs
+created: 2010-09-16T16:13:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-check-in-your-process-template-into-source-control-legacy
+type: rule
 title: Do you Check-in your process template into source control? (legacy)
-created: 2012-07-18 07:16:38
+uri: do-you-check-in-your-process-template-into-source-control-legacy
+created: 2012-07-18T07:16:38.0000000Z
 authors:
-  - id: 10
-    title: Lei Xu
-  - id: 78
-    title: Matt Wicks
----
+- id: 10
+  title: Lei Xu
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

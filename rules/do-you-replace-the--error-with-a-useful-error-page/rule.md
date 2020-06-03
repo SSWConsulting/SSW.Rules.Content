@@ -1,14 +1,15 @@
 ---
-uri: do-you-replace-the--error-with-a-useful-error-page
+type: rule
 title: Do you replace the 404 error with a useful error page?
-created: 2016-08-11 17:30:01
+uri: do-you-replace-the--error-with-a-useful-error-page
+created: 2016-08-11T17:30:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

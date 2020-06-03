@@ -1,11 +1,11 @@
 ---
-uri: communication---do-you-read-and-manage-your-emails-carefully
+type: rule
 title: Communication - Do you read and manage your emails carefully?
-created: 2010-05-20 10:17:52
-authors:
+uri: communication---do-you-read-and-manage-your-emails-carefully
+created: 2010-05-20T10:17:52.0000000Z
+authors: []
 
 ---
-
 
 
 

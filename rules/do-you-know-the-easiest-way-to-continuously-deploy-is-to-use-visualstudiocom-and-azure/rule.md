@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-easiest-way-to-continuously-deploy-is-to-use-visualstudiocom-and-azure
+type: rule
 title: Do you know the easiest way to continuously deploy is to use VisualStudio.com and Azure?
-created: 2013-02-05 19:26:18
+uri: do-you-know-the-easiest-way-to-continuously-deploy-is-to-use-visualstudiocom-and-azure
+created: 2013-02-05T19:26:18.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

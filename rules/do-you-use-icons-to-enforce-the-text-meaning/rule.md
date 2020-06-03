@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-icons-to-enforce-the-text-meaning
+type: rule
 title: Do you use icons to enforce the text meaning?
-created: 2014-12-16 18:16:16
+uri: do-you-use-icons-to-enforce-the-text-meaning
+created: 2014-12-16T18:16:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

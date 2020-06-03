@@ -1,14 +1,15 @@
 ---
-uri: do-you-turn-edit-and-continue-off
+type: rule
 title: Do you turn Edit and Continue OFF?
-created: 2013-08-30 20:30:54
+uri: do-you-turn-edit-and-continue-off
+created: 2013-08-30T20:30:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

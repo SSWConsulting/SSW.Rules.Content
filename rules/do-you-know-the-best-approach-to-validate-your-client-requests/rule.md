@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-approach-to-validate-your-client-requests
+type: rule
 title: Do you know the best approach to validate your client requests?
-created: 2019-04-14 22:49:00
+uri: do-you-know-the-best-approach-to-validate-your-client-requests
+created: 2019-04-14T22:49:00.0000000Z
 authors:
-  - id: 81
-    title: Jason Taylor
----
+- id: 81
+  title: Jason Taylor
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-your-controls-autopostback
+type: rule
 title: Do your controls autopostback?
-created: 2015-02-16 02:52:40
-authors:
+uri: do-your-controls-autopostback
+created: 2015-02-16T02:52:40.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
+type: rule
 title: Do you give potential consulting work emails the next highest priority after existing clients?
-created: 2010-07-16 02:38:44
-authors:
+uri: do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
+created: 2010-07-16T02:38:44.0000000Z
+authors: []
 
 ---
-
 
 
 

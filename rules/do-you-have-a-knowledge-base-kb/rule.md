@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-knowledge-base-kb
+type: rule
 title: Do you have a Knowledge Base (KB)?
-created: 2009-03-02 02:45:54
+uri: do-you-have-a-knowledge-base-kb
+created: 2009-03-02T02:45:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 27
-    title: Titus Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-separate-administrator-account
+type: rule
 title: Do you use separate Administrator account?
-created: 2015-03-30 18:33:20
+uri: do-you-use-separate-administrator-account
+created: 2015-03-30T18:33:20.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

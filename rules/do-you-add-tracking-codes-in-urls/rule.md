@@ -1,12 +1,13 @@
 ---
-uri: do-you-add-tracking-codes-in-urls
+type: rule
 title: Do you add tracking codes in URLs?
-created: 2016-04-27 03:15:46
+uri: do-you-add-tracking-codes-in-urls
+created: 2016-04-27T03:15:46.0000000Z
 authors:
-  - id: 41
-    title: Joanna Feely
----
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

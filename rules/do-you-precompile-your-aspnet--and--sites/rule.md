@@ -1,12 +1,13 @@
 ---
-uri: do-you-precompile-your-aspnet--and--sites
+type: rule
 title: Do you precompile your ASP.NET 1.1 and 2.0+ sites?
-created: 2016-11-08 17:20:02
+uri: do-you-precompile-your-aspnet--and--sites
+created: 2016-11-08T17:20:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

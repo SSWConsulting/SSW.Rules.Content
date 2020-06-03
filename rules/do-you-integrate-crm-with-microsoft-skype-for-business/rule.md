@@ -1,12 +1,13 @@
 ---
-uri: do-you-integrate-crm-with-microsoft-skype-for-business
+type: rule
 title: Do you integrate CRM with Microsoft Skype for Business?
-created: 2012-04-17 21:35:32
+uri: do-you-integrate-crm-with-microsoft-skype-for-business
+created: 2012-04-17T21:35:32.0000000Z
 authors:
-  - id: 28
-    title: Daragh Bannigan
----
+- id: 28
+  title: Daragh Bannigan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: what-to-do-with-old-employees
+type: rule
 title: What to do with old employees?
-created: 2017-01-17 11:02:26
+uri: what-to-do-with-old-employees
+created: 2017-01-17T11:02:26.0000000Z
 authors:
-  - id: 46
-    title: Danijel Malik
----
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

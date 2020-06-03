@@ -1,14 +1,15 @@
 ---
-uri: does-your-company-cover-taxi-costs
+type: rule
 title: Does your company cover taxi costs?
-created: 2013-04-19 18:42:02
+uri: does-your-company-cover-taxi-costs
+created: 2013-04-19T18:42:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-comment-your-javascript-code
+type: rule
 title: Do you comment your JavaScript code?
-created: 2012-07-24 18:14:28
+uri: do-you-comment-your-javascript-code
+created: 2012-07-24T18:14:28.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-highlight-the-search-term
+type: rule
 title: Do you highlight the search term?
-created: 2014-08-07 05:56:34
+uri: do-you-highlight-the-search-term
+created: 2014-08-07T05:56:34.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
----
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-a-regular-expression-to-validate-an-url
+type: rule
 title: Do you use a regular expression to validate an URL?
-created: 2018-04-26 17:31:11
+uri: do-you-use-a-regular-expression-to-validate-an-url
+created: 2018-04-26T17:31:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

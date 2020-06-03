@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-deploying-is-so-easy
+type: rule
 title: Do you know deploying is so easy?
-created: 2009-10-06 23:21:05
+uri: do-you-know-deploying-is-so-easy
+created: 2009-10-06T23:21:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

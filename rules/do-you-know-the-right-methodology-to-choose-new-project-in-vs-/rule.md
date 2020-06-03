@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-right-methodology-to-choose-new-project-in-vs-
+type: rule
 title: Do you know the right methodology to choose (new project in VS 2012)?
-created: 2009-11-05 05:38:39
+uri: do-you-know-the-right-methodology-to-choose-new-project-in-vs-
+created: 2009-11-05T05:38:39.0000000Z
 authors:
-  - id: 10
-    title: Lei Xu
-  - id: 1
-    title: Adam Cogan
----
+- id: 10
+  title: Lei Xu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

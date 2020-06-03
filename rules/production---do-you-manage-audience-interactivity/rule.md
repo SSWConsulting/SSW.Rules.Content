@@ -1,11 +1,11 @@
 ---
-uri: production---do-you-manage-audience-interactivity
+type: rule
 title: Production - Do You Manage Audience Interactivity?
-created: 2013-05-24 01:08:56
-authors:
+uri: production---do-you-manage-audience-interactivity
+created: 2013-05-24T01:08:56.0000000Z
+authors: []
 
 ---
-
 
 
 

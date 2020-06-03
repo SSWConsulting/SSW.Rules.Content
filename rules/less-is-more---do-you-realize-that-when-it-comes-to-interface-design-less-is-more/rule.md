@@ -1,11 +1,11 @@
 ---
-uri: less-is-more---do-you-realize-that-when-it-comes-to-interface-design-less-is-more
+type: rule
 title: Less is More - Do you realize that when it comes to interface design 'less is more'?
-created: 2012-11-27 01:41:21
-authors:
+uri: less-is-more---do-you-realize-that-when-it-comes-to-interface-design-less-is-more
+created: 2012-11-27T01:41:21.0000000Z
+authors: []
 
 ---
-
 
 
 

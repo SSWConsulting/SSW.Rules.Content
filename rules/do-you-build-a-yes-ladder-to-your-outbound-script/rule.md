@@ -1,12 +1,13 @@
 ---
-uri: do-you-build-a-yes-ladder-to-your-outbound-script
+type: rule
 title: Do you build a YES ladder to your outbound script?
-created: 2018-04-09 23:34:36
+uri: do-you-build-a-yes-ladder-to-your-outbound-script
+created: 2018-04-09T23:34:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

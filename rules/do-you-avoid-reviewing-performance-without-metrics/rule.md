@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-reviewing-performance-without-metrics
+type: rule
 title: Do you avoid reviewing performance without metrics?
-created: 2009-03-17 05:48:04
+uri: do-you-avoid-reviewing-performance-without-metrics
+created: 2009-03-17T05:48:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 78
-    title: Matt Wicks
----
+- id: 1
+  title: Adam Cogan
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

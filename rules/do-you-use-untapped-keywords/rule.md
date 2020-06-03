@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-untapped-keywords
+type: rule
 title: Do you use untapped keywords?
-created: 2018-05-20 23:22:34
+uri: do-you-use-untapped-keywords
+created: 2018-05-20T23:22:34.0000000Z
 authors:
-  - id: 74
-    title: Florent Dezettre
----
+- id: 74
+  title: Florent Dezettre
 
+---
 
 
 

@@ -1,16 +1,17 @@
 ---
-uri: setup---do-you-have-good-lighting-in-your-home-office
+type: rule
 title: Setup - Do you have good lighting in your home office?
-created: 2020-03-25 02:58:57
+uri: setup---do-you-have-good-lighting-in-your-home-office
+created: 2020-03-25T02:58:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 83
-    title: Camilla Rosa Silva
-  - id: 71
-    title: Steven Andrews
----
+- id: 1
+  title: Adam Cogan
+- id: 83
+  title: Camilla Rosa Silva
+- id: 71
+  title: Steven Andrews
 
+---
 
 
 

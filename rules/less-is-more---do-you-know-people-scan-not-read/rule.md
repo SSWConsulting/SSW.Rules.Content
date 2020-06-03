@@ -1,11 +1,11 @@
 ---
-uri: less-is-more---do-you-know-people-scan-not-read
+type: rule
 title: Less is More - Do you know people scan, not read?
-created: 2012-11-27 01:44:03
-authors:
+uri: less-is-more---do-you-know-people-scan-not-read
+created: 2012-11-27T01:44:03.0000000Z
+authors: []
 
 ---
-
 
 
 

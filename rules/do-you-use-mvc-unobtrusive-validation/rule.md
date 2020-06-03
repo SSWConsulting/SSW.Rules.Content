@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-mvc-unobtrusive-validation
+type: rule
 title: Do you use MVC Unobtrusive Validation?
-created: 2013-12-12 05:01:16
+uri: do-you-use-mvc-unobtrusive-validation
+created: 2013-12-12T05:01:16.0000000Z
 authors:
-  - id: 34
-    title: Brendan Richards
----
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

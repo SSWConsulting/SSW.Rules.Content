@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-metro-ui-when-applicable
+type: rule
 title: Do you use the Metro UI when applicable?
-created: 2012-11-27 02:14:44
+uri: do-you-use-the-metro-ui-when-applicable
+created: 2012-11-27T02:14:44.0000000Z
 authors:
-  - id: 20
-    title: Rebecca Liu
----
+- id: 20
+  title: Rebecca Liu
 
+---
 
 
 

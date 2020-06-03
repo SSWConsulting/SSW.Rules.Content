@@ -1,11 +1,11 @@
 ---
-uri: do-your-windows-forms-have-border-protection
+type: rule
 title: Do your Windows Forms have border protection?
-created: 2014-12-01 01:03:09
-authors:
+uri: do-your-windows-forms-have-border-protection
+created: 2014-12-01T01:03:09.0000000Z
+authors: []
 
 ---
-
 
 
 

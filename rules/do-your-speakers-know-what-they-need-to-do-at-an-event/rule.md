@@ -1,14 +1,15 @@
 ---
-uri: do-your-speakers-know-what-they-need-to-do-at-an-event
+type: rule
 title: Do your speakers know what they need to do at an event?
-created: 2014-12-31 00:41:13
+uri: do-your-speakers-know-what-they-need-to-do-at-an-event
+created: 2014-12-31T00:41:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 62
-    title: Penny Walker
----
+- id: 1
+  title: Adam Cogan
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

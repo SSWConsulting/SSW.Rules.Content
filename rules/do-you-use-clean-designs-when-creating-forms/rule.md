@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-clean-designs-when-creating-forms
+type: rule
 title: Do you use clean designs when creating forms?
-created: 2015-12-17 17:13:14
+uri: do-you-use-clean-designs-when-creating-forms
+created: 2015-12-17T17:13:14.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

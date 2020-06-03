@@ -1,12 +1,13 @@
 ---
-uri: do-you-refer-to-form-controls-directly
+type: rule
 title: Do you refer to form controls directly?
-created: 2018-04-25 18:05:11
+uri: do-you-refer-to-form-controls-directly
+created: 2018-04-25T18:05:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

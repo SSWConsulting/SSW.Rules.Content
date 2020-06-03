@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-visual-studio-extensions-and-nuget-packages-for-angularjs
+type: rule
 title: Do you know the best Visual Studio Extensions and NuGet Packages for AngularJS?
-created: 2014-10-30 22:59:31
+uri: do-you-know-the-best-visual-studio-extensions-and-nuget-packages-for-angularjs
+created: 2014-10-30T22:59:31.0000000Z
 authors:
-  - id: 44
-    title: Duncan Hunter
----
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

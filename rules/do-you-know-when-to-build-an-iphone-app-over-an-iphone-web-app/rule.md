@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-when-to-build-an-iphone-app-over-an-iphone-web-app
+type: rule
 title: Do you know when to build an iPhone app over an iPhone web app?
-created: 2014-11-25 23:56:46
-authors:
+uri: do-you-know-when-to-build-an-iphone-app-over-an-iphone-web-app
+created: 2014-11-25T23:56:46.0000000Z
+authors: []
 
 ---
-
 
 
 

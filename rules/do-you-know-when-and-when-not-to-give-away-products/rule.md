@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-and-when-not-to-give-away-products
+type: rule
 title: Do you know when, and when not, to give away products?
-created: 2012-08-30 13:04:40
+uri: do-you-know-when-and-when-not-to-give-away-products
+created: 2012-08-30T13:04:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

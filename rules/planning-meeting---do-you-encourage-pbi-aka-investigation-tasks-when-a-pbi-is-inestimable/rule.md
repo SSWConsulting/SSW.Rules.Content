@@ -1,16 +1,17 @@
 ---
-uri: planning-meeting---do-you-encourage-pbi-aka-investigation-tasks-when-a-pbi-is-inestimable
+type: rule
 title: Planning Meeting - Do you encourage PBI (aka investigation tasks) when a PBI is inestimable?
-created: 2010-04-20 03:32:39
+uri: planning-meeting---do-you-encourage-pbi-aka-investigation-tasks-when-a-pbi-is-inestimable
+created: 2010-04-20T03:32:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 13
-    title: Paul Neumeyer
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
+- id: 13
+  title: Paul Neumeyer
 
+---
 
 
 

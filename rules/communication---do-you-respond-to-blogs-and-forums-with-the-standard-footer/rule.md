@@ -1,12 +1,13 @@
 ---
-uri: communication---do-you-respond-to-blogs-and-forums-with-the-standard-footer
+type: rule
 title: Communication - Do you respond to blogs and forums with the standard footer?
-created: 2012-09-25 18:03:27
+uri: communication---do-you-respond-to-blogs-and-forums-with-the-standard-footer
+created: 2012-09-25T18:03:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

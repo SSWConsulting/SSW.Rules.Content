@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the--steps-to-scrum
+type: rule
 title: Do you know the 8 Steps to Scrum?
-created: 2013-06-28 03:50:10
+uri: do-you-know-the--steps-to-scrum
+created: 2013-06-28T03:50:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 33
-    title: Gerard Beckerleg
----
+- id: 1
+  title: Adam Cogan
+- id: 33
+  title: Gerard Beckerleg
 
+---
 
 
 

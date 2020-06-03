@@ -1,12 +1,13 @@
 ---
-uri: efficiency---do-you-always-try-to-work-in-pairs
+type: rule
 title: Efficiency - Do you always try to work in pairs?
-created: 2009-03-17 07:35:05
+uri: efficiency---do-you-always-try-to-work-in-pairs
+created: 2009-03-17T07:35:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

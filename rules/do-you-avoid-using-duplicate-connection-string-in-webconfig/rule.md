@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-using-duplicate-connection-string-in-webconfig
+type: rule
 title: Do you avoid using duplicate connection string in web.config?
-created: 2009-05-11 06:55:57
+uri: do-you-avoid-using-duplicate-connection-string-in-webconfig
+created: 2009-05-11T06:55:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

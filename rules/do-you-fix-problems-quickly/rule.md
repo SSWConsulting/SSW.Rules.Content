@@ -1,14 +1,15 @@
 ---
-uri: do-you-fix-problems-quickly
+type: rule
 title: Do you fix problems quickly?
-created: 2010-07-16 06:48:10
+uri: do-you-fix-problems-quickly
+created: 2010-07-16T06:48:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 44
-    title: Duncan Hunter
----
+- id: 1
+  title: Adam Cogan
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

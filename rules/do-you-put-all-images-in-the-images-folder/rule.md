@@ -1,14 +1,15 @@
 ---
-uri: do-you-put-all-images-in-the-images-folder
+type: rule
 title: Do you put all images in the \images folder?
-created: 2009-05-05 05:44:00
+uri: do-you-put-all-images-in-the-images-folder
+created: 2009-05-05T05:44:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

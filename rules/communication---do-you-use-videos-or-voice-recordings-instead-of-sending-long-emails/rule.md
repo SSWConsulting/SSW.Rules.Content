@@ -1,12 +1,13 @@
 ---
-uri: communication---do-you-use-videos-or-voice-recordings-instead-of-sending-long-emails
+type: rule
 title: Communication - Do you use videos or voice recordings instead of sending long emails?
-created: 2014-02-25 15:46:04
+uri: communication---do-you-use-videos-or-voice-recordings-instead-of-sending-long-emails
+created: 2014-02-25T15:46:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

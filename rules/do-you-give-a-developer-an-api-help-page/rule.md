@@ -1,12 +1,13 @@
 ---
-uri: do-you-give-a-developer-an-api-help-page
+type: rule
 title: Do you give a developer an API help page?
-created: 2019-05-25 01:55:31
+uri: do-you-give-a-developer-an-api-help-page
+created: 2019-05-25T01:55:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: customization---do-you-have-email-address-in-the-associated-contact-view
+type: rule
 title: Customization - Do you have email address in the Associated Contact View?
-created: 2012-12-10 18:48:17
+uri: customization---do-you-have-email-address-in-the-associated-contact-view
+created: 2012-12-10T18:48:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

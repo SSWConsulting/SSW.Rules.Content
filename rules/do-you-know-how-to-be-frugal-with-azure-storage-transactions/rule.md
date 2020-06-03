@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
+type: rule
 title: Do you know how to be frugal with Azure Storage Transactions?
-created: 2012-04-23 14:23:33
+uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
+created: 2012-04-23T14:23:33.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

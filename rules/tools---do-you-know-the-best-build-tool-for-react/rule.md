@@ -1,12 +1,13 @@
 ---
-uri: tools---do-you-know-the-best-build-tool-for-react
+type: rule
 title: Tools - Do you know the best Build Tool for React?
-created: 2019-04-30 14:08:37
+uri: tools---do-you-know-the-best-build-tool-for-react
+created: 2019-04-30T14:08:37.0000000Z
 authors:
-  - id: 80
-    title: Shane Ye
----
+- id: 80
+  title: Shane Ye
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
+type: rule
 title: When you follow a rule do you know to refer to it (including the icon)?
-created: 2009-03-10 07:23:40
+uri: when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
+created: 2009-03-10T07:23:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

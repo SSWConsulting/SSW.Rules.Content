@@ -1,11 +1,11 @@
 ---
-uri: do-you-manage-requests-for-event-refunds-effectively
+type: rule
 title: Do you manage requests for event refunds effectively?
-created: 2011-12-08 16:31:25
-authors:
+uri: do-you-manage-requests-for-event-refunds-effectively
+created: 2011-12-08T16:31:25.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-put-optional-parameters-at-the-end
+type: rule
 title: Do you put optional parameters at the end?
-created: 2018-04-26 23:44:44
+uri: do-you-put-optional-parameters-at-the-end
+created: 2018-04-26T23:44:44.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

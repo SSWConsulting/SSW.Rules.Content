@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-sort-in-view-by-a-column-through-code
+type: rule
 title: Do you know how to sort in view by a column through code
-created: 2013-07-08 05:40:10
+uri: do-you-know-how-to-sort-in-view-by-a-column-through-code
+created: 2013-07-08T05:40:10.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 34
-    title: Brendan Richards
----
+- id: 9
+  title: William Yin
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: triaging---do-you-understand-deadlines-often-move-or-scope-has-to-change
+type: rule
 title: Triaging - Do you understand deadlines often move or scope has to change?
-created: 2010-05-20 10:36:45
-authors:
+uri: triaging---do-you-understand-deadlines-often-move-or-scope-has-to-change
+created: 2010-05-20T10:36:45.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-ensure-your-application-pool-is-always-running
+type: rule
 title: Do you ensure your application pool is always running?
-created: 2014-08-29 18:48:34
+uri: do-you-ensure-your-application-pool-is-always-running
+created: 2014-08-29T18:48:34.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

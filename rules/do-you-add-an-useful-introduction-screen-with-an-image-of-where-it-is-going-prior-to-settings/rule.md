@@ -1,11 +1,11 @@
 ---
-uri: do-you-add-an-useful-introduction-screen-with-an-image-of-where-it-is-going-prior-to-settings
+type: rule
 title: Do you add an useful introduction screen (with an image of where it is going) prior to settings?
-created: 2014-12-01 03:51:56
-authors:
+uri: do-you-add-an-useful-introduction-screen-with-an-image-of-where-it-is-going-prior-to-settings
+created: 2014-12-01T03:51:56.0000000Z
+authors: []
 
 ---
-
 
 
 

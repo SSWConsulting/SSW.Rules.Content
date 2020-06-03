@@ -1,12 +1,13 @@
 ---
-uri: do-you-add-staff-profile-pictures-into-ad
+type: rule
 title: Do you add Staff profile pictures into AD?
-created: 2013-08-06 23:42:18
+uri: do-you-add-staff-profile-pictures-into-ad
+created: 2013-08-06T23:42:18.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

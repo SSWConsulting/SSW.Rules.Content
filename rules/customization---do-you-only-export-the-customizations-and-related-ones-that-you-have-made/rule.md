@@ -1,14 +1,15 @@
 ---
-uri: customization---do-you-only-export-the-customizations-and-related-ones-that-you-have-made
+type: rule
 title: Customization - Do you only export the customizations and related ones that you have made?
-created: 2012-12-10 18:20:38
+uri: customization---do-you-only-export-the-customizations-and-related-ones-that-you-have-made
+created: 2012-12-10T18:20:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 1
+  title: Adam Cogan
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

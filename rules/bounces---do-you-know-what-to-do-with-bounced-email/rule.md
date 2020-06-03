@@ -1,11 +1,11 @@
 ---
-uri: bounces---do-you-know-what-to-do-with-bounced-email
+type: rule
 title: Bounces - Do you know what to do with bounced email?
-created: 2011-08-25 19:54:59
-authors:
+uri: bounces---do-you-know-what-to-do-with-bounced-email
+created: 2011-08-25T19:54:59.0000000Z
+authors: []
 
 ---
-
 
 
 

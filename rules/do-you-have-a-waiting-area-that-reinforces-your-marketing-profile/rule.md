@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
+type: rule
 title: Do you have a waiting area that reinforces your marketing profile?
-created: 2014-10-13 19:27:08
+uri: do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
+created: 2014-10-13T19:27:08.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

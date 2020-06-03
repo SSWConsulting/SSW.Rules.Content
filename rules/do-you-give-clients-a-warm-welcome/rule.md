@@ -1,14 +1,15 @@
 ---
-uri: do-you-give-clients-a-warm-welcome
+type: rule
 title: Do you give clients a warm welcome?
-created: 2010-07-16 06:10:11
+uri: do-you-give-clients-a-warm-welcome
+created: 2010-07-16T06:10:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 72
-    title: Gabriel George
----
+- id: 1
+  title: Adam Cogan
+- id: 72
+  title: Gabriel George
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-a-related-links-section
+type: rule
 title: Do you have a 'Related Links' section?
-created: 2015-02-16 02:51:25
-authors:
+uri: do-you-have-a-related-links-section
+created: 2015-02-16T02:51:25.0000000Z
+authors: []
 
 ---
-
 
 
 

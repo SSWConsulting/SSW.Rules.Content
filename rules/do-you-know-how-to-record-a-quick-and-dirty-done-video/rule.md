@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-how-to-record-a-quick-and-dirty-done-video
+type: rule
 title: Do you know how to record a quick and dirty 'Done Video'?
-created: 2016-05-10 09:09:50
+uri: do-you-know-how-to-record-a-quick-and-dirty-done-video
+created: 2016-05-10T09:09:50.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
-  - id: 1
-    title: Adam Cogan
-  - id: 82
-    title: Barry Sanders
----
+- id: 37
+  title: Ben Cull
+- id: 1
+  title: Adam Cogan
+- id: 82
+  title: Barry Sanders
 
+---
 
 
 

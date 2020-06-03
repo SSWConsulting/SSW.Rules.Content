@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-structure-a-unit-test-aka-the--as
+type: rule
 title: Do you know how to structure a unit test (aka the 3 a's)?
-created: 2020-03-11 16:51:15
+uri: do-you-know-how-to-structure-a-unit-test-aka-the--as
+created: 2020-03-11T16:51:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

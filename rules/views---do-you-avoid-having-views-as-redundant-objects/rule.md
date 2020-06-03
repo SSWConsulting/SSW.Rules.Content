@@ -1,12 +1,13 @@
 ---
-uri: views---do-you-avoid-having-views-as-redundant-objects
+type: rule
 title: Views - Do you avoid having views as redundant objects?
-created: 2019-11-07 20:59:16
+uri: views---do-you-avoid-having-views-as-redundant-objects
+created: 2019-11-07T20:59:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

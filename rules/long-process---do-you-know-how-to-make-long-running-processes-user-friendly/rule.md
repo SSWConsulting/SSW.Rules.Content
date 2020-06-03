@@ -1,11 +1,11 @@
 ---
-uri: long-process---do-you-know-how-to-make-long-running-processes-user-friendly
+type: rule
 title: Long Process - Do you know how to make long-running processes user-friendly?
-created: 2012-11-27 02:58:30
-authors:
+uri: long-process---do-you-know-how-to-make-long-running-processes-user-friendly
+created: 2012-11-27T02:58:30.0000000Z
+authors: []
 
 ---
-
 
 
 

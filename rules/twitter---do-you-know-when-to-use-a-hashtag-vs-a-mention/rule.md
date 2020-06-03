@@ -1,16 +1,17 @@
 ---
-uri: twitter---do-you-know-when-to-use-a-hashtag-vs-a-mention
+type: rule
 title: Twitter - Do you know when to use a hashtag vs. a @mention?
-created: 2014-07-04 05:49:34
+uri: twitter---do-you-know-when-to-use-a-hashtag-vs-a-mention
+created: 2014-07-04T05:49:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
-  - id: 41
-    title: Joanna Feely
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

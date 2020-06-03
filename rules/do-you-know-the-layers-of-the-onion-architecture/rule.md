@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-the-layers-of-the-onion-architecture
+type: rule
 title: Do you know the layers of the onion architecture?
-created: 2012-10-19 19:23:27
+uri: do-you-know-the-layers-of-the-onion-architecture
+created: 2012-10-19T19:23:27.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
-  - id: 37
-    title: Ben Cull
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

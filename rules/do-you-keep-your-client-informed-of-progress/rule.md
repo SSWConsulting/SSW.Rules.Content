@@ -1,14 +1,15 @@
 ---
-uri: do-you-keep-your-client-informed-of-progress
+type: rule
 title: Do you keep your client informed of progress?
-created: 2012-09-25 17:50:48
+uri: do-you-keep-your-client-informed-of-progress
+created: 2012-09-25T17:50:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

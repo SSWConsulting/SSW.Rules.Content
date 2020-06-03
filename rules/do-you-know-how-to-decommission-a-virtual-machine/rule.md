@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-decommission-a-virtual-machine
+type: rule
 title: Do you know how to decommission a Virtual Machine?
-created: 2011-06-14 04:32:43
+uri: do-you-know-how-to-decommission-a-virtual-machine
+created: 2011-06-14T04:32:43.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

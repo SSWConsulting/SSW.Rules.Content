@@ -1,12 +1,13 @@
 ---
-uri: webinar---do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
+type: rule
 title: Webinar - Do you use Automated Webinars for running Webinars in multiple Time Zones?
-created: 2015-05-07 00:12:14
+uri: webinar---do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
+created: 2015-05-07T00:12:14.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
----
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

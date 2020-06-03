@@ -1,12 +1,13 @@
 ---
-uri: do-you-turn-off-audio-notifications-on-the-ios-app
+type: rule
 title: Do you turn off audio notifications on the iOS app?
-created: 2015-06-03 21:05:34
+uri: do-you-turn-off-audio-notifications-on-the-ios-app
+created: 2015-06-03T21:05:34.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

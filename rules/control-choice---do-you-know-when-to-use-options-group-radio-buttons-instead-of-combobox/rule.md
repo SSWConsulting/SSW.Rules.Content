@@ -1,11 +1,11 @@
 ---
-uri: control-choice---do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
+type: rule
 title: Control Choice - Do you know when to use options group Radio Buttons instead of ComboBox?
-created: 2012-11-27 09:01:24
-authors:
+uri: control-choice---do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
+created: 2012-11-27T09:01:24.0000000Z
+authors: []
 
 ---
-
 
 
 

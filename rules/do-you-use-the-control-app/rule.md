@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-the-control-app
+type: rule
 title: Do you use the Control4 app?
-created: 2017-09-12 23:17:29
+uri: do-you-use-the-control-app
+created: 2017-09-12T23:17:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 62
-    title: Penny Walker
-  - id: 70
-    title: Greg Harris
----
+- id: 1
+  title: Adam Cogan
+- id: 62
+  title: Penny Walker
+- id: 70
+  title: Greg Harris
 
+---
 
 
 

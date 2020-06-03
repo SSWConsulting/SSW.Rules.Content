@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-four-standard-email-types
+type: rule
 title: Do you know the four standard email types?
-created: 2016-05-10 02:28:17
+uri: do-you-know-the-four-standard-email-types
+created: 2016-05-10T02:28:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

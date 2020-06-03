@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-never-give-sql-server-all-your-ram
+type: rule
 title: Do you know to never give SQL Server all your RAM?
-created: 2010-05-25 06:54:56
+uri: do-you-know-to-never-give-sql-server-all-your-ram
+created: 2010-05-25T06:54:56.0000000Z
 authors:
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

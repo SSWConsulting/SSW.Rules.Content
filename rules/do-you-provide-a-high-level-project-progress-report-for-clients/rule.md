@@ -1,18 +1,19 @@
 ---
-uri: do-you-provide-a-high-level-project-progress-report-for-clients
+type: rule
 title: Do you provide a high level "Project Progress" report for clients?
-created: 2009-08-20 04:35:01
+uri: do-you-provide-a-high-level-project-progress-report-for-clients
+created: 2009-08-20T04:35:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

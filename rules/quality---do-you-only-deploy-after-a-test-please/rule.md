@@ -1,14 +1,15 @@
 ---
-uri: quality---do-you-only-deploy-after-a-test-please
+type: rule
 title: Quality - Do you only deploy after a test please?
-created: 2012-09-25 18:02:47
+uri: quality---do-you-only-deploy-after-a-test-please
+created: 2012-09-25T18:02:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 34
-    title: Brendan Richards
----
+- id: 1
+  title: Adam Cogan
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

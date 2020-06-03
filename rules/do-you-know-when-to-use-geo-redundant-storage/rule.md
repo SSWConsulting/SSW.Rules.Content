@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-when-to-use-geo-redundant-storage
+type: rule
 title: Do you know when to use Geo Redundant Storage?
-created: 2015-02-10 18:34:05
+uri: do-you-know-when-to-use-geo-redundant-storage
+created: 2015-02-10T18:34:05.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

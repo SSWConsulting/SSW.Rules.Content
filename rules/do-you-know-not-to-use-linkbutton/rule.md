@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-not-to-use-linkbutton
+type: rule
 title: Do you know not to use LinkButton?
-created: 2016-09-01 17:57:47
+uri: do-you-know-not-to-use-linkbutton
+created: 2016-09-01T17:57:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

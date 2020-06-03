@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-one-class-per-file
+type: rule
 title: Do you use one class per file?
-created: 2009-05-05 02:03:55
+uri: do-you-use-one-class-per-file
+created: 2009-05-05T02:03:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

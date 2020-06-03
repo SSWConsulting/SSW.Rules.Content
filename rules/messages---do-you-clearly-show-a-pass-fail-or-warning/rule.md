@@ -1,11 +1,11 @@
 ---
-uri: messages---do-you-clearly-show-a-pass-fail-or-warning
+type: rule
 title: Messages - Do you clearly show a pass, fail or warning?
-created: 2012-11-27 04:38:51
-authors:
+uri: messages---do-you-clearly-show-a-pass-fail-or-warning
+created: 2012-11-27T04:38:51.0000000Z
+authors: []
 
 ---
-
 
 
 

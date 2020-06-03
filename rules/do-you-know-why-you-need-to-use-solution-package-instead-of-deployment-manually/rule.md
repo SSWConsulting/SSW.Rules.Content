@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manually
+type: rule
 title: Do you know why you need to use solution package instead of deployment manually?
-created: 2009-04-09 02:44:19
+uri: do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manually
+created: 2009-04-09T02:44:19.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

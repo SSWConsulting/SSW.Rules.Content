@@ -1,12 +1,13 @@
 ---
-uri: printers---do-you-install-your-printers-with-group-policy
+type: rule
 title: Printers - Do You Install Your Printers With Group Policy?
-created: 2012-03-05 15:03:34
+uri: printers---do-you-install-your-printers-with-group-policy
+created: 2012-03-05T15:03:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

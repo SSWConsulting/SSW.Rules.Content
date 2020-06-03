@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-witadmin-script-to-import-work-item-definitions
+type: rule
 title: Do you have a WitAdmin script to import work item definitions?
-created: 2012-07-18 07:34:00
+uri: do-you-have-a-witadmin-script-to-import-work-item-definitions
+created: 2012-07-18T07:34:00.0000000Z
 authors:
-  - id: 10
-    title: Lei Xu
----
+- id: 10
+  title: Lei Xu
 
+---
 
 
 

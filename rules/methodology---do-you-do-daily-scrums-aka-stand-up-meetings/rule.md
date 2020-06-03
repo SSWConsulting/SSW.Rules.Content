@@ -1,12 +1,13 @@
 ---
-uri: methodology---do-you-do-daily-scrums-aka-stand-up-meetings
+type: rule
 title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
-created: 2009-02-28 09:43:16
+uri: methodology---do-you-do-daily-scrums-aka-stand-up-meetings
+created: 2009-02-28T09:43:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

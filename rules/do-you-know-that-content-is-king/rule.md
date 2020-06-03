@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-that-content-is-king
+type: rule
 title: Do you know that Content is king?
-created: 2019-04-16 05:50:58
+uri: do-you-know-that-content-is-king
+created: 2019-04-16T05:50:58.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

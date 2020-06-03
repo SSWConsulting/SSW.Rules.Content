@@ -1,11 +1,11 @@
 ---
-uri: does-your-website-have-an-about-us-section
+type: rule
 title: Does your website have an 'About Us' section?
-created: 2015-02-13 01:33:41
-authors:
+uri: does-your-website-have-an-about-us-section
+created: 2015-02-13T01:33:41.0000000Z
+authors: []
 
 ---
-
 
 
 

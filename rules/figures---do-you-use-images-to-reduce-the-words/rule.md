@@ -1,14 +1,15 @@
 ---
-uri: figures---do-you-use-images-to-reduce-the-words
+type: rule
 title: Figures - Do you use images to reduce the words?
-created: 2014-12-04 20:21:31
+uri: figures---do-you-use-images-to-reduce-the-words
+created: 2014-12-04T20:21:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: dbas---do-you-avoid-collation-errors
+type: rule
 title: DBAs - Do you avoid collation errors?
-created: 2019-11-22 22:54:08
+uri: dbas---do-you-avoid-collation-errors
+created: 2019-11-22T22:54:08.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-offer-out-of-browser-support
+type: rule
 title: Do you offer out-of-browser support?
-created: 2010-10-12 00:57:03
+uri: do-you-offer-out-of-browser-support
+created: 2010-10-12T00:57:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 8
-    title: John Liu
----
+- id: 1
+  title: Adam Cogan
+- id: 8
+  title: John Liu
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-using-uncs-in-hrefs
+type: rule
 title: Do you avoid using UNCs in HREFs?
-created: 2016-08-26 17:56:17
+uri: do-you-avoid-using-uncs-in-hrefs
+created: 2016-08-26T17:56:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-deal-with-distractions
+type: rule
 title: Do you know how to deal with distractions?
-created: 2009-03-10 07:38:32
+uri: do-you-know-how-to-deal-with-distractions
+created: 2009-03-10T07:38:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

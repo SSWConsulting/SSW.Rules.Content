@@ -1,11 +1,11 @@
 ---
-uri: messages---do-you-avoid-message-boxes-at-all-costs
+type: rule
 title: Messages - Do you avoid message boxes at all costs?
-created: 2012-11-27 04:24:26
-authors:
+uri: messages---do-you-avoid-message-boxes-at-all-costs
+created: 2012-11-27T04:24:26.0000000Z
+authors: []
 
 ---
-
 
 
 

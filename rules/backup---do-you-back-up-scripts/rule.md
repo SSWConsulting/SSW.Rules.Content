@@ -1,12 +1,13 @@
 ---
-uri: backup---do-you-back-up-scripts
+type: rule
 title: Backup - Do you back up scripts?
-created: 2019-11-20 18:42:30
+uri: backup---do-you-back-up-scripts
+created: 2019-11-20T18:42:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

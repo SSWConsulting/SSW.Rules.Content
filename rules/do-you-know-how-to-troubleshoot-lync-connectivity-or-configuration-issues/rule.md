@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-troubleshoot-lync-connectivity-or-configuration-issues
+type: rule
 title: Do you know how to troubleshoot Lync connectivity or configuration issues?
-created: 2012-04-17 21:06:54
+uri: do-you-know-how-to-troubleshoot-lync-connectivity-or-configuration-issues
+created: 2012-04-17T21:06:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

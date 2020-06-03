@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-stories-overview-report-to-find-out-where-the-project-is-at
+type: rule
 title: Do you use "Stories Overview" report to find out where the project is at?
-created: 2009-11-03 09:52:31
+uri: do-you-use-stories-overview-report-to-find-out-where-the-project-is-at
+created: 2009-11-03T09:52:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 21
+  title: Matthew Hodgkins
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

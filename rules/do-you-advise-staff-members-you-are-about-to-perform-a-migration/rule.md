@@ -1,12 +1,13 @@
 ---
-uri: do-you-advise-staff-members-you-are-about-to-perform-a-migration
+type: rule
 title: Do you advise staff members you are about to perform a migration
-created: 2010-12-23 06:48:31
+uri: do-you-advise-staff-members-you-are-about-to-perform-a-migration
+created: 2010-12-23T06:48:31.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

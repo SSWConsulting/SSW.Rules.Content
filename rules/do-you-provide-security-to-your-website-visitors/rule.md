@@ -1,12 +1,13 @@
 ---
-uri: do-you-provide-security-to-your-website-visitors
+type: rule
 title: Do you provide security to your website visitors?
-created: 2019-04-17 04:30:30
+uri: do-you-provide-security-to-your-website-visitors
+created: 2019-04-17T04:30:30.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

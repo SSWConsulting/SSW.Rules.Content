@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-document-what-you-are-doing
+type: rule
 title: Do you know how to document what you are doing?
-created: 2010-09-08 16:16:33
+uri: do-you-know-how-to-document-what-you-are-doing
+created: 2010-09-08T16:16:33.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

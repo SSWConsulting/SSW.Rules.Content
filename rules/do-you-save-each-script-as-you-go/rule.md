@@ -1,14 +1,15 @@
 ---
-uri: do-you-save-each-script-as-you-go
+type: rule
 title: Do you save each script as you go?
-created: 2009-10-06 23:42:21
+uri: do-you-save-each-script-as-you-go
+created: 2009-10-06T23:42:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 40
-    title: Igor Goldobin
----
+- id: 1
+  title: Adam Cogan
+- id: 40
+  title: Igor Goldobin
 
+---
 
 
 

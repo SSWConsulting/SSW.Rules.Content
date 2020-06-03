@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-google-ranks-pages
+type: rule
 title: Do you know how Google ranks pages?
-created: 2015-11-09 17:56:43
+uri: do-you-know-how-google-ranks-pages
+created: 2015-11-09T17:56:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 1
+  title: Adam Cogan
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

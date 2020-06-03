@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-do-data-you-need-caml
+type: rule
 title: Do you know to do data you need CAML?
-created: 2009-05-21 23:18:19
+uri: do-you-know-to-do-data-you-need-caml
+created: 2009-05-21T23:18:19.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

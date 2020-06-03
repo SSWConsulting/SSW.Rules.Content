@@ -1,11 +1,11 @@
 ---
-uri: column-data---do-you-know-when-to-use-columns-or-text
+type: rule
 title: Column Data - Do you know when to use columns or text?
-created: 2012-11-27 01:59:48
-authors:
+uri: column-data---do-you-know-when-to-use-columns-or-text
+created: 2012-11-27T01:59:48.0000000Z
+authors: []
 
 ---
-
 
 
 

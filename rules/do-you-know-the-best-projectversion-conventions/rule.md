@@ -1,18 +1,19 @@
 ---
-uri: do-you-know-the-best-projectversion-conventions
+type: rule
 title: Do you know the best Project/Version conventions?
-created: 2011-11-18 03:52:36
+uri: do-you-know-the-best-projectversion-conventions
+created: 2011-11-18T03:52:36.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

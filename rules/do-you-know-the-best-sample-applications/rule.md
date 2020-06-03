@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-sample-applications
+type: rule
 title: Do you know the best sample applications?
-created: 2016-03-15 18:31:47
+uri: do-you-know-the-best-sample-applications
+created: 2016-03-15T18:31:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

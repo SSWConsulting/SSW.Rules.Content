@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-to-do-use-checked-by-xxx
+type: rule
 title: Do you know when to do use 'Checked by xxx'?
-created: 2010-03-01 06:05:18
+uri: do-you-know-when-to-do-use-checked-by-xxx
+created: 2010-03-01T06:05:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

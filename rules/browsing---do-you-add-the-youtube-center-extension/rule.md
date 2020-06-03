@@ -1,12 +1,13 @@
 ---
-uri: browsing---do-you-add-the-youtube-center-extension
+type: rule
 title: Browsing - Do you add the YouTube Center extension?
-created: 2014-05-05 22:05:35
+uri: browsing---do-you-add-the-youtube-center-extension
+created: 2014-05-05T22:05:35.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

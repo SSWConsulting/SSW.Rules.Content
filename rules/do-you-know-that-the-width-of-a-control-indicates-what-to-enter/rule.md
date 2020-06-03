@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-that-the-width-of-a-control-indicates-what-to-enter
+type: rule
 title: Do you know that the width of a control indicates what to enter?
-created: 2012-11-27 09:13:26
-authors:
+uri: do-you-know-that-the-width-of-a-control-indicates-what-to-enter
+created: 2012-11-27T09:13:26.0000000Z
+authors: []
 
 ---
-
 
 
 

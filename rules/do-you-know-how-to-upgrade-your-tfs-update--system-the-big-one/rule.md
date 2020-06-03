@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-upgrade-your-tfs-update--system-the-big-one
+type: rule
 title: Do you know how to upgrade your TFS2013 Update 4 system? (the big one)
-created: 2015-08-13 12:32:42
-authors:
+uri: do-you-know-how-to-upgrade-your-tfs-update--system-the-big-one
+created: 2015-08-13T12:32:42.0000000Z
+authors: []
 
 ---
-
 
 
 

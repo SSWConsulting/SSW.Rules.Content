@@ -1,11 +1,11 @@
 ---
-uri: control-choice---do-you-know-when-to-use-checkboxes
+type: rule
 title: Control Choice - Do you know when to use CheckBoxes?
-created: 2012-11-27 08:51:11
-authors:
+uri: control-choice---do-you-know-when-to-use-checkboxes
+created: 2012-11-27T08:51:11.0000000Z
+authors: []
 
 ---
-
 
 
 

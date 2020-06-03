@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-structure-a-project-for-github
+type: rule
 title: Do you know how to structure a project for GitHub?
-created: 2015-02-13 18:37:55
+uri: do-you-know-how-to-structure-a-project-for-github
+created: 2015-02-13T18:37:55.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 37
-    title: Ben Cull
----
+- id: 24
+  title: Adam Stephensen
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

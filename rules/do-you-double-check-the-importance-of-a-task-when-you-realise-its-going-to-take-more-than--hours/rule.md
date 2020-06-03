@@ -1,12 +1,13 @@
 ---
-uri: do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-take-more-than--hours
+type: rule
 title: Do you double-check the importance of a task when you realise it's going to take more than 2 hours?
-created: 2010-07-16 04:30:37
+uri: do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-take-more-than--hours
+created: 2010-07-16T04:30:37.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-test-your-presentation-vhd-on-a-projector
+type: rule
 title: Do you test your presentation VHD on a projector
-created: 2011-04-13 06:13:55
+uri: do-you-test-your-presentation-vhd-on-a-projector
+created: 2011-04-13T06:13:55.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

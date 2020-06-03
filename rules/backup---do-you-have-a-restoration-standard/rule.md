@@ -1,12 +1,13 @@
 ---
-uri: backup---do-you-have-a-restoration-standard
+type: rule
 title: Backup - Do you have a Restoration Standard?
-created: 2019-11-21 01:57:17
+uri: backup---do-you-have-a-restoration-standard
+created: 2019-11-21T01:57:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

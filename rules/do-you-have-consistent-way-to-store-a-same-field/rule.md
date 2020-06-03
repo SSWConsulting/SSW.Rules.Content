@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-consistent-way-to-store-a-same-field
+type: rule
 title: Do you have consistent way to store a same field?
-created: 2014-12-01 00:59:54
-authors:
+uri: do-you-have-consistent-way-to-store-a-same-field
+created: 2014-12-01T00:59:54.0000000Z
+authors: []
 
 ---
-
 
 
 

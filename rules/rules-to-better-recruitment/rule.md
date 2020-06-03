@@ -1,16 +1,17 @@
 ---
-uri: rules-to-better-recruitment
+type: rule
 title: Rules to Better Recruitment
-created: 2018-02-19 07:23:43
+uri: rules-to-better-recruitment
+created: 2018-02-19T07:23:43.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 62
+  title: Penny Walker
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

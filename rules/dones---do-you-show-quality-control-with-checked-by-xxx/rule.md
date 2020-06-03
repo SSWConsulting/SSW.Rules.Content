@@ -1,14 +1,15 @@
 ---
-uri: dones---do-you-show-quality-control-with-checked-by-xxx
+type: rule
 title: Dones - Do you show quality control with "Checked by xxx"?
-created: 2009-04-08 09:31:23
+uri: dones---do-you-show-quality-control-with-checked-by-xxx
+created: 2009-04-08T09:31:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

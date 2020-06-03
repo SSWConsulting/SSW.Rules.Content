@@ -1,11 +1,11 @@
 ---
-uri: do-you-provide-details-when-reporting-net-applications-errors
+type: rule
 title: Do you provide details when reporting .NET Applications errors
-created: 2016-02-09 16:59:27
-authors:
+uri: do-you-provide-details-when-reporting-net-applications-errors
+created: 2016-02-09T16:59:27.0000000Z
+authors: []
 
 ---
-
 
 
 

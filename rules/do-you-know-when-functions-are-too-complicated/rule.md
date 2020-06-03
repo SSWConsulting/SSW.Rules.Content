@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-when-functions-are-too-complicated
+type: rule
 title: Do you know when functions are too complicated?
-created: 2020-03-12 21:53:03
+uri: do-you-know-when-functions-are-too-complicated
+created: 2020-03-12T21:53:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

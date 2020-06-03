@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-why-react-is-great
+type: rule
 title: Do you know why React is great?
-created: 2019-05-06 14:13:53
+uri: do-you-know-why-react-is-great
+created: 2019-05-06T14:13:53.0000000Z
 authors:
-  - id: 80
-    title: Shane Ye
----
+- id: 80
+  title: Shane Ye
 
+---
 
 
 

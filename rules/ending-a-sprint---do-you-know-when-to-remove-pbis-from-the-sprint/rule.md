@@ -1,16 +1,17 @@
 ---
-uri: ending-a-sprint---do-you-know-when-to-remove-pbis-from-the-sprint
+type: rule
 title: Ending a sprint - Do you know when to remove PBIs from the sprint?
-created: 2010-09-17 11:40:30
+uri: ending-a-sprint---do-you-know-when-to-remove-pbis-from-the-sprint
+created: 2010-09-17T11:40:30.0000000Z
 authors:
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 3
-    title: Eric Phan
-  - id: 23
-    title: Damian Brady
----
+- id: 14
+  title: Martin Hinshelwood
+- id: 3
+  title: Eric Phan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

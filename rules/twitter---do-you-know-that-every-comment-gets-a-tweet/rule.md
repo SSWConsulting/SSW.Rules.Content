@@ -1,14 +1,15 @@
 ---
-uri: twitter---do-you-know-that-every-comment-gets-a-tweet
+type: rule
 title: Twitter - Do you know that every comment gets a tweet?
-created: 2010-03-15 15:26:58
+uri: twitter---do-you-know-that-every-comment-gets-a-tweet
+created: 2010-03-15T15:26:58.0000000Z
 authors:
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 1
-    title: Adam Cogan
----
+- id: 14
+  title: Martin Hinshelwood
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-global-list
+type: rule
 title: Do you use Global List?
-created: 2012-07-18 07:23:54
+uri: do-you-use-global-list
+created: 2012-07-18T07:23:54.0000000Z
 authors:
-  - id: 10
-    title: Lei Xu
----
+- id: 10
+  title: Lei Xu
 
+---
 
 
 

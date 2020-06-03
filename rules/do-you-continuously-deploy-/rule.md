@@ -1,14 +1,15 @@
 ---
-uri: do-you-continuously-deploy-
+type: rule
 title: Do You Continuously Deploy ?
-created: 2012-06-21 04:10:42
+uri: do-you-continuously-deploy-
+created: 2012-06-21T04:10:42.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-when-to-use-react
+type: rule
 title: Do you know when to use React?
-created: 2017-08-15 20:23:23
+uri: do-you-know-when-to-use-react
+created: 2017-08-15T20:23:23.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

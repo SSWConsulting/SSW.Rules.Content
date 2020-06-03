@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-subscribe-button-on-your-blog-aka-rss
+type: rule
 title: Do you have a 'subscribe' button on your blog? (aka RSS)
-created: 2012-10-26 19:10:15
+uri: do-you-have-a-subscribe-button-on-your-blog-aka-rss
+created: 2012-10-26T19:10:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

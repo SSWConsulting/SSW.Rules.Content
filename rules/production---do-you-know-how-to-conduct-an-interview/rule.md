@@ -1,11 +1,11 @@
 ---
-uri: production---do-you-know-how-to-conduct-an-interview
+type: rule
 title: Production - Do You Know How To Conduct An Interview?
-created: 2013-03-04 23:47:54
-authors:
+uri: production---do-you-know-how-to-conduct-an-interview
+created: 2013-03-04T23:47:54.0000000Z
+authors: []
 
 ---
-
 
 
 

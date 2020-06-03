@@ -1,12 +1,13 @@
 ---
-uri: interruptions---do-you-know-that-im-interrupts
+type: rule
 title: Interruptions - Do you know that IM interrupts?
-created: 2015-10-05 01:30:56
+uri: interruptions---do-you-know-that-im-interrupts
+created: 2015-10-05T01:30:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

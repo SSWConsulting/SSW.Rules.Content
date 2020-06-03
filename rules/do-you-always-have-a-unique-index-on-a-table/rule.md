@@ -1,12 +1,13 @@
 ---
-uri: do-you-always-have-a-unique-index-on-a-table
+type: rule
 title: Do you always have a unique index on a table?
-created: 2010-07-23 02:04:18
+uri: do-you-always-have-a-unique-index-on-a-table
+created: 2010-07-23T02:04:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

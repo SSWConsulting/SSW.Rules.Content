@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-invoicing-issues-where-possible-and-resolve-them-quickly-when-they-come-up
+type: rule
 title: Do you avoid invoicing issues where possible and resolve them quickly when they come up?
-created: 2010-07-16 06:07:03
-authors:
+uri: do-you-avoid-invoicing-issues-where-possible-and-resolve-them-quickly-when-they-come-up
+created: 2010-07-16T06:07:03.0000000Z
+authors: []
 
 ---
-
 
 
 

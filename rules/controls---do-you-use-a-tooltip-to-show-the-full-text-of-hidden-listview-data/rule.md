@@ -1,12 +1,13 @@
 ---
-uri: controls---do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data
+type: rule
 title: Controls - Do you use a ToolTip to show the full text of hidden ListView data?
-created: 2012-11-27 09:14:27
+uri: controls---do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data
+created: 2012-11-27T09:14:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

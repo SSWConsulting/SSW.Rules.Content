@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-the-correct-input-type
+type: rule
 title: Do you use the correct input type?
-created: 2015-05-22 03:02:36
-authors:
+uri: do-you-use-the-correct-input-type
+created: 2015-05-22T03:02:36.0000000Z
+authors: []
 
 ---
-
 
 
 

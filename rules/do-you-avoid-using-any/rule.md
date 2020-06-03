@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-using-any
+type: rule
 title: Do you avoid using “any”?
-created: 2016-04-28 19:32:36
+uri: do-you-avoid-using-any
+created: 2016-04-28T19:32:36.0000000Z
 authors:
-  - id: 55
-    title: Steve Leigh
----
+- id: 55
+  title: Steve Leigh
 
+---
 
 
 

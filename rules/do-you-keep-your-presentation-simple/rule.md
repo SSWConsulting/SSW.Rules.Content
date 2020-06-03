@@ -1,11 +1,11 @@
 ---
-uri: do-you-keep-your-presentation-simple
+type: rule
 title: Do you keep your presentation simple?
-created: 2010-06-08 10:02:40
-authors:
+uri: do-you-keep-your-presentation-simple
+created: 2010-06-08T10:02:40.0000000Z
+authors: []
 
 ---
-
 
 
 

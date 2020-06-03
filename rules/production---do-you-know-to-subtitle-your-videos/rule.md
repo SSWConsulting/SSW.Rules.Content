@@ -1,14 +1,15 @@
 ---
-uri: production---do-you-know-to-subtitle-your-videos
+type: rule
 title: Production - Do you know to subtitle your videos?
-created: 2014-02-25 18:44:53
+uri: production---do-you-know-to-subtitle-your-videos
+created: 2014-02-25T18:44:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 29
-    title: Raj Dhatt
----
+- id: 1
+  title: Adam Cogan
+- id: 29
+  title: Raj Dhatt
 
+---
 
 
 

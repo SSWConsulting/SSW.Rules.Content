@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-that-httphandlers-or-httpmodules-sections-in-webconfig-must-contain-a-remove-or-clear-element
+type: rule
 title: Do you know that 'httpHandlers' or 'httpModules' sections in web.config must contain a 'remove' or 'clear' element?
-created: 2013-02-06 12:55:03
+uri: do-you-know-that-httphandlers-or-httpmodules-sections-in-webconfig-must-contain-a-remove-or-clear-element
+created: 2013-02-06T12:55:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 46
-    title: Danijel Malik
----
+- id: 1
+  title: Adam Cogan
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

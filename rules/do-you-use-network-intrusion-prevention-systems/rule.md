@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-network-intrusion-prevention-systems
+type: rule
 title: Do you use Network Intrusion Prevention Systems?
-created: 2019-10-01 21:47:06
+uri: do-you-use-network-intrusion-prevention-systems
+created: 2019-10-01T21:47:06.0000000Z
 authors:
-  - id: 71
-    title: Steven Andrews
----
+- id: 71
+  title: Steven Andrews
 
+---
 
 
 

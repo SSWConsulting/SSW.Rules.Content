@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-to-use-smartpart-or-webpart
+type: rule
 title: Do you know when to use SmartPart or WebPart?
-created: 2009-04-09 01:09:00
+uri: do-you-know-when-to-use-smartpart-or-webpart
+created: 2009-04-09T01:09:00.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

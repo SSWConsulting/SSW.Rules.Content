@@ -1,11 +1,11 @@
 ---
-uri: long-process---do-you-use-the-word-cancel-instead-of-stop-to-halt-processes
+type: rule
 title: Long Process - Do you use the word 'Cancel' (instead of 'Stop') to halt processes?
-created: 2012-11-27 03:03:58
-authors:
+uri: long-process---do-you-use-the-word-cancel-instead-of-stop-to-halt-processes
+created: 2012-11-27T03:03:58.0000000Z
+authors: []
 
 ---
-
 
 
 

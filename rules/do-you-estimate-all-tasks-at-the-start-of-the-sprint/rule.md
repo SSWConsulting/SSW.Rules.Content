@@ -1,12 +1,13 @@
 ---
-uri: do-you-estimate-all-tasks-at-the-start-of-the-sprint
+type: rule
 title: Do you estimate all tasks at the start of the sprint?
-created: 2014-01-09 01:21:38
+uri: do-you-estimate-all-tasks-at-the-start-of-the-sprint
+created: 2014-01-09T01:21:38.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

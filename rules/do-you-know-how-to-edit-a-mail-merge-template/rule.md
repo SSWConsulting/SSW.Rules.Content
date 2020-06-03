@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-edit-a-mail-merge-template
+type: rule
 title: Do you know how to edit a mail merge template?
-created: 2013-03-13 19:23:35
+uri: do-you-know-how-to-edit-a-mail-merge-template
+created: 2013-03-13T19:23:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

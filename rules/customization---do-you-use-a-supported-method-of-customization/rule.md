@@ -1,12 +1,13 @@
 ---
-uri: customization---do-you-use-a-supported-method-of-customization
+type: rule
 title: Customization - Do you use a supported method of customization?
-created: 2012-12-10 18:24:24
+uri: customization---do-you-use-a-supported-method-of-customization
+created: 2012-12-10T18:24:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

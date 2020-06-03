@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-zz-ed-files-must-not-exist-in-source-control
+type: rule
 title: Do you know zz-ed files must not exist in Source Control?
-created: 2013-01-21 12:39:24
+uri: do-you-know-zz-ed-files-must-not-exist-in-source-control
+created: 2013-01-21T12:39:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

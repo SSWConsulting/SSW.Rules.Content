@@ -1,14 +1,15 @@
 ---
-uri: do-you-present-the-user-with-a-nice-error-screen-web-only
+type: rule
 title: Do you present the user with a nice error screen? (Web Only)
-created: 2013-09-11 21:08:47
+uri: do-you-present-the-user-with-a-nice-error-screen-web-only
+created: 2013-09-11T21:08:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 38
-    title: Drew Robson
----
+- id: 1
+  title: Adam Cogan
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

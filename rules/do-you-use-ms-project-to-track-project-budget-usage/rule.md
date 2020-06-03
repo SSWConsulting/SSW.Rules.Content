@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-ms-project-to-track-project-budget-usage
+type: rule
 title: Do you use MS Project to track project budget usage?
-created: 2009-11-27 05:46:28
+uri: do-you-use-ms-project-to-track-project-budget-usage
+created: 2009-11-27T05:46:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 10
-    title: Lei Xu
----
+- id: 1
+  title: Adam Cogan
+- id: 10
+  title: Lei Xu
 
+---
 
 
 

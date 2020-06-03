@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-definition-of-ready
+type: rule
 title: Do you have a "Definition of Ready"?
-created: 2013-08-23 18:42:58
+uri: do-you-have-a-definition-of-ready
+created: 2013-08-23T18:42:58.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
-  - id: 1
-    title: Adam Cogan
----
+- id: 3
+  title: Eric Phan
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

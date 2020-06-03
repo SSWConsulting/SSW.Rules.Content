@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-change-the-layout-for-your-slides
+type: rule
 title: Do you know how to change the layout for your slides?
-created: 2010-06-08 08:09:56
-authors:
+uri: do-you-know-how-to-change-the-layout-for-your-slides
+created: 2010-06-08T08:09:56.0000000Z
+authors: []
 
 ---
-
 
 
 

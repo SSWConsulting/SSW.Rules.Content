@@ -1,12 +1,13 @@
 ---
-uri: scheduling---do-you-know-how-to-book-developers-for-a-project
+type: rule
 title: Scheduling - Do you know how to book developers for a project?
-created: 2012-12-06 13:32:15
+uri: scheduling---do-you-know-how-to-book-developers-for-a-project
+created: 2012-12-06T13:32:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

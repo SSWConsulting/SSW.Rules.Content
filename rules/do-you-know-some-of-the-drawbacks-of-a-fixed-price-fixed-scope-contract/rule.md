@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-some-of-the-drawbacks-of-a-fixed-price-fixed-scope-contract
+type: rule
 title: Do you know some of the drawbacks of a fixed price fixed scope contract?
-created: 2011-08-11 19:01:46
+uri: do-you-know-some-of-the-drawbacks-of-a-fixed-price-fixed-scope-contract
+created: 2011-08-11T19:01:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 13
-    title: Paul Neumeyer
-  - id: 30
-    title: Marlon Marescia
----
+- id: 1
+  title: Adam Cogan
+- id: 13
+  title: Paul Neumeyer
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

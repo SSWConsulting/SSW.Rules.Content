@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-schema-master
+type: rule
 title: Do you have a "Schema Master"?
-created: 2009-10-05 05:51:48
+uri: do-you-have-a-schema-master
+created: 2009-10-05T05:51:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

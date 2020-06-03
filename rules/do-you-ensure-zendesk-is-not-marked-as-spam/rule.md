@@ -1,14 +1,15 @@
 ---
-uri: do-you-ensure-zendesk-is-not-marked-as-spam
+type: rule
 title: Do you ensure Zendesk is not marked as spam?
-created: 2019-12-06 22:00:10
+uri: do-you-ensure-zendesk-is-not-marked-as-spam
+created: 2019-12-06T22:00:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 73
-    title: Kaique Biancatti
----
+- id: 1
+  title: Adam Cogan
+- id: 73
+  title: Kaique Biancatti
 
+---
 
 
 

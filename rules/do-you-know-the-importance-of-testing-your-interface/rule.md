@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-importance-of-testing-your-interface
+type: rule
 title: Do you know the importance of testing your interface?
-created: 2013-10-31 02:45:05
-authors:
+uri: do-you-know-the-importance-of-testing-your-interface
+created: 2013-10-31T02:45:05.0000000Z
+authors: []
 
 ---
-
 
 
 

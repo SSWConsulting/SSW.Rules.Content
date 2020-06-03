@@ -1,14 +1,15 @@
 ---
-uri: do-you-deploy-your-applications-correctly
+type: rule
 title: Do you deploy your applications correctly?
-created: 2009-05-05 06:05:52
+uri: do-you-deploy-your-applications-correctly
+created: 2009-05-05T06:05:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

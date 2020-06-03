@@ -1,14 +1,15 @@
 ---
-uri: do-you-perform-a-background-check
+type: rule
 title: Do you perform a background check?
-created: 2012-08-30 12:56:50
+uri: do-you-perform-a-background-check
+created: 2012-08-30T12:56:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

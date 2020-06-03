@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-linking-users-to-the-sign-in-page-directly
+type: rule
 title: Do you avoid linking users to the sign in page directly?
-created: 2015-02-16 02:57:35
-authors:
+uri: do-you-avoid-linking-users-to-the-sign-in-page-directly
+created: 2015-02-16T02:57:35.0000000Z
+authors: []
 
 ---
-
 
 
 

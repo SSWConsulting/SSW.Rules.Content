@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-active-language-in-your-emails
+type: rule
 title: Do you use active language in your emails?
-created: 2009-03-30 02:20:40
+uri: do-you-use-active-language-in-your-emails
+created: 2009-03-30T02:20:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

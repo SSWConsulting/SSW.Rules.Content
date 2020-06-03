@@ -1,12 +1,13 @@
 ---
+type: rule
+title: 'Do you know how to correctly use the terms: Configuration and Customization in the TFS context?'
 uri: do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context
-title: Do you know how to correctly use the terms: Configuration and Customization in the TFS context?
-created: 2013-06-24 06:28:57
+created: 2013-06-24T06:28:57.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

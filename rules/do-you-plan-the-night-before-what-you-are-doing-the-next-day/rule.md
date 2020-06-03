@@ -1,11 +1,11 @@
 ---
-uri: do-you-plan-the-night-before-what-you-are-doing-the-next-day
+type: rule
 title: Do you plan the night before what you are doing the next day?
-created: 2010-07-16 06:38:46
-authors:
+uri: do-you-plan-the-night-before-what-you-are-doing-the-next-day
+created: 2010-07-16T06:38:46.0000000Z
+authors: []
 
 ---
-
 
 
 

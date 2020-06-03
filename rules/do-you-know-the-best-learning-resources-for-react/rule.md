@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-learning-resources-for-react
+type: rule
 title: Do you know the best learning resources for React?
-created: 2019-04-30 12:56:44
+uri: do-you-know-the-best-learning-resources-for-react
+created: 2019-04-30T12:56:44.0000000Z
 authors:
-  - id: 80
-    title: Shane Ye
----
+- id: 80
+  title: Shane Ye
 
+---
 
 
 

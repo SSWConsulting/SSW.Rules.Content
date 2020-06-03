@@ -1,11 +1,11 @@
 ---
-uri: agreements---do-you-provide-a-product-owner
+type: rule
 title: Agreements - Do you provide a Product Owner?
-created: 2010-05-20 10:10:03
-authors:
+uri: agreements---do-you-provide-a-product-owner
+created: 2010-05-20T10:10:03.0000000Z
+authors: []
 
 ---
-
 
 
 

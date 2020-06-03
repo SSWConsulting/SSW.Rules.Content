@@ -1,14 +1,15 @@
 ---
-uri: do-you-enable-automatic-windows-update-installations
+type: rule
 title: Do you enable automatic Windows Update Installations?
-created: 2014-08-29 20:08:15
+uri: do-you-enable-automatic-windows-update-installations
+created: 2014-08-29T20:08:15.0000000Z
 authors:
-  - id: 40
-    title: Igor Goldobin
-  - id: 47
-    title: Stanley Sidik
----
+- id: 40
+  title: Igor Goldobin
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

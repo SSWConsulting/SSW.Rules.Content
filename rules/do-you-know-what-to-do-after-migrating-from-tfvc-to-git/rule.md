@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-what-to-do-after-migrating-from-tfvc-to-git
+type: rule
 title: Do you know what to do after migrating from TFVC to Git?
-created: 2017-04-05 00:34:51
+uri: do-you-know-what-to-do-after-migrating-from-tfvc-to-git
+created: 2017-04-05T00:34:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

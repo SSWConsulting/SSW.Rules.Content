@@ -1,12 +1,13 @@
 ---
-uri: chinafy---do-you-know-those-english-words-are-ok-in-china
+type: rule
 title: Chinafy - Do you know those English words are OK in China?
-created: 2019-06-20 09:25:31
+uri: chinafy---do-you-know-those-english-words-are-ok-in-china
+created: 2019-06-20T09:25:31.0000000Z
 authors:
-  - id: 90
-    title: Ken Shi
----
+- id: 90
+  title: Ken Shi
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: post-production---do-you-know-how-to-structure-your-files
+type: rule
 title: Post Production - Do You Know How To Structure Your Files?
-created: 2013-10-20 22:19:03
-authors:
+uri: post-production---do-you-know-how-to-structure-your-files
+created: 2013-10-20T22:19:03.0000000Z
+authors: []
 
 ---
-
 
 
 

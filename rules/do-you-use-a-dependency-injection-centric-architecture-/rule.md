@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-a-dependency-injection-centric-architecture-
+type: rule
 title: Do You Use a Dependency Injection Centric Architecture ?
-created: 2012-10-19 19:11:41
+uri: do-you-use-a-dependency-injection-centric-architecture-
+created: 2012-10-19T19:11:41.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 40
-    title: Igor Goldobin
----
+- id: 24
+  title: Adam Stephensen
+- id: 40
+  title: Igor Goldobin
 
+---
 
 
 

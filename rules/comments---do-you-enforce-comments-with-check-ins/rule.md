@@ -1,20 +1,21 @@
 ---
-uri: comments---do-you-enforce-comments-with-check-ins
+type: rule
 title: Comments - Do you enforce comments with check-ins?
-created: 2011-11-18 03:52:40
+uri: comments---do-you-enforce-comments-with-check-ins
+created: 2011-11-18T03:52:40.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 38
-    title: Drew Robson
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

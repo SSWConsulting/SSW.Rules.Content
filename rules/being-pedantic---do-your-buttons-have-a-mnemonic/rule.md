@@ -1,12 +1,13 @@
 ---
-uri: being-pedantic---do-your-buttons-have-a-mnemonic
+type: rule
 title: Being Pedantic - Do your buttons have a mnemonic?
-created: 2012-11-27 09:25:36
+uri: being-pedantic---do-your-buttons-have-a-mnemonic
+created: 2012-11-27T09:25:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

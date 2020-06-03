@@ -1,12 +1,13 @@
 ---
-uri: are-your-developers-managing-your-projects-with-tfs-with-proven-agilescrum-and-alm-strategies
+type: rule
 title: Are your Developers Managing your Projects with TFS (with proven Agile/Scrum and ALM Strategies)?
-created: 2012-05-23 16:31:05
+uri: are-your-developers-managing-your-projects-with-tfs-with-proven-agilescrum-and-alm-strategies
+created: 2012-05-23T16:31:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

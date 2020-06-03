@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-service-accounts
+type: rule
 title: Do you use service accounts?
-created: 2018-08-22 05:08:37
+uri: do-you-use-service-accounts
+created: 2018-08-22T05:08:37.0000000Z
 authors:
-  - id: 73
-    title: Kaique Biancatti
----
+- id: 73
+  title: Kaique Biancatti
 
+---
 
 
 

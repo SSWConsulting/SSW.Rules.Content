@@ -1,11 +1,11 @@
 ---
-uri: sample---do-you-avoid-dropping-a-users-database-when-you-attempt-to-create-a-database
+type: rule
 title: Sample - Do you avoid dropping a user's database when you attempt to create a database?
-created: 2012-11-27 03:09:46
-authors:
+uri: sample---do-you-avoid-dropping-a-users-database-when-you-attempt-to-create-a-database
+created: 2012-11-27T03:09:46.0000000Z
+authors: []
 
 ---
-
 
 
 

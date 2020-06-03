@@ -1,16 +1,17 @@
 ---
-uri: spec---do-you-use-user-stories-when-appropriate
+type: rule
 title: Spec - Do you use User Stories when appropriate?
-created: 2009-11-03 10:33:18
+uri: spec---do-you-use-user-stories-when-appropriate
+created: 2009-11-03T10:33:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

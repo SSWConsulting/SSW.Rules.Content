@@ -1,14 +1,15 @@
 ---
-uri: does-your-website-have-a-favicon
+type: rule
 title: Does your website have a favicon?
-created: 2015-02-13 02:02:42
+uri: does-your-website-have-a-favicon
+created: 2015-02-13T02:02:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

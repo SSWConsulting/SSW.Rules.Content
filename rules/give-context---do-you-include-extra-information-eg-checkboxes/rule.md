@@ -1,11 +1,11 @@
 ---
-uri: give-context---do-you-include-extra-information-eg-checkboxes
+type: rule
 title: Give Context - Do you include extra information (e.g. Checkboxes)?
-created: 2012-11-27 02:07:36
-authors:
+uri: give-context---do-you-include-extra-information-eg-checkboxes
+created: 2012-11-27T02:07:36.0000000Z
+authors: []
 
 ---
-
 
 
 

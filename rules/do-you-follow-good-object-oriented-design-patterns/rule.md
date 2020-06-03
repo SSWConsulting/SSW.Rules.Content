@@ -1,12 +1,13 @@
 ---
-uri: do-you-follow-good-object-oriented-design-patterns
+type: rule
 title: Do you follow good Object-Oriented design patterns?
-created: 2016-04-29 18:11:10
+uri: do-you-follow-good-object-oriented-design-patterns
+created: 2016-04-29T18:11:10.0000000Z
 authors:
-  - id: 55
-    title: Steve Leigh
----
+- id: 55
+  title: Steve Leigh
 
+---
 
 
 

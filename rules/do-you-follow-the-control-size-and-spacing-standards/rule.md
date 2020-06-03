@@ -1,11 +1,11 @@
 ---
-uri: do-you-follow-the-control-size-and-spacing-standards
+type: rule
 title: Do you follow the control size and spacing standards?
-created: 2014-12-01 00:31:14
-authors:
+uri: do-you-follow-the-control-size-and-spacing-standards
+created: 2014-12-01T00:31:14.0000000Z
+authors: []
 
 ---
-
 
 
 

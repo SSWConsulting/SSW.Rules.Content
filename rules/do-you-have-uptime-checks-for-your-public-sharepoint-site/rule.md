@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-uptime-checks-for-your-public-sharepoint-site
+type: rule
 title: Do you have uptime checks for your public sharepoint site?
-created: 2009-12-16 02:54:08
+uri: do-you-have-uptime-checks-for-your-public-sharepoint-site
+created: 2009-12-16T02:54:08.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

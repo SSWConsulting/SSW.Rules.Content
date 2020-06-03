@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-how-to-lay-out-your-solution
+type: rule
 title: Do you know how to lay out your solution?
-created: 2011-11-18 03:52:49
+uri: do-you-know-how-to-lay-out-your-solution
+created: 2011-11-18T03:52:49.0000000Z
 authors:
-  - id: 5
-    title: Justin King
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 24
-    title: Adam Stephensen
----
+- id: 5
+  title: Justin King
+- id: 6
+  title: Tristan Kurniawan
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

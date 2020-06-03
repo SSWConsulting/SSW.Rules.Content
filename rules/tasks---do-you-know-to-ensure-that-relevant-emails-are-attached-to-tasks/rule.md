@@ -1,12 +1,13 @@
 ---
-uri: tasks---do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks
+type: rule
 title: Tasks - Do you know to ensure that relevant emails are attached to tasks?
-created: 2010-04-28 14:41:54
+uri: tasks---do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks
+created: 2010-04-28T14:41:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

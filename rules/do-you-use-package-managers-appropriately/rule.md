@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-package-managers-appropriately
+type: rule
 title: Do you use package managers appropriately?
-created: 2016-04-28 21:33:33
+uri: do-you-use-package-managers-appropriately
+created: 2016-04-28T21:33:33.0000000Z
 authors:
-  - id: 55
-    title: Steve Leigh
----
+- id: 55
+  title: Steve Leigh
 
+---
 
 
 

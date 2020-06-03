@@ -1,12 +1,13 @@
 ---
-uri: quality---do-you-give--when-deadlines-are-tight
+type: rule
 title: Quality - Do you give 120% when deadlines are tight?
-created: 2012-09-25 17:58:46
+uri: quality---do-you-give--when-deadlines-are-tight
+created: 2012-09-25T17:58:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

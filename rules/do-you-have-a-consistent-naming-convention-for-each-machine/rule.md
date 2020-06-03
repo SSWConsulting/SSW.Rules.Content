@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-consistent-naming-convention-for-each-machine
+type: rule
 title: Do you have a consistent naming convention for each machine?
-created: 2014-09-03 19:12:45
+uri: do-you-have-a-consistent-naming-convention-for-each-machine
+created: 2014-09-03T19:12:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

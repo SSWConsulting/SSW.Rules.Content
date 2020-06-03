@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-programmatically-get-git-commits
+type: rule
 title: Do you know how to programmatically get Git commits?
-created: 2014-08-07 23:07:23
+uri: do-you-know-how-to-programmatically-get-git-commits
+created: 2014-08-07T23:07:23.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
----
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

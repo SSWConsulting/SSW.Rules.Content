@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
+type: rule
 title: Do you know that working in a Team is better than on your own? (aka The Ben Darwin Rule)
-created: 2010-05-11 07:16:01
+uri: do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
+created: 2010-05-11T07:16:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

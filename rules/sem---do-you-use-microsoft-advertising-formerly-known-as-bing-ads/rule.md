@@ -1,14 +1,15 @@
 ---
-uri: sem---do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+type: rule
 title: SEM - Do you use Microsoft Advertising? (Formerly known as Bing Ads)
-created: 2019-05-02 03:53:19
+uri: sem---do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+created: 2019-05-02T03:53:19.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
-  - id: 62
-    title: Penny Walker
----
+- id: 83
+  title: Camilla Rosa Silva
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

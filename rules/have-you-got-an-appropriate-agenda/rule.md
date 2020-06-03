@@ -1,11 +1,11 @@
 ---
-uri: have-you-got-an-appropriate-agenda
+type: rule
 title: Have you got an appropriate agenda?
-created: 2014-12-31 00:20:06
-authors:
+uri: have-you-got-an-appropriate-agenda
+created: 2014-12-31T00:20:06.0000000Z
+authors: []
 
 ---
-
 
 
 

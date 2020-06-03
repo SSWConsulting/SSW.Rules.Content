@@ -1,11 +1,11 @@
 ---
-uri: do-you-strike-through-completed-items
+type: rule
 title: Do you strike-through completed items?
-created: 2012-11-27 02:13:04
-authors:
+uri: do-you-strike-through-completed-items
+created: 2012-11-27T02:13:04.0000000Z
+authors: []
 
 ---
-
 
 
 

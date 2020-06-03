@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-caption-property-on-a-field-upsizing-problem
+type: rule
 title: Do you use the Caption property on a field (Upsizing Problem)?
-created: 2010-07-23 02:32:16
+uri: do-you-use-the-caption-property-on-a-field-upsizing-problem
+created: 2010-07-23T02:32:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

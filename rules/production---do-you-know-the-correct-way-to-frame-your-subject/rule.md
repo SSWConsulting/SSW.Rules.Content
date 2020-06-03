@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-know-the-correct-way-to-frame-your-subject
+type: rule
 title: Production - Do you know the correct way to frame your subject?
-created: 2011-10-19 15:23:00
+uri: production---do-you-know-the-correct-way-to-frame-your-subject
+created: 2011-10-19T15:23:00.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-changes-on-datetime-in-net--and-net-
+type: rule
 title: Do you know changes on Datetime in .NET 2.0 and .NET 1.1/1.0
-created: 2009-05-08 08:37:20
+uri: do-you-know-changes-on-datetime-in-net--and-net-
+created: 2009-05-08T08:37:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

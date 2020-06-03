@@ -1,12 +1,13 @@
 ---
-uri: do-you-track-your-initial-meetings
+type: rule
 title: Do you track your initial meetings?
-created: 2018-04-05 17:41:02
+uri: do-you-track-your-initial-meetings
+created: 2018-04-05T17:41:02.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

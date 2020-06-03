@@ -1,12 +1,13 @@
 ---
-uri: meeting---do-you-update-your-tasks-before-the-daily-scrum
+type: rule
 title: Meeting - Do you update your tasks before the Daily Scrum?
-created: 2010-04-07 05:21:16
+uri: meeting---do-you-update-your-tasks-before-the-daily-scrum
+created: 2010-04-07T05:21:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

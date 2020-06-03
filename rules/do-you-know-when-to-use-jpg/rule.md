@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-when-to-use-jpg
+type: rule
 title: Do you know when to use JPG?
-created: 2015-10-13 00:12:06
-authors:
+uri: do-you-know-when-to-use-jpg
+created: 2015-10-13T00:12:06.0000000Z
+authors: []
 
 ---
-
 
 
 

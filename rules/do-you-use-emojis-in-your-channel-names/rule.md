@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-emojis-in-your-channel-names
+type: rule
 title: Do you use emojis in your channel names?
-created: 2019-09-05 18:50:35
+uri: do-you-use-emojis-in-your-channel-names
+created: 2019-09-05T18:50:35.0000000Z
 authors:
-  - id: 69
-    title: Jean Thirion
-  - id: 1
-    title: Adam Cogan
----
+- id: 69
+  title: Jean Thirion
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

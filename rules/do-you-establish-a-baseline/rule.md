@@ -1,12 +1,13 @@
 ---
-uri: do-you-establish-a-baseline
+type: rule
 title: Do you establish a baseline?
-created: 2016-04-28 17:56:10
+uri: do-you-establish-a-baseline
+created: 2016-04-28T17:56:10.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

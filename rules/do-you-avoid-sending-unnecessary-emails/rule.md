@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-sending-unnecessary-emails
+type: rule
 title: Do you avoid sending unnecessary emails?
-created: 2009-03-23 04:16:56
+uri: do-you-avoid-sending-unnecessary-emails
+created: 2009-03-23T04:16:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

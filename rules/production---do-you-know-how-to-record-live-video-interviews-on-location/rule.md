@@ -1,11 +1,11 @@
 ---
-uri: production---do-you-know-how-to-record-live-video-interviews-on-location
+type: rule
 title: Production - Do you know how to record live video interviews on location?
-created: 2011-08-30 18:02:28
-authors:
+uri: production---do-you-know-how-to-record-live-video-interviews-on-location
+created: 2011-08-30T18:02:28.0000000Z
+authors: []
 
 ---
-
 
 
 

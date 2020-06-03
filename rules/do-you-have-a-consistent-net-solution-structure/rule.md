@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-consistent-net-solution-structure
+type: rule
 title: Do you have a consistent .NET Solution Structure?
-created: 2009-04-24 03:31:54
+uri: do-you-have-a-consistent-net-solution-structure
+created: 2009-04-24T03:31:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 24
-    title: Adam Stephensen
----
+- id: 1
+  title: Adam Cogan
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

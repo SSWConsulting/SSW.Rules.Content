@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-dynamically-labeling-your-form-buttons
+type: rule
 title: Do you avoid dynamically labeling your form buttons?
-created: 2014-12-01 00:20:04
-authors:
+uri: do-you-avoid-dynamically-labeling-your-form-buttons
+created: 2014-12-01T00:20:04.0000000Z
+authors: []
 
 ---
-
 
 
 

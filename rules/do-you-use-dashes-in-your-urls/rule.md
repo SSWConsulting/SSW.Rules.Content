@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-dashes-in-your-urls
+type: rule
 title: Do you use dashes in your URLs?
-created: 2015-11-09 20:51:46
+uri: do-you-use-dashes-in-your-urls
+created: 2015-11-09T20:51:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-underlines-only-on-links
+type: rule
 title: Do you use underlines only on links?
-created: 2015-02-16 01:26:10
+uri: do-you-use-underlines-only-on-links
+created: 2015-02-16T01:26:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 20
-    title: Rebecca Liu
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 20
+  title: Rebecca Liu
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

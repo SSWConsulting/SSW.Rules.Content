@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-suspend-on-your-notebook
+type: rule
 title: Do you use suspend on your notebook?
-created: 2011-08-23 08:38:37
+uri: do-you-use-suspend-on-your-notebook
+created: 2011-08-23T08:38:37.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 25
-    title: Andrian Foyn
-  - id: 26
-    title: Tim Fletcher
----
+- id: 1
+  title: Adam Cogan
+- id: 25
+  title: Andrian Foyn
+- id: 26
+  title: Tim Fletcher
 
+---
 
 
 

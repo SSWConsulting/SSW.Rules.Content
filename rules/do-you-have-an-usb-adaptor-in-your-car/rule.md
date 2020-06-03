@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-an-usb-adaptor-in-your-car
+type: rule
 title: Do you have an USB adaptor in your car?
-created: 2012-09-25 18:12:16
+uri: do-you-have-an-usb-adaptor-in-your-car
+created: 2012-09-25T18:12:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

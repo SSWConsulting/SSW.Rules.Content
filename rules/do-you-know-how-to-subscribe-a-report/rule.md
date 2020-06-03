@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-subscribe-a-report
+type: rule
 title: Do you know how to subscribe a report
-created: 2012-05-07 08:13:01
+uri: do-you-know-how-to-subscribe-a-report
+created: 2012-05-07T08:13:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

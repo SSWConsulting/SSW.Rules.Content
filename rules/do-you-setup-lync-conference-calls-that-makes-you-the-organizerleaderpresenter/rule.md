@@ -1,12 +1,13 @@
 ---
-uri: do-you-setup-lync-conference-calls-that-makes-you-the-organizerleaderpresenter
+type: rule
 title: Do you setup Lync conference calls (that makes you the Organizer/Leader/Presenter)?
-created: 2012-04-17 21:52:48
+uri: do-you-setup-lync-conference-calls-that-makes-you-the-organizerleaderpresenter
+created: 2012-04-17T21:52:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

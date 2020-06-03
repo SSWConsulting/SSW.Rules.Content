@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-common-design-principles-part-
+type: rule
 title: Do you know the common Design Principles? (Part 1)
-created: 2012-04-02 00:29:11
+uri: do-you-know-the-common-design-principles-part-
+created: 2012-04-02T00:29:11.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 23
-    title: Damian Brady
----
+- id: 24
+  title: Adam Stephensen
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-zz-old-files-rather-than-deleting-them
+type: rule
 title: Do you 'zz' old files rather than deleting them?
-created: 2009-03-02 02:45:33
+uri: do-you-zz-old-files-rather-than-deleting-them
+created: 2009-03-02T02:45:33.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

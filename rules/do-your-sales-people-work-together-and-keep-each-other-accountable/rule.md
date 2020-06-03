@@ -1,12 +1,13 @@
 ---
-uri: do-your-sales-people-work-together-and-keep-each-other-accountable
+type: rule
 title: Do your Sales People work together and keep each other accountable?
-created: 2018-07-11 17:34:06
+uri: do-your-sales-people-work-together-and-keep-each-other-accountable
+created: 2018-07-11T17:34:06.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

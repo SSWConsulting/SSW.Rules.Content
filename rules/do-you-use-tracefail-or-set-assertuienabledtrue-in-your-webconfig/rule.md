@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-tracefail-or-set-assertuienabledtrue-in-your-webconfig
+type: rule
 title: Do you use Trace.Fail or set AssertUIEnabled="true" in your web.config?
-created: 2009-05-13 07:16:16
+uri: do-you-use-tracefail-or-set-assertuienabledtrue-in-your-webconfig
+created: 2009-05-13T07:16:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

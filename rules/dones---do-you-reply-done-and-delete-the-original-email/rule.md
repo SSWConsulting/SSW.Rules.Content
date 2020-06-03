@@ -1,16 +1,17 @@
 ---
-uri: dones---do-you-reply-done-and-delete-the-original-email
+type: rule
 title: Dones - Do you reply 'Done' and delete the original email?
-created: 2009-03-23 04:03:34
+uri: dones---do-you-reply-done-and-delete-the-original-email
+created: 2009-03-23T04:03:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

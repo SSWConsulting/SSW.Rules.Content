@@ -1,11 +1,11 @@
 ---
-uri: less-is-more---do-you-always-try-to-reduce-complexity
+type: rule
 title: Less is More - Do you always try to reduce complexity?
-created: 2012-11-27 01:45:45
-authors:
+uri: less-is-more---do-you-always-try-to-reduce-complexity
+created: 2012-11-27T01:45:45.0000000Z
+authors: []
 
 ---
-
 
 
 

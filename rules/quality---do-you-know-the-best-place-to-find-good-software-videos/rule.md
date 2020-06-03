@@ -1,12 +1,13 @@
 ---
-uri: quality---do-you-know-the-best-place-to-find-good-software-videos
+type: rule
 title: Quality - Do you know the best place to find good software videos?
-created: 2015-04-13 00:39:15
+uri: quality---do-you-know-the-best-place-to-find-good-software-videos
+created: 2015-04-13T00:39:15.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

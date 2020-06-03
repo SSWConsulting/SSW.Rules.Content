@@ -1,11 +1,11 @@
 ---
-uri: setup---do-you-ensure-speakers-use-a-microphone
+type: rule
 title: Setup - Do you ensure speakers use a microphone?
-created: 2014-11-05 23:40:22
-authors:
+uri: setup---do-you-ensure-speakers-use-a-microphone
+created: 2014-11-05T23:40:22.0000000Z
+authors: []
 
 ---
-
 
 
 

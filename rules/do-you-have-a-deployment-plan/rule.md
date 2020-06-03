@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-a-deployment-plan
+type: rule
 title: Do you have a deployment plan?
-created: 2011-08-26 19:34:05
-authors:
+uri: do-you-have-a-deployment-plan
+created: 2011-08-26T19:34:05.0000000Z
+authors: []
 
 ---
-
 
 
 

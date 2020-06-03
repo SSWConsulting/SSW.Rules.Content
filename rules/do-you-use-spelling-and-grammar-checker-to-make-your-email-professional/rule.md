@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
+type: rule
 title: Do you use spelling and grammar checker to make your email professional?
-created: 2009-10-20 03:56:47
+uri: do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
+created: 2009-10-20T03:56:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

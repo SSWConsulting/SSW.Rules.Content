@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-the-url-as-a-navigation-aid-aka-redirect-to-the-correct-url-if-it-is-incorrect
+type: rule
 title: Do you use the URL as a navigation aid (aka redirect to the correct url if it is incorrect)?
-created: 2013-03-26 20:26:11
+uri: do-you-use-the-url-as-a-navigation-aid-aka-redirect-to-the-correct-url-if-it-is-incorrect
+created: 2013-03-26T20:26:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

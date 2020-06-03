@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-transfer-a-call-quickly
+type: rule
 title: Do you know how to transfer a call quickly?
-created: 2018-06-08 21:22:24
+uri: do-you-know-how-to-transfer-a-call-quickly
+created: 2018-06-08T21:22:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-resource-file-for-storing-your-static-script
+type: rule
 title: Do you use resource file for storing your static script?
-created: 2009-05-06 09:48:28
+uri: do-you-use-resource-file-for-storing-your-static-script
+created: 2009-05-06T09:48:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

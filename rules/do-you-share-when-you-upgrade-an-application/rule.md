@@ -1,14 +1,15 @@
 ---
-uri: do-you-share-when-you-upgrade-an-application
+type: rule
 title: Do you share when you upgrade an application?
-created: 2014-12-22 06:43:04
+uri: do-you-share-when-you-upgrade-an-application
+created: 2014-12-22T06:43:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

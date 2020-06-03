@@ -1,12 +1,13 @@
 ---
-uri: do-you-highlight-actions-correctly-in-your-document
+type: rule
 title: Do you highlight actions correctly in your document?
-created: 2016-03-22 04:57:28
+uri: do-you-highlight-actions-correctly-in-your-document
+created: 2016-03-22T04:57:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

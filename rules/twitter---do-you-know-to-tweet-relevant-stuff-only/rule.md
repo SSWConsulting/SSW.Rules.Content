@@ -1,16 +1,17 @@
 ---
-uri: twitter---do-you-know-to-tweet-relevant-stuff-only
+type: rule
 title: Twitter - Do you know to tweet relevant stuff only?
-created: 2011-01-31 04:22:19
+uri: twitter---do-you-know-to-tweet-relevant-stuff-only
+created: 2011-01-31T04:22:19.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 12
-    title: Peter Gfader
-  - id: 1
-    title: Adam Cogan
----
+- id: 21
+  title: Matthew Hodgkins
+- id: 12
+  title: Peter Gfader
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

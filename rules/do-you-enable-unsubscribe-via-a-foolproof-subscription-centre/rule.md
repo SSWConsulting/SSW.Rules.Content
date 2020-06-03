@@ -1,12 +1,13 @@
 ---
-uri: do-you-enable-unsubscribe-via-a-foolproof-subscription-centre
+type: rule
 title: Do you enable unsubscribe via a foolproof subscription centre?
-created: 2014-10-16 21:47:17
+uri: do-you-enable-unsubscribe-via-a-foolproof-subscription-centre
+created: 2014-10-16T21:47:17.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

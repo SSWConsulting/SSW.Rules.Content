@@ -1,12 +1,13 @@
 ---
-uri: communication---are-you-always-candid-in-your-communication
+type: rule
 title: Communication - Are you always candid in your communication?
-created: 2012-09-25 17:51:38
+uri: communication---are-you-always-candid-in-your-communication
+created: 2012-09-25T17:51:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

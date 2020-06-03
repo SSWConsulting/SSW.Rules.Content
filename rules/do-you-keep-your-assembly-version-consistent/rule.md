@@ -1,14 +1,15 @@
 ---
-uri: do-you-keep-your-assembly-version-consistent
+type: rule
 title: Do you keep your Assembly Version Consistent?
-created: 2009-04-28 07:03:16
+uri: do-you-keep-your-assembly-version-consistent
+created: 2009-04-28T07:03:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

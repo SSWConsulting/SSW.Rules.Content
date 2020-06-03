@@ -1,14 +1,15 @@
 ---
-uri: do-you-reference-most-dlls-by-project
+type: rule
 title: Do you reference "most" .dlls by Project?
-created: 2009-04-28 03:36:16
+uri: do-you-reference-most-dlls-by-project
+created: 2009-04-28T03:36:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

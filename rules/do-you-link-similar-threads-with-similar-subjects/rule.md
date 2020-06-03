@@ -1,12 +1,13 @@
 ---
-uri: do-you-link-similar-threads-with-similar-subjects
+type: rule
 title: Do you link similar threads with similar subjects?
-created: 2015-02-03 17:45:17
+uri: do-you-link-similar-threads-with-similar-subjects
+created: 2015-02-03T17:45:17.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

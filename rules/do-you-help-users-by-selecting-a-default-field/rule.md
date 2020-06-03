@@ -1,11 +1,11 @@
 ---
-uri: do-you-help-users-by-selecting-a-default-field
+type: rule
 title: Do You Help Users By Selecting A Default Field
-created: 2012-04-19 04:31:18
-authors:
+uri: do-you-help-users-by-selecting-a-default-field
+created: 2012-04-19T04:31:18.0000000Z
+authors: []
 
 ---
-
 
 
 

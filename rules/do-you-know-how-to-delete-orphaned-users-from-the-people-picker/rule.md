@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-delete-orphaned-users-from-the-people-picker
+type: rule
 title: Do you know how to delete orphaned users from the People Picker?
-created: 2012-02-27 15:49:49
-authors:
+uri: do-you-know-how-to-delete-orphaned-users-from-the-people-picker
+created: 2012-02-27T15:49:49.0000000Z
+authors: []
 
 ---
-
 
 
 

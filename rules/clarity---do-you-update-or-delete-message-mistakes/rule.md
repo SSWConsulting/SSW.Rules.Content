@@ -1,12 +1,13 @@
 ---
-uri: clarity---do-you-update-or-delete-message-mistakes
+type: rule
 title: Clarity - Do you update or delete message mistakes?
-created: 2018-12-11 19:07:30
+uri: clarity---do-you-update-or-delete-message-mistakes
+created: 2018-12-11T19:07:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

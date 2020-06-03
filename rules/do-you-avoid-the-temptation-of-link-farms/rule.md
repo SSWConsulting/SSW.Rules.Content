@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-the-temptation-of-link-farms
+type: rule
 title: Do you avoid the temptation of link farms?
-created: 2015-11-10 18:43:00
+uri: do-you-avoid-the-temptation-of-link-farms
+created: 2015-11-10T18:43:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

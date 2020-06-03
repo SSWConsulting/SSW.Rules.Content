@@ -1,14 +1,15 @@
 ---
-uri: do-you-optimize-your-images-for-web
+type: rule
 title: Do you optimize your images for web?
-created: 2017-02-10 17:13:26
+uri: do-you-optimize-your-images-for-web
+created: 2017-02-10T17:13:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

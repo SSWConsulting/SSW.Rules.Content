@@ -1,12 +1,13 @@
 ---
-uri: search---do-you-fix-search-with-office-app-for-content-preview--on-premise-only
+type: rule
 title: Search - Do you fix search with Office App for content preview ? (on premise only)
-created: 2016-05-06 21:48:14
+uri: search---do-you-fix-search-with-office-app-for-content-preview--on-premise-only
+created: 2016-05-06T21:48:14.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

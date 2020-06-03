@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-which-packages-to-add-to-your-new-mvc-project
+type: rule
 title: Do You Know Which Packages To Add To Your New MVC Project?
-created: 2014-12-30 00:24:02
+uri: do-you-know-which-packages-to-add-to-your-new-mvc-project
+created: 2014-12-30T00:24:02.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
-  - id: 34
-    title: Brendan Richards
-  - id: 24
-    title: Adam Stephensen
----
+- id: 3
+  title: Eric Phan
+- id: 34
+  title: Brendan Richards
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

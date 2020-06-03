@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-get-the-sharepoint-version
+type: rule
 title: Do you know how to get the SharePoint version?
-created: 2013-09-10 06:58:12
+uri: do-you-know-how-to-get-the-sharepoint-version
+created: 2013-09-10T06:58:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

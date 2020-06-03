@@ -1,14 +1,15 @@
 ---
-uri: are-your-customizable-and-non-customizable-settings-in-different-files
+type: rule
 title: Are your customizable and non-customizable settings in different files?
-created: 2009-04-29 06:42:19
+uri: are-your-customizable-and-non-customizable-settings-in-different-files
+created: 2009-04-29T06:42:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

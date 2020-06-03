@@ -1,12 +1,13 @@
 ---
-uri: agreements---do-you-join-the-team-as-a-tester
+type: rule
 title: Agreements - Do You Join the Team as a Tester?
-created: 2012-05-01 04:53:37
+uri: agreements---do-you-join-the-team-as-a-tester
+created: 2012-05-01T04:53:37.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

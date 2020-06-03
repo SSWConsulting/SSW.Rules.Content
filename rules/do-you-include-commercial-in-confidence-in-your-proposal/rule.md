@@ -1,16 +1,17 @@
 ---
-uri: do-you-include-commercial-in-confidence-in-your-proposal
+type: rule
 title: Do you include "Commercial in confidence" in your proposal?
-created: 2019-08-21 22:15:43
+uri: do-you-include-commercial-in-confidence-in-your-proposal
+created: 2019-08-21T22:15:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

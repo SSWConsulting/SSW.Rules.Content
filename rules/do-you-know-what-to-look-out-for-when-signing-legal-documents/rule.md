@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-to-look-out-for-when-signing-legal-documents
+type: rule
 title: Do you know what to look out for when signing legal documents?
-created: 2009-03-17 07:20:16
+uri: do-you-know-what-to-look-out-for-when-signing-legal-documents
+created: 2009-03-17T07:20:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

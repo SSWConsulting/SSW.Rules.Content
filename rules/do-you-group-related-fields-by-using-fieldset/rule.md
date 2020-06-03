@@ -1,12 +1,13 @@
 ---
-uri: do-you-group-related-fields-by-using-fieldset
+type: rule
 title: Do you group related fields by using FieldSet?
-created: 2014-12-22 11:52:59
+uri: do-you-group-related-fields-by-using-fieldset
+created: 2014-12-22T11:52:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

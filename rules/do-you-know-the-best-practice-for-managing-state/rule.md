@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-practice-for-managing-state
+type: rule
 title: Do you know the best practice for managing state?
-created: 2017-08-15 23:35:06
+uri: do-you-know-the-best-practice-for-managing-state
+created: 2017-08-15T23:35:06.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

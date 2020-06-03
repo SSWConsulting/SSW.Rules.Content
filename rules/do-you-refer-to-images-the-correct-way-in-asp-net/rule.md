@@ -1,14 +1,15 @@
 ---
-uri: do-you-refer-to-images-the-correct-way-in-asp-net
+type: rule
 title: Do you refer to images the correct way in ASP .NET?
-created: 2009-04-28 02:35:45
+uri: do-you-refer-to-images-the-correct-way-in-asp-net
+created: 2009-04-28T02:35:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

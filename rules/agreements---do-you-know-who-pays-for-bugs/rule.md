@@ -1,11 +1,11 @@
 ---
-uri: agreements---do-you-know-who-pays-for-bugs
+type: rule
 title: Agreements - Do you know who pays for 'bugs'?
-created: 2010-05-20 10:30:33
-authors:
+uri: agreements---do-you-know-who-pays-for-bugs
+created: 2010-05-20T10:30:33.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-create-a-continuous-integration-build-for-the-solution
+type: rule
 title: Do you create a Continuous Integration Build for the Solution?
-created: 2013-02-06 18:49:06
+uri: do-you-create-a-continuous-integration-build-for-the-solution
+created: 2013-02-06T18:49:06.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

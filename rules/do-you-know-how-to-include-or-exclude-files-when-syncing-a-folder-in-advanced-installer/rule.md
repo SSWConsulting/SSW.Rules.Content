@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-include-or-exclude-files-when-syncing-a-folder-in-advanced-installer
+type: rule
 title: Do you know how to include or exclude files when syncing a folder in Advanced Installer?
-created: 2014-09-18 20:30:43
+uri: do-you-know-how-to-include-or-exclude-files-when-syncing-a-folder-in-advanced-installer
+created: 2014-09-18T20:30:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 46
-    title: Danijel Malik
----
+- id: 1
+  title: Adam Cogan
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

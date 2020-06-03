@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-a-few-slides-to-find-out-a-little-bit-about-who-is-in-your-audience
+type: rule
 title: Do you have a few slides to find out a little bit about who is in your audience?
-created: 2010-06-08 09:53:47
-authors:
+uri: do-you-have-a-few-slides-to-find-out-a-little-bit-about-who-is-in-your-audience
+created: 2010-06-08T09:53:47.0000000Z
+authors: []
 
 ---
-
 
 
 

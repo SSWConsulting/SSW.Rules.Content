@@ -1,12 +1,13 @@
 ---
-uri: the-war-room---does-your-scrum-room-have-the-best-scrum-image
+type: rule
 title: The War Room - Does your Scrum room have the best Scrum image?
-created: 2010-12-20 09:23:18
+uri: the-war-room---does-your-scrum-room-have-the-best-scrum-image
+created: 2010-12-20T09:23:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

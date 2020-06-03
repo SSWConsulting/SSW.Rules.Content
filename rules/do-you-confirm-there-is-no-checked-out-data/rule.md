@@ -1,16 +1,17 @@
 ---
-uri: do-you-confirm-there-is-no-checked-out-data
+type: rule
 title: Do you confirm there is no checked out data?
-created: 2012-05-31 03:08:59
+uri: do-you-confirm-there-is-no-checked-out-data
+created: 2012-05-31T03:08:59.0000000Z
 authors:
-  - id: 70
-    title: Greg Harris
-  - id: 1
-    title: Adam Cogan
-  - id: 9
-    title: William Yin
----
+- id: 70
+  title: Greg Harris
+- id: 1
+  title: Adam Cogan
+- id: 9
+  title: William Yin
 
+---
 
 
 

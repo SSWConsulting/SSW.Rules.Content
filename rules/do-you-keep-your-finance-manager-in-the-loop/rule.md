@@ -1,11 +1,11 @@
 ---
-uri: do-you-keep-your-finance-manager-in-the-loop
+type: rule
 title: Do you keep your finance manager in the loop?
-created: 2015-04-28 05:13:51
-authors:
+uri: do-you-keep-your-finance-manager-in-the-loop
+created: 2015-04-28T05:13:51.0000000Z
+authors: []
 
 ---
-
 
 
 

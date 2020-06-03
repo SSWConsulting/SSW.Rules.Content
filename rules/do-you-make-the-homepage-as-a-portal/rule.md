@@ -1,11 +1,11 @@
 ---
-uri: do-you-make-the-homepage-as-a-portal
+type: rule
 title: Do you make the homepage as a portal?
-created: 2012-11-27 02:00:58
-authors:
+uri: do-you-make-the-homepage-as-a-portal
+created: 2012-11-27T02:00:58.0000000Z
+authors: []
 
 ---
-
 
 
 

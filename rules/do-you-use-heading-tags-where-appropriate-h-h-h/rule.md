@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-heading-tags-where-appropriate-h-h-h
+type: rule
 title: Do you use heading tags where appropriate (H1, H2, H3...)?
-created: 2016-08-05 17:30:06
+uri: do-you-use-heading-tags-where-appropriate-h-h-h
+created: 2016-08-05T17:30:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-name-your-builds
+type: rule
 title: Do you know how to name your builds?
-created: 2015-11-02 10:44:59
+uri: do-you-know-how-to-name-your-builds
+created: 2015-11-02T10:44:59.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-what-is-broken-in-workflow
+type: rule
 title: Do you know what is broken in workflow?
-created: 2009-06-16 01:59:00
+uri: do-you-know-what-is-broken-in-workflow
+created: 2009-06-16T01:59:00.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

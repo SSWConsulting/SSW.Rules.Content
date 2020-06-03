@@ -1,14 +1,15 @@
 ---
-uri: before-starting-do-you-follow-a-test-driven-process
+type: rule
 title: (Before starting) Do you follow a Test Driven Process?
-created: 2011-11-18 03:52:57
+uri: before-starting-do-you-follow-a-test-driven-process
+created: 2011-11-18T03:52:57.0000000Z
 authors:
-  - id: 5
-    title: Justin King
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 5
+  title: Justin King
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: dbas---do-you-script-out-all-changes
+type: rule
 title: ​DBAs - Do you script out all changes?
-created: 2019-11-18 19:21:18
+uri: dbas---do-you-script-out-all-changes
+created: 2019-11-18T19:21:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

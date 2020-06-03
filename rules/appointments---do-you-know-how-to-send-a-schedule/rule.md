@@ -1,14 +1,15 @@
 ---
-uri: appointments---do-you-know-how-to-send-a-schedule
+type: rule
 title: Appointments - Do you know how to send a schedule?
-created: 2015-06-05 08:07:09
+uri: appointments---do-you-know-how-to-send-a-schedule
+created: 2015-06-05T08:07:09.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 36
-    title: Daniel Šmon
----
+- id: 1
+  title: Adam Cogan
+- id: 36
+  title: Daniel Šmon
 
+---
 
 
 

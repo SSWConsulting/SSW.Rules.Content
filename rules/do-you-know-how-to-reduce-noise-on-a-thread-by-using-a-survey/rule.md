@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
+type: rule
 title: Do you know how to reduce noise on a thread by using a survey?
-created: 2015-07-03 07:30:13
+uri: do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
+created: 2015-07-03T07:30:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 41
-    title: Joanna Feely
----
+- id: 1
+  title: Adam Cogan
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

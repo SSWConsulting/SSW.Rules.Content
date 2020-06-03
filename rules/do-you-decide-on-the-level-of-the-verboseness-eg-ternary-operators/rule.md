@@ -1,14 +1,15 @@
 ---
-uri: do-you-decide-on-the-level-of-the-verboseness-eg-ternary-operators
+type: rule
 title: Do you decide on the level of the verboseness? E.g. ternary operators
-created: 2012-04-01 09:20:06
+uri: do-you-decide-on-the-level-of-the-verboseness-eg-ternary-operators
+created: 2012-04-01T09:20:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

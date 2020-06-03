@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-where-your-goal-posts-are
+type: rule
 title: Do you know where your goal posts are?
-created: 2016-04-28 17:51:02
+uri: do-you-know-where-your-goal-posts-are
+created: 2016-04-28T17:51:02.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
-  - id: 34
-    title: Brendan Richards
----
+- id: 3
+  title: Eric Phan
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

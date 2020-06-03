@@ -1,11 +1,11 @@
 ---
-uri: help---do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
+type: rule
 title: Help - Do you help users when they get errors by directing them to a wiki or KB?
-created: 2012-11-27 02:11:48
-authors:
+uri: help---do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
+created: 2012-11-27T02:11:48.0000000Z
+authors: []
 
 ---
-
 
 
 

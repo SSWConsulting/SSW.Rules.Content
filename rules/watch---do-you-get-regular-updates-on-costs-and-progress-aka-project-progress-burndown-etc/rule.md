@@ -1,12 +1,13 @@
 ---
-uri: watch---do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc
+type: rule
 title: Watch - Do You Get Regular Updates on Costs and Progress (aka Project Progress, Burndown, etc.)?
-created: 2010-05-20 10:48:01
+uri: watch---do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc
+created: 2010-05-20T10:48:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

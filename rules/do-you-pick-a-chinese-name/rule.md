@@ -1,12 +1,13 @@
 ---
-uri: do-you-pick-a-chinese-name
+type: rule
 title: Do you pick a Chinese name?
-created: 2019-06-19 22:30:16
+uri: do-you-pick-a-chinese-name
+created: 2019-06-19T22:30:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

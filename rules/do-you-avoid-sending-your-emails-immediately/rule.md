@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-sending-your-emails-immediately
+type: rule
 title: Do you avoid sending your emails immediately?
-created: 2009-04-03 02:51:28
+uri: do-you-avoid-sending-your-emails-immediately
+created: 2009-04-03T02:51:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

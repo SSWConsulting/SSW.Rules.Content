@@ -1,11 +1,11 @@
 ---
-uri: messages---do-you-know-how-to-put-the-technical-info--description
+type: rule
 title: Messages - Do you know how to put the technical info? (2/3 Description)
-created: 2012-11-27 04:36:22
-authors:
+uri: messages---do-you-know-how-to-put-the-technical-info--description
+created: 2012-11-27T04:36:22.0000000Z
+authors: []
 
 ---
-
 
 
 

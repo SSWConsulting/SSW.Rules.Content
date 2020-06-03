@@ -1,12 +1,13 @@
 ---
-uri: do-you-monitor-failed-login-attempts
+type: rule
 title: Do you monitor failed login attempts?
-created: 2019-07-24 20:54:14
+uri: do-you-monitor-failed-login-attempts
+created: 2019-07-24T20:54:14.0000000Z
 authors:
-  - id: 71
-    title: Steven Andrews
----
+- id: 71
+  title: Steven Andrews
 
+---
 
 
 

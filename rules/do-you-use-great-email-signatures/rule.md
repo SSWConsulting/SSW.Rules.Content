@@ -1,18 +1,19 @@
 ---
-uri: do-you-use-great-email-signatures
+type: rule
 title: Do you use great email signatures?
-created: 2015-11-02 20:01:33
+uri: do-you-use-great-email-signatures
+created: 2015-11-02T20:01:33.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 20
-    title: Rebecca Liu
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 4
+  title: Ulysses Maclaren
+- id: 20
+  title: Rebecca Liu
 
+---
 
 
 

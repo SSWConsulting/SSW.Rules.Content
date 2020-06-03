@@ -1,11 +1,11 @@
 ---
-uri: do-you-prefix-your-images-appropriately
+type: rule
 title: Do you prefix your images appropriately?
-created: 2015-10-13 00:37:27
-authors:
+uri: do-you-prefix-your-images-appropriately
+created: 2015-10-13T00:37:27.0000000Z
+authors: []
 
 ---
-
 
 
 

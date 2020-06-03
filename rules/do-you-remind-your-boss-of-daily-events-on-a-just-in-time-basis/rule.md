@@ -1,12 +1,13 @@
 ---
-uri: do-you-remind-your-boss-of-daily-events-on-a-just-in-time-basis
+type: rule
 title: Do you remind your boss of daily events on a "just in time" basis?
-created: 2013-07-30 21:20:40
+uri: do-you-remind-your-boss-of-daily-events-on-a-just-in-time-basis
+created: 2013-07-30T21:20:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

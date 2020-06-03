@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-use-ad-extensions-on-google-ads
+type: rule
 title: Do you know how to use Ad Extensions on Google Ads?
-created: 2019-03-26 20:54:51
+uri: do-you-know-how-to-use-ad-extensions-on-google-ads
+created: 2019-03-26T20:54:51.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

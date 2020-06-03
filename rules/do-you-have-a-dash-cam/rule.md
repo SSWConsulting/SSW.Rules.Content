@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-dash-cam
+type: rule
 title: Do you have a dash cam?
-created: 2013-03-13 20:38:36
+uri: do-you-have-a-dash-cam
+created: 2013-03-13T20:38:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

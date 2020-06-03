@@ -1,12 +1,13 @@
 ---
-uri: do-you-stop-editing-when-you-see-read-only
+type: rule
 title: Do you stop editing, when you see “Read Only”?
-created: 2011-06-22 03:27:28
+uri: do-you-stop-editing-when-you-see-read-only
+created: 2011-06-22T03:27:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

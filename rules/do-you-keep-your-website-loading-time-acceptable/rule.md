@@ -1,14 +1,15 @@
 ---
-uri: do-you-keep-your-website-loading-time-acceptable
+type: rule
 title: Do you keep your website loading time acceptable?
-created: 2014-09-03 19:52:02
+uri: do-you-keep-your-website-loading-time-acceptable
+created: 2014-09-03T19:52:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

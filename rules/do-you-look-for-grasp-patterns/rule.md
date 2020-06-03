@@ -1,14 +1,15 @@
 ---
-uri: do-you-look-for-grasp-patterns
+type: rule
 title: Do you look for GRASP Patterns?
-created: 2012-04-01 09:35:53
+uri: do-you-look-for-grasp-patterns
+created: 2012-04-01T09:35:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

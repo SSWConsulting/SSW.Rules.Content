@@ -1,14 +1,15 @@
 ---
-uri: communication---do-you-know-how-to-take-feedbackcriticism-even-if-its-not-your-fault
+type: rule
 title: Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?
-created: 2013-04-08 20:28:20
+uri: communication---do-you-know-how-to-take-feedbackcriticism-even-if-its-not-your-fault
+created: 2013-04-08T20:28:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: interruptions---do-you-minimize-microsoft-teams-distractions
+type: rule
 title: Interruptions - Do you minimize Microsoft Teams distractions?
-created: 2017-10-13 01:52:21
+uri: interruptions---do-you-minimize-microsoft-teams-distractions
+created: 2017-10-13T01:52:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 63
-    title: Andrew Lean
----
+- id: 1
+  title: Adam Cogan
+- id: 63
+  title: Andrew Lean
 
+---
 
 
 

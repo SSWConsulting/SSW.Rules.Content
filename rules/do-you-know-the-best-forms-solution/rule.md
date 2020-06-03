@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-forms-solution
+type: rule
 title: Do you know the best forms solution?
-created: 2017-09-15 19:46:24
+uri: do-you-know-the-best-forms-solution
+created: 2017-09-15T19:46:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

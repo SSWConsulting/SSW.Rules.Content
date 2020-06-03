@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-nuget
+type: rule
 title: Do you use NuGet?
-created: 2012-07-23 14:35:54
+uri: do-you-use-nuget
+created: 2012-07-23T14:35:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 24
-    title: Adam Stephensen
----
+- id: 1
+  title: Adam Cogan
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

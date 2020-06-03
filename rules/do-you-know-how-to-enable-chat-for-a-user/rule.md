@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-enable-chat-for-a-user
+type: rule
 title: Do you know how to enable chat for a user?
-created: 2017-06-19 22:33:52
+uri: do-you-know-how-to-enable-chat-for-a-user
+created: 2017-06-19T22:33:52.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

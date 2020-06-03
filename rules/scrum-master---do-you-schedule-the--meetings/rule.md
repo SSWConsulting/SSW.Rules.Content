@@ -1,16 +1,17 @@
 ---
-uri: scrum-master---do-you-schedule-the--meetings
+type: rule
 title: Scrum Master - Do you schedule the 3 meetings?
-created: 2010-05-06 05:41:54
+uri: scrum-master---do-you-schedule-the--meetings
+created: 2010-05-06T05:41:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 33
-    title: Gerard Beckerleg
-  - id: 78
-    title: Matt Wicks
----
+- id: 1
+  title: Adam Cogan
+- id: 33
+  title: Gerard Beckerleg
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

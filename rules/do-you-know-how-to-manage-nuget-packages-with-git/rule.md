@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-manage-nuget-packages-with-git
+type: rule
 title: Do you know how to manage NuGet packages with Git?
-created: 2014-10-23 04:30:48
+uri: do-you-know-how-to-manage-nuget-packages-with-git
+created: 2014-10-23T04:30:48.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 44
-    title: Duncan Hunter
----
+- id: 38
+  title: Drew Robson
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

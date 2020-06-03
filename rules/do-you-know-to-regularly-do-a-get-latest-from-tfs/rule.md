@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-regularly-do-a-get-latest-from-tfs
+type: rule
 title: Do you know to regularly do a Get Latest from TFS?
-created: 2012-03-05 23:43:02
+uri: do-you-know-to-regularly-do-a-get-latest-from-tfs
+created: 2012-03-05T23:43:02.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

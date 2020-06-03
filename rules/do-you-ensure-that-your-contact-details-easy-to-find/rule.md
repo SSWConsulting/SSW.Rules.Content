@@ -1,11 +1,11 @@
 ---
-uri: do-you-ensure-that-your-contact-details-easy-to-find
+type: rule
 title: Do you ensure that your contact details easy to find?
-created: 2015-02-13 01:08:16
-authors:
+uri: do-you-ensure-that-your-contact-details-easy-to-find
+created: 2015-02-13T01:08:16.0000000Z
+authors: []
 
 ---
-
 
 
 

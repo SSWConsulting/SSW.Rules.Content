@@ -1,12 +1,13 @@
 ---
-uri: when-do-you-use-silverlight
+type: rule
 title: When do you use Silverlight?
-created: 2011-06-22 04:51:27
+uri: when-do-you-use-silverlight
+created: 2011-06-22T04:51:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-the-common-design-patterns-part-
+type: rule
 title: Do you know the common Design Patterns? (Part 1)
-created: 2012-04-02 04:44:06
+uri: do-you-know-the-common-design-patterns-part-
+created: 2012-04-02T04:44:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 24
-    title: Adam Stephensen
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 24
+  title: Adam Stephensen
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

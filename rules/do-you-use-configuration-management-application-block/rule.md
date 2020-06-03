@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-configuration-management-application-block
+type: rule
 title: Do you use configuration management application block?
-created: 2009-04-29 04:40:53
+uri: do-you-use-configuration-management-application-block
+created: 2009-04-29T04:40:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

@@ -1,16 +1,17 @@
 ---
-uri: communication---do-you-go-beyond-text-when-using-teamszoomskype-chat
+type: rule
 title: Communication - Do you go beyond text when using Teams/Zoom/Skype chat?
-created: 2014-04-14 08:08:47
+uri: communication---do-you-go-beyond-text-when-using-teamszoomskype-chat
+created: 2014-04-14T08:08:47.0000000Z
 authors:
-  - id: 50
-    title: Martin Li
-  - id: 9
-    title: William Yin
-  - id: 16
-    title: Tiago Araujo
----
+- id: 50
+  title: Martin Li
+- id: 9
+  title: William Yin
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
+type: rule
 title: Do you avoid "Recall this message..." by not sending emails imediatelly?
-created: 2013-04-01 14:19:27
+uri: do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
+created: 2013-04-01T14:19:27.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
-  - id: 1
-    title: Adam Cogan
----
+- id: 16
+  title: Tiago Araujo
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

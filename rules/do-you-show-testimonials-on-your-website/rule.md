@@ -1,12 +1,13 @@
 ---
-uri: do-you-show-testimonials-on-your-website
+type: rule
 title: Do you show testimonials on your website?
-created: 2015-02-13 01:30:19
+uri: do-you-show-testimonials-on-your-website
+created: 2015-02-13T01:30:19.0000000Z
 authors:
-  - id: 20
-    title: Rebecca Liu
----
+- id: 20
+  title: Rebecca Liu
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-share-a-private-link-of-a-draft-post
+type: rule
 title: Do you know how to share a private link of a draft post?
-created: 2012-10-04 17:38:57
+uri: do-you-know-how-to-share-a-private-link-of-a-draft-post
+created: 2012-10-04T17:38:57.0000000Z
 authors:
-  - id: 29
-    title: Raj Dhatt
----
+- id: 29
+  title: Raj Dhatt
 
+---
 
 
 

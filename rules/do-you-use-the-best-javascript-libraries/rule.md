@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-the-best-javascript-libraries
+type: rule
 title: Do you use the best JavaScript libraries?
-created: 2015-05-05 18:58:26
+uri: do-you-use-the-best-javascript-libraries
+created: 2015-05-05T18:58:26.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
-  - id: 44
-    title: Duncan Hunter
----
+- id: 37
+  title: Ben Cull
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

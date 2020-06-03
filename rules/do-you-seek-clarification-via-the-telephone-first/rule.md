@@ -1,14 +1,15 @@
 ---
-uri: do-you-seek-clarification-via-the-telephone-first
+type: rule
 title: Do you seek clarification via the telephone first?
-created: 2009-03-25 05:31:48
+uri: do-you-seek-clarification-via-the-telephone-first
+created: 2009-03-25T05:31:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

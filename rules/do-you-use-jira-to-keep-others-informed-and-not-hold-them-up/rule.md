@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-jira-to-keep-others-informed-and-not-hold-them-up
+type: rule
 title: Do you use Jira to keep others informed and not hold them up?
-created: 2009-12-04 09:27:06
-authors:
+uri: do-you-use-jira-to-keep-others-informed-and-not-hold-them-up
+created: 2009-12-04T09:27:06.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: zzdo-you-provide-ux-details-when-reporting-a-bug
+type: rule
 title: zzDo you provide UX details when reporting a bug?
-created: 2012-03-27 18:17:10
+uri: zzdo-you-provide-ux-details-when-reporting-a-bug
+created: 2012-03-27T18:17:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

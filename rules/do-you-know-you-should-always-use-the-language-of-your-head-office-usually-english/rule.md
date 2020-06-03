@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
+type: rule
 title: Do you know you should always use the language of your head office? (usually English)
-created: 2013-04-01 04:14:41
+uri: do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
+created: 2013-04-01T04:14:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 9
-    title: William Yin
----
+- id: 1
+  title: Adam Cogan
+- id: 9
+  title: William Yin
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: interruptions---do-you-investigate-your-question-for--minutes-before-asking-someone-on-im
+type: rule
 title: Interruptions - Do you investigate your question for 2 minutes before asking someone on IM?
-created: 2015-10-05 05:42:39
+uri: interruptions---do-you-investigate-your-question-for--minutes-before-asking-someone-on-im
+created: 2015-10-05T05:42:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

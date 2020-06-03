@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-create-mail-merge-template-in-microsoft-crm-
+type: rule
 title: Do you know how to create mail merge template in Microsoft CRM 2016?
-created: 2013-03-13 18:52:17
+uri: do-you-know-how-to-create-mail-merge-template-in-microsoft-crm-
+created: 2013-03-13T18:52:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

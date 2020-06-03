@@ -1,20 +1,21 @@
 ---
-uri: do-you-make-awesome-documentation
+type: rule
 title: Do you make awesome documentation?
-created: 2012-03-16 08:01:26
+uri: do-you-make-awesome-documentation
+created: 2012-03-16T08:01:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 3
-    title: Eric Phan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 24
-    title: Adam Stephensen
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 3
+  title: Eric Phan
+- id: 4
+  title: Ulysses Maclaren
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-dynamics--app-for-outlook
+type: rule
 title: Do you use Dynamics 365 App for Outlook?
-created: 2017-07-05 05:21:31
-authors:
+uri: do-you-use-dynamics--app-for-outlook
+created: 2017-07-05T05:21:31.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-expose-events-as-events
+type: rule
 title: Do you expose events as events?
-created: 2018-04-30 19:30:42
+uri: do-you-expose-events-as-events
+created: 2018-04-30T19:30:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

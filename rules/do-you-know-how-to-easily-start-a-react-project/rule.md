@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-easily-start-a-react-project
+type: rule
 title: Do you know how to easily start a React project?
-created: 2019-04-29 20:17:31
+uri: do-you-know-how-to-easily-start-a-react-project
+created: 2019-04-29T20:17:31.0000000Z
 authors:
-  - id: 80
-    title: Shane Ye
----
+- id: 80
+  title: Shane Ye
 
+---
 
 
 

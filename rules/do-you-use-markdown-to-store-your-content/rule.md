@@ -1,20 +1,21 @@
 ---
-uri: do-you-use-markdown-to-store-your-content
+type: rule
 title: Do you use Markdown to store your content?
-created: 2018-11-29 17:36:52
+uri: do-you-use-markdown-to-store-your-content
+created: 2018-11-29T17:36:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 53
-    title: Thiago Passos
-  - id: 89
-    title: Anthony Ison
-  - id: 84
-    title: Patricia Barros
-  - id: 72
-    title: Gabriel George
----
+- id: 1
+  title: Adam Cogan
+- id: 53
+  title: Thiago Passos
+- id: 89
+  title: Anthony Ison
+- id: 84
+  title: Patricia Barros
+- id: 72
+  title: Gabriel George
 
+---
 
 
 

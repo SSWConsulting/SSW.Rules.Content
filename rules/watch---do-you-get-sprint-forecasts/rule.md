@@ -1,12 +1,13 @@
 ---
-uri: watch---do-you-get-sprint-forecasts
+type: rule
 title: Watch - Do You Get Sprint Forecasts?
-created: 2012-05-01 05:03:24
+uri: watch---do-you-get-sprint-forecasts
+created: 2012-05-01T05:03:24.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-create-bcs-connections-to-all-your-line-of-business-lob-applications
+type: rule
 title: Do you create BCS connections to all your line of business (LOB) applications?
-created: 2009-12-15 08:38:28
+uri: do-you-create-bcs-connections-to-all-your-line-of-business-lob-applications
+created: 2009-12-15T08:38:28.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

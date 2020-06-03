@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-booking-better-flights-within-australia
+type: rule
 title: Do you know how to booking better flights within Australia?
-created: 2015-04-28 05:02:18
-authors:
+uri: do-you-know-how-to-booking-better-flights-within-australia
+created: 2015-04-28T05:02:18.0000000Z
+authors: []
 
 ---
-
 
 
 

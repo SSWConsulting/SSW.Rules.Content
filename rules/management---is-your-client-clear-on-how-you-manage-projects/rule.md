@@ -1,12 +1,13 @@
 ---
-uri: management---is-your-client-clear-on-how-you-manage-projects
+type: rule
 title: Management - Is your client clear on how you manage projects?
-created: 2009-02-28 09:44:08
+uri: management---is-your-client-clear-on-how-you-manage-projects
+created: 2009-02-28T09:44:08.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-upgrade-crm--to-
+type: rule
 title: Do you know how to upgrade CRM 2015 to 2016
-created: 2016-01-22 04:02:32
-authors:
+uri: do-you-know-how-to-upgrade-crm--to-
+created: 2016-01-22T04:02:32.0000000Z
+authors: []
 
 ---
-
 
 
 

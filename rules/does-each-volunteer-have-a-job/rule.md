@@ -1,11 +1,11 @@
 ---
-uri: does-each-volunteer-have-a-job
+type: rule
 title: Does each volunteer have a job?
-created: 2014-12-31 00:32:52
-authors:
+uri: does-each-volunteer-have-a-job
+created: 2014-12-31T00:32:52.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-using-images-in-your-email-signatures
+type: rule
 title: Do you avoid using images in your email signatures?
-created: 2009-03-26 03:24:55
+uri: do-you-avoid-using-images-in-your-email-signatures
+created: 2009-03-26T03:24:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

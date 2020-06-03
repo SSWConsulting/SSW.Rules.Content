@@ -1,18 +1,19 @@
 ---
-uri: do-you-do-exploratory-testing
+type: rule
 title: Do you do exploratory testing?
-created: 2015-12-17 04:41:54
+uri: do-you-do-exploratory-testing
+created: 2015-12-17T04:41:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 44
-    title: Duncan Hunter
-  - id: 3
-    title: Eric Phan
-  - id: 24
-    title: Adam Stephensen
----
+- id: 1
+  title: Adam Cogan
+- id: 44
+  title: Duncan Hunter
+- id: 3
+  title: Eric Phan
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

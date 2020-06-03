@@ -1,11 +1,11 @@
 ---
-uri: have-you-got-an-adequate-budget
+type: rule
 title: Have you got an adequate budget?
-created: 2014-12-31 00:13:48
-authors:
+uri: have-you-got-an-adequate-budget
+created: 2014-12-31T00:13:48.0000000Z
+authors: []
 
 ---
-
 
 
 

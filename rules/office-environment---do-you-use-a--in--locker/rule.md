@@ -1,12 +1,13 @@
 ---
-uri: office-environment---do-you-use-a--in--locker
+type: rule
 title: Office environment - Do you use a 2-in-1 locker?
-created: 2015-09-23 18:00:29
+uri: office-environment---do-you-use-a--in--locker
+created: 2015-09-23T18:00:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

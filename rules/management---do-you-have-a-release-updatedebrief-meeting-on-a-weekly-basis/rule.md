@@ -1,12 +1,13 @@
 ---
-uri: management---do-you-have-a-release-updatedebrief-meeting-on-a-weekly-basis
+type: rule
 title: Management - Do you have a "Release Update/Debrief Meeting" on a weekly basis?
-created: 2009-02-28 09:44:38
+uri: management---do-you-have-a-release-updatedebrief-meeting-on-a-weekly-basis
+created: 2009-02-28T09:44:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: never-dispose-objects-from-spcontextcurrent
+type: rule
 title: Never Dispose Objects from SPContext.Current
-created: 2013-08-29 00:36:26
+uri: never-dispose-objects-from-spcontextcurrent
+created: 2013-08-29T00:36:26.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 34
-    title: Brendan Richards
----
+- id: 9
+  title: William Yin
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

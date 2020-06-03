@@ -1,12 +1,13 @@
 ---
-uri: do-you-install-sharepoint-designer-when-using-a-sharepoint-vhd
+type: rule
 title: Do you install SharePoint Designer when using a SharePoint VHD?
-created: 2011-04-13 06:14:43
+uri: do-you-install-sharepoint-designer-when-using-a-sharepoint-vhd
+created: 2011-04-13T06:14:43.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

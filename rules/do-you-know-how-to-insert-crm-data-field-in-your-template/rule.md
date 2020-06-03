@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-insert-crm-data-field-in-your-template
+type: rule
 title: Do you know how to insert CRM data field in your template?
-created: 2013-03-13 19:26:51
+uri: do-you-know-how-to-insert-crm-data-field-in-your-template
+created: 2013-03-13T19:26:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

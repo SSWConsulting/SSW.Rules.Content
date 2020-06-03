@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-be-a-good-product-owner
+type: rule
 title: Do you know how to be a good Product Owner?
-created: 2013-06-03 20:04:21
+uri: do-you-know-how-to-be-a-good-product-owner
+created: 2013-06-03T20:04:21.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

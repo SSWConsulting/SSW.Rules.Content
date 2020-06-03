@@ -1,12 +1,13 @@
 ---
-uri: project-planning---do-you-download-a-copy-of-the-microsoft-crm-implementation-guide
+type: rule
 title: Project Planning - Do you download a copy of the Microsoft CRM Implementation Guide?
-created: 2012-12-10 17:25:20
+uri: project-planning---do-you-download-a-copy-of-the-microsoft-crm-implementation-guide
+created: 2012-12-10T17:25:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

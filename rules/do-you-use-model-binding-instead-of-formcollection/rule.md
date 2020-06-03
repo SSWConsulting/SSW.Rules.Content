@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-model-binding-instead-of-formcollection
+type: rule
 title: Do you use Model Binding instead of FormCollection?
-created: 2013-03-07 18:16:24
+uri: do-you-use-model-binding-instead-of-formcollection
+created: 2013-03-07T18:16:24.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-preflight-checklist
+type: rule
 title: Do you have a Preflight Checklist?
-created: 2015-11-01 21:13:26
+uri: do-you-have-a-preflight-checklist
+created: 2015-11-01T21:13:26.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

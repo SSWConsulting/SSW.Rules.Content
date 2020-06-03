@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-right-way-to-report-bugs-and-give-feedbacksuggestions
+type: rule
 title: Do you know the right way to report bugs and give feedback/suggestions?
-created: 2009-03-25 04:53:21
+uri: do-you-know-the-right-way-to-report-bugs-and-give-feedbacksuggestions
+created: 2009-03-25T04:53:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

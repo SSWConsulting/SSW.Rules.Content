@@ -1,11 +1,11 @@
 ---
-uri: do-you-contact-your-clients-using-lyncskype
+type: rule
 title: Do you contact your clients using Lync/Skype?
-created: 2010-07-16 06:46:49
-authors:
+uri: do-you-contact-your-clients-using-lyncskype
+created: 2010-07-16T06:46:49.0000000Z
+authors: []
 
 ---
-
 
 
 

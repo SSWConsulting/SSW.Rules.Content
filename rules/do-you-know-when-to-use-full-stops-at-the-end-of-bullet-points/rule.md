@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
+type: rule
 title: Do you know when to use full stops at the end of bullet points?
-created: 2015-02-16 02:55:34
-authors:
+uri: do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
+created: 2015-02-16T02:55:34.0000000Z
+authors: []
 
 ---
-
 
 
 

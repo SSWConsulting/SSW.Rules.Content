@@ -1,12 +1,13 @@
 ---
-uri: do-you-make-sure-you-get-brownie-points
+type: rule
 title: Do you make sure you get brownie points?
-created: 2010-07-16 06:39:45
+uri: do-you-make-sure-you-get-brownie-points
+created: 2010-07-16T06:39:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

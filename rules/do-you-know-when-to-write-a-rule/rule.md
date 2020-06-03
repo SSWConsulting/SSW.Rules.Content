@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-to-write-a-rule
+type: rule
 title: Do you know when to write a rule?
-created: 2010-03-18 08:00:54
+uri: do-you-know-when-to-write-a-rule
+created: 2010-03-18T08:00:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

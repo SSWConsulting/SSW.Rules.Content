@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-your-agility-index
+type: rule
 title: Do you know your agility index?
-created: 2011-08-25 14:18:38
+uri: do-you-know-your-agility-index
+created: 2011-08-25T14:18:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

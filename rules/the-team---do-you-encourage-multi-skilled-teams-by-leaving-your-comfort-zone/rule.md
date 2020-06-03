@@ -1,11 +1,11 @@
 ---
-uri: the-team---do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
+type: rule
 title: The Team - Do you encourage multi-skilled teams by leaving your comfort zone?
-created: 2010-04-08 04:28:36
-authors:
+uri: the-team---do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
+created: 2010-04-08T04:28:36.0000000Z
+authors: []
 
 ---
-
 
 
 

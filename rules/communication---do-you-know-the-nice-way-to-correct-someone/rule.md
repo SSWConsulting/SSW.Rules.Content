@@ -1,14 +1,15 @@
 ---
-uri: communication---do-you-know-the-nice-way-to-correct-someone
+type: rule
 title: Communication - Do you know the nice way to correct someone?
-created: 2012-09-25 17:55:02
+uri: communication---do-you-know-the-nice-way-to-correct-someone
+created: 2012-09-25T17:55:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

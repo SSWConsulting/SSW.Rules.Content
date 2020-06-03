@@ -1,12 +1,13 @@
 ---
-uri: setup---do-you-have-a-dedicated-working-space
+type: rule
 title: Setup - Do you have a dedicated working space?
-created: 2020-03-20 01:31:43
+uri: setup---do-you-have-a-dedicated-working-space
+created: 2020-03-20T01:31:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

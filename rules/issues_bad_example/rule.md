@@ -1,12 +1,13 @@
 ---
-uri: issues_bad_example
+type: rule
 title: issues_bad_example
-created: 2019-11-15 05:36:53
+uri: issues_bad_example
+created: 2019-11-15T05:36:53.0000000Z
 authors:
-  - id: 87
-    title: Andreas Lengkeek
----
+- id: 87
+  title: Andreas Lengkeek
 
+---
 
 
 

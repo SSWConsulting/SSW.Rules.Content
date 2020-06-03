@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-clear-engagement-models
+type: rule
 title: Do you have clear Engagement Models?
-created: 2012-03-22 19:28:37
-authors:
+uri: do-you-have-clear-engagement-models
+created: 2012-03-22T19:28:37.0000000Z
+authors: []
 
 ---
-
 
 
 

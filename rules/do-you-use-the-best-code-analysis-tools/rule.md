@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-the-best-code-analysis-tools
+type: rule
 title: Do you use the best Code Analysis tools?
-created: 2012-03-16 08:43:44
+uri: do-you-use-the-best-code-analysis-tools
+created: 2012-03-16T08:43:44.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

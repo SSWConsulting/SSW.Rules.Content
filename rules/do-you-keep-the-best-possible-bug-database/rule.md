@@ -1,12 +1,13 @@
 ---
-uri: do-you-keep-the-best-possible-bug-database
+type: rule
 title: Do you keep the best possible bug database?
-created: 2009-02-28 09:44:02
+uri: do-you-keep-the-best-possible-bug-database
+created: 2009-02-28T09:44:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: agreements---do-you-use--or--week-sprints
+type: rule
 title: Agreements - Do you use 1 or 2 week sprints?
-created: 2012-05-01 02:16:06
+uri: agreements---do-you-use--or--week-sprints
+created: 2012-05-01T02:16:06.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

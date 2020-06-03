@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-duplicating-content
+type: rule
 title: Do you avoid duplicating content?
-created: 2014-10-23 19:00:21
+uri: do-you-avoid-duplicating-content
+created: 2014-10-23T19:00:21.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

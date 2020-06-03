@@ -1,14 +1,15 @@
 ---
-uri: do-you-unsubscribe-from-irrelevant-newsletters
+type: rule
 title: Do you unsubscribe from irrelevant newsletters?
-created: 2009-04-03 08:08:25
+uri: do-you-unsubscribe-from-irrelevant-newsletters
+created: 2009-04-03T08:08:25.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

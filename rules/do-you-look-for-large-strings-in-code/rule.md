@@ -1,14 +1,15 @@
 ---
-uri: do-you-look-for-large-strings-in-code
+type: rule
 title: Do you look for large strings in code?
-created: 2012-04-01 09:17:55
+uri: do-you-look-for-large-strings-in-code
+created: 2012-04-01T09:17:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

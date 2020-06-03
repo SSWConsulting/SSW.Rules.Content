@@ -1,12 +1,13 @@
 ---
-uri: customization---do-you-enable-your-contacts-to-have-more-than-the-default--email-addresses-and-phone-numbers
+type: rule
 title: Customization - Do you enable your contacts to have more than the default 3 email addresses and phone numbers?
-created: 2012-12-10 20:02:07
+uri: customization---do-you-enable-your-contacts-to-have-more-than-the-default--email-addresses-and-phone-numbers
+created: 2012-12-10T20:02:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: production---do-you-create-a-quiz-immediately-following-production
+type: rule
 title: Production - Do You Create a Quiz Immediately Following Production?
-created: 2013-07-10 00:02:21
-authors:
+uri: production---do-you-create-a-quiz-immediately-following-production
+created: 2013-07-10T00:02:21.0000000Z
+authors: []
 
 ---
-
 
 
 

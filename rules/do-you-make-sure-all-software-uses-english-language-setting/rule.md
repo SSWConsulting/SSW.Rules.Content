@@ -1,16 +1,17 @@
 ---
-uri: do-you-make-sure-all-software-uses-english-language-setting
+type: rule
 title: Do you make sure all software uses English (Language setting)?
-created: 2016-03-22 06:16:19
+uri: do-you-make-sure-all-software-uses-english-language-setting
+created: 2016-03-22T06:16:19.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 1
-    title: Adam Cogan
-  - id: 73
-    title: Kaique Biancatti
----
+- id: 9
+  title: William Yin
+- id: 1
+  title: Adam Cogan
+- id: 73
+  title: Kaique Biancatti
 
+---
 
 
 

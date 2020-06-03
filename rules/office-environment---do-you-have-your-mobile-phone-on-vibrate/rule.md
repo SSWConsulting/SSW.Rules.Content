@@ -1,12 +1,13 @@
 ---
-uri: office-environment---do-you-have-your-mobile-phone-on-vibrate
+type: rule
 title: Office environment - Do you have your mobile phone on vibrate?
-created: 2012-03-21 21:31:03
+uri: office-environment---do-you-have-your-mobile-phone-on-vibrate
+created: 2012-03-21T21:31:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
+type: rule
 title: Do Your User Stories Include Acceptance Criteria? (aka Never assume automatic Gold Plating)
-created: 2011-05-30 08:13:44
+uri: do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
+created: 2011-05-30T08:13:44.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

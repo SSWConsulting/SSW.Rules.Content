@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-to-use-
+type: rule
 title: Do you know when to use +1?
-created: 2009-04-07 08:09:02
+uri: do-you-know-when-to-use-
+created: 2009-04-07T08:09:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

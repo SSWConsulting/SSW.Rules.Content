@@ -1,11 +1,11 @@
 ---
-uri: does-your-menu-use-an-icon-to-indicate-if-there-is-a-sub-menu
+type: rule
 title: Does your menu use an icon to indicate if there is a sub menu?
-created: 2015-02-16 03:00:07
-authors:
+uri: does-your-menu-use-an-icon-to-indicate-if-there-is-a-sub-menu
+created: 2015-02-16T03:00:07.0000000Z
+authors: []
 
 ---
-
 
 
 

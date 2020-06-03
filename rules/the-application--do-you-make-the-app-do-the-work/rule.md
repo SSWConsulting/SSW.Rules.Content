@@ -1,12 +1,13 @@
 ---
-uri: the-application--do-you-make-the-app-do-the-work
+type: rule
 title: The application – Do you make the app do the work?
-created: 2009-10-07 00:01:45
+uri: the-application--do-you-make-the-app-do-the-work
+created: 2009-10-07T00:01:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

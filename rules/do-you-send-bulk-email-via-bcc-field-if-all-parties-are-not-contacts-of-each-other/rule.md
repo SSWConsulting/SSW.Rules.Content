@@ -1,14 +1,15 @@
 ---
-uri: do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
+type: rule
 title: Do you send bulk email via 'Bcc' field (if all parties are not contacts of each other)?
-created: 2009-03-26 02:58:23
+uri: do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-each-other
+created: 2009-03-26T02:58:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

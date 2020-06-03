@@ -1,12 +1,13 @@
 ---
-uri: printing---do-you-check-for-oversized-images-and-table
+type: rule
 title: Printing - Do you check for oversized images and table?
-created: 2014-12-12 19:11:38
+uri: printing---do-you-check-for-oversized-images-and-table
+created: 2014-12-12T19:11:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

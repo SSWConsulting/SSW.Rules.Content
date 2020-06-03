@@ -1,12 +1,13 @@
 ---
-uri: do-you-let-your-designers-loose-on-sharepoint
+type: rule
 title: Do You Let Your Designers Loose on SharePoint?
-created: 2009-04-19 23:50:00
+uri: do-you-let-your-designers-loose-on-sharepoint
+created: 2009-04-19T23:50:00.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

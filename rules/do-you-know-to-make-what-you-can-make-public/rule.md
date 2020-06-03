@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-make-what-you-can-make-public
+type: rule
 title: Do you know to make what you can make public?
-created: 2010-09-08 15:43:07
+uri: do-you-know-to-make-what-you-can-make-public
+created: 2010-09-08T15:43:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

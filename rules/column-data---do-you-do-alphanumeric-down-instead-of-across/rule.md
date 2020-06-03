@@ -1,11 +1,11 @@
 ---
-uri: column-data---do-you-do-alphanumeric-down-instead-of-across
+type: rule
 title: Column Data - Do you do alphanumeric down instead of across?
-created: 2012-11-27 01:58:25
-authors:
+uri: column-data---do-you-do-alphanumeric-down-instead-of-across
+created: 2012-11-27T01:58:25.0000000Z
+authors: []
 
 ---
-
 
 
 

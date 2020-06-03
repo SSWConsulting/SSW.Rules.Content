@@ -1,11 +1,11 @@
 ---
-uri: do-you-always-quote-price-plus-gst-tax
+type: rule
 title: Do you always quote price plus GST (Tax)?
-created: 2010-07-16 04:38:32
-authors:
+uri: do-you-always-quote-price-plus-gst-tax
+created: 2010-07-16T04:38:32.0000000Z
+authors: []
 
 ---
-
 
 
 

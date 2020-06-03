@@ -1,12 +1,13 @@
 ---
-uri: do-you-apply-all-hotfixes-to-server-after-migration
+type: rule
 title: Do you apply all hotfixes to server after migration
-created: 2013-11-11 07:56:51
+uri: do-you-apply-all-hotfixes-to-server-after-migration
+created: 2013-11-11T07:56:51.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

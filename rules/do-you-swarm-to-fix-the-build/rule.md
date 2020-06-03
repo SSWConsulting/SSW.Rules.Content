@@ -1,12 +1,13 @@
 ---
-uri: do-you-swarm-to-fix-the-build
+type: rule
 title: Do you swarm to fix the build?
-created: 2015-11-03 08:46:16
+uri: do-you-swarm-to-fix-the-build
+created: 2015-11-03T08:46:16.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

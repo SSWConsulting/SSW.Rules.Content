@@ -1,12 +1,13 @@
 ---
-uri: do-you-take-breaks
+type: rule
 title: Do you take breaks?
-created: 2020-03-20 01:36:42
+uri: do-you-take-breaks
+created: 2020-03-20T01:36:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

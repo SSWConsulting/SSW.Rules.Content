@@ -1,14 +1,15 @@
 ---
-uri: do-you-review-and-update-crm
+type: rule
 title: Do you review and update CRM?
-created: 2019-07-05 22:06:43
+uri: do-you-review-and-update-crm
+created: 2019-07-05T22:06:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 95
-    title: Matthew Sampias
----
+- id: 1
+  title: Adam Cogan
+- id: 95
+  title: Matthew Sampias
 
+---
 
 
 

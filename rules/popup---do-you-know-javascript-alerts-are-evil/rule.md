@@ -1,12 +1,13 @@
 ---
-uri: popup---do-you-know-javascript-alerts-are-evil
+type: rule
 title: Popup - Do you know JavaScript alerts are evil?
-created: 2016-06-08 00:58:44
+uri: popup---do-you-know-javascript-alerts-are-evil
+created: 2016-06-08T00:58:44.0000000Z
 authors:
-  - id: 46
-    title: Danijel Malik
----
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-way-to-do-printable-reports
+type: rule
 title: Do you know the best way to do printable reports?
-created: 2014-01-31 00:32:32
+uri: do-you-know-the-best-way-to-do-printable-reports
+created: 2014-01-31T00:32:32.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 45
-    title: Chris Briggs
----
+- id: 38
+  title: Drew Robson
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

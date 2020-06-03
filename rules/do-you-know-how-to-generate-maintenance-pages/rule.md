@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-generate-maintenance-pages
+type: rule
 title: Do you know how to generate maintenance pages?
-created: 2016-11-17 15:40:38
+uri: do-you-know-how-to-generate-maintenance-pages
+created: 2016-11-17T15:40:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

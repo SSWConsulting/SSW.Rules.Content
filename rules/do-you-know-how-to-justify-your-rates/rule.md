@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-justify-your-rates
+type: rule
 title: Do you know how to justify your rates?
-created: 2018-08-21 17:42:28
+uri: do-you-know-how-to-justify-your-rates
+created: 2018-08-21T17:42:28.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

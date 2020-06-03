@@ -1,16 +1,17 @@
 ---
-uri: do-you-follow-up-tasks-effectively
+type: rule
 title: Do you follow up tasks effectively?
-created: 2009-03-27 03:06:15
+uri: do-you-follow-up-tasks-effectively
+created: 2009-03-27T03:06:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

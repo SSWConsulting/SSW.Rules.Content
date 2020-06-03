@@ -1,14 +1,15 @@
 ---
-uri: data-entry---do-you-know-how-to-create-new-opportunities
+type: rule
 title: Data Entry - Do you know how to create new Opportunities?
-created: 2012-12-06 18:37:17
+uri: data-entry---do-you-know-how-to-create-new-opportunities
+created: 2012-12-06T18:37:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

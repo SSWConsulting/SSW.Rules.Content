@@ -1,11 +1,11 @@
 ---
-uri: do-you-reliably-deliver-your-tasks
+type: rule
 title: Do you reliably deliver your tasks?
-created: 2010-07-16 06:36:49
-authors:
+uri: do-you-reliably-deliver-your-tasks
+created: 2010-07-16T06:36:49.0000000Z
+authors: []
 
 ---
-
 
 
 

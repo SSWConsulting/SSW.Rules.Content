@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-fixed-disks
+type: rule
 title: Do you use Fixed Disks?
-created: 2011-02-14 03:18:54
+uri: do-you-use-fixed-disks
+created: 2011-02-14T03:18:54.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

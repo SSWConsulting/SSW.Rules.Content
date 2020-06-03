@@ -1,16 +1,17 @@
 ---
-uri: do-you-evaluate-the-processes
+type: rule
 title: Do you evaluate the processes?
-created: 2012-03-16 07:22:35
+uri: do-you-evaluate-the-processes
+created: 2012-03-16T07:22:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

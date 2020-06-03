@@ -1,11 +1,11 @@
 ---
-uri: do-you-make-todo-items-in-red
+type: rule
 title: Do you make 'TODO' items in red?
-created: 2010-06-08 10:06:05
-authors:
+uri: do-you-make-todo-items-in-red
+created: 2010-06-08T10:06:05.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,18 +1,19 @@
 ---
-uri: do-you-know-to-delete-workspaces-older-than--months-and-warn-on-
+type: rule
 title: Do you know to delete workspaces older than 6 months and warn on 3?
-created: 2011-11-18 03:52:39
+uri: do-you-know-to-delete-workspaces-older-than--months-and-warn-on-
+created: 2011-11-18T03:52:39.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

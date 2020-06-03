@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-a-different-color-when-replying-an-email
+type: rule
 title: Do you use a different color when replying an email?
-created: 2009-03-31 02:53:17
+uri: do-you-use-a-different-color-when-replying-an-email
+created: 2009-03-31T02:53:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

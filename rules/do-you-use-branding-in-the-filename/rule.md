@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-branding-in-the-filename
+type: rule
 title: Do you use branding in the filename?
-created: 2019-10-01 01:31:14
-authors:
+uri: do-you-use-branding-in-the-filename
+created: 2019-10-01T01:31:14.0000000Z
+authors: []
 
 ---
-
 
 
 

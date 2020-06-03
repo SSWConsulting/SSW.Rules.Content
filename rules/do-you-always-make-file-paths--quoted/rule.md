@@ -1,14 +1,15 @@
 ---
-uri: do-you-always-make-file-paths--quoted
+type: rule
 title: Do you always make file paths @-quoted?
-created: 2009-05-13 06:57:56
+uri: do-you-always-make-file-paths--quoted
+created: 2009-05-13T06:57:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-client-side-tools-for-localization-as-much-as-possible
+type: rule
 title: Do you use client-side tools for localization as much as possible?
-created: 2015-10-21 09:16:28
+uri: do-you-use-client-side-tools-for-localization-as-much-as-possible
+created: 2015-10-21T09:16:28.0000000Z
 authors:
-  - id: 50
-    title: Martin Li
----
+- id: 50
+  title: Martin Li
 
+---
 
 
 

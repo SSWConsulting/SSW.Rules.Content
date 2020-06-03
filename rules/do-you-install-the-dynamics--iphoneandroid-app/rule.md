@@ -1,12 +1,13 @@
 ---
-uri: do-you-install-the-dynamics--iphoneandroid-app
+type: rule
 title: Do you install the Dynamics 365 iPhone/Android app?
-created: 2017-07-20 22:27:10
+uri: do-you-install-the-dynamics--iphoneandroid-app
+created: 2017-07-20T22:27:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

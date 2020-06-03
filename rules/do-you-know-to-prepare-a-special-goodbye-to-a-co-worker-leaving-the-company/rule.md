@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
+type: rule
 title: Do you know to prepare a special goodbye to a co-worker leaving the company?
-created: 2020-05-05 05:15:18
+uri: do-you-know-to-prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
+created: 2020-05-05T05:15:18.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

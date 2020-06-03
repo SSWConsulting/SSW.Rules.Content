@@ -1,14 +1,15 @@
 ---
-uri: do-you-provide-modern-contact-options
+type: rule
 title: Do you provide modern contact options?
-created: 2017-10-10 23:58:21
+uri: do-you-provide-modern-contact-options
+created: 2017-10-10T23:58:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 62
-    title: Penny Walker
----
+- id: 1
+  title: Adam Cogan
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

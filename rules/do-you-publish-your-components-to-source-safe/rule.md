@@ -1,14 +1,15 @@
 ---
-uri: do-you-publish-your-components-to-source-safe
+type: rule
 title: Do you publish your components to Source Safe?
-created: 2009-04-28 03:04:50
+uri: do-you-publish-your-components-to-source-safe
+created: 2009-04-28T03:04:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

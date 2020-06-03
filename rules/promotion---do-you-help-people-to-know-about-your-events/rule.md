@@ -1,14 +1,15 @@
 ---
-uri: promotion---do-you-help-people-to-know-about-your-events
+type: rule
 title: Promotion - Do you help people to know about your events?
-created: 2014-12-31 00:08:10
+uri: promotion---do-you-help-people-to-know-about-your-events
+created: 2014-12-31T00:08:10.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
-  - id: 57
-    title: Brittany Lawrence
----
+- id: 62
+  title: Penny Walker
+- id: 57
+  title: Brittany Lawrence
 
+---
 
 
 

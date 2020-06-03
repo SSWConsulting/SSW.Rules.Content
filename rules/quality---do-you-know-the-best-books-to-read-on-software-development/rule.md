@@ -1,18 +1,19 @@
 ---
-uri: quality---do-you-know-the-best-books-to-read-on-software-development
+type: rule
 title: Quality - Do you know the best books to read on software development?
-created: 2015-04-03 19:54:28
+uri: quality---do-you-know-the-best-books-to-read-on-software-development
+created: 2015-04-03T19:54:28.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 33
-    title: Gerard Beckerleg
-  - id: 46
-    title: Danijel Malik
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 33
+  title: Gerard Beckerleg
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

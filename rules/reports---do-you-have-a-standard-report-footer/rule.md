@@ -1,11 +1,11 @@
 ---
-uri: reports---do-you-have-a-standard-report-footer
+type: rule
 title: Reports - Do you have a standard Report footer?
-created: 2014-12-01 05:46:16
-authors:
+uri: reports---do-you-have-a-standard-report-footer
+created: 2014-12-01T05:46:16.0000000Z
+authors: []
 
 ---
-
 
 
 

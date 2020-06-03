@@ -1,11 +1,11 @@
 ---
-uri: do-you-display-information-consistently
+type: rule
 title: Do you display information consistently?
-created: 2015-02-16 01:50:14
-authors:
+uri: do-you-display-information-consistently
+created: 2015-02-16T01:50:14.0000000Z
+authors: []
 
 ---
-
 
 
 

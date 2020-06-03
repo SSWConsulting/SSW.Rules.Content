@@ -1,16 +1,17 @@
 ---
-uri: do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
+type: rule
 title: Do you make instructions at the beginning of a project and improve them gradually?
-created: 2009-05-13 06:12:34
+uri: do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually
+created: 2009-05-13T06:12:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
-  - id: 24
-    title: Adam Stephensen
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

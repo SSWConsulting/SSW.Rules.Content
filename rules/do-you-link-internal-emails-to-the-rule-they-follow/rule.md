@@ -1,11 +1,11 @@
 ---
-uri: do-you-link-internal-emails-to-the-rule-they-follow
+type: rule
 title: Do you link internal emails to the rule they follow?
-created: 2012-03-20 15:13:20
-authors:
+uri: do-you-link-internal-emails-to-the-rule-they-follow
+created: 2012-03-20T15:13:20.0000000Z
+authors: []
 
 ---
-
 
 
 

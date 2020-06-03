@@ -1,14 +1,15 @@
 ---
-uri: do-you-distribute-a-product-in-release-mode
+type: rule
 title: Do you distribute a product in Release mode?
-created: 2009-05-05 06:48:04
+uri: do-you-distribute-a-product-in-release-mode
+created: 2009-05-05T06:48:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

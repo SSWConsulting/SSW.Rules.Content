@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-submit-a-new-rule-suggestion-or-bug-report
+type: rule
 title: Do you know how to submit a new rule suggestion (or bug report)?
-created: 2012-07-02 13:54:14
+uri: do-you-know-how-to-submit-a-new-rule-suggestion-or-bug-report
+created: 2012-07-02T13:54:14.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

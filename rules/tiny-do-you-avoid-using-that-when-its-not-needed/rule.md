@@ -1,11 +1,11 @@
 ---
+type: rule
+title: "Tiny: Do you avoid using \"that\" when it's not needed?"
 uri: tiny-do-you-avoid-using-that-when-its-not-needed
-title: Tiny: Do you avoid using "that" when it's not needed?
-created: 2016-04-21 06:24:10
-authors:
+created: 2016-04-21T06:24:10.0000000Z
+authors: []
 
 ---
-
 
 
 

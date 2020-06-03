@@ -1,16 +1,17 @@
 ---
-uri: do-you-add-branding-to-screenshots
+type: rule
 title: Do you add branding to screenshots?
-created: 2011-04-21 02:28:41
+uri: do-you-add-branding-to-screenshots
+created: 2011-04-21T02:28:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
-  - id: 96
-    title: Alex Breskin
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 96
+  title: Alex Breskin
 
+---
 
 
 

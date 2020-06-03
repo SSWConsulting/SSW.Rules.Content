@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-gzip
+type: rule
 title: Do you use Gzip?
-created: 2019-05-17 03:05:06
+uri: do-you-use-gzip
+created: 2019-05-17T03:05:06.0000000Z
 authors:
-  - id: 82
-    title: Barry Sanders
----
+- id: 82
+  title: Barry Sanders
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-check-your-boarding-pass
+type: rule
 title: Do you check your boarding pass
-created: 2018-03-02 00:44:00
+uri: do-you-check-your-boarding-pass
+created: 2018-03-02T00:44:00.0000000Z
 authors:
-  - id: 41
-    title: Joanna Feely
----
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

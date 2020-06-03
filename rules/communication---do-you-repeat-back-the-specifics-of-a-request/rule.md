@@ -1,12 +1,13 @@
 ---
-uri: communication---do-you-repeat-back-the-specifics-of-a-request
+type: rule
 title: Communication - Do you repeat back the specifics of a request?
-created: 2012-09-25 17:55:35
+uri: communication---do-you-repeat-back-the-specifics-of-a-request
+created: 2012-09-25T17:55:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

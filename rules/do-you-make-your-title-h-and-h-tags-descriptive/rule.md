@@ -1,14 +1,15 @@
 ---
-uri: do-you-make-your-title-h-and-h-tags-descriptive
+type: rule
 title: Do you make your "title", "h1", and "h2" tags descriptive?
-created: 2015-11-09 18:48:50
+uri: do-you-make-your-title-h-and-h-tags-descriptive
+created: 2015-11-09T18:48:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

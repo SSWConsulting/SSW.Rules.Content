@@ -1,14 +1,15 @@
 ---
+type: rule
+title: 'DevOps – Stage 4: Do you continually improve processes?'
 uri: devops--stage--do-you-continually-improve-processes
-title: DevOps – Stage 4: Do you continually improve processes?
-created: 2016-03-07 18:51:30
+created: 2016-03-07T18:51:30.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
-  - id: 1
-    title: Adam Cogan
----
+- id: 3
+  title: Eric Phan
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

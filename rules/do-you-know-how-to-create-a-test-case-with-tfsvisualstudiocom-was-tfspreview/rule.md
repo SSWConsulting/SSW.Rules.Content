@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-create-a-test-case-with-tfsvisualstudiocom-was-tfspreview
+type: rule
 title: Do you know how to create a Test Case with TFS.VisualStudio.com (was TFSPreview)?
-created: 2012-07-09 17:46:10
+uri: do-you-know-how-to-create-a-test-case-with-tfsvisualstudiocom-was-tfspreview
+created: 2012-07-09T17:46:10.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-nuget-packages-
+type: rule
 title: Do you know the best NuGet Packages ?
-created: 2012-10-19 19:00:36
+uri: do-you-know-the-best-nuget-packages-
+created: 2012-10-19T19:00:36.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

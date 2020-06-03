@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-the-best-way-to-install-dpm
+type: rule
 title: Do you know the best way to install DPM?
-created: 2011-06-15 02:32:32
+uri: do-you-know-the-best-way-to-install-dpm
+created: 2011-06-15T02:32:32.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 71
-    title: Steven Andrews
-  - id: 19
-    title: Sumesh Ghimire
----
+- id: 21
+  title: Matthew Hodgkins
+- id: 71
+  title: Steven Andrews
+- id: 19
+  title: Sumesh Ghimire
 
+---
 
 
 

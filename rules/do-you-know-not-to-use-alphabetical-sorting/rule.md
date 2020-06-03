@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-not-to-use-alphabetical-sorting
+type: rule
 title: Do you know not to use Alphabetical Sorting?
-created: 2016-10-21 05:14:11
+uri: do-you-know-not-to-use-alphabetical-sorting
+created: 2016-10-21T05:14:11.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

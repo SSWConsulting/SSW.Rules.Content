@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-naming-convention-for-client-teams
+type: rule
 title: Do you have naming convention for client Teams?
-created: 2020-03-27 21:43:37
+uri: do-you-have-naming-convention-for-client-teams
+created: 2020-03-27T21:43:37.0000000Z
 authors:
-  - id: 69
-    title: Jean Thirion
-  - id: 78
-    title: Matt Wicks
----
+- id: 69
+  title: Jean Thirion
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

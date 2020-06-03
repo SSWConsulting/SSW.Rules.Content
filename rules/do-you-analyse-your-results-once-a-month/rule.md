@@ -1,14 +1,15 @@
 ---
-uri: do-you-analyse-your-results-once-a-month
+type: rule
 title: Do you analyse your results once a month?
-created: 2014-07-04 06:00:07
+uri: do-you-analyse-your-results-once-a-month
+created: 2014-07-04T06:00:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 1
+  title: Adam Cogan
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

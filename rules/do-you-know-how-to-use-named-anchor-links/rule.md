@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-use-named-anchor-links
+type: rule
 title: Do you know how to use named anchor links?
-created: 2012-07-17 20:11:55
+uri: do-you-know-how-to-use-named-anchor-links
+created: 2012-07-17T20:11:55.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

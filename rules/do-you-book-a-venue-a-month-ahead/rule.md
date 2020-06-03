@@ -1,12 +1,13 @@
 ---
-uri: do-you-book-a-venue-a-month-ahead
+type: rule
 title: Do you book a venue a month ahead?
-created: 2013-05-17 16:56:50
+uri: do-you-book-a-venue-a-month-ahead
+created: 2013-05-17T16:56:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

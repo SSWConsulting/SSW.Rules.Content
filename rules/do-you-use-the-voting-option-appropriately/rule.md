@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-the-voting-option-appropriately
+type: rule
 title: Do you use the voting option appropriately?
-created: 2009-03-25 05:20:04
+uri: do-you-use-the-voting-option-appropriately
+created: 2009-03-25T05:20:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: what-does-a-sharepoint-image-need
+type: rule
 title: What does a SharePoint image need?
-created: 2009-02-26 02:03:33
-authors:
+uri: what-does-a-sharepoint-image-need
+created: 2009-02-26T02:03:33.0000000Z
+authors: []
 
 ---
-
 
 
 

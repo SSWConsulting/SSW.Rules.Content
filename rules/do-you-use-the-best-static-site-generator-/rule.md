@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-best-static-site-generator-
+type: rule
 title: Do you use the best static site generator ?
-created: 2020-01-09 04:00:36
+uri: do-you-use-the-best-static-site-generator-
+created: 2020-01-09T04:00:36.0000000Z
 authors:
-  - id: 78
-    title: Matt Wicks
----
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

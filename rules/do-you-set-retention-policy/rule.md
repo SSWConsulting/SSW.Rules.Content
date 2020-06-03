@@ -1,12 +1,13 @@
 ---
-uri: do-you-set-retention-policy
+type: rule
 title: Do you set retention policy?
-created: 2016-05-30 06:41:05
+uri: do-you-set-retention-policy
+created: 2016-05-30T06:41:05.0000000Z
 authors:
-  - id: 46
-    title: Danijel Malik
----
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-share-screens-when-working-remotely
+type: rule
 title: Do you share screens when working remotely?
-created: 2014-12-23 19:41:23
+uri: do-you-share-screens-when-working-remotely
+created: 2014-12-23T19:41:23.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
-  - id: 1
-    title: Adam Cogan
----
+- id: 32
+  title: Mehmet Ozdemir
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

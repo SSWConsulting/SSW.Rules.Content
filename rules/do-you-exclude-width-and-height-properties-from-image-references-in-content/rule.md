@@ -1,11 +1,11 @@
 ---
-uri: do-you-exclude-width-and-height-properties-from-image-references-in-content
+type: rule
 title: Do you exclude width and height properties from image references in content?
-created: 2015-10-13 00:44:07
-authors:
+uri: do-you-exclude-width-and-height-properties-from-image-references-in-content
+created: 2015-10-13T00:44:07.0000000Z
+authors: []
 
 ---
-
 
 
 

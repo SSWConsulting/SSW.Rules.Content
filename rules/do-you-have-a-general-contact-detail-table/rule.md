@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-general-contact-detail-table
+type: rule
 title: Do you have a general Contact Detail table?
-created: 2019-11-22 21:41:18
+uri: do-you-have-a-general-contact-detail-table
+created: 2019-11-22T21:41:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

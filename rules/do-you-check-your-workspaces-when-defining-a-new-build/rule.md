@@ -1,14 +1,15 @@
 ---
-uri: do-you-check-your-workspaces-when-defining-a-new-build
+type: rule
 title: Do you check your Workspaces when defining a new build?
-created: 2012-03-28 05:38:50
+uri: do-you-check-your-workspaces-when-defining-a-new-build
+created: 2012-03-28T05:38:50.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
-  - id: 28
-    title: Daragh Bannigan
----
+- id: 23
+  title: Damian Brady
+- id: 28
+  title: Daragh Bannigan
 
+---
 
 
 

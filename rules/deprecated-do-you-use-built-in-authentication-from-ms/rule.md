@@ -1,12 +1,13 @@
 ---
+type: rule
+title: '[DEPRECATED] Do you use built in authentication from MS?'
 uri: deprecated-do-you-use-built-in-authentication-from-ms
-title: [DEPRECATED] Do you use built in authentication from MS?
-created: 2013-05-02 21:19:33
+created: 2013-05-02T21:19:33.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

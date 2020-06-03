@@ -1,14 +1,15 @@
 ---
-uri: sales---do-you-track-all-sales-related-activities-in-crm
+type: rule
 title: Sales - Do you track all sales related activities in CRM?
-created: 2012-12-06 19:05:13
+uri: sales---do-you-track-all-sales-related-activities-in-crm
+created: 2012-12-06T19:05:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

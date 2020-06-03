@@ -1,12 +1,13 @@
 ---
-uri: do-you-follow-up-with-your-attendees-after-events
+type: rule
 title: Do you follow up with your attendees after events?
-created: 2014-12-31 00:46:18
+uri: do-you-follow-up-with-your-attendees-after-events
+created: 2014-12-31T00:46:18.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

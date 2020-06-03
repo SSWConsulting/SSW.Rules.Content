@@ -1,11 +1,11 @@
 ---
-uri: do-you-finish-your-presentation-with-a-thank-you-slide
+type: rule
 title: Do you finish your presentation with a 'Thank You' slide?
-created: 2010-06-08 10:16:43
-authors:
+uri: do-you-finish-your-presentation-with-a-thank-you-slide
+created: 2010-06-08T10:16:43.0000000Z
+authors: []
 
 ---
-
 
 
 

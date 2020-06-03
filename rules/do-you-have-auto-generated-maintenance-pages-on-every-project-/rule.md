@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-auto-generated-maintenance-pages-on-every-project-
+type: rule
 title: Do you have auto-generated maintenance pages on every project ?
-created: 2016-11-28 18:52:32
+uri: do-you-have-auto-generated-maintenance-pages-on-every-project-
+created: 2016-11-28T18:52:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

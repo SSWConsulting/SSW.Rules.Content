@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-way-to-give-the-best-customer-support
+type: rule
 title: Do you know the best way to give the best customer support?
-created: 2009-03-04 06:49:46
+uri: do-you-know-the-best-way-to-give-the-best-customer-support
+created: 2009-03-04T06:49:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-do-know-the-best-technical-solution-to-enable-purchase-approvals
+type: rule
 title: Do you do know the best technical solution to enable purchase approvals?
-created: 2013-04-19 19:04:02
+uri: do-you-do-know-the-best-technical-solution-to-enable-purchase-approvals
+created: 2013-04-19T19:04:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

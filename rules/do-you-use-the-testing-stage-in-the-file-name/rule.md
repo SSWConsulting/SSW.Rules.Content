@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-testing-stage-in-the-file-name
+type: rule
 title: Do you use the testing stage, in the file name?
-created: 2018-04-23 21:52:42
+uri: do-you-use-the-testing-stage-in-the-file-name
+created: 2018-04-23T21:52:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

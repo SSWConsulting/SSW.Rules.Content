@@ -1,12 +1,13 @@
 ---
-uri: do-you-follow-the-campaign-checklist-for-every-marketing-campaign
+type: rule
 title: Do you follow the campaign checklist for every marketing campaign?
-created: 2014-12-11 18:39:54
+uri: do-you-follow-the-campaign-checklist-for-every-marketing-campaign
+created: 2014-12-11T18:39:54.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
----
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

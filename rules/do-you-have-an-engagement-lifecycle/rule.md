@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-an-engagement-lifecycle
+type: rule
 title: Do you have an Engagement Lifecycle?
-created: 2014-03-03 10:27:58
+uri: do-you-have-an-engagement-lifecycle
+created: 2014-03-03T10:27:58.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

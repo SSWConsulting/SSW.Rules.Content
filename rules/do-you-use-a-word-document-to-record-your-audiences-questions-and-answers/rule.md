@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-a-word-document-to-record-your-audiences-questions-and-answers
+type: rule
 title: Do you use a word document to record your audience's Questions and Answers?
-created: 2010-06-09 00:01:49
-authors:
+uri: do-you-use-a-word-document-to-record-your-audiences-questions-and-answers
+created: 2010-06-09T00:01:49.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-that-posts-with-images-are-more-engaging
+type: rule
 title: Do you know that posts with images are more engaging?
-created: 2018-08-16 02:37:20
+uri: do-you-know-that-posts-with-images-are-more-engaging
+created: 2018-08-16T02:37:20.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

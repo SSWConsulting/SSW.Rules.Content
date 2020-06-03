@@ -1,18 +1,19 @@
 ---
-uri: after-work-do-you-only-check-in-code-when-it-has-compiled-and-passed-the-unit-tests
+type: rule
 title: (After work) Do you only check-in code when it has compiled and passed the unit tests?
-created: 2011-11-18 03:52:34
+uri: after-work-do-you-only-check-in-code-when-it-has-compiled-and-passed-the-unit-tests
+created: 2011-11-18T03:52:34.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 17
-    title: Ryan Tee
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 6
+  title: Tristan Kurniawan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

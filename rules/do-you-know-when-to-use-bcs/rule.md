@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-to-use-bcs
+type: rule
 title: Do you know when to use BCS?
-created: 2010-06-04 05:43:44
+uri: do-you-know-when-to-use-bcs
+created: 2010-06-04T05:43:44.0000000Z
 authors:
-  - id: 13
-    title: Paul Neumeyer
-  - id: 1
-    title: Adam Cogan
----
+- id: 13
+  title: Paul Neumeyer
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-create-a-custom-library-provider
+type: rule
 title: Do you know to create a Custom Library Provider?
-created: 2013-04-10 21:24:21
+uri: do-you-know-to-create-a-custom-library-provider
+created: 2013-04-10T21:24:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

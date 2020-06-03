@@ -1,14 +1,15 @@
 ---
-uri: do-you-ensure-an-excellent-st-date-aka-winning-customers-via-a-smaller-specification-review
+type: rule
 title: Do you ensure an excellent 1st date? (aka winning customers via a smaller "Specification Review")
-created: 2012-08-30 13:02:06
+uri: do-you-ensure-an-excellent-st-date-aka-winning-customers-via-a-smaller-specification-review
+created: 2012-08-30T13:02:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

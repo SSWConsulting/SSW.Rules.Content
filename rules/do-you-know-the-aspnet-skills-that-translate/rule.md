@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-aspnet-skills-that-translate
+type: rule
 title: Do you know the ASP.NET skills that translate?
-created: 2009-05-21 07:13:53
+uri: do-you-know-the-aspnet-skills-that-translate
+created: 2009-05-21T07:13:53.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

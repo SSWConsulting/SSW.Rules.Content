@@ -1,14 +1,15 @@
 ---
-uri: production---do-you-use-multiple-cameras
+type: rule
 title: Production - Do you use multiple cameras?
-created: 2012-02-22 01:23:11
+uri: production---do-you-use-multiple-cameras
+created: 2012-02-22T01:23:11.0000000Z
 authors:
-  - id: 29
-    title: Raj Dhatt
-  - id: 91
-    title: Andrew Forsyth
----
+- id: 29
+  title: Raj Dhatt
+- id: 91
+  title: Andrew Forsyth
 
+---
 
 
 

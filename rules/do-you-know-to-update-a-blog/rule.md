@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-to-update-a-blog
+type: rule
 title: Do you know to update a blog?
-created: 2010-09-07 10:23:19
+uri: do-you-know-to-update-a-blog
+created: 2010-09-07T10:23:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 45
-    title: Chris Briggs
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

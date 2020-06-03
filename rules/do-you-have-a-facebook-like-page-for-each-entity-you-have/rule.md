@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-facebook-like-page-for-each-entity-you-have
+type: rule
 title: Do you have a Facebook Like Page for each entity you have?
-created: 2010-05-11 02:51:52
+uri: do-you-have-a-facebook-like-page-for-each-entity-you-have
+created: 2010-05-11T02:51:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

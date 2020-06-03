@@ -1,12 +1,13 @@
 ---
-uri: do-you-make-your-site-easy-to-maintain
+type: rule
 title: Do you make your site easy to maintain?
-created: 2016-08-11 18:32:10
+uri: do-you-make-your-site-easy-to-maintain
+created: 2016-08-11T18:32:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

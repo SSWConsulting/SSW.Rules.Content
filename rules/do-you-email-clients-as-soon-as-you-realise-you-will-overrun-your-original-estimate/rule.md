@@ -1,18 +1,19 @@
 ---
-uri: do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
+type: rule
 title: Do you email clients as soon as you realise you will overrun your original estimate?
-created: 2009-08-19 23:56:41
+uri: do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
+created: 2009-08-19T23:56:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

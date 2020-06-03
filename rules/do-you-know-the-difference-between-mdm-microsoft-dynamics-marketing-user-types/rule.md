@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-difference-between-mdm-microsoft-dynamics-marketing-user-types
+type: rule
 title: Do you know the difference between MDM (Microsoft Dynamics Marketing) User Types?
-created: 2014-10-16 20:52:49
+uri: do-you-know-the-difference-between-mdm-microsoft-dynamics-marketing-user-types
+created: 2014-10-16T20:52:49.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

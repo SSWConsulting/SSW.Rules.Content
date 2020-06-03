@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-that-when-youre-booked-in-youre-working
+type: rule
 title: Do you know that when you're booked in, you're working?
-created: 2013-04-19 20:30:40
+uri: do-you-know-that-when-youre-booked-in-youre-working
+created: 2013-04-19T20:30:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

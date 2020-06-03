@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-a-microsoft-supported-network-setup-for-hyper-v-clustering
+type: rule
 title: Do you use a Microsoft supported network setup for Hyper-V Clustering?
-created: 2012-03-02 18:23:04
-authors:
+uri: do-you-use-a-microsoft-supported-network-setup-for-hyper-v-clustering
+created: 2012-03-02T18:23:04.0000000Z
+authors: []
 
 ---
-
 
 
 

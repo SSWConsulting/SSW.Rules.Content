@@ -1,14 +1,15 @@
 ---
-uri: do-you-show-that-a-record-is-inactive
+type: rule
 title: Do you show that a record is inactive?
-created: 2017-06-27 17:51:11
+uri: do-you-show-that-a-record-is-inactive
+created: 2017-06-27T17:51:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 15
-    title: Mark Liu
----
+- id: 1
+  title: Adam Cogan
+- id: 15
+  title: Mark Liu
 
+---
 
 
 

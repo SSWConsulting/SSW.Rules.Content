@@ -1,12 +1,13 @@
 ---
-uri: do-you-pursue-short-or-long-term-relationships-with-clients
+type: rule
 title: Do you pursue short or long-term relationships with clients?
-created: 2009-02-19 10:22:11
+uri: do-you-pursue-short-or-long-term-relationships-with-clients
+created: 2009-02-19T10:22:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

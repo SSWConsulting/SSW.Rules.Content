@@ -1,11 +1,11 @@
 ---
-uri: do-you-keep-eye-contact-with-the-audience
+type: rule
 title: Do you keep eye contact with the audience?
-created: 2011-08-09 17:48:33
-authors:
+uri: do-you-keep-eye-contact-with-the-audience
+created: 2011-08-09T17:48:33.0000000Z
+authors: []
 
 ---
-
 
 
 

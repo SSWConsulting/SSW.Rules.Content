@@ -1,12 +1,13 @@
 ---
-uri: do-you-choose-tfs-git-over-team-foundation-source-control
+type: rule
 title: Do You Choose TFS-Git Over Team Foundation Source Control?
-created: 2014-05-22 19:47:49
+uri: do-you-choose-tfs-git-over-team-foundation-source-control
+created: 2014-05-22T19:47:49.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

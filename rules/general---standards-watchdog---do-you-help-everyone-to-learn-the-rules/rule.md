@@ -1,12 +1,13 @@
 ---
-uri: general---standards-watchdog---do-you-help-everyone-to-learn-the-rules
+type: rule
 title: General - Standards Watchdog - Do you help everyone to learn the rules?
-created: 2009-03-10 07:08:39
+uri: general---standards-watchdog---do-you-help-everyone-to-learn-the-rules
+created: 2009-03-10T07:08:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

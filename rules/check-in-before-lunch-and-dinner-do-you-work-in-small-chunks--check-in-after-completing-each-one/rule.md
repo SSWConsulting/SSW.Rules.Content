@@ -1,18 +1,19 @@
 ---
-uri: check-in-before-lunch-and-dinner-do-you-work-in-small-chunks--check-in-after-completing-each-one
+type: rule
 title: (Check-in before lunch and dinner) Do you work in small chunks & check in after completing each one?
-created: 2011-11-18 03:52:27
+uri: check-in-before-lunch-and-dinner-do-you-work-in-small-chunks--check-in-after-completing-each-one
+created: 2011-11-18T03:52:27.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

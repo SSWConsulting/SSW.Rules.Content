@@ -1,12 +1,13 @@
 ---
-uri: do-you-help-the-user-to-enter-a-url-field
+type: rule
 title: Do you help the user to enter a URL field?
-created: 2014-12-16 17:36:25
+uri: do-you-help-the-user-to-enter-a-url-field
+created: 2014-12-16T17:36:25.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: does-your-navigation-device-support-touch
+type: rule
 title: Does your navigation device support touch?
-created: 2013-03-13 20:17:44
+uri: does-your-navigation-device-support-touch
+created: 2013-03-13T20:17:44.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-always-state-your-understanding-or-what-you-have-already-done-to-investigate-a-problem
+type: rule
 title: Do you always state your understanding or what you have already done to investigate a problem?
-created: 2010-07-16 06:35:43
+uri: do-you-always-state-your-understanding-or-what-you-have-already-done-to-investigate-a-problem
+created: 2010-07-16T06:35:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

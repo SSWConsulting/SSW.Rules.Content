@@ -1,11 +1,11 @@
 ---
-uri: do-you-realize-that-a-good-interface-should-not-require-instructions
+type: rule
 title: Do you realize that a good interface should not require instructions?
-created: 2012-11-27 01:23:48
-authors:
+uri: do-you-realize-that-a-good-interface-should-not-require-instructions
+created: 2012-11-27T01:23:48.0000000Z
+authors: []
 
 ---
-
 
 
 

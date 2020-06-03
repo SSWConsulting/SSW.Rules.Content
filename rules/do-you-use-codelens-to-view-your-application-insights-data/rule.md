@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-codelens-to-view-your-application-insights-data
+type: rule
 title: Do you use CodeLens to view your Application Insights data?
-created: 2017-04-07 15:50:27
+uri: do-you-use-codelens-to-view-your-application-insights-data
+created: 2017-04-07T15:50:27.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

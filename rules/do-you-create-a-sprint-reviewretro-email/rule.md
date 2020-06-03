@@ -1,16 +1,17 @@
 ---
-uri: do-you-create-a-sprint-reviewretro-email
+type: rule
 title: Do you create a Sprint Review/Retro email?
-created: 2012-08-06 05:48:37
+uri: do-you-create-a-sprint-reviewretro-email
+created: 2012-08-06T05:48:37.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 38
-    title: Drew Robson
-  - id: 45
-    title: Chris Briggs
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 38
+  title: Drew Robson
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

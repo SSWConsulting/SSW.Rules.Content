@@ -1,12 +1,13 @@
 ---
-uri: do-you-keep-your-audience-happy
+type: rule
 title: Do you keep your audience happy?
-created: 2018-05-21 00:49:56
+uri: do-you-keep-your-audience-happy
+created: 2018-05-21T00:49:56.0000000Z
 authors:
-  - id: 74
-    title: Florent Dezettre
----
+- id: 74
+  title: Florent Dezettre
 
+---
 
 
 

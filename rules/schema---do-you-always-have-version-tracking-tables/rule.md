@@ -1,12 +1,13 @@
 ---
-uri: schema---do-you-always-have-version-tracking-tables
+type: rule
 title: Schema - Do you always have version tracking tables?
-created: 2010-07-23 02:52:32
+uri: schema---do-you-always-have-version-tracking-tables
+created: 2010-07-23T02:52:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

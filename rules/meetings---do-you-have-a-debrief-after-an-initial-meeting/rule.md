@@ -1,12 +1,13 @@
 ---
-uri: meetings---do-you-have-a-debrief-after-an-initial-meeting
+type: rule
 title: Meetings - Do you have a debrief after an initial meeting?
-created: 2012-09-25 18:04:48
+uri: meetings---do-you-have-a-debrief-after-an-initial-meeting
+created: 2012-09-25T18:04:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

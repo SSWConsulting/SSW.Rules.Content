@@ -1,12 +1,13 @@
 ---
-uri: do-you-identify-your-online-purchases
+type: rule
 title: Do you identify your online purchases?
-created: 2014-07-04 07:15:57
+uri: do-you-identify-your-online-purchases
+created: 2014-07-04T07:15:57.0000000Z
 authors:
-  - id: 41
-    title: Joanna Feely
----
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

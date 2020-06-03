@@ -1,12 +1,13 @@
 ---
-uri: do-you-add-a-featured-image-to-your-blog-post
+type: rule
 title: Do you add a featured image to your blog post?
-created: 2018-04-03 23:31:26
+uri: do-you-add-a-featured-image-to-your-blog-post
+created: 2018-04-03T23:31:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

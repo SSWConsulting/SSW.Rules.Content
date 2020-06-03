@@ -1,12 +1,13 @@
 ---
-uri: authentication---do-you-have-a-sign-me-in-automatically-checkbox
+type: rule
 title: Authentication - Do you have a 'Sign me in automatically' checkbox?
-created: 2014-12-11 20:17:49
+uri: authentication---do-you-have-a-sign-me-in-automatically-checkbox
+created: 2014-12-11T20:17:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

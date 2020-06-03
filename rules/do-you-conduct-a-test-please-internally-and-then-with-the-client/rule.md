@@ -1,12 +1,13 @@
 ---
-uri: do-you-conduct-a-test-please-internally-and-then-with-the-client
+type: rule
 title: Do you conduct a "test please" internally and then with the client?
-created: 2009-03-02 02:46:56
+uri: do-you-conduct-a-test-please-internally-and-then-with-the-client
+created: 2009-03-02T02:46:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

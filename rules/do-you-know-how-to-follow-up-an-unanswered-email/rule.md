@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-follow-up-an-unanswered-email
+type: rule
 title: Do you know how to follow up an unanswered email?
-created: 2009-03-24 05:32:41
+uri: do-you-know-how-to-follow-up-an-unanswered-email
+created: 2009-03-24T05:32:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

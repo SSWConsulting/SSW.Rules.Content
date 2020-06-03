@@ -1,12 +1,13 @@
 ---
-uri: management---do-you-maintain-verbal-contact-with-your-client
+type: rule
 title: Management - Do you maintain verbal contact with your client?
-created: 2009-02-28 09:45:12
+uri: management---do-you-maintain-verbal-contact-with-your-client
+created: 2009-02-28T09:45:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-handover-a-project
+type: rule
 title: Do you know how to handover a project?
-created: 2010-03-15 06:22:03
+uri: do-you-know-how-to-handover-a-project
+created: 2010-03-15T06:22:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 13
-    title: Paul Neumeyer
----
+- id: 1
+  title: Adam Cogan
+- id: 13
+  title: Paul Neumeyer
 
+---
 
 
 

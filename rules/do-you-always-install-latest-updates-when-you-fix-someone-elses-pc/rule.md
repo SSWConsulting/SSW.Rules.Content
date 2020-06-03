@@ -1,14 +1,15 @@
 ---
-uri: do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
+type: rule
 title: Do you always install latest updates when you fix someone else's PC?
-created: 2009-03-09 06:56:48
+uri: do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
+created: 2009-03-09T06:56:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 47
-    title: Stanley Sidik
----
+- id: 1
+  title: Adam Cogan
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

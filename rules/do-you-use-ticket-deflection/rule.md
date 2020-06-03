@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-ticket-deflection
+type: rule
 title: Do you use ticket deflection?
-created: 2017-10-14 16:43:57
+uri: do-you-use-ticket-deflection
+created: 2017-10-14T16:43:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-content-editor-web-part-with-care
+type: rule
 title: Do you use content editor web part with care?
-created: 2009-11-02 23:32:03
+uri: do-you-use-content-editor-web-part-with-care
+created: 2009-11-02T23:32:03.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

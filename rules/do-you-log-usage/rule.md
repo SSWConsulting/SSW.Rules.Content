@@ -1,12 +1,13 @@
 ---
-uri: do-you-log-usage
+type: rule
 title: Do you log usage?
-created: 2012-11-27 02:06:03
+uri: do-you-log-usage
+created: 2012-11-27T02:06:03.0000000Z
 authors:
-  - id: 20
-    title: Rebecca Liu
----
+- id: 20
+  title: Rebecca Liu
 
+---
 
 
 

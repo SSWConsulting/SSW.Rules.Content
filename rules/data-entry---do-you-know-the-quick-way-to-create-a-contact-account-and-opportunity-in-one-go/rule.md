@@ -1,14 +1,15 @@
 ---
-uri: data-entry---do-you-know-the-quick-way-to-create-a-contact-account-and-opportunity-in-one-go
+type: rule
 title: Data Entry - Do you know the quick way to create a Contact, Account, and Opportunity in one go?
-created: 2012-12-06 18:59:22
+uri: data-entry---do-you-know-the-quick-way-to-create-a-contact-account-and-opportunity-in-one-go
+created: 2012-12-06T18:59:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

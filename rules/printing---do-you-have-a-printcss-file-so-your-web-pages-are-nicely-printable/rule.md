@@ -1,14 +1,15 @@
 ---
-uri: printing---do-you-have-a-printcss-file-so-your-web-pages-are-nicely-printable
+type: rule
 title: Printing - Do you have a print.css file so your web pages are nicely printable?
-created: 2014-12-09 19:14:24
+uri: printing---do-you-have-a-printcss-file-so-your-web-pages-are-nicely-printable
+created: 2014-12-09T19:14:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

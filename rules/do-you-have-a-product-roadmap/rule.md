@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-product-roadmap
+type: rule
 title: Do you have a Product Roadmap?
-created: 2016-03-18 04:30:18
+uri: do-you-have-a-product-roadmap
+created: 2016-03-18T04:30:18.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-inform-the-client-of-any-resource-or-rate-changes
+type: rule
 title: Do you inform the client of any resource or rate changes?
-created: 2012-08-30 13:05:19
+uri: do-you-inform-the-client-of-any-resource-or-rate-changes
+created: 2012-08-30T13:05:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

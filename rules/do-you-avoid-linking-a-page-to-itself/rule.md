@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-linking-a-page-to-itself
+type: rule
 title: Do you avoid linking a page to itself?
-created: 2015-02-16 02:19:41
-authors:
+uri: do-you-avoid-linking-a-page-to-itself
+created: 2015-02-16T02:19:41.0000000Z
+authors: []
 
 ---
-
 
 
 

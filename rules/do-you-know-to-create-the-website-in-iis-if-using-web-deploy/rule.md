@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-create-the-website-in-iis-if-using-web-deploy
+type: rule
 title: Do you know to Create the Website in IIS if using Web Deploy?
-created: 2013-02-06 18:43:08
+uri: do-you-know-to-create-the-website-in-iis-if-using-web-deploy
+created: 2013-02-06T18:43:08.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

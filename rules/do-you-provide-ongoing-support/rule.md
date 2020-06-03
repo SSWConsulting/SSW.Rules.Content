@@ -1,18 +1,19 @@
 ---
-uri: do-you-provide-ongoing-support
+type: rule
 title: Do you provide ongoing support?
-created: 2009-03-18 03:46:23
+uri: do-you-provide-ongoing-support
+created: 2009-03-18T03:46:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-keep-your-system-up-to-date
+type: rule
 title: Do you keep your system up to date?
-created: 2014-10-27 03:59:04
+uri: do-you-keep-your-system-up-to-date
+created: 2014-10-27T03:59:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

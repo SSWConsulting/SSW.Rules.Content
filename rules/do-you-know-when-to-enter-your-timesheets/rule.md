@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-to-enter-your-timesheets
+type: rule
 title: Do you know when to enter your timesheets?
-created: 2013-04-19 19:45:11
+uri: do-you-know-when-to-enter-your-timesheets
+created: 2013-04-19T19:45:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

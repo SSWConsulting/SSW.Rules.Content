@@ -1,18 +1,19 @@
 ---
-uri: spec---do-you-know-how-to-estimate-a-project-include-the-general-project-costs
+type: rule
 title: Spec - Do you know how to estimate a Project (include the 'General Project Costs')?
-created: 2009-09-16 02:44:19
+uri: spec---do-you-know-how-to-estimate-a-project-include-the-general-project-costs
+created: 2009-09-16T02:44:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

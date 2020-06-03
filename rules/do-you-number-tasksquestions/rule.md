@@ -1,16 +1,17 @@
 ---
-uri: do-you-number-tasksquestions
+type: rule
 title: Do you number tasks/questions?
-created: 2010-09-29 06:41:05
+uri: do-you-number-tasksquestions
+created: 2010-09-29T06:41:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 12
-    title: Peter Gfader
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 12
+  title: Peter Gfader
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

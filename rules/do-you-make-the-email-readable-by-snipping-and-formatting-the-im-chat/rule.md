@@ -1,12 +1,13 @@
 ---
-uri: do-you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
+type: rule
 title: Do you make the email readable by snipping and formatting the IM chat?
-created: 2015-10-05 04:46:46
+uri: do-you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
+created: 2015-10-05T04:46:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

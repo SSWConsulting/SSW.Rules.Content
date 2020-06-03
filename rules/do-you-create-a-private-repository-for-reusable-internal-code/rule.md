@@ -1,12 +1,13 @@
 ---
-uri: do-you-create-a-private-repository-for-reusable-internal-code
+type: rule
 title: Do you create a private repository for reusable internal code?
-created: 2014-11-27 18:57:56
+uri: do-you-create-a-private-repository-for-reusable-internal-code
+created: 2014-11-27T18:57:56.0000000Z
 authors:
-  - id: 34
-    title: Brendan Richards
----
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

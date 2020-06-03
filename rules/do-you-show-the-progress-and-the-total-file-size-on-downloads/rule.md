@@ -1,12 +1,13 @@
 ---
-uri: do-you-show-the-progress-and-the-total-file-size-on-downloads
+type: rule
 title: Do you show the progress and the total file size on downloads?
-created: 2014-12-16 18:33:09
+uri: do-you-show-the-progress-and-the-total-file-size-on-downloads
+created: 2014-12-16T18:33:09.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: schema---do-you-have-standard-tables-and-columns
+type: rule
 title: Schema - Do you have standard Tables and Columns?
-created: 2019-11-05 22:52:15
+uri: schema---do-you-have-standard-tables-and-columns
+created: 2019-11-05T22:52:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

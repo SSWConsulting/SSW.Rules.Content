@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
+type: rule
 title: Do you use standard question mark when you are going to ask the audience something?
-created: 2010-06-08 09:51:56
-authors:
+uri: do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
+created: 2010-06-08T09:51:56.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-remember-to-change-the-default-title-of-a-newly-created-page
+type: rule
 title: Do you remember to change the default title of a newly created page?
-created: 2015-02-16 02:00:34
-authors:
+uri: do-you-remember-to-change-the-default-title-of-a-newly-created-page
+created: 2015-02-16T02:00:34.0000000Z
+authors: []
 
 ---
-
 
 
 

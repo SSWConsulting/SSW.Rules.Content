@@ -1,12 +1,13 @@
 ---
-uri: how-to-publish-a-report-based-on-a-list
+type: rule
 title: How to publish a report based on a list?
-created: 2009-09-22 08:18:21
+uri: how-to-publish-a-report-based-on-a-list
+created: 2009-09-22T08:18:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

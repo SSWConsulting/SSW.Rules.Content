@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-when-to-use-reporting-services
+type: rule
 title: Do you know when to use Reporting Services?
-created: 2013-07-02 08:25:41
-authors:
+uri: do-you-know-when-to-use-reporting-services
+created: 2013-07-02T08:25:41.0000000Z
+authors: []
 
 ---
-
 
 
 

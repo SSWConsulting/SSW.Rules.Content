@@ -1,11 +1,11 @@
 ---
-uri: does-the-first-form-provide-the-user-product-information
+type: rule
 title: Does the first form provide the user product information?
-created: 2014-12-01 03:49:09
-authors:
+uri: does-the-first-form-provide-the-user-product-information
+created: 2014-12-01T03:49:09.0000000Z
+authors: []
 
 ---
-
 
 
 

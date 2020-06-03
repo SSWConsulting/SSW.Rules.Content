@@ -1,18 +1,19 @@
 ---
-uri: does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule
+type: rule
 title: Does your Scrum Master (aka Project Manager) maintain a strict project schedule?
-created: 2009-03-18 03:16:56
+uri: does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule
+created: 2009-03-18T03:16:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

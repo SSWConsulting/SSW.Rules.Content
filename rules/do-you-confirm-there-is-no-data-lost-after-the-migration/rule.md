@@ -1,12 +1,13 @@
 ---
-uri: do-you-confirm-there-is-no-data-lost-after-the-migration
+type: rule
 title: Do you confirm there is no data lost after the migration
-created: 2010-12-23 07:18:06
+uri: do-you-confirm-there-is-no-data-lost-after-the-migration
+created: 2010-12-23T07:18:06.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

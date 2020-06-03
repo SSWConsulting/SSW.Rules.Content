@@ -1,20 +1,21 @@
 ---
-uri: do-you-know-the-best-tools-for-database-schema-update
+type: rule
 title: Do you know the best tools for Database Schema Update?
-created: 2009-10-06 23:23:45
+uri: do-you-know-the-best-tools-for-database-schema-update
+created: 2009-10-06T23:23:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 40
-    title: Igor Goldobin
-  - id: 24
-    title: Adam Stephensen
-  - id: 53
-    title: Thiago Passos
-  - id: 34
-    title: Brendan Richards
----
+- id: 1
+  title: Adam Cogan
+- id: 40
+  title: Igor Goldobin
+- id: 24
+  title: Adam Stephensen
+- id: 53
+  title: Thiago Passos
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

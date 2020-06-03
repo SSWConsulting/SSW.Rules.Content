@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-correctly-use-the-terms-configuration-customization-and-extending-in-the-crm-context
+type: rule
 title: Do you know how to correctly use the terms Configuration, Customization and Extending in the CRM context?
-created: 2013-06-24 01:43:43
+uri: do-you-know-how-to-correctly-use-the-terms-configuration-customization-and-extending-in-the-crm-context
+created: 2013-06-24T01:43:43.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

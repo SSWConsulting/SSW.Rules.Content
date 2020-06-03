@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-set-up-the-speaker-prior-to-recording
+type: rule
 title: Production - Do you set up the speaker prior to recording?
-created: 2011-07-01 08:40:26
+uri: production---do-you-set-up-the-speaker-prior-to-recording
+created: 2011-07-01T08:40:26.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

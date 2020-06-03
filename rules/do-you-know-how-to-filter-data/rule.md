@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-filter-data
+type: rule
 title: Do you know how to filter data?
-created: 2009-08-24 04:04:26
+uri: do-you-know-how-to-filter-data
+created: 2009-08-24T04:04:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

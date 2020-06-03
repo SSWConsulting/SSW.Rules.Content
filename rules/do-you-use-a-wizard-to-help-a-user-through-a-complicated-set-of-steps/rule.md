@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-a-wizard-to-help-a-user-through-a-complicated-set-of-steps
+type: rule
 title: Do you use a Wizard to help a user through a complicated set of steps?
-created: 2014-12-01 03:43:47
-authors:
+uri: do-you-use-a-wizard-to-help-a-user-through-a-complicated-set-of-steps
+created: 2014-12-01T03:43:47.0000000Z
+authors: []
 
 ---
-
 
 
 

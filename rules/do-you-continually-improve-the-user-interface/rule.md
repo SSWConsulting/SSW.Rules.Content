@@ -1,12 +1,13 @@
 ---
-uri: do-you-continually-improve-the-user-interface
+type: rule
 title: Do you continually improve the user interface?
-created: 2016-11-24 15:39:37
+uri: do-you-continually-improve-the-user-interface
+created: 2016-11-24T15:39:37.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

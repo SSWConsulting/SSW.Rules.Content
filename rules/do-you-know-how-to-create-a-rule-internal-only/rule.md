@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-create-a-rule-internal-only
+type: rule
 title: Do you know how to create a rule? (internal only)
-created: 2014-02-21 20:16:54
+uri: do-you-know-how-to-create-a-rule-internal-only
+created: 2014-02-21T20:16:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

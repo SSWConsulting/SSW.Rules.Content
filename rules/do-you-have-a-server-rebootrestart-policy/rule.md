@@ -1,16 +1,17 @@
 ---
-uri: do-you-have-a-server-rebootrestart-policy
+type: rule
 title: Do you have a server reboot/restart policy?
-created: 2017-06-30 19:21:55
+uri: do-you-have-a-server-rebootrestart-policy
+created: 2017-06-30T19:21:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 47
-    title: Stanley Sidik
-  - id: 71
-    title: Steven Andrews
----
+- id: 1
+  title: Adam Cogan
+- id: 47
+  title: Stanley Sidik
+- id: 71
+  title: Steven Andrews
 
+---
 
 
 

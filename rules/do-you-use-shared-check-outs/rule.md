@@ -1,18 +1,19 @@
 ---
-uri: do-you-use-shared-check-outs
+type: rule
 title: Do you use shared check-outs?
-created: 2011-11-18 03:52:56
+uri: do-you-use-shared-check-outs
+created: 2011-11-18T03:52:56.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 8
-    title: John Liu
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 8
+  title: John Liu
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

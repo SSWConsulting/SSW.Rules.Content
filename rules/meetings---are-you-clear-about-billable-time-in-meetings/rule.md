@@ -1,11 +1,11 @@
 ---
-uri: meetings---are-you-clear-about-billable-time-in-meetings
+type: rule
 title: Meetings - Are you clear about billable time in meetings?
-created: 2010-07-16 06:25:10
-authors:
+uri: meetings---are-you-clear-about-billable-time-in-meetings
+created: 2010-07-16T06:25:10.0000000Z
+authors: []
 
 ---
-
 
 
 

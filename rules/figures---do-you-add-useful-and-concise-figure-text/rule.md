@@ -1,14 +1,15 @@
 ---
-uri: figures---do-you-add-useful-and-concise-figure-text
+type: rule
 title: Figures - Do you add useful and concise figure text?
-created: 2014-12-04 20:24:03
+uri: figures---do-you-add-useful-and-concise-figure-text
+created: 2014-12-04T20:24:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

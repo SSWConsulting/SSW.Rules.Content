@@ -1,14 +1,15 @@
 ---
-uri: do-you-share-every-blog-post
+type: rule
 title: Do you share every blog post?
-created: 2010-03-12 16:58:32
+uri: do-you-share-every-blog-post
+created: 2010-03-12T16:58:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 1
+  title: Adam Cogan
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

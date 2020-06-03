@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-a-hardware-capture-device-to-capture-laptop-video-output
+type: rule
 title: Do you use a hardware capture device to capture laptop video output?
-created: 2017-12-08 21:42:21
+uri: do-you-use-a-hardware-capture-device-to-capture-laptop-video-output
+created: 2017-12-08T21:42:21.0000000Z
 authors:
-  - id: 29
-    title: Raj Dhatt
----
+- id: 29
+  title: Raj Dhatt
 
+---
 
 
 

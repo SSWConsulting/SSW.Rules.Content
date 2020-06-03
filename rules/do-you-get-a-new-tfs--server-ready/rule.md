@@ -1,12 +1,13 @@
 ---
-uri: do-you-get-a-new-tfs--server-ready
+type: rule
 title: Do you get a new TFS 2012 Server ready?
-created: 2012-06-02 01:36:32
+uri: do-you-get-a-new-tfs--server-ready
+created: 2012-06-02T01:36:32.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

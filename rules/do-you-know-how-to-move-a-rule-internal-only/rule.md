@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-move-a-rule-internal-only
+type: rule
 title: Do you know how to move a rule? (internal only)
-created: 2014-10-29 18:09:49
+uri: do-you-know-how-to-move-a-rule-internal-only
+created: 2014-10-29T18:09:49.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
-  - id: 9
-    title: William Yin
----
+- id: 16
+  title: Tiago Araujo
+- id: 9
+  title: William Yin
 
+---
 
 
 

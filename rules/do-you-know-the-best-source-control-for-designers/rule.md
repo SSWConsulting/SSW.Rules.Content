@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-source-control-for-designers
+type: rule
 title: Do you know the best Source Control for designers?
-created: 2014-03-03 04:11:03
+uri: do-you-know-the-best-source-control-for-designers
+created: 2014-03-03T04:11:03.0000000Z
 authors:
-  - id: 20
-    title: Rebecca Liu
-  - id: 1
-    title: Adam Cogan
----
+- id: 20
+  title: Rebecca Liu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

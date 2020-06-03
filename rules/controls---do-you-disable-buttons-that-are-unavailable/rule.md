@@ -1,11 +1,11 @@
 ---
-uri: controls---do-you-disable-buttons-that-are-unavailable
+type: rule
 title: Controls - Do you disable buttons that are unavailable?
-created: 2012-11-27 09:10:26
-authors:
+uri: controls---do-you-disable-buttons-that-are-unavailable
+created: 2012-11-27T09:10:26.0000000Z
+authors: []
 
 ---
-
 
 
 

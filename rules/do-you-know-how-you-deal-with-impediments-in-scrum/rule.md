@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-you-deal-with-impediments-in-scrum
+type: rule
 title: Do you know how you deal with impediments in Scrum?
-created: 2011-08-11 17:54:33
+uri: do-you-know-how-you-deal-with-impediments-in-scrum
+created: 2011-08-11T17:54:33.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 13
-    title: Paul Neumeyer
----
+- id: 1
+  title: Adam Cogan
+- id: 13
+  title: Paul Neumeyer
 
+---
 
 
 

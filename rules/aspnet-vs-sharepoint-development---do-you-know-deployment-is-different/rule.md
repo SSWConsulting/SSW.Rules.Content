@@ -1,14 +1,15 @@
 ---
-uri: aspnet-vs-sharepoint-development---do-you-know-deployment-is-different
+type: rule
 title: ASP.NET vs SharePoint development - do you know deployment is different?
-created: 2009-06-16 00:59:28
+uri: aspnet-vs-sharepoint-development---do-you-know-deployment-is-different
+created: 2009-06-16T00:59:28.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

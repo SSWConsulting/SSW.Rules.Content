@@ -1,16 +1,17 @@
 ---
-uri: ending-a-sprint---do-you-know-what-to-do-when-your-sprint-fails
+type: rule
 title: Ending a sprint - Do you know what to do when your sprint fails?
-created: 2010-09-17 11:50:02
+uri: ending-a-sprint---do-you-know-what-to-do-when-your-sprint-fails
+created: 2010-09-17T11:50:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

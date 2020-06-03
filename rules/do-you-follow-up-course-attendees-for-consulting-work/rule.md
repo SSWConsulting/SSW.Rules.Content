@@ -1,14 +1,15 @@
 ---
-uri: do-you-follow-up-course-attendees-for-consulting-work
+type: rule
 title: Do you follow up course attendees for consulting work?
-created: 2012-08-30 13:07:15
+uri: do-you-follow-up-course-attendees-for-consulting-work
+created: 2012-08-30T13:07:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-create-different-appconfig-for-different-environment
+type: rule
 title: Do You Create Different App.Config for Different Environment?
-created: 2009-12-10 05:23:58
+uri: do-you-create-different-appconfig-for-different-environment
+created: 2009-12-10T05:23:58.0000000Z
 authors:
-  - id: 11
-    title: Andy Taslim
----
+- id: 11
+  title: Andy Taslim
 
+---
 
 
 

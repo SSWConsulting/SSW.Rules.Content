@@ -1,12 +1,13 @@
 ---
-uri: do-you-make-sure-your-screen-recordings-are-easy-to-view
+type: rule
 title: Do you make sure your screen recordings are easy to view?
-created: 2016-05-02 18:41:30
+uri: do-you-make-sure-your-screen-recordings-are-easy-to-view
+created: 2016-05-02T18:41:30.0000000Z
 authors:
-  - id: 55
-    title: Steve Leigh
----
+- id: 55
+  title: Steve Leigh
 
+---
 
 
 

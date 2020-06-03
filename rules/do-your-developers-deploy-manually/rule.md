@@ -1,14 +1,15 @@
 ---
-uri: do-your-developers-deploy-manually
+type: rule
 title: Do your developers deploy manually?
-created: 2012-01-30 18:42:41
+uri: do-your-developers-deploy-manually
+created: 2012-01-30T18:42:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: scheduling---do-you-have-a-consistent-naming-convention-for-your-bookings
+type: rule
 title: Scheduling - Do you have a consistent naming convention for your bookings?
-created: 2014-06-30 06:32:15
-authors:
+uri: scheduling---do-you-have-a-consistent-naming-convention-for-your-bookings
+created: 2014-06-30T06:32:15.0000000Z
+authors: []
 
 ---
-
 
 
 

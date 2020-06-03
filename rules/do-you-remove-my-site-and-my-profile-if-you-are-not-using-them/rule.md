@@ -1,16 +1,17 @@
 ---
-uri: do-you-remove-my-site-and-my-profile-if-you-are-not-using-them
+type: rule
 title: Do you remove ‘My Site’ and ‘My Profile’ if you are not using them?
-created: 2010-10-15 08:33:09
+uri: do-you-remove-my-site-and-my-profile-if-you-are-not-using-them
+created: 2010-10-15T08:33:09.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 8
-    title: John Liu
-  - id: 9
-    title: William Yin
----
+- id: 1
+  title: Adam Cogan
+- id: 8
+  title: John Liu
+- id: 9
+  title: William Yin
 
+---
 
 
 

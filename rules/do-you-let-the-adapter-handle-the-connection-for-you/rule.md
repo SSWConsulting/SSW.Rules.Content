@@ -1,14 +1,15 @@
 ---
-uri: do-you-let-the-adapter-handle-the-connection-for-you
+type: rule
 title: Do you let the adapter handle the connection for you?
-created: 2009-04-29 07:35:13
+uri: do-you-let-the-adapter-handle-the-connection-for-you
+created: 2009-04-29T07:35:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

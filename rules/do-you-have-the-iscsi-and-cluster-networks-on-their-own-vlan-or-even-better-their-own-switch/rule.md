@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-the-iscsi-and-cluster-networks-on-their-own-vlan-or-even-better-their-own-switch
+type: rule
 title: Do you have the iSCSI and Cluster networks on their own VLAN (or even better their own switch)?
-created: 2012-03-02 18:28:49
-authors:
+uri: do-you-have-the-iscsi-and-cluster-networks-on-their-own-vlan-or-even-better-their-own-switch
+created: 2012-03-02T18:28:49.0000000Z
+authors: []
 
 ---
-
 
 
 

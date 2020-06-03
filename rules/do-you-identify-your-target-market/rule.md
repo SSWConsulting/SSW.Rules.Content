@@ -1,12 +1,13 @@
 ---
-uri: do-you-identify-your-target-market
+type: rule
 title: Do you identify your target market?
-created: 2014-10-13 16:55:26
+uri: do-you-identify-your-target-market
+created: 2014-10-13T16:55:26.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

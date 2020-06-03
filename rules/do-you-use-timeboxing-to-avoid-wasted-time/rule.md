@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-timeboxing-to-avoid-wasted-time
+type: rule
 title: Do you use Timeboxing to avoid wasted time?
-created: 2013-11-18 07:28:57
+uri: do-you-use-timeboxing-to-avoid-wasted-time
+created: 2013-11-18T07:28:57.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
----
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

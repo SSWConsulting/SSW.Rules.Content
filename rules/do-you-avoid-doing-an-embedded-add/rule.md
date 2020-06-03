@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-doing-an-embedded-add
+type: rule
 title: Do you avoid doing an embedded 'Add'?
-created: 2014-12-01 00:01:42
-authors:
+uri: do-you-avoid-doing-an-embedded-add
+created: 2014-12-01T00:01:42.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: slide-master---do-you-have-your-logo-and-tag-line-at-the-bottom
+type: rule
 title: Slide Master - Do you have your logo and tag line at the bottom?
-created: 2010-06-08 08:41:21
-authors:
+uri: slide-master---do-you-have-your-logo-and-tag-line-at-the-bottom
+created: 2010-06-08T08:41:21.0000000Z
+authors: []
 
 ---
-
 
 
 

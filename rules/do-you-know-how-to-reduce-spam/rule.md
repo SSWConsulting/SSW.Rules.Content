@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-reduce-spam
+type: rule
 title: Do you know how to reduce spam?
-created: 2009-04-07 07:49:39
+uri: do-you-know-how-to-reduce-spam
+created: 2009-04-07T07:49:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-contact-the-media-from-time-to-time
+type: rule
 title: Do you contact the media from time to time?
-created: 2015-02-04 16:41:50
+uri: do-you-contact-the-media-from-time-to-time
+created: 2015-02-04T16:41:50.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
----
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

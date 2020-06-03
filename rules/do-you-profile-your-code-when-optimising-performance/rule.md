@@ -1,14 +1,15 @@
 ---
-uri: do-you-profile-your-code-when-optimising-performance
+type: rule
 title: Do you profile your code when optimising performance?
-created: 2009-05-06 08:54:43
+uri: do-you-profile-your-code-when-optimising-performance
+created: 2009-05-06T08:54:43.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

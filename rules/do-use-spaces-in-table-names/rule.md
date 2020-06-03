@@ -1,12 +1,13 @@
 ---
-uri: do-use-spaces-in-table-names
+type: rule
 title: Do use spaces in table names?
-created: 2010-07-22 05:09:16
+uri: do-use-spaces-in-table-names
+created: 2010-07-22T05:09:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

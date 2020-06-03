@@ -1,12 +1,13 @@
 ---
-uri: do-you-how-to-connect-to-your-control-director-via-ssh
+type: rule
 title: Do you how to connect to your Control4 Director via SSH?
-created: 2017-11-02 23:46:41
+uri: do-you-how-to-connect-to-your-control-director-via-ssh
+created: 2017-11-02T23:46:41.0000000Z
 authors:
-  - id: 70
-    title: Greg Harris
----
+- id: 70
+  title: Greg Harris
 
+---
 
 
 

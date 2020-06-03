@@ -1,12 +1,13 @@
 ---
-uri: the-application---do-you-show-what-version-the-app-is-and-what-version-the-database-is
+type: rule
 title: The application - Do you show what version the App is, and what version the Database is?
-created: 2009-10-05 05:26:57
+uri: the-application---do-you-show-what-version-the-app-is-and-what-version-the-database-is
+created: 2009-10-05T05:26:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-avoid-using-threadsleep-in-your-silverlight-application
+type: rule
 title: Do you avoid using Thread.Sleep in your Silverlight application?
-created: 2011-05-20 07:34:58
+uri: do-you-avoid-using-threadsleep-in-your-silverlight-application
+created: 2011-05-20T07:34:58.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

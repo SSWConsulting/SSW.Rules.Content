@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-how-to-create-a-customer-portal-in-sharepoint
+type: rule
 title: Do you know how to create a "Customer Portal" (in SharePoint)?
-created: 2009-05-28 06:51:18
+uri: do-you-know-how-to-create-a-customer-portal-in-sharepoint
+created: 2009-05-28T06:51:18.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 19
-    title: Sumesh Ghimire
-  - id: 1
-    title: Adam Cogan
----
+- id: 9
+  title: William Yin
+- id: 19
+  title: Sumesh Ghimire
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

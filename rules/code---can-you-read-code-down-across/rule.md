@@ -1,12 +1,13 @@
 ---
-uri: code---can-you-read-code-down-across
+type: rule
 title: Code - Can you read code down across?
-created: 2012-04-01 02:25:09
+uri: code---can-you-read-code-down-across
+created: 2012-04-01T02:25:09.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

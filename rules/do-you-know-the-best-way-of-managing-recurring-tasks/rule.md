@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-way-of-managing-recurring-tasks
+type: rule
 title: Do you know the best way of managing recurring tasks?
-created: 2009-02-28 09:42:21
+uri: do-you-know-the-best-way-of-managing-recurring-tasks
+created: 2009-02-28T09:42:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

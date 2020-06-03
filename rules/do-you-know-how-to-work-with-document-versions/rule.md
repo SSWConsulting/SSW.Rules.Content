@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-work-with-document-versions
+type: rule
 title: Do you know how to work with document versions?
-created: 2009-07-23 03:16:53
+uri: do-you-know-how-to-work-with-document-versions
+created: 2009-07-23T03:16:53.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 1
-    title: Adam Cogan
----
+- id: 8
+  title: John Liu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

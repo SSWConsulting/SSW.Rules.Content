@@ -1,11 +1,11 @@
 ---
-uri: do-you-give-implementation-examples-where-appropriate
+type: rule
 title: Do you give implementation examples where appropriate?
-created: 2010-03-19 00:39:38
-authors:
+uri: do-you-give-implementation-examples-where-appropriate
+created: 2010-03-19T00:39:38.0000000Z
+authors: []
 
 ---
-
 
 
 

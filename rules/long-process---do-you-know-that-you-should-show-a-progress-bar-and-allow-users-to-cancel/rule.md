@@ -1,11 +1,11 @@
 ---
-uri: long-process---do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel
+type: rule
 title: Long Process - Do you know that you should show a progress bar and allow users to cancel?
-created: 2012-11-27 03:05:05
-authors:
+uri: long-process---do-you-know-that-you-should-show-a-progress-bar-and-allow-users-to-cancel
+created: 2012-11-27T03:05:05.0000000Z
+authors: []
 
 ---
-
 
 
 

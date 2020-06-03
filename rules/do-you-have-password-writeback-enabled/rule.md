@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-password-writeback-enabled
+type: rule
 title: Do you have Password Writeback enabled?
-created: 2018-11-13 04:10:57
+uri: do-you-have-password-writeback-enabled
+created: 2018-11-13T04:10:57.0000000Z
 authors:
-  - id: 73
-    title: Kaique Biancatti
----
+- id: 73
+  title: Kaique Biancatti
 
+---
 
 
 

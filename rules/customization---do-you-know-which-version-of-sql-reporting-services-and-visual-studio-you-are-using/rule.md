@@ -1,14 +1,15 @@
 ---
-uri: customization---do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+type: rule
 title: Customization - Do you know which version of SQL Reporting Services and Visual Studio you are using?
-created: 2012-12-10 18:37:44
+uri: customization---do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+created: 2012-12-10T18:37:44.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 1
+  title: Adam Cogan
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

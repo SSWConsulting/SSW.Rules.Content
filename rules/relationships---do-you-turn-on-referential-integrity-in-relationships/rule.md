@@ -1,12 +1,13 @@
 ---
-uri: relationships---do-you-turn-on-referential-integrity-in-relationships
+type: rule
 title: Relationships - Do you turn on referential integrity in relationships?
-created: 2019-11-12 23:56:31
+uri: relationships---do-you-turn-on-referential-integrity-in-relationships
+created: 2019-11-12T23:56:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

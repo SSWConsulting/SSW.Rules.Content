@@ -1,11 +1,11 @@
 ---
-uri: do-you-encourage-experimentation
+type: rule
 title: Do you encourage experimentation?
-created: 2013-10-31 02:57:11
-authors:
+uri: do-you-encourage-experimentation
+created: 2013-10-31T02:57:11.0000000Z
+authors: []
 
 ---
-
 
 
 

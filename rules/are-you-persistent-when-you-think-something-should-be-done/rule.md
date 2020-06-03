@@ -1,11 +1,11 @@
 ---
-uri: are-you-persistent-when-you-think-something-should-be-done
+type: rule
 title: Are you persistent when you think something should be done?
-created: 2010-07-16 04:37:16
-authors:
+uri: are-you-persistent-when-you-think-something-should-be-done
+created: 2010-07-16T04:37:16.0000000Z
+authors: []
 
 ---
-
 
 
 

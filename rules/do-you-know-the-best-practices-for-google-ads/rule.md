@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-practices-for-google-ads
+type: rule
 title: Do you know the Best Practices for Google Ads?
-created: 2019-03-26 22:55:01
+uri: do-you-know-the-best-practices-for-google-ads
+created: 2019-03-26T22:55:01.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

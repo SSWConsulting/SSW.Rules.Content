@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-using-a-counter
+type: rule
 title: Do you avoid using a Counter?
-created: 2015-02-13 02:50:11
-authors:
+uri: do-you-avoid-using-a-counter
+created: 2015-02-13T02:50:11.0000000Z
+authors: []
 
 ---
-
 
 
 

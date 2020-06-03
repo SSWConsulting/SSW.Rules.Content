@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-add-a-call-to-action
+type: rule
 title: Production - Do you add a call to action?
-created: 2011-10-05 18:10:55
+uri: production---do-you-add-a-call-to-action
+created: 2011-10-05T18:10:55.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

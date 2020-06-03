@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-when-to-use-git-for-version-control
+type: rule
 title: Do you know when to use Git for version control?
-created: 2013-08-21 16:39:49
+uri: do-you-know-when-to-use-git-for-version-control
+created: 2013-08-21T16:39:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
-  - id: 23
-    title: Damian Brady
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

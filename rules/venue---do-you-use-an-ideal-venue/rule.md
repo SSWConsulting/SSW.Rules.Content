@@ -1,11 +1,11 @@
 ---
-uri: venue---do-you-use-an-ideal-venue
+type: rule
 title: Venue - Do you use an ideal venue?
-created: 2014-12-30 23:45:47
-authors:
+uri: venue---do-you-use-an-ideal-venue
+created: 2014-12-30T23:45:47.0000000Z
+authors: []
 
 ---
-
 
 
 

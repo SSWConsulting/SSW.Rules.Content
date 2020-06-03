@@ -1,14 +1,15 @@
 ---
-uri: fix-html---do-you-implement-css-friendly
+type: rule
 title: Fix HTML - Do you implement CSS friendly?
-created: 2009-06-16 01:52:11
+uri: fix-html---do-you-implement-css-friendly
+created: 2009-06-16T01:52:11.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

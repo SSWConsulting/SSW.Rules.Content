@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-subdomains-instead-of-virtual-directories
+type: rule
 title: Do you use subdomains instead of virtual directories?
-created: 2013-10-14 07:53:27
+uri: do-you-use-subdomains-instead-of-virtual-directories
+created: 2013-10-14T07:53:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

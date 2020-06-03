@@ -1,14 +1,15 @@
 ---
-uri: do-you-disable-insecure-protocols
+type: rule
 title: Do you disable insecure protocols?
-created: 2017-11-02 22:51:47
+uri: do-you-disable-insecure-protocols
+created: 2017-11-02T22:51:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 71
-    title: Steven Andrews
----
+- id: 1
+  title: Adam Cogan
+- id: 71
+  title: Steven Andrews
 
+---
 
 
 

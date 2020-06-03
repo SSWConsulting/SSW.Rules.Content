@@ -1,14 +1,15 @@
 ---
-uri: do-you-process-approvals-in-a-timely-manner
+type: rule
 title: Do you process approvals in a timely manner?
-created: 2019-07-05 21:54:17
+uri: do-you-process-approvals-in-a-timely-manner
+created: 2019-07-05T21:54:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 95
-    title: Matthew Sampias
----
+- id: 1
+  title: Adam Cogan
+- id: 95
+  title: Matthew Sampias
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: post-production---do-you-use-a-version-number-on-your-videos
+type: rule
 title: Post-Production - Do you use a Version Number on your Videos?
-created: 2012-02-14 06:32:51
+uri: post-production---do-you-use-a-version-number-on-your-videos
+created: 2012-02-14T06:32:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

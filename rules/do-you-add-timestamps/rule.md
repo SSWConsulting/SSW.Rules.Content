@@ -1,11 +1,11 @@
 ---
-uri: do-you-add-timestamps
+type: rule
 title: Do you add timestamps?
-created: 2014-07-17 21:42:47
-authors:
+uri: do-you-add-timestamps
+created: 2014-07-17T21:42:47.0000000Z
+authors: []
 
 ---
-
 
 
 

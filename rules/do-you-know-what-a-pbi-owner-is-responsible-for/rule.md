@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-what-a-pbi-owner-is-responsible-for
+type: rule
 title: Do you know what a PBI Owner is responsible for?
-created: 2010-05-12 22:30:32
-authors:
+uri: do-you-know-what-a-pbi-owner-is-responsible-for
+created: 2010-05-12T22:30:32.0000000Z
+authors: []
 
 ---
-
 
 
 

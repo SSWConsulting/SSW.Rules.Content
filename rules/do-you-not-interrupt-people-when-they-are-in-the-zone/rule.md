@@ -1,12 +1,13 @@
 ---
-uri: do-you-not-interrupt-people-when-they-are-in-the-zone
+type: rule
 title: Do you not interrupt people when they are in the zone?
-created: 2012-08-27 21:31:15
+uri: do-you-not-interrupt-people-when-they-are-in-the-zone
+created: 2012-08-27T21:31:15.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
----
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
+type: rule
 title: Do you Reward your developers for completing a release on time and budget?
-created: 2009-12-04 09:33:59
+uri: do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
+created: 2009-12-04T09:33:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-create-a-new-web-application-and-site-collection-in-sharepoint-
+type: rule
 title: Do you know how to create a new web application and site collection in SharePoint 2010?
-created: 2010-12-23 06:33:40
+uri: do-you-know-how-to-create-a-new-web-application-and-site-collection-in-sharepoint-
+created: 2010-12-23T06:33:40.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 9
-    title: William Yin
----
+- id: 21
+  title: Matthew Hodgkins
+- id: 9
+  title: William Yin
 
+---
 
 
 

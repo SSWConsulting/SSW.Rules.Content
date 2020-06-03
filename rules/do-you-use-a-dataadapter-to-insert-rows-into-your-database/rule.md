@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-a-dataadapter-to-insert-rows-into-your-database
+type: rule
 title: Do you use a DataAdapter to insert rows into your database?
-created: 2009-05-05 05:30:52
+uri: do-you-use-a-dataadapter-to-insert-rows-into-your-database
+created: 2009-05-05T05:30:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-numbers-you-give-clients
+type: rule
 title: Do you know the numbers you give clients?
-created: 2010-07-16 06:50:39
-authors:
+uri: do-you-know-the-numbers-you-give-clients
+created: 2010-07-16T06:50:39.0000000Z
+authors: []
 
 ---
-
 
 
 

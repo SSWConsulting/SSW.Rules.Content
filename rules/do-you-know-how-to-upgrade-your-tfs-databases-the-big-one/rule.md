@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-upgrade-your-tfs-databases-the-big-one
+type: rule
 title: Do you know how to upgrade your TFS2010 databases? (the big one)
-created: 2012-06-02 01:36:36
+uri: do-you-know-how-to-upgrade-your-tfs-databases-the-big-one
+created: 2012-06-02T01:36:36.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

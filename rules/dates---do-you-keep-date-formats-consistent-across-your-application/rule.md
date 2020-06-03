@@ -1,11 +1,11 @@
 ---
-uri: dates---do-you-keep-date-formats-consistent-across-your-application
+type: rule
 title: Dates - Do you keep Date formats consistent across your application?
-created: 2014-12-01 05:59:36
-authors:
+uri: dates---do-you-keep-date-formats-consistent-across-your-application
+created: 2014-12-01T05:59:36.0000000Z
+authors: []
 
 ---
-
 
 
 

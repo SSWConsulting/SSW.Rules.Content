@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-a-way-of-selling-tickets
+type: rule
 title: Do you have a way of selling tickets?
-created: 2014-12-31 00:16:25
-authors:
+uri: do-you-have-a-way-of-selling-tickets
+created: 2014-12-31T00:16:25.0000000Z
+authors: []
 
 ---
-
 
 
 

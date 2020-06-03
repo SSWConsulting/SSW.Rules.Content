@@ -1,12 +1,13 @@
 ---
-uri: do-you-manage-your-papers
+type: rule
 title: Do you manage your papers?
-created: 2009-03-10 08:59:16
+uri: do-you-manage-your-papers
+created: 2009-03-10T08:59:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

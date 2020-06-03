@@ -1,20 +1,21 @@
 ---
-uri: spec---do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
+type: rule
 title: Spec - Do you conduct a Specification Review? (Ask for a coffee not a marriage)
-created: 2009-03-03 05:04:02
+uri: spec---do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
+created: 2009-03-03T05:04:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 3
-    title: Eric Phan
-  - id: 68
-    title: Edgar Rocha
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 3
+  title: Eric Phan
+- id: 68
+  title: Edgar Rocha
 
+---
 
 
 

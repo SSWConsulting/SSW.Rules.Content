@@ -1,18 +1,19 @@
 ---
-uri: do-you-use--and-indentation-to-keep-the-context
+type: rule
 title: Do you use > and indentation to keep the context?
-created: 2009-03-31 02:23:50
+uri: do-you-use--and-indentation-to-keep-the-context
+created: 2009-03-31T02:23:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 13
-    title: Paul Neumeyer
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 13
+  title: Paul Neumeyer
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

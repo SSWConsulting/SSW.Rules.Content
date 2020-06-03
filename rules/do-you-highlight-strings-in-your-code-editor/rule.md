@@ -1,14 +1,15 @@
 ---
-uri: do-you-highlight-strings-in-your-code-editor
+type: rule
 title: Do you highlight strings in your code editor?
-created: 2009-05-11 07:45:41
+uri: do-you-highlight-strings-in-your-code-editor
+created: 2009-05-11T07:45:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-hard-code-your-connectionstring
+type: rule
 title: Do you hard code your ConnectionString?
-created: 2009-04-29 05:36:44
+uri: do-you-hard-code-your-connectionstring
+created: 2009-04-29T05:36:44.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

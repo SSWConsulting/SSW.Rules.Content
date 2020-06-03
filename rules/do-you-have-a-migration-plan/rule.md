@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-migration-plan
+type: rule
 title: Do you have a Migration plan?
-created: 2018-01-17 19:21:26
+uri: do-you-have-a-migration-plan
+created: 2018-01-17T19:21:26.0000000Z
 authors:
-  - id: 69
-    title: Jean Thirion
----
+- id: 69
+  title: Jean Thirion
 
+---
 
 
 

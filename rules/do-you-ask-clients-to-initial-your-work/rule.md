@@ -1,12 +1,13 @@
 ---
-uri: do-you-ask-clients-to-initial-your-work
+type: rule
 title: Do you ask clients to initial your work?
-created: 2009-03-17 07:27:19
+uri: do-you-ask-clients-to-initial-your-work
+created: 2009-03-17T07:27:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

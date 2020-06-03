@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-this-quick-fix-for-sharepoint-javascript-errors-that-prevents-you-from-switching-page-layout
+type: rule
 title: Do you know this quick fix for SharePoint JavaScript errors that prevents you from switching page layout?
-created: 2011-03-23 09:51:35
+uri: do-you-know-this-quick-fix-for-sharepoint-javascript-errors-that-prevents-you-from-switching-page-layout
+created: 2011-03-23T09:51:35.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

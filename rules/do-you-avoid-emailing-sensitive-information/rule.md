@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-emailing-sensitive-information
+type: rule
 title: Do you avoid emailing sensitive information?
-created: 2009-03-31 03:01:59
+uri: do-you-avoid-emailing-sensitive-information
+created: 2009-03-31T03:01:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

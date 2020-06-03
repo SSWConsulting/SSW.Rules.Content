@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-where-the-qr-code-scanner-should-be-on-a-ui
+type: rule
 title: Do you know where the QR code scanner should be on a UI?
-created: 2019-05-20 07:07:48
+uri: do-you-know-where-the-qr-code-scanner-should-be-on-a-ui
+created: 2019-05-20T07:07:48.0000000Z
 authors:
-  - id: 90
-    title: Ken Shi
----
+- id: 90
+  title: Ken Shi
 
+---
 
 
 

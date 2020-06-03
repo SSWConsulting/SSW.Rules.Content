@@ -1,14 +1,15 @@
 ---
-uri: do-you-keep-images-folder-image-only
+type: rule
 title: Do you keep \images folder image only?
-created: 2009-05-05 05:59:38
+uri: do-you-keep-images-folder-image-only
+created: 2009-05-05T05:59:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

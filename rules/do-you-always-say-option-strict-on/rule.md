@@ -1,14 +1,15 @@
 ---
-uri: do-you-always-say-option-strict-on
+type: rule
 title: Do you always say "Option Strict On"?
-created: 2009-04-27 09:15:28
+uri: do-you-always-say-option-strict-on
+created: 2009-04-27T09:15:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

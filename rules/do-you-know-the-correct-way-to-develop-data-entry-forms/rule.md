@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-correct-way-to-develop-data-entry-forms
+type: rule
 title: Do you know the correct way to develop Data Entry Forms?
-created: 2014-12-01 00:36:14
-authors:
+uri: do-you-know-the-correct-way-to-develop-data-entry-forms
+created: 2014-12-01T00:36:14.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: appointments---do-you-know-how-to-reply-all-to-an-appointment
+type: rule
 title: Appointments - Do you know how to Reply All to an Appointment?
-created: 2009-04-03 05:16:31
+uri: appointments---do-you-know-how-to-reply-all-to-an-appointment
+created: 2009-04-03T05:16:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

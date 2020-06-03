@@ -1,12 +1,13 @@
 ---
-uri: do-you-turn-on-development-errors-and-platform-tracing
+type: rule
 title: Do you turn on 'Development Errors' and 'Platform Tracing'?
-created: 2012-12-10 17:51:37
+uri: do-you-turn-on-development-errors-and-platform-tracing
+created: 2012-12-10T17:51:37.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

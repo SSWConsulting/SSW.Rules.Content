@@ -1,12 +1,13 @@
 ---
-uri: do-you-make-sure-that-all-your-tags-are-well-formed-
+type: rule
 title: Do you make sure that all your tags are well formed ?
-created: 2011-04-28 09:29:10
+uri: do-you-make-sure-that-all-your-tags-are-well-formed-
+created: 2011-04-28T09:29:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

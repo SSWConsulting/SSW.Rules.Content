@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-null-condition-operators-when-getting-values-from-objects
+type: rule
 title: Do you use null condition operators when getting values from objects
-created: 2020-01-29 05:20:27
+uri: do-you-use-null-condition-operators-when-getting-values-from-objects
+created: 2020-01-29T05:20:27.0000000Z
 authors:
-  - id: 66
-    title: Liam Elliott
-  - id: 78
-    title: Matt Wicks
----
+- id: 66
+  title: Liam Elliott
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

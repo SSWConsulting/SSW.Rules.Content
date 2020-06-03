@@ -1,11 +1,11 @@
 ---
-uri: controls---do-you-include--all--option-in-your-comboboxes
+type: rule
 title: Controls - Do you include '-All-' option in your ComboBoxes?
-created: 2012-11-27 08:38:56
-authors:
+uri: controls---do-you-include--all--option-in-your-comboboxes
+created: 2012-11-27T08:38:56.0000000Z
+authors: []
 
 ---
-
 
 
 

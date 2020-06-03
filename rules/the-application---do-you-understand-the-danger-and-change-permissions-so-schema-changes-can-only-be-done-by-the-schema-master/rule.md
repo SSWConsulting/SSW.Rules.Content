@@ -1,12 +1,13 @@
 ---
-uri: the-application---do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
+type: rule
 title: The application - Do you understand the danger, and change permissions so "Schema Changes" can only be done by the "Schema Master"?
-created: 2009-10-07 00:04:12
+uri: the-application---do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
+created: 2009-10-07T00:04:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

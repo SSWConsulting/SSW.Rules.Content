@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-right-way-to-do-a-demo-slide
+type: rule
 title: Do you know the right way to do a 'Demo' slide?
-created: 2010-06-08 09:50:02
-authors:
+uri: do-you-know-the-right-way-to-do-a-demo-slide
+created: 2010-06-08T09:50:02.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-write-the-word-email-in-the-correct-format
+type: rule
 title: Do you write the word 'email' in the correct format?
-created: 2014-12-17 05:54:22
+uri: do-you-write-the-word-email-in-the-correct-format
+created: 2014-12-17T05:54:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

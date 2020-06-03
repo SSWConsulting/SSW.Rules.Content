@@ -1,11 +1,11 @@
 ---
-uri: do-you-add-a-version-number-to-pbis-that-have-multiple-iterations
+type: rule
 title: Do you add a version number to PBIs that have multiple iterations
-created: 2014-11-19 05:38:05
-authors:
+uri: do-you-add-a-version-number-to-pbis-that-have-multiple-iterations
+created: 2014-11-19T05:38:05.0000000Z
+authors: []
 
 ---
-
 
 
 

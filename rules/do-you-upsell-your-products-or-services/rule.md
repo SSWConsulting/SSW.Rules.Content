@@ -1,12 +1,13 @@
 ---
-uri: do-you-upsell-your-products-or-services
+type: rule
 title: Do you upsell your products or services?
-created: 2018-06-08 21:27:55
+uri: do-you-upsell-your-products-or-services
+created: 2018-06-08T21:27:55.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

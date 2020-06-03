@@ -1,12 +1,13 @@
 ---
-uri: communication---do-you-notify-others-about-what-is-happening-in-the-company
+type: rule
 title: Communication - Do you notify others about what is happening in the company?
-created: 2012-09-25 17:54:03
+uri: communication---do-you-notify-others-about-what-is-happening-in-the-company
+created: 2012-09-25T17:54:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

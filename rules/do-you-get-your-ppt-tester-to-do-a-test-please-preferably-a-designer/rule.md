@@ -1,11 +1,11 @@
 ---
-uri: do-you-get-your-ppt-tester-to-do-a-test-please-preferably-a-designer
+type: rule
 title: Do you get your "PPT Tester" to do a 'Test Please' (preferably a designer)?
-created: 2010-06-08 10:08:01
-authors:
+uri: do-you-get-your-ppt-tester-to-do-a-test-please-preferably-a-designer
+created: 2010-06-08T10:08:01.0000000Z
+authors: []
 
 ---
-
 
 
 

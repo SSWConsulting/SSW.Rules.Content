@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-monetize-apps
+type: rule
 title: Do you know how to monetize apps?
-created: 2017-06-15 17:20:06
+uri: do-you-know-how-to-monetize-apps
+created: 2017-06-15T17:20:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

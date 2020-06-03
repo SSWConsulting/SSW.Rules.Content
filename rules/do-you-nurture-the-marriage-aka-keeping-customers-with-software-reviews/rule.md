@@ -1,14 +1,15 @@
 ---
-uri: do-you-nurture-the-marriage-aka-keeping-customers-with-software-reviews
+type: rule
 title: Do you nurture the marriage? (aka Keeping customers with "Software Reviews")
-created: 2012-08-30 13:02:48
+uri: do-you-nurture-the-marriage-aka-keeping-customers-with-software-reviews
+created: 2012-08-30T13:02:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

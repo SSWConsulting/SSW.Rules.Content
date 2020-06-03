@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-events-to-market-your-consulting-work
+type: rule
 title: Do you use Events to market your consulting work?
-created: 2014-02-04 12:58:20
+uri: do-you-use-events-to-market-your-consulting-work
+created: 2014-02-04T12:58:20.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-indicate-when-you-are-sending-an-email-on-behalf-of-someone-else
+type: rule
 title: Do you indicate when you are sending an email on behalf of someone else?
-created: 2013-07-30 21:24:59
+uri: do-you-indicate-when-you-are-sending-an-email-on-behalf-of-someone-else
+created: 2013-07-30T21:24:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

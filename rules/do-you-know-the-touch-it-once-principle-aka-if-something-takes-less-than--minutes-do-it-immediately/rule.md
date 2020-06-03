@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-touch-it-once-principle-aka-if-something-takes-less-than--minutes-do-it-immediately
+type: rule
 title: Do you know the "touch it once" principle? (AKA if something takes less than 5 minutes, do it immediately)
-created: 2018-11-20 17:42:47
+uri: do-you-know-the-touch-it-once-principle-aka-if-something-takes-less-than--minutes-do-it-immediately
+created: 2018-11-20T17:42:47.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

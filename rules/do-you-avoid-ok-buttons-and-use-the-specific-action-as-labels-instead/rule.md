@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
+type: rule
 title: Do you avoid “OK” buttons and use the specific action as labels instead?
-created: 2014-12-10 20:22:02
+uri: do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
+created: 2014-12-10T20:22:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

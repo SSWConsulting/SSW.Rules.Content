@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-general-tips-for-booking-flights
+type: rule
 title: Do you know the general tips for booking flights?
-created: 2015-04-28 02:57:03
+uri: do-you-know-the-general-tips-for-booking-flights
+created: 2015-04-28T02:57:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 41
-    title: Joanna Feely
----
+- id: 1
+  title: Adam Cogan
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

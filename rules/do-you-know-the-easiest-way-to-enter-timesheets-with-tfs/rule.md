@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-easiest-way-to-enter-timesheets-with-tfs
+type: rule
 title: Do you know the easiest way to enter timesheets with TFS?
-created: 2011-08-29 20:58:11
+uri: do-you-know-the-easiest-way-to-enter-timesheets-with-tfs
+created: 2011-08-29T20:58:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

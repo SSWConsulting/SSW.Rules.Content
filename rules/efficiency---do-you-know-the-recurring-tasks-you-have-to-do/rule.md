@@ -1,12 +1,13 @@
 ---
-uri: efficiency---do-you-know-the-recurring-tasks-you-have-to-do
+type: rule
 title: Efficiency - Do you know the recurring tasks you have to do?
-created: 2012-09-25 18:07:24
+uri: efficiency---do-you-know-the-recurring-tasks-you-have-to-do
+created: 2012-09-25T18:07:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

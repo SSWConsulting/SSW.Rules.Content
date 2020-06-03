@@ -1,11 +1,11 @@
 ---
-uri: controls---do-you-use-text-boxes-for-displaying-data
+type: rule
 title: Controls - Do you use Text Boxes for displaying data?
-created: 2012-11-27 09:21:17
-authors:
+uri: controls---do-you-use-text-boxes-for-displaying-data
+created: 2012-11-27T09:21:17.0000000Z
+authors: []
 
 ---
-
 
 
 

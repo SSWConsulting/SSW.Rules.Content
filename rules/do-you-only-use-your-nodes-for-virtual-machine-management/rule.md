@@ -1,11 +1,11 @@
 ---
-uri: do-you-only-use-your-nodes-for-virtual-machine-management
+type: rule
 title: Do you only use your nodes for Virtual Machine Management?
-created: 2012-03-02 19:35:14
-authors:
+uri: do-you-only-use-your-nodes-for-virtual-machine-management
+created: 2012-03-02T19:35:14.0000000Z
+authors: []
 
 ---
-
 
 
 

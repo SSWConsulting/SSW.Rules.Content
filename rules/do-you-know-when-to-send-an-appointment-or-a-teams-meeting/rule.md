@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-to-send-an-appointment-or-a-teams-meeting
+type: rule
 title: Do you know when to send an Appointment or a Teams Meeting?
-created: 2020-03-27 21:29:28
+uri: do-you-know-when-to-send-an-appointment-or-a-teams-meeting
+created: 2020-03-27T21:29:28.0000000Z
 authors:
-  - id: 69
-    title: Jean Thirion
-  - id: 78
-    title: Matt Wicks
----
+- id: 69
+  title: Jean Thirion
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

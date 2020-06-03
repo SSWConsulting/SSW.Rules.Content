@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-bitly-to-manage-your-url-shortening
+type: rule
 title: Do you use bit.ly to manage your URL shortening?
-created: 2013-03-05 20:41:10
+uri: do-you-use-bitly-to-manage-your-url-shortening
+created: 2013-03-05T20:41:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

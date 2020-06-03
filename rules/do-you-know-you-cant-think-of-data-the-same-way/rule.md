@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-you-cant-think-of-data-the-same-way
+type: rule
 title: Do you know you can't think of data the same way?
-created: 2009-05-21 23:35:36
+uri: do-you-know-you-cant-think-of-data-the-same-way
+created: 2009-05-21T23:35:36.0000000Z
 authors:
-  - id: 18
-    title: Jay Lin
----
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

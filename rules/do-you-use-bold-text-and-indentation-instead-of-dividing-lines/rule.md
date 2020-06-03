@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-bold-text-and-indentation-instead-of-dividing-lines
+type: rule
 title: Do you use bold text and indentation, instead of dividing lines?
-created: 2014-12-01 04:06:48
+uri: do-you-use-bold-text-and-indentation-instead-of-dividing-lines
+created: 2014-12-01T04:06:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

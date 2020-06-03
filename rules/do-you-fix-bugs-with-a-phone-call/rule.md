@@ -1,12 +1,13 @@
 ---
-uri: do-you-fix-bugs-with-a-phone-call
+type: rule
 title: Do you fix bugs with a phone call?
-created: 2020-03-25 23:32:52
+uri: do-you-fix-bugs-with-a-phone-call
+created: 2020-03-25T23:32:52.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

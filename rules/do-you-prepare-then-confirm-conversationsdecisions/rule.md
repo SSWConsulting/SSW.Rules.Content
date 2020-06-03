@@ -1,14 +1,15 @@
 ---
-uri: do-you-prepare-then-confirm-conversationsdecisions
+type: rule
 title: Do you prepare, then confirm conversations/decisions?
-created: 2009-03-25 05:43:42
+uri: do-you-prepare-then-confirm-conversationsdecisions
+created: 2009-03-25T05:43:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

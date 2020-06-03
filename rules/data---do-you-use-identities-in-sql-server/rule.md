@@ -1,12 +1,13 @@
 ---
-uri: data---do-you-use-identities-in-sql-server
+type: rule
 title: Data - Do you use Identities in SQL Server?
-created: 2019-11-25 19:08:06
+uri: data---do-you-use-identities-in-sql-server
+created: 2019-11-25T19:08:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

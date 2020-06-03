@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-font-awesome-for-icons
+type: rule
 title: Do you use Font Awesome for icons?
-created: 2014-06-18 05:00:53
+uri: do-you-use-font-awesome-for-icons
+created: 2014-06-18T05:00:53.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
-  - id: 38
-    title: Drew Robson
----
+- id: 37
+  title: Ben Cull
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: seo---do-you-use-american-spelling-for-your-website
+type: rule
 title: SEO - Do you use American spelling for your Website?
-created: 2014-10-13 19:08:40
+uri: seo---do-you-use-american-spelling-for-your-website
+created: 2014-10-13T19:08:40.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

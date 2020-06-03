@@ -1,12 +1,13 @@
 ---
-uri: do-you-carry-more-than-just-the-microsoft-tool-box
+type: rule
 title: Do you carry more than just the Microsoft Tool Box?
-created: 2010-05-23 06:56:15
+uri: do-you-carry-more-than-just-the-microsoft-tool-box
+created: 2010-05-23T06:56:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

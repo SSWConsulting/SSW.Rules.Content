@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
+type: rule
 title: Do you know what type of content marketing you should post on your socials?
-created: 2020-02-12 00:04:31
+uri: do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
+created: 2020-02-12T00:04:31.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

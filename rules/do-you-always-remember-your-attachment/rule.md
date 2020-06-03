@@ -1,14 +1,15 @@
 ---
-uri: do-you-always-remember-your-attachment
+type: rule
 title: Do you always remember your attachment?
-created: 2009-03-31 03:04:48
+uri: do-you-always-remember-your-attachment
+created: 2009-03-31T03:04:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-delete-a-team-project-collection
+type: rule
 title: Do you know how to delete a Team Project Collection?
-created: 2011-02-01 04:35:31
+uri: do-you-know-how-to-delete-a-team-project-collection
+created: 2011-02-01T04:35:31.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

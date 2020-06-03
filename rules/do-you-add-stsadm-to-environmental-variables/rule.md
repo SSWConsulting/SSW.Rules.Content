@@ -1,16 +1,17 @@
 ---
-uri: do-you-add-stsadm-to-environmental-variables
+type: rule
 title: Do you add stsadm to environmental variables
-created: 2010-12-23 01:48:27
+uri: do-you-add-stsadm-to-environmental-variables
+created: 2010-12-23T01:48:27.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
-  - id: 9
-    title: William Yin
-  - id: 8
-    title: John Liu
----
+- id: 21
+  title: Matthew Hodgkins
+- id: 9
+  title: William Yin
+- id: 8
+  title: John Liu
 
+---
 
 
 

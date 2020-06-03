@@ -1,12 +1,13 @@
 ---
-uri: have-you-considered-sharepoint--for-internet-sites-license
+type: rule
 title: Have you considered SharePoint 2010 for Internet Sites license?
-created: 2009-12-09 05:32:34
+uri: have-you-considered-sharepoint--for-internet-sites-license
+created: 2009-12-09T05:32:34.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

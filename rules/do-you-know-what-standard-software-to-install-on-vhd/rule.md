@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-standard-software-to-install-on-vhd
+type: rule
 title: Do you know what standard software to install on VHD?
-created: 2011-04-13 06:10:03
+uri: do-you-know-what-standard-software-to-install-on-vhd
+created: 2011-04-13T06:10:03.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

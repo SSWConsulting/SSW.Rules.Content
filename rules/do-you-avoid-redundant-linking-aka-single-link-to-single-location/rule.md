@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-redundant-linking-aka-single-link-to-single-location
+type: rule
 title: Do you avoid redundant linking (aka single link to single location)?
-created: 2015-02-16 02:15:22
-authors:
+uri: do-you-avoid-redundant-linking-aka-single-link-to-single-location
+created: 2015-02-16T02:15:22.0000000Z
+authors: []
 
 ---
-
 
 
 

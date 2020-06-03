@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-under-construction
+type: rule
 title: Do you avoid "Under Construction"?
-created: 2015-02-13 02:39:13
-authors:
+uri: do-you-avoid-under-construction
+created: 2015-02-13T02:39:13.0000000Z
+authors: []
 
 ---
-
 
 
 

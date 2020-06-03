@@ -1,12 +1,13 @@
 ---
-uri: management---do-you-spec-in-bite-sized-pieces
+type: rule
 title: Management - Do you spec in bite-sized pieces?
-created: 2009-02-28 09:45:07
+uri: management---do-you-spec-in-bite-sized-pieces
+created: 2009-02-28T09:45:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

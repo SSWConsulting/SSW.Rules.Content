@@ -1,14 +1,15 @@
 ---
-uri: communication---do-you-cc-your-account-manager-on-emails-relating-to-new-work
+type: rule
 title: Communication - Do you CC your Account Manager on emails relating to new work?
-created: 2012-09-25 17:49:58
+uri: communication---do-you-cc-your-account-manager-on-emails-relating-to-new-work
+created: 2012-09-25T17:49:58.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

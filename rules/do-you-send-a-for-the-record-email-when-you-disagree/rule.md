@@ -1,14 +1,15 @@
 ---
-uri: do-you-send-a-for-the-record-email-when-you-disagree
+type: rule
 title: Do you send a 'For the record' email when you disagree?
-created: 2010-07-16 06:49:34
+uri: do-you-send-a-for-the-record-email-when-you-disagree
+created: 2010-07-16T06:49:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

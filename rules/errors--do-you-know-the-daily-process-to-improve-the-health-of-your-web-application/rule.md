@@ -1,14 +1,15 @@
 ---
-uri: errors--do-you-know-the-daily-process-to-improve-the-health-of-your-web-application
+type: rule
 title: Errors – Do you know the daily process to improve the health of your web application?
-created: 2014-08-19 00:51:51
+uri: errors--do-you-know-the-daily-process-to-improve-the-health-of-your-web-application
+created: 2014-08-19T00:51:51.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
-  - id: 45
-    title: Chris Briggs
----
+- id: 38
+  title: Drew Robson
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

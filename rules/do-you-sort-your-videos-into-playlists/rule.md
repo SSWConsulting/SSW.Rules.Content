@@ -1,12 +1,13 @@
 ---
-uri: do-you-sort-your-videos-into-playlists
+type: rule
 title: Do you sort your videos into playlists?
-created: 2018-05-20 22:58:44
+uri: do-you-sort-your-videos-into-playlists
+created: 2018-05-20T22:58:44.0000000Z
 authors:
-  - id: 74
-    title: Florent Dezettre
----
+- id: 74
+  title: Florent Dezettre
 
+---
 
 
 

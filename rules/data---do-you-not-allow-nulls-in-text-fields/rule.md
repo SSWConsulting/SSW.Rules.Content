@@ -1,12 +1,13 @@
 ---
-uri: data---do-you-not-allow-nulls-in-text-fields
+type: rule
 title: Data - Do you not allow Nulls in text fields?
-created: 2019-11-23 00:18:45
+uri: data---do-you-not-allow-nulls-in-text-fields
+created: 2019-11-23T00:18:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

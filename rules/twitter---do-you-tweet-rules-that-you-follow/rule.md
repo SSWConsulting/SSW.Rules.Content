@@ -1,12 +1,13 @@
 ---
-uri: twitter---do-you-tweet-rules-that-you-follow
+type: rule
 title: Twitter - Do you tweet rules that you follow?
-created: 2011-05-18 06:02:00
+uri: twitter---do-you-tweet-rules-that-you-follow
+created: 2011-05-18T06:02:00.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

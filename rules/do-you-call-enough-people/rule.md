@@ -1,12 +1,13 @@
 ---
-uri: do-you-call-enough-people
+type: rule
 title: Do you call enough people?
-created: 2018-04-10 00:34:35
+uri: do-you-call-enough-people
+created: 2018-04-10T00:34:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-prioritize-your-existing-clients-over-prospective-ones
+type: rule
 title: Do you prioritize your existing clients over prospective ones?
-created: 2010-07-16 02:18:40
+uri: do-you-prioritize-your-existing-clients-over-prospective-ones
+created: 2010-07-16T02:18:40.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

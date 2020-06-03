@@ -1,14 +1,15 @@
 ---
-uri: meetings---do-you-know-the-agenda-for-the-initial-meeting
+type: rule
 title: Meetings - Do you know the agenda for the initial meeting?
-created: 2012-08-30 12:58:29
+uri: meetings---do-you-know-the-agenda-for-the-initial-meeting
+created: 2012-08-30T12:58:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

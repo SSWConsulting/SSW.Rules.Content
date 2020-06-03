@@ -1,14 +1,15 @@
 ---
-uri: production---do-you-use-proper-production-design
+type: rule
 title: Production - Do You Use Proper Production Design?
-created: 2011-12-06 06:25:55
+uri: production---do-you-use-proper-production-design
+created: 2011-12-06T06:25:55.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 27
+  title: Titus Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

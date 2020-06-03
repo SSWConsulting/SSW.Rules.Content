@@ -1,12 +1,13 @@
 ---
-uri: do-you-create-a-deployment-project-alongside-your-web-application-for-any-additional-deployment-steps
+type: rule
 title: Do you Create a “.Deployment” Project alongside your Web Application for any additional deployment steps?
-created: 2013-02-06 18:51:03
+uri: do-you-create-a-deployment-project-alongside-your-web-application-for-any-additional-deployment-steps
+created: 2013-02-06T18:51:03.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

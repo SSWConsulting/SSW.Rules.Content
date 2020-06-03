@@ -1,12 +1,13 @@
 ---
-uri: do-you-do-monthly-peer-evaluations
+type: rule
 title: Do you do monthly peer evaluations?
-created: 2010-03-22 00:31:05
+uri: do-you-do-monthly-peer-evaluations
+created: 2010-03-22T00:31:05.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-best-free-resources-for-angularjs
+type: rule
 title: Do you know the best free resources for AngularJS
-created: 2016-02-19 14:02:15
-authors:
+uri: do-you-know-the-best-free-resources-for-angularjs
+created: 2016-02-19T14:02:15.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: meetings---do-you-listen-more-than-you-talk
+type: rule
 title: Meetings - Do you listen more than you talk?
-created: 2010-07-16 06:27:54
-authors:
+uri: meetings---do-you-listen-more-than-you-talk
+created: 2010-07-16T06:27:54.0000000Z
+authors: []
 
 ---
-
 
 
 

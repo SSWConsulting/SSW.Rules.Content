@@ -1,16 +1,17 @@
 ---
-uri: done---do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint
+type: rule
 title: Done - Do you know how to make sure you deliver a build that’s tested every Sprint
-created: 2010-08-09 13:07:10
+uri: done---do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint
+created: 2010-08-09T13:07:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: management---is-your-client-clear-on-the-definition-of-a-bug
+type: rule
 title: Management - Is your client clear on the definition of a bug?
-created: 2009-02-28 09:42:39
+uri: management---is-your-client-clear-on-the-definition-of-a-bug
+created: 2009-02-28T09:42:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

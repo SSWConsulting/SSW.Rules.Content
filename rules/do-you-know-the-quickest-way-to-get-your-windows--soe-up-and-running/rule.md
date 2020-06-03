@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-quickest-way-to-get-your-windows--soe-up-and-running
+type: rule
 title: Do you know the quickest way to get your Windows 10 SOE up and running?
-created: 2016-06-20 04:57:19
+uri: do-you-know-the-quickest-way-to-get-your-windows--soe-up-and-running
+created: 2016-06-20T04:57:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 47
-    title: Stanley Sidik
----
+- id: 1
+  title: Adam Cogan
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

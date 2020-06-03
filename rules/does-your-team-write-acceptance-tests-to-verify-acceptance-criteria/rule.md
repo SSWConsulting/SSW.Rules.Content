@@ -1,12 +1,13 @@
 ---
-uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
+type: rule
 title: Does Your Team Write Acceptance Tests to Verify Acceptance Criteria?
-created: 2012-11-08 19:00:32
+uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
+created: 2012-11-08T19:00:32.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

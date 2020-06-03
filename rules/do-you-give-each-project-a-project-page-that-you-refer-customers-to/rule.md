@@ -1,12 +1,13 @@
 ---
-uri: do-you-give-each-project-a-project-page-that-you-refer-customers-to
+type: rule
 title: Do you give each project a project page (that you refer customers to)?
-created: 2009-02-19 02:45:54
+uri: do-you-give-each-project-a-project-page-that-you-refer-customers-to
+created: 2009-02-19T02:45:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

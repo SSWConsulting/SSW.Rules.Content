@@ -1,14 +1,15 @@
 ---
-uri: do-you-manage-your-inbound-leads-effectively
+type: rule
 title: Do you manage your inbound leads effectively?
-created: 2012-08-30 12:40:27
+uri: do-you-manage-your-inbound-leads-effectively
+created: 2012-08-30T12:40:27.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

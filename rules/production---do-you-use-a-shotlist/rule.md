@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-use-a-shotlist
+type: rule
 title: Production - Do you use a shotlist?
-created: 2011-12-08 04:55:06
+uri: production---do-you-use-a-shotlist
+created: 2011-12-08T04:55:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

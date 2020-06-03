@@ -1,12 +1,13 @@
 ---
-uri: do-you-target-the-right-people
+type: rule
 title: Do you target the right people?
-created: 2018-04-09 22:00:45
+uri: do-you-target-the-right-people
+created: 2018-04-09T22:00:45.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

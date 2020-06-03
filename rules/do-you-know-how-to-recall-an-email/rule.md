@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-recall-an-email
+type: rule
 title: Do you know how to recall an email?
-created: 2009-04-03 03:08:36
+uri: do-you-know-how-to-recall-an-email
+created: 2009-04-03T03:08:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-door-prizes-and-giveaways-at-your-events
+type: rule
 title: Do you use door prizes and giveaways at your events?
-created: 2014-10-13 18:56:06
+uri: do-you-use-door-prizes-and-giveaways-at-your-events
+created: 2014-10-13T18:56:06.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,18 +1,19 @@
 ---
-uri: do-you-conduct-an-architecture-review-every-few-sprints
+type: rule
 title: Do you conduct an architecture review every few Sprints?
-created: 2009-02-26 02:02:17
+uri: do-you-conduct-an-architecture-review-every-few-sprints
+created: 2009-02-26T02:02:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

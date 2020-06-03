@@ -1,18 +1,19 @@
 ---
-uri: do-you-need-to-migrate-the-history-from-vss-to-tfs
+type: rule
 title: Do you need to migrate the history from VSS to TFS?
-created: 2011-11-18 03:52:46
+uri: do-you-need-to-migrate-the-history-from-vss-to-tfs
+created: 2011-11-18T03:52:46.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

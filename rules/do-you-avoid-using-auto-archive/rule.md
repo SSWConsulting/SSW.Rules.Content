@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-using-auto-archive
+type: rule
 title: Do you avoid using Auto Archive?
-created: 2009-04-03 06:53:35
+uri: do-you-avoid-using-auto-archive
+created: 2009-04-03T06:53:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

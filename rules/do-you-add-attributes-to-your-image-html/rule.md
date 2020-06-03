@@ -1,14 +1,15 @@
 ---
-uri: do-you-add-attributes-to-your-image-html
+type: rule
 title: Do you add attributes to your image HTML?
-created: 2015-11-10 18:31:57
+uri: do-you-add-attributes-to-your-image-html
+created: 2015-11-10T18:31:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: control-choice---do-you-use-bold-on-the-main-options-to-make-them-clearer
+type: rule
 title: Control Choice - Do you use bold on the main options to make them clearer?
-created: 2012-11-27 08:59:46
-authors:
+uri: control-choice---do-you-use-bold-on-the-main-options-to-make-them-clearer
+created: 2012-11-27T08:59:46.0000000Z
+authors: []
 
 ---
-
 
 
 

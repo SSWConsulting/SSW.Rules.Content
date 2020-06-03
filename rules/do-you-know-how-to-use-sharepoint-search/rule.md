@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-use-sharepoint-search
+type: rule
 title: Do you know how to use SharePoint search?
-created: 2015-01-20 12:18:03
+uri: do-you-know-how-to-use-sharepoint-search
+created: 2015-01-20T12:18:03.0000000Z
 authors:
-  - id: 36
-    title: Daniel Šmon
-  - id: 1
-    title: Adam Cogan
----
+- id: 36
+  title: Daniel Šmon
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

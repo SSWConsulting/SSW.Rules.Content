@@ -1,16 +1,17 @@
 ---
-uri: do-you-keep-your-inbox-as-a-task-list-only
+type: rule
 title: Do you keep your inbox as a task list only?
-created: 2009-03-23 03:56:22
+uri: do-you-keep-your-inbox-as-a-task-list-only
+created: 2009-03-23T03:56:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

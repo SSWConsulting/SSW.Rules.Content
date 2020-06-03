@@ -1,14 +1,15 @@
 ---
-uri: do-you-remove-the-need-to-type-tfs-
+type: rule
 title: Do you remove the need to type “/tfs” ?
-created: 2015-05-05 19:49:26
+uri: do-you-remove-the-need-to-type-tfs-
+created: 2015-05-05T19:49:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-place-scripts-at-the-bottom-of-your-page
+type: rule
 title: Do You Place Scripts at the Bottom of Your Page?
-created: 2012-07-24 18:10:46
+uri: do-you-place-scripts-at-the-bottom-of-your-page
+created: 2012-07-24T18:10:46.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

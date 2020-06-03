@@ -1,18 +1,19 @@
 ---
-uri: estimating---do-you-know-how-to-size-user-stories-effectively
+type: rule
 title: Estimating - Do you know how to size user stories effectively?
-created: 2010-09-01 01:15:18
+uri: estimating---do-you-know-how-to-size-user-stories-effectively
+created: 2010-09-01T01:15:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 24
-    title: Adam Stephensen
-  - id: 45
-    title: Chris Briggs
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 24
+  title: Adam Stephensen
+- id: 45
+  title: Chris Briggs
 
+---
 
 
 

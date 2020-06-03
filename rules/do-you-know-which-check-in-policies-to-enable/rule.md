@@ -1,18 +1,19 @@
 ---
-uri: do-you-know-which-check-in-policies-to-enable
+type: rule
 title: Do you know which check-in policies to enable?
-created: 2011-11-18 03:52:26
+uri: do-you-know-which-check-in-policies-to-enable
+created: 2011-11-18T03:52:26.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

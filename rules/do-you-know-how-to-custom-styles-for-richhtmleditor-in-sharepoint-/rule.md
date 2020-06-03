@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-
+type: rule
 title: Do you know how to custom styles for RichHtmlEditor in SharePoint 2013?
-created: 2013-07-08 07:31:15
+uri: do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-
+created: 2013-07-08T07:31:15.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 34
-    title: Brendan Richards
----
+- id: 9
+  title: William Yin
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

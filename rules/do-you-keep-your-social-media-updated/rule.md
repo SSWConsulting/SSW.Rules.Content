@@ -1,14 +1,15 @@
 ---
-uri: do-you-keep-your-social-media-updated
+type: rule
 title: Do you keep your social media updated?
-created: 2014-07-04 05:58:05
+uri: do-you-keep-your-social-media-updated
+created: 2014-07-04T05:58:05.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 1
+  title: Adam Cogan
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

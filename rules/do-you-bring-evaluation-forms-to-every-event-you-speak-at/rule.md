@@ -1,14 +1,15 @@
 ---
-uri: do-you-bring-evaluation-forms-to-every-event-you-speak-at
+type: rule
 title: Do you bring evaluation forms to every event you speak at?
-created: 2014-10-13 18:28:41
+uri: do-you-bring-evaluation-forms-to-every-event-you-speak-at
+created: 2014-10-13T18:28:41.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

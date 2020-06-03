@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-the-best-trace-logging-library
+type: rule
 title: Do you use the best trace logging library?
-created: 2013-09-11 21:38:08
+uri: do-you-use-the-best-trace-logging-library
+created: 2013-09-11T21:38:08.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 38
-    title: Drew Robson
-  - id: 34
-    title: Brendan Richards
----
+- id: 1
+  title: Adam Cogan
+- id: 38
+  title: Drew Robson
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

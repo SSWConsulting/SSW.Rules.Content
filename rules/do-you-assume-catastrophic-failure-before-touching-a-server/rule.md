@@ -1,14 +1,15 @@
 ---
-uri: do-you-assume-catastrophic-failure-before-touching-a-server
+type: rule
 title: Do you assume catastrophic failure before touching a server?
-created: 2014-09-03 19:21:57
+uri: do-you-assume-catastrophic-failure-before-touching-a-server
+created: 2014-09-03T19:21:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 47
-    title: Stanley Sidik
----
+- id: 1
+  title: Adam Cogan
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

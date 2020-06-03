@@ -1,12 +1,13 @@
 ---
-uri: screenshots---do-you-know-how-to-show-wanted-actions
+type: rule
 title: Screenshots - Do you know how to show wanted actions?
-created: 2012-06-14 14:42:49
+uri: screenshots---do-you-know-how-to-show-wanted-actions
+created: 2012-06-14T14:42:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

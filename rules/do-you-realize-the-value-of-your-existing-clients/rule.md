@@ -1,14 +1,15 @@
 ---
-uri: do-you-realize-the-value-of-your-existing-clients
+type: rule
 title: Do you realize the value of your existing clients?
-created: 2012-08-30 13:03:16
+uri: do-you-realize-the-value-of-your-existing-clients
+created: 2012-08-30T13:03:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

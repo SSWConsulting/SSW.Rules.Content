@@ -1,12 +1,13 @@
 ---
-uri: do-you-aim-to-keep-your-working-hours-consistent
+type: rule
 title: Do you aim to keep your working hours consistent?
-created: 2020-03-25 23:53:51
+uri: do-you-aim-to-keep-your-working-hours-consistent
+created: 2020-03-25T23:53:51.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

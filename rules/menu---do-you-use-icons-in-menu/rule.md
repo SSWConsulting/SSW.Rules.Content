@@ -1,11 +1,11 @@
 ---
-uri: menu---do-you-use-icons-in-menu
+type: rule
 title: Menu - Do you use icons in menu?
-created: 2012-11-27 02:54:45
-authors:
+uri: menu---do-you-use-icons-in-menu
+created: 2012-11-27T02:54:45.0000000Z
+authors: []
 
 ---
-
 
 
 

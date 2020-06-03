@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-using-frames-on-your-website
+type: rule
 title: Do you avoid using frames on your website?
-created: 2015-11-10 19:08:07
+uri: do-you-avoid-using-frames-on-your-website
+created: 2015-11-10T19:08:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 1
+  title: Adam Cogan
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

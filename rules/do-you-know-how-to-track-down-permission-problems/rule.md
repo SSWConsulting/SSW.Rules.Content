@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-track-down-permission-problems
+type: rule
 title: Do you know how to track down permission problems?
-created: 2013-10-08 15:22:15
+uri: do-you-know-how-to-track-down-permission-problems
+created: 2013-10-08T15:22:15.0000000Z
 authors:
-  - id: 33
-    title: Gerard Beckerleg
-  - id: 1
-    title: Adam Cogan
----
+- id: 33
+  title: Gerard Beckerleg
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

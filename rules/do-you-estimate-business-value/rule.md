@@ -1,12 +1,13 @@
 ---
-uri: do-you-estimate-business-value
+type: rule
 title: Do you estimate “Business Value”?
-created: 2013-02-11 14:38:34
+uri: do-you-estimate-business-value
+created: 2013-02-11T14:38:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

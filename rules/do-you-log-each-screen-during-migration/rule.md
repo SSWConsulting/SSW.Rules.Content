@@ -1,12 +1,13 @@
 ---
-uri: do-you-log-each-screen-during-migration
+type: rule
 title: Do you log each screen during migration
-created: 2013-11-11 07:55:25
+uri: do-you-log-each-screen-during-migration
+created: 2013-11-11T07:55:25.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

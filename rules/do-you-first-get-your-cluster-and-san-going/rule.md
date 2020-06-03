@@ -1,11 +1,11 @@
 ---
-uri: do-you-first-get-your-cluster-and-san-going
+type: rule
 title: Do you first get your Cluster and SAN going?
-created: 2012-03-02 18:07:04
-authors:
+uri: do-you-first-get-your-cluster-and-san-going
+created: 2012-03-02T18:07:04.0000000Z
+authors: []
 
 ---
-
 
 
 

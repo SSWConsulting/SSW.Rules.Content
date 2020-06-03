@@ -1,12 +1,13 @@
 ---
-uri: installation---do-you-know-that-your-organizational-chart-does-not-equal-your-crm-business-units
+type: rule
 title: Installation - Do you know that your organizational chart does not equal your CRM Business Units?
-created: 2012-12-10 17:59:51
+uri: installation---do-you-know-that-your-organizational-chart-does-not-equal-your-crm-business-units
+created: 2012-12-10T17:59:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

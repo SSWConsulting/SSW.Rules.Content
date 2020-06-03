@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-clean-up-stale-remote-branches-in-git
+type: rule
 title: Do you know how clean up stale remote branches in git?
-created: 2016-02-24 17:40:39
+uri: do-you-know-how-clean-up-stale-remote-branches-in-git
+created: 2016-02-24T17:40:39.0000000Z
 authors:
-  - id: 58
-    title: Jernej Kavka
----
+- id: 58
+  title: Jernej Kavka
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-your-cluster-network-on-a-separate-active-directory-domain
+type: rule
 title: Do you have your cluster network on a separate Active Directory domain?
-created: 2012-03-02 19:21:26
-authors:
+uri: do-you-have-your-cluster-network-on-a-separate-active-directory-domain
+created: 2012-03-02T19:21:26.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,18 +1,19 @@
 ---
-uri: do-you-know-to-make-using-check-in-policies-easier-by-adding-a-recent-query
+type: rule
 title: Do you know to make using Check-in Policies easier (by adding a 'Recent' Query)?
-created: 2011-11-18 03:52:51
+uri: do-you-know-to-make-using-check-in-policies-easier-by-adding-a-recent-query
+created: 2011-11-18T03:52:51.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

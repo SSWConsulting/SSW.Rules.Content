@@ -1,11 +1,11 @@
 ---
-uri: do-you-remember-the-users-last-settings
+type: rule
 title: Do you remember the user's last settings?
-created: 2014-12-01 04:05:27
-authors:
+uri: do-you-remember-the-users-last-settings
+created: 2014-12-01T04:05:27.0000000Z
+authors: []
 
 ---
-
 
 
 

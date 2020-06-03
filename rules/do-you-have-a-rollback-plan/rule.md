@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-a-rollback-plan
+type: rule
 title: Do you have a rollback plan?
-created: 2015-08-12 15:35:42
-authors:
+uri: do-you-have-a-rollback-plan
+created: 2015-08-12T15:35:42.0000000Z
+authors: []
 
 ---
-
 
 
 

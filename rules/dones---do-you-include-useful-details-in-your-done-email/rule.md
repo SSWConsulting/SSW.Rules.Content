@@ -1,18 +1,19 @@
 ---
-uri: dones---do-you-include-useful-details-in-your-done-email
+type: rule
 title: Dones - Do you include useful details in your 'Done' email?
-created: 2011-05-29 16:10:16
+uri: dones---do-you-include-useful-details-in-your-done-email
+created: 2011-05-29T16:10:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

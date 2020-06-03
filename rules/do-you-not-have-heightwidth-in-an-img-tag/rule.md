@@ -1,14 +1,15 @@
 ---
-uri: do-you-not-have-heightwidth-in-an-img-tag
+type: rule
 title: Do you *not* have height/width in an <img> tag?
-created: 2014-12-22 12:28:11
+uri: do-you-not-have-heightwidth-in-an-img-tag
+created: 2014-12-22T12:28:11.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

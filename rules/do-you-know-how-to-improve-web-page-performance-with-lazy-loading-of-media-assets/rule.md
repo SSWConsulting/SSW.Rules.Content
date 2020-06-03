@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-improve-web-page-performance-with-lazy-loading-of-media-assets
+type: rule
 title: Do you know how to improve web page performance with lazy loading of media assets?
-created: 2019-06-21 22:41:38
+uri: do-you-know-how-to-improve-web-page-performance-with-lazy-loading-of-media-assets
+created: 2019-06-21T22:41:38.0000000Z
 authors:
-  - id: 9
-    title: William Yin
----
+- id: 9
+  title: William Yin
 
+---
 
 
 

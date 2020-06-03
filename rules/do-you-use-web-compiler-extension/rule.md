@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-web-compiler-extension
+type: rule
 title: Do you use Web Compiler extension?
-created: 2018-06-19 01:38:21
+uri: do-you-use-web-compiler-extension
+created: 2018-06-19T01:38:21.0000000Z
 authors:
-  - id: 76
-    title: Eden Liang
----
+- id: 76
+  title: Eden Liang
 
+---
 
 
 

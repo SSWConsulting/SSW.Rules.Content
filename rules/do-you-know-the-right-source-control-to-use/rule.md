@@ -1,18 +1,19 @@
 ---
-uri: do-you-know-the-right-source-control-to-use
+type: rule
 title: Do you know the right source control to use?
-created: 2011-11-18 03:52:53
+uri: do-you-know-the-right-source-control-to-use
+created: 2011-11-18T03:52:53.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 17
-    title: Ryan Tee
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 6
+  title: Tristan Kurniawan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

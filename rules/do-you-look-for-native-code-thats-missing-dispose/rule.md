@@ -1,12 +1,13 @@
 ---
-uri: do-you-look-for-native-code-thats-missing-dispose
+type: rule
 title: Do you look for native code that’s missing dispose?
-created: 2012-04-01 10:31:06
+uri: do-you-look-for-native-code-thats-missing-dispose
+created: 2012-04-01T10:31:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-monthly-financial-meetings
+type: rule
 title: Do you have monthly financial meetings?
-created: 2015-09-18 05:50:26
+uri: do-you-have-monthly-financial-meetings
+created: 2015-09-18T05:50:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-best-applicant-tracking-system-ats
+type: rule
 title: Do you know the best Applicant Tracking System (ATS)?
-created: 2020-03-30 23:20:30
+uri: do-you-know-the-best-applicant-tracking-system-ats
+created: 2020-03-30T23:20:30.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
----
+- id: 62
+  title: Penny Walker
 
+---
 
 
 

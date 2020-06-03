@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-mvvm-pattern-in-your-silverlight-and-wpf-projects
+type: rule
 title: Do you use the MVVM pattern in your Silverlight and WPF Projects?
-created: 2011-05-20 07:30:32
+uri: do-you-use-the-mvvm-pattern-in-your-silverlight-and-wpf-projects
+created: 2011-05-20T07:30:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

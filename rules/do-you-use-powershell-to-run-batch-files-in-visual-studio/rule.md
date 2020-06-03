@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-powershell-to-run-batch-files-in-visual-studio
+type: rule
 title: Do you use PowerShell to run batch files in Visual Studio?
-created: 2009-05-11 09:12:01
+uri: do-you-use-powershell-to-run-batch-files-in-visual-studio
+created: 2009-05-11T09:12:01.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-send-sprint-forecast-and-sprint-reviewretro-emails-to-the-client
+type: rule
 title: Do you send "Sprint Forecast" and "Sprint Review/Retro" emails to the client?
-created: 2009-08-18 05:22:13
+uri: do-you-send-sprint-forecast-and-sprint-reviewretro-emails-to-the-client
+created: 2009-08-18T05:22:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

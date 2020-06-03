@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-attaching-emails-to-emails
+type: rule
 title: Do you avoid attaching emails to emails?
-created: 2009-04-08 09:27:10
+uri: do-you-avoid-attaching-emails-to-emails
+created: 2009-04-08T09:27:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-your-evaluation-forms-identify-prospects
+type: rule
 title: Do your evaluation forms identify prospects?
-created: 2014-10-13 18:47:24
+uri: do-your-evaluation-forms-identify-prospects
+created: 2014-10-13T18:47:24.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-aspnet-skills-that-do-not-translate-aka-different-
+type: rule
 title: Do you know the ASP.NET skills that do not translate (aka different) ?
-created: 2009-05-21 07:21:58
+uri: do-you-know-the-aspnet-skills-that-do-not-translate-aka-different-
+created: 2009-05-21T07:21:58.0000000Z
 authors:
-  - id: 18
-    title: Jay Lin
----
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

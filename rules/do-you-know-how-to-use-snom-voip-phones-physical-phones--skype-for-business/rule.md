@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-use-snom-voip-phones-physical-phones--skype-for-business
+type: rule
 title: Do you know how to use SNOM VOIP phones? (Physical Phones + Skype for Business)
-created: 2013-02-25 23:29:12
-authors:
+uri: do-you-know-how-to-use-snom-voip-phones-physical-phones--skype-for-business
+created: 2013-02-25T23:29:12.0000000Z
+authors: []
 
 ---
-
 
 
 

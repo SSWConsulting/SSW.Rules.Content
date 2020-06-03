@@ -1,11 +1,11 @@
 ---
-uri: very-long-process---do-you-know-that-long-running-processes-should-show-a-coffee-cup
+type: rule
 title: Very Long Process - Do you know that long-running processes should show a coffee cup?
-created: 2012-11-27 03:06:05
-authors:
+uri: very-long-process---do-you-know-that-long-running-processes-should-show-a-coffee-cup
+created: 2012-11-27T03:06:05.0000000Z
+authors: []
 
 ---
-
 
 
 

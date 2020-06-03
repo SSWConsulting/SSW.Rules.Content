@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-a-precision-mocker-like-moq-instead-of-a-monster-mocker-like-microsoft-fakes
+type: rule
 title: Do you use a ‘Precision Mocker’ like Moq instead of a ‘Monster Mocker’ like Microsoft Fakes?
-created: 2013-02-05 13:03:11
+uri: do-you-use-a-precision-mocker-like-moq-instead-of-a-monster-mocker-like-microsoft-fakes
+created: 2013-02-05T13:03:11.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

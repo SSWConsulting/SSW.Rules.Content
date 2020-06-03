@@ -1,16 +1,17 @@
 ---
-uri: do-you-make-sure-you-get-latest-and-compile
+type: rule
 title: Do you make sure you get latest and compile?
-created: 2012-03-16 07:44:28
+uri: do-you-make-sure-you-get-latest-and-compile
+created: 2012-03-16T07:44:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

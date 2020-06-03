@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-mega-menu-navigation-to-improve-usability
+type: rule
 title: Do you use Mega-menu navigation to improve usability?
-created: 2015-02-16 01:44:53
+uri: do-you-use-mega-menu-navigation-to-improve-usability
+created: 2015-02-16T01:44:53.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

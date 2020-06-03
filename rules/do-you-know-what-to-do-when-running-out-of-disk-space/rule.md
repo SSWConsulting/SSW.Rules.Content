@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-to-do-when-running-out-of-disk-space
+type: rule
 title: Do you know what to do when running out of disk space?
-created: 2014-09-03 18:40:52
+uri: do-you-know-what-to-do-when-running-out-of-disk-space
+created: 2014-09-03T18:40:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

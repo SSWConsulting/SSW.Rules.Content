@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-complex-queries-upsizing-problem
+type: rule
 title: Do you have complex queries (Upsizing Problem)?
-created: 2010-07-23 03:23:22
+uri: do-you-have-complex-queries-upsizing-problem
+created: 2010-07-23T03:23:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

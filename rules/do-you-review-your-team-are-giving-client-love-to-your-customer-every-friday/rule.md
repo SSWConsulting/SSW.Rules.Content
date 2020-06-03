@@ -1,12 +1,13 @@
 ---
-uri: do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
+type: rule
 title: Do you review your team are giving "Client Love" to your customer every Friday?
-created: 2012-08-30 13:04:15
+uri: do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
+created: 2012-08-30T13:04:15.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

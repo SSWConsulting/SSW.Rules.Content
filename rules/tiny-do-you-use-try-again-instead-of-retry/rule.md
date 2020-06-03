@@ -1,11 +1,11 @@
 ---
+type: rule
+title: 'Tiny: Do you use "Try Again" instead of "Retry"?'
 uri: tiny-do-you-use-try-again-instead-of-retry
-title: Tiny: Do you use "Try Again" instead of "Retry"?
-created: 2016-04-21 05:34:31
-authors:
+created: 2016-04-21T05:34:31.0000000Z
+authors: []
 
 ---
-
 
 
 

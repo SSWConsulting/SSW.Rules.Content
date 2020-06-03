@@ -1,11 +1,11 @@
 ---
-uri: do-you-have-a-section-break-slide
+type: rule
 title: Do you have a 'Section Break' slide?
-created: 2010-06-08 23:32:19
-authors:
+uri: do-you-have-a-section-break-slide
+created: 2010-06-08T23:32:19.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-create-friendly-short-urls
+type: rule
 title: Do you create friendly short URL's?
-created: 2010-06-29 21:44:06
+uri: do-you-create-friendly-short-urls
+created: 2010-06-29T21:44:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

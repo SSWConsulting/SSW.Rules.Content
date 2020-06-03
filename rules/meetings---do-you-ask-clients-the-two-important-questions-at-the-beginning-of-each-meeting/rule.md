@@ -1,11 +1,11 @@
 ---
-uri: meetings---do-you-ask-clients-the-two-important-questions-at-the-beginning-of-each-meeting
+type: rule
 title: Meetings - Do you ask clients the two important questions at the beginning of each meeting?
-created: 2010-07-16 06:26:46
-authors:
+uri: meetings---do-you-ask-clients-the-two-important-questions-at-the-beginning-of-each-meeting
+created: 2010-07-16T06:26:46.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-turn-requests-for-free-work-into-billable-work
+type: rule
 title: Do you know how to turn requests for free work into billable work?
-created: 2010-07-16 05:51:42
-authors:
+uri: do-you-know-how-to-turn-requests-for-free-work-into-billable-work
+created: 2010-07-16T05:51:42.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-if-you-are-using-the-template
+type: rule
 title: Do you know if you are using the template?
-created: 2010-06-08 07:43:21
-authors:
+uri: do-you-know-if-you-are-using-the-template
+created: 2010-06-08T07:43:21.0000000Z
+authors: []
 
 ---
-
 
 
 

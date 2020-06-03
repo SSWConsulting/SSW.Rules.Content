@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-name-a-github-repository
+type: rule
 title: Do you know how to name a GitHub Repository?
-created: 2015-02-13 18:18:15
+uri: do-you-know-how-to-name-a-github-repository
+created: 2015-02-13T18:18:15.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 37
-    title: Ben Cull
----
+- id: 24
+  title: Adam Stephensen
+- id: 37
+  title: Ben Cull
 
+---
 
 
 

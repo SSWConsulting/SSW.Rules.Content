@@ -1,12 +1,13 @@
 ---
-uri: do-you-configure-the-executebatchtemplate-build-process-template
+type: rule
 title: Do you Configure the ExecuteBatchTemplate Build Process Template?
-created: 2013-02-06 18:55:26
+uri: do-you-configure-the-executebatchtemplate-build-process-template
+created: 2013-02-06T18:55:26.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

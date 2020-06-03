@@ -1,12 +1,13 @@
 ---
-uri: do-you-give-people-a-second-chance
+type: rule
 title: Do you give people a second chance?
-created: 2012-09-25 17:56:02
+uri: do-you-give-people-a-second-chance
+created: 2012-09-25T17:56:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

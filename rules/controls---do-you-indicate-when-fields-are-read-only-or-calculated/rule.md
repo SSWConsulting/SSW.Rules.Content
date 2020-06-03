@@ -1,11 +1,11 @@
 ---
-uri: controls---do-you-indicate-when-fields-are-read-only-or-calculated
+type: rule
 title: Controls - Do you indicate when fields are "read only" or "calculated"?
-created: 2012-11-27 08:37:31
-authors:
+uri: controls---do-you-indicate-when-fields-are-read-only-or-calculated
+created: 2012-11-27T08:37:31.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-update-your-build-to-use-the-executebatchtemplate-build-process-template
+type: rule
 title: Do you Update your Build to use the ExecuteBatchTemplate Build Process Template?
-created: 2013-02-06 18:53:33
+uri: do-you-update-your-build-to-use-the-executebatchtemplate-build-process-template
+created: 2013-02-06T18:53:33.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

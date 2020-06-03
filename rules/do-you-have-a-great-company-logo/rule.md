@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-great-company-logo
+type: rule
 title: Do you have a great company logo?
-created: 2015-11-24 17:19:59
+uri: do-you-have-a-great-company-logo
+created: 2015-11-24T17:19:59.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
-  - id: 1
-    title: Adam Cogan
----
+- id: 16
+  title: Tiago Araujo
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-add-breadcrumb-to-every-page
+type: rule
 title: Do you add breadcrumb to every page?
-created: 2015-02-16 01:46:30
-authors:
+uri: do-you-add-breadcrumb-to-every-page
+created: 2015-02-16T01:46:30.0000000Z
+authors: []
 
 ---
-
 
 
 

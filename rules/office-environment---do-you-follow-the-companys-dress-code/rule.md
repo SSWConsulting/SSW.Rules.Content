@@ -1,14 +1,15 @@
 ---
-uri: office-environment---do-you-follow-the-companys-dress-code
+type: rule
 title: Office environment - Do you follow the company's dress code?
-created: 2012-09-25 17:57:39
+uri: office-environment---do-you-follow-the-companys-dress-code
+created: 2012-09-25T17:57:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-snapshot-virtual-machines-before-big-changes
+type: rule
 title: Do you snapshot Virtual Machines before big changes?
-created: 2011-02-14 06:18:58
+uri: do-you-snapshot-virtual-machines-before-big-changes
+created: 2011-02-14T06:18:58.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

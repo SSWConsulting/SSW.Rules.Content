@@ -1,12 +1,13 @@
 ---
-uri: do-you-remember-to-close-quotations-of-all-your-html-attributes
+type: rule
 title: Do you remember to close quotations of all your HTML attributes?
-created: 2016-08-12 20:46:20
+uri: do-you-remember-to-close-quotations-of-all-your-html-attributes
+created: 2016-08-12T20:46:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-apply-the-validatemodel-attribute-to-all-controllers
+type: rule
 title: Do You Apply the ValidateModel Attribute to All Controllers?
-created: 2014-11-05 18:42:04
+uri: do-you-apply-the-validatemodel-attribute-to-all-controllers
+created: 2014-11-05T18:42:04.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

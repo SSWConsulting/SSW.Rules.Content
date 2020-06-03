@@ -1,12 +1,13 @@
 ---
-uri: authentication---do-you-use-email-address-instead-of-user-name
+type: rule
 title: Authentication - Do you use email address instead of user name?
-created: 2014-12-09 19:57:46
+uri: authentication---do-you-use-email-address-instead-of-user-name
+created: 2014-12-09T19:57:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

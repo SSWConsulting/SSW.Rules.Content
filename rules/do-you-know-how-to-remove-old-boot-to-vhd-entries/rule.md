@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-remove-old-boot-to-vhd-entries
+type: rule
 title: Do you know how to remove old Boot to VHD entries?
-created: 2011-04-13 06:49:09
+uri: do-you-know-how-to-remove-old-boot-to-vhd-entries
+created: 2011-04-13T06:49:09.0000000Z
 authors:
-  - id: 21
-    title: Matthew Hodgkins
----
+- id: 21
+  title: Matthew Hodgkins
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-use-storyboards
+type: rule
 title: Do you know how to use storyboards?
-created: 2012-11-27 01:46:49
-authors:
+uri: do-you-know-how-to-use-storyboards
+created: 2012-11-27T01:46:49.0000000Z
+authors: []
 
 ---
-
 
 
 

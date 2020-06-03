@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-repository-pattern-for-data-access
+type: rule
 title: Do you use the repository pattern for data access?
-created: 2012-03-30 05:16:01
+uri: do-you-use-the-repository-pattern-for-data-access
+created: 2012-03-30T05:16:01.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

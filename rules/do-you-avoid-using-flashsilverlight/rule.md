@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-using-flashsilverlight
+type: rule
 title: Do you avoid using Flash/Silverlight?
-created: 2014-12-12 19:17:57
+uri: do-you-avoid-using-flashsilverlight
+created: 2014-12-12T19:17:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

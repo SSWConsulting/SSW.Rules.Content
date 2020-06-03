@@ -1,12 +1,13 @@
 ---
-uri: how-do-i-update-and-create-a-new-version-of-the-sysprep-vm-
+type: rule
 title: How do I update and create a new version of the Sysprep VM ?
-created: 2009-02-26 02:03:38
+uri: how-do-i-update-and-create-a-new-version-of-the-sysprep-vm-
+created: 2009-02-26T02:03:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

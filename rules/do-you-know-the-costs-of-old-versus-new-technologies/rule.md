@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-costs-of-old-versus-new-technologies
+type: rule
 title: Do you know the costs of old versus new technologies?
-created: 2012-11-08 15:22:28
+uri: do-you-know-the-costs-of-old-versus-new-technologies
+created: 2012-11-08T15:22:28.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

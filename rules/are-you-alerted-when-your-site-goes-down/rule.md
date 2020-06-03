@@ -1,11 +1,11 @@
 ---
-uri: are-you-alerted-when-your-site-goes-down
+type: rule
 title: Are you alerted when your site goes down?
-created: 2016-07-15 00:34:17
-authors:
+uri: are-you-alerted-when-your-site-goes-down
+created: 2016-07-15T00:34:17.0000000Z
+authors: []
 
 ---
-
 
 
 

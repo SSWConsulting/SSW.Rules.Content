@@ -1,12 +1,13 @@
 ---
-uri: production---do-you-know-the-best-way-to-end-a-video
+type: rule
 title: Production - Do you know the best way to end a video?
-created: 2011-10-19 15:48:28
+uri: production---do-you-know-the-best-way-to-end-a-video
+created: 2011-10-19T15:48:28.0000000Z
 authors:
-  - id: 27
-    title: Titus Maclaren
----
+- id: 27
+  title: Titus Maclaren
 
+---
 
 
 

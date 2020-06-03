@@ -1,12 +1,13 @@
 ---
-uri: zzdo-you-carry-your-usb-flash-drive-on-your-key-ring
+type: rule
 title: zzDo you carry your USB flash drive on your key ring?
-created: 2012-09-25 18:00:49
+uri: zzdo-you-carry-your-usb-flash-drive-on-your-key-ring
+created: 2012-09-25T18:00:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-brand-your-takeaway-coffee-cups
+type: rule
 title: Do you brand your takeaway coffee cups?
-created: 2015-12-09 23:43:40
-authors:
+uri: do-you-brand-your-takeaway-coffee-cups
+created: 2015-12-09T23:43:40.0000000Z
+authors: []
 
 ---
-
 
 
 

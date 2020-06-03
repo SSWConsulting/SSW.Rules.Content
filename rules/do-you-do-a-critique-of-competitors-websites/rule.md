@@ -1,11 +1,11 @@
 ---
-uri: do-you-do-a-critique-of-competitors-websites
+type: rule
 title: Do you do a critique of competitor's websites?
-created: 2015-02-13 02:20:04
-authors:
+uri: do-you-do-a-critique-of-competitors-websites
+created: 2015-02-13T02:20:04.0000000Z
+authors: []
 
 ---
-
 
 
 

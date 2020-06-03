@@ -1,11 +1,11 @@
 ---
-uri: do-you-give-the--options-to-share
+type: rule
 title: Do you give the 6 options to share?
-created: 2012-11-27 02:16:07
-authors:
+uri: do-you-give-the--options-to-share
+created: 2012-11-27T02:16:07.0000000Z
+authors: []
 
 ---
-
 
 
 

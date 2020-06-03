@@ -1,12 +1,13 @@
 ---
-uri: do-you-remove-language-from-your-script-tag
+type: rule
 title: Do you remove "Language" from your script tag?
-created: 2012-07-24 18:10:04
+uri: do-you-remove-language-from-your-script-tag
+created: 2012-07-24T18:10:04.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: have-you-migrated-your-service-application-databases
+type: rule
 title: Have you migrated your service application databases
-created: 2013-04-26 00:12:43
+uri: have-you-migrated-your-service-application-databases
+created: 2013-04-26T00:12:43.0000000Z
 authors:
-  - id: 28
-    title: Daragh Bannigan
-  - id: 9
-    title: William Yin
----
+- id: 28
+  title: Daragh Bannigan
+- id: 9
+  title: William Yin
 
+---
 
 
 

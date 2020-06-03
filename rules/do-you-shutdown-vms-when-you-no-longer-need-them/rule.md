@@ -1,14 +1,15 @@
 ---
-uri: do-you-shutdown-vms-when-you-no-longer-need-them
+type: rule
 title: Do you shutdown VM's when you no longer need them?
-created: 2013-07-22 04:39:27
+uri: do-you-shutdown-vms-when-you-no-longer-need-them
+created: 2013-07-22T04:39:27.0000000Z
 authors:
-  - id: 28
-    title: Daragh Bannigan
-  - id: 47
-    title: Stanley Sidik
----
+- id: 28
+  title: Daragh Bannigan
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

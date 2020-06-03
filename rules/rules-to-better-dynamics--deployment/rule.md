@@ -1,11 +1,11 @@
 ---
-uri: rules-to-better-dynamics--deployment
+type: rule
 title: Rules to better Dynamics 365 Deployment
-created: 2017-11-20 23:46:21
-authors:
+uri: rules-to-better-dynamics--deployment
+created: 2017-11-20T23:46:21.0000000Z
+authors: []
 
 ---
-
 
 
 

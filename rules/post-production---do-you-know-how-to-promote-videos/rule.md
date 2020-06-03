@@ -1,14 +1,15 @@
 ---
-uri: post-production---do-you-know-how-to-promote-videos
+type: rule
 title: Post-Production - Do you know how to promote videos?
-created: 2012-11-20 04:45:56
+uri: post-production---do-you-know-how-to-promote-videos
+created: 2012-11-20T04:45:56.0000000Z
 authors:
-  - id: 29
-    title: Raj Dhatt
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 29
+  title: Raj Dhatt
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

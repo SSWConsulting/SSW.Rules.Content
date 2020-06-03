@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-to-use-the-sitefinity-thunder-visual-studio-extension
+type: rule
 title: Do you know to use the Sitefinity Thunder Visual Studio extension?
-created: 2014-07-04 02:29:31
+uri: do-you-know-to-use-the-sitefinity-thunder-visual-studio-extension
+created: 2014-07-04T02:29:31.0000000Z
 authors:
-  - id: 38
-    title: Drew Robson
----
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

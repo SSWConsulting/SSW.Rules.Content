@@ -1,11 +1,11 @@
 ---
-uri: do-you-backup-your-databases
+type: rule
 title: Do you backup your databases?
-created: 2015-08-12 16:20:53
-authors:
+uri: do-you-backup-your-databases
+created: 2015-08-12T16:20:53.0000000Z
+authors: []
 
 ---
-
 
 
 

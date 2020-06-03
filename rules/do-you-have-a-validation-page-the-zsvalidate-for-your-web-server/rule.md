@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-validation-page-the-zsvalidate-for-your-web-server
+type: rule
 title: Do you have a Validation page (the /zsValidate) for your web server?
-created: 2016-11-16 16:43:56
+uri: do-you-have-a-validation-page-the-zsvalidate-for-your-web-server
+created: 2016-11-16T16:43:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

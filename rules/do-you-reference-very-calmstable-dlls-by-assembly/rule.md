@@ -1,14 +1,15 @@
 ---
-uri: do-you-reference-very-calmstable-dlls-by-assembly
+type: rule
 title: Do you reference "very calm/stable" .dlls by Assembly?
-created: 2009-04-28 06:33:27
+uri: do-you-reference-very-calmstable-dlls-by-assembly
+created: 2009-04-28T06:33:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work
+type: rule
 title: Do you know the first thing to do when you come off client work?
-created: 2010-07-16 06:28:30
-authors:
+uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work
+created: 2010-07-16T06:28:30.0000000Z
+authors: []
 
 ---
-
 
 
 

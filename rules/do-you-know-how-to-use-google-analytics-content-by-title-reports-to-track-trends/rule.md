@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-use-google-analytics-content-by-title-reports-to-track-trends
+type: rule
 title: Do you know how to use Google Analytics Content by Title Reports to track Trends?
-created: 2010-09-17 09:38:11
-authors:
+uri: do-you-know-how-to-use-google-analytics-content-by-title-reports-to-track-trends
+created: 2010-09-17T09:38:11.0000000Z
+authors: []
 
 ---
-
 
 
 

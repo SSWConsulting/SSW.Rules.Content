@@ -1,14 +1,15 @@
 ---
-uri: why-do-we-use-vm-for-sharepoint-development
+type: rule
 title: Why do we use VM for SharePoint development?
-created: 2009-02-26 02:03:30
+uri: why-do-we-use-vm-for-sharepoint-development
+created: 2009-02-26T02:03:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 8
-    title: John Liu
----
+- id: 1
+  title: Adam Cogan
+- id: 8
+  title: John Liu
 
+---
 
 
 

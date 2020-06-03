@@ -1,18 +1,19 @@
 ---
-uri: do-you-look-for-code-coverage
+type: rule
 title: Do you look for Code Coverage?
-created: 2012-04-01 11:02:56
+uri: do-you-look-for-code-coverage
+created: 2012-04-01T11:02:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 3
-    title: Eric Phan
-  - id: 78
-    title: Matt Wicks
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 3
+  title: Eric Phan
+- id: 78
+  title: Matt Wicks
 
+---
 
 
 

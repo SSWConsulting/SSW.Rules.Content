@@ -1,14 +1,15 @@
 ---
-uri: do-you-ensure-your-team-get-relevant-communications
+type: rule
 title: Do you ensure your team get relevant communications?
-created: 2019-07-05 22:31:06
+uri: do-you-ensure-your-team-get-relevant-communications
+created: 2019-07-05T22:31:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 95
-    title: Matthew Sampias
----
+- id: 1
+  title: Adam Cogan
+- id: 95
+  title: Matthew Sampias
 
+---
 
 
 

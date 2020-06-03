@@ -1,12 +1,13 @@
 ---
-uri: control-choice---do-you-use-gridview-over-the-checkedlistbox
+type: rule
 title: Control Choice - Do you use GridView over the CheckedListBox?
-created: 2012-11-27 08:43:24
+uri: control-choice---do-you-use-gridview-over-the-checkedlistbox
+created: 2012-11-27T08:43:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

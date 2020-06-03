@@ -1,18 +1,19 @@
 ---
-uri: do-you-enforce-work-item-association-with-check-in
+type: rule
 title: Do you enforce work item association with check-in?
-created: 2011-11-18 03:52:43
+uri: do-you-enforce-work-item-association-with-check-in
+created: 2011-11-18T03:52:43.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 17
-    title: Ryan Tee
-  - id: 5
-    title: Justin King
----
+- id: 22
+  title: David Klein
+- id: 6
+  title: Tristan Kurniawan
+- id: 17
+  title: Ryan Tee
+- id: 5
+  title: Justin King
 
+---
 
 
 

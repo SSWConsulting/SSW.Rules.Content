@@ -1,11 +1,11 @@
 ---
-uri: prior---is-your-first-slide-pre-setup
+type: rule
 title: Prior - Is your first slide 'Pre-setup'?
-created: 2010-06-08 08:19:23
-authors:
+uri: prior---is-your-first-slide-pre-setup
+created: 2010-06-08T08:19:23.0000000Z
+authors: []
 
 ---
-
 
 
 

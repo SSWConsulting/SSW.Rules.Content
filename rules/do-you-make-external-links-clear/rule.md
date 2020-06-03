@@ -1,14 +1,15 @@
 ---
-uri: do-you-make-external-links-clear
+type: rule
 title: Do you make external links clear?
-created: 2015-02-16 02:21:22
+uri: do-you-make-external-links-clear
+created: 2015-02-16T02:21:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

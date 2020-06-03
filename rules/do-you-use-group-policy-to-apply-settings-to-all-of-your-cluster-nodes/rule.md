@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-group-policy-to-apply-settings-to-all-of-your-cluster-nodes
+type: rule
 title: Do you use Group Policy to Apply Settings to all of your Cluster Nodes?
-created: 2012-03-02 18:43:20
-authors:
+uri: do-you-use-group-policy-to-apply-settings-to-all-of-your-cluster-nodes
+created: 2012-03-02T18:43:20.0000000Z
+authors: []
 
 ---
-
 
 
 

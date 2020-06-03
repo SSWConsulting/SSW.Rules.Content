@@ -1,18 +1,19 @@
 ---
-uri: post-production---do-you-give-enough-time-to-read-texts-in-your-videos
+type: rule
 title: Post-Production - Do you give enough time to read texts in your videos?
-created: 2016-07-14 20:12:04
+uri: post-production---do-you-give-enough-time-to-read-texts-in-your-videos
+created: 2016-07-14T20:12:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
-  - id: 91
-    title: Andrew Forsyth
-  - id: 102
-    title: Toby Goodman
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
+- id: 91
+  title: Andrew Forsyth
+- id: 102
+  title: Toby Goodman
 
+---
 
 
 

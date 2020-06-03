@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-kent-beck-philosophy
+type: rule
 title: Do you use the Kent Beck philosophy?
-created: 2012-04-01 09:28:34
+uri: do-you-use-the-kent-beck-philosophy
+created: 2012-04-01T09:28:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: what-are-the-different-images-available
+type: rule
 title: What are the different images available?
-created: 2009-02-26 02:03:35
-authors:
+uri: what-are-the-different-images-available
+created: 2009-02-26T02:03:35.0000000Z
+authors: []
 
 ---
-
 
 
 

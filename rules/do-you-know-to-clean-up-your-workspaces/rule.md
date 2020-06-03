@@ -1,20 +1,21 @@
 ---
-uri: do-you-know-to-clean-up-your-workspaces
+type: rule
 title: Do you know to clean up your workspaces?
-created: 2011-11-18 03:52:31
+uri: do-you-know-to-clean-up-your-workspaces
+created: 2011-11-18T03:52:31.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
-  - id: 23
-    title: Damian Brady
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

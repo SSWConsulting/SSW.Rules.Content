@@ -1,14 +1,15 @@
 ---
-uri: do-you-add-embedded-social-media-to-your-website-aka-twitter-box
+type: rule
 title: Do you add embedded social media to your website (aka Twitter Box)?
-created: 2015-04-27 21:05:19
+uri: do-you-add-embedded-social-media-to-your-website-aka-twitter-box
+created: 2015-04-27T21:05:19.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

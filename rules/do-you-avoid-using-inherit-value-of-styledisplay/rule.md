@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-using-inherit-value-of-styledisplay
+type: rule
 title: Do you avoid using "inherit" value of style.display?
-created: 2010-12-02 10:35:22
-authors:
+uri: do-you-avoid-using-inherit-value-of-styledisplay
+created: 2010-12-02T10:35:22.0000000Z
+authors: []
 
 ---
-
 
 
 

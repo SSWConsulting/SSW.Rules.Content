@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-marketing-plan
+type: rule
 title: Do you have a marketing plan?
-created: 2014-10-13 16:53:07
+uri: do-you-have-a-marketing-plan
+created: 2014-10-13T16:53:07.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

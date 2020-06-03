@@ -1,12 +1,13 @@
 ---
-uri: do-you-do-organize-your-hard-disk
+type: rule
 title: Do you do organize your hard disk?
-created: 2018-06-04 02:06:32
+uri: do-you-do-organize-your-hard-disk
+created: 2018-06-04T02:06:32.0000000Z
 authors:
-  - id: 73
-    title: Kaique Biancatti
----
+- id: 73
+  title: Kaique Biancatti
 
+---
 
 
 

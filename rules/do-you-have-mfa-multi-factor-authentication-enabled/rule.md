@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-mfa-multi-factor-authentication-enabled
+type: rule
 title: Do you have MFA (Multi Factor Authentication) enabled?
-created: 2018-09-06 07:16:45
+uri: do-you-have-mfa-multi-factor-authentication-enabled
+created: 2018-09-06T07:16:45.0000000Z
 authors:
-  - id: 73
-    title: Kaique Biancatti
----
+- id: 73
+  title: Kaique Biancatti
 
+---
 
 
 

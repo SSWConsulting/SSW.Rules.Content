@@ -1,12 +1,13 @@
 ---
-uri: do-you-try-to-be-one-step-ahead-doing-tasks-before-they-come-up
+type: rule
 title: Do you try to be one step ahead... doing tasks before they come up?
-created: 2013-07-30 21:34:23
+uri: do-you-try-to-be-one-step-ahead-doing-tasks-before-they-come-up
+created: 2013-07-30T21:34:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

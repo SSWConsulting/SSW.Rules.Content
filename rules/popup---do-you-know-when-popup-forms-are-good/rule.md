@@ -1,11 +1,11 @@
 ---
-uri: popup---do-you-know-when-popup-forms-are-good
+type: rule
 title: Popup - Do you know when Popup forms are good?
-created: 2012-11-27 04:19:40
-authors:
+uri: popup---do-you-know-when-popup-forms-are-good
+created: 2012-11-27T04:19:40.0000000Z
+authors: []
 
 ---
-
 
 
 

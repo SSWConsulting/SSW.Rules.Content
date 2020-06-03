@@ -1,16 +1,17 @@
 ---
-uri: do-you-look-at-the-architecture
+type: rule
 title: Do you look at the architecture?
-created: 2012-03-16 08:33:48
+uri: do-you-look-at-the-architecture
+created: 2012-03-16T08:33:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 23
-    title: Damian Brady
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 23
+  title: Damian Brady
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

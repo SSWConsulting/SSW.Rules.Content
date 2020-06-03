@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-send-newsletter-in-microsoft-crm-
+type: rule
 title: Do you know how to send newsletter in Microsoft CRM 2013?
-created: 2013-03-13 14:14:13
+uri: do-you-know-how-to-send-newsletter-in-microsoft-crm-
+created: 2013-03-13T14:14:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-check-your-dns-settings
+type: rule
 title: Do you check your DNS settings?
-created: 2014-09-03 19:30:49
+uri: do-you-check-your-dns-settings
+created: 2014-09-03T19:30:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

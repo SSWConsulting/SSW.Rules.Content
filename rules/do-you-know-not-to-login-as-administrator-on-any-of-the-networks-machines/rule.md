@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-not-to-login-as-administrator-on-any-of-the-networks-machines
+type: rule
 title: Do you know not to login as Administrator on any of the networks machines?
-created: 2014-09-03 18:22:13
+uri: do-you-know-not-to-login-as-administrator-on-any-of-the-networks-machines
+created: 2014-09-03T18:22:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
+type: rule
 title: Do you print out your general ledger for the week and ask your boss to initial?
-created: 2013-04-19 18:53:33
+uri: do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
+created: 2013-04-19T18:53:33.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

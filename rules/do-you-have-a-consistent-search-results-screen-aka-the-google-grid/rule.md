@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-a-consistent-search-results-screen-aka-the-google-grid
+type: rule
 title: Do you have a consistent search results screen? (aka the Google Grid)
-created: 2014-12-12 19:01:26
+uri: do-you-have-a-consistent-search-results-screen-aka-the-google-grid
+created: 2014-12-12T19:01:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

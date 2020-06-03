@@ -1,14 +1,15 @@
 ---
-uri: do-you-aim-for-an-advancement-rather-than-a-continuance
+type: rule
 title: Do you aim for an advancement rather than a continuance?
-created: 2012-08-30 13:02:28
+uri: do-you-aim-for-an-advancement-rather-than-a-continuance
+created: 2012-08-30T13:02:28.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

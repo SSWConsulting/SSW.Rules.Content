@@ -1,11 +1,11 @@
 ---
-uri: do-you-put-all-essential-links-in-your-website-on-your-navigation-bar
+type: rule
 title: Do you put all essential links in your website on your navigation bar?
-created: 2015-02-16 01:59:08
-authors:
+uri: do-you-put-all-essential-links-in-your-website-on-your-navigation-bar
+created: 2015-02-16T01:59:08.0000000Z
+authors: []
 
 ---
-
 
 
 

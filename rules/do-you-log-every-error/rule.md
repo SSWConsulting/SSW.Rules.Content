@@ -1,12 +1,13 @@
 ---
-uri: do-you-log-every-error
+type: rule
 title: Do you log every error?
-created: 2009-02-28 09:43:21
+uri: do-you-log-every-error
+created: 2009-02-28T09:43:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

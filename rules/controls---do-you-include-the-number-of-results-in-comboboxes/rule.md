@@ -1,12 +1,13 @@
 ---
-uri: controls---do-you-include-the-number-of-results-in-comboboxes
+type: rule
 title: Controls - Do you include the number of results in ComboBoxes?
-created: 2012-11-27 08:40:47
+uri: controls---do-you-include-the-number-of-results-in-comboboxes
+created: 2012-11-27T08:40:47.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

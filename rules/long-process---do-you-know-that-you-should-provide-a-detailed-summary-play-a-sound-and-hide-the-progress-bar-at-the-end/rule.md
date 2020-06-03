@@ -1,11 +1,11 @@
 ---
-uri: long-process---do-you-know-that-you-should-provide-a-detailed-summary-play-a-sound-and-hide-the-progress-bar-at-the-end
+type: rule
 title: Long Process - Do you know that you should provide a detailed summary, play a sound and hide the progress bar at the end?
-created: 2012-11-27 03:07:01
-authors:
+uri: long-process---do-you-know-that-you-should-provide-a-detailed-summary-play-a-sound-and-hide-the-progress-bar-at-the-end
+created: 2012-11-27T03:07:01.0000000Z
+authors: []
 
 ---
-
 
 
 

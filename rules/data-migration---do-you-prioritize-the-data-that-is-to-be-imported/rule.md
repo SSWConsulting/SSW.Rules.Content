@@ -1,12 +1,13 @@
 ---
-uri: data-migration---do-you-prioritize-the-data-that-is-to-be-imported
+type: rule
 title: Data Migration - Do you prioritize the data that is to be imported?
-created: 2012-12-10 19:27:51
+uri: data-migration---do-you-prioritize-the-data-that-is-to-be-imported
+created: 2012-12-10T19:27:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

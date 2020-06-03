@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-windows-integrated-authentication
+type: rule
 title: Do you use Windows Integrated Authentication?
-created: 2016-11-17 15:50:39
+uri: do-you-use-windows-integrated-authentication
+created: 2016-11-17T15:50:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

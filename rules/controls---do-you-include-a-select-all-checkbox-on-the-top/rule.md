@@ -1,12 +1,13 @@
 ---
-uri: controls---do-you-include-a-select-all-checkbox-on-the-top
+type: rule
 title: Controls - Do you include a "select all" checkBox on the top?
-created: 2012-11-27 08:42:03
+uri: controls---do-you-include-a-select-all-checkbox-on-the-top
+created: 2012-11-27T08:42:03.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

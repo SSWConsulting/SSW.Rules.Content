@@ -1,11 +1,11 @@
 ---
-uri: dates---do-you-use-calendar-controls-effectively
+type: rule
 title: Dates - Do you use Calendar controls effectively?
-created: 2014-12-01 05:57:12
-authors:
+uri: dates---do-you-use-calendar-controls-effectively
+created: 2014-12-01T05:57:12.0000000Z
+authors: []
 
 ---
-
 
 
 

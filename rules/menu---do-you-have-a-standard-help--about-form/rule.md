@@ -1,11 +1,11 @@
 ---
-uri: menu---do-you-have-a-standard-help--about-form
+type: rule
 title: Menu - Do you have a standard "Help | About" form?
-created: 2012-11-27 02:48:11
-authors:
+uri: menu---do-you-have-a-standard-help--about-form
+created: 2012-11-27T02:48:11.0000000Z
+authors: []
 
 ---
-
 
 
 

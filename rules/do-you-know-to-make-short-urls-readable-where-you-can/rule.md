@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-make-short-urls-readable-where-you-can
+type: rule
 title: Do you know to make short URL’s readable where you can?
-created: 2010-09-07 15:14:23
+uri: do-you-know-to-make-short-urls-readable-where-you-can
+created: 2010-09-07T15:14:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

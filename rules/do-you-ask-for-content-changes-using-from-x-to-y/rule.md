@@ -1,16 +1,17 @@
 ---
-uri: do-you-ask-for-content-changes-using-from-x-to-y
+type: rule
 title: Do you ask for content changes using from X to Y?
-created: 2009-03-25 04:50:21
+uri: do-you-ask-for-content-changes-using-from-x-to-y
+created: 2009-03-25T04:50:21.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

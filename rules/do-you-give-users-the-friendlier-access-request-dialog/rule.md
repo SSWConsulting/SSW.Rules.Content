@@ -1,14 +1,15 @@
 ---
-uri: do-you-give-users-the-friendlier-access-request-dialog
+type: rule
 title: Do you give users the friendlier Access Request dialog?
-created: 2013-07-16 02:20:38
+uri: do-you-give-users-the-friendlier-access-request-dialog
+created: 2013-07-16T02:20:38.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 9
-    title: William Yin
----
+- id: 1
+  title: Adam Cogan
+- id: 9
+  title: William Yin
 
+---
 
 
 

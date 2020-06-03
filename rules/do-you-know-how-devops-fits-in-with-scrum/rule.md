@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-devops-fits-in-with-scrum
+type: rule
 title: Do you know how DevOps fits in with Scrum?
-created: 2016-06-08 04:28:13
+uri: do-you-know-how-devops-fits-in-with-scrum
+created: 2016-06-08T04:28:13.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

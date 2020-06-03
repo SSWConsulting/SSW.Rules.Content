@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-when-to-branch-in-tfs-aka-tfvc
+type: rule
 title: Do you know when to branch in TFS (aka TFVC)?
-created: 2013-12-06 17:54:34
+uri: do-you-know-when-to-branch-in-tfs-aka-tfvc
+created: 2013-12-06T17:54:34.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-get-started-with-your-training
+type: rule
 title: Do you know how to get started with your Training?
-created: 2010-07-16 06:48:57
-authors:
+uri: do-you-know-how-to-get-started-with-your-training
+created: 2010-07-16T06:48:57.0000000Z
+authors: []
 
 ---
-
 
 
 

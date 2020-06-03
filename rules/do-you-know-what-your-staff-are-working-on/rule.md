@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-what-your-staff-are-working-on
+type: rule
 title: Do you know what your staff are working on?
-created: 2019-07-05 21:46:36
+uri: do-you-know-what-your-staff-are-working-on
+created: 2019-07-05T21:46:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 95
-    title: Matthew Sampias
----
+- id: 1
+  title: Adam Cogan
+- id: 95
+  title: Matthew Sampias
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: xamarin---do-you-know-the-stuff-to-install
+type: rule
 title: Xamarin - Do you know the stuff to install?
-created: 2016-08-19 17:53:30
+uri: xamarin---do-you-know-the-stuff-to-install
+created: 2016-08-19T17:53:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-rotate-your-marketing-communications
+type: rule
 title: Do you rotate your marketing communications?
-created: 2014-10-13 17:49:27
+uri: do-you-rotate-your-marketing-communications
+created: 2014-10-13T17:49:27.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-what-happens-at-a-sprint-planning-meeting
+type: rule
 title: Do you know what happens at a Sprint Planning Meeting?
-created: 2010-05-06 04:11:55
-authors:
+uri: do-you-know-what-happens-at-a-sprint-planning-meeting
+created: 2010-05-06T04:11:55.0000000Z
+authors: []
 
 ---
-
 
 
 

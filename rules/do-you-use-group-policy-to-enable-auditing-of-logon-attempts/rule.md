@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-group-policy-to-enable-auditing-of-logon-attempts
+type: rule
 title: Do you use Group Policy to enable auditing of logon attempts​?
-created: 2019-07-24 20:57:45
+uri: do-you-use-group-policy-to-enable-auditing-of-logon-attempts
+created: 2019-07-24T20:57:45.0000000Z
 authors:
-  - id: 71
-    title: Steven Andrews
----
+- id: 71
+  title: Steven Andrews
 
+---
 
 
 

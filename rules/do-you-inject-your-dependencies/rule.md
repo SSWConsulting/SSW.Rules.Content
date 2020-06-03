@@ -1,12 +1,13 @@
 ---
-uri: do-you-inject-your-dependencies
+type: rule
 title: Do you inject your dependencies?
-created: 2012-10-19 17:23:08
+uri: do-you-inject-your-dependencies
+created: 2012-10-19T17:23:08.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
----
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: does-your-sharepoint-site-have-a-favicon
+type: rule
 title: Does your SharePoint site have a favicon?
-created: 2009-04-21 03:40:52
+uri: does-your-sharepoint-site-have-a-favicon
+created: 2009-04-21T03:40:52.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 1
-    title: Adam Cogan
----
+- id: 8
+  title: John Liu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

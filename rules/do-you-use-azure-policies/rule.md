@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-azure-policies
+type: rule
 title: Do you use Azure Policies?
-created: 2019-12-23 22:10:23
+uri: do-you-use-azure-policies
+created: 2019-12-23T22:10:23.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 73
-    title: Kaique Biancatti
----
+- id: 1
+  title: Adam Cogan
+- id: 73
+  title: Kaique Biancatti
 
+---
 
 
 

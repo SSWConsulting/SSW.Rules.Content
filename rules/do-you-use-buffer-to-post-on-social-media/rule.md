@@ -1,16 +1,17 @@
 ---
-uri: do-you-use-buffer-to-post-on-social-media
+type: rule
 title: Do you use Buffer to post on social media?
-created: 2014-04-03 05:50:56
+uri: do-you-use-buffer-to-post-on-social-media
+created: 2014-04-03T05:50:56.0000000Z
 authors:
-  - id: 41
-    title: Joanna Feely
-  - id: 62
-    title: Penny Walker
-  - id: 57
-    title: Brittany Lawrence
----
+- id: 41
+  title: Joanna Feely
+- id: 62
+  title: Penny Walker
+- id: 57
+  title: Brittany Lawrence
 
+---
 
 
 

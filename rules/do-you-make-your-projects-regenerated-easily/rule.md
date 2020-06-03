@@ -1,14 +1,15 @@
 ---
-uri: do-you-make-your-projects-regenerated-easily
+type: rule
 title: Do you make your projects regenerated easily?
-created: 2009-06-09 06:43:07
+uri: do-you-make-your-projects-regenerated-easily
+created: 2009-06-09T06:43:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

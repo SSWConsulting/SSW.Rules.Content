@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-what-are-the-sharepoint-features-customers-love
+type: rule
 title: Do you know what are the SharePoint features customers love?
-created: 2016-05-06 22:56:17
+uri: do-you-know-what-are-the-sharepoint-features-customers-love
+created: 2016-05-06T22:56:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

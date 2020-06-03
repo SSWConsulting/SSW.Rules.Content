@@ -1,12 +1,13 @@
 ---
-uri: scheduling---do-you-know-when-to-use-all-day-events-or-start-and-end-times-with-recurrence
+type: rule
 title: Scheduling - Do you know when to use "All Day Events" or start and end times with recurrence?
-created: 2012-12-06 14:10:07
+uri: scheduling---do-you-know-when-to-use-all-day-events-or-start-and-end-times-with-recurrence
+created: 2012-12-06T14:10:07.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

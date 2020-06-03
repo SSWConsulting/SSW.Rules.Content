@@ -1,16 +1,17 @@
 ---
-uri: do-you-choose-the-best-method-of-authentication-for-your-situation
+type: rule
 title: Do you choose the best method of authentication for your situation?
-created: 2016-05-02 18:27:29
+uri: do-you-choose-the-best-method-of-authentication-for-your-situation
+created: 2016-05-02T18:27:29.0000000Z
 authors:
-  - id: 81
-    title: Jason Taylor
-  - id: 97
-    title: Matt Goldman
-  - id: 1
-    title: Adam Cogan
----
+- id: 81
+  title: Jason Taylor
+- id: 97
+  title: Matt Goldman
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

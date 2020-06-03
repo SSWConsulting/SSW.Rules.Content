@@ -1,11 +1,11 @@
 ---
-uri: if-you-already-have-an-installation
+type: rule
 title: If you already have an installation
-created: 2009-11-08 02:17:48
-authors:
+uri: if-you-already-have-an-installation
+created: 2009-11-08T02:17:48.0000000Z
+authors: []
 
 ---
-
 
 
 

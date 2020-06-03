@@ -1,14 +1,15 @@
 ---
-uri: zz_do-you-use-word-as-your-editor
+type: rule
 title: zz_Do you use Word as your editor?
-created: 2009-03-31 03:38:31
+uri: zz_do-you-use-word-as-your-editor
+created: 2009-03-31T03:38:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-follow-naming-conventions-for-your-boolean-property
+type: rule
 title: Do you follow naming conventions for your Boolean Property?
-created: 2018-04-25 21:35:27
+uri: do-you-follow-naming-conventions-for-your-boolean-property
+created: 2018-04-25T21:35:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

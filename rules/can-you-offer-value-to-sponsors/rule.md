@@ -1,11 +1,11 @@
 ---
-uri: can-you-offer-value-to-sponsors
+type: rule
 title: Can you offer value to sponsors?
-created: 2014-12-31 00:10:46
-authors:
+uri: can-you-offer-value-to-sponsors
+created: 2014-12-31T00:10:46.0000000Z
+authors: []
 
 ---
-
 
 
 

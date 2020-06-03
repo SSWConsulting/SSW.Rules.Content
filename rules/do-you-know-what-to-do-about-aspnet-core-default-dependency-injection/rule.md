@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-what-to-do-about-aspnet-core-default-dependency-injection
+type: rule
 title: Do you know what to do about ASP.NET Core default dependency injection?
-created: 2016-02-05 00:28:15
+uri: do-you-know-what-to-do-about-aspnet-core-default-dependency-injection
+created: 2016-02-05T00:28:15.0000000Z
 authors:
-  - id: 40
-    title: Igor Goldobin
-  - id: 1
-    title: Adam Cogan
-  - id: 24
-    title: Adam Stephensen
----
+- id: 40
+  title: Igor Goldobin
+- id: 1
+  title: Adam Cogan
+- id: 24
+  title: Adam Stephensen
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-not-to-use-the-eval-function
+type: rule
 title: Do you know not to use the "eval" function?
-created: 2012-07-24 18:13:38
+uri: do-you-know-not-to-use-the-eval-function
+created: 2012-07-24T18:13:38.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
----
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

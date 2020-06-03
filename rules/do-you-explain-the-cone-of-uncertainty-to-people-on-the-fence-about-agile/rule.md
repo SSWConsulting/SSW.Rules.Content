@@ -1,11 +1,11 @@
 ---
-uri: do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
+type: rule
 title: Do you explain the 'Cone of Uncertainty' to people on the fence about Agile?
-created: 2011-07-14 20:28:05
-authors:
+uri: do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
+created: 2011-07-14T20:28:05.0000000Z
+authors: []
 
 ---
-
 
 
 

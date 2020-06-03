@@ -1,14 +1,15 @@
 ---
-uri: do-you-get-a-new-tfs-server-ready
+type: rule
 title: Do you get a new TFS2010 Server ready?
-created: 2009-11-02 23:10:40
+uri: do-you-get-a-new-tfs-server-ready
+created: 2009-11-02T23:10:40.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

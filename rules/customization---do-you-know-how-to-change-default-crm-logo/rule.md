@@ -1,12 +1,13 @@
 ---
-uri: customization---do-you-know-how-to-change-default-crm-logo
+type: rule
 title: Customization - Do you know how to change default CRM logo?
-created: 2012-12-10 19:06:35
+uri: customization---do-you-know-how-to-change-default-crm-logo
+created: 2012-12-10T19:06:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

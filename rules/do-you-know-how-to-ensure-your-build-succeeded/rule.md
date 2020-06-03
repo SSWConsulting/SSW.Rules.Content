@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-ensure-your-build-succeeded
+type: rule
 title: Do you know how to ensure your build succeeded?
-created: 2013-01-21 17:20:24
+uri: do-you-know-how-to-ensure-your-build-succeeded
+created: 2013-01-21T17:20:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

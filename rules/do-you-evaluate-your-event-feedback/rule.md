@@ -1,14 +1,15 @@
 ---
-uri: do-you-evaluate-your-event-feedback
+type: rule
 title: Do you evaluate your event feedback?
-created: 2014-12-31 01:18:40
+uri: do-you-evaluate-your-event-feedback
+created: 2014-12-31T01:18:40.0000000Z
 authors:
-  - id: 62
-    title: Penny Walker
-  - id: 57
-    title: Brittany Lawrence
----
+- id: 62
+  title: Penny Walker
+- id: 57
+  title: Brittany Lawrence
 
+---
 
 
 

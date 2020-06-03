@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-the-full-slide-for-screenshots
+type: rule
 title: Do you use the full slide for screenshots?
-created: 2010-06-08 10:11:45
-authors:
+uri: do-you-use-the-full-slide-for-screenshots
+created: 2010-06-08T10:11:45.0000000Z
+authors: []
 
 ---
-
 
 
 

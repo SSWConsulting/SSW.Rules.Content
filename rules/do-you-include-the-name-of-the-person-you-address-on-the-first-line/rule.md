@@ -1,14 +1,15 @@
 ---
-uri: do-you-include-the-name-of-the-person-you-address-on-the-first-line
+type: rule
 title: Do you include the name of the person you address on the first line?
-created: 2009-03-30 03:06:59
+uri: do-you-include-the-name-of-the-person-you-address-on-the-first-line
+created: 2009-03-30T03:06:59.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: general---standards-watchdog---do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+type: rule
 title: General - Standards Watchdog - Do you provide the reason behind the rules rather than just enforce them?
-created: 2012-09-25 17:54:42
+uri: general---standards-watchdog---do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+created: 2012-09-25T17:54:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

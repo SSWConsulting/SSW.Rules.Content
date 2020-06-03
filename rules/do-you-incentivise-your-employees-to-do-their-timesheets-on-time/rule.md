@@ -1,14 +1,15 @@
 ---
-uri: do-you-incentivise-your-employees-to-do-their-timesheets-on-time
+type: rule
 title: Do you incentivise your employees to do their timesheets on time?
-created: 2013-04-19 20:22:27
+uri: do-you-incentivise-your-employees-to-do-their-timesheets-on-time
+created: 2013-04-19T20:22:27.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

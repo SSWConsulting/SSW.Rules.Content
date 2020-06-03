@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-servers-around-the-world-and-use-cdn
+type: rule
 title: Do you have servers around the world and use CDN?
-created: 2014-09-03 19:17:30
+uri: do-you-have-servers-around-the-world-and-use-cdn
+created: 2014-09-03T19:17:30.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

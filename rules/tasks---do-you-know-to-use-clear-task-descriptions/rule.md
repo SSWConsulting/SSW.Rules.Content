@@ -1,12 +1,13 @@
 ---
-uri: tasks---do-you-know-to-use-clear-task-descriptions
+type: rule
 title: Tasks - Do you know to use clear task descriptions?
-created: 2010-04-28 17:56:54
+uri: tasks---do-you-know-to-use-clear-task-descriptions
+created: 2010-04-28T17:56:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

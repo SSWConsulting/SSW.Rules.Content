@@ -1,12 +1,13 @@
 ---
-uri: relationships---do-you-use-update-cascade-when-creating-a-relationship
+type: rule
 title: Relationships - Do you use Update Cascade when creating a relationship?
-created: 2019-11-13 00:17:52
+uri: relationships---do-you-use-update-cascade-when-creating-a-relationship
+created: 2019-11-13T00:17:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

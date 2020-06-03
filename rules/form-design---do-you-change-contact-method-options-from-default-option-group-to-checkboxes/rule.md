@@ -1,12 +1,13 @@
 ---
-uri: form-design---do-you-change-contact-method-options-from-default-option-group-to-checkboxes
+type: rule
 title: Form Design - Do you change contact method options from default option group to checkboxes?
-created: 2012-12-10 19:31:39
+uri: form-design---do-you-change-contact-method-options-from-default-option-group-to-checkboxes
+created: 2012-12-10T19:31:39.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

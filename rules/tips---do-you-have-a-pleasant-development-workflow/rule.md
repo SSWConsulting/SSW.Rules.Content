@@ -1,14 +1,15 @@
 ---
-uri: tips---do-you-have-a-pleasant-development-workflow
+type: rule
 title: Tips - Do you have a pleasant development workflow?
-created: 2016-04-22 22:24:13
+uri: tips---do-you-have-a-pleasant-development-workflow
+created: 2016-04-22T22:24:13.0000000Z
 authors:
-  - id: 55
-    title: Steve Leigh
-  - id: 72
-    title: Gabriel George
----
+- id: 55
+  title: Steve Leigh
+- id: 72
+  title: Gabriel George
 
+---
 
 
 

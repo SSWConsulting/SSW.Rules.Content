@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-the-ready-function
+type: rule
 title: Do you use the .ready() function?
-created: 2013-04-29 06:39:55
+uri: do-you-use-the-ready-function
+created: 2013-04-29T06:39:55.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: sound---do-you-realize-the-importance-of-sounds-to-user-interface
+type: rule
 title: Sound - Do you realize the importance of sounds to User Interface?
-created: 2012-11-27 02:56:10
-authors:
+uri: sound---do-you-realize-the-importance-of-sounds-to-user-interface
+created: 2012-11-27T02:56:10.0000000Z
+authors: []
 
 ---
-
 
 
 

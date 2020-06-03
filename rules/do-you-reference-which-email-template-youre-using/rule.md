@@ -1,14 +1,15 @@
 ---
-uri: do-you-reference-which-email-template-youre-using
+type: rule
 title: Do you reference which email template you’re using?
-created: 2012-06-06 21:32:34
+uri: do-you-reference-which-email-template-youre-using
+created: 2012-06-06T21:32:34.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

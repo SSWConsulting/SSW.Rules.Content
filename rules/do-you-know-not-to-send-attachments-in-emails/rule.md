@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-not-to-send-attachments-in-emails
+type: rule
 title: Do you know not to send attachments in emails?
-created: 2009-04-08 09:35:54
+uri: do-you-know-not-to-send-attachments-in-emails
+created: 2009-04-08T09:35:54.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-tell-your-designers-to-only-use-classes
+type: rule
 title: Do you tell your designers to only use classes?
-created: 2013-04-10 21:08:06
+uri: do-you-tell-your-designers-to-only-use-classes
+created: 2013-04-10T21:08:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

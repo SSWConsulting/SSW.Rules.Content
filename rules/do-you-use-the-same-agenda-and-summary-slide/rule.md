@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-the-same-agenda-and-summary-slide
+type: rule
 title: Do you use the same Agenda and Summary slide?
-created: 2010-06-08 09:55:27
-authors:
+uri: do-you-use-the-same-agenda-and-summary-slide
+created: 2010-06-08T09:55:27.0000000Z
+authors: []
 
 ---
-
 
 
 

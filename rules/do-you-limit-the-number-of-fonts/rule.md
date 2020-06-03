@@ -1,11 +1,11 @@
 ---
-uri: do-you-limit-the-number-of-fonts
+type: rule
 title: Do you limit the number of fonts?
-created: 2010-06-08 08:13:50
-authors:
+uri: do-you-limit-the-number-of-fonts
+created: 2010-06-08T08:13:50.0000000Z
+authors: []
 
 ---
-
 
 
 

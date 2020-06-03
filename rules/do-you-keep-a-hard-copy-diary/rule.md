@@ -1,11 +1,11 @@
 ---
-uri: do-you-keep-a-hard-copy-diary
+type: rule
 title: Do you keep a hard copy diary?
-created: 2013-05-14 00:03:23
-authors:
+uri: do-you-keep-a-hard-copy-diary
+created: 2013-05-14T00:03:23.0000000Z
+authors: []
 
 ---
-
 
 
 

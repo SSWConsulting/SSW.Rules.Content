@@ -1,12 +1,13 @@
 ---
+type: rule
+title: 'Searching: Can you instantly find any file on your computer or network?'
 uri: searching-can-you-instantly-find-any-file-on-your-computer-or-network
-title: Searching: Can you instantly find any file on your computer or network?
-created: 2009-02-19 08:13:24
+created: 2009-02-19T08:13:24.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

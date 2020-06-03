@@ -1,11 +1,11 @@
 ---
-uri: import-method---do-you-know-how-to-import-a-solution-if-you-dont-have-the-original-installer-optional
+type: rule
 title: Import Method - Do you know how to import a solution if you don’t have the original installer? (optional)
-created: 2010-12-23 03:10:35
-authors:
+uri: import-method---do-you-know-how-to-import-a-solution-if-you-dont-have-the-original-installer-optional
+created: 2010-12-23T03:10:35.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-lodash-to-perform-your-daily-_foreach
+type: rule
 title: Do you use lodash to perform your daily _.foreach?
-created: 2015-05-05 18:45:14
+uri: do-you-use-lodash-to-perform-your-daily-_foreach
+created: 2015-05-05T18:45:14.0000000Z
 authors:
-  - id: 37
-    title: Ben Cull
-  - id: 44
-    title: Duncan Hunter
----
+- id: 37
+  title: Ben Cull
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-introduce-yourself-correctly
+type: rule
 title: Do you know how to introduce yourself correctly?
-created: 2018-06-08 21:00:57
+uri: do-you-know-how-to-introduce-yourself-correctly
+created: 2018-06-08T21:00:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

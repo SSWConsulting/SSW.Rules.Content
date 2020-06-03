@@ -1,14 +1,15 @@
 ---
-uri: do-you-make-your-cancel-button-less-obvious
+type: rule
 title: Do you make your cancel button less obvious?
-created: 2015-03-10 03:17:52
+uri: do-you-make-your-cancel-button-less-obvious
+created: 2015-03-10T03:17:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 44
-    title: Duncan Hunter
----
+- id: 1
+  title: Adam Cogan
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

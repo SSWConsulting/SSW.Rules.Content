@@ -1,12 +1,13 @@
 ---
-uri: control-choice---do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
+type: rule
 title: Control Choice - Do you use Checked List Boxes instead of multi-select List Boxes?
-created: 2012-11-27 08:53:22
+uri: control-choice---do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes
+created: 2012-11-27T08:53:22.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

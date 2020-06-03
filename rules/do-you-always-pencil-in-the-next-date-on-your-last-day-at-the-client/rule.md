@@ -1,11 +1,11 @@
 ---
-uri: do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client
+type: rule
 title: Do you always pencil in the next date on your last day at the client?
-created: 2010-07-16 06:38:09
-authors:
+uri: do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client
+created: 2010-07-16T06:38:09.0000000Z
+authors: []
 
 ---
-
 
 
 

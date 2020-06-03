@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-aname-record
+type: rule
 title: Do you use ANAME record?
-created: 2016-10-20 22:51:42
+uri: do-you-use-aname-record
+created: 2016-10-20T22:51:42.0000000Z
 authors:
-  - id: 47
-    title: Stanley Sidik
----
+- id: 47
+  title: Stanley Sidik
 
+---
 
 
 

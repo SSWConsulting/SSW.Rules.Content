@@ -1,14 +1,15 @@
 ---
-uri: do-you-design-your-web-pages-to-work-on-mobiletablets-screens-aka-responsive-web-design
+type: rule
 title: Do you design your web pages to work on mobile/tablets screens (AKA Responsive web design)?
-created: 2014-12-09 19:28:12
+uri: do-you-design-your-web-pages-to-work-on-mobiletablets-screens-aka-responsive-web-design
+created: 2014-12-09T19:28:12.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

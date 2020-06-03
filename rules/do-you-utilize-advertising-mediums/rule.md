@@ -1,12 +1,13 @@
 ---
-uri: do-you-utilize-advertising-mediums
+type: rule
 title: Do you utilize advertising mediums?
-created: 2014-10-13 19:29:09
+uri: do-you-utilize-advertising-mediums
+created: 2014-10-13T19:29:09.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

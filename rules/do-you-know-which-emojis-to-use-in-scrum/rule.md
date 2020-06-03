@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-which-emojis-to-use-in-scrum
+type: rule
 title: Do you know which emojis to use in Scrum?
-created: 2020-04-06 07:26:07
-authors:
+uri: do-you-know-which-emojis-to-use-in-scrum
+created: 2020-04-06T07:26:07.0000000Z
+authors: []
 
 ---
-
 
 
 

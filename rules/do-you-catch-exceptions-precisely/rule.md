@@ -1,14 +1,15 @@
 ---
-uri: do-you-catch-exceptions-precisely
+type: rule
 title: Do you catch exceptions precisely?
-created: 2013-09-11 19:22:41
+uri: do-you-catch-exceptions-precisely
+created: 2013-09-11T19:22:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 38
-    title: Drew Robson
----
+- id: 1
+  title: Adam Cogan
+- id: 38
+  title: Drew Robson
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: relationships---do-you-avoid-using-cascade-delete
+type: rule
 title: Relationships - Do you avoid using Cascade Delete?
-created: 2019-11-13 00:23:04
+uri: relationships---do-you-avoid-using-cascade-delete
+created: 2019-11-13T00:23:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

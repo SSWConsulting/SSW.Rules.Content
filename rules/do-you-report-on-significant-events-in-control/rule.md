@@ -1,12 +1,13 @@
 ---
-uri: do-you-report-on-significant-events-in-control
+type: rule
 title: Do you report on significant events in Control4?
-created: 2017-11-02 23:49:54
+uri: do-you-report-on-significant-events-in-control
+created: 2017-11-02T23:49:54.0000000Z
 authors:
-  - id: 70
-    title: Greg Harris
----
+- id: 70
+  title: Greg Harris
 
+---
 
 
 

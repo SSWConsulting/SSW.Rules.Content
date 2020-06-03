@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-hidden-tables-or-queries-upsizing-problem
+type: rule
 title: Do you have hidden tables or queries (Upsizing problem)?
-created: 2010-07-23 01:51:51
+uri: do-you-have-hidden-tables-or-queries-upsizing-problem
+created: 2010-07-23T01:51:51.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

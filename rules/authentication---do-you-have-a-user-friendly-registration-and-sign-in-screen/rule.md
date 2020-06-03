@@ -1,12 +1,13 @@
 ---
-uri: authentication---do-you-have-a-user-friendly-registration-and-sign-in-screen
+type: rule
 title: Authentication - Do you have a user friendly registration and sign in screen?
-created: 2014-12-09 19:50:46
+uri: authentication---do-you-have-a-user-friendly-registration-and-sign-in-screen
+created: 2014-12-09T19:50:46.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

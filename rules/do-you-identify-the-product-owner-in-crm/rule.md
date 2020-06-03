@@ -1,12 +1,13 @@
 ---
-uri: do-you-identify-the-product-owner-in-crm
+type: rule
 title: Do you identify the Product Owner in CRM?
-created: 2012-12-07 19:56:31
+uri: do-you-identify-the-product-owner-in-crm
+created: 2012-12-07T19:56:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

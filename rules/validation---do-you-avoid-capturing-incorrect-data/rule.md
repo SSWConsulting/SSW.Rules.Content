@@ -1,11 +1,11 @@
 ---
-uri: validation---do-you-avoid-capturing-incorrect-data
+type: rule
 title: Validation - Do you avoid capturing incorrect data?
-created: 2012-11-27 09:03:27
-authors:
+uri: validation---do-you-avoid-capturing-incorrect-data
+created: 2012-11-27T09:03:27.0000000Z
+authors: []
 
 ---
-
 
 
 

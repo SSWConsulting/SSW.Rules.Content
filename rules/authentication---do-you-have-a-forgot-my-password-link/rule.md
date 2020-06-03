@@ -1,14 +1,15 @@
 ---
-uri: authentication---do-you-have-a-forgot-my-password-link
+type: rule
 title: Authentication - Do you have a 'Forgot my password' link?
-created: 2014-12-11 20:10:16
+uri: authentication---do-you-have-a-forgot-my-password-link
+created: 2014-12-11T20:10:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 44
-    title: Duncan Hunter
----
+- id: 1
+  title: Adam Cogan
+- id: 44
+  title: Duncan Hunter
 
+---
 
 
 

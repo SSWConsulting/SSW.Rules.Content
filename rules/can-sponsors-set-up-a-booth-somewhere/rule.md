@@ -1,11 +1,11 @@
 ---
-uri: can-sponsors-set-up-a-booth-somewhere
+type: rule
 title: Can Sponsors Set Up A Booth Somewhere?
-created: 2014-12-31 00:39:06
-authors:
+uri: can-sponsors-set-up-a-booth-somewhere
+created: 2014-12-31T00:39:06.0000000Z
+authors: []
 
 ---
-
 
 
 

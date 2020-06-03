@@ -1,12 +1,13 @@
 ---
-uri: do-have-an-outbound-script
+type: rule
 title: Do have an outbound script?
-created: 2018-04-09 22:04:06
+uri: do-have-an-outbound-script
+created: 2018-04-09T22:04:06.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

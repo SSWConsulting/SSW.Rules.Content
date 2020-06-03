@@ -1,12 +1,13 @@
 ---
-uri: do-you-measure-the-success-of-your-outbound-efforts
+type: rule
 title: Do you measure the success of your outbound efforts?
-created: 2018-04-10 01:02:36
+uri: do-you-measure-the-success-of-your-outbound-efforts
+created: 2018-04-10T01:02:36.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

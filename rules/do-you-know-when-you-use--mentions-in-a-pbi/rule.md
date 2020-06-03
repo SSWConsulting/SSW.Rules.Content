@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-when-you-use--mentions-in-a-pbi
+type: rule
 title: Do you know when you use @ mentions in a PBI?
-created: 2016-09-20 20:03:03
+uri: do-you-know-when-you-use--mentions-in-a-pbi
+created: 2016-09-20T20:03:03.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
-  - id: 1
-    title: Adam Cogan
----
+- id: 3
+  title: Eric Phan
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

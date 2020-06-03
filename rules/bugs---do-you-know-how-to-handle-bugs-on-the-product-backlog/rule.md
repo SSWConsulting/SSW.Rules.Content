@@ -1,16 +1,17 @@
 ---
-uri: bugs---do-you-know-how-to-handle-bugs-on-the-product-backlog
+type: rule
 title: Bugs - Do you know how to handle Bugs on the Product Backlog?
-created: 2010-05-06 04:38:50
+uri: bugs---do-you-know-how-to-handle-bugs-on-the-product-backlog
+created: 2010-05-06T04:38:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
-  - id: 3
-    title: Eric Phan
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

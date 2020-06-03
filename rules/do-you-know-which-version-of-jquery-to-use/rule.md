@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-which-version-of-jquery-to-use
+type: rule
 title: Do you know which version of jQuery to use?
-created: 2013-04-29 06:20:48
+uri: do-you-know-which-version-of-jquery-to-use
+created: 2013-04-29T06:20:48.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

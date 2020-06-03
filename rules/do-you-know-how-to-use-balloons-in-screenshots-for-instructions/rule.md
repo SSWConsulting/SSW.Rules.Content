@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-use-balloons-in-screenshots-for-instructions
+type: rule
 title: Do you know how to use balloons in screenshots for instructions?
-created: 2015-10-13 00:33:20
-authors:
+uri: do-you-know-how-to-use-balloons-in-screenshots-for-instructions
+created: 2015-10-13T00:33:20.0000000Z
+authors: []
 
 ---
-
 
 
 

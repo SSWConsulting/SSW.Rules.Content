@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-a-banner-to-advertize-the-hashtag-you-want-people-to-use
+type: rule
 title: Do you have a banner to advertize the hashtag you want people to use?
-created: 2013-09-20 18:01:46
+uri: do-you-have-a-banner-to-advertize-the-hashtag-you-want-people-to-use
+created: 2013-09-20T18:01:46.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
-  - id: 16
-    title: Tiago Araujo
----
+- id: 30
+  title: Marlon Marescia
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

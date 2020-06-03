@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-a-signature-with-a-link-when-commenting-on-a-blog
+type: rule
 title: Do you use a signature with a link when commenting on a blog?
-created: 2019-11-26 00:55:31
+uri: do-you-use-a-signature-with-a-link-when-commenting-on-a-blog
+created: 2019-11-26T00:55:31.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

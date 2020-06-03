@@ -1,14 +1,15 @@
 ---
-uri: do-you-cc-everyone-and-reply-to-all-when-necessary
+type: rule
 title: Do you CC everyone and reply to all when necessary?
-created: 2009-03-26 02:42:00
+uri: do-you-cc-everyone-and-reply-to-all-when-necessary
+created: 2009-03-26T02:42:00.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

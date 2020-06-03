@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-underscores-preference-only
+type: rule
 title: Do you use underscores (Preference only)?
-created: 2010-07-23 01:42:49
+uri: do-you-use-underscores-preference-only
+created: 2010-07-23T01:42:49.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-that-you-should-use-subdirectories-not-domains
+type: rule
 title: Do you know that you should use subdirectories, not domains?
-created: 2020-01-24 02:02:06
+uri: do-you-know-that-you-should-use-subdirectories-not-domains
+created: 2020-01-24T02:02:06.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

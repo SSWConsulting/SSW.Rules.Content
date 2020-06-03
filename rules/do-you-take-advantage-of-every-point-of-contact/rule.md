@@ -1,12 +1,13 @@
 ---
-uri: do-you-take-advantage-of-every-point-of-contact
+type: rule
 title: Do you take advantage of every point of contact?
-created: 2014-10-13 18:59:52
+uri: do-you-take-advantage-of-every-point-of-contact
+created: 2014-10-13T18:59:52.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

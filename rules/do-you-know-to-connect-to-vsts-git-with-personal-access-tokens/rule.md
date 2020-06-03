@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-connect-to-vsts-git-with-personal-access-tokens
+type: rule
 title: Do you know to connect to VSTS Git with Personal Access Tokens
-created: 2017-07-03 05:46:30
+uri: do-you-know-to-connect-to-vsts-git-with-personal-access-tokens
+created: 2017-07-03T05:46:30.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 58
-    title: Jernej Kavka
----
+- id: 24
+  title: Adam Stephensen
+- id: 58
+  title: Jernej Kavka
 
+---
 
 
 

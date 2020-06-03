@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-uptime-report-for-your-website
+type: rule
 title: Do you have uptime report for your website?
-created: 2016-11-24 17:45:52
+uri: do-you-have-uptime-report-for-your-website
+created: 2016-11-24T17:45:52.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

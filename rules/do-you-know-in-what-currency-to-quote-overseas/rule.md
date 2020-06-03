@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-in-what-currency-to-quote-overseas
+type: rule
 title: Do you know in what currency to quote overseas?
-created: 2013-04-01 04:08:02
+uri: do-you-know-in-what-currency-to-quote-overseas
+created: 2013-04-01T04:08:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

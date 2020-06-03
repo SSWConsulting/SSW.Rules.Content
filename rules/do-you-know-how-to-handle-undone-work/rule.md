@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-handle-undone-work
+type: rule
 title: Do you know how to handle Undone Work?
-created: 2014-07-24 19:28:00
-authors:
+uri: do-you-know-how-to-handle-undone-work
+created: 2014-07-24T19:28:00.0000000Z
+authors: []
 
 ---
-
 
 
 

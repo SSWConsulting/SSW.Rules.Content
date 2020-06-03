@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
+type: rule
 title: Do you know how to describe the work you have done (while avoiding the word 'Bug')?
-created: 2013-04-19 19:39:34
+uri: do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug
+created: 2013-04-19T19:39:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

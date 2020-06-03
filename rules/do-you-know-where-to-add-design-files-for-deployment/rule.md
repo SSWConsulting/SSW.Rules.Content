@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-where-to-add-design-files-for-deployment
+type: rule
 title: Do you know where to add design files for deployment?
-created: 2009-04-20 00:13:00
+uri: do-you-know-where-to-add-design-files-for-deployment
+created: 2009-04-20T00:13:00.0000000Z
 authors:
-  - id: 8
-    title: John Liu
----
+- id: 8
+  title: John Liu
 
+---
 
 
 

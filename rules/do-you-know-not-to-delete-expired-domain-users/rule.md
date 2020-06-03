@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-not-to-delete-expired-domain-users
+type: rule
 title: Do you know not to delete expired domain users?
-created: 2014-09-03 19:35:18
+uri: do-you-know-not-to-delete-expired-domain-users
+created: 2014-09-03T19:35:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

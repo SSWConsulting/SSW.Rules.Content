@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-manage-the-product-backlog
+type: rule
 title: Do you know how to manage the Product Backlog?
-created: 2013-09-10 18:33:17
+uri: do-you-know-how-to-manage-the-product-backlog
+created: 2013-09-10T18:33:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

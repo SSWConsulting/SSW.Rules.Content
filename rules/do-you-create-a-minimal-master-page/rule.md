@@ -1,14 +1,15 @@
 ---
-uri: do-you-create-a-minimal-master-page
+type: rule
 title: Do you create a minimal master page?
-created: 2009-06-18 06:46:53
+uri: do-you-create-a-minimal-master-page
+created: 2009-06-18T06:46:53.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 18
-    title: Jay Lin
----
+- id: 8
+  title: John Liu
+- id: 18
+  title: Jay Lin
 
+---
 
 
 

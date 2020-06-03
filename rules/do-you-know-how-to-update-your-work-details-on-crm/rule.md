@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-how-to-update-your-work-details-on-crm
+type: rule
 title: Do you know how to update your work details on CRM?
-created: 2018-01-05 01:27:58
-authors:
+uri: do-you-know-how-to-update-your-work-details-on-crm
+created: 2018-01-05T01:27:58.0000000Z
+authors: []
 
 ---
-
 
 
 

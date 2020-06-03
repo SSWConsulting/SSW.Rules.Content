@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-the-alternative-to-giving-discounts
+type: rule
 title: Do you know the alternative to giving discounts?
-created: 2012-08-30 13:04:56
+uri: do-you-know-the-alternative-to-giving-discounts
+created: 2012-08-30T13:04:56.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 46
-    title: Danijel Malik
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 46
+  title: Danijel Malik
 
+---
 
 
 

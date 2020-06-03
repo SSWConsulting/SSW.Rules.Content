@@ -1,11 +1,11 @@
 ---
-uri: accommodation---do-you-know-the-best-online-accommodation-websites
+type: rule
 title: Accommodation - Do you know the best online accommodation websites?
-created: 2015-04-28 05:06:33
-authors:
+uri: accommodation---do-you-know-the-best-online-accommodation-websites
+created: 2015-04-28T05:06:33.0000000Z
+authors: []
 
 ---
-
 
 
 

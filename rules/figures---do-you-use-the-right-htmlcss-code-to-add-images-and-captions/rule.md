@@ -1,14 +1,15 @@
 ---
-uri: figures---do-you-use-the-right-htmlcss-code-to-add-images-and-captions
+type: rule
 title: Figures - Do you use the right HTML/CSS code to add images and captions?
-created: 2014-12-04 20:38:45
+uri: figures---do-you-use-the-right-htmlcss-code-to-add-images-and-captions
+created: 2014-12-04T20:38:45.0000000Z
 authors:
-  - id: 16
-    title: Tiago Araujo
-  - id: 1
-    title: Adam Cogan
----
+- id: 16
+  title: Tiago Araujo
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

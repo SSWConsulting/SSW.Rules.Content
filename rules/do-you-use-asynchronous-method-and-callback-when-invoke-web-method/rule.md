@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-asynchronous-method-and-callback-when-invoke-web-method
+type: rule
 title: Do you use Asynchronous method and CallBack when invoke web method?
-created: 2009-05-13 07:06:50
+uri: do-you-use-asynchronous-method-and-callback-when-invoke-web-method
+created: 2009-05-13T07:06:50.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

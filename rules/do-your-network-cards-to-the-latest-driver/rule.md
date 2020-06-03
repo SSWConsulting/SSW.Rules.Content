@@ -1,11 +1,11 @@
 ---
-uri: do-your-network-cards-to-the-latest-driver
+type: rule
 title: Do your network cards to the latest driver?
-created: 2012-03-02 19:19:19
-authors:
+uri: do-your-network-cards-to-the-latest-driver
+created: 2012-03-02T19:19:19.0000000Z
+authors: []
 
 ---
-
 
 
 

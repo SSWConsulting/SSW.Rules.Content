@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
+type: rule
 title: Do you use Html Helpers and Partial Views to simplify Views?
-created: 2013-03-07 18:47:43
+uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
+created: 2013-03-07T18:47:43.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

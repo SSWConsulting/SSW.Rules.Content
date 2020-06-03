@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-linq-instead-of-caml
+type: rule
 title: Do you use LINQ instead of CAML?
-created: 2009-12-09 04:22:07
+uri: do-you-use-linq-instead-of-caml
+created: 2009-12-09T04:22:07.0000000Z
 authors:
-  - id: 11
-    title: Andy Taslim
----
+- id: 11
+  title: Andy Taslim
 
+---
 
 
 

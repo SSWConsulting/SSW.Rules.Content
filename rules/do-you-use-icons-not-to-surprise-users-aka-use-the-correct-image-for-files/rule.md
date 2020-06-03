@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
+type: rule
 title: Do you use icons not to surprise users (aka use the correct image for files)?
-created: 2015-02-16 02:46:02
+uri: do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
+created: 2015-02-16T02:46:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

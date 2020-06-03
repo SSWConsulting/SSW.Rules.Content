@@ -1,18 +1,19 @@
 ---
-uri: spec---do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+type: rule
 title: Spec - Do you effectively present the outcomes at the "Specification Review Presentation"?
-created: 2009-03-18 02:12:35
+uri: spec---do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+created: 2009-03-18T02:12:35.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 2
-    title: Cameron Shaw
-  - id: 5
-    title: Justin King
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
+- id: 2
+  title: Cameron Shaw
+- id: 5
+  title: Justin King
 
+---
 
 
 

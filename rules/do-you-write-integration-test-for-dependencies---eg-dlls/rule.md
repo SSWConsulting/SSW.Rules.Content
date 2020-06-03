@@ -1,12 +1,13 @@
 ---
-uri: do-you-write-integration-test-for-dependencies---eg-dlls
+type: rule
 title: Do you write Integration Test for Dependencies - e.g. DLLs?
-created: 2020-03-11 21:59:13
+uri: do-you-write-integration-test-for-dependencies---eg-dlls
+created: 2020-03-11T21:59:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

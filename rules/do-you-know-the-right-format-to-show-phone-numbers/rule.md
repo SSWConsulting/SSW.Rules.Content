@@ -1,11 +1,11 @@
 ---
-uri: do-you-know-the-right-format-to-show-phone-numbers
+type: rule
 title: Do you know the right format to show phone numbers?
-created: 2015-02-13 02:52:06
-authors:
+uri: do-you-know-the-right-format-to-show-phone-numbers
+created: 2015-02-13T02:52:06.0000000Z
+authors: []
 
 ---
-
 
 
 

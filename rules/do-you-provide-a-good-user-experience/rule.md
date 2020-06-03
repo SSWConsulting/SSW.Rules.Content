@@ -1,12 +1,13 @@
 ---
-uri: do-you-provide-a-good-user-experience
+type: rule
 title: Do you provide a good user experience?
-created: 2019-04-17 05:36:38
+uri: do-you-provide-a-good-user-experience
+created: 2019-04-17T05:36:38.0000000Z
 authors:
-  - id: 83
-    title: Camilla Rosa Silva
----
+- id: 83
+  title: Camilla Rosa Silva
 
+---
 
 
 

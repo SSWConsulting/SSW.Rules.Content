@@ -1,11 +1,11 @@
 ---
-uri: meeting---do-you-know-what-to-prepare-for-each-meeting
+type: rule
 title: Meeting - Do you know what to prepare for each meeting?
-created: 2010-04-30 05:31:56
-authors:
+uri: meeting---do-you-know-what-to-prepare-for-each-meeting
+created: 2010-04-30T05:31:56.0000000Z
+authors: []
 
 ---
-
 
 
 

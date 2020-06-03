@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-create-a-meeting-request-for-an-online-meeting-or-conference-call
+type: rule
 title: Do you know how to create a meeting request for an online meeting or conference call?
-created: 2012-04-17 22:04:40
+uri: do-you-know-how-to-create-a-meeting-request-for-an-online-meeting-or-conference-call
+created: 2012-04-17T22:04:40.0000000Z
 authors:
-  - id: 28
-    title: Daragh Bannigan
-  - id: 1
-    title: Adam Cogan
----
+- id: 28
+  title: Daragh Bannigan
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

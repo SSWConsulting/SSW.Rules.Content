@@ -1,14 +1,15 @@
 ---
-uri: installation---do-you-ensure-you-are-on-the-current-crm-rollup
+type: rule
 title: Installation - Do you ensure you are on the current CRM Rollup?
-created: 2013-06-28 04:54:14
+uri: installation---do-you-ensure-you-are-on-the-current-crm-rollup
+created: 2013-06-28T04:54:14.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
-  - id: 1
-    title: Adam Cogan
----
+- id: 32
+  title: Mehmet Ozdemir
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

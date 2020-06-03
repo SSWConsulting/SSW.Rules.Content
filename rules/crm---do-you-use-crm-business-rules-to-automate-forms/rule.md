@@ -1,12 +1,13 @@
 ---
-uri: crm---do-you-use-crm-business-rules-to-automate-forms
+type: rule
 title: CRM2013/2015 - Do you use CRM Business Rules to automate forms?
-created: 2014-10-24 19:03:18
+uri: crm---do-you-use-crm-business-rules-to-automate-forms
+created: 2014-10-24T19:03:18.0000000Z
 authors:
-  - id: 32
-    title: Mehmet Ozdemir
----
+- id: 32
+  title: Mehmet Ozdemir
 
+---
 
 
 

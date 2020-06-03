@@ -1,12 +1,13 @@
 ---
-uri: do-you-organize-the-audience-when-numbers-are-low
+type: rule
 title: Do you organize the audience when numbers are low?
-created: 2016-07-29 14:46:51
+uri: do-you-organize-the-audience-when-numbers-are-low
+created: 2016-07-29T14:46:51.0000000Z
 authors:
-  - id: 51
-    title: Farrukh Khan
----
+- id: 51
+  title: Farrukh Khan
 
+---
 
 
 

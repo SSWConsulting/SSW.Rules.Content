@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-important-timesheets-are
+type: rule
 title: Do you know how important timesheets are?
-created: 2013-04-19 19:20:42
+uri: do-you-know-how-important-timesheets-are
+created: 2013-04-19T19:20:42.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

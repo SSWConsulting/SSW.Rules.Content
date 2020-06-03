@@ -1,11 +1,11 @@
 ---
-uri: have-you-got-enough-volunteers-to-help-on-the-day
+type: rule
 title: Have you got enough volunteers to help on the day?
-created: 2014-12-31 00:24:18
-authors:
+uri: have-you-got-enough-volunteers-to-help-on-the-day
+created: 2014-12-31T00:24:18.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,12 +1,13 @@
 ---
-uri: do-you-offer-positive-feedback-and-give-credits
+type: rule
 title: Do you offer positive feedback and give credits?
-created: 2012-09-25 17:56:57
+uri: do-you-offer-positive-feedback-and-give-credits
+created: 2012-09-25T17:56:57.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

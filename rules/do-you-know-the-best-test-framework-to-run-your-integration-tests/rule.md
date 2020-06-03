@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-test-framework-to-run-your-integration-tests
+type: rule
 title: Do you know the best test framework to run your integration tests?
-created: 2020-03-23 17:48:41
+uri: do-you-know-the-best-test-framework-to-run-your-integration-tests
+created: 2020-03-23T17:48:41.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 34
-    title: Brendan Richards
----
+- id: 1
+  title: Adam Cogan
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

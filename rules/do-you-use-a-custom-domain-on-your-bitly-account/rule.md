@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-a-custom-domain-on-your-bitly-account
+type: rule
 title: Do you use a custom domain on your bit.ly account?
-created: 2013-03-05 21:07:29
+uri: do-you-use-a-custom-domain-on-your-bitly-account
+created: 2013-03-05T21:07:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

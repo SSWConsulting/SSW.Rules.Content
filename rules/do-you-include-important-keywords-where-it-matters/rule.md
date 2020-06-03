@@ -1,14 +1,15 @@
 ---
-uri: do-you-include-important-keywords-where-it-matters
+type: rule
 title: Do you include important keywords where it matters?
-created: 2015-11-09 18:40:02
+uri: do-you-include-important-keywords-where-it-matters
+created: 2015-11-09T18:40:02.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

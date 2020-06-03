@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-why-you-choose-net-core
+type: rule
 title: Do you know why you choose .NET Core?
-created: 2017-01-31 14:17:23
+uri: do-you-know-why-you-choose-net-core
+created: 2017-01-31T14:17:23.0000000Z
 authors:
-  - id: 3
-    title: Eric Phan
----
+- id: 3
+  title: Eric Phan
 
+---
 
 
 

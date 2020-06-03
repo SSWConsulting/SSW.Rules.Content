@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
+type: rule
 title: Do you know how to resolve the broken links caused by page renaming?
-created: 2013-07-25 00:00:22
+uri: do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
+created: 2013-07-25T00:00:22.0000000Z
 authors:
-  - id: 9
-    title: William Yin
-  - id: 34
-    title: Brendan Richards
----
+- id: 9
+  title: William Yin
+- id: 34
+  title: Brendan Richards
 
+---
 
 
 

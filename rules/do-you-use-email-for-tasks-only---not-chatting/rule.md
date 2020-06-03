@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-email-for-tasks-only---not-chatting
+type: rule
 title: Do you use email for tasks only - not chatting?
-created: 2009-03-23 03:30:08
+uri: do-you-use-email-for-tasks-only---not-chatting
+created: 2009-03-23T03:30:08.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

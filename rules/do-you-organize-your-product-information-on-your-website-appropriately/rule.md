@@ -1,11 +1,11 @@
 ---
-uri: do-you-organize-your-product-information-on-your-website-appropriately
+type: rule
 title: Do you organize your product information on your website appropriately?
-created: 2015-02-13 02:37:24
-authors:
+uri: do-you-organize-your-product-information-on-your-website-appropriately
+created: 2015-02-13T02:37:24.0000000Z
+authors: []
 
 ---
-
 
 
 

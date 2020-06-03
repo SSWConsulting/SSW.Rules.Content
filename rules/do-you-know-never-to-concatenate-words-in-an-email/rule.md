@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-never-to-concatenate-words-in-an-email
+type: rule
 title: Do you know NEVER to concatenate words in an email?
-created: 2010-08-19 14:29:54
+uri: do-you-know-never-to-concatenate-words-in-an-email
+created: 2010-08-19T14:29:54.0000000Z
 authors:
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

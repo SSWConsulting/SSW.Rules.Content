@@ -1,12 +1,13 @@
 ---
-uri: do-you-have-your-files-available-offline
+type: rule
 title: Do you have your files available offline?
-created: 2018-07-06 00:49:13
+uri: do-you-have-your-files-available-offline
+created: 2018-07-06T00:49:13.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

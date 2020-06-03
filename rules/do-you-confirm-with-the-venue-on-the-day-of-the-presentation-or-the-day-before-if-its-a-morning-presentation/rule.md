@@ -1,12 +1,13 @@
 ---
-uri: do-you-confirm-with-the-venue-on-the-day-of-the-presentation-or-the-day-before-if-its-a-morning-presentation
+type: rule
 title: Do you confirm with the venue on the day of the presentation? (or the day before if it’s a morning presentation)
-created: 2013-05-17 16:45:04
+uri: do-you-confirm-with-the-venue-on-the-day-of-the-presentation-or-the-day-before-if-its-a-morning-presentation
+created: 2013-05-17T16:45:04.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

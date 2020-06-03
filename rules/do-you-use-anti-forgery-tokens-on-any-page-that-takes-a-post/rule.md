@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-anti-forgery-tokens-on-any-page-that-takes-a-post
+type: rule
 title: Do you use Anti Forgery Tokens on any page that takes a POST?
-created: 2013-03-08 14:57:32
+uri: do-you-use-anti-forgery-tokens-on-any-page-that-takes-a-post
+created: 2013-03-08T14:57:32.0000000Z
 authors:
-  - id: 23
-    title: Damian Brady
----
+- id: 23
+  title: Damian Brady
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: do-you-avoid-combining-different-entities
+type: rule
 title: Do you avoid combining different entities?
-created: 2014-12-01 00:54:50
-authors:
+uri: do-you-avoid-combining-different-entities
+created: 2014-12-01T00:54:50.0000000Z
+authors: []
 
 ---
-
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-to-hyperlink-your-phone-numbers
+type: rule
 title: Do you know to hyperlink your phone numbers?
-created: 2015-12-03 01:00:44
+uri: do-you-know-to-hyperlink-your-phone-numbers
+created: 2015-12-03T01:00:44.0000000Z
 authors:
-  - id: 51
-    title: Farrukh Khan
-  - id: 1
-    title: Adam Cogan
----
+- id: 51
+  title: Farrukh Khan
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

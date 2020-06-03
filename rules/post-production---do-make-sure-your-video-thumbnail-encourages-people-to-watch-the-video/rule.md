@@ -1,12 +1,13 @@
 ---
-uri: post-production---do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
+type: rule
 title: Post-Production - Do make sure your video thumbnail encourages people to watch the video?
-created: 2012-12-14 18:59:42
+uri: post-production---do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
+created: 2012-12-14T18:59:42.0000000Z
 authors:
-  - id: 30
-    title: Marlon Marescia
----
+- id: 30
+  title: Marlon Marescia
 
+---
 
 
 

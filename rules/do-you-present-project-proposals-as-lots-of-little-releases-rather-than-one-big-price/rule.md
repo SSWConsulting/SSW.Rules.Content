@@ -1,14 +1,15 @@
 ---
-uri: do-you-present-project-proposals-as-lots-of-little-releases-rather-than-one-big-price
+type: rule
 title: Do you present project proposals as lots of little releases rather than one big price?
-created: 2012-08-30 13:01:29
+uri: do-you-present-project-proposals-as-lots-of-little-releases-rather-than-one-big-price
+created: 2012-08-30T13:01:29.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

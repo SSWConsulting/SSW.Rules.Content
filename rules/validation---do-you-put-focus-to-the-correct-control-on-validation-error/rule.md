@@ -1,11 +1,11 @@
 ---
-uri: validation---do-you-put-focus-to-the-correct-control-on-validation-error
+type: rule
 title: Validation - Do you put focus to the correct control on validation error?
-created: 2012-11-27 09:05:50
-authors:
+uri: validation---do-you-put-focus-to-the-correct-control-on-validation-error
+created: 2012-11-27T09:05:50.0000000Z
+authors: []
 
 ---
-
 
 
 

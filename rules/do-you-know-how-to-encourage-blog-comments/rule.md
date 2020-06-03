@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-how-to-encourage-blog-comments
+type: rule
 title: Do you know how to encourage blog comments?
-created: 2010-09-07 16:30:10
+uri: do-you-know-how-to-encourage-blog-comments
+created: 2010-09-07T16:30:10.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

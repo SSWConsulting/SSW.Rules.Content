@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-automate-event-signup-processes
+type: rule
 title: Do you know how to automate event signup processes?
-created: 2017-02-27 00:36:43
+uri: do-you-know-how-to-automate-event-signup-processes
+created: 2017-02-27T00:36:43.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

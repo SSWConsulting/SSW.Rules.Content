@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-how-to-weed-out-spammers
+type: rule
 title: Do you know how to weed out spammers?
-created: 2016-05-06 02:53:37
+uri: do-you-know-how-to-weed-out-spammers
+created: 2016-05-06T02:53:37.0000000Z
 authors:
-  - id: 41
-    title: Joanna Feely
----
+- id: 41
+  title: Joanna Feely
 
+---
 
 
 

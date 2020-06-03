@@ -1,14 +1,15 @@
 ---
-uri: do-you-use-doctype-without-any-reference
+type: rule
 title: Do you use DOCTYPE without any reference?
-created: 2014-12-15 17:59:16
+uri: do-you-use-doctype-without-any-reference
+created: 2014-12-15T17:59:16.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 16
-    title: Tiago Araujo
----
+- id: 1
+  title: Adam Cogan
+- id: 16
+  title: Tiago Araujo
 
+---
 
 
 

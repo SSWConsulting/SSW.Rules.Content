@@ -1,16 +1,17 @@
 ---
-uri: appointments---do-you-send-outlook-calendar-appointments-when-appropriate
+type: rule
 title: Appointments - Do you send Outlook Calendar appointments when appropriate?
-created: 2009-04-03 03:37:31
+uri: appointments---do-you-send-outlook-calendar-appointments-when-appropriate
+created: 2009-04-03T03:37:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

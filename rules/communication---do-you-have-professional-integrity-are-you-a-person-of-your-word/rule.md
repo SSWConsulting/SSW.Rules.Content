@@ -1,14 +1,15 @@
 ---
-uri: communication---do-you-have-professional-integrity-are-you-a-person-of-your-word
+type: rule
 title: Communication - Do you have professional integrity? (Are you a person of your word?)
-created: 2014-08-28 17:23:41
+uri: communication---do-you-have-professional-integrity-are-you-a-person-of-your-word
+created: 2014-08-28T17:23:41.0000000Z
 authors:
-  - id: 4
-    title: Ulysses Maclaren
-  - id: 1
-    title: Adam Cogan
----
+- id: 4
+  title: Ulysses Maclaren
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

@@ -1,11 +1,11 @@
 ---
-uri: popup---do-you-know-pop-ups-are-evil
+type: rule
 title: Popup - Do you know Pop-ups are evil?
-created: 2012-11-27 04:17:46
-authors:
+uri: popup---do-you-know-pop-ups-are-evil
+created: 2012-11-27T04:17:46.0000000Z
+authors: []
 
 ---
-
 
 
 

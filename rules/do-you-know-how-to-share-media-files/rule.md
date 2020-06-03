@@ -1,16 +1,17 @@
 ---
-uri: do-you-know-how-to-share-media-files
+type: rule
 title: Do you know how to share media files?
-created: 2014-04-03 19:35:33
+uri: do-you-know-how-to-share-media-files
+created: 2014-04-03T19:35:33.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
-  - id: 20
-    title: Rebecca Liu
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
+- id: 20
+  title: Rebecca Liu
 
+---
 
 
 

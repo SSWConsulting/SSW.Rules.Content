@@ -1,14 +1,15 @@
 ---
-uri: do-you-have-good-and-bad-bullet-points
+type: rule
 title: Do you have good and bad bullet points?
-created: 2010-06-08 10:13:26
+uri: do-you-have-good-and-bad-bullet-points
+created: 2010-06-08T10:13:26.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 4
-    title: Ulysses Maclaren
----
+- id: 1
+  title: Adam Cogan
+- id: 4
+  title: Ulysses Maclaren
 
+---
 
 
 

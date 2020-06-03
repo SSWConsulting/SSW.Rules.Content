@@ -1,12 +1,13 @@
 ---
-uri: do-you-know-the-client-is-not-_always_-right
+type: rule
 title: Do you know the client is not _always_ right?
-created: 2010-08-16 02:43:27
+uri: do-you-know-the-client-is-not-_always_-right
+created: 2010-08-16T02:43:27.0000000Z
 authors:
-  - id: 2
-    title: Cameron Shaw
----
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

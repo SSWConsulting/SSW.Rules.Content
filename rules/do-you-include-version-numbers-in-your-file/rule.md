@@ -1,12 +1,13 @@
 ---
-uri: do-you-include-version-numbers-in-your-file
+type: rule
 title: Do you include version numbers in your file?
-created: 2016-03-22 05:59:17
+uri: do-you-include-version-numbers-in-your-file
+created: 2016-03-22T05:59:17.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

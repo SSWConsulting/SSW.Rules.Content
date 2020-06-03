@@ -1,14 +1,15 @@
 ---
-uri: appointments---do-you-explain-why-youve-deleted-or-modified-an-appointment
+type: rule
 title: Appointments - Do you explain why you've deleted or modified an appointment?
-created: 2010-03-15 08:42:32
+uri: appointments---do-you-explain-why-youve-deleted-or-modified-an-appointment
+created: 2010-03-15T08:42:32.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

@@ -1,14 +1,15 @@
 ---
-uri: do-you-monitor-company-email
+type: rule
 title: Do you Monitor Company Email?
-created: 2009-04-03 07:12:18
+uri: do-you-monitor-company-email
+created: 2009-04-03T07:12:18.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 2
-    title: Cameron Shaw
----
+- id: 1
+  title: Adam Cogan
+- id: 2
+  title: Cameron Shaw
 
+---
 
 
 

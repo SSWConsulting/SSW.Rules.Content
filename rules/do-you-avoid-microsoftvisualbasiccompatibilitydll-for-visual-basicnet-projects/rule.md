@@ -1,14 +1,15 @@
 ---
-uri: do-you-avoid-microsoftvisualbasiccompatibilitydll-for-visual-basicnet-projects
+type: rule
 title: Do you avoid Microsoft.VisualBasic.Compatibility.dll for Visual Basic.NET projects?
-created: 2009-04-28 03:01:20
+uri: do-you-avoid-microsoftvisualbasiccompatibilitydll-for-visual-basicnet-projects
+created: 2009-04-28T03:01:20.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 17
-    title: Ryan Tee
----
+- id: 1
+  title: Adam Cogan
+- id: 17
+  title: Ryan Tee
 
+---
 
 
 

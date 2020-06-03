@@ -1,14 +1,15 @@
 ---
-uri: do-you-know-the-best-package-manager-for-react
+type: rule
 title: Do you know the best package manager for React?
-created: 2017-08-15 23:12:15
+uri: do-you-know-the-best-package-manager-for-react
+created: 2017-08-15T23:12:15.0000000Z
 authors:
-  - id: 24
-    title: Adam Stephensen
-  - id: 1
-    title: Adam Cogan
----
+- id: 24
+  title: Adam Stephensen
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

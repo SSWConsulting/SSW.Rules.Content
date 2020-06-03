@@ -1,16 +1,17 @@
 ---
-uri: reports---do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress
+type: rule
 title: Reports - Do you know which reports are the most important ones to track your progress?
-created: 2010-09-07 14:48:34
+uri: reports---do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress
+created: 2010-09-07T14:48:34.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
-  - id: 3
-    title: Eric Phan
-  - id: 14
-    title: Martin Hinshelwood
----
+- id: 1
+  title: Adam Cogan
+- id: 3
+  title: Eric Phan
+- id: 14
+  title: Martin Hinshelwood
 
+---
 
 
 

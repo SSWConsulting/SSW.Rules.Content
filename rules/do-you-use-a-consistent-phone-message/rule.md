@@ -1,12 +1,13 @@
 ---
-uri: do-you-use-a-consistent-phone-message
+type: rule
 title: Do you use a consistent phone message?
-created: 2015-11-24 18:42:48
+uri: do-you-use-a-consistent-phone-message
+created: 2015-11-24T18:42:48.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

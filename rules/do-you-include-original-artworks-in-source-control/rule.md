@@ -1,18 +1,19 @@
 ---
-uri: do-you-include-original-artworks-in-source-control
+type: rule
 title: Do you include original artworks in Source Control?
-created: 2011-11-18 03:52:46
+uri: do-you-include-original-artworks-in-source-control
+created: 2011-11-18T03:52:46.0000000Z
 authors:
-  - id: 22
-    title: David Klein
-  - id: 5
-    title: Justin King
-  - id: 17
-    title: Ryan Tee
-  - id: 6
-    title: Tristan Kurniawan
----
+- id: 22
+  title: David Klein
+- id: 5
+  title: Justin King
+- id: 17
+  title: Ryan Tee
+- id: 6
+  title: Tristan Kurniawan
 
+---
 
 
 

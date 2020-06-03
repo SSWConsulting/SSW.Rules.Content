@@ -1,11 +1,11 @@
 ---
-uri: do-you-use-interoperability-mechanism-for-com-object
+type: rule
 title: Do you use interoperability mechanism for COM object?
-created: 2018-04-25 22:10:13
-authors:
+uri: do-you-use-interoperability-mechanism-for-com-object
+created: 2018-04-25T22:10:13.0000000Z
+authors: []
 
 ---
-
 
 
 

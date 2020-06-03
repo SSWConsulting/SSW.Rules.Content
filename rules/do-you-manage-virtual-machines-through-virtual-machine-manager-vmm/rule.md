@@ -1,11 +1,11 @@
 ---
-uri: do-you-manage-virtual-machines-through-virtual-machine-manager-vmm
+type: rule
 title: Do you manage Virtual Machines through Virtual Machine Manager (VMM)?
-created: 2019-10-18 00:15:26
-authors:
+uri: do-you-manage-virtual-machines-through-virtual-machine-manager-vmm
+created: 2019-10-18T00:15:26.0000000Z
+authors: []
 
 ---
-
 
 
 

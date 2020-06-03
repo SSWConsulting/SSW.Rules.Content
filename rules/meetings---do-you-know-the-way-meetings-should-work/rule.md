@@ -1,11 +1,11 @@
 ---
-uri: meetings---do-you-know-the-way-meetings-should-work
+type: rule
 title: Meetings - Do you know the way meetings should work?
-created: 2010-07-16 06:08:10
-authors:
+uri: meetings---do-you-know-the-way-meetings-should-work
+created: 2010-07-16T06:08:10.0000000Z
+authors: []
 
 ---
-
 
 
 

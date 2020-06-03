@@ -1,12 +1,13 @@
 ---
-uri: do-you-export-your-configuration-on-deployment-using-the-crm-plug-in-registration-tool
+type: rule
 title: Do you export your configuration on deployment using the CRM Plug-in Registration Tool?
-created: 2012-12-10 20:22:31
+uri: do-you-export-your-configuration-on-deployment-using-the-crm-plug-in-registration-tool
+created: 2012-12-10T20:22:31.0000000Z
 authors:
-  - id: 1
-    title: Adam Cogan
----
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 

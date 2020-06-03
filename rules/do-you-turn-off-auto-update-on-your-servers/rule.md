@@ -1,14 +1,15 @@
 ---
-uri: do-you-turn-off-auto-update-on-your-servers
+type: rule
 title: Do you turn off auto-update on your servers?
-created: 2010-06-24 01:43:02
+uri: do-you-turn-off-auto-update-on-your-servers
+created: 2010-06-24T01:43:02.0000000Z
 authors:
-  - id: 8
-    title: John Liu
-  - id: 1
-    title: Adam Cogan
----
+- id: 8
+  title: John Liu
+- id: 1
+  title: Adam Cogan
 
+---
 
 
 
