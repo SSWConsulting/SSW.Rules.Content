@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../components/layout/layout';
 import PropTypes from 'prop-types';
@@ -10,6 +10,15 @@ export default function Category({
 }) {
   const linkRef = useRef();
   const category = data.markdownRemark;
+
+  const [selectedOption, setSelectedOption] = useState('all');
+  const [isTitleOnly, setTitleOnly] = useState(false);
+
+  const handleOptionChange = (e) => {
+    setSelectedOption(e.target.value);
+    setTitleOnly(e.target.value === 'titleOnly');
+  };
+
   return (
     <Layout
       crumbs={crumbs}
@@ -26,7 +35,7 @@ export default function Category({
               </span>
             </h2>
             <div
-              className="description px-4 pt-0 pb-4"
+              className="description px-12 pt-0 pb-4"
               dangerouslySetInnerHTML={{ __html: category.html }}
             ></div>
             <div className="how-to-view text-center p-4 d-print-none">
@@ -36,6 +45,9 @@ export default function Category({
                   id="customRadioInline1"
                   name="customRadioInline1"
                   className="custom-control-input"
+                  value="titleOnly"
+                  checked={selectedOption === 'titleOnly'}
+                  onChange={handleOptionChange}
                 />
                 <label
                   className="custom-control-label ml-1"
@@ -50,6 +62,9 @@ export default function Category({
                   id="customRadioInline2"
                   name="customRadioInline1"
                   className="custom-control-input"
+                  value="all"
+                  checked={selectedOption === 'all'}
+                  onChange={handleOptionChange}
                 />
                 <label
                   className="custom-control-label ml-1"
@@ -74,7 +89,7 @@ export default function Category({
                           </Link>
                         </h1>
                       </section>
-                      <section className="rule-content px-4 mb-5">
+                      <section className={`rule-content px-4 mb-5 ${isTitleOnly?'hidden':'visible'}`}>
                         <div dangerouslySetInnerHTML={{ __html: rule.html }} />
                       </section>
                     </>
