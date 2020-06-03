@@ -30,8 +30,7 @@ const Index = ({
             {topcategory.frontmatter.index.map((category, i) => {
               const cat = data.categories.nodes.find(
                 (c) =>
-                  c.parent.name.toLowerCase().indexOf(category.toLowerCase()) >=
-                  0
+                  c.parent.name.toLowerCase() === `${category.toLowerCase()}`
               );
               if (cat) {
                 return (
@@ -62,9 +61,8 @@ const Index = ({
                   return element.frontmatter.index.map((category) => {
                     const cat = data.topCategories.nodes.find(
                       (c) =>
-                        c.parent.relativeDirectory
-                          .toLowerCase()
-                          .indexOf(category.toLowerCase()) >= 0
+                        c.parent.relativeDirectory.toLowerCase() ===
+                        `categories/${category.toLowerCase()}`
                     );
                     if (cat) {
                       return displayTopCategories(cat);
