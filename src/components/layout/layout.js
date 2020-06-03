@@ -5,6 +5,7 @@ import Head from '../head/head';
 import Header from '../header/header';
 import Footer from '../footer/footer';
 import '../../style.css';
+import '../../rules.css';
 import Breadcrumbs from '../breadcrumb/breadcrumb';
 import GoogleAnalytics from '../google-analytics/google-analytics';
 import Menu from '../../../lib/ssw.megamenu/menu/menu';
