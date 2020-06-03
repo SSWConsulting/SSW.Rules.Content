@@ -1,3 +1,15 @@
+.custom-control-inline {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin-right: 1rem;
+}
+.custom-control {
+    position: relative;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -124,6 +136,11 @@ blockquote p:before {
     color: #ccc;
 }
 
+.rule-content p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 /* Category List
 -------------------------------------------------- */
 
@@ -142,6 +159,7 @@ blockquote p:before {
 .rule-category h2.cat-title {
     background-color: #f5f5f5;
     margin: 0;
+    color: #222; 
 }
 
 .rule-category h2.cat-title span {
@@ -162,8 +180,8 @@ blockquote p:before {
 }
 
 .rule-content-title h1, .rule-content-title a {
-    color: #cc4141;
-    font-weight: 100;
+    color: #cc4141 !important;
+    font-weight: 100 !important;
 }
 
 /* Single Rule
@@ -226,10 +244,6 @@ blockquote p:before {
 
 .rule-content ul li, .rule-content ol li {
     margin-bottom: .25rem;
-}
-
-.rule-content ul {
-    list-style-type: square;
 }
 
 .rule-content ul ul, .rule-content ul li ul {

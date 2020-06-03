@@ -184,7 +184,7 @@ ul li {
   background-color: #0c7abf;
 }
 
-a.twitter-hashtag-button, a.twitter-hashtag-button:hover{
+a.twitter-hashtag-button, a.twitter-hashtag-button:visited,a.twitter-hashtag-button:visited:hover, a.twitter-hashtag-button:hover{
   color: #fff;
   border-bottom: 0px !important;
 }
