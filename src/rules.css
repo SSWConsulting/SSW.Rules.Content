@@ -9,6 +9,15 @@
     padding-left: 1.5rem;
 }
 
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .no-gutters {
     margin-right: 0;
