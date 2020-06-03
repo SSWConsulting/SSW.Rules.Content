@@ -204,7 +204,7 @@ const IndexWithQuery = (props) => (
         topCategories: allMarkdownRemark(
           filter: {
             fileAbsolutePath: { regex: "/(categories)/" }
-            frontmatter: { type: { eq: "top_category" } }
+            frontmatter: { type: { eq: "top-category" } }
           }
         ) {
           nodes {
