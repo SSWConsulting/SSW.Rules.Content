@@ -9,7 +9,10 @@ import Breadcrumbs from '../breadcrumb/breadcrumb';
 import GoogleAnalytics from '../google-analytics/google-analytics';
 import Menu from '../../../lib/ssw.megamenu/menu/menu';
 import MobileMenu from '../../../lib/ssw.megamenu/mobile-menu/mobile-menu';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
+config.autoAddCss = false;
 const Layout = ({
   children,
   displayActions,
