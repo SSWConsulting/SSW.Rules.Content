@@ -3,6 +3,7 @@ import { StaticQuery, graphql, Link } from 'gatsby';
 import Layout from '../components/layout/layout';
 import PropTypes from 'prop-types';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { config } from '@fortawesome/fontawesome-svg-core';
 import {
   faArchive,
   faFlag,
@@ -10,6 +11,8 @@ import {
   faMobileAlt,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+config.autoAddCss = false;
 
 const Index = ({
   data,

@@ -2,10 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout/layout';
 import PropTypes from 'prop-types';
-import {
-  faThumbsUp,
-  faThumbsDown
-} from '@fortawesome/free-solid-svg-icons';
+import { faThumbsUp, faThumbsDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Rule({
   data,
@@ -25,7 +22,11 @@ export default function Rule({
           <h1>{rule.frontmatter.title}</h1>
           <small>
             Created on {rule.frontmatter.created} | Last updated by{' '}
-            <a href="/profile">{rule.frontmatter.authors[0].title}</a>{' '}
+            <a href="/profile">
+              {rule.frontmatter.authors && rule.frontmatter.authors.length > 0
+                ? rule.frontmatter.authors[0].title
+                : ''}
+            </a>
             {rule.frontmatter.created}
           </small>
           <hr />
@@ -56,7 +57,7 @@ export default function Rule({
                   8 <FontAwesomeIcon icon={faThumbsUp} className="good" />
                 </span>{' '}
                 <span>
-                <FontAwesomeIcon icon={faThumbsDown} className="bad" /> 2
+                  <FontAwesomeIcon icon={faThumbsDown} className="bad" /> 2
                 </span>
               </p>
               <p>
