@@ -15,6 +15,18 @@ module.exports = {
     'gatsby-transformer-json',
     'gatsby-plugin-postcss',
     {
+      resolve: 'gatsby-source-git',
+      options: {
+        name: 'categories',
+        remote: 'https://github.com/SSWConsulting/SSW.Rules.git',
+        // Optionally supply a branch. If none supplied, you'll get the default branch.
+        //53120-CreateIndexTemplate
+        branch: 'content-migration-02',
+        // Tailor which files get imported eg. import the docs folder from a codebase.
+        patterns: ['categories/**/*.md', 'rules/**/*'],
+      },
+    },
+    {
       resolve: 'gatsby-plugin-breadcrumb',
       options: {
         useAutoGen: true,
@@ -22,5 +34,13 @@ module.exports = {
         useClassNames: true,
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content`,
+      },
+    },
+    { resolve: 'gatsby-transformer-remark' },
   ],
 };

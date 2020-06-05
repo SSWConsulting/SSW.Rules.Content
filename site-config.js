@@ -2,8 +2,8 @@
 const path = require(`path`);
 
 module.exports = {
-  siteTitle: `SSW.Rules | Australia's Leading .NET and Azure Consultants`,
-  siteTitleShort: `SSW.Rules | Australia's Leading .NET and Azure Consultants`,
+  siteTitle: `SSW.Rules`,
+  siteTitleShort: `SSW.Rules`,
   siteDescription: ``,
   siteUrl: `https://ssw.com.au/rules`,
   themeColor: `#cc4141`,

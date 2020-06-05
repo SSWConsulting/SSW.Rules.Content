@@ -9,7 +9,10 @@ import Breadcrumbs from '../breadcrumb/breadcrumb';
 import GoogleAnalytics from '../google-analytics/google-analytics';
 import Menu from '../../../lib/ssw.megamenu/menu/menu';
 import MobileMenu from '../../../lib/ssw.megamenu/mobile-menu/mobile-menu';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
+config.autoAddCss = false;
 const Layout = ({
   children,
   displayActions,
@@ -55,7 +58,7 @@ const Layout = ({
           ) : (
             <div></div>
           )}
-          <main className="flex-1 mx-auto">{children}</main>
+          <main className="flex-1">{children}</main>
         </div>
         <Footer />
       </div>
