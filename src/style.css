@@ -139,6 +139,10 @@ ul li {
   span {
     min-width: 1.5rem;
   }
+
+  ol{
+    display: inline-flex;
+  }
 }
 
 .breadcrumb a{
@@ -351,18 +355,6 @@ pre {
   line-height: initial;
 }
 
-/*GitHub Calendar Styling */
-.styles_title__HcRKb{
-  display:none;
-}
-
-.styles_calendar__1PAia{
-  width: 100%;
-
-  text {
-    font-size: .5rem !important;
-  }
-}
 
 @media screen and (max-width: 1024px) {
   img {
@@ -376,9 +368,6 @@ pre {
   cursor: pointer;
 }
 
-.category:hover {
-  background-color: rgb(238, 238, 238);
-}
 
 .text-ident{
   padding-left: 0.5em;
@@ -405,21 +394,6 @@ pre {
   margin-left: auto;
   margin-right: auto;
 }
-
-.top-category{
-  line-height: 30px;
-  font-size: 18px;
-  padding-left: 22px;
-  display: block;
-  height: 100%;
-}
-
-.categories{
-  padding: 12px 0 20px 20px;
-}
-
-
-
 
 
 
@@ -558,7 +532,7 @@ blockquote p:before {
 
 .rule-index ol {
   background-color: #f5f5f5;
-  color: #ccc;
+  color: #222;
   list-style-type: upper-alpha;
   list-style-position: inside;
 }

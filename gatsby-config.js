@@ -20,7 +20,8 @@ module.exports = {
         name: 'categories',
         remote: 'https://github.com/SSWConsulting/SSW.Rules.git',
         // Optionally supply a branch. If none supplied, you'll get the default branch.
-        branch: '53120-CreateIndexTemplate',
+        //53120-CreateIndexTemplate
+        branch: 'content-migration-02',
         // Tailor which files get imported eg. import the docs folder from a codebase.
         patterns: ['categories/**/*.md', 'rules/**/*'],
       },
