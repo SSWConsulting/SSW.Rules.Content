@@ -75,7 +75,7 @@ export default function Category({
               </div>
             </div>
             <div className="p-12">
-              {category.frontmatter.index.map((ruleUri, i) => {
+              {category.frontmatter.index.map((ruleUri) => {
                 const rule = data.rule.nodes.find(
                   (r) => r.frontmatter.uri === ruleUri
                 );
@@ -89,7 +89,11 @@ export default function Category({
                           </Link>
                         </h1>
                       </section>
-                      <section className={`rule-content px-4 mb-5 ${isTitleOnly?'hidden':'visible'}`}>
+                      <section
+                        className={`rule-content px-4 mb-5 ${
+                          isTitleOnly ? 'hidden' : 'visible'
+                        }`}
+                      >
                         <div dangerouslySetInnerHTML={{ __html: rule.html }} />
                       </section>
                     </>
