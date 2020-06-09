@@ -21,20 +21,36 @@ const Index = ({
   },
 }) => {
   const linkRef = useRef();
+
+  const findCategoryFromIndexValue = (categoryFromIndex) => {
+    return data.categories.nodes.find(
+      (c) =>
+        c.parent.name.toLowerCase() === `${categoryFromIndex.toLowerCase()}`
+    );
+  };
   const displayTopCategories = (topcategory) => {
     return (
       <>
         <section className="mb-5 relative">
           <h6 className="top-category-header px-4 py-2 flex rounded-t">
             {' '}
-            {topcategory.frontmatter.title} <span>120</span>
+            {topcategory.frontmatter.title}{' '}
+            <span>
+              {topcategory.frontmatter.index
+                .map((category) => {
+                  const cat = findCategoryFromIndexValue(category);
+                  if (cat) {
+                    return cat.frontmatter.index.length;
+                  } else {
+                    return 0;
+                  }
+                })
+                .reduce((total, currentValue) => total + currentValue)}
+            </span>
           </h6>
           <ol className="pt-3 px-4 py-2 ">
             {topcategory.frontmatter.index.map((category, i) => {
-              const cat = data.categories.nodes.find(
-                (c) =>
-                  c.parent.name.toLowerCase() === `${category.toLowerCase()}`
-              );
+              const cat = findCategoryFromIndexValue(category);
               if (cat) {
                 return (
                   <li key={i}>
@@ -42,7 +58,9 @@ const Index = ({
                     <Link ref={linkRef} to={`/${cat.parent.name}`}>
                       {cat.frontmatter.title}
                     </Link>
-                    <span className="d-none d-md-block">12</span>
+                    <span className="d-none d-md-block">
+                      {cat.frontmatter.index.length}
+                    </span>
                   </li>
                 );
               }
