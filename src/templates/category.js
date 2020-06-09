@@ -75,31 +75,40 @@ export default function Category({
               </div>
             </div>
             <div className="p-12">
-              {category.frontmatter.index.map((ruleUri) => {
-                const rule = data.rule.nodes.find(
-                  (r) => r.frontmatter.uri === ruleUri
-                );
-                if (rule) {
-                  return (
-                    <>
-                      <section className="rule-content-title px-4">
-                        <h1>
-                          <Link ref={linkRef} to={`/${rule.frontmatter.uri}`}>
-                            {rule.frontmatter.title}
-                          </Link>
-                        </h1>
-                      </section>
-                      <section
-                        className={`rule-content px-4 mb-5 ${
-                          isTitleOnly ? 'hidden' : 'visible'
-                        }`}
-                      >
-                        <div dangerouslySetInnerHTML={{ __html: rule.html }} />
-                      </section>
-                    </>
+              <ol className="list-decimal">
+                {category.frontmatter.index.map((ruleUri) => {
+                  const rule = data.rule.nodes.find(
+                    (r) => r.frontmatter.uri === ruleUri
                   );
-                }
-              })}
+                  if (rule) {
+                    return (
+                      <>
+                        <li className="pb-4">
+                          <section className="rule-content-title px-4">
+                            <h1>
+                              <Link
+                                ref={linkRef}
+                                to={`/${rule.frontmatter.uri}`}
+                              >
+                                {rule.frontmatter.title}
+                              </Link>
+                            </h1>
+                          </section>
+                          <section
+                            className={`rule-content px-4 mb-5 ${
+                              isTitleOnly ? 'hidden' : 'visible'
+                            }`}
+                          >
+                            <div
+                              dangerouslySetInnerHTML={{ __html: rule.html }}
+                            />
+                          </section>
+                        </li>
+                      </>
+                    );
+                  }
+                })}
+              </ol>
             </div>
           </section>
         </div>
