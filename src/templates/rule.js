@@ -15,7 +15,8 @@ export default function Rule({
     <Layout
       crumbs={crumbs}
       crumbLabel={rule.frontmatter.title}
-      displayActions={false}
+      displayActions={true}
+      ruleUri={rule.parent.relativePath}
     >
       <div className="rule-single rounded">
         <section className="rule-content p-12 mb-12">
@@ -88,6 +89,11 @@ export const query = graphql`
           title
         }
         created(formatString: "DD MMM YYYY")
+      }
+      parent {
+        ... on File {
+          relativePath
+        }
       }
     }
   }

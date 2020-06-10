@@ -22,7 +22,7 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Header = ({ displayActions, profileId }) => {
+const Header = ({ displayActions, ruleUri }) => {
   return (
     <AnimatedContainer>
       <header>
@@ -38,7 +38,7 @@ const Header = ({ displayActions, profileId }) => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href={`https://github.com/SSWConsulting/SSW.Rules/blob/master/${profileId}/${profileId}.md`}
+                href={`https://github.com/SSWConsulting/SSW.Rules/blob/content-migration-staging/${ruleUri}`}
                 className="action-btn-link"
               >
                 <div className="action-btn-label">Edit</div>
@@ -65,7 +65,7 @@ const Header = ({ displayActions, profileId }) => {
 
 Header.propTypes = {
   displayActions: PropTypes.bool.isRequired,
-  profileId: PropTypes.string,
+  ruleUri: PropTypes.string,
 };
 
 export default Header;
