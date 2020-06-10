@@ -16,7 +16,7 @@ config.autoAddCss = false;
 const Layout = ({
   children,
   displayActions,
-  profileId,
+  ruleUri,
   pageTitle,
   crumbs,
   crumbLabel,
@@ -50,7 +50,7 @@ const Layout = ({
       >
         <div className="flex flex-col min-h-screen main-container">
           <Head pageTitle={pageTitle} />
-          <Header displayActions={displayActions} profileId={profileId} />
+          <Header displayActions={displayActions} ruleUri={ruleUri} />
           <GoogleAnalytics pageTitle={pageTitle}></GoogleAnalytics>
           <Menu onClickToggle={() => actionOnToggleClick()}></Menu>
           {crumbs ? (
@@ -71,7 +71,7 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
   data: PropTypes.object.isRequired,
   displayActions: PropTypes.bool.isRequired,
-  profileId: PropTypes.string,
+  ruleUri: PropTypes.string,
   pageTitle: PropTypes.string,
   crumbs: PropTypes.array,
   crumbLabel: PropTypes.string,

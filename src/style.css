@@ -130,6 +130,20 @@ ul li {
   margin-top: 1rem;
 }
 
+.action-btn-container {
+  margin-left: auto;
+  order: 2;
+  display: flex;
+  align-items: center;
+}
+
+.action-btn-link {
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  margin-left: 12px;
+}
+
 .breadcrumb {
   display: inline-flex;
   color: "#5b5656";

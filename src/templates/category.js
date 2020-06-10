@@ -23,7 +23,8 @@ export default function Category({
     <Layout
       crumbs={crumbs}
       crumbLabel={category.frontmatter.title}
-      displayActions={false}
+      displayActions={true}
+      ruleUri={category.parent.relativePath}
     >
       <div className="w-full">
         <div className="rule-category rounded">
@@ -129,6 +130,11 @@ export const query = graphql`
       frontmatter {
         title
         index
+      }
+      parent {
+        ... on File {
+          relativePath
+        }
       }
     }
     rule: allMarkdownRemark(filter: { frontmatter: { uri: { in: $index } } }) {
