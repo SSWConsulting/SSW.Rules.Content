@@ -71,5 +71,13 @@ index:
 
 ---
 <p><span style="line-height&#58;1.6;">Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;​</span></p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx">ASP.NET MVC Web Application Development​</a>&#160;and book in a consultant.</p>
-
+<div class="topcommonTestimonialBox" style="padding: 4px; margin-bottom: 8px; margin-left: 15px; border-left-color: #cccccc; border-left-width: 5px; border-left-style: solid; margin-right: 15px; border-bottom-color: #cccccc; border-bottom-width: 1px; border-bottom-style: solid;"><a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"><img alt="What others have to say about us" src="http://www.ssw.com.au/ssw/Images/Testimonials_Heading.gif" border="0" style="margin-bottom: 2px;"/></a><br/>
+<table cellspacing="0" cellpadding="0" border="0" style="margin-left: 5px;">
+<tbody>
+<tr>
+<td valign="top" width="10"><img alt="See what people think about this product" src="http://www.ssw.com.au/ssw/Images/Testimonials_LeftQuote.gif" align="left" style="margin-top: 3px; margin-right: 3px;"/></td>
+<td><span id="ctl00_mainContentPlaceHolder_testimonial_lblQuoteTop">I&#39;ve been putting together Development Guidelines for my employer and in the process have reviewed many published standards (in the .Net arena) from around the world. In each category, the suggestions at SSW are always among the best.</span></td>
+<td valign="top" width="10"><img alt="See what people think about this product" src="http://www.ssw.com.au/ssw/Images/Testimonials_RightQuote.gif" align="right" style="margin-top: 3px; margin-left: 3px;"/></td></tr></tbody></table>
+<div style="margin-top: 3px; margin-left: 24px;"><i>- <span id="ctl00_mainContentPlaceHolder_testimonial_lblAuthorTop">Leon Bambrick</span><span id="ctl00_mainContentPlaceHolder_testimonial_lblSep">, </span></i></div></div>&#160; 
+<p>Do you agree with them all? Are we missing some? <a href="javascript:sendEmail(&#39;6D61696C746F3A696E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F2532304265747465722532302E4E45542050726F6A65637473&#39;)">Let us know</a> what you think.</p>
 
