@@ -71,5 +71,18 @@ index:
 
 ---
 <p>​​​​​​​​​​​<br></p>
-
+<p>SSW&#39;s Rules to Better <a href="http://www.ssw.com.au/ssw/Consulting/Scrum.aspx">Scrum​</a>​&#160;allows businesses to address their most important challenges first and respond quickly to change. Our rules advocate software consultants working on-site, or on the phone, so long as there is close consultation with business users, with the goal to become integrated members of the client&#39;s team.​​<br/></p> 
+<div class="quoteRightWrap" style="width: 600px;"> 
+   <blockquote> 
+      <p>Software must help a business become more efficient and build better relationships with their clients. Business need software to be produced cost-effectively and quickly. Simple steps upfront stop software being slow to build and difficult to change. </p> 
+      <p>Read our rules on Scrum&#160;(project management) for some simple tips before starting your next project. </p> 
+   </blockquote> 
+   <p>Adam Cogan, SSW Chief Architect</p> 
+</div> 
+<dl class="image"> 
+   <dt> 
+      <img src="/PublishingImages/ProjectManagementSummary_Small.jpg" border="0" alt="" style="margin: 5px; width: 600px; height: 461px;"/>
+   </dt> 
+   <dd>Figure: Classic stories of Project Management </dd> 
+</dl>
 
