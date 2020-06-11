@@ -82,5 +82,31 @@ index:
 
 ---
 <p>​​​​​​​​​​​​<br></p>
-<p>​​​</p>
+<div class="topcommonTestimonialBox" sizset="180" sizcache07401364529608921="6" style="padding: 4px; margin-right: 15px; margin-bottom: 8px; margin-left: 15px; border-bottom: 1px solid #cccccc; border-left: 5px solid #cccccc;"> 
+   <a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"> <img alt="What others have to say about us" src="/PublishingImages/Testimonials_Heading.gif" border="0" style="border: 0px solid;"/></a> <br/> 
+   <table border="0" cellspacing="0" cellpadding="0" style="margin-left: 5px;"> 
+      <tbody> 
+         <tr> 
+            <td width="10" valign="top"> 
+               <img align="left" alt="See what people think about this product" src="/PublishingImages/Testimonials_LeftQuote.gif" border="0" style="border: 0px solid; width: 11px;"/> 
+            </td>
+            <td> 
+               <span id="ctl00_mainContentPlaceHolder_testimonial_lblQuoteTop">I&#39;ve been putting together Development Guidelines for my employer and in the process have reviewed many published standards (in the .Net arena) from around the world. In each category, the suggestions at SSW are always among the best.</span></td>
+            <td width="10" valign="top"> 
+               <img align="right" alt="See what people think about this product" src="/PublishingImages/Testimonials_RightQuote.gif" border="0" style="border: 0px solid;"/> 
+            </td> 
+         </tr> 
+      </tbody> 
+   </table>
+   <div style="margin-top: 3px; margin-left: 24px;"> 
+      <i>- <span id="ctl00_mainContentPlaceHolder_testimonial_lblAuthorTop">Leon Bambrick</span><span id="ctl00_mainContentPlaceHolder_testimonial_lblSep">, </span></i></div> 
+</div>&#160;<div id="mainContent" sizset="181" sizcache07401364529608921="6"> 
+   <div class="quoteRightWrap"> 
+      <blockquote>Your website has an answer for everything! Thanks for the tips.</blockquote>
+      <p>Sophie Vassarotti - Oxon Data Systems</p> 
+   </div>
+   <p>Often emails are rambling and unorganized, forcing the reader to wade through blocks of totally useless text. When it comes to written communication, less is more. Having hundreds of emails in your Inbox is not uncommon. But it&#39;s very uncommon to find people who successfully manage their Inbox. <g class="gr_ gr_42 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" id="42" data-gr-id="42">Instead</g> they let their Inbox become a great black hole with no business value. Email has a bad name in business primarily because people don&#39;t treat email correctly.</p><p>Email can be a vital tool <g class="gr_ gr_26 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" id="26" data-gr-id="26">to</g> your company and your software development project, but it has to be managed. Email should be an accurate record of requests, conversations, and decisions. Emails are legal documents and should be treated with the same care as any other correspondence with clients or employees. Email is also an extremely effective task tracking tool, and requests made by email should be treated with the same seriousness as Project Plans and other directives, for email can be seen as the protocol between the sender and receiver. Here is a series of email <g class="gr_ gr_28 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="28" data-gr-id="28">rules / etiquette</g> that govern how we use our Inbox.</p> 
+   <div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive" contenteditable="false" unselectable="on" defaultpastemoderesolver="PastePlain"> 
+      <iframe width="682" height="384" src="https://www.youtube.com/embed/LAqRokqq4jI?rel=0" frameborder="0"></iframe>&#160;</div> 
+   <p sizset="181" sizcache07401364529608921="6">Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments.&#160;<a href="javascript:sendEmail(&#39;6D61696C746F3A496E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F253230426574746572253230456D61696C&#39;)"> Let us know</a> what you think.</p> ​​</div>
 
