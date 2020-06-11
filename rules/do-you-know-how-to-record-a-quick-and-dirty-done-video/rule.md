@@ -58,7 +58,7 @@ authors:
                         </dt></dl></li><li>In the next window, uncheck the ‘Produce with controller’ option 
                      <dl class="image"><dt> 
                            <img src="/PublishingImages/export-video3.png" alt="export-video3.png" /> 
-                        </dt></dl></li><li>In the ‘Video settings’ tab, copy these settings&#58;<br>- Frame Rate&#58; 30<br>- H.264 Profile&#58; High<br>- Encoding mode&#58; Quality<br>&#160; &#160; o Increase the quality to 100% 
+                        </dt></dl></li><li>In the ‘Video settings’ tab, copy these settings&#58;<br>-	Frame Rate&#58; 30<br>-	H.264 Profile&#58; High<br>-	Encoding mode&#58; Quality<br>&#160; &#160; o	Increase the quality to 100% 
                      <dl class="image"><dt> 
                            <img src="/PublishingImages/export-video4.png" alt="export-video4.png" /> 
                         </dt><dd>Figure&#58; Copy these settings</dd></dl></li><li>In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
