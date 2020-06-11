@@ -79,5 +79,35 @@ index:
 
 ---
 <p>​​​​<br></p>
-<p>​​</p>
+<div class="topcommonTestimonialBox" sizcache02965295459069362="6" sizset="160" sizcache05948671212741396="6" sizcache05529681777768147="6" sizcache0812545200106622="6" sizcache02866556858805546="6" sizcache02668610973236118="6" style="margin-bottom: 8px; border-bottom: 1px solid #cccccc; padding: 4px; margin-left: 15px; border-left: 5px solid #cccccc; margin-right: 15px;">
+   <a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"> <img border="0" alt="What others have to say about us" src="http://www.ssw.com.au/ssw/Images/Testimonials_Heading.gif" style="margin-bottom: 2px;"/></a> <br/>
+   <table cellspacing="0" cellpadding="0" border="0" style="margin-left: 5px;">
+      <tbody>
+         <tr>
+            <td valign="top" width="10">
+               <img alt="See what people think about this product" align="left" src="http://www.ssw.com.au/ssw/Images/Testimonials_LeftQuote.gif" style="margin-top: 3px; margin-right: 3px;"/>
+            </td> 
+            <td>
+               <span id="ctl00_mainContentPlaceHolder_testimonial_lblQuoteTop">I&#39;ve been putting together Development Guidelines for my employer and in the process have reviewed many published standards (in the .NET arena) from around the world. In each category, the suggestions at SSW are always among the best.</span></td> 
+            <td valign="top" width="10">
+               <img alt="See what people think about this product" align="right" src="http://www.ssw.com.au/ssw/Images/Testimonials_RightQuote.gif" style="margin-left: 3px; margin-top: 3px;"/>
+            </td>
+         </tr>
+      </tbody>
+   </table> 
+   <div style="margin-left: 24px; margin-top: 3px;">
+      <i>- <span id="ctl00_mainContentPlaceHolder_testimonial_lblAuthorTop">Leon Bambrick</span></i></div>
+</div>&#160; <iframe width="600" height="450" src="https://www.youtube.com/embed/atVkEY8v1CU" frameborder="0"></iframe><div>​<br/>
+<div class="infoBox" style="width: 90%;">
+   <h3>What is a successful project?</h3> 
+   <p>A successful project for a developer might mean something different compared to a project-manager and again quite different for the client.</p> 
+   <p>Since our focus is on the client, a successful project for SSW refers to:<br/><b>When a client receives what he&#39;s been expecting, on time and for the estimated amount of money</b>.</p> 
+   <p>Project managers define this as <b>On Time, On Scope and On Budget</b>.<br/></p> 
+   <p>&quot;A successful project is where everyone involved is happy with the final outcome.&quot;</p> 
+</div> 
+<p sizset="182" sizcache05948671212741396="6">What is it that makes a good software development consultancy? What sets one company completely above the other? What makes a project completely successful?</p> 
+ 
+<p sizset="182" sizcache05948671212741396="6">The promise of a successful project is something we all work harder to achieve, but working harder is not the answer. Software companies need to work smarter before, during, and after development, to ensure that the client gets not only what they want, but what they need.</p> 
+<p sizcache02965295459069362="6" sizset="162" sizcache05948671212741396="6" sizcache05529681777768147="6" sizcache0812545200106622="6" sizcache02866556858805546="6" sizcache02668610973236118="6">There are real gurus in this field like <a href="http://www.ssw.com.au/ssw/Redirect/homepageJoelOnSoftware.htm" target="_blank">Joel Spolsky</a> <img src="/Style%20Library/SSW/CoreImages/external.gif" title="You are now leaving SSW" alt=""/>, <a href="http://www.ssw.com.au/ssw/Redirect/XP/AmazonExtremeProgramming.htm" target="_blank">Kent Beck</a> <img src="/Style%20Library/SSW/CoreImages/external.gif" title="You are now leaving SSW" alt=""/>, <a href="http://www.ssw.com.au/ssw/Redirect/XP/AmazonPeopleWare.htm" target="_blank">Tom DeMarco, and Timothy Lister</a> <img src="/Style%20Library/SSW/CoreImages/external.gif" title="You are now leaving SSW" alt=""/>. We like what they say, but we also reckon they miss a few things as well - everyone has their own ideas. These are the rules we run by every day. We believe they can help every software developer and team manager to deliver better code and a better end product.</p> 
+<p sizset="185" sizcache05948671212741396="6">Do you agree with them all? Are we missing some? Comment on individual rules, or <a href="javascript:sendEmail(&#39;696E666F407373772E636F6D2E61753F7375626A6563743D52756C657320746F205375636365737366756C2050726F6A65637473&#39;)">email <g class="gr_ gr_202 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="202" data-gr-id="202">us</g></a><g class="gr_ gr_202 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="202" data-gr-id="202"> </g><g class="gr_ gr_202 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="202" data-gr-id="202">.</g></p></div>
 
