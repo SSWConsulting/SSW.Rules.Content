@@ -27,11 +27,7 @@ index:
 - do-you-know-to-always-create-a-test-if-you-are-fixing-a-bug
 - do-you-know-to-clean-up-your-shelvesets
 - do-you-know-to-clean-up-your-workspaces
-<<<<<<< HEAD
-- do-you-know-to-delete-workspaces-older-than--months-and-warn-on-
-=======
 - do-you-know-to-delete-workspaces-older-than-6-months-and-warn-on-3
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-know-to-get-visual-studio-to-remind-you-to-check-in
 - do-you-know-to-make-using-check-in-policies-easier-by-adding-a-recent-query
 - do-you-know-to-regularly-do-a-get-latest-from-tfs
@@ -45,10 +41,6 @@ index:
 - do-you-know-which-check-in-policies-to-enable
 
 ---
-<<<<<<< HEAD
-
-=======
 <p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx">Application Lifecycle Management</a>&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">​</a>and book in a consultant.</p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

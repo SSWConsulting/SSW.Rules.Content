@@ -12,11 +12,7 @@ index:
 - do-you-know-the-important-documents-to-get-started-on-unit-testing
 - do-you-have-a-continuous-integration-ci-server
 - do-you-follow-naming-conventions-for-tests-and-test-projects
-<<<<<<< HEAD
-- do-you-know-how-to-structure-a-unit-test-aka-the--as
-=======
 - do-you-know-how-to-structure-a-unit-test-aka-the-3-as
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-have-tests-for-difficult-to-spot-errors---eg-arithmetic-rounding-regular-expressions
 - do-you-know-when-functions-are-too-complicated
 - do-you-run-unit-tests-in-visual-studio
@@ -34,10 +30,6 @@ index:
 - do-you-know-the-best-test-framework-to-run-your-integration-tests
 
 ---
-<<<<<<< HEAD
-
-=======
 <p>​​<br></p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

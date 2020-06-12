@@ -8,11 +8,7 @@ index:
 - do-you-set-device-width-when-designing-responsive-web-applications
 - do-you-use-font-awesome-for-icons
 - do-you-use-hiddenvisible-classes-when-resizing-to-hideshow-content
-<<<<<<< HEAD
-- do-you-use-respond-js-to-target-ie-with-bootstrap
-=======
 - do-you-use-respond-js-to-target-ie8-with-bootstrap
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-use-the-css-class-form-horizontal-to-arrange-your-fields-and-labels
 - do-you-use-web-essentials
 

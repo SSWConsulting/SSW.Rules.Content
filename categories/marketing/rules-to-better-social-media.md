@@ -35,17 +35,11 @@ index:
 - twitter---do-you-know-the-best-practices-for-your-twitter-ads
 - twitter---do-you-know-to-thank-others-for-each-reference-to-you
 - twitter---do-you-tweet-rules-that-you-follow
-<<<<<<< HEAD
-
----
-
-=======
 - do-you-avoid-dates-text-in-graphics-for-events-promo-videos
 - do-you-know-how-to-deal-with-negative-and-inappropriate-comments
 - do-you-purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 
 ---
 ​​​Social media should be an essential piece of your business marketing strategy. It is important because it allows you to reach out to people locally, or even internationally if you want. Using social media platforms to promote your business will help you connect with current and potential customers, increase your brand awareness, and hopefully, boost leads and sales for your company. Of course, it all depends on your business strategy too. Marketing goals come from Business goals.<br><br>Using social media effectively is a must in Digital Marketing nowadays.​<br><br>So, here's a series of social media rules to help you improve your online presence.<br><br><p>If you still need help, our team <a href="https&#58;//sswdigital.com/">can help</a>.<br></p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

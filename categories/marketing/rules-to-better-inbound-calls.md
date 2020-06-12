@@ -20,10 +20,6 @@ index:
 - do-you-screen-unwanted-sales-calls
 
 ---
-<<<<<<< HEAD
-
-=======
 <p>The way that your company answers phone calls is vitally important as it is often the first point of contact between your staff and potential clients. First impressions last and if the first impression starts off badly you've already got to make some extra ground to get back on par. Our initial phone conversations need to reaffirm the professional image that they have formed of SSW. Prospective clients may call 5 or 6 consultancies but only meet with 1 or 2 so we need to stand out. This starts with the very first phone call.</p><p>The benefits of a strong phone manner are such that clients retain positive perceptions of the service provided by the company and the staff that they interact with. Another great benefit of a proper phone etiquette is the chance to upsell, promote complimentary services or promote a better understanding between yourself and your customer. Here's a series of rules that detail some of the issues involved with maintaining a proper phone etiquette.</p><p>Do you agree with them all? Are we missing some?&#160;Let us know&#160;what you think.​​<br></p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

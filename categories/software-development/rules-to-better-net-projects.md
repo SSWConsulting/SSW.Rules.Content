@@ -13,13 +13,8 @@ index:
 - do-you-use-microsoftvisualbasicdll-for-visual-basicnet-projects
 - do-you-avoid-microsoftvisualbasiccompatibilitydll-for-visual-basicnet-projects
 - do-you-publish-your-components-to-source-safe
-<<<<<<< HEAD
-- do-you-use-ms-project-integration-with-tfs-
-- do-you-use-the-sharepoint-portal-in-vsts-
-=======
 - do-you-use-ms-project-integration-with-tfs-2012
 - do-you-use-the-sharepoint-portal-in-vsts-2012
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-keep-your-assembly-version-consistent
 - do-you-use-configuration-management-application-block
 - do-you-have-a-resetdefault-function-in-your-configuration-management-application-block
@@ -27,11 +22,7 @@ index:
 - do-you-version-your-xml-files
 - do-you-use-treeview-control-instead-of-xml-control
 - are-your-customizable-and-non-customizable-settings-in-different-files
-<<<<<<< HEAD
-- do-you-secure-your-web-services-using-wcf-over-wse-and-ssl
-=======
 - do-you-secure-your-web-services-using-wcf-over-wse3-and-ssl
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-let-the-adapter-handle-the-connection-for-you
 - do-you-use-one-class-per-file
 - do-you-use-a-dataadapter-to-insert-rows-into-your-database
@@ -46,13 +37,8 @@ index:
 - do-you-add-ssw-code-auditor-nunit-and-microsoft-fxcop-project-files-to-your-solution
 - do-you-know-what-files-not-to-put-into-vss
 - do-you-use-resource-file-for-storing-your-static-script
-<<<<<<< HEAD
-- do-you-know-changes-on-datetime-in-net--and-net-
-- do-you-know-how-to-use-connection-string-in-net-
-=======
 - do-you-know-changes-on-datetime-in-net-20-and-net-1110
 - do-you-know-how-to-use-connection-string-in-net-20
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-avoid-using-duplicate-connection-string-in-webconfig
 - do-you-use-windows-integrated-authentication-connection-string-in-webconfig
 - do-you-highlight-strings-in-your-code-editor
@@ -69,21 +55,12 @@ index:
 - do-you-know-bak-files-must-not-exist
 - do-you-know-zz-ed-files-must-not-exist-in-source-control
 - do-you-create-your-own-process-template-to-fit-into-your-environment
-<<<<<<< HEAD
-- do-you-know-the-right-methodology-to-choose-new-project-in-vs-
-- do-you-use-tfs--instead-of-tfs-
-- do-you-always-say-option-strict-on
-- do-you-keep-your-nuget-packages-small
-- do-you-know-how-to-track-down-permission-problems
-- do-you-know-the-best-criteria-for-evaluating-rd-party-software
-=======
 - do-you-know-the-right-methodology-to-choose-new-project-in-vs-2012
 - do-you-use-tfs-2012-instead-of-tfs-2010
 - do-you-always-say-option-strict-on
 - do-you-keep-your-nuget-packages-small
 - do-you-know-how-to-track-down-permission-problems
 - do-you-know-the-best-criteria-for-evaluating-3rd-party-software
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-know-the-best-sample-applications
 - do-you-reference-most-dlls-by-project
 - do-you-reference-very-calmstable-dlls-by-assembly
@@ -93,10 +70,6 @@ index:
 - do-you-use-tracefail-or-set-assertuienabledtrue-in-your-webconfig
 
 ---
-<<<<<<< HEAD
-
-
-=======
 <p><span style="line-height&#58;1.6;">Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;​</span></p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx">ASP.NET MVC Web Application Development​</a>&#160;and book in a consultant.</p>
 <div class="topcommonTestimonialBox" style="padding: 4px; margin-bottom: 8px; margin-left: 15px; border-left-color: #cccccc; border-left-width: 5px; border-left-style: solid; margin-right: 15px; border-bottom-color: #cccccc; border-bottom-width: 1px; border-bottom-style: solid;"><a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"><img alt="What others have to say about us" src="http://www.ssw.com.au/ssw/Images/Testimonials_Heading.gif" border="0" style="margin-bottom: 2px;"/></a><br/>
 <table cellspacing="0" cellpadding="0" border="0" style="margin-left: 5px;">
@@ -107,5 +80,4 @@ index:
 <td valign="top" width="10"><img alt="See what people think about this product" src="http://www.ssw.com.au/ssw/Images/Testimonials_RightQuote.gif" align="right" style="margin-top: 3px; margin-left: 3px;"/></td></tr></tbody></table>
 <div style="margin-top: 3px; margin-left: 24px;"><i>- <span id="ctl00_mainContentPlaceHolder_testimonial_lblAuthorTop">Leon Bambrick</span><span id="ctl00_mainContentPlaceHolder_testimonial_lblSep">, </span></i></div></div>&#160; 
 <p>Do you agree with them all? Are we missing some? <a href="javascript:sendEmail(&#39;6D61696C746F3A696E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F2532304265747465722532302E4E45542050726F6A65637473&#39;)">Let us know</a> what you think.</p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 

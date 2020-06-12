@@ -22,10 +22,6 @@ index:
 - does-your-team-have-a-notifications-channel
 
 ---
-<<<<<<< HEAD
-
-=======
 <p>​​​Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work and increased transparency.<br></p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

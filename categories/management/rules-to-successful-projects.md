@@ -8,11 +8,7 @@ index:
 - do-you-manage-clients-expectations
 - do-you-pursue-short-or-long-term-relationships-with-clients
 - management---is-your-client-clear-on-how-you-manage-projects
-<<<<<<< HEAD
-- management---do-you-enforce-deadlines-have-a-sprint-plan-a-reviewretro-and-a-mark-
-=======
 - management---do-you-enforce-deadlines-have-a-sprint-plan-a-reviewretro-and-a-mark-10
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - management---is-your-client-clear-on-the-definition-of-a-bug
 - do-you-provide-ongoing-support
 - management---do-you-maintain-verbal-contact-with-your-client
@@ -82,10 +78,6 @@ index:
 - do-you-use-the-brains-of-your-company
 
 ---
-<<<<<<< HEAD
-
-<p>​​</p>
-=======
 <p>​​​​<br></p>
 <div class="topcommonTestimonialBox" sizcache02965295459069362="6" sizset="160" sizcache05948671212741396="6" sizcache05529681777768147="6" sizcache0812545200106622="6" sizcache02866556858805546="6" sizcache02668610973236118="6" style="margin-bottom: 8px; border-bottom: 1px solid #cccccc; padding: 4px; margin-left: 15px; border-left: 5px solid #cccccc; margin-right: 15px;">
    <a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"> <img border="0" alt="What others have to say about us" src="http://www.ssw.com.au/ssw/Images/Testimonials_Heading.gif" style="margin-bottom: 2px;"/></a> <br/>
@@ -118,5 +110,4 @@ index:
 <p sizset="182" sizcache05948671212741396="6">The promise of a successful project is something we all work harder to achieve, but working harder is not the answer. Software companies need to work smarter before, during, and after development, to ensure that the client gets not only what they want, but what they need.</p> 
 <p sizcache02965295459069362="6" sizset="162" sizcache05948671212741396="6" sizcache05529681777768147="6" sizcache0812545200106622="6" sizcache02866556858805546="6" sizcache02668610973236118="6">There are real gurus in this field like <a href="http://www.ssw.com.au/ssw/Redirect/homepageJoelOnSoftware.htm" target="_blank">Joel Spolsky</a> <img src="/Style%20Library/SSW/CoreImages/external.gif" title="You are now leaving SSW" alt=""/>, <a href="http://www.ssw.com.au/ssw/Redirect/XP/AmazonExtremeProgramming.htm" target="_blank">Kent Beck</a> <img src="/Style%20Library/SSW/CoreImages/external.gif" title="You are now leaving SSW" alt=""/>, <a href="http://www.ssw.com.au/ssw/Redirect/XP/AmazonPeopleWare.htm" target="_blank">Tom DeMarco, and Timothy Lister</a> <img src="/Style%20Library/SSW/CoreImages/external.gif" title="You are now leaving SSW" alt=""/>. We like what they say, but we also reckon they miss a few things as well - everyone has their own ideas. These are the rules we run by every day. We believe they can help every software developer and team manager to deliver better code and a better end product.</p> 
 <p sizset="185" sizcache05948671212741396="6">Do you agree with them all? Are we missing some? Comment on individual rules, or <a href="javascript:sendEmail(&#39;696E666F407373772E636F6D2E61753F7375626A6563743D52756C657320746F205375636365737366756C2050726F6A65637473&#39;)">email <g class="gr_ gr_202 gr-alert gr_gramm gr_inline_cards gr_run_anim Style multiReplace" id="202" data-gr-id="202">us</g></a><g class="gr_ gr_202 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="202" data-gr-id="202"> </g><g class="gr_ gr_202 gr-alert gr_gramm gr_inline_cards gr_disable_anim_appear Style multiReplace" id="202" data-gr-id="202">.</g></p></div>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 

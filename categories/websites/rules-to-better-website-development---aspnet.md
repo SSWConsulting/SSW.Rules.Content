@@ -3,11 +3,7 @@ type: category
 title: Rules to Better Website Development - ASP.NET
 uid: rules-to-better-website-development---aspnet
 index:
-<<<<<<< HEAD
-- do-you-know-how-to-create-nice-urls-using-aspnet-
-=======
 - do-you-know-how-to-create-nice-urls-using-aspnet-4
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-know-how-to-filter-data
 - do-you-use-jquery-for-making-a-site-come-alive
 - do-you-use-jquery-tooltips-to-save-drilling-through
@@ -34,13 +30,8 @@ index:
 - do-you-know-which-packages-to-add-to-your-new-mvc-project
 - do-you-know-why-you-choose-net-core
 - do-you-release-build-your-web-applications-before-you-deploy-them
-<<<<<<< HEAD
-- do-you-replace-the--error-with-a-useful-error-page
-- do-you-use--code-to-redirect-renamed-or-moved-pages
-=======
 - do-you-replace-the-404-error-with-a-useful-error-page
 - do-you-use-301-code-to-redirect-renamed-or-moved-pages
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-use-css-validation-service-to-check-your-css-file
 - do-you-use-markup-validation-service-to-check-your-html-and-xhtml-code
 - do-you-use-server-side-comments

@@ -9,11 +9,7 @@ index:
 - do-you-follow-naming-conventions
 - do-you-use-the-testing-stage-in-the-file-name
 - do-you-remove-spaces-from-your-folders-and-filename
-<<<<<<< HEAD
-- do-you-start-versioning-at--and-change-to--once-approved-by-a-client-or-tester
-=======
 - do-you-start-versioning-at-01-and-change-to-10-once-approved-by-a-client-or-tester
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - tools--do-you-make-sure-stylecop-is-installed-and-turned-on
 - tools---do-you-make-sure-you-have-visual-studio-code-analysis-turned-on
 - do-you-know-how-to-avoid-problems-in-if-statements
@@ -28,11 +24,7 @@ index:
 - do-you-avoid-ui-in-event-names
 - do-you-avoid-using-if-else-instead-of-switch-block
 - do-you-avoid-validating-xml-documents-unnecessarily
-<<<<<<< HEAD
-- do-you-change-the-connection-timeout-to--seconds
-=======
 - do-you-change-the-connection-timeout-to-5-seconds
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-declare-member-accessibility-for-all-classes
 - do-you-do-your-validation-with-return
 - do-you-expose-events-as-events
@@ -74,10 +66,6 @@ index:
 - do-you-use-string-interpolation-when-formatting-strings
 
 ---
-<<<<<<< HEAD
-
-=======
 <p>​​​ What makes code &quot;cleaner&quot;? What makes the difference between readable code and very readable code?<br></p><p>It can be very painful when needing to modify a piece of code in an application that you never spec'd out or wrote. But it doesn't have to be this way. By following some of these better programming tips your code can be easily read and easily modified by any developer at any time.<br><br></p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

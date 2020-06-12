@@ -23,16 +23,9 @@ index:
 - menu---do-you-have-a-standard-help--about-form
 - menu---do-you-have-your-help--user-guide-online
 - menu---do-you-include-a-tools--validate-data
-<<<<<<< HEAD
-- menu---do-you-know-the--items-every-help-menu-needs
-
----
-
-=======
 - menu---do-you-know-the-8-items-every-help-menu-needs
 
 ---
 <p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx">Website Design and User Experience​</a>&#160;and book in a consultant.​​</p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

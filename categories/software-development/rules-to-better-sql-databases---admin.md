@@ -26,18 +26,10 @@ index:
 - dbas---do-you-make-sure-you-use-a-consistent-collation-server-wide
 - dbas---do-you-avoid-collation-errors
 - dbas---do-you-create-new-databases-in-the-default-data-directory
-<<<<<<< HEAD
-- dbas---do-you-know-the-compatibility-issues-between-sql-server--and-
-- performance-tuning---do-you-make-sure-to-clear-sql-server-cache-when-performing-benchmark-tests
-
----
-
-=======
 - dbas---do-you-know-the-compatibility-issues-between-sql-server-2000-and-2005
 - performance-tuning---do-you-make-sure-to-clear-sql-server-cache-when-performing-benchmark-tests
 
 ---
 <p>​Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of&#58;</p><ul><li>​Ensuring your databases are Normalized and in 3rd Normal Form&#160;</li><li>Making sure you have primary keys, foreign keys and simple indexes to improve performance&#160;</li><li>Making sure you Back up regularly&#160;</li><li>​Basic Naming conventions (see some of our object naming conventions)&#160;</li><li>Minimizing resultset sizes and data over the wire​​​</li></ul>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 <p class="ssw15-rteElement-P"><br></p><p></p>
 

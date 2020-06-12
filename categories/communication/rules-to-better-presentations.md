@@ -20,11 +20,8 @@ index:
 
 ---
 
-<<<<<<< HEAD
-=======
 <p>Say you are doing a full day of training, you will need to get yourself and your students organized to do a great job.<br/>
 Here are some tips and tricks you can use.</p>
  
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

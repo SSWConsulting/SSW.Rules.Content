@@ -23,10 +23,6 @@ index:
 - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators--or-upsizing-problem
 
 ---
-<<<<<<< HEAD
-
-
-=======
 <p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit <a href="http&#58;//www.ssw.com.au/ssw/Consulting/EnterpriseReporting.aspx">Enterprise Reporting and BI​</a>&#160;and book i​n a consultant.​​</p>
 <div class="topcommonTestimonialBox" sizcache="4" sizset="8" style="border-bottom-color: #cccccc; border-bottom-width: 1px; border-bottom-style: solid; border-left-color: #cccccc; border-left-width: 5px; border-left-style: solid; padding: 4px; margin-bottom: 8px; margin-left: 15px; margin-right: 15px;"><a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"><img border="0" alt="What others have to say about us" src="http://www.ssw.com.au/ssw/Images/Testimonials_Heading.gif" style="margin-bottom: 2px;"/></a><br/>
 <table border="0" cellspacing="0" cellpadding="0" sizcache="4" sizset="8" style="margin-left: 5px;">
@@ -40,5 +36,4 @@ index:
 <p sizcache="2" sizset="72">Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments. <a title="info@ssw.com.au" href="javascript:var e1=&#39;s%73%77.%63%6f%6d%2e%61%75&#39;,e2=&#39;mailto:%20&#39;, e3=&#39;info&#39;, e4=&#39;?Subject=Rules%20to%20Better%20Access%20Databases&#39;;var e0=e2+e3+&#39;@&#39;+e1+e4;(window.location?window.location.replace(e0):document.write(e0));">Let us know</a> what you think.</p>
 
 <font class="ms-rteCustom-YellowBorderBox" size="+0"><b>*** Update ***</b> Instead of manually implementing these rules, use <a href="http://www.ssw.com.au/ssw/UpsizingPRO">SSW Upsizing PRO</a> to automatically implement many of them for you. <a href="http://www.ssw.com.au/ssw/Download/Download.aspx?GroupCategoryID=2ACCESS">Download</a> it and give it a go. </font>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 

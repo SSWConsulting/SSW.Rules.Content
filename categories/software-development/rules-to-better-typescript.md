@@ -11,10 +11,6 @@ index:
 - do-you-use-package-managers-appropriately
 
 ---
-<<<<<<< HEAD
-
-=======
 <p>​​</p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

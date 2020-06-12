@@ -3,11 +3,7 @@ type: category
 title: Rules to Successful Sales and Account Management
 uid: rules-to-successful-sales-and-account-management
 index:
-<<<<<<< HEAD
-- do-you-know-the--stages-in-the-sales-pipeline
-=======
 - do-you-know-the-6-stages-in-the-sales-pipeline
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-realize-the-value-of-your-existing-clients
 - do-you-manage-your-inbound-leads-effectively
 - do-you-perform-a-background-check
@@ -23,11 +19,7 @@ index:
 - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
 - do-you-present-project-proposals-as-lots-of-little-releases-rather-than-one-big-price
 - do-you-aim-for-an-advancement-rather-than-a-continuance
-<<<<<<< HEAD
-- do-you-ensure-an-excellent-st-date-aka-winning-customers-via-a-smaller-specification-review
-=======
 - do-you-ensure-an-excellent-1st-date-aka-winning-customers-via-a-smaller-specification-review
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-know-when-to-use-a-round-figure-or-an-exact-figure
 - do-you-nurture-the-marriage-aka-keeping-customers-with-software-reviews
 - do-you-know-how-to-manage-objections
@@ -37,11 +29,7 @@ index:
 - do-you-regularly-check-up-on-your-clients-to-make-sure-theyre-happy
 - do-you-use-events-to-market-your-consulting-work
 - do-you-set-a-specific-time-to-follow-up-a-prospect
-<<<<<<< HEAD
-- do-you-book-in-a-minimum-of--days-work-at-a-time
-=======
 - do-you-book-in-a-minimum-of-1-days-work-at-a-time
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-follow-up-course-attendees-for-consulting-work
 - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
 - do-you-know-who-are-the-most-appropriate-resources-for-a-project
@@ -62,9 +50,6 @@ index:
 
 ---
 
-<<<<<<< HEAD
-=======
 <p></p><p>You can have the best developers in the world, but if you haven&#39;t got a good sales process, no-one will ever use them. It&#39;s up to the Sales Manager to get this right.<br/><br/>Once you&#39;ve got the job, software projects are delicate activities and the client needs love. It&#39;s up to the Account Managers to keep everyone on the same page, especially if there is no Scrum Master.<br/><br/>The Account Manager is responsible for invoicing, resource management (booking developers)&#160;and conflict resolution.&#160;Here are SSW&#39;s rules for better Sales and Account Management.​​<br/><br/>Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments. Let us know what you think.&#160;</p>
->>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 
