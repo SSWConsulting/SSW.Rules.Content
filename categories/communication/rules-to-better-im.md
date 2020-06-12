@@ -7,7 +7,11 @@ index:
 - clarity---do-you-answer-im-questions-in-order
 - clarity---do-you-update-or-delete-message-mistakes
 - do-you-call-instead-of-im-when-communication-is-not-simple
+<<<<<<< HEAD
 - interruptions---do-you-investigate-your-question-for--minutes-before-asking-someone-on-im
+=======
+- interruptions---do-you-investigate-your-question-for-2-minutes-before-asking-someone-on-im
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - interruptions---do-you-know-that-im-interrupts
 - clarity---do-you-make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 - interruptions---do-you-know-important-chats-should-be-in-an-email
@@ -23,6 +27,10 @@ index:
 - do-you-keep-a-history-of-your-im-conversations
 
 ---
+<<<<<<< HEAD
 
+=======
+<p>​​<br></p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 <p>Whether you are chatting to a client on Teams or your friend on WeChat… These are the most common things that can improve your communication.​<br></p>
 

@@ -88,8 +88,13 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
 
+<<<<<<< HEAD
     <link href="/_dist/app/css/bundle.css?var=1.50.34644" rel="stylesheet">
     <script src="/_dist/app/js/base_bundle.js?var=1.50.34644"></script>
+=======
+    <link href="/_dist/app/css/bundle.css?var=1.50.32680" rel="stylesheet">
+    <script src="/_dist/app/js/base_bundle.js?var=1.50.32680"></script>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
     <!-- CDN Resources -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
@@ -161,7 +166,11 @@
         var myTempFixForCacheBusting = System.locate;
         System.locate = function (load) {
             return Promise.resolve(myTempFixForCacheBusting.call(this, load)).then(function (address) {
+<<<<<<< HEAD
                 return address + '?ver=' + '1.50.34644';
+=======
+                return address + '?ver=' + '1.50.32680';
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
             });
         };
 
@@ -284,7 +293,11 @@
                         Our website is under
                         <a href="http://rules.ssw.com.au/WebSites/RulestoBetterWebsites-Deployment/Pages/Do-your-developers-deploy-manually.aspx">
                             constant continuous deployment
+<<<<<<< HEAD
                         </a>. Last deployed <span id='lastdeployedtime' style='cursor:pointer' class='display-for-utcwhen' data-value='2020-05-28T23:31:03.6176136Z'></span> with changeset id 34644
+=======
+                        </a>. Last deployed <span id='lastdeployedtime' style='cursor:pointer' class='display-for-utcwhen' data-value='2020-06-10T05:54:03.3152136Z'></span> with changeset id 32680
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
                     </li>
                 </ul>
             </div>

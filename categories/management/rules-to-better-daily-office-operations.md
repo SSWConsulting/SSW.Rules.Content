@@ -12,8 +12,15 @@ index:
 - do-you-manage-building-repair-and-maintenance
 - do-you-remind-your-team-to-turn-in-timesheets
 - do-you-ensure-your-team-get-relevant-communications
+<<<<<<< HEAD
 
 ---
 
+=======
+- do-you-purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
+
+---
+<p>​<br><br></p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 <p>​DevOps is about keeping software healthy by releasing often and inspecting stats each day from the live system.<br>DailyOps or ConsultingOps is about managers keeping a consulting company of engineers working well every day.&#160;<br><br></p>
 

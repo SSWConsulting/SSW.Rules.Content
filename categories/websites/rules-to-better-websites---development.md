@@ -10,13 +10,22 @@ index:
 - do-you-have-a-stylesheet-file-for-all-your-formatting
 - do-you-remember-to-close-quotations-of-all-your-html-attributes
 - do-you-know-the-best-way-to-display-code-on-your-website
+<<<<<<< HEAD
 - do-you-use-heading-tags-where-appropriate-h-h-h
+=======
+- do-you-use-heading-tags-where-appropriate-h1-h2-h3
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-chose-efficient-anchor-names
 - do-you-design-your-website-to-improve-your-google-ranking
 - do-you-include-google-analytics-in-your-website
 - do-you-make-your-site-easy-to-maintain
+<<<<<<< HEAD
 - do-you-replace-the--error-with-a-useful-error-page
 - do-you-avoid-changing-the-url-on-a--error
+=======
+- do-you-replace-the-404-error-with-a-useful-error-page
+- do-you-avoid-changing-the-url-on-a-404-error
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-always-put-javascript-in-a-separate-file
 - do-you-always-use-query-strings
 - do-you-always-use-the-html-maxlength-attribute-on-input-fields-to-limit-number-of-characters-to-the-length-of-the-field-in-the-table
@@ -28,7 +37,11 @@ index:
 - do-you-know-not-to-use-linkbutton
 - do-you-know-why-you-choose-net-core
 - do-you-name-web-pages-to-be-consistent-with-database-tables
+<<<<<<< HEAD
 - do-you-precompile-your-aspnet--and--sites
+=======
+- do-you-precompile-your-aspnet-11-and-20-sites
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-provide-modern-contact-options
 - do-you-remove-the-debug-attribute-in-webconfig-compilation-element
 - do-you-run-load-tests-on-your-website
@@ -43,6 +56,10 @@ index:
 - do-you-use-web-compiler-extension
 
 ---
+<<<<<<< HEAD
 
+=======
+<p>​​<br></p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

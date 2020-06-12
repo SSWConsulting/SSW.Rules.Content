@@ -16,10 +16,18 @@ index:
 - do-you-have-a-schema-master
 - do-you-understand-a-data-type-change--data-motion-scripts
 - schema---do-you-validate-each-denormalized-field-with-procvalidate
+<<<<<<< HEAD
 - the-application---do-you-make-sure-that-the-database-structure-is-handled-automatically-via--buttons-create-upgrade-and-reconcile
 - the-application---do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
 
 ---
 
+=======
+- the-application---do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile
+- the-application---do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
+
+---
+<p>​​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">SSW Consulting Services&#160;​</a>and book in a consultant.​​</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

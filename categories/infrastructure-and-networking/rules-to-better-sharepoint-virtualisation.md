@@ -11,6 +11,12 @@ index:
 - why-do-we-use-vm-for-sharepoint-development
 
 ---
+<<<<<<< HEAD
 
 
+=======
+<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;​</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx">SharePoint Server ​Consulting​</a>&#160;and book in a consultant.</p>
+<p>When correctly configured, a SharePoint VM environment can save you a lot of trouble later on. So important that we think all SharePoint customization and development must be done on a Virtual Machine. ​</p>
+<p>Do you agree with them all? Are we missing some? Let us know what you think.</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 

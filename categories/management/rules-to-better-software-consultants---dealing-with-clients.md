@@ -37,7 +37,11 @@ index:
 - do-you-make-sure-you-get-brownie-points
 - speaking---do-you-speak-in-a-positive-language-to-clients
 - do-you-contact-your-clients-using-lyncskype
+<<<<<<< HEAD
 - do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-take-more-than--hours
+=======
+- do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-take-more-than-2-hours
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-leave-messages-when-your-phone-call-is-unanswered
 - do-you-fix-problems-quickly
 - do-you-try-a-second-time-straight-away-when-you-are-calling-a-client
@@ -52,7 +56,11 @@ index:
 - do-you-avoid-logging-out-and-logging-in
 
 ---
+<<<<<<< HEAD
 
+=======
+<p>​​​</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 <p>​​​​​Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.</p><p>The other half of being the best consultant possible can be found at 
    <a href="/rules-to-better-software-consultants-working-in-a-team">
       <span class="s1">Rules to Better​ Software Consultants - Working in a Team</span></a>.<br></p><p>Do you agree with them all? Are we missing some? Comment on individual rules, or 

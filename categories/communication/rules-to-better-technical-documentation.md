@@ -24,7 +24,11 @@ index:
 - tiny-do-you-use-taskbar-instead-of-task-bar
 - tiny-do-you-use-cannot-and-website-instead-of-separated-words
 - tiny-do-you-know-email-does-not-have-a-hyphen
+<<<<<<< HEAD
 - tiny-do-you-know-commas-and-full-stops-always-should-have--space-after-them
+=======
+- tiny-do-you-know-commas-and-full-stops-always-should-have-1-space-after-them
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - tiny-do-you-avoid-using-that-when-its-not-needed
 - tiny-do-you-avoid-full-stops-at-the-end-of-bullet-point-lists
 - tiny-do-you-know-when-to-use-versus-and-verses
@@ -33,9 +37,17 @@ index:
 - do-you-add-a-prefix-on-blog-posts-titles
 - do-you-know-all-the-symbols-on-the-keyboard
 - do-you-use-generic-and-consistent-names-on-examples
+<<<<<<< HEAD
 - tiny-do-you-know-scrum-should-be-capitalized
 
 ---
 
+=======
+- do-you-use-relevant-words-on-your-links
+- tiny-do-you-know-scrum-should-be-capitalized
+
+---
+<p>​​</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

@@ -8,7 +8,11 @@ index:
 - agreements---do-you-join-the-team-as-a-tester
 - agreements---do-you-know-who-pays-for-bugs
 - agreements---do-you-provide-a-product-owner
+<<<<<<< HEAD
 - agreements---do-you-use--or--week-sprints
+=======
+- agreements---do-you-use-1-or-2-week-sprints
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - agreements---do-you-use-an-experienced-scrum-master-or-project-manager
 - communication---are-you-specific-in-your-requirements
 - communication---do-you-read-and-manage-your-emails-carefully

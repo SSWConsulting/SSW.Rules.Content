@@ -20,6 +20,10 @@ index:
 - do-you-use-web-compiler-extension
 
 ---
+<<<<<<< HEAD
 
+=======
+<p>​​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;<br></p><p>If you still need help, visit&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/ALM-TFS.aspx">Application Lifecycle Management</a>&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">​</a>and book in a consultant.</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 ​​​Rules to Better Continuous Deployment with TFS 2012, TFS 2013 and&#160;TFS&#160;2015<br>
 

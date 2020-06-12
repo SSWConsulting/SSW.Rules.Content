@@ -5,7 +5,11 @@ uid: rules-to-better-scrum-using-azure-devops
 index:
 - getting-started---have-you-read-the-scrum-guide
 - do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
+<<<<<<< HEAD
 - do-you-know-the--steps-to-scrum
+=======
+- do-you-know-the-8-steps-to-scrum
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-know-how-to-be-a-good-product-owner
 - the-team---do-you-help-your-scrum-master-protect-and-serve-the-team
 - the-team---do-you-have-a-scrum-master-outside-the-dev-team
@@ -13,7 +17,11 @@ index:
 - the-war-room---does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams
 - the-war-room---does-your-scrum-room-have-the-best-scrum-image
 - do-you-have-a-product-roadmap
+<<<<<<< HEAD
 - scrum-master---do-you-schedule-the--meetings
+=======
+- scrum-master---do-you-schedule-the-3-meetings
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - product-owner---do-you-know-how-to-update-the-backlog
 - the-team---do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
 - planning-meeting---do-you-encourage-pbi-aka-investigation-tasks-when-a-pbi-is-inestimable
@@ -55,7 +63,11 @@ index:
 - do-you-estimate-all-tasks-at-the-start-of-the-sprint
 - do-you-have-a-definition-of-ready
 - do-you-send-sprint-forecast-and-sprint-reviewretro-emails-to-the-client
+<<<<<<< HEAD
 - do-you-know-the--steps-to-a-pbi
+=======
+- do-you-know-the-3-steps-to-a-pbi
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - during-a-sprint---do-you-know-when-to-create-bugs
 - bugs---do-you-know-how-to-handle-bugs-on-the-product-backlog
 - done---do-you-go-beyond-done-and-follow-a-definition-of-done
@@ -70,6 +82,24 @@ index:
 - do-you-know-which-emojis-to-use-in-scrum
 
 ---
+<<<<<<< HEAD
 
 
+=======
+<p>​​​​​​​​​​​<br></p>
+<p>SSW&#39;s Rules to Better <a href="http://www.ssw.com.au/ssw/Consulting/Scrum.aspx">Scrum​</a>​&#160;allows businesses to address their most important challenges first and respond quickly to change. Our rules advocate software consultants working on-site, or on the phone, so long as there is close consultation with business users, with the goal to become integrated members of the client&#39;s team.​​<br/></p> 
+<div class="quoteRightWrap" style="width: 600px;"> 
+   <blockquote> 
+      <p>Software must help a business become more efficient and build better relationships with their clients. Business need software to be produced cost-effectively and quickly. Simple steps upfront stop software being slow to build and difficult to change. </p> 
+      <p>Read our rules on Scrum&#160;(project management) for some simple tips before starting your next project. </p> 
+   </blockquote> 
+   <p>Adam Cogan, SSW Chief Architect</p> 
+</div> 
+<dl class="image"> 
+   <dt> 
+      <img src="/PublishingImages/ProjectManagementSummary_Small.jpg" border="0" alt="" style="margin: 5px; width: 600px; height: 461px;"/>
+   </dt> 
+   <dd>Figure: Classic stories of Project Management </dd> 
+</dl>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 

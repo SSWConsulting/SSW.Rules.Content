@@ -24,12 +24,20 @@ index:
 - help---do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
 - do-you-strike-through-completed-items
 - do-you-use-the-metro-ui-when-applicable
+<<<<<<< HEAD
 - do-you-give-the--options-to-share
+=======
+- do-you-give-the-6-options-to-share
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
 - do-you-know-how-to-use-gamification
 - do-you-highlight-incomplete-work-with-red-text
 - do-you-encourage-experimentation
+<<<<<<< HEAD
 - do-you-know-what-guidelines-to-follow-for-wp
+=======
+- do-you-know-what-guidelines-to-follow-for-wp8
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead
 - do-you-have-a-last-taken-option
 - do-you-have-a-request-access-button-in-pages-that-require-permission
@@ -40,9 +48,16 @@ index:
 - do-you-make-your-cancel-button-less-obvious
 - do-you-show-that-a-record-is-inactive
 - do-you-understand-the-importance-of-language-in-your-ui
+<<<<<<< HEAD
 - do-you-use-commas-on-more-than--figures-numbers
 
 ---
 
+=======
+- do-you-use-commas-on-more-than-3-figures-numbers
+
+---
+<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx">Website Design and User Experience​</a>&#160;and book in a consultant.​​</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

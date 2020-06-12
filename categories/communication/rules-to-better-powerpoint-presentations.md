@@ -27,7 +27,11 @@ index:
 - do-you-know-to-slideshare-your-powerpoint-before-the-presentation
 - do-you-keep-eye-contact-with-the-audience
 - do-you-get-your-ppt-tester-to-do-a-test-please-preferably-a-designer
+<<<<<<< HEAD
 - do-you-know-how-to-compress-your-powerpoint-eg-from-mb-to-mb
+=======
+- do-you-know-how-to-compress-your-powerpoint-eg-from-26mb-to-13mb
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-know-to-animate-your-summary-slide
 - do-you-know-to-use-creative-commons-images
 

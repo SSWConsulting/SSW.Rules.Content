@@ -34,12 +34,21 @@ index:
 - is-your-first-aim-to-customize-a-sharepoint-webpart
 - how-do-you-deploy-sharepoint
 - do-you-use-linq-instead-of-caml
+<<<<<<< HEAD
 - have-you-considered-sharepoint--for-internet-sites-license
 - how-to-publish-a-report-based-on-a-list
 - indicate-the-magnitude-of-a-page-edit
 - do-you-use-field-and-list-item-validation-in-
 - do-you-know-how-to-work-with-document-versions
 - do-you-know-the-best-sharepoint--development-environment
+=======
+- have-you-considered-sharepoint-2010-for-internet-sites-license
+- how-to-publish-a-report-based-on-a-list
+- indicate-the-magnitude-of-a-page-edit
+- do-you-use-field-and-list-item-validation-in-2010
+- do-you-know-how-to-work-with-document-versions
+- do-you-know-the-best-sharepoint-2010-development-environment
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-know-the-best-way-to-take-sharepoint-data-offline
 - do-you-create-bcs-connections-to-all-your-line-of-business-lob-applications
 - do-you-have-uptime-checks-for-your-public-sharepoint-site
@@ -50,7 +59,11 @@ index:
 - do-you-know-how-to-format-dates-to-include-the-weekday
 - do-you-know-what-collaboration-means
 - sharepoint-rules-categories---do-you-know-how-to-make-the-title-consistent
+<<<<<<< HEAD
 - do-you-know-that-you-cant-use--managed-metadata-with-office--out-of-the-box
+=======
+- do-you-know-that-you-cant-use-2010-managed-metadata-with-office-2007-out-of-the-box
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-remove-my-site-and-my-profile-if-you-are-not-using-them
 - do-you-know-how-to-fix-peoples-display-name-in-sharepoint-
 - do-you-know-this-quick-fix-for-sharepoint-javascript-errors-that-prevents-you-from-switching-page-layout
@@ -59,6 +72,7 @@ index:
 - aspnet-vs-sharepoint-development---do-you-know-what-you-get-for-free-out-of-the-box
 - do-you-customize-group-header-style-in-list
 - do-you-know-how-to-create-a-customer-portal-in-sharepoint
+<<<<<<< HEAD
 - do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-
 - do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
 - do-you-know-how-to-set-up-application-insights-in-sharepoint
@@ -73,4 +87,20 @@ index:
 ---
 
 
+=======
+- do-you-know-how-to-custom-styles-for-richhtmleditor-in-sharepoint-2013
+- do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
+- do-you-know-how-to-set-up-application-insights-in-sharepoint
+- do-you-know-how-to-sort-in-view-by-a-column-through-code
+- do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010
+- do-you-know-the-best-forms-solution
+- do-you-reduce-diagnostic-logging-level-after-configure-hybrid-search
+- do-you-turn-off-auto-update-on-your-servers
+- do-you-use-the-right-service-in-sharepoint-2013
+- never-dispose-objects-from-spcontextcurrent
+
+---
+<p>​ <br></p><p>Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx">SharePoint Server Consulting </a>&#160;and book in a consultant.</p>
+<div class="Intro">Do you agree with them all? Are we missing some? <a href="javascript:sendEmail(&#39;696E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F2532304265747465722532305368617265506F696E74&#39;)">Let us know</a> what you think. </div>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 

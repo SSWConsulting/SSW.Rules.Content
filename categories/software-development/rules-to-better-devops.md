@@ -4,10 +4,17 @@ title: Rules to Better DevOps
 uid: rules-to-better-devops
 index:
 - do-you-know-what-the-goal-of-devops-is
+<<<<<<< HEAD
 - devops--stage--do-you-know-what-things-to-measure
 - devops--stage--do-you-know-what-things-to-automate
 - devops--stage--do-you-know-what-metrics-to-collect
 - devops--stage--do-you-continually-improve-processes
+=======
+- devops--stage-1-do-you-know-what-things-to-measure
+- devops--stage-2-do-you-know-what-things-to-automate
+- devops--stage-3-do-you-know-what-metrics-to-collect
+- devops--stage-4-do-you-continually-improve-processes
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-evaluate-the-processes
 - do-you-know-how-devops-fits-in-with-scrum
 - do-you-know-why-you-want-to-use-application-insights
@@ -26,6 +33,10 @@ index:
 - do-you-use-the-best-deployment-tool
 
 ---
+<<<<<<< HEAD
 
+=======
+<p>​​​</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

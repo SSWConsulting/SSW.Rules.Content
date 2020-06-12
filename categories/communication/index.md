@@ -22,7 +22,6 @@ index:
 - rules-to-better-research-and-development
 - rules-to-better-qr-code
 - rules-to-better-remote-work
-- rules-to-better-remote-work
 
 ---
 

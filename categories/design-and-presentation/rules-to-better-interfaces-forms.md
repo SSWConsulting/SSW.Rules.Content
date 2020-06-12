@@ -28,6 +28,10 @@ index:
 - do-your-windows-forms-have-border-protection
 
 ---
+<<<<<<< HEAD
 
+=======
+<p>​​For&#160;specific Windows Forms rules, go to <a href="/SoftwareDevelopment/RulesToBetterWindowsForms">Rules to Better Windows Forms Applications​</a>.​​</p>
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 
 

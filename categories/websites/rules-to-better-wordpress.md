@@ -8,7 +8,11 @@ index:
 - do-you-know-how-to-create-posts-via-email
 - do-you-know-how-to-deploy-changes-from-staging-to-live
 - do-you-optimize-your-images-for-web
+<<<<<<< HEAD
 - do-you-use--code-to-redirect-renamed-or-moved-pages
+=======
+- do-you-use-301-code-to-redirect-renamed-or-moved-pages
+>>>>>>> 6ded47f5f5dc7d79e941d9ee45d5dc9b0c1ba311
 - do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list
 
 ---
