@@ -36,6 +36,7 @@ const Index = ({
             {' '}
             {topcategory.frontmatter.title}{' '}
             <span>
+              (
               {topcategory.frontmatter.index
                 .map((category) => {
                   const cat = findCategoryFromIndexValue(category);
@@ -46,6 +47,7 @@ const Index = ({
                   }
                 })
                 .reduce((total, currentValue) => total + currentValue)}
+              )
             </span>
           </h6>
           <ol className="pt-3 px-4 py-2 ">
@@ -59,7 +61,7 @@ const Index = ({
                       {cat.frontmatter.title}
                     </Link>
                     <span className="d-none d-md-block">
-                      {cat.frontmatter.index.length}
+                      ({cat.frontmatter.index.length})
                     </span>
                   </li>
                 );
