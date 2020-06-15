@@ -547,7 +547,7 @@ blockquote p:before {
 .rule-index ol {
   background-color: #f5f5f5;
   color: #222;
-  list-style-type: upper-alpha;
+  list-style-type: decimal;
   list-style-position: inside;
 }
 
