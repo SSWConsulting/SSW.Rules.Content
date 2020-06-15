@@ -52,10 +52,7 @@ const Layout = ({
           <Head pageTitle={pageTitle} />
           <Header displayActions={displayActions} ruleUri={ruleUri} />
           <GoogleAnalytics pageTitle={pageTitle}></GoogleAnalytics>
-          <Menu
-            onClickToggle={() => actionOnToggleClick()}
-            prefix="."
-          ></Menu>
+          <Menu onClickToggle={() => actionOnToggleClick()} prefix="."></Menu>
           {crumbs ? (
             <Breadcrumbs crumbs={crumbs} crumbLabel={crumbLabel} />
           ) : (
