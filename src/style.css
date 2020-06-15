@@ -51,7 +51,7 @@ a, a:visited {
       @apply text-gray-300;
       font-weight: bolder;
       transition: all 0.3s ease-in-out;
-      
+      border-bottom: 2px dotted #9e9e9e;   
       &:hover {
         @apply text-ssw-red;
         border-bottom: 2px dotted #cc4141;
