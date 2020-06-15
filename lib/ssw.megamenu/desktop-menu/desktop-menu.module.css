@@ -1,5 +1,5 @@
 .menuDrop a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .menuDrop {
   width: 100%;
@@ -16,6 +16,7 @@
   display: inline-block;
   line-height: 36px;
   background: none;
+  height: 36px;
 }
 .menuDrop > ul > li:hover {
   background: #eee;
@@ -23,12 +24,12 @@
 }
 .menuDrop > ul > li:hover > a {
   color: #333 !important;
-  border-bottom: 0;
+  border-bottom: 0 !important;
 }
 .menuDrop > ul > li > a {
-  color: #eee;
-  border-bottom: 0;
-  text-decoration: none;
+  color: #eee !important;
+  border-bottom: 0 !important;
+  text-decoration: none !important;
   border-bottom: 0;
   text-transform: uppercase;
   padding: 0 15px;

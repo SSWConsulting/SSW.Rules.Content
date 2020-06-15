@@ -33,7 +33,7 @@
 }
 .level1 a {
   background: none repeat scroll 0 0 transparent;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc !important;
   font-size: 1rem;
   font-weight: bold;
   padding-bottom: 3px;
@@ -42,11 +42,17 @@
   text-transform: none;
   display: block;
   line-height: normal;
-  color: #333;
+  color: #333 !important;
 }
+
+.level1 a:visited, .level1 a:link:visited,
+.level2 a:visited, .level2 a:link:visited {
+  color: #333 !important;
+}
+
 .level1 a:hover {
-  border-bottom: 1px solid #cc4141;
-  color: #cc4141;
+  border-bottom: 1px solid #cc4141 !important;
+  color: #cc4141 !important;
 }
 .level2 {
   line-height: normal;
@@ -55,7 +61,7 @@
 }
 .level2 a {
   background: none repeat scroll 0 0 transparent;
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid transparent !important;
   font-size: 0.9rem;
   font-weight: normal;
   padding: 4px 0 3px;

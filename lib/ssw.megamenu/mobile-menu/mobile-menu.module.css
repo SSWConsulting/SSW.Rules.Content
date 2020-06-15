@@ -58,7 +58,7 @@
   line-height: 35px;
   display: block;
   font-size: 1rem;
-  border-bottom: 1px dotted #666;
+  border-bottom: 1px dotted #666 !important;
   color: #eee !important;
   background: transparent;
 }
