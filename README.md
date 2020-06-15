@@ -1,4 +1,4 @@
-# SSW.Rumes
+# SSW.Rules
 
 v2 of the Rules.
 
