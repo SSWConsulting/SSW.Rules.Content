@@ -6,7 +6,6 @@
  */
 
 @tailwind base;
-/* purgecss end ignore */
 
 html {
   font-family: "Helvetica", "SegoeUILight", "sans-serif"
@@ -41,28 +40,28 @@ h4 {
 }
 
 a, a:visited {
-  &:not(.unstyled)    {
+  &:not(.unstyled) {
     color: #222;
     text-decoration: none;
     transition: color 0.25s ease;
     border-bottom: 1px solid transparent;
-
-    &.footer-link  {
-      @apply text-gray-300;
-      font-weight: bolder;
-      transition: all 0.3s ease-in-out;
-      border-bottom: 2px dotted #9e9e9e;   
-      &:hover {
-        @apply text-ssw-red;
-        border-bottom: 2px dotted #cc4141;
-      }
-    }
     &:hover {
       @apply text-ssw-red;
       border-bottom: 1px solid #cc4141;
       text-decoration: none;
     } 
   } 
+}
+
+a.footer-link  {
+  @apply text-gray-300;
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px dotted #9e9e9e;   
+  &:hover {
+    @apply text-ssw-red;
+    border-bottom: 2px dotted #cc4141;
+  }
 }
 
 a:hover, a:active {
@@ -952,6 +951,7 @@ html {
 * by plugins.
 */
 
+/* purgecss end ignore */
 @tailwind utilities;
 /**
 * Use this directive to control where Tailwind injects the responsive
