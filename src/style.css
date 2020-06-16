@@ -64,6 +64,12 @@ a.footer-link,a.footer-link:visited  {
   }
 }
 
+.navigation-category a{
+  @apply text-ssw-red !important;
+  font-weight: 600;
+}
+
+
 a:hover, a:active {
   @apply text-ssw-red;
   border-bottom: 1px solid #cc4141;
@@ -141,6 +147,11 @@ ul li {
   margin-right: auto;
   align-items: center;
   margin-left: 12px;
+}
+
+.action-btn-icon {
+  margin-left: 8px;
+  order: 2;
 }
 
 .breadcrumb {

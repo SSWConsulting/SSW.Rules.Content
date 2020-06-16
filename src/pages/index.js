@@ -114,7 +114,7 @@ const Index = ({
                 <p>
                   Read about the{' '}
                   <a
-                    href="http://www.codemag.com/article/0605091"
+                    href="https://www.codemag.com/article/0605091"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
