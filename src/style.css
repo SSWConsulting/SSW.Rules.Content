@@ -53,7 +53,7 @@ a, a:visited {
   } 
 }
 
-a.footer-link  {
+a.footer-link,a.footer-link:visited  {
   @apply text-gray-300;
   font-weight: bolder;
   transition: all 0.3s ease-in-out;
