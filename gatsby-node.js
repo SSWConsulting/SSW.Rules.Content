@@ -72,6 +72,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: ruleTemplate,
       context: {
         slug: node.fields.slug,
+        uri: node.frontmatter.uri,
       },
     });
   });
