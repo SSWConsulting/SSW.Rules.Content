@@ -172,17 +172,5 @@ export const query = graphql`
         }
       }
     }
-    rules: allMarkdownRemark(
-      filter: {
-        frontmatter: { type: { nin: ["category", "top-category", "main"] } }
-      }
-    ) {
-      nodes {
-        frontmatter {
-          uri
-          title
-        }
-      }
-    }
   }
 `;
