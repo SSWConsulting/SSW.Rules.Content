@@ -5,8 +5,8 @@ import PropTypes from 'prop-types';
 import {
   faThumbsUp,
   faThumbsDown,
-  faAngleDoubleLeft,
-  faAngleDoubleRight,
+  // faAngleDoubleLeft,
+  // faAngleDoubleRight,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Rule({
@@ -18,7 +18,7 @@ export default function Rule({
   const linkRef = useRef();
   const rule = data.markdownRemark;
   const categories = data.categories.nodes;
-  const rules = data.rules.nodes;
+  //const rules = data.rules.nodes;
   return (
     <Layout
       crumbs={crumbs}
