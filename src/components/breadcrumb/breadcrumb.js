@@ -12,11 +12,13 @@ const Breadcrumbs = ({ crumbs, crumbLabel }) => {
           <img alt={'SSW Consulting'} src={Icon} className="w-4" />
         </a>
         <span> &gt; </span>
-        <Breadcrumb
-          crumbs={crumbs}
-          crumbLabel={crumbLabel}
-          crumbSeparator=" > "
-        />
+        {typeof window !== 'undefined' && crumbs && (
+          <Breadcrumb
+            crumbs={crumbs}
+            crumbLabel={crumbLabel}
+            crumbSeparator=" > "
+          />
+        )}
       </div>
     </div>
   );
