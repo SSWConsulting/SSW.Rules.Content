@@ -153,9 +153,9 @@ ul li {
 
 .breadcrumb {
   display: inline-flex;
-  color: "#5b5656";
   text-align: center;
   flex-wrap: wrap;
+  align-items: center;
 
   span {
     min-width: 1.5rem;
@@ -166,7 +166,8 @@ ul li {
   }
 }
 
-.breadcrumb a{
+.breadcrumb a,
+.breadcrumb a:visited{
   &:not(.breadcrumb__link__active){
     color: #999;
   }
@@ -182,7 +183,7 @@ ul li {
 .breadcrumb a:hover{
   &:not(.breadcrumb__link__active){
     @apply text-ssw-red;
-    border-bottom: 1px dotted #cc4141;
+    border-bottom: 0px;
   }
 }
 
@@ -192,6 +193,12 @@ ul li {
 
 .breadcrumb__link__active:hover{
   color:black ;
+}
+
+.breadcrumb span {
+  min-width: 1.5rem; 
+  opacity: .5; 
+  font-weight: 100;
 }
 
 .hovered {
