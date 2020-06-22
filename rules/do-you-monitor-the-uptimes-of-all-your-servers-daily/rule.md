@@ -15,6 +15,6 @@ related: []
 
 <p>It is important that the network administrator can easily find out how reliable his servers are. This can be achieved using tools like What's Up Gold (https&#58;//www.whatsupgold.com) to monitor the uptime and SQL Reporting Services to create a report showing server uptime.<br></p><p>Here is a report that we use to monitor our servers on a daily basis&#58;<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt>​​​​​<img src="/PublishingImages/NW_Uptime_1.jpg" alt="NW_Uptime_1.jpg" />​<br></dt><dd>Figure&#58; Good example - We can easily see the uptime of all our servers</dd></dl>
+<dl class="goodImage"><dt>​​​​​​<img src="/SiteAssets/monitor-the-uptimes-of-all-your-servers-daily/WuGReport.png" alt="WuGReport.png" style="margin&#58;5px;width&#58;808px;" /><br></dt><dd>Figure&#58; Good example - We can easily see the uptime of all our servers</dd></dl>
 
 
