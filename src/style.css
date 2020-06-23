@@ -476,8 +476,6 @@ ol ol, ol li ol {
 
 h6.top-category-header {
   background-color: #777;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
   color: #ccc;
   margin: 0;
   font-size: 1rem;
@@ -486,11 +484,18 @@ h6.top-category-header {
   letter-spacing: 2px;
 }
 
-h6.top-category-header span {
+h6.top-category-header .number {
   padding: 0 .5rem;
   opacity: .5;
   position: absolute;
   right: 1rem;
+}
+
+h6.top-category-header .collapse-icon {
+  padding: 0 0rem;
+  opacity: .5;
+  position: absolute;
+  right: 0.5rem;
 }
 
 h6.top-category-header i {
