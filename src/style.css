@@ -159,6 +159,8 @@ ul li {
 
   span {
     min-width: 1.5rem;
+    opacity: .5; 
+    font-weight: 100;
   }
 
   ol{
@@ -193,12 +195,6 @@ ul li {
 
 .breadcrumb__link__active:hover{
   color:black ;
-}
-
-.breadcrumb span {
-  min-width: 1.5rem; 
-  opacity: .5; 
-  font-weight: 100;
 }
 
 .hovered {
