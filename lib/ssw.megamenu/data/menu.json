@@ -1,0 +1,40 @@
+{
+    "menuItems": [
+        {
+            "text": "Services",
+            "groupImageUrl": "Menu-Banner-Services.png",
+            "children": []
+        },
+        {
+            "text": "Products",
+            "groupImageUrl": "Menu-Banner-Products.png",
+            "children": []
+        },
+        {
+            "text": "Training",
+            "groupImageUrl": "Menu-Banner-Training.png",
+            "children": []
+        },
+        {
+            "text": "User Group",
+            "groupImageUrl": "Menu-Banner-UserGroup.png",
+            "children": []
+        },
+        {
+            "text": "Rules",
+            "groupImageUrl": "Menu-Banner-Standards.png",
+            "children": []
+        },
+        {
+            "text": "About Us",
+            "groupImageUrl": "Menu-Banner-AboutUs.png",
+            "children": []
+        },
+        {
+            "text": "SSW TV",
+            "cssClass": "ignore no-dropdown menu-ssw-tv",
+            "navigateUrl": "http://tv.ssw.com",
+            "target": "_blank"
+        }
+    ]
+}
