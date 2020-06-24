@@ -111,11 +111,6 @@ const Index = ({ data }) => {
               >
                 <FontAwesomeIcon icon={faTwitter} /> Tweet #SSWRules
               </a>
-              <script
-                async
-                src="https://platform.twitter.com/widgets.js"
-                charset="utf-8"
-              ></script>
             </section>
             <section>
               <h4>About SSW</h4>

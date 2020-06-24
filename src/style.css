@@ -470,7 +470,8 @@ ol ol, ol li ol {
 
 }
 
-h6.top-category-header {
+h6.top-category-header,
+h6.top-category-header button {
   background-color: #777;
   color: #ccc;
   margin: 0;
