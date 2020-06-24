@@ -75,6 +75,6 @@
 .featVideo a:after {
   font-family: FontAwesome;
   content: '\f16a' !important;
-  padding: 0 3px 0;
+  padding: 0 5px 0;
   color: #cc4141;
 }
