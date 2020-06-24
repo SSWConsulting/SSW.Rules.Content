@@ -72,8 +72,7 @@
   content: '\f041' !important;
   padding: 0 3px 0;
 }
-.feat-video a::after,
-.feat-video span::after{
+.featVideo a:after {
   font-family: FontAwesome;
   content: '\f16a' !important;
   padding: 0 3px 0;
