@@ -3,7 +3,7 @@
     no-repeat scroll right 4px transparent !important;
 }
 .ignore:after {
-  content: none;
+  content: none !important;
   padding-left: 0;
 }
 
