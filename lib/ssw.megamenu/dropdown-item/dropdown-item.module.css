@@ -6,23 +6,20 @@
   content: none !important;
   padding-left: 0;
 }
-.NonClickableMenuItem a:hover {
-  cursor: default !important;
-  color: #333 !important;
-  border-bottom: 1px solid #ccc !important;
-}
+
 .ClickableMenuItem a:hover {
   border-bottom: 1px solid #cc4141 !important;
   color: #cc4141 !important;
 }
 .ClickableMenuItem a,
-.NonClickableMenuItem a {
+.NonClickableMenuItem span {
   padding-left: 0;
   padding-right: 0;
   color: #333;
 }
 
 .level1 {
+  margin-top:1rem;
   padding-bottom: 0;
   padding-right: 2px;
   padding-top: 0px;
@@ -31,7 +28,8 @@
   padding-left: 0px;
   background: none;
 }
-.level1 a {
+.level1 a,
+.level1 span {
   background: none repeat scroll 0 0 transparent;
   border-bottom: 1px solid #ccc !important;
   font-size: 1rem;
@@ -72,6 +70,12 @@
 }
 .map:after {
   font-family: FontAwesome;
-  content: '\f041';
+  content: '\f041' !important;
   padding: 0 3px 0;
+}
+.featVideo a:after {
+  font-family: FontAwesome;
+  content: '\f16a' !important;
+  padding: 0 5px 0;
+  color: #cc4141;
 }

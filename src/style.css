@@ -11,6 +11,10 @@ html {
   font-family: "Helvetica", "SegoeUILight", "sans-serif"
 }
 
+body {
+  color:#333;
+}
+
 h1 {
   @apply text-4xl;
   @apply mb-2;
@@ -64,12 +68,11 @@ a.footer-link,a.footer-link:visited  {
   }
 }
 
-a:hover, a:active {
-  @apply text-ssw-red;
-  border-bottom: 1px solid #cc4141;
-  text-decoration: none;
-}
 
+.navigation-category a{
+  @apply text-ssw-red !important;
+  font-weight: 600;
+}
 
 a.gatsby-resp-image-link,
 a:link.gatsby-resp-image-link {
@@ -143,14 +146,21 @@ ul li {
   margin-left: 12px;
 }
 
+.action-btn-icon {
+  margin-left: 8px;
+  order: 2;
+}
+
 .breadcrumb {
   display: inline-flex;
-  color: "#5b5656";
   text-align: center;
   flex-wrap: wrap;
+  align-items: center;
 
   span {
     min-width: 1.5rem;
+    opacity: .5; 
+    font-weight: 100;
   }
 
   ol{
@@ -158,10 +168,10 @@ ul li {
   }
 }
 
-.breadcrumb a{
+.breadcrumb a,
+.breadcrumb a:visited{
   &:not(.breadcrumb__link__active){
     color: #999;
-    border-bottom: 1px dotted #9e9e9e;
   }
   &.breadcrumb__link__active{
     color:black ;
@@ -175,7 +185,7 @@ ul li {
 .breadcrumb a:hover{
   &:not(.breadcrumb__link__active){
     @apply text-ssw-red;
-    border-bottom: 1px dotted #cc4141;
+    border-bottom: 0px;
   }
 }
 
@@ -460,10 +470,9 @@ ol ol, ol li ol {
 
 }
 
-h6.top-category-header {
+h6.top-category-header,
+h6.top-category-header button {
   background-color: #777;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
   color: #ccc;
   margin: 0;
   font-size: 1rem;
@@ -472,11 +481,18 @@ h6.top-category-header {
   letter-spacing: 2px;
 }
 
-h6.top-category-header span {
+h6.top-category-header .number {
   padding: 0 .5rem;
   opacity: .5;
   position: absolute;
   right: 1rem;
+}
+
+h6.top-category-header .collapse-icon {
+  padding: 0 0rem;
+  opacity: .5;
+  position: absolute;
+  right: 0.5rem;
 }
 
 h6.top-category-header i {
@@ -835,6 +851,16 @@ blockquote p:before {
   display: inline-block;
   cursor: pointer;
 }
+
+#more .tags span a,
+#more .tags span a:visited,
+#more .tags span a:hover {
+  color: #fff;
+  transition: color 0.25s ease;
+  text-decoration: none;
+  border-bottom: none;
+}
+
 
 #more .tags span:hover {
   background-color: #222;

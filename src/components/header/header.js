@@ -31,7 +31,9 @@ const Header = ({ displayActions, ruleUri }) => {
             <a href={parentSiteUrl} className="unstyled cursor-pointer">
               <SSWLogo aria-label="logo" />
             </a>
-            <h1 className="title ml-2">Rules</h1>
+            <h1 className="title ml-2">
+              Rules <sup className="text-ssw-red">beta</sup>
+            </h1>
           </div>
           {displayActions ? (
             <div className="action-btn-container">
