@@ -46,6 +46,7 @@ exports.createPages = async ({ graphql, actions }) => {
           }
           frontmatter {
             uri
+            related
           }
         }
       }
@@ -72,6 +73,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: ruleTemplate,
       context: {
         slug: node.fields.slug,
+        related: node.frontmatter.related ? node.frontmatter.related : [''],
         uri: node.frontmatter.uri,
       },
     });

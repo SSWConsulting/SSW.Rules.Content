@@ -70,6 +70,38 @@ export default function Rule({ data }) {
             })}
           </section>
  */}
+        {rule.frontmatter.related && (
+          <div>
+            <h2>Related Rules</h2>
+            <ol>
+              {rule.frontmatter.related
+                ? rule.frontmatter.related.map((relatedRuleUri) => {
+                    const relatedRule = data.relatedRules.nodes.find(
+                      (r) => r.frontmatter.uri === relatedRuleUri
+                    );
+                    if (relatedRule) {
+                      return (
+                        <>
+                          <li>
+                            <section>
+                              <p>
+                                <Link
+                                  ref={linkRef}
+                                  to={`/${relatedRule.frontmatter.uri}`}
+                                >
+                                  {relatedRule.frontmatter.title}
+                                </Link>
+                              </p>
+                            </section>
+                          </li>
+                        </>
+                      );
+                    }
+                  })
+                : ''}
+            </ol>
+          </div>
+        )}
         <section id="more" className="pt-12 mt-12 flex text-center">
           <div className="acknowledgements w-1/3">
             <h5>Acknowledgements</h5>
@@ -126,7 +158,7 @@ Rule.propTypes = {
 };
 
 export const query = graphql`
-  query($slug: String!, $uri: String!) {
+  query($slug: String!, $uri: String!, $related: [String]!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug
@@ -139,6 +171,7 @@ export const query = graphql`
           title
         }
         created(formatString: "DD MMM YYYY")
+        related
       }
       parent {
         ... on File {
@@ -158,6 +191,16 @@ export const query = graphql`
           ... on File {
             name
           }
+        }
+      }
+    }
+    relatedRules: allMarkdownRemark(
+      filter: { frontmatter: { uri: { in: $related } } }
+    ) {
+      nodes {
+        frontmatter {
+          title
+          uri
         }
       }
     }
