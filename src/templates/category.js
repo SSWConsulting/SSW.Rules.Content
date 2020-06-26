@@ -75,7 +75,8 @@ export default function Category({ data }) {
                       <li className="pb-4">
                         <section className="rule-content-title px-4">
                           <h1>
-                            <Link ref={linkRef} to={`/${rule.frontmatter.uri}`}>
+                            <Link ref={linkRef} to={`/${rule.frontmatter.uri}`}
+                                  state={{ category: category.parent.name }}>
                               {rule.frontmatter.title}
                             </Link>
                           </h1>
@@ -118,6 +119,7 @@ export const query = graphql`
       parent {
         ... on File {
           relativePath
+          name
         }
       }
     }
