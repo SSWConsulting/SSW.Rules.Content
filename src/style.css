@@ -226,6 +226,17 @@ a.twitter-hashtag-button, a.twitter-hashtag-button:visited,a.twitter-hashtag-but
   cursor: pointer;
 }
 
+.button-next{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: large;
+}
+
 button:focus {
   outline: 0;
 }
@@ -670,6 +681,13 @@ blockquote p:before {
   padding-left: 4px;
 }
 
+.avatar a:after {
+  content: none !important;
+}
+
+.history a:after {
+  content: none !important;
+}
 .rule-content figure.greybox {
   display: block;
 }
