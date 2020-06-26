@@ -199,7 +199,7 @@ const Rule = ({ data, location }) => {
 
 Rule.propTypes = {
   data: PropTypes.object.isRequired,
-  search: PropTypes.object,
+  location: PropTypes.object,
 };
 
 export default Rule;
