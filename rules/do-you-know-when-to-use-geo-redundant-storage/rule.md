@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>Data in Azure Storage accounts is protected by replication. Deciding how far to replicate it is a balance between safety and cost.​</p><dl class="image"><dt><img src="/PublishingImages/azure-graphic.jpg" alt="" /></dt><dd>Figure&#58; It is important to balance safety and pricing when choosing the right replication strategy for Azure Storage Accounts</dd></dl> </span>
+<span class='intro'> <p>Data in Azure Storage accounts is protected by replication. Deciding how far to replicate it is a balance between safety and cost.​</p><dl class="image"><dt><img src="./azure-graphic.jpg" alt="" /></dt><dd>Figure&#58; It is important to balance safety and pricing when choosing the right replication strategy for Azure Storage Accounts</dd></dl> </span>
 
 <h4></h4><p class="p1"> 
    <strong>Locally redundant storage (LRS)</strong></p><ul class="ul1"><li class="li1">Ma<b></b>intains three copies of your data.&#160;</li><li class="li1">Is replicated three times within a single facility in a single region.&#160;</li><li class="li1">Protects your data from normal hardware failures, but not from the failure of a single facility.</li><li class="li1">Less expensive than GRS</li><li class="li1">Use when&#58; 

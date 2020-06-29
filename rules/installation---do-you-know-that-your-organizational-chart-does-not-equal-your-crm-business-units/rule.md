@@ -15,7 +15,7 @@ authors:
                  </span>
 
 <dl class="image">
-                    <dt><img alt="Microsoft CRM Default Security Roles are good enough to start with" src="/PublishingImages/CRM-Default-Role.jpg" /></dt>
+                    <dt><img alt="Microsoft CRM Default Security Roles are good enough to start with" src="./CRM-Default-Role.jpg" /></dt>
                     <dd>Figure&#58; Microsoft CRM Default Security Roles are good enough to start with - this is not a thing to stuff with early on</dd>
                 </dl>
                 <p>First thing first... <strong>never</strong> delete an Out of the Box (OOTB) role. Instead just disable... Period. The reason is it can cause system instability when the only solution can be to start from scratch with a New Organization.</p>

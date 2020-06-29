@@ -21,7 +21,7 @@ authors:
     <li>Creating web applications</li>
     <li>Migrations</li>
 </ul>
-<p><img src="http&#58;//sharepoint.ssw.com.au/AboutUs/Employees/PublishingImages/JohnLiu.jpg" alt="" /><br>
+<p><img src="http&#58;//sharepoint.ssw.com.au/AboutUs/Employees./JohnLiu.jpg" alt="" /><br>
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Do you have a SharePoint master</font></p>
  </span>
 

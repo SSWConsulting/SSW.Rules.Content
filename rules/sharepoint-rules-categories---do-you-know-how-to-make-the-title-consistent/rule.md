@@ -25,7 +25,7 @@ authors:
  </span>
 
 Like this (thanks for Adam's snapshot) &#58;
-<p><img alt="" class="ms-rteCustom-ImageArea" src="/PublishingImages/SPTitle.jpg" /></p>
+<p><img alt="" class="ms-rteCustom-ImageArea" src="./SPTitle.jpg" /></p>
 
 
 

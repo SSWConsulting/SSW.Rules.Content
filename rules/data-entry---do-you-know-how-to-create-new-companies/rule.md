@@ -15,14 +15,14 @@ authors:
 
 <dl class="goodImage">
           <dt>
-            <img src="/PublishingImages/Sales-Accounts.jpg" alt="Change CRM company Logo" style="width&#58;500px;height&#58;98px;" />​
+            <img src="./Sales-Accounts.jpg" alt="Change CRM company Logo" style="width&#58;500px;height&#58;98px;" />​
           </dt>
           <dd>
             Figure&#58; In MS CRM 2013, click on Sales | Accounts</dd>
         </dl>
         <dl class="goodImage">
           <dt>
-            <img src="/PublishingImages/NewAccount.jpg" alt="Change CRM company Logo" style="width&#58;500px;height&#58;289px;" />​
+            <img src="./NewAccount.jpg" alt="Change CRM company Logo" style="width&#58;500px;height&#58;289px;" />​
           </dt>
           <dd>
             Figure&#58; Click New, enter the required fields, and save and close​</dd>

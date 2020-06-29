@@ -38,7 +38,7 @@ authors:
       <img src="/SiteAssets/great-email-signatures/owa-signatures.png" alt="owa-signatures.png" style="max-width&#58;100%;width&#58;750px;height&#58;574px;" /> 
    </dt><dd>Figure&#58; Add your 'Email Signature' and save<br></dd></dl><p>
    <b>How to set it up in&#160;Office 365</b><br></p><ol><li>Open&#160;Outlook in Office 365&#160;(<a href="https&#58;//outlook.office.com/mail/inbox">http&#58;//outlook.office.com/mail/inbox</a>)&#160;</li><li>Click&#160;the&#160;&quot;Settings&quot;&#160;cog&#160;on the top right&#160;corner of the Window<br></li><li>Click on “View all Outlook settings” at the bottom of the&#160;Settings&#160;panel 
-      <dl class="image"><dt><img src="/PublishingImages/outlook-settings-signature.png" alt="outlook-settings-signature.png" style="width&#58;750px;" /></dt><dd>Figure&#58;&#160;Where to find &quot;View all Outlook settings&quot;<br></dd></dl></li><li>In the &quot;Settings&quot;&#160;window that pops up, go to&#58; Mail&#160;|&#160;Compose and reply.&#160;</li><li>Add your email signature and click&#160;&quot;Save&quot;<br><br></li></ol>
+      <dl class="image"><dt><img src="./outlook-settings-signature.png" alt="outlook-settings-signature.png" style="width&#58;750px;" /></dt><dd>Figure&#58;&#160;Where to find &quot;View all Outlook settings&quot;<br></dd></dl></li><li>In the &quot;Settings&quot;&#160;window that pops up, go to&#58; Mail&#160;|&#160;Compose and reply.&#160;</li><li>Add your email signature and click&#160;&quot;Save&quot;<br><br></li></ol>
 
 <p> 
    <strong>Warning&#58;</strong>&#160;Unfortunately you need to setup up your signature in Outlook and OWA. There is no way to share this.&#160;<br></p><p class="ssw15-rteElement-InfoBox"> 

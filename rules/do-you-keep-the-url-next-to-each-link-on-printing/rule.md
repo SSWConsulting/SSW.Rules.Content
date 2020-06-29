@@ -18,6 +18,6 @@ authors:
 <p>As a good practice, you should use CSS to print the URL's next to each link&#160;when printing&#58;</p><p class="ssw15-rteElement-CodeArea">@media print &#123;<br>a[href]&#58;after &#123;<br>content&#58; &quot; (&quot; attr(href) &quot;)&quot;;<br>&#125;<br>&#125;</p>​<span style="line-height&#58;1.5em;">In specific cases, like on breadcrumbs and logo, you don't want these URL's, so you should override the style&#58;</span>
 <div><p class="ssw15-rteElement-CodeArea">@media print &#123;<br><span class="ssw15-rteStyle-Highlight">.breadcrumb </span>a[href]&#58;after &#123;<br>content&#58; <span class="ssw15-rteStyle-Highlight">none</span>;<br>&#125;</p>
 ​
-   <dl class="goodImage"><dt><img src="/PublishingImages/print-url.jpg" alt="print-url.jpg" /> </dt><dd>Figure&#58; Good example - printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs</dd></dl></div>
+   <dl class="goodImage"><dt><img src="./print-url.jpg" alt="print-url.jpg" /> </dt><dd>Figure&#58; Good example - printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs</dd></dl></div>
 
 

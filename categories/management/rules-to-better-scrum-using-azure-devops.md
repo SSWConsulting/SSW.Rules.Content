@@ -81,7 +81,7 @@ index:
 </div> 
 <dl class="image"> 
    <dt> 
-      <img src="/PublishingImages/ProjectManagementSummary_Small.jpg" border="0" alt="" style="margin: 5px; width: 600px; height: 461px;"/>
+      <img src="./ProjectManagementSummary_Small.jpg" border="0" alt="" style="margin: 5px; width: 600px; height: 461px;"/>
    </dt> 
    <dd>Figure: Classic stories of Project Management </dd> 
 </dl>

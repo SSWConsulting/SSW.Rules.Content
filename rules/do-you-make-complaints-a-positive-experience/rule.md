@@ -18,7 +18,7 @@ authors:
 <ol><li>Stay relaxed, listen carefully and acknowledge the concerns<br></li><li>Isolate the issues.<br>
    <p class="ssw15-rteElement-GreyBox">​E.g. invoicing (&quot;I don't want to pay this bill&quot;) or development quality (&quot;my application is down&quot;)</p></li><li>Conference in the appropriate resources.<br> 
       <p class="ssw15-rteElement-GreyBox">E.g. the account manager or project manager​​<br></p><dl class="image"><dt>
-            <img src="/PublishingImages/old-phone-connection.jpg" alt="old-phone-connection.jpg" />
+            <img src="./old-phone-connection.jpg" alt="old-phone-connection.jpg" />
          </dt><dd>Figure&#58; Conference in another person to solve the problem - it's a lot easier than it used to be<br></dd></dl></li><li>Follow up the proposed solution in writing<br>
    <p class="ssw15-rteElement-GreyBox">E.g. &quot;John, as per our conversation, David K will be on-site 9 am tomorrow morning&quot;</p></li><li>When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
    <p class="ssw15-rteElement-GreyBox">E.g. &quot;John, I'm glad David K was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. David K just plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room&quot;</p></li>

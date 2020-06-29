@@ -16,11 +16,11 @@ authors:
 
 
   <dl class="badImage">
-    <dt><img alt="Bad example – there is no response when mouse is over the image" src="/PublishingImages/OldFashionSite.jpg" /> </dt>
+    <dt><img alt="Bad example – there is no response when mouse is over the image" src="./OldFashionSite.jpg" /> </dt>
     <dd>Figure&#58; Bad example – there is no response when mouse is over the image </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img alt="Good example – apply the different style when mouse is over" src="/PublishingImages/NewFashionSite.jpg" /> </dt>
+    <dt><img alt="Good example – apply the different style when mouse is over" src="./NewFashionSite.jpg" /> </dt>
     <dd>Figure&#58; Good example – apply the different style when mouse is over </dd>
 </dl>
 <dl class="goodCode">

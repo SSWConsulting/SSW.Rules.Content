@@ -21,7 +21,7 @@ authors:
 <p>The trouble is that the above is predicated on the notion that you're doing something wrong and are happy spending time putting out fires that needn't have been lit.<br>&#160;<br>Let's see how to&#160;live without stomach ulcers... </p> </span>
 
 <dl class="image" style="float&#58;right;clear&#58;right;width&#58;207px;"><dt>
-      <img alt="Get work approved and spend less time putting out fires" src="/PublishingImages/SuccessfulProjects_PuttingOutFires.jpg" /> 
+      <img alt="Get work approved and spend less time putting out fires" src="./SuccessfulProjects_PuttingOutFires.jpg" /> 
    </dt><dd>Figure&#58; Get work approved and spend less time putting out fires </dd></dl><p>Get permission for the work you do 
    <strong>*before*</strong> you do it. Usually get permission verbally, 
    <a href="/dones-do-you-send-yourself-emails">confirmed with an email&#160;</a> (or with a 

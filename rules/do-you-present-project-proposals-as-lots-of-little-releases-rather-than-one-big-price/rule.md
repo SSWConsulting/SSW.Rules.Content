@@ -22,7 +22,7 @@ authors:
                 </p> </span>
 
 <p> This approach also allows you to side-step common delaying tactics of prospective clients by making it easier to get the project moving. </p><dl class="image"><dt>
-      <img alt="One big price is like a slap in the face" src="/PublishingImages/AccountManagement-FaceSlap.jpg" /> 
+      <img alt="One big price is like a slap in the face" src="./AccountManagement-FaceSlap.jpg" /> 
    </dt><dd> Figure&#58; One big price is like a slap in the face ​</dd></dl>
 
 

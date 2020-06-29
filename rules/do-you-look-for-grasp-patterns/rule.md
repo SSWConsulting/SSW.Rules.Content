@@ -37,9 +37,9 @@ authors:
 <tr><th style="padding-right&#58;10px;">​Protected Variations</th>
 <td>​Variations in the behaviour of other objects is abstracted away from the dependent object by means of an interface and polymorphism</td></tr></tbody></table>
 <p>Tip&#58; Visual Studio's Architecture tools can help you visualise your dependencies.&#160; A good structure will show calls flowing in one direction.</p>
-<img alt="architecture_responsibility_bad.png" src="/PublishingImages/architecture_responsibility_bad.png" class="ms-rteCustom-ImageArea" />
+<img alt="architecture_responsibility_bad.png" src="./architecture_responsibility_bad.png" class="ms-rteCustom-ImageArea" />
 <span class="ssw-rteStyle-FigureBad">Figure&#58; Bad Example - Calls are going in both directions which hints at a poor architecture</span>
-<img class="ms-rteCustom-ImageArea" alt="architecture_responsibility_good.png" src="/PublishingImages/architecture_responsibility_good.png" />
+<img class="ms-rteCustom-ImageArea" alt="architecture_responsibility_good.png" src="./architecture_responsibility_good.png" />
 <span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example -&#160;Calls&#160;are flowing in one direction hinting at a more sensible&#160;arrangement of responsibilities</span>
 
 

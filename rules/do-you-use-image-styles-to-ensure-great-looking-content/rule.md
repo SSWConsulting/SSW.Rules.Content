@@ -12,9 +12,9 @@ authors: []
 <span class='intro'> <p>Many people will simply &quot;plonk&quot; an image onto a web page in between or next to a block of text. This interrupts the flow of the page and gives a disjointed, unprofessional impression.</p><p>A good technique is to set a CSS style to images. This style will be consistent and easy to be used by any person who might edit the website content.</p> </span>
 
 <dl class="badImage"><dt>
-      <img src="/PublishingImages/imageWithoutStyles.jpg" alt="Image without styles" />
+      <img src="./imageWithoutStyles.jpg" alt="Image without styles" />
    </dt><dd>Figure&#58; Bad Example - The image has no styles</dd></dl><dl class="goodImage"><dt>
-      <img src="/PublishingImages/imageWithStyles.jpg" alt="Image with styles" />
+      <img src="./imageWithStyles.jpg" alt="Image with styles" />
    </dt><dd>Figure&#58; Good Example - The image has CSS driven margin, padding, borders</dd></dl><p>It's also important to choose the correct semantic formatting for images. Different HTML codes might give the same look and feel, but the best way to add images to your page is using 
    <strong>&lt;dl&gt;</strong>, 
    <strong>&lt;dt&gt;</strong> and 

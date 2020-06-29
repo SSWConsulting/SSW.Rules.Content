@@ -16,7 +16,7 @@ authors:
 
 <p>You will also need this because you are going to do this in a Dev, then Test and then Production environment aren't you &#58;-)</p>
                 <dl class="image">
-                    <dt><img alt="DevErrors in web.config" src="/PublishingImages/CRM-screen.jpg" /></dt>
+                    <dt><img alt="DevErrors in web.config" src="./CRM-screen.jpg" /></dt>
                     <dd>Figure&#58; This is the last dialog before it installs. So you want a screen capture of everything up to here - so you can replay it for the Test and Production servers</dd>
                 </dl>
 

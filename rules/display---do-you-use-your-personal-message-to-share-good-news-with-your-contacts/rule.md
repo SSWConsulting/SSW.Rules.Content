@@ -16,6 +16,6 @@ authors:
 
 <p>Your personal message should be simple, to the point, and make sure you change it at least once a month!&#160;</p> </span>
 
-<dl class="image"><dt>​<img src="/PublishingImages/Use-your-Persona-%20Message-to-share-good-news.jpg" alt="" /> </dt><dt></dt><dd> Figure&#58; Use your Personal Message to share the good news​<br></dd></dl>
+<dl class="image"><dt>​<img src="./Use-your-Persona-%20Message-to-share-good-news.jpg" alt="" /> </dt><dt></dt><dd> Figure&#58; Use your Personal Message to share the good news​<br></dd></dl>
 
 

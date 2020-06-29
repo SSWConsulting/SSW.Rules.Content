@@ -21,6 +21,6 @@ authors:
       <span style="line-height&#58;1.6;">Source control requirements</span><br></li><li>
       <span style="line-height&#58;1.6;">Branching strategy</span><br></li><li>
       <span style="line-height&#58;1.6;">Solution and project folder structure and naming</span><br></li><li>
-      <span style="line-height&#58;1.6;">Unit testing requirements</span><br></li></ul><dl class="image"><dt><img src="/PublishingImages/guidelines-opensource.png" alt="guidelines-opensource.png" style="width&#58;600px;height&#58;660px;" /></dt><dd>Figure&#58; Good Example - Adding an ENGINEERING-GUIDELINES.md to your project clearly defines the engineering practices and guidelines that must be required for contributors pull requests to be accepted</dd></dl>​
+      <span style="line-height&#58;1.6;">Unit testing requirements</span><br></li></ul><dl class="image"><dt><img src="./guidelines-opensource.png" alt="guidelines-opensource.png" style="width&#58;600px;height&#58;660px;" /></dt><dd>Figure&#58; Good Example - Adding an ENGINEERING-GUIDELINES.md to your project clearly defines the engineering practices and guidelines that must be required for contributors pull requests to be accepted</dd></dl>​
 
 

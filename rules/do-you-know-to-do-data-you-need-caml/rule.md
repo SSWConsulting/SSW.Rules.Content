@@ -61,7 +61,7 @@ authors:
     <li>
     <div class="MsoNormal"><span lang="EN-AU"><span lang="EN-AU" style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;"><span lang="EN-AU" style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">SharePoint is not good at telling you if you made a mistake with your CAML query. </span></span></span>
     <dl class="badImage">
-        <dt><img src="/PublishingImages/CAMLError.png" alt="" /> </dt>
+        <dt><img src="./CAMLError.png" alt="" /> </dt>
         <dd>&#160;&#160;&#160;&#160; Figure&#58; Debug error message</dd>
     </dl>
     </div>
@@ -70,7 +70,7 @@ authors:
     <div class="MsoNormal"><span lang="EN-AU"><span lang="EN-AU" style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;"><span lang="EN-AU" style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;"><span lang="EN-AU" style="font-family&#58;'calibri','sans-serif';font-size&#58;11pt;">Hard to debug.</span></span></span></span><br>
     <font color="#ff0000">Tips&#58;</font> Use 3rd Party tools - U2U CAML Query Builder
     <dl class="goodImage">
-        <dt><img src="/PublishingImages/U2U.png" alt="" /> </dt>
+        <dt><img src="./U2U.png" alt="" /> </dt>
         <dd>&#160;&#160;&#160;&#160; Figure&#58; U2U CAML Query Builder</dd>
     </dl>
     &#160;&#160;&#160;&#160; <font color="#ff0000">Note&#58;</font> U2U CAML Builder is the best tool that we have. There are some occasional UI and interface issues, but for creating CAML and testing it against live SharePoint lists it gets the job done. And it’s FREE! </div>

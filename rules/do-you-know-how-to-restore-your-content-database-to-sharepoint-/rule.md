@@ -25,7 +25,7 @@ authors:
   <ol>
     <li>In <b>SQL Server Management Studio</b> right click on <b>Databases</b> | <b>Restore Database…<br>
     <br>
-    <img alt="" src="/PublishingImages/RestoreDatabase.png" /><br>
+    <img alt="" src="./RestoreDatabase.png" /><br>
     <b><font class="ms-rteCustom-FigureNormal" size="+0"><b>Figure 6 - Select “Restore Database”</b><br>
     </font></b>
     <li>Follow the prompts to restore your database </li>

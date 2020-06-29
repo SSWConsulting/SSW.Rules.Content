@@ -39,7 +39,7 @@ event)</span>
 </span>
 <span lang="EN-AU">
 <br>
-<img src="/PublishingImages/ListValidation.jpg" alt="" /><br>
+<img src="./ListValidation.jpg" alt="" /><br>
 </span>
 <span class="ms-rteCustom-FigureGood">
 <span lang="EN-AU">Good example&#58; using no code – just using the

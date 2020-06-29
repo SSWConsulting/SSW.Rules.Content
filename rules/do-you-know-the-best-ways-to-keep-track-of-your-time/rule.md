@@ -23,9 +23,9 @@ authors:
    <a href="/dones-do-you-include-useful-details-in-your-done-email">&quot;Done Emails&quot;</a>.</p><h3>Why have we moved away from Physical Diaries?</h3>
 <p>Back in the day, people used to keep physical diaries to keep track of what work they did, and then they'd get the client to sign it each day they were on site to ensure they were communicating. This is now all covered by TFS check ins, CRM bookings, Outlook emails, and 
    <a href="/methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)">Daily Scrums</a>​ to ensure communication.</p><dl class="badImage"><dt>
-      <img alt="Keep your Diary or timesheet with you" src="/PublishingImages/diary.jpg" />
+      <img alt="Keep your Diary or timesheet with you" src="./diary.jpg" />
    </dt><dd>Figure&#58; Bad Example – Physical Diaries are no longer needed</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Keep your Diary or timesheet with you" src="/PublishingImages/TFS-comments.png" /> 
+      <img alt="Keep your Diary or timesheet with you" src="./TFS-comments.png" /> 
    </dt><dd>Figure&#58; Good Example – TFS Check in comments are a very accurate recording of what work was done</dd></dl> ​
 
 

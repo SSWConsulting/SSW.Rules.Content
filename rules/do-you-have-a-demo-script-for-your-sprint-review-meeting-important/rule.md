@@ -21,7 +21,7 @@ The demo script should include 3 parts&#58;<br>
     <li>Steps to show what has been done aka Demo script itself​ </li>
     <li>Give an overview of upcoming PBIs, so that everyone has an idea before you go into the Sprint Planning Meeting </li>
 </ol>
-<img class="ms-rteCustom-ImageArea" src="/PublishingImages/StoreDemoScriptInTFS.jpg" alt="" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Store the demo scripts on TFS</font> 
+<img class="ms-rteCustom-ImageArea" src="./StoreDemoScriptInTFS.jpg" alt="" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Store the demo scripts on TFS</font> 
 
 
 

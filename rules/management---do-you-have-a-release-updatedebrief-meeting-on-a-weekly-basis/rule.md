@@ -35,7 +35,7 @@ authors:
 <ul>
     <li><a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate">SSW TFS Add-in - Release Update/Debrief Report</a> </li>
 </ul>
-<dl class="image"> <dt><img src="/PublishingImages/ProgressReport_small.jpg" border="0" alt="" style="border-width&#58;0px;border-style&#58;solid;" /> </dt> <dd>Figure&#58; The actual output of the Release Update Report </dd> </dl>
+<dl class="image"> <dt><img src="./ProgressReport_small.jpg" border="0" alt="" style="border-width&#58;0px;border-style&#58;solid;" /> </dt> <dd>Figure&#58; The actual output of the Release Update Report </dd> </dl>
 <p>Here is a&#160;PDF format <a href="http&#58;//www.ssw.com.au/ssw/AgileTemplate/Sample/Reports.zip">SSW Release Update Report.</a></p>
 <p><strong>If you are at the end of a main section of work, promote your success </strong></p>
 <ul>

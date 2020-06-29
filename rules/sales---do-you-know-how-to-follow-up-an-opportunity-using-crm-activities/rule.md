@@ -17,7 +17,7 @@ authors:
 
 <dl class="image">
           <dt>
-            <img alt="Follow Up Activity" src="/PublishingImages/FollowUpActivity.jpg" style="width&#58;600px;height&#58;572px;" /></dt>
+            <img alt="Follow Up Activity" src="./FollowUpActivity.jpg" style="width&#58;600px;height&#58;572px;" /></dt>
           <dd>
             Figure&#58; Use sales activities to follow up an opportunity</dd>
         </dl>

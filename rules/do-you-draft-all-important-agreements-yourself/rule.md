@@ -15,7 +15,7 @@ authors:
 <br> </span>
 
 
-  <img class="ms-rteCustom-ImageArea" src="/PublishingImages/SuccessfulProjects_DraftAgreementYourself.jpg" border="0" alt="" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;initial;" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Can you really trust the other side to draft the agreement correctly?</span>
+  <img class="ms-rteCustom-ImageArea" src="./SuccessfulProjects_DraftAgreementYourself.jpg" border="0" alt="" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;initial;" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Can you really trust the other side to draft the agreement correctly?</span>
 <p>Sometimes, especially if you are an efficient manager and enjoy delegating, it's tempting to ask the other party to write up the change. This is a major risk&#58;</p>
 <ol>
     <li>The other party may not even get around to drafting the agreement leaving you without a paper trail </li>

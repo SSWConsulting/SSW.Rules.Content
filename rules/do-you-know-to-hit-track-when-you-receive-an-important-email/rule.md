@@ -18,7 +18,7 @@ authors:
           button in the ribbon and &quot;set regarding&quot; to the opportunity in question.</p>
         <dl class="image">
           <dt>
-            <img alt="Ribbon CRM section in email" src="/PublishingImages/CRMSectionInEmail.jpg" /></dt>
+            <img alt="Ribbon CRM section in email" src="./CRMSectionInEmail.jpg" /></dt>
           <dd>
             Figure&#58; When you receive an important email, click the 'Track' button in
             on the CRM toolbar​
@@ -29,7 +29,7 @@ authors:
           top.</p>
         <dl class="image">
           <dt>
-            <img alt="Toolbar CRM section in Inbox" src="/PublishingImages/CRMSectionInInbox.jpg" /></dt>
+            <img alt="Toolbar CRM section in Inbox" src="./CRMSectionInInbox.jpg" /></dt>
           <dd>
             Figure&#58; A shortcut to the same 'Track' button exists on the CRM Toolbar in your Inbox</dd>
         </dl>

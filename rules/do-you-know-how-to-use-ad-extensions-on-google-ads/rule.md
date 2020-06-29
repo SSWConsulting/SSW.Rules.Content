@@ -23,7 +23,7 @@ authors:
       <b>Promotion</b> – coupons, deals, sales offerings</li><li> 
       <b>Call out</b> – Additional detail/an invitation to a call-to-action</li><li> 
       <b>Sitelinks</b> – Promoting links from your website you want to advertise</li></ul><dl class="badImage"><dt>
-      <img src="/PublishingImages/google-ad-no-ad-extension.jpg" alt="google-ad-no-ad-extension.jpg" />
-   </dt><dd>Figure&#58; Bad Example – Ad doesn't have a clear message about either product or service, there’s no call extension even though it mentions &quot;Call Now&quot;​<br></dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/google-ad-extension.jpg" alt="google-ad-extension.jpg" />​<br></dt><dd>Figure&#58; Good Example - Sitelinks and Call extensions on one of our mobile ads​</dd></dl>​
+      <img src="./google-ad-no-ad-extension.jpg" alt="google-ad-no-ad-extension.jpg" />
+   </dt><dd>Figure&#58; Bad Example – Ad doesn't have a clear message about either product or service, there’s no call extension even though it mentions &quot;Call Now&quot;​<br></dd></dl><dl class="goodImage"><dt><img src="./google-ad-extension.jpg" alt="google-ad-extension.jpg" />​<br></dt><dd>Figure&#58; Good Example - Sitelinks and Call extensions on one of our mobile ads​</dd></dl>​
 
 

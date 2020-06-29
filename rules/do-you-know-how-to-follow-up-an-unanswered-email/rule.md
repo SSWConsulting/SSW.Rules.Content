@@ -17,7 +17,7 @@ authors:
  </span>
 
 <ol><li>Reply to ALL </li><li>Put (PING) in 1<sup>st</sup> line of the Body </li><li>Plus any other instructions - such as &quot;Hurry Up!&quot;&#160;or &quot;following-up, and looking forward to your reply&quot; or &quot;Need an answer please&quot;​</li></ol><dl class="goodImage"><dt> 
-      <img src="/PublishingImages/ping-email.png" alt="Hurry Up" class="ms-rteCustom-ImageArea" /> 
+      <img src="./ping-email.png" alt="Hurry Up" class="ms-rteCustom-ImageArea" /> 
    </dt><dd>Figure&#58;&#160;Good Example - (PING) written at the top of the email.</dd></dl>​ 
 <p>Of course you might use slightly friendlier language following up a client or a third party compared with following up a colleague!​ If it's really important and you need an answer you might like to 
    <a href="/Pages/EmailForTasksNotCommunication.aspx">consider using the phone instead of email</a>​.</p>

@@ -26,7 +26,7 @@ authors:
  </span>
 
 
-  <img class="ms-rteCustom-ImageArea" src="/PublishingImages/Check-InRegularly.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Eating one big meal every three days gives you a bellyache... (aka check in small portions regularly, one large check-in after a few days will give you a headache)</font>
+  <img class="ms-rteCustom-ImageArea" src="./Check-InRegularly.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Eating one big meal every three days gives you a bellyache... (aka check in small portions regularly, one large check-in after a few days will give you a headache)</font>
 <p>That's why source code should be checked in regularly. We recommend a check-in&#58; </p>
 <ul>
     <li>Immediately after completing a piece of functionality, where the <a shape="rect" href="/Pages/CompilePassed.aspx">code compiles and passes the unit tests </a>Before lunch or dinner </li>

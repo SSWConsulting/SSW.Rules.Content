@@ -18,7 +18,7 @@ authors:
   <p>
     <strong class="ms-rteThemeFontFace-1 ms-rteFontSize-2">Mobile Device&#58; <br>
 <br>
-<img alt="Silverlight in iPad doesn't work" src="/PublishingImages/SilverlightInIPad.png" /><br>
+<img alt="Silverlight in iPad doesn't work" src="./SilverlightInIPad.png" /><br>
 &#160;&#160;&#160;&#160;Figure&#58; Silverlight does not work on an iPad, It can't be only experience.&#160;</strong> <strong class="ms-rteThemeFontFace-1 ms-rteFontSize-2"><br>
 &#160;&#160;&#160;&#160;</strong> <span class="ms-rteThemeFontFace-1 ms-rteFontSize-2"></span><span class="ms-rteThemeFontFace-1 ms-rteFontSize-2">Further Reading&#58; </span><a class="ms-rteThemeFontFace-1 ms-rteFontSize-2" href="http&#58;//www.pcworld.com/article/193540/ipad_proves_that_apple_wants_to_kill_flash.html" target="_blank">PCWorld</a>&#160; .&#160;</p>
 <div style="text-align&#58;left;"><strong>Data Entry Forms</strong></div>

@@ -36,7 +36,7 @@ authors:
                   <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=731a3f5d-a266-4944-876c-a45afa82832f" shape="rect">Stand Up meeting (or Scrum)&#160;</a> </li><li>
                   <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSetups.aspx#BuildVersionDay" shape="rect">Internal build</a> </li><li>
                   <a href="/conduct-a-test-please-internally-and-then-with-te-client" shape="rect">Test please</a> </li></ul></td><td valign="top"></td></tr></tbody></table><p>&#160;</p> 
-<img class="ms-rteCustom-ImageArea" alt="Only with a strict project schedule can the manager coach the team to success!" src="/PublishingImages/ProjectManagement_Coach.jpg" border="0" /> 
+<img class="ms-rteCustom-ImageArea" alt="Only with a strict project schedule can the manager coach the team to success!" src="./ProjectManagement_Coach.jpg" border="0" /> 
 <font class="ms-rteCustom-FigureNormal">Figure&#58; Only with a strict project schedule can the manager coach the team to success! </font>
 
 

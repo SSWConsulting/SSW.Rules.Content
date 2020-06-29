@@ -26,7 +26,7 @@ Unfortunately, Office 2007 and Office 2003 can't work with managed metadata fiel
    <br> Use a 3rd party solution - the best one being OnePlaceMail which provides a UI for managed metadata via the &quot;Save to SharePoint&quot;. Works with all three versions of Office so users get a consistent UI. 
    <br> 
    <br> 
-   <img class="ms-rteCustom-ImageArea" src="/PublishingImages/OnePlaceMail.jpg" alt="" /></p> 
+   <img class="ms-rteCustom-ImageArea" src="./OnePlaceMail.jpg" alt="" /></p> 
 <font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; The optional save dialog that pops up when saving document to SharePoint - allowing use of Managed Metadata from Office 2003, 2007 and File Explorer</font>
 
 

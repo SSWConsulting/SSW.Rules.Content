@@ -20,7 +20,7 @@ authors:
 <p>Both the Visual Studio Scrum and MSF for Agile project templates in TFS 2010 and 2012 provide a built-in &quot;Stories Overview&quot; report to help you find out where the project is at, as well as to tell you if all the tasks are well tested. </p>
  </span>
 
-  <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="/PublishingImages/84d04e_StoriesOverviewReport.jpg" /> <br>
+  <img class="ms-rteCustom-ImageArea" alt="Stories Overview report" src="./84d04e_StoriesOverviewReport.jpg" /> <br>
 <font class="ms-rteCustom-FigureNormal" size="2">Figure&#58;&#160;The developer says he is 90% done... the report shows 25% tested, but 0% passed!</font>
 <p>Tip&#58; Set this up on a <a href="/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day" shape="rect">daily schedule so the Scrum Team get this in their inbox each day</a>.</p>
 <p>Suggestion for Microsoft #1&#58; Add a Summary Number in large font at the top, eg. 55% complete. </p>

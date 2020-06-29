@@ -20,9 +20,9 @@ authors:
       <ul><li>After the initial meeting, if the work requires it, a specification review is proposed</li></ul></li><li>Spec Review – Booked 
       <ul><li>The speccing phase has been approved and booked in</li></ul></li><li>Project Proposal – Waiting for Approval 
       <ul><li>After the spec review, the client has been given a proposal for a chunk of work. Once this is approved, the opportunity is closed as won</li></ul></li></ol><p>The old <span style="line-height&#58;20.799999237060547px;">Sales Pip</span><span style="line-height&#58;20.799999237060547px;">e</span><span style="line-height&#58;20.799999237060547px;">line</span>&#160;was 9 steps, whereas&#160;this new one is 6 steps.</p><dl class="badImage"><dt>
-      <img alt="the old sales pipeline" src="/PublishingImages/old-sales-pipeline.jpg" />
+      <img alt="the old sales pipeline" src="./old-sales-pipeline.jpg" />
    </dt><dd>Figure&#58; Bad Example – the old sales pipeline</dd></dl><dl class="goodImage"><dt>
-      <img alt="the new sales pipeline" src="/PublishingImages/new-sales-pipeline.jpg" />
+      <img alt="the new sales pipeline" src="./new-sales-pipeline.jpg" />
    </dt><dd>Figure&#58; Good Example – the new sales pipeline​</dd></dl>
 
 

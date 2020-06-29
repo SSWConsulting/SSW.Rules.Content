@@ -19,7 +19,7 @@ authors:
 
 <dl class="goodImage">
           <dt>
-            <img src="/PublishingImages/CRM_ChangeLogo.jpg" alt="Change CRM company Logo" />
+            <img src="./CRM_ChangeLogo.jpg" alt="Change CRM company Logo" />
           </dt>
           <dd>
             Figure&#58; Change CRM company logo</dd>

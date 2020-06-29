@@ -16,7 +16,7 @@ authors:
 <span class='intro'> <div class="page" title="Page 1"><div class="layoutArea"><div class="column"><p><span style="font-size&#58;9pt;font-family&#58;verdana;">If you have form fields that require some further information,&#160;</span><span style="line-height&#58;1.6;">you can provide a hints column next to the fields so users know what the purpose of the data is.</span></p></div></div></div> </span>
 
 <dl class="goodImage"><dt> 
-      <img src="/PublishingImages/field-hints.jpg" alt="field hints" />
+      <img src="./field-hints.jpg" alt="field hints" />
    </dt><dd> Figure&#58; Good example - Field hints can make the user more comfortable​</dd></dl>
 
 

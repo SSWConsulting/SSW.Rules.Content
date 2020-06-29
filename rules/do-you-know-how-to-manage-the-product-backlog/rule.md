@@ -15,7 +15,7 @@ authors:
 
 <span class='intro'> The Product Owner (PO) is responsible for managing the Product Backlog. This includes the following&#58; 
 <dl class="image"><dt> 
-      <img src="/PublishingImages/po-tasks.jpg" alt="PO Tasks" /> 
+      <img src="./po-tasks.jpg" alt="PO Tasks" /> 
    </dt><dd>Figure&#58; PO responsibilities regarding the Backlog from the 
       <a href="http&#58;//www.youtube.com/watch?v=3eljozEWpf8" target="_blank">“What is a Product Owner”​ video</a>​</dd></dl> </span>
 

@@ -23,11 +23,11 @@ BCS is good for synchronising the data at SharePoint with one other system.&#160
 
   <br>
 <br>
-<img alt="" src="/PublishingImages/BCSBadExample.jpg" /> <br>
+<img alt="" src="./BCSBadExample.jpg" /> <br>
 <font size="+0" class="ms-rteCustom-FigureBad">Use BCS with multiple systems(not working)<br>
 </font><br>
 <br>
-<img alt="" src="/PublishingImages/BCSGoodExample.jpg" /><br>
+<img alt="" src="./BCSGoodExample.jpg" /><br>
 <font size="+0" class="ms-rteCustom-FigureGood">Use BCS with one system at time</font><br>
 <br>
 

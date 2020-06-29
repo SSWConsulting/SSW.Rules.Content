@@ -15,7 +15,7 @@ authors:
  </span>
 
 
-  <img alt="How do you know what machine is what?" src="/PublishingImages/naming-badexample.jpg" />
+  <img alt="How do you know what machine is what?" src="./naming-badexample.jpg" />
   <br>
 <strong class="ms-rteCustom-FigureBad">Bad Example - How do you know what machine is what?</strong>The standard we use for Production Virtual Machine naming is as follows&#58;<br>
 <br>
@@ -29,7 +29,7 @@ The standard we use for Development Virtual Machine naming is as follows&#58;<br
 </strong><br>
 &#160;&#160;&#160;&#160;For example&#58;&#160;<strong>DEV-demo2010a-SP2010MSInfoWorker-JL</strong><br>
 <br>
-<img alt="It is easy to tell which VM is which when they are named to a standard" src="/PublishingImages/naming-goodexample.jpg" /><br>
+<img alt="It is easy to tell which VM is which when they are named to a standard" src="./naming-goodexample.jpg" /><br>
 <font class="ms-rteCustom-FigureGood" size="+0">Good Example - It is easy to tell which VM is which when they are named to a standard<br>
 </font>
 

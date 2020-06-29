@@ -23,11 +23,11 @@ So whenever you have special data,&#160;which is referenced in code you need to 
 3) You then need to add a check for it so that it does not disappear. </p>
 <p style="margin&#58;0cm 0cm 0pt;">Let's look at an example&#58;</p>
 <dl class="image">
-    <dt><img alt="" src="/PublishingImages/TimeProDropDown.png" /> </dt>
+    <dt><img alt="" src="./TimeProDropDown.png" /> </dt>
     <dd>Figure&#58; This combo looks innocent. However if it is &quot;Billable&quot; then the calendar goes yellow </dd>
 </dl>
 <dl class="image">
-    <dt><img alt="" src="/PublishingImages/TimeProCalendar.png" /> </dt>
+    <dt><img alt="" src="./TimeProCalendar.png" /> </dt>
     <dd>Figure&#58;&#160;Billable days are shown in yellow </dd>
 </dl>
 <dl class="image">

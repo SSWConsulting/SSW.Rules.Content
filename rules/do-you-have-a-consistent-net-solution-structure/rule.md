@@ -16,9 +16,9 @@ authors:
 <span class='intro'> <p>​​​When developing software, we implement a <a href="/do-you-use-a-dependency-injection-centric-architecture">dependency injection centric architecture</a>.</p> </span>
 
 <dl class="image"><dt> 
-      <img class="ms-rteCustom-ImageArea" alt="Dependency Injection based architecture" src="/PublishingImages/dependency-injection-structure.png" /> 
+      <img class="ms-rteCustom-ImageArea" alt="Dependency Injection based architecture" src="./dependency-injection-structure.png" /> 
    </dt><dd>Figure&#58; A Dependency Injection based architecture gives us great maintainability</dd></dl><dl class="goodImage"><dt> 
-      <img class="ms-rteCustom-ImageArea" alt="solutionlayout.png" src="/PublishingImages/solution-structure.png" /> 
+      <img class="ms-rteCustom-ImageArea" alt="solutionlayout.png" src="./solution-structure.png" /> 
    </dt><dd>Figure&#58; Good Example - The Solution and Projects are named consistently and the Solution Folders organize the projects so that they follow the Onion Architecture</dd></dl><p>Dependencies and the application core are clearly separated as per the 
    <a href="/do-you-use-a-dependency-injection-centric-architecture">Onion Architecture</a>.</p><p>In the above example you can clearly see&#58;</p><ul><li>The different layers of the Onion Architecture&#58; see 
       <a href="/do-you-know-the-layers-of-the-onion-architecture">Layers of the Onion Architecture</a></li><li>

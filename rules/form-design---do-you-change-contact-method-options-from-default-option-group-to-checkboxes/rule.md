@@ -13,7 +13,7 @@ authors:
 
 <span class='intro'> <dl class="badImage">
           <dt>
-            <img src="/PublishingImages/CRMContactMethods.jpg" alt="CRM contact methods" /></dt>
+            <img src="./CRMContactMethods.jpg" alt="CRM contact methods" /></dt>
           <dd>
             Figure&#58; Bad Example - By default CRM uses option group for contact's and account's
             contact methods.</dd>
@@ -36,7 +36,7 @@ authors:
           <li>Click &quot;Change Properties&quot;
             <dl class="image">
               <dt>
-                <img alt="CRM contact methods form design" src="/PublishingImages/CRMChangeContactMethodsFieldProperties.jpg" /></dt>
+                <img alt="CRM contact methods form design" src="./CRMChangeContactMethodsFieldProperties.jpg" /></dt>
               <dd>
                 Figure&#58; Select and change the email field's properties.</dd>
             </dl>
@@ -46,7 +46,7 @@ authors:
             formatting</li>
           <dl class="image">
             <dt>
-              <img alt="CRM email field properties" src="/PublishingImages/CRMChangeContactMethodsFieldProperties.jpg" /></dt>
+              <img alt="CRM email field properties" src="./CRMChangeContactMethodsFieldProperties.jpg" /></dt>
             <dd>
               Figure&#58; Change layout and control formatting of email field to one column type and
               check box.</dd>
@@ -56,7 +56,7 @@ authors:
         </ol>
         <dl class="goodImage">
           <dt>
-            <img alt="CRM contact methods with checkboxes" src="/PublishingImages/CRMContactMethodsWithCheckboxes.jpg" /></dt>
+            <img alt="CRM contact methods with checkboxes" src="./CRMContactMethodsWithCheckboxes.jpg" /></dt>
           <dd>
             Figure&#58; Good example - Checkboxes are used for contact methods because they're clear
             and simple.</dd>

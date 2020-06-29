@@ -23,7 +23,7 @@ authors:
    </dt><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Use the Control4 App​</dd><dd>
       <br>
    </dd><dd>Throw away your remote controls and move on to technological&#160;freedom!<br></dd><dl class="ssw15-rteElement-ImageArea">
-      <img src="/PublishingImages/Bad%20example%20C4.jpg" alt="Bad example C4.jpg" style="margin&#58;5px;width&#58;500px;height&#58;726px;" />
+      <img src="./Bad%20example%20C4.jpg" alt="Bad example C4.jpg" style="margin&#58;5px;width&#58;500px;height&#58;726px;" />
    </dl><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example, using any pysical remote control instead of the Control4 app.​<br></dd><p class="ssw15-rteElement-P">​​​<br></p><dl class="ssw15-rteElement-ImageArea">
       <img src="/SiteAssets/use-control4-app/boardroomac.jpg" alt="Good example C4.PNG" style="margin&#58;5px;width&#58;500px;height&#58;889px;" />
    </dl><dd class="ssw15-rteElement-FigureGood">Good Example&#58; Turning on the air conditioner using Control4<br></dd><dd>

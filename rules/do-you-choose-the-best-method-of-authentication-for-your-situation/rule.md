@@ -15,14 +15,14 @@ authors:
 
 
 
-<span class='intro'> <p>​​​Authentication and authorisation are complicated, and it is risky&#160;to try and implement it yourself.&#160; Use this rule for a guide on choosing the right service or framework for your situation.​​<br></p><dl class="image"><dt>​<img src="/PublishingImages/security-icon-ssw.jpg" alt="security-icon-ssw.jpg" style="width&#58;80px;height&#58;80px;" />​​<br></dt></dl> </span>
+<span class='intro'> <p>​​​Authentication and authorisation are complicated, and it is risky&#160;to try and implement it yourself.&#160; Use this rule for a guide on choosing the right service or framework for your situation.​​<br></p><dl class="image"><dt>​<img src="./security-icon-ssw.jpg" alt="security-icon-ssw.jpg" style="width&#58;80px;height&#58;80px;" />​​<br></dt></dl> </span>
 
 <p class="ssw15-rteElement-P">​​Choosing the right 
    <a href="https&#58;//www.youtube.com/watch?v=i0d9iTmWIOw">authentication and authorisation</a> approach for your situation can be tricky. It is a multi-facted problem with many variables, and what seems like the right choice in one situation may not be in the other.<br></p><h3 class="ssw15-rteElement-H3">Start with the Questions​​<br></h3><p class="ssw15-rteElement-P"></p><ol><li>Scope -&#160;Is it an enterprise application for internal user&#160;or a consumer application for external use?<br></li><li>Social - Do you need to support 
       <a href="https&#58;//oauth.net/2/">OAuth2</a>&#160;or 
       <a href="https&#58;//openid.net/connect/">OIDC</a>?<br></li><li>MFA - Do you need to support 
       <a href="https&#58;//en.wikipedia.org/wiki/Multi-factor_authentication">MFA</a>?<br></li><li>Scope - Do you need to share the identity across multiple applications?</li><li>Volume -&#160;Do you have an estimate for how many users you need to support?​</li></ol><p></p><p class="ssw15-rteElement-P">Without the answers to these questions, it will be difficult to choose the right option. With the answers to these questions, you can use the flow charts below to help you choose the right solution.<br></p><h3 class="ssw15-rteElement-H3"> External Applications<br></h3><dl class="image"><dt> 
-      <img src="/PublishingImages/Flow%20Chart%20-%20External.png" alt="Flow Chart - External.png" /> 
+      <img src="./Flow%20Chart%20-%20External.png" alt="Flow Chart - External.png" /> 
    </dt><dd>Figure&#58; WebAPI (Public facing/consumer Application) - Authentication selection flow chart<br></dd></dl><p class="ssw15-rteElement-P">
    <b>Example Template to Customer​&#58;</b><br></p><p class="ssw15-rteElement-GreyBox"> 
    <strong>Scenario&#58;</strong><br>Scope - You are building a consumer facing service that will have multiple clients, including a <a href="https&#58;//docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net">SPA​</a> and a mobile app. 
@@ -37,7 +37,7 @@ authors:
    <strong>Good Example&#58; The chosen solution meets the requirements and is highlighted as per <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=ba07b0d2-ccce-4584-a636-f3a5d9bec2cf">Do you manage up?​</a><strong></strong></strong></dd>
 <br> 
 <h3 class="ssw15-rteElement-H3"> Internal Applications<br></h3><dl class="image"><dt>
-      <img src="/PublishingImages/Flow%20Chart%20-%20Internal.png" alt="Flow Chart - Internal.png" />
+      <img src="./Flow%20Chart%20-%20Internal.png" alt="Flow Chart - Internal.png" />
    </dt><dd>Figure&#58; WebAPI (Internal Enterprise Application) - Authentication selection flow chart</dd></dl><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P">
    <strong>Example Template to Customer&#58;</strong><br></p><p class="ssw15-rteElement-GreyBox"> 
    <strong>Scenario&#58;</strong><br>Scope - You have an internal enterprise application, which will support approximately 1,000 users. 

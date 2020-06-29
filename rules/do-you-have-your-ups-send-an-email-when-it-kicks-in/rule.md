@@ -17,6 +17,6 @@ authors:
 
 <p>If you get your UPS to email you when an event occurs then you will have answers to these questions.<br>The problem is that there is no uniform software that will work with all UPS's as they all have their&#160;own&#160;format.<br>All UPS's come with management software that can perform these actions. You just&#160;need&#160;to install it. 
    <br></p><p>We use&#160;an MGE&#160;UPS so we use Personal Solution Pac which allows you to run script files on events. We just call a script file which will send us an email. 
-   <br></p><dl class="image"><dt><img src="/PublishingImages/MGEUPSSettings.gif" alt="MGEUPSSettings.gif" />​<br></dt></dl>
+   <br></p><dl class="image"><dt><img src="./MGEUPSSettings.gif" alt="MGEUPSSettings.gif" />​<br></dt></dl>
 
 

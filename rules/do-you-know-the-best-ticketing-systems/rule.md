@@ -17,7 +17,7 @@ authors:
    <a href="https&#58;//www.getapp.com/it-management-software/a/service-now-com/compare/zendesk/" target="_blank">getapp.com</a>.​​​<br></p> </span>
 
 <dl class="image"><dt>
-      <img src="/PublishingImages/comparison.png" alt="comparison.png" />
+      <img src="./comparison.png" alt="comparison.png" />
    </dt><dd>Figure&#58; Zendesk vs Service Now<br></dd></dl>
 
 

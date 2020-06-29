@@ -15,7 +15,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/CoverSlide.jpg" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="./CoverSlide.jpg" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good example – This is very clear that we are up to part 2 of the presentation </dd>
 </dl>
 

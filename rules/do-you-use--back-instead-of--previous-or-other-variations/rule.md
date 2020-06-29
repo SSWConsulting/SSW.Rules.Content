@@ -28,15 +28,15 @@ authors:
 </ol>
 <p>Below is an example of a Good&#160;&quot;&lt; Back&quot; link versus some Bad variations.</p>
 <dl class="goodImage">
-    <dt><img width="420" height="88" src="/PublishingImages/textboxeswithshowbutton.gif" alt="Good" /> </dt>
+    <dt><img width="420" height="88" src="./textboxeswithshowbutton.gif" alt="Good" /> </dt>
     <dd>Figure&#58; A Good example of a &quot;&lt; Back&quot; link </dd>
 </dl>
 <dl class="badImage">
-    <dt><img width="226" height="41" src="/PublishingImages/badpreviouslink.gif" alt="Bad" /> </dt>
+    <dt><img width="226" height="41" src="./badpreviouslink.gif" alt="Bad" /> </dt>
     <dd>Figure&#58; This is Bad because it says &quot;Previous&quot; instead of &quot;Back&quot; </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img width="154" height="40" src="/PublishingImages/badbacklink.gif" alt="Good" /> </dt>
+    <dt><img width="154" height="40" src="./badbacklink.gif" alt="Good" /> </dt>
     <dd>Figure&#58; This is bad because it has too many &quot;&lt;&quot;s or it has no space between the &quot;&lt;&quot; and the &quot;Back&quot; </dd>
 </dl>
 <p class="productBox">We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor" shape="rect">SSW Code Auditor</a> to check for this rule. </p>

@@ -31,7 +31,7 @@ authors: []
     <dt><img alt="Meeting without agenda" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MeetingNoAgenda.JPG" /> </dt>
     <dd>Figure&#58; Bad example - meeting with No Agenda </dd>
 </dl>
-<img class="ms-rteCustom-ImageArea" src="/PublishingImages/MeetingWithAgenda_1.jpg" alt="" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - meeting with Agenda </font>
+<img class="ms-rteCustom-ImageArea" src="./MeetingWithAgenda_1.jpg" alt="" /><font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example - meeting with Agenda </font>
 <p>Every Outlook appointment must have&#58;</p>
 <ol>
     <li>A good subject, to let attendees know the purpose of the meeting, see our rule <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f4073e2a-b089-4a7f-8ee6-a7b1a48509e8">Do you realize the importance of a good email Subject?</a> </li>

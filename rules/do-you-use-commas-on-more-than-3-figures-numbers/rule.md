@@ -16,11 +16,11 @@ authors:
 <span class='intro'> In numbers of more than 3​ digits,​ always&#160;use commas.​​&#160;This makes reading&#160;much easier. </span>
 
 <dl class="badImage"><dt> 
-      <img src="/PublishingImages/numbers-bad-example.png" alt="numbers-bad-example.png" /> 
+      <img src="./numbers-bad-example.png" alt="numbers-bad-example.png" /> 
    </dt><dd>Figure&#58; Bad example&#58; No commas make it harder to read </dd></dl>
 <dl class="goodImage">
    <dt> 
-      <img src="/PublishingImages/numbers-good-example.png" alt="numbers-good-example.png" /> 
+      <img src="./numbers-good-example.png" alt="numbers-good-example.png" /> 
    </dt><dd>Figure&#58; Good example&#58; Commas make it easier to read </dd></dl> <b>Note&#58;</b>&#160;Numbers which normally do&#160;not&#160;take commas are&#58;<p></p><ul><li>
       <span style="line-height&#58;1.6;">ZIP codes</span></li><li>
       <span style="line-height&#58;1.6;">Phone numbers</span></li><li>

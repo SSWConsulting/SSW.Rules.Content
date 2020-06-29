@@ -23,16 +23,16 @@ authors:
       <img src="/SiteAssets/make-sure-all-softwares-are-english/2016-3-22%2014-59-07.png" alt="" style="width&#58;750px;" />
    </dt><dd>Figure&#58; Good example - Chrome using English as its language setting</dd></dl><h3>How to fix on a PC?<br></h3><p>You want all screenshots you take to be showing English. Most of the time it is as simple as going Tools | Options | Language | Default Language = English (US).</p><p>In Chrome, you can follow these steps directly&#58;</p><ol><li>Three dots bar at the top right of the Chrome window&#58; 
       <p></p><dl class="image"><dt> ​ 
-            <img src="/PublishingImages/chroooome.jpg" alt="chroooome.jpg" style="margin&#58;5px;" /> 
+            <img src="./chroooome.jpg" alt="chroooome.jpg" style="margin&#58;5px;" /> 
             <br></dt><dd>Figure&#58; Blank Chrome page showing the 'Settings'&#160;button, 3 small dots</dd></dl></li><li>Click on Settings&#58; 
       <dl class="image"><dt>
-            <img src="/PublishingImages/ssw12.png" alt="ssw12.png" />
+            <img src="./ssw12.png" alt="ssw12.png" />
          </dt><dd>Figure&#58; Showing the 'Settings' page</dd></dl></li><li>Click on Advanced&#58; 
       <dl class="image"><dt>
-            <img src="/PublishingImages/ssw13.png" alt="ssw13.png" style="width&#58;750px;" />
+            <img src="./ssw13.png" alt="ssw13.png" style="width&#58;750px;" />
          </dt><dd>Figure&#58; Advanced tab in Settings</dd></dl></li><li>Click on 'Add Languages'&#58; 
       <dl class="image"><dt>
-            <img src="/PublishingImages/ssw14.png" alt="ssw14.png" style="width&#58;750px;" />
+            <img src="./ssw14.png" alt="ssw14.png" style="width&#58;750px;" />
          </dt><dd>Figure&#58; Add Languages to your current Chrome</dd></dl></li><li>Move English to the top 
       <dl class="image"><dt> 
             <img src="/SiteAssets/make-sure-all-software-uses-english/ChromeEnOnTop.png" alt="ChromeEnOnTop.png" style="margin&#58;5px;width&#58;746px;height&#58;468px;" /> 
@@ -44,7 +44,7 @@ authors:
       <dl class="image"><dt>
             <img src="/SiteAssets/make-sure-all-software-are-english/ssw1.png" alt="ssw1.png" style="width&#58;750px;" />
          </dt><dd> Figure&#58; Google page without an account</dd></dl><dl class="image"><dt>
-            <img src="/PublishingImages/ssw2.png" alt="ssw2.png" />
+            <img src="./ssw2.png" alt="ssw2.png" />
          </dt><dd>Figure&#58; Google page with an account</dd></dl></li><li>Search for 'Language'&#58; 
       <dl class="image"><dt>
             <img src="/SiteAssets/make-sure-all-software-uses-english/GoogleAccountSearch.png" alt="GoogleAccountSearch.png" style="margin&#58;5px;width&#58;753px;height&#58;132px;" /> 

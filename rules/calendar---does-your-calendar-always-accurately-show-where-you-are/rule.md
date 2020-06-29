@@ -21,6 +21,6 @@ authors:
    <strong>Step 3&#58;</strong> Allow calendar admins to have full access to your calendar<br>Read rule&#58; 
    <a href="/Pages/Allow-full-access-to-calendar-admins.aspx">Do you allow full access to Calendar Admins? </a> </p><p> 
    <strong>Step 4&#58;</strong> Send your leave appointments to a centralized leave calendar<br>Read rule&#58; 
-   <a href="/Pages/Inform-when-you-are-out-of-the-office-during-work-hours.aspx">Do you use a centralized leave calendar?</a><br></p><dl class="image"><dt><img src="/PublishingImages/calendar-accurately-show-where-you-are.jpg" alt="" style="width&#58;800px;" /></dt><dd>Figure&#58;&#160; Keep your calendar up-to-date and set to share, so people can always find where you are​<br></dd></dl>
+   <a href="/Pages/Inform-when-you-are-out-of-the-office-during-work-hours.aspx">Do you use a centralized leave calendar?</a><br></p><dl class="image"><dt><img src="./calendar-accurately-show-where-you-are.jpg" alt="" style="width&#58;800px;" /></dt><dd>Figure&#58;&#160; Keep your calendar up-to-date and set to share, so people can always find where you are​<br></dd></dl>
 
 
