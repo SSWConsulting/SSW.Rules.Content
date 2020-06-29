@@ -43,10 +43,10 @@ related: []
       <img src="/PublishingImages/paperboard.jpg" alt="paperboard.jpg" />
       <br>
    </dt><dd>Figure&#58; Paper whiteboards don't work when someone is in Sydney and the other attendee​​ is in Melbourne</dd></dl><p></p><h3 class="ssw15-rteElement-H3">#4 Whiteboard and marker - Low tech&#160;(ugly)&#160;<br></h3><p>The traditional whiteboard.<br></p><p>Quote from Adam Cogan (apparently not a fan of whiteboards in a tech office)&#58;<br></p><p class="ssw15-rteElement-Reference">I believe whiteboards are a sign of an old office… and they are ugly. They’re not a sign of a modern office.<br>Sometimes they are useful and I know some people really like them (generally older people).<br>I have seen the digital whiteboards (usually targeted at teachers) but I think they are horrible to use.<br>The common scenario is for a spec review. I am always happy when I see devs using their device and casting to the TV. And the subsequent notes get saved to Microsoft Teams.</p><dl class="image"><dt>
-      <img src="/SiteAssets/modern-alternatives-to-using-a-whiteboard/whiteboard_marker.png" alt="whiteboard_marker.png" style="width&#58;750px;height&#58;496px;" />
+      <img src="/SiteAssets/modern-alternatives-to-using-a-whiteboard/whiteboard_marker.png" alt="whiteboard_marker.png" style="width&#58;750px;height&#58;480px;" />
       <br>
    </dt><dd>Figure&#58; Whiteboards are not a sign of a modern office.​<br></dd></dl><h3 class="ssw15-rteElement-H3">#5 Writable wall -&#160;&#160;Low tech&#160;(ugly)<br></h3><p>Low tech&#160;(ugly) – Paint a wall to be writable or put some writable film on an office glass wall</p><dl class="image"><dt> 
-      <img src="/PublishingImages/writable-walls.jpg" alt="writable-walls.jpg" /> 
+      <img src="/SiteAssets/modern-alternatives-to-using-a-whiteboard/glass_wall.jpg" alt="writable-walls.jpg" style="width&#58;750px;height&#58;480px;" /> 
    </dt><dd>Figure&#58; Writable walls can be dirty even after cleaning up​<span style="color&#58;#444444;"> ​</span></dd></dl>
 
 
