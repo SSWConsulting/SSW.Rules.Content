@@ -18,11 +18,11 @@ To improve the performance, we can use jQuery&#160;plus CSS to&#160;show&#160;to
 
 
   <dl class="badImage">
-    <dt><img alt="Bad Example - redirect to a new page to view the detail" src="./ViewDetailGrid.jpg" /> </dt>
+    <dt><img alt="Bad Example - redirect to a new page to view the detail" src="ViewDetailGrid.jpg" /> </dt>
     <dd>Figure&#58; Bad Example - redirect to a new page to view the detail </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img alt="Good Example - show tooltip when mouse is over in the list" src="./ViewTooltipGrid.jpg" /> </dt>
+    <dt><img alt="Good Example - show tooltip when mouse is over in the list" src="ViewTooltipGrid.jpg" /> </dt>
     <dd>Figure&#58; Good Example - show tooltip when mouse is over in the list </dd>
 </dl>
 

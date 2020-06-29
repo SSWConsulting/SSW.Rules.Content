@@ -17,13 +17,13 @@ authors:
 </p> </span>
 
 <p>During a sprint it can be useful for&#58;</p><ul><li>The Product Owner to know who to speak to regarding a PBI<br></li><li>The Team to know who will be presenting the PBI at the Sprint Review</li></ul><p>In order to achieve this, one of the Team can choose to be the primary contact for the PBI.<br></p><p>Beware, this is intended for convenience and should not conflict with the following Scrum principal​s from page 6 of the&#160;<a href="/Pages/Scrumguide.aspx">Scrum Guide</a></p><ul><li>The Development team is self-organizing.</li><li>Accountability belongs to the development team as a whole&#160;​<br></li></ul><dl class="badImage"><dt> 
-      <img alt="image" src="./UserStoryOwner_Bad.png" />
+      <img alt="image" src="UserStoryOwner_Bad.png" />
    </dt><dd>Figure&#58; Bad example - The Product Owner is not sure who to speak to</dd></dl>
 <dl class="goodImage">​
    <dt> 
-      <img alt="image" src="./UserStoryOwner_Good.png" />
+      <img alt="image" src="UserStoryOwner_Good.png" />
    </dt><dd>Figure&#58; Good example - The Product Owner can now see who he should speak to and developers know where to send done emails</dd></dl><dl class="image"><dt> 
-      <img alt="TFS_Screenshot4.png" src="./TFS_Screenshot4.png" style="width&#58;750px;height&#58;437px;" /> 
+      <img alt="TFS_Screenshot4.png" src="TFS_Screenshot4.png" style="width&#58;750px;height&#58;437px;" /> 
    </dt><dd>Figure&#58; Use the 'Assigned To' column to identify who will be presenting the task​<br><br><br></dd></dl>
 
 

@@ -24,7 +24,7 @@ authors: []
 <p>Note&#58; Make sure you are ready for the review. Have a scribe and how you are demoing worked out before hand. </p>
 <p>The objective of the Review meeting is to have the story accepted quickly.<br>
 <br>
-<img src="./NewProductBacklog.jpg" alt="" /><br>
+<img src="NewProductBacklog.jpg" alt="" /><br>
 <font size="+0" class="ms-rteCustom-FigureNormal">Figure&#58; Out of the box the Microsoft Scrum Template supports a ‘Story Owner’ via the ‘Owned By’ field</font></p>
 
 

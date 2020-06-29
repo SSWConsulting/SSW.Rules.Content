@@ -15,18 +15,18 @@ authors:
  </span>
 
 
-  <img alt="" class="ms-rteCustom-ImageArea" src="./MixUpNames.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Mixed up names - some are good Display Name, some are essentially just the Account Name</font> (More here) <br>
+  <img alt="" class="ms-rteCustom-ImageArea" src="MixUpNames.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Mixed up names - some are good Display Name, some are essentially just the Account Name</font> (More here) <br>
 <ol>The easiest way to fix this requires someone with central administration access&#58;
     <li>Go to&#58; SharePoint Central Administration | Application Management | Service Applications | Manage Service applications <br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="./ServiceApplication.jpg" /></li>
+    <img alt="" class="ms-rteCustom-ImageArea" src="ServiceApplication.jpg" /></li>
     <li>Go to User Profile Service Application<br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="./UserProfileServiceApplication.jpg" /> </li>
+    <img alt="" class="ms-rteCustom-ImageArea" src="UserProfileServiceApplication.jpg" /> </li>
     <li>Go to Manage User Profiles <br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="./ManageUserProfiles.jpg" /> </li>
+    <img alt="" class="ms-rteCustom-ImageArea" src="ManageUserProfiles.jpg" /> </li>
     <li>Find the user profile that you want to update <br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="./FindUserProfile.jpg" /></li>
+    <img alt="" class="ms-rteCustom-ImageArea" src="FindUserProfile.jpg" /></li>
     <li>Fix the Name field (Display name)<br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="./FixNameField.jpg" />&#160;</li>
+    <img alt="" class="ms-rteCustom-ImageArea" src="FixNameField.jpg" />&#160;</li>
     <li>Save</li>
 </ol>
 <p>Better way<br>

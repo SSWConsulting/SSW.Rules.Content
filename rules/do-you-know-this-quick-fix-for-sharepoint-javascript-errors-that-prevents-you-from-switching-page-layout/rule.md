@@ -17,7 +17,7 @@ authors:
 
   <ol>
     <li>Your content editor is trying to change page layout via the Ribbon in SharePoint 2010 <br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="./PagelayoutInRibbon.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Click Page Layout in the Ribbon</font> </li>
+    <img alt="" class="ms-rteCustom-ImageArea" src="PagelayoutInRibbon.jpg" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Click Page Layout in the Ribbon</font> </li>
     <li>But they get a JavaScript error<br>
     <p>Webpage error details<br>
     <br>
@@ -34,9 +34,9 @@ authors:
 A very quick fix that can be applied by a site owner is&#58;<br>
 <ol>
     <li>Site Settings | Look and Feel | Page layouts and site templates&#160; </li>
-    <li>Restrict the valid number of page layouts that can be used, instead of allowing &quot;Pages in this site can use any layout&quot;<img alt="" class="ms-rteCustom-ImageArea" src="./RestrictedPageLayout.jpg" /><font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Restrict valid page layouts </font></li>
+    <li>Restrict the valid number of page layouts that can be used, instead of allowing &quot;Pages in this site can use any layout&quot;<img alt="" class="ms-rteCustom-ImageArea" src="RestrictedPageLayout.jpg" /><font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Restrict valid page layouts </font></li>
     <li>This fixes the Ribbon menu<br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="./RibbonMenu01.jpg" /><font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Ribbon menu fixed!</font> </li>
+    <img alt="" class="ms-rteCustom-ImageArea" src="RibbonMenu01.jpg" /><font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Ribbon menu fixed!</font> </li>
     <li>Tell your sys admin that there are broken packages in SharePoint and must be fixed ASAP </li>
 </ol>
 

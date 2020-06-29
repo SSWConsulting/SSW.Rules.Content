@@ -20,11 +20,11 @@ authors:
 
 <p>​​<span style="color&#58;#cc4141;font-family&#58;&quot;segoe ui&quot;, &quot;trebuchet ms&quot;, tahoma, arial, verdana, sans-serif;font-size&#58;18px;">iPhone</span></p><ol><li>Open the&#160;<strong>Settings</strong>&#160;app</li><li>Navigate to&#160;<strong>General | About</strong></li><li>Look for&#160;<strong>WiFi Address<br>
          <dl class="image"><dt>
-               <img src="./iphone-mac.png" alt="iphone-mac.png" style="margin&#58;5px;" />
+               <img src="iphone-mac.png" alt="iphone-mac.png" style="margin&#58;5px;" />
             </dt></dl></strong></li>
    <strong></strong></ol><h3>Android Phone<br></h3><ol><li>On the Home screen, tap the&#160;Menu&#160;button and go to<strong>&#160;</strong><strong>Settings</strong></li><li>Tap&#160;<strong></strong><strong>About Phone</strong><br></li><li>Tap&#160;<strong></strong><strong>Status/Hardware information</strong><br></li><li>Scroll down to see your<strong>&#160;</strong><strong>WiFi/MAC address<br>
          <dl class="image"><dt>
-               <img src="./android-mac-address.jpg" alt="android-mac-address.jpg" style="margin&#58;5px;" />​<br></dt></dl></strong></li>
+               <img src="android-mac-address.jpg" alt="android-mac-address.jpg" style="margin&#58;5px;" />​<br></dt></dl></strong></li>
    <strong></strong></ol><h3 style="text-decoration&#58;line-through;">Windows Phone</h3><ol style="text-decoration&#58;line-through;"><li>From the Windows Phone home screen, swipe left to reveal more icons. Then, scroll down and tap<strong>&#160;</strong><strong>Settings</strong></li><li>Scroll down and tap&#160;<strong></strong><strong>About</strong><br></li><li>In the&#160;<strong></strong><strong>About</strong><strong>&#160;</strong>screen, tap<strong>&#160;M</strong><strong>ore info​</strong></li></ol><br>
 
 

@@ -21,6 +21,6 @@ authors:
 <li>Does the webpage look legitimate (not just thrown together)? </li>
 <li>Is the &quot;Contact Us&quot; address and/or phone number the same as the one they provided? </li>
 </ul>
-<p><img src="./Wanted-Poster.jpg" alt="Wanted-Poster.jpg" style="margin&#58;5px;width&#58;300px;height&#58;390px;" /><br></p><dd class="ssw15-rteElement-FigureNormal">​​​​​Figure&#58; Make sure you know who you're going into business with​<br><br></dd><p>With this information you can then rank them from &quot;Not a Risk&quot; all the way up to &quot;Huge Risk&quot; (the kind with neon flashing lights and all) and decide whether or not to go ahead with the business deal.</p>
+<p><img src="Wanted-Poster.jpg" alt="Wanted-Poster.jpg" style="margin&#58;5px;width&#58;300px;height&#58;390px;" /><br></p><dd class="ssw15-rteElement-FigureNormal">​​​​​Figure&#58; Make sure you know who you're going into business with​<br><br></dd><p>With this information you can then rank them from &quot;Not a Risk&quot; all the way up to &quot;Huge Risk&quot; (the kind with neon flashing lights and all) and decide whether or not to go ahead with the business deal.</p>
 
 

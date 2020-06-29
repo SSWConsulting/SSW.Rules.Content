@@ -17,9 +17,9 @@ authors:
                     instead of user name for the sign in page.</p> </span>
 
 <p class="ssw15-rteElement-Reference"> &quot;I do recommend letting users enter their email address instead of a user ID&#58; It's guaranteed to be unique and it is easy to remember.&quot;</p><p> <strong>Jakob Nielsen</strong>,<b>&#160;</b><span style="line-height&#58;20px;">Ph.D. and Principal at Nielsen Norman Group</span><span style="line-height&#58;20px;">​</span></p><dl class="badImage"><dt> 
-      <img src="./bad-username.jpg" alt="" />
+      <img src="bad-username.jpg" alt="" />
    </dt><dd> Figure&#58; Bad example - users have to remember which username applies to this particular website</dd></dl><dl class="goodImage"><dt> 
-      <img src="./good-email.jpg" alt="" />
+      <img src="good-email.jpg" alt="" />
    </dt><dd> Figure&#58; Good example - users will always remember their primary email address​</dd></dl>
 
 

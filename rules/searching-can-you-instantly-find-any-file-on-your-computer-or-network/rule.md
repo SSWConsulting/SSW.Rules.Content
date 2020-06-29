@@ -15,8 +15,7 @@ authors:
 <br> </span>
 
 <p>Using 
-
-      <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Redirect/MSNSearch.htm" target="_blank">MSN Desktop Search</a>​ ​​will allow you to instantly search for a name and find all correspondence with that person. Even if there has been no contact for 6 months, you can resume the discussion as if it were yesterday.</p><p>Of course i<font size="2">f you are using Windows 8,&#160;Windows 7, or Windows&#160;Vista, desktop search is integrated within the operating system.</font></p><p>Follow our standard on 
-   <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/DeveloperInstallationNetworkSetup/DesktopSearch.aspx">setting up Enterprise Search</a>.</p>
+<a shape="rect" href="http://www.ssw.com.au/ssw/Redirect/MSNSearch.htm" target="_blank">MSN Desktop Search</a>​ ​​will allow you to instantly search for a name and find all correspondence with that person. Even if there has been no contact for 6 months, you can resume the discussion as if it were yesterday.</p><p>Of course i<font size="2">f you are using Windows 8,&#160;Windows 7, or Windows&#160;Vista, desktop search is integrated within the operating system.</font></p><p>Follow our standard on 
+  <a shape="rect" href="http://www.ssw.com.au/ssw/Standards/DeveloperInstallationNetworkSetup/DesktopSearch.aspx">setting up Enterprise Search</a>.</p>
 
 

@@ -24,7 +24,7 @@ Here are the things you should also physically carry&#58;
 <table width="20%" align="right" id="Table9">
     <tbody>
         <tr>
-            <td><img class="ms-rteCustom-ImageArea" alt="Carry the right tools and you'll rescue someone, one day..." src="./StBernardDog.jpg" border="0" style="border&#58;0px solid currentcolor;width&#58;200px;height&#58;162px;" /> </td>
+            <td><img class="ms-rteCustom-ImageArea" alt="Carry the right tools and you'll rescue someone, one day..." src="StBernardDog.jpg" border="0" style="border&#58;0px solid currentcolor;width&#58;200px;height&#58;162px;" /> </td>
         </tr>
         <tr>
             <td><span class="ms-rteCustom-FigureNormal">Figure&#58; St. Bernards are known for rescuing lost mountaineers, bringing life saving provisions</span></td>

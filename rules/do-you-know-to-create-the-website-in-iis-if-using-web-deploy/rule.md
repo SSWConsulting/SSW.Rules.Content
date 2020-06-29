@@ -15,7 +15,7 @@ authors:
 
 <p>Always create the site before deploying to it, so that you can specify the exactly the settings that you desire. E.g. the directory where you want the files for the site to be saved, the app pool to use and the version of .Net.</p>
 <br>
-<dl class="image"><dt><img src="./create-iis.jpg" alt="" /></dt>
+<dl class="image"><dt><img src="create-iis.jpg" alt="" /></dt>
    <dd>Figure&#58; Create the website in IIS</dd></dl> 
 <br>
 

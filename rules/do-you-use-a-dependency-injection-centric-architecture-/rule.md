@@ -13,7 +13,7 @@ authors:
 
 
 
-<span class='intro'> <img class="ms-rteCustom-ImageArea" alt="inject" src="./dependency-injection-bad.jpg" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example – N-Tiered architectures do not inherently support dependency injection</span> <img class="ms-rteCustom-ImageArea" alt="inject" src="./dependency-injection-good.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – The Onion Architecture promotes layers built on interfaces, and then injecting dependencies into those layers. This keeps coupling low, and therefore maintainability high</span>  </span>
+<span class='intro'> <img class="ms-rteCustom-ImageArea" alt="inject" src="dependency-injection-bad.jpg" /> <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example – N-Tiered architectures do not inherently support dependency injection</span> <img class="ms-rteCustom-ImageArea" alt="inject" src="dependency-injection-good.jpg" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – The Onion Architecture promotes layers built on interfaces, and then injecting dependencies into those layers. This keeps coupling low, and therefore maintainability high</span>  </span>
 
 <p>The classes in each layer can depend on layers toward the centre.</p><p>It emphasizes the use of interfaces for the business logic and repository layers. The repository layer corresponds to the Data Access layer in an n-Tier architecture.</p><p>An n-Tier architecture has at its base the database.<br>The core of the onion architecture is the Domain Model, and all dependencies are injected. This leads to more ​maintainable applications since it emphasizes separation of concerns.</p>
 <h4> Further Reading&#58; </h4><ul><li>

@@ -16,7 +16,7 @@ authors:
 <span class='intro'> In every Windows application project, we need to have a main, start-up or wizard page<span lang="EN-US" style="font-size&#58;11pt;font-family&#58;'calibri','sans-serif';"> </span> form for a better structure and design.
  </span>
 
-  <img src="./BadMainForm.gif" alt="Bad Project without Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img src="./GoodMainForm.gif" alt="Good with Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
+  <img src="BadMainForm.gif" alt="Bad Project without Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img src="GoodMainForm.gif" alt="Good with Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
 <table summary="Code Auditor" class="clsSSWProductTable">
     <tbody>
         <tr>

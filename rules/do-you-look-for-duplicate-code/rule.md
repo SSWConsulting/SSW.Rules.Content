@@ -114,7 +114,7 @@ public ActionResult Details(int id = 0)
 &#125;
 </pre></span><div class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - The repeated code has been refactored into its own method.</div>
 <p><strong>Tip&#58; </strong>The Refactor menu in Visual Studio 11 can do this refactoring for you.</p>
-<img alt="vs_refactor_extract.png" src="./vs_refactor_extract.png" class="ms-rteCustom-ImageArea" />
+<img alt="vs_refactor_extract.png" src="vs_refactor_extract.png" class="ms-rteCustom-ImageArea" />
 <span class="ssw-rteStyle-FigureNormal">Figure&#58; The Extract Method function in Visual Studio's Refactor menu.</span>
 
 

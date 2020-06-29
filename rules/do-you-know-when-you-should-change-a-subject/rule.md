@@ -22,6 +22,6 @@ authors:
       <strong>&quot;Invoice&quot;</strong><br> to 
       <strong>&quot;IBM WAS&#58; Invoice&quot;</strong></li></ul><p>Remember, never forget the 
    <span>
-      <a title="Realize the Importance of a Good Email Subject" href="/Pages/ImportanceOfAGoodSubject.aspx">importance of a good email subject</a></span> in improving communications.</p><dl class="image"><dt><img src="./SarahPalin.jpg" alt="" /></dt><dd>Figure&#58; Keep your email subject description up-to-date. Sarah Palin isn’t even a governor anymore</dd></dl>​ 
+      <a title="Realize the Importance of a Good Email Subject" href="/Pages/ImportanceOfAGoodSubject.aspx">importance of a good email subject</a></span> in improving communications.</p><dl class="image"><dt><img src="SarahPalin.jpg" alt="" /></dt><dd>Figure&#58; Keep your email subject description up-to-date. Sarah Palin isn’t even a governor anymore</dd></dl>​ 
 
 

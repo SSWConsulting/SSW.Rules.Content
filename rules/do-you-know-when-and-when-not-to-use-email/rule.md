@@ -15,7 +15,7 @@ authors:
 
 <span class='intro'> As all these rules indicate, email can either be a blessing or a curse. One of the most deadly of all the potential curses of email is when people choose to use email when it is just not the right tool for that particular task. Absolutely avoid email in the following situations&#58;  </span>
 
-<img class="ms-rteCustom-ImageArea" alt="Meta Group Phone Over Email" src="./MetaGroupPhoneOverEmail.gif" /> <img class="ms-rteCustom-ImageArea" alt="Meta Group Email Over Phone" src="./MetaGroupEmailOverPhone.gif" /><br><strong>Figures&#58; a <img alt="Icon PDF" src="http&#58;//www.ssw.com.au/ssw/Images/IconPdf.gif" width="16" height="17" /> <a class="ms-rteCustom-External" href="http&#58;//www.ssw.com.au/ssw/Redirect/SSWUpdate/0304MetagroupUsersPreferEmailPDFReport.htm" shape="rect" target="_blank">Meta Group survey</a>&#160;found that 81% of respondents preferred the phone above email to build relationships, but 80% preferred email&#160;generally</strong> <ol><li>When you want to discuss an issue and make a decision </li>
+<img class="ms-rteCustom-ImageArea" alt="Meta Group Phone Over Email" src="MetaGroupPhoneOverEmail.gif" /> <img class="ms-rteCustom-ImageArea" alt="Meta Group Email Over Phone" src="MetaGroupEmailOverPhone.gif" /><br><strong>Figures&#58; a <img alt="Icon PDF" src="http&#58;//www.ssw.com.au/ssw/Images/IconPdf.gif" width="16" height="17" /> <a class="ms-rteCustom-External" href="http&#58;//www.ssw.com.au/ssw/Redirect/SSWUpdate/0304MetagroupUsersPreferEmailPDFReport.htm" shape="rect" target="_blank">Meta Group survey</a>&#160;found that 81% of respondents preferred the phone above email to build relationships, but 80% preferred email&#160;generally</strong> <ol><li>When you want to discuss an issue and make a decision </li>
 <li>When you are dealing with a 'delicate' problem </li></ol>
 <p><strong>Making a Decision</strong> </p>
 <p>If you want to make a decision, asking for opinions via email is the best way to ensure one isn't made. Email discussions get off topic, lose track and generally go nowhere, with every email ending with &quot;Yes, but what about...&quot; or &quot;Just my 2c&quot;. This leads to a lot of time-wasting. </p>
@@ -27,6 +27,6 @@ authors:
 <li>Call the person covering every issue outlined in the draft </li>
 <li>Adjust the email according to the decisions made together, adding &quot;<a id="PerConversation" href="/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx" shape="rect">As per our conversation...</a>&quot; </li>
 <li>Send the email </li></ul>
-This way you can review issues together, and, importantly, decisions are confirmed in writing. <p><img class="ms-rteCustom-ImageArea" alt="Don't shoot people!" src="./pic38-KeepDrasticThingsForImportantThings.gif" /> <br><strong class="ms-rteCustom-FigureNormal">Figure&#58; Are you in the right frame of mind?</strong> </p>
+This way you can review issues together, and, importantly, decisions are confirmed in writing. <p><img class="ms-rteCustom-ImageArea" alt="Don't shoot people!" src="pic38-KeepDrasticThingsForImportantThings.gif" /> <br><strong class="ms-rteCustom-FigureNormal">Figure&#58; Are you in the right frame of mind?</strong> </p>
 
 

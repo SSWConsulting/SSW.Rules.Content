@@ -16,7 +16,7 @@ authors:
 <span class='intro'> 
   <p>In ASP.NET deployment is a simple xcopy. Or you can&#160;right click the Web Site project and &#160;&quot;Publish Web Site&quot; in Visual Studio. </p>
 <dl class="goodImage">
-    <dt><img src="./PublishWebSite.png" alt="" /> </dt>
+    <dt><img src="PublishWebSite.png" alt="" /> </dt>
     <dd>Fugure&#58; Publish Web Site in Visual Studio </dd>
 </dl>
 <p>&#160;</p>

@@ -31,7 +31,7 @@ authors:
         </p>
         <dl class="image">
           <dt>
-            <img src="./CRM_CUS_01.JPG" alt="Import single customization" />
+            <img src="CRM_CUS_01.JPG" alt="Import single customization" />
           </dt>
           <dd>
             Figure&#58; You can select the single customization to import

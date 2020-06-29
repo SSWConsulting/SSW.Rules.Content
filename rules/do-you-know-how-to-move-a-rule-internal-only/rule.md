@@ -18,15 +18,15 @@ authors:
 
 <ol style="text-decoration&#58;line-through;"><li>​Click on &quot;Site Settings&quot;&#58; 
       <dl class="image" style="text-decoration&#58;line-through;"><dt>
-            <img src="./site-settings.png" alt="site-settings.png" style="width&#58;259px;" />​ </dt><dd>Figure&#58; Make sure you are logged in and click on &quot;Site Settings&quot;</dd></dl></li><li>Under &quot;Site Administration&quot;, click on &quot;Content and structure&quot;&#58; 
+            <img src="site-settings.png" alt="site-settings.png" style="width&#58;259px;" />​ </dt><dd>Figure&#58; Make sure you are logged in and click on &quot;Site Settings&quot;</dd></dl></li><li>Under &quot;Site Administration&quot;, click on &quot;Content and structure&quot;&#58; 
       <dl class="image" style="text-decoration&#58;line-through;"><dt>
-            <img src="./content-structure.png" alt="content-structure.png" style="width&#58;259px;" />
+            <img src="content-structure.png" alt="content-structure.png" style="width&#58;259px;" />
          </dt><dd>Figure&#58;&#160;Go to &quot;Content and structure&quot;</dd></dl></li><li>Navigate on the categories and pages to find the rule you want to move&#58; 
       <dl class="image" style="text-decoration&#58;line-through;"><dt>
-            <img src="./move-rule.png" alt="move-rule.png" style="width&#58;550px;" />
+            <img src="move-rule.png" alt="move-rule.png" style="width&#58;550px;" />
          </dt><dd>Figure&#58; Find the rule to be moved and click on the small arrow beside it, then click on &quot;Move...&quot;</dd></dl></li><li>Select the new location where the rule should be&#58; 
       <dl class="image" style="text-decoration&#58;line-through;"><dt>
-            <img src="./select-new-place.png" alt="select-new-place.png" style="width&#58;459px;" />
+            <img src="select-new-place.png" alt="select-new-place.png" style="width&#58;459px;" />
          </dt><dd>Figure&#58; Navigate through categories and click on the place the rule should be moved to​ and click &quot;OK&quot;</dd></dl></li></ol>​
 
 

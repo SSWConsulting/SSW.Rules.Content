@@ -14,20 +14,20 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="not follow SSW brand" src="./bad_cover.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="not follow SSW brand" src="bad_cover.gif" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Not using the corporate template (in this case not SSW) </dd>
 </dl>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="SSW PowerPoint Template" src="./good_cover.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="SSW PowerPoint Template" src="good_cover.jpg" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - That's a mighty fine looking template you got there </dd>
 </dl>
 <p><b>More Information&#58;</b></p>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="./noTemplate.jpg" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="noTemplate.jpg" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - No template applied to the file </dd>
 </dl>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Find SSW template from My template" src="./templateApplied02.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="Find SSW template from My template" src="templateApplied02.gif" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Find the template when creating a new presentation file </dd>
 </dl>
 

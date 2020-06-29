@@ -25,16 +25,16 @@ Let's look at an example&#58;
  </span>
 
 <p>&#160;We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.</p><dl class="image"><dt> 
-      <img src="./TableBit.jpg" alt="" />
+      <img src="TableBit.jpg" alt="" />
    </dt><dd>Figure&#58; Anything wrong this Gender column?&#160; </dd></dl> Later you learn you need to change the data type to char(2) to support 'M', 'F', 'T', 'NA' and 'U' 
 <dl class="image"><dt> 
-      <img src="./CasterSemenya.jpg" alt="" />
+      <img src="CasterSemenya.jpg" alt="" />
    </dt><dd>Figure&#58; Caster Semenya has taught us a thing or two about the right data type for Gender </dd></dl> The data then must be migrated to the new data type this way&#58; 
 <ol><li>Rename 'Gender' to 'ztGender' * </li><li>Add a new column 'Gender' with type char(2) </li><li>Insert the existing data from 'ztGender' to 'Gender' (map 0 to 'F' and 1 to 'M') </li><li>Delete the column ztGender* </li></ol> *Note&#58; zt stands for Temporary 
 <dl class="image"><dt> 
-      <img src="./TableChar.jpg" alt="" />
+      <img src="TableChar.jpg" alt="" />
    </dt><dd>Figure&#58; Changing the data type and data required a&#160;<a href="/Pages/DoYouHaveAnUnderstandingOfSchemaChangesAndTheirIncreasingComplexity.aspx" shape="rect">&quot;Data Motion Script&quot;</a> </dd></dl><p>Visual Studio&#160;does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.</p><dl class="image"><dt>
-      <img src="./DataDude-BadExample.jpg" alt="" />
+      <img src="DataDude-BadExample.jpg" alt="" />
    </dt><dd>Figure&#58; Don't use Data Dude</dd></dl><p>note&#58; In order to achieve this you MUST use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost. </p><p>There are few options available to perform data type change correctly&#58;</p><ol style="list-style-position&#58;outside;"><ol><ol><li style="list-style-position&#58;outside;"> 
             <strong>​​​​​Use manua​l scripts.</strong> All data type changes including data migration can be performed by writing scripts manualy. This way you have full control over the change. It is recommended to use 
             <a href="http&#58;//sqldeploy.com/">SQLDeploy</a> or 

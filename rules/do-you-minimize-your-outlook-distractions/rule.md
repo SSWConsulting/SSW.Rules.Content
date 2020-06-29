@@ -17,9 +17,9 @@ authors:
 <br> </span>
 
 <dl class="goodImage"><dt>
-      <img alt="OutlookDistractions.png" src="./OutlookDistractions.png" style="width&#58;750px;" />
+      <img alt="OutlookDistractions.png" src="OutlookDistractions.png" style="width&#58;750px;" />
    </dt><dd>Figure&#58;&#160;Good Example - Turn off Outlook distractions on Windows​<br></dd></dl><dl class="goodImage"><dt>
-      <img src="./minimize-outlook-distractions-mac.jpg" alt="minimize-outlook-distractions-mac.jpg" style="width&#58;750px;" />
+      <img src="minimize-outlook-distractions-mac.jpg" alt="minimize-outlook-distractions-mac.jpg" style="width&#58;750px;" />
    </dt><dd>Figure&#58;&#160;Good Example - Turn off Outlook distractions on a Mac<br></dd></dl><ul><li>Doesn't play a sound</li><li>Doesn't briefly change the mouse cursor</li><li>Doesn't show an envelope</li><li>and DOESN'T display a New Mail Desktop Alert</li></ul><p>Here are&#160;a few more distractions tips&#58;</p><ul><li>
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=ab17d85c-5ee1-44a9-8433-200bd5771337">Minimize Teams&#160;distractions​</a><br></li><li> 
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=6650d51f-dc2c-47d4-a779-2dc4f8a3c8c9" shape="rect">Minimize Skype distractions</a> </li><li>

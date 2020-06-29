@@ -42,6 +42,6 @@ authors:
     &#125;
 &#125;
 </pre></div><br>
-      <img src="./startup-task.jpg" alt="" /> </dt><dd>Figure&#58; Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder​<br><br></dd></dl>
+      <img src="startup-task.jpg" alt="" /> </dt><dd>Figure&#58; Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder​<br><br></dd></dl>
 
 

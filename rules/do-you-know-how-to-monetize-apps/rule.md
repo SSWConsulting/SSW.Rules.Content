@@ -26,10 +26,10 @@ authors:
 </p><dl class="image"><dt><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"> 
    <iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/fKK9nVLvhGM" frameborder="0"></iframe>&#160;</div></dt></dl>​
 <dl class="image"><dt>
-      <img src="./how-to-monetize.png" alt="how-to-monetize.png" /> 
+      <img src="how-to-monetize.png" alt="how-to-monetize.png" /> 
    </dt><dd>Figure&#58; some apps charge more based on the device you are using<br></dd></dl><dl class="image">​ 
    <dt> 
-      <img src="./how-to-monetize-2.png" alt="how-to-monetize-2.png" /> 
+      <img src="how-to-monetize-2.png" alt="how-to-monetize-2.png" /> 
    </dt><dd>Figure&#58; know app developers make most of their in-app purchases from the whales &#128051;</dd></dl>
 
 

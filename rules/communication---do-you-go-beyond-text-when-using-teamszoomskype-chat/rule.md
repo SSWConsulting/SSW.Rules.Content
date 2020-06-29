@@ -15,7 +15,7 @@ authors:
 
 
 
-<span class='intro'> <p>Communication can be difficult &#160;(even if English is your first language!).&#160;It might be tempting to only communicate via IM, but this will not improve your skills or build a relationship as well as communicating verbally.​​<br></p><dd class="ssw15-rteElement-FigureBad">Stop&#58; Just using&#160;text in IM<br></dd><dd class="ssw15-rteElement-FigureGood">Start&#58; Asking ‘Can I call you?’ (Especially for complicated conversations)<br></dd><dl class="image"><dt> <img src="./skype-conference.jpg" alt="skype-conference.jpg" /> <br>
+<span class='intro'> <p>Communication can be difficult &#160;(even if English is your first language!).&#160;It might be tempting to only communicate via IM, but this will not improve your skills or build a relationship as well as communicating verbally.​​<br></p><dd class="ssw15-rteElement-FigureBad">Stop&#58; Just using&#160;text in IM<br></dd><dd class="ssw15-rteElement-FigureGood">Start&#58; Asking ‘Can I call you?’ (Especially for complicated conversations)<br></dd><dl class="image"><dt> <img src="skype-conference.jpg" alt="skype-conference.jpg" /> <br>
    </dt><dd>Figure&#58; A group call should look like this <br></dd></dl><p>Here are some tips to have a better call&#58;​<br></p> </span>
 
 <ul><li>Try to always answe<span style="color&#58;#444444;">r the call with video&#160;(if weak bandwidth,&#160;use it for the first 10 seconds and say &quot;I'll turn off video to save bandwidth&quot;).</span><br></li><li> 

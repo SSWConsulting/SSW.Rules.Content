@@ -26,7 +26,7 @@ authors:
       <b>RulestoBetterWebsiteLayouts.aspx</b></li><li>Underscores between words&#58; 
       <b>rules_to_better_website_layouts.aspx</b></li><li>Lower case for all words&#58; 
       <b>rulestobetterwebsitelayouts.aspx</b></li></ol><h3>More info​</h3><p>You can install the IIS <a href="http&#58;//learn.iis.net/page.aspx/460/using-the-url-rewrite-module/">URL Rewrite Module</a> for IIS7 you can make ugly URL's much more friendly.</p><dl class="image"><dt>
-                        <img src="./friendly-url-rule.jpg" alt="Rewrite the HTML" /></dt><dd>Figure&#58; Rewrite both the HTML in the page and the incoming URL's to be friendly </dd></dl><p>
+                        <img src="friendly-url-rule.jpg" alt="Rewrite the HTML" /></dt><dd>Figure&#58; Rewrite both the HTML in the page and the incoming URL's to be friendly </dd></dl><p>
                The caveat here is that it will only work if the URL is in the clear on the page.</p><p class="ssw15-rteElement-P">
                 <b>Note&#58; </b>This could only be done with certain links as others are postbacks as well.
               </p>

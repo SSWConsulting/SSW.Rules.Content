@@ -17,7 +17,7 @@ authors:
  </span>
 
 ​<dl class="image"><dt> 
-      <img src="./outlook-spelling.png" alt="outlook-spelling.png" />
+      <img src="outlook-spelling.png" alt="outlook-spelling.png" />
    </dt><dd>Figure&#58; You should also check “Always check spelling before sending” to ensure your message doesn't have mistakes<br> </dd></dl>
 
 

@@ -19,30 +19,30 @@ authors:
       <br>The first&#160;time - use 
       <strong>Advanced Find</strong> in CRM 2013, then save it as a System View. In the example&#160;below, we're only interested in New Zealand contacts.<br><span style="line-height&#58;21px;">Subsequent times -&#160;Use the&#160;</span><span style="line-height&#58;21px;"><strong>System View</strong></span><span style="line-height&#58;21px;">, so everyone is using&#160;</span><span style="line-height&#58;21px;">the same list</span><span style="line-height&#58;21px;">.</span><span style="line-height&#58;21px;"> </span>
       <br></li><dl class="image"><dt> 
-         <img src="./crm01.png" alt="crm01.png" style="width&#58;600px;" /> 
+         <img src="crm01.png" alt="crm01.png" style="width&#58;600px;" /> 
       </dt><dd>Figure&#58; From the CRM home screen, hover your mouse over “Workplace”, and then click “Contacts” in the menu that drops down</dd></dl><dl class="image"><dt> 
-         <img src="./crm02.png" alt="crm02.png" style="width&#58;600px;height&#58;147px;" /> 
+         <img src="crm02.png" alt="crm02.png" style="width&#58;600px;height&#58;147px;" /> 
       </dt><dd>Figure&#58; From the “Activities” page, click “…” | “Advanced Find”. This will activate a pop-up.</dd></dl><dl class="image"><dt> 
-         <img src="./crm03.png" alt="crm03.png" style="margin&#58;0px;width&#58;600px;height&#58;327px;" /> 
+         <img src="crm03.png" alt="crm03.png" style="margin&#58;0px;width&#58;600px;height&#58;327px;" /> 
       </dt><dd>Figure&#58; Select Contacts at Look For and specify a set of criteria to search for newsletter contacts<br></dd></dl>
          <dl class="image"><dt> 
-               <img src="./crm04%20-%20results.png" alt="crm04 - results.png" style="width&#58;600px;height&#58;192px;" /> 
+               <img src="crm04%20-%20results.png" alt="crm04 - results.png" style="width&#58;600px;height&#58;192px;" /> 
             </dt><dd>Figure&#58; then select &quot;Results&quot; to bring up contacts which match your search query</dd></dl><dl class="image"><dt> 
-               <img src="./crm05%20-%20contacts%20list.png" alt="crm05 - contacts list.png" style="width&#58;600px;height&#58;438px;" /> 
+               <img src="crm05%20-%20contacts%20list.png" alt="crm05 - contacts list.png" style="width&#58;600px;height&#58;438px;" /> 
             </dt><dd>Figure&#58; The result contacts that will get newsletter&#58; these contacts allow us to &quot;Send Marketing Material&quot; and have a New Zealand email address or living country is New Zealand<br></dd></dl><li>​First time only, save this as a System View. You will need a SysAdmin for this.</li><li>Create the newsletter in Microsoft CRM 2013 using a 
             <strong>Quick Campaign</strong>
             <dl class="image"><dt> 
-                  <img src="./crm06%20-%20create%20quick%20campaign.png" alt="Create Quick Campaign" style="width&#58;600px;height&#58;438px;" /> 
+                  <img src="crm06%20-%20create%20quick%20campaign.png" alt="Create Quick Campaign" style="width&#58;600px;height&#58;438px;" /> 
                </dt><dd>Figure&#58; Select &quot;For All Records on All Pages&quot; to create a Quick Campaign from the current contact list. This will bring up a Quick Campaign Wizard<br></dd></dl></li><dl class="image"><dt> 
-               <img src="./crm07%20-%20name%20quick%20campaign.png" alt="Specify name of quick campaign" style="width&#58;600px;height&#58;438px;" /> 
+               <img src="crm07%20-%20name%20quick%20campaign.png" alt="Specify name of quick campaign" style="width&#58;600px;height&#58;438px;" /> 
             </dt><dd>Figure&#58; Click Next and then specify the name of the quick campaign.</dd></dl><dl class="image"><dt> 
-               <img src="./crm08-%20own%20quick%20campaign.png" alt="Select the Activity Type and Owner" style="width&#58;600px;height&#58;438px;" /> 
+               <img src="crm08-%20own%20quick%20campaign.png" alt="Select the Activity Type and Owner" style="width&#58;600px;height&#58;438px;" /> 
             </dt><dd>Figure&#58; Select the Activity Type and Owner.</dd></dl><dl class="image"><dt> 
-               <img src="./crm09%20-%20add%20content.png" alt="Fill in newsletter Content" style="width&#58;600px;height&#58;438px;" /> 
+               <img src="crm09%20-%20add%20content.png" alt="Fill in newsletter Content" style="width&#58;600px;height&#58;438px;" /> 
             </dt><dd>Figure&#58; Fill in newsletter content.</dd></dl><p class="ssw15-rteElement-SSW-Only">
             <strong>Attention&#58; SSW Employees</strong><br>You need to follow the&#160;instructions in SSW Standards Internal for preparing the newsletter. It's a manual checklist so you don't make any mistakes.<br></p> ​ 
          <p>Use your preferred browser&#160;to view the content of the newsletter, select all (or use &quot;Ctrl&quot; + &quot;A&quot;)&#160;and then&#160;copy and paste it in the Quick Campaign&#160;text area.<br></p><dl class="image"><dt> 
-               <img src="./crm10%20-%20unsubscribe.png" alt="Newsletter Ubsubscribe" style="width&#58;600px;height&#58;438px;" /> 
+               <img src="crm10%20-%20unsubscribe.png" alt="Newsletter Ubsubscribe" style="width&#58;600px;height&#58;438px;" /> 
             </dt><dd>Figure&#58; Highlight the keyword and click the&#160;Unsubscribe button to make a link for subscribers to unsubscribe themselves.</dd></dl><li>Click 
             <b>Next</b> to create all email activities in Microsoft CRM 2013.</li><li>Now you have to wait while the emails send out&#58;
             <ul><li>

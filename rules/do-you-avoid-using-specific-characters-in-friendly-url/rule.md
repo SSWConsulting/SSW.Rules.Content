@@ -17,7 +17,7 @@ authors:
       <strong>double quote</strong> (“) will be encoded to 
       <strong>%22</strong>.</li></ol><p>Some characters are reserved characters, which may not be supported by some features, based on our experience, “+&quot; is not supported in “canonical&quot; to redirect from 
    <b>http</b><strong></strong> to 
-   <b>https</b>.​​<br></p><dl class="image"><dt><img src="./sharepoint-characters-not-allowed.jpg" alt="sharepoint-characters-not-allowed.jpg" /></dt></dl><p>In the above source code, the URL 
+   <b>https</b>.​​<br></p><dl class="image"><dt><img src="sharepoint-characters-not-allowed.jpg" alt="sharepoint-characters-not-allowed.jpg" /></dt></dl><p>In the above source code, the URL 
    <a href="/do-you-know-when-to-use-+1">http&#58;//rules.ssw.com.au&#58;80/do-you-know-when-to-use-+1</a> 
    <em>[note&#58; don't include as a hyperlink as it's a broken URL]</em> will throw a 404 error rather than redirecting to 
    <b>https&#58;//rules.ssw.com.au&#58;80/do-you-know-when-to-use-+1</b>,but it works fine if the URL doesn't include “+&quot;, e.g. 

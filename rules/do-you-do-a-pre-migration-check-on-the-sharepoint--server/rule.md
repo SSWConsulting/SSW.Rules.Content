@@ -22,7 +22,7 @@ authors:
     <li>Open up <b>cmd</b> with Administrator privileges</li>
     <li>Run the following command&#58; <b>stsadm –o preupgradecheck<br>
     <br>
-    </b><img alt="" src="./preupgradecheck.png" />&#160;<b><br>
+    </b><img alt="" src="preupgradecheck.png" />&#160;<b><br>
     <font class="ms-rteCustom-FigureNormal" size="+0">Figure 3 - Check the pre-migration report. The only thing that is allowed to fail is “FeatureInfo”. This is because a custom feature won’t migrate and developers need to create a build targeted for SharePoint 2010</font></b></li>
     <li>Save the HTML file that was generated and email it to your companies SharePoint Master. (Don’t print it as its very large)</li>
     <li>Have the <span style="text-decoration&#58;underline;"><a href="/Pages/Do-you-have-a-SharePoint-Master.aspx"><span style="text-decoration&#58;underline;">SharePoint Master</span></a></span> sign off on the pre-migration check and inform you if there are any site collections or content sources that are no longer needed and can be ignored for migration</li>

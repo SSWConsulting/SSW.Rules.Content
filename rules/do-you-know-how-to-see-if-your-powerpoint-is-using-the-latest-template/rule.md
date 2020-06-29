@@ -14,7 +14,7 @@ authors: []
  </span>
 
 <dl class="image"><dt>
-      <img alt="Check Template" src="./CheckTemplate.jpg" />
+      <img alt="Check Template" src="CheckTemplate.jpg" />
    </dt><dd>Figure&#58; This is how you can see if you are using the template file </dd></dl>
 
 

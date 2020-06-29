@@ -25,11 +25,11 @@ authors:
     <li><span class="highlight" style="background-color&#58;rgb(204, 204, 204);">Grey (no colour)</span> for the <strong>Production</strong> database </li>
 </ul>
 <p>Note&#58; The Yellow might have been Orange (kind of like traffic lights) but the color palette in Word doesn't give Orange. </p>
-<img border="0" class="ms-rteCustom-ImageArea" alt="colors in Word color pallete" src="./WordColorPallete.GIF" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;-moz-use-text-color;" /><span class="ms-rteCustom-FigureNormal">Figure&#58; colors in Word color palette </span>
+<img border="0" class="ms-rteCustom-ImageArea" alt="colors in Word color pallete" src="WordColorPallete.GIF" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;-moz-use-text-color;" /><span class="ms-rteCustom-FigureNormal">Figure&#58; colors in Word color palette </span>
 <p>This prevents testers from accidentally entering test data into the&#160;production version. </p>
 <p><strong>Windows Forms Tip&#58;</strong> Implement in the base form in the header <br>
 <strong>ASP.NET (at least version 2.0) Tip&#58;</strong> Implement in the master form in the header</p>
-<img border="0" class="ms-rteCustom-ImageArea" alt=" " src="./dev_test_prod_servers.gif" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;-moz-use-text-color;" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Spice up your environments with different colors </span>
+<img border="0" class="ms-rteCustom-ImageArea" alt=" " src="dev_test_prod_servers.gif" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;-moz-use-text-color;" /> <span class="ms-rteCustom-FigureGood">Figure&#58; Spice up your environments with different colors </span>
 <p>An application of this rule is how we identify our CRM servers - see rule <a href="/do-you-identify-development-test-and-production-crm-web-servers-by-colors">Do you identify Development, Test and Production CRM Web Servers by colors?</a></p>
 
 

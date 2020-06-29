@@ -43,7 +43,7 @@ authors:
    <strong>Figure&#58; Good Example -&#160;copy this as email template and send to Product Owner.&#160;<br></strong><strong>Subject&#58; &lt;Client Name&gt;&#58; Sprint xxx Forecast</strong></font> 
 <p>Tip&#58; Use this 
    <a title="Email Template" class="OutlookDraft" href="/Documents/SprintContract.oft" shape="rect">Outlook email template</a></p><p>More instructions are as below&#58;<br></p><ol><li>Go to Azure DevOps and navig​ate to the current sprint's backlog view. E.g. https&#58;//dev.azure.com/Northwind/ProjectName/_sprints/backlog/Northwind/ProjectName/Sprint%201<br></li><li>Paste to the&#160;Forecast email, and format the table&#58;
-      <ul><li>Remove any&#160;useless columns<img class="ms-rteCustom-ImageArea" alt="Good Example of a Table" src="./Sprint%20forecast%20example%20table.jpg" style="width&#58;715px;" /></li></ul><p> 
+      <ul><li>Remove any&#160;useless columns<img class="ms-rteCustom-ImageArea" alt="Good Example of a Table" src="Sprint%20forecast%20example%20table.jpg" style="width&#58;715px;" /></li></ul><p> 
          <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good Example of a Table<br></font></p></li></ol>
 
 

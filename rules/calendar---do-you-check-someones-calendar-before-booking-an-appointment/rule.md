@@ -21,7 +21,7 @@ authors:
                     <dd>
                         Bad Example</dd></dl>
                 <dl class="good">
-                    <dt><img src="./adams-calendar.jpg" alt="adams-calendar.jpg" style="margin&#58;5px;width&#58;550px;" /><br></dt><dt>
+                    <dt><img src="adams-calendar.jpg" alt="adams-calendar.jpg" style="margin&#58;5px;width&#58;550px;" /><br></dt><dt>
                     Sure, I'll just look up Adam's calendar and see when he's free. Obviously it's not a good idea to call Adam now as he is on a plane.&#160;</dt>
                     <dd>
                         Good Example</dd></dl>

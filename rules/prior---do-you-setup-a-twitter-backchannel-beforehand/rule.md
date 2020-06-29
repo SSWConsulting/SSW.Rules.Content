@@ -14,11 +14,11 @@ authors: []
 
 
   <dl class="image">
-    <dt><img src="./PPTwit.jpg" alt="" /> </dt>
+    <dt><img src="PPTwit.jpg" alt="" /> </dt>
     <dd>Figure&#58; A Twitter hashtag allows the attendees to have a backchannel that can be used to talk about your presentation, during your presentation</dd>
 </dl>
 <dl class="image">
-    <dt><img src="./PPTwit2.jpg" alt="" /> </dt>
+    <dt><img src="PPTwit2.jpg" alt="" /> </dt>
     <dd>Figure&#58; (optional) Midway through the presentation have a slide where you say &quot;Let's see if any questions have arisen&quot;</dd>
 </dl>
 

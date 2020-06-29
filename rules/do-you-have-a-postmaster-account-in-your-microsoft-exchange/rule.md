@@ -15,6 +15,6 @@ authors:
 
 <p class="p1">At SSW we have configured 
    <a href="mailto&#58;postmaster@ssw.com.au"> 
-      <span class="s1">postmaster@ssw.com.au</span></a> as a distribution group, with mail server administrators as members of this distribution group.</p><dl class="image"><dt><img src="./postmaster.png" alt="postmaster.png" /></dt><dd>Figure&#58; Group members of postmaster@ssw.com.au​</dd></dl>
+      <span class="s1">postmaster@ssw.com.au</span></a> as a distribution group, with mail server administrators as members of this distribution group.</p><dl class="image"><dt><img src="postmaster.png" alt="postmaster.png" /></dt><dd>Figure&#58; Group members of postmaster@ssw.com.au​</dd></dl>
 
 

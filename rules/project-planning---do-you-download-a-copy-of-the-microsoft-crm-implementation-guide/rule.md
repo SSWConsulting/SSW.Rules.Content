@@ -16,7 +16,7 @@ authors:
 
 <p>Using the CHM (Compiled HTML Help) makes searching easier than using a word or pdf document.</p>
                 <dl class="image">
-                    <dt><img alt="Implementation guide screenshot" src="./crm-implementation-guide.jpg" style="width&#58;590px;" /></dt>
+                    <dt><img alt="Implementation guide screenshot" src="crm-implementation-guide.jpg" style="width&#58;590px;" /></dt>
                     <dd>Figure&#58; Searching the CHM version of the implementation guide is much nicer than the Word document</dd>
                 </dl>
 

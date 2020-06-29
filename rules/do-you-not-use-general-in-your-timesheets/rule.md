@@ -13,8 +13,8 @@ authors:
 
 <span class='intro'> Developers should *never* use the &quot;General&quot;&#160;Project.<br> </span>
 
-<dl class="badImage"><dt>​<img src="./using-general-timesheets-bad.png" alt="using-general-timesheets-bad.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Bad Example - &quot;General&quot; category</dd></dl>
+<dl class="badImage"><dt>​<img src="using-general-timesheets-bad.png" alt="using-general-timesheets-bad.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Bad Example - &quot;General&quot; category</dd></dl>
 <dl class="goodImage">
-   <dt>​<img src="./using-general-timesheets-bad.png" alt="do-not-use-general-timesheets-good.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Good Example -​ Specific category </dd></dl>
+   <dt>​<img src="using-general-timesheets-bad.png" alt="do-not-use-general-timesheets-good.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Good Example -​ Specific category </dd></dl>
 
 

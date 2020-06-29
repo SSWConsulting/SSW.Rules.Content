@@ -18,7 +18,7 @@ authors:
 <p> This is a simple rule - if someone goes beyond the call of duty, you thank them.​​​<br></p><p>
    <b>Bonus&#58;</b> If you want to go further, you can tweet the link where you've found help from.&#160;</p><p>
    <b>Tip&#58;</b> Elaborate your text and avoid adding URLs as it may look like spam.<br></p><dl class="image"><dt>
-      <img src="./GoodJob.jpg" alt="GoodJob.jpg" />
+      <img src="GoodJob.jpg" alt="GoodJob.jpg" />
    </dt><dd>Figure&#58; Show appreciation when you've got help<br></dd></dl>
 
 

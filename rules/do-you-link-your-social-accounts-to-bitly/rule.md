@@ -17,6 +17,6 @@ authors:
 
 </p> </span>
 
-<dl><dl class="ssw15-rteElement-ImageArea"><img src="./bitly-connect.jpg" alt="" /></dl><dd class="ssw15-rteElement-FigureNormal">​​Figure&#58; Connect your accounts to bit.ly<br></dd><dd><br></dd><dd><p class="ssw15-rteElement-Tip">Tip&#58; if you are trying to&#160;<a href="https&#58;//www.linkedin.com/help/linkedin/answer/3439">share a URL on LinkedIn that is longer than 26 characters</a>, LinkedIn will&#160;automatically shorten it once you click&#160;Post, to make it easier for the user&#160;to read. It happens either if you have text&#160;before or after the URL you are sharing. If you're sharing an article and there’s no text after the link, it&#160;will be hidden from the share too.&#160;<br></p><br></dd></dl>
+<dl><dl class="ssw15-rteElement-ImageArea"><img src="bitly-connect.jpg" alt="" /></dl><dd class="ssw15-rteElement-FigureNormal">​​Figure&#58; Connect your accounts to bit.ly<br></dd><dd><br></dd><dd><p class="ssw15-rteElement-Tip">Tip&#58; if you are trying to&#160;<a href="https&#58;//www.linkedin.com/help/linkedin/answer/3439">share a URL on LinkedIn that is longer than 26 characters</a>, LinkedIn will&#160;automatically shorten it once you click&#160;Post, to make it easier for the user&#160;to read. It happens either if you have text&#160;before or after the URL you are sharing. If you're sharing an article and there’s no text after the link, it&#160;will be hidden from the share too.&#160;<br></p><br></dd></dl>
 
 

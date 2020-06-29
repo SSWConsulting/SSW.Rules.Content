@@ -15,7 +15,7 @@ authors:
 
 <p>​</p><p>Our engagement lifecycle overlaps with our 
    <a href="/do-you-know-the-6-stages-in-the-sales-pipeline">sales pipeline</a>, and maps to the 
-   <a href="/do-you-know-the-8-steps-to-scrum">8 Steps to Scrum</a>.</p><p>&#160;<img alt="7ProjectPhases.png" src="./Engagement%20Lifecycle.png" style="margin&#58;5px;width&#58;668px;height&#58;377px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Engagement Lifecycle</dd><p class="ssw15-rteElement-FigureGood">
+   <a href="/do-you-know-the-8-steps-to-scrum">8 Steps to Scrum</a>.</p><p>&#160;<img alt="7ProjectPhases.png" src="Engagement%20Lifecycle.png" style="margin&#58;5px;width&#58;668px;height&#58;377px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Engagement Lifecycle</dd><p class="ssw15-rteElement-FigureGood">
    <strong> 
       <font color="#555555"></font></strong>&#160;</p><ol><li>Initial&#160;Phone Call</li><ul><li>The client has made contact but no initial meeting has yet been made</li></ul><li>
       <a href="/meetings-are-you-prepared-for-the-initial-meeting">Initial Meeting</a>&#160;- Booked</li><ul><li>Sales team has arranged an initial meeting and it's booked in.</li><li>The&#160;Initial Meeting is a&#160;non-billed meeting that maps to the Initial Meeting described in the 

@@ -83,17 +83,17 @@ index:
 ---
 <p>​​​​​​​​​​​​<br></p>
 <div class="topcommonTestimonialBox" sizset="180" sizcache07401364529608921="6" style="padding: 4px; margin-right: 15px; margin-bottom: 8px; margin-left: 15px; border-bottom: 1px solid #cccccc; border-left: 5px solid #cccccc;"> 
-   <a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"> <img alt="What others have to say about us" src="./Testimonials_Heading.gif" border="0" style="border: 0px solid;"/></a> <br/> 
+   <a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"> <img alt="What others have to say about us" src="Testimonials_Heading.gif" border="0" style="border: 0px solid;"/></a> <br/> 
    <table border="0" cellspacing="0" cellpadding="0" style="margin-left: 5px;"> 
       <tbody> 
          <tr> 
             <td width="10" valign="top"> 
-               <img align="left" alt="See what people think about this product" src="./Testimonials_LeftQuote.gif" border="0" style="border: 0px solid; width: 11px;"/> 
+               <img align="left" alt="See what people think about this product" src="Testimonials_LeftQuote.gif" border="0" style="border: 0px solid; width: 11px;"/> 
             </td>
             <td> 
                <span id="ctl00_mainContentPlaceHolder_testimonial_lblQuoteTop">I&#39;ve been putting together Development Guidelines for my employer and in the process have reviewed many published standards (in the .Net arena) from around the world. In each category, the suggestions at SSW are always among the best.</span></td>
             <td width="10" valign="top"> 
-               <img align="right" alt="See what people think about this product" src="./Testimonials_RightQuote.gif" border="0" style="border: 0px solid;"/> 
+               <img align="right" alt="See what people think about this product" src="Testimonials_RightQuote.gif" border="0" style="border: 0px solid;"/> 
             </td> 
          </tr> 
       </tbody> 

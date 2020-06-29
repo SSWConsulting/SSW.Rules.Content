@@ -17,7 +17,7 @@ authors:
 
 <ol><li>Add in Global.asax a route<br></li><p class="ssw15-rteElement-CodeArea">protected void Application_Start(object sender, EventArgs e) <br>&#123; <br>//RouteTable and PageRouteHandler are in System.Web.Routing <br>RouteTable.Routes.Add(&quot;ProductRoute&quot;, new Route(&quot;products/&#123;productname&#125;&quot;, new PageRouteHandler(&quot;~/MyInternalDB/UserDatabase/ProductList.aspx.aspx&quot;))); <br>&#125;</p><p> 
       <strong>Figure&#58; OK example - create a static route if you only have a few rewrites</strong></p><li>Use the URL Rewriting Module for IIS7 <br>
-   <dl class="image"><dt><img src="./IIS7Rewrite.jpg" alt="IIS7Rewrite.jpg" style="width&#58;700px;height&#58;537px;" /></dt><dd>Figure&#58; Good example - An IIS7 Rewrite is much easier to manage</dd></dl></li>
+   <dl class="image"><dt><img src="IIS7Rewrite.jpg" alt="IIS7Rewrite.jpg" style="width&#58;700px;height&#58;537px;" /></dt><dd>Figure&#58; Good example - An IIS7 Rewrite is much easier to manage</dd></dl></li>
 </ol>​
 
 

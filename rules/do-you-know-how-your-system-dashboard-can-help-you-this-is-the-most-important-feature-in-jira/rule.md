@@ -26,9 +26,9 @@ The System Dashbaord has two columns and&#160;three main &quot;areas&quot;; thes
 System Dashboard example&#58;<br>
 <br>
 <br>
-<img src="./SystemDashboardExample.png" alt="" style="width&#58;950px;height&#58;656px;" />The specification of the dashboard is&#58;<br>
+<img src="SystemDashboardExample.png" alt="" style="width&#58;950px;height&#58;656px;" />The specification of the dashboard is&#58;<br>
 <br>
-<img width="900" height="855" src="./SystemDashboardSpec.png" alt="" /></p>
+<img width="900" height="855" src="SystemDashboardSpec.png" alt="" /></p>
 
 
 

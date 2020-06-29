@@ -23,7 +23,7 @@ Using Expression + SketchFlow, you can&#58;</p>
 </ul>
  </span>
 
-  <img width="487" height="299" class="ms-rteCustom-ImageArea" src="./sketchflow.jpg" alt="" /> ​<br>
+  <img width="487" height="299" class="ms-rteCustom-ImageArea" src="sketchflow.jpg" alt="" /> ​<br>
 <font size="+0" class="ms-rteCustom-FigureGood">Figure&#58; Expression + SketchFlow</font>
 <p>Read <a href="/Pages/SpecificationByMockUp.aspx">Do you conduct specification analysis by creating mock-ups?</a> to learn more about other mock-up types.</p>
 

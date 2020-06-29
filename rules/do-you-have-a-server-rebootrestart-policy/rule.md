@@ -64,9 +64,9 @@ authors:
                      <br></p></td></tr></tbody></table></dt><dt style="padding-right&#58;0px;padding-left&#58;0px;margin-top&#58;0px;margin-bottom&#58;0px;margin-left&#58;10px;">
       <b>Figure&#58; Clearly showing the potential risks<br><br></b></dt><dt style="padding-right&#58;0px;padding-left&#58;0px;margin-top&#58;0px;margin-bottom&#58;0px;margin-left&#58;10px;"><p class="ssw15-rteElement-P"> 
          <b> Note&#58; </b>The following servers will be affected<br></p> 
-      <img src="./rule-outage-1.jpg" alt="rule-outage-1.jpg" style="margin&#58;0px;width&#58;100%;height&#58;auto;" />  
+      <img src="rule-outage-1.jpg" alt="rule-outage-1.jpg" style="margin&#58;0px;width&#58;100%;height&#58;auto;" />  
       <br> 
-      <a href="http&#58;//wug.ssw.com.au/"> http&#58;//wug.ssw.com.au/</a><br><br><img src="./rule-outage-2.jpg" alt="rule-outage-2.jpg" style="width&#58;100%;height&#58;auto;" /><br></dt><dt style="padding-right&#58;0px;padding-left&#58;0px;margin-top&#58;0px;margin-bottom&#58;0px;margin-left&#58;10px;">
+      <a href="http&#58;//wug.ssw.com.au/"> http&#58;//wug.ssw.com.au/</a><br><br><img src="rule-outage-2.jpg" alt="rule-outage-2.jpg" style="width&#58;100%;height&#58;auto;" /><br></dt><dt style="padding-right&#58;0px;padding-left&#58;0px;margin-top&#58;0px;margin-bottom&#58;0px;margin-left&#58;10px;">
       <br> 
    </dt><dt style="padding-right&#58;0px;padding-left&#58;0px;margin-top&#58;0px;margin-bottom&#58;0px;margin-left&#58;10px;">
       <b>To myself,</b></dt><dt style="padding-right&#58;0px;padding-left&#58;0px;margin-top&#58;0px;margin-bottom&#58;0px;margin-left&#58;10px;">
@@ -79,11 +79,11 @@ authors:
       <b>Note&#58;	</b>&lt;This is as per rule&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=e3a456b4-3513-4dbe-a958-0176c1dfa85d">What is your server reboot/restart policy?</a> &gt;<br></dt><dt style="padding-right&#58;0px;padding-left&#58;0px;margin-top&#58;0px;margin-bottom&#58;0px;margin-left&#58;10px;">
       <br> 
    </dt></dl><p>Immediately before the scheduled downtime, check for logged in users, file access, and database connections.</p><h3 class="ssw15-rteElement-H3">Users</h3><p>Open 'Windows Task Manager' (Run &gt; taskmgr) and select the 'Users' tab. Check with users if they have active connections, then have them log off.<br></p><dl class="image"><dt>
-      <img src="./rule-outage-3.png" alt="rule-outage-3.png" style="width&#58;100%;height&#58;auto;" />
+      <img src="rule-outage-3.png" alt="rule-outage-3.png" style="width&#58;100%;height&#58;auto;" />
    </dt><dd>Figure&#58; Connected users can be viewed in Task Manager</dd></dl><h3 class="ssw15-rteElement-H3">Files</h3><p>Open 'Computer Management' (Run &gt; compmgmt.msc), then 'System Tools &gt; Shared Folders'. Check 'Session' and 'Open Files' for user connections.</p><dl class="image"><dt>
-      <img src="./rule-outage-4.png" alt="rule-outage-4.png" style="width&#58;100%;height&#58;auto;" />
+      <img src="rule-outage-4.png" alt="rule-outage-4.png" style="width&#58;100%;height&#58;auto;" />
    </dt><dd>Figure&#58; Computer Management 'Open Files' View</dd></dl><h3 class="ssw15-rteElement-H3">Database</h3><p>Open SQL Server Management Studio on the server. Connect to the local SQL Server. Expand 'Management' and double-click 'Activity Manager'.<br></p><dl class="image"><dt>
-      <img src="./rule-outage-5.gif" alt="rule-outage-5.gif" style="width&#58;100%;height&#58;auto;" />
+      <img src="rule-outage-5.gif" alt="rule-outage-5.gif" style="width&#58;100%;height&#58;auto;" />
    </dt><dd>Figure&#58; SQL Management Studio 'Active Connections' View</dd></dl><p>Once these have been checked for active users, and users have logged off, maintenance can be carried out.</p><p> 
    <strong>Restarts should only be performed during the following time periods</strong></p><ol><li>Between 7am and 7&#58;05am</li><li>Between 1pm and 1&#58;05pm<br></li><li>Between 7pm and 7&#58;05pm 
       <br></li></ol><p>If a scheduled shutdown is required, use the PsShutdown utility from&#160;<a href="https&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/Technet.htm">Microsoft's Sys&#160;Internals</a>&#160;page.</p><p> 

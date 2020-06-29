@@ -18,7 +18,7 @@ authors:
 
 
   <p>
-    <img class="ms-rteCustom-ImageArea" border="0" alt=" " src="./imgErrorHandle.GIF" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;initial;" />&#160;</p>
+    <img class="ms-rteCustom-ImageArea" border="0" alt=" " src="imgErrorHandle.GIF" style="border-width&#58;0px;border-style&#58;solid;border-color&#58;initial;" />&#160;</p>
 <font class="ms-rteCustom-FigureGood">Figure&#58; Log every error</font>
 <p>Not to say though that there is any ideal error message - a great error is one that has been eliminated! In packaged products, every unhandled error is our&#160;problem. </p>
 <p>In the old days, unhandled errors would be stored in a local Access db, but now all unhandled errors should be automatically emailed to the product team. This is a proactive and polite approach to dealing with unhandled errors. If it's serious we will contact the client to resolve the situation - they get a bit of a surprise and think we have ESP! </p>

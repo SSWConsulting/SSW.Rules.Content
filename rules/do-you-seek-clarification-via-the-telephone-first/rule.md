@@ -14,7 +14,7 @@ authors:
 
 
 <span class='intro'> We've all&#160;received a cryptic email at some point. Don't just reply saying &quot;I don't understand&quot;. Chances are if the sender of the task couldn't&#160;explain the task well enough the first time then it's likely&#160;conversation is needed to clarify the issue. Pick up the phone or Skype&#160;the person who sent the email. 
-<dl class="image"><dt><img src="./putin-phone.jpg" alt="putin-phone.jpg" />​
+<dl class="image"><dt><img src="putin-phone.jpg" alt="putin-phone.jpg" />​
 </dt><dd>Figure&#58; If an email isn't clear, a phone call generally sorts problems out quickly</dd></dl> </span>
 
 <p>Having clarified the issue by phone, r<span style="line-height&#58;21px;background-color&#58;initial;">eply but u</span><span style="line-height&#58;21px;background-color&#58;initial;">pdate the original&#160;</span><span style="line-height&#58;21px;background-color&#58;initial;">email with the new details arising from the conversation</span><span style="line-height&#58;21px;background-color&#58;initial;">&#160;(Remember to start with an &quot;As per our conversation&quot; line).</span></p>However, sometimes you&#160;cannot immediately&#160;reach the task owner. In this case, you need to keep trying to contact the&#160;person for 24 hours. If you are still not able to contact the person, you need to reply to the email and put the following in red in the first line&#58; <br><div class="ms-rteCustom-GreyBox"><p>Hi John<br></p>

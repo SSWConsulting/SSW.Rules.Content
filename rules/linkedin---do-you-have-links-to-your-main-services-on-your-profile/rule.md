@@ -15,6 +15,6 @@ authors:
 
 <span class='intro'> <p>​​LinkedIn&#160;is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.<br></p> </span>
 
-<dl class="image"><dt> <img src="./linkedin-links.jpg" alt="linkedin-links.jpg" /> </dt><dd>Figure&#58; Use the &quot;Link&quot; button in your profile &quot;edit mode&quot; to include the URLs for the main services your provide</dd></dl><dl class="badImage"><dt>​<img src="./linkedin-url-bad.jpg" alt="linkedin-url-bad.jpg" /></dt><dd>Figure&#58; Bad example - Profile with no links</dd></dl><dl class="goodImage"><dt><img src="./linkedin-url-good.jpg" alt="linkedin-url-good.jpg" /></dt><dd>Figure&#58; Good example - Profile with links to main services provided <br></dd></dl>
+<dl class="image"><dt> <img src="linkedin-links.jpg" alt="linkedin-links.jpg" /> </dt><dd>Figure&#58; Use the &quot;Link&quot; button in your profile &quot;edit mode&quot; to include the URLs for the main services your provide</dd></dl><dl class="badImage"><dt>​<img src="linkedin-url-bad.jpg" alt="linkedin-url-bad.jpg" /></dt><dd>Figure&#58; Bad example - Profile with no links</dd></dl><dl class="goodImage"><dt><img src="linkedin-url-good.jpg" alt="linkedin-url-good.jpg" /></dt><dd>Figure&#58; Good example - Profile with links to main services provided <br></dd></dl>
 
 

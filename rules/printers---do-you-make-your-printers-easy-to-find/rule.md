@@ -15,6 +15,6 @@ authors:
 <p>So&#160;you should&#160;add a DNS alias which maps \\printer to your print server.</p>
  </span>
 
-<dl class="image"><dt><img class="ms-rteCustom-ImageArea" alt="Add the printer via Connect" src="./add-printer-via-connect.jpg" /></dt><dd>Figure&#58; \\printer takes to this window, were you can &quot;Add&quot;&#160;the printer via Connect</dd></dl><p class="ssw15-rteElement-GreyBox">Note&#58; It is better to automate mappings via GPO preferences. As a backup, you can allow users to manually map as above.</p>​<br>
+<dl class="image"><dt><img class="ms-rteCustom-ImageArea" alt="Add the printer via Connect" src="add-printer-via-connect.jpg" /></dt><dd>Figure&#58; \\printer takes to this window, were you can &quot;Add&quot;&#160;the printer via Connect</dd></dl><p class="ssw15-rteElement-GreyBox">Note&#58; It is better to automate mappings via GPO preferences. As a backup, you can allow users to manually map as above.</p>​<br>
 
 

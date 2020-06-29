@@ -40,7 +40,7 @@ The better approach is&#58;<br>
 &#160;&#160;&#160; b. &gt;30%&#160;Code Coverage <br>
 &#160;&#160;&#160; c. All unit tests passed </p>
 <p>Then add an illustration to show this.</p>
-<img border="0" title="image" alt="image" src="./ProveDoneCriteria.png" style="border-width&#58;0px;border-style&#58;none;margin&#58;0px 20px;width&#58;600px;display&#58;inline;height&#58;492px;" /><br>
+<img border="0" title="image" alt="image" src="ProveDoneCriteria.png" style="border-width&#58;0px;border-style&#58;none;margin&#58;0px 20px;width&#58;600px;display&#58;inline;height&#58;492px;" /><br>
 <font size="-0" class="ms-rteCustom-FigureGood">Figure&#58; Good​ example -&#160;&#160;This is proof you have met your '<a shape="rect" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=6449ae79-ba88-447e-aa48-36173029a2af" target="_blank">Done criteria</a>'. </font>
 <p>This is all designed to help you Scrum Team members (Product Owner, Scrum Master and Team)&#160;keep a certain quality bar on completion of each chunk of work. Remember that you are not 'DONE' until your team says you are done.</p>
 

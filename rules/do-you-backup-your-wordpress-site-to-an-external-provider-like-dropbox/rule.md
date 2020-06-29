@@ -20,7 +20,7 @@ authors:
          <span style="line-height&#58;20px;">Amazon S3 services</span><br></li><li> 
          <b style="line-height&#58;20px;">Microsoft Azure</b><br></li><li> 
          <span style="line-height&#58;20px;">RackSpaceCloud</span><br></li><li> 
-         <span style="line-height&#58;20px;">SugarSync​</span><br></li></ul></div><p>We setup our WordPress sites to backup daily to Dropbox&#58;</p><dl class="goodImage"><dt><img src="./wp-dropbox.png" alt="wp-dropbox.png" /></dt><dd>Figure&#58; <a href="http&#58;//adamcogan.com/">AdamCogan.com blog</a> backs up daily to Dropbox
+         <span style="line-height&#58;20px;">SugarSync​</span><br></li></ul></div><p>We setup our WordPress sites to backup daily to Dropbox&#58;</p><dl class="goodImage"><dt><img src="wp-dropbox.png" alt="wp-dropbox.png" /></dt><dd>Figure&#58; <a href="http&#58;//adamcogan.com/">AdamCogan.com blog</a> backs up daily to Dropbox
  </dd></dl><p>For more information head over to&#58; <a href="https&#58;//wordpress.org/plugins/backwpup">https&#58;//wordpress.org/plugins/backwpup</a></p>
 
 

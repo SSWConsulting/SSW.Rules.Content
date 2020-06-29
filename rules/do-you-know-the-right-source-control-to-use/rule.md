@@ -21,7 +21,7 @@ authors:
  </span>
 
 
-  <img class="ms-rteCustom-ImageArea" src="./TFSTeam.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Microsoft Visual Studio Team System </font>
+  <img class="ms-rteCustom-ImageArea" src="TFSTeam.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Microsoft Visual Studio Team System </font>
 <p>Here are some of the reasons why&#58; </p>
 <ul>
     <li>Checkin policies </li>

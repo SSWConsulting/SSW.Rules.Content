@@ -35,16 +35,16 @@ authors: []
 <p>For example the Scrum Master can find PBIs (Product Backlog Items)&#160;in the Sprint that were successful / not successful and then facilitate the discussion as to why.
 </p>
 
-<dl class="image"><dt><img src="./retrospective-meeting-1.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="retrospective-meeting-1.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the Sprint Backlog for items which are Not Done at the end of a Sprint</dd></dl>
 
-<dl class="image"><dt><img src="./retrospective-meeting-2.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="retrospective-meeting-2.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the team’s velocity over multiple Sprints</dd></dl>
 
-<dl class="image"><dt><img src="./retrospective-meeting-3.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="retrospective-meeting-3.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the team’s Sprint Burndown for insight into how work progressed through the Sprint</dd></dl>
 
-<dl class="image"><dt><img src="./retrospective-meeting-4.jpg" alt="" /> </dt>
+<dl class="image"><dt><img src="retrospective-meeting-4.jpg" alt="" /> </dt>
 <dd>Figure&#58; The Scrum Master can inspect the team’s Code Coverage to for an insight into code quality</dd></dl>
 
 <p>Once all issues have been discussed to the satisfaction of The Scrum Team, the meeting concludes.<br>

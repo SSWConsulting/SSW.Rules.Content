@@ -76,7 +76,7 @@ In the SSW Jira implementation, there are six situations where action is require
 <br>
 NOTE&#58; Most people will only have Reporter actions to perform. <a href="/Pages/ReportesAndAssignees.aspx" shape="rect">Understand more about Reporters and Assignees</a> <br>
 <br>
-<img width="727" height="405" src="./Urgent.png" alt="" style="width&#58;703px;height&#58;385px;" /> <strong>Figure&#58; Your dashbo​ard is your Home Page when you </strong><strong><a href="/Pages/HowdoIsignintoJira.aspx" shape="rect"><strong>login like this </strong></a></strong><strong>and clearly shows the issues that need your immediate attention <br>
+<img width="727" height="405" src="Urgent.png" alt="" style="width&#58;703px;height&#58;385px;" /> <strong>Figure&#58; Your dashbo​ard is your Home Page when you </strong><strong><a href="/Pages/HowdoIsignintoJira.aspx" shape="rect"><strong>login like this </strong></a></strong><strong>and clearly shows the issues that need your immediate attention <br>
 </strong><br>
 For guidance on dealing with issues check out&#160;our other rules&#58;<br>
 <br>

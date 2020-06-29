@@ -20,9 +20,9 @@ A well architected application (ie. one that correctly follows the Onion Archite
  </span>
 
 ​​<dl class="badImage"><dt> 
-      <img src="./TimePRODependence.png" class="ssw-rteStyle-ImageArea" alt="" style="height&#58;119px;width&#58;620px;" /> 
+      <img src="TimePRODependence.png" class="ssw-rteStyle-ImageArea" alt="" style="height&#58;119px;width&#58;620px;" /> 
    </dt><dd>Figure&#58; Bad Example- The Visual Studio Dependency Graph is hard to read</dd></dl><dl class="goodImage"><dt> 
-      <img src="./TimePRODependence-good.png" class="ssw-rteStyle-ImageArea" alt="TimePRODependence-good.png" /> 
+      <img src="TimePRODependence-good.png" class="ssw-rteStyle-ImageArea" alt="TimePRODependence-good.png" /> 
    </dt><dd>Figure&#58; Good Example – The ReSharper Dependency graph groups dependencies based on Solution Folders. By having a 
       <a href="/do-you-have-a-consistent-net-solution-structure">Consistent Solution Structure</a> it is easy to see from your Dependency Graph if there is coupling between your UI and your Dependencies</dd></dl><h4>Further Reading&#58;</h4><ul><li>
       <a href="/do-you-use-a-dependency-injection-centric-architecture">Do you use a dependency injection centric architecture?</a></li><li>

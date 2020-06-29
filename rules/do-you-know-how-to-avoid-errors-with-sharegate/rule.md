@@ -19,7 +19,7 @@ authors:
    <strong>Source&#58;</strong> <a href="https&#58;//support.share-gate.com/hc/en-us/articles/115000643448">https&#58;//support.share-gate.com/hc/en-us/articles/115000643448</a></p><h3 class="ssw15-rteElement-H3">MicroFeed</h3><p>
    <strong>Error&#58;</strong> Copying the content from a MicroFeed list is not supported.<br>Copying the content to a MicroFeed list is not supported.</p><p>
    <strong>Solution&#58;</strong> Clean up all “MicroFeed&quot; lists as they are not supported to be migrated to the cloud.</p><p>
-   <strong>Source&#58; </strong> <a href="https&#58;//support.share-gate.com/hc/en-us/articles/115000600227">https&#58;//support.share-gate.com/hc/en-us/articles/115000600227</a>&#160;</p><dl class="image"><dt> <img src="./errors-micro-feed-migration.png" alt="errors-micro-feed-migration.png" style="width&#58;750px;" /></dt><dd>Figure&#58; errors due to micro feed migration</dd></dl> 
+   <strong>Source&#58; </strong> <a href="https&#58;//support.share-gate.com/hc/en-us/articles/115000600227">https&#58;//support.share-gate.com/hc/en-us/articles/115000600227</a>&#160;</p><dl class="image"><dt> <img src="errors-micro-feed-migration.png" alt="errors-micro-feed-migration.png" style="width&#58;750px;" /></dt><dd>Figure&#58; errors due to micro feed migration</dd></dl> 
 <h3 class="ssw15-rteElement-H3">​Lookup fields</h3><p>
    <strong>Error&#58;</strong> Property Receipt&#58; The following values are unavailable&#58; 'XXXXX'. Please specify another value.</p><p>
    <strong>Solution&#58;</strong> Disable circular references for lookup fields.</p><h3 class="ssw15-rteElement-H3">Calculated columns</h3><p>

@@ -64,7 +64,7 @@ authors:
                 </ul>
                 <dl class="image">
                     <dt>
-                        <img alt="Do you listen" src="./WomanListening.jpg" />
+                        <img alt="Do you listen" src="WomanListening.jpg" />
                     </dt>
                     <dd>
                         Figure&#58; Do you listen?</dd></dl>

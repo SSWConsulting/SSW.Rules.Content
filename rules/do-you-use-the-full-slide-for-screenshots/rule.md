@@ -13,9 +13,9 @@ authors: []
 <br> </span>
 
 <dl class="badImage"><dt>
-      <img src="./badSmall.jpg" alt="" /> 
+      <img src="badSmall.jpg" alt="" /> 
    </dt><dd>Figure&#58; Bad example - the image doesn't cover the whole slide</dd></dl><dl class="goodImage"><dt>
-      <img src="./goodbig.jpg" alt="" /> 
+      <img src="goodbig.jpg" alt="" /> 
    </dt> 
    <dd>Figure&#58; Good example - Cover the whole slide with your image to make it easier for people to see from the back row</dd></dl>
 

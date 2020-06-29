@@ -19,7 +19,7 @@ Who&#160;is &quot;Schema Master&quot;? What does he do?
 
 
   <dl class="image">
-    <dt><img src="./Nick.png" alt="" /> </dt>
+    <dt><img src="Nick.png" alt="" /> </dt>
     <dd>Figure&#58; One person should be the 'Schema Master', on an average sized project (of 5-10 devs) </dd>
 </dl>
 <p style="margin&#58;0cm 0cm 0pt;">If your project has a database, you need to select a &quot;Schema Master&quot;. This is the one person who should review all&#160;modifications to the database. These include&#58;</p>
@@ -29,11 +29,11 @@ Who&#160;is &quot;Schema Master&quot;? What does he do?
     <li>Modify <a href="/Pages/DoYouDeployLookupData.aspx">Controlled Lookup Data</a> </li>
 </ul>
 The &quot;Schema Master&quot; in a development shop is often the lead programmer on the team. They are&#160;in charge of all database changes and scripts. Team members should still feel free to make changes, just get them double checked by the Schema Master.<dl class="image">
-    <dt><img src="./zsVersionTable.png" alt="" /> </dt>
+    <dt><img src="zsVersionTable.png" alt="" /> </dt>
     <dd>Figure&#58; The Applications Database stores version info in a table called _zsVersion </dd>
 </dl>
 <dl class="image">
-    <dt><img src="./SQLScriptInTFS.png" alt="" /> </dt>
+    <dt><img src="SQLScriptInTFS.png" alt="" /> </dt>
     <dd>Figure&#58; Only a &quot;Schema Master&quot; checks in the .sql files </dd>
 </dl>
 

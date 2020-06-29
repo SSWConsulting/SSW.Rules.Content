@@ -21,8 +21,8 @@ authors:
       <br>
       <img src="/SiteAssets/do-you-disable-automatic-windows-update-installations/WindowsUpdateBadExample.jpg" alt="WindowsUpdateBadExample.jpg" style="margin&#58;5px;width&#58;623px;height&#58;510px;" />
       <br>
-   </dt><dd>Figure&#58; Bad example – Install updates automatically​<br></dd></dl><dl class="goodImage"><dt>​<img src="./Windows%20Update%20Good%20Example.jpg" alt="Windows Update Good Example.jpg" style="margin&#58;5px;width&#58;623px;height&#58;510px;" /><br></dt><dd>Figure&#58; Good example – Download updates but let user choose whether to install them</dd></dl><p class="p1">If you have a system administrator who manages your organization’s infrastructure, it is recommended to get you system administrator to push this setting via group policy.​​<br></p><dl class="goodImage"><dt>
-      <img src="./win-update-3.jpg" alt="" />
+   </dt><dd>Figure&#58; Bad example – Install updates automatically​<br></dd></dl><dl class="goodImage"><dt>​<img src="Windows%20Update%20Good%20Example.jpg" alt="Windows Update Good Example.jpg" style="margin&#58;5px;width&#58;623px;height&#58;510px;" /><br></dt><dd>Figure&#58; Good example – Download updates but let user choose whether to install them</dd></dl><p class="p1">If you have a system administrator who manages your organization’s infrastructure, it is recommended to get you system administrator to push this setting via group policy.​​<br></p><dl class="goodImage"><dt>
+      <img src="win-update-3.jpg" alt="" />
       <br>
    </dt><dd>Figure&#58; Better example – Windows Updates setting is pushed to *ALL* users via group policy​<br></dd></dl><h3> ​​Related Rules<br></h3><ul><li></li><li>
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3b0722be-c3e3-4369-a590-258c7501a67a">Do you turn off auto-update on your servers?</a> [for Servers]</li><li>

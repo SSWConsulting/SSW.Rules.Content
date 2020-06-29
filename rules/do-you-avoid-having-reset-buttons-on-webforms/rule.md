@@ -19,7 +19,7 @@ authors:
 <br></p> </span>
 
 <p class="ssw15-rteElement-P"> More detailed information about this rule can be found&#160;in this article&#160;<a href="http&#58;//www.nngroup.com/articles/reset-and-cancel-buttons/">http&#58;//www.nngroup.com/articles/reset-and-cancel-buttons/</a></p><dl class="image"><dt> 
-         <img src="./ResetButton.gif" alt="" /> 
+         <img src="ResetButton.gif" alt="" /> 
       </dt><dd>Figure&#58; The &quot;Reset&quot;​​​ button isn't useful at all </dd></dl><p class="ssw15-rteElement-YellowBorderBox">We have a program called 
       <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p><p class="ssw15-rteElement-YellowBorderBox">We have a program called 
       <a href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule.​​<br></p><p class="ssw15-rteElement-YellowBorderBox">We offer a 

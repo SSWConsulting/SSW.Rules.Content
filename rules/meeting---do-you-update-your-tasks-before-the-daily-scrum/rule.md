@@ -18,7 +18,7 @@ completed hours and
 comments prior to the daily Scrum meeting.&#160;When&#160;the Scrum meeting is in the morning, this should be done at the end of the previous business day.</p> </span>
 
 <dl class="image"><dt> 
-      <img src="./Updatetasks.jpg" alt="" /> 
+      <img src="Updatetasks.jpg" alt="" /> 
    </dt><dd>Figure&#58; Update the following screen to keep your burn​down rate accurate.</dd></dl><p>The reason we did this on TFS 2010 was is because the cube took some time to rebuild the Burndown and it’s very important to have the work status during the meeting. This is not an issue with TFS 2012 as the Burndown will update in real-time, but the rule still applies, as the Daily Scrum flows more smoothly if each developer has already updated the remaining hours on their tasks.</p><div> 
    <strong>Related Links</strong></div><div><ul><li> 
          <a href="/Pages/TrackProgress.aspx" style="line-height&#58;20px;">Reports - Do you know which reports are the most important ones to track your progress?</a><br></li><li> 

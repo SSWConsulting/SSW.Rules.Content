@@ -25,11 +25,11 @@ It is possible to get the number into Word for the version of the document on th
    <strong>Note&#58;</strong> This also works in SharePoint 2010 and Office 2010. </p>
 <dl class="goodImage">
    <dt>
-      <img src="./VersionInWord.jpg" alt="" />
+      <img src="VersionInWord.jpg" alt="" />
    </dt><dd>Figure&#58; Good example, you see the formatted SharePoint version number </dd></dl><dl class="badImage"><dt>
-      <img src="./BadVersioning.png" alt="" style="width&#58;90%;" />
+      <img src="BadVersioning.png" alt="" style="width&#58;90%;" />
    </dt><dd>Bad Example</dd></dl><dl class="goodImage"><dt>
-      <img src="./GoodVersioning.png" alt="" style="width&#58;90%;" />
+      <img src="GoodVersioning.png" alt="" style="width&#58;90%;" />
    </dt><dd>Good Example</dd></dl>
 
 

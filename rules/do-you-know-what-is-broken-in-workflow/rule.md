@@ -44,10 +44,10 @@ authors:
   </p>
 <p class="MsoNormal"><span lang="EN-US"></span><span lang="EN-US" style="font-family&#58;&quot;calibri&quot;,&quot;sans-serif&quot;;font-size&#58;11pt;">SharePoint does not provide support for complex reusable workflows easily - most companies go for a 3rd party solution&#58;</span></p>
 <dl class="image">
-    <dt><img src="./Blackpearl.png" alt="" /> </dt>
+    <dt><img src="Blackpearl.png" alt="" /> </dt>
     <dd>Figure&#58; 3rd party tool - Blackpearl
     <dl class="image">
-        <dt><img src="./Ninetex.png" alt="" /> </dt>
+        <dt><img src="Ninetex.png" alt="" /> </dt>
         <dd>Figure&#58; 3rd party tool - Nintex </dd>
     </dl>
     </dd>

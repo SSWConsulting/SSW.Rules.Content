@@ -24,7 +24,7 @@ authors: []
 <dd>Figure&#58; Bad Example - Functional overload (a programmer probably designed this one)</dd></dl>
 <dl class="badImage"><dt><img alt="Bad UI Example" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/bad-functionaloverload2.jpg" /></dt>
 <dd>Figure&#58; Bad Example - Another example of Functional overload</dd></dl>
-<dl class="goodImage"><dt><img width="601" height="465" alt="Bad UI Example" src="./OutlookCom.png" /></dt>
+<dl class="goodImage"><dt><img width="601" height="465" alt="Bad UI Example" src="OutlookCom.png" /></dt>
 <dd>Figure&#58; Good Example - Outlook.com (the replacement to Hotmail), streamlined functionality and minimal</dd></dl>
 <p><br></p>
 

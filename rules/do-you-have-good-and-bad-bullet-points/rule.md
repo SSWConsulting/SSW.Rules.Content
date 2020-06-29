@@ -17,9 +17,9 @@ authors:
 <br> </span>
 
 <dl class="badImage"><dt>
-      <img src="./TicksBad.jpg" alt="" /> 
+      <img src="TicksBad.jpg" alt="" /> 
    </dt><dd>Figure&#58; Bad example - it's not clear which are good and bad points </dd></dl><dl class="goodImage"><dt>
-      <img src="./TicksGood.jpg" alt="" /> 
+      <img src="TicksGood.jpg" alt="" /> 
    </dt><dd>Figure&#58; Good example - It's far more obvious which ones are the good points and which are the bad </dd></dl><h3>How to create these custom&#160;bullet points?</h3><p class="ssw15-rteElement-P">​Read these instructions from Microsoft&#58;​&#160;<a href="https&#58;//support.office.com/en-us/article/create-custom-bullets-with-pictures-or-symbols-a6bf04a8-be3d-4bec-969a-6196e89da741">Create custom bullets with pictures or symbols​</a><br></p>
 
 

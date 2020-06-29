@@ -16,7 +16,7 @@ authors:
 <p>As well as testing latency it has additional tests that come in handy like&#58; 
    <br></p><ul><li>CDN Test</li><li>Upload Test</li><li>Large File Upload Test</li><li>Download Test 
       <br></li></ul><dl class="image"><dt>
-      <img src="./azure-speed.jpg" alt="azure-speed.jpg" />
+      <img src="azure-speed.jpg" alt="azure-speed.jpg" />
    </dt><dd>Figure&#58; AzureSpeed.com example​<br></dd></dl>
 
 

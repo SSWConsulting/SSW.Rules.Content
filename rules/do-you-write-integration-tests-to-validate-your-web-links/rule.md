@@ -13,7 +13,7 @@ authors:
 
 <span class='intro'> If you store your URL references in the application settings, you can create integration tests to validate them.<br> </span>
 
-<dl class="image"><dt>​<img src="./testURLSettings.gif" alt="testURLSettings.gif" style="width&#58;750px;" />​</dt><dd>Figure&#58; URL for link stored in application settings</dd></dl><p>
+<dl class="image"><dt>​<img src="testURLSettings.gif" alt="testURLSettings.gif" style="width&#58;750px;" />​</dt><dd>Figure&#58; URL for link stored in application settings</dd></dl><p>
    <b>​Sample Code&#58; How to test the URL</b></p><p class="ssw15-rteElement-CodeArea">	[Test]<br> public void urlRulesToBetterInterfaces()<br> &#123;<br> HttpStatusCode result = WebAccessTester.GetWebPageStatusCode(Settings.Default.urlRulesToBetterInterfaces);<br> Assert.IsTrue(result == HttpStatusCode.OK, result.ToString());<br> &#125;</p><p>	
    <br>
    <b>Sample Code&#58; Method used to verify the Page</b><br></p><p class="ssw15-rteElement-CodeArea">	 public class WebAccessTester<br> &#123; 

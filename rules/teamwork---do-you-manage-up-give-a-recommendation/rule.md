@@ -22,7 +22,7 @@ authors:
       <span class="ssw15-rteStyle-Highlight">(Recommended)</span> -<b></b> Customize a&#160;ready-made solution&#160;-&#160;We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.<b></b><br><b>​Option B</b>&#160;- Buy a&#160;ready-made solution -&#160;The ready-made solution is cheap bu​t it does not have everything that we need and has unnecessary features. 
       <br><b>Option C​</b>&#160;- Build a new solution using a&#160;third party company - It will be expensive and it will take a long time.<br><br>Please let me know if you're happy to proceed with our recommendation, otherwise let me know if you have any questions.<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Multiple options to approve with reasons for each 
       <br></dd><dl class="image"><dt> 
-         <img alt="complexity and false hope" src="./complexity-and-false-hope.jpg" style="width&#58;600px;" /> 
+         <img alt="complexity and false hope" src="complexity-and-false-hope.jpg" style="width&#58;600px;" /> 
          <br> 
       </dt><dd> Figure&#58; Hard decision - this guy needs to state why he recommends this option<br></dd></dl><h3 class="ssw15-rteElement-H3">​Related Rules&#160; 
       <br></h3><ul><li>

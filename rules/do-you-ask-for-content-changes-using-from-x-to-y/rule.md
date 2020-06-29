@@ -26,7 +26,7 @@ authors:
             <br>&#160;&#160;&#160;&#160;&#160;-&#160;Friendly licensing model pay nothing&#160;for the full version!</p><p>To&#58;<br>&#160;&#160;&#160;&#160;-&#160;Scan all your projects for coding errors<span style="background-color&#58;#f5f5f5;"><br></span><span style="background-color&#58;#ffff00;">&#160;&#160;&#160;&#160;-&#160;Guarantee</span> industry best practices<br>&#160;&#160;&#160;&#160;-&#160;Friendly licensing model<span style="background-color&#58;#ffff00;">, </span><span style="background-color&#58;#ffff00;">bloggers even pay </span> 
             <span style="background-color&#58;#ffff00;"> 0$</span>&#160;for the full version!​<br></p></div></dt><dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - it has 'From' and 'To' with changes highlighted... so it is clear what needs to be changed<br></dd></dl><h3 class="ssw15-rteElement-H3">If&#160;there are&#160;​too many changes<br></h3><p class="ssw15-rteElement-P">​Sometimes you have a lot of content and too many changes, making the process &quot;from X to Y&quot; too arduous. In this case is recommended to use 
    <a href="https&#58;//support.office.com/en-gb/article/track-changes-in-word-197ba630-0f5f-4a8e-9a77-3712475e806a">Word 'Track Changes'</a> functionality.<br></p><dl class="image"><dt>
-      <img src="./word-track-changes.jpg" alt="word-track-changes.jpg" />
+      <img src="word-track-changes.jpg" alt="word-track-changes.jpg" />
    </dt><dd>Figure&#58; A Word document with 'Track Changes' ON​&#160;is recommended if you have too many changes​<br></dd></dl><p class="ssw15-rteElement-P">
       <b>Video&#58;&#160;</b><a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a>​<br></p>
 

@@ -13,9 +13,9 @@ authors:
 
 <span class='intro'> When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing. </span>
 
-<img alt="code-analysis-bad-example" src="./code-analysis-bad-example.jpg" class="ms-rteCustom-ImageArea" />
+<img alt="code-analysis-bad-example" src="code-analysis-bad-example.jpg" class="ms-rteCustom-ImageArea" />
 <span class="ssw-rteStyle-FigureBad">Figure&#58; Good Example - The Solution and Projects are named consistently</span>
-<img alt="code-analysis-good-example" src="./code-analysis-good-example.jpg" class="ms-rteCustom-ImageArea" />
+<img alt="code-analysis-good-example" src="code-analysis-good-example.jpg" class="ms-rteCustom-ImageArea" />
 <dl class="goodCode">
     <dt>
     <pre>public partial class Account

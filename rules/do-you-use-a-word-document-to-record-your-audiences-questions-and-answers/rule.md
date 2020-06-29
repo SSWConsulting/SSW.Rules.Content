@@ -16,7 +16,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="./RecordQA.jpg" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="RecordQA.jpg" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; A nice presenting technique is to write any questions and answers from your audience (live on stage)</dd>
 </dl>
 

@@ -18,14 +18,14 @@ authors:
 
 <dl class="badImage">
           <dt>
-            <img src="./ContactView_NoEmail.jpg" alt="Associated Contact View without the email address" />
+            <img src="ContactView_NoEmail.jpg" alt="Associated Contact View without the email address" />
           </dt>
           <dd>
             Figure&#58; Associated Contact View without the email address</dd>
         </dl>
         <dl class="goodImage">
           <dt>
-            <img src="./ContactView_Email.jpg" alt="Associated Contact View with the email address" /></dt>
+            <img src="ContactView_Email.jpg" alt="Associated Contact View with the email address" /></dt>
           <dd>
             Figure&#58; Associated Contact View with the email address</dd>
         </dl>

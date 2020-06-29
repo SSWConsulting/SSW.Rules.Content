@@ -21,13 +21,13 @@ authors:
 <li>Make sure you get <a href="http&#58;//www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx">Terms and C​onditions</a> signed before you start work on this.</li>
 <li><a href="/rules">Specification Review</a> -&#160;You will create a backlog of tasks, and some form of document (word or ppt) to present to the client explaining your proposed approach.
 <dl class="image">
-<dt><img src="./ms-ppt-word-logos.jpg" alt="" /></dt>
+<dt><img src="ms-ppt-word-logos.jpg" alt="" /></dt>
 </dl>
 </li>
 <li>Present the Spec Review results to the client (in a meeting with all stakeholders) on site if possible, or over the phone if not, but never just by email.</li></ol>
-<dl class="goodImage"><dt><img alt="Project Portal" src="./ProductBacklog.jpg" style="width&#58;600px;" /> </dt>
+<dl class="goodImage"><dt><img alt="Project Portal" src="ProductBacklog.jpg" style="width&#58;600px;" /> </dt>
 <dd>Figure&#58; Good Example - The backlog is constructed during the Spec Review</dd></dl>
-<dl class="goodImage"><dt><img alt="CRM Opportunity" src="./CRMOpportunitySalesStage.jpg" style="width&#58;600px;" /> </dt>
+<dl class="goodImage"><dt><img alt="CRM Opportunity" src="CRMOpportunitySalesStage.jpg" style="width&#58;600px;" /> </dt>
 <dd>Figure&#58; Good Example - CRM Record showing the <a href="/Pages/The-6-stages-in-the-Sales-Pipeline.aspx">sales stage</a> of the Opportunity after the Spec Review has been booked</dd></dl>
 
 

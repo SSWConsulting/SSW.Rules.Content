@@ -16,7 +16,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="./Todo.jpg" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="Todo.jpg" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Put your working &quot;TODO&#58;&quot; notes in red</dd>
 </dl>
 
