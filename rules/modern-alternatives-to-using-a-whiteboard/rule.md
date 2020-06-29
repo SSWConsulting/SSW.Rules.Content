@@ -31,7 +31,7 @@ redirects:
                <iframe width="750" height="390" src="https&#58;//www.youtube.com/embed/qDqtWRu0rTA" frameborder="0"></iframe> 
                <br unselectable="on"> </div>​​​​</dt><dd> Figure&#58; Using Whiteboard in Microsoft Teams​ </dd></dl><dl class="image"><dt><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on">
                <iframe width="750" height="390" src="https&#58;//www.youtube.com/embed/JsaqPiqBxPY" frameborder="0"></iframe> 
-               <br unselectable="on"> </div>​​​​</dt><dd> Figure&#58; Using Whiteboard in Microsoft Teams​​ </dd></dl></li></ul>​​<span style="color&#58;#cc4141;font-family&#58;&quot;segoe ui&quot;, &quot;trebuchet ms&quot;, tahoma, arial, verdana, sans-serif;font-size&#58;18px;">#2 Tech Whiteboard replacement</span>
+               <br unselectable="on"> </div>​​​​</dt><dd> Figure&#58; Using Microsoft&#160;Whiteboard App​​ </dd></dl></li></ul>​​<span style="color&#58;#cc4141;font-family&#58;&quot;segoe ui&quot;, &quot;trebuchet ms&quot;, tahoma, arial, verdana, sans-serif;font-size&#58;18px;">#2 Tech Whiteboard replacement</span>
 <ul><li>
       <b>Samsung Flip</b> ($3k AUD)<br>
       <dl class="image"><dt><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on">
