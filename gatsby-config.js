@@ -47,6 +47,9 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          {
+            resolve: 'gatsby-remark-figure-caption',
+          },
           // gatsby-remark-relative-images must
           // go before gatsby-remark-images
           {
