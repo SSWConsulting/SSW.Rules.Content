@@ -20,7 +20,7 @@ authors:
    <b>Note&#58;</b> Internal pages should be crawled automatically, so you only need to inform the root of the site.<br></p><h3 class="ssw15-rteElement-H3">WordPress 
    <br></h3><p>If your website is built on WordPress, make sure you have unselected the &quot;Discourage search engines from indexing this site&quot; option. This can be found under 
    <b>Reading Settings</b>&#58;<br></p><dl class="image"><dt>
-      <img src="wordpress-search-engines" alt="wordpress-search-engines" />
+      <img src="wordpress-search-engines.png" alt="wordpress-search-engines" />
    </dt><dd>Figure&#58; WordPress has an out-of-the-box functionality to discourage search engines to show the site</dd></dl>
 
 
