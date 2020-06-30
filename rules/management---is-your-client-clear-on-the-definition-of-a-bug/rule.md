@@ -58,12 +58,12 @@ authors:
 <p>If you see a bug in any software product, e.g. SSW Code Auditor, it is best to report the issue following the steps outlined the <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx">SSW Bug or Enhancement Reporting Standard</a>.</p>
 <div class="greyBox">Note&#58; The above is our definition. Others have different definitions that we do <strong>not</strong> subscribe to&#58;
 <ul>
-    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm" target="_blank">http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm</a>&#160;<img width="17" height="11" alt="You are about to leave the SSW site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.png" /> </li>
+    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm" target="_blank">http&#58;//www.ssw.com.au/ssw/Redirect/KB/KBQ720494JoelOnSoftware.htm</a>&#160;<img width="17" height="11" alt="You are about to leave the SSW site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> </li>
 </ul>
 </div>
 <div class="greyBox">You can also use the Wiki definition of &quot;Software Bug&quot; as a reference to understand this concept&#58;
 <ul>
-    <li><a shape="rect" href="http&#58;//en.wikipedia.org/wiki/Software_bug">Wikipedia Definition of Software Bug</a>&#160;<img width="17" height="11" alt="You are about to leave the SSW site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.png" /> </li>
+    <li><a shape="rect" href="http&#58;//en.wikipedia.org/wiki/Software_bug">Wikipedia Definition of Software Bug</a>&#160;<img width="17" height="11" alt="You are about to leave the SSW site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" /> </li>
 </ul>
 </div>
 
