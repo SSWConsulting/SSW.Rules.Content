@@ -21,7 +21,8 @@ module.exports = {
         remote: 'https://github.com/SSWConsulting/SSW.Rules.git',
         // Optionally supply a branch. If none supplied, you'll get the default branch.
         //53120-CreateIndexTemplate
-        branch: 'content-migration-staging',
+        //branch: 'content-migration-staging',
+        branch: 'FixImages',
         // Tailor which files get imported eg. import the docs folder from a codebase.
         patterns: ['categories/**/*.md', 'rules/**/*'],
       },
@@ -41,6 +42,31 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
-    { resolve: 'gatsby-transformer-remark' },
+    'gatsby-plugin-sharp',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-figure-caption',
+          },
+          // gatsby-remark-relative-images must
+          // go before gatsby-remark-images
+          {
+            resolve: 'gatsby-remark-relative-images',
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590,
+            },
+          },
+        ],
+      },
+    },
+    'gatsby-source-local-git',
   ],
 };
