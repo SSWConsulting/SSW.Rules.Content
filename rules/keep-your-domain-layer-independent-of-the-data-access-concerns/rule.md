@@ -24,6 +24,6 @@ redirects:
       </dt><dt>
          <img src="/PublishingImages/domain-layer-3.png" alt="domain-layer-3.png" />
       </dt><dd>Good Example&#58; Domain is lean, configuration for entity is contained within a separate configuration type</dd></dl><p>This is a big improvement! Now the customer entity is lean, and the configuration can be added to the persistence layer, completely separate of the domain. Now the domain is independent of data access concerns.</p><p>Learn more about this approach by reading about 
-      <a href="https&#58;//docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-2.0%22%20%5cl%20%22self-contained-type-configuration-for-code-first">self-contained configuration for code first</a>.​<br></p>
+      <a href="https&#58;//docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-2.0%22%20%5cl%20%22self-contained-type-configuration-for-code-first">self-contained configuration for code first</a>.​<br></p><p><br></p><p><img src="/SiteAssets/keep-your-domain-layer-independent-of-the-data-access-concerns/CA_Animation_4.gif" alt="CA_Animation_4.gif" style="margin&#58;5px;width&#58;650px;" /><br></p><p><strong>Figure&#58;&#160;​Database implementation is a Infrastructure concern not a Domain concern.&#160;​​</strong><strong></strong><br></p>
 
 
