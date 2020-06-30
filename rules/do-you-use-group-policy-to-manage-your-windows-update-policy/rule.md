@@ -19,7 +19,7 @@ authors:
    <b>Note&#58;</b> This rule applied to both client PCs and servers.</div><div>
    <br>
 </div><div>It is also one more reason developers don’t like to join a company domain on their personal laptops!<br><br></div><dl class="badImage"><dt> 
-      <img alt="Windows-Update-notification.png" src="/SiteAssets/do-you-use-group-policy-to-manage-your-windows-update-policy/Windows-Update-notification.png" style="width&#58;750px;" /> 
+      <img alt="Windows-Update-notification.png" src="Windows-Update-notification.png" style="width&#58;750px;" /> 
    </dt><dd>Bad Example - Windows 10 shows a ‘Restart now’ – do not accidentally press it! Your production server and your users won't be happy!</dd></dl><dl class="badImage"><dt>​<img src="updates-restart.jpg" alt="Accidently press Restart Now on a Production server and your users won't be happy!" /> </dt><dd>Bad example – Remember this nasty one from Vista days?</dd></dl><p>
    <b>Note&#58; </b>Server patching is also achievable via SCCM and you get more control over restarting windows like this. WSUS can also be used in conjunction with group policies to handle restart times better.</p><p>The best ensure you are still downloading updates but not installing them automatically is to use Group Policy.</p><ol><li>Create an Organization Unit (OU) in Active Directory, and put all your Production Servers in the OU<br> 
       <dl class="image"><dt> 

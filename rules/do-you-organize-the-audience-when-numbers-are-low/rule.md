@@ -23,6 +23,6 @@ authors:
 <strong>​​TIP&#58; </strong>To ensure you get the best shot possible, fill seating&#160;from the front back. It's​&#160;a good idea to use VIP signs and place them on the back row to prevent people sitting there initially. These can be moved later when all seats are filled at the front.
 <div>
    <br>
-</div><dl class="image"><dt><img src="/SiteAssets/organize-the-audience-when-numbers-are-low/vip.jpg" alt="vip.jpg" /></dt><dd>Figure&#58; Using a VIP sign on the back row to prevent people sitting there initially​<br></dd></dl>
+</div><dl class="image"><dt><img src="vip.jpg" alt="vip.jpg" /></dt><dd>Figure&#58; Using a VIP sign on the back row to prevent people sitting there initially​<br></dd></dl>
 
 

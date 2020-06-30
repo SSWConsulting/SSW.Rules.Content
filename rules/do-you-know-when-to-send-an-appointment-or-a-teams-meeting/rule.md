@@ -19,9 +19,9 @@ authors:
    </div><div> 
       <b>Important&#58;</b>&#160;Although the meeting app works great to organize Teamwork such as Scrum meetings or other client meetings, it is not very suitable for more global events such as a retreat or a conference. At SSW we use Microsoft Outlook appointments in those instances.<br></div><div>
       <dl class="badImage"><dt> 
-      <img src="/SiteAssets/run-your-meetings-through-teams/team%20meeting%20-%20bad%20example.jpg" alt="teams meeting - invitation link.jpg" style="width&#58;750px;height&#58;638px;" />
+      <img src="team%20meeting%20-%20bad%20example.jpg" alt="teams meeting - invitation link.jpg" style="width&#58;750px;height&#58;638px;" />
    <br></dt><dd>​​Figure&#58; Bad Example - This appointment was created using Outlook using Zoom -&#160;the team members&#160;needed to be added to the appointment&#160;individually and there are too many options on how to join the meeting.<br></dd></dl></div></div><dl class="goodImage"><dt> 
-      <img src="/SiteAssets/run-your-meetings-through-teams/team%20meetings%20-%20appointment%20from%20teams.jpg" alt="teams meeting - invitation link.jpg" style="width&#58;750px;" /> 
+      <img src="team%20meetings%20-%20appointment%20from%20teams.jpg" alt="teams meeting - invitation link.jpg" style="width&#58;750px;" /> 
    </dt><dd>​​Figure&#58; Good Example - I know this appointment was created in&#160;Microsoft Teams since it was created on behalf of the team (see sender) and at&#160;the bottom&#160;it&#160;has&#160;a link so that people can click and join the correct meeting (even without Teams installed)<br></dd></dl> </span>
 
 <dl class="image"><h3 class="ssw15-rteElement-H3">How to make a Teams Meeting<br></h3><dt>

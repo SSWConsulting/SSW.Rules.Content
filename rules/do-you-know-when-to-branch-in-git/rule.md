@@ -42,7 +42,7 @@ authors:
    <b>c) Create a commit - it will contain your changed files on your local PC&#160;</b></p><p>While working, commit frequently to this branch with nice, descriptive messages. For example, &quot;Added a field to hold the product category to our timesheet read model&quot; and &quot;added a column to the timesheet summary UI for the product category&quot;.</p><dl class="badImage"><dt> 
       <img alt="git commit -m &quot;Started report change&quot;" src="BadCommitMessage.png" data-pin-nopin="true" /> 
    </dt><dd>Figure&#58; Bad Example - Commit message does not describe what was changed</dd></dl><dl class="goodImage"><dt> 
-      <img alt="GoodCommitMessage.png" src="/SiteAssets/do-you-know-when-to-branch-in-git/GoodCommitMessage.png" data-pin-nopin="true" /> 
+      <img alt="GoodCommitMessage.png" src="GoodCommitMessage.png" data-pin-nopin="true" /> 
    </dt><dd>Figure&#58; Good Example - Commit message describes exactly what was changed.&#160;<br></dd></dl><p class="ssw15-rteElement-P"> 
    <b>d) Push your changes to your remote Feature Branch </b></p><h3>2) Open a pull request (to merge from your current branch to the master)<br></h3><p>When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to 
    <strong> master</strong>. The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, and to discuss any issues. &#160;Resolve these issues with more commits in the branch before continuing.</p><p>Tip&#58; A best practice is to have another developer review your work and then approve.<br></p><p class="ssw15-rteElement-GreyBox">It is easy to chalk this step up as busy-work, but it is one of the most valuable parts of the strategy<br></p><h3 class="ssw15-rteElement-H3">#assumption<br></h3><p>Deploy the changes to a staging environment. &#160;This allows the features to be tested before being merged to 
@@ -53,12 +53,12 @@ authors:
    <br></p><h3>3) Merge and Deploy (to master)<br></h3><p>Once everyone is happy and everything is tested, complete the pull request, which will merge back to 
    <strong> master</strong>. Ensure you are not using the &quot;Fast Forward&quot; merge option (git), or details about the branch will be lost - it will appear as though all work was done in 
    <strong>master</strong>. Being able to see the feature branches in the git log is very useful.&#160;</p><dl class="goodImage"><dt> 
-      <img alt="GoodGitHistory.png" src="/SiteAssets/do-you-know-when-to-branch-in-git/GoodGitHistory.png" /> 
+      <img alt="GoodGitHistory.png" src="GoodGitHistory.png" /> 
    </dt><dd>Figure&#58; Good Example - Each change is well described, small&#160;and in its own feature branch.</dd></dl><p class="ssw15-rteElement-P">
     After you completed the pull request, make sure you also delete the branch
     that you made the pull request of. Deleting your completed branch will not just help yourself in the long run, but also everyone else. Having too many branches especially a stale one will confuse developers on what &quot;may&quot; be in progress, moreover it would cause so much pain to the future developer when they have to do a clean-up and the branch author has left.<br>
 </p><dl class="badImage">
-    <img src="/SiteAssets/do-you-know-when-to-branch-in-git/bad-figure-stale-branches2.png" alt="bad-figure-stale-branches2.png" style="margin&#58;5px;width&#58;808px;" />
+    <img src="bad-figure-stale-branches2.png" alt="bad-figure-stale-branches2.png" style="margin&#58;5px;width&#58;808px;" />
     <br>
     <p></p><dd class="ssw15-rteElement-FigureBad">
         Figure&#58; Bad Example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging​<br>
@@ -67,12 +67,12 @@ authors:
     delete branch option.<br>
 </p><dl class="goodImage">
 
-    <img src="/SiteAssets/do-you-know-when-to-branch-in-git/delete%20branch%20in%20devops.png" alt="delete branch in devops.png" style="margin&#58;5px;" />&#160;
+    <img src="delete%20branch%20in%20devops.png" alt="delete branch in devops.png" style="margin&#58;5px;" />&#160;
     <p></p><dd class="ssw15-rteElement-FigureGood">
         ​​Figure&#58; Good Example - Automatically delete the branch after the pull
         request completion in Azure Devops<br>
     </dd></dl><dl class="goodImage">
-    ​​​​​<img src="/SiteAssets/do-you-know-when-to-branch-in-git/github%20settings.png" alt="github settings.png" style="margin&#58;5px;width&#58;808px;" />
+    ​​​​​<img src="github%20settings.png" alt="github settings.png" style="margin&#58;5px;width&#58;808px;" />
     <dd class="ssw15-rteElement-FigureGood">
         ​​Figure&#58; Good Example - Set the whole project to auto-delete branch after
         merging in GitHub<br>

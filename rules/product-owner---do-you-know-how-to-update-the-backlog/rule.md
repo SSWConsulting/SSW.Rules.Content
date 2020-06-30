@@ -22,7 +22,7 @@ authors:
       <dd class="ssw15-rteElement-FigureBad">Bad Example - This is a poor way to add a PBI as you can’t order emails by business prior​​ity​<br></dd></li><li> 
       <b>Visual Studio Team Services</b> - E.g. https&#58;//ssw.visualstudio.com <br> 
 ​         <dt>
-            <img title="image" alt="image" src="/SiteAssets/product-owner-do-you-know-how-to-update-the-backlog/RulesScrumUpdateBacklogGood.jpg" style="width&#58;600px;" /> 
+            <img title="image" alt="image" src="RulesScrumUpdateBacklogGood.jpg" style="width&#58;600px;" /> 
          </dt><dd class="ssw15-rteElement-FigureGood">​​​​Figure&#58; Good Example -&#160;VSTS&#160;allows you to enter an item into the backlog, in any&#160;priority order<br></dd></li><li> 
       <strong>Team Companion&#160;(Recommended)<br></strong><dl><dt> 
             <img src="RulesScrumUpdateBacklogBest.jpg" alt="" style="width&#58;600px;height&#58;450px;" />

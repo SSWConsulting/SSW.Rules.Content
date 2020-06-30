@@ -27,6 +27,6 @@ authors:
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f5fc27ce-af9d-4b57-ad64-3893dacc09e3">Done Video​​</a></li><li>Check the Acceptance Criteria for notes about email attachments (as per 
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=5baf5235-c66a-4e3d-9b27-55a4859ae8a2">Do you attach emails to the PBI?​</a>).​<br></li></ol>​<span style="line-height&#58;1.6;">Congrats. Your PBI is now ready to be demonstrated during your Sprint Review! (Note&#58; This is also the same process you follow for a Bug work&#160;item)</span> 
 <dl class="goodImage"><dt>
-      <a href="./livecycle.jpg"></a><img src="/SiteAssets/do-you-know-the-3-steps-to-a-pbi/3StepsToAPBI.jpg" alt="3StepsToAPBI.jpg" style="width&#58;750px;" />​ </dt><dd>Good Figure&#58; This image includes all the important steps in a PBI lifecycle. Print this &quot;<a href="/Documents/3StepsToAPBI.pdf">SSW 3 Step​s to a PBI pdf</a>&quot; and put it on your 'War Room' wall<br></dd></dl>
+      <a href="./livecycle.jpg"></a><img src="3StepsToAPBI.jpg" alt="3StepsToAPBI.jpg" style="width&#58;750px;" />​ </dt><dd>Good Figure&#58; This image includes all the important steps in a PBI lifecycle. Print this &quot;<a href="/Documents/3StepsToAPBI.pdf">SSW 3 Step​s to a PBI pdf</a>&quot; and put it on your 'War Room' wall<br></dd></dl>
 
 

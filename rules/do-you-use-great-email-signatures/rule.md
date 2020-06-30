@@ -21,7 +21,7 @@ authors:
 
 <h3>Mobile&#160;Signature&#160;<br></h3><p>Use the &quot;mobile signature&quot; when sending emails from&#160;your phone.<b></b></p><p class="ssw15-rteElement-GreyBox">Get Outlook for Android</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example - This default signature sucks​<br><br></dd><p class="ssw15-rteElement-GreyBox">Thanks, Adam<br>www.ssw.com.au&#160;&#160;|​&#160;+61 4 1985 1995&#160;</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example – Add your name, URL and your phone number​<br></dd><h3>PC Long Signature</h3><p>
    <b>Use the complete &quot;long signature&quot; when sending a new email or appointment&#160;to a client.</b></p><p>This is created in HTML and goes well on emails with Word used as the email editor. Include some product advertising, like&#160;what's new&#160;on your&#160;monthly newsletter. It should have the company colors.<br></p><dl class="image"><dt> 
-      <img src="/SiteAssets/great-email-signatures/outlook-signature.png" alt="outlook-signature.png" style="max-width&#58;100%;" /> 
+      <img src="outlook-signature.png" alt="outlook-signature.png" style="max-width&#58;100%;" /> 
       <br> 
    </dt><dd>Figure&#58; A great long signature for PC<br></dd></dl> 
 <span style="line-height&#58;1.6;">However, you shouldn't use your long&#160;signature on 
@@ -35,7 +35,7 @@ authors:
    <b>How to set it up in OWA</b></p><ol><li>Open OWA (e.g. http&#58;//mail.northwind.com/owa)<br></li><li>Click &quot;Options&quot; on the top right side. 
       <br></li><li>Go Settings | Mail and make following changes&#58; 
       <br></li></ol><dl class="image"><dt> 
-      <img src="/SiteAssets/great-email-signatures/owa-signatures.png" alt="owa-signatures.png" style="max-width&#58;100%;width&#58;750px;height&#58;574px;" /> 
+      <img src="owa-signatures.png" alt="owa-signatures.png" style="max-width&#58;100%;width&#58;750px;height&#58;574px;" /> 
    </dt><dd>Figure&#58; Add your 'Email Signature' and save<br></dd></dl><p>
    <b>How to set it up in&#160;Office 365</b><br></p><ol><li>Open&#160;Outlook in Office 365&#160;(<a href="https&#58;//outlook.office.com/mail/inbox">http&#58;//outlook.office.com/mail/inbox</a>)&#160;</li><li>Click&#160;the&#160;&quot;Settings&quot;&#160;cog&#160;on the top right&#160;corner of the Window<br></li><li>Click on “View all Outlook settings” at the bottom of the&#160;Settings&#160;panel 
       <dl class="image"><dt><img src="outlook-settings-signature.png" alt="outlook-settings-signature.png" style="width&#58;750px;" /></dt><dd>Figure&#58;&#160;Where to find &quot;View all Outlook settings&quot;<br></dd></dl></li><li>In the &quot;Settings&quot;&#160;window that pops up, go to&#58; Mail&#160;|&#160;Compose and reply.&#160;</li><li>Add your email signature and click&#160;&quot;Save&quot;<br><br></li></ol>

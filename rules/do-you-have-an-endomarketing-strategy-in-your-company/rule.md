@@ -19,7 +19,7 @@ authors:
    <br></div><div style="text-align&#58;justify;"><div>
    </div><div>
 </div></div><div style="text-align&#58;justify;">The main benefits of this strategy are&#58;</div><ul style="text-align&#58;justify;"><li>It generates greater motivation for your employees and at the same time make your team to feel more connected with the business brand</li><li>Your company will attract more qualified professionals</li><li>Your clients will be well assisted by your happy team</li><li>Rotation of workers will decrease as you increase their satisfaction and commitment to the organization will increase at the same rate</li><li>It also improves workers’ mental health and quality of life which, in the long term, will reduce the number of casualties in the company<br></li></ul><div style="text-align&#58;justify;">
-   ​</div><div style="text-align&#58;justify;"><dl class="ssw15-rteElement-ImageArea"><img src="/SiteAssets/do-you-have-an-endomarketing-strategy-in-your-company/bunny.jpg" alt="bunny.jpg" style="margin&#58;5px;width&#58;808px;" />
+   ​</div><div style="text-align&#58;justify;"><dl class="ssw15-rteElement-ImageArea"><img src="bunny.jpg" alt="bunny.jpg" style="margin&#58;5px;width&#58;808px;" />
    </dl>&#160;</div><dd class="ssw15-rteElement-FigureGood"><div style="text-align&#58;justify;">
 Good Example – Figure&#58; Celebrate special dates with your team!</div><br></dd>
 

@@ -69,9 +69,9 @@ authors:
    <br>
    <strong>NOTE</strong>&#58; The top voted suggestion may not be technical, and the prototype or proof of concept doesn't have to be a technical solution. It coud very well be a protoype applciation or website, but equally could be a new business process or a video.</div><div>
    <br>
-</div><div></div><dl class="goodImage"><dt>​<img src="/SiteAssets/do-you-use-the-brains-of-your-company/MicrosoftTeams-image.png" alt="office-christmas-party.jpg" style="width&#58;650px;height&#58;500px;" /><br></dt><dd>Good​ Example&#58; A brainstorming session is like&#160;an office party but more productive​</dd></dl><dl class="goodImage"><dt> 
-      <img src="/SiteAssets/do-you-use-the-brains-of-your-company/2019-12-07_16-06-18.png" alt="2019-12-07_16-06-18.png" style="width&#58;750px;" /> 
-   </dt><dd>​​​​Good Example&#58; A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session</dd></dl><dl class="goodImage"><dt>​​<img src="/SiteAssets/do-you-use-the-brains-of-your-company/2019-12-07_16-26-04.png" alt="2019-12-07_16-26-04.png" style="width&#58;750px;" /></dt><dd>​​Good Example&#58; The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!​<br></dd></dl>
+</div><div></div><dl class="goodImage"><dt>​<img src="MicrosoftTeams-image.png" alt="office-christmas-party.jpg" style="width&#58;650px;height&#58;500px;" /><br></dt><dd>Good​ Example&#58; A brainstorming session is like&#160;an office party but more productive​</dd></dl><dl class="goodImage"><dt> 
+      <img src="2019-12-07_16-06-18.png" alt="2019-12-07_16-06-18.png" style="width&#58;750px;" /> 
+   </dt><dd>​​​​Good Example&#58; A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session</dd></dl><dl class="goodImage"><dt>​​<img src="2019-12-07_16-26-04.png" alt="2019-12-07_16-26-04.png" style="width&#58;750px;" /></dt><dd>​​Good Example&#58; The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!​<br></dd></dl>
 <br>
 
 

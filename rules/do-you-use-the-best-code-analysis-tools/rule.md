@@ -48,9 +48,9 @@ authors:
    <a href="https&#58;//docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview">https&#58;//docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview</a><br></p>&#160;
 <h3 class="ssw15-rteElement-H3">Level 8</h3><div>The gold standard is to use 
    <a href="https&#58;//www.sonarqube.org/" target="_blank">SonarQube</a>, which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt</div><dl class="image"><dt> 
-      <img src="/SiteAssets/do-you-use-the-best-code-analysis-tools/2016-06-08_12-59-38.png" alt="2016-06-08_12-59-38.png" style="width&#58;750px;" /> 
+      <img src="2016-06-08_12-59-38.png" alt="2016-06-08_12-59-38.png" style="width&#58;750px;" /> 
    </dt><dd> Figure&#58;&#160; SonarQube workflow with Visual Studio and Azure DevOps​<br></dd></dl><dl class="image"><dt> 
-      <img src="/SiteAssets/do-you-use-the-best-code-analysis-tools/2016-06-08_12-59-53.png" alt="2016-06-08_12-59-53.png" />  
+      <img src="2016-06-08_12-59-53.png" alt="2016-06-08_12-59-53.png" />  
    </dt><dd> Figure&#58; SonarQube gives you the changes in code analysis results between each check-in<br><br><br></dd></dl>
 
 

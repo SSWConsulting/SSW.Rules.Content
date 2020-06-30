@@ -40,7 +40,7 @@ authors:
 <p>Examples&#58;</p>
 <ul>
     <li><strong>Small bug</strong> – Text on a label is spelled incorrectly </li>
-    <li><strong>Big bug</strong> - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key</li></ul><p></p><p>​​<img src="/SiteAssets/bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog/2016-02-08_12-02-29.png" alt="2016-02-08_12-02-29.png" style="margin&#58;5px;width&#58;651px;" /><br></p><p><br></p><dd class="ssw15-rteElement-FigureNormal">
+    <li><strong>Big bug</strong> - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key</li></ul><p></p><p>​​<img src="2016-02-08_12-02-29.png" alt="2016-02-08_12-02-29.png" style="margin&#58;5px;width&#58;651px;" /><br></p><p><br></p><dd class="ssw15-rteElement-FigureNormal">
 ​​​​​​​​Figure&#58; Bugs can be added &quot;out of sprint&quot; directly into the product backlog in TFS</dd><p class="ssw15-rteElement-P">T​he Visual Studio team provides good guidance on <a href="https&#58;//www.visualstudio.com/en-us/docs/work/backlogs/manage-bugs">managing bugs in VSTS</a><br></p><dd class="ssw15-rteElement-FigureNormal"><br></dd>
 
 

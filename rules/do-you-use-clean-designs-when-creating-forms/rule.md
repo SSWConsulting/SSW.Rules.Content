@@ -36,9 +36,9 @@ authors:
    </dt><dd>Figure&#58; The main menu of one of our first Access 2007 UIs. It looks even better than the revamped Access 97 application</dd></dl><dl class="goodImage"><dt> 
       <img src="Aqua_Valuation.jpg" alt="Aqua_Valuation.jpg" style="margin&#58;5px;width&#58;750px;" /> 
    </dt><dd>Figure&#58; Note the Action buttons in the top right hand corner - they are based on the Access 2007 templates</dd></dl><dl class="goodImage"><dt> 
-      <img src="/SiteAssets/use-clean-designs-when-creating-forms/Aqua_PickerForm.jpg" alt="Aqua_PickerForm.jpg" style="margin&#58;5px;" /> 
+      <img src="Aqua_PickerForm.jpg" alt="Aqua_PickerForm.jpg" style="margin&#58;5px;" /> 
    </dt><dd>Figure&#58; This picker form is based on a web-style picker UI such as Hotmail so users have a familiar UI</dd></dl><dl class="goodImage"><dt> 
-      <img src="/SiteAssets/use-clean-designs-when-creating-forms/Aqua_Agreement.jpg" alt="Aqua_Agreement.jpg" style="margin&#58;5px;width&#58;750px;height&#58;648px;" /> 
+      <img src="Aqua_Agreement.jpg" alt="Aqua_Agreement.jpg" style="margin&#58;5px;width&#58;750px;height&#58;648px;" /> 
    </dt><dd>Figure&#58; With the use of frames with background colours, we have visually grouped controls</dd></dl>
 
 

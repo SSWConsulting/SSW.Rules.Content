@@ -22,6 +22,6 @@ authors:
          <span style="line-height&#58;19.5px;">What is James working on?</span></li></ul><div>This is where a tool like Slack comes in handy. It can help your team aggregate this information from many separate sources into one dedicated channel for your project. The other benefits also include a new team member instantly having access to the full history of the channel as well so no conversations are lost.<br></div></div> <br> </span>
 
 <p>​​At SSW we integrate Slack with&#58;</p><ul><li>Octopus Deploy<br></li><li>RayGun.io&#160;</li><li>TeamCity</li><li>Visual Studio</li></ul><p>Even better, you can create bots in slack to manage things like deployments and updating release notes.</p>
-<dl class="goodImage"><dt><img src="/SiteAssets/do-you-use-slack-as-part-of-your-devops/2016-06-06_11-22-03.png" alt="2016-06-06_11-22-03.png" style="width&#58;808px;" /></dt><dd>Good example - One centralized location for team chat, deployment issues, exceptions and TFS changes</dd></dl>
+<dl class="goodImage"><dt><img src="2016-06-06_11-22-03.png" alt="2016-06-06_11-22-03.png" style="width&#58;808px;" /></dt><dd>Good example - One centralized location for team chat, deployment issues, exceptions and TFS changes</dd></dl>
 
 

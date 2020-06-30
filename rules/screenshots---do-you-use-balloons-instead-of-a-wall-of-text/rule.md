@@ -22,7 +22,7 @@ authors:
 <img src="balloon-overload.jpg" alt="Balloon Bad Example" class="ms-rteCustom-ImageArea" style="margin-bottom&#58;-5px;" /> 
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example – Balloon overload</span><br><img src="balloon-not-needed.JPG" alt="Balloon good example" class="ms-rteCustom-ImageArea" style="margin-bottom&#58;-5px;" /><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – See 3 balloons were not needed </span>
 <br>
-<img src="/SiteAssets/screenshots-do-you-use-balloons-instead-of-a-wall-of-text/arrow_example.png" alt="Arrow good example" class="ms-rteCustom-ImageArea" style="margin-bottom&#58;-5px;" />
+<img src="arrow_example.png" alt="Arrow good example" class="ms-rteCustom-ImageArea" style="margin-bottom&#58;-5px;" />
 <span class="ms-rteCustom-FigureGood">​Figure&#58; Good Example - Sometimes an arrow is all that is needed</span><br>​<iframe width="560" height="315" src="https&#58;//www.youtube.com/embed/5TB61bqQKtE" frameborder="0" style="margin-bottom&#58;-5px;"></iframe><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example – Betsy Weber Techsmith - Part 1 - Creator of Snagit. See 
    <a href="http&#58;//tv.ssw.com/204/betsy-weber-teched-interview">full series here</a></span>​
 

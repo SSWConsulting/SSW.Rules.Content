@@ -19,9 +19,9 @@ authors:
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=133b7e51-2be3-429f-9d08-90d5638df181">Rules to Better PowerPoint Presentations</a>.<br> 
       <ul>During this meeting, you can discuss&#58; 
          <li>Marketing activities you worked on<br></li><li>Results – Highlight key results<br></li><li>Plan for next month, including&#160;budget<br></li></ul></li><li>After the meeting, send an email with what was discussed, what you worked on, and what results you have achieved. Of course, don’t forget to include the approved budget.<br></li><li>Keep this information in a report-style document stored in your Intranet that hopefully, you can look back to compare results.<br></li></ol><dl class="badImage"><dt>
-      <img src="/SiteAssets/do-you-analyse-your-results-once-a-month/marketing%20overview%20old.png" alt="marketing overview old.png" style="width&#58;800px;" />
+      <img src="marketing%20overview%20old.png" alt="marketing overview old.png" style="width&#58;800px;" />
    </dt><dd>Bad Example - Figure&#58; tracking just a few information won't help you see the big picture</dd></dl><dl class="goodImage"><dt>
-      <img src="/SiteAssets/do-you-analyse-your-results-once-a-month/Screen%20Shot%202020-05-01%20at%204.17.26%20pm.png" alt="Screen Shot 2020-05-01 at 4.17.26 pm.png" style="width&#58;800px;" />
+      <img src="Screen%20Shot%202020-05-01%20at%204.17.26%20pm.png" alt="Screen Shot 2020-05-01 at 4.17.26 pm.png" style="width&#58;800px;" />
    </dt><dd>Good Example - Figure&#58; tracking all your marketing efforts will help you see where you can improve and what you are already on the right track​​<br></dd></dl>
 
 

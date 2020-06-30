@@ -27,9 +27,9 @@ authors:
       <b>Video</b> - Have a microfiber cloth and wipe off the lens from time to time.<br></li><li>
       <b>Text</b> -&#160;It's always helpful to confirm things you're talking about with typed text during the call (Especially helpful for people with English as a second language).<br></li></ul><p>
    <strong>Tip&#58;</strong> Help the other person with&#160;following&#160;this rule&#160;by taking a screenshot and giving them a mark /10 with good and bad feedback on the call quality&#160;and background.</p><dl class="badImage"><dt>
-      <img src="/SiteAssets/do-you-go-beyond-just-using-skype-chat/Bad-Video-Background-orgn.png" alt="" /> 
+      <img src="Bad-Video-Background-orgn.png" alt="" /> 
    </dt><dd>Figure&#58; Bad Example - Ugly​​​ background showing an a​ir conditioner​​​<br></dd></dl><dl class="goodImage"><dt>
-      <img src="/SiteAssets/do-you-go-beyond-just-using-skype-chat/Good-Video-Background-orgn.png" alt="" /> 
+      <img src="Good-Video-Background-orgn.png" alt="" /> 
       <br>
    </dt><dd>​Figure&#58; Good Example - Nice background​​​<br></dd></dl>
 

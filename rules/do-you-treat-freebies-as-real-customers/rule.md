@@ -34,7 +34,7 @@ A better approach is for the concreter to offer the discount AND book you in as 
          <br>You will receive an invoice with the items on it at $0.&#160;<br><br>It would be great if you could give us feedback on anything that could improve the experience (just as if you were a normal client).<br><br>Regards,<br>Adam<br></p><p>
          <strong><br>Zero Invoices&#58;</strong> When entering timesheets for free work, set your rate to $0. 
          <br></p><dl class="goodImage"><dt> 
-            <img src="/SiteAssets/do-you-treat-freebies-as-real-customers/zero-timesheet.png" alt="zero-timesheet.png" /> 
+            <img src="zero-timesheet.png" alt="zero-timesheet.png" /> 
          </dt><dd>Figure&#58; It is a good idea to set your rate to $0 and show it on the invoice<br></dd></dl></li></ol>
 
 

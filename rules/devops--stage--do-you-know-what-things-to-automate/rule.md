@@ -19,7 +19,7 @@ authors:
       <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=c8c1e915-7d29-4073-b668-61b1c8f75fa5"> 
          <span class="s2">Rules to Better Continuous Deployments with TFS</span></a></span>. 
    <br><br> </p><dl class="image"><dt> 
-      <img src="/SiteAssets/things-to-automate-stage-2/2020-03-23_14-08-39.jpg" alt="2020-03-23_14-08-39.jpg" style="width&#58;808px;" /> 
+      <img src="2020-03-23_14-08-39.jpg" alt="2020-03-23_14-08-39.jpg" style="width&#58;808px;" /> 
    </dt><dd>Figure&#58; In Azure DevOps you can automate application deployment to a staging environment and automatically run tests before deploying to production​<br></dd>​</dl>​ 
 
 
