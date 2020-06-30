@@ -20,6 +20,6 @@ authors:
 </ul>
  </span>
 
-<p>Failing to follow this rule encourages developers and creators to focus on new 'interesting' functionality&#160;which is exactly what you don't want...<br>You must be strong in the face of pressures from project plan scheduling!<br></p><p class="ssw15-rteElement-GreyBox"><b>Note&#58;</b> The principle of this bug rule can apply to more than just developers.<br>​<br>Let's suppose&#160;you work in Marketing and have a problem with a hypothetical&#160;report. You should fix that issue first, before adding new information&#160;to the report.<br></p>
+<p>Failing to follow this rule encourages developers and creators to focus on new 'interesting' functionality&#160;which is exactly what you don't want...<br>You must be strong in the face of pressures from project plan scheduling!<br></p><p class="greyBox"><b>Note&#58;</b> The principle of this bug rule can apply to more than just developers.<br>​<br>Let's suppose&#160;you work in Marketing and have a problem with a hypothetical&#160;report. You should fix that issue first, before adding new information&#160;to the report.<br></p>
 
 

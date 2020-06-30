@@ -19,7 +19,7 @@ authors:
 <p>The evaluation is done by giving constructive comments in “Start, Stop, Continue”<br>
 e.g. (Start...) checking in with better comments&#160;&#160;<br>
 e.g. (Stop...) coding without a user story​&#160;&#160; <br>
-e.g. (Continue...) with your helpful SEO comments</p><p class="ssw15-rteElement-GreyBox"><img src="PeerEvaluation.png" alt="PeerEvaluation.png" style="margin&#58;5px;width&#58;650px;" />​<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Example email​​</dd>
+e.g. (Continue...) with your helpful SEO comments</p><p class="greyBox"><img src="PeerEvaluation.png" alt="PeerEvaluation.png" style="margin&#58;5px;width&#58;650px;" />​<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Example email​​</dd>
 
 
 

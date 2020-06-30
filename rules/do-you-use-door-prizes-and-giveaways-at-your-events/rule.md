@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p>A golden rule of marketing is&#58;</p><p class="ssw15-rteElement-GreyBox">
+<span class='intro'> <p>A golden rule of marketing is&#58;</p><p class="greyBox">
    <em>&quot;People love gifts and surprises&quot;</em></p>
 <p>Taking this into consideration&#58; a great and effective way to promote your company is to give people free stuff. A very simple yet effective method. Each month at the Sydney .NET User Group, attendees receive SSW show bags filled with free software and company brochures.&#160;</p> </span>
 

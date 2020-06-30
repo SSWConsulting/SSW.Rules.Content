@@ -45,7 +45,7 @@ authors:
       <img alt="GoodCommitMessage.png" src="GoodCommitMessage.png" data-pin-nopin="true" /> 
    </dt><dd>Figure&#58; Good Example - Commit message describes exactly what was changed.&#160;<br></dd></dl><p class="ssw15-rteElement-P"> 
    <b>d) Push your changes to your remote Feature Branch </b></p><h3>2) Open a pull request (to merge from your current branch to the master)<br></h3><p>When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to 
-   <strong> master</strong>. The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, and to discuss any issues. &#160;Resolve these issues with more commits in the branch before continuing.</p><p>Tip&#58; A best practice is to have another developer review your work and then approve.<br></p><p class="ssw15-rteElement-GreyBox">It is easy to chalk this step up as busy-work, but it is one of the most valuable parts of the strategy<br></p><h3 class="ssw15-rteElement-H3">#assumption<br></h3><p>Deploy the changes to a staging environment. &#160;This allows the features to be tested before being merged to 
+   <strong> master</strong>. The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, and to discuss any issues. &#160;Resolve these issues with more commits in the branch before continuing.</p><p>Tip&#58; A best practice is to have another developer review your work and then approve.<br></p><p class="greyBox">It is easy to chalk this step up as busy-work, but it is one of the most valuable parts of the strategy<br></p><h3 class="ssw15-rteElement-H3">#assumption<br></h3><p>Deploy the changes to a staging environment. &#160;This allows the features to be tested before being merged to 
    <strong>master</strong>.</p><p class="ssw15-rteElement-InfoBox">Some prefer to move this step&#160;to after the merge, especially when using a release management tool like VSTS Release or Octopus Deploy (see 
    <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=e2608875-5b0b-4215-bee8-8ffd966dc972">Do you use the best deployment tool</a>). &#160;If you decide to go this route, remember that 
    <strong>master</strong> should remain deployable and production ready at all times and that all branches come from 
@@ -77,7 +77,7 @@ authors:
         ​​Figure&#58; Good Example - Set the whole project to auto-delete branch after
         merging in GitHub<br>
     </dd></dl>​
-<p class="ssw15-rteElement-GreyBox">Once merged, 
+<p class="greyBox">Once merged, 
    <b> master</b> should immediately and automatically be deployed (in a perfect world,&#160;to production).</p>
 
 

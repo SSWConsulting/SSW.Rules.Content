@@ -24,7 +24,7 @@ authors:
       <a href="https&#58;//en.wikipedia.org/wiki/Multi-factor_authentication">MFA</a>?<br></li><li>Scope - Do you need to share the identity across multiple applications?</li><li>Volume -&#160;Do you have an estimate for how many users you need to support?​</li></ol><p></p><p class="ssw15-rteElement-P">Without the answers to these questions, it will be difficult to choose the right option. With the answers to these questions, you can use the flow charts below to help you choose the right solution.<br></p><h3 class="ssw15-rteElement-H3"> External Applications<br></h3><dl class="image"><dt> 
       <img src="Flow%20Chart%20-%20External.png" alt="Flow Chart - External.png" /> 
    </dt><dd>Figure&#58; WebAPI (Public facing/consumer Application) - Authentication selection flow chart<br></dd></dl><p class="ssw15-rteElement-P">
-   <b>Example Template to Customer​&#58;</b><br></p><p class="ssw15-rteElement-GreyBox"> 
+   <b>Example Template to Customer​&#58;</b><br></p><p class="greyBox"> 
    <strong>Scenario&#58;</strong><br>Scope - You are building a consumer facing service that will have multiple clients, including a <a href="https&#58;//docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net">SPA​</a> and a mobile app. 
    <br>Social - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social login or don't want to use it. 
    <br>All users will have the same level of access once logged in. 
@@ -39,7 +39,7 @@ authors:
 <h3 class="ssw15-rteElement-H3"> Internal Applications<br></h3><dl class="image"><dt>
       <img src="Flow%20Chart%20-%20Internal.png" alt="Flow Chart - Internal.png" />
    </dt><dd>Figure&#58; WebAPI (Internal Enterprise Application) - Authentication selection flow chart</dd></dl><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P">
-   <strong>Example Template to Customer&#58;</strong><br></p><p class="ssw15-rteElement-GreyBox"> 
+   <strong>Example Template to Customer&#58;</strong><br></p><p class="greyBox"> 
    <strong>Scenario&#58;</strong><br>Scope - You have an internal enterprise application, which will support approximately 1,000 users. 
    <br>You already have Active Directory in place, and are syncing with an Azure AD tenant. 
    <br>Your users will need to access this application from anywhere. 

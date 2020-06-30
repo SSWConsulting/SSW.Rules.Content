@@ -17,7 +17,7 @@ authors:
 
 <span class='intro'> <p class="ssw15-rteElement-P">​Use the word &quot;UPDATED​&quot; clearly (in capitals and in red for example). The date should also be added if relevant.<br></p> </span>
 
-<p>Example&#58;<br></p><p class="ssw15-rteElement-GreyBox">
+<p>Example&#58;<br></p><p class="greyBox">
    <span style="color&#58;#ff0000;">​UPDATED&#58;</span> 1 August 2010 [what you changed]<br></p><dl class="image"><dt> 
       <img src="RulesBloggingUpdate_OKPeter.jpg" alt="" /> 
    </dt><dd>Figure&#58; OK example&#160;– Although Peter has the right idea, he needs to think more of a global audience - 

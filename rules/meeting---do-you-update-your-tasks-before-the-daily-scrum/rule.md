@@ -31,6 +31,6 @@ comments prior to the daily Scrum meeting.&#160;When&#160;the Scrum meeting is i
 <iframe width="680" height="383" src="https&#58;//www.youtube.com/embed/YR84qH6d7QE?rel=0" frameborder="0"></iframe> 
 <h4>Long Version (12&#58;15​)</h4> 
 <iframe width="680" height="383" src="https&#58;//www.youtube.com/embed/-UUrLxNBK_g?rel=0" frameborder="0"></iframe>
-<br>&#160;<p class="ssw15-rteElement-GreyBox"><b>Note&#58;</b> If you are updating the details of a PBI then follow the rule <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=efd6c91e-7cc5-4473-a299-9104c8fd6e0d">Do you know when you use @ mentions in a PBI?​</a>​​<br></p>
+<br>&#160;<p class="greyBox"><b>Note&#58;</b> If you are updating the details of a PBI then follow the rule <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=efd6c91e-7cc5-4473-a299-9104c8fd6e0d">Do you know when you use @ mentions in a PBI?​</a>​​<br></p>
 
 

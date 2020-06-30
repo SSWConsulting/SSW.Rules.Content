@@ -30,7 +30,7 @@ authors:
 <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#UsingSourceControl">Do you know the benefits of Source Control?</a> 
 <p> 
    <br> 
-</p><div><p class="ssw15-rteElement-GreyBox"> 
+</p><div><p class="greyBox"> 
       <b>​Suggestion to Microsoft&#58;</b> allow us to visualize the developers responsible for the bad code (currently and historically)&#160;using CodeLens.<br></p></div>
 
 

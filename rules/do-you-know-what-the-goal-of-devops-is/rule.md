@@ -15,7 +15,7 @@ authors:
 
 <span class='intro'> <div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"><iframe width="853" height="480" src="https&#58;//www.youtube.com/embed/_I94-tJlovg?rel=0" frameborder="0"></iframe>&#160;</div><br> </span>
 
-<p><b>You should know what's going on with your errors and usage.</b></p><p>The goal should be&#58;&#160;</p><p class="ssw15-rteElement-GreyBox">A client calls and says&#58;&#160;&quot;I'm having problems with your software.&quot;<br></p><p class="ssw15-rteElement-GreyBox">Your answer&#58; &quot;Yes I know. Each morning we check the health of the app and we already saw a new exception. So I already have an engineer working on it.&quot;​<br></p><div>
+<p><b>You should know what's going on with your errors and usage.</b></p><p>The goal should be&#58;&#160;</p><p class="greyBox">A client calls and says&#58;&#160;&quot;I'm having problems with your software.&quot;<br></p><p class="greyBox">Your answer&#58; &quot;Yes I know. Each morning we check the health of the app and we already saw a new exception. So I already have an engineer working on it.&quot;​<br></p><div>
    <span style="line-height&#58;21px;">Take this survey to find out your DevOps index&#58; 
       <br></span></div><div>
    <span style="line-height&#58;21px;"> </span>

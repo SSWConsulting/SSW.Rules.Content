@@ -13,7 +13,7 @@ authors:
 
 <span class='intro'> It is important install your printers automatically to all clients that logon to the domain.<br> </span>
 
-<p>This can be achieved via Group Policy. This can be set up easily in​ a Microsoft Windows 2008 Server R2&#58;<br></p><p class="ssw15-rteElement-GreyBox"><b>Note&#58; </b>It is better to deploy printers via GPO preferences to end users and also for large-scale environments. There are third-party&#160;products eg. Tricerat or Printer Logic which makes centralizing printer queues and servers more efficiently.<br></p>
+<p>This can be achieved via Group Policy. This can be set up easily in​ a Microsoft Windows 2008 Server R2&#58;<br></p><p class="greyBox"><b>Note&#58; </b>It is better to deploy printers via GPO preferences to end users and also for large-scale environments. There are third-party&#160;products eg. Tricerat or Printer Logic which makes centralizing printer queues and servers more efficiently.<br></p>
 <ul>
 <li>From Server Manager add the Print Services role</li>
 <img class="ms-rteCustom-ImageArea" alt="Install the Print Services role" src="install-print-roles.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Install the Print Services role</span>

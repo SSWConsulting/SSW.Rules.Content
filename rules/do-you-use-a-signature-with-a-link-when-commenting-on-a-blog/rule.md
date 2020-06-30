@@ -11,7 +11,7 @@ authors:
 
 
 
-<span class='intro'> <p class="ssw15-rteElement-P">​Backlinks are a big part of Google's ranking algorithm, and one way to take advantage of that is to make sure that you always comment on people's blogs... this could be to ask a question, or just to say thanks, but make sure you add a link back to your company website after your name.​<br></p><p class="ssw15-rteElement-GreyBox">Thank you, that worked for me<br>Ulysses Maclaren 
+<span class='intro'> <p class="ssw15-rteElement-P">​Backlinks are a big part of Google's ranking algorithm, and one way to take advantage of that is to make sure that you always comment on people's blogs... this could be to ask a question, or just to say thanks, but make sure you add a link back to your company website after your name.​<br></p><p class="greyBox">Thank you, that worked for me<br>Ulysses Maclaren 
       <a href="https&#58;//ssw.com.au/">www.ssw.com.au​</a>&#160;<span style="background-color&#58;#ffffff;">​​</span></p><dd class="ssw15-rteElement-FigureGood">
 Figure&#58; Good example - adding a signature with URL in your blog ​​​comment</dd> </span>
 

@@ -30,7 +30,7 @@ authors:
 </div><h3 class="ssw15-rteElement-H3">​ Preparation​​​​​ </h3><p class="ssw15-rteElement-P">
    <strong>1. Email Attendees</strong><br></p><p class="ssw15-rteElement-P">Start by sending out an email to&#160;staff,&#160;inviting them to send through their suggestions in advance.<br>e.g.&#58;</p><p class="ssw15-rteElement-P">
    <br> 
-</p><p class="ssw15-rteElement-P"></p><p class="ssw15-rteElement-GreyBox">​ 
+</p><p class="ssw15-rteElement-P"></p><p class="greyBox">​ 
    <span style="color&#58;#cc3300;">Hi All,</span><br><br>I’m really excited about our brainstorming day! I hope you’re all thinking about what you would like to work on.<br><br> To prepare for our Brainstorming day, send Adam and Matt W. something that you would like work on as a group.<br> Eg. Our awesome SophieBot project came out of the Melbourne Brainstorming Session last year. ​ 
 <br>   <br>See video on&#58; 
    <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=0ce40380-0daa-4f75-b289-de8f7de6683e">https&#58;//rules.ssw.com.au/do-you-use-the-brains-of-your-company</a>

@@ -43,7 +43,7 @@ authors:
       <img alt="image003.png" src="image003.png" /> 
    </dt><dd>Figure&#58; Start with the Minimum Recommended Rules, and then ratched up.</dd></dl><h3>Level 7</h3><p>Is to document any rules you've turned off.</p><p>All of these rules allow you to disable rules that you're not concerned about.&#160; There's nothing wrong with&#160;disabling rules you don't want checked, but you should make it clear to developers why those rules were removed.</p><p>Create a 
    <b>GlobalSuppressions.cs</b> file in your project with the rules that have been turned off and why.<br></p><dl class="image"><dt><img src="suppressions-file.png" alt="suppressions-file.png" style="width&#58;750px;" /></dt><dd>Figure&#58; The suppressions file tells Code Analysis which rules it should disable for specific code blocks</dd></dl>
-<p class="ssw15-rteElement-GreyBox">
+<p class="greyBox">
    <b>More Information&#58;</b>&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d6d34c31-ac6a-49a4-876a-f9d30e1ab78a">Do you make instructions at the beginning of a project and improve them gradually?</a>&#160;and 
    <a href="https&#58;//docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview">https&#58;//docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview</a><br></p>&#160;
 <h3 class="ssw15-rteElement-H3">Level 8</h3><div>The gold standard is to use 
