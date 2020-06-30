@@ -15,7 +15,7 @@ authors: []
 
   <p>So document the steps to undertake prior to starting and you will present in a snappier fashion and not need to say the lame statement &quot;hope the demo gods are kind to me today&quot;. </p>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="preslide.gif" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="preslide.png" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use a Pre-setup slide prior to the presentation and your pace will be snappier</dd>
 </dl>
 

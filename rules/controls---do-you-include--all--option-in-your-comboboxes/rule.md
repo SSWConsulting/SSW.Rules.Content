@@ -24,7 +24,7 @@ authors: []
 <dd>Figure&#58; Bad Example - '-All Stores-' isn't needed</dd></dl>
 <dl class="goodImage"><dt><img alt="All" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SelectAllGood.jpg" /></dt>
 <dd>Figure&#58; Good Example - Keep it as a simple '-All-'</dd></dl>
-<dl class="goodImage"><dt><img alt="All" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SelectAllVGood.gif" /></dt>
+<dl class="goodImage"><dt><img alt="All" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SelectAllVGood.png" /></dt>
 <dd>Figure&#58; Good Example - Keeping it simple makes it easy to spot (that there is no filter) when you have multiple fields.</dd></dl>
 <div>Read our rule on <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterBusinessIntelligence.aspx#AllDimensionsTag">Always make sure the dimensions All Captions = All</a>.</div>
 </div></div></div></div></div></div></div>

@@ -26,13 +26,13 @@ authors:
 <li>Will the team complete the required work, based on the current Burn Rate? </li>
 <li>Has the team added work to the iteration? </li>
 <li>How much work does each team member have? </li></ol>
-<p><a href="http&#58;//msdn.microsoft.com/en-us/library/dd380678%28VS.100%29.aspx">How to Use the Burndown and Burn Rate Report</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /></p>
+<p><a href="http&#58;//msdn.microsoft.com/en-us/library/dd380678%28VS.100%29.aspx">How to Use the Burndown and Burn Rate Report</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.png" alt="" /></p>
 <h1>Story Overview - See how each task is tracking</h1>
 <img alt="Stories overview report from TFS" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/images/storiesOverview.JPG" width="817" height="402" style="height&#58;402px;width&#58;817px;" /> <span class="ms-rteCustom-FigureNormal">Figure 3&#58; Stories Overview report - Shows the progress of the User Stories in the current sprint and nothing has been tested and no active bugs</span> <p><strong>Questions that the Stories Overview report help&#160;answer&#58; </strong></p>
 <ol><li>How much work does each story require? </li>
 <li>How much work has the team completed for each story? </li>
 <li>Are the tests for each story passing? </li>
 <li>How many active bugs does each story have? </li></ol>
-<p><a href="http&#58;//msdn.microsoft.com/en-us/library/dd380648%28VS.100%29.aspx">How to Use the Stories Overview Report</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /></p>
+<p><a href="http&#58;//msdn.microsoft.com/en-us/library/dd380648%28VS.100%29.aspx">How to Use the Stories Overview Report</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.png" alt="" /></p>
 
 

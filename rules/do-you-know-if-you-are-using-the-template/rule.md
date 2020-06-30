@@ -14,7 +14,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="not follow SSW brand" src="bad_cover.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="not follow SSW brand" src="bad_cover.png" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Not using the corporate template (in this case not SSW) </dd>
 </dl>
 <dl>
@@ -27,7 +27,7 @@ authors: []
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - No template applied to the file </dd>
 </dl>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Find SSW template from My template" src="templateApplied02.gif" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="Find SSW template from My template" src="templateApplied02.png" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Find the template when creating a new presentation file </dd>
 </dl>
 

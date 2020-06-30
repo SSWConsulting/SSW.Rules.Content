@@ -11,11 +11,11 @@ authors: []
 
 <span class='intro'> <p>If you use the DataGridView control which is read only, you had better set row select mode as &quot;FullRowSelect&quot;. If the data cannot be modified we can let users select the whole row instead of one column.</p> </span>
 
-​<dl class="badImage"><dt><img alt="without FullRowSelect" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NoneFullRowSelect.gif" /></dt>
+​<dl class="badImage"><dt><img alt="without FullRowSelect" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NoneFullRowSelect.png" /></dt>
 <dd>Figure&#58; Bad Example - Row select mode is not &quot;FullRowSelect&quot;.</dd></dl>
-<dl class="goodImage"><dt><img alt="with FullRowSelect" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/FullRowSelect.gif" /></dt>
+<dl class="goodImage"><dt><img alt="with FullRowSelect" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/FullRowSelect.png" /></dt>
 <dd>Figure&#58; Good Example - Row select mode is &quot;FullRowSelect&quot;.</dd></dl>
-<dl class="image"><dt><img alt="Set select mode as FullRowSelect" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/setselectmodefull.gif" /></dt>
+<dl class="image"><dt><img alt="Set select mode as FullRowSelect" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/setselectmodefull.png" /></dt>
 <dd>Figure&#58; Changed row select mode to FullRowSelect.</dd></dl>
 <div>What's the next step? It's even better if you enable multiple row selection and copying, see <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ListView">Do your List Views support multiple selection and copying</a> on <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx">Rules to Better Windows Forms Applications</a>.</div>
 

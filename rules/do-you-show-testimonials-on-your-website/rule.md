@@ -20,7 +20,7 @@ authors:
       <a href="http&#58;//www.ssw.com.au/ssw/Company/AboutUs.aspx">About Us</a> page.</p> </span>
 
 <dl class="image"><dt>
-      ​<img border="1" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MarketingTestimonials.gif" alt="" style="width&#58;600px;" />
+      ​<img border="1" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MarketingTestimonials.png" alt="" style="width&#58;600px;" />
       <br>
    </dt><dd>Figure&#58; Testimonials as displayed on SSW's About Us page</dd></dl><p> Another alternative is having the testimonials listed down the right hand side of the screen. An example of this can be seen at&#58; 
    <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Codesmith.htm">http&#58;//www.ericjsmith.net/codesmith/</a>. </p><p> An interesting spin on the previous link is a website that still has the testimonials down the right hand side of the page, however it displays exerts of these testimonials in comic book style speech bubbles. An example of this can be seen at&#58; 

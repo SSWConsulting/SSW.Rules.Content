@@ -21,15 +21,15 @@ authors: []
                 </p> </span>
 
 <dl class="badImage"><dt> 
-      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/comboswithshowbutton.gif" alt="Bad" style="margin&#58;5px;width&#58;545px;" />
+      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/comboswithshowbutton.png" alt="Bad" style="margin&#58;5px;width&#58;545px;" />
    </dt><dd>Figure&#58; Bad Example - because the combos can be set to autopostback and should not have a &quot;Show&quot; button.</dd></dl><dl class="goodImage"><dt> 
-      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/autopostbackcombos.gif" alt="Combo boxes with fixed values" style="margin&#58;5px;width&#58;545px;" />
+      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/autopostbackcombos.png" alt="Combo boxes with fixed values" style="margin&#58;5px;width&#58;545px;" />
    </dt><dd>Figure&#58; Good Example - because the combo boxes have fixed values and can autopostback.</dd></dl><dl class="badImage"><dt> 
-      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/textboxeswithnoshowbutton.gif" alt="Bad" style="margin&#58;5px;width&#58;432px;" />
+      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/textboxeswithnoshowbutton.png" alt="Bad" style="margin&#58;5px;width&#58;432px;" />
    </dt><dd>Figure&#58; Bad Example -  because the text boxes do not have fixed data and thus should have a &quot;Show&quot; button.</dd></dl><dl class="goodImage"><dt> 
-      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/textboxeswithshowbutton.gif" alt="Good" style="margin&#58;5px;" />
+      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/textboxeswithshowbutton.png" alt="Good" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example -  because there is a &quot;Show&quot; button as the text boxes do not contained fixed data.</dd></dl><dl class="goodImage"><dt> 
-      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/autopostbackandshowbutton.gif" alt="Good" style="margin&#58;5px;width&#58;615px;" />
+      <img border="1" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/autopostbackandshowbutton.png" alt="Good" style="margin&#58;5px;width&#58;615px;" />
    </dt><dd>Figure&#58; Good Example -  because the combos can be set to autopostback while the text boxes have the &quot;Show&quot; button available.</dd></dl>
 
 

@@ -12,7 +12,7 @@ authors: []
 <span class='intro'> <p><span>​The buttons that a user will typically use to close a form should be named consistently across your applications.</span></p> </span>
 
 <dl class="badImage"><dt>
-      <img alt="Broker Details - Save &amp; Close Buttons" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ButtonLabels_Bad.gif" style="margin&#58;5px;" />
+      <img alt="Broker Details - Save &amp; Close Buttons" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ButtonLabels_Bad.png" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Bad Example - Unclear labels on the buttons</dd></dl><ul><li>
       <strong>Save</strong> button could possibly update the fields but keep the form open.</li><li>
       <strong>Close</strong> could save the fields, then close the form, when the 

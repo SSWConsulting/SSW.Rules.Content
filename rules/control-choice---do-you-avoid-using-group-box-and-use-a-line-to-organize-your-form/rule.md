@@ -15,7 +15,7 @@ authors: []
 <dd>Figure&#58; Bad Example - Inappropriate use of 'Group Box', there is nothing to be grouped</dd></dl>
 <dl class="goodImage"><dt><img alt="SSW Exchange Reporter Setup - Line for Grouping" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/RulesT4.jpg" /></dt>
 <dd>Figure&#58; Good Example - Use a line to organize different sections</dd></dl>
-<dl class="goodImage"><dt><img alt="VS.NET 2003 Options Form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/RulesT6.gif" /></dt>
+<dl class="goodImage"><dt><img alt="VS.NET 2003 Options Form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/RulesT6.png" /></dt>
 <dd>Figure&#58; Good Example - VS.NET 2003 Options form, appropriate use of 'Group Box', the radio buttons are related to each other</dd></dl>
 <dl class="goodImage"><dt><img alt="Figure&#58; Good Example - VS.NET 2012 Options form, also appropriate use of 'Group Box'" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/vsnet-groupbox.jpg" /></dt>
 <dd>Figure&#58; Good Example - VS.NET 2012 Options form, also appropriate use of 'Group Box'</dd></dl>

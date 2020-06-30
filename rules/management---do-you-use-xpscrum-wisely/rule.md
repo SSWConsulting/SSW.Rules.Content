@@ -20,7 +20,7 @@ authors:
   <table align="right">
     <tbody>
         <tr>
-            <td width="220"><img class="ms-rteCustom-ImageArea" border="0" alt="Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled!" src="ab9491_Anthrax.gif" />&#160;<font class="ms-rteCustom-FigureNormal">Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled! </font></td>
+            <td width="220"><img class="ms-rteCustom-ImageArea" border="0" alt="Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled!" src="ab9491_Anthrax.png" />&#160;<font class="ms-rteCustom-FigureNormal">Figure&#58; You need to check up on your developers every 2 weeks. Then you'll never be fooled! </font></td>
         </tr>
     </tbody>
 </table>

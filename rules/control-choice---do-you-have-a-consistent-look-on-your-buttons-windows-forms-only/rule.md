@@ -17,7 +17,7 @@ authors: []
 <ul><li><em>Next &gt;</em> - Default Window Style</li>
 <li><em>Preview</em> - .NET Flat Style</li>
 <li><em>Cancel</em> - Window XP Style</li></ul>
-<dl class="image"><dt><img alt="bad divider" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadDivider.gif" /></dt>
+<dl class="image"><dt><img alt="bad divider" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadDivider.png" /></dt>
 <dd>Figure&#58; Even labels need to use FlatStyle.System. Can you spot the wrong label?</dd></dl>
 <div>See our <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#XPThemes">Rules to Better Windows Forms</a> to implement XP Themes in .NET.</div>
 <table class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2"><tbody><tr><td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#ConsistentButtonStyle">SSW Code Auditor</a> to check for this rule.</td></tr></tbody></table>

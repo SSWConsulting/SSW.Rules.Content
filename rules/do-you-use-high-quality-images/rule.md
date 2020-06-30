@@ -17,7 +17,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="low_d.gif" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="low_d.png" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - What is this monstrosity! </dd>
 </dl>
 <dl>

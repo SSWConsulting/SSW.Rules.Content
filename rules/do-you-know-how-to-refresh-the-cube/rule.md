@@ -22,6 +22,6 @@ authors:
 
 <dl><dt><img alt="Warehouse WebControl Service " src="WarehouseWebControlService.jpg" /></dt>
 <dd></dd></dl>
-<p>Read <a href="http&#58;//www.ewaldhofman.nl/post/2009/11/25/Refresh-the-TFS-Warehouse-manually.aspx">Refresh the TFS Warehouse manually</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> for more detail.</p>
+<p>Read <a href="http&#58;//www.ewaldhofman.nl/post/2009/11/25/Refresh-the-TFS-Warehouse-manually.aspx">Refresh the TFS Warehouse manually</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.png" alt="" /> for more detail.</p>
 
 

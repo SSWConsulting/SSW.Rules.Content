@@ -17,7 +17,7 @@ authors: []
                 </p> </span>
 
 <dl class="image"><dt>
-      <img alt="Visited Links" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/VisitedLinks.gif" style="margin&#58;5px;width&#58;161px;" /> 
+      <img alt="Visited Links" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/VisitedLinks.png" style="margin&#58;5px;width&#58;161px;" /> 
    </dt><dd>Figure&#58; Visited links are marked different from unvisited.<br></dd></dl><p> Specifying style for visited links is very simple. Just add this to your CSS file&#58; </p><p class="ssw15-rteElement-CodeArea">A&#58;visited &#123; color&#58; purple; &#125;</p>
 
 

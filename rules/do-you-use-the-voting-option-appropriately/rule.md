@@ -17,7 +17,7 @@ authors:
 <br> </span>
 
 
-  <img class="ms-rteCustom-ImageArea" alt="Outlook Voting" src="OutlookVoting.gif" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - using the voting buttons option.</span>
+  <img class="ms-rteCustom-ImageArea" alt="Outlook Voting" src="OutlookVoting.png" /> <span class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - using the voting buttons option.</span>
 <ol>
     <li>The subject should start with &quot;VOTE&#58; ...&quot; </li>
     <li>The sender should reply with a summary after either everyone has replied or after a certain period of time to let the group know how significant their input was. </li>

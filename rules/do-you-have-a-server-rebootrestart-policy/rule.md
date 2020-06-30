@@ -83,7 +83,7 @@ authors:
    </dt><dd>Figure&#58; Connected users can be viewed in Task Manager</dd></dl><h3 class="ssw15-rteElement-H3">Files</h3><p>Open 'Computer Management' (Run &gt; compmgmt.msc), then 'System Tools &gt; Shared Folders'. Check 'Session' and 'Open Files' for user connections.</p><dl class="image"><dt>
       <img src="rule-outage-4.png" alt="rule-outage-4.png" style="width&#58;100%;height&#58;auto;" />
    </dt><dd>Figure&#58; Computer Management 'Open Files' View</dd></dl><h3 class="ssw15-rteElement-H3">Database</h3><p>Open SQL Server Management Studio on the server. Connect to the local SQL Server. Expand 'Management' and double-click 'Activity Manager'.<br></p><dl class="image"><dt>
-      <img src="rule-outage-5.gif" alt="rule-outage-5.gif" style="width&#58;100%;height&#58;auto;" />
+      <img src="rule-outage-5.png" alt="rule-outage-5.png" style="width&#58;100%;height&#58;auto;" />
    </dt><dd>Figure&#58; SQL Management Studio 'Active Connections' View</dd></dl><p>Once these have been checked for active users, and users have logged off, maintenance can be carried out.</p><p> 
    <strong>Restarts should only be performed during the following time periods</strong></p><ol><li>Between 7am and 7&#58;05am</li><li>Between 1pm and 1&#58;05pm<br></li><li>Between 7pm and 7&#58;05pm 
       <br></li></ol><p>If a scheduled shutdown is required, use the PsShutdown utility from&#160;<a href="https&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/Technet.htm">Microsoft's Sys&#160;Internals</a>&#160;page.</p><p> 

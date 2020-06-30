@@ -24,7 +24,7 @@ authors: []
 <td><input type="radio" /></td>
 <td>Cannot say</td></tr></tbody></table></div></li>
 <li><strong>Text on the Right</strong> <p>The Option Group or Check Box should always be on the left, with the text following on the right. Once again, this makes it easy for the User to work out what is going on.</p>
-<dl class="goodImage"><dt><img alt="Interfaces Action Then Text" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Interfaces_ActionThenText.gif" /></dt>
+<dl class="goodImage"><dt><img alt="Interfaces Action Then Text" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Interfaces_ActionThenText.png" /></dt>
 <dd>Figure&#58; Good Example - Action on the left, text on the right</dd></dl></li></ol>
 
 

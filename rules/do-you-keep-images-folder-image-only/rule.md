@@ -18,11 +18,11 @@ authors:
 
 
   <dl class="badImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image bad link" src="OnlyImageBad.gif" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image bad link" src="OnlyImageBad.png" /> </dt>
     <dd>Bad example - HTML file in \Images Folder.</dd>
 </dl>
 <dl class="goodImage">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image good link" src="OnlyImageGood.gif" /> </dt>
+    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Image good link" src="OnlyImageGood.png" /> </dt>
     <dd>Good example - Images only, clean \Images folder.</dd>
 </dl>
 <p>&#160;</p>

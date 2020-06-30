@@ -14,7 +14,7 @@ authors:
 <span class='intro'> ​If you have database driven pages on your website, you need a way of updating the data quickly and easily. <strong>Each page should have an 'Edit' link</strong>&#160;- only visible when the site is running internally or in administrator mode -&#160;that takes you directly to the page for editing the content on that page.​<br> </span>
 
 <dl class="ssw15-rteElement-ImageArea">
-   <img src="MaintenanceDemo.gif" alt="MaintenanceDemo.gif" />
+   <img src="MaintenanceDemo.png" alt="MaintenanceDemo.png" />
 
    <dd><strong>Figure&#58; &quot;New&quot; and&#160;&quot;Edit&quot;&#160;links&#160;allow&#160;SSW Employees to maintain testimonial entries easily</strong></dd></dl><dl class="ssw15-rteElement-ImageArea">
    <img src="wp-edit-btn.jpg" alt="wp-edit-btn.jpg" />

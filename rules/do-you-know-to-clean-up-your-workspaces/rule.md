@@ -23,6 +23,6 @@ authors:
 
 <p><img alt="The current workspace status " src="WorkspaceStatus.jpg" />&#160;</p>
 <dl><dd>Figure&#58; John has not accessed many of these workspaces in years! Are they still current? </dd></dl>
-<p>Use the Workspace Sidekick in <a href="http&#58;//www.attrice.info/cm/tfs/index.htm">Team Foundation Sidekicks</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.gif" alt="" /> at the end of every month to make sure you have not forgotten anything.</p>
+<p>Use the Workspace Sidekick in <a href="http&#58;//www.attrice.info/cm/tfs/index.htm">Team Foundation Sidekicks</a> <img title="You are now leaving SSW" src="http&#58;//www.ssw.com.au/ssw/images/external.png" alt="" /> at the end of every month to make sure you have not forgotten anything.</p>
 
 

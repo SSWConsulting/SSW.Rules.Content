@@ -15,7 +15,7 @@ authors: []
             <b>Image Type</b></td><td>
             <b>Prefix</b></td><td>
             <b>Example</b></td></tr><tr><td>Banner</td><td>ban</td><td>banSSW.gif</td></tr><tr><td>Icon</td><td>ico</td><td>icoSSW.ico</td></tr><tr><td>Screenshot</td><td>Screen</td><td>ScreenCodeAuditorMainWindow.gif</td></tr></tbody></table><dl class="goodImage"><dt>
-      <img src="ScreenFilesWithScreenPrefix.gif" alt="" />
+      <img src="ScreenFilesWithScreenPrefix.png" alt="" />
    </dt><dd>Figure&#58; Correctly named images</dd></dl>​
 
 

@@ -21,10 +21,10 @@ authors:
    </dt><dd>​Figure&#58; Good Example - I can see my Team's meetings before I have been invited (and invite myself if required)</dd></dl><ol><li>Open up the Team's SharePoint site (you can find this easily by going to the 
       <i>Files</i> tab and clicking 
       <i>Open in SharePoint</i>)</li><li>Go to the&#160;SharePoint site's Home page (from the menu on the left)<br></li><li>Add a new page<br></li><li>Add a&#160;Group Calendar&#160;web part&#160;to the page<br></li><li>Publish the page<br>
-   <dl class="image"><dt><img src="team%20meeting%20-%20create%20calendar%20page.gif" alt="team meeting - create calendar page.gif" /> 
+   <dl class="image"><dt><img src="team%20meeting%20-%20create%20calendar%20page.png" alt="team meeting - create calendar page.png" /> 
       </dt><dd>​Figure&#58; Some easy to follow steps to create the SharePoint page<br></dd></dl> 
    </li><li>In Teams, click&#160;add a new SharePoint&#160;tab to the Team<br></li><li>Select the newly published SharePoint page<br></li><li>Click Save<br>
-   <dl class="image"><dt><img src="team%20meeting%20-%20add%20sharepoint%20tab.gif" alt="team meeting - add sharepoint tab.gif" /></dt><dd>​Figure&#58; Adding a tab to a Team is an indispensable skill</dd></dl></li><li>All done &#128512;<br><a href="https&#58;//microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te">This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.​</a><br></li></ol><dl class="image"><dt>
+   <dl class="image"><dt><img src="team%20meeting%20-%20add%20sharepoint%20tab.png" alt="team meeting - add sharepoint tab.png" /></dt><dd>​Figure&#58; Adding a tab to a Team is an indispensable skill</dd></dl></li><li>All done &#128512;<br><a href="https&#58;//microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te">This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.​</a><br></li></ol><dl class="image"><dt>
       <img src="team%20meetings%20-%20add%20yourself.jpg" alt="team meetings - add yourself.jpg" style="width&#58;800px;" />
    </dt><dd>​​Figure&#58; As a bonus, I can the&#160;event to my calendar<br></dd></dl> </span>
 

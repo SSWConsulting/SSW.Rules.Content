@@ -13,9 +13,9 @@ authors: []
 popup form. This gives each form a definite function and neat UI design.</p> </span>
 
 <dl class="badImage"><dt>
-      <img alt="without popup form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NonePopupEditForm.gif" style="margin&#58;5px;" />
+      <img alt="without popup form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NonePopupEditForm.png" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Bad Example - Edit controls and main UI are messed up.</dd></dl><dl class="goodImage"><dt>
-      <img alt="with popup edit form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PopupEditForm.gif" style="margin&#58;5px;" />
+      <img alt="with popup edit form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PopupEditForm.png" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example - Use a popup form to do edit.</dd></dl>
 
 

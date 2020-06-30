@@ -14,7 +14,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="layout.gif" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="layout.png" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Don't use the same layout for all slides, instead choose the right 'layout' for the each slide (this is called the layout library) </dd>
 </dl>
 

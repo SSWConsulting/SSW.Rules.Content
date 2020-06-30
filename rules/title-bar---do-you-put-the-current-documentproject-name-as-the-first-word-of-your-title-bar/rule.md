@@ -13,7 +13,7 @@ authors: []
 
 ​<div>Imagine if every email that Microsoft Outlook opened didn't change the title bar. When you were to open a few emails and then take a look in the Taskbar, they would all look the same.</div>
 <div>Therefore change the Title Bar to have the current document/customer/job/project/product name that the user is working on. It should be in the format &quot;Document - Program Name&quot;, i.e. 'Northwind - SSW Data Renovator'</div>
-<dl class="goodImage"><dt><img alt="Title Bar Caption" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/imgTitleBarCaption.gif" /></dt>
+<dl class="goodImage"><dt><img alt="Title Bar Caption" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/imgTitleBarCaption.png" /></dt>
 <dd>Figure&#58; Good Example - Application with a standard title bar caption</dd></dl>
 
 

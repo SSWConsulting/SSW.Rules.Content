@@ -26,9 +26,9 @@ authors: []
                 </p> </span>
 
 <dl class="badImage"><dt>
-      <img alt="Bad" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/BadNoUseLogin.GIF" style="margin&#58;5px;" />
+      <img alt="Bad" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/BadNoUseLogin.png" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Bad Example - Linked to the login page.</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Good" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/GoodNoUseLogin.GIF" style="margin&#58;5px;" />
+      <img alt="Good" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/GoodNoUseLogin.png" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example - Linked to the default page.</dd></dl>
 
 

@@ -13,7 +13,7 @@ authors: []
 
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="SSWQuestionMark.gif" alt="" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" src="SSWQuestionMark.png" alt="" /> </dt>
     <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use an &quot;?&quot; image to tell the presenter to ask a question (if you don't have an image - just use the &quot;?&quot; text) </dd>
 </dl>
 
