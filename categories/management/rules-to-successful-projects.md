@@ -80,17 +80,17 @@ index:
 ---
 <p>​​​​<br></p>
 <div class="topcommonTestimonialBox" sizcache02965295459069362="6" sizset="160" sizcache05948671212741396="6" sizcache05529681777768147="6" sizcache0812545200106622="6" sizcache02866556858805546="6" sizcache02668610973236118="6" style="margin-bottom: 8px; border-bottom: 1px solid #cccccc; padding: 4px; margin-left: 15px; border-left: 5px solid #cccccc; margin-right: 15px;">
-   <a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"> <img border="0" alt="What others have to say about us" src="http://www.ssw.com.au/ssw/Images/Testimonials_Heading.png" style="margin-bottom: 2px;"/></a> <br/>
+   <a href="http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx"> <img border="0" alt="What others have to say about us" src="http://www.ssw.com.au/ssw/Images/Testimonials_Heading.gif" style="margin-bottom: 2px;"/></a> <br/>
    <table cellspacing="0" cellpadding="0" border="0" style="margin-left: 5px;">
       <tbody>
          <tr>
             <td valign="top" width="10">
-               <img alt="See what people think about this product" align="left" src="http://www.ssw.com.au/ssw/Images/Testimonials_LeftQuote.png" style="margin-top: 3px; margin-right: 3px;"/>
+               <img alt="See what people think about this product" align="left" src="http://www.ssw.com.au/ssw/Images/Testimonials_LeftQuote.gif" style="margin-top: 3px; margin-right: 3px;"/>
             </td> 
             <td>
                <span id="ctl00_mainContentPlaceHolder_testimonial_lblQuoteTop">I&#39;ve been putting together Development Guidelines for my employer and in the process have reviewed many published standards (in the .NET arena) from around the world. In each category, the suggestions at SSW are always among the best.</span></td> 
             <td valign="top" width="10">
-               <img alt="See what people think about this product" align="right" src="http://www.ssw.com.au/ssw/Images/Testimonials_RightQuote.png" style="margin-left: 3px; margin-top: 3px;"/>
+               <img alt="See what people think about this product" align="right" src="http://www.ssw.com.au/ssw/Images/Testimonials_RightQuote.gif" style="margin-left: 3px; margin-top: 3px;"/>
             </td>
          </tr>
       </tbody>
