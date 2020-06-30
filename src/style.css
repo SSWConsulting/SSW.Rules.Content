@@ -685,6 +685,10 @@ blockquote p:before {
   content: none !important;
 }
 
+.suggestion a:after {
+  content: none !important;
+}
+
 .history a:after {
   content: none !important;
 }
@@ -984,6 +988,43 @@ html {
   padding-top: 10px;
 }
 
+.preview{
+  display:none;
+}
+
+.avatar{
+  position: relative;
+}
+.avatar .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #777777;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  top: 22px;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.avatar:hover .tooltiptext {
+  visibility: visible;
+}
+
+.avatar .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 13px;
+  left: -5px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #777777 transparent transparent;
+}
 /**
 * This injects Tailwind's component classes and any component classes
 * registered by plugins.

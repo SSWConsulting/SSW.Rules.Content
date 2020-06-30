@@ -156,6 +156,7 @@ const Rule = ({ data, location }) => {
                         alt={author.title}
                       />
                     </a>
+                    <span className="tooltiptext">{author.title}</span>
                   </div>
                 ))}
             </div>
@@ -176,7 +177,7 @@ const Rule = ({ data, location }) => {
           </div>
           <div className="likes w-1/3">
             <h5>Feedback</h5>
-            <p>
+            <p className="preview">
               <span>
                 8 <FontAwesomeIcon icon={faThumbsUp} className="good" />
               </span>{' '}
@@ -185,8 +186,10 @@ const Rule = ({ data, location }) => {
               </span>
             </p>
             <p>
-              <small>
-                <a href="/suggestion">Make a suggestion</a>
+              <small className="suggestion">
+                <a href="https://github.com/SSWConsulting/SSW.Rules/issues">
+                  Make a suggestion
+                </a>
               </small>
             </p>
           </div>
