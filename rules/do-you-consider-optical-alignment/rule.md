@@ -17,7 +17,7 @@ authors: []
 ​<p>Not only relevant in typography, optical alignment can also be used in forms and web.</p>
 <dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/bad_opticalalignment.jpg" alt="Bad alignment" /></dt>
 <dd>Figure&#58; Bad example - The fields are aligned to the radio buttons, but it doesn't &quot;look&quot; good enough</dd></dl>
-<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/good_opticalalignment.png" alt="Good alignment" /></dt>
+<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/good_opticalalignment.gif" alt="Good alignment" /></dt>
 <dd>Figure&#58; Good example - It seems neater, even though it is no longer technically aligned</dd></dl>
 
 

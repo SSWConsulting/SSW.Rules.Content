@@ -12,7 +12,7 @@ authors: []
 <span class='intro'> <h3>Introduction</h3><p>Despite seeming trivial, the most subtle elements of your form can have the greatest impact on your users.</p> </span>
 
 <dl class="badImage"><dt> 
-      <img alt="SSW SQL Auditor - Choose Data Source" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ScreenBadControls.png" style="margin&#58;5px;" /> 
+      <img alt="SSW SQL Auditor - Choose Data Source" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ScreenBadControls.gif" style="margin&#58;5px;" /> 
    </dt><dd>Figure&#58; Bad Example - What's wrong with this form?</dd></dl><p>The form shown in this screenshot is an example of bad control placement&#58;</p><ol><li>The fonts used are non-standard (see&#58; 
       <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Controls.aspx#Font"> Do you use Microsoft's Recommended Font in your Application?</a>)</li><li>The controls have 
       <strong>no consistency</strong> in terms of margins, spacing or even control alignment. See, for example&#58; 
@@ -32,7 +32,7 @@ authors: []
             <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/MSDNMargins.htm">Microsoft's diagram illustrating this</a>)</li></ul></li></ol><p>These are some of the more common examples. Please read Microsoft's 
    <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/MSDNLayout.htm">Visual Design Guidelines</a> for more information and greater detail.</p><p> 
    <strong>Ultimately the goal of all of this is to ensure consistency</strong>. Keeping these ideas in mind at all times while doing user interface design will give users a better overall experience and will boost the professionalism of your products.</p><h3>One From The Good Guys</h3><p>Here's a good example for you to take inspiration from. This dialog is from Microsoft Outlook. Let's check out some points&#58;</p><ol><li>Consistency across wizard pages is very good</li><li>Spacing and sizing of buttons is precise</li><li>The logo has been positioned evenly</li></ol><dl class="goodImage"><dt> 
-      <img alt="Outlook - Email Accounts" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ScreenGoodControls.png" style="margin&#58;5px;" /> 
+      <img alt="Outlook - Email Accounts" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ScreenGoodControls.gif" style="margin&#58;5px;" /> 
    </dt><dd>Figure&#58; Good Example - Microsoft have defined to exacting measures what spacing should be used in their Microsoft Outlook wizards</dd></dl><p>Read more about control size on the 
    <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#CommonControl"> Rules to Better Windows Forms</a> page</p><p class="productBox">We have a program called 
    <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#SizeSpacing">SSW Code Auditor</a> to check for this rule.</p>

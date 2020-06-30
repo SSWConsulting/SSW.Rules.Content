@@ -23,7 +23,7 @@ authors: []
 <dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-MessageBoxZango.jpg" alt="" /></dt>
 <dd>Figure&#58; Bad Example - Is it OK to Cancel?</dd></dl>
 <div>Microsoft uses this one&#58;</div>
-<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NotEnoughMemory.png" alt="Not Enough Memory" /></dt>
+<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NotEnoughMemory.gif" alt="Not Enough Memory" /></dt>
 <dd>Figure&#58; Good Example - Microsoft error message is concise</dd></dl>
 <div>Some other message types that Microsoft uses are&#58;</div>
 <table cellspacing="0" cellpadding="3" border="0" class="clsSSWTable"><tbody><tr><th>Message type</th>

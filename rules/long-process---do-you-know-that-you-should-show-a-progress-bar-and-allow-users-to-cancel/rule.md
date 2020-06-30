@@ -16,7 +16,7 @@ authors: []
 ​<div>Instead, keep users happy with your application by&#58;</div>
 <ul><li>Showing status description information above the progress bar</li>
 <li>Allowing the user to stop the process at any time by clicking &quot;Cancel&quot; (or as a minimum, prompt for confirmation before the long running process starts)</li></ul>
-<dl class="goodImage"><dt><img alt="Progress form with Description &amp; Cancel Button" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AllowCancelAndShowProgressForLongRunningProcesses.png" width="420" height="222" /></dt>
+<dl class="goodImage"><dt><img alt="Progress form with Description &amp; Cancel Button" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AllowCancelAndShowProgressForLongRunningProcesses.gif" width="420" height="222" /></dt>
 <dd>Figure&#58; Good Example - Progress Bar with description and Cancel Button</dd></dl>
 <dl class="goodImage"><dt><img alt="Progress form with description and status&amp; Cancel Button" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AllowCancelAndShowProgressForLongRunningProcesses2.jpg" width="608" height="376" /></dt>
 <dd>Figure&#58; Good Example - Progress Bar with description and status, and Cancel Button</dd></dl>

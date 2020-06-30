@@ -15,9 +15,9 @@ authors: []
 <ol><li>Easier to keep up-to-date and maintain</li>
 <li>Stats on usage</li>
 <li>Allows community commenting</li></ol>
-<dl class="goodImage"><dt><img alt="Help User Guide" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/RulesT3.png" width="330" height="212" /></dt>
+<dl class="goodImage"><dt><img alt="Help User Guide" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/RulesT3.gif" width="330" height="212" /></dt>
 <dd>Figure&#58; Good Example - &quot;User Guide&quot; link in the &quot;Help&quot; menu</dd></dl>
-<dl class="goodImage"><dt><img alt="Online User Guide" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/TelerikUserGuide.png" /></dt>
+<dl class="goodImage"><dt><img alt="Online User Guide" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/TelerikUserGuide.gif" /></dt>
 <dd>Figure&#58; Good Example - Telerik keeps their &quot;User Guide&quot; online</dd></dl>
 
 

@@ -20,7 +20,7 @@ authors: []
 <dl class="badImage"><dt><div style="width&#58;40%;">Process completed. </div></dt>
 <dd>Figure&#58; Bad example – No detailed information</dd></dl>
 <div>This is just like standing at a set of traffic lights listening for the beep to know when to walk, rather than constantly looking at the red and green lights.</div>
-<dl class="goodImage"><dt><img alt="Completed Progress Form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ProgressBarComplete.png" /></dt>
+<dl class="goodImage"><dt><img alt="Completed Progress Form" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ProgressBarComplete.gif" /></dt>
 <dd>Figure&#58; OK Example - A completed progress form</dd></dl>
 <dl class="goodImage"><dt><div style="width&#58;40%;">Manual extraction process completed.<br><br>Mailboxes scanned&#58; 8<br>Mailboxes skipped&#58; 2<br>Total mailboxes&#58; 10<br>Time Taken&#58; 10 minutes, 15 seconds </div></dt>
 <dd>Figure&#58; Good example – The user can see what has been processed</dd></dl>

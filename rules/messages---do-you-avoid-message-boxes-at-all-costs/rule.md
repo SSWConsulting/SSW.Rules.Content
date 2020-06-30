@@ -18,7 +18,7 @@ authors: []
 <li>Kicking off a long running process that cannot be cancelled</li></ul>
 <dl class="badImage"><dt><img alt="Move Error MSG to the right " src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MoveErrorMSG.jpg" /></dt>
 <dd>Figure&#58; Bad example - could the information in this message box be moved into the panel on the right</dd></dl>
-<dl class="goodImage"><dt><img alt="Embedded message box" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/oneplacemailerror.png" /></dt>
+<dl class="goodImage"><dt><img alt="Embedded message box" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/oneplacemailerror.gif" /></dt>
 <dd>Figure&#58; Good example - An error message that does not pop up and block your user</dd></dl>
 
 

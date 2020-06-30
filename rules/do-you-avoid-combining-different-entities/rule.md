@@ -14,9 +14,9 @@ authors: []
                    Having the controls separated also make the form easier to read.</p> </span>
 
 <dl class="badImage"><dt>
-      <img alt="Different entities are combined." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AvoidCombiningBad.png" style="margin&#58;5px;" />
+      <img alt="Different entities are combined." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AvoidCombiningBad.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Bad Example - Different entities are combined</dd></dl><dl class="goodImage"><dt>
-      <img alt="Different entities are separated." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AvoidCombiningGood.png" style="margin&#58;5px;" />
+      <img alt="Different entities are separated." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AvoidCombiningGood.gif" style="margin&#58;5px;" />
    </dt><dd>Figure&#58; Good Example - Different entities are separated</dd></dl>
 
 

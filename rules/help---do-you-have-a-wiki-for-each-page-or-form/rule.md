@@ -27,7 +27,7 @@ authors: []
 <div>I have no idea what this is telling me. Anyone have any ideas?</div>
 <div>Thanks!<br>Mr Northwind</div></dt>
 <dd>Figure&#58; Bad Example - The user encounters an issue and has to email someone about it </dd></dl>
-<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/InterfacesWiki.png" alt="" /></dt>
+<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/InterfacesWiki.gif" alt="" /></dt>
 <dd>Figure&#58; Good Example - The 'Wiki...' link in the bottom left, takes the user to a wiki page with common issues and workarounds for this form (e.g. Creating a Project Portal) </dd></dl>
 
 

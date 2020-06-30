@@ -22,7 +22,7 @@ authors: []
 <dd>Figure&#58; Blocks of 4 or less menu items are easier for the brain to consume</dd></dl>
 <dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/4VisualOptions2.jpg" alt="Adobe Illustrator" /></dt>
 <dd>Figure&#58; Even though the iPad has a larger screen estate, it still uses a max of 4 icons across</dd></dl>
-<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SimpleFormsResolution.png" alt="Good Interface Design Example" /></dt>
+<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/SimpleFormsResolution.gif" alt="Good Interface Design Example" /></dt>
 <dd>Figure&#58; Good Example - A great example of removing complexity.</dd></dl>
 
 

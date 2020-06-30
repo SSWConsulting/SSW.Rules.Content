@@ -19,9 +19,9 @@ authors: []
 <li>Run Unit Tests...</li>
 <li>About [Product Name]...</li></ol> </span>
 
-​<dl class="badImage"><dt><img alt="Bad example of help menu" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadExampleForHelpMenu.png" /></dt>
+​<dl class="badImage"><dt><img alt="Bad example of help menu" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadExampleForHelpMenu.gif" /></dt>
 <dd>Figure&#58; Bad Example - Example of a Help menu with only &quot;About&quot;</dd></dl>
-<dl class="goodImage"><dt><img alt="Good example of help menu" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodExampleOfHelpMenu.png" /></dt>
+<dl class="goodImage"><dt><img alt="Good example of help menu" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodExampleOfHelpMenu.gif" /></dt>
 <dd>Figure&#58; Good Example - Example of a Help menu with all 8 items</dd></dl>
 
 

@@ -10,7 +10,7 @@ authors: []
 
 
 <span class='intro'> <div>If you do a search and no matches are found, display a message indicating zero results were returned rather than an error message.</div>
-<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/InappropriateError.png" height="262" alt="" /></dt>
+<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/InappropriateError.gif" height="262" alt="" /></dt>
 <dd>Figure&#58; Bad Example - No matches found on searching is not an &quot;Error&quot;</dd></dl> </span>
 
 ​<div>However, a user thinks that either&#58;</div>
@@ -18,7 +18,7 @@ authors: []
 <li>The software is broken (i.e. your application is incompetent)</li></ol>
 <div>Forcing the user into this opinion is a good way to make them avoid using your software in the future.</div>
 <div>Instead, use the term &quot;Information&quot; when validation is required.</div>
-<dl class="goodImage"><dt><img alt="Appro" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AppropriateMessage.png" /></dt>
+<dl class="goodImage"><dt><img alt="Appro" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AppropriateMessage.gif" /></dt>
 <dd>Figure&#58; Good Example - Only use &quot;Error&quot; when appropriate</dd></dl>
 
 

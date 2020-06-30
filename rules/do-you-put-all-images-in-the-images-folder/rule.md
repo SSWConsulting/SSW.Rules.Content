@@ -18,11 +18,11 @@ authors:
 
 
   <dl class="badImage">
-    <dt><img width="427" height="126" border="0" alt="Image bad link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkBad.png" /> </dt>
+    <dt><img width="427" height="126" border="0" alt="Image bad link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkBad.gif" /> </dt>
     <dd>Bad example - Images under Product root folder. </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img width="427" height="126" border="0" alt="Image good link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkGood.png" /> </dt>
+    <dt><img width="427" height="126" border="0" alt="Image good link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkGood.gif" /> </dt>
     <dd>Good example - Images under \Images folder. </dd>
 </dl>
 <p>&#160;</p>
