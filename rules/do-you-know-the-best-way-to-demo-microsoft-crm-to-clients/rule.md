@@ -16,24 +16,13 @@ redirects: []
 ---
 
 
-<p>If in the office&#58;</p>
-                <ul>
-                    <li>Option 1 is the Outlook Client - connect to the demo organization (you will need to deploy a demo org first).</li>
-                    <li>Option 2 is the Web Browser - connect to the demo organization (you will need to deploy a demo org first).</li>
-                </ul>
-                <p><strong>Note&#58;</strong> If not in the office (say at a client site) with an Internet connection, only demo with a strong Internet connection. eg. at least 1MB on speedtest.net</p>
-                <p>Away from the office options&#58;</p>
-                <ul>
-                    <li>Option 3 is Offline Outlook Client (but you cannot demonstrate all of the functionality such as Administration Settings)</li>
-                    <li>Option 4 CRM Online Trial – Sign up for a free 30 day trial, this can be used to demo to the client and then (optionally) the client can continue to access the trial to further evaluate CRM. (recommended, except signing up for the trial is a little bit of pain)</li>
-                </ul>
-                <p>If there is no Internet connection then work offline&#58;</p>
-                <ul>
-                    <li>* Option 5 is a Virtual Machine Self hosted (Win 8 + Hyper-V being the latest stack) – with internal network connection shared up between host and guest. Host IE10 and Outlook 2013 on Win 8 offer best user/demo experience.</li>
-                </ul>
+<p class="ssw15-rteElement-P">When demoing Dynamics to a client we will typically use a dedicated demo environment for a few reasons&#58;<br></p><p></p><ol><li>Demoing company Dynamics not a good idea due to sensitive data leakage</li><li>Can preinstall any first-party or third-party solutions ahead of time</li><li>Potentially hand demo environment over to the client for further evaluation</li></ol><p class="ssw15-rteElement-P">What are the demo options?​<br></p><p></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>You should be able to show&#58;</p><ul><li>Accounts (aka Companies)</li><li>Contacts</li><li>Sales (aka Leads and Invoicing and Quoting)</li><li>Marketing (aka Campaigns)</li><li>Service (aka Support)</li><li>Mail Merge</li></ul><dl class="image"><dt>
-      <img src="/PublishingImages/CRM-2013-screenshot.jpg" alt="" />
-   </dt><dd>Figure&#58; Outlook​ with the CRM plugin</dd></dl>
+<h3>Microsoft Partners</h3><p>Microsoft Partners have access to the 
+   <a href="https&#58;//cdx.transform.microsoft.com/">Customer Digital Experience site</a>. This site allows each eligible user to create up to 2 demo environments. Environments are provisioned within minutes and contain the entire Microsoft 365 suite with Dynamics 365 pre-installed. There usually sample users and enough licences to add custom users to the demo.<br><br>Adding a Dynamics Environment is as easy as navigating to&#58;<br><b>My Environments | Create Tennant | Dynamics 365 Customer Engagement&#160;</b></p><dl class="image"><dt>
+      <img src="/PublishingImages/dynamics-365-cusomer-engagement.png" alt="dynamics-365-cusomer-engagement.png" style="width&#58;750px;" />
+   </dt></dl><p>Once the environment is created it's good for 90 days.</p><h3>Office 365​​<br></h3><p>The second option is to provision a trial via Office 365. If using this method, it is preferable to provision via the client's Office 365 instance, as you don't want to provision users for the client in your Office 365 tenant. To provision a Dynamics trial in Office 365 use the following&#58;<br></p><ol><li>Browse to&#160;<a href="https&#58;//admin.microsoft.com/AdminPortal/Home%22%20%5cl%20%22/catalog">https&#58;//admin.microsoft.com/AdminPortal/Home#/catalog</a></li><li>Billing | Purchases Services (it's ok we're not buying anything yet)<br></li><li>Search for &quot;Trial&quot; and scroll down to&#160;<strong>Dynamics 365 Customer Engagement Plan Trial</strong></li><li>Details | Get free trial</li></ol><p class="ssw15-rteElement-P">The Office 365 based Dynamics trial is good for 1 month and includes 25 users.<br></p><dl class="image"><dt>
+      <img src="/PublishingImages/dynamics-365-cusomer-engagement-plan-triel.png" alt="dynamics-365-cusomer-engagement-plan-triel.png" style="width&#58;750px;" />
+   </dt></dl><p>The advantage of using an Office 365 based Dynamics trial (in the customers' Office Instance), is that is can be converted to a paid product very easily and with all data kept intact.<br><br>You should be able to show&#58;<br></p><ol><li>Accounts&#160;</li><li>Contacts</li><li>Sales (Leads, Opportunities, Quotes, and Invoices)</li><li>Marketing (built-in Campaigns and Quick Campaigns, also talk about Marketing for Dynamics solution)</li><li>Service (Cases, Field Service)</li><li>Mail Merge<br></li></ol><p>​<br></p>
 
 
