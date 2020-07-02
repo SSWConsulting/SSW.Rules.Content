@@ -17,8 +17,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">Dynamics uses a solution as a logical container to hold all customizations for a given function or sub-function. It is very important to have a versioning strategy around changes and when to increment versions.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​At SSW we will increment the version *every time* a change is made and adds to the description a new line at the top containing the version, developer initial, and notes. This gives us a quick and easy reference for the changes that have happened in the solution. Following this standard means comparing solutions across environments is a painless process.</p><dl class="badImage"><dt>​<img src="/PublishingImages/change-log-bad.png" alt="change-log-bad.png" style="width&#58;750px;" /></dt><dd>Bad Example&#58; Version 1.0.0.0, No change​log</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/change-log-good.png" alt="change-log-good.png" style="width&#58;750px;" /></dt><dd>Good Example&#58; Solution has up to date versioning with detailed changelog<br></dd></dl>
 
 
