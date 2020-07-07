@@ -17,3 +17,6 @@ authors:
 
 [[imgBad]]
 | ![This is a bad example](bad.jpg)
+
+[[imgOK]]
+| ![This is an ok example](ok.jpg)
