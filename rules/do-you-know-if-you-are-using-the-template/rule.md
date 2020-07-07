@@ -23,7 +23,7 @@ PowerPoint templates are designed to engage your audience visually and save you 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="not follow SSW brand" src="/PublishingImages/bad_cover.gif" /> </dt>
+    </dl><div>Pros of using a template are&#58;<br></div><div><ol><li>Consistency of use for others at your company to work on it</li><li>Consistency of look on intro and finish slides</li><li>Consistency of look footer on each slide</li><li>Consistency of general styling</li><li>It helps with the process of getting a ‘Designer Test Pass’</li></ol></div><dl><dt><img class="ms-rteCustom-ImageArea" alt="not follow SSW brand" src="/PublishingImages/bad_cover.gif" /> </dt>
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Not using the corporate template (in this case not SSW) </dd>
 </dl>
 <dl>
@@ -37,7 +37,7 @@ PowerPoint templates are designed to engage your audience visually and save you 
 </dl>
 <dl>
     <dt><img class="ms-rteCustom-ImageArea" alt="Find SSW template from My template" src="/PublishingImages/templateApplied02.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Find the template when creating a new presentation file </dd>
+    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Find the template when creating a new presentation file<br></dd></dl><dl>
 </dl>
 
 
