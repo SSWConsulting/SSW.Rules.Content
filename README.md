@@ -1,4 +1,4 @@
-# SSW.Rules (content) 
+# SSW.Rules.Content
 
 
 - Each rule has a folder containing rule.md and images/assets
