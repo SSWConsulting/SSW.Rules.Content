@@ -27,17 +27,11 @@ PowerPoint templates are designed to engage your audience visually and save you 
     <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Not using the corporate template (in this case not SSW) </dd>
 </dl>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="SSW PowerPoint Template" src="/PublishingImages/good_cover.jpg" /> </dt>
+    <dt><img class="ms-rteCustom-ImageArea" alt="SSW PowerPoint Template" src="/PublishingImages/goodcoverv2.png" style="width&#58;477px;height&#58;268px;" /> </dt>
     <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - That's a mighty fine looking template you got there </dd>
 </dl>
-<p><b>More Information&#58;</b></p>
+<p><b>More Information&#58;<br></b></p><p>In newer versions of PowerPoint, it is necessary to add your custom template to&#58;<br>C&#58;\Users\&lt; UserName&gt;\Documents\Custom Office Templates\<br><strong>Note&#58; Replace &lt;UserName&gt; with your machine username.</strong></p><p>So that they appear in the PowerPoint list when creating a new presentation. You can also find a more in-depth guide on how to <a href="https&#58;//support.microsoft.com/en-us/office/create-and-save-a-powerpoint-template-ee4429ad-2a74-4100-82f7-50f8169c8aca">create PowerPoint templates</a> and how to <a href="https&#58;//support.microsoft.com/en-us/office/use-a-personal-template-to-create-a-new-powerpoint-presentation-71262c90-1447-4109-90f3-eb84f9d06c98">use a personal template.</a><br><img src="/PublishingImages/DefaultTheme.png" alt="DefaultTheme.png" style="margin&#58;5px;width&#58;477px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Your custom template appears in PowerPoint<br></dd>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/noTemplate.jpg" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - No template applied to the file </dd>
-</dl>
-<dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="Find SSW template from My template" src="/PublishingImages/templateApplied02.gif" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Find the template when creating a new presentation file<br></dd></dl><dl>
 </dl>
 
 
