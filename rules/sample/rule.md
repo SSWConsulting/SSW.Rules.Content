@@ -137,7 +137,7 @@ _italic_ or _italic_
 | ![Small image](cat_computer.jpg)
 
 [[imgBadge]]
-| ![Microsoft certification](cat_computer.jpg)
+| ![Badge image](cat_computer.jpg)
 
 [[imgGood]]
 | ![This is a good example](good.jpg)
