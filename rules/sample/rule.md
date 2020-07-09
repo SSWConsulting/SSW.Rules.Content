@@ -139,13 +139,13 @@ _italic_ or _italic_
 [[imgBadge]]
 | ![Badge image](cat_computer.jpg)
 
-[[imgGood]]
+[[goodExample]]
 | ![This is a good example](good.jpg)
 
-[[imgBad]]
+[[badExample]]
 | ![This is a bad example](bad.jpg)
 
-[[imgOK]]
+[[oKExample]]
 | ![This is an ok example](ok.jpg)
 
 &nbsp;
