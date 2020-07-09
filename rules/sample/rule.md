@@ -22,7 +22,7 @@ Below you will see everything you need to create an awesome page.
 
 ## Input:
 
-```
+```md
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -70,7 +70,7 @@ Alt-Heading 2
 
 ## Input:
 
-```
+```md
 **bold** or __bold__
 
 *italic* or _italic_
@@ -100,7 +100,7 @@ _italic_ or _italic_
 
 ## Input:
 
-```
+```md
 [[imgLg]]
 | ![Large image](./Images/Bio/cat_computer.jpg)
 
@@ -156,7 +156,7 @@ _italic_ or _italic_
 
 ## Input:
 
-```
+```md
 `youtube: 2G7z2mF7Onk`
 ```
 
@@ -174,7 +174,7 @@ _italic_ or _italic_
 
 ## Input:
 
-```
+```md
 ---
 Hyphens
 
@@ -209,7 +209,7 @@ Underscores
 
 ## Input:
 
-```
+```md
 > A quote looks like this
 ```
 
@@ -227,7 +227,7 @@ Underscores
 
 ## Input:
 
-```
+```md
 Colons can be used to align columns.
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -271,7 +271,7 @@ Markdown | Less | Pretty
 
 ## Input:
 
-```
+```md
 1. Ordered List Item 1
 2. Ordered List Item 2
 3. Ordered List Item 3
@@ -328,7 +328,7 @@ Markdown | Less | Pretty
 
 ## Input:
 
-```
+```md
 [I'm an inline-style link](https://www.google.com)
 
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
@@ -377,7 +377,7 @@ Some text to show that the reference links can follow later.
 ## Input:
 
 
-````
+````md
 ```javascript
 let iceCream = 'chocolate';
 if(iceCream === 'chocolate') {
