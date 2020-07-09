@@ -372,19 +372,29 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
 
-## Code:
+# Code:
+
+## Input:
+
+
+````
+```javascript
+let iceCream = 'chocolate';
+if(iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');    
+} else {
+  alert('Awwww, but chocolate is my favorite...');    
+}
+```
+````
+
+## Output:
 
 ```javascript
-export default function Category({ data }) {
-  const linkRef = useRef();
-  const category = data.markdownRemark;
-
-  const [selectedOption, setSelectedOption] = useState('all');
-  const [isTitleOnly, setTitleOnly] = useState(false);
-
-  const handleOptionChange = (e) => {
-    setSelectedOption(e.target.value);
-    setTitleOnly(e.target.value === 'titleOnly');
-  };
+let iceCream = 'chocolate';
+if(iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');    
+} else {
+  alert('Awwww, but chocolate is my favorite...');    
 }
 ```
