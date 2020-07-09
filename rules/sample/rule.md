@@ -229,6 +229,15 @@ Underscores
 
 > A quote looks like this
 
+[[goodExample | This is the title]]
+| > A good exemple looks like this
+
+[[badExample | This is the title]]
+| > A bad exemple looks like this
+
+[[oKExample | This is the title]]
+| > An OK exemple looks like this
+
 &nbsp;
 
 # Tables
