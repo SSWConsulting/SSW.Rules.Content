@@ -113,13 +113,13 @@ _italic_ or _italic_
 [[imgBadge]]
 | ![Microsoft certification](../badges/Certification-microsoft-professional.jpg)
 
-[[imgGood]]
+[[goodExample]]
 | ![This is a good example](good.jpg)
 
-[[imgBad]]
+[[badExample]]
 | ![This is a bad example](bad.jpg)
 
-[[imgOK]]
+[[oKExample]]
 | ![This is an ok example](ok.jpg)
 ```
 
@@ -211,6 +211,16 @@ Underscores
 
 ```md
 > A quote looks like this
+
+[[goodExample | This is the title]]
+| > A good exemple looks like this
+
+[[badExample | This is the title]]
+| > A bad exemple looks like this
+
+[[oKExample | This is the title]]
+| > An OK exemple looks like this
+
 ```
 
 &nbsp;
