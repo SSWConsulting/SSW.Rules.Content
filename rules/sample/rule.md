@@ -9,7 +9,7 @@ authors:
 
 ---
 
-This is an example account to show you what is possible for a rule. 
+This is an example rule to show you what is possible for a rule. 
 Below you will see everything you need to create an awesome page. 
 
 [Design Guidelines](https://www.ssw.com.au/ssw/logo/ssw/)
