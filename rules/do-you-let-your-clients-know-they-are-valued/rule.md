@@ -21,6 +21,6 @@ related: []
 </dl><div><dd class="ssw15-rteElement-FigureBad">Figure - Bad example&#58;&#160;A Bad Client Gift – Alcohol is easy, but very impersonal​<br></dd><dl class="ssw15-rteElement-ImageArea">
  <img src="/SiteAssets/let-your-clients-know-they-are-valued/experiences.png" alt="experiences.png" style="margin&#58;5px;width&#58;808px;" />     </dl>
    
-</div><dl class="ssw15-rteElement-ImageArea"><dd class="ssw15-rteElement-FigureGood">​​Figure - Good Example&#58;&#160;a personalised sky dive you know they’ve wanted to do for years!&#160;</dd>​<br></dl>
+</div><dl class="ssw15-rteElement-ImageArea"><dd class="ssw15-rteElement-FigureGood">​​Figure - Good Example&#58; Give your clients&#160;a personalised Hot Ballooning&#160;experience that&#160;you know they’ve wanted to do for years!&#160;</dd>​<br></dl>
 
 
