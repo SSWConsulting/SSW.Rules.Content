@@ -20,7 +20,7 @@ redirects:
 ---
 
 
-<p>To visualize the structure of all your code you need architecture tools that will analyse your whole solution.<br></p>
+<p>​To visualize the structure of all your code you need architecture tools that will analyse your whole solution.<br></p>
 <p>They show the dependencies between classes and assemblies in your projects.&#160;You have 2 choices&#58;</p>
 <ul>
 <li>Visual Studio's Dependency Graph. This feature is only available in Visual Studio Ultimate. (recommended)</li>
