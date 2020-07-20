@@ -17,7 +17,7 @@ related: []
 ---
 
 
-<div>​When presenting to an audience using visual studio it is important to alter a few things for the best possible experience for the audience.<br></div>
+<div>​​When presenting to an audience using visual studio it is important to alter a few things for the best possible experience for the audience.<br></div>
 <br><excerpt class='endintro'></excerpt><br>
 <p></p><div><div>First of all, you need to make your font bigger. This is probably rule number one. There's nothing worse than not being able to see the excellent code you're trying to demo.<br></div><div> 
       <br> 
