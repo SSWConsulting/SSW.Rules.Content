@@ -24,6 +24,6 @@ index:
 - use-apps-for-expenses
 
 ---
-<p>​​​<br></p>
+<p>​​​​​​<br></p>
 Rules to Better Accounting
 
