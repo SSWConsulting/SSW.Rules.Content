@@ -13,7 +13,7 @@ related: []
 ---
 
 
-Enter Intro Text
+You should have a blog and on your about page&#58;<br><ul><li>promote other bloggers in your company</li><li>reference your company page eg. www.ssw.com.au/People<br></li></ul><br>Here is a good example&#58;&#160;https&#58;//mehmet.ozdemir.id.au/about/&#160;<br>​<br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
