@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​​​It is the responsibility of Account Managers​ to book developers for known client work, however anyone can book a developer, including the developer themselves.&#160;<br></p><p>​To book a developer&#58;<br></p><p><strong>Prerequisite&#58;&#160;</strong><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=31d6b133-8ed2-4ef4-b0b8-33bfebd85d10">Install the 2 CRM Addins​</a>.​<br><br></p><dl class="image"><dt>
+<p>​​​It is the responsibility of Account Managers​ to book developers for known client work, however anyone can book a developer, including the developer themselves. Also if a developer notices they should be booked, but there's nothing in their calendar, and they can't figure out the below, as a minimum they should ask the Account Manager to book them.​<br></p><p>​To book a developer&#58;<br></p><p><strong>Prerequisite&#58;&#160;</strong><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=31d6b133-8ed2-4ef4-b0b8-33bfebd85d10">Install the 2 CRM Addins​</a>.​<br><br></p><dl class="image"><dt>
       <img alt="Create new appointment in CRM" src="/PublishingImages/ServiceCalendar2013.jpg" style="width&#58;95%;" />
    </dt><dd>Figure&#58; Using the Service Calendar, you can see who is and is not available at a given time</dd></dl><p>There are a few different ways of booking developers for project work, either via Outlook or the browser.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
