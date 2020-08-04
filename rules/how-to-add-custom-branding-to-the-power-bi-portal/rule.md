@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-The Power BI Portal can be customized with custom branding. The item that can be changed to make Power BI fit more into and organizations brand are&#58;<br><ul><li>Logo</li><li>Cover Image</li><li>Theme Colour<br></li></ul>
+The Power BI Portal can be customized with custom branding. The items that can be changed to make Power BI fit into an&#160;organizations brand are&#58;<br><ul><li>Logo</li><li>Cover Image</li><li>Theme Colour<br></li></ul>
 <br><excerpt class='endintro'></excerpt><br>
 <p>To make these changes navigate to&#58;​&#160;<b>Admin Portal</b> | 
    <b>Custom Branding</b></p><p>Make your changes and save. That's it, you now have a branded Power BI Portal.&#160;<br></p><dl class="image"><dt><img src="/PublishingImages/powerbi-custom-branding.png" alt="powerbi-custom-branding.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Power BI Portal with Custom SSW Branding</dd></dl><br>
