@@ -19,8 +19,15 @@ redirects:
 ---
 
 
-When creating an appointment email for an initial meeting, make sure you&#160;include the words &quot;<b>initial</b>&quot; and &quot;<b>meeting</b>&quot;&#160;on the subject.&#160;<br><div><p class="ssw15-rteElement-GreyBox">Subject&#58;<b></b> Northwind project with SSW and Bob<br></p></div><div><dd class="ssw15-rteElement-FigureBad"> Figure&#58; Bad subject - not clear it is an initial meeting<br></dd><div><p class="ssw15-rteElement-GreyBox"><span class="ssw15-rteStyle-Highlight"><span style="font-size&#58;16px;background-color&#58;#f5f5f5;">Subject&#58; </span>Initial meeting</span> with SSW and Bob from Northwind<br>Subject&#58; <span class="ssw15-rteStyle-Highlight">Initial</span> phone <span class="ssw15-rteStyle-Highlight">meeting</span> with SSW and Bob from Northwind<br></p></div><div><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good subjects - Make&#160;clear it is an initial meeting by having both words​&#160;<br></dd></div></div>
+When creating an appointment email for an initial meeting, make sure you&#160;include the words &quot;<b>initial</b>&quot; and &quot;<b>meeting</b>&quot;&#160;on the subject.&#160;<br> 
+<div><p class="ssw15-rteElement-GreyBox"><b>Subject&#58;</b><b></b> Northwind project with SSW and Bob<br></p></div><div><dd class="ssw15-rteElement-FigureBad"> Figure&#58; Bad subject - not clear it is an initial meeting<br></dd><div><p class="ssw15-rteElement-GreyBox"> 
+         <b>Subject&#58;</b> ​<span class="ssw15-rteStyle-Highlight">Initial meeting</span> with SSW and Bob from Northwind<br> <b>​Subject&#58;</b> 
+         <span class="ssw15-rteStyle-Highlight">Initial</span> phone 
+         <span class="ssw15-rteStyle-Highlight">meeting</span> with SSW and Bob from Northwind</p></div><div><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good subjects - Make&#160;clear it is an initial meeting by having both words​&#160;<br></dd></div></div>
 <br><excerpt class='endintro'></excerpt><br>
-<p>The idea behind it is that Power BI can then track and show this.</p><dl class="image"><dt><img src="/PublishingImages/initial-meeting-graph.jpg" alt="initial-meeting-graph.jpg" /></dt><dd>Figure&#58; It's clear to see that there is no yellow in the past couple of months, which may indicate work drying up for Stephen's area<br></dd></dl>
+<p>The Appointment should also be tracked to Dynamics 365 so that this information is readily available and reportable.</p><dl class="image"><dt><img src="/PublishingImages/initial-meeting-dynamics.png" alt="initial-meeting-dynamics.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Initial Meeting created in Outlook and tracked to Dynamics 365</dd></dl>
+<p>The idea behind it is that Power BI can then track and show this.</p><dl class="image"><dt>
+      <img src="/PublishingImages/initial-meeting-graph.jpg" alt="initial-meeting-graph.jpg" style="width&#58;750px;" />
+   </dt><dd>Figure&#58; It's clear to see that there is no yellow in the past couple of months, which may indicate work drying up for Stephen's area<br></dd></dl>
 
 
