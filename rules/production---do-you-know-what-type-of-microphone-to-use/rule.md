@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>Depending on the type of video you are making, you will need to decide what microphone works best for you.<br></p>
+<p>​Depending on the type of video you are making, you will need to decide what microphone works best for you.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <h3 class="ssw15-rteElement-H3">Webcam/built-in microphone​<br></h3><p>The most common type of microphone many of us use is the built-in one on your laptop.<br>While some modern ones are a little more advanced than normal, they generally offer the poorest sound quality out of any microphone type. This is because they’re designed for conferencing and web calls, which prioritizes things like ambient noise cancellation. This can sound like a benefit, but in reality, it causes audio to sound ‘tinny’ vs proper microphones.<br></p><h3 class="ssw15-rteElement-H3">Headset microphone​<br></h3><p>Headsets are handy because they offer combined audio feedback and microphone in one.<br><b>This is the recommended setup for most people.</b><br><br>A headset mic offers the advantage of being very close to the source of the audio (your mouth), which is important to consider when recording video.</p><p>Some headsets are better than others, we recommend the 
    <a href="https&#58;//www.audio-technica.com/en-us/bphs1">Audio Technica BPHS1’s</a> like the ‘go-to’ option for really great broadcast-quality audio recordings.</p><dl class="image"><dt> 
