@@ -74,6 +74,6 @@ index:
 <ul></ul>
 <span style="color&#58;#ff0000;font-size&#58;13px;"><span style="color&#58;#ff0000;">​​​​▪&#160;</span></span><span style="font-size&#58;13px;">&#160;&#160;</span>Basic Naming conventions (see some of our object naming conventions)<br>
 <ul></ul>
-<span style="font-size&#58;13px;"><span style="color&#58;#ff0000;">​​​​▪</span>&#160;&#160;</span><span style="font-size&#58;13px;">​&#160;</span><span style="font-size&#58;13px;">​</span>Minimizing result set​ sizes and data over the wire​​​​​​​<br>​​​<div>Link&#58;&#160;<a href="http&#58;//www.nyx.net/~bwunder/dbChangeControl/standard.htm">Database Coding Standard and Guideline​</a><br></div>
+<span style="font-size&#58;13px;"><span style="color&#58;#ff0000;">​​​​▪</span>&#160;&#160;</span><span style="font-size&#58;13px;">​&#160;</span><span style="font-size&#58;13px;">​</span>Minimizing result set​ sizes and data over the wire​​​​​​​<br>​​​<div>Link&#58;&#160;<a href="http&#58;//www.nyx.net/~bwunder/dbChangeControl/standard.htm">Database Coding Standard and Guideline​</a>.<br></div><div><br></div><div>If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Database-Development.aspx">visit our SQL Server D​atabase&#160;consulting page</a>​​&#160;and book in&#160;a consultant.​​<br></div>
 
 
