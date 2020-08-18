@@ -9,6 +9,6 @@ index:
 - do-you-setup-sharepoint-backups-in-the-correct-order
 
 ---
-<p>​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Data-Protection-Manager.aspx">visit our Data Protection Manager&#160;consulting page​</a>​&#160;and book in&#160;a consultant.​​<br></p>
+<p>​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Data-Protection-Manager.aspx">visit our DPM​&#160;consulting page​</a>​&#160;and book in&#160;a consultant.​​<br></p>
 
 
