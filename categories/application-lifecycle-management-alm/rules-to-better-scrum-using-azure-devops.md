@@ -74,6 +74,6 @@ index:
 - do-you-know-that-gated-checkins-mask-dysfunction
 
 ---
-<p>​​​​​​​​​​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/ALM-Azure-DevOps.aspx">visit our Application Lifecycle Management, GitHub, and Azure DevOps consulting page​​</a>&#160;and book in&#160;a consultant.​​<br></p>
+<p>​​​​​​​​​​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Scrum.aspx">visit our Scrum​ consulting page​​</a>&#160;and book in&#160;a consultant.​​<br></p>
 
 
