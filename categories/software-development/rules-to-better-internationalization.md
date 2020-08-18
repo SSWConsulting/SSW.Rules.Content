@@ -24,6 +24,6 @@ index:
 - do-you-post-multilingual-posts-on-social-media
 
 ---
-<p>​​<br></p>
+<p>​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Chinafy-App.aspx">visit our Chinafy&#160;consulting page​</a>​&#160;and book in&#160;a consultant.​​<br></p>
 
 
