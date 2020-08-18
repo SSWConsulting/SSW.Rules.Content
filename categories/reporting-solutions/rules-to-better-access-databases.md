@@ -24,6 +24,6 @@ index:
 - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators--or-upsizing-problem
 
 ---
-<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit <a href="http&#58;//www.ssw.com.au/ssw/Consulting/EnterpriseReporting.aspx">Enterprise Reporting and BI​</a>&#160;and book i​n a consultant.​​</p>
+<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;<br></p><p>If you still need help, <a href="https&#58;//www.ssw.com.au/ssw/Consulting/Access-Database-Upsizing.aspx">visit our Access Database Upsizing consulting page​</a>&#160;and book in&#160;a consultant.​​<br></p>
 
 
