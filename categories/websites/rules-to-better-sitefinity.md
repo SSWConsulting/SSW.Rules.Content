@@ -11,6 +11,6 @@ index:
 - do-you-know-to-create-a-custom-library-provider
 
 ---
+<p>​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Sitefinity.aspx">visit our Sitefinity consulting page​​</a>&#160;and book in&#160;a consultant.​​<br></p>
 
-SSW Rules to Better Sitefinity
 
