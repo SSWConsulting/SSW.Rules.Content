@@ -15,10 +15,10 @@ related: []
 ---
 
 
-<p>​Basically, creating a rule category contains two parts of work.</p><ol><li><span style="line-height&#58;20.7999992370605px;">Create a&#160;&quot;rule category&quot; in Term Store (e.g. &quot;Rules to Better xxx&quot;)</span><br></li><li><span style="line-height&#58;20.7999992370605px;">Create a &quot;rule summary&quot; page to show all the rule pages belong​​&#160;to this rule category.</span><br></li></ol><p><span style="line-height&#58;20.7999992370605px;"></span></p>
+<p>​Basically, creating a rule category contains two parts of work.<br></p><ol><li><span style="line-height&#58;20.8px;">Create a&#160;&quot;rule category&quot; in Term Store (e.g. &quot;Rules to Better xxx&quot;)</span><br></li><li><span style="line-height&#58;20.8px;">Create a &quot;rule summary&quot; page to show all the rule pages belong​​&#160;to this rule category.</span><br></li></ol><p><span style="line-height&#58;20.8px;"></span></p>
 <br><excerpt class='endintro'></excerpt><br>
 <blockquote style="margin&#58;0px 0px 0px 40px;border&#58;none;padding&#58;0px;"><div><p>1) Open browser, log in to&#160;<span class="s2"><a href="/admin">http&#58;//rules.ssw.com.au/admin/</a></span></p></div></blockquote><div> 
-   <span style="line-height&#58;21px;"><span style="line-height&#58;20.7999992370605px;"><strong>1.&#160;Create a&#160;&quot;rule category&quot; in Term Store (e.g. &quot;Rules to Better xxx&quot;)</strong></span><strong> ​</strong>
+   <span style="line-height&#58;21px;"><span style="line-height&#58;20.8px;"><strong>1.&#160;Create a&#160;&quot;rule category&quot; in Term Store (e.g. &quot;Rules to Better xxx&quot;)</strong></span><strong> ​</strong>
       <br></span></div><blockquote style="margin&#58;0px 0px 0px 40px;border&#58;none;padding&#58;0px;"><div> 
       <span style="line-height&#58;21px;">2)&#160;​Open&#160;​​<a href="/_layouts/15/termstoremanager.aspx?tsid=eacc332d045a40e1bcc10498d65b767f">https&#58;//rules.ssw.com.au/_layouts/15/termstoremanager.aspx?tsid=eacc332d045a40e1bcc10498d65b767f​</a> , under &quot;ImportTaxonomy&quot; | &quot;RuleCategories&quot;,&#160;find the right &quot;parent category&quot; (e.g. &quot;Communication&quot;), click &quot;Create Term&quot;&#58;</span></div><dl class="ssw15-rteElement-ImageArea"> 
       <img src="/PublishingImages/rulecategor1.jpg" alt="rulecategor1.jpg" style="margin&#58;5px;width&#58;713px;height&#58;500px;" /> 
