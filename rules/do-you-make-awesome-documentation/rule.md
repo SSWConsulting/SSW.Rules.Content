@@ -44,10 +44,9 @@ related:
       <b>More info&#58; </b><a>https&#58;//rules.ssw.com.au/rules-to-better-specification-reviews​​</a><br></p>
    <b>Tip&#58;</b>&#160;Documentation should be as minimal as possible. If your circumstances require this style of documentation, start by limiting it to just enough to cover your first couple of Sprints. And recognize that by going down this path you make a commitment to keeping it up-to-date.</div><div>
    <br>
-   <h3 class="ssw15-rteElement-H3">G​​ood example – The 7 Important Documents</h3><div class="ssw15-rteElement-ContentBlock-SSW-Only">
-      <b>TODO David B&#58; </b>Add&#160;Figure&#58; Cool developers use the important 7 documents [can maybe use all 5 pics and organize them nicely into a collage]</div></div><div>
-   <br>
-   <p class="ssw15-rteElement-P">This style of documentation is used by modern teams who are Agile only.​<br></p></div><div><p class="ssw15-rteElement-P">There are 7 crucial documents for your project&#58;<br></p><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P"><b>In the repository (for developers)&#58;</b></p> 
+   <h3 class="ssw15-rteElement-H3">G​​ood example – The 7 Important Documents</h3>​<dl class="ssw15-rteElement-ImageArea"><img src="/SiteAssets/do-you-review-the-documentation/pexels-vlada-karpovich-4050343.jpg" alt="pexels-vlada-karpovich-4050343.jpg" style="margin&#58;5px;width&#58;500px;height&#58;600px;" /><br></dl></div><div><dd class="ssw15-rteElement-FigureGood">
+   Figure&#58; Good example - Cool developers use the 7 important documents​​<br></dd>
+   <p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P">This style of documentation is used by modern teams who are Agile only.​<br></p></div><div><p class="ssw15-rteElement-P">There are 7 crucial documents for your project&#58;<br></p><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P"><b>In the repository (for developers)&#58;</b></p> 
    <p class="ssw15-rteElement-P">
       <b>&#160; &#160; 1. README.md</b> – Explains the overview of the project and provides links to the rest of the documentation.</p><p class="ssw15-rteElement-P">
       <strong>&#160; &#160; 2. docs\Instructions-Compile.md </strong>– Instructions on how to build and run the project (AKA the F5 experience).</p><p class="ssw15-rteElement-P">
