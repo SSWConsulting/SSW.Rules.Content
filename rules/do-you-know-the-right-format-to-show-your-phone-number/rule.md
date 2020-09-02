@@ -15,11 +15,10 @@ redirects:
 ---
 
 
-<p>Basically every phone number should have +country code because then when you are in another country you can dial anyone without knowing the special numbers to go international.</p>
+<p>Every phone number should include the country code (with the + sign) so people&#160;in another country&#160;can call/text&#160;without having to look for the special numbers to go international. Make sure you always set your mobile number in the correct format.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​<img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad.gif" alt="" style="margin&#58;5px;width&#58;16px;" /> Bad&#58; (503) 629-4000
-   </p><p>
-   <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Good.gif" alt="" style="margin&#58;5px;width&#58;16px;" /> Good&#58; +1 (503) 629-4000    
-   </p>
+<dd class="ssw15-rteElement-FigureBad">​Bad example&#58; (503) 629-4000
+   </dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; +1 (503) 629-4000    
+   </dd>
 
 
