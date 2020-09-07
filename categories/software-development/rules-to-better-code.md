@@ -67,6 +67,6 @@ index:
 - do-you-use-string-interpolation-when-formatting-strings
 
 ---
-<p>​​​​​ What makes code &quot;cleaner&quot;? What makes the difference between readable code and very readable code?<br></p><p>It can be very painful when needing to modify a piece of code in an application that you never spec'd out or wrote. But it doesn't have to be this way. By following some of these better programming tips your code can be easily read and easily modified by any developer at any time.<br><br></p>
+<p>​​​​​​ What makes code &quot;cleaner&quot;? What makes the difference between readable code and very readable code?<br></p><p>It can be very painful when needing to modify a piece of code in an application that you never spec'd out or wrote. But it doesn't have to be this way. By following some of these better programming tips your code can be easily read and easily modified by any developer at any time.<br><br></p>
 
 
