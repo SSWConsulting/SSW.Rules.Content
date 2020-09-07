@@ -20,7 +20,7 @@ redirects:
 ---
 
 
-​​​​​​​​​​Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems… but there is a better way.&#160; 
+​​​​​​​​​​​Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems… but there is a better way.&#160; 
 <div> 
    <br> 
 </div><div>Various apps help solve the above problem. Using a modern Accounting system such as Xero, some connected&#160;apps can be used in conjunction with the accounting system and they include&#58;</div><div><ul><li> 
