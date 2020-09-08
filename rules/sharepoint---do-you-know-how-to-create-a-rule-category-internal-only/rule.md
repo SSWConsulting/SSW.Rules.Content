@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​Basically, creating a rule category contains two parts of work.<br></p><ol><li><span style="line-height&#58;20.8px;">Create a&#160;&quot;rule category&quot; in Term Store (e.g. &quot;Rules to Better xxx&quot;)</span><br></li><li><span style="line-height&#58;20.8px;">Create a &quot;rule summary&quot; page to show all the rule pages belong​​&#160;to this rule category.</span><br></li></ol><p><span style="line-height&#58;20.8px;"></span></p>
+<p>​​Basically, creating a rule category contains two parts of work.<br></p><ol><li><span style="line-height&#58;20.8px;">Create a&#160;&quot;rule category&quot; in Term Store (e.g. &quot;Rules to Better xxx&quot;)</span><br></li><li><span style="line-height&#58;20.8px;">Create a &quot;rule summary&quot; page to show all the rule pages belong​​&#160;to this rule category.</span><br></li></ol><p><span style="line-height&#58;20.8px;"></span></p>
 <br><excerpt class='endintro'></excerpt><br>
 <blockquote style="margin&#58;0px 0px 0px 40px;border&#58;none;padding&#58;0px;"><br></blockquote><div> 
    <span style="line-height&#58;21px;"><span style="line-height&#58;20.8px;"><strong>1.&#160;Create a&#160;&quot;rule category&quot; in Term Store (e.g. &quot;Rules to Better xxx&quot;)</strong></span><strong> ​</strong>
