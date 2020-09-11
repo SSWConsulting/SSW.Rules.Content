@@ -21,7 +21,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
  <p>
           The simplest way is, when writing or receiving the email, click the Dynamics CRM
-          button in Outlook&#160;and then&quot;track without Regarding&quot; to the opportunity in question.</p>
+          button in Outlook&#160;and then&#160;​&quot;track without Regarding&quot; to the opportunity in question.</p>
         <dl class="image">
           <dt>
             <img src="/PublishingImages/Track-an-appointment.jpg" alt="Track-an-appointment.jpg" style="margin&#58;5px;width&#58;808px;" /><br><span style="color&#58;#555555;font-weight&#58;bold;">Figure&#58; When you receive an important email, click the 'Track without Regarding' button in
