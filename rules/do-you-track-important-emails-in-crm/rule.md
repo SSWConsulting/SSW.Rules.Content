@@ -17,7 +17,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">Whenever you email a client with a correspondence that relates to an existing CRM opportunity (i.e. an &quot;as per our conversation&quot; about when you think the project would get going etc.) you should track it in CRM so it is centralized and can be seen by anyone else who tries to follow up that opportunity.<br></p><div><div></div><div>Now you know how to do it, what activities are worth tracking?​&#160;<a href="/Pages/Track-all-sales-related-activities-in-CRM.aspx">Sales - Do you track all sales related activities in CRM? </a></div><div>​<br></div></div>
+<p class="ssw15-rteElement-P">​Whenever you email a client with a correspondence that relates to an existing CRM opportunity (i.e. an &quot;as per our conversation&quot; about when you think the project would get going etc.) you should track it in CRM so it is centralized and can be seen by anyone else who tries to follow up that opportunity.<br></p><div><div></div><div>Now you know how to do it, what activities are worth tracking?​&#160;<a href="/Pages/Track-all-sales-related-activities-in-CRM.aspx">Sales - Do you track all sales related activities in CRM? </a></div><div>​<br></div></div>
 <br><excerpt class='endintro'></excerpt><br>
  <p>
           The simplest way is, when writing or receiving the email, click the Dynamics CRM
