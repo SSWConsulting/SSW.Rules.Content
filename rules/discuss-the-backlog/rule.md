@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>​​​​When discussing a&#160;PBI, Pull request, or a project in general -&#160;it is important to do it in the right place.<br></p><p><img src="/SiteAssets/discuss-the-backlog/Kanban-on-Screen.jpg" alt="Scrum1.jpg" style="margin&#58;5px;width&#58;800px;height&#58;459px;" /><br></p><p><br></p><dl class="badImage"><dt>
+<p>​​​​​When discussing a​&#160;PBI/Issue, Pull request, or a project in general -&#160;it is important to do it in the right place.<br></p><p><img src="/SiteAssets/discuss-the-backlog/Kanban-on-Screen.jpg" alt="Scrum1.jpg" style="margin&#58;5px;width&#58;800px;height&#58;459px;" /><br></p><p><br></p><dl class="badImage"><dt>
       <img src="/PublishingImages/bad-mention-pbi.jpg" alt="bad-mention-pbi.jpg" />
    </dt><dd>Figure&#58; Bad Example – don't use emails to discuss&#160;tasks</dd></dl><h3 class="ssw15-rteElement-H3">For a new PBI/Issue<br></h3><p>As per<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=efd6c91e-7cc5-4473-a299-9104c8fd6e0d">&#160;Do you know when you use @ mentions in a PBI?​</a>&#160;-&#160;​Create a new issue mentioning the Product Owner and&#160;the related people<br></p><p></p><dl class="goodImage"><dt>
       <img src="/SiteAssets/discuss-the-backlog/Create-Issue.png" alt="Create-Issue.png" />
