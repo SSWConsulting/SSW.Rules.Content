@@ -18,7 +18,7 @@ redirects:
 ---
 
 
-<p> Promoting your application and business via social media can be extremely beneficial, not only for promoting of a&#160;business, but for feedback from customers as well. To help implement&#160;social media campaigns, try these tips&#58;</p>
+<p>​Promoting your application and business via social media can be extremely beneficial, not only for promoting of a&#160;business, but for feedback from customers as well. To help implement&#160;social media campaigns, try these tips&#58;<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul class="p1"><li> 
       <span style="line-height&#58;1.6;"> </span>Target platforms for the countries in which you’ll have either an e-commerce or on-the-ground presence. e.g. Facebook/Qzone, Twitter/Weibo.</li><li>Understand the specific social media websites and to craft the message for each&#160; language. Always localize, don’t just translate.&#160;Google translate just isn't good enough, always give it to a native speaker to translate.&#160;</li><li>Don't make the text longer than what the shortest supported is (usually Twitter which is 140 characters).</li><li>Studies show that posts with an image get more traction .</li><li>Post it to the English site.</li><li>Then post it to the Chinese site.</li><li> 
