@@ -21,7 +21,7 @@ Using Boot to VHD is very similar to dual-booting your machine, except that you 
   <br>
 <br>
 <ul>
-    <li>The presentation computer running Window 7</li>
+    <li>The presentation computer running Windows<br></li>
     <li>A SysPreped VHD image to be deployed onto the presentation computer</li>
 </ul>
 <ol>
