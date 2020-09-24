@@ -24,8 +24,8 @@ related: []
 <ol><li><b>Emails​</b> 
       <dd class="ssw15-rteElement-FigureBad">Bad Example - This is a poor way to add a PBI as you can’t order emails by the business priority​<br></dd></li><li>
       <b>Azure DevOps Services</b> - E.g. https&#58;//ssw.visualstudio.com<dl class="goodImage"><dt> 
-         <img title="image" alt="image" src="/SiteAssets/product-owner-do-you-know-how-to-update-the-backlog/RulesScrumUpdateBacklogGood.jpg" style="width&#58;750px;" />
-      </dt><dd>​​​​Figure&#58; Good Example -&#160;VSTS&#160;allows you to enter an item into the backlog, in any&#160;priority order<br></dd></dl></li><li>
+         <img src="/SiteAssets/build-the-backlog/AzureDevOpsBacklog.png" alt="AzureDevOpsBacklog.png" style="margin&#58;5px;width&#58;808px;" />
+      <br></dt><dd>​​​​Figure&#58; Good Example -&#160;VSTS&#160;allows you to enter an item into the backlog, in any&#160;priority order<br></dd></dl></li><li>
       <strong>GitHub Issues (Recommended)<br></strong>
       <dl class="goodImage"><dt><img src="/SiteAssets/build-the-backlog/GitHubIssues.png" alt="GitHubIssues.png" style="margin&#58;5px;width&#58;808px;" />
          <br></dt><dd>Figure&#58; Good Example - Github Issues<br></dd></dl>
