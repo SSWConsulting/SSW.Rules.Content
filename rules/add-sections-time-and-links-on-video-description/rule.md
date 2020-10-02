@@ -30,11 +30,11 @@ redirects:
 <br><excerpt class='endintro'></excerpt><br>
 <p>​Steps to do this&#58;<br></p><ol><li>​Go to YouTube in your browser<br></li><li>Play the video&#160;through the timeline until you reach the&#160;moment you want a link to&#160;<br></li><li>Make a note on the&#160;time​<br></li><li>Type in the timestamp (E.g. 0​4&#58;41​) on the video description.&#160;​This also works on comments​<br></li><li>Save and YouTube will automatically add a link to that exact time of the video<br></li></ol><dl class="goodImage"><dt>
       <img src="/PublishingImages/youtube-video-time-link.jpg" alt="youtube-video-time-link.jpg" style="width&#58;750px;" />
-   </dt><dd>Figure&#58; Us​ers can easily go to each section of the video by clicking on these links or using the slider​</dd></dl>
+   </dt><dd>Figure&#58; Users can easily go to each section of the video by clicking on these links or using the slider​</dd></dl>
 <dl class="goodImage">
    <dt>
       <img src="/PublishingImages/table-contents-in-video-screen.png" alt="table-contents-in-video-screen.png" style="width&#58;750px;" /> 
    </dt><dd>Figure&#58; A visual table of content inside the video screen - If you watch from 
-      <a href="https&#58;//youtu.be/GNdFj-abNNo?t=158">2&#58;38</a> you will see a new section highlighted with a dip to black, subtle sound effect, and strikethrough on the section that just finished​<br></dd></dl>
+      <a href="https&#58;//youtu.be/GNdFj-abNNo?t=158">2&#58;38</a> you will see a new section highlighted with a dip to black, <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=e9fe9bb3-a078-413b-8527-8dcc508637d9">subtle sound effect​</a>, and strikethrough on the section that just finished​<br></dd></dl>
 
 
