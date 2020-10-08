@@ -15,9 +15,9 @@ related: []
 ---
 
 
-<p>Looking at a long list of Azure resources is not the best way to be introduced to a new project. It is much better to visualize your resources.<br></p><p>You need an&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7b588070-e0d2-46f4-811e-87b15a8c190d">architecture diagram</a>, but this is often high level, just outlining the most critical components from the 50,000ft view, often abstracted into logical functions or groups. So, once you have your acthitecture diagram,&#160;the next step is to create your Azure resources diagram.<br></p>
+<p>Looking at a long list of Azure resources is not the best way to be introduced to a new project. It is much better to visualize your resources.<br></p><p>You need an&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7b588070-e0d2-46f4-811e-87b15a8c190d">architecture diagram</a>, but this is often high level, just outlining the most critical components from the 50,000ft view, often abstracted into logical functions or groups. So, once you have your architecture&#160;diagram,&#160;the next step is to create your Azure resources diagram.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">Option A&#58; Just viewing a list of resources in the Azure portal</h3><ul><li>​When there are a lot of resources this doesn't work.</li></ul><p></p><dl class="badImage"><dt> 
+<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/mSg4CM8FbXo" frameborder="0"></iframe>&#160;</div><h3 class="ssw15-rteElement-H3">Option A&#58; Just viewing a list of resources in the Azure portal</h3><ul><li>​When there are a lot of resources this doesn't work.</li></ul><p></p><dl class="badImage"><dt> 
       <img src="/SiteAssets/azure-resources-diagram/azure%20resources.png" alt="AZURE-VIEW0-BAD.png" style="width&#58;752px;" /> 
    </dt><dd>Figure&#58; Bad Example – Using the&#160;Azure Portal to view your resources</dd><h3 class="ssw15-rteElement-H3">
       <br>
