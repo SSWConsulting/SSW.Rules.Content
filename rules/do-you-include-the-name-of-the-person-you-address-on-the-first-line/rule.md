@@ -22,6 +22,6 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt><img src="/PublishingImages/IncludeNameFirstLine.jpg" alt="Include each addressee's name as a heading in the email body" class="ms-rteCustom-ImageArea" style="width&#58;750px;height&#58;532px;" /> </dt><dd>Figure&#58;&#160;Good Example - When addressing multiple people, include each addressee's name as a separate heading</dd></dl><p>
    <b>Tip&#58; </b>Use big headings by typing Control+Alt+3.</p><p>
-   <strong>Video&#58;&#160;</strong><a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a>.<br></p>
+   <strong>Video&#58;&#160;</strong><a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a>.<br></p><h3 class="ssw15-rteElement-H3">Related rule​<br></h3><p><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7c00a38b-6dbe-4445-9a3f-a4268b3dfada">Do you know who to put in the &quot;To&#58;&quot; field?</a>​<br></li></ul></p>
 
 
