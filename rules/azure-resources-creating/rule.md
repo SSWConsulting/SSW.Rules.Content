@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>​We’ve been down this road before where developers had to be taught&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=a4ca7d22-069a-4727-b54a-a1cf1d5a5ef4">not to manually create tables and in databases</a>. Now, in the cloud world, we’re saying the same thing again. Don’t manually create your Azure resources.​<br></p><p class="ssw15-rteElement-P">So what options do you have?​​</p>
+<p>​We’ve been down this road before where developers had to be taught&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=a4ca7d22-069a-4727-b54a-a1cf1d5a5ef4">not to manually create tables and in databases</a>. Now, in the cloud world, we’re saying the same thing again. Don’t manually create your Azure resources.​<br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/8E63s2QlbhA" frameborder="0"></iframe>&#160;</div><p>​<br></p><p class="ssw15-rteElement-P">So what options do you have?​​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <h3 class="ssw15-rteElement-H3">​Option A&#58; Manually​​<br></h3><p>This is the most common and the worst<br></p><p></p><ul><li>Create resources in Azure and not save a script<br></li></ul><p></p><dl class="badImage"><dt> 
       <img src="/SiteAssets/azure-resources-creating/azure%20resources.gif" alt="create-azure-bad1.png" style="width&#58;609px;" /> 
