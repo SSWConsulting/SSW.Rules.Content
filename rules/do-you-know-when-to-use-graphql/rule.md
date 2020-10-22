@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​GraphQL is a query language for your APIs. It lets you expose a schema, which is a combination of 
+<p>​​GraphQL is a query language for your APIs. It lets you expose a schema, which is a combination of 
 <strong>types</strong>, 
 <strong>queries,</strong> and 
 <strong>mutations&#160;</strong>and your client applications can define their own queries based on that schema. You can think of it as SQL for the web.</p><p>GraphQL was developed by Facebook in 2012 to solve a problem with their mobile app, which was chewing users' data and battery and leading to negative reviews. This is because the Facebook newsfeed combines data from many entities and data sources, which required multiple API calls. GraphQL allowed them to retrieve all the data they need with 1 call. Facebook open-sourced the GraphQL specification in 2015 (<a href="http&#58;//spec.graphql.org/June2018/">http&#58;//spec.graphql.org/June2018/</a>).<br></p>
