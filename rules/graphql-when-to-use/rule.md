@@ -17,12 +17,12 @@ redirects:
 ---
 
 
-<p>​​GraphQL is a query language for your APIs. It lets you expose a schema, which is a combination of 
+<p>​​​GraphQL is a query language for your APIs. It lets you expose a schema, which is a combination of 
 <strong>types</strong>, 
 <strong>queries,</strong> and 
 <strong>mutations&#160;</strong>and your client applications can define their own queries based on that schema. You can think of it as SQL for the web.</p><p>GraphQL was developed by Facebook in 2012 to solve a problem with their mobile app, which was chewing users' data and battery and leading to negative reviews. This is because the Facebook newsfeed combines data from many entities and data sources, which required multiple API calls. GraphQL allowed them to retrieve all the data they need with 1 call. Facebook open-sourced the GraphQL specification in 2015 (<a href="http&#58;//spec.graphql.org/June2018/">http&#58;//spec.graphql.org/June2018/</a>).<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>GraphQL is a query language; it is agnostic of&#160;database, programming language, OS, and platforms. There are GraphQL server and client libraries for nearly all of these (see the Resources section below), which you can add to your existing projects to enable GraphQL.<br></p><h3 class="ssw15-rteElement-H3">​Key Terms</h3><p>GraphQL differs from REST in that REST is concerned with&#160;<b>resources</b> and GraphQL is concerned with&#160;<b>state</b>. While some features are somewhat analogous, it helps to be familiar with the GraphQL lingo and understand it in its own right. For more information, see&#58; 
+<p>GraphQL is a query language; it is agnostic of&#160;database, programming language, OS, and platforms. To enable GraphQL, you can use client and server libraries (see Resourced below).<br></p><p>There are GraphQL server and client libraries for nearly all of these (see the Resources section below), which you can add to your existing projects to enable GraphQL.<br></p><h3 class="ssw15-rteElement-H3">​Key Terms</h3><p>GraphQL differs from REST in that REST is concerned with&#160;<b>resources</b> and GraphQL is concerned with&#160;<b>state</b>. While some features are somewhat analogous, it helps to be familiar with the GraphQL lingo and understand it in its own right. For more information, see&#58; 
    <a href="https&#58;//graphql.org/learn/thinking-in-graphs/">https&#58;//graphql.org/learn/thinking-in-graphs/​</a><br><br></p><ul><li>
       <b>Types&#58;</b> Types are the fundamental building blocks of your GraphQL API. Just like in a strongly typed language like C#, there are a default set of types, and you build your own by putting together default and custom types as&#160;<b>fields</b>&#160;of other types. See&#58; 
       <a href="https&#58;//graphql.org/learn/schema/#type-system">https&#58;//graphql.org/learn/schema/#type-system</a></li><li>
