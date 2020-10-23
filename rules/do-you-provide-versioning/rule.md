@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-<p>As an API provider, one of your most important tasks is to make sure that breaking changes will never occur in your API. Making breaking changes will make life difficult for the developers who depend on your service and can easily start causing frustration when things start to break.</p>
+<p>As an API provider, one of your most important tasks is to make sure that breaking changes will never occur in your API. Making breaking changes will make life difficult for the developers who depend on your service and can easily start causing frustration when things start to break.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>There are typically three main ways people provide versioning.</p><ol><li> 
       <strong>Change the URL&#58;</strong> Append a version number in the path<br>e.g. <a href="https&#58;//developer.github.com/v3/">https&#58;//developer.github.com/v3/</a>
