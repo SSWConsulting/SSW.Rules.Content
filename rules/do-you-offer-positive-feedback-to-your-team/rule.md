@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-<p class="ssw15-rteElement-P">​Receiving positive feedback makes everyone feel good,&#160;peps them up and encourages them to do more of whatever they are doing.<br>Forgetting to recognize success
+<p class="ssw15-rteElement-P">​​​​Receiving positive feedback makes everyone feel good,&#160;peps them up, and encourages them to do more of whatever they are doing.<br>Forgetting to recognize success
                     means they have​&#160;no motivation to succeed.
                 <br></p>
 <br><excerpt class='endintro'></excerpt><br>
