@@ -29,7 +29,7 @@ related: []
       <img src="/PublishingImages/Designer-Source-Control-DropBox.png" alt="" style="width&#58;750px;" /> 
    </dt><dd>Figure&#58; Good Example – Dropbox<br></dd></dl><dl class="goodImage"><dt>
       <img src="/PublishingImages/Teamsfiles.png" alt="" style="width&#58;750px;" /> 
-   </dt><dd>Figure&#58; Good Example – Dropbox... the way file sharing is meant to be<br></dd></dl><p>GoogleDrive and Dropbox don’t work in China, so SSW prefers to use OneDrive.<br></p><p>For developers, see&#58; 
+   </dt><dd>Figure&#58; Good Example – Teams​... the way file sharing is meant to be<br></dd></dl><p>GoogleDrive and Dropbox don’t work in China, so SSW prefers to use OneDrive.<br></p><p>For developers, see&#58; 
    <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2860239f-9812-414a-ad42-6174c928cbb0">Do you know where to keep your files - TFS, SharePoint?</a></p>
 
 
