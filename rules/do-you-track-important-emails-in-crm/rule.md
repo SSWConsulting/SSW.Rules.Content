@@ -25,7 +25,7 @@ related: []
         <dl class="image">
           <dt>
             <img src="/PublishingImages/Track-an-appointment.jpg" alt="Track-an-appointment.jpg" style="margin&#58;5px;width&#58;808px;" /><br><span style="color&#58;#555555;font-weight&#58;bold;">Figure&#58; When you receive an important email, click the 'Track without Regarding' button in
-            on the Dynamics sidebar​​</span></dt><dt><span style="color&#58;#555555;font-weight&#58;bold;"><br></span></dt><dt><span style="color&#58;#555555;"><br>Now you know the general principal, the next step is to determine what activities are worth tracking?​&#160;Sales - Do y​​ou track all sales related activities in CRM?<br><br></span></dt></dl><dl class="image">
+            on the Dynamics sidebar​​</span></dt><dt><span style="color&#58;#555555;font-weight&#58;bold;"><br></span></dt><dt><span style="color&#58;#555555;"><br>Now you know the general principle​, the next step is to determine what activities are worth tracking?​&#160;Sales - Do y​​ou track all sales related activities in CRM?<br><br></span></dt></dl><dl class="image">
         </dl>
 
 
