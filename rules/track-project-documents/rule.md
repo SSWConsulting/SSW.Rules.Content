@@ -21,7 +21,7 @@ redirects:
 ---
 
 
-<p>​​​​​There is a myriad of options to choose from when storing and sharing documents, some examples include&#58;<br></p><ul><li>SharePoint<br></li><li>OneDrive or Dropbox or Google Drive<br></li><li>Microsoft Teams | Team Site<br></li></ul>The best choice is Microsoft Teams because it brings together the best of SharePoint, cloud file storage, real time collaboration and more into a single location.<br><p></p>
+<p>​​​​​​There is a myriad of options to choose from when storing and sharing documents, some examples include&#58;<br></p><ul><li>SharePoint<br></li><li>OneDrive or Dropbox or Google Drive<br></li><li>Microsoft Teams | Team Site<br></li></ul>The best choice is Microsoft Teams because it brings together the best of SharePoint, cloud file storage, real time collaboration and more into a single location.<br><p></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
       <img src="/SiteAssets/do-you-know-the-best-place-to-store-documents-and-share-them/teams%20-%20network%20share.png" alt="teams - network share.png" style="width&#58;750px;" /> 
