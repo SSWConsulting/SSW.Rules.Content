@@ -15,15 +15,13 @@ related: []
 ---
 
 
-Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata.
+​Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata. 
 <br>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="ssw15-rteElement-ImageArea">​​​​  
-   <img src="/SiteAssets/appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting/Bad%20calendar%20appointment.jpg" alt="Bad calendar appointment.jpg" style="margin&#58;5px;width&#58;808px;" />&#160;​​<br></dl><dd class="ssw15-rteElement-FigureBad">F​​igure&#58; Bad Exa​mple - The appointment with the date in the text.</dd>
-<br>​
-<dl class="ssw15-rteElement-ImageArea">
-   <img src="/SiteAssets/appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting/Good%20calendar%20appointment.jpg" alt="Good calendar appointment.jpg" style="margin&#58;5px;width&#58;808px;" />   
-</dl><dd class="ssw15-rteElement-FigureGood"> Figure&#58; Good Example - The appointment without time and date in t​he text. 
-</dd>
+<dl class="ssw15-rteElement-ImageArea">​​<img src="/SiteAssets/appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting/Bad%20calendar%20appointment.jpg" alt="Bad calendar appointment.jpg" /></dl><dd class="ssw15-rteElement-FigureBad">F​​igure&#58; Bad Exa​mple - The appointment with the date in the text.</dd> 
+​<br>​ 
+<dl class="ssw15-rteElement-ImageArea"> 
+   <img src="/SiteAssets/appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting/Good%20calendar%20appointment.jpg" alt="Good calendar appointment.jpg" />
+</dl><dd class="ssw15-rteElement-FigureGood"> Figure&#58; Good Example - The appointment without time and date in t​he text. </dd>
 
 
