@@ -17,7 +17,7 @@ related: []
 
 <p class="ssw15-rteElement-P">Often your conversation flow with someone will go from a phone call, to emails, to&#160;an appointment, and then back to emails.<br></p><p class="ssw15-rteElement-P"><span style="color&#58;#444444;">It's nice to be able to look back and see the whole history in 1 thread, so you will need to be able to Reply All to an appointment to continue the email conversation after the meeting.</span></p><p class="ssw15-rteElement-P"><span style="color&#58;#444444;">Outlook makes this easy&#58;</span></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>
+<dl class="image"><ul><dt>​Option 1&#58; Right click on the appointment in your calendar and click &quot;Reply All&quot;<br></dt><dt>Option 2&#58; Left click on the appointment in your calendar and type &quot;Ctrl + Shift + R&quot;<br></dt><dt>Option 3&#58; Use the ribbon as below<br></dt></ul><dt><br></dt><dt>
       <img class="ms-rteCustom-ImageArea" alt="Calendar window" src="/SiteAssets/appointments-do-you-remind-attendees-about-tomorrows-appointment/Outlook%201.png" style="width&#58;790px;height&#58;513px;" />
    </dt><dd>Figure&#58;&#160;Open the appointment in your Calendar (You should already have Invited all the required people to attend)</dd></dl><dl class="image"><dt>
       <img src="/SiteAssets/appointments-do-you-remind-attendees-about-tomorrows-appointment/Outlook%202.png" alt="" style="width&#58;789px;height&#58;324px;" />
