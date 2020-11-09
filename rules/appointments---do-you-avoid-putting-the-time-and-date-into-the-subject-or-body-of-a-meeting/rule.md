@@ -15,7 +15,7 @@ related: []
 ---
 
 
-​Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata. 
+​​Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata. 
 <br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="ssw15-rteElement-ImageArea">​​<img src="/SiteAssets/appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting/Bad%20calendar%20appointment.jpg" alt="Bad calendar appointment.jpg" style="width&#58;800px;height&#58;620px;" /></dl><dd class="ssw15-rteElement-FigureBad">F​​igure&#58; Bad Exa​mple - The appointment with the date in the text.</dd> 
