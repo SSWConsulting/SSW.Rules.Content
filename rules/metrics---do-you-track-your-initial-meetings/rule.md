@@ -17,7 +17,7 @@ related: []
 ---
 
 
-When creating an appointment email for an initial meeting, make sure you&#160;include the words &quot;<b>initial</b>&quot; and &quot;<b>meeting</b>&quot;&#160;on the subject.&#160;<br> 
+​When creating an appointment email for an initial meeting, make sure you&#160;include the words &quot;<b>initial</b>&quot; and &quot;<b>meeting</b>&quot;&#160;on the subject.&#160;<br> 
 <div><p class="ssw15-rteElement-GreyBox"><b>Subject&#58;</b><b></b> Northwind project with SSW and Bob<br></p></div><div><dd class="ssw15-rteElement-FigureBad"> Figure&#58; Bad subject - not clear it is an initial meeting<br></dd><div><p class="ssw15-rteElement-GreyBox"> 
          <b>Subject&#58;</b> ​<span class="ssw15-rteStyle-Highlight">Initial meeting</span> with SSW and Bob from Northwind<br> <b>​Subject&#58;</b> 
          <span class="ssw15-rteStyle-Highlight">Initial</span> phone 
