@@ -15,7 +15,7 @@ related: []
 ---
 
 
-<p>​Depending on the type of video you are making, you will need to decide what microphone works best for you.<br></p>
+<p>​​Depending on the type of video you are making, you will need to decide what microphone works best for you.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <h3 class="ssw15-rteElement-H3">Webcam/built-in microphone​<br></h3><p>The most common type of microphone many of us use is the built-in one on your laptop.<br>While some modern ones are a little more advanced than normal, they generally offer the poorest sound quality out of any microphone type. This is because they’re designed for conferencing and web calls, which prioritizes things like ambient noise cancellation. This can sound like a benefit, but in reality, it causes audio to sound ‘tinny’ vs proper microphones.<br></p><h3 class="ssw15-rteElement-H3">Headset microphone​<br></h3><p>Headsets are handy because they offer combined audio feedback and microphone in one.<br><b>This is the recommended setup for most people.</b><br><br>A headset mic offers the advantage of being very close to the source of the audio (your mouth), which is important to consider when recording video.</p><p>Some headsets are better than others, we recommend the 
    <a href="https&#58;//www.audio-technica.com/en-us/bphs1">Audio Technica BPHS1’s</a> like the ‘go-to’ option for really great broadcast-quality audio recordings.</p><dl class="image"><dt> 
@@ -24,7 +24,7 @@ related: []
    <a href="https&#58;//www.logitech.com/en-au/product/usb-headset-h340">Logitech H340</a> USB headset is a good option.</p><dl class="image"><dt>
       <img src="/PublishingImages/mic-2-logitech.png" alt="mic-2-logitech.png" style="width&#58;750px;height&#58;644px;" />
    </dt><dd>Figure&#58; Logitech H340 headset</dd></dl><p> 
-   <b>Warning&#58;</b>&#160;Lhese look poor on video.<br></p><h3 class="ssw15-rteElement-H3">Desktop microphone – portable</h3><p>Desktop mics can offer better audio quality than headsets mics overall.&#160;</p><p>There are many models to pick with different characteristics. Our choice is the 
+   <b>Warning&#58;</b>&#160;These look poor on video.<br></p><h3 class="ssw15-rteElement-H3">Desktop microphone – portable</h3><p>Desktop mics can offer better audio quality than headsets mics overall.&#160;</p><p>There are many models to pick with different characteristics. Our choice is the 
    <a href="http&#58;//www.samsontech.com/samson/products/microphones/usb-microphones/meteormic/">Samson Meteor Mic</a>.&#160;​It connects via USB to your laptop and works without additional drivers.&#160;</p><dl class="image"><dt>
       <img src="/PublishingImages/mic-3-samson.jpg" alt="mic-3-samson.jpg" />
    </dt><dd>Figure&#58; Desktop microphone – plugs into USB and sits in front of you on the desk. Preferred for done videos and is portable</dd></dl><h3 class="ssw15-rteElement-H3">Desktop microphone – non-portable</h3><p>You can go beyond a portable desktop mic and get something like the Rode Procaster mic on an arm. These are typically used by professional podcasters.</p><dl class="image"><dt>
