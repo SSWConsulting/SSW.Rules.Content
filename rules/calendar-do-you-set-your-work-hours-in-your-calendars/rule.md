@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>​​You should always set your working hours in your outlook calendar so others knows when you are working, this will help us to do resource scheduling.  This is especially important for people who are not working as full time, e.g. part-time, contractors etc.<br></p>
+<p>​​You should always set your working hours in your&#160;Outlook calendar so others knows when you are working, this will help us to do resource scheduling.  This is especially important for people who are not working as full time, e.g. part-time, contractors etc.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>You can find this setting in File | Options | Calendar Options, it looks like below&#58;</p><dl class="image"><dl class="ssw15-rteElement-ImageArea"> 
       <img alt="Choose your working hours" src="/PublishingImages/Outlook%20work%20hours.jpg" style="width&#58;551px;" /> 
@@ -26,7 +26,7 @@ redirects:
    </dl><dd class="ssw15-rteElement-FigureNormal">Figure&#58; Worki​​​​ng hours will be shown in Scheduling Assistant</dd></dl><dl class="image"><dl class="ssw15-rteElement-ImageArea"> 
       <img src="/SiteAssets/calendar-do-you-set-your-work-hours-in-your-calendars/CRM-set-work-hours-1.jpg" alt="CRM-set-work-hours-1.jpg" style="margin&#58;5px;width&#58;808px;" /> 
    </dl><dd class="ssw15-rteElement-FigureNormal">Fi​​​​gure&#58; In CRM, Click on the cog in the top right | Personalization Settings</dd></dl><dl class="image"><dl class="ssw15-rteElement-ImageArea">
-      ​​​<img src="/SiteAssets/calendar-do-you-set-your-work-hours-in-your-calendars/CRM-set-work-hours-2.jpg" alt="CRM-set-work-hours-2.jpg" style="margin&#58;5px;width&#58;808px;" />
+      ​​​​<img src="/SiteAssets/calendar-do-you-set-your-work-hours-in-your-calendars/CRM-set-work-hours-2.jpg" alt="CRM-set-work-hours-2.jpg" style="margin&#58;5px;width&#58;808px;" />
    </dl><dd class="ssw15-rteElement-FigureNormal">Figure​&#58; Go t​​​o the Activities tab | Enter your default work hours</dd>​
 ​<br></dl>
 
