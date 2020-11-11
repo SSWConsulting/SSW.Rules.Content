@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p>​There are occasions that you are not able to access your computer to send sick emails, or you get a call from your client on the way to the office that you have to drive to a&#160;​client site straight away; when such things happen, you need someone else to update your calendar when you call in, so others are aware of your availabilities. <br></p>
+<p>​​There are occasions that you are not able to access your computer to send sick emails, or you get a call from your client on the way to the office that you have to drive to a&#160;​client site straight away; when such things happen, you need someone else to update your calendar when you call in, so others are aware of your availabilities. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>So always make sure the admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you. ​</p><dl class="image"><dt> 
       <img src="/SiteAssets/calendar-do-you-allow-full-access-to-calendar-admins/Share-Calendar.jpg" alt="Click on Calendar Permissions" style="width&#58;800px;height&#58;503px;" /> 
