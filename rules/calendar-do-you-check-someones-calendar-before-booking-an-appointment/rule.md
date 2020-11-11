@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p><span style="line-height&#58;20.8px;">​​Imagine someone who wants an appointment with a team member who has&#160;</span><a href="/Pages/Know-the-ways-to-share-and-see-calendars.aspx" style="line-height&#58;20.8px;">shared their calendar</a><span style="line-height&#58;20.8px;">&#160;with you. Offer to look up the calendar and book in time straightaway.</span>​</p>
+<p><span style="line-height&#58;20.8px;">If someone has <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=86a7e3f1-964a-47bc-ba84-d28bd42d3df4">shared their&#160;calendar permissions</a>​&#160;with you, you will be able to check their calendar directly without needing a conversation.<br>​​​Imagine someone </span><span style="line-height&#58;20.8px;">wants to book some time with you. Offer to look up the calendar and book in time straightaway.</span>​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="bad">
                     <dd>Bad Example -&#160;&quot;Try calling him.&quot;<br>​<br></dd></dl>
