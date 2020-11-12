@@ -27,6 +27,6 @@ related:
       <img alt="Bad Multiple Day Appointment" src="/PublishingImages/BadMultipleDayAppointment.gif" style="width&#58;600px;" />
    </dt><dd>Figure&#58;&#160;Bad Example - Multiple-day appointments appear hidden at the top of your Outlook calendar, so you might miss it, thinking that the time is free </dd></dl><dl class="goodImage"><dt> 
       <img alt="Good Single Day Appointments" src="/PublishingImages/GoodSingleDayAppointments.gif" style="width&#58;600px;" />
-   </dt><dd>Figure&#58; Good Example -&#160;Send a separate appointment for each day so you can clearly see it in your Outlook calendar​<br><br></dd></dl>
+   </dt><dd>Figure&#58; Good Example -&#160;Send a separate appointment for each day so you can clearly see it in your Outlook calendar​​</dd></dl><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/hlhqV0LwNJ8" frameborder="0"></iframe>&#160;</div><br>
 
 
