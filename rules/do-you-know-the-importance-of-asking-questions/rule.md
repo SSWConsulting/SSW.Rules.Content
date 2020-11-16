@@ -25,6 +25,6 @@ Topics&#58;<br>
    <br>
 </div>
 
-<p><b>​Warning&#58;</b> This video has timestamps and won't show here. The timestamps are only visible if you play this on the YouTube App or YouTube website.​</p>
+<p><b>​Tip​&#58;</b> This video has timestamps and won't show here. The timestamps are only visible if you play this on the YouTube App or YouTube website.​</p>
 
 
