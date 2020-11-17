@@ -14,8 +14,8 @@ related:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">​​Once you’ve internalized the importance of <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=34f9f173-8437-448d-a204-4ba07cdbe188">having Professional Integrity</a>, you may feel like you are suddenly under a lot of pressure to keep your word, and this can be stressful.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p class="ssw15-rteElement-P">There are many tools and techniques you can use to help​​​ you succeed at this, and also to take some of the pressure off.</p><h3 class="ssw15-rteElement-H3">Remembering to do something​​​<br></h3><ul><li>​Siri (or Google) reminders</li></ul><br>
 
 
