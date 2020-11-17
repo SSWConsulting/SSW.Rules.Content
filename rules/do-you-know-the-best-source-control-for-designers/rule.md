@@ -29,6 +29,6 @@ related: []
       <img src="/PublishingImages/Designer-Source-Control-DropBox.png" alt="" style="width&#58;750px;" /> 
    </dt><dd>Figure&#58; Good Example – Dropbox or OneDrive<br></dd></dl><dl class="goodImage"><dt>
       <img src="/PublishingImages/Teamsfiles.png" alt="" style="width&#58;750px;" /> 
-   </dt><dd>Figure&#58; Good Example – Teams​... the way file-sharing is meant to be<br></dd></dl><p class="ssw15-rteElement-GreyBox">&#127464;&#127475;&#160;Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.​​<br></p><p>For developers, see&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2860239f-9812-414a-ad42-6174c928cbb0">Do you know where to keep your files?</a><br></p>
+   </dt><dd>Figure&#58; Good Example – OneDrive and ​Teams​<br></dd></dl><p class="ssw15-rteElement-GreyBox">&#127464;&#127475;&#160;Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.​​<br></p><p>For developers, see&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2860239f-9812-414a-ad42-6174c928cbb0">Do you know where to keep your files?</a><br></p>
 
 
