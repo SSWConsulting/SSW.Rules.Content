@@ -28,7 +28,7 @@ The best developers are also extremely good at finding a solution to a problem t
     <li>Include the technology used if appropriate</li>
 </ol>
 <p>If someone asks you for help searching, always tell them the keywords - that will help them learn to search better.</p>
-<p>For example, take <a href="http&#58;//www.ssw.com.au/ssw/Redirect/smh.htm" target="_blank">www.smh.com.au</a><img width="17" height="11" alt="Leave Site" src="http&#58;//www.ssw.com.au/ssw/Images/LeaveSite.gif" />, a leading Australian news website. If you search on the key words 'Australia' and 'news' you wont find it on the first page, but if you add 'Sydney' (a word from the company name) then you're number 1... </p>
+<p>For example, take <a href="http&#58;//www.ssw.com.au/ssw/Redirect/smh.htm" target="_blank">www.smh.com.au</a>​, a leading Australian news website. If you search on the keywords 'Australia' and 'news' you won't find it on the first page, but if you add 'Sydney' (a word from the company name) then you're number 1... <br></p>
 
 
 
