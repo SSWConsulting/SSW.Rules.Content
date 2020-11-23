@@ -78,5 +78,5 @@ index:
 
 ---
 <p>​​​​<br></p>
-<p>​​</p>
+<p class="ssw15-rteElement-Reference">​​ I've been putting together Development Guidelines for my employer and in the process have reviewed many published standards (in the .NET arena) from around the world. In each category, the suggestions at SSW are always among the best. <br>-&#160;Leon Bambrick​<br></p>
 
