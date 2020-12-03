@@ -13,8 +13,8 @@ redirects: []
 
 
 
-  <p>A task should never have an estimate of more than half&#160;a day (4​ hours). 
-</p>
+  <p>A task should never have an estimate of more than half&#160;a day (4​ hours). ​
+<br></p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
