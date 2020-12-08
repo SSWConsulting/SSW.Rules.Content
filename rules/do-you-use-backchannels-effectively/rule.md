@@ -19,7 +19,7 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">​Often, when a manager is called in to help out with a conflict situation, they don’t have all the context or details, so backchannels can help to fill the gap.​<br></p>
+<p class="ssw15-rteElement-P">​​Often, when a manager is called in to help out with a conflict situation, they don’t have all the context or details, so backchannels can help to fill the gap.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p> 
    <b>Prior backchannels</b> - Have an &quot;off the record&quot; conversation with your manager or teammate before a client meeting. If your manager has no idea about an issue, when they’re put on the&#160;spot in a meeting, they then have to interrogate regarding processes followed, etc. It’s better to have them prepared before they go in.&#160;One way to do this is by asking good questions – see the video on how to ask good questions below.​<br></p><p> 
