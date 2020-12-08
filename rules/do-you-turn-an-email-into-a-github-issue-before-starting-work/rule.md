@@ -18,7 +18,7 @@ redirects: []
 ---
 
 
-​​​If a Product Owner sends an email to the development team with a request, that email should be turned into a Github Issue before any work is started or the work is prioritized on the backlog.&#160;<div><br></div><div>Power Automate has a connector to do this automatically when an email arrives in Outlook. It can create a new Github Issue by parsing the From, To, Subject and body of the email.&#160;</div><div><br></div><div>However, at the moment there is a limitation that&#160;it doesn't read inline attachments in emails.<br></div>
+​​​​If a Product Owner sends an email to the development team with a request, that email should be turned into a Github Issue before any work is started or the work is prioritized on the backlog.&#160;<div><br></div><div>Power Automate has a connector to do this automatically when an email arrives in Outlook. It can create a new Github Issue by parsing the From, To, Subject and body of the email.&#160;</div><div><br></div><div>However, at the moment there is a limitation that&#160;it doesn't read inline attachments in emails and therefore you have to create your issues manually in Github.<br></div>
 <br><excerpt class='endintro'></excerpt><br>
 <div><dl class="image"><dt>
          <img src="/SiteAssets/do-you-turn-an-email-into-a-github-issue-before-starting-work/email-to-github-issue2.png" alt="In Power Automate choose Github" style="width&#58;800px;" />
