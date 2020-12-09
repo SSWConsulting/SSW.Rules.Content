@@ -15,7 +15,7 @@ redirects:
 ---
 
 
-Enter Intro Text
+add content​<br>
 <br><excerpt class='endintro'></excerpt><br>
 
 
