@@ -50,7 +50,7 @@ related: []
             <b>Done</b> (see 
             <a href="http&#58;//www.ssw.com.au/">www.ssw.com.au</a>)</li><li> 
             <b>Not Done</b> - We don't have a camera</li></ol>
-      <p>Damian</p></span><span class="ms-rteCustom-FigureGood"> Figure&#58; OK Example – It’s clear which tasks have been done and which haven’t, but you have to scroll to see what were the tasks​</span> </div><div>
+      <p>Damian</p></span><span class="ms-rteCustom-FigureGood"> Figure&#58; OK Example – It’s clear which tasks have been done and which haven’t, but you have to scroll to see what&#160;the tasks were​</span> </div><div>
    <span class="ms-rteCustom-CodeArea"> 
       <p>Hi Bob,</p>
       <p>I've replied inline in 
