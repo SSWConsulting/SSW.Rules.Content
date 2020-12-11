@@ -12,9 +12,6 @@ related: []
 
 ---
 
+From an Australian point of view, using U.S spelling may seem controversial, but there are various benefits for using it. At SSW, we regularly use web traffic analysis to monitor who is using our web site and we find that a significant amount of our users are American. With that in mind, we want our website to cater to the majority of our users so we use American spelling on our site – and, phonetically it makes more sense.
 
-<p>​From an Australian point of view, using U.S spelling may seem controversial, but there are various benefits for using it. At SSW, we regularly use web traffic analysis to monitor who is using our web site and we find that a significant amount of our users are American. With that in mind, we want our website to cater to the majority of our users so we use American spelling on our site – and, phonetically it makes more sense.​</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
