@@ -10,13 +10,11 @@ related: []
 
 ---
 
+The active menu item should stand out from the others. This way you make it easy for users to know where they are at in the website.
 
-<p>The active menu item should stand out from the others. This way you make it easy for users to know where they are at in the website.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="../../assets/active-state-bad.jpg" alt="" style="margin:5px;" />
-   </dt><dd>Figure: Bad Example – you can't tell where you are in the site</dd></dl><dl class="goodImage"><dt> 
-      <img src="../../assets/active-state-good.jpg" alt="" style="margin:5px;" />
-   </dt><dd>Figure: Good Example – it’s easy to see where you are at </dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; 
+      <img src="../../assets/active-state-bad.jpg" alt="" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Bad Example – you can't tell where you are in the site</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img src="../../assets/active-state-good.jpg" alt="" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Good Example – it’s easy to see where you are at </dd></dl>
