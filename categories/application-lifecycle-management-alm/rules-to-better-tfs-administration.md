@@ -8,6 +8,7 @@ index:
 - do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context
 
 ---
-<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx">Application Lifecycle Management</a>&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">​</a>and book in a consultant.</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
 
