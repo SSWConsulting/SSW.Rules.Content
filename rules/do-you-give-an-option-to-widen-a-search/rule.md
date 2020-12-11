@@ -16,9 +16,30 @@ related: []
 
 ---
 
+You must be careful when combining search and filtering functionality as this can lead to unexpected search results, which can easily confuse if not infuriate your users. Therefore you should always, give the option to widen the search when a filter is applied.
 
-<p>​​You must be careful when combining search and filtering functionality as this can lead to unexpected search results, which can easily confuse if not infuriate your users. Therefore you should always, give the option to widen the search when a filter is applied. </p>
-<br><excerpt class='endintro'></excerpt><br>
-<div><img src="Find more (1).png" alt="Find more (1).png" style="margin:5px;width:650px;" /><br></div><dd class="ssw15-rteElement-FigureBad"> Bad: Search is not reminding the user about the fact that a built-in filter is applied to the search result <br></dd><div><br></div><div><img src="SearchOption-Good.png" alt="SearchOption-Good.png" style="margin:5px;width:650px;" />​<br></div><dd class="ssw15-rteElement-FigureGood">  Good: Search reminds the user that the search criteria can be widen to show more result<br></dd><div><br></div><div><br></div><div><br></div>
+<!--endintro-->
 
 
+![Find more (1).png](Find more (1).png)
+
+
+
+::: bad
+Bad: Search is not reminding the user about the fact that a built-in filter is applied to the search result 
+
+:::
+
+
+
+
+
+
+![](SearchOption-Good.png)
+
+
+
+::: good
+Good: Search reminds the user that the search criteria can be widen to show more result
+
+:::
