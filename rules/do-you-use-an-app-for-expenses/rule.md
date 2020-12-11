@@ -14,9 +14,91 @@ related: []
 
 ---
 
-
-​​​​​​​Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems… but there is a better way. <div><br></div><div>Various apps help solve the above problem. Using a modern Accounting system such as Xero, some connected apps can be used in conjunction with the accounting system and they include:</div><div><ul><li><a href="https://www.hubdoc.com/">Hubdoc</a><br></li><li><a href="https://www.expensify.com/">Expensify</a><br></li><li><a href="https://www.receipt-bank.com/au/">Receipt Bank​</a><br></li></ul><div>It may be difficult to determine which app would be best suited for your business so below is a comparison of some of the major features of each app.<br></div><div><br></div><div><table class="ssw15-rteTable-default" cellspacing="0" style="width:100%;"><tbody><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">Features (based on 5 users)<br></h3></td><td class="ssw15-rteTableOddCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">Receipt Bank<br></h3></td><td class="ssw15-rteTableEvenCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">Hubdoc<br></h3></td><td dir="ltr" class="ssw15-rteTableOddCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">​Expens​​​ify<br><br></h3></td><td class="ssw15-rteTableEvenCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">​Preferred Option<br></h3></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default">​Pricing​<br></td><td class="ssw15-rteTableOddCol-default">​$360/annual<br></td><td class="ssw15-rteTableEvenCol-default">​Free with Xero<br></td><td class="ssw15-rteTableOddCol-default">​$840/annual (minimum)<br></td><td class="ssw15-rteTableEvenCol-default">​Hubdoc <br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default">​Submission Procedure<br><br></td><td class="ssw15-rteTableOddCol-default">​Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. <br></td><td class="ssw15-rteTableEvenCol-default">​Same as Receipt Bank<br><br></td><td class="ssw15-rteTableOddCol-default">​Same as Receipt Bank<br><br></td><td class="ssw15-rteTableEvenCol-default">​No preference – the same procedures with all.<br> <br><strong>Figure: Hubdoc email for receiving</strong><br><br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default">​Restriction on Invoice uploads <br></td><td class="ssw15-rteTableOddCol-default">​300/mo<br></td><td class="ssw15-rteTableEvenCol-default">​Unlimited<br></td><td class="ssw15-rteTableOddCol-default">​Unlimited​<br><br></td><td class="ssw15-rteTableEvenCol-default">Hubdoc and Expensify<br><br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default">​Back-up<br></td><td class="ssw15-rteTableOddCol-default">​Unlimited – Never deletes and remains archived<br></td><td class="ssw15-rteTableEvenCol-default">​Unlimited – use cloud back up and security. Never deletes <br></td><td class="ssw15-rteTableOddCol-default">​Unlimited – Never deletes and remains archived<br></td><td class="ssw15-rteTableEvenCol-default">​Hubdoc – the added security just seems better<br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default">​Organising<br></td><td class="ssw15-rteTableOddCol-default">​No real organization of documents. Either inactive or archived and ordered in date/supplier order<br></td><td class="ssw15-rteTableEvenCol-default">Requires greater access than uploader only. ​Automatically organized into folders (can be updated). <br></td><td class="ssw15-rteTableOddCol-default">Can be manually organised into folders or reports. <br></td><td class="ssw15-rteTableEvenCol-default">Expensify as Hubdoc requires greater access​<br><br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default">​Expense Rules<br></td><td class="ssw15-rteTableOddCol-default">​Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) <br></td><td class="ssw15-rteTableEvenCol-default">​Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)<br></td><td class="ssw15-rteTableOddCol-default">​Same as Receipt Bank – little easier to navigate to the section <br></td><td class="ssw15-rteTableEvenCol-default">​Expensify <br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default">​Accounting Codes<br></td><td class="ssw15-rteTableOddCol-default">​Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way<br></td><td class="ssw15-rteTableEvenCol-default">​Same as Receipt Bank<br></td><td class="ssw15-rteTableOddCol-default">​Not available at $840/annual. If the business wants to use this, the subscription plan will be $1800/annual.<br></td><td class="ssw15-rteTableEvenCol-default">​Receipt Bank or Hubdoc<br><br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default">​Receipt Fetch<br></td><td class="ssw15-rteTableOddCol-default">​Ability to integrate with most common suppliers (utilities, banks and some more). Automatically grabs any new invoices and pushes to Receipt Bank<br>https://help.receipt-bank.com/hc/en-us/articles/360005754174-List-of-Suppliers-for-Invoice-Fetch <br></td><td class="ssw15-rteTableEvenCol-default">​​More options than Receipt Bank and more major suppliers<br> <br>https://go.hubdoc.com/hubfs/HubdocLiveAUConnections.pdf<br></td><td class="ssw15-rteTableOddCol-default">​Limited options https://use.expensify.com/all-integrations<br></td><td class="ssw15-rteTableEvenCol-default">​Hubdoc<br><br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default">​Phone Compatibility<br></td><td class="ssw15-rteTableOddCol-default">​iPhone, Android and Web-based <br></td><td class="ssw15-rteTableEvenCol-default">​All Phones <br></td><td class="ssw15-rteTableOddCol-default">​All Phones<br></td><td class="ssw15-rteTableEvenCol-default">​Hubdoc or Expensify<br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default">​Two-factor Authentication<br></td><td class="ssw15-rteTableOddCol-default">​No<br></td><td class="ssw15-rteTableEvenCol-default">Yes​<br></td><td class="ssw15-rteTableOddCol-default">​No<br></td><td class="ssw15-rteTableEvenCol-default">Hubdoc​<br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default">​How-to Videos<br></td><td class="ssw15-rteTableOddCol-default">​No<br></td><td class="ssw15-rteTableEvenCol-default">Yes​<br></td><td class="ssw15-rteTableOddCol-default">Yes​<br></td><td class="ssw15-rteTableEvenCol-default">Expensify - has more videos​<br></td></tr></tbody></table><br><strong>Overall, Hubdoc is a clear winner. </strong>Additional to the above, Hubdoc is allowed unlimited users when connected with Xero.<br></div><div><br>To improve on the function of these apps, it is recommended to set-up default receiving emails that users can either forward all invoices to that email or just take a photo with the app which is stored within the app.​<br></div><div><strong><br></strong></div><div><strong><img alt="pic.png" src="pic.png" style="margin:5px;width:808px;" /><br></strong></div><dd class="ssw15-rteElement-FigureGood">​Figure: Good Example – Hubdoc default email for receiving<br>​<br></dd><div>​We can also do the vis versa, so all invoices going to a hubdoc default email can be forwarded back to a company internal email for reference. <br></div><div><br><b>​​<img alt="pic1.png" src="pic1.png" style="margin:5px;width:808px;" /></b><br></div><dd class="ssw15-rteElement-FigureGood">Figur​e: Good Example - Hubdoc email can forward to another email (forwarding and receiving can be both ways)<br></dd></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Expense apps are a timesaver, both for the day to day user, as well as the accountant receiving the expenses.</p><p>​​As a user, all you have to do is take a photo of the receipt from your mobile app and add a comment (all other data is pulled in via OCR “Smart-scan”), then all of these expenses get batched together and sent on a weekly basis to the accountant, who can then manage them in bulk. <br>Best of all… for light users… it’s free!​ ​<img src="2020-06-12_12-10-17.png" alt="2020-06-12_12-10-17.png" style="font-weight:bold;background-color:transparent;color:#555555;margin:5px;width:798px;" /><span style="font-weight:bold;">​​</span></p><dd class="ssw15-rteElement-FigureGood">Figure: Good Example – Hubdoc is free with Xero​​<br></dd><dl class="goodImage"><p class="ssw15-rteElement-P">​For better res​ults claiming your receipts, please read <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=48a3a405-7156-4a01-8a4f-a4cd6c82717c">Do you know how to enter a H​ubdoc receipt?​</a><br></p><p class="ssw15-rteElement-P">​<br><br></p></dl>
+Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems… but there is a better way. 
 
 
+
+Various apps help solve the above problem. Using a modern Accounting system such as Xero, some connected apps can be used in conjunction with the accounting system and they include:
+
+
+* [Hubdoc](https://www.hubdoc.com/)
+* [Expensify](https://www.expensify.com/)
+* [Receipt Bank](https://www.receipt-bank.com/au/)
+
+
+It may be difficult to determine which app would be best suited for your business so below is a comparison of some of the major features of each app.
+
+
+
+
+
+
+
+| Features (based on 5 users)<br> | Receipt Bank<br> | Hubdoc<br> | Expensify<br><br> | Preferred Option<br> |
+| --- | --- | --- | --- | --- |
+| Pricing<br> | $360/annual<br> | Free with Xero<br> | $840/annual (minimum)<br> | Hubdoc <br> |
+| Submission Procedure<br><br> | Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. <br> | Same as Receipt Bank<br><br> | Same as Receipt Bank<br><br> | No preference – the same procedures with all.<br> <br> **Figure: Hubdoc email for receiving** <br><br> |
+| Restriction on Invoice uploads <br> | 300/mo<br> | Unlimited<br> | Unlimited<br><br> | Hubdoc and Expensify<br><br> |
+| Back-up<br> | Unlimited – Never deletes and remains archived<br> | Unlimited – use cloud back up and security. Never deletes <br> | Unlimited – Never deletes and remains archived<br> | Hubdoc – the added security just seems better<br> |
+| Organising<br> | No real organization of documents. Either inactive or archived and ordered in date/supplier order<br> | Requires greater access than uploader only. Automatically organized into folders (can be updated). <br> | Can be manually organised into folders or reports. <br> | Expensify as Hubdoc requires greater access<br><br> |
+| Expense Rules<br> | Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) <br> | Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)<br> | Same as Receipt Bank – little easier to navigate to the section <br> | Expensify <br> |
+| Accounting Codes<br> | Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way<br> | Same as Receipt Bank<br> | Not available at $840/annual. If the business wants to use this, the subscription plan will be $1800/annual.<br> | Receipt Bank or Hubdoc<br><br> |
+| Receipt Fetch<br> | Ability to integrate with most common suppliers (utilities, banks and some more). Automatically grabs any new invoices and pushes to Receipt Bank<br>https://help.receipt-bank.com/hc/en-us/articles/360005754174-List-of-Suppliers-for-Invoice-Fetch <br> | More options than Receipt Bank and more major suppliers<br> <br>https://go.hubdoc.com/hubfs/HubdocLiveAUConnections.pdf<br> | Limited options https://use.expensify.com/all-integrations<br> | Hubdoc<br><br> |
+| Phone Compatibility<br> | iPhone, Android and Web-based <br> | All Phones <br> | All Phones<br> | Hubdoc or Expensify<br> |
+| Two-factor Authentication<br> | No<br> | Yes<br> | No<br> | Hubdoc<br> |
+| How-to Videos<br> | No<br> | Yes<br> | Yes<br> | Expensify - has more videos<br> |
+
+
+ **Overall, Hubdoc is a clear winner.** Additional to the above, Hubdoc is allowed unlimited users when connected with Xero.
+
+
+
+To improve on the function of these apps, it is recommended to set-up default receiving emails that users can either forward all invoices to that email or just take a photo with the app which is stored within the app.
+
+
+ **
+** 
+
+ **
+![](pic.png)
+** 
+
+
+::: good
+Figure: Good Example – Hubdoc default email for receiving
+
+
+:::
+
+
+We can also do the vis versa, so all invoices going to a hubdoc default email can be forwarded back to a company internal email for reference. 
+
+
+
+ **
+![](pic1.png)** 
+
+
+
+::: good
+Figure: Good Example - Hubdoc email can forward to another email (forwarding and receiving can be both ways)
+
+:::
+
+
+
+<!--endintro-->
+
+Expense apps are a timesaver, both for the day to day user, as well as the accountant receiving the expenses.
+
+As a user, all you have to do is take a photo of the receipt from your mobile app and add a comment (all other data is pulled in via OCR “Smart-scan”), then all of these expenses get batched together and sent on a weekly basis to the accountant, who can then manage them in bulk. 
+Best of all… for light users… it’s free! 
+![](2020-06-12_12-10-17.png)
+
+
+::: good
+Figure: Good Example – Hubdoc is free with Xero
+
+:::
+
+<dl class="goodImage"><p class="ssw15-rteElement-P">For better results claiming your receipts, please read <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=48a3a405-7156-4a01-8a4f-a4cd6c82717c">Do you know how to enter a Hubdoc receipt?</a><br></p><p class="ssw15-rteElement-P"><br><br></p></dl>
