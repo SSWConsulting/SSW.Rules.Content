@@ -12,13 +12,16 @@ related: []
 
 ---
 
+Bitly helps you easily save & share links over the web. You can:
 
-<p>Bitly helps you easily save & share links over the web. You can:</p><ul><li>Save a link to any page, image, song or video by pasting the URL into the box at the top right of the page</li><li>Share your bitmarks on Facebook, Twitter, or via email</li><li>Check on your stats to see how your bitmarks fared on the interwebs</li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>
-      <img src="bitly-stats-general.jpg" alt="" />
-   </dt><dd>Figure: bit.ly provides a detailed stats page for all your links</dd></dl><dl class="image"><dt>
-      <img src="bitly-stats.jpg" alt="" />
-   </dt><dd>Figure: bit.ly provides a detailed stats page for a single link</dd></dl>
+* Save a link to any page, image, song or video by pasting the URL into the box at the top right of the page
+* Share your bitmarks on Facebook, Twitter, or via email
+* Check on your stats to see how your bitmarks fared on the interwebs
 
 
+<!--endintro-->
+<dl class="image">&lt;dt&gt;
+      <img src="bitly-stats-general.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: bit.ly provides a detailed stats page for all your links</dd></dl><dl class="image">&lt;dt&gt;
+      <img src="bitly-stats.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: bit.ly provides a detailed stats page for a single link</dd></dl>
