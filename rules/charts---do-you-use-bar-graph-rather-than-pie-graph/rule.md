@@ -19,17 +19,17 @@ different groups or to track changes over time. However, when trying to
 measure change over time, bar graphs are best when the changes are 
 larger.</p>
 
-                    <span><a href="https&#58;//nces.ed.gov/nceskids/help/user_guide/graph/whentouse.asp">https&#58;//nces.ed.gov/nceskids/help/user_guide/graph/whentouse.asp</a>&#160;</span>
+                    <span><a href="https://nces.ed.gov/nceskids/help/user_guide/graph/whentouse.asp">https://nces.ed.gov/nceskids/help/user_guide/graph/whentouse.asp</a> </span>
                 </blockquote><p>This is a fancy way of saying use the right graph for
  the right purpose. Pie graphs fulfill a specific requirement, unlike a 
 bar graph which is more multi-purpose.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Pie graphs are used to show the general composition of an element. It's good for seeing at a glance what section is dominating, but it doesn't handle details very well.</p><dl class="badImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PieGraph.gif" alt="Bad Label" style="margin&#58;5px;" /> 
-   </dt><dd> Figure&#58; Bad Example - This Pie Graph is too complicated and difficult to understand.</dd></dl><dl class="goodImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/PieGraph-Good.jpg" alt="Good Label" style="margin&#58;5px;" /> 
-   </dt><dd> Figure&#58; Good Example - This Pie Graph has been simplified and it is easy to see at a glance that Nike sold the most sneakers this month compared to others.</dd></dl><dl class="goodImage"><dt> 
-      <img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BarGraph.gif" alt="Good Label" style="margin&#58;5px;width&#58;650px;" /> 
-   </dt><dd> Figure&#58; Good Example - This Bar Graph data hasn't even been processed but it's still readable.</dd></dl>
+      <img src="../../assets/PieGraph.gif" alt="Bad Label" style="margin:5px;" /> 
+   </dt><dd> Figure: Bad Example - This Pie Graph is too complicated and difficult to understand.</dd></dl><dl class="goodImage"><dt> 
+      <img src="../../assets/PieGraph-Good.jpg" alt="Good Label" style="margin:5px;" /> 
+   </dt><dd> Figure: Good Example - This Pie Graph has been simplified and it is easy to see at a glance that Nike sold the most sneakers this month compared to others.</dd></dl><dl class="goodImage"><dt> 
+      <img src="../../assets/BarGraph.gif" alt="Good Label" style="margin:5px;width:650px;" /> 
+   </dt><dd> Figure: Good Example - This Bar Graph data hasn't even been processed but it's still readable.</dd></dl>
 
 
