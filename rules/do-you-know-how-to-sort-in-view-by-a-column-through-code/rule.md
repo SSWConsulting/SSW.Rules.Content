@@ -14,9 +14,35 @@ related: []
 
 ---
 
+You may know that it is quite easy to sort view by a column through the UI.<dl class="ssw15-rteElement-ImageArea"><img src="SortInView.png" alt="SortInView.png" style="margin:5px;width:650px;"></dl> **Figure: Change view column sort from web UI** 
+But when you are trying to do that via code, you may find a pretty tricky issue.
 
-​​​You may know that it is quite easy to sort view by a column through the UI.<dl class="ssw15-rteElement-ImageArea"><img src="SortInView.png" alt="SortInView.png" style="margin:5px;width:650px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: Change view <span style="color:#555555;font-size:11px;font-weight:bold;">column </span>​sort from web UI</dd><div>But when you are trying to do that via code, you may find a pretty tricky issue.</div>
-<br><excerpt class='endintro'></excerpt><br>
-You can use some code like:<div><p class="ssw15-rteElement-CodeArea">view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\"<strong>FALSE</strong>\" /></OrderBy>";</p><dd class="ssw15-rteElement-FigureNormal">Figure: Use code to change view sort</dd><div>but the below code won't work:<br></div><div><p class="ssw15-rteElement-CodeArea">view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\"<strong>False</strong>\" /></OrderBy>";</p><dd class="ssw15-rteElement-FigureBad">Bad Example - the Ascending attribute is case-sensitive<br></dd><div>The full code should be some code ​like:</div><div><p class="ssw15-rteElement-CodeArea">SPView view = list.DefaultView;<br>view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\"<strong>FALSE</strong>\" /></OrderBy>";<br>view.Update();​​​​<br></p><dd class="ssw15-rteElement-FigureGood">​Good Example - the Ascending attribute is using capital charactors as it is case-sensitive</dd>                 </div></div><div>                    </div><div>                    </div><br></div>
+<!--endintro-->
+ You can use some code like:
+
+view.Query = "<orderby><fieldref name="\&quot;Modified\&quot;" ascending="\&quot;"></fieldref><strong>FALSE</strong> \" /></orderby>";
+ **Figure: Use code to change view sort** 
+but the below code won't work:
 
 
+
+view.Query = "<orderby><fieldref name="\&quot;Modified\&quot;" ascending="\&quot;"></fieldref><strong>False</strong> \" /></orderby>";
+
+
+::: bad
+Bad Example - the Ascending attribute is case-sensitive
+
+:::
+
+
+The full code should be some code like:
+
+
+SPView view = list.DefaultView;
+view.Query = "<orderby><fieldref name="\&quot;Modified\&quot;" ascending="\&quot;"></fieldref><strong>FALSE</strong> \" /></orderby>";
+view.Update();
+
+
+::: good
+Good Example - the Ascending attribute is using capital charactors as it is case-sensitive
+:::
