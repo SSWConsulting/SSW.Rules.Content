@@ -18,10 +18,12 @@ related: []
 
 ---
 
+Communication is a critical part in project management and it's essential to provide as much information as possible to your clients so they know the project's progress.
 
-Communication is a critical part in project management and it's essential to provide as much information as possible to your clients so they know the project's progress.<br><br>You should provide the following report to clients: 
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Project Progress Report: This report helps clients to review the current project progress, check the status of the project and whether they are over or under estimates.​ </li></ul>
-<img class="ssw-rteStyle-ImageArea" src="rulestobetterprojectprogress2.png" alt="" style="margin:5px;width:563px;height:635px;" /><br><span class="ssw-rteStyle-FigureNormal">Figure: Project Progress Report</span>
+You should provide the following report to clients:  
+<!--endintro-->
+
+* Project Progress Report: This report helps clients to review the current project progress, check the status of the project and whether they are over or under estimates.
 
 
+![Project Progress Report](rulestobetterprojectprogress2.png)
