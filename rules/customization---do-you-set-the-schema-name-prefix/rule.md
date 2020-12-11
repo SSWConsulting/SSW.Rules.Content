@@ -12,25 +12,15 @@ related: []
 
 ---
 
+Note when you do a customization it gives it a prefix with the schema name - in           our case SSW. With this prefix you can easily distinguish customized attributes           from default attributes.
 
-<p>
-          Note when you do a customization it gives it a prefix with the schema name - in
-          our case SSW. With this prefix you can easily distinguish customized attributes
-          from default attributes.
-        </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image">
-          <dt>
-            <img alt="Set your schema-name prefix to use for custom entities and attributes" src="CRM_PrefixSetting.jpg" /></dt>
+<!--endintro-->
+<dl class="image">          &lt;dt&gt;
+            <img alt="Set your schema-name prefix to use for custom entities and attributes" src="CRM_PrefixSetting.jpg">&lt;/dt&gt;
           <dd>
             Figure: Set your schema-name prefix to use for custom entities and attributes</dd>
-        </dl>
-        <dl class="image">
-          <dt>
-            <img alt="customized attributes with the prefix" src="CRM_Prefix.jpg" /></dt>
+        </dl><dl class="image">          &lt;dt&gt;
+            <img alt="customized attributes with the prefix" src="CRM_Prefix.jpg">&lt;/dt&gt;
           <dd>
             Figure: customized attributes with the prefix</dd>
         </dl>
-
-
-
