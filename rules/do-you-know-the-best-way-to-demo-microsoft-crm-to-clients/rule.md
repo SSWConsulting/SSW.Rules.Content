@@ -14,14 +14,54 @@ related: []
 
 ---
 
-
-<p class="ssw15-rteElement-P">When demoing Dynamics to a client we will typically use a dedicated demo environment for a few reasons:<br></p><p></p><ol><li>Demoing company Dynamics not a good idea due to sensitive data leakage</li><li>Can preinstall any first-party or third-party solutions ahead of time</li><li>Potentially hand demo environment over to the client for further evaluation</li></ol><p class="ssw15-rteElement-P">What are the demo options?​<br></p><p></p>
-<br><excerpt class='endintro'></excerpt><br>
-<h3>Microsoft Partners</h3><p>Microsoft Partners have access to the 
-   <a href="https://cdx.transform.microsoft.com/">Customer Digital Experience site</a>. This site allows each eligible user to create up to 2 demo environments. Environments are provisioned within minutes and contain the entire Microsoft 365 suite with Dynamics 365 pre-installed. There usually sample users and enough licences to add custom users to the demo.<br><br>Adding a Dynamics Environment is as easy as navigating to:<br><b>My Environments | Create Tennant | Dynamics 365 Customer Engagement </b></p><dl class="image"><dt>
-      <img src="dynamics-365-cusomer-engagement.png" alt="dynamics-365-cusomer-engagement.png" style="width:750px;" />
-   </dt></dl><p>Once the environment is created it's good for 90 days.</p><h3>Office 365​​<br></h3><p>The second option is to provision a trial via Office 365. If using this method, it is preferable to provision via the client's Office 365 instance, as you don't want to provision users for the client in your Office 365 tenant. To provision a Dynamics trial in Office 365 use the following:<br></p><ol><li>Browse to <a href="https://admin.microsoft.com/AdminPortal/Home%22%20%5cl%20%22/catalog">https://admin.microsoft.com/AdminPortal/Home#/catalog</a></li><li>Billing | Purchases Services (it's ok we're not buying anything yet)<br></li><li>Search for "Trial" and scroll down to <strong>Dynamics 365 Customer Engagement Plan Trial</strong></li><li>Details | Get free trial</li></ol><p class="ssw15-rteElement-P">The Office 365 based Dynamics trial is good for 1 month and includes 25 users.<br></p><dl class="image"><dt>
-      <img src="dynamics-365-cusomer-engagement-plan-triel.png" alt="dynamics-365-cusomer-engagement-plan-triel.png" style="width:750px;" />
-   </dt></dl><p>The advantage of using an Office 365 based Dynamics trial (in the customers' Office Instance), is that is can be converted to a paid product very easily and with all data kept intact.<br><br>You should be able to show:<br></p><ol><li>Accounts </li><li>Contacts</li><li>Sales (Leads, Opportunities, Quotes, and Invoices)</li><li>Marketing (built-in Campaigns and Quick Campaigns, also talk about Marketing for Dynamics solution)</li><li>Service (Cases, Field Service)</li><li>Mail Merge<br></li></ol><p>​<br></p>
+When demoing Dynamics to a client we will typically use a dedicated demo environment for a few reasons:
 
 
+
+1. Demoing company Dynamics not a good idea due to sensitive data leakage
+2. Can preinstall any first-party or third-party solutions ahead of time
+3. Potentially hand demo environment over to the client for further evaluation
+
+
+What are the demo options?
+
+
+
+<!--endintro-->
+
+### Microsoft Partners
+
+Microsoft Partners have access to the     [Customer Digital Experience site](https://cdx.transform.microsoft.com/). This site allows each eligible user to create up to 2 demo environments. Environments are provisioned within minutes and contain the entire Microsoft 365 suite with Dynamics 365 pre-installed. There usually sample users and enough licences to add custom users to the demo.
+
+Adding a Dynamics Environment is as easy as navigating to:
+ **My Environments | Create Tennant | Dynamics 365 Customer Engagement**
+<dl class="image">&lt;dt&gt;
+      <img src="dynamics-365-cusomer-engagement.png" alt="dynamics-365-cusomer-engagement.png" style="width:750px;">
+   &lt;/dt&gt;</dl>
+Once the environment is created it's good for 90 days.
+
+### Office 365
+
+
+The second option is to provision a trial via Office 365. If using this method, it is preferable to provision via the client's Office 365 instance, as you don't want to provision users for the client in your Office 365 tenant. To provision a Dynamics trial in Office 365 use the following:
+
+1. Browse to [https://admin.microsoft.com/AdminPortal/Home#/catalog](https://admin.microsoft.com/AdminPortal/Home%22%20%5cl%20%22/catalog)
+2. Billing | Purchases Services (it's ok we're not buying anything yet)
+3. Search for "Trial" and scroll down to  **Dynamics 365 Customer Engagement Plan Trial**
+4. Details | Get free trial
+
+
+The Office 365 based Dynamics trial is good for 1 month and includes 25 users.
+<dl class="image">&lt;dt&gt;
+      <img src="dynamics-365-cusomer-engagement-plan-triel.png" alt="dynamics-365-cusomer-engagement-plan-triel.png" style="width:750px;">
+   &lt;/dt&gt;</dl>
+The advantage of using an Office 365 based Dynamics trial (in the customers' Office Instance), is that is can be converted to a paid product very easily and with all data kept intact.
+
+You should be able to show:
+
+1. Accounts
+2. Contacts
+3. Sales (Leads, Opportunities, Quotes, and Invoices)
+4. Marketing (built-in Campaigns and Quick Campaigns, also talk about Marketing for Dynamics solution)
+5. Service (Cases, Field Service)
+6. Mail Merge
