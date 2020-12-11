@@ -15,12 +15,6 @@ related:
 
 ---
 
-
-
-  <p>If Access linked table does not have an index to uniquely identify rows, the whole table will be read-only </p>
-<font class="ms-rteCustom-YellowBorderBox" size="+0"><a href="http&#58;//www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </font>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+If Access linked table does not have an index to uniquely identify rows, the whole table will be read-only
+<font class="ms-rteCustom-YellowBorderBox"><a href="http&#58;//www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </font>
+<!--endintro-->
