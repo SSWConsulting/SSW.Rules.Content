@@ -10,21 +10,14 @@ related: []
 
 ---
 
-
-<span>As a minumum, the SharePoint image needs&#58; <span style="display&#58;inline-block;"></span></span>
-<br><excerpt class='endintro'></excerpt><br>
-<p><br></p>
-<ol>
-<li>Windows Server 2003 or 2008 
-</li>
-<li>SQL Server 2005 sp1 
-</li>
-<li>WSS 3.0 sp1 
-</li>
-<li>MOSS 2007 sp1 
-</li>
-<li>MS Office SharePoint Designer sp1 
-</li>
-<li>Visual Studio .NET 2005 or 2008 </li></ol>
+As a minumum, the SharePoint image needs: 
+<!--endintro-->
 
 
+
+1. Windows Server 2003 or 2008
+2. SQL Server 2005 sp1
+3. WSS 3.0 sp1
+4. MOSS 2007 sp1
+5. MS Office SharePoint Designer sp1
+6. Visual Studio .NET 2005 or 2008
