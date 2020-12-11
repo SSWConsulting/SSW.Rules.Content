@@ -14,12 +14,11 @@ related: []
 
 ---
 
+Do you always demand a receipt for every email you send? This is the equivalent of crying wolf. People get prompted about receipts so often, that eventually, they change the settings to automatically ignore receipt requests. Then when someone really, really needs acknowledgment that an email has been received, you never get one, because they've turned off the mechanism.
 
-<p>​Do you always demand a receipt for every email you send? This is the equivalent of crying wolf. People get prompted about receipts so often, that eventually, they change the settings to automatically ignore receipt requests. Then when someone really, really needs acknowledgment that an email has been received, you never get one, because they've turned off the mechanism.<br></p><p>Turning this option on all the time effectively throws the option away, not just for yourself, but everyone else as well.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> 
-      <img src="OutlookReceiptRequest.gif" alt="Outlook Receipt Request" class="ms-rteCustom-ImageArea" />​​ </dt><dd>Figure: Selectively request read receipts so as not to annoy your recipient.​<br></dd></dl><p class="ssw15-rteElement-InfoBox">
+Turning this option on all the time effectively throws the option away, not just for yourself, but everyone else as well.
 
-<b>Warning:</b> If you are using this more than once a year then alarms should be ringing!​<br></p>
-
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt; 
+      <img src="OutlookReceiptRequest.gif" alt="Outlook Receipt Request" class="ms-rteCustom-ImageArea"> &lt;/dt&gt;<dd>Figure: Selectively request read receipts so as not to annoy your recipient.<br></dd></dl>
+**Warning:** If you are using this more than once a year then alarms should be ringing!
