@@ -12,11 +12,7 @@ related: []
 
 ---
 
+Developers should \*never\* use the "General" Project.
 
-Developers should *never* use the "General" Project.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="using-general-timesheets-bad.png" alt="using-general-timesheets-bad.png" style="width:750px;" /></dt><dd>Figure: Bad Example - "General" category</dd></dl>
-<dl class="goodImage">
-   <dt>​<img src="using-general-timesheets-bad.png" alt="do-not-use-general-timesheets-good.png" style="width:750px;" /></dt><dd>Figure: Good Example -​ Specific category </dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="using-general-timesheets-bad.png" alt="using-general-timesheets-bad.png" style="width:750px;">&lt;/dt&gt;<dd>Figure: Bad Example - "General" category</dd></dl><dl class="goodImage">   &lt;dt&gt;<img src="using-general-timesheets-bad.png" alt="do-not-use-general-timesheets-good.png" style="width:750px;">&lt;/dt&gt;<dd>Figure: Good Example - Specific category </dd></dl>
