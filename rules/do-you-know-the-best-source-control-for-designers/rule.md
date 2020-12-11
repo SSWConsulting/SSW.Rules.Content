@@ -16,19 +16,21 @@ related: []
 
 ---
 
+Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other development file system.
+
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; 
+      <img src="Designer-Source-Control-TFS.png" alt="" style="width:750px;"> 
+   &lt;/dt&gt;<dd>Figure: Bad example – Azure DevOps (was VSTS/TFS) takes too long to set up and too slow to use<br></dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="Designer-Source-Control-DropBox.png" alt="" style="width:750px;"> 
+   &lt;/dt&gt;<dd>Figure: Good Example – Dropbox or OneDrive<br></dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="Teamsfiles.png" alt="" style="width:750px;"> 
+   &lt;/dt&gt;<dd>Figure: Good Example – OneDrive and Teams<br></dd></dl>
+
+::: greybox
+🇨🇳 Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.
+
+:::
 
 
-
-<p class="MsoNormal"><span lang="EN-AU">Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other development file system.<br></span></p>
-
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="Designer-Source-Control-TFS.png" alt="" style="width:750px;" /> 
-   </dt><dd>Figure: Bad example – Azure DevOps (was VSTS/TFS)​ takes too long to set up and too slow to use<br></dd></dl><dl class="goodImage"><dt>
-      <img src="Designer-Source-Control-DropBox.png" alt="" style="width:750px;" /> 
-   </dt><dd>Figure: Good Example – Dropbox or OneDrive<br></dd></dl><dl class="goodImage"><dt>
-      <img src="Teamsfiles.png" alt="" style="width:750px;" /> 
-   </dt><dd>Figure: Good Example – OneDrive and ​Teams​<br></dd></dl><p class="ssw15-rteElement-GreyBox">🇨🇳 Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.​​<br></p><p>For developers, see <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=2860239f-9812-414a-ad42-6174c928cbb0">Do you know where to keep your files?</a><br></p>
-
-
+For developers, see [Do you know where to keep your files?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=2860239f-9812-414a-ad42-6174c928cbb0)
