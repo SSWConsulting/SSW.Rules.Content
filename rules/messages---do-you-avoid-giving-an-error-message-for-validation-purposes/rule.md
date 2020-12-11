@@ -12,16 +12,16 @@ related: []
 
 
 <div>If you do a search and no matches are found, display a message indicating zero results were returned rather than an error message.</div>
-<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/InappropriateError.gif" height="262" alt="" /></dt>
-<dd>Figure&#58; Bad Example - No matches found on searching is not an &quot;Error&quot;</dd></dl>
+<dl class="badImage"><dt><img src="../../assets/InappropriateError.gif" height="262" alt="" /></dt>
+<dd>Figure: Bad Example - No matches found on searching is not an "Error"</dd></dl>
 <br><excerpt class='endintro'></excerpt><br>
-​<div>However, a user thinks that either&#58;</div>
+​<div>However, a user thinks that either:</div>
 <ol><li>They have done something wrong (i.e. they are incompetent) OR</li>
 <li>The software is broken (i.e. your application is incompetent)</li></ol>
 <div>Forcing the user into this opinion is a good way to make them avoid using your software in the future.</div>
-<div>Instead, use the term &quot;Information&quot; when validation is required.</div>
-<dl class="goodImage"><dt><img alt="Appro" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/AppropriateMessage.gif" /></dt>
-<dd>Figure&#58; Good Example - Only use &quot;Error&quot; when appropriate</dd></dl>
+<div>Instead, use the term "Information" when validation is required.</div>
+<dl class="goodImage"><dt><img alt="Appro" src="../../assets/AppropriateMessage.gif" /></dt>
+<dd>Figure: Good Example - Only use "Error" when appropriate</dd></dl>
 
 
 
