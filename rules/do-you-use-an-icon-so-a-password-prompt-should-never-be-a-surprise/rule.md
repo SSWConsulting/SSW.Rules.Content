@@ -12,14 +12,9 @@ related:
 
 ---
 
+Don't surprise users! Put a lock icon                                          to indicate the link is a password protected page and login       required.
 
-<p>Don't surprise users! Put a lock icon
-                    
-                    to indicate the link is a password protected page and login 
-     required. </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img alt="Password prompt as a surprise" src="../../assets/PasswordProtectedPagesNeedKey.gif" style="margin:5px;width:406px;" />
-   </dt><dd>Figure: Bad Example - because when you click "Building 100" you get a password prompt as a surprise</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; 
+      <img alt="Password prompt as a surprise" src="../../assets/PasswordProtectedPagesNeedKey.gif" style="margin:5px;width:406px;">
+   &lt;/dt&gt;<dd>Figure: Bad Example - because when you click "Building 100" you get a password prompt as a surprise</dd></dl>
