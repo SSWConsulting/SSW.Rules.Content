@@ -12,9 +12,7 @@ related: []
 
 ---
 
+Remember to remove the https from your URLs in your presentations. It keeps the pages cleaner and more readable.
 
-Remember to remove the https from your URLs in your presentations. It keeps the pages cleaner and more readable.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="ppt-urls-bad.png" alt="ppt-urls-bad.png" style="width:750px;" /> </dt><dd>Figure: Bad Example – These links are showing the "https://"<br></dd></dl><dl class="goodImage"><dt>​<img src="ppt-urls-good.png" alt="ppt-urls-good.png" style="width:750px;" /> </dt><dd>Figure: Good Example – These links are clean</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="ppt-urls-bad.png" alt="ppt-urls-bad.png" style="width:750px;"> &lt;/dt&gt;<dd>Figure: Bad Example – These links are showing the "https://"<br></dd></dl><dl class="goodImage">&lt;dt&gt;<img src="ppt-urls-good.png" alt="ppt-urls-good.png" style="width:750px;"> &lt;/dt&gt;<dd>Figure: Good Example – These links are clean</dd></dl>
