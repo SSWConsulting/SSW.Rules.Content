@@ -15,10 +15,10 @@ Small images are hard to see. Remember your audience sitting at the back of the 
 <br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
-      <img src="/PublishingImages/badSmall.jpg" alt="" /> 
-   </dt><dd>Figure&#58; Bad example - the image doesn't cover the whole slide</dd></dl><dl class="goodImage"><dt>
-      <img src="/PublishingImages/goodbig.jpg" alt="" /> 
+      <img src="badSmall.jpg" alt="" /> 
+   </dt><dd>Figure: Bad example - the image doesn't cover the whole slide</dd></dl><dl class="goodImage"><dt>
+      <img src="goodbig.jpg" alt="" /> 
    </dt> 
-   <dd>Figure&#58; Good example - Cover the whole slide with your image to make it easier for people to see from the back row</dd></dl>
+   <dd>Figure: Good example - Cover the whole slide with your image to make it easier for people to see from the back row</dd></dl>
 
 
