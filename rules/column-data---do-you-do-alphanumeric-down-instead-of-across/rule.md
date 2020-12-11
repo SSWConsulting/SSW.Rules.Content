@@ -10,13 +10,9 @@ related: []
 
 ---
 
+The search direction of a list should be obvious. When it comes to a multicolumn list, you should always head down instead of across for legibility.
 
-<p>The search direction of a list should be obvious. When it comes to a multicolumn list, you should always head down instead of across for legibility.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="Bad alignment" src="../../assets/bad-alphanum.jpg" /></dt>
-<dd>Figure: Bad example - The list columns go across instead of down</dd></dl>
-<dl class="goodImage"><dt><img alt="Good alignment" src="../../assets/good-alphanum.jpg" /></dt>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img alt="Bad alignment" src="../../assets/bad-alphanum.jpg">&lt;/dt&gt;
+<dd>Figure: Bad example - The list columns go across instead of down</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="Good alignment" src="../../assets/good-alphanum.jpg">&lt;/dt&gt;
 <dd>Figure: Good example - The list is going down</dd></dl>
-
-
-
