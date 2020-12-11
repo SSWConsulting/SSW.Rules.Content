@@ -10,25 +10,15 @@ related: []
 
 ---
 
+If you are presenting to people who you already know, then you have an enormous advantage over someone who is going to face an audience they have never previously met.  
+<!--endintro-->
 
-If you are presenting to people who you already know, then you have an enormous advantage over someone who is going to face an audience they have never previously met.
+It is best to confirm who you are speaking to via a few slides. Then you can make subtle changes during your presentation so your audience gets:
 
-<br><excerpt class='endintro'></excerpt><br>
+* What is important for them
+* Interesting to them
+* Relevant to them
 
-  <p>It is best to confirm who you are speaking to via a few slides. Then you can make subtle changes during your presentation so your audience gets:</p>
-<ul>
-    <li>What is important for them</li>
-    <li>Interesting to them</li>
-    <li>Relevant to them </li>
-</ul>
-<dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="developer.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure: Ask "How many are developers here?" </dd>
-</dl>
-<dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="manager.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure: Ask "How many are managers here?" </dd>
-</dl>
-
-
-
+<dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="developer.gif" alt=""> &lt;/dt&gt;
+     <strong>Figure: Ask "How many are developers here?"</strong> </dl><dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="manager.gif" alt=""> &lt;/dt&gt;
+     <strong>Figure: Ask "How many are managers here?"</strong> </dl>
