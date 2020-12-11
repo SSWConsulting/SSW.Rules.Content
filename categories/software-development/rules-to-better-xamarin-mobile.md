@@ -16,6 +16,5 @@ index:
 - do-you-know-where-to-find-the-best-xamarin-resources
 
 ---
-<p>​​​<br></p>
 
 
