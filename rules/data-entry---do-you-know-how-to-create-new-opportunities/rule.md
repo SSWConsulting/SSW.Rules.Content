@@ -14,23 +14,21 @@ related: []
 
 ---
 
+You need to know what's in the sales pipeline, and the way to do that is by entering a potential sale and it's value.
+ **
+** 
 
-You need to know what's in the sales pipeline, and the way to do that is by entering a potential sale and it's value.<div><strong><br></strong></div><div><strong>Note:</strong> In order to enter new Opportunities into CRM, the company the Opportunity belongs to must already exist. </div>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage">
-          <dt>
-            <img src="Sales-Opportunities.jpg" alt="Change CRM company Logo" style="width:600px;height:186px;" />
-          </dt>
+ **Note:** In order to enter new Opportunities into CRM, the company the Opportunity belongs to must already exist. 
+
+<!--endintro-->
+<dl class="goodImage">          &lt;dt&gt;
+            <img src="Sales-Opportunities.jpg" alt="Change CRM company Logo" style="width:600px;height:186px;">
+          &lt;/dt&gt;
           <dd>
-            Figure: In CRM 2013, click on Sales | Opportunities​</dd>
-        </dl>
-        <dl class="goodImage">
-          <dt>
-            <img src="NewOpportunity.jpg" alt="Change CRM company Logo" style="width:600px;height:283px;" />
-          </dt>
+            Figure: In CRM 2013, click on Sales | Opportunities</dd>
+        </dl><dl class="goodImage">          &lt;dt&gt;
+            <img src="NewOpportunity.jpg" alt="Change CRM company Logo" style="width:600px;height:283px;">
+          &lt;/dt&gt;
           <dd>
-            Figure: Click New, enter the Opportunity, especially the $ value and the chance of success</dd>
+            Figure: Click New, enter the Opportunity, especially the $ value and the chance of success</dd>
         </dl>
-
-
-
