@@ -19,7 +19,7 @@ related: []
 
 <p>​Team Foundation Server Update 2 and Team Foundation Server 2013 comes with built in support for Git as a version control system.​</p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="/PublishingImages/git-screen.jpg" alt="" /></dt><dd>Figure&#58; How you start using Git on TFS</dd>​
-</dl><p>You should use Git if you&#58;</p><ul><li>Are running an open source project</li><li>Have lots of remote team members (as you get offline repo access with full history)</li><li>Have an unstable/sporadic internet connection</li><li>Develop in a non Microsoft environment (e.g. Linux, OSX)</li></ul><p>There are also several disadvantages&#58;</p><ul><li>No &quot;My Work&quot; view in Team Explorer</li><li>No &quot;Code Review&quot; integration in Visual Studio</li><li>No &quot;Check in Policies&quot;</li><li>No SOX, FDA or CFD-11 compliance</li></ul><p>At this point, SSW still recommends Team Foundation Version Control (TFVC)&#160;as the version control system of choice.​</p>
+<dl class="image"><dt><img src="git-screen.jpg" alt="" /></dt><dd>Figure: How you start using Git on TFS</dd>​
+</dl><p>You should use Git if you:</p><ul><li>Are running an open source project</li><li>Have lots of remote team members (as you get offline repo access with full history)</li><li>Have an unstable/sporadic internet connection</li><li>Develop in a non Microsoft environment (e.g. Linux, OSX)</li></ul><p>There are also several disadvantages:</p><ul><li>No "My Work" view in Team Explorer</li><li>No "Code Review" integration in Visual Studio</li><li>No "Check in Policies"</li><li>No SOX, FDA or CFD-11 compliance</li></ul><p>At this point, SSW still recommends Team Foundation Version Control (TFVC) as the version control system of choice.​</p>
 
 
