@@ -12,9 +12,69 @@ related: []
 
 ---
 
+This one is going to be a controversial one. But the bottom line is every now and then you want to do something and then you curse and wish your database didn't have identities. So why use them? Let's look at the problems first:
 
-<p class="ssw15-rteElement-P">​​​​​This one is going to be a controversial one. But the bottom line is every now and then you want to do something and then you curse and wish your database didn't have identities. So why use them? Let's look at the problems first:​​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dd class="ssw15-rteElement-FigureBad">​Con​s:</dd><ul><li>You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID</li><li>Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details</li><li>Replication you will get conflicts</li></ul><p>​In Microsoft Access you have autonumbers and there is no way around them so never use them.<br>But in SQL Server you have identities and we have these procs:<br></p><ul><li>DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value</li><li>SET IDENTITY_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table</li></ul><dd class="ssw15-rteElement-FigureGood">Pros:​​<br></dd><ul><li>Less programming - letting the database take care of it<br></li><li>Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)<br></li><li>Avoiding concurrency errors on high INSERT systems so no coding</li></ul><p>So the only Con left is the importing of data but we can use one of the above procs to get around it. See grey box.</p><h3 class="ssw15-rteElement-H3">The best way to import data into SQL Server (with Identities)​</h3><p class="ssw15-rteElement-P">Using SQL Management Studio<br></p><ol><li>Right-Click your database to open the menu</li><li>Navigate to <strong>Tasks | Import Data…</strong>  to open the wizard<br></li><li>When selecting Source Tables and Views click on <strong>Edit Mappings…</strong></li></ol><p></p><dl class="ssw15-rteElement-ImageArea"><img src="IdentityImportEditMappings.png" alt="" style="margin:5px;width:622px;height:487px;" /></dl><dd class="ssw15-rteElement-FigureNormal">​Figure: SQL Import Wizard - Edit Mappings<br></dd><dd class="ssw15-rteElement-FigureNormal"><br></dd><p class="ssw15-rteElement-P">   4. Ensure the Enable identity insert is checked<br></p><dl class="ssw15-rteElement-ImageArea"><img src="EnableIdentityInsert.png" alt="" style="margin:5px;width:624px;height:470px;" /></dl><dl class="ssw15-rteElement-ImageArea"><dd class="ssw15-rteElement-FigureNormal">Figure: SQL Import Wizard – Ensure Enable identity insert is checked.<br></dd>​<br></dl><p>Alternatively, you can also enable and disable the identity insert through SQL with the following commands<br></p><p class="ssw15-rteElement-CodeArea">​SET IDENTITY_INSERT Shippers ON --this will allow manual identity INSERTS on the requested table<br> <br>-- Modify the table here<br> <br>SET IDENTITY_INSERT Shippers OFF --as it can only be on for one table at a time​<br></p><p class="ssw15-rteElement-P">​​More information on ​<a href="https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15">IDENTITY_INSERT</a><br></p><h3 class="ssw15-rteElement-H3">Automatic Identity Range Handling​<br></h3><p>The simplest way of handling identity ranges across replicas is to allow SQL Server ​to manage identity range handling for you. To use automatic identity range handling, you must first enable the feature at the time the publication is created, assign a set of initial Publisher and Subscriber identity range values, and then assign a threshold value that determines when a new identity range is created.<br>For example, assigning an identity range from 1000 through 2000 to a Publisher, and a range from 2001 through 3000 to an initial Subscriber a range from 3001 to 4000 to the next publisher etc.​<br></p>
+<!--endintro-->
 
 
+::: bad
+Cons:
+:::
+
+
+* You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
+* Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details
+* Replication you will get conflicts
+
+
+In Microsoft Access you have autonumbers and there is no way around them so never use them.
+But in SQL Server you have identities and we have these procs:
+
+* DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
+* SET IDENTITY\_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
+
+
+
+::: good
+Pros:
+
+:::
+
+
+* Less programming - letting the database take care of it
+* Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)
+* Avoiding concurrency errors on high INSERT systems so no coding
+
+
+So the only Con left is the importing of data but we can use one of the above procs to get around it. See grey box.
+
+### The best way to import data into SQL Server (with Identities)
+
+Using SQL Management Studio
+
+1. Right-Click your database to open the menu
+2. Navigate to  **Tasks | Import Data…** to open the wizard
+3. When selecting Source Tables and Views click on  **Edit Mappings…**
+
+
+
+<dl class="ssw15-rteElement-ImageArea"><img src="IdentityImportEditMappings.png" alt="" style="margin:5px;width:622px;height:487px;"></dl> **Figure: SQL Import Wizard - Edit Mappings
+** **
+** 
+4. Ensure the Enable identity insert is checked
+<dl class="ssw15-rteElement-ImageArea"><img src="EnableIdentityInsert.png" alt="" style="margin:5px;width:624px;height:470px;"></dl><dl class="ssw15-rteElement-ImageArea"> <strong>Figure: SQL Import Wizard – Ensure Enable identity insert is checked.<br></strong> <br></dl>
+Alternatively, you can also enable and disable the identity insert through SQL with the following commands
+
+SET IDENTITY\_INSERT Shippers ON --this will allow manual identity INSERTS on the requested table
+ 
+-- Modify the table here
+ 
+SET IDENTITY\_INSERT Shippers OFF --as it can only be on for one table at a time
+
+More information on [IDENTITY\_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15)
+
+### Automatic Identity Range Handling
+
+
+The simplest way of handling identity ranges across replicas is to allow SQL Server to manage identity range handling for you. To use automatic identity range handling, you must first enable the feature at the time the publication is created, assign a set of initial Publisher and Subscriber identity range values, and then assign a threshold value that determines when a new identity range is created.
+For example, assigning an identity range from 1000 through 2000 to a Publisher, and a range from 2001 through 3000 to an initial Subscriber a range from 3001 to 4000 to the next publisher etc.
