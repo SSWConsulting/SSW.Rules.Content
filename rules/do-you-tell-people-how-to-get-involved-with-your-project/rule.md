@@ -12,14 +12,15 @@ related: []
 
 ---
 
+The key to building a great open source project is to build a great community around your project.
 
-<p>The key to building a great open source project is to build a great community around your project.</p><p>To do this it is essential that potential contributors can find out how to get involved.​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​It is a common pattern for open source projects to contain a CONTRIBUTING.md markdown file that supplies information on how to get involved.​​
-</p><dl class="goodImage"><dt>
-      <img src="getinvolved1.png" alt="getinvolved1.png" />
-   </dt><dd>Figure: Good Example - The Microsoft ASP.NET and Azure teams both do a great job of providing documentation on how to start contributing</dd></dl><dl class="goodImage"><dt>
-         <img src="getinvolved2.png" alt="getinvolved2.png" />
-      </dt><dd>Figure: Good Example - The ASP.NET team (and the SSW team) use a common CONTRIBUTING.md in a common 'Home' repository. This ensures that all projects for their team are collaborated on in the same way</dd></dl>
+To do this it is essential that potential contributors can find out how to get involved.
 
+<!--endintro-->
 
+It is a common pattern for open source projects to contain a CONTRIBUTING.md markdown file that supplies information on how to get involved.
+<dl class="goodImage">&lt;dt&gt;
+      <img src="getinvolved1.png" alt="getinvolved1.png">
+   &lt;/dt&gt;<dd>Figure: Good Example - The Microsoft ASP.NET and Azure teams both do a great job of providing documentation on how to start contributing</dd></dl><dl class="goodImage">&lt;dt&gt;
+         <img src="getinvolved2.png" alt="getinvolved2.png">
+      &lt;/dt&gt;<dd>Figure: Good Example - The ASP.NET team (and the SSW team) use a common CONTRIBUTING.md in a common 'Home' repository. This ensures that all projects for their team are collaborated on in the same way</dd></dl>
