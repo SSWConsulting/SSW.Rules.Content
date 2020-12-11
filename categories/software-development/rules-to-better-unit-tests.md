@@ -31,6 +31,5 @@ index:
 - do-you-know-the-best-test-framework-to-run-your-integration-tests
 
 ---
-<p>​​<br></p>
 
 
