@@ -14,19 +14,12 @@ related: []
 
 ---
 
+You organize your Test Cases by adding them to a Test Plan (also called a Test Suite).
 
-<p>You organize your Test Cases by adding them to a Test Plan (also called a Test S​uite).</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>We have one Test Plan per sprint.</p>
+<!--endintro-->
 
-<img src="add-tc-to-tp-1.jpg" alt="How to add a test case to a test plan" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureNormal">Figure: Select Plan from the main menu, and then choose the Test Plan that you would like to add Test Cases to</span>
+We have one Test Plan per sprint.
 
-<img src="add-tc-to-tp-2.jpg" alt="How to add a test case to a test plan" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureNormal">Figure: Add a filter to make it easy to find your Test Cases. Click the Run button, select the relevant items and click the 'Add Test Cases' button</span>
-
-<img src="add-tc-to-tp-3.jpg" alt="How to add a test case to a test plan" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureNormal">Figure: Your Test Case has now been added to the suite</span>
-
-
-
+![Select Plan from the main menu, and then choose the Test Plan that you would like to add Test Cases to](add-tc-to-tp-1.jpg)
+![Add a filter to make it easy to find your Test Cases. Click the Run button, select the relevant items and click the 'Add Test Cases' button](add-tc-to-tp-2.jpg)
+![Your Test Case has now been added to the suite](add-tc-to-tp-3.jpg)
