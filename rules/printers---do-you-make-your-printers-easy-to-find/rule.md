@@ -12,11 +12,13 @@ related: []
 
 ---
 
+For PCs that are not in the domain, the printers won’t be automatically installed.
 
-<p>For PCs that are not in the domain, the printers won’t be automatically installed.<br></p>
-<p>So you should add a DNS alias which maps \\printer to your print server.</p>
+So you should add a DNS alias which maps \\printer to your print server.
 
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img class="ms-rteCustom-ImageArea" alt="Add the printer via Connect" src="add-printer-via-connect.jpg" /></dt><dd>Figure: \\printer takes to this window, were you can "Add" the printer via Connect</dd></dl><p class="ssw15-rteElement-GreyBox">Note: It is better to automate mappings via GPO preferences. As a backup, you can allow users to manually map as above.</p>​<br>
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img class="ms-rteCustom-ImageArea" alt="Add the printer via Connect" src="add-printer-via-connect.jpg">&lt;/dt&gt;<dd>Figure: \\printer takes to this window, were you can "Add" the printer via Connect</dd></dl>
 
-
+::: greybox
+Note: It is better to automate mappings via GPO preferences. As a backup, you can allow users to manually map as above.
+:::
