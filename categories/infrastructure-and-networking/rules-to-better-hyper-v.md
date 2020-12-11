@@ -27,6 +27,5 @@ index:
 - do-you-use-virtual-machine-templates-with-virtual-machine-manager-vmm
 
 ---
-<p>​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Hyper-V.aspx">visit our Hyper-V consulting page​</a>​&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our Hyper-V consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Hyper-V.aspx) and book in a consultant.
 
