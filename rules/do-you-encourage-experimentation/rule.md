@@ -10,10 +10,16 @@ related: []
 
 ---
 
+Encourage experimentation to increase comfort:
 
-<p>Encourage experimentation to increase comfort:</p><ul><li>Undo</li><li>Remember your last state</li><li> 
-         <strong>Live preview</strong></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="ssw15-rteElement-ImageArea">​<img src="live-preview.jpg" alt="live-preview.jpg" style="margin:5px;width:650px;" /></dl><dd class="ssw15-rteElement-FigureGood">Figure: Good example - Office Word uses Live Preview to show what styles look like</dd>
+* Undo
+* Remember your last state
+* **Live preview**
 
 
+<!--endintro-->
+<dl class="ssw15-rteElement-ImageArea"><img src="live-preview.jpg" alt="live-preview.jpg" style="margin:5px;width:650px;"></dl>
+
+::: good
+Figure: Good example - Office Word uses Live Preview to show what styles look like
+:::
