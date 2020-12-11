@@ -12,10 +12,10 @@ related: []
 
 ---
 
+Adding code to the Application\_Start method in the Global.asax file is the easiest and most straight-forward approach for executing startup logic, however, this code should be encapsulated in static methods outside the Global.asax file. Doing this helps provide cleaner code and encourages proper adherence to the Single Responsibility principle.
 
-<p>Adding code to the Application_Start method in the Global.asax file is the easiest and most straight-forward approach for executing startup logic, however,​ this code should be encapsulated in static methods outside the Global.asax file. Doing this helps provide cleaner code and encourages proper adherence to the Single Responsibility principle.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><div class="greyBox"><pre>public class MvcApplication : System.Web.HttpApplication
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<br><br>::: greybox<br><pre>public class MvcApplication : System.Web.HttpApplication
 {
     protected void Application_Start()
     {
@@ -30,7 +30,7 @@ related: []
         );        }
 }
 
-</pre></div></dt><dd>Figure: Bad Example – Logic is implemented in the Application_Start method which breaks the Single Responsibility Principle</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>public class MvcApplication : System.Web.HttpApplication
+</pre><br>:::<br><br>&lt;/dt&gt;<dd>Figure: Bad Example – Logic is implemented in the Application_Start method which breaks the Single Responsibility Principle</dd></dl><dl class="goodImage">&lt;dt&gt;<br><br>::: greybox<br><pre>public class MvcApplication : System.Web.HttpApplication
 {
     protected void Application_Start()
     {
@@ -43,7 +43,5 @@ related: []
         AuthConfig.RegisterAuth();
     }
 }
-</pre></div><br>
-      <img src="startup-task.jpg" alt="" /> </dt><dd>Figure: Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder​<br><br></dd></dl>
-
-
+</pre><br>:::<br><br><br>
+      <img src="startup-task.jpg" alt=""> &lt;/dt&gt;<dd>Figure: Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder<br><br></dd></dl>
