@@ -12,9 +12,8 @@ related: []
 
 ---
 
+If you are spending many days working remotely, it is vital to remain in some sort of morning routine.
 
-<p class="ssw15-rteElement-P">If you are spending many days working remotely, it is vital to remain in some sort of morning routine.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​This means not just rolling out of bed in your PJs and starting work​&#160;as is. This can be damaging to your mental health over time so it is vital to keep some sort of normality.&#160;​Change your clothes, eat your breakfast, get ready for work.<br></p>
+<!--endintro-->
 
-
+This means not just rolling out of bed in your PJs and starting work as is. This can be damaging to your mental health over time so it is vital to keep some sort of normality. Change your clothes, eat your breakfast, get ready for work.
