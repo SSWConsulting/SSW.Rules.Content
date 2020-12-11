@@ -12,10 +12,5 @@ related: []
 
 ---
 
-
-You should avoid any extra style tags in your heading text, because is unnecessary. You can ​do all the styling via CSS.
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+You should avoid any extra style tags in your heading text, because is unnecessary. You can do all the styling via CSS.  
+<!--endintro-->
