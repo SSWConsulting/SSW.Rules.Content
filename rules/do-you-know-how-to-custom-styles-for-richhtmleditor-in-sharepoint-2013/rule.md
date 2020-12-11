@@ -14,9 +14,203 @@ related: []
 
 ---
 
-
-<div><p style="margin-bottom:0px;line-height:20px;">​​​​​​As a CMS system, it's obviously necessary to apply standard styles to all content, so the whole site looks consistent.</p><p style="margin-bottom:0px;line-height:20px;"><br></p><p style="margin-bottom:0px;line-height:20px;">This rule outlines how to use custom styles in the SharePoint  RichHTMLEditor​.<br></p><p style="margin-bottom:0px;line-height:20px;"><br></p><p style="margin-bottom:0px;line-height:20px;">In SharePoint, we can use the below way to apply custom styles:</p><dl class="ssw15-rteElement-ImageArea"><img src="CustomStylesInSharePoint.png" alt="CustomStylesInSharePoint.png" style="margin:5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: custom RichHtmlEditor styles give your content editors a visual preview of your custom styles​<br></dd><p class="separator" style="margin-bottom:0px;line-height:20px;clear:both;"><br></p></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p style="margin-bottom:0px;">​To do this:</p><p style="margin-bottom:0px;">1. You can use "<strong>PrefixStyleSheet</strong>" property to apply the custom styles to a build-in <strong>RichHtmlField </strong>in page layout or master page. In my case, I applied them to a custom control "<strong>ParsedRichHtmlField</strong>" which inherited from the system build-in one.</p><p style="margin-bottom:0px;"><br></p><p style="margin-bottom:0px;"><SSW:ParsedRichHtmlField <strong>PrefixStyleSheet="ssw15-rte"</strong> CssClass="ssw-inputeditorfield" id="Content" FieldName="PublishingPageContent" InputFieldLabel="Rule Summary Info" runat="server"/></p><p style="margin-bottom:0px;"><br></p><p style="margin-bottom:0px;">2. Refer an additional css file in the page layout or master page (apply to display mode content).</p><p style="margin-bottom:0px;">   <SharePointWebControls:CssRegistration ID="CssRegistration3"   Name="<strong>Themable/ssw.core.styles.v15.css</strong>" runat="server"  EnableCssTheming="True"</p><p style="margin-bottom:0px;">      /></p><p style="margin-bottom:0px;"><br></p><p style="margin-bottom:0px;">3. Refer the additional css file again in "<strong>edit mode</strong>" in the page layout or master page (apply to edit mode editor).</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font><PublishingWebControls:EditModePanel ID="EditModePanel1" runat="server"></p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;">  </font><!-- Styles for edit mode only--></p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;">  </font><SharePointWebControls:CssRegistration ID="CssRegistration2" name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %>"</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;">   </font> After="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>" runat="server"/></p><p style="margin-bottom:0px;">        <SharePointWebControls:CssRegistration ID="CssRegistration3"   Name="<strong>Themable/ssw.core.styles.v15.css</strong>" runat="server"  EnableCssTheming="True"</p><p style="margin-bottom:0px;">             <strong>After</strong>="<%$SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/<strong>editmode15.css</strong>  %>" /></p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font></PublishingWebControls:EditModePanel></p><p style="margin-bottom:0px;">Use "<strong>After</strong>" property to ensure that it will be loaded after the "<strong>editmode15.css</strong>", which is SharePoint default edit mode style. The custom style css file will be applied to the ribbon after users change to edit mode.</p><p style="margin-bottom:0px;"><br></p><p style="margin-bottom:0px;">4. Add your custom styles definitions into the additional css file, all styles' names should start with the value you set for <strong>PrefixStyleSheet</strong>, in our case, it's "<strong>ssw15-rte</strong>". The custom styles can be applied to different areas (cases) in the ribbon.</p><p style="margin-bottom:0px;">1) .ssw15-rte<strong>Language - </strong>As SharePoint support multiple language, this definition will tell SharePoint which language will use those custom styles.</p><p style="margin-bottom:0px;">e.g.</p><p style="margin-bottom:0px;">.ssw15-rteLanguage-en {</p><p style="margin-bottom:0px;">    -ms-name: English;</p><p style="margin-bottom:0px;">}</p><p style="margin-bottom:0px;">2) .ssw15-rte<strong>Element - </strong>tell SharePoint which element will be applied with this style. When you press "Enter" in SharePoint editor, it will automatically start a new paragraph with "<P></P>", so it's a brilliant choice to make some custom "paragraph" elements.</p><p style="margin-bottom:0px;">e.g.</p><p style="margin-bottom:0px;">P.ssw15-rteElement-CodeArea</p><p style="margin-bottom:0px;">{<font class="Apple-tab-span" style="white-space:pre;"> </font></p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font><strong>-ms-name:"Code Area";</strong></p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>border: solid #CCC;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>border-width: 1px 1px 1px 10px;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>background: #EEE;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>padding: 5px 10px;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>margin: 8px;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>overflow-x:auto;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>display:block;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>width:93%;</p><p style="margin-bottom:0px;"><font class="Apple-tab-span" style="white-space:pre;"> </font>font-size:12px;</p><p style="margin-bottom:0px;">}</p><p style="margin-bottom:0px;">This <strong>Code Area</strong> style will come up in "Page Elements" section:​</p><dl class="ssw15-rteElement-ImageArea"><img src="CodeArea.png" alt="CodeArea.png" style="margin:5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: Code Area style come up in "Page Elements" seciton</dd><p class="separator" style="margin-bottom:0px;clear:both;"><br></p><p class="separator" style="margin-bottom:0px;clear:both;">While applying a "Page Elements" style, it will</p><p style="margin-bottom:0px;"><br></p><ul><li>Remove all the styles for the children elements</li><li>It may change both the class name and the parent element type, it depends on which html element has been specified in the definition.</li></ul><div><p style="margin-bottom:0px;">For example, we change the style </p></div><div><p style="margin-bottom:0px;">from </p><div><p style="margin-bottom:0px;"><strong>P</strong>.ssw15-rteElement-CodeArea</p></div><div><p style="margin-bottom:0px;">to</p></div><div><p style="margin-bottom:0px;"><strong>dd</strong>.ssw15-rteElement-FigureGood</p></div><div><p style="margin-bottom:0px;"><br></p></div><div><p style="margin-bottom:0px;">Its html code will change </p></div><div><p style="margin-bottom:0px;">from</p><dl class="ssw15-rteElement-ImageArea"><img src="page_element_p.png" alt="page_element_p.png" style="margin:5px;width:650px;" /></dl></div><div><dd class="ssw15-rteElement-FigureNormal">Figure: "Code Area style" with parent element <p></dd></div><div><p style="margin-bottom:0px;">to</p><dl class="ssw15-rteElement-ImageArea"><img src="page_element_dd.png" alt="page_element_dd.png" style="margin:5px;width:650px;" /></dl><dl class="ssw15-rteElement-ImageArea"><span style="color:#555555;font-size:11px;font-weight:bold;">Figure: "Good Figure style" changed the parent element from <p> to <dd></span><br></dl><dl class="ssw15-rteElement-ImageArea"><br></dl></div><div><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">3).ssw15-rte<strong>Style - </strong>this style could be applied to <strong>Text Styles</strong>:</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><br></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">e.g.</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">.ssw15-rteStyle-Highlight</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">{</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><font class="Apple-tab-span" style="white-space:pre;"> </font><strong>-ms-name:"Highlight";</strong></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><font class="Apple-tab-span" style="white-space:pre;"> </font>background-color: #FFFF00;</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">}</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">This <strong>Highlight</strong> style will come up in "Text Styles" section:​</p><dl class="ssw15-rteElement-ImageArea"><img src="HighLight.png" alt="HighLight.png" style="margin:5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: Highlight style will come up in "Text Styles" section​<br></dd><dl class="ssw15-rteElement-ImageArea"><br></dl><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">While applying a "Text Styles" style, it will</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><br></p><ul style="color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><li>nest the text in a <span> tag with the style class if the text is not already inside an HTML tag</li><li>replace the class of the HTML tag if this tag is a <span> tag</li></ul><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><br></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">That means all "Text Styles" will apply to <span> tag, and you cannot apply two "Text Styles" to one <span> (e.g. apply both Strike and Hightlight), you may have to do that via changing html source code manually, or creating a "combined" "Text Styles".</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><br></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">4) .ssw15-rte<strong>Table -</strong> Tell SharePoint the definition of custom table styles. After inserting a table, you can see the styles under "Design" tab:​</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">​<br></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><br></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">e.g. The below is a "<strong>SSW Table</strong>" style definition:</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">.ssw15-rte<strong>Table-</strong>default</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">{</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><font class="Apple-tab-span" style="white-space:pre;"> </font><strong>-ms-name:"SSW Table";</strong></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><font class="Apple-tab-span" style="white-space:pre;"> </font>border:1px solid #ddd;</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><font class="Apple-tab-span" style="white-space:pre;"> </font>margin: 8px;</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><font class="Apple-tab-span" style="white-space:pre;"> </font>width:98%;</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><font class="Apple-tab-span" style="white-space:pre;"> </font>background-color:#f0f0f0;</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">}</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><br></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">After finishing the definitions of custom styles, make a package and deploy to a SharePoint site, Create a page using the page layout or master page which you added custom RichHtmlField style, then you should be able to see the custom styles in the ribbon.</p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;"><br></p><p style="margin-bottom:0px;color:#000000;font-family:'times new roman';font-size:medium;line-height:normal;">Enjoy!</p></div></div><div><br></div>
+As a CMS system, it's obviously necessary to apply standard styles to all content, so the whole site looks consistent.
 
 
+
+This rule outlines how to use custom styles in the SharePoint  RichHTMLEditor.
+
+
+
+In SharePoint, we can use the below way to apply custom styles:
+<dl class="ssw15-rteElement-ImageArea"><img src="CustomStylesInSharePoint.png" alt="CustomStylesInSharePoint.png" style="margin:5px;"></dl> **Figure: custom RichHtmlEditor styles give your content editors a visual preview of your custom styles
+** 
+
+
+
+<!--endintro-->
+
+To do this:
+
+1. You can use " **PrefixStyleSheet** " property to apply the custom styles to a build-in  **RichHtmlField** in page layout or master page. In my case, I applied them to a custom control " **ParsedRichHtmlField** " which inherited from the system build-in one.
+
+
+
+<SSW:ParsedRichHtmlField  **PrefixStyleSheet="ssw15-rte"** CssClass="ssw-inputeditorfield" id="Content" FieldName="PublishingPageContent" InputFieldLabel="Rule Summary Info" runat="server"/>
+
+
+
+2. Refer an additional css file in the page layout or master page (apply to display mode content).
+
+<sharepointwebcontrols:cssregistration id="CssRegistration3" name=" <strong>Themable/ssw.core.styles.v15.css</strong> " runat="server" enablecsstheming="True"></sharepointwebcontrols:cssregistration>
+
+/>
+
+
+
+3. Refer the additional css file again in " **edit mode** " in the page layout or master page (apply to edit mode editor).
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font><publishingwebcontrols:editmodepanel id="EditModePanel1" runat="server"></publishingwebcontrols:editmodepanel>
+
+<font class="Apple-tab-span" style="white-space:pre;">  </font><!-- Styles for edit mode only-->
+
+<font class="Apple-tab-span" style="white-space:pre;">  </font><sharepointwebcontrols:cssregistration id="CssRegistration2" name="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %>"></sharepointwebcontrols:cssregistration>
+
+<font class="Apple-tab-span" style="white-space:pre;">   </font> After="<% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %>" runat="server"/>
+
+<sharepointwebcontrols:cssregistration id="CssRegistration3" name=" <strong>Themable/ssw.core.styles.v15.css</strong> " runat="server" enablecsstheming="True"></sharepointwebcontrols:cssregistration>
+
+**After** ="<%$SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/ <strong>editmode15.css</strong> %>" />
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>
+
+Use " **After** " property to ensure that it will be loaded after the " **editmode15.css** ", which is SharePoint default edit mode style. The custom style css file will be applied to the ribbon after users change to edit mode.
+
+
+
+4. Add your custom styles definitions into the additional css file, all styles' names should start with the value you set for  **PrefixStyleSheet** , in our case, it's " **ssw15-rte** ". The custom styles can be applied to different areas (cases) in the ribbon.
+
+1) .ssw15-rte **Language -** As SharePoint support multiple language, this definition will tell SharePoint which language will use those custom styles.
+
+e.g.
+
+.ssw15-rteLanguage-en {
+
+-ms-name: English;
+
+}
+
+2) .ssw15-rte **Element -** tell SharePoint which element will be applied with this style. When you press "Enter" in SharePoint editor, it will automatically start a new paragraph with "
+
+
+", so it's a brilliant choice to make some custom "paragraph" elements.
+e.g.
+
+P.ssw15-rteElement-CodeArea
+
+{<font class="Apple-tab-span" style="white-space:pre;"> </font>
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font> **-ms-name:"Code Area";**
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>border: solid #CCC;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>border-width: 1px 1px 1px 10px;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>background: #EEE;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>padding: 5px 10px;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>margin: 8px;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>overflow-x:auto;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>display:block;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>width:93%;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>font-size:12px;
+
+}
+
+This  **Code Area** style will come up in "Page Elements" section:
+<dl class="ssw15-rteElement-ImageArea"><img src="CodeArea.png" alt="CodeArea.png" style="margin:5px;"></dl> **Figure: Code Area style come up in "Page Elements" seciton** 
+
+
+While applying a "Page Elements" style, it will
+
+
+
+* Remove all the styles for the children elements
+* It may change both the class name and the parent element type, it depends on which html element has been specified in the definition.
+
+
+For example, we change the style
+
+
+from
+
+**P** .ssw15-rteElement-CodeArea
+
+to
+
+**dd** .ssw15-rteElement-FigureGood
+
+
+
+Its html code will change
+
+
+from
+<dl class="ssw15-rteElement-ImageArea"><img src="page_element_p.png" alt="page_element_p.png" style="margin:5px;width:650px;"></dl>
+
+<dd class="ssw15-rteElement-FigureNormal">Figure: "Code Area style" with parent element <p></p></dd>
+
+
+to
+<dl class="ssw15-rteElement-ImageArea"><img src="page_element_dd.png" alt="page_element_dd.png" style="margin:5px;width:650px;"></dl><dl class="ssw15-rteElement-ImageArea"><span style="color:#555555;font-size:11px;font-weight:bold;">Figure: "Good Figure style" changed the parent element from <p> to <dd></dd></p></span><br></dl><dl class="ssw15-rteElement-ImageArea"><br></dl>
+
+
+3).ssw15-rte **Style -** this style could be applied to  **Text Styles** :
+
+
+
+e.g.
+
+.ssw15-rteStyle-Highlight
+
+{
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font> **-ms-name:"Highlight";**
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>background-color: #FFFF00;
+
+}
+
+This  **Highlight** style will come up in "Text Styles" section:
+<dl class="ssw15-rteElement-ImageArea"><img src="HighLight.png" alt="HighLight.png" style="margin:5px;"></dl> **Figure: Highlight style will come up in "Text Styles" section
+** <dl class="ssw15-rteElement-ImageArea"><br></dl>
+While applying a "Text Styles" style, it will
+
+
+
+* nest the text in a  tag with the style class if the text is not already inside an HTML tag
+* replace the class of the HTML tag if this tag is a  tag
+
+
+
+
+That means all "Text Styles" will apply to  tag, and you cannot apply two "Text Styles" to one  (e.g. apply both Strike and Hightlight), you may have to do that via changing html source code manually, or creating a "combined" "Text Styles".
+
+
+
+4) .ssw15-rte **Table -** Tell SharePoint the definition of custom table styles. After inserting a table, you can see the styles under "Design" tab:
+
+
+
+
+
+e.g. The below is a " **SSW Table** " style definition:
+
+.ssw15-rte **Table-** default
+
+{
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font> **-ms-name:"SSW Table";**
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>border:1px solid #ddd;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>margin: 8px;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>width:98%;
+
+<font class="Apple-tab-span" style="white-space:pre;"> </font>background-color:#f0f0f0;
+
+}
+
+
+
+After finishing the definitions of custom styles, make a package and deploy to a SharePoint site, Create a page using the page layout or master page which you added custom RichHtmlField style, then you should be able to see the custom styles in the ribbon.
+
+
+
+Enjoy!
