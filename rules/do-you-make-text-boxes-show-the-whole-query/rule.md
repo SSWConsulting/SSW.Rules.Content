@@ -14,17 +14,15 @@ related: []
 
 ---
 
+Text boxes are often limited in size. When the user have a large ammount of text, the field should grow bigger to show the whole query.
 
-<p>Text boxes are often limited in size. When the user have a large ammount of text, the field should grow bigger to show the whole query.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img src="textarea-small-bad.png" alt="text area bad example" style="width:600px;" />
-   </dt><dd>Figure: Bad example - Can't see the whole query</dd></dl><dl class="goodImage"><dt>
-      <img src="textarea-big-good.png" alt="text area good example" />
-   </dt><dd>Figure: Good example - Text area expands showing the entire message as it is typed</dd></dl><p class="p1">More info:</p><ul class="p2"><li> 
-      <a href="http://blogs.sitepointstatic.com/examples/tech/textarea-expander/demo.html" target="_blank" style="line-height:1.6;">
-         <span class="s2">http://blogs.sitepointstatic.com/examples/tech/textarea-expander/demo.html</span></a><br></li><li> 
-      <a href="http://www.sitepoint.com/build-auto-expanding-textarea-1/" target="_blank" style="line-height:1.6;">
-         <span class="s2">http://www.sitepoint.com/build-auto-expanding-textarea-1/</span></a><br></li></ul>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img src="textarea-small-bad.png" alt="text area bad example" style="width:600px;">
+   &lt;/dt&gt;<dd>Figure: Bad example - Can't see the whole query</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="textarea-big-good.png" alt="text area good example">
+   &lt;/dt&gt;<dd>Figure: Good example - Text area expands showing the entire message as it is typed</dd></dl>
+More info:
 
-
+* http://blogs.sitepointstatic.com/examples/tech/textarea-expander/demo.html
+* http://www.sitepoint.com/build-auto-expanding-textarea-1/
