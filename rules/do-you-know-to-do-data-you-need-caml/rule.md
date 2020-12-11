@@ -14,72 +14,44 @@ related: []
 
 ---
 
+CAML is the XML definition for all things in SharePoint, in deployment, and in creating templates, CAML is the only format.
+In SharePoint development, you will also need to know CAML, in particular, how to write a query in CAML.
+
+* Widely used in Content Query Web Parts
+* Also used in SharePoint content reports
+* In code, used by SPSiteDataQuery object
 
 
-  <span lang="EN-AU">CAML is the XML definition for all things in SharePoint, in deployment, and in creating templates, CAML is the only format.</span>
-<p class="MsoNormal"><span lang="EN-AU">In SharePoint development, you will also need to know CAML, in particular, how to write a query in CAML.</span></p>
-<ul>
-    <li>
-    <div class="MsoNormal"><span lang="EN-AU" style="font-family:symbol;"><span><span style="font:7pt 'times new roman';"> </span></span></span><span lang="EN-AU">Widely used in Content Query Web Parts</span></div>
-    </li>
-    <li>
-    <div class="MsoNormal"><span lang="EN-AU"></span><span lang="EN-AU">Also used in SharePoint content reports</span></div>
-    </li>
-    <li>
-    <div class="MsoNormal"><span lang="EN-AU"></span><span lang="EN-AU">In code, used by SPSiteDataQuery object</span></div>
-    <span lang="EN-AU"></span></li>
-</ul>
-<ul>
-    <div class="title"><a href="http://msdn.microsoft.com/en-us/library/ms426449.aspx">Introduction to Collaborative Application Markup Language (CAML)</a>
-    <div class="title"> </div>
-    <div class="title">
-    <div class="title"><a href="http://msdn.microsoft.com/en-us/library/ms467521.aspx">Query Schema</a></div>
-    </div>
-    </div>
-</ul>
 
-<br><excerpt class='endintro'></excerpt><br>
+[Introduction to Collaborative Application Markup Language (CAML)](http://msdn.microsoft.com/en-us/library/ms426449.aspx)
+ 
 
-  <p>  </p>
-<dl class="goodCode">
-    <dt>
-    <pre><Query><br>    <OrderBy><br>        <FieldRef Name="Modified" Ascending="FALSE"></FieldRef><br>    </OrderBy><br>    <Where><br>        <And><br>            <Neq><br>                <FieldRef Name="Status"></FieldRef><br>                <Value Type="Text">Completed</Value><br>            </Neq><br>            <IsNull><br>                <FieldRef Name="Sent"></FieldRef><br>            </IsNull><br>        </And><br>    </Where><br></Query></pre>
-    </dt>
-    <dd>Figure: Example of CAML query </dd>
-</dl>
-<p class="MsoNormal"><span lang="EN-AU">You can see - CAML is essentially the same as SQL WHERE syntax, but wrapped in an XML format.</span></p>
-<p class="MsoNormal"><span lang="EN-AU"></span><span lang="EN-AU">Problems with CAML:</span></p>
-<ol>
-    <li>
-    <div class="MsoNormal"><span lang="EN-AU"><span lang="EN-AU" style="font-family:'calibri','sans-serif';font-size:11pt;">CAML is XML and is case sensitive – including attributes names. </span></span>
-    <dl class="badCode">
-        <dt>
-        <pre><Query><br>    <Where><br>        <Or><br>            <Eq><br>              <FieldRef <font color="#400040" style="background-color:rgb(255, 255, 0);">name</font>="Status" /> <br>            <Value Type="Text">Completed</Value><br>            </Eq><br>            <IsNull><br>                <FieldRef <font style="background-color:rgb(255, 255, 0);">Name</font>="Status" /><br>            </IsNull><br>        </Or><br>    </Where><br></Query></pre>
-        </dt>
-        <dd>     Figure: Example of CAML query </dd>
+
+[Query Schema](http://msdn.microsoft.com/en-us/library/ms467521.aspx)
+
+
+
+
+<!--endintro-->
+
+
+<dl class="goodCode">    &lt;dt&gt;
+    <pre><query><br>    <orderby><br>        <fieldref name="Modified" ascending="FALSE"></fieldref><br>    </orderby><br>    <where><br>        <and><br>            <neq><br>                <fieldref name="Status"></fieldref><br>                <value type="Text">Completed</value><br>            </neq><br>            <isnull><br>                <fieldref name="Sent"></fieldref><br>            </isnull><br>        </and><br>    </where><br></query></pre>
+    &lt;/dt&gt;
+    <dd>Figure: Example of CAML query </dd></dl>
+You can see - CAML is essentially the same as SQL WHERE syntax, but wrapped in an XML format.
+
+Problems with CAML:
+
+1. CAML is XML and is case sensitive – including attributes names. <dl class="badCode">        &lt;dt&gt;
+        <pre><query><br>    <where><br>        <or><br>            <eq><br>              <fieldref></fieldref><font color="#400040" style="background-color:rgb(255, 255, 0);">name</font>="Status" /> <br>            <value type="Text">Completed</value><br>            </eq><br>            <isnull><br>                <fieldref></fieldref><font style="background-color:rgb(255, 255, 0);">Name</font>="Status" /><br>            </isnull><br>        </or><br>    </where><br></query></pre>
+        &lt;/dt&gt;
+        <dd>     Figure: Example of CAML query </dd>
     </dl>
-    </div>
-    </li>
-    <li>
-    <div class="MsoNormal"><span lang="EN-AU"><span lang="EN-AU" style="font-family:'calibri','sans-serif';font-size:11pt;"><span lang="EN-AU" style="font-family:'calibri','sans-serif';font-size:11pt;">SharePoint is not good at telling you if you made a mistake with your CAML query. </span></span></span>
-    <dl class="badImage">
-        <dt><img src="CAMLError.png" alt="" /> </dt>
-        <dd>     Figure: Debug error message</dd>
+2. SharePoint is not good at telling you if you made a mistake with your CAML query. <dl class="badImage">        &lt;dt&gt;<img src="CAMLError.png" alt=""> &lt;/dt&gt;
+        <dd>     Figure: Debug error message</dd>
     </dl>
-    </div>
-    </li>
-    <li>
-    <div class="MsoNormal"><span lang="EN-AU"><span lang="EN-AU" style="font-family:'calibri','sans-serif';font-size:11pt;"><span lang="EN-AU" style="font-family:'calibri','sans-serif';font-size:11pt;"><span lang="EN-AU" style="font-family:'calibri','sans-serif';font-size:11pt;">Hard to debug.</span></span></span></span><br>
-    <font color="#ff0000">Tips:</font> Use 3rd Party tools - U2U CAML Query Builder
-    <dl class="goodImage">
-        <dt><img src="U2U.png" alt="" /> </dt>
-        <dd>     Figure: U2U CAML Query Builder</dd>
-    </dl>
-         <font color="#ff0000">Note:</font> U2U CAML Builder is the best tool that we have. There are some occasional UI and interface issues, but for creating CAML and testing it against live SharePoint lists it gets the job done. And it’s FREE! </div>
-    </li>
-</ol>
-<p class="MsoNormal"><span lang="EN-AU"><span lang="EN-AU" style="font-family:'calibri','sans-serif';font-size:11pt;"></span></span> </p>
-<p> </p>
-
-
-
+3. Hard to debug.
+<font color="#ff0000">Tips:</font> Use 3rd Party tools - U2U CAML Query Builder<br>    <dl class="goodImage">        &lt;dt&gt;<img src="U2U.png" alt=""> &lt;/dt&gt;
+        <dd>     Figure: U2U CAML Query Builder</dd>
+    </dl><font color="#ff0000">Note:</font> U2U CAML Builder is the best tool that we have. There are some occasional UI and interface issues, but for creating CAML and testing it against live SharePoint lists it gets the job done. And it’s FREE!
