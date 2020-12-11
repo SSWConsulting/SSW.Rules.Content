@@ -18,10 +18,7 @@ related: []
 
 ---
 
-
-This field should not be null (Remove me when you edit this field).
-<br><excerpt class='endintro'></excerpt><br>
-<dl><dt><img alt="Test case " src="TestCase.jpg" /></dt>
+This field should not be null (Remove me when you edit this field). 
+<!--endintro-->
+<dl>&lt;dt&gt;<img alt="Test case " src="TestCase.jpg">&lt;/dt&gt;
 <dd>Figure: You can easily fix this by associating tests with a Test Case which in turn "Tests" a bug </dd></dl>
-
-
