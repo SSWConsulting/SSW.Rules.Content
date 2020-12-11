@@ -20,7 +20,7 @@ There comes a time when some contacts in your CRM database might just be taking 
           <li>You can still view them if you need to by viewing Inactive companies/contacts.</li>
         </ul>
         <p>
-          <b>Hint&#58;</b> When you deactivate a client - put a note in the notes field to say
-          why first.</p><p><img src="/PublishingImages/CRM-DeactivateContact.jpg" alt="CRM-DeactivateContact.jpg" style="margin&#58;5px;" /><br></p><dd class="ssw15-rteElement-FigureNormal">​​​​​Figure&#58; Once a contact moves on or their details are no longer relevant, deactivate them<br></dd>
+          <b>Hint:</b> When you deactivate a client - put a note in the notes field to say
+          why first.</p><p><img src="CRM-DeactivateContact.jpg" alt="CRM-DeactivateContact.jpg" style="margin:5px;" /><br></p><dd class="ssw15-rteElement-FigureNormal">​​​​​Figure: Once a contact moves on or their details are no longer relevant, deactivate them<br></dd>
 
 
