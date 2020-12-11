@@ -12,7 +12,7 @@ related: []
 
 
 
-  <p>Always introduce yourself *after* you have asked the audience who they are. Don't be shy, tell them&#58;</p>
+  <p>Always introduce yourself *after* you have asked the audience who they are. Don't be shy, tell them:</p>
 <ul>
     <li>Who are you? (optional - include something personal)</li>
     <li>What you do (your service or product)?</li>
@@ -22,8 +22,8 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/aboutAdam.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Talk about yourself after you know the audience a little. It is not great to bring up the 'About' slide too early</dd>
+    <dt><img class="ms-rteCustom-ImageArea" src="aboutAdam.gif" alt="" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure: Talk about yourself after you know the audience a little. It is not great to bring up the 'About' slide too early</dd>
 </dl>
 
 
