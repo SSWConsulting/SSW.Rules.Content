@@ -19,6 +19,15 @@ index:
 - do-you-know-what-will-break-and-how-to-be-ready-for-them
 
 ---
-<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx">Application Lifecycle Management</a>&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">​</a>and book in a consultant.</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
+
+**Update: TFS 2010 has been replaced by TFS 2012 - if you're moving to TFS 2012, see our [Rules to Better TFS 2012 Migration](/ALM/RulesToBetterTFS2012Migration).**
+
+Upgrading Team Foundation Server can be a daunting task. Be assured that things have become easier and if you follow this guide, it will minimize your downtime.
+
+In this page we will look at upgrading an existing TFS2008 server to TFS2010. We assume you are using a single server configuration and have a DNS entry setup for external access at tfs.northwind.com.
+
+Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments. [Let us know](javascript:sendEmail%28&#39;6D61696C746F3A496E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F253230426574746572253230456D61696C&#39;%29) what you think.
 
