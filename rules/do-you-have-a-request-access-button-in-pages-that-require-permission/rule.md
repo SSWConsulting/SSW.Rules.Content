@@ -12,9 +12,7 @@ related: []
 
 ---
 
+If your page requires permission to be accessed it should provide a button for the user to request it.
 
-If your page requires permission to be accessed it should provide a button for the user to request it.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​<img src="no-request-permission.png" alt="no-request-permission.png" />​​</dt><dd>Figure: Bad example -  You just​ don't have access<br></dd></dl><dl class="goodImage"><dt>​​<img src="request-permission.png" alt="request-permission.png" /></dt><dd>Figure: Good example – Office 365 has a "Request Access" button</dd>​ ​<br></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="no-request-permission.png" alt="no-request-permission.png">&lt;/dt&gt;<dd>Figure: Bad example -  You just don't have access<br></dd></dl><dl class="goodImage">&lt;dt&gt;<img src="request-permission.png" alt="request-permission.png">&lt;/dt&gt;<dd>Figure: Good example – Office 365 has a "Request Access" button</dd> <br></dl>
