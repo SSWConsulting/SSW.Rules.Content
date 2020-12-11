@@ -12,9 +12,17 @@ related: []
 
 ---
 
+1. Disable defaults
+    * Disable Administrator and Rename it, then create a new "honeypot" Administrator account with no permissions.
+    * Disable Guest on the SQL
+    * Change Port 1433
+    * Delete the sample databases - (AdventureWorks, Northwind and Pubs). These have a Public Role which is a security risk and allow Massive SQL Statements
+2. Other security issues
+    * Use a service account with a strong password
+    * Do not run SQL Server service as an administrator
+    * Run in integrated security mode
+    * Run on NTFS file system - Encrypt the data files
 
-<ol><li>​Disable defaults<br></li><ul><li>Disable Administrator and Rename it, then create a new &quot;honeypot&quot; Administrator account with no permissions.</li><li>Disable Guest on the SQL</li><li>Change Port 1433</li><li>Delete the sample databases - (AdventureWorks, Northwind and Pubs). These have a Public Role which is a security risk and allow Massive SQL Statements</li></ul><li>Other security issues</li><ul><li>Use a service account with a strong password</li><li>Do&#160;not run SQL Server service as an administrator</li><li>Run in integrated security mode<br></li><li>Run on NTFS file system - Encrypt the data files​<br></li></ul></ol><br>
-<br><excerpt class='endintro'></excerpt><br>
 
 
-
+<!--endintro-->
