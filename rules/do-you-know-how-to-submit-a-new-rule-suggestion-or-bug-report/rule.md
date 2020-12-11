@@ -14,9 +14,5 @@ related: []
 
 ---
 
-
-This field should not be null (Remove me when you edit this field).
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+This field should not be null (Remove me when you edit this field). 
+<!--endintro-->
