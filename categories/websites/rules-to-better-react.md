@@ -19,6 +19,5 @@ index:
 - options---do-you-use-typescript-for-your-angular-and-react-applications
 
 ---
-<p>​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/React.aspx">visit our React consulting page​​​</a>&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our React consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/React.aspx) and book in a consultant.
 
