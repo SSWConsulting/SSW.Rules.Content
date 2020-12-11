@@ -21,7 +21,7 @@ related: []
 
 This field should not be null (Remove me when you edit this field).
 <br><excerpt class='endintro'></excerpt><br>
-<dl><dt><img alt="Test case " src="/PublishingImages/TestCase.jpg" /></dt>
-<dd>Figure&#58; You can easily fix this by associating tests with a Test Case which in turn &quot;Tests&quot; a bug </dd></dl>
+<dl><dt><img alt="Test case " src="TestCase.jpg" /></dt>
+<dd>Figure: You can easily fix this by associating tests with a Test Case which in turn "Tests" a bug </dd></dl>
 
 
