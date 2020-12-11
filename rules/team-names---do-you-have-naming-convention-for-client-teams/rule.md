@@ -14,10 +14,8 @@ related: []
 
 ---
 
+Client Teams should be prefixed with “Client –“ so it is easier to identify them.
 
-​Client Teams should be prefixed with “Client –“ so it is easier to identify them.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="client-naming-bad.png" alt="client-naming-bad.png" /></dt><dd>​Bad Example: Client team without the "Client –" prefix</dd></dl><dl class="goodImage"><dt><img src="client-naming-good.jpg" alt="client-naming-good.jpg" />
-</dt><dd>Good Example: Well prefixed Teams make Client-related teams easier to identify</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="client-naming-bad.png" alt="client-naming-bad.png">&lt;/dt&gt;<dd>Bad Example: Client team without the "Client –" prefix</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="client-naming-good.jpg" alt="client-naming-good.jpg">
+&lt;/dt&gt;<dd>Good Example: Well prefixed Teams make Client-related teams easier to identify</dd></dl>
