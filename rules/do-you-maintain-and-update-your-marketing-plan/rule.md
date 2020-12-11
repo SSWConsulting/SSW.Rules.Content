@@ -12,9 +12,10 @@ related: []
 
 ---
 
+We suggest you follow up and update your metrics and results on a monthly basis to help you understand if your strategy and your marketing efforts are working.
 
-<p class="ssw15-rteElement-P">​​We suggest you follow up and update your metrics and results on a monthly basis to&#160;help you understand if your strategy and your marketing efforts are working.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">Every quarter&#160;you should meet with your team to present results and brainstorm on activities than can be done or you might need help with. We recommend reviewing your strategy to make sure&#160;that&#160;it is still aligned to the company’s core goals, and if no changes are required, just keep tweaking your campaigns.</p><p class="ssw15-rteElement-P">​Annually, you can review it fully&#160;to measure your efforts and analyze&#160;budget adjustments that are needed for the next year.​</p>
+<!--endintro-->
 
+Every quarter you should meet with your team to present results and brainstorm on activities than can be done or you might need help with. We recommend reviewing your strategy to make sure that it is still aligned to the company’s core goals, and if no changes are required, just keep tweaking your campaigns.
 
+Annually, you can review it fully to measure your efforts and analyze budget adjustments that are needed for the next year.
