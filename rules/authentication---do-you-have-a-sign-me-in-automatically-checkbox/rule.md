@@ -12,14 +12,10 @@ related: []
 
 ---
 
+When you present visitors to your site with an opportunity to sign in, you should                     always include an option to have that person signed in automatically.
 
-<p>
-                    When you present visitors to your site with an opportunity to sign in, you should
-                    always include an option to have that person signed in automatically.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage">
-   <dt> 
-      <img src="signin.jpg" alt="Sign In Automatically" />
-   </dt><dd> Figure: 'S​tay signed in' checkbox is available</dd></dl><p> This should be implemented simply by using a check​box. A cookie should be stored on the user's computer so that next time they visit your site the sign in process is automatic. </p>
-
-
+<!--endintro-->
+<dl class="goodImage">   &lt;dt&gt; 
+      <img src="signin.jpg" alt="Sign In Automatically">
+   &lt;/dt&gt;<dd> Figure: 'Stay signed in' checkbox is available</dd></dl>
+This should be implemented simply by using a checkbox. A cookie should be stored on the user's computer so that next time they visit your site the sign in process is automatic.
