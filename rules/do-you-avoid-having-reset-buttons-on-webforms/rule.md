@@ -16,15 +16,16 @@ related: []
 
 ---
 
+Why do web pages have "Reset" buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button.
 
-<p class="ssw15-rteElement-P">​Why do web pages have "Reset" buttons? I have been entering forms on the web for more years than I care to remember, but have never needed to click this button. The worst thing is I have accidentally hit it a few times after - I have a habit of doing 3 things at once - it happens just after I have finished entering everything and click the first button.
-<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P"> More detailed information about this rule can be found in this article <a href="http://www.nngroup.com/articles/reset-and-cancel-buttons/">http://www.nngroup.com/articles/reset-and-cancel-buttons/</a></p><dl class="image"><dt> 
-         <img src="ResetButton.gif" alt="" /> 
-      </dt><dd>Figure: The "Reset"​​​ button isn't useful at all </dd></dl><p class="ssw15-rteElement-YellowBorderBox">We have a program called 
-      <a href="http://www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule. </p><p class="ssw15-rteElement-YellowBorderBox">We have a program called 
-      <a href="http://www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a> to check for this rule.​​<br></p><p class="ssw15-rteElement-YellowBorderBox">We offer a 
-      <a href="http://www.ssw.com.au/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx">rule sample page</a> for demo scan.</p>
+<!--endintro-->
 
+More detailed information about this rule can be found in this article http://www.nngroup.com/articles/reset-and-cancel-buttons/
+<dl class="image">&lt;dt&gt; 
+         <img src="ResetButton.gif" alt=""> 
+      &lt;/dt&gt;<dd>Figure: The "Reset" button isn't useful at all </dd></dl>
+We have a program called        [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor) to check for this rule.
 
+We have a program called        [SSW Link Auditor](http://www.ssw.com.au/ssw/LinkAuditor) to check for this rule.
+
+We offer a        [rule sample page](http://www.ssw.com.au/SSW/LinkAuditor/Samples/Rules/NoResetButton.aspx) for demo scan.
