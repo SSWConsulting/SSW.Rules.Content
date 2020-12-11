@@ -14,9 +14,14 @@ related: []
 
 ---
 
+Using DOM is fine, but manipulating DOM directly in your component is not. With the introduction of Angular, there has been a big push in ensuring the DOM stays out of your JavaScript code.  It is designed in such a way that an existing Angular application can be ported to another target by simply replacing the template and template loader.  Projects such as [Angular React Native Renderer](http://angularjs.blogspot.com.au/2016/04/angular-2-react-native.html) leverages this to allow native mobile app development in Angular.
 
-<p>​U​sing DOM is fine, but manipulating DOM directly in your component is not. ​With the introduction of Angular, there has been a big push in ensuring the DOM stays out of your JavaScript code.  It is designed in such a way that an existing Angular application can be ported to another target by simply replacing the template and template loader.  Projects such as <a href="http://angularjs.blogspot.com.au/2016/04/angular-2-react-native.html">Angular React Native Renderer</a> leverages this to allow native mobile app development in Angular.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Smaller component code making it easier to maintain</li><li>Faster running and easier to write unit tests</li><li>Easier for designers to get involved <br></li></ul><p>This means that the component's state must expose things that are useful to the template as public properties or fields, and the Angular should read these fields to draw itself.</p><dl class="badImage"><dt><img src="dom1.png" alt="dom1.png" /> </dt><dd>This component manipulates the DOM directly to show and hide the menu</dd></dl><dl class="goodImage"><dt><img src="dom2.png" alt="dom2.png" /></dt><dd>This component sets component state, which the template can use.  It is simpler, more descriptive and easier to test</dd></dl>
+<!--endintro-->
+
+* Smaller component code making it easier to maintain
+* Faster running and easier to write unit tests
+* Easier for designers to get involved
 
 
+This means that the component's state must expose things that are useful to the template as public properties or fields, and the Angular should read these fields to draw itself.
+<dl class="badImage">&lt;dt&gt;<img src="dom1.png" alt="dom1.png"> &lt;/dt&gt;<dd>This component manipulates the DOM directly to show and hide the menu</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="dom2.png" alt="dom2.png">&lt;/dt&gt;<dd>This component sets component state, which the template can use.  It is simpler, more descriptive and easier to test</dd></dl>
