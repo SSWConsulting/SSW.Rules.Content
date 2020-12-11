@@ -14,21 +14,29 @@ related: []
 
 ---
 
+When developing Angular or React, there are lots of choices for code editors. The best experience by far is to use [Visual Studio Code](https://visualstudio.microsoft.com/downloads/).   
 
-​​​​When developing Angular or React, there are lots of choices for code editors. The best experience by far is to use <a href="https://visualstudio.microsoft.com/downloads/">Visual Studio Code</a>.   <br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt> 
-      <img alt="angular-machine-setup-1.png" src="angular-machine-setup-1.png" /> 
-   </dt><dd>Figure: Good Example - Visual Studio Code is a free, lightweight IDE that runs on Windows, Linux and OS X. Visual Studio Code is the IDE of choice for many Angular developers and has lots of great extensions for Angular<br></dd></dl><p>Many experienced teams are using Visual Studio for their C# backend and loving using Visual Studio Code for their Angular or React projects.</p><p>The recommended extension for Visual Studio Code is `<strong>Angular Essentials</strong>` from John Papa​<br></p><p> 
-   <strong>Angular Essentials </strong>is actually a meta-package that includes a list of great extensions for Angular Development – and this list may be updated in the future as more extensions become popular.<br></p><p>See 
-   <a href="https://github.com/johnpapa/vscode-angular-essentials">https://github.com/johnpapa/vscode-angular-​essentials</a>.<br></p><dl class="goodImage"><dt> 
-      <img alt="angular-machine-setup-2.png" src="angular-machine-setup-2.png" /> 
-   </dt><dd>Figure: Good Example – the Angular Essentials extension will install a great suite of extensions to support Angular development</dd></dl><p>You can find more extensions at <a href="https://marketplace.visualstudio.com/">Visual Studio | Marketplace</a>.<br></p><h3>​Open in Visual Studio Code</h3><p class="ssw15-rteElement-P">This extension is for those times where you have a project open in 
-   <b>Visual Studio</b> and you want to be able to quickly open it in 
-   <b>Visual Studio Code</b>.<span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;"> </span></p><dl class="image"><dt>
-      <img src="open-in-vscode.png" alt="open-in-vscode.png" />
-   </dt><dd>Figure: Get to Visual Studio Code quickly from within Visual Studio - 
-      <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.OpeninVisualStudioCode">Open in Visual Studio Code extension</a>​<br></dd></dl><p> 
-   <b>More: </b><a href="https://stackshare.io/posts/why-developers-love-visual-studio-code">Why do others love VS Code?​</a><br></p>
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt; 
+      <img alt="angular-machine-setup-1.png" src="angular-machine-setup-1.png"> 
+   &lt;/dt&gt;<dd>Figure: Good Example - Visual Studio Code is a free, lightweight IDE that runs on Windows, Linux and OS X. Visual Studio Code is the IDE of choice for many Angular developers and has lots of great extensions for Angular<br></dd></dl>
+Many experienced teams are using Visual Studio for their C# backend and loving using Visual Studio Code for their Angular or React projects.
 
+The recommended extension for Visual Studio Code is ` **Angular Essentials** ` from John Papa
 
+**Angular Essentials** is actually a meta-package that includes a list of great extensions for Angular Development – and this list may be updated in the future as more extensions become popular.
+
+See     https://github.com/johnpapa/vscode-angular-essentials.
+<dl class="goodImage">&lt;dt&gt; 
+      <img alt="angular-machine-setup-2.png" src="angular-machine-setup-2.png"> 
+   &lt;/dt&gt;<dd>Figure: Good Example – the Angular Essentials extension will install a great suite of extensions to support Angular development</dd></dl>
+You can find more extensions at [Visual Studio | Marketplace](https://marketplace.visualstudio.com/).
+
+### Open in Visual Studio Code
+
+This extension is for those times where you have a project open in      **Visual Studio** and you want to be able to quickly open it in      **Visual Studio Code** .
+<dl class="image">&lt;dt&gt;
+      <img src="open-in-vscode.png" alt="open-in-vscode.png">
+   &lt;/dt&gt;<dd>Figure: Get to Visual Studio Code quickly from within Visual Studio - 
+      <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.OpeninVisualStudioCode">Open in Visual Studio Code extension</a><br></dd></dl>
+**More:** [Why do others love VS Code?](https://stackshare.io/posts/why-developers-love-visual-studio-code)
