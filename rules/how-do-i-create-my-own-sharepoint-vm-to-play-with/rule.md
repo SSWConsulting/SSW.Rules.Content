@@ -12,20 +12,23 @@ related: []
 
 ---
 
+When you want to create a SharePoint environment, you would need to create a new Virtual Machine from the SysPrep image.  
+<!--endintro-->
 
-When you want to create a SharePoint environment, you would need to create a new Virtual Machine from the SysPrep image. 
-<br><excerpt class='endintro'></excerpt><br>
-<p>When you want to create a SharePoint environment, you would need to create a new Virtual Machine from the SysPrep image. </p>
-<ol><li>Make a copy of the latest version of sysprep.vhd and <b>do not run the base one</b> <ol><li>Rename sysprep.vhd so it will say what you are using it for.<br>e.g. client_project_v7.vhd </li>
-<li>You will retain the version number so can we know from which sysprep.vhd it was made from </li></ol></li>
-<li>In Hyper-V or Virtual PC, you create a new VM and link it to your copy of the sysprep.vhd <ol><li>You will need to allocate 2GB of RAM for this image </li>
-<li>You will need plenty of hard drive space (at least 25GB to 30GB) </li>
-<li>You will also need time - it is best to run this on a different machine if you plan to use your laptop at the same time when you are setting up this Virtual Machine </li></ol></li>
-<li>You want to have the undo disk off initially, so that the installation commits changes directly to the VHD. Start the VM </li>
-<li>Once the VM starts up, you will be asked to login - use our SharePoint dev password for the administrator account </li>
-<li>Setup scripts will run for the administrator - this will rename the machine and install SQL Server </li>
-<li>When the process is completed, the machine will restart, and prompt you to login again as the MOSSFarm account - use our SharePoint dev password for the MOSSFarm account </li>
-<li>A second set of setup scripts will run for this account - this will install MOSS, SP1 </li>
-<li>When this is all done, you will power down the VM, and commit all changes to disk <ol><li>You will consider setting up either snapshots or undo-disk at this point.</li></ol></li></ol>
+When you want to create a SharePoint environment, you would need to create a new Virtual Machine from the SysPrep image.
 
-
+1. Make a copy of the latest version of sysprep.vhd and  **do not run the base one**
+    1. Rename sysprep.vhd so it will say what you are using it for.
+e.g. client\_project\_v7.vhd
+    2. You will retain the version number so can we know from which sysprep.vhd it was made from
+2. In Hyper-V or Virtual PC, you create a new VM and link it to your copy of the sysprep.vhd
+    1. You will need to allocate 2GB of RAM for this image
+    2. You will need plenty of hard drive space (at least 25GB to 30GB)
+    3. You will also need time - it is best to run this on a different machine if you plan to use your laptop at the same time when you are setting up this Virtual Machine
+3. You want to have the undo disk off initially, so that the installation commits changes directly to the VHD. Start the VM
+4. Once the VM starts up, you will be asked to login - use our SharePoint dev password for the administrator account
+5. Setup scripts will run for the administrator - this will rename the machine and install SQL Server
+6. When the process is completed, the machine will restart, and prompt you to login again as the MOSSFarm account - use our SharePoint dev password for the MOSSFarm account
+7. A second set of setup scripts will run for this account - this will install MOSS, SP1
+8. When this is all done, you will power down the VM, and commit all changes to disk
+    1. You will consider setting up either snapshots or undo-disk at this point.
