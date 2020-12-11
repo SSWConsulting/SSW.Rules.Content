@@ -14,9 +14,26 @@ related: []
 
 ---
 
-
-​​By default, the connection timeout is 15 seconds. When it comes to testing if a connection is valid or not, 15 seconds is a long time for the user to wait. You should change the connection timeout inside your connection strings to 5 seconds.​<br><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">&quot;Integrated Security=SSPI;Initial Catalog=SallyKnoxMedical;Data <br>Source=TUNA&quot;</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Connection String<br></dd><p class="ssw15-rteElement-CodeArea">&quot;Integrated Security=SSPI;Initial Catalog=SallyKnoxMedical;Data Source=TUNA;<br>Connect Timeout=5&quot;​<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Connection String with a 5-second connection timeout<br></dd>
+By default, the connection timeout is 15 seconds. When it comes to testing if a connection is valid or not, 15 seconds is a long time for the user to wait. You should change the connection timeout inside your connection strings to 5 seconds.
 
 
+<!--endintro-->
+
+"Integrated Security=SSPI;Initial Catalog=SallyKnoxMedical;Data 
+Source=TUNA"
+
+
+::: bad
+Figure: Bad Connection String
+
+:::
+
+
+"Integrated Security=SSPI;Initial Catalog=SallyKnoxMedical;Data Source=TUNA;
+Connect Timeout=5"
+
+
+::: good
+Figure: Good Connection String with a 5-second connection timeout
+
+:::
