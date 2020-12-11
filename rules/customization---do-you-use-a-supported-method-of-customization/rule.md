@@ -12,35 +12,26 @@ related: []
 
 ---
 
+The Microsoft CRM customization tools make it no longer necessary for you to hack           ie. write triggers, stored procedures and .aspx pages. In fact if you were to do           any of these your CRM is unsupported. Changes will not be preserved in any upgrades           or fixes and Microsoft will not attend to any of your support calls until you revert           your CRM back to a supported state.
 
-<p>
-          The Microsoft CRM customization tools make it no longer necessary for you to hack
-          ie. write triggers, stored procedures and .aspx pages. In fact if you were to do
-          any of these your CRM is unsupported. Changes will not be preserved in any upgrades
-          or fixes and Microsoft will not attend to any of your support calls until you revert
-          your CRM back to a supported state.
-        </p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-          The common ways to customize are:</p>
-          <ol>
-            <li>Use the designer to add Entities and Forms (aka Tables and Forms)</li>
-            <li>Write SQL Reporting Services Reports</li>
-            <li>Write workflows with the CRM designer</li>
-            <li>Write workflows with VS.NET and .NET 3.0 WF (new since CRM 4.0)</li>
-            <li>Write callouts with VS.NET (the extension points made available)</li>
-          </ol>
+<!--endintro-->
 
-        <p>
-          The diagram below briefly outlines what are possible supported methods of customization.</p>
-          <dl class="image">
-            <dt>
-              <img alt=" Microsoft CRM Customization Architecture " src="CRM_Customization_Architecture.JPG" style="width:623px;" /></dt>
+The common ways to customize are:
+
+1. Use the designer to add Entities and Forms (aka Tables and Forms)
+2. Write SQL Reporting Services Reports
+3. Write workflows with the CRM designer
+4. Write workflows with VS.NET and .NET 3.0 WF (new since CRM 4.0)
+5. Write callouts with VS.NET (the extension points made available)
+
+
+The diagram below briefly outlines what are possible supported methods of customization.
+<dl class="image">            &lt;dt&gt;
+              <img alt=" Microsoft CRM Customization Architecture " src="CRM_Customization_Architecture.JPG" style="width:623px;">&lt;/dt&gt;
             <dd>
               Figure: Microsoft CRM Customization Architecture
             </dd>
           </dl>
-          <p>Refer to P19 of the CRM Customization Manual Course 8525A for a more in depth discussion.</p>
-<p>PS: For CRM 3.0 you can't find everything on the web - you will need the CRM Customization Manual Course 8525A - you have to buy it from Microsoft :-(</p>
+Refer to P19 of the CRM Customization Manual Course 8525A for a more in depth discussion.
 
-
+PS: For CRM 3.0 you can't find everything on the web - you will need the CRM Customization Manual Course 8525A - you have to buy it from Microsoft :-(
