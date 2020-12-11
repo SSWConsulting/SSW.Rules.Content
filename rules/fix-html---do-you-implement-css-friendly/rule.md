@@ -14,23 +14,21 @@ related: []
 
 ---
 
+It is extremely important to make your site standards compliant:
+
+* It makes styling a lot easier.
+* It also means your site is likely to work for all browsers, even if you don’t specifically target/support them.
+* It requires accessibility for big public sites can be met easier.
 
 
-  <p>It is extremely important to make your site standards compliant&#58;</p>
-<ul>
-    <li>It makes styling a lot easier. </li>
-    <li>It also means your site is likely to work for all browsers, even if you don’t specifically target/support them. </li>
-    <li>It requires accessibility for big public sites can be met easier.</li>
-</ul>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
+When you first run your SharePoint site – you’ll discover that it looks nice on the surface but needs a significant amount of work to fix all the bad HTML.
 
-  <p>When you first run your SharePoint site – you’ll discover that it looks nice on the surface but needs a significant amount of work to fix all the bad HTML. </p>
-<p>Implement CSS Friendly – these are the control adapters released by Microsoft to make ASP.NET render better, non-table based controls.&#160; You can implement them for SharePoint sites as well. </p>
-<dl class="badCode">
-    <dl>
+Implement CSS Friendly – these are the control adapters released by Microsoft to make ASP.NET render better, non-table based controls.  You can implement them for SharePoint sites as well.
+<dl class="badCode">    <dl>
         <dl>
-            <dt>&lt;<font style="background-color&#58;rgb(255, 255, 128);">TABLE </font>id=zz1_TopNavigationMenu class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0&gt;<br>
+            &lt;dt&gt;&lt;<font style="background-color&#58;rgb(255, 255, 128);">TABLE </font>id=zz1_TopNavigationMenu class=&quot;...&quot; border=0 cellSpacing=0 cellPadding=0&gt;<br>
             &lt;TBODY&gt;<br>
             &#160;&#160;&#160; &lt;TR&gt;<br>
             &#160;&#160;&#160;&#160;&lt;TD id=zz1_TopNavigationMenun0&gt;<br>
@@ -71,13 +69,10 @@ related: []
             &#160;&#160;&#160; ...<br>
             &#160;&#160;&#160; &lt;/TR&gt;<br>
             &lt;/TBODY&gt;<br>
-            &lt;/TABLE&gt;</dt>
+            &lt;/TABLE&gt;&lt;/dt&gt;
         </dl>
     </dl>
-    <dd>Bad example - without using CSS Friendly </dd>
-</dl>
-<dl class="goodCode">
-    <dt>&lt;div class=&quot;CssFriendly-Menu-Horizontal&quot; id=&quot;zz1_TopNavigationMenu&quot;&gt;<br>
+    <dd>Bad example - without using CSS Friendly </dd></dl><dl class="goodCode">    &lt;dt&gt;&lt;div class=&quot;CssFriendly-Menu-Horizontal&quot; id=&quot;zz1_TopNavigationMenu&quot;&gt;<br>
     &#160;&#160;&#160; &lt;<font style="background-color&#58;rgb(255, 255, 128);">ul</font> class=&quot;CssFriendly-Menu&quot;&gt;<br>
     &#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;<font style="background-color&#58;rgb(255, 255, 128);">li</font> class=&quot;CssFriendly-Menu-WithChildren&quot;&gt;<br>
     &#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;a href=&quot;...&quot; class=&quot;CssFriendly-Menu-Link TopLevelNavItem&quot;&gt;About Us&lt;/a&gt;<br>
@@ -93,10 +88,5 @@ related: []
     &#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/li&gt;<br>
     &#160;&#160;&#160;&#160;&#160;&#160;&#160; ...<br>
     &#160;&#160;&#160; &lt;/ul&gt;<br>
-    &lt;/div&gt; </dt>
-    <dd>Good example - using CSS Friendly</dd>
-</dl>
-<p>&#160;</p>
-
-
-
+    &lt;/div&gt; &lt;/dt&gt;
+    <dd>Good example - using CSS Friendly</dd></dl>
