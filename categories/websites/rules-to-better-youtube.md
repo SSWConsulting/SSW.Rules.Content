@@ -20,6 +20,5 @@ index:
 - do-you-monitor-youtube-analytics-and-metrics-effectively
 
 ---
-<p>​​​​<br></p>
 
 
