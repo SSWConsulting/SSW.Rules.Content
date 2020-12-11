@@ -14,11 +14,9 @@ related: []
 
 ---
 
+If you have form fields that require some further information, you can provide a hints column next to the fields so users know what the purpose of the data is.
 
-<div class="page" title="Page 1"><div class="layoutArea"><div class="column"><p><span style="font-size:9pt;font-family:verdana;">If you have form fields that require some further information, </span><span style="line-height:1.6;">you can provide a hints column next to the fields so users know what the purpose of the data is.</span></p></div></div></div>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt> 
-      <img src="field-hints.jpg" alt="field hints" />
-   </dt><dd> Figure: Good example - Field hints can make the user more comfortable​</dd></dl>
-
-
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt; 
+      <img src="field-hints.jpg" alt="field hints">
+   &lt;/dt&gt;<dd> Figure: Good example - Field hints can make the user more comfortable</dd></dl>
