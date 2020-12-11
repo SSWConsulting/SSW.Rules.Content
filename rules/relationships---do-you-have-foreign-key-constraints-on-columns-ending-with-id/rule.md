@@ -12,10 +12,8 @@ related: []
 
 ---
 
+Columns ending with 'ID' should have FOREIGN KEY constraints.
 
-Columns ending with 'ID' should have FOREIGN KEY constraints​.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>
-​<img src="NorthwindRelationships.jpg" alt="NorthwindRelationships.jpg" /></dt><dd>Figure: Missing relationships​<br></dd></dl>
-
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt;
+<img src="NorthwindRelationships.jpg" alt="NorthwindRelationships.jpg">&lt;/dt&gt;<dd>Figure: Missing relationships<br></dd></dl>
