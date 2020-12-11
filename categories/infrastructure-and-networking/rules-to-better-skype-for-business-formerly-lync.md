@@ -17,6 +17,5 @@ index:
 - do-you-know-how-to-find-an-employee-or-clients-phone-number
 
 ---
-<p>​​​​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx">visit our Skype for Business&#160;consulting page​</a>​&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our Skype for Business consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx) and book in a consultant.
 
