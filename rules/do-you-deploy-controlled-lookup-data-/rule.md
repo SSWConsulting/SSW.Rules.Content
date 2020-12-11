@@ -12,28 +12,21 @@ related: []
 
 ---
 
+Lookup data is data that you usually see in combo boxes. It may be a Customer Category, a Product Color or the Order Status. Usually this is defined by the user and the programmer does not care what or how many records they have. When the programmer relies on records being in the lookup table, it is called 'Controlled Lookup Data'. 
 
-Lookup data is data that you usually see in combo boxes. It may be a Customer Category, a Product Color or the Order Status. Usually this is defined by the user and the programmer does not care what or how many records they have. When the programmer relies on records being in the lookup table, it is called 'Controlled Lookup Data'. <br>
-<br>
-So whenever you have special data, which is referenced in code you need to tread carefully by: 
+ So whenever you have special data, which is referenced in code you need to tread carefully by:   
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
+1) First understanding that although most of the time there is a clear separation between data and schema, there is an exception for Controlled Lookup Data. This is when data (aka Controlled Lookup Data) is tightly coupled to the application, meaning that you have an application that cannot function correctly without that data.
 
-  <p style="margin:0cm 0cm 0pt;">1) First understanding that although most of the time there is a clear separation between data and schema, there is an exception for Controlled Lookup Data. This is when data (aka Controlled Lookup Data) is tightly coupled to the application, meaning that you have an application that cannot function correctly without that data.</p>
-<p style="margin:0cm 0cm 0pt;">2) You need to deploy that 'Controlled Lookup Data'<br>
-<br>
-3) You then need to add a check for it so that it does not disappear. </p>
-<p style="margin:0cm 0cm 0pt;">Let's look at an example:</p>
-<dl class="image">
-    <dt><img alt="" src="TimeProDropDown.png" /> </dt>
-    <dd>Figure: This combo looks innocent. However if it is "Billable" then the calendar goes yellow </dd>
-</dl>
-<dl class="image">
-    <dt><img alt="" src="TimeProCalendar.png" /> </dt>
-    <dd>Figure: Billable days are shown in yellow </dd>
-</dl>
-<dl class="image">
-    <dt><font class="ms-rteCustom-CodeArea" size="+0">
+2) You need to deploy that 'Controlled Lookup Data'
+
+ 3) You then need to add a check for it so that it does not disappear.
+
+Let's look at an example:
+<dl class="image">    &lt;dt&gt;<img alt="" src="TimeProDropDown.png"> &lt;/dt&gt;
+    <dd>Figure: This combo looks innocent. However if it is "Billable" then the calendar goes yellow </dd></dl><dl class="image">    &lt;dt&gt;<img alt="" src="TimeProCalendar.png"> &lt;/dt&gt;
+    <dd>Figure: Billable days are shown in yellow </dd></dl><dl class="image">    &lt;dt&gt;<font class="ms-rteCustom-CodeArea">
     <pre>if (drDay.NotBillableCount == 0 && 
     drDay.BillableCount > 0)
 {
@@ -52,11 +45,8 @@ else
     cell.BackColor2 = Color.LightGray;
 }
 </pre>
-    </font></dt>
-    <dd>Figure: I think we have "Controlled Lookup Data" here, because if the "BillableCount" is greater than 0, the color shown will be yellow </dd>
-</dl>
-<dl class="image">
-    <dt><font class="ms-rteCustom-CodeArea" size="+0">
+    </font>&lt;/dt&gt;
+    <dd>Figure: I think we have "Controlled Lookup Data" here, because if the "BillableCount" is greater than 0, the color shown will be yellow </dd></dl><dl class="image">    &lt;dt&gt;<font class="ms-rteCustom-CodeArea">
     <pre>INSERT INTO dbo.[EmpTimeBillable] 
     ([CategoryID], [CategoryName], [DateCreated], 
     [DateUpdated], [EmpUpdated], [Note], [rowguid], 
@@ -119,10 +109,5 @@ VALUES
     'LavenderBlue')
 GO
 </pre>
-    </font></dt>
-    <dd>Figure: This data must be deployed, just like we deploy schema </dd>
-</dl>
-Now you need to add a procValidate, see <a href="/Pages/DoYouCheckYourLookupDataAkaReferenceDataIsStillThereWithProcValidate.aspx">Do you check your "Controlled Lookup Data" (aka Reference Data) is still there with procValidate? </a> 
-
-
-
+    </font>&lt;/dt&gt;
+    <dd>Figure: This data must be deployed, just like we deploy schema </dd></dl> Now you need to add a procValidate, see [Do you check your "Controlled Lookup Data" (aka Reference Data) is still there with procValidate?](/Pages/DoYouCheckYourLookupDataAkaReferenceDataIsStillThereWithProcValidate.aspx)
