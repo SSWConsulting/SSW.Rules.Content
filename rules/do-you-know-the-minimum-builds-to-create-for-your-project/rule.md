@@ -20,21 +20,30 @@ related: []
 
 ---
 
+When creating projects one of the only ways that you have of proving that it works and is a viable solution is to build it. This is easy when you only have one developer and that developer will be the only one using a solution. But what if you have 2 developers? How do you prove that one developer's code works with the other? The answer is build servers. These build servers take specific code away to another computer and build it there.
 
-<p>​When creating projects one of the only ways that you have of proving that it works and is a viable solution is to build it. This is easy when you only have one developer and that developer will be the only one using a solution. But what if you have 2 developers? How do you prove that one developer's code works with the other? The answer is build servers. These build servers take specific code away to another computer and build it there.</p>
-<p>You should always have two builds on your team project. These should be setup and tested using an empty solution before you write any code at all.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<img class="ms-rteCustom-ImageArea" src="Builds.jpg" alt="" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure: Two builds named in the format [TeamProject].[AreaPath]_[Branch].|CI|Nightly] for every branch.</font> These builds should use the same XAML build workflow; however you may set them up to run a different set of tests depending on the time it takes to run a full build. 
-<br>
-<ul><li></li><li>
-      <strong>CI</strong> - This should run all Unit Tests and all of the automated UI tests. It is run after a successful developer check-in.<br><strong>Note:</strong> This build should take no more than 10 minutes to run.<br></li><li>
-      <strong>Nightly</strong> - The Nightly build should run all of the Unit Tests, all of the Automated UI tests and all of the Load and Performance tests. The nightly build is time consuming and will run but once a night. Packaging of your Product for testing the next day may be done at this stage as well.<br><strong>Note:</strong> This build can take as long as it needs to - of course more than 24 hours is too long.</li></ul><div><span style="line-height:21px;"><strong>Reminder:</strong> <span style="line-height:21px;">The same build rules apply to '</span><span style="line-height:21px;">release</span><span style="line-height:21px;">' branches as the 'trunk' branch</span><span style="line-height:21px;">. Review </span>our rule <a href="/do-you-know-when-to-branch">Do You Know When To Branch?</a> for more information on the best branching strategy.  </span></div><div><span style="line-height:21px;"><br></span></div><p><strong>Important: </strong>Gate Builds are bad! Some people believe in having a build that stops developers checking in code unless the build succeeds. See our rule on <a href="/do-you-know-that-gated-checkins-mask-dysfunction">Do You Know That Gated Checkins Mask Dysfunction?</a></p> 
-<img class="ms-rteCustom-ImageArea" src="ControlTestAndData.jpg" alt="" /> 
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure: You can control what tests are run and what data is collected while they are running.</font> Note: We do not run all the tests every time because of the time consuming nature of running some tests, but ALL tests should be run overnight. 
-<br>Note: If you had a really large project with thousands of tests including long running Load tests you may need to add a Weekly build to the mix. 
-<br>
-<img class="ms-rteCustom-ImageArea" src="BuildStatus01.jpg" alt="" /> <font class="ms-rteCustom-FigureBad" size="+0">Figure: Bad example, you can't tell what these builds do if they are in a larger list </font>
-<img class="ms-rteCustom-ImageArea" src="BuildStatus02.jpg" alt="" />
-<font class="ms-rteCustom-FigureGood" size="+0">Figure: Good example, you know exactly what project, branch and type of build these are for. </font>
+You should always have two builds on your team project. These should be setup and tested using an empty solution before you write any code at all.
+
+<!--endintro-->
+
+![](Builds.jpg) <font class="ms-rteCustom-FigureNormal">Figure: Two builds named in the format [TeamProject].[AreaPath]_[Branch].|CI|Nightly] for every branch.</font> These builds should use the same XAML build workflow; however you may set them up to run a different set of tests depending on the time it takes to run a full build.  
+
+* 
+* **CI** - This should run all Unit Tests and all of the automated UI tests. It is run after a successful developer check-in.
+ **Note:** This build should take no more than 10 minutes to run.
+* **Nightly** - The Nightly build should run all of the Unit Tests, all of the Automated UI tests and all of the Load and Performance tests. The nightly build is time consuming and will run but once a night. Packaging of your Product for testing the next day may be done at this stage as well.
+ **Note:** This build can take as long as it needs to - of course more than 24 hours is too long.
 
 
+ **Reminder:** The same build rules apply to 'release' branches as the 'trunk' branch. Review our rule [Do You Know When To Branch?](/do-you-know-when-to-branch) for more information on the best branching strategy.  
+
+
+
+
+**Important:** Gate Builds are bad! Some people believe in having a build that stops developers checking in code unless the build succeeds. See our rule on [Do You Know That Gated Checkins Mask Dysfunction?](/do-you-know-that-gated-checkins-mask-dysfunction)
+
+![](ControlTestAndData.jpg)<font class="ms-rteCustom-FigureNormal">Figure: You can control what tests are run and what data is collected while they are running.</font> Note: We do not run all the tests every time because of the time consuming nature of running some tests, but ALL tests should be run overnight.  
+Note: If you had a really large project with thousands of tests including long running Load tests you may need to add a Weekly build to the mix.  
+
+![](BuildStatus01.jpg) <font class="ms-rteCustom-FigureBad">Figure: Bad example, you can't tell what these builds do if they are in a larger list </font>
+![](BuildStatus02.jpg)<font class="ms-rteCustom-FigureGood">Figure: Good example, you know exactly what project, branch and type of build these are for. </font>
