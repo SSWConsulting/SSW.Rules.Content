@@ -14,10 +14,5 @@ related: []
 
 ---
 
-
-As useful as email signatures are for promoting your brand, using images in your signatures is a bad idea. To many recipients this can appear to be an attachment to the email. This will annoy some users, so it's better to keep your signatures as HTML or just plain text.
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+As useful as email signatures are for promoting your brand, using images in your signatures is a bad idea. To many recipients this can appear to be an attachment to the email. This will annoy some users, so it's better to keep your signatures as HTML or just plain text.  
+<!--endintro-->
