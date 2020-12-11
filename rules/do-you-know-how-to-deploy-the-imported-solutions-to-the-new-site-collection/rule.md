@@ -12,17 +12,11 @@ related: []
 
 ---
 
+Solutions must be deployed to the new site collection  **before** the content database is resorted to the SharePoint 2010/2013/2016 server:
+
+1. Open  **SharePoint Central Administration** |  **System Settings** |  **Manage Farm Solutions**
+2. Click on  **Deploy Solution**
+3. Refer to the table you completed in the rule [Do you confirm your list of installed Solutions](/Pages/Do-you-confirm-your-list-of-installed-SharePoint-2007-Solutions.aspx) and deploy the solutions to the same site collections they were deployed to on the SharePoint 2007/2010/2013 server.
 
 
-  <p>​Solutions must be deployed to the new site collection <b>before</b> the content database is resorted to the SharePoint 2010/2013/2016&#160;server&#58;<br>
-</p>
-<ol>
-    <li>Open <b>SharePoint Central Administration</b> | <b>System Settings</b> | <b>Manage Farm Solutions</b></li>
-    <li>Click on <b>Deploy Solution</b></li>
-    <li>Refer to the table you completed in the rule <span style="text-decoration&#58;underline;"><a href="/Pages/Do-you-confirm-your-list-of-installed-SharePoint-2007-Solutions.aspx"><span style="text-decoration&#58;underline;">Do you confirm your list of installed Solutions</span></a></span> and deploy the solutions to the same site collections they were deployed to on the SharePoint 2007/2010/2013​​&#160;server.</li>
-</ol>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
