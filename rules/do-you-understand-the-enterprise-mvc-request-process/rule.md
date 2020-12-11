@@ -12,15 +12,8 @@ related: []
 
 ---
 
-
-<img alt="inject" src="request-process-bad.jpg" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureBad">Figure: Bad Example – The sample applications  do not include the concept of a business </span>
-
-<img alt="inject" src="request-process-good.jpg" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureGood">Figure: Good Example – An enterprise solution should include a business layer and a data layer abstraction</span>
-
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+[[badExample]]
+| ![The sample applications  do not include the concept of a business](request-process-bad.jpg)
+[[goodExample]]
+| ![An enterprise solution should include a business layer and a data layer abstraction](request-process-good.jpg)
+<!--endintro-->
