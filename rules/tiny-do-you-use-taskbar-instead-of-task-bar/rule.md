@@ -11,8 +11,8 @@ related: []
 ---
 
 
-​​This is a common item that trips people up&#58; taskbar is one word, not two.&#160;
+​​This is a common item that trips people up: taskbar is one word, not two. 
 <br><excerpt class='endintro'></excerpt><br>
-<p>​<img src="/PublishingImages/taskbar-not-task-bar.gif" alt="Taskbar is one word, not two " style="margin&#58;5px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - You should use the &quot;taskbar&quot; over &quot;task bar&quot;​<br></dd>
+<p>​<img src="taskbar-not-task-bar.gif" alt="Taskbar is one word, not two " style="margin:5px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure: Good Example - You should use the "taskbar" over "task bar"​<br></dd>
 
 
