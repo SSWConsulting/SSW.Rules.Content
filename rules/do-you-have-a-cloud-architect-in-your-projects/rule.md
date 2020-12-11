@@ -12,13 +12,66 @@ related: []
 
 ---
 
+The goal of a modern complex software project is to build software with the best software architecture and great cloud architecture. Software developers should be focusing on good code and good software architecture. Azure and AWS are big beasts and it should be a specialist responsibility.
 
-<p class="ssw15-rteElement-P">​The goal of a modern complex software project is to build software with the best software architecture and great cloud architecture. Software developers should be focusing on good code and good software architecture. Azure and AWS are big beasts and it should be a specialist responsibility.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https://www.youtube.com/embed/fkmfZSvW4qM" frameborder="0"></iframe> </div><p class="ssw15-rteElement-P">​Many projects for budget reasons, have the lead developer making cloud choices. This runs the risk of choosing the wrong services and baking in bad architecture. The associated code is hard and expensive to change, and also the monthly bill can be higher than needed.<br></p><p class="ssw15-rteElement-P">The focus must be to build solid foundations and a rock-solid API. The reality is even 1 day of a Cloud Architect at the beginning of a project, can save $100K later on.<br></p><p class="ssw15-rteElement-GreyBox">
-   <b>2 strong developers</b> (say Solution Architect and Software Developer)<br>No Cloud Architect<br>No SpendOps <br></p><dd class="ssw15-rteElement-FigureBad">Figure: Bad example of a team for a new project​​<br></dd><p class="ssw15-rteElement-GreyBox">
-   <b>2 strong developers</b> (say Solution Architect and Software Developer)<br><b>+ 1 Cloud Architect </b>(say 1 day per week, or 1 day per fortnight, or even 1 day per month) after choosing the correct services, then looks after the 3 horsemen:<br><span style="background-color:initial;">* Load/Performance T</span><span style="background-color:initial;">e</span><span style="background-color:initial;">sting<br></span>* 
-   <span style="background-color:initial;">Security choices<br></span><span style="background-color:initial;">* SpendOps</span></p><p></p><dd class="ssw15-rteElement-FigureGood">Figure: Good example of a team for a new project​<br><br></dd><p class="ssw15-rteElement-P">Problems that can happen without a Cloud Architect:​<br></p><p></p><ul><li> Wrong tech chosen e.g. nobody wants to accidentally build and need to throw away<br></li><li> Wrong DevOps e.g. using plain old ARM templates that are not easy to maintain<br></li><li> Wrong Data story e.g. defaulting to SQL Server, rather than investigating other data options</li><li> Wrong Compute model e.g. Choosing a fixed price, always-on, slow scaling WebAPI for sites that have unpredictable and large bursts of traffic<br></li><li> Security e.g. this word should be enough</li><li> ​Load/Performance e.g. not getting the performance to $ spend ratio right<br></li></ul>Finally, at the end of a project, you should go through a "Go-Live Audit". The Cloud Architect should review and sign off that the project is good to go. They mostly check the 3 horsemen (load, security, and cost).<br>
-<p></p><dl class="image"><dt><img src="MS Cloud Design Patterns Infographic SSW Edited.png" alt="MS Cloud Design Patterns Infographic SSW Edited.png" style="margin:5px;width:750px;height:515px;" /><br><span style="color:#555555;font-weight:bold;">Figure: Choosing the right services on Azure requires experience. <a href="MS Cloud Design Patterns Infographic SSW Edited.png">View large image​</a></span><br></dt></dl>
+<!--endintro-->
 
 
+`youtube: https://www.youtube.com/embed/fkmfZSvW4qM`
+ 
+
+Many projects for budget reasons, have the lead developer making cloud choices. This runs the risk of choosing the wrong services and baking in bad architecture. The associated code is hard and expensive to change, and also the monthly bill can be higher than needed.
+
+The focus must be to build solid foundations and a rock-solid API. The reality is even 1 day of a Cloud Architect at the beginning of a project, can save $100K later on.
+
+
+::: greybox
+**2 strong developers** (say Solution Architect and Software Developer)
+No Cloud Architect
+No SpendOps 
+
+:::
+
+
+
+::: bad
+Figure: Bad example of a team for a new project
+
+:::
+
+
+
+::: greybox
+**2 strong developers** (say Solution Architect and Software Developer)
+ **+ 1 Cloud Architect** (say 1 day per week, or 1 day per fortnight, or even 1 day per month) after choosing the correct services, then looks after the 3 horsemen:
+\* Load/Performance Testing
+\*     Security choices
+\* SpendOps
+:::
+
+
+
+
+
+::: good
+Figure: Good example of a team for a new project
+
+
+:::
+
+
+Problems that can happen without a Cloud Architect:
+
+
+
+* Wrong tech chosen e.g. nobody wants to accidentally build and need to throw away
+* Wrong DevOps e.g. using plain old ARM templates that are not easy to maintain
+* Wrong Data story e.g. defaulting to SQL Server, rather than investigating other data options
+* Wrong Compute model e.g. Choosing a fixed price, always-on, slow scaling WebAPI for sites that have unpredictable and large bursts of traffic
+* Security e.g. this word should be enough
+* Load/Performance e.g. not getting the performance to $ spend ratio right
+
+Finally, at the end of a project, you should go through a "Go-Live Audit". The Cloud Architect should review and sign off that the project is good to go. They mostly check the 3 horsemen (load, security, and cost).
+
+
+<dl class="image">&lt;dt&gt;<img src="MS Cloud Design Patterns Infographic SSW Edited.png" alt="MS Cloud Design Patterns Infographic SSW Edited.png" style="margin:5px;width:750px;height:515px;"><br><span style="color:#555555;font-weight:bold;">Figure: Choosing the right services on Azure requires experience. <a href="MS Cloud Design Patterns Infographic SSW Edited.png">View large image</a></span><br>&lt;/dt&gt;</dl>
