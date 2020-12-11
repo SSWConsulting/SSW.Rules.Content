@@ -12,9 +12,10 @@ related: []
 
 ---
 
+This is how you free up more disk space on servers: 
+<!--endintro-->
 
-This is how you free up more disk space on servers&#58;​
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Check sql backups</li><li>Check sql logs</li><li>Use TreeSizePRO to find disk spaces issues</li><li>Use ​<a href="http&#58;//www.piriform.com/ccleaner">CCleaner</a> to automatically clean any temporary or junk files on the server</li></ol>
-
-
+1. Check sql backups
+2. Check sql logs
+3. Use TreeSizePRO to find disk spaces issues
+4. Use [CCleaner](http&#58;//www.piriform.com/ccleaner) to automatically clean any temporary or junk files on the server
