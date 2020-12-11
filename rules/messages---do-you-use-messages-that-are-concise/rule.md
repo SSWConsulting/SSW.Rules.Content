@@ -10,33 +10,35 @@ related: []
 
 ---
 
+It is important to use terminology that your users will understand. Do not to use technical terms that may confuse your users. Use consistent words and phrasing for similar situations. For example, the following phrases have the same meaning which is the best one?
 
-<p>It is important to use terminology that your users will understand. Do not to use technical terms that may confuse your users. Use consistent words and phrasing for similar situations. For example, the following phrases have the same meaning which is the best one?</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<ul><li>Not enough memory.</li>
-<li>There is not enough memory.</li>
-<li>There is not enough free memory.</li>
-<li>Insufficient memory.</li>
-<li>No memory was available.</li>
-<li>Your computer does not have sufficient memory.</li>
-<li>Memory resource is not enough.</li>
-<li>Ran out of memory.</li>
-<li>You may be out of memory.</li></ul>
-<dl class="badImage"><dt><img src="../../assets/Bad-MessageBoxZango.jpg" alt="" /></dt>
+<!--endintro-->
+
+* Not enough memory.
+* There is not enough memory.
+* There is not enough free memory.
+* Insufficient memory.
+* No memory was available.
+* Your computer does not have sufficient memory.
+* Memory resource is not enough.
+* Ran out of memory.
+* You may be out of memory.
+
+<dl class="badImage">&lt;dt&gt;<img src="../../assets/Bad-MessageBoxZango.jpg" alt="">&lt;/dt&gt;
 <dd>Figure: Bad Example - Is it OK to Cancel?</dd></dl>
-<div>Microsoft uses this one:</div>
-<dl class="goodImage"><dt><img src="../../assets/NotEnoughMemory.gif" alt="Not Enough Memory" /></dt>
+Microsoft uses this one:
+<dl class="goodImage">&lt;dt&gt;<img src="../../assets/NotEnoughMemory.gif" alt="Not Enough Memory">&lt;/dt&gt;
 <dd>Figure: Good Example - Microsoft error message is concise</dd></dl>
-<div>Some other message types that Microsoft uses are:</div>
-<table cellspacing="0" cellpadding="3" border="0" class="clsSSWTable"><tbody><tr><th>Message type</th>
-<th>Sample message</th></tr>
-<tr><td>Not enough disk space</td>
-<td>There is not enough disk space to complete the operation. Delete some unneeded files on your hard disk, and then try again</td></tr>
-<tr><td>File not found</td>
-<td>The program cannot find the file filename</td></tr>
-<tr><td>Re-running setup</td>
-<td>The filename file is missing. Run Setup again to reinstall the missing file. For more information about running Setup, press F1. </td></tr></tbody></table>
-<div>Consider using or adapting them in your application in similar scenarios. Only include the information that the user needs and will understand.</div>
-<div>This also applies to general design principles, read our rule on <a href="/less-is-more-do-you-know-people-scan-not-read">Less is more: do you know people scan, not read?</a></div>
+Some other message types that Microsoft uses are:
 
 
+| Message type | Sample message |
+| --- | --- |
+| Not enough disk space | There is not enough disk space to complete the operation. Delete some unneeded files on your hard disk, and then try again |
+| File not found | The program cannot find the file filename |
+| Re-running setup | The filename file is missing. Run Setup again to reinstall the missing file. For more information about running Setup, press F1.  |
+
+
+Consider using or adapting them in your application in similar scenarios. Only include the information that the user needs and will understand.
+
+This also applies to general design principles, read our rule on [Less is more: do you know people scan, not read?](/less-is-more-do-you-know-people-scan-not-read)
