@@ -14,16 +14,14 @@ related: []
 
 ---
 
+Consistent naming is important so that users of your GitHub account can easily find what they are looking for and so that you appear professional.
 
-<p>Consistent naming is important so that users of your GitHub account can easily find what they are looking for and so that you appear professional.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img src="name-github-bad.png" alt="" />
-   </dt><dd>Figure: Bad example – Repository names are not consistently formatted</dd></dl><dl><dl class="image"><dt>
-            <img src="name-github-ok.png" alt="" />
-         </dt><dd>Figure: OK example – Repositories are following the lower-cased hyphenated format that is common for open source projects</dd></dl><dl><dl class="goodImage"><dt>
-                  <img src="name-github-good.png" alt="" />
-               </dt><dd>Figure: ​​​Good example – Repository names are name-spaced in the format [CompanyName].[ProjectName]</dd><dl>
-​</dl></dl></dl></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img src="name-github-bad.png" alt="">
+   &lt;/dt&gt;<dd>Figure: Bad example – Repository names are not consistently formatted</dd></dl><dl><dl class="image">&lt;dt&gt;
+            <img src="name-github-ok.png" alt="">
+         &lt;/dt&gt;<dd>Figure: OK example – Repositories are following the lower-cased hyphenated format that is common for open source projects</dd></dl><dl><dl class="goodImage">&lt;dt&gt;
+                  <img src="name-github-good.png" alt="">
+               &lt;/dt&gt;<dd>Figure: Good example – Repository names are name-spaced in the format [CompanyName].[ProjectName]</dd><dl>
+</dl></dl></dl></dl>
