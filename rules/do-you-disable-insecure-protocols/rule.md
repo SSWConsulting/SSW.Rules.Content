@@ -14,14 +14,17 @@ related: []
 
 ---
 
-
-<div>​For better server security (especially regarding public facing servers​), certain security protocols and ciphers should be disabled.<br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Using a tool called "IIS Crypto 2.0" by 
-   <a href="https://www.nartac.com/Products/IISCrypto">Nartac</a>, these protocols can be easily disabled instead of having to manually edit the Registry Keys.<br></p><ol><li>Download IIS Crypto 2.0 (<a href="https://www.nartac.com/Products/IISCrypto/Download">https://www.nartac.com/Products/IISCrypto/Download </a>)<br></li><li>Run this on the server you wish to lock down<br></li><li>Select the best practices button 
-      <dl class="goodImage"><dt>
-            <img src="IIS Crypto 2.0.png" alt="IIS Crypto 2.0.png" style="width:750px;" />
-         </dt><dd> Figure: Good example – TLS should be enabled and SSL should be disabled </dd></dl></li><li>Ensure that TLS 1.0 is also disabled and hit apply 
-      <br></li><li>The server will need to be rebooted before the settings take effect​<br></li></ol>
+For better server security (especially regarding public facing servers), certain security protocols and ciphers should be disabled.
 
 
+<!--endintro-->
+
+Using a tool called "IIS Crypto 2.0" by     [Nartac](https://www.nartac.com/Products/IISCrypto), these protocols can be easily disabled instead of having to manually edit the Registry Keys.
+
+1. Download IIS Crypto 2.0 (https://www.nartac.com/Products/IISCrypto/Download)
+2. Run this on the server you wish to lock down
+3. Select the best practices button <br>      <dl class="goodImage">&lt;dt&gt;
+            <img src="IIS Crypto 2.0.png" alt="IIS Crypto 2.0.png" style="width:750px;">
+         &lt;/dt&gt;<dd> Figure: Good example – TLS should be enabled and SSL should be disabled </dd></dl>
+4. Ensure that TLS 1.0 is also disabled and hit apply <br>
+5. The server will need to be rebooted before the settings take effect
