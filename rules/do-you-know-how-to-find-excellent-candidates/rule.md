@@ -16,9 +16,24 @@ related: []
 
 ---
 
-
-​​Do you have trouble finding amazing developers?! Here is how we do it!<br><div><br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​At SSW we do not use recruiters, instead we rely on word of mouth for referrals, or we advertise a position using LinkedIn. We find that the filters on LinkedIn are a good way of attracting people with the correct skills. You can choose up to 10 skills per ad, saving you a lot of time.<br></p><p>We also try to make our ads interesting and fun to help them stand out. For example, when we needed a new State Manager for Brisbane, we needed someone with a Business mind, who also knew our industry inside and out. So we created the title "A Business Guy (once a wannabe developer)". This got people's attention, and got us the right person for the job!<br></p><dl class="ssw15-rteElement-ImageArea"><img src="Business Guy.png" alt="Business Guy.png" style="margin:5px;width:750px;height:680px;" /></dl><dd class="ssw15-rteElement-FigureGood">Fi​g​u​re: Good example - Our "Business Guy" role as shown on our website<br></dd><dl class="ssw15-rteElement-ImageArea"><br></dl><p>Once we have our candidates, we call them for a chat, put them through a communications challenge, and then a coding challenge. This ensures that we find people who are the right cultural fit for our company, as well as a kick-arse consultant and coder.<br></p><dl class="ssw15-rteElement-ImageArea"><img src="Recruitmentbright.jpg" alt="Recruitmentbright.jpg" style="margin:5px;width:600px;height:523px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Image: SSW's recruitment process​<br></dd><p><br></p>
+Do you have trouble finding amazing developers?! Here is how we do it!
 
 
+
+
+<!--endintro-->
+
+At SSW we do not use recruiters, instead we rely on word of mouth for referrals, or we advertise a position using LinkedIn. We find that the filters on LinkedIn are a good way of attracting people with the correct skills. You can choose up to 10 skills per ad, saving you a lot of time.
+
+We also try to make our ads interesting and fun to help them stand out. For example, when we needed a new State Manager for Brisbane, we needed someone with a Business mind, who also knew our industry inside and out. So we created the title "A Business Guy (once a wannabe developer)". This got people's attention, and got us the right person for the job!
+<dl class="ssw15-rteElement-ImageArea"><img src="Business Guy.png" alt="Business Guy.png" style="margin:5px;width:750px;height:680px;"></dl>
+
+::: good
+Figure: Good example - Our "Business Guy" role as shown on our website
+
+:::
+
+<dl class="ssw15-rteElement-ImageArea"><br></dl>
+Once we have our candidates, we call them for a chat, put them through a communications challenge, and then a coding challenge. This ensures that we find people who are the right cultural fit for our company, as well as a kick-arse consultant and coder.
+<dl class="ssw15-rteElement-ImageArea"><img src="Recruitmentbright.jpg" alt="Recruitmentbright.jpg" style="margin:5px;width:600px;height:523px;"></dl> **Image: SSW's recruitment process
+**
