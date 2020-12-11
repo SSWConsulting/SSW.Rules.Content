@@ -12,11 +12,18 @@ related: []
 
 ---
 
+Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in his Pluralsight course: [The Art of Speaking: Scott Hanselman](https&#58;//www.pluralsight.com/courses/hanselman-speaking)
 
-<p>Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in his Pluralsight course&#58; <a href="https&#58;//www.pluralsight.com/courses/hanselman-speaking">The Art of Speaking&#58; Scott Hanselman</a></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>​Don't touch your face</li><li>Don't put your hands in your pockets, or if you do, don’t have your keys in your pockets</li><li>Don't rock back and forth</li><li>If you’re moving, move deliberately
-<ul><li>When you're walking, they’ll look at you.&#160;</li><li>When you stop and turn, they’ll look at the slides​<br></li></ul></li><li>Stay focussed on topic. Don’t just ramble on</li><li>Put yourself in the audiences shoes
-<ul><li>Can they see and hear you?</li><li>Can they read your screen?</li></ul></li><li>Be prepared for demo failures​<br></li></ol>
+<!--endintro-->
 
-
+1. Don't touch your face
+2. Don't put your hands in your pockets, or if you do, don’t have your keys in your pockets
+3. Don't rock back and forth
+4. If you’re moving, move deliberately
+    * When you're walking, they’ll look at you.
+    * When you stop and turn, they’ll look at the slides
+5. Stay focussed on topic. Don’t just ramble on
+6. Put yourself in the audiences shoes
+    * Can they see and hear you?
+    * Can they read your screen?
+7. Be prepared for demo failures
