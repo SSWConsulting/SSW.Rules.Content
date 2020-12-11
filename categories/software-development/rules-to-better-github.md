@@ -19,6 +19,5 @@ index:
 - product-owner---do-you-know-how-to-update-the-backlog
 
 ---
-
 Rules to Better GitHub
 
