@@ -14,10 +14,24 @@ related: []
 
 ---
 
+Facebook has a call-to-action feature that helps Pages drive business objectives. These call-to-action buttons link to any destination on or off Facebook that aligns with a business’s goals.
 
-<p class="ssw15-rteElement-P">Facebook has a call-to-action feature that helps Pages drive business objectives. These call-to-action buttons link to any destination on or off Facebook that aligns with a business’s goals.<br></p><p class="ssw15-rteElement-P">Page admins can select from a group of call-to-action buttons:</p><p></p><ul class="ssw15-rteElement-P"><li><span style="line-height:20px;">B</span><span style="line-height:20px;">ook Now</span><br></li><li><span style="line-height:20px;">Contact Us</span><br></li><li><span style="line-height:20px;">Use App</span><br></li><li><span style="line-height:20px;">Play Game</span><br></li><li><span style="line-height:20px;">Shop Now</span><br></li><li><span style="line-height:20px;">Sign Up</span><br></li><li><span style="line-height:20px;">Watch Video</span><br></li></ul><p></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​For services or apps, you should use the "Watch Video" one. <span style="font-family:arial, helvetica, sans-serif;line-height:17px;">Video is flooding the online marketplace and is quickly becoming a marketing standard to convey your message.​ ​If you don't have a video yet, visit 
-      <a href="http://www.ssw.com.au/ssw/Consulting/Video-Production/" target="_blank">SSW's Video Services pages</a> to make a creative and engaging </span>​video for your company.</p><dl class="goodImage"><dt><img src="watch-video-facebook.png" alt="watch-video-facebook.png" /></dt><dd>Figure: Good Example - Take the Facebook visitor to watch your video​<br></dd></dl>
+Page admins can select from a group of call-to-action buttons:
 
 
+
+* Book Now
+* Contact Us
+* Use App
+* Play Game
+* Shop Now
+* Sign Up
+* Watch Video
+
+
+
+
+<!--endintro-->
+
+For services or apps, you should use the "Watch Video" one. Video is flooding the online marketplace and is quickly becoming a marketing standard to convey your message. If you don't have a video yet, visit <br>      [SSW's Video Services pages](http://www.ssw.com.au/ssw/Consulting/Video-Production/) to make a creative and engaging video for your company.
+<dl class="goodImage">&lt;dt&gt;<img src="watch-video-facebook.png" alt="watch-video-facebook.png">&lt;/dt&gt;<dd>Figure: Good Example - Take the Facebook visitor to watch your video<br></dd></dl>
