@@ -12,10 +12,10 @@ related: []
 
 ---
 
+ASP.NET MVC provides the [AuthorizeAttribute](https&#58;//msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx) which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged-in user exists in code as the authorisation itself doesn’t need to be repeated.
 
-<p>ASP.NET MVC provides the <a href="https&#58;//msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx" target="_blank">AuthorizeAt​tribute</a> which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged-in user exists in code as the authorisation itself doesn’t need to be repeated.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><div class="greyBox"><pre>public ActionResult Delete(string tagName)
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<br><br>::: greybox<br><pre>public ActionResult Delete(string tagName)
 &#123;
     if (!Request.RequestContext.HttpContext.User.IsInRole(&quot;CanDeleteTags&quot;))
     &#123;
@@ -24,12 +24,10 @@ related: []
     // delete view
     return View();
 &#125;
-</pre></div></dt><dd>Figure&#58; Bad Example – Checking for an appropriate role in code leads to repetition </dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>[Authorize(Roles = &quot;CanDeleteTags&quot;)]
+</pre><br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Bad Example – Checking for an appropriate role in code leads to repetition </dd></dl><dl class="goodImage">&lt;dt&gt;<br><br>::: greybox<br><pre>[Authorize(Roles = &quot;CanDeleteTags&quot;)]
 public ActionResult Delete(string tagName)
 &#123;
     // ...delete tag
     return View();
 &#125;
-</pre></div></dt><dd>Figure&#58; Good Example – Using the Authorize attribute to check for appropriate roles</dd></dl>
-
-
+</pre><br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Good Example – Using the Authorize attribute to check for appropriate roles</dd></dl>
