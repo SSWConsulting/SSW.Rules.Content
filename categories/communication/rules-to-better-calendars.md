@@ -28,8 +28,10 @@ index:
 - calendar---does-your-calendar-always-accurately-show-where-you-are
 
 ---
-<p>​​It's important to use your calendar correctly as it's your main organizational​ tool and how others view your time.<br></p><p>Since calendars are often&#160;used with​ emails, you should also have a look at&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=9775587d-d391-4b7d-8654-96953eeb9cfc">Rules to Better Email</a>.<br></p>
-<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive">
-   <iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/hlhqV0LwNJ8" frameborder="0"></iframe>&#160;</div>
-<br>​<br>
+It's important to use your calendar correctly as it's your main organizational tool and how others view your time.
+
+Since calendars are often used with emails, you should also have a look at [Rules to Better Email](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=9775587d-d391-4b7d-8654-96953eeb9cfc).
+
+
+`youtube: https://www.youtube.com/embed/hlhqV0LwNJ8`
 
