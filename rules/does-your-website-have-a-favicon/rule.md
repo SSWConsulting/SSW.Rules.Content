@@ -14,17 +14,13 @@ related: []
 
 ---
 
+Don't forget to add a favicon to the address bar of your website! That extra bit of polish gives your site credibility.
 
-<p>
-      Don't forget to add a favicon to the address bar of your website! That extra bit of polish gives your site credibility.
-     </p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-      Simply add the following within the head tags on your document&#58;
-     </p><div class="code"><p class="ssw15-rteElement-CodeArea">
-      &lt;head&gt;<br>
-      &lt;LINK REL=&quot;SHORTCUT ICON&quot; HREF=&quot;/ssw/Images/icossw_v2.ico&quot;&gt;<br>
-      &lt;/head&gt;</p>
-                    </div>
+<!--endintro-->
+
+Simply add the following within the head tags on your document:
 
 
+&lt;head&gt;
+       &lt;LINK REL="SHORTCUT ICON" HREF="/ssw/Images/icossw\_v2.ico"&gt;
+       &lt;/head&gt;
