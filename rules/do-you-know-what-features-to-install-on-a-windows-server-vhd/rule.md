@@ -12,22 +12,16 @@ related: []
 
 ---
 
+When you setup a new Windows Server VHD it will be lacking a few components that need to be installed so it can function as a personal computer as well as a presentation computer.  
+<!--endintro-->
 
-When you setup a new Windows Server VHD it will be lacking a few components that need to be installed so it can function as a personal computer as well as a presentation computer.
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <ol>
-    <li>Open <strong>Server Manager</strong> </li>
-    <li>Click on <strong>Add Features</strong> </li>
-    <li>Install <strong>Desktop Experience </strong>and <strong>Wireless LAN Service</strong> </li>
-</ol>
-<p>If you want to enable themes&#58;</p>
-<ol>
-    <li>Open <strong>services.msc </strong>and <strong>Enable </strong>the <strong>Themes </strong>service </li>
-    <li>Then go to the<strong> Start Menu </strong>and type <strong>Adjust the appearance and performance of Windows</strong> </li>
-    <li>Put the radio button in <strong>Adjust for best performance</strong> </li>
-</ol>
+1. Open  **Server Manager**
+2. Click on  **Add Features**
+3. Install  **Desktop Experience** and  **Wireless LAN Service**
 
 
+If you want to enable themes:
 
+1. Open  **services.msc** and  **Enable** the  **Themes** service
+2. Then go to the **Start Menu** and type  **Adjust the appearance and performance of Windows**
+3. Put the radio button in  **Adjust for best performance**
