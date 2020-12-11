@@ -12,10 +12,6 @@ related: []
 
 ---
 
+It's important that you review Microsoft KB Article [949256](http&#58;//support.microsoft.com/kb/949256)  for CRM 4.0 hotfix information, download the hotfixes and apply them to your server.
 
-<p>
-   <span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">​It's important that you review Microsoft KB Article&#160;</span><a href="http&#58;//support.microsoft.com/kb/949256" style="padding-right&#58;0px;padding-bottom&#58;0px;padding-left&#58;0px;font-family&#58;verdana, sans-serif;font-size&#58;12px;color&#58;purple;line-height&#58;16.7969px;">949256</a><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">&#160;​</span><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">&#160;for CRM 4.0 hotfix information, download the hotfixes and apply them to your server.</span>​</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
