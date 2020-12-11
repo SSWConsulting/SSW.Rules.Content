@@ -10,17 +10,9 @@ related: []
 
 ---
 
+It's crucial that contact details are placed exactly where the user expects to find       them - preferably on every page. People will often come to your site just to find       a phone number or an email address, so make sure they're search isn't harder than       it needs to be.
 
-<p>
-      It's crucial that contact details are placed exactly where the user expects to find
-      them - preferably on every page. People will often come to your site just to find
-      a phone number or an email address, so make sure they're search isn't harder than
-      it needs to be.
-     </p><p>
-      SSW has its contact details in the top navigation, which is found on all pages across
-      the site.
-     </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img border="1" src="../../assets/MarketingContactBar.gif" alt="" /></dt><dd>Figure: SSW's contact details on the web site</dd></dl>
+SSW has its contact details in the top navigation, which is found on all pages across       the site.
 
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img border="1" src="../../assets/MarketingContactBar.gif" alt="">&lt;/dt&gt;<dd>Figure: SSW's contact details on the web site</dd></dl>
