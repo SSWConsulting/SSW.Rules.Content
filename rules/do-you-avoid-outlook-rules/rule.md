@@ -14,9 +14,9 @@ related: []
 
 ---
 
+Some people make extensive use of the rules wizard so that as email messages arrive they already appear in the appropriately created folder.
 
-​Some people make extensive use of the rules wizard so that as email messages arrive they already appear in the appropriately created folder.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-Reference">&quot;I basically think this doesn't work as you never look at these emails.&quot;​<br><b>- Adam Cogan</b><br></p>
+<!--endintro-->
 
-
+"I basically think this doesn't work as you never look at these emails."
+ **- Adam Cogan**
