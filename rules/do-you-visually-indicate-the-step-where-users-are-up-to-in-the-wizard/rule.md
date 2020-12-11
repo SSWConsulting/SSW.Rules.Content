@@ -10,15 +10,13 @@ related: []
 
 ---
 
+In a wizard, a visual indication about the progress should be  provided so users know where they are up to. It should also let the user  know which steps have been completed and how far to go.
 
-<p>In a wizard, a visual indication about the progress should be 
-provided so users know where they are up to. It should also let the user
- know which steps have been completed and how far to go.</p><p>A good way to do this is use a left navigation bar with <strong>bold</strong> on the step they are currently at.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img alt="Microsoft FrontPage - Corporate Presence Web Wizard" src="../../assets/FrontPageWizard.gif" style="margin:5px;" /> 
-   </dt><dd>Figure: Bad Example - The progress bar does not indicate completed nor next steps</dd></dl><dl class="goodImage"><dt>
-      <img alt="Good Wizard example" src="../../assets/Wizard_1.jpg" style="margin:5px;" />
-   </dt><dd>Figure: Good Example - This wizard form shows all steps and indicates where the user is up to</dd></dl>
+A good way to do this is use a left navigation bar with  **bold** on the step they are currently at.
 
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; 
+      <img alt="Microsoft FrontPage - Corporate Presence Web Wizard" src="../../assets/FrontPageWizard.gif" style="margin:5px;"> 
+   &lt;/dt&gt;<dd>Figure: Bad Example - The progress bar does not indicate completed nor next steps</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img alt="Good Wizard example" src="../../assets/Wizard_1.jpg" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Good Example - This wizard form shows all steps and indicates where the user is up to</dd></dl>
