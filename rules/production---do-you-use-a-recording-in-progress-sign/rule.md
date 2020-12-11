@@ -12,13 +12,13 @@ related: []
 
 ---
 
-
-​Unwanted noises such as people walking and talking can ruin a recording. If you have this problem, the best way to avoid it is to use a recording in progress sign that informs people who are passing through the area that they need to be quite and/or leave the area.
-<br><excerpt class='endintro'></excerpt><br>
-<p> 
-   <img src="RecordingInProgress_BadExample.jpg" alt="RecordingInProgress_BadExample.jpg" class="ssw-rteStyle-ImageArea" style="margin:5px;width:593px;" />     
-<span class="ssw-rteStyle-FigureBad">Figure: Bad Example​ - This design does not imply a sense of alert​. You need something that is going to catch the attention of people and imply an important message.</span>​</p><p> 
-   <img class="ssw-rteStyle-ImageArea" alt="Recording sign 2.jpg" src="Recording sign 2.jpg" style="margin:5px;width:586px;height:418px;" />
-<span class="ssw-rteStyle-FigureGood" style="font-size:12px;font-weight:bold;">Figure: Good Example - this implies a sense of urgency, it implies 'we are recording so don't make noise or ruin the shoot in any way', instead of 'we are shooting and it's really cool so come check it out!'.​</span>​</p>
+Unwanted noises such as people walking and talking can ruin a recording. If you have this problem, the best way to avoid it is to use a recording in progress sign that informs people who are passing through the area that they need to be quite and/or leave the area. 
+<!--endintro-->
 
 
+[[badExample]]
+| ![This design does not imply a sense of alert. You need something that is going to catch the attention of people and imply an important message.](RecordingInProgress_BadExample.jpg)
+
+
+[[goodExample]]
+| ![this implies a sense of urgency, it implies 'we are recording so don't make noise or ruin the shoot in any way', instead of 'we are shooting and it's really cool so come check it out](Recording sign 2.jpg)!'.
