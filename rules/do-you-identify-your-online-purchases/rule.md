@@ -12,9 +12,6 @@ related: []
 
 ---
 
+When making an online purchase using the company account, remember to include  **your name** in the postal details so that the item is correctly identified and given to you. Having it sent to the company unidentified or under the boss's name can lead to confusion and the package may end up in limbo. 
 
-When making an online purchase using the&#160;company account,&#160;remember to include <b>your name</b> in the postal details so that the item is correctly identified and given to you. Having it sent to the company unidentified or under the boss's name​&#160;can lead to confusion and the package may end&#160;up in limbo.&#160;<br>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
