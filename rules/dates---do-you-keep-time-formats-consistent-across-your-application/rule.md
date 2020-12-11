@@ -10,14 +10,11 @@ related: []
 
 ---
 
+Time formats should be consistent across your application, to give the                      application a very professional and consistent look.
 
-<p>Time formats should be consistent across your application, to give the 
-                    application a very professional and consistent look.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img alt="Bad Example" src="../../assets/BadExampleTP.gif" style="margin:5px;width:550px;" />
-   </dt><dd> Figure: Bad Example - Three screens with inconsistent time formats</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Good Example" src="../../assets/GoodExampleTP.gif" style="margin:5px;" />
-   </dt><dd> Figure: Good Example - Three screens with consistent formats</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; 
+      <img alt="Bad Example" src="../../assets/BadExampleTP.gif" style="margin:5px;width:550px;">
+   &lt;/dt&gt;<dd> Figure: Bad Example - Three screens with inconsistent time formats</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img alt="Good Example" src="../../assets/GoodExampleTP.gif" style="margin:5px;">
+   &lt;/dt&gt;<dd> Figure: Good Example - Three screens with consistent formats</dd></dl>
