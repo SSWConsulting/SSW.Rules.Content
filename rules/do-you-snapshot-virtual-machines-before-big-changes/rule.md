@@ -12,22 +12,14 @@ related: []
 
 ---
 
+Snapshots are a very easy way to back up a system before a big change is made. They can also be easily restored if something goes wrong during the change.
+
+<!--endintro-->
+
+1. In the  **Hyper-V Manager** , ensure the Virtual Machine has the state of  **Off**
+2. Right click on the virtual machine you wish to snapshot and click  **Snapshot**
+3. The snapshot should run very quickly and you will notice the snapshot in the  **Snapshots** area of the  **Hyper-V Manager
 
 
-  <p>Snapshots are a very easy way to back up a system before a big change is made. They can also be easily restored if something goes wrong during the change.<br></p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <ol>
-    
-    <li>In the <strong>Hyper-V Manager</strong>, ensure the Virtual Machine has the state of <strong>Off</strong></li>
-    <li>Right click on the virtual machine you wish to snapshot and click <strong>Snapshot</strong></li>
-    <li>The snapshot should run very quickly and you will notice the snapshot in the <strong>Snapshots </strong>area of the <strong>Hyper-V Manager<br>
-    <br>
-    <img alt="You will see the snapshots associated with a Virtual Machine when you click on them" src="snapshot-while-off.jpg" /></strong></li>
-    <font class="ms-rteCustom-FigureGood" size="+0"><strong>You will see the snapshots associated with a Virtual Machine when you click on them</strong></font>
-    
-</ol>
-
-
-
+![](snapshot-while-off.jpg)**
+<font class="ms-rteCustom-FigureGood"> <strong>You will see the snapshots associated with a Virtual Machine when you click on them</strong> </font>
