@@ -12,10 +12,10 @@ related: []
 
 ---
 
+When the Web API creates a resource, it should include the URI of the new resource in the Location header of the response.
 
-<p>When the Web API creates a resource, it should include the URI of the new resource in the Location header of the response.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><p class="ssw15-rteElement-CodeArea">public Product PostProduct(Product item)<br> &#123;<br> item = repository.Add(item);<br> return item;<br> &#125;&#160;​</p></dt><dd>Figure&#58; Bad Example – The response does not contain a reference to the location of the new resource </dd></dl><dl class="goodImage"><dt><p class="ssw15-rteElement-CodeArea">public HttpResponseMessage PostProduct(Product item)<br>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<p class="ssw15-rteElement-CodeArea">public Product PostProduct(Product item)<br> &#123;<br> item = repository.Add(item);<br> return item;<br> &#125;&#160;</p>&lt;/dt&gt;<dd>Figure&#58; Bad Example – The response does not contain a reference to the location of the new resource </dd></dl><dl class="goodImage">&lt;dt&gt;<p class="ssw15-rteElement-CodeArea">public HttpResponseMessage PostProduct(Product item)<br>
 &#123;<br>
     item = repository.Add(item);<br>
     var response = Request.CreateResponse(HttpStatusCode.Created, item);<br><br>
@@ -24,6 +24,4 @@ related: []
     response.Headers.Location = new Uri(uri);<br>
     return response;<br>
 &#125;
-</p></dt><dd>Figure&#58; Good Example – The response message contains a link in the header to the created resource (and the “Created” status code is returned )​</dd></dl>
-
-
+</p>&lt;/dt&gt;<dd>Figure&#58; Good Example – The response message contains a link in the header to the created resource (and the “Created” status code is returned )</dd></dl>
