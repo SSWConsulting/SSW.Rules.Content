@@ -74,6 +74,22 @@ index:
 - do-you-know-that-gated-checkins-mask-dysfunction
 
 ---
-<p>​​​​​​​​​​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Scrum.aspx">visit our Scrum​ consulting page​​</a>&#160;and book in&#160;a consultant.​​<br></p>
+If you still need help, [visit our Scrum consulting page](https://www.ssw.com.au/ssw/Consulting/Scrum.aspx) and book in a consultant.
 
+SSW's Rules to Better [Scrum](http://www.ssw.com.au/ssw/Consulting/Scrum.aspx) allows businesses to address their most important challenges first and respond quickly to change. Our rules advocate software consultants working on-site, or on the phone, so long as there is close consultation with business users, with the goal to become integrated members of the client's team.
+
+
+
+> Software must help a business become more efficient and build better relationships with their clients. Business need software to be produced cost-effectively and quickly. Simple steps upfront stop software being slow to build and difficult to change.
+> 
+> Read our rules on Scrum (project management) for some simple tips before starting your next project.
+
+
+Adam Cogan, SSW Chief Architect
+ 
+<dl class="image"> 
+   &lt;dt&gt; 
+      <img src="ProjectManagementSummary_Small.jpg" border="0" alt="" style="margin: 5px; width: 600px; height: 461px;">
+   &lt;/dt&gt; 
+   <dd>Figure: Classic stories of Project Management </dd> </dl>
 
