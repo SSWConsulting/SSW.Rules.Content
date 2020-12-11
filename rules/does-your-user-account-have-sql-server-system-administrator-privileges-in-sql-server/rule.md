@@ -12,9 +12,8 @@ related: []
 
 ---
 
+If you’re upgrading TFS 2010 to 2012, it’s highly recommended that you assign sysadmin privileges to the user account that’s doing the upgrade.
 
-<p>If you’re upgrading TFS 2010 to 2012, it’s highly recommended that you assign sysadmin privileges to the user account that’s doing the upgrade.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Some database upgrade steps involve ALTER DATABASE statements and other commands that can’t be done by a normal user.  If a step fails, you are likely to end up with a corrupted Configuration database (so you have to restore from backup).​​​</p>
+<!--endintro-->
 
-
+Some database upgrade steps involve ALTER DATABASE statements and other commands that can’t be done by a normal user.  If a step fails, you are likely to end up with a corrupted Configuration database (so you have to restore from backup).
