@@ -10,14 +10,11 @@ related: []
 
 ---
 
+If you want to edit a single item in your form we suggest you use a  popup form. This gives each form a definite function and neat UI design.
 
-<p>If you want to edit a single item in your form we suggest you use a 
-popup form. This gives each form a definite function and neat UI design.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img alt="without popup form" src="../../assets/NonePopupEditForm.gif" style="margin:5px;" />
-   </dt><dd>Figure: Bad Example - Edit controls and main UI are messed up.</dd></dl><dl class="goodImage"><dt>
-      <img alt="with popup edit form" src="../../assets/PopupEditForm.gif" style="margin:5px;" />
-   </dt><dd>Figure: Good Example - Use a popup form to do edit.</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img alt="without popup form" src="../../assets/NonePopupEditForm.gif" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Bad Example - Edit controls and main UI are messed up.</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img alt="with popup edit form" src="../../assets/PopupEditForm.gif" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Good Example - Use a popup form to do edit.</dd></dl>
