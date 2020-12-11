@@ -12,18 +12,16 @@ related: []
 
 ---
 
+During the Sprint Review Meeting you should demo all features (Sprint goals expressed in PBIs) that you have been working on during the Sprint. Make sure to prepare a demo script, which you can follow easily, because you might be nervous. 
 
-​​During the Sprint Review Meeting you should demo all features (Sprint goals expressed in PBIs) that you have been working on during the Sprint. Make sure to prepare a demo script, which you can follow easily, because you might be nervous. <div><br>
-The demo script helps if you are going back and want to know what has been done during each Sprint and is nice for documentation purposes as well. 
-</div>
-<br><excerpt class='endintro'></excerpt><br>
-The demo script should include 3 parts:<br>
-<ol>
-    <li>Committed PBIs <br></li>
-    <li>Steps to show what has been done aka Demo script itself​ </li>
-    <li>Give an overview of upcoming PBIs, so that everyone has an idea before you go into the Sprint Planning Meeting </li>
-</ol>
-<img class="ms-rteCustom-ImageArea" src="StoreDemoScriptInTFS.jpg" alt="" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure: Store the demo scripts on TFS</font> 
+<br>The demo script helps if you are going back and want to know what has been done during each Sprint and is nice for documentation purposes as well. 
+
+<!--endintro-->
+ The demo script should include 3 parts:
+
+1. Committed PBIs
+2. Steps to show what has been done aka Demo script itself
+3. Give an overview of upcoming PBIs, so that everyone has an idea before you go into the Sprint Planning Meeting
 
 
-
+![](StoreDemoScriptInTFS.jpg) <font class="ms-rteCustom-FigureNormal">Figure: Store the demo scripts on TFS</font>
