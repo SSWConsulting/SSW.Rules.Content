@@ -15,10 +15,10 @@ related: []
 ---
 
 
-While &quot;OK&quot; buttons were the standard convention with operating systems of the past, web applications should&#160;use a more user-friendly approach to dialog boxes.
-Instead of &quot;OK&quot; buttons to confirm an action the users want, it’s more efficient and effective to give them button that is labeled with that&#160;specific action.
+While "OK" buttons were the standard convention with operating systems of the past, web applications should use a more user-friendly approach to dialog boxes.
+Instead of "OK" buttons to confirm an action the users want, it’s more efficient and effective to give them button that is labeled with that specific action.
 
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="/PublishingImages/OKBadExample.png" alt="Ok" /></dt><dd>Figure&#58; Bad example - web application&#160;button labeled as&#160;&quot;OK&quot;</dd></dl><dl class="goodImage"><dt>​<img src="/PublishingImages/OKGoodExample.png" alt="OK" /></dt><dd>Figure&#58; Good example -&#160;button is labeled with the specific action​</dd></dl>​​​​​
+<dl class="badImage"><dt>​<img src="OKBadExample.png" alt="Ok" /></dt><dd>Figure: Bad example - web application button labeled as "OK"</dd></dl><dl class="goodImage"><dt>​<img src="OKGoodExample.png" alt="OK" /></dt><dd>Figure: Good example - button is labeled with the specific action​</dd></dl>​​​​​
 
 
