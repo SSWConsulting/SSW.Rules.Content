@@ -12,9 +12,13 @@ related: []
 
 ---
 
+When you show all of your content on a slide when it first loads many people will read ahead of what you are saying.
 
-<p class="ssw15-rteElement-P">When you show all of your content on a slide when it first loads many people will read ahead of what you are saying.<br></p><p class="ssw15-rteElement-P">The summary slide is very important. It's your chance to re-iterate what you have covered in the talk, and remind the audience of your key points.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​You want them listening to you, not reading ahead.​​<br></p><p>Animating the items on your Summary slide ensures they are listening to you, not reading ahead.</p><dl class="goodImage"><dt><img src="summary-animation.gif" alt="summary-animation.gif" /></dt><dd>Good Example: Animate the points on your Summary slide​<br></dd></dl>
+The summary slide is very important. It's your chance to re-iterate what you have covered in the talk, and remind the audience of your key points.
 
+<!--endintro-->
 
+You want them listening to you, not reading ahead.
+
+Animating the items on your Summary slide ensures they are listening to you, not reading ahead.
+<dl class="goodImage">&lt;dt&gt;<img src="summary-animation.gif" alt="summary-animation.gif">&lt;/dt&gt;<dd>Good Example: Animate the points on your Summary slide<br></dd></dl>
