@@ -21,6 +21,7 @@ index:
 - logon---do-you-have-a-company-wide-word-template
 
 ---
-<p>Networks are the lifeblood of any business. This is why we have developed these standards​&#160;for&#160;better Networks.​​<br></p><p>If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Network-Architecture.aspx">visit our Network Architecture&#160;consulting page</a>​&#160;and book in&#160;a consultant.​​<br></p>
+Networks are the lifeblood of any business. This is why we have developed these standards for better Networks.
 
+If you still need help, [visit our Network Architecture consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Network-Architecture.aspx) and book in a consultant.
 
