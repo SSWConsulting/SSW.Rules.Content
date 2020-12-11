@@ -14,9 +14,12 @@ related: []
 
 ---
 
+Webinars involve a lot of preparation from all parties. In order for a webinar to be run as successfully as possible, there are some deadlines which should be met.
 
-<p>Webinars involve a lot of preparation from all parties. In order for a webinar to be run as successfully as possible, there are some deadlines which should be met.&#160;<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p></p><p>After confirming with a presenter, an 'As per our conversation' email should be sent requesting the title and description of the webinar. These details should be provided no later than three weeks prior to the event so that landing pages can be created. This also allows for&#160;two weeks of promotion to be carried out, ensuring the best attendance rate is achieved.&#160;​</p><p>If you are part of an automated webinar using software like Easy Webinar the video files&#160;should be sent to the marketing team two weeks prior to the event.&#160;This allows for any editing that needs to be done and prevents stress before the webinar for the team.​</p>
+<!--endintro-->
 
 
+
+After confirming with a presenter, an 'As per our conversation' email should be sent requesting the title and description of the webinar. These details should be provided no later than three weeks prior to the event so that landing pages can be created. This also allows for two weeks of promotion to be carried out, ensuring the best attendance rate is achieved.
+
+If you are part of an automated webinar using software like Easy Webinar the video files should be sent to the marketing team two weeks prior to the event. This allows for any editing that needs to be done and prevents stress before the webinar for the team.
