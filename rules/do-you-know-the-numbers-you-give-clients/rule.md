@@ -10,41 +10,16 @@ related: []
 
 ---
 
+When working on an hourly basis, you can confuse clients when sometimes you try to talk about a few hours here and a few hours here or there.  
+<!--endintro-->
 
-When working on an hourly basis, you can confuse clients when sometimes you try to talk about a few hours here and a few hours here or there.
+Simply things and just give them these 3 numbers:
 
-<br><excerpt class='endintro'></excerpt><br>
 
-  <p>Simply things and just give them these 3 numbers&#58;</p>
-<table>
-    <tbody>
-        <tr>
-            <td width="50%">
-            <table width="100%">
-                <tbody>
-                    <tr>
-                        <td>$ Billed to date</td>
-                        <td>__$xx__(accurate on Tuesday)</td>
-                    </tr>
-                    <tr>
-                        <td>Burndown Days Remaining</td>
-                        <td>__8__</td>
-                    </tr>
-                    <tr>
-                        <td>Calendar Days Booked</td>
-                        <td>__4days x 2__</td>
-                    </tr>
-                    <tr>
-                        <td>Next meeting (for Review and Retro)</td>
-                    </tr>
-                </tbody>
-            </table>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<dl class="greyBox">
-    <div>
+| <br><br>| $ Billed to date | \_\_$xx\_\_(accurate on Tuesday) |<br>| --- | --- |<br>| Burndown Days Remaining | \_\_8\_\_ |<br>| Calendar Days Booked | \_\_4days x 2\_\_ |<br>| Next meeting (for Review and Retro) |<br><br> |
+| --- |
+
+<dl class="greyBox">    <div>
     <p>Hi Andrew,<br>
     Please find the Burndown report below. I have looked at a few tasks with Zune and re-estimated them.</p>
     <ul>
@@ -70,8 +45,4 @@ When working on an hourly basis, you can confuse clients when sometimes you try 
         </ul>
         Please let us know if you have any questions or concerns.</li>
     </ul>
-    </div>
-</dl>
-
-
-
+    </div></dl>
