@@ -12,23 +12,41 @@ related: []
 
 ---
 
+Data in Azure Storage accounts is protected by replication. Deciding how far to replicate it is a balance between safety and cost.
+<dl class="image">&lt;dt&gt;<img src="azure-graphic.jpg" alt="">&lt;/dt&gt;<dd>Figure: It is important to balance safety and pricing when choosing the right replication strategy for Azure Storage Accounts</dd></dl>
+<!--endintro-->
 
-<p>Data in Azure Storage accounts is protected by replication. Deciding how far to replicate it is a balance between safety and cost.​</p><dl class="image"><dt><img src="azure-graphic.jpg" alt="" /></dt><dd>Figure: It is important to balance safety and pricing when choosing the right replication strategy for Azure Storage Accounts</dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-<h4></h4><p class="p1"> 
-   <strong>Locally redundant storage (LRS)</strong></p><ul class="ul1"><li class="li1">Ma<b></b>intains three copies of your data. </li><li class="li1">Is replicated three times within a single facility in a single region. </li><li class="li1">Protects your data from normal hardware failures, but not from the failure of a single facility.</li><li class="li1">Less expensive than GRS</li><li class="li1">Use when: 
-      <ul class="ul1"><li class="li1"> 
-            <span class="s1">o<span class="Apple-tab-span"> </span></span>Data is of low importance – e.g. for test websites, or testing virtual machines</li><li class="li1"> 
-            <span class="s1">o<span class="Apple-tab-span"> </span></span>Data can be easily reconstructed</li><li class="li1"> 
-            <span class="s1">o<span class="Apple-tab-span"> </span></span>Data is non-critical</li><li class="li1"> 
-            <span class="s1">o<span class="Apple-tab-span"> </span></span>Data governance requirements restrict data to a single region</li></ul></li></ul><p class="p1"> 
-   <strong>Geo-redundant storage (GRS).</strong> </p><ul class="ul1"><li class="li1">The default when you create it storage accounts.</li><li class="li1">Maintains six copies of your data. </li><li class="li1">D<b></b>ata is replicated three times within the primary region, and is also replicated three times in a secondary region hundreds of miles away from the primary region</li><li class="li1">In the event of a failure at the primary region, Azure Storage will failover to the secondary region. </li><li class="li1">Ensures that your data is durable in two separate regions.</li><li class="li1">Use when: 
-      <ul><li>
-            <span class="s1">o<span class="Apple-tab-span"> </span></span>Data cannot be recovered if los​t</li></ul></li></ul>
-<strong style="line-height:1.6;">Read access geo-redundant storage (RA-GRS).</strong><span style="line-height:1.6;"> </span>
-<ul class="ul1"><li class="li1">Replicates your data to a secondary geographic location (same as GRS)</li><li class="li1">P<b></b>rovides read access to your data in the secondary location</li><li class="li1">Allows you to access your data from either the primary or the secondary location, in the event that one location becomes unavailable.</li><li class="li1">Use when:​
-   <ul><li class="li1"> 
-      <span class="s1">o<span class="Apple-tab-span"> </span></span>Data is critical, and access is required to both the primary and the secondary regions</li></ul></li></ul>​<span style="color:#cc4141;font-family:'segoe ui', 'trebuchet ms', tahoma, arial, verdana, sans-serif;font-size:18px;line-height:32px;">More reading</span><ul><li> 
-      <a href="https://msdn.microsoft.com/en-us/library/azure/dn727290.aspx" target="_blank">Azure Storage Redundancy Option ​</a></li></ul>
+#### 
+
+**Locally redundant storage (LRS)**
+
+* Ma  intains three copies of your data.
+* Is replicated three times within a single facility in a single region.
+* Protects your data from normal hardware failures, but not from the failure of a single facility.
+* Less expensive than GRS
+* Use when:
+    * o Data is of low importance – e.g. for test websites, or testing virtual machines
+    * o Data can be easily reconstructed
+    * o Data is non-critical
+    * o Data governance requirements restrict data to a single region
 
 
+**Geo-redundant storage (GRS).**
+
+* The default when you create it storage accounts.
+* Maintains six copies of your data.
+* D  ata is replicated three times within the primary region, and is also replicated three times in a secondary region hundreds of miles away from the primary region
+* In the event of a failure at the primary region, Azure Storage will failover to the secondary region.
+* Ensures that your data is durable in two separate regions.
+* Use when:
+    * o Data cannot be recovered if lost
+
+**Read access geo-redundant storage (RA-GRS).**  
+* Replicates your data to a secondary geographic location (same as GRS)
+* P  rovides read access to your data in the secondary location
+* Allows you to access your data from either the primary or the secondary location, in the event that one location becomes unavailable.
+* Use when:
+    * o Data is critical, and access is required to both the primary and the secondary regions
+
+More reading
+* [Azure Storage Redundancy Option](https://msdn.microsoft.com/en-us/library/azure/dn727290.aspx)
