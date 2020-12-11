@@ -10,11 +10,13 @@ related: []
 
 ---
 
+Screenshots are a very important part of websites these days. Be careful to avoid unnecessary toolbars and taskbars in screen shots.
 
-<p>Screenshots are a very important part of websites these days. Be careful to avoid unnecessary toolbars and taskbars in screen shots.
-			</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="Bad_Screenshot-with-personal-data.JPG" alt="bad example as the taskbar and the Googletoolbar have been captured" /></dt><dd>Figure: Bad Example - This screenshot includes personal browsers</dd></dl><dl class="goodImage"><dt><img src="Good_No-Personal-Info.jpg" alt="Good example  the taskbar and Googletoolbar have been hidden before capturing the screenshot" /></dt><dd>Figure: Good Example - This screenshot has been cropped to hide personal browsers</dd></dl><p>Tips:</p><ol><li>Use a region screen shot if appropriate (however the URL is generally helpful in most browser screen shots)</li><li>Go full screen e.g.​ F11 in Internet Explorer, then <Alt>+<Print></li><li>Always have the 'Auto-hide the taskbar' option checked<br>
-			            <dl class="goodImage"><dt><img src="Good_Auto-Hide-Taskbar.gif" alt="Set toolbars to auto-hide" /></dt><dd>Figure: Always have the 'Auto-hide the taskbar' option checked so you do be screen shots</dd></dl></li></ol>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="Bad_Screenshot-with-personal-data.JPG" alt="bad example as the taskbar and the Googletoolbar have been captured">&lt;/dt&gt;<dd>Figure: Bad Example - This screenshot includes personal browsers</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="Good_No-Personal-Info.jpg" alt="Good example  the taskbar and Googletoolbar have been hidden before capturing the screenshot">&lt;/dt&gt;<dd>Figure: Good Example - This screenshot has been cropped to hide personal browsers</dd></dl>
+Tips:
 
-
+1. Use a region screen shot if appropriate (however the URL is generally helpful in most browser screen shots)
+2. Go full screen e.g. F11 in Internet Explorer, then <alt>+<print></print></alt>
+3. Always have the 'Auto-hide the taskbar' option checked
+<dl class="goodImage">&lt;dt&gt;<img src="Good_Auto-Hide-Taskbar.gif" alt="Set toolbars to auto-hide">&lt;/dt&gt;<dd>Figure: Always have the 'Auto-hide the taskbar' option checked so you do be screen shots</dd></dl>
