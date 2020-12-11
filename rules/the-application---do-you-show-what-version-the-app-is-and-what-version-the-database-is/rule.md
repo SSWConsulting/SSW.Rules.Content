@@ -12,30 +12,12 @@ related: []
 
 ---
 
+<dl class="image">    &lt;dt&gt;<img width="625" height="522" alt="" style="width:576px;height:475px;" src="LinkAuditor.png"> &lt;/dt&gt;
+    <dd>Figure: Everyone shows the version number somewhere on their app </dd></dl> ...but databases also need a version number.
 
-
-  <dl class="image">
-    <dt><img width="625" height="522" alt="" style="width:576px;height:475px;" src="LinkAuditor.png" /> </dt>
-    <dd>Figure: Everyone shows the version number somewhere on their app </dd>
-</dl>
-...but databases also need a version number.<br>
-<br>
-Let's see how to show the Database version:  
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl class="image">
-    <dt><img alt="" src="zsVersionTable.png" /> </dt>
-    <dd>Figure: The applications database should have a table storing the version info (the table is called _zsDataVersion). See an example of this in <a href="http://www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd>
-</dl>
-<dl class="image">
-    <dt><img alt="" src="LinkAuditorVersion.png" /> </dt>
-    <dd>Figure: The user can clearly see the Database version is 62 after clicking "Configure..." button in wizard "Storage Mechanism". See an example of this in <a href="http://www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd>
-</dl>
-<dl class="image">
-    <dt><img alt="" src="ChangeScripts.jpg" /> </dt>
-    <dd>Figure: The Application keeps all the scripts in a folder called SQLScripts (this allows the application to upgrade itself and give the Reconciliation functionality) </dd>
-</dl>
-
-
-
+ Let's see how to show the Database version:    
+<!--endintro-->
+<dl class="image">    &lt;dt&gt;<img alt="" src="zsVersionTable.png"> &lt;/dt&gt;
+    <dd>Figure: The applications database should have a table storing the version info (the table is called _zsDataVersion). See an example of this in <a href="http://www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd></dl><dl class="image">    &lt;dt&gt;<img alt="" src="LinkAuditorVersion.png"> &lt;/dt&gt;
+    <dd>Figure: The user can clearly see the Database version is 62 after clicking "Configure..." button in wizard "Storage Mechanism". See an example of this in <a href="http://www.ssw.com.au/SSW/LinkAuditor/">SSW Link Auditor</a> </dd></dl><dl class="image">    &lt;dt&gt;<img alt="" src="ChangeScripts.jpg"> &lt;/dt&gt;
+    <dd>Figure: The Application keeps all the scripts in a folder called SQLScripts (this allows the application to upgrade itself and give the Reconciliation functionality) </dd></dl>
