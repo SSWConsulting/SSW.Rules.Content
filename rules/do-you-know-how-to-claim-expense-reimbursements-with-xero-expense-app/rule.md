@@ -12,9 +12,143 @@ related: []
 
 ---
 
-
-<div>​It is recommended to use an appropriate system to complete expense reimbursements. These systems will save you time and money as compared to the old method of providing paper receipts for reimbursements. It also eliminates the issue of completing reimbursements when across multiple offices.​<br></div><div>​<br></div>There are many systems available for employees to use to complete an expense reimbursement (see our SSW Rules <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=1b68e80d-427c-47b6-ba84-b6c86f3d446d">Do you use the best mobile app for expenses?</a> for some recommended apps). The value provided by each system is different for every business. There are several factors to consider when choosing the right system:<br><div><br></div><div><ul><li>Frequency which a reimbursement is made (daily, weekly, monthly etc.)<br></li><li>Number of employees approved to request expense reimbursements<br></li><li>Value of expenses allowed to be reimbursed (minor, major or any values)<br></li><li>Subscription cost of system <br></li><li>Integration capabilities with Accounting Software<br></li></ul><div>Regardless of the system, the bulk of the process should be the same across most modern systems.<br></div><div><br>At SSW we find the greatest overall value for expense reimbursements is to ​use the Xero Expense app and the Xero accounting system in combination. <br></div><div><br></div><h3 class="ssw15-rteElement-H3">Steps to completing an expense reimbursement<br></h3><div><br><strong>Employees:</strong></div><div><span style="color:#333333;"><br></span></div><div><strong></strong><span style="color:#333333;">1. Using the Xero Expense mobile app, submit a photo of the receipt. If the receipt was sent via email, you can still submit a photo or screenshot of the email receipt​</span><br></div><div><br></div><div><br></div><div><img src="2020-11-25_15-44-09.png" alt="2020-11-25_15-44-09.png" style="margin:5px;" /><br></div><div><strong>Figure: Xero Expense app submit a photo</strong><br></div><div><br></div><div>2. <span style="color:#333333;">Eith</span><span style="color:#333333;">er allow the app to analyse the details manually or enter the deta</span><span style="color:#333333;">ils yourself (if you are strapped for time, you can take a photo and come back to it or hold on to the receipt and attend to it when possible)</span></div><div><span style="color:#333333;"><br></span></div><div><span style="color:#333333;"><img src="e.jpg" alt="e.jpg" style="margin:5px;width:409px;height:887px;" /><br></span></div><div><span style="color:#333333;"><strong>Figure: Details required of a submitted receipt</strong></span></div><div><span style="color:#333333;"><strong><br></strong></span></div><div>3. Whether you allow the app to analyse the details or not, you will still be required to confirm whether the expense was paid personally or with company money<br></div><div><br></div><div><img src="2020-11-25_15-51-14.png" alt="2020-11-25_15-51-14.png" style="margin:5px;" /> </div><div><strong>Figure: Option of reimbursable and non-reimbursable</strong><br><br></div><div>4. Submit for approval and then wait to be reimbursed​<br></div><div><br></div><div><img src="2020-11-25_15-53-02.png" alt="2020-11-25_15-53-02.png" style="margin:5px;width:356px;" /> </div><div><strong>Figure: Saving as draft or submit for approval</strong><br><br></div><div>​Note - if not already done, make sure purchase approval is forwarded to the Accountant or included in the photo submitted.<br>​<br></div><div><font color="#333333"><strong>Accountant:</strong></font></div><div><span style="color:#333333;"><br></span></div><div><font color="#333333"><strong></strong></font><span style="color:#333333;">1. ​Review the Xero Expense claim weekly</span></div><div><span style="color:#333333;"><br></span></div><div><span style="color:#333333;"></span><span style="color:#333333;">2. ​Complete a general check of the receipt details</span></div><div><span style="color:#333333;"><br></span></div><div><span style="color:#333333;"></span><span style="color:#333333;">3. Follow-up on any invoices awaiting approval, or approve those where appropriate​</span></div><div><span style="color:#333333;">​<img src="2020-11-25_16-14-53.png" alt="2020-11-25_16-14-53.png" style="margin:5px;width:808px;" /><br></span></div><div><span style="color:#333333;">​</span><strong style="color:#333333;">Figure: Xero Expense claim approval page</strong></div><div><span style="color:#333333;"><br></span></div><div><span style="color:#333333;"></span><span style="color:#333333;">4. Schedule for reimbursement to be in line with the upcoming pay</span></div><div><span style="color:#333333;"><br></span></div><div><span style="color:#333333;"><img src="2020-11-25_16-01-26.png" alt="2020-11-25_16-01-26.png" style="margin:5px;width:808px;" /><br></span></div><div><span style="color:#333333;"><strong>Figure: Xero payment scheduling page</strong></span></div><div><span style="color:#333333;"><br></span></div><div><span style="color:#333333;"></span><span style="color:#333333;">5. Submit the reimbursement along with wage payments</span></div></div><div><span style="color:#333333;"><br></span></div><div><span style="color:#333333;">6. Send remittance to employee via Xero </span></div><div><span style="color:#333333;"><img src="2020-11-25_16-04-57.png" alt="2020-11-25_16-04-57.png" style="margin:5px;width:808px;" /><br></span></div><div><span style="color:#333333;"><strong>Figure: Send remittance page post payment</strong></span></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​<br><span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">Related Rules</span><br></p><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=1b68e80d-427c-47b6-ba84-b6c86f3d446d">Do you use the best mobile app for expenses?</a>​<br></li></ul><p><br></p>
+It is recommended to use an appropriate system to complete expense reimbursements. These systems will save you time and money as compared to the old method of providing paper receipts for reimbursements. It also eliminates the issue of completing reimbursements when across multiple offices.
 
 
+
+
+There are many systems available for employees to use to complete an expense reimbursement (see our SSW Rules [Do you use the best mobile app for expenses?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=1b68e80d-427c-47b6-ba84-b6c86f3d446d) for some recommended apps). The value provided by each system is different for every business. There are several factors to consider when choosing the right system:
+
+
+
+
+
+* Frequency which a reimbursement is made (daily, weekly, monthly etc.)
+* Number of employees approved to request expense reimbursements
+* Value of expenses allowed to be reimbursed (minor, major or any values)
+* Subscription cost of system
+* Integration capabilities with Accounting Software
+
+
+Regardless of the system, the bulk of the process should be the same across most modern systems.
+
+
+
+At SSW we find the greatest overall value for expense reimbursements is to use the Xero Expense app and the Xero accounting system in combination. 
+
+
+
+
+
+### Steps to completing an expense reimbursement
+
+
+
+ **Employees:** 
+
+
+
+
+  1. Using the Xero Expense mobile app, submit a photo of the receipt. If the receipt was sent via email, you can still submit a photo or screenshot of the email receipt
+
+
+
+
+
+
+
+
+
+![Xero Expense app submit a photo](2020-11-25_15-44-09.png)
+
+
+
+
+
+2. Either allow the app to analyse the details manually or enter the details yourself (if you are strapped for time, you can take a photo and come back to it or hold on to the receipt and attend to it when possible)
+
+
+
+
+
+![Details required of a submitted receipt](e.jpg)
+
+ **
+** 
+
+3. Whether you allow the app to analyse the details or not, you will still be required to confirm whether the expense was paid personally or with company money
+
+
+
+
+
+
+![Option of reimbursable and non-reimbursable](2020-11-25_15-51-14.png)
+
+
+
+4. Submit for approval and then wait to be reimbursed
+
+
+
+
+
+
+![Saving as draft or submit for approval](2020-11-25_15-53-02.png)
+
+
+
+Note - if not already done, make sure purchase approval is forwarded to the Accountant or included in the photo submitted.
+
+
+
+<font color="#333333"> <strong>Accountant:</strong> </font>
+
+
+
+
+<font color="#333333"> <strong></strong> </font>1. Review the Xero Expense claim weekly
+
+
+
+
+2. Complete a general check of the receipt details
+
+
+
+
+3. Follow-up on any invoices awaiting approval, or approve those where appropriate
+
+
+![Xero Expense claim approval page](2020-11-25_16-14-53.png)
+
+
+
+
+4. Schedule for reimbursement to be in line with the upcoming pay
+
+
+
+
+
+![Xero payment scheduling page](2020-11-25_16-01-26.png)
+
+
+
+
+5. Submit the reimbursement along with wage payments
+
+
+
+
+
+6. Send remittance to employee via Xero 
+
+
+![Send remittance page post payment](2020-11-25_16-04-57.png)
+
+<!--endintro-->
+
+Related Rules
+
+* [Do you use the best mobile app for expenses?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=1b68e80d-427c-47b6-ba84-b6c86f3d446d)
