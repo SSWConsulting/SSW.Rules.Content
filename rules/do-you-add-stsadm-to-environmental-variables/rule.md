@@ -16,35 +16,29 @@ related: []
 
 ---
 
+In SharePoint 2007, it is a good idea to add the path to stsadm.exe into the environment variables on a SharePoint server so you can open a command prompt and run the tool from anywhere.
 
 
-  <p>In SharePoint 2007, it is a good idea to add the path to stsadm.exe into the environment variables on a SharePoint server so you can open a command prompt and run the tool from anywhere.</p>
-<p><img alt="" src="stsadm.png" /><br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure: you should be able to quickly type ‘stsadm’. Believe me you will be typing it enough!</font>In SharePoint 2010, you can skip quite a few steps by using the PowerShell Console.<br>
-<br>
-<img alt="" src="SP2010PowerShell.png" /><br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure: Using SharePoint 2010 Management Shell</font></p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p>
-    <strong>More Information</strong> for SharePoint 2007</p>
-<ol>
-    <li>In the start menu type <b>Edit the system environment variables </b>and run the tool<img alt="" src="EnvVariables.png" /> <br>
-    Figure 1 - Search for "Edit the system environment variables” in the Start Menu </li>
-    <li>In the <b>System variables </b>section, select <b>Path </b>and click <b>Edit<br>
-    </b><img alt="" src="EnvVariables2.png" /> <br>
-    Figure 2 - Under System Variables | Select Path | Click Edit </li>
-    <li>Add the path at the end of the <b>Variable Value</b>
-    <ol>
-        <li>For a SharePoint 2007 Server, enter:<br>
-        <b>;C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\12\bin</b> </li>
-    </ol>
-    </li>
-    <li>You may need to reboot the server </li>
-    <li>You can now run <b>stsadm </b>from anywhere in the command prompt </li>
-</ol>
-<p>          </p>
+![](stsadm.png)
+<font class="ms-rteCustom-FigureNormal">Figure: you should be able to quickly type ‘stsadm’. Believe me you will be typing it enough!</font>In SharePoint 2010, you can skip quite a few steps by using the PowerShell Console.
 
 
+![](SP2010PowerShell.png)
+<font class="ms-rteCustom-FigureNormal">Figure: Using SharePoint 2010 Management Shell</font>
 
+<!--endintro-->
+
+**More Information** for SharePoint 2007
+
+1. In the start menu type  **Edit the system environment variables** and run the tool
+![](EnvVariables.png) 
+<br>    Figure 1 - Search for "Edit the system environment variables” in the Start Menu
+2. In the  **System variables** section, select  **Path** and click  **Edit
+** 
+![](EnvVariables2.png) 
+<br>    Figure 2 - Under System Variables | Select Path | Click Edit
+3. Add the path at the end of the  **Variable Value**
+    1. For a SharePoint 2007 Server, enter:
+**;C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\12\bin**
+4. You may need to reboot the server
+5. You can now run  **stsadm** from anywhere in the command prompt
