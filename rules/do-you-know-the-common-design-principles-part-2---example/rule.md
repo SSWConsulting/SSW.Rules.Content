@@ -19,52 +19,52 @@ related: []
 
 <p>The hot spots identified in your solution often indicate violations of common design principles.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-​<img class="ms-rteCustom-ImageArea" src="/PublishingImages/CodeMetrics_3.png" alt="Check Address" style="width&#58;600px;" />
-<span class="ssw-rteStyle-FigureNormal">Figure&#58; Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities</span>
-<p>The most common problem encountered will be code that violates the Single Responsibility Principle (SRP). Addressing SRP issues will see a reduction in the following 3 metrics&#58;</p>
+​<img class="ms-rteCustom-ImageArea" src="CodeMetrics_3.png" alt="Check Address" style="width:600px;" />
+<span class="ssw-rteStyle-FigureNormal">Figure: Check Address.Save() and Customer.LoadCustomer() looking for SOLID refactor opportunities</span>
+<p>The most common problem encountered will be code that violates the Single Responsibility Principle (SRP). Addressing SRP issues will see a reduction in the following 3 metrics:</p>
 <ol>
-<li>&quot;Cyclomatic Complexity&quot; which indicates that your methods are complex, then</li>
-<li>&quot;High Coupling&quot; indicates that your class/method relies on many other classes, then</li>
-<li>&quot;Number of Lines&quot; indicates code structures that are long and unwieldy.</li>
+<li>"Cyclomatic Complexity" which indicates that your methods are complex, then</li>
+<li>"High Coupling" indicates that your class/method relies on many other classes, then</li>
+<li>"Number of Lines" indicates code structures that are long and unwieldy.</li>
 </ol>
 <p>Let's just look at one example.</p>
 <p>This code does more than one thing, and therefore breaks the Single Responsibility Principle.</p>
 <pre class="ssw-rteStyle-CodeArea">public class PrintServer 
-&#123;
-    public string CreateJob(PrintJob data) &#123; //...
-    &#125;
-    public int GetStatus(string jobId) &#123; //...
-    &#125;
-    public void Print(string jobId, int startPage, int endPage) &#123; //...
-    &#125;
-    public List GetPrinterList() &#123; //...
-    &#125;
-    public bool AddPrinter(Printer printer) &#123; //...
-    &#125;
+{
+    public string CreateJob(PrintJob data) { //...
+    }
+    public int GetStatus(string jobId) { //...
+    }
+    public void Print(string jobId, int startPage, int endPage) { //...
+    }
+    public List GetPrinterList() { //...
+    }
+    public bool AddPrinter(Printer printer) { //...
+    }
     public event EventHandler PrintPreviewPageComputed;
     public event EventHandler PrintPreviewReady;
     // ...
-&#125;
+}
 </pre>
-<span class="ssw-rteStyle-FigureBad">Figure&#58; Bad example - This class does two distinct jobs. It creates print jobs and manages printers</span>
-<pre class="ssw-rteStyle-CodeArea">public class Printers &#123;
-    public string CreateJob(PrintJob data) &#123; //...
-    &#125;
-    public int GetStatus(string jobId) &#123; //...
-    &#125;
-    public void Print(string jobId, int startPage, int endPage) &#123; //...
-    &#125;
-&#125;
-public class PrinterManager &#123;
-    public List GetPrinterList() &#123; //...
-    &#125;
-    public bool AddPrinter(Printer printer) &#123; //...
-    &#125;
-&#125;
+<span class="ssw-rteStyle-FigureBad">Figure: Bad example - This class does two distinct jobs. It creates print jobs and manages printers</span>
+<pre class="ssw-rteStyle-CodeArea">public class Printers {
+    public string CreateJob(PrintJob data) { //...
+    }
+    public int GetStatus(string jobId) { //...
+    }
+    public void Print(string jobId, int startPage, int endPage) { //...
+    }
+}
+public class PrinterManager {
+    public List GetPrinterList() { //...
+    }
+    public bool AddPrinter(Printer printer) { //...
+    }
+}
 </pre>
-<span class="ssw-rteStyle-FigureGood">Figure&#58; Good Example - Each class has a single responsibility</span>
+<span class="ssw-rteStyle-FigureGood">Figure: Good Example - Each class has a single responsibility</span>
 <p>Additionally, code that has high coupling violates the Dependency Inversion principle. This makes code difficult to change​ but can be resolved by implementing the Inversion of Control <strong>*and*</strong> Dependency Injection patterns.</p>
-<p>TODO&#58; Replace example with TailSpin</p>
-<p>TODO&#58; Updated Code Metrics diagram after fix</p>
+<p>TODO: Replace example with TailSpin</p>
+<p>TODO: Updated Code Metrics diagram after fix</p>
 
 
