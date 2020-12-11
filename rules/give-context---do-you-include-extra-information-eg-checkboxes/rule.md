@@ -10,11 +10,10 @@ related: []
 
 ---
 
+Put in all information, even if some aren't selectable, provided there is context.
 
-<p>Put in all information, even if some aren't selectable, provided there is context.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<div>This lets the users see what is available and what isn't, without being overbearing.</div>
-<dl class="goodImage"><dt><img src="../../assets/BadScanOptions.gif" alt="" /></dt>
+<!--endintro-->
+
+This lets the users see what is available and what isn't, without being overbearing.
+<dl class="goodImage">&lt;dt&gt;<img src="../../assets/BadScanOptions.gif" alt="">&lt;/dt&gt;
 <dd>Figure: Good Example - The "Check broken links" checkbox in this case is not an option, but showing it gives the user context</dd></dl>
-
-
