@@ -10,15 +10,10 @@ related: []
 
 ---
 
+Too many sites expect the user to hover and wait to       'discover' if there are sub menus. Use an icon and avoid the       surprises.
 
-<p>Too many sites expect the user to hover and wait to 
-     'discover' if there are sub menus. Use an icon and avoid the 
-     surprises.
-                </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt> 
-      <img alt="Good" src="../../assets/SubmenusHaveIcons_Good.gif" style="margin:5px;" /> 
-   </dt><dd>Figure: Good Example - This menu clearly shows which items have submenus</dd></dl><p>
-   <a target="_blank" href="http://www.worleyparsons.com/csg/infrastructureandenvironment/resource_infrastructure/Pages/default.aspx">WorleyParson</a> submenus were also designed with this in mind.</p>
-
-
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt; 
+      <img alt="Good" src="../../assets/SubmenusHaveIcons_Good.gif" style="margin:5px;"> 
+   &lt;/dt&gt;<dd>Figure: Good Example - This menu clearly shows which items have submenus</dd></dl>
+[WorleyParson](http://www.worleyparsons.com/csg/infrastructureandenvironment/resource_infrastructure/Pages/default.aspx) submenus were also designed with this in mind.
