@@ -12,35 +12,31 @@ related: []
 
 ---
 
+Follow the step to fix SharePoint JavaScript errors:  
+<!--endintro-->
 
-Follow the step to fix SharePoint JavaScript errors:
+1. Your content editor is trying to change page layout via the Ribbon in SharePoint 2010 
 
-<br><excerpt class='endintro'></excerpt><br>
+![](PagelayoutInRibbon.jpg) <font class="ms-rteCustom-FigureNormal">Figure: Click Page Layout in the Ribbon</font>
+2. But they get a JavaScript error
+    Webpage error details
 
-  <ol>
-    <li>Your content editor is trying to change page layout via the Ribbon in SharePoint 2010 <br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="PagelayoutInRibbon.jpg" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure: Click Page Layout in the Ribbon</font> </li>
-    <li>But they get a JavaScript error<br>
-    <p>Webpage error details<br>
-    <br>
-    User Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)<br>
-    Timestamp: Wed, 22 Dec 2010 01:33:17 UTC</p>
-    <p>Message: Object required<br>
-    Line: 2<br>
-    Char: 6422<br>
-    Code: 0<br>
-    URI:<a href="http://intranet.ssw.com.au/_layouts/cui.js?rev=wvoVpqlQb30nGo4DjDk8Kg%3D%3D">http://intranet.ssw.com.au/_layouts/cui.js?rev=wvoVpqlQb30nGo4DjDk8Kg%3D%3D</a></p>
-    </li>
-</ol>
-<p>This error is likely caused by SharePoint trying to render available page layouts for the page to switch to, but there is an error.</p>
-A very quick fix that can be applied by a site owner is:<br>
-<ol>
-    <li>Site Settings | Look and Feel | Page layouts and site templates  </li>
-    <li>Restrict the valid number of page layouts that can be used, instead of allowing "Pages in this site can use any layout"<img alt="" class="ms-rteCustom-ImageArea" src="RestrictedPageLayout.jpg" /><font class="ms-rteCustom-FigureNormal" size="+0">Figure: Restrict valid page layouts </font></li>
-    <li>This fixes the Ribbon menu<br>
-    <img alt="" class="ms-rteCustom-ImageArea" src="RibbonMenu01.jpg" /><font class="ms-rteCustom-FigureNormal" size="+0">Figure: Ribbon menu fixed!</font> </li>
-    <li>Tell your sys admin that there are broken packages in SharePoint and must be fixed ASAP </li>
-</ol>
+     User Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.3)
+     Timestamp: Wed, 22 Dec 2010 01:33:17 UTC
+    Message: Object required
+     Line: 2
+     Char: 6422
+     Code: 0
+     URI:[http://intranet.ssw.com.au/\_layouts/cui.js?rev=wvoVpqlQb30nGo4DjDk8Kg%3D%3D](http://intranet.ssw.com.au/_layouts/cui.js?rev=wvoVpqlQb30nGo4DjDk8Kg%3D%3D)
 
 
+This error is likely caused by SharePoint trying to render available page layouts for the page to switch to, but there is an error.
+ A very quick fix that can be applied by a site owner is:
 
+1. Site Settings | Look and Feel | Page layouts and site templates
+2. Restrict the valid number of page layouts that can be used, instead of allowing "Pages in this site can use any layout"
+![](RestrictedPageLayout.jpg)<font class="ms-rteCustom-FigureNormal">Figure: Restrict valid page layouts </font>
+3. This fixes the Ribbon menu
+
+![](RibbonMenu01.jpg)<font class="ms-rteCustom-FigureNormal">Figure: Ribbon menu fixed!</font>
+4. Tell your sys admin that there are broken packages in SharePoint and must be fixed ASAP
