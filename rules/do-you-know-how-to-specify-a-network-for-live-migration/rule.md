@@ -10,19 +10,16 @@ related: []
 
 ---
 
+It is important have the Live Migration and Cluster traffic on a separate network interface than the iSCSI or SAN traffic. If you do not you will see a performance hit while migrating virtual machines and the process will be a lot slower.
 
-<p>It is important have the Live Migration and Cluster traffic on a separate network interface than the iSCSI or SAN traffic. If you do not you will see a performance hit while migrating virtual machines and the process will be a lot slower.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>To specify the roles of each network adapter:</p>
-<ol>
-<li>Open the Failover Cluster Manager</li>
-<li>Expand the Networks section and you will see all of your network adapters listed</li>
-<li>Right click on the network that you are using for LAN and ISCSI and make sure that the following setting is selected</li>
-</ol>
-<img src="cluster-network.jpg" alt="Network properties window" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureNormal">Figure: Network properties window</span>
+<!--endintro-->
 
-<p>This setting prevents ISCSI and LAN traffic from going over the cluster network</p>
+To specify the roles of each network adapter:
+
+1. Open the Failover Cluster Manager
+2. Expand the Networks section and you will see all of your network adapters listed
+3. Right click on the network that you are using for LAN and ISCSI and make sure that the following setting is selected
 
 
-
+![Network properties window](cluster-network.jpg)
+This setting prevents ISCSI and LAN traffic from going over the cluster network
