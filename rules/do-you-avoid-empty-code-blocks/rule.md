@@ -12,12 +12,86 @@ related: []
 
 ---
 
+Empty Visual C# .NET method consumes program resources unnecessarily. Put a comment in code block if its stub for future application.
 
-<p>​Empty Visual C# .NET method consumes program resources unnecessarily. Put a ​​comment in code block if its stub for future application.<br></p><p><strong>Exception&#58;</strong>&#160;If a Class implements an Inherited Interface method, you should add a comment within the Code block <br></p><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">​public class Example<br> &#123;<br> public double salary()<br> &#123; 
-   <br> &#125;<br> &#125;</p><dd class="ssw15-rteElement-FigureBad">​​Figure&#58; Bad Example - Method is empty​​​​​<br></dd><p class="ssw15-rteElement-CodeArea">​public class Sample<br> &#123;<br> public double salary()<br> &#123;<br> return 2500.00;<br> &#125;<br> &#125;</p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; G​ood Example - Method implements some code<br></dd><p class="ssw15-rteElement-CodeArea">
-
-public interface IDemo<br> &#123;<br> void DoSomethingUseful();<br> void SomethingThatCanBeIgnored();<br> &#125;<br>public class Demo &#58; IDemo<br> &#123;<br> public void DoSomethingUseful()<br> &#123;<br> // no audit issues<br> Console.WriteLine(&quot;Useful&quot;);<br> &#125;<br> // audit issues <br> public void SomethingThatCanBeIgnored()<br> &#123; <br> &#125; <br> &#125; </p><dd class="ssw15-rteElement-FigureBad">​Figure&#58; Bad Example - No Comment within empty code block</dd><p class="ssw15-rteElement-CodeArea">​​​public interface IDemo<br> &#123;<br> void DoSomethingUseful();<br> void SomethingThatCanBeIgnored();<br> &#125;<br>public class Demo &#58; IDemo<br> &#123;<br> public void DoSomethingUseful()<br> &#123;<br> // no audit issues<br> Console.WriteLine(&quot;Useful&quot;);<br> &#125;<br> // No audit issues <br> public void SomethingThatCanBeIgnored() <br> &#123;<br> // stub for IDemo interface<br> &#125; <br> &#125; </p><dd class="ssw15-rteElement-FigureGood">​​​Figure&#58; Good Example - Added comment within Empty Code block method of interface&#160;class</dd>​<br>
+**Exception:**  If a Class implements an Inherited Interface method, you should add a comment within the Code block
 
 
+<!--endintro-->
+
+public class Example
+ {
+ public double salary()
+ {     
+ }
+ }
+
+
+::: bad
+Figure: Bad Example - Method is empty
+
+:::
+
+
+public class Sample
+ {
+ public double salary()
+ {
+ return 2500.00;
+ }
+ }
+
+
+::: good
+Figure: Good Example - Method implements some code
+
+:::
+
+
+public interface IDemo
+ {
+ void DoSomethingUseful();
+ void SomethingThatCanBeIgnored();
+ }
+public class Demo : IDemo
+ {
+ public void DoSomethingUseful()
+ {
+ // no audit issues
+ Console.WriteLine("Useful");
+ }
+ // audit issues 
+ public void SomethingThatCanBeIgnored()
+ { 
+ } 
+ }
+
+
+::: bad
+Figure: Bad Example - No Comment within empty code block
+:::
+
+
+public interface IDemo
+ {
+ void DoSomethingUseful();
+ void SomethingThatCanBeIgnored();
+ }
+public class Demo : IDemo
+ {
+ public void DoSomethingUseful()
+ {
+ // no audit issues
+ Console.WriteLine("Useful");
+ }
+ // No audit issues 
+ public void SomethingThatCanBeIgnored() 
+ {
+ // stub for IDemo interface
+ } 
+ }
+
+
+::: good
+Figure: Good Example - Added comment within Empty Code block method of interface class
+:::
