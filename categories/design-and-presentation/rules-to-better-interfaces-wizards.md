@@ -14,6 +14,7 @@ index:
 - does-the-first-form-provide-the-user-product-information
 
 ---
-<p>​​​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx">Website Design and User Experience​</a>&#160;and book in a consultant.​​</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [Website Design and User Experience](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx) and book in a consultant.
 
