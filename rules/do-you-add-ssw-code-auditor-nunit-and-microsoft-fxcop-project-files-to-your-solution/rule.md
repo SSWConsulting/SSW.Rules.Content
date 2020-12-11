@@ -14,59 +14,59 @@ related: []
 
 ---
 
-
-  <a href="http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx" shape="rect">SSW Code Auditor</a>, <a href="http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit" shape="rect">NUnit</a> and <a href="http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop" shape="rect">Microsoft FxCop</a> are tools to keep your code "healthy". That is why they should be easily accessible in every solution so that they can be run with a double click of a mouse button.
-<br><excerpt class='endintro'></excerpt><br>
-  <p> </p>
-<dl class="goodImage"> <dt><img alt="Code Auditor Project File" src="CodeAuditorProjectFile.gif" border="0" style="border:0px solid currentcolor;" /> </dt> </dl>
-<p>To add a <a href="http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx" shape="rect">SSW Code Auditor</a> file to your solution:</p>
-<ol>
-    <li>Start up SSW Code Auditor</li>
-    <li>Add a <b>new Job</b> </li>
-    <li>Add a the solution file to be scanned</li>
-    <li>Select the rules to be run</li>
-    <li>Configure email (not required)</li>
-    <li>Select <b>File > Save As</b> (into the solution's folder as "c<b>odeauditor.SSWCodeAuditor</b>")</li>
-    <li>Open your Solution in Visual Studio</li>
-    <li>Right click and <b>add existing file</b> </li>
-    <li>Select the <b>SSW Code Auditor project file</b> </li>
-    <li> Right click the newly added file and select "<b>Open With</b>"<br>
-    <dl class="goodImage"> <dt><img alt="Open With" src="OpenWith.gif" border="0" style="border:0px solid currentcolor;" /> </dt> </dl>
-    </li>
-    <li> Point it to the SSW Code Auditor executable</li>
-</ol>
-<br>See <a href="/Pages/AddCAFxCopToSolution.aspx" shape="rect">Do you run SSW Code Auditor?</a> <br>See <a id="Do you check your code by Code Auditor before check-in?" href="/Pages/AddCAFxCopToSolution.aspx" shape="rect">Do you check your code by Code Auditor before check-in?</a> <br>To add a <a href="http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop" shape="rect">Microsoft Fx</a><span>C</span><span>op</span> file to your solution:​<ol>
-    <li>Stat up <b>Microsoft FxC</b></li><li><b>op</b> </li>
-    <li>Create a <b>New Project</b> </li>
-    <li>Right click the project and <b>Add Target</b> </li>
-    <li>Select the Assembly (DLL/EXE) for the project</li>
-    <li>Select <b>File > Save Project As </b>(into the solution's folder as "<b>fxc</b><b>op.FxCop</b>")</li>
-    <li>Open your Solution in Visual Studio</li>
-    <li>Right click and <b>add existing file</b> </li>
-    <li>Select the <b>Microsoft FxCop project file</b> </li>
-    <li><b>Right click</b> the newly added file and select "<b>Open With</b>"</li>
-    <li>Point it to the Microsoft FxCop executable</li>
-</ol>
-<br>To add a <a href="http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit" shape="rect">NUn</a><span>it</span> file to your solution:<ol>
-    <li>Stat up <b>NUn</b></li><li><b>it</b> </li>
-    <li>Create a New Project by selecting <b>File > New Project</b> and save it to your solution directory as "<b>nun</b><b>it.NUnit</b>"</li>
-    <li>From the <b>Project</b> menu select <b>Add Assembly</b> </li>
-    <li>Select the Assembly (DLL/EXE) for the project that contains unit tests</li>
-    <li>Select <b>File > Save Project</b> </li>
-    <li>Open your Solution in Visual Studio</li>
-    <li>Right click and <b>add existing file</b> </li>
-    <li>Select the <b>NUnit project file</b> </li>
-    <li><b>Right click</b> the newly added file and select "<b>Open With</b>"</li>
-    <li>Point it to the NUnit executable</li>
-</ol>
-<p>Now you can simply double click these project files to run the corresponding applications.</p>
-<table class="clsSSWProductTable" id="table42" cellspacing="2" cellpadding="2" summary="Code Auditor">
-    <tbody>
-        <tr>
-            <td>We have a program called <a href="http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx" shape="rect">SSW Code Auditor</a> that implements this rule.</td>
-        </tr>
-    </tbody>
-</table>
+[SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx), [NUnit](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit) and [Microsoft FxCop](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop) are tools to keep your code "healthy". That is why they should be easily accessible in every solution so that they can be run with a double click of a mouse button. 
+<!--endintro-->
 
 
+<dl class="goodImage"> &lt;dt&gt;<img alt="Code Auditor Project File" src="CodeAuditorProjectFile.gif" border="0" style="border:0px solid currentcolor;"> &lt;/dt&gt; </dl>
+To add a [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) file to your solution:
 
+1. Start up SSW Code Auditor
+2. Add a  **new Job**
+3. Add a the solution file to be scanned
+4. Select the rules to be run
+5. Configure email (not required)
+6. Select  **File > Save As** (into the solution's folder as "c **odeauditor.SSWCodeAuditor** ")
+7. Open your Solution in Visual Studio
+8. Right click and  **add existing file**
+9. Select the  **SSW Code Auditor project file**
+10. Right click the newly added file and select " **Open With** "
+<dl class="goodImage"> &lt;dt&gt;<img alt="Open With" src="OpenWith.gif" border="0" style="border:0px solid currentcolor;"> &lt;/dt&gt; </dl>
+11. Point it to the SSW Code Auditor executable
+
+
+See [Do you run SSW Code Auditor?](/Pages/AddCAFxCopToSolution.aspx) 
+See [Do you check your code by Code Auditor before check-in?](/Pages/AddCAFxCopToSolution.aspx) 
+To add a [Microsoft Fx](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop)Copfile to your solution:
+1. Stat up  **Microsoft FxC**
+2. **op**
+3. Create a  **New Project**
+4. Right click the project and  **Add Target**
+5. Select the Assembly (DLL/EXE) for the project
+6. Select  **File > Save Project As** (into the solution's folder as " **fxc** **op.FxCop** ")
+7. Open your Solution in Visual Studio
+8. Right click and  **add existing file**
+9. Select the  **Microsoft FxCop project file**
+10. **Right click** the newly added file and select " **Open With** "
+11. Point it to the Microsoft FxCop executable
+
+
+To add a [NUn](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#NUnit)itfile to your solution:
+1. Stat up  **NUn**
+2. **it**
+3. Create a New Project by selecting  **File > New Project** and save it to your solution directory as " **nun** **it.NUnit** "
+4. From the  **Project** menu select  **Add Assembly**
+5. Select the Assembly (DLL/EXE) for the project that contains unit tests
+6. Select  **File > Save Project**
+7. Open your Solution in Visual Studio
+8. Right click and  **add existing file**
+9. Select the  **NUnit project file**
+10. **Right click** the newly added file and select " **Open With** "
+11. Point it to the NUnit executable
+
+
+Now you can simply double click these project files to run the corresponding applications.
+
+
+| We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) that implements this rule. |
+| --- |
