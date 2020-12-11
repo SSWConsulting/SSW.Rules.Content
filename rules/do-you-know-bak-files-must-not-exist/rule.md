@@ -12,14 +12,11 @@ related: []
 
 ---
 
-
-Finding a file with a BAK extension is a "call sign" that your folders need a tidy up.
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img src="bak-bad.jpg" alt="" />
-   </dt><dd>Figure: Bad example</dd></dl><dl class="goodImage"><dt>
-      <img src="bak-good.jpg" alt="" />
-   </dt><dd>Figure: Good example​</dd></dl><p class="ssw15-rteElement-YellowBorderBox">We have a program called 
-   <a href="http://www.ssw.com.au/ssw/CodeAuditor">SSW Code Auditor</a> to check for this rule.​</p>​
-
-
+Finding a file with a BAK extension is a "call sign" that your folders need a tidy up. 
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img src="bak-bad.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: Bad example</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="bak-good.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: Good example</dd></dl>
+We have a program called     [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor) to check for this rule.
