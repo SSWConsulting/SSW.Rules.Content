@@ -12,10 +12,9 @@ related: []
 
 ---
 
+Reading down should show you the what (all the intend)
 
-<p>Reading down should show you the what (all the intend)<br></p><p>​Reading across should show you the how (F12)</p> 
-​​<br>
-<br><excerpt class='endintro'></excerpt><br>
-
+Reading across should show you the how (F12)
 
 
+<!--endintro-->
