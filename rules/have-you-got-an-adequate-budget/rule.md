@@ -10,9 +10,10 @@ related: []
 
 ---
 
+When you first start planning your event, a lot of ideas are put on the table and many are great and would improve your event.
 
-<p class="ssw15-rteElement-P">When you first start planning your event, a lot of ideas are put on the table and many are great and would improve your event.&#160;​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>However, you need to have a budget outlined, which you can then use to inform these decisions. The budget is generally made up of the expected sponsorship, but can also include grants, event fees and other income streams. ​</p><p>The budget should be revised if circumstances change. This can be due to lack of sponsorship, more attendees than expected or any other factor that has an influence on the budget.&#160;</p>
+<!--endintro-->
 
+However, you need to have a budget outlined, which you can then use to inform these decisions. The budget is generally made up of the expected sponsorship, but can also include grants, event fees and other income streams.
 
+The budget should be revised if circumstances change. This can be due to lack of sponsorship, more attendees than expected or any other factor that has an influence on the budget.
