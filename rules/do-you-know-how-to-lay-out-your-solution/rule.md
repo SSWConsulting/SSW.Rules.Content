@@ -16,17 +16,17 @@ related: []
 
 ---
 
+Whenever we setup a new Team Project we implement a basic version control structure. We put "readme.txt" files in the folder structure explaining the different levels, and a solution file called [Client].[Product].sln?located at ?/[Client]/[Product]/DEV/ within version control.
+<dl class="image">&lt;dt&gt;
+      <img alt="Messy solution " src="MessySolution.jpg" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Bad Example, how would anyone know how to sort this mess out?</dd></dl>
+<!--endintro-->
+<dl class="image">&lt;dt&gt; 
+      <img alt="Ideal solution " src="IdealSolution.jpg"> 
+   &lt;/dt&gt;<dd>Figure: Good Example, The ideal solution. </dd></dl>
+For more implementation details see:     
+[http://blog.hinshelwood.com/archive/2010/05/17/guidance-how-to-layout-you-files-for-an-ideal-solution.aspx](http://www.ssw.com.au/ssw/redirect/LayoutSolution.htm)
 
-<p>​​​Whenever we setup a new Team Project we implement a basic version control structure. We put "readme.txt" files in the folder structure explaining the different levels, and a solution file called [Client].[Product].sln?located at ?/[Client]/[Product]/DEV/ ​within version control.</p><dl class="image"><dt>
-      <img alt="Messy solution " src="MessySolution.jpg" style="margin:5px;" />
-   </dt><dd>Figure: Bad Example, how would anyone know how to sort this mess out?</dd></dl>
+### Related rule
 
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> 
-      <img alt="Ideal solution " src="IdealSolution.jpg" /> 
-   </dt><dd>Figure: Good Example, The ideal solution. </dd></dl><p>For more implementation details see: 
-   <br> 
-   <a href="http://www.ssw.com.au/ssw/redirect/LayoutSolution.htm">http://blog.hinshelwood.com/archive/2010/05/17/guidance-how-to-layout-you-files-for-an-ideal-solution.aspx</a></p><h3>Related rule</h3><ul><li> 
-      <a href="/do-you-have-a-consistent-net-solution-structure">Do you have a consistent .NET Solution Structure?​</a>​</li></ul>
-
-
+* [Do you have a consistent .NET Solution Structure?](/do-you-have-a-consistent-net-solution-structure)
