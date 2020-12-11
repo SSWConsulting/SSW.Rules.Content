@@ -12,20 +12,54 @@ related: []
 
 ---
 
+**Built-in Automatic Backup in Azure SQL Database **
 
-<p><span style="color:#2a2a2a;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;line-height:18px;"><strong style="line-height:1.6;"><strong style="line-height:20.7999992370605px;">​Built-in Automatic Backup in Azure SQL Database</strong></strong>​<br></span></p><p><span style="color:#2a2a2a;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;line-height:18px;">Microsoft Azure SQL Database has built-in backups to support self-service Point in Time Restore and Geo-Restore for Basic, Standard, and Premium service tiers.</span></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​<span style="line-height:1.6;">You should use the built in automatic backup in Azure</span><span style="font-family:arial, helvetica, sans-serif;line-height:17px;"> SQL Database versus using T-SQL.</span></p><blockquote style="margin:0px 0px 0px 40px;border:none;padding:0px;"><dt style="border:1px solid #cccccc;width:595px;font-family:arial, helvetica, sans-serif;line-height:17px;background:#f5f5f5;"><p class="ssw15-rteElement-P" style="text-align:center;padding-top:5px;border-bottom-width:5px;padding-bottom:5px;width:612px;">​  ​​​    <span style="font-size:12px;">T-​​​SQL: CREATE DATABASE destination_database_nameAS COPY OF[source_server_name].source_database_name​​​​</span></p></dt></blockquote><dl class="bad" style="margin:0px;padding-top:10px;padding-bottom:10px;padding-left:20px;font-family:arial, helvetica, sans-serif;line-height:17px;"><dd style="margin-top:-2px;margin-left:0px;padding-bottom:7px;padding-left:1.7em;">Figure: Bad example - Using T-SQL to restore your database​</dd>
-   <span style="color:#555555;font-size:11px;font-weight:bold;line-height:21px;background-color:transparent;"><img src="Azure-restore.jpg" alt="Azure-restore.jpg" style="margin:5px;" />​</span></dl><dl class="good" style="margin:0px;padding-top:10px;padding-bottom:10px;padding-left:20px;font-family:arial, helvetica, sans-serif;line-height:17px;"><dd style="margin-top:-2px;margin-left:0px;padding-bottom:7px;padding-left:1.7em;">Figure: Good example - Using the built in SQL Azure Database automatic backup system to restore your database</dd></dl><p></p><p>
-   <a class="LW_CollapsibleArea_TitleAhref" role="button" title="Collapse" style="color:#000000;font-family:'segoe ui semibold', 'segoe ui', 'lucida grande', verdana, arial, helvetica, sans-serif;font-size:18px;line-height:normal;outline:none;"><span class="LW_CollapsibleArea_Title" style="font-size:1.25em;line-height:1.4em;display:inline !important;"></span></a><span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;">Azure SQL Database automatically creates backups of every active database using the following schedule: Full database backup once a week, differential database backups once a day, and transaction log backups every 5 minutes. The full and differential backups are replicated across regions to ensure availability of the backups in the event of a disaster.</span></p><p>
-   <span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;"></span><strong style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;">Backup Storage</strong></p><p>
-   <span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;">Backup storage is the storage associated with your automated database backups that are used for Point in Time Restore and Geo-Restore. Azure SQL Database provides up to 200% of your maximum provisioned database storage of backup storage at no additional cost.​</span></p><p>
-   <span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;"></span></p><table style="margin-bottom:14px;margin-top:20px;width:684px;color:#000000;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;line-height:17.5499992370605px;"><tbody><tr><th style="padding:10px 8px;color:#636363;background-color:#ededed;">Service Tier</th><th style="padding:10px 8px;color:#636363;background-color:#ededed;">Geo-Restore</th><th style="padding:10px 8px;color:#636363;background-color:#ededed;">Self-Service Point in Time Restore</th><th style="padding:10px 8px;color:#636363;width:122px;background-color:#ededed;">Backup Retention Period</th><th style="padding:10px 8px;color:#636363;width:115px;background-color:#ededed;">Restore a Deleted Database</th></tr><tr><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Web</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Not supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Not supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">n/a</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">n/a</p></td></tr><tr><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Business</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Not supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Not supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">n/a</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">n/a</p></td></tr><tr><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Basic</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">7 days</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">√</p></td></tr><tr><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Standard</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">14 days</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">√</p></td></tr><tr><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Premium</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">Supported</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">35 days</p></td><td style="padding:10px 8px;color:#2a2a2a;vertical-align:top;"><p style="line-height:18px;">√</p></td></tr></tbody></table><p>
-   <span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;">Figure: All the modern SQL Azure Service Tiers support back up. Web and Business tiers are being retired and do not support backup. Check </span><a href="https://msdn.microsoft.com/en-us/library/azure/dn741330.aspx" style="line-height:20px;">Web and Business Edition Sunset FAQ​</a><span style="color:#2a2a2a;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;line-height:18px;"> for up to date retention periods.</span></p><p>
-   <span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;"><strong>Learn more:</strong><br></span></p><ul><li>
-      <span style="line-height:18px;">​Microsoft documentation - </span><a href="https://msdn.microsoft.com/en-us/library/azure/jj650016.aspx">Azure SQL Database Backup and Restore​​</a><br></li><li>Video demo on Channel 9 - <a href="http://channel9.msdn.com/Blogs/Windows-Azure/Restore-a-SQL-Database-Using-Point-in-Time-Restore">Restore a SQL Database Using Point in Time Restore​ </a></li></ul><p></p><p>
-   <span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;"><strong>Other ways to back up Azure SQL Database:<br></strong></span></p><ul><li>
-      <span style="line-height:20px;">​Microsoft Blog - </span><span style="line-height:20px;"><a href="http://blogs.msdn.com/b/mast/archive/2013/03/04/different-ways-to-backup-your-windows-azure-sql-database.aspx">Different ways to Backup your Windows Azure SQL Database​</a></span><br></li></ul><p>
-   <span style="color:#2a2a2a;line-height:18px;font-family:'segoe ui', helvetica, garuda, arial, sans-serif;"><strong><br></strong></span></p>
+Microsoft Azure SQL Database has built-in backups to support self-service Point in Time Restore and Geo-Restore for Basic, Standard, and Premium service tiers.
+
+<!--endintro-->
+
+You should use the built in automatic backup in Azure SQL Database versus using T-SQL.
 
 
+> <dt style="border:1px solid #cccccc;width:595px;font-family:arial, helvetica, sans-serif;line-height:17px;background:#f5f5f5;"><p class="ssw15-rteElement-P" style="text-align:center;padding-top:5px;border-bottom-width:5px;padding-bottom:5px;width:612px;">      <span style="font-size:12px;">T-SQL: CREATE DATABASE destination_database_nameAS COPY OF[source_server_name].source_database_name</span></p>&lt;/dt&gt;</dt>
+
+<dl class="bad" style="margin:0px;padding-top:10px;padding-bottom:10px;padding-left:20px;font-family:arial, helvetica, sans-serif;line-height:17px;"><dd style="margin-top:-2px;margin-left:0px;padding-bottom:7px;padding-left:1.7em;">Figure: Bad example - Using T-SQL to restore your database</dd>
+   <span style="color:#555555;font-size:11px;font-weight:bold;line-height:21px;background-color:transparent;"><img src="Azure-restore.jpg" alt="Azure-restore.jpg" style="margin:5px;"></span></dl><dl class="good" style="margin:0px;padding-top:10px;padding-bottom:10px;padding-left:20px;font-family:arial, helvetica, sans-serif;line-height:17px;"><dd style="margin-top:-2px;margin-left:0px;padding-bottom:7px;padding-left:1.7em;">Figure: Good example - Using the built in SQL Azure Database automatic backup system to restore your database</dd></dl>
+
+
+Azure SQL Database automatically creates backups of every active database using the following schedule: Full database backup once a week, differential database backups once a day, and transaction log backups every 5 minutes. The full and differential backups are replicated across regions to ensure availability of the backups in the event of a disaster.
+
+**Backup Storage**
+
+Backup storage is the storage associated with your automated database backups that are used for Point in Time Restore and Geo-Restore. Azure SQL Database provides up to 200% of your maximum provisioned database storage of backup storage at no additional cost.
+
+
+
+
+| Service Tier | Geo-Restore | Self-Service Point in Time Restore | Backup Retention Period | Restore a Deleted Database |
+| --- | --- | --- | --- | --- |
+| Web | Not supported | Not supported | n/a | n/a |
+| Business | Not supported | Not supported | n/a | n/a |
+| Basic | Supported | Supported | 7 days | √ |
+| Standard | Supported | Supported | 14 days | √ |
+| Premium | Supported | Supported | 35 days | √ |
+
+
+Figure: All the modern SQL Azure Service Tiers support back up. Web and Business tiers are being retired and do not support backup. Check [Web and Business Edition Sunset FAQ](https://msdn.microsoft.com/en-us/library/azure/dn741330.aspx) for up to date retention periods.
+
+**Learn more:**
+
+* Microsoft documentation - [Azure SQL Database Backup and Restore](https://msdn.microsoft.com/en-us/library/azure/jj650016.aspx)
+* Video demo on Channel 9 - [Restore a SQL Database Using Point in Time Restore](http://channel9.msdn.com/Blogs/Windows-Azure/Restore-a-SQL-Database-Using-Point-in-Time-Restore)
+
+
+
+
+**Other ways to back up Azure SQL Database:
+**
+
+* Microsoft Blog - [Different ways to Backup your Windows Azure SQL Database](http://blogs.msdn.com/b/mast/archive/2013/03/04/different-ways-to-backup-your-windows-azure-sql-database.aspx)
+
+
+**
+**
