@@ -14,9 +14,136 @@ related: []
 
 ---
 
+Any DateTime fields must be converted to universal time from the application to the stored procedures when storing data into the database.
 
-<p>​​​​Any DateTime fields must be converted to universal time from the application to the stored procedures when storing data into the database.<br></p><p>We can simplify dealing with datetime conversions by using a date and time API such as <a href="https&#58;//nodatime.org/">Noda TIme</a>.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Noda Time uses the concept of an Instant representing a global point in time, which is first converted to UTC time and then to the users local time when required for display.​<br>An Instant is the number of nanoseconds since January 1st 1970. Using an Instant gives more granularity than datetime because it uses nanoseconds rather than ticks (100 nanoseconds).​​<br></p><p class="ssw15-rteElement-CodeArea">//------ .NET DateTime Examples<br>int year, month, day;<br>int hour, minute, second;<br><br>long nowInTicks = DateTime.Now.Ticks;&#160; &#160; &#160; &#160; &#160; &#160; &#160;//&#160; &#160; &#160; 637158251390332189<br>DateTime now = DateTime.Now;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160;<br>DateTime nowUtc = DateTime.UtcNow;<br>DateTime date = new DateTime(2020, 1, 2);&#160; &#160; &#160; &#160; //&#160; &#160; &#160; 2/01/2020 12&#58;00&#58;00 AM<br>TimeSpan time = new TimeSpan(16, 20, 0);&#160; &#160; &#160; &#160;&#160;//&#160; &#160; &#160; 16&#58;20&#58;00<br>DateTime dateTime = date + time;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;&#160; &#160; &#160; //&#160; &#160; &#160; 2/01/2020 4&#58;20&#58;00 PM<br><br>date = dateTime.Date;<br>time = dateTime.TimeOfDay;<br>year = date.Year;<br>month = date.Month;<br>day = date.Day;<br>hour = time.Hours;<br>minute = time.Minutes;<br>second = time.Seconds;<br><br>int startDate = (int)date.DayOfWeek;<br>int target = (int)DayOfWeek.Wednesday;<br>if (target &lt;= startDate)<br>&#160; &#160; target += 7;<br>DateTime nextWednesday = date.AddDays(target - startDate);&#160; &#160; &#160;//&#160; &#160; &#160;8/01/2020 12&#58;00&#58;00 AM<br><br>startDate = (int)date.DayOfWeek;<br>target = (int)DayOfWeek.Friday;<br>if (target &gt; startDate)<br>&#160; &#160; target -= 7;<br>DateTime lastFriday = date.AddDays(-(startDate - target));&#160; &#160; &#160; &#160; &#160;//&#160; &#160; &#160;27/12/2019 12&#58;00&#58;00 AM<br><br>TimeSpan t1 = TimeSpan.FromDays(1.0);<br>TimeSpan t2 = TimeSpan.FromHours(1.0);<br>​<br>int timespanCheck = TimeSpan.Compare(t1, t2);<br>TimeSpan longestSpan;<br>TimeSpan shortestSpan;<br>if(timespanCheck &gt; 0)<br>&#123;<br>&#160; &#160; longestSpan = t1;<br>&#160; &#160; shortestSpan = t2;<br>&#125;&#160;<br>else if(timespanCheck &lt; 0)<br>&#123;<br>&#160; &#160; shortestSpan = t1;<br>&#160; &#160; longestSpan = t2;<br>&#125;<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example -&#160;​​Using .Net DateTime to manipulate dates and times.<br></dd><p class="ssw15-rteElement-CodeArea">//------&#160; &#160; Noda&#160;Time Examples<br>int year, month, day;<br>int hour, minute, second;<br><br>Instant nowAsInstant = SystemClock.Instance.GetCurrentInstant(); //&#160; &#160;2020-01-28T05&#58;18&#58;26Z<br><br>DateTimeZone zone = DateTimeZoneProviders.Tzdb[&quot;Australia/Melbourne&quot;];<br>ZonedClock utcClock = SystemClock.Instance.InUtc();<br>ZonedClock localClock = SystemClock.Instance.InZone(zone);<br>LocalDate ntDate = new LocalDate(2020, 1, 2);&#160; &#160;//&#160; &#160; &#160; Thursday, 2 January 2020<br>LocalTime ntTime = new LocalTime(16, 20);&#160; &#160; &#160; &#160;//&#160; &#160; &#160; 4&#58;20&#58;00 PM<br>LocalDateTime ntdateTime = ntDate.At(ntTime);&#160; &#160;//&#160; &#160; &#160; 2/01/2020 4&#58;20&#58;00 PM<br><br>ntdateTime.Deconstruct(out ntDate, out ntTime);<br>ntDate.Deconstruct(out year, out month, out day);<br>ntTime.Deconstruct(out hour, out minute, out second);<br><br>LocalDate ntNextWednesday = ntDate.Next(IsoDayOfWeek.Wednesday); //&#160; &#160; Wednesday, 8 January 2020<br>LocalDate ntLastFriday = ntDate.Previous(IsoDayOfWeek.Friday);&#160; &#160;//&#160; &#160; Friday, 27 December 2019<br><br>Duration d1 = Duration.FromDays(1);<br>Duration d2 = Duration.FromHours(1);<br>Duration longestDuration&#160;= Duration.Max(d1, d2);<br>Duration shortestDuration&#160;= Duration.Min(d1, d2);&#160;<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Using Noda Time to manipulate dates and times.<br></dd><dd class="ssw15-rteElement-FigureNormal"><br></dd><p>When retrieving data from the database it must be converted back to the local time of the user.</p><p>That way you get an accurate representation of&#160;the time someone entered data into the database (i.e. the DateUpdated field).<br>The exception to this rule, however, is for already existing databases that deal with DateTime as part of their queries.<br>e.g. SSW Time PRO.NET is an application that allows employees to enter their timesheet. The table used for storing this information has an important field that has a DateTime data type.<br></p><p>This cannot be converted to UTC in the database because that would mean&#58;<br></p><ol><li>Converting every single entry since entries began being stored (in SSW's case since 1996) to keep information consistent;</li><li>Other separate applications currently using the timesheet information in the database for reporting will also have to be entirely modified.</li></ol><p></p><p>Currently, there will be an issue if for example, someone from the US (Pacific time) has 19 hours difference between her local time and our servers.​​​​​<br></p><p><strong>Example&#58;</strong>&#160;Sally in the US enters a timesheet for the 21/04/05. (which will default to have a time of 12&#58;00&#58;00 AM since the time was not specified)<br>Our servers will store it as 21/04/05 19&#58;00&#58;00 in other words 21/04/05 07&#58;00&#58;00 PM because the .NET Framework will automatically convert the time accordingly for our Web Service.<br>Therefore our servers have to take the Date component of the DateTime and add the Time component as 12&#58;00&#58;00 AM to make it stored in our local time format.<br></p><p class="ssw15-rteElement-CodeArea">[WebMethod] <br>public double GetDateDifference(DateTime dateRemote) <br>&#123; <br>DateTime dateLocal = dateRemote.Date; <br>​​return (dateRemote.TimeOfDay.TotalHours - ​​dateLocal.TimeOfDay.TotalHours); <br>​&#125;</p><p><strong>Figure&#58; When dateRemote is passed in from the remote machine, .Net Framework will have already converted it to the UTC equivalent for the local server (i.e. the necessary hours would have been added to cater for the local server time).</strong></p><p>In the above code snippet, the .Date property would cut off the Time portion of the DateTime variable and set the Time portion to &quot;12&#58;00&#58;00 AM&quot; as default.</p><p>This is for applications we currently have that&#58;</p><ol><li>Consider the DateTime component integral for the implementation of the application.<br></li><li>That will be used world-wide.</li></ol><p><br></p>
+We can simplify dealing with datetime conversions by using a date and time API such as [Noda TIme](https&#58;//nodatime.org/).
+
+<!--endintro-->
+
+Noda Time uses the concept of an Instant representing a global point in time, which is first converted to UTC time and then to the users local time when required for display.
+An Instant is the number of nanoseconds since January 1st 1970. Using an Instant gives more granularity than datetime because it uses nanoseconds rather than ticks (100 nanoseconds).
+
+//------ .NET DateTime Examples
+int year, month, day;
+int hour, minute, second;
+
+long nowInTicks = DateTime.Now.Ticks;             //      637158251390332189
+DateTime now = DateTime.Now;                    
+DateTime nowUtc = DateTime.UtcNow;
+DateTime date = new DateTime(2020, 1, 2);        //      2/01/2020 12:00:00 AM
+TimeSpan time = new TimeSpan(16, 20, 0);        //      16:20:00
+DateTime dateTime = date + time;                     //      2/01/2020 4:20:00 PM
+
+date = dateTime.Date;
+time = dateTime.TimeOfDay;
+year = date.Year;
+month = date.Month;
+day = date.Day;
+hour = time.Hours;
+minute = time.Minutes;
+second = time.Seconds;
+
+int startDate = (int)date.DayOfWeek;
+int target = (int)DayOfWeek.Wednesday;
+if (target &lt;= startDate)
+    target += 7;
+DateTime nextWednesday = date.AddDays(target - startDate);     //     8/01/2020 12:00:00 AM
+
+startDate = (int)date.DayOfWeek;
+target = (int)DayOfWeek.Friday;
+if (target &gt; startDate)
+    target -= 7;
+DateTime lastFriday = date.AddDays(-(startDate - target));         //     27/12/2019 12:00:00 AM
+
+TimeSpan t1 = TimeSpan.FromDays(1.0);
+TimeSpan t2 = TimeSpan.FromHours(1.0);
+
+int timespanCheck = TimeSpan.Compare(t1, t2);
+TimeSpan longestSpan;
+TimeSpan shortestSpan;
+if(timespanCheck &gt; 0)
+{
+    longestSpan = t1;
+    shortestSpan = t2;
+} 
+else if(timespanCheck &lt; 0)
+{
+    shortestSpan = t1;
+    longestSpan = t2;
+}
 
 
+::: bad
+Figure: Bad Example - Using .Net DateTime to manipulate dates and times.
+
+:::
+
+
+//------    Noda Time Examples
+int year, month, day;
+int hour, minute, second;
+
+Instant nowAsInstant = SystemClock.Instance.GetCurrentInstant(); //   2020-01-28T05:18:26Z
+
+DateTimeZone zone = DateTimeZoneProviders.Tzdb["Australia/Melbourne"];
+ZonedClock utcClock = SystemClock.Instance.InUtc();
+ZonedClock localClock = SystemClock.Instance.InZone(zone);
+LocalDate ntDate = new LocalDate(2020, 1, 2);   //      Thursday, 2 January 2020
+LocalTime ntTime = new LocalTime(16, 20);       //      4:20:00 PM
+LocalDateTime ntdateTime = ntDate.At(ntTime);   //      2/01/2020 4:20:00 PM
+
+ntdateTime.Deconstruct(out ntDate, out ntTime);
+ntDate.Deconstruct(out year, out month, out day);
+ntTime.Deconstruct(out hour, out minute, out second);
+
+LocalDate ntNextWednesday = ntDate.Next(IsoDayOfWeek.Wednesday); //    Wednesday, 8 January 2020
+LocalDate ntLastFriday = ntDate.Previous(IsoDayOfWeek.Friday);   //    Friday, 27 December 2019
+
+Duration d1 = Duration.FromDays(1);
+Duration d2 = Duration.FromHours(1);
+Duration longestDuration = Duration.Max(d1, d2);
+Duration shortestDuration = Duration.Min(d1, d2);
+
+
+::: good
+Figure: Good Example - Using Noda Time to manipulate dates and times.
+
+:::
+
+ **
+** 
+When retrieving data from the database it must be converted back to the local time of the user.
+
+That way you get an accurate representation of the time someone entered data into the database (i.e. the DateUpdated field).
+The exception to this rule, however, is for already existing databases that deal with DateTime as part of their queries.
+e.g. SSW Time PRO.NET is an application that allows employees to enter their timesheet. The table used for storing this information has an important field that has a DateTime data type.
+
+This cannot be converted to UTC in the database because that would mean:
+
+1. Converting every single entry since entries began being stored (in SSW's case since 1996) to keep information consistent;
+2. Other separate applications currently using the timesheet information in the database for reporting will also have to be entirely modified.
+
+
+
+
+Currently, there will be an issue if for example, someone from the US (Pacific time) has 19 hours difference between her local time and our servers.
+
+**Example:**  Sally in the US enters a timesheet for the 21/04/05. (which will default to have a time of 12:00:00 AM since the time was not specified)
+Our servers will store it as 21/04/05 19:00:00 in other words 21/04/05 07:00:00 PM because the .NET Framework will automatically convert the time accordingly for our Web Service.
+Therefore our servers have to take the Date component of the DateTime and add the Time component as 12:00:00 AM to make it stored in our local time format.
+
+[WebMethod] 
+public double GetDateDifference(DateTime dateRemote) 
+{ 
+DateTime dateLocal = dateRemote.Date; 
+return (dateRemote.TimeOfDay.TotalHours - dateLocal.TimeOfDay.TotalHours); 
+}
+
+**Figure: When dateRemote is passed in from the remote machine, .Net Framework will have already converted it to the UTC equivalent for the local server (i.e. the necessary hours would have been added to cater for the local server time).**
+
+In the above code snippet, the .Date property would cut off the Time portion of the DateTime variable and set the Time portion to "12:00:00 AM" as default.
+
+This is for applications we currently have that:
+
+1. Consider the DateTime component integral for the implementation of the application.
+2. That will be used world-wide.
