@@ -31,6 +31,11 @@ index:
 - performance-tuning---do-you-make-sure-to-clear-sql-server-cache-when-performing-benchmark-tests
 
 ---
-<p>​Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of&#58;</p><ul><li>​Ensuring your databases are Normalized and in 3rd Normal Form&#160;</li><li>Making sure you have primary keys, foreign keys and simple indexes to improve performance&#160;</li><li>Making sure you Back up regularly&#160;</li><li>​Basic Naming conventions (see some of our object naming conventions)&#160;</li><li>Minimizing resultset sizes and data over the wire​​​</li></ul>
-<p class="ssw15-rteElement-P"><br></p><p></p>
+Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of:
+
+* Ensuring your databases are Normalized and in 3rd Normal Form
+* Making sure you have primary keys, foreign keys and simple indexes to improve performance
+* Making sure you Back up regularly
+* Basic Naming conventions (see some of our object naming conventions)
+* Minimizing resultset sizes and data over the wire
 
