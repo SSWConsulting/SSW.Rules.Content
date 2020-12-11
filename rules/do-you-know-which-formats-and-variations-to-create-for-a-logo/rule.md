@@ -12,15 +12,68 @@ related: []
 
 ---
 
+An SSW logo design will be used in different situations. Be in large or small, horizontal and vertical, black or white, for print or for the web. Whatever the situation, we will want to do all we can to ensure it looks good in every scenario.
+A number of different formats will be generated, each intended for a different purpose, so it’s important to know what format you’re creating and why.
 
-​​​​​An SSW logo design will be used in different situations. Be in large or small, horizontal and vertical, black or white, for print or for the web. Whatever the situation, we will want to do all we can to ensure it looks good in every scenario.<br>A number of different formats will be generated, each intended for a different purpose, so it’s important to know what format you’re creating and why.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​<span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">1. EPS: Encapsulated PostScript</span></p><p>​EPS format is a vector file that can be opened by the widest range of software, including older versions of Illustrator, as well as products outside of Adobe, such as Corel Draw and Sketch on Mac. For this reason, an EPS format must be created as an editable source file. <br></p><h3 class="ssw15-rteElement-H3">2. SVG: Scalable Vector Graphics<br></h3><p>SVG is a vector image format that can be used online. With higher resolution screens becoming more and more common, since it’s a vector format, an SVG file will ensure the logo we designed remains sharp no matter the device it’s viewed on. Therefore, an SVG format should be created for developers to use on web or app projects. <br></p><h3 class="ssw15-rteElement-H3">3. PNG: Portable Network Graphics<br></h3><p>PNG format allows for transparency, so it can be placed over colored background or images. A PNG format with a transparent background and width of 1000px also should be generated for various usages (e.g. using on a powerpoint). ​<br></p><h3 class="ssw15-rteElement-H3">4. Favicon: Also known as a shortcut icon, website icon, tab icon, URL icon, or bookmark icon<br></h3><p>​Needed when we are creating a logo for a product that has a website, a favicon is used on apps and browsers. It used to be created specifically in the ICO format. Currently, any transparent file type will work nowadays. PNG is the preferred format of choice.<br></p><p>With the iPhone and so many new devices created during the last 10 years, the favicon is no longer a single 16×16 picture. It has many usages, many sizes, and many designs. The most well-known derivative is the Apple Touch Icon for iOS. This icon is used when your visitor adds your site to his home screen. Therefore, we extract the most recognizable icon from the logo and make it as a favicon in different sizes.<br></p><p></p><ul><li>32×32: Standard for most desktop browsers (replaces 16×16)<br></li><li>128×128: Chrome store and small Windows 8 start screen icon<br></li><li>152×152: iPad touch icon<br></li><li>167×167: iPad Retina touch icon<br></li><li>180×180: iPhone Retina icon<br></li><li>192×192: Google Developer web app recommendation<br></li><li>196×196: Android home screen icon<br></li></ul><h3 class="ssw15-rteElement-H3">5. Color Variation<br></h3><p>​We should have the following color variation when we creating a logo:<br></p><ol><li>
-      <span style="color:#444444;">Color</span><br></li><li>
-      <span style="color:#444444;">All Black</span><br></li><li>
-      <span style="color:#444444;">All White (in a dark background)​</span><br></li></ol><dl class="ssw15-rteElement-ImageArea">
-      <img src="ssw logo sample.png" alt="" style="width:770px;" />
-   </dl><dd class="ssw15-rteElement-FigureGood">Figure: Good Example -​ SSW logo design has three different color set​<br></dd>
-<p></p><h3 class="ssw15-rteElement-H3">6. Source file: Illustrator/Sketch</h3><p>​Always keep a copy of the source file in Illustrator/Sketch for designers.<br></p><h3 class="ssw15-rteElement-H3">​Good Example:<br></h3><ul><li><a href="https://www.ssw.com.au/ssw/logo/">SSW Logo Index​</a>​<br></li></ul>
+<!--endintro-->
+
+1. EPS: Encapsulated PostScript
+
+EPS format is a vector file that can be opened by the widest range of software, including older versions of Illustrator, as well as products outside of Adobe, such as Corel Draw and Sketch on Mac. For this reason, an EPS format must be created as an editable source file.
+
+### 2. SVG: Scalable Vector Graphics
 
 
+SVG is a vector image format that can be used online. With higher resolution screens becoming more and more common, since it’s a vector format, an SVG file will ensure the logo we designed remains sharp no matter the device it’s viewed on. Therefore, an SVG format should be created for developers to use on web or app projects.
+
+### 3. PNG: Portable Network Graphics
+
+
+PNG format allows for transparency, so it can be placed over colored background or images. A PNG format with a transparent background and width of 1000px also should be generated for various usages (e.g. using on a powerpoint).
+
+### 4. Favicon: Also known as a shortcut icon, website icon, tab icon, URL icon, or bookmark icon
+
+
+Needed when we are creating a logo for a product that has a website, a favicon is used on apps and browsers. It used to be created specifically in the ICO format. Currently, any transparent file type will work nowadays. PNG is the preferred format of choice.
+
+With the iPhone and so many new devices created during the last 10 years, the favicon is no longer a single 16×16 picture. It has many usages, many sizes, and many designs. The most well-known derivative is the Apple Touch Icon for iOS. This icon is used when your visitor adds your site to his home screen. Therefore, we extract the most recognizable icon from the logo and make it as a favicon in different sizes.
+
+
+
+* 32×32: Standard for most desktop browsers (replaces 16×16)
+* 128×128: Chrome store and small Windows 8 start screen icon
+* 152×152: iPad touch icon
+* 167×167: iPad Retina touch icon
+* 180×180: iPhone Retina icon
+* 192×192: Google Developer web app recommendation
+* 196×196: Android home screen icon
+
+
+### 5. Color Variation
+
+
+We should have the following color variation when we creating a logo:
+
+1. Color
+2. All Black
+3. All White (in a dark background)
+
+<dl class="ssw15-rteElement-ImageArea">      <img src="ssw logo sample.png" alt="" style="width:770px;">
+   </dl>
+
+::: good
+Figure: Good Example - SSW logo design has three different color set
+
+:::
+
+
+
+
+### 6. Source file: Illustrator/Sketch
+
+Always keep a copy of the source file in Illustrator/Sketch for designers.
+
+### Good Example:
+
+
+* [SSW Logo Index](https://www.ssw.com.au/ssw/logo/)
