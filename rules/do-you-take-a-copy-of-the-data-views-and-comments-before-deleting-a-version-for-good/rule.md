@@ -14,9 +14,8 @@ related: []
 
 ---
 
+Sometimes you have multiple versions of a video as you improve it and you zz’d the title of old versions.
 
-<p class="ssw15-rteElement-P">Sometimes you have multiple versions of a video as you improve it and you zz’d the title of old versions.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​If you need to delete them, then It is important to take a copy of the ‘data’. The data is views and comments and can be simply emailed to the Product Owner prior to deletion.​<br></p>
+<!--endintro-->
 
-
+If you need to delete them, then It is important to take a copy of the ‘data’. The data is views and comments and can be simply emailed to the Product Owner prior to deletion.
