@@ -14,10 +14,10 @@ related: []
 
 ---
 
+Try to use content query web part to show data instead of jQuery as it's better for Google indexing.  
+<!--endintro-->
 
-​Try to use content query web part to show data instead of jQuery as it's better for Google indexing. 
-<br><excerpt class='endintro'></excerpt><br>
-<p>For those out of date data, you can use an archive page and change the filtering of CQWP to return all of them, so that the old data are still there and the ranking of the page won't be influenced.</p><p>For more SharePoint SEO, check from this 
-         <a href="http://spmatt.wordpress.com/2012/03/12/search-engine-optimisation-seo-for-sharepoint-sites-part-2/">article</a>.​</p><dl class="image"><dt><img class="ssw-rteStyle-ImageArea" alt="contentquerywebpart.png" src="contentquerywebpart.png" width="643" height="463" style="width:613px;height:433px;" /></dt><dd>Figure: Use content query web part</dd></dl>
+For those out of date data, you can use an archive page and change the filtering of CQWP to return all of them, so that the old data are still there and the ranking of the page won't be influenced.
 
-
+For more SharePoint SEO, check from this           [article](http://spmatt.wordpress.com/2012/03/12/search-engine-optimisation-seo-for-sharepoint-sites-part-2/).
+<dl class="image">&lt;dt&gt;<img class="ssw-rteStyle-ImageArea" alt="contentquerywebpart.png" src="contentquerywebpart.png" width="643" height="463" style="width:613px;height:433px;">&lt;/dt&gt;<dd>Figure: Use content query web part</dd></dl>
