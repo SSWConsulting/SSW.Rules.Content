@@ -16,36 +16,29 @@ related: []
 
 ---
 
+Design patterns are useful for ensuring [common design principles](/Pages/DoYouKnowCommonDesignPrinciples.aspx)are being followed.  They help make your code consistent, predictable, and easy to maintain.
 
-<p>Design patterns are useful for ensuring <a href="/Pages/DoYouKnowCommonDesignPrinciples.aspx">common design principles </a>are being followed.&#160; They help make your code consistent, predictable,&#160;and easy to maintain.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​There are a very large number of Design Patterns, but here are a few important ones.</p>
-<table width="100%" cellpadding="4" border="1" class="ssw-rteTable-default" style="border-collapse&#58;collapse;"><tbody><tr class="ssw-rteTableEvenRow-default">
-<th class="ssw-rteTableFirstCol-default">​IOC</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Inversion_of_control">​Inversion of Control</a></td>
-<td class="ssw-rteTableEvenCol-default">Control of the object coupling is the responsibility of the caller, not the class.</td></tr>
-<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​DI</th>
-<td class="ssw-rteTableOddCol-default">​<a href="http&#58;//en.wikipedia.org/wiki/Dependency_injection">Dependency Injection</a></td>
-<td class="ssw-rteTableEvenCol-default">Dependencies are &quot;injected&quot; into the dependent object rather than the object depending on concretions.</td></tr>
-<tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​Factory</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Factory_pattern">​Factory Pattern</a></td>
-<td class="ssw-rteTableEvenCol-default">​Object creation is handled by a &quot;factory&quot; that can provide different concretions based on an abstraction.</td></tr>
-<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​Singleton</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Singleton_pattern">​Singleton Pattern</a></td>
-<td class="ssw-rteTableEvenCol-default">​Instantiation of an object is limited to one instance to be shared across the system.</td></tr>
-<tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​Repository</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//msdn.microsoft.com/en-us/library/ff649690.aspx">​Repository Pattern</a></td>
-<td class="ssw-rteTableEvenCol-default">​A repository is used to handle the data mapping details of CRUD operations on domain objects.</td></tr>
-<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​Unit of Work</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//msdn.microsoft.com/en-us/magazine/dd882510.aspx">​Unit of Work Pattern</a></td>
-<td class="ssw-rteTableEvenCol-default">​A way of handling multiple database operations that need to be done as part of a piece of work.</td></tr>
-<tr class="ssw-rteTableEvenRow-default"><th class="ssw-rteTableFirstCol-default">​MVC</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller">​Model View Controller</a></td>
-<td class="ssw-rteTableEvenCol-default">​An architectural pattern separating domain logic (Controller) from&#160;how domain objects (Models) are presented (View).</td></tr>
-<tr class="ssw-rteTableOddRow-default"><th class="ssw-rteTableFirstCol-default">​MVP</th>
-<td class="ssw-rteTableOddCol-default"><a href="http&#58;//en.wikipedia.org/wiki/Model_View_Presenter">​Model View Presenter</a></td>
-<td class="ssw-rteTableEvenCol-default">​An architectural pattern deriving from MVC where the View handles UI events instead of the Controller.</td></tr></tbody></table>
-<span class="ssw-rteStyle-FigureNormal">Figure&#58; Choose patterns wisely to improve your solution architecture</span>
-<p>It is assumed knowledge that you know these design patterns. If you don't, read about them on the sites above or watch the <a href="http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=patterns-library">PluralSight videos on Software Patterns.</a></p>
+<!--endintro-->
+
+There are a very large number of Design Patterns, but here are a few important ones.
 
 
+| IOC | [Inversion of Control](http&#58;//en.wikipedia.org/wiki/Inversion_of_control) | Control of the object coupling is the responsibility of the caller, not the class. |
+| --- | --- | --- |
+| DI | [Dependency Injection](http&#58;//en.wikipedia.org/wiki/Dependency_injection) | Dependencies are "injected" into the dependent object rather than the object depending on concretions. |
+| --- | --- | --- |
+| Factory | [Factory Pattern](http&#58;//en.wikipedia.org/wiki/Factory_pattern) | Object creation is handled by a "factory" that can provide different concretions based on an abstraction. |
+| --- | --- | --- |
+| Singleton | [Singleton Pattern](http&#58;//en.wikipedia.org/wiki/Singleton_pattern) | Instantiation of an object is limited to one instance to be shared across the system. |
+| --- | --- | --- |
+| Repository | [Repository Pattern](http&#58;//msdn.microsoft.com/en-us/library/ff649690.aspx) | A repository is used to handle the data mapping details of CRUD operations on domain objects. |
+| --- | --- | --- |
+| Unit of Work | [Unit of Work Pattern](http&#58;//msdn.microsoft.com/en-us/magazine/dd882510.aspx) | A way of handling multiple database operations that need to be done as part of a piece of work. |
+| --- | --- | --- |
+| MVC | [Model View Controller](http&#58;//en.wikipedia.org/wiki/Model%e2%80%93view%e2%80%93controller) | An architectural pattern separating domain logic (Controller) from how domain objects (Models) are presented (View). |
+| --- | --- | --- |
+| MVP | [Model View Presenter](http&#58;//en.wikipedia.org/wiki/Model_View_Presenter) | An architectural pattern deriving from MVC where the View handles UI events instead of the Controller. |
+| --- | --- | --- |
+
+Figure: Choose patterns wisely to improve your solution architecture
+It is assumed knowledge that you know these design patterns. If you don't, read about them on the sites above or watch the [PluralSight videos on Software Patterns.](http&#58;//www.pluralsight-training.net/microsoft/courses/TableOfContents?courseName=patterns-library)
