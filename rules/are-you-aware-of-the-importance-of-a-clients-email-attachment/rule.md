@@ -14,18 +14,13 @@ related: []
 
 ---
 
+Sometimes clients will add attachment files into emails. Those files could be documents or images, which may contain details or solutions of the issue, or some helpful information.
+ To keep the history, it is very important to embed the attachment files into the email since it's easy to lose those files when responding.  
+<!--endintro-->
 
-Sometimes clients will add attachment files into emails. Those files could be documents or images, which may contain details or solutions of the issue, or some helpful information.<br>
-To keep the history, it is very important to embed the attachment files into the email since it's easy to lose those files when responding.
+![](EmailAttachImage_1_small.jpg)
+<font class="ms-rteCustom-FigureBad">Figure: Bad Example - The image is in attachment. </font>
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  ​​<img src="EmailAttachImage_1_small.jpg" alt="The image is in attachment. " class="ms-rteCustom-ImageArea" /><p>
-<font size="+0" class="ms-rteCustom-FigureBad">Figure: Bad Example - The image is in attachment. </font><br>
-<img src="EmailAttachImage_2.JPG" alt="The image is included in the context" class="ms-rteCustom-ImageArea" /><br>
-<font size="+0" class="ms-rteCustom-FigureGood">Figure: Good Example - The image is included in the context.</font><br>
-PS: Clients make attachments because they are using OWA and you can't paste an image in - see suggestion for OWA </p>
-<p> </p>
-
-
-
+![](EmailAttachImage_2.JPG)
+<font class="ms-rteCustom-FigureGood">Figure: Good Example - The image is included in the context.</font>
+ PS: Clients make attachments because they are using OWA and you can't paste an image in - see suggestion for OWA
