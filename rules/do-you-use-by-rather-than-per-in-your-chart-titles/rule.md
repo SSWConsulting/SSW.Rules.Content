@@ -17,6 +17,6 @@ related: []
 
 When making reports, charts, and visualizations, it’s important to be consistent with your titles.<br>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Power BI shows &quot;XXX by YYY&quot; (e.g. total earnings by month) rather than &quot;XXX per YYY&quot; and so it’s best to stay with the default and use this throughout your charts.<br></p><dl class="badImage"><dt><img src="/PublishingImages/by-per-bad.jpg" alt="by-per-bad.jpg" /></dt><dd>Figure&#58; Bad example - Using &quot;per&quot;</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/by-per-good.jpg" alt="by-per-good.jpg" /></dt><dd>Figure&#58; Good example - Using &quot;by&quot; ​<br></dd></dl>
+<p>Power BI shows "XXX by YYY" (e.g. total earnings by month) rather than "XXX per YYY" and so it’s best to stay with the default and use this throughout your charts.<br></p><dl class="badImage"><dt><img src="by-per-bad.jpg" alt="by-per-bad.jpg" /></dt><dd>Figure: Bad example - Using "per"</dd></dl><dl class="goodImage"><dt><img src="by-per-good.jpg" alt="by-per-good.jpg" /></dt><dd>Figure: Good example - Using "by" ​<br></dd></dl>
 
 
