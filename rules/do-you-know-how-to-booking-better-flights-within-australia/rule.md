@@ -10,9 +10,6 @@ related: []
 
 ---
 
+Follow the steps 1-3 above.
 
-<p>​Follow the steps 1-3 above.​​</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
