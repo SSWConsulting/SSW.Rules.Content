@@ -15,12 +15,12 @@ related: []
 ---
 
 
-Readability of URLs is important,&#160;so you should consider making a&#160;short URL. However, it is not just making the length as short as possible - it should be friendly.​&#160;<br>
+Readability of URLs is important, so you should consider making a short URL. However, it is not just making the length as short as possible - it should be friendly.​ <br>
 <br><excerpt class='endintro'></excerpt><br>
-<p>If you use a shortened link people can't see what they are clicking through to. In fact, this is what most spammers rely on&#58;</p><p class="ssw15-rteElement-GreyBox">
-   <a shape="rect" href="http&#58;//twb.ly/1uJtUG">http&#58;//twb.ly/1uJtUG</a> </p><p> 
-   <font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad example - You don't know where this is going</font></p><p>When you can, take the more readable option&#58;</p><p class="ssw15-rteElement-GreyBox">
-   <a shape="rect" href="http&#58;//twibbon.com/join/Scotland">http&#58;//twibbon.com/join/Scotland</a> </p><p> 
-   <font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Better example - this link is sent in the clear as it is short enough</font></p><p>So you should only 'Auto Shorten URLs' when it is too long and you need the space.</p><p>However, it is becoming more prevalent for the software to support showing the full URL on rollover.<br></p><dl class="goodImage"><dt><img title="image" alt="image" src="/PublishingImages/RulesSocialTwitterReadableURL.jpg" border="0" style="width&#58;750px;" /></dt><dd>Figure&#58; Good example&#160;– the application does the heavy lifting for you<br></dd></dl> 
+<p>If you use a shortened link people can't see what they are clicking through to. In fact, this is what most spammers rely on:</p><p class="ssw15-rteElement-GreyBox">
+   <a shape="rect" href="http://twb.ly/1uJtUG">http://twb.ly/1uJtUG</a> </p><p> 
+   <font class="ms-rteCustom-FigureBad" size="+0">Figure: Bad example - You don't know where this is going</font></p><p>When you can, take the more readable option:</p><p class="ssw15-rteElement-GreyBox">
+   <a shape="rect" href="http://twibbon.com/join/Scotland">http://twibbon.com/join/Scotland</a> </p><p> 
+   <font class="ms-rteCustom-FigureGood" size="+0">Figure: Better example - this link is sent in the clear as it is short enough</font></p><p>So you should only 'Auto Shorten URLs' when it is too long and you need the space.</p><p>However, it is becoming more prevalent for the software to support showing the full URL on rollover.<br></p><dl class="goodImage"><dt><img title="image" alt="image" src="RulesSocialTwitterReadableURL.jpg" border="0" style="width:750px;" /></dt><dd>Figure: Good example – the application does the heavy lifting for you<br></dd></dl> 
 
 
