@@ -16,16 +16,49 @@ related: []
 
 ---
 
-
-​When creating an appointment email for an initial meeting, make sure you include the words "<b>initial</b>" and "<b>meeting</b>" on the subject. <br> 
-<div><p class="ssw15-rteElement-GreyBox"><b>Subject:</b><b></b> Northwind project with SSW and Bob<br></p></div><div><dd class="ssw15-rteElement-FigureBad"> Figure: Bad subject - not clear it is an initial meeting<br></dd><div><p class="ssw15-rteElement-GreyBox"> 
-         <b>Subject:</b> ​<span class="ssw15-rteStyle-Highlight">Initial meeting</span> with SSW and Bob from Northwind<br> <b>​Subject:</b> 
-         <span class="ssw15-rteStyle-Highlight">Initial</span> phone 
-         <span class="ssw15-rteStyle-Highlight">meeting</span> with SSW and Bob from Northwind</p></div><div><dd class="ssw15-rteElement-FigureGood">Figure: Good subjects - Make clear it is an initial meeting by having both words​ <br></dd></div></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>The Appointment should also be tracked (without regarding) in ​Dynamics 365 so that this information is readily available and reportable.</p><dl class="image"><dt><img src="initial-meeting-dynamics.png" alt="initial-meeting-dynamics.png" style="width:750px;" /></dt><dd>Figure: Initial Meeting created in Outlook and tracked to Dynamics 365</dd></dl>
-<p>The idea behind it is that Power BI can then track and show this.</p><dl class="image"><dt>
-      <img src="initial-meeting-graph.jpg" alt="initial-meeting-graph.jpg" style="width:750px;" />
-   </dt><dd>Figure: It's clear to see that there is no yellow in the past couple of months, which may indicate work drying up for Stephen's area<br></dd></dl>
+When creating an appointment email for an initial meeting, make sure you include the words " **initial** " and " **meeting** " on the subject. 
 
 
+
+::: greybox
+ **Subject:**  Northwind project with SSW and Bob
+
+:::
+
+
+
+
+
+::: bad
+Figure: Bad subject - not clear it is an initial meeting
+
+:::
+
+
+
+
+::: greybox
+**Subject:** <mark>Initial meeting</mark> with SSW and Bob from Northwind
+**Subject:** <mark>Initial</mark> phone <br>         <mark>meeting</mark> with SSW and Bob from Northwind
+:::
+
+
+
+
+
+::: good
+Figure: Good subjects - Make clear it is an initial meeting by having both words 
+
+:::
+
+
+
+
+<!--endintro-->
+
+The Appointment should also be tracked (without regarding) in Dynamics 365 so that this information is readily available and reportable.
+<dl class="image">&lt;dt&gt;<img src="initial-meeting-dynamics.png" alt="initial-meeting-dynamics.png" style="width:750px;">&lt;/dt&gt;<dd>Figure: Initial Meeting created in Outlook and tracked to Dynamics 365</dd></dl>
+The idea behind it is that Power BI can then track and show this.
+<dl class="image">&lt;dt&gt;
+      <img src="initial-meeting-graph.jpg" alt="initial-meeting-graph.jpg" style="width:750px;">
+   &lt;/dt&gt;<dd>Figure: It's clear to see that there is no yellow in the past couple of months, which may indicate work drying up for Stephen's area<br></dd></dl>
