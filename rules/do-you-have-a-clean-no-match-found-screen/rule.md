@@ -14,18 +14,16 @@ related: []
 
 ---
 
+When a user looks at a search result, they expect to see a list of items to look into. If there are no results, don't give them noisy text because it can be taken as a search result. An icon also can be understood as a broken page. Your "no results" page should be clean.
 
-<p>When a user looks at a search result, they expect to see a list of items to look into. If there are no results, don't give them noisy text <span style="line-height:20.7999992370605px;">because it can be taken as a search result. An</span> icon also can be understood as a broken page. Your "no results" page should be clean.​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="search-result-bad-list.jpg" alt="search-result-bad-list" /> 
-   </dt><dd>Figure: Bad example - The list of "suggestions" is just noise and can confuse the user​</dd></dl><dl class="badImage"><dt>
-      <img src="search-result-bad-icon.jpg" alt="search-result-bad-icon" />
-   </dt><dd>Figure: Bad example - Having an icon implies that an error happened which is not the case</dd></dl><dl class="goodImage"><dt> 
-      <img src="search-result-good-web.jpg" alt="search-result-good-web" /> 
-   </dt><dd>Figure: Good example - Plain and clean screen</dd></dl><dl class="goodImage"><dt> 
-      <img src="search-result-good-iphone.jpg" alt="search-result-good-iphone" /> 
-   </dt><dd>Figure: Good example - Plain and clean screen on mobile</dd></dl><p>
-   <b>Note:</b> In case the message you're showing is a "pass" or "fail, it is recommended to use an icon as per <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=f91fb66f-5a63-4404-a01d-06222a172e03">Do you use icons to enforce the text meaning? </a> </p>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; 
+      <img src="search-result-bad-list.jpg" alt="search-result-bad-list"> 
+   &lt;/dt&gt;<dd>Figure: Bad example - The list of "suggestions" is just noise and can confuse the user</dd></dl><dl class="badImage">&lt;dt&gt;
+      <img src="search-result-bad-icon.jpg" alt="search-result-bad-icon">
+   &lt;/dt&gt;<dd>Figure: Bad example - Having an icon implies that an error happened which is not the case</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img src="search-result-good-web.jpg" alt="search-result-good-web"> 
+   &lt;/dt&gt;<dd>Figure: Good example - Plain and clean screen</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img src="search-result-good-iphone.jpg" alt="search-result-good-iphone"> 
+   &lt;/dt&gt;<dd>Figure: Good example - Plain and clean screen on mobile</dd></dl>
+**Note:** In case the message you're showing is a "pass" or "fail, it is recommended to use an icon as per [Do you use icons to enforce the text meaning?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=f91fb66f-5a63-4404-a01d-06222a172e03)
