@@ -12,12 +12,44 @@ related: []
 
 ---
 
+If we want to refresh and data bind the same page from client side, we can use the javascript function calls "\_\_doPostBack". We shouldn't fire this post back in LinkButton. Otherwise, there will be an error.
 
-If we want to refresh and data bind the same page from client side, we can use the javascript function calls "__doPostBack". We shouldn't fire this post back in LinkButton. Otherwise, there will be an error.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="RightClickLink.gif" alt="RightClickLink.gif" /></dt><dd>Figure: Right click the link with __doPostBack event  ​
-</dd></dl><dl class="image"><dt><img src="PostBack.gif" alt="PostBack.gif" /></dt><dd>Figure: New window with incorrect URL</dd></dl>
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="RightClickLink.gif" alt="RightClickLink.gif">&lt;/dt&gt;<dd>Figure: Right click the link with __doPostBack event  
+</dd></dl><dl class="image">&lt;dt&gt;<img src="PostBack.gif" alt="PostBack.gif">&lt;/dt&gt;<dd>Figure: New window with incorrect URL</dd></dl>
+ASPX:
+<asp:panel runat="server" id="mUpdatePanel" onload="mUpdatePanel_Load"><br> <asp:label runat="server" id="lblTime"></asp:label><br> <br><br> <asp:gridview id="gvList" runat="server" autogeneratecolumns="false"><br> <columns><br> <asp:boundfield datafield="ID" headertext="ID"></asp:boundfield><br> </columns><br> <columns><br> <asp:boundfield datafield="Name" headertext="Name"></asp:boundfield><br> </columns><br> </asp:gridview><br> <br><br> ID:<asp:textbox id="txtID" runat="server"></asp:textbox><br> Name:<asp:textbox id="txtName" runat="server"></asp:textbox><br></asp:panel>
+C#:
+protected void mUpdatePanel\_Load(object sender, EventArgs e)
+{
+ lblTime.Text = DateTime.Now.ToLongTimeString();
+ ArrayList mList = (ArrayList)ViewState["List"];
+ if (txtName.Text.Length > 0)
+ {
+ Client mClient = new Client();
+ mClient.ID = Int32.Parse(txtID.Text);
+ mClient.Name = txtName.Text;
+ mList.Add(mClient);
+ ViewState["List"] = mList;
+ gvList.DataSource = mList;
+ gvList.DataBind();
+ }
+}
+ **Sample Code** 
+[Refresh](javascript:__doPostBack%28'mUpdatePanel',''%29;)
 
-   <p class="ssw15-rteElement-CodeArea">ASPX:<br><asp:Panel runat="server" ID="mUpdatePanel" OnLoad="mUpdatePanel_Load"><br> <asp:Label runat="server" ID="lblTime" /><br> <br /><br> <asp:GridView ID="gvList" runat="server" AutoGenerateColumns="false"><br> <Columns><br> <asp:BoundField DataField="ID" HeaderText="ID" /><br> </Columns><br> <Columns><br> <asp:BoundField DataField="Name" HeaderText="Name" /><br> </Columns><br> </asp:GridView><br> <br /><br> ID:<asp:TextBox ID="txtID" runat="server"/><br> Name:<asp:TextBox ID="txtName" runat="server"/><br></asp:Panel><br>C#:<br>protected void mUpdatePanel_Load(object sender, EventArgs e)<br>{<br> lblTime.Text = DateTime.Now.ToLongTimeString();<br> ArrayList mList = (ArrayList)ViewState["List"];<br> if (txtName.Text.Length > 0)<br> {<br> Client mClient = new Client();<br> mClient.ID = Int32.Parse(txtID.Text);<br> mClient.Name = txtName.Text;<br> mList.Add(mClient);<br> ViewState["List"] = mList;<br> gvList.DataSource = mList;<br> gvList.DataBind();<br> }<br>}<br></p><dd class="ssw15-rteElement-FigureNormal"> Sample Code​​​ </dd><p class="ssw15-rteElement-CodeArea">​​​<a href="javascript:__doPostBack('mUpdatePanel','');">Refresh</a> </p><dd class="ssw15-rteElement-FigureBad"> Bad Code​ </dd><p class="ssw15-rteElement-CodeArea"><input type="button" onclick="javascript:__doPostBack('mUpdatePanel','');" value="Refresh" /> </p><dd class="ssw15-rteElement-FigureGood"> Good Code​ </dd><p class="ssw15-rteElement-YellowBorderBox">We have a program called <a href="https://www.ssw.com.au/ssw/CodeAuditor/">SSW Code Auditor</a> to check for this rule.​<br></p><p>​<br></p>
+
+::: bad
+Bad Code
+:::
 
 
+<input type="button" onclick="javascript:__doPostBack('mUpdatePanel','');" value="Refresh">
+
+
+::: good
+Good Code
+:::
+
+
+We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.
