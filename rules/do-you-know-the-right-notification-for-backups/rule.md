@@ -12,10 +12,8 @@ related: []
 
 ---
 
+You need to log a record on success so you can check for backups that have failed. 
 
-​You need to log a record on success so you can check for backups that have failed. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="backup_notification_bad.jpg" alt="backup_notification_bad.jpg" /></dt><dd>Figure: Bad example - an email is sent on completion</dd></dl><dl class="goodImage"><dt><img src="backup_notification_good.jpg" alt="backup_notification_good.jpg" /></dt><dd>Figure: Good example - a record is logged on completion</dd></dl><p>​​​Now you are able to be aware of missing backups. You can make automatically notification based on above table e.g. <a href="https://www.ssw.com.au/ssw/KB/KB.aspx?KBID=Q1455840">by SQL Reporting Services data-driven subscription</a></p>
-​​<br>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="backup_notification_bad.jpg" alt="backup_notification_bad.jpg">&lt;/dt&gt;<dd>Figure: Bad example - an email is sent on completion</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="backup_notification_good.jpg" alt="backup_notification_good.jpg">&lt;/dt&gt;<dd>Figure: Good example - a record is logged on completion</dd></dl>
+Now you are able to be aware of missing backups. You can make automatically notification based on above table e.g. [by SQL Reporting Services data-driven subscription](https://www.ssw.com.au/ssw/KB/KB.aspx?KBID=Q1455840)
