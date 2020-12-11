@@ -9,6 +9,5 @@ index:
 - starting---do-you-know-how-to-make-newcomers-feel-welcome
 
 ---
-<p>​​​​​​​​​<br></p>
 
 
