@@ -12,14 +12,16 @@ related: []
 
 ---
 
+Installing MS Lync client on Andriod devices. Employees should be contactable no matter if they are in the office or not  (at a client). By installing the Lync client, everyone knows where they are and if they are available to take calls or answer questions that may arise. 
+<!--endintro-->
 
-​​Installing MS Lync client on Andriod devices. Employees should be contactable no matter if they are in the office or not  (at a client). By installing the Lync client, everyone knows where they are and if they are available to take calls or answer questions that may arise.
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Search for “Lync” in the <a href="https://play.google.com/store">Play store</a> 
-<dl class="image"><dt><img alt="android_playstore.png" src="241b2b_android_playstore.png" style="margin:5px;width:421px;" /></dt><dd>Figure: Search for Lync in Playstore</dd></dl></li><li>Install the Lync client on device</li><li>Set up Lync to sign into your account as follows:
-<dl class="image"><dt><img alt="lync-signin.png" src="lync-signin.png" style="width:450px;height:750px;" /></dt><dd>Figure: Lync sign in process</dd></dl><p>You just need to enter 3 fields:</p><ul><li>Sign in address is<strong> your email address</strong></li><li>Password is 
-      <strong>your AD password</strong></li><li>Username is domain\username. For example SSW2000\davidberkes</li></ul></li></ol>
-<p>Read more about 
-   <a href="http://www.ssw.com.au/ssw/Consulting/Lync.aspx">​implementing Microsoft Lync</a>.</p>
+1. Search for “Lync” in the [Play store](https://play.google.com/store)<dl class="image">&lt;dt&gt;<img alt="android_playstore.png" src="241b2b_android_playstore.png" style="margin:5px;width:421px;">&lt;/dt&gt;<dd>Figure: Search for Lync in Playstore</dd></dl>
+2. Install the Lync client on device
+3. Set up Lync to sign into your account as follows:<br><dl class="image">&lt;dt&gt;<img alt="lync-signin.png" src="lync-signin.png" style="width:450px;height:750px;">&lt;/dt&gt;<dd>Figure: Lync sign in process</dd></dl>    You just need to enter 3 fields:
+
+    * Sign in address is **your email address**
+    * Password is <br>       **your AD password**
+    * Username is domain\username. For example SSW2000\davidberkes
 
 
+Read more about     [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulting/Lync.aspx).
