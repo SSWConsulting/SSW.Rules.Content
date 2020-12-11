@@ -19,10 +19,10 @@ related: []
       Use TypeScript if you’re writing re-usable client side library</li></ul><p>Don't use CoffeeScript (language is too different from JavaSript)</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt> 
-      <img src="/PublishingImages/typescript-good.jpg" alt="" /> 
-   </dt><dd>Figure&#58; Good - TypeScript is very similar to JavaScript so it’s easy to learn, and also helps developers learn proper JavaScript coding practices</dd></dl>​
+      <img src="typescript-good.jpg" alt="" /> 
+   </dt><dd>Figure: Good - TypeScript is very similar to JavaScript so it’s easy to learn, and also helps developers learn proper JavaScript coding practices</dd></dl>​
    <dl class="badImage"><dt> 
-         <img src="/PublishingImages/typescript-bad.jpg" alt="" /> 
-      </dt><dd>Figure&#58; Bad – CoffeeScript syntax is very different from JavaScript so it takes longer to learn</dd> ​</dl>
+         <img src="typescript-bad.jpg" alt="" /> 
+      </dt><dd>Figure: Bad – CoffeeScript syntax is very different from JavaScript so it takes longer to learn</dd> ​</dl>
 
 
