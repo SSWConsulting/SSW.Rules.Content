@@ -12,14 +12,10 @@ related: []
 
 ---
 
+RIA services – RIP
 
-<p class="MsoListParagraph" style="text-indent&#58;-0.25in;"><span lang="EN-AU">&#160; &#160; &#160;&#160;RIA services – RIP</span></p>
+WCF – RIP(Now shipped in Asp.Net MVC4)
 
-<p><span lang="EN-AU">WCF – RIP(Now shipped in Asp.Net MVC4)</span></p>
+SOAP - RIP
 
-<p><span lang="EN-AU">SOAP - RIP</span></p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
