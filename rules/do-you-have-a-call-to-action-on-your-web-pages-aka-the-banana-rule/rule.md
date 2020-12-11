@@ -12,12 +12,15 @@ related: []
 
 ---
 
+If you want users to take action on the web page content, add a "banana" - something that makes it obvious what the user is supposed to do.
 
-<p style="margin-top:7px;margin-bottom:7px;font-family:verdana, sans-serif;font-size:12px;line-height:1.4em;color:#000000;">If you want users to take action on the web page content, add a "banana" - something that makes it obvious what the user is supposed to do.</p><p style="margin-top:7px;margin-bottom:7px;font-family:verdana, sans-serif;font-size:12px;line-height:1.4em;color:#000000;">For example, if your page is selling software, make it easy for your users to make a purchase. People don't have a lot of time to read your entire page and find the right link, so it is important to grab their attention by using a "banana".​​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<h4>Why do we call it "banana rule"?</h4><p>
-                    How would you get a monkey pay attention to something? You could lure him by tempting
-                    him with a banana. Once we have the monkeys attention focused on the banana, he
-                    will try to get his hands on it regardless of the barriers on his way.</p><dl class="image"><dt><img src="banana.jpg" alt="Getting attention of monkey with banana" /></dt><dd>Figure: If the monkey can see the banana, he will do whatever it takes to get it</dd></dl><p>This is how the "banana rule" should be applied:</p><dl class="badImage"><dt><img src="BadBananaQantas.png" alt="Bad use of banana in Qantas.com.au" /></dt><dd>Figure: Bad Example – "Points+Pay"button takes the attention over "Go"​ which should be the "banana"</dd></dl><span style="line-height:1.6;">So, remember most pages need a "banana" to get them to where you want them. "Bananas" are big, simple and stand out from the rest of the page</span><dl class="goodImage"><dt><img src="BananaTeamviewer.png" alt="Good use of banana in Teamviewer.com" /></dt><dd>Figure: Great Example - Team Viewer also has a good banana</dd></dl>
+For example, if your page is selling software, make it easy for your users to make a purchase. People don't have a lot of time to read your entire page and find the right link, so it is important to grab their attention by using a "banana".
 
+<!--endintro-->
 
+#### Why do we call it "banana rule"?
+
+How would you get a monkey pay attention to something? You could lure him by tempting                     him with a banana. Once we have the monkeys attention focused on the banana, he                     will try to get his hands on it regardless of the barriers on his way.
+<dl class="image">&lt;dt&gt;<img src="banana.jpg" alt="Getting attention of monkey with banana">&lt;/dt&gt;<dd>Figure: If the monkey can see the banana, he will do whatever it takes to get it</dd></dl>
+This is how the "banana rule" should be applied:
+<dl class="badImage">&lt;dt&gt;<img src="BadBananaQantas.png" alt="Bad use of banana in Qantas.com.au">&lt;/dt&gt;<dd>Figure: Bad Example – "Points+Pay"button takes the attention over "Go" which should be the "banana"</dd></dl>So, remember most pages need a "banana" to get them to where you want them. "Bananas" are big, simple and stand out from the rest of the page<dl class="goodImage">&lt;dt&gt;<img src="BananaTeamviewer.png" alt="Good use of banana in Teamviewer.com">&lt;/dt&gt;<dd>Figure: Great Example - Team Viewer also has a good banana</dd></dl>
