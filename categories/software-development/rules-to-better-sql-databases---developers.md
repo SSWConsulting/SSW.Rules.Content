@@ -65,15 +65,28 @@ index:
 - views---do-you-use-sql-views
 
 ---
-<p class="ssw15-rteElement-P">​​​​​Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of&#58;<br> </p><ul></ul>
-<span style="color&#58;#ff0000;font-size&#58;13px;">​​​​</span><span style="color&#58;#ff0000;font-size&#58;13px;"><span style="color&#58;#ff0000;">▪</span></span><span style="font-size&#58;13px;">&#160; &#160;</span>Ensuring your databases are Normalized and in 3rd Normal Form&#160;<br>
-<ul></ul>
-<span style="color&#58;#ff0000;font-size&#58;13px;"><span style="color&#58;#ff0000;">​​​​▪</span></span><span style="color&#58;#ff0000;font-size&#58;13px;">&#160;</span><span style="font-size&#58;13px;">&#160;&#160;</span>Making sure you have primary keys, foreign keys and simple indexes to improve performance&#160;<br>
-<ul></ul>
-<span style="color&#58;#ff0000;font-size&#58;13px;"><span style="color&#58;#ff0000;">​​​​▪&#160;</span></span><span style="font-size&#58;13px;">&#160;&#160;</span>Making sure you Back up regularly&#160;<br>
-<ul></ul>
-<span style="color&#58;#ff0000;font-size&#58;13px;"><span style="color&#58;#ff0000;">​​​​▪&#160;</span></span><span style="font-size&#58;13px;">&#160;&#160;</span>Basic Naming conventions (see some of our object naming conventions)<br>
-<ul></ul>
-<span style="font-size&#58;13px;"><span style="color&#58;#ff0000;">​​​​▪</span>&#160;&#160;</span><span style="font-size&#58;13px;">​&#160;</span><span style="font-size&#58;13px;">​</span>Minimizing result set​ sizes and data over the wire​​​​​​​<br>​​​<div>Link&#58;&#160;<a href="http&#58;//www.nyx.net/~bwunder/dbChangeControl/standard.htm">Database Coding Standard and Guideline​</a>.<br></div><div><br></div><div>If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Database-Development.aspx">visit our SQL Server D​atabase&#160;consulting page</a>​​&#160;and book in&#160;a consultant.​​<br></div>
+Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of:
 
+
+▪   Ensuring your databases are Normalized and in 3rd Normal Form 
+
+
+▪   Making sure you have primary keys, foreign keys and simple indexes to improve performance 
+
+
+▪   Making sure you Back up regularly 
+
+
+▪   Basic Naming conventions (see some of our object naming conventions)
+
+
+▪   Minimizing result set sizes and data over the wire
+
+Link: [Database Coding Standard and Guideline](http&#58;//www.nyx.net/~bwunder/dbChangeControl/standard.htm).
+
+
+
+
+
+If you still need help, [visit our SQL Server Database consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Database-Development.aspx) and book in a consultant.
 
