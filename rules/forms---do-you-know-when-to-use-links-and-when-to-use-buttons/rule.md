@@ -12,9 +12,29 @@ related: []
 
 ---
 
+It seems nearly all web developers are confused whether they should use hyperlinks or buttons on forms. The recommendation is that whenever data is being submitted (e.g. Save, Cancel, Apply) you should use a button, otherwise use a link.
 
-<p style="margin-top:7px;margin-bottom:7px;font-family:verdana, sans-serif;font-size:12px;line-height:1.4em;color:#000000;">It seems nearly all web developers are confused whether they should use hyperlinks or buttons on forms. The recommendation is that whenever data is being submitted (e.g. Save, Cancel, Apply) you should use a button, otherwise use a link.</p><p style="margin-top:7px;margin-bottom:7px;font-family:verdana, sans-serif;font-size:12px;line-height:1.4em;color:#000000;">This is because hyperlinks indicate navigation - "If I click this link, I'll be taken somewhere else".</p><p style="margin-top:7px;margin-bottom:7px;font-family:verdana, sans-serif;font-size:12px;line-height:1.4em;color:#000000;">Whereas a button indicates that something is being processed - "When I click this, I'm agreeing that something is being submitted"​​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<h4>Note: If you are using an automated link checker</h4><p>It is important you use buttons for updating or deleting data on your website. The main reason is problems will occur when you run a link checker (we run <a href="http://www.ssw.com.au/ssw/LinkAuditor/"> SSW Li​nk Auditor</a>), and you have data driven pages with "Update" or "Delete" hyperlinks. The link checker will try to go to all associated links and potentially delete a lot of data from your website database.</p><p>But you say "My Delete links have JavaScript protection e.g. Are you sure you want to delete?". It is still no good because link checkers ignore all JavaScript validation.</p><p>Thus, we must have:</p><ul><li>Password protected areas on the website when we can update the database records via the web</li><li>All update ability must be via buttons, not hyperlinks (as buttons are known on the web to submit a form).</li></ul><p>That being said, there are a couple of exceptions to this rule.</p><ol><li>If you want the user to be able to right click and "Open in New Window"</li><li>If you want a consistent design feel (and there is no confusion that the link is accepting data)</li></ol><dl class="image"><dt><img src="LinksExample.gif" alt="Links Example" /></dt><dd>Figure: An exception to the rule - an "Update" button inside the datagrid would look inconsistent</dd></dl><dl class="badImage"><dt><img src="LinkVsButton.gif" alt="Links Vs Button" /></dt><dd>Figure: Bad Example - The "sign in" hyperlink should be a button</dd></dl><dl class="goodImage"><dt><img src="Logon.gif" alt="Correct sign in" /></dt><dd>Figure: Good Example - This is a perfect example of how a good sign in screen should look</dd></dl>
+This is because hyperlinks indicate navigation - "If I click this link, I'll be taken somewhere else".
+
+Whereas a button indicates that something is being processed - "When I click this, I'm agreeing that something is being submitted"
+
+<!--endintro-->
+
+#### Note: If you are using an automated link checker
+
+It is important you use buttons for updating or deleting data on your website. The main reason is problems will occur when you run a link checker (we run [SSW Link Auditor](http://www.ssw.com.au/ssw/LinkAuditor/)), and you have data driven pages with "Update" or "Delete" hyperlinks. The link checker will try to go to all associated links and potentially delete a lot of data from your website database.
+
+But you say "My Delete links have JavaScript protection e.g. Are you sure you want to delete?". It is still no good because link checkers ignore all JavaScript validation.
+
+Thus, we must have:
+
+* Password protected areas on the website when we can update the database records via the web
+* All update ability must be via buttons, not hyperlinks (as buttons are known on the web to submit a form).
 
 
+That being said, there are a couple of exceptions to this rule.
+
+1. If you want the user to be able to right click and "Open in New Window"
+2. If you want a consistent design feel (and there is no confusion that the link is accepting data)
+
+<dl class="image">&lt;dt&gt;<img src="LinksExample.gif" alt="Links Example">&lt;/dt&gt;<dd>Figure: An exception to the rule - an "Update" button inside the datagrid would look inconsistent</dd></dl><dl class="badImage">&lt;dt&gt;<img src="LinkVsButton.gif" alt="Links Vs Button">&lt;/dt&gt;<dd>Figure: Bad Example - The "sign in" hyperlink should be a button</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="Logon.gif" alt="Correct sign in">&lt;/dt&gt;<dd>Figure: Good Example - This is a perfect example of how a good sign in screen should look</dd></dl>
