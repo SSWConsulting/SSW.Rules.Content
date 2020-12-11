@@ -16,17 +16,42 @@ related: []
 
 ---
 
+When you create a new MVC project in Visual Studio it is important to include the right packages from the start. This makes the project more manageable and you become more efficient in producing your final result.
 
-​​​When you create a new MVC project in Visual Studio it is important to include the right packages from the start. This makes the project more manageable and you become more efficient in producing your final result.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​If you add old, obsolete or incorrect NuGet packages, the project will suffer and you might have decreased performance or scope creep as new requirements are discovered. </p><p>Avoid old technologies such as:</p><ul><li> MVC W​​​​eb Forms</li><li> KnockoutJS</li></ul>
-   
-<span style="line-height:1.6;">When ​you create a project you should be adding the following NuGet Packages:</span><br> 
-<ul><li>SSW.DataOnion<br></li><li>SSW.HealthCheck​<br></li><li>​​AutoFac</li><li>Seril​og​<br></li></ul><p>You should also add the following NPM  packages:</p><ul><li>​Angular JS</li><li>​Bootstrap</li><li>Gulp<br></li></ul><p> 
-   <strong>Note</strong>: Prior to 2016, SSW recommend developers choose bower over NPM as their front end package manager. That recomendation has chan​ged due to the industry trend away from bower.</p><p> 
-   <img alt="Bower_v_NPM.png" src="Bower_v_NPM.png" style="margin:5px;width:808px;" /> </p><dd class="ssw15-rteElement-FigureGood">Figure: NPM Popularity has been increasing<br></dd><p class="ssw15-rteElement-YellowBorderBox">Part of 
-   <span>
-      <a href="https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction" target="_blank">SugarLearning Developer Induction</a></span>. 
-   <br></p>
+<!--endintro-->
+
+If you add old, obsolete or incorrect NuGet packages, the project will suffer and you might have decreased performance or scope creep as new requirements are discovered.
+
+Avoid old technologies such as:
+
+* MVC Web Forms
+* KnockoutJS
+
+When you create a project you should be adding the following NuGet Packages:
+
+* SSW.DataOnion
+* SSW.HealthCheck
+* AutoFac
+* Serilog
 
 
+You should also add the following NPM  packages:
+
+* Angular JS
+* Bootstrap
+* Gulp
+
+
+**Note** : Prior to 2016, SSW recommend developers choose bower over NPM as their front end package manager. That recomendation has changed due to the industry trend away from bower.
+
+
+![](Bower_v_NPM.png)
+
+
+::: good
+Figure: NPM Popularity has been increasing
+
+:::
+
+
+Part of     [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).
