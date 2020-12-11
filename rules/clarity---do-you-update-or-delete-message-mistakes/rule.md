@@ -12,9 +12,7 @@ related: []
 
 ---
 
+If the message you type has a mistake, update it (or delete it) so the recipient doesn't see the mistake.
 
-If the message you type has a mistake, update it (or delete it) so the recipient doesn't see the mistake.​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​​​<img src="Screen Shot 2018-12-11 at 1.52.42 PM.png" alt="Screen Shot 2018-12-11 at 1.52.42 PM.png" />​​</dt><dd>Figure: "Edit" and "Delete" are options after you type a message​​<br></dd></dl>
-
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="Screen Shot 2018-12-11 at 1.52.42 PM.png" alt="Screen Shot 2018-12-11 at 1.52.42 PM.png">&lt;/dt&gt;<dd>Figure: "Edit" and "Delete" are options after you type a message<br></dd></dl>
