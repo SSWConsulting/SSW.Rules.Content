@@ -21,6 +21,5 @@ index:
 - do-you-use-asyncawait-for-all-io-bound-operations
 
 ---
-<p>​​</p>
 
 
