@@ -14,9 +14,23 @@ related: []
 
 ---
 
+Hard coded strings when referencing property and variable names can be problematic as your codebase evolves, and can make your code brittle.
 
-​Hard coded strings when referencing property and variable names can be problematic as your codebase evolves, and can make your code brittle.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">​​(if customer.Address.ZipCode == null) throw new ArgumentNullException(&quot;ZipCode&quot;);<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58;&#160;​​​Bad Example -&#160;Hardcoding a reference to a property<br></dd><p class="ssw15-rteElement-CodeArea">​​(if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));<br></p><dd class="ssw15-rteElement-FigureGood">​​Figure&#58; Good Example - Using nameof() operator to avoid hardcoded strings<br></dd>
+<!--endintro-->
+
+(if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
 
 
+::: bad
+Figure: Bad Example - Hardcoding a reference to a property
+
+:::
+
+
+(if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
+
+
+::: good
+Figure: Good Example - Using nameof() operator to avoid hardcoded strings
+
+:::
