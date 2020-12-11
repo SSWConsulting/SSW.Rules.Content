@@ -12,12 +12,8 @@ related: []
 
 ---
 
+Windows will usually detect your video card driver during setup and will allow you to use the maximum resolution on your monitor. The problem is when you plug an external screen or projector – you will not be able to run 2 monitors at once, which isn’t very helpful when you are presenting.
 
+Look up your laptop model on the manufactures website and determine what type of video card is in your laptop (NVidia, ATI, Intel) – then go to their site and download the latest driver for your card.
 
-  <p>Windows will usually detect your video card driver during setup and will allow you to use the maximum resolution on your monitor. The problem is when you plug an external screen or projector – you will not be able to run 2 monitors at once, which isn’t very helpful when you are presenting.</p>
-<p>Look up your laptop model on the manufactures website and determine what type of video card is in your laptop (NVidia, ATI, Intel) – then go to their site and download the latest driver for your card.</p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
