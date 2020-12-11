@@ -12,9 +12,8 @@ related: []
 
 ---
 
+Many times a website contains directories that don't have an index page, and this means a user navigating via the URL, see a 404 error. You don't want this to happen, so make sure you always have an index page in every directory, even if it's just to show the files inside it.
 
-Many times a website contains directories that don't have an index page, and this means a user navigating via the URL, see a 404 error. You don't want this to happen, so make sure you always have an index page in every directory, even if it's just to show the files inside it.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>It is usually a default.aspx file, however depending on the webserver configuration; it might be index.html or index.php etc.​​​<br></p>
+<!--endintro-->
 
-
+It is usually a default.aspx file, however depending on the webserver configuration; it might be index.html or index.php etc.
