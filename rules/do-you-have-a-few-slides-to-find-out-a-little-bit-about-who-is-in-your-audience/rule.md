@@ -15,19 +15,19 @@ If you are presenting to people who you already know, then you have an enormous 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>It is best to confirm who you are speaking to via a few slides. Then you can make subtle changes during your presentation so your audience gets&#58;</p>
+  <p>It is best to confirm who you are speaking to via a few slides. Then you can make subtle changes during your presentation so your audience gets:</p>
 <ul>
     <li>What is important for them</li>
     <li>Interesting to them</li>
     <li>Relevant to them </li>
 </ul>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/developer.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Ask &quot;How many are developers here?&quot; </dd>
+    <dt><img class="ms-rteCustom-ImageArea" src="developer.gif" alt="" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure: Ask "How many are developers here?" </dd>
 </dl>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/manager.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Ask &quot;How many are managers here?&quot; </dd>
+    <dt><img class="ms-rteCustom-ImageArea" src="manager.gif" alt="" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure: Ask "How many are managers here?" </dd>
 </dl>
 
 
