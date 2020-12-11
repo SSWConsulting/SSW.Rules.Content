@@ -8,6 +8,5 @@ index:
 - do-you-monitor-the-uptimes-of-all-your-servers-daily
 
 ---
-<p>​​<br></p>
 
 
