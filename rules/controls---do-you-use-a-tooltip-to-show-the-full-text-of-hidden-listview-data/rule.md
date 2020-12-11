@@ -17,9 +17,9 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 ​
 <dl class="badImage"><dt>
-      <img alt="ListView control without Tooltip." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ListViewWithoutToolTip.gif" />
-   </dt><dd>Figure&#58; Bad Example - Users can't see all the text and the ListView doesn't use a Tooltip</dd></dl><dl class="goodImage"><dt>
-      <img alt="ListView control with Tooltip." src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ListViewWithToolTip.gif" />
-   </dt><dd>Figure&#58; Good Example - Users can't see all the text, but the ListView shows all the text via a Tooltip</dd></dl><div>The code to do this is&#58;</div><dl class="code"><dt><p>private ListViewItem hoveredItem;<br> private void listView1_MouseMove(object sender, MouseEventArgs e)<br> &#123; <br> ListView lv = (ListView) sender; <br> ListViewItem item = lv.GetItemAt(e.X, e.Y);<br> int columnIndex = 1;<br> if (item != hoveredItem)<br> &#123; <br> hoveredItem = item; <br> if (item == null) <br> &#123; <br> toolTip1.SetToolTip(lv, &quot;&quot;); <br> &#125; <br> else <br> &#123; <br> // Make sure the mouse hovered row has the subitem <br> if (item.SubItems.Count &gt; columnIndex)<br> &#123; <br> toolTip1.SetToolTip(lv, item.SubItems[columnIndex].Text);<br> &#125; <br> else <br> &#123; <br> toolTip1.SetToolTip(lv,&quot;&quot;); <br> &#125; <br> &#125; <br> &#125; <br> &#125;​<br></p></dt></dl>
+      <img alt="ListView control without Tooltip." src="../../assets/ListViewWithoutToolTip.gif" />
+   </dt><dd>Figure: Bad Example - Users can't see all the text and the ListView doesn't use a Tooltip</dd></dl><dl class="goodImage"><dt>
+      <img alt="ListView control with Tooltip." src="../../assets/ListViewWithToolTip.gif" />
+   </dt><dd>Figure: Good Example - Users can't see all the text, but the ListView shows all the text via a Tooltip</dd></dl><div>The code to do this is:</div><dl class="code"><dt><p>private ListViewItem hoveredItem;<br> private void listView1_MouseMove(object sender, MouseEventArgs e)<br> { <br> ListView lv = (ListView) sender; <br> ListViewItem item = lv.GetItemAt(e.X, e.Y);<br> int columnIndex = 1;<br> if (item != hoveredItem)<br> { <br> hoveredItem = item; <br> if (item == null) <br> { <br> toolTip1.SetToolTip(lv, ""); <br> } <br> else <br> { <br> // Make sure the mouse hovered row has the subitem <br> if (item.SubItems.Count > columnIndex)<br> { <br> toolTip1.SetToolTip(lv, item.SubItems[columnIndex].Text);<br> } <br> else <br> { <br> toolTip1.SetToolTip(lv,""); <br> } <br> } <br> } <br> }​<br></p></dt></dl>
 
 
