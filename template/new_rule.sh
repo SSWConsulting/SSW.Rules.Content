@@ -8,6 +8,7 @@ slugify () {
 title=$1
 uri=$(slugify "$1")
 date_created=$(date -u +%FT%TZ)
+guid=$(uuidgen)
 
 echo "Creating rule: $uri"
 
@@ -27,7 +28,7 @@ fi
 mkdir $rule_dir
 echo "Created directory $rule_dir"
 
-sed -e "s/{title}/$title/g" -e "s/{uri}/$uri/g" -e "s/{date_created}/$date_created/g" rule.md > $rule_dir/rule.md
+sed -e "s/{title}/$title/g" -e "s/{uri}/$uri/g" -e "s/{date_created}/$date_created/g" -e "s/{guid}/$guid/g" rule.md > $rule_dir/rule.md
 echo "Created rule $title"
 
 
