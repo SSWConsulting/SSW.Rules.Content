@@ -10,13 +10,9 @@ related: []
 
 ---
 
+Make the options clearer by using bold.
 
-<p>Make the options clearer by using bold.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="SSW Link Auditor - Command Line" src="../../assets/OptionsTextNotInBold.gif" /></dt>
-<dd>Figure: Bad Example - Main options text not in bold</dd></dl>
-<dl class="goodImage"><dt><img alt="SSW Link Auditor - Command Line" src="../../assets/OptionsTextInBold.gif" /></dt>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img alt="SSW Link Auditor - Command Line" src="../../assets/OptionsTextNotInBold.gif">&lt;/dt&gt;
+<dd>Figure: Bad Example - Main options text not in bold</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="SSW Link Auditor - Command Line" src="../../assets/OptionsTextInBold.gif">&lt;/dt&gt;
 <dd>Figure: Good Example - Main options text in bold</dd></dl>
-
-
-
