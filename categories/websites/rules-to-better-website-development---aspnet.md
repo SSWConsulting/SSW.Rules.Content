@@ -41,6 +41,5 @@ index:
 - do-you-use-windows-integrated-authentication
 
 ---
-<p>​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx">visit our Web Application Development consulting page​</a>​&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our Web Application Development consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx) and book in a consultant.
 
