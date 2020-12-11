@@ -12,13 +12,9 @@ related: []
 
 ---
 
+This is how assign a tester to test configurations:
 
-<p>This is how assign a tester to test configurations:</p>
-<br><excerpt class='endintro'></excerpt><br>
-<img src="assign-tester-1.jpg" alt="How to assign a tester" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureNormal">Figure: From the Plan menu select the Test Plan, click on the Test Case and then click the Assign button</span>
+<!--endintro-->
 
-<img src="assign-tester-2.jpg" alt="How to assign a tester" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureNormal">Figure: Select the rows to assign (Hold down [Ctrl] to select multiple), choose a tester from the available list and click on the Save Assignments button</span>
-
-
+![From the Plan menu select the Test Plan, click on the Test Case and then click the Assign button](assign-tester-1.jpg)
+![Select the rows to assign](assign-tester-2.jpg)(Hold down [Ctrl] to select multiple), choose a tester from the available list and click on the Save Assignments button**
