@@ -31,12 +31,12 @@ related: []
                 </p>
                 <dl class="goodImage">
                     <dt>
-                        <img alt="Two Monitors Better Than One " src="/PublishingImages/TwoMonitorsBetterThanOne.JPG" />
+                        <img alt="Two Monitors Better Than One " src="TwoMonitorsBetterThanOne.JPG" />
                     </dt>
                     <dd>
-                       Figure&#58; Two monitors are better than one
+                       Figure: Two monitors are better than one
                     </dd>
                 </dl>
-<span style="display&#58;inline-block;"></span>
+<span style="display:inline-block;"></span>
 
 
