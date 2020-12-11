@@ -16,14 +16,16 @@ related: []
 
 ---
 
+Presentations at User Groups and other events are great for connecting with the developer community. After giving a presentation, you should always follow up with a few attendees to get feedback, find out what projects they’re working on, and potentially how you can help.
 
-<p>Presentations at User Groups and other events are great for connecting with the developer community. After giving a presentation, you should always follow up with a few attendees to get feedback, find out what projects they’re working on, and potentially how you can help.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Pick a few attendees at random to follow up with, give them a call and ask if you can buy them a coffee. You should ask them&#58;</p>
-<ul><li>What they thought of the session and whether they have any feedback</li>
-<li>Whether there are any related topics they’d like to learn more about</li>
-<li>What projects they are working on at the moment</li>
-<li>Whether there are any issues they’re having with those projects</li></ul>
-<p>Read how this rule is also useful for account managers on <a href="/do-you-follow-up-course-attendees-for-consulting-work" target="_blank">Do you follow up course attendees for consulting work?</a>&#160;​</p>
+<!--endintro-->
+
+Pick a few attendees at random to follow up with, give them a call and ask if you can buy them a coffee. You should ask them:
+
+* What they thought of the session and whether they have any feedback
+* Whether there are any related topics they’d like to learn more about
+* What projects they are working on at the moment
+* Whether there are any issues they’re having with those projects
 
 
+Read how this rule is also useful for account managers on [Do you follow up course attendees for consulting work?](/do-you-follow-up-course-attendees-for-consulting-work)
