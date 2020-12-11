@@ -12,9 +12,8 @@ related: []
 
 ---
 
+Once you have figured out your brand image we think that the most important thing is sticking to it and applying it to every little facet of your business. As you're surfing the SSW website you'll notice a very consistent approach to branding. Our fonts, tables and headings are in exactly the same format and we have applied this to our email signatures, product banners, newsletters and company brochures.
 
-<p>​Once you have figured out your brand image we think that the most important thing is sticking to it and applying it to​​ every little facet of your business. As you're surfing the SSW website you'll notice a very consistent approach to branding. Our fonts, tables and headings are in exactly the same format and we have applied this to our email signatures, product banners, newsletters and company brochures.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​Know more on&#160;<span style="line-height&#58;20px;"><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterBranding.aspx">Rules To Better Branding​</a>.​</span></p>​
+<!--endintro-->
 
-
+Know more on [Rules To Better Branding](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterBranding.aspx).
