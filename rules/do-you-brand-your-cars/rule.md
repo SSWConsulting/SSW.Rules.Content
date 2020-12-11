@@ -12,9 +12,9 @@ related: []
 
 ---
 
+It's a good idea to brand your company's cars when they're on the road. These cars are essentially moving billboards for the company.
 
-<p>​It's a good idea to brand your company's cars when they're on the road. These cars are essentially moving billboards for the company.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​​To get more cars, you can reward employees to brand their personal cars.​​</p><dl class="image"><dt>​​<img src="car-branding.jpg" alt="car-branding.jpg" /></dt><dd class="ssw15-rteElement-FigureBad">​​​      Figure: ​​​​Bad Example​​ as the car looks bad<br></dd><dt><img src="car-branding-tesla.png" alt="" style="margin:5px;" /></dt><dd class="ssw15-rteElement-FigureGood">      Figure: Good Example​​​​​ - cool car<br></dd><p class="ssw15-rteElement-P">​​​​​​​​<br></p><br></dl>
+<!--endintro-->
 
-
+To get more cars, you can reward employees to brand their personal cars.
+<dl class="image">&lt;dt&gt;<img src="car-branding.jpg" alt="car-branding.jpg">&lt;/dt&gt;<br><br>::: bad<br>     Figure: Bad Example as the car looks bad<br><br>:::<br><br>&lt;dt&gt;<img src="car-branding-tesla.png" alt="" style="margin:5px;">&lt;/dt&gt;<br><br>::: good<br>      Figure: Good Example - cool car<br><br>:::<br><br><p class="ssw15-rteElement-P"><br></p><br></dl>
