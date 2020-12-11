@@ -13,8 +13,8 @@ related: []
 ---
 
 
-<p class="ssw15-rteElement-P">Generally, every client should have a dev and a test database, so the dev database needs to have the postfix &quot;Dev&quot; and the test database need to have the postfix &quot;Test&quot;(E.g. SSWCRMDev, SSWCRMTest). However, you don't need any postfix for the&#160;production database.​​​<br><br></p>
+<p class="ssw15-rteElement-P">Generally, every client should have a dev and a test database, so the dev database needs to have the postfix "Dev" and the test database need to have the postfix "Test"(E.g. SSWCRMDev, SSWCRMTest). However, you don't need any postfix for the production database.​​​<br><br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="/PublishingImages/BadDBName.gif" alt="BadDBName.gif" />​</dt><dd>Figure&#58; Bad Example -&#160;Database with bad names<br></dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/GoodDBName.gif" alt="GoodDBName.gif" /></dt><dd>Figure&#58; Good Example -&#160;​Database with standard names</dd></dl>​<br>
+<dl class="badImage"><dt><img src="BadDBName.gif" alt="BadDBName.gif" />​</dt><dd>Figure: Bad Example - Database with bad names<br></dd></dl><dl class="goodImage"><dt><img src="GoodDBName.gif" alt="GoodDBName.gif" /></dt><dd>Figure: Good Example - ​Database with standard names</dd></dl>​<br>
 
 
