@@ -44,6 +44,5 @@ index:
 - do-you-use-web-compiler-extension
 
 ---
-<p>​​<br></p>
 
 
