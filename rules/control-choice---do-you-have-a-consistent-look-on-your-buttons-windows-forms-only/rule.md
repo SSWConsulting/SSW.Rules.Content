@@ -10,19 +10,21 @@ related: []
 
 ---
 
-
-<div>Question: What is wrong with this Picture?</div>
-<dl class="image"><dt><img alt="Inconsistent Button FlatStyles" src="../../assets/InconsistentButtonStyles.jpg" /></dt>
+Question: What is wrong with this Picture?
+<dl class="image">&lt;dt&gt;<img alt="Inconsistent Button FlatStyles" src="../../assets/InconsistentButtonStyles.jpg">&lt;/dt&gt;
 <dd>Figure: What is wrong?</dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-​<div><strong>Answer:</strong> There are three different types of buttons in the Application:</div>
-<ul><li><em>Next ></em> - Default Window Style</li>
-<li><em>Preview</em> - .NET Flat Style</li>
-<li><em>Cancel</em> - Window XP Style</li></ul>
-<dl class="image"><dt><img alt="bad divider" src="../../assets/BadDivider.gif" /></dt>
+<!--endintro-->
+
+ **Answer:** There are three different types of buttons in the Application:
+
+* *Next >* - Default Window Style
+* *Preview* - .NET Flat Style
+* *Cancel* - Window XP Style
+
+<dl class="image">&lt;dt&gt;<img alt="bad divider" src="../../assets/BadDivider.gif">&lt;/dt&gt;
 <dd>Figure: Even labels need to use FlatStyle.System. Can you spot the wrong label?</dd></dl>
-<div>See our <a href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#XPThemes">Rules to Better Windows Forms</a> to implement XP Themes in .NET.</div>
-<table class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2"><tbody><tr><td>We have a program called <a href="http://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#ConsistentButtonStyle">SSW Code Auditor</a> to check for this rule.</td></tr></tbody></table>
+See our [Rules to Better Windows Forms](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#XPThemes) to implement XP Themes in .NET.
 
 
-
+| We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#ConsistentButtonStyle) to check for this rule. |
+| --- |
