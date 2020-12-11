@@ -18,16 +18,13 @@ related: []
 
 ---
 
-
-<dt><img alt="Select A Recent Work Item" src="SelectARecentWorkItem.jpg" style="margin:5px;width:650px;" /></dt><dd>Figure: When you use Check-in policies you often will need to select a work item that you selected recently</dd><dd>​<br></dd>
-<br><excerpt class='endintro'></excerpt><br>
-<dl><dt><br></dt></dl>
-<ol>Make this easy on yourself by adding a query 'Recent' <li>Create a work item query that returns you the last changed work item <dl><dt><img alt="Add a query" src="AddQuery.jpg" /></dt>
-<dd>Figure: Add a query just for your associated check ins </dd></dl></li>
-<li>Just copy the 'Tasks - My' query </li>
-<li>Add the sort date of 'Changed Date' sorted by descending <dl><dt><img alt="Sorted the query by 'Changed Date' " src="SortedByChangedDate.jpg" /></dt>
-<dd>Figure: The query should be sorted by 'Changed Date' </dd></dl></li>
-<li>Use that query on your check ins and you find the relevant work item easily </li></ol>
-
-
-
+&lt;dt&gt;
+![](SelectARecentWorkItem.jpg)&lt;/dt&gt;<dd>Figure: When you use Check-in policies you often will need to select a work item that you selected recently</dd><dd><br></dd>
+<!--endintro-->
+<dl>&lt;dt&gt;<br>&lt;/dt&gt;</dl>
+Make this easy on yourself by adding a query 'Recent'1. Create a work item query that returns you the last changed work item <dl>&lt;dt&gt;<img alt="Add a query" src="AddQuery.jpg">&lt;/dt&gt;
+<dd>Figure: Add a query just for your associated check ins </dd></dl>
+2. Just copy the 'Tasks - My' query
+3. Add the sort date of 'Changed Date' sorted by descending <dl>&lt;dt&gt;<img alt="Sorted the query by 'Changed Date' " src="SortedByChangedDate.jpg">&lt;/dt&gt;
+<dd>Figure: The query should be sorted by 'Changed Date' </dd></dl>
+4. Use that query on your check ins and you find the relevant work item easily
