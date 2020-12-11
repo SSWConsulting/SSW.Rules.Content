@@ -12,6 +12,5 @@ index:
 - do-you-know-what-to-do-after-migration
 
 ---
-<p>​​<br></p>
 
 
