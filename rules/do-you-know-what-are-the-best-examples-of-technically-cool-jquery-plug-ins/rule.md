@@ -12,9 +12,13 @@ related: []
 
 ---
 
+Below are some of the best technically cool jQuery plug-ins. Use these as guidelines for building your jQuery plug-ins:
 
-<p>Below are some of the best technically cool jQuery plug-ins. Use these as guidelines for building your jQuery plug-ins&#58;</p><ul><li><a href="http&#58;//www.zurb.com/playground/ajax_upload" target="_blank">Ajax Upload</a>&#160;(show a preview of the file being upload) )</li><li><a href="http&#58;//drew.tenderapp.com/kb/autosuggest-jquery-plugin" target="_blank">AutoSuggest jQuery plugin</a>&#160;(Type in the textbox to see suggestions)</li><li><a href="http&#58;//www.avatar.co.nz/examples/jquery/popeye/" target="_blank">jQuery.popeye</a>&#160;(Click the 'Enlarge' button to see effect)</li><li><a href="http&#58;//www.mediafront.org/project/osmplayer" target="_blank">Open Standard Media Player (jQuery + HTML5)</a><br></li><li><a href="http&#58;//morrisonpitt.com/jsPlumb/html/jquery/demo.html" target="_blank">jsPlumb connector</a>​<br></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
+* [Ajax Upload](http&#58;//www.zurb.com/playground/ajax_upload) (show a preview of the file being upload) )
+* [AutoSuggest jQuery plugin](http&#58;//drew.tenderapp.com/kb/autosuggest-jquery-plugin) (Type in the textbox to see suggestions)
+* [jQuery.popeye](http&#58;//www.avatar.co.nz/examples/jquery/popeye/) (Click the 'Enlarge' button to see effect)
+* [Open Standard Media Player (jQuery + HTML5)](http&#58;//www.mediafront.org/project/osmplayer)
+* [jsPlumb connector](http&#58;//morrisonpitt.com/jsPlumb/html/jquery/demo.html)
 
 
-
+<!--endintro-->
