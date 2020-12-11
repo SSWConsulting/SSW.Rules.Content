@@ -12,9 +12,18 @@ related: []
 
 ---
 
+It is surprising how many IT staff create backup plans and then leave it at that. To have a complete maintenance plan, you should also consider the following:
 
-<p>It is surprising how many IT staff create backup plans and then leave it at that. To have a complete maintenance plan, you should also consider the following:<br></p><ol><li>Checking database integrity</li><li>Shrinking Databases<br></li><li>Reorganizing Indexes</li><li>Rebuilding Indexes</li><li>Updating Statistics</li><li>Cleaning up old maintenance histories</li><li>Performing automatic backups</li><li>Backing up System databases</li><li>Last but not least - you should regularly check that the maintenance plans have been running successfully. Otherwise, all your backup and maintenance efforts are pointless<br></li></ol>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>This can be found under <strong>Management | Maintenance Plans</strong>​ within the database tee in SQL Server.<br></dt><dt>​<br></dt><dt><img src="SqlMaintenancePlan.png" alt="SQLDatabases_MaintenancePlan.png" style="width:750px;height:616px;" />​​<br></dt><dd>Figure​: SQL Server - ​A Complete Weekly Maintenance Plan<br></dd></dl>
+1. Checking database integrity
+2. Shrinking Databases
+3. Reorganizing Indexes
+4. Rebuilding Indexes
+5. Updating Statistics
+6. Cleaning up old maintenance histories
+7. Performing automatic backups
+8. Backing up System databases
+9. Last but not least - you should regularly check that the maintenance plans have been running successfully. Otherwise, all your backup and maintenance efforts are pointless
 
 
+<!--endintro-->
+<dl class="image">&lt;dt&gt;This can be found under  <strong>Management | Maintenance Plans</strong> within the database tee in SQL Server.<br>&lt;/dt&gt;&lt;dt&gt;<br>&lt;/dt&gt;&lt;dt&gt;<img src="SqlMaintenancePlan.png" alt="SQLDatabases_MaintenancePlan.png" style="width:750px;height:616px;"><br>&lt;/dt&gt;<dd>Figure: SQL Server - A Complete Weekly Maintenance Plan<br></dd></dl>
