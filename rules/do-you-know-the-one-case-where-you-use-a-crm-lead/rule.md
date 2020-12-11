@@ -12,85 +12,26 @@ related: []
 
 ---
 
+It can sometimes be hard to work out when to use a lead vs a contact and company, or even an opportunity.
 
-<p>​​It can sometimes be hard to work out when to use a lead vs a contact and company,&#160;​or even an opportunity.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<table cellspacing="3" cellpadding="3" class="clsSSWTable">
-          <tbody><tr>
-            <th>
-              Type
-            </th>
-            <th>
-              Type and Category
-            </th>
-          </tr>
-          <tr>
-            <td>
-              Called up about a service needed urgently
-            </td>
-            <td>
-              Contact + Opportunity (hot)
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Called up about a service
-            </td>
-            <td>
-              Contact + Opportunity
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Qualified Contact (prospect down the line)
-            </td>
-            <td>
-              Contact
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Someone goes to the website and joins the mailing list
-            </td>
-            <td>
-              Contact
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Random business cards from TechEd 2013</td>
-            <td>
-              Contact + Tag &quot;Tech Ed 2013&quot;
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Uninterested contact
-            </td>
-            <td>
-              Contact
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Purchased mailing list
-            </td>
-            <td>
-              Lead
-            </td>
-          </tr>
-        </tbody></table>
-        <b>Figure&#58; There is only one scenario where you would use a lead</b>
-        <p><br></p><p>
-          It is better to have all your contacts in one place rather than split over 2 separate
-          tables. Leads are not needed except as a d​ata entry tool to help you link new contacts,
-          companies, and opportunities. See <a href="/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">
-            Quick Way to create an&#160;opportunity, contact and account in one step</a>.</p>
-        <p>
-          The only legitimate use of leads is for completely unqualified data, e.g.</p>
-        <ul>
-          <li>You buy a contact database (too large to be able to contact each one of them to qualify)</li>
-        </ul>
+<!--endintro-->
 
 
+| Type<br>             |               Type and Category<br>             |
+| --- | --- |
+| Called up about a service needed urgently<br>             |               Contact + Opportunity (hot)<br>             |
+| Called up about a service<br>             |               Contact + Opportunity<br>             |
+| Qualified Contact (prospect down the line)<br>             |               Contact<br>             |
+| Someone goes to the website and joins the mailing list<br>             |               Contact<br>             |
+| Random business cards from TechEd 2013 |               Contact + Tag "Tech Ed 2013"<br>             |
+| Uninterested contact<br>             |               Contact<br>             |
+| Purchased mailing list<br>             |               Lead<br>             |
 
+**Figure: There is only one scenario where you would use a lead** 
+
+
+It is better to have all your contacts in one place rather than split over 2 separate           tables. Leads are not needed except as a data entry tool to help you link new contacts,           companies, and opportunities. See [Quick Way to create an opportunity, contact and account in one step](/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx).
+
+The only legitimate use of leads is for completely unqualified data, e.g.
+
+* You buy a contact database (too large to be able to contact each one of them to qualify)
