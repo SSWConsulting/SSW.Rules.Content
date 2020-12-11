@@ -14,13 +14,15 @@ related: []
 
 ---
 
+Developers think they are done when they finish coding and check in.
 
-<p>Developers think they are done when they finish coding and check in.<br></p>
-<p>Wrong. It is much better to <a href="/Pages/Do-You-Run-Acceptance-Tests.aspx">use Microsoft Test Manager (MTM) and step through the Acceptance Tests.</a></p>
-<p>Once you are doing that, this is how you check the status of the current Sprint:</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img alt="run acceptance tests" src="check-sprint-status.jpg" /></dt><dd>Figure: Good example - This Sprint currently has 2 'Failed' tests (red), and 1 'Active' test (blue). (This 'Results' view is new in MTM 2012) </dd></dl> 
-<p>Key: 
-   <br><ul><li>The red is work remaining for the developers, and <br></li><li>The blue is working remaining for the testers (unfinished testing)<br></li></ul></p>
+Wrong. It is much better to [use Microsoft Test Manager (MTM) and step through the Acceptance Tests.](/Pages/Do-You-Run-Acceptance-Tests.aspx)
 
+Once you are doing that, this is how you check the status of the current Sprint:
 
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img alt="run acceptance tests" src="check-sprint-status.jpg">&lt;/dt&gt;<dd>Figure: Good example - This Sprint currently has 2 'Failed' tests (red), and 1 'Active' test (blue). (This 'Results' view is new in MTM 2012) </dd></dl>
+Key:
+
+* The red is work remaining for the developers, and
+* The blue is working remaining for the testers (unfinished testing)
