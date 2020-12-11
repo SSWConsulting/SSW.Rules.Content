@@ -12,9 +12,13 @@ related: []
 
 ---
 
+When checking code into TFS, a build should be triggered as per the rule [Do you know the minimum builds to create on any branch?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#MinimumBuilds)
 
-<p>When checking code into TFS, a build should be triggered as per the rule <a href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#MinimumBuilds">Do you know the minimum builds to create on any branch?</a></p><p>You should not just trigger a build and walk away however – make sure that build succeeded!</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>The first way is from within Visual Studio.</p><dl class="goodImage"><dt><img src="builds-success-good.jpg" alt="" /></dt><dd>Figure: Good Example – Check your build has passed from Team Explorer | Builds</dd></dl><p>The second is by always having the TFS Build Notification tool always running. Through it you can subscribe to any builds you are interested in, when they start, end and their status.</p><dl class="goodImage"><dt><img src="builds-success-better.jpg" alt="" /></dt><dd>Figure: Better Example – Check your build(s) are continually passing by having the TFS Build Notification tool always running - Start | All Programs | Visual Studio 2012 | Team Foundation Server Tools | Build Notifications</dd></dl>
+You should not just trigger a build and walk away however – make sure that build succeeded!
 
+<!--endintro-->
 
+The first way is from within Visual Studio.
+<dl class="goodImage">&lt;dt&gt;<img src="builds-success-good.jpg" alt="">&lt;/dt&gt;<dd>Figure: Good Example – Check your build has passed from Team Explorer | Builds</dd></dl>
+The second is by always having the TFS Build Notification tool always running. Through it you can subscribe to any builds you are interested in, when they start, end and their status.
+<dl class="goodImage">&lt;dt&gt;<img src="builds-success-better.jpg" alt="">&lt;/dt&gt;<dd>Figure: Better Example – Check your build(s) are continually passing by having the TFS Build Notification tool always running - Start | All Programs | Visual Studio 2012 | Team Foundation Server Tools | Build Notifications</dd></dl>
