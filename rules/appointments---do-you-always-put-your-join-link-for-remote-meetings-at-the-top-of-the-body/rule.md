@@ -14,12 +14,7 @@ related: []
 
 ---
 
+By default, when you click the button to turn an appointment into a Teams Meeting, it adds the link to join the call to the bottom of the body content. It’s generally a good idea to move this up to the top, as It’s the 1st thing you’ll want people to do when they open the appointment on the day of the meeting.
 
-<p class="ssw15-rteElement-P">​By default, when you click the button to turn an appointment into a Teams Meeting, it adds the link to join the call to the bottom of the body content. It’s generally a good idea to move this up to the top, as It’s the 1st thing you’ll want people to do when they open the appointment on the day of the meeting.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="join-link-bad.jpg" alt="join-link-bad.jpg" style="width:750px;height:970px;" /></dt><dd>Figure: Bad Example – join link gets lost</dd>
-</dl>
-
-<dl class="goodImage"><dt><img src="join-link-good.jpg" alt="join-link-good.jpg" style="width:750px;height:852px;" /></dt><dd>Figure: Good Example – easy to know what to click on</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="join-link-bad.jpg" alt="join-link-bad.jpg" style="width:750px;height:970px;">&lt;/dt&gt;<dd>Figure: Bad Example – join link gets lost</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="join-link-good.jpg" alt="join-link-good.jpg" style="width:750px;height:852px;">&lt;/dt&gt;<dd>Figure: Good Example – easy to know what to click on</dd></dl>
