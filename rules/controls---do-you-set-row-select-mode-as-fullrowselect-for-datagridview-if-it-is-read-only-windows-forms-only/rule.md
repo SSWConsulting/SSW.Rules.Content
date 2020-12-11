@@ -10,16 +10,11 @@ related: []
 
 ---
 
+If you use the DataGridView control which is read only, you had better set row select mode as "FullRowSelect". If the data cannot be modified we can let users select the whole row instead of one column.
 
-<p>If you use the DataGridView control which is read only, you had better set row select mode as "FullRowSelect". If the data cannot be modified we can let users select the whole row instead of one column.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="without FullRowSelect" src="../../assets/NoneFullRowSelect.gif" /></dt>
-<dd>Figure: Bad Example - Row select mode is not "FullRowSelect".</dd></dl>
-<dl class="goodImage"><dt><img alt="with FullRowSelect" src="../../assets/FullRowSelect.gif" /></dt>
-<dd>Figure: Good Example - Row select mode is "FullRowSelect".</dd></dl>
-<dl class="image"><dt><img alt="Set select mode as FullRowSelect" src="../../assets/setselectmodefull.gif" /></dt>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img alt="without FullRowSelect" src="../../assets/NoneFullRowSelect.gif">&lt;/dt&gt;
+<dd>Figure: Bad Example - Row select mode is not "FullRowSelect".</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="with FullRowSelect" src="../../assets/FullRowSelect.gif">&lt;/dt&gt;
+<dd>Figure: Good Example - Row select mode is "FullRowSelect".</dd></dl><dl class="image">&lt;dt&gt;<img alt="Set select mode as FullRowSelect" src="../../assets/setselectmodefull.gif">&lt;/dt&gt;
 <dd>Figure: Changed row select mode to FullRowSelect.</dd></dl>
-<div>What's the next step? It's even better if you enable multiple row selection and copying, see <a href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ListView">Do your List Views support multiple selection and copying</a> on <a href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx">Rules to Better Windows Forms Applications</a>.</div>
-
-
-
+What's the next step? It's even better if you enable multiple row selection and copying, see [Do your List Views support multiple selection and copying](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ListView) on [Rules to Better Windows Forms Applications](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx).
