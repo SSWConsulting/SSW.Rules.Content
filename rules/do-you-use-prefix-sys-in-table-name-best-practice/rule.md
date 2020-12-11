@@ -13,21 +13,14 @@ related:
 
 ---
 
-
-
-  <p>Don't use sys as a prefix for Access tables. Some developers use this for system tables etc. SQL Server uses tables with this prefix and it becomes confusing. We recommend system tables start with <b><b style="background-color&#58;#ffff66;color&#58;black;">zs</b></b> eg. zsUsers</p>
-<p><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLServerDatabases.aspx#ZSPrefix"></a></p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <table class="clsSSWProductTable" cellspacing="2" summary="Upsizing PRO" cellpadding="2">
-    <tbody>
-        <tr>
-            <td><a href="http&#58;//www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </td>
-        </tr>
-    </tbody>
-</table>
-See our <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLServerDatabases.aspx#ZSPrefix">Rules to Better SQL Server Databases - Do you add zs prefix to table name?</a>
+Don't use sys as a prefix for Access tables. Some developers use this for system tables etc. SQL Server uses tables with this prefix and it becomes confusing. We recommend system tables start with  **zs ** eg. zsUsers
 
 
 
+<!--endintro-->
+
+
+| [Upsizing PRO](http&#58;//www.ssw.com.au/ssw/UpsizingPRO) will check this rule  |
+| --- |
+
+ See our [Rules to Better SQL Server Databases - Do you add zs prefix to table name?](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLServerDatabases.aspx#ZSPrefix)
