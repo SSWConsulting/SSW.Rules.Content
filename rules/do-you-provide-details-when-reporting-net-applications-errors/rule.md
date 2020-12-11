@@ -10,9 +10,76 @@ related: []
 
 ---
 
+.NET applications can sometimes produce a stack trace of an error, these error messages are all we need to figure out what has happened.  **Please do not send us this screen shot** , instead, select the top section of what's within this box and paste it in an email that you can send back to us.
 
-<p style="box-sizing:border-box;word-wrap:break-word;word-break:break-word;font-family:arial, sans-serif;font-size:14px;line-height:20.02px;"><span style="font-family:arial, sans-serif;font-size:14px;line-height:20.02px;">.NET applications can some</span><span style="font-family:arial, sans-serif;font-size:14px;line-height:20.02px;">times produce a stack trace of an error, these error messages are all we need to figure out what has happened.  </span><strong style="font-family:arial, sans-serif;font-size:14px;line-height:20.02px;">Please do not send us this screen shot</strong><span style="font-family:arial, sans-serif;font-size:14px;line-height:20.02px;">, instead, select the top section of what's within this box and paste it in an </span><span style="font-family:arial, sans-serif;font-size:14px;line-height:20.02px;">email that you can send back to us.</span><br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p style="line-height:20.02px;box-sizing:border-box;word-wrap:break-word;word-break:break-word;font-family:arial, sans-serif;font-size:14px;">The text within the 'Details' button is more useful for debugging and locating the problem.</p><dl class="image" style="margin-top:0px;margin-bottom:20px;box-sizing:border-box;font-family:arial, sans-serif;font-size:14px;line-height:20.02px;"><dt style="box-sizing:border-box;line-height:1.42857;"><img src="../../assets/DotNetDebug2.GIF" alt="the bug happened" width="440" height="321" style="margin:5px;padding:10px;box-sizing:border-box;vertical-align:middle;max-width:100%;width:auto;background-image:none;background-attachment:scroll;background-position:0px 0px;background-repeat:repeat;" /></dt><dd style="line-height:1.42857;box-sizing:border-box;">Figure: Bug details window</dd></dl><div class="greybox" style="margin-top:10px;margin-bottom:10px;padding:1em 1.5em;box-sizing:border-box;border:1px solid #cccccc;clear:both;font-family:arial, sans-serif;font-size:14px;line-height:20.02px;background:#eeeeee;">See the end of this message for details on invoking <br style="box-sizing:border-box;">just-in-time (JIT) debugging instead of this dialog box.<br style="box-sizing:border-box;"><br style="box-sizing:border-box;"><span style="box-sizing:border-box;background-color:#ffff00;">We really want this part:</span><br style="box-sizing:border-box;">************** Exception Text **************<br style="box-sizing:border-box;">System.ArgumentException: invalid sender parameter<br style="box-sizing:border-box;">Parameter name: sender<br style="box-sizing:border-box;">at WindowsApplication3.FormStart.button5_Click(Object sender, EventArgs e) in c:\datajohnliu\datavs7projects\windowsapplication3\formstart.cs:line 143<br style="box-sizing:border-box;">at System.Windows.Forms.Control.OnClick(EventArgs e)<br style="box-sizing:border-box;">at System.Windows.Forms.Button.OnClick(EventArgs e)<br style="box-sizing:border-box;">at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)<br style="box-sizing:border-box;">at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)<br style="box-sizing:border-box;">at System.Windows.Forms.Control.WndProc(Message& m)<br style="box-sizing:border-box;">at System.Windows.Forms.ButtonBase.WndProc(Message& m)<br style="box-sizing:border-box;">at System.Windows.Forms.Button.WndProc(Message& m)<br style="box-sizing:border-box;">at System.Windows.Forms.ControlNativeWindow.OnMessage(Message& m)<br style="box-sizing:border-box;">at System.Windows.Forms.ControlNativeWindow.WndProc(Message& m)<br style="box-sizing:border-box;">at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)<br style="box-sizing:border-box;"><br style="box-sizing:border-box;"><span style="box-sizing:border-box;background-color:#ffff00;">This part is quite useful sometimes too.</span><br style="box-sizing:border-box;">************** Loaded Assemblies **************<br style="box-sizing:border-box;">mscorlib<br style="box-sizing:border-box;">Assembly Version: 1.0.3300.0<br style="box-sizing:border-box;">Win32 Version: 1.0.3705.288<br style="box-sizing:border-box;">CodeBase: file:///c:/windows/microsoft.net/framework/ v1.0.3705/mscorlib.dll<br style="box-sizing:border-box;">----------------------------------------<br style="box-sizing:border-box;">WindowsApplication3<br style="box-sizing:border-box;">Assembly Version: 1.0.1129.31301<br style="box-sizing:border-box;">Win32 Version: 1.0.1129.31301<br style="box-sizing:border-box;">CodeBase: file:///C:/DataJohnLiu/DataVS7Projects/ WindowsApplication3/bin/Debug/WindowsApplication3.exe<br style="box-sizing:border-box;">----------------------------------------<br style="box-sizing:border-box;">System.Windows.Forms<br style="box-sizing:border-box;">Assembly Version: 1.0.3300.0<br style="box-sizing:border-box;">Win32 Version: 1.0.3705.288<br style="box-sizing:border-box;">CodeBase: file:///c:/windows/assembly/gac/system.windows.forms/ 1.0.3300.0__b77a5c561934e089/system.windows.forms.dll<br style="box-sizing:border-box;">----------------------------------------<br style="box-sizing:border-box;">System<br style="box-sizing:border-box;">Assembly Version: 1.0.3300.0<br style="box-sizing:border-box;">Win32 Version: 1.0.3705.288<br style="box-sizing:border-box;">CodeBase: file:///c:/windows/assembly/gac/system/ 1.0.3300.0__b77a5c561934e089/system.dll<br style="box-sizing:border-box;">----------------------------------------<br style="box-sizing:border-box;">System.Drawing<br style="box-sizing:border-box;">Assembly Version: 1.0.3300.0<br style="box-sizing:border-box;">Win32 Version: 1.0.3705.288<br style="box-sizing:border-box;">CodeBase: file:///c:/windows/assembly/gac/system.drawing/ 1.0.3300.0__b03f5f7f11d50a3a/system.drawing.dll<br style="box-sizing:border-box;">----------------------------------------<br style="box-sizing:border-box;">System.Xml<br style="box-sizing:border-box;">Assembly Version: 1.0.3300.0<br style="box-sizing:border-box;">Win32 Version: 1.0.3705.288<br style="box-sizing:border-box;">CodeBase: file:///c:/windows/assembly/gac/system.xml/ 1.0.3300.0__b77a5c561934e089/system.xml.dll<br style="box-sizing:border-box;">----------------------------------------<br style="box-sizing:border-box;"><br style="box-sizing:border-box;"><span style="box-sizing:border-box;background-color:#ffff00;">These are not really useful</span><br style="box-sizing:border-box;">************** JIT Debugging **************<br style="box-sizing:border-box;">To enable just in time (JIT) debugging, the config file for this<br style="box-sizing:border-box;">application or machine (machine.config) must have the<br style="box-sizing:border-box;">jitDebugging value set in the system.windows.forms section.<br style="box-sizing:border-box;">The application must also be compiled with debugging<br style="box-sizing:border-box;">enabled.<br style="box-sizing:border-box;"><br style="box-sizing:border-box;">For example:<br style="box-sizing:border-box;"><br style="box-sizing:border-box;"><configuration><br style="box-sizing:border-box;"><system.windows.forms jitDebugging="true" /><br style="box-sizing:border-box;"></configuration><br style="box-sizing:border-box;"><br style="box-sizing:border-box;">When JIT debugging is enabled, any unhandled exception<br style="box-sizing:border-box;">will be sent to the JIT debugger registered on the machine<br style="box-sizing:border-box;">rather than being handled by this dialog.​</div>
+<!--endintro-->
 
+The text within the 'Details' button is more useful for debugging and locating the problem.
+<dl class="image" style="margin-top:0px;margin-bottom:20px;box-sizing:border-box;font-family:arial, sans-serif;font-size:14px;line-height:20.02px;"><dt style="box-sizing:border-box;line-height:1.42857;"><img src="../../assets/DotNetDebug2.GIF" alt="the bug happened" width="440" height="321" style="margin:5px;padding:10px;box-sizing:border-box;vertical-align:middle;max-width:100%;width:auto;background-image:none;background-attachment:scroll;background-position:0px 0px;background-repeat:repeat;">&lt;/dt&gt;<dd style="line-height:1.42857;box-sizing:border-box;">Figure: Bug details window</dd></dl>
+See the end of this message for details on invoking 
+just-in-time (JIT) debugging instead of this dialog box.
 
+We really want this part:
+\*\*\*\*\*\*\*\*\*\*\*\*\*\* Exception Text \*\*\*\*\*\*\*\*\*\*\*\*\*\*
+System.ArgumentException: invalid sender parameter
+Parameter name: sender
+at WindowsApplication3.FormStart.button5\_Click(Object sender, EventArgs e) in c:\datajohnliu\datavs7projects\windowsapplication3\formstart.cs:line 143
+at System.Windows.Forms.Control.OnClick(EventArgs e)
+at System.Windows.Forms.Button.OnClick(EventArgs e)
+at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+at System.Windows.Forms.Control.WndProc(Message& m)
+at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+at System.Windows.Forms.Button.WndProc(Message& m)
+at System.Windows.Forms.ControlNativeWindow.OnMessage(Message& m)
+at System.Windows.Forms.ControlNativeWindow.WndProc(Message& m)
+at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+This part is quite useful sometimes too.
+\*\*\*\*\*\*\*\*\*\*\*\*\*\* Loaded Assemblies \*\*\*\*\*\*\*\*\*\*\*\*\*\*
+mscorlib
+Assembly Version: 1.0.3300.0
+Win32 Version: 1.0.3705.288
+CodeBase: file:///c:/windows/microsoft.net/framework/ v1.0.3705/mscorlib.dll
+----------------------------------------
+WindowsApplication3
+Assembly Version: 1.0.1129.31301
+Win32 Version: 1.0.1129.31301
+CodeBase: file:///C:/DataJohnLiu/DataVS7Projects/ WindowsApplication3/bin/Debug/WindowsApplication3.exe
+----------------------------------------
+System.Windows.Forms
+Assembly Version: 1.0.3300.0
+Win32 Version: 1.0.3705.288
+CodeBase: file:///c:/windows/assembly/gac/system.windows.forms/ 1.0.3300.0\_\_b77a5c561934e089/system.windows.forms.dll
+----------------------------------------
+System
+Assembly Version: 1.0.3300.0
+Win32 Version: 1.0.3705.288
+CodeBase: file:///c:/windows/assembly/gac/system/ 1.0.3300.0\_\_b77a5c561934e089/system.dll
+----------------------------------------
+System.Drawing
+Assembly Version: 1.0.3300.0
+Win32 Version: 1.0.3705.288
+CodeBase: file:///c:/windows/assembly/gac/system.drawing/ 1.0.3300.0\_\_b03f5f7f11d50a3a/system.drawing.dll
+----------------------------------------
+System.Xml
+Assembly Version: 1.0.3300.0
+Win32 Version: 1.0.3705.288
+CodeBase: file:///c:/windows/assembly/gac/system.xml/ 1.0.3300.0\_\_b77a5c561934e089/system.xml.dll
+----------------------------------------
+
+These are not really useful
+\*\*\*\*\*\*\*\*\*\*\*\*\*\* JIT Debugging \*\*\*\*\*\*\*\*\*\*\*\*\*\*
+To enable just in time (JIT) debugging, the config file for this
+application or machine (machine.config) must have the
+jitDebugging value set in the system.windows.forms section.
+The application must also be compiled with debugging
+enabled.
+
+For example:
+
+<configuration><br style="box-sizing:border-box;"><system.windows.forms jitdebugging="true"></system.windows.forms><br style="box-sizing:border-box;"></configuration>
+
+When JIT debugging is enabled, any unhandled exception
+will be sent to the JIT debugger registered on the machine
+rather than being handled by this dialog.
