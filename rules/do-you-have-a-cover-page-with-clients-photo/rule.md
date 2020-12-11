@@ -12,9 +12,13 @@ related: []
 
 ---
 
+Add a photo of the client on your proposal cover to make your proposal memorable.
 
-<p class="ssw15-rteElement-P">Add a photo of the client on your proposal cover to make your proposal memorable.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Search for the client photo in Google Images or Facebook:<br></p><ul><li>"Tom Northwind" Australia</li><li>"Tom Northwind" Facebook​<br></li></ul><dl class="image"><dt><img src="Proposals_ClientPhoto.jpg" alt="Proposals_ClientPhoto.jpg" /></dt><dd>Figure: Remember to a​​dd a photo of the client</dd></dl>
+<!--endintro-->
 
+Search for the client photo in Google Images or Facebook:
 
+* "Tom Northwind" Australia
+* "Tom Northwind" Facebook
+
+<dl class="image">&lt;dt&gt;<img src="Proposals_ClientPhoto.jpg" alt="Proposals_ClientPhoto.jpg">&lt;/dt&gt;<dd>Figure: Remember to add a photo of the client</dd></dl>
