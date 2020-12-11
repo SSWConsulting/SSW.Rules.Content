@@ -12,9 +12,10 @@ related: []
 
 ---
 
+When you are connected to the SSW network, you may complete the following procedure.
 
-<p style="padding:0px;color:#333333;background-color:#ffffff;">​​When you are connected to the SSW network, you may complete the following procedure.</p><p style="padding:0px;color:#333333;background-color:#ffffff;">Go to <strong style="margin:0px;padding:0px;">\\printer</strong></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="printers.jpg" alt="add-printer-1.png" style="width:659px;" /></dt><dd>Figure: Printers listed in Printer Server</dd></dl><p class="p1">Double click on Printer to connect/add the printer. Follow prompt to finish adding printer (printer driver installation).</p>
+Go to **\\printer**
 
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="printers.jpg" alt="add-printer-1.png" style="width:659px;">&lt;/dt&gt;<dd>Figure: Printers listed in Printer Server</dd></dl>
+Double click on Printer to connect/add the printer. Follow prompt to finish adding printer (printer driver installation).
