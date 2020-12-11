@@ -12,9 +12,13 @@ related: []
 
 ---
 
+Configure login security auditing:
 
-<p>​​Configure login security auditing:​<br></p><ul><li>Not on by default</li><li>Configure on the security tab of Server Properties in SQL Server Management Studio<br></li><li>Enable for Failure</li><li>View using the Windows Event Viewer​<br></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="TurnOnSqlSecurityAuditing.png" alt="SQLDatabases_EnableAuditing.png" style="width:682px;height:571px;" /></dt><dd>Figure: Enable Auditing for SQL Server logins</dd></dl><b style="color:#333333;">Note:</b><span style="color:#333333;"> You can turn on a trace for SQL DDL operations statements.​</span>
+* Not on by default
+* Configure on the security tab of Server Properties in SQL Server Management Studio
+* Enable for Failure
+* View using the Windows Event Viewer
 
 
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="TurnOnSqlSecurityAuditing.png" alt="SQLDatabases_EnableAuditing.png" style="width:682px;height:571px;">&lt;/dt&gt;<dd>Figure: Enable Auditing for SQL Server logins</dd></dl>**Note:**  You can turn on a trace for SQL DDL operations statements.
