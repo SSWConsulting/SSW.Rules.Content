@@ -12,11 +12,11 @@ related: []
 
 
 
-  <p>Unfortunately, there is no easy solution to this. What we need is a 'version' field and an 'Update' button - See our <b><a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version">Suggestions to Microsoft PowerPoint&#58; Check for Updates</a></b></p>
+  <p>Unfortunately, there is no easy solution to this. What we need is a 'version' field and an 'Update' button - See our <b><a href="http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version">Suggestions to Microsoft PowerPoint: Check for Updates</a></b></p>
 
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt>
-      <img alt="Check Template" src="/PublishingImages/CheckTemplate.jpg" />
-   </dt><dd>Figure&#58; This is how you can see if you are using the template file </dd></dl>
+      <img alt="Check Template" src="CheckTemplate.jpg" />
+   </dt><dd>Figure: This is how you can see if you are using the template file </dd></dl>
 
 
