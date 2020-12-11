@@ -14,18 +14,19 @@ related:
 
 ---
 
+The MS Upsizing Wizard cannot upsize Microsoft Access queries containing
+
+* EXISTS &lt;&gt; FALSE/TRUE or
+* EXISTS = FALSE/TRUE
 
 
-  <p>The MS Upsizing Wizard cannot upsize Microsoft Access queries containing </p>
-<ul>
-    <li>EXISTS &lt;&gt; FALSE/TRUE or </li>
-    <li>EXISTS = FALSE/TRUE</li>
-</ul>
-<p>For example, the following query will not be upsized&#58;</p>
+For example, the following query will not be upsized:
 
-<br><excerpt class='endintro'></excerpt><br>
+<!--endintro-->
 
-  <pre class="ms-rteCustom-CodeArea">PARAMETERS [@Employee Last Name] Text ( 20 );    
+
+```
+PARAMETERS [@Employee Last Name] Text ( 20 );    
 SELECT Orders.OrderID
 , Orders.CustomerID
 , Orders.EmployeeID
@@ -33,18 +34,21 @@ FROM Orders
 WHERE EXISTS (SELECT EmployeeID
  FROM Employees 
  WHERE LastName= [@Employee Last Name] 
- AND Employees.EmployeeID=Orders.EmployeeID) &lt;&gt; FALSE</pre>
-<font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad example of Access query with EXISTS keyword and comparison operator </font>
-<pre class="ms-rteCustom-CodeArea">PARAMETERS [@Employee Last Name] Text ( 20 ); 
+ AND Employees.EmployeeID=Orders.EmployeeID) <> FALSE
+```
+
+<font class="ms-rteCustom-FigureBad">Figure&#58; Bad example of Access query with EXISTS keyword and comparison operator </font>
+
+```
+PARAMETERS [@Employee Last Name] Text ( 20 ); 
 SELECT Orders.OrderID
 , Orders.CustomerID
 , Orders.EmployeeID
-<br>FROM Orders
-<br>WHERE EXISTS (SELECT EmployeeID 
+FROM Orders
+WHERE EXISTS (SELECT EmployeeID 
  FROM Employees
-<br> WHERE LastName= [@Employee Last Name] 
- AND Employees.EmployeeID=Orders.EmployeeID)</pre>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure&#58; Good example of Access query with EXISTS keyword and without comparison operator</font>In order to get the good example syntax you must switch from Design View window to SQL View in query designer window and save query definition.
+ WHERE LastName= [@Employee Last Name] 
+ AND Employees.EmployeeID=Orders.EmployeeID)
+```
 
-
-
+<font class="ms-rteCustom-FigureGood">Figure&#58; Good example of Access query with EXISTS keyword and without comparison operator</font>In order to get the good example syntax you must switch from Design View window to SQL View in query designer window and save query definition.
