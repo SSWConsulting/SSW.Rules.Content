@@ -12,9 +12,9 @@ related: []
 
 ---
 
-
-Azure Machine Learning provides an easy to use yet feature rich platform for conducting machine learning experiments. &#160;This introduction provides an overview of ML Studio functionality, and how it can be used to model and predict interesting rule world problems.​<br><br>
-<br><excerpt class='endintro'></excerpt><br>
-<iframe width="560" height="315" src="https&#58;//www.youtube.com/embed/sUN5eIfbVM0?start=4120" frameborder="0"></iframe>​<br>
+Azure Machine Learning provides an easy to use yet feature rich platform for conducting machine learning experiments.  This introduction provides an overview of ML Studio functionality, and how it can be used to model and predict interesting rule world problems.
 
 
+<!--endintro-->
+
+`youtube: https://www.youtube.com/embed/sUN5eIfbVM0?start=4120`
