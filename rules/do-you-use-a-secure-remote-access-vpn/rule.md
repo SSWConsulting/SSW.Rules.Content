@@ -12,9 +12,12 @@ related: []
 
 ---
 
-
-It is important to ensure that if you have a Remote-Access VPN that the tpye of VPN you are using is secure. Previously PPTP was a popular method, but this is now a depricated service as it can be hacked very quickly using online tools.<br><div><br></div><div>It is recommended to go with a provider such as OpenVPN or Cisco AnyConnect.<br></div>
-<br><excerpt class='endintro'></excerpt><br>
+It is important to ensure that if you have a Remote-Access VPN that the tpye of VPN you are using is secure. Previously PPTP was a popular method, but this is now a depricated service as it can be hacked very quickly using online tools.
 
 
 
+
+It is recommended to go with a provider such as OpenVPN or Cisco AnyConnect.
+
+
+<!--endintro-->
