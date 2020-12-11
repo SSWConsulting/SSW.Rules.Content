@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+  <meta name="google-site-verification" content="zWzZYOLnlScXLjNtFyazBvfu8l_bQxPDflqvCF1xDJk" />
+  <meta name="msvalidate.01" content="6E5A739258A51C4C1D5D6CE5CD135570" />
+
+  <title>SugarLearning</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="app/assets/images/Favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="app/assets/images/Favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="app/assets/images/Favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="app/assets/images/Favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="app/assets/images/Favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="app/assets/images/Favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="app/assets/images/Favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="app/assets/images/Favicons/apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="app/assets/images/Favicons/apple-touch-icon-180x180.png" />
+  <link rel="icon" type="image/png" href="app/assets/images/Favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="app/assets/images/Favicons/favicon-194x194.png" sizes="194x194" />
+  <link rel="icon" type="image/png" href="app/assets/images/Favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="app/assets/images/Favicons/android-chrome-192x192.png" sizes="192x192" />
+  <link rel="icon" type="image/png" href="app/assets/images/Favicons/favicon-16x16.png" sizes="16x16" />
+
+  <meta name="msapplication-TileColor" content="#b91d47" />
+  <meta name="msapplication-TileImage" content="app/assets/images/Favicons/mstile-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="app/assets/images/Favicons/mstile-144x144.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css"
+    integrity="sha512-QfDd74mlg8afgSqm3Vq2Q65e9b3xMhJB4GZ9OcHDVy1hZ6pqBJPWWnMsKDXM7NINoKqJANNGBuVRIpIJ5dogfA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="/app/styles.fb2597354216e51e3836.css"></head>
+
+<body>
+  <ssw-root></ssw-root>
+  <script async
+    src="https://ssw-boggo-app.azurewebsites.net/widget?project=SSW.Induction&account=ssw&version=2" defer></script>
+<script src="/app/runtime-es2015.574dcb269aa6f882d572.js" type="module"></script><script src="/app/runtime-es5.574dcb269aa6f882d572.js" nomodule defer></script><script src="/app/polyfills-es5.85bdd27a5c0050fcb9bd.js" nomodule defer></script><script src="/app/polyfills-es2015.633448cfa4fb787f0454.js" type="module"></script><script src="/app/scripts.fef169a2b7ca08eaa1b8.js" defer></script><script src="/app/vendor-es2015.a111bf966f216576ab96.js" type="module"></script><script src="/app/vendor-es5.a111bf966f216576ab96.js" nomodule defer></script><script src="/app/main-es2015.3caa87dc0b3d10dfa2fe.js" type="module"></script><script src="/app/main-es5.3caa87dc0b3d10dfa2fe.js" nomodule defer></script></body>
+
+</html>
