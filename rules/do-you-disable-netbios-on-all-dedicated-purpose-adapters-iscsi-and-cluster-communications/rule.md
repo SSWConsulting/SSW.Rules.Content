@@ -10,10 +10,8 @@ related: []
 
 ---
 
+To improve performance, it's a good idea to disable NetBIOS over TCP/IP on your cluster NIC and iSCSI NIC. NetBIOS isn't used in Server 2008 R2 clusters. 
+<!--endintro-->
 
-To improve performance, it's a good idea to disable NetBIOS over TCP/IP on your cluster NIC and iSCSI NIC. NetBIOS isn't used in Server 2008 R2 clusters.
-<br><excerpt class='endintro'></excerpt><br>
-<img src="disable-netbios.jpg" alt="Disable netBIOS" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureGood">Figure: Good example – the NetBIOS is disabled on the dedicated NIC's (iSCSI & Cluster Communications)</span>
-
-
+[[goodExample]]
+| ![the NetBIOS is disabled on the dedicated NIC's](disable-netbios.jpg)(iSCSI & Cluster Communications)
