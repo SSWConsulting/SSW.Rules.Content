@@ -14,9 +14,21 @@ related: []
 
 ---
 
+When modifying existing or creating custom views in Dynamics (or Model-driven PowerApps) always pay special attention to the first column. The first column should always contain the Primary Field for the entity that the view is based on. For example, all views for Opportunities should use Topic (name), Contacts should use Full Name (fullname) as the first column.
 
-When modifying existing or creating custom views in Dynamics (or Model-driven PowerApps) always pay special attention to the first column. The first column should always contain the Primary Field for the entity that the view is based on. For example, all views for Opportunities should use Topic (name), Contacts should use Full Name (fullname) as the first column.<br><br>The reason for this is the Primary Field in a view displays as a hyperlink to the underlying record. It is very convenient (and natural) to click the first item in the view, as this will then take you to the record. If any other field is used the user will either need to double click the row to navigate to the record (non-lookup) or will be taken to a completely different entities record (lookup field).<br><br>Some examples below:<br><br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="bad-primary-field.png" alt="bad-primary-field.png" style="width:750px;" /></dt><dd>Bad Example: A lookup field is the first column</dd></dl><p>In this example Account is the first column in the view, the natural tendency is the click the first column, and seeing that it's a hyperlink further confirms to the user that this is something they can click on. Clicking the first column ("Northwind Traders") would navigate to the Northwind Traders Account form and not the Opportunity form for Northwind Traders.</p><dl class="badImage"><dt><img src="bad-primary-field-2.png" alt="bad-primary-field-2.png" style="width:750px;" /></dt><dd>Bad Example: A regular field is the first column</dd></dl><p>In this example Probability is the first column in the view, again users tend to click the first column in the view. In this example, a single click would select the entire row (with tick box selected to the left of the grid), and a double click on the first column would navigate to the Opportunity record.</p><dl class="goodImage"><dt><img src="good-primary-field.png" alt="good-primary-field.png" style="width:750px;" /></dt><dd>Good Example: Primary Field is the first column</dd></dl><p>In this example, the Primary Field is the first column of the view, and single-clicking the first column view navigates to the opportunity record as expected.</p><h3 class="ssw15-rteElement-H3">​Summary​<br></h3>Understanding column ordering in view is import and making sure the first column in a view is always the Primary Field will make much easier for your users.<p>​<br></p>
+The reason for this is the Primary Field in a view displays as a hyperlink to the underlying record. It is very convenient (and natural) to click the first item in the view, as this will then take you to the record. If any other field is used the user will either need to double click the row to navigate to the record (non-lookup) or will be taken to a completely different entities record (lookup field).
+
+Some examples below:
 
 
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="bad-primary-field.png" alt="bad-primary-field.png" style="width:750px;">&lt;/dt&gt;<dd>Bad Example: A lookup field is the first column</dd></dl>
+In this example Account is the first column in the view, the natural tendency is the click the first column, and seeing that it's a hyperlink further confirms to the user that this is something they can click on. Clicking the first column ("Northwind Traders") would navigate to the Northwind Traders Account form and not the Opportunity form for Northwind Traders.
+<dl class="badImage">&lt;dt&gt;<img src="bad-primary-field-2.png" alt="bad-primary-field-2.png" style="width:750px;">&lt;/dt&gt;<dd>Bad Example: A regular field is the first column</dd></dl>
+In this example Probability is the first column in the view, again users tend to click the first column in the view. In this example, a single click would select the entire row (with tick box selected to the left of the grid), and a double click on the first column would navigate to the Opportunity record.
+<dl class="goodImage">&lt;dt&gt;<img src="good-primary-field.png" alt="good-primary-field.png" style="width:750px;">&lt;/dt&gt;<dd>Good Example: Primary Field is the first column</dd></dl>
+In this example, the Primary Field is the first column of the view, and single-clicking the first column view navigates to the opportunity record as expected.
+
+### Summary
+
+Understanding column ordering in view is import and making sure the first column in a view is always the Primary Field will make much easier for your users.
