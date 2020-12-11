@@ -10,11 +10,6 @@ related: []
 
 ---
 
+Your form should prompt to save the record when the user leaves a page  that has been modified. Alternatively, you can prompt the user when they  log back on that they have drafts. E.g. mail.google.com
 
-<p>Your form should prompt to save the record when the user leaves a page 
-that has been modified. Alternatively, you can prompt the user when they
- log back on that they have drafts. E.g. mail.google.com</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
