@@ -12,24 +12,15 @@ related: []
 
 ---
 
+Generally you will add Javascript to the form to give client side validation.
 
-<p>
-          Generally you will add Javascript to the form to give client side validation.
-        </p>
-<br><excerpt class='endintro'></excerpt><br>
- <p>
-          Given JavaScript is difficult to debug and doesn't get precompiled this can save
-          a lot of time rather than re-publishing all the form changes and having to reload
-          and refresh the forms manually.<br>
-          These events can be trigged using the Preview menu from the form customization environment.
-        </p>
-        <dl class="image">
-          <dt>
-            <img alt="Test your Javascript via the Preview menu in the Custom Forms Designer" src="CRM_TestForm.jpg" /></dt>
+<!--endintro-->
+
+Given JavaScript is difficult to debug and doesn't get precompiled this can save           a lot of time rather than re-publishing all the form changes and having to reload           and refresh the forms manually.
+           These events can be trigged using the Preview menu from the form customization environment.
+<dl class="image">          &lt;dt&gt;
+            <img alt="Test your Javascript via the Preview menu in the Custom Forms Designer" src="CRM_TestForm.jpg">&lt;/dt&gt;
           <dd>
             Figure: Test your Javascript via the Preview menu in the Custom Forms Designer
           </dd>
         </dl>
-
-
-
