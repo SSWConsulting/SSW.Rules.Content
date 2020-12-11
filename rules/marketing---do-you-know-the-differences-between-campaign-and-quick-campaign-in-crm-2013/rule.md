@@ -12,11 +12,19 @@ related: []
 
 ---
 
+This picture shows a flowchart of Campaigns and Quick Campaigns in CRM 2013:
 
-<p>​​This picture shows a flowchart of Campaigns and Quick Campaigns in CRM 2013:</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> 
-      <img alt="Color of CRM Development Server" src="CampaignVSQuickCampaign.jpg" />
-   </dt><dd> Figure: Campaign VS Quick Campaign flowchart.</dd></dl><p>A Campaign can extend over a long period of time, with potentially multiple different media types being used for a common purpose. It has extensive meta-data to both plan activities and then show rep​orts on results.​ e.g.<br></p><ul><li><span style="line-height:1.6;">​</span><span style="line-height:1.6;">​A monthly newsletter​​</span><br></li><li><span style="line-height:1.6;">A flyer campaign</span></li><li><span style="line-height:1.6;">A cold-calling campaign​</span></li></ul><p>A Quick Campaign, however, is for a one-off distribution of emails to a targeted group of contacts. e.g.</p><ul><li><span style="line-height:1.6;">​Letting your local clients know about an upcoming event by email​​</span><br></li></ul>
+<!--endintro-->
+<dl class="image">&lt;dt&gt; 
+      <img alt="Color of CRM Development Server" src="CampaignVSQuickCampaign.jpg">
+   &lt;/dt&gt;<dd> Figure: Campaign VS Quick Campaign flowchart.</dd></dl>
+A Campaign can extend over a long period of time, with potentially multiple different media types being used for a common purpose. It has extensive meta-data to both plan activities and then show reports on results. e.g.
+
+* A monthly newsletter
+* A flyer campaign
+* A cold-calling campaign
 
 
+A Quick Campaign, however, is for a one-off distribution of emails to a targeted group of contacts. e.g.
+
+* Letting your local clients know about an upcoming event by email
