@@ -12,9 +12,22 @@ related: []
 
 ---
 
+Often there are two email threads that have separate tasks in them, but that both relate to a very similar topic. In this case, it can be useful to give them the same subject, with a number afterwards to differentiate them.
 
-<p>Often there are two email threads that have separate tasks in them, but that both relate to a very similar topic. In this case, it can be useful to give them the same subject, with a number afterwards to differentiate them.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​Example&#58;</p><p class="ssw15-rteElement-GreyBox">SSW Rules - Add 'please update this rule' button <span class="ssw15-rteStyle-Highlight">#1</span></p><p class="ssw15-rteElement-GreyBox">SSW Rules - Add 'please update this rule' button <span class="ssw15-rteStyle-Highlight">#2</span></p><p class="p4"><span class="s1">Read <span class="s2"><a href="/Pages/ImportanceOfAGoodSubject.aspx">Do you realize the importance of a good email Subject?</a></span>&#160;for more on good email subjects.​</span></p>
+<!--endintro-->
+
+Example:
 
 
+::: greybox
+SSW Rules - Add 'please update this rule' button <mark>#1</mark>
+:::
+
+
+
+::: greybox
+SSW Rules - Add 'please update this rule' button <mark>#2</mark>
+:::
+
+
+Read [Do you realize the importance of a good email Subject?](/Pages/ImportanceOfAGoodSubject.aspx) for more on good email subjects.
