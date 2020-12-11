@@ -12,10 +12,21 @@ related: []
 
 ---
 
+A package manager is a collection of software tools that automate the process of installing, upgrading, configuring, and uninstalling computer programs in a consistent manner. [Chocolatey](https://chocolatey.org/) is a great package manager, easy to use way to manage software on Windows. 
 
-A package manager is a collection of software tools that automate the process of installing, upgrading, configuring, and uninstalling computer programs in a consistent manner. <a href="https://chocolatey.org/">Chocolatey</a> is a great package manager, easy to use way to manage software on Windows. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> <img alt="chocolatey.png" src="chocolatey.png" /> <br>
-   </dt></dl><p>To get started with Chocolatey open up Command Prompt in Administrative mode, type in: <br></p><pre class="cmd" style="box-sizing:border-box;font-size:0.95em;color:#ffffff;margin-top:0.6em;margin-bottom:0.6em;border-radius:5px;vertical-align:middle;padding:0.5em 0.7em;overflow:auto;line-height:28.8px;background:#000000;">@powershell -NoProfile -ExecutionPolicy Bypass -Com​mand "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin</pre><p>Alternatively, <a href="https://chocolatey.org/install">install Chocolatey via their website</a>.<br></p><p class="ssw15-rteElement-SSW-Only">To find a list of software that we use, along with a PowerShell script to run, check out our <a href="https://intranet.ssw.com.au/SysAdmin/Lists/WinImageInstalledSoftware/AllItems.aspx"> Intranet</a> page. ​</p><div><p class="ssw15-rteElement-P">​​​Alternatives: Homebrew on a Mac​<br></p></div>
+<!--endintro-->
+<dl class="image">&lt;dt&gt; <img alt="chocolatey.png" src="chocolatey.png"> <br>
+   &lt;/dt&gt;</dl>
+To get started with Chocolatey open up Command Prompt in Administrative mode, type in:
 
 
+```
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+```
+
+
+Alternatively, [install Chocolatey via their website](https://chocolatey.org/install).
+
+To find a list of software that we use, along with a PowerShell script to run, check out our [Intranet](https://intranet.ssw.com.au/SysAdmin/Lists/WinImageInstalledSoftware/AllItems.aspx) page.
+
+Alternatives: Homebrew on a Mac
