@@ -12,16 +12,143 @@ related: []
 
 ---
 
+*"An ounce of prevention is worth a pound of cure"*goes the saying. Having a strict coding standard is prevention. To create good code you must have good standards, such as commenting standards, naming standards, versioning standards and [knowing the value of consistency](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=f23d23e1-b60c-4c9c-b1e3-887a2906f3cf).
 
-<p class="ssw15-rteElement-P"><em>"An ounce of prevention is worth a pound of cure" </em>goes the saying. Having a strict coding standard is prevention. To create good code you must have good standards, such as commenting standards, naming standards, versioning standards and <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=f23d23e1-b60c-4c9c-b1e3-887a2906f3cf">knowing the value of consistency</a>. <br></p><p class="ssw15-rteElement-P"><b>But this can really only happen if you’re going to <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=36598961-2933-4a95-ba4b-9ed702e405ef">go the extra mile</a> and stick your neck out and correct someone. </b><br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> <img src="watchdog-mean.jpg" alt="mean.jpg" style="width:760px;height:561px;" /> </dt><dd>Figure: Bad Example - Correcting someone in a mean way</dd></dl><dl class="goodImage"><dt> <img src="watchdog-watchdog.jpg" alt="Watchdog.jpg" style="width:760px;height:561px;" /> </dt><dd>Figure: Good example - People make mistakes but correct them as though they’re a soft cute puppy 🐶</dd></dl><p>Every member of a team plays an important role in maintaining standards. Whether it's your<b></b> work or someone else's, always<b></b> keep an eye out for <b>things that can be improved</b>.</p><p>This rule applies to all company standards. Standards are important because they ensure your experience at work is consistent and enjoyable. For example, if there was no standard to stack the dishes in the dishwasher when you were finished using them, dishes would build up and create a big mess in the kitchen!</p><h3 class="ssw15-rteElement-H3">Be nice, not harsh </h3><p>
-   <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=c3ff9a11-42d9-4b53-9d2f-713b0bd9d63b">Do you know the nice way to correct someone? </a> <br></p><h3 class="ssw15-rteElement-H3">Small things = Tiny Tip<br></h3><p>When the 'mistake' the person made is not an actual mistake, but something that the company has decided to do in one way for consistency, without a strong argument.<br></p><p></p><p class="ssw15-rteElement-GreyBox">
-   <b>Tiny Tip: </b>I’d use international format on your phone number so people outside Australia can just click to dial - as per https://rules.ssw.com.au/great-email-signatures</p><dd class="ssw15-rteElement-FigureGood">Figure: Good example - nicely informing of a small standard oversight <br></dd><h3>Important things = Tip </h3><p>When there is a proven better way to do something different from what the person has done. You should try to include the reasons.<br></p><p class="ssw15-rteElement-GreyBox">
-   <b>Tip:</b> I noticed your email has a very generic subject: "website". Please resend with a descriptive email subject as per Rules to Better Email. This way it is easier to identify, categorize and find this email later, without having to open it :)<br></p><dd class="ssw15-rteElement-FigureGood">Figure: Good example - nicely informing of a better way to do something <br></dd><p></p><h3 class="ssw15-rteElement-H3">Crucial things = Critical<br></h3><p>When the error the person committed can lead to a misunderstanding or a security breach. You should include a task with action when necessary.<br></p><p class="ssw15-rteElement-GreyBox"> 
-   <b>Critical: </b>When sending a proposal never use the word "quote", but use "estimates" instead. As per Rules to Better Project Management we don't work with a fixed price, which is opposite to what the word "quote" implies. This might create different expectation and consequently frustration and legal problems with the client. <br> 
-   <br>1. Please fix asap<br></p><dd class="ssw15-rteElement-FigureGood">Figure: Good example - nicely informing of a critical mistake<br></dd><h3 class="ssw15-rteElement-H3">Coding - For Developers</h3><p>When you come across an error, don't just fix it, as the developer who made it is likely to make it again. Instead, write an email to the person explaining what has been done wrong and how you would've improved the code. CC relevant parties to improve others, to <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=27115c96-c7f0-4d6c-9500-6c7f71e67f65">collect your brownie points</a> or to set a good example.<br></p><p>No one likes being corrected but hopefully, with everyone doing this in the office, it's not a matter of finger-pointing, it is working together to write better code or developing better solutions.</p><p>
-   <b>Tip:</b> In code, if you don't know who made the mistake, <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=1167746b-aca0-4a4f-9dd0-bf6b87953dae">use the annotate tool</a>.</p><h3 class="ssw15-rteElement-H3">What if it's recurring?</h3><p>When you notice someone doing the wrong thing:</p><ul><li>First time just send an email with a pointer to the rule</li><li>The second time, have a very quick chat with them</li><li>Third time call them in and give them a formal talk about it<br></li></ul><h3 class="ssw15-rteElement-H3">Focus on the meat first</h3><p>When you receive a great 'done' email or document, make sure you mention how great it is <b>before</b> correcting any potential error.</p><h3 class="ssw15-rteElement-H3">Timing is everything - Don't bottle it up</h3><p>It can be tempting to offer your feedback as soon as you think of it, but it's better to hold off until the recipient is in a place where they can hear it. If a person is busy, distracted, or in a poor emotional state, chances are your feedback won’t hit the mark. Wait until the person is calm and relaxed before asking them if now is a good time to offer your feedback.</p><p>For more, check out <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=2c548b17-a4cb-47b1-bc04-c3038c3ff52e">Do you know to create a safe space instead of jumping into feedback?​​</a> <br></p><p></p><dl class="badImage"><dt> <img src="watchdog-ghost.jpg" alt="ghost.jpg" style="width:760px;height:561px;" /> </dt><dd>Figure: Bad example - seeing a mistake and not pointing it out doesn't improve a person. Allow them to benefit from your experience!<br></dd></dl><h3 class="ssw15-rteElement-H3">Going Anonymous</h3><p>When something is really personal, you can’t really correct someone unless you are a close friend and have credit with the person, so you should discretely ask your manager how to proceed in that specific case.<br></p><h3 class="ssw15-rteElement-H3">Taking Feedback</h3><dl class="goodImage"><dt> <img src="watchdog-thankyou.jpg" alt="thankyou.jpg" style="width:760px;height:561px;" /> </dt><dd>Figure: Good example - say 'thank you' to a person's corrections to show you don't have thin skin and encourage further positive and negative feedback. It all helps you to improve</dd></dl><h3 class="ssw15-rteElement-H3">In Summary</h3><p>It's important to ensure others are doing their best to maintain and follow the standards. Remember, it can be just as important for someone's professional development to give feedback as it is to receive it. Being able to communicate feedback in an effective and professional manner can benefit you in any career.</p><p class="ssw15-rteElement-GreyBox"> 
-   <b>To:</b> Peter<br><b>CC:</b> Adam (Manager)<br>​<br>Dear Peter,<br><br>While you were away, I came across this page you edited, called ApplicationForm.aspx which was giving an error: <br><em>'The conversion of a char data type to a DateTime data type resulted in an out-of-range DateTime value.' </em><br><br>Please note that whilst inserting data from your Front End application, you should not use the format <b>dd/mm/</b><b>yyyy</b>. <br>Instead, you should use <b>yyyy</b><b>/mm/dd </b>as per Rules to Better Databases.<br><br>Let's fix it together when we get to work tomorrow.<br><br>Cheers, <br>John<br></p><dd class="ssw15-rteElement-FigureGood"> Figure: Good example - nicely informing of a standards violation <br></dd>
+**But this can really only happen if you’re going to [go the extra mile](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=36598961-2933-4a95-ba4b-9ed702e405ef) and stick your neck out and correct someone.**
+
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; <img src="watchdog-mean.jpg" alt="mean.jpg" style="width:760px;height:561px;"> &lt;/dt&gt;<dd>Figure: Bad Example - Correcting someone in a mean way</dd></dl><dl class="goodImage">&lt;dt&gt; <img src="watchdog-watchdog.jpg" alt="Watchdog.jpg" style="width:760px;height:561px;"> &lt;/dt&gt;<dd>Figure: Good example - People make mistakes but correct them as though they’re a soft cute puppy 🐶</dd></dl>
+Every member of a team plays an important role in maintaining standards. Whether it's your  work or someone else's, always  keep an eye out for  **things that can be improved** .
+
+This rule applies to all company standards. Standards are important because they ensure your experience at work is consistent and enjoyable. For example, if there was no standard to stack the dishes in the dishwasher when you were finished using them, dishes would build up and create a big mess in the kitchen!
+
+### Be nice, not harsh 
+
+[Do you know the nice way to correct someone?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=c3ff9a11-42d9-4b53-9d2f-713b0bd9d63b)
+
+### Small things = Tiny Tip
 
 
+When the 'mistake' the person made is not an actual mistake, but something that the company has decided to do in one way for consistency, without a strong argument.
+
+
+
+
+::: greybox
+**Tiny Tip:** I’d use international format on your phone number so people outside Australia can just click to dial - as per https://rules.ssw.com.au/great-email-signatures
+:::
+
+
+
+::: good
+Figure: Good example - nicely informing of a small standard oversight 
+
+:::
+
+
+### Important things = Tip 
+
+When there is a proven better way to do something different from what the person has done. You should try to include the reasons.
+
+
+::: greybox
+**Tip:** I noticed your email has a very generic subject: "website". Please resend with a descriptive email subject as per Rules to Better Email. This way it is easier to identify, categorize and find this email later, without having to open it :)
+
+:::
+
+
+
+::: good
+Figure: Good example - nicely informing of a better way to do something 
+
+:::
+
+
+
+
+### Crucial things = Critical
+
+
+When the error the person committed can lead to a misunderstanding or a security breach. You should include a task with action when necessary.
+
+
+::: greybox
+**Critical:** When sending a proposal never use the word "quote", but use "estimates" instead. As per Rules to Better Project Management we don't work with a fixed price, which is opposite to what the word "quote" implies. This might create different expectation and consequently frustration and legal problems with the client. 
+
+1. Please fix asap
+
+:::
+
+
+
+::: good
+Figure: Good example - nicely informing of a critical mistake
+
+:::
+
+
+### Coding - For Developers
+
+When you come across an error, don't just fix it, as the developer who made it is likely to make it again. Instead, write an email to the person explaining what has been done wrong and how you would've improved the code. CC relevant parties to improve others, to [collect your brownie points](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=27115c96-c7f0-4d6c-9500-6c7f71e67f65) or to set a good example.
+
+No one likes being corrected but hopefully, with everyone doing this in the office, it's not a matter of finger-pointing, it is working together to write better code or developing better solutions.
+
+**Tip:** In code, if you don't know who made the mistake, [use the annotate tool](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=1167746b-aca0-4a4f-9dd0-bf6b87953dae).
+
+### What if it's recurring?
+
+When you notice someone doing the wrong thing:
+
+* First time just send an email with a pointer to the rule
+* The second time, have a very quick chat with them
+* Third time call them in and give them a formal talk about it
+
+
+### Focus on the meat first
+
+When you receive a great 'done' email or document, make sure you mention how great it is  **before** correcting any potential error.
+
+### Timing is everything - Don't bottle it up
+
+It can be tempting to offer your feedback as soon as you think of it, but it's better to hold off until the recipient is in a place where they can hear it. If a person is busy, distracted, or in a poor emotional state, chances are your feedback won’t hit the mark. Wait until the person is calm and relaxed before asking them if now is a good time to offer your feedback.
+
+For more, check out [Do you know to create a safe space instead of jumping into feedback?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=2c548b17-a4cb-47b1-bc04-c3038c3ff52e)
+
+
+<dl class="badImage">&lt;dt&gt; <img src="watchdog-ghost.jpg" alt="ghost.jpg" style="width:760px;height:561px;"> &lt;/dt&gt;<dd>Figure: Bad example - seeing a mistake and not pointing it out doesn't improve a person. Allow them to benefit from your experience!<br></dd></dl>
+### Going Anonymous
+
+When something is really personal, you can’t really correct someone unless you are a close friend and have credit with the person, so you should discretely ask your manager how to proceed in that specific case.
+
+### Taking Feedback
+<dl class="goodImage">&lt;dt&gt; <img src="watchdog-thankyou.jpg" alt="thankyou.jpg" style="width:760px;height:561px;"> &lt;/dt&gt;<dd>Figure: Good example - say 'thank you' to a person's corrections to show you don't have thin skin and encourage further positive and negative feedback. It all helps you to improve</dd></dl>
+### In Summary
+
+It's important to ensure others are doing their best to maintain and follow the standards. Remember, it can be just as important for someone's professional development to give feedback as it is to receive it. Being able to communicate feedback in an effective and professional manner can benefit you in any career.
+
+
+::: greybox
+**To:** Peter
+ **CC:** Adam (Manager)
+
+Dear Peter,
+
+While you were away, I came across this page you edited, called ApplicationForm.aspx which was giving an error: 
+*'The conversion of a char data type to a DateTime data type resulted in an out-of-range DateTime value.'*
+
+Please note that whilst inserting data from your Front End application, you should not use the format  **dd/mm/** **yyyy** . 
+Instead, you should use  **yyyy** **/mm/dd** as per Rules to Better Databases.
+
+Let's fix it together when we get to work tomorrow.
+
+Cheers, 
+John
+
+:::
+
+
+
+::: good
+Figure: Good example - nicely informing of a standards violation 
+
+:::
