@@ -16,14 +16,33 @@ related: []
 
 ---
 
-
-<div><b>​#Hashtags</b> are used when talking about something – a topic or keyword. Using a hashtag creates a link that leads to a page displaying an aggregated list of posts about that thing. <br></div><div><br></div><div>On the other hand, <b>@Mentions</b> are used when talking to or about someone (the user account of a person, brand, group, etc.). The link created by a mention goes to that user account. The user is notified when they have received a mention in a post so that they can respond.​<br><br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic. <br>​<br></p><p class="ssw15-rteElement-P"></p><dl class="image"><dt> <img src="tweet-with-mentions-and-hashtags.png" alt="hashtag-stream.jpg" style="width:590px;" /> </dt><dd>Figure: Figure: This tweet utilises @mentions, #hashtags, and an external link, which will create higher engagement and let the reader further explore the topic<br></dd></dl> <p>
-   <span style="line-height:20px;"><strong>Small companies:<br></strong></span><span style="line-height:20px;">If the brand is not big you don't need it diluted. So find the profile and use the @ not the #<br></span><span style="line-height:20px;">E.g. @firebootcamp is preferred over #firebootcamp </span></p><div>
-   <strong>Large companies:</strong></div><div>If the brand is big, you will see a difference between the @ and the #. So if you want to tweet about a subject that is also a username – such as #VisualStudio / @VisualStudio - then the content of your tweet will decide whether to use a hashtag or a @mention: </div><div><ul><li>
-         <span style="line-height:20px;">If you are talking to someone directly, or mention a specific user in your tweet, you should use the @mention.<br></span><span style="line-height:20px;background-color:initial;">E.g. Thanks to @visualstudio for the map to Bill Gates’s house – I’m looting his safe right now!</span></li><li>
-         <span style="line-height:20px;"></span></li><li>
-         <span style="line-height:20px;">If it is about the topic, then the hashtag is the way to go.<br></span><span style="line-height:20px;">E.g. Microsoft releases #VisualStudio 2013 Update 2 </span></li></ul></div>
+**#Hashtags** are used when talking about something – a topic or keyword. Using a hashtag creates a link that leads to a page displaying an aggregated list of posts about that thing. 
 
 
+
+
+
+On the other hand,  **@Mentions** are used when talking to or about someone (the user account of a person, brand, group, etc.). The link created by a mention goes to that user account. The user is notified when they have received a mention in a post so that they can respond.
+
+
+
+<!--endintro-->
+
+The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic.
+
+
+<dl class="image">&lt;dt&gt; <img src="tweet-with-mentions-and-hashtags.png" alt="hashtag-stream.jpg" style="width:590px;"> &lt;/dt&gt;<dd>Figure: Figure: This tweet utilises @mentions, #hashtags, and an external link, which will create higher engagement and let the reader further explore the topic<br></dd></dl> 
+**Small companies:
+** If the brand is not big you don't need it diluted. So find the profile and use the @ not the #
+E.g. @firebootcamp is preferred over #firebootcamp
+
+**Large companies:** 
+
+If the brand is big, you will see a difference between the @ and the #. So if you want to tweet about a subject that is also a username – such as #VisualStudio / @VisualStudio - then the content of your tweet will decide whether to use a hashtag or a @mention: 
+
+
+* If you are talking to someone directly, or mention a specific user in your tweet, you should use the @mention.
+E.g. Thanks to @visualstudio for the map to Bill Gates’s house – I’m looting his safe right now!
+* 
+* If it is about the topic, then the hashtag is the way to go.
+E.g. Microsoft releases #VisualStudio 2013 Update 2
