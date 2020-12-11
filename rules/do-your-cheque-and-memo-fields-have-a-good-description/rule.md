@@ -13,10 +13,10 @@ related: []
 ---
 
 
-<p>If your descriptions have good comments then you don't need to go back to paperwork to investigate things. </p><p>e.g.&#160; The period the invoice relates to.</p>
+<p>If your descriptions have good comments then you don't need to go back to paperwork to investigate things. </p><p>e.g.  The period the invoice relates to.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img alt="memo field bad example" src="/PublishingImages/memo-field-bad.jpg" />
-</dt><dd>Figure&#58; Bad Example</dd></dl><dl class="goodImage"><dt><img alt="memo field good example" src="/PublishingImages/memo-field-good.jpg" />
-</dt><dd>Figure&#58; Good Example</dd></dl>
+<dl class="badImage"><dt><img alt="memo field bad example" src="memo-field-bad.jpg" />
+</dt><dd>Figure: Bad Example</dd></dl><dl class="goodImage"><dt><img alt="memo field good example" src="memo-field-good.jpg" />
+</dt><dd>Figure: Good Example</dd></dl>
 
 
