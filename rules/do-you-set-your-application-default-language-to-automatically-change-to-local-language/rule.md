@@ -12,9 +12,12 @@ related: []
 
 ---
 
+If you are localizing your web application to make it available in a varitety of languages, it's better to set your application default language to automatically change to local language. e.g. Make the web application default language as same as the browser language.
 
-<p>If you are localizing your web application to make it available in a varitety of languages, it's better to ​set your application default language to automatically change to local language. e.g. Make the web application default language as same as the browser language. </p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​In order to use your web application in your preferred language, simply set that language in your browser, save/apply the new settings and then launch your application. <br><br><img alt="DefaultLanguage.jpg" src="DefaultLanguage.jpg" style="margin:5px;width:758px;" />     </p><dd style="border:currentcolor;line-height:16px;">Figure: Detect your users language preference and display in that language​. ​</dd><p> </p>
+<!--endintro-->
+
+In order to use your web application in your preferred language, simply set that language in your browser, save/apply the new settings and then launch your application. 
 
 
+![](DefaultLanguage.jpg)
+<dd style="border:currentcolor;line-height:16px;">Figure: Detect your users language preference and display in that language. </dd>
