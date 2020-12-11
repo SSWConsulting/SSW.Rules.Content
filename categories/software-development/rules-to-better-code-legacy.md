@@ -9,6 +9,5 @@ index:
 - vbnet-code---do-you-know-not-to-put-exit-sub-before-end-sub
 
 ---
-<p>​​<br></p>
 
 
