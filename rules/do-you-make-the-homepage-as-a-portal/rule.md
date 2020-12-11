@@ -14,10 +14,10 @@ related: []
 <p>You should put all the useful and current information on the homepage and also make it easy to find your core functions there.</p>
 <br><excerpt class='endintro'></excerpt><br>
 ​<div>E.g. Top billing customers for the month and a button under it for adding an invoice.<br>E.g. See the number of bugs counted by the most common.</div>
-<dl class="image"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/HomepagePortal.png" alt="TWA" /></dt>
-<dd>Figure&#58; The homepage of TWA is a portal.</dd></dl>
-<dl class="image"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/HomepagePortalSoftware.jpg" alt="Adobe Illustrator" /></dt>
-<dd>Figure&#58; Adobe's Creative Suite also opens a portal 'homepage'.</dd></dl>
+<dl class="image"><dt><img src="../../assets/HomepagePortal.png" alt="TWA" /></dt>
+<dd>Figure: The homepage of TWA is a portal.</dd></dl>
+<dl class="image"><dt><img src="../../assets/HomepagePortalSoftware.jpg" alt="Adobe Illustrator" /></dt>
+<dd>Figure: Adobe's Creative Suite also opens a portal 'homepage'.</dd></dl>
 
 
 
