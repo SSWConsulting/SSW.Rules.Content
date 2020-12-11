@@ -14,38 +14,95 @@ related: []
 
 ---
 
+A common source of pain, is picking up a project without a decent/complete handover. To have a successful project you must navigate over the problem of changing resources/people leaving etc.
 
-<p>A common source of pain, is picking up a project without a decent/complete handover. To have a successful project you must navigate over the problem of changing resources/people&#160;leaving etc.<br></p><p>As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.&#160; Each project they were involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover.&#160; Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.</p><p>Once the handover is complete, the resigning employee should no longer work on that project so that any gaps in knowledge can be covered ideally before their notice period expires.<br></p><p>Always ensure that you&#160;complete the following checklist and <em>always </em>send the email confirming the handover is complete.</p><p>Here are the&#160;8 steps you should follow for a good handover. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Confirm current tasks</li><li>Confirm future tasks</li><li>Confirm the primary contacts</li><li>Do a code review</li><li>Review the client portal</li><li>Confirm location of info and procedures (hopefully, these are on a wiki or SharePoint document library)<ul><li>Source control. Make sure there is no stale or old branches.&#160;​​​Check out&#58; <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d12d969d-0a5f-4d75-8f6b-1c33ac8f74a1">​​Do you know when to branch in git?​</a><br></li><li>Database</li><li>Documents</li><li>How to Build and Package</li><li>Testing&#160;Steps&#160;and&#160;users and passwords to access&#160;the test and staging servers&#160;&#160;</li><li>Deployment Steps</li><li>Servers and Passwords</li><li>Failure &amp; Recovery Steps</li></ul></li><li>Test that the users, passwords, URLs and server details provided in the handover are correct by logging in with each</li><li>Complete the Handover by sending an email with&#58; As per our meeting the handover has been completed to my satisfaction</li></ol>
-<font class="ms-rteCustom-GreyBox"> <p> 
-      <b>From&#58;&#160;Andy<br>To&#58;&#160;Gracia<br>Subject&#58;&#160;SSW - Northwind handover</b></p>
-   <p>Done</p>
-   <ul><li> 
-         <strong>Confirm outstanding tasks </strong>
-         <p>Nothing.<br></p></li><li> 
-         <strong>Confirm planned tasks </strong>
-         <p>Get release 43 out.</p></li><li> 
-         <strong>Confirm location </strong>
-         <ul><li>Source control<p>Nothing</p></li><li>Data storage<p> 
-                  <a shape="rect">file&#58;//server/DataSSW/SSWProducts/Northwind</a></p></li><li>Deployment<p>Make a build by using WISE<br>Test&#58;&#160;seadragon<br>Production&#58;&#160;squirrel</p></li><li>Failure &amp; Recovery<p>Do not work on the Master folder, work on local machine. If it has some issue, grab the file from master folder.<br>Always backup master folder’s file before uploading the changes to the master folder</p></li></ul></li><li> 
-         <strong>Update the Employee Responsibilities in SSW intranet </strong>
-         <p> 
-            <b>TODO</b> </p></li></ul> </font> <strong class="ms-rteCustom-FigureBad">​​​Figure Bad Example - This handover is incomplete and light on details</strong> <br><font class="ms-rteCustom-GreyBox"> <p> 
-      <b>From&#58;&#160;Andy<br>To&#58; Gracia<br>Subject&#58;&#160;SSW - Northwind Handover</b> </p>
-   <p>Done -&#160;As per our meeting the handover has been completed to my satisfaction <br></p>
-   <ul><li> 
-         <strong>Confirm outstanding tasks </strong>
-         <p>Nothing.</p></li><li> 
-         <strong>Confirm planned tasks </strong>
-         <p>Next release is Release 43.<br>The aim of&#160;this release is to improve&#160;the reporting available from the management module with chart reports<br>Query&#160;= tfs\Northwind\Work Items\Team Queries\All Work Items - R43 - Management Module Reporting</p><p>Backlog is in TFS.<br>Query = tfs\Northwind\Work Items\Team Queries\All Work Items - Backlog</p></li><li> 
-         <strong>Confirm location </strong>
-         <ul><li>Source control<p>
-                  <a shape="rect">file&#58;//tfs.ssw.com.au/tfs/Northwind</a></p></li><li>Data storage<p> 
-                  <a shape="rect">file&#58;//server/DataSSW/SSWProducts/North wind</a></p></li><li>Deployment<ul><li>Make a build by using WISE</li><li>Test db to connect to&#58;<p>server&#58; seadragon<br>database&#58; SSWNorthwind_test</p></li><li>Production db to connect to&#58;<p>server&#58; squirrel<br>database&#58; SSWNorthwind&#160;<br></p></li></ul></li><li>Failure &amp; Recovery<p>Do not work on the Master folder, work on a local machine. If it has some issue, grab the file from the master folder.<br>Always backup master folder’s file before uploading the changes to the master folder.<br>If a problem occurs, restore the backup of the master folder and restart<br></p></li></ul></li><li> 
-         <strong>Update the Employee Responsibilities in SSW intranet </strong>
-         <p>DONE</p></li><li> 
-         <strong>Complete Handover </strong></li></ul> </font> <strong class="ms-rteCustom-FigureGood">Figure&#58; Good Example - This handover has lots of URLs and is complete</strong><br>
-<p>If you need to handover only a single task there are more details here&#58;&#160;<a shape="rect" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2586b50a-21b6-40b0-8004-d90d1b029bec">Do you know how to hand over tasks (aka Emails) to others? ​</a>​<br><br></p>
+As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.  Each project they were involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover.  Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
+
+Once the handover is complete, the resigning employee should no longer work on that project so that any gaps in knowledge can be covered ideally before their notice period expires.
+
+Always ensure that you complete the following checklist and *always*send the email confirming the handover is complete.
+
+Here are the 8 steps you should follow for a good handover.
+
+<!--endintro-->
+
+1. Confirm current tasks
+2. Confirm future tasks
+3. Confirm the primary contacts
+4. Do a code review
+5. Review the client portal
+6. Confirm location of info and procedures (hopefully, these are on a wiki or SharePoint document library)
+    * Source control. Make sure there is no stale or old branches. Check out: [Do you know when to branch in git?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d12d969d-0a5f-4d75-8f6b-1c33ac8f74a1)
+    * Database
+    * Documents
+    * How to Build and Package
+    * Testing Steps and users and passwords to access the test and staging servers
+    * Deployment Steps
+    * Servers and Passwords
+    * Failure & Recovery Steps
+7. Test that the users, passwords, URLs and server details provided in the handover are correct by logging in with each
+8. Complete the Handover by sending an email with: As per our meeting the handover has been completed to my satisfaction
 
 
+
+::: greybox
+
+**From: Andy
+To: Gracia
+Subject: SSW - Northwind handover**
+
+Done
+
+* **Confirm outstanding tasks**     Nothing.
+* **Confirm planned tasks**     Get release 43 out.
+* **Confirm location**
+    * Source control        Nothing
+    * Data storage        file://server/DataSSW/SSWProducts/Northwind
+    * Deployment        Make a build by using WISE
+Test: seadragon
+Production: squirrel
+    * Failure & Recovery        Do not work on the Master folder, work on local machine. If it has some issue, grab the file from master folder.
+Always backup master folder’s file before uploading the changes to the master folder
+* **Update the Employee Responsibilities in SSW intranet**     **TODO**
+
+
+:::
+
+ **Figure Bad Example - This handover is incomplete and light on details** 
+
+
+::: greybox
+
+**From: Andy
+To: Gracia
+Subject: SSW - Northwind Handover**
+
+Done - As per our meeting the handover has been completed to my satisfaction
+
+* **Confirm outstanding tasks**     Nothing.
+* **Confirm planned tasks**     Next release is Release 43.
+The aim of this release is to improve the reporting available from the management module with chart reports
+Query = tfs\Northwind\Work Items\Team Queries\All Work Items - R43 - Management Module Reporting
+    Backlog is in TFS.
+Query = tfs\Northwind\Work Items\Team Queries\All Work Items - Backlog
+* **Confirm location**
+    * Source control        file://tfs.ssw.com.au/tfs/Northwind
+    * Data storage        file://server/DataSSW/SSWProducts/North wind
+    * Deployment
+        * Make a build by using WISE
+        * Test db to connect to:            server: seadragon
+database: SSWNorthwind\_test
+        * Production db to connect to:            server: squirrel
+database: SSWNorthwind
+    * Failure & Recovery        Do not work on the Master folder, work on a local machine. If it has some issue, grab the file from the master folder.
+Always backup master folder’s file before uploading the changes to the master folder.
+If a problem occurs, restore the backup of the master folder and restart
+* **Update the Employee Responsibilities in SSW intranet**     DONE
+* **Complete Handover**
+
+
+:::
+
+ **Figure: Good Example - This handover has lots of URLs and is complete** 
+
+If you need to handover only a single task there are more details here: [Do you know how to hand over tasks (aka Emails) to others?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2586b50a-21b6-40b0-8004-d90d1b029bec)
