@@ -10,14 +10,9 @@ related: []
 
 ---
 
+If users want to make some information public, then make it easy for them.
 
-<p>If users want to make some information public, then make it easy for them.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​
-<dl class="goodImage"><dt>
-      <img src="../../assets/social-networks.jpg" alt="social networks links" />
-   </dt><dd>Figure: Good example – User can easily share information via 6 avenues, Google+, Twitter, Facebook, email, SMS, and copy to clipboard for pasting.</dd></dl><p>
-   <br>
-</p>
-
-
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt;
+      <img src="../../assets/social-networks.jpg" alt="social networks links">
+   &lt;/dt&gt;<dd>Figure: Good example – User can easily share information via 6 avenues, Google+, Twitter, Facebook, email, SMS, and copy to clipboard for pasting.</dd></dl>
