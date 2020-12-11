@@ -14,27 +14,13 @@ related: []
 
 ---
 
-
-We want to keep clear and simple file structure in our solution. Never put any files other than images file in \images folder.
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl class="badImage">
-    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Image bad link" src="OnlyImageBad.gif" /> </dt>
-    <dd>Bad example - HTML file in \Images Folder.</dd>
-</dl>
-<dl class="goodImage">
-    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Image good link" src="OnlyImageGood.gif" /> </dt>
-    <dd>Good example - Images only, clean \Images folder.</dd>
-</dl>
-<p> </p>
-<table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
-    <tbody>
-        <tr>
-            <td>We have a program called <a href="http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule.</td>
-        </tr>
-    </tbody>
-</table>
+We want to keep clear and simple file structure in our solution. Never put any files other than images file in \images folder.  
+<!--endintro-->
+<dl class="badImage">    &lt;dt&gt;<img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Image bad link" src="OnlyImageBad.gif"> &lt;/dt&gt;
+    <dd>Bad example - HTML file in \Images Folder.</dd></dl><dl class="goodImage">    &lt;dt&gt;<img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Image good link" src="OnlyImageGood.gif"> &lt;/dt&gt;
+    <dd>Good example - Images only, clean \Images folder.</dd></dl>
 
 
 
+| We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule. |
+| --- |
