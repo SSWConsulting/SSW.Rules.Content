@@ -17,26 +17,26 @@ related: []
 
 
   <p>Exercise – Click Click Scrum<br></p>
-<p>This exercise uses the VS2010 planning poker deck of cards &amp; TFS</p>
+<p>This exercise uses the VS2010 planning poker deck of cards & TFS</p>
 ​​
 <br><excerpt class='endintro'></excerpt><br>
 
   <h1>Separate out the cards
 </h1>
 <p>Separate out these as Chance Cards</p>
-<img class="ms-rteCustom-ImageArea" alt="Chance Cards" src="/PublishingImages/chance-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Chance cards</span>
+<img class="ms-rteCustom-ImageArea" alt="Chance Cards" src="chance-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure: Chance cards</span>
 <p>Separate out these as Point Cards</p>
-<img class="ms-rteCustom-ImageArea" alt="Point Cards" src="/PublishingImages/point-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure&#58; Point cards</span>
+<img class="ms-rteCustom-ImageArea" alt="Point Cards" src="point-cards.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure: Point cards</span>
 <h1>Set Timeboxes</h1>
-<p><strong>Sprint Planning (What)&#58; </strong> 20 minutes<br>
-<strong>Sprint Planning (How)&#58;</strong> 20 minutes<br>
-<strong>Each Day&#58; </strong> 10 minutes ( x 9 days = 90 minutes)<br>
-<strong>Review&#58; </strong> 20 minutes<br>
-<strong>Retro&#58;</strong> 20 minutes</p>
-<p><strong>Total for 1 complete Sprint&#58;</strong> 170 minutes (~3 hours)</p>
+<p><strong>Sprint Planning (What): </strong> 20 minutes<br>
+<strong>Sprint Planning (How):</strong> 20 minutes<br>
+<strong>Each Day: </strong> 10 minutes ( x 9 days = 90 minutes)<br>
+<strong>Review: </strong> 20 minutes<br>
+<strong>Retro:</strong> 20 minutes</p>
+<p><strong>Total for 1 complete Sprint:</strong> 170 minutes (~3 hours)</p>
 <h1>Sprint Planning Meeting (What)</h1>
 <ol>
-    <li>The trainer acts as PO and gives PBIs&#160;&amp; prioritises them </li>
+    <li>The trainer acts as PO and gives PBIs & prioritises them </li>
     <li>Students clarify the requirements of the PBIs (Details, Acceptance Criteria)</li>
     <li>Students do Planning Poker to Estimate<br></li><li>Students break PBIs into tasks</li>
     <li>Students put estimates on each task (typical times for work in a day e.g 4 hours, 8 hours)</li>
@@ -50,9 +50,9 @@ related: []
     <li>The team reduces the remaining hours on their assigned tasks, with the assumption that each student works 8 hours</li>
     <li>Do the Daily Scrum (describing their day based on the work they just updated in TFS)</li>
 </ol>
-<p>NOTE&#58; It is OK to really code rather than use “Click-Click” development as long as TFS is updated.</p>
+<p>NOTE: It is OK to really code rather than use “Click-Click” development as long as TFS is updated.</p>
 <h1>The Review Meeting<br></h1>
-<p>The PO reviews the work of the team (Note&#58; if all the work was “Click-Click” then review the TFS work items to check that they are entered OK).</p>
+<p>The PO reviews the work of the team (Note: if all the work was “Click-Click” then review the TFS work items to check that they are entered OK).</p>
 <h1>The Retro</h1>
 <p>Students and PO do a standard Scrum retro for the exercise.</p>
 <h1>Meaning of the Chance Cards</h1>
@@ -68,14 +68,14 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Draw a point card </li>
                 <li>Add the value to the remaining hours of a task</li>
                 <li>Record the impediment</li>
             </ul>
-            <p>e.g.&#160; DBA will not give access to the database.<br>
-            &#160;&#160;&#160;&#160; </p>
+            <p>e.g.  DBA will not give access to the database.<br>
+                 </p>
             </td>
         </tr>
         <tr>
@@ -88,13 +88,13 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Draw a point card </li>
                 <li>Add a new task</li>
                 <li>Set the remaining hours of a task to the value</li>
             </ul>
-            <p>e.g.&#160; The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the webservice and try    again”.</p>
+            <p>e.g.  The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the webservice and try    again”.</p>
             </td>
         </tr>
         <tr>
@@ -107,7 +107,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Draw a point card </li>
                 <li>Create a bug</li>
@@ -127,7 +127,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Halve the remaining hours on a task </li>
             </ul>
@@ -144,14 +144,14 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Draw a point card </li>
                 <li>Create a new PBI<br></li>
                 <li>Set the PBI points to the value</li>
             </ul>
             <p>e.g. The current implementation may not support real-time display of information with the    performance expected by users – investigate</p>
-            <p>&#160;</p>
+            <p> </p>
             </td>
         </tr>
         <tr>
@@ -164,7 +164,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Double the remaining hours on a task </li>
             </ul>
@@ -181,7 +181,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Cancel all tasks</li>
                 <li>Recycle the PBIs ​to the Product Backlog </li>
@@ -199,7 +199,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>Reduce the hours the team works by 8 hours </li>
             </ul>
@@ -216,7 +216,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>The team handles the missing SM</li>
             </ul>
@@ -233,7 +233,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>The team handles the missing PO</li>
             </ul>
@@ -249,7 +249,7 @@ related: []
         </tr>
         <tr>
             <td valign="top">
-            <p>&#160;</p>
+            <p> </p>
             <ul>
                 <li>The team handles the Stakeholders </li>
             </ul>
