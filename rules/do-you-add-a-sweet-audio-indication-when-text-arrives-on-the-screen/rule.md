@@ -14,11 +14,9 @@ related: []
 
 ---
 
+A lot of your audience will not always be looking at your video. A sweet sound to make you look at the video is a great idea.
 
-<p>A lot of your audience will not always be looking at your video. A sweet sound to make you look at the video is a great idea.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt> 
-      ​<img src="video-trump-sound.png" alt="video-trump-sound.png" />​</dt><dd>Good example: Text on the screen without audio 
-      <br>E.g. Video on YouTube: Cory Booker: Why Trump should try being nice on Twitter <a href="http://youtu.be/8p5n0TbRFEk">http://youtu.be/8p5n0TbRFEk</a> (at 1:05 you will hear the sound​)<br></dd> ​ </dl>
-
-
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt; 
+      <img src="video-trump-sound.png" alt="video-trump-sound.png">&lt;/dt&gt;<dd>Good example: Text on the screen without audio 
+      <br>E.g. Video on YouTube: Cory Booker: Why Trump should try being nice on Twitter <a href="http://youtu.be/8p5n0TbRFEk">http://youtu.be/8p5n0TbRFEk</a> (at 1:05 you will hear the sound)<br></dd>  </dl>
