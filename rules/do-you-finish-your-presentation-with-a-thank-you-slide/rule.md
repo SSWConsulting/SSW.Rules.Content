@@ -10,17 +10,10 @@ related: []
 
 ---
 
+Always end your presentation with a 'Thank You' slide. More than being polite, it makes clear that this is the last slide and presentation is over. You can also take the opportunity to inform the audience of your contact details.
 
+Even better; if you did a good job, you might get a clap (or in Adam's case, a cough).
 
-  <p>Always end your presentation with a 'Thank You' slide. More than being polite, it makes clear that this is the last slide and presentation is over. You can also take the opportunity to inform the audience of your contact details.</p>
-<p>Even better; if you did a good job, you might get a clap (or in Adam's case, a cough).</p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl>
-    <dt><img class="ms-rteCustom-ImageArea" alt="SSW Thank You slide" src="ThankSlide.jpg" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure: Always finish with a ‘Thank You’ slide </dd>
-</dl>
-
-
-
+<!--endintro-->
+<dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" alt="SSW Thank You slide" src="ThankSlide.jpg"> &lt;/dt&gt;
+     <strong>Figure: Always finish with a ‘Thank You’ slide</strong> </dl>
