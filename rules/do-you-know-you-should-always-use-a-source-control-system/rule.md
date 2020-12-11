@@ -12,25 +12,26 @@ related: []
 
 ---
 
+**Level 1: Use Source Control. ** 
+You should always use a source control system! SSW uses and recommends Team Foundation Server (TFS).     
+It is not for a backup, it is because changing code can introduce new bugs. Often these bugs are non-obvious and appear in a part of the system, far removed from your changes. They are especially useful when another developer made the breaking change.
+So source code tracking allows you to see what changed recently to introduce a new bug. This dramatically reduces the time it takes to find and fix a newly introduced error.
 
-<p> 
-   <strong>​Level 1&#58;&#160;Use&#160;Source&#160;Control.&#160;</strong><br>You should always use a source control system! SSW uses and recommends Team Foundation Server (TFS). 
-   <br>It is not for a backup, it is because changing code can introduce new bugs. Often these bugs are non-obvious ​​​and appear in a part of the system, far removed from your changes. They are especially useful when another developer made the breaking change.<br>So source code tracking allows you to see what changed recently to introduce a new bug. This dramatically reduces the time it takes to find and fix a newly introduced error.</p><p dir="ltr"> 
-   <strong>Level 2&#58; Do you integrate your source control with your bug tracking tool?</strong><br>Source control works best when integrated with a task tracking system. SSW uses and recommends Microsoft Team Foundation Server which allows you to check in changes and link to the work item (Bug or Task)... all from within Visual Studio. 
-   <br>&#160;<br>Tip&#58; If your systems are not integrated automatically, you can still integrate manually by convention. Just quoting the work item or bug ID in comments, whenever a source code change is committed.<br>&#160;<br>Whatever you use, your toolchain/process/IDE should fulfil the following user stories&#58;</p> ​​   
-<ol><li> 
-      <strong>As a developer </strong>working on a code file 
-      <br>
-      <strong>I want to </strong>easily view a file’s change history and navigate to the work items that were associated with the changes 
-      <br>
-      <strong>So that I can </strong>fix a recently introduced bug quickly</li><li> 
-      <strong>As a senior software developer </strong>
-      <br>
-      <strong>I want to </strong>browse work items of junior developers, and have it linking/showing the code 
-      <br>
-      <strong>So that I can </strong>easily review their recent code<br></li></ol><p> 
-   <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControl.aspx">SSW Rules to Better Source Control</a> </p>
-<br><excerpt class='endintro'></excerpt><br>
+**Level 2: Do you integrate your source control with your bug tracking tool?** 
+Source control works best when integrated with a task tracking system. SSW uses and recommends Microsoft Team Foundation Server which allows you to check in changes and link to the work item (Bug or Task)... all from within Visual Studio.     
+ 
+Tip: If your systems are not integrated automatically, you can still integrate manually by convention. Just quoting the work item or bug ID in comments, whenever a source code change is committed.
+ 
+Whatever you use, your toolchain/process/IDE should fulfil the following user stories:
 
+1. **As a developer** working on a code file <br>      
+**I want to** easily view a file’s change history and navigate to the work items that were associated with the changes <br>      
+**So that I can** fix a recently introduced bug quickly
+2. **As a senior software developer** 
+**I want to** browse work items of junior developers, and have it linking/showing the code <br>      
+**So that I can** easily review their recent code
 
 
+[SSW Rules to Better Source Control](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControl.aspx)
+
+<!--endintro-->
