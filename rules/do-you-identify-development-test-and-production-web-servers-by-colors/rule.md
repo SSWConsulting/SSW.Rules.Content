@@ -14,20 +14,58 @@ related: []
 
 ---
 
+As per rule ["Do you have separate development, testing, and production environment?"](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=ae2ccef9-6cdc-4767-8e5a-e0e3dbf46fe2), it's better to use different background colors to identify Development, Test and Production servers.
 
-<p>As per rule <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=ae2ccef9-6cdc-4767-8e5a-e0e3dbf46fe2"> "Do you have separate development, testing, and production environment?"</a>, it's better to use different background colors to identify Development, Test and Production servers.<br></p><h3 class="ssw15-rteElement-H3">CRM <br></h3><dl class="image"><dt><img src="ssw staging 2.png" alt="crm staging.png" style="width:808px;" /></dt><dd>Figure: Staging uses blue background</dd></dl><dl class="image"><dt> <img src="ssw production 2.png" alt="crm production.png" style="width:808px;" /></dt><dd>Figure: Production uses red background </dd></dl><p>The way to change the default background color is to edit the CRM CSS files. These changes aren't supported and may be overwritten when CRM Rollups are applied.<br></p><h3 class="ssw15-rteElement-H3">CRM 2015 and CRM 2016<br></h3><p>Using theme feature to change the environment color.</p><dl class="image"><dt><img src="CRM2015Theme.JPG" alt="CRM2015Theme.JPG" /></dt><dd>Figure: Changing CRM 2016 UI by using theme feature<br></dd></dl><h3 class="ssw15-rteElement-H3">CRM 2013</h3><p>Edit: <strong><CrmWebsiteRoot></strong><strong>\_controls\navbar\navbar.css</strong></p><p class="ssw15-rteElement-CodeArea">.navigationControl<br>{<br><span style="background-color:#ffff00;">background-color: #006600;</span><br>margin: 0;<br>z-index: 999;<br>float: left;<br>width: 100%;<br>position: relative;<br>}</p><dd class="ssw15-rteElement-FigureNormal"> Figure: Edit the background color to reflect the environment<br></dd><dl class="image"><dt><img alt="crm2013_greenbar.jpg" src="crm2013_greenbar.jpg" style="width:650px;" /></dt><dd> Figure: CRM 2013 with a green navigation bar</dd></dl> 
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">CRM 2011</h3><p>Edit 
-   <strong><CrmWebsiteRoot>\_static\css\1033\cui.css</strong>, locate and modify the section ms-cui-tabBody so that it reads:</p><p>
-   <span class="ssw-rteStyle-CodeArea">background-color : #ffffff;</span></p><p>Change color to a suitable color for the environment:</p><p>
-   <span class="ssw-rteStyle-CodeArea">background-color : #bbffaa; </span></p><p> <img src="CRM2011_ColorCodedRibbon.jpg" alt="" style="margin:5px;" /><br></p><p>
-   <span class="ssw-rteStyle-FigureNormal">Figure: CRM Ribbon color green to signify production environment</span></p><h3 class="ssw15-rteElement-H3">CRM 4</h3><p>Edit,<strong> <CrmWebsiteRoot>\</strong><strong>_common\styles\global.css.aspx</strong></p><dl class="image"><dt><div class="greyBox"><pre>         body.stage
+### CRM 
+
+<dl class="image">&lt;dt&gt;<img src="ssw staging 2.png" alt="crm staging.png" style="width:808px;">&lt;/dt&gt;<dd>Figure: Staging uses blue background</dd></dl><dl class="image">&lt;dt&gt; <img src="ssw production 2.png" alt="crm production.png" style="width:808px;">&lt;/dt&gt;<dd>Figure: Production uses red background </dd></dl>
+The way to change the default background color is to edit the CRM CSS files. These changes aren't supported and may be overwritten when CRM Rollups are applied.
+
+### CRM 2015 and CRM 2016
+
+
+Using theme feature to change the environment color.
+<dl class="image">&lt;dt&gt;<img src="CRM2015Theme.JPG" alt="CRM2015Theme.JPG">&lt;/dt&gt;<dd>Figure: Changing CRM 2016 UI by using theme feature<br></dd></dl>
+### CRM 2013
+
+Edit:   **\\_controls\navbar\navbar.css**
+
+.navigationControl
+{
+background-color: #006600;
+margin: 0;
+z-index: 999;
+float: left;
+width: 100%;
+position: relative;
+}
+ **Figure: Edit the background color to reflect the environment
+** <dl class="image">&lt;dt&gt;<img alt="crm2013_greenbar.jpg" src="crm2013_greenbar.jpg" style="width:650px;">&lt;/dt&gt;<dd> Figure: CRM 2013 with a green navigation bar</dd></dl>
+<!--endintro-->
+
+### CRM 2011
+
+Edit      **<crmwebsiteroot>\_static\css\1033\cui.css</crmwebsiteroot>** , locate and modify the section ms-cui-tabBody so that it reads:
+
+background-color : #ffffff;
+
+Change color to a suitable color for the environment:
+
+background-color : #bbffaa;
+
+
+![CRM Ribbon color green to signify production environment](CRM2011_ColorCodedRibbon.jpg)
+
+### CRM 4
+
+Edit, **<crmwebsiteroot>\</crmwebsiteroot>** **\_common\styles\global.css.aspx**
+<dl class="image">&lt;dt&gt;<br><br>::: greybox<br><pre>         body.stage
             {
                 <% if (CrmStyles.IsRightToLeft) { %>
                     dir:rtl;
                 <%} %>
                 border-top:1px solid #6893cf;
-​​
+
             <span style="background-color:#ffff00;">/* background-color: #d6e8ff; */</span>
 
             <span style="background-color:#ffff00;">background-color: #ffff00;</span>
@@ -39,23 +77,27 @@ related: []
             <span style="background-color:#ffff00;">background-image: url(/_imgs/app_back.gif);
                   */</span>
             }
-       </pre></div></dt><dd> Figure: In C:\Inetpub\wwwroot\_common\styles\global.css.aspx comment out and change the reference in yellow so the users know what server they are on</dd></dl><dl class="image"><dt>
-      <img alt="Color of CRM Development Server" src="CRM_DevelopmentColor.jpg" />
-   </dt><dd>Figure: Color of CRM Development Server - Red</dd></dl><dl class="image"><dt>
-      <img alt="Color of CRM Test Server" src="CRM_TestColor.jpg" />
-   </dt><dd>Figure: Color of CRM Test Server - Yellow</dd></dl><dl class="image"><dt>
-      <img alt="Color of CRM Test Server" src="CRM_ProductionColor.jpg" />
-   </dt><dd> Figure: Color of CRM Production Server - Default<br></dd></dl><h3>SharePoint online</h3><p>Regarding the color codes, we use to differentiate Production to Test with SharePoint online.</p><p>Here is what we change:</p><ul><li>Site Settings | Change The Look 
-      <ul><li>Test – Orange 
-            <dl class="image"><dt> 
-                  <img src="sharepoint-orange-theme.jpg" alt="sharepoint-orange-theme.jpg" style="width:750px;" /> 
-               </dt><dd>Figure: Selecting Orange theme for test</dd></dl><dl class="image"><dt> 
-                  <img src="sharepoint-orange-applied.jpg" alt="sharepoint-orange-applied.jpg" /> 
-               </dt><dd>Figure: orange theme applied</dd></dl></li><li>Production - Office 
-            <dl class="image"><dt> 
-                  <img src="sharepoint-office-theme.jpg" alt="sharepoint-orange-theme.jpg" style="width:750px;" /> 
-               </dt><dd>Figure: Selecting Office theme for Production</dd></dl><dl class="image"><dt> 
-                  <img src="sharepoint-office-applied.jpg" alt="sharepoint-orange-applied.jpg" /> 
-               </dt><dd>Figure: office (blue) theme applied</dd></dl></li></ul></li></ul>
+       </pre><br>:::<br><br>&lt;/dt&gt;<dd> Figure: In C:\Inetpub\wwwroot\_common\styles\global.css.aspx comment out and change the reference in yellow so the users know what server they are on</dd></dl><dl class="image">&lt;dt&gt;
+      <img alt="Color of CRM Development Server" src="CRM_DevelopmentColor.jpg">
+   &lt;/dt&gt;<dd>Figure: Color of CRM Development Server - Red</dd></dl><dl class="image">&lt;dt&gt;
+      <img alt="Color of CRM Test Server" src="CRM_TestColor.jpg">
+   &lt;/dt&gt;<dd>Figure: Color of CRM Test Server - Yellow</dd></dl><dl class="image">&lt;dt&gt;
+      <img alt="Color of CRM Test Server" src="CRM_ProductionColor.jpg">
+   &lt;/dt&gt;<dd> Figure: Color of CRM Production Server - Default<br></dd></dl>
+### SharePoint online
 
+Regarding the color codes, we use to differentiate Production to Test with SharePoint online.
 
+Here is what we change:
+
+* Site Settings | Change The Look
+    * Test – Orange <br>            <dl class="image">&lt;dt&gt; 
+                  <img src="sharepoint-orange-theme.jpg" alt="sharepoint-orange-theme.jpg" style="width:750px;"> 
+               &lt;/dt&gt;<dd>Figure: Selecting Orange theme for test</dd></dl><dl class="image">&lt;dt&gt; 
+                  <img src="sharepoint-orange-applied.jpg" alt="sharepoint-orange-applied.jpg"> 
+               &lt;/dt&gt;<dd>Figure: orange theme applied</dd></dl>
+    * Production - Office <br>            <dl class="image">&lt;dt&gt; 
+                  <img src="sharepoint-office-theme.jpg" alt="sharepoint-orange-theme.jpg" style="width:750px;"> 
+               &lt;/dt&gt;<dd>Figure: Selecting Office theme for Production</dd></dl><dl class="image">&lt;dt&gt; 
+                  <img src="sharepoint-office-applied.jpg" alt="sharepoint-orange-applied.jpg"> 
+               &lt;/dt&gt;<dd>Figure: office (blue) theme applied</dd></dl>
