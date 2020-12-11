@@ -12,9 +12,7 @@ related: []
 
 ---
 
+Use Enums instead of hard-coded strings, it makes your code lot  **cleaner** and is  **really easy to manage** .
 
-<p>Use Enums instead of hard-coded strings, it makes your code lot <strong>cleaner</strong> and is <strong>really easy to manage</strong>. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> <img src="EnumBadExample.jpg" alt="EnumBadExample.jpg" /></dt><dd>Figure: Bad example - "Hard- coded string" works, but is a bad idea</dd></dl><dl class="goodImage"><dt><img src="EnumGoodExample.jpg" alt="EnumGoodExample.jpg" /></dt><dd>Figure: Good example - Used Enums, looks good and is easy to manage<br></dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; <img src="EnumBadExample.jpg" alt="EnumBadExample.jpg">&lt;/dt&gt;<dd>Figure: Bad example - "Hard- coded string" works, but is a bad idea</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="EnumGoodExample.jpg" alt="EnumGoodExample.jpg">&lt;/dt&gt;<dd>Figure: Good example - Used Enums, looks good and is easy to manage<br></dd></dl>
