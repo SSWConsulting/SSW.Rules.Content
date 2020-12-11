@@ -14,9 +14,25 @@ related: []
 
 ---
 
+Once your internal testing is complete and you believe the fixed price project is finished, its important to clearly communicate the beginning of the warranty period.
 
-<p class="ssw15-rteElement-P">Once your internal testing is complete and you believe the fixed price project is finished, its important to clearly communicate the beginning of the warranty period.<br></p><p class="ssw15-rteElement-P">Send an email like this&#58;​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-GreyBox"><b>​From&#58;</b> Account Manager or Dev<br><b>To&#58;</b> Client<br><b>CC&#58; </b>SSW Team&#160;<br><b>Subject&#58; </b>[Client name]&#58; Fixed Price component<br><br>Hi XXX,<br><br>As per our conversation, we confirm that we have now finished the application, and so commences the 7-day warranty. The last day of the warranty will be XXX.<br><br>During this time, any defects or variations from the scope (as defined in the Specification Review document) will be fixed at no charge. See section 10 of <a href="https&#58;//www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx">https&#58;//www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx​</a> for more details.<br><br>If you find things that you’d like done that are not specified in the document, we’re happy to do those on a Time &amp; Materials basis after the warranty period has ended.<br></p><p>​<br></p>
+Send an email like this:
+
+<!--endintro-->
 
 
+::: greybox
+ **From:** Account Manager or Dev
+ **To:** Client
+ **CC:** SSW Team 
+ **Subject:** [Client name]: Fixed Price component
+
+Hi XXX,
+
+As per our conversation, we confirm that we have now finished the application, and so commences the 7-day warranty. The last day of the warranty will be XXX.
+
+During this time, any defects or variations from the scope (as defined in the Specification Review document) will be fixed at no charge. See section 10 of [https://www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx](https&#58;//www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx) for more details.
+
+If you find things that you’d like done that are not specified in the document, we’re happy to do those on a Time & Materials basis after the warranty period has ended.
+
+:::
