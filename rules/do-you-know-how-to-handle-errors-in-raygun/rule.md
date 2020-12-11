@@ -14,12 +14,56 @@ related: []
 
 ---
 
+Your team should always be ensuring that the health of the application is continually improving.
 
-<p class="ssw15-rteElement-P">Your team should always be ensuring that the health of the application is continually improving.<br></p><p class="ssw15-rteElement-P">The best way to do that is to check the exceptions that are being logged in the production application. Every morning, fix the most serious bug logged over the last week. After it is fixed then email yesterday's application health to the Product Owner. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>There's traditional error logging software like Log4Net or Elmah, but they just give you a wall of errors that are duplicated and don't give you the ability to mark anything as complete. You'll need to manually clear out the errors and move them into your task tracking system (TFS/VisualStudio.com).</p><p>This is where RayGun or Application Insights comes into the picture. RayGun gives you the following features:</p><ul><li>Grouping exceptions<br></li><li>Ignoring/filtering exceptions<br></li><li>Triaging exceptions (mark them as resolved)<br></li><li>Integrations to TFS/VisualStudio.com to create a Bug, Slack<br></li><li>Tracking the exceptions to a deployment<br></li><li>See which errors are occurring the most often</li></ul><dl class="badImage"><dt><img src="elmah.gif" alt="elmah.gif" /></dt><dd> Figure: Bad Example - Elmah gives you a wall of exceptions and no way to flag exceptions as completed</dd> </dl>
-<p class="ssw15-rteElement-GreyBox">
-    <b>Hi Adam, </b><br>Please find below the Raygun Health Check for TimePro:<br><img src="Raygun-health-check-for-TimePro-in-the-past-7-days.jpg" alt="Raygun-health-check-for-TimePro-in-the-past-7-days.jpg" style="margin:5px;width:800px;height:192px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure: Raygun health check for TimePro in the past 7 days </dd><p class="ssw15-rteElement-GreyBox">​<img src="2.png" alt="2.png" style="margin:5px;width:800px;height:189px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure: Resolved issues in the past 7 days​<br></dd><p class="ssw15-rteElement-GreyBox"><img src="3.jpg" alt="3.jpg" style="margin:5px;width:800px;" /> </p><dd class="ssw15-rteElement-FigureGood">Figure: The next issue to be worked on​<br></dd><p class="ssw15-rteElement-GreyBox"><This email is from <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6d5e516d-1f5e-4baa-929c-2c45b9bfa15e">https://rules.ssw.com.au/how-to-handle-errors-in-raygun/ </a>>​<br></p><dd class="ssw15-rteElement-FigureNormal">
-   Figure: Email with Raygun application health report​​​ <br><br></dd>
+The best way to do that is to check the exceptions that are being logged in the production application. Every morning, fix the most serious bug logged over the last week. After it is fixed then email yesterday's application health to the Product Owner.
+
+<!--endintro-->
+
+There's traditional error logging software like Log4Net or Elmah, but they just give you a wall of errors that are duplicated and don't give you the ability to mark anything as complete. You'll need to manually clear out the errors and move them into your task tracking system (TFS/VisualStudio.com).
+
+This is where RayGun or Application Insights comes into the picture. RayGun gives you the following features:
+
+* Grouping exceptions
+* Ignoring/filtering exceptions
+* Triaging exceptions (mark them as resolved)
+* Integrations to TFS/VisualStudio.com to create a Bug, Slack
+* Tracking the exceptions to a deployment
+* See which errors are occurring the most often
+
+<dl class="badImage">&lt;dt&gt;<img src="elmah.gif" alt="elmah.gif">&lt;/dt&gt;<dd> Figure: Bad Example - Elmah gives you a wall of exceptions and no way to flag exceptions as completed</dd> </dl>
+**Hi Adam,** 
+Please find below the Raygun Health Check for TimePro:
+
+![](Raygun-health-check-for-TimePro-in-the-past-7-days.jpg)
 
 
+::: good
+Figure: Raygun health check for TimePro in the past 7 days 
+:::
+
+
+
+![](2.png)
+
+
+::: good
+Figure: Resolved issues in the past 7 days
+
+:::
+
+
+
+![](3.jpg)
+
+
+::: good
+Figure: The next issue to be worked on
+
+:::
+
+
+<this email="" is="" from=""></this>[https://rules.ssw.com.au/how-to-handle-errors-in-raygun/](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6d5e516d-1f5e-4baa-929c-2c45b9bfa15e)>
+ **Figure: Email with Raygun application health report 
+
+**
