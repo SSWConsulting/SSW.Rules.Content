@@ -12,53 +12,110 @@ related: []
 
 ---
 
+Glimpse allow you to easily perform diagnostics on your MVC application at runtime.
+As an ASP.NET developer (including ASP.NET MVC), you should use it all the time.
 
-Glimpse allow you to easily perform diagnostics on your MVC application at runtime.<div>As an ASP.NET developer (including ASP.NET MVC), you should use it all the time.</div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Glimpse lets you find useful information like:</p>
-<ul><li>Routing information</li>
-<li>Profiling</li>
-<li>Request information</li>
-<li>Parameters passed into actions</li>
-<li>Model inspector</li></ul>
-<p>The new version of Glimpse now also gives you a Heads Up Display (HUD) showing you important information all the time.  While developing, it's a good idea to keep Glimpse open so you can see any issues as soon they come up.</p><p><img src="GlimpseHeadsUpDisplay.png" alt="GlimpseHeadsUpDisplay.png" style="margin:5px;width:650px;" /><br></p><p><span class="ssw-rteStyle-FigureNormal">Figure: The new Glimpse Heads Up Display</span></p><p>For more information on what the HUD provides, see <a href="http://blog.damianbrady.com.au/2013/06/12/glimpse-heads-up-display-released/">Damian Brady's blog post​</a>.</p><p>Glimpse is available on NuGet, so it’s a simple matter to get it up and running on your application. You can find out more from <a href="http://getglimpse.com/" target="_blank">their website</a>.</p>
-<img class="ms-rteCustom-ImageArea" alt="glimpse.png" src="glimpse.png" /> <span class="ms-rteCustom-FigureNormal">Figure: Glimpse in action - We can see which routes were chosen for this page, and the parameters used by the controller</span><span class="ms-rteCustom-FigureNormal"></span> <h2>Securing Glimpse for production use</h2>
-<p>Glimpse is very powerful but there are some considerations to be addressed before using it on Production. </p>
-<ul><li>1. Security: Enabling Glimpse can reveal many details about your server – including full database connection details. Glimpse also publishes a full list of all the actions your MVC site can perform so you should thoroughly test the security on all restricted actions before you consider enabling Glimpse. </li>
-<li>2. Performance: Running Glimpse involves sending debug data with every request. This can impact site performance. </li></ul>
-<p>Even with these considerations, Glimpse can provide some unique insights into production server performance so it’s worth spending the time to correctly configure Glimpse for production use.</p>
-<h4>Glimpse on Production Level 1: Developers Only</h4>
-<p>Install Glimpse on production so that only internal developers can enable it.This is achieved by: </p>
-<ul><li>Limiting access to an ip address range. <br><div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"><</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">glimpse</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">enabled</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">true</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">    <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">ipAddresses</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">      <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">add</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">address</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">127.0.0.1</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">      <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">add</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">addressRange</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">192.168.1.1/24</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">      <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">add</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">address</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">::1</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">    </</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">ipAddresses</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">  </</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">glimpse</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">><br><span style="font-size:11pt;font-family:calibri, sans-serif;color:#000000;"><strong>Figure: Glimpse is now limited to localhost and the 192.168.1.x network</strong></span></span><span style="font-size:11pt;font-family:calibri, sans-serif;"><br><br></span></li>
-<li>Using role-based authentication.<br>If your site has role-based authentication, you can secure Glimpse usage by editing web.config to control access to the Glimpse.axd location.<br><div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"><</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">location</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">path</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">glimpse.axd</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;text-indent:36pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"><</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">system.web</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">         <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">authorization</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">              <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">allow</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">roles</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">Developers</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">              <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">deny</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">users</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">*</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">         </</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">authorization</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;text-indent:36pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"></</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">system.web</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"></</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">location</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;color:blue;"> <div style="color:#000000;margin:0cm 0cm 0pt;"><b><font face="Calibri">Figure: Glimpse is restricted to the Developers group</font></b></div></span></div></li></ul>
-<p> </p>
-<h4>Glimpse on Production Level 2: Public by invitation only</h4>
-<p>If an end-user reports a problem on your website it can be useful to temporarily enable Glimpse for that user. Glimpse also has remote features allowing developers to see the user’s Glimpse data. </p>
-<ul><li>Create a new authentication role such as "PublicGlimpseUsers"</li>
-<li>Edit web.config to control access to Glimpse.axd<br><div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"><</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">location</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">path</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">glimpse.axd</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;text-indent:36pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"><</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">system.web</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">         <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">authorization</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">              <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">allow</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">roles</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">Developers, PublicGlimpseUsers</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">              <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">deny</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">users</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">*</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">         </</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">authorization</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;text-indent:36pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"></</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">system.web</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:#000000;"></</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:#000000;">location</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:#000000;">></span><span style="font-size:9.5pt;font-family:consolas;color:blue;"><span style="color:#000000;"> </span><div style="margin:0cm 0cm 0pt;"><b><font face="Calibri"><span style="color:#000000;">Figure: Glimpse.axd is now restricted to Developers  and PublicGlimpseUsers </span><br></font></b></div></span></div></li>
-<li>Disable the “config” section of Glimpse so that site connection strings are not published. <br><div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"><</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">pluginBlacklist</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">      <</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">add</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> </span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:red;">plugin</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">=</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">Glimpse.Core.Plugin.Config</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;">"</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"> /></span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:black;"></span></div>
-<div style="margin:0cm 0cm 0pt;"><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;"></</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;">pluginBlacklist</span><span style="font-size:9.5pt;font-family:consolas;background-color:white;color:blue;">><br><b style="color:#000000;"><font face="Calibri">Figure: How to disable the Config tab </font></b></span><span style="font-size:9.5pt;font-family:consolas;color:blue;"></span></div></li>
-<p> </p></ul>
+<!--endintro-->
+
+Glimpse lets you find useful information like:
+
+* Routing information
+* Profiling
+* Request information
+* Parameters passed into actions
+* Model inspector
 
 
+The new version of Glimpse now also gives you a Heads Up Display (HUD) showing you important information all the time.  While developing, it's a good idea to keep Glimpse open so you can see any issues as soon they come up.
+
+
+![The new Glimpse Heads Up Display](GlimpseHeadsUpDisplay.png)
+
+For more information on what the HUD provides, see [Damian Brady's blog post](http://blog.damianbrady.com.au/2013/06/12/glimpse-heads-up-display-released/).
+
+Glimpse is available on NuGet, so it’s a simple matter to get it up and running on your application. You can find out more from [their website](http://getglimpse.com/).
+
+![Glimpse in action - We can see which routes were chosen for this page, and the parameters used by the controller](glimpse.png)
+## Securing Glimpse for production use
+
+Glimpse is very powerful but there are some considerations to be addressed before using it on Production.
+
+* 1. Security: Enabling Glimpse can reveal many details about your server – including full database connection details. Glimpse also publishes a full list of all the actions your MVC site can perform so you should thoroughly test the security on all restricted actions before you consider enabling Glimpse.
+* 2. Performance: Running Glimpse involves sending debug data with every request. This can impact site performance.
+
+
+Even with these considerations, Glimpse can provide some unique insights into production server performance so it’s worth spending the time to correctly configure Glimpse for production use.
+
+#### Glimpse on Production Level 1: Developers Only
+
+Install Glimpse on production so that only internal developers can enable it.This is achieved by:
+
+* Limiting access to an ip address range. 
+
+<glimpse enabled="true">
+
+    <ipAddresses>
+
+      <add address="127.0.0.1" />
+
+      <add addressRange="192.168.1.1/24" />
+
+      <add address="::1" />
+
+ipAddresses>
+glimpse>
+ **Figure: Glimpse is now limited to localhost and the 192.168.1.x network**
+* Using role-based authentication.
+If your site has role-based authentication, you can secure Glimpse usage by editing web.config to control access to the Glimpse.axd location.
+
+<location path="glimpse.axd">
+
+<system.web>
+
+         <authorization>
+
+              <allow roles="Developers" />
+
+              <deny users="\*" />
+
+authorization>
+
+system.web>
+
+location> 
+ **<font face="Calibri">Figure: Glimpse is restricted to the Developers group</font>**
+
+
+
+
+#### Glimpse on Production Level 2: Public by invitation only
+
+If an end-user reports a problem on your website it can be useful to temporarily enable Glimpse for that user. Glimpse also has remote features allowing developers to see the user’s Glimpse data.
+
+* Create a new authentication role such as "PublicGlimpseUsers"
+* Edit web.config to control access to Glimpse.axd
+
+<location path="glimpse.axd">
+
+<system.web>
+
+         <authorization>
+
+              <allow roles="Developers, PublicGlimpseUsers" />
+
+              <deny users="\*" />
+
+authorization>
+
+system.web>
+
+location> 
+ **<font face="Calibri"><span style="color:#000000;">Figure: Glimpse.axd is now restricted to Developers  and PublicGlimpseUsers </span><br></font>**
+* Disable the “config” section of Glimpse so that site connection strings are not published. 
+
+<pluginBlacklist>
+
+      <add plugin="Glimpse.Core.Plugin.Config" />
+
+pluginBlacklist>
+**<font face="Calibri">Figure: How to disable the Config tab </font>**
