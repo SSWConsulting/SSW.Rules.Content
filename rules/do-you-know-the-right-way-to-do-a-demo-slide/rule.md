@@ -10,20 +10,10 @@ related: []
 
 ---
 
+By placing a little visual cue on your slide, you can remind yourself to show a demo to the audience. Avoid displaying the word 'demo', because when out of time, presenters skip them and leave the audience felling ripped off.   
+<!--endintro-->
 
-By placing a little visual cue on your slide, you can remind yourself to show a demo to the audience. Avoid displaying the word 'demo', because when out of time, presenters skip them and leave the audience felling ripped off. 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p>The icon allows you to skip it when running short on time, without upsetting the audience.</p>
-<dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="DemoBad.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureBad">Figure: Bad example - demo text shown. The problem is if you run out of time you need to say "Sorry, let's skip that demo since I am short of time". Then the audience feels cheated</dd>
-</dl>
-<dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="demo.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure: Use an icon to indicate a "demo time"</dd>
-</dl>
-
-
-
+The icon allows you to skip it when running short on time, without upsetting the audience.
+<dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="DemoBad.gif" alt=""> &lt;/dt&gt;
+    <br><br>::: bad<br>Figure: Bad example - demo text shown. The problem is if you run out of time you need to say "Sorry, let's skip that demo since I am short of time". Then the audience feels cheated<br>:::<br><br></dl><dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="demo.gif" alt=""> &lt;/dt&gt;
+    <dd class="ms-rteCustom-FigureGood">Figure: Use an icon to indicate a "demo time"</dd></dl>
