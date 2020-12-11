@@ -12,14 +12,56 @@ related: []
 
 ---
 
+When designing your form, you should try to help your user whenever it's possible. So it's a good idea to include the number of results in ComboBoxes.
 
-<p>When designing your form, you should try to help your user whenever it's possible. So it's a good idea to include the number of results in ComboBoxes.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-​<span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">For Web Pages</span> <dl class="goodImage"><dt> <img alt="Combo-box with multiple columns" src="combo-box-multiple-col.jpg" /> </dt><dd>Figure: Good example – combo-box with multiple columns</dd></dl> Feel free to use our sample:<ol><li>Download and install Kendo UI Controls from <a href="http://www.kendoui.com/" target="_blank">Kendo UI</a></li><li> 
-      <strong>HTML (Razor)</strong><br>Create a combo-box that has a custom template. Use a code bellow as an example:<div><p class="ssw15-rteElement-CodeArea">@(Html.Kendo().ComboBoxFor(x => x.EmpTime.ProjectID)<br>.AutoBind(true)<br>.Suggest(true)<br>.Delay(300)<br>.DataSource(source => source.Read(read => read.Action("ProjectNameAjaxBind", "Ajax")<br>.Data("function() { return {clientId : getClientId()}; }")<br>.Type(HttpVerbs.Post)))<br>.Height(450)<br>.DataTextField("DisplayText")<br>.DataValueField("Value")<br>.Filter(FilterType.Contains)<br>.Template(@"<br><table class='comboBox-Projects'><br><tr><br><td class='projectName'>${data.DisplayText}</td><br><td class='projectTotalCount'>${data.UsedCount}</td><br><td class='projectLastUsed'>${data.LastUsedText}</td><br></tr><br></table><br>")<br>.HighlightFirst(false)<br>.IgnoreCase(true)<br>.Events(e => e.Change("projectChanged").Open("onProjectOpened"))<br>)</p> <p></p></div></li><li> 
-      <strong>CSS</strong><br>Customize the look & feel to suit your needs.<div><pre><p class="ssw15-rteElement-CodeArea">#projectsTableBorder {<br> border-bottom: 1px solid rgb(217, 217, 217);​​​<br> margin: 0 -2px;<br> }<br> .comboBox-Projects#projectsHeader {<br> color: black;<br> font-weight: bold;<br> margin: 4px 16px 4px 4px;<br> }<br> .comboBox-Projects td.projectName {<br> width: 400px;<br> text-align: left;<br> }<br> .comboBox-Projects td.projectTotalCount {<br> width: 70px;<br> text-align: right;<br> padding-right: 16px;<br> }<br> .comboBox-Projects td.projectLastUsed { text-align: left; }<br> #projectNameHeader:hover, #projectTotalCountHeader:hover, #projectLastUsedHeader:hover {<br> cursor: pointer;<br> text-decoration: underline;<br> }</p>​
-</pre></div></li><li> 
-      <strong>JavaScript</strong><br>Use JavaScript to change the combo-box's behaviour.<div><pre><div id="projectsTableBorder" class="comboBox-Projects"><p class="ssw15-rteElement-CodeArea">// resize the drop-down list<br>function resizeComboBoxList(comboBoxListId, width) {<br> var list = $(comboBoxListId);<br> list.width(width);<br> var height = list.height();<br> list.children("ul").height(height - 25);<br>}<br>function onProjectOpened() {<br> resizeComboBoxList("#EmpTime_ProjectID-list", 600);<br>}<br>// execute sorting when a header column is clicked<br>function onClick_ColumnHeader(senderId, comboBoxId, fieldName) {<br> var column = $(senderId);<br> column.unbind('click');<br> column.click(function() {<br> sortComboBoxBy(comboBoxId, fieldName);<br> });<br>}<br>// sort any combo-box based on a field name<br>function sortComboBoxBy(comboBoxId, fieldName) {<br> var comboBox = $(comboBoxId).data("kendoComboBox");<br> var sortDescriptors = comboBox.dataSource._sort;<br> var direction = "asc";<br> if (typeof(sortDescriptors) != "undefined") {<br> var sortDescriptor = sortDescriptors[0];<br> if (typeof(sortDescriptor) != "undefined") {<br> if (sortDescriptor["field"] == fieldName) {<br> if (sortDescriptor["dir"] == "asc") {<br> direction = "desc";<br> }<br> }<br> }<br> }<br> comboBox.dataSource.sort({<br> field: fieldName,<br> dir: direction,<br> });<br>}<br>// prepare <br>$(document).ready(function() {<br> var projectsId = "#EmpTime_ProjectID";<br> var projectsListId = projectsId + '-list';<br> // prepend header to combo-box list. By default you only get <ul><br> $("<br> <br>Project Name</td>" +<br> "<td id='projectTotalCountHeader' class='projectTotalCount'>Used</td>" +<br> "<td id='projectLastUsedHeader' class='projectLastUsed'>Last Used</td>" +<br> "</tr></table>" +<br> "</div>")<br> .prependTo(projectsListId);<br> // register click events for each column<br> onClick_ColumnHeader('#projectNameHeader', projectsId, "DisplayText");<br> onClick_ColumnHeader('#projectTotalCountHeader', projectsId, "UsedCount");<br> onClick_ColumnHeader('#projectLastUsedHeader', projectsId, "LastUsedValue");<br>});<br>});​<br></p></div></pre></div></li></ol><h3>For Windows Forms</h3><dl class="badImage"><dt> <img alt="Options Form - ComboBox without Result Count" src="../../assets/ComboWF-1.jpg" /> </dt><dd>Figure: Bad Example - You can't tell the number of results and there is a scroll bar</dd></dl><dl class="goodImage"><dt> <img alt="Options Form - ComboBox with Result Count" src="../../assets/ComboWF-2.jpg" /> </dt><dd>Figure: Good Example - The number of results is clearly displayed. Long text boxes > 30 entries, another approach can be employed - putting the common ones at the top</dd></dl><dl class="badImage"><dt> <img alt="Long Text ComboBox" src="../../assets/Rule38LongTextCombobox.jpg" /> </dt><dd>Figure: Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries</dd></dl><dl class="badImage"><dt> <img alt="Sortable ComboBox" src="../../assets/rule38SortableCombobox.jpg" /> </dt><dd>Figure: Bad Example – This was a highly unpopular method of the sorting and counting above</dd></dl><div>We believe all combos should be able to be sorted ascending/descending and by popularity asc/desc.<br>
-   <dl class="goodImage"><dt> <img alt="sort-alpha-numeric.jpg" src="sort-alpha-numeric.jpg" style="margin:5px;width:324px;" /> </dt><dd>Figure: Good Example - Is there a better way to sort this?</dd></dl></div>
+<!--endintro-->
+For Web Pages <dl class="goodImage">&lt;dt&gt; <img alt="Combo-box with multiple columns" src="combo-box-multiple-col.jpg"> &lt;/dt&gt;<dd>Figure: Good example – combo-box with multiple columns</dd></dl> Feel free to use our sample:
+1. Download and install Kendo UI Controls from [Kendo UI](http://www.kendoui.com/)
+2. **HTML (Razor)** 
+Create a combo-box that has a custom template. Use a code bellow as an example:
+
+@(Html.Kendo().ComboBoxFor(x => x.EmpTime.ProjectID)
+.AutoBind(true)
+.Suggest(true)
+.Delay(300)
+.DataSource(source => source.Read(read => read.Action("ProjectNameAjaxBind", "Ajax")
+.Data("function() { return {clientId : getClientId()}; }")
+.Type(HttpVerbs.Post)))
+.Height(450)
+.DataTextField("DisplayText")
+.DataValueField("Value")
+.Filter(FilterType.Contains)
+.Template(@"
 
 
+
+| ${data.DisplayText} |
+ ${data.UsedCount} |
+ ${data.LastUsedText} |
+| --- | --- | --- |
+
+
+
+")
+.HighlightFirst(false)
+.IgnoreCase(true)
+.Events(e => e.Change("projectChanged").Open("onProjectOpened"))
+)
+3. **CSS** 
+Customize the look & feel to suit your needs.
+
+```
+#projectsTableBorder { border-bottom: 1px solid rgb(217, 217, 217); margin: 0 -2px; } .comboBox-Projects#projectsHeader { color: black; font-weight: bold; margin: 4px 16px 4px 4px; } .comboBox-Projects td.projectName { width: 400px; text-align: left; } .comboBox-Projects td.projectTotalCount { width: 70px; text-align: right; padding-right: 16px; } .comboBox-Projects td.projectLastUsed { text-align: left; } #projectNameHeader:hover, #projectTotalCountHeader:hover, #projectLastUsedHeader:hover { cursor: pointer; text-decoration: underline; }
+```
+4. **JavaScript** 
+Use JavaScript to change the combo-box's behaviour.
+
+```
+// resize the drop-down listfunction resizeComboBoxList(comboBoxListId, width) { var list = $(comboBoxListId); list.width(width); var height = list.height(); list.children("ul").height(height - 25);}function onProjectOpened() { resizeComboBoxList("#EmpTime_ProjectID-list", 600);}// execute sorting when a header column is clickedfunction onClick_ColumnHeader(senderId, comboBoxId, fieldName) { var column = $(senderId); column.unbind('click'); column.click(function() { sortComboBoxBy(comboBoxId, fieldName); });}// sort any combo-box based on a field namefunction sortComboBoxBy(comboBoxId, fieldName) { var comboBox = $(comboBoxId).data("kendoComboBox"); var sortDescriptors = comboBox.dataSource._sort; var direction = "asc"; if (typeof(sortDescriptors) != "undefined") { var sortDescriptor = sortDescriptors[0]; if (typeof(sortDescriptor) != "undefined") { if (sortDescriptor["field"] == fieldName) { if (sortDescriptor["dir"] == "asc") { direction = "desc"; } } } } comboBox.dataSource.sort({ field: fieldName, dir: direction, });}// prepare $(document).ready(function() { var projectsId = "#EmpTime_ProjectID"; var projectsListId = projectsId + '-list'; // prepend header to combo-box list. By default you only get  $(" Project Name" + "Used" + "Last Used" + "" + "") .prependTo(projectsListId); // register click events for each column onClick_ColumnHeader('#projectNameHeader', projectsId, "DisplayText"); onClick_ColumnHeader('#projectTotalCountHeader', projectsId, "UsedCount"); onClick_ColumnHeader('#projectLastUsedHeader', projectsId, "LastUsedValue");});});
+```
+
+
+### For Windows Forms
+<dl class="badImage">&lt;dt&gt; <img alt="Options Form - ComboBox without Result Count" src="../../assets/ComboWF-1.jpg"> &lt;/dt&gt;<dd>Figure: Bad Example - You can't tell the number of results and there is a scroll bar</dd></dl><dl class="goodImage">&lt;dt&gt; <img alt="Options Form - ComboBox with Result Count" src="../../assets/ComboWF-2.jpg"> &lt;/dt&gt;<dd>Figure: Good Example - The number of results is clearly displayed. Long text boxes > 30 entries, another approach can be employed - putting the common ones at the top</dd></dl><dl class="badImage">&lt;dt&gt; <img alt="Long Text ComboBox" src="../../assets/Rule38LongTextCombobox.jpg"> &lt;/dt&gt;<dd>Figure: Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries</dd></dl><dl class="badImage">&lt;dt&gt; <img alt="Sortable ComboBox" src="../../assets/rule38SortableCombobox.jpg"> &lt;/dt&gt;<dd>Figure: Bad Example – This was a highly unpopular method of the sorting and counting above</dd></dl>
+We believe all combos should be able to be sorted ascending/descending and by popularity asc/desc.
+<dl class="goodImage">&lt;dt&gt; <img alt="sort-alpha-numeric.jpg" src="sort-alpha-numeric.jpg" style="margin:5px;width:324px;"> &lt;/dt&gt;<dd>Figure: Good Example - Is there a better way to sort this?</dd></dl>
