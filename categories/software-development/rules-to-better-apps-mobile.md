@@ -9,6 +9,5 @@ index:
 - ios---do-you-know-how-to-optimise-your-test-and-release-deployments
 
 ---
-<p>​​​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Mobile-Application-Development.aspx">visit our Mobile App Development&#160;consulting page​​​</a>&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our Mobile App Development consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Mobile-Application-Development.aspx) and book in a consultant.
 
