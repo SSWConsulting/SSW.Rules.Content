@@ -12,10 +12,31 @@ related: []
 
 ---
 
+When you run Octopus Deploy setup the application installs to you %Program Files%\Octopus Deploy folder. If you installed Octopus Server you will see Server subfolder and if you installed Octopus Tentacle then it will be Tentacle. However, this is a folder where Octopus Deploy bits live, not your applications, packages, etc. Those artifacts live in the Home folder that you specify during the Octopus Setup Wizard the first time you configure the Server/Tentacle.
 
-<p>​​​When you run Octopus Deploy setup the application installs to you %Program Files%\Octopus Deploy folder. If you installed Octopus Server you will see Server subfolder and if you installed Octopus Tentacle then it will be Tentacle. However, this is a folder where Octopus Deploy bits live, not your applications, packages, etc. Those artifacts live in the Home folder that you specify during the Octopus Setup Wizard the first time you configure the Server/Tentacle.​</p>
-<br><excerpt class='endintro'></excerpt><br>
-By default the Home directory points to %SystemDrive%\Octopus which is not great. The main reason is that the Home folder is constantly growing and clogging up your OS drive. So you need to point the Home folder to a new drive e.g. D:\Octopus<div><br></div><div><img src="2016-05-30_12-18-02.png" alt="2016-05-30_12-18-02.png" style="margin:5px;width:808px;" /><br><div><dd class="ssw15-rteElement-FigureBad">​​Bad
-Example - Home directory is pointing to %SystemDrive%​​</dd><div><br></div><div><img src="2016-05-30_12-29-09.png" alt="2016-05-30_12-29-09.png" style="margin:5px;width:808px;" /><br></div><dd class="ssw15-rteElement-FigureGood">​​​Good Example - Home directory is pointing to another drive​</dd></div></div>
+<!--endintro-->
+ By default the Home directory points to %SystemDrive%\Octopus which is not great. The main reason is that the Home folder is constantly growing and clogging up your OS drive. So you need to point the Home folder to a new drive e.g. D:\Octopus
 
 
+
+
+![](2016-05-30_12-18-02.png)
+
+
+
+::: bad
+Bad<br>Example - Home directory is pointing to %SystemDrive%
+:::
+
+
+
+
+
+
+![](2016-05-30_12-29-09.png)
+
+
+
+::: good
+Good Example - Home directory is pointing to another drive
+:::
