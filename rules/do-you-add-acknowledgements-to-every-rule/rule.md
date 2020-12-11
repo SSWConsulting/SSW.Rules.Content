@@ -14,11 +14,13 @@ related: []
 
 ---
 
+Every rule must have a person (or more) responsible for its content - The rule owner. Readers can see this person on the "Acknowledgement" section.
 
-​Every rule must have a person (or more) responsible for its content - The rule owner. Readers can see this person on the "Acknowledgement" section.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">How to add the rule owner​</h3><p>When editing a rule, choose who is the rule owner on the "Acknowledgements" field. It is OK to have more than one person there.</p><dl class="image"><dt> 
-      <img src="acknowledgements.jpg" alt="acknowledgements.jpg" />​</dt><dd>Figure: This is where you add or remove "Acknowledgements"​</dd></dl><dl class="image"><dt> 
-      <img src="add-new-value.png" alt="acknowledgements.jpg" />​</dt><dd>Figure: You can add a new person in SharePoint, if the owner is not on the list yet​</dd></dl>
+<!--endintro-->
 
+### How to add the rule owner
 
+When editing a rule, choose who is the rule owner on the "Acknowledgements" field. It is OK to have more than one person there.
+<dl class="image">&lt;dt&gt; 
+      <img src="acknowledgements.jpg" alt="acknowledgements.jpg">&lt;/dt&gt;<dd>Figure: This is where you add or remove "Acknowledgements"</dd></dl><dl class="image">&lt;dt&gt; 
+      <img src="add-new-value.png" alt="acknowledgements.jpg">&lt;/dt&gt;<dd>Figure: You can add a new person in SharePoint, if the owner is not on the list yet</dd></dl>
