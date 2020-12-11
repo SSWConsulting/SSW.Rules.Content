@@ -14,14 +14,11 @@ related: []
 
 ---
 
+It is easy to think that    "Content is King"; it is a well-known        [quote from an article by Bill Gates in 1996](http&#58;//www.craigbailey.net/content-is-king-by-bill-gates/).  But    incorrect content is not  very useful, so we think that " **factual** content is king".
 
-<p>It is easy to think that 
-  &quot;Content is King&quot;; it is a well-known 
-      <a href="http&#58;//www.craigbailey.net/content-is-king-by-bill-gates/">quote from an article by Bill Gates in 1996</a>. &#160;But 
-  incorrect content is not &#160;very useful, so we think that &quot;<strong>factual</strong> content is king&quot;.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>You should always&#58;</p><ul><li>Fix up your mistakes, and</li>
-<li>Strike through content that is now been superseded, and add a comment. E.g. &quot;This is now not an issue as it was fixed up in TFS SP1&quot;
-</li></ul>
+<!--endintro-->
 
+You should always:
 
+* Fix up your mistakes, and
+* Strike through content that is now been superseded, and add a comment. E.g. "This is now not an issue as it was fixed up in TFS SP1"
