@@ -12,23 +12,21 @@ related: []
 
 ---
 
+In SharePoint development, it is always a good practice to use LINQ, instead of CAML.
+ Why CAML is bad? 
+* New language skills required for .NET developers
+* No IntelliSense or strongly typed objects
 
-In SharePoint development, it is always a good practice to use LINQ, instead of CAML.<br>
-Why CAML is bad?
-<ul>
-    <li>New language skills required for .NET developers </li>
-    <li>No IntelliSense or strongly typed objects </li>
-</ul>
 
-<br><excerpt class='endintro'></excerpt><br>
+<!--endintro-->
 
-  <p>Why LINQ is good? </p>
-<ul>
-    <li>No new language skills required </li>
-    <li>Easier to read and write </li>
-    <li>SPMetal is awesome for generating entity classes </li>
-    <li>In the backend, LINQ provider translates as much as it can to CAML first </li>
-</ul>
+Why LINQ is good?
+
+* No new language skills required
+* Easier to read and write
+* SPMetal is awesome for generating entity classes
+* In the backend, LINQ provider translates as much as it can to CAML first
+
 <font class="ms-rteCustom-CodeArea">SPQueryquery = newSPQuery(); <br>
 query.Query= String.Format(“<br>
 &lt;Where&gt;<br>
@@ -40,12 +38,19 @@ query.Query= String.Format(“<br>
 &lt;OrderBy&gt;<br>
 &lt;FieldRefName=‘PostedOn’ Ascending=‘TRUE’ /&gt;<br>
 &lt;/OrderBy&gt;”, _filter);<br>
-SPListItemCollectionlistItemsColl= resourceList.GetItems(query);</font><br>
-<font class="ms-rteCustom-FigureBad">Figure&#58; Bad example – using CAML </font><font class="ms-rteCustom-CodeArea">Var resourceListItems =<br>
+SPListItemCollectionlistItemsColl= resourceList.GetItems(query);</font>
+
+
+::: bad
+Figure: Bad example – using CAML
+:::
+
+<font class="ms-rteCustom-CodeArea">Var resourceListItems =<br>
 From SPListItem item in resourceList.Items<br>
 Where item.Tags.ToString().ToLower().Contains(_filter)<br>
 &amp;&amp; item.URL.ToString().Length&gt; 0<br>
-OrderBy item.PostedOn Ascending</font> &#160;<font class="ms-rteCustom-FigureGood">Figure&#58; Good example – using LINQ</font> 
+OrderBy item.PostedOn Ascending</font>  
 
-
-
+::: good
+Figure: Good example – using LINQ
+:::
