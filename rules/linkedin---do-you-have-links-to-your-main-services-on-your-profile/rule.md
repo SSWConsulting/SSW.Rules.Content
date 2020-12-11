@@ -14,9 +14,7 @@ related: []
 
 ---
 
+LinkedIn is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.
 
-<p>​​LinkedIn is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> <img src="linkedin-links.jpg" alt="linkedin-links.jpg" /> </dt><dd>Figure: Use the "Link" button in your profile "edit mode" to include the URLs for the main services your provide</dd></dl><dl class="badImage"><dt>​<img src="linkedin-url-bad.jpg" alt="linkedin-url-bad.jpg" /></dt><dd>Figure: Bad example - Profile with no links</dd></dl><dl class="goodImage"><dt><img src="linkedin-url-good.jpg" alt="linkedin-url-good.jpg" /></dt><dd>Figure: Good example - Profile with links to main services provided <br></dd></dl>
-
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt; <img src="linkedin-links.jpg" alt="linkedin-links.jpg"> &lt;/dt&gt;<dd>Figure: Use the "Link" button in your profile "edit mode" to include the URLs for the main services your provide</dd></dl><dl class="badImage">&lt;dt&gt;<img src="linkedin-url-bad.jpg" alt="linkedin-url-bad.jpg">&lt;/dt&gt;<dd>Figure: Bad example - Profile with no links</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="linkedin-url-good.jpg" alt="linkedin-url-good.jpg">&lt;/dt&gt;<dd>Figure: Good example - Profile with links to main services provided <br></dd></dl>
