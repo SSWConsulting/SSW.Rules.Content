@@ -10,20 +10,19 @@ related: []
 
 ---
 
+When a user looks at a test result, they want to be quickly informed. Therefore, you must make it clear weather the test has passed or failed, or is there any warning.
 
-<p>When a user looks at a test result, they want to be quickly informed. Therefore, you must make it clear weather the test has passed or failed, or is there any warning.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<ul><li>For a pass, the message should be green in color, and a tick next to the message. <img border="0" src="../../assets/Success-lg.gif" width="25" height="25" alt="" /></li>
-<li>For a fail, the message should be red in color, and a cross next to the message. <img border="0" src="../../assets/Fail-lg.gif" width="25" height="25" alt="" /></li>
-<li>For a warning, the message should be yellow/orange in color, and an exclamation mark next to the message. <img border="0" src="../../assets/Warning-lg.gif" width="25" height="25" alt="" /></li></ul>
-<dl class="badImage"><dt><img alt="Pass and fail are not clear" src="../../assets/RulesT1.gif" width="476" height="123" /></dt>
-<dd>Figure: Bad Example - Pass and fail are not clear</dd></dl>
-<dl class="image"><dt><img alt="Green text and tick for pass, red text and cross for fail (Better)" src="../../assets/RulesT2.gif" width="477" height="147" /></dt>
-<dd>Figure: Green text and tick for pass, red text and cross for fail (Better)</dd></dl>
-<dl class="goodImage"><dt><img alt="Status on windows forms" src="../../assets/RulesT4.gif" width="426" height="99" /></dt>
-<dd>Figure: Good Example - Status on windows forms</dd></dl>
-<dl class="goodImage"><dt><img alt="Microsoft Update uses 3 icons to indicate different status, and good quality of Images too" src="../../assets/MicrosoftUpdate.gif" width="526" height="341" /></dt>
+<!--endintro-->
+
+* For a pass, the message should be green in color, and a tick next to the message. 
+![](../../assets/Success-lg.gif)
+* For a fail, the message should be red in color, and a cross next to the message. 
+![](../../assets/Fail-lg.gif)
+* For a warning, the message should be yellow/orange in color, and an exclamation mark next to the message. 
+![](../../assets/Warning-lg.gif)
+
+<dl class="badImage">&lt;dt&gt;<img alt="Pass and fail are not clear" src="../../assets/RulesT1.gif" width="476" height="123">&lt;/dt&gt;
+<dd>Figure: Bad Example - Pass and fail are not clear</dd></dl><dl class="image">&lt;dt&gt;<img alt="Green text and tick for pass, red text and cross for fail (Better)" src="../../assets/RulesT2.gif" width="477" height="147">&lt;/dt&gt;
+<dd>Figure: Green text and tick for pass, red text and cross for fail (Better)</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="Status on windows forms" src="../../assets/RulesT4.gif" width="426" height="99">&lt;/dt&gt;
+<dd>Figure: Good Example - Status on windows forms</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="Microsoft Update uses 3 icons to indicate different status, and good quality of Images too" src="../../assets/MicrosoftUpdate.gif" width="526" height="341">&lt;/dt&gt;
 <dd>Figure: Good Example - Microsoft Update uses 3 icons to indicate different status, and good quality of Images too</dd></dl>
-
-
-
