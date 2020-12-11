@@ -9,6 +9,5 @@ index:
 - do-you-use-the-best-powershell-automation-platform
 
 ---
-<p>​​​<br></p>
 
 
