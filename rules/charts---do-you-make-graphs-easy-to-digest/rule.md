@@ -20,11 +20,11 @@ related: []
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt> 
-      <img border="1" alt="Understandable Graphs" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images%5cGraph.jpg" style="margin&#58;5px;" />
-   </dt><dd> Figure&#58; Good Example - Are your graphs simple to understand?</dd></dl><dl class="badImage"><dt> 
-      <img border="1" alt="Understandable Graphs" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images%5cbadGraph.jpg" style="margin&#58;5px;" />
-   </dt><dd> Figure&#58; Bad Example - When there's more than four preceptual units, a graph becomes hard to digest</dd></dl><dl class="goodImage"><dt> 
-      <img border="1" alt="Understandable Graphs" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images%5cGoodGraph.jpg" style="margin&#58;5px;" />
-   </dt><dd> Figure&#58; Good Example - You can split your graphs to make them easer to understand</dd></dl>
+      <img border="1" alt="Understandable Graphs" src="../../assets/Graph.jpg" style="margin:5px;" />
+   </dt><dd> Figure: Good Example - Are your graphs simple to understand?</dd></dl><dl class="badImage"><dt> 
+      <img border="1" alt="Understandable Graphs" src="../../assets/badGraph.jpg" style="margin:5px;" />
+   </dt><dd> Figure: Bad Example - When there's more than four preceptual units, a graph becomes hard to digest</dd></dl><dl class="goodImage"><dt> 
+      <img border="1" alt="Understandable Graphs" src="../../assets/GoodGraph.jpg" style="margin:5px;" />
+   </dt><dd> Figure: Good Example - You can split your graphs to make them easer to understand</dd></dl>
 
 
