@@ -12,21 +12,11 @@ related: []
 
 ---
 
-
-To please customers every business knows they need to keep their services and offerings fresh and up-to-date. The same is true for websites. In order to attract new traffic, we should make the website vivid. 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl class="badImage">
-    <dt><img alt="Bad example – there is no response when mouse is over the image" src="OldFashionSite.jpg" /> </dt>
-    <dd>Figure: Bad example – there is no response when mouse is over the image </dd>
-</dl>
-<dl class="goodImage">
-    <dt><img alt="Good example – apply the different style when mouse is over" src="NewFashionSite.jpg" /> </dt>
-    <dd>Figure: Good example – apply the different style when mouse is over </dd>
-</dl>
-<dl class="goodCode">
-    <dt>
+To please customers every business knows they need to keep their services and offerings fresh and up-to-date. The same is true for websites. In order to attract new traffic, we should make the website vivid.   
+<!--endintro-->
+<dl class="badImage">    &lt;dt&gt;<img alt="Bad example – there is no response when mouse is over the image" src="OldFashionSite.jpg"> &lt;/dt&gt;
+    <dd>Figure: Bad example – there is no response when mouse is over the image </dd></dl><dl class="goodImage">    &lt;dt&gt;<img alt="Good example – apply the different style when mouse is over" src="NewFashionSite.jpg"> &lt;/dt&gt;
+    <dd>Figure: Good example – apply the different style when mouse is over </dd></dl><dl class="goodCode">    &lt;dt&gt;
     <pre>        
         $("p").hover(function () {
             $(this).css({ "background-color":"yellow", "font-weight":"bolder" }); },
@@ -38,9 +28,5 @@ To please customers every business knows they need to keep their services and o
             $(this).css(cssObj);
         }); 
     </pre>
-    </dt>
-    <dd>Figure: Mouse hover sample </dd>
-</dl>
-
-
-
+    &lt;/dt&gt;
+    <dd>Figure: Mouse hover sample </dd></dl>
