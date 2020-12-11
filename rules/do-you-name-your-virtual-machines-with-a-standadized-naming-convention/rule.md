@@ -13,25 +13,25 @@ related: []
 ---
 
 
-When your Hyper-V environment is spread across multiple hosts and contains many Virtual Servers, it can get very confusing to find the one you are looking for&#160;amongst them all. This is why you should use a standard naming convention for all your Virtual machines.
+When your Hyper-V environment is spread across multiple hosts and contains many Virtual Servers, it can get very confusing to find the one you are looking for amongst them all. This is why you should use a standard naming convention for all your Virtual machines.
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img alt="How do you know what machine is what?" src="/PublishingImages/naming-badexample.jpg" />
+  <img alt="How do you know what machine is what?" src="naming-badexample.jpg" />
   <br>
-<strong class="ms-rteCustom-FigureBad">Bad Example - How do you know what machine is what?</strong>The standard we use for Production Virtual Machine naming is as follows&#58;<br>
+<strong class="ms-rteCustom-FigureBad">Bad Example - How do you know what machine is what?</strong>The standard we use for Production Virtual Machine naming is as follows:<br>
 <br>
-<strong>&#160;&#160;&#160;&#160;NetBIOSName-ServiceName<br>
+<strong>    NetBIOSName-ServiceName<br>
 <br>
-&#160;&#160;&#160;&#160;</strong>For example&#58; <strong>Falcon-SCVMM<br>
+    </strong>For example: <strong>Falcon-SCVMM<br>
 </strong><br>
-The standard we use for Development Virtual Machine naming is as follows&#58;<br>
+The standard we use for Development Virtual Machine naming is as follows:<br>
 <br>
-&#160;&#160;&#160;&#160;<strong>DEV-NetBIOSName-ServiceName-DeveloperInitials<br>
+    <strong>DEV-NetBIOSName-ServiceName-DeveloperInitials<br>
 </strong><br>
-&#160;&#160;&#160;&#160;For example&#58;&#160;<strong>DEV-demo2010a-SP2010MSInfoWorker-JL</strong><br>
+    For example: <strong>DEV-demo2010a-SP2010MSInfoWorker-JL</strong><br>
 <br>
-<img alt="It is easy to tell which VM is which when they are named to a standard" src="/PublishingImages/naming-goodexample.jpg" /><br>
+<img alt="It is easy to tell which VM is which when they are named to a standard" src="naming-goodexample.jpg" /><br>
 <font class="ms-rteCustom-FigureGood" size="+0">Good Example - It is easy to tell which VM is which when they are named to a standard<br>
 </font>
 
