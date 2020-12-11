@@ -12,9 +12,9 @@ related: []
 
 ---
 
+Organizing your cloud assets starts with good names. It is best to use all lower case and use “-“ and not put the Resource Type in the name. Different resource types can be identified by the resource icon.
 
-<p class="ssw15-rteElement-P">Organizing your cloud assets starts with good names. It is best to use all lower case and use “-“ and not put the Resource Type in the name. Different resource types can be identified by the resource icon. ​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​Azure defines <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules">naming rules and restrictions for Azure resources</a>. ​<br></p><dl class="badImage"><dt><img src="bad-azure-naming.png" alt="bad-azure-naming.png" style="width:750px;" /></dt><dd>Bad Example: This is using a mixture of upper case and lower case letters, plus specifying the resource type  </dd></dl><dl class="goodImage"><dt><img src="good-azure-naming.png" alt="good-azure-naming.png" style="width:750px;" /></dt><dd>Good Example:  Use lowercase letters and ”-”</dd></dl>
+<!--endintro-->
 
-
+Azure defines [naming rules and restrictions for Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules).
+<dl class="badImage">&lt;dt&gt;<img src="bad-azure-naming.png" alt="bad-azure-naming.png" style="width:750px;">&lt;/dt&gt;<dd>Bad Example: This is using a mixture of upper case and lower case letters, plus specifying the resource type  </dd></dl><dl class="goodImage">&lt;dt&gt;<img src="good-azure-naming.png" alt="good-azure-naming.png" style="width:750px;">&lt;/dt&gt;<dd>Good Example:  Use lowercase letters and ”-”</dd></dl>
