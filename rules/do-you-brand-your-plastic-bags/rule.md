@@ -19,7 +19,7 @@ related: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image">​​​ 
    <dt>
-      <img src="/PublishingImages/ssw-bag.png" alt="ssw-bag.png" />
-   </dt><dd>Figure&#58; SSW plastic bag&#160;</dd></dl>
+      <img src="ssw-bag.png" alt="ssw-bag.png" />
+   </dt><dd>Figure: SSW plastic bag </dd></dl>
 
 
