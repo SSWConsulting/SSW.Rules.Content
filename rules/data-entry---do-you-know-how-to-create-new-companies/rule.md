@@ -12,22 +12,25 @@ related: []
 
 ---
 
+Although you can create a Contact first, it's better to always create the Company first so you don't get orphan Contacts. 
 
-Although you can create a Contact first, it's better to always create the Company first so you don't​ get orphan Contacts. <br><div><strong><br></strong></div><div><strong>Tip #1:</strong> Avoid duplicates - Make sure tha​t there is no existing company before you make the entry.</div><div><strong>Tip #2: </strong>Generally you should be <a href="/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">creating these from leads</a>, as it speeds up the process.<br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage">
-          <dt>
-            <img src="Sales-Accounts.jpg" alt="Change CRM company Logo" style="width:500px;height:98px;" />​
-          </dt>
+ **
+** 
+
+ **Tip #1:** Avoid duplicates - Make sure that there is no existing company before you make the entry.
+
+ **Tip #2:** Generally you should be [creating these from leads](/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx), as it speeds up the process.
+
+
+<!--endintro-->
+<dl class="goodImage">          &lt;dt&gt;
+            <img src="Sales-Accounts.jpg" alt="Change CRM company Logo" style="width:500px;height:98px;">
+          &lt;/dt&gt;
           <dd>
             Figure: In MS CRM 2013, click on Sales | Accounts</dd>
-        </dl>
-        <dl class="goodImage">
-          <dt>
-            <img src="NewAccount.jpg" alt="Change CRM company Logo" style="width:500px;height:289px;" />​
-          </dt>
+        </dl><dl class="goodImage">          &lt;dt&gt;
+            <img src="NewAccount.jpg" alt="Change CRM company Logo" style="width:500px;height:289px;">
+          &lt;/dt&gt;
           <dd>
-            Figure: Click New, enter the required fields, and save and close​</dd>
+            Figure: Click New, enter the required fields, and save and close</dd>
         </dl>
-
-
