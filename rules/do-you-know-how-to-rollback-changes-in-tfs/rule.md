@@ -18,15 +18,18 @@ related: []
 
 ---
 
+This field should not be null (Remove me when you edit this field). 
+<!--endintro-->
 
-This field should not be null (Remove me when you edit this field).
-<br><excerpt class='endintro'></excerpt><br>
-<ol>There are two ways to do this: <li>If you haven’t checked in any files since you started modifying them then the process is simple: <ul><li>Right click your solution and <b>Undo Pending Changes</b><dl><dt><img alt="Undo Pending changes" src="rollback1.gif" width="266" height="307" /> </dt></dl></li></ul></li>
-<li>If you aren’t so lucky and have made some commits along the way then the only option is to use the Rollback command. <ul><li>To use this you will need to install <a href="http://www.ssw.com.au/ssw/Redirect/TFSPowerToolsDownload.htm">Team Foundation Server Power Tools v1.2</a> <img title="You are now leaving SSW" src="../../assets/external.gif" alt="" /></li>
-<li>Find the revision before you started checking code in using the <b>History command</b><dl><dt><img alt="Revision List" src="rollback2.gif" width="595" height="178" /></dt>
-<dd>Figure: The last revision before Tristan made changes was 5367</dd></dl></li>
-<li>Open the Command Prompt in your current working directory and type <b>“c:\Program Files\Microsoft Team Foundation Server Power Tools\tfpt.exe” rollback /changeset:5367</b><dl><dt><img alt="Rollback Changeset" src="rollback3.gif" width="807" height="342" /> </dt></dl></li>
-<li>Click <b>Yes</b> and the rollback will proceed </li></ul></li></ol>
-<p>It would be nice if there was a GUI for this tool so that I can just right click and select rollback. See <a href="http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#RollbackGUI">Better Software Suggestion – TFS</a></p>
+There are two ways to do this:1. If you haven’t checked in any files since you started modifying them then the process is simple:
+    * Right click your solution and  **Undo Pending Changes** <dl>&lt;dt&gt;<img alt="Undo Pending changes" src="rollback1.gif" width="266" height="307"> &lt;/dt&gt;</dl>
+2. If you aren’t so lucky and have made some commits along the way then the only option is to use the Rollback command.
+    * To use this you will need to install [Team Foundation Server Power Tools v1.2](http://www.ssw.com.au/ssw/Redirect/TFSPowerToolsDownload.htm) 
+
+    * Find the revision before you started checking code in using the  **History command** <dl>&lt;dt&gt;<img alt="Revision List" src="rollback2.gif" width="595" height="178">&lt;/dt&gt;
+<dd>Figure: The last revision before Tristan made changes was 5367</dd></dl>
+    * Open the Command Prompt in your current working directory and type  **“c:\Program Files\Microsoft Team Foundation Server Power Tools\tfpt.exe” rollback /changeset:5367** <dl>&lt;dt&gt;<img alt="Rollback Changeset" src="rollback3.gif" width="807" height="342"> &lt;/dt&gt;</dl>
+    * Click  **Yes** and the rollback will proceed
 
 
+It would be nice if there was a GUI for this tool so that I can just right click and select rollback. See [Better Software Suggestion – TFS](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#RollbackGUI)
