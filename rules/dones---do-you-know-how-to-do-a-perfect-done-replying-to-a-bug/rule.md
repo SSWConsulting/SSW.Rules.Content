@@ -14,11 +14,11 @@ related: []
 
 ---
 
+To reply to a bug effectively and efficiently in your emails, you need to include:  
 
-To reply to a bug effectively and efficiently in your emails, you need to include: 
-<br>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Current Status - the bug is fixed (screenshot of working application) or not fixed (ask for more detailed information from the client) </li><li>Investigation - the reason for the bug, or if you don't know, what you investigated, e.g. checked Windows event logs and found nothing helpful </li><li>Solution - how you fixed the bug (code snippet if necessary)<br> 
-      <dl class="goodImage"><dt><img alt="Reply to a bug" src="better_emails_reply_bug_small.jpg" /></dt><dd>Figure: Good Example - Reply to a bug showing all steps​<br></dd></dl></li></ul>
+<!--endintro-->
 
-
+* Current Status - the bug is fixed (screenshot of working application) or not fixed (ask for more detailed information from the client)
+* Investigation - the reason for the bug, or if you don't know, what you investigated, e.g. checked Windows event logs and found nothing helpful
+* Solution - how you fixed the bug (code snippet if necessary)
+<dl class="goodImage">&lt;dt&gt;<img alt="Reply to a bug" src="better_emails_reply_bug_small.jpg">&lt;/dt&gt;<dd>Figure: Good Example - Reply to a bug showing all steps<br></dd></dl>
