@@ -7,6 +7,5 @@ index:
 - do-you-know-the-code-health-quality-gates-to-add
 
 ---
-<p>​​​​<br></p>
-<p>​​<br><br></p>
+
 
