@@ -12,9 +12,16 @@ related: []
 
 ---
 
+Use a table to summarize the major features of the project. Columns that are needed are:
 
-<p class="ssw15-rteElement-P">Use a table to summarize the major features of the project. Columns that are needed are:​<br></p><ul><li>Required</li><li>Desired</li><li><b>Option A</b> <span class="ssw15-rteStyle-Highlight">(Recommended)</span><br></li><li><b>Option B​​</b></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="Proposals_OptionAHighlighted.jpg" alt="Proposals_OptionAHighlighted.jpg" />​<br></dt><dd>Figure: Highlight the option recommended<br></dd></dl><h3>​Related Rule</h3><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=ba07b0d2-ccce-4584-a636-f3a5d9bec2cf">Teamwork - Do you manage up? (Give a recommendation)​</a><br></li></ul>
+* Required
+* Desired
+* **Option A** <mark>(Recommended)</mark>
+* **Option B**
 
 
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="Proposals_OptionAHighlighted.jpg" alt="Proposals_OptionAHighlighted.jpg"><br>&lt;/dt&gt;<dd>Figure: Highlight the option recommended<br></dd></dl>
+### Related Rule
+
+* [Teamwork - Do you manage up? (Give a recommendation)](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=ba07b0d2-ccce-4584-a636-f3a5d9bec2cf)
