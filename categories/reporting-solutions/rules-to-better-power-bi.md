@@ -15,6 +15,5 @@ index:
 - do-you-use-version-control-with-power-bi
 
 ---
-<p>​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Power-BI.aspx">visit our Power BI&#160;consulting page​​​</a>&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our Power BI consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Power-BI.aspx) and book in a consultant.
 
