@@ -12,10 +12,16 @@ related: []
 
 ---
 
+Your software is deployed. How do you tell users months or years later, important information?
 
-<p>Your software is deployed. How do you tell users months or years later, important information? <br></p><p>This primarily affects Windows clients but even web clients shouldn't need a new version to give a new message. <br></p><p>Most software is deployed without any mechanism to insert a message in older software.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​Messages might range from helpful tips that are undiscovered that would help a user do their job better?<br>Or helpful to remind old customers to get off their old version. <br>Eg. Sometimes customers are just not aware that their TFS or CRM installation is years old? ​<br></p><dl class="badImage"><dt>
-      <img src="uptodate-message-bad.jpg" alt="uptodate-message-bad.jpg" />​<br></dt><dd>Figure: Bad example</dd></dl><dl class="goodImage"><dt><img src="uptodate-message-good.jpg" alt="uptodate-message-good.jpg" /></dt><dd>Figure: Good​ example</dd></dl>
+This primarily affects Windows clients but even web clients shouldn't need a new version to give a new message.
 
+Most software is deployed without any mechanism to insert a message in older software.
 
+<!--endintro-->
+
+Messages might range from helpful tips that are undiscovered that would help a user do their job better?
+Or helpful to remind old customers to get off their old version. 
+Eg. Sometimes customers are just not aware that their TFS or CRM installation is years old?
+<dl class="badImage">&lt;dt&gt;
+      <img src="uptodate-message-bad.jpg" alt="uptodate-message-bad.jpg"><br>&lt;/dt&gt;<dd>Figure: Bad example</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="uptodate-message-good.jpg" alt="uptodate-message-good.jpg">&lt;/dt&gt;<dd>Figure: Good example</dd></dl>
