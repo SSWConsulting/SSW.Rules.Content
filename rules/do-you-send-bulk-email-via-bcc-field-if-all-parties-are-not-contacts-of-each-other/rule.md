@@ -14,14 +14,10 @@ related: []
 
 ---
 
+To ensure privacy, and not allow parties to get hold of each others' email addresses, emails to multiple parties should be entered in the 'Bcc' field (not the 'To' field).
 
+<!--endintro-->
 
-  <p>To ensure privacy, and not allow parties to get hold of each others' email addresses, emails to multiple parties should be entered in the 'Bcc' field (not the 'To' field).
-</p>
+![Send bulk email via 'To' field](better_emails_bulk_to.jpg)
 
-<br><excerpt class='endintro'></excerpt><br>
-  <img src="better_emails_bulk_to.jpg" alt="Bad" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad Example: Send bulk email via 'To' field</span> <br>
-<img src="better_emails_bulk_bcc.JPG" alt="Good" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good Example: Send bulk email via 'Bcc' field </span>
-
-
-
+![Send bulk email via 'Bcc' field](better_emails_bulk_bcc.JPG)
