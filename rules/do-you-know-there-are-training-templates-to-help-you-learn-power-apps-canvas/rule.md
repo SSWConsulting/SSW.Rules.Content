@@ -13,8 +13,8 @@ related: []
 ---
 
 
-<p>If you're new to Power Apps and would like to get up and running quickly there two training templates that will help you along the way. The first one is <strong>Power Apps Training</strong>; it contains exercises to get you quickly up and running with Canvas Apps. &#160;</p><p>For Office specific integration there is also the <strong>Power Apps Training for Office</strong>. Both these templates are an excellent starting point for anyone wanting to get into Canvas apps; strongly recommended for citizen and pro makers alike.<br></p>
+<p>If you're new to Power Apps and would like to get up and running quickly there two training templates that will help you along the way. The first one is <strong>Power Apps Training</strong>; it contains exercises to get you quickly up and running with Canvas Apps.  </p><p>For Office specific integration there is also the <strong>Power Apps Training for Office</strong>. Both these templates are an excellent starting point for anyone wanting to get into Canvas apps; strongly recommended for citizen and pro makers alike.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="/PublishingImages/power-apps-training.png" alt="power-apps-training.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Power Apps Training and Power Apps Training for Office ​<br></dd></dl>
+<dl class="image"><dt>​<img src="power-apps-training.png" alt="power-apps-training.png" style="width:750px;" /></dt><dd>Figure: Power Apps Training and Power Apps Training for Office ​<br></dd></dl>
 
 
