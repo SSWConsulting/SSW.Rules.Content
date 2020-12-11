@@ -10,25 +10,16 @@ related: []
 
 ---
 
+a. These<br>could be in the UI and middle level tiers
 
-<p><span lang="EN-AU">a.<span>&#160;</span></span><span lang="EN-AU">These
-could be in the UI and middle level tiers </span></p>
+b. There<br>are common patterns for memory leak, e.g. proxy to WCF [code]
 
-<p><span lang="EN-AU">b.<span>&#160;</span></span><span lang="EN-AU">There
-are common patterns for memory leak, e.g. proxy to WCF [code]</span></p>
-<p><span lang="EN-AU"></span>e.g RIA service [code]</p>
-<p><span lang="EN-AU"></span>e.g.
-Load += &#160;&#160;&#160;&#160;(9 out of 10 people will forget to remove their
-statement)</p>
-<br><excerpt class='endintro'></excerpt><br>
-​Google&#58;
-Common Memory Leak
+e.g RIA service [code]
 
-<p><span lang="EN-AU">[bad
-code]</span></p>
+e.g. Load +=     (9 out of 10 people will forget to remove their statement)
 
-<p><span lang="EN-AU">[good
-code]</span></p>
+<!--endintro-->
+ Google: Common Memory Leak  
+[bad<br>code]
 
-
-
+[good<br>code]
