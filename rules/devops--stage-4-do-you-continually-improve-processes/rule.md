@@ -14,10 +14,19 @@ related: []
 
 ---
 
+Now that you’ve got the numbers, you can then make decisions on what needs improvement and go through the DevOps cycle again.
 
-<p class="p1">​​​​Now that you’ve got the numbers, you can then make decisions on what needs improvement and go through the DevOps cycle again.​<br></p><p class="p1">Here are some examples:​</p>
-<br><excerpt class='endintro'></excerpt><br>
-​
-<ul><li>For exceptions, review your exception log (ELMAH, RayGun, HockeyApp)</li><ul><li>Add the important ones onto your backlog for prioritization​</li><li><span style="background-color:initial;">Add an ignore to the exceptions you don't care about to reduce the noise (e.g. 404 errors)</span></li><li>You can do this as the exceptions appear, or prior to doing your Sprint Review as part of the backlog grooming</li><li><span style="background-color:initial;">​You don't have to get the exception log down to 0, just action the important ones and aim to reduce the noise so that the log is still useful</span><span style="background-color:initial;">​</span></li></ul><li><span style="background-color:initial;">​For code quality, add getting Code Auditor and ReSharper to 0 on files you’ve changed to your Definition of Done</span><br></li><li><ul><li>See <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6449ae79-ba88-447e-aa48-36173029a2af">https://rules.ssw.com.au/done-do-you-go-beyond-done-and-follow-a-definition-of-done </a>  </li></ul></li><li>For code quality, add SonarQube and identify your technical debt and track it<dl class="image"><dt><img src="improve-processes.png" alt="improve-processes.png" /></dt></dl></li><li>For application/server performance, add automated load tests, add code to auto scale up on Azure</li><li>For application usage, concentrate on features that get used the most and improve and streamline those features</li></ul>
+Here are some examples:
 
+<!--endintro-->
 
+* For exceptions, review your exception log (ELMAH, RayGun, HockeyApp)
+    * Add the important ones onto your backlog for prioritization
+    * Add an ignore to the exceptions you don't care about to reduce the noise (e.g. 404 errors)
+    * You can do this as the exceptions appear, or prior to doing your Sprint Review as part of the backlog grooming
+    * You don't have to get the exception log down to 0, just action the important ones and aim to reduce the noise so that the log is still useful
+* For code quality, add getting Code Auditor and ReSharper to 0 on files you’ve changed to your Definition of Done
+* * See [https://rules.ssw.com.au/done-do-you-go-beyond-done-and-follow-a-definition-of-done](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6449ae79-ba88-447e-aa48-36173029a2af)
+* For code quality, add SonarQube and identify your technical debt and track it<dl class="image">&lt;dt&gt;<img src="improve-processes.png" alt="improve-processes.png">&lt;/dt&gt;</dl>
+* For application/server performance, add automated load tests, add code to auto scale up on Azure
+* For application usage, concentrate on features that get used the most and improve and streamline those features
