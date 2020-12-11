@@ -12,11 +12,10 @@ related: []
 
 ---
 
-
-Text files created on DOS/Windows machines have different line endings than files created on Unix/Linux. DOS uses carriage return and line feed ("\r\n") as a line ending, which Unix uses just line feed ("\n").<br>​​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="carriage-bad.jpg" alt="carriage-bad.jpg" /></dt><dd>Figure: Bad example</dd></dl><dl class="goodImage"><dt> ​
-      <img src="carriage-good.jpg" alt="carriage-good.jpg" /> 
-   </dt><dd>Figure: Good example​<span style="color:#444444;">​</span></dd></dl>
+Text files created on DOS/Windows machines have different line endings than files created on Unix/Linux. DOS uses carriage return and line feed ("\r\n") as a line ending, which Unix uses just line feed ("\n").
 
 
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="carriage-bad.jpg" alt="carriage-bad.jpg">&lt;/dt&gt;<dd>Figure: Bad example</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img src="carriage-good.jpg" alt="carriage-good.jpg"> 
+   &lt;/dt&gt;<dd>Figure: Good example<span style="color:#444444;"></span></dd></dl>
