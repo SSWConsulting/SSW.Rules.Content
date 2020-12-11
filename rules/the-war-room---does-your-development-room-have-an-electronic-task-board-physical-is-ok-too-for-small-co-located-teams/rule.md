@@ -12,17 +12,26 @@ related: []
 
 ---
 
+Having     an electronic task board makes it easy for developers to keep track of tasks.
 
-<p>Having 
-   an electronic ​​​task board makes it easy for developers to keep track of tasks. </p><p>These are the columns (aka swim lanes) you need:</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt>​<img src="TFS Preview Task Board.png" alt="TFS Preview Task Board.png" style="width:550px;" /></dt><dd>​​​Figure: Good Example - a virtual client task board in action (<a href="http://tfspreview.com/">TFS​</a>)​</dd></dl><dl class="goodImage"><dt>
-      <img src="Taskboard.jpg" alt="TaskBoard" style="width:550px;" />
-   </dt><dd>​​Figure: OK​ Example - a physical client task board in operation</dd></dl><p>Near your task board, stick an SSW "Want to submit a User Story?"</p><ul><li>Where to find their project portal </li><li>Who to contact with questions​ </li><li>How to add tasks to the task board </li></ul><p>Print out this PDF and fill in the 2 fields and stick it on own task board.</p><div class="greyBox" style="overflow:auto;"> 
-   <a href="/Documents/SSWSubmitaPBI.pdf">
-      <img src="preview-taskboard.jpg" alt="" style="float:left;margin-right:10px;" />Download the "SSW Submit a PBI" PDF.</a> </div><dl class="image"><dt> 
-      <img src="Avatar.jpg" alt="" />
-   </dt><dd>Figure: Create an avatar for each person and stick them on the current task. You can find our 
+These are the columns (aka swim lanes) you need:
+
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt;<img src="TFS Preview Task Board.png" alt="TFS Preview Task Board.png" style="width:550px;">&lt;/dt&gt;<dd>Figure: Good Example - a virtual client task board in action (<a href="http://tfspreview.com/">TFS</a>)</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="Taskboard.jpg" alt="TaskBoard" style="width:550px;">
+   &lt;/dt&gt;<dd>Figure: OK Example - a physical client task board in operation</dd></dl>
+Near your task board, stick an SSW "Want to submit a User Story?"
+
+* Where to find their project portal
+* Who to contact with questions
+* How to add tasks to the task board
+
+
+Print out this PDF and fill in the 2 fields and stick it on own task board.
+
+[
+![](preview-taskboard.jpg)Download the "SSW Submit a PBI" PDF.](/Documents/SSWSubmitaPBI.pdf) 
+<dl class="image">&lt;dt&gt; 
+      <img src="Avatar.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: Create an avatar for each person and stick them on the current task. You can find our 
       <a shape="rect" href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx#PrintedStoryCard">User Story Cards here</a>. You can write the TFS work item ID on each card.</dd></dl>
-
-
