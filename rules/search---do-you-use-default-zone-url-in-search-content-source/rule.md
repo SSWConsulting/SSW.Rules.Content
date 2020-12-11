@@ -14,9 +14,22 @@ related: []
 
 ---
 
+<dl class="ssw15-rteElement-ImageArea">Using default zone URL in search content source, it will be automatically convert to the relative URL on the search result.</dl><dl class="ssw15-rteElement-ImageArea">e.g. if a user access  search center via http://projects.ssw.com.au/search, the result will be like http://projects.ssw.com.au/search/xxx. While another user access search center via http<mark>s</mark>://projects.ssw.com.au/search, the result will be http<mark>s</mark>://projects.ssw.com.au/search/xxx.<br><br><img src="https-data-source.jpg" alt="https-data-source.jpg" style="margin:5px;width:808px;"></dl>
 
-<dl class="ssw15-rteElement-ImageArea">​​Using default zone URL in search content source, it will be automatically convert to the relative URL on the search result.</dl><dl class="ssw15-rteElement-ImageArea">e.g. if a user access  search center via http://projects.ssw.com.au/search, the result will be like http://projects.ssw.com.au/search/xxx. While another user access search center via http<span class="ssw15-rteStyle-Highlight">s</span>://projects.ssw.com.au/search, the result will be http<span class="ssw15-rteStyle-Highlight">s</span>://projects.ssw.com.au​/search/xxx.<br><br><img src="https-data-source.jpg" alt="https-data-source.jpg" style="margin:5px;width:808px;" /></dl><dd class="ssw15-rteElement-FigureBad">Bad example: use https://projects.ssw.com.au</dd><p class="ssw15-rteElement-P">​​<br></p><dl class="ssw15-rteElement-ImageArea"><img src="http-data-source.jpg" alt="http-data-source.jpg" style="margin:5px;width:808px;" /></dl><dd class="ssw15-rteElement-FigureGood">Good example: use http://project.ssw.com.au​</dd><div><br></div>
-<br><excerpt class='endintro'></excerpt><br>
+::: bad
+Bad example: use https://projects.ssw.com.au
+:::
 
 
 
+<dl class="ssw15-rteElement-ImageArea"><img src="http-data-source.jpg" alt="http-data-source.jpg" style="margin:5px;width:808px;"></dl>
+
+::: good
+Good example: use http://project.ssw.com.au
+:::
+
+
+
+
+
+<!--endintro-->
