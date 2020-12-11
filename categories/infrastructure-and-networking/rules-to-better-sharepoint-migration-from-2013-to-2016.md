@@ -15,6 +15,5 @@ index:
 - do-you-have-a-sharepoint-master
 
 ---
-<p>​​</p>
 
 
