@@ -10,14 +10,19 @@ related: []
 
 ---
 
+It is important to sensibly name your images. We don't use "img" (in the same way we don't use "tbl" for tables).
 
-<p>It is important to sensibly name your images. We don't use "img" (in the same way we don't use "tbl" for tables).</p><p>However, for special types of images we do include a prefix. </p>
-<br><excerpt class='endintro'></excerpt><br>
-<table class="clsSSWTable" border="1" cellpadding="4"><tbody><tr><td>
-            <b>Image Type</b></td><td>
-            <b>Prefix</b></td><td>
-            <b>Example</b></td></tr><tr><td>Banner</td><td>ban</td><td>banSSW.gif</td></tr><tr><td>Icon</td><td>ico</td><td>icoSSW.ico</td></tr><tr><td>Screenshot</td><td>Screen</td><td>ScreenCodeAuditorMainWindow.gif</td></tr></tbody></table><dl class="goodImage"><dt>
-      <img src="ScreenFilesWithScreenPrefix.gif" alt="" />
-   </dt><dd>Figure: Correctly named images</dd></dl>​
+However, for special types of images we do include a prefix.
+
+<!--endintro-->
 
 
+| **Image Type**  | **Prefix**  | **Example**  |
+| --- | --- | --- |
+| Banner | ban | banSSW.gif |
+| Icon | ico | icoSSW.ico |
+| Screenshot | Screen | ScreenCodeAuditorMainWindow.gif |
+
+<dl class="goodImage">&lt;dt&gt;
+      <img src="ScreenFilesWithScreenPrefix.gif" alt="">
+   &lt;/dt&gt;<dd>Figure: Correctly named images</dd></dl>
