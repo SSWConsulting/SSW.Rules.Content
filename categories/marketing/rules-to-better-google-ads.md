@@ -17,6 +17,7 @@ index:
 - do-you-know-that-you-can-quickly-import-your-google-campaigns-to-your-microsoft-ads
 
 ---
-<p>​Google Ads are a great way of generating leads for your business, but they can be totally overwhelming, and if not done well, can cost you a lot of money.</p><p class="ssw15-rteElement-P">Below are some ways you can improve the effectiveness of your ads, while keeping the cost low.​​​<br></p>
+Google Ads are a great way of generating leads for your business, but they can be totally overwhelming, and if not done well, can cost you a lot of money.
 
+Below are some ways you can improve the effectiveness of your ads, while keeping the cost low.
 
