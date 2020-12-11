@@ -12,9 +12,13 @@ related: []
 
 ---
 
+Knowing the context and use of certain strings will help translators choose the right translation from the beginning when you localize your web application to make it available in a variety of languages. Most translation tools will allow translators to see these comments as they translate the strings. To make your comments more friendly, it's better to list in the comment field where this text is used. e.g.
 
-<p>​​Knowing the context and use of certain strings will help translators choose the right translation from the beginning when you localize your web application to make it available in a variety of languages. Most translation tools will allow translators to see these comments as they translate the strings. To make your <span style="line-height:20.8px;">comments </span>more friendly, it's better to list in the comment field where this text is used. e.g.<br></p><ul class="p1"><li><span style="line-height:1.6;">​Text</span></li><li><span style="line-height:1.6;">Validation<br></span></li><li><span style="line-height:1.6;">Tooltip<br></span></li><li><span style="line-height:1.6;">Textbox Placeholder​​</span></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img alt="CommentsInResources.jpg" src="Localization_Commonts.jpg" style="width:750px;" /></dt><dd>Figure: Use the comment field in the resx to tell you where it is used​<br></dd></dl>
+* Text
+* Validation
+* Tooltip
+* Textbox Placeholder
 
 
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img alt="CommentsInResources.jpg" src="Localization_Commonts.jpg" style="width:750px;">&lt;/dt&gt;<dd>Figure: Use the comment field in the resx to tell you where it is used<br></dd></dl>
