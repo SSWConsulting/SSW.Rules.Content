@@ -10,9 +10,15 @@ related: []
 
 ---
 
+Managing the process of selling tickets can be very time consuming if you try and do it on your own.
 
-<p class="ssw15-rteElement-P">Managing the process of selling tickets can be very time consuming if you try and do it on your own.&#160;​​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​A much better approach is to use a service like <a href="http&#58;//www.eventbrite.com/">EventBrite</a>. SSW uses EventBrite for all events, as it allows you to manage all aspects of ticketing</p><ul><li>Selling</li><li>Refunding</li><li>Marketing</li><li>Mailing lists</li><li>Issuing more tickets</li><li><span style="line-height&#58;1.6;">And much mo</span><span style="line-height&#58;1.6;">re</span><span style="line-height&#58;1.6;">​</span><br></li></ul>
+<!--endintro-->
 
+A much better approach is to use a service like [EventBrite](http&#58;//www.eventbrite.com/). SSW uses EventBrite for all events, as it allows you to manage all aspects of ticketing
 
+* Selling
+* Refunding
+* Marketing
+* Mailing lists
+* Issuing more tickets
+* And much more
