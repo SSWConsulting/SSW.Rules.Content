@@ -12,9 +12,18 @@ related: []
 
 ---
 
+When implementing search on a website, do you know that it is best to highlight the search terms in the page body?
 
-<p>When implementing search on a website, do you know that it is best to highlight the search terms in the page body?</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​Search is a common feature in websites, and one you will most likely have to implement at some stage. When search returns a list of items, it is useful to highlight the search terms where they appear in the results.</p><p><br></p><p><img src="2014-08-07_15-48-11-before-compressor.png" alt="2014-08-07_15-48-11-before-compressor.png" style="margin:5px;width:650px;" /><br></p><p><strong>Figure: Search for items with these tags</strong></p><p><br></p><p><img src="2014-08-07_15-47-15-after-compressor.png" alt="2014-08-07_15-47-15-after-compressor.png" style="margin:5px;width:650px;" /><br></p><p><strong>Figure: Search results have their relevant tags highlighted</strong></p>
+<!--endintro-->
+
+Search is a common feature in websites, and one you will most likely have to implement at some stage. When search returns a list of items, it is useful to highlight the search terms where they appear in the results.
 
 
+
+
+![Search for items with these tags](2014-08-07_15-48-11-before-compressor.png)
+
+
+
+
+![Search results have their relevant tags highlighted](2014-08-07_15-47-15-after-compressor.png)
