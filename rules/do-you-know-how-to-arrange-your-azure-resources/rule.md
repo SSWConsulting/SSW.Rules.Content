@@ -18,10 +18,7 @@ related: []
 
 ---
 
+There is no cost saving to group databases into on single resource group. It is better to provision the database in the same resource group as the application that uses it.
 
-There is no cost saving to group databases into on single resource group. It is better to provision the database in the same resource group as the application that uses it.​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage">
-   <dt>​<img src="arrange-azure-resources-bad.jpg" alt="arrange-azure-resources-bad.jpg" style="width:750px;" /></dt><dd>Figure: Bad example - SSW.SQL has all the Databases for different apps in one place<br></dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">   &lt;dt&gt;<img src="arrange-azure-resources-bad.jpg" alt="arrange-azure-resources-bad.jpg" style="width:750px;">&lt;/dt&gt;<dd>Figure: Bad example - SSW.SQL has all the Databases for different apps in one place<br></dd></dl>
