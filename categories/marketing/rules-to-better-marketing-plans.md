@@ -16,6 +16,7 @@ index:
 - do-you-maintain-and-update-your-marketing-plan
 
 ---
-<p class="ssw15-rteElement-P">So you’ve got a Marketing Plan, now what? Do you know how to get all of your ideas down on paper and make sure all of the time and effort doesn’t go to waste?&#160;</p><p class="ssw15-rteElement-P">​One of the most common things to happen is for companies to write a Marketing Plan, use it once, and then forget about it! So how do you avoid this common scenario?&#160;​​​​<br></p>
+So you’ve got a Marketing Plan, now what? Do you know how to get all of your ideas down on paper and make sure all of the time and effort doesn’t go to waste?
 
+One of the most common things to happen is for companies to write a Marketing Plan, use it once, and then forget about it! So how do you avoid this common scenario?
 
