@@ -12,9 +12,14 @@ related: []
 
 ---
 
+Making sure that your site content to include specific keywords is just one part of the story. You need to constantly monitor how they perform. 
 
-Making sure that your site content to include specific keywords is just one part of the story. You need to constantly monitor how they perform.&#160;​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>The two main tools&#160;for keywords (and most of&#160;SEO research) are&#58;<ul><li><a href="http&#58;//ahrefs.com/">ahrefs.com</a><br></li><li><a href="http&#58;//semrush.com/">semrush.com</a><br></li></ul></p><p>It's better to use paid versions, but there are free versions with a limited set of features that are still useful.<br></p>
+<!--endintro-->
+
+The two main tools for keywords (and most of SEO research) are:
+
+* [ahrefs.com](http&#58;//ahrefs.com/)
+* [semrush.com](http&#58;//semrush.com/)
 
 
+It's better to use paid versions, but there are free versions with a limited set of features that are still useful.
