@@ -14,11 +14,71 @@ related: []
 
 ---
 
+The use of standardized AD Group names is a simple yet crucial step towards building more manageable software. Raining in on the number of AD Groups used by an application will make it simpler to manage and allow new developers to pick up an existing project faster.
 
-<p>​The use of standardized AD Group names is a simple yet crucial step towards building more manageable software. Raining in on the number of AD Groups used by an application will make it simpler to manage and allow new developers to pick up an existing project faster. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p> 
-   <strong> You can save yourself countless confused conversations by standardizing AD Group Names. </strong><br></p><p>For example&#58;&#160;This is a list of AD groups associated with products.<br></p><p class="ssw15-rteElement-GreyBox">SSWSugarLearningEvents<br> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>CodeAuditorAlerts<br> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>LinkAuditorDevs</p><dd class="ssw15-rteElement-FigureBad"> Figure&#58; Bad Example – It is difficult to know the correct name for an AD group </dd><p class="ssw15-rteElement-GreyBox"> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>SugarLearning<br> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>SugarLearningEvents<br> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>CodeAuditor<br> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>CodeAuditorEvents<br> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>LinkAuditor<br> <span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;"></span><span style="font-size&#58;12px;line-height&#58;19.2px;background-color&#58;#f5f5f5;">SSW</span>LinkAuditorEvents</p>​ 
-<dd class="ssw15-rteElement-FigureGood"> Figure&#58; Good Example – By standardizing the names of AD groups it saves confusion<br></dd><p><strong><br>Note&#58;&#160;</strong>For large organizations, a better way is<b></b> to use a type of group (eg. Local or Global)… then the entity it is associated to… then the resource (or service).&#160;&#160;<br></p><p><strong>E</strong><strong>xample</strong><strong> #1&#58;</strong></p><p class="ssw15-rteElement-CodeArea">&#160; &#160;L-LocalGroupName-<br>&#160; &#160;SYD-EntityName-<br>&#160; &#160;SP-Sharepoint-</p><p>That becomes “L-SYD-SP-SSW-Users&quot; <br></p><p><strong>E</strong><strong>xample</strong><strong> #2&#58;</strong></p><p class="ssw15-rteElement-CodeArea">&#160; &#160;G-GlobalGroupName-<br>&#160; &#160;SYD-EntityName-<br>&#160; &#160;SP-Sharepoint-</p><p>That becomes “G-SYD-SP-SSW-Users&quot;</p><p><b>​Note&#58; </b>You would not use this naming convention for distribution groups – as they would display to users. <br></p><p>It is recommended by default to have two AD groups per product. The following table should be used as a guide for naming them&#58;</p><table class="normal"><tbody><tr><th>Name</th><th>Type</th><th>Purpose</th></tr><tr><td>SSW&lt;ProductName&gt;</td><td>Distribution group</td><td>This email is used to send emails to the development team for a product.</td></tr><tr><td>SSW &lt;ProductName&gt;Events</td><td>Mailbox</td><td>Acts as the collection point for all automatic notifications. For example notifications from Elmah and/or application insights. <br></td></tr></tbody></table>​​
+<!--endintro-->
+
+**You can save yourself countless confused conversations by standardizing AD Group Names.**
+
+For example: This is a list of AD groups associated with products.
 
 
+::: greybox
+SSWSugarLearningEvents
+ SSWCodeAuditorAlerts
+ SSWLinkAuditorDevs
+:::
+
+
+
+::: bad
+Figure: Bad Example – It is difficult to know the correct name for an AD group
+:::
+
+
+
+::: greybox
+SSWSugarLearning
+ SSWSugarLearningEvents
+ SSWCodeAuditor
+ SSWCodeAuditorEvents
+ SSWLinkAuditor
+ SSWLinkAuditorEvents
+:::
+
+
+
+::: good
+Figure: Good Example – By standardizing the names of AD groups it saves confusion
+
+:::
+
+
+**
+Note: ** For large organizations, a better way is  to use a type of group (eg. Local or Global)… then the entity it is associated to… then the resource (or service).
+
+**E** **xample** **#1:**
+
+L-LocalGroupName-
+   SYD-EntityName-
+   SP-Sharepoint-
+
+That becomes “L-SYD-SP-SSW-Users"
+
+**E** **xample** **#2:**
+
+G-GlobalGroupName-
+   SYD-EntityName-
+   SP-Sharepoint-
+
+That becomes “G-SYD-SP-SSW-Users"
+
+**Note:** You would not use this naming convention for distribution groups – as they would display to users.
+
+It is recommended by default to have two AD groups per product. The following table should be used as a guide for naming them:
+
+
+| Name | Type | Purpose |
+| --- | --- | --- |
+| SSW&lt;ProductName&gt; | Distribution group | This email is used to send emails to the development team for a product. |
+| SSW &lt;ProductName&gt;Events | Mailbox | Acts as the collection point for all automatic notifications. For example notifications from Elmah and/or application insights. <br> |
