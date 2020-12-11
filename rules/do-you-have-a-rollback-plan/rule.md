@@ -16,9 +16,9 @@ related: []
 
 
 
-  <p>Always <a shape="rect" href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#assumeCatastrophic">plan for a catastrophic disaster</a>, in the event of errors when testing&#58;</p>
+  <p>Always <a shape="rect" href="http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#assumeCatastrophic">plan for a catastrophic disaster</a>, in the event of errors when testing:</p>
 <ol>
-    <li>Take the&#160;TFS2010 server offline </li>
+    <li>Take the TFS2010 server offline </li>
     <li>Bring the TFS2008 server online </li>
     <li>Change the DNS entries for tfs.northwind.com from the IP for the TFS2010 server to the IP for the TFS2008 server
     <ol>
@@ -27,8 +27,8 @@ related: []
     </ol>
     </li>
 </ol>
-<p><img alt="TFS In DNS" src="/PublishingImages/TFSDNS.png" /><br>
-Figure&#58; DNS Pointer for&#160;TFS can be easily changed</p>
+<p><img alt="TFS In DNS" src="TFSDNS.png" /><br>
+Figure: DNS Pointer for TFS can be easily changed</p>
 
 <br><excerpt class='endintro'></excerpt><br>
 
