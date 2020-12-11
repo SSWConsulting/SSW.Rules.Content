@@ -12,17 +12,15 @@ related: []
 
 ---
 
+There are many mobile app dev tools you can choose from. It's important to pick the best one for your needs:
 
-<p>There are many mobile app dev tools you can choose from. It's important to pick the best one for your needs:<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img src="pwa.png" alt="pwa.png" />
-   </dt><dd>Bad Example - Personal Web Apps (PWAs) show enormous promise for the future but currently do not support iOS</dd></dl><dl class="goodImage"><dt><img src="native.png" alt="native.png" /> </dt><dd>​Figure: Good Example - Choose Native for the very best experience and if money is no object</dd></dl><dl class="goodImage"><dt>
-      <img src="xamarin.png" alt="xamarin.png" />
-   </dt><dd>Figure: Good Example - Choose Xamarin if your team know C# & XAML and you need a native app</dd></dl><dl class="goodImage"><dt>
-      <img src="reactnative.png" alt="reactnative.png" />
-   </dt><dd>Figure: Good Example - Choose React Native if your team know React and you need native app feel without the ​development overhead</dd></dl><dl class="goodImage"><dt>
-      <img src="ionic.png" alt="ionic.png" />
-   </dt><dd>Figure: Good Example - Choose Ionic if you are building enterprise applications, need a web app + mobile app, or your team know Angular</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img src="pwa.png" alt="pwa.png">
+   &lt;/dt&gt;<dd>Bad Example - Personal Web Apps (PWAs) show enormous promise for the future but currently do not support iOS</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="native.png" alt="native.png"> &lt;/dt&gt;<dd>Figure: Good Example - Choose Native for the very best experience and if money is no object</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="xamarin.png" alt="xamarin.png">
+   &lt;/dt&gt;<dd>Figure: Good Example - Choose Xamarin if your team know C# & XAML and you need a native app</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="reactnative.png" alt="reactnative.png">
+   &lt;/dt&gt;<dd>Figure: Good Example - Choose React Native if your team know React and you need native app feel without the development overhead</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="ionic.png" alt="ionic.png">
+   &lt;/dt&gt;<dd>Figure: Good Example - Choose Ionic if you are building enterprise applications, need a web app + mobile app, or your team know Angular</dd></dl>
