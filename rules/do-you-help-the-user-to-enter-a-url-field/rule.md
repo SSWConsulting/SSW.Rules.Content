@@ -12,18 +12,16 @@ related: []
 
 ---
 
+Most developers seem to validate a URL and tell the user what they have done wrong                     only after the error happens. URL fields should show how the users must enter it.
 
-<p>Most developers seem to validate a URL and tell the user what they have done wrong
-                    only after the error happens. URL fields should show how the users must enter it.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-                        <img src="url-field-bad.jpg" alt="Error message 'Cannot save record'" /></dt><dd>
-                        Figure: Bad example - U​sing a validation message to tell the user to enter a correct
-                        URL</dd></dl><p>
-                    The better way is to have the user avoid the error with a good default.</p><dl class="badImage"><dt>
-                        <img src="url-field-bad2.jpg" alt="image showing blank textfield" /></dt><dd>
-                        Figure: Bad example - The user has a good chance of entering the URL in the incorrect format​​​</dd></dl><dl class="goodImage"><dt>
-                        <img src="url-field-good.jpg" alt="image showing a textfield pre-populated with 'http://www.'" /></dt><dd>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+                        <img src="url-field-bad.jpg" alt="Error message 'Cannot save record'">&lt;/dt&gt;<dd>
+                        Figure: Bad example - Using a validation message to tell the user to enter a correct
+                        URL</dd></dl>
+The better way is to have the user avoid the error with a good default.
+<dl class="badImage">&lt;dt&gt;
+                        <img src="url-field-bad2.jpg" alt="image showing blank textfield">&lt;/dt&gt;<dd>
+                        Figure: Bad example - The user has a good chance of entering the URL in the incorrect format</dd></dl><dl class="goodImage">&lt;dt&gt;
+                        <img src="url-field-good.jpg" alt="image showing a textfield pre-populated with 'http://www.'">&lt;/dt&gt;<dd>
                         Figure: Good example - User immediately knows the format expected</dd></dl>
-
-
