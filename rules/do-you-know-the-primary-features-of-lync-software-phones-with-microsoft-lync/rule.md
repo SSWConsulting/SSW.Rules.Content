@@ -12,13 +12,27 @@ related: []
 
 ---
 
+`youtube: https://www.youtube.com/embed/z45_IMwslYw?rel=0`
+ 
 
-​​<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/z45_IMwslYw?rel=0" frameborder="0"></iframe>&#160;</div>
-<p>There are a lot of features of Microsoft Lync. The primary features are&#58;</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li> 
-      <span style="line-height&#58;21px;">Internal calls</span></li><li>Transfer a call</li><li>Conference a call</li></ul><p>Plus even more&#58;</p><ul><li>Receiving your voice mails into your email</li><li>Presence Icon</li><li>IM functionality</li><li>Federation Abilities (so you have more people on your IM)</li>
-   <li>​Meetings</li><li>Remote Desktop</li><li>Whiteboard</li></ul><p>Read more about 
-   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx">​implementing Microsoft Lync</a>.</p>
+There are a lot of features of Microsoft Lync. The primary features are:
+
+<!--endintro-->
+
+* Internal calls
+* Transfer a call
+* Conference a call
 
 
+Plus even more:
+
+* Receiving your voice mails into your email
+* Presence Icon
+* IM functionality
+* Federation Abilities (so you have more people on your IM)
+* Meetings
+* Remote Desktop
+* Whiteboard
+
+
+Read more about     [implementing Microsoft Lync](http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx).
