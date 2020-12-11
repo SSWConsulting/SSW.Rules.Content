@@ -10,11 +10,9 @@ related: []
 
 ---
 
+You should always avoid forcing users to click to another page if possible. Additional information can be shown on hover as a tooltip, or applications allow for inline editing.
 
-<p>You should always avoid forcing users to click to another page if possible. Additional information can be shown on hover as a tooltip, or applications allow for inline editing.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt> 
-      <img src="../../assets/Clickingthrough.jpg" alt="" style="margin:5px;width:650px;" /> 
-   </dt><dd>Figure: Good example - Information is shown on hover, not an additional link</dd></dl>
-
-
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt; 
+      <img src="../../assets/Clickingthrough.jpg" alt="" style="margin:5px;width:650px;"> 
+   &lt;/dt&gt;<dd>Figure: Good example - Information is shown on hover, not an additional link</dd></dl>
