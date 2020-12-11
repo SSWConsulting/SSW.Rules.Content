@@ -10,9 +10,10 @@ related: []
 
 ---
 
+You can still create immediate brand recognition even when it's not applicable to use your full company logo. This can be achieved by taking symbols or motifs out of your main logo and using them in your branding material.
 
-<p>You can still create immediate brand recognition even when it's not applicable to use your full company logo. This can be achieved by taking symbols or motifs out of your main logo and using them in your branding material. </p><p>For example,<span style="line-height:1.6;"> the SSW has 4 little </span>coloured <span style="line-height:1.6;">square as motifs within the logo, and these squares can be used without the rest of the logo text. </span></p><img src="4square.png" alt="4square.png" style="margin:5px;width:200px;" /><br><dd class="ssw15-rteElement-FigureNormal">Figure: SSW logo motif</dd><dd class="ssw15-rteElement-FigureNormal"><br></dd>
-<br><excerpt class='endintro'></excerpt><br>
+For example, the SSW has 4 little coloured square as motifs within the logo, and these squares can be used without the rest of the logo text.
 
-
-
+![SSW logo motif ](4square.png)
+** 
+<!--endintro-->
