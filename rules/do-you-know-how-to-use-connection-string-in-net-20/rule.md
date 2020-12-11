@@ -14,52 +14,42 @@ related: []
 
 ---
 
+In .NET 1.1 we used to store our connection string in a configuration file like this:   
+<!--endintro-->
 
-In .NET 1.1 we used to store our connection string in a configuration file like this: 
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p> </p>
-<dl class="goodCode">
-    <dt style="width:92.01%;height:134px;">
-    <pre><configuration><br>     <appSettings><br>          <add key="ConnectionString" value ="integrated security=true;<br>           data source=(local);initial catalog=Northwind"/><br>     </appSettings><br></configuration></pre>
-    </dt>
-</dl>
-<p>and access this connection string in code like this:</p>
-<dl class="badCode">
-    <dt style="width:92.01%;height:74px;">
+<dl class="goodCode">    <dt style="width:92.01%;height:134px;">
+    <pre><configuration><br>     <appsettings><br>          <add key="ConnectionString" value="integrated security=true;<br>           data source=(local);initial catalog=Northwind"></add><br>     </appsettings><br></configuration></pre>
+    &lt;/dt&gt;
+</dt></dl>
+and access this connection string in code like this:
+<dl class="badCode">    <dt style="width:92.01%;height:74px;">
     <pre>SqlConnection sqlConn = <br>new SqlConnection(System.Configuration.ConfigurationSettings.<br>AppSettings["ConnectionString"]);                        </pre>
-    </dt>
-    <dd>Bad example - old ASP.NET 1.1 way, untyped and prone to error. </dd>
-</dl>
-<p>In .NET 2.0 you can access it in another way</p>
-<p>Step 1: Setup your settings in your common project. E.g. Northwind.Common </p>
-<dl class="image">
-    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Settings in Project Properties" src="ConnStringNET2_Settings.jpg" /> </dt>
-    <dd>Figure: Settings in Project Properties</dd>
-</dl>
-<p>Step 2: Open up the generated App.config under your common project. E.g. Northwind.Common/App.config </p>
-<dl class="image">
-    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Auto generated app.config" src="ConnStringNET2_CommonApp.GIF" /> </dt>
-    <dd>Figure: Auto generated app.config</dd>
-</dl>
-<p>Step 3: <s>Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config</s> The new setting has been updated to app.config automatically in .NET 2.0 </p>
-<dl class="badCode">
-    <dt style="width:92.31%;height:184px;">
-    <pre> <configuration><br>      <connectionStrings><br>         <add name="Common.Properties.Settings.NorthwindConnectionString"<br>              connectionString="Data Source=(local);Initial Catalog=Northwind;<br>              Integrated Security=True"<br>              providerName="System.Data.SqlClient" /><br>        </connectionStrings><br> </configuration>                        </pre>
-    </dt>
-</dl>
-<p>Then you can access the connection string like this in C#</p>
-<dl class="goodCode">
-    <dt style="width:93.36%;height:59px;">
+    &lt;/dt&gt;
+    <dd>Bad example - old ASP.NET 1.1 way, untyped and prone to error. </dd></dl>
+In .NET 2.0 you can access it in another way
+
+Step 1: Setup your settings in your common project. E.g. Northwind.Common
+<dl class="image">    &lt;dt&gt;<img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Settings in Project Properties" src="ConnStringNET2_Settings.jpg"> &lt;/dt&gt;
+    <dd>Figure: Settings in Project Properties</dd></dl>
+Step 2: Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
+<dl class="image">    &lt;dt&gt;<img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Auto generated app.config" src="ConnStringNET2_CommonApp.GIF"> &lt;/dt&gt;
+    <dd>Figure: Auto generated app.config</dd></dl>
+Step 3: ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
+<dl class="badCode">    <dt style="width:92.31%;height:184px;">
+    <pre> <configuration><br>      <connectionstrings><br>         <add name="Common.Properties.Settings.NorthwindConnectionString"></add><br>              connectionString="Data Source=(local);Initial Catalog=Northwind;<br>              Integrated Security=True"<br>              providerName="System.Data.SqlClient" /><br>        </connectionstrings><br> </configuration>                        </pre>
+    &lt;/dt&gt;
+</dt></dl>
+Then you can access the connection string like this in C#
+<dl class="goodCode">    <dt style="width:93.36%;height:59px;">
     <pre>SqlConnection sqlConn =<br> new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);                                </pre>
-    </dt>
-    <dd>Good example - access our connection string by strongly typed generated settings class. </dd>
-</dl>
-<div class="greyBox">
-<p>Please note these steps does not work for web site model in Visual Studio 2005. However, they work for other projects such as Windows Form, Console application, Class Library and Web Application Project. </p>
-<p>This is not an issue in a well designed website, since it's connection string will be defined in the <b>data layer</b> and you can overwrite this connection string in your web.config. </p>
-</div>
+    &lt;/dt&gt;
+    <dd>Good example - access our connection string by strongly typed generated settings class. </dd></dl>
 
+::: greybox
 
+Please note these steps does not work for web site model in Visual Studio 2005. However, they work for other projects such as Windows Form, Console application, Class Library and Web Application Project.
 
+This is not an issue in a well designed website, since it's connection string will be defined in the  **data layer** and you can overwrite this connection string in your web.config.
+
+:::
