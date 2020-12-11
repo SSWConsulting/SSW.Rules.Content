@@ -14,6 +14,5 @@ index:
 - do-you-use-read-more-wordpress-tag-to-show-summary-only-on-a-blog-list
 
 ---
-<p>​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/WordPress.aspx">visit our WordPress consulting page​</a>​&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our WordPress consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/WordPress.aspx) and book in a consultant.
 
