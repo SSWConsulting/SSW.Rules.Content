@@ -38,6 +38,5 @@ index:
 - calendar---does-your-website-make-it-easy-for-your-users-to-add-an-event-to-their-calendar
 
 ---
-<p>​​<br></p>
 
 
