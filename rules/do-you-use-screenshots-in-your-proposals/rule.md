@@ -12,9 +12,7 @@ related: []
 
 ---
 
+A Picture tells a thousand words. Using screen shots can sell your designs and add confidence to your proposals by giving visual examples of similar projects you have done.
 
-<p class="ssw15-rteElement-P">A Picture tells a thousand words. Using screen shots can sell your designs and add confidence to your proposals by giving visual examples of similar projects you have done.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="Proposals_Screeshot.jpg" alt="Proposals_Screeshot.jpg" />​​</dt><dd>Figure: Add a screenshot of a related project​<br></dd></dl>
-
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="Proposals_Screeshot.jpg" alt="Proposals_Screeshot.jpg">&lt;/dt&gt;<dd>Figure: Add a screenshot of a related project<br></dd></dl>
