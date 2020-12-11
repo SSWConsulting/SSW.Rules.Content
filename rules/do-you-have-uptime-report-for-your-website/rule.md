@@ -12,15 +12,13 @@ related: []
 
 ---
 
+Websites should have an uptime report to provide real-time and historical performance and availability information. 
 
-Websites should have an ​uptime report to provide real-time and historical performance and availability information. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Plus, with history information, you can get exact downtime of your website or services in the past.<br></p>
-<dl class="goodImage">
-   <dt>
-      <img src="google-uptime-report.jpg" alt="google-uptime-report.jpg" />
+<!--endintro-->
+
+Plus, with history information, you can get exact downtime of your website or services in the past.
+<dl class="goodImage">   &lt;dt&gt;
+      <img src="google-uptime-report.jpg" alt="google-uptime-report.jpg">
       <br>
-   </dt><dd>Figure: Google's uptime reports - with history information. 
-      <a href="http://www.google.com.br/appsstatus" target="_blank">See it now​</a>​<br></dd></dl>
-
-
+   &lt;/dt&gt;<dd>Figure: Google's uptime reports - with history information. 
+      <a href="http://www.google.com.br/appsstatus" target="_blank">See it now</a><br></dd></dl>
