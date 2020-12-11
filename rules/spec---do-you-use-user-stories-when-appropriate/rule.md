@@ -16,11 +16,9 @@ related: []
 
 ---
 
-
-<p>Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.​<br></p><dl class="image"><dt><p class="ssw15-rteElement-GreyBox">As a <type of User><br>I want <some goal><br>so that <some reason>​​​​<br></p></dt><dd>Figure: User Story - template for description<br></dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img alt="TFS2012UserStory.gif" src="TFS2012UserStory.gif" style="width:593px;" /></dt><dd>Figure: User Story - Product Backlog Item form</dd></dl><dl class="bad"><p class="ssw15-rteElement-GreyBox">I want to be able to search for customers.<br></p><dd>Figure: Bad Example - the user story is too vague and broad in scope</dd></dl><dl class="good"><p class="ssw15-rteElement-GreyBox">As a Marketing Manager...<br>
+Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.
+<dl class="image">&lt;dt&gt;<p class="ssw15-rteElement-GreyBox">As a <type of="" user=""><br>I want <some goal=""><br>so that <some reason=""><br></some></some></type></p>&lt;/dt&gt;<dd>Figure: User Story - template for description<br></dd></dl>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img alt="TFS2012UserStory.gif" src="TFS2012UserStory.gif" style="width:593px;">&lt;/dt&gt;<dd>Figure: User Story - Product Backlog Item form</dd></dl><dl class="bad"><br><br>::: greybox<br>I want to be able to search for customers.<br><br>:::<br><br><dd>Figure: Bad Example - the user story is too vague and broad in scope</dd></dl><dl class="good"><br><br>::: greybox<br>As a Marketing Manager...<br>
    I want to be able to search for customers by country and last name.<br>
-   So that I can find their numbers and call customers close to me. </p><dd>Figure: Good Example - Clear user story following the INVEST principle<br></dd><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P"><b>​​​​Note:</b> In the TFS Scrum template (since we now have a title, description, and acceptance criteria), we no longer generally need to use User Story formatting.​<br></p></dl>
-
-
+   So that I can find their numbers and call customers close to me.<br>:::<br><br><dd>Figure: Good Example - Clear user story following the INVEST principle<br></dd><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P"> <b>Note:</b> In the TFS Scrum template (since we now have a title, description, and acceptance criteria), we no longer generally need to use User Story formatting.<br></p></dl>
