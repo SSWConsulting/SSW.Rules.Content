@@ -12,9 +12,11 @@ related: []
 
 ---
 
+Using Google Photos - The awesome way to find any image.
 
-<p class="ssw15-rteElement-P">Using Google Photos -&#160;The awesome way to find any image.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Please watch the video to know more&#58;​<br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="560" height="315" src="https&#58;//www.youtube.com/embed/p8_siTdeeCg" frameborder="0"></iframe>&#160;</div><p><br><br></p>
+<!--endintro-->
+
+Please watch the video to know more:
 
 
+`youtube: https://www.youtube.com/embed/p8_siTdeeCg`
