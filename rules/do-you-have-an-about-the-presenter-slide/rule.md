@@ -10,21 +10,13 @@ related: []
 
 ---
 
+Always introduce yourself \*after\* you have asked the audience who they are. Don't be shy, tell them:
+
+* Who are you? (optional - include something personal)
+* What you do (your service or product)?
+* What makes you qualified to speak on this topic?
 
 
-  <p>Always introduce yourself *after* you have asked the audience who they are. Don't be shy, tell them:</p>
-<ul>
-    <li>Who are you? (optional - include something personal)</li>
-    <li>What you do (your service or product)?</li>
-    <li>What makes you qualified to speak on this topic?</li>
-</ul>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="aboutAdam.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure: Talk about yourself after you know the audience a little. It is not great to bring up the 'About' slide too early</dd>
-</dl>
-
-
-
+<!--endintro-->
+<dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="aboutAdam.gif" alt=""> &lt;/dt&gt;
+     <strong>Figure: Talk about yourself after you know the audience a little. It is not great to bring up the 'About' slide too early</strong> </dl>
