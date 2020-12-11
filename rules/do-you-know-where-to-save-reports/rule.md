@@ -12,10 +12,14 @@ related: []
 
 ---
 
-
-​<p>You can save report under My Workspace and share it with your team. This is bad because if you leave your company, your report is gone!
-</p><p></p><p>It's better to save reports under Group Workspace and share it with the team.​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> <img src="powerbi-bad.png" alt="powerbi-bad.png" style="width:800px;" /></dt><dd>Figure: Bad example - saving report under My Workspace</dd></dl><dl class="goodImage"><dt><img src="powerbi-good.png" alt="powerbi-good.png" /></dt><dd>Figure: Good example - saving report under Group Workspace</dd></dl><ol><li>Group work space requires all users to have pro license ($10 / month)</li><li>Group work space cannot share report and dashboard via embed link</li><li>Until  Microsoft fixes PowerBI's group sharing, it's better to use My Workspace with a shared account (i.e. <b>powerbi@ssw.com.au </b> )</li></ol>
+You can save report under My Workspace and share it with your team. This is bad because if you leave your company, your report is gone!
 
 
+
+It's better to save reports under Group Workspace and share it with the team.
+
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; <img src="powerbi-bad.png" alt="powerbi-bad.png" style="width:800px;">&lt;/dt&gt;<dd>Figure: Bad example - saving report under My Workspace</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="powerbi-good.png" alt="powerbi-good.png">&lt;/dt&gt;<dd>Figure: Good example - saving report under Group Workspace</dd></dl>
+1. Group work space requires all users to have pro license ($10 / month)
+2. Group work space cannot share report and dashboard via embed link
+3. Until  Microsoft fixes PowerBI's group sharing, it's better to use My Workspace with a shared account (i.e.  **powerbi@ssw.com.au** )
