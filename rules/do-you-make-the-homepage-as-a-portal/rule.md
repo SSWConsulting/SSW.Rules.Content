@@ -10,14 +10,12 @@ related: []
 
 ---
 
+You should put all the useful and current information on the homepage and also make it easy to find your core functions there.
 
-<p>You should put all the useful and current information on the homepage and also make it easy to find your core functions there.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<div>E.g. Top billing customers for the month and a button under it for adding an invoice.<br>E.g. See the number of bugs counted by the most common.</div>
-<dl class="image"><dt><img src="../../assets/HomepagePortal.png" alt="TWA" /></dt>
-<dd>Figure: The homepage of TWA is a portal.</dd></dl>
-<dl class="image"><dt><img src="../../assets/HomepagePortalSoftware.jpg" alt="Adobe Illustrator" /></dt>
+<!--endintro-->
+
+E.g. Top billing customers for the month and a button under it for adding an invoice.
+E.g. See the number of bugs counted by the most common.
+<dl class="image">&lt;dt&gt;<img src="../../assets/HomepagePortal.png" alt="TWA">&lt;/dt&gt;
+<dd>Figure: The homepage of TWA is a portal.</dd></dl><dl class="image">&lt;dt&gt;<img src="../../assets/HomepagePortalSoftware.jpg" alt="Adobe Illustrator">&lt;/dt&gt;
 <dd>Figure: Adobe's Creative Suite also opens a portal 'homepage'.</dd></dl>
-
-
-
