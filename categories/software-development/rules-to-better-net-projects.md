@@ -71,6 +71,21 @@ index:
 - do-you-use-tracefail-or-set-assertuienabledtrue-in-your-webconfig
 
 ---
-<p><span style="line-height&#58;1.6;">Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;​</span></p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx">ASP.NET MVC Web Application Development​</a>&#160;and book in a consultant.</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [ASP.NET MVC Web Application Development](http://www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx) and book in a consultant.
+
+[
+![](../../assets/Testimonials_Heading.gif)](http://www.ssw.com.au/ssw/Testimonials/ViewAll.aspx)
+
+
+| ![](../../assets/Testimonials_LeftQuote.gif) | I've been putting together Development Guidelines for my employer and in the process have reviewed many published standards (in the .Net arena) from around the world. In each category, the suggestions at SSW are always among the best. | 
+![](../../assets/Testimonials_RightQuote.gif) |
+| --- | --- | --- |
+
+
+*- Leon Bambrick,*
+
+
+Do you agree with them all? Are we missing some? [Let us know](javascript:sendEmail%28'6D61696C746F3A696E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F2532304265747465722532302E4E45542050726F6A65637473'%29) what you think.
 
