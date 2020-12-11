@@ -30,18 +30,18 @@ After a new Service Pack is released for a product (for example, Exchange 2010 S
 </div>
 <div>
 <div>
-<div><span><img src="/PublishingImages/holdyourhorses.jpg" /></span><br>
+<div><span><img src="holdyourhorses.jpg" /></span><br>
 </div>
-<div><span class="ms-rtecustom-figurenormal" style="margin-top&#58;3px;margin-right&#58;10px;margin-bottom&#58;10px;margin-left&#58;0px;display&#58;block;font-weight&#58;bold;font-size&#58;12px;padding-top&#58;0px;padding-right&#58;0px;padding-bottom&#58;3px;padding-left&#58;0px;">Figure 1 - Even though managers and users might be pressing you to install a Service Pack - tell them to hold their horses!</span></div>
+<div><span class="ms-rtecustom-figurenormal" style="margin-top:3px;margin-right:10px;margin-bottom:10px;margin-left:0px;display:block;font-weight:bold;font-size:12px;padding-top:0px;padding-right:0px;padding-bottom:3px;padding-left:0px;">Figure 1 - Even though managers and users might be pressing you to install a Service Pack - tell them to hold their horses!</span></div>
 <div>
 <div><br>
 </div>
-<div>After the 4 week period has expired perform the following tasks before installing the Service Pack&#58;</div>
+<div>After the 4 week period has expired perform the following tasks before installing the Service Pack:</div>
 </div>
 </div>
 <div>
 <ul>
-    <li>Do an search for any trending problem when updating to the new Service Pack&#160;</li>
+    <li>Do an search for any trending problem when updating to the new Service Pack </li>
     <li>Check for any known issues in the Microsoft KB with the Service Pack</li>
     <li>Read installation documentation</li>
     <li>Backup your system, or if you are using Hyper-V, take a snapshot</li>
