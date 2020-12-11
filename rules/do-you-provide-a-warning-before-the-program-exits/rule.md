@@ -10,12 +10,11 @@ related: []
 
 ---
 
+A product should not close without providing a warning. We use the following message box to warn the user before closing a program:
 
-<p>​A product should not close without providing a warning. We use the following message box to warn the user before closing a program:</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="goodImage"><dt><img alt="SSW Exchange Reporter - Are you sure you want to exit?" src="../../assets/CloseWarning.gif" /></dt>
-<dd>Figure: Good Example - Standard warning before a program exits</dd></dl>
-<dl class="code"><dt><pre>        private void OnExit(object sender) 
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt;<img alt="SSW Exchange Reporter - Are you sure you want to exit?" src="../../assets/CloseWarning.gif">&lt;/dt&gt;
+<dd>Figure: Good Example - Standard warning before a program exits</dd></dl><dl class="code">&lt;dt&gt;<pre>        private void OnExit(object sender) 
              { 
                 EventHandler handler = ExitRequest; 
                 if (handler!= null ) 
@@ -31,8 +30,5 @@ related: []
                    Application.Exit();
                 } 
              }
-                        </pre></dt></dl>
-<div>We have an example of this in the <a href="http://www.ssw.com.au/ssw/NETToolkit/">SSW .NET Toolkit</a>.</div>
-
-
-
+                        </pre>&lt;/dt&gt;</dl>
+We have an example of this in the [SSW .NET Toolkit](http://www.ssw.com.au/ssw/NETToolkit/).
