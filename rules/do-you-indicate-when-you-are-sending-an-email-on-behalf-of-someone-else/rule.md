@@ -12,10 +12,7 @@ related: []
 
 ---
 
+You shouldn't have to send emails on behalf of other people because people now have email on their phones. However, on the rare occasions that you do have to send an email on behalf of someone else (eg. your boss), ensure that you BCC the person you are sending it on behalf of and add [ ] in the subject field (at the end) so that such emails can be identified.
 
-<p>You shouldn't have to send emails on behalf of other people because people now have email on their phones. However, on the rare occasions that you do have to send an email on behalf of someone else (eg. your boss), ensure that you BCC the person you are sending it on behalf of and add [ ] in the subject field (at the end) so that such emails can be identified.</p>
-                
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="SendingEmailsonBehalfofSomeOneElse.gif" alt="Sending Emails on behalf of someone else" /></dt><dd>Figure: Make it easy to identify when you are sending emails on behalf of someone else</dd></dl>
-
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="SendingEmailsonBehalfofSomeOneElse.gif" alt="Sending Emails on behalf of someone else">&lt;/dt&gt;<dd>Figure: Make it easy to identify when you are sending emails on behalf of someone else</dd></dl>
