@@ -12,6 +12,5 @@ index:
 - do-you-know-what-to-do-with-a-work-around
 
 ---
-<p>​​​Rules for adding comments to code.​<br></p>
-
+Rules for adding comments to code.
 
