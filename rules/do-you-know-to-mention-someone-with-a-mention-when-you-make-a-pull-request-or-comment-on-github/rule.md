@@ -14,11 +14,11 @@ related: []
 
 ---
 
+When you make a pull request or need to communicate the next actions someone needs to take in a GitHub comment, you should use a @mention.
 
-<p>​When you make a pull request or need to communicate the next actions someone needs to take in a GitHub comment, you should use a @mention.<br></p><p>Read more about @mention: <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams">https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams</a><br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​<img src="github-mention-bad.png" alt="github-mention-bad.png" style="width:760px;" /></dt><dd>Figure: Bad example - Not using a @mention when addressing Duncan or Igor​<br></dd></dl><dl class="goodImage"><dt>
-      <img src="github-mention-good.png" alt="github-mention-good.png" style="width:760px;" />
-   </dt><dd>Figure: Good example - Using a @mention</dd></dl>
+Read more about @mention: https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams
 
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="github-mention-bad.png" alt="github-mention-bad.png" style="width:760px;">&lt;/dt&gt;<dd>Figure: Bad example - Not using a @mention when addressing Duncan or Igor<br></dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="github-mention-good.png" alt="github-mention-good.png" style="width:760px;">
+   &lt;/dt&gt;<dd>Figure: Good example - Using a @mention</dd></dl>
