@@ -16,18 +16,15 @@ related: []
 
 ---
 
+When you want to update the Rule Title, please DO NOT update them in the list directly.
+  Click the URL near it, navigate to the Rule Summary page, and edit the Rule Summary Page Title, it will automatically update:
 
-When you want to update the Rule Title, please DO NOT update them in the list directly.<br>
- Click the URL near it, navigate to the Rule Summary page, and edit the Rule Summary Page Title, it will automatically update:<br>
-<ul>
-    <li> Rule Summary Page Title </li>
-    <li>Site Title </li>
-    <li>Item Title in RuleCategoryLookupData List </li>
-</ul>
-
-<br><excerpt class='endintro'></excerpt><br>
-Like this (thanks for Adam's snapshot) :
-<p><img alt="" class="ms-rteCustom-ImageArea" src="SPTitle.jpg" /></p>
+* Rule Summary Page Title
+* Site Title
+* Item Title in RuleCategoryLookupData List
 
 
+<!--endintro-->
+ Like this (thanks for Adam's snapshot) : 
 
+![](SPTitle.jpg)
