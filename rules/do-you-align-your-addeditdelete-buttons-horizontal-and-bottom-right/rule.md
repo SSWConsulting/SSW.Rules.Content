@@ -10,17 +10,13 @@ related: []
 
 ---
 
+Usually there are problems fitting buttons next to datagrids or  listboxes when trying to imply that those buttons add functionality to  the datagrid or listbox.
 
-<p>Usually there are problems fitting buttons next to datagrids or 
-listboxes when trying to imply that those buttons add functionality to 
-the datagrid or listbox.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img alt="SSW Code Auditor - Select Job" src="../../assets/BadButtonAlign.jpg" style="margin:5px;" />
-   </dt><dd>Figure: Bad Example - This form places the Add and Delete buttons in the top right.</dd></dl><dl class="image"><dt>
-      <img alt="SSW Code Auditor - Rules Definition" src="../../assets/BetterButtonAlign.jpg" style="margin:5px;" />
-   </dt><dd>Figure: Buttons aligned vertically, however they cut off useful information in the datagrid (Better)</dd></dl><dl class="goodImage"><dt>
-      <img alt="SSW Code Auditor - Select Files" src="../../assets/GoodButtonAlign.jpg" style="margin:5px;" />
-   </dt><dd>Figure: Good Example - Buttons align horizontally at the bottom right of the grid which provides plenty of room for then needed information</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img alt="SSW Code Auditor - Select Job" src="../../assets/BadButtonAlign.jpg" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Bad Example - This form places the Add and Delete buttons in the top right.</dd></dl><dl class="image">&lt;dt&gt;
+      <img alt="SSW Code Auditor - Rules Definition" src="../../assets/BetterButtonAlign.jpg" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Buttons aligned vertically, however they cut off useful information in the datagrid (Better)</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img alt="SSW Code Auditor - Select Files" src="../../assets/GoodButtonAlign.jpg" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Good Example - Buttons align horizontally at the bottom right of the grid which provides plenty of room for then needed information</dd></dl>
