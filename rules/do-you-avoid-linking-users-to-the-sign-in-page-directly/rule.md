@@ -10,27 +10,13 @@ related: []
 
 ---
 
+When you are adding a hyperlink which links to a web       application that requires a                                          login, do not use the login page (login.asp or login.aspx or       login.php) for the value of the "href" attribute, use the       default page (or other pages) instead.
 
-<p>
-                    When you are adding a hyperlink which links to a web 
-     application that requires a
-                    
-                    login, do not use the login page (login.asp or login.aspx or 
-     login.php) for the value of the "href" attribute, use the 
-     default page (or other pages) instead.
-                </p><p>
-                    Thus, if a user is already logged in, he will go to the 
-     default page. If not, the
-                    
-                    page will redirect him to the login page. But if you use the 
-     sign in page, the user has to sign in again though he's 
-     already logged in.
-                </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img alt="Bad" src="../../assets/BadNoUseLogin.GIF" style="margin:5px;" />
-   </dt><dd>Figure: Bad Example - Linked to the login page.</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Good" src="../../assets/GoodNoUseLogin.GIF" style="margin:5px;" />
-   </dt><dd>Figure: Good Example - Linked to the default page.</dd></dl>
+Thus, if a user is already logged in, he will go to the       default page. If not, the                                          page will redirect him to the login page. But if you use the       sign in page, the user has to sign in again though he's       already logged in.
 
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img alt="Bad" src="../../assets/BadNoUseLogin.GIF" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Bad Example - Linked to the login page.</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img alt="Good" src="../../assets/GoodNoUseLogin.GIF" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Good Example - Linked to the default page.</dd></dl>
