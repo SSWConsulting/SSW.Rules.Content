@@ -14,20 +14,21 @@ related: []
 
 ---
 
+You need     [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx) to track down permissions problems.
 
-<p class="p1">You need 
-   <a href="http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx"> 
-      <span class="s1">process monitor</span></a> to track down permissions problems.</p><p class="p1">E.g. 
-   <strong>Problem</strong></p><p class="p1">To hunt down a problem where say the IIS server couldn’t write to a directory, even after you have given permissions to the app pool account.</p><p class="p1"> 
-   <strong>Solution</strong></p><ol class="ol1"><li class="li1">Install and run 
-      <a href="http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx"> 
-         <span class="s1">process monitor</span></a></li><li class="li1">Apply filter</li><li class="li1">Rejoice</li></ol><dl class="image"><dt>
-      <img src="process-monitor-filter.jpg" alt="" />
-   </dt><dd>Figure: Apply filter to only show "ACCESS DENIED" results</dd></dl>​​
-   <dl class="image"><dt>
-         <img src="event-properties.jpg" alt="" />
-      </dt><dd>Figure: And here we have the offending account</dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
+E.g.      **Problem**
 
+To hunt down a problem where say the IIS server couldn’t write to a directory, even after you have given permissions to the app pool account.
 
+**Solution**
 
+1. Install and run <br>      [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx)
+2. Apply filter
+3. Rejoice
+
+<dl class="image">&lt;dt&gt;
+      <img src="process-monitor-filter.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: Apply filter to only show "ACCESS DENIED" results</dd></dl><dl class="image">&lt;dt&gt;
+         <img src="event-properties.jpg" alt="">
+      &lt;/dt&gt;<dd>Figure: And here we have the offending account</dd></dl>
+<!--endintro-->
