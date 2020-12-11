@@ -18,25 +18,16 @@ related:
 
 ---
 
+When you upsize a table, the Upsizing Wizard tries to "map" Visual Basic for Applications functions in your DefaultValue and ValidationRule properties to an equivalent TSQL function. If this attempt is not successful, the validation rule or default will be skipped by the Upsizing Wizard. Consider the following:   
+<!--endintro-->
 
-When you upsize a table, the Upsizing Wizard tries to &quot;map&quot; Visual Basic for Applications functions in your DefaultValue and ValidationRule properties to an equivalent TSQL function. If this attempt is not successful, the validation rule or default will be skipped by the Upsizing Wizard. Consider the following&#58; 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <ul>
-    <li>If the Upsizing Wizard fails to map a function in a field's ValidationRule property, only the validation rule is skipped, and the rest of the table is upsized. </li>
-    <li>If the Upsizing Wizard fails to map a function in a field's DefaultValue property, the entire table is skipped. </li>
-    <li>Access 2000&#58; Validation rules are not upsized </li>
-</ul>
-<p>
-<table class="clsSSWProductTable" cellspacing="2" summary="Upsizing PRO" cellpadding="2">
-    <tbody>
-        <tr>
-            <td><a href="http&#58;//www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </td>
-        </tr>
-    </tbody>
-</table>
-</p>
+* If the Upsizing Wizard fails to map a function in a field's ValidationRule property, only the validation rule is skipped, and the rest of the table is upsized.
+* If the Upsizing Wizard fails to map a function in a field's DefaultValue property, the entire table is skipped.
+* Access 2000: Validation rules are not upsized
 
 
 
+
+
+| [Upsizing PRO](http&#58;//www.ssw.com.au/ssw/UpsizingPRO) will check this rule  |
+| --- |
