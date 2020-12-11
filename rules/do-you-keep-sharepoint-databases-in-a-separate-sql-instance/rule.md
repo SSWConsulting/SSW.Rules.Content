@@ -14,9 +14,7 @@ related: []
 
 ---
 
+Because SharePoint server will create quite a few databases, it’s easier to manage them in a separate SQL instance rather than mixing it with other system’s databases:
 
-<p>Because SharePoint server will create quite a few databases, it’s easier to manage them in a separate SQL instance rather than mixing it with other system’s databases:<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​​<img src="sharepoint-database-bad.png" alt="sharepoint-database-bad.png" /></dt><dd>Bad example - mixed with other systems' database</dd></dl><dl class="goodImage"><dt>​​​<img src="sharepoint-database-good.png" alt="sharepoint-database-good.png" /></dt><dd>Good example - SharePoint related databases are in a separate SQL instance from other systems' databases​<br></dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="sharepoint-database-bad.png" alt="sharepoint-database-bad.png">&lt;/dt&gt;<dd>Bad example - mixed with other systems' database</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="sharepoint-database-good.png" alt="sharepoint-database-good.png">&lt;/dt&gt;<dd>Good example - SharePoint related databases are in a separate SQL instance from other systems' databases<br></dd></dl>
