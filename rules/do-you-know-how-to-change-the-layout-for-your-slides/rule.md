@@ -10,15 +10,7 @@ related: []
 
 ---
 
-
-Different layouts have different purposes. While the default layout is nice; it's not the only option available. But remember to keep all things in moderation. You want the audience to focus on the content, not guessing what layout the next slide will use.
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="layout.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure: Don't use the same layout for all slides, instead choose the right 'layout' for the each slide (this is called the layout library) </dd>
-</dl>
-
-
-
+Different layouts have different purposes. While the default layout is nice; it's not the only option available. But remember to keep all things in moderation. You want the audience to focus on the content, not guessing what layout the next slide will use.  
+<!--endintro-->
+<dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="layout.gif" alt=""> &lt;/dt&gt;
+     <strong>Figure: Don't use the same layout for all slides, instead choose the right 'layout' for the each slide (this is called the layout library)</strong> </dl>
