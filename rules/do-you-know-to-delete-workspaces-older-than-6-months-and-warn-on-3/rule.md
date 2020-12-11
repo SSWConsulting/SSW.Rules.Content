@@ -27,17 +27,17 @@ related: []
 <li>Developers reinstall their workstation </li>
 <li>Developers get new workstations </li>
 <li>Developers leave </li></ul>
-<ul>Developer checklist&#58; <li>Check workspaces often to see what you don't need </li>
+<ul>Developer checklist: <li>Check workspaces often to see what you don't need </li>
 <li>Delete any workspaces you no longer need </li></ul>
-<ul>TFS Master Checklist&#58; <li>Delete all workspaces that have not been edited in 6 months </li>
+<ul>TFS Master Checklist: <li>Delete all workspaces that have not been edited in 6 months </li>
 <li>Warn developers for workspaces that have not been accessed in 3 months </li></ul>
-<dl><dt><img alt="Longtime Workspaces" src="/PublishingImages/LongtimeWorkspaces.jpg" /></dt>
-<dd>Figure&#58; Bad example - Rebecca has a workspace that has not been accessed in a while </dd></dl>
-<dl><dt><img alt="Current Workspaces" src="/PublishingImages/CurrentWorkspaces.jpg" /></dt>
-<dd>Figure&#58; Good example - All of Julian's workspaces are current </dd></dl>
-<ol><li>Open VS 2010, File | Source Control | WorkSpaces, click the &quot;Show remote workspaces&quot;&#58; <dl><dt><img alt="Manage Workspaces " src="/PublishingImages/ManageWorkspaces.jpg" /></dt>
-<dd>Figure&#58; Manage Workspaces </dd></dl></li>
-<li>Keep press &quot;Ctrl&quot;, select the workspaces which haven't been used for a long time. </li>
-<li>Click &quot;Remove&quot; button.</li></ol>
+<dl><dt><img alt="Longtime Workspaces" src="LongtimeWorkspaces.jpg" /></dt>
+<dd>Figure: Bad example - Rebecca has a workspace that has not been accessed in a while </dd></dl>
+<dl><dt><img alt="Current Workspaces" src="CurrentWorkspaces.jpg" /></dt>
+<dd>Figure: Good example - All of Julian's workspaces are current </dd></dl>
+<ol><li>Open VS 2010, File | Source Control | WorkSpaces, click the "Show remote workspaces": <dl><dt><img alt="Manage Workspaces " src="ManageWorkspaces.jpg" /></dt>
+<dd>Figure: Manage Workspaces </dd></dl></li>
+<li>Keep press "Ctrl", select the workspaces which haven't been used for a long time. </li>
+<li>Click "Remove" button.</li></ol>
 
 
