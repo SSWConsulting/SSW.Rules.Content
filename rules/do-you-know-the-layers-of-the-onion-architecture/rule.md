@@ -16,14 +16,63 @@ related: []
 
 ---
 
+<dl class="image">&lt;dt&gt;<a target="_blank" href="/Documents/Onion-Architecture.pdf"><img alt="Onion Architecture" src="Onion-Architecture.jpg"></a>&lt;/dt&gt;<dd>Figure: The layers of the onion architecture</dd></dl>
+<!--endintro-->
 
-<dl class="image"><dt>​​​<a target="_blank" href="/Documents/Onion-Architecture.pdf"><img alt="Onion Architecture" src="Onion-Architecture.jpg" /></a></dt><dd>Figure: The layers of the onion architecture</dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-<h3>Application Core (the grey stuff)</h3><p>This should be the big meaty part of the application where the domain logic resides.</p><h3>Domain Model</h3><p>In the very centre we see the Domain Model, which represents the state and behaviour combination that models truth for the organization and is only coupled to itself.</p><h3>Repository Interfaces</h3><p>The first layer around the Domain Model is typically where we find interfaces that provide object saving and retrieving behaviour. <br>The object saving behaviour is not in the application core, however, because it typically involves a database.  Only the interface is in the application core.  The actual implementation is a dependency which is injected.</p><h3>Business Logic Interfaces</h3><p>Business logic is also exposed via interfaces to provide decoupling of business logic. <br>Examples of where this is useful include substituting a FacebookNotificationService for an EmailNotificationService or a FedExShippingCalculator for a DHLShippingCalculator</p><h3>Clients (the red stuff)</h3><p>The outer layer is reserved for things that change often.  E.g. UI and the other applications that consume the Application Core. <br>This includes the MVC project.<br>Any interface dependencies in factories, services, repositories, etc, are injected into the domain by the controller.<br>This means any constructor-injected interfaces in domain classes are resolved automatically by the IoC container.</p><h3>Dependencies</h3><p>Dependencies are implementations of interfaces defined in Repository and Business Logic Interfaces and Domain.<br>These classes are specific implementations and can be coupled to a particular method of data access, or specific service technology.<br>e.g. this is where the EF DbContext is implemented, as well as things like logging, email sending, etc.<br>These dependencies are injected into the application core. <br>Because the Application core only relies on abstractions of the dependencies, it is easy to update them.<br>The Onion Architecture relies heavily on the <a href="http://en.wikipedia.org/wiki/Dependency_inversion_principle">Dependency Inversion </a> <span></span><span></span><span></span><span>principle</span>and other <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=21a9d999-80cd-4e39-a5f5-c511522ffcb2">SOLID principles</a>.</p><h4>References:</h4><ul><li>
-      <a href="http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/">http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/</a></li><li>
-      <a href="http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371">http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371#9933371</a></li></ul><h3 class="ssw15-rteElement-H3">Use SSW Data Onion to Generate your Code<br></h3><p>To help make this process pain free, we've developed the <a href="http://www.sswdataonion.com/">SSW Data Onion </a> to get you going and take away the boilerplate code you would normally need to write. Check out this cool video to see how it works:<br></p><p>​</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="853" height="480" src="https://www.youtube.com/embed/FcuFya8vud8?rel=0&controls=0&showinfo=0" frameborder="0"></iframe> </div><p><br></p><div> 
-   <span style="line-height:21px;"> <br></span></div><p> 
-   <strong>Further Reading:</strong><a href="/Pages/Use-a-Dependency-Injection-Centric-Architecture.aspx">Do You Use a Dependency Injection Centric Architecture?</a> </p><p> 
-​</p>
+### Application Core (the grey stuff)
+
+This should be the big meaty part of the application where the domain logic resides.
+
+### Domain Model
+
+In the very centre we see the Domain Model, which represents the state and behaviour combination that models truth for the organization and is only coupled to itself.
+
+### Repository Interfaces
+
+The first layer around the Domain Model is typically where we find interfaces that provide object saving and retrieving behaviour. 
+The object saving behaviour is not in the application core, however, because it typically involves a database.  Only the interface is in the application core.  The actual implementation is a dependency which is injected.
+
+### Business Logic Interfaces
+
+Business logic is also exposed via interfaces to provide decoupling of business logic. 
+Examples of where this is useful include substituting a FacebookNotificationService for an EmailNotificationService or a FedExShippingCalculator for a DHLShippingCalculator
+
+### Clients (the red stuff)
+
+The outer layer is reserved for things that change often.  E.g. UI and the other applications that consume the Application Core. 
+This includes the MVC project.
+Any interface dependencies in factories, services, repositories, etc, are injected into the domain by the controller.
+This means any constructor-injected interfaces in domain classes are resolved automatically by the IoC container.
+
+### Dependencies
+
+Dependencies are implementations of interfaces defined in Repository and Business Logic Interfaces and Domain.
+These classes are specific implementations and can be coupled to a particular method of data access, or specific service technology.
+e.g. this is where the EF DbContext is implemented, as well as things like logging, email sending, etc.
+These dependencies are injected into the application core. 
+Because the Application core only relies on abstractions of the dependencies, it is easy to update them.
+The Onion Architecture relies heavily on the [Dependency Inversion](http://en.wikipedia.org/wiki/Dependency_inversion_principle) principleand other [SOLID principles](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=21a9d999-80cd-4e39-a5f5-c511522ffcb2).
+
+#### References:
+
+* http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/
+* [http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371#9933371](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
 
 
+### Use SSW Data Onion to Generate your Code
+
+
+To help make this process pain free, we've developed the [SSW Data Onion](http://www.sswdataonion.com/) to get you going and take away the boilerplate code you would normally need to write. Check out this cool video to see how it works:
+
+
+
+
+`youtube: https://www.youtube.com/embed/FcuFya8vud8?rel=0&controls=0&showinfo=0`
+ 
+
+
+
+ 
+
+
+**Further Reading:** [Do You Use a Dependency Injection Centric Architecture?](/Pages/Use-a-Dependency-Injection-Centric-Architecture.aspx)
