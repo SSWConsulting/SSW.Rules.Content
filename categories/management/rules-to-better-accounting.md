@@ -23,6 +23,5 @@ index:
 - do-you-use-xero-to-schedule-supplier-payments
 
 ---
-<p>​​​​​​​<br></p>
 Rules to Better Accounting
 
