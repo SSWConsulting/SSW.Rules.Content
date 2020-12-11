@@ -27,6 +27,5 @@ index:
 - do-you-use-text-rather-than-images-where-appropriate
 
 ---
-<p>​​​​</p>
 
 
