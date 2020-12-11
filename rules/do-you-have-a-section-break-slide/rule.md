@@ -11,14 +11,14 @@ related: []
 ---
 
 
-<p>You should have a good cover slide for each section of your presentation. They are called &quot;section break&quot; slides and are meant to visually divide the content structure. These slides should be
+<p>You should have a good cover slide for each section of your presentation. They are called "section break" slides and are meant to visually divide the content structure. These slides should be
                     consistent so they do not confuse the audience.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/CoverSlide.jpg" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; Good example – This is very clear that we are up to part 2 of the presentation </dd>
+    <dt><img class="ms-rteCustom-ImageArea" src="CoverSlide.jpg" alt="" /> </dt>
+    <dd class="ms-rteCustom-FigureGood">Figure: Good example – This is very clear that we are up to part 2 of the presentation </dd>
 </dl>
 
 
