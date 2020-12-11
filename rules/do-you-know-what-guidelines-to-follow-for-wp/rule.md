@@ -10,9 +10,6 @@ related: []
 
 ---
 
+Microsoft has extensive documentation regarding the use of WP design guidelines: [http://msdn.microsoft.com/en-us/library/windowsphone/design/hh202915(v=vs.92).aspx](http&#58;//msdn.microsoft.com/en-us/library/windowsphone/design/hh202915%28v=vs.92%29.aspx)
 
-<p>Microsoft has extensive documentation regarding the use of WP design guidelines&#58; <a href="http&#58;//msdn.microsoft.com/en-us/library/windowsphone/design/hh202915%28v=vs.92%29.aspx">http&#58;//msdn.microsoft.com/en-us/library/windowsphone/design/hh202915(v=vs.92).aspx</a> ​</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
