@@ -12,9 +12,11 @@ related: []
 
 ---
 
+You can use Visual Studio's Web Compiler extension to create a bundle.css and test if CSS was compiled successfully. 
 
-You can use Visual Studio's Web Compiler extension to create a bundle.css and test if CSS was compiled successfully. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>More information and download at <a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler">Visual Studio Marketplace</a>.</p><dl class="goodImage"><dt> <img src="web-compiler-find-error.png" alt="web-compiler-find-error.png" /> </dt><dd>Figure: Web Compiler can find missing curly braces</dd></dl> Unfortunately different kinds of errors, like are not caught. <dl class="badImage"><dt> <img src="web-compiler-didnt-find-error.png" alt="web-compiler-didnt-find-error.png" /> </dt><dd>Figure: Curly braces in the wrong place, but still compiled successfully <br></dd></dl><p>In addition, Gulp is wrongly successful too: <br></p><dl class="badImage"><dt><img src="gulp-didnt-find-error.png" alt="gulp-didnt-find-error.png" /> </dt><dd>Figure: Gulp couldn't find the curly braces error​<br></dd></dl>
+<!--endintro-->
 
-
+More information and download at [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebCompiler).
+<dl class="goodImage">&lt;dt&gt; <img src="web-compiler-find-error.png" alt="web-compiler-find-error.png"> &lt;/dt&gt;<dd>Figure: Web Compiler can find missing curly braces</dd></dl> Unfortunately different kinds of errors, like are not caught. <dl class="badImage">&lt;dt&gt; <img src="web-compiler-didnt-find-error.png" alt="web-compiler-didnt-find-error.png"> &lt;/dt&gt;<dd>Figure: Curly braces in the wrong place, but still compiled successfully <br></dd></dl>
+In addition, Gulp is wrongly successful too:
+<dl class="badImage">&lt;dt&gt;<img src="gulp-didnt-find-error.png" alt="gulp-didnt-find-error.png"> &lt;/dt&gt;<dd>Figure: Gulp couldn't find the curly braces error<br></dd></dl>
