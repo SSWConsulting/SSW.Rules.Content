@@ -14,18 +14,11 @@ related: []
 
 ---
 
+Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen:   
+<!--endintro-->
 
-Ideally all phone conversations and meetings should be confirmed afterwards so you have a record of the decisions and action points. Meetings and phone calls should have adequate preparation so they are efficiently run. The reality is, after the meeting or phone call, we get busy on the next call. So this is the workflow that should happen&#58; 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <ol>
-    <li>Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal </li>
-    <li>Draft an email with bullet points for each issue (don't send) </li>
-    <li>Call up the client (or have a meeting) </li>
-    <li>Modify during conversation </li>
-    <li>Send the email to the client (cc relevant people e.g. the developer) saying &quot;<a shape="rect" href="/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx" id="PerConversation">As per our conversation...</a>&quot; </li>
-</ol>
-
-
-
+1. Prior to speaking to a client, speak to relevant people to help you formulate your recommendations e.g. speak to a developer about the proposal
+2. Draft an email with bullet points for each issue (don't send)
+3. Call up the client (or have a meeting)
+4. Modify during conversation
+5. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx)"
