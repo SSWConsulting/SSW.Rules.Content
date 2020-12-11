@@ -14,12 +14,8 @@ related: []
 
 ---
 
+In almost every application we have a user settings file to store the state of the application. We want to be able to reset the settings if anything goes wrong.
 
+See how we configured this reset default settings functionality with the Configuration Block in the [.NET Toolkit](http&#58;//www.ssw.com.au/ssw/NetToolKit/06ConfigurationBlock.aspx)
 
-  <p>In almost every application we have a user settings file to store the state of the application. We want to be able to reset the settings if anything goes wrong.</p>
-<p class="productBox">See how we configured this reset default settings functionality with the Configuration Block in the <a href="http&#58;//www.ssw.com.au/ssw/NetToolKit/06ConfigurationBlock.aspx">.NET Toolkit</a> </p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
