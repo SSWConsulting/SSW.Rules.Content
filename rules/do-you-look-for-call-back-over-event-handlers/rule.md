@@ -12,10 +12,8 @@ related: []
 
 ---
 
+[bad code]
 
-<p class="MsoListParagraph"><span lang="EN-AU">[bad code]</span></p>
-<p class="MsoListParagraph"><span lang="EN-AU">[good code]</span></p>
-<br><excerpt class='endintro'></excerpt><br>
+[good code]
 
-
-
+<!--endintro-->
