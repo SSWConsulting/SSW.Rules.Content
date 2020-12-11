@@ -2,7 +2,8 @@
 type: top-category
 title: Software
 uri: software
-index: []
+index:
+- rules-to-better-zendesk
 
 ---
 
