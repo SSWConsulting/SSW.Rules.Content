@@ -18,42 +18,52 @@ related: []
 
 ---
 
+SSW uses and recommends Microsoft Team Foundation Server (TFS) as a source code solution.   
+<!--endintro-->
 
-SSW uses and recommends Microsoft Team Foundation Server (TFS) as a source code solution. 
+![](TFSTeam.jpg) <font class="ms-rteCustom-FigureNormal">Figure: Microsoft Visual Studio Team System </font>
+Here are some of the reasons why:
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <img class="ms-rteCustom-ImageArea" src="TFSTeam.jpg" alt="" /> <font class="ms-rteCustom-FigureNormal" size="+0">Figure: Microsoft Visual Studio Team System </font>
-<p>Here are some of the reasons why: </p>
-<ul>
-    <li>Checkin policies </li>
-    <li>Integrated Work Items and Source control </li>
-    <li>Visual Studio IDE integration </li>
-    <li>Code Metrics </li>
-    <li>HTTP access via webservices </li>
-    <li>Integrated Build Server </li>
-</ul>
-<font class="ms-rteCustom-GreyBox" size="+0">Reasons companies choose Visual SourceSafe (VSS) <br>
-- No server required<br>
-- No VPN required <br>
-- They are ignorant about the potential corruption problems </font><font class="ms-rteCustom-FigureBad" size="+0">Figure: Bad Example, Visual SourceSafe (VSS) is a bad choice </font>
-<p><font class="ms-rteCustom-GreyBox" size="+0">Reasons companies choose Subversion (SVN) <br>
--It's free <br>
--It's easy to use <br>
--No Build integration <br>
--No Work Item integration</font> <br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure: Better example, Subversion (SVN) is an OK choice <br>
-</font><font class="ms-rteCustom-GreyBox" size="+0">Reasons companies choose Team Foundation Server (TFS)<br>
- -It's free (With MSDN)<br>
- -It's easy to use <br>
--It's easy to install <br>
--High fidelity SQL data store <br>
--No VPN required<br>
--Does not require a server (basic configuration) <br>
--Has Build integration <br>
--Has Work Item integration <br>
--Has Test suite integration <br>
--Has reporting out of the box </font><font class="ms-rteCustom-FigureGood" size="+0">Figure: Better example, Subversion (SVN) is an OK choice </font></p>
+* Checkin policies
+* Integrated Work Items and Source control
+* Visual Studio IDE integration
+* Code Metrics
+* HTTP access via webservices
+* Integrated Build Server
 
 
 
+::: greybox
+Reasons companies choose Visual SourceSafe (VSS) 
+ - No server required
+ - No VPN required 
+ - They are ignorant about the potential corruption problems
+:::
+
+<font class="ms-rteCustom-FigureBad">Figure: Bad Example, Visual SourceSafe (VSS) is a bad choice </font>
+::: greybox
+Reasons companies choose Subversion (SVN) 
+ -It's free 
+ -It's easy to use 
+ -No Build integration 
+ -No Work Item integration
+:::
+
+ 
+<font class="ms-rteCustom-FigureNormal">Figure: Better example, Subversion (SVN) is an OK choice <br></font>
+
+::: greybox
+Reasons companies choose Team Foundation Server (TFS)
+  -It's free (With MSDN)
+  -It's easy to use 
+ -It's easy to install 
+ -High fidelity SQL data store 
+ -No VPN required
+ -Does not require a server (basic configuration) 
+ -Has Build integration 
+ -Has Work Item integration 
+ -Has Test suite integration 
+ -Has reporting out of the box
+:::
+
+<font class="ms-rteCustom-FigureGood">Figure: Better example, Subversion (SVN) is an OK choice </font>
