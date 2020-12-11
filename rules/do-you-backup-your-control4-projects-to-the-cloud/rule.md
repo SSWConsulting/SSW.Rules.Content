@@ -12,9 +12,11 @@ related: []
 
 ---
 
+If your project gets corrupted or if the changes you made caused unexpected issues, do you have a backup of your Control4 project to rollback to?
 
-<p>​​​If your project gets corrupted or if the changes you made caused unexpected issues, do you have a backup of your Control4 project to rollback to?​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>You should configure Control4 to automatically backup your changes to the cloud.  You configure this in composer under Agents | Backup.</p><p><img src="control4-backup.jpg" alt="control4-backup.jpg" style="margin:5px;width:808px;" /><br><strong>Figure: Configure backups in Composer under Agents | Backup</strong><br></p>
+<!--endintro-->
+
+You should configure Control4 to automatically backup your changes to the cloud.  You configure this in composer under Agents | Backup.
 
 
+![Configure backups in Composer under Agents | Backup](control4-backup.jpg)
