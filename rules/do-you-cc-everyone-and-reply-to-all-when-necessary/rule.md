@@ -16,7 +16,7 @@ related: []
 
 
 
-  <p>When emailing external parties, it is a good idea to CC the other colleagues within your organization that may have an interest in the email. Some of the benefits of CC'ing others are&#58;<br></p>
+  <p>When emailing external parties, it is a good idea to CC the other colleagues within your organization that may have an interest in the email. Some of the benefits of CC'ing others are:<br></p>
 <ul>
     <li>It can save time</li>
     <li>Gives the email more credibility if you have CC'd others in your organization</li>
@@ -24,9 +24,9 @@ related: []
 </ul>
 
 <br><excerpt class='endintro'></excerpt><br>
-<p>In addition, I often see people replying only to the sender of the email, ignoring the fact that there were other persons included in the original email. Obviously the original sender intended to keep everyone in the loop, so it would be polite to CC everyone included on the original communication. The converse is true also - don't cc people unnecessarily - you're just adding to the email problem!</p><dl class="goodImage"><dt><img src="/PublishingImages/good-emails-reply-to-all.jpg" alt="good-emails-reply-to-all.jpg" /></dt><dd>Figure&#58;&#160;Good Example - Reply All so that everyone is kept in the loop</dd></dl><p>If the original email was to an alias with many subscribers, in general you should not Reply All. 
+<p>In addition, I often see people replying only to the sender of the email, ignoring the fact that there were other persons included in the original email. Obviously the original sender intended to keep everyone in the loop, so it would be polite to CC everyone included on the original communication. The converse is true also - don't cc people unnecessarily - you're just adding to the email problem!</p><dl class="goodImage"><dt><img src="good-emails-reply-to-all.jpg" alt="good-emails-reply-to-all.jpg" /></dt><dd>Figure: Good Example - Reply All so that everyone is kept in the loop</dd></dl><p>If the original email was to an alias with many subscribers, in general you should not Reply All. 
    <br>Also, if the sender requests a 
-   <a href="http&#58;//www.ssw.com.au/ssw/Redirect/Netlingo.htm">'little r'</a> reply, then you should not 'Reply All'.​<br></p><h3>Exception</h3><ul><li>If not all recipients need to be informed</li><li>The opinions of the rest of the recipients do not matter as they are unlikely to disagree</li></ul><p>
-   <strong>VIDEO</strong>&#160;-&#160;<a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a> ​<br></p>
+   <a href="http://www.ssw.com.au/ssw/Redirect/Netlingo.htm">'little r'</a> reply, then you should not 'Reply All'.​<br></p><h3>Exception</h3><ul><li>If not all recipients need to be informed</li><li>The opinions of the rest of the recipients do not matter as they are unlikely to disagree</li></ul><p>
+   <strong>VIDEO</strong> - <a href="https://www.youtube.com/watch?v=LAqRokqq4jI">Top 10+ Rules to Better Email Communication with Ulysses Maclaren</a> ​<br></p>
 
 
