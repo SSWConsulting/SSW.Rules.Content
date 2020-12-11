@@ -12,14 +12,13 @@ related: []
 
 ---
 
+During an interview, looking at a talking head (the subject) can become monotonous. As such it is a good idea to ‘cutaway’ to the topic/product that the speaker is referring to. Not only does it make it more interesting, it improves the understandability of the video for your audience.
 
-<p>During an interview, looking at a talking head (the subject) can become monotonous. As such it is a good idea to ‘cutaway’ to the topic/product that the speaker is referring to. Not only does it make it more interesting, it improves the understandability of the video for your audience.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>As an example, if you are interviewing someone and the topic of unit testing comes up, mid-sentence you can cut to a shot of the unit testing UI.</p> 
-<img class="ms-rteCustom-ImageArea" alt="Cutaways Bad example" src="cutaways-bad-example.jpg" /> 
-<span class="ms-rteCustom-FigureBad">Figure: Bad example – Looking at a talking head for 30 mins is boring</span> 
-<img class="ms-rteCustom-ImageArea" alt="Cutaways  Bad example" src="cutaways-good-example.jpg" /> 
-<span class="ms-rteCustom-FigureGood">Figure: Good example – cutting away to what is being discussed improves the audiences understanding - See 2:08 on 
-   <a href="http://youtu.be/cxKe6NDicBE?t=2m5s" target="_blank">this video example</a></span>
+<!--endintro-->
 
+As an example, if you are interviewing someone and the topic of unit testing comes up, mid-sentence you can cut to a shot of the unit testing UI.
 
+[[badExample]]
+| ![Looking at a talking head for 30 mins is boring](cutaways-bad-example.jpg)
+[[goodExample]]
+| ![cutting away to what is being discussed improves the audiences understanding - See 2:08 on <br>](cutaways-good-example.jpg)[this video example](http://youtu.be/cxKe6NDicBE?t=2m5s)
