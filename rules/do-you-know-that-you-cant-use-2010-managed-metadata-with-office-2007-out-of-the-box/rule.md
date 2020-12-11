@@ -14,21 +14,31 @@ related: []
 
 ---
 
+SharePoint 2010 and Office 2010 ships with a fantastic document management feature "Managed Metadata Service". This new service provides first class support for enterprise taxonomy within a standard SharePoint 2010 environment. 
 
-SharePoint 2010 and Office 2010 ships with a fantastic document management feature "Managed Metadata Service". This new service provides first class support for enterprise taxonomy within a standard SharePoint 2010 environment. <br>
-<br>
-Unfortunately, Office 2007 and Office 2003 can't work with managed metadata fields out of the box. <br>
+ Unfortunately, Office 2007 and Office 2003 can't work with managed metadata fields out of the box. 
 
-<br><excerpt class='endintro'></excerpt><br>
-<ol>Office 2010: 
-   <li>Works fine </li></ol><ol>Office 2007: 
-   <li>Document information can't display managed metadata </li><li>You can still save documents to SharePoint </li><li>But you can't check-in (if metadata fields are required) </li><li>User needs to perform a web check-in </li></ol><ol>Office 2003: 
-   <li>Can't create new or Open documents with managed metadata </li><li>Install Office 2007 document support upgrade, this bring the experience a bit better similar to Office 2007. </li></ol> <span style="color:black;"><br> 
-      <br> </span><p>Best Solution:<br> 
-   <br> Use a 3rd party solution - the best one being OnePlaceMail which provides a UI for managed metadata via the "Save to SharePoint". Works with all three versions of Office so users get a consistent UI. 
-   <br> 
-   <br> 
-   <img class="ms-rteCustom-ImageArea" src="OnePlaceMail.jpg" alt="" /></p> 
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure: The optional save dialog that pops up when saving document to SharePoint - allowing use of Managed Metadata from Office 2003, 2007 and File Explorer</font>
+<!--endintro-->
+
+Office 2010:1. Works fine
 
 
+Office 2007:1. Document information can't display managed metadata
+2. You can still save documents to SharePoint
+3. But you can't check-in (if metadata fields are required)
+4. User needs to perform a web check-in
+
+
+Office 2003:1. Can't create new or Open documents with managed metadata
+2. Install Office 2007 document support upgrade, this bring the experience a bit better similar to Office 2007.
+
+ 
+
+ 
+Best Solution:
+
+ Use a 3rd party solution - the best one being OnePlaceMail which provides a UI for managed metadata via the "Save to SharePoint". Works with all three versions of Office so users get a consistent UI.     
+
+
+![](OnePlaceMail.jpg)
+<font class="ms-rteCustom-FigureNormal">Figure: The optional save dialog that pops up when saving document to SharePoint - allowing use of Managed Metadata from Office 2003, 2007 and File Explorer</font>
