@@ -12,19 +12,27 @@ related: []
 
 ---
 
+Any opportunity that has not yet been converted to a sale will be at one of the following 6 stages:
 
-<p>Any opportunity that has not yet been converted to a sale will be at one of the following 6 stages:</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Initial Phone Call 
-      <ul><li>The client has made contact but no initial meeting has yet been made</li></ul></li><li>Initial Meeting – Booked 
-      <ul><li>You've arranged an initial meeting and it's booked in​</li></ul></li><li>Follow Up Meeting – Booked 
-      <ul><li>In some cases, more than one initial meeting may be required before work or speccing commences</li></ul></li><li>Spec Review Proposal – Waiting for Approval 
-      <ul><li>After the initial meeting, if the work requires it, a specification review is proposed</li></ul></li><li>Spec Review – Booked 
-      <ul><li>The speccing phase has been approved and booked in</li></ul></li><li>Project Proposal – Waiting for Approval 
-      <ul><li>After the spec review, the client has been given a proposal for a chunk of work. Once this is approved, the opportunity is closed as won</li></ul></li></ol><p>The old <span style="line-height:20.799999237060547px;">Sales Pip</span><span style="line-height:20.799999237060547px;">e</span><span style="line-height:20.799999237060547px;">line</span> was 9 steps, whereas this new one is 6 steps.</p><dl class="badImage"><dt>
-      <img alt="the old sales pipeline" src="old-sales-pipeline.jpg" />
-   </dt><dd>Figure: Bad Example – the old sales pipeline</dd></dl><dl class="goodImage"><dt>
-      <img alt="the new sales pipeline" src="new-sales-pipeline.jpg" />
-   </dt><dd>Figure: Good Example – the new sales pipeline​</dd></dl>
+<!--endintro-->
+
+1. Initial Phone Call
+    * The client has made contact but no initial meeting has yet been made
+2. Initial Meeting – Booked
+    * You've arranged an initial meeting and it's booked in
+3. Follow Up Meeting – Booked
+    * In some cases, more than one initial meeting may be required before work or speccing commences
+4. Spec Review Proposal – Waiting for Approval
+    * After the initial meeting, if the work requires it, a specification review is proposed
+5. Spec Review – Booked
+    * The speccing phase has been approved and booked in
+6. Project Proposal – Waiting for Approval
+    * After the spec review, the client has been given a proposal for a chunk of work. Once this is approved, the opportunity is closed as won
 
 
+The old Sales Pipeline was 9 steps, whereas this new one is 6 steps.
+<dl class="badImage">&lt;dt&gt;
+      <img alt="the old sales pipeline" src="old-sales-pipeline.jpg">
+   &lt;/dt&gt;<dd>Figure: Bad Example – the old sales pipeline</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img alt="the new sales pipeline" src="new-sales-pipeline.jpg">
+   &lt;/dt&gt;<dd>Figure: Good Example – the new sales pipeline</dd></dl>
