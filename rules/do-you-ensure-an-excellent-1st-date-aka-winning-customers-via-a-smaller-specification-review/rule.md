@@ -14,23 +14,21 @@ related: []
 
 ---
 
+So you had a good initial meeting (like a 1st coffee with a new girl), and you have agreed to have a Specification Review (aka first date).
 
-<p>So you had a good initial meeting (like a 1st coffee with a new girl), and you have agreed to have a Specification Review (aka first date).​</p><p>For the majority of new clients, a <a href="/spec-do-you-conduct-a-specification-review-(ask-for-a-coffee-not-a-marriage)">Specification Review</a> (also known as a Spec Review) will be your 1st paid engagement with them, <span style="line-height:20.799999237060547px;">and gives the client a <a href="/Pages/Aim-for-an-advancement-rather-than-a-continuance.aspx">smaller first commitment</a>​.</span> This is to work out the requirements and put together a broad time and cost estimate.</p><p>It is a simple 4 step process:</p>
-<br><excerpt class='endintro'></excerpt><br>
+For the majority of new clients, a [Specification Review](/spec-do-you-conduct-a-specification-review-%28ask-for-a-coffee-not-a-marriage%29) (also known as a Spec Review) will be your 1st paid engagement with them, and gives the client a [smaller first commitment](/Pages/Aim-for-an-advancement-rather-than-a-continuance.aspx). This is to work out the requirements and put together a broad time and cost estimate.
 
-<ol><li>​Once you have decided that this is a project you want to work on, you have to convince the client to book in a Spec Review <ul><li>This is a 1-5 day exercise for 1-2 people. The general rule is 1 man day per expected 2 week sprint.</li>
-<li>This process is timeboxed, and so appears to the client as a fixed price.</li></ul></li>
-<li>Make sure you get <a href="http://www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx">Terms and C​onditions</a> signed before you start work on this.</li>
-<li><a href="/rules">Specification Review</a> - You will create a backlog of tasks, and some form of document (word or ppt) to present to the client explaining your proposed approach.
-<dl class="image">
-<dt><img src="ms-ppt-word-logos.jpg" alt="" /></dt>
-</dl>
-</li>
-<li>Present the Spec Review results to the client (in a meeting with all stakeholders) on site if possible, or over the phone if not, but never just by email.</li></ol>
-<dl class="goodImage"><dt><img alt="Project Portal" src="ProductBacklog.jpg" style="width:600px;" /> </dt>
-<dd>Figure: Good Example - The backlog is constructed during the Spec Review</dd></dl>
-<dl class="goodImage"><dt><img alt="CRM Opportunity" src="CRMOpportunitySalesStage.jpg" style="width:600px;" /> </dt>
+It is a simple 4 step process:
+
+<!--endintro-->
+
+1. Once you have decided that this is a project you want to work on, you have to convince the client to book in a Spec Review
+    * This is a 1-5 day exercise for 1-2 people. The general rule is 1 man day per expected 2 week sprint.
+    * This process is timeboxed, and so appears to the client as a fixed price.
+2. Make sure you get [Terms and Conditions](http://www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx) signed before you start work on this.
+3. [Specification Review](/rules) - You will create a backlog of tasks, and some form of document (word or ppt) to present to the client explaining your proposed approach.<br><dl class="image">&lt;dt&gt;<img src="ms-ppt-word-logos.jpg" alt="">&lt;/dt&gt;</dl>
+4. Present the Spec Review results to the client (in a meeting with all stakeholders) on site if possible, or over the phone if not, but never just by email.
+
+<dl class="goodImage">&lt;dt&gt;<img alt="Project Portal" src="ProductBacklog.jpg" style="width:600px;"> &lt;/dt&gt;
+<dd>Figure: Good Example - The backlog is constructed during the Spec Review</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="CRM Opportunity" src="CRMOpportunitySalesStage.jpg" style="width:600px;"> &lt;/dt&gt;
 <dd>Figure: Good Example - CRM Record showing the <a href="/Pages/The-6-stages-in-the-Sales-Pipeline.aspx">sales stage</a> of the Opportunity after the Spec Review has been booked</dd></dl>
-
-
-
