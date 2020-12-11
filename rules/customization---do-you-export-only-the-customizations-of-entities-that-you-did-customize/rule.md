@@ -12,32 +12,21 @@ related: []
 
 ---
 
+Export each single entity customization and keep each entity customization in a           separate file, like:
 
-<p>
-          Export each single entity customization and keep each entity customization in a
-          separate file, like:
-        </p>
-        <ul>
-          <li>Account_11022009.xml </li>
-          <li>Contact_11022009.xml </li>
-        </ul>
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-          This way, if an entity is changed or broken on the Live environment, you can re-import
-          the customization for this entity again, without breaking other entities on live
-          environment.
-        </p>
-        <p>
-          Instead of exporting each single entity, you can also export only your customized
-          entities in 1 step, and afterwards select what entities to import
-        </p>
-        <dl class="image">
-          <dt>
-            <img src="CRM_CUS_01.JPG" alt="Import single customization" />
-          </dt>
+* Account\_11022009.xml
+* Contact\_11022009.xml
+
+
+<!--endintro-->
+
+This way, if an entity is changed or broken on the Live environment, you can re-import           the customization for this entity again, without breaking other entities on live           environment.
+
+Instead of exporting each single entity, you can also export only your customized           entities in 1 step, and afterwards select what entities to import
+<dl class="image">          &lt;dt&gt;
+            <img src="CRM_CUS_01.JPG" alt="Import single customization">
+          &lt;/dt&gt;
           <dd>
             Figure: You can select the single customization to import
           </dd>
         </dl>
-
-
