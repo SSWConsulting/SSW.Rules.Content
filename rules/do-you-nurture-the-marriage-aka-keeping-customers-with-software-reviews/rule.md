@@ -20,23 +20,23 @@ related: []
 <p>Left to their own devices, most developers will slowly make more and more unmaintainable code, that is only comprehendable by themselves.
                 This isn't a big problem for them as they are in it every day and know how it all fits together, but if they're not coding to a set of industry 
                 standards, you'll find this code very hard for anyone else to maintain.</p>
-                <dl class="badImage"><dt><img alt="Unmaintainable software" src="/PublishingImages/BadCode.png" /></dt>
-                <dd>Figure&#58; Bad Example - Would you want to maintain this code?</dd>
+                <dl class="badImage"><dt><img alt="Unmaintainable software" src="BadCode.png" /></dt>
+                <dd>Figure: Bad Example - Would you want to maintain this code?</dd>
                 </dl>
                 <p>This can be fixed by having regular software audits with a Solution Architect to keep the developers accountable.</p>
                 <p>Each month, the Account Managers call all their current clients that have had a substantial amount of work done and offer 
                     them a <a href="/do-you-conduct-an-architecture-review-after-every-sprint">Software Review</a>.</p>
                 <p>This makes more maintainable software with better architecture using industry standards.</p>
                 <br>
-                <p><strong>More information&#58; The process&#58;</strong></p>
+                <p><strong>More information: The process:</strong></p>
                 <ol>
                     <li>In the pre-sales, you should have already explained the concept of Software Reviews.</li>
                     <li>Look at a report to show your main current clients (best seen by who was invoiced in the past month)
                         <ul>
-                            <li>Tip&#58; This is also a good thing to have up on the wall as a reminder of who your main customers are at the moment.</li>
+                            <li>Tip: This is also a good thing to have up on the wall as a reminder of who your main customers are at the moment.</li>
                         </ul>
-                        <dl class="image"><dt><img alt="Top Clients" src="/PublishingImages/TotalInvoicedReport.jpg" style="width&#58;600px;" /></dt>
-                        <dd>Figure&#58; A sample report to see your top clients</dd>
+                        <dl class="image"><dt><img alt="Top Clients" src="TotalInvoicedReport.jpg" style="width:600px;" /></dt>
+                        <dd>Figure: A sample report to see your top clients</dd>
                         </dl>
                     </li>
 
