@@ -12,9 +12,7 @@ related: []
 
 ---
 
+Cut down the noise in your inbox by visually filtering emails not sent directly to you.
 
-<p>​Cut down the noise in your inbox by visually filtering emails not sent directly to you.<br></p> 
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt><img alt="make cc grey" src="MakeCCGrey.jpg" style="width:590px;" /> </dt><dd>Figure: Good Example - Cut down the noise in your inbox by visually filtering emails not sent directly to you</dd></dl>
-
-
+<!--endintro-->
+<dl class="goodImage">&lt;dt&gt;<img alt="make cc grey" src="MakeCCGrey.jpg" style="width:590px;"> &lt;/dt&gt;<dd>Figure: Good Example - Cut down the noise in your inbox by visually filtering emails not sent directly to you</dd></dl>
