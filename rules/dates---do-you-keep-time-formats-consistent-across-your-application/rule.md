@@ -15,9 +15,9 @@ related: []
                     application a very professional and consistent look.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt> 
-      <img alt="Bad Example" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/BadExampleTP.gif" style="margin&#58;5px;width&#58;550px;" />
-   </dt><dd> Figure&#58; Bad Example - Three screens with inconsistent time formats</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Good Example" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/GoodExampleTP.gif" style="margin&#58;5px;" />
-   </dt><dd> Figure&#58; Good Example - Three screens with consistent formats</dd></dl>
+      <img alt="Bad Example" src="../../assets/BadExampleTP.gif" style="margin:5px;width:550px;" />
+   </dt><dd> Figure: Bad Example - Three screens with inconsistent time formats</dd></dl><dl class="goodImage"><dt> 
+      <img alt="Good Example" src="../../assets/GoodExampleTP.gif" style="margin:5px;" />
+   </dt><dd> Figure: Good Example - Three screens with consistent formats</dd></dl>
 
 
