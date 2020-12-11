@@ -12,11 +12,9 @@ related: []
 
 ---
 
+[w3dt.net](https&#58;//w3dt.net//) supplies a DNS report tool which can help administrator to troubleshoot DNS issues with domains, name servers, SOA, and other information.                     We need to get all green ticks except for:
 
-<p>
-                    <a href="https&#58;//w3dt.net//" target="_blank">w3dt.net</a> supplies a DNS report tool which can help administrator to troubleshoot DNS issues with domains, name servers, SOA, and other information.
-                    We need to get all green ticks except for&#58;</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Missing (stealth) nameservers</li><li>Missing nameservers 2</li></ul>​
+<!--endintro-->
 
-
+* Missing (stealth) nameservers
+* Missing nameservers 2
