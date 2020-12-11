@@ -19,6 +19,6 @@ data.</p>
 
 
 <br><excerpt class='endintro'></excerpt><br>
-<p>​<img alt="" style="margin&#58;5px;width&#58;650px;" /><img src="/PublishingImages/UsabilityTesting.jpg" alt="" style="margin&#58;5px;width&#58;650px;" /></p>
+<p>​<img alt="" style="margin:5px;width:650px;" /><img src="UsabilityTesting.jpg" alt="" style="margin:5px;width:650px;" /></p>
 
 
