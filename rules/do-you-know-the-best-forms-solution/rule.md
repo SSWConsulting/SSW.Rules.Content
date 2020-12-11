@@ -12,11 +12,7 @@ related: []
 
 ---
 
+You should use PowerApps for your forms.
 
-You should use PowerApps for your forms.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​​<img src="nintex.jpg" alt="nintex.jpg" /></dt><dd>Figure: Bad example - Using Nintext</dd></dl><dl class="badImage"><dt><img src="infopath.jpg" alt="infopath.jpg" /></dt><dd>Figure: Bad example - Using Infopath</dd></dl><dl class="goodImage"><dt><img src="powerapps.jpg" alt="powerapps.jpg" /></dt><dd>Figure: Good example - Using PowerApps</dd></dl>
-​​
-
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="nintex.jpg" alt="nintex.jpg">&lt;/dt&gt;<dd>Figure: Bad example - Using Nintext</dd></dl><dl class="badImage">&lt;dt&gt;<img src="infopath.jpg" alt="infopath.jpg">&lt;/dt&gt;<dd>Figure: Bad example - Using Infopath</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="powerapps.jpg" alt="powerapps.jpg">&lt;/dt&gt;<dd>Figure: Good example - Using PowerApps</dd></dl>
