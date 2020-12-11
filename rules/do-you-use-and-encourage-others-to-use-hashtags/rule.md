@@ -34,17 +34,33 @@ related:
 
 ---
 
+Hashtags identify the keyword or topic of interest that the post is about. They allow searching for similar posts on the topic. They were popularized on twitter and now work on Facebook, Pinterest, and Google+. On twitter, it is possible to "track" (aka Subscribe to) a tag.  
 
-Hashtags identify the keyword or topic of interest that the post is about. They allow searching for similar posts on the topic. They were popularized on twitter and now work on Facebook, Pinterest, and Google+. On twitter, it is possible to "track" (aka Subscribe to) a tag.  <br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic. See our rule <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6a8d0728-51f6-4f74-8f07-2e08fd0702f7">Do you know when to use a hashtag vs. a @mention?​</a> to see how to best leverage them in combination. ​<br></p><dl class="image"><dt></dt></dl><h3>Tips for companies<br></h3><p>
-   <strong style="line-height:1.6;">Tip #1: </strong> <span style="line-height:1.6;">Encourage people to use the correct hashtag by adding the hashtag to your sidebar or footer.</span></p><dl class="image"><dt> <img src="hashtag-stream.jpg" alt="hashtag-stream.jpg" style="width:650px;" /></dt><dd>Figure: On <a href="https://www.ssw.com.au/ssw/netug"> www.ssw.com.au/ssw/netug</a> you can see the sidebar shows a feed with the hashtag used</dd></dl><p>
-   <strong>Tip #2: </strong>When creating your own hashtag to promote a service, product or event, check if it isn't already in use for anything else.<br></p><h3>Tips for everyone<br></h3><p>
-   <strong>Tip #3: </strong> Don't use too many hashtags – 2 or 3 maximum per post, or you may appear to be "spammy" and turn people off.<br></p><p>
-   <strong>Tip #4: </strong> Keep your hashtags on topic – again, you might seem "spammy" if you use hashtags that are unrelated to your post.​<br></p><p><strong>Tip #5</strong>: For more readability, capitalise the first letter of each word, for example, #SocialMedia.<br></p><h3 class="ssw15-rteElement-H3">Examples of hashtags we use<br></h3><ul><li>​​<b>#SSW</b> - For our company-related posts<br></li><li>
-      <b>#SSWRules</b> - For our public standards<br></li><li>
-      <b>#SSWTV</b> - For our video channel <br></li><li>
-      <b>#SSWTraining </b>- For our training programs<br></li><li>
-      <b>#AngularHackDay </b>- For one of our "Hack Day" training events <br></li></ul>
+<!--endintro-->
+
+The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic. See our rule [Do you know when to use a hashtag vs. a @mention?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6a8d0728-51f6-4f74-8f07-2e08fd0702f7) to see how to best leverage them in combination.
+<dl class="image">&lt;dt&gt;&lt;/dt&gt;</dl>
+### Tips for companies
 
 
+**Tip #1:** Encourage people to use the correct hashtag by adding the hashtag to your sidebar or footer.
+<dl class="image">&lt;dt&gt; <img src="hashtag-stream.jpg" alt="hashtag-stream.jpg" style="width:650px;">&lt;/dt&gt;<dd>Figure: On <a href="https://www.ssw.com.au/ssw/netug"> www.ssw.com.au/ssw/netug</a> you can see the sidebar shows a feed with the hashtag used</dd></dl>
+**Tip #2:** When creating your own hashtag to promote a service, product or event, check if it isn't already in use for anything else.
+
+### Tips for everyone
+
+
+**Tip #3:** Don't use too many hashtags – 2 or 3 maximum per post, or you may appear to be "spammy" and turn people off.
+
+**Tip #4:** Keep your hashtags on topic – again, you might seem "spammy" if you use hashtags that are unrelated to your post.
+
+**Tip #5** : For more readability, capitalise the first letter of each word, for example, #SocialMedia.
+
+### Examples of hashtags we use
+
+
+* **#SSW** - For our company-related posts
+* **#SSWRules** - For our public standards
+* **#SSWTV** - For our video channel
+* **#SSWTraining** - For our training programs
+* **#AngularHackDay** - For one of our "Hack Day" training events
