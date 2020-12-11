@@ -14,19 +14,13 @@ related: []
 
 ---
 
-
-Assembly names should reflect the the functionality that it provides. For example,
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl class="goodCode">
-    <dt>
+Assembly names should reflect the the functionality that it provides. For example,  
+<!--endintro-->
+<dl class="goodCode">    &lt;dt&gt;
     <pre>System.IO</pre>
-    </dt>
-</dl>
-<p>contains all the classes that deal with inputs and outputs. As a general rule of thumb your assemblies should be named as follows&#58; </p>
-<p>&lt;CompanyName&gt;.&lt;ComponentName&gt; (e.g. SSW.Framework) </p>
-<p>This allows a developer to know who developed the assembly and give the developer a general idea of what the assembly can be used for.</p>
+    &lt;/dt&gt;</dl>
+contains all the classes that deal with inputs and outputs. As a general rule of thumb your assemblies should be named as follows:
 
+&lt;CompanyName&gt;.&lt;ComponentName&gt; (e.g. SSW.Framework)
 
-
+This allows a developer to know who developed the assembly and give the developer a general idea of what the assembly can be used for.
