@@ -18,21 +18,24 @@ related: []
 
 ---
 
+Check-in policies are a great tool to enforce quality code before it hits your source control repository. SSW recommends that the following check-in policies be enabled by default on your project:
 
-<p>Check-in policies are a great tool to enforce quality code before it hits your source control repository. SSW recommends that the following check-in policies be enabled by default on your project: <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Changeset Comments Policy - To enforce that all check-in contain comments </li>
-<li>SSW Code Auditor - To enforce coding standards and best practices before check-in </li>
-<li>Testing Policy - To enforce that unit tests should all pass before code can be checked-in<br></li>
-<li>Code Analysis Policy – To enforce that code analysis rules are not broken</li>
-<li>​Builds Policy – To enforce that the developer has built the project end to end before they check-in </li></ol>
-<p><b>More Information</b></p>
-<p>To enable these policies: </p>
-<ol><li>Right click the <strong>Team Project in Team Explorer > Team Project Settings > Source Control</strong></li>
-<li>Select the check-in policies above </li>
-<li>Click <strong>OK</strong></li></ol>
-<dl><dt><img alt="Chose check in policy" src="SC_TFSCI.jpg" /></dt>
+<!--endintro-->
+
+1. Changeset Comments Policy - To enforce that all check-in contain comments
+2. SSW Code Auditor - To enforce coding standards and best practices before check-in
+3. Testing Policy - To enforce that unit tests should all pass before code can be checked-in
+4. Code Analysis Policy – To enforce that code analysis rules are not broken
+5. Builds Policy – To enforce that the developer has built the project end to end before they check-in
+
+
+**More Information**
+
+To enable these policies:
+
+1. Right click the  **Team Project in Team Explorer > Team Project Settings > Source Control**
+2. Select the check-in policies above
+3. Click  **OK**
+
+<dl>&lt;dt&gt;<img alt="Chose check in policy" src="SC_TFSCI.jpg">&lt;/dt&gt;
 <dd>Figure: Chose check-in policies in TFS </dd></dl>
-
-
-
