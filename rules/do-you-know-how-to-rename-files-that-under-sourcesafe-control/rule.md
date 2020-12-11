@@ -14,29 +14,21 @@ related: []
 
 ---
 
+Whenever we rename a file in Visual Studio .NET, the file becomes a new file in SourceSafe. If the file has been checked-out, the status of old file will remain as checked-out in SourceSafe.
 
+The step by step to rename a file that under SourceSafe control:
 
-  <p>Whenever we rename a file in Visual Studio .NET, the file becomes a new file in SourceSafe. If the file has been checked-out, the status of old file will remain as checked-out in SourceSafe.</p>
-<p>The step by step to rename a file that under SourceSafe control: </p>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <ol>
-    <li>Save and close the file in Visual Studio .NET, and check in the file if it is checked-out. </li>
-    <li>Open Visual SourceSafe Explorer and rename the file. </li>
-    <li>Rename it in Visual Studio .NET, click "Continue with change" to the 2 pop-up messages:<br>
-    <dl class="image">
-        <dt><img alt="" style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" src="RenameVSS1_small.jpg" /> </dt>
+1. Save and close the file in Visual Studio .NET, and check in the file if it is checked-out.
+2. Open Visual SourceSafe Explorer and rename the file.
+3. Rename it in Visual Studio .NET, click "Continue with change" to the 2 pop-up messages:
+<dl class="image">        &lt;dt&gt;<img alt="" style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" src="RenameVSS1_small.jpg"> &lt;/dt&gt;
         <dd>Figure: Warning message of renaming files under source control.</dd>
-    </dl>
-    <dl class="image">
-        <dt><img alt="" style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" src="RenameVSS2_small.jpg" /> </dt>
+    </dl><dl class="image">        &lt;dt&gt;<img alt="" style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" src="RenameVSS2_small.jpg"> &lt;/dt&gt;
         <dd>Figure: You are seeing this as the new file name already exists in SourceSafe, just click "Continue with change".</dd>
     </dl>
-    </li>
-</ol>
-<p> </p>
-Visual Studio .NET should find the file under source control and it will come up with a lock icon
 
 
 
+ Visual Studio .NET should find the file under source control and it will come up with a lock icon
