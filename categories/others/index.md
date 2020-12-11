@@ -2,7 +2,11 @@
 type: top-category
 title: Others
 uri: others
-index: []
+index:
+- rules-to-better-cars
+- rules-to-better-health-and-exercise-in-the-workplace
+- rules-to-better-flights
+- rules-to-better-offices
 
 ---
 
