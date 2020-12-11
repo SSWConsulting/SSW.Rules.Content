@@ -20,11 +20,11 @@ related: []
 
 ---
 
+Every Workspace that exists on the server is another set of code that TFS has to check for checkouts. Worse you may have files checked out in that workspace that you will never see. 
+<!--endintro-->
 
-​Every Workspace that exists on the server is another set of code that TFS has to check for checkouts. Worse you may have files checked out in that workspace that you will never see.
-<br><excerpt class='endintro'></excerpt><br>
-<p><img alt="The current workspace status " src="WorkspaceStatus.jpg" /> </p>
+
+![](WorkspaceStatus.jpg)
 <dl><dd>Figure: John has not accessed many of these workspaces in years! Are they still current? </dd></dl>
-<p>Use the Workspace Sidekick in <a href="http://www.attrice.info/cm/tfs/index.htm">Team Foundation Sidekicks</a> <img title="You are now leaving SSW" src="../../assets/external.gif" alt="" /> at the end of every month to make sure you have not forgotten anything.</p>
-
-
+Use the Workspace Sidekick in [Team Foundation Sidekicks](http://www.attrice.info/cm/tfs/index.htm) 
+ at the end of every month to make sure you have not forgotten anything.
