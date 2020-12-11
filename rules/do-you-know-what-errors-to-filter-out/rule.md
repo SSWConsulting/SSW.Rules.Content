@@ -12,9 +12,20 @@ related: []
 
 ---
 
+You should always keep on top of your RayGun crashreporting and not let the errors spiral out of control. If use RayGun with a web application, then you’ll frequently get a lot of errors with robots scanning the site and creating 404s.  
 
-You should always keep on top of your RayGun crashreporting and not let the errors spiral out of control. If use RayGun with a web application, then you’ll frequently get a lot of errors with robots scanning the site and creating 404s.  <br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> <img src="raygun-fileter-bad.png" alt="raygun-fileter-bad.png" /> </dt><dd>Figure: Bad Example – Most of these errors are 404s cause by automated tools scanning for vulnerabilities</dd>  </dl><p>Luckily RayGun has built-in filtering to hide these frequent exceptions.</p><dl class="image"><dt> <img src="raygun-filter.png" alt="raygun-filter.png" /> </dt></dl><p>To enable filtering:</p><ol><li>Under <b>Crash Reporting</b> > select <b>Filtering</b><br></li><li>SSW recommends you turn on the following rules<ol style="list-style:lower-alpha;"><li>Discard any requesters where the user-agent is a known crawler bot</li><li>Discard any request for non-existent resources (404)</li><li>Discard any requests related to phpMyAdmin access attempts</li></ol></li></ol><p>Now you should have a nice clean crash report page with actual errors.</p><dl class="goodImage"><dt> <img src="raygun-filter-good.jpg" alt="raygun-filter-good.jpg" /> </dt><dd>Figure: Good example – Now that the noise is gone, we can see the actual errors</dd></dl> <br>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; <img src="raygun-fileter-bad.png" alt="raygun-fileter-bad.png"> &lt;/dt&gt;<dd>Figure: Bad Example – Most of these errors are 404s cause by automated tools scanning for vulnerabilities</dd>  </dl>
+Luckily RayGun has built-in filtering to hide these frequent exceptions.
+<dl class="image">&lt;dt&gt; <img src="raygun-filter.png" alt="raygun-filter.png"> &lt;/dt&gt;</dl>
+To enable filtering:
+
+1. Under  **Crash Reporting** > select  **Filtering**
+2. SSW recommends you turn on the following rules
+    1. Discard any requesters where the user-agent is a known crawler bot
+    2. Discard any request for non-existent resources (404)
+    3. Discard any requests related to phpMyAdmin access attempts
 
 
+Now you should have a nice clean crash report page with actual errors.
+<dl class="goodImage">&lt;dt&gt; <img src="raygun-filter-good.jpg" alt="raygun-filter-good.jpg"> &lt;/dt&gt;<dd>Figure: Good example – Now that the noise is gone, we can see the actual errors</dd></dl>
