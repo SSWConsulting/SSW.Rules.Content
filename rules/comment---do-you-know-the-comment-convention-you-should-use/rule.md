@@ -18,12 +18,11 @@ related: []
 
 ---
 
+New, Bug or Refactor should be the prefix.
 
-<p>New, Bug or Refactor should be the prefix. </p>
-<ul>Here are some examples&#58; <li>New P112&#58; Added a new control for DateOfBirth </li>
-<li>Bug P113&#58; Fixed validation to now allow US dates </li>
-<li>Refactor&#58; Moved the email regex from inline to a resource file </li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-
+Here are some examples:* New P112: Added a new control for DateOfBirth
+* Bug P113: Fixed validation to now allow US dates
+* Refactor: Moved the email regex from inline to a resource file
 
 
+<!--endintro-->
