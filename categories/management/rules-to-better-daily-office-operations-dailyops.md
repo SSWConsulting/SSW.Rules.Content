@@ -17,6 +17,6 @@ index:
 - do-you-ensure-your-team-get-relevant-communications
 
 ---
-<p>​​​DevOps is about keeping software healthy by releasing often and inspecting stats each day from the live system.<br>DailyOps or ConsultingOps is about managers keeping a consulting company of engineers working well every day.&#160;<br></p>
-
+DevOps is about keeping software healthy by releasing often and inspecting stats each day from the live system.
+DailyOps or ConsultingOps is about managers keeping a consulting company of engineers working well every day.
 
