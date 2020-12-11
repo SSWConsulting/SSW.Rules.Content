@@ -10,16 +10,15 @@ related: []
 
 ---
 
+Don't log in and make manual changes to the clustered nodes.
 
-<p>Don't log in and make manual changes to the clustered nodes.</p>
-<p>When working with clustered environments it is important that settings be consistent across every node. The best way to handle this is through group policy.
-</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Create a policy that you would like applied to each node of the cluster using the <strong>Group Policy Management</strong>.</p>
-<img src="group-policy-bad.jpg" alt="Group policy bad" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureBad">Figure: Bad Example - Do not manually change settings on each node</span>
+When working with clustered environments it is important that settings be consistent across every node. The best way to handle this is through group policy.
 
-<img src="group-policy-good.jpg" alt="Group policy good" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureGood">Figure: Good Example - Changing settings through Group Policy keeps node settings the same</span>
+<!--endintro-->
 
+Create a policy that you would like applied to each node of the cluster using the  **Group Policy Management** .
 
+[[badExample]]
+| ![Do not manually change settings on each node](group-policy-bad.jpg)
+[[goodExample]]
+| ![Changing settings through Group Policy keeps node settings the same](group-policy-good.jpg)
