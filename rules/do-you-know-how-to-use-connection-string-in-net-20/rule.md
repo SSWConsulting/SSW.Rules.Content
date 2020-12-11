@@ -15,43 +15,43 @@ related: []
 ---
 
 
-In .NET 1.1 we used to store our connection string in a configuration file like this&#58; 
+In .NET 1.1 we used to store our connection string in a configuration file like this: 
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <p>&#160;</p>
+  <p> </p>
 <dl class="goodCode">
-    <dt style="width&#58;92.01%;height&#58;134px;">
-    <pre>&lt;configuration&gt;<br>     &lt;appSettings&gt;<br>          &lt;add key=&quot;ConnectionString&quot; value =&quot;integrated security=true;<br>           data source=(local);initial catalog=Northwind&quot;/&gt;<br>     &lt;/appSettings&gt;<br>&lt;/configuration&gt;</pre>
+    <dt style="width:92.01%;height:134px;">
+    <pre><configuration><br>     <appSettings><br>          <add key="ConnectionString" value ="integrated security=true;<br>           data source=(local);initial catalog=Northwind"/><br>     </appSettings><br></configuration></pre>
     </dt>
 </dl>
-<p>and access this connection string in code like this&#58;</p>
+<p>and access this connection string in code like this:</p>
 <dl class="badCode">
-    <dt style="width&#58;92.01%;height&#58;74px;">
-    <pre>SqlConnection sqlConn = <br>new SqlConnection(System.Configuration.ConfigurationSettings.<br>AppSettings[&quot;ConnectionString&quot;]);                        </pre>
+    <dt style="width:92.01%;height:74px;">
+    <pre>SqlConnection sqlConn = <br>new SqlConnection(System.Configuration.ConfigurationSettings.<br>AppSettings["ConnectionString"]);                        </pre>
     </dt>
     <dd>Bad example - old ASP.NET 1.1 way, untyped and prone to error. </dd>
 </dl>
 <p>In .NET 2.0 you can access it in another way</p>
-<p>Step 1&#58; Setup your settings in your common project. E.g. Northwind.Common </p>
+<p>Step 1: Setup your settings in your common project. E.g. Northwind.Common </p>
 <dl class="image">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Settings in Project Properties" src="/PublishingImages/ConnStringNET2_Settings.jpg" /> </dt>
-    <dd>Figure&#58; Settings in Project Properties</dd>
+    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Settings in Project Properties" src="ConnStringNET2_Settings.jpg" /> </dt>
+    <dd>Figure: Settings in Project Properties</dd>
 </dl>
-<p>Step 2&#58; Open up the generated App.config under your common project. E.g. Northwind.Common/App.config </p>
+<p>Step 2: Open up the generated App.config under your common project. E.g. Northwind.Common/App.config </p>
 <dl class="image">
-    <dt><img style="border-bottom&#58;0px solid;border-left&#58;0px solid;border-top&#58;0px solid;border-right&#58;0px solid;" border="0" alt="Auto generated app.config" src="/PublishingImages/ConnStringNET2_CommonApp.GIF" /> </dt>
-    <dd>Figure&#58; Auto generated app.config</dd>
+    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Auto generated app.config" src="ConnStringNET2_CommonApp.GIF" /> </dt>
+    <dd>Figure: Auto generated app.config</dd>
 </dl>
-<p>Step 3&#58; <s>Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config</s> The new setting has been updated to app.config automatically in .NET 2.0 </p>
+<p>Step 3: <s>Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config</s> The new setting has been updated to app.config automatically in .NET 2.0 </p>
 <dl class="badCode">
-    <dt style="width&#58;92.31%;height&#58;184px;">
-    <pre> &lt;configuration&gt;<br>      &lt;connectionStrings&gt;<br>         &lt;add name=&quot;Common.Properties.Settings.NorthwindConnectionString&quot;<br>              connectionString=&quot;Data Source=(local);Initial Catalog=Northwind;<br>              Integrated Security=True&quot;<br>              providerName=&quot;System.Data.SqlClient&quot; /&gt;<br>        &lt;/connectionStrings&gt;<br> &lt;/configuration&gt;                        </pre>
+    <dt style="width:92.31%;height:184px;">
+    <pre> <configuration><br>      <connectionStrings><br>         <add name="Common.Properties.Settings.NorthwindConnectionString"<br>              connectionString="Data Source=(local);Initial Catalog=Northwind;<br>              Integrated Security=True"<br>              providerName="System.Data.SqlClient" /><br>        </connectionStrings><br> </configuration>                        </pre>
     </dt>
 </dl>
 <p>Then you can access the connection string like this in C#</p>
 <dl class="goodCode">
-    <dt style="width&#58;93.36%;height&#58;59px;">
+    <dt style="width:93.36%;height:59px;">
     <pre>SqlConnection sqlConn =<br> new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);                                </pre>
     </dt>
     <dd>Good example - access our connection string by strongly typed generated settings class. </dd>
