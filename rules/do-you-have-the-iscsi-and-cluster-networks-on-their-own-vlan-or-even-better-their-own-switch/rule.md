@@ -10,12 +10,8 @@ related: []
 
 ---
 
+Having the network flooded with a virus is bad news – but it will be worse news if iSCSI traffic is going across the same network. This is why you should have your iSCSI or SAN traffic on a different VLAN.  
+<!--endintro-->
 
-Having the network flooded with a virus is bad news – but it will be worse news if iSCSI traffic is going across the same network. This is why you should have your iSCSI or SAN traffic on a different VLAN. 
-<br><excerpt class='endintro'></excerpt><br>
-<img src="switch-for-vlan.jpg" alt="VLAN" class="ms-rteCustom-ImageArea" />
-<span class="ms-rteCustom-FigureNormal">Figure: A managed switch allows VLANing</span>
-<p>Note: An even better and more expensive solution is purchase a separate Switch for each network (this example means 3 network adapters = 3 networks)</p>
-
-
-
+![A managed switch allows VLANing](switch-for-vlan.jpg)
+Note: An even better and more expensive solution is purchase a separate Switch for each network (this example means 3 network adapters = 3 networks)
