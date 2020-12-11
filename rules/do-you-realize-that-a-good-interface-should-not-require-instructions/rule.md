@@ -10,19 +10,43 @@ related: []
 
 ---
 
+The corner stone of good user interface design is that if your users need instructions, you haven't done a good job. Of course with particularly complex applications there will be exceptions to this rule, but all developers should aim to make your interface as self-evident as possible.
 
-<p>The corner stone of good user interface design is that if your users need instructions, you haven't done a good job. Of course with particularly complex applications there will be exceptions to this rule, but all developers should aim to make your interface as self-evident as possible.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>There are no surprises</li><li>There is no need to use help</li><li>No excuse for RTFM (read the freaking manual)</li></ul><dl class="image"><dt>
-      <img border="1" src="../../assets/SelfEvident.gif" alt="" />
-   </dt><dd>Figure: A good interface does not need instructions!</dd></dl><div>A good UI is:</div><ul><li>Intuitive</li><li>Feels fast e.g. no white screen, threading code</li><li>Consistent</li><li>Minimal popups</li><li>No clutter - not busy </li><li>Good error handling</li><li>Easy to customize + apps (aka a platform)</li><li>Gamification e.g. badges</li></ul><div><strong><br></strong></div><div>
-   <strong>Suggested reading:</strong><br>
-   <ul><li><a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654" target="_blank">The Design of Everyday Things: Revised and Expanded Edition (Nov 2013)</a></li><li><a href="https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515" target="_blank">Don’t Make Me Think, Revisited (3rd Edition)</a></li></ul></div><div>
-   <br>
-</div><dl class="goodImage"><dt>
-      <img alt="Team Viewer Interface" src="../../assets/GoodUITeamViewer.png" />
-   </dt><dd>Figure: Good example - Teamviewer's interface requires very little explanation</dd></dl><dl class="goodImage"><dt>
-      <img alt="Fly in a Urinal" src="../../assets/FlyInUrinal.jpg" />
-   </dt><dd>Figure: Good Example - See the fly? (an example of excellent usability) Dutch manufacturers realized that a fly painted on the urinal became a "target" for men using the facility. And the fly is positioned in precisely the right place for minimal spillage or splash back. Clever people those Dutch!</dd></dl>
+<!--endintro-->
+
+* There are no surprises
+* There is no need to use help
+* No excuse for RTFM (read the freaking manual)
+
+<dl class="image">&lt;dt&gt;
+      <img border="1" src="../../assets/SelfEvident.gif" alt="">
+   &lt;/dt&gt;<dd>Figure: A good interface does not need instructions!</dd></dl>
+A good UI is:
+
+* Intuitive
+* Feels fast e.g. no white screen, threading code
+* Consistent
+* Minimal popups
+* No clutter - not busy
+* Good error handling
+* Easy to customize + apps (aka a platform)
+* Gamification e.g. badges
 
 
+ **
+** 
+
+**Suggested reading:** 
+
+* [The Design of Everyday Things: Revised and Expanded Edition (Nov 2013)](https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654)
+* [Don’t Make Me Think, Revisited (3rd Edition)](https://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515)
+
+
+
+
+
+<dl class="goodImage">&lt;dt&gt;
+      <img alt="Team Viewer Interface" src="../../assets/GoodUITeamViewer.png">
+   &lt;/dt&gt;<dd>Figure: Good example - Teamviewer's interface requires very little explanation</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img alt="Fly in a Urinal" src="../../assets/FlyInUrinal.jpg">
+   &lt;/dt&gt;<dd>Figure: Good Example - See the fly? (an example of excellent usability) Dutch manufacturers realized that a fly painted on the urinal became a "target" for men using the facility. And the fly is positioned in precisely the right place for minimal spillage or splash back. Clever people those Dutch!</dd></dl>
