@@ -12,9 +12,46 @@ related: []
 
 ---
 
+Enter Intro Text
 
-Enter Intro Text<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Instead of&#58;</p><p class="ssw15-rteElement-CodeArea"> private void RaiseUpdateOnExistingLotReceived()<br>&#123;<br>if (ExistingLotUpdated != null)<br>&#123;<br>ExistingLotUpdated();<br>&#125;<br>&#125;<span style="background-color&#58;#ffffff;font-size&#58;13px;">​</span></p><p>...use this event extension method&#58;</p><p class="ssw15-rteElement-CodeArea"> public static void Raise&lt;t&gt;(this EventHandler&lt;t&gt; @event,<br>object sender, T args) where T &#58; EventArgs<br>&#123;<br>var temp = @event;<br>if (temp != null)<br>&#123;<br>temp(sender, args);<br>&#125;<br>&#125;<br>public static void Raise(this Action @event)<br>&#123;<br>var temp = @event;<br>if (temp != null)<br>&#123;<br>temp();<br>&#125;<br>&#125;<br></p><p>That means that instead of calling&#58;<br></p><p class="ssw15-rteElement-CodeArea">RaiseExistingLotUpdated(); <br></p><p>...you can do&#58;<br></p><p class="ssw15-rteElement-CodeArea">ExistingLotUpdated.Raise();</p><p>Less code = less code to maintain = less code to be blamed for ;)​<br></p>
+<!--endintro-->
 
+Instead of:
 
+private void RaiseUpdateOnExistingLotReceived()
+{
+if (ExistingLotUpdated != null)
+{
+ExistingLotUpdated();
+}
+}
+
+...use this event extension method:
+
+public static void Raise&lt;t&gt;(this EventHandler&lt;t&gt; @event,
+object sender, T args) where T : EventArgs
+{
+var temp = @event;
+if (temp != null)
+{
+temp(sender, args);
+}
+}
+public static void Raise(this Action @event)
+{
+var temp = @event;
+if (temp != null)
+{
+temp();
+}
+}
+
+That means that instead of calling:
+
+RaiseExistingLotUpdated();
+
+...you can do:
+
+ExistingLotUpdated.Raise();
+
+Less code = less code to maintain = less code to be blamed for ;)
