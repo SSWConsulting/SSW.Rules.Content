@@ -14,11 +14,8 @@ related: []
 
 ---
 
-
-​​And remember to periodically select "Check All Subfolders" to make sure all folders are being synced in your .ost file.<br>
-<br>
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="offline.JPG" alt="offline" /></dt><dd>Figure: Periodically check that all your mail folders are being synced in your offline.ost file </dd> </dl>
+And remember to periodically select "Check All Subfolders" to make sure all folders are being synced in your .ost file.
 
 
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="offline.JPG" alt="offline">&lt;/dt&gt;<dd>Figure: Periodically check that all your mail folders are being synced in your offline.ost file </dd> </dl>
