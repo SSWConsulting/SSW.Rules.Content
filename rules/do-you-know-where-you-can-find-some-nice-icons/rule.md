@@ -16,9 +16,15 @@ related: []
 
 ---
 
+Use one of these websites:
 
-<p>Use one of&#160;these websites&#58;<br></p><ol><li><a href="http&#58;//www.iconfinder.com/">Icon Finder</a></li><li><a href="http&#58;//www.syncfusion.com/downloads/metrostudio">Metro Studio (.exe)</a></li><li><a href="http&#58;//icomoon.io/">IcoMoon</a></li><li><a href="http&#58;//fontawesome.io/">FontAwesome</a></li><li><a href="http&#58;//glyphicons.com/">Glyphicons a.k.a Bootstrap icons</a></li></ol>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-SSW-Only">Note&#58; If you're on SSW network, you can&#160;find our collections&#160;here&#58; ​<a href="file&#58;///DataSSW/Design/Cursors_and_Icons/Icons/">\\fileserver\DataSSW\Design\Cursors_and_Icons\Icons</a><br></p>
+1. [Icon Finder](http&#58;//www.iconfinder.com/)
+2. [Metro Studio (.exe)](http&#58;//www.syncfusion.com/downloads/metrostudio)
+3. [IcoMoon](http&#58;//icomoon.io/)
+4. [FontAwesome](http&#58;//fontawesome.io/)
+5. [Glyphicons a.k.a Bootstrap icons](http&#58;//glyphicons.com/)
 
 
+<!--endintro-->
+
+Note: If you're on SSW network, you can find our collections here: [\\fileserver\DataSSW\Design\Cursors\_and\_Icons\Icons](file&#58;///DataSSW/Design/Cursors_and_Icons/Icons/)
