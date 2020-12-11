@@ -41,6 +41,11 @@ index:
 - do-you-use-your-ioc-container-to-inject-dependencies--and-not-as-a-singleton-container
 
 ---
-​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;If you&#160;need help, visit SSW Consulting Services&#160;and book in a consultant.​<br>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see. If you need help, visit SSW Consulting Services and book in a consultant.
 
+For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.
+
+Follow these steps to achieve a 'Modern Architecture Review'. See how performing an architecture review on a big project, no longer needs to be daunting. Read about the 1st steps, then check to see if you’re following SOLID principles, then drill in and find patterns and anti-patterns. Use Visual Studio to help the process with architecture tools, code smell tools, and the great Visual Studio Code Review tools.
+
+These steps enable you to attend to the code that needs the most attention. Finally, create PBI's to make sure they get fixed in the next sprint.
 
