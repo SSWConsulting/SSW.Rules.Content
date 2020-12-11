@@ -25,6 +25,7 @@ index:
 - sysadmin---do-you-archive-old-teams
 
 ---
-<p>​​​Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.<br></p><p>If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Microsoft-Teams.aspx">visit our Microsoft Teams consulting page​​</a>&#160;and book in&#160;a consultant.​​<br></p>
+Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.
 
+If you still need help, [visit our Microsoft Teams consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Microsoft-Teams.aspx) and book in a consultant.
 
