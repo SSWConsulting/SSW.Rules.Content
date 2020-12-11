@@ -27,6 +27,7 @@ index:
 - do-you-use-a-signature-with-a-link-when-commenting-on-a-blog
 
 ---
-<p>​At SSW we encourage our employees to actively keep blogs about their achievements, discoveries, interests, and ideas. The biggest problem with putting up an article is that once it's up there it's there for the world to see. Do you express yourself properly in blog posts?<br><br>This set of rules aims to help you efficiently write clear, effective blogging articles. In some cases, you might be interested in seeing our <a href="http&#58;//www.ssw.com.au/ssw/standards/Rules/RulesToBetterTechnicalDocumentation.aspx">Rules to Better Technical Documentation</a>&#160;for comments on how best to express your technical problems.<br></p>
+At SSW we encourage our employees to actively keep blogs about their achievements, discoveries, interests, and ideas. The biggest problem with putting up an article is that once it's up there it's there for the world to see. Do you express yourself properly in blog posts?
 
+This set of rules aims to help you efficiently write clear, effective blogging articles. In some cases, you might be interested in seeing our [Rules to Better Technical Documentation](http&#58;//www.ssw.com.au/ssw/standards/Rules/RulesToBetterTechnicalDocumentation.aspx) for comments on how best to express your technical problems.
 
