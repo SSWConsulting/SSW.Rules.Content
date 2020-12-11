@@ -13,8 +13,8 @@ related: []
 ---
 
 
-<p style="padding&#58;0px;color&#58;#333333;background-color&#58;#ffffff;">​​When you are connected to the SSW network, you may complete the following procedure.</p><p style="padding&#58;0px;color&#58;#333333;background-color&#58;#ffffff;">Go to&#160;<strong style="margin&#58;0px;padding&#58;0px;">\\printer</strong></p>
+<p style="padding:0px;color:#333333;background-color:#ffffff;">​​When you are connected to the SSW network, you may complete the following procedure.</p><p style="padding:0px;color:#333333;background-color:#ffffff;">Go to <strong style="margin:0px;padding:0px;">\\printer</strong></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="/SiteAssets/do-you-know-how-to-add-a-printer/printers.jpg" alt="add-printer-1.png" style="width&#58;659px;" /></dt><dd>Figure&#58; Printers listed in Printer Server</dd></dl><p class="p1">Double click on Printer to connect/add the printer. Follow prompt to finish adding printer (printer driver installation).</p>
+<dl class="image"><dt>​<img src="printers.jpg" alt="add-printer-1.png" style="width:659px;" /></dt><dd>Figure: Printers listed in Printer Server</dd></dl><p class="p1">Double click on Printer to connect/add the printer. Follow prompt to finish adding printer (printer driver installation).</p>
 
 
