@@ -54,6 +54,7 @@ index:
 - video-production---do-you-know-the-types-of-cuts
 
 ---
-<p>​​​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;<br></p><p>If you still need help, visit <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Video-Production/">Video Production​</a>&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx">​</a>and book in a consultant.​​</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [Video Production](http&#58;//www.ssw.com.au/ssw/Consulting/Video-Production/) and book in a consultant.
 
