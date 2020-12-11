@@ -12,9 +12,11 @@ related: []
 
 ---
 
+It's important to create specific negative keyword lists depending on your business, you can have lists named “cheap" or “career" related. Or you can also have a global, that would be applied to all of your campaigns.
 
-<p style="text-align:justify;">It's important to create specific negative keyword lists depending on your business, you can have lists named “cheap" or “career" related. Or you can also have a global, that would be applied to all of your campaigns. <br></p><p style="text-align:justify;">To do that, click on: “Tools" on top right |on “Shared Library", click on Negative keyword lists.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​Then create the title and add the keywords you think that might help you either save some money from non-targeted clicks or improve your results to get your right audience.</p><dl class="image"><dt><img src="google-ads-organize-negative-keywords.jpg" alt="google-ads-organize-negative-keywords.jpg" /></dt><dd>Figure: organize your negative keywords lists​<br></dd></dl>
+To do that, click on: “Tools" on top right |on “Shared Library", click on Negative keyword lists.
 
+<!--endintro-->
 
+Then create the title and add the keywords you think that might help you either save some money from non-targeted clicks or improve your results to get your right audience.
+<dl class="image">&lt;dt&gt;<img src="google-ads-organize-negative-keywords.jpg" alt="google-ads-organize-negative-keywords.jpg">&lt;/dt&gt;<dd>Figure: organize your negative keywords lists<br></dd></dl>
