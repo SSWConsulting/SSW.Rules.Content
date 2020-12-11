@@ -10,21 +10,20 @@ related: []
 
 ---
 
+A good help menu should have these 8 items in it:
 
-<div>A good help menu should have these 8 items in it:</div>
-<ol><li>Training Videos</li>
-<li>Online User Guide</li>
-<li>Knowledge Base</li>
-<li>Make a Suggestion</li>
-<li>Report a Bug</li>
-<li>Check for Updates - [Product Name] <ul><li>Check for Updates - All Programs</li></ul></li>
-<li>Run Unit Tests...</li>
-<li>About [Product Name]...</li></ol>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="Bad example of help menu" src="../../assets/BadExampleForHelpMenu.gif" /></dt>
-<dd>Figure: Bad Example - Example of a Help menu with only "About"</dd></dl>
-<dl class="goodImage"><dt><img alt="Good example of help menu" src="../../assets/GoodExampleOfHelpMenu.gif" /></dt>
+1. Training Videos
+2. Online User Guide
+3. Knowledge Base
+4. Make a Suggestion
+5. Report a Bug
+6. Check for Updates - [Product Name]
+    * Check for Updates - All Programs
+7. Run Unit Tests...
+8. About [Product Name]...
+
+
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img alt="Bad example of help menu" src="../../assets/BadExampleForHelpMenu.gif">&lt;/dt&gt;
+<dd>Figure: Bad Example - Example of a Help menu with only "About"</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="Good example of help menu" src="../../assets/GoodExampleOfHelpMenu.gif">&lt;/dt&gt;
 <dd>Figure: Good Example - Example of a Help menu with all 8 items</dd></dl>
-
-
-
