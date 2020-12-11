@@ -14,9 +14,51 @@ related: []
 
 ---
 
+There are two types of components 'dumb' and 'smart' components. Dumb components normally have no dependencies and no logic and just have @Input() and @Output(). Smart components are their parent components that would have multiple dependencies and logic but not necessarily an HTML template.
 
-<p class="ssw15-rteElement-P">​​​​There are two types of components 'dumb' and 'smart' components. Dumb components normally have no dependencies and no logic and just have @Input() and @Output(). Smart components are their parent components that would have multiple dependencies and logic but not necessarily an HTML template.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​​Aiming to keep the components that display data 'dumb' makes them much easy to reuse in your application and less buggy, but many people do not like the terms smart and dumb components as a dumb component may just have less logic versus none. Many people and SSW included are preferring the terms container and presentational components for these reasons.​​​<br></p><p class="ssw15-rteElement-CodeArea"><b>company-list-table.component.ts</b><br>@Component(&#123;<br>&#160; &#160; selector&#58; 'fbc-company-list-table',<br>&#160; &#160; template&#58; `<br>&#160;&#160; &#160; &lt;table id=&quot;company-list-table&quot; class=&quot;table table-hover table-striped company-list-table-component&quot;&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &lt;thead&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;tr&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;th&gt;Name&lt;/th&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;th&gt;Phone&lt;/th&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;th&gt;Email&lt;/th&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;th&gt;&lt;/th&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;/tr&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &lt;/thead&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &lt;tbody&gt;<br>&#160;&#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;tr class=&quot;item&quot; *ngFor=&quot;let company of companies&quot;&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;td&gt;&#123;&#123;company.name&#125;&#125;&lt;/td&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;td&gt;&#123;&#123;company.phone&#125;&#125;&lt;/td&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;td&gt;&#123;&#123;company.email&#125;&#125;&lt;/td&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;td class=&quot;button-column&quot;&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;button routerLink=&quot;/company/detail/&#123;&#123;company.id&#125;&#125;&quot; class=&quot;btn btn-default&quot; &gt;Details&lt;/button&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;button routerLink=&quot;/company/edit/&#123;&#123;company.id&#125;&#125;&quot; class=&quot;btn btn-default&quot; &gt;Edit&lt;/button&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;button (click)=&quot;confirmDelete(company)&quot; class=&quot;btn btn-default&quot;&gt;Delete&lt;/button&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;/td&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &lt;/tr&gt;<br>&#160; &#160; &#160; &#160; &#160; &#160; &lt;/tbody&gt;<br>&#160; &#160; &#160; &#160; &lt;/table&gt;<br>&#160; &#160; `<br>&#125;)<br>export class CompanyListTableComponent &#123;<br>&#160; &#160; @Input() companies&#58; Company[];<br>&#160; &#160; @Output() deleteCompanySelected = new EventEmitter&lt;number&gt;();<br>&#160; &#160; &#160;<br>&#160; &#160; confirmDelete(company&#58; Company) &#123;<br>&#160; &#160; &#160; &#160;&#160;this.deleteCompanySelected.emit(company.id);​<br>&#160; &#160; &#125;<br>&#125;</p><dd class="ssw15-rteElement-FigureGood">​Figure&#58; Good example of a presenta​​tional component with no injected dependencies​<br></dd>
+<!--endintro-->
+
+Aiming to keep the components that display data 'dumb' makes them much easy to reuse in your application and less buggy, but many people do not like the terms smart and dumb components as a dumb component may just have less logic versus none. Many people and SSW included are preferring the terms container and presentational components for these reasons.
+
+**company-list-table.component.ts** 
+@Component({
+    selector: 'fbc-company-list-table',
+    template: `
+     &lt;table id="company-list-table" class="table table-hover table-striped company-list-table-component"&gt;
+            &lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Name&lt;/th&gt;
+                    &lt;th&gt;Phone&lt;/th&gt;
+                    &lt;th&gt;Email&lt;/th&gt;
+                    &lt;th&gt;&lt;/th&gt;
+                &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+               &lt;tr class="item" \*ngFor="let company of companies"&gt;
+                    &lt;td&gt;{{company.name}}&lt;/td&gt;
+                    &lt;td&gt;{{company.phone}}&lt;/td&gt;
+                    &lt;td&gt;{{company.email}}&lt;/td&gt;
+                    &lt;td class="button-column"&gt;
+                        &lt;button routerLink="/company/detail/{{company.id}}" class="btn btn-default" &gt;Details&lt;/button&gt;
+                        &lt;button routerLink="/company/edit/{{company.id}}" class="btn btn-default" &gt;Edit&lt;/button&gt;
+                        &lt;button (click)="confirmDelete(company)" class="btn btn-default"&gt;Delete&lt;/button&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    `
+})
+export class CompanyListTableComponent {
+    @Input() companies: Company[];
+    @Output() deleteCompanySelected = new EventEmitter&lt;number&gt;();
+     
+    confirmDelete(company: Company) {
+        this.deleteCompanySelected.emit(company.id);
+    }
+}
 
 
+::: good
+Figure: Good example of a presentational component with no injected dependencies
+
+:::
