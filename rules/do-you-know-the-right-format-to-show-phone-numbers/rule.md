@@ -12,11 +12,17 @@ related: []
 
 ---
 
+Every phone number should include the country code (with the + sign) so people in another country can call/text without having to look for the special numbers to go international. Make sure you always set your mobile number in the correct format.
 
-<p>Every phone number should include the country code (with the + sign) so people&#160;in another country&#160;can call/text&#160;without having to look for the special numbers to go international. Make sure you always set your mobile number in the correct format.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dd class="ssw15-rteElement-FigureBad">​Bad example&#58; (503) 629-4000
-   </dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; +1 (503) 629-4000    
-   </dd>
+<!--endintro-->
 
 
+::: bad
+Bad example: (503) 629-4000 
+:::
+
+
+
+::: good
+Good example: +1 (503) 629-4000     
+:::
