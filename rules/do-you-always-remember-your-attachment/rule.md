@@ -14,14 +14,11 @@ related: []
 
 ---
 
+When you refer to an attachment in your email, don't forget to include the attachment. I always attach the files first before I write my message. 
 
-  <br>
-When you refer to an attachment in your email, don't forget to include the attachment. I always attach the files first before I write my message. <br>
-
-<br><excerpt class='endintro'></excerpt><br>
-  <br>
-<div class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http://www.ssw.com.au/ssw/LookOut/">SSW LookOut! for Outlook</a> to check for this rule. <br>
-<img src="../../assets/ContactorAttached.gif" alt="Contact or attached" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureNormal">Figure: SSW LookOut! for Outlook automatically warns you if you have forgotten to include your attachments. </span></div>
+<!--endintro-->
 
 
+We have a program called [SSW LookOut! for Outlook](http://www.ssw.com.au/ssw/LookOut/) to check for this rule. 
 
+![SSW LookOut](../../assets/ContactorAttached.gif)! for Outlook automatically warns you if you have forgotten to include your attachments.**
