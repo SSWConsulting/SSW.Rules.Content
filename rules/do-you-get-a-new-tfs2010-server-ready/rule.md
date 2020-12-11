@@ -14,28 +14,16 @@ related: []
 
 ---
 
+1. Prepare a new image. We recommend running  **Windows 2008 R2 Server x64**using Hyper-V Manager. Your options are:
+    1. Manually build a server
+    2. A syspreped image (this will be quicker)
+    3. System Center Virtual Machine Manager (recommended, quickest)
+2. Add the roles
+    1. Application Server
+    2. IIS
+3. Install  **SQL Server 2008 x64** default configuration
+4. Install  **SQL Server 2008 SP1**
+5. Run [www.ssw.com.au/ssw/Diagnostics/](http&#58;//www.ssw.com.au/ssw/Diagnostics/) and get all green ticks
 
 
-  <ol>
-    <li>Prepare a new image. We recommend running <strong>Windows 2008 R2 Server x64 </strong>using Hyper-V Manager. Your options are&#58;
-    <ol>
-        <li>Manually build a server </li>
-        <li>A syspreped image (this will be quicker) </li>
-        <li>System Center Virtual Machine Manager (recommended, quickest) </li>
-    </ol>
-    </li>
-    <li>Add the roles
-    <ol>
-        <li>Application Server </li>
-        <li>IIS </li>
-    </ol>
-    </li>
-    <li>Install <strong>SQL Server 2008 x64</strong> default configuration </li>
-    <li>Install <strong>SQL Server 2008 SP1</strong> </li>
-    <li>Run <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Diagnostics/">www.ssw.com.au/ssw/Diagnostics/</a> and get all green ticks </li>
-</ol>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
