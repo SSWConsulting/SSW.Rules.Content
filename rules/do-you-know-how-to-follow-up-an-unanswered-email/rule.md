@@ -15,12 +15,12 @@ related: []
 ---
 
 
-Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it.&#160; If you need an answer, use a PING by doing the following&#58;
+Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it.  If you need an answer, use a PING by doing the following:
 
 <br><excerpt class='endintro'></excerpt><br>
-<ol><li>Reply to ALL </li><li>Put (PING) in 1<sup>st</sup> line of the Body </li><li>Plus any other instructions - such as &quot;Hurry Up!&quot;&#160;or &quot;following-up, and looking forward to your reply&quot; or &quot;Need an answer please&quot;​</li></ol><dl class="goodImage"><dt> 
-      <img src="/PublishingImages/ping-email.png" alt="Hurry Up" class="ms-rteCustom-ImageArea" /> 
-   </dt><dd>Figure&#58;&#160;Good Example - (PING) written at the top of the email.</dd></dl>​ 
+<ol><li>Reply to ALL </li><li>Put (PING) in 1<sup>st</sup> line of the Body </li><li>Plus any other instructions - such as "Hurry Up!" or "following-up, and looking forward to your reply" or "Need an answer please"​</li></ol><dl class="goodImage"><dt> 
+      <img src="ping-email.png" alt="Hurry Up" class="ms-rteCustom-ImageArea" /> 
+   </dt><dd>Figure: Good Example - (PING) written at the top of the email.</dd></dl>​ 
 <p>Of course you might use slightly friendlier language following up a client or a third party compared with following up a colleague!​ If it's really important and you need an answer you might like to 
    <a href="/Pages/EmailForTasksNotCommunication.aspx">consider using the phone instead of email</a>​.</p>
 
