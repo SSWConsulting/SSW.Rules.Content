@@ -14,9 +14,20 @@ related: []
 
 ---
 
+Instead of displaying a direct " **Access Denied** " warning info, you can allow end users to send an " **Access Request** ".
+<dl class="ssw15-rteElement-ImageArea"><img alt="PermissionRequest.jpg" src="PermissionRequest.jpg" style="margin:5px;width:650px;"></dl> **Figure: Joanna is requesting access to SharePoint site** 
 
-​Instead of displaying a direct "<strong>Access Denied</strong>" warning info, you can allow end users to send an "<strong>Access Request</strong>".<div><dl class="ssw15-rteElement-ImageArea"><img alt="PermissionRequest.jpg" src="PermissionRequest.jpg" style="margin:5px;width:650px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: Joanna is requesting access to SharePoint site</dd></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​The "request manager" will receive an email:</p><dl class="ssw15-rteElement-ImageArea"><img alt="RequestNotificationEmail.png" src="637cf8_RequestNotificationEmail.png" style="margin:5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: Request Notification Email Sample</dd><dl class="ssw15-rteElement-ImageArea">The link in the email will navigate administrator to the <strong>Pending Requests</strong> list:</dl><dl class="ssw15-rteElement-ImageArea"><img alt="LinkToPendingRequestsList.png" src="LinkToPendingRequestsList.png" style="margin:5px;width:650px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: Pending Requests List</dd><p class="ssw15-rteElement-P">After reading the request infomation, the administrator can "Approve" or "Decline" the request, o​r he can start a conversation with the request user on the <strong>Pending Requests</strong> list directly to inquire more information:</p><dl class="ssw15-rteElement-ImageArea"><img alt="StartAConversatioinOnPendingList.png" src="StartAConversatioinOnPendingList.png" style="margin:5px;width:650px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: possible actions for requests (Approve, Decline or start a conversation with the request user)</dd><p class="ssw15-rteElement-P"><br> </p><p class="ssw15-rteElement-P">To setup permission request for a SharePoint site collection, go to "<strong>Site Settings (Gear Wheel icon)</strong> | <strong>Site Permissions</strong>":</p><dl class="ssw15-rteElement-ImageArea"><img alt="SetupPermissionRequest.png" src="SetupPermissionRequest.png" style="margin:5px;width:650px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: Open "Access Request" setting</dd><p class="ssw15-rteElement-P"><br> </p><p class="ssw15-rteElement-P"><strong>​​​​Limition:</strong><br>This "Access Request" only works for authenticated users to inquire more access permission, that means if your site allows "anonymous access", then an anonymous user cannot send "access request" as he doesn't have an identify to be assigned more access permission​.</p><p class="ssw15-rteElement-P"><br> </p>
+<!--endintro-->
+
+The "request manager" will receive an email:
+<dl class="ssw15-rteElement-ImageArea"><img alt="RequestNotificationEmail.png" src="637cf8_RequestNotificationEmail.png" style="margin:5px;"></dl> **Figure: Request Notification Email Sample** <dl class="ssw15-rteElement-ImageArea">The link in the email will navigate administrator to the  <strong>Pending Requests</strong> list:</dl><dl class="ssw15-rteElement-ImageArea"><img alt="LinkToPendingRequestsList.png" src="LinkToPendingRequestsList.png" style="margin:5px;width:650px;"></dl> **Figure: Pending Requests List** 
+After reading the request infomation, the administrator can "Approve" or "Decline" the request, or he can start a conversation with the request user on the  **Pending Requests** list directly to inquire more information:
+<dl class="ssw15-rteElement-ImageArea"><img alt="StartAConversatioinOnPendingList.png" src="StartAConversatioinOnPendingList.png" style="margin:5px;width:650px;"></dl> **Figure: possible actions for requests (Approve, Decline or start a conversation with the request user)** 
 
 
+To setup permission request for a SharePoint site collection, go to " **Site Settings (Gear Wheel icon)** |  **Site Permissions** ":
+<dl class="ssw15-rteElement-ImageArea"><img alt="SetupPermissionRequest.png" src="SetupPermissionRequest.png" style="margin:5px;width:650px;"></dl> **Figure: Open "Access Request" setting** 
+
+
+**Limition:** 
+This "Access Request" only works for authenticated users to inquire more access permission, that means if your site allows "anonymous access", then an anonymous user cannot send "access request" as he doesn't have an identify to be assigned more access permission.
