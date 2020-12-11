@@ -15,20 +15,20 @@ related: []
 
 
   <p>
-    <a href="/Pages/DoYouDeployLookupData.aspx">Controlled Lookup Data</a> is when data is tightly coupled to the application. If the data is not there, you&#160;have problems. So how do we check to see if data is still there?</p>
+    <a href="/Pages/DoYouDeployLookupData.aspx">Controlled Lookup Data</a> is when data is tightly coupled to the application. If the data is not there, you have problems. So how do we check to see if data is still there?</p>
 <p>The simplest way is to add a procValidate (Stored Procedure) to check that all the lookup data is still there.</p>
 <dl class="image">
-    <dt><img alt="" src="/PublishingImages/NaggingWife.gif" /> </dt>
-    <dd>Figure&#58; procValidates are just like a nagging wife </dd>
+    <dt><img alt="" src="NaggingWife.gif" /> </dt>
+    <dd>Figure: procValidates are just like a nagging wife </dd>
 </dl>
 <br>
-Let's look at an example, of a combo that is populated with Controlled Lookup data (just 4 records)&#160;&#160;
+Let's look at an example, of a combo that is populated with Controlled Lookup data (just 4 records)  
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl class="image">
-    <dt><img alt="" src="/PublishingImages/TimeProDropDown.png" /> </dt>
-    <dd>Figure&#58; How do I make sure these 4 records never go missing? </dd>
+    <dt><img alt="" src="TimeProDropDown.png" /> </dt>
+    <dd>Figure: How do I make sure these 4 records never go missing? </dd>
 </dl>
 <dl class="image">
     <dt><font class="ms-rteCustom-CodeArea" size="+0">
@@ -57,9 +57,9 @@ AS
         RAISERROR(N'Lack of Southern', 10, 1)
 </pre>
     </font></dt>
-    <dd>Figure&#58; Implement a stored procedure to check the 'Controlled Lookup Data' does not go missing </dd>
+    <dd>Figure: Implement a stored procedure to check the 'Controlled Lookup Data' does not go missing </dd>
 </dl>
-Note&#58; As this procedure will be <a href="/Pages/DoYouIgnoreIdempotency.aspx">executed many times, it must be Idempotent </a>
+Note: As this procedure will be <a href="/Pages/DoYouIgnoreIdempotency.aspx">executed many times, it must be Idempotent </a>
 
 
 
