@@ -12,32 +12,19 @@ related: []
 
 ---
 
+You have a web site master right? This is the central point of contact if the site goes down.
+ When developing an application, all members can code. However schema changes being done by many developers often can lead to trouble. 
 
-You have a web site master right? This is the central point of contact if the site goes down.<br>
-When developing an application, all members can code. However schema changes being done by many developers often can lead to trouble. <br>
-<br>
-Who is "Schema Master"? What does he do? 
+ Who is "Schema Master"? What does he do?   
+<!--endintro-->
+<dl class="image">    &lt;dt&gt;<img src="Nick.png" alt=""> &lt;/dt&gt;
+    <dd>Figure: One person should be the 'Schema Master', on an average sized project (of 5-10 devs) </dd></dl>
+If your project has a database, you need to select a "Schema Master". This is the one person who should review all modifications to the database. These include:
 
-<br><excerpt class='endintro'></excerpt><br>
+* Creating, Modifying and Deleting tables and columns
+* Relationships
+* Modify [Controlled Lookup Data](/Pages/DoYouDeployLookupData.aspx)
 
-  <dl class="image">
-    <dt><img src="Nick.png" alt="" /> </dt>
-    <dd>Figure: One person should be the 'Schema Master', on an average sized project (of 5-10 devs) </dd>
-</dl>
-<p style="margin:0cm 0cm 0pt;">If your project has a database, you need to select a "Schema Master". This is the one person who should review all modifications to the database. These include:</p>
-<ul>
-    <li>Creating, Modifying and Deleting tables and columns </li>
-    <li>Relationships </li>
-    <li>Modify <a href="/Pages/DoYouDeployLookupData.aspx">Controlled Lookup Data</a> </li>
-</ul>
-The "Schema Master" in a development shop is often the lead programmer on the team. They are in charge of all database changes and scripts. Team members should still feel free to make changes, just get them double checked by the Schema Master.<dl class="image">
-    <dt><img src="zsVersionTable.png" alt="" /> </dt>
-    <dd>Figure: The Applications Database stores version info in a table called _zsVersion </dd>
-</dl>
-<dl class="image">
-    <dt><img src="SQLScriptInTFS.png" alt="" /> </dt>
-    <dd>Figure: Only a "Schema Master" checks in the .sql files </dd>
-</dl>
-
-
-
+ The "Schema Master" in a development shop is often the lead programmer on the team. They are in charge of all database changes and scripts. Team members should still feel free to make changes, just get them double checked by the Schema Master.<dl class="image">    &lt;dt&gt;<img src="zsVersionTable.png" alt=""> &lt;/dt&gt;
+    <dd>Figure: The Applications Database stores version info in a table called _zsVersion </dd></dl><dl class="image">    &lt;dt&gt;<img src="SQLScriptInTFS.png" alt=""> &lt;/dt&gt;
+    <dd>Figure: Only a "Schema Master" checks in the .sql files </dd></dl>
