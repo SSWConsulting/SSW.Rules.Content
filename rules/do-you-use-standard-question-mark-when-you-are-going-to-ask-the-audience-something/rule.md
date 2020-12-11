@@ -10,14 +10,7 @@ related: []
 
 ---
 
-
-In a similar fashion to the <a shape="rect" href="/Pages/DemoSlide.aspx">Do you remind yourself to do a demo?</a> rule, you can also add a visual cue for any audience participation you would like, such as questions or voting. 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="SSWQuestionMark.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure: Use an "?" image to tell the presenter to ask a question (if you don't have an image - just use the "?" text) </dd>
-</dl>
-
-
-
+In a similar fashion to the [Do you remind yourself to do a demo?](/Pages/DemoSlide.aspx) rule, you can also add a visual cue for any audience participation you would like, such as questions or voting.  
+<!--endintro-->
+<dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="SSWQuestionMark.gif" alt=""> &lt;/dt&gt;
+     <strong>Figure: Use an "?" image to tell the presenter to ask a question (if you don't have an image - just use the "?" text)</strong> </dl>
