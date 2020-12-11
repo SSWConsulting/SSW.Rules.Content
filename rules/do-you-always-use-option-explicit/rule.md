@@ -14,20 +14,15 @@ related: []
 
 ---
 
+::: greybox
+Option Explict should always only be used in VB.NET.
+:::
 
 
-  <div class="greyBox">​Option Explict should always only be used in VB.NET. </div>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p>This will turn many of your potential runtime errors into compile time errors, thus saving you from potential time bombs!</p>
-<table cellspacing="2" cellpadding="2" summary="Code Auditor" class="clsSSWProductTable" id="table7">
-    <tbody>
-        <tr>
-            <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule.</td>
-        </tr>
-    </tbody>
-</table>
+This will turn many of your potential runtime errors into compile time errors, thus saving you from potential time bombs!
 
 
-
+| We have a program called [SSW Code Auditor](http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule. |
+| --- |
