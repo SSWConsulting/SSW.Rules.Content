@@ -12,16 +12,18 @@ related: []
 
 ---
 
+1. Prepare a new image. We recommend running  **Windows 2008 R2 Server x64**using Hyper-V Manager. Your options are:
+    1. Manually build a server
+    2. Use a syspreped image (this will be quicker)
+    3. System Center Virtual Machine Manager (recommended, quickest)
+2. Add the roles
+    1. Application Server
+    2. IIS
+3. Install SQL Server 2012 components for reporting and analysis (on the TFS server)
+    1. Install (but don't configure)  **SQL Server 2012 Reporting Services**
+    2. Install (but don't configure)  **SQL Server 2012 Analysis Services**
+4. You'll also need a SQL Server instance for the TFS databases if you don't already have one
+    1. Install  **SQL Server 2012 x64** default configuration
 
-<ol><li>Prepare a new image. We recommend running <strong>Windows 2008 R2 Server x64 </strong>using Hyper-V Manager. Your options are&#58; <ol><li>Manually build a server </li>
-<li>Use a&#160;syspreped image (this will be quicker)</li>
-<li>System Center Virtual Machine Manager (recommended, quickest)</li></ol></li>
-<li>Add the roles <ol><li>Application Server </li>
-<li>IIS</li></ol></li>
-<li>Install SQL Server 2012 components for reporting and analysis (on the TFS server) <ol><li>Install (but don't configure) <strong>SQL Server 2012 Reporting Services</strong></li>
-<li>Install (but don't configure) <strong>SQL Server 2012 Analysis Services</strong></li></ol></li>
-<li>You'll also need a SQL Server instance for the TFS databases if you don't already have one <ol><li>Install <strong>SQL Server 2012 x64</strong> default configuration</li></ol></li></ol>
-<br><excerpt class='endintro'></excerpt><br>
 
-
-
+<!--endintro-->
