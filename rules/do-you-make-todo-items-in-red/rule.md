@@ -10,17 +10,10 @@ related: []
 
 ---
 
+You might have plenty of ideas when you are preparing your presentation. Add these in your TODO items - utilize them to attract your attention later in case you run out of time.
 
+Note: We suggest you keep them consistent with VS.NET e.g. “TODO: xxx”
 
-  <p>You might have plenty of ideas when you are preparing your presentation. Add these in your TODO items - utilize them to attract your attention later in case you run out of time. </p>
-<p>Note: We suggest you keep them consistent with VS.NET e.g. “TODO: xxx” </p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="Todo.jpg" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure: Put your working "TODO:" notes in red</dd>
-</dl>
-
-
-
+<!--endintro-->
+<dl>    &lt;dt&gt;<img class="ms-rteCustom-ImageArea" src="Todo.jpg" alt=""> &lt;/dt&gt;
+     <strong>Figure: Put your working "TODO:" notes in red</strong> </dl>
