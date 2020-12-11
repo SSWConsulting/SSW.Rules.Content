@@ -22,12 +22,12 @@ related: []
 <li>Memory resource is not enough.</li>
 <li>Ran out of memory.</li>
 <li>You may be out of memory.</li></ul>
-<dl class="badImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/Bad-MessageBoxZango.jpg" alt="" /></dt>
-<dd>Figure&#58; Bad Example - Is it OK to Cancel?</dd></dl>
-<div>Microsoft uses this one&#58;</div>
-<dl class="goodImage"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/NotEnoughMemory.gif" alt="Not Enough Memory" /></dt>
-<dd>Figure&#58; Good Example - Microsoft error message is concise</dd></dl>
-<div>Some other message types that Microsoft uses are&#58;</div>
+<dl class="badImage"><dt><img src="../../assets/Bad-MessageBoxZango.jpg" alt="" /></dt>
+<dd>Figure: Bad Example - Is it OK to Cancel?</dd></dl>
+<div>Microsoft uses this one:</div>
+<dl class="goodImage"><dt><img src="../../assets/NotEnoughMemory.gif" alt="Not Enough Memory" /></dt>
+<dd>Figure: Good Example - Microsoft error message is concise</dd></dl>
+<div>Some other message types that Microsoft uses are:</div>
 <table cellspacing="0" cellpadding="3" border="0" class="clsSSWTable"><tbody><tr><th>Message type</th>
 <th>Sample message</th></tr>
 <tr><td>Not enough disk space</td>
@@ -37,6 +37,6 @@ related: []
 <tr><td>Re-running setup</td>
 <td>The filename file is missing. Run Setup again to reinstall the missing file. For more information about running Setup, press F1. </td></tr></tbody></table>
 <div>Consider using or adapting them in your application in similar scenarios. Only include the information that the user needs and will understand.</div>
-<div>This also applies to general design principles, read our rule on <a href="/less-is-more-do-you-know-people-scan-not-read">Less is more&#58; do you know people scan, not read?</a></div>
+<div>This also applies to general design principles, read our rule on <a href="/less-is-more-do-you-know-people-scan-not-read">Less is more: do you know people scan, not read?</a></div>
 
 
