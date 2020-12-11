@@ -10,6 +10,5 @@ index:
 - do-you-use-fluent-validation
 
 ---
-<p>​​​<br></p>
 
 
