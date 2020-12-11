@@ -12,12 +12,12 @@ related: []
 
 ---
 
+ASP.NET provides a great way to compress and package multiple script files or multiple css files.  Bundling multiple files together results in fewer requests from the client and smaller payloads which leads to much faster render times.
 
-<p>ASP.NET provides a great way to compress and package multiple script files or multiple css files.  Bundling multiple files together results in fewer requests from the client and smaller payloads which leads to much faster render times.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Rather than link to each script or css file individually, use bundling to group many together and get the advantages of minification and versioning out of the box.</p>
+<!--endintro-->
 
-<dl class="badImage"><dt><div class="greyBox"><pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.core.css&quot; /&gt;
+Rather than link to each script or css file individually, use bundling to group many together and get the advantages of minification and versioning out of the box.
+<dl class="badImage">&lt;dt&gt;<br><br>::: greybox<br><pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.core.css&quot; /&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.resizable.css&quot; /&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.selectable.css&quot; /&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.accordion.css&quot; /&gt;
@@ -29,7 +29,7 @@ related: []
 &lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.datepicker.css&quot; /&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.progressbar.css&quot; /&gt;
 &lt;link rel=&quot;stylesheet&quot; href=&quot;~/Content/themes/base/jquery.ui.theme.css&quot; /&gt;
-</pre></div></dt><dd>Figure&#58; Bad Example – each reference will be downloaded separately and won’t be compressed</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>Configuration&#58;
+</pre><br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Bad Example – each reference will be downloaded separately and won’t be compressed</dd></dl><dl class="goodImage">&lt;dt&gt;<br><br>::: greybox<br><pre>Configuration&#58;
 public static void RegisterBundles(BundleCollection bundles)
 &#123;
         bundles.Add(new StyleBundle(&quot;~/Content/themes/base/css&quot;).Include(
@@ -49,6 +49,4 @@ public static void RegisterBundles(BundleCollection bundles)
 
 View&#58;
 @Styles.Render(&quot;~/Content/themes/base/css&quot;)
-</pre></div></dt><dd>Figure&#58; Good Example – Define a bundle and render it in the view for maximum performance</dd></dl>
-
-
+</pre><br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Good Example – Define a bundle and render it in the view for maximum performance</dd></dl>
