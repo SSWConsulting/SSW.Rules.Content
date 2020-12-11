@@ -12,15 +12,12 @@ related: []
 
 ---
 
+When using [Snagit](http://www.techsmith.com/snagit.html) to show actions on a screenshot, follow this:
 
-<p>When using <a target="_blank" href="http://www.techsmith.com/snagit.html">Snagit</a> to show actions on a screenshot, follow this:</p>
-<ol>
-<li>To enter data – Use the yellow highlighting</li>
-<li>To click on a button – Put a square box around it</li>
-<li>To point out something  – Use the arrow​​<br></li>
-</ol>
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="snagit-actions-bad.jpg" alt="Snagit Bad Example" /></dt><dd>Figure: Bad example – There is no visual difference between different actions</dd></dl><dl class="goodImage"><dt><img src="snagit-actions-good.jpg" alt="Snagit Good Example" />​</dt><dd>Figure: Good example – This screenshot tells that the user should be on the "Message" tab, click on "Attach File" and edit the subject to be "Button types"​<span style="color:#444444;">​</span></dd></dl>
+1. To enter data – Use the yellow highlighting
+2. To click on a button – Put a square box around it
+3. To point out something  – Use the arrow
 
 
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="snagit-actions-bad.jpg" alt="Snagit Bad Example">&lt;/dt&gt;<dd>Figure: Bad example – There is no visual difference between different actions</dd></dl><dl class="goodImage">&lt;dt&gt;<img src="snagit-actions-good.jpg" alt="Snagit Good Example">&lt;/dt&gt;<dd>Figure: Good example – This screenshot tells that the user should be on the "Message" tab, click on "Attach File" and edit the subject to be "Button types"<span style="color:#444444;"></span></dd></dl>
