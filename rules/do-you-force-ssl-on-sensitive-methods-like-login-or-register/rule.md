@@ -12,18 +12,16 @@ related: []
 
 ---
 
+Any sensitive data that is sent over the wire must be protected using a secure transport such as HTTPS.  MVC (version 2, Preview 2 or higher) allows you to specify that HTTPS is required for an action.  It’s important that the GET method is secure as well as the POST method to avoid people sending sensitive form data over the wire.
 
-<p>Any sensitive data that is sent over the wire must be protected using a secure transport such as HTTPS.  MVC (version 2, Preview 2 or higher) allows you to specify that HTTPS is required for an action.  It’s important that the GET method is secure as well as the POST method to avoid people sending sensitive form data over the wire.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><div class="greyBox"><pre>public ActionResult Register()
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<br><br>::: greybox<br><pre>public ActionResult Register()
 &#123;
    return View();
 &#125;
-</pre></div></dt><dd>Figure&#58; Bad Example – The Register method isn’t secure</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>[RequireHttps]
+</pre><br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Bad Example – The Register method isn’t secure</dd></dl><dl class="goodImage">&lt;dt&gt;<br><br>::: greybox<br><pre>[RequireHttps]
 public ActionResult Login()
 &#123;
    return View();
 &#125;
-</pre></div></dt><dd>Figure&#58; Good Example – The Login method is protected by HTTPS</dd></dl>
-
-
+</pre><br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Good Example – The Login method is protected by HTTPS</dd></dl>
