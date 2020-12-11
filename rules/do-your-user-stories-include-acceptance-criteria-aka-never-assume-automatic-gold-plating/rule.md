@@ -12,19 +12,71 @@ related: []
 
 ---
 
+Most teams are getting the hang of User Stories that have subtasks. Unfortunately the same can’t be said about acceptance criteria. 
+It is so important because real user stories tell a team when the task is done.
+
+Also, Product Owners should not get heartburn because ‘obvious’ functionality was not included. All requirements should be specified in the Acceptance Criteria.
+
+For example, Product Owners should not assume things like:
+
+* they will get a message that says ‘no records found’ or
+* the grid will support features such as pagination or sorting
 
 
-  <p>Most teams are getting the hang of User Stories that have subtasks. Unfortunately the same can’t be said about acceptance criteria. <br>It is so important because real user stories tell a team when the task is done.</p>
-<p>Also, Product Owners should not get heartburn because ‘obvious’ functionality was not included. All requirements should be specified in the Acceptance Criteria.</p><p>For example, Product Owners should not assume things like:</p>
-<ul>
-    <li>they will get a message that says ‘no records found’ or</li>
-    <li>the grid will support features such as pagination or sorting</li>
-</ul>
-<p>They must be specified in the Acceptance Criteria if required.</p>
-<p>There are 2 parts to getting this right. The Acceptance Criteria, then the Acceptance Tests:</p>
+They must be specified in the Acceptance Criteria if required.
 
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> <img src="DevsAndUsers.jpg" alt="DevsAndUsers.jpg" /> </dt><dd>Figure: You need a common language to communicate in</dd></dl><p>
-   <strong>Acceptance Criteria </strong>(from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question, "How will I know when I' m done with the story?"</p><dl class="image"><dt> <img src="acceptance-criteria.jpg" alt="A User Story with Acceptance Criteria" class="ms-rteCustom-ImageArea" /> </dt><dd>Figure: A User Story with Acceptance Criteria (MSF Agile Template)​<br></dd></dl><p class="ssw15-rteElement-GreyBox">When I enter ‘Adam’ in the search box and click 'Search' I will see all entries starting with 'Adam' in the grid.</p><dd class="ssw15-rteElement-FigureBad">Figure: Bad Example of Acceptance Criteria - Incomplete <br></dd><p class="ssw15-rteElement-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br></p><dd class="ssw15-rteElement-FigureNormal"> Figure: OK Example of Acceptance Criteria</dd><p class="ssw15-rteElement-GreyBox">Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid<br>Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see *no* entries in the Grid<br>Gold Plating - If no results are retuned show a message box ‘No results found’<br>Gold Plating – Validation: If no search text is entered, the ‘Search’ button should be disabled<br>Gold Plating – Right-clicking on a column header should provide ‘Sort’ functionality<br>Gold Plating – if a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links<br></p><dd></dd><dd class="ssw15-rteElement-FigureNormal">Figure: Good Example of Acceptance Criteria – Including Gold Plating <br></dd><p>For tiny stories, you can omit acceptance criteria. Sometimes you just need a screenshot, or even better a video.</p><p class="ssw15-rteElement-GreyBox">See screenshot and video.<br>Screenshot – <a href="/Documents/13_Anvil_1408_Customer.pdf">see PDF</a><br>Video - <a href="http://www.youtube.com/watch?v=M3FH4D9QuzU" title="http://www.youtube.com/watch?v=M3FH4D9QuzU" target="_blank">http://ww w.youtube.com/watch?v=M3FH4D9QuzU </a></p><dd class="ssw15-rteElement-FigureGood">Figure: Good Example for a simple change – just include a screen capture and/or video <br></dd> <br>
+There are 2 parts to getting this right. The Acceptance Criteria, then the Acceptance Tests:
+
+<!--endintro-->
+<dl class="image">&lt;dt&gt; <img src="DevsAndUsers.jpg" alt="DevsAndUsers.jpg"> &lt;/dt&gt;<dd>Figure: You need a common language to communicate in</dd></dl>
+**Acceptance Criteria** (from the Product Owner) define the exact requirements that must be met for the story to be completed. They answer the question, "How will I know when I' m done with the story?"
+<dl class="image">&lt;dt&gt; <img src="acceptance-criteria.jpg" alt="A User Story with Acceptance Criteria" class="ms-rteCustom-ImageArea"> &lt;/dt&gt;<dd>Figure: A User Story with Acceptance Criteria (MSF Agile Template)<br></dd></dl>
+
+::: greybox
+When I enter ‘Adam’ in the search box and click 'Search' I will see all entries starting with 'Adam' in the grid.
+:::
 
 
+
+::: bad
+Figure: Bad Example of Acceptance Criteria - Incomplete 
+
+:::
+
+
+
+::: greybox
+Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
+Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see \*no\* entries in the Grid
+
+:::
+
+ **Figure: OK Example of Acceptance Criteria** 
+
+::: greybox
+Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
+Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see \*no\* entries in the Grid
+Gold Plating - If no results are retuned show a message box ‘No results found’
+Gold Plating – Validation: If no search text is entered, the ‘Search’ button should be disabled
+Gold Plating – Right-clicking on a column header should provide ‘Sort’ functionality
+Gold Plating – if a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
+
+:::
+
+<dd></dd> **Figure: Good Example of Acceptance Criteria – Including Gold Plating 
+** 
+For tiny stories, you can omit acceptance criteria. Sometimes you just need a screenshot, or even better a video.
+
+
+::: greybox
+See screenshot and video.
+Screenshot – [see PDF](/Documents/13_Anvil_1408_Customer.pdf)
+Video - [http://ww w.youtube.com/watch?v=M3FH4D9QuzU](http://www.youtube.com/watch?v=M3FH4D9QuzU "http://www.youtube.com/watch?v=M3FH4D9QuzU")
+:::
+
+
+
+::: good
+Figure: Good Example for a simple change – just include a screen capture and/or video 
+
+:::
