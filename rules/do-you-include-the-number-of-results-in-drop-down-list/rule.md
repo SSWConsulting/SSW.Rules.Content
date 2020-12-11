@@ -12,16 +12,11 @@ related: []
 
 ---
 
+When designing your web site, it's a good idea to help your users where possible.                     When you use a combo box, it's very helpful to be able to see at a glance how many                     results can be expected.
 
-<p>
-                    When designing your web site, it's a good idea to help your users where possible.
-                    When you use a combo box, it's very helpful to be able to see at a glance how many
-                    results can be expected.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-                        <img src="drop-list-bad.jpg" alt="Combobox 2" /></dt><dd>
-                        Figure: Bad Example - You can't tell the number of results</dd></dl><dl class="goodImage"><dt>
-                        <img src="drop-list-good.jpg" alt="Combobox 1" /></dt><dd>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+                        <img src="drop-list-bad.jpg" alt="Combobox 2">&lt;/dt&gt;<dd>
+                        Figure: Bad Example - You can't tell the number of results</dd></dl><dl class="goodImage">&lt;dt&gt;
+                        <img src="drop-list-good.jpg" alt="Combobox 1">&lt;/dt&gt;<dd>
                         Figure: Good Example - The number of results is clearly displayed</dd></dl>
-
-
