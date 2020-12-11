@@ -14,32 +14,37 @@ related: []
 
 ---
 
+When using your presentation computer you may want to still be able to send emails but not want to download your entire Exchange mailbox to your Boot2VHD image. This is especially relevant for people with large mailboxes.   
+<!--endintro-->
 
-When using your presentation computer you may want to still be able to send emails but not want to download your entire Exchange mailbox to your Boot2VHD image. This is especially relevant for people with large mailboxes. 
+Here is how you do it:
 
-<br><excerpt class='endintro'></excerpt><br>
-<p>Here is how you do it:</p><ol><li>Open Outlook and create a new Exchange account: 
-      <br> 
-      <dl class="image"><dt> 
-            <img src="mail1.png" alt="Create New Account" style="width:400px;height:449px;" /> 
-         </dt><dd>Figure - Tick manually configure server settings</dd></dl></li><li>​Enter your server name and user name, but un-tick 
-      <strong>Use Cached Exchange Mode</strong>: ​ 
-      <dl class="image"><dt> 
-            <img src="Mail3.png" alt="Un-tick Use Cached Exchange Mode" style="width:400px;height:449px;" /> 
-         </dt><dd>Figure - Un-tick Use Cached Exchange Mode</dd></dl></li><li>Finish the setup and then open Outlook </li><li>Configure your Send / Receive Groups: 
-      <dl class="image"><dt> 
-            <img src="Email2.png" alt="Click Send / Receive | Click Send / Receive Groups | Click Define Send / Receive Groups" style="width:400px;height:398px;" /> 
-         </dt><dd>Figure - Click Send / Receive | Click Send / Receive Groups | Click Define Send / Receive Groups</dd></dl></li><li>Now we can choose the parts of our mailbox we want to synced to our PC. The following options are recommended: 
-      <ul><li>Untick 
-            <strong>Receive Mail Items</strong></li><li>Tick 
-            <strong>Download offline address book</strong></li><li>Tick the 
-            <strong>Outbox</strong> folder</li><li>Tick the 
-            <strong>Contacts</strong> folder</li><li>Tick the 
-            <strong>Sent Items </strong>folder,</li><li>and select 
-            <strong>Download headers only</strong></li></ul><dl class="image"><dt>
-            <img src="Email.png" alt="" style="width:600px;height:635px;" />
-         </dt><dd>Figure - Untick "Receive mail items" | Tick "Sent Items", "Contacts" and "Outbox" | Download only headers for "Sent Items"</dd></dl></li><li>When back in the main Outlook window click 
-      <strong>Send / Receive </strong><strong>All</strong><strong>Folders </strong>and this will sync your sent items and contacts which will now be available offline </li></ol><p>
-   <strong>Suggestion to the Microsoft Outlook Team:</strong></p><ul><li>​Give us a "Sync last x weeks" for each folder</li><li>Give us a "Work in Minimal Mode"​ that does the above</li></ul>
+1. Open Outlook and create a new Exchange account: <br>      
+<dl class="image">&lt;dt&gt; 
+            <img src="mail1.png" alt="Create New Account" style="width:400px;height:449px;"> 
+         &lt;/dt&gt;<dd>Figure - Tick manually configure server settings</dd></dl>
+2. Enter your server name and user name, but un-tick <br>       **Use Cached Exchange Mode** :  <br>      <dl class="image">&lt;dt&gt; 
+            <img src="Mail3.png" alt="Un-tick Use Cached Exchange Mode" style="width:400px;height:449px;"> 
+         &lt;/dt&gt;<dd>Figure - Un-tick Use Cached Exchange Mode</dd></dl>
+3. Finish the setup and then open Outlook
+4. Configure your Send / Receive Groups: <br>      <dl class="image">&lt;dt&gt; 
+            <img src="Email2.png" alt="Click Send / Receive | Click Send / Receive Groups | Click Define Send / Receive Groups" style="width:400px;height:398px;"> 
+         &lt;/dt&gt;<dd>Figure - Click Send / Receive | Click Send / Receive Groups | Click Define Send / Receive Groups</dd></dl>
+5. Now we can choose the parts of our mailbox we want to synced to our PC. The following options are recommended:
+    * Untick <br>             **Receive Mail Items**
+    * Tick <br>             **Download offline address book**
+    * Tick the <br>             **Outbox** folder
+    * Tick the <br>             **Contacts** folder
+    * Tick the <br>             **Sent Items** folder,
+    * and select <br>             **Download headers only**
+
+<dl class="image">&lt;dt&gt;
+            <img src="Email.png" alt="" style="width:600px;height:635px;">
+         &lt;/dt&gt;<dd>Figure - Untick "Receive mail items" | Tick "Sent Items", "Contacts" and "Outbox" | Download only headers for "Sent Items"</dd></dl>
+6. When back in the main Outlook window click <br>       **Send / Receive** **All** **Folders** and this will sync your sent items and contacts which will now be available offline
 
 
+**Suggestion to the Microsoft Outlook Team:**
+
+* Give us a "Sync last x weeks" for each folder
+* Give us a "Work in Minimal Mode" that does the above
