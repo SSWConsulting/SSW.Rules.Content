@@ -13,9 +13,18 @@ related:
 
 ---
 
+If your Control4 system is running slowly, there's a System Diagnostics tool that you can use to check CPU and Memory usage, and other details on the Control4 Director box.
 
-If your Control4 system is running slowly, there's a System Diagnostics tool that you can use to check CPU and Memory usage, and other details on the Control4 Director box.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>To access Control4 System Diagnostics, open Composer. ​</p><p><img alt="Composer-Tools-System-Dianostics.png" src="Composer-Tools-System-Dianostics.png" style="margin:5px;width:808px;" /><br> </p><div>Select Tools > System Diagnostics. </div><div> </div><div><img alt="Composer-System-Dianostics.png" src="Composer-System-Dianostics.png" style="margin:5px;width:808px;" /><br> ​<br><br></div>
+<!--endintro-->
+
+To access Control4 System Diagnostics, open Composer.
 
 
+![](Composer-Tools-System-Dianostics.png)
+
+Select Tools > System Diagnostics. 
+
+ 
+
+
+![](Composer-System-Dianostics.png)
