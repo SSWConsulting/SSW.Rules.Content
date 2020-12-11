@@ -13,12 +13,6 @@ related:
 
 ---
 
-
-
-  <img alt="" class="ms-rteCustom-ImageArea" src="MultipleForeignKeyRelationshipsDifferentNames.jpg" /> <br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure: Multiple Foreign Key Relationships Different Names </font><font class="ms-rteCustom-YellowBorderBox" size="+0"><a href="http://www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </font>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+![](MultipleForeignKeyRelationshipsDifferentNames.jpg) 
+<font class="ms-rteCustom-FigureNormal">Figure: Multiple Foreign Key Relationships Different Names </font><font class="ms-rteCustom-YellowBorderBox"><a href="http://www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </font>
+<!--endintro-->
