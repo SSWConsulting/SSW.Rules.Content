@@ -14,18 +14,73 @@ related: []
 
 ---
 
+Words like “verses” and “versus” are homophones, meaning they are pronounced the same, but have different spellings and different meanings.
 
-<p>​​​​​Words like “verses” and “versus” are homophones, meaning they are pronounced the same, but have different spellings and different meanings.<br></p><p>When using a homophone in a sentence, it is important to ensure you are using the correct word, as if you are not, it won’t be picked up by your spell check and you'll look less intelligent.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-​In this case, “verses” refers to lines of poetry or bible
-passages. “Versus” refers to 2 or more parties in opposition to one another,
-especially in sports or legal situations.<div><br></div><div>“Versus” can be shortened to “vs.”, which is common in
-sporting situations, or “v.”, which is the standard abbreviation for legal
-scenarios. &#160;</div><div><br></div><div><p class="ssw15-rteElement-GreyBox">&quot;Matthew 5&#58;41 is one of my favourite bible versus.&quot;<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58;&#160;Bad example&#58; the wrong “versus” is used<br></dd></div><div><p class="ssw15-rteElement-GreyBox">&quot;Floyd verses Mayweather.&quot;<br></p><dd class="ssw15-rteElement-FigureBad">
-Figure&#58;&#160;Bad example&#58; Floyd did not poetry
-Mayweather </dd><dd><br></dd><p class="ssw15-rteElement-GreyBox">&quot;Brown v. The Board of Education.&quot;<br></p><dd class="ssw15-rteElement-FigureGood">
-Figure&#58;&#160;Good example&#58; in a legal context, “versus”
-is abbreviated to “v.”<br></dd><dd><br></dd><p class="ssw15-rteElement-GreyBox">&quot;Adam penned many verses about his lo​ve for .NET development&quot;<br></p><dd class="ssw15-rteElement-FigureGood">
-Figure&#58; Good example​<br></dd><p>​<br></p></div>
+When using a homophone in a sentence, it is important to ensure you are using the correct word, as if you are not, it won’t be picked up by your spell check and you'll look less intelligent.
+
+<!--endintro-->
+ In this case, “verses” refers to lines of poetry or bible passages. “Versus” refers to 2 or more parties in opposition to one another, especially in sports or legal situations.
 
 
+
+“Versus” can be shortened to “vs.”, which is common in<br>sporting situations, or “v.”, which is the standard abbreviation for legal<br>scenarios.  
+
+
+
+
+
+
+::: greybox
+"Matthew 5:41 is one of my favourite bible versus."
+
+:::
+
+
+
+::: bad
+Figure: Bad example: the wrong “versus” is used
+
+:::
+
+
+
+
+
+::: greybox
+"Floyd verses Mayweather."
+
+:::
+
+
+
+::: bad
+<br>Figure: Bad example: Floyd did not poetry<br>Mayweather
+:::
+
+<dd><br></dd>
+
+::: greybox
+"Brown v. The Board of Education."
+
+:::
+
+
+
+::: good
+<br>Figure: Good example: in a legal context, “versus”<br>is abbreviated to “v.”
+
+:::
+
+<dd><br></dd>
+
+::: greybox
+"Adam penned many verses about his love for .NET development"
+
+:::
+
+
+
+::: good
+<br>Figure: Good example
+
+:::
