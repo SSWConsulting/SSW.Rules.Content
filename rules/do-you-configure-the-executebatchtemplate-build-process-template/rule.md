@@ -12,12 +12,10 @@ related: []
 
 ---
 
+Configure the ExecuteBatchTemplate Build Process Template.
 
-<p>Configure the ExecuteBatchTemplate Build Process Template.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="configure-executebatch.jpg" alt="" />
-</dt><dd>Figure: Enter the DeployOnBuild MsBuild argument, and then enter the name of the deployment batch file you wish to execute upon successful build of the project.
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="configure-executebatch.jpg" alt="">
+&lt;/dt&gt;<dd>Figure: Enter the DeployOnBuild MsBuild argument, and then enter the name of the deployment batch file you wish to execute upon successful build of the project.
 <br>Every time this build is executed successful (and all the unit tests pass), the specified batch file will run – deploying the site automatically.
 </dd></dl>
-
-
