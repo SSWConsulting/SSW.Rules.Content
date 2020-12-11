@@ -17,8 +17,8 @@ Snapshots are a very handy tool for a System Administrator, but they can quickly
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <img width="631" height="185" alt="Snapshots are useful, but they can take up a lot of space" src="/PublishingImages/snapshot-avhds.jpg" /> <br>
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58;&#160;Snapshots are useful, but they can take up a lot of space</font>
+  <img width="631" height="185" alt="Snapshots are useful, but they can take up a lot of space" src="snapshot-avhds.jpg" /> <br>
+<font class="ms-rteCustom-FigureNormal" size="+0">Figure: Snapshots are useful, but they can take up a lot of space</font>
 <p>When you delete a snapshot you can no longer restore the virtual machine to the point in time the snapshot was taken. Deleting a snapshot does not affect any other snapshots, nor will it affect the current state of the virtual machine.</p>
 <p>Set yourself a calendar reminder 3 weeks after you make a snapshot so you remember to apply the snapshot to the Virtual Machine (assuming you are happy with the virtual machine after the snapshot).</p>
 <ol>
