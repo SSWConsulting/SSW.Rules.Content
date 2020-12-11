@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: 方法论 - 你是否每日进行Scrum会议（站立会议）
 guid: a259e78a-7ff3-4688-abac-382283d08285
-uri: '---scrum'
+uri: 'scrum'
 created: 2012-03-05T07:14:24.0000000Z
 authors:
 - id: 1
