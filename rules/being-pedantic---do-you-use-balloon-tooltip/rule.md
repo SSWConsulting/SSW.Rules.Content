@@ -10,16 +10,13 @@ related: []
 
 ---
 
+The standard tooltip is a rectangle, so the tool tip for the control can be misleading. While, the balloon tooltip has an arrow pointing to the destination control, which is clearer for users.
 
-<p>The standard tooltip is a rectangle, so the tool tip for the control can be misleading. While, the balloon tooltip has an arrow pointing to the destination control, which is clearer for users.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="Standard tooltip" src="../../assets/BadTooltip.gif" /></dt>
-<dd>Figure: Standard tooltip.</dd></dl>
-<dl class="goodImage"><dt><img alt="Balloon tooltip" src="../../assets/GoodTooltip.gif" /></dt>
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img alt="Standard tooltip" src="../../assets/BadTooltip.gif">&lt;/dt&gt;
+<dd>Figure: Standard tooltip.</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="Balloon tooltip" src="../../assets/GoodTooltip.gif">&lt;/dt&gt;
 <dd>Figure: Balloon tooltip.</dd></dl>
-<div>To implement you can:</div>
-<ol><li>Set the standard Tooltip's property IsBalloon true or</li>
-<li>Use EdwardForgacs' balloon tooltip control.</li></ol>
+To implement you can:
 
-
-
+1. Set the standard Tooltip's property IsBalloon true or
+2. Use EdwardForgacs' balloon tooltip control.
