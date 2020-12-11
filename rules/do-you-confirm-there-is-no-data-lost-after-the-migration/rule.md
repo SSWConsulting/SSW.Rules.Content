@@ -14,9 +14,9 @@ related: []
 
 
 
-  <p>After you have finished migrating the database, it is extremely important to verify that no data has been lost in the move. The quickest way to do this is to compare the SharePoint 2007 and the SharePoint 2010 server <b>All Site Content</b> pages and confirm that the item numbers match&#58;</p>
-<p>&#160;<img alt="" src="/PublishingImages/AllSiteContentCount.png" /></p>
-<p class="ms-rteCustom-FigureNormal"><b>Figure 7 – In the &quot;All Site Content&quot; pages library, ensure the ‘item’ numbers exactly match between SharePoint 2007 and SharePoint 2010</b></p>
+  <p>After you have finished migrating the database, it is extremely important to verify that no data has been lost in the move. The quickest way to do this is to compare the SharePoint 2007 and the SharePoint 2010 server <b>All Site Content</b> pages and confirm that the item numbers match:</p>
+<p> <img alt="" src="AllSiteContentCount.png" /></p>
+<p class="ms-rteCustom-FigureNormal"><b>Figure 7 – In the "All Site Content" pages library, ensure the ‘item’ numbers exactly match between SharePoint 2007 and SharePoint 2010</b></p>
 <ol>
     <li>Look at your report from the SharePoint 2007 server </li>
     <li>On the SharePoint 2010 server, open the site collection you just migrated to</li>
