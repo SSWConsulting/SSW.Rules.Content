@@ -20,11 +20,15 @@ related: []
 
 ---
 
+In order to get better clarity on what work is done, it's a good idea to connect your PBI's and tasks to the commits, branches and pull requests that relate to the item. All commits, branches and pull requests should be linked to a PBI.
+<dl class="badImage">&lt;dt&gt;<img src="no-linked-commit.png" alt="no-linked-commit.png">&lt;/dt&gt;<dd>Bad Example: No linked commit's, branches or pull requests<br></dd></dl><dl class="goodImage">&lt;dt&gt;<img src="link-branch-to-pbi.png" alt="linked-commit">&lt;/dt&gt;<dd>Good Example: Git branch linked to PBI in TFS<br></dd></dl>
+<!--endintro-->
 
-<p>​​​​​​​​​​​​​​In order to get better clarity on what work is done, it's a good idea to connect your PBI's and tasks to the commits, branches and pull requests that relate to the item. All commits, branches and pull requests should be linked to a PBI.​​<br></p><dl class="badImage"><dt><img src="no-linked-commit.png" alt="no-linked-commit.png" /></dt><dd>​Bad Example: No linked commit's, branches or pull requests<br></dd>​​</dl><dl class="goodImage"><dt><img src="link-branch-to-pbi.png" alt="linked-commit" /></dt><dd>Good Example: Git branch linked to PBI in TFS<br></dd>
-</dl>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-Tip">Note: If you create your branches through Azure DevOps then you can link them during creation.​​​​​</p><dl class="goodImage"><dt>​<img src="link-pbi-during-creation.png" alt="link-pbi-during-creation.png" /></dt><dd>​Good Example: Using Azure DevOps to link PBI during creation</dd></dl><p>Here is a handy resource for linking work items:</p><p><a href="https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests/">https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests/​​​</a>​​</p><p class="ssw15-rteElement-Tip">Note: You can setup Branch Policies on your main branches to enforce this behaviour.</p><dl class="goodImage"><dt>​<img src="add-branch-policy-for-linked-items.png" alt="add-branch-policy-for-linked-items.png" /></dt><dd>​Good Example: Branch Policy on the master branch to enforce linked work items on pull requests<br></dd>
-</dl>
+Note: If you create your branches through Azure DevOps then you can link them during creation.
+<dl class="goodImage">&lt;dt&gt;<img src="link-pbi-during-creation.png" alt="link-pbi-during-creation.png">&lt;/dt&gt;<dd>Good Example: Using Azure DevOps to link PBI during creation</dd></dl>
+Here is a handy resource for linking work items:
 
+https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests/
 
+Note: You can setup Branch Policies on your main branches to enforce this behaviour.
+<dl class="goodImage">&lt;dt&gt;<img src="add-branch-policy-for-linked-items.png" alt="add-branch-policy-for-linked-items.png">&lt;/dt&gt;<dd>Good Example: Branch Policy on the master branch to enforce linked work items on pull requests<br></dd></dl>
