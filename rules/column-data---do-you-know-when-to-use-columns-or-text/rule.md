@@ -10,14 +10,13 @@ related: []
 
 ---
 
+It's OK to use text because it's more natural, but use columns if you need:
 
-<div>It's OK to use text because it's more natural, but use columns if you need:</div>
-<ul><li>reordering</li>
-<li>side by side comparison</li>
-<li>totals</li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="Image"><dt><img alt="Bad alignment" src="../../assets/ColumnsText.jpg" /></dt>
+* reordering
+* side by side comparison
+* totals
+
+
+<!--endintro-->
+<dl class="Image">&lt;dt&gt;<img alt="Bad alignment" src="../../assets/ColumnsText.jpg">&lt;/dt&gt;
 <dd>Figure: While text looks friendlier, in terms of presenting data it's not the easiest to read</dd></dl>
-
-
-
