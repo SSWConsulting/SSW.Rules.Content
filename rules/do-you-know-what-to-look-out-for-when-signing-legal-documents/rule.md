@@ -12,10 +12,5 @@ related: []
 
 ---
 
-
-Make sure there are no specific damages mentioned in any legal document. They should always be left to the relevant courts to decide.
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+Make sure there are no specific damages mentioned in any legal document. They should always be left to the relevant courts to decide.  
+<!--endintro-->
