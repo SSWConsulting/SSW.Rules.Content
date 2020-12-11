@@ -12,11 +12,11 @@ related: []
 
 ---
 
+If your descriptions have good comments then you don't need to go back to paperwork to investigate things.
 
-<p>If your descriptions have good comments then you don't need to go back to paperwork to investigate things. </p><p>e.g.  The period the invoice relates to.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img alt="memo field bad example" src="memo-field-bad.jpg" />
-</dt><dd>Figure: Bad Example</dd></dl><dl class="goodImage"><dt><img alt="memo field good example" src="memo-field-good.jpg" />
-</dt><dd>Figure: Good Example</dd></dl>
+e.g.  The period the invoice relates to.
 
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img alt="memo field bad example" src="memo-field-bad.jpg">
+&lt;/dt&gt;<dd>Figure: Bad Example</dd></dl><dl class="goodImage">&lt;dt&gt;<img alt="memo field good example" src="memo-field-good.jpg">
+&lt;/dt&gt;<dd>Figure: Good Example</dd></dl>
