@@ -10,20 +10,13 @@ related: []
 
 ---
 
+Once you have created your issue (request) and you remain the [Reporter](/Pages/ReportesAndAssignees.aspx), there are several ways you can track them, the most important is via your [Dashboard](/Pages/TrackingRequests.aspx) ; see how to intepret your dashboard [here](/Pages/SystemDashboard.aspx).   
+<!--endintro-->
 
-Once you have created your issue (request) and you remain the <a href="/Pages/ReportesAndAssignees.aspx" shape="rect">Reporter</a>, there are several ways&#160;you can track them, the&#160;most important is via your&#160;<a target="_blank" class="ms-rteCustom-External" href="/Pages/TrackingRequests.aspx" shape="rect">Dashboard</a>&#160;; see how to intepret your dashboard <a href="/Pages/SystemDashboard.aspx" shape="rect">here</a>. 
-​​
-<br><excerpt class='endintro'></excerpt><br>
+ Other ways are:
 
-  <br>
-Other ways are&#58;<br>
-<ul>
-    <li>using the filter <a target="_blank" class="ms-rteCustom-External" href="/Pages/TrackingRequests.aspx" shape="rect">My Reported Unresolved Issues</a> </li>
-    <li>for SysAdmin using the filter <a target="_blank" class="ms-rteCustom-External" href="/Pages/TrackingRequests.aspx" shape="rect">SysAdmin Unresolved</a>&#160;shows where your request is in the queue </li>
-    <li>placing&#160;shared filters in your favouries with&#160;<a target="_blank" class="ms-rteCustom-External" href="/Pages/TrackingRequests.aspx" shape="rect">Manage Filters</a> </li>
-    <li>creating your own filters and sharing them, do this with a&#160;<a target="_blank" class="ms-rteCustom-External" href="/Pages/TrackingRequests.aspx" shape="rect">Find Issues </a>and then save it as a filter and share it </li>
-    <li>make&#160;shared dashboards your favourites and create new ones with&#160;<a target="_blank" class="ms-rteCustom-External" href="/Pages/TrackingRequests.aspx" shape="rect">Manage Dashboards</a> </li>
-</ul>
-
-
-
+* using the filter [My Reported Unresolved Issues](/Pages/TrackingRequests.aspx)
+* for SysAdmin using the filter [SysAdmin Unresolved](/Pages/TrackingRequests.aspx) shows where your request is in the queue
+* placing shared filters in your favouries with [Manage Filters](/Pages/TrackingRequests.aspx)
+* creating your own filters and sharing them, do this with a [Find Issues](/Pages/TrackingRequests.aspx)and then save it as a filter and share it
+* make shared dashboards your favourites and create new ones with [Manage Dashboards](/Pages/TrackingRequests.aspx)
