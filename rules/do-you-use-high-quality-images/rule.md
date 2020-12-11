@@ -21,6 +21,6 @@ related: []
 <p>For this reason, we encourage you to choose only high quality photos and to avoid cartoons and word art.</p>
 
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="/PublishingImages/low-quality.jpg" alt="low-quality.jpg" /></dt><dd>Figure&#58; Bad Example - What is this monstrosity!</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/high-quality.jpg" alt="high-quality.jpg" /></dt><dd>Figure&#58; Figure&#58; Good Example - Looks classy, that</dd></dl>​<br>
+<dl class="badImage"><dt><img src="low-quality.jpg" alt="low-quality.jpg" /></dt><dd>Figure: Bad Example - What is this monstrosity!</dd></dl><dl class="goodImage"><dt><img src="high-quality.jpg" alt="high-quality.jpg" /></dt><dd>Figure: Figure: Good Example - Looks classy, that</dd></dl>​<br>
 
 
