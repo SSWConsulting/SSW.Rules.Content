@@ -12,19 +12,11 @@ related: []
 
 ---
 
+When setting up a computer in a corporate environment – you would usually have a standard image with all the software everyone uses already installed. This isn’t the case for VHD’s. Install the following software:
+
+* SnagIt (Screen Capture)
+* O365 Apps
+* TeamViewer
 
 
-  <p>When setting up a computer in a corporate environment – you would usually have a standard image with all the software everyone uses already installed. This isn’t the case for VHD’s. Install the following software&#58;</p>
-<ul>
-    <li>​SnagIt (Screen Capture) </li>
-    
-    <li>O365 Apps</li>
-    
-    
-    <li>TeamViewer </li>
-</ul>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
