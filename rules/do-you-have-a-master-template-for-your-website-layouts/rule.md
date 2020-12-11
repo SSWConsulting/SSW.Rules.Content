@@ -14,12 +14,7 @@ related: []
 
 ---
 
+Consistency across your similar pages (such as standards pages in this case) is very important and should be made easy to implement.   
+<!--endintro-->
 
-Consistency across your similar pages (such as standards pages in this case) is very important and should be made easy to implement. 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p>Guidelines and standards&#160;for the SSW website pages can be found at&#160;<span style="line-height&#58;20px;"><a href="https&#58;//www.ssw.com.au/ssw/company/Web-Reference.aspx">SSW&#160;Web Design References </a> .</span></p>
-
-
-
+Guidelines and standards for the SSW website pages can be found at [SSW Web Design References](https&#58;//www.ssw.com.au/ssw/company/Web-Reference.aspx) .
