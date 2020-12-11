@@ -15,14 +15,8 @@ related:
 
 ---
 
+1. Access2000: Hidden tables are not shown in the list of tables available for upsizing regardless Tools-&gt;Options-&gt;View
+2. All versions of Access: Tables created by ADODB ("CREATE TABLE ...") are not shown at all
 
 
-  <ol>
-    <li>Access2000&#58; Hidden tables are not shown in the list of tables available for upsizing regardless Tools-&gt;Options-&gt;View </li>
-    <li>All versions of Access&#58; Tables created by ADODB (&quot;CREATE TABLE ...&quot;) are not shown at all </li>
-</ol>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
