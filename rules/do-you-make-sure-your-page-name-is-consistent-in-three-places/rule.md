@@ -10,16 +10,16 @@ related: []
 
 ---
 
+It's a good idea to make sure your page names are consistent       between:
 
-<p>
-                    It's a good idea to make sure your page names are consistent 
-     between:
-                </p><ol><li>URL</li><li>Page Title</li><li>Navigation</li></ol>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="../../assets/BadPageName.jpg" alt="" style="margin:5px;" />
-   </dt><dd>Figure: Bad example - Inconsistency everywhere!</dd></dl><dl class="goodImage"><dt> 
-      <img src="../../assets/GoodPageName.jpg" alt="" style="margin:5px;" />
-   </dt><dd>Figure: Good example - Title, Header and Navigation Menu item have the same text.</dd></dl>
+1. URL
+2. Page Title
+3. Navigation
 
 
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt; 
+      <img src="../../assets/BadPageName.jpg" alt="" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Bad example - Inconsistency everywhere!</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img src="../../assets/GoodPageName.jpg" alt="" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Good example - Title, Header and Navigation Menu item have the same text.</dd></dl>
