@@ -12,12 +12,7 @@ related: []
 
 ---
 
+You should use a custom domain adds to your company brand.
 
-<p>You should use a custom domain adds to your company brand.</p>
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><p class="greyBox">bit.ly.com/MyShortenedLink</p></dt><dd>Figure&#58; Bad example</dd></dl>
-<dl class="goodImage">
-   <dt><p class="greyBox">r.ssw.com/MyShortenedLink</p></dt><dd>Figure&#58; Good example (for SSW)</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<br><br>::: greybox<br>bit.ly.com/MyShortenedLink<br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Bad example</dd></dl><dl class="goodImage">   &lt;dt&gt;<br><br>::: greybox<br>r.ssw.com/MyShortenedLink<br>:::<br><br>&lt;/dt&gt;<dd>Figure&#58; Good example (for SSW)</dd></dl>
