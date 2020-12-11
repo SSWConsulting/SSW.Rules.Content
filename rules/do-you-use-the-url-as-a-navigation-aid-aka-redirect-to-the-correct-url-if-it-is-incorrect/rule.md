@@ -14,11 +14,12 @@ related: []
 
 ---
 
+<dl class="image"><br>`youtube: http&#58;//www.youtube.com/embed/1j3m4A9Tlhc`<br> 
+<dd>Figure&#58; Watch the URL working as a navigation aid</dd></dl>
+MVC gives us great URLs, but you need to help users navigate via the URL.  If the user changes a URL, and the route parameters no longer match, you should correct them with a redirect.
 
-<dl class="image"><iframe width="560" height="315" src="http&#58;//www.youtube.com/embed/1j3m4A9Tlhc" frameborder="0"></iframe> 
-<dd>Figure&#58; Watch the URL working as a navigation aid</dd></dl><p>MVC gives us great URLs, but you need to help users navigate via the URL.  If the user changes a URL, and the route parameters no longer match, you should correct them with a redirect.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><div class="greyBox"><pre>public ActionResult Edit(string employeename, int id)
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<br><br>::: greybox<br><pre>public ActionResult Edit(string employeename, int id)
 &#123;
     var model = _repository.GetEmployee(id);
 
@@ -31,8 +32,15 @@ related: []
 
     return View(model);
 &#125;
-</pre></div></dt><dd><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example - the comment says it all</span></dd></dl>
-
-Wordpress and Stack Overflow&#160;have&#160;URL formats that&#160;do&#160;this very well&#58;<div><br></div><div><span class="ssw-rteStyle-CodeArea">http&#58;//tv.ssw.com/3102/business-value</span><span class="ssw-rteStyle-FigureGood">Good example&#58;&#160;If the &quot;business-value&quot; part of the URL changes, the page will redirect to the correct location.</span></div><div><br></div><div><span class="ssw-rteStyle-CodeArea">http&#58;//stackoverflow.com/questions/729921/settimeout-or-setinterval</span></div><div><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example -&#160;If the &quot;settimeout-or-setinterval&quot; part of th eURL changes, the page will redirect to the correct location.</span></div>
+</pre><br>:::<br><br>&lt;/dt&gt;<dd><span class="ssw-rteStyle-FigureGood">Figure&#58; Good example - the comment says it all</span></dd></dl>  Wordpress and Stack Overflow have URL formats that do this very well:
 
 
+
+http://tv.ssw.com/3102/business-valueGood example: If the "business-value" part of the URL changes, the page will redirect to the correct location.
+
+
+
+
+http://stackoverflow.com/questions/729921/settimeout-or-setinterval
+
+Figure: Good example - If the "settimeout-or-setinterval" part of th eURL changes, the page will redirect to the correct location.
