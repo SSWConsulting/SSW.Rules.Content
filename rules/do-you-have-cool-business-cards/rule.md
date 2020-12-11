@@ -12,13 +12,8 @@ related: []
 
 ---
 
-
-<p>You should spend the extra dollars to ensure that you get nice cards and your employees are proud of them. That way they will give them away at every handshake, which is fantastic free advertising for your company.​<br></p>
-<dl class="goodImage">
-   <dt>
-      <img src="ssw-businesscards.png" alt="" />
-   </dt><dd>​​Figure: SSW Cube Business Cards</dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+You should spend the extra dollars to ensure that you get nice cards and your employees are proud of them. That way they will give them away at every handshake, which is fantastic free advertising for your company.
+<dl class="goodImage">   &lt;dt&gt;
+      <img src="ssw-businesscards.png" alt="">
+   &lt;/dt&gt;<dd>Figure: SSW Cube Business Cards</dd></dl>
+<!--endintro-->
