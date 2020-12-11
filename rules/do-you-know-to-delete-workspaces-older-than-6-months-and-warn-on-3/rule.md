@@ -18,26 +18,30 @@ related: []
 
 ---
 
+The more workspaces you have the more load the TFS server is under when users check in and out. TFS has to check all of the workspaces for other checkouts of the same files which can be intensive if you have a lot of workspaces.
 
-<p>The more workspaces you have the more load the TFS server is under when users check in and out. TFS has to check all of the workspaces for other checkouts of the same files which can be intensive if you have a lot of workspaces.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>If a developer had code checked out to a workspace that they have not even looked at in months, what is the likelihood that they even remember what changes they were making?</p>
-<ul>Why do workspaces build up? <li>Developers use multiple computers </li>
-<li>Developers use volatile virtual computers </li>
-<li>Developers reinstall their workstation </li>
-<li>Developers get new workstations </li>
-<li>Developers leave </li></ul>
-<ul>Developer checklist: <li>Check workspaces often to see what you don't need </li>
-<li>Delete any workspaces you no longer need </li></ul>
-<ul>TFS Master Checklist: <li>Delete all workspaces that have not been edited in 6 months </li>
-<li>Warn developers for workspaces that have not been accessed in 3 months </li></ul>
-<dl><dt><img alt="Longtime Workspaces" src="LongtimeWorkspaces.jpg" /></dt>
-<dd>Figure: Bad example - Rebecca has a workspace that has not been accessed in a while </dd></dl>
-<dl><dt><img alt="Current Workspaces" src="CurrentWorkspaces.jpg" /></dt>
+<!--endintro-->
+
+If a developer had code checked out to a workspace that they have not even looked at in months, what is the likelihood that they even remember what changes they were making?
+
+Why do workspaces build up?* Developers use multiple computers
+* Developers use volatile virtual computers
+* Developers reinstall their workstation
+* Developers get new workstations
+* Developers leave
+
+
+Developer checklist:* Check workspaces often to see what you don't need
+* Delete any workspaces you no longer need
+
+
+TFS Master Checklist:* Delete all workspaces that have not been edited in 6 months
+* Warn developers for workspaces that have not been accessed in 3 months
+
+<dl>&lt;dt&gt;<img alt="Longtime Workspaces" src="LongtimeWorkspaces.jpg">&lt;/dt&gt;
+<dd>Figure: Bad example - Rebecca has a workspace that has not been accessed in a while </dd></dl><dl>&lt;dt&gt;<img alt="Current Workspaces" src="CurrentWorkspaces.jpg">&lt;/dt&gt;
 <dd>Figure: Good example - All of Julian's workspaces are current </dd></dl>
-<ol><li>Open VS 2010, File | Source Control | WorkSpaces, click the "Show remote workspaces": <dl><dt><img alt="Manage Workspaces " src="ManageWorkspaces.jpg" /></dt>
-<dd>Figure: Manage Workspaces </dd></dl></li>
-<li>Keep press "Ctrl", select the workspaces which haven't been used for a long time. </li>
-<li>Click "Remove" button.</li></ol>
-
-
+1. Open VS 2010, File | Source Control | WorkSpaces, click the "Show remote workspaces": <dl>&lt;dt&gt;<img alt="Manage Workspaces " src="ManageWorkspaces.jpg">&lt;/dt&gt;
+<dd>Figure: Manage Workspaces </dd></dl>
+2. Keep press "Ctrl", select the workspaces which haven't been used for a long time.
+3. Click "Remove" button.
