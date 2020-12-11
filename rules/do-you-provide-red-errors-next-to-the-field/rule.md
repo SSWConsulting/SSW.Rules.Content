@@ -15,6 +15,6 @@ related: []
 
 Too often error messages are a summary at the top or the bottom of the page. Instead please provide an error message per validation error, next to the field (and in red!).​
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt><img src="/PublishingImages/red-error.jpg" alt="" /></dt><dd>Figure&#58; Good example - ​Provide red errors next to the field</dd></dl>
+<dl class="goodImage"><dt><img src="red-error.jpg" alt="" /></dt><dd>Figure: Good example - ​Provide red errors next to the field</dd></dl>
 
 
