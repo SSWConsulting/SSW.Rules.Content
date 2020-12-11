@@ -15,8 +15,8 @@ In a similar fashion to the <a shape="rect" href="/Pages/DemoSlide.aspx">Do you 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/SSWQuestionMark.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureNormal">Figure&#58; Use an &quot;?&quot; image to tell the presenter to ask a question (if you don't have an image - just use the &quot;?&quot; text) </dd>
+    <dt><img class="ms-rteCustom-ImageArea" src="SSWQuestionMark.gif" alt="" /> </dt>
+    <dd class="ms-rteCustom-FigureNormal">Figure: Use an "?" image to tell the presenter to ask a question (if you don't have an image - just use the "?" text) </dd>
 </dl>
 
 
