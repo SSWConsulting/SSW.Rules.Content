@@ -14,23 +14,16 @@ related: []
 
 ---
 
+Always [plan for a catastrophic disaster](http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#assumeCatastrophic), in the event of errors when testing:
 
-
-  <p>Always <a shape="rect" href="http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#assumeCatastrophic">plan for a catastrophic disaster</a>, in the event of errors when testing:</p>
-<ol>
-    <li>Take the TFS2010 server offline </li>
-    <li>Bring the TFS2008 server online </li>
-    <li>Change the DNS entries for tfs.northwind.com from the IP for the TFS2010 server to the IP for the TFS2008 server
-    <ol>
-        <li>Internal DNS Server </li>
-        <li>External DNS Server </li>
-    </ol>
-    </li>
-</ol>
-<p><img alt="TFS In DNS" src="TFSDNS.png" /><br>
-Figure: DNS Pointer for TFS can be easily changed</p>
-
-<br><excerpt class='endintro'></excerpt><br>
+1. Take the TFS2010 server offline
+2. Bring the TFS2008 server online
+3. Change the DNS entries for tfs.northwind.com from the IP for the TFS2010 server to the IP for the TFS2008 server
+    1. Internal DNS Server
+    2. External DNS Server
 
 
 
+![DNS Pointer for TFS can be easily changed](TFSDNS.png)
+
+<!--endintro-->
