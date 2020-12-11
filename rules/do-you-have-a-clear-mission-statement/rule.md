@@ -12,9 +12,14 @@ related: []
 
 ---
 
+To ensure everyone is on the same page, you can create a mission statement that continually drives your marketing plan. Is a short statement that outlines why your organization exists, what its overall goal is and it identifies the goal of its operations, e.g. what kind of product or service it provides, its primary customers or market, and its geographical region of operation and target audience. 
 
-To ensure everyone is on the same page, you can create a mission statement that continually drives your marketing plan. Is a short statement that outlines why your organization exists, what its overall goal is and it identifies the goal of its operations, e.g. what kind of product or service it provides, its primary customers or market, and its geographical region of operation and target audience. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>A good mission statement can help in three main ways: <br></p><ul><li>It provides an outline of how the marketing plan should seek to fulfill your overall goals/mission </li><li>It provides a means of evaluating and screening your marketing plan; e.g. are your daily marketing decisions consistent with the overall mission </li><li>It provides an incentive to implement the marketing plan, and keep updating and improving it<br></li></ul><dl class="image"><dt><img src="mission-statement.png" alt="mission-statement.png" style="width:750px;" /></dt><dd>Figure: A clear business mission should include the purpose, value, standard behaviors, strategy, and scope of your business. Having these clearly defined allows your team to always be pushing your overall goals​<br></dd></dl>
+<!--endintro-->
 
+A good mission statement can help in three main ways:
 
+* It provides an outline of how the marketing plan should seek to fulfill your overall goals/mission
+* It provides a means of evaluating and screening your marketing plan; e.g. are your daily marketing decisions consistent with the overall mission
+* It provides an incentive to implement the marketing plan, and keep updating and improving it
+
+<dl class="image">&lt;dt&gt;<img src="mission-statement.png" alt="mission-statement.png" style="width:750px;">&lt;/dt&gt;<dd>Figure: A clear business mission should include the purpose, value, standard behaviors, strategy, and scope of your business. Having these clearly defined allows your team to always be pushing your overall goals<br></dd></dl>
