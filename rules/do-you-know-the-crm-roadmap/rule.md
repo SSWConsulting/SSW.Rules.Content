@@ -12,9 +12,7 @@ related: []
 
 ---
 
+The Dynamics CRM roadmap provides a snapshot of what Microsoft has been working on in the Dynamics CRM business. You can use the roadmap to find out what was recently made generally available, released into public preview, are still being developed and tested, or are no longer developed.
 
-​​​The Dynamics CRM roadmap provides a snapshot of what Microsoft has been working on in the Dynamics CRM business. You can use the roadmap to find out what was recently made generally available, released into public preview, are still being developed and tested, or are no longer developed.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image">​​<dt><img src="image1.PNG" alt="image1.PNG" /></dt><dd>Figure: Find ​out more at the official <a href="http://crmroadmap.dynamics.com/" target="_blank">Microsoft Dynamics CRM Roadmap​</a>.​​</dd></dl>
-
-
+<!--endintro-->
+<dl class="image">&lt;dt&gt;<img src="image1.PNG" alt="image1.PNG">&lt;/dt&gt;<dd>Figure: Find out more at the official <a href="http://crmroadmap.dynamics.com/" target="_blank">Microsoft Dynamics CRM Roadmap</a>.</dd></dl>
