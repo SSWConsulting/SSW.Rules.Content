@@ -14,24 +14,19 @@ related: []
 
 ---
 
+We are always disappointed when adding version information to a Word document. When you use the Word version you get a number that indicates the number of times the document has been saved and not a proper version number. 
 
-​We are always disappointed when adding version information to a Word document. When you use the Word version you get a number that indicates the number of times the document has been saved and not a proper version number.
-<div><br>
-It is possible to get the number into Word for the version of the document on the SharePoint document library.
-</div>
+<br>It is possible to get the number into Word for the version of the document on the SharePoint document library.
 
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-   <strong>Follow the guide here</strong>: 
-   <a href="http://www.bryansgeekspeak.com/2009/03/moss-2007-show-sharepoint-version.html" target="_blank">http://www.bryansgeekspeak.com/2009/03/moss-2007-show-sharepoint-version.html</a></p><p> 
-   <strong>Note:</strong> This also works in SharePoint 2010 and Office 2010. </p>
-<dl class="goodImage">
-   <dt>
-      <img src="VersionInWord.jpg" alt="" />
-   </dt><dd>Figure: Good example, you see the formatted SharePoint version number </dd></dl><dl class="badImage"><dt>
-      <img src="BadVersioning.png" alt="" style="width:90%;" />
-   </dt><dd>Bad Example</dd></dl><dl class="goodImage"><dt>
-      <img src="GoodVersioning.png" alt="" style="width:90%;" />
-   </dt><dd>Good Example</dd></dl>
+<!--endintro-->
 
+**Follow the guide here** :     http://www.bryansgeekspeak.com/2009/03/moss-2007-show-sharepoint-version.html
 
+**Note:** This also works in SharePoint 2010 and Office 2010.
+<dl class="goodImage">   &lt;dt&gt;
+      <img src="VersionInWord.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: Good example, you see the formatted SharePoint version number </dd></dl><dl class="badImage">&lt;dt&gt;
+      <img src="BadVersioning.png" alt="" style="width:90%;">
+   &lt;/dt&gt;<dd>Bad Example</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="GoodVersioning.png" alt="" style="width:90%;">
+   &lt;/dt&gt;<dd>Good Example</dd></dl>
