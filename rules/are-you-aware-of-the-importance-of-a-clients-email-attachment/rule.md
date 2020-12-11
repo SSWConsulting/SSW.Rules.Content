@@ -20,12 +20,12 @@ To keep the history, it is very important to embed the attachment files into the
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  ​​<img src="/PublishingImages/EmailAttachImage_1_small.jpg" alt="The image is in attachment. " class="ms-rteCustom-ImageArea" /><p>
-<font size="+0" class="ms-rteCustom-FigureBad">Figure&#58;&#160;Bad Example - The image is in attachment. </font><br>
-<img src="/PublishingImages/EmailAttachImage_2.JPG" alt="The image is included in the context" class="ms-rteCustom-ImageArea" /><br>
-<font size="+0" class="ms-rteCustom-FigureGood">Figure&#58;&#160;Good Example - The image is included in the context.</font><br>
-PS&#58; Clients make attachments because they are using OWA and you can't paste an image in - see suggestion for OWA </p>
-<p>&#160;</p>
+  ​​<img src="EmailAttachImage_1_small.jpg" alt="The image is in attachment. " class="ms-rteCustom-ImageArea" /><p>
+<font size="+0" class="ms-rteCustom-FigureBad">Figure: Bad Example - The image is in attachment. </font><br>
+<img src="EmailAttachImage_2.JPG" alt="The image is included in the context" class="ms-rteCustom-ImageArea" /><br>
+<font size="+0" class="ms-rteCustom-FigureGood">Figure: Good Example - The image is included in the context.</font><br>
+PS: Clients make attachments because they are using OWA and you can't paste an image in - see suggestion for OWA </p>
+<p> </p>
 
 
 
