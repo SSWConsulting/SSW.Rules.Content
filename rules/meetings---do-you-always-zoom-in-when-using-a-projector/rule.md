@@ -19,10 +19,10 @@ related: []
  
                <dl class="image">
                  <dt>
-                    <img src="/PublishingImages/ZoomInEmail.jpg" alt="Zoom in email " style="width&#58;550px;" />
+                    <img src="ZoomInEmail.jpg" alt="Zoom in email " style="width:550px;" />
                   </dt>
                   <dd>
-                    Figure&#58; Zoom in email             
+                    Figure: Zoom in email             
                    </dd>
                 </dl>
 
