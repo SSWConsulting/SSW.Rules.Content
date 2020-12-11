@@ -17,12 +17,12 @@ By placing a little visual cue on your slide, you can remind yourself to show a 
 
   <p>The icon allows you to skip it when running short on time, without upsetting the audience.</p>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/DemoBad.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureBad">Figure&#58; Bad example - demo text shown. The problem is if you run out of time you need to say &quot;Sorry, let's skip that demo since I am short of time&quot;. Then the audience feels cheated</dd>
+    <dt><img class="ms-rteCustom-ImageArea" src="DemoBad.gif" alt="" /> </dt>
+    <dd class="ms-rteCustom-FigureBad">Figure: Bad example - demo text shown. The problem is if you run out of time you need to say "Sorry, let's skip that demo since I am short of time". Then the audience feels cheated</dd>
 </dl>
 <dl>
-    <dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/demo.gif" alt="" /> </dt>
-    <dd class="ms-rteCustom-FigureGood">Figure&#58; Use an icon to indicate a &quot;demo time&quot;</dd>
+    <dt><img class="ms-rteCustom-ImageArea" src="demo.gif" alt="" /> </dt>
+    <dd class="ms-rteCustom-FigureGood">Figure: Use an icon to indicate a "demo time"</dd>
 </dl>
 
 
