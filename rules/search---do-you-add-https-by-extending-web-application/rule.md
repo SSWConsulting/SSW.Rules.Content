@@ -10,9 +10,17 @@ related: []
 
 ---
 
+It is recommended to bind https by extending web applications in central admin site, rather than configuring in IIS
 
-<p>​​It is recommended to bind https by extending web applications in central admin site, rather than configuring in IIS</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="ssw15-rteElement-ImageArea"><img src="configurationInIIS.jpg" alt="configurationInIIS.jpg" style="margin:5px;width:653px;" /></dl><dd class="ssw15-rteElement-FigureBad">Bad example: Add https binding in IIS</dd><dl class="ssw15-rteElement-ImageArea"><img src="extendwebapplication.jpg" alt="extendwebapplication.jpg" style="margin:5px;width:808px;" /></dl><dd class="ssw15-rteElement-FigureGood">​Good example: Extend web application and assign https to the Internet zone</dd><p class="ssw15-rteElement-P">​​<br></p>
+<!--endintro-->
+<dl class="ssw15-rteElement-ImageArea"><img src="configurationInIIS.jpg" alt="configurationInIIS.jpg" style="margin:5px;width:653px;"></dl>
 
+::: bad
+Bad example: Add https binding in IIS
+:::
 
+<dl class="ssw15-rteElement-ImageArea"><img src="extendwebapplication.jpg" alt="extendwebapplication.jpg" style="margin:5px;width:808px;"></dl>
+
+::: good
+Good example: Extend web application and assign https to the Internet zone
+:::
