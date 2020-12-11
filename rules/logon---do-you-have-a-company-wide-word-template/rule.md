@@ -18,10 +18,48 @@ related:
 
 ---
 
+A company-wide template will be implemented, so users have automatic footers to save time and give better branding.
+<dl class="badImage">&lt;dt&gt;<img src="word-template-bad.jpg" alt="word-template-bad.jpg">&lt;/dt&gt;<dd>Figure: Bad Example - creating an email/document does not have the company templates</dd></dl><dl class="goodImage">&lt;dt&gt; <img src="word-template-good.jpg" alt="word-template-good.jpg">&lt;/dt&gt;<dd>Figure: Good Example - creating an email/document with the company templates<br></dd></dl>
+<!--endintro-->
 
-A company-wide template will be implemented, so users have automatic footers to save time and give better branding.​​<br>
-<dl class="badImage"><dt><img src="word-template-bad.jpg" alt="word-template-bad.jpg" /></dt><dd>Figure: Bad Example - creating an email/document does not have the company templates</dd></dl><dl class="goodImage"><dt> <img src="word-template-good.jpg" alt="word-template-good.jpg" /></dt><dd>Figure: Good Example - creating an email/document with the company templates​<br></dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-<p>How to have a company-wide Word template:<br></p><ul><li>Modify your Normal.dotm file to have the headings and format that you want for Word document</li><li>Create standard employee email footer files e.g. JamesZhou.htm or JamesZhou.txt</li><li>Put the files on a network location - this is the place that will have the master copies <br></li><li>​Have a logon script which is set up through Group policy that will copy the file to the users' computer when they logon.<br>e.g. a PowerShell login script like <a href="https://github.com/SSWConsulting/SSWSysAdmins.LoginScript">https://github.com/SSWConsulting/SSWSysAdmins.LoginScript</a><br></li></ul><div><p class="ssw15-rteElement-CodeArea">ECHO Copy Office Templates To Workstation >> %LogonLogFile%<br>call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Normal.dot" "%APPDATA%\Microsoft\Templates\Normal.dot" %LogonLogFile%<br>call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Normal.dotm" "%APPDATA%\Microsoft\Templates\Normal.dotm" %LogonLogFile%<br>call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\ProposalNormalTemplate.dotx" "%APPDATA%\Microsoft\Templates\ProposalNormalTemplate.dotx" %LogonLogFile%<br>call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dot" "%APPDATA%\Microsoft\Templates\NormalEmail.dot" %LogonLogFile%<br>call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Microsoft_Normal.dotx" "%APPDATA%\Microsoft\Templates\Microsoft_Normal.dotx" %LogonLogFile%<br>call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Blank.potx" "%APPDATA%\Microsoft\Templates\Blank.potx" %LogonLogFile%<br>xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotm" "%APPDATA%\Microsoft\Templates\" >> %LogonLogFile%<br>xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotx" "%APPDATA%\Microsoft\QuickStyles\" >> %LogonLogFile%<br>ECHO Templates Copied <br></p><dd class="ssw15-rteElement-FigureBad">Figure: Bad Example - This is a snippet of an old login script</dd><p class="ssw15-rteElement-YellowBorderBox">​ You can automatically have your SSW Word doc template on sign-in via a script. See https://github.com/SSWConsulting/SSWSysAdmins.LoginScript</p></div><dd class="ssw15-rteElement-FigureGood">Good Example - New Login script on Github</dd><dt><br></dt><div><p><b>Note #1:</b> We don't want people using .RTF emails so we include this message in SSW.rtf. Be aware that we don't want to use RTF because of <a href="https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Outlook.aspx#RemoveRTF">Remove RTF as an option or explain when it is a good choice</a>.<br></p><p><b>Note #2: </b>If you use a Mac computer, a login script will not work. In order to use a Word template, you must open the template on Word locally, hit "Save as Template", and then upload that document to Teams.​<br></p></div>
+How to have a company-wide Word template:
+
+* Modify your Normal.dotm file to have the headings and format that you want for Word document
+* Create standard employee email footer files e.g. JamesZhou.htm or JamesZhou.txt
+* Put the files on a network location - this is the place that will have the master copies
+* Have a logon script which is set up through Group policy that will copy the file to the users' computer when they logon.
+e.g. a PowerShell login script like https://github.com/SSWConsulting/SSWSysAdmins.LoginScript
 
 
+
+ECHO Copy Office Templates To Workstation >> %LogonLogFile%
+call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Normal.dot" "%APPDATA%\Microsoft\Templates\Normal.dot" %LogonLogFile%
+call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Normal.dotm" "%APPDATA%\Microsoft\Templates\Normal.dotm" %LogonLogFile%
+call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\ProposalNormalTemplate.dotx" "%APPDATA%\Microsoft\Templates\ProposalNormalTemplate.dotx" %LogonLogFile%
+call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dot" "%APPDATA%\Microsoft\Templates\NormalEmail.dot" %LogonLogFile%
+call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Microsoft\_Normal.dotx" "%APPDATA%\Microsoft\Templates\Microsoft\_Normal.dotx" %LogonLogFile%
+call %ScriptFolder%\SSWLogonScript\BatchScript\SafeCopyNewerFile.bat "\\fileserver\DataSSW\DataSSWEmployees\Templates\Blank.potx" "%APPDATA%\Microsoft\Templates\Blank.potx" %LogonLogFile%
+xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotm" "%APPDATA%\Microsoft\Templates\" >> %LogonLogFile%
+xcopy /Y "\\fileserver\DataSSW\DataSSWEmployees\Templates\NormalEmail.dotx" "%APPDATA%\Microsoft\QuickStyles\" >> %LogonLogFile%
+ECHO Templates Copied
+
+
+::: bad
+Figure: Bad Example - This is a snippet of an old login script
+:::
+
+
+You can automatically have your SSW Word doc template on sign-in via a script. See https://github.com/SSWConsulting/SSWSysAdmins.LoginScript
+
+
+
+::: good
+Good Example - New Login script on Github
+:::
+
+&lt;dt&gt;
+&lt;/dt&gt;
+
+**Note #1:** We don't want people using .RTF emails so we include this message in SSW.rtf. Be aware that we don't want to use RTF because of [Remove RTF as an option or explain when it is a good choice](https://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Outlook.aspx#RemoveRTF).
+
+**Note #2:** If you use a Mac computer, a login script will not work. In order to use a Word template, you must open the template on Word locally, hit "Save as Template", and then upload that document to Teams.
