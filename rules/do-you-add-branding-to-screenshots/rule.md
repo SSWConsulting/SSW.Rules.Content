@@ -18,20 +18,20 @@ related: []
 
 
 <p>You can communicate better by using screenshots with balloons and other visual ​elements (arrows, shapes, and highlights) instead of only text. 
-   <a href="/Pages/HowToUseBalloons.aspx">Read the benefits of using screenshots here</a>.</p>​We recommend you define a standard style for your visual elements by changing the default colors and shapes&#160;according to your branding.​<br>
+   <a href="/Pages/HowToUseBalloons.aspx">Read the benefits of using screenshots here</a>.</p>​We recommend you define a standard style for your visual elements by changing the default colors and shapes according to your branding.​<br>
 <br><excerpt class='endintro'></excerpt><br>
 <h3 class="ssw15-rteElement-H3">More Information on SSW Branding<br></h3><dl class="badImage"><dt> 
-      <img src="/PublishingImages/2019-10-14-Snagit-No-Branding-Example.png" alt="2019-10-14-Snagit-No-Branding-Example.png" style="width&#58;750px;height&#58;464px;" /> 
-   </dt><dd>Figure&#58; Bad example - shapes being used and branding not followed<br></dd></dl><dl class="goodImage"><dt> 
-      <img src="/PublishingImages/2019-10-14-Snagit-Branding-Example.png" alt="2019-10-14-Snagit-Branding-Example.png" style="width&#58;750px;height&#58;464px;" /> 
+      <img src="2019-10-14-Snagit-No-Branding-Example.png" alt="2019-10-14-Snagit-No-Branding-Example.png" style="width:750px;height:464px;" /> 
+   </dt><dd>Figure: Bad example - shapes being used and branding not followed<br></dd></dl><dl class="goodImage"><dt> 
+      <img src="2019-10-14-Snagit-Branding-Example.png" alt="2019-10-14-Snagit-Branding-Example.png" style="width:750px;height:464px;" /> 
       <br> 
-   </dt><dd>Figure&#58; Good example - using balloons and arrows instead and brand colours used<br></dd></dl>
+   </dt><dd>Figure: Good example - using balloons and arrows instead and brand colours used<br></dd></dl>
 
-​<p class="ssw15-rteElement-SSW-Only">To use SSW branding on your next screenshots, you should have the latest version of Snagit (which is the leading screen capture utility) and import the theme.<br>Find SSW Snagit theme here&#58;&#160;<a href="file&#58;///fileserver/DataSSW/DataSSWEmployees/Templates/SSW.snagtheme">\\fileserver\DataSSW\DataSSWEmployees\Templates\SSW.snagtheme</a>.</p><dl class="image"><dt>
-      <img src="/PublishingImages/2019-10-14-Snagit-Themes.png" alt="2019-10-14-Snagit-Themes.png" style="width&#58;90%;" />
-   </dt><dd>Figure&#58; SSW theme already includes all tools you need with our branding<br></dd></dl><p>Instructions to create and use Snagit themes can be found at 
-   <a href="https&#58;//www.techsmith.com/tutorial-snagit-13-quick-style-themes.html?utm_source=product&amp;utm_medium=snagit&amp;utm_campaign=sw13">Quick Style Themes Tutorial</a>.​<br></p><p class="ssw15-rteElement-GreyBox"> 
-   <b>Tip #1&#58;</b>&#160;You can automatically have your SSW Snagit presets on&#160;sign​-in via a script. See&#160;<a href="https&#58;//github.com/SSWConsulting/LoginScript">https&#58;//github.com/SSWConsulting/LoginScript</a>.<br><b>Tip #2&#58; </b>Save your images in PNG instead of JPG for better quality.​<br></p><p> 
+​<p class="ssw15-rteElement-SSW-Only">To use SSW branding on your next screenshots, you should have the latest version of Snagit (which is the leading screen capture utility) and import the theme.<br>Find SSW Snagit theme here: <a href="file:///fileserver/DataSSW/DataSSWEmployees/Templates/SSW.snagtheme">\\fileserver\DataSSW\DataSSWEmployees\Templates\SSW.snagtheme</a>.</p><dl class="image"><dt>
+      <img src="2019-10-14-Snagit-Themes.png" alt="2019-10-14-Snagit-Themes.png" style="width:90%;" />
+   </dt><dd>Figure: SSW theme already includes all tools you need with our branding<br></dd></dl><p>Instructions to create and use Snagit themes can be found at 
+   <a href="https://www.techsmith.com/tutorial-snagit-13-quick-style-themes.html?utm_source=product&utm_medium=snagit&utm_campaign=sw13">Quick Style Themes Tutorial</a>.​<br></p><p class="ssw15-rteElement-GreyBox"> 
+   <b>Tip #1:</b> You can automatically have your SSW Snagit presets on sign​-in via a script. See <a href="https://github.com/SSWConsulting/LoginScript">https://github.com/SSWConsulting/LoginScript</a>.<br><b>Tip #2: </b>Save your images in PNG instead of JPG for better quality.​<br></p><p> 
    <br> 
 </p>
 
