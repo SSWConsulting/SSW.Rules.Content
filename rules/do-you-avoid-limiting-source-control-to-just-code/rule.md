@@ -18,18 +18,20 @@ related: []
 
 ---
 
-
-<ul>You can spend valuable developer time on every part of a project. The bulk of time is normally spent on coding up .cs, .vb, .resx and .aspx files. However, you could potentially have the following happen if you do not include other files in source control&#58; <li>lose work </li>
-<li>lose old versions of work </li>
-<li>have work overwritten</li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<ul>In particular, you should make it as easy as possible to see who changed what and who deleted what and allow a simple rollback to previous versions of non-code files. Files you should put in source control include&#58; <li>XSL files </li>
-<li>Word documents </li>
-<li>Excel Spreadsheets </li>
-<li>Visio Diagrams </li>
-<li>HTML files </li>
-<li>Image files, Flash animations and psd files&#160; (yes this takes room in your source control database - but we still want to be able to revert to an old version easily) </li></ul>
-<ul>Things you don't store are&#58; <li>Video files eg. avi </li>
-<li>Installers eg. .msi </li></ul>
+You can spend valuable developer time on every part of a project. The bulk of time is normally spent on coding up .cs, .vb, .resx and .aspx files. However, you could potentially have the following happen if you do not include other files in source control:* lose work
+* lose old versions of work
+* have work overwritten
 
 
+<!--endintro-->
+
+In particular, you should make it as easy as possible to see who changed what and who deleted what and allow a simple rollback to previous versions of non-code files. Files you should put in source control include:* XSL files
+* Word documents
+* Excel Spreadsheets
+* Visio Diagrams
+* HTML files
+* Image files, Flash animations and psd files  (yes this takes room in your source control database - but we still want to be able to revert to an old version easily)
+
+
+Things you don't store are:* Video files eg. avi
+* Installers eg. .msi
