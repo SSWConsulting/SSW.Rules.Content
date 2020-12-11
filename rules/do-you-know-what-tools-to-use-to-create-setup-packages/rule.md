@@ -14,15 +14,33 @@ related: []
 
 ---
 
+Market is full of tools that can create Setup packages, but only a few are really good.
 
-<p class="p1">​Market is full of tools that can create Setup packages, but only a few are really good. </p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="p1">
-   <span style="line-height:20.7999992370605px;"><strong>WiX</strong> is the ultimate tool which gives you complete freedom and control over Setup packages.</span></p><p class="p1">Here are reasons why WiX is the way to go:</p><ul class="ul1"><li class="li1">It is all done in XML</li><li class="li1">It integrates with Visual Studio</li><li class="li1">Full control over packages logic and UI</li><li class="li1">It is a recommended choice by Microsoft</li><li class="li1">It is FREE</li></ul><dl class="goodImage"><dt>
-      <img src="setup-packages-tool.jpg" alt="" />
-   </dt><dd>Figure: Good Example - WiX Installer for Code Auditor</dd></dl><p class="p1">But WiX has one bad side as well – learning curve is high. Not everyone can afford learning it. The alternative is Advanced Installer.</p><p class="p1">
-   <b>Advanced Installer</b> makes it easy for you to create Setup packages using a very sophisticated GUI. </p><p class="p1">A few reasons why Advanced Installer could be your choice:</p><ul class="ul1"><li class="li1">It has a very sophisticated and easy to use GUI</li><li class="li1">It gives you wide range of options (IIS, Dialog Editor, Custom Actions, Digital Signature, Auto Updater, App Virtualization, SCCM, etc)</li><li class="li1">​​Price vs performance ratio is great + it has a FREE version which is in many cases more than enough​</li></ul><dl class="goodImage"><dt>
-      <img src="advanced-installer.jpg" alt="" />​
-   </dt><dd>Figure: Good Example - Advanced Installer</dd></dl>
+<!--endintro-->
 
+**WiX** is the ultimate tool which gives you complete freedom and control over Setup packages.
 
+Here are reasons why WiX is the way to go:
+
+* It is all done in XML
+* It integrates with Visual Studio
+* Full control over packages logic and UI
+* It is a recommended choice by Microsoft
+* It is FREE
+
+<dl class="goodImage">&lt;dt&gt;
+      <img src="setup-packages-tool.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: Good Example - WiX Installer for Code Auditor</dd></dl>
+But WiX has one bad side as well – learning curve is high. Not everyone can afford learning it. The alternative is Advanced Installer.
+
+**Advanced Installer** makes it easy for you to create Setup packages using a very sophisticated GUI.
+
+A few reasons why Advanced Installer could be your choice:
+
+* It has a very sophisticated and easy to use GUI
+* It gives you wide range of options (IIS, Dialog Editor, Custom Actions, Digital Signature, Auto Updater, App Virtualization, SCCM, etc)
+* Price vs performance ratio is great + it has a FREE version which is in many cases more than enough
+
+<dl class="goodImage">&lt;dt&gt;
+      <img src="advanced-installer.jpg" alt="">
+   &lt;/dt&gt;<dd>Figure: Good Example - Advanced Installer</dd></dl>
