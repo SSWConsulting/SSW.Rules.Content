@@ -12,6 +12,9 @@ index:
 - do-you-use-the-best-libraries-for-icons
 
 ---
+### Twitter Bootstrap & ASP.NET MVC - Intro / Quickstart with Ben Cull
 
-<h3>Twitter Bootstrap &amp; ASP.NET MVC - Intro / Quickstart with Ben Cull</h3><p>In this video, Ben Cull walks us through Bootstrap, how it impacts your development experience and how to get the most out of it to produce functional and visually pleasing solutions.</p>​ ​<iframe width="560" height="315" src="https&#58;//www.youtube.com/embed/bIGiUSMBwoo" frameborder="0"></iframe>​​​
+In this video, Ben Cull walks us through Bootstrap, how it impacts your development experience and how to get the most out of it to produce functional and visually pleasing solutions.
+ 
+`youtube: https://www.youtube.com/embed/bIGiUSMBwoo`
 
