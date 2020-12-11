@@ -12,13 +12,10 @@ related: []
 
 ---
 
-
-​Calling Thread.Sleep on your Silverlight application causes the UI thread to sleep. That means the application is not responsive.<br>
-If you want to delay something, you can use a <a href="http&#58;//msdn.microsoft.com/en-us/library/system.windows.media.animation.storyboard.aspx">storyboard</a>. 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <font class="ms-rteCustom-CodeArea" size="+0">Thread.Sleep(5000); <br>
+Calling Thread.Sleep on your Silverlight application causes the UI thread to sleep. That means the application is not responsive.
+ If you want to delay something, you can use a [storyboard](http&#58;//msdn.microsoft.com/en-us/library/system.windows.media.animation.storyboard.aspx).   
+<!--endintro-->
+<font class="ms-rteCustom-CodeArea">Thread.Sleep(5000); <br>
 this.Dispatcher.BeginInvoke(new Action(() =&gt; <br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#123; <br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; //Try to reconnect in the background <br>
@@ -34,9 +31,4 @@ sb.Completed += (ds, de) =&gt; this.Dispatcher.BeginInvoke(new Action(() =&gt; <
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; //Try to reconnect in the background <br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Connect.Execute(null); <br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#125;)); <br>
-sb.Begin(); <br>
-</font>
-  <font class="ms-rteCustom-FigureGood" size="+0">GOOD&#58; Use a Storyboard with a duration of the delay and once the Storyboard is finished running </font>
-
-
-
+sb.Begin(); <br></font><font class="ms-rteCustom-FigureGood">GOOD&#58; Use a Storyboard with a duration of the delay and once the Storyboard is finished running </font>
