@@ -12,20 +12,16 @@ related: []
 
 ---
 
+When you move to SharePoint 2010, nothing is to unexpectedly disappear. So prior to the migration, you need to find out which solutions you currently have installed and decide if you will be installing them on the new server.   
+<!--endintro-->
 
-When you move to SharePoint 2010, nothing is to unexpectedly disappear. So prior to the migration, you need to find out which solutions you currently have installed and decide if you will be installing them on the new server. 
-
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>On the SharePoint 2007 Server, open 
-      <b>Central Administration</b> and go to 
-      <b>Operations | Solution Management</b> </li><li>Copy the 
-      <b>Solution Name, Status</b> and 
-      <b>Deployed To</b> into the following table. This will ensure you deploy all the solutions you had on your old server to the SharePoint 2010 server </li><li>Cross out any solutions that you will not be migrating </li><li>Get the SharePoint master to sign off on the solution list </li></ol>
-<img width="720" height="568" src="MigrateSolutionsList.png" alt="" style="width:728px;height:569px;" />
-<font class="ms-rteCustom-FigureNormal" size="+0">Figure: Have your SharePoint Master confirm if all these solutions are to be migrated</font>
-<p> </p>
-<font class="ms-rteCustom-SSW-Only" size="+0">
-   <h3>Download</h3>    
-   <a href="http://intranet.ssw.com.au/SysAdmin/SharedDocuments/MSSharePoint/HowTos-DoYouConfirmYourListOfInstalledSharePoint2007Solutions.docx" shape="rect">Download the “Installed Solutions Checklist”</a> </font> 
+1. On the SharePoint 2007 Server, open <br>       **Central Administration** and go to <br>       **Operations | Solution Management**
+2. Copy the <br>       **Solution Name, Status** and <br>       **Deployed To** into the following table. This will ensure you deploy all the solutions you had on your old server to the SharePoint 2010 server
+3. Cross out any solutions that you will not be migrating
+4. Get the SharePoint master to sign off on the solution list
 
 
+![](MigrateSolutionsList.png)<font class="ms-rteCustom-FigureNormal">Figure: Have your SharePoint Master confirm if all these solutions are to be migrated</font>
+
+<font class="ms-rteCustom-SSW-Only">   <h3>Download</h3>    
+   <a href="http://intranet.ssw.com.au/SysAdmin/SharedDocuments/MSSharePoint/HowTos-DoYouConfirmYourListOfInstalledSharePoint2007Solutions.docx" shape="rect">Download the “Installed Solutions Checklist”</a> </font>
