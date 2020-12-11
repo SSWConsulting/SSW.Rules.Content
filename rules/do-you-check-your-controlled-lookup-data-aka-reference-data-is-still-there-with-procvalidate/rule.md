@@ -12,26 +12,15 @@ related: []
 
 ---
 
+[Controlled Lookup Data](/Pages/DoYouDeployLookupData.aspx) is when data is tightly coupled to the application. If the data is not there, you have problems. So how do we check to see if data is still there?
 
-
-  <p>
-    <a href="/Pages/DoYouDeployLookupData.aspx">Controlled Lookup Data</a> is when data is tightly coupled to the application. If the data is not there, you have problems. So how do we check to see if data is still there?</p>
-<p>The simplest way is to add a procValidate (Stored Procedure) to check that all the lookup data is still there.</p>
-<dl class="image">
-    <dt><img alt="" src="NaggingWife.gif" /> </dt>
-    <dd>Figure: procValidates are just like a nagging wife </dd>
-</dl>
-<br>
-Let's look at an example, of a combo that is populated with Controlled Lookup data (just 4 records)  
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl class="image">
-    <dt><img alt="" src="TimeProDropDown.png" /> </dt>
-    <dd>Figure: How do I make sure these 4 records never go missing? </dd>
-</dl>
-<dl class="image">
-    <dt><font class="ms-rteCustom-CodeArea" size="+0">
+The simplest way is to add a procValidate (Stored Procedure) to check that all the lookup data is still there.
+<dl class="image">    &lt;dt&gt;<img alt="" src="NaggingWife.gif"> &lt;/dt&gt;
+    <dd>Figure: procValidates are just like a nagging wife </dd></dl>
+ Let's look at an example, of a combo that is populated with Controlled Lookup data (just 4 records)    
+<!--endintro-->
+<dl class="image">    &lt;dt&gt;<img alt="" src="TimeProDropDown.png"> &lt;/dt&gt;
+    <dd>Figure: How do I make sure these 4 records never go missing? </dd></dl><dl class="image">    &lt;dt&gt;<font class="ms-rteCustom-CodeArea">
     <pre>CREATE PROCEDURE procValidate_Region 
 AS
 
@@ -56,10 +45,5 @@ AS
     ELSE
         RAISERROR(N'Lack of Southern', 10, 1)
 </pre>
-    </font></dt>
-    <dd>Figure: Implement a stored procedure to check the 'Controlled Lookup Data' does not go missing </dd>
-</dl>
-Note: As this procedure will be <a href="/Pages/DoYouIgnoreIdempotency.aspx">executed many times, it must be Idempotent </a>
-
-
-
+    </font>&lt;/dt&gt;
+    <dd>Figure: Implement a stored procedure to check the 'Controlled Lookup Data' does not go missing </dd></dl> Note: As this procedure will be [executed many times, it must be Idempotent](/Pages/DoYouIgnoreIdempotency.aspx)
