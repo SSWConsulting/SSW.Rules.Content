@@ -19,22 +19,38 @@ related:
 
 ---
 
+Appropriate use of design patterns can ensure your code is maintainable.
 
-<p>​Appropriate use of design patterns can ensure your code is maintainable.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Always code against an interface rather than a concrete implementation. Use dependency injection to control which implementation the interface uses.</p>
-<p>For example, we could implement Inversion of Control by using the Dependency Injection pattern to decrease the coupling of our classes.</p>
-<p>In this code, our controller is tightly coupled to the ExampleService and as a result, there is no way to unit test the controller.</p>
-<p>[This example is from the blog: <a href="http://www.devtrends.co.uk/blog/how-not-to-do-dependency-injection-the-static-or-singleton-container">http://www.devtrends.co.uk/blog/how-not-to-do-dependency-injection-the-static-or-singleton-container</a>]</p>
-<div class="ssw-rteStyle-CodeArea" style="height:228px;width:67.05%;"><code>public class HomeController<br>{<br>    private readonly IExampleService _service;<br>    public HomeController()<br>    {<br>      _service = <span style="background-color:rgb(255,255,0);">new ExampleService();</span><br>    }     <br>    public ActionResult Index()<br>    {<br>        return View(_service.GetSomething());<br>    }<br>}​</code></div>
-<div class="ssw-rteStyle-FigureBad">Figure: Bad example - Controller coupled with ExampleService</div>
-<div class="ssw-rteStyle-CodeArea" style="height:322px;width:66.86%;"><code>public class HomeController<br>{<br>    private readonly IExampleService _service;<br>     <br>    public HomeController()<br>    {<br>      _service = <span style="background-color:rgb(255,255,0);">Container.Instance.Resolve<IExampleService>();</span><br>    }<br>     <br>    public ActionResult Index()<br>    {<br>        return View(_service.GetSomething());<br>    }<br>} </code></div>
-<div class="ssw-rteStyle-FigureBad"><span>Figure: Bad example - 2nd attempt using an Inversion of Control container but *not* using dependency injection. A dependency now exists on the Container.</span></div>
-<p>This is bad code because we removed one coupling but added another one (the container).</p>
-<div class="ssw-rteStyle-CodeArea" style="width:66.86%;"><code>public class HomeController<br>{<br>    private readonly IExampleService _service;<br>     <br>    public HomeController(<span style="background-color:rgb(255,255,0);">IExampleService service</span>)<br>    {<br>      _service = service;<br>    }<br>     <br>    public ActionResult Index()<br>    {<br>        return View(_service.GetSomething());<br>    }<br>}​</code></div>
-<span class="ssw-rteStyle-FigureGood">Figure: Good example - code showing using dependency injection. No static dependencies.</span> <p>Even better, use Annotate so you can enlighten the developer.</p>
-<span style="font-size:11pt;font-family:'calibri','sans-serif';color:black;"></span><p><img alt="bad.png" src="Code against interfaces - bad.png" style="margin:5px;" /><br><strong class="ssw-rteStyle-FigureBad">Figure: Bad Example - Referencing the concrete EF context</strong></p>
-<p><span><img src="Code against interfaces - good.png" alt="" style="height:328px;margin:5px;width:872px;" /><br><strong class="ssw-rteStyle-FigureGood">Figure: Good Example - Programming against the interface</strong><br></span></p>
-<p>It is important to know when the use of a pattern is appropriate.  Patterns can be useful, but they can also be harmful if used incorrectly.</p>
+<!--endintro-->
+
+Always code against an interface rather than a concrete implementation. Use dependency injection to control which implementation the interface uses.
+
+For example, we could implement Inversion of Control by using the Dependency Injection pattern to decrease the coupling of our classes.
+
+In this code, our controller is tightly coupled to the ExampleService and as a result, there is no way to unit test the controller.
+
+[This example is from the blog: http://www.devtrends.co.uk/blog/how-not-to-do-dependency-injection-the-static-or-singleton-container]
+
+`public class HomeController{    private readonly IExampleService _service;    public HomeController()    {      _service = new ExampleService();    }         public ActionResult Index()    {        return View(_service.GetSomething());    }}`
+
+Figure: Bad example - Controller coupled with ExampleService
+
+`public class HomeController{    private readonly IExampleService _service;         public HomeController()    {      _service = Container.Instance.Resolve();    }         public ActionResult Index()    {        return View(_service.GetSomething());    }}`
+
+Figure: Bad example - 2nd attempt using an Inversion of Control container but \*not\* using dependency injection. A dependency now exists on the Container.
+
+This is bad code because we removed one coupling but added another one (the container).
+
+`public class HomeController{    private readonly IExampleService _service;         public HomeController(IExampleService service)    {      _service = service;    }         public ActionResult Index()    {        return View(_service.GetSomething());    }}`
+Figure: Good example - code showing using dependency injection. No static dependencies. 
+Even better, use Annotate so you can enlighten the developer.
 
 
+[[badExample]]
+| ![Referencing the concrete EF context](Code against interfaces - bad.png)
+
+
+[[goodExample]]
+| ![Programming against the interface](Code against interfaces - good.png)
+
+It is important to know when the use of a pattern is appropriate.  Patterns can be useful, but they can also be harmful if used incorrectly.
