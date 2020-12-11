@@ -10,13 +10,11 @@ related: []
 
 ---
 
+The buttons that a user will typically use should not be dynamically labeled across your applications.
 
-<p>The buttons that a user will typically use should not be dynamically labeled across your applications.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img src="../../assets/DynamicallyLabelingButtonBad.gif" alt="OLEDB Connection String" style="margin:5px;" />
-   </dt><dd>Figure: Bad Example - Buttons are dynamically labeled "Build ..." and "Edit ..." depending on text in the text box</dd></dl><dl class="goodImage"><dt>
-      <img src="../../assets/DynamicallyLabelingButtonGood.gif" alt="OLEDB Connection String" style="margin:5px;" />
-   </dt><dd>Figure: Good Example - Buttons are not dynamically labelled</dd></dl>
-
-
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;
+      <img src="../../assets/DynamicallyLabelingButtonBad.gif" alt="OLEDB Connection String" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Bad Example - Buttons are dynamically labeled "Build ..." and "Edit ..." depending on text in the text box</dd></dl><dl class="goodImage">&lt;dt&gt;
+      <img src="../../assets/DynamicallyLabelingButtonGood.gif" alt="OLEDB Connection String" style="margin:5px;">
+   &lt;/dt&gt;<dd>Figure: Good Example - Buttons are not dynamically labelled</dd></dl>
