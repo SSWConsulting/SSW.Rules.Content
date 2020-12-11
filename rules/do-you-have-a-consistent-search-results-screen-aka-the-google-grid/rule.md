@@ -22,20 +22,20 @@ related: []
                     However, Google is a very good example for displaying search results. Their result
                     pages are clear and efficient, especially for a large result set.
                 </p><dl class="image"><dt>
-                        <img src="/PublishingImages/results-ssw.jpg" alt="Google result" /></dt><dd>
-                        Figure&#58; Good example – adopt <a href="http&#58;//www.google.com.au/search?hl=en&amp;q=ssw&amp;btnG=Google+Search&amp;meta=">Google's search result layout</a>  </dd></dl><p>                    
+                        <img src="results-ssw.jpg" alt="Google result" /></dt><dd>
+                        Figure: Good example – adopt <a href="http://www.google.com.au/search?hl=en&q=ssw&btnG=Google+Search&meta=">Google's search result layout</a>  </dd></dl><p>                    
                 So adopt Google's search result layout and it will give new and regular users a better navigation experience.
                 Here's our standard layout for our search function.
-                </p><p>Want the 'Google grid'? Then follow these rules to help users to navigate&#58;
-                    </p><ol><li>Filters at the top (if more than one search parameter,then add a &quot;search&quot; button)</li><li>The number of results found + how many seconds the search took to execute</li><li>A statement that explains the criteria that you used for searching (or keep the criteria in the text box like google does)</li><li>The number of pages found (hyperlinks centered in the middle), and these hyperlinks
+                </p><p>Want the 'Google grid'? Then follow these rules to help users to navigate:
+                    </p><ol><li>Filters at the top (if more than one search parameter,then add a "search" button)</li><li>The number of results found + how many seconds the search took to execute</li><li>A statement that explains the criteria that you used for searching (or keep the criteria in the text box like google does)</li><li>The number of pages found (hyperlinks centered in the middle), and these hyperlinks
                         should be shown on the footer of the page only.</li></ol><dl class="image"><dt>
-                        <img src="/PublishingImages/results-filter.jpg" alt="Result Pages" /></dt><dd>
-                        Figure&#58; The header of <a href="http&#58;//www.ssw.com.au/ssw/Products/ProdCategoryList.aspx">SSW results screen
+                        <img src="results-filter.jpg" alt="Result Pages" /></dt><dd>
+                        Figure: The header of <a href="http://www.ssw.com.au/ssw/Products/ProdCategoryList.aspx">SSW results screen
                         </a>- filter, number of results found, search criteria and time taken</dd></dl><dl class="image"><dt>
-                        <img src="/PublishingImages/results-pagination.jpg" alt="Result Pages" /></dt><dd>
-                        Figure&#58; Good example - The footer of <a href="http&#58;//www.ssw.com.au/ssw/Products/ProdCategory.aspx?CategoryID=CODAUD">SSW product order listing page</a>
+                        <img src="results-pagination.jpg" alt="Result Pages" /></dt><dd>
+                        Figure: Good example - The footer of <a href="http://www.ssw.com.au/ssw/Products/ProdCategory.aspx?CategoryID=CODAUD">SSW product order listing page</a>
                         has the hyperlinks for pages 1 to 10 centered</dd></dl><dl class="image"><dt>
-                        <img src="/PublishingImages/results-google.jpg" alt="Result Pages" /></dt><dd>
-                        Figure&#58; Google's classic search results</dd></dl>
+                        <img src="results-google.jpg" alt="Result Pages" /></dt><dd>
+                        Figure: Google's classic search results</dd></dl>
 
 
