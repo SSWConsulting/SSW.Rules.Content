@@ -14,14 +14,11 @@ related: []
 
 ---
 
+It's<br>important to keep on top of what the best JavaScript frameworks are.
+
+In<br>this explosive video Ben Cull, SSW Solution Architect, will bombard you with<br>what are the best JavaScript Frameworks to use in 2016.
+
+<!--endintro-->
 
 
-
-<p class="p1" style="background&#58;white;margin-bottom&#58;7.5pt;"><span style="color&#58;#333333;font-family&#58;&quot;segoe ui&quot;, sans-serif;font-size&#58;10pt;">It's
-important to keep on top of what the best JavaScript frameworks are.&#160;</span></p><p class="p1" style="background&#58;white;margin-bottom&#58;7.5pt;"><span style="color&#58;#333333;font-family&#58;&quot;segoe ui&quot;, sans-serif;font-size&#58;10pt;">In
-this explosive video Ben Cull, SSW Solution Architect, will bombard you with
-what are the best JavaScript Frameworks to use in 2016.</span></p>
-<br><excerpt class='endintro'></excerpt><br>
-<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/Mf3wEJHAMXw" frameborder="0"></iframe>&#160;</div><p>​<br>&#160;</p>
-
-
+`youtube: https://www.youtube.com/embed/Mf3wEJHAMXw`
