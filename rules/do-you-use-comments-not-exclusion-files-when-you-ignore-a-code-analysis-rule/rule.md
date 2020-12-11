@@ -12,14 +12,12 @@ related: []
 
 ---
 
+When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing. 
+<!--endintro-->
 
-When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing.
-<br><excerpt class='endintro'></excerpt><br>
-<img alt="code-analysis-bad-example" src="code-analysis-bad-example.jpg" class="ms-rteCustom-ImageArea" />
-<span class="ssw-rteStyle-FigureBad">Figure: Good Example - The Solution and Projects are named consistently</span>
-<img alt="code-analysis-good-example" src="code-analysis-good-example.jpg" class="ms-rteCustom-ImageArea" />
-<dl class="goodCode">
-    <dt>
+[[goodExample]]
+| ![The Solution and Projects are named consistently](code-analysis-bad-example.jpg)
+![](code-analysis-good-example.jpg)<dl class="goodCode">    &lt;dt&gt;
     <pre>public partial class Account
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors", Justification="Gold Plating")]
@@ -28,8 +26,4 @@ When running code analysis you may need to ignore some rules that aren't relevan
             this.Centres = new HashSet();
             this.AccountUsers = new HashSet();
             this.Campaigns = new HashSet();</pre>
-    </dt>
-</dl>
-<span class="ssw-rteStyle-FigureGood">Figure: Good Example - The Solution and Projects are named consistently</span>
-
-
+    &lt;/dt&gt;</dl>Figure: Good Example - The Solution and Projects are named consistently
