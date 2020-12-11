@@ -14,12 +14,11 @@ related: []
 
 ---
 
-
-​​You should use OneNote instead of the default Wiki. This way you can use it offline on your mobile apps.<br><br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​<img src="teams-best-wiki-1.jpg" alt="teams-best-wiki-1.jpg" style="width:800px;" /></dt><dd>Bad Example: Default tab – Wiki. There is no offline mobile application</dd></dl><dl class="goodImage"><dt> 
-      <img src="teams-best-wiki-2.jpg" alt="teams-best-wiki-2.jpg" style="width:800px;" /> 
-   </dt><dd>Good Example: Use OneNote. Now you can use the normal OneNote Desktop and Mobile app for iOS and Android (including offline support)<br>​<br></dd></dl><p>
-   <strong>​Note:</strong> Rename the tab to show that it is a OneNote Tab. E.g.:​ "<strong>OneNote - SSW Reno Sydney</strong>"​​<br></p>
+You should use OneNote instead of the default Wiki. This way you can use it offline on your mobile apps.
 
 
+<!--endintro-->
+<dl class="badImage">&lt;dt&gt;<img src="teams-best-wiki-1.jpg" alt="teams-best-wiki-1.jpg" style="width:800px;">&lt;/dt&gt;<dd>Bad Example: Default tab – Wiki. There is no offline mobile application</dd></dl><dl class="goodImage">&lt;dt&gt; 
+      <img src="teams-best-wiki-2.jpg" alt="teams-best-wiki-2.jpg" style="width:800px;"> 
+   &lt;/dt&gt;<dd>Good Example: Use OneNote. Now you can use the normal OneNote Desktop and Mobile app for iOS and Android (including offline support)<br><br></dd></dl>
+**Note:** Rename the tab to show that it is a OneNote Tab. E.g.: " **OneNote - SSW Reno Sydney** "
