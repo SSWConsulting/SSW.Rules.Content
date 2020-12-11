@@ -10,9 +10,22 @@ related: []
 
 ---
 
+This cannot be stressed enough. The venue for your event is the absolute most important item to get right and to get locked in.
 
-<p>​<span style="line-height&#58;20.8px;">​This cannot be stressed enough. The venue for your event is the absolute most important item to get right and to get locked in</span><span style="line-height&#58;20.8px;">.</span>​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​<span style="line-height&#58;1.6;">&#160;An ideal venue should be addressing all of the following</span></p><ul><li><span style="line-height&#58;1.6;background-color&#58;initial;">​​</span><span style="line-height&#58;1.6;background-color&#58;initial;">Be able to accommodate the desired amount of people</span><br></li><li>Offer appropriate audio and visual equipment for the talks, such as microphones, projectors and power sources</li><li>Is there Wi-Fi available? If not, what is your backup plan (if any)</li><li>Be within budgetary constraints (see rule &quot;Have you got an adequate budget&quot;)</li></ul><p>Securing the venue as early as possible on the right date allows you to </p><ul><li>Book in speakers – They can lock in the engagement​</li><li>Announce the venue </li><li>Determine capacity – You now know how many attendees you can accommodate</li><li>Start promoting the event</li><li>Determine what approximate budget is needed&#160;</li></ul>
+<!--endintro-->
+
+An ideal venue should be addressing all of the following
+
+* Be able to accommodate the desired amount of people
+* Offer appropriate audio and visual equipment for the talks, such as microphones, projectors and power sources
+* Is there Wi-Fi available? If not, what is your backup plan (if any)
+* Be within budgetary constraints (see rule "Have you got an adequate budget")
 
 
+Securing the venue as early as possible on the right date allows you to
+
+* Book in speakers – They can lock in the engagement
+* Announce the venue
+* Determine capacity – You now know how many attendees you can accommodate
+* Start promoting the event
+* Determine what approximate budget is needed
