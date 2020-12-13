@@ -20,7 +20,7 @@ redirects:
 ---
 
 
-​​If a product owner sends an email to the development team with a request, that email should be turned into a TFS Work Item before any work is started or the work is prioritized on the backlog.  If you’re using Team Companion, this is easily done with the New Work Item from Mail button.<br>
+​​​If a product owner sends an email to the development team with a request, that email should be turned into a TFS Work Item before any work is started or the work is prioritized on the backlog.  If you’re using Team Companion, this is easily done with the New Work Item from Mail button.<br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt> 
       <img src="/PublishingImages/email-to-tfs-1.jpg" alt="" /> 
