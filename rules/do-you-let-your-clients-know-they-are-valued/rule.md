@@ -26,9 +26,6 @@ Things to consider:
 * Give it to the main contact of the company, as it’s more personal
 * If you don’t know a customer very well, you can give them something more generic like a foodie hamper, a wine or champagne, but try to make it something they can share around the office
 
-
-After researching the best option, send a "purchase please" to Adam, with all the relevant information about that client and where you would like to purchase and why. Don't forget to get a few quotes where possible and add show the comparative shop names, product, quantity, price, delivery fees, and total price.  Once approved, you should deliver the gift yourself. It helps maintain contact with your clients and once again brings the personal touch.  
-
 <dl class="ssw15-rteElement-ImageArea">   <img src="champagnes.png" alt="champagnes.png" style="margin:5px;width:808px;"></dl>
 
 

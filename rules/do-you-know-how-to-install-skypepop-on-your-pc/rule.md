@@ -72,17 +72,6 @@ Only receptionists should have SkypePOP installed.
 
 1.      Download and install SkypePOP from     [the official website](http://www.appvnet.com/)
 
-Install SkypePOP from our account on the official SkypePOP page: 
-[**https://www.skypepop.com/my-account/my-api-downloads/**](https://www.skypepop.com/my-account/my-api-downloads/)
-[My account | API Downloads | Download]
-Login details are in Keepass (standard generic email + standard convention password)
-
-
-**Step 1.5:** 
-
-Register your version of SkypePOP by pressing         **Preferences** and entering the following data:
-Key: [skypepop.com | My Account | API Keys]
-Email: standard generic email
 
 
 
@@ -109,15 +98,6 @@ Email: standard generic email
 >              <strong>Figure: Enter your CRM Connection Details<br><br></strong> </p></dl>
 
 
-
-The following shows how to connect to SSW CRM:
-
-·        Address: https://live.crm.ssw.com.au/XRMServices/2011/Discovery.svc
-·        Username:  <your-name>@ssw.com.au<br>·        Password: <your-domain-password><br>·        Organization: Live<br> 
-      <dl class="ssw15-rteElement-ImageArea"> 
-         <img src="40.jpg" alt="40.jpg" style="margin:5px;"> 
-      </dl> 
-       <strong>Figure: Example CRM connection settings (this URL is working, too)</strong> </your-domain-password></your-name>
 
 4.      Change the SkypePOP  **Preferences**
 

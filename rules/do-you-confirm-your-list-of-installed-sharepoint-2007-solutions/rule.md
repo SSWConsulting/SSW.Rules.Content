@@ -22,6 +22,3 @@ When you move to SharePoint 2010, nothing is to unexpectedly disappear. So prior
 
 
 ![](MigrateSolutionsList.png)<font class="ms-rteCustom-FigureNormal">Figure: Have your SharePoint Master confirm if all these solutions are to be migrated</font>
-
-<font class="ms-rteCustom-SSW-Only">   <h3>Download</h3>    
-   <a href="http://intranet.ssw.com.au/SysAdmin/SharedDocuments/MSSharePoint/HowTos-DoYouConfirmYourListOfInstalledSharePoint2007Solutions.docx" shape="rect">Download the “Installed Solutions Checklist”</a> </font>

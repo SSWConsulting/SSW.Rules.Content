@@ -26,5 +26,3 @@ Use one of these websites:
 
 
 <!--endintro-->
-
-Note: If you're on SSW network, you can find our collections here: [\\fileserver\DataSSW\Design\Cursors\_and\_Icons\Icons](file&#58;///DataSSW/Design/Cursors_and_Icons/Icons/)

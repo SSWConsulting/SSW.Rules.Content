@@ -51,8 +51,6 @@ Basic coding knowledge (VBA) required - you will have to configure the macro tha
 
 Depending on how many contacts you are going to send the newsletter to, you should think about setting up a VM or using an external provider for sending the emails.
 
-Don't send the newsletter from your own PC. Use a VM or the SendGrid integration. (Dennis will be working on this)
-
 
 
 

@@ -27,7 +27,3 @@ Basically, you can have that on any asset owned by your business. Items like mon
 
 For items like laptops, it can also be a good idea to tape your business card below the sticker so it can be returned to you if you lose it.
 <dl class="ssw15-rteElement-ImageArea"><dd class="ssw15-rteElement-FigureNormal"><img src="MicrosoftTeams-image (7).png" alt="MicrosoftTeams-image (7).png" style="margin:5px;width:808px;">Figure: Sticker proving that you should take every chance to show off your brand<br></dd></dl>
-
-
-- If your laptop is owned by SSW (this also means Salary Sacrifice computers that have not been fully paid yet), make sure it has a sticker on the back with its name and image (preferred), or at least a little SSW sticker on it.
-- If it doesn't have the sticker, ask for your Office admin for a sticker or send an email and ask for help to SSWSysAdmins (SSWSysAdmins@ssw.com.au).

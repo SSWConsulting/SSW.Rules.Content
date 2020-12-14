@@ -16,9 +16,6 @@ related: []
 
 Select the element "SSW Internal Block" to show content only internally.
 
-This is an example of "SSW Only" content.
-
-
 
 <!--endintro-->
 <dl class="image">&lt;dt&gt; <img src="internal-only.jpg" alt="internal-only.jpg"> &lt;/dt&gt;<dd>Figure: Use this "SSW Internal Block" style to insert a section for "SSW Only" content <br>

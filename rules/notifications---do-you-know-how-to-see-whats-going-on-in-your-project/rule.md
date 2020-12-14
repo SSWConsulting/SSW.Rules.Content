@@ -51,14 +51,3 @@ Figure: Bad example - Broad email asking what’s been happening
 
 Teams can keep you abreast of all the events happening on your project.
 <dl class="goodImage">&lt;dt&gt; <img src="Teams Notifications.png" alt="Teams Notifications.png" style="margin:5px;width:808px;"><br><br>&lt;/dt&gt;<dd>Good example: See that a record of team conversations, builds, and deployments </dd></dl>
-
-
-If you are part of the Marketing team, be aware that every time a new post is out and there's a video in it, it should include the hashtag #sswtv across all our social media: 
-- A new post on Twitter #sswtv
-- A new post on Facebook #sswtv
-- A new post on LinkedIn #sswtv
-- A new post on Instagram #sswtv
-
-This is necessary because of the notifications tab our Media team have on their Teams group as per the photo below. This way every time a new video is out they'll know! 
-
-![all social media posts related to videos will be tracked on SSW TV Teams group](notificationsteams.jpg)

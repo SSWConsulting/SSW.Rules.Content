@@ -90,8 +90,6 @@ Once complete, save the build definition and run the build.
 Then check the build is successful.
 If the build fails (due to errors), these should be corrected in the development environment.
 
-At the moment, it is fine to leave the warnings in the build, since the defined standard of rules is not set
-
 ### Include "PrimaryBuild" variable
 
 

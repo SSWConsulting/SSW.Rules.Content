@@ -43,9 +43,7 @@ Subsequent times - Use the  **System View** , so everyone is using the same list
                <img src="crm08- own quick campaign.png" alt="Select the Activity Type and Owner" style="width:600px;height:438px;"> 
             &lt;/dt&gt;<dd>Figure: Select the Activity Type and Owner.</dd></dl><dl class="image">&lt;dt&gt; 
                <img src="crm09 - add content.png" alt="Fill in newsletter Content" style="width:600px;height:438px;"> 
-            &lt;/dt&gt;<dd>Figure: Fill in newsletter content.</dd></dl>    **Attention: SSW Employees** 
-You need to follow the instructions in SSW Standards Internal for preparing the newsletter. It's a manual checklist so you don't make any mistakes.
-    Use your preferred browser to view the content of the newsletter, select all (or use "Ctrl" + "A") and then copy and paste it in the Quick Campaign text area.
+            &lt;/dt&gt;<dd>Figure: Fill in newsletter content.</dd></dl>    Use your preferred browser to view the content of the newsletter, select all (or use "Ctrl" + "A") and then copy and paste it in the Quick Campaign text area.
 <dl class="image">&lt;dt&gt; 
                <img src="crm10 - unsubscribe.png" alt="Newsletter Ubsubscribe" style="width:600px;height:438px;"> 
             &lt;/dt&gt;<dd>Figure: Highlight the keyword and click the Unsubscribe button to make a link for subscribers to unsubscribe themselves.</dd></dl>4. Click <br>             **Next** to create all email activities in Microsoft CRM 2013.

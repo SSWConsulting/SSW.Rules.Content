@@ -27,6 +27,4 @@ To get started with Chocolatey open up Command Prompt in Administrative mode, ty
 
 Alternatively, [install Chocolatey via their website](https://chocolatey.org/install).
 
-To find a list of software that we use, along with a PowerShell script to run, check out our [Intranet](https://intranet.ssw.com.au/SysAdmin/Lists/WinImageInstalledSoftware/AllItems.aspx) page.
-
 Alternatives: Homebrew on a Mac

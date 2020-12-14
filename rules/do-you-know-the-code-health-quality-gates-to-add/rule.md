@@ -59,9 +59,6 @@ The goal is to develop a shared ruleset across projects. (Currently this is just
 Any project specific rules should be documented in "\_Instructions-CodeHealth.docx" kept in the solution.
 <mark>Please also copy the current version number of this rule into the "_Instructions-CodeHealth.docx" in order to track what version your existing solution adheres to.</mark>
 
-
-The current standard for rules is just the default ones. Frequently check back here for updates to the ruleset definition.
-
 <dl class="ssw15-rteElement-ImageArea"><dl class="ssw15-rteElement-ImageArea"><img src="VS-ModifyRules.png" alt="VS-ModifyRules.png" style="margin:5px;width:808px;"></dl> <strong>Figure: Steps to open Visual Studio Analyser rules customisation page<br></strong> <p class="ssw15-rteElement-P">Right Click project | Properties | Code Analysis | Open<br></p></dl><dl class="ssw15-rteElement-ImageArea"><dl class="ssw15-rteElement-ImageArea"><img src="VS-ModifyRules2.png" alt="VS-ModifyRules2.png" style="margin:5px;width:808px;"> <strong>Figure: How to customize rules. By either enabling / disabling rules or packages. Or by modifying the rule severity level.<br></strong> </dl></dl>
 ### Visual Studio Code
 
@@ -121,8 +118,6 @@ Once complete, save the build definition and run the build.
 Then check the build is successful.
 If the build fails (due to errors), these should be corrected in the development environment. 
 If warnings exist, the rule should be disabled or set as an error. (If it is worth fixing, then it should be required for everyone)
-
-At the moment, it is fine to leave the warnings in the build, since the defined standard of rules is not set
 
 
 

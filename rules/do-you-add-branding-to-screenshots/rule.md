@@ -28,10 +28,7 @@ We recommend you define a standard style for your visual elements by changing th
    &lt;/dt&gt;<dd>Figure: Bad example - shapes being used and branding not followed<br></dd></dl><dl class="goodImage">&lt;dt&gt; 
       <img src="2019-10-14-Snagit-Branding-Example.png" alt="2019-10-14-Snagit-Branding-Example.png" style="width:750px;height:464px;"> 
       <br> 
-   &lt;/dt&gt;<dd>Figure: Good example - using balloons and arrows instead and brand colours used<br></dd></dl>
-To use SSW branding on your next screenshots, you should have the latest version of Snagit (which is the leading screen capture utility) and import the theme.
-Find SSW Snagit theme here: [\\fileserver\DataSSW\DataSSWEmployees\Templates\SSW.snagtheme](file:///fileserver/DataSSW/DataSSWEmployees/Templates/SSW.snagtheme).
-<dl class="image">&lt;dt&gt;
+   &lt;/dt&gt;<dd>Figure: Good example - using balloons and arrows instead and brand colours used<br></dd></dl><dl class="image">&lt;dt&gt;
       <img src="2019-10-14-Snagit-Themes.png" alt="2019-10-14-Snagit-Themes.png" style="width:90%;">
    &lt;/dt&gt;<dd>Figure: SSW theme already includes all tools you need with our branding<br></dd></dl>
 Instructions to create and use Snagit themes can be found at     [Quick Style Themes Tutorial](https://www.techsmith.com/tutorial-snagit-13-quick-style-themes.html?utm_source=product&utm_medium=snagit&utm_campaign=sw13).

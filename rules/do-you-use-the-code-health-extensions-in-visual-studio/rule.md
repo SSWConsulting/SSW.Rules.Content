@@ -39,8 +39,6 @@ Search & Install the NuGet packages:
 
 
 
-For Visual Studio development on web applications, download Web Essentials, it will provide intellisense for JS, CSS, HTML, Less, Scss, and CoffeeScript. ([Nuget page for Web Analysers](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebEssentials20153%E2%80%8B))
-
 
 ![Steps to install NuGet Packages](VS-InstallNuGetPackages.png)
 
@@ -57,8 +55,6 @@ If you believe the issues being raised are not important, please check the secti
 The goal is to develop a shared ruleset across projects. (Currently this is just the default settings). This will ensure the same standard and quality of code is maintained across all of the company's projects.
 Any project specific rules should be documented in "\_Instructions-CodeHealth.docx" which is to be kept in the solution.
 Please also copy the current version number of this rule into the "\_Instructions-CodeHealth.docx" in order to track what version your existing solution adheres to.
-
-The current standard for rules is just the default ones. Frequently check back here for updates to the ruleset definition.
 
 
 <dl class="ssw15-rteElement-ImageArea"><img src="VS-ModifyRules.png" alt="VS-ModifyRules.png" style="margin:5px;width:650px;"><span style="color:#555555;font-size:0.9rem;font-weight:bold;">Figure: Steps to open Visual Studio Analyser rules customisation page</span><br><br></dl>
