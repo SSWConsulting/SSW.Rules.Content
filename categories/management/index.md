@@ -21,7 +21,7 @@ index:
 - rules-to-better-daily-office-operations-dailyops
 - rules-to-better-proposals
 - rules-to-better-recruiting
-- do-you-always-carry-your-tool-box
+
 
 ---
 

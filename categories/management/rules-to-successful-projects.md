@@ -75,6 +75,7 @@ index:
 - do-you-know-how-to-record-a-quick-and-dirty-done-video
 - do-you-know-the-best-way-to-learn
 - do-you-use-the-brains-of-your-company
+- do-you-always-carry-your-tool-box
 
 ---
 `youtube: https://www.youtube.com/embed/atVkEY8v1CU`
