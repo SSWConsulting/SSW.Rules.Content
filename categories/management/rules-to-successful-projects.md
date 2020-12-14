@@ -76,6 +76,7 @@ index:
 - do-you-know-the-best-way-to-learn
 - do-you-use-the-brains-of-your-company
 - do-you-always-carry-your-tool-box
+- do-you-carry-more-than-just-the-microsoft-tool-box
 
 ---
 `youtube: https://www.youtube.com/embed/atVkEY8v1CU`
