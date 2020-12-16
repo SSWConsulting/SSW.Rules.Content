@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/_docs/images/ssw-banner.png">
+<img src="https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/main/_docs/images/ssw-banner.png">
 
 # The SSW Rules content
 Welcome to SSW.Rules.Content (The Data in markdown) 
@@ -16,6 +16,6 @@ This content will be migrated from sharepoint including change history.
 While we are testing this process, we will use numbered content-migration-xx branches.
 When we are feature complete, one of these branches will merge to master to become the new trunk for all future changes.
 
-<img align="left" width="32" height="22" src="https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/_docs/images/youtube_social_icon_red.png">
+<img align="left" width="32" height="22" src="https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/main/_docs/images/youtube_social_icon_red.png">
 
 [SSW.Rules YouTube Channel](https://www.youtube.com/channel/UCX3zjU1MYddc7vUuMz-t2og)
