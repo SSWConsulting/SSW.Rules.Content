@@ -24,13 +24,15 @@ try {
 
         console.log('changed path: ', changedFilePath);
         let historyRecord  = historyData.find(f => f.file == changedFilePath);
-        console.log('history record before: ', historyRecord);
+        // console.log('history record before: ', historyRecord);
 
         if (historyRecord) {
+            // update existing
             historyRecord.lastUpdated = new Date().toISOString();
             historyRecord.lastUpdatedBy = process.env.GIT_COMMIT_AUTHOR_NAME;
             historyRecord.lastUpdatedByEmail = process.env.GIT_COMMIT_AUTHOR_EMAIL
         } else {
+            // create and push new
             historyRecord = {
                 file: changedFilePath,
                 created: new Date().toISOString(),
@@ -40,9 +42,12 @@ try {
                 lastUpdatedBy: process.env.GIT_COMMIT_AUTHOR_NAME,
                 lastUpdatedByEmail: process.env.GIT_COMMIT_AUTHOR_EMAIL
             };
+            historyData.push(historyRecord);
         }
-        console.log('history record after: ', historyRecord);
+        // console.log('history record after: ', historyRecord);
     }
+
+    fs.writeFileSync( '../../history.json', JSON.stringify(historyData));
 
 } catch (error) {
     core.setFailed(error.message);
