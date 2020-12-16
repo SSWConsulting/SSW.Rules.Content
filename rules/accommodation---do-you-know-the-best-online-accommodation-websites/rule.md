@@ -26,4 +26,6 @@ The best price comparison websites for accommodation are:
 As with flights, book the accommodation details as a separate appointment in your calendar (or if for the accommodation is for someone else, in the calendar for the person who is travelling)..
 
 
+
+
 <!--endintro-->

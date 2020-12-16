@@ -14,19 +14,18 @@ try {
     let historyData = JSON.parse(historyFile);
     console.log(`got ${historyData.length} history records`);
 
-    let addedFile = fs.readFileSync('../../../../../files_added.json');
-    let addedData = JSON.parse(addedFile);
-    console.log(`got ${addedData.length} added files`);
-
-    let modifiedFile = fs.readFileSync('../../../../../files_modified.json');
-    let modifiedData = JSON.parse(modifiedFile);
-    console.log(`got ${modifiedData.length} modified files`);
-
     let file = fs.readFileSync('../../../../../files.json');
-    let data = JSON.parse(file);
+    let changedFiles = JSON.parse(file); 
+    console.log(`processing ${changedFiles.length} changed files`);
 
- 
-    console.log(`got ${data.length} from files.json`);
+    for (const changedFilePath of changedFiles) {
+        if (!changedFilePath.startsWith('rules')) continue;
+
+        console.log('changed path: ',changedFilePath);
+        let historyRecord  = historyData.find(f => f.file == changedFilePath);
+        console.log('history record: ',historyRecord);
+
+    }
 
 } catch (error) {
     core.setFailed(error.message);
