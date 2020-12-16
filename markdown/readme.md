@@ -1,3 +1,2 @@
-# Markdown Folder
+# markdown
 
-Markdown content files for SSW.Rules in
