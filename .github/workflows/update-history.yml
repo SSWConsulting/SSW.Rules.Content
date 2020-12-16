@@ -47,7 +47,7 @@ jobs:
 
       - name: run node to update history
         run: |
-          cd scripts/update-history
+          cd ${HOME}/scripts/update-history
           npm install
           node .
           cd ${HOME}
