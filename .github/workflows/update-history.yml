@@ -29,44 +29,24 @@ jobs:
       - name: Run a one-line script
         run: echo home folder is ${HOME}
 
-      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+      - name: Expose git commit data
+        uses: rlespinasse/git-commit-data-action@v1.x
+
+      - name: get changed file details
+        uses: lots0logs/gh-action-get-changed-files@2.1.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: print files
-        run: cat ${HOME}/files.json
-
-      - name: print files added
-        run: cat ${HOME}/files_added.json
-
-      - name: print files modified
-        run: cat ${HOME}/files_modified.json
-
-      - name: home-folder
-        run: echo ${HOME}
-
-      - name: current folder
-        run: pwd
-
-      - name: list current files
-        run: ls -lh
-
+     
       - name: Use Node.js
         uses: actions/setup-node@v1
 
-      - name: run node to update history
+      - name: run node script to update history
         run: |
           cd scripts/update-history
           npm install
           node .
           cd ${HOME}
 
-      - name: remove changedFiles json
-        run: |
-          rm ${HOME}/files.json
-          rm ${HOME}/files_modified.json
-          rm ${HOME}/files_added.json
-          rm ${HOME}/files_deleted.json
-          rm ${HOME}/files_renamed.json
-      
+    
 
