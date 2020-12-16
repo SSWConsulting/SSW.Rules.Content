@@ -42,6 +42,12 @@ jobs:
       - name: print files modified
         run: cat ${HOME}/files_modified.json
 
+      - name: home-folder
+        run: echo ${HOME}
+
+      - name: current folder
+        run: pwd
+
       - name: list current files
         run: ls -lh
 
