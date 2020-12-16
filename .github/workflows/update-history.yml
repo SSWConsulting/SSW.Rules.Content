@@ -1,6 +1,6 @@
 # Update the hisoty.json file with created and modified dates for added/updated rules
 
-name: CI
+name: Update-History
 
 # Controls when the action will run. 
 on:
@@ -28,4 +28,23 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
+
+      - uses: lots0logs/gh-action-get-changed-files@2.1.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: print files added
+        run: cat ${HOME}/files_added.json
+
+      - name: print files modified
+        run: cat ${HOME}/files_modified.json
+
+      - name: remove changedFiles json
+        run: |
+          rm ${HOME}/files.json
+          rm ${HOME}/files_modified.json
+          rm ${HOME}/files_added.json
+          rm ${HOME}/files_deleted.json
+          rm ${HOME}/files_renamed.json
+      
 
