@@ -14,15 +14,15 @@ try {
     let historyData = JSON.parse(historyFile);
     console.log(`got ${historyData.length} history records`);
 
-    let addedFile = fs.readFileSync('../../../files_added.json');
+    let addedFile = fs.readFileSync('../../../../../files_added.json');
     let addedData = JSON.parse(addedFile);
     console.log(`got ${addedData.length} added files`);
 
-    let modifiedFile = fs.readFileSync('../../../files_modified.json');
+    let modifiedFile = fs.readFileSync('../../../../../files_modified.json');
     let modifiedData = JSON.parse(modifiedFile);
     console.log(`got ${modifiedData.length} modified files`);
 
-    let file = fs.readFileSync('../../../files.json');
+    let file = fs.readFileSync('../../../../../files.json');
     let data = JSON.parse(file);
 
  
