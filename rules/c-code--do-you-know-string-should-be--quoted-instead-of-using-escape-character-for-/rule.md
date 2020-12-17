@@ -12,7 +12,7 @@ related: []
 
 ---
 
-The @ symbol specifies that escape characters and line breaks should be ignored when the string is created.
+The @ symbol specifies that escape characters and line breaks should be ignored when the string is created. 
 
 As per:  [Strings](http&#58;//msdn.microsoft.com/en-us/library/c84eby0h%28v=vs.90%29.aspx)
 
