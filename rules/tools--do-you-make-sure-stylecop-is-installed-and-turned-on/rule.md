@@ -12,7 +12,7 @@ related: []
 
 ---
 
-Then avoid adding exclusions… and if you \* **have to** \* make sure any exclusions…then have each one agreed to by all the team members.
+You should avoid adding exclusions to StyleCop. But, if they are necessary, ensure they are agreed to by all team members and stored in a shared exclusions file that is included in the repository, eg. stylecop.json
 
 <!--endintro-->
 

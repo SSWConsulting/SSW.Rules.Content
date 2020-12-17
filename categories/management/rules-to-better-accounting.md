@@ -21,6 +21,7 @@ index:
 - do-you-use-a-xero-mobile-app-to-check-your-personal-payroll
 - do-you-use-auto-fetch-function-for-invoices
 - do-you-use-xero-to-schedule-supplier-payments
+- do-you-use-an-app-for-expenses
 
 ---
 Rules to Better Accounting

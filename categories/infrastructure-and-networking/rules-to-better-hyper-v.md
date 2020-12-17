@@ -25,6 +25,7 @@ index:
 - do-you-manage-virtual-machines-through-virtual-machine-manager-vmm
 - do-you-manage-windows-update-services-through-virtual-machine-manager-vmm
 - do-you-use-virtual-machine-templates-with-virtual-machine-manager-vmm
+- do-you-first-get-your-cluster-and-san-going
 
 ---
 If you still need help, [visit our Hyper-V consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Hyper-V.aspx) and book in a consultant.

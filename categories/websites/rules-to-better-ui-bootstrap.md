@@ -10,6 +10,8 @@ index:
 - do-you-use-hiddenvisible-classes-when-resizing-to-hideshow-content
 - do-you-use-respond-js-to-target-ie8-with-bootstrap
 - do-you-use-the-best-libraries-for-icons
+- do-you-use-the-css-class-form-horizontal-to-arrange-your-fields-and-labels
+- do-you-use-web-essentials
 
 ---
 ### Twitter Bootstrap & ASP.NET MVC - Intro / Quickstart with Ben Cull

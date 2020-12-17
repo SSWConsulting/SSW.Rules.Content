@@ -70,6 +70,7 @@ index:
 - do-you-turn-off-auto-update-on-your-servers
 - do-you-use-the-right-service-in-sharepoint-2013
 - never-dispose-objects-from-spcontextcurrent
+- do-you-turn-off-auto-update-on-your-servers
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.

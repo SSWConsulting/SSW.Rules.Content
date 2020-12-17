@@ -10,6 +10,7 @@ index:
 - comments---do-you-follow-the-general-commenting-rules
 - comments---do-you-add-a-comment-when-you-use-threadsleep
 - do-you-know-what-to-do-with-a-work-around
+- comments---do-you-comment-each-property-and-method
 
 ---
 Rules for adding comments to code.

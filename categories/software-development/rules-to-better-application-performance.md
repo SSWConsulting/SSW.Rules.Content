@@ -19,6 +19,7 @@ index:
 - do-you-know-the-highest-hit-pages
 - do-you-prioritize-performance-optimization-for-maximum-business-value
 - do-you-use-asyncawait-for-all-io-bound-operations
+- do-you-establish-a-baseline
 
 ---
 

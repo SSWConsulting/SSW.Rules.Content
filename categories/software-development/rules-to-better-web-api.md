@@ -9,6 +9,8 @@ index:
 - do-you-return-detailed-error-messages
 - do-you-return-the-correct-response-code
 - do-you-use-fluent-validation
+- do-you-add-timestamps
+- do-you-apply-the-validatemodel-attribute-to-all-controllers
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.

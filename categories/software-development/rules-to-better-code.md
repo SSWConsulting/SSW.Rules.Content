@@ -15,7 +15,7 @@ index:
 - tools---do-you-make-sure-you-have-visual-studio-code-analysis-turned-on
 - do-you-know-how-to-avoid-problems-in-if-statements
 - do-you-avoid-double-negative-conditionals-in-if-statements
-- c-code--do-you-know-string-should-be--quoted-instead-of-using-escape-character-for-
+- c-code---do-you-use-string-literals
 - do-you-add-the-application-name-in-the-sql-server-connection-string
 - do-you-always-create-suggestions-when-something-is-hard-to-do
 - do-you-avoid-casts-and-use-the-as-operator-instead
@@ -65,6 +65,9 @@ index:
 - do-you-avoid-using-magic-string-when-referencing-propertyvariable-names
 - do-you-use-null-condition-operators-when-getting-values-from-objects
 - do-you-use-string-interpolation-when-formatting-strings
+- do-you-use-the-new-c-7-language-features-to-slash-the-amount-of-boilerplate-code-you-write
+- do-you-declare-variables-when-you-need-them
+- do-you-know-that-no-carriage-returns-without-line-feed
 
 ---
 What makes code "cleaner"? What makes the difference between readable code and very readable code?

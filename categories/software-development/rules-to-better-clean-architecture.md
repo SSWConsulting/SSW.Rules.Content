@@ -14,6 +14,7 @@ index:
 - do-you-know-the-best-approach-to-validate-your-client-requests
 - do-you-know-when-to-use-value-objects
 - do-you-have-a-cloud-architect-in-your-projects
+- do-you-use-the-mediator-pattern-with-cqrs
 
 ---
 SSW implements strict standards on all code produced. Implementing strict coding standards means your code can be easily read, easily modified and easily tested. Our experts are experienced in Angular, React, Vue, C#, .NET Core Web API, Azure, Dynamics CRM, and SharePoint.

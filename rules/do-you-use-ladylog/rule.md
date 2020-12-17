@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Has been replaced by Application Insights
 title: Do you use LadyLog?
 guid: 174015a0-7bf7-436c-9893-8821bb230722
 uri: do-you-use-ladylog

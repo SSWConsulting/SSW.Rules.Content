@@ -12,10 +12,9 @@ related: []
 
 ---
 
-The .NET framework and the C# language provide two methods for conditional handling where multiple distinct values can be selected from. The switch statement is less flexible than the if-else-if tree but is generally considered to be more efficient. .NET compiler generates a jump list for switch block for that reason it is faster for long list of condition. And also complier has the ability to optimize the switch block. Condition in the switch block is faster as compiler evaluated the condition once but for if-else block, compiler need to evaluate the condition for each 'else if' block
+The .NET framework and the C# language provide two methods for conditional handling where multiple distinct values can be selected from. The switch statement is less flexible than the if-else-if tree but is generally considered to be more efficient.
 
-**Note:** Performance is very much negligible when number of condition is less than 5. So if the code design is clearer & easily maintainable by using if-else block, then Developer should use if-else block for fewer conditions.
-
+The .NET compiler generates a jump list for switch blocks, resulting in far better performance than if/else for evaluating conditions. The performance gains are negligible when the number of conditions is trivial (i.e. fewer than 5), so if the code is clearer and more maintainable using if/else blocks, then you can use your discretion. But be prepared to refactor to a switch block if the number of conditions exceeds 5.
 
 <!--endintro-->
 

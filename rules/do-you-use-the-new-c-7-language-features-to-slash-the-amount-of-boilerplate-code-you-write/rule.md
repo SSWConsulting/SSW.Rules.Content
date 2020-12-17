@@ -39,7 +39,7 @@ Figure: Bad example - Amount of boiler plate code for a simple task 
 Figure: Good example - The same functionality as the Bad Example in a single line of code
 :::
 
- The benefit of this change is when refactoring our code, we don't need to worry about searching for magic strings. Which common slip through the cracks and lead to confusing error messages.
+ The benefit of this change is when refactoring our code, we don't need to worry about searching for magic strings. Which commonly slip through the cracks and lead to confusing error messages.
 2. String Interpolation - greatly reduces the amount of boilerplate code required when working with strings
     Formatting strings on the fly was previously a task which required a stack of boilerplate code. In the Visual Studio 2015, we can use the smart String Interpolation feature. Not only does this feature reduce the amount of code we have to write, it also improves code readability.
     For example, before C# 6, we would write:
@@ -81,4 +81,4 @@ Figure: Good example - Robust code
 
 :::
 
-    The promise In short, these new features will save you time, and help you write cleaner, more robust code - what's not to love?
+    In short, these new features will save you time, and help you write cleaner, more robust code - what's not to love?

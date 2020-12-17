@@ -12,18 +12,18 @@ related: []
 
 ---
 
-If you end up using someone else's code, or even idea, that you found online, make sure you add a reference to this in your source code. There is a good chance that you or your team will revisit the website. And of course, it never hurts to tip your hat off to other coders.
+If you end up using someone else's code, or even idea, that you found online, make sure you add a reference to this in your source code. There is a good chance that you or your team will revisit the website. And of course, it never hurts to tip your hat, to thank other coders.
 
 
 <!--endintro-->
 
 private void HideToSystemTray()
 {
- // Hide the windows form in the system tray
- if (FormWindowState.Minimized == WindowState)
- { 
- Hide();
- } 
+       // Hide the windows form in the system tray
+       if (FormWindowState.Minimized == WindowState)
+       { 
+              Hide();
+       } 
 }
 
 
@@ -36,12 +36,12 @@ Bad Example: The website where the solution was found IS NOT referenced in the 
 
 private void HideToSystemTray()
 {
- // Hide the windows form in the system tray
- // I found this solution at http://www.developer.com/net/csharp/article.php/3336751
- if (FormWindowState.Minimized == WindowState)
- { 
- Hide();
- } 
+        // Hide the windows form in the system tray
+       // I found this solution at http://www.developer.com/net/csharp/article.php/3336751
+       if (FormWindowState.Minimized == WindowState)
+       { 
+              Hide();
+       } 
 }
 
 

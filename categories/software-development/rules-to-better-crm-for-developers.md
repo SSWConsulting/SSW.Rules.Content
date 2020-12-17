@@ -44,6 +44,7 @@ index:
 - do-you-turn-off-auto-update-on-your-servers
 - do-you-use-the-common-data-service-connector-instead-of-the-dynamics-365-connector-when-using-flows
 - do-you-use-version-numbers-and-well-formatted-notes-to-keep-track-of-solution-changes
+- do-you-turn-off-auto-update-on-your-servers
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.

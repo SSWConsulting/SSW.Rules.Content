@@ -42,7 +42,7 @@ index:
 - do-you-know-how-you-deal-with-impediments-in-scrum
 - product-owners---do-you-know-the-consequence-of-disrupting-a-team
 - do-you-always-work-in-priority-order-unless-theres-a-good-reason-not-to
-- do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
+- do-you-turn-an-email-into-an-azure-devops-work-item-before-starting-work
 - do-you-estimate-all-tasks-at-the-start-of-the-sprint
 - do-you-have-a-definition-of-ready
 - do-you-know-the-3-steps-to-completing-a-pbi

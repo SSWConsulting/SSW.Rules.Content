@@ -36,6 +36,7 @@ index:
 - do-you-avoid-letting-the-screen-go-white
 - do-you-give-an-option-to-widen-a-search
 - calendar---does-your-website-make-it-easy-for-your-users-to-add-an-event-to-their-calendar
+- do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
 
 ---
 

@@ -25,6 +25,7 @@ index:
 - do-you-use-image-sprites-to-reduce-http-requests
 - do-you-use-image-styles-to-ensure-great-looking-content
 - do-you-use-text-rather-than-images-where-appropriate
+- do-you-know-how-to-use-balloons-in-screenshots-for-instructions
 
 ---
 

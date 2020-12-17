@@ -44,9 +44,9 @@ Doing this will ensure:
 
 ::: greybox
 
-Dear Adam,
-
 (Checked by Peter)
+
+Dear Adam,
 
 [email content]
 

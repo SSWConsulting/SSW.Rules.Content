@@ -44,10 +44,13 @@ Figure: Bad example of a team for a new project
 ::: greybox
 **2 strong developers** (say Solution Architect and Software Developer)
  **+ 1 Cloud Architect** (say 1 day per week, or 1 day per fortnight, or even 1 day per month) after choosing the correct services, then looks after the 3 horsemen:
-\* Load/Performance Testing
-\*     Security choices
-\* SpendOps
+- Load/Performance Testing
+- Security choices
+- SpendOps
+
 :::
+
+
 
 
 
@@ -74,4 +77,8 @@ Problems that can happen without a Cloud Architect:
 Finally, at the end of a project, you should go through a "Go-Live Audit". The Cloud Architect should review and sign off that the project is good to go. They mostly check the 3 horsemen (load, security, and cost).
 
 
-<dl class="image">&lt;dt&gt;<img src="MS Cloud Design Patterns Infographic SSW Edited.png" alt="MS Cloud Design Patterns Infographic SSW Edited.png" style="margin:5px;width:750px;height:515px;"><br><span style="color:#555555;font-weight:bold;">Figure: Choosing the right services on Azure requires experience. <a href="MS Cloud Design Patterns Infographic SSW Edited.png">View large image</a></span><br>&lt;/dt&gt;</dl>
+<dl class="image">&lt;dt&gt;
+      <img src="MS Cloud Design Patterns Infographic SSW Edited.png" alt="MS Cloud Design Patterns Infographic SSW Edited.png" style="margin:5px;width:750px;height:515px;">
+      <br>
+      <span style="color:#555555;font-weight:bold;">Figure: Choosing the right services on Azure requires experience. 
+         <a href="MS Cloud Design Patterns Infographic SSW Edited.png">View large image</a></span><br>&lt;/dt&gt;</dl>

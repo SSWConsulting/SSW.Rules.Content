@@ -51,7 +51,7 @@ There is almost always a better alternative to adding comments to your code. [Ch
 
 
 <font color="#333333"><br></font>
- **What some \*bad\* types of comments?** 
+ **What are some \*bad\* types of comments?** 
 
 1. That explain the "what"/"how" of the code. Basically the code rewritten in your mother tongue.
 2. Documentation comments in non-public surface area.
@@ -61,7 +61,7 @@ There is almost always a better alternative to adding comments to your code. [Ch
 
 
 <font color="#333333"><br></font>
- **What some \*good\* types of comments?** 
+ **What are some \*good\* types of comments?** 
 Very few of these really. Although even these are subject to all the downsides of comments.
 Note that a lot of punch can be delivered in 140 characters! Twitter previously?
 

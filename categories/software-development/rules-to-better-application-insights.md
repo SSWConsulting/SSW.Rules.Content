@@ -15,6 +15,7 @@ index:
 - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
 - do-you-know-how-to-find-performance-problems-with-application-insights
 - do-you-use-codelens-to-view-your-application-insights-data
+- do-you-include-application-insights-for-visual-studio-online-in-your-website
 
 ---
  

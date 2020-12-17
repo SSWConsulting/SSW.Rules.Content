@@ -42,6 +42,8 @@ index:
 - do-you-know-how-to-use-social-media-effectively-in-china
 - do-you-post-multilingual-posts-on-social-media
 - how-to-create-a-wechat-official-account
+- do-you-follow-minimum-image-sizes-on-social-media
+- do-you-create-friendly-short-urls
 
 ---
 Social media should be an essential piece of your business marketing strategy. It is important because it allows you to reach out to people locally, or even internationally if you want. Using social media platforms to promote your business will help you connect with current and potential customers, increase your brand awareness, and hopefully, boost leads and sales for your company. Of course, it all depends on your business strategy too. Marketing goals come from Business goals.

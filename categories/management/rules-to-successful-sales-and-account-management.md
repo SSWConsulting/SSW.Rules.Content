@@ -52,6 +52,7 @@ index:
 - fixed-price--do-you-transition-back-to-tm-at-the-end-of-the-warranty-period
 - meetings---do-you-know-the-outcomes-from-your-initial-meeting-spec-review-or-ad-hoc-work
 - scheduling---do-you-know-how-to-book-developers-for-a-project
+- meetings---do-you-know-the-outcomes-from-your-initial-meeting-spec-review-or-ad-hoc-work
 
 ---
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.

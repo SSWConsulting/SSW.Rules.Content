@@ -29,6 +29,7 @@ index:
 - do-you-know-the-best-methods-to-remotely-accesscontrol-a-users-pc
 - do-you-fix-bugs-with-a-phone-call
 - do-you-know-how-to-set-up-your-workspace-for-video
+- do-you-provide-at-least-two-days-notice-for-people-in-other-time-zones
 
 ---
 Working Remotely is something that is going to become more common. It is important that we have the tools to continue to  **work from home ** (aka  **WFH** ) ** ** effectively and efficiently whilst also maintaining good mental health.

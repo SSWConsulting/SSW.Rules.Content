@@ -41,7 +41,7 @@ Because we know that not many external clients use this example, we decide to re
 
 Just to be friendly, we would send an email for the first month, and then another email in the second month.  After that, just emit "This is deprecated (old)."  We'll also need to update the UDDI so people don't keep coming to our old address.
 
-We all wish we never need to support old code, but sometimes the world doesn't go that way, if your answer to question 3 scares you, then you might need to provide some form of backward compatibility or warning.
+We probably all prefer working on new features, rather than supporting old code, but it’s still a core part of the job. If your answer to question 3 scares you, it might be time to consider a backward compatibility warning.
 
 
 ::: greybox
@@ -49,7 +49,7 @@ We all wish we never need to support old code, but sometimes the world doesn't g
  **To:**  SSWALL
  **Subject: ** Changing LookOut settings
 
-The stored procedure procSSWLookOutClientIDSelect (currently used only by LookOut any version prior to 10) is being renamed to procSSWLookOutClientIDSelect. The old stored procedure will be removed within 1 month.
+The stored procedure procLookOutClientSelect (currently used only by LookOut any version prior to 10) is being renamed to procSSWLookOutClientIDSelect. The old stored procedure will be removed within 1 month.
 You can change your settings either by: 
 
 :::

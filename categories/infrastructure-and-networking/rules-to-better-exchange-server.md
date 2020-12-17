@@ -7,6 +7,7 @@ index:
 - do-you-add-a-redirect-from-http-to-https-for-owa
 - do-you-monitor-company-email
 - do-you-turn-off-auto-update-on-your-servers
+- do-you-turn-off-auto-update-on-your-servers
 
 ---
  

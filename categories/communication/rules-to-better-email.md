@@ -77,6 +77,11 @@ index:
 - do-you-give-your-emails-a-business-value
 - do-you-add-a-bot-signature-to-make-it-clear-when-an-email-is-automated
 - do-you-use-great-email-signatures
+- do-you-use-email-signatures-for-external-emails
+- dones---do-you-show-quality-control-with-checked-by-xxx
+- do-you-always-remember-your-attachment
+- do-you-know-never-to-concatenate-words-in-an-email
+- do-you-manage-your-email
 
 ---
 [

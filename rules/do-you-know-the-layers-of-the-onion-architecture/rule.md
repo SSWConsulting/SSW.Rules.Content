@@ -25,7 +25,7 @@ This should be the big meaty part of the application where the domain logic resi
 
 ### Domain Model
 
-In the very centre we see the Domain Model, which represents the state and behaviour combination that models truth for the organization and is only coupled to itself.
+In the very centre, we see the Domain Model, which represents the state and behaviour combination that models truth for the organization and is only coupled to itself.
 
 ### Repository Interfaces
 
@@ -49,9 +49,13 @@ This means any constructor-injected interfaces in domain classes are resolved au
 Dependencies are implementations of interfaces defined in Repository and Business Logic Interfaces and Domain.
 These classes are specific implementations and can be coupled to a particular method of data access, or specific service technology.
 e.g. this is where the EF DbContext is implemented, as well as things like logging, email sending, etc.
-These dependencies are injected into the application core. 
+
+These dependencies are injected into the application core.
+
 Because the Application core only relies on abstractions of the dependencies, it is easy to update them.
-The Onion Architecture relies heavily on the [Dependency Inversion](http://en.wikipedia.org/wiki/Dependency_inversion_principle) principleand other [SOLID principles](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=21a9d999-80cd-4e39-a5f5-c511522ffcb2).
+
+The Onion Architecture relies heavily on the [Dependency Inversion](http://en.wikipedia.org/wiki/Dependency_inversion_principle) principle and other [SOLID principles](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=21a9d999-80cd-4e39-a5f5-c511522ffcb2).
+(Note: Onion Architecture has been replaced by [Clean Architecture](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=b3a8b0b0-6439-4d24-9b9c-9561bc749d0c))
 
 #### References:
 
@@ -70,9 +74,6 @@ To help make this process pain free, we've developed the [SSW Data Onion](http:/
 `youtube: https://www.youtube.com/embed/FcuFya8vud8?rel=0&controls=0&showinfo=0`
  
 
-
-
- 
 
 
 **Further Reading:** [Do You Use a Dependency Injection Centric Architecture?](/Pages/Use-a-Dependency-Injection-Centric-Architecture.aspx)

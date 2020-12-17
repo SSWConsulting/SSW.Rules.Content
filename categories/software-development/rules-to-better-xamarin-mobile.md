@@ -14,6 +14,7 @@ index:
 - do-you-optimise-your-android-builds-and-start-up-times
 - do-you-conduct-cross-platform-ui-tests
 - do-you-know-where-to-find-the-best-xamarin-resources
+- xamarin---do-you-know-the-stuff-to-install
 
 ---
 

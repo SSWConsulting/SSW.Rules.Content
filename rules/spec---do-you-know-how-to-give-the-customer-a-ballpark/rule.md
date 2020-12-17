@@ -60,7 +60,7 @@ Open the [Estimates Calculator](/Documents/4.%20Estimates%20Calculator.xlsx?d=w6
 
 
 
-MS Project is a good app that and we do like how you can now add 2 people to a task and the calculations and dependencies are all worked out for you, however:
+Microsoft Project is sophisticated waterfall planning software that has powerful features for auto-scheduling and dependency allocation (Note: Project allows you to add 2 people to a task, and then the calculations and dependencies are all worked out). However:
 
 * In MS Project, tasks are auto scheduled based on dependency and resource allocation (who is assigned to it). This generates an estimated completion date which is never accurate, due to annual leave, public holidays and general shuffling of people in the team
 * It gets the summing wrong (the totals don't seem to update and no way to trigger it)

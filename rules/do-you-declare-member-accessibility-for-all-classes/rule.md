@@ -12,7 +12,7 @@ related: []
 
 ---
 
-Not explicitly specifying the access type for members of a structure or class can be deceiving for other developers that are using this structure or class. The default structure and class members access in Visual C# .NET is always private. The default class member access in Visual Basic .NET is private. However, the default structure member access in Visual Basic .NET is public.
+Not explicitly specifying the access type for members of a structure or class can be misleading for other developers. The default member accessibility level for classes and structs in Visual C# .NET is always private. In Visual Basic .NET, the default for classes is private, but for structs is public.
 
 <!--endintro-->
 
@@ -30,7 +30,10 @@ private Match MatchExpression(string input, string pattern)
 
 ::: good
 Figure: Good - Method with member accessibility declared
+
 :::
 
+<dl class="ssw15-rteElement-ImageArea"><img src="matt-w-screenshot.jpg" alt="matt-w-screenshot.jpg" style="margin:5px;width:750px;height:103px;"> <strong>Figure: Compiler warning given for not explicitly defining member access level</strong> <br></dl>
 
-We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.
+
+We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.

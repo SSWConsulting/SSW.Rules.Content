@@ -29,6 +29,12 @@ index:
 - do-you-unit-test-your-database
 - do-you-use-intellitesting-to-save-you-in-testing
 - do-you-know-the-best-test-framework-to-run-your-integration-tests
+- do-you-follow-the-standard-naming-conventions-for-tests
+- do-you-have-a-integration-test-for-your-send-mail-code
+- do-you-have-a-standard-help-menu-that-includes-a-way-to-run-your-unit-tests
+- do-you-know-how-to-run-nunit-tests-from-within-visual-studio
+- do-you-know-the-right-version-and-config-for-nunit
+- do-you-write-integration-test-for-dependencies---eg-dlls
 
 ---
 

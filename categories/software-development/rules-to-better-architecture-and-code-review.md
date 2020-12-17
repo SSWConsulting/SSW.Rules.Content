@@ -39,6 +39,8 @@ index:
 - do-you-use-the-best-middle-tier-net-libraries
 - do-you-use-the-best-web-ui-libraries
 - do-you-use-your-ioc-container-to-inject-dependencies--and-not-as-a-singleton-container
+- do-you-know-to-replace-reflection-with-mef
+- mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see. If you need help, visit SSW Consulting Services and book in a consultant.

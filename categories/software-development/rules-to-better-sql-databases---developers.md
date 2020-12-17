@@ -63,6 +63,9 @@ index:
 - middle-tier---do-you-implement-business-logic-in-middle-tier
 - do-you-parameterize-all-input-to-your-database
 - views---do-you-use-sql-views
+- data--do-you-avoid-empty-lines-at-the-start-of-character-columns
+- schema---do-you-use-less-than-24-characters-for-table-names
+- middle-tier---do-you-submit-all-dates-to-sql-server-in-iso-format
 
 ---
 Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of:

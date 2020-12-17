@@ -13,6 +13,7 @@ index:
 - do-you-use-a-microsoft-supported-network-setup-for-hyper-v-clustering
 - do-you-use-group-policy-to-apply-settings-to-all-of-your-cluster-nodes
 - do-your-network-cards-to-the-latest-driver
+- do-you-first-get-your-cluster-and-san-going
 
 ---
  

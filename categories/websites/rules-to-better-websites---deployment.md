@@ -6,6 +6,8 @@ uid: rules-to-better-websites---deployment
 index:
 - do-you-avoid-publishing-from-visual-studio
 - do-you-use-the-best-deployment-tool
+- do-your-developers-deploy-manually
+- do-you-deploy-to-azure-from-team-foundation-service
 
 ---
  

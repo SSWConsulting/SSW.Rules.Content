@@ -22,6 +22,7 @@ index:
 - do-you-keep-your-network-hardware-reliable
 - do-you-know-how-to-find-your-mac-address
 - do-you-use-network-intrusion-prevention-systems
+- do-you-know-how-to-setup-a-pptp-vpn-in-windows-7
 
 ---
 Networks are the lifeblood of any business. This is why we have developed a few rules for better Internet and Networks.

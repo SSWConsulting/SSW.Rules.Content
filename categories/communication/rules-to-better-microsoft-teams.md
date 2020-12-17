@@ -23,6 +23,7 @@ index:
 - dynamics-and-teams---do-you-integrate-dynamics-365-and-microsoft-teams
 - dynamics-and-teams---do-you-link-your-customers-in-crm-to-their-respective-teams
 - sysadmin---do-you-archive-old-teams
+- do-you-use-emojis-in-your-channel-names
 
 ---
 Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.

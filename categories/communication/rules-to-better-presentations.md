@@ -18,6 +18,7 @@ index:
 - do-you-know-the-best-boardroom-av-solution
 - do-you-know-to-keep-your-urls-clean
 - do-your-presentations-promote-online-discussion
+- do-you-enable-presentation-mode-in-visual-studio
 
 ---
 Say you are doing a full day of training, you will need to get yourself and your students organized to do a great job.

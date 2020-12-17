@@ -15,8 +15,8 @@ related: []
 When programming in form based environments one thing to remember is not to refer to form controls directly. The correct way is to pass the controls values that you need through parameters. There are a number of benefits for doing this:
 
 1. Debugging is simpler because all your parameters are in one place
-2. If for some reason you need to change the control's name then you only have to change it in one place.
-3. The fact that nothing in your function is dependant on outside controls means you could very easily reuse your code in other areas without too many problems re-connecting the parameters being passed in.
+2. If for some reason you need to change the control's name then you only have to change it in one place
+3. The fact that nothing in your function is dependant on outside controls means you could very easily reuse your code in other areas without too many problems re-connecting the parameters being passed in
 
 
 It's a correct method of programming.

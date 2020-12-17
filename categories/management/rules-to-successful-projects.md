@@ -75,8 +75,11 @@ index:
 - do-you-know-how-to-record-a-quick-and-dirty-done-video
 - do-you-know-the-best-way-to-learn
 - do-you-use-the-brains-of-your-company
+- do-you-give-each-project-a-project-page-that-you-refer-customers-to
 - do-you-always-carry-your-tool-box
 - do-you-carry-more-than-just-the-microsoft-tool-box
+- do-you-do-monthly-peer-evaluations
+- do-you-manage-your-email
 
 ---
 `youtube: https://www.youtube.com/embed/atVkEY8v1CU`

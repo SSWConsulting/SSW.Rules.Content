@@ -11,7 +11,6 @@ index:
 - do-you-know-the-importance-of-asking-questions
 - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-aka-feedback
 - do-you-know-you-should-write-notes-when-an-activity-is-going
-- do-you-do-monthly-peer-evaluations
 
 ---
 

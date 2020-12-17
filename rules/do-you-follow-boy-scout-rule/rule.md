@@ -12,14 +12,14 @@ related: []
 
 ---
 
-The idea is simple , each time leave code a little cleaner then you found it.
+The idea is simple - each time leave code a little cleaner than you found it.
 
 Common examples are:
 
 <!--endintro-->
 
-1. Make sure one rule is enabled in code analysis and
-2. One rule in StyleCop and
+1. In VS Code, open Code Analysis, and enable one rule
+2. In VS Code, open StyleCop and enable one rule
 3. Get Code Auditor to zero
 
 

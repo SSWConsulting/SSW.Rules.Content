@@ -12,7 +12,9 @@ related: []
 
 ---
 
-Is your code DRY? If a logic (a piece of code) will occur more than once, please make it a method and call it whenever it's used. This will reduce redundancy, decrease maintenance effort, improve efficiency and reusability, and make the code more clear to read.
+Is your code DRY? Any logic that is used more than once, should be encapsulated in a method, and the method called wherever it is needed.
+
+This will reduce redundancy, decrease maintenance effort, improve efficiency and reusability, and make the code more clear to read.
 
 <!--endintro-->
 
@@ -99,5 +101,7 @@ sSmtpClient.Send(sMessage);
 
 ::: good
 Good Example: Put the same logic in a method and make it reusable 
+
+
 
 :::

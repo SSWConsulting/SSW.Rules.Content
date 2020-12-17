@@ -22,6 +22,5 @@ index:
 - rules-to-better-proposals
 - rules-to-better-recruiting
 
-
 ---
 

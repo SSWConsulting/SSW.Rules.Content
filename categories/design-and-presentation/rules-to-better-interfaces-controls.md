@@ -33,6 +33,7 @@ index:
 - controls---do-you-include-a-select-all-checkbox-on-the-top
 - controls---do-you-indicate-when-fields-are-read-only-or-calculated
 - controls---do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
+- being-pedantic---do-you-use-balloon-tooltip
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.

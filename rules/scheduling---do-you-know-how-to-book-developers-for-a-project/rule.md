@@ -31,11 +31,13 @@ Prerequisite: [https://rules.ssw.com.au/dynamics-crm-install-the-dynamics-365-ap
 This is generally the easiest way for developers to book themselves in as they don't need to leave outlook and 90% of the steps will already be familiar to them.
 
 1. Create a new Outlook (in the Desktop or Web client) appointment and give it a relevant subject
-2. Select required resources if there are other people working with you or if you're booking for someone else
+2. Invite required resources if there are other people working with you or if you're booking for someone else
     1. Note: if you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box.
-3. Set the time and location for your appointment
-4. Set the recurrence if it’s more than 1 day of work
-5. Click "Dynamics 365" on the ribbon which will open a side panel and click on "Set Regarding" then search select the company that you want to book the developers to work on (this is the step that syncs it with CRM)
+3. Invite the client as optional. If you do this, also make it a Teams Meeting and add your email signature
+4. Set the time and location for your appointment
+5. set the time as "Free" rather than "Busy". This can be set up to be the default option if you're making a lot of these appointments
+6. Set the recurrence if it’s more than 1 day of work
+7. Click "Dynamics 365" on the ribbon which will open a side panel and click on "Set Regarding" then search select the company that you want to book the developers to work on (this is the step that syncs it with CRM)
 
 <dl class="image">&lt;dt&gt; <img src="Dynamics1.jpg" alt="Dynamics1.jpg" style="margin:5px;width:750px;height:299px;"> <br>&lt;/dt&gt;<dd>Figure: A complete appointment booking Brendan to work for SSW for 5 days</dd><dd><span style="color:#cc4141;font-family:" segoe="" ui",="" "trebuchet="" ms",="" tahoma,="" arial,="" verdana,="" sans-serif;font-size:18px;font-weight:normal;"=""><br></span></dd><dd><span style="color:#cc4141;font-family:" segoe="" ui",="" "trebuchet="" ms",="" tahoma,="" arial,="" verdana,="" sans-serif;font-size:18px;font-weight:normal;"="">Opti</span><span style="color:#cc4141;font-family:" segoe="" ui",="" "trebuchet="" ms",="" tahoma,="" arial,="" verdana,="" sans-serif;font-size:18px;font-weight:normal;"="">on 2: C</span><span style="color:#cc4141;font-family:" segoe="" ui",="" "trebuchet="" ms",="" tahoma,="" arial,="" verdana,="" sans-serif;font-size:18px;font-weight:normal;"="">R</span><span style="color:#cc4141;font-family:" segoe="" ui",="" "trebuchet="" ms",="" tahoma,="" arial,="" verdana,="" sans-serif;font-size:18px;font-weight:normal;"="">M Activity Appointments </span></dd></dl>
 This is a backup option for anyone who doesn't have access to Outlook with the CRM add-in.

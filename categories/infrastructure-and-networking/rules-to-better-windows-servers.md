@@ -12,6 +12,7 @@ index:
 - printers---do-you-make-your-printers-easy-to-find
 - do-you-know-what-to-request-if-someone-wants-more-ram-and-processors-on-a-vm-or-a-pc
 - do-you-turn-on-file-auditing-for-your-file-server
+- do-you-keep-your-system-up-to-date
 
 ---
  

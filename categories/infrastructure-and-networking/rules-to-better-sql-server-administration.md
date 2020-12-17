@@ -7,6 +7,7 @@ index:
 - do-you-know-to-never-give-sql-server-all-your-ram
 - do-you-keep-sharepoint-databases-in-a-separate-sql-instance
 - do-you-turn-off-auto-update-on-your-servers
+- do-you-turn-off-auto-update-on-your-servers
 
 ---
  
