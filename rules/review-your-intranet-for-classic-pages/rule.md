@@ -17,8 +17,8 @@ redirects:
 ---
 
 
-Enter Intro Text
+<p class="ssw15-rteElement-P">You should review all your Intranet content and for all classic features (pages, web parts, etc…), and&#160;decide if you want to <b>keep</b>&#160;or <b>migrate</b> them.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>​More info&#58;&#160;<a href="https&#58;//docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-scanner">Getting started with the SharePoint modernization scanner</a>.<br></p>
 
 
