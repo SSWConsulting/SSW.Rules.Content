@@ -16,9 +16,9 @@ redirects:
 
 
 <p>​​
-                    Every website out there has a page which displays the results of a search. I am
+                    Every website out there has a page that displays the results of a search. I am
                     amazed that no standard has been adopted throughout the Web as nearly every site
-                    seems to have a different way of displaying data.</p>
+                    seems to have a different way of displaying data.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
                     However, Google is a very good example for displaying search results. Their result
