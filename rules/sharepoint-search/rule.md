@@ -18,7 +18,7 @@ redirects:
 ---
 
 
-<p class="ssw15-rteElement-P">​​SharePoint search is a powerful tool for discovering information. Here are some tips to make sure you are getting the most from it. There are two things to consider regarding SharePoint search; firstly, how you save information to SharePoint to be more easily discoverable; secondly, how to perform searches within SharePoint.<br></p><div><div><p class="ssw15-rteElement-P">​Here are some tips for performing searches&#58;​​​<br></p><div>
+<p class="ssw15-rteElement-P">​​​SharePoint search is a powerful tool for discovering information. Here are some tips to make sure you are getting the most from it. There are two things to consider regarding SharePoint search; firstly, how you save information to SharePoint to be more easily discoverable; secondly, how to perform searches within SharePoint.<br></p><div><div><p class="ssw15-rteElement-P">​Here are some tips for performing searches&#58;​​​<br></p><div>
    <div><h3>Know how to navigate SharePoint search – watch this video</h3><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"> 
          <iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/Vh64ZEC0wcw" frameborder="0"></iframe>&#160;</div>
       <br>
