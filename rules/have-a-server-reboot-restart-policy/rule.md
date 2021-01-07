@@ -19,7 +19,7 @@ redirects:
 ---
 
 
-<p>If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.<br></p><p>For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method.&#160;If you use 
+<p>​For unplanned outages see&#58;&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d3f1bdc6-5ea1-495b-8c0d-98504963b563">https&#58;//rules.ssw.com.au/unplanned-outage-process​</a><br></p><p>​​​If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.</p><p>For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method.&#160;If you use 
    <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3a474efa-ca72-4320-af36-b0e6af355684">Teams or Skype</a>&#160;a quick&#160;message will do.&#160;</p><p>
    <b>Note&#58; </b>If they are not online on Teams or Skype, then they can't complain that they were not warned. 
    <br></p><p>For extended or planned outages, or if you have a larger number of users (50+), 
