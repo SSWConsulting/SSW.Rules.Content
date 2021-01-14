@@ -1,0 +1,23 @@
+---
+type: rule
+archivedreason: 
+title: General - Ethics - Do you only do what you think is right? (Professional integrity)
+guid: 9f9518ef-fb26-4c0c-b6ec-5bdfbee1b93d
+uri: general-ethics-do-you-only-do-what-you-think-is-right-professional-integrity
+created: 2012-09-25T17:59:49.0000000Z
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects:
+- do-you-only-do-what-you-think-is-right
+- general-ethics-do-you-only-do-what-you-think-is-right-(professional-integrity)
+
+---
+
+If someone asks you to do something you believe is unethical please ring them up                     straight away and discuss the issue.
+
+<!--endintro-->
+![](Dilbert-Analysis.gif) **Figure: Have a frank discussion if you feel strongly about something
+** 
+It can also be a good idea to [document your objections in an email.](/do-you-send-a-for-the-record-email-when-you-disagree)
