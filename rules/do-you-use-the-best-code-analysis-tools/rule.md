@@ -118,7 +118,8 @@ Create a      **GlobalSuppressions.cs** file in your project with the rules that
 
 ### Level 8
 
-The gold standard is to use <br>   [SonarQube](https://www.sonarqube.org/), which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt
+The gold standard is to use 
+   [SonarQube](https://www.sonarqube.org/), which gives you the code analysis that the previous levels give you as wells as the ability to analyze technical debt and to see which code changes had the most impact to technical debt
 
 
 ::: ok  

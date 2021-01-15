@@ -30,7 +30,8 @@ We consider Outlook is friendlier, because:
 1. The wrong data is entered often when you have Street 1, Street 2, Street 3.
 2. Often Street 2 and Street 3 is not needed so it is extra clutter for no reason.
 3. What do you do when you have Street 4.
-4. It is the same as <br>      [http://local.live.com/](http://www.ssw.com.au/SSW/Redirect/Live.htm)
+4. It is the same as 
+      [http://local.live.com/](http://www.ssw.com.au/SSW/Redirect/Live.htm)
 
 
 Of course, we might be wrong, because:

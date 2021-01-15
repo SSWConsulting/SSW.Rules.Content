@@ -35,7 +35,12 @@ Sending appointments from Teams feels less natural than from Outlook but there a
 **Important:** Although the meeting app works great to organize Teamwork such as Scrum meetings or other client meetings, it is not very suitable for more global events such as a retreat or a conference. At SSW we use Microsoft Outlook appointments in those instances.
 
 
-<dl class="badImage"><br><br>::: bad  <br>![Figure: Bad Example - This appointment was created using Outlook using Zoom - the team members needed to be added to the appointment individually and there are too many options on how to join the meeting.](team meeting - bad example.jpg)  <br>:::<br></dl>
+
+
+::: bad  
+![Figure: Bad Example - This appointment was created using Outlook using Zoom - the team members needed to be added to the appointment individually and there are too many options on how to join the meeting.](team meeting - bad example.jpg)  
+:::
+
 
 
 

@@ -25,14 +25,19 @@ Fill in the following table. You will use this later when creating the new web a
 
 | **SharePoint 2010 Web Application Option** | **Where To Find This In SharePoint 2007** | **Answer** |
 | --- | --- | --- |
-| Authentication Provider | Use  **classic**  unless you know you need  **claims based authentication <br>** Note: this is a new feature in SharePoint 2010. |  |
+| Authentication Provider | Use  **classic**  unless you know you need  **claims based authentication 
+** Note: this is a new feature in SharePoint 2010. |  |
 | New IIS Web Site Name | Application Management | Web application list |  **Name Field** |  |
-| Port | Application Management | Web application list |  **URL Field** . <br>                     Port number will be listed on end of URL (if nothing its port 80) |  |
-| Host Header | Application Management | Web application list |  **URL Field**  if a DNS name is used (not just the NetBIOS name). <br>                     If a DNS name is  **NOT**  used, leave this blank. |  |
+| Port | Application Management | Web application list |  **URL Field** . 
+                     Port number will be listed on end of URL (if nothing its port 80) |  |
+| Host Header | Application Management | Web application list |  **URL Field**  if a DNS name is used (not just the NetBIOS name). 
+                     If a DNS name is  **NOT**  used, leave this blank. |  |
 | Authentication Provider | Application Management | Authentication Providers | (Click On the default zone if applicable) |  **IIS Authentication Settings**  field. |  |
 | Allow Anonymous | Application Management | Authentication Providers | (Click On the default zone if applicable) |  **Anonymous Access**  field. |  |
 | Use Secure Sockets Layer | Check whether the SharePoint site URL like “ **https** ://\*\*\*” |  |
 | Public URL | Automatically updated from Host Header |  |
 | Application pool name | Leave defaults |  |
 | Security account for this application pool | Leave defaults |  |
-| Database Name | Zz the database name so you know this will be replaced (read [zzOldFiles](/do-you-zz-old-files-rather-than-deleting-them))<br><br> |  |
+| Database Name | Zz the database name so you know this will be replaced (read [zzOldFiles](/do-you-zz-old-files-rather-than-deleting-them))
+
+ |  |

@@ -59,8 +59,12 @@ Given an      **AdAccount** named account, you can access:
 
 The value object also supports implicit and explicit conversion operators. You can:
 
-1. Implicitly convert from <br>       **AdAccount** to <br>       **string** using; (string)account
-2. Explicitly convert from <br>       **string** to <br>       **AdAccount** using; (AdAccount)"SSW\\Jason"
+1. Implicitly convert from 
+       **AdAccount** to 
+       **string** using; (string)account
+2. Explicitly convert from 
+       **string** to 
+       **AdAccount** using; (AdAccount)"SSW\\Jason"
 
 
 If you're using Entity Framework Core, you should also configure the type as follows:

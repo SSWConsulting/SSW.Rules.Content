@@ -44,15 +44,35 @@ Thankfully, Windows Server come with built-in file auditing. Any changes create 
 
 1. Terminal Server into the file server
 2. In Windows Explorer, locate the directory you want to configure logging for (e.g.  **C:\Inetpub\wwwroot** for logging changes to your website files)
-3. Select  **Security** tab |  **Advanced** <dl class="image"><br><br>::: ok  <br>![Figure: Select the folder you want to configure auditing for](networkauditing_01.gif)  <br>:::<br></dl>
+3. Select  **Security** tab |  **Advanced** 
+
+::: ok  
+![Figure: Select the folder you want to configure auditing for](networkauditing_01.gif)  
+:::
+
 4. Click the  **Auditing** tab
-5. Select the users whose usage you want to monitor (usually all users, so select  **Everyone** ) <dl class="image"><br><br>::: ok  <br>![Figure: Select Everyone so that anyone who modifies any of the files will be logged](networkauditing_02.gif)  <br>:::<br></dl>
-6. Select what you want to monitor. For best performance, we only tick the options in shown in the figure below - there's no need to log when someone opens a file. <dl class="image"><br><br>::: ok  <br>![Figure: Select these 4 options (only audit the events you need to audit - there's no need to log when someone opens a file)](networkauditing_03.gif)  <br>:::<br></dl>
+5. Select the users whose usage you want to monitor (usually all users, so select  **Everyone** ) 
+
+::: ok  
+![Figure: Select Everyone so that anyone who modifies any of the files will be logged](networkauditing_02.gif)  
+:::
+
+6. Select what you want to monitor. For best performance, we only tick the options in shown in the figure below - there's no need to log when someone opens a file. 
+
+::: ok  
+![Figure: Select these 4 options (only audit the events you need to audit - there's no need to log when someone opens a file)](networkauditing_03.gif)  
+:::
+
 7. Click  **OK** and  **OK** again to apply the changes. The process may take some time depending on the number of subfolders and files selected.
 Now you need to configure the system event log.
 8. Open  **Control Panel-&gt;Administrative Tools-&gt;Event Viewer**
 9. Right-click the  **Security** node and Control Panel | Administrative Tools | Event Viewer
-10. Right-click the sure  **Overwrite events as needed** is checked <dl class="image"><br><br>::: ok  <br>![Figure: Keep your log file to about 250MB - otherwise, your system performance may suffer](networkauditing_04.gif)  <br>:::<br></dl>
+10. Right-click the sure  **Overwrite events as needed** is checked 
+
+::: ok  
+![Figure: Keep your log file to about 250MB - otherwise, your system performance may suffer](networkauditing_04.gif)  
+:::
+
 
 
 ### Checking who created the file
@@ -61,7 +81,12 @@ Now test to see if auditing is working.
 
 1. On the server, create a file called "test.aspx" somewhere in the path that is being audited
 2. Open  **Control Panel-&gt;Administrative Tools-&gt;Event Viewer**
-3. Select the  **Security** node, and notice the entries that have been created. They will have a similar format to the figure below. <dl class="image"><br><br>::: ok  <br>![Figure: Any creates, deletes and updates now get logged to the Event Log](networkauditing_05.gif)  <br>:::<br></dl>
+3. Select the  **Security** node, and notice the entries that have been created. They will have a similar format to the figure below. 
+
+::: ok  
+![Figure: Any creates, deletes and updates now get logged to the Event Log](networkauditing_05.gif)  
+:::
+
 
 
 That's all! It is also great for finding out who accidentally deleted files from the file system.

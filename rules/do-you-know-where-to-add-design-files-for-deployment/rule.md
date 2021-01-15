@@ -28,6 +28,8 @@ So our rules are:
 2. Start with a clean, minimal masterpage
 3. Create and reference your own CSS files and put them under /Style Library/CSS/&lt;client&gt;/
 4. You may want to further divide your CSS paths according to the areas of the site that your CSS is designed for:
-<br>    E.g. /Style Library/CSS/SSW/Clients/layout.css
+
+    E.g. /Style Library/CSS/SSW/Clients/layout.css
 5. Designers can modify the XSL file as well!
-<br>    put them under /Style Library/XSL Style Sheets/&lt;client&gt;/
+
+    put them under /Style Library/XSL Style Sheets/&lt;client&gt;/

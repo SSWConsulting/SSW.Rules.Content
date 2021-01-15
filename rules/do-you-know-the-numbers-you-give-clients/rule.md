@@ -17,7 +17,15 @@ When working on an hourly basis, you can confuse clients when sometimes you try 
 Simply things and just give them these 3 numbers:
 
 
-| <br><br>| $ Billed to date | \_\_$xx\_\_(accurate on Tuesday) |<br>| --- | --- |<br>| Burndown Days Remaining | \_\_8\_\_ |<br>| Calendar Days Booked | \_\_4days x 2\_\_ |<br>| Next meeting (for Review and Retro) |<br><br> |
+| 
+
+| $ Billed to date | \_\_$xx\_\_(accurate on Tuesday) |
+| --- | --- |
+| Burndown Days Remaining | \_\_8\_\_ |
+| Calendar Days Booked | \_\_4days x 2\_\_ |
+| Next meeting (for Review and Retro) |
+
+ |
 | --- |
 
 
@@ -41,4 +49,5 @@ Hi Andrew,
     * Have a Retrospective Meeting at 12 noon – 2 hours
     * Have a Planning Meeting at 2pm
 
-<br>        Please let us know if you have any questions or concerns.
+
+        Please let us know if you have any questions or concerns.

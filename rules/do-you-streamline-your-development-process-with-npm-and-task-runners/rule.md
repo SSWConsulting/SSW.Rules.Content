@@ -72,19 +72,31 @@ This key feature was removed, but with the addition of tasks runners to Visual s
 
 
 
-| <br> | var gulp = require('gulp'); |
+| 
+ | var gulp = require('gulp'); |
 | --- | --- |
-| <br> | var less = require('gulp-less'); |
-| <br> | var path = require('path'); |
-| <br> | var plumber = require('gulp-plumber'); |
-| <br> | gulp.task('less', function () { |
-| <br> | return gulp.src('./Content/\*\*/\*.less') |
-| <br> | .pipe(plumber()) |
-| <br> | .pipe(less({ |
-| <br> | paths: [path.join(\_\_dirname, 'less', 'includes')] |
-| <br> | })) |
-| <br> | .pipe(gulp.dest('./content/')); |
-| <br> |  |
+| 
+ | var less = require('gulp-less'); |
+| 
+ | var path = require('path'); |
+| 
+ | var plumber = require('gulp-plumber'); |
+| 
+ | gulp.task('less', function () { |
+| 
+ | return gulp.src('./Content/\*\*/\*.less') |
+| 
+ | .pipe(plumber()) |
+| 
+ | .pipe(less({ |
+| 
+ | paths: [path.join(\_\_dirname, 'less', 'includes')] |
+| 
+ | })) |
+| 
+ | .pipe(gulp.dest('./content/')); |
+| 
+ |  |
 
 
 

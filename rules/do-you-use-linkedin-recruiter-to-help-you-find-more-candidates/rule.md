@@ -35,7 +35,7 @@ This is where LinkedIn Recruiter is a game changer. Some the unique features:
 * Allows you to directly message candidates via InMail
 
 
-<dl class="ssw15-rteElement-ImageArea"><img src="SearchLinkedinRecruiter.jpg" alt="SearchLinkedinRecruiter.jpg" style="margin:5px;width:808px;"></dl> **Figure: A screenshot of the Recruiter search that you can use. The red box shows you the keyword searches that you can do to filter applicants and suggestions.** 
+<img src="SearchLinkedinRecruiter.jpg" alt="SearchLinkedinRecruiter.jpg" style="margin:5px;width:808px;"> **Figure: A screenshot of the Recruiter search that you can use. The red box shows you the keyword searches that you can do to filter applicants and suggestions.** 
 
 
 

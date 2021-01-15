@@ -126,13 +126,21 @@ Every team is different, but you can use the following guidelines for sizing PBI
 
 > | **Estimate Value**  | **Example PBI**  |
 > | --- | --- |
-> | 1 | A change to a message box<br> |
-> | 2<br> | - |
-> | 4<br> | A timeboxed task for 1 day x 1 guy |
-> | 8<br> | A timeboxed task of 1 day x 2 guys |
-> | 16<br> | - |
-> | 32<br> | - |
-> | 64<br> | More than a month with a couple of guys.<br> **Tip:** Don't include these in a sprint because they are too risky - ask for them to be broken down. |
+> | 1 | A change to a message box
+ |
+> | 2
+ | - |
+> | 4
+ | A timeboxed task for 1 day x 1 guy |
+> | 8
+ | A timeboxed task of 1 day x 2 guys |
+> | 16
+ | - |
+> | 32
+ | - |
+> | 64
+ | More than a month with a couple of guys.
+ **Tip:** Don't include these in a sprint because they are too risky - ask for them to be broken down. |
 > 
 > 
 > ::: good

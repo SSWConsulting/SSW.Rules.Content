@@ -169,4 +169,9 @@ Project Name</td>" +
 :::
 
 We believe all combos should be able to be sorted ascending/descending and by popularity asc/desc.
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Is there a better way to sort this?](sort-alpha-numeric.jpg)  <br>:::<br></dl>
+<dl class="goodImage">
+
+::: good  
+![Figure: Good Example - Is there a better way to sort this?](sort-alpha-numeric.jpg)  
+:::
+</dl>

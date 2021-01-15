@@ -25,10 +25,10 @@ The right way to do this is to copy the image locally and upload to your own ser
 
 
 ```
-<dl class="image">
-<dt><img src="https://some-external-url.com/images/open-extension.png" alt="Open extension" /></dt> 
+
+<img src="https://some-external-url.com/images/open-extension.png" alt="Open extension"> 
 <dd>Figure: Open extension</dd>
-</dl>
+
 ```
 
 
@@ -41,10 +41,10 @@ Figure: Bad example - using an external URL as image source. The image can be ed
 
 
 ```
-<dl class="image">
-<dt><img src="https://ssw.com.au/images/open-extension.png" alt="Open extension" /></dt> 
+
+<img src="https://ssw.com.au/images/open-extension.png" alt="Open extension"> 
 <dd>Figure: Open extension</dd>
-</dl>
+
 ```
 
 

@@ -35,5 +35,10 @@ Assigned chats appear in animated tabs at the bottom of the dashboard.
 **To change the chat routing method for your account**
 
 1. From the dashboard, select  **Settings** &gt;  **Account** &gt;  **Chat Routing** tab.
-2. Select a routing method.<dl class="image"><br><br>::: ok  <br>![](zendesk-departments-2.png)  <br>:::<br></dl>
+2. Select a routing method.
+
+::: ok  
+![](zendesk-departments-2.png)  
+:::
+
 3. Click  **Save Changes** .

@@ -40,10 +40,16 @@ The 4 principles of the redux pattern:
 4. Reducers are pure JavaScript functions. This means they cannot import external dependencies.
 
 
-<font color="#333333">Side Effects<br></font>
+<font color="#333333">Side Effects
+</font>
 
 <font color="#333333">To perform operations that require external dependencies (such as communicating with a web server), we can implement side effects. These can use external dependencies but they cannot directly modify the store. They can invoke reducers to modify the store when the side effect is complete</font>
 
-<font color="#333333"><br>redux-saga is a library that provides redux application side effects.<br>The advantages of using redux-saga are:<br><ol><li>Collects all asynchronous operations in one place, making the code clearer.<br></li><li>Uses an  ES6 feature called Generators to make asynchronous flows easy to read, write and test.<br></li><li>Generators also let these asynchronous flows look like your standard synchronous code (kind of like async/await in C#). This solves “callback hell” [<a href="https://en.wiktionary.org/wiki/callback_hell">https://en.wiktionary.org/wiki/callback_hell </a>]</li></ol></font>
+<font color="#333333">
+redux-saga is a library that provides redux application side effects.
+The advantages of using redux-saga are:
+<ol><li>Collects all asynchronous operations in one place, making the code clearer.
+</li><li>Uses an  ES6 feature called Generators to make asynchronous flows easy to read, write and test.
+</li><li>Generators also let these asynchronous flows look like your standard synchronous code (kind of like async/await in C#). This solves “callback hell” [<a href="https://en.wiktionary.org/wiki/callback_hell">https://en.wiktionary.org/wiki/callback_hell </a>]</li></ol></font>
 
 <font color="#333333"></font>

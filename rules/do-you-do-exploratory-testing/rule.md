@@ -34,13 +34,15 @@ Use Microsoft's Exploratory Testing -  **Test & Feedback extension** - to perfor
  
 
 
- **Ravi walks Adam through the exploratory testing extension - You can also <br>   [watch on SSW TV](http://tv.ssw.com/6664/exploratory-testing-extension-for-visual-studio-adam-cogans-interview-with-ravi-shanker)
+ **Ravi walks Adam through the exploratory testing extension - You can also 
+   [watch on SSW TV](http://tv.ssw.com/6664/exploratory-testing-extension-for-visual-studio-adam-cogans-interview-with-ravi-shanker)
 ** 
 
 
 `youtube: https://www.youtube.com/embed/G5tTF0sjyTg?rel=0`
  
- **Ravi Shanker and Adam Cogan talk about the test improvements in Visual Studio Team Services and the Chrome Test & Feedback extension  - You can also <br>      [watch on SSW TV](https://tv.ssw.com/6873/vs-test-feedback-chrome-extension-with-product-owner-ravi-shanker-microsoft-seattle-2017)
+ **Ravi Shanker and Adam Cogan talk about the test improvements in Visual Studio Team Services and the Chrome Test & Feedback extension  - You can also 
+      [watch on SSW TV](https://tv.ssw.com/6873/vs-test-feedback-chrome-extension-with-product-owner-ravi-shanker-microsoft-seattle-2017)
 ** 
 
 
@@ -52,12 +54,41 @@ Use Microsoft's Exploratory Testing -  **Test & Feedback extension** - to perfor
 **
 ** 
 
-1. Go to [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms.vss-exploratorytesting-web) and click install. <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Microsoft Test & Feedback (was Exploratory Testing) extension](exploratory-test-extension-install.png)  <br>:::<br></dl>
-2. Click "Add to Chrome" to add the extension to the browser on your computer. <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Chrome Web Store page for Test & Feedback extension](exploratory-test-extension-add.png)  <br>:::<br></dl>
+1. Go to [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms.vss-exploratorytesting-web) and click install. 
+      
+
+::: ok  
+![Figure: Microsoft Test & Feedback (was Exploratory Testing) extension](exploratory-test-extension-install.png)  
+:::
+
+2. Click "Add to Chrome" to add the extension to the browser on your computer. 
+      
+
+::: ok  
+![Figure: Chrome Web Store page for Test & Feedback extension](exploratory-test-extension-add.png)  
+:::
+
 3. Go to Chrome.
-4. Start a session by clicking on the Chrome extension and then click start a session. <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Chrome extension icon](exploratory-test-extension-icon.png)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Test & Feedback start session button](exploratory-test-extension-start.png)  <br>:::<br></dl>
-5. Upload the screenshot to a PBI. <br>          
-<dl class="image"><br><br>::: ok  <br>![Figure: PBI in Visual Studio Team Services (VSTS) showing the screenshot](pbi-screenshot.jpg)  <br>:::<br></dl>
+4. Start a session by clicking on the Chrome extension and then click start a session. 
+      
+
+::: ok  
+![Figure: Chrome extension icon](exploratory-test-extension-icon.png)  
+:::
+
+
+::: ok  
+![Figure: Test & Feedback start session button](exploratory-test-extension-start.png)  
+:::
+
+5. Upload the screenshot to a PBI. 
+          
+
+
+::: ok  
+![Figure: PBI in Visual Studio Team Services (VSTS) showing the screenshot](pbi-screenshot.jpg)  
+:::
+
 
 
 ### Related Links

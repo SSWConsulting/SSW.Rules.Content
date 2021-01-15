@@ -25,7 +25,8 @@ When you run Octopus Deploy setup the application installs to you %Program Files
 
 
 ::: bad
-Bad<br>Example - Home directory is pointing to %SystemDrive%  
+Bad
+Example - Home directory is pointing to %SystemDrive%  
 :::
 
 

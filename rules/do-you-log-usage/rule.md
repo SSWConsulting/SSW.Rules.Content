@@ -23,6 +23,6 @@ So you can see what functions are being used more often (e.g. reports, menu item
 :::
 
 You can achieve this with Redgate's [Feature Usage Reporting](http://www.red-gate.com/products/dotnet-development/smartassembly/).
-<dl class="ssw15-rteElement-ImageArea"><img alt="logusage-smartassembly.png" src="logusage-smartassembly.png" style="margin:5px;width:650px;"></dl> **Figure: Smart Assembly Professional keeps tracks of usage
-** <dl class="ssw15-rteElement-ImageArea"><img alt="logusage-pafortfs.jpg" src="logusage-pafortfs.jpg" style="margin:5px;width:650px;"></dl> **Figure: PA for TFS
+<img alt="logusage-smartassembly.png" src="logusage-smartassembly.png" style="margin:5px;width:650px;"> **Figure: Smart Assembly Professional keeps tracks of usage
+** <img alt="logusage-pafortfs.jpg" src="logusage-pafortfs.jpg" style="margin:5px;width:650px;"> **Figure: PA for TFS
 **

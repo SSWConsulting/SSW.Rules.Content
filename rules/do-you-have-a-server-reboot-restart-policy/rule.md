@@ -47,18 +47,26 @@ Here is the summary of the outage plan:
 
 | **Planned/Unplanned:**  | Planned |
 | --- | --- |
-| **Change Description:**  | Install Windows Updates and Restart Server<br> |
+| **Change Description:**  | Install Windows Updates and Restart Server
+ |
 | **Risk (see table below):**  | LOW RISK (LOW Probability and MEDIUM Impact) |
-| **Reason For Change:**  | Windows 2016 Windows Updates<br> |
+| **Reason For Change:**  | Windows 2016 Windows Updates
+ |
 | **Uptime over last month:**  | 91.361% |
-| | <br> |
+| | 
+ |
 | **Planned Outage (mins):**  | 150 |
 | **Planned Start Time:**  | 26 October 9:00 PM |
-| **Planned Finish Time:**  | 26 October 11:30 PM<br> |
+| **Planned Finish Time:**  | 26 October 11:30 PM
+ |
 | |  |
-| **Affected Services:**  | \\Windows Server 2016<br> |
-| | http://sharepoint.ssw.com.au<br>http://intranet.ssw.com.au<br>http://projects.ssw.com.au |
-| | <br> |
+| **Affected Services:**  | \\Windows Server 2016
+ |
+| | http://sharepoint.ssw.com.au
+http://intranet.ssw.com.au
+http://projects.ssw.com.au |
+| | 
+ |
 
 
 **Risk Lookup Table by Probability and Impact:** 
@@ -71,7 +79,9 @@ Here is the summary of the outage plan:
 | **Impact** | **Low** | Low risk | Low Risk | Low Risk | Medium Risk |
 | **Medium** | Low Risk | Medium Risk | Medium Risk | High Risk |
 | **High** | Medium Risk | High Risk | High Risk | High Risk |
-| **Unknown** | Medium Risk <br>                  <br> | High Risk | High Risk | High Risk |
+| **Unknown** | Medium Risk 
+                  
+ | High Risk | High Risk | High Risk |
 
 **Figure: Clearly showing the potential risks
 
@@ -138,7 +148,8 @@ Once these have been checked for active users, and users have logged off, mainte
 
 1. Between 7am and 7:05am
 2. Between 1pm and 1:05pm
-3. Between 7pm and 7:05pm <br>
+3. Between 7pm and 7:05pm 
+
 
 
 If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://www.ssw.com.au/ssw/Redirect/Microsoft/Technet.htm) page.

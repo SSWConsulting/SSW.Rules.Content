@@ -32,31 +32,46 @@ When joining a new team, it's easy to be lost and not know when the important me
 ![Figure: Good Example - A SharePoint page allows me to see my Team's meetings before I have been invited (and invite myself if required)](team meetings - good example.jpg)  
 :::
 
-1. Open up the Team's SharePoint site (you can find this easily by going to the <br>      *Files* tab and clicking <br>      *Open in SharePoint*)
+1. Open up the Team's SharePoint site (you can find this easily by going to the 
+      *Files* tab and clicking 
+      *Open in SharePoint*)
 2. Go to the SharePoint site's Home page (from the menu on the left)
 3. Add a new page
 4. Add a Group Calendar web part to the page
 5. Publish the page
-<dl class="image"><br><br>::: ok  <br>![Figure: Some easy to follow steps to create the SharePoint page](team meeting - create calendar page.gif)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Some easy to follow steps to create the SharePoint page](team meeting - create calendar page.gif)  
+:::
+
 6. In Teams, click add a new SharePoint tab to the Team
 7. Select the newly published SharePoint page
 8. Click Save
-<dl class="image"><br><br>::: ok  <br>![Figure: Adding a tab to a Team is an indispensable skill](team meeting - add sharepoint tab.gif)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Adding a tab to a Team is an indispensable skill](team meeting - add sharepoint tab.gif)  
+:::
+
 9. All done 😀
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 <font color="#333333">🔥 Make sure you pick "SharePoint" tab (as opposed to "Website" tab) for best possible integration:</font>
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 ![](Bad One.jpg)
 
 ::: bad
 Figure: Bad Example - using the Website tab  
 :::
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 ![](Good One.jpg)
 
 ::: good
@@ -64,7 +79,8 @@ Figure: Good Example - using the SharePoint tab
 
 :::
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 **Suggestion to Microsoft:** [This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te)
 

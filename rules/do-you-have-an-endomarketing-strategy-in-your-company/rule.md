@@ -44,7 +44,8 @@ Many companies invest a lot of time, resources and money to attract and retain c
 
 
 
-Richard Branson once said: "If you take care of your employees, they will take care of the clients," and this is another reason why you should start taking care of your team in a more hands-on way. <br>   
+Richard Branson once said: "If you take care of your employees, they will take care of the clients," and this is another reason why you should start taking care of your team in a more hands-on way. 
+   
 
 
 
@@ -64,8 +65,8 @@ The main benefits of this strategy are:
 
 
 
-<dl class="ssw15-rteElement-ImageArea"><img src="bunny.jpg" alt="bunny.jpg" style="margin:5px;width:808px;">
-   </dl> 
+<img src="bunny.jpg" alt="bunny.jpg" style="margin:5px;width:808px;">
+    
 
 ::: good
 

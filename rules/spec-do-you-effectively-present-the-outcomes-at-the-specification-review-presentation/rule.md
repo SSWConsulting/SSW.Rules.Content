@@ -56,7 +56,8 @@ Figure: Good example – this is an appointment with a specific time for the nex
 * The client won't experience the inevitable delays when you go back to the office and get stuck on other client issues that appear more urgent
 
 
-### What does the client get at the conclusion of the Spec Review? <br>   
+### What does the client get at the conclusion of the Spec Review? 
+   
  
 
 * **Option A** - Email (if they want to minimize documentation time), or
@@ -71,7 +72,8 @@ Make sure to name your video according to the rules on [How to Include Version N
 ![Figure: Good example - Export your PowerPoint presentation as a video](3-01-2014 10-13-04 PM.png)  
 :::
 
-### Video Examples <br>   
+### Video Examples 
+   
 
 
 `youtube: https://www.youtube.com/embed/sPMT6Udh7rQ`

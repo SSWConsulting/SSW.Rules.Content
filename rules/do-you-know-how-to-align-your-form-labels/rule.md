@@ -106,7 +106,12 @@ Cons
 
 Alternatively, we can use Material labeling which places them inside the form and slides up on focus.
 
-<dl class="image"><br><br>::: ok  <br>![](label-material-labeling.png)  <br>:::<br></dl>
+
+
+::: ok  
+![](label-material-labeling.png)  
+:::
+
 ::: good
 Pros
 

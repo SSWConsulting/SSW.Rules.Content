@@ -13,9 +13,13 @@ redirects: []
 
 Unfortunately here is the normal routine to get an email       with your password.
 
-1. You go to a Login form, enter your email and password, <br>     and click the 'Login' button.
+1. You go to a Login form, enter your email and password, 
+     and click the 'Login' button.
 2. You get a validation message like 'Incorrect Password'.
-3. Then you have to click a 'Forgot Password' link to go to <br>     another 'Get Password' form, and then they almost always ask <br>     you to enter your email again and then click 'Get Password' <br>     button.
+3. Then you have to click a 'Forgot Password' link to go to 
+     another 'Get Password' form, and then they almost always ask 
+     you to enter your email again and then click 'Get Password' 
+     button.
 
 
 <!--endintro-->

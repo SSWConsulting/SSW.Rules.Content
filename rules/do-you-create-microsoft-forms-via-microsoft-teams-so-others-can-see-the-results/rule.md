@@ -25,7 +25,22 @@ It’s very easy to log in and send one out from your own Office 365 account, bu
 1. To do this, follow these steps:
 2. Go to Microsoft Teams
 3. Navigate to the team you’d like to be able to see the results of the form
-<dl class="image"><br><br>::: ok  <br>![Figure: Click “+” to make a new tab](forms-teams-1.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Select “Forms”](forms-teams-2.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Name your form, and then continue as usual to create and share it](forms-teams-3.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Click “+” to make a new tab](forms-teams-1.jpg)  
+:::
+
+
+::: ok  
+![Figure: Select “Forms”](forms-teams-2.jpg)  
+:::
+
+
+::: ok  
+![Figure: Name your form, and then continue as usual to create and share it](forms-teams-3.jpg)  
+:::
+
 
 
 If you do accidentally create a personal form instead of a group form, you can move it to a group in http://forms.microsoft.com by clicking “All my forms” | … | “Move”

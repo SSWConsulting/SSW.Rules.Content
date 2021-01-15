@@ -25,9 +25,9 @@ redirects:
 <!--endintro-->
 
 
-Make this easy on yourself by adding a query 'Recent'1. Create a work item query that returns you the last changed work item <dl><dt><img alt="Add a query" src="AddQuery.jpg"></dt>
-<dd>Figure: Add a query just for your associated check ins </dd></dl>
+Make this easy on yourself by adding a query 'Recent'1. Create a work item query that returns you the last changed work item <img alt="Add a query" src="AddQuery.jpg">
+<dd>Figure: Add a query just for your associated check ins </dd>
 2. Just copy the 'Tasks - My' query
-3. Add the sort date of 'Changed Date' sorted by descending <dl><dt><img alt="Sorted the query by 'Changed Date' " src="SortedByChangedDate.jpg"></dt>
-<dd>Figure: The query should be sorted by 'Changed Date' </dd></dl>
+3. Add the sort date of 'Changed Date' sorted by descending <img alt="Sorted the query by 'Changed Date' " src="SortedByChangedDate.jpg">
+<dd>Figure: The query should be sorted by 'Changed Date' </dd>
 4. Use that query on your check ins and you find the relevant work item easily

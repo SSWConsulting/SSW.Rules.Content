@@ -29,7 +29,7 @@ Figure: Bad example – As you can see, your web-browser will let you know if th
 
 :::
 
-<dl class="ssw15-rteElement-ImageArea"><img src="ssw.jpg" alt="ssw.jpg" style="margin:5px;width:808px;"></dl>
+<img src="ssw.jpg" alt="ssw.jpg" style="margin:5px;width:808px;">
 ::: good
 Figure: Good example – SSW’s website is secure and does not share your information
 

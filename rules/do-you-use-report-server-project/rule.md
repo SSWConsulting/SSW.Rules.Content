@@ -30,9 +30,23 @@ If you have some reports and want to check them into source control, if you add 
 To open the reports in the right view you will need to:
 
 1. Be sure that you VS has the tool/extensions Microsoft Reporting Services Projects installed, go to  **Tools** |  **Extensions and Updates** |  **Online** , and search for services
-<dl class="image"><br><br>::: ok  <br>![Figure: Checking Microsoft Reporting Services Projects is installed](report-server-project2.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Checking Microsoft Reporting Services Projects is installed](report-server-project2.png)  
+:::
+
     * In the micros Microsoft Download and install [SQL Server Data Tools (SSDT) for Visual Studio website](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017) you will find all the instructions to install the tool via Marketplace or SSDT standalone installer.
 2. Create the project selecting  **Business Intelligence** |  **Reporting Services** |  **Report Server Project** 
-<dl class="image"><br><br>::: ok  <br>![](report-server-project3.png)  <br>:::<br></dl>
+
+
+::: ok  
+![](report-server-project3.png)  
+:::
+
 3. Add existing reports and create your new DataSource (based in the information on your Report Portal)
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example – Report Server project with reports opening in the design/preview view](report-server-project4.png)  <br>:::<br></dl>
+
+
+::: good  
+![Figure: Good Example – Report Server project with reports opening in the design/preview view](report-server-project4.png)  
+:::

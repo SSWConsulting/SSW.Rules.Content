@@ -22,7 +22,8 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 <!--endintro-->
 
 * Subject: &lt;Client Name&gt; Sprint XX Review/Retro
-* This is a reply to the <br>      [Sprint Forecast email](/Pages/Do-you-create-a-Sprint-Forecast-email.aspx)
+* This is a reply to the 
+      [Sprint Forecast email](/Pages/Do-you-create-a-Sprint-Forecast-email.aspx)
 * Screenshot of Burndown from Azure DevOps
 * Breakdown of work completed (including current code coverage value)
 * Link to test environment
@@ -54,11 +55,23 @@ Attendees:        *(Optional as they may be in the to and CC)*
 
 
 
-| **ID**  | **Title**  | **State**  |  **Effort** <br> |
+| **ID**  | **Title**  | **State**  |  **Effort** 
+ |
 | --- | --- | --- | --- |
-| 24124 <br> | UI Improvements<br> | Done<br> | 4<br> |
-| 24112 <br> | Integrate Business Logic to MVC app  <br> | Done | 8<br> |
-| 24097 <br> | Styling<br> | Committed  <br> | 16<br> |
+| 24124 
+ | UI Improvements
+ | Done
+ | 4
+ |
+| 24112 
+ | Integrate Business Logic to MVC app  
+ | Done | 8
+ |
+| 24097 
+ | Styling
+ | Committed  
+ | 16
+ |
 
 **Figure: Sprint Backlog from [Link to Sprint Backlog in Azure DevOps]** 
 
@@ -66,7 +79,12 @@ Attendees:        *(Optional as they may be in the to and CC)*
 As per [https://rules.ssw.com.au/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), we review:
 
 1. Sprint Burndown (a quick overview of the sprint)
-<dl class="image"><br><br>::: ok  <br>![Figure: Sprint Burndown](burndown.JPG)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Sprint Burndown](burndown.JPG)  
+:::
+
 2. Code Coverage (hopefully tests are increasing each sprint)
 XXX
 
@@ -74,9 +92,19 @@ XXX
 XXX
 
 4. Burnup (for the release - the whole project, how are we tracking for the big picture?)
-<dl class="image"><br><br>::: ok  <br>![Figure: Release Burnup](Release Burnup.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Release Burnup](Release Burnup.jpg)  
+:::
+
 5. Production Deployments (How many times did we deploy to Production?)
-<dl class="image"><br><br>::: ok  <br>![Figure: Deployments from Octopus Deploy](production-deploy.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Deployments from Octopus Deploy](production-deploy.png)  
+:::
+
 6. Application Health Overview Timeline (For the entire Sprint)
 
 ![Application Health Overview Timeline.png](Application Insights.jpg)

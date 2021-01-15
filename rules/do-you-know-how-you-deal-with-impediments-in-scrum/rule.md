@@ -72,24 +72,71 @@ Students and PO do a standard Scrum retro for the exercise.
 
 | **∞** | Impediment |
 | --- | --- |
-| <br><ul>                <li>Draw a point card </li><br>                <li>Add the value to the remaining hours of a task</li><br>                <li>Record the impediment</li><br>            </ul><br>e.g.  DBA will not give access to the database. |
+| 
+<ul>                <li>Draw a point card </li>
+                <li>Add the value to the remaining hours of a task</li>
+                <li>Record the impediment</li>
+            </ul>
+e.g.  DBA will not give access to the database. |
 | **?** | Clarification |
-| <br><ul>                <li>Draw a point card </li><br>                <li>Add a new task</li><br>                <li>Set the remaining hours of a task to the value</li><br>            </ul><br>e.g.  The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the webservice and try    again”. |
+| 
+<ul>                <li>Draw a point card </li>
+                <li>Add a new task</li>
+                <li>Set the remaining hours of a task to the value</li>
+            </ul>
+e.g.  The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the webservice and try    again”. |
 | **0** | Bug |
-| <br><ul>                <li>Draw a point card </li><br>                <li>Create a bug</li><br>                <li>Add a task to the bug</li><br>                <li>Set the remaining hours on the task to the value</li><br>            </ul><br>e.g. One of the build scripts fails on the build server, but works on a local dev machine. |
+| 
+<ul>                <li>Draw a point card </li>
+                <li>Create a bug</li>
+                <li>Add a task to the bug</li>
+                <li>Set the remaining hours on the task to the value</li>
+            </ul>
+e.g. One of the build scripts fails on the build server, but works on a local dev machine. |
 | **20** | Bubble |
-| <br><ul>                <li>Halve the remaining hours on a task </li><br>            </ul><br>e.g. The data access layer supports the validation framework so as that was already implemented the effort expected has decreased. |
+| 
+<ul>                <li>Halve the remaining hours on a task </li>
+            </ul>
+e.g. The data access layer supports the validation framework so as that was already implemented the effort expected has decreased. |
 | **40** | Spike |
-| <br><ul>                <li>Draw a point card </li><br>                <li>Create a new PBI<br></li><br>                <li>Set the PBI points to the value</li><br>            </ul><br>e.g. The current implementation may not support real-time display of information with the    performance expected by users – investigate<br><br> |
+| 
+<ul>                <li>Draw a point card </li>
+                <li>Create a new PBI
+</li>
+                <li>Set the PBI points to the value</li>
+            </ul>
+e.g. The current implementation may not support real-time display of information with the    performance expected by users – investigate
+
+ |
 | **100** | Task blowout |
-| <br><ul>                <li>Double the remaining hours on a task </li><br>            </ul><br>e.g. Multiple field data validation was supported in the application but when it was implemented for this work it failed all validations calls and it took ages to find the    settings in web.config were wrong. |
+| 
+<ul>                <li>Double the remaining hours on a task </li>
+            </ul>
+e.g. Multiple field data validation was supported in the application but when it was implemented for this work it failed all validations calls and it took ages to find the    settings in web.config were wrong. |
 | **Cancelled Sprint** | The PO cancels the sprint |
-| <br><ul>                <li>Cancel all tasks</li><br>                <li>Recycle the PBIs to the Product Backlog </li><br>            </ul> |
-| **Team Member <br><br>            Leaves** | The Team is missing a Team Member |
-| <br><ul>                <li>Reduce the hours the team works by 8 hours </li><br>            </ul> |
-| **Scrum Master <br><br>            Leaves** | The Team is missing the  Scrum Master |
-| <br><ul>                <li>The team handles the missing SM</li><br>            </ul> |
-| **Product Owner <br><br>            Leaves** | The Product Owner is missing |
-| <br><ul>                <li>The team handles the missing PO</li><br>            </ul> |
+| 
+<ul>                <li>Cancel all tasks</li>
+                <li>Recycle the PBIs to the Product Backlog </li>
+            </ul> |
+| **Team Member 
+
+            Leaves** | The Team is missing a Team Member |
+| 
+<ul>                <li>Reduce the hours the team works by 8 hours </li>
+            </ul> |
+| **Scrum Master 
+
+            Leaves** | The Team is missing the  Scrum Master |
+| 
+<ul>                <li>The team handles the missing SM</li>
+            </ul> |
+| **Product Owner 
+
+            Leaves** | The Product Owner is missing |
+| 
+<ul>                <li>The team handles the missing PO</li>
+            </ul> |
 | **Stakeholder Interferes** | Stakeholders are contacting the Team to change priorities and requirements |
-| <br><ul>                <li>The team handles the Stakeholders </li><br>            </ul> |
+| 
+<ul>                <li>The team handles the Stakeholders </li>
+            </ul> |

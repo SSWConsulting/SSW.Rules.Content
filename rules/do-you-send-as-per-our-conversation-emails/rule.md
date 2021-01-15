@@ -60,7 +60,8 @@ Use this approach internally and with clients. As a result, expect to see "as pe
 * **Require a task to be completed**
 * Explain the logic of the decision
 * Include URLs that were referred to
-* Can be referred back to in the future <br>
+* Can be referred back to in the future 
+
 
 
 

@@ -55,7 +55,7 @@ Good example: Expenses separated into different folders - easier to claim and tr
 5. Re-name your report and then save. You can also change the policy if required. To automatically email your receipts to New, select the SSW policy.
 
 
-<dl class="ssw15-rteElement-ImageArea"><img src="Expensify4.PNG" alt="Expensify4.PNG" style="margin:5px;width:360px;height:640px;"></dl>
+<img src="Expensify4.PNG" alt="Expensify4.PNG" style="margin:5px;width:360px;height:640px;">
 
 
 6. You can then add expenses directly into the folder.

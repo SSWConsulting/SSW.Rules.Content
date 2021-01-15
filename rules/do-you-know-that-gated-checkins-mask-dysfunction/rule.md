@@ -46,9 +46,13 @@ In the retro the team discusses the fact that the build is often broken.
 2. If someone needs help with solving a problem, they are going to feel good about asking for help early, and learning something new in the answer.
 3. If someone is asked for help, they will gladly share their knowledge to ensure that the quality of the project is maintained ,and the team help each other to become better developers.
 4. Before checking in, the devs will compile and run all tests. \*\*
-5. If someone checks in and does break the build, they will call out to all members of the team that the build is broken so that no-one gets latest.<br>They will fix the build IMMEDIATELY, and then call out again when it is fixed.<br>(Some teams have a rule that if you break the build three times you have to shout coffee / lunch).
-6. The team agrees that you don’t go home if the build isn’t green. <br>If it comes to the end of the day and you are not sure your code will not break the build – do not checkin. Create a shelveset and resolve the issue properly the next day.
-<br>If you have checked in, the build is broken, and you cannot fix it before going home, you must email all devs on the team, and the product owner with an explanation.
+5. If someone checks in and does break the build, they will call out to all members of the team that the build is broken so that no-one gets latest.
+They will fix the build IMMEDIATELY, and then call out again when it is fixed.
+(Some teams have a rule that if you break the build three times you have to shout coffee / lunch).
+6. The team agrees that you don’t go home if the build isn’t green. 
+If it comes to the end of the day and you are not sure your code will not break the build – do not checkin. Create a shelveset and resolve the issue properly the next day.
+
+If you have checked in, the build is broken, and you cannot fix it before going home, you must email all devs on the team, and the product owner with an explanation.
 7. The status of the build is reviewed in every daily scrum.
 
 

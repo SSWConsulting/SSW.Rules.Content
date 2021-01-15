@@ -20,7 +20,8 @@ redirects:
 Once you’ve identified the manual processes in Stage 1, you can start looking at automation. The best tool for build and release automation is Azure DevOps.
 <!--endintro-->
 
-See our <br>      [Rules to Better Continuous Deployments with TFS](/rules-to-better-continuous-deployment-with-tfs-2012-and-tfs-2013).
+See our 
+      [Rules to Better Continuous Deployments with TFS](/rules-to-better-continuous-deployment-with-tfs-2012-and-tfs-2013).
 
 
 ::: ok  

@@ -40,7 +40,8 @@ Once you have the template, follow these steps to create a customer portal with 
 
 ![Manage Content and Structure](ManageContentAndStructure.jpg)
 Figure: The first step to creating a 'Customer Portal' is to select 'Manage Content and Structure' to view site collection 
-<font size="2">Once the new window opens, on the left-hand side, click on the 'Clients' dropdown select New -&gt; Site. <br> </font> <font size="2"> <font color="#400040">Note: If you </font>don’t see this option, that means you don’t have permission to create the site.</font>
+<font size="2">Once the new window opens, on the left-hand side, click on the 'Clients' dropdown select New -&gt; Site. 
+ </font> <font size="2"> <font color="#400040">Note: If you </font>don’t see this option, that means you don’t have permission to create the site.</font>
 
 ![Create New Site](CreateNewSiteStep1.jpg)
 Figure: Create new site 

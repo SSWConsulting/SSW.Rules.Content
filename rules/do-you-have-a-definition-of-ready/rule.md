@@ -28,7 +28,8 @@ Just like how the team has a     [Definition of Done](/done-do-you-go-beyond-don
 A recommended “Definition of Ready” would be:
 
 * Has enough detail for the team to action (usually via good Acceptance Criteria)
-* Has <br>      [Business Value](/Pages/Estimate-Business-Value.aspx) assigned
+* Has 
+      [Business Value](/Pages/Estimate-Business-Value.aspx) assigned
 * Has effort assigned
 * Is in the Approved state
 

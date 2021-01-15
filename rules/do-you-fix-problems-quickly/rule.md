@@ -35,7 +35,8 @@ Problems come in endless contexts but here's how we deal with some specific exam
 2. [Make client complaints a positive experience](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterInboundCalls.aspx#MakeComplaintsPositive)
 
 
-###  <br>Related Rule
+###  
+Related Rule
 
 
 * [Do you label broken equipment?](/do-you-label-broken-equipment)

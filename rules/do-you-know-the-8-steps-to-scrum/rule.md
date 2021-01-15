@@ -28,7 +28,8 @@ Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 In the Initial Meeting, the Product Owner explains the product vision. The Develoeprs think about the Architecture needed and how long they will need to come up with an estimate.
 
-### 2. <br>   [Backlog Construction](/product-owner-do-you-know-how-to-update-the-backlog)
+### 2. 
+   [Backlog Construction](/product-owner-do-you-know-how-to-update-the-backlog)
 
 The next step is Backlog Construction, also known as a Specification Review. The Developers propose a high-level software architecture and a to-do list called the Product Backlog. The required features are broken down into Product Backlog Items, or PBIs for short. These PBIs are estimated and, before a dollar figure is presented, a buffer is added for generic tasks such as DevOps, Testing, Bug Fixes, Project Management, etc.
 
@@ -57,7 +58,8 @@ Each Sprint is a potentially shippable Product Increment, and with good DevOps, 
 
 Product Feedback will then come in. Some will be bugs, and some will be small changes that can be added to the current Sprint. Other suggestions should be approved by the Product Owner and then added to the Product Backlog.
 
-### 7. <br>   [Sprint Review](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+### 7. 
+   [Sprint Review](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 
 At the end of the Sprint, there is a Sprint Review, where the Developers demo or play done videos of the completed PBIs. The goal is for the Product Owner to understand the increment and to discuss the feedback to make the product better. This is the real measure of the success of the Sprint.

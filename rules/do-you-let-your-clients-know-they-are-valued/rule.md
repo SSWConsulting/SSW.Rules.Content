@@ -34,7 +34,7 @@ Things to consider:
 Figure - Bad example: A Bad Client Gift – Alcohol is easy, but very impersonal
 
 :::
-<dl class="ssw15-rteElement-ImageArea"> <img src="experiences.png" alt="experiences.png" style="margin:5px;width:808px;">     </dl>
+ <img src="experiences.png" alt="experiences.png" style="margin:5px;width:808px;">     
 
 ::: good
 Figure - Good Example: Give your clients a personalised Hot Ballooning experience that you know they’ve wanted to do for years!  

@@ -12,6 +12,11 @@ redirects:
 
 ---
 
-## <dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - The screenshot provides more, useful information and gives the user context](../../assets/GoodMoreInfo.png)  <br>:::<br></dl>
+## 
+
+::: good  
+![Figure: Good Example - The screenshot provides more, useful information and gives the user context](../../assets/GoodMoreInfo.png)  
+:::
+
 
 <!--endintro-->

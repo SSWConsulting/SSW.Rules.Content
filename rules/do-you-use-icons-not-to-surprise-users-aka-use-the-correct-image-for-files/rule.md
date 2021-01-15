@@ -27,7 +27,8 @@ Don't surprise users! Use the following icons:
 
 | File Type | Example |
 | --- | --- |
-| PDF | ![Icon PDF](../../assets/IconPdf.png) This is a PDF file<br> |
+| PDF | ![Icon PDF](../../assets/IconPdf.png) This is a PDF file
+ |
 | JPG | ![Icon JPG](../../assets/IconJpg.gif) This is an Image file |
 | DOC or DOT | ![Icon DOC](../../assets/IconDoc.png) This is a Word Document file |
 | XLS | ![Icon XLS](../../assets/IconXls.gif) This is an Excel Spreadsheet file |

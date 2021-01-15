@@ -18,12 +18,46 @@ If you want to know your website is working or not, you need to add a ping check
 Follow these steps to check your website in WhatsUp:
 <!--endintro-->
 
-1. Add your website as a new device. <dl class="image"><br><br>::: ok  <br>![Figure: New device](running1.GIF)  <br>:::<br></dl>
-2. Ping monitor is added automatically. <dl class="image"><br><br>::: ok  <br>![Figure: Ping monitor](running2.GIF)  <br>:::<br></dl>
-3. Add an HTTP Content Scan monitor. <dl class="image"><br><br>::: ok  <br>![Figure: HTTP Content Scan](running3.GIF)  <br>:::<br></dl>
+1. Add your website as a new device. 
+
+::: ok  
+![Figure: New device](running1.GIF)  
+:::
+
+2. Ping monitor is added automatically. 
+
+::: ok  
+![Figure: Ping monitor](running2.GIF)  
+:::
+
+3. Add an HTTP Content Scan monitor. 
+
+::: ok  
+![Figure: HTTP Content Scan](running3.GIF)  
+:::
+
 4. Edit the scan script. In the script, you can see 2 keywords "Send" and "Expect".
 "Send" expression is an  HTTP request to your website.
 "Expect" expression is a regular expression to check the key word in response from your website.
- <dl class="image"><br><br>::: ok  <br>![Figure: Edit scan script](running4.GIF)  <br>:::<br></dl>
-5. Add the monitor to your device. <dl class="image"><br><br>::: ok  <br>![Figure: Add monitor](running5.GIF)  <br>:::<br></dl> Once a device is down or up, a WhatsUp action will tell SQL Reporting Services to send out a notification report. 
-Our report looks like this: <dl class="image"><br><br>::: ok  <br>![Figure: Website doesn't work](running6.GIF)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Website works](running7.GIF)  <br>:::<br></dl>
+ 
+
+::: ok  
+![Figure: Edit scan script](running4.GIF)  
+:::
+
+5. Add the monitor to your device. 
+
+::: ok  
+![Figure: Add monitor](running5.GIF)  
+:::
+ Once a device is down or up, a WhatsUp action will tell SQL Reporting Services to send out a notification report. 
+Our report looks like this: 
+
+::: ok  
+![Figure: Website doesn't work](running6.GIF)  
+:::
+
+
+::: ok  
+![Figure: Website works](running7.GIF)  
+:::

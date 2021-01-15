@@ -22,7 +22,8 @@ Once you have documented your prospect’s pain points, choose the best ones. Th
 
 <!--endintro-->
 
-Facebook ads, for example, are a really cheap way to test quickly (you should run a quick campaign for 2 or 3 days) which headlines are the best performing within your target market.<br>
+Facebook ads, for example, are a really cheap way to test quickly (you should run a quick campaign for 2 or 3 days) which headlines are the best performing within your target market.
+
 
 
 

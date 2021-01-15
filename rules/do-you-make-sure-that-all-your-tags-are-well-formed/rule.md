@@ -28,33 +28,62 @@ Figure: Good Example
 
 
 ::: greybox
-&lt;breakfast\_menu&gt;<br>
-<br>&lt;food&gt;<br>
-<br>&lt;name&gt;Homestyle Breakfast&lt;/name&gt;<br>
-<br>&lt;price&gt;$6.95&lt;/price&gt;<br>
-<br>&lt;description&gt;two eggs&lt;/description&gt;<br>
-<br>&lt;calories&gt;950&lt;/calories&gt;<br>
-<br>&lt;/food&gt;
-<br>&lt;/breakfast\_menu&gt;  
+&lt;breakfast\_menu&gt;
+
+
+&lt;food&gt;
+
+
+&lt;name&gt;Homestyle Breakfast&lt;/name&gt;
+
+
+&lt;price&gt;$6.95&lt;/price&gt;
+
+
+&lt;description&gt;two eggs&lt;/description&gt;
+
+
+&lt;calories&gt;950&lt;/calories&gt;
+
+
+&lt;/food&gt;
+
+&lt;/breakfast\_menu&gt;  
 :::
 Figure: Good Example
 
 ::: greybox
 &lt;div&gt;   
-<br>&lt;p&gt;Hello HTML  
-<br>&lt;/div&gt;<br>
+
+&lt;p&gt;Hello HTML  
+
+&lt;/div&gt;
+
 
 :::
 Figure: Bad Example
 
 ::: greybox
-&lt;breakfast\_menu&gt;<br>
-<br>&lt;food&gt;<br>
-<br>&lt;name&gt;Homestyle Breakfast<br>
-<br>&lt;price&gt;$6.95<br>
-<br>&lt;description&gt;two eggs<br>
-<br>&lt;calories&gt;950<br>
-<br>&lt;/food&gt;
-<br>&lt;/breakfast\_menu&gt;  
+&lt;breakfast\_menu&gt;
+
+
+&lt;food&gt;
+
+
+&lt;name&gt;Homestyle Breakfast
+
+
+&lt;price&gt;$6.95
+
+
+&lt;description&gt;two eggs
+
+
+&lt;calories&gt;950
+
+
+&lt;/food&gt;
+
+&lt;/breakfast\_menu&gt;  
 :::
 Figure: Bad Example

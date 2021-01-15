@@ -27,7 +27,7 @@ We have also have used other available tools in the past, such as [Apex SQL Doc]
 Alternatively, you can use SQL Management Studio to generate a Database diagram.
 1.	Connect to your database using SQL Server Management Studio
 2.	Create a new Database Diagram, by right-clicking  **Database Diagrams**
- **<dl class="ssw15-rteElement-ImageArea"><img src="SqlDiagramNew.png" alt="" style="margin:5px;"></dl>Figure: New Database Diagram
+ **<img src="SqlDiagramNew.png" alt="" style="margin:5px;">Figure: New Database Diagram
 ** 
 3.	A popup will appear. Shift-Click to select all the tables then click  **Add**
 ![](SqlDiagramSelectingTables.png) **Figure: Selecting tables for diagram
@@ -42,7 +42,7 @@ Alternatively, you can use SQL Management Studio to generate a Database diagram.
 > a.	Select  **Table View | Standard** from the menu
 > 
 > b.	Select  **Autosize Selected Tables** from the menu
-> <dl class="ssw15-rteElement-ImageArea"><img src="SqlDiagramStandardAutoSize.png" alt="" style="margin:5px;width:532px;"></dl> **Figure: Changing the database table diagram to Standard View and Autosize
+> <img src="SqlDiagramStandardAutoSize.png" alt="" style="margin:5px;width:532px;"> **Figure: Changing the database table diagram to Standard View and Autosize
 > **
 
 

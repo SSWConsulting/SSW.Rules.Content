@@ -42,11 +42,14 @@ You can also break up this document into 4 smaller documents
 
 Here's a suggestion of what these documents could contain.
 
-1. Project structure <br>          All parts that composes the project and how they work with each other.
-2. Third party components <br>          Any software, tools and DLL files that this project uses. (e.g., NHibernate, ComponentArt, KendoUI)
+1. Project structure 
+          All parts that composes the project and how they work with each other.
+2. Third party components 
+          Any software, tools and DLL files that this project uses. (e.g., NHibernate, ComponentArt, KendoUI)
 3. Database configuration
 4. Other configuration information
-5. Deployment information and procedures <br>
+5. Deployment information and procedures 
+
 6. Other things to take care of
 
 
@@ -137,7 +140,8 @@ WARNING: Abandoning remainder of script due to critical failures.
 :::
 
 ::: good
-Figure: Good example - when running with -fix this script tries to automatically fix the problem <br>      
+Figure: Good example - when running with -fix this script tries to automatically fix the problem 
+      
 
 :::
 
@@ -156,7 +160,8 @@ WARNING: Abandoning remainder of script due to critical failures.
 :::
 
 ::: good
-Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run are not re-reported <br>      
+Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run are not re-reported 
+      
 
 :::
 

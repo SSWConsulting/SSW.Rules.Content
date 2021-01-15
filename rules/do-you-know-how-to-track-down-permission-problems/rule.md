@@ -23,7 +23,8 @@ To hunt down a problem where say the IIS server couldn’t write to a directory,
 
 **Solution**
 
-1. Install and run <br>      [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx)
+1. Install and run 
+      [process monitor](http://technet.microsoft.com/en-us/sysinternals/bb896645.aspx)
 2. Apply filter
 3. Rejoice
 

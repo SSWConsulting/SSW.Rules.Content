@@ -42,6 +42,7 @@ Tenders are time-consuming for a sales team and generally need a process like a
 3. Look carefully at the process to make changes and how detailed the scope is. Also, see if a spec review can be undertaken to fine-tune the estimates and scope. Plus make sure the process of Agile development is something that can be undertaken.
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 <font color="#333333">Tenders can be a waste of time, with low skilled assessment by purchasing people who can overly focus on cost and a narrow set of requirements. Only go for them if you have a good chance of winning.</font>

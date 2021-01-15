@@ -35,4 +35,5 @@ Now be aware not to go crazy with this balloon rule.
 ![Arrow good example](arrow_example.png)Figure: Good Example - Sometimes an arrow is all that is needed
 
 `youtube: https://www.youtube.com/embed/5TB61bqQKtE`
-Figure: Good Example – Betsy Weber Techsmith - Part 1 - Creator of Snagit. See <br>   [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)
+Figure: Good Example – Betsy Weber Techsmith - Part 1 - Creator of Snagit. See 
+   [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)

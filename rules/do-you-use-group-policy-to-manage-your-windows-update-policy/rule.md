@@ -43,13 +43,36 @@ It is also one more reason developers don’t like to join a company domain on t
 The best ensure you are still downloading updates but not installing them automatically is to use Group Policy.
 
 1. Create an Organization Unit (OU) in Active Directory, and put all your Production Servers in the OU
-<dl class="image"><br><br>::: ok  <br>![Add all your Production Servers to the Production Server OU](updates-adou.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Add all your Production Servers to the Production Server OU](updates-adou.jpg)  
+:::
+
 2. Create a new Group Policy object and link it to the Production Server OU
-<dl class="image"><br><br>::: ok  <br>![Create a new Group Policy for your Production Servers](updates-gpo.jpg)  <br>:::<br></dl>
-3. Edit the new Group Policy object and drill down to <br>       **Computer Configuration** | <br>       **Policies** | <br>       **Windows Components** | <br>       **Windows Update**
-4. Edit the <br>       **Configure Automatic Update Properties** item and <br>       **enable** it
-5. Set the <br>       **Configure Automatic Updating** option to <br>       **3 – Auto download and notify for install
-<dl class="image"><br><br>::: ok  <br>![Edit Configure Automatic Updates Properties and enable 'Auto download and notify for install](updates-editgp.jpg)  <br>:::<br></dl>**
+
+
+::: ok  
+![Create a new Group Policy for your Production Servers](updates-gpo.jpg)  
+:::
+
+3. Edit the new Group Policy object and drill down to 
+       **Computer Configuration** | 
+       **Policies** | 
+       **Windows Components** | 
+       **Windows Update**
+4. Edit the 
+       **Configure Automatic Update Properties** item and 
+       **enable** it
+5. Set the 
+       **Configure Automatic Updating** option to 
+       **3 – Auto download and notify for install
+
+
+::: ok  
+![Edit Configure Automatic Updates Properties and enable 'Auto download and notify for install](updates-editgp.jpg)  
+:::
+**
 
 
 After the new Group Policy propagates, you will notice the update setting is now locked on the servers in the Production Server OU.

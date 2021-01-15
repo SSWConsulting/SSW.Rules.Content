@@ -23,10 +23,14 @@ You should use     [Pingdom Website Speed Test](http&#58;//tools.pingdom.com/fpt
 Then work to keep it under 3 MB:
 
 
-* **Unacceptable**  &gt; <br>          **3 MB**
-* OK  **1.5 MB** to <br>          **3 MB**  (apple.com is 1.5MB)
-* Good &lt; <br>          **1.5 MB**
-* **Excellent**  &lt; <br>          **1 MB**
+* **Unacceptable**  &gt; 
+          **3 MB**
+* OK  **1.5 MB** to 
+          **3 MB**  (apple.com is 1.5MB)
+* Good &lt; 
+          **1.5 MB**
+* **Excellent**  &lt; 
+          **1 MB**
 
 
 

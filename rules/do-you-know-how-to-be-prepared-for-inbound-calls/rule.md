@@ -24,7 +24,9 @@ We use an inbound calls script. Having an inbound script does a couple of great 
 
 <!--endintro-->
 
-<font color="#333333">If the call is regarding&#160; <b>consulting</b> &#160;these are the kinds of questions we ask&#58;&#160;<br><br></font>
+<font color="#333333">If the call is regarding&#160; <b>consulting</b> &#160;these are the kinds of questions we ask&#58;&#160;
+
+</font>
 
 1. Can I get your name, company, phone number, and email?
 2. How did you find out about SSW?
@@ -44,7 +46,8 @@ We use an inbound calls script. Having an inbound script does a couple of great 
 16. [Now get full details](/always-get-your-prospects-full-contact-details)
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 If the call is regarding  **events** these are the kinds of questions we ask:
 

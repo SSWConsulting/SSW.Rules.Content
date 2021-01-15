@@ -14,8 +14,10 @@ redirects: []
 After the database has finished being attached to the web application you will get a log file with information about the import process.
 
 1. Open up this log fine and pay special attention to any lines with  **[ERROR]** . 
-<br>    Note #1: The most common reason for errors is that you have forgotten to activate a feature.
-<br>    Note #2: If you have your own custom solutions, show this file to your developers to ensure it isn’t your custom solution causing the errors.
+
+    Note #1: The most common reason for errors is that you have forgotten to activate a feature.
+
+    Note #2: If you have your own custom solutions, show this file to your developers to ensure it isn’t your custom solution causing the errors.
 2. Check your Application Event log after migration for errors related to your SharePoint Web Application, and fix these accordingly.
 
 

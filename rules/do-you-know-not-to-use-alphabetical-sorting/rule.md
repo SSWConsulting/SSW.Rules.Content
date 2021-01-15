@@ -23,4 +23,9 @@ Alphabetical sorting is really only good if you're specifically looking for one 
 Figure - Bad Example: Alphabetical gives very little information
 
 :::
-<dl><dl><dl class="ssw15-rteElement-ImageArea"><img src="PowerBI-non-aphabetical.png" alt="PowerBI-non-aphabetical.png" style="margin:5px;width:808px;"><br>::: good<br>Figure - Good Example: Sorting by value shows rank and trends easily<br>  <br>:::<br></dl></dl></dl>
+<dl class="ssw15-rteElement-ImageArea"><img src="PowerBI-non-aphabetical.png" alt="PowerBI-non-aphabetical.png" style="margin:5px;width:808px;">
+::: good
+Figure - Good Example: Sorting by value shows rank and trends easily
+  
+:::
+</dl>

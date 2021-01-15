@@ -24,4 +24,5 @@ There are a few ways to achieve this...
 2. From an individual developer perspective, you can check their time sheets on Friday to look for extra initiative shown.
 
 
-See [Rules<br>                        To Being Software Consultants Dealing With Clients](/do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-%28aka-customer-love%29).
+See [Rules
+                        To Being Software Consultants Dealing With Clients](/do-you-build-the-client-relationship-by-completing-＂client-love＂-each-week-%28aka-customer-love%29).

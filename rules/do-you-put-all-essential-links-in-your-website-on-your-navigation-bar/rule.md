@@ -16,7 +16,8 @@ There are certain links on a website which you want to make       VERY simple fo
 * Home page (top left corner)
 * Contact Us (with a phone number, not a form.submit!)
 * News (especially for journalists)
-* Directions (so prospects and clients can come and <br>     visit!)
+* Directions (so prospects and clients can come and 
+     visit!)
 
 
 <!--endintro-->

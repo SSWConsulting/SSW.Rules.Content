@@ -50,7 +50,7 @@ Good example - Email tasks with a Business Value, allow the developer to review 
 
 
 Before you email a task to someone, think about how important it is to you.  Then draft your email, add the Business Value using the same scale that you would use to estimate your PBIs.
-<dl class="ssw15-rteElement-ImageArea"><img src="Email Diagram.jpg" alt="Email Diagram.jpg" style="width:600px;margin:5px;height:615px;"></dl>
+![](Email Diagram.jpg)
 ::: good
 Figure: Good example - The best workflow for sending an email  
 :::

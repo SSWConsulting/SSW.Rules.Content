@@ -17,7 +17,8 @@ With the convenience and cost-effectiveness of e-mail, it is tempting to resort 
 
 <!--endintro-->
 
-1. Set the expectations early. Let the client know what to expect in terms of communication. For example: <br>      
+1. Set the expectations early. Let the client know what to expect in terms of communication. For example: 
+      
 ::: greybox
     "Hi Bill,
 We will run your project in an agile manner. Expect emails and phone calls that we need responses to. These are examples:
@@ -30,7 +31,8 @@ We will run your project in an agile manner. Expect emails and phone calls that 
 
 :::
     Avoid going more than 3 days without a phone call to your client.
-2. New Resources - If you are put onto an existing project, it is good practice to call the client and introduce yourself. For example: <br>      
+2. New Resources - If you are put onto an existing project, it is good practice to call the client and introduce yourself. For example: 
+      
 ::: greybox
     "Hi, I'm Andrew. I'll be taking over from Mark on your project. Mark has filled me in on the specifics and I'm keen to get involved."
 

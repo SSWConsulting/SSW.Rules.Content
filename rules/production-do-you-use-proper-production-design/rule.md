@@ -21,7 +21,8 @@ When filming a scene it is always important to remember production design aspect
 
 Overall, one should try and use as little colours as possible when designing a production. That doesn't mean use mainly tones, it means try and limit your colour palette to as few colours as possible. If you are creating corporate work try and include your company's colours. So for example if you were creating a production for SSW, you would use black, white, red and bronze (the bronze refers to the colour of skin - this will almost always be involved in your colour palette). You might end up having to include another colour or two but you will find the less unnecessary colours you use the better. Try and apply this to every aspect of your production design.
 
-###  <br>   Wardrobe
+###  
+   Wardrobe
 
 Wardrobe refers to what people wear when they're on screen. Keep in mind the tone, genre, character and mood of your production when choosing clothing. Avoid distracting jewelry or accessories unless it adds to the character. Also avoid stripes; most cameras will produce an unnatural, unpleasant effect when filming them, so make sure your actor isn't wearing their favourite striped shirt! Text on clothing is also a bad idea, the viewer will try to read it instead of listening to what your actor's are saying.
 
@@ -43,7 +44,8 @@ Creating a set for a production is a complex and tricky business but there are s
 ![Figure: Good example - interesting background but not distracting, relevant furniture, set reflects theme of show](good-set-example.png)  
 :::
 
-###  <br>Location
+###  
+Location
 
 Location is similar to set design, only in this instance the aspects are mostly out of your control. You can certainly dress the set (see below) but at the end of the day there are some things that will be there no matter what. As such, choose your location carefully. Things to consider are background, framing, sound and distractions. Is there a loud lecture theatre, highway or skate ramp next door? Is there a window on your set that's going to create a distracting reflection? Is there a boring, featureless wall in your background? Is there a line that appears to be passing straight through someone's head? Also avoid high contrast, such as a very dark wall next to the bright wall your subjects are in front of, or a large white spot on a black wall.
 
@@ -67,7 +69,8 @@ If you are working with a D.O.P. (Director of Photography) and/or your are light
 ![Figure: Good example - these lights are diffused enough that the rest of the picture is clearly visible.](Japan\_by\_dhatt1.jpg)  
 :::
 
-###  <br>   Props
+###  
+   Props
 
 Props and set dressing are important; props are defined as objects in the script that we know before-hand that the subjects will interact with, set dressing is things that we add to a set to create content. When choosing what props should(n't) be on set it is important to ask yourself, is there a reason for this to be here? A can of coke for example will be ugly and distracting in most circumstances but a pot of flowers might be just the thing to give your scene that extra bit of life, or convey a caring sensitive side of your character. If your subject needs to drink something while they're on camera, offer them a glass (its more visually pleasing). Look carefully at the frame and ask yourself, is there any camera equipment visible? Does that ugly mess of cables really need to be there? Does this scrap of paper or backpack     *need* to be in the frame? If not, ditch it. If it adds value to the picture and doesn't distract, keep it.
 

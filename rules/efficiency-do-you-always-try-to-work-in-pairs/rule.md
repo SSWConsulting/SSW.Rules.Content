@@ -27,7 +27,9 @@ For everyone:
 
 * Less time stuck on a problem - you have someone familiar with the project to help you work through the problem
 * You can keep each other motivated  and you absorb knowledge from each other
-* Experience shows that <br>       **people** are more productive. As per <br>      Strengthening the Case for Pair-Programming
+* Experience shows that 
+       **people** are more productive. As per 
+      Strengthening the Case for Pair-Programming
 
 
 Extra for developers:
@@ -80,7 +82,8 @@ If you are working with someone remote, you will be using an application like   
 
 * VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 * Visual Studio 2019 Beta - Built-in
-* Visual Studio 2017 - <br>            [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs)
+* Visual Studio 2017 - 
+            [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs)
 
 
 Please complete this survey [on Working in Pairs](https://forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhUMjdMN0g2MEZHNjZJU1NVNVBOTzY1TjJXRyQlQCN0PWcu).

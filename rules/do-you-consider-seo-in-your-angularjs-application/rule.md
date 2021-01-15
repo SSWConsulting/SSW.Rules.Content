@@ -30,7 +30,12 @@ The only way to be sure your Angular SPA will be crawled and indexed properly by
 It is not enough to just use hashes in your URLs (e.g., www.example.com/index.html#mystate, where #mystate is the hash fragment) or hope Google can crawl and Angular application correctly. You can read more here [Guide to AJAX crawlin g for webmasters and developers](https://developers.google.com/webmasters/ajax-crawling/docs/getting-started).  There are several libraries to help pre-render your code available on the internet. 
 
 If you do not pre-render HTML you may still get good enough SEO as Google Bots are getting better at crawling JavaScript but you can not be certain it will work. You can use [Google Fetch](https://www.google.com/webmasters/tools/googlebot-fetch) to test how your web pages look to a Google bot.
-<dl class="image"><br><br>::: ok  <br>![Figure: How to configure your site to pre-render HTML for Google bots.](seo_for_angular-diagram.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: How to configure your site to pre-render HTML for Google bots.](seo_for_angular-diagram.png)  
+:::
+
 Besides pre-rendering HTML to get your AngularJS Single Page Application (SPA) SEO friendly you can apply the following practices:
 
 1. **Enable html5Mode for AngularJS outing** 

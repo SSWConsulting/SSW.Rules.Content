@@ -47,7 +47,9 @@ The better way is to use OctopusDeploy which relives developers from having mult
 4. The more you need to create a branch, the harder it is going to be to merge it back into the trunk!
 5. Branching impedes refactoring.
  If a am working on a branch and perform sweeping renaming, and a developer working on another branch does the same – merging is nearly impossible.
- This is <br>       **very** likely to happen on code bases that require tidying when you have developers who believe in improving code as they go (see the <br>      [Boy Scout Rule](http://www.ssw.com.au/ssw/standards/Rules/RulestoBetterCode.aspx#BoyscoutRule))
+ This is 
+       **very** likely to happen on code bases that require tidying when you have developers who believe in improving code as they go (see the 
+      [Boy Scout Rule](http://www.ssw.com.au/ssw/standards/Rules/RulestoBetterCode.aspx#BoyscoutRule))
 
 
 ### When it's OK to branch

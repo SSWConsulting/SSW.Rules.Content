@@ -30,8 +30,10 @@ As a Project Manager, one of the most important things you should focus on to ke
 A "client relationship problem" is when you have said "no" to                     a client and they let you know that they strongly disagree. In that case:
 
 * Tell them the reasons for your stand
-* Tell them that developers will sometimes do the wrong thing - clients have different<br>                        opinions of what that is
-* Tell them you are authorized to split a problem, offer them the solution and ask if they<br>                        are happy with that solution
+* Tell them that developers will sometimes do the wrong thing - clients have different
+                        opinions of what that is
+* Tell them you are authorized to split a problem, offer them the solution and ask if they
+                        are happy with that solution
 
 
 If they're still not happy you may need to refer them up the chain of authority.

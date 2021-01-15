@@ -14,7 +14,7 @@ redirects: []
 ---
 
 If windows form does not setup a minimum size, your users could have unpredictable form behaviour as seen below:
-<dt style="border:none;"><img alt="Bad window form" src="../../assets/Bugsize.gif" style="margin:5px;padding:15px;border:1px solid #cccccc;background:#eeeeee;"></dt>
+<img alt="Bad window form" src="../../assets/Bugsize.gif" style="margin:5px;padding:15px;border:1px solid #cccccc;background:#eeeeee;">
 ::: bad
 Figure: Bad Example - Unexpected window form  
 :::

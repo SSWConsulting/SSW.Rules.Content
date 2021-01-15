@@ -24,7 +24,22 @@ It is also highly recommended to invoice customers, who have been in existence f
 To do so, follow these steps:
 
 1. Navigate to ASIC Company search page above and change the filters to 'Organisation & Business Names'. Enter the customer's name or ABN number    
-<dl class="image"><br><br>::: ok  <br>![](2020-08-07_11-42-16.png)  <br>:::<br></dl>
-2. Select the appropriate company<dl class="image"><br><br>::: ok  <br>![](2020-08-07_11-48-14.png)  <br>:::<br></dl>
-3. Review the registration date or alternatively, purchase a $9 company extract which provides the same details on the free page with some additional information (however irrelevant for prepaid purposes)<dl class="image"><br><br>::: ok  <br>![](2020-08-07_11-56-41 655.png)  <br>:::<br></dl>
+
+
+::: ok  
+![](2020-08-07_11-42-16.png)  
+:::
+
+2. Select the appropriate company
+
+::: ok  
+![](2020-08-07_11-48-14.png)  
+:::
+
+3. Review the registration date or alternatively, purchase a $9 company extract which provides the same details on the free page with some additional information (however irrelevant for prepaid purposes)
+
+::: ok  
+![](2020-08-07_11-56-41 655.png)  
+:::
+
 4. Should the registration date be less than 2 years old, ensure that the message is pushed across to the state managers so they can push towards invoicing on a prepaid basis wherever possible.

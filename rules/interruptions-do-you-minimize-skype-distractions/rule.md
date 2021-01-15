@@ -31,4 +31,5 @@ redirects:
 
 
 * If you run Microsoft Teams to communicate with work colleagues you should also [minimize Microsoft Teams distractions.](/do-you-minimize-team-distractions)
-* If you run Outlook to manage the email you should also <br>      [minimize Outlook distractions](/do-you-minimize-your-outlook-distractions).
+* If you run Outlook to manage the email you should also 
+      [minimize Outlook distractions](/do-you-minimize-your-outlook-distractions).

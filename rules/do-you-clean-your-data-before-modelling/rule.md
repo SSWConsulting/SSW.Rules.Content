@@ -79,12 +79,33 @@ df.head()
 Dataframe output:
 
 
-| <br> | A<br> | B<br> | C<br> |
+| 
+ | A
+ | B
+ | C
+ |
 | --- | --- | --- | --- |
-| 2017-04-14<br> | 0<br> | 0<br> | 0<br> |
-| 2017-04-15<br> | 0<br> | 0<br> | 0<br> |
-| 2017-04-16<br> | 0<br> | NaN<br><br> | 0<br> |
-| 2017-04-17<br> | 0<br> | 0<br> | 0<br> |
+| 2017-04-14
+ | 0
+ | 0
+ | 0
+ |
+| 2017-04-15
+ | 0
+ | 0
+ | 0
+ |
+| 2017-04-16
+ | 0
+ | NaN
+
+ | 0
+ |
+| 2017-04-17
+ | 0
+ | 0
+ | 0
+ |
 
 
 Filtering out this row is simple using a square bracket filter expression.  Here we are filtering using the Numpy isfinite method on column B to exclude the problematic row:
@@ -101,11 +122,27 @@ df.head()
 Dataframe output:
 
 
-| <br> | A<br> | B<br> | C<br> |
+| 
+ | A
+ | B
+ | C
+ |
 | --- | --- | --- | --- |
-| 2017-04-14<br> | 0<br> | 0<br> | 0<br> |
-| 2017-04-15<br> | 0<br> | 0<br> | 0<br> |
-| 2017-04-17<br> | 0<br> | 0<br> | 0<br> |
+| 2017-04-14
+ | 0
+ | 0
+ | 0
+ |
+| 2017-04-15
+ | 0
+ | 0
+ | 0
+ |
+| 2017-04-17
+ | 0
+ | 0
+ | 0
+ |
 
 
 There is also inbuilt functionality in a dataframe to fill values by interpolation or by taking the mean value of a column.  In the dataframe sample below, it is clear that this is a relationship between row values, with each row showing an increase in the values of each column, making interpolation a valid technique for filling missing data.
@@ -122,13 +159,35 @@ df2
 
 
 
-| <br><br> | Col1<br> | Col2<br> |
+| 
+
+ | Col1
+ | Col2
+ |
 | --- | --- | --- |
-| 0<br> | 1.0<br> | 11.0<br> |
-| 1<br> | 2.0<br> | NaN<br><br> |
-| 2<br> | NaN<br><br> | NaN<br><br> |
-| 3<br> | 4.8<br> | 16.0<br> |
-| 4<br> | 6.0<br> | 28.0<br> |
+| 0
+ | 1.0
+ | 11.0
+ |
+| 1
+ | 2.0
+ | NaN
+
+ |
+| 2
+ | NaN
+
+ | NaN
+
+ |
+| 3
+ | 4.8
+ | 16.0
+ |
+| 4
+ | 6.0
+ | 28.0
+ |
 
 
 The dataframe's inbuilt interpolate method is then used to fill the missing values.  The default behaviour of interpolate is to use a linear interpolation, but a number of more advanced algorithms are also available.  See the [interpolation documentation](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.interpolate.html) for more information.
@@ -143,13 +202,32 @@ df2
 
 
 
-| <br><br> | Col1<br> | Col2<br> |
+| 
+
+ | Col1
+ | Col2
+ |
 | --- | --- | --- |
-| 0<br> | 1.0<br> | 11.0<br> |
-| 1<br> | 2.0<br> | 12.66667<br> |
-| 2<br> | 3.4<br> | 14.33333<br> |
-| 3<br> | 4.8<br> | 16.0<br> |
-| 4<br> | 6.0<br> | 28.0<br> |
+| 0
+ | 1.0
+ | 11.0
+ |
+| 1
+ | 2.0
+ | 12.66667
+ |
+| 2
+ | 3.4
+ | 14.33333
+ |
+| 3
+ | 4.8
+ | 16.0
+ |
+| 4
+ | 6.0
+ | 28.0
+ |
 
 In this code sample, the mean value of a column is used to fill missing data.
 
@@ -163,13 +241,35 @@ df3
 
 
 
-| <br><br> | Col1<br><br> | Col2<br> |
+| 
+
+ | Col1
+
+ | Col2
+ |
 | --- | --- | --- |
-| 0<br> | 1.0<br> | 11.0<br> |
-| 1<br> | 2.0<br> | NaN<br><br> |
-| 2<br> | NaN<br><br> | NaN<br> |
-| 3<br> | 4.8<br> | 16.0<br> |
-| 4<br> | 6.0<br> | 28.0<br> |
+| 0
+ | 1.0
+ | 11.0
+ |
+| 1
+ | 2.0
+ | NaN
+
+ |
+| 2
+ | NaN
+
+ | NaN
+ |
+| 3
+ | 4.8
+ | 16.0
+ |
+| 4
+ | 6.0
+ | 28.0
+ |
 
 
 
@@ -182,13 +282,32 @@ df3
 
 
 
-| <br><br> | Col1<br> | Col2<br> |
+| 
+
+ | Col1
+ | Col2
+ |
 | --- | --- | --- |
-| 0<br> | 1.0<br> | 11.0<br> |
-| 1<br> | 2.0<br> | 18.33<br> |
-| 2<br> | 3.45<br> | 18.33<br> |
-| 3<br> | 4.8<br> | 16.0<br> |
-| 4<br> | 6.0<br> | 28.0<br> |
+| 0
+ | 1.0
+ | 11.0
+ |
+| 1
+ | 2.0
+ | 18.33
+ |
+| 2
+ | 3.45
+ | 18.33
+ |
+| 3
+ | 4.8
+ | 16.0
+ |
+| 4
+ | 6.0
+ | 28.0
+ |
 
 
 ### Data Cleaning and Inference Techniques in Azure Machine Learning

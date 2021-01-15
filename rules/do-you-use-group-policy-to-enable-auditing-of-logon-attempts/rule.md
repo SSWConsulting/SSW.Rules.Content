@@ -22,9 +22,19 @@ It is important as a Network Administrator to know when and where failed login a
 2. Right click on 'Logon Auditing Policy' and click on Edit to bring up Group Policy Management Editor
 3. Select 'Audit account logon events' from Computer Configuration | Policies | Windows Settings | Local Policies | Audit Policy and set to Success, Failure
 4. Select 'Audit logon events' from Computer Configuration | Policies | Windows Settings | Local Policies | Audit Policy and set to Success, Failure
-<dl class="image"><br><br>::: ok  <br>![Figure: Select 'Audit logon events'](failed-login-1.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Select 'Audit logon events'](failed-login-1.png)  
+:::
+
 5. Select 'Audit: Force audit policy...' from Computer Configuration | Policies | Windows Settings | Local Policies | Security Options and set to Enabled
-<dl class="image"><br><br>::: ok  <br>![Figure: Select 'Audit: Force audit policy...'](failed-login-2.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Select 'Audit: Force audit policy...'](failed-login-2.png)  
+:::
+
 
 
 

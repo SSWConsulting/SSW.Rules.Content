@@ -23,9 +23,13 @@ Employees are a company's best resource, but often there is no light shone on th
 
 <!--endintro-->
 <center> 
-   <br> </center><center> 
-   <br>`youtube: https://www.youtube.com/embed/X1qJyKTbfXk`<br>
-   <br> </center>
+   
+ </center><center> 
+   
+`youtube: https://www.youtube.com/embed/X1qJyKTbfXk`
+
+   
+ </center>
 Employees on the front line often have valuable insights into opportunities for improvement, what is painful, increased efficiency and even entirely new business ideas. Empowering these employees with an annual brainstorming day is a great way to transform their good ideas into valuable solutions, as well as giving them the opportunity to learn and grow from each other. Also, many employees enjoy the opportunity to flex their creative muscles in fun ways that their day-to-day jobs may not always afford them.
 
 Different companies have different approaches to this. For example:
@@ -39,7 +43,8 @@ Different companies have different approaches to this. For example:
 ### How an annual brainstorming day works
 
 
-At an annual brainstorming day, employees are invited to share their ideas, give feedback, and pick the best one to work on. The benefits of brainstorming are <br>   [well understood](https://raybourn.com/the-5-benefits-of-brainstorming/), but in order to focus the productivity on something useful, it is important to have a system for suggesting, voting, and working on ideas.
+At an annual brainstorming day, employees are invited to share their ideas, give feedback, and pick the best one to work on. The benefits of brainstorming are 
+   [well understood](https://raybourn.com/the-5-benefits-of-brainstorming/), but in order to focus the productivity on something useful, it is important to have a system for suggesting, voting, and working on ideas.
 
 
 

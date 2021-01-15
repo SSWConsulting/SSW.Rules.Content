@@ -76,7 +76,8 @@ PBI:         **[FeatureName] – Tech Debt - Planned**
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
 ::: greybox
-PBI: <br>             **[FeatureName] – Tech Debt - Discovered** 
+PBI: 
+             **[FeatureName] – Tech Debt - Discovered** 
 :::
 
 
@@ -95,7 +96,22 @@ At the Sprint Planning:
 
 ### Screenshots
 
-<dl class="image"><br><br>::: ok  <br>![Figure: Screenshot of code with tech debt comment and link to GitHub issue](techdebt-github.png)  <br>:::<br><dd></dd></dl><dl class="image"><br><br>::: ok  <br>![Figure: Screenshot of tech debt on backlog](techdebt-backlog.png)  <br>:::<br><dd></dd></dl><dl class="image"><br><br>::: ok  <br>![Figure: SugarLearning architecture diagram](techdebt-architecture.png)  <br>:::<br><dd></dd></dl>
+
+
+::: ok  
+![Figure: Screenshot of code with tech debt comment and link to GitHub issue](techdebt-github.png)  
+:::
+<dd></dd>
+
+::: ok  
+![Figure: Screenshot of tech debt on backlog](techdebt-backlog.png)  
+:::
+<dd></dd>
+
+::: ok  
+![Figure: SugarLearning architecture diagram](techdebt-architecture.png)  
+:::
+<dd></dd>
 ### Related Rule
 
 

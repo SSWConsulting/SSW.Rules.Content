@@ -31,4 +31,5 @@ DPM is great for backing up SharePoint data, but when you select to back up the 
 **Ensure you back up the remaining databases in the SharePoint SQL Instance**
 
 
-<br>After following these steps you will have full protection of your SharePoint databases.
+
+After following these steps you will have full protection of your SharePoint databases.

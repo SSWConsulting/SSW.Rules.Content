@@ -49,7 +49,27 @@ ALTER TABLE [TableName] ADD CONSTRAINT CK_String_Identifier
 
 
 ![ComboBox without All](../../assets/Combo-ALL-1.jpg)
-<dl class="badImage"><dd>Figure: Bad Example - No '-All-' option so the user cannot select all data</dd></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Having an '-All-' option gives a user a chance to select all data](../../assets/Combo-ALL-2.jpg)  <br>:::<br></dl>
+<dd>Figure: Bad Example - No '-All-' option so the user cannot select all data</dd>
+
+::: good  
+![Figure: Good Example - Having an '-All-' option gives a user a chance to select all data](../../assets/Combo-ALL-2.jpg)  
+:::
+
 Also, keep it simple!
-<dl class="badImage"><br><br>::: bad  <br>![Figure: Bad Example - '-All Stores-' isn't needed](../../assets/SelectAllBad.jpg)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Keep it as a simple '-All-'](../../assets/SelectAllGood.jpg)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Keeping it simple makes it easy to spot (that there is no filter) when you have multiple fields.](../../assets/SelectAllVGood.gif)  <br>:::<br></dl>
+
+
+::: bad  
+![Figure: Bad Example - '-All Stores-' isn't needed](../../assets/SelectAllBad.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - Keep it as a simple '-All-'](../../assets/SelectAllGood.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - Keeping it simple makes it easy to spot (that there is no filter) when you have multiple fields.](../../assets/SelectAllVGood.gif)  
+:::
+
 Read our rule on [Always make sure the dimensions All Captions = All](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterBusinessIntelligence.aspx#AllDimensionsTag).

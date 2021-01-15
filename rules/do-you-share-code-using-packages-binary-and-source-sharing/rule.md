@@ -67,7 +67,8 @@ Good example: Sharing source or binaries via packages created using Sonatype Nex
 Already supports Component Governance  
 :::
 
-### Additional info <br>      
+### Additional info 
+      
 
 
 

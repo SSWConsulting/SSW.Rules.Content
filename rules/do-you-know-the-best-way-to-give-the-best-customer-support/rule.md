@@ -22,7 +22,13 @@ There are a few methods to control a client's machine remotely, all of them have
 
 For supporting end users' workstation machines remotely, here is the order you should try with the end users:
 
-* [Microsoft Teams](https://products.office.com/en-AU/microsoft-teams/group-chat-software) - (recommended) <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Teams allow you to give remote control, making it the best option for giving support](Teams-give-control.png)  <br>:::<br></dl>
+* [Microsoft Teams](https://products.office.com/en-AU/microsoft-teams/group-chat-software) - (recommended) 
+      
+
+::: ok  
+![Figure: Teams allow you to give remote control, making it the best option for giving support](Teams-give-control.png)  
+:::
+
 * [TeamViewer](http://www.ssw.com.au/ssw/Standards/Support/RemoteSupportViaTeamViewer.aspx)
 * [Skype](http://www.skype.com/) - via screen share
 * [Skype for Business (previously Lync)](https://www.skype.com/en/business/skype-for-business/)

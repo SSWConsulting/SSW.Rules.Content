@@ -33,9 +33,25 @@ The Product Owner is responsible for owning the Product Backlog. See the video o
 
 <!--endintro-->
 
-1. **Emails** <dl class="badImage"><br><br>::: bad  <br>![Bad Example - This is a poor way to add a PBI/Issue as you can’t order emails by the business priority](EmailBadExample.png)  <br>:::<br></dl>
-2. **GitHub Issues (Recommended)** <dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Github Issues](GitHubIssues.png)  <br>:::<br></dl>
-3. **Azure DevOps** - E.g. https://ssw.visualstudio.com <br>      <dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog.png)  <br>:::<br></dl>
+1. **Emails** 
+
+::: bad  
+![Bad Example - This is a poor way to add a PBI/Issue as you can’t order emails by the business priority](EmailBadExample.png)  
+:::
+
+2. **GitHub Issues (Recommended)** 
+
+::: good  
+![Figure: Good Example - Github Issues](GitHubIssues.png)  
+:::
+
+3. **Azure DevOps** - E.g. https://ssw.visualstudio.com 
+      
+
+::: good  
+![Figure: Good Example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog.png)  
+:::
+
 
 
 * [What's next? Discuss the backlog](/discuss-the-backlog)

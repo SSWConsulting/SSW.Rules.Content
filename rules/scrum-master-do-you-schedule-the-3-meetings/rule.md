@@ -78,7 +78,12 @@ Regards,
 Figure: Good Example - copy this appointment template and send to the Scrum Team
 
 :::
-<dl class="goodImage"><br><br>::: good  <br>![It's a great idea to run your Scrum meetings through Microsoft Teams so that the whole team is invited and new developers can easily find the meetings see https://rules.ssw.com.au/run-your-meetings-through-teams for more info.](Screen Shot 2020-04-06 at 4.15.50 PM.png)  <br>:::<br></dl>
+
+
+::: good  
+![It's a great idea to run your Scrum meetings through Microsoft Teams so that the whole team is invited and new developers can easily find the meetings see https://rules.ssw.com.au/run-your-meetings-through-teams for more info.](Screen Shot 2020-04-06 at 4.15.50 PM.png)  
+:::
+
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:

@@ -38,8 +38,11 @@ Here is a sample DailyOps Checklist. It is all about the experience.
 5. **Make sure you follow the procedures after a conversation, and if you have improvements - speak to whoever is involved in the DailyOps activity, agree and then update the Standard**
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>

@@ -14,9 +14,13 @@ redirects:
 
 Often pages have 2 or 3 links pointing to the same page -       all fairly close to each other, like in one or two       paragraphs. It is a good idea to never have multiple links       to the \*exact\* same page for the following reasons:
 
-* Every link distracts the user from reading the main text <br>     content
-* They confuse the user as they have to decide which link <br>     to click first (and then end up to the same place anyway)
-* They are annoying when the user is trying to be thorough <br>     and read the related content and they are repeatedly <br>     directed to the same page
+* Every link distracts the user from reading the main text 
+     content
+* They confuse the user as they have to decide which link 
+     to click first (and then end up to the same place anyway)
+* They are annoying when the user is trying to be thorough 
+     and read the related content and they are repeatedly 
+     directed to the same page
 
 
 <!--endintro-->

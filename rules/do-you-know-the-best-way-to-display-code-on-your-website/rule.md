@@ -28,12 +28,18 @@ The simpler method uses &lt;pre&gt; tags. Pre (standing for "preformatted") mean
 
 ```
 <font face="Courier, Times, Arial, Verdana" size="3">
-public class Configuration<br>
-&nbsp;{<br>
-&nbsp;&nbsp;public static string MySetting<br>
-&nbsp;&nbsp;{<br>
-&nbsp;&nbsp;&nbsp;get<br>
-&nbsp;&nbsp;&nbsp;{<br>
+public class Configuration
+
+&nbsp;{
+
+&nbsp;&nbsp;public static string MySetting
+
+&nbsp;&nbsp;{
+
+&nbsp;&nbsp;&nbsp;get
+
+&nbsp;&nbsp;&nbsp;{
+
 </font>
 ```
 
@@ -47,12 +53,18 @@ Figure: Bad code display example - using &lt;font&gt;
 
 ```
 <code>
-public class Configuration<br>
-&nbsp;{<br>
-&nbsp;&nbsp;public static string MySetting<br>
-&nbsp;&nbsp;{<br>
-&nbsp;&nbsp;&nbsp;get<br>
-&nbsp;&nbsp;&nbsp;{<br>
+public class Configuration
+
+&nbsp;{
+
+&nbsp;&nbsp;public static string MySetting
+
+&nbsp;&nbsp;{
+
+&nbsp;&nbsp;&nbsp;get
+
+&nbsp;&nbsp;&nbsp;{
+
 </code>
 ```
 

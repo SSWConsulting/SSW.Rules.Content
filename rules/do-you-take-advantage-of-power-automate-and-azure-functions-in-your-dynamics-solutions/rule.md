@@ -26,8 +26,10 @@ While there is are still some limited scenarios for using Workflows (Power Autom
 
 Case for Power Automate instead of regular Dynamics workflows:
 
-* A massive number of <br>      [connectors](https://australia.flow.microsoft.com/en-us/connectors/%22%20%5co%20%22https://australia.flow.microsoft.com/en-us/connectors/) from Act! to Zendesk and everything in between
-* Can't find the connector you need? No problem, create a <br>      [Custom Connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank%22%20%5co%20%22https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank) or just use a generic HTTP request
+* A massive number of 
+      [connectors](https://australia.flow.microsoft.com/en-us/connectors/%22%20%5co%20%22https://australia.flow.microsoft.com/en-us/connectors/) from Act! to Zendesk and everything in between
+* Can't find the connector you need? No problem, create a 
+      [Custom Connector](https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank%22%20%5co%20%22https://docs.microsoft.com/en-us/connectors/custom-connectors/define-blank) or just use a generic HTTP request
 * Intuitive debugging experience, see errors immediately, fix and re-run failed flow
 * Visually much nicer UI compared to Dynamics Workflow experience
 
@@ -55,7 +57,8 @@ The case for Azure Functions instead for Dynamics plugins:
 The case against Azure Function instead of regular Dynamics Plugins:
 
 * Plugins can register against many Pre and Post events whereas an Azure Function is a WebAPI endpoint
-* Azure Functions are a <br>      [paid](https://azure.microsoft.com/en-au/pricing/calculator/%22%20%5co%20%22https://azure.microsoft.com/en-au/pricing/calculator/) Azure service, while extremely cost-effective, it is still an additional cost
+* Azure Functions are a 
+      [paid](https://azure.microsoft.com/en-au/pricing/calculator/%22%20%5co%20%22https://azure.microsoft.com/en-au/pricing/calculator/) Azure service, while extremely cost-effective, it is still an additional cost
 
 
 

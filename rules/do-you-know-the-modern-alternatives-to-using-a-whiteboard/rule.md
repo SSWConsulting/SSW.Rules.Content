@@ -56,7 +56,12 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
  **Note:** these work fine with a mouse, they work even better with touch screens, or pens/styluses
 
 
-<dl class="image">      <br><br>::: ok  <br>![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)  <br>:::<br></dl>
+      
+
+::: ok  
+![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)  
+:::
+
 
 
 `youtube: https://www.youtube.com/embed/qDqtWRu0rTA`
@@ -69,12 +74,22 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
  
  Figure: Using Microsoft Whiteboard App  #2 Tech Whiteboard replacement
 * **Samsung Flip** ($3k AUD)
-<dl class="image"><dt><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"> 
-               <br>`youtube: https://www.youtube.com/embed/lZgVAbdwYNI`<br>
-               <br unselectable="on"> </div></dt><dd> Figure: Using Samsung Flip </dd></dl><dl class="image"><br><br>::: ok  <br>![Figure: Samsung Flip can be flipped from horizontal to vertical](samsung_flip.jpg)  <br>:::<br></dl>
+<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"> 
+               
+`youtube: https://www.youtube.com/embed/lZgVAbdwYNI`
+
+               <br unselectable="on"> </div><dd> Figure: Using Samsung Flip </dd>
+
+::: ok  
+![Figure: Samsung Flip can be flipped from horizontal to vertical](samsung_flip.jpg)  
+:::
+
 * **Microsoft Surface Hub 2** (about $12K AUD)
-<dl class="image"><dt><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"> 
-               <br>`youtube: https://www.youtube.com/embed/GSUHgrjwBb4`<br> </div></dt><dd>Figure: Using Microsoft Surface Hub<br></dd></dl>
+<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"> 
+               
+`youtube: https://www.youtube.com/embed/GSUHgrjwBb4`
+ </div><dd>Figure: Using Microsoft Surface Hub
+</dd>
 
 
 ### #3 Paper Whiteboard (Low tech – a large piece of paper)

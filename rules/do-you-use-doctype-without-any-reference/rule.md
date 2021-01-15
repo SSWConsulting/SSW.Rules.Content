@@ -34,4 +34,5 @@ Figure: Bad Example – XXX
 Figure: Good Example – XXX  
 :::
 
-For more information, go to <br>      [HTML !DOCTYPE Declaration on w3schools.com](http&#58;//www.w3schools.com/tags/tag_doctype.asp)
+For more information, go to 
+      [HTML !DOCTYPE Declaration on w3schools.com](http&#58;//www.w3schools.com/tags/tag_doctype.asp)

@@ -52,13 +52,18 @@ Angular Material uses Angular components for its widgets. This means that the HT
 Here are some tips for working with Angular Material:
 
 * Information regarding theme can be found here: https://material.angular.io/guide/theming
-* Tweaking individual components can be done by wrapping it in a CSS class and using ng-deep: <br>      https://blog.angular-university.io/angular-host-context/
+* Tweaking individual components can be done by wrapping it in a CSS class and using ng-deep: 
+      https://blog.angular-university.io/angular-host-context/
 If you prefer, all such modifications can be done in a separate SCSS file that is then added into styles.scss.
 Make sure you use a wrapper class so you do not change all other same Angular Material components in the project.
-* Add the <br>      [Flex Layout](https://github.com/angular/flex-layout) library to your project to take advantage of <br>      [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/%22%20%5co%20%22https://css-tricks.com/snippets/css/a-guide-to-flexbox/).  It makes it easy to use Flexbox classes via directives in your Angular HTML templates.
-Here is a demo website for Flex Layout: <br>      [https://tburleson-layouts-demos.firebaseapp.com/#/docs](https://tburleson-layouts-demos.firebaseapp.com/%22%20%5cl%20%22/docs)
+* Add the 
+      [Flex Layout](https://github.com/angular/flex-layout) library to your project to take advantage of 
+      [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/%22%20%5co%20%22https://css-tricks.com/snippets/css/a-guide-to-flexbox/).  It makes it easy to use Flexbox classes via directives in your Angular HTML templates.
+Here is a demo website for Flex Layout: 
+      [https://tburleson-layouts-demos.firebaseapp.com/#/docs](https://tburleson-layouts-demos.firebaseapp.com/%22%20%5cl%20%22/docs)
 * For the creation of custom Angular Material components, the CDK can be used: https://material.angular.io/cdk/categories
-* If you need additional colours for the standard 'warn', 'primary', and 'accent', you can add that into global SCSS files: <br>      
+* If you need additional colours for the standard 'warn', 'primary', and 'accent', you can add that into global SCSS files: 
+      
 
 
 ```
@@ -66,7 +71,8 @@ Here is a demo website for Flex Layout: <br>      [https://tburleson-layouts-dem
 ```
 
 
-Now you can do following: <br>      
+Now you can do following: 
+      
 
 
 ```

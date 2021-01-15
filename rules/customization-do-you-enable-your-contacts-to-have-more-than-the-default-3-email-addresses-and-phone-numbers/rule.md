@@ -27,7 +27,8 @@ There are a few customizations needed to get the SSW Contact Makeover:
 * Make some form changes to move to a new tab
 * Make a CRM frame (to add in a subform)
 * Add some entities
-* Add some form java script to hide the core Contact Details? tab when a user is<br>            entering a new contact
+* Add some form java script to hide the core Contact Details? tab when a user is
+            entering a new contact
 
 
 

@@ -24,7 +24,8 @@ Create-React-App is a boilerplate provided by Facebook for almost any React proj
 :::
 
 1. Install [Create-React-App](https://github.com/facebook/create-react-app)
-2. Quick Start <br>      
+2. Quick Start 
+      
 
 
 ```

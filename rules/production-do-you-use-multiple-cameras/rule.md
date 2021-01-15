@@ -32,4 +32,8 @@ If you are recording an event with multiple people and want to maximize the cove
 
 
 Camera 3 should be identical to Camera 1 if available (it is still possible to use two different cameras but this may cause some quality compromise in the form of different colours for each). An iPhone can provide the necessary shots to make a video more interesting, but only use iPhone 7 or later footage if proper lighting, exposure & composition can be achieved (Please see rule     [https://rules.ssw.com.au/production-do-you-know-the-correct-way-to-frame-your-subject](/production-do-you-know-the-correct-way-to-frame-your-subject).)
-<dl class="image"><br><br>::: ok  <br>![Figure: Flip camera mounted to a small table top tripod. Ideal for cutaway shots](flipcamontripod.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Flip camera mounted to a small table top tripod. Ideal for cutaway shots](flipcamontripod.jpg)  
+:::

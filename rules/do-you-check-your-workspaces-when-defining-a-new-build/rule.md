@@ -21,7 +21,8 @@ redirects: []
 
 <font face="Calibri">If you have a number of Team Projects open from the same TFS Project Collection, all of their workspaces will be included by default.  You should remove those workspaces that aren’t being used otherwise the build server will get the source for every workspace in this list before starting a build.</font>
 
-<font face="Calibri"> <img src="bad_workspace.png" alt="" style="margin:5px;"><br>   <img src="bad.gif" alt="" style="margin:5px;"></font> **<font face="Calibri">Figure: Bad example – Several workspaces from other team projects are included by default</font>** 
+<font face="Calibri"> <img src="bad_workspace.png" alt="" style="margin:5px;">
+   <img src="bad.gif" alt="" style="margin:5px;"></font> **<font face="Calibri">Figure: Bad example – Several workspaces from other team projects are included by default</font>** 
 
 <font face="Calibri"> </font>
 

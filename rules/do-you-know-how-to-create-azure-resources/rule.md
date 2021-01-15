@@ -167,4 +167,5 @@ It’s early days so     [not much help (from Google trends)](https://trends.goo
 ### General Tips
 
 
-* After you’ve made your changes, don’t forget to <br>      [visualize your new resources](/azure-resources-visualizing)
+* After you’ve made your changes, don’t forget to 
+      [visualize your new resources](/azure-resources-visualizing)

@@ -21,7 +21,8 @@ The buttons that a user will typically use to close a form should be named consi
 :::
 
 * **Save** button could possibly update the fields but keep the form open.
-* **Close** could save the fields, then close the form, when the <br>       **Cancel** button may be more appropriate.
+* **Close** could save the fields, then close the form, when the 
+       **Cancel** button may be more appropriate.
 
 
 We recommend the age-old standards of:

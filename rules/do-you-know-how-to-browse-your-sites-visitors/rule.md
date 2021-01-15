@@ -32,7 +32,8 @@ The Visitors activity gives you a birds-eye view of all the visitors on your web
 * **Chat Button Clicked:** Visitors who have clicked the chat button but have yet to start a chat.
 * **Trigger Activated:** Visitors who have activated a trigger.
 * **Currently Served:** Visitors who are being currently served by other agents or yourself.
-* **Active Visitors:** Visitors who are moving around the website and clicking on links.  <br>
+* **Active Visitors:** Visitors who are moving around the website and clicking on links.  
+
 
 
 Click the  **List** tab  to view visitors in a list, as shown above, or click  **Visual** to see visitors in visual mode.
@@ -54,7 +55,8 @@ This is the primary view of the Visitor List, but you can also monitor them in a
 * **Department:** Groups visitors based on department.
 * **Browser:** Groups visitors based on the browser they are using to access your website.
 * **Search Engine:** If the visitors arrived at your website through a search engine (e.g. Google), they will be grouped under this category.
-* **Search Term:** If the visitors typed in a search term to get to your website, they will be grouped in this section based on the term they used. <br>
+* **Search Term:** If the visitors typed in a search term to get to your website, they will be grouped in this section based on the term they used. 
+
 
 
 **Using the High Load Dashboard (Premium)**
@@ -66,6 +68,12 @@ Unlike the standard Visitor List, the High Load Dashboard only shows Incoming an
 **To enable the High Load Dashboard**
 
 1. From the dashboard, go to  **Settings** &gt;  **Account** &gt;  **Visitor List** tab.
-2. Select the  **High Load Dashboard** check box.  <br>      <dl class="image"><br><br>::: ok  <br>![](zendesk-visitors-3.png)  <br>:::<br></dl>
+2. Select the  **High Load Dashboard** check box.  
+      
+
+::: ok  
+![](zendesk-visitors-3.png)  
+:::
+
 3. Click  **Save Changes** .
 4. Return to the Dashboard and verify that only Incoming and Currently served chats appear.

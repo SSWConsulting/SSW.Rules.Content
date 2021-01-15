@@ -37,7 +37,8 @@ There are a number of tools that can be used to update the database as the appli
 Legacy full framework
 
 * [SQL Deploy](http://sqldeploy.com/)  (This is the suggested tool if you are not using Entity Framework Code First)
-* DBUp + <br>      [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.Core/)
+* DBUp + 
+      [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.Core/)
 * [Navicat for MySQL](https://navicat.com/manual/online_manual/en/navicat/win_manual/#/structure_sync)
 * [DataGrip](https://www.jetbrains.com/help/datagrip/differences-viewer-for-routines.html)
 

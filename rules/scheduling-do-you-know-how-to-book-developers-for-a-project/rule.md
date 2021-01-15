@@ -53,7 +53,8 @@ This is a backup option for anyone who doesn't have access to Outlook with the C
 
 1. Create new appointment in Dynamics 365 Online
 
-![](Dynamics-Calendar-App.jpg)Figure: Click Appointment to create a new appointment in CRM<dl class="ssw15-rteElement-ImageArea"><span style="color:#555555;font-weight:bold;"><br></span></dl>
+![](Dynamics-Calendar-App.jpg)Figure: Click Appointment to create a new appointment in CRM<span style="color:#555555;font-weight:bold;">
+</span>
 1. Set the Subject
 2. Select the resources that you want to book
 3. Select the client that you want to book the developers to work on
@@ -117,7 +118,7 @@ Open browser’s incognito mode | go to https://outlook.office.com | logon with 
  
  **For Outlook Desktop** 
      Go to Files | Add an account | Restart Outlook once it completes 
-<dl class="ssw15-rteElement-ImageArea"><img src="Add account.jpg" alt="Add account.jpg" style="margin:5px;width:700px;height:204px;"></dl>
+<img src="Add account.jpg" alt="Add account.jpg" style="margin:5px;width:700px;height:204px;">
 **Figure: Add crmtimeprosync@ssw.com.au to your Outlook** 
 
  **

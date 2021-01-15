@@ -21,7 +21,8 @@ redirects:
 
 It originated with Frequent Flyer programs and has crossed over into the software world with the success of Foursquare.
 
-This concept is being utilized even in <br>   [Visual Studio](https://channel9.msdn.com/achievements/visualstudio). 
+This concept is being utilized even in 
+   [Visual Studio](https://channel9.msdn.com/achievements/visualstudio). 
 
 
 ::: good  

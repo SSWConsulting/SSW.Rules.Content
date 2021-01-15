@@ -40,6 +40,7 @@ Figure: Good example - Using Device Mode & Mobile Emulation in Chrome.
  
 
 
- **Additional resources** <font color="#555555"><span style="font-size:11px;"><br></span></font>
+ **Additional resources** <font color="#555555"><span style="font-size:11px;">
+</span></font>
 * [Chrome Device Mode & Mobile Emulation](https://developer.chrome.com/devtools/docs/device-mode)
 * [CHRISPEDERICK.COM](http://chrispederick.com/work/web-developer/)

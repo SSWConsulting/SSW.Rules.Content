@@ -16,12 +16,24 @@ redirects: []
 Installing MS Lync client on Andriod devices. Employees should be contactable no matter if they are in the office or not  (at a client). By installing the Lync client, everyone knows where they are and if they are available to take calls or answer questions that may arise. 
 <!--endintro-->
 
-1. Search for “Lync” in the [Play store](https://play.google.com/store)<dl class="image"><br><br>::: ok  <br>![Figure: Search for Lync in Playstore](241b2b_android_playstore.png)  <br>:::<br></dl>
+1. Search for “Lync” in the [Play store](https://play.google.com/store)
+
+::: ok  
+![Figure: Search for Lync in Playstore](241b2b_android_playstore.png)  
+:::
+
 2. Install the Lync client on device
-3. Set up Lync to sign into your account as follows:<br><dl class="image"><br><br>::: ok  <br>![Figure: Lync sign in process](lync-signin.png)  <br>:::<br></dl>    You just need to enter 3 fields:
+3. Set up Lync to sign into your account as follows:
+
+
+::: ok  
+![Figure: Lync sign in process](lync-signin.png)  
+:::
+    You just need to enter 3 fields:
 
     * Sign in address is **your email address**
-    * Password is <br>       **your AD password**
+    * Password is 
+       **your AD password**
     * Username is domain\username. For example SSW2000\davidberkes
 
 

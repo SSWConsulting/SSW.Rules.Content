@@ -36,7 +36,8 @@ Now we need to attach the database backup we took of our SharePoint 2007 server:
 Now we need to attach the content database to the web application:
 
 1. Open up the  **SharePoint 2010 Management Shell** with administrative permissions.
-2. Run the following command to attach the database to the web application (replacing the red text to match your environment)<br>    
+2. Run the following command to attach the database to the web application (replacing the red text to match your environment)
+    
 
 
 ```

@@ -27,7 +27,8 @@ The next part of the process is minification. This means that all the whitespace
 All this adds up to a faster MVC app and a better user experience.
 
 Layout.cshtml
-<br>&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
@@ -35,7 +36,8 @@ Layout.cshtml
 &lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
 Figure: Scripts are specified in the view 
 BundleConfig.cs
-<br>public static void RegisterBundles(BundleCollection bundles)
+
+public static void RegisterBundles(BundleCollection bundles)
 {
 bundles.Add(new ScriptBundle("~/bundles/SSW").Include(
 "~/Scripts/2011.3.1115/jquery-1.6.4.min.js", 
@@ -47,4 +49,5 @@ bundles.Add(new ScriptBundle("~/bundles/SSW").Include(
 }
 
 Layout.cshtml
-<br>@Scripts.Render("~/bundles/ssw") Figure: A bundle is created in the bundle config and then referenced in the view
+
+@Scripts.Render("~/bundles/ssw") Figure: A bundle is created in the bundle config and then referenced in the view

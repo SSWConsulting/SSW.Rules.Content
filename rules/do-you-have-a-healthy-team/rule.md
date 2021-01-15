@@ -17,9 +17,12 @@ Developers are notoriously unhealthy people. They don't exercise enough, don't s
 
 <!--endintro-->
 
-* Not having chocolate biscuits and instead keeping a bowl of fruit<br>
-* Not having coke machines and instead having a purified cold water bottle in the middle of the office<br>
-* Encouraging them to do as much exercise as possible - even doing push-ups every day.<br>
+* Not having chocolate biscuits and instead keeping a bowl of fruit
+
+* Not having coke machines and instead having a purified cold water bottle in the middle of the office
+
+* Encouraging them to do as much exercise as possible - even doing push-ups every day.
+
 * And instead of dinners for birthdays where you eat and drink all night, every few months we always do something fun for someone's birthday, like indoor climbing, ten-pin bowling or even a bush walk in the Blue Mountains.
 
 

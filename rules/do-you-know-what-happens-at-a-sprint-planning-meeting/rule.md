@@ -41,7 +41,10 @@ The process of sizing is somewhat formal. Either using cards or IM (essential if
 ![](PBI.png)
  **Figure: A sample PBI based on the Microsoft Scrum process template for Azure DevOps
 ** 
-Once enough stories are sized, the Product Owner is given the opportunity to re-prioritise now knowing the relative sizes. If more PBIs need then be sized then they are. The Scrum Master keeps everything going and facilitates negotiation between The Team and The Product Owner until final priority is confirmed and The team commit to a number of stories and the meeting concludes.<br>      This meeting should be timeboxed to an hour for every week in the Sprint. However, the Scrum Master must be sensitive to the meeting producing a workable result.<br>      <br>   
+Once enough stories are sized, the Product Owner is given the opportunity to re-prioritise now knowing the relative sizes. If more PBIs need then be sized then they are. The Scrum Master keeps everything going and facilitates negotiation between The Team and The Product Owner until final priority is confirmed and The team commit to a number of stories and the meeting concludes.
+      This meeting should be timeboxed to an hour for every week in the Sprint. However, the Scrum Master must be sensitive to the meeting producing a workable result.
+      
+   
 
 ### How will the work needed to deliver the Increment be achieved?
 

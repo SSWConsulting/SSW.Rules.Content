@@ -39,13 +39,18 @@ redirects: []
 <font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"> <strong><div class="ms-rtestate-read ms-rte-wpbox"><div id="div_f2ab1bb8-28cc-4914-b859-52688d9f51f9" class="ms-rtestate-notify  ms-rtestate-read f2ab1bb8-28cc-4914-b859-52688d9f51f9"></div>
 <div id="vid_f2ab1bb8-28cc-4914-b859-52688d9f51f9" style="display:none;"></div></div></strong> </font></font></font></font></font></font><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"> <strong>视频: 微软的每日Scrum会议(长)</strong> </font></font></font></font></font></font>
 <font color="#333333" style="line-height:18px;"><font face="Verdana"><font size="2"><div> <strong></strong> </div>
-<br>::: greybox<br><div style="padding:10px 0px;line-height:20px;margin-top:0px;font-family:verdana, arial, sans-serif;margin-bottom:0px;"><span style="line-height:18px;"> <strong>牢记：</strong> <div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">      “只要能遵循Scrum价值，改变Scrum是可以的，实际上为了成功，这也是有必要的。”</div>
-<div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">-Stephen Forte</div></span></div>  <br>:::<br>
+
+::: greybox
+<div style="padding:10px 0px;line-height:20px;margin-top:0px;font-family:verdana, arial, sans-serif;margin-bottom:0px;"><span style="line-height:18px;"> <strong>牢记：</strong> <div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">      “只要能遵循Scrum价值，改变Scrum是可以的，实际上为了成功，这也是有必要的。”</div>
+<div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">-Stephen Forte</div></span></div>  
+:::
+
 <p> <strong></strong> </p>
 <p> <strong>以下这些建议有助于提高每日Scrum会议质量:</strong> </p>
 <p class="ssw-rteStyle-Tip">建议 1：在会议结束时，Scrum Master回顾当前迭代的进度</p>
 <p><span></span><span></span><span></span><span>在</span><span>会议结束时,Scrum</span><span></span><span></span><span> </span><span></span><span></span><span>Master应该</span><a href="/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day">检查燃尽图</a>以<span>把握团队当前的进度</span><span></span><span></span></p></font></font></font>
-<font color="#333333"><font face="Verdana"><font size="2"><img class="ssw-rteStyle-ImageArea" alt="burndowntfspreview.png" src="burndowntfspreview.png" style="width:601px;height:467px;"></font></font></font><font color="#333333"><font face="Verdana"><font size="2"> <br></font></font></font>图：TFS 预览版(TFS 2012)自动生成燃尽图
+<font color="#333333"><font face="Verdana"><font size="2"><img class="ssw-rteStyle-ImageArea" alt="burndowntfspreview.png" src="burndowntfspreview.png" style="width:601px;height:467px;"></font></font></font><font color="#333333"><font face="Verdana"><font size="2"> 
+</font></font></font>图：TFS 预览版(TFS 2012)自动生成燃尽图
 
 建议 2：在墙上贴一张每日Scrum会议的日程表(+ 在OutLook中设置一个预约)
 
@@ -55,7 +60,8 @@ redirects: []
 <font size="2"><div><span>根据我们的讨论， <strong>&lt;项目名称</strong> &gt;的每日Scrum会议在每个工作日的11:00AM(悉尼时间)在&lt; <strong>地点&gt;</strong> 举行。</span></div>
 <div>根据以下规则，它持续时间最长为15分钟</div>
 <div><span><font color="#3a66cc"><a href="/Pages/DailyStandUpScrum.aspx">http://rules.ssw.com.au/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx</a></font></span></div>
-<div><span><br></span></div>
+<div><span>
+</span></div>
 <div>谢谢,</div>
  <strong>&lt;Scrum Master&gt;</strong> </font> 
 :::
@@ -107,7 +113,8 @@ SSW 规则 [Do you update your tasks before the daily stand-up meeting?](/meetin
 **建议 11： 如何将 Scrum 会议填入你的工时表中？ **
 
 一旦你完成了Scrum会议，在你的工时表中<font face="宋体">添加</font>'S'（<font color="#3a66cc" face="verdana, sans-serif"> </font>[<font color="#3a66cc" face="verdana, sans-serif">SSW建议:更好的填写工时表</font>](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterTimesheets.aspx)）
-<font face="verdana, sans-serif"><span style="line-height:15pt;font-size:9pt;"><br></span></font>
+<font face="verdana, sans-serif"><span style="line-height:15pt;font-size:9pt;">
+</span></font>
 
 建议 12：使用 Skype或者Lync
 

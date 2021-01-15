@@ -31,4 +31,16 @@ A good communication strategy when receiving instructions is to repeat back what
 
 :::
 
-Possible answers:<br>      <dl class="bad"><br>::: greybox<br>"OK" or "Roger That"<br>  <br>:::<br><dd>Figure: Bad Example</dd></dl><dl class="good">         <br>::: greybox<br>Ok, I will add a red checkbox on the right<br>  <br>:::<br><dd>Figure: Good Example - repeat back the task<br></dd></dl>
+Possible answers:
+      
+::: greybox
+"OK" or "Roger That"
+  
+:::
+<dd>Figure: Bad Example</dd>         
+::: greybox
+Ok, I will add a red checkbox on the right
+  
+:::
+<dd>Figure: Good Example - repeat back the task
+</dd>

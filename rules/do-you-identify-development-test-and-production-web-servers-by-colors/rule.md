@@ -138,5 +138,26 @@ Regarding the color codes, we use to differentiate Production to Test with Share
 Here is what we change:
 
 * Site Settings | Change The Look
-    * Test – Orange <br>            <dl class="image"><br><br>::: ok  <br>![Figure: Selecting Orange theme for test](sharepoint-orange-theme.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: orange theme applied](sharepoint-orange-applied.jpg)  <br>:::<br></dl>
-    * Production - Office <br>            <dl class="image"><br><br>::: ok  <br>![Figure: Selecting Office theme for Production](sharepoint-office-theme.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: office (blue) theme applied](sharepoint-office-applied.jpg)  <br>:::<br></dl>
+    * Test – Orange 
+            
+
+::: ok  
+![Figure: Selecting Orange theme for test](sharepoint-orange-theme.jpg)  
+:::
+
+
+::: ok  
+![Figure: orange theme applied](sharepoint-orange-applied.jpg)  
+:::
+
+    * Production - Office 
+            
+
+::: ok  
+![Figure: Selecting Office theme for Production](sharepoint-office-theme.jpg)  
+:::
+
+
+::: ok  
+![Figure: office (blue) theme applied](sharepoint-office-applied.jpg)  
+:::

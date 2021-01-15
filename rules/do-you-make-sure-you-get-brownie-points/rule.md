@@ -29,12 +29,29 @@ People are not mind-readers (unless they are telepathic!), so when you get good 
 | --- | --- |
 | **CC:**  | Adam Cogan - SSW Manager  |
 | **From:**  | Sophie Belle - SSW Developer  |
-| **Subject:**  | FW: .NET Development Work for Qwerty Organization by SSW <br>                     <br> |
-| John,<br><br>FYI - see the email below. As you can see, I am loved :)<br><br>Regards,                          <br> Sophie Belle                          <br>www.ssw.com.au<br><br>----- |
+| **Subject:**  | FW: .NET Development Work for Qwerty Organization by SSW 
+                     
+ |
+| John,
+
+FYI - see the email below. As you can see, I am loved :)
+
+Regards,                          
+ Sophie Belle                          
+www.ssw.com.au
+
+----- |
 | **To:**  | Sophie Belle - SSW Developer  |
 | **From:**  | Amanda Panda - Qwerty Organization  |
 | **Subject:**  | .NET Development Work for Qwerty Organization by SSW  |
-| Sophie,<br><br>Thanks for the latest release.<br> It is fantastic! Thank you for all your hard work and commitment to helping implement this solution.<br><br>Regards,                          <br> Amanda Panda                          <br> Qwerty Organization |
+| Sophie,
+
+Thanks for the latest release.
+ It is fantastic! Thank you for all your hard work and commitment to helping implement this solution.
+
+Regards,                          
+ Amanda Panda                          
+ Qwerty Organization |
 
 
 
@@ -48,11 +65,18 @@ You’ve gotta do good work and be visible"
 
 Assuming you are an awesome worker, there are a whole bunch of smaller ways of getting brownie points and they are all around good communication:
 
-* Doing or sending a <br>      [Daily Scrum](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
+* Doing or sending a 
+      [Daily Scrum](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 * Sending a "[To myself](/dones-do-you-send-yourself-emails)" after taking requirements from a client
-* Sending a <br>      [Done](/done-do-you-know-when-to-send-a-done-email-in-scrum) with a screenshot after you have completed the task
-* Doing a <br>      [Done Video](/do-you-send-done-videos)
-* Preparing and doing a great <br>      [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting) and sending an <br>      [email](/do-you-create-a-sprint-review-retro-email)
-* Sending an <br>      [invoice with plenty of comments](/do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug)
-* Sharing your knowledge at a <br>      [user group](https://www.ssw.com.au/ssw/NETUG/) (aka Meetup) presentation
+* Sending a 
+      [Done](/done-do-you-know-when-to-send-a-done-email-in-scrum) with a screenshot after you have completed the task
+* Doing a 
+      [Done Video](/do-you-send-done-videos)
+* Preparing and doing a great 
+      [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting) and sending an 
+      [email](/do-you-create-a-sprint-review-retro-email)
+* Sending an 
+      [invoice with plenty of comments](/do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug)
+* Sharing your knowledge at a 
+      [user group](https://www.ssw.com.au/ssw/NETUG/) (aka Meetup) presentation
 * [Recording or live-streaming your user group presentation](https://www.ssw.com.au/ssw/Consulting/Video-Production/Conference-Video-Recording.aspx) and uploading it to Youtube

@@ -29,9 +29,10 @@ Figure: Good Example - Some of the current SSW Product Logos
 
 A well designed SSW product logo has three parts: a pair of angle brackets, an icon, and the product name.  
 
-<dl class="ssw15-rteElement-ImageArea"> 
+ 
          <img src="logoparts.png" alt="" style="width:770px;">
-         <span style="font-weight:bold;">Figure: Main parts of an SSW product logo</span></dl><dl class="ssw15-rteElement-ImageArea">         <span style="font-weight:bold;"><br></span></dl>
+         <span style="font-weight:bold;">Figure: Main parts of an SSW product logo</span>         <span style="font-weight:bold;">
+</span>
 ###  2. The color of an SSW product logo
 
 
@@ -39,7 +40,8 @@ A well designed SSW product logo has three parts: a pair of angle brackets, an i
  The colors used on the SSW product logo are the primary colors of SSW which are red and charcoal.
 
 
-| #CC4141 | RGB (204,65,65) | #333333 | RGB (51,51,51)<br> |
+| #CC4141 | RGB (204,65,65) | #333333 | RGB (51,51,51)
+ |
 | --- | --- |
 
 
@@ -47,8 +49,8 @@ A well designed SSW product logo has three parts: a pair of angle brackets, an i
 
 An SSW product logo can be shown in these color variations: Two-Colored, SSW charcoal, true black, or all white.
 
-<dl class="ssw15-rteElement-ImageArea">      <img src="4 color logo.png" alt="" style="width:770px;">
-   </dl>
+      <img src="4 color logo.png" alt="" style="width:770px;">
+   
 ::: good
 Figure: Good Example - TimePro logo in 4 different colors
 

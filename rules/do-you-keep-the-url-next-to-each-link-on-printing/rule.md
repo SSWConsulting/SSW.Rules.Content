@@ -45,4 +45,8 @@ content: none;
 ```
 
 
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good example - printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs](print-url.jpg)  <br>:::<br></dl>
+
+
+::: good  
+![Figure: Good example - printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs](print-url.jpg)  
+:::

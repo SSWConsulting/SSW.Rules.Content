@@ -22,7 +22,8 @@ As well as testing latency it has additional tests that come in handy like:
 * CDN Test
 * Upload Test
 * Large File Upload Test
-* Download Test <br>
+* Download Test 
+
 
 
 

@@ -11,7 +11,8 @@ redirects: []
 
 ---
 
-1. ~~If your app is built on Silverlight today.~~ Stop building things on Silverlight today.<br>
+1. ~~If your app is built on Silverlight today.~~ Stop building things on Silverlight today.
+
 2. Reasons are:
 
     * Time to market
@@ -28,20 +29,32 @@ redirects: []
     Note: WP7 was built by a 'web team' not "Rich client app team', so some issues exist:
 
     * Bing map control relies on host page (authentication)
-    * Avoid using System.Windows.Browser.dll in your Silverlight App (as it works only<br>                        OOB on desktop) and you will have to use a different control on Windows Phone 7
+    * Avoid using System.Windows.Browser.dll in your Silverlight App (as it works only
+                        OOB on desktop) and you will have to use a different control on Windows Phone 7
 4. Others reasons are:
-    * You can deploy your app without going through the appstore/market place. E.g. my<br>                    SSW business app
+    * You can deploy your app without going through the appstore/market place. E.g. my
+                    SSW business app
 
 
-| Appstore:<br>                         |                             No<br>                         |
+| Appstore:
+                         |                             No
+                         |
 | --- | --- |
-| Market place:<br>                         |                             Yes<br>                         |
-    * Turn around through the appstore is quicker:<br>                
+| Market place:
+                         |                             Yes
+                         |
+    * Turn around through the appstore is quicker:
+                
 
-| Appstore:<br>                         |                             1-3 weeks<br>                         |
+| Appstore:
+                         |                             1-3 weeks
+                         |
 | --- | --- |
-| Market place:<br>                         |                             2 days (Quicker since it is managed code. Unmanaged code is easy to spot)<br>                         |
-    * App store is blocking applications MS won't.<br>
+| Market place:
+                         |                             2 days (Quicker since it is managed code. Unmanaged code is easy to spot)
+                         |
+    * App store is blocking applications MS won't.
+
 
 
 <!--endintro-->

@@ -20,7 +20,9 @@ In many cases, there are legal requirements to audit all updates to financial re
 
 <!--endintro-->
 
-<font color="#333333"><a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables?view=sql-server-ver15">Temporal tables</a> were introduced in SQL Server 2016 and enhanced with increased features in SQL Server 2017.<br>They offer the ability to record all the entity changes to a history table allowing the querying of the entity at a point in time.<br></font>
+<font color="#333333"><a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/temporal-tables?view=sql-server-ver15">Temporal tables</a> were introduced in SQL Server 2016 and enhanced with increased features in SQL Server 2017.
+They offer the ability to record all the entity changes to a history table allowing the querying of the entity at a point in time.
+</font>
 
 
 
@@ -79,7 +81,8 @@ CREATE TABLE dbo.Shippers
 ** 
 ![](Shippers_TemporalTable.PNG) **Figure: New temporal table shown in SQL Management Studio.
 ** 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 
 
@@ -94,13 +97,15 @@ SET (SYSTEM_VERSIONING = ON (HISTORY_RETENTION_PERIOD = 7 YEARS));
 ** 
 <font color="#333333"></font>
 
-<font color="#333333">Some alternative solutions are:<br></font>
+<font color="#333333">Some alternative solutions are:
+</font>
 
 1. Manually adding triggers on all database tables to log every table
 2. The business objects or stored procedures all write to 2 tables the main table such as Customer and CustomerAudit
 3. Using a logging utility to audit database changes
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 This means that you can devote your development time to areas other than auditing. Also, unlike other utilities which use triggers (such as [ApexSQL Audit](https://www.ssw.com.au/ssw/Redirect/ApexSQL.htm)), there is no performance overhead because it relies upon log files already created by SQL Server. If required, you can export the log information to SQL Server, so you can perform advanced queries on it. It even allows you to recover previously deleted tables.

@@ -19,7 +19,7 @@ There are 5 common methods of inserting rows into your database:
 <!--endintro-->
 
 1. Use SqlCommand with an SQL INSERT statement and parameters:
-<dl class="goodCode">        <dt style="width&#58;95.47%;height&#58;516px;">
+        
         <pre>public void SQLInsert(string customerID, string companyName, string contactName)
 &#123;
     SqlConnection sqlcon = new SqlConnection();
@@ -47,11 +47,11 @@ There are 5 common methods of inserting rows into your database:
         sqlcon.Close();
    &#125;
 &#125;</pre>
-        </dt>
+        
         <dd>&#160;&#160;&#160;&#160; Figure&#58; Inserting rows using INSERT </dd>
-    </dl>    This approach has two problems - the SQL is inline in the code, and if the database schema is changed, INSERT statement will have to be manually updated.
+        This approach has two problems - the SQL is inline in the code, and if the database schema is changed, INSERT statement will have to be manually updated.
 2. Use SqlCommand and a stored procedure on the SQL Server:
-<dl class="goodCode">        <dt style="width&#58;92.44%;height&#58;443px;">
+        
         <pre>public void SPInsert(string firstName, string surname)
 &#123;
     &#160;&#160;&#160;&#160;SqlConnection sqlcon = new SqlConnection();
@@ -73,11 +73,11 @@ There are 5 common methods of inserting rows into your database:
         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sqlcon.Close();
     &#160;&#160;&#160;&#160;&#125;
 &#125;</pre>
-        </dt>
+        
         <dd>&#160;&#160;&#160;&#160; Figure&#58; Inserting rows using SqlCommand and a stored procedure on the SQL Server </dd>
-    </dl>    This method is better because the SQL is not mixed up with the code (it is in a stored procedure), but it will still break if the database schema is changed, and the all of the parameters to the stored procedure have to be added manually.
+        This method is better because the SQL is not mixed up with the code (it is in a stored procedure), but it will still break if the database schema is changed, and the all of the parameters to the stored procedure have to be added manually.
 3. Use DataAdapter with SQL INSERT statement, then use DataApdater.Update (strongly-typed-dataset)
-<dl class="goodCode">        <dt style="overflow-x&#58;scroll;width&#58;92.76%;height&#58;533px;">
+        
         <pre style="padding-left&#58;15px;">public void DASQLInsert(string firstName, string surname)
 &#123;
     &#160;&#160;&#160;&#160;SqlConnection sqlcon = new SqlConnection();
@@ -104,11 +104,11 @@ There are 5 common methods of inserting rows into your database:
         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sqlcon.Close();
     &#160;&#160;&#160;&#160;&#125;
 &#125;</pre>
-        </dt>
+        
         <dd>&#160;&#160;&#160;&#160;&#160; Figure&#58; Inserting rows using DataAdapter with SQL INSERT statement, then use DataApdater.Update </dd>
-    </dl>    In this example, the SQL is mixed up with the .NET code, and has to be manually updated if the database schema is changed. However, the strongly typed DataSet automatically updates when the database schema changes.
+        In this example, the SQL is mixed up with the .NET code, and has to be manually updated if the database schema is changed. However, the strongly typed DataSet automatically updates when the database schema changes.
 4. Use DataAdapter with a stored procedure for INSERT, then use DataAdapter.Update (strongly-typed-dataset)
-<dl class="goodCode">        <dt style="width&#58;92.93%;height&#58;639px;">
+        
         <pre>public void DASPInsert(string firstName, string surname)
 &#123;
     &#160;&#160;&#160;&#160;SqlConnection sqlcon = new SqlConnection();
@@ -143,11 +143,11 @@ There are 5 common methods of inserting rows into your database:
         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sqlcon.Close();
     &#160;&#160;&#160;&#160;&#125;
 &#125;</pre>
-        </dt>
+        
         <dd>&#160;&#160;&#160;&#160;&#160;Figure&#58; Inserting rows using DataAdapter with a stored procedure for INSERT, then use DataAdapter.Update (strongly-typed-dataset) - best for SQL Server </dd>
-    </dl>    This is the best approach for Microsoft SQL Server. The parameters for the stored procedure are automatically generated and the strongly typed dataset updates when the database schema changes.
+        This is the best approach for Microsoft SQL Server. The parameters for the stored procedure are automatically generated and the strongly typed dataset updates when the database schema changes.
 5. Use DataAdapter with SQL SELECT statement, then use command builder to automatically create INSERT, UPDATE and DELETE statements as required. Then use DataAdapter.Update (strongly-typed-dataset).
-<dl class="goodCode">        <dt style="width&#58;93.41%;height&#58;656px;">
+        
         <pre>public void DACmdb(string firstName, string surname)
 &#123;
     &#160;&#160;&#160;&#160;SqlConnection sqlcon = new SqlConnection();
@@ -183,6 +183,6 @@ There are 5 common methods of inserting rows into your database:
         &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;sqlcon.Close();
     &#160;&#160;&#160;&#160;&#125;
 &#125;</pre>
-        </dt>
+        
         <dd>&#160;&#160;&#160;&#160; Figure&#58; Inserting rows using DataAdapter with SQL SELECT statement, then use command builder to automatically create INSERT, UPDATE and DELETE - best for SQL Server</dd>
-    </dl>    This approach is the best approach for Jet (Access) databases, as stored procedures in Access are difficult to implement and unreliable. The INSERT statement is automatically generated by .NET and the strongly typed databases update when the database schema is changed.
+        This approach is the best approach for Jet (Access) databases, as stored procedures in Access are difficult to implement and unreliable. The INSERT statement is automatically generated by .NET and the strongly typed databases update when the database schema is changed.

@@ -35,8 +35,11 @@ Choosing the right     [authentication and authorisation](https://www.youtube.co
 
 
 1. Scope - Is it an enterprise application for internal user or a consumer application for external use?
-2. Social - Do you need to support <br>      [OAuth2](https://oauth.net/2/) or <br>      [OIDC](https://openid.net/connect/)?
-3. MFA - Do you need to support <br>      [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication)?
+2. Social - Do you need to support 
+      [OAuth2](https://oauth.net/2/) or 
+      [OIDC](https://openid.net/connect/)?
+3. MFA - Do you need to support 
+      [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication)?
 4. Scope - Do you need to share the identity across multiple applications?
 5. Volume - Do you have an estimate for how many users you need to support?
 
@@ -279,7 +282,8 @@ Disadvantages
 * You want to support internal/enterprise users, and:
 * You already have Azure AD set up, and/or:
 * Your users require access from off-site, and/or:
-* You <br>       **need** to enforce MFA
+* You 
+       **need** to enforce MFA
 
 
 ### Azure B2C (simple Auth as a Service)

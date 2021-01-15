@@ -31,7 +31,8 @@ What can (and should) be monitored in SEO:
 7. Robot blockers
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 At SSW, SEO workflow is:
 

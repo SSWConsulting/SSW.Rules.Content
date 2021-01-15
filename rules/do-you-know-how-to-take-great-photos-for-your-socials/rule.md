@@ -69,7 +69,7 @@ Here they are:
 ::: bad
 Figure: Bad Example – Bad framing and background  
 :::
-<dl class="ssw15-rteElement-ImageArea"> <img src="mattgprofile.png" alt="mattgprofile.png" style="margin:5px;"></dl>
+ <img src="mattgprofile.png" alt="mattgprofile.png" style="margin:5px;">
 ::: good
 Figure: Good Example – Good framing for a profile photo
 

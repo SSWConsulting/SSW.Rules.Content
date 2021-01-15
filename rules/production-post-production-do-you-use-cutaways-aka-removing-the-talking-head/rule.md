@@ -19,4 +19,5 @@ During an interview, looking at a talking head (the subject) can become monotono
 <!--endintro-->
 
 As an example, if you are interviewing someone and the topic of unit testing comes up, mid-sentence you can cut to a shot of the unit testing UI.
-![Cutaways Bad example](cutaways-bad-example.jpg)Figure: Bad example – Looking at a talking head for 30 mins is boring![Cutaways  Bad example](cutaways-good-example.jpg)Figure: Good example – cutting away to what is being discussed improves the audiences understanding - See 2:08 on <br>   [this video example](http://youtu.be/cxKe6NDicBE?t=2m5s)
+![Cutaways Bad example](cutaways-bad-example.jpg)Figure: Bad example – Looking at a talking head for 30 mins is boring![Cutaways  Bad example](cutaways-good-example.jpg)Figure: Good example – cutting away to what is being discussed improves the audiences understanding - See 2:08 on 
+   [this video example](http://youtu.be/cxKe6NDicBE?t=2m5s)

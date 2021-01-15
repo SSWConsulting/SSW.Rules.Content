@@ -26,7 +26,8 @@ The code generators to generate maintenance pages automatically, come from MS an
     * Creates a full set of typed DataSource controls for your entire API with design time support, they are similar to the ObjectDataSource, only these are full featured and are actually developer friendly.
     * Creates a full webservice API for your domain, perfect for a .net winforms or smart client application and is simple to configure.
 2. [AspDB](https&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#AspDB) is an alternative choice. You can click via a code generator (Designer) to produce a complete and acceptable Web DB application in several minutes.
-3. [BLinQ](https&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#BLinQ)<strike>&#160;is a tool to generate websites that use LinQ to show and edit data.<br></strike>DEAD - now replaced by ASP.NET Dynamic Data.
+3. [BLinQ](https&#58;//www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#BLinQ)<strike>&#160;is a tool to generate websites that use LinQ to show and edit data.
+</strike>DEAD - now replaced by ASP.NET Dynamic Data.
 4. ASP.NET Dynamic Data provides the Web application scaffolding that enables you to build rich data-driven Web applications. This scaffolding is a mechanism that enhances the functionality of the existing ASP.NET framework by adding the ability to dynamically display pages based on the data model of the underlying database, without having to create pages manually. 
 
  **WARNING: ASP.NET Dynamic Data is in Beta and not installed on SEAL and SEALUS.**  

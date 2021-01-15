@@ -46,7 +46,8 @@ Follow these steps to ensure you get as much coverage as possible before and aft
     2. On the first slide add a note that contains the version. This is so that you can compare easily what version is on SharePoint and what is on Slideshare
 ![](version-number.jpg)**Figure: Add the version number on the bottom right corner of your first or second slide**
 5. Upload to Slideshare – Make sure the title  **doesn’t** have the version number on it
-6. Go to “My uploads” and change the presentation title to have the version number<br>![](version-number-slideshare.jpg)**Figure: Adding the version number to the title (after uploading) won’t affect the URL**
+6. Go to “My uploads” and change the presentation title to have the version number
+![](version-number-slideshare.jpg)**Figure: Adding the version number to the title (after uploading) won’t affect the URL**
 7. Create a "\_OnSlideshare.txt" file with the Slideshare URL and add it to SharePoint on the same folder where the original PPT is
 8. Now you can present!
 <dd class="ssw15-rteElement-FigureGood"><img class="ms-rteCustom-ImageArea" src="slideshareend.jpg" alt="" style="color:#555555;font-size:11px;font-weight:bold;line-height:20px;"></dd>
@@ -55,7 +56,8 @@ Figure: the SSW example of a Slideshare link slide
 :::
 
 
-<font color="#555555"><span style="font-size:11px;line-height:21px;"> <b><img src="YoutubeEmbedSlideShare.png" alt="YoutubeEmbedSlideShare.png" style="margin:5px;"><br></b> </span></font>
+<font color="#555555"><span style="font-size:11px;line-height:21px;"> <b><img src="YoutubeEmbedSlideShare.png" alt="YoutubeEmbedSlideShare.png" style="margin:5px;">
+</b> </span></font>
 
 ::: good
 Figure: If you presentation is being recorded be sure to send yourself a reminder email to embedd the video in to the slideshare.

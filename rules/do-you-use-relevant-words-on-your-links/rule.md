@@ -36,7 +36,8 @@ So what does this mean? All those that are pointing to pages on your website tha
 
 
 ::: greybox
-"For tips and tricks to increase your Google Ranking <br>      Click here"
+"For tips and tricks to increase your Google Ranking 
+      Click here"
 :::
 
 ::: bad
@@ -52,7 +53,8 @@ Figure: Bad Example #2 - Link does not increase your rankings
 :::
 
 ::: greybox
-"For tips and tricks to increase your Google Ranking <br>      read this"  
+"For tips and tricks to increase your Google Ranking 
+      read this"  
 :::
 
 ::: bad
@@ -64,7 +66,8 @@ Figure: Bad Example #3 - Link does not increase your rankings
 :::
 
 ::: bad
-Figure: Bad Example #4 - <br>      Link title does not increase your rankings (scroll and hold over link to see it)  
+Figure: Bad Example #4 - 
+      Link title does not increase your rankings (scroll and hold over link to see it)  
 :::
 
 ::: greybox
@@ -72,7 +75,8 @@ Figure: Bad Example #4 - <br>      Link title does not increase your rankings (
 :::
 
 ::: bad
-Figure: Bad Example #5 - <br>      Link is the whole URL
+Figure: Bad Example #5 - 
+      Link is the whole URL
 :::
 
 ::: greybox

@@ -39,7 +39,13 @@ If your WebAPI has an OpenAPI (a.k.a. Swagger) specification, then the NSwag too
 * All defined endpoints implemented as methods in the service
 * All DTOs included as Typescript interfaces
 
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good example - NSwag generates the boring work so that you don't have to.](nswag.png)  <br>:::<br><p class="ssw15-rteElement-P"><br></p></dl>
+
+
+::: good  
+![Figure: Good example - NSwag generates the boring work so that you don't have to.](nswag.png)  
+:::
+<p class="ssw15-rteElement-P">
+</p>
 ![](northwind-client.png)
 
 ::: good

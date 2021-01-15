@@ -22,9 +22,11 @@ The Bad method
  The naïve and bad method would be to just back up the entire content database, then copy the database backup to the destination server, and restore it there.
 
 1. Backup command: 
-<br>    stsadm –o backup –url http://servername:port -filename c:\myfile.bak
+
+    stsadm –o backup –url http://servername:port -filename c:\myfile.bak
 2. Restore command: 
-<br>    stsadm –o restore –url http://servername:port –filename c:\myfile.bak -overwrite
+
+    stsadm –o restore –url http://servername:port –filename c:\myfile.bak -overwrite
 
 
 There are quite a few issues with this approach:

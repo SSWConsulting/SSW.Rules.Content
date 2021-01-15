@@ -24,7 +24,8 @@ redirects:
 | CreatedUserId | Foreign Key to Users table, Allow Nulls=False |
 | ModifiedUtc | datetime2 Allow Nulls=False Default=GETUTCDATE() |
 | ModifiedUserId | Foreign Key to Users table, Allow Nulls=False |
-| Concurrency | rowversion Allow Nulls=False<br> |
+| Concurrency | rowversion Allow Nulls=False
+ |
 
 
 

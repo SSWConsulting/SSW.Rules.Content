@@ -39,4 +39,18 @@ Many software houses use this for their products Eg. SSW Code Auditor, SSW Link 
 
 
 Here are the google results as at 2014
-<dl class="image"><br><br>::: ok  <br>![Figure: Google result of UserVoice](uservoice.jp.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Google result of GetSatisfaction](getsatisfaction.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Google result of UserEcho](googleresultuserecho.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Google result of UserVoice](uservoice.jp.jpg)  
+:::
+
+
+::: ok  
+![Figure: Google result of GetSatisfaction](getsatisfaction.jpg)  
+:::
+
+
+::: ok  
+![Figure: Google result of UserEcho](googleresultuserecho.jpg)  
+:::

@@ -16,7 +16,8 @@ redirects: []
 
 <font size="2"><font face="Verdana"></font></font>
 
-<font size="2"><font face="Verdana"><br>
+<font size="2"><font face="Verdana">
+
 Always get a rule proof read and edited by a good English speaker who can assess whether or not your rule communicates its message and&#160;conforms to company standards, and who can find any errors in spelling, grammar and punctuation.</font></font>
 
 <!--endintro-->

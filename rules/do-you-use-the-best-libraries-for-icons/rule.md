@@ -42,5 +42,10 @@ Read the  ["Basic Use" documentation](https://fontawesome.com/how-to-use/on-the-
 
 If you are using  **Azure** , there is an awesome icon collection with several options for you to use: http://code.benco.io/icon-collection/
 
-<dl class="image"><br><br>::: good  <br>![Figure: Good example - a 5x scaled paper plane icon added to a Web Application](18-06-2014 2-33-45 PM.png)  <br>:::<br></dl>
+
+
+::: good  
+![Figure: Good example - a 5x scaled paper plane icon added to a Web Application](18-06-2014 2-33-45 PM.png)  
+:::
+
 Also check out Eric Phan's blog for more info: http://ericphan.net/blog/2013/10/15/javascript-corner-font-awesome .

@@ -28,7 +28,10 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 ### In order to be a good PO, they need to:
 
 
-1. Be available for Sprint <br>         [Reviews](/do-you-know-what-happens-at-a-sprint-review-meeting), <br>         [Retrospectives](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) and Sprint <br>         [Planning meetings](/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx) (approximately half a day for these 3 meetings, for each 2-week sprint).
+1. Be available for Sprint 
+         [Reviews](/do-you-know-what-happens-at-a-sprint-review-meeting), 
+         [Retrospectives](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) and Sprint 
+         [Planning meetings](/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx) (approximately half a day for these 3 meetings, for each 2-week sprint).
 2. Order the Product Backlog. The important things will be done first, in order to maximize the ROI as the budget will run out one day.
 3. Be available, at least remotely, to unblock a developer if he has questions/impediments. A good PO has a feeling of urgency.
 4. Ideally, listen in on [Daily Scrums](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings). This is optional but means that the PO will have daily insight into the team’s progress.
@@ -47,7 +50,8 @@ It’s hard to give guidance on who in the company would make a good PO. The usu
 2. Someone who is available
 3. Someone with a clear vision of the product,
 4. Someone who has authority with the budget. E.g. They could authorize adding a designer to a sprint for a couple of days
-5. Someone who has read the Scrum Guide and watched the <br>         [Product Owner video](https&#58;//tv.ssw.com/scrum-what-is-a-product-owner/) and understands the role.
+5. Someone who has read the Scrum Guide and watched the 
+         [Product Owner video](https&#58;//tv.ssw.com/scrum-what-is-a-product-owner/) and understands the role.
 
 
 It’s possible to outsource the role of PO to someone in the development consulting company, but this is not recommended. Don’t put the fox in charge of the chickens.

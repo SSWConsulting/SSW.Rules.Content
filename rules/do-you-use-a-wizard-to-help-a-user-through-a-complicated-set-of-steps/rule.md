@@ -19,10 +19,16 @@ Most importantly when a first time a user tries your program, they should be abl
 
 To ensure a consistent user experience, make sure to include these visual elements:
 
-1. **Page name.** It is important for the user to know which page they<br>                        are currently on.
-2. **Page description.** You should provide a short description of the<br>                        task to be performed on the page.
-3. **Instructions.** Not required for every page, this is a short description<br>                        requesting the user to perform a task, for example, entering some values into a<br>                        text field.
-4. **Company logo.** This helps promote branding, however it should be<br>                        inconspicuous and should not move visual focus away from the body of your application.<br>
+1. **Page name.** It is important for the user to know which page they
+                        are currently on.
+2. **Page description.** You should provide a short description of the
+                        task to be performed on the page.
+3. **Instructions.** Not required for every page, this is a short description
+                        requesting the user to perform a task, for example, entering some values into a
+                        text field.
+4. **Company logo.** This helps promote branding, however it should be
+                        inconspicuous and should not move visual focus away from the body of your application.
+
 
 
 

@@ -32,7 +32,8 @@ Want the 'Google grid'? Then follow these rules to help users to navigate:
 1. Filters at the top (if more than one search parameter,then add a "search" button)
 2. The number of results found + how many seconds the search took to execute
 3. A statement that explains the criteria that you used for searching (or keep the criteria in the text box like google does)
-4. The number of pages found (hyperlinks centered in the middle), and these hyperlinks<br>                        should be shown on the footer of the page only.
+4. The number of pages found (hyperlinks centered in the middle), and these hyperlinks
+                        should be shown on the footer of the page only.
 
 
 

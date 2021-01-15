@@ -111,7 +111,8 @@ If an end-user reports a problem on your website it can be useful to temporarily
 &lt;/system.web&gt;
 
 &lt;/location&gt; 
- **<font face="Calibri"><span style="color:#000000;">Figure: Glimpse.axd is now restricted to Developers  and PublicGlimpseUsers </span><br></font>**
+ **<font face="Calibri"><span style="color:#000000;">Figure: Glimpse.axd is now restricted to Developers  and PublicGlimpseUsers </span>
+</font>**
 * Disable the “config” section of Glimpse so that site connection strings are not published. 
 
 &lt;pluginBlacklist&gt;

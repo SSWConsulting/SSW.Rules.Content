@@ -34,11 +34,15 @@ Figure: Bad example - Having a drawer and a mailbox takes too much space (2 diff
 Figure: OK example - Stepped lockers are great as they allow jackets (however missing the mail hole)
 
 :::
-<dl class="ssw15-rteElement-ImageArea"> <img src="locker-good.jpg" alt="locker-good.jpg" style="width:650px;"> </dl>
+ ![](locker-good.jpg) 
 ::: good
 Figure: Good example - A locker with mail slot is ideal for both mail and packages
 :::
 
 
-<dl class="ssw15-rteElement-ImageArea"><img src="clean desk.jpg" alt="clean desk.jpg" style="font-weight:bold;color:#444444;margin:5px;width:650px;height:488px;"></dl><dl class="ssw15-rteElement-ImageArea"><br>::: good<br><dl class="ssw15-rteElement-ImageArea">Figure: This is how your desk should look when you leave everyday.</dl>  <br>:::<br></dl>
+![](clean desk.jpg)
+::: good
+Figure: This is how your desk should look when you leave everyday.
+:::
+
 Note: At Microsoft Canberra and other offices, they call this "Keep your office in your bag". See the [5S methodology](/do-you-use-the-5s-desk-space-organization-system-invented-by-the-japanese) Rule for more details.

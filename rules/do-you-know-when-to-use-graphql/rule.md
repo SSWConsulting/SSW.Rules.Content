@@ -30,9 +30,12 @@ There are GraphQL server and client libraries for nearly all of these (see the R
 
 GraphQL differs from REST in that REST is concerned with  **resources** and GraphQL is concerned with  **state** . While some features are somewhat analogous, it helps to be familiar with the GraphQL lingo and understand it in its own right. For more information, see:     https://graphql.org/learn/thinking-in-graphs/
 
-* **Types:** Types are the fundamental building blocks of your GraphQL API. Just like in a strongly typed language like C#, there are a default set of types, and you build your own by putting together default and custom types as  **fields** of other types. See: <br>      https://graphql.org/learn/schema/#type-system
-* **Queries:** GraphQL queries return the current state of the data source(s). Being a query language, you specify which fields you want the server to return – these can be any fields supported by the schema, including for related types. Your query is interpreted by the server and used to fetch data to pass back to the requesting client. One of the most powerful features of GraphQL is not just that it doesn’t care what the data source is, but  **schema stitching** allows you to aggregate data from multiple sources and return it to your client with one query. Those data sources could be different entities or database tables, different databases, or even flat files on a server, or other GraphQL (or REST) APIs. See: <br>      https://graphql.org/learn/queries/
-* **Mutations:** Mutations change the state of the data source(s) that the GraphQL server exposes, similar to create, update, or delete operations. See: <br>      https://graphql.org/learn/queries/#mutations
+* **Types:** Types are the fundamental building blocks of your GraphQL API. Just like in a strongly typed language like C#, there are a default set of types, and you build your own by putting together default and custom types as  **fields** of other types. See: 
+      https://graphql.org/learn/schema/#type-system
+* **Queries:** GraphQL queries return the current state of the data source(s). Being a query language, you specify which fields you want the server to return – these can be any fields supported by the schema, including for related types. Your query is interpreted by the server and used to fetch data to pass back to the requesting client. One of the most powerful features of GraphQL is not just that it doesn’t care what the data source is, but  **schema stitching** allows you to aggregate data from multiple sources and return it to your client with one query. Those data sources could be different entities or database tables, different databases, or even flat files on a server, or other GraphQL (or REST) APIs. See: 
+      https://graphql.org/learn/queries/
+* **Mutations:** Mutations change the state of the data source(s) that the GraphQL server exposes, similar to create, update, or delete operations. See: 
+      https://graphql.org/learn/queries/#mutations
 * **Schema:** Your GraphQL schema is the complete map of data your GraphQL server exposes. This defines all the data that your clients can request, and all the changes they can make. Specific queries or mutations are not explicitly defined; rather, you specify their structure. Just like with a SQL database, you write whatever queries you want against it, and if the schema supports them, they will run successfully.
 
 
@@ -101,7 +104,26 @@ Some example use cases might include:
 
 
 
-GraphQL is not a replacement for REST; in fact, it’s often best to use them together. While GraphQL supports changing state on the server through migrations, the true power of GraphQL is in queries. Many create, update, and delete operations are relatively unchanging and can benefit from being maintained as REST resources – think sign-up forms for example. REST is also better for transferring rich content, like images and videos.<br><dl class="goodImage"><br><br>::: good  <br>![Good Example – GraphQL used to construct a complex query with embedded entities, and images are referenced with a URI that the client can use to retrieve from a REST endpoint](good-example-image-url.png)  <br>:::<br><p class="ssw15-rteElement-P"></p><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P"><a href="https://adamcogan.com/2020/02/10/introducing-ssw-people/">Adam Cogan's blog post</a> introducting SSW People explains how GraphQL can be combined with other technologies to get the best results.<br></p><dl class="ssw15-rteElement-ImageArea"><img src="adam-blog-screenshot.png" alt="adam-blog-screenshot.png" style="margin:5px;width:750px;height:274px;"></dl><br>::: good<br>Figure: Good Example - use GraphQL to complement the rest of your tech stack<br>  <br>:::<br><dl class="ssw15-rteElement-ImageArea"><br></dl><dl class="ssw15-rteElement-ImageArea"><img src="people-graph-screenshot.png" alt="people-graph-screenshot.png" style="margin:5px;"><br>::: good<br>Figure: Good Example - GraphQL query in the SSW People static web app<br>  <br>:::<br></dl></dl>
+GraphQL is not a replacement for REST; in fact, it’s often best to use them together. While GraphQL supports changing state on the server through migrations, the true power of GraphQL is in queries. Many create, update, and delete operations are relatively unchanging and can benefit from being maintained as REST resources – think sign-up forms for example. REST is also better for transferring rich content, like images and videos.
+
+
+::: good  
+![Good Example – GraphQL used to construct a complex query with embedded entities, and images are referenced with a URI that the client can use to retrieve from a REST endpoint](good-example-image-url.png)  
+:::
+<p class="ssw15-rteElement-P"></p><p class="ssw15-rteElement-P">
+</p><p class="ssw15-rteElement-P"><a href="https://adamcogan.com/2020/02/10/introducing-ssw-people/">Adam Cogan's blog post</a> introducting SSW People explains how GraphQL can be combined with other technologies to get the best results.
+</p><dl class="ssw15-rteElement-ImageArea"><img src="adam-blog-screenshot.png" alt="adam-blog-screenshot.png" style="margin:5px;width:750px;height:274px;"></dl>
+::: good
+Figure: Good Example - use GraphQL to complement the rest of your tech stack
+  
+:::
+<dl class="ssw15-rteElement-ImageArea">
+</dl><dl class="ssw15-rteElement-ImageArea"><img src="people-graph-screenshot.png" alt="people-graph-screenshot.png" style="margin:5px;">
+::: good
+Figure: Good Example - GraphQL query in the SSW People static web app
+  
+:::
+</dl>
 ### The best GraphQL Resources
 
 

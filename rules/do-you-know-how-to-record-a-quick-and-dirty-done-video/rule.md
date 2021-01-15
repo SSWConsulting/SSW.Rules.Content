@@ -29,7 +29,8 @@ When deciding whether a PBI might be a good contender to record a done video for
 3. Is it UI heavy? i.e. would the video be compelling?
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 When deciding on the software:
 
 1. Solo "Done Video" – Camtasia
@@ -60,9 +61,11 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
 * Record it in one take. It doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again.
 * It's supposed to be quick and easy to make. If you spend too much time, you will be less likely to want to do it again in the future.
 * Be quick and concise, you don't want to waste other peoples' time either!
-* In your browser, remember to hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view. <br>                  
+* In your browser, remember to hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view. 
+                  
 See Rule: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
-* In your browser, such as Chrome then you should first zoom to 125% ideally. <br>                  
+* In your browser, such as Chrome then you should first zoom to 125% ideally. 
+                  
 See Rule: [Do you always zoom in when using a projector?](/meetings-do-you-always-zoom-in-when-using-a-projector) (or in this case before the recording a 'Done' video)
 * Set your screen resolution to 1080p (1920x1080).
 * Use Camtasia to record your screen and webcam (PC and Mac). For Mac you can use Quicktime but it’s not as flexible.
@@ -73,7 +76,12 @@ See Rule: [Do you always zoom in when using a projector?](/meetings-do-you-alway
     
     **Tip:** Some offices have a professional setup.
 E.g. SSW have the                  **Marantz Turret** hardware and desktop recording kit. The Turret is an ideal device to record these videos as it has a professional podcasting microphone, built-in light and good quality High Definition video camera.
-<dl class="image"><br><br>::: ok  <br>![Figure: 'Done' video in progress using a Marantz turret broadcasting kit](turret-usage.jpg)  <br>:::<br></dl>Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](https://wistia.com/learn/production/marantz-turret-review?wvideo=whmpjct7xj)    
+
+
+::: ok  
+![Figure: 'Done' video in progress using a Marantz turret broadcasting kit](turret-usage.jpg)  
+:::
+Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](https://wistia.com/learn/production/marantz-turret-review?wvideo=whmpjct7xj)    
 
 ### Camtasia - Let's look at an example by Ben Cull
 
@@ -93,7 +101,12 @@ E.g. SSW have the                  **Marantz Turret** hardware and desktop recor
     * On the top left panel, click ‘Audio Effects’ and drag the ‘Levelling’ effect onto your clip
     * On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
     * Listen and adjust as necessary
-<dl class="image"><br><br>::: ok  <br>![Figure: audio effects panel with the compressor](audio-effects-panel.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: audio effects panel with the compressor](audio-effects-panel.png)  
+:::
+
 ### Tip: Camtasia 9 - How to fade-out and fade-in the video track of your face in Camtasia 9
 
     1. With the video track of your face selected, click on  **Animations (1)** . Track 3 in the image below.
@@ -101,22 +114,56 @@ E.g. SSW have the                  **Marantz Turret** hardware and desktop recor
     3. **Drag and drop the No Opacity effect (3)** to the point in the track where you want to fade-out. Adjust the start and end point of the fade using the handles on the animation arrow.
     4. Select the  **Full Opacity (4)** animation effect for fade-in.
     5. **Drag and drop the Full Opacity effect (5)** to the point in the track where you want to fade-in. Adjust the start  and end point of the fade using the handles on the animation arrow.
-<dl class="image"><br><br>::: ok  <br>![Figure: Camtasia - Steps for adding fade-out/fade-in animation to video track of your face in 'Done' video](fade in and out.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Camtasia - Steps for adding fade-out/fade-in animation to video track of your face in 'Done' video](fade in and out.png)  
+:::
+
 ###  Final Step – Export your video  
 
 
 Follow the steps to export your video:
 
     1. Click the Share button on the top right of the window
-<dl class="image"><br><br>::: ok  <br>![](export-video1.png)  <br>:::<br></dl>
-    2. In the new dialog, select custom production settings <br>                     <dl class="image"><br><br>::: ok  <br>![](export-video2.png)  <br>:::<br></dl>
-    3. In the next window, uncheck the ‘Produce with controller’ option <br>                     <dl class="image"><br><br>::: ok  <br>![](export-video3.png)  <br>:::<br></dl>
+
+
+::: ok  
+![](export-video1.png)  
+:::
+
+    2. In the new dialog, select custom production settings 
+                     
+
+::: ok  
+![](export-video2.png)  
+:::
+
+    3. In the next window, uncheck the ‘Produce with controller’ option 
+                     
+
+::: ok  
+![](export-video3.png)  
+:::
+
     4. In the ‘Video settings’ tab, copy these settings:
 -	Frame Rate: 30
 -	H.264 Profile: High
 -	Encoding mode: Quality
-    o	Increase the quality to 100% <br>                     <dl class="image"><br><br>::: ok  <br>![Figure: Copy these settings](export-video4.png)  <br>:::<br></dl>
-    5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps <br>                     <dl class="image"><br><br>::: ok  <br>![](export-video5.png)  <br>:::<br></dl>
+    o	Increase the quality to 100% 
+                     
+
+::: ok  
+![Figure: Copy these settings](export-video4.png)  
+:::
+
+    5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
+                     
+
+::: ok  
+![](export-video5.png)  
+:::
+
     6. Click Next and save your file!
 
 

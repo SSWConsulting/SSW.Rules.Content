@@ -107,7 +107,8 @@ All in all, we choose to still use denormalized fields because they can save dev
 Here is how we ensure that this data is validated:
 
 1. Change the description on any denormalized fields to include "Denormalized" in the description - "Denormalized: Sum(OrderTotal) FROM Orders" in description in SQL Server Management Studio.
-2. Create a view that lists all the denormalized fields in the database - based on the description field. <dl class="image"><dt><br><pre><pre>CREATE VIEW dbo.vwValidateDenormalizedFields
+2. Create a view that lists all the denormalized fields in the database - based on the description field. 
+<pre><pre>CREATE VIEW dbo.vwValidateDenormalizedFields
 AS
     SELECT OBJECT_NAME(id) AS TableName, 
         COL_NAME(id, smallid) AS ColumnName,
@@ -119,9 +120,12 @@ AS
     WHERE (name = 'MS_Description') AND 
                  (CAST([value] AS VARCHAR(8000))
                   LIKE '%Denormalized&#58;%')
-</pre><br></pre><br></dt>
-<dd>Figure&#58; Standard view for validation of a denormalized field </dd></dl>
-3. Create a stored procedure (based on the above view) that validates whether all denormalized fields have a stored procedure that validates the data within them <dl class="image"><dt><br><pre><pre>CREATE PROCEDURE procValidateDenormalizedFieldValidators
+</pre>
+</pre>
+
+<dd>Figure&#58; Standard view for validation of a denormalized field </dd>
+3. Create a stored procedure (based on the above view) that validates whether all denormalized fields have a stored procedure that validates the data within them 
+<pre><pre>CREATE PROCEDURE procValidateDenormalizedFieldValidators
 AS
     SELECT 
         ValidationProcedureName AS
@@ -137,7 +141,9 @@ AS
             OBJECT_NAME(sysobjects.id)
         WHERE id IS NOT NULL
     )
-</pre><br></pre><br></dt>
-<dd>Figure&#58; Standard stored procedure for validation of a&#160;denormalized field </dd></dl>
+</pre>
+</pre>
+
+<dd>Figure&#58; Standard stored procedure for validation of a&#160;denormalized field </dd>
 
  If you want to know how to implement denormalized fields, see our rules [Do you use triggers for denormalized fields?](http&#58;//www.ssw.com.au/ssw/standards/rules/rulestobettersqlserverdatabases.aspx#triggersdenormalized)

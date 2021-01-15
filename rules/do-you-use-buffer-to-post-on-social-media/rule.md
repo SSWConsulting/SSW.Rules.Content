@@ -29,7 +29,7 @@ You can either visit the [Buffer web app](https://buffer.com/) in your browser  
 ::: ok  
 ![Figure: to use the Buffer app from your browser, simply click the symbol](buffer\_tool.jpg)  
 :::
-<dl class="ssw15-rteElement-ImageArea"> <img src="Buffer example.jpg" alt="" style="width:700px;height:270px;"> </dl>Figure: You can select as many Social Media accounts as required and post to each platform at once using Buffer. You can also use the "Customize for each network" button to modify the content for each platform before you post it
+ ![](Buffer example.jpg) Figure: You can select as many Social Media accounts as required and post to each platform at once using Buffer. You can also use the "Customize for each network" button to modify the content for each platform before you post it
 
 The content of your posts should be consistent across accounts. When making a post that exceeds the character limit of a site such as Twitter, you should write a separate, shorter version of the post to send to that site only. You can also use the "Customize for each network" button on Buffer to modify the content to better suit the platform for each post. This means that you could write the content for a Tweet and then modify it to remove things like #Hashtags to post it to LinkedIn where they don't make sense.
 ![](Tweet example.jpg)

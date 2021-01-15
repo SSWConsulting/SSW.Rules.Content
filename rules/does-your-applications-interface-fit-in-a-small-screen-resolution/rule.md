@@ -46,7 +46,7 @@ From [Adam Cogan](http://www.adamcogan.com/2012/11/18/microsoft-is-onto-somethin
 I am amazed how good the split screen is so you can be reading email while continuing to watch that movie.
  One thing developers need to be aware of when building apps, is to consider the size for the different resolutions in particular when an application is snapped. On the Surface, the snap view divides the screen up into ¼ and ¾, but this will be different on different devices (actually the snap view is always 342 pixels) so you really need to get into responsive designing. For a good user experience, keep the left snap view for reading, not interactive stuff like filling in forms.
  The great thing for developers is the way you test. With Visual Studio 2012, the emulator simulates the Surface perfectly.
-<dl class="ssw15-rteElement-ImageArea"><img alt="SurfaceScreen.jpg" src="SurfaceScreen.jpg" style="margin:5px;"></dl>
+<img alt="SurfaceScreen.jpg" src="SurfaceScreen.jpg" style="margin:5px;">
 ::: good
 Figure: The Surface screen allows you to place two apps side by side.
 

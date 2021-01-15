@@ -17,15 +17,37 @@ You can use mail merge template, to send email to account, contact... Each mail 
 
 <!--endintro-->
 
-1. From Dynamics CRM, click <br>       **Contacts** to view the list of contacts.
+1. From Dynamics CRM, click 
+       **Contacts** to view the list of contacts.
 2. Search for the contact that you want to send email to.
 3. Highlight the contact that you want to send email to, and click the mail merge button.
-<dl class="image"><br><br>::: ok  <br>![Figure: Mail merge button](send-mail-merge-1.jpg)  <br>:::<br></dl>4. At <br>       **Select the mail merge type** , select Email.
-5. At <br>       **Start with a** , select either personal mail merge template (this is your own template), or the organization template (this is the template that is used by the whole organizaion).
-6. At <br>       **Merge** , check <br>       **Selected records on current page** check box.
-7. Click <br>       **Ok**
-<dl class="image"><br><br>::: ok  <br>![Figure: Fill in the mail merge details](send-mail-merge-2.jpg)  <br>:::<br></dl>8. A Microsoft Word document is open, and the <br>       **Mail Merge Recipients** window is pop-up with the list of contacts that you're sending email to.
-<dl class="image"><br><br>::: ok  <br>![Figure: Mail Merge Recipients](send-mail-merge-3.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Mail merge button](send-mail-merge-1.jpg)  
+:::
+4. At 
+       **Select the mail merge type** , select Email.
+5. At 
+       **Start with a** , select either personal mail merge template (this is your own template), or the organization template (this is the template that is used by the whole organizaion).
+6. At 
+       **Merge** , check 
+       **Selected records on current page** check box.
+7. Click 
+       **Ok**
+
+
+::: ok  
+![Figure: Fill in the mail merge details](send-mail-merge-2.jpg)  
+:::
+8. A Microsoft Word document is open, and the 
+       **Mail Merge Recipients** window is pop-up with the list of contacts that you're sending email to.
+
+
+::: ok  
+![Figure: Mail Merge Recipients](send-mail-merge-3.jpg)  
+:::
+
 ::: greybox
 
 # Attention
@@ -42,7 +64,22 @@ You can use mail merge template, to send email to account, contact... Each mail 
 
 Please remove the yellow highlight for the block of the text that need to be filled in by you and the green highlight for the CRM field while you're editing the email.
 
-10. At the last step of the mail merge instructions in Microsoft Word, click <br>       **Electronic Mail** and fill in the subject line for your email.
-<dl class="image"><br><br>::: ok  <br>![Figure: Fill in subject line for email](send-mail-merge-4.jpg)  <br>:::<br></dl>11. Click <br>       **Ok** to proceed to next step.
-12. Now because we're using CRM 4 Outlook, CRM mail merge will give you an option to create the activities that associated to this email. Check <br>       **Create Microsoft Dynamic CRM Activities** radio button, and uncheck the <br>       **Include an ubsubcribe link in the email message** to create the activities.
-<dl class="image"><br><br>::: ok  <br>![Figure: Create activies for emails sending out using mail merge](send-mail-merge-5.jpg)  <br>:::<br></dl>13. Click <br>       **OK** to send emails using your outlook.
+10. At the last step of the mail merge instructions in Microsoft Word, click 
+       **Electronic Mail** and fill in the subject line for your email.
+
+
+::: ok  
+![Figure: Fill in subject line for email](send-mail-merge-4.jpg)  
+:::
+11. Click 
+       **Ok** to proceed to next step.
+12. Now because we're using CRM 4 Outlook, CRM mail merge will give you an option to create the activities that associated to this email. Check 
+       **Create Microsoft Dynamic CRM Activities** radio button, and uncheck the 
+       **Include an ubsubcribe link in the email message** to create the activities.
+
+
+::: ok  
+![Figure: Create activies for emails sending out using mail merge](send-mail-merge-5.jpg)  
+:::
+13. Click 
+       **OK** to send emails using your outlook.

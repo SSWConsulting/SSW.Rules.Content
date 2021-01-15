@@ -17,7 +17,7 @@ redirects:
 ---
 
 Instead of displaying a direct " **Access Denied** " warning info, you can allow end users to send an " **Access Request** ".
-<dl class="ssw15-rteElement-ImageArea"><img alt="PermissionRequest.jpg" src="PermissionRequest.jpg" style="margin:5px;width:650px;"></dl> **Figure: Joanna is requesting access to SharePoint site** 
+<img alt="PermissionRequest.jpg" src="PermissionRequest.jpg" style="margin:5px;width:650px;"> **Figure: Joanna is requesting access to SharePoint site** 
 
 <!--endintro-->
 

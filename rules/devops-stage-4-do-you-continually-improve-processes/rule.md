@@ -30,6 +30,11 @@ Here are some examples:
     * You don't have to get the exception log down to 0, just action the important ones and aim to reduce the noise so that the log is still useful
 * For code quality, add getting Code Auditor and ReSharper to 0 on files you’ve changed to your Definition of Done
 * * See [https://rules.ssw.com.au/done-do-you-go-beyond-done-and-follow-a-definition-of-done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
-* For code quality, add SonarQube and identify your technical debt and track it<dl class="image"><br><br>::: ok  <br>![](improve-processes.png)  <br>:::<br></dl>
+* For code quality, add SonarQube and identify your technical debt and track it
+
+::: ok  
+![](improve-processes.png)  
+:::
+
 * For application/server performance, add automated load tests, add code to auto scale up on Azure
 * For application usage, concentrate on features that get used the most and improve and streamline those features

@@ -22,9 +22,12 @@ Over the course of work on a project, there will likely be many little disagreem
 
 <!--endintro-->
 
-<font color="#333333"> <strong><img src="past-decision-1500x500.jpg" alt="past-decision-1500x500.jpg" style="margin:5px;width:808px;"><br></strong> </font>
+<font color="#333333"> <strong><img src="past-decision-1500x500.jpg" alt="past-decision-1500x500.jpg" style="margin:5px;width:808px;">
+</strong> </font>
 
-<font color="#333333"> <strong>Figure: It's common for people to say "I don't remember you disagreeing with that decision", sending a "for the record" email makes it clear.</strong> <br><br></font>
+<font color="#333333"> <strong>Figure: It's common for people to say "I don't remember you disagreeing with that decision", sending a "for the record" email makes it clear.</strong> 
+
+</font>
 
 ::: greybox
  **One war story** 
@@ -39,12 +42,15 @@ SSW Chief Architect
 
 :::
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
-<font color="#333333">When you have a disagreement with someone who has decision making power, and you are unable to convince them that your recommendation is correct (and they were unable to convince you that their decision is correct), you should send an email to the people involved including your thoughts, because: <br></font>
+<font color="#333333">When you have a disagreement with someone who has decision making power, and you are unable to convince them that your recommendation is correct (and they were unable to convince you that their decision is correct), you should send an email to the people involved including your thoughts, because: 
+</font>
 
 1. Later down the track it will provide a learning experience for someone (depending on who was right 😉)
- **Tip** : Use a <br>      [follow up then](/do-you-follow-up-emails-effectively) set for e.g. 6 months in the future to remind you to revisit your email, then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
+ **Tip** : Use a 
+      [follow up then](/do-you-follow-up-emails-effectively) set for e.g. 6 months in the future to remind you to revisit your email, then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
 2. After cooling down from the meeting, people might read it later and see it as useful input
 
 
@@ -67,7 +73,8 @@ Make sure you CC your account manager and any other relevant parties so that the
 
 Make it clear that your advice is purely technical in nature and not business or legal advice.  Consider putting the words "The above is not legal advice." at the end of your email.
 
-This is also a good thing to do if you have an <br>      [ethical problem](/do-you-only-do-what-you-think-is-right) with a task.
+This is also a good thing to do if you have an 
+      [ethical problem](/do-you-only-do-what-you-think-is-right) with a task.
 
 
 

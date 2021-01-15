@@ -53,7 +53,12 @@ A layout of how the controls will look is usually all that is needed initially, 
 **Tip:** The tools to develop a wireframe depend on your skillset and the front end technology chosen. For example use:
 
 * Microsoft PowerPoint (ubiquitous)
-* [Balsamiq](http://www.balsamiq.com/)<dl class="image"><br><br>::: ok  <br>![Figure: Wireframe storyboard mockup on Balsamiq](c24602_WireframeMockup.jpg)  <br>:::<br></dl>
+* [Balsamiq](http://www.balsamiq.com/)
+
+::: ok  
+![Figure: Wireframe storyboard mockup on Balsamiq](c24602_WireframeMockup.jpg)  
+:::
+
 * [Adobe XD](http://www.adobe.com/au/products/experience-design.html) - preloaded with the most popular UI design blocks  **(recommended for web & mobile app design)**
 
 

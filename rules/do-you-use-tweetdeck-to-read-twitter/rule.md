@@ -28,7 +28,8 @@ If you are looking to get the most out of your Twitter experience, you will need
 
 Bad Example : Using the Twitter webpage is not the best way to use Twitter
 
-<br>The best way to use Twitter is to use the TweetDeck client. This allows alerts you when your are mentioned or direct messaged, and allows you to keep an eye on certain things you are interested in, like  **#hyperv** or  **#ssw** .
+
+The best way to use Twitter is to use the TweetDeck client. This allows alerts you when your are mentioned or direct messaged, and allows you to keep an eye on certain things you are interested in, like  **#hyperv** or  **#ssw** .
 
 
 

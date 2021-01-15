@@ -128,7 +128,37 @@ Documents to be read or edited by the Product Owner (or other members of the Scr
 **Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see:     [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
 
 
-<dl class="badImage"><br><br>::: bad  <br>![Figure: Bad example - Github project without any documentation or instruction](documentation__level2__bad-example-gh.png)  <br>:::<br></dl><dl class="badImage"><br><br>::: bad  <br>![Figure: Bad example - Azure DevOps project without any documentation or instruction](azuredevops-bad.png)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)](documentation__level2__good-example-1-gh.png)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good example - Azure DevOps project with README instructions on how to compile and run the project](azuredevops-good.png)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good example - Github project with Wiki instructions for product owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good example - Azure DevOps project with Wiki instructions for product owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  <br>:::<br></dl>
+
+
+::: bad  
+![Figure: Bad example - Github project without any documentation or instruction](documentation__level2__bad-example-gh.png)  
+:::
+
+
+::: bad  
+![Figure: Bad example - Azure DevOps project without any documentation or instruction](azuredevops-bad.png)  
+:::
+
+
+::: ok  
+![Figure: OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)](documentation__level2__good-example-1-gh.png)  
+:::
+
+
+::: good  
+![Figure: Good example - Azure DevOps project with README instructions on how to compile and run the project](azuredevops-good.png)  
+:::
+
+
+::: good  
+![Figure: Good example - Github project with Wiki instructions for product owners, stakeholders, or public consumption (Source: https://github.com/christoment/Northwind/wiki)](documentation__level2__good-example-2-gh.png)  
+:::
+
+
+::: good  
+![Figure: Good example - Azure DevOps project with Wiki instructions for product owners, stakeholders, or public consumption](azuredevops-wiki-good.png)  
+:::
+
 **Tip:** Use your documentation for onboarding developers
 
 

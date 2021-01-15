@@ -43,7 +43,8 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 To ensure you follow up any task like these, there are two ways to set yourself a task to follow up in the future:
 
-### #1 Delayed Email <br>   
+### #1 Delayed Email 
+   
 
 
 Write yourself an email in Outlook.     
@@ -57,7 +58,8 @@ When you receive it in your inbox, action the task.
 ![Figure: Good example - Use delayed email on Outlook](delay-emails-outlook.jpg)  
 :::
 
-### #2 Email reminders - followupthen.com <br>   
+### #2 Email reminders - followupthen.com 
+   
 
 
 There is a brilliant service called FollowUpThen which can do all the administrative work for you.
@@ -79,11 +81,29 @@ When you require a reminder to follow up on an email by a certain date:
 
 
 
-1. Click the Follow Up button <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Set a follow-up date](followup1.jpg)  <br>:::<br></dl>
-2. Select an appropriate date from the drop-down or choose Custom to add additional reminders <br>         <dl class="image"><br><br>::: ok  <br>![Figure: Add an additional reminder to follow up](followup2.jpg)  <br>:::<br></dl>
+1. Click the Follow Up button 
+      
+
+::: ok  
+![Figure: Set a follow-up date](followup1.jpg)  
+:::
+
+2. Select an appropriate date from the drop-down or choose Custom to add additional reminders 
+         
+
+::: ok  
+![Figure: Add an additional reminder to follow up](followup2.jpg)  
+:::
+
     * You can even set a custom reminder for the recipient :)
 3. Outlook shows an info tip with the exact follow-up date you chose.
-4. A To-Do item is also added to your Outlook To-Do list <br>      <dl class="image"><br><br>::: ok  <br>![Figure: An item is added to your To-Do list](followup3.jpg)  <br>:::<br></dl>
+4. A To-Do item is also added to your Outlook To-Do list 
+      
+
+::: ok  
+![Figure: An item is added to your To-Do list](followup3.jpg)  
+:::
+
     * To-Do list can be found in the Tasks pane
 5. On the due date you will receive a Reminder popup from Outlook
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook

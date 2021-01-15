@@ -32,13 +32,19 @@ E.g. invoicing ("I don't want to pay this bill") or development quality ("my app
 E.g. the account manager or project manager
 
 :::
-<dl class="image"><br><br>::: ok  <br>![Figure: Conference in another person to solve the problem - it's a lot easier than it used to be](old-phone-connection.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Conference in another person to solve the problem - it's a lot easier than it used to be](old-phone-connection.jpg)  
+:::
+
 4. Follow up the proposed solution in writing
 
 ::: greybox
 E.g. "John, as per our conversation, David K will be on-site 9 am tomorrow morning"  
 :::
-5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it<br>   
+5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
+   
 ::: greybox
 E.g. "John, I'm glad David K was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. David K just plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room"  
 :::

@@ -18,15 +18,30 @@ It can sometimes be hard to work out when to use a lead vs a contact and company
 <!--endintro-->
 
 
-| Type<br>             |               Type and Category<br>             |
+| Type
+             |               Type and Category
+             |
 | --- | --- |
-| Called up about a service needed urgently<br>             |               Contact + Opportunity (hot)<br>             |
-| Called up about a service<br>             |               Contact + Opportunity<br>             |
-| Qualified Contact (prospect down the line)<br>             |               Contact<br>             |
-| Someone goes to the website and joins the mailing list<br>             |               Contact<br>             |
-| Random business cards from TechEd 2013 |               Contact + Tag "Tech Ed 2013"<br>             |
-| Uninterested contact<br>             |               Contact<br>             |
-| Purchased mailing list<br>             |               Lead<br>             |
+| Called up about a service needed urgently
+             |               Contact + Opportunity (hot)
+             |
+| Called up about a service
+             |               Contact + Opportunity
+             |
+| Qualified Contact (prospect down the line)
+             |               Contact
+             |
+| Someone goes to the website and joins the mailing list
+             |               Contact
+             |
+| Random business cards from TechEd 2013 |               Contact + Tag "Tech Ed 2013"
+             |
+| Uninterested contact
+             |               Contact
+             |
+| Purchased mailing list
+             |               Lead
+             |
 
 **Figure: There is only one scenario where you would use a lead** 
 

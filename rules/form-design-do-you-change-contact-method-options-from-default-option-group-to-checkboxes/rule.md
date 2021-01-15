@@ -27,15 +27,27 @@ As per our rule [Do you know when to use CheckBox?](http://www.ssw.com.au/SSW/st
 4. Double-Click "Form" to edit contact form
 5. Click "Administration" tab
 6. Select a contact method field, i.e. Email
-7. Click "Change Properties"<br>            <dl class="image">              <br><br>::: ok  <br>![Figure: Select and change the email field's properties.](CRMChangeContactMethodsFieldProperties.jpg)  <br>:::<br>
+7. Click "Change Properties"
+                          
+
+::: ok  
+![Figure: Select and change the email field's properties.](CRMChangeContactMethodsFieldProperties.jpg)  
+:::
+
               
-            </dl>
-8. Click "Formatting" tab
-9. Change layout from "Two Columns" to "One Column" and select "Check box" as control<br>            formatting
-<dl class="image">            <br><br>::: ok  <br>![Figure: Change layout and control formatting of email field to one column type and
-              check box.](CRMChangeContactMethodsFieldProperties.jpg)  <br>:::<br>
             
-          </dl>10. Repeat steps 6-9 for other contact method
+8. Click "Formatting" tab
+9. Change layout from "Two Columns" to "One Column" and select "Check box" as control
+            formatting
+            
+
+::: ok  
+![Figure: Change layout and control formatting of email field to one column type and
+              check box.](CRMChangeContactMethodsFieldProperties.jpg)  
+:::
+
+            
+          10. Repeat steps 6-9 for other contact method
 11. Repeat steps 3-9 for account entity
 
 

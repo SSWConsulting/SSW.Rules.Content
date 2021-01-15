@@ -22,7 +22,7 @@ Microsoft Azure SQL Database has built-in backups to support self-service Point 
 You should use the built in automatic backup in Azure SQL Database versus using T-SQL.
 
 
-> <dt style="border:1px solid #cccccc;width:595px;font-family:arial, helvetica, sans-serif;line-height:17px;background:#f5f5f5;"><p class="ssw15-rteElement-P" style="text-align:center;padding-top:5px;border-bottom-width:5px;padding-bottom:5px;width:612px;">      <span style="font-size:12px;">T-SQL: CREATE DATABASE destination_database_nameAS COPY OF[source_server_name].source_database_name</span></p></dt>
+> <p class="ssw15-rteElement-P" style="text-align:center;padding-top:5px;border-bottom-width:5px;padding-bottom:5px;width:612px;">      <span style="font-size:12px;">T-SQL: CREATE DATABASE destination_database_nameAS COPY OF[source_server_name].source_database_name</span></p>
 
 Figure: Bad example - Using T-SQL to restore your database    ![](Azure-restore.jpg)Figure: Good example - Using the built in SQL Azure Database automatic backup system to restore your database
 

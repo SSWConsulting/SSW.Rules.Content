@@ -25,7 +25,9 @@ When using a homophone in a sentence, it is important to ensure you are using th
 
 
 
-“Versus” can be shortened to “vs.”, which is common in<br>sporting situations, or “v.”, which is the standard abbreviation for legal<br>scenarios.  
+“Versus” can be shortened to “vs.”, which is common in
+sporting situations, or “v.”, which is the standard abbreviation for legal
+scenarios.  
 
 
 
@@ -49,19 +51,23 @@ Figure: Bad example: the wrong “versus” is used
 :::
 
 ::: bad
-Figure: Bad example: Floyd did not poetry<br>Mayweather  
+Figure: Bad example: Floyd did not poetry
+Mayweather  
 :::
-<dd><br></dd>
+<dd>
+</dd>
 ::: greybox
 "Brown v. The Board of Education."
 
 :::
 
 ::: good
-Figure: Good example: in a legal context, “versus”<br>is abbreviated to “v.”
+Figure: Good example: in a legal context, “versus”
+is abbreviated to “v.”
 
 :::
-<dd><br></dd>
+<dd>
+</dd>
 ::: greybox
 "Adam penned many verses about his love for .NET development"
 

@@ -24,10 +24,27 @@ If you choose to not join the domain, the machine management is all yours, givin
 Below some pros and cons of joining the domain:
 
 
-| |  **Pros (+)** <br> |  **Cons (-)** <br> |
+| |  **Pros (+)** 
+ |  **Cons (-)** 
+ |
 | --- | --- | --- |
-| Machine Management<br> | Client management through GPOs (Group Policy Objects)<br> | Lack of autonomy<br> |
-| Resource Access<br> | Direct access to resources (e.g. fileserver)<br> | Needs to sign in first, or be attached to a VPN or the network to access resources<br> |
-| Automatic Scripts<br> | GPOs apply automatic scripts like the Login Script and Backup Scripts<br> | Need to run Login and Backup scripts manually<br> |
-| Support Level <br> | More support from your SysAdmins, you have someone to rely on for any troubleshooting on all computer applications<br> | Less support from SysAdmins, you can run any obscure application on your computer but that may not be supported by your company <br> |
-| <br> | <br> | <br> |
+| Machine Management
+ | Client management through GPOs (Group Policy Objects)
+ | Lack of autonomy
+ |
+| Resource Access
+ | Direct access to resources (e.g. fileserver)
+ | Needs to sign in first, or be attached to a VPN or the network to access resources
+ |
+| Automatic Scripts
+ | GPOs apply automatic scripts like the Login Script and Backup Scripts
+ | Need to run Login and Backup scripts manually
+ |
+| Support Level 
+ | More support from your SysAdmins, you have someone to rely on for any troubleshooting on all computer applications
+ | Less support from SysAdmins, you can run any obscure application on your computer but that may not be supported by your company 
+ |
+| 
+ | 
+ | 
+ |

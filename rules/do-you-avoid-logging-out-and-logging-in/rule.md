@@ -45,22 +45,52 @@ Make use of Chrome Profiles to separate your bookmarks, history, passwords and o
 
 1. Open your Chrome browser
 2. Click on you profile button
-<dl class="image"><br><br>::: ok  <br>![Figure 1: Click on your Chrome profile button](chrome-profile-1.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure 1: Click on your Chrome profile button](chrome-profile-1.png)  
+:::
+
 3. Select Manage People to create a new person/profile
-<dl class="image"><br><br>::: ok  <br>![Figure 2: Select Manage people to create a new person/profile](chrome-profile-2.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure 2: Select Manage people to create a new person/profile](chrome-profile-2.png)  
+:::
+
 4. Click Add Person
-<dl class="image"><br><br>::: ok  <br>![Figure 3: To add a new person/profile, click on the Add Person button](chrome-profile-3.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure 3: To add a new person/profile, click on the Add Person button](chrome-profile-3.png)  
+:::
+
 5. Fill in the person/client name and select an icon
-<dl class="image"><br><br>::: ok  <br>![Figure 4: Fill in the name of the new person/profile and select an icon](chrome-profile-4.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure 4: Fill in the name of the new person/profile and select an icon](chrome-profile-4.png)  
+:::
+
 
 
 ### Switching profiles
 
 1. Open your Chrome browser
 2. Click on you profile button
-<dl class="image"><br><br>::: ok  <br>![Figure 5: Click on your profile button to switch profiles](chrome-profile-5.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure 5: Click on your profile button to switch profiles](chrome-profile-5.png)  
+:::
+
 3. Select the person/profile you want to switch to
-<dl class="image"><br><br>::: ok  <br>![Figure 6: Select the person/profile you want to switch to](chrome-profile-6.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure 6: Select the person/profile you want to switch to](chrome-profile-6.png)  
+:::
+
 
 
 ### How to add or remove a person profile?

@@ -89,7 +89,9 @@ Sent: Monday, 27 May 2002 8:00 AM
 To: Daniel Hyles www.ssw.com.au 
 Subject: Daniel Hyles - Morning Goals
 
-- TimePro Online pages<font style="color&#58;#000000;"><br></font>- Double check backups (get backup today on both drives, I configured the other drive last night)<font style="color&#58;#000000;"><br></font>- Make sure Exchange is backing itself up... Check Google on why not.
+- TimePro Online pages<font style="color&#58;#000000;">
+</font>- Double check backups (get backup today on both drives, I configured the other drive last night)<font style="color&#58;#000000;">
+</font>- Make sure Exchange is backing itself up... Check Google on why not.
 - Access reporter
 
 ::: good

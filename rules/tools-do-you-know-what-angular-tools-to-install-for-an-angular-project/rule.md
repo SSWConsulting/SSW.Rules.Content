@@ -125,7 +125,12 @@ npm install -g @angular/cli@latest
 Upgrading the global Angular CLI version will not affect the version of the Angular CLI being used by existing local project.  Multiple versions of the Angular CLI can run on the same machine, and the project specific version of Angular CLI will continue to be used by the project until you manually upgrade the project’s local version.
 
 Instructions for upgrading the Angular CLI of an existing project can be found here: [https://update.angular.io](https://update.angular.io/)
-<dl class="image"><br><br>::: ok  <br>![Figure: Running “ng v” (or any other ng command) in the command-line of an older Angular CLI project will give you a warning that the global version is greater than the local version (see yellow text in the screenshot)](angular-cli-8.3.2x.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Running “ng v” (or any other ng command) in the command-line of an older Angular CLI project will give you a warning that the global version is greater than the local version (see yellow text in the screenshot)](angular-cli-8.3.2x.png)  
+:::
+
 ### Getting errors?
 
 

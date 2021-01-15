@@ -18,7 +18,8 @@ Gated Checkins are great for verifying your project builds successfully before a
 
 The process for a project with a Gated Checkin build is:
 
-1. The developer clicks <br>       **Check In**
+1. The developer clicks 
+       **Check In**
 2. Changes are not checked in, but are shelved and a build is queued
 3. The developer is notified when a build succeeds and prompted to “Reconcile” their workspace
 

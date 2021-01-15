@@ -19,11 +19,13 @@ Developers love doing things in their own time, investigating interesting things
 <!--endintro-->
 
 1. Enforce Deadlines - Every week (usually Tuesday) the developer has a sprint review meeting with the client to discuss the status of project. 
-<br>    Note: If you can't have a meeting, a phone call must make do.
+
+    Note: If you can't have a meeting, a phone call must make do.
 2. Have a Sprint Plan
 3. A Sprint Review and Retro when the release is done.
 4. A mark /10 - from the client.  
-<br>
+
+
 
 
 In respect of the review and retro, when thing have gone off the rails, it is easy to speak your mind and say what you believe went wrong. However often when things are going right, the tendency is to skip the debrief thing, with a comment 'all is good'.

@@ -118,10 +118,11 @@ WHERE Id IN ( SELECT Id FROM  vwProductsByCategory WHERE CategoryName = @Categor
 
 
 So your business has an employees table as shown below that has detailed information about their name, birthdate, home phone, address and photo. This information is suitable for the payroll department but what you want to display employees names and photos on the website for public viewing. Or what If you want contact information such as extension number and country to be available on the company intranet?
-<dl class="ssw15-rteElement-ImageArea"><img src="ViewsSqlEmployeesTable.png" alt="ViewsSqlEmployeesTable.png" style="margin:5px;width:491px;height:481px;"><br></dl> **Figure: Northwind traders employees table** 
+<img src="ViewsSqlEmployeesTable.png" alt="ViewsSqlEmployeesTable.png" style="margin:5px;width:491px;height:481px;">
+ **Figure: Northwind traders employees table** 
 You could create separate tables for each department, only supplying the required fields for each. 
 This would also need an additional system to sync between the tables to ensure the information was kept up to date.
-<dl class="ssw15-rteElement-ImageArea"><img src="ViewsSqlTables.png" alt="ViewsSqlTables.png" style="margin:5px;"></dl>
+<img src="ViewsSqlTables.png" alt="ViewsSqlTables.png" style="margin:5px;">
 ::: bad
 Figure: Bad Example – Using tables and duplicating data  
 :::

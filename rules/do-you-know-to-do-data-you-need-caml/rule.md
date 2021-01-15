@@ -39,22 +39,22 @@ In SharePoint development, you will also need to know CAML, in particular, how t
 
 
 ```
-<Query>
-    <OrderBy>
-        <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
-    </OrderBy>
-    <Where>
-        <And>
-            <Neq>
-                <FieldRef Name="Status"></FieldRef>
-                <Value Type="Text">Completed</Value>
-            </Neq>
-            <IsNull>
-                <FieldRef Name="Sent"></FieldRef>
-            </IsNull>
-        </And>
-    </Where>
-</Query>
+<query>
+    <orderby>
+        <fieldref name="Modified" ascending="FALSE"></fieldref>
+    </orderby>
+    <where>
+        <and>
+            <neq>
+                <fieldref name="Status"></fieldref>
+                <value type="Text">Completed</value>
+            </neq>
+            <isnull>
+                <fieldref name="Sent"></fieldref>
+            </isnull>
+        </and>
+    </where>
+</query>
 ```
 
           Figure: Example of CAML query   
@@ -62,7 +62,7 @@ You can see - CAML is essentially the same as SQL WHERE syntax, but wrapped in a
 
 Problems with CAML:
 
-1. CAML is XML and is case sensitive – including attributes names. <dl class="badCode">        <dt>
+1. CAML is XML and is case sensitive – including attributes names.         
         <pre>&lt;Query&gt;
     &lt;Where&gt;
         &lt;Or&gt;
@@ -76,13 +76,24 @@ Problems with CAML:
         &lt;/Or&gt;
     &lt;/Where&gt;
 &lt;/Query&gt;</pre>
-        </dt>
+        
         <dd>     Figure: Example of CAML query </dd>
-    </dl>
-2. SharePoint is not good at telling you if you made a mistake with your CAML query. <dl class="badImage">        <br><br>::: bad  <br>![Figure: Debug error message](CAMLError.png)  <br>:::<br>
+    
+2. SharePoint is not good at telling you if you made a mistake with your CAML query.         
+
+::: bad  
+![Figure: Debug error message](CAMLError.png)  
+:::
+
         
-    </dl>
+    
 3. Hard to debug.
-<font color="#ff0000">Tips:</font> Use 3rd Party tools - U2U CAML Query Builder<br>    <dl class="goodImage">        <br><br>::: good  <br>![Figure: U2U CAML Query Builder](U2U.png)  <br>:::<br>
+<font color="#ff0000">Tips:</font> Use 3rd Party tools - U2U CAML Query Builder
+            
+
+::: good  
+![Figure: U2U CAML Query Builder](U2U.png)  
+:::
+
         
-    </dl><font color="#ff0000">Note:</font> U2U CAML Builder is the best tool that we have. There are some occasional UI and interface issues, but for creating CAML and testing it against live SharePoint lists it gets the job done. And it’s FREE!
+    <font color="#ff0000">Note:</font> U2U CAML Builder is the best tool that we have. There are some occasional UI and interface issues, but for creating CAML and testing it against live SharePoint lists it gets the job done. And it’s FREE!

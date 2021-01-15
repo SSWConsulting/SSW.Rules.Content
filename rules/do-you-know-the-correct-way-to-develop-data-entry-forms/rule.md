@@ -23,10 +23,25 @@ Data Entrees should be able to use your data entry form with ease. It should fol
 1. ### Multiple Form Instances
     Imagine, while the Sally is entering a Quote on the Quote Form, they receive a Phone call from a client needing a new Quote. The user will not want to close the current Quote, because they are 1/2 way through it.
     As we saw in the example above, Sally needs to open multiple instances of the same form. A reputable example for this is Microsoft's Outlook. When you are 1/2 way through an email, and you chose to start writing another, Outlook makes it convenient by placing every email you open in the taskbar. The figure below illustrates this.
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Outlook opens multiple instances of the data entry form (email message)](../../assets/Outlookemails.jpg)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Each form instance is shown in the taskbar, and easily opened again](../../assets/outlooktaskbar.jpg)  <br>:::<br></dl>    A method of implementing this is through New and Delete buttons on the form.
+
+
+::: good  
+![Figure: Good Example - Outlook opens multiple instances of the data entry form (email message)](../../assets/Outlookemails.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - Each form instance is shown in the taskbar, and easily opened again](../../assets/outlooktaskbar.jpg)  
+:::
+    A method of implementing this is through New and Delete buttons on the form.
     New and Delete buttons should appear, in a toolbar for example, docked to the top.
  The figure in           [Data Entry Drill Downs](http://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Forms.aspx#DrillAround) below illustrates this.
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - New and Delete buttons docked in the Toolbar providing easy data entry for new Timesheets](../../assets/GoodAddDeleteSubForm.jpg)  <br>:::<br></dl>    The Delete button resides there to make sure that Sally has seen the record before she deletes it. The New button should instantiate a new data entry form in add mode (as compared to "edit"), leaving the current one in the background.
+
+
+::: good  
+![Figure: Good Example - New and Delete buttons docked in the Toolbar providing easy data entry for new Timesheets](../../assets/GoodAddDeleteSubForm.jpg)  
+:::
+    The Delete button resides there to make sure that Sally has seen the record before she deletes it. The New button should instantiate a new data entry form in add mode (as compared to "edit"), leaving the current one in the background.
     It can be argued that navigation is required in a data entry form. As an option, a good navigation system will navigate through a subset of records (ideally records which are search results). The idea of navigating through all records can be tedious, and most of the time useless.
 
 ### However there is a problem
@@ -43,12 +58,32 @@ Data Entrees should be able to use your data entry form with ease. It should fol
  If No, then close the form without saving.
  If Cancel, then return back to the dirty form.
 
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Save Changes Dialog must appear when form is dirty](../../assets/SaveChangesDialog.jpg)  <br>:::<br></dl>
+
+
+::: good  
+![Figure: Good Example - Save Changes Dialog must appear when form is dirty](../../assets/SaveChangesDialog.jpg)  
+:::
+
 3. Do not add buttons for searching on the data entry form, create a new form for search, through which you can open new instances of the form. The convenience of the search capability on the form will be overlooked as it makes the form more crowded. Another issue which can arise is if Sally searches for a criteria which returns multiple records, she cannot look at all those records. She can only open one at a time, navigating through them. The solution to the search dilemma is to create a new search form, which is shown in the figure below. The search form will allow multiple criteria, will not over crowd the data entry form, and will show you all the results that your search has retrieved.
-<dl class="badImage"><br><br>::: bad  <br>![Figure: Bad Example - This implementation of a search utility is on the same form](../../assets/BadSearch.gif)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - This implementation of Search feature is on a separate form](../../assets/SearchForm.gif)  <br>:::<br></dl>
+
+
+::: bad  
+![Figure: Bad Example - This implementation of a search utility is on the same form](../../assets/BadSearch.gif)  
+:::
+
+
+::: good  
+![Figure: Good Example - This implementation of Search feature is on a separate form](../../assets/SearchForm.gif)  
+:::
+
 4. ### No Delete Button for sub forms
     When including a sub form in your main form (as shown in figure below), the only options the user should have are "New" and "Edit". When "Edit" is clicked, another data entry form is opened to edit selected record. In this data entry form, you will have a "Delete" button on the toolbar. This saves the user from making mistakes and forcing them to see the record before deleting.
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - No Delete button for Sub forms](../../assets/SubFormsExample.gif)  <br>:::<br></dl>
+
+
+::: good  
+![Figure: Good Example - No Delete button for Sub forms](../../assets/SubFormsExample.gif)  
+:::
+
 5. ### Validation
     Most fields required validation. There are three types of validations:
 
@@ -67,15 +102,30 @@ Data Entrees should be able to use your data entry form with ease. It should fol
     * Parse/Format
     * Validated
 
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Error Provider Icon next to a required field](../../assets/ErrorProviderIconExample.jpg)  <br>:::<br></dl>    **Do not** show a message box after every error in validation. You may show a message box as an error summary when an OK or Apply is clicked. Make sure you warn the user that there is an error on the form when they attempt to save.
+
+
+::: good  
+![Figure: Good Example - Error Provider Icon next to a required field](../../assets/ErrorProviderIconExample.jpg)  
+:::
+    **Do not** show a message box after every error in validation. You may show a message box as an error summary when an OK or Apply is clicked. Make sure you warn the user that there is an error on the form when they attempt to save.
 6. ### Relevant Menus
     Make sure that the menu items are relevant to the current form. The main idea is that we don't want to show the user any dummy menu items. However, this may become complex when a base form (containing the menu) is inherited. Access to menus in the base form must be granted (maybe through properties), so that each menu can be customized according to each child form.
-<dl class="badImage"><br><br>::: bad  <br>![Figure: Bad Example - Action and Tools are irrelevant on this form](../../assets/MenuBadExample.jpg)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Menus are relevant](../../assets/MenuGoodExample.jpg)  <br>:::<br></dl>    In the above example, there are a couple of unused menus that have been inherited from the base form and not set to invisible.
+
+
+::: bad  
+![Figure: Bad Example - Action and Tools are irrelevant on this form](../../assets/MenuBadExample.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - Menus are relevant](../../assets/MenuGoodExample.jpg)  
+:::
+    In the above example, there are a couple of unused menus that have been inherited from the base form and not set to invisible.
 7. ### Field Formatting
     Ensure that the data is displayed in correct format. For example, when presenting a percentage data in a field, make sure it is displayed as '% xx.xx'.
  To accompany formatting, you must also create a parse function for putting the correct value back in the database.
     **Note:** This can be difficult for data bound fields, and in that case you will have to handle the parse and format event of the Field's Binding object. An example of handling these events is shown below.
-<dl class="Code"><dt><pre>            Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
+<pre>            Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
             AddHandler controlBinding.Format, AddressOf DecimalToCurrencyString
             AddHandler controlBinding.Parse, AddressOf CurrencyStringToDecimal
             controlToBeBound.DataBindings.Add(controlBinding)
@@ -97,17 +147,32 @@ Data Entrees should be able to use your data entry form with ease. It should fol
             ' Converts the string back to decimal using the static ToDecimal method.
             cevent.Value = Decimal.Parse(cevent.Value.ToString, NumberStyles.Currency, nothing)
             End Sub
-            </pre></dt><dd>Code: Code for Handling Parse and Format Events for Data bound Controls</dd></dl>    The Binding is created and added to the Data-Bindings of the Control all in one line in Visual Designer in VS.Net. Do not use Visual Designer to data-bind if you will be handling the Parse and Format events. You will have to create the handlers yourself.
+            </pre><dd>Code: Code for Handling Parse and Format Events for Data bound Controls</dd>    The Binding is created and added to the Data-Bindings of the Control all in one line in Visual Designer in VS.Net. Do not use Visual Designer to data-bind if you will be handling the Parse and Format events. You will have to create the handlers yourself.
 8. ### Created/Last Updated By Fields
     With all database entries, there are always some fields that are used over and over again. For example, these fields may be created date, created by, last updated date, updated by, etc.
     A common UI to use for these fields can be seen in the example below. What we do is create a user control that is identical across all projects/UI.
-<dl class="badImage"><br><br>::: bad  <br>![Figure: Bad Example - This form has no information to indicate who created this entry and who last modified it](../../assets/BadCreatedUpdated.jpg)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - This form contains Created by/Updated by fields used in a standard control which is put into all forms](../../assets/GoodCreatedUpdated.jpg)  <br>:::<br></dl>    An example of how to set the values for this user control is shown below.
-<dl class="code"><dt><pre>            updatedBy.CreatedDate = .DateCreated
+
+
+::: bad  
+![Figure: Bad Example - This form has no information to indicate who created this entry and who last modified it](../../assets/BadCreatedUpdated.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - This form contains Created by/Updated by fields used in a standard control which is put into all forms](../../assets/GoodCreatedUpdated.jpg)  
+:::
+    An example of how to set the values for this user control is shown below.
+<pre>            updatedBy.CreatedDate = .DateCreated
             updatedBy.CreatedBy = .EmpCreated
             updatedBy.UpdatedDate = .DateUpdated
             updatedBy.UpdatedBy = .EmpUpdated
-            </pre></dt><dd>Code: Code for Setting values for User Control</dd></dl>    Databinding is also available to be used with this user control.
-<dl class="image"><br><br>::: ok  <br>![Figure: Data Binding using the Designer](../../assets/CommonFieldsDB.gif)  <br>:::<br></dl>
+            </pre><dd>Code: Code for Setting values for User Control</dd>    Databinding is also available to be used with this user control.
+
+
+::: ok  
+![Figure: Data Binding using the Designer](../../assets/CommonFieldsDB.gif)  
+:::
+
 9. ### Minimum Defaults
     In many situations, there is a need for field Defaults. These Defaults can be extracted from the Database for example. When a new form is opened ensure that only necessary Defaults are loaded. By Default some decimal fields will become 0.0, but make sure they are set to blank because they may be required fields.
 10. ### Resizing

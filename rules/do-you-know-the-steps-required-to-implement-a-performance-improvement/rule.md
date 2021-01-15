@@ -39,7 +39,8 @@ For  **bonus points** when you're ready to deploy to production:
 4. Provide the performance improvement results to your product owner and bask in the shower of compliments coming your way for a job well done!
 
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 Working against a baseline and having a defined target will ensure that you are not prematurely or over optimizing your process.
 

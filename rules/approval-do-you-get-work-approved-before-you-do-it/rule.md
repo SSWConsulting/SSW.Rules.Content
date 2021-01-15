@@ -48,10 +48,13 @@ Always get permission for:
 Having said that, you need to manage two potential problems with seeking permission on work before acting:
 
 * Increased dead time while waiting for approval
-* Discouraging initiative to <br>      [fix problems quickly](/do-you-fix-problems-quickly)
+* Discouraging initiative to 
+      [fix problems quickly](/do-you-fix-problems-quickly)
 
 
 This rule is not generally applicable if:
 
-* You are working on an <br>      [ad hoc](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work) basis on a client managed project
-* The task is an obvious task which you would <br>      [reasonably assume the client would approve](/approval-do-you-assume-necessary-tasks-will-get-approval) and is not likely to take more than half an hour.
+* You are working on an 
+      [ad hoc](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work) basis on a client managed project
+* The task is an obvious task which you would 
+      [reasonably assume the client would approve](/approval-do-you-assume-necessary-tasks-will-get-approval) and is not likely to take more than half an hour.

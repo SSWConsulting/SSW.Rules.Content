@@ -87,4 +87,5 @@ It is recommended by default to have two AD groups per product. The following ta
 | Name | Type | Purpose |
 | --- | --- | --- |
 | SSW&lt;ProductName&gt; | Distribution group | This email is used to send emails to the development team for a product. |
-| SSW &lt;ProductName&gt;Events | Mailbox | Acts as the collection point for all automatic notifications. For example notifications from Elmah and/or application insights. <br> |
+| SSW &lt;ProductName&gt;Events | Mailbox | Acts as the collection point for all automatic notifications. For example notifications from Elmah and/or application insights. 
+ |

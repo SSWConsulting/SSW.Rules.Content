@@ -51,7 +51,7 @@ Why you should consider using it:
 
 
 There are 4 types of Official  WeChat Accounts; “Subscription Accounts”, “Service Accounts", “Enterprise Accounts" and the “Mini Program”. Each of them has unique functions and uses, which are outlined in more detail in our Rule: [https://rules.ssw.com.au/how-to-create-wechat-official-account](/how-to-create-wechat-official-account-2).
-<dl class="ssw15-rteElement-ImageArea"><dl class="ssw15-rteElement-ImageArea"><img src="WeChat-Mini-Program.png" alt="WeChat-MiniProgram.png" style="margin:5px;width:700px;height:744px;"> <strong>Figure: SSW's SugarLearning WeChat Mini Program Log-in page & Mini Program</strong> </dl></dl>
+<img src="WeChat-Mini-Program.png" alt="WeChat-MiniProgram.png" style="margin:5px;width:700px;height:744px;"> <strong>Figure: SSW's SugarLearning WeChat Mini Program Log-in page & Mini Program</strong> 
 ### 2. Weibo (The Facebook of China)
 
 
@@ -119,7 +119,8 @@ What started as a China's largest Anime streaming platform, it has grown to be o
 
 Bilibili also recently launched a premium membership enabling access to special shows, e-commerce deals, and HQ video streaming. If you want to increase your long-term success in China, it is important to penetrate Gen-Z consumers who have an expanding purchasing power. Bilibili, uses mini programs (multi-page application containing a complete application feature), livestreaming, and e-commerce to benefit brands looking to market to younger consumers.
 ![](bilibili_user-growth.png) **Figure: Bilibili is continuously growing it's audience becoming a great place to host videos and advertise.
-** <dl class="ssw15-rteElement-ImageArea"><br></dl>According to Bilibili's annual report to investors, their top 5 most watched video categories are:
+** 
+According to Bilibili's annual report to investors, their top 5 most watched video categories are:
 
 1. Entertainment
 2. Lifestyle
@@ -128,9 +129,12 @@ Bilibili also recently launched a premium membership enabling access to special 
 5. Technology
 
 
-<font color="#333333"> <br>Technology videos are now in the top 5 most watched category on Bilbili, and SSW China have discovered that Bilibili is a great platform to live stream and record our Fire User Group, with over 300 viewers joining us online to share our technology talks.<br></font>
+<font color="#333333"> 
+Technology videos are now in the top 5 most watched category on Bilbili, and SSW China have discovered that Bilibili is a great platform to live stream and record our Fire User Group, with over 300 viewers joining us online to share our technology talks.
+</font>
 
-<font color="#333333"><br></font>
+<font color="#333333">
+</font>
 
 
 <font color="#333333">Why you should use it:</font>
@@ -140,4 +144,4 @@ Bilibili also recently launched a premium membership enabling access to special 
 * Continuous viewer growth
 * Video streaming & mini programs for e-commerce
 
-<dl class="ssw15-rteElement-ImageArea"><img src="FireUg-Bilbili.png" alt="FireUg-Bilbili.png" style="margin:5px;width:700px;height:371px;"> <strong>Figure: A recent recording from FireUG, “Intermediaries design patterns and MediatR” by Victor Yu, SSW China: https://www.bilibili.com/video/BV1tK411P7He?p=2</strong> <span style="color:#333333;"></span><span style="color:#333333;"></span></dl>
+![](FireUg-Bilbili.png) **Figure: A recent recording from FireUG, “Intermediaries design patterns and MediatR” by Victor Yu, SSW China: https://www.bilibili.com/video/BV1tK411P7He?p=2**

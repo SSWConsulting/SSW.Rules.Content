@@ -22,13 +22,20 @@ Don't let your client find bugs in production that they would have found if you 
 <!--endintro-->
 
 1. Perform automated testing with tools:
-<br>    - SSW Link Auditor (for Web Apps) 
-<br>    - SSW Code Auditor (for all Apps)
-<br>    - SSW SQL Auditor (for all Apps with databases)
-<br>    - SSW SQL Deploy's Reconcile (for all Apps with databases) 
-<br>    - Visual Studio Team System Code Analysis (optional)
+
+    - SSW Link Auditor (for Web Apps) 
+
+    - SSW Code Auditor (for all Apps)
+
+    - SSW SQL Auditor (for all Apps with databases)
+
+    - SSW SQL Deploy's Reconcile (for all Apps with databases) 
+
+    - Visual Studio Team System Code Analysis (optional)
 2. Perform automated testing via Unit Tests 
-<br>    - nUnit (for Windows Apps), or
-<br>    - Visual Studio Team System Unit Tests (for Web Apps)
+
+    - nUnit (for Windows Apps), or
+
+    - Visual Studio Team System Unit Tests (for Web Apps)
 3. Perform an internal "Test Please" (aka "Alpha Testing" e.g. only testing that pages or forms load, not checking the business rules)
 4. Then send a "Test Please" to the client (aka "Acceptance Testing" to check the business rules)

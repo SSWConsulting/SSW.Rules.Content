@@ -67,7 +67,12 @@ Always use the SSW ListView.
 Exception: Use the DataGrid when:
 
 * When not read only - i.e. users will be editing data directly from the cells.
-* You need more than 1 column with checkboxes, or the column with checkboxes can't be the first column. E.g.: <dl class="image"><br><br>::: ok  <br>![Figure: One place when you choose a DataGrid over a ListView is when you have 2 checkbox fields](../../assets/DataGrid2CheckBoxes.gif)  <br>:::<br></dl>
+* You need more than 1 column with checkboxes, or the column with checkboxes can't be the first column. E.g.: 
+
+::: ok  
+![Figure: One place when you choose a DataGrid over a ListView is when you have 2 checkbox fields](../../assets/DataGrid2CheckBoxes.gif)  
+:::
+
 
 
 So in summary, if you don't want users to edit the data directly from the cell, and only the first column need checkboxes, then the ListView is always the better choice.

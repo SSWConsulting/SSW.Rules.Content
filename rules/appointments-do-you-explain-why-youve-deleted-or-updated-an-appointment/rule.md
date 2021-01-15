@@ -56,7 +56,12 @@ Figure: Good example – changing the subject
 
 
 This will help to solidify the changes and alleviate confusion.
-<dl class="image"><br><br>::: ok  <br>![Figure: Explaining the change that has been made using the prefix "UPDATE:". Using brackets is also an option](AppointmentWithComments.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Explaining the change that has been made using the prefix "UPDATE:". Using brackets is also an option](AppointmentWithComments.jpg)  
+:::
+
 ### Related Rule
 
 

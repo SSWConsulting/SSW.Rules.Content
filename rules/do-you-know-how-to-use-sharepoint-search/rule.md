@@ -70,7 +70,8 @@ Note: OR and AND must be capitalized, however, the case is irrelevant for actual
 
 :::
 
-### Use an <br>   [asterisk (\*)](http://en.wikipedia.org/wiki/Asterisk) wildcard for partial matches
+### Use an 
+   [asterisk (\*)](http://en.wikipedia.org/wiki/Asterisk) wildcard for partial matches
 
 This can be useful if you know that certain words are used together, e.g. Fire\* will return results for FireBootCamp.
 

@@ -20,8 +20,10 @@ Alternatively add a folder named zz and move the outdated files into the new fol
 
 Note: Other systems are used that are less aggressive than our 'zz' rule.
 
-* In .NET, the keyword <br>      [obsolete](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx)  is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning.
-* In HTML, the keyword <br>      [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm)  is used.
+* In .NET, the keyword 
+      [obsolete](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx)  is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning.
+* In HTML, the keyword 
+      [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm)  is used.
 
 
 Both allow for some backward compatibility.

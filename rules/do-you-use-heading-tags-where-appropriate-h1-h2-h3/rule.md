@@ -38,7 +38,8 @@ The following benefits of using heading tags:
 ```
 <p><span class="Heading">Introduction</span> 
       
-<br>Lets chatter about...</p>
+
+Lets chatter about...</p>
 ```
 
 

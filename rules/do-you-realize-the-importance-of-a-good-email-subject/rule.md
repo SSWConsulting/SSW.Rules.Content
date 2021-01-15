@@ -33,17 +33,35 @@ If there's anything to be learned from spammers, they know how to get your atten
 Never leave the subject blank! It's like writing a book and failing to give it a name!
 
 
-| <br>::: bad<br>Bad Subject Examples<br><br>:::<br> | <br>::: good<br>Good Subject Examples<br><br>:::<br> |
+| 
+::: bad
+Bad Subject Examples
+
+:::
+ | 
+::: good
+Good Subject Examples
+
+:::
+ |
 | --- | --- |
-| Database | Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM<br> |
+| Database | Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM
+ |
 | Dinner | Dinner Tonight, 6.30PM at The Oaks |
 | ?? | BUG - SSW SQL Auditor - Button not working |
 | User Group | SSW User Group - This month needs a speaker - Call Tom Howe pronto! |
 | Feedback | SSW SQL Deploy - User interface feedback |
 | Broken Form | Northwind - CPF - Fix combo box on Broken Form |
-| Test Please<br><br>(see [test please rule](/request-a-test-please))<br> | Test Please - Product Name v1.11 |
-| RE: Test Please - Product Name v1.11<br><br>(don't just reply) | TODO -  Product Name v1.11 - "Save" button not working<br> |
-| Website problem | BUG - www.yourdomain.com | Fix broken link <br> |
+| Test Please
+
+(see [test please rule](/request-a-test-please))
+ | Test Please - Product Name v1.11 |
+| RE: Test Please - Product Name v1.11
+
+(don't just reply) | TODO -  Product Name v1.11 - "Save" button not working
+ |
+| Website problem | BUG - www.yourdomain.com | Fix broken link 
+ |
 
 
 **Figure: Always use a descriptive email subject to make it easier to find later**

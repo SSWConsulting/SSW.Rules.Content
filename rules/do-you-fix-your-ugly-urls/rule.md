@@ -56,4 +56,8 @@ RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new Pa
 
     **Figure: OK example - create a static route if you only have a few rewrites**
 2. Use the URL Rewriting Module for IIS7 
-<dl class="image"><br><br>::: good  <br>![Figure: Good example - An IIS7 Rewrite is much easier to manage](IIS7Rewrite.jpg)  <br>:::<br></dl>
+
+
+::: good  
+![Figure: Good example - An IIS7 Rewrite is much easier to manage](IIS7Rewrite.jpg)  
+:::

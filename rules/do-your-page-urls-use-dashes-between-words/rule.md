@@ -21,12 +21,18 @@ There are a few options for how you format the text of a URL. The following sugg
 
 <!--endintro-->
 
-1. Dashes between words: <br>       **rules-to-better-website-layouts.aspx
-** [RECOMMENDED] This option appears to be most common and <br>      [Craig Bailey](http://www.craigbailey.net/)'s ￼ preferred way
-2. Capitalize each word (Title Case): <br>       **RulesToBetterWebsiteLayouts.aspx**
-3. Upper case for appropriate words: <br>       **RulestoBetterWebsiteLayouts.aspx**
-4. Underscores between words: <br>       **rules\_to\_better\_website\_layouts.aspx**
-5. Lower case for all words: <br>       **rulestobetterwebsitelayouts.aspx**
+1. Dashes between words: 
+       **rules-to-better-website-layouts.aspx
+** [RECOMMENDED] This option appears to be most common and 
+      [Craig Bailey](http://www.craigbailey.net/)'s ￼ preferred way
+2. Capitalize each word (Title Case): 
+       **RulesToBetterWebsiteLayouts.aspx**
+3. Upper case for appropriate words: 
+       **RulestoBetterWebsiteLayouts.aspx**
+4. Underscores between words: 
+       **rules\_to\_better\_website\_layouts.aspx**
+5. Lower case for all words: 
+       **rulestobetterwebsitelayouts.aspx**
 
 
 ### More info

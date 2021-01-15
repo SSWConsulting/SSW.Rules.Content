@@ -55,13 +55,23 @@ Fill the "CAML Query":
 &lt;Where&gt;&lt;IsNotNull&gt;&lt;FieldRef Name="CheckoutUser" LookupId="TRUE"/&gt;&lt;/IsNotNull&gt;&lt;/Where&gt;
 
 Fill the other fields like below:
-<dl class="image"><br><br>::: ok  <br>![Figure: Fill in form](NewReportForm.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Fill in form](NewReportForm.png)  
+:::
+
 2. Run Checked Out report
 
  
 
 Run the checkout report from "Site Settings | Manage Content and Structure | View: Checked out documents":
-<dl class="image"><br><br>::: ok  <br>![Figure: Checked Out Documents report link Make sure there are no files checked out, otherwise, go step 3](CheckedOutDocuments.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Checked Out Documents report link Make sure there are no files checked out, otherwise, go step 3](CheckedOutDocuments.png)  
+:::
+
 3. Go chase after the users.
 
 **Solution B. Custom application report (Includes some coding work)
@@ -71,16 +81,19 @@ Run the checkout report from "Site Settings | Manage Content and Structure | Vie
 **TODO:** Move this tool to GitHub, find a better name than "SSW.SharePoint.CheckedOutFilesReport".  Also change from a farm solution to a solution that can be used on Office365 - now in SharePoint 2016 and SharePoint online called "Sharepoint Add-ins" 
 
 <font color="#cc0000"> 
-         <br></font>To make reminding users easier, this SharePoint Add-in has a custom page to show the "Checked out files". One button will send the notification email to all the naughty people. 
+         
+</font>To make reminding users easier, this SharePoint Add-in has a custom page to show the "Checked out files". One button will send the notification email to all the naughty people. 
 
 
 
 Even better, we have also improved the application with a scheduled task using SharePoint CSOM API to find checked out files and send these notification emails automatically every night.
 
 
-<dl><dt>
+
          <img class="ssw-rteStyle-ImageArea" alt="CheckedOutFilesApplicationReport.png" src="CheckedOutFilesApplicationReport.png">
-      </dt><dd>Figure: One button reminds all users of their "Checked out Files"<br><br></dd></dl>
+      <dd>Figure: One button reminds all users of their "Checked out Files"
+
+</dd>
 ::: greybox
 
 **Hi Sophie,** 
@@ -103,8 +116,10 @@ You have some pages checked out in SharePoint.
 
 
 
-> • <br>            <font color="#3a66cc"><a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx">http://&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx</a>  (parent folder)</font>
-> • <br>            <font color="#3a66cc"><a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx">http://&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx</a>  (parent folder)</font>
+> • 
+            <font color="#3a66cc"><a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx">http://&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/Default.aspx</a>  (parent folder)</font>
+> • 
+            <font color="#3a66cc"><a href="/Pages/DoYouConfirmThereIsNoCheckedOutData.aspx">http://&lt;siteurl&gt;/DesignandPresentation/RulesToBetterVideoRecording/Pages/testing-rule.aspx</a>  (parent folder)</font>
 
 
 

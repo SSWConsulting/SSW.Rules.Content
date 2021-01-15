@@ -23,10 +23,13 @@ So when do you change it?
 
 * When the original email theme has been superceded by new content, you should change the email subject to a more relevant description of the content of the thread.
  E.g. from **"Field of Study"** 
- to <br>       **"Next Years Conference WAS: Field of Study"**
+ to 
+       **"Next Years Conference WAS: Field of Study"**
 * Also if the original subject was generic e.g. "Reminder" or "Invoice" (especially when automatically generated) then upon reply change the subject by adding the client or project name to the email subject.
- E.g. from <br>       **"Invoice"** 
- to <br>       **"IBM WAS: Invoice"**
+ E.g. from 
+       **"Invoice"** 
+ to 
+       **"IBM WAS: Invoice"**
 
 
 Remember, never forget the     [importance of a good email subject](/Pages/ImportanceOfAGoodSubject.aspx "Realize the Importance of a Good Email Subject") in improving communications.

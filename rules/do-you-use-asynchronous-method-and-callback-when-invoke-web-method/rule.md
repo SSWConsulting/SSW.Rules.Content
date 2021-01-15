@@ -48,8 +48,10 @@ IAsyncResult r = request.BeginGetResponse(new AsyncCallback(ResCallBack), reques
         try
         {
       string content = string.Empty;
-<br>          WebRequest req = (WebRequest)ar.AsyncState;
-<br>          WebResponse response = req.EndGetResponse(ar);
+
+          WebRequest req = (WebRequest)ar.AsyncState;
+
+          WebResponse response = req.EndGetResponse(ar);
 
            ...
 

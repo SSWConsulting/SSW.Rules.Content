@@ -41,10 +41,18 @@ This makes more maintainable software with better architecture using industry st
 2. Look at a report to show your main current clients (best seen by who was invoiced in the past month)
     * Tip: This is also a good thing to have up on the wall as a reminder of who your main customers are at the moment.
 
-<dl class="image"><br><br>::: ok  <br>![Figure: A sample report to see your top clients](TotalInvoicedReport.jpg)  <br>:::<br>
+
+
+::: ok  
+![Figure: A sample report to see your top clients](TotalInvoicedReport.jpg)  
+:::
+
                         
-                        </dl>
-3. Choose your top clients based on who's had a substantial amount of work done (e.g. Say 10k in the last month)<br>
+                        
+3. Choose your top clients based on who's had a substantial amount of work done (e.g. Say 10k in the last month)
+
 4. Call them. Ask them how their project is going and if they have any concerns or anything they’d like changed
     * Prepare by making sure you've read the latest [Review/Retro email](/do-you-create-a-sprint-review-retro-email)
-5. Offer them a Software Review with one of your top consultants. <br>                        This will ensure that best practices are being followed for all your major projects and help to ensure the quality of <br>                        the solutions developed
+5. Offer them a Software Review with one of your top consultants. 
+                        This will ensure that best practices are being followed for all your major projects and help to ensure the quality of 
+                        the solutions developed

@@ -23,7 +23,8 @@ Analyzing your results (click-throughs, engagement, and new followers, for examp
 2. When you think of each marketing effort, try to think of what you are trying to achieve with that activity. For example, if you share a newsletter every month, what are you trying to get from it? Inquiries? Sales? Set a goal for them and follow up. This will help you identify which channel is working the most, even further, what efforts are worth keeping. You will be able to identify if, for example, your audience is not on a specific social media you thought you would perform well.
 3. The next step is to make sure your pixels, conversions codes, etc. are working properly.
 4. After this, create a spreadsheet that you can update every month to keep track of your marketing activities.
-5. Present this to your manager and your marketing team to encourage discussions and improvements. A quarterly marketing meeting would be ideal to look back and see what went well, and what didn’t go as expected. See our tips for good presentations: <br>      [Rules to Better PowerPoint Presentations](/rules-to-better-powerpoint-presentations).
+5. Present this to your manager and your marketing team to encourage discussions and improvements. A quarterly marketing meeting would be ideal to look back and see what went well, and what didn’t go as expected. See our tips for good presentations: 
+      [Rules to Better PowerPoint Presentations](/rules-to-better-powerpoint-presentations).
 
 During this meeting, you can discuss:    * Marketing activities you worked on
     * Results – Highlight key results

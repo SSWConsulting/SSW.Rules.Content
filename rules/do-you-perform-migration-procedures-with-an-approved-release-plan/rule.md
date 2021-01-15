@@ -19,16 +19,23 @@ A migration from one technology to another is a process fraught with danger. Eve
 
 A release plan for a migration will typically include:
 
-1. Business purpose for migration<br>
-2. Test migration<br>
-3. User Acceptance Testing of the test migration<br>
-4. Rollback procedure<br>
+1. Business purpose for migration
+
+2. Test migration
+
+3. User Acceptance Testing of the test migration
+
+4. Rollback procedure
+
 5. Decommissioning procedure
 
 
 Approved release plans are mandatory for a migrations such as:
 
-1. Exchange Server 2003 to 2007<br>
-2. ISA Server to a hardware firewall<br>
-3. Phone system to VoIP<br>
+1. Exchange Server 2003 to 2007
+
+2. ISA Server to a hardware firewall
+
+3. Phone system to VoIP
+
 4. etc.

@@ -25,7 +25,32 @@ The 1st step in getting automated tests, is to setup Acceptance Tests:
 ::: ok  
 ![Figure: Run each 'test case' with a prescribed configuration](run-acceptance-tests-1.jpg)  
 :::
-<dl class="image"><br><br>::: ok  <br>![Figure: As you progress through each step, 'Pass' or 'Fail' the expected results. Take screen captures or video as appropriate](run-acceptance-tests-2.jpg)  <br>:::<br></dl><dl class="badImage"><br><br>::: bad  <br>![Figure: Bad Example -After checking all the ‘Expected’ results in your MTM test, do not forget to 'Pass' or 'Fail' the Test Case](run-acceptance-tests-3.jpg)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good example - After all 'Test Steps' have been checked off, choose the overall status for the test. Otherwise it will continue to show as 'Active' on the reports](run-acceptance-tests-4.jpg)  <br>:::<br></dl><dl class="badImage"><br><br>::: bad  <br>![Figure: Bad Example – No Tests should remain as 'Active' or 'Failed' at the end of a Sprint](run-acceptance-tests-5.jpg)  <br>:::<br></dl><dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example – every test is 'Passed'](run-acceptance-tests-6.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: As you progress through each step, 'Pass' or 'Fail' the expected results. Take screen captures or video as appropriate](run-acceptance-tests-2.jpg)  
+:::
+
+
+::: bad  
+![Figure: Bad Example -After checking all the ‘Expected’ results in your MTM test, do not forget to 'Pass' or 'Fail' the Test Case](run-acceptance-tests-3.jpg)  
+:::
+
+
+::: good  
+![Figure: Good example - After all 'Test Steps' have been checked off, choose the overall status for the test. Otherwise it will continue to show as 'Active' on the reports](run-acceptance-tests-4.jpg)  
+:::
+
+
+::: bad  
+![Figure: Bad Example – No Tests should remain as 'Active' or 'Failed' at the end of a Sprint](run-acceptance-tests-5.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example – every test is 'Passed'](run-acceptance-tests-6.jpg)  
+:::
+
 **Tip:** You can pass a test from the test list. Select the Test menu, then the Test Suite. Choose the Test Case to pass and then click the green button ‘Pass Test’.
 
 The next step is to        [review the Statistics of the Sprint](/Pages/How-to-Check-the-Status-of-the-Current-Sprint.aspx).

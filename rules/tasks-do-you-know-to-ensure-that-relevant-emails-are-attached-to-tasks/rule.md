@@ -30,7 +30,8 @@ Often you will receive rich information from your Product Owner (Customer) about
 
 You need to keep these so your Team can refer to it later, and so you can send a “done” when the task has been completed. This preserves the “history” of the task and allows you to keep relevant partied included in any future conversation.
 
-Keep the original email so that you can     [<br>      reply DONE and delete the email](/dones-do-you-reply-done-and-delete-the-original-email).
+Keep the original email so that you can     [
+      reply DONE and delete the email](/dones-do-you-reply-done-and-delete-the-original-email).
 
 But keeping it in your email does not help other members of the team if they complete the task and need to send the “done”.
 
@@ -38,17 +39,23 @@ Worse yet, the description field in Team Foundation Server 2010 (TFS 2010) does 
 
 **More information:**
 
-You should follow the existing     [<br>      Rules to Better Project Management](/Management/RulestoBetterSpecificationReviews)  and attach the email to your task so you can refer to and reply to it later when you close the task:
+You should follow the existing     [
+      Rules to Better Project Management](/Management/RulestoBetterSpecificationReviews)  and attach the email to your task so you can refer to and reply to it later when you close the task:
 
-* [<br>         Do you know what Outlook add-ins you need?](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#OutlookAddin)
-* [<br>         Describe the work item request in an email](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#WorkItemEmail)
-* [<br>         Use Outlook Add-in to move the email to a TFS Work Item](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#TeamCompanionWorkItem)
+* [
+         Do you know what Outlook add-ins you need?](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#OutlookAddin)
+* [
+         Describe the work item request in an email](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#WorkItemEmail)
+* [
+         Use Outlook Add-in to move the email to a TFS Work Item](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#TeamCompanionWorkItem)
 
 
 When replying to an email with “done” you should follow:
 
-* [<br>         Do you update Team Companion template, so the email "subject" doesn't change?](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#KeepConsistentName)
-* [<br>         Do you update Team Companion template, so you can generate a proper "done" mail?](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#EmailTemplate)
+* [
+         Do you update Team Companion template, so the email "subject" doesn't change?](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#KeepConsistentName)
+* [
+         Do you update Team Companion template, so you can generate a proper "done" mail?](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#EmailTemplate)
 
 
 Following these simple rules will help your Product Owner understand you better, and allow your team to more effectively collaborate with each other.

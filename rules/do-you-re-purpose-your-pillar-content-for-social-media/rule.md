@@ -77,7 +77,7 @@ Figure: Good example, create a version of the video for Facebook, Twitter, Linke
 
 
    3. Create a Giphy with one of the main points and a moving background video from the pillar content
-<dl class="ssw15-rteElement-ImageArea">       - write the copy for the update</dl><dl class="ssw15-rteElement-ImageArea"><span style="background-color:initial;"></span><span style="background-color:initial;"></span><span style="background-color:initial;"> 4. Create a blog post from the audio</span></dl>
+       - write the copy for the update<span style="background-color:initial;"></span><span style="background-color:initial;"></span><span style="background-color:initial;"> 4. Create a blog post from the audio</span>
 - use Trint.com.to transcribe the video file and re-write the transcript as a blog post
 
 - Post the blog post to Medium.com, LinkedIn Articles, and your blog

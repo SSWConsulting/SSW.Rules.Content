@@ -28,32 +28,92 @@ The main 5 types used are:
 
 1. All uppercase – ALL UPPERCASE
 2. All lower case – all lowercase
-3. Pascal case - PascalCase <br>
+3. Pascal case - PascalCase 
+
 4. Camel case – camelCase
-5. Only first letter capitalized - Onlythefirstletter <br>
+5. Only first letter capitalized - Onlythefirstletter 
 
 
-<font color="#333333"><br></font>
+
+<font color="#333333">
+</font>
 
 Here’s a quick overview:
 
 
 > | **Technology name:**  | **Capitalisation Convention**  |
 > | --- | --- |
-> | .NET<br><br> | All uppercase<br><br> |
-> | DevOps<br><br> | Pascal case<br><br> |
-> | JavaScript<br><br> | Pascal case<br><br> |
-> | jQuery<br><br> | Camel case<br><br> |
-> | Angular (previously AngularJS)<br><br> | Only first letter capitalized<br><br> |
-> | SharePoint<br><br> | Pascal case<br><br> |
-> | email<br><br> | All lowercase<br><br> |
-> | MVC<br><br> | All uppercase<br><br> |
-> | CRM<br><br> | All uppercase<br><br> |
-> | SAP<br><br> | All uppercase<br><br> |
-> | Salesforce<br><br> | Only first letter capitalized<br><br> |
-> | gulp<br><br> | All lowercase <br>               <br><br> |
-> | Agile<br><br> | Only first letter capitalized<br><br> |
-> | Scrum<br><br> | Only first letter capitalized<br><br>(Note: it is not an acronym, so it should never be spelled "SCRUM") |
+> | .NET
+
+ | All uppercase
+
+ |
+> | DevOps
+
+ | Pascal case
+
+ |
+> | JavaScript
+
+ | Pascal case
+
+ |
+> | jQuery
+
+ | Camel case
+
+ |
+> | Angular (previously AngularJS)
+
+ | Only first letter capitalized
+
+ |
+> | SharePoint
+
+ | Pascal case
+
+ |
+> | email
+
+ | All lowercase
+
+ |
+> | MVC
+
+ | All uppercase
+
+ |
+> | CRM
+
+ | All uppercase
+
+ |
+> | SAP
+
+ | All uppercase
+
+ |
+> | Salesforce
+
+ | Only first letter capitalized
+
+ |
+> | gulp
+
+ | All lowercase 
+               
+
+ |
+> | Agile
+
+ | Only first letter capitalized
+
+ |
+> | Scrum
+
+ | Only first letter capitalized
+
+(Note: it is not an acronym, so it should never be spelled "SCRUM") |
 
 
 

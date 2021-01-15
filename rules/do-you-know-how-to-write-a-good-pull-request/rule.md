@@ -32,7 +32,8 @@ There are a couple of things that you can do to improve your pull request:
 3. Link the pull request to the associated issues / PBIs
 
 
-<font color="#333333">      <br></font>
+<font color="#333333">      
+</font>
 
 ### 1. Write a concise and self-explanatory title
 

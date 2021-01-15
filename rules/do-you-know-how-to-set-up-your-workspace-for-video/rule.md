@@ -78,8 +78,13 @@ Benefits
 
 
 **Podcast style microphone** 
-<dl class="image"><br><br>::: ok  <br>![Figure: 
-            Rode USB Podcaster microphone](rode-podcaster.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: 
+            Rode USB Podcaster microphone](rode-podcaster.jpg)  
+:::
+
 
 ::: good
 Benefits
@@ -94,7 +99,12 @@ Benefits
 
 
 The best way to improve your video is not to buy a new fancy camera, but to improve your existing setup with great lighting.
-<dl class="image"><br><br>::: ok  <br>![Figure: Ring light for webcam/camera/smartphone](ring-light.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: Ring light for webcam/camera/smartphone](ring-light.jpg)  
+:::
+
 
 ::: good
 Benefits

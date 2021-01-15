@@ -22,69 +22,116 @@ A standard computer keyboard can produce dozens of different symbols. Some of th
 
 
 
-| Symbol<br> |  **Explanation** <br> |
+| Symbol
+ |  **Explanation** 
+ |
 | --- | --- |
-| `<br> | Accent grave |
+| `
+ | Accent grave |
 | --- | --- |
-| ~<br> | Tilde<br> |
+| ~
+ | Tilde
+ |
 | --- | --- |
-| ! (Shift + 1)<br> | Exclamation mark<br> |
+| ! (Shift + 1)
+ | Exclamation mark
+ |
 | --- | --- |
-| @ (Shift + 2)<br> | At symbol<br> |
+| @ (Shift + 2)
+ | At symbol
+ |
 | --- | --- |
-| # (Shift + 3) | Hash<br> |
+| # (Shift + 3) | Hash
+ |
 | --- | --- |
-| $ (Shift + 4)<br> | Dollar sign |
+| $ (Shift + 4)
+ | Dollar sign |
 | --- | --- |
-| % (Shift + 5) <br> | Percent |
+| % (Shift + 5) 
+ | Percent |
 | --- | --- |
-| ^ (Shift + 6)<br> | Caret |
+| ^ (Shift + 6)
+ | Caret |
 | --- | --- |
-| & (Shift + 7)<br> | Ampersand |
+| & (Shift + 7)
+ | Ampersand |
 | --- | --- |
-| \* (Shift + 8)<br> | Multiplication |
+| \* (Shift + 8)
+ | Multiplication |
 | --- | --- |
-| ( (Shift + 9)<br> | Left parenthesis<br> |
+| ( (Shift + 9)
+ | Left parenthesis
+ |
 | --- | --- |
-| ) (Shift + 0)<br> | Right parenthesis<br> |
+| ) (Shift + 0)
+ | Right parenthesis
+ |
 | --- | --- |
-| -<br> | Dash<br> |
+| -
+ | Dash
+ |
 | --- | --- |
-| \_ (Shift + -)<br> | Underscore |
+| \_ (Shift + -)
+ | Underscore |
 | --- | --- |
-| =<br> | Equal |
+| =
+ | Equal |
 | --- | --- |
-| + (Shift + =)<br> | Plus |
+| + (Shift + =)
+ | Plus |
 | --- | --- |
-| [<br> | Left bracket<br> |
+| [
+ | Left bracket
+ |
 | --- | --- |
-| ] | Right bracket <br> |
+| ] | Right bracket 
+ |
 | --- | --- |
-| { (Shift + [)<br> | Left brace |
+| { (Shift + [)
+ | Left brace |
 | --- | --- |
-| } (Shift + ])<br> | Right brace |
+| } (Shift + ])
+ | Right brace |
 | --- | --- |
-| \<br> | Backslash<br> |
+| \
+ | Backslash
+ |
 | --- | --- |
-| | (Shift + \) <br> | Vertical bar <br> |
+| | (Shift + \) 
+ | Vertical bar 
+ |
 | --- | --- |
-| ;<br> | Semicolon |
+| ;
+ | Semicolon |
 | --- | --- |
-| : (Shift + ;)<br> | Colon <br> |
+| : (Shift + ;)
+ | Colon 
+ |
 | --- | --- |
-| '<br> | Single quote |
+| '
+ | Single quote |
 | --- | --- |
-| " (Shift + ')<br> | Quote |
+| " (Shift + ')
+ | Quote |
 | --- | --- |
-| ,<br> | Comma |
+| ,
+ | Comma |
 | --- | --- |
-| .<br> | Dot <br> |
+| .
+ | Dot 
+ |
 | --- | --- |
-| &lt; (Shift + ,)<br> | Less than<br> |
+| &lt; (Shift + ,)
+ | Less than
+ |
 | --- | --- |
-| &gt; (Shift + .)<br> | Greater than<br> |
+| &gt; (Shift + .)
+ | Greater than
+ |
 | --- | --- |
-| /<br> | Forward slash |
+| /
+ | Forward slash |
 | --- | --- |
-| ? (Shift + /)<br> | Question mark |
+| ? (Shift + /)
+ | Question mark |
 | --- | --- |

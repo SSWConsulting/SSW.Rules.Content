@@ -29,22 +29,66 @@ The feature is built-in to IIS 8
 
 1. Open Internet Information Services (IIS)
 2. Browse to the website in question
-3. Open Advanced settings <br>      <dl class="image"><br><br>::: ok  <br>![Figure: IIS](iis8-1.jpg)  <br>:::<br></dl>
-4. Change the “start mode” to “Always running” <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Start mode](iis8-2.jpg)  <br>:::<br></dl>
-5. Change Preload Enabled to True <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Preload setting](iis8-3.jpg)  <br>:::<br></dl>
+3. Open Advanced settings 
+      
+
+::: ok  
+![Figure: IIS](iis8-1.jpg)  
+:::
+
+4. Change the “start mode” to “Always running” 
+      
+
+::: ok  
+![Figure: Start mode](iis8-2.jpg)  
+:::
+
+5. Change Preload Enabled to True 
+      
+
+::: ok  
+![Figure: Preload setting](iis8-3.jpg)  
+:::
+
 
 
 ### Instructions below for IIS 7.5:
 
-1. On the application server install <br>      http://www.iis.net/downloads/microsoft/application-initialization or it can be installed using the Web Platform installer
-2. Open <br>       **Internet Information Services (IIS)**
+1. On the application server install 
+      http://www.iis.net/downloads/microsoft/application-initialization or it can be installed using the Web Platform installer
+2. Open 
+       **Internet Information Services (IIS)**
 3. Select the server
-4. Scroll down and select <br>       **Configuration Editor** <dl class="image"><br><br>::: ok  <br>![Figure: IIS](iis7-1.jpg)  <br>:::<br></dl>
-5. From the <br>       **Section** menu select <br>       **system.applicationHost / applicationPools** <dl class="image"><br><br>::: ok  <br>![Figure: Configuration editor](iis7-2.jpg)  <br>:::<br></dl>
-6. Double click the <br>       **“…”** to the right of <br>       **(Collection)**
+4. Scroll down and select 
+       **Configuration Editor** 
+
+::: ok  
+![Figure: IIS](iis7-1.jpg)  
+:::
+
+5. From the 
+       **Section** menu select 
+       **system.applicationHost / applicationPools** 
+
+::: ok  
+![Figure: Configuration editor](iis7-2.jpg)  
+:::
+
+6. Double click the 
+       **“…”** to the right of 
+       **(Collection)**
 7. Find the Application Pool CFT is running on (it could be ComplyFirstTime or DefaultAppPool)
-8. In the <br>       **Properties** window, scroll down and select <br>       **startMode** , choose <br>       **AlwaysRunning** <dl class="image"><br><br>::: ok  <br>![Figure: Set "start Mode"](iis7-3.jpg)  <br>:::<br></dl>
-9. On the top right select <br>       **Apply**
+8. In the 
+       **Properties** window, scroll down and select 
+       **startMode** , choose 
+       **AlwaysRunning** 
+
+::: ok  
+![Figure: Set "start Mode"](iis7-3.jpg)  
+:::
+
+9. On the top right select 
+       **Apply**
 
 
 **
@@ -55,12 +99,13 @@ The feature is built-in to IIS 8
 **
 ** 
 
-1. There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is called appplocated at c:\windows\system32\inetsvr\config on a standard install of IIS. <br>          I recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format:
+1. There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is called appplocated at c:\windows\system32\inetsvr\config on a standard install of IIS. 
+          I recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format:
 
 
 
 ```
-<add name=”Application Pool Name” managedRuntimeVersion=”v4.0″ />
+<add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″"></add>
 ```
 2. add the Always Running mode by adding startMode="AlwaysRunning"
     
@@ -68,7 +113,6 @@ The feature is built-in to IIS 8
 
 
 ```
-<add name=”Application Pool Name” managedRuntimeVersion=”v4.0″ startMode="AlwaysRunning"
- />
+<add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″" startmode="AlwaysRunning"></add>
 ```
 3. Save this file and perform an IISReset so that the change is read into the running memory of the IIS server.

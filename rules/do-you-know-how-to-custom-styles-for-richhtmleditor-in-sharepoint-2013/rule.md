@@ -24,7 +24,7 @@ This rule outlines how to use custom styles in the SharePoint  RichHTMLEditor.
 
 
 In SharePoint, we can use the below way to apply custom styles:
-<dl class="ssw15-rteElement-ImageArea"><img src="CustomStylesInSharePoint.png" alt="CustomStylesInSharePoint.png" style="margin:5px;"></dl> **Figure: custom RichHtmlEditor styles give your content editors a visual preview of your custom styles
+<img src="CustomStylesInSharePoint.png" alt="CustomStylesInSharePoint.png" style="margin:5px;"> **Figure: custom RichHtmlEditor styles give your content editors a visual preview of your custom styles
 ** 
 
 
@@ -140,13 +140,15 @@ Its html code will change
 
 
 from
-<dl class="ssw15-rteElement-ImageArea"><img src="page_element_p.png" alt="page_element_p.png" style="margin:5px;width:650px;"></dl>
+<img src="page_element_p.png" alt="page_element_p.png" style="margin:5px;width:650px;">
 
  **Figure: "Code Area style" with parent element &lt;p&gt;** 
 
 
 to
-<dl class="ssw15-rteElement-ImageArea"><img src="page_element_dd.png" alt="page_element_dd.png" style="margin:5px;width:650px;"></dl><dl class="ssw15-rteElement-ImageArea"><span style="color:#555555;font-size:11px;font-weight:bold;">Figure: "Good Figure style" changed the parent element from &lt;p&gt; to &lt;dd&gt;</span><br></dl><dl class="ssw15-rteElement-ImageArea"><br></dl>
+<img src="page_element_dd.png" alt="page_element_dd.png" style="margin:5px;width:650px;"><span style="color:#555555;font-size:11px;font-weight:bold;">Figure: "Good Figure style" changed the parent element from &lt;p&gt; to &lt;dd&gt;</span>
+
+
 
 
 3).ssw15-rte **Style -** this style could be applied to  **Text Styles** :
@@ -166,8 +168,9 @@ e.g.
 }
 
 This  **Highlight** style will come up in "Text Styles" section:
-<dl class="ssw15-rteElement-ImageArea"><img src="HighLight.png" alt="HighLight.png" style="margin:5px;"></dl> **Figure: Highlight style will come up in "Text Styles" section
-** <dl class="ssw15-rteElement-ImageArea"><br></dl>
+<img src="HighLight.png" alt="HighLight.png" style="margin:5px;"> **Figure: Highlight style will come up in "Text Styles" section
+** 
+
 While applying a "Text Styles" style, it will
 
 

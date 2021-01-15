@@ -13,6 +13,7 @@ redirects: []
 
 ---
 
-Quote:<br>don’t use gated check-ins because…. thanks Peter Provost
+Quote:
+don’t use gated check-ins because…. thanks Peter Provost
 
 <!--endintro-->

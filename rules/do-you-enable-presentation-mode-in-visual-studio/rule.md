@@ -34,7 +34,8 @@ Secondly, you need to remove any distracting panes or other windows. These usual
 
 
 
-Most importantly, you can have all these things done for you at the click of a button by using the <br>   [presentation mode extension by Mads](https://devblogs.microsoft.com/visualstudio/use-visual-studio-in-presentation-mode/).
+Most importantly, you can have all these things done for you at the click of a button by using the 
+   [presentation mode extension by Mads](https://devblogs.microsoft.com/visualstudio/use-visual-studio-in-presentation-mode/).
 
 
 `youtube: https://www.youtube.com/embed/7wMJIYz9lvU`

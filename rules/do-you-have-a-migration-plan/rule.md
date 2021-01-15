@@ -18,11 +18,14 @@ At a high level, the plan is:
 
 <!--endintro-->
 
-* Choose your SharePoint Online Plan (for most companies already included in o365 plan) <br>      
+* Choose your SharePoint Online Plan (for most companies already included in o365 plan) 
+      
 [Compare SharePoint Online options](https&#58;//products.office.com/en-us/sharepoint/compare-sharepoint-plans)
-* Choose a migration tool to help you migrate the content online <br>      
+* Choose a migration tool to help you migrate the content online 
+      
 i.e. at SSW we use Sharegate
-* Install the migration tool <br>
+* Install the migration tool 
+
 * Migration tool - Configure connections to your source and target SharePoint site collections
 * Migration tool - Migrate your content
     * Structure migration and content (dry-run)

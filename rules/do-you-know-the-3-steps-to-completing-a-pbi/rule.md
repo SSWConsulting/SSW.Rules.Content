@@ -22,13 +22,17 @@ The lifecycle of a PBI can be broken down into 3 steps:
 
 ### 1. Ready
 
-1. Take the next PBI that was approved by the <br>      [Product Owner](/rules-to-better-product-owners)
+1. Take the next PBI that was approved by the 
+      [Product Owner](/rules-to-better-product-owners)
 2. Is the PBI ready?
-Check your PBI against your <br>      [Definition of Ready](/have-a-definition-of-ready). "Ready" PBIs must have Acceptance Criteria. A good Definition of Ready also encourages a test-first mentality in requirements e.g. Use Spec Flow (Given, When, Then) and/or create Test Cases and Test Steps first.
+Check your PBI against your 
+      [Definition of Ready](/have-a-definition-of-ready). "Ready" PBIs must have Acceptance Criteria. A good Definition of Ready also encourages a test-first mentality in requirements e.g. Use Spec Flow (Given, When, Then) and/or create Test Cases and Test Steps first.
 3. Attach and copy the Product Owner's email into the Acceptance Criteria (as per [Do you attach and copy emails to the PBI?](/do-you-attach-emails-to-the-pbi)).
-4. Email notification to the Product Owner - <br>      [use the @ mention rule](/when-you-use-mentions-in-a-pbi)
+4. Email notification to the Product Owner - 
+      [use the @ mention rule](/when-you-use-mentions-in-a-pbi)
 5. Break down your PBI into tasks.
-6. Don't forget to make a task for testing! (So that it is visible in the task board). Note: You can also <br>      [customize the kanban board](https://www.visualstudio.com/en-us/get-started/work/work-from-the-kanban-board-vs) by adding a new column for testing, but we recommend adding a testing task to the PBI instead.
+6. Don't forget to make a task for testing! (So that it is visible in the task board). Note: You can also 
+      [customize the kanban board](https://www.visualstudio.com/en-us/get-started/work/work-from-the-kanban-board-vs) by adding a new column for testing, but we recommend adding a testing task to the PBI instead.
 
 
 
@@ -60,8 +64,11 @@ Is the PBI "Done"? Check your Definition of Done, and then:
 3. Use [Microsoft's "Test and Feedback" Chrome extension](/do-you-do-exploratory-testing-2) to test the app
 4. Make changes based on feedback (and then get more feedback)
 5. Complete the Pull Request! Merge changes to master, this automatically deploys (to either Test, Staging or Prod based on process maturity)
-6. Email notification to the Product Owner – send a <br>      [Done Email (reply to the original)](/dones-do-you-reply-done-and-delete-the-original-email). Big items should have a <br>      [Done Video](/do-you-send-done-videos)
-7. Check the Acceptance Criteria for notes about email attachments (as per <br>      [Do you attach emails to the PBI?](/do-you-attach-emails-to-the-pbi)).
+6. Email notification to the Product Owner – send a 
+      [Done Email (reply to the original)](/dones-do-you-reply-done-and-delete-the-original-email). Big items should have a 
+      [Done Video](/do-you-send-done-videos)
+7. Check the Acceptance Criteria for notes about email attachments (as per 
+      [Do you attach emails to the PBI?](/do-you-attach-emails-to-the-pbi)).
 
 Congrats. Your PBI is now ready to be demonstrated during your Sprint Review! (Note: This is also the same process you follow for a Bug work item)
 

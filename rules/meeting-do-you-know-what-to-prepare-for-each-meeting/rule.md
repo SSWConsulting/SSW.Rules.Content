@@ -19,7 +19,8 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 **Daily Scrum Meetings** - This is time boxed to 15 mins. All members of the team should be well prepared by:
 
 * Being ready on time
-* Having their "Remaining hours" up-to-date – read <br>      [Do you update your tasks before the daily Scrum meeting?](/Pages/DailyScrumUpdateTasks.aspx)
+* Having their "Remaining hours" up-to-date – read 
+      [Do you update your tasks before the daily Scrum meeting?](/Pages/DailyScrumUpdateTasks.aspx)
 * Be ready to answer the 3 main questions:
 
 
@@ -45,7 +46,8 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 
 **Review Meetings** - all members of the team must be well prepared by:
 
-* Being available <br>       **30 minutes** before the meeting
+* Being available 
+       **30 minutes** before the meeting
 * Setting up and testing the projector with a computer before the meeting starts
 * Making sure remote members are connected via Skype and/or TeamViewer before the meeting starts
 * Nominating in advance another member of the team to take notes from the presentation
@@ -71,4 +73,5 @@ Planning meetings** - all members of the team must be well prepared by:
 * Having all PBIs on the backlog “groomed” in order of priority (according to the Product Owner)
 * Understanding all PBIs and the Product Owner’s priorities
 * Being responsible on estimates
-* Volunteering to work on PBIs and tasks, even if they are not related to your best skills – read <br>      [Do you encourage multi-skilled teams?](/Pages/BeingMultiSkilled.aspx)
+* Volunteering to work on PBIs and tasks, even if they are not related to your best skills – read 
+      [Do you encourage multi-skilled teams?](/Pages/BeingMultiSkilled.aspx)

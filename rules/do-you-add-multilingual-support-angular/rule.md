@@ -37,11 +37,24 @@ The following table shows the pros and cons of the 3 libraries:
 <!--endintro-->
 
 
-| | **Pros (+) <br>                  <br>** | **Cons (-)** |
+| | **Pros (+) 
+                  
+** | **Cons (-)** |
 | --- | --- | --- |
-| **Internationalization<br>**<br><br>**(i18n)** | <ul class="p3"><li>Better support of displaying dates, numbers, percentages, and currencies in a local format.<br></li><li>Better support for handling plural forms of words, and alternative text.<br></li></ul> | <ul class="ul1"><li class="li2">It only works with one language at a time, you have to completely reload the application to change the language</li><li class="li2">Only support translation in the template (by using HTML tag)<br></li><li class="li2">You need to build + deploy every time you make a change to the language, and you have to have a separate folder every time.</li><li class="li2">You can see the language in the URL.<br></li></ul> |
-| **ngx-translate** | <ul><li>It provides more powerful API support</li><li>It supports JSON files by default to store the translation resources</li></ul> | <ul class="ul1"><li class="li2">It doesn’t provide good support for plural forms and dates.</li><li class="li2">Ngx-translate will stop its releases when angular built-in modules catch up with the ngx-translate features.<br></li><li class="li2">The developer said that when Angular i18n catches up the library will be deprecated. Check <a href="https://github.com/ngx-translate/core/issues/495#issuecomment-291158036">article</a>.<br></li></ul> |
-| **angular-** **gettext** <br> | <ul><li>The simplest library to deal with multilingual.</li><li>Supports plural handling in different languages.</li></ul><br> | <ul class="ul1" style="text-decoration:line-through;"><li class="li2" style="text-decoration:line-through;">It compiles the translations during the compiling period, which doesn’t support the change of translation at any time.</li><li class="li2" style="text-decoration:line-through;">Only supports AngularJS</li></ul> |
+| **Internationalization
+**
+
+**(i18n)** | <ul class="p3"><li>Better support of displaying dates, numbers, percentages, and currencies in a local format.
+</li><li>Better support for handling plural forms of words, and alternative text.
+</li></ul> | <ul class="ul1"><li class="li2">It only works with one language at a time, you have to completely reload the application to change the language</li><li class="li2">Only support translation in the template (by using HTML tag)
+</li><li class="li2">You need to build + deploy every time you make a change to the language, and you have to have a separate folder every time.</li><li class="li2">You can see the language in the URL.
+</li></ul> |
+| **ngx-translate** | <ul><li>It provides more powerful API support</li><li>It supports JSON files by default to store the translation resources</li></ul> | <ul class="ul1"><li class="li2">It doesn’t provide good support for plural forms and dates.</li><li class="li2">Ngx-translate will stop its releases when angular built-in modules catch up with the ngx-translate features.
+</li><li class="li2">The developer said that when Angular i18n catches up the library will be deprecated. Check <a href="https://github.com/ngx-translate/core/issues/495#issuecomment-291158036">article</a>.
+</li></ul> |
+| **angular-** **gettext** 
+ | <ul><li>The simplest library to deal with multilingual.</li><li>Supports plural handling in different languages.</li></ul>
+ | <ul class="ul1" style="text-decoration:line-through;"><li class="li2" style="text-decoration:line-through;">It compiles the translations during the compiling period, which doesn’t support the change of translation at any time.</li><li class="li2" style="text-decoration:line-through;">Only supports AngularJS</li></ul> |
 
 
 

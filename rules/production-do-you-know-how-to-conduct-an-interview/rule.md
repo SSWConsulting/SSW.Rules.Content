@@ -15,7 +15,8 @@ Though each interviewer will have their own style, line of questions etc, there 
 
 <!--endintro-->
 
-1. Introduce yourself, then the interviewee, then the topic of the interview: <br>      
+1. Introduce yourself, then the interviewee, then the topic of the interview: 
+      
 
 ::: greybox
 "Hi guys, today we're talking about J Query with Peter Smith, how's it going Peter?"  

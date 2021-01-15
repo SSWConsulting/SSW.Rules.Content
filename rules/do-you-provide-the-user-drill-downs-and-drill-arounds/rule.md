@@ -20,10 +20,28 @@ Think about a summary report - users should always be able to "drill-down" to tr
 
 There are four ways to provide drill-downs:
 
-1. Preferred - Use buttons to navigate around the application <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Use named buttons to navigate around the application (Preferred)](../../assets/DrillDownDrillAround.gif)  <br>:::<br></dl>
+1. Preferred - Use buttons to navigate around the application 
+      
+
+::: ok  
+![Figure: Use named buttons to navigate around the application (Preferred)](../../assets/DrillDownDrillAround.gif)  
+:::
+
 2. Double click the control
-3. Use buttons with three dots - an ellipsis (...) character <br>      <dl class="goodImage"><br><br>::: good  <br>![Figure: Good Example - Use ellipses to navigate around the application](../../assets/CodeAuditorEllipses.gif)  <br>:::<br></dl>
-4. Use hyperlinks <br>      <dl class="image"><br><br>::: ok  <br>![Figure: Drill-downs implemented as links (an interesting alternative but a bit too much of a visual impact)](../../assets/AssetForm.png)  <br>:::<br></dl>
+3. Use buttons with three dots - an ellipsis (...) character 
+      
+
+::: good  
+![Figure: Good Example - Use ellipses to navigate around the application](../../assets/CodeAuditorEllipses.gif)  
+:::
+
+4. Use hyperlinks 
+      
+
+::: ok  
+![Figure: Drill-downs implemented as links (an interesting alternative but a bit too much of a visual impact)](../../assets/AssetForm.png)  
+:::
+
 
 
 Another handy thing to add for users is "drill-around". This is implemented by using a right mouse-click to activate context-sensitive links between related screens.

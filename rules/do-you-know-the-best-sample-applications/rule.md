@@ -25,7 +25,8 @@ Before starting a software project and evaluating a new technology, it is import
 ### SQL Server 2017
 
 
-* **AdventureWorks & Northwind** – <br>      [https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks](https&#58;//github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)
+* **AdventureWorks & Northwind** – 
+      [https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks](https&#58;//github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)
 
 
 ### SQL Server 2017 and Azure SQL Database
@@ -50,11 +51,16 @@ Example application utilizing @ngrx libraries, showcasing common patterns and be
 ### ASP.NET MVC + WebAPI
 
 
-* **MVC Music Store** - <br>      [http://mvcmusicstore.codeplex.com/](http&#58;//mvcmusicstore.codeplex.com/)  <br>      
+* **MVC Music Store** - 
+      [http://mvcmusicstore.codeplex.com/](http&#58;//mvcmusicstore.codeplex.com/)  
+      
 A nice simple sample of ASP.NET MVC with Entity Framework
-* **MyCompany Demo** - <br>      [http://aka.ms/mycompanyapps](http&#58;//aka.ms/mycompanyapps)    
+* **MyCompany Demo** - 
+      [http://aka.ms/mycompanyapps](http&#58;//aka.ms/mycompanyapps)    
 More complicated sample showing off a lot of technologies as well as mobile platform
-* **Enterprise MVC Music Store** - <br>      [https://github.com/SSWConsulting/enterprise-musicstore-mvc4](https&#58;//github.com/SSWConsulting/enterprise-musicstore-mvc4) & <br>      [https://github.com/SSWConsulting/enterprise-musicstore-api-aspnet](https&#58;//github.com/SSWConsulting/enterprise-musicstore-api-aspnet) 
+* **Enterprise MVC Music Store** - 
+      [https://github.com/SSWConsulting/enterprise-musicstore-mvc4](https&#58;//github.com/SSWConsulting/enterprise-musicstore-mvc4) & 
+      [https://github.com/SSWConsulting/enterprise-musicstore-api-aspnet](https&#58;//github.com/SSWConsulting/enterprise-musicstore-api-aspnet) 
 Music store sample with enterprise architecture using Entity Framework and the [Onion Architecture](/do-you-know-the-layers-of-the-onion-architecture)
 
 

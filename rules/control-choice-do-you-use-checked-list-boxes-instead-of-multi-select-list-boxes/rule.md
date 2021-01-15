@@ -35,8 +35,11 @@ Multi-select listboxes are the bane of a graphical user interface, they have a n
          <option>Item 10</option></select> Figure: Bad Example - List Boxes are impractical - try it and see
 **Checked Listboxes** are the ideal alternative. They're much more pleasant to use and are a good deal more intuitive - compare to the list above. Checked Listboxes tell users immediately that they have the ability choose multiple options.
 
-* In ASP.NET, use <br>       **System.Web.UI.WebControls.CheckBoxList** . If you're having problems with there being too many items in the list, use a <br>       **scrolling DIV**
-* In Windows Forms, use <br>       **System.Windows.Forms.CheckedListBox**
+* In ASP.NET, use 
+       **System.Web.UI.WebControls.CheckBoxList** . If you're having problems with there being too many items in the list, use a 
+       **scrolling DIV**
+* In Windows Forms, use 
+       **System.Windows.Forms.CheckedListBox**
 
 
 

@@ -28,14 +28,28 @@ Index names are to have this syntax:
 [1] All indexes must have a corresponding prefix.
 
 
-| **Prefix** <br> |  **Type** <br> |
+| **Prefix** 
+ |  **Type** 
+ |
 | --- | --- |
-| pkc\_<br> | Primary Key, Clustered<br> |
-| pknc\_<br> | Primary Key, Non Clustered<br> |
-| ncu\_<br> | Non Clustered, Unique<br> |
-| cu\_<br> | Clustered, Unique<br> |
-| nc\_<br> | Non Clustered (Most Common)<br> |
-| <br> | <br> |
+| pkc\_
+ | Primary Key, Clustered
+ |
+| pknc\_
+ | Primary Key, Non Clustered
+ |
+| ncu\_
+ | Non Clustered, Unique
+ |
+| cu\_
+ | Clustered, Unique
+ |
+| nc\_
+ | Non Clustered (Most Common)
+ |
+| 
+ | 
+ |
 
 
 Make unique index name if possible. Ie. ProductName

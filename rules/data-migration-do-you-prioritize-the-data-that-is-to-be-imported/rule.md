@@ -15,8 +15,10 @@ redirects: []
 
 Step 1 - What data?
 
-1. Don't take all the data for the first release - Usually there are huge amounts<br>            of data in legacy systems - take only the most important firstly.
-2. Using the planning spreadsheets included with the [Microsoft CRM Data Migration Pack](http&#58;//www.microsoft.com/en-us/download/details.aspx?id=20015) - they are excellent for specifying data migration<br>            field mappings.
+1. Don't take all the data for the first release - Usually there are huge amounts
+            of data in legacy systems - take only the most important firstly.
+2. Using the planning spreadsheets included with the [Microsoft CRM Data Migration Pack](http&#58;//www.microsoft.com/en-us/download/details.aspx?id=20015) - they are excellent for specifying data migration
+            field mappings.
 
 
 Step 2 - Sync or import?

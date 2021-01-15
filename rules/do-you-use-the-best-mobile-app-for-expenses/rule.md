@@ -47,20 +47,91 @@ There are 2 purposes when evaluating an Expense app:
 
 
 
-| Features (based on 5 users)<br> | Xero Expenses<br> | Expensify<br> | Hubdoc<br> | Receipt Bank<br> |
+| Features (based on 5 users)
+ | Xero Expenses
+ | Expensify
+ | Hubdoc
+ | Receipt Bank
+ |
 | --- | --- | --- | --- | --- |
-| Pricing<br> | $5 per active user/mo<br> | $840/year (minimum)<br> | **Free with Xero ✔** <br> | $360/year<br> |
-| Submission Procedure<br><br> | Same as Receipt Bank<br> | Same as Receipt Bank<br> | Same as Receipt Bank<br><br>See Figure: Hubdoc email for receiving<br> | Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. <br> |
-| Restriction on Invoice uploads <br> |  **Unlimited ✔** <br> | **Unlimited ✔** <br> | **Unlimited ✔** <br> | 300/mo<br> |
-| Back-up<br> | Unlimited - use cloud back up and security. Never deletes<br> | Unlimited – Never deletes and remains archived<br> | Unlimited – use cloud back up and security. Never deletes <br> | Unlimited – Never deletes and remains archived<br> |
-| Organizing<br> | Organised on user-submitted, expense type or date order<br> | **Can be manually organized into folders or reports ✔** <br> | Requires greater security privileges than uploader only. Automatically organized into folders (can be updated). <br> | No real organization of documents. Either inactive or archived and ordered in date/supplier order<br> |
-| Expense Rules<br> | Same as Receipt Bank - however, instead relied upon Xero receipt analysis which is little less powerful<br> | **Same as Receipt Bank – little easier to navigate to the section ✔** <br> | Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)<br> | Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) <br> |
-| Accounting Codes<br> |  **<br>Same as Receipt Bank** **✔** <br><br> | Only available on the subscription plan of $1800/year<br> | **Same as Receipt Bank ✔** <br> | **Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way ✔** <br> |
-| Phone Compatibility<br> |  **All Phones ✔** <br> | **All Phones ✔** <br> | **All Phones ✔** <br> | iPhone, Android, and Web-based <br> |
-| Two-factor Authentication<br> |  **Yes ✔** <br> | No<br> | **Yes ✔** <br> | No<br> |
-| How-to Videos<br> | Yes<br> | **Yes<br>The most videos ✔** <br> | Yes<br> | No<br> |
-| Descriptive Notes<br> |  **Yes ✔** <br> |   **Yes ✔** <br> | Not available<br> |  **Yes ✔** <br> |
-| Bank Specification<br> |  **Yes✔** <br> | Not at $840/year<br> |  **Yes ✔** <br> |  **Yes✔** <br> |
+| Pricing
+ | $5 per active user/mo
+ | $840/year (minimum)
+ | **Free with Xero ✔** 
+ | $360/year
+ |
+| Submission Procedure
+
+ | Same as Receipt Bank
+ | Same as Receipt Bank
+ | Same as Receipt Bank
+
+See Figure: Hubdoc email for receiving
+ | Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. 
+ |
+| Restriction on Invoice uploads 
+ |  **Unlimited ✔** 
+ | **Unlimited ✔** 
+ | **Unlimited ✔** 
+ | 300/mo
+ |
+| Back-up
+ | Unlimited - use cloud back up and security. Never deletes
+ | Unlimited – Never deletes and remains archived
+ | Unlimited – use cloud back up and security. Never deletes 
+ | Unlimited – Never deletes and remains archived
+ |
+| Organizing
+ | Organised on user-submitted, expense type or date order
+ | **Can be manually organized into folders or reports ✔** 
+ | Requires greater security privileges than uploader only. Automatically organized into folders (can be updated). 
+ | No real organization of documents. Either inactive or archived and ordered in date/supplier order
+ |
+| Expense Rules
+ | Same as Receipt Bank - however, instead relied upon Xero receipt analysis which is little less powerful
+ | **Same as Receipt Bank – little easier to navigate to the section ✔** 
+ | Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)
+ | Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) 
+ |
+| Accounting Codes
+ |  **
+Same as Receipt Bank** **✔** 
+
+ | Only available on the subscription plan of $1800/year
+ | **Same as Receipt Bank ✔** 
+ | **Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way ✔** 
+ |
+| Phone Compatibility
+ |  **All Phones ✔** 
+ | **All Phones ✔** 
+ | **All Phones ✔** 
+ | iPhone, Android, and Web-based 
+ |
+| Two-factor Authentication
+ |  **Yes ✔** 
+ | No
+ | **Yes ✔** 
+ | No
+ |
+| How-to Videos
+ | Yes
+ | **Yes
+The most videos ✔** 
+ | Yes
+ | No
+ |
+| Descriptive Notes
+ |  **Yes ✔** 
+ |   **Yes ✔** 
+ | Not available
+ |  **Yes ✔** 
+ |
+| Bank Specification
+ |  **Yes✔** 
+ | Not at $840/year
+ |  **Yes ✔** 
+ |  **Yes✔** 
+ |
 
 
  **Overall, the winner is Xero Expense app.** The design of the Xero Expense app provides all the user experience to enable simple and convenient reimbursement requests or company spent money receipts for reconciliation. 
@@ -97,7 +168,9 @@ As a user, all you have to do is take a photo of the receipt from your mobile ap
 
 ![](google-trends-without-xero.jpg)
 
-**Figure: Google Trends (September 2020) show <br>   Expensify and <br>   Receipt Bank as the most popular. More at** [**Google Trends**](https://trends.google.com/trends/explore?geo=US&q=Xero%20Expenses%2cexpensify%2chubdoc%2c%22Receipt%20Bank%22)
+**Figure: Google Trends (September 2020) show 
+   Expensify and 
+   Receipt Bank as the most popular. More at** [**Google Trends**](https://trends.google.com/trends/explore?geo=US&q=Xero%20Expenses%2cexpensify%2chubdoc%2c%22Receipt%20Bank%22)
 
 ### Related Rules
 

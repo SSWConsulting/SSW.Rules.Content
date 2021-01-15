@@ -28,10 +28,12 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
 At SSW we use Application Insights for Visual Studio Online.
 
 ::: greybox
-*Application Insights will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you’ll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.<br>*
+*Application Insights will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you’ll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.
+*
 :::
 
-If Application Insights for Visual Studio Online is not available we use ELMAH when developing web applications. From its <br>      [NuGet page](https://www.nuget.org/packages/ELMAH):
+If Application Insights for Visual Studio Online is not available we use ELMAH when developing web applications. From its 
+      [NuGet page](https://www.nuget.org/packages/ELMAH):
 
 ::: greybox
 *ELMAH with initial configuration for getting started quickly. ELMAH (Error Logging Modules and Handlers) is an application-wide error logging facility that is completely pluggable. It can be dynamically added to a running ASP.NET web application, or even all ASP.NET web applications on a machine, without any need for re-compilation or re-deployment.*

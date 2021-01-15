@@ -36,7 +36,17 @@ Summary: SharePoint BCS -&gt; Pre-built Adapter (.NET Assembly) -&gt; CRM web se
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[8\]](correct.gif "clip_image002[8]")Read/Write<br><br>![clip_image002\[9\]](correct.gif "clip_image002[9]")Minimal coding<br><br>![clip_image002\[10\]](correct.gif "clip_image002[10]")Easiest to implement<br><br>![clip_image002\[11\]](correct.gif "clip_image002[11]")The likely way forward (Best Practice as Microsoft) | ![clip_image004\[13\]](wrong.gif "clip_image004[13]")Needs to be deployed and published to the web server.<br><br>![clip_image004\[14\]](wrong.gif "clip_image004[14]")Less performance than SQL filter views directly<br><br>![clip_image004\[15\]](wrong.gif "clip_image004[15]")Only recently released. |
+| ![clip_image002\[8\]](correct.gif "clip_image002[8]")Read/Write
+
+![clip_image002\[9\]](correct.gif "clip_image002[9]")Minimal coding
+
+![clip_image002\[10\]](correct.gif "clip_image002[10]")Easiest to implement
+
+![clip_image002\[11\]](correct.gif "clip_image002[11]")The likely way forward (Best Practice as Microsoft) | ![clip_image004\[13\]](wrong.gif "clip_image004[13]")Needs to be deployed and published to the web server.
+
+![clip_image004\[14\]](wrong.gif "clip_image004[14]")Less performance than SQL filter views directly
+
+![clip_image004\[15\]](wrong.gif "clip_image004[15]")Only recently released. |
 
 
 
@@ -58,13 +68,24 @@ Summary: SharePoint BCS -&gt; Pre-built Adapter (.NET Assembly) -&gt; CRM web se
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[2\]](correct.gif "clip_image002[2]")Best performance<br><br>![clip_image002\[2\]](correct.gif "clip_image002[2]")Codeless | ![clip_image004](wrong.gif "clip_image004")Read-only<br><br>![clip_image004\[1\]](wrong.gif "clip_image004[1]")Not available for hosted CRM<br><br>![clip_image004\[2\]](wrong.gif "clip_image004[2]") Security issues as you are exposing the view. |
+| ![clip_image002\[2\]](correct.gif "clip_image002[2]")Best performance
+
+![clip_image002\[2\]](correct.gif "clip_image002[2]")Codeless | ![clip_image004](wrong.gif "clip_image004")Read-only
+
+![clip_image004\[1\]](wrong.gif "clip_image004[1]")Not available for hosted CRM
+
+![clip_image004\[2\]](wrong.gif "clip_image004[2]") Security issues as you are exposing the view. |
 
     Filtered Views in Microsoft CRM provide access to the data available that supports providing picklist name and id values (lookup tables).
     **More information:**
     If you only want read-only for CRM on-premises data for SharePoint users, this solution is fine. You create the External Content Type directly against the Filtered Views in the CRM database.
     http://msdn.microsoft.com/en-us/library/gg328467.aspx
-<dl class="image"><br><br>::: ok  <br>![Figure: The result of "SELECT * FROM FilteredCtx_Project". Use Office SharePoint Designer to hook this up](figure1.jpg)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure: The result of "SELECT * FROM FilteredCtx_Project". Use Office SharePoint Designer to hook this up](figure1.jpg)  
+:::
+
 ### Option 3: Web Services
     CRM provides web services.
     Summary: SharePoint BCS -&gt; Code calling CRM web services - &gt; CRM database
@@ -72,7 +93,11 @@ Summary: SharePoint BCS -&gt; Pre-built Adapter (.NET Assembly) -&gt; CRM web se
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[3\]](correct.gif "clip_image002[3]")Read/Write | ![clip_image004\[3\]](wrong.gif "clip_image004[3]")Needs lots of code and test work.<br><br>![clip_image004\[4\]](wrong.gif "clip_image004[4]")Needs to be deployed and published to the web server.<br><br>![clip_image004\[5\]](wrong.gif "clip_image004[5]")Less performance than SQL filter views directly #1 |
+| ![clip_image002\[3\]](correct.gif "clip_image002[3]")Read/Write | ![clip_image004\[3\]](wrong.gif "clip_image004[3]")Needs lots of code and test work.
+
+![clip_image004\[4\]](wrong.gif "clip_image004[4]")Needs to be deployed and published to the web server.
+
+![clip_image004\[5\]](wrong.gif "clip_image004[5]")Less performance than SQL filter views directly #1 |
 
     #1 Note: Performance could be improved by making the reads from the views and the writes through the web service
     **More information:**
@@ -87,7 +112,13 @@ Summary: SharePoint BCS -&gt; Pre-built Adapter (.NET Assembly) -&gt; CRM web se
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[4\]](correct.gif "clip_image002[4]")Easy configuration | ![clip_image004\[6\]](wrong.gif "clip_image004[6]")50 records limit. Need to page through the results.<br><br>![clip_image004\[7\]](wrong.gif "clip_image004[7]")Possible issues with firewalls and proxies because it uses Integrated Security for authentication.<br><br>![clip_image004\[8\]](wrong.gif "clip_image004[8]")Read-Only<br><br>![clip_image004\[9\]](wrong.gif "clip_image004[9]")No easy way to consume |
+| ![clip_image002\[4\]](correct.gif "clip_image002[4]")Easy configuration | ![clip_image004\[6\]](wrong.gif "clip_image004[6]")50 records limit. Need to page through the results.
+
+![clip_image004\[7\]](wrong.gif "clip_image004[7]")Possible issues with firewalls and proxies because it uses Integrated Security for authentication.
+
+![clip_image004\[8\]](wrong.gif "clip_image004[8]")Read-Only
+
+![clip_image004\[9\]](wrong.gif "clip_image004[9]")No easy way to consume |
 
     **
 ** **Note:** You can really only call the OData endpoint from an application that already has an authentication cookie with the CRM server. 
@@ -97,9 +128,24 @@ So it is really only suited to calling from Silverlight and JavaScript web resou
     The first step is to expose the data:
     1. Install [http://crm2011odatatool.codeplex.com](http://crm2011odatatool.codeplex.com/)
     2. Make a query
-<dl class="image"><br><br>::: ok  <br>![Figure: Designing a query](figure2.jpg)  <br>:::<br></dl>    3. See the data
-<dl class="image"><br><br>::: ok  <br>![Figure: See the data - RSS source for xtc_countrySet](figure3.jpg)  <br>:::<br></dl>    The second step (and the problem) is consuming the data
-<dl class="image"><br><br>::: ok  <br>![Figure: BCS has no option to consume RSS data. Please Microsoft SharePoint Team, we need a new 'Data Source Type' = OData](figure4.jpg)  <br>:::<br></dl>    In summary, CRM 2011 can expose OData, but SharePoint 2010 BCS doesn't consume OData.
+
+
+::: ok  
+![Figure: Designing a query](figure2.jpg)  
+:::
+    3. See the data
+
+
+::: ok  
+![Figure: See the data - RSS source for xtc_countrySet](figure3.jpg)  
+:::
+    The second step (and the problem) is consuming the data
+
+
+::: ok  
+![Figure: BCS has no option to consume RSS data. Please Microsoft SharePoint Team, we need a new 'Data Source Type' = OData](figure4.jpg)  
+:::
+    In summary, CRM 2011 can expose OData, but SharePoint 2010 BCS doesn't consume OData.
     The 3 options to consume the OData/RSS data:
     Consume the OData by SQL Server, via TSQL ???    Then use BCS to call SQL Server. 
 Summary: SharePoint BCS -&gt; DataSourceType: SQL Server -&gt; OData- &gt; CRM database
@@ -119,7 +165,15 @@ Summary: SharePoint RSS view web part -&gt; OData- &gt; CRM database
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[5\]](correct.gif "clip_image002[5]")Read/Write<br><br>![clip_image002\[6\]](correct.gif "clip_image002[6]")The BizTalk data centre can also provide data for any system.<br><br>![clip_image002\[7\]](correct.gif "clip_image002[7]")Requires little code if users already have BizTalk | ![clip_image004\[10\]](wrong.gif "clip_image004[10]")BizTalk :-)<br><br>![clip_image004\[11\]](wrong.gif "clip_image004[11]")Deployment - Needs external work to deploy BizTalk server.<br><br>![clip_image004\[12\]](wrong.gif "clip_image004[12]") Licence Cost |
+| ![clip_image002\[5\]](correct.gif "clip_image002[5]")Read/Write
+
+![clip_image002\[6\]](correct.gif "clip_image002[6]")The BizTalk data centre can also provide data for any system.
+
+![clip_image002\[7\]](correct.gif "clip_image002[7]")Requires little code if users already have BizTalk | ![clip_image004\[10\]](wrong.gif "clip_image004[10]")BizTalk :-)
+
+![clip_image004\[11\]](wrong.gif "clip_image004[11]")Deployment - Needs external work to deploy BizTalk server.
+
+![clip_image004\[12\]](wrong.gif "clip_image004[12]") Licence Cost |
 
 
 ### Option 6: OData 3rd Party solutions (doesn't exist)

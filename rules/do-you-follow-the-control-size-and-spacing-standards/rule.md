@@ -24,8 +24,10 @@ Despite seeming trivial, the most subtle elements of your form can have the grea
 
 The form shown in this screenshot is an example of bad control placement:
 
-1. The fonts used are non-standard (see: <br>      [Do you use Microsoft's Recommended Font in your Application?](http://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Controls.aspx#Font))
-2. The controls have <br>       **no consistency**in terms of margins, spacing or even control alignment. See, for example:
+1. The fonts used are non-standard (see: 
+      [Do you use Microsoft's Recommended Font in your Application?](http://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Controls.aspx#Font))
+2. The controls have 
+       **no consistency**in terms of margins, spacing or even control alignment. See, for example:
     1. The navigation buttons at the bottom of the screen having uneven margin space on the right and bottom sides. They're also the wrong size.
     2. The dimensions of all input controls and buttons do not follow standard convention (see below)
     3. The right side of the "Build..." button is not aligned with the right of the "Connection String" text box
@@ -47,7 +49,10 @@ These examples assume that you are using the standard system font as defined in 
 ### The Rules
 
 1. **Buttons must be...**
-    * Spaced apart by 6 pixels from other buttons <br>             **except** in the case of wizards where the <br>            *&lt; Back* and <br>            *Next &gt;* buttons may be closer together
+    * Spaced apart by 6 pixels from other buttons 
+             **except** in the case of wizards where the 
+            *&lt; Back* and 
+            *Next &gt;* buttons may be closer together
     * Spaced 6 pixels from the inside border of a form on the sides closest to it
     * usually 75 pixels wide
     * 23 pixels high
@@ -55,7 +60,8 @@ These examples assume that you are using the standard system font as defined in 
     * 21 pixels high (width depends on content)
     * Aligned correctly with any related controls
 3. **In a form...**
-    * Margins must be consistent (see <br>            [Microsoft's diagram illustrating this](http://www.ssw.com.au/ssw/Redirect/Microsoft/MSDNMargins.htm))
+    * Margins must be consistent (see 
+            [Microsoft's diagram illustrating this](http://www.ssw.com.au/ssw/Redirect/Microsoft/MSDNMargins.htm))
 
 
 These are some of the more common examples. Please read Microsoft's     [Visual Design Guidelines](http://www.ssw.com.au/ssw/Redirect/Microsoft/MSDNLayout.htm) for more information and greater detail.

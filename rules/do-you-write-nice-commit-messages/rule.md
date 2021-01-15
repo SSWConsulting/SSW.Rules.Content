@@ -82,5 +82,14 @@ There are a bunch more options to choose from - [carloscuesta/gitmoji: An emoji 
 h [Gitmoji - Visual Studio Marketplace (visualstudio.com)](https://marketplace.visualstudio.com/items?itemName=Vtrois.gitmoji-vscode).
 
 You can even go 🤘 hardcore and use the  **gitmoji cli -** [carloscuesta/gitmoji-cli: A gitmoji interactive command line tool for using emojis on commits. 💻 (github.com)](https://github.com/carloscuesta/gitmoji-cli)
-<dl class="goodImage"><br><br>::: good  <br>![](commits-with-emojis.jpg)  <br>:::<br><dt>   </dt><dd>Good Example: Great use of emoji and concise message<span style="color:#444444;"></span></dd></dl><dl class="image"><br><br>::: ok  <br>![Figure: see what emojis work best with each topic here: 
-gitmoji.carloscuesta.me/](emojis-list.jpg)  <br>:::<br></dl>
+
+
+::: good  
+![](commits-with-emojis.jpg)  
+:::
+   <dd>Good Example: Great use of emoji and concise message<span style="color:#444444;"></span></dd>
+
+::: ok  
+![Figure: see what emojis work best with each topic here: 
+gitmoji.carloscuesta.me/](emojis-list.jpg)  
+:::

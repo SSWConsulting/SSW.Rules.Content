@@ -108,7 +108,8 @@ Some example of rich Markdown editors are:
 
 * [ProseMirror](http://prosemirror.net/)
 * [Editor.Md](https://pandao.github.io/editor.md/)
- Note: It is the #1 editor on <br>      [Top 7: Best Markdown editors Javascript and jQuery plugins](https://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins)
+ Note: It is the #1 editor on 
+      [Top 7: Best Markdown editors Javascript and jQuery plugins](https://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins)
 * [ToastUI Editor](https://ui.toast.com/tui-editor/) (recommended)
 Note: ToastUI provides more customisation options (menu and language) than Editor.md
 

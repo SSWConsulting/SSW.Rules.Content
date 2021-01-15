@@ -32,7 +32,7 @@ It's also important to choose the correct semantic formatting for images. Differ
 
 ```
 <div class="badImage">
-        <img src="Images/imageWithoutStyles.jpg" alt="Image without styles" />
+        <img src="Images/imageWithoutStyles.jpg" alt="Image without styles">
         <span>Figure: Bad Example - The image has no styles</span>
     </div>
 ```
@@ -40,10 +40,10 @@ It's also important to choose the correct semantic formatting for images. Differ
 Figure: Bad Example - Inserting images and captions inside &lt;div&gt; tags
 
 ```
-<dl class="badImage">
-        <dt><img src="Images/imageWithoutStyles.jpg" alt="Image without styles" /></dt>
+
+        <img src="Images/imageWithoutStyles.jpg" alt="Image without styles">
         <dd>Figure: Bad Example - The image has no styles</dd>
-    </dl>
+    
 ```
 
 Figure: Good Example - Using the &lt;dl&gt;, &lt;dt&gt; and &lt;dd&gt; tags for images

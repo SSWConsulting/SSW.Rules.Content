@@ -27,10 +27,27 @@ There are three steps:
 ###  Step 1: Find the reports that don't need to be migrated
 
 * You need to install [SSW SQL Reporting Service Auditor](https://www.ssw.com.au/ssw/SQLReportingServicesAuditor/ "SSW SQL Reporting Service Auditor")both on the old and new servers. (You'll also need to run it on 3rd step)
-* Find those reports are not-in-use, as per a rule: <br>      [Do you know which reports are being used?](/do-you-know-which-reports-are-being-used)
-* Find creators of those reports, by clicking “Detail Views” in reports folder<br>      <dl class="image"><br><br>::: ok  <br>![Figure: Find reports creators by clicking "Details View" inside report folder](detailsview.png)  <br>:::<br></dl>
+* Find those reports are not-in-use, as per a rule: 
+      [Do you know which reports are being used?](/do-you-know-which-reports-are-being-used)
+* Find creators of those reports, by clicking “Detail Views” in reports folder
+      
+
+::: ok  
+![Figure: Find reports creators by clicking "Details View" inside report folder](detailsview.png)  
+:::
+
 * Send an email to report creater ask for permission to delete 
-<dl class="image"><br><br>::: ok  <br>![Figure:  Send an email to ask permission](sent.png)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Email received with permission to delete from creator](receive.png)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure:  Send an email to ask permission](sent.png)  
+:::
+
+
+::: ok  
+![Figure: Email received with permission to delete from creator](receive.png)  
+:::
+
 
 ### 2. Migrate those in-use reports from old server to new server
 

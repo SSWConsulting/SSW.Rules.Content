@@ -30,13 +30,18 @@ As long as you have work items created and your developers keep them up to date,
 6. In order to have the cost calculated, we need to assign a rate to each of the resources. This can be done by going to “View | Resource Sheet”
 ![](AssignResourceRates.jpg) **Figure: Assign resource rates**
 7. When you switch back to “Team System Task Sheet”, you will want to add the following fields so we can see the cost status;
-<br>      a.  Baseline Cost
-<br>      b. Remaining Cost
-<br>      c. Actual Cost 
-<br>    You will notice the “Remaining Cost” column has been calculated based on the “Remaining Work” column and the Rate we entered for each task. 
+
+      a.  Baseline Cost
+
+      b. Remaining Cost
+
+      c. Actual Cost 
+
+    You will notice the “Remaining Cost” column has been calculated based on the “Remaining Work” column and the Rate we entered for each task. 
 ![](CostColumn_Small.jpg) **Figure: Showing the cost columns**
 8. In order for MS Project to calculate and display a total cost for your current release you will need to add a summary task at the top level of the project tasks.
-<br>    Choose the 1st task in your project, right click and create a “New Task” 
+
+    Choose the 1st task in your project, right click and create a “New Task” 
 ![](SummaryTask.jpg) **Figure: Create a summary task at the top** Name the task as per your release name so you know what this plan is for; also you don’t want this task to be created in your TFS as a work item because it’s just a summary, set “Publish and Refresh” as “No”. 
 ![](NoPublishAndRefresh.jpg) **Figure: Don’t publish and refresh this summary task** In order to make this a summary item you need to select all the other tasks and indent them. To achieve this click the little red forward arrow in the toolbar.
 ![](IndentTask_Small.jpg) **Figure: Indent tasks** Now, your summary task is ready and it’s showing the total cost for your current release: ![](TotalCost_Small.jpg)**Figure: Total cost is calculated**

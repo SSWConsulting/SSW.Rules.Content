@@ -11,8 +11,7 @@ redirects: []
 
 ---
 
-<dl class="ssw15-rteElement-ImageArea">      <img src="../../assets/opticalalignment.jpg" alt="Optical alignment">
-   </dl> **Figure: In the first example, although the text is technically aligned, it does not 'look' it. In the second one, the "V" has been moved into the margin, but the optical alignment is now correct** 
+![Optical alignment](../../assets/opticalalignment.jpg)**Figure: In the first example, although the text is technically aligned, it does not 'look' it. In the second one, the "V" has been moved into the margin, but the optical alignment is now correct** 
 <!--endintro-->
 
 Not only relevant in typography, optical alignment can also be used in forms and web.

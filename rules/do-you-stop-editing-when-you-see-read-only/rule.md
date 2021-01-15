@@ -23,10 +23,16 @@ When editing a .doc file in a SharePoint document library, you need to always �
 
 ![Click Check-Out to edit](SharepointWord1.jpg) 
 
-<font face="Calibri"><font size="2"><font face="Times New Roman"> <strong>Figure: Click “Check Out” to edit the document in TFS</strong> </font><br>
-<br>
-<img style="width:650px;height:300px;" alt="Save before closing" src="SharepointWord2.jpg"> <br>
-</font><font face="Calibri"><font size="2"><font face="Times New Roman"> <strong>Figure: When you click “yes”, expect a 2<sup>nd</sup> dialog (for SharePoint controlled docs)</strong> </font><br>
-<br>
-<img style="width:650px;height:350px;" alt="Check - in after saving the changes" src="SharepointWord3.jpg"> <br>
+<font face="Calibri"><font size="2"><font face="Times New Roman"> <strong>Figure: Click “Check Out” to edit the document in TFS</strong> </font>
+
+
+
+<img style="width:650px;height:300px;" alt="Save before closing" src="SharepointWord2.jpg"> 
+
+</font><font face="Calibri"><font size="2"><font face="Times New Roman"> <strong>Figure: When you click “yes”, expect a 2<sup>nd</sup> dialog (for SharePoint controlled docs)</strong> </font>
+
+
+
+<img style="width:650px;height:350px;" alt="Check - in after saving the changes" src="SharepointWord3.jpg"> 
+
 </font></font></font><font size="2" face="Times New Roman"> <strong>Figure: Good – the dialog you should always get on saving</strong> </font>

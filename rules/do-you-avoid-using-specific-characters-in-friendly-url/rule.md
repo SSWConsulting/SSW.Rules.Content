@@ -19,7 +19,9 @@ When adding a friendly URL, please avoid using specific characters like “+, :,
 <!--endintro-->
 
 1. When adding a friendly URL, we meant to make it “ **friendly** " and “ **easy** " for the user to read and remember, so avoid using specific characters and try to make it short.
-2. Some characters are unsafe characters, they will be encoded, which end up making the URL really messy and ugly, e.g <br>       **double quote** (“) will be encoded to <br>       **%22** .
+2. Some characters are unsafe characters, they will be encoded, which end up making the URL really messy and ugly, e.g 
+       **double quote** (“) will be encoded to 
+       **%22** .
 
 
 Some characters are reserved characters, which may not be supported by some features, based on our experience, “+" is not supported in “canonical" to redirect from      **http**  to      **https** .

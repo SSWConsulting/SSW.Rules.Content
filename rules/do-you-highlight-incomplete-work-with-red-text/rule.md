@@ -11,7 +11,10 @@ redirects: []
 
 ---
 
-It is important that users of your application who provide feedback <br>have very clear indications of work that is not yet complete, to avoid <br>feedback on sections of your application that are still under <br>development.
+It is important that users of your application who provide feedback 
+have very clear indications of work that is not yet complete, to avoid 
+feedback on sections of your application that are still under 
+development.
 
 <!--endintro-->
 

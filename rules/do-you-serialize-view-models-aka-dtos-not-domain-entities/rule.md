@@ -61,13 +61,34 @@ For all these reasons, the use of DTOs or View Models is highly recommended:
 * Consider this to be a case where the Single Responsibility Principle (SRP) generally outweighs Don’t Repeat Yourself (DRY)
 * Read operations can be optimised by selecting from DBSets directly into view models
 
-<dl class="goodImage"><br><br>::: good  <br>![](good-webapi-1.png)  <br>:::<br><dt>
+
+
+::: good  
+![](good-webapi-1.png)  
+:::
+
          <img src="good-webapi-2.png" alt="good-webapi-2.png"> 
-      </dt><br><br>::: good  <br>![Figure: Good Example - Update an Entity from a submitted View Model](good-webapi-2.png)  <br>:::<br></dl>
+      
+
+::: good  
+![Figure: Good Example - Update an Entity from a submitted View Model](good-webapi-2.png)  
+:::
+
 This approach requires a bit more boiler-plate code as the fields to be updated are applied manually, but there is far less risk of unintended side effects.
-As the complexity of the code increases, it will be much easier for developers to keep a clear distinction between ViewModel objects that were received from web requests, and persistent entities that came from Entity Framework.<br>   <dl class="goodImage"><br><br>::: good  <br>![](good-webapi-operation-1.png)  <br>:::<br><dt> 
+As the complexity of the code increases, it will be much easier for developers to keep a clear distinction between ViewModel objects that were received from web requests, and persistent entities that came from Entity Framework.
+   
+
+::: good  
+![](good-webapi-operation-1.png)  
+:::
+ 
          <img src="good-webapi-operation-2.png" alt="good-webapi-operation-2.png"> 
-      </dt><br><br>::: good  <br>![Figure: Good Example - A Read Operation that selects directly into a view model](good-webapi-operation-2.png)  <br>:::<br></dl>
+      
+
+::: good  
+![Figure: Good Example - A Read Operation that selects directly into a view model](good-webapi-operation-2.png)  
+:::
+
 For the above read, Entity Framework will execute an SQL select statement containing only the fields that have been projected via .Select()  
 This will also prevent change tracking on the source entity.
 

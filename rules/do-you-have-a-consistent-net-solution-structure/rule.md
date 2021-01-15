@@ -33,9 +33,11 @@ Dependencies and the application core are clearly separated as per the     [Onio
 
 In the above example you can clearly see:
 
-* The different layers of the Onion Architecture: see <br>      [Layers of the Onion Architecture](/do-you-know-the-layers-of-the-onion-architecture)
+* The different layers of the Onion Architecture: see 
+      [Layers of the Onion Architecture](/do-you-know-the-layers-of-the-onion-architecture)
 * Unit test and integration test projects: see[Rules to Better Unit Tests](http://www.ssw.com.au/ssw/standards/rules/RulesToBetterUnitTests.aspx)
-* The Documentation solution folder: see <br>      [Do you review the documentation?](/do-you-review-the-documentation)
+* The Documentation solution folder: see 
+      [Do you review the documentation?](/do-you-review-the-documentation)
 * The References solution folder: to hold any 3rd party assemblies that are not available via NuGet
 
 

@@ -49,7 +49,8 @@ Here are some tips to have a better call:
 * **Video** - Check the image quality of the camera. Beware of the angle of the camera - the ones with thin bezels now put the camera at the base, looking up your nose. Avoid them. Frame your head and shoulders in the shot, and keep the camera lens at or above eye level - use a cardboard box as a stand if necessary.
 Eye to Eye level is best - for more info see [Six tips for looking great in a Zoom meeting](https://www.usatoday.com/story/tech/2020/04/11/zoom-meetings-go-better-these-6-tips-look-your-best/5125980002/)
 * **Video** - Consider what is in the background - Keep a light source on your face, and try to avoid sitting with a window behind you.
-Get your video background right. Check <br>      [Rules to Better Branding](/rules-to-better-branding).
+Get your video background right. Check 
+      [Rules to Better Branding](/rules-to-better-branding).
 * **Video** - Have a microfiber cloth and wipe off the lens from time to time.
 * **Text** - It's always helpful to confirm things you're talking about with typed text during the call (Especially helpful for people with English as a second language).
 

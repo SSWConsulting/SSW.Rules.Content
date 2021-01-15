@@ -32,7 +32,8 @@ The template is designed for creating a Single Page App (SPA) with Angular and A
 3. Run  **dotnet new --install Clean.Architecture.Solution.Template** to install the project template
 4. Create a folder for your solution and cd into it (the template will use it as project name)
 5. Run  **dotnet new ca-sln** to create a new project
-6. Navigate <br>       **to** **src/WebUI** and run  **dotnet run** to launch the project
+6. Navigate 
+       **to** **src/WebUI** and run  **dotnet run** to launch the project
 
 
 If you would like to learn more, review the following blog post: [Clean Architecture with .NET Core: Getting Started](https://jasontaylor.dev/clean-architecture-getting-started/).

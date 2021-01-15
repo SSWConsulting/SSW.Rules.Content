@@ -27,7 +27,7 @@ Here is an image for your war room wall...
 ::: bad  
 ![OK Figure: This Scrum image is OK because it includes all the important steps including the Review and the Retro](SCRUMImage-good.jpg)  
 :::
-<dl class="ssw15-rteElement-ImageArea">      <a href="/Documents/8StepstoScrum.pdf"><img src="8Steps_preview.jpg" alt="8 steps to scrum"></a></dl>Good Figure: This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print this "[SSW 8 Steps to Scrum pdf](/Documents/8StepstoScrum.pdf)" and put it on your 'War Room' wall
+[![8 steps to scrum](8Steps_preview.jpg)](/Documents/8StepstoScrum.pdf)Good Figure: This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print this "[SSW 8 Steps to Scrum pdf](/Documents/8StepstoScrum.pdf)" and put it on your 'War Room' wall
 
 ::: ok  
 ![Figure: If you like this, retweet         twitter.com/AdamCogan/status/94109372908711936](scrum-twitter.jpg)  

@@ -21,10 +21,16 @@ Here is how you do it:
 
 <!--endintro-->
 
-1. Right click the <br>       **Application Folder** and choose <br>       **Properties**
-2. Click on Filters button to open the <br>       **Edit Filters** dialog
-3. Click on <br>       **New** button to create Include pattern. Alternatively you can switch to <br>       **Exclude Filters** tab
-4. Enter the Pattern and press <br>       **OK** on each screen
+1. Right click the 
+       **Application Folder** and choose 
+       **Properties**
+2. Click on Filters button to open the 
+       **Edit Filters** dialog
+3. Click on 
+       **New** button to create Include pattern. Alternatively you can switch to 
+       **Exclude Filters** tab
+4. Enter the Pattern and press 
+       **OK** on each screen
 
 
 

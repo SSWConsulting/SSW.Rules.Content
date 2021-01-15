@@ -27,7 +27,8 @@ Screen captures at https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-sys
 
 | **Test Object**  | **Recommended Style**  | **Example**  |
 | --- | --- | --- |
-| Project Name | Tests.[Testtypes].Projectname | Tests.Unit.Common,Tests.Unit.WebFrontend,Test.Integration.MainWCFService<br>Tests.Functional.SilverlightUI, Tests.Functional.WebUI \* |
+| Project Name | Tests.[Testtypes].Projectname | Tests.Unit.Common,Tests.Unit.WebFrontend,Test.Integration.MainWCFService
+Tests.Functional.SilverlightUI, Tests.Functional.WebUI \* |
 | Test Fixture Name | [Type]Tests | OrdersTests, CustomerTests, DeveloperTests |
 | Test Case | [Function]Test | NullableIntTryParse\_NumberIsValid1\_Return1, StringHelperEncodeTo64\_EncodeAndUnencodeString\_ReturnSameString |
 | Set Up | SetUp |   |

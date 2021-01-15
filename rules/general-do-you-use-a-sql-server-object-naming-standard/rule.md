@@ -22,20 +22,62 @@ All feedback is welcome. Thanks to all who gave feedback. A special thanks to An
 
 
 
-| **Object** <br> |  **Prefix** <br> |  **Example** <br> |
+| **Object** 
+ |  **Prefix** 
+ |  **Example** 
+ |
 | --- | --- | --- |
-| Table<br> | --<br> | Clients<br> |
-| Column (PK)<br> | --<br> | Id<br> |
-| Column (FK)<br> | --<br> | ClientId<br> |
-| Temporary Table<br> | \_zt<br> | \_ztClients<br> |
-| System Table<br> | \_zs<br> | \_zsDataVersion<br>\_zsVersionLatest<br> |
-| View<br> | vw, gy\_<br> | vwClientsWithNoPhoneW<br>gy\_ClientsWithNoPhoneW<br> |
-| Stored Procedure<br> | proc, gp\_<br> | procSelectClientsClientID<br>gp\_SelectClientsClientID<br> |
-| Trigger<br> | trg<br> | trgOrderIU<br> |
-| Default\*<br> | dft \*<br> | dftToday \*<br> |
-| Rule<br> | rul<br> | rulCheckZIP<br> |
-| User-Defined Datatype<br> | udt<br> | udtPhone<br> |
-| User-Defined Functions<br> | udf<br> | udfDueDates<br> |
+| Table
+ | --
+ | Clients
+ |
+| Column (PK)
+ | --
+ | Id
+ |
+| Column (FK)
+ | --
+ | ClientId
+ |
+| Temporary Table
+ | \_zt
+ | \_ztClients
+ |
+| System Table
+ | \_zs
+ | \_zsDataVersion
+\_zsVersionLatest
+ |
+| View
+ | vw, gy\_
+ | vwClientsWithNoPhoneW
+gy\_ClientsWithNoPhoneW
+ |
+| Stored Procedure
+ | proc, gp\_
+ | procSelectClientsClientID
+gp\_SelectClientsClientID
+ |
+| Trigger
+ | trg
+ | trgOrderIU
+ |
+| Default\*
+ | dft \*
+ | dftToday \*
+ |
+| Rule
+ | rul
+ | rulCheckZIP
+ |
+| User-Defined Datatype
+ | udt
+ | udtPhone
+ |
+| User-Defined Functions
+ | udf
+ | udfDueDates
+ |
 
 
 \* We never use defaults as objects, this is really an old thing that is just there for backwards compatibility. Much better to use a default constraint.

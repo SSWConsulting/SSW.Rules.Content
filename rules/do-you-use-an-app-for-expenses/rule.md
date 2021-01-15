@@ -37,19 +37,94 @@ It may be difficult to determine which app would be best suited for your busines
 
 
 
-| Features (based on 5 users)<br> | Receipt Bank<br> | Hubdoc<br> | Expensify<br><br> | Preferred Option<br> |
+| Features (based on 5 users)
+ | Receipt Bank
+ | Hubdoc
+ | Expensify
+
+ | Preferred Option
+ |
 | --- | --- | --- | --- | --- |
-| Pricing<br> | $360/annual<br> | Free with Xero<br> | $840/annual (minimum)<br> | Hubdoc <br> |
-| Submission Procedure<br><br> | Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. <br> | Same as Receipt Bank<br><br> | Same as Receipt Bank<br><br> | No preference – the same procedures with all.<br> <br> **Figure: Hubdoc email for receiving** <br><br> |
-| Restriction on Invoice uploads <br> | 300/mo<br> | Unlimited<br> | Unlimited<br><br> | Hubdoc and Expensify<br><br> |
-| Back-up<br> | Unlimited – Never deletes and remains archived<br> | Unlimited – use cloud back up and security. Never deletes <br> | Unlimited – Never deletes and remains archived<br> | Hubdoc – the added security just seems better<br> |
-| Organising<br> | No real organization of documents. Either inactive or archived and ordered in date/supplier order<br> | Requires greater access than uploader only. Automatically organized into folders (can be updated). <br> | Can be manually organised into folders or reports. <br> | Expensify as Hubdoc requires greater access<br><br> |
-| Expense Rules<br> | Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) <br> | Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)<br> | Same as Receipt Bank – little easier to navigate to the section <br> | Expensify <br> |
-| Accounting Codes<br> | Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way<br> | Same as Receipt Bank<br> | Not available at $840/annual. If the business wants to use this, the subscription plan will be $1800/annual.<br> | Receipt Bank or Hubdoc<br><br> |
-| Receipt Fetch<br> | Ability to integrate with most common suppliers (utilities, banks and some more). Automatically grabs any new invoices and pushes to Receipt Bank<br>https://help.receipt-bank.com/hc/en-us/articles/360005754174-List-of-Suppliers-for-Invoice-Fetch <br> | More options than Receipt Bank and more major suppliers<br> <br>https://go.hubdoc.com/hubfs/HubdocLiveAUConnections.pdf<br> | Limited options https://use.expensify.com/all-integrations<br> | Hubdoc<br><br> |
-| Phone Compatibility<br> | iPhone, Android and Web-based <br> | All Phones <br> | All Phones<br> | Hubdoc or Expensify<br> |
-| Two-factor Authentication<br> | No<br> | Yes<br> | No<br> | Hubdoc<br> |
-| How-to Videos<br> | No<br> | Yes<br> | Yes<br> | Expensify - has more videos<br> |
+| Pricing
+ | $360/annual
+ | Free with Xero
+ | $840/annual (minimum)
+ | Hubdoc 
+ |
+| Submission Procedure
+
+ | Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. 
+ | Same as Receipt Bank
+
+ | Same as Receipt Bank
+
+ | No preference – the same procedures with all.
+ 
+ **Figure: Hubdoc email for receiving** 
+
+ |
+| Restriction on Invoice uploads 
+ | 300/mo
+ | Unlimited
+ | Unlimited
+
+ | Hubdoc and Expensify
+
+ |
+| Back-up
+ | Unlimited – Never deletes and remains archived
+ | Unlimited – use cloud back up and security. Never deletes 
+ | Unlimited – Never deletes and remains archived
+ | Hubdoc – the added security just seems better
+ |
+| Organising
+ | No real organization of documents. Either inactive or archived and ordered in date/supplier order
+ | Requires greater access than uploader only. Automatically organized into folders (can be updated). 
+ | Can be manually organised into folders or reports. 
+ | Expensify as Hubdoc requires greater access
+
+ |
+| Expense Rules
+ | Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) 
+ | Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)
+ | Same as Receipt Bank – little easier to navigate to the section 
+ | Expensify 
+ |
+| Accounting Codes
+ | Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way
+ | Same as Receipt Bank
+ | Not available at $840/annual. If the business wants to use this, the subscription plan will be $1800/annual.
+ | Receipt Bank or Hubdoc
+
+ |
+| Receipt Fetch
+ | Ability to integrate with most common suppliers (utilities, banks and some more). Automatically grabs any new invoices and pushes to Receipt Bank
+https://help.receipt-bank.com/hc/en-us/articles/360005754174-List-of-Suppliers-for-Invoice-Fetch 
+ | More options than Receipt Bank and more major suppliers
+ 
+https://go.hubdoc.com/hubfs/HubdocLiveAUConnections.pdf
+ | Limited options https://use.expensify.com/all-integrations
+ | Hubdoc
+
+ |
+| Phone Compatibility
+ | iPhone, Android and Web-based 
+ | All Phones 
+ | All Phones
+ | Hubdoc or Expensify
+ |
+| Two-factor Authentication
+ | No
+ | Yes
+ | No
+ | Hubdoc
+ |
+| How-to Videos
+ | No
+ | Yes
+ | Yes
+ | Expensify - has more videos
+ |
 
 
  **Overall, Hubdoc is a clear winner.** Additional to the above, Hubdoc is allowed unlimited users when connected with Xero.

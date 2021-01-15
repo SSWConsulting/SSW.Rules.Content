@@ -25,16 +25,28 @@ On your timesheet entries, there are a few rules you should follow on how to bes
 <!--endintro-->
 
 * Use standard terms to describe the work you have done e.g. 'Build', 'Investigated', 'Resolved', 'Enhanced', 'Created', 'Optimized', 'Experimented with', 'Improved' or 'Fixed'.
-* Use the word 'bug' only if it fits the <br>      [<font color="#3a66cc">definition of a bug</font>](/management-is-your-client-clear-on-the-definition-of-a-bug).
+* Use the word 'bug' only if it fits the 
+      [<font color="#3a66cc">definition of a bug</font>](/management-is-your-client-clear-on-the-definition-of-a-bug).
 * The term 'Investigated and changed' is better than 'Fixed bug'.
                         The word 'bug' gives the impression that the problem was solely the developer's fault, when often most fixes are to do with changes as a result of unspecified work (extra validation, extra testing or gold plating).
-<dl class="bad"><br>::: greybox<br>'Fixed Bug on customer form'  <br>:::<br><dd>Figure&#58; Bad example</dd></dl><dl class="good"><br>::: greybox<br>'Investigated and improved the  validation on customer form to enable saving when Customer name is &gt; 100 characters'  <br>:::<br><dd>Figure&#58; Good example</dd></dl>
+
+::: greybox
+'Fixed Bug on customer form'  
+:::
+<dd>Figure&#58; Bad example</dd>
+::: greybox
+'Investigated and improved the  validation on customer form to enable saving when Customer name is &gt; 100 characters'  
+:::
+<dd>Figure&#58; Good example</dd>
 * Be specific about what you did. e.g. 
 If you create a new form, write 'Created Client form'.
 If you are adding a button to a form write 'Client form - Added button AddNew'.
-If you are trying to find a bug write 'Investigated error on ClientDiary form'. <br>      
-If you fix something, write 'Resolved'. <br>      
-If you are making something faster, write 'Optimized procClientDiary'. <br>      
+If you are trying to find a bug write 'Investigated error on ClientDiary form'. 
+      
+If you fix something, write 'Resolved'. 
+      
+If you are making something faster, write 'Optimized procClientDiary'. 
+      
 If you are writing stored procs, write down their names.
 * Use capital letters appropriately - if it is a Proper Noun use a capital - e.g. Adam Cogan, SQL Server, Toyota is ok, Website is not.
 * Start a new line for each new detail. It makes it more readable. However, don't go overboard and take up half a page for one timesheet.

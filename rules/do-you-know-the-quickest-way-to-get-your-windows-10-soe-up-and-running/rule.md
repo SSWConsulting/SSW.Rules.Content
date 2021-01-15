@@ -29,7 +29,8 @@ The next step is to get the Standard Operating Environment (SOE) installed. You 
 
 <!--endintro-->
 
-### Use a package manager ([Chocolatey](/do-you-use-a-package-manager))  <br>   
+### Use a package manager ([Chocolatey](/do-you-use-a-package-manager))  
+   
 
 
 Assuming that Windows 10 is already installed, then get your SOE installed fast by following these steps:
@@ -38,10 +39,33 @@ Assuming that Windows 10 is already installed, then get your SOE installed fast 
 2. Install Windows Updates
 3. Join laptop to the Domain (or run a Logon-Script.bat to get printers, Word templates, etc. Contact SysAdmin to join laptop to the domain)
 4. Install and run a Chocolatey script to get most of the software
-5. Install all rest of the standard Software that does not support Chocolatey [SSW Only]   <br>
+5. Install all rest of the standard Software that does not support Chocolatey [SSW Only]   
+
 6. In case you lose your laptop, it is a good idea to stick a business card to the bottom
-7. For branding reasons, stick your company sticker to the laptop <br>      <dl class="image"><br><br>::: ok  <br>![Figure: SSWLoginScript.bat](LoginScript.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: SSWPackages.ps1 which runs Chocolatey command to install SOE software](ChocolateyScript.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: SOE Software that is not supported by Chocolatey](NonChocolateyApp.jpg)  <br>:::<br></dl><dl class="image"><br><br>::: ok  <br>![Figure: Company branding on laptop](SSWLaptopBranding.jpg)  <br>:::<br></dl>
-8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:<br>      
+7. For branding reasons, stick your company sticker to the laptop 
+      
+
+::: ok  
+![Figure: SSWLoginScript.bat](LoginScript.jpg)  
+:::
+
+
+::: ok  
+![Figure: SSWPackages.ps1 which runs Chocolatey command to install SOE software](ChocolateyScript.jpg)  
+:::
+
+
+::: ok  
+![Figure: SOE Software that is not supported by Chocolatey](NonChocolateyApp.jpg)  
+:::
+
+
+::: ok  
+![Figure: Company branding on laptop](SSWLaptopBranding.jpg)  
+:::
+
+8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
+      
 Hey Ana, 
  
 Your new computer is ready. ⭐️  

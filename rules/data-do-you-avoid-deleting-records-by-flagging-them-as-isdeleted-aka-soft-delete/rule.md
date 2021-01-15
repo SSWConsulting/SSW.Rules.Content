@@ -45,8 +45,10 @@ Also see [Using Audit Tools](/use-temporal-tables-to-audit-data-changes) for a
 
 Watch William Liebenberg's SpendOps talk for more details about why soft deletes are advantageous in Azure:
 
-* SSW TV video: <br>         [Real-life SpendOps with Azure Cosmos DB](https&#58;//www.youtube.com/watch?v=qfPQR8XlwFo)
-* NDC video: <br>         [Azure SpendOps – The Art of Effectively Managing Azure Costs](https&#58;//www.youtube.com/watch?v=zxSlKiWOOzw)
+* SSW TV video: 
+         [Real-life SpendOps with Azure Cosmos DB](https&#58;//www.youtube.com/watch?v=qfPQR8XlwFo)
+* NDC video: 
+         [Azure SpendOps – The Art of Effectively Managing Azure Costs](https&#58;//www.youtube.com/watch?v=zxSlKiWOOzw)
 
 
 :::

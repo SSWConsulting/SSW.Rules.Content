@@ -20,7 +20,8 @@ SPEAKER: "No questions please. Ask your questions at the end"
 
 Figure: Bad Example - this kills the sense of interactivity that is so appealing about live presentations
 
-SPEAKER: "Questions<br>are fine as long as they are on-topic, something about the current slide"
+SPEAKER: "Questions
+are fine as long as they are on-topic, something about the current slide"
 
 Figure: Good Example - this allows interactivity but stops the audience from distracting and derailing the speaker
 

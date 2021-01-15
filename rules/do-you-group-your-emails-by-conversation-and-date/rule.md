@@ -34,7 +34,12 @@ Follow these steps to group by conversation:
 1. Open Outlook and select the Mail View.
 2. Right-click any column and choose the "Customize Current View..." option.
 3. Select the "Group by..." option as displayed in the image.
-<dl class="image"><br><br>::: ok  <br>![Figure:  Steps to group by conversation field](GroupByConversationAndDate3.gif)  <br>:::<br></dl>
+
+
+::: ok  
+![Figure:  Steps to group by conversation field](GroupByConversationAndDate3.gif)  
+:::
+
 4. Select the "Conversation" field from the list.  (Leave empty the remaining groups)
 
  **VIDEO** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

@@ -45,7 +45,7 @@ Other nice day 1 gifts could include:
 * Use a blank notebook to write a welcome note and put handy hints inside, then they can continue to use the notepad during induction!
 
 
-<dl class="ssw15-rteElement-ImageArea"><img src="Penny Welcome Pic.jpg" alt="Penny Welcome Pic.jpg" style="margin:5px;width:500px;height:1007px;"></dl>
+<img src="Penny Welcome Pic.jpg" alt="Penny Welcome Pic.jpg" style="margin:5px;width:500px;height:1007px;">
 ::: good
 Good example: Personal, fun welcome to SSW Sydney with all of the good food and coffee tips!
 

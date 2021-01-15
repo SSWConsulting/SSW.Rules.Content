@@ -25,6 +25,14 @@ When your team has completed a release successfully, they should be rewarded wit
 
 
 
-| **Subject** : "Release completed on budget and customer happy - reward!"                 <br>  <br> New,<br><ul><li>Release - on time<ul><li>Done.&#160; Release was handed over on the deadline.</li></ul></li><li>Release - on budget<ul><li>Done. The release was fixed price</li></ul></li><li>Scope - no more than 50% cut-out in items (count the work hours removed compared to the original total)<br><ul><li>Done.&#160; No items were cut from the release plan</li></ul></li><li>Quality - must pass test please and get a mark of 7/10 or above from the client<ul><li>Test please passed.&#160; The client assigned 8/10</li></ul></li><li>Release debrief to the client to be completed - &#160;<ul><li>Release debrief completed.&#160; Rules to better project management reviewed.&#160; Greater visibility of progress would be beneficial and remote access to staging server during development.<br> &#160;-</li></ul></li> Our team will be celebrating our success by going for lunch.</ul>Developers,<br>Congratulations on completing the project on time!  We will celebrate by going for lunch together at Bistro Paris on Friday!  We have a budget of $50 per team member!<br>Robin,<br>If you are available it would be great if you could join us.  Meet at the SSW office in Neutral Bay at 12:45pm. |
+| **Subject** : "Release completed on budget and customer happy - reward!"                 
+  
+ New,
+<ul><li>Release - on time<ul><li>Done.&#160; Release was handed over on the deadline.</li></ul></li><li>Release - on budget<ul><li>Done. The release was fixed price</li></ul></li><li>Scope - no more than 50% cut-out in items (count the work hours removed compared to the original total)
+<ul><li>Done.&#160; No items were cut from the release plan</li></ul></li><li>Quality - must pass test please and get a mark of 7/10 or above from the client<ul><li>Test please passed.&#160; The client assigned 8/10</li></ul></li><li>Release debrief to the client to be completed - &#160;<ul><li>Release debrief completed.&#160; Rules to better project management reviewed.&#160; Greater visibility of progress would be beneficial and remote access to staging server during development.
+ &#160;-</li></ul></li> Our team will be celebrating our success by going for lunch.</ul>Developers,
+Congratulations on completing the project on time!  We will celebrate by going for lunch together at Bistro Paris on Friday!  We have a budget of $50 per team member!
+Robin,
+If you are available it would be great if you could join us.  Meet at the SSW office in Neutral Bay at 12:45pm. |
 | --- |
 | **Figure: Email to accountant/team members and client informing of release success and reward event**  |

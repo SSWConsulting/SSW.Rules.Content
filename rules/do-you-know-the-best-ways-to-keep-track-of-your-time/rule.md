@@ -21,7 +21,8 @@ There are 4 ways developers can keep track of what they have been working on whe
 
 <!--endintro-->
 
-1. Fully electronic - Enter your timesheets daily <br>       **(recommended)**
+1. Fully electronic - Enter your timesheets daily 
+       **(recommended)**
 2. Keep details in OneNote or Notepad++
 3. Jot it down on paper (i.e. a physical diary)
 4. Copy and paste your TFS check ins. The comments from these check-ins make great comments for your timesheet entries

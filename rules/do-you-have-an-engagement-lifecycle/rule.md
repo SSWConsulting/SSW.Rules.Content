@@ -32,7 +32,8 @@ Figure: Good Example - Engagement Lifecycle
     * The client has made contact but no initial meeting has yet been made
 2. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting) - Booked
     * Sales team has arranged an initial meeting and it's booked in.
-    * The Initial Meeting is a non-billed meeting that maps to the Initial Meeting described in the <br>         [8 Steps to Scrum](/do-you-know-the-8-steps-to-scrum). It is attended by a Sales person and ideally a Solution Architect.
+    * The Initial Meeting is a non-billed meeting that maps to the Initial Meeting described in the 
+         [8 Steps to Scrum](/do-you-know-the-8-steps-to-scrum). It is attended by a Sales person and ideally a Solution Architect.
 3. Follow Up Meeting - Booked
     * In some cases, more than one initial meeting may be required before work or speccing commences.
 4. [Specification Review](/rules) Proposal - Waiting for Approval
@@ -45,7 +46,9 @@ Figure: Good Example - Engagement Lifecycle
     * After the Specification Review, the client is given a proposal for a chunk of work. Once this is approved, the Sales Team closes the opportunity as 'won'.
     * Proposal is sent to the client including financials and the result of the Specification Review.
 7. Project Execution
-    * The <br>         [Scrum](/do-you-know-the-8-steps-to-scrum) process runs, starting with the first sprint forecast email, as per <br>         [Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)](/do-you-create-a-sprint-forecast-%28aka-the-functionality-that-will-be-developed-during-the-sprint%29).
+    * The 
+         [Scrum](/do-you-know-the-8-steps-to-scrum) process runs, starting with the first sprint forecast email, as per 
+         [Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)](/do-you-create-a-sprint-forecast-%28aka-the-functionality-that-will-be-developed-during-the-sprint%29).
 8. Project Closure
     * Project is completed, any handover or other transition that has been defined is completed with the client.
     * Just like a Sprint Retrospective is held at the end of each Sprint, a Project Retrospective is held to learn from the project that has just completed.

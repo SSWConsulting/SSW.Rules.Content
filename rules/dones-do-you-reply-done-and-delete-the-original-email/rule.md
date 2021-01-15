@@ -99,7 +99,8 @@ Damian
 
 Hi Bob,
 
-1. **Done** (see <br>            [www.ssw.com.au](http://www.ssw.com.au/))
+1. **Done** (see 
+            [www.ssw.com.au](http://www.ssw.com.au/))
 2. **Not Done** - We don't have a camera
 
 

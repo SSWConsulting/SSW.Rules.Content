@@ -30,4 +30,8 @@ Tips:
 1. Use a region screen shot if appropriate (however the URL is generally helpful in most browser screen shots)
 2. Go full screen e.g. F11 in Internet Explorer, then &lt;Alt&gt;+&lt;Print&gt;
 3. Always have the 'Auto-hide the taskbar' option checked
-<dl class="goodImage"><br><br>::: good  <br>![Figure: Always have the 'Auto-hide the taskbar' option checked so you do be screen shots](Good_Auto-Hide-Taskbar.gif)  <br>:::<br></dl>
+
+
+::: good  
+![Figure: Always have the 'Auto-hide the taskbar' option checked so you do be screen shots](Good_Auto-Hide-Taskbar.gif)  
+:::

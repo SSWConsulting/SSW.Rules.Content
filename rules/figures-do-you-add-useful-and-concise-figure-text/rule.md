@@ -66,7 +66,8 @@ Figure: [Description…] (bolded is best)
 
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
-<br>   &lt;
+
+   &lt;
 ::: greybox
 [image]
 
@@ -118,7 +119,8 @@ To print your document:
 :::
 
 ::: good
-Figure: Good example - Using present or future tense implies confidence <br>            
+Figure: Good example - Using present or future tense implies confidence 
+            
 
 :::
 

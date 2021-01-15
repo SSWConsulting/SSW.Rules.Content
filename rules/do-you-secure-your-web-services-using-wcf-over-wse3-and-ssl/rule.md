@@ -28,12 +28,17 @@ Implementation of security at the message layer security has several policies th
     3. Kerbose Token
     4. X.509 Certificate Token
 
-<br>    At SSW we implement UserName Token using the standard login screen that prompts for a Username and a Password, which then gets passed into the SOAP header (at message level) for authorization.
-<br>    This requires SSL which provides a secure tunnel from client to server.
-<br>    However, message layer securtiy does not provide authentication security, so it does not stop the ability for a determined hacker to try user name / password attempts forever. Custom Policies setup at Application Level can to prevent brute force.
+
+    At SSW we implement UserName Token using the standard login screen that prompts for a Username and a Password, which then gets passed into the SOAP header (at message level) for authorization.
+
+    This requires SSL which provides a secure tunnel from client to server.
+
+    However, message layer securtiy does not provide authentication security, so it does not stop the ability for a determined hacker to try user name / password attempts forever. Custom Policies setup at Application Level can to prevent brute force.
 2. **Performance** 
-<br>    Indigo has got the smarts to negotiate to the most performant serialization and transport protocol that either side of the WS conversation can accommodate, so it will have the best performance having "all-things-being-equal". You can configure the web services SSL session simply in the web.config file.
-<br>    After having Configure an SSL certificate (in the LocalMachine store of the server), the following lines are required in the web.config:
+
+    Indigo has got the smarts to negotiate to the most performant serialization and transport protocol that either side of the WS conversation can accommodate, so it will have the best performance having "all-things-being-equal". You can configure the web services SSL session simply in the web.config file.
+
+    After having Configure an SSL certificate (in the LocalMachine store of the server), the following lines are required in the web.config:
 
 
 

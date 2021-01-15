@@ -37,7 +37,12 @@ To add a [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) 
 8. Right click and  **add existing file**
 9. Select the  **SSW Code Auditor project file**
 10. Right click the newly added file and select " **Open With** "
-<dl class="goodImage"> <br><br>::: good  <br>![](OpenWith.gif)  <br>:::<br> </dl>
+ 
+
+::: good  
+![](OpenWith.gif)  
+:::
+ 
 11. Point it to the SSW Code Auditor executable
 
 

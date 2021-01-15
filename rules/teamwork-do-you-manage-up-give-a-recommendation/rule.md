@@ -47,7 +47,8 @@ Figure: Good Example - Option to approve
 
 When you are giving someone multiple options you should:
 
-* Limit the number of options to 3 to avoid "option overload" (more on <br>         [Choice Overload](https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/) and [The Burden of Choice](https://www.psychologytoday.com/au/blog/more-tech-support/201011/the-burden-choice))
+* Limit the number of options to 3 to avoid "option overload" (more on 
+         [Choice Overload](https://www.behavioraleconomics.com/resources/mini-encyclopedia-of-be/choice-overload/) and [The Burden of Choice](https://www.psychologytoday.com/au/blog/more-tech-support/201011/the-burden-choice))
 * Recommend one and state why
 
 
@@ -59,7 +60,8 @@ We want to integrate our database with our website so that customers can purchas
 The choices:
 
  **Option A** <mark>(Recommended)</mark> -  Customize a ready-made solution - We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.  
- **Option B** - Buy a ready-made solution - The ready-made solution is cheap but it does not have everything that we need and has unnecessary features. <br>      
+ **Option B** - Buy a ready-made solution - The ready-made solution is cheap but it does not have everything that we need and has unnecessary features. 
+      
  **Option C** - Build a new solution using a third party company - It will be expensive and it will take a long time.
 
 Please let me know if you're happy to proceed with our recommendation, otherwise let me know if you have any questions.
@@ -67,11 +69,18 @@ Please let me know if you're happy to proceed with our recommendation, otherwise
 :::
 
 ::: good
-Figure: Good Example - Multiple options to approve with reasons for each <br>      
+Figure: Good Example - Multiple options to approve with reasons for each 
+      
 
 :::
-<dl class="image"><br><br>::: ok  <br>![Figure: Hard decision - this guy needs to state why he recommends this option](complexity-and-false-hope.jpg)  <br>:::<br></dl>
-### Related Rules  <br>      
+
+
+::: ok  
+![Figure: Hard decision - this guy needs to state why he recommends this option](complexity-and-false-hope.jpg)  
+:::
+
+### Related Rules  
+      
 
 
 * [Do you know how to get approval for a purchase?](/do-you-know-how-to-get-approval-for-a-purchase)

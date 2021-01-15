@@ -33,11 +33,13 @@ There are many options for managing secrets in a secure way:
 
 ::: greybox
 
-### Store production passwords in source control protected with the <br>      [ASP.NET IIS Registration Tool](https&#58;//msdn.microsoft.com/en-us/library/zhhddkxy.aspx)
+### Store production passwords in source control protected with the 
+      [ASP.NET IIS Registration Tool](https&#58;//msdn.microsoft.com/en-us/library/zhhddkxy.aspx)
 
 Pros:
 
-* Minimal change to existing process – no need for <br>         [DPAPI](https&#58;//msdn.microsoft.com/en-us/library/ms995355.aspx)or a dedicated Release Management (RM) tool.
+* Minimal change to existing process – no need for 
+         [DPAPI](https&#58;//msdn.microsoft.com/en-us/library/ms995355.aspx)or a dedicated Release Management (RM) tool.
 * Simple and easy to understand
 
 
@@ -181,7 +183,8 @@ Pros:
 
 Cons:
 
-* Price is per transaction - can become costly if used in high volume and not managed thoroughly (see SSW's William Liebenberg on Azure SpendOps: <br>            [https://azuregems.io/spendops-with-azure-cosmos-db/](https&#58;//azuregems.io/spendops-with-azure-cosmos-db/)
+* Price is per transaction - can become costly if used in high volume and not managed thoroughly (see SSW's William Liebenberg on Azure SpendOps: 
+            [https://azuregems.io/spendops-with-azure-cosmos-db/](https&#58;//azuregems.io/spendops-with-azure-cosmos-db/)
 
 
 

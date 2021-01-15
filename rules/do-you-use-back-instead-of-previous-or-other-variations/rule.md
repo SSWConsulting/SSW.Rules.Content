@@ -31,10 +31,25 @@ There are a few reasons for this:
 
 
 Below is an example of a Good "&lt; Back" link versus some Bad variations.
-<dl class="goodImage">    <br><br>::: good  <br>![Figure: A Good example of a "&lt; Back" link](textboxeswithshowbutton.gif)  <br>:::<br>
-    </dl><dl class="badImage">    <br><br>::: bad  <br>![Figure: This is Bad because it says "Previous" instead of "Back"](badpreviouslink.gif)  <br>:::<br>
-    </dl><dl class="goodImage">    <br><br>::: good  <br>![Figure: This is bad because it has too many "&lt;"s or it has no space between the "&lt;" and the "Back"](badbacklink.gif)  <br>:::<br>
-    </dl>
+    
+
+::: good  
+![Figure: A Good example of a "&lt; Back" link](textboxeswithshowbutton.gif)  
+:::
+
+        
+
+::: bad  
+![Figure: This is Bad because it says "Previous" instead of "Back"](badpreviouslink.gif)  
+:::
+
+        
+
+::: good  
+![Figure: This is bad because it has too many "&lt;"s or it has no space between the "&lt;" and the "Back"](badbacklink.gif)  
+:::
+
+    
 We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor) to check for this rule.
 
 

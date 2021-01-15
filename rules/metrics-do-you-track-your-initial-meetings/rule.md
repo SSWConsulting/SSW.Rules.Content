@@ -36,7 +36,8 @@ Figure: Bad subject - not clear it is an initial meeting
 
 ::: greybox
  **Subject:** <mark>Initial meeting</mark> with SSW and Bob from Northwind
-**Subject:** <mark>Initial</mark> phone <br>         <mark>meeting</mark> with SSW and Bob from Northwind  
+**Subject:** <mark>Initial</mark> phone 
+         <mark>meeting</mark> with SSW and Bob from Northwind  
 :::
 
 

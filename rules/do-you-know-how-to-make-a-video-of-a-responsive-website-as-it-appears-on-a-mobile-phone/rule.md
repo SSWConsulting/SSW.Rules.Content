@@ -29,7 +29,8 @@ You should use Device Mode & Mobile Emulation in the Chrome browser to make a vi
 Figure: Bad example - Using your browser makes it hard to see the video is a mobile phone demo.
 
 ![](Mobilephone-emulator-chrome.jpg)Figure: Good example - Using Device Mode & Mobile Emulation in Chrome makes it clear the video is a mobile phone demo.
-<font color="#555555" face="arial, helvetica, sans-serif" style="font-size:13px;"><span style="line-height:21px;"> <b>Steps to make a good mobile phone video demo:<br></b> </span></font>
+<font color="#555555" face="arial, helvetica, sans-serif" style="font-size:13px;"><span style="line-height:21px;"> <b>Steps to make a good mobile phone video demo:
+</b> </span></font>
 
 1. Use Device Mode & Mobile Emulation in Chromes Dev tools. You can watch or read a great intro to this tool on the [Chrome Developer Website](https://developer.chrome.com/devtools/docs/device-mode)
 2. Choose the mobile phone size you want to emulate.
@@ -42,10 +43,12 @@ Figure: How to adjust the video canvas in Camtasia to export HD video to YouTube
 
  **Example video** 
 
-  You can watch an example of a video shot of an emulated mobile view using these toolsdescribed in this article [here.](https://www.youtube.com/watch?v=eyiqryb5y1Y) <font color="#555555"><span style="font-size:11px;"><span style="line-height:21px;font-family:arial, helvetica, sans-serif;"> <strong><br></strong> </span></span></font> **
+  You can watch an example of a video shot of an emulated mobile view using these toolsdescribed in this article [here.](https://www.youtube.com/watch?v=eyiqryb5y1Y) <font color="#555555"><span style="font-size:11px;"><span style="line-height:21px;font-family:arial, helvetica, sans-serif;"> <strong>
+</strong> </span></span></font> **
 ** 
 
- **Additional resources** <font color="#555555"><span style="font-size:11px;"><br></span></font>
+ **Additional resources** <font color="#555555"><span style="font-size:11px;">
+</span></font>
 
 * [Camtasia video tools](http://www.techsmith.com/camtasia.html)
 * [Chrome Device Mode & Mobile Emulation](https://developer.chrome.com/devtools/docs/device-mode)

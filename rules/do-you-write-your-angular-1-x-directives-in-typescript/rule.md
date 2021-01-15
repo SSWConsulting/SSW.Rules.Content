@@ -27,7 +27,8 @@ Angular 1.x directives are awesome and they help you reuse your code base by bei
 Writing your AngularJS 1.x directives in Typescript will help in the following ways:
 
 1. <font face="segoe ui, verdana, arial, helvetica, sans-serif"> 
-               <span style="line-height&#58;13.8667px;">You will more easily migrate to Angular2 which is written in TypeScript<br></span></font>
+               <span style="line-height&#58;13.8667px;">You will more easily migrate to Angular2 which is written in TypeScript
+</span></font>
 2. <font face="segoe ui, verdana, arial, helvetica, sans-serif"> 
                <span style="line-height&#58;13.8667px;">Your code will be more robust with compile time checking avoiding errors you might miss or not see till you run the application in the browser.</span></font>
 3. <font face="segoe ui, verdana, arial, helvetica, sans-serif"> 
@@ -38,7 +39,8 @@ Writing your AngularJS 1.x directives in Typescript will help in the following
 
 <font face="segoe ui, verdana, arial, helvetica, sans-serif"> 
             <span style="line-height&#58;13.8667px;"> 
-               <br></span></font>
+               
+</span></font>
 
 <font face="segoe ui, verdana, arial, helvetica, sans-serif"> 
             <span style="line-height&#58;13.8667px;">Writing Angular 1.x directives in Typescript can be a challenge with only a few examples available online. Most examples of Angular 1.x directives are in JavaScript and converting them to TypeScript versions means you need to have a good understanding of how it all works. Many examples that are available online do it a little differently from each other.&#160;</span></font>

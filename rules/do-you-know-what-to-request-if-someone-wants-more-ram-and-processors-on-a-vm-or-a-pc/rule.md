@@ -16,29 +16,40 @@ redirects:
 
 ---
 
-A “Too<br>slow” is not enough info.
+A “Too
+slow” is not enough info.
 
 <!--endintro-->
-Request<br>an image of the “Resource Monitor”
-Then<br>after you decide there is justification:
+Request
+an image of the “Resource Monitor”
+Then
+after you decide there is justification:
 
-•           Do a typical action – take a new<br>image or baseline.
+•           Do a typical action – take a new
+image or baseline.
 
-•           give the additional resources e.g. Ram<br>and processors….
+•           give the additional resources e.g. Ram
+and processors….
 
-•           Do the typical action again – take<br>another image of the “Resource Monitor”
+•           Do the typical action again – take
+another image of the “Resource Monitor”
 
-•           If there is some improvement, reply<br>“done” (otherwise reply “not done”)
+•           If there is some improvement, reply
+“done” (otherwise reply “not done”)
 
 
 
-Note:<br>An ideal email subject prefix for more resources would be e.g. “Performance issue<br>– “Machine name”
+Note:
+An ideal email subject prefix for more resources would be e.g. “Performance issue
+– “Machine name”
 
 
 
 **![](resource_monitor.png)**
 
-**Figure: Use “Resource Monitor”<br>prior to allocating**  **more RAM on a VM**
+**Figure: Use “Resource Monitor”
+prior to allocating**  **more RAM on a VM**
 
 ![](highUtilisation.png)
-**            Figure: If you see something like<br>this, pass their request :-)**
+**            Figure: If you see something like
+this, pass their request :-)**

@@ -25,7 +25,7 @@ Most developers put the image and the caption in a DIV tag, where the figure is 
 
 ```
 <div>
-  <img alt=""/>
+  <img alt="">
   <p>Figure: Caption</p>
 </div>
 ```
@@ -42,7 +42,7 @@ Instead, you should use      **&lt;figure&gt;** and      **&lt;figcaption&gt;** 
 
 ```
 <figure>
-  <img src="image.jpg" alt="Image" />
+  <img src="image.jpg" alt="image"></img src="image.jpg" alt="image">
   <figcaption>Figure: Caption</figcaption>
 </figure>
 ```
@@ -62,8 +62,8 @@ For some internal sites, we still use the old way to place images: Using  **&lt
 
 
 ```
-<dl class="image"> OR <dl class="badImage"> OR <dl class="goodImage"> 
-  <dt><img src="image.jpg" alt="Image"/></dt>
+ OR <dl class="badImage"> OR <dl class="goodImage"> 
+  <dt><img src="image.jpg" alt="Image"></dt>
   <dd>Figure: Caption</dd> 
 </dl>
 ```
@@ -78,3 +78,6 @@ For some internal sites, we still use the old way to place images: Using  **&lt
 
 
 * [Figures - Do you add useful and concise figure text?](/figures-do-you-add-useful-and-concise-figure-text-aka-a-caption-to-avoid-a-lot-of-text-over-images)
+
+
+</dl>

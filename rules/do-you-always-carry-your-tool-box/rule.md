@@ -36,8 +36,10 @@ We have one guy in our office who carries two bags, each weighing about 10 kgs. 
 
  If you need to quickly share something with your mate:
 
-* Use a thumb drive that you carry as per <br>      [Rules to better Software Consultants - Carry a thumb drive](/do-you-carry-your-usb-flash-drive-on-your-key-ring)
-* Setup a wireless ad hoc network as per <br>      [http://www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/](http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/)
+* Use a thumb drive that you carry as per 
+      [Rules to better Software Consultants - Carry a thumb drive](/do-you-carry-your-usb-flash-drive-on-your-key-ring)
+* Setup a wireless ad hoc network as per 
+      [http://www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/](http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/)
 
 
 \* One of our mean guys put a house brick in the bottom a bag to see if he noticed it. He carried it for 2 weeks. It was very funny.
