@@ -47,6 +47,7 @@ Assert.AreEqual("phil@example.com", received.ToAddress.Email);
 
 
 
+
 ::: good
 Figure: This code could help you validate the send mail code
 

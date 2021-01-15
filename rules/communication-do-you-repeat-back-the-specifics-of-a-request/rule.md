@@ -26,6 +26,7 @@ A good communication strategy when receiving instructions is to repeat back what
 <!--endintro-->
  Question:   
 
+
 ::: greybox
 1. Please add a checkbox on the right, and make it red.
 
@@ -33,11 +34,13 @@ A good communication strategy when receiving instructions is to repeat back what
 
 Possible answers:
       
+
 ::: greybox
 "OK" or "Roger That"
   
 :::
 <dd>Figure: Bad Example</dd>         
+
 ::: greybox
 Ok, I will add a red checkbox on the right
   

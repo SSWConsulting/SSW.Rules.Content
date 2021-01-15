@@ -38,6 +38,7 @@ private void Command0_Click() {
 
 
 
+
 ::: bad
 Bad Example - Debug code has just been commented out
 
@@ -55,6 +56,7 @@ private void Command0_Click() {
     .....processing code
 }
 ```
+
 
 
 

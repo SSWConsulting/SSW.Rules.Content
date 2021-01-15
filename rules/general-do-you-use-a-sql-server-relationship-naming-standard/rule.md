@@ -29,6 +29,7 @@ Relationship names are to have this syntax:
 [1] The table whose columns are referenced by other tables in a one-to-one or one-to-many relationship.
 Rather than accepting the default value i.e. ClientAccount\_FK01 that is given from upsizing.
 ![](imgRelationshipPic1.gif)
+
 ::: bad
 Figure: Bad Example - using the default relationship name
 
@@ -36,6 +37,7 @@ Figure: Bad Example - using the default relationship name
 
 We recommend using Prod-ClientAccount.
 ![](imgRelationshipPic2.gif)
+
 ::: good
 Figure: Good Example - using a more descriptive relationship name
 

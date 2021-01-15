@@ -27,6 +27,7 @@ if (ProductName == null) ProductName = string.Empty; if (ProductVersion == null)
 
 
 
+
 ::: bad
 Figure: Bad Example
 
@@ -48,6 +49,7 @@ if (StackTrace == null)
  StackTrace = string.Empty;
 }
 ```
+
 
 
 

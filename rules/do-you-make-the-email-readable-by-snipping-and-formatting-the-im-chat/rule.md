@@ -30,11 +30,13 @@ Snip the relevant information only. You can do this by:
 
 ![Bad Example of an IM snip](Bad-Example-of-IM-snip.jpg)
 
+
 ::: bad
 Figure: Bad example - this IM snip has a lot of unnecessary text that makes it hard to read  
 :::
 
 ![Good example of an IM snip](Good-Example-of-IM-snip.jpg)
+
 
 ::: good
 Figure: Good example - snipped and formatted  

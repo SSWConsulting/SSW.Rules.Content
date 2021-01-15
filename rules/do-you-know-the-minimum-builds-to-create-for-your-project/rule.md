@@ -44,10 +44,12 @@ You should always have two builds on your team project. These should be setup an
 ![](ControlTestAndData.jpg)**Figure: You can control what tests are run and what data is collected while they are running.** Note: We do not run all the tests every time because of the time consuming nature of running some tests, but ALL tests should be run overnight.  
 Note: If you had a really large project with thousands of tests including long running Load tests you may need to add a Weekly build to the mix.  
 ![](BuildStatus01.jpg) 
+
 ::: bad
 Figure: Bad example, you can't tell what these builds do if they are in a larger list  
 :::
 ![](BuildStatus02.jpg)
+
 ::: good
 Figure: Good example, you know exactly what project, branch and type of build these are for.  
 :::

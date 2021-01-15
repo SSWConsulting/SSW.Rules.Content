@@ -24,15 +24,18 @@ The use of standardized AD Group names is a simple yet crucial step towards buil
 
 For example: This is a list of AD groups associated with products.
 
+
 ::: greybox
 SSWSugarLearningEvents
  SSWCodeAuditorAlerts
  SSWLinkAuditorDevs  
 :::
 
+
 ::: bad
 Figure: Bad Example – It is difficult to know the correct name for an AD group  
 :::
+
 
 ::: greybox
 SSWSugarLearning
@@ -42,6 +45,7 @@ SSWSugarLearning
  SSWLinkAuditor
  SSWLinkAuditorEvents  
 :::
+
 
 ::: good
 Figure: Good Example – By standardizing the names of AD groups it saves confusion

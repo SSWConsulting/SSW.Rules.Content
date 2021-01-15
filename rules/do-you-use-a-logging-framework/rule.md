@@ -32,6 +32,7 @@ Console.WriteLine("Service started");
 
 
 
+
 ::: bad
  Figure: Bad Example - Using Console.WriteLine to write debug information  
 :::
@@ -41,6 +42,7 @@ Console.WriteLine("Service started");
 ```
 Trace.WriteLine("Service started");
 ```
+
 
 
 
@@ -55,6 +57,7 @@ The best approach is to use a logging framework like Serilog. You can direct out
 ```
 Log.Debug(“Service started”);
 ```
+
 
 
 

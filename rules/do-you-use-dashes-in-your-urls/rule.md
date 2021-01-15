@@ -20,9 +20,11 @@ For maximum readability and SEO use kebab-case (dashes) in your URLs.
 
 <!--endintro-->
 
+
 ::: greybox
 https://northwind.com/ **pageonworddocumentation** 
 :::
+
 
 ::: bad
 Figure: Bad example - No kebab-case in URL 
@@ -30,15 +32,18 @@ Figure: Bad example - No kebab-case in URL
 
 :::
 
+
 ::: greybox
 https://northwind.com/ **PageOnWordDocumentation** 
 :::
+
 
 ::: bad
 Figure: Bad example - PascalCase (better readability and still works in small caps, but other people might share it without the MixedCase)
 
 
 :::
+
 
 ::: greybox
 https://northwind.com/ **page on word documentation** 
@@ -48,11 +53,13 @@ https://northwind.com/ **page on word documentation**
  https://northwind.com/ **page20%on20%word20%documentation** 
 :::
 
+
 ::: bad
 Figure: Bad example - spaces it will show up in your URL structure as 20%, which is bad for readability and SEO
 
 
 :::
+
 
 ::: greybox
 https://northwind.com/ **page\_on\_word\_documentation** 
@@ -60,9 +67,11 @@ https://northwind.com/ **page\_on\_word\_documentation**
  **Figure: OK example - underscored (snake\_case) URLs have good readability but are not recommended by Google
 
 ** 
+
 ::: greybox
 https://northwind.com/ **page-on-word-documentation** 
 :::
+
 
 ::: good
 Figure: Good example - kebab-case is recommended by Google

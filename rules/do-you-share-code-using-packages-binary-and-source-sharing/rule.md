@@ -30,14 +30,17 @@ VSTS is the best home to put it and share it across their organization because:
 * it's constantly evolving (some really cool features are coming...check the video below)
 
 
+
 ::: greybox
 Sharing source or binaries via File Shares or Version Control  
 :::
+
 
 ::: bad
 Bad example
 
 :::
+
 
 ::: greybox
 Sharing source or binaries via 3rd party tools like ProGet, MyGet  
@@ -45,9 +48,11 @@ Sharing source or binaries via 3rd party tools like ProGet, MyGet
 
 **OK example
 ** 
+
 ::: greybox
 Sharing source or binaries via packages created using VSTS Team Build  
 :::
+
 
 ::: good
 Good example  
@@ -59,6 +64,7 @@ Good example
 :::
 
 VSTS is about to add benefits like Component Governance, which allows policies to be set over who can and cannot use the source or binaries E.g. Licensing (MIT might be ok and GPL not ok), security - in development
+
 
 
 ::: good

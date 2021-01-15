@@ -28,6 +28,7 @@ Hard coded strings when referencing property and variable names can be problemat
 
 
 
+
 ::: bad
 Figure: Bad Example - Hardcoding a reference to a property
 
@@ -38,6 +39,7 @@ Figure: Bad Example - Hardcoding a reference to a property
 ```
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```
+
 
 
 

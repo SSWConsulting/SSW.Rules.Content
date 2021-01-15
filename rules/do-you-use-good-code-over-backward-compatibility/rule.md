@@ -45,6 +45,7 @@ Just to be friendly, we would send an email for the first month, and then anothe
 
 We probably all prefer working on new features, rather than supporting old code, but it’s still a core part of the job. If your answer to question 3 scares you, it might be time to consider a backward compatibility warning.
 
+
 ::: greybox
  **From: ** John Liu www.ssw.com.au
  **To:**  SSWALL

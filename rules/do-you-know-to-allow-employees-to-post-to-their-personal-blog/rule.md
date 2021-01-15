@@ -19,11 +19,13 @@ Technical people need a little bit of a free leash in order to be creative. This
 <!--endintro-->
 
 ![](RulesBloggingCorporateBad.jpg) 
+
 ::: bad
 Figure: Bad example, employees must post to the corporate blog.  
 :::
 
 ![](RulesBloggingCorporateGood.jpg)
+
 ::: good
 Figure: Good example, Allowing employees to post to their personal blog is a win, win situation. But they should do the Gold Plating after hours  
 :::

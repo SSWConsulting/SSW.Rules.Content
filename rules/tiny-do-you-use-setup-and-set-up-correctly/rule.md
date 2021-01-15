@@ -18,9 +18,11 @@ Often when writing technical documents, you will instruct the reader to 'set up'
 
 <!--endintro-->
 
+
 ::: greybox
 Verify that your network setup is correct before attempting to connect to the Internet.  
 :::
+
 
 ::: good
 Figure: Good Example - This is the correct use of "setup"  
@@ -29,9 +31,11 @@ Figure: Good Example - This is the correct use of "setup"
 
 
 
+
 ::: greybox
 Click Go to set up your database.  
 :::
+
 
 ::: good
 Figure: Good Example - This is the correct use of "set up"  

@@ -66,10 +66,12 @@ Here they are:
 
 ![](sebprofile.png)
 
+
 ::: bad
 Figure: Bad Example – Bad framing and background  
 :::
  <img src="mattgprofile.png" alt="mattgprofile.png" style="margin:5px;">
+
 ::: good
 Figure: Good Example – Good framing for a profile photo
 

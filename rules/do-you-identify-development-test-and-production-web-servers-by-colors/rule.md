@@ -89,6 +89,7 @@ Figure: CRM Ribbon color green to signify production environment
 
 Edit, **&lt;CrmWebsiteRoot&gt;\** **\_common\styles\global.css.aspx**
 
+
 ::: greybox
 
 

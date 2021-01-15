@@ -38,6 +38,7 @@ So to ensure the migration process did not miss any items, ensure nobody modifie
 
     * Redo their modification in your new Cloud intranet (likely)
     * Confirm that the modification is not important and does not require manual migration (less likely)
+
 ::: greybox
 Hey xxx,
 

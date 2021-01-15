@@ -32,6 +32,7 @@ You could also promote an external website [(just like with ed screens)](/do-you
 ![](card example.png)
 
 
+
 ::: good
 Good example: A card is discreet and adds an easy way for the viewer to get to the relevant content.
 

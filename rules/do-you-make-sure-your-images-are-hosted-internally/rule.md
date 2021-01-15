@@ -33,6 +33,7 @@ The right way to do this is to copy the image locally and upload to your own ser
 
 
 
+
 ::: bad
 Figure: Bad example - using an external URL as image source. The image can be edited or deleted and there is nothing you can do about it
 
@@ -46,6 +47,7 @@ Figure: Bad example - using an external URL as image source. The image can be ed
 <dd>Figure: Open extension</dd>
 
 ```
+
 
 
 

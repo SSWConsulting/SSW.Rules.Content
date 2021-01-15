@@ -32,6 +32,7 @@ string lastName,
 
 
 
+
 ::: bad
 Figure: Bad Example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end  
 :::
@@ -48,6 +49,7 @@ string lastName,
 [Optional] string password,
 [Optional] DateTime? birthDate)
 ```
+
 
 
 

@@ -56,22 +56,26 @@ Make unique index name if possible. Ie. ProductName
 [2] The name of the table that the Index refers to.
 [3] The name of the column(s) that the Index refers to.
 
+
 ::: greybox
 Index 'BillingID'
 Primary Key 'aaaaaClient\_PK'
 
 :::
 
+
 ::: bad
 Figure: Bad Example
 
 :::
+
 
 ::: greybox
 'nc\_ClientDiary\_BillingID'
 'pknc\_ClientDiary\_ClientID'
 
 :::
+
 
 ::: good
 Figure: Good Example

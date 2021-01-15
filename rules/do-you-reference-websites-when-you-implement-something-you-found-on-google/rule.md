@@ -34,6 +34,7 @@ private void HideToSystemTray()
 
 
 
+
 ::: bad
 Bad Example: The website where the solution was found IS NOT referenced in the comments  
 :::
@@ -53,6 +54,7 @@ private void HideToSystemTray()
        } 
 }
 ```
+
 
 
 

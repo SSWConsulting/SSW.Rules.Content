@@ -27,6 +27,7 @@ End Sub
 
 
 
+
 ::: bad
 Figure: Bad code. Uses a VB technique - CreateObject() - for creating a COM object  
 :::

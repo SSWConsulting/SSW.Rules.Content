@@ -33,6 +33,7 @@ Actions or Tasks follow a basic format of: Action / Task Name |  Where the task 
 
 ![](Action-Table.png)
 
+
 ::: good
 Figure: Good Example of a Basic Action Table format  
 :::

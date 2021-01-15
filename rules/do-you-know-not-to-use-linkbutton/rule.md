@@ -75,6 +75,7 @@ protected void mUpdatePanel_Load(object sender, EventArgs e)
 
 
 
+
 ::: bad
 Bad Code  
 :::
@@ -84,6 +85,7 @@ Bad Code
 ```
 <input type="button" onclick="javascript:__doPostBack('mUpdatePanel','');" value="Refresh" />
 ```
+
 
 
 

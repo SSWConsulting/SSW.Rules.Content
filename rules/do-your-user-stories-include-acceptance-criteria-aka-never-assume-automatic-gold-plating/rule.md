@@ -43,14 +43,17 @@ There are 2 parts to getting this right. The Acceptance Criteria, then the Accep
 ![Figure: A User Story with Acceptance Criteria (MSF Agile Template)](acceptance-criteria.jpg)  
 :::
 
+
 ::: greybox
 When I enter ‘Adam’ in the search box and click 'Search' I will see all entries starting with 'Adam' in the grid.  
 :::
+
 
 ::: bad
 Figure: Bad Example of Acceptance Criteria - Incomplete 
 
 :::
+
 
 ::: greybox
 Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
@@ -58,6 +61,7 @@ Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ 
 
 :::
  **Figure: OK Example of Acceptance Criteria** 
+
 ::: greybox
 Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see \*no\* entries in the Grid
@@ -71,11 +75,13 @@ Gold Plating – if a large set of results is returned, display pagination with 
 ** 
 For tiny stories, you can omit acceptance criteria. Sometimes you just need a screenshot, or even better a video.
 
+
 ::: greybox
 See screenshot and video.
 Screenshot – [see PDF](/Documents/13_Anvil_1408_Customer.pdf)
 Video - [http://ww w.youtube.com/watch?v=M3FH4D9QuzU](http://www.youtube.com/watch?v=M3FH4D9QuzU "http://www.youtube.com/watch?v=M3FH4D9QuzU")
 :::
+
 
 ::: good
 Figure: Good Example for a simple change – just include a screen capture and/or video 

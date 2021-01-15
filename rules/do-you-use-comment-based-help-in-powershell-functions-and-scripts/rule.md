@@ -42,6 +42,7 @@ function Get-Function
 
 
 
+
 ::: good
 Figure: Good Example - Using Comment-Based Help for Functions
 
@@ -58,6 +59,7 @@ Or like this (before the function keyword):
 #>
 function Get-Function { }
 ```
+
 
 
 
@@ -83,6 +85,7 @@ param(
 [switch]$MFA
 )
 ```
+
 
 
 
@@ -118,6 +121,7 @@ Param(
 [string] $LogFile
 ) ...
 ```
+
 
 
 

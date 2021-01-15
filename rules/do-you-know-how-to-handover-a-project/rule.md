@@ -45,6 +45,7 @@ Here are the 8 steps you should follow for a good handover.
 8. Complete the Handover by sending an email with: As per our meeting the handover has been completed to my satisfaction
 
 
+
 ::: greybox
 
 **From: Andy
@@ -68,6 +69,7 @@ Always backup master folder’s file before uploading the changes to the master 
 
 :::
  **Figure Bad Example - This handover is incomplete and light on details** 
+
 
 ::: greybox
 

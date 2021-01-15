@@ -30,6 +30,7 @@ MonthlyReport.docx
 
 
 
+
 ::: bad
 Bad Example: File name doesn't contain any separators between words
 
@@ -42,6 +43,7 @@ As far as search goes, using spaces is actually a usable option. What makes s
 ```
 Monthly Report.docx
 ```
+
 
 
 
@@ -60,6 +62,7 @@ Monthly_Report.docx
 
 
 
+
 ::: bad
 Bad Example: File name uses an underscore (snake\_case) to separate words
 
@@ -73,6 +76,7 @@ A hyphen is the best choice, because it is understood both by humans and all v
 ```
 Monthly-Report.docx
 ```
+
 
 
 

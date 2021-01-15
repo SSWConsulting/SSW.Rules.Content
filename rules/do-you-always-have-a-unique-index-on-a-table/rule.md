@@ -18,6 +18,7 @@ redirects: []
 
 If Access linked table does not have an index to uniquely identify rows, the whole table will be read-only
 
+
 ::: yellowBox
 [Upsizing PRO](http&#58;//www.ssw.com.au/ssw/UpsizingPRO) will check this rule  
 :::

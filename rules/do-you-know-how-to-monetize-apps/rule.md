@@ -20,10 +20,12 @@ Do you know free games are designed to make money? See the good and bad examples
 
 
 
+
 ::: bad
 Bad example: paid apps
 
 :::
+
 
 ::: good
 Good example: free apps with in-app purchases  
@@ -31,9 +33,11 @@ Good example: free apps with in-app purchases
 
 
 
+
 ::: bad
 Bad example: paid with currency  
 :::
+
 
 ::: good
 Good example: paid with abstract currency  
@@ -41,9 +45,11 @@ Good example: paid with abstract currency
 
 
 
+
 ::: bad
 Bad example: treat all customers the same  
 :::
+
 
 ::: good
 Good example: detect when a customer might leave and offer them incentives  
@@ -51,9 +57,11 @@ Good example: detect when a customer might leave and offer them incentives
 
 
 
+
 ::: bad
 Bad example: same prices for everyone  
 :::
+
 
 ::: good
 Good example: capture data eg. What device and do data mining to set different prices 

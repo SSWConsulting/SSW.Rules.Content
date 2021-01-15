@@ -33,6 +33,7 @@ UIUpdateBidButtonsRed();
 
 
 
+
 ::: bad
 Bad Code: Avoid "UI" in event names, an event is UI un-aware  
 :::
@@ -50,6 +51,7 @@ SelectedLotUpdated();
 }
 }
 ```
+
 
 
 

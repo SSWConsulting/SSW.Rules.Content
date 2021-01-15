@@ -62,6 +62,7 @@ return new BadRequestResult();
 
 
 
+
 ::: bad
 Figure: Good example for swashbuckle - Even better if you have .NET Core 2.1 use the strong typed ActionResult – see yellow
 
@@ -91,6 +92,7 @@ Figure: Good example for swashbuckle - Even better if you have .NET Core 2.1 use
             }
         }
 ```
+
 
 
 

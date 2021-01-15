@@ -34,6 +34,7 @@ public string myString
 
 
 
+
 ::: bad
 Figure: Bad code. Low performance
 
@@ -55,6 +56,7 @@ public string myString
    
 }
 ```
+
 
 
 

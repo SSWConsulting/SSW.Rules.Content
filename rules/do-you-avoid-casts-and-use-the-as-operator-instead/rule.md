@@ -34,6 +34,7 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
 
 
 
+
 ::: bad
 Bad example
 
@@ -54,6 +55,7 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
    
 }
 ```
+
 
 
 

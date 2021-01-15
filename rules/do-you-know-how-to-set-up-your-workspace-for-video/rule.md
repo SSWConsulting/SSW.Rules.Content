@@ -65,6 +65,7 @@ One of the most frustrating aspects of remote calls is participants’ mixed aud
 :::
 
 
+
 ::: good
 Benefits
 
@@ -86,6 +87,7 @@ Benefits
 :::
 
 
+
 ::: good
 Benefits
 
@@ -104,6 +106,7 @@ The best way to improve your video is not to buy a new fancy camera, but to impr
 ::: ok  
 ![Figure: Ring light for webcam/camera/smartphone](ring-light.jpg)  
 :::
+
 
 
 ::: good

@@ -43,6 +43,7 @@ However, as a developer you still want to be able to view the detail of the exce
 
 ![](14-08-2014-2-47-50-PM-compressor.png)
 
+
 ::: good
 Figure: Good Example - Don't hide the yellow screen of death in the local environment  
 :::

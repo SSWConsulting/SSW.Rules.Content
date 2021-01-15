@@ -22,9 +22,11 @@ When you create a page URL remove all the filler words and just keep the main ke
 
 <!--endintro-->
 
+
 ::: greybox
 http://northwind.com/how-do-i-find-the-version-of-the-word-document.html  
 :::
+
 
 
 ::: bad
@@ -32,9 +34,11 @@ Figure: Bad example - The filler words remain
 :::
 
 
+
 ::: greybox
 http://northwind.com/find-word-document-version.html  
 :::
+
 
 
 

@@ -18,9 +18,11 @@ Every phone number should include the country code (with the + sign) so people 
 
 <!--endintro-->
 
+
 ::: bad
 Bad example: (503) 629-4000  
 :::
+
 
 ::: good
 Good example: +1 (503) 629-4000  

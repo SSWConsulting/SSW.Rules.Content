@@ -19,10 +19,12 @@ The better you describe the problem you had, the more effective will be the solu
 
 Make sure you always explain and give as much details as you can of how you got an error or a bad experience.
 
+
 ::: greybox
 Where is TV.SSW on the navigation?  
 :::
 Figure: Bad example - Lack of details
+
 ::: greybox
 
 1. Navigated to ssw.com.au

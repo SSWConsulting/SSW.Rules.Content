@@ -16,18 +16,22 @@ When writing for an audience, you want to make sure you're consistent in your wa
 
 <!--endintro-->
 
+
 ::: bad
 Bad Example: I often see pages have 2 or 3 links to the same page
 
 :::
 
+
 ::: good
 Good Example: Pages sometimes have 2 or 3 links to the same page  
 :::
 
+
 ::: bad
 Bad Example: At SSW, we use CRM to track sales activities   
 :::
+
 
 ::: good
 Good Example: SSW uses CRM to track sales activities  

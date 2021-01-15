@@ -139,16 +139,19 @@ If your project does not contain TypeScript files, then you do not need to inclu
 </strong> <p class="ssw15-rteElement-P">
 </p><p class="ssw15-rteElement-P">For the purposes of reporting, a unique tag must be added to the build definition which the Code Health steps have been applied to. 
 This is done with the addition of a variable (Name = PrimaryBuild, Value = true)<span style="background-color:initial;"></span></p><dl class="ssw15-rteElement-ImageArea"> <strong><img src="VSO-AddVariableTag.png" alt="VSO-AddVariableTag.png" style="margin:5px;width:650px;">Figure: Steps to add PrimaryBuild variable to build definition<span style="background-color:initial;color:#333333;font-size:13px;"></span></strong> </dl><dl class="ssw15-rteElement-ImageArea"><img src="VSO-BuildResult-BadV3.png" alt="VSO-BuildResult-BadV3.png" style="margin:5px;width:808px;"></dl>
+
 ::: bad
 Figure: Bad Example - Build broke due to compile errors. Must fix to proceed.
 
 :::
 <dl><dl class="ssw15-rteElement-ImageArea"><img src="VSO-BuildResultV3.png" alt="VSO-BuildResultV3.png" style="margin:5px;width:808px;"></dl>
+
 ::: bad
 Figure: Bad Example - Successful build with warnings. Should be disabled or set as errors.
   
 :::
 </dl><dl class="ssw15-rteElement-ImageArea"><dl class="ssw15-rteElement-ImageArea"><img src="VSO-BuildResult-GoodV3.png" alt="VSO-BuildResult-GoodV3.png" style="margin:5px;width:808px;"></dl></dl>
+
 ::: good
 Figure: Good Example - Successful build with no warnings.
   

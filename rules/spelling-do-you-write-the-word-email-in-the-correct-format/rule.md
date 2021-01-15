@@ -26,19 +26,23 @@ There is one correct way to spell 'email' and many incorrect ones. The common in
 
 Lower Case with dash:
 
+
 ::: greybox
 &lt;p&gt;Your <mark>e-mail</mark> address must match your confirm <mark>e-mail</mark> address&lt;/p&gt; 
 
 :::
 
+
 ::: bad
 Bad example: Using 'e-mail' in your text  
 :::
+
 
 ::: greybox
 &lt;p&gt;Your <mark>email</mark> address must match your confirm <mark>email</mark> address&lt;/p&gt; 
 
 :::
+
 
 ::: good
 Good example: Using 'email' instead
@@ -59,6 +63,7 @@ Upper Case with capital M:
 
 
 
+
 ::: bad
 Bad example : 'EMail' used as a placeholder and in the validation message  
 :::
@@ -68,6 +73,7 @@ Bad example : 'EMail' used as a placeholder and in the validation message
 ```
 <input class="form-control" data-val="true" data-val-required="The Email field is required." id="Email" name="Email" placeholder="Email" type="email" value="" data-cip-id="Email" autocomplete="off">
 ```
+
 
 
 

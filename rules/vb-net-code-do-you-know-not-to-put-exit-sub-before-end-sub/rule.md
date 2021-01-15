@@ -31,6 +31,7 @@ Exit sub
 
 
 
+
 ::: bad
 Figure: Bad example  
 :::
@@ -42,6 +43,7 @@ Sub MySub
 …
 End sub
 ```
+
 
 
 

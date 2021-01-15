@@ -53,6 +53,7 @@ END
 
 
 
+
 ::: bad
 Figure: Bad Example - Using SELECT \* when inserting data. Besides, this stored procedure should have an Else section to raise error when no condition is satisfied
 
@@ -91,6 +92,7 @@ END
 ELSE BEGIN PRINT "Please use a correct direction"
  END
 ```
+
 
 
 

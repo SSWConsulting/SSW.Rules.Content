@@ -41,6 +41,7 @@ rtbParaText.AppendText(query2.First() + "\r\n");
 
 
 
+
 ::: bad
 Bad Example: A UI method mixed with business logics  
 :::
@@ -57,6 +58,7 @@ rtbParaText.Clear();
 rtbParaText.Add(paraText);
 }
 ```
+
 
 
 

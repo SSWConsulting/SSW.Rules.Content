@@ -18,18 +18,22 @@ Use lowercase after "-" in a text.
 
 <!--endintro-->
 
+
 ::: greybox
 “Make a change to the content of the system you're currently looking at - <mark>I</mark>f you don't know it is called SugarLearning, then we have a real problem :)”  
 :::
+
 
 ::: bad
 Figure: Bad example - Uppercase after "-"
 
 :::
 
+
 ::: greybox
 “Make a change to the content of the system you're currently looking at - <mark>i</mark>f you don't know it is called SugarLearning, then we have a real problem :)”  
 :::
+
 
 ::: good
 Figure: Bad example - lowercase after "-"

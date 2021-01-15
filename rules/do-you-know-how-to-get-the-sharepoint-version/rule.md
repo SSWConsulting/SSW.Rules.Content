@@ -18,13 +18,16 @@ You want to be on the latest version of SharePoint.
 There are multiple ways to get it:  
 
 
+
 ::: bad
 Check SharePoint DLL version  
 :::
 
+
 ::: bad
 Check http://&lt;CentralAdminSite&gt;/\_admin/FarmServers. aspx  
 :::
+
 
 
 
@@ -37,6 +40,7 @@ See [http://www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-pl
 
 
 <!--endintro-->
+
 
 ::: greybox
 vti\_encoding:SR|utf8-nl 

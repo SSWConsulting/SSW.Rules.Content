@@ -74,6 +74,7 @@ Once all issues have been discussed to the satisfaction of The Scrum Team, the m
  The time-box for this meeting is usually as many hours as weeks in the Sprint.
 
 
+
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 * [Sprint Planning Meeting](/Pages/SprintPlanningMeeting.aspx "Sprint Planning Meeting")

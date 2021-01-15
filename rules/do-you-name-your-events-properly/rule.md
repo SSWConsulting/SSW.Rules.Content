@@ -28,6 +28,7 @@ public event Action
 
 
 
+
 ::: bad
 Bad code
 
@@ -39,6 +40,7 @@ Bad code
 public event Action
 < connectioninformation > ConnectionProblemDetected;
 ```
+
 
 
 

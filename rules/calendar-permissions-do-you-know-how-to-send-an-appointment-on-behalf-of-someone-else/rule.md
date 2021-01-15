@@ -32,12 +32,14 @@ When sending an appointment from someone else's calendar, you should always incl
 <!--endintro-->
 ![](shared-calendar.jpg)
 
+
 ::: good
 Figure: Step 1 - Open the person's shared calendar
 
 :::
 
 ![](Send-on-behalf-of.jpg)
+
 ::: good
 Figure: Step 2 - Make sure you invite the person you're sending for
 
@@ -45,6 +47,7 @@ Figure: Step 2 - Make sure you invite the person you're sending for
 
 
 ![](on-behalf-of.jpg)
+
 ::: good
 Figure: the attendees will receive an appointment that says you sent it on behalf of the other person
 

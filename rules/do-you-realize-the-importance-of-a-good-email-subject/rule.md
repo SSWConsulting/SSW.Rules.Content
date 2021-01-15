@@ -34,11 +34,13 @@ Never leave the subject blank! It's like writing a book and failing to give it a
 
 
 | 
+
 ::: bad
 Bad Subject Examples
 
 :::
  | 
+
 ::: good
 Good Subject Examples
 
@@ -70,6 +72,7 @@ Of course, we also use a structured approach for emails - especially when sendin
 
 We use the following format for the subject internally and encourage clients and external contacts to use this format as well.
 
+
 ::: greybox
 [Client Name/Product Name] - [Project Name] – [Object Name/Description]
 Eg.:  **WorleyParsons – IOP – Customer.aspx - Add email address validation** 
@@ -99,6 +102,7 @@ Other words to be used are:
 * Product name - Pre-Sales Support
 * Project name
 * Client Name
+
 
 
 ::: greybox

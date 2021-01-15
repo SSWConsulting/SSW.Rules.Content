@@ -18,11 +18,13 @@ Most people will be accessing your website from their mobile phone, so it’s re
 
 <!--endintro-->
 ![](not mobile friendly.png)
+
 ::: bad
 Figure: Bad Example – this page is not mobile-friendly at all  
 :::
 
 ![](mobile friendly.png)
+
 ::: good
 Good example – our page is really mobile friendly! :)
 

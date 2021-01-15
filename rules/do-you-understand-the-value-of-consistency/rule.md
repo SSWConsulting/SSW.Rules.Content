@@ -31,6 +31,7 @@ At SSW we create standards for all manner of processes: from coding practices to
 
 The following story illustrates these values:
 
+
 ::: greybox
 
 **The Barber** (excerpt from "The E Myth" page 105)

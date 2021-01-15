@@ -34,6 +34,7 @@ With jQuery, you can write less code but do more work.
 
 
 
+
 ::: bad
 Figure - Bad Code  
 :::
@@ -49,6 +50,7 @@ Figure - Bad Code
 
 
 
+
 ::: bad
 Figure: Bad Code  
 :::
@@ -61,6 +63,7 @@ Figure: Bad Code
     $("#Head1").css("color","red"); 
 </script>
 ```
+
 
 
 

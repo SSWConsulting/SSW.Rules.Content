@@ -17,6 +17,7 @@ Product logo design is an important tool when it comes to promoting SSW’s prod
 
 <!--endintro-->
 ![](SSW products logos.png) 
+
 ::: good
 Figure: Good Example - Some of the current SSW Product Logos
 
@@ -51,6 +52,7 @@ An SSW product logo can be shown in these color variations: Two-Colored, SSW cha
 
       <img src="4 color logo.png" alt="" style="width:770px;">
    
+
 ::: good
 Figure: Good Example - TimePro logo in 4 different colors
 
@@ -75,6 +77,7 @@ The font used on SSW product logo is Helvetica Neue LT Pro, the font weight for 
 A vertical layout version should also take consideration when creating an SSW product logo. Place the icon set and product name vertically, make the product name 80% of the original size (e.g. 30pt for original, 24pt for vertical).
 
 ![](vertical logo.png)
+
 ::: good
 Figure: Good Example -Vertical version of TimePro logo
 

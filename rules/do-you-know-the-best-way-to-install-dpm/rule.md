@@ -30,6 +30,7 @@ It might make sense in your environment to install a DPM Server inside a Virtual
 
 Further to this, it is also recommend that you use iSCSI or Pass-Through disks if you are going to be using DPM inside a Virtual Machine. Using VHD’s in the storage pool is going to give you poor performance.
 
+
 ::: greybox
 
 **WARNING:** Although Microsoft recommend running the latest OS (being Windows Server 2019 and DPM 2019). SSW recommends Windows Server 2012 R2 with DPM 2019.

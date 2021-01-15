@@ -29,6 +29,7 @@ At SSW we do not use recruiters, instead we rely on word of mouth for referrals,
 
 We also try to make our ads interesting and fun to help them stand out. For example, when we needed a new State Manager for Brisbane, we needed someone with a Business mind, who also knew our industry inside and out. So we created the title "A Business Guy (once a wannabe developer)". This got people's attention, and got us the right person for the job!
 ![](Business Guy.png)
+
 ::: good
 Figure: Good example - Our "Business Guy" role as shown on our website
 

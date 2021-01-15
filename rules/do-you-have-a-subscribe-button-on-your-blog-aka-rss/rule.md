@@ -21,6 +21,7 @@ The RSS or 'subscribe' button is a place on your blog that alow visitors to easi
 
 Blogs that have a visible 'subscribe' button will certainly receive more returning visitors.
 
+
 ::: greybox
 
 **Tip:** For Wordpress, there are plugins that make it easy to insert the 'subscribe' button in your WP blog. We recommend:

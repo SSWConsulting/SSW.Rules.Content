@@ -26,6 +26,7 @@ Match MatchExpression(string input, string pattern)
 
 
 
+
 ::: bad
 Figure: Bad - Method without member accessibility declared 
 
@@ -36,6 +37,7 @@ Figure: Bad - Method without member accessibility declared
 ```
 private Match MatchExpression(string input, string pattern)
 ```
+
 
 
 

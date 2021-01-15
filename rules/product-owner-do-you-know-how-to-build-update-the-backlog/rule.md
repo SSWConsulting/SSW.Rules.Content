@@ -25,12 +25,14 @@ There are three options for how to add new PBI (Product Backlog item) to the bac
 <!--endintro-->
 
 1. **Emails** 
+
 ::: bad
 Bad Example - This is a poor way to add a PBI as you can’t order emails by the business priority
 
 :::
 2. **Azure DevOps** - E.g. https://ssw.visualstudio.com
  ![](AzureDevOpsBacklog.png)
+
 
 ::: good
 Figure: Good Example - Azure DevOps allows you to enter an item into the backlog, in any priority order  

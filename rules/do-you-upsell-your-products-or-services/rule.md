@@ -74,9 +74,11 @@ This is the same as when a dev goes to a client to build an Angular application 
 
 Some developers see lots of opportunities for upselling, and once they get a positive bite from the customer they hand it over to the Account Manager to track in CRM. From there the client should be massaged until the new work booked in. This is important as Account Managers can then track and report on opportunities that have been won or lost.
 
+
 ::: greybox
  **Scenario:** You overhear the client talking about implementing Azure AD. You do nothing and continue with your work.  
 :::
+
 
 ::: bad
 Figure: Bad example - of upselling 
@@ -84,9 +86,11 @@ Figure: Bad example - of upselling
 
 :::
 
+
 ::: greybox
  **Scenario:** You are having an initial meeting with a client about developing a new in-house application. During this meeting, they mention a few additional projects to be completed. These include implementing syncing between their on-premises AD with Azure AD. You advise them that you have some SysAdmins that could assist in this work, and ask if it is ok for your account manager to call them.  
 :::
+
 
 ::: good
 Figure: Good example - of upselling

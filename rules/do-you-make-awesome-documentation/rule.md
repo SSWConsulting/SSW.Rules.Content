@@ -71,6 +71,7 @@ This is a well-established way to do documentation, but it has several problems:
 There may be exceptions – some situations benefit from this kind of documentation; for example, it may be necessary to support a business case – although a well-defined spec is a better document to support a business case.
 
 
+
 ::: greybox
  **More info:** https://rules.ssw.com.au/rules-to-better-specification-reviews
 
@@ -104,6 +105,7 @@ It also means that when a developer makes a change to the code that needs an upd
 
 
 **In the Wiki (for developers and other stakeholders):**
+
 
 ::: greybox
  **Note:** When using a GitHub Wiki, it’s a separate repository. When using an Azure DevOps Wiki, it’s in the same repository.  

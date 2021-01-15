@@ -26,6 +26,7 @@ Make a new class that inherits from Telerik.Sitefinity.Modules.Libraries.BlobSto
 Once you have made your class then you need to register it in Sitefinity.
  Open the config file “App\_Data\Sitefinity\Configuration\LibrariesConfig.config” in notepad and register your Class
 
+
 ::: greybox
 
 

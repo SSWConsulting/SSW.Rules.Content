@@ -23,6 +23,7 @@ If you found yourself doing ad-hoc reports, or random SQL queries, a few years a
 Since 2015, the best practice is instead to jump into Power BI and build the report yourself.
 
 
+
 ::: greybox
  **Subject: Report needed** 
 
@@ -38,11 +39,13 @@ Jonny
 
 
 
+
 ::: bad
 Figure - Bad Example: If you can't build it yourself, send an email to your boss for a number
   
 :::
  <img src="Power BI.png" alt="Power BI.png" style="margin:5px;width:808px;"> 
+
 ::: good
 Figure - Good Example: Sate your own curiosity with Power BI  
 :::

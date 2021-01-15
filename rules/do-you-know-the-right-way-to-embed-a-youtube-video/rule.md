@@ -39,6 +39,7 @@ When you embed a YouTube video it will increase your page size from 500kbs to 1.
 
 
 
+
 ::: bad
 Figure: Bad example – The evil HTML code  
 :::
@@ -51,6 +52,7 @@ All you have to do is, whenever you need to embed a video to a page, add the bel
 ```
 <div class="youtube-player" data-id="VIDEO_ID"></div>
 ```
+
 
 
 

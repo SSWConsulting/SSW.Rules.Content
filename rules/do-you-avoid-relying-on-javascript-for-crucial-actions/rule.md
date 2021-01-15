@@ -23,6 +23,7 @@ JavaScript is very useful for improving user-interaction, along with reducing th
 
 Depending on your audience you may choose to disregard this rule, but for mainstream websites it is highly recommended that you don't rely on JavaScript for crucial actions, such as  **validation** or  **business-logic** purposes. Do a server-side validation instead.
 
+
 ::: greybox
 
 **Note:** This rule can be applied to any other third-party technology, such as Flash or Java. If it's not built into every web browser/device or if it can be disabled, then make sure the page is still accessible and usable without it.

@@ -30,6 +30,7 @@ The Control4 App turns your iOS or Android mobile device into the smart home/off
 **Figure: Use the Control4 App** 
     Throw away your remote controls and move on to technological freedom!
 ![](Bad example C4.jpg)
+
 ::: bad
 Figure: Bad example, using any pysical remote control instead of the Control4 app.
 
@@ -37,6 +38,7 @@ Figure: Bad example, using any pysical remote control instead of the Control4 ap
 
 
 ![Good example C4.PNG](boardroomac.jpg)
+
 ::: good
 Good Example: Turning on the air conditioner using Control4
 

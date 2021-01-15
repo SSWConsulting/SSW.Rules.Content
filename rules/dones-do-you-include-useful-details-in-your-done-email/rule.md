@@ -21,6 +21,7 @@ redirects: []
 
 Including images is a good idea, in addition when appropriate include code snippets,  and ideally have the code that changed highlighted in <font style="background-color:#ffff00;">yellow</font>.
 
+
 ::: greybox
 An email with just the word "done" can often be enhanced with a screen capture or code snippet...
 ...it provides evidence

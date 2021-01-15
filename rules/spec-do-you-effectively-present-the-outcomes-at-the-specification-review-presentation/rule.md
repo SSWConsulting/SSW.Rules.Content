@@ -34,18 +34,22 @@ If you've run the Spec Review successfully the client should not be surprised by
 
 The Spec Review presentation should be scheduled by the Consultant or Account Manager for the afternoon of the final day of the Spec Review.
 
+
 ::: greybox
 “I will send you a proposal when I get back to the office.”  
 :::
+
 
 ::: bad
 Figure: Bad example – a common mistake is to tell the client you will complete it later     
 
 :::
 
+
 ::: greybox
 “Let’s schedule a meeting now for Wed 3 pm. I will send a meeting invite to all the stakeholders.”  
 :::
+
 
 ::: good
 Figure: Good example – this is an appointment with a specific time for the next schedule The benefits are:  

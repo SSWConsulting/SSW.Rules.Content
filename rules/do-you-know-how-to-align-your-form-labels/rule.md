@@ -27,6 +27,7 @@ There are different ways to align your form labels and each has its own pros and
 ![](label-top-aligned.png)  
 :::
 
+
 ::: good
 Pros:
 
@@ -37,6 +38,7 @@ Pros:
 * Easiest to process
 * Fastest completion times
 * Good for multiple languages
+
 
 
 ::: bad
@@ -56,6 +58,7 @@ Cons:
 ![](label-left-aligned.png)  
 :::
 
+
 ::: good
 Pros
 
@@ -63,6 +66,7 @@ Pros
 
 * Easy to scan labels, especially if you have a lot of optional labels
 * Takes a little more attention to fill in, so useful for complicated forms that require accuracy
+
 
 
 ::: bad
@@ -83,6 +87,7 @@ Cons
 ![](label-right-aligned.png)  
 :::
 
+
 ::: good
 Pros
 
@@ -90,6 +95,7 @@ Pros
 
 * Best at linking label and form
 * Good completion rates on small, common forms (i.e. Login, Sign up)
+
 
 
 ::: bad
@@ -112,6 +118,7 @@ Alternatively, we can use Material labeling which places them inside the form an
 ![](label-material-labeling.png)  
 :::
 
+
 ::: good
 Pros
 
@@ -122,6 +129,7 @@ Pros
 * Best for completion rates
 * Decent multilanguage support
 * Decent responsive support
+
 
 
 ::: bad

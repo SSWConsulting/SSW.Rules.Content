@@ -25,14 +25,17 @@ If you are active in a forum, like the MSDN or StackOverflow forums, then you sh
 > 6:02 PM Mar 12th via twitterfeed  
 > :::
 > 
+> 
 > ::: good
 > Figure: Good example - MSDN and ardvark tweets are automatic using twitterfeed
 > 
 > :::
 > 
+> 
 > ::: greybox
 > Just helped someone from Rexburg, US with a question about \*diligence\* ...on Aardvark!  
 > :::
+> 
 > 
 > ::: good
 > Figure: Good example - Aardvark tweets are built in

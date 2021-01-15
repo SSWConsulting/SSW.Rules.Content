@@ -51,6 +51,7 @@ A few invented scenarios are presented below:
 ###  Example 1
 
 
+
 ::: greybox
 "It’s November 2020 and we are planning to launch the final version of our ASP.NET Core 3.1 API next week. There is no further planned development work in the next 12 months. If we upgrade to .NET 5 in the final sprint, we would get a performance boost."
 
@@ -61,6 +62,7 @@ Although moving to .NET 5 could introduce a performance improvement, .NET 5 is n
 ### Example 2
 
 
+
 ::: greybox
 "It’s November 2020 and Build 4463 of our ASP.NET Core API has just been deployed to Azure via GitHub Actions. We plan to continually develop new feature requests over the next 15 months, Finishing in January 2022”
 
@@ -69,6 +71,7 @@ Although moving to .NET 5 could introduce a performance improvement, .NET 5 is n
 When “continual development” is planned, it’s much easier to recommend working against the latest .NET version as it’s released. Upgrading incrementally during active development is often less painful than a larger planned upgrade between LTS versions 
 
 ### Example 3
+
 
 ::: greybox
 "Once finished, we have no plans for further features for the next 2 years. Our planned launch date is October 2021"

@@ -21,6 +21,7 @@ Every error message you put into your products is an opportunity for good servic
 
 ![ ](imgErrorHandle.GIF)
 
+
 ::: good
 Figure: Log every error  
 :::

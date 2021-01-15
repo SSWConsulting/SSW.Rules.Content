@@ -40,6 +40,7 @@ Remember to make the "logged in" state clear enough to help the user know the cu
 ![Figure: Good Example on Web form - Logged off state](../../assets/weblogoff.gif)  
 :::
 ![](MetroLoggedIn.jpg)
+
 ::: good
 Figure: Good Example – Metro UI’s new logged in state     
 

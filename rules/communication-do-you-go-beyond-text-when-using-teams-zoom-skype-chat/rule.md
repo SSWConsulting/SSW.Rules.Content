@@ -24,10 +24,12 @@ redirects:
 
 Communication can be difficult  (even if English is your first language!). It might be tempting to only communicate via IM, but this will not improve your skills or build a relationship as well as communicating verbally.
 
+
 ::: bad
 Stop: Just using text in IM
 
 :::
+
 
 ::: good
 Start: Asking ‘Can I call you?’ (Especially for complicated conversations)

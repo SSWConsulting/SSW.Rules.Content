@@ -28,6 +28,7 @@ ts = TimeSpan.Parse(cboMyComboBox.Text)
 
 
 
+
 ::: bad
 Figure: Bad code because a value greater than 24hours will crash eg. 45:30
 
@@ -38,6 +39,7 @@ Figure: Bad code because a value greater than 24hours will crash eg. 45:30
 ```
 ts = TimeSpan.Parse(FormatTimeSpanString(cboMyComboBox.Text))
 ```
+
 
 
 

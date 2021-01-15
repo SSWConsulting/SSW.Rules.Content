@@ -32,10 +32,12 @@ All expense claims must:
 * Receipts should be in English (where possible), or you must write on the receipt what the expense is, and what it was for
 
 
+
 ::: greybox
  **Tip:** If necessary, you can use the Google Translate app to translate your receipts by taking a photo!  
 
 :::
+
 
 ::: greybox
 🇨🇳 If you’re in China, all-expense claims must:

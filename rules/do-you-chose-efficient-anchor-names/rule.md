@@ -22,10 +22,12 @@ These are the things you should consider when creating an anchor link:
 2. **Case sensitive** - Are "http://www.ssw.com.au/ssw/NETUG/DeveloperLinks.aspx#usergroups" and "http://www.ssw.com.au/ssw/NETUG/DeveloperLinks.aspx#UserGroups" the same? The answer is "no" because they might be not case sensitive when they test in some browsers.
 3. **No spacing** - When you are defining an anchor name, make sure there are no spaces within the name. 
 
+
 ::: bad
 Bad: &lt;a name="Some Anchor Name"&gt; 
 
 :::
+
 
 ::: good
 Good: &lt;a name="SomeAnchorName"&gt; 
@@ -36,10 +38,12 @@ Good: &lt;a name="SomeAnchorName"&gt;
 When you are referencing an anchor you DO use a #.
 This is a common mistake because the # is used on the "href".
 
+
 ::: bad
 Bad: &lt;a name="#SomeAnchorName"&gt; 
 
 :::
+
 
 ::: good
 Good: &lt;a name="SomeAnchorName"&gt; 

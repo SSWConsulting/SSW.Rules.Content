@@ -18,6 +18,7 @@ Do you display dates on your website formatted in a human friendly manner?
 
 ![](bad-timeformatting.jpg)
 
+
 ::: bad
 Figure: Bad - detailed date formatting is difficult to read  
 :::
@@ -25,6 +26,7 @@ Figure: Bad - detailed date formatting is difficult to read
 
 
 ![](good-timeformatting.jpg)
+
 
 ::: good
 Figure: Good - humanized date formatting is easy to read  

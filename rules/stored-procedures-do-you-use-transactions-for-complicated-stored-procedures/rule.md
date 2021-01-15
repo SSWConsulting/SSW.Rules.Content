@@ -31,6 +31,7 @@ AS
 
 
 
+
 ::: bad
 Figure: Bad Example - No transaction here, if any of operations fail, the database will only partially update, resulting in an unwanted result.
 
@@ -48,6 +49,7 @@ AS
  SELECT ParaID FROM Para
  COMMIT
 ```
+
 
 
 

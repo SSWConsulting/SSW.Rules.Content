@@ -86,6 +86,7 @@ Withdraw_Should_ThrowException_When_InvalidAccountInfo Checkout_Should_Add10Prec
 
 
 
+
 ::: good
 Figure: Good Examples - Without looking at code, I know what the unit tests are trying to do
 

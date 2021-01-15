@@ -35,6 +35,7 @@ To ensure your meetings are productive and successful, you should:
 ![Figure: Bad example - meeting with No Agenda](../../assets/MeetingNoAgenda.JPG)  
 :::
 ![](MeetingWithAgenda_1.jpg)
+
 ::: good
 Figure: Good example - meeting with Agenda  
 :::

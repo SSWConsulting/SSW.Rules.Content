@@ -19,18 +19,22 @@ Developers don’t really like fixing bugs, but it’s part of what they do from
 
 <!--endintro-->
 
+
 ::: greybox
 You receive a bug report, you read it, try to reproduce it, and try to fix it. If you can’t reproduce it, you then call the client and ask them to walk you through it. Then you fix it - if they were able to reproduce the issue.  
 :::
+
 
 ::: bad
 Bad example
 
 :::
 
+
 ::: greybox
 You receive a bug report, you don’t read it. You immediately call the client and ask them to reproduce the issue. If they are able to reproduce it, then you fix it.   
 :::
+
 
 ::: good
 Good example

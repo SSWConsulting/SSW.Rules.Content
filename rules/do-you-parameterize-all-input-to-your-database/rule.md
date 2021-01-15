@@ -25,6 +25,7 @@ Source: [xkcd.com](https://xkcd.com/327/)
 
 
 
+
 ::: good
 Advantages
 
@@ -46,6 +47,7 @@ WHERE CompanyName = 'NorthWind';
 
 
 
+
 ::: bad
 Figure: Bad Example - Using a dynamic SQL query
 
@@ -58,6 +60,7 @@ SELECT Id, CompanyName, ContactName, ContactTitle
 FROM dbo.Customers
 WHERE CompanyName = @companyName;
 ```
+
 
 
 
@@ -85,6 +88,7 @@ cmd.Parameters.Add("@varcharValue", System.Data.SqlDbType.Varchar, 20).Value = �
 
 
 
+
 ::: good
 Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 characters (-1 for MAX)
 
@@ -95,6 +99,7 @@ Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 char
 ```
 cmd.Parameters.Add("@decimalValue", System.Data.SqlDbType.Decimal, 11, 4).Value = decimalValue;
 ```
+
 
 
 
@@ -111,6 +116,7 @@ cmd.Parameters.Add("@dateTimeValue", System.Data.SqlDbType.DateTime2).Value = Da
 
 
 
+
 ::: good
 Figure: Good Example - C#, VB .NET SQL DateTime Parameter
 
@@ -121,6 +127,7 @@ Figure: Good Example - C#, VB .NET SQL DateTime Parameter
 ```
 $SqlCmd.Parameters.Add("@dateTimeValue", [System.Data.SqlDbType]::DateTime2).Value = $dateTime2Value
 ```
+
 
 
 

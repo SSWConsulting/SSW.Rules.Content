@@ -18,9 +18,11 @@ Wireless networks are everywhere now. You can't drive down the street without fi
 
 <!--endintro-->
 
+
 ::: greybox
 WEP, No SSID broadcast, allowed MAC addresses are all OK but these are more home security.  
 :::
+
 
 ::: bad
 Figure: Bad example - the above settings are not suitable for a company's wireless access point
@@ -32,10 +34,12 @@ Figure: Bad example - the above settings are not suitable for a company's wirele
 
 For the office, you need something a bit more robust and not requiring much management overhead.
 
+
 ::: greybox
 It is recommended to use Radius authentication to integrate with your Active Directory.
 
 :::
+
 
 
 ::: good

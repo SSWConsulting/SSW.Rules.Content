@@ -60,6 +60,7 @@ public class CustomerValidator: AbstractValidator<Customer> {
 
 
 
+
 ::: good
 Good example: Fluent Validation uses LINQ expressions allowing the development of powerful, type-checked rulesets without needing to modify the class under validation.  
 :::
@@ -70,6 +71,7 @@ Good example: Fluent Validation uses LINQ expressions allowing the development o
 ```
 RuleFor(x => x.Discount).NotEqual(0).When(x => x.HasDiscount);
 ```
+
 
 
 
@@ -87,6 +89,7 @@ Good Example: Conditional validation with the .When() clause allows for complex 
   ]
 }
 ```
+
 
 
 

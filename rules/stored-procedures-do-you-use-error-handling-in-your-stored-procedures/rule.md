@@ -65,6 +65,7 @@ SELECT 1 / @inputNumber AS Error;
 
 
 
+
 ::: bad
 Figure: Bad Example - No error handling.
 
@@ -103,6 +104,7 @@ END CATCH;
 
 
 
+
 ::: good
 Figure: Good Example - Using error handling to catch an error and attempt to resolve it.
 
@@ -130,6 +132,7 @@ BEGIN CATCH
              THROW;
 END CATCH;
 ```
+
 
 
 

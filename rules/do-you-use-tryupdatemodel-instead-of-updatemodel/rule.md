@@ -17,6 +17,7 @@ UpdateModel will throw an exception if validation of the model fails.  Instead o
 
 <!--endintro-->
 
+
 ::: greybox
 
 
@@ -31,6 +32,7 @@ public ActionResult Create()
 
 :::
 Figure: Bad Example – UpdateModel may throw an exception and the ModelState dictionary won’t be updated 
+
 ::: greybox
 
 

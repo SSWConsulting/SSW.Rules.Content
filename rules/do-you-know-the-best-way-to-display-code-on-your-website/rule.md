@@ -45,6 +45,7 @@ public class Configuration
 
 
 
+
 ::: bad
 Figure: Bad code display example - using &lt;font&gt;  
 :::
@@ -70,6 +71,7 @@ public class Configuration
 
 
 
+
 ::: bad
 Figure: Bad code display example - using &lt;code&gt;  
 :::
@@ -86,6 +88,7 @@ get
 {
 </pre>
 ```
+
 
 
 

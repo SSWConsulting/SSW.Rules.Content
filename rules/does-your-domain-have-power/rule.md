@@ -23,11 +23,13 @@ This is not one of the main ones, but still relevant. Your domain name is import
 
 <!--endintro-->
 ![](tweet.jpg)
+
 ::: bad
 Figure: Bad example - What happens when you lose your domain to a prankster and you are the PM.
 
 :::
 ![](car.jpg)
+
 ::: good
 Figure: Good Example - This website has its main product 'car' in their domain.
 

@@ -71,6 +71,7 @@ The .NET dependency diagram is a useful tool, but it drills down into a specific
 
 See SSW rule: [Do you generate the VS Dependency Graph?](/do-you-generate-the-vs-dependency-graph)
 ![](dependency-validation-01.png)
+
 ::: bad
 Figure: Bad Example - the .NET dependency diagram shows code dependencies, but not the application's architecture
 
@@ -91,6 +92,7 @@ Your architecture diagram should show how the components of your solution fit to
 
 It should be easy to tell at a glance which direction data flows in your diagram: left to right, right to left,        <mark>top to bottom</mark>(recommended). Pick a direction for your data flow, and keep it consistent across all your documentation. Where there are exceptions (for example data going to analytics or to/from partner sources) make these perpendicular to the primary data flow direction.
 ![sugarlearning-architecture-diagram (1).png](sugarlearning-architecture-diagram (1).png)
+
 ::: good
 Figure: Good example - SugarLearning (an Angular + .NET project) - data flows from top to bottom, with exceptions (e.g. Application Insights / Raygun, not part of the main data flow) perpendicular to the primary direction
 
@@ -104,6 +106,7 @@ Group components logically by enclosing them in a box. Components that operate i
 
 Note: for clarity, out of scope items whether one or many, should be in a box.
 ![rewards-architecture-diagram (2).png](rewards-architecture-diagram (3).png)
+
 ::: good
 Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used, e.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line
 
@@ -126,6 +129,7 @@ A key milestone in the early engagement is the first time a client takes the pen
 ** 
 **Tip** **:** [Microsoft Office Lens](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi6-NTb1MvrAhWXA3IKHevqC-MQtwIwAHoECAEQAQ&url=https://www.youtube.com/watch?v%3DjzZ3WVhgi5w&usg=AOvVaw25XKH6ZRcPfM5jaVajFOlH) is a free mobile app that uses your smartphone camera to capture scan-like images of documents, photographs, business cards, and whiteboards (including searchable handwritten text).
 ![](IMG_9908.JPG)
+
 ::: good
 Figure: Better Example - SSW Rewards - the same sketch but captured with Office Lens. How much clearer and more vibrant is this!
 
@@ -141,6 +145,7 @@ It is definitely the most popular diagram tool at SSW:
 
 **Figure:** **Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams**
 ![](TimePRO Architecture Diagram v2.png)
+
 ::: good
 Figure: Better Example - TimePro (an Angular + .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document.
 
@@ -148,6 +153,7 @@ Figure: Better Example - TimePro (an Angular + .NET project with Hangfire) - you
 
 Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
 ![](thumbnail_image003.jpg)
+
 ::: good
 Figure: Great Example - Auctions (a Blazor + .NET + Cosmos DB project) - diagrams.net integrated directly into VS Code
 
@@ -155,6 +161,7 @@ Figure: Great Example - Auctions (a Blazor + .NET + Cosmos DB project) - diagram
 
 There are multiple extensions available that let you do this, the best one is [VS Code | Extensions | Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio). This makes it easy to create and edit the architecture diagram right alongside the code, and check-in with the relevant commits.
 ![](architecture-2.png)
+
 ::: good
 Figure: Good Example - Auctions (a Blazor + .NET + Cosmos DB project) - system architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color
 
@@ -174,6 +181,7 @@ Maintain standards to keep your diagrams consistent:
 * Add color and icons to make your diagrams engaging and easier to distinguish
 
 ![](SSW.People-Architecture-Diagram.png)
+
 ::: good
 Figure: Good Example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders
 

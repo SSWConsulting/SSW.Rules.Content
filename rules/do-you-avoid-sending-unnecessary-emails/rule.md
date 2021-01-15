@@ -23,6 +23,7 @@ A good rule of thumb for whether an email is unnecessary is if your email compri
 
 Merely saying "thanks" is often not sufficient to warrant the email but an exception to this rule is when positive reinforcement should be used when someone has done a specific behaviour that you like and want to encourage. E.g.
 
+
 ::: greybox
 "Thanks for being proactive and pointing out that improvement."  
 :::

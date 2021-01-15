@@ -22,11 +22,13 @@ Often bugs are hard to reproduce because they are inconsistently described, and 
 
 ![](templates for pbis and bugs - bad example.png)
 
+
 ::: bad
 Figure: Bad Example – This new bug template doesn’t make it obvious how the team likes their steps to repro  
 :::
 
 ![](templates for pbis and bugs - good example.png)
+
 
 ::: good
 Figure: Good Example – This new bug template guides the user to fill in the steps to repro in an ordered list and even prompts them to fill in what they expected to happen (and what actually happened)  
@@ -44,6 +46,7 @@ Figure: Customising a bug work item form</dd>
 
 
 Sample Template:
+
 
 ::: greybox
 &lt;ol&gt;&lt;li&gt;First I did this&lt;/li&gt;&lt;li&gt;Then I did this&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;b&gt;Expected Result&lt;/b&gt;&lt;/div&gt;&lt;div&gt;I expected it to save properly&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Actual Result&lt;/b&gt;&lt;/div&gt;&lt;div&gt;I got an exception (tip: you can copy/paste screenshots)

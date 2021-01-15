@@ -25,6 +25,7 @@ Expensify lets you separate your expenses into different folders to avoid confus
 
 <!--endintro-->
 ![](Expensify6.PNG)
+
 ::: bad
 Bad example: Two unrelated expenses in the same folder, this can be confusing to Accounts Staff.
 
@@ -33,6 +34,7 @@ Bad example: Two unrelated expenses in the same folder, this can be confusing to
 
 Expensify lets you create new reports so that you can separate your receipts and reports.
 ![](Expensify9.PNG)
+
 ::: good
 Good example: Expenses separated into different folders - easier to claim and track what your receipts were for!
 

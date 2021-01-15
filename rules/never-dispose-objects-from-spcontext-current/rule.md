@@ -31,6 +31,7 @@ using (SPWeb web =  SPContext.Current.Site.RootWeb )
 
 
 
+
 ::: bad
 Figure: Using statement is trying to dispose current site object - it will cause exception  
 :::
@@ -46,6 +47,7 @@ Just simplely use "Current" object directly.
 SPWeb web =  SPContext.Current.Site.RootWeb ;
 //do something here
 ```
+
 
 
 

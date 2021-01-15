@@ -22,6 +22,7 @@ In cases where data is posted, if you don't do a redirect and the user hits the 
 
 Redirecting after posted data has been processed is called the     [Post-Redirect-Get (or PRG) pattern](http&#58;//en.wikipedia.org/wiki/Post/Redirect/Get).
 
+
 ::: greybox
 
 
@@ -38,6 +39,7 @@ public ActionResult Create(CreateModel model)
 
 :::
 Figure: Bad Example – Returning a different view is misleading and potentially dangerous
+
 ::: greybox
 
 

@@ -39,6 +39,7 @@ public class Example
 
 
 
+
 ::: bad
 Figure: Bad Example - Method is empty
 
@@ -55,6 +56,7 @@ public class Sample
         }
  }
 ```
+
 
 
 
@@ -87,6 +89,7 @@ public class Demo : IDemo
 
 
 
+
 ::: bad
 Figure: Bad Example - No Comment within empty code block  
 :::
@@ -113,6 +116,7 @@ public class Demo : IDemo
        } 
  }
 ```
+
 
 
 

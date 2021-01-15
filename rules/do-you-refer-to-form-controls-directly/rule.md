@@ -43,6 +43,7 @@ End Sub
 
 
 
+
 ::: bad
 Bad Example
 
@@ -62,6 +63,7 @@ Sub CreateSchedule(pdteDateStart As Date, pdteDateEnd As Date)
  &....processing code
 End Sub
 ```
+
 
 
 

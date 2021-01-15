@@ -24,6 +24,7 @@ An application can now be easily found on the user’s desktop or start menu, an
 <font class="ms-rteCustom-ImageArea"><img width="587" height="445" alt="" src="OOB.jpg"></font>
 
 
+
 ::: good
 Figure: OOB demo from   http://www.microsoft.com/silverlight/out-of-browser/demo/
 :::

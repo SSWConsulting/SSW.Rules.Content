@@ -19,6 +19,7 @@ If the dev is booked in on the Service Calendar in CRM, he will be billing that 
 
 <!--endintro-->
 
+
 ::: greybox
 
 * Developer X comes in in the morning
@@ -30,6 +31,7 @@ If the dev is booked in on the Service Calendar in CRM, he will be billing that 
 
 :::
 Bad Example: Scenario where developer bills a partial day
+
 ::: greybox
 
 * Developer checks his calendar or the CRM Service Calendar the day before and knows what client he’s going to work on before he comes in

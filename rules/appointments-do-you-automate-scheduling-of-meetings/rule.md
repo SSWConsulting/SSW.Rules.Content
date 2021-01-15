@@ -46,6 +46,7 @@ This option is best if you're ok to meet any time that your calendar says is fre
 
 **Step 2:** Open an email... not an appointment!
 
+
 ::: greybox
 To:      [person]
 Cc:      Cortana@calendar.help

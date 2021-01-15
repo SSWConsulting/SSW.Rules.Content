@@ -100,12 +100,14 @@ namespace HTTPCompression.ActionFilters
 ```
 
  
+
 ::: bad
 Figure: Bad Example, files with large size and slow load time.
 
 
 :::
         ![](5.28.7.png)
+
 
 ::: good
 Figure: Good Example, gzipped files with smaller size and faster load time.

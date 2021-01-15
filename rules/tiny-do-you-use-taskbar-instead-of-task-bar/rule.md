@@ -17,6 +17,7 @@ This is a common item that trips people up: taskbar is one word, not two.
 
 ![Taskbar is one word, not two ](taskbar-not-task-bar.gif)
 
+
 ::: good
 Figure: Good Example - You should use the "taskbar" over "task bar"
 

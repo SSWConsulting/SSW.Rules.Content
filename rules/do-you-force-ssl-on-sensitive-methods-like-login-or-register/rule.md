@@ -17,6 +17,7 @@ Any sensitive data that is sent over the wire must be protected using a secure t
 
 <!--endintro-->
 
+
 ::: greybox
 
 
@@ -30,6 +31,7 @@ public ActionResult Register()
 
 :::
 Figure: Bad Example – The Register method isn’t secure
+
 ::: greybox
 
 

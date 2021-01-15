@@ -18,9 +18,11 @@ redirects:
 Using no Outlook add-in  
 :::
 
+
 ::: bad
 Bad Example  
 :::
+
 
 ::: greybox
 Colligo , Harmon.ie and Macroview  
@@ -28,9 +30,11 @@ Colligo , Harmon.ie and Macroview
 
 
  **OK Example** 
+
 ::: greybox
 OnePlaceMail  
 :::
+
 
 ::: good
 Good Example  

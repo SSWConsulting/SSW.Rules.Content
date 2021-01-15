@@ -45,6 +45,7 @@ GroupingColumn = if(value<x, small, if(value<y, medium, large))
 
 
 
+
 ::: good
 Figure - Good Example: Nested if statements are a great way to split up your data into groups
 

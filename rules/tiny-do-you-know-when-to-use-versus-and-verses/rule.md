@@ -33,10 +33,12 @@ scenarios.  
 
 
 
+
 ::: greybox
 "Matthew 5:41 is one of my favourite bible versus."
 
 :::
+
 
 ::: bad
 Figure: Bad example: the wrong “versus” is used
@@ -45,10 +47,12 @@ Figure: Bad example: the wrong “versus” is used
 
 
 
+
 ::: greybox
 "Floyd verses Mayweather."
 
 :::
+
 
 ::: bad
 Figure: Bad example: Floyd did not poetry
@@ -56,10 +60,12 @@ Mayweather
 :::
 <dd>
 </dd>
+
 ::: greybox
 "Brown v. The Board of Education."
 
 :::
+
 
 ::: good
 Figure: Good example: in a legal context, “versus”
@@ -68,10 +74,12 @@ is abbreviated to “v.”
 :::
 <dd>
 </dd>
+
 ::: greybox
 "Adam penned many verses about his love for .NET development"
 
 :::
+
 
 ::: good
 Figure: Good example

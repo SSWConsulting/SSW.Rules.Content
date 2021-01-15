@@ -65,6 +65,7 @@ Note: Your selection is confirmed in the picture. In this example, the templateâ
 
 Next step is to setup the groups and permissions.
 ![](SetUpGroupForSite.jpg)
+
 ::: good
 Figure: Create a 'new group' or select an 'existing group' for the newly created site  
 :::

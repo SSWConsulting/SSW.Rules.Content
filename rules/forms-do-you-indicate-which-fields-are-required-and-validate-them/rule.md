@@ -53,6 +53,7 @@ ID="emailReqValidator" />
 
 
 Figure: Good Example - an ASP.NET validator in use, to indicate the fields required
+
 ::: greybox
 
 **Note:** For ASP.NET Dynamic Data although validation is done differently (under the covers it is using a field template + the ASP.NET validator).

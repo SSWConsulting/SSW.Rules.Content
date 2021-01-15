@@ -29,6 +29,7 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing d
 This meeting is normally time boxed to as many hours as there are weeks in the Sprint.
 
 
+
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:     
 * [Sprint Planning Meeting](/Pages/SprintPlanningMeeting.aspx "Sprint Planning Meeting")

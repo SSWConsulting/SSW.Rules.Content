@@ -34,6 +34,7 @@ These 3 features will slash the amount of boilerplate code you have to write and
 
 
 
+
 ::: bad
 Figure: Bad example - Amount of boiler plate code for a simple task  
 
@@ -45,6 +46,7 @@ Figure: Bad example - Amount of boiler plate code for a simple task 
 ```
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```
+
 
 
 
@@ -64,6 +66,7 @@ var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost)
 
 
 
+
 ::: bad
 Figure: Bad example - Using the string format make the code difficult to read
 
@@ -75,6 +78,7 @@ Figure: Bad example - Using the string format make the code difficult to read
 ```
 var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
 ```
+
 
 
 
@@ -94,6 +98,7 @@ if(customers.Length != null) { int length = customers.Length; } else { int lengt
 
 
 
+
 ::: bad
 
 Figure: Bad example - Fragile code
@@ -106,6 +111,7 @@ Figure: Bad example - Fragile code
 ```
 int length = customers?.Length ?? 0;
 ```
+
 
 
 

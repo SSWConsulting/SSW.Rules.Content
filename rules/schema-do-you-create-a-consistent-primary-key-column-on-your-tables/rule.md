@@ -26,6 +26,7 @@ Employee.ID, Employee.EmployeeId, Employee.EmployeeID, Employee.Employee_Code, E
 
 
 
+
 ::: bad
 Figure: Bad Example
 
@@ -36,6 +37,7 @@ Figure: Bad Example
 ```
 Employee.Id
 ```
+
 
 
 

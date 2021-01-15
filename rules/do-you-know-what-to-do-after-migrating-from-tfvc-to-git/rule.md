@@ -32,6 +32,7 @@ Unfortunately, you can't kill the TFVC repository and make Git the default one, 
 
 ![](2017-04-05_10-02-58.png)
 
+
 ::: bad
 Figure: Bad Example - Can't delete the now deprecated TFVC repository
 
@@ -65,6 +66,7 @@ Next step is to update the dashboard to let new developers know.
 
 ![](2017-04-05_10-30-43.png)
 
+
 ::: good
 Figure: Good example - Let new users know that the source control is now on Git
 
@@ -85,6 +87,7 @@ Having any of these suggestions will avoid the confusion on this screen
 
 
 ![](2017-04-05_10-06-12.png)
+
 
 
 ::: bad

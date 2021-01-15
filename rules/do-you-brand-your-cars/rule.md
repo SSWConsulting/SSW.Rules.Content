@@ -30,6 +30,7 @@ To get more cars, you can reward employees to brand their personal cars.
 ![Figure: Good Example - cool car](car-branding-tesla.png)  
 :::
 
+
 ::: good
 Figure: Good Example - cool car
 

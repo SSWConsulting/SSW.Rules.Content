@@ -24,10 +24,12 @@ It is not always common but sometimes you will negotiate a change in the agreed 
 
 **Do not pay an invoice in part. ** You should ask the supplier to reissue the invoice or issue a credit note in relation to an invoice. Otherwise, the supplier may say that there is a balance of the invoice owing.
 
+
 ::: greybox
 “Jim. OK, I'll just pay $165, not the $220 on the invoice"
 
 :::
+
 
 
 ::: bad
@@ -35,10 +37,12 @@ Figure: Bad example
 
 :::
 
+
 ::: greybox
 “Dear Jim, Please reissue the invoice or provide a credit note for the now agreed correct amount." 
 
 :::
+
 
 ::: good
 Figure: Good example

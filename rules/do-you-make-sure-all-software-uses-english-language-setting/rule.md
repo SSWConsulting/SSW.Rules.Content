@@ -206,6 +206,7 @@ You should also change your Google language to English as well. If it is not alr
 :::
 ![](3.png)
 
+
 ::: good
 Figure: If you do not have the English version. In Microsoft Office open the rich client application such as Outlook or Word, then install and configure as per the image above  
 :::

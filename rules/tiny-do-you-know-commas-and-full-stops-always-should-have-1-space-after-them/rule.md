@@ -27,25 +27,31 @@ For example:
 
 <!--endintro-->
 
+
 ::: greybox
 Looking for your sent emails through a searching tool is simple.By using Windows Desktop search,you can search your relevant emails by recipient and/or by subject.  
 :::
+
 
 ::: bad
 Figure: Bad Example - No space after comma and full stop  
 :::
 
+
 ::: greybox
 Looking for your sent emails through a searching tool is simple.  By using Windows Desktop search,  you can search your relevant emails by recipient and/or by subject.    
 :::
+
 
 ::: bad
 Figure: Bad Example - Two spaces after comma and full stop  
 :::
 
+
 ::: greybox
 Looking for your sent emails through a searching tool is simple. By using Windows Desktop search, you can search your relevant emails by recipient and/or by subject.  
 :::
+
 
 ::: good
 Figure: Good Example - One space after full stop and comma  

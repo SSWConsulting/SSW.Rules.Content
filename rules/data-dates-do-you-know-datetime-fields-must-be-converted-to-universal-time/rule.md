@@ -80,6 +80,7 @@ else if(timespanCheck < 0)
 
 
 
+
 ::: bad
 Figure: Bad Example - Using .Net DateTime to manipulate dates and times.
 
@@ -113,6 +114,7 @@ Duration d2 = Duration.FromHours(1);
 Duration longestDuration = Duration.Max(d1, d2);
 Duration shortestDuration = Duration.Min(d1, d2);
 ```
+
 
 
 

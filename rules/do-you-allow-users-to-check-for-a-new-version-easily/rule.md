@@ -38,6 +38,7 @@ As it is a user control, we can easily implement this in all our applications. W
 ![ ](VersionStatusProperties.gif)**Figure: Enter the ProductDownloadID and ProductLatestVersionURL** 
 ![Check for Updates](CheckForUpdate.gif)
 
+
 ::: good
 Figure: Include 'Check for Updates' in your applications  
 :::

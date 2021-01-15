@@ -36,6 +36,7 @@ ROI (Return on Investment) is an unbelievably simply calculation.
 :::
 
 
+
 ::: greybox
 ROI = Business Value / Effort  
 :::
@@ -43,6 +44,7 @@ ROI = Business Value / Effort
 ...of course there are other factors to consider.
 
 E.g. Risk, Dependencies etc and you could make the formula more complicated....
+
 
 ::: greybox
 Priority = (Positive Value - Negative Value) + Risk + Dependencies / Effort  

@@ -36,6 +36,7 @@ The best way to use Twitter is to use the TweetDeck client. This allows alerts y
 
 ![](twitter-tweetdeck.png)
 
+
 ::: good
 Good Example : Using TweetDeck gives you a dashboard to follow topics you are interested in
 

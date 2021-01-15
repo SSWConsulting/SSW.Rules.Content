@@ -37,6 +37,7 @@ See some examples:
 `youtube: https://www.youtube.com/embed/ADse_lj3_ZI`
  
 
+
 ::: good
 Figure: Good Example - Video Title duration is perfectly timed and can be read twice through. Not too short, not too long. 
 

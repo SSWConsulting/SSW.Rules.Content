@@ -26,6 +26,7 @@ The popup blockers in several browsers prevent JavaScript from being used to ope
 
 
 
+
 ::: bad
 Figure: Bad Example - using JavaScrip in OnLoad event
 
@@ -39,6 +40,7 @@ Figure: Bad Example - using JavaScrip in OnLoad event
 
 
 
+
 ::: good
 Figure: Good Example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration
 
@@ -49,6 +51,7 @@ Figure: Good Example - Using HTML anchor tag. This will open in a new tab or win
 ```
 <a href="#" onclick="window.open('http://www.mydomain.com/document.html');return false;">Document</a>
 ```
+
 
 
 

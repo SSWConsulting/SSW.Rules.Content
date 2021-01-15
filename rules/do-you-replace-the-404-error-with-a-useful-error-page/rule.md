@@ -31,6 +31,7 @@ A well-designed custom error page encourages surfers to remain in your site and 
 
 
 
+
 ::: bad
 Figure: This is the default code on web.config 
 
@@ -43,6 +44,7 @@ Figure: This is the default code on web.config
 <error statusCode="404" redirect="/ssw/SSWCustomError404.aspx">
 </customErrors>
 ```
+
 
 
 
@@ -59,6 +61,7 @@ This error information is useful for the developer to do debugging. However, it 
 ```
 <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm"></customErrors>
 ```
+
 
 
 

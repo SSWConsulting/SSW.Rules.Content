@@ -41,6 +41,7 @@ view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" False \" /></Ord
 
 
 
+
 ::: bad
 Bad Example - the Ascending attribute is case-sensitive
 
@@ -56,6 +57,7 @@ SPView view = list.DefaultView;
 view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" FALSE \" /></OrderBy>";
 view.Update();
 ```
+
 
 
 

@@ -24,6 +24,7 @@ Snapshots are a very easy way to back up a system before a big change is made. T
 
 ![You will see the snapshots associated with a Virtual Machine when you click on them](snapshot-while-off.jpg)**
 
+
 ::: good
 **You will see the snapshots associated with a Virtual Machine when you click on them**
 :::

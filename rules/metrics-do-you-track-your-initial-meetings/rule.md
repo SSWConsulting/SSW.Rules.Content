@@ -21,10 +21,12 @@ redirects:
 When creating an appointment email for an initial meeting, make sure you include the words " **initial** " and " **meeting** " on the subject. 
 
 
+
 ::: greybox
  **Subject:**  Northwind project with SSW and Bob
 
 :::
+
 
 
 
@@ -34,11 +36,13 @@ Figure: Bad subject - not clear it is an initial meeting
 :::
 
 
+
 ::: greybox
  **Subject:** <mark>Initial meeting</mark> with SSW and Bob from Northwind
 **Subject:** <mark>Initial</mark> phone 
          <mark>meeting</mark> with SSW and Bob from Northwind  
 :::
+
 
 
 

@@ -25,9 +25,11 @@ Minification and AMD are techniques to improve javascript performance. They can
 
 AMD is a client-side technology that allows you to break you Js code into small inter-dependent modules. The modules (and thier dependencies) required to render a particular page are determined at runtime and subsequently downloaded by Javascript. RequireJs is a popular AMD implementation.
 
+
 ::: good
 Pro: Only the js modules you need are downloaded  
 :::
+
 
 ::: bad
 Con: Each module is downloaded in a separate http request  
@@ -42,9 +44,11 @@ ASP.Net contains excellent server-side bundling support as outlined here: [http
 
 ASP.Net vnext & VS 2015 also provides support for using task runners like Gulp or Grunt for bundling and minification.
 
+
 ::: good
 Pro: Fewer Http requests and smaller files  
 :::
+
 
 ::: bad
 Con: All client side modules are included in a single download  

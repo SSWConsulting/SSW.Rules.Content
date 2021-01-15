@@ -36,6 +36,7 @@ CREATE PROCEDURE procCustomer_Update @CustomerID INT, ….. BEGIN
 
 
 
+
 ::: bad
 Figure: Bad example  
 :::
@@ -45,6 +46,7 @@ Figure: Bad example
 ```
 CREATE PROCEDURE dbo.procCustomer_Update @CustomerID INT, ….. BEGIN
 ```
+
 
 
 

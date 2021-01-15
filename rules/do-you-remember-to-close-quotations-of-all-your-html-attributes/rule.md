@@ -28,6 +28,7 @@ It is always better to make sure there are equivalent closing quotations for HTM
 
 
 
+
 ::: bad
 Figure: Bad code - Can you see the missing quote? Code Auditor can
 
@@ -39,6 +40,7 @@ Figure: Bad code - Can you see the missing quote? Code Auditor can
 ```
 <span style="font-size:12pt; background: #ccc;">
 ```
+
 
 
 

@@ -22,11 +22,13 @@ What is Slideshare? [Slideshare](http://www.slideshare.net/) is an online archiv
 
 ![](FodyAsyncErrorHandlerXamarinGoogleSearch.png)
 
+
 ::: good
 Slideshare ranks well in google searches  
 :::
 
 ![](FodyAsyncErrorHandlerGoogleImageSearch.png)
+
 
 ::: good
 Interestingly, keyword heavy slides from your PowerPoint will rank highly on Google Image Search  
@@ -51,6 +53,7 @@ Follow these steps to ensure you get as much coverage as possible before and aft
 7. Create a "\_OnSlideshare.txt" file with the Slideshare URL and add it to SharePoint on the same folder where the original PPT is
 8. Now you can present!
 <dd class="ssw15-rteElement-FigureGood"><img class="ms-rteCustom-ImageArea" src="slideshareend.jpg" alt="" style="color:#555555;font-size:11px;font-weight:bold;line-height:20px;"></dd>
+
 ::: good
 Figure: the SSW example of a Slideshare link slide  
 :::
@@ -58,6 +61,7 @@ Figure: the SSW example of a Slideshare link slide
 
 <font color="#555555"><span style="font-size:11px;line-height:21px;"> <b><img src="YoutubeEmbedSlideShare.png" alt="YoutubeEmbedSlideShare.png" style="margin:5px;">
 </b> </span></font>
+
 
 ::: good
 Figure: If you presentation is being recorded be sure to send yourself a reminder email to embedd the video in to the slideshare.

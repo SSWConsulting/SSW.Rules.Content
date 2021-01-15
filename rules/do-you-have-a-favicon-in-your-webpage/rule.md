@@ -40,6 +40,7 @@ The format of the image must be one of PNG (a W3C standard), GIF, or ICO. You ca
 2. Add the highlighted code below inside the &lt;HEAD&gt; tags in your HTML
 
 
+
 ::: greybox
 &lt;head&gt;
 			 &lt;title&gt;Page Title&lt;/title&gt;

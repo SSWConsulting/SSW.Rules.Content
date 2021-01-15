@@ -17,18 +17,22 @@ A sentence can be phrased in many ways. It is important to use positive language
 
 <!--endintro-->
 
+
 ::: greybox
 We will need your agreement on the mockup, and as soon as you are happy with it, we will develop it to the agreed mockup. We will not be able to change the mockup once made and you are happy with it.  
 :::
+
 
 ::: bad
 Bad example
 
 :::
 
+
 ::: greybox
 We will develop the report once you are happy with and have signed off the mockup.  
 :::
+
 
 ::: good
 Good example

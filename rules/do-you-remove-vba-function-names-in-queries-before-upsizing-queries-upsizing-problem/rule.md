@@ -38,6 +38,7 @@ INNER JOIN "Order Subtotals"
 ```
 
 
+
 ::: bad
 Figure: Bad example of Access query with FORMAT keyword  
 :::
@@ -53,10 +54,12 @@ INNER JOIN "Order Subtotals"
 ```
 
 
+
 ::: good
 Figure: Good example of SQL Server view with YEAR keyword 
 
 :::
+
 
 ::: yellowBox
 [Upsizing PRO](http&#58;//www.ssw.com.au/ssw/UpsizingPRO) will check this rule

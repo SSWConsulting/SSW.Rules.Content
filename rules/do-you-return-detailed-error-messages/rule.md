@@ -50,6 +50,7 @@ Error messages should contain a sufficient level of information that a developer
 
 
 
+
 ::: bad
 Figure: Bad Example - The error message does not contain information that can be acted upon.  
 :::
@@ -61,6 +62,7 @@ Figure: Bad Example - The error message does not contain information that can be
     "errorMessage": "Client ID is a required field. Please provide a Client ID."
 }
 ```
+
 
 
 
@@ -107,6 +109,7 @@ User-Agent: curl/7.55.1
 
 
 
+
 ::: bad
 Figure: Bad Example - this level of data should not be returned in a production environment
 
@@ -126,6 +129,7 @@ A tracking or correlation ID will allow the consuming clients to provide the AP
 
 
 
+
 ::: bad
 Figure: Bad Example - No tracking or correlation ID is provided.  
 :::
@@ -138,6 +142,7 @@ Figure: Bad Example - No tracking or correlation ID is provided.
     "errorId": "3022af02-482e-4c06-885a-81d811ce9b34"
 }
 ```
+
 
 
 
@@ -167,6 +172,7 @@ Providing a URI to an additional help resources as part of your request will all
 
 
 
+
 ::: bad
 ``Figure: Bad Example - No Help Link Provided
 
@@ -189,6 +195,7 @@ Providing a URI to an additional help resources as part of your request will all
 
 }
 ```
+
 
 
 

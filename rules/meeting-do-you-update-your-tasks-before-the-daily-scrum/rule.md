@@ -30,6 +30,7 @@ All team members must update their tasks with  status, (and remaining hours if y
 
 
 
+
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 * [Sprint Planning Meeting](/Pages/SprintPlanningMeeting.aspx "Sprint Planning Meeting")

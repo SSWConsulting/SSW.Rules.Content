@@ -23,6 +23,7 @@ The text within the 'Details' button is more useful for debugging and locating t
 ![Figure: Bug details window](../../assets/DotNetDebug2.GIF)  
 :::
 
+
 ::: greybox
 See the end of this message for details on invoking 
 just-in-time (JIT) debugging instead of this dialog box.

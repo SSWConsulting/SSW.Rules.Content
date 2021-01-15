@@ -47,6 +47,7 @@ This is much better than the old waterfall method which goes like this:
 
 Insist that your Scrum Master (aka Project Manager) [maintains a strict project schedule](/does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule).
 
+
 ::: greybox
 
 **#1 For Scrum Projects:**

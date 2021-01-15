@@ -85,6 +85,7 @@ Estimating using doubling numbers makes relative sizing simple. An 8 point PBI s
 
 It has one other advantage over the Fibonacci sequence, it is easier for non-techies because the numbers aren't whacky and the name isn't bizarre.
 
+
 ::: greybox
  **Estimate** 
 1
@@ -96,6 +97,7 @@ It has one other advantage over the Fibonacci sequence, it is easier for non-tec
 64
 
 :::
+
 
 ::: good
 Figure: Good example -Doubling simplifies relative sizing  
@@ -141,6 +143,7 @@ Every team is different, but you can use the following guidelines for sizing PBI
 > | 64
  | More than a month with a couple of guys.
  **Tip:** Don't include these in a sprint because they are too risky - ask for them to be broken down. |
+> 
 > 
 > 
 > ::: good

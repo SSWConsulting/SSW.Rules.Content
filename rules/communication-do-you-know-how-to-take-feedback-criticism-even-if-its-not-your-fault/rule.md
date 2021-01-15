@@ -39,6 +39,7 @@ Even if you've been wrongly accused of something, you should still show you unde
 
 Next is to see if you can avoid it happening in the first place – you could explain the new steps in the process you’ll add or simply say: "I'll be more diligent testing in the future".
 
+
 ::: greybox
 More:  **The 3 A’s of Business** (a great article from American Express)
 https://www.americanexpress.com/en-us/business/trends-and-insights/articles/the-three-as-of-business/ 

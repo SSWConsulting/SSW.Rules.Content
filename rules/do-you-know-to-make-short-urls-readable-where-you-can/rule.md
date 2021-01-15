@@ -23,6 +23,7 @@ Readability of URLs is important, so you should consider making a short URL. How
 
 If you use a shortened link people can't see what they are clicking through to. In fact, this is what most spammers rely on:
 
+
 ::: greybox
 http://twb.ly/1uJtUG
 :::
@@ -32,6 +33,7 @@ Figure: Bad example - You don't know where this is going
 :::
 
 When you can, take the more readable option:
+
 
 ::: greybox
 http://twibbon.com/join/Scotland

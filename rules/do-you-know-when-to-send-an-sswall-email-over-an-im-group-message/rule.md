@@ -22,6 +22,7 @@ SSW All emails serve an important purpose in providing information to the entire
 
 ![](bad1.png)
 
+
 ::: bad
 Bad Example - No information. Not relevant for all staff to see.
 
@@ -33,6 +34,7 @@ Bad Example - No information. Not relevant for all staff to see.
 
 ![](bad2.png)
 
+
 ::: bad
 Bad Example - This should have been shared in a group. Not via SSWAll
 
@@ -42,6 +44,7 @@ Bad Example - This should have been shared in a group. Not via SSWAll
 
 ![](good1.png)
 
+
 ::: good
 Good Example - Clearly talks about an outage that will affect all users
 
@@ -50,6 +53,7 @@ Good Example - Clearly talks about an outage that will affect all users
 
 
 ![](good2.png)
+
 
 ::: good
 Good example - Gets the information out to all staff so that they can respond if they can assist.

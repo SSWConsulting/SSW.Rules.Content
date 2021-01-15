@@ -44,6 +44,7 @@ When you are obtaining the OrderType for an order, you would have either:
 > Not great as it is not clear what the nature of the lookup table is.
 
 
+
 ::: good
 Advantage: Maintains Complete Referential Integrity without the need for triggers
 
@@ -59,12 +60,14 @@ If I want to enforce referential integrity so I can only enter the correct type 
 
 
 
+
 ::: good
 Advantage: You can add new columns specific to each lookup table
 
 :::
 
 For example, if a Lookup table (e.g. CustomerType) has an associated value (e.g. the field MaximumDebtAmount), we don't need to add a field that is irrelevant to all the other lookup tables. We can just add it to the individual lookup table.
+
 
 
 

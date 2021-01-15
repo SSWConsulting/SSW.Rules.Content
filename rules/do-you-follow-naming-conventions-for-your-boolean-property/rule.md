@@ -28,6 +28,7 @@ public bool Invoice { get; set; }
 
 
 
+
 ::: bad
 Bad Example 
 
@@ -39,6 +40,7 @@ Bad Example
 public bool Enabled { get; set; }
 public bool IsInvoiceSent { get; set; }
 ```
+
 
 
 

@@ -40,6 +40,7 @@ WHERE EXISTS (SELECT EmployeeID
 ```
 
 
+
 ::: bad
 Figure: Bad example of Access query with EXISTS keyword and comparison operator  
 :::
@@ -59,6 +60,7 @@ WHERE EXISTS (SELECT EmployeeID
  WHERE LastName= [@Employee Last Name] 
  AND Employees.EmployeeID=Orders.EmployeeID)
 ```
+
 
 
 ::: good

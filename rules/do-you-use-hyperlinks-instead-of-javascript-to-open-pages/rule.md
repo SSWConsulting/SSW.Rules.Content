@@ -35,6 +35,7 @@ There are two good reasons for avoiding JavaScript-powered links:
 
 
 
+
 ::: bad
 Figure: Bad Example - This link can't be clicked on if you paste it into an email or if JavaScript is off  
 :::
@@ -46,6 +47,7 @@ Figure: Bad Example - This link can't be clicked on if you paste it into an emai
 ```
 <a href="mynewpage.html">Open a new page</a>
 ```
+
 
 
 

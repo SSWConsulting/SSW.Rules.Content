@@ -24,6 +24,7 @@ In order to connect (with a username and password) to:
 
 <!--endintro-->
 
+
 ::: greybox
 Would you like to logon to your new account?
 Would you like to log-on to your new account?
@@ -33,32 +34,39 @@ Would you like to signin to your new account?
 Would you like to sign-in to your new account?  
 :::
 
+
 ::: bad
 Figure: Bad examples
 
 :::
 
+
 ::: greybox
 Would you like to log in to your timesheeting application?  
 :::
+
 
 ::: good
 Figure: Good example - Winform
 
 :::
 
+
 ::: greybox
 Would you like to sign in to your email account?  
 :::
+
 
 ::: good
 Figure: Good example - Webform
 
 :::
 
+
 ::: greybox
 Would you like to log on to your computer?  
 :::
+
 
 ::: good
 Figure: Good example - PC, Server or Domain  

@@ -45,6 +45,7 @@ public static List<string> GetFilesInProject(string projectFile)
 
 
 
+
 ::: bad
 Bad - The logic and the IO are coded in a same method
 
@@ -87,6 +88,7 @@ public static List<string> GetFilesInProjectByContents(string projectFileContent
 
 
 
+
 ::: good
 Good - The logic is now isolated from the IO
 
@@ -118,6 +120,7 @@ public void TestVS2005CSProj()
  Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "VSAddInMain.cs")));
 }
 ```
+
 
 
 

@@ -22,11 +22,13 @@ Avoid monolithic Product Backlog Items (PBIs). Ideally, all PBIs should be les
 
 <!--endintro-->
 
+
 ::: greybox
 Subject: Create an .NET 5 prototype with web services 
 
 :::
 Figure: Bad example – This is a monolithic 4-day task
+
 ::: greybox
 Email #1 Subject:  .NET 5 prototype - Create a web page with firstname and lastname textboxes, a save button (and remmed out code to later call a web service)
 

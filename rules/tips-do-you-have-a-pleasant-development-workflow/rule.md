@@ -26,6 +26,7 @@ This adds up quickly – if you have to wait for 5 seconds every 3 minutes, you'
 
 A naïve development experience is as follows:
 
+
 ::: greybox
 
 1. Make a code change using a misconfigured IDE
@@ -45,6 +46,7 @@ A naïve development experience is as follows:
  Bad example - Many hours each week are wasted just waiting for the code you wrote to run
 
 A more ideal workflow is:
+
 
 ::: greybox
 

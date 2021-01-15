@@ -66,6 +66,7 @@ When joining a new team, it's easy to be lost and not know when the important me
 </font>
 ![](Bad One.jpg)
 
+
 ::: bad
 Figure: Bad Example - using the Website tab  
 :::
@@ -73,6 +74,7 @@ Figure: Bad Example - using the Website tab
 <font color="#333333">
 </font>
 ![](Good One.jpg)
+
 
 ::: good
 Figure: Good Example - using the SharePoint tab

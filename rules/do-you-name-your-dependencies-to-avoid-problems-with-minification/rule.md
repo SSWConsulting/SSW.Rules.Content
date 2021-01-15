@@ -26,6 +26,7 @@ phonecatApp.controller('PhoneListCtrl', function ($scope, $http) {...}
 ```
 
 
+
 ::: bad
 Bad Example: This code will break when minified  
 :::
@@ -50,6 +51,7 @@ phonecatApp.controller('PhoneListCtrl', PhoneListCtrl);
 ```
 
 
+
 ::: good
 Good Example: This code names the parameters using the $inject property  
 :::
@@ -65,6 +67,7 @@ The second and preferred option is to pass an array containing the names, follow
 ```
 phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $http) {...}]);
 ```
+
 
 
 ::: good

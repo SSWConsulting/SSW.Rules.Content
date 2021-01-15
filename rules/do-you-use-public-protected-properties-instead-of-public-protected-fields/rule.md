@@ -36,6 +36,7 @@ public int Count;
 
 
 
+
 ::: bad
 Figure: Bad code. Variable declared as a Field
 
@@ -56,6 +57,7 @@ public int Count
  }
 }
 ```
+
 
 
 

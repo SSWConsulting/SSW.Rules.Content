@@ -24,12 +24,14 @@ Previously you have had to pay for this service, but there is now a free CA call
 
 <!--endintro-->
 ![](tomato.jpg)
+
 ::: bad
 Figure: Bad example – As you can see, your web-browser will let you know if the website you’re accessing is not secure
 
 :::
 
 <img src="ssw.jpg" alt="ssw.jpg" style="margin:5px;width:808px;">
+
 ::: good
 Figure: Good example – SSW’s website is secure and does not share your information
 

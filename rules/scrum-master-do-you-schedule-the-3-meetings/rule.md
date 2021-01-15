@@ -74,6 +74,7 @@ Regards,
 &lt;This email is as per the rule [https://rules.ssw.com.au/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings) /&gt;
 
 
+
 ::: good
 Figure: Good Example - copy this appointment template and send to the Scrum Team
 
@@ -83,6 +84,7 @@ Figure: Good Example - copy this appointment template and send to the Scrum Team
 ::: good  
 ![It's a great idea to run your Scrum meetings through Microsoft Teams so that the whole team is invited and new developers can easily find the meetings see https://rules.ssw.com.au/run-your-meetings-through-teams for more info.](Screen Shot 2020-04-06 at 4.15.50 PM.png)  
 :::
+
 
 
 ::: greybox

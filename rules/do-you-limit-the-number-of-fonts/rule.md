@@ -22,6 +22,7 @@ The rules are:
 
 <!--endintro-->
 ![too many fonts used for headers](BadLimitFont.jpg)
+
 ::: bad
 Figure: Bad Example - 2 fonts are used, 2 styles are used, and flourished type face used. This all makes your slide hard to read for the audience  
 :::

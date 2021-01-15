@@ -20,10 +20,12 @@ Learn how to by clicking [this link](https://shigemimatsumoto.wordpress.com/2015
 
 ![Untitled2.png](Good reCAPTCHA.png)
 
+
 ::: good
 Figure: Good Example - reCAPTCHA is protecting a site from automated attack  
 :::
 ![Untitled.png](abd5fe_Untitled2.png)
+
 
 ::: bad
 Figure: Bad Example - Older v1 reCAPTCHA.
@@ -31,6 +33,7 @@ Figure: Bad Example - Older v1 reCAPTCHA.
 :::
 
 ![Untitled.png](4141c3_Untitled.png)
+
 
 ::: bad
 Figure: Bad Example - No protection, a robot can register tens or thousands of users...  

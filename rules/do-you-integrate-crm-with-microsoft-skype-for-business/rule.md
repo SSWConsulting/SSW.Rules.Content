@@ -44,6 +44,7 @@ Read more about     [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Cons
 
 ![](2016-12-02_15-14-23.jpg)
 
+
 ::: good
 Figure: Good example - use the discovery service of your CRM (connect using &lt;yourname&gt;@&lt;yourdomain&gt; as a username)
 

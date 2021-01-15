@@ -30,6 +30,7 @@ These are the essential fields for your timesheets:
 
 ![](Good Timesheet.jpg)
 
+
 ::: good
 Figure - Good Example - A good timesheet with all the required fields taken from [SSW Time PRO!](http://www.ssw.com.au/ssw/TimePRONET/)
 :::

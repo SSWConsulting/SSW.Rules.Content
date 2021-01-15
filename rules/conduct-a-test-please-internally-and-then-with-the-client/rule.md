@@ -39,6 +39,7 @@ There are a number of different types of tests that you can perform:
 * **Smoke testing:**     Smoke testing is done to ensure the system doesn't have any critical bugs that would make other types of testing unnecessary. This type of testing is generally performed on a new or fixed software. A Smoke test should cover essential parts of the application so it is said to be shallow and broad.
 
 
+
 ::: greybox
 
 **Does the "Test Please" principle apply to more than code?**
@@ -89,6 +90,7 @@ Please cc the client in all your "Test Please" emails including internal ones.
 8. "Reply to all" for each bug or feature. (to ensure no issue is reported twice)
 9. Specify how you replicated the bug through clear instructions and screenshots.
 10. When finished reply to the 'test please' email with "Test Please Succeeded (as no Critical bugs)" or "Test please failed (as per critical bugs reported)". 
+
 
 
 

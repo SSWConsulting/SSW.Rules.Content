@@ -26,6 +26,7 @@ Newsletters should always use  **absolute** references to all links and images
 
 
 
+
 ::: bad
 Figure: Bad example - using relative paths for both link and image on a newsletter
 
@@ -36,6 +37,7 @@ Figure: Bad example - using relative paths for both link and image on a newslet
 ```
 <a href="https://ssw.com.au/ssw/Company/ContactUs.aspx "><img src="https://ssw.com.au/SSW/images/SSWLogo.png"></a>
 ```
+
 
 
 

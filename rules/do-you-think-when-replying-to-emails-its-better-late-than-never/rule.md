@@ -29,17 +29,20 @@ Example: A product suggestion might take 12 months to get around to, but when it
 ![Figure: Bad example - Hitting the “Delete” button without replying](delete-outlook-message-button.png)  
 :::
 
+
 ::: greybox
 Hi Bob,
 This is an old one. I tried to call you but you were not available. Please take a look and let me know if you want it actioned
 
 :::
 
+
 ::: good
 Figure: Good example - at least asking the question
 
 
 :::
+
 
 ::: greybox
 Hi Bob,
@@ -48,11 +51,13 @@ Done - a few months ago
 
 :::
 
+
 ::: good
 Figure: Good example - informing a task was already done
 
 
 :::
+
 
 ::: greybox
 Hi Bob,
@@ -61,17 +66,20 @@ This still looks relevant so I will start this old task today or tomorrow. Let m
 
 :::
 
+
 ::: good
 Figure: Good example - giving the option to do it or not
 
 
 :::
 
+
 ::: greybox
 Hi Bob,
 Cleaning my inbox... I assume this is too late now. Sorry I missed this before.
 
 :::
+
 
 ::: good
 Figure: Good example - informing a task is not relevant anymore

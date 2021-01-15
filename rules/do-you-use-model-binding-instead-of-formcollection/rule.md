@@ -17,6 +17,7 @@ Model binding in the ASP.NET MVC framework is simple. Your action methods need d
 
 <!--endintro-->
 
+
 ::: greybox
 
 
@@ -35,6 +36,7 @@ public ActionResult Create(FormCollection values)
 
 :::
 Figure: Bad Example – Manually reading form values and assigning them to properties is tedious boiler-plate code!
+
 ::: greybox
 
 

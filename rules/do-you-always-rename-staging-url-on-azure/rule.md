@@ -30,6 +30,7 @@ If you use the default Azure staging web site Url, it can be difficult to rememb
 | --- |
 
 
+
 ::: bad
 Figure: Bad example - Site using the default Url (hard to remember!!)  
 :::
@@ -39,6 +40,7 @@ Figure: Bad example - Site using the default Url (hard to remember!!)
 <ul><li><strong style="line-height:20px;background-color:initial;"><font color="#ff0066">staging</font></strong> <span style="line-height:20px;background-color:initial;">.</span><strong style="line-height:20px;background-color:initial;">sugarlearning.com</strong> 
 </li></ul> |
 | --- |
+
 
 
 ::: good

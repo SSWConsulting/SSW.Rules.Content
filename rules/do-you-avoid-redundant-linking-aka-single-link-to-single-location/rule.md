@@ -25,11 +25,13 @@ Often pages have 2 or 3 links pointing to the same page -       all fairly close
 
 <!--endintro-->
 
+
 ::: greybox
  **[SSW Web Hosting](http&#58;//www.ssw.com.au/ssw/Hosting/Default.aspx)** 
  SSW offers competitive, high performance        [Windows hosting plans](http&#58;//www.ssw.com.au/ssw/Hosting/Default.aspx). We use Windows 2003 Servers with the latest security patches and SQL Server 2005 SP1. Our Data center has multiple redundant connections to major backbones, and our support staff are Microsoft Certified.        [View more about our hosting plans](http&#58;//www.ssw.com.au/ssw/Hosting/Default.aspx)
 :::
 Figure: Bad example - Redundant links nearby that point to the same page
+
 ::: greybox
  **[SSW Web Hosting](http&#58;//www.ssw.com.au/ssw/Hosting/Default.aspx)** 
  SSW offers competitive, high performance Windows hosting plans. We use Windows 2003 Servers with the latest security patches and SQL Server 2005 SP1. Our Data center has multiple redundant connections to major backbones, and our support staff are Microsoft Certified.  

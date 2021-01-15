@@ -46,6 +46,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
 
 
 
+
 ::: bad
 Figure: Bad example of dispose of resources
 
@@ -81,6 +82,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
 
 
 
+
 ::: bad
 Figure: Bad example of dispose of resources 
 
@@ -112,6 +114,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
    // file is disposed here
 }
 ```
+
 
 
 

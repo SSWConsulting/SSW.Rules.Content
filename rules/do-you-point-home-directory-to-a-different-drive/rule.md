@@ -24,6 +24,7 @@ When you run Octopus Deploy setup the application installs to you %Program Files
 ![](2016-05-30_12-18-02.png)
 
 
+
 ::: bad
 Bad
 Example - Home directory is pointing to %SystemDrive%  
@@ -33,6 +34,7 @@ Example - Home directory is pointing to %SystemDrive%
 
 
 ![](2016-05-30_12-29-09.png)
+
 
 
 ::: good

@@ -46,6 +46,7 @@ Other nice day 1 gifts could include:
 
 
 <img src="Penny Welcome Pic.jpg" alt="Penny Welcome Pic.jpg" style="margin:5px;width:500px;height:1007px;">
+
 ::: good
 Good example: Personal, fun welcome to SSW Sydney with all of the good food and coffee tips!
 

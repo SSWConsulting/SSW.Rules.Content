@@ -140,6 +140,7 @@ To improve on the function of these apps, it is recommended to set-up default re
  **![](pic.png)
 ** 
 
+
 ::: good
 Figure: Good Example – Hubdoc default email for receiving
 
@@ -151,6 +152,7 @@ We can also do the vis versa, so all invoices going to a hubdoc default email ca
 
 
  **![](pic1.png)** 
+
 
 
 ::: good
@@ -165,6 +167,7 @@ Expense apps are a timesaver, both for the day to day user, as well as the accou
 
 As a user, all you have to do is take a photo of the receipt from your mobile app and add a comment (all other data is pulled in via OCR “Smart-scan”), then all of these expenses get batched together and sent on a weekly basis to the accountant, who can then manage them in bulk. 
 Best of all… for light users… it’s free! ![](2020-06-12_12-10-17.png)
+
 
 ::: good
 Figure: Good Example – Hubdoc is free with Xero

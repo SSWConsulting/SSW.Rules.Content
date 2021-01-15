@@ -29,6 +29,7 @@ Include the following considerations:
 
 <!--endintro-->
 
+
 ::: greybox
 Hi Adam,
 
@@ -40,11 +41,13 @@ Query 2: On the Home page is a query that currently takes 1 second that we can r
 We optimized the "Edit Item" page because that had the biggest measurable improvement.  
 :::
 
+
 ::: bad
 Bad example: although the admin page has a bigger potential saving, the home page affects all users and therefore probably has a higher business value. Business value should be determined by the Product Owner, not the developer
 
 
 :::
+
 
 ::: greybox
 Hi Adam,
@@ -59,6 +62,7 @@ Recommended actions:
 
 1.	Please “reply all” with changes or your acceptance.   
 :::
+
 
 ::: good
 Good example: there is little business value in optimizing code that will soon be replaced – but the final decision on business value is left to the Product Owner

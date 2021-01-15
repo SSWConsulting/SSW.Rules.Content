@@ -30,10 +30,12 @@ On your timesheet entries, there are a few rules you should follow on how to bes
 * The term 'Investigated and changed' is better than 'Fixed bug'.
                         The word 'bug' gives the impression that the problem was solely the developer's fault, when often most fixes are to do with changes as a result of unspecified work (extra validation, extra testing or gold plating).
 
+
 ::: greybox
 'Fixed Bug on customer form'  
 :::
 <dd>Figure&#58; Bad example</dd>
+
 ::: greybox
 'Investigated and improved the  validation on customer form to enable saving when Customer name is &gt; 100 characters'  
 :::
@@ -60,6 +62,7 @@ If you are writing stored procs, write down their names.
 'Apply changes as per Tony's request for FRDCAPP'Figure: This is an example of a bad timesheet note
 **<font color="#555555"></font>**
 'CaterPRO! Version 8.3Fixed Sales Reports (Sales Dashboard). It now reconciles correctly with Food Sales Summary.Fixed Function Counts (was doublecounting)Fix to DiaryTemplate UpdatesAttempt to run CaterPRO! In the old Windows 7 with Alan
+
 ::: good
 Figure: This is an example of a good timesheet note  
 :::

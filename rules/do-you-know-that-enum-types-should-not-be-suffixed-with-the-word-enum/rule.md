@@ -26,6 +26,7 @@ Public Enum ProjectLanguageEnum CSharp VisualBasic End Enum
 
 
 
+
 ::: bad
 Bad - Enum type is suffixed with the word "Enum" 
 
@@ -36,6 +37,7 @@ Bad - Enum type is suffixed with the word "Enum"
 ```
 Public Enum ProjectLanguage CSharp VisualBasic End Enum
 ```
+
 
 
 

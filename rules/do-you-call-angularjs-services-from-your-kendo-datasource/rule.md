@@ -37,6 +37,7 @@ read: {
 ```
 
 
+
 ::: bad
 Bad Example - This hard codes your url endpoint throughout your application 
 
@@ -50,6 +51,7 @@ module app.widgets {    'use strict';
     class AssetAllocationByAssetClassChartController {        isLoading: any;        static $inject = ['app.dataServices.InvestmentReportsService']        constructor(private investmentReportsService: dataServices.InvestmentReportsService) { }
         options = {            series: [{                field: 'AssetStrategyOverallPercent',                categoryField: 'AssetClassName'            }],            seriesDefaults: {                type: 'pie'            },            legend: {                position: 'bottom',                labels: {                    visible: true,                    background: 'transparent',                    template: '#=text # #=value#% '                }            },            dataSource: new kendo.data.DataSource({                transport: {                    read: (promise: any) => {                        this.getFundAssetPositionChartData(promise);                    }                }            })        }        getFundAssetPositionChartData = (promise) => {            this.isLoading = true;            return this.investmentReportsService.fundAssetPosition()                .then((response) => {                    promise.success(                        response.Data.PortfolioAssetPositions[0].AssetClassDetailList                    );                    this.isLoading = false;                });        }    }    Angular.        .module('app.widgets')        .controller('app.widgets.assetAllocationByAssetClassChartController',        AssetAllocationByAssetClassChartController        )}
 ```
+
 
 
 

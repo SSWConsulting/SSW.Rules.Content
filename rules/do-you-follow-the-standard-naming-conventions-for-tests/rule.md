@@ -67,6 +67,7 @@ Samples Naming of test methods
 
 
 
+
 ::: bad
 Bad example: There is no way to guess what this test does; you have to read the source
 
@@ -78,6 +79,7 @@ Bad example: There is no way to guess what this test does; you have to read the 
 [TestMethod]
  public void PubSubServiceConnectTest_AuctionOk_AuctionInfoReturned()
 ```
+
 
 
 

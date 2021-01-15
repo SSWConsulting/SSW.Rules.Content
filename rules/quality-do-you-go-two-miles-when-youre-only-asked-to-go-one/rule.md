@@ -18,6 +18,7 @@ redirects:
 
 This idea is different from the above rules in that it strikes at the heart of our                     everyday behaviour, not just when a crisis is looming. [Jesus of Nazareth](http://www.biblegateway.com/passage/?search=matt%205:41&version=NKJV%3b) said:
 
+
 ::: greybox
 
 "And whoever compels you to go one mile, go with him two."

@@ -31,6 +31,7 @@ Suggestion for Microsoft #1: Add a Summary Number in large font at the top, eg. 
 
 Suggestion for Microsoft #2: Add this great report to the Microsoft Scrum TFS Process Template.
 
+
 ::: greybox
 
 ## Where are we at?

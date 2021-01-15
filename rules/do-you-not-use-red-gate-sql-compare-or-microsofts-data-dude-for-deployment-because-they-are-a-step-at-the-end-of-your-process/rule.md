@@ -38,6 +38,7 @@ What you should be doing is seeing your [Schema Master](/Pages/DoYouHaveASchemaM
 ![Figure: Give your SQL scripts to 'Schema Master' who will, check them into TFS, then run them](SQLScriptInTFS.png)  
 :::
 
+
 ::: yellowBox
 Note: We have a tool called [SQL Deploy](http://www.ssw.com.au/ssw/SQLDeploy/) to help with automatic deployment.  
 :::

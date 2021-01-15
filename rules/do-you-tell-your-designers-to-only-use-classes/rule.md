@@ -25,6 +25,7 @@ In Sitefinity you can alter the appearance and content areas on your webpage usi
 Additionally, Sitefinity will hard code the widths of the layout and there is no way to stop it.
  The hack work around is to manually remove the widths via JQuery:
 
+
 ::: greybox
 
 $(".sf\_colsOut").css("width", "");

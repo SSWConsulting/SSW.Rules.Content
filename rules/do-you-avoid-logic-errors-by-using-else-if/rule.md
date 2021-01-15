@@ -38,6 +38,7 @@ void Load(string environment)
 
 
 
+
 ::: bad
 Figure: Bad example with If statement  
 :::
@@ -67,6 +68,7 @@ void Load(string environment)
   }
 }
 ```
+
 
 
 

@@ -45,6 +45,7 @@ To see how well your website would perform on low-spec devices and with poor int
 
 ![](lighthouse_throttling.png)
 
+
 ::: good
 Figure: Good Example - Lighhouse can simulate slow netwrking and CPU when performing tests
 

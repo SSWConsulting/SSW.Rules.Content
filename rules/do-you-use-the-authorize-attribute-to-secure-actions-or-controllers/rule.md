@@ -17,6 +17,7 @@ ASP.NET MVC provides the [AuthorizeAttribute](https&#58;//msdn.microsoft.com/en-
 
 <!--endintro-->
 
+
 ::: greybox
 
 
@@ -35,6 +36,7 @@ public ActionResult Delete(string tagName)
 
 :::
 Figure: Bad Example – Checking for an appropriate role in code leads to repetition 
+
 ::: greybox
 
 

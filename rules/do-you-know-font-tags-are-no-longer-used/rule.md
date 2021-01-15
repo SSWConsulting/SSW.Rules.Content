@@ -17,10 +17,12 @@ The &lt;font&gt; tag is supported in all major browsers, however it is deprecate
 
 <!--endintro-->
 
+
 ::: greybox
 &lt;font&gt;Some text&lt;/font&gt;  
 :::
 Figure: Bad Example - Using deprecated HTML tag
+
 ::: greybox
 &lt;span&gt;Some text&lt;/span&gt;
 &lt;p&gt;Some text&lt;/p&gt;  

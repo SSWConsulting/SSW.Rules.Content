@@ -29,17 +29,21 @@ For example:
 <!--endintro-->
 
 
+
 ::: greybox
 When the CD is inserted, a Windows dialog will be shown.  
 :::
+
 
 ::: bad
 Figure: Bad Example - This example is using a passive voice, and does not address the reader or from the point of the subject (the software in this case).  
 :::
 
+
 ::: greybox
 When you insert a CD, Windows shows a dialog.  
 :::
+
 
 ::: good
 Figure: Good Example - This example uses the active voice to address the reader, and is more direct and engaging.  
@@ -52,9 +56,11 @@ An easy way to tell if you're using the passive voice is to add "by zombies" aft
 
 
 
+
 ::: greybox
 The email was sent by zombies  
 :::
+
 
 
 
@@ -63,9 +69,11 @@ The email was sent by zombies
 Figure: Bad example - This sentence could be more engaging  
 :::
 
+
 ::: greybox
 Zombies sent the email   
 :::
+
 
 
 ::: good

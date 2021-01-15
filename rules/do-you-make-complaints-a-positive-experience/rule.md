@@ -23,10 +23,12 @@ When a client complains I have a choice: solve the problem or ignore it. I prefe
 1. Stay relaxed, listen carefully and acknowledge the concerns
 2. Isolate the issues.
 
+
 ::: greybox
 E.g. invoicing ("I don't want to pay this bill") or development quality ("my application is down")  
 :::
 3. Conference in the appropriate resources.
+
 
 ::: greybox
 E.g. the account manager or project manager
@@ -40,11 +42,13 @@ E.g. the account manager or project manager
 
 4. Follow up the proposed solution in writing
 
+
 ::: greybox
 E.g. "John, as per our conversation, David K will be on-site 9 am tomorrow morning"  
 :::
 5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
    
+
 ::: greybox
 E.g. "John, I'm glad David K was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. David K just plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room"  
 :::

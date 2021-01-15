@@ -43,11 +43,13 @@ Advantages of using LinkedIn Talent Hub:
 * It has reporting services that you can use to analyse your recruitment process and implement improvements based upon your recruitment data.
 
 ![](Screenshot of Trello.jpg)
+
 ::: bad
 Figure: Bad example - An ATS system that doesn’t allow you to import candidates into CRM, or allow you to analyse data. It does allow you to contact candidates and track where they are in your recruitment process.  
 
 :::
 ![](LinkedInHubReport1.png)
+
 ::: good
 Figure: Good Example - LinkedIn Hub that is used alongside LinkedIn Recruiter. You can see how many candidates go into your pipeline, how many make it to each stage of your recruitment process, and how long it takes at each stage, including the “time to hire”. This should show how efficient your process is, and if you lose too many candidates at certain stages in your process. 
 

@@ -48,6 +48,7 @@ EXEC master.dbo.xp_smtp_sendmail
 
 
 
+
 ::: bad
 Figure: Bad example - Avoid using SQL Mail -  you need to have Outlook on the server and there is no built-in logging
 
@@ -70,6 +71,7 @@ Execute dbo.sp_send_dbmail
 @subject = 'Vendor List',
 @attach_query_result_as_file = 1
 ```
+
 
 
 

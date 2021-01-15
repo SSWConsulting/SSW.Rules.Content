@@ -43,11 +43,13 @@ This is where RayGun or Application Insights comes into the picture. RayGun give
 Please find below the Raygun Health Check for TimePro:
 ![](Raygun-health-check-for-TimePro-in-the-past-7-days.jpg)
 
+
 ::: good
 Figure: Raygun health check for TimePro in the past 7 days  
 :::
 
 ![](2.png)
+
 
 ::: good
 Figure: Resolved issues in the past 7 days
@@ -55,6 +57,7 @@ Figure: Resolved issues in the past 7 days
 :::
 
 ![](3.jpg)
+
 
 ::: good
 Figure: The next issue to be worked on

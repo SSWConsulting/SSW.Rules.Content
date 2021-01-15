@@ -22,6 +22,7 @@ A view is a virtual table produced from executing a stored query on the database
 
 <!--endintro-->
 
+
 ::: good
 Advantages:  
 :::
@@ -47,6 +48,7 @@ Advantages:
 * Aliases can be used on column names to make them more readable and descriptive.
 * Adding columns to the source table has no impact on the view.
 * The ability to soft-delete records by filtering them with an IsDeleted column.
+
 
 
 
@@ -123,6 +125,7 @@ So your business has an employees table as shown below that has detailed informa
 You could create separate tables for each department, only supplying the required fields for each. 
 This would also need an additional system to sync between the tables to ensure the information was kept up to date.
 <img src="ViewsSqlTables.png" alt="ViewsSqlTables.png" style="margin:5px;">
+
 ::: bad
 Figure: Bad Example – Using tables and duplicating data  
 :::
@@ -138,6 +141,7 @@ CREATE VIEW  vwWebsiteProfiles AS
 SELECT EmployeeID, LastName, FirstName, Title, TitleOfCourtesy, Photo, PhotoPath
 FROM Employees;
 ```
+
 
 
 

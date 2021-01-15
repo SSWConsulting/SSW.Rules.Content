@@ -28,6 +28,7 @@ Mock-ups are very powerful tools to communicate requirements with clients, howev
 <!--endintro-->
 ![](sketchflow.jpg) 
 
+
 ::: good
 Figure: Expression + SketchFlow  
 :::

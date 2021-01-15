@@ -20,10 +20,12 @@ www.northwind.com/swagger 
 :::
 
 
+
 ::: bad
 Bad example - default but now it is about help for your API)
 
 :::
+
 
 ::: greybox
 www.northwind.com/dev
@@ -34,14 +36,17 @@ www.northwind.com/developer
 
 
 
+
 ::: bad
 Bad examples
 
 :::
 
+
 ::: greybox
 www.northwind.com/api    
 :::
+
 
 
 
@@ -50,9 +55,11 @@ Bad example - already taken
 
 :::
 
+
 ::: greybox
 www.northwind.com/help   
 :::
+
 
 
 
@@ -64,9 +71,11 @@ Bad example - too broad
 
 <!--endintro-->
 
+
 ::: greybox
 www.northwind.com/docs   
 :::
+
 
 ::: good
 Good example - preferred URL

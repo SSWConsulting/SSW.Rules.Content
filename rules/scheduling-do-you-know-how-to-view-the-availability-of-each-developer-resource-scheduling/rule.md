@@ -18,6 +18,7 @@ As an Account Manager, you'll frequently be required to find a free resource to 
 
 ![](yelling-whos-free.jpg)
 
+
 ::: bad
 Figure: Bad Example - Constantly yelling out "who's free?" 
 

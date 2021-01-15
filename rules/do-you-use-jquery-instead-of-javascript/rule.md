@@ -35,6 +35,7 @@ window.onload = function() { alert("Welcome"); }
 
 
 
+
 ::: bad
 Figure: Bad Example - Using JavaScript 'onload' event
 
@@ -45,6 +46,7 @@ Figure: Bad Example - Using JavaScript 'onload' event
 ```
 $(document).ready(function() { alert("Welcome!"); });
 ```
+
 
 
 

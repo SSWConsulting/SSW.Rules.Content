@@ -35,11 +35,13 @@ Team Foundation Server uses the remaining hours assigned to Tasks to calculate t
 
 ![](burndown_bad_example.png)
 
+
 ::: bad
 Figure: Bad Example - The tasks weren't estimated at the start of the sprint  
 :::
 
 ![](burndown_good_example.png)
+
 
 ::: good
 Figure: Good Example - The tasks were estimated from day one  

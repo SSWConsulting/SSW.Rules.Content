@@ -34,6 +34,7 @@ Two things should be done:
 ![](broken builds.png)
 
 
+
 ::: bad
 Bad Example: Too many broken builds in a row.  
 :::
@@ -41,6 +42,7 @@ Bad Example: Too many broken builds in a row.
 
 
 ![](good builds.png)
+
 
 ::: good
 Good Example: Broken build was fixed immediately.  

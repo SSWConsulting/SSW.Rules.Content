@@ -30,6 +30,7 @@ A popular way to connect devices wirelessly to the boardroom TV is to use an App
 ![Figure: Apple TV with remote](appletv.jpg)  
 :::
 
+
 ::: good
 Pros
 
@@ -41,6 +42,7 @@ Pros
 * Easy to use for Apple users
 * Can be easily added to an AV automation system, e.g. Control4, Savant, etc. which allows you to display on any other display connected to the same AV system
 * Inexpensive way of adding wireless connectivity to an existing system
+
 
 
 ::: bad
@@ -59,6 +61,7 @@ A newer way to connect wirelessly is to use Smart TV’s built-in features.
 ![Figure: Samsung Smart TV with built-in AirPlay](smarttv.jpg)  
 :::
 
+
 ::: good
 Pros
 
@@ -67,6 +70,7 @@ Pros
 * Allows you to wirelessly connect any Apple device including laptop and IOS
 * Can connect Windows laptops through Mirrorcast
 * Can also connect Android devices through Google Home
+
 
 
 ::: bad
@@ -90,6 +94,7 @@ For a more robust AV solution, you can install an Extron system. We recommend th
 ![Figure: Extron ShareLink Pro 1000 diagram](extron.jpg)  
 :::
 
+
 ::: good
 Pros
 
@@ -100,6 +105,7 @@ Pros
 * IT-friendly with monitoring tools and dual networking options, allowing for guests to connect without hassle
 * Can integrate as part of an AV automation system, e.g. Control4 or even Extron’s own
 * Extron support and reliability is highly rated
+
 
 
 ::: bad
@@ -121,6 +127,7 @@ A more advanced wireless solution, Barco Clickshare allows you to use any laptop
 ![Figure: Barco USB dongle for the laptop, or an app for your smartphone](barcousb.jpg)  
 :::
 
+
 ::: good
 Pros
 
@@ -130,6 +137,7 @@ Pros
 * Both windows and apple laptops can connect via the included USB dongle
 * Can have multiple users connected at once, and switch between them by pressing the present button on the dongle
 * IT-friendly with lots of controls and security features
+
 
 
 ::: bad

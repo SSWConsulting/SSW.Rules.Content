@@ -28,6 +28,7 @@ int length = customer != null && customer.name != null ? customer.name.length 
 
 
 
+
 ::: bad
 Figure: Bad Example - Verbose and complex code checking for nulls
 
@@ -38,6 +39,7 @@ Figure: Bad Example - Verbose and complex code checking for nulls
 ```
 int length = customers?.name?.length ?? 0;
 ```
+
 
 
 

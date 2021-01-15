@@ -21,6 +21,7 @@ redirects: []
 <!--endintro-->
 ![Test Cases in a User Story](acceptance-criteria-test-cases.jpg)**Figure: Test Cases in a User Story  (MSF For Agile Template)** 
 
+
 ::: greybox
 Positive Test -When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
  Negative Test - When I enter ‘zzz’ in the Search box and click ‘Search’ I will see \*no\* entries in the Grid

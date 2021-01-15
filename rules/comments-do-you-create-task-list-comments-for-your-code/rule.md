@@ -30,6 +30,7 @@ As with other Task List entries, you can double-click any comment entry to displ
 
 ![](pic1.png)
 
+
 ::: bad
 Figure: Bad example - the comment doesn't show in Task List window  
 :::
@@ -38,6 +39,7 @@ Figure: Bad example - the comment doesn't show in Task List window
 
 ![](pic2.png)
 
+
 ::: good
 Figure: Good example - Marked TODO in the comment, so you can see it in Task List window and double-click to jump to  
 :::
@@ -45,6 +47,7 @@ Figure: Good example - Marked TODO in the comment, so you can see it in Task Lis
 
 
 ![](pic3.png)
+
 
 ::: good
 Figure: Good example - Marked HACK in the comment, so you can see it in Task List window and double-click to jump to  

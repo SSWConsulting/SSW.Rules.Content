@@ -33,6 +33,7 @@ Timeboxing allows you to give more context to a task by showing how much time (a
 
 
 
+
 ::: good
 Figure: Good Example. A timeboxing of one hour.  
 :::

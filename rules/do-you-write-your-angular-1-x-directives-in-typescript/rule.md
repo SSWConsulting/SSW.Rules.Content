@@ -47,6 +47,7 @@ Writing your AngularJS 1.x directives in Typescript will help in the following
 
 ### HTML
 
+
 ::: greybox
 &lt;current-value&gt;&lt;/current-value&gt;
 

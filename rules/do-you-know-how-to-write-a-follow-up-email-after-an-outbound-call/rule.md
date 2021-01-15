@@ -37,6 +37,7 @@ These are the 5 things that you should include in your follow-up email:
 
 All this information is important as it gives the next salesperson who speaks to this person a good background on your interaction with them.
 
+
 ::: greybox
  **To Marlon,** 
 
@@ -45,6 +46,7 @@ As per our conversation, I look forward to seeing you at the SharePoint 101 work
 Feel free to contact me for more information.  
 :::
 
+
 ::: bad
 Figure: Bad Example - The next time you call you will NOT 'remember' any details of the client and have to start COLD again
 
@@ -52,6 +54,7 @@ Figure: Bad Example - The next time you call you will NOT 'remember' any details
 
 **
 **
+
 
 ::: greybox
  **To Marlon,** 
@@ -70,6 +73,7 @@ I have also included information on our seminars below just in case anyone was i
 Feel free to contact me for more information.     
 
 :::
+
 
 ::: good
 Good Example: the next time you call you will be able to 'remember' plenty of details     

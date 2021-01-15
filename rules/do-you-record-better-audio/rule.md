@@ -31,6 +31,7 @@ This higher quality audio should be used in post-production eg. When editing in 
 `youtube: https://www.youtube.com/embed/yfbKXqRAgOA`
  
 
+
 ::: good
 Figure: Good example – Brian Tyler Cohen and Adam Schiff – the setup is likely Zoom and a good mic
 

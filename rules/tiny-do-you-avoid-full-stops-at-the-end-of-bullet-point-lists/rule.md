@@ -22,6 +22,7 @@ Excess punctuation without a purpose can make a document or web page look overly
 
 For example:
 
+
 ::: greybox
 
 * Sentence 1.
@@ -31,9 +32,11 @@ For example:
 
 :::
 
+
 ::: bad
 Figure: Bad Example - Too much punctuation  
 :::
+
 
 
 ::: greybox
@@ -44,6 +47,7 @@ Figure: Bad Example - Too much punctuation
 
 
 :::
+
 
 ::: good
 Figure: Good Example - Full stop is only used in the bullet point that has multiple sentences, except in the last one  

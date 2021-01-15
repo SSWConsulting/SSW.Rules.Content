@@ -30,6 +30,7 @@ redirects: []
 
 
 
+
 ::: bad
 Bad example - AssemblyFileVersion and AssemblyInformationalVersion don't support the asterisk (\*) character  
 :::
@@ -43,6 +44,7 @@ If you use an asterisk in the AssemblyVersion, the version will be generated as 
  [assembly: AssemblyFileVersion("2.0.1.1")]
  [assembly: AssemblyInformationalVersion("2.0")]
 ```
+
 
 
 
@@ -61,6 +63,7 @@ If you are using the GAC, you should adopt a single AssemblyVersion and Assembly
  [assembly: AssemblyFileVersion("2.0.0.1")]
  [assembly: AssemblyInformationalVersion("My Product 2015 Professional")]
 ```
+
 
 
 

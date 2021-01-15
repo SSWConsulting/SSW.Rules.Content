@@ -37,6 +37,7 @@ The following video shows an overview of Yotpo ratings which we've implemented 
 `youtube: https://www.youtube.com/embed/JcnPYEm76-4?rel=0`
  
 
+
 ::: good
 Good Example: Yotpo ratings on the SSW Rules site  
 :::

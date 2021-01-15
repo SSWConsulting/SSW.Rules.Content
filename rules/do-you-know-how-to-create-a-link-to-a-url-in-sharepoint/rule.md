@@ -24,9 +24,11 @@ You may need a link in a SharePoint document to help you navigate to a different
 
 
 
+
 ::: bad
 A.  Create a shortcut in windows, then upload the shortcut file (.url) to the document library.  
 :::
+
 
 ::: good
 B. Use "Link to a document" content type in SharePoint.  

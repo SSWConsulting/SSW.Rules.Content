@@ -18,6 +18,7 @@ Do you know how to form HTML/XML tags on webpages?
 <!--endintro-->
 
 
+
 ::: greybox
 &lt;div&gt;   
  &lt;p&gt;Hello HTML&lt;/p&gt;   
@@ -25,6 +26,7 @@ Do you know how to form HTML/XML tags on webpages?
 
 :::
 Figure: Good Example
+
 
 
 ::: greybox
@@ -52,6 +54,7 @@ Figure: Good Example
 :::
 Figure: Good Example
 
+
 ::: greybox
 &lt;div&gt;   
 
@@ -62,6 +65,7 @@ Figure: Good Example
 
 :::
 Figure: Bad Example
+
 
 ::: greybox
 &lt;breakfast\_menu&gt;

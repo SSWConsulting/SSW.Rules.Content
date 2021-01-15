@@ -18,6 +18,7 @@ Hardcoding URLs in your View can cause problems if your routes or page names nee
 
 <!--endintro-->
 
+
 ::: greybox
 
 
@@ -28,6 +29,7 @@ Hardcoding URLs in your View can cause problems if your routes or page names nee
 
 :::
 Figure: Bad Example – Hard-coded URLs may lead to broken links if routes change
+
 ::: greybox
 
 

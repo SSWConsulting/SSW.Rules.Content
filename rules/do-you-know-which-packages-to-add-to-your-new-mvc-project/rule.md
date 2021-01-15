@@ -47,6 +47,7 @@ You should also add the following NPM  packages:
 
 ![](Bower_v_NPM.png)
 
+
 ::: good
 Figure: NPM Popularity has been increasing
 

@@ -24,6 +24,7 @@ When your attachment is too big, you should think twice.
     * Could I send this as a UNC to an internal share?
     * Could I .zip this?
     * Could I put this picture on Flickr or Picasa?
+
 ::: greybox
 Dear Mike,
 

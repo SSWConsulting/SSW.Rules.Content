@@ -22,6 +22,7 @@ Convert cold calls into warm calls by sending prospects an email out. This is 
 
 Always assume that they have got it and read it and are interested. Try to resist questions like :
 
+
 ::: greybox
 "Did you get my email?"
 
@@ -30,10 +31,12 @@ Figure: Bad example - You never want them to say no to you. See the [YES ladder
 
 Make sure you've already sent them some form of direct marketing, then your introduction should sound like:
 
+
 ::: greybox
 "I sent you a fax the other day regarding our training you are interested in"
 
 :::
+
 
 
 ::: good

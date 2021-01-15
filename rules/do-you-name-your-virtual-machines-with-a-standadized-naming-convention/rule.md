@@ -30,6 +30,7 @@ When your Hyper-V environment is spread across multiple hosts and contains many 
 
 ![It is easy to tell which VM is which when they are named to a standard](naming-goodexample.jpg)
 
+
 ::: good
 Good Example - It is easy to tell which VM is which when they are named to a standard
 

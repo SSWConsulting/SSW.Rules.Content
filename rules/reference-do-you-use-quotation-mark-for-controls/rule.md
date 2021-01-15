@@ -20,17 +20,21 @@ Quotation marks can help user distinguish controls from the normal words. This i
 
 <!--endintro-->
 
+
 ::: greybox
 Click the Upgrade link  
 :::
+
 
 ::: bad
 Figure: Bad Example - It's not clear that Upgrade is a control  
 :::
 
+
 ::: greybox
 Click the "Upgrade" link  
 :::
+
 
 ::: good
 Figure: Good Example - This is much clearer to the user what to search for.  

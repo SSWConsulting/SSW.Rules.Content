@@ -44,6 +44,7 @@ Generally, people who need to know include:
 
 
 
+
 ::: greybox
 [Appointment to: @SSWAbsence]
 
@@ -54,6 +55,7 @@ Thanks, Patricia
 
 :::
  Figure: Bad Example - not enough notice for substantial leave
+
 ::: greybox
 [Appointment to: @SSWAbsence]
 

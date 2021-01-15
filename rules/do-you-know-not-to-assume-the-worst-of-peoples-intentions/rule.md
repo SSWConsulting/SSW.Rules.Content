@@ -18,11 +18,13 @@ Don’t start thinking that some conspiracy is behind someone's actions.
 
 American writer William James (born 1842) said:
 
+
 ::: greybox
 "Never attribute to malice that which is adequately explained by stupidity"  
 :::
 
 Brian Harry (in 2018) said something similar in Giving feedback:
+
 
 ::: greybox
 "I’ve observed that humans have an inherent tendency to want to ascribe motive – to determine why someone did something."
@@ -33,10 +35,12 @@ Brian Harry (in 2018) said something similar in Giving feedback:
 
 <!--endintro-->
 
+
 ::: greybox
 “Joe left me out of that important conversation because he was trying to undermine me.”
 
 :::
+
 
 ::: bad
 Bad example   
@@ -44,10 +48,12 @@ Bad example 
 
 Any time you find yourself filling in the because clause, stop. You don't know why someone does anything. That is locked up securely in their head. When filling in that blank people insert some negative reason that's worse than reality. So, when giving feedback, stick to what you can see.
 
+
 ::: greybox
 “Joe, you left me out of that important conversion.  I felt undermined by that.  Why did you do it?”
 
 :::
+
 
 ::: good
 Good example

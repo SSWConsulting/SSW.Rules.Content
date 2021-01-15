@@ -51,6 +51,7 @@ Also, make sure your descriptions are detailed and useful as that can make findi
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience.
 
+
 ::: greybox
 <p>Hi, Rebecca, 
 
@@ -61,6 +62,7 @@ Where is SSW TV on the navigation?
 </p>  
 :::
 <dd>Figure: Bad example - Lack of details</dd>
+
 ::: greybox
 <p>Hi, Rebecca,
 </p><ol><li>Navigated to ssw.com.au</li><li>Scrolling down looking for a big graphic like "CHECK OUT SSW TV! CLICK HERE!"
@@ -80,6 +82,7 @@ Better than a good description of the bug is a screen recording. This should be 
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
  
 
+
 ::: good
 Figure: Good example - Recording bug reports in a video can make the issue clearer to see
 
@@ -91,11 +94,13 @@ Figure: Good example - Recording bug reports in a video can make the issue clear
 `youtube: https://www.youtube.com/embed/VDZSfHJ7GNU`
  
 
+
 ::: good
 Figure: Good example - Giving feature requests via video
 
 
 :::
+
 
 
 

@@ -24,10 +24,12 @@ When creating links, you should follow a few basic rules:
        **visual indication** should be provided to the user like this: 
       [This is a link to another site](http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/microsoft.htm). 
       
+
 ::: greybox
 Search Engines (<a class="ignore" href="http&#58;//www.ssw.com.au/ssw/Redirect/Web/Google.htm" target="_blank">http&#58;//www.google.com</a> is by far the best but try other search engines as well)  
 :::
 <dd>Figure&#58; Bad example - Without visual indication</dd>
+
 ::: greybox
 Search Engines (<a href="http&#58;//www.ssw.com.au/ssw/Redirect/Web/Google.htm" target="_blank">http&#58;//www.google.com</a>&#160;is by far the best but try other search engines as well  
 :::

@@ -48,6 +48,7 @@ Your end screen shouldn’t overlap actual video content so you should leave up 
 
 ![](end screen example.png)
 
+
 ::: good
 Good example: An example of an end screen featuring a Subscribe button (the SSW logo) and a playlist (which the video is from).  
 :::

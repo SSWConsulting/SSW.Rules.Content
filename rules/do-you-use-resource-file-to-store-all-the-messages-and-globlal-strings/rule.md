@@ -35,6 +35,7 @@ Response.Write("The value cannot be null.");
 
 
 
+
 ::: bad
 Bad Example - if you want to change the message, it will cost you lots of time to investigate every try-catch block  
 :::
@@ -47,6 +48,7 @@ Catch(SqlNullValueException sqlex)
 Response.Write(GetGlobalResourceObject("Messages", "SqlValueNotNull"));
 }
 ```
+
 
 
 
@@ -63,6 +65,7 @@ Catch(SqlNullValueException sqlex)
 Response.Write(Resources.Messages.SqlValueNotNull); 'Good Code - storing message in resource file. 
 }
 ```
+
 
 
 

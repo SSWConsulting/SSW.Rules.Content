@@ -17,6 +17,7 @@ redirects:
 
 ![](FieldsMultipleKeyIndexes.jpg) 
 **Figure: A table with fields with multiple key indexes where the total size of the fields adds to more than 450 characters** 
+
 ::: yellowBox
 [<font style="background-color:#ffffff;">Upsizing PRO</font>](http://www.ssw.com.au/ssw/UpsizingPRO)<font style="background-color:#ffffff;"> will check this rule</font>
 :::

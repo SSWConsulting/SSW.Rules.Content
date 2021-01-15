@@ -20,6 +20,7 @@ redirects:
 
 ![](Jekyll.jpg)
 
+
 ::: bad
 Bad Example: Jekyll - Great but too simple
 
@@ -29,6 +30,7 @@ Bad Example: Jekyll - Great but too simple
 
 ![](NextJS.jpg)
 
+
 ::: bad
 Bad Example: NextJS - We had reliability issues with page generation
 
@@ -37,6 +39,7 @@ Bad Example: NextJS - We had reliability issues with page generation
 
 
 ![](Gatsby.jpg)
+
 
 ::: good
 Good Example: Gatsby

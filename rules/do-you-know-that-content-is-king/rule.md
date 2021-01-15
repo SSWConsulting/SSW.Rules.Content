@@ -17,6 +17,7 @@ Content is essential! If you want to be found in the top results on Google, you 
 
 <!--endintro-->
 ![](angular rule.png)
+
 ::: good
 Figure: Good Example – Angular rule updated! Adding new content or updating your webpages gives you good Google juice and it has the main keyword for “Angular” in the title and throughout the content making it easier for a search engine to find. Google loves this!  
 :::

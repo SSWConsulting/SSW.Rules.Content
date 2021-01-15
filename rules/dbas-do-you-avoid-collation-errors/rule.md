@@ -16,6 +16,7 @@ redirects:
 
 You don't want this error:
 
+
 ::: greybox
 "120\_ClientInvoice\_ClientIDRequired.sql...Column 'dbo.Client.ClientID' is not of same collation as referencing column 'ClientInvoice.ClientID' in foreig..."  
 :::

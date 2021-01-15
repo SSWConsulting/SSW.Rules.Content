@@ -19,20 +19,24 @@ redirects:
 General web content should always be written as if read by a newsreader. It is objective and describes its content professionally. A good example of this is Wikipedia.
 <!--endintro-->
 
+
 ::: greybox
 I don't like JavaScript. I prefer jQuery because...  
 :::
 Figure: Bad Example - using 1st person writing makes it sound like opinion
+
 ::: greybox
 jQuery is superior to JavaScript for this because...  
 :::
 Figure: Good Example - using 3rd person writing makes it sound like fact
 However, when quoting a testimonial, you should use 1st person writing as if a newsreader had crossed over to an eyewitness for a personal view of the topic.
 
+
 ::: greybox
 Don Bradman thought that SSW's work was fantastic!  
 :::
 Figure: Bad Example - impersonal
+
 ::: greybox
 Don Bradman says: "I thought that SSW's work was fantastic!"  
 :::

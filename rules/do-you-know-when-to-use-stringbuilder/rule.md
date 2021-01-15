@@ -30,6 +30,7 @@ for (int i = 0; i < 1000; i ++) {
 
 
 
+
 ::: bad
 Figure: Bad example - This inefficient code results in 1000 new String objects being created unnecessarily.
 
@@ -45,6 +46,7 @@ for (int i = 0; i < 1000; i ++) {
   sb.append(i);
 }
 ```
+
 
 
 

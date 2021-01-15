@@ -95,6 +95,7 @@ public partial class GenderToString : DbMigration
 
 
 
+
 ::: bad
 Bad Example - the default scaffolded migration will not perform any mapping of your data  
 :::
@@ -117,6 +118,7 @@ public partial class GenderToString : DbMigration
  DropColumn("dbo.Customers", "GenderTemp");
  }
 ```
+
 
 
 

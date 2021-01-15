@@ -26,6 +26,7 @@ With this example in mind, the main reasons we use denormalized fields are:
 
 
 
+
 ::: good
 <font size="2">Reducing development complexity</font>
 :::
@@ -92,11 +93,13 @@ They cannot be updated in one hit - they must be updated one table at a time.
 
 However, there are reasons against using denormalized fields
 
+
 ::: bad
 <font size="2">They have to be maintained and can potentially get out of synch</font>
 :::
  
 This can make them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields
+
 
 ::: bad
 <font size="2">They can be seen as an unnecessary waste of space</font>

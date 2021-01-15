@@ -17,11 +17,13 @@ When there are too many choices always Default to the most common ones.  Then ad
 
 <!--endintro-->
 
+
 ::: greybox
 [x] Only include common choices  
 :::
 
 Likewise in a contacts database where you have entries from all around the world it is good to add a check box on the search screen similar to the following:
+
 
 ::: greybox
 [x] Only include customers that have been updated by employees (not directly entered from the web)  

@@ -39,20 +39,24 @@ It is especially important that images and captions serve a purpose, as opposed 
 ### Tip #1 - Bold your captions
 
 
+
 ::: greybox
 [image]
 
 :::
+
 
 
 ::: bad
 Figure: [Description…] (not bolded)
 :::
 
+
 ::: greybox
 [image]
 
 :::
+
 
 
 
@@ -68,6 +72,7 @@ Especially for screenshots, it is a good idea to have your figure describe the a
 
 
    &lt;
+
 ::: greybox
 [image]
 
@@ -75,13 +80,16 @@ Especially for screenshots, it is a good idea to have your figure describe the a
 
 
 
+
 ::: bad
 Figure: This is the screen  
 :::
 
+
 ::: greybox
 [image]  
 :::
+
 
 
 
@@ -101,15 +109,18 @@ Bear in mind to always show the bad example first, then good example, like below
 
 
 
+
 ::: greybox
 To print your document:
 1. Select File | Print. The Print dialog <mark>should</mark> now show.
 2. Select the number of copies and click Print. The file <mark>should</mark> now print.  
 :::
 
+
 ::: bad
 Figure: Bad Example - Using 'should' implies uncertainty  
 :::
+
 
 ::: greybox
 To print your document: 
@@ -117,6 +128,7 @@ To print your document:
 2. Select the number of copies and click Print. The file <mark>will</mark> now print.
 
 :::
+
 
 ::: good
 Figure: Good example - Using present or future tense implies confidence 

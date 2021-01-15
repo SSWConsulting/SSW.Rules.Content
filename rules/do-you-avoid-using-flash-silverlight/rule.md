@@ -40,6 +40,7 @@ Public Websites done completely with Flash or Silverlight can be very eye-catchi
 
 Finally, and saddest of all, when Flash/Silverlight is used, it is normally over used.
 
+
 ::: greybox
 
 **Footnote #1:** It is clear that Flash has been quite successful in the past - the penetration                         of its run time is 99% on PCs, however because of the fact iPhone and iPad don’t run it and the growth of HTML 5, Flash is now considered an old technology.

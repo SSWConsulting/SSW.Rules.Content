@@ -44,10 +44,12 @@ When someone (especially the PO) asks you to fix a PBI, mention that person in t
 Example: When replying to "Hey XXX, can you please fix PBI 123?"
 
 
+
 ::: bad
 Bad example: "I have found the PBI and moved it near the top of our backlog"
 
 :::
+
 
 ::: good
 Good example: "I have found the PBI, prioritized it near the top, and @mentioned you so you know when it is fixed"
@@ -76,6 +78,7 @@ Good example: "I have found the PBI, prioritized it near the top, and @mentioned
 ::: good  
 ![Figure: Good Example – Using @ mentions in GitHub](MicrosoftTeams-image.png)  
 :::
+
 
 ::: greybox
  **Tip:** You can @mention on your pull requests as well.

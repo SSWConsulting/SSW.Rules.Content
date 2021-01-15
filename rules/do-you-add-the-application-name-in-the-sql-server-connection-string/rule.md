@@ -27,6 +27,7 @@ You should always add the application name to the connection string so that SQL 
 
 
 
+
 ::: bad
 Bad example - The connection string without Application Name
 
@@ -39,6 +40,7 @@ Bad example - The connection string without Application Name
  Info=False;Initial Catalog=Biotrack01;Data Source=sheep; 
  Application Name=Biotracker"/> // Good Code - Application Name is added in the connection string.
 ```
+
 
 
 

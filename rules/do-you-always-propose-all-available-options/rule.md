@@ -22,18 +22,22 @@ Sometimes, a client will tell you that they’ve already thought of the easy sol
 
 The trap here would be to the only scope out the expensive option, ignoring quoting the cheaper alternative. Instead, you should scope out and price up \*both\* options, so that if the client prefers your approach, but thinks your expensive option is not feasible, they can still use you for the cheaper option.
 
+
 ::: greybox
 Here's how much the full rewrite of your solution would be: $ XXX  
 :::
+
 
 ::: bad
 Figure: Bad example – no option to use your company if they don’t want a rewrite  
 :::
 
+
 ::: greybox
 The price to refactor your existing code base would be: $ XXX
 The price to do a complete rewrite would be: $ YYY  
 :::
+
 
 ::: good
 Figure: Good Example – whatever option they choose, they can still use your company

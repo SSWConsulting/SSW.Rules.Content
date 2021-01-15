@@ -24,6 +24,7 @@ A Favicon is a small image file included on nearly all professional developed si
 
 Let's see how it's done for SharePoint:
 
+
 ::: greybox
 
 &lt;head runat="server"&gt;        

@@ -18,18 +18,22 @@ When writing any documentation it is vital that you avoid using unnecessary word
 
 <!--endintro-->
 
+
 ::: greybox
 Click the "Select" button  
 :::
+
 
 ::: bad
 Figure: Bad Example - There are too many unnecessary words  
 :::
 
 
+
 ::: greybox
 Click "Select"  
 :::
+
 
 ::: good
 Good Example - This is short and to the point.  

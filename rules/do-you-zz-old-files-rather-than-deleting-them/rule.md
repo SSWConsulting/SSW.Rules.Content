@@ -30,6 +30,7 @@ Both allow for some backward compatibility.
 
 See our     [Rules to Better SQL Server Databases - Do you add zs prefix to table name?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLServerDatabases.aspx#ZSPrefix)
 
+
 ::: greybox
 
 **Note:** [You should not ZZ if you are using Source Control](/do-you-know-zz-ed-files-must-not-exist-in-source-control).

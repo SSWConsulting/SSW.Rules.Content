@@ -25,6 +25,7 @@ This rule has been important for a long time: Fix bugs before adding functionali
 Failing to follow this rule encourages developers and creators to focus on new 'interesting' functionality which is exactly what you don't want...
 You must be strong in the face of pressures from project plan scheduling!
 
+
 ::: greybox
  **Note:** The principle of this bug rule can apply to more than just developers.
 

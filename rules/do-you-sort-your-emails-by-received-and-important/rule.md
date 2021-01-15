@@ -22,6 +22,7 @@ OK - so now you've got your important emails identified, don't let them get lost
 
 ![Sort by Recieved and Important](OutlookSortbyReceivedThenImportant.gif)
 
+
 ::: good
 Figure: Good Example - Sorted by Important and Received Date  
 :::

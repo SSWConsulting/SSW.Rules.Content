@@ -40,6 +40,7 @@ A better process is to submit your build for Testflight and Release simultaneous
 ![](bad-example-new.png)
 
 
+
 ::: bad
 Figure: Bad Example - v1.7 is "Waiting for Review" in Testflight but only v1.6 is submitted to the App Store. This can introduce delays of 3 weeks.
 
@@ -48,6 +49,7 @@ Figure: Bad Example - v1.7 is "Waiting for Review" in Testflight but only v1.6 i
 
 
 ![](good-example-new.png)
+
 
 ::: good
 Figure: Good Example - v1.7 has been submitted to Testflight and App Store at the same time - also "Waiting for Review", but your build will be ready to release as soon as testing has passed

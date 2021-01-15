@@ -31,6 +31,7 @@ Extreme Emails version 1.2.doc
 
 
 
+
 ::: bad
 Figure - Bad Examples: filenames have spaces or dots 
 
@@ -42,6 +43,7 @@ Figure - Bad Examples: filenames have spaces or dots
 Extreme_Emails_v1_2.doc
 ExtremeEmails_v1_2.doc
 ```
+
 
 
 
@@ -58,6 +60,7 @@ Figure – Good Examples: file names do not have spaces
 
 
 
+
 ::: bad
 Figure – Bad Examples: file names have been published with spaces so the URLs look ugly and are hard to read  
 :::
@@ -68,6 +71,7 @@ Figure – Bad Examples: file names have been published with spaces so the URLs 
 <a href="http://sharepoint.ssw.com.au/Training/UTSNET/Pages/UTSNETShortCourse.aspx">UTS Short Course</a>
 <a href="file://fileserver/SharedDocuments/Ignite_Brisbane_Talk.docx">Ignite Talk</a>
 ```
+
 
 
 

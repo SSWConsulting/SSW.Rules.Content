@@ -29,6 +29,7 @@ var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost)
 
 
 
+
 ::: bad
 Figure: Bad Example - Using String.Format() makes the code difficult to read
 
@@ -39,6 +40,7 @@ Figure: Bad Example - Using String.Format() makes the code difficult to read
 ```
 var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
 ```
+
 
 
 

@@ -26,6 +26,7 @@ Unit test classes should be suffixed with the word "Tests" for better coding rea
 
 
 
+
 ::: bad
 Bad - Unit test class is not suffixed with "Tests"
 
@@ -36,6 +37,7 @@ Bad - Unit test class is not suffixed with "Tests"
 ```
 [TestFixture] public class HtmlDocumentTests { }
 ```
+
 
 
 

@@ -54,6 +54,7 @@ Subject: Daniel Hyles - Morning Goals
 - Access reporter
 <font color="#ff0000"><span class="RedText" style="color&#58;#000000;"><span style="color&#58;#000000;">Not Done</span></span> </font>
  
+
 ::: bad
 Figure: Bad Example - Replying inline and using the same color can mess up the history + no indentation 
 
@@ -93,6 +94,7 @@ Subject: Daniel Hyles - Morning Goals
 </font>- Double check backups (get backup today on both drives, I configured the other drive last night)<font style="color&#58;#000000;">
 </font>- Make sure Exchange is backing itself up... Check Google on why not.
 - Access reporter
+
 
 ::: good
 Figure: Good Example - Replying in a different color + keeping history intact + using indentation 

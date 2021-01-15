@@ -22,6 +22,7 @@ However, the end user should be able to tell that this was sent by a bot, and no
 
 <!--endintro-->
 
+
 ::: greybox
  **Hi All,
 ** 
@@ -37,6 +38,7 @@ Uly
 &lt;This email was sent as per: http://rules.ssw.com.au/do-you-have-a-dress-code &gt;
 
 :::
+
 
 ::: good
 Figure: Good Example – you can clearly see this was sent by a bot

@@ -15,10 +15,12 @@ redirects: []
 
 <!--endintro-->
 
+
 ::: greybox
 Bad example - background colour is manually added to &lt;tablegt; tag
 
 :::
+
 
 
 ::: bad
@@ -26,10 +28,12 @@ Bad example – example isn’t labelled with the X symbol followed by ‘Figure
 :::
  
 <font class="ms-rteCustom-GreyBox">
+
 ::: bad
 Figure&#58; Bad example - background colour is manually added to &lt;tablegt; tag  
 :::
 </font>
+
 
 ::: good
 Figure: Good example – It is clear that this example is incorrect.
@@ -37,10 +41,12 @@ Figure: Good example – It is clear that this example is incorrect.
 :::
  
 <font class="ms-rteCustom-GreyBox">
+
 ::: good
 Figure&#58; Good example - background colour is automatically added to &lt;tablegt; tag  
 :::
 </font>
+
 
 ::: good
 Figure: Good example – It is clear that this example is correct.  

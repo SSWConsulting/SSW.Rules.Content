@@ -33,6 +33,7 @@ Free certificates can be obtained from Certificate Authorities like Let's Encryp
 
 ![](letsenc.png) 
 
+
 ::: good
 Good Example: Let's Encrypt Free Certificate Authority
 
@@ -53,6 +54,7 @@ If you are operating a big business, paid certificates give you some more assura
 
 
 ![](comodo.png)
+
 ::: good
 Good Example: Comodo Paid Certificate Authority
 

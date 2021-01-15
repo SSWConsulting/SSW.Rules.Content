@@ -26,6 +26,7 @@ Many projects for budget reasons, have the lead developer making cloud choices. 
 
 The focus must be to build solid foundations and a rock-solid API. The reality is even 1 day of a Cloud Architect at the beginning of a project, can save $100K later on.
 
+
 ::: greybox
  **2 strong developers** (say Solution Architect and Software Developer)
 No Cloud Architect
@@ -33,10 +34,12 @@ No SpendOps
 
 :::
 
+
 ::: bad
 Figure: Bad example of a team for a new project
 
 :::
+
 
 ::: greybox
  **2 strong developers** (say Solution Architect and Software Developer)
@@ -46,6 +49,7 @@ Figure: Bad example of a team for a new project
 - SpendOps
 
 :::
+
 
 
 

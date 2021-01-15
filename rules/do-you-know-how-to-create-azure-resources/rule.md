@@ -67,6 +67,7 @@ Some people half solve the problem by manually creating and saving the script. T
 
 
 
+
 ::: greybox
  **Tip:** Save scripts in a folder called Azure  
 :::
@@ -141,6 +142,7 @@ https://github.com/Azure/bicep
 * Free for individual developers (even for commercial use), but is a paid product for teams &gt; 1
 
 ![pulimi1.png](pulumi3.png)
+
 ::: good
 Figure: Good Example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#
 
@@ -148,6 +150,7 @@ Figure: Good Example - Code from the Pulumi Azure NextGen provider demo with Azu
 
 
 ![](pulumi2.png)
+
 ::: good
 Figure: Good Example - From the console simply run 'pulumi up' to deploy your resources to Azure
 

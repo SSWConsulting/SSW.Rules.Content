@@ -64,6 +64,7 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 &lt;This is as per rule:        [https://rules.ssw.com.au/do-you-create-a-sprint-forecast-(aka-the-functionality-that-will-be-developed-during-the-sprint)](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) /&gt;
 
 
+
 ::: good
  **Figure: Good Example - copy this as email template and send to Product Owner. 
 ** **Subject: &lt;Client Name&gt;: Sprint xxx Forecast** 

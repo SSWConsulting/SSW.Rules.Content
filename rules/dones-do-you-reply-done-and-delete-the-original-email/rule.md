@@ -178,6 +178,7 @@ Screen captures should always include:
 ### Tip 8: When appropriate use text instead of an image
 
 
+
 ::: greybox
 
 Done - There was a problem with the SQL. I added the line highlighted in        <font style="background-color:#ffff00;">Yellow</font>:

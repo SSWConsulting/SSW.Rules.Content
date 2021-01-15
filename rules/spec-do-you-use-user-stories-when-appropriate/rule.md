@@ -20,6 +20,7 @@ redirects:
 
 Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.
 
+
 ::: greybox
 As a &lt;type of User&gt;
 I want &lt;some goal&gt;
@@ -35,11 +36,13 @@ Figure: User Story - template for description
 ![Figure: User Story - Product Backlog Item form](TFS2012UserStory.gif)  
 :::
 
+
 ::: greybox
 I want to be able to search for customers.
 
 :::
 Figure: Bad Example - the user story is too vague and broad in scope
+
 ::: greybox
 As a Marketing Manager...
     I want to be able to search for customers by country and last name.

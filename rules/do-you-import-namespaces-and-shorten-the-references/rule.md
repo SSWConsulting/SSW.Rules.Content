@@ -26,6 +26,7 @@ System.Text.StringBuilder myStringBuilder = new System.Text.StringBuilder();
 
 
 
+
 ::: bad
 Figure: Bad code - Long reference to object name
 
@@ -39,6 +40,7 @@ using System.Text;
 ...
 StringBuilder myStringBuilder = new StringBuilder();
 ```
+
 
 
 

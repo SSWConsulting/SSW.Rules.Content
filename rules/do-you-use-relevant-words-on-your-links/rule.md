@@ -35,53 +35,65 @@ Having these relevant words on links also gives a more friendly experience to 
 So what does this mean? All those that are pointing to pages on your website that are displayed as 'More', 'Link', 'This' or 'Click Here' aren't doing you any favors when it comes to increasing your Google rankings.
 
 
+
 ::: greybox
 "For tips and tricks to increase your Google Ranking 
       Click here"
 :::
 
+
 ::: bad
 Figure: Bad Example #1 - Link does not increase your rankings  
 :::
+
 
 ::: greybox
 "Linkfor tips and tricks to increase your Google Ranking"  
 :::
 
+
 ::: bad
 Figure: Bad Example #2 - Link does not increase your rankings  
 :::
+
 
 ::: greybox
 "For tips and tricks to increase your Google Ranking 
       read this"  
 :::
 
+
 ::: bad
 Figure: Bad Example #3 - Link does not increase your rankings  
 :::
 
+
 ::: greybox
 "For tips and tricks to increase your Google Ranking Click Here"  
 :::
+
 
 ::: bad
 Figure: Bad Example #4 - 
       Link title does not increase your rankings (scroll and hold over link to see it)  
 :::
 
+
 ::: greybox
 "For tips and tricks to increase your Google Ranking go to https://rules.ssw.com.au/rules-to-better-google-rankings"  
 :::
+
 
 ::: bad
 Figure: Bad Example #5 - 
       Link is the whole URL
 :::
 
+
 ::: greybox
 "For tips and tricks to increase your Google Rankings go to our Rules to Better Google Rankings"  
 :::
+
 
 ::: good
 Figure: Good Example - Descriptive link

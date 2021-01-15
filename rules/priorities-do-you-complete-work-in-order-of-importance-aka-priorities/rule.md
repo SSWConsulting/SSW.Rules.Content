@@ -20,6 +20,7 @@ With a mountain of emails, it is difficult to make sure the most important tasks
 
 <!--endintro-->
 
+
 ::: greybox
 The word "Urgent" is more important than the word "Important"
 
@@ -48,6 +49,7 @@ This is the order which you should work:
 8. Phew... Done...
 
 
+
 ::: greybox
 Tip #1: Don't move an important task out of your inbox unless:
 
@@ -55,6 +57,7 @@ Tip #1: Don't move an important task out of your inbox unless:
 
 * Someone else is going to do it right away; or
 * It is going into a Sprint
+
 
 
 
@@ -75,6 +78,7 @@ Tip #2: Use inbox subfolders to group and prioritize tasks
 :::
 
 Also, it's common that priority orders change, but clients don't always mean to, so double check that the client means this.
+
 
 ::: greybox
 When someone is asking you to do a new task, and you are still working on some other task, you should ask:

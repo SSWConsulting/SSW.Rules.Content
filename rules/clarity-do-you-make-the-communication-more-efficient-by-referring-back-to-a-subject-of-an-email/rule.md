@@ -16,10 +16,12 @@ redirects:
 
 Use IM to chase up that important email. You can make it easy for everyone (or at least give them the context of your questions) by pasting the email subject. 
 
+
 ::: greybox
 I sent you an email just now, please approve
 
 :::
+
 
 
 ::: bad
@@ -27,10 +29,12 @@ I sent you an email just now, please approve
 
 :::
 
+
 ::: greybox
 I need you to reply to my email... Subject: CBA Software Audit 
 
 :::
+
 
 ::: good
 Figure: Good example - client can search your email based on the subject 

@@ -62,6 +62,7 @@ sSmtpClient.Send(sMessage);
 
 
 
+
 ::: bad
 Bad Example: Write the same logic repeatedly 
 
@@ -107,6 +108,7 @@ sSmtpClient.Send(sMessage);
 } 
 }
 ```
+
 
 
 

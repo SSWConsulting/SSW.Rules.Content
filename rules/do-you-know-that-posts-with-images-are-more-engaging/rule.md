@@ -46,11 +46,13 @@ Be aware that just sharing random or any images will not set your social media a
 
 
 ![](Screen Shot 2020-04-23 at 3.42.25 pm.png)
+
 ::: bad
 Bad Example: Social media post without an image - Less engagement
 
 :::
 ![](Screen Shot 2020-04-23 at 3.45.49 pm.png)
+
 ::: good
 Good Example: Social media post with a video - Better engagement
 

@@ -18,10 +18,12 @@ If you have a date for any event appearing on your website, you should make it a
 
 <!--endintro-->
 
+
 ::: greybox
 Next User Group Meeting:
  Wednesday, 15 February 2006 5:45 PM  
 :::
+
 
 ::: bad
 Figure: Bad Example - User cannot add a reminder
@@ -31,6 +33,7 @@ Figure: Bad Example - User cannot add a reminder
 Next User Group Meeting:
 Wednesday, 15 February 2006 5:45 PM 
 ![](../../assets/IconVCS.gif)[Add Outlook reminder](http://www.ssw.com.au/ssw/NETUG/SydneyDotNETUsersGroup.ics)
+
 
 ::: good
 Figure: Good Example - User can click and add a reminder

@@ -54,6 +54,7 @@ It's a good idea to "Dress Up" in flights as you never know who you will be seat
 
 Many companies find it a good idea to have Casual Fridays. It is free and easy to do and gives the team something to look forward to.
 
+
 ::: greybox
 E.g. At SSW, our employees  **"Dress Up"** on Mondays and Tuesdays by wearing company colors, with a nice shirt (business or polo), trousers (not blue jeans), belt, nice shoes (no sneakers, joggers or thongs). So most employees wear their SSW shirts on Mondays.
 Then they  **"Dress Down"** later in the week... so they have      **"Casual Thursday"** and      **"Sporty Friday"** .

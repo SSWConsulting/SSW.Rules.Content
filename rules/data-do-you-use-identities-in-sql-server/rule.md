@@ -18,6 +18,7 @@ This one is going to be a controversial one. But the bottom line is every now an
 
 <!--endintro-->
 
+
 ::: bad
 Cons:  
 :::
@@ -32,6 +33,7 @@ But in SQL Server you have identities and we have these procs:
 
 * DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
 * SET IDENTITY\_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
+
 
 
 ::: good

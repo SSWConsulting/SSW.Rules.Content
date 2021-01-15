@@ -20,20 +20,24 @@ The prefix is used to give context to your blog posts (or other type of cont
 
 Example 1: Use " **CODE:"** when your blog post is about coding   or " **VIDEO:"** when it has a video.
 
+
 ::: greybox
 Northwind Traders with Entity Framework Core
 
 :::
+
 
 ::: bad
 Figure: Bad example - Post title with no prefix
 
 :::
 
+
 ::: greybox
 CODE: Northwind Traders with Entity Framework Core
 
 :::
+
 
 ::: good
 Figure: Good example - Using a prefix in the post title
@@ -41,6 +45,7 @@ Figure: Good example - Using a prefix in the post title
 :::
 
 Example 2: Use prefixes (based on the content) for grouping and a better scanning:
+
 
 ::: greybox
 Configure your SSW Email on your mobile (for Android users) 
@@ -59,10 +64,12 @@ How to find an employee’s phone number?
 Make a small code change on SugarLearning.com (Developers only)  
 :::
 
+
 ::: bad
 Figure: Bad example - Data list with no prefixes
 
 :::
+
 
 ::: greybox
 Phone - Configure your SSW Email on your mobile (for Android users) 
@@ -81,6 +88,7 @@ CRM - How to find an employee’s phone number? 
 Exercise - Make a small code change on SugarLearning.com (Developers only)
 
 :::
+
 
 ::: good
 Figure: Good example - Using a prefix in data

@@ -38,6 +38,7 @@ There are a few options, based on what you need to do:
     
 
     <img alt="" height="384" width="569" class="ms-rteCustom-ImageArea" src="RemoveAssociation.png">
+
 ::: bad
 Figure: Choose “default” link  
 :::
@@ -49,6 +50,7 @@ Figure: Choose “default” link
 
     </span>
     
+
 ::: bad
 Figure: uncheck the association for user
     profile service  
@@ -68,6 +70,7 @@ Figure: uncheck the association for user
     page:</span> <strong><span lang="EN-US"><img alt="" height="241" width="573" class="ms-rteCustom-ImageArea" src="UserProfileServiceManagePage.png">
 
     </span></strong> 
+
 ::: good
 Figure: “User Profile
     Service Application” manage page  

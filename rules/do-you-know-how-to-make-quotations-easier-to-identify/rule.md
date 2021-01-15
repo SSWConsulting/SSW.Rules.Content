@@ -19,9 +19,11 @@ When you add a quotation, put them in a new line with an indent.
 
 <!--endintro-->
 
+
 ::: greybox
 Software development can be painful and costly. Hang on, that should say "Software development IS painful and costly."  
 :::
+
 
 ::: bad
 Figure: Bad Example - The quotation without a new line or indent  
@@ -29,10 +31,12 @@ Figure: Bad Example - The quotation without a new line or indent
 
 
 
+
 ::: greybox
 Software development can be painful and costly. Hang on, that should say:
   "Software development IS painful and costly."  
 :::
+
 
 ::: good
 Figure: Good example - The quotation on a new line and indenting  
@@ -42,12 +46,14 @@ You should always indent any quotes that you use on a new line.
 
 ![Bad Example - adding quotations](bad-example-adding-quotations.jpg)
 
+
 ::: bad
 Figure: Bad example - It is hard to tell where the quote is
 
 :::
 
 ![Good example of added quotation](good-example-adding-quotations.jpg)
+
 
 ::: good
 Figure: Good example - It is obvious that this is a quote and it is laid out nicely.

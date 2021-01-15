@@ -31,12 +31,14 @@ To avoid the approver feeling hard done by, make sure you do the following:
 
 
 
+
 ::: greybox
 Hi Adam,
 
 I know you haven't had time so far to test this for me, but if you could please do so, i can go live... I've been waiting for quite a while now
 
 :::
+
 
 ::: bad
 Figure: Bad Example - chasing an approver with no set timeframe is frustrating and disempowering
@@ -51,6 +53,7 @@ Hi Adam,
 As per our conversation, you haven't got time to sit with me to approve this today, and you're very busy at the moment, so we've agreed that you have 2 weeks to approve this video before it goes live. 
 
 &lt;This is as per the rule, [https://rules.ssw.com.au/do-you-timebox-approval-requests](/do-you-timebox-approval-requests) /&gt;
+
 
 
 ::: good

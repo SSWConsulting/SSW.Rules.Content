@@ -29,11 +29,13 @@ SSW uses an Invixium fingerprint scanner. The user interface is easy to use, you
 
 The Invixium integrates well with our [Control4](/rules-to-better-control4) Automation system.
  ![](Scanner 2.jpg)
+
 ::: bad
 Bad example - E-Key needs you to swipe your finger down, this is less intuitive
 
 :::
 ![](Scanner 1.jpg)
+
 ::: good
 Good example - Invixium  is easy to use, just hold down your finger on the screen to scan 
 :::

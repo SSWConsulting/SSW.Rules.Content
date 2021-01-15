@@ -60,6 +60,7 @@ SPListItemCollectionlistItemsColl= resourceList.GetItems(query);
 
 
 
+
 ::: bad
 Figure: Bad example – using CAML  
 :::
@@ -80,6 +81,7 @@ OrderBy item.PostedOn Ascending
 
 
   
+
 ::: good
 Figure: Good example – using LINQ  
 :::

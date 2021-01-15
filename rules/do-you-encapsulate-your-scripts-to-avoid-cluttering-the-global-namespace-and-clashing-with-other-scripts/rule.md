@@ -26,6 +26,7 @@ function click()
 
 
 
+
 ::: bad
 Bad example - create variables and methods in the global namespace   
 :::
@@ -46,6 +47,7 @@ In order to avoid your variables and methods to be overwritten, it's best pract
 
 
 
+
 ::: good
 Good example - the variable and method are now encapsulate and under a distinct namespace
 
@@ -59,6 +61,7 @@ By encapsulating your script using this anonymous function, you can as well pa
 (function(ssw, $ ){    var buttonClicked = false; //private variable     ssw.click = function() //public method    {        buttonClicked = true;
          $('#id').html('<span>Example</span>');     }}(window.SSW = window.SSW || {},  jQuery ));
 ```
+
 
 
 
@@ -80,6 +83,7 @@ Since JavaScript is very forgiving language, you could even redefine the meanin
     }
 }(window.SSW = window.SSW || {}, jQuery));  //nothing added as the third parameter
 ```
+
 
 
 

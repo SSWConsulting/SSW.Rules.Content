@@ -24,6 +24,7 @@ Using an IOC container in this manner can bring advantages such as centralised c
 
 
 
+
 ::: bad
 Figure: Bad Example - the dependency is manually fetched from the IOC container, This class now has a hard dependency on your IOC container  
 :::
@@ -31,6 +32,7 @@ Figure: Bad Example - the dependency is manually fetched from the IOC container,
 
 
 ![](IOC_GoodExample.png)
+
 
 ::: good
 Figure: Good example -  The dependency is enforced via a constuctor parameter. The class does not need to know anything about the IOC container being used and can potentially be reused in different contexts and with different IOC containers.  

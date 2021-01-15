@@ -28,6 +28,7 @@ During the course of an IM chat with a client or manager, an action or a piece o
 
 For example:
 
+
 ::: greybox
  "As per our IM conversation, I will XXX."   
 :::
@@ -48,6 +49,7 @@ Make it readable by snipping out just the important information and CC relevant 
 ### Dealing internally 
 
 If you get an internal IM that should be an email, don't simply convert it into in an email as above - [be a standard](/is-everyone-in-your-team-a-standards-watchdog)[watchdog](/is-everyone-in-your-team-a-standards-watchdog) and let the other person know that they should send emails instead of instant messages:
+
 
 
 ::: greybox

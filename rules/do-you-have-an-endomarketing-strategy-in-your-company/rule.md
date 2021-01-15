@@ -68,6 +68,7 @@ The main benefits of this strategy are:
 <img src="bunny.jpg" alt="bunny.jpg" style="margin:5px;width:808px;">
     
 
+
 ::: good
 
 Good Example – Figure: Celebrate special dates with your team!

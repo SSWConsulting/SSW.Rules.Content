@@ -18,10 +18,12 @@ Initially, errors of this nature would be picked up in the link checking utility
 
 <!--endintro-->
 
+
 ::: bad
 Bad Example: &lt;a href="//ant/ssw/LookOut.htm"&gt;
 
 :::
+
 
 ::: good
  **Good Example: &lt;a href="/ssw/LookOut.htm"&gt;** 

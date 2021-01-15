@@ -27,6 +27,7 @@ The build name should have the following suffixes, depending on their purpose:
 ![](buildnames.png)
 
 
+
 ::: good
 Good Example: We have two continuous delivery builds to our staging environment.  
 :::

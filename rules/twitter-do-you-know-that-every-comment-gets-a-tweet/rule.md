@@ -18,6 +18,7 @@ redirects:
 
 If someone's blog post is interesting or inflammatory enough that you want to comment on it, then it is probably worth a tweet.
 
+
 ::: greybox
  **@MrHinsh** I missed this...John Liu, making sense, something to see https://bit.ly/9wzSVT 
  less than 20 seconds ago via bit.ly

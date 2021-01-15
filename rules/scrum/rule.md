@@ -40,6 +40,7 @@ redirects: []
 <div id="vid_f2ab1bb8-28cc-4914-b859-52688d9f51f9" style="display:none;"></div></div></strong> </font></font></font></font></font></font><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"> <strong>视频: 微软的每日Scrum会议(长)</strong> </font></font></font></font></font></font>
 <font color="#333333" style="line-height:18px;"><font face="Verdana"><font size="2"><div> <strong></strong> </div>
 
+
 ::: greybox
 <div style="padding:10px 0px;line-height:20px;margin-top:0px;font-family:verdana, arial, sans-serif;margin-bottom:0px;"><span style="line-height:18px;"> <strong>牢记：</strong> <div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">      “只要能遵循Scrum价值，改变Scrum是可以的，实际上为了成功，这也是有必要的。”</div>
 <div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">-Stephen Forte</div></span></div>  
@@ -53,6 +54,7 @@ redirects: []
 </font></font></font>图：TFS 预览版(TFS 2012)自动生成燃尽图
 
 建议 2：在墙上贴一张每日Scrum会议的日程表(+ 在OutLook中设置一个预约)
+
 
 ::: greybox
 

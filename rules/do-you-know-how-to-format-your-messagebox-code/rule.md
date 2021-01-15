@@ -31,6 +31,7 @@ Private Sub ShowMyMessage()
 
 
 
+
 ::: bad
 Figure: Bad example of MessageBox code format
 
@@ -51,6 +52,7 @@ Private Sub ShowMyMessage()
  MessageBoxDefaultButton.Button2)
 End Sub
 ```
+
 
 
 

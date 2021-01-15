@@ -46,6 +46,7 @@ public int Sum(int x, int y)
 
 
 
+
 ::: bad
 Bad Example: The test fails by throwing a NotImplementedException
 
@@ -64,6 +65,7 @@ public int Sum(int x, int y)
    return 0;
 }
 ```
+
 
 
 

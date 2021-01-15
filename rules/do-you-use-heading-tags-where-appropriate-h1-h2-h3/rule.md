@@ -44,6 +44,7 @@ Lets chatter about...</p>
 
 
 
+
 ::: bad
 Figure: Bad example -  **using span tags and CSS classes to put headings in** 
 
@@ -56,6 +57,7 @@ Figure: Bad example -  **using span tags and CSS classes to put headings in**
 ```
 <h2>Introduction</h2>
 ```
+
 
 
 

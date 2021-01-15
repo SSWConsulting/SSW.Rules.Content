@@ -32,16 +32,19 @@ Often, when a manager is called in to help out with a conflict situation, they d
 
 In general, use Teams for private information, or SMS as a last resort. Treat sensitive information or scenarios with care to ensure a good outcome for all parties.
 
+
 ::: greybox
  **Client:** "I told them we’d need blah"
  **Manager:** "Oh that does sound reasonable. Devs, why was that missed?"  
 :::
+
 
 ::: bad
 Figure: Bad Example: Manager looks uninformed and is always on the back foot, and needing to ask questions that everyone else in the call on both sides already knows
 
 
 :::
+
 
 ::: greybox
  **Client:** "I told them we’d need blah."
@@ -50,16 +53,19 @@ Figure: Bad Example: Manager looks uninformed and is always on the back foot, an
 
 :::
 
+
 ::: good
 Figure: Good Example: Manager is armed with relevant information as needed
 
 
 :::
 
+
 ::: greybox
  **Dev:** "Heads up, they might be sensitive about this part as they have been very clear with us about it from the start and I missed it. This part was really my fault."
 
 :::
+
 
 ::: good
 Figure: Good Example: Let the Manager know what parts are reasonable to push, and what battles are better surrendered

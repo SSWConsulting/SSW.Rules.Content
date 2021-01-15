@@ -20,6 +20,7 @@ The brand is the summary of our company.
 
 The brand should contain the copyright declaration.
 
+
 ::: bad
 Bad header comments
 
@@ -39,6 +40,7 @@ Bad header comments
 ///</summary>
 ///'----------------------------------------------
 ```
+
 
 
 

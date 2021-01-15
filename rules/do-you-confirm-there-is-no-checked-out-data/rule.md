@@ -94,6 +94,7 @@ Even better, we have also improved the application with a scheduled task using S
       <dd>Figure: One button reminds all users of their "Checked out Files"
 
 </dd>
+
 ::: greybox
 
 **Hi Sophie,** 

@@ -42,6 +42,7 @@ ELSE
 
 
 
+
 ::: bad
 Bad example – worrying about the idempotency should not be done, if you plan to run your scripts in the order they were created  
 :::
@@ -53,6 +54,7 @@ CREATE TABLE [dbo].[Employees](
     ……
 ) ON [PRIMARY]
 ```
+
 
 
 

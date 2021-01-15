@@ -26,6 +26,7 @@ They offer the ability to record all the entity changes to a history table allow
 
 
 
+
 ::: good
 Pros:
 
@@ -38,6 +39,7 @@ Pros:
 * Retention period can be set on the history table, this can be set as frequent as 1 day.
 
  
+
 
 
 

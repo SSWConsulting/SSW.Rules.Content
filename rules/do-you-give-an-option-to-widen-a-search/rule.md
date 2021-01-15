@@ -25,6 +25,7 @@ You must be careful when combining search and filtering functionality as this ca
 ![Find more (1).png](Find more (1).png)
 
 
+
 ::: bad
 Bad: Search is not reminding the user about the fact that a built-in filter is applied to the search result 
 
@@ -34,6 +35,7 @@ Bad: Search is not reminding the user about the fact that a built-in filter is a
 
 
 ![](SearchOption-Good.png)
+
 
 
 ::: good

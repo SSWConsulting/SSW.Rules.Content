@@ -39,6 +39,7 @@ Of course, another great way of promoting your company via your staff is on thei
 Wherever your employees gather in large numbers, ensure they come branded.
 
 ![](willsprofile.png)
+
 ::: good
 Figure: Good Example - Your employee profile on social media can also be branded
 

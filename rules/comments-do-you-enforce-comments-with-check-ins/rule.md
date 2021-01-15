@@ -33,12 +33,14 @@ Team Foundation Server is great, and one of its neat features is enforcing comme
 
 
 ![](15-07-2014 10-21-04 AM.png) 
+
 ::: bad
 Figure: Bad Example: No Comments against the check-ins we don’t know what changes were made in each revision  
 :::
 
 ![](15-07-2014 10-24-40 AM.png)
  
+
 ::: good
 Figure: Good Example: Now we can pin point which revision a particular change has been made  
 :::

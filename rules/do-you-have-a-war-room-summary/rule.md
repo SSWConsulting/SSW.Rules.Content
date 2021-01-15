@@ -30,10 +30,12 @@ The scrum team needs a place to gather for all the scrum ceremonies. This room s
 
 <!--endintro-->
 ![](war-room-bad-example.jpg) 
+
 ::: bad
 Bad Example – No Product Roadmap is on the wall, so people can be out of sync with the future plans of the Product Owner  
 :::
  ![](war-room-good-example.jpg) 
+
 ::: good
 Good Example – The Product Roadmap is visible at a glance  
 :::

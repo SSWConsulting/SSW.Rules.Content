@@ -30,6 +30,7 @@ Source=TUNA"
 
 
 
+
 ::: bad
 Figure: Bad Connection String
 
@@ -41,6 +42,7 @@ Figure: Bad Connection String
 "Integrated Security=SSPI;Initial Catalog=SallyKnoxMedical;Data Source=TUNA;
 Connect Timeout=5"
 ```
+
 
 
 

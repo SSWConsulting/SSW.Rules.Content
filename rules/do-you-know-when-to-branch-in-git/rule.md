@@ -109,6 +109,7 @@ When the change is complete, or when you want feedback on anything, open a pull 
 
 Tip: A best practice is to have another developer review your work and then approve.
 
+
 ::: greybox
 It is easy to chalk this step up as busy-work, but it is one of the most valuable parts of the strategy
 
@@ -136,6 +137,7 @@ After you completed the pull request, make sure you also delete the branch     t
 
 
 
+
 ::: bad
 Figure: Bad Example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging
 
@@ -145,15 +147,18 @@ Otherwise, you can do it before you complete the pull request by ticking     del
 ![](delete branch in devops.png)
 
 
+
 ::: good
 Figure: Good Example - Automatically delete the branch after the pull         request completion in Azure Devops
 
 :::
 ![](github settings.png)
+
 ::: good
 Figure: Good Example - Set the whole project to auto-delete branch after         merging in GitHub
 
 :::
+
 
 ::: greybox
 Once merged,      **master** should immediately and automatically be deployed (in a perfect world, to production).  

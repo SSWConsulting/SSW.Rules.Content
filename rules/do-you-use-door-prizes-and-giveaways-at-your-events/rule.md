@@ -15,6 +15,7 @@ redirects: []
 
 A golden rule of marketing is:
 
+
 ::: greybox
 *"People love gifts and surprises"*
 :::

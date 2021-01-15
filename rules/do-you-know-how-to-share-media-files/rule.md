@@ -33,6 +33,7 @@ Ideally SharePoint would be used for all content storage but occasionally it is 
 ![Figure: Bad Example - OneDrive (was SkyDrive) Pro enables offline access and saves locally and then syncs back to the SharePoint server asynchronously, but requires the whole document library to be brought to the local computer, even if you only need one folder in the document library](share-media-files-2.jpg)  
 :::
 
+
 ::: greybox
  **Suggestion for OneDrive (was SkyDrive) Team #1 :** Enable OneDrive to have selective sync on folders within a document library.  
 :::
@@ -41,6 +42,7 @@ Ideally SharePoint would be used for all content storage but occasionally it is 
 ::: bad  
 ![Figure: Bad Example - Files shared via SkyDrive are hard to back up centrally. When you share folders through OneDrive (was SkyDrive) they are only made available through the web interface](share-media-files-3.jpg)  
 :::
+
 
 ::: greybox
  **Suggestion to OneDrive (was SkyDrive) Team #2:** When folders are shared with another OneDrive user, the shared folder should appear in the recipients OneDrive folder. This allows it to be backed up by a central user at HQ.  

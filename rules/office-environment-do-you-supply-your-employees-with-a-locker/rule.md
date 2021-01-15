@@ -30,17 +30,20 @@ It's important to provide a physical space for each employee to store their stuf
 ![](drawer-bad.jpg)
 Figure: Bad example - Having a drawer and a mailbox takes too much space (2 different locations) and larger packages won't fit
 ![](Lockers.jpg)
+
 ::: good
 Figure: OK example - Stepped lockers are great as they allow jackets (however missing the mail hole)
 
 :::
  ![](locker-good.jpg) 
+
 ::: good
 Figure: Good example - A locker with mail slot is ideal for both mail and packages
 :::
 
 
 ![](clean desk.jpg)
+
 ::: good
 Figure: This is how your desk should look when you leave everyday.
 :::

@@ -25,6 +25,7 @@ Figure: Bad Example - The image is in attachment.
 
 ![The image is included in the context](EmailAttachImage_2.JPG)
 
+
 ::: good
 Figure: Good Example - The image is included in the context.  
 :::

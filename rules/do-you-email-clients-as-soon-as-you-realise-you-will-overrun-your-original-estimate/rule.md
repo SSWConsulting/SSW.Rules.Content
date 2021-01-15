@@ -24,6 +24,7 @@ Do \*not\* wait until you have started to exceed your estimate before you notify
 Keep them informed and avoid conflict by sending an email like this:  
 <!--endintro-->
 
+
 ::: greybox
  **To** : Mr Northwind
  **Cc** : David (Project Manager)

@@ -58,6 +58,7 @@ Without the answers to these questions, it will be difficult to choose the right
 
 **Example Template to Customer:**
 
+
 ::: greybox
  **Scenario:** 
 Scope - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net) and a mobile app.     
@@ -72,6 +73,7 @@ MFA - You would like to allow users to enable MFA.
 **Option C** - Identity Server       - This would work but as it doesn't include MFA this would need to be provided via an additional service. Also due to your expected volume of users you would need to manage scaling for this yourself.
 
 :::
+
 
 ::: good
  **Good Example: The chosen solution meets the requirements and is highlighted as per [Do you manage up?](/do-you-manage-up)  ** 
@@ -90,6 +92,7 @@ MFA - You would like to allow users to enable MFA.
 
 **Example Template to Customer:**
 
+
 ::: greybox
  **Scenario:** 
 Scope - You have an internal enterprise application, which will support approximately 1,000 users.     
@@ -103,6 +106,7 @@ MFA - As per your company security policy, you must enforce MFA.
  **Option C** - Okta - this is an expensive option which, for this scenario, doesn't provide any advantages over Azure AD.
 
 :::
+
 
 ::: good
  **Good Example: The chosen solution meets the requirements without adding unnecessary additional costs  ** 
@@ -128,6 +132,7 @@ MFA - As per your company security policy, you must enforce MFA.
 
 ASP.NET Core has some built in identity functionality that allows you to create users and roles, and manage the security of your web applications. It is extremely capable and can be used to support a broad number of scenarios. However, it is intended for use in simple web applications, and while it can be extended to support other clients, you will need to build and wire up a lot of the UI for these scenarios yourself. Your identity store will be limited to this one application, so your users will not be able to share this identity across multiple applications.
 
+
 ::: good
 Advantages:
 
@@ -137,6 +142,7 @@ Advantages:
 * Free
 * Easy to set up and use
 * Supports OAuth2/OIDC providers
+
 
 
 ::: bad
@@ -164,6 +170,7 @@ Disadvantages:
 
 [Identity Server 4](https://identityserver.io/) is a free and open source solution that is built on top of ASP.NET Core Identity. It has extensive support for a number of authentication and authorisation scenarios and supports multiple identity providers (OAuth2/OIDC) out of the box. Identity Server 4 extends ASP.NET Core Identity to natively support multiple client types and can be used as a single identity across multiple applications.
 
+
 ::: good
 Advantages:
 
@@ -174,6 +181,7 @@ Advantages:
 * Supports multiple applications/identity consumers
 * Supports multiple clients and client types
 * Supports OAuth/OIDC
+
 
 
 ::: bad
@@ -216,6 +224,7 @@ Disadvantages:
 * Proprietary Microsoft: Basic, NTLM etc.
 
 
+
 ::: good
 Advantages
 
@@ -224,6 +233,7 @@ Advantages
 * Already in place in most enterprise organisations
 * Users do not require an additional identity
 * Can make the application compliant with the organisation's existing security policies
+
 
 
 ::: bad
@@ -255,6 +265,7 @@ Disadvantages
 
 [Azure AD](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiDsL6i2a_mAhXijOYKHR5WAh8QFjAAegQIAxAB&url=https://azure.microsoft.com/en-au/services/active-directory/&usg=AOvVaw3X8CyXRWZ1KOOeEVYx0ubs) is Microsoft's cloud based version of its traditional on-premises enterprise identity store - Active Directory. Azure AD is different in that it is fundamentally identity only (it doesn't provide endpoint and user management features such as Group Policy) and as such provides strong identity features not natively supported by AD, such as MFA and self-service password recovery. Being cloud based, it can authenticate users anywhere in the world (rather than just on-premises on corporate computers).
 
+
 ::: good
 Advantages
 
@@ -264,6 +275,7 @@ Advantages
 * Extends existing enterprise identity to the cloud (i.e. is supported off-premises)
 * Can be used to ensure compliance with existing company security policies
 * MFA support included
+
 
 
 ::: bad
@@ -291,6 +303,7 @@ Disadvantages
 
 [AAD B2C](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwiB4Nmz2a_mAhV14XMBHW6pC7sQFjAAegQIAxAB&url=https://azure.microsoft.com/en-in/services/active-directory-b2c/&usg=AOvVaw3lcpqnMW7GThYUAYNlGEQu) sits on top of Azure AD and includes all the benefits it provides, as well as enabling consumer friendly features. These include integration with OAuth2/OIDC provider and more flexible/customisable login flows. B2C is well tailored to support authentication, and while it can be extended to support additional capabilities, this requires custom development.
 
+
 ::: good
 Advantages
 
@@ -301,6 +314,7 @@ Advantages
 * MFA support included
 * Relatively straightforward to setup
 * Ongoing security maintained by Microsoft
+
 
 
 ::: bad
@@ -326,6 +340,7 @@ Disadvantages
 
 [Auth0](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=2ahUKEwjI2-PG2a_mAhXK7XMBHa6-CpAQFjAAegQIEBAC&url=https://auth0.com/&usg=AOvVaw1vSnM9ruwib43vxq4g0jjS) is a commercial identity product aimed at developers. It is cloud hosted and offers out of the box functionality for user signup and login, self-service password recovery, OAuth2/OIDC integration, and other consumer and user friendly features. MFA is supported out of the box, and significant sophisticated functionality is available on the paid tiers.
 
+
 ::: good
 Advantages
 
@@ -338,6 +353,7 @@ Advantages
 * MFA support included
 * Supports multiple OAuth2/OIDC providers
 * Significant extensibility
+
 
 
 ::: bad
@@ -365,6 +381,7 @@ Disadvantages
 
 [Okta](https://www.okta.com/?utm_campaign=search_google_apac_anz_ao_it_branded-okta_exact&utm_medium=cpc&utm_source=google&utm_term=okta&utm_page=%7burl%7d&gclid=EAIaIQobChMI1PKg2tmv5gIVjCQrCh3RHAImEAAYASAAEgLW2fD_BwE) is a commercial identity product aimed at enterprises. Many enterprise-centric software products, for example Salesforce, have Okta connectors. Okta is intended to bridge the gap between enterprise authentication (such as AD) and modern software and SaaS products.
 
+
 ::: good
 Advantages
 
@@ -373,6 +390,7 @@ Advantages
 * Integrates with anything
 * Very well supported in the enterprise
 * Can simplify integration with AD
+
 
 
 ::: bad
@@ -398,6 +416,7 @@ Disadvantages
 
 It is entirely possible to create a users table and a roles table in your database and create and manage users yourself.
 
+
 ::: good
 Advantages:
 
@@ -405,6 +424,7 @@ Advantages:
 
 * Developers feel like they're ninjas for a little while
 * Can be a quick and dirty solution to the absolute most basic situation
+
 
 
 ::: bad

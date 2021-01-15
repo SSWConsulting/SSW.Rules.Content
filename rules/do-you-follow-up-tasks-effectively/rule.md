@@ -20,12 +20,14 @@ redirects:
 
 Sometimes you're not able to complete a task right away or anytime soon. In this case, people usually just say:
 
+
 ::: greybox
 "I can't do this week, but I should have it done by the end of next week"
 
 :::
 
 Another scenario is when the task should be done or will expire after a period of time. For example:
+
 
 ::: greybox
 "Send Google Analytics data after a month" or "Remove course banner after the course is completed"

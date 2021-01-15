@@ -33,6 +33,7 @@ Devices and computers that don’t have phone functionality will either open a p
 
 
 
+
 ::: good
 Figure: Good Example – This is the syntax to hyperlink phone numbers.
 

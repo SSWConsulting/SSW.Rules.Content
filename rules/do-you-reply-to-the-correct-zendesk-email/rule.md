@@ -27,6 +27,7 @@ It is best practice to only use the Zendesk group to manage tasks and not both g
 
 ![](zenddddd.png)
 
+
 ::: bad
 Bad Example: Adding groups with the same people twice. They will receive it twice in their inbox
 
@@ -35,6 +36,7 @@ Bad Example: Adding groups with the same people twice. They will receive it twic
 
 
 ![](zendndnd.png)
+
 
 ::: good
 Good Example: Add only one group, that goes to Zendesk and spread the ticket only once for everyone

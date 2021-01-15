@@ -23,6 +23,7 @@ Use the word "UPDATED" clearly (in capitals and in red for example). The date sh
 
 Example:
 
+
 ::: greybox
 UPDATED: 1 August 2010 [what you changed]
 

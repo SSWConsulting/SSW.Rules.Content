@@ -26,6 +26,7 @@ Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Writ
 
 
 
+
 ::: bad
 Bad example of a constant message  
 :::
@@ -40,6 +41,7 @@ Bad example of a constant message
 ```
 Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorld) Console.Read() End Sub End Module
 ```
+
 
 
 

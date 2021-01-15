@@ -59,6 +59,7 @@ http://codebetter.com/jeremymiller/2010/02/10/nested-containers-in-structuremap-
 
 ![](Autofac_web.png)
 
+
 ::: good
 Figure: Good Example - the web / mvc integration package layer for Autofac is developed by the same core Autofac team. Some containers (such as Structure Map) require third-party integration layers   
 

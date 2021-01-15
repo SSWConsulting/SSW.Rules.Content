@@ -30,6 +30,7 @@ The best approach to reuse code across multiple projects is to create Nuget Pack
 
 ![](BCE_Nuget_Server.png)
 
+
 ::: good
 Good Example: when reusing code across multiple projects for a single client, hosting your own Nuget Server provides an excellent way to manage shared private dependencies  
 :::
@@ -39,6 +40,7 @@ For details on creating your own internal Nuget repository, read this rule:[http
 
 
 ![](SSW_nuget.png)
+
 
 ::: good
 Good Example: If your library has potential outside of your current requirement, consider publishing to the world on Nuget.  Often the work involved to make a library more generic and re-usable results in better-quality code.  

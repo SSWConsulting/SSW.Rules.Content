@@ -47,6 +47,7 @@ WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 
 
 
+
 ::: bad
 Figure: Bad Example
 
@@ -77,6 +78,7 @@ CREATE PROCEDURE [dbo].[Sales by Year]
 
  WHERE Orders.ShippedDate Between @Beginning_Date And @Ending_Date
 ```
+
 
 
 

@@ -43,6 +43,7 @@ Don't underestimate the power of one friend or colleague telling another. DDD Me
 
 In some circumstances, it is worth setting up one or more accounts on social media for promoting and corresponding as the event identity. In technical circles, it is especially popular to use Twitter as a way to create awareness about events. SSW uses a combination of Twitter, Facebook, LinkedIn and Instagram to promote our events, that way we have a much larger and diverse audience to draw from.
 
+
 ::: greybox
  **Tip:** Get your staff to Tweet at events and to Re-Tweet your events to help reach a larger audience! 
 

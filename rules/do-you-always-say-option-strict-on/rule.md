@@ -27,10 +27,12 @@ To configure each template to default Option Strict to On rather than Off, load 
 
 Technically, you do not have to add the Option Explicit directive, because this is the default for VB; but I like to do it for consistency. Next, you must save the file and close Notepad. Now, if you load a new Windows Application project in the VS environment and examine Project Properties, you will see that Option Strict has been turned on by default.
 ![](OptionStrictOff_Newsmall.gif) 
+
 ::: bad
 Figure:Bad Example – Option Strict is Off  
 :::
 ![](OptionStrictOn_Newsmall.gif) 
+
 ::: good
 Figure:Good Example – Option Strict is On  
 :::

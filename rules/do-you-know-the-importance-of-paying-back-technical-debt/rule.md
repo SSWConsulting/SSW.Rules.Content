@@ -62,6 +62,7 @@ As new features are added to the system, often more Technical Debt will be intro
  **#1 Planned Technical Debt** 
 Sometimes you do want to quickly implement a new feature to get it out and receive some feedback.
 
+
 ::: greybox
 PBI:         **[FeatureName] – Tech Debt - Planned** 
 
@@ -74,6 +75,7 @@ PBI:         **[FeatureName] – Tech Debt - Planned**
 
 **#2 Discovered Technical Debt** 
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
+
 
 ::: greybox
 PBI: 

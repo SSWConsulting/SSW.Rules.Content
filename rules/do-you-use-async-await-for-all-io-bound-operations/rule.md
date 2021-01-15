@@ -50,6 +50,7 @@ public ActionResult Gizmos()
 
 
 
+
 ::: bad
 Figure: Bad Example – this MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request
 
@@ -64,6 +65,7 @@ public async Task<ActionResult> GizmosAsync()
     return View("Gizmos", await gizmoService.GetGizmosAsync());
 }
 ```
+
 
 
 

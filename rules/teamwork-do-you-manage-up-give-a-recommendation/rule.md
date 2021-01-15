@@ -21,15 +21,18 @@ Managing up is providing your manager with an option to approve, rather than ask
 
 <!--endintro-->
 
+
 ::: greybox
 What do you want to charge for Cameron's rate?
 
 :::
 
+
 ::: bad
 Figure: Bad Example - Nothing to approve
 
 :::
+
 
 ::: greybox
 What do you want to charge for Cameron's rate?
@@ -38,6 +41,7 @@ I would advise the standard $165 + GST until he has more experience.
 Please approve.
 
 :::
+
 
 
 ::: good
@@ -54,6 +58,7 @@ When you are giving someone multiple options you should:
 
 For example:
 
+
 ::: greybox
 We want to integrate our database with our website so that customers can purchase online.
 
@@ -67,6 +72,7 @@ The choices:
 Please let me know if you're happy to proceed with our recommendation, otherwise let me know if you have any questions.
 
 :::
+
 
 ::: good
 Figure: Good Example - Multiple options to approve with reasons for each 

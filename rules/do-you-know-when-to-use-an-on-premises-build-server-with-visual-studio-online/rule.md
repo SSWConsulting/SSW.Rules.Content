@@ -42,6 +42,7 @@ Once you have a build server configured, you'll be able to see the build control
 ![](vso_build.png)
 
 
+
 ::: good
 Figure: Good Example - We have the option of an on-premises build controller as well as the Hosted Build controller  
 :::

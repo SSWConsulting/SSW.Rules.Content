@@ -24,6 +24,7 @@ The actual Page Rank algorithm looks like this:  **PR(A) = (1-d) + d (PR(T1)/C(
 The basic premise that comes from this algorithm is:
 
 
+
 ::: greybox
 When I link to your page, I'm casting a vote that your page is good and the more links (votes) that are received the better the page is. 
 

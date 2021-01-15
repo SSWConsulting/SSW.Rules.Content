@@ -21,6 +21,7 @@ When someone makes a suggestion or a complaint. Usually, you only hear from the 
 
 <!--endintro-->
 
+
 ::: greybox
 From: Adam Cogan 
 To: Code Auditor Team 
@@ -36,6 +37,7 @@ Hi, I saw two clients today that complained about Rule files being created even 
 
 Uly  
 :::
+
 
 ::: good
 Figure: Good Example - using +1 to show you agree  

@@ -107,6 +107,7 @@ These are also mockups in a Web/Windows Forms with full CSS Styling and graphic 
 
 These are concept mockups produced by designers in Photoshop providing a guidance of the final look with full styling.
 
+
 ::: greybox
 
 **Warning:** Don't go down the track of giving a customer a few concepts (on some projects we gave 2 or 3 completely different concepts by different designers). There becomes too much mixing and matching when they see them. Once the images are approved, then the designers slice them up and turn them into HTML (slicing is the exporting of each image).
@@ -159,6 +160,7 @@ Mock-ups and wireframes are far easier to understand.
 For example, to communicate that “a customer has many phone numbers”, a storyboard/wireframe of how that relationship will appear in the user interface is highly more likely to be understood by the client.
 
 The clear communication of the message is more important than the medium used to convey that message.
+
 
 ::: greybox
 

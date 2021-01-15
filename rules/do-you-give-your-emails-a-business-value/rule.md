@@ -25,18 +25,21 @@ There are the 3 ways people can send tasks:
 
 1. Send an email only.
 ![](Email sign.jpg)
+
 ::: bad
 Figure: Bad example - An email with requirements does not indicate the priority  
 :::
 
 2. Put the task straight into the backlog, and send no email:
 ![](straight to scrum.jpg)
+
 ::: bad
 Figure: Bad example - The developer does not get a chance to ask questions and refine it before it hits the backlog  
 :::
 
 3. Send an email, the recipient reviews it and places it into the backlog, based off the specified Business Value. Developers often prefer this method if they like control over their backlog.
 ![](Developer entered.jpg)
+
 ::: good
 Good example - Email tasks with a Business Value, allow the developer to review before putting it in the backlog
 
@@ -51,6 +54,7 @@ Good example - Email tasks with a Business Value, allow the developer to review 
 
 Before you email a task to someone, think about how important it is to you.  Then draft your email, add the Business Value using the same scale that you would use to estimate your PBIs.
 ![](Email Diagram.jpg)
+
 ::: good
 Figure: Good example - The best workflow for sending an email  
 :::
@@ -59,6 +63,7 @@ Figure: Good example - The best workflow for sending an email
 **Q:** What if you need to write an email to multiple recipients?
  **A:** Assign each person a Business Value. In the case of "To Myself" emails, you can also add the amount of 'Effort' required too.
 ![](Email screenshot.jpg)
+
 ::: good
 Figure: Good example - The best workflow for sending an email (with multiple recipients)
 

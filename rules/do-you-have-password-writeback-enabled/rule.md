@@ -25,6 +25,7 @@ When setting up Azure AD Connect, you need to set the "Password Writeback" optio
 
 ![](enablepasswordwriteback.png)
 
+
 ::: good
 Good Example: Setting up Password Writeback in Azure AD Connect  
 :::

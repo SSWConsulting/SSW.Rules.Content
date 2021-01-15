@@ -21,6 +21,7 @@ So we need a better way to present an image on our website and it should be easy
 
 <!--endintro-->
 
+
 ::: greybox
 You then have this pretty white flower with a green stem standing on a water pond. It is beautiful.  
 :::

@@ -32,6 +32,7 @@ Most developers put the image and the caption in a DIV tag, where the figure is 
 
 
 
+
 ::: bad
 Figure: Bad Example  
 :::
@@ -46,6 +47,7 @@ Instead, you should use      **&lt;figure&gt;** and      **&lt;figcaption&gt;** 
   <figcaption>Figure: Caption</figcaption>
 </figure>
 ```
+
 
 
 

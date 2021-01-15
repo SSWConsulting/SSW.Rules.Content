@@ -17,6 +17,7 @@ redirects: []
 
 Let's say you press “Send” and get a bounce, e.g. An email in your inbox that reads:
 
+
 ::: greybox
 
 Delivery has failed to these recipients or distribution lists:
@@ -27,6 +28,7 @@ The recipient's e-mail address was not found in the recipient's e-mail system. M
 :::
 
 Get the correct email address and ‘Reply to all’ with just this text in brackets:
+
 
 ::: greybox
   (Resending with Adam’s correct email)

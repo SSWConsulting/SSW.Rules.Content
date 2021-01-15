@@ -23,11 +23,13 @@ Turn a rant into a tip…
 
 ![SNAGHTML1b864a4](RulesBloggingTipBad.jpg "SNAGHTML1b864a4")
 
+
 ::: bad
 Figure: Bad example – It is too easy to rant  
 :::
 
 ![SNAGHTML1b94284](RulesBloggingTipGood.jpg "SNAGHTML1b94284")
+
 ::: good
 Figure: Good example – What started out as a rant about Plaxo became a tip on how to get round it
 

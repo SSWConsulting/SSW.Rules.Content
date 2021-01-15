@@ -31,24 +31,28 @@ Creating and promoting optimized playlists is a plus, increasing session time (a
 
 
 ![](playlist_bad.png) 
+
 ::: bad
 Bad example: people living YouTube after (or even while) watching one of your videos will rank you (and your content) down.  
 :::
 
 
 ![](playlist_ok.png) 
+
 ::: good
 OK example: people watching another video after yours will give you a little boost.  
 :::
 
 
 ![](playlist_good.png) 
+
 ::: good
 Good example: people watching a video from your playlist are more likely to keep watching more of your videos, giving you a big boost!  
 :::
 
 
 ![](playlist_good_sswtv.png) 
+
 ::: good
 Good example: make sure that every video is in at least one playlist.  
 :::

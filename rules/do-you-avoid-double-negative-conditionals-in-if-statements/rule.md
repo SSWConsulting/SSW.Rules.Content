@@ -35,6 +35,7 @@ else
 
 
 
+
 ::: bad
 Figure: Bad example
 
@@ -57,6 +58,7 @@ else
 
 
 
+
 ::: good
 Figure: Good example
 
@@ -70,6 +72,7 @@ if (!IsValid)
        // handle error
 }
 ```
+
 
 
 

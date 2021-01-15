@@ -37,6 +37,7 @@ Cursor.Current = cur;
 
 
 
+
 ::: bad
 Bad Example: Because of the initializing code inside the try block. If it failed on this line then you will get a NullReferenceException in Finally
 
@@ -57,6 +58,7 @@ finally
 Cursor.Current = cur;
 }
 ```
+
 
 
 

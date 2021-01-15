@@ -28,6 +28,7 @@ Check out https://www.scrumoji.org/ for the full list.
 ![](srumoji - bad example.jpg)
 
 
+
 ::: bad
 Figure: Bad Example - The Sprint Review is an important meeting but doesn't stand out in my calendar
 
@@ -37,6 +38,7 @@ Figure: Bad Example - The Sprint Review is an important meeting but doesn't stan
 
 
 ![](scrumoji - good example.jpg) 
+
 
 
 ::: good

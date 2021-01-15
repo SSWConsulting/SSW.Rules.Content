@@ -52,6 +52,7 @@ else
 
 
 
+
 ::: bad
 Figure: Bad example of coding practice  
 :::
@@ -87,6 +88,7 @@ default:
 break;
 }
 ```
+
 
 
 

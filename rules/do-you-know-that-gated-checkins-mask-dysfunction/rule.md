@@ -19,6 +19,7 @@ This does not contribute to high functioning teams, and instead masks, or even c
 
 <!--endintro-->
 
+
 ::: greybox
 
 In the retro the team decides to turn gated checkins on because Jonny and Sue keep breaking the build.
@@ -37,6 +38,7 @@ Gated Checkins mask the dysfunction on the team, and introduce impediments to th
 
 :::
 Bad Example – Gated Checkins mask dysfunction
+
 ::: greybox
 
 In the retro the team discusses the fact that the build is often broken.

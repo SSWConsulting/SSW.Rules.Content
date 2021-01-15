@@ -47,9 +47,11 @@ Mobile signature are not easily customized so they can be simpler.
 
 Use the "mobile signature" when sending emails from your phone.
 
+
 ::: greybox
 Get Outlook for Android  
 :::
+
 
 ::: bad
 Figure: Bad example - This default signature sucks
@@ -57,10 +59,12 @@ Figure: Bad example - This default signature sucks
 
 :::
 
+
 ::: greybox
 Thanks, Adam
 www.ssw.com.au  | +61 4 1985 1995  
 :::
+
 
 ::: good
 Figure: Good example – Add your name, URL and your phone number

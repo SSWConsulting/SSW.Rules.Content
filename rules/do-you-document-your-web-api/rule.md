@@ -21,6 +21,7 @@ Documenting your WebAPI is important but you don't want to spend a massive amoun
 Implementing Swagger will give you an automatic UI to explore and test your Web API methods.
 ![](document-api-swagger.png)
 
+
 ::: good
 Swagger gives you a nice UI automatically generated on top of your WebAPI methods
 

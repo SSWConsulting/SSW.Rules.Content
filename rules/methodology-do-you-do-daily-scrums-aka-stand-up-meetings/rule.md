@@ -39,6 +39,7 @@ Figure: Watch a Daily Scrum at Microsoft (short)
 `youtube: https://www.youtube.com/embed/-UUrLxNBK_g`
  Figure: Watch a Daily Scrum at Microsoft (long)
 
+
 ::: greybox
 
 "Great video guys. Remember, it is ok to change Scrum, actually, it is necessary for success. Just adhere to the values of Scrum. "
@@ -66,6 +67,7 @@ At the end of the Scrum, the Scrum Master should     [review the current burn do
 :::
 
 **Tip 3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)**
+
 
 ::: greybox
 
@@ -152,6 +154,7 @@ Once you have completed your stand up, add “S” to your timesheet as per     
 
 Use Teams or Skype to bridge gaps in geography.
 
+
 ::: greybox
 
 Focus on the Flow
@@ -163,6 +166,7 @@ Focus on the Flow
 :::
 
 When using email or IM try to be as specific as possible.
+
 
 ::: greybox
 
@@ -182,9 +186,11 @@ Today I am working on:
 
 :::
 
+
 ::: bad
 Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working  
 :::
+
 
 ::: greybox
 
@@ -203,6 +209,7 @@ Today I am working on:
 &lt;This email was sent as per http://sugarlearning.com/Item/8291&gt;
 
 :::
+
 
 ::: good
 Figure: Good example - Clear details 

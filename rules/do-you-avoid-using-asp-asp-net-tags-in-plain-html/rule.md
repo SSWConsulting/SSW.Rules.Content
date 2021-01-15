@@ -28,6 +28,7 @@ ASP and ASP.NET tags have no place in plain HTML pages. They simply increase the
 
 
 
+
 ::: bad
 Figure: Bad Example - ASP.NET tags accidentaly placed in a plain HTML documents
 :::

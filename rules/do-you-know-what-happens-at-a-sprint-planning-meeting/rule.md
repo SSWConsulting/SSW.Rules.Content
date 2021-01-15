@@ -66,6 +66,7 @@ Once this meeting is finished, the Scrum Master should email the Product Owner w
 
 
 
+
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 * Sprint Planning Meeting (Described on this page)

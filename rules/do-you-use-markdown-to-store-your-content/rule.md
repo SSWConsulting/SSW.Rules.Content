@@ -154,6 +154,7 @@ Unfortunately, Markdown does not support YouTube videos embedding out of the box
 
 
 
+
 ::: good
 Figure: Good Example - Workaround to embed YouTube video using YouTube's generated thumbnail 
 
@@ -166,6 +167,7 @@ If your site is using "[markdown-it](https://www.npmjs.com/package/markdown-it)"
 ```
 @[youtube](http://www.youtube.com/embed/dQw4w9WgXcQ)
 ```
+
 
 
 

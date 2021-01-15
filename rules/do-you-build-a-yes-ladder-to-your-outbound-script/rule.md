@@ -20,6 +20,7 @@ A good way to avoid the nasty dial tone midway through your introduction is to a
 
 So after you've done your introduction here's an example how your conversation should develop. Let's say we're trying to sell some developer training:
 
+
 ::: greybox
  **Question 1:** Jane, have you considered any extra IT training since starting your job? (those that answer no, you're not likely to be targeting)
  **Prospect:** Yes

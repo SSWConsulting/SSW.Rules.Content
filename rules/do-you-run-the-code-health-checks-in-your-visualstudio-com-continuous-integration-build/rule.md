@@ -40,6 +40,7 @@ Summary:
 
 The resulting build should look like this.
 ![](VSO-Build-Good-1.png)
+
 ::: good
 Figure: Good Example - Build Passing with no summary issues
 
@@ -49,6 +50,7 @@ Figure: Good Example - Build Passing with no summary issues
 Edit the build definition on &lt;CompanyName&gt;.visualstudio.com, and add the following build tasks.
 If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
 ![](VSO-BuildDefinition-V3.png)
+
 ::: good
 Figure: Good Example - Steps added to build definition.
 
@@ -102,15 +104,18 @@ This is done with the <mark>addition of a variable (Name = PrimaryBuild, Value =
 ### Check the build is running without issues
 
 ![](VSO-Build-Bad-1.png)
+
 ::: bad
 Figure: Bad Code with a Good Code Health Implementation - Build broke due to compile errors. Must fix to proceed.  
 :::
 ![](VSO-Build-Ok-1.png)
+
 ::: bad
 Figure: Bad Code with a Good Code Health Implementation - Successful build with warnings. These should be reprioritised as errors, or removed
 
 :::
 ![](VSO-Build-Good-1.png)
+
 ::: good
 Figure:  Good Code with a Good Code Health Implementation - Successful build with no warnings.
 

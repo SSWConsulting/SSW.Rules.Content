@@ -36,6 +36,7 @@ You try and reproduce it on your version in the office and everything works perf
 
 <!--endintro-->
 
+
 ::: greybox
 Mary, I need you to send me your database schema as it might be different from what it should be. Can you:
 
@@ -69,6 +70,7 @@ Therefore, you should deliver an application with the buttons "Create", Upgrade"
 For more information see [Best Tools for SQL Server](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/SQLservertools.aspx#SQLDeploy)
  It looks like this
 ![Reconcile](Reconcile.jpg) Figure: When weird errors are happening at a client, you need a "Reconcile" button in your application. This compares the current scripts, to the client's database and tells you if things are not right ![New database dialog](NewDatabaseDialog.jpg) Figure: First time your client opens the application, they will need to Creating a database. It should be as easy as clicking "Create"
+
 ::: greybox
 As a developer, I promise to do these 3 things:
 1. Save every SQL change I do as a script

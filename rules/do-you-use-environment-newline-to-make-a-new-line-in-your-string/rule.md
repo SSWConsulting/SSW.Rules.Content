@@ -28,6 +28,7 @@ string strExample = "This is a very long string that is \r\n not properly implem
 
 
 
+
 ::: bad
 Bad Example: The string has implemented a manual carriage return line feed pair (\r\n)  
 :::
@@ -39,6 +40,7 @@ Bad Example: The string has implemented a manual carriage return line feed pair 
 ```
 string strExample = "This is a very long string that is " + Environment.NewLine +		 " properly implementing a new line.";
 ```
+
 
 
 
@@ -58,6 +60,7 @@ example.AppendLine("This is a very long string that is ");
 
 example.Append(" properly implementing a new line.");
 ```
+
 
 
 

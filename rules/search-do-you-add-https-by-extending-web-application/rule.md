@@ -16,10 +16,12 @@ It is recommended to bind https by extending web applications in central admin s
 
 <!--endintro-->
 ![](configurationInIIS.jpg)
+
 ::: bad
 Bad example: Add https binding in IIS  
 :::
 ![](extendwebapplication.jpg)
+
 ::: good
 Good example: Extend web application and assign https to the Internet zone  
 :::

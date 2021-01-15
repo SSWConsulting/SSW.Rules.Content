@@ -36,6 +36,7 @@ public class Command : ICommand
 
 
 
+
 ::: bad
 Figure: Bad example - The link to the suggestion should be in the comments
 
@@ -58,6 +59,7 @@ public class Command : ICommand
  // code
 }
 ```
+
 
 
 

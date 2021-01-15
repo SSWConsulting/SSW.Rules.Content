@@ -70,12 +70,14 @@ jobs:
 
 
 
+
 ::: good
 Figure: Good Example - GitHub Action to Sync Issues to Azure DevOps
 
 :::
 
 ![](GitHub-Issues-Syncing-to-AzDevOps.png)
+
 ::: good
 Figure: Good Example - GitHub Issues Syncing to Azure DevOps
 

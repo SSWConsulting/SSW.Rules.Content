@@ -21,18 +21,22 @@ Note: When there are two ways of doing something, we make a rule on it one way w
 
 <!--endintro-->
 
+
 ::: greybox
 You can not change the world.  
 :::
+
 
 
 ::: bad
 Figure: Bad example – two separated words  
 :::
 
+
 ::: greybox
 You cannot change the world.  
 :::
+
 
 
 

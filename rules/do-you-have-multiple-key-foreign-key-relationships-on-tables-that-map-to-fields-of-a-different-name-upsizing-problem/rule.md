@@ -17,6 +17,7 @@ redirects:
 
 ![](MultipleForeignKeyRelationshipsDifferentNames.jpg) 
 **Figure: Multiple Foreign Key Relationships Different Names** 
+
 ::: yellowBox
 [Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) will check this rule  
 :::

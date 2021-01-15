@@ -21,20 +21,24 @@ From [Flame emails missing the mark](http&#58;//www.ssw.com.au/ssw/Redirect/smh_
 
 Because there is no "tone of voice" in an email, sarcasm can easily be misinterpreted by the receiver.
 
+
 ::: greybox
 "John, make sure your office is clean when clients come in - you might scare them away with all that mess."
 
 :::
+
 
 ::: bad
 Bad example: This is bad because it may seem like John is being reprimanded, even though the sender may just be giving him a "heads up" for next time
 
 :::
 
+
 ::: greybox
 "John, make sure your office is clean when clients come in - you might scare them away with all that mess :)"
 
 :::
+
 
 ::: good
 Good example: When in doubt, use a smiley face at the end of the comment to soften it up a bit

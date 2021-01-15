@@ -23,6 +23,7 @@ When someone sends you a .doc file or images that are attached when you reply 'd
 
 So in such a case, you will want to skip that email and go back to the last HTML email and paste in the extra response. For clarity, add something like:
 
+
 ::: greybox
 <mark>&quot;(fixed history to put back images - caused by Adam's iPhone)&quot;</mark>
 :::

@@ -61,11 +61,13 @@ ECHO Templates Copied
 
 
 
+
 ::: bad
 Figure: Bad Example - This is a snippet of an old login script  
 :::
 
 You can automatically have your SSW Word doc template on sign-in via a script. See https://github.com/SSWConsulting/SSWSysAdmins.LoginScript
+
 
 
 ::: good

@@ -25,7 +25,9 @@ It is good practice to be clear on what you want. One way you can make things cl
 
 <!--endintro-->
 
+
 ::: greybox
+
 
 ::: greybox
  **Hi Bob,** 
@@ -39,12 +41,15 @@ Would you like to see some sights while you’re in town? For example, we often
 
 :::
 
+
 ::: bad
 Bad example - the different tasks/questions may be skipped if the reader does not read carefully
 
 :::
 
+
 ::: greybox
+
 
 ::: greybox
  **Hi Bob,** 
@@ -62,6 +67,7 @@ For example, we often take clients to visit the World Heritage listed West Lake 
 :::
 
 :::
+
 
 ::: good
 Good example - the different tasks/questions are clear

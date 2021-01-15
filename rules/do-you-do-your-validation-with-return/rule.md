@@ -41,6 +41,7 @@ private void AssignRightToLeft()
 
 
 
+
 ::: bad
 Figure: Bad example - using nested if for validation
 
@@ -71,6 +72,7 @@ private void AssignRightToLeft()
   RefreshData();
 }
 ```
+
 
 
 

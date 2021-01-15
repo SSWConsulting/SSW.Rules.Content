@@ -18,21 +18,25 @@ When explaining steps in a process, e.g. Printing a file, make sure to say somet
 
 <!--endintro-->
 
+
 ::: greybox
 To print your document:
 1.    Select File | Print. The Print dialog should now show.
 2.    Select the number of copies and click Print. The file should now print.  
 :::
 
+
 ::: bad
 Figure: Bad Example - Using "should" implies uncertainty  
 :::
+
 
 ::: greybox
 To print your document:
 1.    Select File | Print. The Print dialog is shown.
 2.    Select the number of copies and click Print. The file will now print.  
 :::
+
 
 ::: good
 Good example - Using present or future tense implies confidence  

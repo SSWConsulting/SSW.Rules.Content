@@ -34,6 +34,7 @@ The last question is key as it could lead to substantially more work, but you sh
 
 It's also a good idea to mention that this will happen at the end of the course so that the call doesn't come out of the blue. The speaker could say something like:
 
+
 ::: greybox
 
 *"Thanks for attending today. You can email either of us after this.

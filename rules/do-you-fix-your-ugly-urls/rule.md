@@ -18,9 +18,11 @@ redirects:
 
 Ugly URL's don't only make it difficult for users to browse your site, they can also impact your Google rankings.
 
+
 ::: greybox
 http://www.northwind.com/MyInternalDB/UserDatabase/ProductList.aspx?productname=Access  
 :::
+
 
 ::: bad
 Figure: If you have a nasty URL like this...  
@@ -28,9 +30,11 @@ Figure: If you have a nasty URL like this...
 
 You should fix it up to look more like this:
 
+
 ::: greybox
 http://www.northwind.com/products/access  
 :::
+
 
 
 ::: good

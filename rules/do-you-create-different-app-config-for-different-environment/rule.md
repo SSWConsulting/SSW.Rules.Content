@@ -19,11 +19,13 @@ Every application has different settings depending on the environment it is runn
 ![](AppConfigBad.jpg)
 
 
+
 ::: bad
 Figure: Bad Example - Only 1 App.config provided  
 :::
 
 ![](App.config.jpg)
+
 
 
 ::: good

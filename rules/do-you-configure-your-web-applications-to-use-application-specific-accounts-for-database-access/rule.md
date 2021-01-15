@@ -23,6 +23,7 @@ Application database access should be also be restricted to only the application
 
 ![](administratorlogininitsconnectionstring.png)
 
+
 ::: bad
 Bad Example – Contract Manager Web Application using the administrator login in its connection string  
 :::
@@ -30,6 +31,7 @@ Bad Example – Contract Manager Web Application using the administrator login i
 **<font color="#555555"></font>**
 
 ![](databaseuserconfiguredintheconnectionstring.png)
+
 
 ::: good
 
@@ -122,6 +124,7 @@ If you are running a web application on Azure as you should configure you applic
 
 
 > <font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2">GRANT</font></font></font><font face="Consolas" size="2"><font face="Consolas" size="2"> </font></font><font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2">EXECUTE</font></font></font><font face="Consolas" size="2"><font face="Consolas" size="2"> </font></font><font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2"><font color="#0000ff" face="Consolas" size="2">TO</font></font></font><font face="Consolas" size="2"><font face="Consolas" size="2"> </font></font><font face="Consolas" size="2">myappstaging</font><font color="#808080" face="Consolas" size="2"><font color="#808080" face="Consolas" size="2"><font color="#808080" face="Consolas" size="2"></font></font></font>
+
 
 
 ::: greybox

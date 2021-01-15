@@ -32,6 +32,7 @@ this.button1.UseVisualStyleBackColor = true;
 
 
 
+
 ::: bad
 Bad Example - the event handler hook-up is lost, so there will be no response after you click the button
 
@@ -50,6 +51,7 @@ this.btnResetAll.Text = "Reset &All";
 this.btnResetAll.UseVisualStyleBackColor = true;
 this.btnResetAll.Click += new System.EventHandler(this.btnResetAll_Click);
 ```
+
 
 
 

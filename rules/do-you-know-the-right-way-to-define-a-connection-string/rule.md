@@ -27,6 +27,7 @@ Server=DRAGON;Database=SSWData2005;Uid=sa;Pwd=password;
 
 
 
+
 ::: bad
 Bad example - The connection string use 'sa' in Uid 
 
@@ -43,6 +44,7 @@ Server=DRAGON;Database=SSWData2005;Uid=SSWWebsite;Pwd=password;Application Name=
 If using Windows Authentication (Recommended)
 Server=DRAGON;Database=SSWData2005;Integrated Security=True;Application Name=SSWWebsite
 ```
+
 
 
 

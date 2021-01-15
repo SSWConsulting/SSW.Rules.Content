@@ -27,6 +27,7 @@ string message = "The database is not valid." + Environment.NewLine + "Do you 
 
 
 
+
 ::: bad
 Bad Example: "Environment.NewLine" isn't at the end of the line 
 
@@ -43,6 +44,7 @@ message += "Do you want to upgrade it? ";
 
 
 
+
 ::: good
 Good Example:  "Environment.NewLine" is at the end of the line 
 
@@ -55,6 +57,7 @@ Good Example:  "Environment.NewLine" is at the end of the line
 ```
 return string.Join(Environment.NewLine, paragraphs);
 ```
+
 
 
 

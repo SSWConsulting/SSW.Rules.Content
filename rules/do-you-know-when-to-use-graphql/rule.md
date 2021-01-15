@@ -113,12 +113,14 @@ GraphQL is not a replacement for REST; in fact, it’s often best to use them to
 <p class="ssw15-rteElement-P"></p><p class="ssw15-rteElement-P">
 </p><p class="ssw15-rteElement-P"><a href="https://adamcogan.com/2020/02/10/introducing-ssw-people/">Adam Cogan's blog post</a> introducting SSW People explains how GraphQL can be combined with other technologies to get the best results.
 </p><dl class="ssw15-rteElement-ImageArea"><img src="adam-blog-screenshot.png" alt="adam-blog-screenshot.png" style="margin:5px;width:750px;height:274px;"></dl>
+
 ::: good
 Figure: Good Example - use GraphQL to complement the rest of your tech stack
   
 :::
 <dl class="ssw15-rteElement-ImageArea">
 </dl><dl class="ssw15-rteElement-ImageArea"><img src="people-graph-screenshot.png" alt="people-graph-screenshot.png" style="margin:5px;">
+
 ::: good
 Figure: Good Example - GraphQL query in the SSW People static web app
   

@@ -35,6 +35,7 @@ A class should have one, and only one reason to change.
 
 :::
 
+
 ::: good
 Figure: Your code should be using     [SOLID principles](https&#58;//en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
 

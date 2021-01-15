@@ -65,6 +65,7 @@ A common solution many business owners used to solve the issues of tracking is b
 ![](2020-05-29_17-40-48.png)
 
 
+
 ::: bad
 Figure: Bad Example - Too simple and no helpful information
 
@@ -74,6 +75,7 @@ Figure: Bad Example - Too simple and no helpful information
 
 
 ![](2020-05-29_17-50-10.png)
+
 
 
 

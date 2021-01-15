@@ -42,20 +42,24 @@ The key to writing a concise pull request is to base the pull request itself on 
 
 Example PBI title: Product Backlog Item 100359: "Desktop App | Exporting occasionally failed"
 
+
 ::: greybox
 Pull request title: "Fix exporting"
 
 :::
+
 
 ::: bad
 Bad example - Pull request title does not tell what issues have been fixed and how
 
 :::
 
+
 ::: greybox
 Pull request title: "Fix desktop app exporting - prevent database concurrent access while exporting"
 
 :::
+
 
 ::: good
 Good example - Pull request title briefly describe the fix that it has

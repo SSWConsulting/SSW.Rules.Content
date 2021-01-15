@@ -70,6 +70,7 @@ Add a readme.md to your solution (Use [this](https://docs.microsoft.com/en-us/az
 
 When a new developer starts on a project you want them to get up and running as soon as possible.
 
+
 ::: greybox
 If you were at Level 2 you might have a document that says:
 Dear Northwind Developer
@@ -105,6 +106,7 @@ Example of Level 6: PowerShell Documentation
 
 **Recommendation:** You should be able to get latest and compile within 1 minute. Also, a developer machine should not HAVE to be on the domain (to support external consultants)
 
+
 ::: greybox
 PS C:\Code\Northwind&gt; **.\Setup-Environment.ps1** 
 
@@ -118,10 +120,12 @@ To try and automatically resolve the problems found, re-run the script with a -F
 
 :::
 
+
 ::: good
 Figure: Good example - you see the problems in the devs environment
 
 :::
+
 
 ::: greybox
 
@@ -139,11 +143,13 @@ WARNING: Abandoning remainder of script due to critical failures.
 
 :::
 
+
 ::: good
 Figure: Good example - when running with -fix this script tries to automatically fix the problem 
       
 
 :::
+
 
 ::: greybox
 
@@ -158,6 +164,7 @@ WARNING: Abandoning remainder of script due to critical failures.
 
 
 :::
+
 
 ::: good
 Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run are not re-reported 
