@@ -19,10 +19,10 @@ Mock-ups are very powerful tools to communicate requirements with clients, howev
 
  Using Expression + SketchFlow, you can:
 
-* Quickly create sketch-style mock-ups with little efforts,
-* Share your mock-ups with the whole team and clients easily,
-* Collect feedbacks from clients,
-* Use them in development process directly (as they are real Sliverlight and WPF solution files)
+- Quickly create sketch-style mock-ups with little efforts,
+- Share your mock-ups with the whole team and clients easily,
+- Collect feedbacks from clients,
+- Use them in development process directly (as they are real Sliverlight and WPF solution files)
 
 
 <!--endintro-->
