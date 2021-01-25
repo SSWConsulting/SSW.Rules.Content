@@ -27,6 +27,6 @@ Common objectives are to&#58;<ul>
    <dl class="goodImage">
       <dt>
          <img src="/PublishingImages/Call-to-Action-Screenshot.jpg" alt="" />
-      </dt><dd>Figure&#58; Good Example – very clear call to action that asks for&#160;an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a twitter option to engage&#160;and uses live-action​<br></dd></dl>
+      </dt><dd>Figure&#58; Good Example [<a href="http&#58;//www.youtube.com/watch?v=11ibqpnitfk">Watch on YouTube​</a>] -&#160;very clear call to action that asks for&#160;an email address. Only asks for one thing at a time and uses zooming effects. In addition, gives a twitter option to engage&#160;and uses live-action​<br></dd></dl>
 
 
