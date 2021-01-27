@@ -29,7 +29,7 @@ redirects:
 ---
 
 
-<p class="ssw15-rteElement-P">​Sometimes it can be hard to keep generating content daily for your social media, and even more when there’s not much going on.​​<br></p>
+<p class="ssw15-rteElement-P">​Sometimes it can be hard to keep <strong>generating content daily for your social media, and even more when there’s not much going on.</strong>​​ However, here are a few types of content you could use for your next social media posts!​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>​So, here are a few examples&#160;taken from our social media&#160;of what you could post on yours&#58;</p><h3>​Internal projects, services&#160;or products that your business&#160;developed or offers​</h3><dl class="image"><dt> 
       <img src="/SiteAssets/type-of-content-marketing-you-should-post/teamwork.jpg" alt="teamwork.jpg" /> 
