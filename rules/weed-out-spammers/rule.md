@@ -30,9 +30,9 @@ redirects:
 ---
 
 
-​​​Maintaining a public profile on sites such as Facebook and LinkedIn is a free and easy way to connect with users and keep them updated&#160;your products, services or events. The downside to this is that not all who want to connect with you and your groups are real people – some are spammers or bots who will clog up your group, forum or event listing with unwanted advertisements or even links to sites that contain malicious code.<div><br></div><div>​Before approving a membership request, consider&#58;</div>
+<strong>​​​​Maintaining a public profile on sites such as Facebook and LinkedIn is a free and easy way to connect with users and keep them updated&#160;your products, services or events.</strong> The downside to this is that not all who want to connect with you and your groups are real people – some are spammers or bots who will clog up your group, forum or event listing with unwanted advertisements or even links to sites that contain malicious code.<div><br><br><br></div>
 <br><excerpt class='endintro'></excerpt><br>
-<div><ul><li>
+<div><div>​Before approving a membership request, consider&#58;<br></div><ul><li>
          <span style="line-height&#58;1.5em;">How old is the account?</span><br></li><li>
          <span style="line-height&#58;1.5em;">Is the account profile properly filled out?&#160;</span><br></li><li>
          <span style="line-height&#58;1.5em;">Do the name and picture match the listed gender?&#160;</span><br></li><li>
