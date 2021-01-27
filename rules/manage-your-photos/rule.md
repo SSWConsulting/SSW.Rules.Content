@@ -17,6 +17,6 @@ redirects:
 
 <p class="ssw15-rteElement-P">Using Google Photos -&#160;The awesome way to find any image.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Please watch the video to know more&#58;​<br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="560" height="315" src="https&#58;//www.youtube.com/embed/p8_siTdeeCg" frameborder="0"></iframe>&#160;</div><p><br><br></p>
+<p>Please watch the video to know more&#58;​<br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/p8_siTdeeCg" frameborder="0"></iframe>&#160;</div><p>​</p><h3 class="ssw15-rteElement-H3">Related Suggestion to Google<br></h3><p><ul><li><a href="https&#58;//bettersoftwaresuggestions.com/google/google-photos/let-me-know-my-account-doesnt-have-access-instead-of-a-404/">Let me know my account doesn’t have access instead of a 404</a>​<br></li></ul></p>
 
 
