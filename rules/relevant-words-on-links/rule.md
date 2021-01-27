@@ -22,7 +22,7 @@ redirects:
 
 
 <p>​We know that the way your inbound links are worded does make a difference, they play an important factor when Google searches are made by search engine users. Google uses the words between your {ltHTMLChar}a href{gtHTMLChar} tags to decide which websites are the most relevant to the search terms. 
-   <br></p><p>Having these relevant words on links also gives&#160;a&#160;more friendly experience to the users.&#160;<br></p>
+   <br></p><p><strong>Having these relevant words on links also gives&#160;a&#160;more friendly experience to the users.&#160;</strong><br></p>
 <br><excerpt class='endintro'></excerpt><br>
 For example, if SSW had a million inbound links that described the site like this... 
 <p class="ssw15-rteElement-CodeArea">{ltHTMLChar}a href=&quot;http&#58;//www.ssw.com.au&quot;{gtHTMLChar}Movies for Free{ltHTMLChar}/a{gtHTMLChar}</p>...when someone searches for &quot;free movies&quot; on Google, it would point to us. 
