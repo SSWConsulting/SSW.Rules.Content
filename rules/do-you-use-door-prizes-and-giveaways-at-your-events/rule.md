@@ -16,10 +16,10 @@ redirects: []
 ---
 
 
-<p>A golden rule of marketing is&#58;</p><p class="ssw15-rteElement-GreyBox">
+<p>A <strong>golden rule of marketing is&#58;</strong><br></p><p class="ssw15-rteElement-GreyBox">
    <em>&quot;People love gifts and surprises&quot;</em></p>
-<p>Taking this into consideration&#58; a great and effective way to promote your company is to give people free stuff. A very simple yet effective method. Each month at the Sydney .NET User Group, attendees receive SSW show bags filled with free software and company brochures.&#160;</p>
+<p>Taking this into consideration&#58; a great and effective way to promote your company<strong> is to give people free stuff. </strong>A very simple yet effective method. Each month at the Sydney .NET User Group, attendees receive SSW show bags filled with free software and company brochures.&#160;<br></p><p>Some great examples of prizes to give out&#58; Notebooks, Pens, Discounted tickets to future events and more.&#160;<br><br></p><p><br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p><span style="line-height&#58;20.7999992370605px;">User group attendees are also encouraged to hand in their eval forms with a lucky dip prize. People love anything that is free so always bring more than enough. Just remember that when you're giving things away make sure you have something genuine to offer them aside from your sales/company brochures.​</span>​</p>
+<p><span style="line-height&#58;20.8px;">User group attendees are also encouraged to hand in their eval forms with a lucky dip prize. People love anything that is free so always bring more than enough. Just remember that when you're giving things away make sure you have something genuine to offer them aside from your sales/company brochures.​</span>​</p>
 
 
