@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p class="ssw15-rteElement-P">Audiences, in general, will allow you to try pulling up your ads to different groups of people based on tons of different criteria.​<br></p>
+<p class="ssw15-rteElement-P">Audiences, in general, will allow you to try pulling up your ads to different groups of people based on tons of different criteria!<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li> 
       <b>Affinity Audience</b> – Show your ads to unique audiences based on their lifestyles, buying habits, and long-term interests that you can pick.​</li><li> 
