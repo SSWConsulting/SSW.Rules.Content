@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-<p>​​Using the Yearlink-T55A-Microsoft teams phone when&#160;transferring a call, creating a conference call, or making an internal call,&#160;is very easy.&#160;​​<br><br><br></p>
+<p>​​​Using the Yearlink-T55A-Microsoft teams phone when&#160;transferring a call, creating a conference call, or making an internal call,&#160;is very easy.&#160;​​<br><br><br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive" unselectable="on"><iframe width="879" height="495" src="https&#58;//www.youtube.com/embed/t0i0r7FxZIU" frameborder="0"></iframe>&#160;</div><p>​<br></p><p><br><br></p>
 
