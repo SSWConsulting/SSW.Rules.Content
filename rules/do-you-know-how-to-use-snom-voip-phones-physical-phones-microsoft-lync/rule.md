@@ -13,7 +13,7 @@ redirects:
 ---
 
 
-<p>​​</p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/NZTY5f1mMWk?rel=0" frameborder="0"></iframe>&#160;</div><p>Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy. ​
+<p>​​​Using Microsoft Teams? We recommend you check&#160;​out the latest phone here&#58;&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3452ec36-db1f-4ade-a64f-29d33435c271">Do you know how to use the Yealink T55A Microsoft Teams phone?​</a><br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/NZTY5f1mMWk?rel=0" frameborder="0"></iframe>&#160;</div><p>Using SNOM phones, transferring a call, creating a conference call, or making an internal call,&#160;is very easy. ​
 ​</p>
 <br><excerpt class='endintro'></excerpt><br>
 <b>Transferring a call</b> 
