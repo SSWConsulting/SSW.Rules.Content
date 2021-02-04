@@ -35,3 +35,19 @@ Facebook embed
 
 `oembed: https://www.facebook.com/plugins/post.php`
 
+
+
+```cs
+protected override void OnPreLoad(EventArgs e)
+{
+     //Fix for pages that allow edit in grids
+     this.Controls.ForEach(c=>
+     {   
+          if (c is System.Web.UI.Timer)
+          {
+              c.Enabled = false;
+          }
+     });
+     base.OnPreLoad(e);
+}
+```
