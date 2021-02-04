@@ -24,19 +24,6 @@ e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936
 ![If you have booked the guys in, you will have an appointment like this in your Outlook.](Scheduled_Appointment.jpg)
 
 
-Twitter embed
-
-
-`oembed: https://twitter.com/raae/status/1045394833001652225`
-
-
-Facebook embed
-
-
-`oembed: https://www.facebook.com/plugins/post.php`
-
-
-
 ```cs
 protected override void OnPreLoad(EventArgs e)
 {
