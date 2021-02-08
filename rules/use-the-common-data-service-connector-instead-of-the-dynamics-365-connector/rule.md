@@ -15,9 +15,9 @@ redirects:
 ---
 
 
-When creating a Flow that connects to CRM, Flow gives you the choice of&#58;<br><ul><li>Dynamics 365&#160;</li><li>Common Data Service</li></ul>
+<p>When creating a Flow that connects to CRM, Flow gives you the choice of&#58;<br></p><ul><li>Dynamics 365&#160;</li><li>Common Data Service</li><li>Common Data Service (Current Environment)​<br></li></ul>​<br>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​While it may seem like the obvious choice to pick Dynamics 365, but this would be a bad choice. The Dynamics 365 is deprecated as of April 2019. Use the Common Data Service connector, it supports more datatypes and broader trigger scenarios.</p><dl class="badImage"><dt><img src="/PublishingImages/bad-connector-use.png" alt="bad-connector-use.png" /></dt><dd>Bad Example&#58; Using the deprecated Dynamics 365 connector</dd></dl>
+<p class="ssw15-rteElement-P">​While it may seem like the obvious choice to pick Dynamics 365, but this would be a bad choice. The Dynamics 365 is deprecated as of April 2019. Use the Common Data Service (Current Environment) connector, it supports more data types and broader trigger scenarios.​<br></p><p class="ssw15-rteElement-P">Common Data Services (Current Environment) is only available if the Flow being developed is inside a solution. The advantage of using &quot;Current Environment&quot; is when the Flow is deployed across environments (Dev, Test, Prod) the connection is sticky to the environment to which it is being deployed. If a Flow is being developed outside of a solution, then use Common Data Services.<br><br></p><dl class="badImage"><dt><img src="/PublishingImages/bad-connector-use.png" alt="bad-connector-use.png" /></dt><dd>Bad Example&#58; Using the deprecated Dynamics 365 connector</dd></dl>
 
 <dl class="goodImage">
 <dt><img src="/PublishingImages/good-connector-use.png" alt="good-connector-use.png" /></dt><dd>Good Example&#58; Using the Common Data Service connector</dd></dl>
