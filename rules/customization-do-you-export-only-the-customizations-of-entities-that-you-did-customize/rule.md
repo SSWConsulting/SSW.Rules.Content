@@ -16,10 +16,10 @@ redirects:
 ---
 
 
-<p>
+<p>​
           Export each single entity customization and keep each entity customization in a
           separate file, like&#58;
-        </p>
+        <br></p>
         <ul>
           <li>Account_11022009.xml </li>
           <li>Contact_11022009.xml </li>
