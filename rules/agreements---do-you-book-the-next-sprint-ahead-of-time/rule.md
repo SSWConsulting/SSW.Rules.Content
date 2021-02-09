@@ -21,20 +21,10 @@ This is done during the [planning meeting](/Management/RulesToBetterScrumUsingTF
 e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
 :::
 
+
+::: hidden  
+a854bdb8-1a3e-415e-b346-0a35466b6a93-7947936  
+:::
+
+
 ![If you have booked the guys in, you will have an appointment like this in your Outlook.](Scheduled_Appointment.jpg)
-
-
-```cs
-protected override void OnPreLoad(EventArgs e)
-{
-     //Fix for pages that allow edit in grids
-     this.Controls.ForEach(c=>
-     {   
-          if (c is System.Web.UI.Timer)
-          {
-              c.Enabled = false;
-          }
-     });
-     base.OnPreLoad(e);
-}
-```
