@@ -47,9 +47,11 @@ Figure: Bad Example - there's too much information here
 
 ::: greybox
      &gt; 1. Please change from X to Y
+     
 Done, I made the changes - &lt;add a link to the page or a screenshot&gt;
 
      &gt; 2. The program flow logic worries me a bit 
+
 Sorry, this wasn't a final decision - I just put it there for testing purposes 
 :::
 
