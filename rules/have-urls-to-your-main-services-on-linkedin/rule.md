@@ -17,8 +17,8 @@ redirects:
 ---
 
 
-<p>​​LinkedIn&#160;is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.<br></p>
+<p>​​​LinkedIn&#160;is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> <img src="/PublishingImages/linkedin-links.jpg" alt="linkedin-links.jpg" /> </dt><dd>Figure&#58; Use the &quot;Link&quot; button in your profile &quot;edit mode&quot; to include the URLs for the main services your provide</dd></dl><dl class="badImage"><dt>​<img src="/PublishingImages/linkedin-url-bad.jpg" alt="linkedin-url-bad.jpg" /></dt><dd>Figure&#58; Bad example - Profile with no links</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/linkedin-url-good.jpg" alt="linkedin-url-good.jpg" /></dt><dd>Figure&#58; Good example - Profile with links to main services provided <br></dd></dl>
+<dl class="image">​<img src="/SiteAssets/have-urls-to-your-main-services-on-linkedin/edit_featured_final.png" alt="edit_featured_final.png" style="margin&#58;5px;width&#58;721px;height&#58;378px;" />​<br><dd>Figure&#58;&#160;In the Featured ​​section, use the &quot;+&quot; and then &quot;Links&quot; buttons&#160;to include the URLs for the main services your provide.<br></dd><dd><br></dd><img src="/SiteAssets/have-urls-to-your-main-services-on-linkedin/linkedin_services_bad_example.png" alt="linkedin_services_bad_example.png" style="margin&#58;5px;font-weight&#58;700;" /><span style="font-weight&#58;bold;">​</span><span style="font-weight&#58;bold;">​​</span></dl><dl class="badImage"><dd>Figure&#58; Bad example - Profile with no links</dd></dl><dl class="goodImage"><dt><img src="/SiteAssets/have-urls-to-your-main-services-on-linkedin/linkedin_services_good_example.png" alt="linkedin_services_good_example.png" style="margin&#58;5px;" /><br><br></dt><dd>Figure&#58; Good example - Profile with links to main services provided <br><br><br></dd></dl>
 
 
