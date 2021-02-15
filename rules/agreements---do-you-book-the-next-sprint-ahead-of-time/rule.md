@@ -17,7 +17,11 @@ Unless we're currently working on the last sprint of the development, you should
 
 This is done during the [planning meeting](/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx)and will ensure the availability of the developers who are up to speed on your project and stop them from being booked onto something else.
 
+
+
 https://twitter.com/MichaelDeBoey93/status/1152991421789548546
+
+
 
 ::: hidden  
 e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
