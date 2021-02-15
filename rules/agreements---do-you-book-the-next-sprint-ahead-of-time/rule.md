@@ -25,6 +25,8 @@ e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936
 e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
 :::
 
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+
 ::: hidden  
 e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
 :::
