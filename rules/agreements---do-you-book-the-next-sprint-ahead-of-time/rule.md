@@ -26,7 +26,7 @@ https://twitter.com/gatsbyjs/status/1055939617646465024
 
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">All the great minds behind the Gatsby presentations at <a href="https://twitter.com/BADCamp?ref_src=twsrc%5Etfw">@BADCamp</a> <a href="https://t.co/waarKr3uZj">https://t.co/waarKr3uZj</a> <a href="https://t.co/iwvGWRayPb">pic.twitter.com/iwvGWRayPb</a></p>&mdash; Gatsby (@GatsbyJS) <a href="https://twitter.com/GatsbyJS/status/1055939617646465024?ref_src=twsrc%5Etfw">October 26, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">All the great minds behind the Gatsby presentations at <a href="https://twitter.com/BADCamp?ref_src=twsrc%5Etfw">@BADCamp</a> <a href="https://t.co/waarKr3uZj">https://t.co/waarKr3uZj</a> <a href="https://t.co/iwvGWRayPb">pic.twitter.com/iwvGWRayPb</a></p>&mdash; Gatsby (@GatsbyJS) <a href="https://twitter.com/GatsbyJS/status/1055939617646465024?ref_src=twsrc%5Etfw">October 26, 2018</a></blockquote>
 
 
 
