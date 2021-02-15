@@ -20,11 +20,11 @@ Testing is a vital part of any development and can be quite time consuming, depe
 Twitter embed
 
 
-`oembed: https://twitter.com/raae/status/1045394833001652225`
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
 
 
 Facebook embed
 
 
-`oembed: https://www.facebook.com/plugins/post.php`
+`oembed: https://www.facebook.com/SSW.page/photos/a.334643903218918/3488762864473657/`
 
