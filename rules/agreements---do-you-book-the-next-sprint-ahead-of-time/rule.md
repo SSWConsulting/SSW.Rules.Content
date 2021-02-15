@@ -19,7 +19,7 @@ This is done during the [planning meeting](/Management/RulesToBetterScrumUsingTF
 
 
 
-https://twitter.com/MichaelDeBoey93/status/1152991421789548546
+https://twitter.com/gatsbyjs/status/1055939617646465024
 
 
 
