@@ -21,15 +21,6 @@ This is done during the [planning meeting](/Management/RulesToBetterScrumUsingTF
 `oembed: https://twitter.com/raae/status/1045394833001652225`
 
 
-
-https://twitter.com/gatsbyjs/status/1055939617646465024
-
-
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">All the great minds behind the Gatsby presentations at <a href="https://twitter.com/BADCamp?ref_src=twsrc%5Etfw">@BADCamp</a> <a href="https://t.co/waarKr3uZj">https://t.co/waarKr3uZj</a> <a href="https://t.co/iwvGWRayPb">pic.twitter.com/iwvGWRayPb</a></p>&mdash; Gatsby (@GatsbyJS) <a href="https://twitter.com/GatsbyJS/status/1055939617646465024?ref_src=twsrc%5Etfw">October 26, 2018</a></blockquote>
-
-
-
 ::: hidden  
 e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
 :::
