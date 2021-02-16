@@ -15,8 +15,10 @@ redirects:
 ---
 
 
-Enter Intro Text
+​Windows has a built-in storage solution called <b>Storage Spaces</b> that allows you to group 3 or more storage drives to create a bigger pool; however, that technology, whilst useful, has some better third-party contenders like <b>Drive Bender</b>, which does the same thing better and faster.<br>
 <br><excerpt class='endintro'></excerpt><br>
-
+<p>With <b>Drive Bender</b>, you also have software RAID, disk grouping, and file duplication that you find in Storage Spaces, but with a better interface and faster transfer rates.<br></p><h3>Drive Bender Pros<br></h3><ol><li>Nice UI with lots of functionality<br></li><li>Regular updates</li><li>Heaps of configuration options</li><li>Friendly (and fast!) customer support (Bonus&#58; They are located in Sydney, Australia, just like SSW! &#128515;)</li><li>Easy add and remove of drives to the pool</li><li>Check your disk health automatically</li><li>Get notifications on pool status<br></li></ol><h3>Drive Bender Cons​<br></h3><ol><li>Storage Spaces is &quot;free&quot; (built-in in Windows Server), Drive Bender is $54.95 for 3 machines (still cheap, forever)<br></li></ol><div>
+   <font color="#333333"><br></font></div><p>Have a look at 
+   <a href="https&#58;//www.division-m.com/drivebender/">https&#58;//www.division-m.com/drivebender/</a> for more info on Drive Bender!<br><br></p><dl class="badImage"><dt><img src="/PublishingImages/storage-spaces.jpg" alt="storage-spaces.jpg" style="width&#58;750px;" /></dt><dd>Figure&#58; Bad Example – Bad UI for Storage Spaces</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/drive-bender.png" alt="drive-bender.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Good Example – Nice UI for Drive Bender</dd></dl>
 
 
