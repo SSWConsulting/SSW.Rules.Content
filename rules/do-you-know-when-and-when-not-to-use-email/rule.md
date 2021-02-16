@@ -16,7 +16,7 @@ redirects: []
 ---
 
 
-As all these rules indicate, email can either be a blessing or a curse. One of the most deadly of all the potential curses of email is when people choose to use email when it is just not the right tool for that particular task. Absolutely avoid email in the following situations&#58; <br>
+<p class="ssw15-rteElement-P">​As all these rules indicate, email can either be a blessing or a curse. One of the most deadly of all the potential curses of email is when people choose to use email when it is just not the right tool for that particular task. Absolutely avoid email in the following situations&#58;​​ <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>When you want to discuss an issue and 
       <b>make a decision</b> </li><li>When you are 
