@@ -21,12 +21,16 @@ This is done during the [planning meeting](/Management/RulesToBetterScrumUsingTF
 ![.](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
 :::
 
+::: img-small  
+![](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
+:::
+
 ::: img-medium  
-![.](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
+![](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
 :::
 
 ::: img-large  
-![.](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
+![](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
 :::
 
 ::: hidden  
