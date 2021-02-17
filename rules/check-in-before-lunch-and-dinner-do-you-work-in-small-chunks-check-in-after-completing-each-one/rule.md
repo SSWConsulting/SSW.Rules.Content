@@ -22,7 +22,7 @@ redirects:
 ---
 
 
-Frequently developers work on long or difficult features/bugs and leave code checked out for days or worse still, weeks. <br>
+<p class="ssw15-rteElement-P">​Frequently developers work on long or difficult features/bugs and leave code checked out for days or worse still, weeks.​ </p>
 <ol>
     <li>What happens if your laptop hard drive dies? </li>
     <li>What happens if you call in sick? </li>
@@ -30,16 +30,10 @@ Frequently developers work on long or difficult features/bugs and leave code che
 </ol>
 
 <br><excerpt class='endintro'></excerpt><br>
-
-  <img class="ms-rteCustom-ImageArea" src="/PublishingImages/Check-InRegularly.jpg" alt="" />&#160;<font class="ms-rteCustom-FigureNormal" size="+0">Figure&#58; Eating one big meal every three days gives you a bellyache... (aka check in small portions regularly, one large check-in after a few days will give you a headache)</font>
-<p>That's why source code should be checked in regularly. We recommend a check-in&#58; </p>
-<ul>
-    <li>Immediately after completing a piece of functionality, where the <a shape="rect" href="/Pages/CompilePassed.aspx">code compiles and passes the unit tests </a>Before lunch or dinner </li>
-    <li>Before leaving your workstation for an extended period of time </li>
-</ul>
-If the changes would break the build or are in a state that cannot be put into the main trunk, then this code should be put into a <a shape="rect" href="http&#58;//msdn.microsoft.com/en-us/library/ms181403.aspx">shelveset</a> (sometimes referred to as 'sandbox') in source control. <br>
-Another good reason to check-in regularly is that it makes it easier to merge your changes with other developers. If all developers check-in lots of changes in one go, you will spend a lot of your time resolving conflicts instead of doing work. <br>
-TIP&#58; How can you enforce regular check-ins? Monitor them using a <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#CheckinReport">report to see who has not checked in</a>. 
-
+<dl class="image"><dt><img class="ms-rteCustom-ImageArea" src="/PublishingImages/Check-InRegularly.jpg" alt="" /></dt><dd>Figure&#58; Eating one big meal every three days gives you a bellyache... (aka check in small portions regularly, one large check-in after a few days will give you a headache)</dd></dl><p>That's why source code should be checked in regularly. We recommend a check-in&#58;</p><ul><li>Immediately after completing a piece of functionality, where the 
+      <a shape="rect" href="/Pages/CompilePassed.aspx">code compiles and passes the unit tests </a>Before lunch or dinner </li><li>Before leaving your workstation for an extended period of time </li></ul> If the changes would break the build or are in a state that cannot be put into the main trunk, then this code should be put into a 
+<a shape="rect" href="http&#58;//msdn.microsoft.com/en-us/library/ms181403.aspx">shelveset</a> (sometimes referred to as 'sandbox') in source control.
+<p>Another good reason to check-in regularly is that it makes it easier to merge your changes with other developers. If all developers check-in lots of changes in one go, you will spend a lot of your time resolving conflicts instead of doing work.</p><p>Tip&#58; How can you enforce regular check-ins? Monitor them using a 
+   <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d754182b-a385-4d9e-9c99-c0f83204e6a4">report to see who has not checked in</a>.</p>
 
 
