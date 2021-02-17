@@ -25,6 +25,3 @@ Twitter embed
 
 Facebook embed
 
-
-`oembed: https://www.facebook.com/SSW.page/photos/a.334643903218918/3488762864473657/`
-
