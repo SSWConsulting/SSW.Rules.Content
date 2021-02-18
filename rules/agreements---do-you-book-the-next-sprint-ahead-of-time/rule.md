@@ -54,7 +54,6 @@ a854bdb8-1a3e-415e-b346-0a35466b6a93-7947936
 
 ![If you have booked the guys in, you will have an appointment like this in your Outlook.](Scheduled_Appointment.jpg)
 
-::: good  
 ::: email-template  
 |         |     |
 | ------- | --- |
@@ -68,5 +67,6 @@ a854bdb8-1a3e-415e-b346-0a35466b6a93-7947936
 [Email content]    
 :::  
 :::  
-Good Example - Nice email template  
+::: good  
+Figure: Good Example - Nice email template  
 :::
