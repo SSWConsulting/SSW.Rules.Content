@@ -60,6 +60,10 @@ a854bdb8-1a3e-415e-b346-0a35466b6a93-7947936
 | ------- | --- |
 | To:     | XXX |
 | Cc:     | YYY |
-| Subject | This is the subject |
-| 		    | ### Hi XXX, <br>[Email content] |  
+| Bcc:    | ZZZ |
+| Subject | This is the subject |  
+::: email-content  
+### Hi XXX,  
+[Email content]    
+:::  
 :::
