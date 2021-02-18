@@ -118,6 +118,38 @@ if(iceCream === 'chocolate') {
 ```
 **Figure: Javascript code block**
 
+### Twitter Card Embed  
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+
+### Email Template  
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | XXX |
+| Cc:      | YYY |
+| Bcc:     | ZZZ |
+| Subject: | This is the subject |  
+::: email-content  
+
+### Hi XXX,  
+[Email content]    
+
+:::  
+:::  
+::: good  
+Figure: Good Example - Nice email template  
+:::
+
+
+### Organisation Only Content  
+::: hidden  
+e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
+:::  
+
+::: hidden  
+bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
+:::  
+
 ### Videos
 Check out this video - it's responsive!  
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
@@ -192,36 +224,4 @@ Some text to show that the reference links can follow later.
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
 
-
-### Twitter Card Embed  
-`oembed: https://twitter.com/MrHinsh/status/24123713864`
-
-### Email Template  
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | XXX |
-| Cc:      | YYY |
-| Bcc:     | ZZZ |
-| Subject: | This is the subject |  
-::: email-content  
-
-### Hi XXX,  
-[Email content]    
-
-:::  
-:::  
-::: good  
-Figure: Good Example - Nice email template  
-:::
-
-
-### Organisation Only Content  
-::: hidden  
-e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
-:::  
-
-::: hidden  
-bfb265e3-644e-4cbe-b17c-4d378b014809-7947936  
-:::  
 
