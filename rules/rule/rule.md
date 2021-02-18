@@ -193,7 +193,7 @@ Some text to show that the reference links can follow later.
 [link text itself]: http://www.reddit.com
 
 
-### Twitter Card Embedd  
+### Twitter Card Embed  
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
 
 ### Email Template  
