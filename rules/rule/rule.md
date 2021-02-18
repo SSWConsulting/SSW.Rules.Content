@@ -122,7 +122,7 @@ if(iceCream === 'chocolate') {
 Check out this video - it's responsive!  
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 
-### <a name="markdown-images"></a>Images
+### Images
 ::: bad  
 ![Figure: Bad figure](https://images.unsplash.com/photo-1542014740373-51ad6425eb7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
