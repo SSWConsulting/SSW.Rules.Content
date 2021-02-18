@@ -53,3 +53,13 @@ a854bdb8-1a3e-415e-b346-0a35466b6a93-7947936
 
 
 ![If you have booked the guys in, you will have an appointment like this in your Outlook.](Scheduled_Appointment.jpg)
+
+
+::: email-template  
+|         |     |
+| ------- | --- |
+| To:     | XXX |
+| Cc:     | YYY |
+| Subject | This is the subject |
+| 		    | ### Hi XXX, <br>[Email content] |  
+:::
