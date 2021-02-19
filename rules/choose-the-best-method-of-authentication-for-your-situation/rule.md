@@ -19,7 +19,7 @@ redirects:
 ---
 
 
-<p>​​​Authentication and authorization are complicated, and it is risky&#160;to try and implement them&#160;yourself.&#160; Use this rule as&#160;a guide on choosing the right service or framework for your situation.​​<br></p><dl class="image"><dt>​<img src="/PublishingImages/security-icon-ssw.jpg" alt="security-icon-ssw.jpg" style="width&#58;80px;height&#58;80px;" />​​<br></dt></dl>
+<p>​​​Authentication and authorization are complicated, and it is risky&#160;to try and implement them&#160;yourself.&#160;​Use this rule as&#160;a guide on choosing the right service or framework for your situation.​​​<br></p><dl class="image"><dt>​<img src="/PublishingImages/security-icon-ssw.jpg" alt="security-icon-ssw.jpg" style="width&#58;80px;height&#58;80px;" />​​<br></dt></dl>
 <br><excerpt class='endintro'></excerpt><br>
 <p class="ssw15-rteElement-P">​​Choosing the right 
    <a href="https&#58;//www.youtube.com/watch?v=i0d9iTmWIOw">authentication and authorization</a> approach for your situation can be tricky. It is a multi-faceted problem with many variables, and what seems like the right choice in one situation may not be in the other.<br></p><h3 class="ssw15-rteElement-H3">Start with the Questions​​<br></h3><p class="ssw15-rteElement-P"></p><ol><li>Scope -&#160;Is it an enterprise application for internal users&#160;or a consumer application for external use?<br></li><li>Social - Do you need to support 
