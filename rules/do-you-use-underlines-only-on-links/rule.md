@@ -19,12 +19,10 @@ redirects:
 ---
 
 
-<p>Users expect&#160;underlined text to be a hyperlink. Never underline text that isn't a link. <br></p>
+<p>Users expect&#160;underlined texts to be a hyperlink. You should visually differentiate links by underlining them. Of course, this&#160;is <b>not</b> necessary on menus, obvious links,​&#160;or buttons.&#160;Never underline a text that isn't a link - Use bold or italics if you need&#160;emphasis.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> 
-      <img alt="Websites - Underline no hyperlink" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/Websites_UnderlineNoHyperlink.gif" data-pin-nopin="true" style="margin&#58;5px;width&#58;377px;" />
-   </dt><dd>Figure&#58; Never underline the text when it isn't a link (even 
-      <a target="_blank" href="http&#58;//www.ssw.com.au/ssw/Redirect/Microsoft/ScottGu.htm">Scott Guthrie agrees</a>!)</dd></dl><p class="ssw15-rteElement-YellowBorderBox"> We have a program called 
-<a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#BreadCrumbs">SSW Code Auditor</a> to check for this rule. ​​​<br></p><br><br>
+<dl class="badImage"><dt>
+      <img alt="Websites - Underline no hyperlink" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/Websites_UnderlineNoHyperlink.gif" data-pin-nopin="true" style="width&#58;377px;" /> 
+   </dt><dd>Figure&#58; Never underline the text when it isn't a link (even <a target="_blank" href="https&#58;//weblogs.asp.net/scottgu/28748">Scott Guthrie agrees</a>!)</dd></dl>
 
 
