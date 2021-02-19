@@ -15,7 +15,7 @@ redirects: []
 
 
 <p>
-   <span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">​It's important that you review Microsoft KB Article&#160;</span><a href="http&#58;//support.microsoft.com/kb/949256" style="padding-right&#58;0px;padding-bottom&#58;0px;padding-left&#58;0px;font-family&#58;verdana, sans-serif;font-size&#58;12px;color&#58;purple;line-height&#58;16.7969px;">949256</a><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">&#160;​</span><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">&#160;for CRM 4.0 hotfix information, download the hotfixes and apply them to your server.</span>​</p>
+   <span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">​It's important that you review </span><a href="https&#58;//support.microsoft.com/en-us/topic/microsoft-dynamics-crm-4-0-updates-and-hotfixes-4a09e305-7d54-7a7b-005b-cb73a3ce0bd8"><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">Microsoft's KB Article</span><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">&#160;​</span><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">for CRM 4.0 hotfix information, download the hotfixes and apply them to your server.​</span>​</a></p>
 <br><excerpt class='endintro'></excerpt><br>
 
 
