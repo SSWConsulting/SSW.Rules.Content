@@ -14,7 +14,7 @@ redirects: []
 ---
 
 
-There is a place for Silverlight, but it can only be the 'richer' experience.&#160;In some cases, it is better not to use Silverlight for Data Entry Form and also content publisher should have the alternative to Silverlight for Andriod &amp; iOS users. 
+There is a place for Silverlight, but it can only be the 'richer' experience.&#160;In some cases, it is better not to use Silverlight for Data Entry Form and also content publisher should have the alternative to Silverlight for Androi​d &amp; iOS users. 
 <br>
 <br><excerpt class='endintro'></excerpt><br>
 <p class="ssw15-rteElement-P"> <b>Mobile Device​</b><br></p><dl class="image"><dt> 
