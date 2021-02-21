@@ -24,8 +24,8 @@ redirects:
 <p>It is assumed knowledge that you know all 5 SOLID principles. If you don't, read about them on Uncle Bob's site above, or watch the <a href="https&#58;//www.pluralsight.com/courses/principles-oo-design">SOLID Pluralsight videos by Steve Smith.</a></p>
 <h3 class="ssw15-rteElement-H3">What order?</h3>
 <ol>
-<li>Look for Single Responsibility&#160;Principle violations. These are the most common and are the source of many other issues. Reducing the size and complexity of your classes and methods will often resolve other problems.</li>
-<li>Liskov Substitution and Dependency Inversion are the next most common violations, so keep an eye out for them next.</li>
+<li>Look for Single Responsibility&#160;Principle violations. These are the most common and are the source of many other issues. Reducing the size and complexity of your classes and methods will often resolve other problems.<br></li>
+<li>Liskov Substitution and Dependency Inversion are the next most common violations, so keep an eye out for them next​<br></li>
 <li>When teams first begin implementing Dependency Injection, it is common for them to generate bloated interfaces that violate the Interface Segregation Principle.<br></li>
 </ol>
 <p>After you have identified and corrected the most obvious broad principle violations, you can start drilling into the code&#160;and looking for&#160;localized code breaches. <a href="http&#58;//www.jetbrains.com/resharper/">ReSharper</a> from JetBrains o​r&#160;<a href="http&#58;//www.telerik.com/products/justcode.aspx">JustCode</a> from Telerik&#160;are invaluable tools once you get to this level.</p>
