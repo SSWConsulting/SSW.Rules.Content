@@ -26,9 +26,9 @@ redirects: []
         </p>
         <dl class="image">
           <dt>
-            <img alt="Test your Javascript via the Preview menu in the Custom Forms Designer" src="/PublishingImages/CRM_TestForm.jpg" /></dt>
+            <img alt="Test your Javascript via the Preview menu in the Custom Forms Designer" src="CRM_TestForm.jpg" /></dt>
           <dd>
-            Figure&#58; Test your Javascript via the Preview menu in the Custom Forms Designer
+            Figure: Test your Javascript via the Preview menu in the Custom Forms Designer
           </dd>
         </dl>
 
