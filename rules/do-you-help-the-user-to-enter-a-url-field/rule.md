@@ -18,13 +18,13 @@ redirects: []
                     only after the error happens. URL fields should show how the users must enter it.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
-                        <img src="/PublishingImages/url-field-bad.jpg" alt="Error message 'Cannot save record'" /></dt><dd>
-                        Figure&#58; Bad example - U​sing a validation message to tell the user to enter a correct
+                        <img src="url-field-bad.jpg" alt="Error message 'Cannot save record'" /></dt><dd>
+                        Figure: Bad example - U​sing a validation message to tell the user to enter a correct
                         URL</dd></dl><p>
                     The better way is to have the user avoid the error with a good default.</p><dl class="badImage"><dt>
-                        <img src="/PublishingImages/url-field-bad2.jpg" alt="image showing blank textfield" /></dt><dd>
-                        Figure&#58; Bad example - The user has a good chance of entering the URL in the incorrect format​​​</dd></dl><dl class="goodImage"><dt>
-                        <img src="/PublishingImages/url-field-good.jpg" alt="image showing a textfield pre-populated with 'http&#58;//www.'" /></dt><dd>
-                        Figure&#58; Good example - User immediately knows the format expected</dd></dl>
+                        <img src="url-field-bad2.jpg" alt="image showing blank textfield" /></dt><dd>
+                        Figure: Bad example - The user has a good chance of entering the URL in the incorrect format​​​</dd></dl><dl class="goodImage"><dt>
+                        <img src="url-field-good.jpg" alt="image showing a textfield pre-populated with 'http://www.'" /></dt><dd>
+                        Figure: Good example - User immediately knows the format expected</dd></dl>
 
 
