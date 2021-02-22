@@ -16,13 +16,37 @@ redirects:
 
 ---
 
+Never allow a situation where a developer can check outcode and the code does not compile – or the unit tests are not all green. This is called “breaking the build” and the punishment in our office is 20 push-ups and fixing broken links for an hour!  
 
-Never allow a situation where a developer can check outcode and the code does not compile – or the unit tests are not all green. This is called “breaking the build” and the punishment in our office is 20 push-ups and fixing broken links for an hour! 
-<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="bad"><dt><ol><li>Check out</li><li>Compile</li><li>Develop</li><li>Compile</li><li>Check-In</li></ol></dt><dd>Figure: Bad example - wrong process</dd></dl><dl class="image"><dt> 
-      <img src="BeforeCoding.jpg" alt="" /> 
-   </dt><dd>Figure: Before you start cooking prepare all your ingredients. Before you start coding, "Get Latest" the right way</dd></dl><dl class="good"><dt><ol><li>Get latest </li><li>Compile </li><li>Run Unit Tests </li><li>If Tests pass then start developing </li><li>Check out </li><li>Develop </li><li>Compile </li><li>Run Unit Tests </li><li>Get Latest (Always do a Get Latest before checking in as code you didn't change could break your code) </li><li>Compile </li><li>Run Unit Tests </li><li>Check-In if all tests passed </li><li>Wait for gated check-in (GC) to complete </li><li>Reconcile your workspace if it was successful </li><li>Check that Continuous Integration (CI) build was successful(If GC was skipped) </li></ol></dt><dd>Figure: Good example - right​ process</dd></dl><p><strong><br></strong></p><p>
-   <strong>Note:</strong> You should have both a Gated-Check-in (GC) and a Continuous Integration (CI) build on every branch.</p>​​
+<!--endintro-->
 
+1. Check out
+2. Compile
+3. Develop
+4. Compile
+5. Check-In
 
+Figure: Bad example - wrong process
+![Figure: Before you start cooking prepare all your ingredients. Before you start coding, "Get Latest" the right way](BeforeCoding.jpg)  
+
+1. Get latest
+2. Compile
+3. Run Unit Tests
+4. If Tests pass then start developing
+5. Check out
+6. Develop
+7. Compile
+8. Run Unit Tests
+9. Get Latest (Always do a Get Latest before checking in as code you didn't change could break your code)
+10. Compile
+11. Run Unit Tests
+12. Check-In if all tests passed
+13. Wait for gated check-in (GC) to complete
+14. Reconcile your workspace if it was successful
+15. Check that Continuous Integration (CI) build was successful(If GC was skipped)
+
+Figure: Good example - right process
+**
+**
+
+**Note:** You should have both a Gated-Check-in (GC) and a Continuous Integration (CI) build on every branch.
