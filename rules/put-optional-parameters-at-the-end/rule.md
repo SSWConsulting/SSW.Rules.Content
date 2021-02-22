@@ -14,12 +14,49 @@ redirects:
 
 ---
 
-
-Optional parameters should be placed at the end of the method signature as optional ones tend to be less important. You should put the important parameters first.<br><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">public void SaveUserProfile(<br>[Optional] string username,<br>[Optional] string password,<br>string firstName,<br>string lastName, <br>[Optional] DateTime? birthDate) <br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end</dd><p>​<br></p><p class="ssw15-rteElement-CodeArea">public void SaveUserProfile(<br>string firstName,<br>string lastName, <br>[Optional] string username,<br>[Optional] string password,<br>[Optional] DateTime? birthDate) <br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - All the optional parameters are the end</dd><p>
-   <br>
-</p><p>
-   <b>Note&#58; </b>When using optional parameters, please be sure to use&#160;<a href=/when-to-use-named-parameters>named para meters</a> <br></p>
+Optional parameters should be placed at the end of the method signature as optional ones tend to be less important. You should put the important parameters first.
 
 
+<!--endintro-->
+
+
+
+```
+public void SaveUserProfile(
+[Optional] string username,
+[Optional] string password,
+string firstName,
+string lastName, 
+[Optional] DateTime? birthDate)
+```
+
+
+
+
+::: bad
+Figure: Bad Example - Username and Password are optional and first - they are less important than firstName and lastName and should be put at the end  
+:::
+
+
+
+
+
+```
+public void SaveUserProfile(
+string firstName,
+string lastName, 
+[Optional] string username,
+[Optional] string password,
+[Optional] DateTime? birthDate)
+```
+
+
+
+
+::: good
+Figure: Good Example - All the optional parameters are the end  
+:::
+
+
+
+**Note:** When using optional parameters, please be sure to use [named para meters](/when-to-use-named-parameters)
