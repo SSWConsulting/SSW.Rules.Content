@@ -15,10 +15,16 @@ redirects: []
 
 ---
 
+There are two ways of arranging labels and inputs on an html form, but each should be used in a specific scenario.
 
-<p>​​There are two ways of arranging labels and inputs on an html form, but each should be used in a specific scenario.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>When arranging labels and inputs on your html form, align labels next to the inputs on medium and large displays.</p><dl class="image"><dt> <img src="forms-desktop.jpg" alt="" /> </dt><dd>Figure: Labels besides their respective inputs on regular displays</dd></dl><p>When arranging labels and inputs on your html form, align labels above inputs on small and extra-small displays.</p><dl class="image"><dt> <img src="forms-mobile.jpg" alt="" /> </dt><dd>Figure: Labels above their respective input on smaller displays</dd></dl><p>Bootstrap makes this easy. Read <a href=/do-you-use-the-css-class-form-horizontal-to-arrange-your-fields-and-labels>Do you use the css class "form horizontal" to arrange your fields and labels?</a> to know more.</p>
-​​
+<!--endintro-->
 
+When arranging labels and inputs on your html form, align labels next to the inputs on medium and large displays.
 
+![Figure: Labels besides their respective inputs on regular displays](forms-desktop.jpg)  
+
+When arranging labels and inputs on your html form, align labels above inputs on small and extra-small displays.
+
+![Figure: Labels above their respective input on smaller displays](forms-mobile.jpg)  
+
+Bootstrap makes this easy. Read [Do you use the css class "form horizontal" to arrange your fields and labels?](/do-you-use-the-css-class-form-horizontal-to-arrange-your-fields-and-labels) to know more.
