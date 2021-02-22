@@ -53,7 +53,7 @@ redirects: []
         <li>Always ask if they know of some other projects we could help them with, or if they know of anybody that may need some software development gurus. </li>
         <li>Send a follow up email
         <ul>
-            <li>Send an &quot;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=0dddad89-e1a1-4ef4-991a-8b600462c2cd"> as per our conversation</a>&quot;. Include some of your notes, a thank you for the time, and CC the Account Manager. If they were interested in a consultation, then ask the Account M​anager to follow up<br></li>
+            <li>Send an &quot;<a href=/do-you-send-as-per-our-conversation-emails> as per our conversation</a>&quot;. Include some of your notes, a thank you for the time, and CC the Account Manager. If they were interested in a consultation, then ask the Account M​anager to follow up<br></li>
         </ul>
         </li>
     </ul>
