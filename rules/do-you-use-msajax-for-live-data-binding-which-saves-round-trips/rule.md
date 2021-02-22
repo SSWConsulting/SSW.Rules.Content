@@ -26,8 +26,8 @@ In ASP.NET AJAX version 4.0, there is a new feature called &quot;Live Data Bindi
     This is the default binding mode. Two-way binding on an input control, and one-way binding on a context-type elements such as spans.
     <dl class="goodCode">
         <dt>
-        <pre>{ltHTMLChar}b{gtHTMLChar}Name&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=auto&#125;&quot; /{gtHTMLChar}
-{ltHTMLChar}b{gtHTMLChar}Echo&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}span id=&quot;nameDisplay&quot;{gtHTMLChar}&#123;binding name, mode=auto&#125;{ltHTMLChar}/span{gtHTMLChar}
+        <pre>&lt;b&gt;Name&#58; &lt;/b&gt;&lt;input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=auto&#125;&quot; /&gt;
+&lt;b&gt;Echo&#58; &lt;/b&gt;&lt;span id=&quot;nameDisplay&quot;&gt;&#123;binding name, mode=auto&#125;&lt;/span&gt;
         </pre>
         </dt>
         <dd>Figure&#58; When you update either textbox, the other one will be updated with the same value. </dd>
@@ -37,8 +37,8 @@ In ASP.NET AJAX version 4.0, there is a new feature called &quot;Live Data Bindi
     This is the default binding mode for input controls.
     <dl class="goodCode">
         <dt>
-        <pre>{ltHTMLChar}b{gtHTMLChar}Name&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=twoWay&#125;&quot; /{gtHTMLChar}
-{ltHTMLChar}b{gtHTMLChar}Echo&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}span id=&quot;nameDisplay&quot;{gtHTMLChar}&#123;binding name, mode=twoWay&#125;{ltHTMLChar}/span{gtHTMLChar}
+        <pre>&lt;b&gt;Name&#58; &lt;/b&gt;&lt;input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=twoWay&#125;&quot; /&gt;
+&lt;b&gt;Echo&#58; &lt;/b&gt;&lt;span id=&quot;nameDisplay&quot;&gt;&#123;binding name, mode=twoWay&#125;&lt;/span&gt;
         </pre>
         </dt>
         <dd>Figure&#58; When you update either textbox, the other one will be updated with the same value. </dd>
@@ -47,8 +47,8 @@ In ASP.NET AJAX version 4.0, there is a new feature called &quot;Live Data Bindi
     <li>Sys.BindingMode.oneWay&#160;
     <dl class="goodCode">
         <dt>
-        <pre>{ltHTMLChar}b{gtHTMLChar}Name&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=oneWay&#125;&quot; /{gtHTMLChar}
-{ltHTMLChar}b{gtHTMLChar}Echo&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}span id=&quot;nameDisplay&quot;{gtHTMLChar}&#123;binding name, mode=twoWay&#125;{ltHTMLChar}/span{gtHTMLChar}
+        <pre>&lt;b&gt;Name&#58; &lt;/b&gt;&lt;input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=oneWay&#125;&quot; /&gt;
+&lt;b&gt;Echo&#58; &lt;/b&gt;&lt;span id=&quot;nameDisplay&quot;&gt;&#123;binding name, mode=twoWay&#125;&lt;/span&gt;
         </pre>
         </dt>
         <dd>Figure&#58; When you update the Name, it won't affect the Echo. </dd>
@@ -57,8 +57,8 @@ In ASP.NET AJAX version 4.0, there is a new feature called &quot;Live Data Bindi
     <li>Sys.BindingMode.oneWayToSource<br>
     <dl class="goodCode">
         <dt>
-        <pre>{ltHTMLChar}b{gtHTMLChar}Name&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name&#125;&quot; /{gtHTMLChar}
-{ltHTMLChar}b{gtHTMLChar}Echo&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}span id=&quot;nameDisplay&quot;{gtHTMLChar}&#123;binding name, mode=oneWayToSource&#125;{ltHTMLChar}/span{gtHTMLChar}
+        <pre>&lt;b&gt;Name&#58; &lt;/b&gt;&lt;input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name&#125;&quot; /&gt;
+&lt;b&gt;Echo&#58; &lt;/b&gt;&lt;span id=&quot;nameDisplay&quot;&gt;&#123;binding name, mode=oneWayToSource&#125;&lt;/span&gt;
         </pre>
         </dt>
         <dd>Figure&#58; When you update the Name, it won't affect the Echo. But if you update Echo, it will affect the Name. </dd>
@@ -67,8 +67,8 @@ In ASP.NET AJAX version 4.0, there is a new feature called &quot;Live Data Bindi
     <li>Sys.BindingMode.oneTime
     <dl class="goodCode">
         <dt>
-        <pre>{ltHTMLChar}b{gtHTMLChar}Name&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=twoWay&#125;&quot; /{gtHTMLChar}
-{ltHTMLChar}b{gtHTMLChar}Echo&#58; {ltHTMLChar}/b{gtHTMLChar}{ltHTMLChar}span id=&quot;nameDisplay&quot;{gtHTMLChar}&#123;binding name, mode=oneTime&#125;{ltHTMLChar}/span{gtHTMLChar}
+        <pre>&lt;b&gt;Name&#58; &lt;/b&gt;&lt;input id=&quot;name&quot; type=&quot;text&quot; value=&quot;&#123;binding name, mode=twoWay&#125;&quot; /&gt;
+&lt;b&gt;Echo&#58; &lt;/b&gt;&lt;span id=&quot;nameDisplay&quot;&gt;&#123;binding name, mode=oneTime&#125;&lt;/span&gt;
         </pre>
         </dt>
         <dd>Figure&#58; When you update the Name in the first time, it will affect the Echo. After the first time, it won't affect the Echo. </dd>
