@@ -20,9 +20,9 @@ redirects: []
                     results can be expected.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
-                        <img src="/PublishingImages/drop-list-bad.jpg" alt="Combobox 2" /></dt><dd>
-                        Figure&#58; Bad Example - You can't tell the number of results</dd></dl><dl class="goodImage"><dt>
-                        <img src="/PublishingImages/drop-list-good.jpg" alt="Combobox 1" /></dt><dd>
-                        Figure&#58; Good Example - The number of results is clearly displayed</dd></dl>
+                        <img src="drop-list-bad.jpg" alt="Combobox 2" /></dt><dd>
+                        Figure: Bad Example - You can't tell the number of results</dd></dl><dl class="goodImage"><dt>
+                        <img src="drop-list-good.jpg" alt="Combobox 1" /></dt><dd>
+                        Figure: Good Example - The number of results is clearly displayed</dd></dl>
 
 
