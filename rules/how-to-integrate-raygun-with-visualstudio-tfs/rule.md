@@ -14,17 +14,23 @@ redirects:
 
 ---
 
+TFS/VisualStudio.com is the source of truth for product development, so how do you get issues in RayGun into TFS? Thankfully there’s a built in integration that lets you do that. 
 
-TFS/VisualStudio.com is the source of truth for product development, so how do you get issues in RayGun into TFS? Thankfully there’s a built in integration that lets you do that. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Under Integrations<br></li><li>Select Visual Studio Team Services</li><li>Connect to your TFS or VisualStudio.com instance</li></ol><dl class="image"><dt>
-      <img src="raygun-integration-tfs-1.png" alt="raygun-integration-tfs-1.png" />
-   </dt><dd>Figure: Link RayGun with TFS/VisualStudio.com</dd></dl><p>Now under the crash report, you have to option to create a PBI and link it to the crash report.</p><dl class="image"><dt>
-      <img src="raygun-integration-tfs-2.png" alt="raygun-integration-tfs-2.png" />
-   </dt><dd>Figure: Create a new PBI or link to an existing PBI</dd></dl><p>Now you can see which RayGun create reports have already been added to the backlog.</p><dl class="image"><dt>
-      <img src="raygun-integration-tfs-3.png" alt="raygun-integration-tfs-3.png" />
-   </dt><dd>Figure: Link RayGun with TFS/VisualStudio.com<br></dd></dl><p class="ssw15-rteElement-GreyBox">
+<!--endintro-->
 
-RayGun is a useful tool to use for your DevOps. Check out our rule “<a href=/do-you-know-how-devops-fits-in-with-scrum>Do you know how DevOps fits in with Scrum?​​</a>”​​<br></p>
+1. Under Integrations
+2. Select Visual Studio Team Services
+3. Connect to your TFS or VisualStudio.com instance
 
 
+![Figure: Link RayGun with TFS/VisualStudio.com](raygun-integration-tfs-1.png)  
+
+Now under the crash report, you have to option to create a PBI and link it to the crash report.
+
+![Figure: Create a new PBI or link to an existing PBI](raygun-integration-tfs-2.png)  
+
+Now you can see which RayGun create reports have already been added to the backlog.
+
+![Figure: Link RayGun with TFS/VisualStudio.com](raygun-integration-tfs-3.png)  
+
+RayGun is a useful tool to use for your DevOps. Check out our rule “[Do you know how DevOps fits in with Scrum?](/do-you-know-how-devops-fits-in-with-scrum)”
