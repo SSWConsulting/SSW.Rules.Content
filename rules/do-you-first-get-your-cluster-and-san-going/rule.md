@@ -11,15 +11,12 @@ redirects: []
 
 ---
 
+This is an advanced topic. The pre-requisites are that you already have Clustered nodes setup, and then your SAN.
 
-<p>This is an advanced topic. The pre-requisites are that you already have Clustered nodes setup, and then your SAN.</p>
-<p>Then you enable your Hyper-V role on your cluster.</p>
+Then you enable your Hyper-V role on your cluster.
 
-<br><excerpt class='endintro'></excerpt><br>
-<p>First refer to all rules listed in "<a href=/rules-to-better-hyper-v target="_blank">Rules to Better Hyper-V</a>" as these are the basics for Hyper-V. </p>
-<img src="Feature-matrix.jpg" alt="hyper-v feature matrix" class="ms-rteCustom-ImageArea" />
-<dd class="ms-rteCustom-FigureNormal">Figure: The following rules are referring to the 2nd column on <a href="http://www.ssw.com.au/ssw/Consulting/HyperV.aspx" target="_blank">Hyper-V</a> (this also tells you why choose Hyper-V Live Migration over VMWare VMotion)</dd>
-<p>Let's continue with the rules specially for clustering...</p>
+<!--endintro-->
 
-
-
+First refer to all rules listed in "[Rules to Better Hyper-V](/rules-to-better-hyper-v)" as these are the basics for Hyper-V.
+![hyper-v feature matrix](Feature-matrix.jpg)**Figure: The following rules are referring to the 2nd column on [Hyper-V](http://www.ssw.com.au/ssw/Consulting/HyperV.aspx) (this also tells you why choose Hyper-V Live Migration over VMWare VMotion)** 
+Let's continue with the rules specially for clustering...
