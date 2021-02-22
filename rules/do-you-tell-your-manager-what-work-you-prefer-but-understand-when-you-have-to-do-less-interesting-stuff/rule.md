@@ -15,15 +15,15 @@ redirects:
 ---
 
 
-<p>Developers often have a very clear idea of what kind of work they want to do. They might want to develop expertise in SharePoint, CRM or SQL Server. They should always keep their manager&#160;informed of what kind of work interests them and on which they want to focus. Managers often have many staff to keep in mind and unless you remind them they may well forget and give a hot opportunity to another staff member. <br></p>
+<p>Developers often have a very clear idea of what kind of work they want to do. They might want to develop expertise in SharePoint, CRM or SQL Server. They should always keep their manager informed of what kind of work interests them and on which they want to focus. Managers often have many staff to keep in mind and unless you remind them they may well forget and give a hot opportunity to another staff member. <br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>You should also let your manager know what work you'd prefer NOT to do. This might be older technology, testing or niche areas. Despite the expression of your preferences to avoid particular types of work, you should understand that your manager will sometimes unavoidably have to give you tasks in those areas. </p>
                <dl class="image">
                  <dt>
-                    <img alt="Tell the boss what work you prefer to do." src="/PublishingImages/PreferStuff.jpg" />
+                    <img alt="Tell the boss what work you prefer to do." src="PreferStuff.jpg" />
                   </dt>
                   <dd>
-                    Figure&#58; Clearly tell your manager what work you prefer to do, but don't scream when you are asked to do other, less interesting work.              
+                    Figure: Clearly tell your manager what work you prefer to do, but don't scream when you are asked to do other, less interesting work.              
                    </dd>
                 </dl>
 
