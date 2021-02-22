@@ -12,9 +12,6 @@ redirects:
 
 ---
 
+Ideally, giving people more than 1 weeks’ notice gives people enough time to adjust their schedule, and keep their clients informed about their availability.
 
-Ideally, giving people more than 1 weeks’ notice gives people enough time to adjust their schedule, and keep their clients informed about their availability.​<br>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
