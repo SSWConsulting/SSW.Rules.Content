@@ -16,25 +16,25 @@ redirects: []
 
 <p>There are many scenarios where you need some extra space in a web page. No matter which one you are at, CSS is the answer. </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>Sometimes the first thing that comes to the developer mind is to use the &quot;break line&quot; tag ({ltHTMLChar}br /{gtHTMLChar}) or the <a href="http&#58;//en.wikipedia.org/wiki/ASCII">ASCII character code</a> for &quot;space&quot; (&amp;#160;) to create these extra spaces. It's wrong. CSS is the way to go. You can use both &quot;margin&quot; or &quot;padding&quot; CSS properties to get the result you want.
+<p>Sometimes the first thing that comes to the developer mind is to use the &quot;break line&quot; tag (&lt;br /&gt;) or the <a href="http&#58;//en.wikipedia.org/wiki/ASCII">ASCII character code</a> for &quot;space&quot; (&amp;#160;) to create these extra spaces. It's wrong. CSS is the way to go. You can use both &quot;margin&quot; or &quot;padding&quot; CSS properties to get the result you want.
 
 </p>
 <div class="ms-rteCustom-GreyBox">
-{ltHTMLChar}ul{gtHTMLChar}<br>
-{ltHTMLChar}li{gtHTMLChar}&amp;#160;&amp;#160;&amp;#160;List item{ltHTMLChar}/li{gtHTMLChar}<br>
-{ltHTMLChar}/ul{gtHTMLChar}<br>
+&lt;ul&gt;<br>
+&lt;li&gt;&amp;#160;&amp;#160;&amp;#160;List item&lt;/li&gt;<br>
+&lt;/ul&gt;<br>
 </div>
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Using the &quot;space&quot; ASCII character to create a padding on that list</span>
 
 <div class="ms-rteCustom-GreyBox">
-{ltHTMLChar}ul{gtHTMLChar}<br>
-{ltHTMLChar}li{gtHTMLChar}List item{ltHTMLChar}/li{gtHTMLChar}<br>
-{ltHTMLChar}/ul{gtHTMLChar}<br>
-{ltHTMLChar}br /{gtHTMLChar}<br>
-{ltHTMLChar}br /{gtHTMLChar}<br>
-{ltHTMLChar}br /{gtHTMLChar}
+&lt;ul&gt;<br>
+&lt;li&gt;List item&lt;/li&gt;<br>
+&lt;/ul&gt;<br>
+&lt;br /&gt;<br>
+&lt;br /&gt;<br>
+&lt;br /&gt;
 </div>
-<span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Using the {ltHTMLChar}br /{gtHTMLChar} tag to create a space at the bottom of that list</span>
+<span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Using the &lt;br /&gt; tag to create a space at the bottom of that list</span>
 
 <div class="ms-rteCustom-GreyBox">
 ul &#123;margin-bottom&#58;15px;&#125;<br>
