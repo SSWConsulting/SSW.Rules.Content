@@ -20,8 +20,8 @@ The least pleasant part of the consulting industry is dealing with clients who d
 <p>If an issue does come up, make sure you come to an agreement quickly and don't let the issue fester as it can lead to a lack of customer satisfaction and people can start digging their heels in, leading to a lot of time wasted on working out whether the client will pay or not. </p>
 <p>If someone else needs to be consulted for approval (e.g. the boss) get them on the phone straight away, rather than speaking to them later and then having to organize yet another meeting with the client. </p>
 <dl class="goodImage">
-    <dt><img alt="" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/confrn.jpg" /> </dt>
-    <dd>Figure&#58; Use the conference button </dd>
+    <dt><img alt="" src="../../assets/confrn.jpg" /> </dt>
+    <dd>Figure: Use the conference button </dd>
 </dl>
 
 
