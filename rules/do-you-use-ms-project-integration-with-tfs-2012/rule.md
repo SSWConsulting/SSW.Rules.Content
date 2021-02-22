@@ -22,6 +22,6 @@ redirects: []
 
 In VSTS 2008/2005, the MS Project integration was very bad. You cannot publish your hierarchies with your work items. In VSTS 2010, this had been fixed. With the native support for hierarchy work item support in TFS 2012, all of your work in MS Project will be published to TFS 2012. <br>
 <br><excerpt class='endintro'></excerpt><br>
-<img width="604" height="132" src="/PublishingImages/VSTS2010-MSProject.jpg" alt="" style="width&#58;604px;height&#58;132px;" /> <br><font class="ms-rteCustom-FigureNormal">Figure&#58; VSTS2010 has better MS Project integration support - you can publish your hierarchies to TFS now</font><br><br>
+<img width="604" height="132" src="VSTS2010-MSProject.jpg" alt="" style="width:604px;height:132px;" /> <br><font class="ms-rteCustom-FigureNormal">Figure: VSTS2010 has better MS Project integration support - you can publish your hierarchies to TFS now</font><br><br>
 
 
