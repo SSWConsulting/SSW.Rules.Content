@@ -16,13 +16,13 @@ redirects: []
 
 <p>Repeated sections of User Interface should be encapsulated in either Html Helpers or Partial Views to avoid repetition.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><div class="greyBox"><pre>{ltHTMLChar}div class=&quot;featured&quot;{gtHTMLChar}
+<dl class="badImage"><dt><div class="greyBox"><pre>&lt;div class=&quot;featured&quot;&gt;
     @if (ViewData.ContainsKey(&quot;FeaturedProduct&quot;))
     &#123;
-        {ltHTMLChar}span class=&quot;ProductName&quot;{gtHTMLChar}@ViewBag.FeaturedProduct.Name{ltHTMLChar}/span{gtHTMLChar}
-        {ltHTMLChar}span class=&quot;ProductPrice&quot;{gtHTMLChar}@ViewBag.FeaturedProduct.Price{ltHTMLChar}/span{gtHTMLChar}
+        &lt;span class=&quot;ProductName&quot;&gt;@ViewBag.FeaturedProduct.Name&lt;/span&gt;
+        &lt;span class=&quot;ProductPrice&quot;&gt;@ViewBag.FeaturedProduct.Price&lt;/span&gt;
     &#125;
-{ltHTMLChar}/div{gtHTMLChar}
+&lt;/div&gt;
 
 </pre></div></dt><dd>Figure&#58; Bad Example – The above code could be encapsulated into a Partial View for reuse</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>public static class DateExtensions
 &#123;
