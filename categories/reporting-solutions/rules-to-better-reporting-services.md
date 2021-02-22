@@ -13,6 +13,7 @@ index:
 - do-you-verify-that-report-server-authentication-settings-allow-a-wide-range-of-web-browsers
 
 ---
-<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;<br></p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/EnterpriseReporting.aspx">Enterprise Reporting and BI​</a>&#160;and book in a consultant.​​​</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [Enterprise Reporting and BI](http&#58;//www.ssw.com.au/ssw/Consulting/EnterpriseReporting.aspx) and book in a consultant.
 
