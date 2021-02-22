@@ -11,16 +11,28 @@ redirects: []
 
 ---
 
+Giving fixed features and a fixed delivery date is very hard. Giving a fixed price is hard too... this is because of the 'Cone of Uncertainty'.
+
+The basic reason is...
+
+<!--endintro-->
+
+Over time, our ability to accurately predict a project's remaining time estimates gets better.
+
+As a team, our understanding of the amount of work remaining on a project becomes more accurate as the project moves along.
+
+At the project’s initial conception, there is a lot to be learnt and consequently the estimates are likely to be inaccurate by a large margin. Half way through, however, the team has a much better idea of what will and will not be in scope, the technical issues are starting to get ironed out, and the estimates of the work now remaining become far more accurate.
+
+![Figure: The further away an event is (task, user story, job), the harder it is to know how big (effort, time) it is](396294\_Cone-of-Uncertainty.jpg)  
 
 
-  <p>Giving fixed features and a fixed delivery date is very hard. Giving a fixed price is hard too... this is because of the 'Cone of Uncertainty'.</p>
-<p>The basic reason is...</p>
 
-<br><excerpt class='endintro'></excerpt><br>
-<p><span style="line-height:20.799999237060547px;">Over time, our ability to accurately predict a project's remaining time estimates gets better.</span>​<br></p><p>As a team, our understanding of the amount of work remaining on a project becomes more accurate as the project moves along.</p><p>At the project’s initial conception, there is a lot to be learnt and consequently the estimates are likely to be inaccurate by a large margin. Half way through, however, the team has a much better idea of what will and will not be in scope, the technical issues are starting to get ironed out, and the estimates of the work now remaining become far more accurate.</p><dl class="image"><dt>
-      <img src="396294_Cone-of-Uncertainty.jpg" border="0" alt="" />
-   </dt><dd>Figure: The further away an event is (task, user story, job), the harder it is to know how big (effort, time) it is</dd></dl><p>
- </p><p><strong>Bad example: Waterfall project.
-</strong></p><p>Estimating everything up front, when you know the least about what you will be doing (potentially 6 months of work).</p><p> </p><p><strong>Good example: <a href="http://www.ssw.com.au/ssw/consulting/scrum.aspx">Scrum Project</a>.</strong></p><p>Only estimating the top items in the backlog, that could be reasonably done in the next sprint (1-4 weeks of work)</p>
+**Bad example: Waterfall project.**
+
+Estimating everything up front, when you know the least about what you will be doing (potentially 6 months of work).
 
 
+
+**Good example: [Scrum Project](http://www.ssw.com.au/ssw/consulting/scrum.aspx).**
+
+Only estimating the top items in the backlog, that could be reasonably done in the next sprint (1-4 weeks of work)
