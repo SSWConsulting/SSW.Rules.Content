@@ -20,7 +20,9 @@ redirects:
 
 Authentication and authorization are complicated, and it is risky to try and implement them yourself. Use this rule as a guide on choosing the right service or framework for your situation.
 
+::: img-small  
 ![](security-icon-ssw.jpg)  
+:::  
 
 <!--endintro-->
 
