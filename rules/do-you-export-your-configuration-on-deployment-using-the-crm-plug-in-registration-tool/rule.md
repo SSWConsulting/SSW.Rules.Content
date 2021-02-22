@@ -21,6 +21,6 @@ redirects: []
         
 <br><excerpt class='endintro'></excerpt><br>
 <p> 
-   <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=a396af94-631e-4e0d-99a0-4be028e58824">Make sure you put your plug-in customization file under source ​control</a> </p>
+   <a href=/do-you-put-your-exported-customizations-and-your-plug-in-customization-under-source-control-during-deployment>Make sure you put your plug-in customization file under source ​control</a> </p>
 
 
