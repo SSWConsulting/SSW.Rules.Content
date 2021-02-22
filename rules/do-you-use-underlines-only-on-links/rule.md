@@ -18,12 +18,25 @@ redirects:
 
 ---
 
+Users expect underlined texts to be a hyperlink. You should visually differentiate links by underlining them. Of course, this is  **not** necessary on menus, obvious links, or buttons. Never underline a text that isn't a link - Use bold or italics if you need emphasis.
 
-<p>​Users expect underlined texts to be a hyperlink. You should visually differentiate links by underlining them. Of course, this is <b>not</b> necessary on menus, obvious links,​ or buttons. Never underline a text that isn't a link - Use bold or italics if you need emphasis.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img alt="Websites - Underline no hyperlink" src="../../assets/Websites_UnderlineNoHyperlink.gif" data-pin-nopin="true" style="width:377px;" /> 
-   </dt><dd>Figure: Never underline the text when it isn't a link (even 
-      <a target="_blank" href="https://weblogs.asp.net/scottgu/28748">Scott Guthrie agrees</a>!)<br></dd></dl><p>The default implementation of underlines in CSS is "<b>text-decoration:underline;</b>".<br></p><p>Another way to add look-alike underlines is by adding "<b>border-bottom: 1px solid #000;</b>". In this case, you can even have a dotted underline. However, it's not recommended you use this method unless you are a designer and know what you are doing. It creates extra pixels in the interface, which can potentially cause other problems in your UI, for example:</p><dl class="badImage"><dt><img src="border-problem-1.gif" alt="border-problem-1.gif" style="width:600px;height:231px;" /></dt><dd>Figure: Bad example - the different border size pushes the content down</dd></dl><dl class="badImage"><dt><img src="border-problem-2.png" alt="border-problem-2.png" style="width:600px;height:146px;" /></dt><dd>Figure: Bad example - borders going over the text area​<br></dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Never underline the text when it isn't a link (even        Scott Guthrie agrees!)](../../assets/Websites\_UnderlineNoHyperlink.gif)  
+:::
+
+The default implementation of underlines in CSS is " **text-decoration:underline;** ".
+
+Another way to add look-alike underlines is by adding " **border-bottom: 1px solid #000;** ". In this case, you can even have a dotted underline. However, it's not recommended you use this method unless you are a designer and know what you are doing. It creates extra pixels in the interface, which can potentially cause other problems in your UI, for example:
+
+
+::: bad  
+![Figure: Bad example - the different border size pushes the content down](border-problem-1.gif)  
+:::
+
+
+::: bad  
+![Figure: Bad example - borders going over the text area](border-problem-2.png)  
+:::
