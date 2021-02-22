@@ -19,30 +19,158 @@ redirects: []
 
 ---
 
+Having a clear Definition of Done for your team is critical to your success and quality management in Scrum.
 
-​Having a clear Definition of Done for your team is critical to your success and quality management in Scrum.<br><br>Every team is different, but all need to agree on which items are in their "Definition of Done". 
-<br><excerpt class='endintro'></excerpt><br>
-<h1>There are 3 levels of 'Done' in communication</h1><h2>Level 1</h2><ul><li>Sending a <a href=/dones-do-you-reply-done-and-delete-the-original-email>"Done" email</a>​</li></ul><h2>Level 2</h2><ul><li>Sending a "Done" email</li><li>Screenshots</li><li>Code</li></ul><h2>Level 3</h2><ul><li>Sending a "Done" email</li><li>Recording a quick and dirty "<a href=/record-a-quick-and-dirty-done-video>Done Video</a>"</li><li>Code (showing a full scenario e.g. a user story)</li></ul><h4>Example of a level 3 "done"</h4><div class="greyBox"><p>Subject: RE: Manad - Coded UI Tests #2</p><p style="margin-left:20px;">&gt; Create a new CodedUI test on your feedback form – search only to test the Telerik</p><p>Done</p>
-   <img class="ms-rteCustom-ImageArea" alt="Coded UI Test passes in Visual Studio" src="level-3-done.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure – Coded UI Test passes in Visual Studio</span>
-   <p>Jing Video of the test running: <a href="http://screencast.com/t/ps17fqsV" target="_blank">http://screencast.com/t/ps17fqsV</a> </p></div>
-<span class="ms-rteCustom-FigureGood">Figure: Good example - The "done" shows a full scenario</span>
-<h1>There are 8 levels of 'Done' in software quality</h1><p>Start with these examples showing typical "Definitions of Done" from beginner teams to more mature teams:</p><h2>Team - Level 1</h2><ul><li>The code compiles</li><li>All tasks are updated and closed</li><li>No high priority defects/bugs are on that user story</li></ul><h2>Team - Level 2</h2><ul><li> 
-      <em>All of the above, plus</em> </li><li>All unit tests passed</li><li>Greater than 1% code coverage (not earth shattering, but you need to start somewhere)</li></ul><h2>Team - Level 3</h2><ul><li> 
-      <em>All of the above, plus</em> </li><li>Successful build on the Build Server<br></li><li>
-      <a href=/protect-your-master-branch>Git Branch Policies</a> <br>or<br>TFS Check in Policy - Change set Comments Policy (all check-ins must have a comment)<br></li><li>TFS Check in Policy - Work Items (all check-ins must be associated with a work item)</li><li>Code reviewed by one other team member (e.g. Checked by Bill)<br></li><li>Sending a Done email with screenshots<br></li></ul><dl class="goodImage"><dt> <img class="ms-rteCustom-ImageArea" alt="Check in policy" src="CheckinPolicy.jpg" /> </dt><dd>Figure: Good example - Add check in policies to enforce your Definition of Done</dd></dl><h2>Team - Level 4</h2><ul><li> 
-      <em>All of the above, plus</em> </li><li>All acceptance criteria have been met</li><li>All acceptance criteria have an associated test passing (aka. Automated functional testing with Web Tests (Selenium), Coded UI Tests, or Telerik Tests)<br></li><li>Tip: Use Microsoft | <a href="https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web">Test Manager</a><br></li><li>Sending a Done email (with video recording using SnagIt) <br></li></ul><dl class="goodImage"><dt> <img src="TestPlanning-1.png" alt="TestPlanning-1.png" style="margin:0px;width:750px;height:532px;" /> </dt><dd>Figure: Organize tests in suites with built-in E2E traceability across requirements, test artifacts and defects</dd></dl><dl class="goodImage"><dt> <img src="MTR-2.png" alt="MTR-2.png" style="margin:0px;width:750px;" /> </dt><dd>Figure: Use the client, Microsoft Test Manager, to run tests and not just capture the pass/fail of steps, comments/attachments and bugs, but also capture diagnostic data during execution, such as screen recording, system info, image action log etc</dd></dl><dl class="goodImage"><dt> <img src="XT-3.png" alt="XT-3.png" style="margin:0px;width:750px;height:566px;" /> </dt><dd>Figure: Explore your web applications, find and submit bugs directly from your Chrome browser – no need for predefined test cases or test steps <br></dd></dl><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"> 
-   <iframe width="750" height="422" src="https://www.youtube.com/embed/JJCgP7XcpNA" frameborder="0"></iframe> </div>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure: Good example - Done video showing the features worked on</font>
-<h2>Team - Level 5</h2><ul><li> 
-      <em>All of the above, plus</em> </li><li>Deployed to UAT (ideally using Continuous Deployment)</li><li>Complex code is documented (removing technical debt)</li><li>Product Owner acceptance</li></ul><h2>Team - Level 6</h2><ul><li> 
-      <em>All of the above, plus</em> </li><li>Multiple environments automatically tested using Lab Management</li></ul><dl class="goodImage"><dt> <img class="ms-rteCustom-ImageArea" alt="Lab management" src="LabManagement.jpg" /> </dt><dd>Figure: Good example - A tester Lab Management to create VMs for testing the application, then defines a test plan for that application with Test Case Management</dd></dl><h2>Team - Level 7</h2><ul><li> 
-      <em>All of the above, plus</em> </li><li>Automated Load Testing</li><li>Continuous Deployment</li></ul><dl class="goodImage"><dt> <img class="ms-rteCustom-ImageArea" alt="Acceptance Tests in MTM" src="LoadTesting.jpg" /> </dt><dd>Figure: Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behavior of many simultaneous users)</dd></dl><h2>Team - Level 8 (Gold)</h2><ul><li> 
-      <em>All of the above, plus</em></li><li>Deployed to Production</li></ul><ul><p class="ssw15-rteElement-P">Congratulations! You are frequently deploying to production. This is called “Continuous Delivery” and allows you to gather quick feedback from your end users. </p><p class="ssw15-rteElement-P">You might have everything deployed to production, but it might not yet be visible to the end user. This can be achieved by having “<a href="http://martinfowler.com/bliki/FeatureToggle.html">Feature toggles</a> ” in place. The actual release of the functionality is a decision that the Product Owner and business takes.</p>
-   <font face="Calibri"> <i></i></font></ul><p> 
-   <strong>More Information: </strong></p><ul><li> 
-      <a href=/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating>Do your user stories include acceptance criteria?</a></li><li> 
-      <a title="Do you enforce comments with check-ins?" href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#EnforceComments" target="_blank">Do you enforce comments with check-ins?</a> </li><li> 
-      <a title="Do you enforce work item association with check-in?" href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#EnforceWorkItemAss" target="_blank">Do you enforce work item association with check-in?</a> </li><li> 
-      <a title="Do you follow a Test Driven Process?" href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#TestDrivenProcess" target="_blank" shape="rect">Do you follow a Test Driven Process?</a> </li><li>​<a href=/have-a-definition-of-ready>Do you have a "Definition of Ready"?</a></li></ul>
+Every team is different, but all need to agree on which items are in their "Definition of Done".  
+<!--endintro-->
+
+# There are 3 levels of 'Done' in communication
+
+## Level 1
+
+* Sending a ["Done" email](/dones-do-you-reply-done-and-delete-the-original-email)
 
 
+## Level 2
+
+* Sending a "Done" email
+* Screenshots
+* Code
+
+
+## Level 3
+
+* Sending a "Done" email
+* Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
+* Code (showing a full scenario e.g. a user story)
+
+
+#### Example of a level 3 "done"
+
+
+Subject: RE: Manad - Coded UI Tests #2
+
+&gt; Create a new CodedUI test on your feedback form – search only to test the Telerik
+
+Done
+![Coded UI Test passes in Visual Studio](level-3-done.jpg)**Figure – Coded UI Test passes in Visual Studio** 
+Jing Video of the test running: http://screencast.com/t/ps17fqsV
+
+Figure: Good example - The "done" shows a full scenario
+# There are 8 levels of 'Done' in software quality
+
+Start with these examples showing typical "Definitions of Done" from beginner teams to more mature teams:
+
+## Team - Level 1
+
+* The code compiles
+* All tasks are updated and closed
+* No high priority defects/bugs are on that user story
+
+
+## Team - Level 2
+
+* *All of the above, plus*
+* All unit tests passed
+* Greater than 1% code coverage (not earth shattering, but you need to start somewhere)
+
+
+## Team - Level 3
+
+* *All of the above, plus*
+* Successful build on the Build Server
+* [Git Branch Policies](/protect-your-master-branch) 
+or
+TFS Check in Policy - Change set Comments Policy (all check-ins must have a comment)
+* TFS Check in Policy - Work Items (all check-ins must be associated with a work item)
+* Code reviewed by one other team member (e.g. Checked by Bill)
+* Sending a Done email with screenshots
+
+
+
+::: good  
+![Figure: Good example - Add check in policies to enforce your Definition of Done](CheckinPolicy.jpg)  
+:::
+
+## Team - Level 4
+
+* *All of the above, plus*
+* All acceptance criteria have been met
+* All acceptance criteria have an associated test passing (aka. Automated functional testing with Web Tests (Selenium), Coded UI Tests, or Telerik Tests)
+* Tip: Use Microsoft | [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
+* Sending a Done email (with video recording using SnagIt)
+
+
+
+::: good  
+![Figure: Organize tests in suites with built-in E2E traceability across requirements, test artifacts and defects](TestPlanning-1.png)  
+:::
+
+
+::: good  
+![Figure: Use the client, Microsoft Test Manager, to run tests and not just capture the pass/fail of steps, comments/attachments and bugs, but also capture diagnostic data during execution, such as screen recording, system info, image action log etc](MTR-2.png)  
+:::
+
+
+::: good  
+![Figure: Explore your web applications, find and submit bugs directly from your Chrome browser – no need for predefined test cases or test steps](XT-3.png)  
+:::
+
+
+`youtube: https://www.youtube.com/embed/JJCgP7XcpNA`
+ 
+
+
+::: good
+Figure: Good example - Done video showing the features worked on  
+:::
+
+## Team - Level 5
+
+* *All of the above, plus*
+* Deployed to UAT (ideally using Continuous Deployment)
+* Complex code is documented (removing technical debt)
+* Product Owner acceptance
+
+
+## Team - Level 6
+
+* *All of the above, plus*
+* Multiple environments automatically tested using Lab Management
+
+
+
+::: good  
+![Figure: Good example - A tester Lab Management to create VMs for testing the application, then defines a test plan for that application with Test Case Management](LabManagement.jpg)  
+:::
+
+## Team - Level 7
+
+* *All of the above, plus*
+* Automated Load Testing
+* Continuous Deployment
+
+
+
+::: good  
+![Figure: Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behavior of many simultaneous users)](LoadTesting.jpg)  
+:::
+
+## Team - Level 8 (Gold)
+
+* *All of the above, plus*
+* Deployed to Production
+
+
+
+Congratulations! You are frequently deploying to production. This is called “Continuous Delivery” and allows you to gather quick feedback from your end users.
+    You might have everything deployed to production, but it might not yet be visible to the end user. This can be achieved by having “[Feature toggles](http://martinfowler.com/bliki/FeatureToggle.html) ” in place. The actual release of the functionality is a decision that the Product Owner and business takes.
+<font face="Calibri"> <i></i></font>
+
+**More Information:**
+
+* [Do your user stories include acceptance criteria?](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
+* [Do you enforce comments with check-ins?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#EnforceComments "Do you enforce comments with check-ins?")
+* [Do you enforce work item association with check-in?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#EnforceWorkItemAss "Do you enforce work item association with check-in?")
+* [Do you follow a Test Driven Process?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#TestDrivenProcess "Do you follow a Test Driven Process?")
+* [Do you have a "Definition of Ready"?](/have-a-definition-of-ready)
