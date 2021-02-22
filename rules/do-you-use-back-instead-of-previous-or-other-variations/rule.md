@@ -19,25 +19,25 @@ redirects:
 ---
 
 
-According to <a href="https&#58;//docs.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29">Design Specifications and Guidelines - User Assistance</a>, the commands for navigating through a wizard should be &quot;{ltHTMLChar} Back&quot; and &quot;Next {gtHTMLChar}&quot;. 
+According to <a href="https://docs.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29">Design Specifications and Guidelines - User Assistance</a>, the commands for navigating through a wizard should be "&lt; Back" and "Next &gt;". 
 
 <br><excerpt class='endintro'></excerpt><br>
   
-<span>&#160; 
-   <p>When your site needs a link to iterate backward​&#160;through records we recommend that you use &quot;{ltHTMLChar} Back&quot; instead of &quot;{ltHTMLChar} Previous&quot;. </p> 
-   <p>There are a few reasons for this&#58;</p> 
-   <ol><li>This is the standard used in Microsoft Installation files. MSIs are the most widely used installation package available today. </li><li>Internet Explorer and several other lesser-known browsers use a Back button to iterate back through webpages, so your visitors will automatically know what your &quot;{ltHTMLChar} Back&quot; link does. </li><li>It is important to keep consistency on your pages. </li></ol> 
-   <p>Below is an example of a Good&#160;&quot;{ltHTMLChar} Back&quot; link versus some Bad variations.</p> 
+<span>  
+   <p>When your site needs a link to iterate backward​ through records we recommend that you use "&lt; Back" instead of "&lt; Previous". </p> 
+   <p>There are a few reasons for this:</p> 
+   <ol><li>This is the standard used in Microsoft Installation files. MSIs are the most widely used installation package available today. </li><li>Internet Explorer and several other lesser-known browsers use a Back button to iterate back through webpages, so your visitors will automatically know what your "&lt; Back" link does. </li><li>It is important to keep consistency on your pages. </li></ol> 
+   <p>Below is an example of a Good "&lt; Back" link versus some Bad variations.</p> 
    
    <dl class="badImage"><dt>
-         <img width="226" height="41" src="/PublishingImages/badpreviouslink.gif" alt="Bad" /> 
-      </dt><dd>Figure&#58; This is Bad because it says &quot;Previous&quot; instead of &quot;Back&quot; </dd></dl> 
+         <img width="226" height="41" src="badpreviouslink.gif" alt="Bad" /> 
+      </dt><dd>Figure: This is Bad because it says "Previous" instead of "Back" </dd></dl> 
    <dl class="badImage"><dt>
-         <img width="154" height="40" src="/PublishingImages/badbacklink.gif" alt="Good" /> 
-      </dt><dd>Figure&#58; This is bad because it has too many &quot;{ltHTMLChar}&quot;s or it has no space between the &quot;{ltHTMLChar}&quot; and the &quot;Back&quot; </dd></dl> 
+         <img width="154" height="40" src="badbacklink.gif" alt="Good" /> 
+      </dt><dd>Figure: This is bad because it has too many "&lt;"s or it has no space between the "&lt;" and the "Back" </dd></dl> 
    
    <dl class="goodImage"><dt>
-         <img width="420" height="88" src="/PublishingImages/textboxeswithshowbutton.gif" alt="Good" /> 
-      </dt><dd>Figure&#58; A Good example of a &quot;{ltHTMLChar} Back&quot; link </dd></dl> </span>
+         <img width="420" height="88" src="textboxeswithshowbutton.gif" alt="Good" /> 
+      </dt><dd>Figure: A Good example of a "&lt; Back" link </dd></dl> </span>
 
 
