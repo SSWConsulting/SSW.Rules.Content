@@ -20,7 +20,7 @@ redirects:
 
   <p>The MS Upsizing Wizard cannot upsize Microsoft Access queries containing </p>
 <ul>
-    <li>EXISTS {ltHTMLChar}{gtHTMLChar} FALSE/TRUE or </li>
+    <li>EXISTS &lt;&gt; FALSE/TRUE or </li>
     <li>EXISTS = FALSE/TRUE</li>
 </ul>
 <p>For example, the following query will not be upsized&#58;</p>
@@ -35,7 +35,7 @@ FROM Orders
 WHERE EXISTS (SELECT EmployeeID
  FROM Employees 
  WHERE LastName= [@Employee Last Name] 
- AND Employees.EmployeeID=Orders.EmployeeID) {ltHTMLChar}{gtHTMLChar} FALSE</pre>
+ AND Employees.EmployeeID=Orders.EmployeeID) &lt;&gt; FALSE</pre>
 <font class="ms-rteCustom-FigureBad" size="+0">Figure&#58; Bad example of Access query with EXISTS keyword and comparison operator </font>
 <pre class="ms-rteCustom-CodeArea">PARAMETERS [@Employee Last Name] Text ( 20 ); 
 SELECT Orders.OrderID
