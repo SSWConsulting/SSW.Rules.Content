@@ -17,6 +17,6 @@ redirects:
 
 ​A relevant featured image is a great way to add a splash of color to your blog and make your content visually appealing.<br>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="/PublishingImages/blog-no-feat-image.jpg" alt="blog-no-feat-image.jpg" /></dt><dd>Figure&#58; Bad Example – the content might be interesting but it is not very appealing​</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/blog-with-feat-image.jpg" alt="blog-with-feat-image.jpg" /></dt><dd>Figure&#58; Good Example – the content is more appealing</dd></dl>
+<dl class="badImage"><dt>​<img src="blog-no-feat-image.jpg" alt="blog-no-feat-image.jpg" /></dt><dd>Figure: Bad Example – the content might be interesting but it is not very appealing​</dd></dl><dl class="goodImage"><dt><img src="blog-with-feat-image.jpg" alt="blog-with-feat-image.jpg" /></dt><dd>Figure: Good Example – the content is more appealing</dd></dl>
 
 
