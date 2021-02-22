@@ -23,11 +23,11 @@ A well architected application (ie. one that correctly follows the Onion Archite
 
 <br><excerpt class='endintro'></excerpt><br>
 ​​<dl class="badImage"><dt> 
-      <img src="/PublishingImages/TimePRODependence.png" class="ssw-rteStyle-ImageArea" alt="" style="height&#58;119px;width&#58;620px;" /> 
-   </dt><dd>Figure&#58; Bad Example- The Visual Studio Dependency Graph is hard to read</dd></dl><dl class="goodImage"><dt> 
-      <img src="/PublishingImages/TimePRODependence-good.png" class="ssw-rteStyle-ImageArea" alt="TimePRODependence-good.png" /> 
-   </dt><dd>Figure&#58; Good Example – The ReSharper Dependency graph groups dependencies based on Solution Folders. By having a 
-      <a href="/do-you-have-a-consistent-net-solution-structure">Consistent Solution Structure</a> it is easy to see from your Dependency Graph if there is coupling between your UI and your Dependencies</dd></dl><h4>Further Reading&#58;</h4><ul><li>
+      <img src="TimePRODependence.png" class="ssw-rteStyle-ImageArea" alt="" style="height:119px;width:620px;" /> 
+   </dt><dd>Figure: Bad Example- The Visual Studio Dependency Graph is hard to read</dd></dl><dl class="goodImage"><dt> 
+      <img src="TimePRODependence-good.png" class="ssw-rteStyle-ImageArea" alt="TimePRODependence-good.png" /> 
+   </dt><dd>Figure: Good Example – The ReSharper Dependency graph groups dependencies based on Solution Folders. By having a 
+      <a href="/do-you-have-a-consistent-net-solution-structure">Consistent Solution Structure</a> it is easy to see from your Dependency Graph if there is coupling between your UI and your Dependencies</dd></dl><h4>Further Reading:</h4><ul><li>
       <a href="/do-you-use-a-dependency-injection-centric-architecture">Do you use a dependency injection centric architecture?</a></li><li>
       <a href="/Pages/Do-You-Know-the-Best-Dependency-Injection-Container.aspx">Do you know the best dependency injection container?</a>​</li></ul>
 
