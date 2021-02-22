@@ -19,9 +19,9 @@ redirects: []
                     cut next to the user name, this will make the 'log Off' operation more convenient.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt>
-                        <img src="/PublishingImages/logoff-bad.jpg" alt="Bad example - only has a 'Log Off'" /></dt><dd>
-                        Figure&#58; Bad example - Only has a 'Log Off' operation in the submenu</dd></dl><dl class="goodImage"><dt>
-                        <img src="/PublishingImages/logoff-good.jpg" alt="Good example - has a 'Logout'" />​</dt><dd>
-                        Figure&#58; Good example - Has a 'Logout' short cut next to the user name</dd></dl>​​
+                        <img src="logoff-bad.jpg" alt="Bad example - only has a 'Log Off'" /></dt><dd>
+                        Figure: Bad example - Only has a 'Log Off' operation in the submenu</dd></dl><dl class="goodImage"><dt>
+                        <img src="logoff-good.jpg" alt="Good example - has a 'Logout'" />​</dt><dd>
+                        Figure: Good example - Has a 'Logout' short cut next to the user name</dd></dl>​​
 
 
