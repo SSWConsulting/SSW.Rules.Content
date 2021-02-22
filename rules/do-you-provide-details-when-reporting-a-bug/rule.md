@@ -21,7 +21,7 @@ redirects:
 
 <p>Better than a good description of the bug is a screen recording. This should be followed for a more detailed report. Use <a href="http&#58;//www.techsmith.com/snagit.html" target="_blank">Snagit</a> (preferred) or <a href="http&#58;//www.techsmith.com/jing.html">Jing</a> to record your screen.</p>
 <h3>Related rules</h3><ul><li> 
-      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=1fe85c97-442d-4798-9528-3f5711e8f847">Do you know the right way to report bugs?</a></li><li> 
+      <a href=/do-you-know-the-right-way-to-report-bugs>Do you know the right way to report bugs?</a></li><li> 
       <a href="http&#58;//www.ssw.com.au/ssw/Standards/Support/bugreportorenhancement.aspx">Report a&#160;Bug or&#160;Enhancement</a></li></ul>
 
 
