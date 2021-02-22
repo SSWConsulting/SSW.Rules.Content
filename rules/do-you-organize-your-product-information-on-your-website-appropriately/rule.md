@@ -18,10 +18,10 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
 <ol><li>
       <strong>First Sentence (aka Tag Line)</strong> 
-      <br> This is a one line sentence that explains the benefits of using the software. This description is non-technical, but should give an idea of who the software is for. E.g. &quot;Automate your code reviews with SSW Code Auditor&quot;</li><li>
+      <br> This is a one line sentence that explains the benefits of using the software. This description is non-technical, but should give an idea of who the software is for. E.g. "Automate your code reviews with SSW Code Auditor"</li><li>
       <strong>First Paragraph</strong> 
-      <br> A paragraph that describes in greater the detail what the software does, what Microsoft products it works with (e.g. Access, Outlook, SQL Server etc) and any initial technical notes. E.g. &quot;SSW SQL Total Compare resolves data conflicts with SQL Server Replication. This tool reports the differences between the Publisher and Subscribers the data.&quot;</li><li>
-      <strong>Key Features &amp; Benefits</strong> 
+      <br> A paragraph that describes in greater the detail what the software does, what Microsoft products it works with (e.g. Access, Outlook, SQL Server etc) and any initial technical notes. E.g. "SSW SQL Total Compare resolves data conflicts with SQL Server Replication. This tool reports the differences between the Publisher and Subscribers the data."</li><li>
+      <strong>Key Features & Benefits</strong> 
       <br> It's now time to convince the web surfer that they want the product. This section needs to summarize in bullet points why this product is going to solve their problems. If necessary group the benefits into logical categories.</li><li>
       <strong>Screen Shots</strong> 
       <br> One screen shot on the first page is important for customers to get the look and feel of the application. Then link to more screenshots.</li><li>
@@ -33,10 +33,10 @@ redirects: []
       <br> This is a brief technical description of what goes on behind the scenes</li><li>
       <strong>System Requirements</strong><br> The minimum system specifications to run the application.</li><li>
       <strong>Support</strong><br> One of the most important attributes that customers of software products look for when they make a purchase is whether or not there will be support if they are stuck and having difficulties with the software. One very cost effective method of support is to provide a 
-      <a href="http&#58;//www.ssw.com.au/ssw/KB/KBSearch.aspx">knowledge base</a> where customers are free to seek the answers to their own problems.</li></ol><p>
+      <a href="http://www.ssw.com.au/ssw/KB/KBSearch.aspx">knowledge base</a> where customers are free to seek the answers to their own problems.</li></ol><p>
    <br>
 </p><dl class="ssw15-rteElement-ImageArea">
-   <img border="1" alt="Organize your product information" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ScreenCodeAuditor.jpg" style="margin&#58;5px;" /> 
-</dl><dd class="ssw15-rteElement-FigureGood">Figure&#58; How to organize your product information.<br></dd>
+   <img border="1" alt="Organize your product information" src="../../assets/ScreenCodeAuditor.jpg" style="margin:5px;" /> 
+</dl><dd class="ssw15-rteElement-FigureGood">Figure: How to organize your product information.<br></dd>
 
 
