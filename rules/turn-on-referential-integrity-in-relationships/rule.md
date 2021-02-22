@@ -16,9 +16,16 @@ redirects:
 
 ---
 
+Cascading referential integrity constraints allow you to define the actions SQL Server takes when a user attempts to delete or update a key to which existing foreign keys point. The REFERENCES clauses of the CREATE TABLE and ALTER TABLE statements support ON DELETE and ON UPDATE clauses:
 
-<p>​Cascading referential integrity constraints allow you to define the actions SQL Server takes when a user attempts to delete or update a key to which existing foreign keys point. The REFERENCES clauses of the CREATE TABLE and ALTER TABLE statements support ON DELETE and ON UPDATE clauses:<br></p><ul><li>[ ON DELETE { CASCADE | NO ACTION } ]</li><li>[ ON UPDATE { CASCADE | NO ACTION } ]</li></ul><p class="ssw15-rteElement-P">NO ACTION is the default if ON DELETE or ON UPDATE is not specified.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​Relationships should always have referential integrity turned on. If you turned it on after data has been added, you may have data in your database that violates your referential integrity rules.<br></p><dl class="image"><dt><img src="ReferentialIntegrityCheck.jpg" alt="ReferentialIntegrityCheck.jpg" /></dt><dd>Figure: Recommended referential integrity constraints</dd></dl>
+* [ ON DELETE { CASCADE | NO ACTION } ]
+* [ ON UPDATE { CASCADE | NO ACTION } ]
 
 
+NO ACTION is the default if ON DELETE or ON UPDATE is not specified.
+
+<!--endintro-->
+
+Relationships should always have referential integrity turned on. If you turned it on after data has been added, you may have data in your database that violates your referential integrity rules.
+
+![Figure: Recommended referential integrity constraints](ReferentialIntegrityCheck.jpg)
