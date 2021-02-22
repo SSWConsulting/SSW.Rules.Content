@@ -19,6 +19,5 @@ index:
 - use-screenshots-in-your-proposals
 
 ---
-<p>​​​<br></p>
 
 
