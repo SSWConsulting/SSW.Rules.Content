@@ -14,9 +14,16 @@ redirects:
 
 ---
 
+This comes down to personal preference, but there are only a few times when you must define a type in TypeScript, for example:
 
-<p class="p1">This comes down to personal preference, but there are only a few times when you must define a type in TypeScript, for example:</p><ol class="ol1"><li class="li1">When initializing a variable with an ambiguous value (eg. null)</li><li class="li1">Function parameters​</li></ol><p class="p1">Of course, there are also times when you may want to be more explicit – you may want to have an interface as a function return value instead of the class, for example.​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>The rest of the time, rely on TypeScript to infer the type for you.</p><dl class="image"><dt><img src="describe.png" alt="describe.png" />​</dt><dd>Figure: Except for the input parameter, TypeScript can infer all the types for this function​</dd></dl>
+1. When initializing a variable with an ambiguous value (eg. null)
+2. Function parameters
 
 
+Of course, there are also times when you may want to be more explicit – you may want to have an interface as a function return value instead of the class, for example.
+
+<!--endintro-->
+
+The rest of the time, rely on TypeScript to infer the type for you.
+
+![Figure: Except for the input parameter, TypeScript can infer all the types for this function](describe.png)
