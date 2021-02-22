@@ -13,20 +13,34 @@ redirects: []
 
 ---
 
+We have needed to create a custom CDN library provider.
 
-<p>We have needed to create a custom CDN library provider.</p><p>Sitefinity manages images, videos, and content on a file system which the website uses.<br>
-                        For larger sites, CDN providers are used for all content that doesn’t need to be on the servers.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Make a new class that inherits from Telerik.Sitefinity.Modules.Libraries.BlobStorage.CloudBlobStorageProvider and override all the methods.<br> You want to save the items to a local path but show an external URL on the actual page.</p><p>Once you have made your class then you need to register it in Sitefinity.<br> Open the config file “App_Data\Sitefinity\Configuration\LibrariesConfig.config” in notepad and register your Class</p><div class="greyBox"><pre>    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-    &lt;librariesConfig xmlns&#58;config=&quot;urn&#58;telerik&#58;sitefinity&#58;configuration&quot; xmlns&#58;type=&quot;urn&#58;telerik&#58;sitefinity&#58;configuration&#58;type&quot; config&#58;version=&quot;5.1.3270.0&quot;&gt;
-        &lt;blobStorage defaultProvider=&quot;CDN&quot;&gt;
-     &lt;providers&gt;
-  &lt;remove name=&quot;FileSystem&quot; /&gt;
-  &lt;add type=&quot;SSW.Sitefinity.Modules.Libraries.BlobStorage.CdnBlobStorageProvider&quot; enabled=&quot;True&quot; name=&quot;CDN&quot; /&gt;
-     &lt;/providers&gt;
- &lt;/blobStorage&gt;
-    &lt;/librariesConfig&gt;
+Sitefinity manages images, videos, and content on a file system which the website uses.
+                         For larger sites, CDN providers are used for all content that doesn’t need to be on the servers.
 
-</pre></div>
+<!--endintro-->
+
+Make a new class that inherits from Telerik.Sitefinity.Modules.Libraries.BlobStorage.CloudBlobStorageProvider and override all the methods.
+ You want to save the items to a local path but show an external URL on the actual page.
+
+Once you have made your class then you need to register it in Sitefinity.
+ Open the config file “App\_Data\Sitefinity\Configuration\LibrariesConfig.config” in notepad and register your Class
 
 
+::: greybox
+
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+    <librariesConfig xmlns:config="urn:telerik:sitefinity:configuration" xmlns:type="urn:telerik:sitefinity:configuration:type" config:version="5.1.3270.0">
+        <blobStorage defaultProvider="CDN">
+     <providers>
+  <remove name="FileSystem" />
+  <add type="SSW.Sitefinity.Modules.Libraries.BlobStorage.CdnBlobStorageProvider" enabled="True" name="CDN" />
+     </providers>
+ </blobStorage>
+    </librariesConfig>
+```
+
+
+:::
