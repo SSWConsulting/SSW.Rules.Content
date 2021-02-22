@@ -14,9 +14,32 @@ redirects:
 
 ---
 
+Sometimes if your cold calling isn't working, no matter how much you try or how great your list is, you might need to convert your cold calls into warm calls. In a nutshell, a warm call is a cold call where the prospect has exposure to your company or what you're trying to sell.
 
-<p>Sometimes if your cold calling isn't working, no matter how much you try or how great your list is, you might need to convert your cold calls into warm calls. In a nutshell, a warm call is a cold call where the prospect has exposure to your company or what you're trying to sell.</p><p>Convert&#160;cold calls into warm calls by sending prospects an&#160;email out. This is what we call a pre-call strategy. This often helps as it allows your prospects a chance to decide if it does or doesn't interest them.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Always assume that they have got it and read it and are interested. Try to resist questions like &#58;</p><p class="ssw15-rteElement-GreyBox">&quot;Did you get my email?&quot;<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example - You never want them to say no to you. See the&#160;<a href=/build-a-yes-ladder-to-your-outbound-script>YES ladder​​</a>&#160;for more details<br></dd><p>Make sure you've already sent them some form of direct marketing, then your introduction should sound like&#58;</p><p class="ssw15-rteElement-GreyBox">&quot;I sent you a fax the other day regarding our training you are interested in&quot;<br></p><div><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example - a warm call<br></dd><p><br></p></div>
+Convert cold calls into warm calls by sending prospects an email out. This is what we call a pre-call strategy. This often helps as it allows your prospects a chance to decide if it does or doesn't interest them.
+
+<!--endintro-->
+
+Always assume that they have got it and read it and are interested. Try to resist questions like :
 
 
+::: greybox
+"Did you get my email?"
+
+:::
+Figure: Bad example - You never want them to say no to you. See the [YES ladder](/build-a-yes-ladder-to-your-outbound-script) for more details
+
+Make sure you've already sent them some form of direct marketing, then your introduction should sound like:
+
+
+::: greybox
+"I sent you a fax the other day regarding our training you are interested in"
+
+:::
+
+
+
+::: good
+Figure: Good example - a warm call
+
+:::
