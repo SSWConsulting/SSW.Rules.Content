@@ -13,21 +13,17 @@ redirects: []
 
 ---
 
+There are 101 bug databases on the market at the moment and of course many companies make up their own in-house systems.  
 
-​There are 101 bug databases on the market at the moment and of course many companies make up their own in-house systems. 
-<br>
-<br><excerpt class='endintro'></excerpt><br>
+<!--endintro-->
+![](bugs.jpg)
+This is a common scenario: Your tester/client finds a bug, they log on to your on-line bug database, and enter the data, they save the error message as a gif and upload the image. As Project Manager, you get notified by email of the bug, you log on to the application, view the image, review the status, assign a priority, and assign it to a developer. The developer receives the email, logs on and sets about fixing the bug. When completed, he logs back on to the application, enters a completed date, and an email is sent to the tester/client. The tester/client logs on, and is told what to test, reviews the work, enters a checked by date, and the final email is sent to the manager who closes the bug.
 
-  <img class="ms-rteCustom-ImageArea" border="0" align="right" src="bugs.jpg" alt="" style="border-width:0px;border-style:solid;border-color:initial;" />
-<p>This is a common scenario: Your tester/client finds a bug, they log on to your on-line bug database, and enter the data, they save the error message as a gif and upload the image. As Project Manager, you get notified by email of the bug, you log on to the application, view the image, review the status, assign a priority, and assign it to a developer. The developer receives the email, logs on and sets about fixing the bug. When completed, he logs back on to the application, enters a completed date, and an email is sent to the tester/client. The tester/client logs on, and is told what to test, reviews the work, enters a checked by date, and the final email is sent to the manager who closes the bug. </p>
-<p>Phew! That sounds like a lot of steps which is why most people resort to just sending an email. I believe most people send requests for tasks via email, if this is the case, why should developers have a separate "to-do" list, in the form of a bug-database in which they re-enter data? </p>
-<p>MS TFS has an Outlook addin which can save you a lot of this work called Team Companion. This has a number of benefits including:</p>
-<ul>
-    <li>Developers don't have to re-enter data </li>
-    <li>TFS fully integrates your bug tracking with your source control.</li>
-    <li>Managers can see important information like Tasks Completed and Tasks Assigned in TFS Reports</li>
-    <li>Clients can see what developers are working on via TFS</li>
-</ul>
+Phew! That sounds like a lot of steps which is why most people resort to just sending an email. I believe most people send requests for tasks via email, if this is the case, why should developers have a separate "to-do" list, in the form of a bug-database in which they re-enter data?
 
+MS TFS has an Outlook addin which can save you a lot of this work called Team Companion. This has a number of benefits including:
 
-
+* Developers don't have to re-enter data
+* TFS fully integrates your bug tracking with your source control.
+* Managers can see important information like Tasks Completed and Tasks Assigned in TFS Reports
+* Clients can see what developers are working on via TFS
