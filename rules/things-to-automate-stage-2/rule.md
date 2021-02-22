@@ -17,14 +17,10 @@ redirects:
 
 ---
 
+Once you’ve identified the manual processes in Stage 1, you can start looking at automation. The best tool for build and release automation is Azure DevOps.
+<!--endintro-->
 
-​<span style="line-height:1.6;">​Once you’ve identified the manual processes in Stage 1, you can start looking at automation. The best tool for build and release automation is Azure DevOps.</span>
-<br><excerpt class='endintro'></excerpt><br>
-<p> ​​<span class="s1">See our 
-      <a href=/rules-to-better-continuous-deployment-with-tfs-2012-and-tfs-2013> 
-         <span class="s2">Rules to Better Continuous Deployments with TFS</span></a></span>. 
-   <br><br> </p><dl class="image"><dt> 
-      <img src="2020-03-23_14-08-39.jpg" alt="2020-03-23_14-08-39.jpg" style="width:808px;" /> 
-   </dt><dd>Figure: In Azure DevOps you can automate application deployment to a staging environment and automatically run tests before deploying to production​<br></dd>​</dl>​ 
+See our 
+      [Rules to Better Continuous Deployments with TFS](/rules-to-better-continuous-deployment-with-tfs-2012-and-tfs-2013).
 
-
+![Figure: In Azure DevOps you can automate application deployment to a staging environment and automatically run tests before deploying to production](2020-03-23\_14-08-39.jpg)
