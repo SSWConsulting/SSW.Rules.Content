@@ -14,9 +14,16 @@ redirects:
 
 ---
 
+If your page requires permission to be accessed it should provide a button for the user to request it.
 
-If your page requires permission to be accessed it should provide a button for the user to request it.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​<img src="no-request-permission.png" alt="no-request-permission.png" />​​</dt><dd>Figure: Bad example -  You just​ don't have access<br></dd></dl><dl class="goodImage"><dt>​​<img src="request-permission.png" alt="request-permission.png" /></dt><dd>Figure: Good example – Office 365 has a "Request Access" button</dd>​ ​<br></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example -  You just don't have access](no-request-permission.png)  
+:::
+
+
+::: good  
+![Figure: Good example – Office 365 has a "Request Access" button](request-permission.png)  
+:::
