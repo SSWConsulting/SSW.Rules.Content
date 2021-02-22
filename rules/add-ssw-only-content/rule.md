@@ -17,11 +17,15 @@ redirects:
 
 ---
 
-
-<p class="ssw15-rteElement-P">​Select the element "SSW Internal Block" to show content only internally. <br></p><div class="ssw15-rteElement-ContentBlock-SSW-Only">This is an example of "SSW Only" content.​<br></div><br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> <img src="internal-only.jpg" alt="internal-only.jpg" /> </dt><dd>Figure: Use this "SSW Internal Block" style to insert a section for "SSW Only" content <br>
-      <br></dd></dl><dl class="image"><dt><img src="ssw-only-signedin.jpg" alt="ssw-only-signedin.jpg" /></dt><dd>Figure: When signed in, you can see "ssw only" content</dd></dl><dl class="image"><dt><img src="ssw-only-signedoff.jpg" alt="ssw-only-signedoff.jpg" /></dt><dd>Figure: When signed off, you cannot ​ see "ssw only" content</dd></dl><p>
-   <b>Note:</b> We have "SSW only content block" feature, however, Rules.SSW is a public website, which means technically the content is accessible through API, so please do not use it for confidential or sensitive info.<br></p>
+Select the element "SSW Internal Block" to show content only internally.
 
 
+<!--endintro-->
+
+![Figure: Use this "SSW Internal Block" style to insert a section for "SSW Only" content](internal-only.jpg)  
+
+![Figure: When signed in, you can see "ssw only" content](ssw-only-signedin.jpg)  
+
+![Figure: When signed off, you cannot  see "ssw only" content](ssw-only-signedoff.jpg)  
+
+**Note:** We have "SSW only content block" feature, however, Rules.SSW is a public website, which means technically the content is accessible through API, so please do not use it for confidential or sensitive info.
