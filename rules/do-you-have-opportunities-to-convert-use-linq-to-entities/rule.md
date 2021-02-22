@@ -13,9 +13,7 @@ redirects: []
 
 ---
 
+Look for inline SQL to see whether you can replace it with Linq to Entities.
 
-<p><span lang="EN-AU">Look for inline SQL​ to see whether you can replace it with Linq to Entities.</span></p>
-<br><excerpt class='endintro'></excerpt><br>
-<img class="ms-rteCustom-ImageArea" border="0" alt="Speed camera" src="speed-camera.jpg" /> <span class="ms-rteCustom-FigureNormal">Figure: SQL Injection for Speed Cameras :-)</span><span class="ms-rteCustom-FigureNormal"></span>
-
-
+<!--endintro-->
+![Speed camera](speed-camera.jpg)**Figure: SQL Injection for Speed Cameras :-)**
