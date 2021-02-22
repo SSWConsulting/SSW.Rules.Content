@@ -13,10 +13,6 @@ redirects: []
 
 ---
 
+It's important that you review [Microsoft's KB Article for CRM 4.0 hotfix information, download the hotfixes and apply them to your server.](https&#58;//support.microsoft.com/en-us/topic/microsoft-dynamics-crm-4-0-updates-and-hotfixes-4a09e305-7d54-7a7b-005b-cb73a3ce0bd8)
 
-<p>
-   <span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">​It's important that you review </span><a href="https&#58;//support.microsoft.com/en-us/topic/microsoft-dynamics-crm-4-0-updates-and-hotfixes-4a09e305-7d54-7a7b-005b-cb73a3ce0bd8"><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">Microsoft's KB Article</span><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">&#160;​</span><span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.7969px;">for CRM 4.0 hotfix information, download the hotfixes and apply them to your server.​</span>​</a></p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
