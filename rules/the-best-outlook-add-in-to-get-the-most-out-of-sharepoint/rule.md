@@ -14,10 +14,30 @@ redirects:
 
 ---
 
-
-<p class="ssw15-rteElement-GreyBox">Using no Outlook add-in</p><dd class="ssw15-rteElement-FigureBad">Bad Example </dd><p class="ssw15-rteElement-GreyBox">Colligo , Harmon.ie and Macroview </p><p></p><dd class="ssw15-rteElement-FigureNormal">OK Example </dd><p class="ssw15-rteElement-GreyBox">OnePlaceMail</p>​
-<dd class="ssw15-rteElement-FigureGood">Good Example </dd>
-<br><excerpt class='endintro'></excerpt><br>
-
+::: greybox
+Using no Outlook add-in  
+:::
 
 
+::: bad
+Bad Example  
+:::
+
+
+::: greybox
+Colligo , Harmon.ie and Macroview  
+:::
+
+
+ **OK Example** 
+
+::: greybox
+OnePlaceMail  
+:::
+
+
+::: good
+Good Example  
+:::
+
+<!--endintro-->
