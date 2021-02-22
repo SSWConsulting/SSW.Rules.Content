@@ -14,14 +14,16 @@ redirects:
 
 ---
 
+Zendesk support agents can have chat enabled, allowing them to answer chats from the website.
 
-<p class="ssw15-rteElement-P">Zendesk support agents can have chat enabled, allowing them to answer chats from the website.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="zendesk-enable-chat-1-min.jpg" alt="zendesk-enable-chat-1-min.jpg" />​​​<span style="color:#555555;font-size:0.9rem;font-weight:bold;">Figure: the chat icon in the bottom right of the page can be available on any part of your site</span></dt></dl><dl class="image"><dt><img src="zendesk-enable-chat-2-min.jpg" alt="zendesk-enable-chat-2-min.jpg" /></dt><dd>Figure: clicking on it brings up this form, allowing capture of customer data and conversation</dd></dl><p>To enable this, navigate to 
-   <b>Admin</b> (cog) | 
-   <b>People</b> | 
-   <b>&lt;Agent’s name&gt;</b> | flick the “<b>Zendesk Chat</b>” switch:<br>
-   
-   </p><dl class="image"><dt><img src="zendesk-enable-chat-3-min.jpg" alt="zendesk-enable-chat-3-min.jpg" /></dt></dl><p><strong>Note:</strong> Be aware that this requires a chat license, so should only be enabled for people who will be doing it.​<br></p>
+<!--endintro-->
 
+![](zendesk-enable-chat-1-min.jpg)  
 
+![Figure: clicking on it brings up this form, allowing capture of customer data and conversation](zendesk-enable-chat-2-min.jpg)  
+
+To enable this, navigate to      **Admin** (cog) |      **People** |      **&lt;Agent’s name&gt;** | flick the “ **Zendesk Chat** ” switch:
+
+![](zendesk-enable-chat-3-min.jpg)  
+
+**Note:** Be aware that this requires a chat license, so should only be enabled for people who will be doing it.
