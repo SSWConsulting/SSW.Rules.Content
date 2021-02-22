@@ -14,11 +14,41 @@ redirects:
 
 ---
 
+Windows has a built-in storage solution called  **Storage Spaces** that allows you to group 3 or more storage drives to create a bigger pool; however, that technology, whilst useful, has some better third-party contenders like  **Drive Bender** , which does the same thing better and faster.
 
-​Windows has a built-in storage solution called <b>Storage Spaces</b> that allows you to group 3 or more storage drives to create a bigger pool; however, that technology, whilst useful, has some better third-party contenders like <b>Drive Bender</b>, which does the same thing better and faster.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>With <b>Drive Bender</b>, you also have software RAID, disk grouping, and file duplication that you find in Storage Spaces, but with a better interface and faster transfer rates.<br></p><h3>Drive Bender Pros<br></h3><ol><li>Nice UI with lots of functionality<br></li><li>Regular updates</li><li>Heaps of configuration options</li><li>Friendly (and fast!) customer support (Bonus: They are located in Sydney, Australia, just like SSW! 😃)</li><li>Easy add and remove of drives to the pool</li><li>Check your disk health automatically</li><li>Get notifications on pool status<br></li></ol><h3>Drive Bender Cons​<br></h3><ol><li>Storage Spaces is "free" (built-in in Windows Server), Drive Bender is $54.95 for 3 machines (still cheap, forever)<br></li></ol><div>
-   <font color="#333333"><br></font></div><p>Have a look at 
-   <a href="https://www.division-m.com/drivebender/">https://www.division-m.com/drivebender/</a> for more info on Drive Bender!<br><br></p><dl class="badImage"><dt><img src="storage-spaces.jpg" alt="storage-spaces.jpg" style="width:750px;" /></dt><dd>Figure: Bad Example – Bad UI for Storage Spaces</dd></dl><dl class="goodImage"><dt><img src="drive-bender.png" alt="drive-bender.png" style="width:750px;" /></dt><dd>Figure: Good Example – Nice UI for Drive Bender</dd></dl>
+<!--endintro-->
+
+With  **Drive Bender** , you also have software RAID, disk grouping, and file duplication that you find in Storage Spaces, but with a better interface and faster transfer rates.
+
+### Drive Bender Pros
 
 
+1. Nice UI with lots of functionality
+2. Regular updates
+3. Heaps of configuration options
+4. Friendly (and fast!) customer support (Bonus: They are located in Sydney, Australia, just like SSW! 😃)
+5. Easy add and remove of drives to the pool
+6. Check your disk health automatically
+7. Get notifications on pool status
+
+
+### Drive Bender Cons
+
+
+1. Storage Spaces is "free" (built-in in Windows Server), Drive Bender is $54.95 for 3 machines (still cheap, forever)
+
+
+<font color="#333333">
+</font>
+
+Have a look at     https://www.division-m.com/drivebender/ for more info on Drive Bender!
+
+
+::: bad  
+![Figure: Bad Example – Bad UI for Storage Spaces](storage-spaces.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example – Nice UI for Drive Bender](drive-bender.png)  
+:::
