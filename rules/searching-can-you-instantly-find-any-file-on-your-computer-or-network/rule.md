@@ -13,9 +13,9 @@ redirects: []
 
 ---
 
+Often you will want to quickly find a file on your computer or local network. With the advancement in built in search functionality on the latest operating systems this is easy to do and can help you quickly and easily find your local files or network file locations.
 
-<p>Often you will want to quickly find a file on your computer or local network.&#160;With the advancement in built in search functionality on the latest operating systems this is easy to do and can help you quickly and easily find your local files or network file locations.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p></p>If you are using Windows Vista - Windows 10, desktop search is integrated within the operating system. This can either be done from the Start Menu, Cortana or File Explorer.<br>
+<!--endintro-->
 
 
+If you are using Windows Vista - Windows 10, desktop search is integrated within the operating system. This can either be done from the Start Menu, Cortana or File Explorer.
