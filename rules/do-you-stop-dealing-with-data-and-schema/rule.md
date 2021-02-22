@@ -13,10 +13,12 @@ redirects: []
 
 ---
 
+Why don't most developers plan ahead? Take an average Desktop application that you sell to a few customers. When the customer wants a new version, there is no problem giving the customer the new exe. But what if you made a back-end structural [changes to your database](http&#58;//www.ssw.com.au/ssw/Standards/Rules/DataSchemaStandard.aspx)? Big hassle! You need to compare the database to remind you what was changed. Sure there are utilities for this - for Access back ends you can use [SSW Data Renovator](http&#58;//www.ssw.com.au/ssw/DataRenovator/Default.aspx) or for SQL Server back ends there is [Red-gate SQL Compare](http&#58;//www.ssw.com.au/ssw/Redirect/RedGateSQLDataCompare.htm)  - but why go to this trouble?
 
-<p>Why don't most developers plan ahead? Take an average Desktop application that you sell to a few customers. When the customer wants a new version, there is no problem giving the customer the new exe. But what if you made a back-end structural <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/DataSchemaStandard.aspx"> changes to your database</a>? Big hassle! You need to compare the database to remind you what was changed. Sure there are utilities for this - for Access back ends you can use <a href="http&#58;//www.ssw.com.au/ssw/DataRenovator/Default.aspx">SSW Data Renovator</a> or for SQL Server back​&#160;ends there is <a href="http&#58;//www.ssw.com.au/ssw/Redirect/RedGateSQLDataCompare.htm" target="_blank">Red-gate SQL Compare</a>  - but why go to this trouble?</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Version control for your Schema and where required your Data should be an important part of planning your projects.<br></p><p>For more information read&#160;<a>Rules to Better SQL Server Schema Deployment​</a><br><br></p><p class="ssw15-rteElement-YellowBorderBox">​We have a program called 
-   <a href="http&#58;//www.ssw.com.au/ssw/SQLDeploy/Default.aspx">SSW SQL Deploy</a> to solve this problem and automatically make schema changes.</p>
+<!--endintro-->
 
+Version control for your Schema and where required your Data should be an important part of planning your projects.
 
+For more information read Rules to Better SQL Server Schema Deployment
+
+We have a program called     [SSW SQL Deploy](http&#58;//www.ssw.com.au/ssw/SQLDeploy/Default.aspx) to solve this problem and automatically make schema changes.
