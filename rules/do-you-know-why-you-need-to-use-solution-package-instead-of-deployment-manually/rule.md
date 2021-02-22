@@ -15,21 +15,16 @@ redirects: []
 
 ---
 
+As a server product, SharePoint supports lots of configuration, but the support for packaging and deploying changes between servers remains very week.
 
+The experts agree that the best and preferred way to package a set of changes is to build a solution package.  A SharePoint solution package includes all the components and dependent files packed in a cab file.
 
-  <p>As a server product, SharePoint supports lots of configuration, but the support for packaging and deploying changes between servers remains very week.</p>
-<p>The experts agree that the best&#160;and preferred way&#160;to package a set of changes is to build a solution package.&#160; A SharePoint solution package includes all the components and dependent files packed in a cab file.</p>
-<p>There are&#160;many reasons why you need to use solution package&#58; </p>
+There are many reasons why you need to use solution package:
 
-<br><excerpt class='endintro'></excerpt><br>
+<!--endintro-->
 
-  <ol type="1">
-    <li class="MsoNormal"><span>All&#160;dependent files and components are in the package - allowing developers to&#160;quickly deploy development, testing, staging and production servers.&#160;</span> </li>
-    <li class="MsoNormal"><span>Manual steps are very long, and error prone</span> </li>
-    <li class="MsoNormal"><span>Solution packages are easy to retract</span> </li>
-    <li class="MsoNormal"><span>Minimize downtime in the SharePoint production server during an upgrade operation</span> </li>
-    <li class="MsoNormal"><span>No content data loss during upgrades - SharePoint backup/restore deployment methods will block users from making changes to the production the site during the upgrade period</span></li>
-</ol>
-
-
-
+1. All dependent files and components are in the package - allowing developers to quickly deploy development, testing, staging and production servers.
+2. Manual steps are very long, and error prone
+3. Solution packages are easy to retract
+4. Minimize downtime in the SharePoint production server during an upgrade operation
+5. No content data loss during upgrades - SharePoint backup/restore deployment methods will block users from making changes to the production the site during the upgrade period
