@@ -13,14 +13,11 @@ redirects: []
 
 ---
 
+Your existing clients should always be the first thing on your mind. Any work relating to *existing* clients should be done before looking into anything else, including *prospective* client work.   
+<!--endintro-->
 
-​Your existing clients should always be the first thing on your mind. Any work relating to <i>existing</i> clients should be done before looking into anything else, including <i>prospective</i> client work. 
+In order to gain a good reputation in the industry, it is vital to make existing clients happy. If you are seen as being more interested in getting new clients than satisfying old ones, not only will you not receive return business, but you may have lost credibility in the industry and the chance of referrals from their contacts.
 
-<br><excerpt class='endintro'></excerpt><br>
+A good way to think of it is "is the ball in their court?" This means that your client is never waiting for you to do something, and that if there is a bottleneck; it is not on your end.
 
-  <p>In order to gain a good reputation in the industry, it is vital to make existing clients happy. If you are seen as being more interested in getting new clients than satisfying old ones, not only will you not receive return business, but you may have lost credibility in the industry and the chance of referrals from their contacts. </p>
-<p>A good way to think of it is &quot;is the ball in their court?&quot; This means that your client is never waiting for you to do something, and that if there is a bottleneck; it is not on your end. </p>
-<p>A good saying pertaining to keeping your existing clients happy is&#58; &quot;A bird in the hand is worth two in the bush&quot;. </p>
-
-
-
+A good saying pertaining to keeping your existing clients happy is: "A bird in the hand is worth two in the bush".
