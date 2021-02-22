@@ -24,9 +24,9 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
  <dl class="image">
           <dt>
-            <img alt="Delete rubbish lead" src="/PublishingImages/CRMDeleteLead.jpg" /></dt>
+            <img alt="Delete rubbish lead" src="CRMDeleteLead.jpg" /></dt>
           <dd>
-            Figure&#58; Delete rubbish lead</dd>
+            Figure: Delete rubbish lead</dd>
         </dl>
 
 
