@@ -16,20 +16,40 @@ redirects: []
 
 ---
 
+A Favicon is a small image file included on professionally developed sites. The favicon reflects the look and feel of the website or the organizations' visual identity.
 
-<p>A Favicon is a small image file included on professionally developed sites. The favicon reflects the look and feel of the website or the organizations' visual identity.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="favicon-bad.jpg" alt="" /> 
-   </dt><dd>Figure: Bad Example - When you don't add a favicon the user sees a generic icon</dd></dl><dl class="goodImage"><dt> 
-      <img src="favicon-good.jpg" alt="" /> 
-   </dt><dd> Figure: Good Example - Using the favicon gives your website professional look and feel</dd></dl><h3>Which formats and sizes to use?</h3><p>The format of the image must be one of PNG (a W3C standard), GIF, or ICO. You can export your favicon in all necessary sizes on <a href="https://realfavicongenerator.net/">Favicon Generator website</a>.<br></p><h3>How to implement the favicon?</h3><ol><li>Copy your company's favicon to the root of the site</li><li>Add the highlighted code below inside the &lt;HEAD&gt; tags in your HTML</li></ol><p class="ssw15-rteElement-GreyBox">&lt;head&gt;<br>			 &lt;title&gt;Page Title&lt;/title&gt;<br>			 
-   <span class="ssw15-rteStyle-Highlight">&lt;link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" /&gt;</span><br>			 &lt;/head&gt;</p>			 
-<strong>Figure: One line of HTML lets you add your company's icon to your web page</strong>
-<div>
-   <b><br></b><strong></strong>
-   <p>This works for most websites, including ASPX WebForms, MVC and WordPress.</p><p class="ssw15-rteElement-YellowBorderBox"> We have 
-      <a href="https://www.ssw.com.au/ssw/CodeAuditor/">SSW CodeAuditor</a> and 
-      <a href="https://www.ssw.com.au/ssw/LinkAuditor/">SSW LinkAuditor</a> to check for this rule.​​<br></p></div>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - When you don't add a favicon the user sees a generic icon](favicon-bad.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - Using the favicon gives your website professional look and feel](favicon-good.jpg)  
+:::
+
+### Which formats and sizes to use?
+
+The format of the image must be one of PNG (a W3C standard), GIF, or ICO. You can export your favicon in all necessary sizes on [Favicon Generator website](https://realfavicongenerator.net/).
+
+### How to implement the favicon?
+
+1. Copy your company's favicon to the root of the site
+2. Add the highlighted code below inside the &lt;HEAD&gt; tags in your HTML
+
+
+
+::: greybox
+&lt;head&gt;
+			 &lt;title&gt;Page Title&lt;/title&gt;
+<mark>&lt;link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" /&gt;</mark>
+			 &lt;/head&gt;  
+:::
+**Figure: One line of HTML lets you add your company's icon to your web page** 
+**
+**  
+This works for most websites, including ASPX WebForms, MVC and WordPress.
+
+We have        [SSW CodeAuditor](https://www.ssw.com.au/ssw/CodeAuditor/) and        [SSW LinkAuditor](https://www.ssw.com.au/ssw/LinkAuditor/) to check for this rule.
