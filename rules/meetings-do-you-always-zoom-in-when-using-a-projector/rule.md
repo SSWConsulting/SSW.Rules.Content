@@ -13,19 +13,10 @@ redirects: []
 
 ---
 
+It is a common problem that people will tend to use the default screen resolution when displaying something on a projector for a room full of people to read. This is difficult for people to see because of the distances involved.
 
-<p>It is a common problem that people will tend to use the default screen resolution when displaying something on a projector for a room full of people to read. This is difficult for people to see because of the distances involved.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>It is always better to zoom in by holding down the CTRL button and scrolling up on the mouse.</p>
- 
-               <dl class="image">
-                 <dt>
-                    <img src="ZoomInEmail.jpg" alt="Zoom in email " style="width:550px;" />
-                  </dt>
-                  <dd>
-                    Figure: Zoom in email             
-                   </dd>
-                </dl>
+<!--endintro-->
 
+It is always better to zoom in by holding down the CTRL button and scrolling up on the mouse.
 
-
+![Figure: Zoom in email](ZoomInEmail.jpg)
