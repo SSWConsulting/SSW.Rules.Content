@@ -28,6 +28,5 @@ index:
 - do-you-use-the-best-deployment-tool
 
 ---
-<p>​If you still need help, <a href="https&#58;//www.ssw.com.au/ssw/Consulting/DevOps.aspx">​visit our DevOps consulting page​</a> ​and book in a consultant.​​​<br></p>
-
+If you still need help, [visit our DevOps consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
 
