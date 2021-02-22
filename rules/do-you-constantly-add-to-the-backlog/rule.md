@@ -15,27 +15,21 @@ redirects: []
 
 ---
 
+In the course of work everyone encounters bugs or problems. They can be dealt with by either:
+
+    1. Pretend you didn't see the problem
+    2. Fixing it straight away
+    3. Add the issue to the backlog so someone else can fix it
 
 
-  <p>In the course of work everyone encounters bugs or problems. They can be dealt with by either&#58;<br></p>
-<ol>
-    <ol>
-        <li>Pretend you didn't see the problem </li>
-        <li>Fixing it straight away </li>
-        <li>Add the issue to the backlog so someone else can fix it </li>
-    </ol>
-</ol>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
+The best solution is to use a combination of 2 and 3.
 
-  <p>The best solution is to use a combination of 2 and 3. </p>
-<ul>
-    <li>If it will take less 15 mins to fix, do it straight away. </li>
-    <li>If it will take more time, add the problem to the product backlog and email a link to the appropriate person (even if it’s a third party product).<br></li>
-</ul>
-<p>This approach raises the question of priorities. If you hit too many hurdles you continually get diverted from the main task&#58; for example when fixing&#160;the Client form&#160;you encounter a problem with the Client Contact form which breaks&#160;the Products form&#160;etc. (This can be described as the &quot;Tree Approach&quot; as opposed to the &quot;Straight through to the Goal approach&quot;.)</p>
-<p>You need to try to balance short term productivity with long term improvements. My view is that it is better to get 2 things done at 100% than get 4 things done at 75%! At a minimum, always add the issue to the backlog.</p>
-<p>&#160;</p>
+* If it will take less 15 mins to fix, do it straight away.
+* If it will take more time, add the problem to the product backlog and email a link to the appropriate person (even if it’s a third party product).
 
 
+This approach raises the question of priorities. If you hit too many hurdles you continually get diverted from the main task: for example when fixing the Client form you encounter a problem with the Client Contact form which breaks the Products form etc. (This can be described as the "Tree Approach" as opposed to the "Straight through to the Goal approach".)
 
+You need to try to balance short term productivity with long term improvements. My view is that it is better to get 2 things done at 100% than get 4 things done at 75%! At a minimum, always add the issue to the backlog.
