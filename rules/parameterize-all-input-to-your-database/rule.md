@@ -14,9 +14,124 @@ redirects:
 
 ---
 
+It is important to parameterize all input to your database and it’s easy to implement.
+Doing so will also reduce a lot of headaches down the track.
 
-It is important to parameterize all input to your database and it’s easy to implement.<br>Doing so will also reduce a lot of headaches down the track.<div><br> <img src="ParameterizeSqlInputsXKCD.png" alt="ParameterizeSqlInputsXKCD.png" style="margin:5px;" /><dd class="ssw15-rteElement-FigureNormal">Figure: What can happen if you don’t parameterize your inputs<br>Source: <a href="https://xkcd.com/327/">xkcd.com​</a><br></dd></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​​<br></p><dd class="ssw15-rteElement-FigureGood">​Advantages<br></dd><ul><li>​Prevents SQL injection attacks</li><li>Preserves types being sent to the database</li><li>Increased performance by reducing the number of query plans</li><li>Makes your code more readable<br></li></ul><p class="ssw15-rteElement-CodeArea">​SELECT Id, CompanyName, ContactName, ContactTitle<br>FROM dbo.Customers<br>WHERE CompanyName = 'NorthWind';<br></p><dd class="ssw15-rteElement-FigureBad">​Figure: Bad Example - Using a dynamic SQL query<br></dd><p class="ssw15-rteElement-CodeArea">SELECT Id, CompanyName, ContactName, ContactTitle<br>FROM dbo.Customers<br>WHERE CompanyName = @companyName;<br></p><dd class="ssw15-rteElement-FigureGood">​Figure: Good Example - Using a parameterized query​<br></dd><h3 class="ssw15-rteElement-H3">​​Should I use Parameters.AddWithValue()?<br></h3><p>Using Parameters.AddWithValue() can be a bit of a shortcut as you don’t need to specify a type. However shortcuts often have their dangers and this one certainly does.<br><br>For most cases <a href="https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.addwithvalue?view=netframework-4.8">Parameters.AddWithValue()</a> will guess correctly, but sometimes it doesn’t which can lead to the value being misinterpreted when sent to the database. This can be avoided using <a href="https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.add?view=netframework-4.8">Parameters.Add()</a> and specifying the <a href="https://docs.microsoft.com/en-us/dotnet/api/system.data.sqldbtype?view=netframework-4.8">SqlDbType</a>, this will ensure the data will reach the database in the correct form.​<br></p><p class="ssw15-rteElement-P">When using dates, strings, varchar and nvarchar it is strongly recommended to use <strong>Parameters.Add()</strong> as there is a possibility of <strong>Parameters.AddWithValue()</strong> to incorrectly guess the type. <br></p><p>​<span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">​​</span><span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">​Implementing parameterized queries using Parameters.Add()</span></p><p class="ssw15-rteElement-CodeArea">cmd.Parameters.Add("@varcharValue", System.Data.SqlDbType.Varchar, 20).Value = “Text”;<br></p><dd class="ssw15-rteElement-FigureGood">​​Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 characters (-1 for MAX)<br></dd><p class="ssw15-rteElement-CodeArea">cmd.Parameters.Add("@decimalValue", System.Data.SqlDbType.Decimal, 11, 4).Value = decimalValue;<br></p><dd class="ssw15-rteElement-FigureGood">​Figure: Good Example – Using decimal(11,4) SQL Parameter<br></dd><p class="ssw15-rteElement-CodeArea">​​cmd.Parameters.Add("@dateTimeValue", System.Data.SqlDbType.DateTime2).Value = DateTime.UtcNow;<br></p><dd class="ssw15-rteElement-FigureGood">​Figure: Good Example - C#, VB .NET SQL DateTime Parameter<br></dd><p class="ssw15-rteElement-CodeArea">​$SqlCmd.Parameters.Add("@dateTimeValue", [System.Data.SqlDbType]::DateTime2).Value = $dateTime2Value<br></p><dd class="ssw15-rteElement-FigureGood">​Figure: Good Example - PowerShell SQL DateTime Parameter<br></dd><p></p>
+ ![](ParameterizeSqlInputsXKCD.png) **Figure: What can happen if you don’t parameterize your inputs
+Source: [xkcd.com](https://xkcd.com/327/)
+** 
+
+<!--endintro-->
 
 
+
+
+::: good
+Advantages
+
+:::
+
+* Prevents SQL injection attacks
+* Preserves types being sent to the database
+* Increased performance by reducing the number of query plans
+* Makes your code more readable
+
+
+
+
+```
+SELECT Id, CompanyName, ContactName, ContactTitle
+FROM dbo.Customers
+WHERE CompanyName = 'NorthWind';
+```
+
+
+
+
+::: bad
+Figure: Bad Example - Using a dynamic SQL query
+
+:::
+
+
+
+```
+SELECT Id, CompanyName, ContactName, ContactTitle
+FROM dbo.Customers
+WHERE CompanyName = @companyName;
+```
+
+
+
+
+::: good
+Figure: Good Example - Using a parameterized query
+
+:::
+
+### Should I use Parameters.AddWithValue()?
+
+
+Using Parameters.AddWithValue() can be a bit of a shortcut as you don’t need to specify a type. However shortcuts often have their dangers and this one certainly does.
+
+For most cases [Parameters.AddWithValue()](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.addwithvalue?view=netframework-4.8) will guess correctly, but sometimes it doesn’t which can lead to the value being misinterpreted when sent to the database. This can be avoided using [Parameters.Add()](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlparametercollection.add?view=netframework-4.8) and specifying the [SqlDbType](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqldbtype?view=netframework-4.8), this will ensure the data will reach the database in the correct form.
+
+When using dates, strings, varchar and nvarchar it is strongly recommended to use  **Parameters.Add()** as there is a possibility of  **Parameters.AddWithValue()** to incorrectly guess the type.
+
+Implementing parameterized queries using Parameters.Add()
+
+
+
+```
+cmd.Parameters.Add("@varcharValue", System.Data.SqlDbType.Varchar, 20).Value = “Text”;
+```
+
+
+
+
+::: good
+Figure: Good Example – Using VarChar SqlDbType and specifying a max of 20 characters (-1 for MAX)
+
+:::
+
+
+
+```
+cmd.Parameters.Add("@decimalValue", System.Data.SqlDbType.Decimal, 11, 4).Value = decimalValue;
+```
+
+
+
+
+::: good
+Figure: Good Example – Using decimal(11,4) SQL Parameter
+
+:::
+
+
+
+```
+cmd.Parameters.Add("@dateTimeValue", System.Data.SqlDbType.DateTime2).Value = DateTime.UtcNow;
+```
+
+
+
+
+::: good
+Figure: Good Example - C#, VB .NET SQL DateTime Parameter
+
+:::
+
+
+
+```
+$SqlCmd.Parameters.Add("@dateTimeValue", [System.Data.SqlDbType]::DateTime2).Value = $dateTime2Value
+```
+
+
+
+
+::: good
+Figure: Good Example - PowerShell SQL DateTime Parameter
+
+:::
