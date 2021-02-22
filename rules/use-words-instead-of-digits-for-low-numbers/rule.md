@@ -13,12 +13,51 @@ redirects:
 
 ---
 
-
-Whenever writing numbers for a web
-audience, it's generally a good idea to use numerals, especially for
-complicated numbers. Numerals are more easily noticed when a page is scanned by
-a user's eye.<br>For example&#58;
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-GreyBox">​There are seventy three good reasons to do this.</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - The number is spelled out.</dd><p class="ssw15-rteElement-GreyBox">There are 73 good reasons to do this.</p><div><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - This is easy to read and more noticeable</dd><br></div><div>The exception is generally very small numbers (one and two) which are normally spelled out.</div><p class="ssw15-rteElement-GreyBox">2 heads are better than 1.</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - Numerals used</dd><p class="ssw15-rteElement-GreyBox">Two heads are better than one</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Numbers are spelled out</dd>
+Whenever writing numbers for a web audience, it's generally a good idea to use numerals, especially for complicated numbers. Numerals are more easily noticed when a page is scanned by a user's eye.
+For example: 
+<!--endintro-->
 
 
+::: greybox
+There are seventy three good reasons to do this.  
+:::
+
+
+::: bad
+Figure: Bad Example - The number is spelled out.  
+:::
+
+
+::: greybox
+There are 73 good reasons to do this.  
+:::
+
+
+
+::: good
+Figure: Good Example - This is easy to read and more noticeable  
+:::
+
+
+
+The exception is generally very small numbers (one and two) which are normally spelled out.
+
+
+::: greybox
+2 heads are better than 1.  
+:::
+
+
+::: bad
+Figure: Bad Example - Numerals used  
+:::
+
+
+::: greybox
+Two heads are better than one  
+:::
+
+
+::: good
+Figure: Good Example - Numbers are spelled out  
+:::
