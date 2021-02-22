@@ -14,11 +14,17 @@ redirects:
 
 ---
 
+If you criticize your staff:
 
-<p>​​If you criticize your staff:<br></p><ul><li>You don't make lasting changes<br></li><li>They will resent you, resulting in lower productivity and employee morale</li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<p>For example: If one of your responsibilities is to make sure all your developers sent "test please" emails, you can run around with a lot of authority telling them they'd better comply, but at soon as you're not around, they will resent you and not bother about it.</p><p>A better approach is, when you see developers not sending "test please" emails, explain that they save time by getting early feedback, allowing bugs to be fixed while it's still fresh in the developers' minds. Explain to them that the cost of a bug increases over time.​</p><div><dl class="image"><dt>
-         <img alt="Don't Criticize" src="DontCriticize.jpg" />​ 
-      </dt><dd> Figure: "The floggings will continue until morale improves"</dd></dl></div>
+* You don't make lasting changes
+* They will resent you, resulting in lower productivity and employee morale
 
 
+<!--endintro-->
+
+For example: If one of your responsibilities is to make sure all your developers sent "test please" emails, you can run around with a lot of authority telling them they'd better comply, but at soon as you're not around, they will resent you and not bother about it.
+
+A better approach is, when you see developers not sending "test please" emails, explain that they save time by getting early feedback, allowing bugs to be fixed while it's still fresh in the developers' minds. Explain to them that the cost of a bug increases over time.
+
+
+![Figure: "The floggings will continue until morale improves"](DontCriticize.jpg)
