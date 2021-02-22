@@ -16,9 +16,9 @@ redirects: []
 ---
 
 
-<p class="ssw15-rteElement-P">The&#160;<a href="https&#58;//www.microsoft.com/en-us/download/details.aspx?id=50039%22%20%5co%20%22https&#58;//www.microsoft.com/en-us/download/details.aspx?id=50039">Microsoft Dynamics 365 Implementation Guide</a> contains&#160;essential information on installation pre-requisites and planning, implementation tools and troubleshooting.​<br></p>
+<p class="ssw15-rteElement-P">The <a href="https://www.microsoft.com/en-us/download/details.aspx?id=50039%22%20%5co%20%22https://www.microsoft.com/en-us/download/details.aspx?id=50039">Microsoft Dynamics 365 Implementation Guide</a> contains essential information on installation pre-requisites and planning, implementation tools and troubleshooting.​<br></p>
                 
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="/PublishingImages/microsoft-dynamics-365-implementation-guide-screenshot-contents.png" alt="microsoft-dynamics-365-implementation-guide-screenshot-contents.png" style="width&#58;750px;" /></dt><dd>Figure&#58; Searching the PDF version of the implementation guide is much nicer than the Word document</dd></dl>​<br>
+<dl class="image"><dt><img src="microsoft-dynamics-365-implementation-guide-screenshot-contents.png" alt="microsoft-dynamics-365-implementation-guide-screenshot-contents.png" style="width:750px;" /></dt><dd>Figure: Searching the PDF version of the implementation guide is much nicer than the Word document</dd></dl>​<br>
 
 
