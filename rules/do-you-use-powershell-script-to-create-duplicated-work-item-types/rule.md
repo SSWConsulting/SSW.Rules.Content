@@ -19,9 +19,9 @@ types, e.g. a task work item may be clones as PlatformDepTask, SystemDepTask;
 both of these task work items are sharing the same fields, workflow or layouts,
 but they are configured to be accessible by different department or there is some other minor differences.<br><br>You should create a WIT template and use a place
 holder for the difference, e.g.
-<span class="ssw-rteStyle-CodeArea">{ltHTMLChar}WORKITEMTYPE
-name=&quot;xxxxDepNamexxxxTask&quot;{gtHTMLChar}<br><br>&#160; …
-<br><br>{ltHTMLChar}/WORKITEMTYPE{gtHTMLChar}</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; WIT template with place holder&#160;
+<span class="ssw-rteStyle-CodeArea">&lt;WORKITEMTYPE
+name=&quot;xxxxDepNamexxxxTask&quot;&gt;<br><br>&#160; …
+<br><br>&lt;/WORKITEMTYPE&gt;</span><span class="ssw-rteStyle-FigureNormal">Figure&#58; WIT template with place holder&#160;
 ​</span>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
