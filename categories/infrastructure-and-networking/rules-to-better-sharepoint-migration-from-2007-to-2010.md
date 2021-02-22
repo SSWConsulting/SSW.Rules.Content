@@ -21,6 +21,17 @@ index:
 - do-you-confirm-there-is-no-checked-out-data
 
 ---
-<p>​Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;​</p><p>If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx">SharePoint Server ​Consulting​</a>&#160;and book in a consultant.</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [SharePoint Server Consulting](http&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
+
+Migrating from SharePoint 2007 to SharePoint 2010 can be a daunting task, but if you follow this guide you will be able to migrate with minimum problems.
+
+ 
+
+These rules focus on migrating from a single server configuration of SharePoint 2007 to a single server configuration of SharePoint 2010. We will assume your SharePoint 2007 server has the DNS of sharepoint.northwind.com
+
+ 
+
+Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments. Let us know what you think.
 
