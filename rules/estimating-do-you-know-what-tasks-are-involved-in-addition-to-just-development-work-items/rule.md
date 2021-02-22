@@ -19,10 +19,11 @@ redirects: []
 
 ---
 
+Just like how a beautiful house is more than the bricks, a software project is more than the sum of the coding tasks. 
 
-Just like how a beautiful house is more than the bricks, a software project is more than the sum of the coding tasks. <br><br>Let's see what should be included &#58; 
-<br><excerpt class='endintro'></excerpt><br>
-<p>In fact, for every 1 hour of 'application building' coding tasks there is between 1 and 4 hours of other work which SSW will charge for. This&#160;other work includes administration, testing and bug fixing.</p>
-<p>Here is a <a href="/spec-do-you-know-how-to-estimate-a-project-(that-include-the-general-project-costs)">list of the items</a> which SSW considers when estimating a release.</p>
+Let's see what should be included :  
+<!--endintro-->
 
+In fact, for every 1 hour of 'application building' coding tasks there is between 1 and 4 hours of other work which SSW will charge for. This other work includes administration, testing and bug fixing.
 
+Here is a [list of the items](/spec-do-you-know-how-to-estimate-a-project-%28that-include-the-general-project-costs%29) which SSW considers when estimating a release.
