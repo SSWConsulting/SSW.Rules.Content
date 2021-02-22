@@ -15,10 +15,8 @@ redirects: []
 
 ---
 
+How often have you clicked "Send" and then wished you hadn't? It's a common problem. It can be easily solved by unchecking the "Send Immediately When Connected" option in Tools/ Options/ Mail Setup. We guarantee this will save you, one day!
 
-<p class="ssw15-rteElement-P">​How often have you clicked "Send" and then wished you hadn't? It's a common problem. It can be easily solved by unchecking the "Send Immediately When Connected" option in Tools/ Options/ Mail Setup. We guarantee this will save you, one day!
-<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="do-not-send-immediately.jpg" alt="do-not-send-immediately.jpg" style="width:750px;" /></dt><dd>​Figure: Don't send emails immediately - you will often remember something you needed to add</dd></dl>
+<!--endintro-->
 
-
+![Figure: Don't send emails immediately - you will often remember something you needed to add](do-not-send-immediately.jpg)
