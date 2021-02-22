@@ -23,9 +23,9 @@ redirects:
 <h3 class="ssw15-rteElement-H3">Be Specific​​<br></h3><p class="ssw15-rteElement-GreyBox">&quot;I want to keep contact details on my clients&quot;​<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example - likely to require later clarification<br></dd>
 <p class="ssw15-rteElement-GreyBox">&quot;I want to record my clients' firstname, surname, mobile phone, email address &amp; Instant​ Messenger address.&quot; </p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - You'll get exactly what you want. Even better, use ​screenshots or mock-ups<br></dd>
 <h3 class="ssw15-rteElement-H3">One Email per Item​​<br></h3>
-<p>The best way for this to work is to break tasks into the smallest possible <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=732395c7-1e72-4386-ab06-8b8d1bac6e27">bite-size pieces</a> and ensure that those pieces are in the project plan explicitly. </p>
+<p>The best way for this to work is to break tasks into the smallest possible <a href=/management-do-you-spec-in-bite-sized-pieces>bite-size pieces</a> and ensure that those pieces are in the project plan explicitly. </p>
 <p>Sometimes software developers miss a related item that​ you might consider 'blindingly obvious.' For example, you might ask them to fix a combo box on one form in a legacy application. But they mightn't know about the three other forms that the same type of combo appears on. So if you also want them fixed, then let them know about them! </p>
 <h3 class="ssw15-rteElement-H3">Get UI Changes OKed&#160;​​<br></h3>
-<p>Insist your software consultants <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=63802172-2609-4a24-816b-bbf10a190109">conduct specifications by creating mock-ups</a>.</p>
+<p>Insist your software consultants <a href=/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups>conduct specifications by creating mock-ups</a>.</p>
 
 
