@@ -25,7 +25,7 @@ Here are the things you should also physically carry&#58;
       <a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#PrintedStoryCard">User story cards</a>&#160;- These help Product owners create user stories </li><li>
       <a href="http&#58;//www.ssw.com.au/ssw/NETUG/UGEvaluationSurvey.aspx">Evaluation&#160;forms</a>&#160;- Ask for feedback if you did a presentation </li><li>Even a textbook or two </li></ul><p>We have one guy in our office who carries two bags, each weighing about 10 kgs. He is the SSW St. Bernard! *<br> 
    <br> If you need to quickly share something with your mate&#58; </p><ul><li>Use a thumb drive that you carry as per 
-      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=ba63bcc0-99b0-4bbf-a60d-9b04e0f0d9d7">Rules to better Software Consultants - Carry a thumb drive</a> </li><li>Setup a wireless ad hoc network as per 
+      <a href=/do-you-carry-your-usb-flash-drive-on-your-key-ring>Rules to better Software Consultants - Carry a thumb drive</a> </li><li>Setup a wireless ad hoc network as per 
       <a href="http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/">http&#58;//www.addictivetips.com/windows-tips/create-a-quick-ad-hoc-wireless-network-connection-between-two-computers-in-windows-vista/</a> ​ </li></ul><p>* One of our mean guys put a house brick in the bottom a bag to see if he noticed it. He carried it for 2 weeks. It was very funny.</p>​ 
 
 
