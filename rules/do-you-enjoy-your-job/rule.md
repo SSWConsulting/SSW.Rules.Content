@@ -15,7 +15,7 @@ redirects:
 ---
 
 
- <p>Long term success in a career requires&#58; <br></p>
+ <p>Long term success in a career requires: <br></p>
                 <ul>
                     <li>First is to put your heart into your job and enjoy yourself</li>
                     <li>Get your responsibilities done</li>
@@ -27,10 +27,10 @@ redirects:
                     If you find yourself not enjoying your job, this is not necessarily a bad thing.
                     You should make a commitment to give it a go and try to make it work. When you have
                     decided you are unhappy, you should talk to your boss and figure out what is making
-                    you unhappy.&#160;</p><p><span style="line-height&#58;1.6;">The number 1 cause of stress in this industry is ca</span><span style="line-height&#58;1.6;">used by running out of budget&#160;for a project.&#160;The
-                    best way to handle this is</span><span style="line-height&#58;1.6;"> to give realistic estimates, and inform the clients as
+                    you unhappy. </p><p><span style="line-height:1.6;">The number 1 cause of stress in this industry is ca</span><span style="line-height:1.6;">used by running out of budget for a project. The
+                    best way to handle this is</span><span style="line-height:1.6;"> to give realistic estimates, and inform the clients as
                     soon as it looks like they will be exceeded. A client who has accepted the realities
                     of his project is less scary than working on code that's already over-budget with
-                    an impending unknown client reaction.​</span></p><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/Richard-Branson_Picture-Quote.jpg" alt="Richard-Branson_Picture-Quote.jpg" style="margin&#58;5px;" /><br></dl><dl class="ssw15-rteElement-ImageArea">​​<span style="color&#58;#555555;font-size&#58;11px;font-weight&#58;bold;">​​Figure&#58; It's possible to REALLY&#160;enjoy your job</span></dl>
+                    an impending unknown client reaction.​</span></p><dl class="ssw15-rteElement-ImageArea"><img src="Richard-Branson_Picture-Quote.jpg" alt="Richard-Branson_Picture-Quote.jpg" style="margin:5px;" /><br></dl><dl class="ssw15-rteElement-ImageArea">​​<span style="color:#555555;font-size:11px;font-weight:bold;">​​Figure: It's possible to REALLY enjoy your job</span></dl>
 
 
