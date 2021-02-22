@@ -14,8 +14,8 @@ redirects: []
 ---
 
 
-<p class="ssw15-rteElement-P">Using &quot;Magic numbers&quot; in your code makes it confusing and really hard to maintain.​​​<br></p>
+<p class="ssw15-rteElement-P">Using "Magic numbers" in your code makes it confusing and really hard to maintain.​​​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="/PublishingImages/MagicNumberBad.jpg" alt="MagicNumberBad.jpg" />​</dt><dd>Figure&#58; Bad example - &quot;Magic Number&quot; works, but is a bad idea</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/MagicNumberGood.jpg" alt="MagicNumberGood.jpg" /></dt><dd>Figure&#58; Good example - No Magic Number, looks good and is easy to manage​<br></dd></dl>
+<dl class="badImage"><dt><img src="MagicNumberBad.jpg" alt="MagicNumberBad.jpg" />​</dt><dd>Figure: Bad example - "Magic Number" works, but is a bad idea</dd></dl><dl class="goodImage"><dt><img src="MagicNumberGood.jpg" alt="MagicNumberGood.jpg" /></dt><dd>Figure: Good example - No Magic Number, looks good and is easy to manage​<br></dd></dl>
 
 
