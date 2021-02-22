@@ -19,6 +19,5 @@ index:
 - do-you-reply-to-the-correct-zendesk-email
 
 ---
-<p>​​If you still need help,&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Zendesk.aspx">visit our Zendesk consulting page​​</a>&#160;and book in&#160;a consultant.​​<br></p>
-
+If you still need help, [visit our Zendesk consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Zendesk.aspx) and book in a consultant.
 
