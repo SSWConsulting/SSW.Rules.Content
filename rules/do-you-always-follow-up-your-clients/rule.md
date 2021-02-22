@@ -11,14 +11,20 @@ redirects: []
 
 ---
 
+If you have followed the previous rule and the ball is always in their court, you need to make sure that they keep playing.
 
-<p>If you have followed the previous rule and the ball is always in their court, you need to make sure that they keep playing. </p>
-<p>The best way to do this is to make sure you follow up all communications that require a reply, whenever you feel that a bottleneck is forming. </p>
-<p>The best ways to follow up a client are&#58;</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Use email<br>If there is no response, find the original email and resend. See our <a href="/do-you-know-how-to-follow-up-an-unanswered-email" shape="rect">Rules To Better Email - Do you know how to hurry someone up?</a>, <a href="/do-you-follow-up-emails-effectively" shape="rect">Rules to Better Email - Do you always follow up your clients?</a> and <a href="/do-you-realize-the-importance-of-a-good-email-subject" shape="rect">Rules to Better Email - Do you realize the importance of a good email Subject?</a> </li>
-<li>Use IM or Skype<br>See our <a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ChatEfficient" shape="rect">Rules To Better Instant Messenger - Do you communicate more efficiently?</a> </li>
-<li>Use the phone<br>Call them </li></ul>
-<p>TIP Use <a href="http&#58;//www.ssw.com.au/ssw/redirect/FollowUpThen.htm" shape="rect">www.FollowUpThen.com</a> for your follow up emails</p>
+The best way to do this is to make sure you follow up all communications that require a reply, whenever you feel that a bottleneck is forming.
+
+The best ways to follow up a client are:
+
+<!--endintro-->
+
+* Use email
+If there is no response, find the original email and resend. See our [Rules To Better Email - Do you know how to hurry someone up?](/do-you-know-how-to-follow-up-an-unanswered-email), [Rules to Better Email - Do you always follow up your clients?](/do-you-follow-up-emails-effectively) and [Rules to Better Email - Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
+* Use IM or Skype
+See our [Rules To Better Instant Messenger - Do you communicate more efficiently?](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ChatEfficient)
+* Use the phone
+Call them
 
 
+TIP Use [www.FollowUpThen.com](http&#58;//www.ssw.com.au/ssw/redirect/FollowUpThen.htm) for your follow up emails
