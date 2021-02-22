@@ -11,14 +11,16 @@ redirects: []
 
 ---
 
-
-<ol><li>Have Selection for filters e.g. Date Ranges </li><li>Have Selection for chart options e.g. Show Legend </li><li>Don't have selection for chart groupings e.g. By Month or By Product
-                        <ul><li>Crystal and Access these are built into the report and it is very complex to 
-                                have a generic solution. </li><li>Also it is disorientating for the user to have this as a selection</li></ul></li></ol>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt> 
-      <img border="1" alt="Reporting Criteria" src="../../assets/GraphInterface.gif" style="margin:5px;width:600px;" />
-   </dt></dl><p> More 
-   <a href="http://www.ssw.com.au/ssw/Standards/DeveloperDotNet/GuidelinesForReporting.aspx">Options for Reporting</a></p>
+1. Have Selection for filters e.g. Date Ranges
+2. Have Selection for chart options e.g. Show Legend
+3. Don't have selection for chart groupings e.g. By Month or By Product
+    * Crystal and Access these are built into the report and it is very complex to 
+                                have a generic solution.
+    * Also it is disorientating for the user to have this as a selection
 
 
+<!--endintro-->
+
+![](../../assets/GraphInterface.gif)  
+
+More     [Options for Reporting](http://www.ssw.com.au/ssw/Standards/DeveloperDotNet/GuidelinesForReporting.aspx)
