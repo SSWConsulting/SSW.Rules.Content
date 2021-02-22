@@ -16,15 +16,11 @@ redirects:
 
 ---
 
+If someone has [shared their calendar permissions](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=86a7e3f1-964a-47bc-ba84-d28bd42d3df4) with you, you will be able to check their calendar directly without needing a conversation.
+Imagine someone wants to book some time with you. Offer to look up the calendar and book in time straightaway.
 
-<p><span style="line-height:20.8px;">​If someone has <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=86a7e3f1-964a-47bc-ba84-d28bd42d3df4">shared their calendar permissions</a>​ with you, you will be able to check their calendar directly without needing a conversation.<br>​​​Imagine someone </span><span style="line-height:20.8px;">wants to book some time with you. Offer to look up the calendar and book in time straightaway.</span>​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="bad">
-                    <dd>Bad Example - "Try calling him."<br>​<br></dd></dl>
-                <dl class="good">
-                    <dt><img src="adams-calendar.jpg" alt="adams-calendar.jpg" style="margin:5px;width:550px;" /><br></dt>
-                    <dd>
-                        Good Example - "Sure, I'll just look up Adam's calendar and see when he's free. Obviously, it's not a good idea to call Adam now as he is on a plane."<br><br></dd></dl>
+<!--endintro-->
+                      Bad Example - "Try calling him."
 
-
-
+![](adams-calendar.jpg)
+                                              Good Example - "Sure, I'll just look up Adam's calendar and see when he's free. Obviously, it's not a good idea to call Adam now as he is on a plane."
