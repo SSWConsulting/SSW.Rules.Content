@@ -15,9 +15,11 @@ redirects: []
 
 ---
 
-
-​​Events are a fantastic marketing tool for increasing your brand recognition and awareness. However, running events takes a lot of time and organization to ensure the best outcome and smooth running on the day. If you use events to your advantage then&#58;&#160;​<br><div>​<br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>See <a href=/rules-to-better-event-management>Rules to Better Event Management </a>for the best standards on how to effectively and efficiently run your next event.<br>​<br><br></p>
+Events are a fantastic marketing tool for increasing your brand recognition and awareness. However, running events takes a lot of time and organization to ensure the best outcome and smooth running on the day. If you use events to your advantage then: 
 
 
+
+
+<!--endintro-->
+
+See [Rules to Better Event Management](/rules-to-better-event-management)for the best standards on how to effectively and efficiently run your next event.
