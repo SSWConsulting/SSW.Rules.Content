@@ -12,9 +12,8 @@ redirects:
 
 ---
 
+Using Data Protection Manager (DPM) to backup your servers.
 
-​Using Data Protection Manager (DPM) to backup your servers.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​You can read more about DPM by clicking <a href=/rules-to-better-data-protection-manager-dpm>here​</a>.​<br></p><p><br></p>
+<!--endintro-->
 
-
+You can read more about DPM by clicking [here](/rules-to-better-data-protection-manager-dpm).
