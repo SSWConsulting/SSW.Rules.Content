@@ -14,11 +14,16 @@ redirects:
 
 ---
 
+Your standard help menu should include an option to run your Unit Tests. Everybody knows the importance of Unit tests for the middle tier. However, Unit Tests are also important to capture problems that occur on other peoples' machines so that users can perform a quick check when a product is not behaving correctly. This is important for troubleshooting during support calls and enables your customers to do a Health Check on the product.
 
-<p class="ssw15-rteElement-P">Your standard help menu should include an option to run your Unit Tests. Everybody knows the importance of Unit tests for the middle tier. However, Unit Tests are also important to capture problems that occur on other peoples' machines so that users can perform a quick check when a product is not behaving correctly. This is important for troubleshooting during support calls and enables your customers to do a Health Check on the product.</p><p class="ssw15-rteElement-P">And yes, there are many tests that can be written that will pass on the developers PC - but not on the users PC. e.g. Ability to write to a directory, missing dlls, missing tables in the schema etc.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-   <b>Note:</b> Adding this option requires you to include NUnit in your setup.exe (See <a href="https://www.ssw.com.au/ssw/Standards/WiseSetup/WiseStandards.aspx#IncludeAllFiles">Include all the files needed</a> in our Wise Standard)​​.<br></p><dl class="image"><dt><img src="HelpRunUnitTests.gif" alt="HelpRunUnitTests.gif" /></dt><dd>Figure: Standard Help menu should give you an option to Run Unit Tests to check the users' environment (Good)</dd></dl><dl class="image"><dt><img src="NUnitGui.gif" alt="NUnitGui.gif" /></dt><dd>Figure: Obviously the red indicates that there is a problem with a Unit Test (Good)<br></dd></dl>
-<p>We have a rule <a href=/menu-do-you-know-the-8-items-every-help-menu-needs>Do you know the Seven items every Help menu needs?</a>​​<br><br></p>
+And yes, there are many tests that can be written that will pass on the developers PC - but not on the users PC. e.g. Ability to write to a directory, missing dlls, missing tables in the schema etc.
 
+<!--endintro-->
 
+**Note:** Adding this option requires you to include NUnit in your setup.exe (See [Include all the files needed](https://www.ssw.com.au/ssw/Standards/WiseSetup/WiseStandards.aspx#IncludeAllFiles) in our Wise Standard).
+
+![Figure: Standard Help menu should give you an option to Run Unit Tests to check the users' environment (Good)](HelpRunUnitTests.gif)  
+
+![Figure: Obviously the red indicates that there is a problem with a Unit Test (Good)](NUnitGui.gif)  
+
+We have a rule [Do you know the Seven items every Help menu needs?](/menu-do-you-know-the-8-items-every-help-menu-needs)
