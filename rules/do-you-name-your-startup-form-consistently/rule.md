@@ -16,15 +16,15 @@ redirects: []
 ---
 
 
-In every Windows application project, we need to have a main, start-up or wizard page<span lang="EN-US" style="font-size&#58;11pt;font-family&#58;'calibri','sans-serif';"> </span> form for a better structure and design.
+In every Windows application project, we need to have a main, start-up or wizard page<span lang="EN-US" style="font-size:11pt;font-family:'calibri','sans-serif';"> </span> form for a better structure and design.
 
 <br><excerpt class='endintro'></excerpt><br>
-  <img src="/PublishingImages/BadMainForm.gif" alt="Bad Project without Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img src="/PublishingImages/GoodMainForm.gif" alt="Good with Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
+  <img src="BadMainForm.gif" alt="Bad Project without Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureBad">Bad example - The entry form is not immediately recognizable because of a non standard name </span><img src="GoodMainForm.gif" alt="Good with Main Form" class="ms-rteCustom-ImageArea" /> <span class="ms-rteCustom-FigureGood">Good example - The entry form follows the naming convention rule </span>
 <table summary="Code Auditor" class="clsSSWProductTable">
     <tbody>
         <tr>
-            <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx#VBMainForm">SSW Code Auditor</a> to check for this rule.
-            <p>Note&#58; In Code Auditor we check for Form named&#58; Startup, MainForm and WizardPage.</p>
+            <td>We have a program called <a href="http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx#VBMainForm">SSW Code Auditor</a> to check for this rule.
+            <p>Note: In Code Auditor we check for Form named: Startup, MainForm and WizardPage.</p>
             </td>
         </tr>
     </tbody>
