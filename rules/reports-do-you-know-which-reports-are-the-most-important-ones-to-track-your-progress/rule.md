@@ -17,17 +17,13 @@ redirects: []
 
 ---
 
+In Scrum there is only one report that the team needs to track their progress.
 
+<!--endintro-->
 
-  <p>In Scrum there is only one report that the team needs to track their progress. 
-</p>
+![](burndown_good_example.png)
+**Figure: The burndown has all of the information you need to know if you are going to hit your mark**
 
-<br><excerpt class='endintro'></excerpt><br>
+There are however other reports that matter for management and putting together the bigger picture.
 
-  <p>
-    <img src="burndown_good_example.png" class="ssw-rteStyle-ImageArea" alt="" style="margin:0px 20px;width:702px;height:410px;" />​<br><strong class="ms-rteCustom-FigureNormal" style="display:inline !important;">Figure: The burndown has all of the information you need to know if you are going to hit your mark</strong></p>
-<p>There are however other reports that matter for management and putting together the bigger picture.</p>
-<p>See <a shape="rect" href=/watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc title="http://rules.ssw.com.au/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx"><font color="#000080">Do you get regular updates on costs and progress?</font></a></p>
-
-
-
+See [<font color="#000080">Do you get regular updates on costs and progress?</font>](/watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc "http://rules.ssw.com.au/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx")
