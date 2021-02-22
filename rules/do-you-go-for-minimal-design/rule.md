@@ -18,7 +18,7 @@ redirects: []
          your readers don't get bored and will stick around longer.
         </p>
 <br><excerpt class='endintro'></excerpt><br>
-<p><br></p><dl class="image"><dt><img src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MinimalDesignImage.jpg" alt="" style="margin&#58;5px;" /></dt><dd>Figure&#58; Testimonials as displayed on SSW's About Us page</dd></dl><p>
+<p><br></p><dl class="image"><dt><img src="../../assets/MinimalDesignImage.jpg" alt="" style="margin:5px;" /></dt><dd>Figure: Testimonials as displayed on SSW's About Us page</dd></dl><p>
          Web minimalism and simplicity means emphasizing what is essential and important 
          to your readers. Remove every non-essential or unimportant element. Readers only 
          have so much attention to give, if you present them with less they will have more 
