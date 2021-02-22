@@ -13,15 +13,19 @@ redirects: []
 
 ---
 
+Your source control repository should be the source of all truth. Everything, always, no-matter what should go into source control.
 
-<p>​Your source control repository should be the source of all truth. Everything, always, no-matter what should go into source control.</p><p>This includes any deployment scripts and Web Deploy parameter files if you need them.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>This includes your deployment scripts and Web Deploy parameter files.</p><dl class="goodImage"><dt> 
-      <img src="deployment-project.jpg" alt="" /> 
-   </dt><dd>Figure: Good Example - Create a Deployment project alongside your web project.  </dd></dl>
-In the image aboce,​ Vm-SynWeb.Deploy.Bat is a batch  file that will deploy your web site to Vm-SynWeb<br> Vm-SynWeb.SetParameters.xml is a Web Deploy SetParameters file that specifies environment specific settings.<br> _Deploy.Bat is the base batch file that your environment specific deployment batch files will call.
-<dl class="image"><dt> 
-      <img src="deployment-project-copy.jpg" alt="" /> 
-   </dt><dd>Figure: It is important that each of the batch and parameters files has it ‘Copy to Output Directory’ setting set to ‘Copy Always’</dd></dl>
+This includes any deployment scripts and Web Deploy parameter files if you need them.
+
+<!--endintro-->
+
+This includes your deployment scripts and Web Deploy parameter files.
 
 
+::: good  
+![Figure: Good Example - Create a Deployment project alongside your web project.](deployment-project.jpg)  
+:::
+ In the image aboce, Vm-SynWeb.Deploy.Bat is a batch  file that will deploy your web site to Vm-SynWeb
+ Vm-SynWeb.SetParameters.xml is a Web Deploy SetParameters file that specifies environment specific settings.
+ \_Deploy.Bat is the base batch file that your environment specific deployment batch files will call. 
+![Figure: It is important that each of the batch and parameters files has it ‘Copy to Output Directory’ setting set to ‘Copy Always’](deployment-project-copy.jpg)
