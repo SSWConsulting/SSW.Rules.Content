@@ -16,9 +16,15 @@ redirects:
 
 ---
 
+Learning a new technology is something a developer has to do at least every few years. The industry landscape is constantly changing and to keep up and the developer has to really master the art of learning.
 
-<p>Learning a new technology is something a developer has to do <span style="line-height:20.8px;">at least </span>every few years. The industry landscape is constantly changing and to keep up and the developer has to really master the art of learning.</p><p>Over the years, SSW has trained thousands of developers and we have found that the best way to learn is through mentorship. <a href="http://adamcogan.com/2016/06/06/train-devs-quickly/" target="_blank">Mentorship​</a> ​is when an experienced developer t<span></span><span></span>eaches and codes with their mentee. By working closely together on a regular basis they are able to impart their knowledge and experience into the mentee.</p><p>Of course, there are other ways of learning and the chart below discusses the effectiveness of each.​​</p><img src="learn-rate.png" alt="learn-rate.png" style="margin:0px;width:800px;height:590px;" /><br>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">​Related link​</h3><ul><li><a href="http://adamcogan.com/2016/06/06/train-devs-quickly/" title="I have learnt how to train developers in the shortest time possible" target="_blank">I have learnt how to train developers in the shortest time possible</a>​</li></ul>
+Over the years, SSW has trained thousands of developers and we have found that the best way to learn is through mentorship. [Mentorship](http://adamcogan.com/2016/06/06/train-devs-quickly/) is when an experienced developer teaches and codes with their mentee. By working closely together on a regular basis they are able to impart their knowledge and experience into the mentee.
 
+Of course, there are other ways of learning and the chart below discusses the effectiveness of each.
+![](learn-rate.png)
 
+<!--endintro-->
+
+### Related link
+
+* [I have learnt how to train developers in the shortest time possible](http://adamcogan.com/2016/06/06/train-devs-quickly/ "I have learnt how to train developers in the shortest time possible")
