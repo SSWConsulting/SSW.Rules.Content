@@ -13,16 +13,26 @@ redirects: []
 
 ---
 
+As an API provider, one of your most important tasks is to make sure that breaking changes will never occur in your API. Making breaking changes will make life difficult for the developers who depend on your service and can easily start causing frustration when things start to break.
 
-<p>As an API provider, one of your most important tasks is to make sure that breaking changes will never occur in your API. Making breaking changes will make life difficult for the developers who depend on your service and can easily start causing frustration when things start to break.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>There are typically three main ways people provide versioning.</p><ol><li> 
-      <strong>Change the URL&#58;</strong> Append a version number in the path<br>e.g. <a href="https&#58;//developer.github.com/v3/">https&#58;//developer.github.com/v3/</a>
-      <ol style="list-style&#58;lower-alpha;"><li>Best choice for anonymous API access (callers may not be authenticated)</li><li>E.g. Github, Twitter​</li></ol></li><li>
-      <strong>Based upon caller&#58;</strong> The caller has been authenticated and you determine the version of the API based upon the customer's record. 
-      <ol style="list-style&#58;lower-alpha;"><li>Your URL's never change</li><li>Allows you to see the oldest version that customers are using and notifying customers to upgrade</li><li>E.g. Salesforce</li></ol></li><li>
-      <strong>Custom request header&#58;</strong> You can use the same URL but add a header such as &quot;api-version&#58; 2&quot; 
-      <ol style="list-style&#58;lower-alpha;"><li>Your URL's never change</li></ol></li></ol><p>All of these methods work well. The above list is in order of our recommendations.&#160;​</p><p>
-      <strong>Option 2</strong> is a viable solution as you only have a few authenticated users that will consume the web service. It also allows you to notify users if they are using an old version that will be decommissioned.</p><p>If you are working with objects, keep the object id in the URL and leave everything else to the query string.</p>
+<!--endintro-->
+
+There are typically three main ways people provide versioning.
+
+1. **Change the URL:** Append a version number in the path
+e.g. [https://developer.github.com/v3/](https&#58;//developer.github.com/v3/)
+    1. Best choice for anonymous API access (callers may not be authenticated)
+    2. E.g. Github, Twitter
+2. **Based upon caller:**The caller has been authenticated and you determine the version of the API based upon the customer's record.
+    1. Your URL's never change
+    2. Allows you to see the oldest version that customers are using and notifying customers to upgrade
+    3. E.g. Salesforce
+3. **Custom request header:**You can use the same URL but add a header such as "api-version: 2"
+    1. Your URL's never change
 
 
+All of these methods work well. The above list is in order of our recommendations.
+
+**Option 2** is a viable solution as you only have a few authenticated users that will consume the web service. It also allows you to notify users if they are using an old version that will be decommissioned.
+
+If you are working with objects, keep the object id in the URL and leave everything else to the query string.
