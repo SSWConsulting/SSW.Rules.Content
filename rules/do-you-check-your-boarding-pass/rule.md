@@ -18,9 +18,12 @@ redirects: []
 
 ---
 
-
-Most people don’t pay much attention to their boarding pass beyond their gate and seat number, but if you know what to look for, there’s a lot of information stored on a boarding pass!<br><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​<strong>PRN reference&#58;&#160;</strong>Passenger Name Record. It’s a six-digit alphanumeric code.<br><strong>Sequence&#58;</strong>&#160;This is the order in which you checked in to your flight, e.g. if your sequence number is 066 you’re the 66th person to check in.<br><strong>Boarding door&#58;&#160;</strong>Have you noticed this, which tells you whether to board the plane from the front or rear?<br><strong>SSSS&#58;&#160;</strong>Secondary Security Screening Selection picks passengers either at random or due to red flags (such as buying a one-way ticket with cash).<br>​<br></p>
+Most people don’t pay much attention to their boarding pass beyond their gate and seat number, but if you know what to look for, there’s a lot of information stored on a boarding pass!
 
 
+<!--endintro-->
+
+**PRN reference: ** Passenger Name Record. It’s a six-digit alphanumeric code.
+ **Sequence:**  This is the order in which you checked in to your flight, e.g. if your sequence number is 066 you’re the 66th person to check in.
+ **Boarding door: ** Have you noticed this, which tells you whether to board the plane from the front or rear?
+ **SSSS: ** Secondary Security Screening Selection picks passengers either at random or due to red flags (such as buying a one-way ticket with cash).
