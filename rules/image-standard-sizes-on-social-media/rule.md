@@ -39,9 +39,95 @@ redirects:
 
 ---
 
-
-<strong>​​For a better visual across all your social media accounts,</strong> ideally, you should follow the standards that each platform requests. <div><br></div><div>They have variations of sizes according to the placement, for example, banner, profile icon or a post​. If you are creating an image for an advertising campaign on Facebook, they will offer you a hand full of placement options, like news feed, Facebook marketplace, video feeds, right column and many others.<br><br></div><div><br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>As all of them will have different specifications, so it’s best to check their support if you have any question regarding this. Hootsuite is a reliable source, for example: <a href="https://blog.hootsuite.com/social-media-image-sizes-guide/#">blog.hootsuite.com/social-media-image-sizes-guide/#​</a> It is important to know this, as posting on social media with the correct dimensions impacts how the posts are engaged.​<br></p><h3 class="ssw15-rteElement-H3">Twitter</h3><p>On <a href="https://www.twitter.com/">Twitter</a>, we have the following variations for images:<br></p><ul><li>Image post</li><li>Cover photo<br></li><li>Profile image</li></ul><p></p><h3 class="ssw15-rteElement-H3">Instagram<br></h3><p>On <a href="https://www.instagram.com/">Instagram</a>, we can have a lot of variations if we use all their placements. See next:<br></p><ul><li>Image post can now be a variation of a square, vertical or horizontal photo</li><li>Stories</li><li>IGTV</li><li>Profile image</li></ul><p></p><h3 class="ssw15-rteElement-H3">Facebook</h3><p>On <a href="https://www.facebook.com/">Facebook</a>, they have the following variations for images:<br></p><ul><li>Image post</li><li>Images with Shared Links</li><li>Cover photo</li><li>Profile image</li><li>Facebook Stories post</li></ul><p></p><h3 class="ssw15-rteElement-H3">Facebook Ads<br></h3><p>Besides following the size of the images on Facebook Ads, you should also have limited text on images as there’s a better chance of your design or video getting approved more easily. If you need more information about Ads placement, check <a href="https://www.facebook.com/business/help/407108559393196?id=369787570424415">Facebook support​</a> for clarification.<br></p><ul><li>News Feed Ads, Marketplace Ads and Messenger Ads</li><li>Collection Ads</li><li>Carousel Ads</li><li>In-Stream Video Ads<br></li><li>Search results<br></li><li>Stories (Instagram, Facebook and Messenger)<br></li></ul><div><br></div><dl class="ssw15-rteElement-ImageArea"><img src="jason2.png" alt="jason2.png" style="margin:5px;" /></dl><dd class="ssw15-rteElement-FigureGood"> Figure: Good Example – Our designer <a href="https://www.ssw.com.au/people/david-berkes">David Berkes</a> created a set of images for ads on Facebook and Instagram that were consistent with <a href="https://www.ssw.com.au/ssw/logo/ssw/">SSW’s branding guidelines</a> and also with the SSW's <a href="https://www.ssw.com.au/ssw/Events/Training/Clean-Architecture-Superpowers-Tour.aspx">Clean Architecture Superpowers​</a> training solution <a href="https://www.ssw.com.au/ssw/logo/">sub-branding</a><br></dd> <div><span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">LinkedIn</span><br><a href="https://www.linkedin.com/">LinkedIn</a> is like Twitter and Facebook:<br><ul><li>Business Profile image<br></li><li>Cover photo</li><li>Post image<br></li></ul><p></p><h3 class="ssw15-rteElement-H3">YouTube<br></h3><p>On <a href="https://www.youtube.com/">YouTube​</a>, you will find:<br></p><ul><li>Profile image</li><li>Cover Photo</li><li>Video Thumbnail<br></li></ul><p></p></div>
+**For a better visual across all your social media accounts,** ideally, you should follow the standards that each platform requests. 
 
 
+
+They have variations of sizes according to the placement, for example, banner, profile icon or a post. If you are creating an image for an advertising campaign on Facebook, they will offer you a hand full of placement options, like news feed, Facebook marketplace, video feeds, right column and many others.
+
+
+
+
+
+
+<!--endintro-->
+
+As all of them will have different specifications, so it’s best to check their support if you have any question regarding this. Hootsuite is a reliable source, for example: https://blog.hootsuite.com/social-media-image-sizes-guide/# It is important to know this, as posting on social media with the correct dimensions impacts how the posts are engaged.
+
+### Twitter
+
+On [Twitter](https://www.twitter.com/), we have the following variations for images:
+
+* Image post
+* Cover photo
+* Profile image
+
+
+
+
+### Instagram
+
+
+On [Instagram](https://www.instagram.com/), we can have a lot of variations if we use all their placements. See next:
+
+* Image post can now be a variation of a square, vertical or horizontal photo
+* Stories
+* IGTV
+* Profile image
+
+
+
+
+### Facebook
+
+On [Facebook](https://www.facebook.com/), they have the following variations for images:
+
+* Image post
+* Images with Shared Links
+* Cover photo
+* Profile image
+* Facebook Stories post
+
+
+
+
+### Facebook Ads
+
+
+Besides following the size of the images on Facebook Ads, you should also have limited text on images as there’s a better chance of your design or video getting approved more easily. If you need more information about Ads placement, check [Facebook support](https://www.facebook.com/business/help/407108559393196?id=369787570424415) for clarification.
+
+* News Feed Ads, Marketplace Ads and Messenger Ads
+* Collection Ads
+* Carousel Ads
+* In-Stream Video Ads
+* Search results
+* Stories (Instagram, Facebook and Messenger)
+
+
+
+
+![](jason2.png)
+
+::: good
+Figure: Good Example – Our designer [David Berkes](https://www.ssw.com.au/people/david-berkes) created a set of images for ads on Facebook and Instagram that were consistent with [SSW’s branding guidelines](https://www.ssw.com.au/ssw/logo/ssw/) and also with the SSW's [Clean Architecture Superpowers](https://www.ssw.com.au/ssw/Events/Training/Clean-Architecture-Superpowers-Tour.aspx) training solution [sub-branding](https://www.ssw.com.au/ssw/logo/)
+
+:::
+ 
+LinkedIn
+[LinkedIn](https://www.linkedin.com/) is like Twitter and Facebook:
+
+* Business Profile image
+* Cover photo
+* Post image
+
+
+
+
+### YouTube
+
+
+On [YouTube](https://www.youtube.com/), you will find:
+
+* Profile image
+* Cover Photo
+* Video Thumbnail
