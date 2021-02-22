@@ -16,16 +16,16 @@ redirects: []
 ---
 
 
-When you seek advice or help from another, firstly, you need to establish with them&#58; 
+When you seek advice or help from another, firstly, you need to establish with them: 
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li>Your understanding and, </li>
 <li>Methods you have previously attempted in order to resolve the problem </li></ul>
-<p>Tip&#58; Be aware that you don't want them&#160;to reply with <a href="http&#58;//www.lmgtfy.com">http&#58;//www.lmgtfy.com</a> </p>
-<p>or the bing version <a href="http&#58;//letmebingthatforyou.com/">http&#58;//letmebingthatforyou.com</a> &#58;-)</p>
-<img alt="IM Icon" align="right" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImIcon.jpg" /> <dl class="bad"><dt>How do you xxxx? </dt>
-<dd>Figure&#58; Bad Example - By not stating what you have previously attempted to resolve the problem, the person you are seeking advice from may be wasting time if they suggest methods you have already done.</dd></dl>
+<p>Tip: Be aware that you don't want them to reply with <a href="http://www.lmgtfy.com">http://www.lmgtfy.com</a> </p>
+<p>or the bing version <a href="http://letmebingthatforyou.com/">http://letmebingthatforyou.com</a> :-)</p>
+<img alt="IM Icon" align="right" src="../../assets/ImIcon.jpg" /> <dl class="bad"><dt>How do you xxxx? </dt>
+<dd>Figure: Bad Example - By not stating what you have previously attempted to resolve the problem, the person you are seeking advice from may be wasting time if they suggest methods you have already done.</dd></dl>
 <dl class="good"><dt>I have searched Google but no luck... How do you xxxx? </dt>
-<dd>Figure&#58; Good Example - The person you are seeking advice from will not suggest for you to do the same methods again and will look for other ways to resolve the issue.</dd></dl>
-<p>Another rule that closely links to this can be found in <a href="http&#58;//www.ssw.com.au/ssw/standards/rules/RulestoBetterInstantMessenger.aspx#Research">RulestoBetterInstantMessenger.aspx</a></p>
+<dd>Figure: Good Example - The person you are seeking advice from will not suggest for you to do the same methods again and will look for other ways to resolve the issue.</dd></dl>
+<p>Another rule that closely links to this can be found in <a href="http://www.ssw.com.au/ssw/standards/rules/RulestoBetterInstantMessenger.aspx#Research">RulestoBetterInstantMessenger.aspx</a></p>
 
 
