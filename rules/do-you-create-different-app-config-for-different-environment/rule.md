@@ -13,18 +13,23 @@ redirects: []
 
 ---
 
+Every application has different settings depending on the environment it is running on, e.g. production, testing or development environment.
+ It is much easier and efficient if app.config is provided in several environment types, so then the developer can just copy and paste the required app.config.
 
-Every application has different settings depending on the environment it is running on, e.g. production, testing or development environment.<br>
-It is much easier and efficient if app.config is provided in several environment types, so then the developer can just copy and paste the required app.config.<br>
-<br>
-<img alt="" src="AppConfigBad.jpg" /><br>
-<br>
-<font class="ms-rteCustom-FigureBad" size="+0">Figure: Bad Example - Only 1 App.config provided</font><br>
-<img alt="" src="App.config.jpg" /><br>
-<br>
-<font class="ms-rteCustom-FigureGood" size="+0">Figure : Good Example - Several App.config are provided</font> 
-
-<br><excerpt class='endintro'></excerpt><br>
+![](AppConfigBad.jpg)
 
 
 
+::: bad
+Figure: Bad Example - Only 1 App.config provided  
+:::
+
+![](App.config.jpg)
+
+
+
+::: good
+Figure : Good Example - Several App.config are provided  
+:::
+
+<!--endintro-->
