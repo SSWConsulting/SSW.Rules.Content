@@ -17,6 +17,5 @@ index:
 - xamarin-the-stuff-to-install
 
 ---
-<p>​​​<br></p>
 
 
