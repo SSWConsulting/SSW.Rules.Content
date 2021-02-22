@@ -15,9 +15,8 @@ redirects:
 
 ---
 
+You should avoid adding exclusions to StyleCop. But, if they are necessary, ensure they are agreed to by all team members and stored in a shared exclusions file that is included in the repository, eg. stylecop.json
 
-<p>​You should avoid adding exclusions to StyleCop. But, if they are necessary, ensure they are agreed to by all team members and stored in a shared exclusions file&#160;that is included in the repository, eg. stylecop.json<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​<a href="https&#58;//github.com/StyleCop/StyleCop">https&#58;//github.com/StyleCop/StyleCop</a> ​​<br><br></p>
+<!--endintro-->
 
-
+[https://github.com/StyleCop/StyleCop](https&#58;//github.com/StyleCop/StyleCop)
