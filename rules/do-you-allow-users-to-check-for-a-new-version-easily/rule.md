@@ -13,32 +13,32 @@ redirects: []
 
 ---
 
+It is important to give users the ability to check for a new version of the application they are using. And once located it should be easily downloaded and installed. You need:
+
+1. A visual identifier such as a tick or a cross on the main menu
+2. A "Check for Updates" option in our Help menu.
 
 
-  <p>It is important to give users the ability to check for a new version of the application they are using. And once located it should be easily downloaded and installed. You need: </p>
-<ol>
-    <li>A visual identifier such as a tick or a cross on the main menu </li>
-    <li>A "Check for Updates" option in our Help menu. </li>
-</ol>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
+Remember:
 
-  <p>Remember: </p>
-<ul>
-    <li>This is mainly for Windows Forms, but you can do the same for new versions of Web Applications - e.g. a knowledge base package or Reporting Services Application. </li>
-    <li>You can do a complete check of your PC at the click of a button using <a href="http://www.ssw.com.au/ssw/Diagnostics/Default.aspx">SSW Diagnostics</a>. </li>
-    <li>Since this check occurs over the web, you should use <a href="http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#GuiThreading">threading</a> to avoid slowing down the forms responsiveness. This is a generic component that is available in the <a href="http://www.ssw.com.au/ssw/NETToolkit/Default.aspx">SSW .NET Toolkit</a>. </li>
-    <li>If the UI is a Windows Service, be aware that they don't open up the UI very often. Therefore you can't rely on this method. In a coming release Diagnostics will ask for your email and let you know when updates are available for you PC. </li>
-</ul>
-<img class="ms-rteCustom-ImageArea" style="border:0px solid;" alt="Check for Updates" src="MSN.gif" border="0" /><span class="ms-rteCustom-FigureBad">Figure: BAD UI - a nagging message box that forces the User to click OK </span><br>
-<img style="border:0px solid;" alt=" " src="GoodUI.gif" border="0" /> <span class="ms-rteCustom-FigureGood">Figure: Show a Tick when the application is up to date </span><br>
-<img class="ms-rteCustom-ImageArea" alt=" " src="BadUI.gif" border="0" /> <span class="ms-rteCustom-FigureGood">Figure: Show a Cross when the application is out of date</span> <br>
-<p>To keep the consistent look and consistent code, we have implemented our version checker as a user control.</p>
-<img class="ms-rteCustom-ImageArea" style="border:0px solid;" alt=" " src="VersionStatusControl.gif" border="0" /> <font class="ms-rteCustom-FigureNormal">Figure: SSW.Framework.WindowsUI.VersionStatus </font>
-<p>As it is a user control, we can easily implement this in all our applications. We just need to place the user control on the winform, and have the ProductDownloadID and ProductLatestVersionURL entered with the correct values.</p>
-<img style="border:0px solid;" alt=" " src="VersionStatusProperties.gif" border="0" /> <font class="ms-rteCustom-FigureNormal">Figure: Enter the ProductDownloadID and ProductLatestVersionURL   </font>
-<p><img class="ms-rteCustom-ImageArea" style="border:0px solid;" alt="Check for Updates" src="CheckForUpdate.gif" border="0" /></p>
-<font class="ms-rteCustom-FigureGood">Figure: Include 'Check for Updates' in your applications </font>
+* This is mainly for Windows Forms, but you can do the same for new versions of Web Applications - e.g. a knowledge base package or Reporting Services Application.
+* You can do a complete check of your PC at the click of a button using [SSW Diagnostics](http://www.ssw.com.au/ssw/Diagnostics/Default.aspx).
+* Since this check occurs over the web, you should use [threading](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#GuiThreading) to avoid slowing down the forms responsiveness. This is a generic component that is available in the [SSW .NET Toolkit](http://www.ssw.com.au/ssw/NETToolkit/Default.aspx).
+* If the UI is a Windows Service, be aware that they don't open up the UI very often. Therefore you can't rely on this method. In a coming release Diagnostics will ask for your email and let you know when updates are available for you PC.
+
+![Check for Updates](MSN.gif)Figure: BAD UI - a nagging message box that forces the User to click OK 
+![ ](GoodUI.gif) Figure: Show a Tick when the application is up to date 
+![ ](BadUI.gif) Figure: Show a Cross when the application is out of date 
+
+To keep the consistent look and consistent code, we have implemented our version checker as a user control.
+![ ](VersionStatusControl.gif)**Figure: SSW.Framework.WindowsUI.VersionStatus** 
+As it is a user control, we can easily implement this in all our applications. We just need to place the user control on the winform, and have the ProductDownloadID and ProductLatestVersionURL entered with the correct values.
+![ ](VersionStatusProperties.gif)**Figure: Enter the ProductDownloadID and ProductLatestVersionURL** 
+![Check for Updates](CheckForUpdate.gif)
 
 
-
+::: good
+Figure: Include 'Check for Updates' in your applications  
+:::
