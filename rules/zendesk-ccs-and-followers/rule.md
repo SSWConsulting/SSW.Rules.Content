@@ -11,9 +11,5 @@ redirects: []
 
 ---
 
-
-Enter Intro Text
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+Enter Intro Text 
+<!--endintro-->
