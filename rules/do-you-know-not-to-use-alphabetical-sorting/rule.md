@@ -14,8 +14,8 @@ redirects: []
 ---
 
 
-<p>The default sort order for most visualizations​ is alphabetical,&#160;but you should almost always change this.​<br></p>
+<p>The default sort order for most visualizations​ is alphabetical, but you should almost always change this.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>​​Alphabetical sorting is really only good if you're specifically looking for one item on the X axis, but it's terrible for seeing ranks, trends, or proportions.<span style="background-color&#58;initial;">​​</span></p><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/PowerBI-alphabetical.png" alt="PowerBI-alphabetical.png" style="margin&#58;5px;width&#58;808px;" /><dd class="ssw15-rteElement-FigureBad">​​Figure - Bad Example&#58;&#160;Alphabetical gives very little information<br></dd><dl><dl><dl class="ssw15-rteElement-ImageArea"><img src="/PublishingImages/PowerBI-non-aphabetical.png" alt="PowerBI-non-aphabetical.png" style="margin&#58;5px;width&#58;808px;" /><dd class="ssw15-rteElement-FigureGood">​​Figure - Good Example&#58; Sorting by value shows rank and trends easily<br></dd></dl></dl></dl></dl>
+<p>​​Alphabetical sorting is really only good if you're specifically looking for one item on the X axis, but it's terrible for seeing ranks, trends, or proportions.<span style="background-color:initial;">​​</span></p><dl class="ssw15-rteElement-ImageArea"><img src="PowerBI-alphabetical.png" alt="PowerBI-alphabetical.png" style="margin:5px;width:808px;" /><dd class="ssw15-rteElement-FigureBad">​​Figure - Bad Example: Alphabetical gives very little information<br></dd><dl><dl><dl class="ssw15-rteElement-ImageArea"><img src="PowerBI-non-aphabetical.png" alt="PowerBI-non-aphabetical.png" style="margin:5px;width:808px;" /><dd class="ssw15-rteElement-FigureGood">​​Figure - Good Example: Sorting by value shows rank and trends easily<br></dd></dl></dl></dl></dl>
 
 
