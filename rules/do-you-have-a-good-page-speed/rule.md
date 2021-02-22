@@ -13,9 +13,6 @@ redirects: []
 
 ---
 
+Page speed is one of the most important items of this list. No one wants to wait for a page to load, they want instant information and the faster, the better. Most people find this so frustrating, that they won’t wait for your page to load if it takes too long. They will just hit the back button and click a different result. Then, you have lost a visitor and possibly a conversion. Use this free Google tool named [PageSpeed Insights](https&#58;//developers.google.com/speed/pagespeed/insights/) to test your URL. 
 
-Page speed is one of the most important items of this list. No one wants to wait for a page to load, they want instant information and the faster, the better. Most people find this so frustrating, that they won’t wait for your page to load if it takes too long. They will just hit the back button and click a different result. Then, you have lost a visitor and possibly a conversion. Use this free Google tool named <a href="https&#58;//developers.google.com/speed/pagespeed/insights/">PageSpeed Insights​</a> to test your URL.&#160;<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​<br><br></p>
-
-
+<!--endintro-->
