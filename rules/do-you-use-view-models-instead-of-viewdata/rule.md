@@ -13,24 +13,40 @@ redirects: []
 
 ---
 
+MVC provides a ViewData collection in which you can store miscellaneous pieces of information to pass to the View.  It’s also accessible it as a Dynamic object by using the ViewBag.  However, you should avoid using ViewData or ViewBag because it isn’t type-safe and relies on [Magic Strings](http&#58;//en.wikipedia.org/wiki/Magic_string).
 
-<p>MVC provides a ViewData collection in which you can store miscellaneous pieces of information to pass to the View.&#160; It’s also accessible it as a Dynamic object by using the ViewBag.&#160; However, you should avoid using ViewData or ViewBag because it isn’t type-safe and relies on <a href="http&#58;//en.wikipedia.org/wiki/Magic_string">Magic Strings</a>.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><div class="greyBox"><pre>public ActionResult Index() &#123;
-  ViewData[&quot;Message&quot;] = &quot;Some Message&quot;;
+<!--endintro-->
+
+
+::: greybox
+
+
+```
+public ActionResult Index() {
+  ViewData["Message"] = "Some Message";
   return View();
-&#125;
+}
  
-&lt;h1&gt;&lt;%&#58; ViewData[&quot;Message&quot;] &amp;&gt;&lt;/h1&gt;
+<h1><%: ViewData["Message"] &></h1>
+```
 
-</pre></div></dt><dd>Figure&#58; Bad Example – ViewData being used to pass information to the View isn’t type-safe</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>public ActionResult Index() &#123;
+
+:::
+Figure: Bad Example – ViewData being used to pass information to the View isn’t type-safe
+
+::: greybox
+
+
+```
+public ActionResult Index() {
   var model = new IndexViewModel();
-  model.Message = &quot;Some Message&quot;;
+  model.Message = "Some Message";
   return View();
-&#125;
+}
  
-&lt;h1&gt;&lt;%&#58; Model.Message %&gt;&lt;/h1&gt;
+<h1><%: Model.Message %></h1>
+```
 
-</pre></div></dt><dd>Figure&#58; Good Example – Using a ViewModel is a safer way to pass data</dd></dl>
 
-
+:::
+Figure: Good Example – Using a ViewModel is a safer way to pass data
