@@ -20,7 +20,7 @@ redirects: []
      required. </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt> 
-      <img alt="Password prompt as a surprise" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/PasswordProtectedPagesNeedKey.gif" style="margin&#58;5px;width&#58;406px;" />
-   </dt><dd>Figure&#58; Bad Example - because when you click &quot;Building 100&quot; you get a password prompt as a surprise</dd></dl>
+      <img alt="Password prompt as a surprise" src="../../assets/PasswordProtectedPagesNeedKey.gif" style="margin:5px;width:406px;" />
+   </dt><dd>Figure: Bad Example - because when you click "Building 100" you get a password prompt as a surprise</dd></dl>
 
 
