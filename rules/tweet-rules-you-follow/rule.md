@@ -18,7 +18,7 @@ redirects:
 If you follow a rule, then tweet it. Use  **#ssw**  and  **#sswrules**
 
 
-
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
 
 
 
