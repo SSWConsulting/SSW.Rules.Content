@@ -16,9 +16,58 @@ redirects:
 
 ---
 
+For modern applications, there are many layers and moving parts that need to seamlessly work together to deliver our application to the end user.
 
-<p>For modern applications, there are many layers and moving parts that need to seamlessly work together to deliver our application to the end user. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"> <dt> <img src="bottleneck.png" alt="bottleneck.png" /> </dt><dd>Figure: Bottlenecks can happen anywhere! Call out diagrammatically where you think the bottlenecks are happenning<br></dd></dl><p>The issues can be in:</p><h3>SQL Server</h3><ul><li><span style="line-height:1.5em;">Slow </span><span style="line-height:1.5em;">queries </span></li><li><span style="line-height:1.5em;">Timeouts</span></li><li><span style="line-height:1.5em;">Bad configuration </span></li><li><span style="line-height:1.5em;">Bad query plans </span></li><li><span style="line-height:1.5em;">Lack of resources </span></li><li><span style="line-height:1.5em;">Locking</span><br></li></ul><h3>Business Logic</h3><ul><li><span style="line-height:1.5em;">Inefficient code </span></li><li><span style="line-height:1.5em;">Chatty code </span></li><li><span style="line-height:1.5em;">Long running processes </span></li><li><span style="line-height:1.5em;">Not making use of multicore processors</span><br></li></ul><h3>Front end</h3><ul><li><span style="line-height:1.5em;">Too man</span><span style="line-height:1.5em;">y requests to server a page </span></li><li><span style="line-height:1.5em;">Page size</span></li><li><span style="line-height:1.5em;">Large images</span></li><li><span style="line-height:1.5em;">No Caching</span><br></li></ul><h3>Connection between SQL and Web</h3><ul><li><span style="line-height:1.5em;">Lack of bandwidth</span></li><li><span style="line-height:1.5em;">T</span><span style="line-height:1.5em;">oo much chatter</span><br></li></ul><h3>Connection between Web and Internet</h3><ul><li><span style="line-height:1.5em;">Poor uplink (</span><span style="line-height:1.5em;">e.g. 1mbps uploads)</span></li><li><span style="line-height:1.5em;">Too many hops</span><br></li></ul><h3>Connection between Web and End users</h3><ul><li><span style="line-height:1.5em;">Geographic​</span><span style="line-height:1.5em;">ally too far (e.g. US servers, AU users)</span><br></li></ul><h3>Infrastructure</h3><ul><li><span style="line-height:1.5em;">Misconfiguration</span></li><li><span style="line-height:1.5em;">​Resou</span><span style="line-height:1.5em;">rce contention</span><br></li></ul>
+<!--endintro-->
+
+![Figure: Bottlenecks can happen anywhere! Call out diagrammatically where you think the bottlenecks are happenning](bottleneck.png)  
+
+The issues can be in:
+
+### SQL Server
+
+* Slow queries
+* Timeouts
+* Bad configuration
+* Bad query plans
+* Lack of resources
+* Locking
 
 
+### Business Logic
+
+* Inefficient code
+* Chatty code
+* Long running processes
+* Not making use of multicore processors
+
+
+### Front end
+
+* Too many requests to server a page
+* Page size
+* Large images
+* No Caching
+
+
+### Connection between SQL and Web
+
+* Lack of bandwidth
+* Too much chatter
+
+
+### Connection between Web and Internet
+
+* Poor uplink (e.g. 1mbps uploads)
+* Too many hops
+
+
+### Connection between Web and End users
+
+* Geographically too far (e.g. US servers, AU users)
+
+
+### Infrastructure
+
+* Misconfiguration
+* Resource contention
