@@ -15,9 +15,12 @@ redirects:
 
 ---
 
+There is a hidden cost that every task or email in your inbox adds that is easy to miss, and that is that every time you scan over an item and decide not to do it, you are really just kicking the can down the road, and your future self will have to later scan that item again, and possibly again decide that it’s not worth doing yet, and so kick it further down the road.
 
-<p>There is a hidden cost that every task or email in your inbox adds that is easy to miss, and that is that every time you scan over an item and decide not to do it, you are really just kicking the can down the road, and your future self will have to later scan that item again, and possibly again decide that it’s not worth doing yet, and so kick it further down the road.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>This tiny cost once multiplied multiple times per task, and considering how many small (&lt;5 minutes) style tasks we all get in a given day, can end up taking up a sizable portion of your effective time while at work.</p><p>To combat this, if you ever receive a task that would take 5 minutes or less to complete, do it immediately, <a href=/dones-do-you-reply-done-and-delete-the-original-email>reply </a><a href=/dones-do-you-reply-done-and-delete-the-original-email>done</a>&#160;if necessary, and then delete it.<br></p><p>Another way to implement this principle to save yourself the cognitive load of re-reading emails is to <a href=/do-you-follow-up-emails-effectively>forward emails to followupthen.com</a>. For example, if you know you won’t be able to work on a particular task for at least 2 weeks because of a dependency, forward the email to 2weeks@followupthen.com, and it will reappear in your inbox at the time you can actually do something about it.<br></p>
+<!--endintro-->
 
+This tiny cost once multiplied multiple times per task, and considering how many small (&lt;5 minutes) style tasks we all get in a given day, can end up taking up a sizable portion of your effective time while at work.
 
+To combat this, if you ever receive a task that would take 5 minutes or less to complete, do it immediately, [reply](/dones-do-you-reply-done-and-delete-the-original-email)[done](/dones-do-you-reply-done-and-delete-the-original-email) if necessary, and then delete it.
+
+Another way to implement this principle to save yourself the cognitive load of re-reading emails is to [forward emails to followupthen.com](/do-you-follow-up-emails-effectively). For example, if you know you won’t be able to work on a particular task for at least 2 weeks because of a dependency, forward the email to 2weeks@followupthen.com, and it will reappear in your inbox at the time you can actually do something about it.
