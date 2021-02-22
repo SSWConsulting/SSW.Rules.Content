@@ -19,10 +19,6 @@ redirects: []
 
 ---
 
-
-This field should not be null (Remove me when you edit this field).
-<br><excerpt class='endintro'></excerpt><br>
-<dl><dt><img alt="Test case " src="TestCase.jpg" /></dt>
-<dd>Figure: You can easily fix this by associating tests with a Test Case which in turn "Tests" a bug </dd></dl>
-
-
+This field should not be null (Remove me when you edit this field). 
+<!--endintro-->
+![Test case ](TestCase.jpg) Figure: You can easily fix this by associating tests with a Test Case which in turn "Tests" a bug
