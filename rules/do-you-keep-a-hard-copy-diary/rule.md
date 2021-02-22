@@ -11,9 +11,6 @@ redirects: []
 
 ---
 
+This rule has been migrated to "[Do you know the best ways to keep track of your time?](/Pages/keep-track-of-your-time.aspx)"
 
-This rule&#160;has been migrated&#160;to &quot;<a href="/Pages/keep-track-of-your-time.aspx">​Do you know the best ways to keep track of your time?</a>​​&quot;​<br>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
