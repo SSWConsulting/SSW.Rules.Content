@@ -25,7 +25,7 @@ Both SQL Server authentication (standard security) and Windows NT authentication
 <p>&#160;</p>
 <dl class="badCode">
     <dt style="width&#58;92.17%;height&#58;126px;">
-    <pre>{ltHTMLChar}connectionStrings{gtHTMLChar}<br>   {ltHTMLChar}add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>    Database=NorthWind;Integrated Security=SSPI;&quot; /{gtHTMLChar}<br>{ltHTMLChar}/connectionStrings{gtHTMLChar}</pre>
+    <pre>&lt;connectionStrings&gt;<br>   &lt;add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>    Database=NorthWind;Integrated Security=SSPI;&quot; /&gt;<br>&lt;/connectionStrings&gt;</pre>
     </dt>
     <dd>Bad example - not use Windows Integrated Authentication connection string without comment. </dd>
 </dl>
@@ -33,7 +33,7 @@ Both SQL Server authentication (standard security) and Windows NT authentication
 <p>&#160;</p>
 <dl class="goodCode">
     <dt style="width&#58;92.02%;height&#58;100px;">
-    <pre>{ltHTMLChar}connectionStrings{gtHTMLChar}<br>    {ltHTMLChar}add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>     Database=NorthWind;Integrated Security=SSPI;&quot; /{gtHTMLChar}<br>{ltHTMLChar}/connectionStrings{gtHTMLChar}</pre>
+    <pre>&lt;connectionStrings&gt;<br>    &lt;add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>     Database=NorthWind;Integrated Security=SSPI;&quot; /&gt;<br>&lt;/connectionStrings&gt;</pre>
     </dt>
     <dd>Good example - use Windows Integrated Authentication connection string by default. </dd>
 </dl>
@@ -41,7 +41,7 @@ Both SQL Server authentication (standard security) and Windows NT authentication
 <p>&#160;</p>
 <dl class="goodCode">
     <dt style="width&#58;92.79%;height&#58;152px;">
-    <pre>                {ltHTMLChar}connectionStrings{gtHTMLChar}<br>                &#160;&#160;&#160;&#160;{ltHTMLChar}add name=&quot;ConnectionString&quot; <br>                     connectionString=&quot;Server=(local);<br>                     Database=NorthWind;uid=sa;pwd=sa;&quot; /{gtHTMLChar}<br>                &#160;&#160;&#160;&#160;{ltHTMLChar}!--It can't use the Windows Integrated because they are <br>                     using Novell --{gtHTMLChar}                <br>{ltHTMLChar}/connectionStrings{gtHTMLChar}</pre>
+    <pre>                &lt;connectionStrings&gt;<br>                &#160;&#160;&#160;&#160;&lt;add name=&quot;ConnectionString&quot; <br>                     connectionString=&quot;Server=(local);<br>                     Database=NorthWind;uid=sa;pwd=sa;&quot; /&gt;<br>                &#160;&#160;&#160;&#160;&lt;!--It can't use the Windows Integrated because they are <br>                     using Novell --&gt;                <br>&lt;/connectionStrings&gt;</pre>
     </dt>
     <dd>Good example - not use Windows Integrated Authentication connection string with comment.</dd>
 </dl>
