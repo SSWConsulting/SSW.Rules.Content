@@ -15,9 +15,19 @@ redirects: []
 
 ---
 
+Dynamics regularly receives updates, known as Rollups. Rollups are a set of cumulative updates and patches. It is important to ensure you are up to date as there many great enhancements (and the odd bug fix) that are included over time. 
 
-Dynamics&#160;regularly receives updates, known as Rollups. Rollups&#160;are a set of cumulative updates and patches. It is important to ensure you are up to date as there many great enhancements (and the odd bug fix) that are included over time. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Past Rollups have included great improvements such as&#58;​​</p><ul><li>Cross-browser support (finally support for Chrome, Safari (not iOS) and Firefox)</li><li>Windows Server OS support</li><li>ADFS 2.1 support</li><li>SDK changes better handle bulk data updates</li><li>Many index improvements to make searches faster <br></li></ul><p>Dynamics Cumulative updates are available from <a href="https&#58;//support.microsoft.com/en-au/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates">https&#58;//support.microsoft.com/en-au/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates</a> <br></p><p>It is important to ensure you test each update before deploying it to a live environment and have a suitable rollback strategy.​<br><br></p>
+<!--endintro-->
+
+Past Rollups have included great improvements such as:
+
+* Cross-browser support (finally support for Chrome, Safari (not iOS) and Firefox)
+* Windows Server OS support
+* ADFS 2.1 support
+* SDK changes better handle bulk data updates
+* Many index improvements to make searches faster
 
 
+Dynamics Cumulative updates are available from [https://support.microsoft.com/en-au/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates](https&#58;//support.microsoft.com/en-au/help/3142345/microsoft-dynamics-365-onpremise-cumulative-updates)
+
+It is important to ensure you test each update before deploying it to a live environment and have a suitable rollback strategy.
