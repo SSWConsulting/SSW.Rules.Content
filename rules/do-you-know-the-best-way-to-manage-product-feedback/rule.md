@@ -13,10 +13,29 @@ redirects: []
 
 ---
 
+How do you want customers to send you feedback? Phone calls? Emails? A website? 
+There are a number of web applications that do a great job on this:
 
-<p>​​​How do you want customers to send you feedback? Phone calls? Emails? A website? <br>There are a number of web applications that do a great job on this:</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li><a href="https://www.uservoice.com/">UserVoice​</a> </li><li><a href="https://getsatisfaction.com/corp/">GetSatisfication​</a> </li><li><a href="https://userecho.com/">UserEcho​​</a> </li></ul><dl class="image"><dt> <img src="codeauditoruservoice.jpg" alt="codeauditoruservoice.jpg" style="width:650px;" /> </dt><dd>Figure: The UserVoice website allows user to enter suggestions (used here by SSW Code Auditor)</dd></dl><dl class="image"><dt><img src="admin.jpg" alt="admin.jpg" style="width:650px;" /> </dt><dd>Figure: UserVoice has an Administrator console to track feedback</dd> </dl><p>
-   <a href="https://www.uservoice.com/">UserVoice</a> is the most popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.</p><div>Many software houses use this for their products E​g. SSW Code Auditor, SSW Link Auditor<p></p><p>Here are the google results as at 2014</p><dl class="image"><dt><img src="uservoice.jp.jpg" alt="uservoice.jp.jpg" style="width:650px;" /> </dt><dd>Figure: Google result of UserVoice</dd></dl><dl class="image"><dt><img src="getsatisfaction.jpg" alt="getsatisfaction.jpg" style="width:650px;" /> </dt><dd>Figure: Google result of GetSatisfaction </dd></dl><dl class="image"><dt><img src="googleresultuserecho.jpg" alt="googleresultuserecho.jpg" style="width:650px;" /> </dt><dd>Figure: Google result of UserEcho <br></dd></dl></div>
+<!--endintro-->
+
+* [UserVoice](https://www.uservoice.com/)
+* [GetSatisfication](https://getsatisfaction.com/corp/)
+* [UserEcho](https://userecho.com/)
 
 
+![Figure: The UserVoice website allows user to enter suggestions (used here by SSW Code Auditor)](codeauditoruservoice.jpg)  
+
+![Figure: UserVoice has an Administrator console to track feedback](admin.jpg)  
+ 
+[UserVoice](https://www.uservoice.com/) is the most popular platform to collect, manage, and prioritize user feedback. It has a voting and tickets system out of the box.
+
+Many software houses use this for their products Eg. SSW Code Auditor, SSW Link Auditor
+
+
+Here are the google results as at 2014
+
+![Figure: Google result of UserVoice](uservoice.jp.jpg)  
+
+![Figure: Google result of GetSatisfaction](getsatisfaction.jpg)  
+
+![Figure: Google result of UserEcho](googleresultuserecho.jpg)
