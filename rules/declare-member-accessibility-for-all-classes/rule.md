@@ -14,9 +14,39 @@ redirects:
 
 ---
 
+Not explicitly specifying the access type for members of a structure or class can be misleading for other developers. The default member accessibility level for classes and structs in Visual C# .NET is always private. In Visual Basic .NET, the default for classes is private, but for structs is public.
 
-<p class="ssw15-rteElement-P">​Not explicitly specifying the access type for members of a structure or class can be misleading for other developers. The default member accessibility level for classes and structs in Visual C# .NET is always private. In Visual Basic .NET, the default for classes is private, but for structs is public.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">Match MatchExpression(string input, string pattern) </p><dd class="ssw15-rteElement-FigureBad">Figure: Bad - Method without member accessibility declared <br></dd><p class="ssw15-rteElement-CodeArea">private Match MatchExpression(string input, string pattern) <br></p><dd class="ssw15-rteElement-FigureGood">Figure: Good - Method with member accessibility declared<br></dd><dl class="ssw15-rteElement-ImageArea">​<img src="matt-w-screenshot.jpg" alt="matt-w-screenshot.jpg" style="margin:5px;width:750px;height:103px;" /><strong>Figure: Compiler warning given for not explicitly defining member access level</strong><br></dl><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-YellowBorderBox">We have a program called <a href="https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper">SSW Code Auditor </a> to check for this rule. <br></p>
+<!--endintro-->
 
 
+
+```
+Match MatchExpression(string input, string pattern)
+```
+
+
+
+
+::: bad
+Figure: Bad - Method without member accessibility declared 
+
+:::
+
+
+
+```
+private Match MatchExpression(string input, string pattern)
+```
+
+
+
+
+::: good
+Figure: Good - Method with member accessibility declared
+
+:::
+![](matt-w-screenshot.jpg) **Figure: Compiler warning given for not explicitly defining member access level** 
+
+
+
+We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.
