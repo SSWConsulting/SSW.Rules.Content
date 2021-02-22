@@ -14,9 +14,19 @@ redirects:
 
 ---
 
-
-<p>You should never start a long process (&gt;30 seconds) without first giving a warning message to warn the user approximately how long it will take.</p><dl class="goodImage"><dt><img src="lengthyoperation.jpg" alt="lengthyoperation.jpg" />​<br></dt><dd>Figure: Good example - Code Auditor message warning this is a long process</dd></dl><p>You will need to have 2 things:</p><ol><li>A table to record processes containing the following fields:<br></li><ul><li>ALogRecord (DateCreated, FunctionName, EmpUpdated, ComputerName, ActiveForm, ActiveControl, SystemsResources, ConventionalMemory, FormsCount, TimeStart, TimeEnd, TimeTaken, RecordsProcessed, Avg, Note, RowGuide, SSWTimeStamp)</li></ul><li>A function to change the number of seconds lapsed to words - see the "1 minute, 9 seconds" in the above messagebox - this requires a SecondsToWords() function shown. See our <a href="https://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterCode.aspx#">code base</a>.</li></ol>​<br>
-<br><excerpt class='endintro'></excerpt><br>
+You should never start a long process (&gt;30 seconds) without first giving a warning message to warn the user approximately how long it will take.
 
 
+::: good  
+![Figure: Good example - Code Auditor message warning this is a long process](lengthyoperation.jpg)  
+:::
 
+You will need to have 2 things:
+
+1. A table to record processes containing the following fields:
+    * ALogRecord (DateCreated, FunctionName, EmpUpdated, ComputerName, ActiveForm, ActiveControl, SystemsResources, ConventionalMemory, FormsCount, TimeStart, TimeEnd, TimeTaken, RecordsProcessed, Avg, Note, RowGuide, SSWTimeStamp)
+2. A function to change the number of seconds lapsed to words - see the "1 minute, 9 seconds" in the above messagebox - this requires a SecondsToWords() function shown. See our [code base](https://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterCode.aspx#).
+
+
+
+<!--endintro-->
