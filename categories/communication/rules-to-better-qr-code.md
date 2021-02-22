@@ -8,6 +8,5 @@ index:
 - where-qr-code-scanner-should-be-on-a-ui
 
 ---
-<p>​​​​</p>
 
 
