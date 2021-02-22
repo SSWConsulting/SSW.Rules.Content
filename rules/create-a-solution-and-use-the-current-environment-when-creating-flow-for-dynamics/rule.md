@@ -14,12 +14,14 @@ redirects:
 
 ---
 
+When creating workflows in Dynamics developers take for granted when a solution file is moved across environments, things just work. To achieve the same with Flows we need to make sure that when connecting to Dynamics using the Comm Data Service connector, we in fact connect with Common Data Service (Current Environment) connector. This connector is environmentally aware and will immediately work when the parent solution is deployed to another environment, it doesn't require any post-deployment steps.
 
-<p class="ssw15-rteElement-P">​When creating workflows in Dynamics developers take for granted when a solution file is moved across environments, things just work. To achieve the same with Flows we need to make sure that when connecting to Dynamics using the Comm Data Service connector, we in fact connect with Common Data Service (Current Environment) connector. This connector is environmentally aware and will immediately work when the parent solution is deployed to another environment, it doesn't require any post-deployment steps.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-   <b>Tip: </b>When searching for Common Data Services (Current Environment) it’s very easy to pick the wrong one:<br></p><dl class="image"><dt> 
-      <img src="common-data-services.png" alt="common-data-services.png" />       
-   </dt></dl><h3>Related Rule</h3><ul><li><a href=/bundle-all-your-customizations-in-a-solution>​​Do you bundle all your customizations in a Solution (Model-Driven)?</a>​<br></li></ul>
+<!--endintro-->
 
+**Tip:** When searching for Common Data Services (Current Environment) it’s very easy to pick the wrong one:
 
+![](common-data-services.png)  
+
+### Related Rule
+
+* [Do you bundle all your customizations in a Solution (Model-Driven)?](/bundle-all-your-customizations-in-a-solution)
