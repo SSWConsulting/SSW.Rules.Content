@@ -13,35 +13,59 @@ redirects: []
 
 ---
 
+Using Boot to VHD is very similar to dual-booting your machine, except that you do not have to partition your hard drive. It also has performance benefits over using a Hyper-V server for presentations.   
+<!--endintro-->
+**Pre-Requisites** 
 
-Using Boot to VHD is very similar to dual-booting your machine, except that you do not have to partition your hard drive. It also has performance benefits over using a Hyper-V server for presentations. 
 
-<br><excerpt class='endintro'></excerpt><br>
+* The presentation computer running Windows
+* A SysPreped VHD image to be deployed onto the presentation computer
 
-  <strong>Pre-Requisites</strong>
-  <br>
-<br>
-<ul>
-    <li>The presentation computer running Windows<br></li>
-    <li>A SysPreped VHD image to be deployed onto the presentation computer</li>
-</ul>
-<ol>
-    <li>Copy a SysPreped VHD image to the laptop to be used for the presentation.</li>
-    <li>Open an Administrative command prompt.</li>
-    <li>Type:<br>
-    <font class="ms-rteCustom-CodeArea" size="+0">bcdedit /copy {default} /d “Demo-NameOfDemo”</font><img alt="Creating the entry using BCDEdit shows your GUID" src="fig1-creatingentry.png" /><br>
-    <font class="ms-rteCustom-FigureNormal" size="+0">Figure - Creating the entry using BCDEdit shows your GUID</font></li>
-    <li>Type:<br>
-    <font class="ms-rteCustom-CodeArea" size="+0">bcdedit /set &lt;GUID&gt; <strong>device </strong>vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd</font><br>
-    <strong>D:\</strong> is the drive the VHD is located and <strong>VM-DEV-SharePoint_2010_Public_Beta.vhd</strong> is the location of your VHD file. Make sure you replace <strong>&lt;GUID&gt; </strong>with the GUID you got in the previous step.</li>
-    <li>Type:<br>
-    <font class="ms-rteCustom-CodeArea" size="+0">bcdedit /set &lt;GUID&gt; <strong>osdevice </strong>vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd</font><br>
-    <strong>D:\</strong> is the drive the VHD is located and <strong>VM-DEV-SharePoint_2010_Public_Beta.vhd</strong> is the location of your VHD file. Make sure you replace <strong>&lt;GUID&gt; </strong>with the GUID you got in the previous step.</li>
-    <li>Type:<br>
-    <font class="ms-rteCustom-CodeArea" size="+0">bcdedit /set &lt;GUID&gt; detecthal on</font><img alt="Each time you run a BCDEdit command it should return "The operation completed successfully"" src="fig2-addguids.png" /><br>
-    <font class="ms-rteCustom-FigureNormal" size="+0">Figure - Each time you run a BCDEdit command it should return "The operation completed successfully"</font></li>
-    <li>Reboot the computer and now you will have the option to choose between Windows 7 and the new Boot to VHD image.</li>
-</ol>
+
+1. Copy a SysPreped VHD image to the laptop to be used for the presentation.
+2. Open an Administrative command prompt.
+3. Type:
 
 
 
+```
+bcdedit /copy {default} /d “Demo-NameOfDemo”
+```
+
+
+![Creating the entry using BCDEdit shows your GUID](fig1-creatingentry.png)
+**Figure - Creating the entry using BCDEdit shows your GUID**
+4. Type:
+
+
+
+```
+bcdedit /set <GUID>  device vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd
+```
+
+
+
+**D:\** is the drive the VHD is located and  **VM-DEV-SharePoint\_2010\_Public\_Beta.vhd** is the location of your VHD file. Make sure you replace  **&lt;GUID&gt;** with the GUID you got in the previous step.
+5. Type:
+
+
+
+```
+bcdedit /set <GUID>  osdevice vhd=[D:]\VM-DEV-SharePoint_2010_Public_Beta.vhd
+```
+
+
+
+**D:\** is the drive the VHD is located and  **VM-DEV-SharePoint\_2010\_Public\_Beta.vhd** is the location of your VHD file. Make sure you replace  **&lt;GUID&gt;** with the GUID you got in the previous step.
+6. Type:
+
+
+
+```
+bcdedit /set <GUID> detecthal on
+```
+
+
+![Each time you run a BCDEdit command it should return ](fig2-addguids.png)
+**Figure - Each time you run a BCDEdit command it should return "The operation completed successfully"**
+7. Reboot the computer and now you will have the option to choose between Windows 7 and the new Boot to VHD image.
