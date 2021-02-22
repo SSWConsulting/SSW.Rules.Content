@@ -15,9 +15,14 @@ redirects: []
 
 ---
 
+Sponsoring an event can be a good way to get your company’s name and expertise out there to the people who attend, but you can also get extra value by telling people about it who aren’t going, especially if it is an event valued by your industry.
 
-<p>Sponsoring an event can be a good way to get your company’s name and expertise out there to the people who attend, but you can also get extra value by telling people about it who aren’t going, especially if it is an event valued by your industry.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​Event Sponsorship should be treated as a shared value partnership.​<br></p><p>You should let the world know through the following channels&#58;</p><ul><li>Your website news page​​</li><li>Company Facebook groups or pages</li><li>Company LinkedIn pages</li></ul>
+<!--endintro-->
 
+Event Sponsorship should be treated as a shared value partnership.
 
+You should let the world know through the following channels:
+
+* Your website news page
+* Company Facebook groups or pages
+* Company LinkedIn pages
