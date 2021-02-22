@@ -17,9 +17,12 @@ redirects:
 
 ---
 
+Before you begin your journey into DevOps, you should assess yourself and see where your project is at and where you can improve.
 
-<p class="p1">​Before you begin your journey into DevOps, you should assess yourself and see where your project is at and where you can improve.​<span style="line-height:1.6;">​​​​​</span></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Take this survey to find out your DevOps index:​ <span style="line-height:20.8px;"></span><a href="http://goo.gl/forms/NrJhwHeGu1" target="_blank">http://goo.gl/forms/NrJhwHeGu1​​</a></p><dl class="image"><dt><img src="DevOps Survey.png" alt="DevOps Survey.png" style="width:497px;height:348px;" /></dt><dd>Figure: DevOps Survey​</dd></dl><dl class="image"><dt><img src="quiz-devops.jpg" alt="quiz-devops.jpg" style="width:800px;" /></dt><dd>Figure: If you prefer, you can download and print <a href="/Documents/DevOps-Quiz.pdf"><img class="ms-asset-icon ms-rtePosition-4" src="icpdf.png" alt="" />this survey in PDF​</a>​</dd></dl>
+<!--endintro-->
 
+Take this survey to find out your DevOps index: http://goo.gl/forms/NrJhwHeGu1
 
+![Figure: DevOps Survey](DevOps Survey.png)  
+
+![Figure: If you prefer, you can download and print this survey in PDF](quiz-devops.jpg)
