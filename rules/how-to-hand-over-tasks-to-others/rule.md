@@ -51,7 +51,7 @@ As per our conversation yesterday about TimePro!
 keeps crashing when I do a search under 'Company', please fix
 
 </pre> </span><span class="ms-rteCustom-FigureGood">Figure&#58; Good example - task clearly redirected</span> <br>
-<p>If you need to hand over an entire project there are more details here&#58;&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7f4ea680-012b-4d7c-9fb8-ca94c21f6c5c">Do you know how to hand over a project? </a><br></p>
+<p>If you need to hand over an entire project there are more details here&#58;&#160;<a href=/do-you-know-how-to-handover-a-project>Do you know how to hand over a project? </a><br></p>
 
 
 
