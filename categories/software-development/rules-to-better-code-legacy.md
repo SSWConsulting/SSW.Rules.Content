@@ -9,6 +9,5 @@ index:
 - do-not-put-exit-sub-before-end-sub
 
 ---
-<p>​​<br></p>
 
 
