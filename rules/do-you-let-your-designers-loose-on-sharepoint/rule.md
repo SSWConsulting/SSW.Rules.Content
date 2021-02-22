@@ -35,10 +35,10 @@ redirects: []
     <li>SharePoint has built-in check-in and check-out, as well as version controls, publishing and approval controls - all of which are excellent for team development</li>
 </ul>
 <p>The major drawback for a designer is the complexity of a SharePoint masterpage&#58;</p>
-<p>{ltHTMLChar}insert picture{gtHTMLChar}</p>
+<p>&lt;insert picture&gt;</p>
 <p>Figure&#58; Bad - Nasty looking masterpage</p>
 <p>Luckily, we always start with a clean-minimal masterpage, which gives our designers full freedom to implement their vision&#58;</p>
-<p>{ltHTMLChar}insert picture{gtHTMLChar}</p>
+<p>&lt;insert picture&gt;</p>
 <p>Figure&#58; Good - clean-minimal masterpage</p>
 
 
