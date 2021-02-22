@@ -13,15 +13,8 @@ redirects: []
 
 ---
 
+Don't make any changes to the test server, it can break your deployment process           of your plug-in.
 
-<p>
-          Don't make any changes to the test server, it can break your deployment process
-          of your plug-in.
-        </p>
-        <p>
-          Develop only on your development server.
-        </p>
-<br><excerpt class='endintro'></excerpt><br>
+Develop only on your development server.
 
-
-
+<!--endintro-->
