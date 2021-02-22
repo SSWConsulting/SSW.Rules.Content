@@ -19,17 +19,17 @@ redirects: []
 <dl class="badImage"><dt><div class="greyBox"><pre>@using (Html.BeginForm()) &#123;
     @Html.ValidationSummary(true)
 
-    {ltHTMLChar}div class=&quot;editor-label&quot;{gtHTMLChar}
-        @Html.LabelFor(model ={gtHTMLChar} model.Name)
-    {ltHTMLChar}/div{gtHTMLChar}
-    {ltHTMLChar}div class=&quot;editor-field&quot;{gtHTMLChar}
-        @Html.EditorFor(model ={gtHTMLChar} model.Name)
-        @Html.ValidationMessageFor(model ={gtHTMLChar} model.Name)
-    {ltHTMLChar}/div{gtHTMLChar}
+    &lt;div class=&quot;editor-label&quot;&gt;
+        @Html.LabelFor(model =&gt; model.Name)
+    &lt;/div&gt;
+    &lt;div class=&quot;editor-field&quot;&gt;
+        @Html.EditorFor(model =&gt; model.Name)
+        @Html.ValidationMessageFor(model =&gt; model.Name)
+    &lt;/div&gt;
 
-    {ltHTMLChar}p{gtHTMLChar}
-        {ltHTMLChar}input type=&quot;submit&quot; value=&quot;Create&quot; /{gtHTMLChar}
-    {ltHTMLChar}/p{gtHTMLChar}
+    &lt;p&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Create&quot; /&gt;
+    &lt;/p&gt;
  &#125;
       </pre></div></dt><dd>Figure&#58; Bad Example – The page is potentially vulnerable to XSRF attacks. Any post will be accepted by the server</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>            <em>View&#58;</em>
 
@@ -37,18 +37,18 @@ redirects: []
     @Html.AntiForgeryToken()
     @Html.ValidationSummary(true)
 
-    {ltHTMLChar}div class=&quot;editor-label&quot;{gtHTMLChar}
-        @Html.LabelFor(model ={gtHTMLChar} model.Name)
-    {ltHTMLChar}/div{gtHTMLChar}
-    {ltHTMLChar}div class=&quot;editor-field&quot;{gtHTMLChar}
-        @Html.EditorFor(model ={gtHTMLChar} model.Name)
-        @Html.ValidationMessageFor(model ={gtHTMLChar} model.Name)
-    {ltHTMLChar}/div{gtHTMLChar}
+    &lt;div class=&quot;editor-label&quot;&gt;
+        @Html.LabelFor(model =&gt; model.Name)
+    &lt;/div&gt;
+    &lt;div class=&quot;editor-field&quot;&gt;
+        @Html.EditorFor(model =&gt; model.Name)
+        @Html.ValidationMessageFor(model =&gt; model.Name)
+    &lt;/div&gt;
 
-    {ltHTMLChar}p{gtHTMLChar}
+    &lt;p&gt;
         
-            {ltHTMLChar}input type=&quot;submit&quot; value=&quot;Create&quot;/{gtHTMLChar}
-    {ltHTMLChar}/p{gtHTMLChar}
+            &lt;input type=&quot;submit&quot; value=&quot;Create&quot;/&gt;
+    &lt;/p&gt;
 &#125;
 
 <em>Controller&#58;</em>
