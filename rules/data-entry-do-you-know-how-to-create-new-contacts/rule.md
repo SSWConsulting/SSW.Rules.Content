@@ -13,12 +13,19 @@ redirects: []
 
 ---
 
+**Tip #1:** Avoid duplicates - Search to see if the Contact already exists before creating it.
 
-<div><div><strong>Tip #1:</strong> Avoid duplicates - Search to see if the Contact ​already exists before creating it.</div><div><strong>Tip #2: </strong>Generally you should be <a href="/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx">creating these from leads</a>, as it speeds up​ the process.​</div></div>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="NewContact.jpg" alt="Create New Contact Information" style="width:550px;" />​​​ </dt><dd>​Fig​ure: Bad Example​ - Click New, enter relevant contact information, and click "Save and Close"​​​</dd></dl><dl class="goodImage"><dt>
-      <img src="Sales-COntacts.jpg" alt="Create New Contact Logo" style="width:550px;" />
-   </dt><dd>Figure: Good Example - open the Account and create the contact from there</dd></dl>
+ **Tip #2:** Generally you should be [creating these from leads](/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx), as it speeds up the process.
 
 
+<!--endintro-->
+
+
+::: bad  
+![Figure: Bad Example - Click New, enter relevant contact information, and click "Save and Close"](NewContact.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - open the Account and create the contact from there](Sales-COntacts.jpg)  
+:::
