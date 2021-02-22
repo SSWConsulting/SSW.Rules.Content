@@ -13,15 +13,23 @@ redirects: []
 
 ---
 
+Getting attendees at a course or presentation involved has many benefits:
 
-<p>Getting attendees at a course or presentation involved has many benefits:<br></p><ul><li>They can share ideas with the presenter and each other</li><li>They can provide feedback for improvement of the material</li><li>They can share key points that they learn</li></ul>
-
-<br><excerpt class='endintro'></excerpt><br>
-<p>The easiest way to get attendees involved is to promote a social media​ hashtag at the beginning of every presentation or course.</p><dl class="badImage"><dt><img src="presentation-promote-bad.jpg" alt="" /></dt><dd>Figure: Bad Example – Presentation title slide does not promote attendee involvement</dd></dl><dl class="goodImage"><dt><img src="presentation-promote-good.jpg" alt="" /></dt><dd>Figure: Good Example – Promoting a Twitter backchannel promotes online discussion and feedback</dd></dl>
-
-
+* They can share ideas with the presenter and each other
+* They can provide feedback for improvement of the material
+* They can share key points that they learn
 
 
+<!--endintro-->
+
+The easiest way to get attendees involved is to promote a social media hashtag at the beginning of every presentation or course.
 
 
+::: bad  
+![Figure: Bad Example – Presentation title slide does not promote attendee involvement](presentation-promote-bad.jpg)  
+:::
 
+
+::: good  
+![Figure: Good Example – Promoting a Twitter backchannel promotes online discussion and feedback](presentation-promote-good.jpg)  
+:::
