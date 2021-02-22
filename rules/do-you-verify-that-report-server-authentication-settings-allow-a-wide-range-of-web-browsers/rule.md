@@ -13,9 +13,32 @@ redirects: []
 
 ---
 
-
-<div>​​​​The default configuration for Report Server isn't accessible​ by most mobile browsers and some desktop browsers too. You can adjust the authentication types allowed to increase the range.<br></div><div>​<br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​The configuration file for the Report Server is named&#160;RSReportServer.config and the default location is&#160;C&#58;\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\</p><p>You should make a backup of the configuration before editing it so you can rollback if you make a mistake.</p><p>We normally change the AuthenticationTypes node from&#58;</p><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;AuthenticationTypes&gt;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;RSWindowsNegotiate /&gt;&#160; <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/AuthenticationTypes&gt;<br>&#160;<br>to&#58;<br>&#160;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;AuthenticationTypes&gt;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;RSWindowsNegotiate /&gt;&#160; <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;RSWindowsKerberos /&gt;&#160; <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;RSWindowsNTLM /&gt;&#160; <br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &lt;/AuthenticationTypes&gt;</p><p>Check out the different <a href="https&#58;//technet.microsoft.com/en-us/library/cc281310%28v=sql.105%29.aspx">Authentication Types in the Report Server documentation ​</a> and select the types that suit your needs.</p><p>More details on configuring windows authentication on the report server can be fo​und <a href="https&#58;//docs.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server">here​</a>.<br></p><p><br>&#160;</p><p><br>&#160;</p>
+The default configuration for Report Server isn't accessible by most mobile browsers and some desktop browsers too. You can adjust the authentication types allowed to increase the range.
 
 
+
+
+
+<!--endintro-->
+
+The configuration file for the Report Server is named RSReportServer.config and the default location is C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\
+
+You should make a backup of the configuration before editing it so you can rollback if you make a mistake.
+
+We normally change the AuthenticationTypes node from:
+
+&lt;AuthenticationTypes&gt;
+                            &lt;RSWindowsNegotiate /&gt;  
+              &lt;/AuthenticationTypes&gt;
+ 
+to:
+ 
+              &lt;AuthenticationTypes&gt;
+                            &lt;RSWindowsNegotiate /&gt;  
+                            &lt;RSWindowsKerberos /&gt;  
+                            &lt;RSWindowsNTLM /&gt;  
+              &lt;/AuthenticationTypes&gt;
+
+Check out the different [Authentication Types in the Report Server documentation](https&#58;//technet.microsoft.com/en-us/library/cc281310%28v=sql.105%29.aspx) and select the types that suit your needs.
+
+More details on configuring windows authentication on the report server can be found [here](https&#58;//docs.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
