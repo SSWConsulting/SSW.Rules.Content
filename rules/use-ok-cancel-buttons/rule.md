@@ -14,11 +14,10 @@ redirects:
 
 ---
 
+It's always a good idea to follow how Windows does as users are familiar with Windows dialogs. "Save" and "Back" are non-standard, for example.
 
-It's always a good idea to follow how Windows does&#160;as users are familiar with Windows dialogs. &quot;Save&quot; and &quot;Back​&quot; are non-standard, for example.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​For more information read&#160;<a href="https&#58;//www.ssw.com.au/ssw/standards/rules/rulestobetterwindowsforms.aspx#ANCBTN" target="_blank">Do your forms have 'Accept' and 'Cancel' buttons?</a> 
+<!--endintro-->
 
-​</p><p>See the&#160;<a href=/use-clean-designs-when-creating-forms>examples</a>&#160;for how to do this on your form.​​</p>
+For more information read [Do your forms have 'Accept' and 'Cancel' buttons?](https&#58;//www.ssw.com.au/ssw/standards/rules/rulestobetterwindowsforms.aspx#ANCBTN)
 
-
+See the [examples](/use-clean-designs-when-creating-forms) for how to do this on your form.
