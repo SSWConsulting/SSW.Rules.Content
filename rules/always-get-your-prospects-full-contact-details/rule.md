@@ -16,9 +16,14 @@ redirects:
 
 ---
 
+How many times has another staff member given you a phone number to call back which was wrong? This should never happen. I know this sounds like a bit of a no-brainer but as a simple rule, we say that you should always get the prospect's full contact details. These details should then be added to your company database (just in case that post-it note they wrote it on disappears). Here are some of the important details that need to be recorded: 
 
-How many times has another staff member given you a phone number to call back which was wrong? This should never happen. I know this sounds like a bit of a no-brainer but as a simple rule, we say that you should always get the prospect's full contact details. These details should then be added to your company database (just in case that post-it note they wrote it on disappears). Here are some of the important details that need to be recorded&#58; <br>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Full name<br></li><li>Company</li><li>Position</li><li>Phone number (work and mobile)</li><li>Email address</li><li>Company address<br></li><li>How many employees does your company have? (This determines whether we go there or they come here.)​<br></li></ul>
+<!--endintro-->
 
-
+* Full name
+* Company
+* Position
+* Phone number (work and mobile)
+* Email address
+* Company address
+* How many employees does your company have? (This determines whether we go there or they come here.)
