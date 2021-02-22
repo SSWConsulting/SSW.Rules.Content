@@ -11,6 +11,5 @@ index:
 - do-you-use-slack-as-part-of-your-devops
 
 ---
-<p>​​<br></p>
 
 
