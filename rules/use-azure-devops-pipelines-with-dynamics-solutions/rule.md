@@ -15,14 +15,14 @@ redirects:
 ---
 
 
-<p class="ssw15-rteElement-P">​Are you still managing your Dynamics solution changes manually? Manually exporting and importing solutions across environments? Manually exporting unmanaged solutions to commit to source control. If so, read on, because there is a better way!&#160;​<br></p>
+<p class="ssw15-rteElement-P">​Are you still managing your Dynamics solution changes manually? Manually exporting and importing solutions across environments? Manually exporting unmanaged solutions to commit to source control. If so, read on, because there is a better way! ​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>Dynamics (and model-driven Power Apps) use solution files to store and apply changes across environments. Using the 
-   <a href="https&#58;//docs.microsoft.com/en-us/power-platform/alm/devops-build-tools">Power Platform Build Tools for Azure DevOps</a> will let automate manual tasks like&#58;&#160;</p><ul><li>Exporting unmanaged solutions and committing to source control&#160;</li><li>Generating managed solutions for use in downstream environments such as Testing and Production&#160;</li><li>Deploying solutions to downstream environments&#160;</li><li>Provisioning or de-provisioning environments&#160;</li></ul><p>Want to learn more?&#160;</p><p>Check out the guide on 
-   <a href="https&#58;//github.com/microsoft/PowerApps-Samples/tree/master/build-tools">GitHub</a>. The guide demonstrates&#58;&#160;</p><ol><li>Configuring Azure DevOps&#160;</li><li>Build the 'Capture Pipeline' (Export solution)&#160;</li><li>Build the 'Build Pipeline' (Generate Build Artifact)&#160;</li><li>Build the 'Release Pipeline' (Deploy to Production)&#160;</li></ol><dl class="image"><dt>
-      <img src="/PublishingImages/sample-azure-1.png" alt="sample-azure-1.png" />
-   </dt><dd>Figure&#58; Sample Azure Pipeline to export solution and commit to source control&#160;</dd></dl><dl class="image"><dt>
-<img src="/PublishingImages/sample-azure-2.png" alt="sample-azure-2.png" /></dt><dd>Figure&#58; Sample Azure Pipeline to create a managed solution from source &#160;</dd></dl><dl class="image"><dt>
-<img src="/PublishingImages/sample-azure-3.png" alt="sample-azure-3.png" /></dt><dd>Figure&#58; Sample Release Pipeline to deploy the managed solution to production<span style="color&#58;#444444;">​​</span></dd></dl>
+   <a href="https://docs.microsoft.com/en-us/power-platform/alm/devops-build-tools">Power Platform Build Tools for Azure DevOps</a> will let automate manual tasks like: </p><ul><li>Exporting unmanaged solutions and committing to source control </li><li>Generating managed solutions for use in downstream environments such as Testing and Production </li><li>Deploying solutions to downstream environments </li><li>Provisioning or de-provisioning environments </li></ul><p>Want to learn more? </p><p>Check out the guide on 
+   <a href="https://github.com/microsoft/PowerApps-Samples/tree/master/build-tools">GitHub</a>. The guide demonstrates: </p><ol><li>Configuring Azure DevOps </li><li>Build the 'Capture Pipeline' (Export solution) </li><li>Build the 'Build Pipeline' (Generate Build Artifact) </li><li>Build the 'Release Pipeline' (Deploy to Production) </li></ol><dl class="image"><dt>
+      <img src="sample-azure-1.png" alt="sample-azure-1.png" />
+   </dt><dd>Figure: Sample Azure Pipeline to export solution and commit to source control </dd></dl><dl class="image"><dt>
+<img src="sample-azure-2.png" alt="sample-azure-2.png" /></dt><dd>Figure: Sample Azure Pipeline to create a managed solution from source  </dd></dl><dl class="image"><dt>
+<img src="sample-azure-3.png" alt="sample-azure-3.png" /></dt><dd>Figure: Sample Release Pipeline to deploy the managed solution to production<span style="color:#444444;">​​</span></dd></dl>
 
 
