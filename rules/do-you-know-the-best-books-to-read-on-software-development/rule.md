@@ -20,16 +20,17 @@ redirects:
 
 ---
 
+As a software consultant, knowing your industry, your project management methods and your technologies are vital. Although we're always looking for the latest best practices and shiny new technologies, knowing the fundamentals is vital.
 
-<p class="p1">As a software consultant, knowing your industry, your project management methods and your technologies are vital. Although we're always looking for the latest best practices and shiny new technologies, knowing the fundamentals is vital. <br></p><p class="p1">Although everyone learns differently, and some prefer video sites like <a href="http&#58;//www.pluralsight.com/" target="_blank">www.pluralsight.com </a> to reading, these books are still full of useful information&#58;</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul class="ul1"><li class="li1">
-      <span class="s1"><a href="http&#58;//www.amazon.com/Software-Requirements-Specifications-Principles-Prejudices/dp/0201877120" target="_blank"><span class="s2">Software Requirements and Specifications&#58; A Lexicon of Practice, Principles and Prejudices</span></a></span><span class="s3"> (by Michael Jackson)</span></li><li class="li1">
-      <span class="s1"><a target="_blank" href="http&#58;//www.amazon.com/Software-30-Days-Customers-Competitors/dp/1118206665"><span class="s2">Software in 30 Days&#58; How Agile Managers Beat the Odds, Delight Their Customers, And Leave Competitors In the Dust</span></a></span><span class="s3"> (by Ken Schwaber)</span></li><li class="li1">
-      <span class="s1"><a target="_blank" href="http&#58;//www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670"><span class="s2">Code Complete&#58; A Practical Handbook of Software Construction, Second Edition</span></a></span><span class="s3"> (by Steve McConnel)</span></li><li class="li2">
-      <span class="s4"><a target="_blank" href="http&#58;//www.amazon.com/Design-Patterns-Object-Oriented-Professional-Computing/dp/0201634988"><span class="s2">Design Patterns&#160;</span></a></span>(by the Gang of Four)</li><li class="li1">
-      <span class="s1"><a target="_blank" href="http&#58;//www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X"><span class="s2">The Pragmatic Programmer</span></a></span><span class="s3"> (by Andrew Hunt)</span></li><li class="li2">
-      <span class="s4"><a target="_blank" href="http&#58;//www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959"><span class="s2">The Mythical Man Month</span></a></span> (by Frederick P. Brooks)</li><li class="li1">
-      <span class="s1"><a target="_blank" href="http&#58;//www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530"><span class="s2">Test Driven Development&#58; By Example</span></a></span><span class="s3"> (by Kent Beck)​</span></li><li class="li1"><a href="http&#58;//www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262509/ref=asap_bc?ie=UTF8">The Phoenix Project&#58; A Novel about IT, DevOps, and Helping Your Business Win​</a> (by&#160;Gene Kim,&#160;Kevin Behr &amp;&#160;George Spafford)<span class="s3"><br></span></li></ul>
+Although everyone learns differently, and some prefer video sites like [www.pluralsight.com](http&#58;//www.pluralsight.com/) to reading, these books are still full of useful information:
 
+<!--endintro-->
 
+* [Software Requirements and Specifications: A Lexicon of Practice, Principles and Prejudices](http&#58;//www.amazon.com/Software-Requirements-Specifications-Principles-Prejudices/dp/0201877120) (by Michael Jackson)
+* [Software in 30 Days: How Agile Managers Beat the Odds, Delight Their Customers, And Leave Competitors In the Dust](http&#58;//www.amazon.com/Software-30-Days-Customers-Competitors/dp/1118206665) (by Ken Schwaber)
+* [Code Complete: A Practical Handbook of Software Construction, Second Edition](http&#58;//www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670) (by Steve McConnel)
+* [Design Patterns](http&#58;//www.amazon.com/Design-Patterns-Object-Oriented-Professional-Computing/dp/0201634988)(by the Gang of Four)
+* [The Pragmatic Programmer](http&#58;//www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X) (by Andrew Hunt)
+* [The Mythical Man Month](http&#58;//www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) (by Frederick P. Brooks)
+* [Test Driven Development: By Example](http&#58;//www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530) (by Kent Beck)
+* [The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win](http&#58;//www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262509/ref=asap_bc?ie=UTF8) (by Gene Kim, Kevin Behr & George Spafford)
