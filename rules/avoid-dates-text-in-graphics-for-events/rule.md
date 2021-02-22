@@ -14,10 +14,18 @@ redirects:
 
 ---
 
+To maximize reusability and minimize costs, it’s best to avoid including dates as text in graphics for promotional videos.
 
-<p class="ssw15-rteElement-P">To maximize reusability and minimize costs, it’s best to avoid including dates as text in graphics for promotional videos.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="events-dates-bad.png" alt="events-dates-bad.png" style="width:750px;" /></dt><dd>Figure: Bad example - dates shown as text in graphics (creates extra work to change every time)</dd></dl><dl class="goodImage"><dt><img src="events-dates-good.png" alt="events-dates-good.png" style="width:750px;" /></dt><dd>Figure: Good example - no dates shown as text in graphics (can be re-used without editing)</dd></dl>​
-<p>If there is some particular value/purpose in including dates there may be exceptions to this rule.<br></p>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example - dates shown as text in graphics (creates extra work to change every time)](events-dates-bad.png)  
+:::
+
+
+::: good  
+![Figure: Good example - no dates shown as text in graphics (can be re-used without editing)](events-dates-good.png)  
+:::
+
+If there is some particular value/purpose in including dates there may be exceptions to this rule.
