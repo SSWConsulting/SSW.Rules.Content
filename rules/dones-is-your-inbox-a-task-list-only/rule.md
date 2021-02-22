@@ -18,9 +18,16 @@ redirects:
 
 ---
 
+Most people don’t manage their inbox effectively. Emails should be treated as a list to do. As you complete a task you can just delete the email.
 
-<p>​Most people don’t manage their inbox effectively. Emails should be treated as a list to do. As you complete a task you can just delete the email.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Your inbox should only contain 'tasks', that are actionable items on your <strong>list of things to do</strong>. Everything that is in your 'Inbox' (including sub-folders) should only be to-do items.</p><p>So do it now, delete all emails you have done. If you want to keep some for reference, move them to a new folder that is not in your inbox.<br></p><dl class="image"><dt><img src="inbox-tasks-list.jpg" alt="inbox-tasks-list.jpg" /> </dt><dd>Figure: All inbox items are tasks</dd></dl><p class="ssw15-rteElement-P">In fact, you could go so far as to say you should not do anything unless you have an email telling you to do it (which is why we <a href=/dones-do-you-send-yourself-emails>send ourselves emails</a>). However, very simple tasks can be requested and replied 'done' via IM. </p><div><p class="ssw15-rteElement-P">​​Read <a href=/rules-to-better-im>Rules to Better IM</a>.​<br></p></div>
+<!--endintro-->
 
+Your inbox should only contain 'tasks', that are actionable items on your  **list of things to do** . Everything that is in your 'Inbox' (including sub-folders) should only be to-do items.
 
+So do it now, delete all emails you have done. If you want to keep some for reference, move them to a new folder that is not in your inbox.
+
+![Figure: All inbox items are tasks](inbox-tasks-list.jpg)  
+
+In fact, you could go so far as to say you should not do anything unless you have an email telling you to do it (which is why we [send ourselves emails](/dones-do-you-send-yourself-emails)). However, very simple tasks can be requested and replied 'done' via IM.
+
+Read [Rules to Better IM](/rules-to-better-im).
