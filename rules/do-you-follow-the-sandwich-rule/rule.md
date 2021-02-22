@@ -15,13 +15,17 @@ redirects:
 
 ---
 
+The sandwich rule approach is an effective way to provide feedback to other team                     members and clients.
 
-<p>​​​
-                    The sandwich rule approach is an effective way to provide feedback to other team
-                    members and clients.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Start with positive feedback</li><li>Give your recommendations for improvement</li><li>End with some additional positive feedback (you may repeat #1)</li></ol><p> This optimistic approach allows you to maintain a healthy relationship with your team members and clients.</p><p class="ssw15-rteElement-GreyBox">
-   <img src="criticize-behavior-not-person.gif" alt="criticize-behavior-not-person.gif" style="margin:5px;" /> </p>
-<dd class="ssw15-rteElement-FigureNormal">Figure: What not to do​​​​<br></dd>​<br>
+<!--endintro-->
+
+1. Start with positive feedback
+2. Give your recommendations for improvement
+3. End with some additional positive feedback (you may repeat #1)
 
 
+This optimistic approach allows you to maintain a healthy relationship with your team members and clients.
+
+![](criticize-behavior-not-person.gif)
+**Figure: What not to do
+**
