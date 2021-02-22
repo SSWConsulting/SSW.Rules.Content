@@ -11,15 +11,10 @@ redirects: []
 
 ---
 
+A task should never have an estimate of more than half a day (4 hours).
 
+<!--endintro-->
 
-  <p>A task should never have an estimate of more than half&#160;a day (4​ hours). ​
-<br></p>
+If you have a big task with an estimate of more the 4 hours, you should consider breaking it in sub-tasks. In case the estimate has changed during the sprint, the “Remaining Hours” field must be updated in order to have an accurate Burndown chart.
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p>If you have a big task with an estimate of more the 4 hours, you should consider breaking it in sub-tasks. In case the estimate has changed during the sprint, the “Remaining Hours” field must be updated in order to have an accurate Burndown chart.</p>
-<p>The reason Scrum limits the maximum hours is because you should always know in which task you are working and we believe one single action that takes more than 4 hours might be too generic. Refer to&#160;<a shape="rect" href=/spec-do-you-create-tasks-under-4-hours>Do you create tasks under 4 hours?</a>&#160;to know more.</p>
-
-
-
+The reason Scrum limits the maximum hours is because you should always know in which task you are working and we believe one single action that takes more than 4 hours might be too generic. Refer to [Do you create tasks under 4 hours?](/spec-do-you-create-tasks-under-4-hours) to know more.
