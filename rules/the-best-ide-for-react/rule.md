@@ -17,9 +17,11 @@ redirects:
 
 ---
 
+[VSCode](https&#58;//code.visualstudio.com/) is an open-source, cross-platform editor that has become a favourite of programmers, particularly in the Web Development community. It’s fast, extensible, customisable, and has tons of features. You should check it out if you haven’t already done it.
 
-<p class="ssw15-rteElement-P"><a href="https&#58;//code.visualstudio.com/">VSCode​</a>&#160;is an open-source, cross-platform editor that has become a favourite of programmers, particularly in the Web Development community. It’s fast, extensible, customisable, and has tons of features. You should check it out if you haven’t already done it.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">Related link​<br></h3><p><a href=/how-to-get-your-machine-setup>Tools - Do you know the best IDE for Angular?</a><br></p>
+<!--endintro-->
+
+### Related link
 
 
+[Tools - Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)
