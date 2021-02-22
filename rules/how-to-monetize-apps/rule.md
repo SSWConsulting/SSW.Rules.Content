@@ -15,25 +15,25 @@ redirects:
 ---
 
 
-​<p>Do you know free games are designed to make money? See the good and bad examples&#58;</p>
+​<p>Do you know free games are designed to make money? See the good and bad examples:</p>
 <br><excerpt class='endintro'></excerpt><br>
 <p> 
    <br> 
-</p><dd class="ssw15-rteElement-FigureBad"> Bad example&#58; paid apps<br></dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; free apps with in-app purchases</dd><p> 
+</p><dd class="ssw15-rteElement-FigureBad"> Bad example: paid apps<br></dd><dd class="ssw15-rteElement-FigureGood">Good example: free apps with in-app purchases</dd><p> 
    <br> 
-</p><dd class="ssw15-rteElement-FigureBad">Bad example&#58; paid with currency</dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; paid with abstract currency&#160;</dd><p> 
+</p><dd class="ssw15-rteElement-FigureBad">Bad example: paid with currency</dd><dd class="ssw15-rteElement-FigureGood">Good example: paid with abstract currency </dd><p> 
    <br> 
-</p><dd class="ssw15-rteElement-FigureBad">Bad example&#58; treat all customers the same</dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; detect when a customer might leave and offer them incentives</dd><p> 
+</p><dd class="ssw15-rteElement-FigureBad">Bad example: treat all customers the same</dd><dd class="ssw15-rteElement-FigureGood">Good example: detect when a customer might leave and offer them incentives</dd><p> 
    <br> 
-</p><dd class="ssw15-rteElement-FigureBad">Bad example&#58; same prices for everyone</dd><dd class="ssw15-rteElement-FigureGood">Good example&#58; capture data eg. What device and do data mining to set different prices ​<br></dd><p> 
+</p><dd class="ssw15-rteElement-FigureBad">Bad example: same prices for everyone</dd><dd class="ssw15-rteElement-FigureGood">Good example: capture data eg. What device and do data mining to set different prices ​<br></dd><p> 
    <br> 
 </p><dl class="image"><dt><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"> 
-   <iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/fKK9nVLvhGM" frameborder="0"></iframe>&#160;</div></dt></dl>​
+   <iframe width="640" height="360" src="https://www.youtube.com/embed/fKK9nVLvhGM" frameborder="0"></iframe> </div></dt></dl>​
 <dl class="image"><dt>
-      <img src="/PublishingImages/how-to-monetize.png" alt="how-to-monetize.png" /> 
-   </dt><dd>Figure&#58; some apps charge more based on the device you are using<br></dd></dl><dl class="image">​ 
+      <img src="how-to-monetize.png" alt="how-to-monetize.png" /> 
+   </dt><dd>Figure: some apps charge more based on the device you are using<br></dd></dl><dl class="image">​ 
    <dt> 
-      <img src="/PublishingImages/how-to-monetize-2.png" alt="how-to-monetize-2.png" /> 
-   </dt><dd>Figure&#58; know app developers make most of their in-app purchases from the whales &#128051;</dd></dl>
+      <img src="how-to-monetize-2.png" alt="how-to-monetize-2.png" /> 
+   </dt><dd>Figure: know app developers make most of their in-app purchases from the whales 🐳</dd></dl>
 
 
