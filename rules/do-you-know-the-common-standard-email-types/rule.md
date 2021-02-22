@@ -16,14 +16,19 @@ redirects:
 
 ---
 
+All business emails (that are useful) should be in one of the four following formats
 
-​All business emails (that are useful) should be in one of the four following formats<br>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li><b>FYI</b> - to spread information
-      <ul><li>​<a href=/methodology-do-you-do-daily-scrums-aka-stand-up-meetings>Daily Scrum</a> - to report on daily progress in a Sprint</li><li>Sprint Review/Retro emails</li><li>Sprint Planning emails,&#160;etc<br></li></ul></li><li><b>Tasks</b> - Sending someone numbered&#160;tasks 
-      <ul><li>
-            <a href=/dones-do-you-send-yourself-emails>To Myself</a> - to send yourself a task, and CC interested parties<br></li><li>Tasks&#160;to one or more other people<br></li></ul></li><li>
-      <a href=/conduct-a-test-please-internally-and-then-with-the-client><b>Test Please</b></a>&#160;- to ask for testing and acceptance of a task​</li><li>
-      <a href=/dones-do-you-reply-done-and-delete-the-original-email><b>Done</b></a>&#160;- replying to a task email, ​to show details of what has been done<br></li></ol><p>If your email doesn't fit into one of the above categories, it probably doesn't need to be sent.</p>
+<!--endintro-->
+
+1. **FYI**- to spread information
+    * [Daily Scrum](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings) - to report on daily progress in a Sprint
+    * Sprint Review/Retro emails
+    * Sprint Planning emails, etc
+2. **Tasks**- Sending someone numbered tasks
+    * [To Myself](/dones-do-you-send-yourself-emails) - to send yourself a task, and CC interested parties
+    * Tasks to one or more other people
+3. [**Test Please**](/conduct-a-test-please-internally-and-then-with-the-client) - to ask for testing and acceptance of a task
+4. [**Done**](/dones-do-you-reply-done-and-delete-the-original-email) - replying to a task email, to show details of what has been done
 
 
+If your email doesn't fit into one of the above categories, it probably doesn't need to be sent.
