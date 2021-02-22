@@ -14,9 +14,10 @@ redirects:
 
 ---
 
+Google is by a country mile the most popular search engine in the world. It's popular because it seems to rank pages so accurately and quickly time and time again. The secret to its success is its top secret PageRank Algorithm. Google developed its page ranking system in an effort to increase the quality of search results and has left all of its competitors for dead. As a result search engine optimization (SEO) gurus are always looking to find new ways to increase their Google rankings.
 
-<span style="color&#58;#000000;font-family&#58;verdana, sans-serif;font-size&#58;12px;line-height&#58;16.8px;">Google is by a country mile the most popular search engine in the world. It's popular because it seems to rank pages so accurately and quickly time and time again. The secret to its success is its top secret PageRank Algorithm. Google developed its page ranking system in an effort to increase the quality of search results and has left all of its competitors for dead. As a result search engine optimization (SEO) gurus are always looking to find new ways to increase their Google rankings.</span><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>As we all know, a website is a pretty nifty thing to have for a myriad of different reasons. But the truth is that it's worth is derived from the people that surf it, and if no one is surfing it, then it becomes useless. So who's the biggest website referrer? The answer is Google in almost every case.&#160; <br></p><p>So design your website with this in mind. In the eyes of a search engines, there are good and bad ways that you can design your website. Here's a list of&#160;<a href=/rules-to-better-google-rankings>suggestions to improve your Google ranking and other search engine optimization tips</a> <br></p>
+<!--endintro-->
 
+As we all know, a website is a pretty nifty thing to have for a myriad of different reasons. But the truth is that it's worth is derived from the people that surf it, and if no one is surfing it, then it becomes useless. So who's the biggest website referrer? The answer is Google in almost every case.
 
+So design your website with this in mind. In the eyes of a search engines, there are good and bad ways that you can design your website. Here's a list of [suggestions to improve your Google ranking and other search engine optimization tips](/rules-to-better-google-rankings)
