@@ -19,15 +19,26 @@ redirects: []
 
 ---
 
+Most companies keep their presentations on an internal resource eg. SharePoint ... these days more likely Teams | Files ....and there is still a place for that (especially if you don't want to share it).
 
-<p class="ssw15-rteElement-P">​​Most companies keep their presentations on an internal resource eg. SharePoint ... these days more likely Teams | Files ....and there is still a place for that (especially if you don't want to share it).​​<br></p><p class="ssw15-rteElement-P">The best place for presentations (PPT) and other resources such as PDFs or a bunch of URLs is in a public location. The best public location is GitHub.</p><p class="ssw15-rteElement-P">​Did you know that if you keep your PowerPoint presentations in a public location, it makes it easier for your attendees to access later?<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​​There are a few ways to do this: <br></p><ul><li> 
-      <b>​Option 1:</b> <a href="http://slideshare.net/">Slideshare</a><br>More at: <a href=/do-you-know-to-slideshare-your-powerpoint-before-the-presentation style="background-color:initial;">Do you know to Slideshare your PowerPoint Presentations?</a><span style="background-color:initial;">​</span></li><li> 
-      <b>Option 2:</b> <a href="https://noti.st/">Notist</a><br>A design & video collaboration, prototyping & workflow app for creative teams.<br></li><li> 
-      <b>Option 3:</b> Sharing an OneDrive link (ouch - they expire 🔥)</li><li> 
-      <b>Option 4:</b> GitHub (E.g. <a href="https://github.com/sswconsulting/presentations">Github.com/sswconsulting/presentations​​</a>
-      )​<br>Recommended! ⭐️ 
-      <dl class="goodImage"><dt><img src="github-presentation.jpg" alt="github-presentation.jpg" style="width:750px;height:563px;" />​</dt><dd>Figure: Good example - Storing your presentations on GitHub</dd></dl></li></ul>
+The best place for presentations (PPT) and other resources such as PDFs or a bunch of URLs is in a public location. The best public location is GitHub.
 
+Did you know that if you keep your PowerPoint presentations in a public location, it makes it easier for your attendees to access later?
 
+<!--endintro-->
+
+There are a few ways to do this:
+
+* **Option 1:** [Slideshare](http://slideshare.net/)
+More at: [Do you know to Slideshare your PowerPoint Presentations?](/do-you-know-to-slideshare-your-powerpoint-before-the-presentation)
+* **Option 2:** [Notist](https://noti.st/)
+A design & video collaboration, prototyping & workflow app for creative teams.
+* **Option 3:** Sharing an OneDrive link (ouch - they expire 🔥)
+* **Option 4:** GitHub (E.g. https://github.com/sswconsulting/presentations
+      )
+Recommended! ⭐️ 
+      
+
+::: good  
+![Figure: Good example - Storing your presentations on GitHub](github-presentation.jpg)  
+:::
