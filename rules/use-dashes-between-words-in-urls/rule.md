@@ -15,25 +15,32 @@ redirects:
 
 ---
 
+The text of a URL should make sense and relate to the content of the relevant page.                     Apart from helping with Google Juice users frequently read URL's.
 
-<p>
-                    The text of a URL should make sense and relate to the content of the relevant page.
-                    Apart from helping with Google Juice users frequently read URL's.
-                <br></p><p>
-                    There are a few options for how you format the text of a URL. The following suggestions
-                    are in preference order:
-                </p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Dashes between words: 
-      <b>rules-to-better-website-layouts.aspx<br></b>[RECOMMENDED] This option appears to be most common and 
-      <a href="http://www.craigbailey.net/" target="_blank">Craig Bailey</a>​'s ￼ preferred way​<br></li><li>​Capitalize each word (Title Case): 
-      <b>RulesToBetterWebsiteLayouts.aspx</b></li><li>Upper case for appropriate words: 
-      <b>RulestoBetterWebsiteLayouts.aspx</b></li><li>Underscores between words: 
-      <b>rules_to_better_website_layouts.aspx</b></li><li>Lower case for all words: 
-      <b>rulestobetterwebsitelayouts.aspx</b></li></ol><h3>More info​</h3><p>You can install the IIS <a href="http://learn.iis.net/page.aspx/460/using-the-url-rewrite-module/">URL Rewrite Module</a> for IIS7 you can make ugly URL's much more friendly.</p><dl class="image"><dt>
-                        <img src="friendly-url-rule.jpg" alt="Rewrite the HTML" /></dt><dd>Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly </dd></dl><p>
-               The caveat here is that it will only work if the URL is in the clear on the page.</p><p class="ssw15-rteElement-P">
-                <b>Note: </b>This could only be done with certain links as others are postbacks as well.
-              </p>
+There are a few options for how you format the text of a URL. The following suggestions                     are in preference order:
+
+<!--endintro-->
+
+1. Dashes between words: 
+       **rules-to-better-website-layouts.aspx
+** [RECOMMENDED] This option appears to be most common and 
+      [Craig Bailey](http://www.craigbailey.net/)'s ￼ preferred way
+2. Capitalize each word (Title Case): 
+       **RulesToBetterWebsiteLayouts.aspx**
+3. Upper case for appropriate words: 
+       **RulestoBetterWebsiteLayouts.aspx**
+4. Underscores between words: 
+       **rules\_to\_better\_website\_layouts.aspx**
+5. Lower case for all words: 
+       **rulestobetterwebsitelayouts.aspx**
 
 
+### More info
+
+You can install the IIS [URL Rewrite Module](http://learn.iis.net/page.aspx/460/using-the-url-rewrite-module/) for IIS7 you can make ugly URL's much more friendly.
+
+![Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly](friendly-url-rule.jpg)  
+
+The caveat here is that it will only work if the URL is in the clear on the page.
+
+**Note:** This could only be done with certain links as others are postbacks as well.
