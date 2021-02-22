@@ -14,9 +14,30 @@ redirects:
 
 ---
 
+When writing any documentation it is vital that you avoid using unnecessary words to keep the reader interested and focussed on the content. This is especially true in technical documentation, as most of the content is factual.
 
-<p>When writing any documentation it is vital that you avoid using unnecessary words to keep the reader interested and focussed on the content. This is especially true in technical documentation, as most of the content is factual.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-GreyBox">​Click the &quot;Select&quot; button</p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - There are too many unnecessary words</dd>​<br><p class="ssw15-rteElement-GreyBox">Click &quot;Select&quot;</p><dd class="ssw15-rteElement-FigureGood">Good Example - This is short and to the point.</dd><div><br>It is less wordy, and still gets the message across. Look through your document now - where else can you get rid of words that don't add any value to the sentence?​</div>
+<!--endintro-->
 
 
+::: greybox
+Click the "Select" button  
+:::
+
+
+::: bad
+Figure: Bad Example - There are too many unnecessary words  
+:::
+
+
+
+::: greybox
+Click "Select"  
+:::
+
+
+::: good
+Good Example - This is short and to the point.  
+:::
+
+
+It is less wordy, and still gets the message across. Look through your document now - where else can you get rid of words that don't add any value to the sentence?
