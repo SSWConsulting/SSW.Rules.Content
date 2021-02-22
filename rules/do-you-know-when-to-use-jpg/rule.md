@@ -15,9 +15,21 @@ redirects: []
 
 ---
 
+In line with the statement above, all photographs should be stored in JPG format. JPG rationalizes the quality of the image by averaging out the colors in segments of the image that it defines. To see an example of this working, try lowering the quality of a JPG to minimum quality.
 
-<div>​In line with the statement above, all photographs should be stored in JPG format. JPG rationalizes the quality of the image by averaging out the colors in segments of the image that it defines. To see an example of this working, try lowering the quality of a JPG to minimum quality.</div>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="Screen-JPGQuality1.jpg" alt="100% Compression" /></dt><dd>Figure: Bad Example – Low quality JPG (11.87k)</dd></dl><dl class="badImage"><dt><img src="Screen-JPGQuality2.jpg" alt="Uncompressed" /></dt><dd>Figure: Bad Example – Uncompressed JPG (159.6k)</dd></dl><dl class="goodImage"><dt><img src="Screen-JPGQuality3.jpg" alt="100% Compression" /></dt><dd>Figure: Good Example – Compressed JPG (59.6k)</dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example – Low quality JPG (11.87k)](Screen-JPGQuality1.jpg)  
+:::
+
+
+::: bad  
+![Figure: Bad Example – Uncompressed JPG (159.6k)](Screen-JPGQuality2.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example – Compressed JPG (59.6k)](Screen-JPGQuality3.jpg)  
+:::
