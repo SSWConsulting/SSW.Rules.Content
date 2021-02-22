@@ -15,9 +15,15 @@ redirects:
 
 ---
 
-
-​When you encounter a bug in your application you should never let the same bug happen again. The best way to do this is to write a unit test for the bug, see the test fail,&#160;then fix the bug and watch the test pass. This is also known as Red-Green-Refactor.<br><div><br></div><div>Tip&#58; you can then reply to the bug report with&#160;&quot;Done + Added a unit test so it can't happen again&quot;<br><br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​See <a href=/dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug>how&#160;to send a good 'Done' email​</a>.​<br></p>
+When you encounter a bug in your application you should never let the same bug happen again. The best way to do this is to write a unit test for the bug, see the test fail, then fix the bug and watch the test pass. This is also known as Red-Green-Refactor.
 
 
+
+
+Tip: you can then reply to the bug report with "Done + Added a unit test so it can't happen again"
+
+
+
+<!--endintro-->
+
+See [how to send a good 'Done' email](/dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug).
