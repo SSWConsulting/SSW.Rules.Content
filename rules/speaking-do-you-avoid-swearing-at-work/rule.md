@@ -14,11 +14,14 @@ redirects:
 
 ---
 
+Swearing is not acceptable at work. People should not get comfortable with bad language as the work environment would suffer. You should be especially careful when giving and receiving feedback.
 
-<p>​​​Swearing is not acceptable at work. People should not get comfortable with bad language as the work environment would suffer. You should be especially careful when giving and receiving feedback.​​<br></p><p>Some good deterrents are:​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>A swear jar<br></li><li>To enforce 10 push-ups for every infraction ​(recommended). ​<br>This is the same concept as a swear jar but also promotes fitness.​<br></li></ul><dl class="ssw15-rteElement-ImageArea"> 
-   <img src="gordon-ramsay.jpg" alt="GORDON-RAMSAY.jpg" /> 
-</dl><dd class="ssw15-rteElement-FigureNormal">Figure: Gordon Ramsay - The only man who​ can ​​​​get away with professional swearing</dd>
+Some good deterrents are:
 
+<!--endintro-->
 
+* A swear jar
+* To enforce 10 push-ups for every infraction (recommended). 
+This is the same concept as a swear jar but also promotes fitness.
+
+![GORDON-RAMSAY.jpg](gordon-ramsay.jpg)**Figure: Gordon Ramsay - The only man who can get away with professional swearing**
