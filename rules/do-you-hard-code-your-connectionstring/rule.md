@@ -15,31 +15,28 @@ redirects: []
 
 ---
 
+We don't like hard coded string inside our programme. We are using model-driven development, in which we create or reuse code, and perform changes in configuration file rather the in-code changing. [More information on implementing our configuration](/Pages/ConfigurationManagementAppBlock.aspx).   
+<!--endintro-->
 
-We don't like hard coded string inside our programme. We are using model-driven development, in which we create or reuse code, and perform changes in configuration file rather the in-code changing. <a href="/Pages/ConfigurationManagementAppBlock.aspx" id="More information on implementing our configuration">More information on implementing our configuration</a>. 
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <pre class="brush&#58;c-sharp">connection.ConnectionString = &quot;
+```
+connection.ConnectionString = "
 Provider=SQLOLEDB;
 Data Source=server_name_or_address; Initial Catalog=database_name;
-User ID=username; Password=password; &quot;;
+User ID=username; Password=password; ";
 
    connection.Open();
-</pre>
-<span class="ms-rteCustom-FigureBad">Bad code - use the lengthy connection string.</span>
-<pre class="brush&#58;c-sharp">connection.ConnectionString = ConfigurationManager.Items[&quot;ConnectionString&quot;];
+```
+
+Bad code - use the lengthy connection string.
+
+```
+connection.ConnectionString = ConfigurationManager.Items["ConnectionString"];
 
  connection.Open();
-</pre>
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good Code - Use ConfigurationManager to handle the connection string.</span>
-<table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
-    <tbody>
-        <tr>
-            <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule. </td>
-        </tr>
-    </tbody>
-</table>
+```
 
+Figure: Good Code - Use ConfigurationManager to handle the connection string.
 
-
+| We have a program called [SSW Code Auditor](http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule.  |
+| --- |
