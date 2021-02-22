@@ -17,19 +17,29 @@ redirects: []
 
 ---
 
+Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other development file system.
+
+<!--endintro-->
 
 
-
-<p class="MsoNormal"><span lang="EN-AU">Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other development file system.<br></span></p>
-
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="Designer-Source-Control-TFS.png" alt="" style="width:750px;" /> 
-   </dt><dd>Figure: Bad example – Azure DevOps (was VSTS/TFS)​ takes too long to set up and too slow to use<br></dd></dl><dl class="goodImage"><dt>
-      <img src="Designer-Source-Control-DropBox.png" alt="" style="width:750px;" /> 
-   </dt><dd>Figure: Good Example – Dropbox or OneDrive<br></dd></dl><dl class="goodImage"><dt>
-      <img src="Teamsfiles.png" alt="" style="width:750px;" /> 
-   </dt><dd>Figure: Good Example – OneDrive and ​Teams​<br></dd></dl><p class="ssw15-rteElement-GreyBox">🇨🇳 Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.​​<br></p><p>For developers, see <a href=/do-you-know-where-to-keep-your-files>Do you know where to keep your files?</a><br></p>
+::: bad  
+![Figure: Bad example – Azure DevOps (was VSTS/TFS) takes too long to set up and too slow to use](Designer-Source-Control-TFS.png)  
+:::
 
 
+::: good  
+![Figure: Good Example – Dropbox or OneDrive](Designer-Source-Control-DropBox.png)  
+:::
+
+
+::: good  
+![Figure: Good Example – OneDrive and Teams](Teamsfiles.png)  
+:::
+
+
+::: greybox
+🇨🇳 Google Drive and Dropbox don’t work in China, so SSW prefers to use OneDrive.
+
+:::
+
+For developers, see [Do you know where to keep your files?](/do-you-know-where-to-keep-your-files)
