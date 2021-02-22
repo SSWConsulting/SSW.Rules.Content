@@ -11,11 +11,11 @@ redirects: []
 
 ---
 
+Some processes might take a long time to be completed and this can frustrate the user. The best way to avoid this frustration is giving information and options.
 
-<p>Some processes might take a long time to be completed and this can frustrate the user. The best way to avoid this frustration is giving information and options.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt=" Bad example of Progress bar" src="../../assets/ifaceLongProcess_bad.JPG" /></dt>
-<dd>Figure: Bad example – this progress bar looks like it is stuck at 99%. Ideally the progress bar should be hidden when completed and replaced by a green tick</dd></dl>
+<!--endintro-->
 
 
-
+::: bad  
+![Figure: Bad example – this progress bar looks like it is stuck at 99%. Ideally the progress bar should be hidden when completed and replaced by a green tick](../../assets/ifaceLongProcess\_bad.JPG)  
+:::
