@@ -19,11 +19,11 @@ If you are planning to use Workflow, use Workflow with SharePoint List instead o
 <br><excerpt class='endintro'></excerpt><br>
   <br>
 <br>
-<img alt="" src="/PublishingImages/BCSDoesNotSupportWF.jpg" /><br>
+<img alt="" src="BCSDoesNotSupportWF.jpg" /><br>
 <font size="+0" class="ms-rteCustom-FigureBad">BCS doesn't have WorkFlow support<br>
 </font><br>
 <br>
-<img alt="" src="/PublishingImages/WFSupportList.jpg" /><br>
+<img alt="" src="WFSupportList.jpg" /><br>
 <font size="+0" class="ms-rteCustom-FigureGood">Use WorkFlow with SharePoint List</font>
 
 
