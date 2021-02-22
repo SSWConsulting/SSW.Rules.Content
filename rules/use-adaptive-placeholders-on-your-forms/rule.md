@@ -18,12 +18,19 @@ redirects:
 
 ---
 
-
-"Adaptive placeholders" are form labels that become into placeholders and vice-versa, depending on which fields have been filled or not. It gives your website a great UX.<br><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>It's also a nice way to save space and achieve a neat visual appearance. Using this method users can easily to tell which field has been filled in and which data has been entered. </p><dl class="badImage"><dt> 
-      <img src="placeholder-bad.png" alt="placeholder-bad.png" /> 
-   </dt><dd>Figure: Bad Example - Having both label and placeholders can be repetitive and dull​​​<br></dd></dl><dl class="goodImage"><dt> 
-      <img src="placeholder-good.gif" alt="placeholder-good.gif" /></dt><dd>Figure: Good Example - Using placeholders</dd></dl>
+"Adaptive placeholders" are form labels that become into placeholders and vice-versa, depending on which fields have been filled or not. It gives your website a great UX.
 
 
+<!--endintro-->
+
+It's also a nice way to save space and achieve a neat visual appearance. Using this method users can easily to tell which field has been filled in and which data has been entered.
+
+
+::: bad  
+![Figure: Bad Example - Having both label and placeholders can be repetitive and dull](placeholder-bad.png)  
+:::
+
+
+::: good  
+![Figure: Good Example - Using placeholders](placeholder-good.gif)  
+:::
