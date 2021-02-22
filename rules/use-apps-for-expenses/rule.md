@@ -19,41 +19,162 @@ redirects:
 
 ---
 
+Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems… but there is a better way.   
 
-​​​​​​​​​​​Tracking expenses can be a painful process of accumulating receipts and entering them into outdated systems… but there is a better way.  
-<div> 
-   <br> 
-</div><div>Various apps help solve the above problem. Using a modern Accounting system such as Xero, some connected apps can be used in conjunction with the accounting system and they include:</div><div><ul><li> 
-         <a href="https://apps.apple.com/au/app/xero-expenses/id1106018845">Xero Expenses​</a><br></li><li> 
-         <a href="https://www.expensify.com/">Expensify​</a><br></li><li> 
-         <a href="https://www.hubdoc.com/">Hubdoc</a><br></li><li> 
-         <a href="https://www.receipt-bank.com/au/">Receipt Bank​</a><br></li></ul><p class="ssw15-rteElement-P">It may be difficult to determine which app would be best suited for your business so below is a comparison of some of the major features of each app.<br></p><div><p class="ssw15-rteElement-P">There are 2 purposes when evaluating an Expense app:<br></p><p class="ssw15-rteElement-P"> 
-         <b>#1 Reimbursements</b> – when you are at the shop and you pay for something personally and want the app to take a photo and send it to the office and later see the $ come back into your account.</p> 
-      <b>#2 General expenses </b>– when you are at the shop and using the company credit card, you don’t need reimbursement, but you do need to give accounts a photo of the receipt and the purchased item.<br></div><div> 
-      <br> 
-   </div><div><br><table class="ssw15-rteTable-default" cellspacing="0" style="width:99%;height:1114px;"><tbody><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;"><h3 class="ssw15-rteElement-H3">Features (based on 5 users)<br></h3></td><td class="ssw15-rteTableOddCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">​Xero Expenses<br></h3></td><td dir="ltr" class="ssw15-rteTableEvenCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">​Expens​​​ify<br></h3></td><td class="ssw15-rteTableOddCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">Hubdoc<br></h3></td><td class="ssw15-rteTableEvenCol-default" style="width:20%;"><h3 class="ssw15-rteElement-H3">Receipt Bank<br></h3></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Pricing​<br></td><td class="ssw15-rteTableOddCol-default">$5 per active user/mo<br></td><td class="ssw15-rteTableEvenCol-default">​$840/year (minimum)<br></td><td class="ssw15-rteTableOddCol-default">
-                  <b>​Free with Xero ✔</b><br></td><td class="ssw15-rteTableEvenCol-default">​​$360/year<br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Submission Procedure<br><br></td><td class="ssw15-rteTableOddCol-default">Same as Receipt Bank<br></td><td class="ssw15-rteTableEvenCol-default">​Same as Receipt Bank<br></td><td class="ssw15-rteTableOddCol-default">​Same as Receipt Bank<br><br>See Figure: Hubdoc email for receiving<br></td><td class="ssw15-rteTableEvenCol-default">​Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. <br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Restriction on Invoice uploads <br></td><td class="ssw15-rteTableOddCol-default"><strong>​Unlimited​ ✔</strong><br></td><td class="ssw15-rteTableEvenCol-default">
-                  <b>​Unlimited​ ✔</b><br></td><td class="ssw15-rteTableOddCol-default">
-                  <b>​Unlimited ✔</b><br></td><td class="ssw15-rteTableEvenCol-default">​300/mo<br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Back-up<br></td><td class="ssw15-rteTableOddCol-default">Unlimited - use cloud back up and security. Never deletes<br></td><td class="ssw15-rteTableEvenCol-default">​Unlimited – Never deletes and remains archived<br></td><td class="ssw15-rteTableOddCol-default">​Unlimited – use cloud back up and security. Never deletes <br></td><td class="ssw15-rteTableEvenCol-default">​Unlimited – Never deletes and remains archived<br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Organizing<br></td><td class="ssw15-rteTableOddCol-default">Organised on user-submitted, expense type or date order<br></td><td class="ssw15-rteTableEvenCol-default">
-                  <b>Can be manually organized into folders or reports ✔</b><br></td><td class="ssw15-rteTableOddCol-default">Requires greater security privileges than uploader only. ​Automatically organized into folders (can be updated). <br></td><td class="ssw15-rteTableEvenCol-default">​No real organization of documents. Either inactive or archived and ordered in date/supplier order<br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Expense Rules<br></td><td class="ssw15-rteTableOddCol-default">Same as Receipt Bank - however, instead relied upon Xero receipt analysis which is little less powerful<br></td><td class="ssw15-rteTableEvenCol-default">
-                  <b>​Same as Receipt Bank – little easier to navigate to the section ✔</b><br></td><td class="ssw15-rteTableOddCol-default">​Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)<br></td><td class="ssw15-rteTableEvenCol-default">​Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) <br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Accounting Codes<br></td><td class="ssw15-rteTableOddCol-default"><strong><br>Same as Receipt Bank </strong><strong>✔</strong><br><br></td><td class="ssw15-rteTableEvenCol-default">​Only available on the subscription plan of $1800/year<br></td><td class="ssw15-rteTableOddCol-default">
-                  <b>​Same as Receipt Bank ✔</b><br></td><td class="ssw15-rteTableEvenCol-default">
-                  <b>​Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way ✔</b><br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Phone Compatibility<br></td><td class="ssw15-rteTableOddCol-default"><strong>All Phones ✔</strong><br></td><td class="ssw15-rteTableEvenCol-default">
-                  <b>​All Phones ✔</b><br></td><td class="ssw15-rteTableOddCol-default">
-                  <b>​All Phones ✔</b><br></td><td class="ssw15-rteTableEvenCol-default">​iPhone, Android, and Web-based <br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​Two-factor Authentication<br></td><td class="ssw15-rteTableOddCol-default"><strong>Yes ✔</strong><br></td><td class="ssw15-rteTableEvenCol-default">​No<br></td><td class="ssw15-rteTableOddCol-default">
-                  <b>Yes​ ✔</b><br></td><td class="ssw15-rteTableEvenCol-default">​No<br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" style="width:169px;">​How-to Videos<br></td><td class="ssw15-rteTableOddCol-default">Yes<br></td><td class="ssw15-rteTableEvenCol-default">
-                  <b>Yes​<br>The most videos ✔</b><br></td><td class="ssw15-rteTableOddCol-default">Yes​<br></td><td class="ssw15-rteTableEvenCol-default">​No<br></td></tr><tr class="ssw15-rteTableOddRow-default"><td class="ssw15-rteTableEvenCol-default" rowspan="1" style="width:169px;">Descriptive Notes<br></td><td class="ssw15-rteTableOddCol-default" rowspan="1">​<strong>Yes ✔</strong><br></td><td class="ssw15-rteTableEvenCol-default" rowspan="1"><strong>​</strong><strong>Yes ✔</strong><br></td><td class="ssw15-rteTableOddCol-default" rowspan="1">​Not available<br></td><td class="ssw15-rteTableEvenCol-default" rowspan="1"><strong>Yes ✔</strong><br></td></tr><tr class="ssw15-rteTableEvenRow-default"><td class="ssw15-rteTableEvenCol-default" rowspan="1" style="width:169px;">​Bank Specification<br></td><td class="ssw15-rteTableOddCol-default" rowspan="1"><strong>​Yes✔</strong><br></td><td class="ssw15-rteTableEvenCol-default" rowspan="1">​Not at $840/year<br></td><td class="ssw15-rteTableOddCol-default" rowspan="1">​<strong>Yes ✔</strong><br></td><td class="ssw15-rteTableEvenCol-default" rowspan="1"><strong>​Yes✔</strong><br></td></tr></tbody></table>​ 
-      <br><strong>Overall, the winner is Xero Expense app. </strong>The design of the Xero Expense app provides all the user experience to enable simple and convenient reimbursement requests or company spent money receipts for reconciliation. </div><div><br></div><div>The best feature of Xero Expense reimbursement is that the employee's bank details are automatically assigned when they submit a claim. The approver (Accountant or Business Owner), approves of the expense, it will be generated as a payable invoice in the 'Bills' section of Xero and dealt with like any other bill.<br><br></div><div>Although Expensify and Receipt Bank are usable too for this purpose, their costs cannot compare to Xero Expense app for this purpose.​<br><br></div></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Expense apps are a timesaver, both for the day to day user, as well as the accountant receiving the expenses.</p><p>​​As a user, all you have to do is take a photo of the receipt from your mobile app, file or add any comments (all other data is pulled in via OCR “Smart-scan”), then all of these expenses get batched together and sent on a weekly basis to the accountant, who can then manage them in bulk. <br></p><h3 class="ssw15-rteElement-H3">What are the most popular ex​​​​penses apps​?​<br></h3><p>​<br></p><p><strong>With Xero:</strong><br><img src="google-trends-with-xero.jpg" alt="google-trends-with-xero.jpg" style="margin:5px;width:808px;" /><span style="color:#333333;">​​​</span><strong style="color:#333333;">F</strong><strong style="color:#333333;"><strong>igure</strong>: Google Trends (September 2020) show that Hubdoc and Receipt Bank are the most popular apps. More at 
-</strong><a href="https://trends.google.com/trends/explore?q=%22Xero%20Expenses%22%2cxero%20expensify%2cxero%20hubdoc%2cxero%20%22Receipt%20Bank%22"><strong>Google Trends</strong></a><strong style="color:#333333;">​​​​</strong><br></p><p><br></p><p><b>Without Xero:</b></p><dl><p class="ssw15-rteElement-P"><img src="google-trends-without-xero.jpg" alt="google-trends-without-xero.jpg" style="width:750px;" />​</p><p class="ssw15-rteElement-P"><strong>F​igure: ​​​​​G​oogle Trends (Septe​mber 2020) ​show 
+
+
+Various apps help solve the above problem. Using a modern Accounting system such as Xero, some connected apps can be used in conjunction with the accounting system and they include:
+
+
+* [Xero Expenses](https://apps.apple.com/au/app/xero-expenses/id1106018845)
+* [Expensify](https://www.expensify.com/)
+* [Hubdoc](https://www.hubdoc.com/)
+* [Receipt Bank](https://www.receipt-bank.com/au/)
+
+
+It may be difficult to determine which app would be best suited for your business so below is a comparison of some of the major features of each app.
+
+
+There are 2 purposes when evaluating an Expense app:
+
+**#1 Reimbursements** – when you are at the shop and you pay for something personally and want the app to take a photo and send it to the office and later see the $ come back into your account.
+**#2 General expenses** – when you are at the shop and using the company credit card, you don’t need reimbursement, but you do need to give accounts a photo of the receipt and the purchased item.
+
+
+
+
+
+
+
+
+| Features (based on 5 users)
+ | Xero Expenses
+ | Expensify
+ | Hubdoc
+ | Receipt Bank
+ |
+| --- | --- | --- | --- | --- |
+| Pricing
+ | $5 per active user/mo
+ | $840/year (minimum)
+ | **Free with Xero ✔** 
+ | $360/year
+ |
+| Submission Procedure
+
+ | Same as Receipt Bank
+ | Same as Receipt Bank
+ | Same as Receipt Bank
+
+See Figure: Hubdoc email for receiving
+ | Phone App – take a photo and submit it to the Receipt Bank email OR forward an email to the Receipt Bank email. 
+ |
+| Restriction on Invoice uploads 
+ |  **Unlimited ✔** 
+ | **Unlimited ✔** 
+ | **Unlimited ✔** 
+ | 300/mo
+ |
+| Back-up
+ | Unlimited - use cloud back up and security. Never deletes
+ | Unlimited – Never deletes and remains archived
+ | Unlimited – use cloud back up and security. Never deletes 
+ | Unlimited – Never deletes and remains archived
+ |
+| Organizing
+ | Organised on user-submitted, expense type or date order
+ | **Can be manually organized into folders or reports ✔** 
+ | Requires greater security privileges than uploader only. Automatically organized into folders (can be updated). 
+ | No real organization of documents. Either inactive or archived and ordered in date/supplier order
+ |
+| Expense Rules
+ | Same as Receipt Bank - however, instead relied upon Xero receipt analysis which is little less powerful
+ | **Same as Receipt Bank – little easier to navigate to the section ✔** 
+ | Same as Receipt Bank – however seems to only be on each invoice (can’t create outside of existing invoice – not that important)
+ | Automate rules (or after the first occurrence) as to where expenses are to be accounted to (account categories) 
+ |
+| Accounting Codes
+ |  **
+Same as Receipt Bank** **✔** 
+
+ | Only available on the subscription plan of $1800/year
+ | **Same as Receipt Bank ✔** 
+ | **Syncs with Xero account categories and automatically chooses those options. Brings bank reconciliations of these invoices to 90% of the way ✔** 
+ |
+| Phone Compatibility
+ |  **All Phones ✔** 
+ | **All Phones ✔** 
+ | **All Phones ✔** 
+ | iPhone, Android, and Web-based 
+ |
+| Two-factor Authentication
+ |  **Yes ✔** 
+ | No
+ | **Yes ✔** 
+ | No
+ |
+| How-to Videos
+ | Yes
+ | **Yes
+The most videos ✔** 
+ | Yes
+ | No
+ |
+| Descriptive Notes
+ |  **Yes ✔** 
+ |   **Yes ✔** 
+ | Not available
+ |  **Yes ✔** 
+ |
+| Bank Specification
+ |  **Yes✔** 
+ | Not at $840/year
+ |  **Yes ✔** 
+ |  **Yes✔** 
+ |
+
+
+ **Overall, the winner is Xero Expense app.** The design of the Xero Expense app provides all the user experience to enable simple and convenient reimbursement requests or company spent money receipts for reconciliation. 
+
+
+
+
+The best feature of Xero Expense reimbursement is that the employee's bank details are automatically assigned when they submit a claim. The approver (Accountant or Business Owner), approves of the expense, it will be generated as a payable invoice in the 'Bills' section of Xero and dealt with like any other bill.
+
+
+
+Although Expensify and Receipt Bank are usable too for this purpose, their costs cannot compare to Xero Expense app for this purpose.
+
+
+
+
+<!--endintro-->
+
+Expense apps are a timesaver, both for the day to day user, as well as the accountant receiving the expenses.
+
+As a user, all you have to do is take a photo of the receipt from your mobile app, file or add any comments (all other data is pulled in via OCR “Smart-scan”), then all of these expenses get batched together and sent on a weekly basis to the accountant, who can then manage them in bulk.
+
+### What are the most popular expenses apps?
+
+
+
+
+**With Xero:** 
+![](google-trends-with-xero.jpg)**F** ** igure : Google Trends (September 2020) show that Hubdoc and Receipt Bank are the most popular apps. More at** [**Google Trends**](https://trends.google.com/trends/explore?q=%22Xero%20Expenses%22%2cxero%20expensify%2cxero%20hubdoc%2cxero%20%22Receipt%20Bank%22)
+
+
+
+**Without Xero:**
+
+![](google-trends-without-xero.jpg)
+
+**Figure: Google Trends (September 2020) show 
    Expensify and 
-   Receipt Bank as the most popular. More at 
-   </strong><a href="https://trends.google.com/trends/explore?geo=US&q=Xero%20Expenses%2cexpensify%2chubdoc%2c%22Receipt%20Bank%22"><strong>Google Trends</strong></a></p></dl><h3 class="ssw15-rteElement-H3">Related Rules​<br></h3><ul><li>
-         <a href=/how-to-enter-an-expensify-receipt>Do you know how to enter an Expensify receipt?</a><br></li><li>
-         <a href=/do-you-create-a-new-report-for-related-expenses>Do you create a new report for related expenses?</a><br></li><li>
-         <a href=/do-you-know-how-to-claim-expense-reimbursements>Do you know how to claim expense reimbursements?​</a><br></li></ul>
-   <br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   Receipt Bank as the most popular. More at** [**Google Trends**](https://trends.google.com/trends/explore?geo=US&q=Xero%20Expenses%2cexpensify%2chubdoc%2c%22Receipt%20Bank%22)
+
+### Related Rules
 
 
+* [Do you know how to enter an Expensify receipt?](/how-to-enter-an-expensify-receipt)
+* [Do you create a new report for related expenses?](/do-you-create-a-new-report-for-related-expenses)
+* [Do you know how to claim expense reimbursements?](/do-you-know-how-to-claim-expense-reimbursements)
