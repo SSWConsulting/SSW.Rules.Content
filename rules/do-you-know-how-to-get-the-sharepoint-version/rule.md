@@ -17,8 +17,8 @@ redirects: []
 ​You want to be on the latest version of SharePoint.<br><br>There are multiple ways to get it&#58;​ 
 <div> 
    <br> 
-   <dd class="ssw15-rteElement-FigureBad">Check SharePoint DLL version</dd><dd class="ssw15-rteElement-FigureBad">Check&#160;http&#58;//{ltHTMLChar}CentralAdminSite{gtHTMLChar}/_admin/FarmServers. aspx</dd><p></p>​ 
-   <dd class="ssw15-rteElement-FigureGood">Check&#160; http&#58;//{ltHTMLChar}AnySiteCollection{gtHTMLChar}/_vti_pvt/service.cnf<br></dd><p>See <a href="http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/" target="_blank">http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/​</a> for details.</p>
+   <dd class="ssw15-rteElement-FigureBad">Check SharePoint DLL version</dd><dd class="ssw15-rteElement-FigureBad">Check&#160;http&#58;//&lt;CentralAdminSite&gt;/_admin/FarmServers. aspx</dd><p></p>​ 
+   <dd class="ssw15-rteElement-FigureGood">Check&#160; http&#58;//&lt;AnySiteCollection&gt;/_vti_pvt/service.cnf<br></dd><p>See <a href="http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/" target="_blank">http&#58;//www.jeremythake.com/2013/08/get-sharepoint-version-number-of-your-platform-quickly/​</a> for details.</p>
 </div>
 <br><excerpt class='endintro'></excerpt><br>
 <p class="ssw15-rteElement-GreyBox">vti_encoding&#58;SR|utf8-nl
