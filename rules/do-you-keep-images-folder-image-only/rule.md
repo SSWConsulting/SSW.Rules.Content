@@ -15,27 +15,21 @@ redirects: []
 
 ---
 
+We want to keep clear and simple file structure in our solution. Never put any files other than images file in \images folder.  
+<!--endintro-->
 
-We want to keep clear and simple file structure in our solution. Never put any files other than images file in \images folder.
 
-<br><excerpt class='endintro'></excerpt><br>
+::: bad  
+![Bad example - HTML file in \Images Folder.](OnlyImageBad.gif)  
+:::
 
-  <dl class="badImage">
-    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Image bad link" src="OnlyImageBad.gif" /> </dt>
-    <dd>Bad example - HTML file in \Images Folder.</dd>
-</dl>
-<dl class="goodImage">
-    <dt><img style="border-bottom:0px solid;border-left:0px solid;border-top:0px solid;border-right:0px solid;" border="0" alt="Image good link" src="OnlyImageGood.gif" /> </dt>
-    <dd>Good example - Images only, clean \Images folder.</dd>
-</dl>
-<p> </p>
-<table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
-    <tbody>
-        <tr>
-            <td>We have a program called <a href="http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule.</td>
-        </tr>
-    </tbody>
-</table>
+
+::: good  
+![Good example - Images only, clean \Images folder.](OnlyImageGood.gif)  
+:::
 
 
 
+
+| We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule. |
+| --- |
