@@ -11,6 +11,5 @@ index:
 - tell-the-coding-standards-you-expect
 
 ---
-<p>​​</p>
 
 
