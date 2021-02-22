@@ -19,22 +19,57 @@ redirects: []
 
 ---
 
-
-<p class="ssw15-rteElement-P">​There are times you should have your email checked by someone else before sending. Simply ask for that person to come over and check it on your computer or IM him/her if the person is not close by (e.g. in a different room). This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails. <br></p><div><div><p class="ssw15-rteElement-P">​Examples are:</p>
-</div></div>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Where you are a little unsure</li><li>When you are new to a company and sending an email to a large distribution list</li><li>Sending a complicated email</li><li>Sending a sensitive email (where the content could be perceived as confrontational)</li><li>In application development, when you need a quick '<a href=/conduct-a-test-please-internally-and-then-with-the-client>test please</a>', an​d the person is immediately available. This​ provides you a chance to check and collaborate on the finished change before the '<a href="/Pages/Done-GiveDetailsAndDelete.aspx">done email</a>' is sent</li></ul><p>Doing this will ensure:​</p><ul><li>You avoid grammatical and spelling errors </li><li>The layout and tone of the email is professional </li><li>You haven’t forgotten anything important </li><li>The receiver knows who else agrees with the content </li></ul><div class="ms-rteCustom-GreyBox"><p>(Checked by Peter) <br></p><p>Dear Adam,​​<br></p><p>​[email content]</p><p>​Regards, Phil<br></p></div> 
-<span class="ms-rteCustom-FigureNormal">Figure: Use 'Checked by xxx' when sending a complicated email to a group of people<br></span> 
-<div> 
-   <br>Reply to the "Done" email like below and CC the person who checked the email for you. In this way, you show it was double checked. 
-   <dl class="goodImage"><dt> 
-         <img alt="ruleDoneCheckedBy.png" src="ruleDoneCheckedBy.png" /> 
-      </dt><dd>Figure: Reply Email with "Checked by XXX"  </dd></dl><p class="ssw15-rteElement-P">When you action a task for adding web content (such as a rule or suggestion), firstly paste the content into a new Word file and run the "Grammar & Spelling Check" to check if there are any errors. After the "Grammar & Spelling Check", you can add it to your website. After that, run 
-      <a href="http://sswlinkauditor.com/">Link Auditor</a> in order to keep 0 bad links on that page.<br></p></div><dl class="goodImage"><dt> 
-      <img src="SpellAndLinkCheck.jpg" alt="" /> 
-   </dt><dd>Figure: ​Reply to the email with grammar & spelling check and CA check results<br></dd></dl><dl class="image"><dt>
-      <img src="four-eyes.jpg" alt="four-eyes.jpg" />
-   </dt><dd>​​Figure: Consider this the '4 eye check' (<a href="https://www.collinsdictionary.com/dictionary/english/four-eyes-principle" target="_blank">four eye principle</a>)​<br></dd></dl>​
+There are times you should have your email checked by someone else before sending. Simply ask for that person to come over and check it on your computer or IM him/her if the person is not close by (e.g. in a different room). This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails.
 
 
+Examples are:
 
+
+<!--endintro-->
+
+* Where you are a little unsure
+* When you are new to a company and sending an email to a large distribution list
+* Sending a complicated email
+* Sending a sensitive email (where the content could be perceived as confrontational)
+* In application development, when you need a quick '[test please](/conduct-a-test-please-internally-and-then-with-the-client)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/Pages/Done-GiveDetailsAndDelete.aspx)' is sent
+
+
+Doing this will ensure:
+
+* You avoid grammatical and spelling errors
+* The layout and tone of the email is professional
+* You haven’t forgotten anything important
+* The receiver knows who else agrees with the content
+
+
+
+::: greybox
+
+(Checked by Peter)
+
+Dear Adam,
+
+[email content]
+
+Regards, Phil
+
+:::
+**Figure: Use 'Checked by xxx' when sending a complicated email to a group of people
+** 
+
+Reply to the "Done" email like below and CC the person who checked the email for you. In this way, you show it was double checked. 
+   
+
+::: good  
+![Figure: Reply Email with "Checked by XXX"](ruleDoneCheckedBy.png)  
+:::
+
+When you action a task for adding web content (such as a rule or suggestion), firstly paste the content into a new Word file and run the "Grammar & Spelling Check" to check if there are any errors. After the "Grammar & Spelling Check", you can add it to your website. After that, run        [Link Auditor](http://sswlinkauditor.com/) in order to keep 0 bad links on that page.
+
+
+
+::: good  
+![Figure: Reply to the email with grammar & spelling check and CA check results](SpellAndLinkCheck.jpg)  
+:::
+
+![Figure: Consider this the '4 eye check' (four eye principle)](four-eyes.jpg)
