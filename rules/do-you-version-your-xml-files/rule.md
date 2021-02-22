@@ -15,36 +15,178 @@ redirects: []
 
 ---
 
+It is good to store program settings in an .xml file. But developers rarely worry about future schema changes and how they will inform the user it is an old schema.
+
+ What is wrong with this?
+
+<!--endintro-->
 
 
-  <p>It is good to store program settings in an .xml file. But developers rarely worry about future schema changes and how they will inform the user it is an old schema.<br>
-<br>
-What is wrong with this? 
-</p>
+```
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns=""
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name=NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-AU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+       <xs:element name="Table1">
+       <xs:complexType>
+       <xs:sequence>
+       <xs:element name="DateUpdated" type="xs:dateTime" minOccurs="0" />
+       <xs:element name="NewDatabase" type="xs:boolean" minOccurs="0" />
+       <xs:element name="ConnectionString" type="xs:string" minOccurs="0" />
+       <xs:element name="SQLFilePath" type="xs:string" minOccurs="0" />
+       <xs:element name="TimeOut" type="xs:int" minOccurs="0" />
+       <xs:element name="TurnOnMSDE" type="xs:boolean" minOccurs="0" />
+       <xs:element name="KeepXMLRecords" type="xs:boolean" minOccurs="0" />
+       <xs:element name="UserMode" type="xs:boolean" minOccurs="0" />
+       <xs:element name="ReconcileScriptsMode" type="xs:boolean" minOccurs="0" />
+       <xs:element name="FolderPath" type="xs:string" minOccurs="0" /> />
+       <xs:element name="SelectedFile" type="xs:string" minOccurs="0" />
+       <xs:element name="UpdateVersionTable" type="xs:boolean" minOccurs="0" />
+       </xs:sequence>
+       </xs:complexType>
+       </xs:element>
+      </xs:choice>
+     </xs:complexType>
+     </xs:element>
+    </xs:schema>
+ 
+    <Table1>
+      <DateUpdated>2004-05-17T10:04:06.9438192+10:00</DateUpdated>
+      <NewDatabase>true</NewDatabase>
+      <ConnectionString>Provider=SQLOLEDB.1;Integrated Security=SSPI;
+      Persist Security Info=False;
+      Data Source=(local);Initial Catalog=master</ConnectionString>
+      <SQLFilePath>ver0001.sql</SQLFilePath>
+      <TimeOut>5</TimeOut>
+      <TurnOnMSDE>false</TurnOnMSDE>
+      <KeepXMLRecords>false</KeepXMLRecords>
+      <UserMode>true</UserMode>
+      <ReconcileScriptsMode>true</ReconcileScriptsMode>
+      <FolderPath>C:\Program Files\SSW SQL Deploy\Samples\DatabaseSQLScripts\
+      </FolderPath>
+      <SelectedFile />
+      <UpdateVersionTable>true</UpdateVersionTable>
+    </Table1>
+</NewDataSet>
+```
 
-<br><excerpt class='endintro'></excerpt><br>
+          Bad example - XML file without version control.             
 
-  <dl class="badCode">
-    <dt>
-    <pre>&lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;<br>&lt;NewDataSet&gt;<br>  &lt;xs&#58;schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot;<br>   &#160;&#160;xmlns&#58;xs=&quot;http&#58;//www.w3.org/2001/XMLSchema&quot;<br>   &#160;&#160;xmlns&#58;msdata=&quot;urn&#58;schemas-microsoft-com&#58;xml-msdata&quot;&gt;<br>    &lt;xs&#58;element name=NewDataSet&quot; msdata&#58;IsDataSet=&quot;true&quot; msdata&#58;Locale=&quot;en-AU&quot;&gt;<br>    &lt;xs&#58;complexType&gt;<br>      &lt;xs&#58;choice maxOccurs=&quot;unbounded&quot;&gt;<br>       &lt;xs&#58;element name=&quot;Table1&quot;&gt;<br>       &lt;xs&#58;complexType&gt;<br>       &lt;xs&#58;sequence&gt;<br>       &lt;xs&#58;element name=&quot;DateUpdated&quot; type=&quot;xs&#58;dateTime&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;NewDatabase&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;ConnectionString&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;SQLFilePath&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;TimeOut&quot; type=&quot;xs&#58;int&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;TurnOnMSDE&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;KeepXMLRecords&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;UserMode&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;ReconcileScriptsMode&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;FolderPath&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt; /&gt;<br>       &lt;xs&#58;element name=&quot;SelectedFile&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;UpdateVersionTable&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;/xs&#58;sequence&gt;<br>       &lt;/xs&#58;complexType&gt;<br>       &lt;/xs&#58;element&gt;<br>      &lt;/xs&#58;choice&gt;<br>     &lt;/xs&#58;complexType&gt;<br>    &#160;&lt;/xs&#58;element&gt;<br>  &#160;&#160;&lt;/xs&#58;schema&gt;<br> <br>  &#160;&#160;&lt;Table1&gt;<br>    &#160;&#160;&lt;DateUpdated&gt;2004-05-17T10&#58;04&#58;06.9438192+10&#58;00&lt;/DateUpdated&gt;<br>    &#160;&#160;&lt;NewDatabase&gt;true&lt;/NewDatabase&gt;<br>    &#160;&#160;&lt;ConnectionString&gt;Provider=SQLOLEDB.1;Integrated Security=SSPI;<br>      Persist Security Info=False;<br>      Data Source=(local);Initial Catalog=master&lt;/ConnectionString&gt;<br>    &#160;&#160;&lt;SQLFilePath&gt;ver0001.sql&lt;/SQLFilePath&gt;<br>    &#160;&#160;&lt;TimeOut&gt;5&lt;/TimeOut&gt;<br>    &#160;&#160;&lt;TurnOnMSDE&gt;false&lt;/TurnOnMSDE&gt;<br>    &#160;&#160;&lt;KeepXMLRecords&gt;false&lt;/KeepXMLRecords&gt;<br>    &#160;&#160;&lt;UserMode&gt;true&lt;/UserMode&gt;<br>    &#160;&#160;&lt;ReconcileScriptsMode&gt;true&lt;/ReconcileScriptsMode&gt;<br>    &#160;&#160;&lt;FolderPath&gt;C&#58;\Program Files\SSW SQL Deploy\Samples\DatabaseSQLScripts\<br>      &lt;/FolderPath&gt;<br>    &#160;&#160;&lt;SelectedFile /&gt;<br>    &#160;&#160;&lt;UpdateVersionTable&gt;true&lt;/UpdateVersionTable&gt;<br>  &#160;&#160;&lt;/Table1&gt;<br>&lt;/NewDataSet&gt;</pre>
-    </dt>
-    <dd>Bad example - XML file without version control. </dd>
-</dl>
-<dl class="goodCode">
-    <dt>
-    <pre>&lt;?xml version=&quot;1.0&quot; standalone=&quot;yes&quot;?&gt;<br>&lt;NewDataSet&gt;<br>  &lt;xs&#58;schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot;<br>   &#160;&#160;xmlns&#58;xs=&quot;http&#58;//www.w3.org/2001/XMLSchema&quot;<br>   &#160;&#160;xmlns&#58;msdata=&quot;urn&#58;schemas-microsoft-com&#58;xml-msdata&quot;&gt;<br>    &lt;xs&#58;element name=NewDataSet&quot; msdata&#58;IsDataSet=&quot;true&quot; msdata&#58;Locale=&quot;en-AU&quot;&gt;<br>    &lt;xs&#58;complexType&gt;<br>      &lt;xs&#58;choice maxOccurs=&quot;unbounded&quot;&gt;<br>       &lt;xs&#58;element name=&quot;Table1&quot;&gt;<br>       &lt;xs&#58;complexType&gt;<br>       &lt;xs&#58;sequence&gt;<br>       <span style="background-color&#58;rgb(255, 255, 0);">&lt;xs&#58;element name=&quot;Version&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt;</span><br>       &lt;xs&#58;element name=&quot;DateUpdated&quot; type=&quot;xs&#58;dateTime&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;NewDatabase&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;ConnectionString&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;SQLFilePath&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;TimeOut&quot; type=&quot;xs&#58;int&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;TurnOnMSDE&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;KeepXMLRecords&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;UserMode&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;ReconcileScriptsMode&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;FolderPath&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt; /&gt;<br>       &lt;xs&#58;element name=&quot;SelectedFile&quot; type=&quot;xs&#58;string&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;xs&#58;element name=&quot;UpdateVersionTable&quot; type=&quot;xs&#58;boolean&quot; minOccurs=&quot;0&quot; /&gt;<br>       &lt;/xs&#58;sequence&gt;<br>       &lt;/xs&#58;complexType&gt;<br>       &lt;/xs&#58;element&gt;<br>      &lt;/xs&#58;choice&gt;<br>     &lt;/xs&#58;complexType&gt;<br>    &#160;&lt;/xs&#58;element&gt;<br>  &#160;&#160;&lt;/xs&#58;schema&gt;<br> <br> &#160;&#160;&lt;Table1&gt;<br>      <span style="background-color&#58;rgb(255, 255, 0);">&lt;Version&gt;1.2&lt;/Version&gt;</span> <br>  &#160;&#160;  &lt;DateUpdated&gt;2004-05-17T10&#58;04&#58;06.9438192+10&#58;00&lt;/DateUpdated&gt;<br>    &#160;&#160;&lt;NewDatabase&gt;true&lt;/NewDatabase&gt;<br>    &#160;&#160;&lt;ConnectionString&gt;Provider=SQLOLEDB.1;Integrated Security=SSPI;<br>      Persist Security Info=False;<br>      Data Source=(local);Initial Catalog=master&lt;/ConnectionString&gt;<br>    &#160;&#160;&lt;SQLFilePath&gt;ver0001.sql&lt;/SQLFilePath&gt;<br>    &#160;&#160;&lt;TimeOut&gt;5&lt;/TimeOut&gt;<br>    &#160;&#160;&lt;TurnOnMSDE&gt;false&lt;/TurnOnMSDE&gt;<br>    &#160;&#160;&lt;KeepXMLRecords&gt;false&lt;/KeepXMLRecords&gt;<br>    &#160;&#160;&lt;UserMode&gt;true&lt;/UserMode&gt;<br>    &#160;&#160;&lt;ReconcileScriptsMode&gt;true&lt;/ReconcileScriptsMode&gt;<br>    &#160;&#160;&lt;FolderPath&gt;C&#58;\Program Files\SSW SQL Deploy\Samples\DatabaseSQLScripts\<br>      &lt;/FolderPath&gt;<br>    &#160;&#160;&lt;SelectedFile /&gt;<br>    &#160;&#160;&lt;UpdateVersionTable&gt;true&lt;/UpdateVersionTable&gt;<br>  &#160;&#160;&lt;/Table1&gt;<br>&lt;/NewDataSet&gt;</pre>
-    </dt>
-    <dd>Good example -&#160;XML file with version control </dd>
-</dl>
-<p>The version tags identifies what version the file is. This version should be hard coded into the application. Every time you change the format of the file, you would increment this number.</p>
-<p>The code below shows how this would be implemented in your project.</p>
-<dl class="goodCode">
-    <dt>
-    <pre>Public Function IsXMLFileValid() As Boolean<br><br>  Dim fileVersion As String = &quot;not specified&quot;<br>  Dim dsSettings As New DataSet<br>  Dim IsMalformed As Boolean = False <br>  ' Is the file malformed all together with possibly version<br><br>  Try<br>    dsSettings.ReadXml(mXMLFileInfo.FullName, XmlReadMode.ReadSchema)<br>  Catch ex As Exception<br>    IsMalformed = True<br>  End Try<br><br>  If (Not IsMalformed) Then<br>    Dim strm As Stream = Asm.GetManifestResourceStream(Asm.GetName().Name _ <br>     + &quot;.&quot; + &quot;XMLFileSchema.xsd&quot;)<br>   &#160;Dim sReader As New StreamReader(strm)<br>   &#160;Dim dsXMLSchema As New DataSet<br>   &#160;dsXMLSchema.ReadXmlSchema(sReader)<br><br>   &#160;If dsSettings.Tables(0).Columns.Contains(&quot;Version&quot;) Then _<br>    &#160;&#160;fileVersion = dsSettings.Tables(0).Rows(0)(&quot;Version&quot;).ToString<br>    End If<br><br>   &#160;If fileVersion = &quot;&quot; Then<br>   &#160;&#160;&#160;fileVersion = &quot;not specified&quot;<br>  &#160;&#160;End If<br><br>   &#160;If fileVersion = Global.XMLFileVersion AndAlso <br>        Not dsSettings.GetXmlSchema() = dsXMLSchema.GetXmlSchema() Then<br>   &#160;&#160;&#160;Return False<br>   &#160;End If<br><br>  End If<br><br>  If IsMalformed OrElse fileVersion &lt;&gt; Global.XMLFileVersion Then<br><br>  &#160;&#160;If mshouldConvertFile Then<br>    &#160; ' Convert the file<br>    &#160; ConvertToCurrentVersion(IsMalformed)<br>    Else<br>     &#160;Throw New XMLFileVersionException(fileVersion, Global.XMLFileVersion )<br>    End If<br><br>  End If<br><br>  Return True<br><br>End Function</pre>
-    </dt>
-</dl>
-<b>Figure&#58; Code to illustrate how to check if the xml file is valid.</b>
-<p>Note&#58; to allow backward compatibility, you should give the user an option to convert old xml files into the new version structure.</p>
+```
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns=""
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name=NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-AU">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+       <xs:element name="Table1">
+       <xs:complexType>
+       <xs:sequence>
+       <xs:element name="Version" type="xs:string" minOccurs="0" />
+       <xs:element name="DateUpdated" type="xs:dateTime" minOccurs="0" />
+       <xs:element name="NewDatabase" type="xs:boolean" minOccurs="0" />
+       <xs:element name="ConnectionString" type="xs:string" minOccurs="0" />
+       <xs:element name="SQLFilePath" type="xs:string" minOccurs="0" />
+       <xs:element name="TimeOut" type="xs:int" minOccurs="0" />
+       <xs:element name="TurnOnMSDE" type="xs:boolean" minOccurs="0" />
+       <xs:element name="KeepXMLRecords" type="xs:boolean" minOccurs="0" />
+       <xs:element name="UserMode" type="xs:boolean" minOccurs="0" />
+       <xs:element name="ReconcileScriptsMode" type="xs:boolean" minOccurs="0" />
+       <xs:element name="FolderPath" type="xs:string" minOccurs="0" /> />
+       <xs:element name="SelectedFile" type="xs:string" minOccurs="0" />
+       <xs:element name="UpdateVersionTable" type="xs:boolean" minOccurs="0" />
+       </xs:sequence>
+       </xs:complexType>
+       </xs:element>
+      </xs:choice>
+     </xs:complexType>
+     </xs:element>
+    </xs:schema>
+ 
+   <Table1>
+      <Version>1.2</Version> 
+      <DateUpdated>2004-05-17T10:04:06.9438192+10:00</DateUpdated>
+      <NewDatabase>true</NewDatabase>
+      <ConnectionString>Provider=SQLOLEDB.1;Integrated Security=SSPI;
+      Persist Security Info=False;
+      Data Source=(local);Initial Catalog=master</ConnectionString>
+      <SQLFilePath>ver0001.sql</SQLFilePath>
+      <TimeOut>5</TimeOut>
+      <TurnOnMSDE>false</TurnOnMSDE>
+      <KeepXMLRecords>false</KeepXMLRecords>
+      <UserMode>true</UserMode>
+      <ReconcileScriptsMode>true</ReconcileScriptsMode>
+      <FolderPath>C:\Program Files\SSW SQL Deploy\Samples\DatabaseSQLScripts\
+      </FolderPath>
+      <SelectedFile />
+      <UpdateVersionTable>true</UpdateVersionTable>
+    </Table1>
+</NewDataSet>
+```
+
+          Good example - XML file with version control   
+The version tags identifies what version the file is. This version should be hard coded into the application. Every time you change the format of the file, you would increment this number.
+
+The code below shows how this would be implemented in your project.
 
 
+```
+Public Function IsXMLFileValid() As Boolean
 
+  Dim fileVersion As String = "not specified"
+  Dim dsSettings As New DataSet
+  Dim IsMalformed As Boolean = False 
+  ' Is the file malformed all together with possibly version
+
+  Try
+    dsSettings.ReadXml(mXMLFileInfo.FullName, XmlReadMode.ReadSchema)
+  Catch ex As Exception
+    IsMalformed = True
+  End Try
+
+  If (Not IsMalformed) Then
+    Dim strm As Stream = Asm.GetManifestResourceStream(Asm.GetName().Name _ 
+     + "." + "XMLFileSchema.xsd")
+    Dim sReader As New StreamReader(strm)
+    Dim dsXMLSchema As New DataSet
+    dsXMLSchema.ReadXmlSchema(sReader)
+
+    If dsSettings.Tables(0).Columns.Contains("Version") Then _
+      fileVersion = dsSettings.Tables(0).Rows(0)("Version").ToString
+    End If
+
+    If fileVersion = "" Then
+      fileVersion = "not specified"
+    End If
+
+    If fileVersion = Global.XMLFileVersion AndAlso 
+        Not dsSettings.GetXmlSchema() = dsXMLSchema.GetXmlSchema() Then
+      Return False
+    End If
+
+  End If
+
+  If IsMalformed OrElse fileVersion <> Global.XMLFileVersion Then
+
+    If mshouldConvertFile Then
+      ' Convert the file
+      ConvertToCurrentVersion(IsMalformed)
+    Else
+      Throw New XMLFileVersionException(fileVersion, Global.XMLFileVersion )
+    End If
+
+  End If
+
+  Return True
+
+End Function
+```
+
+**Figure: Code to illustrate how to check if the xml file is valid.** 
+Note: to allow backward compatibility, you should give the user an option to convert old xml files into the new version structure.
