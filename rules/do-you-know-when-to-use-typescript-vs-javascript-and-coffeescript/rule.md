@@ -14,17 +14,23 @@ redirects:
 
 ---
 
+TypeScript is the new flagship language from Microsoft that compiles into JavasScript.
 
-<p>​TypeScript is the new flagship language from Microsoft that compiles into JavasScript.</p><ul><li>
-      Use JavaScript if you’re writing page specific script</li><li>
-      Use jQuery to improve cross-browser support</li><li>
-      Use TypeScript if you’re writing re-usable client side library</li></ul><p>Don't use CoffeeScript (language is too different from JavaSript)</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt> 
-      <img src="typescript-good.jpg" alt="" /> 
-   </dt><dd>Figure: Good - TypeScript is very similar to JavaScript so it’s easy to learn, and also helps developers learn proper JavaScript coding practices</dd></dl>​
-   <dl class="badImage"><dt> 
-         <img src="typescript-bad.jpg" alt="" /> 
-      </dt><dd>Figure: Bad – CoffeeScript syntax is very different from JavaScript so it takes longer to learn</dd> ​</dl>
+* Use JavaScript if you’re writing page specific script
+* Use jQuery to improve cross-browser support
+* Use TypeScript if you’re writing re-usable client side library
 
 
+Don't use CoffeeScript (language is too different from JavaSript)
+
+<!--endintro-->
+
+
+::: good  
+![Figure: Good - TypeScript is very similar to JavaScript so it’s easy to learn, and also helps developers learn proper JavaScript coding practices](typescript-good.jpg)  
+:::
+
+
+::: bad  
+![Figure: Bad – CoffeeScript syntax is very different from JavaScript so it takes longer to learn](typescript-bad.jpg)  
+:::
