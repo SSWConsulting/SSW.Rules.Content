@@ -14,9 +14,16 @@ redirects:
 
 ---
 
+Change the defaults from 20480KB to 64000KB and Overwrite as needed. This will allow the users to view Security audits and errors much further into the past with a minimal increase in space - and it will never bloat your server.
 
-<p class="ssw15-rteElement-P">​Change the defaults from 20480KB to 64000KB and Overwrite as needed. This will allow the users to view Security audits and errors much further into the past with a minimal increase in space - and it will never bloat your server.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="EventViewer_BadSmallLogSize.png" alt="SQLDatabases_EventLog_Bad.png" style="width:665px;height:599px;" /><br></dt><dd>Figure: Bad Example - Using a small log size<br></dd></dl><dl class="goodImage"><dt><img src="EventViewer_GoodReasonableLogSize.png" alt="SQLDatabases_EventLog_Bad.png" style="width:665px;height:599px;" /><br></dt><dd>Figure: Good Example - Using a ​reasonable log size<br></dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - Using a small log size](EventViewer\_BadSmallLogSize.png)  
+:::
+
+
+::: good  
+![Figure: Good Example - Using a reasonable log size](EventViewer\_GoodReasonableLogSize.png)  
+:::
