@@ -15,12 +15,12 @@ redirects: []
 <p>Distinguishing visited links is very helpful to show where 
      users have been before. Visited links should still stand out 
      but not as obvious as unvisited ones. Give visited links a 
-     less saturated colour to give that &quot;used&quot; look and be careful 
+     less saturated colour to give that "used" look and be careful 
      not to overuse css techniques on visited links.
                 </p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt>
-      <img alt="Visited Links" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/VisitedLinks.gif" style="margin&#58;5px;width&#58;161px;" /> 
-   </dt><dd>Figure&#58; Visited links are marked different from unvisited.<br></dd></dl><p> Specifying style for visited links is very simple. Just add this to your CSS file&#58; </p><p class="ssw15-rteElement-CodeArea">A&#58;visited &#123; color&#58; purple; &#125;</p>
+      <img alt="Visited Links" src="../../assets/VisitedLinks.gif" style="margin:5px;width:161px;" /> 
+   </dt><dd>Figure: Visited links are marked different from unvisited.<br></dd></dl><p> Specifying style for visited links is very simple. Just add this to your CSS file: </p><p class="ssw15-rteElement-CodeArea">A:visited { color: purple; }</p>
 
 
