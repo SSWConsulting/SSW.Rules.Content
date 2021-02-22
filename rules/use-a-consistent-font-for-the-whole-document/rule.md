@@ -14,9 +14,8 @@ redirects:
 
 ---
 
+The use of many different fonts in the same document is unprofessional. At SSW, we use  **Open Sans** as the standard font.
 
-<p class="ssw15-rteElement-P">The use of many different fonts in the same document is unprofessional. At SSW, we use <b>Open Sans</b> as the standard font.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​Also ensure that titles, subtitles and content are consistent. You can create this by using document styles.​​<br></p>
+<!--endintro-->
 
-
+Also ensure that titles, subtitles and content are consistent. You can create this by using document styles.
