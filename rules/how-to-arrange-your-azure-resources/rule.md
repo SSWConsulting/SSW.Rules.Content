@@ -24,6 +24,6 @@ redirects:
 There is no cost saving to group databases into on single resource group. It is better to provision the database in the same resource group as the application that uses it.​<br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage">
-   <dt>​<img src="/PublishingImages/arrange-azure-resources-bad.jpg" alt="arrange-azure-resources-bad.jpg" style="width&#58;750px;" /></dt><dd>Figure&#58; Bad example - SSW.SQL has all the Databases for different apps in one place<br></dd></dl>
+   <dt>​<img src="arrange-azure-resources-bad.jpg" alt="arrange-azure-resources-bad.jpg" style="width:750px;" /></dt><dd>Figure: Bad example - SSW.SQL has all the Databases for different apps in one place<br></dd></dl>
 
 
