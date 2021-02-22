@@ -11,19 +11,18 @@ redirects: []
 
 ---
 
+Hyperlinks are the foundation to website navigation. Without       it, the Internet is merely a series of unconnected       documents. An intuitive hyperlink is one where the link       explains what will happen when it is clicked where they will       take the user.
 
-<p>Hyperlinks are the foundation to website navigation. Without 
-     it, the Internet is merely a series of unconnected 
-     documents. An intuitive hyperlink is one where the link 
-     explains what will happen when it is clicked where they will 
-     take the user.
-                </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img border="1" alt="Websites - Not Intuitive Hyperlinks" src="../../assets/Websites_NotIntuitiveHyperlinks.gif" style="margin:5px;width:190px;" />
-   </dt><dd>Figure: Bad Example - I have no way of knowing that this link allows me to edit my details</dd></dl><dl class="goodImage"><dt> 
-      <img alt="Websites - Intuitive Hyperlinks" src="../../assets/Websites_IntuitiveHyperlinks.gif" style="margin:5px;" />
-   </dt><dd>Figure: Good Example - I'm pretty certain where this link will take me...</dd></dl><p> This rule also has relevance to 
-   <a href="http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterGoogleRankings.aspx#Relevancy">improve your Google ranking</a>. </p>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - I have no way of knowing that this link allows me to edit my details](../../assets/Websites\_NotIntuitiveHyperlinks.gif)  
+:::
+
+
+::: good  
+![Figure: Good Example - I'm pretty certain where this link will take me...](../../assets/Websites\_IntuitiveHyperlinks.gif)  
+:::
+
+This rule also has relevance to     [improve your Google ranking](http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterGoogleRankings.aspx#Relevancy).
