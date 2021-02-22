@@ -18,6 +18,6 @@ redirects: []
              link to display only a portion of the image sprite - effectively showing just the 
              image you need.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<p>The benefits to use CSS image sprites are&#58;</p><ul><li>to save bandwidth</li><li>to reduce HTTP server requests</li><li>to speed up page load times</li></ul><p>Ensure that the file size of your master image isn't greater than the sum of its pieces.</p><dl class="badImage"><dt><img src="/PublishingImages/ImageSprites_bad.gif" alt="One image per Icon" /></dt><dd>Figure&#58; Bad Example - four images, one for each icon</dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/ImageSprites_good.gif" alt="One image contains all icons" /></dt><dd>Figure&#58; Good Example - one image contains all the icons and CSS selectors make the browser display only the part you need</dd></dl>
+<p>The benefits to use CSS image sprites are:</p><ul><li>to save bandwidth</li><li>to reduce HTTP server requests</li><li>to speed up page load times</li></ul><p>Ensure that the file size of your master image isn't greater than the sum of its pieces.</p><dl class="badImage"><dt><img src="ImageSprites_bad.gif" alt="One image per Icon" /></dt><dd>Figure: Bad Example - four images, one for each icon</dd></dl><dl class="goodImage"><dt><img src="ImageSprites_good.gif" alt="One image contains all icons" /></dt><dd>Figure: Good Example - one image contains all the icons and CSS selectors make the browser display only the part you need</dd></dl>
 
 
