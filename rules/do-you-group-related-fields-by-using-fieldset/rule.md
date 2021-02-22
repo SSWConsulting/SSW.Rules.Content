@@ -16,24 +16,24 @@ redirects: []
 
 <p><strong>​FieldSet</strong> element allows you to group thematically related controls
                     and labels. Grouping controls makes forms more accessible and easier for users to
-                    understand the purpose of filling the forms.</p><p>See the example below using &quot;Your Details&quot;
-                    and &quot;Event Details&quot;.</p>
+                    understand the purpose of filling the forms.</p><p>See the example below using "Your Details"
+                    and "Event Details".</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt> 
-      <img src="/PublishingImages/fieldset.jpg" alt="" /> 
-   </dt><dd>Figure&#58; Good example - Use FieldSet for grouping</dd><dd></dd></dl><p>Here's an example of how FieldSet works&#58;</p><dl class="code"><dt><pre>{ltHTMLChar}fieldset{gtHTMLChar}
-    {ltHTMLChar}legend{gtHTMLChar}Your Details{ltHTMLChar}/legend{gtHTMLChar}
-    {ltHTMLChar}p{gtHTMLChar}
-        {ltHTMLChar}label for=&quot;FirstName&quot;{gtHTMLChar}First Name&#58; {ltHTMLChar}/label{gtHTMLChar}
-        {ltHTMLChar}input id=&quot;FirstName&quot; type=&quot;text&quot; /{gtHTMLChar}{ltHTMLChar}br /{gtHTMLChar}
-        {ltHTMLChar}label for=&quot;LastName&quot;{gtHTMLChar}Last Name&#58; {ltHTMLChar}/label{gtHTMLChar}
-        {ltHTMLChar}input id=&quot;LastName&quot; type=&quot;text&quot; /{gtHTMLChar}{ltHTMLChar}br /{gtHTMLChar}
-        {ltHTMLChar}label for=&quot;EmailAddress&quot;{gtHTMLChar}Email Address&#58; {ltHTMLChar}/label{gtHTMLChar}
-        {ltHTMLChar}input id=&quot;EmailAddress&quot; type=&quot;text&quot; /{gtHTMLChar}
-    {ltHTMLChar}/p{gtHTMLChar}
-{ltHTMLChar}/fieldset{gtHTMLChar}</pre></dt><dd>Figure&#58; Example code of FieldSet</dd></dl><dl class="image">​ 
+      <img src="fieldset.jpg" alt="" /> 
+   </dt><dd>Figure: Good example - Use FieldSet for grouping</dd><dd></dd></dl><p>Here's an example of how FieldSet works:</p><dl class="code"><dt><pre>&lt;fieldset&gt;
+    &lt;legend&gt;Your Details&lt;/legend&gt;
+    &lt;p&gt;
+        &lt;label for="FirstName"&gt;First Name: &lt;/label&gt;
+        &lt;input id="FirstName" type="text" /&gt;&lt;br /&gt;
+        &lt;label for="LastName"&gt;Last Name: &lt;/label&gt;
+        &lt;input id="LastName" type="text" /&gt;&lt;br /&gt;
+        &lt;label for="EmailAddress"&gt;Email Address: &lt;/label&gt;
+        &lt;input id="EmailAddress" type="text" /&gt;
+    &lt;/p&gt;
+&lt;/fieldset&gt;</pre></dt><dd>Figure: Example code of FieldSet</dd></dl><dl class="image">​ 
    <dt> 
-      <img src="/PublishingImages/fieldset-browser.jpg" alt="" /> 
-   </dt><dd>Figure&#58; How that code will look on the browser</dd><dd></dd></dl><p>​ Things to remember&#58;</p><ol><li>Wrap logical control groups in a {ltHTMLChar}fieldset{gtHTMLChar}.</li><li>The first child of a {ltHTMLChar}fieldset{gtHTMLChar} should be a {ltHTMLChar}legend{gtHTMLChar}, so the user knows what to expect in that section.</li></ol>​
+      <img src="fieldset-browser.jpg" alt="" /> 
+   </dt><dd>Figure: How that code will look on the browser</dd><dd></dd></dl><p>​ Things to remember:</p><ol><li>Wrap logical control groups in a &lt;fieldset&gt;.</li><li>The first child of a &lt;fieldset&gt; should be a &lt;legend&gt;, so the user knows what to expect in that section.</li></ol>​
 
 
