@@ -17,29 +17,70 @@ redirects: []
 
 ---
 
+Your developers should be using Windows 10 for a [number of reasons](http://au.pcmag.com/windows-10-preview-release-date-news-features/35511/feature/10-reasons-to-upgrade-to-windows-10), the primary one being it is faster than Windows 8.
+The next step is to get the Standard Operating Environment (SOE) installed. You have a few choices:
 
-​Your developers should be using Windows 10 for a <a href="http://au.pcmag.com/windows-10-preview-release-date-news-features/35511/feature/10-reasons-to-upgrade-to-windows-10"> number of reasons</a>, the primary one being it is faster than Windows 8.<div>The next step is to get the Standard Operating Environment (SOE) installed. You have a few choices:<div><ul><li>Manually - it can take over a day to install your favorite 20 or so apps</li><li>Windows Image - there is an overhead of maintaining the .WIM file as software changes - RECOMMENDED FOR LARGE COMPANIES 100+ NON TECHNICAL STAFF<br></li><li>Use a package manager (eg. chocolatey/Winget​) - RECOMMENDED FOR SMALLER COMPANIES &lt;100<br></li></ul></div></div>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">Use a package manager (<a href=/do-you-use-a-package-manager>Chocolatey</a>)  
-   <br></h3><p class="ssw15-rteElement-P">Assuming that Windows 10 is already installed, then get your SOE installed fast by following these steps:</p><ol style="list-style-type:decimal;"><li>Logon and configure Windows 10<br></li><li>Install Windows Updates</li><li>Join laptop to the Domain (or run a Logon-Script.bat to get printers, Word templates, etc. Contact SysAdmin to join laptop to the domain)<br></li><li>Install and run a Chocolatey script to get most of the software<br> 
-      <p class="ssw15-rteElement-SSW-Only"> 
-         <a href="file:///fileserver/SetupFiles/SetupNotMS/ChocolateySSWPackages">Chocolatey script</a> for SSW<br></p></li><li>Install all rest of the standard Software that does not support Chocolatey [SSW Only]   
-      <p class="ssw15-rteElement-SSW-Only"> 
-         <a href="https://intranet.ssw.com.au/SysAdmin/Lists/WinImageInstalledSoftware/AllItems.aspx">Standard Software</a> for SSW​<br></p></li><li>In case you lose your laptop, it is a good idea to stick a business card to the bottom</li><li>For branding reasons, stick your company sticker to the laptop 
-      <dl class="image"><dt>
-            <img alt="LoginScript.jpg" src="LoginScript.jpg" style="width:750px;height:381px;" /> 
-         </dt><dd>Figure: SSWLoginScript.bat<br></dd></dl><dl class="image"><dt>
-            <img alt="ChocolateyScript.jpg" src="ChocolateyScript.jpg" style="width:750px;height:397px;" />
-         </dt><dd>Figure: SSWPackages.ps1 which runs Chocolatey command to install SOE software</dd></dl><dl class="image"><dt>
-            <img alt="NonChocolateySoftware.jpg" src="NonChocolateyApp.jpg" style="width:750px;height:198px;" />
-         </dt><dd>Figure: SOE Software that is not supported by Chocolatey</dd></dl><dl class="image"><dt>
-            <img alt="SSWLaptopBranding.jpg" src="SSWLaptopBranding.jpg" />
-         </dt><dd>Figure: Company branding on laptop​<br></dd></dl></li><li>If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
-      <div class="greyBox">Hey Ana, <br> <br>Your new computer is ready. ⭐️  <br>
-         <ul><li>Machine name is COBRA </li><li>Model: ThinkPad X1 Carbon Gen8  <br></li><li>Operating System: Windows 10 Enterprise installed and activated. </li></ul><b>Done</b> - I have followed an SSW Rule: <a href=/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running>https://rules.ssw.com.au/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running</a> and this included: <br> 
-         <ul><li>Data - I have copied the data files from your old PC (MountainGoat) to your new C: drive </li><li>Branding - A SSW sticker has been added </li><li>Power adapter - I labeled it for easy recognition </li><li>Underneath - I stuck your business card in case it gets stolen<br></li></ul><b>Done</b> - then I followed a SugarLearning Item: <a href="https://my.sugarlearning.com/SSW/items/8159/pc-install-and-configure-your-laptop">https://my.sugarlearning.com/SSW/items/8159/pc-install-and-configure-your-laptop</a> and this included: <br> 
-         <ul><li>Software - Installed all your software via Chocolatey </li><li>Printer - Added the main office printers<br></li></ul><b>Done</b> - then I followed a SysAdmin SugarLearning Item: <a href="https://my.sugarlearning.com/SSW/items/13220/snipe-it-asset-management">https://my.sugarlearning.com/SSW/items/13220/snipe-it-asset-management</a> and this included:<br> 
-         <ul><li>Asset - Added the asset to our asset management tool, Snipe-IT: <a href="https://snipe.ssw.com.au/hardware/593">https://snipe.ssw.com.au/hardware/593</a></li><li>Underneath - I added a QR Asset Tag (look here if you ever need to know your computer name) <br></li></ul>Now I need you to do (we can do this together if you are stuck, just give me a call 🕺) <br> 
-         <ol><li>Now login and check Microsoft - Teams App, Outlook  </li><li>Now login and check Google - Chrome will bring back your bookmarks</li><li>Plugin external monitors - Configure your screens</li></ol></div></li></ol>​​<br>
+* Manually - it can take over a day to install your favorite 20 or so apps
+* Windows Image - there is an overhead of maintaining the .WIM file as software changes - RECOMMENDED FOR LARGE COMPANIES 100+ NON TECHNICAL STAFF
+* Use a package manager (eg. chocolatey/Winget) - RECOMMENDED FOR SMALLER COMPANIES &lt;100
 
 
+
+
+<!--endintro-->
+
+### Use a package manager ([Chocolatey](/do-you-use-a-package-manager))  
+   
+
+
+Assuming that Windows 10 is already installed, then get your SOE installed fast by following these steps:
+
+1. Logon and configure Windows 10
+2. Install Windows Updates
+3. Join laptop to the Domain (or run a Logon-Script.bat to get printers, Word templates, etc. Contact SysAdmin to join laptop to the domain)
+4. Install and run a Chocolatey script to get most of the software
+5. Install all rest of the standard Software that does not support Chocolatey [SSW Only]   
+
+6. In case you lose your laptop, it is a good idea to stick a business card to the bottom
+7. For branding reasons, stick your company sticker to the laptop 
+      
+![Figure: SSWLoginScript.bat](LoginScript.jpg)  
+
+![Figure: SSWPackages.ps1 which runs Chocolatey command to install SOE software](ChocolateyScript.jpg)  
+
+![Figure: SOE Software that is not supported by Chocolatey](NonChocolateyApp.jpg)  
+
+![Figure: Company branding on laptop](SSWLaptopBranding.jpg)  
+
+8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
+      
+Hey Ana, 
+ 
+Your new computer is ready. ⭐️  
+
+    * Machine name is COBRA
+    * Model: ThinkPad X1 Carbon Gen8
+    * Operating System: Windows 10 Enterprise installed and activated.
+
+ **Done** - I have followed an SSW Rule: [https://rules.ssw.com.au/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running) and this included: 
+
+    * Data - I have copied the data files from your old PC (MountainGoat) to your new C: drive
+    * Branding - A SSW sticker has been added
+    * Power adapter - I labeled it for easy recognition
+    * Underneath - I stuck your business card in case it gets stolen
+
+ **Done** - then I followed a SugarLearning Item: https://my.sugarlearning.com/SSW/items/8159/pc-install-and-configure-your-laptop and this included: 
+
+    * Software - Installed all your software via Chocolatey
+    * Printer - Added the main office printers
+
+ **Done** - then I followed a SysAdmin SugarLearning Item: https://my.sugarlearning.com/SSW/items/13220/snipe-it-asset-management and this included:
+
+    * Asset - Added the asset to our asset management tool, Snipe-IT: https://snipe.ssw.com.au/hardware/593
+    * Underneath - I added a QR Asset Tag (look here if you ever need to know your computer name)
+
+Now I need you to do (we can do this together if you are stuck, just give me a call 🕺) 
+
+    1. Now login and check Microsoft - Teams App, Outlook
+    2. Now login and check Google - Chrome will bring back your bookmarks
+    3. Plugin external monitors - Configure your screens
