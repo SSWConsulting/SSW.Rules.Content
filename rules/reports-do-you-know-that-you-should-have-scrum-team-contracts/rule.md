@@ -13,19 +13,14 @@ redirects: []
 
 ---
 
+Working together as a team is hard. Especially with the distractions that are around as part of daily office life. You need all three partied to a Scrum Team, the Product Owner, the Scrum Master, and the Team, to work together to achieve the Sprint Goal.
+
+<!--endintro-->
 
 
-  <p>Working together as a team is hard. Especially with the distractions that are around as part of daily office life. You need all three partied to a Scrum Team, the Product Owner, the Scrum ​Master, and the Team, to work together to achieve&#160;the Sprint Goal. 
-<br></p>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <blockquote class="ms-rteCustom-GreyBox">
-<p>&quot;Scrum defines three distinct roles that must work together as a <strong>Scrum team</strong> to produce a successful product. The <strong>Product O​wner</strong> is responsible for understanding what stakeholders require, interpreting these requirements for the team, and providing clear prioritized direction. The <strong>team</strong> is composed of those people actively engaged in building the product. The team collectively and members individually are responsible for building the product according to the priorities and requirements provided by the product owner. The team is completely responsible for deciding how to achieve its goals and how to organize its work. Finally, the <strong>Scrum Master</strong> is responsible for the health of the process, reporting the progress of the team, and removing impediments to progress.&quot;</p>
-<p class="ms-rteCustom-FigureNormal">From <a shape="rect" href="https&#58;//www.scrumalliance.org/">scrumallianc​e.org</a><br></p>
-</blockquote>
-<p>With these roles come a number of promises between the three parties, the Product Owner, the Scrum Master, and the Team. These promises should be formalized so that everyone knows where they stand.<br></p>
+> "Scrum defines three distinct roles that must work together as a  **Scrum team** to produce a successful product. The  **Product Owner** is responsible for understanding what stakeholders require, interpreting these requirements for the team, and providing clear prioritized direction. The  **team** is composed of those people actively engaged in building the product. The team collectively and members individually are responsible for building the product according to the priorities and requirements provided by the product owner. The team is completely responsible for deciding how to achieve its goals and how to organize its work. Finally, the  **Scrum Master** is responsible for the health of the process, reporting the progress of the team, and removing impediments to progress."
+> 
+> From [scrumalliance.org](https&#58;//www.scrumalliance.org/)
 
 
-
-
+With these roles come a number of promises between the three parties, the Product Owner, the Scrum Master, and the Team. These promises should be formalized so that everyone knows where they stand.
