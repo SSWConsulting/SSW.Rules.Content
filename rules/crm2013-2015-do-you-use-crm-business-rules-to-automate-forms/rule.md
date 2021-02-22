@@ -13,21 +13,39 @@ redirects: []
 
 ---
 
+Prior to CRM 2013 if a CRM user wanted to:
 
-<p class="p1">​Prior to CRM 2013 if a CRM user wanted to:<br></p><ul class="ul1"><li class="li3">Show an error message</li><li class="li3">Set a field value</li><li class="li3">Set business required</li><li class="li3">Set field visibility (show/hide fields)</li><li class="li3">Lock or unlock a field </li></ul><p class="p1">They would normally need to get a CRM developer involved to write JavaScript code to automate these actions.</p><p class="p1">Starting with CRM 2013 (and much improved in CRM 2015), users can now use Business Rules to automate these actions without getting a CRM developer involved.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="p1">​​Take the following Example:</p><dl class="image"><dt> 
-      <img src="crm-automated-forms-1.png" alt="" /> 
-   </dt><dd>Figure: ‘Customer Type Other’ should be hidden and only displayed when Other is selected</dd></dl><p class="p1">To make this work use the following Business Rules:</p><dl class="image"><dt> 
-      <img src="crm-automated-forms-2.png" alt="" /> 
-   </dt><dd>Figure: Show the ‘Customer Type Other’ field when Customer Type equals Other</dd></dl><p class="p1">The flip side of the expression also needs to be set where Customer Type doesn’t equal Other to hide the ‘Customer Type Other’ field (you could also optionally clear this field too)</p><dl class="image"><dt> 
-      <img src="crm-automated-forms-3.png" alt="" /> 
-   </dt><dd>Figure​: Hide the ‘Customer Type Other’ field when Customer Type doesn’t equal Other<br></dd></dl><p class="p1">Finally the last step is to 
-   <strong>Activate</strong> the Business Rules. To activate click the activate button on the top right of the tool bar.</p><p class="p1">Now the form will look like this:</p><dl class="image"><dt> 
-      <img src="crm-automated-forms-4.png" alt="" /> 
-   </dt><dd>Figure: Great. Now ‘Customer Type Other’ is hidden</dd></dl><dl class="image"><dt> 
-      <img src="crm-automated-forms-5.png" alt="" />​ 
-   </dt><dd>Figure: And on the other side ‘Customer Type Other’ is visible</dd></dl><p class="p1"> 
-   <strong>Note:</strong> CRM 2015 further improves on this by introducing the if… else… construct, so instead of creating two business rules (one for show and one for hide), this rule can be reduced to just one.</p>
+* Show an error message
+* Set a field value
+* Set business required
+* Set field visibility (show/hide fields)
+* Lock or unlock a field
 
 
+They would normally need to get a CRM developer involved to write JavaScript code to automate these actions.
+
+Starting with CRM 2013 (and much improved in CRM 2015), users can now use Business Rules to automate these actions without getting a CRM developer involved.
+
+<!--endintro-->
+
+Take the following Example:
+
+![Figure: ‘Customer Type Other’ should be hidden and only displayed when Other is selected](crm-automated-forms-1.png)  
+
+To make this work use the following Business Rules:
+
+![Figure: Show the ‘Customer Type Other’ field when Customer Type equals Other](crm-automated-forms-2.png)  
+
+The flip side of the expression also needs to be set where Customer Type doesn’t equal Other to hide the ‘Customer Type Other’ field (you could also optionally clear this field too)
+
+![Figure: Hide the ‘Customer Type Other’ field when Customer Type doesn’t equal Other](crm-automated-forms-3.png)  
+
+Finally the last step is to      **Activate** the Business Rules. To activate click the activate button on the top right of the tool bar.
+
+Now the form will look like this:
+
+![Figure: Great. Now ‘Customer Type Other’ is hidden](crm-automated-forms-4.png)  
+
+![Figure: And on the other side ‘Customer Type Other’ is visible](crm-automated-forms-5.png)  
+
+**Note:** CRM 2015 further improves on this by introducing the if… else… construct, so instead of creating two business rules (one for show and one for hide), this rule can be reduced to just one.
