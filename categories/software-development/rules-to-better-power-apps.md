@@ -16,6 +16,5 @@ index:
 - use-power-platform-build-tools-to-automate-your-power-apps-deployments
 
 ---
-<p>​​<br></p>
 
 
