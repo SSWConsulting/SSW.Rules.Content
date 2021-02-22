@@ -13,9 +13,6 @@ redirects: []
 
 ---
 
+Follow [Rules to Better Flights](/rules-to-better-flights).
 
-<p>​Follow <a href="/rules-to-better-flights">Rules to Better Flights</a>.​</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
