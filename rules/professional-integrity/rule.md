@@ -19,16 +19,122 @@ redirects:
 
 ---
 
-
-<p>​When most people say they'll do something, they really mean they'll <strong>try</strong> to do it, and they don't really worry too much whether they are successful or not, so long as they gave their best effort.&#160;<br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/aVgnaAOwBXk" frameborder="0"></iframe>&#160;</div><p><br></p><p>This has a hidden cost, since&#160;if you commit to someone and fail repeatedly, even though they may know you're doing your best, they will nevertheless lose trust&#160;in your integrity, and the next time you commit, they will not really&#160;believe that you will follow through.<br>​<br></p><p class="ssw15-rteElement-GreyBox">Bob joins a Teams call 10 minutes late. It goes well but he's not aware of the end time and it goes 30 mins over,&#160;which impacts 2 other people's schedules. He then agrees to send an email with the agreed action points&#160;by COB but doesn't get to it until the following day, causing people to wonder if they should be following him up.&#160;One person SMSes&#160;him about it &quot;Don't forget that email&quot;,&#160;but he&#160;doesn't reply to it&#160;for over 2 hours, leaving the other person hanging.<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example - none of these things are that big a deal, but they add up to no one wanting to work with Bob<br></dd><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-GreyBox">Jim has reminders set up on his calendar to make sure he makes it on time to his Teams call. With 10 minutes left in the call, he checks if people have a hard stop afterward, and when he finds out 2 people do, he makes sure the remaining discussions that require those 2 people are prioritized so they can leave. He then agrees to send an email with the agreed action points by COB, but knows he hasn't got time to do it immediately, so sets himself a quick reminder on his phone to do it in 1 hour.&#160;<br></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good Example - Jim has great professional integrity.&#160;<br></dd>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">​How to have (and keep) professional integrity<br></h3><p class="ssw15-rteElement-P">​​​​​​​​The word “integrity” can be loaded with ethical connotations, but in this context, professional&#160;integrity means&#58;</p>
-<ol><li> 
-      <strong>Be true to your word</strong>
-      <ol><li>This means doing what you say you’ll do, by the time you say you’ll do it</li></ol><p class="ssw15-rteElement-GreyBox">&quot;I'll send that email&#160;to you by 5pm​​​&quot;<br></p></li><li>​ 
-      <strong>If you can’t deliver on your promise, communicate a plan for a path forward</strong> 
-      <ol><li>If it looks like you won't be able to&#160;get the agreed task done by the deadline, tell the person why and set a new deadline, or agree on a different deliverable.&#160;<br></li><li>Never leave them guessing<br></li></ol><p class="ssw15-rteElement-GreyBox">(at 5&#58;30pm) &quot;Here's the email, sorry it's late&quot;<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad Example​​ - Although it's only a little late, you still haven't delivered on what you promised<br></dd><p class="ssw15-rteElement-GreyBox">(at 4&#58;30pm) &quot;​I'm not going to be able to get that done by 5pm. Is it ok if I get it to you by midday&#160;tomorrow?&quot;<br></p><dd class="ssw15-rteElement-FigureGood">​Figure&#58;&#160;Good Example - Getting ahead of the deadline and making a new commitment<br></dd>​​ </li><li> 
-      <strong>If you break your word, acknowledge it, and work out a way to repair your integrity</strong>
-      <ol><li>I​f the deadline passes and you didn't do the above,&#160;recognize the fault and propose a plan for how to do better next time&#160; </li></ol><p class="ssw15-rteElement-GreyBox">​​&quot;I'm sorry I didn't get that sent over yesterday. A client had an emergency and I had to jump on it. Next time I'll let you know if something like that happens. I'm confident I can get it done by 5pm today.<br></p><dd class="ssw15-rteElement-FigureGood">​​Figure&#58; Good example -&#160;Acknowledging an improvement for next time<br></dd><h3 class="ssw15-rteElement-H3">Examples of good Professional&#160;Integrity​​​​<br></h3><ul><li>Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue<br>​ - A good measure of your Professional Integrity is how well your day resembles your calendar</li><li>Inform people of any potential delays<br></li><li>Deliver&#160;all of what was asked, not just a subset<br></li><li>TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome<br></li><li>When they make a mistake, they proactively address it, and don't wait to be called out​<br></li></ul><h3 class="ssw15-rteElement-H3">People who​​​ have Professional Integrity​&#58;<br></h3><ul><li class="li2">Always take full ownership of any task given to them<br></li><li class="li2">Inspire trust in co-workers and managers<br></li><li class="li2">Hold themselves to a high professional standard<br></li></ul><h3 class="ssw15-rteElement-H3">Managers with employees who&#160;have Professional&#160;Integrity&#58;</h3><ul><li class="li2">​Trust their employees<br></li><li class="li2">Are comfortable delegating more important work​<br></li></ul></li></ol>
+When most people say they'll do something, they really mean they'll  **try** to do it, and they don't really worry too much whether they are successful or not, so long as they gave their best effort.
 
 
+`youtube: https://www.youtube.com/embed/aVgnaAOwBXk`
+ 
+
+
+
+This has a hidden cost, since if you commit to someone and fail repeatedly, even though they may know you're doing your best, they will nevertheless lose trust in your integrity, and the next time you commit, they will not really believe that you will follow through.
+
+
+::: greybox
+Bob joins a Teams call 10 minutes late. It goes well but he's not aware of the end time and it goes 30 mins over, which impacts 2 other people's schedules. He then agrees to send an email with the agreed action points by COB but doesn't get to it until the following day, causing people to wonder if they should be following him up. One person SMSes him about it "Don't forget that email", but he doesn't reply to it for over 2 hours, leaving the other person hanging.
+
+:::
+
+
+::: bad
+Figure: Bad Example - none of these things are that big a deal, but they add up to no one wanting to work with Bob
+
+:::
+
+
+
+
+::: greybox
+Jim has reminders set up on his calendar to make sure he makes it on time to his Teams call. With 10 minutes left in the call, he checks if people have a hard stop afterward, and when he finds out 2 people do, he makes sure the remaining discussions that require those 2 people are prioritized so they can leave. He then agrees to send an email with the agreed action points by COB, but knows he hasn't got time to do it immediately, so sets himself a quick reminder on his phone to do it in 1 hour. 
+
+:::
+
+
+::: good
+Figure: Good Example - Jim has great professional integrity. 
+
+:::
+
+<!--endintro-->
+
+### How to have (and keep) professional integrity
+
+
+The word “integrity” can be loaded with ethical connotations, but in this context, professional integrity means:
+
+1. **Be true to your word**
+    1. This means doing what you say you’ll do, by the time you say you’ll do it
+
+
+
+::: greybox
+"I'll send that email to you by 5pm"
+
+:::
+2. **If you can’t deliver on your promise, communicate a plan for a path forward**
+    1. If it looks like you won't be able to get the agreed task done by the deadline, tell the person why and set a new deadline, or agree on a different deliverable.
+    2. Never leave them guessing
+
+
+
+::: greybox
+(at 5:30pm) "Here's the email, sorry it's late"
+
+:::
+
+
+::: bad
+Figure: Bad Example - Although it's only a little late, you still haven't delivered on what you promised
+
+:::
+
+
+::: greybox
+(at 4:30pm) "I'm not going to be able to get that done by 5pm. Is it ok if I get it to you by midday tomorrow?"
+
+:::
+
+
+::: good
+Figure: Good Example - Getting ahead of the deadline and making a new commitment
+
+:::
+3. **If you break your word, acknowledge it, and work out a way to repair your integrity**
+    1. If the deadline passes and you didn't do the above, recognize the fault and propose a plan for how to do better next time
+
+
+
+::: greybox
+"I'm sorry I didn't get that sent over yesterday. A client had an emergency and I had to jump on it. Next time I'll let you know if something like that happens. I'm confident I can get it done by 5pm today.
+
+:::
+
+
+::: good
+Figure: Good example - Acknowledging an improvement for next time
+
+:::
+
+### Examples of good Professional Integrity
+
+
+    * Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
+ - A good measure of your Professional Integrity is how well your day resembles your calendar
+    * Inform people of any potential delays
+    * Deliver all of what was asked, not just a subset
+    * TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome
+    * When they make a mistake, they proactively address it, and don't wait to be called out
+
+
+### People who have Professional Integrity:
+
+
+    * Always take full ownership of any task given to them
+    * Inspire trust in co-workers and managers
+    * Hold themselves to a high professional standard
+
+
+### Managers with employees who have Professional Integrity:
+
+    * Trust their employees
+    * Are comfortable delegating more important work
