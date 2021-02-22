@@ -20,51 +20,51 @@ We need to make sure that all HTML/XML tags which open once, must be closed prop
 <br><excerpt class='endintro'></excerpt><br>
   <br>
 <font class="ms-rteCustom-GreyBox">
-{ltHTMLChar}div{gtHTMLChar}   <br>
-{ltHTMLChar}p{gtHTMLChar}Hello HTML{ltHTMLChar}/p{gtHTMLChar}   <br>
-{ltHTMLChar}/div{gtHTMLChar}
+&lt;div&gt;   <br>
+&lt;p&gt;Hello HTML&lt;/p&gt;   <br>
+&lt;/div&gt;
 <br>
 </font><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example</span>
 <div><br>
 <font class="ms-rteCustom-GreyBox">
-{ltHTMLChar}breakfast_menu{gtHTMLChar}
+&lt;breakfast_menu&gt;
 <br>
-{ltHTMLChar}food{gtHTMLChar}
+&lt;food&gt;
 <br>
-{ltHTMLChar}name{gtHTMLChar}Homestyle Breakfast{ltHTMLChar}/name{gtHTMLChar}
+&lt;name&gt;Homestyle Breakfast&lt;/name&gt;
 <br>
-{ltHTMLChar}price{gtHTMLChar}$6.95{ltHTMLChar}/price{gtHTMLChar}
+&lt;price&gt;$6.95&lt;/price&gt;
 <br>
-{ltHTMLChar}description{gtHTMLChar}two eggs{ltHTMLChar}/description{gtHTMLChar}
+&lt;description&gt;two eggs&lt;/description&gt;
 <br>
-{ltHTMLChar}calories{gtHTMLChar}950{ltHTMLChar}/calories{gtHTMLChar}
+&lt;calories&gt;950&lt;/calories&gt;
 <br>
-{ltHTMLChar}/food{gtHTMLChar}<br>
-{ltHTMLChar}/breakfast_menu{gtHTMLChar}
+&lt;/food&gt;<br>
+&lt;/breakfast_menu&gt;
 </font><span class="ms-rteCustom-FigureGood">Figure&#58; Good Example</span>
 <br>
 <font class="ms-rteCustom-GreyBox">
-{ltHTMLChar}div{gtHTMLChar}   <br>
-{ltHTMLChar}p{gtHTMLChar}Hello&#160;HTML&#160;&#160;<br>
-{ltHTMLChar}/div{gtHTMLChar}
+&lt;div&gt;   <br>
+&lt;p&gt;Hello&#160;HTML&#160;&#160;<br>
+&lt;/div&gt;
 <br>
 </font>
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span><br>
 <font class="ms-rteCustom-GreyBox">
-{ltHTMLChar}breakfast_menu{gtHTMLChar}
+&lt;breakfast_menu&gt;
 <br>
-{ltHTMLChar}food{gtHTMLChar}
+&lt;food&gt;
 <br>
-{ltHTMLChar}name{gtHTMLChar}Homestyle Breakfast
+&lt;name&gt;Homestyle Breakfast
 <br>
-{ltHTMLChar}price{gtHTMLChar}$6.95
+&lt;price&gt;$6.95
 <br>
-{ltHTMLChar}description{gtHTMLChar}two eggs
+&lt;description&gt;two eggs
 <br>
-{ltHTMLChar}calories{gtHTMLChar}950
+&lt;calories&gt;950
 <br>
-{ltHTMLChar}/food{gtHTMLChar}<br>
-{ltHTMLChar}/breakfast_menu{gtHTMLChar}
+&lt;/food&gt;<br>
+&lt;/breakfast_menu&gt;
 </font><span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example</span>
 <br>
 </div>
