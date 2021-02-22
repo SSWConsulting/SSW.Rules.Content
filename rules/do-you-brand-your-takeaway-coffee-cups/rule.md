@@ -11,9 +11,8 @@ redirects: []
 
 ---
 
-
-<p>Using branded stickers on coffee cups  is a great way to promote your brand at events, conferences, training seminars and other functions. It is a cost-effective way to make a lasting impression about your brand. </p><dl class="ssw15-rteElement-ImageArea">​​​​​​<img alt="ssw-coffee-cup.png" src="ssw-coffee-cup.png" style="margin:5px;width:205px;" /><br></dl><dd class="ssw15-rteElement-FigureNormal">​​​Figure: SSW Take Away Coffee Cup<br></dd>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+Using branded stickers on coffee cups  is a great way to promote your brand at events, conferences, training seminars and other functions. It is a cost-effective way to make a lasting impression about your brand.
+![](ssw-coffee-cup.png)
+ **Figure: SSW Take Away Coffee Cup
+** 
+<!--endintro-->
