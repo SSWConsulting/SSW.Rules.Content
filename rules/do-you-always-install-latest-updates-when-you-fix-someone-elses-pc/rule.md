@@ -15,17 +15,15 @@ redirects: []
 
 ---
 
+When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates.  
 
-​When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates. 
-<br>
-<br><excerpt class='endintro'></excerpt><br>
+<!--endintro-->
 
-  <p>To achieve this, we run <a shape="rect" href="http://www.ssw.com.au/ssw/Redirect/MicrosoftUpdate.htm">Microsoft Updates</a> (<strong>not</strong> to confuse with Windows Updates) and install all latest updates for all the known Microsoft products.</p>
-<p>Note: "Windows Update" only updates the operating system, where "Microsoft Update" updates other products as well, such as Microsoft Office, SQL Server, etc.</p>
-<img class="ms-rteCustom-ImageArea" border="0" alt="Microsoft Update" src="MicrosoftUpdateGood.gif" style="border-width:0px;border-style:solid;border-color:initial;" /> <span class="ms-rteCustom-FigureGood">Figure: Microsoft Update (Good - all updates are installed)</span>
-<p>And then we run <a shape="rect" href="http://www.ssw.com.au/ssw/Diagnostics">SSW Diagnostics</a> to check the latest version of other applications (mostly non-Microsoft) are installed.</p>
-<p>Warning: Of course if you are fixing a bug on someone’s PC, you should only update one piece of software at a time, so you know if an update fixes the problem. After that (if the company allows it), update all software to the latest version. If they get a new problem, then rollback.</p>
- <img class="ms-rteCustom-ImageArea" border="0" alt="SSW Diagnostics" src="DiagnosticsGood_small.jpg" style="border-width:0px;border-style:solid;border-color:initial;" /> <span class="ms-rteCustom-FigureGood">Figure: SSW Diagnostics (Good - all updates are installed)</span> 
+To achieve this, we run [Microsoft Updates](http://www.ssw.com.au/ssw/Redirect/MicrosoftUpdate.htm) ( **not** to confuse with Windows Updates) and install all latest updates for all the known Microsoft products.
 
+Note: "Windows Update" only updates the operating system, where "Microsoft Update" updates other products as well, such as Microsoft Office, SQL Server, etc.
+![Microsoft Update](MicrosoftUpdateGood.gif) Figure: Microsoft Update (Good - all updates are installed)
+And then we run [SSW Diagnostics](http://www.ssw.com.au/ssw/Diagnostics) to check the latest version of other applications (mostly non-Microsoft) are installed.
 
-
+Warning: Of course if you are fixing a bug on someone’s PC, you should only update one piece of software at a time, so you know if an update fixes the problem. After that (if the company allows it), update all software to the latest version. If they get a new problem, then rollback.
+![SSW Diagnostics](DiagnosticsGood_small.jpg) Figure: SSW Diagnostics (Good - all updates are installed)
