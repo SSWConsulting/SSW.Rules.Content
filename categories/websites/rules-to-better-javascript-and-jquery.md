@@ -31,6 +31,5 @@ index:
 - the-best-tool-to-debug-javascript
 
 ---
-<p>​​</p>
 
 
