@@ -14,21 +14,18 @@ redirects:
 
 ---
 
+A few years ago, it was common to have the "language" attribute within the script tags. This attribute was used to specify the scripting language of the contents of this element.
 
-<p>A few years ago, it was common to have the &quot;language&quot; attribute within the script tags. This attribute was used to specify the scripting language of the contents of this element.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Since these identifiers are not standard, this attribute has been deprecated in favor of &quot;type&quot;.</p>
+<!--endintro-->
 
-<div class="ms-rteCustom-CodeArea">
-<p>&lt;script href=&quot;script.js&quot; language=&quot;javascript&quot;&gt;&lt;/script&gt;</p>
-</div>
-<span class="ms-rteCustom-FigureBad">Figure&#58; Language attribute has been deprecated</span>
-
-<div class="ms-rteCustom-CodeArea">
-<p>&lt;script href=&quot;script.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</p>
-</div>
-<span class="ms-rteCustom-FigureGood">Figure&#58; The scripting language is specified as a content type</span>
-
-<p>Read more on <a href="http&#58;//www.w3.org/TR/html4/interact/scripts.html#h-18.2.2" target="_blank">W3C website</a>.</p>
+Since these identifiers are not standard, this attribute has been deprecated in favor of "type".
 
 
+&lt;script href="script.js" language="javascript"&gt;&lt;/script&gt;
+
+Figure: Language attribute has been deprecated
+
+&lt;script href="script.js" type="text/javascript"&gt;&lt;/script&gt;
+
+Figure: The scripting language is specified as a content type
+Read more on [W3C website](http&#58;//www.w3.org/TR/html4/interact/scripts.html#h-18.2.2).
