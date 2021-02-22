@@ -21,18 +21,18 @@ Instead of images sitting all around the solution, we put all the images in the 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl class="badImage">
-    <dt><img width="427" height="126" border="0" alt="Image bad link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkBad.gif" /> </dt>
+    <dt><img width="427" height="126" border="0" alt="Image bad link" src="../../assets/ImageLinkBad.gif" /> </dt>
     <dd>Bad example - Images under Product root folder. </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img width="427" height="126" border="0" alt="Image good link" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/ImageLinkGood.gif" /> </dt>
+    <dt><img width="427" height="126" border="0" alt="Image good link" src="../../assets/ImageLinkGood.gif" /> </dt>
     <dd>Good example - Images under \Images folder. </dd>
 </dl>
-<p>&#160;</p>
+<p> </p>
 <table id="table30" class="clsSSWProductTable" cellspacing="2" summary="Code Auditor" cellpadding="2">
     <tbody>
         <tr>
-            <td>We have a program called <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule.</td>
+            <td>We have a program called <a href="http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> to check for this rule.</td>
         </tr>
     </tbody>
 </table>
