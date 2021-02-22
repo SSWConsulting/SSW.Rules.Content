@@ -22,10 +22,10 @@ That's annoying, not really efficient and often the cause of problems.
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>In the following extract of a sample Web.config file you can see the problem. The local machine &quot;HIPPO&quot; has, of course, another WebServiceURL than the Webserver &quot;SEAL&quot;. So you have to keep two versions of the Web.config file, one when working on &quot;HIPPO&quot; and one when working on &quot;SEAL&quot;. </p>
-<pre class="brush&#58;c-sharp">{ltHTMLChar}add key=&quot;SEAL_WebServiceURL&quot;
-    value=&quot;http&#58;//host.something.com&#58;80/SomeDirectory/Filename.asmx&quot;/{gtHTMLChar} 
-    {ltHTMLChar}add key=&quot;HIPPO_WebServiceURL&quot;
-    value=&quot;http&#58;//name&#58;80/SomeDirectory/Filename.asmx&quot;/{gtHTMLChar}</pre>
+<pre class="brush&#58;c-sharp">&lt;add key=&quot;SEAL_WebServiceURL&quot;
+    value=&quot;http&#58;//host.something.com&#58;80/SomeDirectory/Filename.asmx&quot;/&gt; 
+    &lt;add key=&quot;HIPPO_WebServiceURL&quot;
+    value=&quot;http&#58;//name&#58;80/SomeDirectory/Filename.asmx&quot;/&gt;</pre>
 <span class="ms-rteCustom-FigureGood">Figure&#58; Sample Web.config file</span>
 <p>There is a better solution&#58; </p>
 <pre class="brush&#58;c-sharp">Public Shared Function GetWebConfigString(ByVal StringName As String) As String
