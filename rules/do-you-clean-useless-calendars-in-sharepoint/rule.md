@@ -15,9 +15,35 @@ redirects: []
 
 ---
 
-
-Most SharePoint site templates contain a calendar list, this will bring lots of useless calendars.<p></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​Use the below PowerShell script to clean them:<span style="line-height:1.6;">​​</span></p><p class="ssw15-rteElement-CodeArea">$site = Get-SPSite("http://&lt;site collection URL&gt;/"); # Specify url here​<br>​foreach ($web in $site.AllWebs) {    ​<br>    $lists = $web.Lists<br>    for ($i=($lists.Count-1);$i -gt 0; $i--) {  <br>        $list = $lists[$i]<br>        #Write-host $i  $list.Title $list.BaseTemplate.ToString()<br>        if ($list.BaseTemplate.ToString().ToLower().contains('events')) {      <br>            if ($list.Items.Count -eq 0)<br>            {​<br>                Write-Host $list.Items.Count "items in the list" $list.Title '('$list.BaseTemplate') at '$web.Url "- cleaning it!"<br>                $list.Recycle()<br>                #$list.Delete()<br>            }<br>        }<br>    }<br>}  ​<br></p><p>This script will put the calendars which do not have any events into <strong>Site Settings</strong> | <strong>Recycle Bin</strong>:<br></p><dl class="ssw15-rteElement-ImageArea">​<img src="EmptyCalendarsInRecyckeBin.png" alt="EmptyCalendarsInRecyckeBin.png" style="margin:5px;width:650px;height:236px;" /></dl><dd class="ssw15-rteElement-FigureNormal">​Figure: Empty Calendars in Recycle Bin folder</dd><p class="ssw15-rteElement-P">​<br></p>
+Most SharePoint site templates contain a calendar list, this will bring lots of useless calendars.
 
 
+<!--endintro-->
+
+Use the below PowerShell script to clean them:
+
+
+
+```
+$site = Get-SPSite("http://<site collection URL>/"); # Specify url here
+foreach ($web in $site.AllWebs) {    
+    $lists = $web.Lists
+    for ($i=($lists.Count-1);$i -gt 0; $i--) {  
+        $list = $lists[$i]
+        #Write-host $i  $list.Title $list.BaseTemplate.ToString()
+        if ($list.BaseTemplate.ToString().ToLower().contains('events')) {      
+            if ($list.Items.Count -eq 0)
+            {
+                Write-Host $list.Items.Count "items in the list" $list.Title '('$list.BaseTemplate') at '$web.Url "- cleaning it!"
+                $list.Recycle()
+                #$list.Delete()
+            }
+        }
+    }
+}
+```
+
+
+
+This script will put the calendars which do not have any events into  **Site Settings** |  **Recycle Bin** :
+![](EmptyCalendarsInRecyckeBin.png) **Figure: Empty Calendars in Recycle Bin folder**
