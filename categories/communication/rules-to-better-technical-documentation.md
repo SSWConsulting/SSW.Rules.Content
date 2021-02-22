@@ -42,6 +42,5 @@ index:
 - scrum-should-be-capitalized
 
 ---
-<p>​​</p>
 
 
