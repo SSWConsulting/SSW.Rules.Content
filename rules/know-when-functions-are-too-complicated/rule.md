@@ -14,9 +14,17 @@ redirects:
 
 ---
 
+In general you should always be looking to simplify your code (e.g. heavily nested case statements). As a minimum look for the most complicated method you have and check that it needs simplifying.
 
-<p class="ssw15-rteElement-P">​In general you should always be looking to simplify your code (e.g. heavily nested case statements). As a minimum look for the most complicated method you have and check that it needs simplifying.​​<br></p><p class="ssw15-rteElement-P">In Visual Studio, there is inbuilt support for Cyclomatic Complexity analysis.​​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​1. Go to Developer &gt; Code Metrics &gt; Generate for Solution</p><dl class="image"><dt><img src="CodeMetrics.gif" alt="CodeMetrics.gif" /></dt><dd>Figure: Cyclomatic Complexity analysis tool</dd></dl><p>2. Look at the largest Cyclomatic Complexity number and refactor.</p><dl class="image"><dt><img src="CyclomaticAnalysis.gif" alt="CyclomaticAnalysis.gif" /></dt><dd>Figure: Results from Cyclomatic analysis these metrics give an indication on how complicated functions are</dd></dl>​Tip: Maintainability index &gt; 85 is good and &lt; 65 is hard to maintain<br>
+In Visual Studio, there is inbuilt support for Cyclomatic Complexity analysis.
 
+<!--endintro-->
 
+1. Go to Developer &gt; Code Metrics &gt; Generate for Solution
+
+![Figure: Cyclomatic Complexity analysis tool](CodeMetrics.gif)  
+
+2. Look at the largest Cyclomatic Complexity number and refactor.
+
+![Figure: Results from Cyclomatic analysis these metrics give an indication on how complicated functions are](CyclomaticAnalysis.gif)  
+Tip: Maintainability index &gt; 85 is good and &lt; 65 is hard to maintain
