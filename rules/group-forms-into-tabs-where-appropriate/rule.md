@@ -14,9 +14,8 @@ redirects:
 
 ---
 
+Having a separate form for every block of data that needs to be entered can become a confusing and tedious process. A common example is having one form to add/edit Contact details, another to add/edit that Contact's Address details, and a third to add/edit that contact's Qualifications. This is not user-friendly...
 
-<p>Having a separate form for every block of data that needs to be entered&#160;can become a confusing and tedious process. A common example is having&#160;one form to add/edit Contact details, another to add/edit that Contact's&#160;Address details, and a third to add/edit that contact's Qualifications. This is not user-friendly...​​</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​<span style="line-height&#58;20.8px;">The best and&#160;most organized way to do this is by using tabs - see the&#160;</span><a href=/use-clean-designs-when-creating-forms style="line-height&#58;20.8px;">examples&#160;</a>.</p>
+<!--endintro-->
 
-
+The best and most organized way to do this is by using tabs - see the [examples](/use-clean-designs-when-creating-forms).
