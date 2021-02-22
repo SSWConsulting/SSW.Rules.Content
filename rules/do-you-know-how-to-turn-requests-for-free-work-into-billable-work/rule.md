@@ -22,8 +22,8 @@ Often clients will call up asking for a short task to be performed. You need to 
     <dd>Good example </dd>
 </dl>
 <dl class="image">
-    <dt><img alt="" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/DealingwithClients-Floodgates.jpg" /> </dt>
-    <dd>Figure&#58; Careful! One small free task can turn into a dam-breaking torrent of free work. </dd>
+    <dt><img alt="" src="../../assets/DealingwithClients-Floodgates.jpg" /> </dt>
+    <dd>Figure: Careful! One small free task can turn into a dam-breaking torrent of free work. </dd>
 </dl>
 
 
