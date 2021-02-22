@@ -17,12 +17,28 @@ redirects:
 
 ---
 
+You should create an #in-and-out channel on Slack and use the employees' MAC Addresses to identify who entered and left the office.
 
-You should create an #in-and-out channel on Slack and use the employees' MAC Addresses to identify who entered and left the office.​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img src="shout.jpg" alt="shout" /></dt><dd>​​Figure: Bad Example – Scream out “Where is Marlon?”<br></dd></dl><dl class="goodImage"><dt><img src="Slack-in-out.jpg" unselectable="on" alt="" style="width:750px;height:639px;" /></dt><dd>​Figure: Good Example – Using in/out functionality with Slack and Ubiquity Access Point<br></dd></dl><p class="ssw15-rteElement-P">Although there is one bug with the solution:<br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify">
-   <iframe width="750" height="422" src="https://www.youtube.com/embed/F5CPH03WPMU" frameborder="0"></iframe> </div><p class="ssw15-rteElement-P">
-   <strong>​​Figure: Ubiquity Access Point Bug</strong><br></p><h3 class="ssw15-rteElement-H3">Related Rule</h3><p class="ssw15-rteElement-P">
-   <a href=/how-to-find-your-mac-address>Do you know how to find your mac address?​</a><b></b><br><b>​</b><br></p>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example – Scream out “Where is Marlon?”](shout.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example – Using in/out functionality with Slack and Ubiquity Access Point](Slack-in-out.jpg)  
+:::
+
+Although there is one bug with the solution:
+
+
+`youtube: https://www.youtube.com/embed/F5CPH03WPMU`
+ 
+
+**Figure: Ubiquity Access Point Bug**
+
+### Related Rule
+
+[Do you know how to find your mac address?](/how-to-find-your-mac-address)
