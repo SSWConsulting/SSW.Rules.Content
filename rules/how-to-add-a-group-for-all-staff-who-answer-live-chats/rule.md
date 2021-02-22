@@ -15,12 +15,24 @@ redirects:
 
 ---
 
+Specify how incoming chat requests are sent to agents with Chat Routing settings. There are two options for how incoming chats are sent to your agents:
 
-<p>Specify how incoming chat requests are sent to agents with Chat Routing settings. There are two options for how incoming chats are sent to your agents:</p><ul><li><strong>Broadcast</strong>: All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.</li><li><strong>Assigned</strong>: Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.​​<br></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​Incoming chats are assigned to the agent currently serving the lowest number of chats. If multiple agents are tied for the lowest number, the chat is randomly assigned to any one of those agents.<br></p><p>Assigned chats appear in animated tabs at the bottom of the dashboard. <br></p><dl class="image"><dt><img src="zendesk-departments-1.png" alt="zendesk-departments-1.png" data-pin-nopin="true" /><br></dt></dl><p>
-   <strong>To change the chat routing method for your account</strong></p><ol><li>From the dashboard, select <strong>Settings</strong> &gt; <strong>Account</strong> &gt; <strong>Chat Routing</strong> tab.</li><li>Select a routing method.<dl class="image"><dt><img src="zendesk-departments-2.png" alt="zendesk-departments-2.png" /></dt></dl></li><li>Click <strong>Save Changes</strong>.</li></ol><p>
-   <br>
-</p>
+* **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
+* **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
 
 
+<!--endintro-->
+
+Incoming chats are assigned to the agent currently serving the lowest number of chats. If multiple agents are tied for the lowest number, the chat is randomly assigned to any one of those agents.
+
+Assigned chats appear in animated tabs at the bottom of the dashboard.
+
+![](zendesk-departments-1.png)  
+
+**To change the chat routing method for your account**
+
+1. From the dashboard, select  **Settings** &gt;  **Account** &gt;  **Chat Routing** tab.
+2. Select a routing method.
+![](zendesk-departments-2.png)  
+
+3. Click  **Save Changes** .
