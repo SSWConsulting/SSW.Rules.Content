@@ -15,14 +15,9 @@ redirects: []
 
 ---
 
+A client will always prefer to be told ahead of time if a piece of functionality is going to take longer than anticipated. It gives them more control of what is going on. The other opinion is landing them with an oversized invoice with no warning.
 
-<p>A client will always prefer to be told ahead of time if a piece of functionality&#160;is going to take longer than anticipated. It gives them more control of what is going on. The other opinion is landing them with an oversized invoice with no warning. </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt><span style="line-height&#58;1.6;">For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surpirse in the Sprint Review.&#160;</span></dt><dt><span style="line-height&#58;1.6;"><br></span></dt><dt><span style="line-height&#58;1.6;">For big delays,&#160;it's best to tell&#160;the client as soon as the risk is identified to inform them of what's going on and ask &quot;Do you want us to continue?&quot;.</span><br></dt></dl>
-<dl class="bad"><dt>$100k estimate. Calling the client when you reach $110k to say you have $20k to go.​ </dt>
-<dd>Bad Example&#58; Not giving the client enough warning. </dd></dl>
-<dl class="good"><dt>$100k estimate. Calling the client when you reach $80k to say you have $40k to go, and does he want to continue? </dt>
-<dd>Good Example&#58; Giving the client a warning ahead of time and asking for permission to continue. </dd></dl>
-
-
-
+<!--endintro-->
+For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surpirse in the Sprint Review. 
+For big delays, it's best to tell the client as soon as the risk is identified to inform them of what's going on and ask "Do you want us to continue?".
+ $100k estimate. Calling the client when you reach $110k to say you have $20k to go.  Bad Example: Not giving the client enough warning.  $100k estimate. Calling the client when you reach $80k to say you have $40k to go, and does he want to continue?  Good Example: Giving the client a warning ahead of time and asking for permission to continue.
