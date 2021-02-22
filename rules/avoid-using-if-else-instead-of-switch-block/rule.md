@@ -14,9 +14,87 @@ redirects:
 
 ---
 
+The .NET framework and the C# language provide two methods for conditional handling where multiple distinct values can be selected from. The switch statement is less flexible than the if-else-if tree but is generally considered to be more efficient.
 
-<p>The .NET framework and the C# language provide two methods for conditional handling where multiple distinct values can be selected from. The switch statement is less flexible than the if-else-if tree but is generally considered to be more efficient.&#160;<br></p><p>The .NET compiler generates a jump list for switch blocks, resulting in far better performance than if/else for evaluating conditions. The performance gains are negligible when the number of conditions is trivial (i.e. fewer than 5), so if the code is clearer and more maintainable using if/else blocks, then you can use your discretion. But be prepared to refactor to a switch block if the number of conditions exceeds 5.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">int DepartmentId = GetDepartmentId()<br>if(DepartmentId == 1)<br>&#123;<br>// do something<br>&#125;<br>else if(DepartmentId == 2)<br>&#123;<br>// do something #2<br>&#125;<br>else if(DepartmentId == 3)<br>&#123;<br>// do something #3<br>&#125;<br>else if(DepartmentId == 4)<br>&#123;<br>// do something #4<br>&#125;<br>else if(DepartmentId == 5)<br>&#123;<br>// do something #5<br>&#125;<br>else <br>&#123;<br>// do something #6<br>&#125; <br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example of coding practice</dd><p>​<br></p><p class="ssw15-rteElement-CodeArea">int DepartmentId = GetDepartmentId()<br>switch(DepartmentId)<br>&#123;<br>case 1&#58;<br>// do something<br>break;<br>case 2&#58;<br>// do something # 2<br>break;<br>case 3&#58;<br>// do something # 3<br>break;<br>case 4&#58;<br>// do something # 4<br>break;<br>case 1&#58;<br>// do something # 5<br>break;<br>case 1&#58;<br>// do something # 6<br>break;<br>default&#58;<br>//Do something here<br>break;<br>&#125;</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example of coding practice which will result better performance <br></dd><p class="ssw15-rteElement-P">Further Reading&#58;&#160;<a href="http&#58;//www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx">Speed Test&#58; Switch vs If-Else-If</a>​<br><br><br></p>
+The .NET compiler generates a jump list for switch blocks, resulting in far better performance than if/else for evaluating conditions. The performance gains are negligible when the number of conditions is trivial (i.e. fewer than 5), so if the code is clearer and more maintainable using if/else blocks, then you can use your discretion. But be prepared to refactor to a switch block if the number of conditions exceeds 5.
+
+<!--endintro-->
 
 
+
+```
+int DepartmentId = GetDepartmentId()
+if(DepartmentId == 1)
+{
+// do something
+}
+else if(DepartmentId == 2)
+{
+// do something #2
+}
+else if(DepartmentId == 3)
+{
+// do something #3
+}
+else if(DepartmentId == 4)
+{
+// do something #4
+}
+else if(DepartmentId == 5)
+{
+// do something #5
+}
+else 
+{
+// do something #6
+}
+```
+
+
+
+
+::: bad
+Figure: Bad example of coding practice  
+:::
+
+
+
+
+
+```
+int DepartmentId = GetDepartmentId()
+switch(DepartmentId)
+{
+case 1:
+// do something
+break;
+case 2:
+// do something # 2
+break;
+case 3:
+// do something # 3
+break;
+case 4:
+// do something # 4
+break;
+case 1:
+// do something # 5
+break;
+case 1:
+// do something # 6
+break;
+default:
+//Do something here
+break;
+}
+```
+
+
+
+
+::: good
+Figure: Good example of coding practice which will result better performance 
+
+:::
+
+Further Reading: [Speed Test: Switch vs If-Else-If](http&#58;//www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)
