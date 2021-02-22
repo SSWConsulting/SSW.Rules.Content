@@ -11,7 +11,8 @@ authors:
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
 - title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-šmon
+  url: https://ssw.com.au/people/daniel-smon
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 related: []
 redirects:
 - calendar-do-you-know-how-to-share-your-availability-via-email

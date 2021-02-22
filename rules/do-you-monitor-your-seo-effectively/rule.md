@@ -7,7 +7,8 @@ uri: do-you-monitor-your-seo-effectively
 created: 2020-11-09T23:03:56.0000000Z
 authors:
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker-roberto
+  url: https://ssw.com.au/people/jerwin-parker
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related: []

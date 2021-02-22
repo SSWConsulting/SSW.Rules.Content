@@ -11,7 +11,8 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker-roberto
+  url: https://ssw.com.au/people/jerwin-parker
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:
 - do-you-bid-on-your-own-brand-keyword

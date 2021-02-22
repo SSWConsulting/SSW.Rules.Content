@@ -13,7 +13,8 @@ authors:
 - title: Greg Harris
   url: https://ssw.com.au/people/greg-harris
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker-roberto
+  url: https://ssw.com.au/people/jerwin-parker
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:
 - do-you-know-how-to-create-a-negative-keyword-list

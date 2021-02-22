@@ -9,7 +9,8 @@ authors:
 - title: Camilla Rosa Silva
   url: https://ssw.com.au/people/camilla-rosa-silva
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker-roberto
+  url: https://ssw.com.au/people/jerwin-parker
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
 - do-you-know-how-to-test-which-pain-points-are-relevant-to-your-prospect
 - do-you-know-how-to-use-a-perfect-prospects-pain-points-in-your-online-marketing

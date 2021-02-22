@@ -7,7 +7,8 @@ uri: do-you-know-how-to-record-the-screen-on-a-mac
 created: 2014-12-08T12:03:19.0000000Z
 authors:
 - title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-šmon
+  url: https://ssw.com.au/people/daniel-smon
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []

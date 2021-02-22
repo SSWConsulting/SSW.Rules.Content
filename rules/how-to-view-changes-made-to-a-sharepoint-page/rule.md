@@ -7,7 +7,8 @@ uri: how-to-view-changes-made-to-a-sharepoint-page
 created: 2013-10-15T04:25:42.0000000Z
 authors:
 - title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-šmon
+  url: https://ssw.com.au/people/daniel-smon
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
