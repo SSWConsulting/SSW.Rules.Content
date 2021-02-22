@@ -13,15 +13,24 @@ redirects: []
 
 ---
 
+A mnemonic for a button is the letter which has an underscore, and the user can press the button using Alt-&lt;char&gt;.
 
-<p>A mnemonic for a button is the letter which has an underscore, and the user can press the button using Alt-&lt;char&gt;.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​
-<dl class="badImage"><dt>
-      <img alt="Browse Button" src="../../assets/BadMem.gif" />
-   </dt><dd>Figure: Bad Example - All buttons without Mnemonic</dd></dl><dl class="goodImage"><dt>
-      <img alt="Browse Button" src="../../assets/GoodMem.gif" />
-   </dt><dd>Figure: Good Example - All buttons with Mnemonic - user can easily choose which button they want without a click</dd></dl><div>In Windows Applications, it is quite easy to assign a mnemonic to a button with the "&" character.</div><div>So for the case above, the text would be:</div><dl class="code"><dt><p>btnAbout.Text = "&About"</p>
-   </dt></dl><div><b>Tip:</b> In Windows XP the mnemonic display effects can be hidden by Default and then shown every time the user presses the Alt key.</div>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - All buttons without Mnemonic](../../assets/BadMem.gif)  
+:::
+
+
+::: good  
+![Figure: Good Example - All buttons with Mnemonic - user can easily choose which button they want without a click](../../assets/GoodMem.gif)  
+:::
+
+In Windows Applications, it is quite easy to assign a mnemonic to a button with the "&" character.
+
+So for the case above, the text would be:
+
+btnAbout.Text = "&About"
+
+ **Tip:** In Windows XP the mnemonic display effects can be hidden by Default and then shown every time the user presses the Alt key.
