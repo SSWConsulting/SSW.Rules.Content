@@ -14,13 +14,31 @@ redirects:
 
 ---
 
-
-<div>​​​Using Microsoft Teams? We recommend you check&#160;​out the latest phone here&#58;&#160;<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3452ec36-db1f-4ade-a64f-29d33435c271">Do you know how to use the Yealink T55A Microsoft Teams phone?​​</a><br></div>​​<div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify" unselectable="on"><iframe width="640" height="360" src="https&#58;//www.youtube.com/embed/z45_IMwslYw?rel=0" frameborder="0"></iframe>&#160;</div>
-<p>There are a lot of features of Microsoft Lync. The primary features are&#58;<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li> 
-      <span style="line-height&#58;21px;">Internal calls</span></li><li>Transfer a call</li><li>Conference a call</li></ul><p>Plus even more&#58;</p><ul><li>Receiving your voice mails into your email</li><li>Presence Icon</li><li>IM functionality</li><li>Federation Abilities (so you have more people on your IM)</li>
-   <li>​Meetings</li><li>Remote Desktop</li><li>Whiteboard</li></ul><p>Read more about 
-   <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx">​implementing Microsoft Lync</a>.</p>
+Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3452ec36-db1f-4ade-a64f-29d33435c271)
 
 
+
+`youtube: https://www.youtube.com/embed/z45_IMwslYw?rel=0`
+ 
+
+There are a lot of features of Microsoft Lync. The primary features are:
+
+<!--endintro-->
+
+* Internal calls
+* Transfer a call
+* Conference a call
+
+
+Plus even more:
+
+* Receiving your voice mails into your email
+* Presence Icon
+* IM functionality
+* Federation Abilities (so you have more people on your IM)
+* Meetings
+* Remote Desktop
+* Whiteboard
+
+
+Read more about     [implementing Microsoft Lync](http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx).
