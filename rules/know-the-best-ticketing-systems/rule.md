@@ -14,14 +14,10 @@ redirects:
 
 ---
 
+**Zendesk** and      **Service Now** are the leading ticketing engines.
 
-<p> 
-   <b>Zendesk</b> and 
-   <b>Service Now</b> are the leading ticketing engines.</p><p class="ssw15-rteElement-P">Zendesk has a larger market share, lower cost and better 'overall rating' as per 
-   <a href="https://www.getapp.com/it-management-software/a/service-now-com/compare/zendesk/" target="_blank">getapp.com</a>.​​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>
-      <img src="comparison.png" alt="comparison.png" />
-   </dt><dd>Figure: Zendesk vs Service Now<br></dd></dl>
+Zendesk has a larger market share, lower cost and better 'overall rating' as per     [getapp.com](https://www.getapp.com/it-management-software/a/service-now-com/compare/zendesk/).
 
+<!--endintro-->
 
+![Figure: Zendesk vs Service Now](comparison.png)
