@@ -50,9 +50,9 @@ redirects: []
                     </p></li>
                     </ul>
             <ul>
-                <li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=2b86d144-7041-41f3-92aa-d7d59b88149a">Do you
+                <li><a href=/do-you-prepare-then-confirm-conversations-decisions>Do you
                     prepare then confirm conversations/decisions?</a></li>
-                <li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=5c16d531-007d-49ef-8acc-b26596e13e84">Do you send
+                <li><a href=/dones-do-you-send-yourself-emails>Do you send
                     yourself emails?</a></li>
                 <li><a href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInstantMessenger.aspx#ImportantChatsEmail">
                     Do you confirm important IM chats by email</a></li>
