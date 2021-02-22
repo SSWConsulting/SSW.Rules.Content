@@ -23,8 +23,8 @@ redirects: []
      </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
-      {ltHTMLChar}a href=&quot;mailto&#58;infomation@***.com.au?subject=FeedBack&amp;body={ltHTMLChar}%=Request.ServerVariables(&quot;URL&quot;)%{gtHTMLChar}&quot;{gtHTMLChar}
-      Feedback Please {ltHTMLChar}/a{gtHTMLChar}
+      &lt;a href=&quot;mailto&#58;infomation@***.com.au?subject=FeedBack&amp;body=&lt;%=Request.ServerVariables(&quot;URL&quot;)%&gt;&quot;&gt;
+      Feedback Please &lt;/a&gt;
      </p>
 
 
