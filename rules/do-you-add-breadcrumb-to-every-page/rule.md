@@ -17,9 +17,9 @@ redirects: []
 don't link yourself!</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt> 
-      <img alt="add breadcrumb to the top of the page" src="http&#58;//www.ssw.com.au/SSW/Standards/Rules/Images/WebsiteLayout_Breadcrumb_1.gif" style="margin&#58;5px;" />
-   </dt><dd>Figure&#58; The breadcrumb</dd></dl><p>So every page should have a SiteMapPath Control.</p><dl class="code"><dt> 
-      <span style="background-color&#58;yellow;">{ltHTMLChar}asp&#58;SiteMapPath</span> ID=&quot;SiteMapPath1&quot; runat=&quot;server&quot; SiteMapProvider=&quot;SiteMapProvider1&quot;/{gtHTMLChar} </dt><dd>Figure&#58; SiteMapPath Control (Note&#58; 
-      <a href="http&#58;//www.ssw.com.au/ssw/redirect/ssw/CodeAuditor.htm">Code Auditor</a> checks for the yellow highlighted text)</dd></dl>
+      <img alt="add breadcrumb to the top of the page" src="../../assets/WebsiteLayout_Breadcrumb_1.gif" style="margin:5px;" />
+   </dt><dd>Figure: The breadcrumb</dd></dl><p>So every page should have a SiteMapPath Control.</p><dl class="code"><dt> 
+      <span style="background-color:yellow;">&lt;asp:SiteMapPath</span> ID="SiteMapPath1" runat="server" SiteMapProvider="SiteMapProvider1"/&gt; </dt><dd>Figure: SiteMapPath Control (Note: 
+      <a href="http://www.ssw.com.au/ssw/redirect/ssw/CodeAuditor.htm">Code Auditor</a> checks for the yellow highlighted text)</dd></dl>
 
 
