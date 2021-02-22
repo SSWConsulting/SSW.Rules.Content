@@ -11,12 +11,15 @@ redirects: []
 
 ---
 
+Too many developers never change the Title Bar. The Title Bar should reflect the current document in the same way that Microsoft Word, Notepad, etc do.
 
-<p>Too many developers never change the Title Bar. The Title Bar should reflect the current document in the same way that Microsoft Word, Notepad, etc do.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<div>Imagine if every email that Microsoft Outlook opened didn't change the title bar. When you were to open a few emails and then take a look in the Taskbar, they would all look the same.</div>
-<div>Therefore change the Title Bar to have the current document/customer/job/project/product name that the user is working on. It should be in the format "Document - Program Name", i.e. 'Northwind - SSW Data Renovator'</div>
-<dl class="goodImage"><dt><img alt="Title Bar Caption" src="../../assets/imgTitleBarCaption.gif" /></dt>
-<dd>Figure: Good Example - Application with a standard title bar caption</dd></dl>
+<!--endintro-->
+
+Imagine if every email that Microsoft Outlook opened didn't change the title bar. When you were to open a few emails and then take a look in the Taskbar, they would all look the same.
+
+Therefore change the Title Bar to have the current document/customer/job/project/product name that the user is working on. It should be in the format "Document - Program Name", i.e. 'Northwind - SSW Data Renovator'
 
 
+::: good  
+![Figure: Good Example - Application with a standard title bar caption](../../assets/imgTitleBarCaption.gif)  
+:::
