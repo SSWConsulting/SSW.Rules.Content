@@ -11,27 +11,25 @@ redirects: []
 
 ---
 
+There are two fundamental ways any consultant can bill clients:  
+<!--endintro-->
 
-There are two fundamental ways any consultant can bill clients&#58;
+**Time and Materials**
 
-<br><excerpt class='endintro'></excerpt><br>
+Time and materials is the standard mode of operation where the client is billed for the time spent by the consultant. There is no warranty on time and materials work.
 
-  <p>
-    <b>Time and Materials</b> </p>
-<p>Time and materials is the standard mode of operation where the client is billed for the time spent by the consultant. There is no warranty on time and materials work. </p>
-<p><b>Fixed Price</b> </p>
-<p>Fixed price is where the client is billed a fixed amount agreed between the client and the consultant. Fixed price contracts have the following conditions&#58; </p>
-<ul>
-    <li>All specification work to be conducted on a Time and Materials basis </li>
-    <li>All screen mock-ups and business rules must be signed by the client </li>
-    <li>A fixed price can only be done on a release by release basis, not on an entire project (this protects everyone) </li>
-    <li>A 20% premium is added to the release estimates - just like an insurance premium because the consultant is carrying the risk </li>
-    <li>Variations/change requests have to have separate written approval. e.g. Hi John, You've asked for XXX. This is not covered in the original scope and so will be charged extra. Our estimate is&#160;YYY hours at $ZZZ + GST per hour. Please approve.</li></ul><ul>
-    <li>Development is conducted off-site (to prevent unauthorised scope-development) </li>
-    <li>50% of the fixed price is payable before work commences, the balance is payable at the delivery of the first external test please </li>
-    <li>There is a 30 day warranty on <a href="/management-is-your-client-clear-on-the-definition-of-a-bug">bugs</a> which commences when the first external test please is issued </li>
-    <li>The following release cannot commence until the prior release is signed-off.</li></ul><ul>
-</ul>
+**Fixed Price**
+
+Fixed price is where the client is billed a fixed amount agreed between the client and the consultant. Fixed price contracts have the following conditions:
+
+* All specification work to be conducted on a Time and Materials basis
+* All screen mock-ups and business rules must be signed by the client
+* A fixed price can only be done on a release by release basis, not on an entire project (this protects everyone)
+* A 20% premium is added to the release estimates - just like an insurance premium because the consultant is carrying the risk
+* Variations/change requests have to have separate written approval. e.g. Hi John, You've asked for XXX. This is not covered in the original scope and so will be charged extra. Our estimate is YYY hours at $ZZZ + GST per hour. Please approve.
 
 
-
+* Development is conducted off-site (to prevent unauthorised scope-development)
+* 50% of the fixed price is payable before work commences, the balance is payable at the delivery of the first external test please
+* There is a 30 day warranty on [bugs](/management-is-your-client-clear-on-the-definition-of-a-bug) which commences when the first external test please is issued
+* The following release cannot commence until the prior release is signed-off.
