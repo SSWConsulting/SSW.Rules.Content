@@ -16,13 +16,16 @@ redirects:
 
 ---
 
+Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata.
 
-<p class="ssw15-rteElement-P">​​​Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata. ​
-<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​<img src="Bad calendar appointment.jpg" alt="Bad calendar appointment.jpg" style="width:750px;" /></dt><dd>Figure: Bad Example - The appointment with the date in the text​​</dd>
-</dl><dl class="goodImage"><dt> 
-      ​<img src="Good calendar appointment.jpg" alt="Good calendar appointment.jpg" style="width:750px;" /> 
-   </dt><dd> Figure: Good Example - The appointment without time and date in the text</dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - The appointment with the date in the text](Bad calendar appointment.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - The appointment without time and date in the text](Good calendar appointment.jpg)  
+:::
