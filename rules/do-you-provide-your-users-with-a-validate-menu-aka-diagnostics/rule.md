@@ -14,21 +14,16 @@ redirects:
 
 ---
 
+We recommend adding these menus to your Tools Menu:
+
+* Tools - Validate - Validate Links (with [SSW Link Auditor](http&#58;//www.ssw.com.au/ssw/LinkAuditor))
+* Tools - Validate - [Validate Data](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Windows-Applications.aspx#ValidateData)
+* Tools - Validate Schema (with [SSW SQL Deploy](http&#58;//www.ssw.com.au/ssw/SQLDeploy/Default.aspx))
+* Tools - Validate - Reports (with [SSW Reporting Services Auditor](http&#58;//www.ssw.com.au/ssw/SQLReportingServicesAuditor/Default.aspx))
+* Tools - [Run Unit Tests](http&#58;//www.ssw.com.au/ssw/Standards/Rules/rulestobetterwindowsforms.aspx#UnitTests) (with NUnit)
+* Tools - Validate PC (with [SSW Diagnostics](http&#58;//www.ssw.com.au/ssw/Diagnostics/Default.aspx))
+* Tools - View Application Errors (with [SSW Lady Log](http&#58;//www.ssw.com.au/ssw/NetToolKit/04ExceptionReporter.aspx))
+* Tools - Validate - Code Quality (with SSW Code Auditor)
 
 
-  <p>We recommend adding these menus to your Tools Menu&#58;</p>
-<ul>
-    <li>Tools - Validate - Validate Links (with <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/LinkAuditor">SSW Link Auditor</a>)</li>
-    <li>Tools - Validate -&#160;<a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Windows-Applications.aspx#ValidateData">Validate Data</a></li>
-    <li><a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterInterfaces-WinApp.aspx#ValidateData"></a>Tools - Validate Schema (with&#160;<a shape="rect" href="http&#58;//www.ssw.com.au/ssw/SQLDeploy/Default.aspx">SSW SQL Deploy</a>)</li>
-    <li>Tools - Validate - Reports (with&#160;<a href="http&#58;//www.ssw.com.au/ssw/SQLReportingServicesAuditor/Default.aspx">SSW Reporting Services Auditor</a>)</li>
-    <li>Tools - <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Standards/Rules/rulestobetterwindowsforms.aspx#UnitTests">Run Unit Tests</a> (with NUnit)</li>
-    <li>Tools - Validate PC (with&#160;<a shape="rect" href="http&#58;//www.ssw.com.au/ssw/Diagnostics/Default.aspx">SSW Diagnostics</a>)</li>
-    <li>Tools - View Application Errors (with <a shape="rect" href="http&#58;//www.ssw.com.au/ssw/NetToolKit/04ExceptionReporter.aspx">SSW Lady Log</a>)</li>
-    <li>Tools - Validate - Code Quality (with <a shape="rect">SSW Code Auditor</a>)</li>
-</ul>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
