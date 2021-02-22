@@ -25,6 +25,5 @@ index:
 - do-you-know-how-to-setup-a-pptp-vpn-in-windows-7
 
 ---
-<p>​​​Networks are the lifeblood of any business. This is why we have developed a few rules for&#160;better Internet and&#160;​Networks.​​<br></p>
-
+Networks are the lifeblood of any business. This is why we have developed a few rules for better Internet and Networks.
 
