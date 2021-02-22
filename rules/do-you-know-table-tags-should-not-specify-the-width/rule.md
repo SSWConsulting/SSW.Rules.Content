@@ -13,10 +13,6 @@ redirects: []
 
 ---
 
+The table tag selector “width” is considered an inline styling, which should be avoided. In the cases you really need to specify the table width you should do it via the CSS file. ￼￼
 
-<p>The table tag selector “width” is considered an inline styling, which should be avoided. In the cases you really need to specify the table width you should do it via the ​CSS file.
-￼￼</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
