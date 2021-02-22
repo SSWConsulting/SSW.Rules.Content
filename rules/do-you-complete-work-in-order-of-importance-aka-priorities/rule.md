@@ -18,14 +18,74 @@ redirects:
 
 ---
 
+With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still removing roadblocks for others. 
 
-​​​​​​​​​With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still removing roadblocks for others. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><p class="ssw15-rteElement-GreyBox"> ​The word "Urgent" is more important than the word "Important"<br></p><dt> <img alt="Challenges ahead sign" src="challenges-ahead-sign.jpg" /> </dt><dd>Figure: Remove roadblocks</dd></dl><p>This is the order which you should work:</p><ol><li> 
-      <strong>Urgent emails</strong> - emails with "URGENT" in the subject e.g. URGENT - the website is down</li><li>Emails about <strong></strong> <a href=/do-you-know-how-important-timesheets-are>Timesheets </a>or invoicing issues<br></li><li>Your calendar - <a href=/calendar-does-your-calendar-always-accurately-show-where-you-are>keep your calendar up-to-date,​ ​​</a>so people know where you are <br></li><li> 
-      <strong>Your existing clients</strong> - e.g. Normal planned client work and client administration (preferably working on a sprint <a href=/do-you-know-how-to-manage-the-product-backlog>backlog</a> and Daily Scrums)<br></li><li> 
-      <strong>Other client work</strong> - Ask others if you can help with their client work</li><li> 
-      <strong>Prospective clients</strong> - project management, answering questions and setting up meetings</li><li>Internal - all of the following might have their priorities ordered by the Daily Scrum</li><ol><li>Quick Important emails to 0 (emails with an important flag &lt; 1 hour and not something that can go into a release plan)</li><li>Incomplete <a href="http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx">Sprints</a> (was "<a href="http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/DetailedReleasePlan.aspx">release plans</a>") e.g. Normal planned internal work</li><li>Important emails to 0</li><li>Help others get their important emails to 0</li><li>Get your inbox to 0</li><li>Ping others to see if they need help completing their <a href="http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx">Sprint</a></li></ol><li>Phew... Done... <br></li></ol><dt><p class="ssw15-rteElement-GreyBox">Tip #1: Don't move an important task out of your inbox unless:<br></p><ul><li>Someone else is going to do it right away; or<br></li><li>It is going into a Sprint<br></li></ul><p></p></dt> 
-<p class="ssw15-rteElement-GreyBox">Tip #2: Use inbox subfolders to group and prioritize tasks <br> </p><dl class="goodImage"><dt> <img src="subfolders.png" alt="subfolders.png" /> </dt><dd>Figure: Group by subfolders under your inbox</dd></dl><dl class="goodImage"><dt> <img alt="Tasks" src="tasks-illustration.jpg" /> </dt><dd>Figure: Efficient people keep a priority list (often written)</dd></dl><p>Also, it's common that priority orders change, but clients don't always mean to, so double check that the client means this.</p><dl class="good"><p class="ssw15-rteElement-GreyBox">When someone is asking you to do a new task, and you are still working on some other task, you should ask:<br><br>"Are you changing the priority order? Do you want this new task done before the current task I'm working on, which is xxx."</p><dd>Figure: Confirm with the client "Are you changing the prior order?"</dd></dl><dl class="goodImage"><dt> <img src="prioritization.jpg" alt="" /> </dt><dd>Figure: Prioritization - The most recent task assigned is not necessarily the most important. Mentally do this (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land <br></dd></dl>
+<!--endintro-->
 
 
+::: greybox
+The word "Urgent" is more important than the word "Important"
+
+:::
+
+![Figure: Remove roadblocks](challenges-ahead-sign.jpg)  
+
+This is the order which you should work:
+
+1. **Urgent emails** - emails with "URGENT" in the subject e.g. URGENT - the website is down
+2. Emails about   [Timesheets](/do-you-know-how-important-timesheets-are)or invoicing issues
+3. Your calendar - [keep your calendar up-to-date,](/calendar-does-your-calendar-always-accurately-show-where-you-are)so people know where you are
+4. **Your existing clients** - e.g. Normal planned client work and client administration (preferably working on a sprint [backlog](/do-you-know-how-to-manage-the-product-backlog) and Daily Scrums)
+5. **Other client work** - Ask others if you can help with their client work
+6. **Prospective clients** - project management, answering questions and setting up meetings
+7. Internal - all of the following might have their priorities ordered by the Daily Scrum
+    1. Quick Important emails to 0 (emails with an important flag &lt; 1 hour and not something that can go into a release plan)
+    2. Incomplete [Sprints](http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx) (was "[release plans](http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/DetailedReleasePlan.aspx)") e.g. Normal planned internal work
+    3. Important emails to 0
+    4. Help others get their important emails to 0
+    5. Get your inbox to 0
+    6. Ping others to see if they need help completing their [Sprint](http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx)
+8. Phew... Done...
+
+
+
+::: greybox
+Tip #1: Don't move an important task out of your inbox unless:
+
+:::
+
+* Someone else is going to do it right away; or
+* It is going into a Sprint
+
+
+
+
+
+::: greybox
+Tip #2: Use inbox subfolders to group and prioritize tasks 
+
+:::
+
+
+::: good  
+![Figure: Group by subfolders under your inbox](subfolders.png)  
+:::
+
+
+::: good  
+![Figure: Efficient people keep a priority list (often written)](tasks-illustration.jpg)  
+:::
+
+Also, it's common that priority orders change, but clients don't always mean to, so double check that the client means this.
+
+
+::: greybox
+When someone is asking you to do a new task, and you are still working on some other task, you should ask:
+
+"Are you changing the priority order? Do you want this new task done before the current task I'm working on, which is xxx."  
+:::
+Figure: Confirm with the client "Are you changing the prior order?"
+
+::: good  
+![Figure: Prioritization - The most recent task assigned is not necessarily the most important. Mentally do this (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land](prioritization.jpg)  
+:::
