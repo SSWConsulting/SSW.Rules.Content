@@ -14,9 +14,18 @@ redirects:
 
 ---
 
+The idea is simple - each time leave code a little cleaner than you found it.
 
-<p>​The idea is simple -&#160;each time leave code a little cleaner than you found it.<br></p><p>Common examples are&#58;</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>In VS Code, open Code Analysis, and enable one rule<br></li><li>In VS Code, open StyleCop and enable one rule<br></li><li>Get Code Auditor to zero<br></li></ol><p>Related links&#58;</p><ul><li><a href="http&#58;//stackoverflow.com/questions/455269/refactoring-do-you-follow-the-boy-scout-rule">http&#58;//stackoverflow.com/questions/455269/refactoring-do-you-follow-the-boy-scout-rule​</a></li><li><a href="http&#58;//programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule">http&#58;//programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule</a>​<br></li></ul>
+Common examples are:
+
+<!--endintro-->
+
+1. In VS Code, open Code Analysis, and enable one rule
+2. In VS Code, open StyleCop and enable one rule
+3. Get Code Auditor to zero
 
 
+Related links:
+
+* [http://stackoverflow.com/questions/455269/refactoring-do-you-follow-the-boy-scout-rule](http&#58;//stackoverflow.com/questions/455269/refactoring-do-you-follow-the-boy-scout-rule)
+* [http://programmer.97things.oreilly.com/wiki/index.php/The\_Boy\_Scout\_Rule](http&#58;//programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
