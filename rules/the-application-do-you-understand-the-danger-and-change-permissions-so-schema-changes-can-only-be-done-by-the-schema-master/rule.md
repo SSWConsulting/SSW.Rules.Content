@@ -14,21 +14,9 @@ redirects:
 
 ---
 
+Having many people in a company that are able to make schema changes, can only lead to big problems. This gets worse if the application is powerful (eg. enabled with [SSW SQL Deploy](http://www.ssw.com.au/SSW/SQLDeploy/) that can make schema changes itself) can make schema changes. 
 
-Having many people in a company that are able to make schema changes, can only lead to big problems. This gets worse if the application is powerful (eg. enabled with <a href="http://www.ssw.com.au/SSW/SQLDeploy/">SSW SQL Deploy</a> that can make schema changes itself) can make schema changes. <br>
-<br>
-Let's see how to fix the issue: 
-
-<br><excerpt class='endintro'></excerpt><br>
-To avoid this problem, only one person (the "Schema Master") should have permissions to upgrade the database.
-<dl>
-    <dt><img alt="" src="FullPermission.jpg" /> </dt>
-    <dd>Figure: The db_owner role is granted for one person only – the "Schema Master" </dd>
-</dl>
-<dl class="image">
-    <dt><img alt="" src="Adam.jpg" /> </dt>
-    <dd>Figure: And here is the "Schema Master" at SSW </dd>
-</dl>
-
-
-
+ Let's see how to fix the issue:   
+<!--endintro-->
+ To avoid this problem, only one person (the "Schema Master") should have permissions to upgrade the database.      ![](FullPermission.jpg)      Figure: The db\_owner role is granted for one person only – the "Schema Master"        
+![Figure: And here is the "Schema Master" at SSW](Adam.jpg)
