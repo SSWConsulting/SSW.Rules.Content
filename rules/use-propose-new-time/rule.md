@@ -17,9 +17,25 @@ redirects:
 
 ---
 
+When you would like to propose a new time for an appointment that someone has sent to you, use the Propose New Time button in Outlook instead of simply declining the message. By using the Propose New Time option, the requestor can easily accept your proposed time, rather than having to edit the previous appointment.
 
-<p>​When you would like to propose a new time for an appointment that someone has sent to you, use the Propose New Time button in Outlook instead of simply declining the message. By using the Propose New Time option, the requestor can easily accept your proposed time, rather than having to edit the previous appointment.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="decline.png" alt="decline.png" style="margin:5px;" /><br></dt><dd>Figure: Bad Example: The person who sent the appointment has to interpret your message, then go back in and edit the appointment</dd></dl><p>Instead of simply declining the message and typing your proposed time in the message body, propose a new time as follows:<br></p><dl class="goodImage"><dt>​​<img src="Propose-new-time.png" alt="Propose-new-time.png" style="margin:5px;" />​<br></dt><dd class="ssw15-rteElement-FigureGood">Figure: Good Example - Click one of these... and then...<br><br></dd><dt><img src="scheduling-assistant.png" alt="scheduling-assistant.png" style="margin:5px;" /><br></dt><dd>Figure: Good Example - The new time is proposed, and the person who sent the original appointment can easily accept your proposal (or view all proposals if there are multiple recipients)​<br></dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example: The person who sent the appointment has to interpret your message, then go back in and edit the appointment](decline.png)  
+:::
+
+Instead of simply declining the message and typing your proposed time in the message body, propose a new time as follows:
+
+
+::: good  
+![Figure: Good Example - Click one of these... and then...](Propose-new-time.png)  
+:::
+![](scheduling-assistant.png)
+
+
+::: good  
+![Figure: Good Example - The new time is proposed, and the person who sent the original appointment can easily accept your proposal (or view all proposals if there are multiple recipients)](scheduling-assistant.png)  
+:::
+Figure: Good Example - The new time is proposed, and the person who sent the original appointment can easily accept your proposal (or view all proposals if there are multiple recipients)
