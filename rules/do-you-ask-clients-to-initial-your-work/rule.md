@@ -13,12 +13,18 @@ redirects: []
 
 ---
 
+A person's signature is extremely valuable. Getting a signature is hard work. Salespeople use all sorts of euphemisms to avoid that confronting request: "if you could just sign here..."
 
-<p class="ssw15-rteElement-P">​​​​A person's signature is extremely valuable. Getting a signature is hard work. Salespeople use all sorts of euphemisms to avoid that confronting request: "if you could just sign here..." ​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>However, requesting a <b>signature</b> (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial. </p><p>When you ask a client to 'review this screen mock-up' they will generally take a cursory glance, perhaps make a comment or two and then move on to something else. Asking them to initial/sign the document always makes them take a second or third look, ask someone else, or at least spend a few more minutes working out whether it's correct or not.</p><p>Training clients to review the work carefully leads to better quality projects. <br></p><dl class="image"><dt>
-      <img src="SuccessfulProjects_Signature.jpg" alt="signature" style="width:750px;" /> 
-   </dt><dd>Figure: A signature can be very valuable but sometimes hard to obtain, like Michael Jackson's autograph<br></dd></dl><h3>Related Rule</h3><ul><li>
-      <a href=/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups>Do you conduct specification analysis by creating mock-ups?​​</a><br></li></ul>
+<!--endintro-->
 
+However, requesting a  **signature** (or just an initial) on non-contractual type documents (especially screenshots, mockups, or data-schemas) is very beneficial.
 
+When you ask a client to 'review this screen mock-up' they will generally take a cursory glance, perhaps make a comment or two and then move on to something else. Asking them to initial/sign the document always makes them take a second or third look, ask someone else, or at least spend a few more minutes working out whether it's correct or not.
+
+Training clients to review the work carefully leads to better quality projects.
+
+![Figure: A signature can be very valuable but sometimes hard to obtain, like Michael Jackson's autograph](SuccessfulProjects\_Signature.jpg)  
+
+### Related Rule
+
+* [Do you conduct specification analysis by creating mock-ups?](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups)
