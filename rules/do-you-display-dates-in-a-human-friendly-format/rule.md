@@ -14,8 +14,8 @@ redirects: []
 ---
 
 
-​​Do you display dates on your&#160;website formatted in a&#160;human friendly manner?
+​​Do you display dates on your website formatted in a human friendly manner?
 <br><excerpt class='endintro'></excerpt><br>
-<p>​​<img src="/PublishingImages/bad-timeformatting.jpg" alt="bad-timeformatting.jpg" class="ssw15-rteStyle-Highlight" style="margin&#58;5px;width&#58;650px;" /></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad - detailed&#160;date formatting is difficult to read</dd><p><br></p><p><img src="/PublishingImages/good-timeformatting.jpg" alt="good-timeformatting.jpg" style="margin&#58;5px;width&#58;650px;" />&#160;</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good - humanized​&#160;date formatting is easy to read</dd>
+<p>​​<img src="bad-timeformatting.jpg" alt="bad-timeformatting.jpg" class="ssw15-rteStyle-Highlight" style="margin:5px;width:650px;" /></p><dd class="ssw15-rteElement-FigureBad">Figure: Bad - detailed date formatting is difficult to read</dd><p><br></p><p><img src="good-timeformatting.jpg" alt="good-timeformatting.jpg" style="margin:5px;width:650px;" /> </p><dd class="ssw15-rteElement-FigureGood">Figure: Good - humanized​ date formatting is easy to read</dd>
 
 
