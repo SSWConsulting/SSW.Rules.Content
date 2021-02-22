@@ -24,7 +24,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref }}
+        
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo home folder is ${HOME}
@@ -52,4 +55,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with: 
           commit_message: auto-update history file
+          push_options: --force
 
