@@ -13,14 +13,15 @@ redirects: []
 
 ---
 
+The best NuGet packages are:
 
-<p>The best NuGet packages are&#58;<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Glimpse - <a href="http&#58;//getglimpse.com/">http&#58;//getglimpse.com</a></li>
-<li><a href="http&#58;//nuget.org/packages/miniprofiler">MiniProfiler</a> </li>
-<li><a href="http&#58;//nuget.org/packages/mvcmailer">MVCMailer</a></li>
-<li><a href="http&#58;//nuget.org/packages/mvcdonutcaching">MvcDonutCaching</a></li>
-<li><a href="http&#58;//nuget.org/packages/MobileViewEngines">MobileViewEngines</a> - for MVC3 (built into MVC4)</li></ul>
-<h3>[Todo&#58;] Add a rule for each of these packages</h3>
+<!--endintro-->
+
+* Glimpse - [http://getglimpse.com](http&#58;//getglimpse.com/)
+* [MiniProfiler](http&#58;//nuget.org/packages/miniprofiler)
+* [MVCMailer](http&#58;//nuget.org/packages/mvcmailer)
+* [MvcDonutCaching](http&#58;//nuget.org/packages/mvcdonutcaching)
+* [MobileViewEngines](http&#58;//nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
 
 
+### [Todo:] Add a rule for each of these packages
