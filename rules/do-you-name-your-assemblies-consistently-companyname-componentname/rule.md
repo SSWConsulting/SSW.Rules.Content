@@ -17,19 +17,17 @@ redirects:
 
 ---
 
-
-Assembly names should reflect the the functionality that it provides. For example,
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <dl class="goodCode">
-    <dt>
-    <pre>System.IO</pre>
-    </dt>
-</dl>
-<p>contains all the classes that deal with inputs and outputs. As a general rule of thumb your assemblies should be named as follows&#58; </p>
-<p>&lt;CompanyName&gt;.&lt;ComponentName&gt; (e.g. SSW.Framework) </p>
-<p>This allows a developer to know who developed the assembly and give the developer a general idea of what the assembly can be used for.</p>
+Assembly names should reflect the the functionality that it provides. For example,  
+<!--endintro-->
 
 
+```
+System.IO
+```
 
+
+contains all the classes that deal with inputs and outputs. As a general rule of thumb your assemblies should be named as follows:
+
+&lt;CompanyName&gt;.&lt;ComponentName&gt; (e.g. SSW.Framework)
+
+This allows a developer to know who developed the assembly and give the developer a general idea of what the assembly can be used for.
