@@ -10,6 +10,5 @@ index:
 - use-absolute-paths-on-newsletters
 
 ---
-<p>​​​<br></p>
 
 
