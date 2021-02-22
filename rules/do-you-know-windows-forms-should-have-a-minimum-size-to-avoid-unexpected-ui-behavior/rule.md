@@ -13,9 +13,20 @@ redirects: []
 
 ---
 
+If windows form does not setup a minimum size, your users could have unpredictable form behaviour as seen below:
+<img alt="Bad window form" src="../../assets/Bugsize.gif" style="margin:5px;padding:15px;border:1px solid #cccccc;background:#eeeeee;">
 
-<span style="line-height:20.7999992370605px;"></span><span style="line-height:20.7999992370605px;">If windows form does not setup a minimum size, your users could have unpredictable form behaviour​ as seen below:</span><div><span style="line-height:20.7999992370605px;"></span><dt style="border:none;"><img alt="Bad window form" src="../../assets/Bugsize.gif" style="margin:5px;padding:15px;border:1px solid #cccccc;background:#eeeeee;" /></dt><dd class="ssw15-rteElement-FigureBad">​Figure: Bad Example - Unexpected window form​</dd><span style="line-height:20.7999992370605px;"><br></span></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​Therefore, a standard has been built to ensure Windows forms have a minimum size.</p><dt style="border:none;"><img alt="Good window form" src="../../assets/Minisize.gif" style="margin:5px;padding:15px;border:1px solid #cccccc;background:#eeeeee;" /></dt><dd class="ssw15-rteElement-FigureGood">Figu​re: Good Example - User friendly window form​​</dd>​<p>​<br></p>
+::: bad
+Figure: Bad Example - Unexpected window form  
+:::
 
 
+
+<!--endintro-->
+
+Therefore, a standard has been built to ensure Windows forms have a minimum size.
+![Good window form](../../assets/Minisize.gif)
+
+::: good
+Figure: Good Example - User friendly window form  
+:::
