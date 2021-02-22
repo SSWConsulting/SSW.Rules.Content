@@ -28,6 +28,5 @@ index:
 - do-you-know-how-to-use-balloons-in-screenshots-for-instructions
 
 ---
-<p>​​​​</p>
 
 
