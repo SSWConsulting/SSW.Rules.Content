@@ -13,14 +13,19 @@ redirects: []
 
 ---
 
+When administrators need different credentials to login to a SharePoint site, there are different ways to implement it. 
+<!--endintro-->
 
-When administrators need different credentials to login to a SharePoint site, there are different ways to implement it.
-<br><excerpt class='endintro'></excerpt><br>
-<p>​1. Obvious "Login" link for administrators:</p>
-<p><img class="ssw-rteStyle-ImageArea" alt="LoginLink.png" src="LoginLink.png" style="margin:5px;" /><br></p>
-<span class="ssw-rteStyle-FigureBad">Bad example: Obvious 'login' link for administrators</span> <p>2. Use little dot for a hidden link:</p>
-<p><img class="ssw-rteStyle-ImageArea" alt="HiddenDotLink.png" src="HiddenDotLink.png" style="margin:5px;" /><br><span class="ssw-rteStyle-FigureBad">Bad example: little dot for a hidden link</span></p>
-<p>3. Use /admin/ to let administrators to login (WordPress nearly got it right with /wp-admin/):</p>
-<p><img class="ssw-rteStyle-ImageArea" alt="AdminURL.png" src="AdminURL.png" style="margin:5px;" /><br><span class="ssw-rteStyle-FigureGood">Good example: Use /admin/ URL for administrators</span></p>
+1. Obvious "Login" link for administrators:
 
+![](LoginLink.png)
+Bad example: Obvious 'login' link for administrators 
+2. Use little dot for a hidden link:
 
+![](HiddenDotLink.png)
+Bad example: little dot for a hidden link
+
+3. Use /admin/ to let administrators to login (WordPress nearly got it right with /wp-admin/):
+
+![](AdminURL.png)
+Good example: Use /admin/ URL for administrators
