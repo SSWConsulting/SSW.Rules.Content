@@ -14,9 +14,41 @@ redirects:
 
 ---
 
+Task List comments can be used to indicate a variety of work to be done at the location marked, including:
 
-<p>​​Task List comments can be used to indicate a variety of work to be done at the location marked, including:<br></p><ul><li>features to be added;<br></li><li>problems to be corrected;</li><li>classes to implement;</li><li>place markers for error-handling code;</li><li>reminders to check-in the file. <br></li></ul><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>As with other Task List entries, you can double-click any comment entry to display the file indicated in the Code Editor and jump to the line of code marked. More details for <a href="https://www.ssw.com.au/SSW/Redirect/MSDN2/TaskListcomments.htm">Task List comments</a>.<br></p><p><img src="pic1.png" alt="pic1.png" style="margin:5px;width:808px;" /><br></p><dd class="ssw15-rteElement-FigureBad">​​Figure: Bad example - the comment doesn't show in Task List window</dd><p>​</p><p><img src="pic2.png" alt="pic2.png" style="margin:5px;width:808px;" /> </p><dd class="ssw15-rteElement-FigureGood">Figure: Good example - Marked TODO in the comment, so you can see it in Task List window and double-click to jump to</dd><p>​<br></p><p><img src="pic3.png" alt="pic3.png" style="margin:5px;width:808px;" /><br></p><dd class="ssw15-rteElement-FigureGood">Figure: Good example - Marked HACK in the comment, so you can see it in Task List window and double-click to jump to</dd><p></p><dl class="goodImage"><dt>​<br></dt></dl>
+* features to be added;
+* problems to be corrected;
+* classes to implement;
+* place markers for error-handling code;
+* reminders to check-in the file.
 
 
+
+<!--endintro-->
+
+As with other Task List entries, you can double-click any comment entry to display the file indicated in the Code Editor and jump to the line of code marked. More details for [Task List comments](https://www.ssw.com.au/SSW/Redirect/MSDN2/TaskListcomments.htm).
+
+![](pic1.png)
+
+
+::: bad
+Figure: Bad example - the comment doesn't show in Task List window  
+:::
+
+
+
+![](pic2.png)
+
+
+::: good
+Figure: Good example - Marked TODO in the comment, so you can see it in Task List window and double-click to jump to  
+:::
+
+
+
+![](pic3.png)
+
+
+::: good
+Figure: Good example - Marked HACK in the comment, so you can see it in Task List window and double-click to jump to  
+:::
