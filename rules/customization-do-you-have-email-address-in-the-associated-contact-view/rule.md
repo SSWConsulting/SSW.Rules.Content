@@ -21,19 +21,19 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage">
           <dt>
-            <img src="/PublishingImages/ContactView_NoEmail.jpg" alt="Associated Contact View without the email address" />
+            <img src="ContactView_NoEmail.jpg" alt="Associated Contact View without the email address" />
           </dt>
           <dd>
-            Figure&#58; Associated Contact View without the email address</dd>
+            Figure: Associated Contact View without the email address</dd>
         </dl>
         <dl class="goodImage">
           <dt>
-            <img src="/PublishingImages/ContactView_Email.jpg" alt="Associated Contact View with the email address" /></dt>
+            <img src="ContactView_Email.jpg" alt="Associated Contact View with the email address" /></dt>
           <dd>
-            Figure&#58; Associated Contact View with the email address</dd>
+            Figure: Associated Contact View with the email address</dd>
         </dl>
         <p>
-          It is easy to do this by import the <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/CRM.aspx#Customizations">
+          It is easy to do this by import the <a href="http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/CRM.aspx#Customizations">
             customisations xml files</a>.
         </p>
 
