@@ -12,9 +12,13 @@ redirects:
 
 ---
 
-
-<p>​When a user enters your website for the first time, they should be encouraged to give you their email address via a nice popup.<br>​<img src="goodExampleEmailCollection.jpg" alt="goodExampleEmailCollection.jpg" style="margin:5px;width:808px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​​Figure: Good Example - the user profits from signing up with their email address.​<br></dd>
-<br><excerpt class='endintro'></excerpt><br>
-
+When a user enters your website for the first time, they should be encouraged to give you their email address via a nice popup.
+![](goodExampleEmailCollection.jpg)
 
 
+::: good
+Figure: Good Example - the user profits from signing up with their email address.
+
+:::
+
+<!--endintro-->
