@@ -17,14 +17,21 @@ redirects:
 
 ---
 
+In Bing, if you are logged in to your work account, you can easily see your recent files!
+The same works for your work colleagues.
 
-​In Bing, if you are logged in to your work account, you can easily see your recent files!<br>The same works for your work colleagues.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage"><dt> 
-      <img src="bing-recent-files.png" alt="bing-recent-files.png" /> 
-   </dt><dd>Good Example: Bing - Find your files faster by just searching on Bing</dd></dl><p><b>Suggestion to Microsoft:</b> Put a checkbox "Show thumbnails" like Delve.</p><p>In a slower way, you can go to Delve to see this information with a different UI with big images.</p><dl class="badImage"><dt>
-      <img src="delve-recent-files.png" alt="delve-recent-files.png" style="width:750px;height:425px;" />
-      <br>
-   </dt><dd>Bad Example: Delve - Is harder to get to and the UI doesn't offer a summary view like Bing<span style="color:#444444;">​</span></dd></dl>
+<!--endintro-->
 
 
+::: good  
+![Good Example: Bing - Find your files faster by just searching on Bing](bing-recent-files.png)  
+:::
+
+**Suggestion to Microsoft:** Put a checkbox "Show thumbnails" like Delve.
+
+In a slower way, you can go to Delve to see this information with a different UI with big images.
+
+
+::: bad  
+![Bad Example: Delve - Is harder to get to and the UI doesn't offer a summary view like Bing](delve-recent-files.png)  
+:::
