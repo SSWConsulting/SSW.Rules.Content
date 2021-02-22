@@ -23,9 +23,9 @@ redirects: []
 <p>
       Simply add the following within the head tags on your document&#58;
      </p><div class="code"><p class="ssw15-rteElement-CodeArea">
-      {ltHTMLChar}head{gtHTMLChar}<br>
-      {ltHTMLChar}LINK REL=&quot;SHORTCUT ICON&quot; HREF=&quot;/ssw/Images/icossw_v2.ico&quot;{gtHTMLChar}<br>
-      {ltHTMLChar}/head{gtHTMLChar}</p>
+      &lt;head&gt;<br>
+      &lt;LINK REL=&quot;SHORTCUT ICON&quot; HREF=&quot;/ssw/Images/icossw_v2.ico&quot;&gt;<br>
+      &lt;/head&gt;</p>
                     </div>
 
 
