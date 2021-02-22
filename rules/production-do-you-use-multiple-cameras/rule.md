@@ -15,13 +15,19 @@ redirects: []
 
 ---
 
+To create more visually pleasing videos consider using a multi camera setup.
 
-<p>To create more visually pleasing videos consider using a multi camera setup.<br></p>
-<p>The benefit is that you can use the second camera to 'cut away' to (see Rule: <a href="/Pages/Do-you-use-cutaways.aspx">http://rules.ssw.com.au/DesignandPresentation/RulesToBetterVideoRecording/Pages/Do-you-use-cutaways.aspx</a>) in the edit.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​If you are recording a long interview use two (identical) cameras, covering both the presenter and the interviewee.</p><dl class="image"><dt><img class="ssw-rteStyle-ImageArea" alt="3cam_basic_setup.gif" src="3cam_basic_setup.gif" /></dt><dd>Figure: Multi cam setup for single guest speaker interview</dd></dl><p class="ssw15-rteElement-P">​If you are recording an event with multiple people and want to maximize the coverage (and obtain cutaway shots) use a second/third camera, either placed on a tripod somewhere of interest or give to someone else to move around with and obtain interesting shots.</p><div><p class="ssw15-rteElement-P">Camera 3 should be identical to Camera 1 if available (it is still possible to use two different cameras but this may cause some quality compromise in the form of different colours for each). An iPhone can provide the necessary shots to make a video more interesting, but only use iPhone 7 or later footage if proper lighting, exposure & composition can be achieved (Please see rule 
-   <a href=/production-do-you-know-the-correct-way-to-frame-your-subject>https://rules.ssw.com.au/production-do-you-know-the-correct-way-to-frame-your-subject</a>.)​<br>​<br></p><dl class="image"><dt>
-      <img class="ssw-rteStyle-ImageArea" alt="flipcamontripod.jpg" src="flipcamontripod.jpg" />
-   </dt><dd>Figure: Flip camera mounted to a small table top tripod. Ideal for cutaway shots</dd></dl></div>
+The benefit is that you can use the second camera to 'cut away' to (see Rule: [http://rules.ssw.com.au/DesignandPresentation/RulesToBetterVideoRecording/Pages/Do-you-use-cutaways.aspx](/Pages/Do-you-use-cutaways.aspx)) in the edit.
+
+<!--endintro-->
+
+If you are recording a long interview use two (identical) cameras, covering both the presenter and the interviewee.
+
+![Figure: Multi cam setup for single guest speaker interview](3cam\_basic\_setup.gif)  
+
+If you are recording an event with multiple people and want to maximize the coverage (and obtain cutaway shots) use a second/third camera, either placed on a tripod somewhere of interest or give to someone else to move around with and obtain interesting shots.
 
 
+Camera 3 should be identical to Camera 1 if available (it is still possible to use two different cameras but this may cause some quality compromise in the form of different colours for each). An iPhone can provide the necessary shots to make a video more interesting, but only use iPhone 7 or later footage if proper lighting, exposure & composition can be achieved (Please see rule     [https://rules.ssw.com.au/production-do-you-know-the-correct-way-to-frame-your-subject](/production-do-you-know-the-correct-way-to-frame-your-subject).)
+
+![Figure: Flip camera mounted to a small table top tripod. Ideal for cutaway shots](flipcamontripod.jpg)
