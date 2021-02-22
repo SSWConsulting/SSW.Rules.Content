@@ -10,6 +10,5 @@ index:
 - do-you-use-the-search-tool-to-find-emails-in-outlook
 
 ---
-<p>​​<br></p>
 
 
