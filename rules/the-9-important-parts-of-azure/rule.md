@@ -14,9 +14,31 @@ redirects:
 
 ---
 
+To help you out, here is a list of the top 9 Azure services you should be using:
 
-<p class="ssw15-rteElement-P">​​To help you out, here is a list of the top 9 Azure services you should be using&#58;<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol class="ssw15-rteElement-H3"><li>Computing&#58; App Services</li><li>Best practices&#58; DevOps Project&#160;<br></li><li>Data management&#58; Azure Cosmos DB (formerly known as Document DB)&#160;<br></li><li>Security&#58; Azure AD (Active Directory)&#160;<br></li><li>Web&#58; API Management<br></li><li>&#160;Automation&#58; Logic Apps<br></li><li>Automation&#58; Cognitive Services&#160;<br></li><li>Automation&#58; Bots<br></li><li>&#160;Storage&#58; Containers&#160;</li></ol><div><h3 class="ssw15-rteElement-H3">Watch the video</h3><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/-Ac7z3YEkNI" frameborder="0"></iframe>&#160;</div><br></div><div><br></div><div>More details on&#160;<a href="https&#58;//adamcogan.com/2018/06/07/9-knights-azure-services-get-started/"><b>Adam's Blog</b> - The 9 knights of Azure&#58; services to get you started​</a><br></div>
+<!--endintro-->
+
+1. Computing: App Services
+2. Best practices: DevOps Project
+3. Data management: Azure Cosmos DB (formerly known as Document DB)
+4. Security: Azure AD (Active Directory)
+5. Web: API Management
+6. Automation: Logic Apps
+7. Automation: Cognitive Services
+8. Automation: Bots
+9. Storage: Containers
 
 
+
+### Watch the video
+
+
+`youtube: https://www.youtube.com/embed/-Ac7z3YEkNI`
+ 
+
+
+
+
+
+
+More details on [**Adam's Blog** - The 9 knights of Azure: services to get you started](https&#58;//adamcogan.com/2018/06/07/9-knights-azure-services-get-started/)
