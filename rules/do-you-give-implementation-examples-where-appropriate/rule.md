@@ -22,6 +22,6 @@ redirects: []
 
 
 <br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">​Related Rule​<br></h3><p><ul><li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=09070992-59f9-4972-a978-1cce62e52fb3">Figures - Do you use 'Bad Example' and 'Good Example' with ticks and crosses in captions?</a>​<br></li></ul></p>
+<h3 class="ssw15-rteElement-H3">​Related Rule​<br></h3><p><ul><li><a href=/figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions>Figures - Do you use 'Bad Example' and 'Good Example' with ticks and crosses in captions?</a>​<br></li></ul></p>
 
 
