@@ -16,17 +16,58 @@ redirects:
 
 ---
 
+When a client complains I have a choice: solve the problem or ignore it. I prefer the first option. Here's how you do it:
 
-When a client complains I have a choice: solve the problem or ignore it. I prefer the first option. Here's how you do it:<br>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Stay relaxed, listen carefully and acknowledge the concerns<br></li><li>Isolate the issues.<br>
-   <p class="ssw15-rteElement-GreyBox">​E.g. invoicing ("I don't want to pay this bill") or development quality ("my application is down")</p></li><li>Conference in the appropriate resources.<br> 
-      <p class="ssw15-rteElement-GreyBox">E.g. the account manager or project manager​​<br></p><dl class="image"><dt>
-            <img src="old-phone-connection.jpg" alt="old-phone-connection.jpg" />
-         </dt><dd>Figure: Conference in another person to solve the problem - it's a lot easier than it used to be<br></dd></dl></li><li>Follow up the proposed solution in writing<br>
-   <p class="ssw15-rteElement-GreyBox">E.g. "John, as per our conversation, David K will be on-site 9 am tomorrow morning"</p></li><li>When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
-   <p class="ssw15-rteElement-GreyBox">E.g. "John, I'm glad David K was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. David K just plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room"</p></li>
-</ol>​<p class="ssw15-rteElement-P">Remember, someone will complain about what you do no matter how 'perfect' you are. That doesn't matter. It's how you deal with the complaint that matters. Everyone should leave the experience of your business with a great taste in their mouth.</p><p class="ssw15-rteElement-P">Remember it is Important to Resolve a Clients Complaint because studies have shown that:</p><ul class="ssw15-rteElement-P"><li>For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.<br></li><li>Of this 26:<br></li></ul><ol><li>Up to 19 will not come back<br></li><li>Most will tell nine to ten others<br></li><li>At least three will tell more than 20 people<br></li></ol><ul><li>For every dissatisfied customer whose complaint you handle well:<br></li></ul><ol><li>Ninety-Five percent will become loyal<br></li><li>They will recommend you to five others<br></li></ol> 
-<span style="color:#333333;">Thus, resolving a complaint efficiently and fairly, you will retain the customer's loyalty and potentially gain five new customers.</span><br>
+<!--endintro-->
+
+1. Stay relaxed, listen carefully and acknowledge the concerns
+2. Isolate the issues.
 
 
+::: greybox
+E.g. invoicing ("I don't want to pay this bill") or development quality ("my application is down")  
+:::
+3. Conference in the appropriate resources.
+
+
+::: greybox
+E.g. the account manager or project manager
+
+:::
+
+![Figure: Conference in another person to solve the problem - it's a lot easier than it used to be](old-phone-connection.jpg)  
+
+4. Follow up the proposed solution in writing
+
+
+::: greybox
+E.g. "John, as per our conversation, David K will be on-site 9 am tomorrow morning"  
+:::
+5. When the problem is finally solved, confirm so in writing, including the cause of the problem and what was done to fix it
+   
+
+::: greybox
+E.g. "John, I'm glad David K was able to restore your application last night after the cleaners accidentally bumped the power cord on the server. David K just plugged the power cable back in and fixed the error log. As discussed it would be a good idea to lock the server room"  
+:::
+
+
+Remember, someone will complain about what you do no matter how 'perfect' you are. That doesn't matter. It's how you deal with the complaint that matters. Everyone should leave the experience of your business with a great taste in their mouth.
+
+Remember it is Important to Resolve a Clients Complaint because studies have shown that:
+
+* For every customer that complains, there may be 26 others that will not tell you they are dissatisfied.
+* Of this 26:
+
+
+1. Up to 19 will not come back
+2. Most will tell nine to ten others
+3. At least three will tell more than 20 people
+
+
+* For every dissatisfied customer whose complaint you handle well:
+
+
+1. Ninety-Five percent will become loyal
+2. They will recommend you to five others
+
+Thus, resolving a complaint efficiently and fairly, you will retain the customer's loyalty and potentially gain five new customers.
