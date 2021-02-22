@@ -39,6 +39,5 @@ index:
 - do-you-know-when-to-use-full-stops-at-the-end-of-bullet-points
 
 ---
-<p>​​<br></p>
 
 
