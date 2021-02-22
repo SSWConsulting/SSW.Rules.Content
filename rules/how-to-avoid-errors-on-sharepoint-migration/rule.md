@@ -14,11 +14,35 @@ redirects:
 
 ---
 
+There are certain features in SharePoint on-premises that are no longer supported with SharePoint Online.
 
-<p>There are certain features in SharePoint on-premises that are no longer supported with SharePoint Online. </p><p>If you migrate using the Sharegate migration tool, you want to have zero errors in their reports. To do so, here are what you should do before considering migration: <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Get rid of SharePoint Designer customizations on List form<br></li></ul><dl class="badImage"><dt><img src="avoid-errors-sp-migration1.png" alt="avoid-errors-sp-migration1.png" style="width:750px;" /></dt><dd>Bad example: Page customized using SharePoint Designer</dd></dl><dl class="goodImage"><dt><img src="avoid-errors-sp-migration2.png" alt="avoid-errors-sp-migration2.png" style="width:750px;" />
- </dt><dd>Good example: Out of the box list view page</dd></dl><p>Remove unsupported columns such as:</p><ul><li>Publishing HTML</li><li>Publishing Hyperlinks</li><li>Calculated Columns with volatile functions ('Me', 'Today'…)</li><li>Managed Metadata columns on folders</li><li>Get rid of MicroFeed<br></li></ul><dl class="badImage"><dt><img src="avoid-errors-sp-migration3.png" alt="avoid-errors-sp-migration3.png" style="width:750px;" />
-   </dt><dd>Bad example: Sharegate migration report shows error if MicroFeed(s) have not been removed​<br></dd></dl>
+If you migrate using the Sharegate migration tool, you want to have zero errors in their reports. To do so, here are what you should do before considering migration:
+
+<!--endintro-->
+
+* Get rid of SharePoint Designer customizations on List form
 
 
+
+::: bad  
+![Bad example: Page customized using SharePoint Designer](avoid-errors-sp-migration1.png)  
+:::
+
+
+::: good  
+![Good example: Out of the box list view page](avoid-errors-sp-migration2.png)  
+:::
+
+Remove unsupported columns such as:
+
+* Publishing HTML
+* Publishing Hyperlinks
+* Calculated Columns with volatile functions ('Me', 'Today'…)
+* Managed Metadata columns on folders
+* Get rid of MicroFeed
+
+
+
+::: bad  
+![Bad example: Sharegate migration report shows error if MicroFeed(s) have not been removed](avoid-errors-sp-migration3.png)  
+:::
