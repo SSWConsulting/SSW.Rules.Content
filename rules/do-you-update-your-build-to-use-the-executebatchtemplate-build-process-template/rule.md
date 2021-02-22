@@ -13,9 +13,14 @@ redirects: []
 
 ---
 
+Update your Build to use the ExecuteBatchTemplate Build Process Template.
 
-<p>​Update your Build to use the ExecuteBatchTemplate Build Process Template. ​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="execute-batch-1.jpg" alt="" /></dt><dd>Figure: If the ExecuteBatchTemplate is available in the dropdownlist on the Process tab, select it and continue in the next section</dd></dl><dl class="image"><dt><img src="execute-batch-2.jpg" alt="" /></dt><dd>Figure: If the ExecuteBatchTemplate is not available in the dropdown list, click the New button</dd></dl><dl class="image"><dt><img src="execute-batch-3.jpg" alt="" /></dt><dd>Figure: Select the Browse button to browse source control for the correct build process template</dd></dl><dl class="image"><dt><img src="execute-batch-4.jpg" alt="" /></dt><dd>Figure: Navigate to the \BuildProcessTemplates\ folder and then select the ExecuteBatchUpdate template. Click "OK"</dd></dl>
+<!--endintro-->
 
+![Figure: If the ExecuteBatchTemplate is available in the dropdownlist on the Process tab, select it and continue in the next section](execute-batch-1.jpg)  
 
+![Figure: If the ExecuteBatchTemplate is not available in the dropdown list, click the New button](execute-batch-2.jpg)  
+
+![Figure: Select the Browse button to browse source control for the correct build process template](execute-batch-3.jpg)  
+
+![Figure: Navigate to the \BuildProcessTemplates\ folder and then select the ExecuteBatchUpdate template. Click "OK"](execute-batch-4.jpg)
