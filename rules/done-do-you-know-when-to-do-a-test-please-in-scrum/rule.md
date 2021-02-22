@@ -13,12 +13,14 @@ redirects: []
 
 ---
 
+Something you must do it to conduct an internal ”[Test Please](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d66a9404-2ca9-4d19-ad6c-df1618b4fc28)” prior to releasing anything to a client. This should be conducted by someone outside the Scrum Team and as it is a blocking process must be started within an hour and take no longer than 3 hours to complete.
 
-<p>​Something you must do it to conduct an internal&#160;”<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d66a9404-2ca9-4d19-ad6c-df1618b4fc28" shape="rect">Test Please</a>” prior to releasing anything to a client. This should be conducted by someone outside the Scrum Team and as it is a blocking process must be started within an hour and take no longer than 3 hours to complete. </p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-   <strong>Rules to Successful Projects</strong> </p><ol><li> 
-      <a href=/conduct-a-test-please-internally-and-then-with-the-client shape="rect"> Do you conduct an internal &quot;test please&quot; prior to releasing a version to a client?</a> </li><li> 
-      <a href=/do-you-know-the-tools-you-need-before-a-test-please shape="rect"> Do you know the 4 steps to do a &quot;Test Please&quot;?</a> </li></ol><p class="ms-rteCustom-GreyBox">In Scrum,​ you should conduct a separate “<a href=/conduct-a-test-please-internally-and-then-with-the-client shape="rect">Test Please”</a>&#160;for each of the stories. You might be using the same package, but all the bugs and issues found must be rolled up to the <a href="/Pages/OwnerForEveryUserStory.aspx" shape="rect"> Story Owner</a> as they will need to decide on what needs to be done to deliver their Story.</p>
+<!--endintro-->
+
+**Rules to Successful Projects**
+
+1. [Do you conduct an internal "test please" prior to releasing a version to a client?](/conduct-a-test-please-internally-and-then-with-the-client)
+2. [Do you know the 4 steps to do a "Test Please"?](/do-you-know-the-tools-you-need-before-a-test-please)
 
 
+In Scrum, you should conduct a separate “[Test Please”](/conduct-a-test-please-internally-and-then-with-the-client) for each of the stories. You might be using the same package, but all the bugs and issues found must be rolled up to the [Story Owner](/Pages/OwnerForEveryUserStory.aspx) as they will need to decide on what needs to be done to deliver their Story.
