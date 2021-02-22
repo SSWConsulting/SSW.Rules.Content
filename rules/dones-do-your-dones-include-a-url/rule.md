@@ -18,11 +18,40 @@ redirects:
 
 ---
 
+If you are using a task tracking system like Azure DevOps or Jira, always include the relevant URL. Also valid for emails. This way people can check the work that was done.
 
-​If you are using a task tracking system like Azure DevOps&#160;or Jira, always include the relevant URL. Also valid for emails. This way people can check the work that was done.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ms-rteCustom-GreyBox">Done <br></p><font class="ms-rteCustom-FigureBad"> Figure&#58; Bad Example&#160;&#160;&#160;</font><font class="ms-rteCustom-GreyBox">Done - http&#58;//jira.ssw.com.au/browse/NET-443</font><font class="ms-rteCustom-FigureGood">Figure&#58; Good example&#160;</font><font class="ms-rteCustom-GreyBox">Done -&#160;https&#58;//ssw2.visualstudio.com/SSW.SharePoint/_workitems/edit/43726​<br></font><font class="ms-rteCustom-FigureGood">Figure&#58; Good Example (sorry Azure DevOps URLs are a little uglier)</font>
-<p>
-   <strong>Video&#58; </strong>&#160;<a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a> <br></p>
+<!--endintro-->
 
 
+::: greybox
+Done 
+
+:::
+
+
+::: bad
+Figure: Bad Example     
+:::
+
+
+::: greybox
+Done - http://jira.ssw.com.au/browse/NET-443  
+:::
+
+
+::: good
+Figure: Good example   
+:::
+
+
+::: greybox
+Done - https://ssw2.visualstudio.com/SSW.SharePoint/\_workitems/edit/43726
+
+:::
+
+
+::: good
+Figure: Good Example (sorry Azure DevOps URLs are a little uglier)  
+:::
+
+**Video:**  [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)
