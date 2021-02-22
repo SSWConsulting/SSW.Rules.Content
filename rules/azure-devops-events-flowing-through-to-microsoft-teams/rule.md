@@ -17,9 +17,22 @@ redirects:
 
 ---
 
+You can see details about your Azure DevOps Server (formerly known as TFS) projects directly in your Microsoft Teams channel. Examples of what you can monitor:
 
-<p class="ssw15-rteElement-P">You can see details about your Azure DevOps Server (formerly known as TFS) projects directly in your Microsoft Teams channel. Examples of what you can monitor:<br></p><ul><li>Work item updates</li><li>Pull requests</li><li>Code commits</li><li>Builds</li><li>Release deployments and approvals</li></ul><p class="ssw15-rteElement-P">Also bring your Azure DevOps Services Kanban board directly into Microsoft Teams as a tab.</p><div>​For more info, follow this link: <a href="https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/teams?view=vsts">https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/teams?view=vsts</a><br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img src="tfs-teams-1.jpg" alt="tfs-teams-1.jpg" style="width:750px;" />​</dt><dd>Figure: How to setup Azure DevOps​ Events on Microsoft Teams​<br></dd></dl><dl class="image"><dt><img src="tfs-teams-2.jpg" alt="tfs-teams-2.jpg" style="width:750px;height:407px;" /></dt><dd>Figure: It's nice to be able to converse about the project and see notifications such as PR coming through<span style="color:#444444;">​</span></dd></dl>
+* Work item updates
+* Pull requests
+* Code commits
+* Builds
+* Release deployments and approvals
 
 
+Also bring your Azure DevOps Services Kanban board directly into Microsoft Teams as a tab.
+
+For more info, follow this link: https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/teams?view=vsts
+
+
+<!--endintro-->
+
+![Figure: How to setup Azure DevOps Events on Microsoft Teams](tfs-teams-1.jpg)  
+
+![Figure: It's nice to be able to converse about the project and see notifications such as PR coming through](tfs-teams-2.jpg)
