@@ -17,11 +17,23 @@ redirects:
 
 ---
 
+Promoting your application and business via social media can be extremely beneficial, not only for promoting a business but for feedback from customers as well. To help implement social media campaigns, try these tips:
 
-<p>​Promoting your application and business via social media can be extremely beneficial, not only for promoting a business but for feedback from customers as well. To help implement social media campaigns, try these tips:<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Target platforms for the countries in which you’ll have either e-commerce or on-the-ground presence. e.g. Facebook/Qzone, Twitter/Weibo.</li><li>Understand the specific social media websites and craft the message for each language. Always localize, don’t just translate. Google Translate just isn't good enough, always give it to a native speaker to translate. </li><li>Don't make the text longer than what the shortest supported is (usually Twitter which is 140 characters).</li><li>Studies show that posts with an image get more traction.</li><li>Post it to the English site.</li><li>Then post it to the Chinese site.</li><li>Great, now you are ready to post to all of the social media platforms simultaneously.<br></li><dl class="image"><dt> 
-         <img alt="Facebook Like pages" src="Weibo.jpg" style="width:750px;height:438px;" /> 
-      </dt><dd>Figure: Make sure that your social media presence covers the countries you have translated your application into. E.g. Link Auditor on Weibo (A local social media, China’s Twitter replacement)​<br></dd></dl></ul><p class="ssw15-rteElement-GreyBox">We have a service called <a href="https://www.ssw.com.au/ssw/Consulting/Chinafy-App.aspx" target="_blank">SSW Chinafy</a> that can help you get started following this rule.<br></p><br>
+<!--endintro-->
+
+* Target platforms for the countries in which you’ll have either e-commerce or on-the-ground presence. e.g. Facebook/Qzone, Twitter/Weibo.
+* Understand the specific social media websites and craft the message for each language. Always localize, don’t just translate. Google Translate just isn't good enough, always give it to a native speaker to translate.
+* Don't make the text longer than what the shortest supported is (usually Twitter which is 140 characters).
+* Studies show that posts with an image get more traction.
+* Post it to the English site.
+* Then post it to the Chinese site.
+* Great, now you are ready to post to all of the social media platforms simultaneously.
+
+![Figure: Make sure that your social media presence covers the countries you have translated your application into. E.g. Link Auditor on Weibo (A local social media, China’s Twitter replacement)](Weibo.jpg)  
 
 
+
+::: greybox
+We have a service called [SSW Chinafy](https://www.ssw.com.au/ssw/Consulting/Chinafy-App.aspx) that can help you get started following this rule.
+
+:::
