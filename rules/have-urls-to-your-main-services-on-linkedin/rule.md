@@ -16,9 +16,14 @@ redirects:
 
 ---
 
+LinkedIn is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.
 
-<p>​​​LinkedIn is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image">​<img src="edit_featured_final.png" alt="edit_featured_final.png" style="margin:5px;width:721px;height:378px;" />​<br><dd>Figure: In the Featured ​​section, use the "+" and then "Links" buttons to include the URLs for the main services your provide.<br></dd><dd><br></dd><img src="linkedin_services_bad_example.png" alt="linkedin_services_bad_example.png" style="margin:5px;font-weight:700;" /><span style="font-weight:bold;">​</span><span style="font-weight:bold;">​​</span></dl><dl class="badImage"><dd>Figure: Bad example - Profile with no links</dd></dl><dl class="goodImage"><dt><img src="linkedin_services_good_example.png" alt="linkedin_services_good_example.png" style="margin:5px;" /><br><br></dt><dd>Figure: Good example - Profile with links to main services provided <br><br><br></dd></dl>
+<!--endintro-->
+![](edit_featured_final.png)
+Figure: In the Featured section, use the "+" and then "Links" buttons to include the URLs for the main services your provide.
 
+![](linkedin_services_bad_example.png)Figure: Bad example - Profile with no links
 
+::: good  
+![Figure: Good example - Profile with links to main services provided](linkedin\_services\_good\_example.png)  
+:::
