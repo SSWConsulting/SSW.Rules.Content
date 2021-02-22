@@ -16,9 +16,13 @@ redirects:
 
 ---
 
+When your laptop/desktop PC malfunctions beyond repair, you should follow the following steps:
 
-​​​​​When your laptop/desktop PC&#160;malfunctions beyond repair, you&#160;should follow the following steps&#58;<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p><ol><li>​Tweet about your problem to related support Twitter accounts (e.g. Microsoft if Windows breaks down)<br></li><li>Send&#160;an email to SysAdmin with error numbers and any other useful data<br></li></ol>If your&#160;PC needs to be reinstalled, follow&#160;<a href=/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running>Do you know the quickest way to get your Windows 10 SOE up and running?</a>​<br><br></p>
+<!--endintro-->
 
 
+
+1. Tweet about your problem to related support Twitter accounts (e.g. Microsoft if Windows breaks down)
+2. Send an email to SysAdmin with error numbers and any other useful data
+
+If your PC needs to be reinstalled, follow [Do you know the quickest way to get your Windows 10 SOE up and running?](/do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running)
