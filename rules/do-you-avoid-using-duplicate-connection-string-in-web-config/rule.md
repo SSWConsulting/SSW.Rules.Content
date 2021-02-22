@@ -22,7 +22,7 @@ Since we have many ways to use Connection String in .NET 2.0, it is probably tha
 
   <dl class="badCode">
     <dt style="width&#58;92.01%;height&#58;172px;">
-    <pre>{ltHTMLChar}connectionStrings{gtHTMLChar}<br>   {ltHTMLChar}add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>Database=NorthWind;&quot; /{gtHTMLChar}<br>{ltHTMLChar}/connectionStrings{gtHTMLChar}<br>{ltHTMLChar}appSettings{gtHTMLChar}<br>   {ltHTMLChar}add key=&quot;ConnectionString&quot; value=&quot;Server=(local);Database=NorthWind;&quot;/{gtHTMLChar}<br>{ltHTMLChar}/appSettings{gtHTMLChar}</pre>
+    <pre>&lt;connectionStrings&gt;<br>   &lt;add name=&quot;ConnectionString&quot; connectionString=&quot;Server=(local);<br>Database=NorthWind;&quot; /&gt;<br>&lt;/connectionStrings&gt;<br>&lt;appSettings&gt;<br>   &lt;add key=&quot;ConnectionString&quot; value=&quot;Server=(local);Database=NorthWind;&quot;/&gt;<br>&lt;/appSettings&gt;</pre>
     </dt>
     <dd>Bad example - use duplicate connection string in web.config. </dd>
 </dl>
