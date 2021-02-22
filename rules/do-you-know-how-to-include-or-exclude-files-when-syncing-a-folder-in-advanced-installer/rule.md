@@ -15,15 +15,32 @@ redirects: []
 
 ---
 
+If you are syncing your Application Folder (or any other) with a local folder on a disk, you can specify which file or folders you want to sync. This is a very convenient way to keep your package smaller and clean.
 
-<p class="p1">​If you are syncing your Application Folder (or any other) with a local folder on a disk, you can specify which file or folders you want to sync. This is a very convenient way to keep your package smaller and clean.</p><p class="p1">Here is how you do it:</p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol class="ol1"><li class="li1">​Right click the 
-      <strong>Application Folder</strong> and choose 
-      <strong>Properties</strong></li><li class="li1">Click on Filters button to open the 
-      <strong>Edit Filters</strong> dialog</li><li class="li1">Click on 
-      <strong>New</strong> button to create Include pattern. Alternatively you can switch to 
-      <strong>Exclude Filters</strong> tab</li><li class="li1">​Enter the Pattern and press 
-      <strong>OK</strong> on each screen</li></ol><dl class="image"><dt><img src="installers-include-exclude-1.jpg" alt="" /></dt><dd>Figure: Edit Filters dialog</dd></dl><dl class="badImage"><dt><img src="installers-include-exclude-2.jpg" alt="" /></dt><dd>Figure: Bad Example - Synced folder contains files that are not supposed to be deployed</dd></dl><dl class="goodImage"><dt><img src="installers-include-exclude-3.jpg" alt="" /></dt><dd>Figure: Good Example - Synced folder is filtered so that it includes only files we want to deploy</dd></dl>
+Here is how you do it:
+
+<!--endintro-->
+
+1. Right click the 
+       **Application Folder** and choose 
+       **Properties**
+2. Click on Filters button to open the 
+       **Edit Filters** dialog
+3. Click on 
+       **New** button to create Include pattern. Alternatively you can switch to 
+       **Exclude Filters** tab
+4. Enter the Pattern and press 
+       **OK** on each screen
 
 
+![Figure: Edit Filters dialog](installers-include-exclude-1.jpg)  
+
+
+::: bad  
+![Figure: Bad Example - Synced folder contains files that are not supposed to be deployed](installers-include-exclude-2.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - Synced folder is filtered so that it includes only files we want to deploy](installers-include-exclude-3.jpg)  
+:::
