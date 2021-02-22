@@ -15,11 +15,15 @@ redirects: []
 
 ---
 
-
-While "OK" buttons were the standard convention with operating systems of the past, web applications should use a more user-friendly approach to dialog boxes.
-Instead of "OK" buttons to confirm an action the users want, it’s more efficient and effective to give them button that is labeled with that specific action.
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​<img src="OKBadExample.png" alt="Ok" /></dt><dd>Figure: Bad example - web application button labeled as "OK"</dd></dl><dl class="goodImage"><dt>​<img src="OKGoodExample.png" alt="OK" /></dt><dd>Figure: Good example - button is labeled with the specific action​</dd></dl>​​​​​
+While "OK" buttons were the standard convention with operating systems of the past, web applications should use a more user-friendly approach to dialog boxes. Instead of "OK" buttons to confirm an action the users want, it’s more efficient and effective to give them button that is labeled with that specific action.  
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example - web application button labeled as "OK"](OKBadExample.png)  
+:::
+
+
+::: good  
+![Figure: Good example - button is labeled with the specific action](OKGoodExample.png)  
+:::
