@@ -14,19 +14,30 @@ redirects:
 
 ---
 
-
-<p>A disproportionate amount of time is spent thinking about whether you got the <b>right</b>&#160;<b>answers</b>&#160;from the client (or in the software world &quot;Did we get the right specs?&quot;). However, 
-asking the <b>right questions</b> is a very important part of this process.​</p>
-<br>
-<br><excerpt class='endintro'></excerpt><br>
-Topics&#58;<br> 
-<ul><li></li><li>
-      <span style="background-color&#58;initial;">The importance of questions</span></li><li>
-      <span style="background-color&#58;initial;"></span>Curiosity based questions</li><li>Confirmation based questions<br></li><li>Asking questions is natural (by kids)<br></li><li>Tip 1&#58; Choose the right time/avoid interrupting<br></li><li>Tip 2&#58; Avoid waffling by asking v2 questions (avoid v1 questions + setup a backchannel)<br></li><li>Tip 3&#58; Ask questions with added value<br></li><li>Tip 4&#58; <a href=/ask-open-ended-questions>Ask open-ended questions</a> (avoid yes/no questions)<br></li><li><a href=/upsell-your-most-valuable-product-service>Upselling</a> - the side value of good questions<br></li><li><a href=/do-you-do-a-retro>The Retro​​</a><br></li></ul><div><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify s4-wpActive" unselectable="on">
-      <iframe width="750" height="422" src="https&#58;//www.youtube.com/embed/RlADH0sLOmc" frameborder="0"></iframe>&#160;</div>
-   <br>
-</div>
-
-<p><b>​Tip​&#58;</b> This video has timestamps and won't show here. The timestamps are only visible if you play this on the YouTube App or YouTube website.​</p>
+A disproportionate amount of time is spent thinking about whether you got the  **right**   **answers**  from the client (or in the software world "Did we get the right specs?"). However,  asking the  **right questions** is a very important part of this process.
 
 
+<!--endintro-->
+ Topics:
+
+* 
+* The importance of questions
+* Curiosity based questions
+* Confirmation based questions
+* Asking questions is natural (by kids)
+* Tip 1: Choose the right time/avoid interrupting
+* Tip 2: Avoid waffling by asking v2 questions (avoid v1 questions + setup a backchannel)
+* Tip 3: Ask questions with added value
+* Tip 4: [Ask open-ended questions](/ask-open-ended-questions) (avoid yes/no questions)
+* [Upselling](/upsell-your-most-valuable-product-service) - the side value of good questions
+* [The Retro](/do-you-do-a-retro)
+
+
+
+
+`youtube: https://www.youtube.com/embed/RlADH0sLOmc`
+ 
+
+
+
+**Tip:** This video has timestamps and won't show here. The timestamps are only visible if you play this on the YouTube App or YouTube website.
