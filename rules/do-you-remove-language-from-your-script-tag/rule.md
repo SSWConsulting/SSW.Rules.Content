@@ -20,12 +20,12 @@ redirects:
 <p>Since these identifiers are not standard, this attribute has been deprecated in favor of &quot;type&quot;.</p>
 
 <div class="ms-rteCustom-CodeArea">
-<p>{ltHTMLChar}script href=&quot;script.js&quot; language=&quot;javascript&quot;{gtHTMLChar}{ltHTMLChar}/script{gtHTMLChar}</p>
+<p>&lt;script href=&quot;script.js&quot; language=&quot;javascript&quot;&gt;&lt;/script&gt;</p>
 </div>
 <span class="ms-rteCustom-FigureBad">Figure&#58; Language attribute has been deprecated</span>
 
 <div class="ms-rteCustom-CodeArea">
-<p>{ltHTMLChar}script href=&quot;script.js&quot; type=&quot;text/javascript&quot;{gtHTMLChar}{ltHTMLChar}/script{gtHTMLChar}</p>
+<p>&lt;script href=&quot;script.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</p>
 </div>
 <span class="ms-rteCustom-FigureGood">Figure&#58; The scripting language is specified as a content type</span>
 
