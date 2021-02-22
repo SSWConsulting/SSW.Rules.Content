@@ -17,6 +17,5 @@ index:
 - do-you-thoroughly-test-employment-candidates
 
 ---
-<p>​​<br></p>
 
 
