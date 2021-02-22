@@ -16,9 +16,6 @@ redirects:
 
 ---
 
+TODO
 
-TODO<br>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
