@@ -71,6 +71,5 @@ index:
 - do-you-use-trace-fail-or-set-assertuienabled-true-in-your-web-config
 
 ---
-<p>​If you still need help, visit&#160;<a href="http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx">ASP.NET MVC Web Application Development​</a>&#160;and book in a consultant.</p>
-
+If you still need help, visit [ASP.NET MVC Web Application Development](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDevelopment.aspx) and book in a consultant.
 
