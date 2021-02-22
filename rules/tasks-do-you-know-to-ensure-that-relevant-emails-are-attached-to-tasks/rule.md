@@ -19,7 +19,7 @@ redirects: []
    <h3>The Scribe will&#58;</h3><ol><li>take screenshots and notes</li><li>turn them into multiple emails</li><li>add them into the backlog with Team Companion (can be added directly into TFS on Web Browser)</li></ol></div>
 <br><excerpt class='endintro'></excerpt><br>
 <p>You need to keep these so your Team can refer to it later, and so you can send a “done” when the task has been completed. This preserves the “history” of the task and allows you to keep relevant partied included in any future conversation.</p><p>Keep the original email so that you can 
-   <a target="_blank" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=29d5ca5d-c191-475f-8db2-0086c44ca46c"> 
+   <a target="_blank" href=/dones-do-you-reply-done-and-delete-the-original-email> 
       reply DONE and delete the email</a>.</p><p>But keeping it in your email does not help other members of the team if they complete the task and need to send the “done”.</p><p>Worse yet, the description field in Team Foundation Server 2010 (TFS 2010) does not support HTML and images, nor does the default task template support an “interested parties” or CC field. You can attach this content manually, but it can be time consuming.</p><p> 
    <strong>More information&#58;</strong></p><p>You should follow the existing 
    <a href="/Management/RulestoBetterSpecificationReviews" target="_blank"> 
