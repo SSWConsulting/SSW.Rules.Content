@@ -14,49 +14,43 @@ redirects:
 
 ---
 
+class CreateShoppingListHandler : SPItemEventReceiver
 
-  <span class="ms-rteCustom-CodeArea">    class CreateShoppingListHandler : SPItemEventReceiver<br>
-    {<br>
-        public override void ItemAdding(SPItemEventProperties properties)<br>
-        {<br>
-            float price = 0;<br>
-            float cost = 0;<br>
-            <br>
-            if(float.TryParse(properties.ListItem.Fields["Price"].ToString(), out price) && float.TryParse(properties.ListItem.Fields["Cost"].ToString(), out cost))<br>
-            {<br>
-                if(price &lt; cost)<br>
-                {<br>
-                    properties.ErrorMessage = "The cost must not be less than the price";<br>
-                    properties.Cancel = true;<br>
-                }<br>
-            }            <br>
-        }<br>
-    }</span>
-<span lang="EN-AU">
-</span>
-<span class="ms-rteCustom-FigureBad">
-<span lang="EN-AU">Bad example: using custom code – creating a
+    {
+
+        public override void ItemAdding(SPItemEventProperties properties)
+
+        {
+
+            float price = 0;
+
+            float cost = 0;
+
+
+            if(float.TryParse(properties.ListItem.Fields["Price"].ToString(), out price) && float.TryParse(properties.ListItem.Fields["Cost"].ToString(), out cost))
+
+            {
+
+                if(price &lt; cost)
+
+                {
+
+                    properties.ErrorMessage = "The cost must not be less than the price";
+
+                    properties.Cancel = true;
+
+                }
+
+            }            
+
+        }
+
+    }Bad example: using custom code – creating a
 custom event receiver on the item (the item adding event or item updating
-event)</span>
-<span lang="EN-AU">
-</span>
-</span>
-<span lang="EN-AU">
-<br>
-<img src="ListValidation.jpg" alt="" /><br>
-</span>
-<span class="ms-rteCustom-FigureGood">
-<span lang="EN-AU">Good example: using no code – just using the
-field validation on a list</span>
-</span>
-<br>
-<style>
-</style>
-A demo of this from Andrew Connell on<span lang="EN-AU"><br>
-<a href="http://channel9.msdn.com/learn/courses/SharePoint2010Developer/ListsAndSchemas/FieldandListItemValidation/">http://channel9.msdn.com/learn/courses/SharePoint2010Developer/ListsAndSchemas/FieldandListItemValidation/</a>
-</span>
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+event)
+![](ListValidation.jpg)
+Good example: using no code – just using the
+field validation on a list
+ A demo of this from Andrew Connell on
+http://channel9.msdn.com/learn/courses/SharePoint2010Developer/ListsAndSchemas/FieldandListItemValidation/
+<!--endintro-->
