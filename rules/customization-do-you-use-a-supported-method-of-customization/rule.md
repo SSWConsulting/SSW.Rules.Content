@@ -23,12 +23,12 @@ redirects: []
         </p>
 <br><excerpt class='endintro'></excerpt><br>
 <p>
-          The common ways to customize are&#58;</p>
+          The common ways to customize are:</p>
           <ol>
             <li>Use the designer to add Entities and Forms (aka Tables and Forms)</li>
             <li>Write SQL Reporting Services Reports</li>
             <li>Write workflows with the CRM designer</li>
-            <li>Write workflows with VS.NET and .NET 3.0 WF (new since&#160;CRM 4.0)</li>
+            <li>Write workflows with VS.NET and .NET 3.0 WF (new since CRM 4.0)</li>
             <li>Write callouts with VS.NET (the extension points made available)</li>
           </ol>
 
@@ -36,12 +36,12 @@ redirects: []
           The diagram below briefly outlines what are possible supported methods of customization.</p>
           <dl class="image">
             <dt>
-              <img alt=" Microsoft CRM Customization Architecture " src="/PublishingImages/CRM_Customization_Architecture.JPG" style="width&#58;623px;" /></dt>
+              <img alt=" Microsoft CRM Customization Architecture " src="CRM_Customization_Architecture.JPG" style="width:623px;" /></dt>
             <dd>
-              Figure&#58; Microsoft CRM Customization Architecture
+              Figure: Microsoft CRM Customization Architecture
             </dd>
           </dl>
           <p>Refer to P19 of the CRM Customization Manual Course 8525A for a more in depth discussion.</p>
-<p>PS&#58; For CRM 3.0 you can't find everything on the web - you will need the CRM Customization Manual Course 8525A - you have to buy it from Microsoft &#58;-(</p>
+<p>PS: For CRM 3.0 you can't find everything on the web - you will need the CRM Customization Manual Course 8525A - you have to buy it from Microsoft :-(</p>
 
 
