@@ -16,11 +16,56 @@ redirects:
 
 ---
 
+Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated one with comments at the top to explain why you want to make these changes.
 
-<p class="ssw15-rteElement-P">Whenever you have to modify the time, attendees, or subject of an appointment, always send the updated one with comments at the top to explain why you want to make these changes.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​Examples:​​<br></p><p class="ssw15-rteElement-GreyBox">UPDATED: Moving to Thursday as Adam could not make it​<br></p><dd class="ssw15-rteElement-FigureGood">Figure: Good example – changing the date or time<br>​</dd><p class="ssw15-rteElement-GreyBox">UPDATED: Adding Uly since he may want to know that we are working on TimePro this day</p><dd class="ssw15-rteElement-FigureGood">Figure: Good example - adding someone​​<br><br></dd><p class="ssw15-rteElement-GreyBox">UPDATED: Change the subject as we will be taking about Marketing first</p><dd class="ssw15-rteElement-FigureGood">​​Figure: Good example – changing the subject​<br><br></dd><div><p></p><p>​This will help to solidify the changes and alleviate confusion.<br></p><dl class="image"><dt> 
-            <img src="AppointmentWithComments.jpg" alt="" style="width:750px;height:378px;" /> 
-         </dt><dd>Figure: Explaining the change that has been made using the prefix "UPDATE​:". Using brackets is also an option​<br></dd></dl><h3>​​Related Rule<br></h3><ul><li>​<a href=/do-you-know-to-update-a-blog>Do you know to update a blog?</a><br></li></ul></div>
+<!--endintro-->
+
+Examples:
 
 
+::: greybox
+UPDATED: Moving to Thursday as Adam could not make it
+
+:::
+
+
+::: good
+Figure: Good example – changing the date or time
+
+:::
+
+
+::: greybox
+UPDATED: Adding Uly since he may want to know that we are working on TimePro this day  
+:::
+
+
+::: good
+Figure: Good example - adding someone
+
+
+:::
+
+
+::: greybox
+UPDATED: Change the subject as we will be taking about Marketing first  
+:::
+
+
+::: good
+Figure: Good example – changing the subject
+
+
+:::
+
+
+
+
+This will help to solidify the changes and alleviate confusion.
+
+![Figure: Explaining the change that has been made using the prefix "UPDATE:". Using brackets is also an option](AppointmentWithComments.jpg)  
+
+### Related Rule
+
+
+* [Do you know to update a blog?](/do-you-know-to-update-a-blog)
