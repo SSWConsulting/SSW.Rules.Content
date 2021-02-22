@@ -17,10 +17,10 @@ redirects: []
 <p>Keeping your projects tidy says good things about the teams maturity. Therefore any files and folders that are prefixed with zz, must be deleted from the project.</p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="badImage"><dt> 
-      <img alt="zzed is bad in source control" src="/PublishingImages/zzed-bad.jpg" /> 
-   </dt><dd>Figure&#58; Bad example - Zz-ed files should not exist in Source Control</dd></dl>
+      <img alt="zzed is bad in source control" src="zzed-bad.jpg" /> 
+   </dt><dd>Figure: Bad example - Zz-ed files should not exist in Source Control</dd></dl>
 <dl class="goodImage"><dt>
-      <img alt="no zzed files in source control" src="/PublishingImages/zzed-good.jpg" />
-   </dt><dd>Figure&#58; Good example - No zz-ed files in Source Control</dd></dl>
+      <img alt="no zzed files in source control" src="zzed-good.jpg" />
+   </dt><dd>Figure: Good example - No zz-ed files in Source Control</dd></dl>
 
 
