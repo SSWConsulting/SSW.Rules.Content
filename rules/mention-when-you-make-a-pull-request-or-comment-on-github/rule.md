@@ -18,10 +18,10 @@ redirects:
 ---
 
 
-<p>​When you make a pull request or need to communicate the next actions someone needs to take in a GitHub comment, you should use a @mention.<br></p><p>Read more about @mention&#58;&#160;<a href="https&#58;//help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams">https&#58;//help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams</a><br></p>
+<p>​When you make a pull request or need to communicate the next actions someone needs to take in a GitHub comment, you should use a @mention.<br></p><p>Read more about @mention: <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams">https://help.github.com/articles/basic-writing-and-formatting-syntax/#mentioning-users-and-teams</a><br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>​​<img src="/PublishingImages/github-mention-bad.png" alt="github-mention-bad.png" style="width&#58;760px;" /></dt><dd>Figure&#58; Bad example - Not using a @mention when addressing Duncan or Igor​<br></dd></dl><dl class="goodImage"><dt>
-      <img src="/PublishingImages/github-mention-good.png" alt="github-mention-good.png" style="width&#58;760px;" />
-   </dt><dd>Figure&#58; Good example - Using a @mention</dd></dl>
+<dl class="badImage"><dt>​​<img src="github-mention-bad.png" alt="github-mention-bad.png" style="width:760px;" /></dt><dd>Figure: Bad example - Not using a @mention when addressing Duncan or Igor​<br></dd></dl><dl class="goodImage"><dt>
+      <img src="github-mention-good.png" alt="github-mention-good.png" style="width:760px;" />
+   </dt><dd>Figure: Good example - Using a @mention</dd></dl>
 
 
