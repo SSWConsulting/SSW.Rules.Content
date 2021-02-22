@@ -20,7 +20,7 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>Now managing those tasks can be difficult. &quot;Just stick an appointment in Outlook&quot; - yes I've heard and tried that method. Outlook is perfect when you are the one performing the task. But it's nowhere near perfect if you're managing people who are allocated to perform the task. In fact it's a disaster, because when that person leaves, (or just changes job role) that scheduled task/reminder disappears with them. </p>
-<p>The other problem with Outlook is if you are an organization that relies upon <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=4ebaa676-4599-4be1-b4ee-55427dba91bf">email as a to do/task list</a>, Outlook doesn't send an automated email. </p>
+<p>The other problem with Outlook is if you are an organization that relies upon <a href=/dones-is-your-inbox-a-task-list-only>email as a to do/task list</a>, Outlook doesn't send an automated email. </p>
 <p>After reviewing a few different options, we decided <a href="http&#58;//www.ssw.com.au/SSW/Standards/Rules/UsingGoogleCalendar.aspx">using Google Calendar to manage recurring tasks</a> was the best option. </p>
 
 
