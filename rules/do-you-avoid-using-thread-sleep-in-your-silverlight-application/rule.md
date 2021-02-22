@@ -13,31 +13,51 @@ redirects: []
 
 ---
 
-
-​Calling Thread.Sleep on your Silverlight application causes the UI thread to sleep. That means the application is not responsive.<br>
-If you want to delay something, you can use a <a href="http&#58;//msdn.microsoft.com/en-us/library/system.windows.media.animation.storyboard.aspx">storyboard</a>. 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <font class="ms-rteCustom-CodeArea" size="+0">Thread.Sleep(5000); <br>
-this.Dispatcher.BeginInvoke(new Action(() =&gt; <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#123; <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; //Try to reconnect in the background <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Connect.Execute(null); <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#125;)); <br>
-Bad&#58; Using Thread.Sleep() causes your Silverlight application to freeze&#160;<br>
-&#160;<br>
-&#160; <br>
-Storyboard sb = new Storyboard() &#123; Duration = TimeSpan.FromSeconds(5) &#125;; <br>
-&#160; <br>
-sb.Completed += (ds, de) =&gt; this.Dispatcher.BeginInvoke(new Action(() =&gt; <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#123; <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; //Try to reconnect in the background <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Connect.Execute(null); <br>
-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; &#125;)); <br>
-sb.Begin(); <br>
-</font>
-  <font class="ms-rteCustom-FigureGood" size="+0">GOOD&#58; Use a Storyboard with a duration of the delay and once the Storyboard is finished running </font>
+Calling Thread.Sleep on your Silverlight application causes the UI thread to sleep. That means the application is not responsive.
+ If you want to delay something, you can use a [storyboard](http&#58;//msdn.microsoft.com/en-us/library/system.windows.media.animation.storyboard.aspx).   
+<!--endintro-->
 
 
 
+```
+Thread.Sleep(5000); 
+
+this.Dispatcher.BeginInvoke(new Action(() => 
+
+                            { 
+
+                         //Try to reconnect in the background 
+
+                               Connect.Execute(null); 
+
+                             })); 
+
+Bad: Using Thread.Sleep() causes your Silverlight application to freeze 
+
+ 
+
+  
+
+Storyboard sb = new Storyboard() { Duration = TimeSpan.FromSeconds(5) }; 
+
+  
+
+sb.Completed += (ds, de) => this.Dispatcher.BeginInvoke(new Action(() => 
+
+                                                                       { 
+
+                                                                          //Try to reconnect in the background 
+
+                                                                         Connect.Execute(null); 
+
+                                                                       })); 
+
+sb.Begin();
+```
+
+
+
+
+::: good
+GOOD: Use a Storyboard with a duration of the delay and once the Storyboard is finished running  
+:::
