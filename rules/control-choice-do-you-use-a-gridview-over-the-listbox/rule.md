@@ -12,13 +12,16 @@ redirects:
 
 ---
 
+A GridView provides much richer features than ListBox, you can easily add a checkbox onto the header to allow "check all" functionality, which is impossible for ListBox.
 
-<p>A GridView provides much richer features than ListBox, you can easily add a checkbox onto the header to allow "check all" functionality, which is impossible for ListBox.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="ListBox" src="../../assets/BadUseListBox.jpg" /></dt>
-<dd>Figure: Bad Example - Use the ListBox.</dd></dl>
-<dl class="goodImage"><dt><img alt="GridView" src="../../assets/GoodUseGridView.jpg" /></dt>
-<dd>Figure: Good Example - Use GridView and add the enabled checkbox on the header</dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - Use the ListBox.](../../assets/BadUseListBox.jpg)  
+:::
 
+
+::: good  
+![Figure: Good Example - Use GridView and add the enabled checkbox on the header](../../assets/GoodUseGridView.jpg)  
+:::
