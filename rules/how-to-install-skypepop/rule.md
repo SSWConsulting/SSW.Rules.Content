@@ -36,26 +36,23 @@ Only receptionists should have SkypePOP installed.
 2.      The CRM contact pops up (or a "new contact" form if the number is not already in your CRM):
 
 
->  
->       <img src="1.png" alt="1.png" style="margin:5px;width:714px;height:433px;"> 
->    
+<img src="1.png" alt="1.png" style="margin:5px;width:714px;height:433px;"> 
+  
 
 
 
-> **Figure: Example contact popup on our CRM from incoming caller with the number +61420241201
-> **
+**Figure: Example contact popup on our CRM from incoming caller with the number +61420241201**
 
 3.      Send Email
 
 
->  
->       <img src="2.png" alt="2.png" style="margin:5px;width:669px;height:483px;"> 
->    
+  
+<img src="2.png" alt="2.png" style="margin:5px;width:669px;height:483px;"> 
+    
 
 
 
-> **Figure: This email will be created – send it to the person you are forwarding the call to
-> **
+**Figure: This email will be created – send it to the person you are forwarding the call to**
 
 
 4.      Inform the person the call is being transferred to that you have sent him an email with the CRM Contact
@@ -80,9 +77,9 @@ Only receptionists should have SkypePOP installed.
 2.  Open the         **Connections** settings
 
 
->  
->          <img src="2016-11-18_16-35-15.jpg" alt="3.jpg" style="margin:5px;width:310px;"> 
->          <span style="color:#555555;font-size:0.9rem;font-weight:bold;">Figure: Right click on the SkypePOP icon in the taskbar</span>
+
+<img src="2016-11-18_16-35-15.jpg" alt="3.jpg" style="margin:5px;width:310px;"> 
+<span style="color:#555555;font-size:0.9rem;font-weight:bold;">Figure: Right click on the SkypePOP icon in the taskbar</span>
 
 
 
@@ -95,13 +92,13 @@ Tip: Go to Main | Settings | Customizations | Developer Resources in order to fi
       </dl>
 
 
-> <p class="ssw15-rteElement-P">  <strong>Figure: Copy the Endpoint Address for your Organization Service</strong> 
+<p class="ssw15-rteElement-P">  <strong>Figure: Copy the Endpoint Address for your Organization Service</strong> 
 </p><p class="ssw15-rteElement-P"> 
->              <strong>
+              <strong>
 </strong> </p><p class="ssw15-rteElement-P"> 
->              <strong><img src="2016-12-02_15-14-23.jpg" alt="" style="margin:5px;">
+              <strong><img src="2016-12-02_15-14-23.jpg" alt="" style="margin:5px;">
 </strong> </p><p class="ssw15-rteElement-P"> 
->              <strong>Figure: Enter your CRM Connection Details
+              <strong>Figure: Enter your CRM Connection Details
 
 </strong> </p>
 
@@ -110,9 +107,9 @@ Tip: Go to Main | Settings | Customizations | Developer Resources in order to fi
 4.      Change the SkypePOP  **Preferences**
 
 
->  
->             <img src="2016-12-22_9-13-03.jpg" alt="2016-12-22_9-13-03.jpg" style="margin:5px;"> 
->           Figure: Right click on the icon in the taskbar and select “Preferences”
+ 
+             <img src="2016-12-22_9-13-03.jpg" alt="2016-12-22_9-13-03.jpg" style="margin:5px;"> 
+           Figure: Right click on the icon in the taskbar and select “Preferences”
 
 
 
@@ -122,14 +119,13 @@ Tip: Go to Main | Settings | Customizations | Developer Resources in order to fi
        **Dynamics CRM** settings to something similar to this: 
       
 
->  
->             <img src="50.jpg" alt="50.jpg" style="margin:5px;"> 
->          
+ 
+             <img src="50.jpg" alt="50.jpg" style="margin:5px;"> 
+          
 
 
 
-> **Figure: These are the default SkypePOP settings
-> **
+ **Figure: These are the default SkypePOP settings**
 
 
 
