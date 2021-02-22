@@ -13,9 +13,13 @@ redirects: []
 
 ---
 
+The dashboard camera has become more and more popular over the past few years. It is designed to record sounds and images while you are driving. The purpose of the dash cam is to carefully record what happens on the road while you are driving, and even inside the car.
 
-<p>The&#160;dashboard camera has become more and more popular over the past few years. It is designed to record sounds and images while you are driving. The purpose of the dash cam is to carefully record what happens on the road while you are driving,&#160;and even&#160;inside the car.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>The main reason for having a dashcam is because it's the most efficient evidence in the unfortunate case of a car crash.&#160; <br></p><p>​This is #4 on Adam's suggestions list to Tesla&#58;<br></p><div class="ms-rtestate-read ms-rte-embedcode ms-rte-embedil ms-rtestate-notify"><iframe width="800" height="450" src="https&#58;//www.youtube.com/embed/7Vw5ClyeSrc?rel=0" frameborder="0"></iframe>&#160;</div><p>​<br></p>
+<!--endintro-->
+
+The main reason for having a dashcam is because it's the most efficient evidence in the unfortunate case of a car crash.
+
+This is #4 on Adam's suggestions list to Tesla:
 
 
+`youtube: https://www.youtube.com/embed/7Vw5ClyeSrc?rel=0`
