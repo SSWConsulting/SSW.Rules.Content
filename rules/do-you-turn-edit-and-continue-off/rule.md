@@ -15,12 +15,13 @@ redirects: []
 
 ---
 
+With VS2013, you get the long awaited 64 bit edit and continue, and it is turned on by default. Edit and Continue is great when you need to make a quick change to executing code. However, it has its downsides too:
 
-<p>With VS2013, you get the long awaited 64 bit edit and continue, and it is turned on by default. Edit and Continue is great when you need to make a quick change to executing code. However, it has its downsides too&#58;​</p><ul><li>
-            Web Development - Kills IISExpress when you stop</li><li>
-            Can lead to bad development practices (trying to debug instead of doing RED, GREEN, REFACTOR)</li></ul>
-<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​This is why we recommend that it is turned OFF by default.​​</p>
+* Web Development - Kills IISExpress when you stop
+* Can lead to bad development practices (trying to debug instead of doing RED, GREEN, REFACTOR)
 
 
+
+<!--endintro-->
+
+This is why we recommend that it is turned OFF by default.
