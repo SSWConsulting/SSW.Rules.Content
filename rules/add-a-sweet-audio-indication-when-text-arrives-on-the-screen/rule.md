@@ -20,7 +20,7 @@ redirects:
 <p>A lot of your audience will not always be looking at your video. A sweet sound to make you look at the video is a great idea.​<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="goodImage"><dt> 
-      ​<img src="/PublishingImages/video-trump-sound.png" alt="video-trump-sound.png" />​</dt><dd>Good example&#58; Text on the screen without audio 
-      <br>E.g.&#160;Video on YouTube&#58;&#160;Cory Booker&#58; Why Trump should try being nice on Twitter&#160;<a href="http&#58;//youtu.be/8p5n0TbRFEk">http&#58;//youtu.be/8p5n0TbRFEk</a>&#160;(at 1&#58;05 you will hear the sound​)<br></dd> ​ </dl>
+      ​<img src="video-trump-sound.png" alt="video-trump-sound.png" />​</dt><dd>Good example: Text on the screen without audio 
+      <br>E.g. Video on YouTube: Cory Booker: Why Trump should try being nice on Twitter <a href="http://youtu.be/8p5n0TbRFEk">http://youtu.be/8p5n0TbRFEk</a> (at 1:05 you will hear the sound​)<br></dd> ​ </dl>
 
 
