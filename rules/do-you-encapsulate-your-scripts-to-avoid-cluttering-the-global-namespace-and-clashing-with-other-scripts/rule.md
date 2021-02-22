@@ -11,9 +11,83 @@ redirects: []
 
 ---
 
-
-It's very common to see people creating variables and methods in the global namespace not worrying about&#160;how they&#160;will behave in conjunction with other libraries and custom codes. Once you have a handful of libraries&#160;and several people working on the same&#160;project&#160;you'll find that a lot of&#160;method and variable names will overlap, so if you don't take enough care, you will have your methods and variables overwritten and your page&#160;breaking for no apparent reason.
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">var buttonClicked = false;<br>function click()<br>&#123;<br>&#160; &#160; &#160;buttonClicked = true;<br>&#125;​</p><dd class="ssw15-rteElement-FigureBad">​​​​​Bad example - create variables and methods in the global namespace&#160;</dd><p class="ssw15-rteElement-P">In order&#160;to avoid your variables and methods to be overwritten, it's best practice to encapsulate them.</p><p class="ssw15-rteElement-CodeArea">​​(function(ssw)&#123;<br>&#160; &#160; var buttonClicked = false; //private variable&#160;<br>&#160; &#160; ssw.click = function()&#123;​&#160;//public method<br>&#160; &#160; &#123;<br>&#160; &#160; &#160; &#160; buttonClicked = true;<br>&#160; &#160; &#125;<br>&#125;(window.SSW = window.SSW || &#123;&#125;));</p><dd class="ssw15-rteElement-FigureGood">​Good example - the variable and&#160;method&#160;are&#160;now&#160;encapsulate and under a distinct namespace<br></dd><p class="ssw15-rteElement-P">​​By encapsulating your script using this&#160;anonymous&#160;function, you can as well pass some&#160;parameter&#160;to be used within it and again not worrying about being&#160;overwritten somewhere else.​ A very used library is jQuery, simply&#160;referred as $ in the code, although&#160;​it's not common, in some cases you'll see&#160;the $ conflicting with some existing library and to avoid that&#160;we can pass jQuery as a parameter for this anonymous function then use $ freely inside that context.<br></p><p class="ssw15-rteElement-CodeArea">​<span style="font-size&#58;12px;line-height&#58;19.2000007629395px;background-color&#58;#eeeeee;">​​(function(ssw,<strong>$</strong>)&#123;</span><br style="font-size&#58;12px;line-height&#58;19.2000007629395px;"><span style="font-size&#58;12px;line-height&#58;19.2000007629395px;background-color&#58;#eeeeee;">&#160; &#160; var buttonClicked = false; //private variable&#160;</span><br style="font-size&#58;12px;line-height&#58;19.2000007629395px;"><span style="font-size&#58;12px;line-height&#58;19.2000007629395px;background-color&#58;#eeeeee;">&#160; &#160; ssw.click = function()​ //public method</span><br style="font-size&#58;12px;line-height&#58;19.2000007629395px;"><span style="font-size&#58;12px;line-height&#58;19.2000007629395px;background-color&#58;#eeeeee;">&#160; &#160; &#123;</span><br style="font-size&#58;12px;line-height&#58;19.2000007629395px;"><span style="font-size&#58;12px;line-height&#58;19.2000007629395px;background-color&#58;#eeeeee;">&#160; &#160; &#160; &#160; buttonClicked = true;<br></span>&#160; &#160; &#160; &#160; <strong>$('#id').html('&lt;span&gt;Example&lt;/span&gt;');</strong><br style="font-size&#58;12px;line-height&#58;19.2000007629395px;"><span style="font-size&#58;12px;line-height&#58;19.2000007629395px;background-color&#58;#eeeeee;">&#160; &#160; &#125;</span><br style="font-size&#58;12px;line-height&#58;19.2000007629395px;"><span style="font-size&#58;12px;line-height&#58;19.2000007629395px;background-color&#58;#eeeeee;">&#125;(window.SSW = window.SSW || &#123;&#125;, <strong>jQuery</strong>));</span><br></p><dd class="ssw15-rteElement-FigureGood">​​​Good example - jQuery being passed as parameter of the anonymous function</dd><p class="ssw15-rteElement-P">​​​Since JavaScript is very&#160;forgiving language, you could even redefine the meaning of <em>undefined</em> to something like <em>true</em>, which would probably make a lot of noise inside your code, to avoid this let's make sure that <em>undefined</em> is really <em>undefined</em>&#160;by completing this pattern this way&#58;<br></p><p class="ssw15-rteElement-CodeArea">(function(ssw,$,<strong>undefined</strong>)&#123;<br>&#160; &#160; var buttonClicked = false; //private variable&#160;<br>&#160; &#160; ssw.click = function()​ //public method<br>&#160; &#160; &#123;<br>&#160; &#160; &#160; &#160; buttonClicked = true;<br>&#160; &#160; &#160; &#160;&#160;$('#id').html('&lt;span&gt;Example&lt;/span&gt;');<br>&#160; &#160; &#125;<br>&#125;(window.SSW = window.SSW || &#123;&#125;,&#160;jQuery));​ <strong>//nothing added as the third parameter</strong><br></p><dd class="ssw15-rteElement-FigureGood">​​​Good example - making sure undefined is really undefined<br></dd>
+It's very common to see people creating variables and methods in the global namespace not worrying about how they will behave in conjunction with other libraries and custom codes. Once you have a handful of libraries and several people working on the same project you'll find that a lot of method and variable names will overlap, so if you don't take enough care, you will have your methods and variables overwritten and your page breaking for no apparent reason. 
+<!--endintro-->
 
 
+
+```
+var buttonClicked = false;
+function click()
+{
+     buttonClicked = true;
+}
+```
+
+
+
+
+::: bad
+Bad example - create variables and methods in the global namespace   
+:::
+
+In order to avoid your variables and methods to be overwritten, it's best practice to encapsulate them.
+
+
+
+```
+(function(ssw){
+    var buttonClicked = false; //private variable 
+    ssw.click = function(){ //public method
+    {
+        buttonClicked = true;
+    }
+}(window.SSW = window.SSW || {}));
+```
+
+
+
+
+::: good
+Good example - the variable and method are now encapsulate and under a distinct namespace
+
+:::
+
+By encapsulating your script using this anonymous function, you can as well pass some parameter to be used within it and again not worrying about being overwritten somewhere else. A very used library is jQuery, simply referred as $ in the code, although it's not common, in some cases you'll see the $ conflicting with some existing library and to avoid that we can pass jQuery as a parameter for this anonymous function then use $ freely inside that context.
+
+
+
+```
+(function(ssw, $ ){    var buttonClicked = false; //private variable     ssw.click = function() //public method    {        buttonClicked = true;
+         $('#id').html('<span>Example</span>');     }}(window.SSW = window.SSW || {},  jQuery ));
+```
+
+
+
+
+::: good
+Good example - jQuery being passed as parameter of the anonymous function  
+:::
+
+Since JavaScript is very forgiving language, you could even redefine the meaning of *undefined* to something like *true*, which would probably make a lot of noise inside your code, to avoid this let's make sure that *undefined* is really *undefined* by completing this pattern this way:
+
+
+
+```
+(function(ssw,$, undefined ){
+    var buttonClicked = false; //private variable 
+    ssw.click = function() //public method
+    {
+        buttonClicked = true;
+        $('#id').html('<span>Example</span>');
+    }
+}(window.SSW = window.SSW || {}, jQuery));  //nothing added as the third parameter
+```
+
+
+
+
+::: good
+Good example - making sure undefined is really undefined
+
+:::
