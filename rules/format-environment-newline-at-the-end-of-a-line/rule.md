@@ -14,9 +14,53 @@ redirects:
 
 ---
 
-
-You&#160;should format &quot;Environment.NewLine&quot; at the end of a line.​​<br>​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">string message =&#160;&quot;The&#160;database is not valid.&quot; + Environment.NewLine + &quot;Do you want to upgrade it? &quot;;<br></p><dd class="ssw15-rteElement-FigureBad">Bad Example&#58; &quot;Environment.NewLine&quot; isn't at the end of the line <br></dd><p><br></p><p class="ssw15-rteElement-CodeArea">string message =&#160;&quot;The&#160;database is not valid.&quot; + Environment.NewLine;<br>message +=&#160;&quot;Do you want to upgrade it? &quot;;​<br></p><dd class="ssw15-rteElement-FigureGood">Good Example&#58; &#160;&quot;Environment.NewLine&quot; is at the end of the line <br></dd><p>​​<br></p><p class="ssw15-rteElement-CodeArea">return string.Join(Environment.NewLine, paragraphs);</p><dd class="ssw15-rteElement-FigureGood">Good Example&#58; ​&quot;Environment.NewLine&quot; is an exception for String.Join  </dd><p>​<br></p>
+You should format "Environment.NewLine" at the end of a line.
 
 
+<!--endintro-->
+
+
+
+```
+string message = "The database is not valid." + Environment.NewLine + "Do you want to upgrade it? ";
+```
+
+
+
+
+::: bad
+Bad Example: "Environment.NewLine" isn't at the end of the line 
+
+:::
+
+
+
+
+
+```
+string message = "The database is not valid." + Environment.NewLine;
+message += "Do you want to upgrade it? ";
+```
+
+
+
+
+::: good
+Good Example:  "Environment.NewLine" is at the end of the line 
+
+:::
+
+
+
+
+
+```
+return string.Join(Environment.NewLine, paragraphs);
+```
+
+
+
+
+::: good
+Good Example: "Environment.NewLine" is an exception for String.Join  
+:::
