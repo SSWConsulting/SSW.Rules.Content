@@ -22,26 +22,32 @@ redirects:
 
 ---
 
+Estimates contain two main classes of work: Work relating to the particular product (e.g. Create Customers.aspx) and work relating to the project as a whole (e.g. management, administration, testing, software audit etc.).
+
+PBIs may only make up about 60% of the total project time. Project Managers and developers should not think that the only work being charged on a project are coding tasks.
+
+<!--endintro-->
+
+**General Project Costs 
+** Management costs can change depending on how much management the client requires. You should recommend a suitable level of management. 'Management, accountability and transparency' has a cost.
+
+You should add general project costs as a % of the work items generally in line with the following (note that these numbers are just best guesses):
+
+* Testing: 20%
+* Bug Fixes: 20%
+* Software Audit (if relevant): 4 hours per Release - usually conducted by two experienced Architects
+* Fixes from the Software Audit: 5%
+* DevOps: 10%
+* Project Management: 15% - this includes items like stand up meetings, timesheets, standard updates, reviews, etc.
+* Unknowns (for risky projects): 10%. While this is arbitrary it raises awareness for everybody that 'there are things we still don't know!'
 
 
-  <p>​Estimates&#160;contain two main classes of work&#58; Work&#160;relating to the particular product (e.g. Create Customers.aspx) and work relating to the project as a whole&#160;(e.g. management, administration, testing, software audit etc.). <br></p>
-<p>PBIs may&#160;only make up about&#160;60% of the total project time. Project Managers and developers should not think that the only work being charged on a project are coding tasks.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
+**Project Specific Costs**
 
-  <p>
-    <strong>General Project Costs <br>
-</strong>Management costs can change depending on how much management the client requires. You should&#160;recommend a suitable level of management. 'Management,&#160;accountability and transparency' has a cost. </p>
-<p>You should add general project costs as a % of the work items generally in line with the following (note that these numbers are just best guesses)&#58;<br></p><ul>
-    <li>​Testing&#58; 20%​<br></li><li>Bug Fixes&#58; 20%​<br></li>
-    <li>Software Audit (if relevant)&#58; 4 hours per Release - usually conducted by two experienced Architects </li>
-    <li>Fixes from the Software Audit&#58; 5% </li>
-    <li>DevOps&#58; 10%<br></li><li>Project Management&#58; 15% - this includes items like stand up meetings, timesheets, standard updates, reviews, etc.<br></li>
-    <li>Unknowns (for risky projects)&#58; 10%. While this is arbitrary it raises awareness for everybody ​that 'there are things we still don't know!'<br></li>
-</ul>
-<p><strong>Project Specific Costs </strong></p>
-<p>Estimates for a project should&#160;be done by a developer, checked by another developer, and finally triple checked by an Account&#160;Manager. While every project is different in some way, there are common elements.&#160;<br></p><p>SSW has built an estimates calculator to assist in cre​ating estimates.&#160;<span style="line-height&#58;1.6;">See the </span><a href="/Documents/4.%20Estimates%20Calculator.xlsx?d=w6f09d6a75d074fbda81e5e5dd3e18c76" style="line-height&#58;1.6;">Estimates Calculator</a>&#160;here.<br></p>
-<p>​If the client requires a fixed price quotation, a 20% premium is added to the estimates for the sprints&#160;specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract, work is completed offsite only to facilitate project management and prevent unauthorized scope development.​ </p>
-<p>Note&#58;&#160;A suggestion for Microsoft&#58;&#160;It would be great if TFS&#160;had functionality to&#160;“Add <a href="http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems">Standard Items </a>to a Sprint”​ </p>
+Estimates for a project should be done by a developer, checked by another developer, and finally triple checked by an Account Manager. While every project is different in some way, there are common elements.
 
+SSW has built an estimates calculator to assist in creating estimates. See the [Estimates Calculator](/Documents/4.%20Estimates%20Calculator.xlsx?d=w6f09d6a75d074fbda81e5e5dd3e18c76) here.
 
+If the client requires a fixed price quotation, a 20% premium is added to the estimates for the sprints specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract, work is completed offsite only to facilitate project management and prevent unauthorized scope development.
 
+Note: A suggestion for Microsoft: It would be great if TFS had functionality to “Add [Standard Items](http&#58;//www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems)to a Sprint”
