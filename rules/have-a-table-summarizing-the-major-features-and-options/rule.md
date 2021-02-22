@@ -14,9 +14,18 @@ redirects:
 
 ---
 
+Use a table to summarize the major features of the project. Columns that are needed are:
 
-<p class="ssw15-rteElement-P">Use a table to summarize the major features of the project. Columns that are needed are:​<br></p><ul><li>Required</li><li>Desired</li><li><b>Option A</b> <span class="ssw15-rteStyle-Highlight">(Recommended)</span><br></li><li><b>Option B​​</b></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="Proposals_OptionAHighlighted.jpg" alt="Proposals_OptionAHighlighted.jpg" />​<br></dt><dd>Figure: Highlight the option recommended<br></dd></dl><h3>​Related Rule</h3><ul><li><a href=/do-you-manage-up>Teamwork - Do you manage up? (Give a recommendation)​</a><br></li></ul>
+* Required
+* Desired
+* **Option A** <mark>(Recommended)</mark>
+* **Option B**
 
 
+<!--endintro-->
+
+![Figure: Highlight the option recommended](Proposals\_OptionAHighlighted.jpg)  
+
+### Related Rule
+
+* [Teamwork - Do you manage up? (Give a recommendation)](/do-you-manage-up)
