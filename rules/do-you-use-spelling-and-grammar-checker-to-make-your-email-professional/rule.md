@@ -15,12 +15,8 @@ redirects: []
 
 ---
 
+Improper spelling, grammar, and punctuation on your emails give a bad impression of your company. It looks unprofessional and can result in your message not being conveyed correctly. To ensure this doesn't happen, use Microsoft Outlook Spelling & Grammar Checker on the 'Editor Options' window.
 
-​​Improper spelling, grammar, and punctuation on your emails give a bad impression of your company. It looks unprofessional and can result in your message not being conveyed correctly. To ensure this doesn't happen, use Microsoft Outlook Spelling & Grammar Checker on the 'Editor Options' window.<br>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="image"><dt> 
-      <img src="outlook-spelling.png" alt="outlook-spelling.png" />
-   </dt><dd>Figure: You should also check “Always check spelling before sending” to ensure your message doesn't have mistakes<br> </dd></dl>
-
-
+![Figure: You should also check “Always check spelling before sending” to ensure your message doesn't have mistakes](outlook-spelling.png)
