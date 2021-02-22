@@ -20,6 +20,5 @@ index:
 - mention-when-you-make-a-pull-request-or-comment-on-github
 
 ---
-
 Rules to Better GitHub
 
