@@ -13,21 +13,31 @@ redirects: []
 
 ---
 
+When you have finished with the VHD for the presentation you will want to remove the boot entries that were created for the VHD.  
+<!--endintro-->
 
-When you have finished with the VHD for the presentation you will want to remove the boot entries that were created for the VHD.
-
-<br><excerpt class='endintro'></excerpt><br>
-
-  <ol>
-    <li>Open an administrative command prompt</li>
-    <li>View all the boot entries by typing: <font class="ms-rteCustom-CodeArea" size="+0">bcdedit</font> <img alt="The list Boot entries after running bcdedit" src="fig6-listbootentries.png" /><br>
-    <font class="ms-rteCustom-FigureNormal" size="+0">Figure - The list Boot entries after running bcdedit<br>
-    </font></li>
-    <li>Using the <strong>identifier</strong> from the previous step you can now run the following command to delete the entry:<br>
-    <font class="ms-rteCustom-CodeArea" size="+0">bcdedit /delete <strong>{identifier}</strong></font><img style="width:677px;height:219px;" alt="The boot entry has now been deleted" src="fig7-deletingthebootentry.png" /><br>
-    <font class="ms-rteCustom-FigureNormal" size="+0">Figure - The boot entry has now been deleted</font></li>
-</ol>
-You can now delete or move your VHD file and you will not get any errors when booting your laptop.
+1. Open an administrative command prompt
+2. View all the boot entries by typing: 
 
 
+```
+bcdedit
+```
 
+
+ ![The list Boot entries after running bcdedit](fig6-listbootentries.png)
+**Figure - The list Boot entries after running bcdedit
+**
+3. Using the  **identifier** from the previous step you can now run the following command to delete the entry:
+
+
+
+```
+bcdedit /delete  {identifier}
+```
+
+
+![The boot entry has now been deleted](fig7-deletingthebootentry.png)
+**Figure - The boot entry has now been deleted**
+
+ You can now delete or move your VHD file and you will not get any errors when booting your laptop.
