@@ -11,14 +11,13 @@ redirects: []
 
 ---
 
+It's OK to use text because it's more natural, but use columns if you need:
 
-<div>It's OK to use text because it's more natural, but use columns if you need:</div>
-<ul><li>reordering</li>
-<li>side by side comparison</li>
-<li>totals</li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="Image"><dt><img alt="Bad alignment" src="../../assets/ColumnsText.jpg" /></dt>
-<dd>Figure: While text looks friendlier, in terms of presenting data it's not the easiest to read</dd></dl>
+* reordering
+* side by side comparison
+* totals
 
 
+<!--endintro-->
 
+![Figure: While text looks friendlier, in terms of presenting data it's not the easiest to read](../../assets/ColumnsText.jpg)
