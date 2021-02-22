@@ -37,7 +37,7 @@ redirects:
       <b>Enterprise MVC Music Store</b> - 
       <a href="https&#58;//github.com/SSWConsulting/enterprise-musicstore-mvc4">https&#58;//github.com/SSWConsulting/enterprise-musicstore-mvc4</a> &amp; 
       <a href="https&#58;//github.com/SSWConsulting/enterprise-musicstore-api-aspnet">https&#58;//github.com/SSWConsulting/enterprise-musicstore-api-aspnet</a>&#160;<br><span style="background-color&#58;initial;">Music store sample with enterprise architecture using Entity Framework and the </span> 
-      <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=d9095365-95c6-4474-b7aa-1986efca7a27" style="background-color&#58;initial;">Onion Architecture</a><br></li></ul><h4> 
+      <a href=/do-you-know-the-layers-of-the-onion-architecture style="background-color&#58;initial;">Onion Architecture</a><br></li></ul><h4> 
    <br> 
 </h4>
 
