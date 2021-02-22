@@ -13,14 +13,23 @@ redirects: []
 
 ---
 
+Timesheets have always been the bane of developers, with them trying every excuse under the sun to avoid them and project managers trying everything to convince them to enter them.
 
-Timesheets have always been the bane of developers, with them trying every excuse under the sun to avoid them and project managers trying everything to convince them to enter them.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>
-      <img class="ms-rteCustom-ImageArea" alt="Our Office Manager chasing up timesheets" src="chase-up-timesheets.jpg" />
-   </dt><dd>Figure: Our Office Manager chasing up timesheets</dd></dl><p>The main problem is timesheet entry is often difficult, time consuming and requires double entry (e.g. into different systems TFS and invoicing system).</p><p>Project Server 2013 offers a solution that integrates with TFS work items.</p><dl class="goodImage"><dt>
-      <img class="ms-rteCustom-ImageArea" alt="Project Server 2010 pulls work items from TFS and updates the actual and remaining hours" src="tfs-timesheets.jpg" /> 
-   </dt><dd>Figure: Project Server 2013 pulls work items from TFS and updates the actual and remaining hours</dd></dl>
-<p class="greyBox">If you want a timesheeting solution built on top of Microsoft CRM and Azure DevOps, See <a href="https://sswtimepro.com/">www.SSWTimepro.com</a> or call SSW on <b>+61 2 9953 3000</b>.​<br></p>
+<!--endintro-->
+
+![Figure: Our Office Manager chasing up timesheets](chase-up-timesheets.jpg)  
+
+The main problem is timesheet entry is often difficult, time consuming and requires double entry (e.g. into different systems TFS and invoicing system).
+
+Project Server 2013 offers a solution that integrates with TFS work items.
 
 
+::: good  
+![Figure: Project Server 2013 pulls work items from TFS and updates the actual and remaining hours](tfs-timesheets.jpg)  
+:::
+
+
+::: greybox
+If you want a timesheeting solution built on top of Microsoft CRM and Azure DevOps, See [www.SSWTimepro.com](https://sswtimepro.com/) or call SSW on  **+61 2 9953 3000** .
+
+:::
