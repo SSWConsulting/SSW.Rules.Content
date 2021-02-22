@@ -17,18 +17,29 @@ redirects: []
 
 ---
 
+The ability to see the overall health (performance counters, exceptions, data usages, page hit counts etc.) of your application ensures you are well in control of it and have all the necessary information at your hands to action any bugs or performance issues. An analytics framework allows you to do all of that in a consistent and centralised manner.  
+<!--endintro-->
+ An analytics framework puts you in control of your application and allows you to do the following:  
 
-​The ability&#160;to see the&#160;overall health (performance counters, exceptions, data usages, page hit counts etc.) of your application&#160;ensures you are well in control of it and have all the necessary information at your hands to action any bugs or performance issues. An&#160;analytics framework allows you to do all of that in a consistent and centralised manner.&#160;
-<br><excerpt class='endintro'></excerpt><br>
-​​An analytics framework puts you in control of your application and allows you to do the following&#58; 
-<div><ul><li>
-         <span style="line-height&#58;20px;">Capture,&#160;log and action&#160;exceptions<br></span></li><li>
-         <span style="line-height&#58;20px;">Analyse performance issues and identify&#160;bottlenecks</span></li><li>
-         <span style="line-height&#58;20px;">Track application usage down to individual components</span></li><li>
-         <span style="line-height&#58;20px;">View and&#160;create performance reports</span></li><li>
-         <span style="line-height&#58;20px;">Analyse&#160;user&#160;demographics</span></li></ul><div>There are a&#160;number of existing Analytics frameworks available on the market, so there is no need to &quot;re-invent the wheel&quot;. Why would you write your own if someone else has already taken the trouble to do it? We recommend using one of these frameworks or services​&#58;</div></div><div><ul><li><a href="/rules-to-better-application-insights-for-visual-studio-online">Application Insights for Visual Studio Online​</a>&#160;(preferred)</li><li> 
-         <a href="http&#58;//www.telerik.com/analytics">Telerik Analytics</a></li><li> 
-         <a href="http&#58;//exceptionless.com/">Exceptionless.NET</a>​</li><li>​<a href="https&#58;//docs.newrelic.com/docs/dotnet/the-net-agent-api">New Relic​</a></li><li><a href="http&#58;//www.splunk.com/">Splunk</a>​</li><li><a href="http&#58;//serilog.net/">Serilog</a>​</li><li><a href="http&#58;//appfail.net/">appfail</a>​</li><li><a href="http&#58;//www.nuget.org/packages/ELMAH">Elmah</a>​</li></ul><div>
-      <span style="line-height&#58;21px;">Each one of those frameworks&#160;has a fairly extensive set of tools available and are easy to integrate into your application.​</span></div></div>
+* Capture, log and action exceptions
+* Analyse performance issues and identify bottlenecks
+* Track application usage down to individual components
+* View and create performance reports
+* Analyse user demographics
 
 
+There are a number of existing Analytics frameworks available on the market, so there is no need to "re-invent the wheel". Why would you write your own if someone else has already taken the trouble to do it? We recommend using one of these frameworks or services:
+
+
+
+* [Application Insights for Visual Studio Online](/rules-to-better-application-insights-for-visual-studio-online) (preferred)
+* [Telerik Analytics](http&#58;//www.telerik.com/analytics)
+* [Exceptionless.NET](http&#58;//exceptionless.com/)
+* [New Relic](https&#58;//docs.newrelic.com/docs/dotnet/the-net-agent-api)
+* [Splunk](http&#58;//www.splunk.com/)
+* [Serilog](http&#58;//serilog.net/)
+* [appfail](http&#58;//appfail.net/)
+* [Elmah](http&#58;//www.nuget.org/packages/ELMAH)
+
+
+Each one of those frameworks has a fairly extensive set of tools available and are easy to integrate into your application.
