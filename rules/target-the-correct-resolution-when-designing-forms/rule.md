@@ -14,9 +14,8 @@ redirects:
 
 ---
 
+You will target your application towards resolutions that your customers can use comfortably. It is no good to just tell the customer to increase their resolution on their 15-inch LCD  because your application and others can become unreadable on smaller screens.
 
-<p>You will target your application towards resolutions that your customers can use comfortably. It is no good to just tell the customer to increase their resolution on their 15-inch LCD &#160;because your application and others can become unreadable on smaller screens. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​<span style="line-height&#58;20.8px;">See&#160;</span><a href=/do-you-design-your-web-pages-to-work-on-mobile-tablets-screens-aka-responsive-web-design style="line-height&#58;20.8px;">this rule​</a><span style="line-height&#58;20.8px;">&#160;for a guide as to which resolutions you will be targeting.</span></p>
+<!--endintro-->
 
-
+See [this rule](/do-you-design-your-web-pages-to-work-on-mobile-tablets-screens-aka-responsive-web-design) for a guide as to which resolutions you will be targeting.
