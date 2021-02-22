@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-<p class="ssw15-rteElement-P"><strong>Ad extensions are additional pieces of information about your business, like a phone number or a link to a specific page on your website, that we can add to your ads</strong>. Keep in mind that ad extensions can improve the visibility of your ads, which can lead to more clicks and improve your ROI. It’ll give the ad greater visibility/prominence, so you tend to get more value from your ad. These are the possibilities&#58;<br></p>
+<p class="ssw15-rteElement-P"><strong>Ad extensions are additional pieces of information about your business, like a phone number or a link to a specific page on your website, that we can add to your ads</strong>. Keep in mind that ad extensions can improve the visibility of your ads, which can lead to more clicks and improve your ROI. It’ll give the ad greater visibility/prominence, so you tend to get more value from your ad. These are the possibilities:<br></p>
 <br><excerpt class='endintro'></excerpt><br>
 <ul><li> 
       <b>App extensions </b>– downloading an app (when appropriate to your business)<br></li><li> 
@@ -29,7 +29,7 @@ redirects:
       <b>Promotion</b> – coupons, deals, sales offerings.<br></li><li> 
       <b>Call out</b> – Additional detail/an invitation to a call-to-action.<br></li><li> 
       <b>Sitelinks</b> – Promoting links from your website you want to advertise!<br></li></ul><dl class="badImage"><dt>
-      <img src="/PublishingImages/google-ad-no-ad-extension.jpg" alt="google-ad-no-ad-extension.jpg" />
-   </dt><dd>Figure&#58; Bad Example – Ad doesn't have a clear message about either product or service, there’s no call extension even though it mentions &quot;Call Now&quot;​<br></dd></dl><dl class="goodImage"><dt><img src="/PublishingImages/google-ad-extension.jpg" alt="google-ad-extension.jpg" />​<br></dt><dd>Figure&#58; Good Example - Sitelinks and Call extensions on one of our mobile ads​</dd></dl>​
+      <img src="google-ad-no-ad-extension.jpg" alt="google-ad-no-ad-extension.jpg" />
+   </dt><dd>Figure: Bad Example – Ad doesn't have a clear message about either product or service, there’s no call extension even though it mentions "Call Now"​<br></dd></dl><dl class="goodImage"><dt><img src="google-ad-extension.jpg" alt="google-ad-extension.jpg" />​<br></dt><dd>Figure: Good Example - Sitelinks and Call extensions on one of our mobile ads​</dd></dl>​
 
 
