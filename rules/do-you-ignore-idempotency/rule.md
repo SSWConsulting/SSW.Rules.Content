@@ -13,21 +13,23 @@ redirects: []
 
 ---
 
+Many developers worry about Idempotency. They make sure that their scripts can run multiple times without it affecting the database, upon subsequent running of the script.
+
+This usually involves a check at the start to see if the object exists or not. 
+ eg. If this table exists, then don't create the table.
+
+ Seems popular, seems like a good idea, right?  Wrong! And here is why.
+
+<!--endintro-->
+
+Database scripts should be run in order (into separate sequential files), as per the rule [Do you script out all changes?](http://www.ssw.com.au/ssw/standards/rules/rulestobettersqlserverdatabases.aspx#ScriptOutChanges)
+
+ Therefore developers should not worry about idempotency, as the script will run in the order it was created. Actually, if they are doing this, then  **\*they want to see the errors\*** . It means that the database is not in the state that they expect.
 
 
-  <p>Many developers worry about Idempotency. They make sure that their scripts can run multiple times without it affecting the database, upon subsequent running of the script. </p>
-<p>This usually involves a check at the start to see if the object exists or not. <br>
-eg. If this table exists, then don't create the table.<br>
-<br>
-Seems popular, seems like a good idea, right?  Wrong! And here is why.</p>
 
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p>Database scripts should be run in order (into separate sequential files), as per the rule <a shape="rect" href="http://www.ssw.com.au/ssw/standards/rules/rulestobettersqlserverdatabases.aspx#ScriptOutChanges">Do you script out all changes?</a><br>
-<br>
-Therefore developers should not worry about idempotency, as the script will run in the order it was created. Actually, if they are doing this, then <strong>*they want to see the errors*</strong>. It means that the database is not in the state that they expect.</p>
-<font class="ms-rteCustom-CodeArea" size="+0">
-<pre>IF EXISTS (SELECT 1 FROM 
+```
+IF EXISTS (SELECT 1 FROM 
                INFORMATION_SCHEMA.TABLES 
            WHERE 
                TABLE_TYPE='BASE TABLE' AND 
@@ -36,18 +38,30 @@ Therefore developers should not worry about idempotency, as the script will run 
     ALTER TABLE [dbo].[Employees]( …… ) ON [PRIMARY] 
 ELSE 
     CREATE TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
-</pre>
-</font><font class="ms-rteCustom-FigureBad" size="+0">Bad example – worrying about the idempotency should not be done, if you plan to run your scripts in the order they were created</font> <font class="ms-rteCustom-CodeArea" size="+0">
-<pre>CREATE TABLE [dbo].[Employees](
+```
+
+
+
+
+::: bad
+Bad example – worrying about the idempotency should not be done, if you plan to run your scripts in the order they were created  
+:::
+ 
+
+
+```
+CREATE TABLE [dbo].[Employees](
     ……
 ) ON [PRIMARY]
-</pre>
-</font><font class="ms-rteCustom-FigureGood" size="+0">Good example – not worrying about the idempotency. If errors occur we don’t want them to be hidden + it is easier to read</font><br>
-<dl class="image">
-    <dt><img alt="" src="ViagraPill.jpg" /> </dt>
-    <dd>Figure: Viagra isn't the cure to your Idempotency problems </dd>
-</dl>
-See the concept of <span style="font-family:'calibri','sans-serif';font-size:11pt;"><a shape="rect" href="http://en.wikipedia.org/wiki/Idempotence"><span style="font-family:'calibri','sans-serif';font-size:11pt;">Idempotence on WikiPedia</span></a></span> 
+```
 
 
 
+
+::: good
+Good example – not worrying about the idempotency. If errors occur we don’t want them to be hidden + it is easier to read  
+:::
+
+
+![Figure: Viagra isn't the cure to your Idempotency problems](ViagraPill.jpg)  
+       See the concept of [Idempotence on WikiPedia](http://en.wikipedia.org/wiki/Idempotence)
