@@ -11,13 +11,16 @@ redirects: []
 
 ---
 
+Make the options clearer by using bold.
 
-<p>Make the options clearer by using bold.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<dl class="badImage"><dt><img alt="SSW Link Auditor - Command Line" src="../../assets/OptionsTextNotInBold.gif" /></dt>
-<dd>Figure: Bad Example - Main options text not in bold</dd></dl>
-<dl class="goodImage"><dt><img alt="SSW Link Auditor - Command Line" src="../../assets/OptionsTextInBold.gif" /></dt>
-<dd>Figure: Good Example - Main options text in bold</dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - Main options text not in bold](../../assets/OptionsTextNotInBold.gif)  
+:::
 
+
+::: good  
+![Figure: Good Example - Main options text in bold](../../assets/OptionsTextInBold.gif)  
+:::
