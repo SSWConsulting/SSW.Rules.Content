@@ -14,9 +14,48 @@ redirects:
 
 ---
 
+Sometimes the button's event handler hook-up could be lost by accident, but there will be no warning or error reported when you compile your applications. 
 
-Sometimes the button's event handler hook-up could be lost by accident, but there will be no warning or error reported when you compile your applications. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">​​this.button1 = new System.Windows.Forms.Button();<br>this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;<br>this.button1.Location = new System.Drawing.Point(419, 115);<br>this.button1.Name = &quot;button1&quot;;<br>this.button1.Size = new System.Drawing.Size(75, 23);<br>this.button1.TabIndex = 60;<br>this.button1.UseVisualStyleBackColor = true;<br></p><dd class="ssw15-rteElement-FigureBad">Bad Example - the event handler hook-up is lost, so there will be no response after you click the butto​​n​<br></dd><p class="ssw15-rteElement-CodeArea">this.btnResetAll = new System.Windows.Forms.Button();<br>this.btnResetAll.FlatStyle = System.Windows.Forms.FlatStyle.System;<br>this.btnResetAll.Location = new System.Drawing.Point(417, 410);<br>this.btnResetAll.Name = &quot;btnResetAll&quot;;<br>this.btnResetAll.Size = new System.Drawing.Size(75, 23);<br>this.btnResetAll.TabIndex = 54;<br>this.btnResetAll.Text = &quot;Reset &amp;All&quot;;<br>this.btnResetAll.UseVisualStyleBackColor = true;<br>this.btnResetAll.Click += new System.EventHandler(this.btnResetAll_Click); <br></p><dd class="ssw15-rteElement-FigureGood">Good Example &#58; keep the event handler hook-up together with the initialization of the button​​​​<br></dd><p>​<br><br></p>
+<!--endintro-->
 
 
+
+```
+this.button1 = new System.Windows.Forms.Button();
+this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
+this.button1.Location = new System.Drawing.Point(419, 115);
+this.button1.Name = "button1";
+this.button1.Size = new System.Drawing.Size(75, 23);
+this.button1.TabIndex = 60;
+this.button1.UseVisualStyleBackColor = true;
+```
+
+
+
+
+::: bad
+Bad Example - the event handler hook-up is lost, so there will be no response after you click the button
+
+:::
+
+
+
+```
+this.btnResetAll = new System.Windows.Forms.Button();
+this.btnResetAll.FlatStyle = System.Windows.Forms.FlatStyle.System;
+this.btnResetAll.Location = new System.Drawing.Point(417, 410);
+this.btnResetAll.Name = "btnResetAll";
+this.btnResetAll.Size = new System.Drawing.Size(75, 23);
+this.btnResetAll.TabIndex = 54;
+this.btnResetAll.Text = "Reset &All";
+this.btnResetAll.UseVisualStyleBackColor = true;
+this.btnResetAll.Click += new System.EventHandler(this.btnResetAll_Click);
+```
+
+
+
+
+::: good
+Good Example : keep the event handler hook-up together with the initialization of the button
+
+:::
