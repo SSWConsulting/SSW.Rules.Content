@@ -15,9 +15,14 @@ redirects: []
 
 ---
 
+Do you need to increase the attendance at your User Groups?
 
-​​​​​Do you need to increase the attendance at your User Groups?<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>A great way to increase your over all audience, as well as your attendance at each User Group, is to use social media and online forums like MeetUp​ to advertise your events. At SSW we use MeetUp, as well as the social media platforms, Twitter, Facebook, Instagram and LinkedIn to announce all of our upcoming User Groups and keep track of attendance.  <br></p><dl class="ssw15-rteElement-ImageArea"><img src="Tweet UG.jpg" alt="Tweet UG.jpg" style="margin:5px;" /><strong>     Figure: An example of SSW promoting the .NET User Group on Twitter.<br>​<br></strong></dl><p>​For tips on taking great photos for social media promotions, see <a href=/know-how-to-take-great-photos-for-your-socials>Do you know how to take great photos for your socials?​</a><br>​<br>You can read more about promoting your events here in our <a href=/rules-to-better-twitter-plus-facebook-and-other-social-networking>Rules to Better Twitter (plus Facebook and other Social Networking)</a> and in <a href=/promotion-do-people-know-about-your-event>Promotion - Do People Know About Your Event. ​</a><br></p><p><br></p><p><br></p>
+<!--endintro-->
 
+A great way to increase your over all audience, as well as your attendance at each User Group, is to use social media and online forums like MeetUp to advertise your events. At SSW we use MeetUp, as well as the social media platforms, Twitter, Facebook, Instagram and LinkedIn to announce all of our upcoming User Groups and keep track of attendance.
+![](Tweet UG.jpg) **Figure: An example of SSW promoting the .NET User Group on Twitter.
 
+** 
+For tips on taking great photos for social media promotions, see [Do you know how to take great photos for your socials?](/know-how-to-take-great-photos-for-your-socials)
+
+You can read more about promoting your events here in our [Rules to Better Twitter (plus Facebook and other Social Networking)](/rules-to-better-twitter-plus-facebook-and-other-social-networking) and in [Promotion - Do People Know About Your Event.](/promotion-do-people-know-about-your-event)
