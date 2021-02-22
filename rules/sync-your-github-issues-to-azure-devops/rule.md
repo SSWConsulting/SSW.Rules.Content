@@ -14,9 +14,88 @@ redirects:
 
 ---
 
+If you store all your code in GitHub, why not create all your issues there too?
 
-​​If you store all your code in GitHub, why not create all your issues there too?<div><br>You might be reluctant to move your backlog to GitHub from Azure DevOps as you don’t want to lose the metrics functionality. </div><div>But you can easily sync all your GitHub Issues to Azure DevOps automatically to have the best of both worlds.<br></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Here's a quick guide in setting it up for your GitHub Repository and Azure DevOps.​<br></p><p>1. Install the <a href="https://github.com/marketplace/azure-boards">Azure Boards App</a> from the GitHub Marketplace<br>2. Create the GitHub Action secrets​<br></p><blockquote style="margin:0px 0px 0px 40px;border:none;padding:0px;"><ul><li><strong>​​ADO_PERSONAL_ACCESS_TOKEN </strong>(Azure DevOps | User settings | Security | Personal access tokens)<br>The <a href="https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate">Azure Personal Access Token</a> requires "read & write" permission for Work Items.<br></li><li><strong>GH_PERSONAL_ACCESS_TOKEN </strong>(GitHub | Personal settings | Developer settings | Personal access tokens)<br>The <a href="https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line">GitHub Personal Access Token​</a> requires "repo" permissions.<br></li><li><strong>ADO_ORGANIZATION </strong>(https://<strong>ssw</strong>.visualstudio.com/SSW.Rules)<br>The Organization name is in your Azure DevOps URL.<br></li><li><strong>ADO_PROJECT </strong>(https://ssw.visualstudio.com/<strong>SSW.Rules</strong>)​<br>​The Project name can also be found in your Azure DevOps URL.<br></li></ul></blockquote><p>3. Create the following GitHub Action​<br></p><p>e.g.​ SSW uses this template for their projects, you may need to change the new and closed states depending on your environment.<br></p><p class="ssw15-rteElement-CodeArea">​​​name: Sync issue to Azure DevOps work item<br>on:<br>  issues:<br>    types:<br>      [opened, edited, deleted, closed, reopened, labeled, unlabeled, assigned]<br><br>jobs:<br>  alert:<br>    runs-on: ubuntu-latest<br>    steps:<br>      - uses: danhellem/github-actions-issue-to-work-item@master<br>        env:<br>          ado_token: "${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}"<br>          github_token: "${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}"<br>          ado_organization: "${{ secrets.ADO_ORGANIZATION }}"<br>          ado_project: "${{ secrets.ADO_PROJECT }}"<br>          ado_wit: "Product Backlog Item"<br>          ado_new_state: "New"<br>          ado_close_state: "Done"<br>          ado_bypassrules: true<br><br></p><dd class="ssw15-rteElement-FigureGood">Figure: Good Example - GitHub Action​​ to Sync Issues to Azure DevOps<br></dd><dl class="ssw15-rteElement-ImageArea"><br><img src="GitHub-Issues-Syncing-to-AzDevOps.png" alt="" style="margin:5px;" /><dd class="ssw15-rteElement-FigureGood">​Figure: Good Example - GitHub Issues Syncing to Azure DevOps<br>​<br></dd></dl><p class="ssw15-rteElement-P">​<span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">Pros</span><span style="color:#cc4141;font-family:"segoe ui", "trebuchet ms", tahoma, arial, verdana, sans-serif;font-size:18px;">​</span></p><ul><li>​Easily manage sprints and calculate burndown and cycle time<br></li><li>See all your GitHub Issues and Azure DevOps PBIs in one backlog<br></li><li>Automated tagging and hyperlinking between Issues and PBIs​<br></li></ul><h3 class="ssw15-rteElement-H3">Cons<br></h3><ul><li>The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog<br></li><li>​It won’t sync existing GitHub Issues unless they are updated<br></li></ul> <br>More information about this GitHub Action can be found here <a href="https://github.com/danhellem/github-actions-issue-to-work-item">https://github.com/danhellem/github-actions-issue-to-work-item</a><br><br><p></p>
+You might be reluctant to move your backlog to GitHub from Azure DevOps as you don’t want to lose the metrics functionality. 
+
+But you can easily sync all your GitHub Issues to Azure DevOps automatically to have the best of both worlds.
 
 
+<!--endintro-->
+
+Here's a quick guide in setting it up for your GitHub Repository and Azure DevOps.
+
+1. Install the [Azure Boards App](https://github.com/marketplace/azure-boards) from the GitHub Marketplace
+2. Create the GitHub Action secrets
+
+
+> * **ADO\_PERSONAL\_ACCESS\_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)
+> The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
+> * **GH\_PERSONAL\_ACCESS\_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)
+> The [GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) requires "repo" permissions.
+> * **ADO\_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)
+> The Organization name is in your Azure DevOps URL.
+> * **ADO\_PROJECT** (https://ssw.visualstudio.com/ **SSW.Rules** )
+> The Project name can also be found in your Azure DevOps URL.
+
+
+3. Create the following GitHub Action
+
+e.g. SSW uses this template for their projects, you may need to change the new and closed states depending on your environment.
+
+
+
+```
+name: Sync issue to Azure DevOps work item
+on:
+  issues:
+    types:
+      [opened, edited, deleted, closed, reopened, labeled, unlabeled, assigned]
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: danhellem/github-actions-issue-to-work-item@master
+        env:
+          ado_token: "${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}"
+          github_token: "${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}"
+          ado_organization: "${{ secrets.ADO_ORGANIZATION }}"
+          ado_project: "${{ secrets.ADO_PROJECT }}"
+          ado_wit: "Product Backlog Item"
+          ado_new_state: "New"
+          ado_close_state: "Done"
+          ado_bypassrules: true
+```
+
+
+
+
+::: good
+Figure: Good Example - GitHub Action to Sync Issues to Azure DevOps
+
+:::
+
+![](GitHub-Issues-Syncing-to-AzDevOps.png)
+
+::: good
+Figure: Good Example - GitHub Issues Syncing to Azure DevOps
+
+
+:::
+
+Pros
+
+* Easily manage sprints and calculate burndown and cycle time
+* See all your GitHub Issues and Azure DevOps PBIs in one backlog
+* Automated tagging and hyperlinking between Issues and PBIs
+
+
+### Cons
+
+
+* The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog
+* It won’t sync existing GitHub Issues unless they are updated
+
+ 
+More information about this GitHub Action can be found here https://github.com/danhellem/github-actions-issue-to-work-item
