@@ -85,6 +85,14 @@ index:
 - do-you-manage-your-email
 
 ---
-<p>​​​​​​​​​​​​Often emails are rambling and unorganized, forcing the reader to wade through blocks of totally useless text. When it comes to written communication, less is more. Having hundreds of emails in your Inbox is not uncommon. But it's very uncommon to find people who successfully manage their Inbox.&#160;Instead, they let their Inbox become a great black hole with no business value. Email has a bad name in business primarily because people don't treat email correctly.</p><p>Email can be a vital tool&#160;to&#160;your company and your software development project, but it has to be managed. Email should be an accurate record of requests, conversations, and decisions. Emails are legal documents and should be treated with the same care as any other correspondence with clients or employees. Email is also an extremely effective task tracking tool, and requests made by email should be treated with the same seriousness as Project Plans and other directives, for email can be seen as the protocol between the sender and receiver. Here is a series of email&#160;rules/etiquette&#160;that govern how we use our Inbox.<br></p>
-<p>​​​</p>
+Often emails are rambling and unorganized, forcing the reader to wade through blocks of totally useless text. When it comes to written communication, less is more. Having hundreds of emails in your Inbox is not uncommon. But it's very uncommon to find people who successfully manage their Inbox. Instead, they let their Inbox become a great black hole with no business value. Email has a bad name in business primarily because people don't treat email correctly.
+
+Email can be a vital tool to your company and your software development project, but it has to be managed. Email should be an accurate record of requests, conversations, and decisions. Emails are legal documents and should be treated with the same care as any other correspondence with clients or employees. Email is also an extremely effective task tracking tool, and requests made by email should be treated with the same seriousness as Project Plans and other directives, for email can be seen as the protocol between the sender and receiver. Here is a series of email rules/etiquette that govern how we use our Inbox.
+
+
+
+`youtube: https://www.youtube.com/embed/LAqRokqq4jI?rel=0`
+ 
+
+Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments. [Let us know](javascript:sendEmail%28&#39;6D61696C746F3A496E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F253230426574746572253230456D61696C&#39;%29) what you think.
 
