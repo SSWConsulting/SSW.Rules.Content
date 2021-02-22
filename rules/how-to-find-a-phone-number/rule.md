@@ -16,19 +16,18 @@ redirects:
 
 ---
 
+As part of induction, employees would have been asked to enter their phone number into their Active Directory profile. That means this will be available in Skype for Business.
 
-<p class="ssw15-rteElement-P">As part of induction, employees would have been asked to enter their phone number into their Active Directory profile. That means this will be available in Skype for Business.</p><p class="ssw15-rteElement-P">You can find SSW Employee phone numbers in two ways:​​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>
-      <strong>Using Skype for Business</strong> 
-      <dl class="image"><dt>
-            <img src="../../assets/Image.jpg" alt="" style="width:600px;" />
-         </dt><dd>Figure: Right click on a user and click call and their mobile is there</dd></dl></li><li>
-      <strong>Using CRM</strong> 
-      <dl class="image"><dt>
-            <img src="../../assets/Image.jpg" alt="" style="width:600px;" /> 
-         </dt><dt>
-            <img src="../../assets/Image.jpg" alt="" style="width:750px;" />
-         </dt><dd>Figure: Go to "Users" and search for the name you need​<br></dd></dl></li></ol>​<br>
+You can find SSW Employee phone numbers in two ways:
 
+<!--endintro-->
 
+1. **Using Skype for Business** 
+![Figure: Right click on a user and click call and their mobile is there](../../assets/Image.jpg)  
+
+2. **Using CRM** 
+![](../../assets/Image.jpg)  
+
+            <img src="../../assets/Image.jpg" alt="" style="width:750px;">
+         
+![Figure: Go to "Users" and search for the name you need](../../assets/Image.jpg)
