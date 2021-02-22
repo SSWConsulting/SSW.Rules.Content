@@ -14,9 +14,8 @@ redirects:
 
 ---
 
+A proposal template means that anyone in the company will be able to easily create a new proposal for a client following the standards. It also can literally cut the time of proposal development in half.
 
-<p class="ssw15-rteElement-P">A proposal template means that anyone in the company will be able to easily create a new proposal for a client following the standards. It also can literally cut the time of proposal development in half.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​When creatin​​g the template, remember to add instructions to the user in yellow and check you are following &quot;<a href=/rules-to-better-proposals>SSW Rules to Better Proposals</a>&quot;​.<br></p>
+<!--endintro-->
 
-
+When creating the template, remember to add instructions to the user in yellow and check you are following "[SSW Rules to Better Proposals](/rules-to-better-proposals)".
