@@ -25,9 +25,9 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
 
   <p>
-    <img src="/PublishingImages/burndown_good_example.png" class="ssw-rteStyle-ImageArea" alt="" style="margin&#58;0px 20px;width&#58;702px;height&#58;410px;" />​<br><strong class="ms-rteCustom-FigureNormal" style="display&#58;inline !important;">Figure&#58; The burndown has all of the information you need to know if you are going to hit your mark</strong></p>
+    <img src="burndown_good_example.png" class="ssw-rteStyle-ImageArea" alt="" style="margin:0px 20px;width:702px;height:410px;" />​<br><strong class="ms-rteCustom-FigureNormal" style="display:inline !important;">Figure: The burndown has all of the information you need to know if you are going to hit your mark</strong></p>
 <p>There are however other reports that matter for management and putting together the bigger picture.</p>
-<p>See <a shape="rect" href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=eebdfafe-e7c3-40f4-a72f-4b4723e0b836" title="http&#58;//rules.ssw.com.au/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx"><font color="#000080">Do you get regular updates on costs and progress?</font></a></p>
+<p>See <a shape="rect" href=/watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc title="http://rules.ssw.com.au/Management/RulesToManagingSoftwareConsultants/Pages/DoYouGetRegularUpdatesOnCostsAndProgress.aspx"><font color="#000080">Do you get regular updates on costs and progress?</font></a></p>
 
 
 
