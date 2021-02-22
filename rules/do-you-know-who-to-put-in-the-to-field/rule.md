@@ -15,14 +15,23 @@ redirects: []
 
 ---
 
+Make sure that anyone tasked in emails is explicitly added to the "To:" line. This helps them identify emails where they have tasks.
 
-<p class="ssw15-rteElement-P">Make sure that anyone tasked in emails is explicitly added to the "To:" line. This helps them identify emails where they have tasks. </p><p class="ssw15-rteElement-P">A fair percentage of people open an email and don’t read who is on the "To:" or "Cc:" line​s​.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img src="SearchTask.jpg" alt="" />
-   </dt><dd>Figure: Bad example, Mark can’t search for tasks that have been assigned to him<br></dd></dl><dl class="goodImage"><dt>
-      <img src="FilterEmail.jpg" alt="" />
-   </dt><dd>Figure: Good example, Mark can filter his emails based on whether his name is on the "To:" field<br></dd> 
-   </dl><h3 class="ssw15-rteElement-H3">Related rule​<br></h3><p><a href=/do-you-include-the-name-of-the-person-you-address-on-the-first-line>Do you include the name of the person you address on the first line?</a><br></p>
+A fair percentage of people open an email and don’t read who is on the "To:" or "Cc:" lines.
+
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example, Mark can’t search for tasks that have been assigned to him](SearchTask.jpg)  
+:::
+
+
+::: good  
+![Figure: Good example, Mark can filter his emails based on whether his name is on the "To:" field](FilterEmail.jpg)  
+:::
+
+### Related rule
+
+
+[Do you include the name of the person you address on the first line?](/do-you-include-the-name-of-the-person-you-address-on-the-first-line)
