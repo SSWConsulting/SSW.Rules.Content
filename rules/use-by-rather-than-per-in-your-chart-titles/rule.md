@@ -16,9 +16,18 @@ redirects:
 
 ---
 
+When making reports, charts, and visualizations, it’s important to be consistent with your titles.
 
-When making reports, charts, and visualizations, it’s important to be consistent with your titles.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Power BI shows "XXX by YYY" (e.g. total earnings by month) rather than "XXX per YYY" and so it’s best to stay with the default and use this throughout your charts.<br></p><dl class="badImage"><dt><img src="by-per-bad.jpg" alt="by-per-bad.jpg" /></dt><dd>Figure: Bad example - Using "per"</dd></dl><dl class="goodImage"><dt><img src="by-per-good.jpg" alt="by-per-good.jpg" /></dt><dd>Figure: Good example - Using "by" ​<br></dd></dl>
+<!--endintro-->
+
+Power BI shows "XXX by YYY" (e.g. total earnings by month) rather than "XXX per YYY" and so it’s best to stay with the default and use this throughout your charts.
 
 
+::: bad  
+![Figure: Bad example - Using "per"](by-per-bad.jpg)  
+:::
+
+
+::: good  
+![Figure: Good example - Using "by"](by-per-good.jpg)  
+:::
