@@ -10,6 +10,5 @@ index:
 - when-to-target-lts-versions
 
 ---
-<p>A lot of these rules have originated from the <a href="https&#58;//www.ssw.com.au/ssw/Events/Training/NET-Core-Superpowers-Tour.aspx">.NET Core&#160;Superpowers Tour​​</a>​​.<br></p>
-
+A lot of these rules have originated from the [.NET Core Superpowers Tour](https&#58;//www.ssw.com.au/ssw/Events/Training/NET-Core-Superpowers-Tour.aspx).
 
