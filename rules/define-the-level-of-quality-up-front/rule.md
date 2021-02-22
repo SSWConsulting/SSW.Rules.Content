@@ -17,9 +17,49 @@ redirects:
 
 ---
 
+Aligning expectations with stakeholders is key to success, especially for creative content where the outcome is very variable. Make sure you define what kinds of videos need what quality level.
 
-<p class="ssw15-rteElement-P">Aligning expectations with stakeholders is key to success, especially for creative content where the outcome is very variable. Make sure you define what kinds of videos need what quality level.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">​​​Gold​<br></h3><p><b>Definition&#160;</b></p><ul><li>Extra equipment needed to film, more filming locations, lots of B-Roll, many rounds of feedback, high level of audio post and colour grading etc.<br></li></ul><p><b>Specific examples</b></p><ul><li>Why work at SSW – to go on <a href="https&#58;//www.ssw.com.au/ssw/Employment/default.aspx">https&#58;//www.ssw.com.au/ssw/Employment/default.aspx</a></li><li>Home page video – to go on <a href="https&#58;//www.ssw.com.au/ssw/">https&#58;//www.ssw.com.au/ssw/</a></li><li>Landing page video – to go on <a href="https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx">https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx</a></li></ul><p><b>General examples</b></p><ul><li>Any high value videos that generate sales that will live on your website rather than just your social media&#160;</li><li>Consulting page videos</li><li>Testimonial videos&#160;​<br></li></ul><h3 class="ssw15-rteElement-H3">Silver​<br></h3><p><b>Definition</b><br></p><ul><li>Basic equipment used to film, less B-Roll, fewer round of feedback, quick and dirty colour grading and audio post</li></ul><p><b>Specific examples</b></p><ul><li>All the videos from the latest conference/event</li><li>Brainstorming day video</li></ul><p><b>General examples</b></p><ul><li>All Social Media videos<br></li><li>All User Group videos</li><li>All Event videos</li><li>All Rules videos<br></li></ul><p><br></p>
+<!--endintro-->
+
+### Gold
 
 
+**Definition **
+
+* Extra equipment needed to film, more filming locations, lots of B-Roll, many rounds of feedback, high level of audio post and colour grading etc.
+
+
+**Specific examples**
+
+* Why work at SSW – to go on [https://www.ssw.com.au/ssw/Employment/default.aspx](https&#58;//www.ssw.com.au/ssw/Employment/default.aspx)
+* Home page video – to go on [https://www.ssw.com.au/ssw/](https&#58;//www.ssw.com.au/ssw/)
+* Landing page video – to go on [https://www.ssw.com.au/ssw/Consulting/Web-Applications.aspx](https&#58;//www.ssw.com.au/ssw/Consulting/Web-Applications.aspx)
+
+
+**General examples**
+
+* Any high value videos that generate sales that will live on your website rather than just your social media
+* Consulting page videos
+* Testimonial videos
+
+
+### Silver
+
+
+**Definition**
+
+* Basic equipment used to film, less B-Roll, fewer round of feedback, quick and dirty colour grading and audio post
+
+
+**Specific examples**
+
+* All the videos from the latest conference/event
+* Brainstorming day video
+
+
+**General examples**
+
+* All Social Media videos
+* All User Group videos
+* All Event videos
+* All Rules videos
