@@ -13,9 +13,6 @@ redirects: []
 
 ---
 
+To find where drive space is consumed in your Surface you should install TreeSize Touch.
 
-<p>To find where drive space is consumed in your Surface​ you should&#160;install TreeSize Touch.</p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
