@@ -13,12 +13,17 @@ redirects: []
 
 ---
 
+You should use a custom domain adds to your company brand.
 
-<p>You should use a custom domain adds to your company brand.</p>
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><p class="greyBox">bit.ly.com/MyShortenedLink</p></dt><dd>Figure&#58; Bad example</dd></dl>
-<dl class="goodImage">
-   <dt><p class="greyBox">r.ssw.com/MyShortenedLink</p></dt><dd>Figure&#58; Good example (for SSW)</dd></dl>
+<!--endintro-->
 
 
+::: greybox
+bit.ly.com/MyShortenedLink  
+:::
+Figure: Bad example     
+
+::: greybox
+r.ssw.com/MyShortenedLink  
+:::
+Figure: Good example (for SSW)
