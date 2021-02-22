@@ -11,17 +11,16 @@ redirects: []
 
 ---
 
+Your site visitors should never see  **Untitled Page** on     their browser. When creating a new page, remember to change the     default page title. This rule applies whether you are using a Master     Page or not.
 
-<p>Your site visitors should never see <strong>Untitled Page</strong> on 
-   their browser. When creating a new page, remember to change the 
-   default page title. This rule applies whether you are using a Master 
-   Page or not.
-                </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img src="../../assets/BadTitle.jpg" alt="Page with a good title" style="margin:5px;width:650px;" /> 
-   </dt><dd>Figure: Bad example - A page with the default title </dd></dl><dl class="goodImage"><dt> 
-      <img src="../../assets/GoodTitle.jpg" alt="Page with a good title" style="margin:5px;width:650px;" /> 
-   </dt><dd>Figure: Good example - A page with a good title </dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example - A page with the default title](../../assets/BadTitle.jpg)  
+:::
+
+
+::: good  
+![Figure: Good example - A page with a good title](../../assets/GoodTitle.jpg)  
+:::
