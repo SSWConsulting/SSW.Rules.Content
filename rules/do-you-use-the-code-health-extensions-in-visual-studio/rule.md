@@ -15,9 +15,55 @@ redirects: []
 
 ---
 
+The code quality standard should extend the Visual Studio Analyser. A wide variety of additional analysers can be included via Nuget, the minimum standard should include Roslyn Security Guard, Stylecop.Analysers and TSLint.
 
-The code quality standard should extend the Visual Studio Analyser. A wide variety of additional​ analysers can be included via Nuget, the minimum standard should include Roslyn Security Guard, Stylecop.Analysers and TSLint.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">Related Steps to Code Health:​​<br></h3><ul><li><a href=/do-you-use-the-code-health-extensions-in-vs-code>Do you use the Code Health Extensions in VS Code?</a><br></li><li><a href=/do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build>Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?​​</a><br></li></ul><h3 class="ssw15-rteElement-H3">Which Packages to Install​​ ​​in Visual Studio<br></h3><p></p><p>Search & Install the NuGet packages:<br></p><ul><li>​"Roslyn Security Guard" (<a href="https://www.nuget.org/packages/RoslynSecurityGuard/">Nuget page for Roslyn Security Guard</a>) - Security audit on .NET Applications.<br></li><li>"StyleCop.Analysers" (<a href="https://www.nuget.org/packages/StyleCop.Analyzers/1.0.0">Nuget page for StyleCop.Analysers</a>) - Ensures C# code style conformity.<br></li><li>"tslint" (<a href="https://www.nuget.org/packages/tslint/">Nuget page for tslint​</a>) - Allows for issue tracking of TypeScript projects.<br></li></ul><p></p><div class="ssw15-rteElement-ContentBlock-SSW-Only">For Visual Studio development on web applications, download Web Essentials, it will provide intellisense for JS, CSS, HTML, Less, Scss, and CoffeeScript. (<a href="https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebEssentials20153%E2%80%8B">Nuget page for Web Analysers​</a>)</div><p>​​<br>​​<img src="VS-InstallNuGetPackages.png" alt="VS-InstallNuGetPackages.png" style="margin:5px;width:650px;" /><br><span style="color:#555555;font-size:0.9rem;font-weight:bold;">Figure: Steps to install NuGet Pa​ckages</span><br></p><p></p><p><br>Issues from these will now be returned in the Visual Studio analyser error list.</p><dd class="ssw15-rteElement-FigureNormal"><img src="VS-RoslynRules.png" alt="VS-RoslynRules.png" style="margin:5px;" /><br>​​​​​Figure: New Roslyn Rule issue​​​​s raised in Visual Studio Analyser</dd><p>​<br>Your goal should be to get the issues in a solution down to zero.<br>If you believe the issues being raised are not important, please check the section below which outlines how to change the ruleset.<br></p><h3 class="ssw15-rteElement-H3">Modify Visual Studio​​ Analysis Ruleset<br></h3><p>The goal is to develop a shared ruleset across projects. (Currently this is just the default settings). This will ensure the same standard and quality of code is maintained across all of the company's projects.<br>Any project specific rules should be documented in "_Instructions-CodeHealth.docx" which is to be kept in the solution.<br>Please also copy the current version number of this rule into the "_Instructions-CodeHealth.docx" in order to track what version your existing solution adheres to.</p><div class="ssw15-rteElement-ContentBlock-SSW-Only">​The current standard for rules is just the default ones. Frequently check back here for updates to the ruleset definition.</div><p>​​​​<br></p><dl class="ssw15-rteElement-ImageArea"><img src="VS-ModifyRules.png" alt="VS-ModifyRules.png" style="margin:5px;width:650px;" /><span style="color:#555555;font-size:0.9rem;font-weight:bold;">​​Figure: Steps to open Visual Studi​​​o Analyser rules customisation page</span><br><br></dl><p>Steps to open Analyser customisation page:<br>Right Click project &gt; Properties &gt; Code Analysis &gt; Open<br></p><dl class="ssw15-rteElement-ImageArea">​​​​<img src="VS-ModifyRules2.png" alt="VS-ModifyRules2.png" style="margin:5px;width:650px;" /><span style="color:#555555;font-size:0.9rem;font-weight:bold;">​Figure: How to customize rules. By either enabling / disabling rules or packages. Or by modifying the rule severity level.</span><br></dl><dl class="ssw15-rteElement-ImageArea">​​<img src="VS-ModifyRules3.png" alt="VS-ModifyRules3.png" style="margin:5px;width:650px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: How to apply custom ruleset to all projects in a solution​​<br></dd><p><br></p>
+<!--endintro-->
+
+### Related Steps to Code Health:
 
 
+* [Do you use the Code Health Extensions in VS Code?](/do-you-use-the-code-health-extensions-in-vs-code)
+* [Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?](/do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build)
+
+
+### Which Packages to Install in Visual Studio
+
+
+
+
+Search & Install the NuGet packages:
+
+* "Roslyn Security Guard" ([Nuget page for Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)) - Security audit on .NET Applications.
+* "StyleCop.Analysers" ([Nuget page for StyleCop.Analysers](https://www.nuget.org/packages/StyleCop.Analyzers/1.0.0)) - Ensures C# code style conformity.
+* "tslint" ([Nuget page for tslint](https://www.nuget.org/packages/tslint/)) - Allows for issue tracking of TypeScript projects.
+
+
+
+
+![](VS-InstallNuGetPackages.png)
+Figure: Steps to install NuGet Packages
+
+
+
+Issues from these will now be returned in the Visual Studio analyser error list.
+ **![](VS-RoslynRules.png)
+Figure: New Roslyn Rule issues raised in Visual Studio Analyser** 
+Your goal should be to get the issues in a solution down to zero.
+If you believe the issues being raised are not important, please check the section below which outlines how to change the ruleset.
+
+### Modify Visual Studio Analysis Ruleset
+
+
+The goal is to develop a shared ruleset across projects. (Currently this is just the default settings). This will ensure the same standard and quality of code is maintained across all of the company's projects.
+Any project specific rules should be documented in "\_Instructions-CodeHealth.docx" which is to be kept in the solution.
+Please also copy the current version number of this rule into the "\_Instructions-CodeHealth.docx" in order to track what version your existing solution adheres to.
+
+
+![](VS-ModifyRules.png)Figure: Steps to open Visual Studio Analyser rules customisation page
+
+
+Steps to open Analyser customisation page:
+Right Click project &gt; Properties &gt; Code Analysis &gt; Open
+![](VS-ModifyRules2.png)Figure: How to customize rules. By either enabling / disabling rules or packages. Or by modifying the rule severity level.
+![](VS-ModifyRules3.png) **Figure: How to apply custom ruleset to all projects in a solution
+**
