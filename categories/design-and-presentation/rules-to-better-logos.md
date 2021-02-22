@@ -8,6 +8,5 @@ index:
 - do-you-know-which-formats-to-create-for-a-logo
 
 ---
-<p>​​​</p>
 
 
