@@ -16,9 +16,12 @@ redirects:
 
 ---
 
+You should ensure that any building related issues are attended to, this can include:
 
-<p class="ssw15-rteElement-P">You should ensure that any building related issues are attended to, this can include&#58;​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ol><li>Any security or access issues</li><li>Any tradespeople or maintenance staff visiting the building</li><li>Issues with internet, utilities such as power/water or trash</li><li>Any body corporate issues or other localized issues</li><li>Contact your financial controller or corporate contact for assistance of to notify them of any issues requiring more detailed attention</li></ol><br>
+<!--endintro-->
 
-
+1. Any security or access issues
+2. Any tradespeople or maintenance staff visiting the building
+3. Issues with internet, utilities such as power/water or trash
+4. Any body corporate issues or other localized issues
+5. Contact your financial controller or corporate contact for assistance of to notify them of any issues requiring more detailed attention
