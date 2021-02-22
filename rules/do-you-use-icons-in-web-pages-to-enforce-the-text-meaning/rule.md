@@ -18,14 +18,21 @@ redirects:
 
 ---
 
+People may not pay attention to some important words in your pages. While adding a simple and clear icon beside the words will make the difference. Add a green tick for successful messages and a red cross for error messages.
 
-​<span style="line-height:1.6;">​People may not pay attention to some important words in your pages. While adding a simple and clear icon beside the words will make the difference. Add a green tick for successful messages and a red cross for error messages.</span><br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt></dt></dl><dl class="badImage"><dt> 
-      <img src="validation-bad.jpg" alt="no icons to indicate the status" style="margin:5px;" /> 
-   </dt><dd>Figure: Bad example - no icons to indicate the status</dd></dl><dl class="goodImage"><dt> 
-      <img src="validation-good.jpg" alt="green tick and red cross helps the user to know what's going on" style="margin:5px;" /> 
-   </dt><dd>Figure: Good example - green tick and red cross help​ the user to know what's going on</dd></dl><h3>Related Rules</h3><ul><li>If you need to find some icons - <a href=/where-to-find-nice-icons>Do you know where you can find some nice icons? </a></li><li>There is a  similar rule for WinForm application - <a href=/messages-do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-status style="line-height:1.6;">Do you use green tick, red cross and spinning icon to show the status?</a><span style="line-height:1.6;"> </span> 
-      <br></li></ul>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example - no icons to indicate the status](validation-bad.jpg)  
+:::
+
+
+::: good  
+![Figure: Good example - green tick and red cross help the user to know what's going on](validation-good.jpg)  
+:::
+
+### Related Rules
+
+* If you need to find some icons - [Do you know where you can find some nice icons?](/where-to-find-nice-icons)
+* There is a  similar rule for WinForm application - [Do you use green tick, red cross and spinning icon to show the status?](/messages-do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-status)
