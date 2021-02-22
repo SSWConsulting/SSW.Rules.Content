@@ -24,8 +24,8 @@ efficient.
 deployment script for process template – Upd​ateProcessTemplate.bat</span>
 With above script, you can execute the command like
 below
-<span class="ssw-rteStyle-Tip">UpdateProcessTemplate.bat {ltHTMLChar}serverAddress{gtHTMLChar}
-{ltHTMLChar}collectionName{gtHTMLChar} {ltHTMLChar}projectName{gtHTMLChar}
+<span class="ssw-rteStyle-Tip">UpdateProcessTemplate.bat &lt;serverAddress&gt;
+&lt;collectionName&gt; &lt;projectName&gt;
 ​​​</span>So, just one command, all of your customized work item types will be updated on the server. <br><br>
 
 
