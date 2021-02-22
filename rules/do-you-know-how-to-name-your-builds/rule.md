@@ -13,9 +13,21 @@ redirects: []
 
 ---
 
-
-You should always follow a naming standard when naming your builds. This helps you identify their purpose at a glance.
-<br><excerpt class='endintro'></excerpt><br>
-<p>​</p><p>The build name should have the following suffixes, depending on their purpose:</p><ul><li><span style="line-height:20.8px;"><strong>.CI</strong> - For continuous integration builds. These are triggered automatically and do not deploy anywhere.<br></span></li><li><span style="line-height:20.8px;"><strong>.CD.[Environment]</strong> - For continuous delivery builds. These are triggered automatically and deploy to an environment. You should specify which environment it deploys to as well.</span></li></ul><div><span style="line-height:20.8px;"><img src="buildnames.png" alt="buildnames.png" style="margin:5px;" /><br></span></div><dd class="ssw15-rteElement-FigureGood">Good Example: We have two continuous delivery​ builds to our staging environment.</dd><div><span style="line-height:20.8px;"><br></span></div>
+You should always follow a naming standard when naming your builds. This helps you identify their purpose at a glance. 
+<!--endintro-->
 
 
+
+The build name should have the following suffixes, depending on their purpose:
+
+* **.CI** - For continuous integration builds. These are triggered automatically and do not deploy anywhere.
+* **.CD.[Environment]** - For continuous delivery builds. These are triggered automatically and deploy to an environment. You should specify which environment it deploys to as well.
+
+
+![](buildnames.png)
+
+
+
+::: good
+Good Example: We have two continuous delivery builds to our staging environment.  
+:::
