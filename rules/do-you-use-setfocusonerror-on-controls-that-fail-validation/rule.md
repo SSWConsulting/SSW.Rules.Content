@@ -11,12 +11,11 @@ redirects: []
 
 ---
 
-
-<div>For Validation Errors, don’t rely on an error messagebox, instead automatically focus on the control.</div>
-<dl class="goodImage"><dt><img src="../../assets/GoodValidation.jpg" alt="" /></dt>
-<dd>Figure: Good Example - Balloons also direct the eye</dd></dl>
-
-<br><excerpt class='endintro'></excerpt><br>
+For Validation Errors, don’t rely on an error messagebox, instead automatically focus on the control.
 
 
+::: good  
+![Figure: Good Example - Balloons also direct the eye](../../assets/GoodValidation.jpg)  
+:::
 
+<!--endintro-->
