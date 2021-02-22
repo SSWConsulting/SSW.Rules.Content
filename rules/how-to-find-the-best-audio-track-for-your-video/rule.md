@@ -16,9 +16,31 @@ redirects:
 
 ---
 
-
-​​​​You should never use any copyrighted work without permission. When it comes to videos, if you have licensed music or songs on your YouTube video, it might be entirely removed from the site. To avoid this, use <b>royalty free</b> music.​
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> <img src="audio-video-bad.jpg" alt="audio-video-bad.jpg" /> </dt><dd>Bad example: Ripping someone's song - your video will get taken down by YouTube<br></dd></dl><h3 class="ssw15-rteElement-H3">Royalty Free Music <br></h3><p>There are many options available for purchasing high-quality royalty free music. <br></p><p>The two we use at SSW are <a href="https://audiojungle.net/" target="_blank">audiojungle.net</a> and <a href="https://artlist.io/" target="_blank">Art List Music</a>.</p><p>Audio Jungle is great for finding sound effects and <a href="https://en.wikipedia.org/wiki/Foley_%28filmmaking%29" target="_blank">Foley</a> sounds. You can also find many great full-length songs that suit corporate video. However, the music style is typically geared towards online ads and marketing videos  and doesn't quite have that 'professional' sound you get from bands and mainstream artists. <br></p><dl class="goodImage"><dt> <img src="audio-video-good-audiojungle.jpg" alt="audio-video-good-audiojungle.jpg" /> </dt><dd> Good example: E.g. AudioJungle.net - you can pay $1 for a laugh track <br></dd></dl><p>If you want audio that sounds more like professional music created by bands and artists but still designed for corporate, then use Art List Music.</p><dl class="goodImage"><dt> <img src="audio-video-good-art-list.jpg" alt="audio-video-good-art-list.jpg" /> </dt><dd>Good example: E.g. Art List Music - For $200 per a year, you get unlimited access to really awesome quality music. Have a listen on the website</dd></dl> <br>
+You should never use any copyrighted work without permission. When it comes to videos, if you have licensed music or songs on your YouTube video, it might be entirely removed from the site. To avoid this, use  **royalty free** music. 
+<!--endintro-->
 
 
+::: bad  
+![Bad example: Ripping someone's song - your video will get taken down by YouTube](audio-video-bad.jpg)  
+:::
+
+### Royalty Free Music 
+
+
+There are many options available for purchasing high-quality royalty free music.
+
+The two we use at SSW are [audiojungle.net](https://audiojungle.net/) and [Art List Music](https://artlist.io/).
+
+Audio Jungle is great for finding sound effects and [Foley](https://en.wikipedia.org/wiki/Foley_%28filmmaking%29) sounds. You can also find many great full-length songs that suit corporate video. However, the music style is typically geared towards online ads and marketing videos  and doesn't quite have that 'professional' sound you get from bands and mainstream artists.
+
+
+::: good  
+![Good example: E.g. AudioJungle.net - you can pay $1 for a laugh track](audio-video-good-audiojungle.jpg)  
+:::
+
+If you want audio that sounds more like professional music created by bands and artists but still designed for corporate, then use Art List Music.
+
+
+::: good  
+![Good example: E.g. Art List Music - For $200 per a year, you get unlimited access to really awesome quality music. Have a listen on the website](audio-video-good-art-list.jpg)  
+:::
