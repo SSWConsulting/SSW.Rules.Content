@@ -28,7 +28,7 @@ Assembly names should reflect the the functionality that it provides. For exampl
     </dt>
 </dl>
 <p>contains all the classes that deal with inputs and outputs. As a general rule of thumb your assemblies should be named as follows&#58; </p>
-<p>{ltHTMLChar}CompanyName{gtHTMLChar}.{ltHTMLChar}ComponentName{gtHTMLChar} (e.g. SSW.Framework) </p>
+<p>&lt;CompanyName&gt;.&lt;ComponentName&gt; (e.g. SSW.Framework) </p>
 <p>This allows a developer to know who developed the assembly and give the developer a general idea of what the assembly can be used for.</p>
 
 
