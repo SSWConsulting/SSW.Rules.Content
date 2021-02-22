@@ -13,9 +13,5 @@ redirects: []
 
 ---
 
-
-Running tests with MTM allows you to keep track of your testing progress.
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+Running tests with MTM allows you to keep track of your testing progress. 
+<!--endintro-->
