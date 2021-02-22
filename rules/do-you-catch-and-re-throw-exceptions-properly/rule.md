@@ -15,38 +15,45 @@ redirects: []
 
 ---
 
+A good catch and re-throw will make life easier while debugging, a bad catch and re-throw will ruin the exception's stack trace and make debugging difficult.
 
-<p>​A good catch and re-throw will make life easier while debugging, a bad catch and re-throw will ruin the exception's stack trace and make debugging difficult.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="bad"><dt><pre>catch &#123;&#125; 
-<span style="color&#58;#ff0000;">(Never use an empty catch block. Do something in the block or remove it.)</span>
+<!--endintro-->
 
-catch (SomeException) &#123;&#125; 
-<span style="color&#58;#ff0000;">(Never use an empty catch block. Do something in the block or remove it.)</span>
 
-catch &#123; throw; &#125; 
-<pre><span style="color&#58;#ff0000;">(Never use an empty catch block. Do something in the block or remove it.)</span></pre>
-catch (SomeException) &#123; throw; &#125; 
-<pre><span style="color&#58;#ff0000;">(Never use an empty catch block. Do something in the block or remove it.)</span></pre>
-catch (SomeException ex) &#123; throw ex; &#125; 
-<span style="color&#58;#ff0000;">(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)</span>
+```
+catch {} 
+(Never use an empty catch block. Do something in the block or remove it.)
 
-catch (SomeException ex) &#123; someMethod(); throw ex; &#125; 
-<span style="color&#58;#ff0000;">(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
-</span>
-</pre></dt><dd>Bad Example - Bad code</dd></dl><dl class="good"><dt><pre>catch (SomeException ex) 
-&#123; 
+catch (SomeException) {} 
+(Never use an empty catch block. Do something in the block or remove it.)
+
+catch { throw; } 
+(Never use an empty catch block. Do something in the block or remove it.)
+catch (SomeException) { throw; } 
+(Never use an empty catch block. Do something in the block or remove it.)
+catch (SomeException ex) { throw ex; } 
+(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
+
+catch (SomeException ex) { someMethod(); throw ex; } 
+(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
+```
+
+Bad Example - Bad code
+
+```
+catch (SomeException ex) 
+{ 
      someMethod(); 
      throw; 
-&#125;
+}
 
 catch (SomeException ex) 
-&#123; 
+{ 
      someMethod(); 
-     SomeOtherException wrapperEx = new SomeOtherException(&quot;This is a wrapper exception&quot;, ex);
+     SomeOtherException wrapperEx = new SomeOtherException("This is a wrapper exception", ex);
      throw wrapperEx; 
-&#125;
-</pre></dt><dd>Good Example - Good code</dd></dl><p>
-   <span class="ssw-rteStyle-YellowBorderBox">We have a program called&#160;<a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a>&#160;to check for this rule.</span></p>
+}
+```
 
-
+Good Example - Good code
+We have a program called [SSW Code Auditor](http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule.
