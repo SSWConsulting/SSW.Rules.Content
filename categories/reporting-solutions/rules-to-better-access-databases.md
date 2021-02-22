@@ -24,6 +24,12 @@ index:
 - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
 
 ---
-<p>​If you still need help, <a href="https&#58;//www.ssw.com.au/ssw/Consulting/Access-Database-Upsizing.aspx">visit our Access Database Upsizing consulting page​</a>&#160;and book a consultation.​​<br></p>
+If you still need help, [visit our Access Database Upsizing consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Access-Database-Upsizing.aspx) and book a consultation.
 
+What is it that makes a good software development consultancy? What sets one company completely above another? What makes a project completely successful?
+
+
+::: yellowBox
+ **\*\*\* Update \*\*\*** Instead of manually implementing these rules, use [SSW Upsizing PRO](http://www.ssw.com.au/ssw/UpsizingPRO) to automatically implement many of them for you. [Download](http://www.ssw.com.au/ssw/Download/Download.aspx?GroupCategoryID=2ACCESS) it and give it a go.  
+:::
 
