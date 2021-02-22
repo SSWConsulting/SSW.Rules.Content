@@ -13,13 +13,11 @@ redirects: []
 
 ---
 
+In theory WebDeploy can create a site for you when you deploy. The issue with this is that many settings are assumed.
 
-<p>​In theory WebDeploy can create a site for you when you deploy. The issue with this is that many settings are assumed.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Always create the site before deploying to it, so that you can specify the exactly the settings that you desire. E.g. the directory where you want the files for the site to be saved, the app pool to use and the version of .Net.</p>
-<br>
-<dl class="image"><dt><img src="create-iis.jpg" alt="" /></dt>
-   <dd>Figure: Create the website in IIS</dd></dl> 
-<br>
+<!--endintro-->
+
+Always create the site before deploying to it, so that you can specify the exactly the settings that you desire. E.g. the directory where you want the files for the site to be saved, the app pool to use and the version of .Net.
 
 
+![Figure: Create the website in IIS](create-iis.jpg)
