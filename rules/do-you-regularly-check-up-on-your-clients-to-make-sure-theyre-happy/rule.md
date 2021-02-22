@@ -15,13 +15,8 @@ redirects: []
 
 ---
 
+It's important for Account Managers to stay involved with client projects past the                  sales stage and into the implementation stage. The best way to do this is to call                  them once every 2 months or so once the project gets going, just to guage their                  overall satisfaction and happiness.
 
-<p>​It's important for Account Managers to stay involved with client projects past the 
-                sales stage and into the implementation stage. The best way to do this is to call 
-                them once every 2 months or so once the project gets going, just to guage their 
-                overall satisfaction and happiness.
-             <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>The best way is&#160;to set yourself reminders to do this ​using <a href=/do-you-follow-up-emails-effectively>FollowUpT​hen</a>.</p>
+<!--endintro-->
 
-
+The best way is to set yourself reminders to do this using [FollowUpThen](/do-you-follow-up-emails-effectively).
