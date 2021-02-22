@@ -15,20 +15,11 @@ redirects:
 
 ---
 
+The name of default CRM logo is 'masthead.jpg' which is located under directory           '\_imgs' of the CRM web folder. To customize it, rename this file to, say, 'masthead\_backup.jpg' and           put your company logo named as ''masthead.jpg'. Done!
 
- <p>​​
-          The name of default CRM logo is 'masthead.jpg' which is located under directory
-          '_imgs' of the CRM web folder. To customize it, rename this file to, say, 'masthead_backup.jpg' and
-          put your company logo named​ as ''masthead.jpg'. Done!
-        <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage">
-          <dt>
-            <img src="CRM_ChangeLogo.jpg" alt="Change CRM company Logo" />
-          </dt>
-          <dd>
-            Figure: Change CRM company logo</dd>
-        </dl>
+<!--endintro-->
 
 
-
+::: good  
+![Figure: Change CRM company logo](CRM\_ChangeLogo.jpg)  
+:::
