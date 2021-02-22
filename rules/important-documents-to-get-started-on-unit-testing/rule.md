@@ -14,9 +14,11 @@ redirects:
 
 ---
 
+Check out the basic readings to get an understanding of quality development:
 
-​Check out&#160;the basic readings to get an understanding of quality development&#58;<br>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li>Read the&#160;<a href="https&#58;//www.ssw.com.au/SSW/Redirect/WikipediaUnitTest.htm">Wikipedia Unit test</a>&#160;(write unit tests on fragile code)</li><li>Read the&#160;<a href="https&#58;//www.ssw.com.au/SSW/Redirect/WikipediaRevisionControl.htm">Wikipedia Revision Control</a>&#160;(use source control for your code - understand &quot;Check-out&quot; and &quot;Check-in&quot;)</li><li>Read the&#160;<a href="https&#58;//www.ssw.com.au/SSW/Redirect/WikipediaTest-drivenDevelopment.htm">Wikipedia Test-driven development</a>(optional)<br></li><li>Read the&#160;<a href=/conduct-a-test-please-internally-and-then-with-the-client>SSW Rule - Test Please</a>&#160;(don't release un-tested code to a client)​<br></li></ul>
+<!--endintro-->
 
-
+* Read the [Wikipedia Unit test](https&#58;//www.ssw.com.au/SSW/Redirect/WikipediaUnitTest.htm) (write unit tests on fragile code)
+* Read the [Wikipedia Revision Control](https&#58;//www.ssw.com.au/SSW/Redirect/WikipediaRevisionControl.htm) (use source control for your code - understand "Check-out" and "Check-in")
+* Read the [Wikipedia Test-driven development](https&#58;//www.ssw.com.au/SSW/Redirect/WikipediaTest-drivenDevelopment.htm)(optional)
+* Read the [SSW Rule - Test Please](/conduct-a-test-please-internally-and-then-with-the-client) (don't release un-tested code to a client)
