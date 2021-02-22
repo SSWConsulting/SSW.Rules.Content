@@ -17,11 +17,20 @@ redirects:
 
 ---
 
+These are the other major CRM engines that compete with Microsoft Dynamics 365:
 
-<p>​​These are the&#160;other major​ CRM engines that compete with Microsoft Dynamics 365&#58;<br></p>
-<ul>
-   <li>​Salesforce CRM​</li><li>Base CRM</li><li>Insightly CRM</li><li>Zoho CRM</li><li>Less Annoying CRM</li><li>Pipedrive CRM</li><li>Bitrix24 CRM</li><li>Bpm'online CRM</li><li>Apptivo CRM</li><li>ProsperWorks CRM<br></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Know more on&#160;<a href="https&#58;//www.ssw.com.au/ssw/Consulting/Dynamics365.aspx">Microsoft Dynamics 365 Consulting</a>.​<br></p>
+* Salesforce CRM
+* Base CRM
+* Insightly CRM
+* Zoho CRM
+* Less Annoying CRM
+* Pipedrive CRM
+* Bitrix24 CRM
+* Bpm'online CRM
+* Apptivo CRM
+* ProsperWorks CRM
 
 
+<!--endintro-->
+
+Know more on [Microsoft Dynamics 365 Consulting](https&#58;//www.ssw.com.au/ssw/Consulting/Dynamics365.aspx).
