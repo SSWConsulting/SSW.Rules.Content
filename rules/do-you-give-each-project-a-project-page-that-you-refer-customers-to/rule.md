@@ -14,9 +14,5 @@ redirects:
 
 ---
 
-
-​A project page is not a place to introduce the project. It will be used to share the project process information between your teammates and clients. <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f983c97e-c726-4529-819b-d8aac2a2b800">See our rules to happy clients</a> 
-<br><excerpt class='endintro'></excerpt><br>
-<a href="/do-you-use-a-project-portal-for-your-team-and-client"></a>​​​​
-
-
+A project page is not a place to introduce the project. It will be used to share the project process information between your teammates and clients. [See our rules to happy clients](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f983c97e-c726-4529-819b-d8aac2a2b800)
+<!--endintro-->
