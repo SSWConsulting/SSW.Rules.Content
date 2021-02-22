@@ -15,12 +15,12 @@ redirects: []
 
 
 <p></p>
-<p>The {ltHTMLChar}font{gtHTMLChar} tag is supported in all major browsers, however it is deprecated since HTML 4. Read more at <a target="_blank" href="http&#58;//www.w3schools.com/tags/tag_font.asp">w3schools.com</a>.</p>
+<p>The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4. Read more at <a target="_blank" href="http&#58;//www.w3schools.com/tags/tag_font.asp">w3schools.com</a>.</p>
 <br><excerpt class='endintro'></excerpt><br>
-<div class="greyBox">{ltHTMLChar}font{gtHTMLChar}Some text{ltHTMLChar}/font{gtHTMLChar}</div> 
+<div class="greyBox">&lt;font&gt;Some text&lt;/font&gt;</div> 
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Example - Using deprecated HTML tag</span> 
-<div class="greyBox">{ltHTMLChar}span{gtHTMLChar}Some text{ltHTMLChar}/span{gtHTMLChar}<br>{ltHTMLChar}p{gtHTMLChar}Some text{ltHTMLChar}/p{gtHTMLChar}</div> 
-<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Using {ltHTMLChar}p{gtHTMLChar} or {ltHTMLChar}span{gtHTMLChar} for texts</span> 
+<div class="greyBox">&lt;span&gt;Some text&lt;/span&gt;<br>&lt;p&gt;Some text&lt;/p&gt;</div> 
+<span class="ms-rteCustom-FigureGood">Figure&#58; Good Example - Using &lt;p&gt; or &lt;span&gt; for texts</span> 
 <p>
    <strong>Tip&#58;</strong> Use CSS to define the font, size, and color of text.</p><div class="product-box"><p>We have the programs <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx">SSW Code Auditor</a> and <a href="http&#58;//www.ssw.com.au/ssw/linkauditor/">SSW Link Auditor</a> to check for this rule.</p></div>
 
