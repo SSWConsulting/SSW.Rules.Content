@@ -18,11 +18,38 @@ redirects:
 
 ---
 
-
-<p>Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.​<br></p><dl class="image"><dt><p class="ssw15-rteElement-GreyBox">As a &lt;type of User&gt;<br>I want &lt;some goal&gt;<br>so that &lt;some reason&gt;​​​​<br></p></dt><dd>Figure: User Story - template for description<br></dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><img alt="TFS2012UserStory.gif" src="TFS2012UserStory.gif" style="width:593px;" /></dt><dd>Figure: User Story - Product Backlog Item form</dd></dl><dl class="bad"><p class="ssw15-rteElement-GreyBox">I want to be able to search for customers.<br></p><dd>Figure: Bad Example - the user story is too vague and broad in scope</dd></dl><dl class="good"><p class="ssw15-rteElement-GreyBox">As a Marketing Manager...<br>
-   I want to be able to search for customers by country and last name.<br>
-   So that I can find their numbers and call customers close to me. </p><dd>Figure: Good Example - Clear user story following the INVEST principle<br></dd><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P"><b>​​​​Note:</b> In the TFS Scrum template (since we now have a title, description, and acceptance criteria), we no longer generally need to use User Story formatting.​<br></p></dl>
+Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.
 
 
+::: greybox
+As a &lt;type of User&gt;
+I want &lt;some goal&gt;
+so that &lt;some reason&gt;
+
+:::
+Figure: User Story - template for description
+
+<!--endintro-->
+
+
+::: bad  
+![Figure: User Story - Product Backlog Item form](TFS2012UserStory.gif)  
+:::
+
+
+::: greybox
+I want to be able to search for customers.
+
+:::
+Figure: Bad Example - the user story is too vague and broad in scope
+
+::: greybox
+As a Marketing Manager...
+    I want to be able to search for customers by country and last name.
+    So that I can find their numbers and call customers close to me.  
+:::
+Figure: Good Example - Clear user story following the INVEST principle
+
+
+
+**Note:** In the TFS Scrum template (since we now have a title, description, and acceptance criteria), we no longer generally need to use User Story formatting.
