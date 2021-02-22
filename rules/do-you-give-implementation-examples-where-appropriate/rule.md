@@ -13,15 +13,13 @@ redirects: []
 
 ---
 
+<font size="2">        <font face="Verdana">By giving examples you are demonstrating clearly to the reader how he/she can implement the rule correctly. It is better to position an example of the best possible scenario last so that the reader is left with a clear example in his/her mind as to what is required.</font></font>
+
+<!--endintro-->
+
+### Related Rule
 
 
-  <p style="margin&#58;0cm 0cm 0pt;">
-    <span style="color&#58;black;">
-      <font size="2">
-        <font face="Verdana">By giving examples you are demonstrating clearly to the reader how he/she can implement the rule correctly. It is better to position an example of the best possible scenario last so that the reader is left with a clear example in his/her mind as to what is required.</font></font></span></p>
 
 
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">​Related Rule​<br></h3><p><ul><li><a href=/figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions>Figures - Do you use 'Bad Example' and 'Good Example' with ticks and crosses in captions?</a>​<br></li></ul></p>
-
-
+* [Figures - Do you use 'Bad Example' and 'Good Example' with ticks and crosses in captions?](/figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions)
