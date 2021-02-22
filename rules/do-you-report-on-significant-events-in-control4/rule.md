@@ -13,9 +13,8 @@ redirects: []
 
 ---
 
+Enter Intro Text
 
-Enter Intro Text<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>List details of using the TCP driver to log data to database and then report in BI. Use toilet usage example.<br><br></p>
+<!--endintro-->
 
-
+List details of using the TCP driver to log data to database and then report in BI. Use toilet usage example.
