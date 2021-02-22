@@ -14,9 +14,47 @@ redirects:
 
 ---
 
+No "UI" in event names, the event raiser should be unaware of the UI in MVVM and user controls
+The handler of the event should then do something on the UI. 
 
-No &quot;UI&quot; in event names, the event raiser should be unaware of the UI in MVVM and user controls<br>The handler of the event should then do something on the UI. <br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">  private void RaiseUIUpdateBidButtonsRed()<br>&#123;<br>if (UIUpdateBidButtonsRed != null)<br>&#123;<br>UIUpdateBidButtonsRed();<br>&#125;<br>&#125;</p><dd class="ssw15-rteElement-FigureBad"> Bad Code&#58; Avoid &quot;UI&quot; in event names, an event is UI un-aware</dd><p>​​<br></p><p class="ssw15-rteElement-CodeArea"> private void RaiseSelectedLotUpdated()<br>&#123;<br>if (SelectedLotUpdated != null)<br>&#123;<br>SelectedLotUpdated();<br>&#125;<br>&#125;</p><dd class="ssw15-rteElement-FigureGood"> Good Code&#58; We received an update on the currently selected item, change the UI correspondingly (or even better&#58; use MVVM and data binding)</dd><p>​<br></p>
+<!--endintro-->
 
 
+
+```
+private void RaiseUIUpdateBidButtonsRed()
+{
+if (UIUpdateBidButtonsRed != null)
+{
+UIUpdateBidButtonsRed();
+}
+}
+```
+
+
+
+
+::: bad
+Bad Code: Avoid "UI" in event names, an event is UI un-aware  
+:::
+
+
+
+
+
+```
+private void RaiseSelectedLotUpdated()
+{
+if (SelectedLotUpdated != null)
+{
+SelectedLotUpdated();
+}
+}
+```
+
+
+
+
+::: good
+Good Code: We received an update on the currently selected item, change the UI correspondingly (or even better: use MVVM and data binding)  
+:::
