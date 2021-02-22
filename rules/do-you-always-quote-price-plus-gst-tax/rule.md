@@ -33,7 +33,7 @@ redirects:
     <dt>The total fixed price total is $AUD 60,000 + GST (10%). Please find quote attached. </dt>
     <dd>Good Example </dd>
 </dl>
-<p><b>Note</b> &#58; SSW and other Australian companies do not charge GST to external clients outside of Australia.<br></p><p>​While you are writing out a quote, make sure&#160;​<a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b2c96952-bfc1-440f-af5f-ec26fcc36002">you know when to use a round or exact figure</a>.​<br><br></p>
+<p><b>Note</b> &#58; SSW and other Australian companies do not charge GST to external clients outside of Australia.<br></p><p>​While you are writing out a quote, make sure&#160;​<a href=/do-you-know-when-to-use-a-round-figure-or-an-exact-figure>you know when to use a round or exact figure</a>.​<br><br></p>
 
 
 
