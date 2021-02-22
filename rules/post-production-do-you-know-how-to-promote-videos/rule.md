@@ -59,7 +59,7 @@ Raj</p>
 <p>Could you do the following&#58;</p>
 <ol>
 <li>Write a blog post on it</li>
-<li>Tweet it by clicking {gtHTMLChar}{gtHTMLChar}here{ltHTMLChar}{ltHTMLChar} [clicktotweet url]</li>
+<li>Tweet it by clicking &gt;&gt;here&lt;&lt; [clicktotweet url]</li>
 <li>Sharing this Facebook Post [post url]</li>
 <li>Adding to LinkedIn</li>
 <li>Emailing your marketing list with the interview (if you have one)</li>
