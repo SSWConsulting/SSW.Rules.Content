@@ -20,8 +20,8 @@ redirects: []
 <br><excerpt class='endintro'></excerpt><br>
 
 <p>At SSW whenever a big new project is signed up, we sell an enterprise license for one of our products, or we release a project into production we send an email to all staff and then ring the bell, which is located in the middle of the office.</p>
-<img border="0" src="/PublishingImages/ring-the-bell.jpg" alt="Ring the bell Email" class="ms-rteCustom-ImageArea" style="border&#58;0px solid;" /> <span class="ms-rteCustom-FigureGood">Figure&#58; We send around an email like this and ring the bell when we get good news! </span>
-<p>Similarly, when we get some feedback we will send around an email.<br></p><p>As a company owner or manager, you might want to see who of your employees&#160;are contributing to this feeling of appreciation around the office, and you can do that by querying your Exchange Server for threads with &quot;Ring the Bell&quot; in the subject<br></p>
+<img border="0" src="ring-the-bell.jpg" alt="Ring the bell Email" class="ms-rteCustom-ImageArea" style="border:0px solid;" /> <span class="ms-rteCustom-FigureGood">Figure: We send around an email like this and ring the bell when we get good news! </span>
+<p>Similarly, when we get some feedback we will send around an email.<br></p><p>As a company owner or manager, you might want to see who of your employees are contributing to this feeling of appreciation around the office, and you can do that by querying your Exchange Server for threads with "Ring the Bell" in the subject<br></p>
 
 
 
