@@ -22,9 +22,36 @@ redirects:
 
 ---
 
+Remember to use dividers when quoting phone numbers or large sums.
 
-Remember to use dividers when quoting phone numbers or large sums.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<div><p></p><p class="ssw15-rteElement-GreyBox">​1.&#160;2721654230<br>2. Phone&#58; 8583532311</p><p></p></div><dd class="ssw15-rteElement-FigureBad">Bad Example&#58; These number are unwieldy​ and difficult to read</dd><p class="ssw15-rteElement-P">​​​<br></p><p class="ssw15-rteElement-GreyBox">​​​​​1.&#160;2,721,654,230​<br>2. Phone&#58; (858) 353-2311</p><dd class="ssw15-rteElement-FigureGood">Good example&#58; A comma, a dash and some spacing makes these large digits easier to read</dd>
+<!--endintro-->
 
 
+
+
+
+::: greybox
+1. 2721654230
+2. Phone: 8583532311  
+:::
+
+
+
+
+
+::: bad
+Bad Example: These number are unwieldy and difficult to read  
+:::
+
+
+
+
+::: greybox
+1. 2,721,654,230
+2. Phone: (858) 353-2311  
+:::
+
+
+::: good
+Good example: A comma, a dash and some spacing makes these large digits easier to read  
+:::
