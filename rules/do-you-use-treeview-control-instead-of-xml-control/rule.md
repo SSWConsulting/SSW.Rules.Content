@@ -22,19 +22,19 @@ Both controls can represent XML hierarchical data and support Extensible Stylesh
 
 <br><excerpt class='endintro'></excerpt><br>
 
-  <pre class="brush&#58;c-sharp">{ltHTMLChar}asp&#58;TreeView ID=&quot;TreeView1&quot; runat=&quot;server&quot; DataSourceID=&quot;siteMapDataSource&quot;
-ImageSet=&quot;Faq&quot; SkipLinkText =&quot;&quot;{gtHTMLChar} 
-{ltHTMLChar}ParentNodeStyle Font-Bold=&quot;False&quot; /{gtHTMLChar} 
-{ltHTMLChar}HoverNodeStyle Font-Underline=&quot;True&quot; ForeColor=&quot;Purple&quot; /{gtHTMLChar}   
-{ltHTMLChar}SelectedNodeStyle Font-Underline=&quot;True&quot; HorizontalPadding=&quot;0px&quot;
-VerticalPadding=&quot;0px&quot; /{gtHTMLChar} 
-{ltHTMLChar}NodeStyle Font-Names=&quot;Tahoma&quot; Font-Size=&quot;8pt&quot; ForeColor=&quot;DarkBlue&quot;
-HorizontalPadding=&quot;5px&quot; NodeSpacing=&quot;0px&quot; VerticalPadding=&quot;0px&quot; /{gtHTMLChar}
-{ltHTMLChar}/asp&#58;TreeView{gtHTMLChar}
-{ltHTMLChar}asp&#58;SiteMapDataSource ID=&quot;siteMapDataSource&quot;  runat=&quot;server&quot; /{gtHTMLChar}                    </pre>
+  <pre class="brush&#58;c-sharp">&lt;asp&#58;TreeView ID=&quot;TreeView1&quot; runat=&quot;server&quot; DataSourceID=&quot;siteMapDataSource&quot;
+ImageSet=&quot;Faq&quot; SkipLinkText =&quot;&quot;&gt; 
+&lt;ParentNodeStyle Font-Bold=&quot;False&quot; /&gt; 
+&lt;HoverNodeStyle Font-Underline=&quot;True&quot; ForeColor=&quot;Purple&quot; /&gt;   
+&lt;SelectedNodeStyle Font-Underline=&quot;True&quot; HorizontalPadding=&quot;0px&quot;
+VerticalPadding=&quot;0px&quot; /&gt; 
+&lt;NodeStyle Font-Names=&quot;Tahoma&quot; Font-Size=&quot;8pt&quot; ForeColor=&quot;DarkBlue&quot;
+HorizontalPadding=&quot;5px&quot; NodeSpacing=&quot;0px&quot; VerticalPadding=&quot;0px&quot; /&gt;
+&lt;/asp&#58;TreeView&gt;
+&lt;asp&#58;SiteMapDataSource ID=&quot;siteMapDataSource&quot;  runat=&quot;server&quot; /&gt;                    </pre>
 <span class="ms-rteCustom-FigureGood">Figure&#58; Good Code - <a href="http&#58;//www.ssw.com.au/Demos/03TreeView/Default.aspx">Use TreeView to represent XML hierarchical data</a></span>
-<pre class="brush&#58;c-sharp">{ltHTMLChar}asp&#58;Xml ID=&quot;Xml1&quot; runat=&quot;server&quot; DocumentSource=&quot;~/Web.xml&quot;
-TransformSource=&quot;~/Style.xsl&quot;{gtHTMLChar}{ltHTMLChar}/asp&#58;Xml{gtHTMLChar} </pre>
+<pre class="brush&#58;c-sharp">&lt;asp&#58;Xml ID=&quot;Xml1&quot; runat=&quot;server&quot; DocumentSource=&quot;~/Web.xml&quot;
+TransformSource=&quot;~/Style.xsl&quot;&gt;&lt;/asp&#58;Xml&gt; </pre>
 <span class="ms-rteCustom-FigureBad">Figure&#58; Bad Code - <a href="http&#58;//www.ssw.com.au/Demos/03TreeView/XML.aspx">Use XML to represent XML document using XSL Transformations</a></span> 
 
 
