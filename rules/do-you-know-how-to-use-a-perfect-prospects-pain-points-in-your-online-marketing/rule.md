@@ -20,14 +20,23 @@ redirects:
 
 ---
 
+Once you discover a pain point that resonates with your perfect prospect, you should use this pain point  **across all of
+your marketing campaigns.**
 
-<p>
+<!--endintro-->
 
-Once
-you discover a pain point that resonates with your perfect prospect, you should use this
-pain point <strong>across all of
-your marketing campaigns.</strong><br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<div><strong>Here are some good ideas on how to use it&#58;</strong> </div><div><br></div><div><ol><li>On your homepage header </li><li>&#160;As a Facebook, Instagram, Twitter or LinkedIn ad </li><li>&#160;As an e-book, you can give away on y​our website </li><li>As a video, you can put on YouTube, Facebook and Instagram </li><li>As a blog post</li><li>As a newsletter</li><li>As a google ads headline </li><li>As a topic for your next event e.g. webinar </li><li>As a podcast topic </li><li>As one email in an automated email marketing sequence</li></ol></div><br>
+ **Here are some good ideas on how to use it:** 
 
 
+
+
+1. On your homepage header
+2. As a Facebook, Instagram, Twitter or LinkedIn ad
+3. As an e-book, you can give away on your website
+4. As a video, you can put on YouTube, Facebook and Instagram
+5. As a blog post
+6. As a newsletter
+7. As a google ads headline
+8. As a topic for your next event e.g. webinar
+9. As a podcast topic
+10. As one email in an automated email marketing sequence
