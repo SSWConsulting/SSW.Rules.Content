@@ -14,9 +14,6 @@ redirects:
 
 ---
 
+Standardize on the return values of stored procedures for success and failures.
 
-<p class="ssw15-rteElement-P">Standardize on the return values of stored procedures for success and failures.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
