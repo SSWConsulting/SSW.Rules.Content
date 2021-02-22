@@ -17,10 +17,12 @@ redirects:
 
 ---
 
+When advertising on Facebook means you will have to adhere to the guidelines Facebook has created:     [Advertising Policies](https&#58;//www.facebook.com/policies/ads/). One of the most important guidelines to follow is the 20% text rule on all ad images. You can also follow this for your organic content, as this will make your feed look cleaner - save the text for the post.
 
-<p>When advertising on Facebook means you will have to adhere to the guidelines Facebook has created&#58; 
-   <a href="https&#58;//www.facebook.com/policies/ads/">Advertising Policies​</a>. One of the most important guidelines to follow is the 20% text rule on all ad images. You can also follow this for your organic content, as this will make your feed look cleaner - save the text for the post.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p></p><p>In Facebook Ads, this requires that there is no more than 20% text on any image used in your campaign. This limit includes logos and slogans. Failure to meet this guideline will result in your ads not being approved by Facebook and will require you to adjust the text amount on your image before they can be run.</p><p>Have a look at&#160;<a href="https&#58;//www.facebook.com/business/help/388369961318508?id=1240182842783684">Facebook's Best Practices For Image Ads</a>.&#160;</p>
+<!--endintro-->
 
 
+
+In Facebook Ads, this requires that there is no more than 20% text on any image used in your campaign. This limit includes logos and slogans. Failure to meet this guideline will result in your ads not being approved by Facebook and will require you to adjust the text amount on your image before they can be run.
+
+Have a look at [Facebook's Best Practices For Image Ads](https&#58;//www.facebook.com/business/help/388369961318508?id=1240182842783684).
