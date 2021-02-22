@@ -21,7 +21,7 @@ redirects: []
   return View();
 &#125;
  
-{ltHTMLChar}h1{gtHTMLChar}{ltHTMLChar}%&#58; ViewData[&quot;Message&quot;] &amp;{gtHTMLChar}{ltHTMLChar}/h1{gtHTMLChar}
+&lt;h1&gt;&lt;%&#58; ViewData[&quot;Message&quot;] &amp;&gt;&lt;/h1&gt;
 
 </pre></div></dt><dd>Figure&#58; Bad Example – ViewData being used to pass information to the View isn’t type-safe</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>public ActionResult Index() &#123;
   var model = new IndexViewModel();
@@ -29,7 +29,7 @@ redirects: []
   return View();
 &#125;
  
-{ltHTMLChar}h1{gtHTMLChar}{ltHTMLChar}%&#58; Model.Message %{gtHTMLChar}{ltHTMLChar}/h1{gtHTMLChar}
+&lt;h1&gt;&lt;%&#58; Model.Message %&gt;&lt;/h1&gt;
 
 </pre></div></dt><dd>Figure&#58; Good Example – Using a ViewModel is a safer way to pass data</dd></dl>
 
