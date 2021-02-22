@@ -11,9 +11,7 @@ redirects: []
 
 ---
 
-
-Follow the steps 1-3 above. Focus primarily on the US websites.<br>​<br>
-<br><excerpt class='endintro'></excerpt><br>
+Follow the steps 1-3 above. Focus primarily on the US websites.
 
 
-
+<!--endintro-->
