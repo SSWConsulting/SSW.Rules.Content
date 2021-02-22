@@ -14,9 +14,15 @@ redirects:
 
 ---
 
+Documenting your WebAPI is important but you don't want to spend a massive amount of time trying to keep documentation up to date. The solution is to use [Swagger](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)and [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle).
 
-Documenting your WebAPI is important but you don't want to spend a massive amount of time trying to keep documentation up to date. The solution ​is to use <a href="https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md">Swagger </a>and <a href="https://github.com/domaindrivendev/Swashbuckle">Swashbuckle</a>​.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​​​​​Implementing Swagger will give you an automatic UI to explore and test your Web ​API methods.</p><dl class="ssw15-rteElement-ImageArea"><img src="document-api-swagger.png" alt="document-api-swagger.png" style="margin:5px;width:750px;height:556px;" /><br></dl><dd class="ssw15-rteElement-FigureGood">​Swagger gives you a nice UI automatically generated on top of your WebAPI methods<br></dd><p><br><br></p>
+<!--endintro-->
+
+Implementing Swagger will give you an automatic UI to explore and test your Web API methods.
+![](document-api-swagger.png)
 
 
+::: good
+Swagger gives you a nice UI automatically generated on top of your WebAPI methods
+
+:::
