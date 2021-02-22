@@ -41,34 +41,34 @@ WCF demonstrated interoperability with using the Web Services Security (WSS) inc
     After having Configure an SSL certificate (in the LocalMachine store of the server), the following lines are required in the web.config&#58; </li>
 </ol>
 <p>&#160;</p>
-<pre class="brush&#58;c-sharp">{ltHTMLChar}configuration xmlns=&quot;http&#58;//schemas.microsoft.com/.NetConfiguration/v2.0&quot;{gtHTMLChar}
-{ltHTMLChar}system.serviceModel{gtHTMLChar}
-{ltHTMLChar}services{gtHTMLChar}
-{ltHTMLChar}service type=&quot;WCFService&quot; name=&quot;WCFService&quot;
-behaviorConfiguration=&quot;ServiceBehaviour&quot;{gtHTMLChar}
-{ltHTMLChar}endpoint contract=&quot;IWCFService&quot; binding=&quot;wsHttpBinding&quot;
-bindingConfiguration=&quot;WSHttpBinding_IWCFServiceBinding&quot;/{gtHTMLChar}
-{ltHTMLChar}/service{gtHTMLChar}
-{ltHTMLChar}/services{gtHTMLChar}
-{ltHTMLChar}bindings{gtHTMLChar}
-{ltHTMLChar}wsHttpBinding{gtHTMLChar}
-{ltHTMLChar}binding name=&quot;WSHttpBinding_IWCFServiceBinding&quot; {gtHTMLChar}
-{ltHTMLChar}security mode=&quot;Message&quot;{gtHTMLChar}
-{ltHTMLChar}message clientCredentialType=&quot;UserName&quot; /{gtHTMLChar}
-{ltHTMLChar}/security{gtHTMLChar}
-{ltHTMLChar}/binding{gtHTMLChar}
-{ltHTMLChar}/wsHttpBinding{gtHTMLChar}
-{ltHTMLChar}/bindings{gtHTMLChar}
-{ltHTMLChar}behaviors{gtHTMLChar}
-{ltHTMLChar}behavior name=&quot;ServiceBehaviour&quot; returnUnknownExceptionsAsFaults=&quot;true&quot; {gtHTMLChar}
-{ltHTMLChar}serviceCredentials{gtHTMLChar}
-{ltHTMLChar}serviceCertificate findValue=&quot;CN=SSW&quot; storeLocation=&quot;LocalMachine&quot;             
-storeName=&quot;My&quot; x509FindType=&quot;FindBySubjectDistinguishedName&quot;/{gtHTMLChar}
-    {ltHTMLChar}/serviceCredentials{gtHTMLChar}
-    {ltHTMLChar}/behavior{gtHTMLChar}
-    {ltHTMLChar}/behaviors{gtHTMLChar}
-    {ltHTMLChar}/system.serviceModel{gtHTMLChar}
-    {ltHTMLChar}/configuration{gtHTMLChar}     </pre>
+<pre class="brush&#58;c-sharp">&lt;configuration xmlns=&quot;http&#58;//schemas.microsoft.com/.NetConfiguration/v2.0&quot;&gt;
+&lt;system.serviceModel&gt;
+&lt;services&gt;
+&lt;service type=&quot;WCFService&quot; name=&quot;WCFService&quot;
+behaviorConfiguration=&quot;ServiceBehaviour&quot;&gt;
+&lt;endpoint contract=&quot;IWCFService&quot; binding=&quot;wsHttpBinding&quot;
+bindingConfiguration=&quot;WSHttpBinding_IWCFServiceBinding&quot;/&gt;
+&lt;/service&gt;
+&lt;/services&gt;
+&lt;bindings&gt;
+&lt;wsHttpBinding&gt;
+&lt;binding name=&quot;WSHttpBinding_IWCFServiceBinding&quot; &gt;
+&lt;security mode=&quot;Message&quot;&gt;
+&lt;message clientCredentialType=&quot;UserName&quot; /&gt;
+&lt;/security&gt;
+&lt;/binding&gt;
+&lt;/wsHttpBinding&gt;
+&lt;/bindings&gt;
+&lt;behaviors&gt;
+&lt;behavior name=&quot;ServiceBehaviour&quot; returnUnknownExceptionsAsFaults=&quot;true&quot; &gt;
+&lt;serviceCredentials&gt;
+&lt;serviceCertificate findValue=&quot;CN=SSW&quot; storeLocation=&quot;LocalMachine&quot;             
+storeName=&quot;My&quot; x509FindType=&quot;FindBySubjectDistinguishedName&quot;/&gt;
+    &lt;/serviceCredentials&gt;
+    &lt;/behavior&gt;
+    &lt;/behaviors&gt;
+    &lt;/system.serviceModel&gt;
+    &lt;/configuration&gt;     </pre>
 <span class="ms-rteCustom-FigureGood">Figure&#58; Setting the SSL to Web Service for Message Layer Security.</span>
 
 
