@@ -15,9 +15,7 @@ redirects: []
 
 ---
 
+**It’s essential to have a functional website.** It must be user-friendly and focused on providing the best experience they could have if they are either shopping or looking for information about your business/service. Keep in mind that your call to action is the gateway to increasing your conversions on web pages, so make them obvious, no one likes to hunt for what they need! 
 
-<strong>​It’s essential to have a functional website.</strong> It must be user-friendly and focused on providing the best experience they could have if they are either shopping or looking for information about your business/service. Keep in mind that your call to action is the gateway to increasing your conversions on web pages, so make them obvious, no one likes to hunt for what they need! ​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="ssw15-rteElement-ImageArea">​<img src="sweetspot.jpg" alt="sweetspot.jpg" style="margin:5px;" /><strong>Figure: some tips on how SEO can help your Google Ranking​</strong><br></dl><p><br></p>
-
-
+<!--endintro-->
+![](sweetspot.jpg) **Figure: some tips on how SEO can help your Google Ranking**
