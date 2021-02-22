@@ -13,26 +13,19 @@ redirects: []
 
 ---
 
+When building an application for a client, you should implement functionality which                     will notify you personally whenever it throws an exception and log the issue for                     review.
 
-<p>​
-                    When building an application for a client, you should implement functionality which
-                    will notify you personally whenever it throws an exception and log the issue for
-                    review.
-                </p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>
-                    There are a few reasons to do this&#58;
-                </p>
-                <ul>
-                    <li>It gives you a sense of ownership of the project</li>
-                    <li>It makes finding out what's going wrong easier</li>
-                    <li>You can keep a history so you can see if there are any recurring exceptions</li>
-                    <li>You can ensure the long term quality of you application</li>
-                    <li>You are not just washing your hands and leaving at the end of the release</li>
-                </ul>
-                <p>
-                    You will find that this will lead to more clients who are happy to use you into
-                    the future because they know that you care about their application.
-                </p><p>See also&#58;&#160;​<a href=/rules-for-error-handling>https&#58;//rules.ssw.com.au/rules-for-error-handling​​</a></p>
+<!--endintro-->
+
+There are a few reasons to do this:
+
+* It gives you a sense of ownership of the project
+* It makes finding out what's going wrong easier
+* You can keep a history so you can see if there are any recurring exceptions
+* You can ensure the long term quality of you application
+* You are not just washing your hands and leaving at the end of the release
 
 
+You will find that this will lead to more clients who are happy to use you into                     the future because they know that you care about their application.
+
+See also: [https://rules.ssw.com.au/rules-for-error-handling](/rules-for-error-handling)
