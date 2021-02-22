@@ -12,16 +12,21 @@ redirects:
 
 ---
 
+A common oversight is applications don't check for invalid data. You should add "Tools | Validate Data" to your application.
 
-<p>A common oversight is applications don't check for invalid data. You should add "Tools | Validate Data" to your application.</p>
-<br><excerpt class='endintro'></excerpt><br>
-​<div>So when you add business rules to the middle tier, consider scenarios such as importing data and any other areas that side step business rules. Therefore we always make validate queries that if they return records, they must be fixed. Examples are:</div>
-<ul><li>For SQL Server we use <strong>vwValidateClient_MustHaveACategoryID</strong>, or <strong>procValidateClient_MustHaveACategoryID</strong></li>
-<li>For Access we use <strong>qryValidateClient_MustHaveACategoryID</strong></li></ul>
-<dl class="goodImage"><dt><img alt="Data Validation" src="../../assets/TimeProValidateData.png" /></dt>
-<dd>Figure: Good Example - This application, while not the prettiest, has a handy validation tool to check for incorrect data</dd></dl>
-<h1>Related Links</h1>
-<div><a href="/do-you-validate-each-＂denormalized-field＂-with-procvalidate">Do you validate each "Denormalized Field" with procValidate?</a></div>
+<!--endintro-->
+
+So when you add business rules to the middle tier, consider scenarios such as importing data and any other areas that side step business rules. Therefore we always make validate queries that if they return records, they must be fixed. Examples are:
+
+* For SQL Server we use  **vwValidateClient\_MustHaveACategoryID** , or  **procValidateClient\_MustHaveACategoryID**
+* For Access we use  **qryValidateClient\_MustHaveACategoryID**
 
 
 
+::: good  
+![Figure: Good Example - This application, while not the prettiest, has a handy validation tool to check for incorrect data](../../assets/TimeProValidateData.png)  
+:::
+
+# Related Links
+
+[Do you validate each "Denormalized Field" with procValidate?](/do-you-validate-each-＂denormalized-field＂-with-procvalidate)
