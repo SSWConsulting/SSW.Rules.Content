@@ -11,15 +11,11 @@ redirects: []
 
 ---
 
+Use jQuery or Ajax controls whenever possible to send requests without  feedback on the process. This is to avoid a "white" blank page, while  the page reloads. Similar ideas are like a save button that disables  after the first click so it can't be hit multiple times.
 
-<p>Use jQuery or Ajax controls whenever possible to send requests without 
-feedback on the process. This is to avoid a "white" blank page, while 
-the page reloads. Similar ideas are like a save button that disables 
-after the first click so it can't be hit multiple times.
-                </p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt> 
-      <img border="0" src="../../assets/Bad-AjaxControls.jpg" alt="" style="margin:5px;" /> 
-   </dt><dd>Figure: Bad example - An Ajax control which automatically disables the save button would make this message unnecessary.</dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example - An Ajax control which automatically disables the save button would make this message unnecessary.](../../assets/Bad-AjaxControls.jpg)  
+:::
