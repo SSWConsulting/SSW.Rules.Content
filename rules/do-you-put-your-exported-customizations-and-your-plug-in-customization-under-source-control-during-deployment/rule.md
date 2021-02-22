@@ -13,13 +13,6 @@ redirects: []
 
 ---
 
+If you export your customizations from your CRM Development server, put them under           TFS source-control, so that TFS is your central repository for everything, and you           have all the advantages of a source control system.
 
-<p>
-          If you export your customizations from your CRM Development server, put them under
-          TFS source-control, so that TFS is your central repository for everything, and you
-          have all the advantages of a source control system.
-        </p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
