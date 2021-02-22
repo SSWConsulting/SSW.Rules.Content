@@ -12,28 +12,25 @@ redirects:
 
 ---
 
+Is your price:
 
-<p>​Is your price&#58; <br></p><ul><li>​$100 per hour + GST (the $100 being the amount exclusive of GST)</li><li>$110 per hour (the $110 being the total amount) </li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-
-  <p>We say the first one. When providing quotes to prospects/clients, it is always better to display the net value + 10% GST rather than the total. </p>
-<p>The reasons for this are&#58; </p>
-<ul>
-    <li>It avoids any confusion as to whether GST is included. </li>
-    <li>This net amount is the REAL cost to the customer, as they get the tax back (in Australia). </li>
-    <li>The net value is lower and appears more attractive to the client. </li>
-    <li>The 10% GST charged to the client is not income for your company. In Australia, we collect this 10% on behalf of the Australian Taxation Office. </li>
-    <li>The client will receive back this 10% GST from the Australian Tax Office when they do their quarterly BAS/GST Return. </li>
-</ul>
-<dl class="bad">
-    <dt>The total fixed price total is $AUD 66,000 - please find quote attached. </dt>
-    <dd>Bad Example </dd>
-</dl>
-<dl class="good">
-    <dt>The total fixed price total is $AUD 60,000 + GST (10%). Please find quote attached. </dt>
-    <dd>Good Example </dd>
-</dl>
-<p><b>Note</b> &#58; SSW and other Australian companies do not charge GST to external clients outside of Australia.<br></p><p>​While you are writing out a quote, make sure&#160;​<a href=/do-you-know-when-to-use-a-round-figure-or-an-exact-figure>you know when to use a round or exact figure</a>.​<br><br></p>
+* $100 per hour + GST (the $100 being the amount exclusive of GST)
+* $110 per hour (the $110 being the total amount)
 
 
+<!--endintro-->
 
+We say the first one. When providing quotes to prospects/clients, it is always better to display the net value + 10% GST rather than the total.
+
+The reasons for this are:
+
+* It avoids any confusion as to whether GST is included.
+* This net amount is the REAL cost to the customer, as they get the tax back (in Australia).
+* The net value is lower and appears more attractive to the client.
+* The 10% GST charged to the client is not income for your company. In Australia, we collect this 10% on behalf of the Australian Taxation Office.
+* The client will receive back this 10% GST from the Australian Tax Office when they do their quarterly BAS/GST Return.
+
+      The total fixed price total is $AUD 66,000 - please find quote attached.      Bad Example        The total fixed price total is $AUD 60,000 + GST (10%). Please find quote attached.      Good Example   
+**Note** : SSW and other Australian companies do not charge GST to external clients outside of Australia.
+
+While you are writing out a quote, make sure [you know when to use a round or exact figure](/do-you-know-when-to-use-a-round-figure-or-an-exact-figure).
