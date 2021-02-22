@@ -17,7 +17,7 @@ redirects:
 
 Application upgrade might not only include the .exe and .dll but the database changes. How to deploy these changes, manually or using tools to deploy? <br>
 <br>
-Let's see the bad and good examples&#58; 
+Let's see the bad and good examples: 
 
 <br><excerpt class='endintro'></excerpt><br>
 
@@ -40,7 +40,7 @@ Regards,
 Eric Phan 
 </pre>
     </font></dt>
-    <dd>Figure&#58; Bad example - run SQL scripts manually </dd>
+    <dd>Figure: Bad example - run SQL scripts manually </dd>
 </dl>
 <dl class="image">
     <dt><font class="ms-rteCustom-CodeArea" size="+0">
@@ -54,7 +54,7 @@ Regards,
 Eric Phan 
 </pre>
     </font></dt>
-    <dd>Figure&#58; Better example - run SQL scripts using another package </dd>
+    <dd>Figure: Better example - run SQL scripts using another package </dd>
 </dl>
 <dl class="image">
     <dt><font class="ms-rteCustom-CodeArea" size="+0">
@@ -63,7 +63,7 @@ Eric Phan
 When you run the Northwind v1.0 (Rich Client) it will 
 automatically upgrade the database for you. 
 
-Just make sure you have dbo permissions&#58; 
+Just make sure you have dbo permissions: 
 Let me know if you run into any issues, 
 otherwise have a great day. 
 
@@ -71,14 +71,14 @@ Regards,
 Eric Phan
 </pre>
     </font></dt>
-    <dd>Figure&#58; Best example - run SQL scripts in the application </dd>
+    <dd>Figure: Best example - run SQL scripts in the application </dd>
 </dl>
 <dl class="image">
-    <dt><img alt="" src="/PublishingImages/UsingSQLDeployControl.png" /> </dt>
-    <dd>Figure&#58; Deploy SQL scripts by the application itself </dd>
+    <dt><img alt="" src="UsingSQLDeployControl.png" /> </dt>
+    <dd>Figure: Deploy SQL scripts by the application itself </dd>
 </dl>
 <br>
-We have a tool called <a href="http&#58;//www.ssw.com.au/ssw/SQLDeploy">SQL Deploy</a> can do this. 
+We have a tool called <a href="http://www.ssw.com.au/ssw/SQLDeploy">SQL Deploy</a> can do this. 
 
 
 
