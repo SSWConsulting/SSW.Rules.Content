@@ -13,33 +13,35 @@ redirects: []
 
 ---
 
+Do you let your designers loose on your development SharePoint?
+
+This is how we work:
+
+* A designer would imagine and mockup the design using a graphics tool – such as Photoshop
+* After the mockups are signed off, we let the designers work on the actual page
+* Give them designer permissions to your development site and let them loose with SharePoint designer!
 
 
-  <p>Do you let your designers loose on your development SharePoint?</p>
-<p>This is how we work&#58;</p>
-<ul>
-    <li>A designer would imagine and mockup the design using a graphics tool – such as Photoshop </li>
-    <li>After the mockups are signed off, we let the designers work on the actual page </li>
-    <li>Give them designer permissions to your development site and let them loose with SharePoint designer!</li>
-</ul>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
+There are many reasons why we believe that designers should work directly in SharePoint, with SharePoint designer:
 
-  <p>There are many reasons why we believe that designers should work directly in SharePoint, with SharePoint designer&#58;</p>
-<ul>
-    <li>In all areas of .NET development, whether it be ASP.NET, WCF or&#160;SilverLight,&#160;designers are more and more involved with the actual project beyond mockups </li>
-    <li>It helps them understand the limitations of SharePoint, which helps their future design to play to its strengths </li>
-    <li>They are also better at CSS and DOM than a typical developer, as well as more cross-browser aware </li>
-    <li>They are able to make a call on how close a designer can be bent when the implementation is hard or impossible - with developers who can't make that call, they may end up spending a lot of time failing to get the last 2 pixel perfect </li>
-    <li>SharePoint designer is sufficiently powerful and offers the only experience currently available for building with SharePoint sites </li>
-    <li>SharePoint has built-in check-in and check-out, as well as version controls, publishing and approval controls - all of which are excellent for team development</li>
-</ul>
-<p>The major drawback for a designer is the complexity of a SharePoint masterpage&#58;</p>
-<p>&lt;insert picture&gt;</p>
-<p>Figure&#58; Bad - Nasty looking masterpage</p>
-<p>Luckily, we always start with a clean-minimal masterpage, which gives our designers full freedom to implement their vision&#58;</p>
-<p>&lt;insert picture&gt;</p>
-<p>Figure&#58; Good - clean-minimal masterpage</p>
+* In all areas of .NET development, whether it be ASP.NET, WCF or SilverLight, designers are more and more involved with the actual project beyond mockups
+* It helps them understand the limitations of SharePoint, which helps their future design to play to its strengths
+* They are also better at CSS and DOM than a typical developer, as well as more cross-browser aware
+* They are able to make a call on how close a designer can be bent when the implementation is hard or impossible - with developers who can't make that call, they may end up spending a lot of time failing to get the last 2 pixel perfect
+* SharePoint designer is sufficiently powerful and offers the only experience currently available for building with SharePoint sites
+* SharePoint has built-in check-in and check-out, as well as version controls, publishing and approval controls - all of which are excellent for team development
 
 
+The major drawback for a designer is the complexity of a SharePoint masterpage:
 
+&lt;insert picture&gt;
+
+Figure: Bad - Nasty looking masterpage
+
+Luckily, we always start with a clean-minimal masterpage, which gives our designers full freedom to implement their vision:
+
+&lt;insert picture&gt;
+
+Figure: Good - clean-minimal masterpage
