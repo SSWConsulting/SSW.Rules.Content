@@ -12,6 +12,7 @@ index:
 - when-do-you-use-silverlight
 
 ---
-<p>Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.&#160;</p><p>If you still need help, visit <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Desktop-Development.aspx" style="line-height&#58;20.7999992370605px;">​Windows desktop applications | Windows 8 store applications &amp; WPF​</a>​&#160;and book in a consultant.​​​</p>
+Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
+If you still need help, visit [Windows desktop applications | Windows 8 store applications & WPF](http&#58;//www.ssw.com.au/ssw/Consulting/Desktop-Development.aspx) and book in a consultant.
 
