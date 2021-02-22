@@ -16,12 +16,36 @@ redirects:
 
 ---
 
+In PowerShell, you can easily create variables without explicitly typing them and that leads to some hardcoded "magic" strings.
 
-<p class="ssw15-rteElement-P">In PowerShell, you can easily create variables without explicitly typing them and that leads to some hardcoded "magic" strings.​​<br></p><p class="ssw15-rteElement-P">Instead of using XML, JSON, YAML, or TXT files, PowerShell "accidentally" created a very nice configuration file format, PSD1.</p><p class="ssw15-rteElement-P">PSD1 us the filename extension for PowerShell module descriptions, and this file contains metadata for that module. You can, however, load any kind of data from a PSD1 file using a simple cmdlet.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">Import-PowerShellDataFile.​<br></p><p class="ssw15-rteElement-P">Some of the things we can do in a PSD1 file:</p><ol><li>We can write comments;</li><li>We can use lots of data types, like int, float, bool, string, array...</li><li>We don't need to use quotes around field names like JSON;</li><li>And more.</li></ol><p>Instead of keeping all your important URLs and FQDNs inside your PowerShell script, you should keep the script itself clean and "sanitized" from those hard-coded variables, so it can be freely shared on GitHub without any security concerns for you or your company. It also makes the script much more maintainable, where you can easily change the variables in the .PSD1 file without needing to change your core script.<br>Don't forget to add the configuration file to .gitignore!</p><dl class="badImage"><dt>
-      <img src="bad-script-variables.png" alt="bad-script-variables.png" style="width:750px;" />
-   </dt><dd>Figure: Bad Example - Your script variables are in the script itself, making it insecure to share outside</dd></dl><p>Credits to: 
-   <a href="https://medium.com/%40ssg/powershell-accidentally-created-a-nice-configuration-format-3efde5448090">PowerShell Accidentally Created A Nice Configuration Format</a>.​​<br></p>
+Instead of using XML, JSON, YAML, or TXT files, PowerShell "accidentally" created a very nice configuration file format, PSD1.
+
+PSD1 us the filename extension for PowerShell module descriptions, and this file contains metadata for that module. You can, however, load any kind of data from a PSD1 file using a simple cmdlet.
+
+<!--endintro-->
 
 
+
+```
+Import-PowerShellDataFile.
+```
+
+
+
+Some of the things we can do in a PSD1 file:
+
+1. We can write comments;
+2. We can use lots of data types, like int, float, bool, string, array...
+3. We don't need to use quotes around field names like JSON;
+4. And more.
+
+
+Instead of keeping all your important URLs and FQDNs inside your PowerShell script, you should keep the script itself clean and "sanitized" from those hard-coded variables, so it can be freely shared on GitHub without any security concerns for you or your company. It also makes the script much more maintainable, where you can easily change the variables in the .PSD1 file without needing to change your core script.
+Don't forget to add the configuration file to .gitignore!
+
+
+::: bad  
+![Figure: Bad Example - Your script variables are in the script itself, making it insecure to share outside](bad-script-variables.png)  
+:::
+
+Credits to:     [PowerShell Accidentally Created A Nice Configuration Format](https://medium.com/%40ssg/powershell-accidentally-created-a-nice-configuration-format-3efde5448090).
