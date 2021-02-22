@@ -15,33 +15,39 @@ redirects: []
 
 ---
 
+The Web.config file should be your main source where you store your application settings. These change, depending on which system you are working on, e.g. your local machine or the website. That's why you have to keep two versions of the Web.config file, one for your local machine and one for the website. 
+ That's annoying, not really efficient and often the cause of problems.   
+<!--endintro-->
 
-The Web.config file should be your main source where you store your application settings. These change, depending on which system you are working on, e.g. your local machine or the website. That's why you have to keep two versions of the Web.config file, one for your local machine and one for the website. <br>
-That's annoying, not really efficient and often the cause of problems. 
+In the following extract of a sample Web.config file you can see the problem. The local machine "HIPPO" has, of course, another WebServiceURL than the Webserver "SEAL". So you have to keep two versions of the Web.config file, one when working on "HIPPO" and one when working on "SEAL".
 
-<br><excerpt class='endintro'></excerpt><br>
 
-  <p>In the following extract of a sample Web.config file you can see the problem. The local machine &quot;HIPPO&quot; has, of course, another WebServiceURL than the Webserver &quot;SEAL&quot;. So you have to keep two versions of the Web.config file, one when working on &quot;HIPPO&quot; and one when working on &quot;SEAL&quot;. </p>
-<pre class="brush&#58;c-sharp">&lt;add key=&quot;SEAL_WebServiceURL&quot;
-    value=&quot;http&#58;//host.something.com&#58;80/SomeDirectory/Filename.asmx&quot;/&gt; 
-    &lt;add key=&quot;HIPPO_WebServiceURL&quot;
-    value=&quot;http&#58;//name&#58;80/SomeDirectory/Filename.asmx&quot;/&gt;</pre>
-<span class="ms-rteCustom-FigureGood">Figure&#58; Sample Web.config file</span>
-<p>There is a better solution&#58; </p>
-<pre class="brush&#58;c-sharp">Public Shared Function GetWebConfigString(ByVal StringName As String) As String
-Dim strReturn As String = &quot;&quot;
+```
+<add key="SEAL_WebServiceURL"
+    value="http://host.something.com:80/SomeDirectory/Filename.asmx"/> 
+    <add key="HIPPO_WebServiceURL"
+    value="http://name:80/SomeDirectory/Filename.asmx"/>
+```
+
+Figure: Sample Web.config file
+There is a better solution:
+
+
+```
+Public Shared Function GetWebConfigString(ByVal StringName As String) As String
+Dim strReturn As String = ""
 Dim strComputerName As String = System.Net.Dns.GetHostName
 Try
 strReturn = ConfigurationSettings.AppSettings( strComputerName.ToUpper _
-+ &quot;_&quot;+ StringName)
++ "_"+ StringName)
 Catch
 strReturn = ConfigurationSettings.AppSettings(StringName)
 End Try
 Return strReturn
-End Function</pre>
-<span class="ms-rteCustom-FigureGood">Figure&#58; Sample Get WebConfigString Class</span>
-<p>This class simply adds the name of the Computer on which it is running on to the WebConfigString. In the former example, this would be &quot;HIPPO_&quot; or &quot;SEAL_&quot;.</p>
-<p>Instead of using the WebConfigString directly you can now transform it using this function. With the help of this code, you always get the right value for the WebConfigString, no matter on which machine the application runs and you don't have to care about synchronizing the Web.config file any more.</p>
+End Function
+```
 
+Figure: Sample Get WebConfigString Class
+This class simply adds the name of the Computer on which it is running on to the WebConfigString. In the former example, this would be "HIPPO\_" or "SEAL\_".
 
-
+Instead of using the WebConfigString directly you can now transform it using this function. With the help of this code, you always get the right value for the WebConfigString, no matter on which machine the application runs and you don't have to care about synchronizing the Web.config file any more.
