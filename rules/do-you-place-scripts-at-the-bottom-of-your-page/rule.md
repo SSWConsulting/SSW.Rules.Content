@@ -22,9 +22,9 @@ The goal is to make the page load as quickly as possible for the user.
 <p>So go ahead and place JS files at the bottom of the HTML, just before the closing body tag.</p>
 
 <div class="ms-rteCustom-CodeArea">
-<p>{ltHTMLChar}script type=&quot;text/javascript&quot; src=&quot;file.js&quot;{gtHTMLChar}{ltHTMLChar}/script{gtHTMLChar} <br> 
-{ltHTMLChar}/body{gtHTMLChar} <br>
-{ltHTMLChar}/html{gtHTMLChar}
+<p>&lt;script type=&quot;text/javascript&quot; src=&quot;file.js&quot;&gt;&lt;/script&gt; <br> 
+&lt;/body&gt; <br>
+&lt;/html&gt;
 </p>
 </div>
 <span class="ms-rteCustom-FigureGood">Figure&#58; Place JavaScript at the bottom of your HTML</span>
