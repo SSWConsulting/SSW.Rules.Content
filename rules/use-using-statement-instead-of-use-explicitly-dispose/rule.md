@@ -14,9 +14,122 @@ redirects:
 
 ---
 
-
-Don't explicitly use &quot;dispose&quot; to close objects and dispose of them, the &quot;using&quot; statement will do all of them for you. It is another awesome tool that helps reduce coding effort and possible issues. <br>​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">static int WriteLinesToFile(IEnumerable&lt;string&gt; lines)<br>&#123;<br>&#160;&#160;// We must declare the variable outside of the using block<br>&#160; // so that it is in scope to be returned.<br>&#160; int skippedLines = 0;<br>&#160; var file = new System.IO.StreamWriter(&quot;WriteLines2.txt&quot;)<br>&#160; foreach (string line in lines)<br>&#160; &#123;<br>&#160;&#160; &#160;if (!line.Contains(&quot;Second&quot;))<br>&#160;&#160; &#160;&#123;<br>&#160; &#160; &#160; file.WriteLine(line);<br>&#160; &#160; &#125;<br>&#160; &#160; else<br>&#160; &#160; &#123;<br>&#160; &#160;&#160; &#160;skippedLines++;<br>&#160; &#160; &#125;<br>&#160; &#125;<br>&#160; file.Dispose();<br>&#160; return skippedLines;<br>&#125;<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example of dispose of resources<br></dd><p><br></p><p class="ssw15-rteElement-CodeArea">static int WriteLinesToFile(IEnumerable&lt;string&gt; lines)<br>&#123;<br>&#160; // We must declare the variable outside of the using block<br>&#160; // so that it is in scope to be returned.<br>&#160; int skippedLines = 0;<br>&#160; using (var file = new System.IO.StreamWriter(&quot;WriteLines2.txt&quot;))<br>&#160; &#123;<br>&#160; &#160; foreach (string line in lines)<br>&#160; &#160; &#123;<br>&#160; &#160; &#160; if (!line.Contains(&quot;Second&quot;))<br>&#160; &#160; &#160;&#160;&#123;<br>&#160; &#160; &#160; &#160; file.WriteLine(line);<br>&#160; &#160; &#160; &#125;<br>&#160; &#160; &#160; else<br>&#160; &#160; &#160;&#160;&#123;<br>&#160; &#160; &#160; &#160;&#160;skippedLines++;<br>&#160; &#160; &#160; &#125;<br>&#160; &#160; &#125;<br>&#160; &#125; // file is disposed here<br> &#160; return skippedLines;<br>&#125;<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example of dispose of resources <br></dd><p>​<br></p><p class="ssw15-rteElement-CodeArea">static int WriteLinesToFile(IEnumerable&lt;string&gt; lines)<br>&#123;<br>&#160; using var file = new System.IO.StreamWriter(&quot;WriteLines2.txt&quot;);<br>&#160; // Notice how we declare skippedLines after the using statement.<br>&#160; int skippedLines = 0;<br>&#160; foreach (string line in lines)<br>&#160; &#123;<br>&#160; &#160; if (!line.Contains(&quot;Second&quot;))<br>&#160; &#160; &#123;<br>&#160; &#160; &#160;&#160;file.WriteLine(line);<br>&#160; &#160; &#125;<br>&#160; &#160;&#160;else<br>&#160; &#160; &#123;<br>&#160; &#160; &#160; skippedLines++;<br>&#160; &#160; &#160;&#125;<br>&#160; &#160; &#125;<br>&#160; &#160; // Notice how skippedLines is in scope here.<br>&#160; &#160;&#160;return skippedLines;<br>&#160; &#160;// file is disposed here<br>&#125;​<br></p><p></p><dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example of dispose of resources, using c# 8.0 using declaration<br><p class="ssw15-rteElement-P"><br></p><p class="ssw15-rteElement-P">TIP&#58;​<br></p><p class="ssw15-rteElement-P"><strong>Did you know it is not recommended to dispose HttpClient?</strong><br></p><p class="ssw15-rteElement-Reference">​​One last note is regarding disposing of HttpClient.&#160; Yes, HTTPClient does implement IDisposable, however, I do not recommend creating a HttpClient inside a Using block to make a single request.&#160; When HttpClient is disposed it causes the underlying connection to be closed also.&#160; This means the next request has to re-open that connection.&#160; You should try and re-use your HttpClient instances.&#160; If the server really does not want you holding open it’s connection then it will send a header to request the connection be closed.​​<br><a>http&#58;//www.bizcoder.com/httpclient-it-lives-and-it-is-glorious​​​</a><br></p></dd>
+Don't explicitly use "dispose" to close objects and dispose of them, the "using" statement will do all of them for you. It is another awesome tool that helps reduce coding effort and possible issues. 
 
 
+<!--endintro-->
+
+
+
+```
+static int WriteLinesToFile(IEnumerable<string> lines)
+{
+  // We must declare the variable outside of the using block
+  // so that it is in scope to be returned.
+  int skippedLines = 0;
+  var file = new System.IO.StreamWriter("WriteLines2.txt")
+  foreach (string line in lines)
+  {
+    if (!line.Contains("Second"))
+    {
+      file.WriteLine(line);
+    }
+    else
+    {
+      skippedLines++;
+    }
+  }
+  file.Dispose();
+  return skippedLines;
+}
+```
+
+
+
+
+::: bad
+Figure: Bad example of dispose of resources
+
+:::
+
+
+
+
+
+```
+static int WriteLinesToFile(IEnumerable<string> lines)
+{
+  // We must declare the variable outside of the using block
+  // so that it is in scope to be returned.
+  int skippedLines = 0;
+  using (var file = new System.IO.StreamWriter("WriteLines2.txt"))
+  {
+    foreach (string line in lines)
+    {
+      if (!line.Contains("Second"))
+      {
+        file.WriteLine(line);
+      }
+      else
+      {
+        skippedLines++;
+      }
+    }
+  } // file is disposed here
+   return skippedLines;
+}
+```
+
+
+
+
+::: bad
+Figure: Bad example of dispose of resources 
+
+:::
+
+
+
+
+
+```
+static int WriteLinesToFile(IEnumerable<string> lines)
+{
+  using var file = new System.IO.StreamWriter("WriteLines2.txt");
+  // Notice how we declare skippedLines after the using statement.
+  int skippedLines = 0;
+  foreach (string line in lines)
+  {
+    if (!line.Contains("Second"))
+    {
+      file.WriteLine(line);
+    }
+    else
+    {
+      skippedLines++;
+     }
+    }
+    // Notice how skippedLines is in scope here.
+    return skippedLines;
+   // file is disposed here
+}
+```
+
+
+
+
+
+
+::: good
+Figure: Good example of dispose of resources, using c# 8.0 using declaration
+
+
+
+TIP:
+
+**Did you know it is not recommended to dispose HttpClient?**
+
+One last note is regarding disposing of HttpClient.  Yes, HTTPClient does implement IDisposable, however, I do not recommend creating a HttpClient inside a Using block to make a single request.  When HttpClient is disposed it causes the underlying connection to be closed also.  This means the next request has to re-open that connection.  You should try and re-use your HttpClient instances.  If the server really does not want you holding open it’s connection then it will send a header to request the connection be closed.
+http://www.bizcoder.com/httpclient-it-lives-and-it-is-glorious
+
+:::
