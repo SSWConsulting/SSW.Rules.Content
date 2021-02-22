@@ -13,9 +13,12 @@ redirects: []
 
 ---
 
+The impulse to win an argument and prove that you are right can be a strong driving force, but it's important not to let it take priority over keeping a good client. 
 
-​​​​The impulse to win an argument and prove that you are right can be a strong driving force, but it's important not to let it take priority over keeping a good client.&#160;<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>If the client is unhappy or upset, it's more important to show empathy and demonstrate that you understand your client's point of view, as it is more likely to win you future work.<br></p><p>Make sure you start a reply to an angry client with something like &quot;I understand your frustration, and I think I can stop this happening again&quot;.</p><p>At this point in time, you want to aim for a compromise, where each party meets the other somewhere in the middle.</p>
+<!--endintro-->
 
+If the client is unhappy or upset, it's more important to show empathy and demonstrate that you understand your client's point of view, as it is more likely to win you future work.
 
+Make sure you start a reply to an angry client with something like "I understand your frustration, and I think I can stop this happening again".
+
+At this point in time, you want to aim for a compromise, where each party meets the other somewhere in the middle.
