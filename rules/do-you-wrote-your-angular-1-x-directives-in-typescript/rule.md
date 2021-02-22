@@ -40,7 +40,7 @@ list-style-type:decimal !important;
             <span style="line-height&#58;13.8667px;"> 
                <br></span></font></div><div>
          <font face="segoe ui, verdana, arial, helvetica, sans-serif"> 
-            <span style="line-height&#58;13.8667px;">Writing Angular 1.x directives in Typescript can be a challenge with only a few examples available online. Most examples of Angular 1.x directives are in JavaScript and converting them to TypeScript versions means you need to have a good understanding of how it all works. Many examples that are available online do it a little differently from each other.&#160;</span></font></div><h3 class="ssw15-rteElement-H3">​​HTML</h3><p class="ssw15-rteElement-GreyBox">​​​{ltHTMLChar}current-value{gtHTMLChar}{ltHTMLChar}/current-value​{gtHTMLChar}<br></p><h3 class="ssw15-rteElement-H3">​Typescript<br></h3></div><pre class="prettyprint linenums">   module app.widgets &#123;
+            <span style="line-height&#58;13.8667px;">Writing Angular 1.x directives in Typescript can be a challenge with only a few examples available online. Most examples of Angular 1.x directives are in JavaScript and converting them to TypeScript versions means you need to have a good understanding of how it all works. Many examples that are available online do it a little differently from each other.&#160;</span></font></div><h3 class="ssw15-rteElement-H3">​​HTML</h3><p class="ssw15-rteElement-GreyBox">​​​&lt;current-value&gt;&lt;/current-value​&gt;<br></p><h3 class="ssw15-rteElement-H3">​Typescript<br></h3></div><pre class="prettyprint linenums">   module app.widgets &#123;
     'use strict';
 
     class CurrentValueDirectiveController &#123;
@@ -52,7 +52,7 @@ list-style-type:decimal !important;
 
         setCurrentValue() &#123;
             this.investmentReportsService.investmentSummary(this.amount)
-                .then((response) ={gtHTMLChar} &#123;
+                .then((response) =&gt; &#123;
                     this.currentValue = response.Data.TotalMarket;
                 &#125;);
         &#125;
