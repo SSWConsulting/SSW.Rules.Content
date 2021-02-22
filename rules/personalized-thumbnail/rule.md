@@ -23,9 +23,34 @@ redirects:
 
 ---
 
+Thumbnails are a great way of telling your (potential) viewers what your video is about and why they should watch it. It is therefore important that these stand out from the others.
 
-<p>Thumbnails are a great way of telling your (potential) viewers what your video is about and why they should watch it. It is therefore important that these stand out from the others.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>A thumbnail can draw attention by:</p><p></p><ul><li>Using bright colors and avoiding using the YouTube colors (white, black, red) so you don’t bend in.</li><li> Being custom (<a href="https://creatoracademy.youtube.com/page/lesson/thumbnails#strategies-zippy-link-2">90% of the best performing videos on YouTube have custom thumbnails</a>).</li><li>Using big bold titles (30 characters maximum, remember a thumbnail is small).</li><li>Feature your main keyword in the title</li></ul><p>YouTube offers <a href="https://support.google.com/youtube/answer/72431?hl=en">resources to create better custom thumbnails</a> including image size and resolution, policies, etc.<br></p><dl class="ssw15-rteElement-ImageArea"><br><img src="thumbnail_bad.png" alt="" style="margin:5px;width:808px;" /></dl><dd class="ssw15-rteElement-FigureBad">Bad example: despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough.<br></dd><p><br></p><dl class="ssw15-rteElement-ImageArea"><img src="thumbnail_good.png" alt="" style="margin:5px;width:808px;" /> </dl><dd class="ssw15-rteElement-FigureGood">Good example: a custom thumbnail looks professional and already gives important information about the content of the video.</dd><dt><br></dt><dt><strong>Images</strong>: courtesy of Brian Dean (<a href="https://backlinko.com/grow-youtube-channel">source</a>).<br></dt>
+<!--endintro-->
+
+A thumbnail can draw attention by:
 
 
+
+* Using bright colors and avoiding using the YouTube colors (white, black, red) so you don’t bend in.
+* Being custom ([90% of the best performing videos on YouTube have custom thumbnails](https://creatoracademy.youtube.com/page/lesson/thumbnails#strategies-zippy-link-2)).
+* Using big bold titles (30 characters maximum, remember a thumbnail is small).
+* Feature your main keyword in the title
+
+
+YouTube offers [resources to create better custom thumbnails](https://support.google.com/youtube/answer/72431?hl=en) including image size and resolution, policies, etc.
+
+![](thumbnail_bad.png)
+
+::: bad
+Bad example: despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough.
+
+:::
+
+
+![](thumbnail_good.png) 
+
+::: good
+Good example: a custom thumbnail looks professional and already gives important information about the content of the video.  
+:::
+
+ **Images** : courtesy of Brian Dean ([source](https://backlinko.com/grow-youtube-channel)).
