@@ -14,9 +14,6 @@ redirects:
 
 ---
 
+We believe it is not good that use invalid characters (most of are Symbol characters, like ",;"\/(", etc.) in object identifiers. Though it is legal, it is easily confused and probably cause an error during run script on these objects.
 
-<p class="ssw15-rteElement-P">​We believe it is not good that use invalid characters (most of are Symbol characters, like&#160;&quot;,;&quot;\/(&quot;, etc.) in object identifiers. Though it is legal, it is easily confused and probably cause an error during run script on these objects.​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
