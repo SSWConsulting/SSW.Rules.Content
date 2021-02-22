@@ -15,19 +15,19 @@ redirects: []
 
 
 <p>
-                    When adding input boxes to collect data, please always have a {ltHTMLChar}label{gtHTMLChar} tag
-                    associated with your {ltHTMLChar}input{gtHTMLChar} tag to link the labels with their respective
+                    When adding input boxes to collect data, please always have a &lt;label&gt; tag
+                    associated with your &lt;input&gt; tag to link the labels with their respective
                     edit controls. This improves accessibility and gives nice focusing stuff (when you
                     click the label).</p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="code"><dt><pre>{ltHTMLChar}p{gtHTMLChar}
-    {ltHTMLChar}label for=&quot;EmailAddress&quot;{gtHTMLChar}Email&#160;Address{ltHTMLChar}/label{gtHTMLChar}
-    {ltHTMLChar}input id=&quot;EmailAddress&quot;&#160;type=&quot;text&quot;/{gtHTMLChar}
-{ltHTMLChar}/p{gtHTMLChar}</pre></dt></dl><p>
-                    <b>Tip&#58; </b>To do this in ASP.NET use the AssociatedControlID parameter on your {ltHTMLChar}asp&#58;Label&#160;/{gtHTMLChar}
-                    controls.</p><dl class="code"><dt><pre>{ltHTMLChar}p{gtHTMLChar}
-    {ltHTMLChar}asp&#58;Label ID=&quot;EmailLabel&quot; runat=&quot;server&quot; Text=&quot;Email&#160;Address&quot; AssociatedControlID=&quot;EmailAddress&quot;/{gtHTMLChar}
-    {ltHTMLChar}asp&#58;TextBox ID=&quot;EmailAddress&quot; runat=&quot;server&quot;/{gtHTMLChar}
-{ltHTMLChar}/p{gtHTMLChar}</pre></dt></dl>
+<dl class="code"><dt><pre>&lt;p&gt;
+    &lt;label for=&quot;EmailAddress&quot;&gt;Email&#160;Address&lt;/label&gt;
+    &lt;input id=&quot;EmailAddress&quot;&#160;type=&quot;text&quot;/&gt;
+&lt;/p&gt;</pre></dt></dl><p>
+                    <b>Tip&#58; </b>To do this in ASP.NET use the AssociatedControlID parameter on your &lt;asp&#58;Label&#160;/&gt;
+                    controls.</p><dl class="code"><dt><pre>&lt;p&gt;
+    &lt;asp&#58;Label ID=&quot;EmailLabel&quot; runat=&quot;server&quot; Text=&quot;Email&#160;Address&quot; AssociatedControlID=&quot;EmailAddress&quot;/&gt;
+    &lt;asp&#58;TextBox ID=&quot;EmailAddress&quot; runat=&quot;server&quot;/&gt;
+&lt;/p&gt;</pre></dt></dl>
 
 
