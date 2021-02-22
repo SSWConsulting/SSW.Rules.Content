@@ -28,7 +28,7 @@ redirects: []
 <p>Your new text should be kept to the left. When quoting text on web pages, other people or quoting past email history, indent it.</p><p>
    <strong>Note&#58;</strong> This is almost as important as the 
    <a href="/Pages/HowToUseBalloons.aspx">Do you use balloons instead of a 'Wall of Text'?</a> rule.</p><h3 class="ssw15-rteElement-H3">Related Rule ​<br></h3><p></p><ul><li>
-      <span style="line-height&#58;1.6;">&#160;</span><a href="/Pages/KeeptheContext.aspx" style="line-height&#58;1.6;">Do&#160;you use {gtHTMLChar} and indentation to keep the context?</a><br></li></ul>
+      <span style="line-height&#58;1.6;">&#160;</span><a href="/Pages/KeeptheContext.aspx" style="line-height&#58;1.6;">Do&#160;you use &gt; and indentation to keep the context?</a><br></li></ul>
 <strong>VIDEO</strong>&#160;-&#160;<a href="https&#58;//www.youtube.com/watch?v=LAqRokqq4jI">Top 10+&#160;Rules to Better Email Communication with Ulysses Maclaren</a> ​
 
 
