@@ -12,10 +12,11 @@ redirects:
 
 ---
 
+## 
 
-<h2><dl class="goodImage"><dt><img src="../../assets/GoodMoreInfo.png" alt="" /></dt>
-<dd>Figure: Good Example - The screenshot provides more, useful information and gives the user context</dd></dl></h2>
-<br><excerpt class='endintro'></excerpt><br>
+::: good  
+![Figure: Good Example - The screenshot provides more, useful information and gives the user context](../../assets/GoodMoreInfo.png)  
+:::
 
 
-
+<!--endintro-->
