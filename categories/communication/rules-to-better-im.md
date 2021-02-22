@@ -24,6 +24,5 @@ index:
 - keep-a-history-of-your-im-conversations
 
 ---
-<p>​​<br></p>
-<p>Whether you are chatting to a client on Teams or your friend on WeChat… These are the most common things that can improve your communication.​<br></p>
+Whether you are chatting to a client on Teams or your friend on WeChat… These are the most common things that can improve your communication.
 
