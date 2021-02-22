@@ -10,6 +10,5 @@ index:
 - what-to-do-with-old-employees
 
 ---
-<p>​​<br></p>
 
 
