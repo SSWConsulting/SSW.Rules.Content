@@ -18,28 +18,63 @@ redirects:
 
 ---
 
+When a user clicks on a hyperlink they expect to open an HTML file. If you click on a hyperlink (but it is actually a .doc file) you wait and wait while it takes forever to instantiate an instance of Microsoft Word in the background.
 
-<p>When a user clicks on a hyperlink they expect to open an HTML​ file. If you click on a hyperlink (but it is actually a .doc file) you wait and wait while it takes forever to instantiate an instance of Microsoft Word in the background. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Don't surprise users! Use the following icons:</p> 
-<table cellspacing="0" cellpadding="3" class="normal" style="width:100%;"><tbody><tr><th scope="col">File Type</th><th scope="col">Example</th></tr><tr><td>PDF</td><td> 
-            <img alt="Icon PDF" src="../../assets/IconPdf.png" style="margin:5px;" /> This is a PDF file<br></td></tr><tr><td>JPG</td><td> 
-            <img alt="Icon JPG" src="../../assets/IconJpg.gif" style="margin:5px;" /> This is an Image file</td></tr><tr><td>DOC or DOT</td><td> 
-            <img alt="Icon DOC" src="../../assets/IconDoc.png" style="margin:5px;" /> This is a Word Document file</td></tr><tr><td>XLS</td><td> 
-            <img alt="Icon XLS" src="../../assets/IconXls.gif" style="margin:5px;" /> This is an Excel Spreadsheet file</td></tr><tr><td>PPT</td><td> 
-            <img alt="Icon PPT" src="../../assets/IconPPT.png" style="margin:5px;" /> This is a PowerPoint file</td></tr><tr><td>TXT</td><td> 
-            <img alt="Icon TXT" src="../../assets/IconTxt.gif" style="margin:5px;" /> This is a Text file</td></tr><tr><td>AVI, MOV, MPG etc.</td><td> 
-            <img alt="Icon MOV" src="../../assets/IconMov.gif" style="margin:5px;" /> This is a Video file</td></tr><tr><td>WAV, WMA, MP3 etc.</td><td> 
-            <img alt="Icon MP3" src="../../assets/IconMus.gif" data-pin-nopin="true" style="margin:5px;" /> This is a Music file</td></tr><tr><td>SNP</td><td> 
-            <img alt="Icon SNP" src="../../assets/IconSnp.gif" style="margin:5px;" /> This is an Access Database snapshot file (discontinued and not recommended)</td></tr><tr><td>EPS</td><td> 
-            <img alt="Icon EPS" src="../../assets/IconEps.gif" style="margin:5px;" /> This is an EPS file</td></tr><tr><td>ICS or VCS</td><td> 
-            <img alt="Icon VCS" src="../../assets/IconVCS.gif" style="margin:5px;" /> This is a calendar file</td></tr><tr><td>EXE or ZIP</td><td> 
-            <img alt="Download" src="../../assets/Download.gif" style="margin:5px;" />This is an executable or zip file</td></tr><tr><td>Mailto:</td><td> 
-            <img alt="Icon MailTo" src="../../assets/IconMailTo.gif" style="margin:5px;" /> This will send an email</td></tr><tr><td>XML / RSS</td><td> 
-            <img alt="Icon XML" src="../../assets/IconXML.gif" style="margin:5px;" /> This will subscribe to RSS</td></tr><tr><td>ODF</td><td> 
-            <img alt="Icon ODF" src="../../assets/IconOFT.gif" /> This is an Outlook Item Template</td></tr><tr><td>Page</td><td> 
-            <img src="../../assets/ms_lock.gif" alt="" /> This is a link to password protected page</td></tr><tr><td rowspan="1">YouTube</td><td rowspan="1">​<img src="youtube-icon_png.jpg" alt="" style="margin:5px;" />This is a link to a YouTube Video</td></tr></tbody></table><dl class="image"><dt> <img alt="Image good link" src="../../assets/GoogleIcons.gif" /> </dt><dd>Figure: FYI there are the same images used by Google at <a href="http://desktop.google.com/features.html">GoogleDesktopSideBar.htm</a>  <br> </dd></dl><dl class="badImage"><dt> <img alt="Image bad link" src="../../assets/IconImageBad.gif" /> </dt><dd>Figure: Bad Example - The user would expect all these hyperlinks to work the same way<br> </dd></dl><dl class="goodImage"><dt> <img alt="Image good link" src="../../assets/IconImageGood.gif" /> </dt><dd>Figure: Good Example - The pdf icon (before a hyperlink) indicates it is not a web page<br></dd></dl><h3>How to add an icon before a link with CSS</h3><p>Add the icon image to your server. Then use $= to make the match the extension of the &gt;a&lt; tag on your CSS. The padding is to give it some space before the text (where the icon will be).</p><p class="ssw15-rteElement-CodeArea">a[href$='.pdf'] <br>{ <br>background: transparent url(/images/icon_pdf.gif) center left no-repeat; <br>padding-left: 20 px; <br>}</p><div> 
-   <br> 
-   <p class="ssw15-rteElement-YellowBorderBox">We have the programs <a href="http://www.codeauditor.com/" target="_blank">SSW CodeAuditor</a> and <a href="https://linkauditor.com.au/" target="_blank">SSW LinkAuditor</a> to check for this rule.<br></p></div>
+<!--endintro-->
+
+Don't surprise users! Use the following icons:
 
 
+| File Type | Example |
+| --- | --- |
+| PDF | ![Icon PDF](../../assets/IconPdf.png) This is a PDF file
+ |
+| JPG | ![Icon JPG](../../assets/IconJpg.gif) This is an Image file |
+| DOC or DOT | ![Icon DOC](../../assets/IconDoc.png) This is a Word Document file |
+| XLS | ![Icon XLS](../../assets/IconXls.gif) This is an Excel Spreadsheet file |
+| PPT | ![Icon PPT](../../assets/IconPPT.png) This is a PowerPoint file |
+| TXT | ![Icon TXT](../../assets/IconTxt.gif) This is a Text file |
+| AVI, MOV, MPG etc. | ![Icon MOV](../../assets/IconMov.gif) This is a Video file |
+| WAV, WMA, MP3 etc. | ![Icon MP3](../../assets/IconMus.gif) This is a Music file |
+| SNP | ![Icon SNP](../../assets/IconSnp.gif) This is an Access Database snapshot file (discontinued and not recommended) |
+| EPS | ![Icon EPS](../../assets/IconEps.gif) This is an EPS file |
+| ICS or VCS | ![Icon VCS](../../assets/IconVCS.gif) This is a calendar file |
+| EXE or ZIP | ![Download](../../assets/Download.gif)This is an executable or zip file |
+| Mailto: | ![Icon MailTo](../../assets/IconMailTo.gif) This will send an email |
+| XML / RSS | ![Icon XML](../../assets/IconXML.gif) This will subscribe to RSS |
+| ODF | ![Icon ODF](../../assets/IconOFT.gif) This is an Outlook Item Template |
+| Page | ![](../../assets/ms_lock.gif) This is a link to password protected page |
+| YouTube | ![](youtube-icon_png.jpg)This is a link to a YouTube Video |
+
+
+![Figure: FYI there are the same images used by Google at GoogleDesktopSideBar.htm](../../assets/GoogleIcons.gif)  
+
+
+::: bad  
+![Figure: Bad Example - The user would expect all these hyperlinks to work the same way](../../assets/IconImageBad.gif)  
+:::
+
+
+::: good  
+![Figure: Good Example - The pdf icon (before a hyperlink) indicates it is not a web page](../../assets/IconImageGood.gif)  
+:::
+
+### How to add an icon before a link with CSS
+
+Add the icon image to your server. Then use $= to make the match the extension of the &gt;a&lt; tag on your CSS. The padding is to give it some space before the text (where the icon will be).
+
+
+
+```
+a[href$='.pdf'] 
+{ 
+background: transparent url(/images/icon_pdf.gif) center left no-repeat; 
+padding-left: 20 px; 
+}
+```
+
+
+
+
+
+We have the programs [SSW CodeAuditor](http://www.codeauditor.com/) and [SSW LinkAuditor](https://linkauditor.com.au/) to check for this rule.
