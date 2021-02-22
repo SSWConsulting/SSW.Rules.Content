@@ -14,9 +14,129 @@ redirects:
 
 ---
 
+You should always include error handling in your stored procedures, it allows you to catch errors and either log them or attempt to correct them.
+[THROW (Transact-SQL)](https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/throw-transact-sql?view=sql-server-ver15) lets you generate your own custom error messages, which can be more detailed in describing the problem and assist in debugging.
 
-​​​​You should always include error handling in your stored procedures, it allows you to catch errors and either log them or attempt to correct them.<p class="ssw15-rteElement-P"><a href="https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/throw-transact-sql?view=sql-server-ver15">THROW (Transact-SQL)</a> lets you generate your own custom error messages, which can be more detailed in describing the problem and assist in debugging.​​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-P">​​​​Here’s an example of the syntax used when implementing THROW.<br></p><p class="ssw15-rteElement-CodeArea">​​-- Syntax<br>THROW error_number, message, state;​</p><dd class="ssw15-rteElement-FigureNormal">​​Figure&#58; Example of the THROW syntax<br></dd><dd><p class="ssw15-rteElement-P">There are 3 main arguments&#58;​​​<br></p></dd><ul><li><strong>error_number (int)</strong> - Must be greater than or equal to 50000 and less than or equal to 2147483647.</li><li><strong>message (nvarchar)</strong> - Maximum of 2048 characters.​<br></li><li><strong>state (tinyint)</strong> - Must be between 0 and 255​<br></li></ul>The <strong>state </strong>argument can be used to help pinpoint where the error occurred by using a different value without changing the <strong>error_number</strong> or <strong>message</strong>.&#160;This is useful if you have multiple steps in a process that may throw identical error descriptions.<br><p class="ssw15-rteElement-CodeArea">-- Example<br>THROW 51000, 'The record does not exist.', 1;<br></p><dd class="ssw15-rteElement-FigureNormal">​​Figure&#58; Example of using&#160;THROW<br></dd><h3 class="ssw15-rteElement-H3">Implementing Error Handling using THROW​<br></h3><p class="ssw15-rteElement-P">Here we are generating a divide-by-zero error to easily raise a SQL exception and is used as a place holder for logic that we would have in our stored procedure.​<br></p><p class="ssw15-rteElement-CodeArea">​DECLARE @inputNumber AS INT = 0;<br>&#160;<br>-- Generate a divide-by-zero error<br>SELECT 1 / @inputNumber AS Error;<br></p><dd class="ssw15-rteElement-FigureBad">​​Figure&#58; Bad Example - No error handling.<br></dd><p class="ssw15-rteElement-P">​Below we have wrapped our stored procedure logic in a TRY block and added a CATCH block to handle the error. More information can be found here <a href="https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/try-catch-transact-sql?view=sql-server-ver15">TRY...CATCH (Transact-SQL)</a>.<br></p><p class="ssw15-rteElement-P">We know this divide-by-zero is going to cause an exception and the error number for this specific SQL exception is 8134. See <a href="https&#58;//docs.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors?view=sql-server-ver15">(MSSQL Errors)</a> for more error numbers.<br></p><p class="ssw15-rteElement-P">In our CATCH block, we check the error to ensure it’s the one that we want to handle otherwise, we re-throw the original exception.<br>Finally, when we catch the error we are looking for we can log some information about it and attempt to run our stored procedure logic again with different parameters.<br></p><p class="ssw15-rteElement-CodeArea">​DECLARE @errorCode AS INT;<br>DECLARE @inputNumber AS INT;<br>&#160;<br>BEGIN TRY<br>&#160;&#160;&#160;&#160;&#160;&#160; -- Generate a divide-by-zero error<br>&#160;&#160;&#160;&#160;&#160;&#160; SET @inputNumber = 0;<br>&#160;&#160;&#160;&#160;&#160;&#160; SELECT 1 / @inputNumber AS Error;<br>END TRY<br>BEGIN CATCH<br>&#160;&#160;&#160;&#160;&#160;&#160; SET @errorCode = (SELECT ERROR_NUMBER());<br>&#160;&#160;&#160;&#160;&#160;&#160; IF @errorCode = 8134 -- Divide by zero error encountered.<br>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; BEGIN<br>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; PRINT 'Divide by zero error encountered. Attempting to correct'<br>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; SET @inputNumber = 1;<br>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; SELECT 1 / @inputNumber AS Error;<br>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; END<br>&#160;&#160;&#160;&#160;&#160;&#160; ELSE<br>&#160;&#160;&#160;&#160;&#160;&#160; &#160;&#160;&#160;&#160;&#160;&#160; THROW;<br>END CATCH;<br></p><dd class="ssw15-rteElement-FigureGood">​​​Figure&#58; Good Example - Using error handling to catch an error and attempt&#160;to resolve it.<br></dd><p class="ssw15-rteElement-P">​The example below shows how you can catch an error and retrieve all the details about it.<br>This is very useful if you want to save these errors to another table or trigger a stored procedure.​<br></p><p class="ssw15-rteElement-CodeArea">​BEGIN TRY<br>&#160; &#160; &#160; &#160;-- Generate a divide-by-zero error.&#160;<br>&#160; &#160; &#160; &#160;SELECT 1 / 0 AS Error;<br>END TRY<br>BEGIN CATCH<br>&#160; &#160; &#160; &#160;SELECT<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160;ERROR_NUMBER() AS ErrorNumber,<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160;ERROR_STATE() AS ErrorState,<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160;ERROR_SEVERITY() AS ErrorSeverity,<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160;ERROR_PROCEDURE() AS ErrorProcedure,<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160;ERROR_LINE() AS ErrorLine,<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160;ERROR_MESSAGE() AS ErrorMessage;<br>			&#160;<br>			&#160; &#160; &#160; &#160; &#160; &#160; &#160;-- Insert logic for persisting log information​ (Log to table or log to file)<br>&#160;<br>&#160; &#160; &#160; &#160; &#160; &#160; &#160;THROW;<br>END CATCH;​<br></p><dd class="ssw15-rteElement-FigureGood">​​Figure&#58; Good Example - Using error handling to catch an error and retrieving its details, allowing it to be logged.<br></dd>
+<!--endintro-->
+
+Here’s an example of the syntax used when implementing THROW.
 
 
+
+```
+-- Syntax
+THROW error_number, message, state;
+```
+
+
+ **Figure: Example of the THROW syntax
+** 
+There are 3 main arguments:
+
+* **error\_number (int)** - Must be greater than or equal to 50000 and less than or equal to 2147483647.
+* **message (nvarchar)** - Maximum of 2048 characters.
+* **state (tinyint)** - Must be between 0 and 255
+
+The  **state** argument can be used to help pinpoint where the error occurred by using a different value without changing the  **error\_number** or  **message** . This is useful if you have multiple steps in a process that may throw identical error descriptions.
+
+
+
+```
+-- Example
+THROW 51000, 'The record does not exist.', 1;
+```
+
+
+ **Figure: Example of using THROW
+** 
+### Implementing Error Handling using THROW
+
+
+Here we are generating a divide-by-zero error to easily raise a SQL exception and is used as a place holder for logic that we would have in our stored procedure.
+
+
+
+```
+DECLARE @inputNumber AS INT = 0;
+ 
+-- Generate a divide-by-zero error
+SELECT 1 / @inputNumber AS Error;
+```
+
+
+
+
+::: bad
+Figure: Bad Example - No error handling.
+
+:::
+
+Below we have wrapped our stored procedure logic in a TRY block and added a CATCH block to handle the error. More information can be found here [TRY...CATCH (Transact-SQL)](https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/try-catch-transact-sql?view=sql-server-ver15).
+
+We know this divide-by-zero is going to cause an exception and the error number for this specific SQL exception is 8134. See [(MSSQL Errors)](https&#58;//docs.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors?view=sql-server-ver15) for more error numbers.
+
+In our CATCH block, we check the error to ensure it’s the one that we want to handle otherwise, we re-throw the original exception.
+Finally, when we catch the error we are looking for we can log some information about it and attempt to run our stored procedure logic again with different parameters.
+
+
+
+```
+DECLARE @errorCode AS INT;
+DECLARE @inputNumber AS INT;
+ 
+BEGIN TRY
+       -- Generate a divide-by-zero error
+       SET @inputNumber = 0;
+       SELECT 1 / @inputNumber AS Error;
+END TRY
+BEGIN CATCH
+       SET @errorCode = (SELECT ERROR_NUMBER());
+       IF @errorCode = 8134 -- Divide by zero error encountered.
+              BEGIN
+                    PRINT 'Divide by zero error encountered. Attempting to correct'
+                     SET @inputNumber = 1;
+                    SELECT 1 / @inputNumber AS Error;
+             END
+       ELSE
+              THROW;
+END CATCH;
+```
+
+
+
+
+::: good
+Figure: Good Example - Using error handling to catch an error and attempt to resolve it.
+
+:::
+
+The example below shows how you can catch an error and retrieve all the details about it.
+This is very useful if you want to save these errors to another table or trigger a stored procedure.
+
+
+
+```
+BEGIN TRY
+       -- Generate a divide-by-zero error. 
+       SELECT 1 / 0 AS Error;
+END TRY
+BEGIN CATCH
+       SELECT
+             ERROR_NUMBER() AS ErrorNumber,
+             ERROR_STATE() AS ErrorState,
+             ERROR_SEVERITY() AS ErrorSeverity,
+             ERROR_PROCEDURE() AS ErrorProcedure,
+             ERROR_LINE() AS ErrorLine,
+             ERROR_MESSAGE() AS ErrorMessage;		 		             -- Insert logic for persisting log information (Log to table or log to file)
+ 
+             THROW;
+END CATCH;
+```
+
+
+
+
+::: good
+Figure: Good Example - Using error handling to catch an error and retrieving its details, allowing it to be logged.
+
+:::
