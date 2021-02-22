@@ -30,7 +30,7 @@ redirects: []
    <a href="http&#58;//www.ssw.com.au/ssw/CodeAuditor/">SSW Code Auditor</a> to check for this rule.<br></p> ​<br>
 <div><h3>Related&#160;Rule 
       <br></h3><ul><li>
-         <a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=1d8a7afd-9762-4bfd-971c-cacd787c28bb">
+         <a href=/external-links-open-on-a-new-tab>
 Do you make external links open on a new tab?​​</a>​<br></li></ul>
    <br>
 </div>
