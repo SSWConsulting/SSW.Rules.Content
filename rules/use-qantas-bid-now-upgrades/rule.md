@@ -19,9 +19,15 @@ redirects:
 
 ---
 
-
-​​​Qantas has introduced a flight upgrade initiative called <a href="http&#58;//www.qantas.com/travel/airlines/upgrade/global/en" target="_blank">&quot;Bid Now&quot;</a>&#160;that allows members of their frequent flyer program to place a &quot;bid&quot; to get their Economy class&#160;bookings upgraded to Business class.&#160;<div><br></div><div>To make a bid, follow these simple steps&#58;</div>
-<br><excerpt class='endintro'></excerpt><br>
-<ul><li><span style="line-height&#58;1.6;">​</span><span style="line-height&#58;1.6;">​​Within 7 days of flying, visit the &quot;Bid ​Now&quot;​ page (if you've booked more than 7 days in advance,&#160;​<a href=/do-you-follow-up-emails-effectively>use FollowUp Then to set a reminder for yourself</a>)</span><br></li><li><span style="line-height&#58;1.6;">Enter&#160;your last name and booking reference into the field provided</span></li><li><span style="line-height&#58;1.6;">You will be asked to nominate a &quot;bid&quot; (set amount frequent flyer&#160;points and/money) for the upgrade, as you would in a blind auction</span></li><li><span style="line-height&#58;1.6;">Within 24 hours of the flight, you will be notified if your bid was successful&#160;</span></li></ul>
+Qantas has introduced a flight upgrade initiative called ["Bid Now"](http&#58;//www.qantas.com/travel/airlines/upgrade/global/en) that allows members of their frequent flyer program to place a "bid" to get their Economy class bookings upgraded to Business class. 
 
 
+
+To make a bid, follow these simple steps:
+
+<!--endintro-->
+
+* Within 7 days of flying, visit the "Bid Now" page (if you've booked more than 7 days in advance, [use FollowUp Then to set a reminder for yourself](/do-you-follow-up-emails-effectively))
+* Enter your last name and booking reference into the field provided
+* You will be asked to nominate a "bid" (set amount frequent flyer points and/money) for the upgrade, as you would in a blind auction
+* Within 24 hours of the flight, you will be notified if your bid was successful
