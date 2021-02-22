@@ -13,11 +13,10 @@ redirects: []
 
 ---
 
+We all know that jQuery is very powerful and can do a lot of stuff, including style changes. However, this practice is bad.
 
-<p>We all know that jQuery is very powerful and can do a lot of stuff, including style changes. However, this practice is bad.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Instead of changing the appearance of elements with jQuery, you should use CSS classes. This way you can keep all your CSS in your CSS files, specify different appearances for different classes.</p>
+<!--endintro-->
 
-<p>It's OK to use jQuery to add or remove classes and apply your CSS. For this we can use .addClass() and .removeClass() methods.</p>
+Instead of changing the appearance of elements with jQuery, you should use CSS classes. This way you can keep all your CSS in your CSS files, specify different appearances for different classes.
 
-
+It's OK to use jQuery to add or remove classes and apply your CSS. For this we can use .addClass() and .removeClass() methods.
