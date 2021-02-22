@@ -12,6 +12,5 @@ index:
 - use-package-managers-appropriately
 
 ---
-<p>​​</p>
 
 
