@@ -16,25 +16,25 @@ redirects: []
 
 <p>Adding code to the Application_Start method in the Global.asax file is the easiest and most straight-forward approach for executing startup logic, however,​ this code should be encapsulated in static methods outside the Global.asax file. Doing this helps provide cleaner code and encourages proper adherence to the Single Responsibility principle.<br></p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt><div class="greyBox"><pre>public class MvcApplication &#58; System.Web.HttpApplication
-&#123;
+<dl class="badImage"><dt><div class="greyBox"><pre>public class MvcApplication : System.Web.HttpApplication
+{
     protected void Application_Start()
-    &#123;
+    {
         AreaRegistration.RegisterAllAreas();
 
-        routes.IgnoreRoute(&quot;&#123;resource&#125;.axd/&#123;*pathInfo&#125;&quot;);
+        routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
         routes.MapRoute(
-            name&#58; &quot;Default&quot;,
-            url&#58; &quot;&#123;controller&#125;/&#123;action&#125;/&#123;id&#125;&quot;,
-            defaults&#58; new &#123; controller = &quot;Home&quot;, action = &quot;Index&quot;, id = UrlParameter.Optional &#125;
-        );        &#125;
-&#125;
+            name: "Default",
+            url: "{controller}/{action}/{id}",
+            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+        );        }
+}
 
-</pre></div></dt><dd>Figure&#58; Bad Example – Logic is implemented in the Application_Start method which breaks the Single Responsibility Principle</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>public class MvcApplication &#58; System.Web.HttpApplication
-&#123;
+</pre></div></dt><dd>Figure: Bad Example – Logic is implemented in the Application_Start method which breaks the Single Responsibility Principle</dd></dl><dl class="goodImage"><dt><div class="greyBox"><pre>public class MvcApplication : System.Web.HttpApplication
+{
     protected void Application_Start()
-    &#123;
+    {
         AreaRegistration.RegisterAllAreas();
 
         WebApiConfig.Register(GlobalConfiguration.Configuration);
@@ -42,9 +42,9 @@ redirects: []
         RouteConfig.RegisterRoutes(RouteTable.Routes);
         BundleConfig.RegisterBundles(BundleTable.Bundles);
         AuthConfig.RegisterAuth();
-    &#125;
-&#125;
+    }
+}
 </pre></div><br>
-      <img src="/PublishingImages/startup-task.jpg" alt="" /> </dt><dd>Figure&#58; Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder​<br><br></dd></dl>
+      <img src="startup-task.jpg" alt="" /> </dt><dd>Figure: Good Example – Startup tasks are called from the Application_Start method but are located in the App_Start folder​<br><br></dd></dl>
 
 
