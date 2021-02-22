@@ -11,15 +11,16 @@ redirects: []
 
 ---
 
+Small images are hard to see. Remember your audience sitting at the back of the room. Especially for screenshots displaying important text, use all your real estate.  
 
-Small images are hard to see. Remember your audience sitting at the back of the room. Especially for screenshots displaying important text, use all your real estate. 
-<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-      <img src="badSmall.jpg" alt="" /> 
-   </dt><dd>Figure: Bad example - the image doesn't cover the whole slide</dd></dl><dl class="goodImage"><dt>
-      <img src="goodbig.jpg" alt="" /> 
-   </dt> 
-   <dd>Figure: Good example - Cover the whole slide with your image to make it easier for people to see from the back row</dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad example - the image doesn't cover the whole slide](badSmall.jpg)  
+:::
+
+
+::: good  
+![Figure: Good example - Cover the whole slide with your image to make it easier for people to see from the back row](goodbig.jpg)  
+:::
