@@ -37,6 +37,5 @@ index:
 - write-integration-test-for-dependencies
 
 ---
-<p>​​<br></p>
 
 
