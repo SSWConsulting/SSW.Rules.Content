@@ -14,19 +14,19 @@ redirects: []
 ---
 
 
-It is common when we browse a list page,&#160;we have to click the &quot;More...&quot; or &quot;Details&quot; button to view the item detail.&#160;This process takes more time because we need to wait for the loading of the detail page.<br>
+It is common when we browse a list page, we have to click the "More..." or "Details" button to view the item detail. This process takes more time because we need to wait for the loading of the detail page.<br>
 <br>
-To improve the performance, we can use jQuery&#160;plus CSS to&#160;show&#160;tooltips in the list page&#160;that&#160;can let users determine which item detail they&#160;want to see. 
+To improve the performance, we can use jQuery plus CSS to show tooltips in the list page that can let users determine which item detail they want to see. 
 
 <br><excerpt class='endintro'></excerpt><br>
 
   <dl class="badImage">
-    <dt><img alt="Bad Example - redirect to a new page to view the detail" src="/PublishingImages/ViewDetailGrid.jpg" /> </dt>
-    <dd>Figure&#58; Bad Example - redirect to a new page to view the detail </dd>
+    <dt><img alt="Bad Example - redirect to a new page to view the detail" src="ViewDetailGrid.jpg" /> </dt>
+    <dd>Figure: Bad Example - redirect to a new page to view the detail </dd>
 </dl>
 <dl class="goodImage">
-    <dt><img alt="Good Example - show tooltip when mouse is over in the list" src="/PublishingImages/ViewTooltipGrid.jpg" /> </dt>
-    <dd>Figure&#58; Good Example - show tooltip when mouse is over in the list </dd>
+    <dt><img alt="Good Example - show tooltip when mouse is over in the list" src="ViewTooltipGrid.jpg" /> </dt>
+    <dd>Figure: Good Example - show tooltip when mouse is over in the list </dd>
 </dl>
 
 
