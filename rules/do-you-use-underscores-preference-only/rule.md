@@ -17,10 +17,5 @@ redirects:
 
 ---
 
-
-They just add characters. Surely Order_Details.Order_ID is no better then OrderDetail.OrderID 
-
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+They just add characters. Surely Order\_Details.Order\_ID is no better then OrderDetail.OrderID   
+<!--endintro-->
