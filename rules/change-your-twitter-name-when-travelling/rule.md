@@ -14,9 +14,14 @@ redirects:
 
 ---
 
+When at a conference change it to the conference's hashtag:
+Eg.  **Todd Gardner at #NdcOslo** 
 
-When at a conference change it to the conference's hashtag:<br>Eg. <b>Todd Gardner at #NdcOslo</b><br><br>When traveling change it to the area you are in:<br>Eg. <b>Todd Gardner in Norway 🇳🇴 </b><br>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​This tip also works well on all social media platforms. Eg. Facebook, Instagram etc.​<br></p><dl class="image"><dt><img src="twitter-name.png" alt="twitter-name.png" /></dt><dd>Figure: Changing name when traveling​<br></dd></dl>
+When traveling change it to the area you are in:
+Eg.  **Todd Gardner in Norway 🇳🇴** 
 
+<!--endintro-->
 
+This tip also works well on all social media platforms. Eg. Facebook, Instagram etc.
+
+![Figure: Changing name when traveling](twitter-name.png)
