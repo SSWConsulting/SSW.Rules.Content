@@ -14,9 +14,8 @@ redirects:
 
 ---
 
+After you migrate to the cloud you will want to keep your TFS Build Server because you Build Definitions are preserved during the migration. All you have to do is to reconnect the Build Controller and Build Agents to the new account.
 
-<p>​​After you migrate to the cloud you will want to keep your TFS Build Server because you Build Definitions are preserved during the migration. All you have to do is to reconnect the Build Controller and Build Agents to the new account.<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>Read&#160;<a href=/what-to-do-with-old-employees>this rule</a>&#160;to learn more about agent limitations.​<br></p>
+<!--endintro-->
 
-
+Read [this rule](/what-to-do-with-old-employees) to learn more about agent limitations.
