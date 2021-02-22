@@ -12,9 +12,13 @@ redirects:
 
 ---
 
+This is a common item that trips people up: taskbar is one word, not two.  
+<!--endintro-->
 
-​​This is a common item that trips people up: taskbar is one word, not two. 
-<br><excerpt class='endintro'></excerpt><br>
-<p>​<img src="taskbar-not-task-bar.gif" alt="Taskbar is one word, not two " style="margin:5px;" /></p><dd class="ssw15-rteElement-FigureGood">Figure: Good Example - You should use the "taskbar" over "task bar"​<br></dd>
+![Taskbar is one word, not two ](taskbar-not-task-bar.gif)
 
 
+::: good
+Figure: Good Example - You should use the "taskbar" over "task bar"
+
+:::
