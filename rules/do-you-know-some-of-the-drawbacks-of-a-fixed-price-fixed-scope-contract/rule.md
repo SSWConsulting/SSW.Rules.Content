@@ -25,10 +25,10 @@ redirects: []
     <li>You can’t predict the future
     <ul>
         <li>Waterfall project planning has been proven to not  deliver over 30 years of trying... The Gartner Group says 74% of failed software  projects in the last 2 years</li>
-        <li>See the Con​e of Uncertainty to see the range of cost  change at different stages through a project&#58;<span class="ms-rteCustom-FigureNormal"></span></li>
+        <li>See the Con​e of Uncertainty to see the range of cost  change at different stages through a project:<span class="ms-rteCustom-FigureNormal"></span></li>
 </ul>
-<span><img class="ms-rteCustom-ImageArea" alt="Cone of Uncertainty" src="/PublishingImages/cone-of-uncertainty.jpg" />
-        <span class="ms-rteCustom-FigureNormal">Figure&#58; The cone of uncertainty in software cost and size estimation<span style="display&#58;inline-block;"></span></span></span><ul>
+<span><img class="ms-rteCustom-ImageArea" alt="Cone of Uncertainty" src="cone-of-uncertainty.jpg" />
+        <span class="ms-rteCustom-FigureNormal">Figure: The cone of uncertainty in software cost and size estimation<span style="display:inline-block;"></span></span></span><ul>
     </ul>
     </li>
     <li>Changes requests are an extra cost and slow progress
@@ -44,11 +44,11 @@ redirects: []
     </li>
     <li>In reality fixed-price fixed scope leads to lower quality in most cases
     <ul>
-        <li>The lack of a running cost and instead a ceiling on  the cost will normally result in a low pressure project environment at the  start of the project and very high pressure to complete it only towards the end  of the project.&#160; In that period of high pressure as developers are working  to hit the one big delivery it becomes tempting to them and sometimes even  expected by their management that they will cut corners</li>
+        <li>The lack of a running cost and instead a ceiling on  the cost will normally result in a low pressure project environment at the  start of the project and very high pressure to complete it only towards the end  of the project.  In that period of high pressure as developers are working  to hit the one big delivery it becomes tempting to them and sometimes even  expected by their management that they will cut corners</li>
     </ul>
     </li>
 </ol>
-<p>Instead,  the use of an iterative methodology like <a href="http&#58;//www.ssw.com.au/ssw/Consulting/Scrum.aspx">SCRUM</a> that provides constant progress  reporting and gives the client agility to implement the required features with  adjustments during the project, works to reduce the cost and also provides the  most important features paid as Time and Materials in a working solution  sooner.</p>
+<p>Instead,  the use of an iterative methodology like <a href="http://www.ssw.com.au/ssw/Consulting/Scrum.aspx">SCRUM</a> that provides constant progress  reporting and gives the client agility to implement the required features with  adjustments during the project, works to reduce the cost and also provides the  most important features paid as Time and Materials in a working solution  sooner.</p>
 
 
 
