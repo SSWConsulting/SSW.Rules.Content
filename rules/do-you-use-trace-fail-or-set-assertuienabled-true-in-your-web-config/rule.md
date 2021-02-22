@@ -31,20 +31,20 @@ Have you ever seen dialogs raised on the server-side? These dialogs would hang t
     <dd>Figure&#58; Never use Trace.Fail </dd>
 </dl>
 <dl class="badCode">
-    <dt>{ltHTMLChar}configuration{gtHTMLChar}<br>
-    &#160;&#160;&#160;{ltHTMLChar}system.diagnostics{gtHTMLChar}<br>
-    &#160;&#160;&#160;&#160;&#160;&#160;{ltHTMLChar}assert AssertUIEnabled=&quot;true&quot; logfilename=&quot;c&#58;\log.txt&quot; /{gtHTMLChar}<br>
-    &#160;&#160;&#160;{ltHTMLChar}/system.diagnostics{gtHTMLChar}<br>
-    {ltHTMLChar}/configuration{gtHTMLChar}<br>
+    <dt>&lt;configuration&gt;<br>
+    &#160;&#160;&#160;&lt;system.diagnostics&gt;<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&lt;assert AssertUIEnabled=&quot;true&quot; logfilename=&quot;c&#58;\log.txt&quot; /&gt;<br>
+    &#160;&#160;&#160;&lt;/system.diagnostics&gt;<br>
+    &lt;/configuration&gt;<br>
     </dt>
     <dd>Figure&#58; Never set AssertUIEnabled=&quot;true&quot; in web.config </dd>
 </dl>
 <dl class="goodCode">
-    <dt>{ltHTMLChar}configuration{gtHTMLChar}<br>
-    &#160;&#160;&#160;{ltHTMLChar}system.diagnostics{gtHTMLChar}<br>
-    &#160;&#160;&#160;&#160;&#160;&#160;{ltHTMLChar}assert AssertUIEnabled=&quot;false&quot; logfilename=&quot;c&#58;\log.txt&quot; /{gtHTMLChar}<br>
-    &#160;&#160;&#160;{ltHTMLChar}/system.diagnostics{gtHTMLChar}<br>
-    {ltHTMLChar}/configuration{gtHTMLChar}<br>
+    <dt>&lt;configuration&gt;<br>
+    &#160;&#160;&#160;&lt;system.diagnostics&gt;<br>
+    &#160;&#160;&#160;&#160;&#160;&#160;&lt;assert AssertUIEnabled=&quot;false&quot; logfilename=&quot;c&#58;\log.txt&quot; /&gt;<br>
+    &#160;&#160;&#160;&lt;/system.diagnostics&gt;<br>
+    &lt;/configuration&gt;<br>
     </dt>
     <dd>Figure&#58; Should set AssertUIEnabled=&quot;false&quot; in web.config </dd>
 </dl>
