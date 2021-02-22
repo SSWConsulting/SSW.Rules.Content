@@ -14,18 +14,16 @@ redirects: []
 
 ---
 
+SharePoint allows you to create a Data Connection Library to hold all the connection information that Forms and Excel services can utilize.
 
+You should always use a Data Connection Library.
 
-  <p>SharePoint allows you to create a Data Connection Library to hold all the connection information that Forms and Excel services can utilize.</p>
-<p>You should always use a Data Connection Library.</p>
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
+Data Connection Library provides a central location for defining all the connections to various data sources within your company.
 
-  <p>Data Connection Library provides a central location for defining all the connections to various data sources within your company.</p>
-<ul>
-    <li>It allows you to change the data source definition in one place, without having to worry about changing the same definition in 50 forms and excel spreadsheets.</li>
-    <li>A centralized data connection library also helps your users to locate data easily.</li>
-    <li>Your users don't want to know the intricate details on how to get a particular data - they just want the data and have the form working!&#160; So if you as the administrator provides it for them, they will love you, they will use it, and you will have an easier&#160;time managing your SharePoint site!​</li>
-</ul>Everyone wins!
+* It allows you to change the data source definition in one place, without having to worry about changing the same definition in 50 forms and excel spreadsheets.
+* A centralized data connection library also helps your users to locate data easily.
+* Your users don't want to know the intricate details on how to get a particular data - they just want the data and have the form working!  So if you as the administrator provides it for them, they will love you, they will use it, and you will have an easier time managing your SharePoint site!
 
-
+Everyone wins!
