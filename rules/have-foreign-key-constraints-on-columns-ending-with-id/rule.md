@@ -15,9 +15,9 @@ redirects:
 ---
 
 
-Columns ending with 'ID' should&#160;have FOREIGN KEY constraints​.<br>
+Columns ending with 'ID' should have FOREIGN KEY constraints​.<br>
 <br><excerpt class='endintro'></excerpt><br>
 <dl class="image"><dt>
-​<img src="/PublishingImages/NorthwindRelationships.jpg" alt="NorthwindRelationships.jpg" /></dt><dd>Figure&#58; Missing relationships​<br></dd></dl>
+​<img src="NorthwindRelationships.jpg" alt="NorthwindRelationships.jpg" /></dt><dd>Figure: Missing relationships​<br></dd></dl>
 
 
