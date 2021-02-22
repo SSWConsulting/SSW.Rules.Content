@@ -14,11 +14,53 @@ redirects:
 
 ---
 
+Using colour in reports can bring them to life, or else make them confusing and noisy, so make sure you’re intentional with them.
 
-Using colour in reports can bring them to life, or else make them confusing and noisy, so make sure you’re intentional with them.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<h3 class="ssw15-rteElement-H3">​Semantic colours</h3><p class="ssw15-rteElement-P">Remember that some colours have a shared understanding of their meaning. </p><ul><li>
-      <b>Red</b> means pay attention or danger. </li><li>
-      <b>Green</b> often means good. <br></li><li>Traffic lights can be used for showing 3 levels. </li><li>Cold, Warm, Hot should have appropriate colours that make sense without having to look at the legend</li></ul><dl class="badImage"><dt><img src="colours-powerbi-bad.jpg" alt="colours-powerbi-bad.jpg" style="width:746px;height:352px;" /></dt><dd>Figure: Bad example – non-semantic colours cause confusion</dd></dl><dl class="goodImage"><dt><img src="colours-powerbi-good.jpg" alt="colours-powerbi-good.jpg" style="width:750px;height:342px;" /></dt><dd>Figure: good example – obvious colours used for Cold, Warm, and Hot</dd></dl><h3 class="ssw15-rteElement-H3">Tufte minimalism</h3><p class="ssw15-rteElement-P">Edward Tufte is often quoted as saying that, on a report where you want to draw the eye to exceptions or out of bounds data, colour should only be used to highlight what you want the user to see. </p><dl class="goodImage"><dt><img src="tufte-good.png" alt="tufte-good.png" style="width:750px;" /></dt><dd>Figure: Good Example – the black stands out as everything else looks translucent</dd></dl><h3 class="ssw15-rteElement-H3">Consistent Palette</h3><p>Make sure you stick with one colour palette, so if you use one pastel colour, make them all pastel. If you have one bold colour, make them all bold</p><dl class="badImage"><dt><img src="pallete-bad.jpg" alt="pallete-bad.jpg" /></dt><dd>Figure: Bad Example – inconsistent palette feel like the colours clash</dd></dl><dl class="goodImage"><dt><img src="pallete-good.jpg" alt="pallete-good.jpg" /></dt><dd>Figure: Good Example – consistent colour palette</dd></dl><h3 class="ssw15-rteElement-H3">Colour Blind palette</h3><p>Just to be difficult, it is worth noting that red/green colour blindness is the most common type, which may make standard semantic colours sometimes less desirable. In this case, use blues and oranges for contrast instead.<br></p><br><br>
+<!--endintro-->
+
+### Semantic colours
+
+Remember that some colours have a shared understanding of their meaning.
+
+* **Red** means pay attention or danger.
+* **Green** often means good.
+* Traffic lights can be used for showing 3 levels.
+* Cold, Warm, Hot should have appropriate colours that make sense without having to look at the legend
 
 
+
+::: bad  
+![Figure: Bad example – non-semantic colours cause confusion](colours-powerbi-bad.jpg)  
+:::
+
+
+::: good  
+![Figure: good example – obvious colours used for Cold, Warm, and Hot](colours-powerbi-good.jpg)  
+:::
+
+### Tufte minimalism
+
+Edward Tufte is often quoted as saying that, on a report where you want to draw the eye to exceptions or out of bounds data, colour should only be used to highlight what you want the user to see.
+
+
+::: good  
+![Figure: Good Example – the black stands out as everything else looks translucent](tufte-good.png)  
+:::
+
+### Consistent Palette
+
+Make sure you stick with one colour palette, so if you use one pastel colour, make them all pastel. If you have one bold colour, make them all bold
+
+
+::: bad  
+![Figure: Bad Example – inconsistent palette feel like the colours clash](pallete-bad.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example – consistent colour palette](pallete-good.jpg)  
+:::
+
+### Colour Blind palette
+
+Just to be difficult, it is worth noting that red/green colour blindness is the most common type, which may make standard semantic colours sometimes less desirable. In this case, use blues and oranges for contrast instead.
