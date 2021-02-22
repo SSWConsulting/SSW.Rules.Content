@@ -16,10 +16,11 @@ redirects:
 
 ---
 
+Make it clear when a record is inactive by reducing it opacity, for example.
 
-Make it clear when a record is inactive by reducing it opacity, for example.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="goodImage">​​
-<dt><img src="inactive-record.png" alt="inactive-record.png" />​<br></dt><dd>Figure: Good Example - Microsoft Teams clearly shows inactive users​<br></dd></dl>
+<!--endintro-->
 
 
+::: good  
+![Figure: Good Example - Microsoft Teams clearly shows inactive users](inactive-record.png)  
+:::
