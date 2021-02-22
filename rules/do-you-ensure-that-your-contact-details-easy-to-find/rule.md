@@ -22,6 +22,6 @@ redirects: []
       the site.
      </p>
 <br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt><img border="1" src="http&#58;//www.ssw.com.au/ssw/Standards/Rules/Images/MarketingContactBar.gif" alt="" /></dt><dd>Figure&#58; SSW's contact details on the web site</dd></dl>
+<dl class="image"><dt><img border="1" src="../../assets/MarketingContactBar.gif" alt="" /></dt><dd>Figure: SSW's contact details on the web site</dd></dl>
 
 
