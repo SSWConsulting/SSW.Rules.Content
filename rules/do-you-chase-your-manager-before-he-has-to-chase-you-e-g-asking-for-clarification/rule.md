@@ -18,14 +18,55 @@ redirects:
 
 ---
 
+Product Owners  (or clients), like all of us, are snowed under with work and won't always be able to respond to your emails in a timely manner. But keeping a good line of communication open is essential and it's up to you to make it happen. No matter whether your weekly meeting gets cancelled or your client appears to avoid you for the week, stop and talk to them in the corridor, or pick up the phone and give them an update.
 
-<p>Product Owners&#160; (or clients), like all of us, are snowed under with work and won't always be able to respond to your emails in a timely manner. But keeping a good line of communication open is essential and it's up to you to make it happen. No matter whether your weekly meeting gets cancelled or your client&#160;appears to avoid you for the week, stop and talk to them in the corridor, or pick up the phone and give them an update. <br></p>
-<p>If you know you've got issues to discuss (such as looming deadlines), don't wait for the client or your Product Owner&#160;to bring it up, take a pro-active approach and schedule a meeting.</p>
+If you know you've got issues to discuss (such as looming deadlines), don't wait for the client or your Product Owner to bring it up, take a pro-active approach and schedule a meeting.
 
+<!--endintro-->
 
-<br><excerpt class='endintro'></excerpt><br>
-<p>As a guideline, you should not go more than 2 weeks without talking to your Product Owner (or boss/manager). And don't forget all the things you've got to say - have a sub-folder in your Inbox such as &quot;Ask the Boss&quot;. Next time when they&#160;ask, &quot;Does anyone want to speak to me?&quot;, look in that folder.</p><p class="ssw15-rteElement-GreyBox">&#160;[No email]<br></p>
-   <dd class="ssw15-rteElement-FigureBad">Figure&#58; The worst example - not reaching out to your Product Owner or manager at all. You should be in regular contact with them <br></dd><p class="ssw15-rteElement-GreyBox">Did I&#160;have a project or something due soon?<br><br>Uly<br></p><dd class="ssw15-rteElement-FigureBad">Figure&#58; Bad example - you shouldn't have to ask that!&#160;&#160;<br></dd><p class="ssw15-rteElement-GreyBox">Hey Adam,<br><br>We've&#160;got&#160;the Northwind presentation coming up next week. I've finished a v1. <br><br>Would you have some time on Thursday afternoon&#160;to go over it with me?&#160;<br><br>Uly</p>​ 
-<dd class="ssw15-rteElement-FigureGood">Figure&#58; Good example - Actively reaching out to your Product Owner ​<br></dd><p>You can see more information on this at <a href=/dones-do-you-use-email-for-tasks-only-not-communication>Do you use email for tasks only - not communication?</a> and <a href=/do-you-seek-clarification-via-the-telephone-first>Do you seek clarification via the telephone first?</a></p>
+As a guideline, you should not go more than 2 weeks without talking to your Product Owner (or boss/manager). And don't forget all the things you've got to say - have a sub-folder in your Inbox such as "Ask the Boss". Next time when they ask, "Does anyone want to speak to me?", look in that folder.
 
 
+::: greybox
+ [No email]
+
+:::
+
+
+::: bad
+Figure: The worst example - not reaching out to your Product Owner or manager at all. You should be in regular contact with them 
+
+:::
+
+
+::: greybox
+Did I have a project or something due soon?
+
+Uly
+
+:::
+
+
+::: bad
+Figure: Bad example - you shouldn't have to ask that!  
+
+:::
+
+
+::: greybox
+Hey Adam,
+
+We've got the Northwind presentation coming up next week. I've finished a v1. 
+
+Would you have some time on Thursday afternoon to go over it with me? 
+
+Uly  
+:::
+
+
+::: good
+Figure: Good example - Actively reaching out to your Product Owner 
+
+:::
+
+You can see more information on this at [Do you use email for tasks only - not communication?](/dones-do-you-use-email-for-tasks-only-not-communication) and [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
