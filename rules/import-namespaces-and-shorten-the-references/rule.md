@@ -14,13 +14,45 @@ redirects:
 
 ---
 
+You should import namespaces and shorten the references.
 
-You should import namespaces and shorten the references.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">​System.Text.StringBuilder myStringBuilder = new System.Text.StringBuilder();<br></p><dd class="ssw15-rteElement-FigureBad">Figure: Bad code - Long reference to object name​​<br></dd><p class="ssw15-rteElement-CodeArea">using System.Text;<br>...<br>...<br>StringBuilder myStringBuilder = new StringBuilder(); </p><dd class="ssw15-rteElement-FigureGood">Figure: Good code - Import the namespace and remove the repeated System.Text reference<br></dd><p>​<br></p><p>If you have ReSharper installed, you can let ReSharper take care of this for you:</p><dl class="image"><dt>
-      <img src="ReSharperReformatCode.gif" alt="ReSharperReformatCode.gif" />
-   </dt><dd>Figure: Right click and select "Reformat Code..."<br></dd></dl><dl class="image"><dt>
-         <img src="ReSharperShortenReferences.gif" alt="ReSharperShortenReferences.gif" />
-      </dt><dd>Figure: Make sure "Shorten references" is checked and click "Reformat"​<br></dd></dl>​​<br>
+<!--endintro-->
 
 
+
+```
+System.Text.StringBuilder myStringBuilder = new System.Text.StringBuilder();
+```
+
+
+
+
+::: bad
+Figure: Bad code - Long reference to object name
+
+:::
+
+
+
+```
+using System.Text;
+...
+...
+StringBuilder myStringBuilder = new StringBuilder();
+```
+
+
+
+
+::: good
+Figure: Good code - Import the namespace and remove the repeated System.Text reference
+
+:::
+
+
+
+If you have ReSharper installed, you can let ReSharper take care of this for you:
+
+![Figure: Right click and select "Reformat Code..."](ReSharperReformatCode.gif)  
+
+![Figure: Make sure "Shorten references" is checked and click "Reformat"](ReSharperShortenReferences.gif)
