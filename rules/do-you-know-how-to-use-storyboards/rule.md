@@ -11,9 +11,7 @@ redirects: []
 
 ---
 
+Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. Spend more time on mockups compared with time on documentation.
 
-<p>Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. Spend more time on mockups compared with time on documentation.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<a href="/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups" target="_blank">Read more about storyboarding</a>
-
-
+<!--endintro-->
+[Read more about storyboarding](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups)
