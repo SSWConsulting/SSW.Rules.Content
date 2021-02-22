@@ -26,9 +26,9 @@ redirects: []
                     site, the page text should respect the user's desire to resize the browser window
                     and have text wrap correctly. Also, you should take into consideration the effect
                     that different screen resolutions will have on how much can fit onto the screen.</p><dl class="badImage"><dt>
-                        <img src="/PublishingImages/BadHorizontalScrollBar.jpg" alt="Bad Horizontal Scroll Bar" /></dt><dd>
-                        Figure&#58; Bad Example - Using pre code tags and having lines exceed screen size</dd></dl><dl class="goodImage"><dt>
-                        <img src="/PublishingImages/GoodHorizontalScrollBar.jpg" alt="Good Horizontal Scroll Bar" /></dt><dd>
-                        Figure&#58; Good Example - Using pre code tags and having lines not exceed screen size</dd></dl>
+                        <img src="BadHorizontalScrollBar.jpg" alt="Bad Horizontal Scroll Bar" /></dt><dd>
+                        Figure: Bad Example - Using pre code tags and having lines exceed screen size</dd></dl><dl class="goodImage"><dt>
+                        <img src="GoodHorizontalScrollBar.jpg" alt="Good Horizontal Scroll Bar" /></dt><dd>
+                        Figure: Good Example - Using pre code tags and having lines not exceed screen size</dd></dl>
 
 
