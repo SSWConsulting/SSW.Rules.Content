@@ -15,9 +15,50 @@ redirects:
 
 ---
 
+A test verifies expectations. Traditionally it has the form of 3 major steps:
+1. Arrange
+2. Act
+3. Assert
 
-A test verifies expectations. Traditionally it has the form of 3 major steps&#58;<div><ol><li>Arrange</li><li>Act</li><li>Assert<br></li></ol></div>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​In the &quot;Arrange&quot; step we get everything ready and make sure we have all things handy for the &quot;Act&quot; step.</p><p class="ssw15-rteElement-P">The &quot;Act&quot; step executes the relevant code piece that we want to test.​<br></p><p class="ssw15-rteElement-P">The &quot;Assert&quot; step verifies our expectations by stating what we were expecting from the system under test.​​<br></p><p class="ssw15-rteElement-P">Developers call this the &quot;AAA&quot; syntax.​​<br></p><p class="ssw15-rteElement-CodeArea">[TestMethod]<br>public void TestRegisterPost_ValidUser_ReturnsRedirect()<br>&#123;<br>&#160;&#160;&#160;// Arrange<br>&#160;&#160;&#160;AccountController controller = GetAccountController();<br>&#160;&#160;&#160;RegisterModel model = new RegisterModel()<br>&#160;&#160;&#160;&#123;<br>&#160;&#160;&#160;&#160;&#160;&#160;UserName = &quot;someUser&quot;,<br>&#160;&#160;&#160;&#160;&#160;&#160;Email = &quot;goodEmail&quot;,<br>&#160;&#160;&#160;&#160;&#160;&#160;Password = &quot;goodPassword&quot;,<br>&#160;&#160;&#160;&#160;&#160;&#160;ConfirmPassword = &quot;goodPassword&quot;<br>&#160;&#160;&#160;&#125;;<br>&#160;&#160;&#160;// Act<br>&#160;&#160;&#160;ActionResult result = controller.Register(model);<br>&#160;&#160;&#160;// Assert<br>&#160;&#160;&#160;RedirectToRouteResult redirectResult = (RedirectToRouteResult)result;<br>&#160;&#160;&#160;Assert.AreEqual(&quot;Home&quot;, redirectResult.RouteValues[&quot;controller&quot;]);<br>&#160;&#160;&#160;Assert.AreEqual(&quot;Index&quot;, redirectResult.RouteValues[&quot;action&quot;]);<br>&#125;</p><dd class="ssw15-rteElement-FigureGood">Figure&#58; A good structure for a unit test​​<br></dd>
+
+<!--endintro-->
+
+In the "Arrange" step we get everything ready and make sure we have all things handy for the "Act" step.
+
+The "Act" step executes the relevant code piece that we want to test.
+
+The "Assert" step verifies our expectations by stating what we were expecting from the system under test.
+
+Developers call this the "AAA" syntax.
 
 
+
+```
+[TestMethod]
+public void TestRegisterPost_ValidUser_ReturnsRedirect()
+{
+   // Arrange
+   AccountController controller = GetAccountController();
+   RegisterModel model = new RegisterModel()
+   {
+      UserName = "someUser",
+      Email = "goodEmail",
+      Password = "goodPassword",
+      ConfirmPassword = "goodPassword"
+   };
+   // Act
+   ActionResult result = controller.Register(model);
+   // Assert
+   RedirectToRouteResult redirectResult = (RedirectToRouteResult)result;
+   Assert.AreEqual("Home", redirectResult.RouteValues["controller"]);
+   Assert.AreEqual("Index", redirectResult.RouteValues["action"]);
+}
+```
+
+
+
+
+::: good
+Figure: A good structure for a unit test
+
+:::
