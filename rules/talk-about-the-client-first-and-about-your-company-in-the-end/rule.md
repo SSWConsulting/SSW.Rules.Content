@@ -14,9 +14,13 @@ redirects:
 
 ---
 
+At SSW, our proposals are to be divided into 3 parts:
 
-At SSW, our proposals are to be divided into 3 parts:<br><ul><li>The white section: This is the document information.</li><li>The yellow section: The actual proposal, where all the information for the client can be found</li><li>The red section: This is the SSW section and contains a brief presentation of our company and appendices. Please note that this section is not as relevant to client and therefore comes last<br></li></ul>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="Proposals_ClientPagesFirst.jpg" alt="Proposals_ClientPagesFirst.jpg" /></dt><dd>​​Figure: Relevant information comes first on our proposals​​<br></dd></dl>
+* The white section: This is the document information.
+* The yellow section: The actual proposal, where all the information for the client can be found
+* The red section: This is the SSW section and contains a brief presentation of our company and appendices. Please note that this section is not as relevant to client and therefore comes last
 
 
+<!--endintro-->
+
+![Figure: Relevant information comes first on our proposals](Proposals\_ClientPagesFirst.jpg)
