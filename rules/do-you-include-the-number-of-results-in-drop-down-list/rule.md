@@ -13,16 +13,16 @@ redirects: []
 
 ---
 
+When designing your web site, it's a good idea to help your users where possible.                     When you use a combo box, it's very helpful to be able to see at a glance how many                     results can be expected.
 
-<p>
-                    When designing your web site, it's a good idea to help your users where possible.
-                    When you use a combo box, it's very helpful to be able to see at a glance how many
-                    results can be expected.</p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="badImage"><dt>
-                        <img src="drop-list-bad.jpg" alt="Combobox 2" /></dt><dd>
-                        Figure: Bad Example - You can't tell the number of results</dd></dl><dl class="goodImage"><dt>
-                        <img src="drop-list-good.jpg" alt="Combobox 1" /></dt><dd>
-                        Figure: Good Example - The number of results is clearly displayed</dd></dl>
+<!--endintro-->
 
 
+::: bad  
+![Figure: Bad Example - You can't tell the number of results](drop-list-bad.jpg)  
+:::
+
+
+::: good  
+![Figure: Good Example - The number of results is clearly displayed](drop-list-good.jpg)  
+:::
