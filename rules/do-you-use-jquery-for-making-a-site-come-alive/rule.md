@@ -13,23 +13,22 @@ redirects: []
 
 ---
 
+To please customers every business knows they need to keep their services and offerings fresh and up-to-date. The same is true for websites. In order to attract new traffic, we should make the website vivid.   
+<!--endintro-->
 
-To please customers every business knows they need to keep their services and offerings fresh and up-to-date. The same is true for websites. In order to attract new traffic, we should make the website vivid. 
 
-<br><excerpt class='endintro'></excerpt><br>
+::: bad  
+![Figure: Bad example – there is no response when mouse is over the image](OldFashionSite.jpg)  
+:::
 
-  <dl class="badImage">
-    <dt><img alt="Bad example – there is no response when mouse is over the image" src="OldFashionSite.jpg" /> </dt>
-    <dd>Figure: Bad example – there is no response when mouse is over the image </dd>
-</dl>
-<dl class="goodImage">
-    <dt><img alt="Good example – apply the different style when mouse is over" src="NewFashionSite.jpg" /> </dt>
-    <dd>Figure: Good example – apply the different style when mouse is over </dd>
-</dl>
-<dl class="goodCode">
-    <dt>
-    <pre>        
-        $("p").hover(function () {
+
+::: good  
+![Figure: Good example – apply the different style when mouse is over](NewFashionSite.jpg)  
+:::
+
+
+```
+$("p").hover(function () {
             $(this).css({ "background-color":"yellow", "font-weight":"bolder" }); },
             function () { 
                 var cssObj = { "background-color": "#ddd", 
@@ -37,11 +36,7 @@ To please customers every business knows they need to keep their services and o
                 color: "rgb(0,40,244)"
             }
             $(this).css(cssObj);
-        }); 
-    </pre>
-    </dt>
-    <dd>Figure: Mouse hover sample </dd>
-</dl>
+        });
+```
 
-
-
+          Figure: Mouse hover sample
