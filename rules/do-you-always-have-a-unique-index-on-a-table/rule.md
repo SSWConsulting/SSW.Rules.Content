@@ -16,12 +16,11 @@ redirects: []
 
 ---
 
+If Access linked table does not have an index to uniquely identify rows, the whole table will be read-only
 
 
-  <p>If Access linked table does not have an index to uniquely identify rows, the whole table will be read-only </p>
-<font class="ms-rteCustom-YellowBorderBox" size="+0"><a href="http&#58;//www.ssw.com.au/ssw/UpsizingPRO">Upsizing PRO</a> will check this rule </font>
+::: yellowBox
+[Upsizing PRO](http&#58;//www.ssw.com.au/ssw/UpsizingPRO) will check this rule  
+:::
 
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
