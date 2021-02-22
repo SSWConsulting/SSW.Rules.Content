@@ -14,9 +14,7 @@ redirects:
 
 ---
 
+There are times when you can happily work your standard hours, but there are times when your whole team would appreciate some hard work. This should not be the standard, but extra work at certain times is a given in a professional industry.
 
-<p>​There are times when you can happily work your standard hours, but there are times when your whole team would appreciate some hard work. This should not be the standard, but extra work at certain times is a given in a professional industry. <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="ssw15-rteElement-ImageArea">​<img src="WorkingHard.jpg" alt="WorkingHard.jpg" style="margin:5px;" /></dl><dd class="ssw15-rteElement-FigureNormal">Figure: On occasion, ever​yone has to work extra hard​</dd>
-
-
+<!--endintro-->
+![](WorkingHard.jpg) **Figure: On occasion, everyone has to work extra hard**
