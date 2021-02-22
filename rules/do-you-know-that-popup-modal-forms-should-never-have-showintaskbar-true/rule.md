@@ -11,16 +11,33 @@ redirects: []
 
 ---
 
+Question: What is wrong with this Picture?
 
-<div>​Question: What is wrong with this Picture?</div>
-<dl class="image"><dt><img alt="Modal Form in Taskbar" src="../../assets/ShowInTaskBar.jpg" width="349" height="60" /></dt>
-<dd>Figure: Can you tell what is wrong with this Picture?</dd></dl>
-<br><excerpt class='endintro'></excerpt><br>
-​<div>Answer: The 2 SSW SQL Auditor windows are bad, because one is just a modal form.</div>
-<div>Note: We don't check for this in Code Auditor because making a form display as popup, is done at runtime via the ShowDialog method.</div>
-<dl class="badCode"><dt><pre>Dim frm as new frmCustomer frm.ShowDialog</pre></dt> <dd>Figure: Bad Code</dd></dl>
-<div>If your form is designed to be used modally (and thus be called using ShowDialog) then ShowInTaskbar should be set to false in the form designer.</div>
-<dl class="badCode"><dt><pre>Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog</pre></dt> <dd>Figure: Bad Code (because this should be set in the form designer)</dd></dl> <dl class="goodCode"><dt><pre>Dim frm as new frmCustomer frm.ShowDialog</pre></dt> <dd>Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)</dd></dl>
+![Figure: Can you tell what is wrong with this Picture?](../../assets/ShowInTaskBar.jpg)  
 
+<!--endintro-->
+
+Answer: The 2 SSW SQL Auditor windows are bad, because one is just a modal form.
+
+Note: We don't check for this in Code Auditor because making a form display as popup, is done at runtime via the ShowDialog method.
 
 
+```
+Dim frm as new frmCustomer frm.ShowDialog
+```
+
+ Figure: Bad Code 
+If your form is designed to be used modally (and thus be called using ShowDialog) then ShowInTaskbar should be set to false in the form designer.
+
+
+```
+Dim frm as new frmCustomer frm.ShowInTaskBar = False frm.ShowDialog
+```
+
+ Figure: Bad Code (because this should be set in the form designer) 
+
+```
+Dim frm as new frmCustomer frm.ShowDialog
+```
+
+ Figure: Good Code (ShowInTaskbar is set in the form's InitializeComponents method instead)
