@@ -14,9 +14,8 @@ redirects:
 
 ---
 
+You should have Dynamics 365 installed on your phone.
 
-You should have Dynamics 365 installed on your phone.​<br>
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>​<img src="dynamics365-app.png" alt="dynamics365-app.png" /></dt></dl><br>
+<!--endintro-->
 
-
+![](dynamics365-app.png)
