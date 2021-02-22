@@ -11,12 +11,12 @@ redirects: []
 
 ---
 
+Do you want to avoid email harvesting or spamming? This will avoid such spamming problems:
 
-<p> Do you want to avoid email harvesting or spamming? This will avoid such spamming problems&#58; </p><ol><li><strong>Email Address display.</strong> Simply use email images e.g. 
-   </li><li>
-         <strong>Email Address link for mailto.</strong> Use JavaScript function for generating mailto from encrypted text. e.g.
-   </li></ol>
-<br><excerpt class='endintro'></excerpt><br>
+1. **Email Address display.** Simply use email images e.g. 
 
+2. **Email Address link for mailto.** Use JavaScript function for generating mailto from encrypted text. e.g.
 
 
+
+<!--endintro-->
