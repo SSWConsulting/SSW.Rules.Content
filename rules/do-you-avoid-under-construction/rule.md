@@ -12,15 +12,10 @@ redirects:
 
 ---
 
+If all you have time to ftp up is a couple of simple html pages with few contact     details and a brief "About Us", then leave it as that. Writing "Under Construction"     says "We have a few ideas, but we really just don't have the resources to get our     website together at the moment." Bad idea.
 
-<p>If all you have time to ftp up is a couple of simple html pages with few contact
-    details and a brief "About Us", then leave it as that. Writing "Under Construction"
-    says "We have a few ideas, but we really just don't have the resources to get our
-    website together at the moment." Bad idea.
-   </p>
-<br><excerpt class='endintro'></excerpt><br>
-<p>​</p><dl class="image"><dt>
-     <img src="../../assets/Websites_UnderConstruction.jpg" alt="Websites Under Construction" style="margin:5px;width:99px;" /></dt><dd>
-     Figure: "We just can't get our act together on our website"</dd></dl>
+<!--endintro-->
 
 
+
+![Figure: "We just can't get our act together on our website"](../../assets/Websites\_UnderConstruction.jpg)
