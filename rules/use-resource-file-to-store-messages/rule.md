@@ -14,10 +14,38 @@ redirects:
 
 ---
 
+All messages are stored in one central place so it's easy to reuse. Furthermore, it is strongly typed - easy to type with IntelliSense in Visual Studio.
 
-All messages are stored in one central place so it's easy to reuse. Furthermore, it is strongly typed - easy to type with IntelliSense in Visual Studio.<br>
-<br><excerpt class='endintro'></excerpt><br>
-<p class="ssw15-rteElement-CodeArea">Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Write(HelloWorld)Console.Read() End Sub End Module</p><dd class="ssw15-rteElement-FigureBad">Bad example of a constant message</dd><dl class="goodImage"><dt> <img src="BetterCode_ConstantMessages.gif" alt="BetterCode_ConstantMessages.gif" /></dt><dd>Figure: Saving constant message in Resource</dd></dl> 
-<p class="ssw15-rteElement-CodeArea">Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorld) Console.Read() End Sub End Module</p><dd class="ssw15-rteElement-FigureGood">Good example of a constant message <br></dd><p>​<br></p>
+<!--endintro-->
 
 
+
+```
+Module Startup Dim HelloWorld As String = "Hello World!" Sub Main() Console.Write(HelloWorld)Console.Read() End Sub End Module
+```
+
+
+
+
+::: bad
+Bad example of a constant message  
+:::
+
+
+::: good  
+![Figure: Saving constant message in Resource](BetterCode\_ConstantMessages.gif)  
+:::
+
+
+
+```
+Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorld) Console.Read() End Sub End Module
+```
+
+
+
+
+::: good
+Good example of a constant message 
+
+:::
