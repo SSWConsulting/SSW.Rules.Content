@@ -11,13 +11,8 @@ redirects: []
 
 ---
 
+Unfortunately, there is no easy solution to this. What we need is a 'version' field and an 'Update' button - See our  **[Suggestions to Microsoft PowerPoint: Check for Updates](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version)**
 
+<!--endintro-->
 
-  <p>Unfortunately, there is no easy solution to this. What we need is a 'version' field and an 'Update' button - See our <b><a href="http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/Office.aspx#Version">Suggestions to Microsoft PowerPoint: Check for Updates</a></b></p>
-
-<br><excerpt class='endintro'></excerpt><br>
-<dl class="image"><dt>
-      <img alt="Check Template" src="CheckTemplate.jpg" />
-   </dt><dd>Figure: This is how you can see if you are using the template file </dd></dl>
-
-
+![Figure: This is how you can see if you are using the template file](CheckTemplate.jpg)
