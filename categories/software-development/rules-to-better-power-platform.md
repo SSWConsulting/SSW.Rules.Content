@@ -9,6 +9,5 @@ index:
 - use-the-common-data-service-connector-instead-of-the-dynamics-365-connector
 
 ---
-<p>​​<br></p>
 
 
