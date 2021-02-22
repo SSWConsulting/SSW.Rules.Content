@@ -32,20 +32,20 @@ Why CAML is bad?
 </ul>
 <font class="ms-rteCustom-CodeArea">SPQueryquery = newSPQuery(); <br>
 query.Query= String.Format(“<br>
-{ltHTMLChar}Where{gtHTMLChar}<br>
-{ltHTMLChar}And{gtHTMLChar}<br>
-{ltHTMLChar}Contains{gtHTMLChar}{ltHTMLChar}FieldRefName=‘Tags’ /{gtHTMLChar}{ltHTMLChar}ValueType=‘Text’{gtHTMLChar}&#123;0&#125;{ltHTMLChar}/Value{gtHTMLChar}{ltHTMLChar}/Contains{gtHTMLChar}<br>
-{ltHTMLChar}IsNotNull{gtHTMLChar}{ltHTMLChar}FieldRefName=‘URL’ /{gtHTMLChar}{ltHTMLChar}/IsNotNull{gtHTMLChar}<br>
-{ltHTMLChar}/And{gtHTMLChar}<br>
-{ltHTMLChar}/Where{gtHTMLChar}<br>
-{ltHTMLChar}OrderBy{gtHTMLChar}<br>
-{ltHTMLChar}FieldRefName=‘PostedOn’ Ascending=‘TRUE’ /{gtHTMLChar}<br>
-{ltHTMLChar}/OrderBy{gtHTMLChar}”, _filter);<br>
+&lt;Where&gt;<br>
+&lt;And&gt;<br>
+&lt;Contains&gt;&lt;FieldRefName=‘Tags’ /&gt;&lt;ValueType=‘Text’&gt;&#123;0&#125;&lt;/Value&gt;&lt;/Contains&gt;<br>
+&lt;IsNotNull&gt;&lt;FieldRefName=‘URL’ /&gt;&lt;/IsNotNull&gt;<br>
+&lt;/And&gt;<br>
+&lt;/Where&gt;<br>
+&lt;OrderBy&gt;<br>
+&lt;FieldRefName=‘PostedOn’ Ascending=‘TRUE’ /&gt;<br>
+&lt;/OrderBy&gt;”, _filter);<br>
 SPListItemCollectionlistItemsColl= resourceList.GetItems(query);</font><br>
 <font class="ms-rteCustom-FigureBad">Figure&#58; Bad example – using CAML </font><font class="ms-rteCustom-CodeArea">Var resourceListItems =<br>
 From SPListItem item in resourceList.Items<br>
 Where item.Tags.ToString().ToLower().Contains(_filter)<br>
-&amp;&amp; item.URL.ToString().Length{gtHTMLChar} 0<br>
+&amp;&amp; item.URL.ToString().Length&gt; 0<br>
 OrderBy item.PostedOn Ascending</font> &#160;<font class="ms-rteCustom-FigureGood">Figure&#58; Good example – using LINQ</font> 
 
 
