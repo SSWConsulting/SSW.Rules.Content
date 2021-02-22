@@ -16,9 +16,6 @@ redirects:
 
 ---
 
+CC the client from the beginning (unless it’s obvious internal communication). This allows the client to see progress towards speaking with the right person and also gives them an opportunity to correct any details we might have got wrong.
 
-<p class="ssw15-rteElement-P">CC the client from the beginning (unless it’s obvious internal communication). This allows the client to see progress towards speaking with the right person and also gives them an opportunity to correct any details we might have got wrong.​​<br></p>
-<br><excerpt class='endintro'></excerpt><br>
-
-
-
+<!--endintro-->
