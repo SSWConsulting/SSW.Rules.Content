@@ -16,6 +16,6 @@ redirects: []
 
 ​Web Essentials is a Visual Studio extension that greatly improves the productivity of web developers. More times than not, the features of Web Essentials make their way into Visual Studio itself.
 <br><excerpt class='endintro'></excerpt><br>
-<p>​You can install Web Essentials from the <strong>Tools</strong> | <strong>Extensions and Updates&#160;</strong>menu.<br></p><dl class="goodImage"><dt><img src="/PublishingImages/SSW%20-%20Rules%20-%20Web%20Essentials.png" alt="SSW - Rules - Web Essentials.png" style="width&#58;600px;" /></dt><dd>​​Good Example&#58; Web Essentials is in the Installed list.</dd></dl><p>Be sure to make sure your visual studio version and your web essentials version are the same.</p><p>You can find more information at the extensions website found here&#58;&#160;<a href="http&#58;//vswebessentials.com/">http&#58;//vswebesse​ntials.com/​​</a></p>
+<p>​You can install Web Essentials from the <strong>Tools</strong> | <strong>Extensions and Updates </strong>menu.<br></p><dl class="goodImage"><dt><img src="SSW - Rules - Web Essentials.png" alt="SSW - Rules - Web Essentials.png" style="width:600px;" /></dt><dd>​​Good Example: Web Essentials is in the Installed list.</dd></dl><p>Be sure to make sure your visual studio version and your web essentials version are the same.</p><p>You can find more information at the extensions website found here: <a href="http://vswebessentials.com/">http://vswebesse​ntials.com/​​</a></p>
 
 
