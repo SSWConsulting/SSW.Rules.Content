@@ -23,7 +23,7 @@ redirects: []
 
   <p>The most popular and most successful way to deliver projects is using a specific framework called Scrum. In Scrum,​ you fix the timeframe and the cost so the only variance is in the features that are delivered in that time. You should keep your time to between 2 and 4 weeks and all your team members should be full time, thus fixing the costs.&#160;&#160;</p><p>See <a href="http&#58;//sharepoint.ssw.com.au/Standards/Management/RulesToBetterScrumUsingTFS/Pages/default.aspx">Rules to better Scrum.</a></p><p>At SSW we spec in two phases, the first to get an overview of the project, the second, to focus on the detail of first few releases only&#58;</p>
 <ul>
-    <li><a href="/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3ab40a13-29a5-4016-a2e4-8eeb9d3ccd58">Spec Review, or Initial Release Plan</a> </li>
+    <li><a href=/spec-do-you-create-an-initial-release-plan-and-ballpark>Spec Review, or Initial Release Plan</a> </li>
     <li><a href="/spec-do-you-know-what-extra-work-is-included-within-a-sprint">Detailed Release Plan</a> - this phase is repeated through the project</li>
 </ul>
 
