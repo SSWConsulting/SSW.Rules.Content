@@ -14,19 +14,21 @@ redirects:
 
 ---
 
+As a responsible employee, there should be no excuse for ever losing data, especially                     if it belongs to a client. For this reason, it's important to make sure:
 
-<p>​
-                    As a responsible employee, there should be no excuse for ever losing data, especially
-                    if it belongs to a client. For this reason, it's important to make sure:
-                <br></p>
-<br><excerpt class='endintro'></excerpt><br>
-<ul>
-                    <li>Your <a href="http://www.ssw.com.au/ssw/standards/rulestobetterdeadtime/images/developergeneral/windowstools.aspx#backup">backups </a>are working properly</li>
-                    <li>You are using <a href=/rules-to-better-version-control-with-tfs-aka-source-control>source control</a> for any code you develop</li>
-                </ul>
-                <p>
-                    If you are working onsite, you can still use TFS remotely and it's important to
-                    talk the client into this in order to avoid any possible disasters.​
-                </p><p><br></p><p class="ssw15-rteElement-GreyBox"><img src="Backup.gif" alt="Backup.gif" style="margin:5px;" /><br></p><dd class="ssw15-rteElement-FigureGood">​Figure: Have a backup</dd>
+<!--endintro-->
+
+* Your [backups](http://www.ssw.com.au/ssw/standards/rulestobetterdeadtime/images/developergeneral/windowstools.aspx#backup)are working properly
+* You are using [source control](/rules-to-better-version-control-with-tfs-aka-source-control) for any code you develop
 
 
+If you are working onsite, you can still use TFS remotely and it's important to                     talk the client into this in order to avoid any possible disasters.
+
+
+
+![](Backup.gif)
+
+
+::: good
+Figure: Have a backup  
+:::
