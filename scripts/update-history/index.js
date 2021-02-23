@@ -47,7 +47,7 @@ try {
         // console.log('history record after: ', historyRecord);
     }
 
-    fs.writeFileSync( '../../history.json', JSON.stringify(historyData));
+    fs.writeFileSync( '../../history.json', JSON.stringify(historyData, null, '\t'));
 
 } catch (error) {
     core.setFailed(error.message);
