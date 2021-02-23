@@ -32,29 +32,29 @@ Electronic communication can easily cause misunderstandings. Help the reader und
 This way you won't forget any questions in the original email.
 
 
-::: greybox
-Please change from X to Y
-The program flow logic worries me a bit 
-Done. Sorry, this wasn't a final decision - I just put it there for testing purposes 
+::: greybox  
+Please change from X to Y  
+The program flow logic worries me a bit  
+Done. Sorry, this wasn't a final decision - I just put it there for testing purposes  
+:::  
+
+
+::: bad  
+Figure: Bad Example - there's too much information here  
+
 :::
 
 
-::: bad
-Figure: Bad Example - there's too much information here
-
-:::
-
-
-::: greybox
-     &gt; 1. Please change from X to Y
+::: greybox  
+     &gt; 1. Please change from X to Y  
 Done, I made the changes - &lt;add a link to the page or a screenshot&gt;
 
-     &gt; 2. The program flow logic worries me a bit 
-Sorry, this wasn't a final decision - I just put it there for testing purposes 
+     &gt; 2. The program flow logic worries me a bit  
+Sorry, this wasn't a final decision - I just put it there for testing purposes  
 :::
 
 
-::: good
+::: good  
 Figure: Good Example - You can clearly see the context of each part of the reply
 
 :::
