@@ -22,16 +22,11 @@ redirects:
 Employees are a company's best resource, but often there is no light shone on their knowledge. A great way of making this happen is to conduct a brainstorming day. Check out this video!
 
 <!--endintro-->
-<center> 
-   
- </center><center> 
-   
-`youtube: https://www.youtube.com/embed/X1qJyKTbfXk`
 
-   
- </center>
+`youtube: https://www.youtube.com/embed/X1qJyKTbfXk`  
+
 Employees on the front line often have valuable insights into opportunities for improvement, what is painful, increased efficiency and even entirely new business ideas. Empowering these employees with an annual brainstorming day is a great way to transform their good ideas into valuable solutions, as well as giving them the opportunity to learn and grow from each other. Also, many employees enjoy the opportunity to flex their creative muscles in fun ways that their day-to-day jobs may not always afford them.
-
+  
 Different companies have different approaches to this. For example:
 
 * Atlassian - give employees 1 day a year to work on a feature they want
@@ -69,7 +64,7 @@ e.g.:
 
 
 
-
+::: greybox  
 
 Hi All,
 
@@ -92,11 +87,13 @@ See video on:     [https://rules.ssw.com.au/do-you-use-the-brains-of-your-compan
 **1pm** – Lunch        
 **2pm** – Continue work        
 **4pm** - Presentations        
-**6pm** – The pub
-[::: good
-Good Example: Email template for brainstorming attendees
-:::
-**2. Setup Trello**](/do-you-use-the-brains-of-your-company)
+**6pm** – The pub  
+:::  
+::: good  
+Good Example: Email template for brainstorming attendees  
+:::  
+
+**2. Setup Trello**  
 [Use Trello to manage and vote on the suggestions, using the](/do-you-use-the-brains-of-your-company)[voting Power-Up](https://trello.com/power-ups/55a5d917446f517774210013/voting). First add the voting Power-Up, then set up your board for the day:
 
 * Create a list called 'Retro - Highlights'
@@ -132,9 +129,9 @@ On the day, follow the agenda set out in your attendee email:
 * Retro: hearing everybody's top highlight. (The scribe will add these to the list).
 * Suggestions: Hear everyone's top pain (the scribe adds these too).
 * Suggestions: Once you have everyone's highights, share the pre-cooked suggestions you have prepared (hopefully a video or two).
-* Vote: invite attendees to vote via Trello for the suggestion they would most like to see implemented at your company. Depending on the size of your team, you may choose to allow each attendee 3 votes.
+* Vote: invite attendees to vote via Trello for the suggestion they would most like to see implemented at your company. Depending on the size of your team, you may choose to allow each attendee 3 votes.  
 Eg. "Guys, you've got 5 minutes to get your 3 votes in"
-* Vote Results: after the votes are in, you can reveal the top voted suggestions. The attendees then break into smaller groups and set to work building a prototype or proof of concept. 
+* Vote Results: after the votes are in, you can reveal the top voted suggestions. The attendees then break into smaller groups and set to work building a prototype or proof of concept.  
  **TIP:** The moderator can decide which suggestions are viable and invite attendees to self-organise
 * 1pm: Give the attendees a break for lunch.
 * 4pm: Attendees come back in, and each group takes turns presenting their work to the rest of the attendees.
