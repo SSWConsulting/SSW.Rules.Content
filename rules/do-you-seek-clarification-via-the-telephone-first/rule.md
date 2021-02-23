@@ -26,14 +26,17 @@ However, sometimes you cannot immediately reach the task owner. In this case, yo
 
 ::: greybox
 
-Hi John
+**Hi John,**
 
 (As per our conversation, I needed a bit more information to complete this task - next time, it would be great if you could include additional information like the below so I could complete it without bothering you)
-FYI - This task has been put onto the backlog and should be looked at in the next sprint.
 
-**To Myself**
+FYI - This task has been put onto the backlog [add link] and should be looked at in the next sprint.
+
+**To Myself,**
 
 [Fill in the information you just got from the conversation]
-
 :::
-Figure: Good Example - Send this email and now move on to other tasks and leave this task to next release.
+
+::: good
+Figure: Good Example - Send this email and now move on to other tasks and leave this task to next release
+:::
