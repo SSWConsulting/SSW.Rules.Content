@@ -31,7 +31,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 #### This is a heading 4 
 ##### This is a heading 5
 ###### This is a heading 6 and below is a blockquote
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante..  
 >                                   - Someone famous in Source Title
 
 #### Unordered List
