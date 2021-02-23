@@ -28,7 +28,7 @@ During a sprint it can be useful for:
 
 In order to achieve this, one of the Team can choose to be the primary contact for the PBI.
 
-Beware, this is intended for convenience and should not conflict with the following Scrum principals from page 6 of the [Scrum Guide](/Pages/Scrumguide.aspx)
+Beware, this is intended for convenience and should not conflict with the following Scrum principals from page 6 of the [Scrum Guide](https://www.ssw.com.au/rules/getting-started-have-you-read-the-scrum-guide)
 
 * The Development team is self-organizing.
 * Accountability belongs to the development team as a whole
