@@ -103,4 +103,5 @@ More information about this GitHub Action can be found here https://github.com/d
 To avoid people adding PBI to the Azure DevOps, you should add a PBI at the top of your backlog.
 
 ![Add the PBI at the top your backlog](GitHub-PBI-Backlog.png)
+
 ![Tell where to add issues and explain why(or reference this rule)](GitHub-PBI-Backlog-Text.png)
