@@ -70,9 +70,6 @@ PBI:         **[FeatureName] – Tech Debt - Planned**
 
 **Note:** Martin Fowler calls this Deliberate Technical Debt 
 
- **
-** 
-
 **#2 Discovered Technical Debt** 
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
