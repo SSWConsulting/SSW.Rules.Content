@@ -39,6 +39,6 @@ Near your task board, stick an SSW "Want to submit a User Story?"
 
 Print out this PDF and fill in the 2 fields and stick it on own task board.
 
-[!\[\](preview-taskboard.jpg)Download the "SSW Submit a PBI" PDF.](/Documents/SSWSubmitaPBI.pdf) 
+[!\[\](preview-taskboard.jpg)Download the "SSW Submit a PBI" PDF.](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams/SSWSubmitaPBI.pdf) 
 
 ![Figure: Create an avatar for each person and stick them on the current task. You can find our        User Story Cards here. You can write the TFS work item ID on each card.](Avatar.jpg)
