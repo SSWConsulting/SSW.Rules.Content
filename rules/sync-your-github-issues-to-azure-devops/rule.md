@@ -99,3 +99,8 @@ Pros
 
  
 More information about this GitHub Action can be found here https://github.com/danhellem/github-actions-issue-to-work-item
+
+To avoid people adding PBI to the Azure DevOps, you should add a PBI at the top of your backlog.
+
+![](GitHub-PBI-Backlog.png)
+![](GitHub-PBI-Backlog-Text.png)
