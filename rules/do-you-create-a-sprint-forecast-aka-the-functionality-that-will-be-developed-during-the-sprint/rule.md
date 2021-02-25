@@ -70,7 +70,7 @@ The Team will do its best to deliver this set of features (Scope), to a defined 
 ** **Subject: &lt;Client Name&gt;: Sprint xxx Forecast** 
 :::
 
-Tip: Use this     [Outlook email template](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint/SprintContract.oft)
+Tip: Use this     [Outlook email template](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint/SprintContract.oft)
 
 More instructions are as below:
 
