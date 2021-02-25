@@ -2143,9 +2143,9 @@
 	},
 	{
 		"file": "rules/do-you-seek-clarification-via-the-telephone-first/rule.md",
-		"lastUpdated": "2016-08-25T15:48:25+10:00",
-		"lastUpdatedBy": "Ulysses Maclaren",
-		"lastUpdatedByEmail": "ulyssesmaclaren@ssw.com.au",
+		"lastUpdated": "2021-02-23T23:42:54.011Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2009-04-15T12:46:47+10:00",
 		"createdBy": "System Account",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -5761,9 +5761,9 @@
 	},
 	{
 		"file": "rules/agreements-do-you-book-the-next-sprint-ahead-of-time/rule.md",
-		"lastUpdated": "2013-06-24T17:38:28+10:00",
-		"lastUpdatedBy": "Ulysses Maclaren",
-		"lastUpdatedByEmail": "ulyssesmaclaren@ssw.com.au",
+		"lastUpdated": "2021-02-23T23:48:00.559Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-05-01T15:12:41+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -22330,9 +22330,9 @@
 	},
 	{
 		"file": "rules/azure-resources-creating/rule.md",
-		"lastUpdated": "2020-11-01T13:36:33+11:00",
-		"lastUpdatedBy": "Matt Goldman",
-		"lastUpdatedByEmail": "MattGoldman@ssw.com.au",
+		"lastUpdated": "2021-02-24T18:02:27.492Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-10-06T11:13:27+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -22447,9 +22447,9 @@
 	},
 	{
 		"file": "rules/sync-your-github-issues-to-azure-devops/rule.md",
-		"lastUpdated": "2020-10-26T15:33:31+11:00",
-		"lastUpdatedBy": "Christian Morford-Waite",
-		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au",
+		"lastUpdated": "2021-02-24T07:04:47.853Z",
+		"lastUpdatedBy": "Sebastien Boissiere [SSW]",
+		"lastUpdatedByEmail": "boissiere.seb@gmail.com",
 		"created": "2020-10-19T09:36:36+11:00",
 		"createdBy": "Christian Morford-Waite",
 		"createdByEmail": "ChristianMWaite@ssw.com.au"
@@ -22771,9 +22771,9 @@
 	},
 	{
 		"file": "rules/technical-debt/rule.md",
-		"lastUpdated": "2020-12-18T23:56:10+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-02-24T00:04:19.817Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2020-12-17T10:19:08+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -24676,5 +24676,50 @@
 		"lastUpdated": "2021-02-25T00:32:38.056Z",
 		"lastUpdatedBy": "Jack Leerson",
 		"lastUpdatedByEmail": "77082983+JackLeerson@users.noreply.github.com"
+	},
+	{
+		"file": "rules/use-azure-devops-pipelines-with-dynamics-solutions/sample-azure-1.png",
+		"created": "2021-02-24T17:06:20.491Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-02-24T22:11:34.667Z",
+		"lastUpdatedBy": "Christian Morford-Waite [SSW]",
+		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au"
+	},
+	{
+		"file": "rules/use-azure-devops-pipelines-with-dynamics-solutions/sample-azure-2.png",
+		"created": "2021-02-24T17:06:20.491Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-02-24T22:11:34.667Z",
+		"lastUpdatedBy": "Christian Morford-Waite [SSW]",
+		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au"
+	},
+	{
+		"file": "rules/use-azure-devops-pipelines-with-dynamics-solutions/sample-azure-3.png",
+		"created": "2021-02-24T17:06:20.492Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-02-24T22:11:34.668Z",
+		"lastUpdatedBy": "Christian Morford-Waite [SSW]",
+		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au"
+	},
+	{
+		"file": "rules/sync-your-github-issues-to-azure-devops/GitHub-PBI-Backlog-Text.png",
+		"created": "2021-02-24T07:04:47.852Z",
+		"createdBy": "Sebastien Boissiere [SSW]",
+		"createdByEmail": "boissiere.seb@gmail.com",
+		"lastUpdated": "2021-02-24T07:04:47.852Z",
+		"lastUpdatedBy": "Sebastien Boissiere [SSW]",
+		"lastUpdatedByEmail": "boissiere.seb@gmail.com"
+	},
+	{
+		"file": "rules/sync-your-github-issues-to-azure-devops/GitHub-PBI-Backlog.png",
+		"created": "2021-02-24T07:04:47.852Z",
+		"createdBy": "Sebastien Boissiere [SSW]",
+		"createdByEmail": "boissiere.seb@gmail.com",
+		"lastUpdated": "2021-02-24T07:04:47.852Z",
+		"lastUpdatedBy": "Sebastien Boissiere [SSW]",
+		"lastUpdatedByEmail": "boissiere.seb@gmail.com"
 	}
 ]
