@@ -140,6 +140,27 @@ if(iceCream === 'chocolate') {
 Figure: Good Example - Nice email template  
 :::
 
+#### Code for Email Template
+
+```
+  ::: email-template  
+  |          |     |
+  | -------- | --- |
+  | To:      | XXX |
+  | Cc:      | YYY |
+  | Bcc:     | ZZZ |
+  | Subject: | This is the subject |  
+  ::: email-content  
+
+  ### Hi XXX,  
+  [Email content]    
+
+  :::  
+  :::  
+  ::: good  
+  Figure: Good Example - Nice email template  
+  :::
+```
 
 ### Organisation Only Content  
 ::: hidden  
