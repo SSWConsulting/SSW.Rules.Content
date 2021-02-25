@@ -22,8 +22,8 @@ redirects:
 The scrum team needs a place to gather for all the scrum ceremonies. This room should have useful information on the wall to help the team work more efficiently. We recommend having the following:
 
 * [Task Board](/Pages/Taskboard.aspx) (to show current work in progress)
-* [The 8 Steps to Scrum PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/do-you-have-a-war-room-summary/8StepstoScrum.pdf) (to show how we work)
-* [The 3 Steps to a PBI PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/do-you-have-a-war-room-summary/3StepsToAPBI.pdf) (to know the lifecycle of a PBI)
+* [The 8 Steps to Scrum PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-a-war-room-summary/8StepstoScrum.pdf) (to show how we work)
+* [The 3 Steps to a PBI PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-a-war-room-summary/3StepsToAPBI.pdf) (to know the lifecycle of a PBI)
 * [Product Roadmap](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=5a709eff-b4b9-4dfd-80d9-68c805e66b8a) (to let everyone know the large future priorities)
 * [Definition of Done - aka Done Criteria or DoD](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6449ae79-ba88-447e-aa48-36173029a2af) (the quality that is being adhered to)
 
