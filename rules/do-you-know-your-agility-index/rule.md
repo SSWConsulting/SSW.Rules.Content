@@ -18,5 +18,5 @@ redirects: []
 So you’re agile… or are you? Find out what you’re doing right and what things you can improve on by taking our quiz and finding out your agility index. Do this at each of your sprint retrospectives and ratchet up the quality with each sprint
 
 <!--endintro-->
-[What’s My Agility Index? (HowAgileAreYou\_TheAgilityIndex\_AdamCogan\_and\_JoelSemeniuk.docx)](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/do-you-know-your-agility-index/HowAgileAreYou_TheAgilityIndex_AdamCogan_and_JoelSemeniuk.docx)
-[HowAttractiveAreYou.docx](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/do-you-know-your-agility-index/HowAttractiveAreYou.docx)
+[What’s My Agility Index?](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-know-your-agility-index/HowAgileAreYou_TheAgilityIndex_AdamCogan_and_JoelSemeniuk.docx)
+[HowAttractiveAreYou.docx](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-know-your-agility-index/HowAttractiveAreYou.docx)
