@@ -64,4 +64,4 @@ One of the most effective ways of launching an effective marketing campaign is t
 
 1. **Add relevant content to an auto-responder email campaign**
 
-  You can find a template to follow at  [!\[\](icdocx.png)SSW-Marketing-Campaign-Checklist-TEMPLATE\_v1.docx](/Documents/SSW-Marketing-Campaign-Checklist-TEMPLATE_v1.docx)
+  You can find a template to follow at [SSW-Marketing-Campaign-Checklist-TEMPLATE\_v1.docx](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-follow-the-campaign-checklist-for-every-marketing-campaign/SSW-Marketing-Campaign-Checklist-TEMPLATE_v1.docx)

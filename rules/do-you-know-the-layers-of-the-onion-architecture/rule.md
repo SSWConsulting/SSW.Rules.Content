@@ -17,7 +17,7 @@ redirects: []
 
 ---
 
-[![Onion Architecture](Onion-Architecture.jpg)](/Documents/Onion-Architecture.pdf)Figure: The layers of the onion architecture 
+[![Onion Architecture](Onion-Architecture.jpg)](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-know-the-layers-of-the-onion-architecture/Onion-Architecture.pdf)Figure: The layers of the onion architecture 
 <!--endintro-->
 
 ### Application Core (the grey stuff)
