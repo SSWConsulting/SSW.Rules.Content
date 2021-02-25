@@ -24721,5 +24721,14 @@
 		"lastUpdated": "2021-02-24T07:04:47.852Z",
 		"lastUpdatedBy": "Sebastien Boissiere [SSW]",
 		"lastUpdatedByEmail": "boissiere.seb@gmail.com"
+	},
+	{
+		"file": "rules/dones-do-you-reply-done-and-delete-the-original-email/good-done-example-form.png",
+		"created": "2021-02-25T23:05:13.097Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-02-25T23:05:13.097Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
