@@ -34,7 +34,7 @@ Here are the 8 steps:
 2. Open Excel and connect to the above Backlog
 3. In Excel, add a column called "Hours"
 Note: Once we move to estimating in time, this is no longer Scrum.
-4. In Excel, copy this list and paste into another spreadsheet called the [Estimates Calculator](/Documents/4.%20Estimates%20Calculator.xlsx?d=w6f09d6a75d074fbda81e5e5dd3e18c76), in order to add all of the extra items (testing, DevOps, Project management, etc.).  **See below for how to use this.** 
+4. In Excel, copy this list and paste into another spreadsheet called the [Estimates Calculator](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/4.%20Estimates%20Calculator.xlsx), in order to add all of the extra items (testing, DevOps, Project management, etc.).  **See below for how to use this.** 
 Note: It would be great if TFS (or visualstudio.com) had functionality to add [standard items to a Sprint](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems)
 5. Run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) on the numbers
 6. Add this spreadsheet to your specification review document
@@ -48,7 +48,7 @@ Note: It would be great if TFS (or visualstudio.com) had functionality to add [s
 ### More Info - How to use the Estimates Calculator
 
 
-Open the [Estimates Calculator](/Documents/4.%20Estimates%20Calculator.xlsx?d=w6f09d6a75d074fbda81e5e5dd3e18c76) and do the following:
+Open the [Estimates Calculator](https://github.com/SSWConsulting/SSW.Rules.Content/raw/59350-Moving-sharepoint-files-to-github/rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/4.%20Estimates%20Calculator.xlsx) and do the following:
 ![](Resource tab.png) **Figure: Set the types and numbers of resources who will be working on the project
 
 ** ![](Estimates tab.png) **Figure: Enter your PBIs and estimates
