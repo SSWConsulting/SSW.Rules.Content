@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related: [https://www.ssw.com.au/rules/do-you-know-who-to-put-in-the-to-field]
+related: 
+- do-you-know-who-to-put-in-the-to-field
 redirects: []
 
 ---
