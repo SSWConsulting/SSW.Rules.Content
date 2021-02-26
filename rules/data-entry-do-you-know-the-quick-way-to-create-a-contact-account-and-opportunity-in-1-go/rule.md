@@ -43,4 +43,4 @@ This will:
 
 
 
-Note: You have just learned that a lead is a transitory thing. There is, however, one other case where you might want to use leads: [Do you know the one case where you use a CRM lead?](/Pages/The-one-case-where-you-use-a-CRM-lead.aspx)
+Note: You have just learned that a lead is a transitory thing. There is, however, one other case where you might want to use leads: [Do you know the one case where you use a CRM lead?](/do-you-know-the-one-case-where-you-use-a-crm-lead)

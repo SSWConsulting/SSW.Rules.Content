@@ -54,7 +54,7 @@ The product backlog is just a list of items with rough estimates of both develop
 ### Product Owners are too busy for this
 
 
-If it is good enough for developers to estimate story points... then it is good enough for the Business to estimate Business Value. Usually devs will use the Fibonacci sequence, but since it is a good idea that the business guys use the same scale, it is best to switch to the doubling method of estimating -     [Do you know how to size user stories effectively?](/Pages/Do-You-Know-How-To-Size-Stories-Effectively.aspx)
+If it is good enough for developers to estimate story points... then it is good enough for the Business to estimate Business Value. Usually devs will use the Fibonacci sequence, but since it is a good idea that the business guys use the same scale, it is best to switch to the doubling method of estimating -     [Do you know how to size user stories effectively?](/estimating-do-you-know-how-to-size-user-stories-effectively)
 
 For example, if the "add rich text box" and "add sortable column headings on the grid" have the same business value of 3, the one with the smallest development effort will have higher priority (the ROI is greater).
 

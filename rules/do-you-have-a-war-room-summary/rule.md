@@ -21,7 +21,7 @@ redirects:
 
 The scrum team needs a place to gather for all the scrum ceremonies. This room should have useful information on the wall to help the team work more efficiently. We recommend having the following:
 
-* [Task Board](/Pages/Taskboard.aspx) (to show current work in progress)
+* [Task Board](/the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams) (to show current work in progress)
 * [The 8 Steps to Scrum PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-a-war-room-summary/8StepstoScrum.pdf) (to show how we work)
 * [The 3 Steps to a PBI PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-a-war-room-summary/3StepsToAPBI.pdf) (to know the lifecycle of a PBI)
 * [Product Roadmap](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=5a709eff-b4b9-4dfd-80d9-68c805e66b8a) (to let everyone know the large future priorities)

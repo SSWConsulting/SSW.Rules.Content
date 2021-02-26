@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-After the [Sprint Planning](/Pages/SprintPlanningMeeting.aspx)[Meeting](/Pages/SprintPlanningMeeting.aspx), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
+After the [Sprint Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting)[Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
 
 
 
