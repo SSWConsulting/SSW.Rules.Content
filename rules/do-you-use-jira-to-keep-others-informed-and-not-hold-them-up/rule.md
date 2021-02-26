@@ -33,8 +33,8 @@ Summary:  Login  to Jira and clear the issues from the top left of your dashboar
 
  NOTE: Most people will only have Reporter actions to perform. [Understand more about Reporters and Assignees](/Pages/ReportesAndAssignees.aspx) 
 
-![](Urgent.png)**Figure: Your dashboard is your Home Page when you** **[login like this](/Pages/HowdoIsignintoJira.aspx)** **and clearly shows the issues that need your immediate attention 
-** 
+![Figure: Your dashboard is your Home Page when you [login like this](/Pages/HowdoIsignintoJira.aspx) and clearly shows the issues that need your immediate attention](Urgent.png) 
+
  For guidance on dealing with issues check out our other rules:
 
 [Answering](/do-you-know-how-to-answer-a-question-in-jira)
