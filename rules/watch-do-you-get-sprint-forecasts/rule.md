@@ -18,4 +18,4 @@ At the beginning of each sprint, you will receive a sprint forecast that explain
 
 It's very important that these are your highest priority items as these will be prioritised over anything else for this sprint. If you want any changes made, contact the team as soon as possible.
 
-For more information on Sprint Forecasts, see [http://rules.ssw.com.au/Management/RulesToBetterScrumUsingTFS/Pages/Do-you-have-a-Sprint-Contract-aka-The-deal-between-the-Product-Owner-and-Team.aspx](/do-you-create-a-sprint-forecast-%28aka-the-functionality-that-will-be-developed-during-the-sprint%29)
+For more information on Sprint Forecasts, see [https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)

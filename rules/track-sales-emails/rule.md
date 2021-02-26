@@ -50,7 +50,7 @@ By recording these activities, reports can be created to view:
 
 ![Figure: Activities Report - Ulysses was the hardest worker for this month. Print this and put it on the wall and it will encourage everyone to log their calls](TrackingGraph.jpg)  
 
-**Note:** You can see more details on what emails to track in [Do you know to hit 'Track' when you receive an important email?](/Pages/Hit-Track-in-CRM-when-you-receive-an-important-email.aspx)
+**Note:** You can see more details on what emails to track in [Do you know to hit 'Track' when you receive an important email?](/track-important-emails)
 
 **Prerequisite:** [Install the CRM Add-in](/install-the-2-add-ins)
 

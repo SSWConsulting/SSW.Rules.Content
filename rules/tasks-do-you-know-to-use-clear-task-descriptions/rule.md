@@ -25,7 +25,7 @@ What if the Team runs a syndicate and all your numbers come up? The point is tha
 
 Add as much information to the task as you think is necessary for anyone to work on the task.
 
-If you need to add rich text and images you can do this by [attaching an email to the task](/Pages/EnsureRelevantEmails.aspx).
+If you need to add rich text and images you can do this by [attaching an email to the task](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks).
 
 
 ::: bad  

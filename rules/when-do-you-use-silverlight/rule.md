@@ -80,4 +80,4 @@ YES. Microsoft.Maps.MapControl provides functionality to access Bing Maps. Using
 **Slow Response** 
 
 The initial slow response is due to downloading of the .xap file. This is not an issue since it is a one-time download and the user gets a fast response with later interaction. For later visits, the user will not face a slow response issue as the browser already cached the data. Also, check out rules - 
-   [Do you use dynamic application loading in Silverlight](/Pages/Do-you-use-dynamic-application-loading-in-Silverlight.aspx)?
+   [Do you use dynamic application loading in Silverlight](/do-you-use-dynamic-application-loading-in-silverlight)?

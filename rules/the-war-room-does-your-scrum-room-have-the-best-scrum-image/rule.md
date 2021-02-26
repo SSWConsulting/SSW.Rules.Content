@@ -32,4 +32,4 @@ Here is an image for your war room wall...
 
 ### Related Links
 
-* [Do you know the 3 steps to a PBI?](/Pages/Do-you-know-the-3-steps-to-a-PBI.aspx)
+* [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)

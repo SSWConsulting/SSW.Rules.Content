@@ -56,7 +56,7 @@ Keep in mind that a "test please" is an urgent task and that it should start wit
     * Send suggestions/bugs one email at a time (with a new email subject) because it makes it easier to fix and reply "done"
         * Please CC the project manager [xxx@yyy.com] and the client [xxx@yyy.com]
     * Know the definition of a bug. Read http://www.ssw.com.au/ssw/Standards/Support/BugReportOrEnhancement.aspx
-    * Understand the importance of testing. Read the rule on [Do you conduct a "test please" internally and then with the client?](/Management/RulesToSuccessfulProjects/Pages/InternalTestPlease.aspx)
+    * Understand the importance of testing. Read the rule on [Do you conduct a "test please" internally and then with the client?](/conduct-a-test-please-internally-and-then-with-the-client)
     * Use good subjects on your emails. Read [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
     * Do not reply to this message until you can say "Test Please Succeeded (as no Critical bugs). You are ready to deploy." or "Test Please Failed (as per Critical bugs reported)"
 
