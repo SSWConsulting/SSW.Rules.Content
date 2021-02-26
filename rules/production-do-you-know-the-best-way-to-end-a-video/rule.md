@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-The ending of your video should contain a [call to action](/Pages/Adding-a-call-to-action.aspx), the logo of your company and a sign off from the speaker(s).
+The ending of your video should contain a [call to action](/production-do-you-add-a-call-to-action), the logo of your company and a sign off from the speaker(s).
 
 <!--endintro-->
 

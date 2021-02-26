@@ -48,4 +48,4 @@ ELMAH can be easily added to your application from NuGet, and it configures itse
 ![](2014-09-08_10-56-57-compressor.png)
  **Figure: Add ELMAH to your web application from NuGet**
 
-See also [Do you use the best middle tier .Net libraries?](/Pages/use-the-best-exception-handling-framework.aspx)
+See also [Do you use the best middle tier .Net libraries?](/do-you-use-the-best-exception-handling-library)

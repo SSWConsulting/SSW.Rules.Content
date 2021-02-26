@@ -77,4 +77,4 @@ To help make this process pain free, we've developed the [SSW Data Onion](http:/
 
 
 
-**Further Reading:** [Do You Use a Dependency Injection Centric Architecture?](/Pages/Use-a-Dependency-Injection-Centric-Architecture.aspx)
+**Further Reading:** [Do You Use a Dependency Injection Centric Architecture?](/do-you-use-a-dependency-injection-centric-architecture)

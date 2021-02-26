@@ -31,7 +31,7 @@ Examples are:
 * When you are new to a company and sending an email to a large distribution list
 * Sending a complicated email
 * Sending a sensitive email (where the content could be perceived as confrontational)
-* In application development, when you need a quick '[test please](/conduct-a-test-please-internally-and-then-with-the-client)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/Pages/Done-GiveDetailsAndDelete.aspx)' is sent
+* In application development, when you need a quick '[test please](/conduct-a-test-please-internally-and-then-with-the-client)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent
 
 
 Doing this will ensure:

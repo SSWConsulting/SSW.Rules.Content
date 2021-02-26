@@ -18,7 +18,7 @@ redirects:
 
 ---
 
-Design patterns are useful for ensuring [common design principles](/Pages/DoYouKnowCommonDesignPrinciples.aspx)are being followed.  They help make your code consistent, predictable, and easy to maintain.
+Design patterns are useful for ensuring [common design principles](/do-you-know-the-common-design-principles-part-1)are being followed.  They help make your code consistent, predictable, and easy to maintain.
 
 <!--endintro-->
 

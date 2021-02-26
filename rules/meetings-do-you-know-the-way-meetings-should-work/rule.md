@@ -25,7 +25,7 @@ To ensure your meetings are productive and successful, you should:
 
 * Make Sure the AV setup is correct. Please refer to the SugarLearning item '[AV Setup for Skype for Business Meetings](https://sugarlearning.com/companies/SSW/items/13053/av-setup-for-skype-for-business-meetings)'.
 * Create a meeting agenda prior to the meeting. Give each attendee a copy. If the discussion strays from the topic, the agenda will help you keep it on track.
-* Send [an appointment](/Pages/WayMeetingsShouldWork.aspx) to all meeting attendees to ensure the meeting appears on their calendar.
+* Send [an appointment](/meetings-do-you-know-the-way-meetings-should-work) to all meeting attendees to ensure the meeting appears on their calendar.
 * If you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving.
 * To improve future meetings, at the end of the meeting, do a quick debrief to see how long the meeting took, if anything was covered that didn't need to be, etc.
 
@@ -54,6 +54,6 @@ Every Outlook appointment must have:
 Hi Bill Northwind
 * Print map http://www.ssw.com.au/ssw/company/directions
 * FYI the account manager is not billable, the developers are billable
-* For meetings tips see [Rules to being Software Consultants - Dealing with Clients](/Pages/Rules-to-Better-Software-Consultants---Dealing-with-Clients.aspx)
+* For meetings tips see [Rules to being Software Consultants - Dealing with Clients](/rules-to-better-software-consultants-dealing-with-clients)
 
           Figure - Message example

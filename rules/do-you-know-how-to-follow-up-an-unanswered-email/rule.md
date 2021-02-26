@@ -28,4 +28,4 @@ Sometimes the person you send your email to may not reply immediately because th
 ![Figure: Good Example - (PING) written at the top of the email.](ping-email.png)  
 :::
 
-Of course you might use slightly friendlier language following up a client or a third party compared with following up a colleague! If it's really important and you need an answer you might like to     [consider using the phone instead of email](/Pages/EmailForTasksNotCommunication.aspx).
+Of course you might use slightly friendlier language following up a client or a third party compared with following up a colleague! If it's really important and you need an answer you might like to     [consider using the phone instead of email](/dones-do-you-use-email-for-tasks-only-not-communication).

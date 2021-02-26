@@ -27,7 +27,7 @@ If your project has a database, you need to select a "Schema Master". This is th
 
 * Creating, Modifying and Deleting tables and columns
 * Relationships
-* Modify [Controlled Lookup Data](/Pages/DoYouDeployLookupData.aspx)
+* Modify [Controlled Lookup Data](/do-you-deploy-controlled-lookup-data)
 
  The "Schema Master" in a development shop is often the lead programmer on the team. They are in charge of all database changes and scripts. Team members should still feel free to make changes, just get them double checked by the Schema Master.     
 ![Figure: The Applications Database stores version info in a table called \_zsVersion](zsVersionTable.png)  

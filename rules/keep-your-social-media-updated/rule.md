@@ -37,7 +37,7 @@ As [Neil Patel](https&#58;//neilpatel.com/) says: "If you post too infrequently,
 
 Most marketers recommend at least 1 post a day, depending on the social media platform - you might find that this can hard on YouTube, for example. In general, consistency is key. Make sure you have a routine set to follow up your insights for a deep dive into your metrics and you will find out what works best for your audience.
 
-You can use a social media management tool like Buffer (see Rule “[Do you use Buffer to post to social media?](/Pages/Do-you-use-Buffer-to-post-to-social-media.aspx)”) to post to your social media platforms at least 3 times a week (ideally daily) with upcoming events, information about products or services, relevant news, or anything else that you think your followers would be interested in.
+You can use a social media management tool like Buffer (see Rule “[Do you use Buffer to post to social media?](/do-you-use-buffer-to-post-to-social-media)”) to post to your social media platforms at least 3 times a week (ideally daily) with upcoming events, information about products or services, relevant news, or anything else that you think your followers would be interested in.
 
 Tip: If you struggle with content creation, see rule [Do you know what type of content marketing you should post on your socials?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=68535802-8a37-4ffb-bfbf-a74755a924dc)
 

@@ -23,6 +23,6 @@ Having a rejected Sprint is so rare that you should be hard pushed to find any t
 
 If you do then this highlights an underlying communication issue and most likely a lack of participation by the product owner.
 
-See [<font color="#000080">Do you have a contract between the Product Owner and the Team?</font>](/Pages/Do-you-create-a-Sprint-Forecast-email.aspx)
+See [<font color="#000080">Do you have a contract between the Product Owner and the Team?</font>](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)
 
 If however you do get a failed sprint and the Product Owner is not willing to accept the code that has been written then you need to rollback your source code and put all the Stories back onto the backlog.
