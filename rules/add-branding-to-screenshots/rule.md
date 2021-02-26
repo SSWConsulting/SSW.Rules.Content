@@ -19,7 +19,7 @@ redirects:
 
 ---
 
-You can communicate better by using screenshots with balloons and other visual elements (arrows, shapes, and highlights) instead of only text.     [Read the benefits of using screenshots here](/Pages/HowToUseBalloons.aspx).
+You can communicate better by using screenshots with balloons and other visual elements (arrows, shapes, and highlights) instead of only text.     [Read the benefits of using screenshots here](rules/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
 We recommend you define a standard style for your visual elements by changing the default colors and shapes according to your branding.
 
 <!--endintro-->

@@ -23,7 +23,7 @@ If success on both steps the error is most likely on the senders side. Send them
 
 Dear xxx
 
-As per this rule on bounced emails http://rules.ssw.com.au/Communication/RulesToBetterEmail/Pages/Do-you-know-what-to-do-with-bounced-email.aspx
+As per this rule on bounced emails https://www.ssw.com.au/rules/bounces-do-you-know-what-to-do-with-bounced-email
 
 * I have checked Step 1 – it is good
 * I have checked Step 2 – it is good
