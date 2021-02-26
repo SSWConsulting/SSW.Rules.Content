@@ -45,7 +45,7 @@ Read "[Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-do
 ::: email-content  
 
 ### Hi Jason,  
-Not done - checked with Northwind and they're happy with the form as it is.
+Not done - checked with Northwind and they're happy with the form as it is
 
 :::  
 :::  
@@ -91,11 +91,9 @@ Figure: Bad Example - "Done" email lacks of details
 ::: email-content  
 
 ### Hi Jason,  
-Done - added "State" field to the contact form - northwind.com/contact 
+Done - added "State" field to the contact form - _northwind.com/contact _
 
-  ::: good  
   ![Figure: New "State" field added](good-done-example-form.png)  
-  :::
 
 :::  
 :::  
@@ -154,12 +152,17 @@ Figure: Bad Example – It’s not clear which tasks have been done and which ha
 ::: email-content  
 
 ### Hi Bob,  
-Hi Bob,
 
 1. Done - See northwind.com 
 2. Not Done - I couldn’t find a camera.
 
 Jason
+
+  ---
+
+### Hi Jason, 
+
+...
 
 :::  
 :::
@@ -175,7 +178,34 @@ Figure: OK Example – It’s clear which tasks have been done and which haven�
 ::: email-content  
 
 ### Hi Bob,  
-Hi Bob,
+
+I've replied inline in **bold**.
+
+Jason
+
+  ---
+
+### Hi Jason,  
+
+   &gt;1. Update the logo on Northwind website the new logo. **Done - See northwind.com**
+   &gt;2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera.**
+
+Bob
+
+:::  
+:::
+::: OK
+Figure: OK Example – It’s clear which tasks have been done, but we prefer not to reply inline  
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+| Subject: | RE: Northwind website - Update logo + add a photo |  
+::: email-content  
+
+### Hi Bob,  
 
    &gt;1. Update the logo on Northwind website the new logo
 Done - See northwind.com 
@@ -191,56 +221,34 @@ Jason
 Figure: Good Example – It is very clear which tasks have been done and which haven’t  
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+| Subject: | RE: Northwind website - Update logo + add a photo |  
+::: email-content  
+
+### Hi Bob,  
+
+   &gt;1. Update the logo on Northwind website the new logo
+   &gt;2. Take a photo of the office façade and add to the "About Us" page
+All Done 
+
+Jason
+
+:::  
+:::
+::: good
+Figure: Good Example – If multiple tasks are 'done' with no need for extra explanation, you can combine them. It’s clear that all tasks have been done
+:::
+
+
 ----
 ::: todo
 Tiago: Improved Markdown and examples until here! Below still to be fixed
 :::
+----
 
-::: greybox
-Hi Bob,
-
-I've replied inline in     red.
-
-Damian
-
--------
-
-Hi Damian,
-
-As per our conversation:
-
-1. Change the logo on the SSW website to our new logo. 
-Done - see [ssw.com.au](http://www.ssw.com.au/)
-
-2. Take a photo of you standing on your head. 
-Not Done - We don't have a camera 
-
-Bob
-
-:::
-
-
-::: good
-Figure: OK Example – It’s clear which tasks have been done, but we prefer not to reply inline  
-:::
-
-
-::: greybox
-Hi Bob,
-
-1. Change the logo on the SSW website to our new logo.
-2. Take a photo of you standing on your head.
-All Done 
-
-Damian
-
-:::
-
-
-::: good
-Figure: Good example – If multiple tasks are 'done' with no need for extra explanation, you can combine them. It’s clear that all tasks have been done
-
-:::
 
 ### Tip 4: Reply "Done" if you have a task that is &gt; 4 hours
 
