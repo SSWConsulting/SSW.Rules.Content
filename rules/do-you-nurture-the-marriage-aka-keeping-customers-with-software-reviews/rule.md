@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-You won the job with a great [1st Date (aka Spec Review)](/Pages/Ensure-an-excellent-1st-date.aspx), but no marriage can last without ongoing effort.
+You won the job with a great [1st Date (aka Spec Review)](/do-you-ensure-an-excellent-1st-date-aka-winning-customers-via-a-smaller-specification-review), but no marriage can last without ongoing effort.
 
 <!--endintro-->
 

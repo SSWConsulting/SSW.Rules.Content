@@ -26,10 +26,10 @@ All team members must update their tasks with  status, (and remaining hours if y
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
-* [Sprint Planning Meeting](/Pages/SprintPlanningMeeting.aspx "Sprint Planning Meeting")
+* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
 * Scrum Meeting (Daily standup - described on this page)
-* [Sprint Review Meeting](/Pages/SprintReviewMeeting.aspx "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/Pages/RetrospectiveMeeting.aspx "Sprint Retrospective Meeting")
+* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
 
 :::
 

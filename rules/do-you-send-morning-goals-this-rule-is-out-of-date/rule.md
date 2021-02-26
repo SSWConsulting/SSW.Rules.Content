@@ -15,7 +15,7 @@ redirects:
 ---
 
 <font color="#ff0000">*Note</font>: We no longer do this, we now do our daily stand-up meetings (Scrums) because it is more effective with interactions between team members.      
-(An alternative to morning goals is having        [daily stand up meetings](/Pages/DailyStandUpScrum.aspx) (scrums) which is more effective for interactions between team members and the client/manager. We now prefer scrums.)
+(An alternative to morning goals is having        [daily stand up meetings](/methodology-daily-scrums) (scrums) which is more effective for interactions between team members and the client/manager. We now prefer scrums.)
   ~~   
 Before a day starts it is not only important to have a list of what you plan on achieving that day but to communicate that list to your manager and/or client. This not only keeps you accountable but allows your superior to change your priorities if needed.
 

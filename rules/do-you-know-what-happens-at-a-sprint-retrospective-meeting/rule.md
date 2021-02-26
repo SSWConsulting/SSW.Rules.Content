@@ -31,7 +31,7 @@ The Retro is a time-boxed event that focuses around 3 questions:
 The Scrum Master facilitates the meeting and collects issues as they are raised. Once every Scrum Team Member has spoken he facilitates debate on each issue so that team consensus is achieved.  The result should produce an actionable outcome, for example:
 
 * An adjustment is made to the daily processes followed by the Scrum Team
-* An adjustment is made to the [Definition of Done](/Pages/RetrospectiveMeeting.aspx)
+* An adjustment is made to the [Definition of Done](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 * An adjustment is made at the organisation level
 * An item is added to the Product Backlog
 
@@ -65,9 +65,9 @@ Once all issues have been discussed to the satisfaction of The Scrum Team, the m
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
-* [Sprint Planning Meeting](/Pages/SprintPlanningMeeting.aspx "Sprint Planning Meeting")
-* [Scrum Meeting (Daily standup)](/Pages/DailyScrumUpdateTasks.aspx "Update tasks before Daily Scrum Meeting")
-* [Sprint Review Meeting](/Pages/SprintReviewMeeting.aspx "Sprint Review Meeting")
+* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
+* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Update tasks before Daily Scrum Meeting")
+* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
 * Sprint Retrospective Meeting (Described on this page)
 
 

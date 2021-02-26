@@ -54,4 +54,4 @@ It is assumed knowledge that you know all 5 SOLID principles. If you don't, read
 
 After you have identified and corrected the most obvious broad principle violations, you can start drilling into the code and looking for localized code breaches. [ReSharper](http&#58;//www.jetbrains.com/resharper/) from JetBrains or [JustCode](http&#58;//www.telerik.com/products/justcode.aspx) from Telerik are invaluable tools once you get to this level.
 
-Once you understand common design principles, look at [common design patterns](/Pages/DoYouKnowCommonDesignPatterns.aspx) to help you follow them in your projects.
+Once you understand common design principles, look at [common design patterns](/do-you-know-the-common-design-patterns-part-1) to help you follow them in your projects.

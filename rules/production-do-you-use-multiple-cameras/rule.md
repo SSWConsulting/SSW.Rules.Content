@@ -17,7 +17,7 @@ redirects: []
 
 To create more visually pleasing videos consider using a multi camera setup.
 
-The benefit is that you can use the second camera to 'cut away' to (see Rule: [http://rules.ssw.com.au/DesignandPresentation/RulesToBetterVideoRecording/Pages/Do-you-use-cutaways.aspx](/Pages/Do-you-use-cutaways.aspx)) in the edit.
+The benefit is that you can use the second camera to 'cut away' to (see Rule: [https://www.ssw.com.au/rules/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head](/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head)) in the edit.
 
 <!--endintro-->
 

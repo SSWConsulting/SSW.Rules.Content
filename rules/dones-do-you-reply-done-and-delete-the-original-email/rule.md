@@ -260,7 +260,7 @@ Done - 8 out of 9 tasks.
 
 ### Tip 5: Don't consolidate emails
 
-If you get multiple emails or tasks, don't consolidate. It is still best to reply to each email individually as you go, rather than compile the information into one email. This way the person requesting the work hasn't [lost the email history](/Pages/KeepEmailHistory.aspx) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
+If you get multiple emails or tasks, don't consolidate. It is still best to reply to each email individually as you go, rather than compile the information into one email. This way the person requesting the work hasn't [lost the email history](/do-you-keep-the-history-of-an-email) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
 
 ### Tip 6: Now Delete your email - Aim for 0 inbox
 

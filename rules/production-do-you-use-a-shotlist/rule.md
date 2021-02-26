@@ -21,4 +21,4 @@ The shot list provides the editor with a breakdown of where the interesting part
  ![](shot list.jpg)
 Figure: Example shot list. The camera operator will mark down the time code (visible on the cameras' LCD screen) and note what words were said and what interesting caption or cutaway should be added. 
 
-After the interview, review the shot list so that you can see what cutaways are needed, and try to obtain them (See Rule: [Do you use cutaways?](/Pages/Do-you-use-cutaways.aspx))
+After the interview, review the shot list so that you can see what cutaways are needed, and try to obtain them (See Rule: [Do you use cutaways?](/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head))

@@ -12,7 +12,7 @@ redirects:
 
 ---
 
-Running the "Dog Food" stats on your new TFS 2010 server is a good way to see if the upgrade was successful. You should check the new values against the [stats you noted down from your TFS 2008 server](/Pages/DogfoodStatsBefore.aspx).
+Running the "Dog Food" stats on your new TFS 2010 server is a good way to see if the upgrade was successful. You should check the new values against the [stats you noted down from your TFS 2008 server](/do-you-run-your-dog-food-stats-before1).
 
 1. On TFS2010, run the DogFoodStats queries and save the results
 ([http://blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx](http&#58;//blogs.msdn.com/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx))

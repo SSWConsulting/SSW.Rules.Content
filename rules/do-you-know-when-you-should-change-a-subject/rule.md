@@ -32,6 +32,6 @@ So when do you change it?
        **"IBM WAS: Invoice"**
 
 
-Remember, never forget the     [importance of a good email subject](/Pages/ImportanceOfAGoodSubject.aspx "Realize the Importance of a Good Email Subject") in improving communications.
+Remember, never forget the     [importance of a good email subject](/do-you-realize-the-importance-of-a-good-email-subject "Realize the Importance of a Good Email Subject") in improving communications.
 
 ![Figure: Keep your email subject description up-to-date. Sarah Palin isn’t even a governor anymore](SarahPalin.jpg)

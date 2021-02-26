@@ -35,4 +35,4 @@ Otherwise, if it is still required, select Answer and complete the fields as sho
 
 Once you have completed all required fields and pressed the Answer button, the task will be saved and put back on the Assignee's "New" queue.
 
-You can see how this is part of the [workflow](/Pages/workflow.aspx).
+You can see how this is part of the [workflow](/do-you-really-know-what-a-jira-workflow-is).

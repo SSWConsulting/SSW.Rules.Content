@@ -11,6 +11,6 @@ redirects: []
 
 ---
 
-In a similar fashion to the [Do you remind yourself to do a demo?](/Pages/DemoSlide.aspx) rule, you can also add a visual cue for any audience participation you would like, such as questions or voting.  
+In a similar fashion to the [Do you remind yourself to do a demo?](/do-you-know-the-right-way-to-do-a-demo-slide) rule, you can also add a visual cue for any audience participation you would like, such as questions or voting.  
 <!--endintro-->
 ![](SSWQuestionMark.gif)**Figure: Use an "?" image to tell the presenter to ask a question (if you don't have an image - just use the "?" text)**

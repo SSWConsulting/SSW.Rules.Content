@@ -163,4 +163,4 @@ If you do find a very large PBI, consider using a Spike (aka. an investigation t
 ### Related rule
 
 
-* [Do you estimate “Business Value”?](/Pages/Estimate-Business-Value.aspx)
+* [Do you estimate “Business Value”?](/do-you-estimate-business-value)

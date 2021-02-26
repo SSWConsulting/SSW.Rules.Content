@@ -16,7 +16,7 @@ There is often a bit of confusion about what constitutes a brief proposal and wh
 
 
 
-[Brief proposal](/Pages/BriefProposalOrSpecificationReview.aspx) - free:
+[Brief proposal](/do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review) - free:
 
 * Information about your company
 * A basic overview of what you'll do for them

@@ -32,4 +32,4 @@ Mock-ups are very powerful tools to communicate requirements with clients, howev
 Figure: Expression + SketchFlow  
 :::
 
-Read [Do you conduct specification analysis by creating mock-ups?](/Pages/SpecificationByMockUp.aspx) to learn more about other mock-up types.
+Read [Do you conduct specification analysis by creating mock-ups?](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups) to learn more about other mock-up types.

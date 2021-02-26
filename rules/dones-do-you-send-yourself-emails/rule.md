@@ -19,7 +19,7 @@ redirects: []
 
 When a colleague or a client asks you to do a task verbally, or you have discovered there’s a task you need to do but don’t have time to do it immediately, what method do you have for remembering to do it?
 
-The best solution is to send yourself an email CC'ing the person who asked you, including "[As per our conversation](/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a record of the requests for work.
+The best solution is to send yourself an email CC'ing the person who asked you, including "[As per our conversation](/do-you-send-as-per-our-conversation-emails)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a record of the requests for work.
 
 <!--endintro-->
 

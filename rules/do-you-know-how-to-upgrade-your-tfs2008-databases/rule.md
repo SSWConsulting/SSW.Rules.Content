@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Since [we recommend doing a "move based upgrade"](/Pages/MigrationChoices.aspx), we don’t like the "in place upgrade" option, these are the steps:
+Since [we recommend doing a "move based upgrade"](/do-you-know-your-migration-choices1), we don’t like the "in place upgrade" option, these are the steps:
 
 1. Copy the TFS2008 backups to TFS2010 server (e.g. C:\TfsBackups)
 2. Restore all the databases to TFS2010’s instance of SQL 2008
