@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/martin-hinshelwood
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: [https://www.ssw.com.au/rules/do-you-include-the-name-of-the-person-you-address-on-the-first-line/]
+related: 
+- do-you-include-the-name-of-the-person-you-address-on-the-first-line
 redirects: []
 
 ---
