@@ -25,15 +25,16 @@ Insist on receiving these 3 reports in every Review Meeting:
 * Burndown (ETA)
 * Story Overview (testing quality)
 
-
 Let's look at those 3 reports:
 
-# 1. Current project costs
+### 1. Current project costs
 
 This allows you to see the actual costs of the project on a weekly basis.
-![project progress report](../../assets/projectprogresscapture.JPG)**Figure 1: Project Progress – There is $30k spent and $8K outstanding** 
-# 2. Current hours remaining and hours completed for the current sprint
-![Burndown report from TFS](../../assets/burndown.JPG)**Figure 2: Burndown report - Shows the progress of the team in the current sprint – ETA is March 29 and Ana has no work to do** 
+![Figure 1: Project Progress – There is $30k spent and $8K outstanding](../../assets/projectprogresscapture.JPG)
+
+### 2. Current hours remaining and hours completed for the current sprint
+![Figure 2: Burndown report - Shows the progress of the team in the current sprint – ETA is March 29 and Ana has no work to do](../../assets/burndown.JPG)
+
 **Questions that the Burndown and Burn Rate report help answer:**
 
 1. Is the team likely to finish the iteration on time?
@@ -41,11 +42,11 @@ This allows you to see the actual costs of the project on a weekly basis.
 3. Has the team added work to the iteration?
 4. How much work does each team member have?
 
+See how to use the [Burndown and Burn Rate Report](https://docs.microsoft.com/en-us/previous-versions/dd380678(v=vs.100)?redirectedfrom=MSDN).
 
-[How to Use the Burndown and Burn Rate Report](http://msdn.microsoft.com/en-us/library/dd380678%28VS.100%29.aspx) 
+### 3. Story Overview - See how each task is tracking
+![Figure 3: Stories Overview report - Shows the progress of the User Stories in the current sprint and nothing has been tested and no active bugs](../../assets/storiesOverview.JPG) 
 
-# Story Overview - See how each task is tracking
-![Stories overview report from TFS](../../assets/storiesOverview.JPG)**Figure 3: Stories Overview report - Shows the progress of the User Stories in the current sprint and nothing has been tested and no active bugs** 
 **Questions that the Stories Overview report help answer:**
 
 1. How much work does each story require?
@@ -53,5 +54,4 @@ This allows you to see the actual costs of the project on a weekly basis.
 3. Are the tests for each story passing?
 4. How many active bugs does each story have?
 
-
-[How to Use the Stories Overview Report](http://msdn.microsoft.com/en-us/library/dd380648%28VS.100%29.aspx)
+See how to use the [Stories Overview Report](https://docs.microsoft.com/en-us/previous-versions/dd380648(v=vs.100)?redirectedfrom=MSDN).
