@@ -14,12 +14,11 @@ redirects:
 
 ---
 
-It is important that the network administrator can easily find out how reliable his servers are. This can be achieved using tools like What's Up Gold (https://www.whatsupgold.com) to monitor the uptime and SQL Reporting Services to create a report showing server uptime.
+It is important that the network administrator can easily find out how reliable his servers are. This can be achieved using tools like [What's Up Gold] (https://www.whatsupgold.com) to monitor the uptime and SQL Reporting Services to create a report showing server uptime.
 
 Here is a report that we use to monitor our servers on a daily basis:
 
 <!--endintro-->
-
 
 ::: good  
 ![Figure: Good example - We can easily see the uptime of all our servers](WuGReport.png)  
