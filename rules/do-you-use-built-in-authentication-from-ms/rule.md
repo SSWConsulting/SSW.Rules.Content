@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: This rule has been replaced by [Do you choose the best method of authentication for your situation?](https://www.ssw.com.au/rules/choose-the-best-method-of-authentication-for-your-situation)
 title: '[DEPRECATED] Do you use built in authentication from MS?'
 guid: ddcc3cb1-7b5b-402b-ad6d-425efe194a18
 uri: do-you-use-built-in-authentication-from-ms
@@ -14,20 +14,15 @@ redirects:
 
 ---
 
-::: greybox
-This rule has been replaced by  [Do you choose the best method of authentication for your situation?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=afa18fb5-a263-4538-a54e-02c8bd78ad67)
-:::
-
-<!--endintro-->
-
 Assuming you want:
 
 * Full blown user management
 * Nice Controls eg. Login, Change Password
 * To be able to implement authentication without a Security Consultant to check
 
-
 The options are:
+
+<!--endintro-->
 
 ### Option 1: ASP.Net Membership provider (original)
 
@@ -98,12 +93,10 @@ This OSS account management library manages these sorts of things for you:
 * Account lockout for password guessing
 * Account confirmation via email, etc
 
-
 Bonus:
 
 * It is multi-tenant
 * It is claims aware (some complicated security thing from Microsoft that will revolutionize security)
-
 
 The design is different than ASP.NET Membership in that the security goo is packaged separately from the persistence (the database). You’d not normally need to change the security stuff (though it is extensible).
 
