@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/igor-goldobin
 - title: Stanley Sidik
   url: https://ssw.com.au/people/stanley-sidik
-related: []
+related: 
+- do-you-turn-off-auto-update-on-your-servers
+- do-you-use-group-policy-to-manage-your-windows-update-policy
 redirects:
 - do-you-enable-automatic-windows-update-installations
 
@@ -22,30 +24,24 @@ Microsoft Update is a service that allows for the periodic patching of system fi
 
 It is important to keep your machine up-to-date, but Windows Update Automatic installation can be somewhat intrusive to your workflow. There is nothing worse than getting Windows Updates installing during an important presentation. You should set Windows Updates to be installed manually.
 
-**Note:** This is only for client machines, Windows Update for Servers should be handled differently see: [Do you use Group Policy to manage your Windows Update Policy?](/do-you-use-group-policy-to-manage-your-windows-update-policy)
+::: info
+**Note:** This is only for client machines, Windows Update for Servers should be handled differently. See [Do you use Group Policy to manage your Windows Update Policy?](/do-you-use-group-policy-to-manage-your-windows-update-policy) for more information.
+:::
 
-Go to      **Start** **| Windows Update Settings | Advanced Options** and set  **Restart this device as soon as possible...** to  **Off** and  **Update Notifications** to  **On.**
-
+1. Go to **Start** **| Windows Update Settings | Advanced Options** 
+2. Set **Restart this device as soon as possible...** to **Off** 
+3. Set **Update Notifications** to **On.**
 
 ::: bad  
 ![Figure: Bad example – Install updates automatically](WindowsUpdateBadExample.jpg)  
 :::
 
-
 ::: good  
 ![Figure: Good example – Download updates but let user choose whether to install them](Windows Update Good Example.jpg)  
 :::
 
-If you have a system administrator who manages your organization’s infrastructure, it is recommended to get you system administrator to push this setting via group policy.
-
+If you have a system administrator who manages your organization’s infrastructure, it's recommended to get you system administrator to push this setting via group policy.
 
 ::: good  
 ![Figure: Better example – Windows Updates setting is pushed to \*ALL\* users via group policy](win-update-3.jpg)  
 :::
-
-###  Related Rules
-
-
-* 
-* [Do you turn off auto-update on your servers?](/do-you-turn-off-auto-update-on-your-servers) [for Servers]
-* [Do you use Group Policy to manage your Windows Update Policy?](/do-you-use-group-policy-to-manage-your-windows-update-policy) [for both Servers and PCs]
