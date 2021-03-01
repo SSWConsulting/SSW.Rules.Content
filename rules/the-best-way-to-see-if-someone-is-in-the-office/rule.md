@@ -10,22 +10,21 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Stephen Carter
   url: https://ssw.com.au/people/stephen-carter
-related: []
+related:
+- how-to-find-your-mac-address
 redirects:
 - do-you-know-the-best-way-to-see-when-someone-is-in-the-office
 - do-you-know-the-best-way-to-see-if-someone-is-in-the-office
 
 ---
 
-You should create an #in-and-out channel on Slack and use the employees' MAC Addresses to identify who entered and left the office.
+You should create an **#in-and-out** channel on Slack and use the employees' MAC Addresses to identify who entered and left the office.
 
 <!--endintro-->
-
 
 ::: bad  
 ![Figure: Bad Example – Scream out “Where is Marlon?”](shout.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example – Using in/out functionality with Slack and Ubiquity Access Point](Slack-in-out.jpg)  
@@ -33,12 +32,5 @@ You should create an #in-and-out channel on Slack and use the employees' MAC Add
 
 Although there is one bug with the solution:
 
-
 `youtube: https://www.youtube.com/embed/F5CPH03WPMU`
- 
-
 **Figure: Ubiquity Access Point Bug**
-
-### Related Rule
-
-[Do you know how to find your mac address?](/how-to-find-your-mac-address)
