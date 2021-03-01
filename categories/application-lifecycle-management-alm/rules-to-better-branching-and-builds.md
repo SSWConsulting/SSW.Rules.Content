@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Branching And Builds
+title: Rules to Better Branching and Builds
 guid: a6fc3dc2-af4d-4526-a729-d5ff20a6a78f
 uri: rules-to-better-branching-and-builds
 index:
