@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related: []
+related: 
+- do-you-know-who-to-put-in-the-to-field
 redirects: []
 
 ---
@@ -21,18 +22,30 @@ If you include more than one person in your email, include the name of the perso
 
 <!--endintro-->
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Jean, Anthony |
+| Cc:      | Adam |
+| Subject: | SSW CodeAuditor - Bug |  
+::: email-content  
 
+### Hi Jean,  
+Can you help with this one?
+
+### Hi Anthony,  
+I've tried to replicate the behaviour but was unsuccessful.
+1. Can you make sure Northwind is using the latest version?
+2. When finished, please repackage with the new registration
+
+:::  
+:::  
 ::: good  
-![Figure: Good Example - When addressing multiple people, include each addressee's name as a separate heading](IncludeNameFirstLine.jpg)  
+Figure: Good Example - When addressing multiple people, include each addressee's name as a separate heading
 :::
 
-**Tip:** Use big headings by typing Control+Alt+3.
+::: greybox
+**Tip:** You can add a heading in Outlook by typing Control+Alt+3.
+:::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI).
-
-### Related rule
-
-
-
-
-* [Do you know who to put in the "To:" field?](/do-you-know-who-to-put-in-the-to-field)
