@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you include the name of the person you address on the first line?
+title: Do you include the name of the person you address as a heading?
 guid: 89cb9309-1335-48f4-ba8d-95b3984569c6
 uri: do-you-include-the-name-of-the-person-you-address-on-the-first-line
 created: 2009-03-30T03:06:59.0000000Z
@@ -18,7 +18,7 @@ redirects: []
 
 ---
 
-If you include more than one person in your email, include the name of the person/s you are addressing on the first line. Generally don't put more than one name in the "To" box, so that people won't have to be unsure to whom the email is addressed. If you have to address multiple people in an email (including yourself - i.e. notes to self), include each person's name as a heading as shown below. This helps them quickly locate the part of the email that applies to them.
+If you have to address an email to multiple people (including [to yourself](https://rules.ssw.com.au/dones-do-you-send-yourself-emails)), include each person's name as a heading. This helps them quickly locate which part of the email that applies to them.
 
 <!--endintro-->
 
