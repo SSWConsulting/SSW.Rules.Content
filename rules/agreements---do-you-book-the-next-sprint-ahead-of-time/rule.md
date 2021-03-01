@@ -70,3 +70,14 @@ a854bdb8-1a3e-415e-b346-0a35466b6a93-7947936
 ::: good  
 Figure: Good Example - Nice email template  
 :::
+
+
+```javascript
+let iceCream = 'chocolate';
+if(iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');    
+} else {
+  alert('Awwww, but chocolate is my favorite...');    
+}
+```
+**Figure: Javascript code block**
