@@ -59,7 +59,7 @@ Figure: Good Example - Send yourself an email
 
 ### Tip: Include an estimate and priority too 
 
-When you write a "To myself" email, it is even better when you include an estimate and the priority, so the expectations are set better.
+When you write a "To myself" email, it's even better when you include an estimate and the priority, so the expectations are set better.
 
 With this estimate, the Product Owner can stop you if they think the amount of time doesn't provide good ROI.
 
