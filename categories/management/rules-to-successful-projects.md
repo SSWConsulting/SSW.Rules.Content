@@ -88,7 +88,7 @@ A successful project for a developer might mean something different compared to 
 
 Since our focus is on the client, a successful project for SSW means  **every** **client receives what they are expecting, on time, and for the estimated amount of money**.
 
-Project managers define this as  **On Time, On Scope, and On Budget** .
+Project managers define this as  **On Time, On Scope, and On Budget**.
 
 "A successful project is where everyone involved is happy with the final outcome."
 
