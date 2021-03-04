@@ -14,7 +14,6 @@ index:
 - optimize-android-builds-and-start-up-times
 - conduct-cross-platform-ui-tests
 - the-best-xamarin-resources
-- xamarin-the-stuff-to-install
 
 ---
 
