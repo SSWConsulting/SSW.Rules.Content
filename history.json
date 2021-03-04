@@ -24514,5 +24514,14 @@
 		"created": "2021-02-17T09:49:12+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
+	},
+	{
+		"file": "rules/rule/rule.md",
+		"created": "2021-03-04T00:42:45.430Z",
+		"createdBy": "Jack Leerson",
+		"createdByEmail": "77082983+JackLeerson@users.noreply.github.com",
+		"lastUpdated": "2021-03-04T00:42:45.430Z",
+		"lastUpdatedBy": "Jack Leerson",
+		"lastUpdatedByEmail": "77082983+JackLeerson@users.noreply.github.com"
 	}
 ]
