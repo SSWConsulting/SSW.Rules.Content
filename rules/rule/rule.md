@@ -172,7 +172,7 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 :::  
 
 ### Videos
-Check out this video - it's responsive!  
+Check out this video - it's responsive! 
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 
 ### Images
