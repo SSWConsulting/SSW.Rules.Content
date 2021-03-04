@@ -12,6 +12,8 @@ authors:
   url: https://ssw.com.au/people/sebastien-boissiere
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
+- title: Brady Stroud
+  url: https://github.com/bradystroud
 related:
 
 ---
