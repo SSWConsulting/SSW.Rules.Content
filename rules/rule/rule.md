@@ -16,6 +16,8 @@ related:
 
 ---
 
+jack-test 1
+
 This is an example rule to show you what is possible for a rule. 
 Below you will see everything you need to create an awesome page. 
 
