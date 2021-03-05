@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Spec - Do you keep your PBIs smaller than 2 days' effort?
 guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
-uri: spec-do-you-create-tasks-under-4-hours
+uri: create-PBIs-under-2-days
 created: 2009-09-15T09:20:55.0000000Z
 authors:
 - title: Adam Cogan
@@ -15,13 +15,13 @@ authors:
 related: []
 redirects:
 - spec-do-you-keep-your-pbis-smaller-than-2-days-effort
+- spec-do-you-create-tasks-under-4-hours
 
 ---
 
 Avoid monolithic Product Backlog Items (PBIs). Ideally, all PBIs should be less than 2 days. If you are given a feature that is going to take weeks, then split it following this rule. 
 
 <!--endintro-->
-
 
 ::: greybox
 Subject: Create an .NET 5 prototype with web services 
