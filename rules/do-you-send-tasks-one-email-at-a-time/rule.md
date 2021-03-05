@@ -28,7 +28,11 @@ Obviously, if you are requesting many small changes to the same page, use one em
 
 **Warning:** Don't group unrelated topics
 
-![GOOD - Exception to the rule.](relatedTasks.gif)Figure: Good Example - A few related tasks in one email
+::: good
+
+![Figure: Good Example - A few related tasks in one email](relatedTasks.gif)
+
+:::
 
 ### Breaking up monster tasks 
 
@@ -43,7 +47,19 @@ If you have a very large task that requires days of work, it is better to break 
 The advantages are that you get an email history on a specific part and it is easier to include someone else.
 
 **Tip:** Understand tasks sizes by reading: [Estimating - Do you know how to size user stories effectively?](/estimating-do-you-know-how-to-size-user-stories-effectively)
-![BAD - One email for separate tasks.](separateTasksOneEmail.gif) Figure: Bad Example - One email for multiple separate tasks ![GOOD - Separate emails for separate tasks.](separateTasksSeparateEmails.gif) Figure: Good Example - Separate emails for separate tasks 
+
+::: bad
+
+![Figure: Bad Example - One email for multiple separate tasks](separateTasksOneEmail.gif)
+
+:::
+
+::: good
+
+![Figure: Good Example - Separate emails for separate tasks ](separateTasksSeparateEmails.gif)
+
+:::
+
 TODO: Make grey boxes with clear separated emails - change from IIS to Git Repo + will become 3 emails
 ### Replying 'dones' 
 
