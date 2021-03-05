@@ -82,7 +82,7 @@ if(iceCream === 'chocolate') {
 ```
 **Figure: Javascript code block**
 
-```cs
+```csharp
 protected override void OnPreLoad(EventArgs e)
 {
      //Fix for pages that allow edit in grids
