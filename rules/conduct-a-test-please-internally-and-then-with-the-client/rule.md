@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Conduct a test please internally and then with the client?
+title: Do you conduct a "test please" internally and then with the client?
 guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 uri: conduct-a-test-please-internally-and-then-with-the-client
 created: 2009-03-02T02:46:56.0000000Z
@@ -11,7 +11,6 @@ authors:
 related:
 - do-you-send-as-per-our-conversation-emails
 - do-you-know-when-to-do-use-checked-by-xxx
-- do-you-conduct-a-test-please-internally-and-then-with-the-client
 - request-a-test-please
 redirects: []
 
@@ -34,8 +33,6 @@ There are a number of different types of tests that you can perform:
 * **Performance testing:**     Performance Testing is used to determine the responsiveness, the effectiveness of a system under a given workload. Qualitative attributes such as reliability, scalability and interoperability may also be evaluated. Performance testing is often done along with stress testing.
 * **Smoke testing:**     Smoke testing is done to ensure the system doesn't have any critical bugs that would make other types of testing unnecessary. This type of testing is generally performed on a new or fixed software. A Smoke test should cover essential parts of the application so it is said to be shallow and broad.
 
-
-
 ::: greybox
 
 **Does the "Test Please" principle apply to more than code?**
@@ -46,7 +43,6 @@ Yes! A "Test Please", aka peer review highlights unseen errors, proposes new ide
 * Anything else being sent to a client
 * Anything else being sent to an employee of a sensitive nature
 * Anything being sent for public consumption - such as newsletters, print documents and or advertisements.
-
 
 Always put "test please" in the email body so readers know they are expected to react quickly.
 
@@ -87,23 +83,25 @@ Please cc the client in all your "Test Please" emails including internal ones.
 9. Specify how you replicated the bug through clear instructions and screenshots.
 10. When finished reply to the 'test please' email with "Test Please Succeeded (as no Critical bugs)" or "Test please failed (as per critical bugs reported)". 
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Gary |
+| Subject: | RE: Test Please - \\Public Folders\All Public Folders\SSWeXtremeEmailsDatabase\SSWCodeAuditor\Release09 |  
+::: email-content  
 
-
-
-::: greybox
-
-**Subject:** RE: Test Please - \\Public Folders\All Public Folders\SSWeXtremeEmailsDatabase\SSWCodeAuditor\Release09
-
-Gary,
+### Hi Gary,
 
 **Test please failed**
 
-(as per        critical bugs reported in other emails)
+(as per critical bugs reported in other emails) 
 
+:::  
+:::  
+::: good  
+Figure: Good Example - Figure: This is how to reply failed to a "test please" email 
 :::
- **Figure: This is how to reply failed to a "test please" email** 
 
-`youtube: https://www.youtube.com/embed/whxbTtkH5GU`
- 
+`youtube: https://www.youtube.com/embed/whxbTtkH5GU` 
 
 **Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/do-you-know-when-to-do-use-checked-by-xxx)" style instead to save some time.
