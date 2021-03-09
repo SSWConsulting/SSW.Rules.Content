@@ -48,7 +48,7 @@ Tim
 ::: bad  
 Figure: Bad Example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other) 
 :::
-  
+
 ::: email-template  
 |          |     |
 | -------- | --- |
