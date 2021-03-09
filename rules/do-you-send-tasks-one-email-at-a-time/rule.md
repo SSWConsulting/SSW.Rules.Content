@@ -81,6 +81,7 @@ Figure: Bad Example - One email for multiple unrelated tasks (Domains and CSS)
 :::
 ::: good
 !Figure: Good Example - Separate emails for unrelated tasks. A few related tasks in the same email 
+
 :::
 
 ### Breaking up monster tasks 
@@ -95,9 +96,25 @@ The advantages are that you get an email history for specific parts, making it e
 
 ::: greybox
 **Tip:** Understand tasks sizes by reading: [Estimating - Do you know how to size user stories effectively?](/estimating-do-you-know-how-to-size-user-stories-effectively)
+
 :::
 
-### Replying 'Dones'
+
+::: bad
+
+![Figure: Bad Example - One email for multiple separate tasks](separateTasksOneEmail.gif)
+
+:::
+
+::: good
+
+![Figure: Good Example - Separate emails for separate tasks ](separateTasksSeparateEmails.gif)
+
+:::
+
+TODO: Make grey boxes with clear separated emails - change from IIS to Git Repo + will become 3 emails
+### Replying 'dones' 
+
 
 When replying to emails, always reply to each email individually. Don't consolidate them all into one as it leaves unfinished email threads.
 

@@ -77,7 +77,7 @@ GO
 ```
 
 
-     Figure: Change data type (Hard) e.g. Bit to Integer. The above is abbreviated, see [the full .SQL file](/Documents/EmployeesBitToInt.sql)
+     Figure: Change data type (Hard) e.g. Bit to Integer. The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesBitToInt.sql)
 
 
 ```
@@ -110,5 +110,5 @@ GO
 ```
 
 
-     Figure: Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires ["Data Motion Scripts"](/Pages/DoYouUnderstandADataTypeChangeDataMotionScripts.aspx). The above is abbreviated, see [the full .SQL file](/Documents/EmployeesCharToInt.sql)     
+     Figure: Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires ["Data Motion Scripts"](/do-you-understand-a-data-type-change-data-motion-scripts). The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesCharToInt.sql)     
  And the point of know this. Well no tool out there, not Redgate's SQL Compare, not Microsoft's Data Dude, nor SSW's SQL Deploy will do this automagically for you. So you better understand that this stuff is delicate.

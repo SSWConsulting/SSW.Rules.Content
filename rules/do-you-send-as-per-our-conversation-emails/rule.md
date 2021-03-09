@@ -81,7 +81,7 @@ Figure: Good Example - for when you can't reach the person by phone 
 
 
 **Note:** This is most likely to happen after a conversation started      **by the client** .
-If      **you** are the one making the first contact, also follow:     [Do you prepare, then confirm conversations/decisions?](/Pages/PrepareAndConfirm.aspx)
+If      **you** are the one making the first contact, also follow:     [Do you prepare, then confirm conversations/decisions?](/do-you-prepare-then-confirm-conversations-decisions)
 
 **Note: ** For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
 

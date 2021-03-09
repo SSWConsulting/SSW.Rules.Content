@@ -23,20 +23,29 @@ We've all received a cryptic email at some point. Don't just reply saying "I don
 Having clarified the issue by phone, reply but update the original email with the new details arising from the conversation (Remember to start with an "As per our conversation" line).
 However, sometimes you cannot immediately reach the task owner. In this case, you need to keep trying to contact the person for 24 hours. If you are still not able to contact the person, you need to reply to the email and put the following in red in the first line: 
 
-
-::: greybox
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:    | Mark |
+| To:      | John, Mark |
+| Subject: | Northwind App - Changes to UI |  
+::: email-content  
 
 **Hi John,**
-
-(As per our conversation, I needed a bit more information to complete this task - next time, it would be great if you could include additional information like the below so I could complete it without bothering you)
+(As per our conversation, I needed a bit more information to complete this task. Next time, it would be great if you could include additional information like the below so I could complete it without bothering you)
 
 FYI - This task has been put onto the backlog [add link] and should be looked at in the next sprint.
 
+Mark
+
 **To Myself,**
 
-[Fill in the information you just got from the conversation]
-:::
+[Fill in the information you just got from the conversation] 
 
+...
+
+:::  
+:::  
 ::: good
 Figure: Good Example - Send this email and now move on to other tasks and leave this task to next release
 :::

@@ -31,7 +31,7 @@ What can be delivered in the Increment resulting from the upcoming Sprint?
 
 The Product Backlog is examined and the Product Owner makes changes so that it is prioritised with Bugs prioritised amongst Product Backlog Items (PBIs).
 
-The Product Owner is then asked to group the top ranking Bugs into PBIs for inclusion in the Sprint; see this [rule](/Pages/BugsontheProductBacklog.aspx).
+The Product Owner is then asked to group the top ranking Bugs into PBIs for inclusion in the Sprint; see this [rule](/bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog).
 
 The Team are then advised of their resourcing for the Sprint as there may be additions, subtractions, leave or public holidays which are different to the previous sprint. Considering their previous record and their current resources, The Team decide on the number of story points that they will deliver in the forthcoming Sprint. When The Team are not currently co-located this is often done by voting, and discussed until consensus is reached.
 
@@ -62,7 +62,7 @@ To answer the second question the team create tasks, with sub-tasks where necess
 
  It is not essential for the Product Owner or the Scrum Master to be present for the whole meeting but they must be available for consultation. The Scrum Master should formally close the meeting. 
 
-Once this meeting is finished, the Scrum Master should email the Product Owner with a [forecast](/Pages/Do-you-create-a-Sprint-Forecast-email.aspx).
+Once this meeting is finished, the Scrum Master should email the Product Owner with a [forecast](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint).
 
 
 
@@ -70,9 +70,9 @@ Once this meeting is finished, the Scrum Master should email the Product Owner w
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 * Sprint Planning Meeting (Described on this page)
-* [Scrum Meeting (Daily standup)](/Pages/DailyScrumUpdateTasks.aspx "Update tasks before Daily Scrum Meeting")
-* [Sprint Review Meeting](/Pages/SprintReviewMeeting.aspx "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/Pages/RetrospectiveMeeting.aspx "Retrospective Meeting")
+* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Update tasks before Daily Scrum Meeting")
+* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Retrospective Meeting")
 
 
 :::

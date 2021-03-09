@@ -17,7 +17,7 @@ redirects: []
 
 ---
 
-[![Onion Architecture](Onion-Architecture.jpg)](/Documents/Onion-Architecture.pdf)Figure: The layers of the onion architecture 
+[![Onion Architecture](Onion-Architecture.jpg)](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-know-the-layers-of-the-onion-architecture/Onion-Architecture.pdf)Figure: The layers of the onion architecture 
 <!--endintro-->
 
 ### Application Core (the grey stuff)
@@ -77,4 +77,4 @@ To help make this process pain free, we've developed the [SSW Data Onion](http:/
 
 
 
-**Further Reading:** [Do You Use a Dependency Injection Centric Architecture?](/Pages/Use-a-Dependency-Injection-Centric-Architecture.aspx)
+**Further Reading:** [Do You Use a Dependency Injection Centric Architecture?](/do-you-use-a-dependency-injection-centric-architecture)

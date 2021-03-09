@@ -122,4 +122,4 @@ GO
 ```
 
 
-     Figure: This data must be deployed, just like we deploy schema   Now you need to add a procValidate, see [Do you check your "Controlled Lookup Data" (aka Reference Data) is still there with procValidate?](/Pages/DoYouCheckYourLookupDataAkaReferenceDataIsStillThereWithProcValidate.aspx)
+     Figure: This data must be deployed, just like we deploy schema   Now you need to add a procValidate, see [Do you check your "Controlled Lookup Data" (aka Reference Data) is still there with procValidate?](/do-you-check-your-controlled-lookup-data-aka-reference-data-is-still-there-with-procvalidate)

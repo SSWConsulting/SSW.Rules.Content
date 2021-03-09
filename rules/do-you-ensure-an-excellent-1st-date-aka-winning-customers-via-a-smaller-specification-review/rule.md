@@ -19,7 +19,7 @@ redirects:
 
 So you had a good initial meeting (like a 1st coffee with a new girl), and you have agreed to have a Specification Review (aka first date).
 
-For the majority of new clients, a [Specification Review](/spec-do-you-conduct-a-specification-review-%28ask-for-a-coffee-not-a-marriage%29) (also known as a Spec Review) will be your 1st paid engagement with them, and gives the client a [smaller first commitment](/Pages/Aim-for-an-advancement-rather-than-a-continuance.aspx). This is to work out the requirements and put together a broad time and cost estimate.
+For the majority of new clients, a [Specification Review](/spec-do-you-conduct-a-specification-review-%28ask-for-a-coffee-not-a-marriage%29) (also known as a Spec Review) will be your 1st paid engagement with them, and gives the client a [smaller first commitment](/do-you-aim-for-an-advancement-rather-than-a-continuance). This is to work out the requirements and put together a broad time and cost estimate.
 
 It is a simple 4 step process:
 

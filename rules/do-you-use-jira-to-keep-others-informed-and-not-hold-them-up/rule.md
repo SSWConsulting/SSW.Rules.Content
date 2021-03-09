@@ -31,13 +31,18 @@ Summary:  Login  to Jira and clear the issues from the top left of your dashboar
 | My Reported Issues to Close | Resolved | Close or Re-open | Reporter | Closed or New |
 
 
- NOTE: Most people will only have Reporter actions to perform. [Understand more about Reporters and Assignees](/Pages/ReportesAndAssignees.aspx) 
+ NOTE: Most people will only have Reporter actions to perform. [Understand more about Reporters and Assignees](/do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities) 
 
-![](Urgent.png)**Figure: Your dashboard is your Home Page when you** **[login like this](/Pages/HowdoIsignintoJira.aspx)** **and clearly shows the issues that need your immediate attention 
-** 
+![Figure: Your dashboard is your Home Page when you [login like this](/do-you-know-how-to-login-to-jira) and clearly shows the issues that need your immediate attention](Urgent.png) 
+
  For guidance on dealing with issues check out our other rules:
 
-[Answering](/Pages/HowdoIansweraquestioninJira.aspx)[SSW Dashboard](/Pages/SystemDashboard.aspx)
-[Reporters and Assignees](/Pages/ReportesAndAssignees.aspx)
-[SSW Workflow](/Pages/workflow.aspx)
-[Jira Rules Page](/Management/RulesToBetterJira)
+[Answering](/do-you-know-how-to-answer-a-question-in-jira)
+
+[SSW Dashboard](/do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira)
+
+[Reporters and Assignees](/do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities)
+
+[SSW Workflow](/do-you-really-know-what-a-jira-workflow-is)
+
+[Jira Rules Page](/rules-to-better-jira)

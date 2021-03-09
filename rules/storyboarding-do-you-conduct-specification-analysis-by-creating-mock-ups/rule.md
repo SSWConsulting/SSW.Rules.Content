@@ -141,7 +141,7 @@ Here are some more hot tips on mock-ups:
 
 * Avoid the thought of a "throw-away" prototype. An example of a throwaway prototype is when you design screens in Access, but the application will be HTML. So design the screens you and the customer are happy with the technology you will be using, and then use them in the app.
 * It is best to have a designer and developer and customer working together.
-* Get the mock-ups [physically initialed](/Pages/AskClientsToInitialYourWork.aspx), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case.
+* Get the mock-ups [physically initialed](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case.
 * If you can't get mock-ups initialed, then page by page approval over email is the 2nd best option.
 * A tip I picked up from Tom Howe was to always add a client's branding into the mockup - it makes a big impression
 * Mock-ups should follow [standard interface rules](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterInterfaces.aspx)

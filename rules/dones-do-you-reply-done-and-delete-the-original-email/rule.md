@@ -19,116 +19,182 @@ redirects: []
 
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
-Read "[Definition of Done](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=6449ae79-ba88-447e-aa48-36173029a2af "Done Criteria")" for more information about the steps that need to be finished before replying to a done email.
-
+Read "[Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
 <!--endintro-->
 
-* If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>".
-* If you don't agree with the task or are unable to complete the task, reply "<mark>Not done - the reason is XXX</mark>".
-* If there are multiple tasks that are Done and Not Done then, reply with "<mark>Partially done - the reason is XXX</mark>" at the top of the email.
+::: greybox
+**Only say "Done" when the work is completed.**
 
+- If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task.
 
-**Note 1** : Only say done when the work is done. If you have added the email to your backlog or to-do list then instead of "Done", say "Added to backlog – URL is XXX".
-
-**Note 2:** For tasks that will take time to be completely done (E.g. Producing a video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task.
-
-![Figure: Not Done Email](NotDone.jpg)  
-
-### Tip 1: Say "Done" first
-
-
-For clarity, "Done", "Not done", or "Partially Done" should be the first word(s) so the reader knows the status straight away.
-
-### Tip 2: Provide Detail in your "Done"
-
-In any reply, include relevant information, such as the URL and the code or text that has been updated, which allows the person requesting the work to check what was done and allows for offline reading.
-
-[Use SnagIt with Balloons in screenshots](/Pages/HowToUseBalloons.aspx).
-
-
-::: bad  
-![Figure: Bad Example of a "Done" email.](email\_done\_bad.JPG)  
+- For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task.
 :::
 
+### When no work is needed
 
+* If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
+* If you don't agree with the task or are unable to complete the task, reply "<mark>Not done - the reason is XXX</mark>"
+* If there are multiple tasks that are Done and Not Done then, reply with "<mark>Partially done - the reason is XXX</mark>"
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Jason |
+| Subject: | RE: Northwind - Include one more field to the form |  
+::: email-content  
+
+### Hi Jason,  
+Not done - checked with Northwind and they're happy with the form as it is.
+
+:::  
+:::  
 ::: good  
-![Figure: Good Example of a "Done" email as it has both the link and the changed text.](email\_done\_good.JPG)  
+Figure: Good Example - "Not Done" email
 :::
 
-If you find that you have already sent a "Done", and then the client asks you to undo the change, reply "Undone".
+### Tips for your "Done" emails
+
+#### Tip 1: Say "Done" first
+
+For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should be the first word(s) so the reader knows the status straight away.
+
+### Tip 2: Provide details in your "Done"
+
+In any reply, include relevant information, such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
+
+::: greybox
+Extra tip: Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](https://rules.ssw.com.au/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Jason |
+| Subject: | RE: Northwind - Include one more field to the form |  
+::: email-content  
+
+### Hi Jason,  
+Done on the contact page
+
+:::  
+:::  
+::: bad  
+Figure: Bad Example - "Done" email lacks of details
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Jason |
+| Subject: | RE: Northwind - Include one more field to the form |  
+::: email-content  
+
+### Hi Jason,  
+Done - added "State" field to the contact form - northwind.com/contact 
+
+  ::: good  
+  ![Figure: New "State" field added](good-done-example-form.png)  
+  :::
+
+:::  
+:::  
+::: good  
+Figure: Good Example - "Done" email has a link and a screenshot
+:::
 
 ### Tip 3: Reply "Done" to multiple tasks
 
-It is important that you reply correctly to emails with multiple tasks.
+It is important that you clearly reply to each of the multiple tasks.
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Jason |
+| Subject: | Northwind website - Update logo + add a photo |  
+::: email-content  
 
+### Hi Jason,  
+As per our conversation,
 
-
-::: greybox
-Hi Damian,
-
-As per our conversation:
-
-1. Change the logo on the SSW website to our new logo
-2.Take a photo of you standing on your head
+1. Update the logo on Northwind website the new logo
+2. Take a photo of the office façade and add to the "About Us" page
 
 Bob
 
-:::
+:::  
+:::  
+**Figure: Original Email** 
 
 
- **Figure: Original Email** 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+| Subject: | RE: Northwind website - Update logo + add a photo |  
+::: email-content  
 
-::: greybox
+### Hi Bob,  
 Hi Bob,
 
-I couldn’t find a camera so I haven’t done it all.
+I couldn’t find a camera so I haven’t taken the photo
 
-Damian
-
+Jason
+:::  
 :::
-
-
 ::: bad
 Figure: Bad Example – It’s not clear which tasks have been done and which haven’t  
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+| Subject: | RE: Northwind website - Update logo + add a photo |  
+::: email-content  
 
-::: greybox
+### Hi Bob,  
 Hi Bob,
 
-   &gt;Change the logo on the SSW website to our new logo
-Done. See [ssw.com.au](http://www.ssw.com.au/)
+1. Done - See northwind.com 
+2. Not Done - I couldn’t find a camera.
 
-   &gt;Take a photo of you standing on your head
-Not Done. I couldn’t find a camera.
+Jason
 
-Damian
-
+:::  
+:::
+::: ok
+Figure: OK Example – It’s clear which tasks have been done and which haven’t, but you have to scroll to the original email to know what the tasks were 
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+| Subject: | RE: Northwind website - Update logo + add a photo |  
+::: email-content  
 
+### Hi Bob,  
+Hi Bob,
+
+   &gt;1. Update the logo on Northwind website the new logo
+Done - See northwind.com 
+
+   &gt;2. Take a photo of the office façade and add to the "About Us" page
+Not Done - I couldn’t find a camera.
+
+Jason
+
+:::  
+:::
 ::: good
 Figure: Good Example – It is very clear which tasks have been done and which haven’t  
 :::
 
-
-::: greybox
-Hi Bob,
-
-1. Done (see [ssw.com.au](http://www.ssw.com.au/))
-2. Not Done - We don't have a camera
-
-Damian
-
+----
+::: todo
+Tiago: Improved Markdown and examples until here! Below still to be fixed
 :::
-
-
-::: good
-Figure: OK Example – It’s clear which tasks have been done and which haven’t, but you have to scroll to see what the tasks were  
-:::
-
 
 ::: greybox
 Hi Bob,
@@ -194,7 +260,7 @@ Done - 8 out of 9 tasks.
 
 ### Tip 5: Don't consolidate emails
 
-If you get multiple emails or tasks, don't consolidate. It is still best to reply to each email individually as you go, rather than compile the information into one email. This way the person requesting the work hasn't [lost the email history](/Pages/KeepEmailHistory.aspx) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
+If you get multiple emails or tasks, don't consolidate. It is still best to reply to each email individually as you go, rather than compile the information into one email. This way the person requesting the work hasn't [lost the email history](/do-you-keep-the-history-of-an-email) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
 
 ### Tip 6: Now Delete your email - Aim for 0 inbox
 
@@ -269,5 +335,8 @@ Record a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
 
 ### Tip 13: Remember to thank people - don't be too brief and icy
 
-
 When replying 'Done' for a bug or issue someone reported, remember to thank the person for taking the time to send it. A short "Thank you for reporting this" helps to make your 'Done' warmer.
+
+### Tip 14: Undoing tasks
+
+If you find that you have already sent a "Done", and then the client asks you to undo the change, reply "Undone".

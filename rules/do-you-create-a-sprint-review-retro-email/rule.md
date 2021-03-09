@@ -23,7 +23,7 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 
 * Subject: &lt;Client Name&gt; Sprint XX Review/Retro
 * This is a reply to the 
-      [Sprint Forecast email](/Pages/Do-you-create-a-Sprint-Forecast-email.aspx)
+      [Sprint Forecast email](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)
 * Screenshot of Burndown from Azure DevOps
 * Breakdown of work completed (including current code coverage value)
 * Link to test environment

@@ -27,7 +27,7 @@ Let's look at bad and good examples:
 <!--endintro-->
 ![Baloon Bad Example](BalloonBadExample.jpg)Figure: Bad Example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image
 ![Check the shadow properties](BalloonGoodExample.jpg)Figure: Good Example – The balloon with text on the screenshot, makes it quicker to understand
-See more details on     [how to configure balloons branding in Fullshot and Snagit](/Pages/HowToConfigureBalloonBranding.aspx).
+See more details on     [how to configure balloons branding in Fullshot and Snagit](/add-branding-to-screenshots).
 
 Now be aware not to go crazy with this balloon rule.
 ![Balloon Bad Example](balloon-overload.jpg)Figure: Bad Example – Balloon overload

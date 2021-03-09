@@ -58,7 +58,7 @@ The dashboard should contain:
     * Any other external service used by the project e.g. Octopus Deploy, Application Insights, RayGun, Elmah, Slack
 
 
-Your solution should also contain the standard [\_Instructions.docx](/Pages/DoYouMakeInstructions.aspx) to your solution file for additional details on getting the project up and running in Visual Studio.
+Your solution should also contain the standard [\_Instructions.docx](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) to your solution file for additional details on getting the project up and running in Visual Studio.
 
 For particularly large and complex projects you can use an induction tool like [SugarLearning](https://www.sugarlearning.com/) to create a course for getting up to speed with the project.
 

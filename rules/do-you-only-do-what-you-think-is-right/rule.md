@@ -15,9 +15,9 @@ redirects:
 
 ---
 
-If someone asks you to do something you believe is unethical please ring them up                     straight away and discuss the issue.
+If someone asks you to do something you believe is unethical, please ring them up straight away and discuss the issue.
 
 <!--endintro-->
-![](Dilbert-Analysis.gif) **Figure: Have a frank discussion if you feel strongly about something
-** 
-It can also be a good idea to [document your objections in an email.](/do-you-send-a-for-the-record-email-when-you-disagree)
+![Figure: Have a frank discussion if you feel strongly about something](Dilbert-Analysis.gif)
+
+It can also be a good idea to [document your objections in an email](/do-you-send-a-for-the-record-email-when-you-disagree).

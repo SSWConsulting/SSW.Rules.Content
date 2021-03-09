@@ -22,6 +22,6 @@ A bad approach is to simply delete the email or to reply with “?” and then 
 
 <!--endintro-->
 
-What you should do is call the sender and ask for specifics, then reply to the email with an [as per our conversation](/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx), documenting your new understanding of the task.
+What you should do is call the sender and ask for specifics, then reply to the email with an [as per our conversation](/do-you-send-as-per-our-conversation-emails), documenting your new understanding of the task.
 
 If you can't get hold of the person, email them back asking specifics of what you don't understand.

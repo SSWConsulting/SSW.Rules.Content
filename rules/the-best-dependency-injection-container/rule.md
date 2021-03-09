@@ -69,5 +69,5 @@ Figure: Good Example - the web / mvc integration package layer for Autofac is de
 
 
 * [Do you use a dependency injection centric architecture?](/do-you-use-a-dependency-injection-centric-architecture)
-* [Do you generate the VS dependency graph?](/Pages/DoYouGenerateTheVSDependencyGraph.aspx)
+* [Do you generate the VS dependency graph?](/do-you-generate-the-vs-dependency-graph)
 * [Do you know what to do about ASP.NET Core default dependency injection?](/do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection)

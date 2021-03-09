@@ -39,7 +39,7 @@ When you start an Exploratory test, you don't see any test steps, but you can cl
 
 ![Figure: Clicking on the title will show you the Acceptance Criteria](show\_criteria.png)  
 
-**Note:** [You should always have Acceptance Criteria on your PBIs!](/Pages/Do-Your-User-Stories-Include-Acceptance-Criteria.aspx)
+**Note:** [You should always have Acceptance Criteria on your PBIs!](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
 
 If you find a bug while testing, click the  **Create bug** button to add a bug related to the PBI.
 

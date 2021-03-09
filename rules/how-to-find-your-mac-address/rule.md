@@ -20,41 +20,33 @@ To help with automation you can use the MAC address of your mobile device to mat
 
 * Announce your presence to the rest of the office
 * Get statistics and analytics: E.g. Who travels the most? Or which city uses In-And-Out the most? 
-      **TODO: Uly**
-
+  ::: todo
+  **TODO: Uly**
+  :::
 
 Here is how to find your MAC address:
 
-
-
-
-
 <!--endintro-->
 
-iPhone
+### iPhone
 
 1. Open the  **Settings** app
 2. Navigate to  **General | About**
-3. Look for  **WiFi Address
+3. Look for  **WiFi Address**
 
-![](iphone-mac.png)  
-**
-
+![Figure: MAC address on an iPhone](iphone-mac.png)  
 
 ### Android Phone
-
 
 1. On the Home screen, tap the Menu button and go to  **Settings**
 2. Tap   **About Phone**
 3. Tap   **Status/Hardware information**
-4. Scroll down to see your  **WiFi/MAC address
+4. Scroll down to see your  **WiFi/MAC address**
 
-![](android-mac-address.jpg)  
-**
-
+![Figure: MAC address on an Android](android-mac-address.jpg)  
 
 ### Windows Phone
 
-1. From the Windows Phone home screen, swipe left to reveal more icons. Then, scroll down and tap  **Settings**
-2. Scroll down and tap   **About**
-3. In the   **About**  screen, tap **M** **ore info**
+1. From the Windows Phone home screen, swipe left to reveal more icons. Then, scroll down and tap **Settings**
+2. Scroll down and tap **About**
+3. In the **About** screen, tap **More info**

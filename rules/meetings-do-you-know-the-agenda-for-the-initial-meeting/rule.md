@@ -59,7 +59,7 @@ The purpose of the initial meeting is to:
 * Potentially explain their role as the Product Owner and show a bit of the [Product Owner video](https://www.youtube.com/watch?v=3eljozEWpf8)
 * Take exceptional notes
 * Ask for the sale: "This project is right up our alley and we'd love to be involved,
-                        is there anything stopping you from scheduling a [Specification Review](/Pages/Ensure-an-excellent-1st-date.aspx)?" This will focus the mind of the client on the next step
+                        is there anything stopping you from scheduling a [Specification Review](/do-you-ensure-an-excellent-1st-date-aka-winning-customers-via-a-smaller-specification-review)?" This will focus the mind of the client on the next step
 * Leave a bit of marketing collateral behind. Branded Notepads or USB sticks are ideal.
 
 

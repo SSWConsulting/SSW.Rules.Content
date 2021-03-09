@@ -22,7 +22,7 @@ For example, we don't need to discuss the pros and cons of MDI versus SDI becaus
 * **Improve quality - because you are following best practices.** 
 For example, which logging library is better out of [Microsoft Application Block](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement) or [Log4NET](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net).
 * **Improve communications - because people know what to expect.** 
-For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug.](/Pages/BugDefinition.aspx)
+For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug.](/management-is-your-client-clear-on-the-definition-of-a-bug)
 * **Get straight to the meat of the customer's problem.** 
 For example, our developers don't need to decide whether to implement base forms or user controls. They already know because it's covered in [Rules to Better Windows Forms Applications.](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls)
 

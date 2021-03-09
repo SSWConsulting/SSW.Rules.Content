@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- dones-do-you-use-email-for-tasks-only-not-communication
+- do-you-seek-clarification-via-the-telephone-first
 redirects:
 - do-you-chase-your-manager-before-he-has-to-chase-you-(e-g-asking-for-clarification)
 - communication-do-you-chase-your-product-owner-before-he-has-to-chase-you-e-g-asking-for-clarification
@@ -26,47 +28,50 @@ If you know you've got issues to discuss (such as looming deadlines), don't wait
 
 As a guideline, you should not go more than 2 weeks without talking to your Product Owner (or boss/manager). And don't forget all the things you've got to say - have a sub-folder in your Inbox such as "Ask the Boss". Next time when they ask, "Does anyone want to speak to me?", look in that folder.
 
-
 ::: greybox
- [No email]
-
+No email or call.
 :::
-
-
 ::: bad
 Figure: The worst example - not reaching out to your Product Owner or manager at all. You should be in regular contact with them 
-
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:    | Jason |
+| To:      | Uly |
+| Subject: | What's next? |  
+::: email-content  
 
-::: greybox
+### Hi Uly,  
 Did I have a project or something due soon?
 
-Uly
+Jason   
 
-:::
-
-
+:::  
+:::  
 ::: bad
-Figure: Bad example - you shouldn't have to ask that!  
-
+Figure: Bad example - you shouldn't have to ask that! 
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:    | Jason |
+| To:      | Uly |
+| Subject: | Northwind presentation v1 - review |  
+::: email-content  
 
-::: greybox
-Hey Adam,
+### Hi Uly,  
 
 We've got the Northwind presentation coming up next week. I've finished a v1. 
 
 Would you have some time on Thursday afternoon to go over it with me? 
 
-Uly  
-:::
+Jason   
 
-
+:::  
+::: 
 ::: good
 Figure: Good example - Actively reaching out to your Product Owner 
-
 :::
-
-You can see more information on this at [Do you use email for tasks only - not communication?](/dones-do-you-use-email-for-tasks-only-not-communication) and [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
