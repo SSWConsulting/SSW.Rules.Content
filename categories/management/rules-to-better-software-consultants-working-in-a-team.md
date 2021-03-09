@@ -45,6 +45,7 @@ index:
 - do-you-use-source-control-and-backups
 - do-you-use-voice-recordings-when-appropriate
 - efficiency-do-you-use-two-monitors
+- do-you-use-suspend-on-your-notebook
 - efficiency-do-you-always-try-to-work-in-pairs-1
 - quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
 - quality-do-you-implement-an-error-logger-that-has-notifications
@@ -61,6 +62,7 @@ index:
 - how-to-fix-small-web-errors
 - do-you-hold-regular-company-meetings
 - do-you-timebox-approval-requests
+- do-you-use-timeboxing-to-avoid-wasted-time
 - go-beyond-just-using-chat
 - the-best-way-to-find-recent-files
 - modern-alternatives-to-using-a-whiteboard
@@ -68,4 +70,3 @@ index:
 
 ---
  
-
