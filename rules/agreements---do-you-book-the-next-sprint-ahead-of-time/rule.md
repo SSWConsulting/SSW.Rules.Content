@@ -95,4 +95,64 @@ if(iceCream === 'chocolate') {
   alert('Awwww, but chocolate is my favorite...');    
 }
 ```
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+```
+
+```sql
+WITH Level1 
+       AS ( SELECT StaffMember , 
+                   EventType , 
+                   CAST(EventDate AS DATETIME) 
+                   +   CAST(EventTime AS DATETIME) AS EventDateTime , 
+                   LAG(EventType, 1, 'N/A') 
+                      OVER ( PARTITION BY StaffMember 
+                         ORDER BY EventDAGate, EventTime ) AS LastEvent , 
+                   LEAD(EventType, 1, 'N/A') 
+                      OVER ( PARTITION BY StaffMember 
+                         ORDER BY EventDate, EventTime ) AS NextEvent 
+            FROM StaffHours ), 
+     Level2 
+       AS ( SELECT StaffMember , 
+                   EventType , 
+                   EventDateTime , 
+                   LastEvent , 
+                   NextEvent 
+            FROM   Level1 
+            WHERE  NOT ( EventType = 'Enter' 
+                         AND LastEvent = 'Enter' 
+                       ) 
+               AND NOT ( EventType = 'Exit' 
+                         AND NextEvent = 'Exit' 
+                       ) 
+               AND NOT ( EventType = 'Enter' 
+                         AND NextEvent = 'N/A' 
+                       ) 
+               AND NOT ( EventType = 'Exit' 
+                         AND LastEvent = 'N/A' 
+                       ) 
+          ), 
+     Level3 
+       AS ( SELECT StaffMember , 
+                   EventType , 
+                   EventDateTime , 
+                   DATEDIFF(second, EventDateTime, 
+                            LEAD(EventDateTime) 
+                               OVER ( PARTITION BY StaffMember 
+                                  ORDER BY EventDateTime )) AS Seconds 
+            FROM Level2 
+           ) 
+   SELECT StaffMember , 
+          EventDateTime , 
+          TIMEFROMPARTS(Seconds / 3600, Seconds % 3600 / 60, 
+                        Seconds % 3600 % 60, 0, 0) AS WorkTime 
+   FROM Level3 
+   WHERE EventType = 'Enter';
+```
+
 **Figure: Javascript code block**
