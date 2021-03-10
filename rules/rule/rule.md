@@ -202,16 +202,24 @@ Check out this video - it's responsive!
 ![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
+![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+
+![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+
+
 # Horizontal Rules
 ---
 ***
 ___
+
+# Text decoration
 
 **bold** or **bold**  
 _italic_ or _italic_  
 **combined bold and _italic_**  
 ~~strikethrough~~  
 
+# Tables
 &nbsp; 
 
 | Tables        |      Are      |   Cool |
@@ -227,9 +235,18 @@ _italic_ or _italic_
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
-![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+#### Code for tables
 
-![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+```
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+```
+---
+
+# Links
 
 [I'm an inline-style link](https://www.google.com)  
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
@@ -244,5 +261,3 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org  
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
-
-
