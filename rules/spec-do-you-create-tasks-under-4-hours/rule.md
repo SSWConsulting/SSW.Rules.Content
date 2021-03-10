@@ -28,7 +28,7 @@ Avoid monolithic Product Backlog Items (PBIs). Ideally, all PBIs should be les
 | -------- | --- |
 | Subject: | Create an .NET 5 prototype with web services |   
 :::
-:::
+::: bad
 Figure: Bad example – This is a monolithic 4-day task
 :::
 
@@ -52,6 +52,6 @@ Figure: Bad example – This is a monolithic 4-day task
 | -------- | --- |
 | Subject: | .NET 5 prototype #4 - .NET 5 prototype - Create methods on webservice exposed to client |   
 :::
-:::
+::: good
 Figure: Good example – The same monolithic task, broken down into 4 smaller tasks
 :::
