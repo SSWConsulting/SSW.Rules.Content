@@ -24,8 +24,4 @@ Common examples are:
 2. In VS Code, open StyleCop and enable one rule
 3. Get Code Auditor to zero
 
-
-Related links:
-
-* [http://stackoverflow.com/questions/455269/refactoring-do-you-follow-the-boy-scout-rule](http&#58;//stackoverflow.com/questions/455269/refactoring-do-you-follow-the-boy-scout-rule)
-* [http://programmer.97things.oreilly.com/wiki/index.php/The\_Boy\_Scout\_Rule](http&#58;//programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule)
+For more info, read [The Boy Scout Rule ~Robert C. Martin (Uncle Bob)](https://biratkirat.medium.com/step-8-the-boy-scout-rule-robert-c-martin-uncle-bob-9ac839778385)
