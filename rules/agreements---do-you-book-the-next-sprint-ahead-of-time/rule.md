@@ -13,8 +13,9 @@ related: []
 
 
 
-![](BadCommitMessage.png)
-![](GoodCommitMessage.png)
+![Figure](BadCommitMessage.png)
+
+![](GoodCommitMessage.jpg)
 
 
 
