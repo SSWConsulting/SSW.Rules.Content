@@ -79,10 +79,14 @@ While working, commit frequently to this branch with nice, descriptive messages.
 ![Figure: Bad Example - Commit message does not describe what was changed](BadCommitMessage.png)  
 :::
 
+![Figure: Bad Example - Commit message does not describe what was changed](BadCommitMessage.png)  
 
 ::: good  
 ![Figure: Good Example - Commit message describes exactly what was changed.](GoodCommitMessage.png)  
 :::
+
+![Figure: Good Example - Commit message describes exactly what was changed.](GoodCommitMessage.png) 
+
 
 **d) Push your changes to your remote Feature Branch**
 
