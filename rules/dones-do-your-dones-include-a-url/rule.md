@@ -18,40 +18,43 @@ redirects:
 
 ---
 
-If you are using a task tracking system like Azure DevOps or Jira, always include the relevant URL. Also valid for emails. This way people can check the work that was done.
+Always include the relevant URL to your "Done" emails, like when you make a change to a web page. This way people can check the work that was done.
+
+If you are using a task tracking system like **Azure DevOps**, **GitHub** or Jira, also include the link to the PBI/issue/task.
 
 <!--endintro-->
 
 
-::: greybox
-Done 
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:    | Tim |
+| To:      | Mark |
+| Subject: | RE: Improve menu - Options |  
+::: email-content  
 
-:::
+Done
 
-
+:::  
+::: 
 ::: bad
-Figure: Bad Example     
+Figure: Bad Example - how can we check the task was done correctly?
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:    | Tim |
+| To:      | Mark |
+| Subject: | Improve menu - Options |  
+::: email-content  
 
-::: greybox
-Done - http://jira.ssw.com.au/browse/NET-443  
-:::
+Done - https://www.ssw.com.au/ssw/Company/ContactUs.aspx
 
-
+:::  
+::: 
 ::: good
-Figure: Good example   
-:::
-
-
-::: greybox
-Done - https://ssw2.visualstudio.com/SSW.SharePoint/\_workitems/edit/43726
-
-:::
-
-
-::: good
-Figure: Good Example (sorry Azure DevOps URLs are a little uglier)  
+Figure: Good Example - easy to check what was done
 :::
 
 **Video:**  [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)
