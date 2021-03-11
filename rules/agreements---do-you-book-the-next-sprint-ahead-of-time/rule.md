@@ -11,6 +11,13 @@ authors:
 related: []
 ---
 
+
+
+![](BadCommitMessage.png)
+
+
+
+
 Unless we're currently working on the last sprint of the development, you should always book the next sprint as soon as you start work on the current one.
 
 <!--endintro-->
