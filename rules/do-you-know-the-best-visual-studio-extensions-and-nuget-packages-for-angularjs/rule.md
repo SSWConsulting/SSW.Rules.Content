@@ -17,36 +17,27 @@ Following this rule will ensure the right NuGet packages and Visual Studio Ext
 
 <!--endintro-->
 
+The best NuGet packages are:
 
+- [Angular.UI.Bootstrap](https://www.nuget.org/packages/Angular.UI.Bootstrap)   
+Check out the whole suite of tools from the [Angular UI](https://angular-ui.github.io/) team.
+ 
+- [AngularJS.Core](https://www.nuget.org/packages/AngularJS.Core/)   
+This core package only has the minimum Angular references to get started. Other Angular packages like [AngularJS.Route](https://www.nuget.org/packages/AngularJS.Route/) can be added as needed in addition to this.
 
-
-
- The best NuGet packages are:
-
-
-* [Angular.UI.Boot](http&#58;//www.nuget.org/packages/Angular.UI.Bootstrap/)strap  
-Check out the whole suite of tools from the [Angular UI](http&#58;//angular-ui.github.io/) team.
-* 
-* [AngularJS.Core](http&#58;//www.nuget.org/packages/AngularJS.Core/)
-This core package only has the minimum Angular references to get started. Other Angular packages like [AngularJS.Route](https&#58;//www.nuget.org/packages/AngularJS.Route/) can be added as needed in addition to this.
-* [An](http&#58;//www.nuget.org/packages/angularjs)gularJS 
+- [AngularJS](https://www.nuget.org/packages/angularjs)   
 The whole AngularJS library.
-* [HotTowel.Angular](http&#58;//www.nuget.org/packages/HotTowel.Angular/)  
+
+- [HotTowel.Angular](https://www.nuget.org/packages/HotTowel.Angular/)   
 John Papa's popular AngularJS Single Page Application (SPA) template.
 
-
-e:
-
-* [Side Waffle](http&#58;//sidewaffle.com/)
+- [Side Waffle](http://sidewaffle.com/)   
 Templates for common AngularJS components like controllers, factories, and modules.
-* [Web Essentials](http&#58;//vswebessentials.com/)
+
+- [Web Essentials](http://vswebessentials.com/)   
 While not AngularJS specific, this Visual Studio extension is a must have for any web development.
-
-
-
-
 
 Alternate sources for Angular Modules:
 
-* [NgModules.org](http&#58;//ngmodules.org/)
-A source for all popular AngularJS modules that can be sorted by popularity.
+- [NgModules](https://angular.io/guide/ngmodules)
+Modules are a great way to organize an application and extend it with capabilities from external libraries.
