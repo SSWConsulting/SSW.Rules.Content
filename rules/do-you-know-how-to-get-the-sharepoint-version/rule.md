@@ -37,4 +37,4 @@ See [Get SharePoint version number of your platform quickly](https://jeremythake
 vti\_encoding:SR|utf8-nl 
 vti\_extenderversion:SR|16.0.0.4327  
 ```
-**Figure: On SharePoint 2016, this is what you get for https://intranet.ssw.com.au for example**
+**Figure: On SharePoint 2016, this is what you get for intranet.ssw.com.au for example**
