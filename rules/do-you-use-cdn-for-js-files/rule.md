@@ -45,7 +45,7 @@ When choosing a CDN provider, take into account where your user base is located 
 4. http://lib.sinaapp.com/
 5. http://cdnjs.net/
 6. https://www.cloudflare.com/network/china/ (Cloudflare’s China Service)
-7. https://www.akamai.com(Akami)
+7. https://www.akamai.com
 8. https://cdnjs.cloudflare.com 
 
 #### Which ones do not work well from China?
