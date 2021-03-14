@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-Avoid putting the date and time into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata.
+Avoid putting the date and titestme into the text field of a meeting since these are often overlooked when changing the meeting time/date metadata.
 
 <!--endintro-->
 
