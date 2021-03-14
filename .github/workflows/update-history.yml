@@ -6,9 +6,9 @@ name: Update-History
 on:
   # Triggers the workflow on pull request events but only for the main branch
   pull_request:
-    branches: [ main ]
+    branches: [ main, test-pr-fix ]
   pull_request_target:
-    branches: [ main ]
+    branches: [ main, test-pr-fix ]
     
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
