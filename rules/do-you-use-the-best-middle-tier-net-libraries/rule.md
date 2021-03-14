@@ -19,9 +19,8 @@ Don't waste time evaluating which middle tier .NET libraries to use. Most of th
 
 <!--endintro-->
 
-
 Great products include:
 
-* [AutoFac](https&#58;//autofac.org/) (was StructureMap) for IoC
-* [Serilog](https&#58;//serilog.net/) and [Seq](https&#58;//datalust.co/) (was Log4Net) for Logging and Tracing
-* [Application Insights](/rules-to-better-application-insights-for-visual-studio-online) (was ELAMH) for Usage Telemetry and Error Reporting
+* [AutoFac](https://autofac.org/) (was StructureMap) for IoC
+* [Serilog](https://serilog.net/) and [Seq](https://datalust.co/) (was Log4Net) for Logging and Tracing
+* [Application Insights](/rules-to-better-application-insights) (was ELAMH) for Usage Telemetry and Error Reporting
