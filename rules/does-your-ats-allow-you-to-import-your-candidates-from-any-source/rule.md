@@ -15,9 +15,9 @@ redirects: []
 
 Does your ATS allow you to store all of your candidates in the same place? Even if they applied from another source?
 
-<!--endintro-->
-
 One of the definite perks of using an ATS like LinkedIn Talent Hub for recruitment is the import functionality.
+
+<!--endintro-->
 
 If candidates apply via a LinkedIn job ad, they will automatically appear at the beginning of your recruitment funnel on LinkedIn Talent Hub. If you have put your job ad on more than one platform, LinkedIn Talent Hub allows you to import the candidates from your other sources.
 
@@ -25,5 +25,4 @@ To do this, you can either search the available LinkedIn profiles to add a candi
 
 A fun new feature of the LinkedIn Talent Hub import search, is that it identifies when an imported candidate also has a LinkedIn profile. The system then prompts you if a candidate has a LinkedIn profile and if you would prefer links the resume to a profile.
 
-![](LinkedInImports.jpg)
-Figure: An example of using Talent Hub's candidate import to pre-populate a candidate’s information into the LinkedIn Talent Hub
+![Figure: An example of using Talent Hub's candidate import to pre-populate a candidate’s information into the LinkedIn Talent Hub](LinkedInImports.jpg)
