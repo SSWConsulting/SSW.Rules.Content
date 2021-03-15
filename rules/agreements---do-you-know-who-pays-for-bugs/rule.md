@@ -54,7 +54,7 @@ When starting a PBI from the task board, create a branch from      **master** wi
 
 
 ::: bad  
-![Figure: Bad example - Branch name is not descriptive](BadBranchName.png)  
+![Figure: Bad example - Branch name is not descriptive](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/sample-content-with-guid/rules/agreements---do-you-know-who-pays-for-bugs/GoodCommitMessage.png)  
 :::
 
 
