@@ -1,17 +1,15 @@
 ---
 type: rule
 archivedreason:
-title: Example Rule
+title: Test Rule
 guid:
-uri: rule
+uri: test-rule
 created: 2021-01-20T05:06:33.0000000Z
 authors:
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-- title: Sebastien-Boissiere
-  url: https://ssw.com.au/people/sebastien-boissiere
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
 related:
 
 ---
@@ -21,18 +19,19 @@ Below you will see everything you need to create an awesome page.
 
 <!--endintro-->
 
-# This is a heading 1
+# This is a heading un
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
+Testing my Latin fluency.
 
 ## This is a heading 2
 ### This is a heading 3
 #### This is a heading 4 
 ##### This is a heading 5
 ###### This is a heading 6 and below is a blockquote
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->                                   - Someone famous in Source Title
+**> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
+>                                   - Someone famous in Source Title**
 
 #### Unordered List
 * This is the first item of an unordered list
@@ -128,7 +127,7 @@ if(iceCream === 'chocolate') {
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
-| Subject: | This is the subject |  
+| Subject: | This is a better subject |  
 ::: email-content  
 
 ### Hi XXX,  
@@ -202,24 +201,16 @@ Check out this video - it's responsive!
 ![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
-![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
-
-![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
-
-
 # Horizontal Rules
 ---
 ***
 ___
-
-# Text decoration
 
 **bold** or **bold**  
 _italic_ or _italic_  
 **combined bold and _italic_**  
 ~~strikethrough~~  
 
-# Tables
 &nbsp; 
 
 | Tables        |      Are      |   Cool |
@@ -235,18 +226,9 @@ _italic_ or _italic_
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
-#### Code for tables
+![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
-```
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-```
----
-
-# Links
+![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
 [I'm an inline-style link](https://www.google.com)  
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
@@ -261,3 +243,5 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org  
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
+
+

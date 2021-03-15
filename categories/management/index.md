@@ -12,7 +12,6 @@ index:
 - rules-to-better-software-consultants-happy-clients
 - rules-to-better-designers
 - rules-to-better-crm
-- rules-to-managing-dead-time
 - rules-to-better-accounting
 - rules-to-better-timesheets
 - rules-to-better-personal-assistants-pa
