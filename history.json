@@ -24766,5 +24766,14 @@
 		"lastUpdated": "2021-03-15T06:04:51.075Z",
 		"lastUpdatedBy": "Nicholas Viet [SSW]",
 		"lastUpdatedByEmail": "65745138+nviet123@users.noreply.github.com"
+	},
+	{
+		"file": "rules/call-SysAdmins-before-formatting-company-owned-laptops",
+		"created": "2021-03-15T22:37:33.823Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-15T22:37:33.823Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
