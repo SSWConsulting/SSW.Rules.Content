@@ -29,29 +29,29 @@ Avoid monolithic Product Backlog Items (PBIs). Ideally, all PBIs should be les
 | Subject: | Create an .NET 5 prototype with web services |   
 :::
 ::: bad
-Figure: Bad example – This is a monolithic 4-day task
+Figure: Bad example - This is a monolithic 4-day task
 :::
 
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #1 - Create a web page with firstname and lastname textboxes, a save button (and remmed out code to later call a web service) |   
+| Subject: | .NET 5 prototype #1 - Create a web page with firstname and lastname textboxes, a save button |   
 :::
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #2 - .NET 5 prototype - Create a table for customer with firstname and lastname and any other fields required for this table |   
+| Subject: | .NET 5 prototype #2 - Create a table for customer with any other fields required for this table |   
 :::
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #3 - .NET 5 prototype - Create a web service with the customer CRUD methods |   
+| Subject: | .NET 5 prototype #3 - Create a web service with the customer CRUD methods |   
 :::
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #4 - .NET 5 prototype - Create methods on webservice exposed to client |   
+| Subject: | .NET 5 prototype #4 - Create methods on webservice exposed to client |   
 :::
 ::: good
-Figure: Good example – The same monolithic task, broken down into 4 smaller tasks
+Figure: Good example - The same monolithic task, broken down into 4 smaller tasks
 :::
