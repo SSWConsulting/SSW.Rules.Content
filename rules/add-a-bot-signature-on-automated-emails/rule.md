@@ -22,25 +22,31 @@ However, the end user should be able to tell that this was sent by a bot, and no
 
 <!--endintro-->
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SSWAll |
+| Subject: | It's SSW.Shorts Day! |  
+::: email-content  
 
-::: greybox
- **Hi All,
-** 
+### Hi All,
+
 The maximum temperature for today is 32.
+
 Feel free to wear shorts if you like 🌞 (hope you haven't skipped leg day 😜)
-If you decide against it, then don't forget the SSW dress code applies as usual (e.g. dress up on Monday and Tuesday - no jeans).
+
+If you decide against it, then don't forget the [SSW dress code](/do-you-have-a-dress-code) applies as usual (e.g. dress up on Monday and Tuesday - no jeans).
+
 Today's forecast:
 Patchy fog early this morning, mostly in the south, then sunny. Light winds becoming northwesterly 15 to 25 km/h in the afternoon.
 
 Uly
---Powered by SSW.Shorts
+**--Powered by SSW.Shorts**
 
-&lt;This email was sent as per: http://rules.ssw.com.au/do-you-have-a-dress-code &gt;
+&lt;This email was sent as per: http://rules.ssw.com.au/do-you-have-a-dress-code &gt; 
 
-:::
-
-
+:::  
+:::  
 ::: good
 Figure: Good Example – you can clearly see this was sent by a bot
-
 :::
