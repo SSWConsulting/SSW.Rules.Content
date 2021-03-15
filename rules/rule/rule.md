@@ -108,6 +108,8 @@ This is a piece of code in a code block
 Figure: Bad Example - This isn't actual code  
 :::  
 
+See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in Rules. See below for some examples:
+
 ```javascript
 let iceCream = 'chocolate';
 if(iceCream === 'chocolate') {
@@ -117,6 +119,107 @@ if(iceCream === 'chocolate') {
 }
 ```
 **Figure: Javascript code block**
+
+
+```sql
+IF EXISTS (SELECT 1 FROM 
+               INFORMATION_SCHEMA.TABLES 
+           WHERE 
+               TABLE_TYPE='BASE TABLE' AND 
+               TABLE_NAME='Employees'
+           ) 
+    ALTER TABLE [dbo].[Employees]( …… ) ON [PRIMARY] 
+ELSE 
+    CREATE TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
+```
+**Figure: SQL code block**
+
+
+```cs
+public class MyClass
+{
+    public string  myField = string.Empty;
+
+    public MyClass()
+    {
+    }
+
+    public void MyMethod(int parameter1, string parameter2)
+    {
+        Console.WriteLine("First Parameter {0}, second parameter {1}", 
+                                                    parameter1, parameter2);
+    }
+
+    public int MyAutoImplementedProperty { get; set; }
+
+    private int myPropertyVar;
+    
+    public int MyProperty
+    {
+        get { return myPropertyVar; }
+        set { myPropertyVar = value; }
+    } 
+}
+```
+**Figure: C Sharp code block**
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
+```
+**Figure: C++ code block**
+
+
+```json
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
+```
+**Figure: JSON code block**
+
+
+```markdown
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+```
+**Figure: Markdown code block**
+
+
 
 ### Twitter Card Embed  
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
