@@ -17,49 +17,74 @@ redirects:
 
 ---
 
-This rule is a variation of the popular rule [Do you send "As Per Our Conversation" emails?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f98fc6fe-0e5d-43fe-b560-0f5603ec7069)
+This rule is a variation of the popular rule [Do you send "As Per Our Conversation" emails?](/rules/as-per-our-conversation-emails)
 
 The most dangerous time in a task's life cycle is in a handover. This is the most likely time for a misunderstanding to occur leading to a task getting lost and not being completed.
 
 <!--endintro-->
  Always make sure you clearly reallocate a task with an email to the person who will complete the task like the good example below: 
  
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Bob |
+| Cc:      | Sergei |
+| Subject: | RE: Northwind app |  
+::: email-content  
 
-```
-New,
+### Hi Bob,
 
 I already talked with Sergei, he will handle it.
+
 ________________________________________
-From: Adam 
+
+From: Bob
 To: Andy
-Cc: Sergei; 
-Subject: Timepro!
+Subject: Northwind app
 
-Hi Andy,
+### Hi Andy,
 
-As per our conversation yesterday about TimePro! 
-keeps crashing when I do a search under 'Company', please fix
-```
+As per our conversation yesterday about Northwind app, it keeps crashing when I do a search under 'Company', 
 
- Figure: Bad example - task not clearly redirected 
- 
+1. Please fix 
 
-```
-Sergei
+:::  
+:::  
+::: bad  
+Figure: Bad example - task not clearly reallocated 
+:::
 
-As per our conversation - please action
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Sergei |
+| Cc:      | Bob |
+| Subject: | RE: Northwind app |  
+::: email-content  
+
+### Hi Sergei,
+
+As per our conversation,
+1. Please action
+
+Regards,
+Andy
 ________________________________________
-From: Adam
+
+From: Bob
 To: Andy
-Cc: Sergei
-Subject: Timepro!
+Subject: Northwind app
 
-Hi Andy,
+### Hi Andy,
 
-As per our conversation yesterday about TimePro! 
-keeps crashing when I do a search under 'Company', please fix
-```
+As per our conversation yesterday about Northwind app, it keeps crashing when I do a search under 'Company', 
 
- Figure: Good example - task clearly redirected 
+1. Please fix 
+
+:::  
+:::  
+::: good  
+Figure: Good Example - Clear reassignment from Andy to Sergei
+:::
 
 If you need to hand over an entire project there are more details here: [Do you know how to hand over a project?](/do-you-know-how-to-handover-a-project)
