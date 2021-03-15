@@ -19162,9 +19162,9 @@
 	},
 	{
 		"file": "rules/keep-your-domain-layer-independent-of-the-data-access-concerns/rule.md",
-		"lastUpdated": "2020-06-30T15:11:23+10:00",
-		"lastUpdatedBy": "Toby Goodman",
-		"lastUpdatedByEmail": "TobyGoodman@ssw.com.au",
+		"lastUpdated": "2021-03-11T22:49:43.164Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-04-10T09:15:56+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
