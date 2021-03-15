@@ -7,7 +7,7 @@ uri: call-SysAdmins-before-formatting-company-owned-laptops
 created: 2021-03-15T06:04:40.0000000Z
 authors:
 - title: Kaique Biancatti (Kiki)
-  url: https://ssw.com.au/people/stanley-sidik
+  url: https://www.ssw.com.au/people/kiki
 related:
 
 ---
@@ -19,6 +19,7 @@ SysAdmins follow all kinds of procedures and standards to make sure all company-
 <!--endintro-->
 
 If you, for any reason, has a company-owned laptop and needs to format it for various reasons (e.g. slowness, forgotten computer, new computer) it is important to give your SysAdmins a call first to ensure any pre-steps are followed, for example:
+
 1.	Backing up the current data in the laptop
 2.	Ensuring no client data is present
 3.	Ensuring the new admin username set follows the password standards
