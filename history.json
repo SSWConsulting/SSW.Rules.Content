@@ -2017,9 +2017,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-follow-up-an-unanswered-email/rule.md",
-		"lastUpdated": "2021-03-05T01:00:09.055Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-15T22:57:28.122Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2009-07-17T15:15:19+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -24766,5 +24766,23 @@
 		"lastUpdated": "2021-03-15T06:04:51.075Z",
 		"lastUpdatedBy": "Nicholas Viet [SSW]",
 		"lastUpdatedByEmail": "65745138+nviet123@users.noreply.github.com"
+	},
+	{
+		"file": "rules/call-SysAdmins-before-formatting-company-owned-laptops",
+		"created": "2021-03-15T22:37:33.823Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-15T22:37:33.823Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/call-SysAdmins-before-formatting-company-owned-laptops/rule.md",
+		"created": "2021-03-15T22:57:28.123Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-15T22:57:28.123Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
