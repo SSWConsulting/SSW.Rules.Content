@@ -17,6 +17,22 @@ related: []
 
 ![](GoodCommitMessage.jpg)
 
+::: img-small  
+::: good  
+![Good Example](icon.jpg)  
+:::
+::: 
+
+::: img-medium  
+::: good  
+![Good Example](icon.jpg)  
+:::
+:::
+
+::: img-large  
+![Good Example](icon.jpg)  
+:::
+
 
 
 
@@ -26,23 +42,7 @@ Unless we're currently working on the last sprint of the development, you should
 
 This is done during the [planning meeting](/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx)and will ensure the availability of the developers who are up to speed on your project and stop them from being booked onto something else.
 
-::: good 
-![Good Example](icon.jpg)  
-:::  
 
-::: good 
-![Good Example](icon.png)  
-:::  
-
-::: img-medium  
-::: good  
-![Good Example](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
-:::
-:::
-
-::: img-large  
-![](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
-:::
 
 ::: hidden  
 e7d15b01-2a21-4e0f-bc71-c09e5d356cbc-7947936  
