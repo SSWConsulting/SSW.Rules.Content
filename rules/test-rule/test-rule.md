@@ -19,18 +19,19 @@ Below you will see everything you need to create an awesome page.
 
 <!--endintro-->
 
-# This is a heading 1
+# This is a heading un
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
+Testing my Latin fluency.
 
 ## This is a heading 2
 ### This is a heading 3
 #### This is a heading 4 
 ##### This is a heading 5
 ###### This is a heading 6 and below is a blockquote
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->                                   - Someone famous in Source Title
+**> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
+>                                   - Someone famous in Source Title**
 
 #### Unordered List
 * This is the first item of an unordered list
@@ -126,7 +127,7 @@ if(iceCream === 'chocolate') {
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
-| Subject: | This is the subject |  
+| Subject: | This is a better subject |  
 ::: email-content  
 
 ### Hi XXX,  
