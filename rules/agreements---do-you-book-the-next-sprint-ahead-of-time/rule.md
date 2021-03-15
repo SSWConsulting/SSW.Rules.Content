@@ -26,10 +26,8 @@ Unless we're currently working on the last sprint of the development, you should
 
 This is done during the [planning meeting](/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx)and will ensure the availability of the developers who are up to speed on your project and stop them from being booked onto something else.
 
-::: good  
-::: img-small  
+::: good 
 ![Good Example](https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/content-migration-23/rules/choose-the-best-method-of-authentication-for-your-situation/security-icon-ssw.jpg)  
-:::  
 :::  
 
 ::: img-medium  
