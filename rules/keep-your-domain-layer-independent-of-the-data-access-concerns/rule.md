@@ -22,17 +22,14 @@ This is often a problem when building systems that leverage Entity Framework, as
 
 <!--endintro-->
 
-
 ::: bad  
 ![Bad Example: Domain is cluttered with data annotations](domain-layer-1.png)  
 :::
 
 As you can see in the above example, the domain is cluttered with data annotations. If the data access technology changes, we will likely need to change all entities as all entities will have data annotations. In the following example, we will remove the data annotations from the entity and instead use a special configuration type:
-
-
-::: good  
+ 
 ![](domain-layer-2.png)  
-:::
+
 ![](domain-layer-3.png)
 
 ::: good  
@@ -41,10 +38,7 @@ As you can see in the above example, the domain is cluttered with data annotatio
 
 This is a big improvement! Now the customer entity is lean, and the configuration can be added to the persistence layer, completely separate of the domain. Now the domain is independent of data access concerns.
 
-Learn more about this approach by reading about        [self-contained configuration for code first](https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-2.0%22%20%5cl%20%22self-contained-type-configuration-for-code-first).
+Learn more about this approach by reading about [self-contained configuration for code first](https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-2.0/#self-contained-type-configuration-for-code-first).
 
+![Figure: Database implementation is a Infrastructure concern not a Domain concern](CA_Animation_4.gif)
 
-
-![](CA_Animation_4.gif)
-
-**Figure: Database implementation is a Infrastructure concern not a Domain concern.**

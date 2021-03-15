@@ -20,19 +20,26 @@ Instead, please use 'Publish' utility to deploy your Web site or Web application
 
 <!--endintro-->
 
-1. Web Site Project
-          **Publish Web Site** dialog box is designed to precompile and deploy your Web site to a new location (whatever it is, ftp://..., http://... or drive:\path). During the deployment, source code are removed automatically. Besides, the precompilation process finds any compilation errors and identifies the errors in the configuration file.
-    To access this dialog box, please open a Web site that you want to deploy and click  **Build** menu, then click  **Publish Web Site** .
+### 1. Web Site Project
+
+**Publish Web Site** dialog box is designed to precompile and deploy your Web site to a new location (whatever it is, **ftp://**, **http://** or **drive:\path**). During the deployment, source code are removed automatically. Besides, the precompilation process finds any compilation errors and identifies the errors in the configuration file.
+
+To access this dialog box, please open a Web site that you want to deploy and click **Build** menu, then click **Publish Web Site** .
 
 ![Figure: How to open Publish Web Site dialog box](PublishWebsite.jpg)  
 
 ![Figure: Publish Web Site dialog box](PublishWebsiteDialog.JPG)  
-    See more about [Publishing Web Sites](https://msdn.microsoft.com/en-us/library/20yh9f1b.aspx).
-2. Web Application Project 
-          The  **Publish Web** dialog box enables you to build and publish a Web application project to a new location. Like  **Publish Web Site** dialog box, this utility can remove source code. However you have to select  **Only files needed to run this application** to specify it. Other benefit of this utility is that potential errors and compile-time errors in the Web.config file and in other non-code files can be found.
-    To access this dialog box, open a Web application project that you want to publish and click  **Publish** ApplicationName on the  **Build** menu.
+
+See more about [Publishing Web Sites](https://docs.microsoft.com/en-us/previous-versions/20yh9f1b(v=vs.140)?redirectedfrom=MSDN).
+    
+### 2. Web Application Project 
+
+The **Publish Web** dialog box enables you to build and publish a Web application project to a new location. Like  **Publish Web Site** dialog box, this utility can remove source code. However you have to select **Only files needed to run this application** to specify it. Other benefit of this utility is that potential errors and compile-time errors in the Web.config file and in other non-code files can be found.
+
+To access this dialog box, open a Web application project that you want to publish and click **Publish** ApplicationName on the  **Build** menu.
 
 ![Figure: How to open Publish Web dialog ('WebApp' is the name of this application)](PublishWebApp.jpg)  
 
 ![Figure: Publish Web dialog box](PublishWebAppDialog.JPG)  
-    See more about [How to Publish Web Applications](https://msdn.microsoft.com/en-us/library/aa983453.aspx).
+
+See more about [How to Publish Web Applications](https://docs.microsoft.com/en-us/previous-versions/aspnet/aa983453(v=vs.100)?redirectedfrom=MSDN).

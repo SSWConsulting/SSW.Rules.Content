@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: William Yin
   url: https://ssw.com.au/people/william-yin
-related: []
+related: 
+- /do-you-know-how-to-use-sharepoint-search)
+- /use-dashes-in-urls)
 redirects:
 - do-you-know-how-to-name-documents
 
@@ -22,68 +24,38 @@ When naming documents, use kebab-case to separate words to make your files mor
 
 A file name without spaces means that the search engine doesn't know where one word ends and the other one begins. This means that searching for 'monthly' or 'report' might  **not**  find this document.
 
-
-
-```
+::: greybox
 MonthlyReport.docx
-```
-
-
-
-
+:::
 ::: bad
 Bad Example: File name doesn't contain any separators between words
-
-
 :::
-As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. https://sharepoint/site/library/Monthly%20Report.docx. URLs with escaped spaces are longer and less human-readable.
 
+As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. **sharepoint/site/library/Monthly%20Report.docx**. URLs with escaped spaces are longer and less human-readable.
 
-
-```
+::: greybox
 Monthly Report.docx
-```
-
-
-
-
+:::
 ::: bad
 Bad Example: File name uses a space to separate words
-
 :::
 
 Underscores are not valid word separators for search in SharePoint, and not recommended by others. Also, sometimes underscores are less visible to users, for example, when a hyperlink is underlined. When reading a hyperlink that is underlined, it is often possible for the user to be mistaken by thinking that the URL contains spaces instead of underscores. For these reasons it is best to avoid their use in file names and titles.
 
-
-
-```
+::: greybox
 Monthly_Report.docx
-```
-
-
-
-
+:::
 ::: bad
 Bad Example: File name uses an underscore (snake\_case) to separate words
-
-
 :::
 
 A hyphen is the best choice, because it is understood both by humans and all versions of SharePoint search.
 
-
-
-```
+::: greybox
 Monthly-Report.docx
-```
-
-
-
-
+:::
 ::: good
 Good Example: File name uses a kebab-case to separate words
-
-
 :::
 
 ### Add relevant metadata where possible
@@ -93,9 +65,3 @@ If a document library is configured with metadata fields, add as much relevant i
 ### Use descriptive file names and titles
 
 The file name and title is regarded more highly by search than the content within documents. Also, the title or file name is what is displayed in the search results, so by making it descriptive, you are making it easier for people who perform searches to identify the purpose of your document.
-
-### Related Rule
-
-
-* [Do you know how to use SharePoint search?](/do-you-know-how-to-use-sharepoint-search)
-* [Do you use dashes in your URLs?](/use-dashes-in-urls)

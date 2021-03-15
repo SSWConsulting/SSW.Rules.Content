@@ -116,7 +116,7 @@ During the session, you will populate these lists with the input from the attend
 
 
 
-By the time you get to the session, everyone should have emailed you through their suggestions. But it can still be intimidating for some people to be the first person to get up and share their idea with the group. To get the ball rolling, you should have some suggestions prepared in advance, preferrably provided by some of your team. Have them record a short video that 'sells' their idea, ready to show the attendees at the start of the session.
+By the time you get to the session, everyone should have emailed you their suggestions. But it can still be intimidating for some people to be the first person to get up and share their idea with the group. To get the ball rolling, you should have some suggestions prepared in advance, preferrably provided by some of your team. Have them record a short video that 'sells' their idea, ready to show the attendees at the start of the session.
 
 ### Participation
 

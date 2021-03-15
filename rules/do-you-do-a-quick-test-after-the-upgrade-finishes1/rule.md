@@ -16,16 +16,12 @@ After upgrading TFS, you should do a quick [smoke test](http://en.wikipedia.org/
 
 <!--endintro-->
 
-![](tfs title.png)
+![Figure: New TFS Title using our existing url](tfs title.png)
 
-**Figure: New TFS Title using our existing url**
+1. Navigate to the web access URL for your new TFS server.
+2. If it loads correctly, click "Browse all..." to check all your Team Projects were migrated across correctly
 
-a.      Navigate to the web access URL for your new TFS server.
+In Visual Studio, connect to TFS, then:
 
-b.     If it loads correctly, click "Browse all..." to check all your Team Projects were migrated across correctly
-
-c.      In Visual Studio, connect to TFS, then:
-
-.                Do a Get Latest on a project or file
-
-Make a change, and ensure you can Check In
+3. Do a Get Latest on a project or file
+4. Make a change, and ensure you can Check In

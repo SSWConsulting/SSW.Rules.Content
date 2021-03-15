@@ -20,68 +20,50 @@ For maximum readability and SEO use kebab-case (dashes) in your URLs.
 
 <!--endintro-->
 
-
 ::: greybox
-https://northwind.com/ **pageonworddocumentation** 
+northwind.com/**pageonworddocumentation** 
 :::
-
-
 ::: bad
 Figure: Bad example - No kebab-case in URL 
-
-
 :::
-
 
 ::: greybox
-https://northwind.com/ **PageOnWordDocumentation** 
+northwind.com/**PageOnWordDocumentation** 
 :::
-
-
 ::: bad
 Figure: Bad example - PascalCase (better readability and still works in small caps, but other people might share it without the MixedCase)
-
-
 :::
 
-
 ::: greybox
-https://northwind.com/ **page on word documentation** 
+northwind.com/**page on word documentation** 
 
 ...will become
 
- https://northwind.com/ **page20%on20%word20%documentation** 
+northwind.com/**page20%on20%word20%documentation** 
 :::
-
-
 ::: bad
 Figure: Bad example - spaces it will show up in your URL structure as 20%, which is bad for readability and SEO
-
-
 :::
-
 
 ::: greybox
-https://northwind.com/ **page\_on\_word\_documentation** 
+northwind.com/**page\_on\_word\_documentation** 
 :::
- **Figure: OK example - underscored (snake\_case) URLs have good readability but are not recommended by Google
-
-** 
+::: ok
+Figure: OK example - underscored (snake\_case) URLs have good readability but are not recommended by Google
+::: 
 
 ::: greybox
-https://northwind.com/ **page-on-word-documentation** 
+northwind.com/**page-on-word-documentation** 
 :::
-
-
 ::: good
 Figure: Good example - kebab-case is recommended by Google
-
-
 :::
 
-**Note:** this is only for the pages and documents within a website - not for the domain. Domains are bad when they have "-" in them!
+::: info
+This is only for the pages and documents within a website - not for the domain. Domains are bad when they have "-" in them!
+:::
 
-Read more on [SEO 101: Hyphens vs. Underscores in URLs](https://www.seomechanic.com/seo-101-hyphens-underscores-_-urls/)
+Read more on [SEO 101: Hyphens vs. Underscores in URLs](https://www.seomechanic.com/seo-101-hyphens-underscores-_-urls/).
 
 ### More info
 
