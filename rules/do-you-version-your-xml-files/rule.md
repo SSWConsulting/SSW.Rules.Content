@@ -73,10 +73,11 @@ It is good to store program settings in an .xml file. But developers rarely worr
     </Table1>
 </NewDataSet>
 ```
+::: bad
+Bad example - XML file without version control       
+:::
 
-          Bad example - XML file without version control.             
-
-```
+```xml
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <xs:schema id="NewDataSet" xmlns=""
@@ -129,13 +130,14 @@ It is good to store program settings in an .xml file. But developers rarely worr
     </Table1>
 </NewDataSet>
 ```
+::: good
+Good example - XML file with version control   
+:::
 
-          Good example - XML file with version control   
 The version tags identifies what version the file is. This version should be hard coded into the application. Every time you change the format of the file, you would increment this number.
 
 The code below shows how this would be implemented in your project.
-
-
+:::javascript
 ```
 Public Function IsXMLFileValid() As Boolean
 
@@ -187,6 +189,8 @@ Public Function IsXMLFileValid() As Boolean
 
 End Function
 ```
+**Figure: Code to illustrate how to check if the xml file is valid** 
 
-**Figure: Code to illustrate how to check if the xml file is valid.** 
-Note: to allow backward compatibility, you should give the user an option to convert old xml files into the new version structure.
+::: info
+**Note:** to allow backward compatibility, you should give the user an option to convert old xml files into the new version structure.
+:::
