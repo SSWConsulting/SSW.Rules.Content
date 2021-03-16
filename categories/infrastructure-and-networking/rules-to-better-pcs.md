@@ -9,6 +9,7 @@ index:
 - what-to-do-when-you-have-a-pc-problem
 - do-you-use-a-package-manager
 - call-SysAdmins-before-formatting-company-owned-laptops
+- use-a-standard-local-admin-account
 
 ---
 
