@@ -137,8 +137,8 @@ Good example - XML file with version control
 The version tags identifies what version the file is. This version should be hard coded into the application. Every time you change the format of the file, you would increment this number.
 
 The code below shows how this would be implemented in your project.
-:::javascript
-```
+
+```vb
 Public Function IsXMLFileValid() As Boolean
 
   Dim fileVersion As String = "not specified"
