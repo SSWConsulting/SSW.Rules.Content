@@ -48,9 +48,7 @@ Generally, people who need to know include:
   |          |     |
   | -------- | --- |
   | To:      | SSWAbsence |
-  | Cc:      |  |
-  | Bcc:     |  |
-  | Subject: | Patricia Barros |  
+  | Subject: | Patricia Barros - 2 weeks leave |  
   ::: email-content  
 
   ### Hi SSW Absence,  
@@ -69,9 +67,7 @@ Generally, people who need to know include:
   |          |     |
   | -------- | --- |
   | To:      | SSWAbsence |
-  | Cc:      |  |
-  | Bcc:     |  |
-  | Subject: | Patricia Barros |  
+  | Subject: | Patricia Barros - 2 weeks leave |  
   ::: email-content  
 
   ### Hi SSW Absence,  
