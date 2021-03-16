@@ -15,12 +15,9 @@ redirects: []
 
 1. Visit the sites below
 2. Enter the destinations with corresponding dates to receive a quote from each site
-3. Use the quotes to locate the best price or deal.
-
+3. Use the quotes to locate the best price or deal
 
 <!--endintro-->
-
-
 
 These are the best sites to check in order of preference:
 
@@ -32,7 +29,6 @@ These are the best sites to check in order of preference:
 * [www.qantas.com.au](http&#58;//www.ssw.com.au/SSW/Redirect/Qantas.htm)(7/10)
 * [www.flightcentre.com.au](http&#58;//www.ssw.com.au/SSW/Redirect/Flightcentre.htm)  **OR**  [www.escapetravel.com.au](http&#58;//www.ssw.com.au/SSW/Redirect/Escapetravel.htm) (6/10) 
 (both owned by same company)
-* 
 
 
 These are the best sites for flights within the US
@@ -42,13 +38,6 @@ These are the best sites for flights within the US
 * [www.Cheaptickets.com](http&#58;//www.ssw.com.au/SSW/Redirect/Cheaptickets.htm) (7/10)
 * [www.AmericanAirlines.com](http&#58;//www.ssw.com.au/SSW/Redirect/AmericanAirlines.htm) (5/10)
 
-
-
-
-
-
-
-
 These are the best sites for flights within China
 
 * [www.ctrip.com](http&#58;//www.ctrip.com/) (10/10)
@@ -56,18 +45,15 @@ These are the best sites for flights within China
 * [www.qunar.com](http&#58;//www.qunar.com/) (7/10)
 * [www.lvmama.com](http&#58;//www.lvmama.com/) (6/10)
 
-
-
-
 Compare all alternatives researched and select 3 of the best options to choose from. Make a recommendation for the option you feel is best (with reasons) and give to your boss to get his/her approval and initial before booking.
 
-### NOTE:
+**Notes:**
 
-
-* Some travel companies, such as Flight Centre, are able to match or beat the prices quoted by their competitors so be sure to ask them for a competitive fare. See [Booking Online Versus Using a Travel Agent](http&#58;//aussietraveladvice.com/travel-advice-travel-tips/booking-a-holiday-online-versus-travel-agent/)
+* Some travel companies, such as Flight Centre, are able to match or beat the prices quoted by their competitors so be sure to ask them for a competitive fare.     
+  See [Booking Online Versus Using a Travel Agent](http&#58;//aussietraveladvice.com/travel-advice-travel-tips/booking-a-holiday-online-versus-travel-agent/)
 * Make sure that before comparing the prices the quotes include all the taxes/ surcharges/fees
 * Booking sites often charge a fee for the service, for instance
-* Ensure that the quotes you receive are 'flexible' ( i.e. they provide an option to alter the travelling dates once the tickets are purchased)
-* Remember to convert all prices to Australian dollars when comparing quotes, by using the [SSW Currency Converter](http&#58;//www.ssw.com.au/ssw/Shop/OtherCurrency.asp).
+* Ensure that the quotes you receive are 'flexible' (i.e. they provide an option to alter the travelling dates once the tickets are purchased)
+* Remember to convert all prices to Australian dollars ($AUD) when comparing quotes
 * Avoid Paper tickets - they are hard to change. Go for E-tickets
-* We would recommend Google Flight and Bing travel but neither work for Australia - see [this](https&#58;//twitter.com/AdamCogan/status/413225774192537600) tweet.
+* We would recommend Google Flight and Bing travel but neither work for Australia - see [this](http://twitter.com/AdamCogan/status/413225774192537600) tweet.
