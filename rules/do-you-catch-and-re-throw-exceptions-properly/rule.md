@@ -19,8 +19,7 @@ A good catch and re-throw will make life easier while debugging, a bad catch and
 
 <!--endintro-->
 
-
-```
+```java
 catch {} 
 (Never use an empty catch block. Do something in the block or remove it.)
 
@@ -37,10 +36,11 @@ catch (SomeException ex) { throw ex; }
 catch (SomeException ex) { someMethod(); throw ex; } 
 (Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
 ```
-
+::: bad
 Bad Example - Bad code
+:::
 
-```
+```java
 catch (SomeException ex) 
 { 
      someMethod(); 
@@ -54,6 +54,6 @@ catch (SomeException ex)
      throw wrapperEx; 
 }
 ```
-
+::: good
 Good Example - Good code
-We have a program called [SSW Code Auditor](http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule.
+:::
