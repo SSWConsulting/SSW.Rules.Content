@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Following from the previous rule, if email is actually the property of the employer, then it makes sense to actually track who is sending emails to whom. 
+If email is actually the property of the employer, then it makes sense to actually track who is sending emails to whom. 
 
 <!--endintro-->
 
