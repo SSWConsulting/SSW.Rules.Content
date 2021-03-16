@@ -24784,5 +24784,14 @@
 		"lastUpdated": "2021-03-15T23:31:27.581Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/use-a-standard-local-admin-account/rule.md",
+		"created": "2021-03-16T00:59:32.840Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-16T00:59:32.840Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
