@@ -22,7 +22,7 @@ It is good to store program settings in an .xml file. But developers rarely worr
 <!--endintro-->
 
 
-```
+```xml
 <?xml version="1.0" standalone="yes"?>
 <NewDataSet>
   <xs:schema id="NewDataSet" xmlns=""
