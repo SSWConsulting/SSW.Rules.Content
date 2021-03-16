@@ -19,7 +19,7 @@ redirects: []
 
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
 
-Read "[Definition of Done](https://www.ssw.com.au/rules/done-do-you-go-beyond-done-and-follow-a-definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
+Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)" for more information about the steps that need to be finished before replying to a done email.
 
 <!--endintro-->
 
@@ -66,8 +66,8 @@ For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should b
 In any reply, include relevant information, such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
 ::: greybox
-**Extra tips: **
-- Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](https://rules.ssw.com.au/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
+**Extra tips:**
+- Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
 - On browser screenshots, make sure you include the top-left area - so you can see the URL and what browser it is. E.g. Chrome or Edge
 :::
 
@@ -196,7 +196,7 @@ Jason
 ### Hi Jason,  
 
    &gt;1. Update the logo on Northwind website the new logo. **Done - See northwind.com**
-   &gt;2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera.**
+   &gt;2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
 
 Bob
 
@@ -271,7 +271,7 @@ Figure: Good example – If multiple tasks are 'done' with no need for extra exp
 
 ### Tip 4: Replying "Done" to huge tasks
 
-Ideally, all PBI's should be done in less than 2 days. If you are given a task that is going to more than that, then split it by following [Spec - Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) and [Breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
+Ideally, all PBI's should be done in less than 2 days. If you are given a task that is going to more than that, then split it by following [Spec - Do you keep your PBIs smaller than 2 days' effort?](/create-PBIs-under-2-days) and [Breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
 
 
 ### Tip 5: Don't consolidate emails
