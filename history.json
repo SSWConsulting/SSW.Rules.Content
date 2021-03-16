@@ -24793,5 +24793,14 @@
 		"lastUpdated": "2021-03-16T00:59:32.840Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/how-to-handle-duplicate-requests/rule.md",
+		"created": "2021-03-16T20:17:04.928Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-16T20:17:04.928Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
