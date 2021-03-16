@@ -59,11 +59,11 @@ Figure: Good Example - "Not Done" email
 
 ### Tip 1: Say "Done" first
 
-For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should be the first word(s) so the reader knows the status straight away.
+For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should be the first word(s) so the **reader knows the status straight away**.
 
 ### Tip 2: Provide details in your "Done"
 
-In any reply, include relevant information, such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
+In any reply, **include relevant information**, such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
 ::: greybox
 **Extra tips:**
@@ -95,7 +95,7 @@ Figure: Bad Example - "Done" email lacks of details
 ::: email-content  
 
 ### Hi Jason,  
-Done - added "State" field to the contact form - _northwind.com/contact _
+Done - added "State" field to the contact form - <u>northwind&#46;com/contact</u>
 
   ![Figure: New "State" field added](good-done-example-form.png)  
 
@@ -126,7 +126,7 @@ Bob
 
 :::  
 :::  
-**Figure: Original Email** 
+**Figure: Original email with the client request** 
 
 
 ::: email-template  
@@ -137,9 +137,8 @@ Bob
 ::: email-content  
 
 ### Hi Bob,  
-Hi Bob,
 
-I couldn’t find a camera so I haven’t taken the photo
+I couldn’t find a camera so I haven’t taken the photo.
 
 Jason
 :::  
@@ -157,12 +156,15 @@ Figure: Bad Example – It’s not clear which tasks have been done and which ha
 
 ### Hi Bob,  
 
-1. Done - See northwind.com 
+1. Done - See <u>northwind&#46;com</u>
 2. Not Done - I couldn’t find a camera.
 
 Jason
 
 ---
+**From:** Bob   
+**To: **Jason   
+**Subject:** Northwind website - Update logo + add a photo  
 
 ### Hi Jason,  
 As per our conversation,
@@ -192,10 +194,13 @@ I've replied inline in **bold**.
 Jason
 
 ---
+**From:** Bob   
+**To: **Jason   
+**Subject:** Northwind website - Update logo + add a photo  
 
 ### Hi Jason,  
 
-   &gt;1. Update the logo on Northwind website the new logo. **Done - See northwind.com**
+   &gt;1. Update the logo on Northwind website the new logo. **Done - See northwind&#46;com*    
    &gt;2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
 
 Bob
@@ -214,17 +219,14 @@ Figure: OK Example – It’s clear which tasks have been done, but we prefer no
 ::: email-content  
 
 ### Hi Bob,  
-Hi Bob,
 
    &gt; 1. Update the logo on Northwind website the new logo  
-Done - See northwind.com 
+Done - See <u>northwind&#46;com</u>
 
    &gt; 2. Take a photo of the office façade and add to the "About Us" page  
 Not Done - I couldn’t find a camera. 
 
-Jason
-
-To myself,
+### To myself,
 
 1. Action #2 above once I get the camera from Peter tomorrow
 
@@ -254,9 +256,8 @@ c. Give a reason if it won't be done.
 
 ### Hi Bob,  
 
-
-   &gt; 1. Update the logo on Northwind website the new logo
-   &gt; 2. Take a photo of the office façade and add to the "About Us" page
+   &gt; 1. Update the logo on Northwind website the new logo    
+   &gt; 2. Take a photo of the office façade and add to the "About Us" page   
 All Done 
 
 Jason
@@ -271,7 +272,7 @@ Figure: Good example – If multiple tasks are 'done' with no need for extra exp
 
 ### Tip 4: Replying "Done" to huge tasks
 
-Ideally, all PBI's should be done in less than 2 days. If you are given a task that is going to more than that, then split it by following [Spec - Do you keep your PBIs smaller than 2 days' effort?](/create-PBIs-under-2-days) and [Breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
+Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to more than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
 
 
 ### Tip 5: Don't consolidate emails
@@ -292,9 +293,8 @@ There is no point in keeping emails that just clutter your inbox. You don't need
 ::: email-content  
 
 ### Hi Bob,  
-Hi Bob,
 
-   &gt;1. Find the orders 
+   &gt;1. Find the orders    
 Done - used the following to get it:
 
   ```
