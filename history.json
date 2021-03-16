@@ -24793,5 +24793,14 @@
 		"lastUpdated": "2021-03-16T00:59:32.840Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/use-automatic-key-management-with-duende-identityServer/rule.md",
+		"created": "2021-03-16T18:20:03.432Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-16T22:40:02.383Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
