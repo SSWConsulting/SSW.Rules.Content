@@ -8992,9 +8992,9 @@
 	},
 	{
 		"file": "rules/do-you-always-avoid-on-error-resume-next-vb-only/rule.md",
-		"lastUpdated": "2014-09-08T10:14:57+10:00",
-		"lastUpdatedBy": "Drew Robson",
-		"lastUpdatedByEmail": "DrewRobson@ssw.com.au",
+		"lastUpdated": "2021-03-16T22:24:01.181Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-09-12T08:03:55+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -9586,9 +9586,9 @@
 	},
 	{
 		"file": "rules/do-you-version-your-xml-files/rule.md",
-		"lastUpdated": "2021-03-16T05:33:21.819Z",
-		"lastUpdatedBy": "William Liebenberg [SSW]",
-		"lastUpdatedByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-03-16T22:19:04.202Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2009-12-04T19:39:18+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -11629,9 +11629,9 @@
 	},
 	{
 		"file": "rules/do-you-consider-seo-in-your-angularjs-application/rule.md",
-		"lastUpdated": "2021-02-19T11:21:44+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-03-16T22:19:58.927Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2014-10-31T11:22:28+11:00",
 		"createdBy": "Duncan Hunter",
 		"createdByEmail": "DuncanHunter@ssw.com.au"
@@ -24795,6 +24795,7 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
+
 		"file": "rules/how-to-handle-duplicate-requests/rule.md",
 		"created": "2021-03-16T20:17:04.928Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -24802,5 +24803,14 @@
 		"lastUpdated": "2021-03-16T20:17:04.928Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/use-automatic-key-management-with-duende-identityServer/rule.md",
+		"created": "2021-03-16T18:20:03.432Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-16T22:40:02.383Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
