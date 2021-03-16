@@ -8,7 +8,7 @@ index:
 - do-you-know-the-quickest-way-to-get-your-windows-10-soe-up-and-running
 - what-to-do-when-you-have-a-pc-problem
 - do-you-use-a-package-manager
-- do-you-use-hibernate
+- call-SysAdmins-before-formatting-company-owned-laptops
 
 ---
 
