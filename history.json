@@ -24795,16 +24795,15 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
-
 		"file": "rules/how-to-handle-duplicate-requests/rule.md",
 		"created": "2021-03-16T20:17:04.928Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-03-16T20:17:04.928Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  },
-  {
+		"lastUpdated": "2021-03-16T22:44:30.945Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
 		"file": "rules/use-automatic-key-management-with-duende-identityServer/rule.md",
 		"created": "2021-03-16T18:20:03.432Z",
 		"createdBy": "Tiago Araújo [SSW]",
