@@ -26,7 +26,7 @@ services.AddIdentityServer()
     .AddDeveloperSigningCredential();
 ```
 ::: bad
-Figure: Bad example - you don't need to use .AddDevelopersSigningCredential() anymore
+Figure: Bad example - you don't need to use _.AddDevelopersSigningCredential()_ anymore
 :::
 
 When using version 5, instead of using IdentityServer4.AccessTokenValidation(), you should use the out of the box _AddAuthentication(("Bearer").AddJwtBearer("Bearer")_ from .NET 5 
@@ -40,7 +40,7 @@ services.AddAuthentication("Bearer")
     });
 ```
 ::: bad
-Figure: Bad example - don't use IdentityServer4.AccessTokenValidation package as it is deprecated.
+Figure: Bad example - don't use _IdentityServer4.AccessTokenValidation_ package as it is deprecated.
 :::
 
 ```aspnet
@@ -53,5 +53,5 @@ services.AddAuthentication("Bearer")
                 });
 ```
 ::: good
-Figure: Good example - use AddJwtBearer("Bearer") instead
+Figure: Good example - use _AddJwtBearer("Bearer")_ instead
 :::
