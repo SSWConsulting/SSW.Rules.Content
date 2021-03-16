@@ -16,7 +16,7 @@ When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use _
 
 <!--endintro-->
 
-```aspnet
+```cs
 services.AddIdentityServer()
     .AddInMemoryClients(new List<Client>())
     .AddInMemoryIdentityResources(new List<IdentityResource>())
@@ -31,7 +31,7 @@ Figure: Bad example - you don't need to use _.AddDevelopersSigningCredential()_ 
 
 When using version 5, instead of using IdentityServer4.AccessTokenValidation(), you should use the out of the box _AddAuthentication(("Bearer").AddJwtBearer("Bearer")_ from .NET 5 
 
-```aspnet
+```cs
 services.AddAuthentication("Bearer")
     .AddIdentityServerAuthentication("Bearer", options =>
     {
@@ -43,7 +43,7 @@ services.AddAuthentication("Bearer")
 Figure: Bad example - don't use _IdentityServer4.AccessTokenValidation_ package as it is deprecated.
 :::
 
-```aspnet
+```cs
 services.AddAuthentication("Bearer") 
                 .AddJwtBearer("Bearer", options =>
                 {
