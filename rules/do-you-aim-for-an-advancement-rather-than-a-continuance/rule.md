@@ -23,4 +23,4 @@ In business, everyone is busy. The prospect you met with has a million things to
 
 A prospect will tell you that they're still interested, but they haven't gotten around to making a decision for one reason or another. An advancement is a step that takes you closer to closing the sale. You should always aim for an advancement rather than a continuance. An advancement might be an agreement to complete mock-ups for the application. Often, small financial commitments will lead to bigger ones.
 
-A great example of this practice is having a [Specification Review](/Pages/Ensure-an-excellent-1st-date.aspx)being a stepping stone towards the full sale.
+A great example of this practice is having a [Specification Review](/do-you-ensure-an-excellent-1st-date-aka-winning-customers-via-a-smaller-specification-review)being a stepping stone towards the full sale.

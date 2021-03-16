@@ -20,7 +20,7 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 
 * Being ready on time
 * Having their "Remaining hours" up-to-date – read 
-      [Do you update your tasks before the daily Scrum meeting?](/Pages/DailyScrumUpdateTasks.aspx)
+      [Do you update your tasks before the daily Scrum meeting?](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 * Be ready to answer the 3 main questions:
 
 
@@ -38,7 +38,7 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 
 **Related Links**
 
-[Reports - Do you know which reports are the most important ones to track your progress?](/Pages/TrackProgress.aspx)
+[Reports - Do you know which reports are the most important ones to track your progress?](/reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress)
 
 [Management - Do you have daily stand-up meetings (Scrums)?](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 
@@ -74,4 +74,4 @@ Planning meetings** - all members of the team must be well prepared by:
 * Understanding all PBIs and the Product Owner’s priorities
 * Being responsible on estimates
 * Volunteering to work on PBIs and tasks, even if they are not related to your best skills – read 
-      [Do you encourage multi-skilled teams?](/Pages/BeingMultiSkilled.aspx)
+      [Do you encourage multi-skilled teams?](/the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone)

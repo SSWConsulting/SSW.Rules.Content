@@ -46,8 +46,8 @@ To add a [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/Default.aspx) 
 11. Point it to the SSW Code Auditor executable
 
 
-See [Do you run SSW Code Auditor?](/Pages/AddCAFxCopToSolution.aspx) 
-See [Do you check your code by Code Auditor before check-in?](/Pages/AddCAFxCopToSolution.aspx) 
+See [Do you run SSW Code Auditor?](/do-you-add-ssw-code-auditor-nunit-and-microsoft-fxcop-project-files-to-your-solution) 
+See [Do you check your code by Code Auditor before check-in?](/do-you-add-ssw-code-auditor-nunit-and-microsoft-fxcop-project-files-to-your-solution) 
 To add a [Microsoft Fx](http://www.ssw.com.au/ssw/Standards/DeveloperGeneral/netTools.aspx#FxCop)Copfile to your solution:
 1. Stat up  **Microsoft FxC**
 2. **op**

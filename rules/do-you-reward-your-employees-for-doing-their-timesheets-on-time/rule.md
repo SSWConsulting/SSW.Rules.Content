@@ -18,7 +18,7 @@ redirects:
 
 Having a reward system in place can be a great way to make sure all employees get their timesheets in on time.
 
-Get your employees to enter [their timesheets daily](/Pages/when-to-enter-your-timesheets.aspx) and have a system that entails:
+Get your employees to enter [their timesheets daily](/do-you-know-when-to-enter-your-timesheets) and have a system that entails:
 
 <!--endintro-->
 

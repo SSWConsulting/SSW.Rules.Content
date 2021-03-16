@@ -23,11 +23,5 @@ You can find SSW Employee phone numbers in two ways:
 <!--endintro-->
 
 1. **Using Skype for Business** 
-![Figure: Right click on a user and click call and their mobile is there](../../assets/Image.jpg)  
 
 2. **Using CRM** 
-![](../../assets/Image.jpg)  
-
-            <img src="../../assets/Image.jpg" alt="" style="width:750px;">
-         
-![Figure: Go to "Users" and search for the name you need](../../assets/Image.jpg)

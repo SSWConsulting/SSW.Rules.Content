@@ -61,7 +61,7 @@ redirects: []
 <font size="2"><span>Hi  <strong>&lt;团队名称&gt;</strong> ,</span></font>
 <font size="2"><div><span>根据我们的讨论， <strong>&lt;项目名称</strong> &gt;的每日Scrum会议在每个工作日的11:00AM(悉尼时间)在&lt; <strong>地点&gt;</strong> 举行。</span></div>
 <div>根据以下规则，它持续时间最长为15分钟</div>
-<div><span><font color="#3a66cc"><a href="/Pages/DailyStandUpScrum.aspx">http://rules.ssw.com.au/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx</a></font></span></div>
+<div><span><font color="#3a66cc"><a href="/methodology-daily-scrums">https://www.ssw.com.au/rules/methodology-daily-scrums</a></font></span></div>
 <div><span>
 </span></div>
 <div>谢谢,</div>

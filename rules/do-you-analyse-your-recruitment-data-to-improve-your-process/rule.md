@@ -17,7 +17,7 @@ In order to give you candidates the best experience, you need to be constantly a
 
 <!--endintro-->
 
-An Applicant Tracking System (ATS) system like LinkedIn Talent Hub gives you the ability to track your recruitment data, as well as your candidates.  It allows you to analyse things like:
+An Applicant Tracking System (ATS) system like LinkedIn Talent Hub gives you the ability to track your recruitment data, as well as your candidates. It allows you to analyse things like:
 
 * Your candidate funnel - how many candidates went into the top of the funnel, and how many made it through to each stage of the process.
 * How long it took to recruit someone, from posting the job ad, to signing the contract.
@@ -26,10 +26,8 @@ An Applicant Tracking System (ATS) system like LinkedIn Talent Hub gives you the
 * Where you candidates came from, and where they may have previously worked.
 * If your process has any issues – for example, where you lost the most people, or if a stage took too long to complete.
 
-![](LinkedInHubReport2.png)
-**F** **igure: A report from LinkedIn Talent Hub showing the how many people remain in each stage of your recruitment process.**
-![](LinkedInHubReport1.png)
-**Figure: LinkedIn Hub that is used alongside LinkedIn Recruiter. You can see how many candidates go into your pipeline, how many make it to each stage of your recruitment process, and how long it takes at each stage, including the “time to hire”. This should show how efficient your process is, and if you lose too many candidates at certain stages in your process.**
+![Figure: A report from LinkedIn Talent Hub showing the how many people remain in each stage of your recruitment process](LinkedInHubReport2.png)
 
-**
-**
+![Figure: LinkedIn Hub that is used alongside LinkedIn Recruiter](LinkedInHubReport1.png)
+
+You can see how many candidates go into your pipeline, how many make it to each stage of your recruitment process, and how long it takes at each stage, including the “time to hire”. This should show how efficient your process is, and if you lose too many candidates at certain stages in your process.

@@ -21,7 +21,6 @@ index:
 - rules-to-better-nuget
 - rules-to-better-sql-server-schema-deployment
 - rules-to-better-web-api
-- rules-to-better-web-api
 - rules-to-better-web-api-rest
 - rules-to-better-web-api-graphql
 - rules-to-better-web-api-grpc

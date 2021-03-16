@@ -49,5 +49,5 @@ Figure: Good Example - The bad example rewired to utilize AutoFac. Red boxes out
 ### Further Reading:
 
 * [Do you use a dependency injection centric architecture?](/do-you-use-a-dependency-injection-centric-architecture)
-* [Do you generate the VS dependency graph?](/Pages/DoYouGenerateTheVSDependencyGraph.aspx)
+* [Do you generate the VS dependency graph?](/do-you-generate-the-vs-dependency-graph)
 * [Do you know the best dependency injection container? (aka Do not waste days evaluating IOC containers)](/do-you-know-the-best-dependency-injection-container-aka-do-not-waste-days-evaluating-ioc-containers)

@@ -20,6 +20,6 @@ Websites that use frames often don't get crawled by search engine spiders. The w
 
 <!--endintro-->
 
-Here is what Google says on [Frames](https&#58;//support.google.com/webmasters/answer/34445?hl=en):
+Here is [what Google says on "framed sites"](https://support.google.com/analytics/answer/1012049?hl=en):
 
-"Google supports frames and iframes to the extent that it can. Frames can cause problems for search engines because they don't correspond to the conceptual model of the web. In this model, one page displays only one URL. Pages that use frames or iframes display several URLs (one for each frame) within a single page. Google tries to associate framed content with the page containing the frames, but we don't guarantee that we will."
+> "the Navigation Summary and Site Overlay reports for sites with frames is not likely to provide useful information, since every frame with tag on it will be recorded as a separate pageview. Additionally, the order of these pageviews will depend on the order in which the frames are loaded, instead of the actual navigation path taken by your users."

@@ -25,7 +25,7 @@ There needs to be consistency between all of your developers' timesheets, so you
 :::
 
 * Follow 
-      [Do you know how to describe the work you have done?](/Pages/how-to-describe-the-work.aspx)
+      [Do you know how to describe the work you have done?](/do-you-know-how-to-describe-the-work-you-have-done-while-avoiding-the-word-bug)
 * Record all the work you do for a client, even if it is to be written off
 * If you are working with another employee, ensure your times are consistent, in both time and category
 * If you are providing telephone support, count your time in 15 minute blocks

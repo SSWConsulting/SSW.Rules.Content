@@ -20,7 +20,7 @@ redirects:
 
 Moving a rule page from a folder to another is not needed anymore. All rule pages are staying in the same library (folder called "Pages") since we moved the rule pages from 100+ subwebs into the root one.
 
-If you want a rule page to be shown on a different rule summary page, simply change the "Rule Category" field value to the relevant one (see step #7 on [Do you know how to create a rule?](/Pages/how-to-create-a-rule.aspx))
+If you want a rule page to be shown on a different rule summary page, simply change the "Rule Category" field value to the relevant one (see step #7 on [Do you know how to create a rule?](/how-to-create-a-rule))
 
 --
 

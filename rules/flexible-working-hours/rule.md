@@ -8,7 +8,8 @@ created: 2020-03-25T23:53:51.0000000Z
 authors:
 - title: Penny Walker
   url: https://ssw.com.au/people/penny-walker
-related: []
+related: 
+- /calendar-do-you-set-your-work-hours-in-your-calendars
 redirects:
 - do-you-aim-to-keep-your-working-hours-consistent
 
@@ -23,8 +24,3 @@ Set your hours and stick to them. It’s ok to start at 7 am and finish at 4 pm,
 Separate your work and home time - this is super important to help you structure your day and stay motivated.
 
 Lock your computer when the working day ends, as you would normally do in the office.
-
-### Related rule
-
-
-* [Calendar - Do you set your work hours in CRM and your calendars?](/calendar-do-you-set-your-work-hours-in-your-calendars)

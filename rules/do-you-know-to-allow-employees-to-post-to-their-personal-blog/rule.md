@@ -30,6 +30,6 @@ Figure: Bad example, employees must post to the corporate blog.
 Figure: Good example, Allowing employees to post to their personal blog is a win, win situation. But they should do the Gold Plating after hours  
 :::
 
- See: [<font color="#000080">Do you know to do the gold plating after hours?</font>](/Pages/GoldPlate.aspx "http://sharepoint.ssw.com.au/Standards/Communication/RulesToBetterBlogging/Pages/GoldPlate.aspx")
+ See: [Do you know to do the gold plating after hours?](/do-you-know-to-do-the-gold-plating-after-hours)
 
 Tip: Get your employees to add an “SSW” category to their blog so you can aggregate their posts onto the corporate site.

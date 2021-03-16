@@ -20,7 +20,7 @@ redirects:
 
 ---
 
-The findings of the Spec Review should be presented at a meeting with the key decision makers of the project for review and acceptance, generally in the form of a PowerPoint presentation, or sometimes a word doc. It is important that all the required people are in a room together to review the plan.
+The findings of the Spec Review should be presented by the developers and the Account Manager at a meeting with the key decision makers of the project for review and acceptance, generally in the form of a PowerPoint presentation, or sometimes a word doc. It is important that all the required people are in a room together to review the plan.
 
 <!--endintro-->
 

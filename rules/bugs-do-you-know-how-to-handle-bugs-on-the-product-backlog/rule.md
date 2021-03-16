@@ -19,7 +19,7 @@ redirects: []
 
 Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate. All other bugs found independent of the work on the current sprint are placed on the Product Backlog.
 
-See [<font color="#000080">Do you know when to create bugs?</font>](/Pages/CreateBugs.aspx) for detailed information on identifying when something is a bug, and when to just fix it.
+See [<font color="#000080">Do you know when to create bugs?</font>](/during-a-sprint-do-you-know-when-to-create-bugs) for detailed information on identifying when something is a bug, and when to just fix it.
 
 <!--endintro-->
 

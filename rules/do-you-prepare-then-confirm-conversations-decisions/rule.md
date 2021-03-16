@@ -22,4 +22,4 @@ Ideally all phone conversations and meetings should be confirmed afterwards so y
 2. Draft an email with bullet points for each issue (don't send)
 3. Call up the client (or have a meeting)
 4. Modify during conversation
-5. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/Pages/DoYouAlwaysSendAnAsPerOurConversationEmail.aspx)"
+5. Send the email to the client (cc relevant people e.g. the developer) saying "[As per our conversation...](/do-you-send-as-per-our-conversation-emails)"

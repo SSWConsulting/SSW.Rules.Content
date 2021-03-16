@@ -46,7 +46,7 @@ It can sometimes be hard to work out when to use a lead vs a contact and company
 **Figure: There is only one scenario where you would use a lead** 
 
 
-It is better to have all your contacts in one place rather than split over 2 separate           tables. Leads are not needed except as a data entry tool to help you link new contacts,           companies, and opportunities. See [Quick Way to create an opportunity, contact and account in one step](/Pages/Leads-can-be-converted-to-Opportunities-Contacts-and-Accounts.aspx).
+It is better to have all your contacts in one place rather than split over 2 separate           tables. Leads are not needed except as a data entry tool to help you link new contacts,           companies, and opportunities. See [Quick Way to create an opportunity, contact and account in one step](/data-entry-do-you-know-the-quick-way-to-create-a-contact-account-and-opportunity-in-1-go).
 
 The only legitimate use of leads is for completely unqualified data, e.g.
 

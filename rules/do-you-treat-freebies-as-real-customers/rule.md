@@ -25,7 +25,7 @@ In the course of business, you may occasionally provide some services or product
     * [specification reviews](/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage)
     * [release plans](/spec-do-you-know-what-extra-work-is-included-within-a-sprint)
     * [triaging additional items](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
-    * [release debriefs](/Pages/ReleaseDebrief.aspx)
+    * [release debriefs](/management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis)
     * issue a Discount Code for a free ticket to our regular events
 
 **Consider the follow scenario:** 

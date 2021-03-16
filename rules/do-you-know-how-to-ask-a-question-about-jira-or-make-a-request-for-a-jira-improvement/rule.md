@@ -11,5 +11,5 @@ redirects: []
 
 ---
 
-If you don't understand something in Jira and want it explained, simply [Create an Issue](/Pages/JiraRequest.aspx) in the project Jira of type Task [like this](/Pages/CreateTask.aspx).  If the question is good for all, it will be made into a rule for all.  If the suggestion is approved, it will be implemented.  You will, of course, be able to [track](/Pages/TrackingRequests.aspx)the status of what you create so that we can work efficiently on the right things in a visible way.  
+If you don't understand something in Jira and want it explained, simply [Create an Issue](/do-you-know-how-to-ask-a-question-about-jira-or-make-a-request-for-a-jira-improvement) in the project Jira of type Task [like this](/do-you-know-how-to-create-issues-in-jira.  If the question is good for all, it will be made into a rule for all.  If the suggestion is approved, it will be implemented.  You will, of course, be able to [track](/do-you-know-how-to-track-requests-in-jira)the status of what you create so that we can work efficiently on the right things in a visible way.  
 <!--endintro-->

@@ -34,6 +34,6 @@ Figure: Bad example - Here we have text describing a flower
 What else can you do?
 
 * Use good captions - See 
-      [Do you add useful and bold figure text (aka a caption) to avoid a lot of text over images?](/Pages/add-useful-caption.aspx)
+      [Do you add useful and bold figure text (aka a caption) to avoid a lot of text over images?](/add-useful-and-concise-figure-captions)
 * Use good HTML - See 
-      [Do you use the right HTML/CSS code to add the useful figure/caption?](/Pages/use-the-right-HTML-CSS-code-to-add-the-useful-caption.aspx)
+      [Do you use the right HTML/CSS code to add the useful figure/caption?](/use-the-right-html-figure-caption)

@@ -14,6 +14,8 @@ redirects:
 
 ---
 
+
+
 Use VARCHAR instead of CHAR, unless your data is almost always of a fixed length, or is very short. For example, a Social Security/Tax File number which is always 9 characters. These situations are rare.
 
 SQL Server fits a whole row on a single page, and will never try to save space by splitting a row across two pages.
