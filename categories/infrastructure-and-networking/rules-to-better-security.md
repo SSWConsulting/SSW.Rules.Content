@@ -9,7 +9,7 @@ index:
 - understand-the-dangers-of-social-engineering
 - follow-security-checklists
 - do-you-use-built-in-authentication-from-ms
-- use-automatic-key-management-with-duende-identityServer
+- use-automatic-key-management-with-duende-identityserver
 
 ---
 Do you know the best free .NET security videos? [Watch them on SSW TV](https&#58;//tv.ssw.com/category/security).
