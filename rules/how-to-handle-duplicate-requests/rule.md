@@ -19,6 +19,7 @@ Whether you keep a backlog or are just using your email inbox as a to-do list, y
 <!--endintro-->
 
 **A:** Get rid of the duplicates and only keep one (you need to spend time informing everyone about the merge)
+
 **B:** <mark>Recommended</mark> - Keep them all and when you do it, reply to all the emails with your ‘Done’ OR close each of the PBIs. (Of course it is a good idea to relate those tasks by adding links or the email subjects)
 
 ::: email-template  
