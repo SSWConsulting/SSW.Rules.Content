@@ -12,7 +12,7 @@ related:
 
 ---
 
-When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use _UseDeveloperSigningCredentials()_ anymore as it is now enabled by default.
+When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use `UseDeveloperSigningCredentials()` anymore as it is now enabled by default.
 
 <!--endintro-->
 
@@ -26,10 +26,10 @@ services.AddIdentityServer()
     .AddDeveloperSigningCredential();
 ```
 ::: bad
-Figure: Bad example - you don't need to use _.AddDevelopersSigningCredential()_ anymore
+Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore
 :::
 
-When using version 5, instead of using IdentityServer4.AccessTokenValidation(), you should use the out of the box _AddAuthentication(("Bearer").AddJwtBearer("Bearer")_ from .NET 5 
+When using version 5, instead of using `IdentityServer4.AccessTokenValidation()`, you should use the out of the box `AddAuthentication(("Bearer").AddJwtBearer("Bearer")` from .NET 5 
 
 ```cs
 services.AddAuthentication("Bearer")
@@ -40,7 +40,7 @@ services.AddAuthentication("Bearer")
     });
 ```
 ::: bad
-Figure: Bad example - don't use _IdentityServer4.AccessTokenValidation_ package as it is deprecated.
+Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.
 :::
 
 ```cs
@@ -52,5 +52,5 @@ services.AddAuthentication("Bearer")
     });
 ```
 ::: good
-Figure: Good example - use _AddJwtBearer("Bearer")_ instead
+Figure: Good example - use `AddJwtBearer("Bearer")` instead
 :::
