@@ -19,28 +19,29 @@ A good catch and re-throw will make life easier while debugging, a bad catch and
 
 <!--endintro-->
 
-
-```
+```cs
 catch {} 
-(Never use an empty catch block. Do something in the block or remove it.)
 
 catch (SomeException) {} 
-(Never use an empty catch block. Do something in the block or remove it.)
 
 catch { throw; } 
-(Never use an empty catch block. Do something in the block or remove it.)
+
 catch (SomeException) { throw; } 
-(Never use an empty catch block. Do something in the block or remove it.)
+```
+::: bad
+Bad Example - Never use an empty catch block. Do something in the block or remove it.
+:::
+
+```cs
 catch (SomeException ex) { throw ex; } 
-(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
 
 catch (SomeException ex) { someMethod(); throw ex; } 
-(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
 ```
+::: bad
+Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.
+:::
 
-Bad Example - Bad code
-
-```
+```cs
 catch (SomeException ex) 
 { 
      someMethod(); 
@@ -54,6 +55,6 @@ catch (SomeException ex)
      throw wrapperEx; 
 }
 ```
-
+::: good
 Good Example - Good code
-We have a program called [SSW Code Auditor](http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule.
+:::
