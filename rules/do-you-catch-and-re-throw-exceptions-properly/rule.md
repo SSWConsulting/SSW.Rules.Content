@@ -19,28 +19,29 @@ A good catch and re-throw will make life easier while debugging, a bad catch and
 
 <!--endintro-->
 
-```java
+```cs
 catch {} 
-(Never use an empty catch block. Do something in the block or remove it.)
 
 catch (SomeException) {} 
-(Never use an empty catch block. Do something in the block or remove it.)
 
 catch { throw; } 
-(Never use an empty catch block. Do something in the block or remove it.)
-catch (SomeException) { throw; } 
-(Never use an empty catch block. Do something in the block or remove it.)
-catch (SomeException ex) { throw ex; } 
-(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
 
-catch (SomeException ex) { someMethod(); throw ex; } 
-(Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.)
+catch (SomeException) { throw; } 
 ```
 ::: bad
-Bad Example - Bad code
+Bad Example - Never use an empty catch block. Do something in the block or remove it.
 :::
 
-```java
+```cs
+catch (SomeException ex) { throw ex; } 
+
+catch (SomeException ex) { someMethod(); throw ex; } 
+```
+::: bad
+Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw; instead.
+:::
+
+```cs
 catch (SomeException ex) 
 { 
      someMethod(); 
