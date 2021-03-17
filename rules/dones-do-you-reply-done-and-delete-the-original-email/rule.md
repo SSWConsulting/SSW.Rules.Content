@@ -163,7 +163,7 @@ Jason
 
 ---
 **From:** Bob   
-**To: **Jason   
+**To:** Jason   
 **Subject:** Northwind website - Update logo + add a photo  
 
 ### Hi Jason,  
@@ -195,19 +195,19 @@ Jason
 
 ---
 **From:** Bob   
-**To: **Jason   
+**To:** Jason   
 **Subject:** Northwind website - Update logo + add a photo  
 
 ### Hi Jason,  
 
-   &gt;1. Update the logo on Northwind website the new logo. **Done - See northwind&#46;com*    
+   &gt;1. Update the logo on Northwind website the new logo. **Done - See northwind&#46;com**    
    &gt;2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
 
 Bob
 
 :::  
 :::
-::: OK
+::: ok
 Figure: OK Example – It’s clear which tasks have been done, but we prefer not to reply inline  
 :::
 
