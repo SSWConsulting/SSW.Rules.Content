@@ -19,16 +19,13 @@ While there is a web app available, Microsoft has now released a CRM mobile app 
 
 <!--endintro-->
 
-
 ::: good  
 ![Figure: CRM on your mobile gives you even more accessibility to your important company information](crm-mobile.jpg)  
 :::
 
 You can download it now for your device (Aussie links):
 
-* **Android:** https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone
-* **Apple iOS:** https://apps.apple.com/au/app/microsoft-dynamics-365/id678800460
-* **Windows Phone:** https://www.microsoft.com/en-au/p/dynamics-crm-for-phones-express/9wzdncrdtbnx?rtc=1&activetab=pivot:overviewtab
-
+* **Android:** [Dynamics 365 - Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.crm.crmphone)
+* **Apple iOS:** [Microsoft Dynamics 36‪5 - App Store](https://apps.apple.com/au/app/microsoft-dynamics-365/id678800460)
 
 Make sure when you download that you're getting the official app released by Microsoft Corporation.
