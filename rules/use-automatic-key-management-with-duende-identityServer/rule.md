@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Do you use Automatic Key management with Duende IdentityServer?
 guid: b045ffb9-254e-49e0-a971-31a4f6eb4ae7
-uri: use-automatic-key-management-with-duende-identityServer
+uri: use-automatic-key-management-with-duende-identityserver
 created: 2021-03-17T09:45:07.0000000Z
 authors:
 - title: Anthony Nguyen
@@ -45,12 +45,11 @@ Figure: Bad example - don't use _IdentityServer4.AccessTokenValidation_ package 
 
 ```cs
 services.AddAuthentication("Bearer") 
-                .AddJwtBearer("Bearer", options =>
-                {
-                    options.Audience = "api1";
-                    options.Authority = "https://localhost:5000";
-
-                });
+  .AddJwtBearer("Bearer", options =>
+    {
+      options.Audience = "api1";
+      options.Authority = "https://localhost:5000";
+    });
 ```
 ::: good
 Figure: Good example - use _AddJwtBearer("Bearer")_ instead
