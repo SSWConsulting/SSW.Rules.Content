@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Example Rule
-guid:
+guid: 55db32aa-0718-4868-995c-673d8dd69f62
 uri: rule
 created: 2021-01-20T05:06:33.0000000Z
 authors:
