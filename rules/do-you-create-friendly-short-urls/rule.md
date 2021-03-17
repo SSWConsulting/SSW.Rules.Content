@@ -23,9 +23,9 @@ Is it for space or readability? If it is for readability or you expect anyone to
 
 I want to be able to type this URL in, but it is VERY long:
 
-```
-blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
-```
+::: greybox
+blogs&#46;msdn&#46;com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs&#46;aspx
+:::
 ::: bad
 Bad example - People can’t easily type this URL in... it is too long  
 :::
@@ -33,7 +33,7 @@ Bad example - People can’t easily type this URL in... it is too long
 
 ::: greybox
 Thanks Rob, that is great.
-Made a bit.ly at http&#58;//bit.ly/aC5Lb2
+Made a bit.ly at http&#58;//bit&#46;ly/aC5Lb2
 :::
 ::: ok
 OK example - Short URL, but how will people remember that?  
@@ -42,7 +42,7 @@ OK example - Short URL, but how will people remember that?
 
 ::: greybox
 Thanks Rob, that is great.
-Made a bit.ly at http&#58;//bit.ly/VS2010VM
+Made a bit.ly at http&#58;//bit&#46;ly/VS2010VM
 :::
 ::: good
 Good example - Short URL, easier to remember  
