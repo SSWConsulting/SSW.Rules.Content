@@ -80,6 +80,7 @@ index:
 - do-you-carry-more-than-just-the-microsoft-tool-box
 - do-you-do-monthly-peer-evaluations
 - do-you-manage-your-email
+- how-to-handle-duplicate-requests
 
 ---
 ### What is a successful project?
@@ -90,19 +91,13 @@ Since our focus is on the client, a successful project for SSW means  **every** 
 
 Project managers define this as  **On Time, On Scope, and On Budget**.
 
-"A successful project is where everyone involved is happy with the final outcome."
-
+> "A successful project is where everyone involved is happy with the final outcome."
 
 What is it that makes a good software development consultancy? What sets one company completely above the other? What makes a project completely successful?
 
 The promise of a successful project is something we all work harder to achieve, but working harder is not the answer. Software companies need to work smarter before, during, and after development, to ensure that the client gets not only what they want, but what they need.
 
-
-
-
 `youtube: https://www.youtube.com/embed/atVkEY8v1CU`
 
-
-
-There are real gurus in this field like        [Joel Spolsky](http://www.ssw.com.au/ssw/Redirect/homepageJoelOnSoftware.htm),        [Kent Beck](http://www.ssw.com.au/ssw/Redirect/XP/AmazonExtremeProgramming.htm),        [Tom DeMarco, and Timothy Lister](http://www.ssw.com.au/ssw/Redirect/XP/AmazonPeopleWare.htm). We like what they say, but we also reckon they miss a few things as well - everyone has their own ideas. These are the rules we run by every day. We believe they can help every software developer and team manager to deliver better code and a better end product.
+There are real gurus in this field like [Joel Spolsky](http://www.ssw.com.au/ssw/Redirect/homepageJoelOnSoftware.htm), [Kent Beck](http://www.ssw.com.au/ssw/Redirect/XP/AmazonExtremeProgramming.htm), [Tom DeMarco, and Timothy Lister](http://www.ssw.com.au/ssw/Redirect/XP/AmazonPeopleWare.htm). We like what they say, but we also reckon they miss a few things as well - everyone has their own ideas. These are the rules we run by every day. We believe they can help every software developer and team manager to deliver better code and a better end product.
 
