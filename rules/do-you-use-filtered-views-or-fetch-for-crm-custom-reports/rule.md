@@ -25,18 +25,17 @@ But when the user wants to create a report that needs additional totals, differe
 
 Do you use Filtered Views or Fetch?
 
-[Filtered Views](http://msdn.microsoft.com/en-us/library/gg309722.aspx) allows the report developer to query underlying SQL data directly. Filtered views are fully compliant with the Microsoft Dynamics CRM security model. When you run a report that obtains data from filtered views, the Microsoft Dynamics CRM security role determines what data you can view in the report.
+[Filtered Views](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/crm.6/gg309722(v=crm.6)?redirectedfrom=MSDN) allows the report developer to query underlying SQL data directly. Filtered views are fully compliant with the Microsoft Dynamics CRM security model. When you run a report that obtains data from filtered views, the Microsoft Dynamics CRM security role determines what data you can view in the report.
 
 ![Figure: Filtered Views in the CRM SQL Database](custom-reports-2.jpg)  
 
-[Fetch](http://technet.microsoft.com/en-us/library/bb928434.aspx) is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
+[Fetch](https://docs.microsoft.com/en-us/previous-versions/dynamics-crm4/developers-guide/bb928434(v=msdn.10)?redirectedfrom=MSDN) is a proprietary query language that is used in Microsoft Dynamics CRM. It is based on a schema that describes the capabilities of the language. The FetchXML language supports similar query capabilities as query expression. It is used primarily as a serialized form of query expression, used to save a query as a user owned saved view in the userquery entity or as an organization owned view in the savedquery entity.
 
 Now with that out of the way which one do I use?
 
 1. If you’re using CRM Online then you have no choice, you will use Fetch as CRM Online does not allow access to the underlying CRM SQL Database.
 2. **If you are using On-Premise CRM and are \*unlikely\* to ever migrate to CRM Online then Filtered Views is the right choice.**
 3. If you are using On-Premise CRM and there is \* **any\*** chance of moving the CRM Online then use Fetch (otherwise your custom reports will need to be re-written to use Fetch).
-
 
 Fetch Restrictions:
 
@@ -49,11 +48,10 @@ Fetch Restrictions:
 * **FetchXML reports cannot use non-CRM online data sources.**
 * Learning curve – for report writers that are not familiar with FetchXML the syntax is quite different from SQL.
 
-
 What do you need get started writing Fetch based CRM Custom Reports?
 
 * Visual Studio (or BIDS, SSDT etc)
-* [Dynamics Report Authoring Extensions](http://www.microsoft.com/en-au/download/details.aspx?id=27823)
+* [Dynamics Report Authoring Extensions](https://www.microsoft.com/en-au/download/details.aspx?id=27823)
 
 
 Get up and running quickly with Fetch:
@@ -63,7 +61,6 @@ Get up and running quickly with Fetch:
 3. Import RDL file into Reporting Services Project
 4. Update and enhance report
 5. Upload back into CRM
-
 
 More advanced users will have a boilerplate(s) for the various CRM report styles they produce and just build on top of the template.
 
@@ -81,8 +78,7 @@ Five enhancements that required a custom report:
 * Links to regarding account (in a grouping)
 * Colour coded series for charts that relate back to the report data headings
 
-
 More Information:
 
-* [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](http://blogs.msdn.com/b/crminthefield/archive/2012/11/27/custom-reporting-in-microsoft-dynamics-crm-fetch-vs-filtered-views.aspx)
-* [Developing Fetch XML Based SSRS Reports](http://social.technet.microsoft.com/wiki/contents/articles/10234.microsoft-dynamics-crm-2011-develop-fetch-xml-based-ssrs-reports-in-visual-studio-2008.aspx)
+* [Custom Reporting in Microsoft Dynamics CRM - Fetch vs. Filtered Views](https://community.dynamics.com/crm/b/crminthefield/posts/custom-reporting-in-microsoft-dynamics-crm-fetch-vs-filtered-views)
+* [Developing Fetch XML Based SSRS Reports](https://social.technet.microsoft.com/wiki/contents/articles/10234.microsoft-dynamics-crm-2011-develop-fetch-xml-based-ssrs-reports-in-visual-studio-2008.aspx)
