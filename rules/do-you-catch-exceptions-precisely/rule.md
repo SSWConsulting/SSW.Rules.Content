@@ -19,7 +19,7 @@ In the try and catch block, if you always catch for normal [Exception](https://d
 
 <!--endintro-->
 
-```cpp
+```cs
 try 
 { 
      connection.Open();
@@ -33,7 +33,7 @@ catch (Exception ex)
 Bad code – Catching the general Exception
 :::
 
-```cpp
+```cs
 try 
 { 
      connection.Open(); 
