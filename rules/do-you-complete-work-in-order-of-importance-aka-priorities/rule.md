@@ -23,7 +23,7 @@ With a mountain of emails, it is difficult to make sure the most important tasks
 <!--endintro-->
 
 ::: greybox
-The word "Urgent" is more important than the word "Important"
+The word **"Urgent"** is more important than the word **"Important"**
 :::
 
 ![Figure: Remove roadblocks](challenges-ahead-sign.jpg)  
@@ -38,11 +38,11 @@ This is the order which you should work:
 6. **Prospective clients** - project management, answering questions and setting up meetings
 7. Internal - all of the following might have their priorities ordered by the Daily Scrum
     1. Quick Important emails to 0 (emails with an important flag &lt; 1 hour and not something that can go into a release plan)
-    2. Incomplete [Sprints](http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx) (was "[release plans](http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterProjectManagement/Pages/DetailedReleasePlan.aspx)") e.g. Normal planned internal work
+    2. Incomplete [Sprints](/do-you-know-what-happens-at-a-sprint-planning-meeting). E.g. Normal planned internal work
     3. Important emails to 0
     4. Help others get their important emails to 0
     5. Get your inbox to 0
-    6. Ping others to see if they need help completing their [Sprint](http://sharepoint.ssw.com.au/Standards/Management/RulesToBetterScrumUsingTFS/Pages/SprintPlanning%28WHAT%29Meeting.aspx)
+    6. Ping others to see if they need help completing their Sprint
 8. Phew... Done...
 
 ::: greybox
