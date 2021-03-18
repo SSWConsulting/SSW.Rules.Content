@@ -15,11 +15,7 @@ related: []
 
 
 
-<div class="fb-page" 
-data-tabs="timeline,events,messages"
-data-href="https://www.facebook.com/YoloBookStore"
-data-width="380" 
-data-hide-cover="false"></div>
+<div class="fb-post" data-href="https://www.facebook.com/SSW.page/photos/a.334643903218918/4507577035925563/" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/SSW.page/photos/a.334643903218918/4507577035925563/?type=3" class="fb-xfbml-parse-ignore"><p>📢 LIVE in 30 minutes! Join this months .NET Online User Group: &quot;Federated Identity: 🔑 An Introduction to OAuth2 —&gt; Open...</p>Posted by <a href="https://www.facebook.com/SSW.page/">SSW</a> on&nbsp;<a href="https://www.facebook.com/SSW.page/photos/a.334643903218918/4507577035925563/?type=3">Wednesday, March 17, 2021</a></blockquote></div>
 
 
 
