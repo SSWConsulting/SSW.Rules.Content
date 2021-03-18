@@ -5,7 +5,13 @@ title: Do you link emails to the rule/template they follow?
 guid: 99a6745c-3376-46f7-b7b9-f8a627d77b36
 uri: link-emails-to-the-rule-or-template-they-follow
 created: 2012-03-20T15:13:20.0000000Z
-authors: []
+authors: 
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: Ulysses MacLaren
+  url: https://ssw.com.au/people/uly
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects: 
 - do-you-link-internal-emails-to-the-rule-they-follow
