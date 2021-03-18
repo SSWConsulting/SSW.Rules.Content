@@ -25,7 +25,7 @@ This is because NB is old-fashioned – it is the abbreviation for “nota bene�
 
 
 ::: greybox
- **NB:** It is important to track how long this process runs for.
+ **NB:** It is important to track the length of this process.
 
 :::
 
@@ -39,7 +39,7 @@ Bad example: NB is unclear and old-fashioned
 
 
 ::: greybox
- **Note:** It is important to track how long this process runs for.
+ **Note:** It is important to track the length of this process.
 
 :::
 
