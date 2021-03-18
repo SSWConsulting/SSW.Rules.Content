@@ -15,10 +15,7 @@ related: []
 
 
 
-<div class="fb-post" data-href="https://www.facebook.com/SSW.page/photos/a.334643903218918/4507577035925563/" data-width="500" data-show-text="true"><blockquote cite="https://www.facebook.com/SSW.page/photos/a.334643903218918/4507577035925563/?type=3" class="fb-xfbml-parse-ignore"><p>📢 LIVE in 30 minutes! Join this months .NET Online User Group: &quot;Federated Identity: 🔑 An Introduction to OAuth2 —&gt; Open...</p>Posted by <a href="https://www.facebook.com/SSW.page/">SSW</a> on&nbsp;<a href="https://www.facebook.com/SSW.page/photos/a.334643903218918/4507577035925563/?type=3">Wednesday, March 17, 2021</a></blockquote></div>
-
-
-
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSSW.page%2Fphotos%2Fa.334643903218918%2F4507577035925563%2F&width=500&show_text=true&height=691&appId" width="500" height="691" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 
 
 ![Figure](BadCommitMessage.png)
