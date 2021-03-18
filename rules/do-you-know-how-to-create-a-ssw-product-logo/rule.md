@@ -23,62 +23,33 @@ Figure: Good Example - Some of the current SSW Product Logos
 
 :::
 
-
-
-
 ### 1. The main parts of an SSW product logo
 
 A well designed SSW product logo has three parts: a pair of angle brackets, an icon, and the product name.  
 
- 
-         <img src="logoparts.png" alt="" style="width:770px;">
-         <span style="font-weight:bold;">Figure: Main parts of an SSW product logo</span>         <span style="font-weight:bold;">
-</span>
-###  2. The color of an SSW product logo
+![Figure: Main parts of an SSW product logo](logoparts.png)
 
+### 2. The color of an SSW product logo
 
+The colors used on the SSW product logo are the primary colors of SSW which are red and charcoal.
 
- The colors used on the SSW product logo are the primary colors of SSW which are red and charcoal.
-
-
-| #CC4141 | RGB (204,65,65) | #333333 | RGB (51,51,51)
- |
-| --- | --- |
-
-
-
+- Red: #CC4141 | RGB (204,65,65)
+- Charcoal: #333333 | RGB (51,51,51)
 
 An SSW product logo can be shown in these color variations: Two-Colored, SSW charcoal, true black, or all white.
 
-      <img src="4 color logo.png" alt="" style="width:770px;">
-   
-
 ::: good
-Figure: Good Example - TimePro logo in 4 different colors
-
+![Figure: Good Example - TimePro logo in 4 different colors](4 color logo.png)
 :::
-
-
-
 
 ### 3. The font of an SSW product logo
 
-
-The font used on SSW product logo is Helvetica Neue LT Pro, the font weight for the first part of the product name is 75 Bold, for the second part of the product name is 45 Light. 
-
-
-
-
-
+The font used on SSW product logo is **Helvetica Neue LT Pro**, the font weight for the first part of the product name is **75 Bold**, for the second part of the product name is **45 Light**. 
 
 ### 4. The vertical layout of an SSW product logo
 
-
 A vertical layout version should also take consideration when creating an SSW product logo. Place the icon set and product name vertically, make the product name 80% of the original size (e.g. 30pt for original, 24pt for vertical).
 
-![](vertical logo.png)
-
 ::: good
-Figure: Good Example -Vertical version of TimePro logo
-
+![Figure: Good Example -Vertical version of TimePro logo](vertical logo.png)
 :::
