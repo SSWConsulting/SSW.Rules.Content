@@ -61,7 +61,7 @@ index:
 - do-you-know-not-to-send-attachments-in-emails
 - do-you-know-that-people-misunderstand-sarcasm-in-email
 - do-you-know-when-to-use-plus-one
-- do-you-link-internal-emails-to-the-rule-they-follow
+- link-emails-to-the-rule-or-template-they-follow
 - do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database
 - do-you-manage-your-email-accounts
 - do-you-remember-that-emails-arent-your-property
@@ -86,6 +86,7 @@ index:
 - do-you-manage-your-email
 
 ---
+
 Often emails are rambling and unorganized, forcing the reader to wade through blocks of totally useless text. When it comes to written communication, less is more. Having hundreds of emails in your Inbox is not uncommon. But it's very uncommon to find people who successfully manage their Inbox. Instead, they let their Inbox become a great black hole with no business value. Email has a bad name in business primarily because people don't treat email correctly.
 
 Email can be a vital tool to your company and your software development project, but it has to be managed. Email should be an accurate record of requests, conversations, and decisions. Emails are legal documents and should be treated with the same care as any other correspondence with clients or employees. Email is also an extremely effective task tracking tool, and requests made by email should be treated with the same seriousness as Project Plans and other directives, for email can be seen as the protocol between the sender and receiver. Here is a series of email rules/etiquette that govern how we use our inbox.
