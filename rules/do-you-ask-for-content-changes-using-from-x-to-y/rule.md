@@ -30,13 +30,13 @@ Make the changes even easier to see and understand by highlighting in <font styl
 | Subject: | Update CodeAuditor features list |  
 ::: email-content  
 
-### Hi Eric,**
+### Hi Eric,
 
 1. For the Code Auditor web page, please make the list read:
 
      - Scan all your projects for coding errors
      - Guarantee Industry best practices
-     - Friendly licensing model, bloggers even pay 0$ for the full version!
+     - Friendly licensing model, bloggers even pay $0 for the full version!
 
 :::  
 :::  
@@ -51,20 +51,23 @@ Figure: Bad example - original version of content has not been included in the e
 | Subject: | Update CodeAuditor features list |  
 ::: email-content  
 
-### Hi Eric,**
+### Hi Eric,
 
 http://www.ssw.com.au/ssw/codeauditor
 1. On the Code Auditor web page, please change:
 
 From:
+
     - Scan all your projects for coding bugs <font style="background-color:#ff0000;">and errors</font>
     - Enforce industry best practices              
     - Friendly licensing model pay nothing for the full version!
 
 To:
+
     - Scan all your projects for coding errors
     - Guarantee industry best practices
-    - Friendly licensing model<mark>, bloggers even pay 0$</mark> for the full version!
+    - Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
+
 :::  
 :::  
 ::: good
