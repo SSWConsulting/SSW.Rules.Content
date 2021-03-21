@@ -11,16 +11,7 @@ authors:
 related: []
 ---
 
-`oembed: https://www.facebook.com/SSW.page/photos/a.334643903218918/3468442759839001/`
-
-
-
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSSW.page%2Fphotos%2Fa.334643903218918%2F4507577035925563%2F&width=500&show_text=true&height=691&appId" width="500" height="691" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-
-
-![Figure](BadCommitMessage.png)
-
-![](GoodCommitMessage.jpg)
 
 ::: img-small  
 ::: good  
