@@ -24811,5 +24811,41 @@
 		"lastUpdated": "2021-03-17T06:08:18.722Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/rule.md",
+		"created": "2021-03-22T06:23:29.032Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.032Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/Gatsby.jpg",
+		"created": "2021-03-22T06:23:29.033Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.033Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/Jekyll.jpg",
+		"created": "2021-03-22T06:23:29.033Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.033Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/NextJS.jpg",
+		"created": "2021-03-22T06:23:29.033Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.033Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
 ]
