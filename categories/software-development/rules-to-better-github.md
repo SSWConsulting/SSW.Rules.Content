@@ -18,6 +18,11 @@ index:
 - use-emojis-in-your-commits
 - build-the-backlog
 - mention-when-you-make-a-pull-request-or-comment-on-github
+- require-2fa-to-join-organisation
+- restrict-repository-deletion
+- use-teams
+- limit-admin-access
+- set-default-permissions-for-new-repositories
 
 ---
 Rules to Better GitHub
