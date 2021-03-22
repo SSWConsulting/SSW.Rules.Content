@@ -33,8 +33,8 @@ jobs:
         run: echo home folder is ${HOME}
 
       - name: Expose git commit data
-        uses: JackLeerson/git-commit-data-action@v1.x
-
+        uses: rlespinasse/git-commit-data-action@v1.x
+        
       - name: get changed file details
         uses: lots0logs/gh-action-get-changed-files@2.1.4
         with:
