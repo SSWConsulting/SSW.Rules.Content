@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use the best static site tech stack ?
+title: Do you use the best static site tech stack?
 guid: d7c5b443-9f55-4983-ac7b-016c85a6d479
 uri: static-site-generator
 created: 2020-01-09T04:00:36.0000000Z
