@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Example Rule
+title: Example Rule + Markdown Cheatsheet
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 uri: rule
 created: 2021-01-20T05:06:33.0000000Z
@@ -13,6 +13,7 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related:
+- https://github.com/SSWConsulting/SSW.Rules/wiki
 
 ---
 
