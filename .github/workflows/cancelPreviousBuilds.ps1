@@ -17,6 +17,7 @@ Write-Host $count
 ForEach ($build in $buildsToStop) {
     $build.status = "Cancelling"
     $body = $build | ConvertTo-Json -Depth 10
-    $urlToCancel = "$($args[2])$($build.id)?api-version=5.0"
+    $urlToCancel = "$($buildsUrl)/$($build.id)?api-version=5.0"
     Invoke-RestMethod -Uri $urlToCancel -Method Patch -ContentType application/json -Body $body -Header $Headers
+    Write-Host $count + "builds remaining"
 }
