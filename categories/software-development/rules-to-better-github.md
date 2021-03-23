@@ -20,6 +20,7 @@ index:
 - mention-when-you-make-a-pull-request-or-comment-on-github
 - require-2fa-to-join-organisation
 - restrict-repository-deletion
+- use-branch-protection
 - use-teams
 - limit-admin-access
 - set-default-permissions-for-new-repositories
