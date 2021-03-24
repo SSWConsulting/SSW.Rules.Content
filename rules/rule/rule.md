@@ -12,8 +12,7 @@ authors:
   url: https://ssw.com.au/people/sebastien-boissiere
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related:
-- https://github.com/SSWConsulting/SSW.Rules/wiki
+related: []
 
 ---
 
