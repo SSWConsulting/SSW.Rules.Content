@@ -18,6 +18,8 @@ redirects:
 
 For maximum readability and SEO use kebab-case (dashes) in your URLs.
 
+Learn more on [Best Practices for URL Structure](https://www.searchenginejournal.com/technical-seo/url-structure/#bestprac).
+
 <!--endintro-->
 
 ::: greybox
@@ -60,10 +62,12 @@ Figure: Good example - kebab-case is recommended by Google. Note: Don't use any 
 :::
 
 ::: info
-Not for domains! This is only for pages and documents. Domains are bad when they have dashes in them.
+**Not for domains!** This is only for pages and documents. Domains are bad when they have dashes in them.
 :::
 
 Read more on [SEO 101: Hyphens vs. Underscores in URLs](https://www.seomechanic.com/seo-101-hyphens-underscores-_-urls/).
+
+---
 
 #### More info
 
@@ -73,4 +77,6 @@ You can install the IIS [URL Rewrite Module](http://learn.iis.net/page.aspx/460/
 
 The caveat here is that it will only work if the URL is in the clear on the page.
 
+::: greybox
 **Note:** This could only be done with certain links as others are postbacks as well.
+:::
