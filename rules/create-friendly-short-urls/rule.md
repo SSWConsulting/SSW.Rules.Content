@@ -45,7 +45,7 @@ When you can, take the more readable option:
 
 ::: greybox
 Thanks Rob, that is great.
-Made a bit.ly at http&#58;//bit.ly/VS2010VM
+Made a bit.ly at http&#58;//bit.ly/VS-2010-VM
 :::
 ::: good
 Good example - Short URL, easier to remember  

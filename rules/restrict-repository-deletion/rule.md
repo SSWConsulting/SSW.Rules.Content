@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Do you restrict repository deletion?
 guid: 89bf3b1d-a3dd-4430-8a77-afb170184493
-uri: estrict-repository-deletion
+uri: restrict-repository-deletion
 created: 2021-03-08T15:13:00.0000000Z
 authors:
 - title: Brady Stroud
