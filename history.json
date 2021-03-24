@@ -24847,8 +24847,8 @@
 		"lastUpdated": "2021-03-22T06:23:29.033Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
-  },
-  {
+	},
+	{
 		"file": "rules/do-you-monitor-company-email/mailflow-insights-office365.png",
 		"created": "2021-03-23T00:15:51.643Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -24856,8 +24856,8 @@
 		"lastUpdated": "2021-03-23T00:15:51.643Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  },
-  {
+	},
+	{
 		"file": "rules/do-you-limit-admin-access-to-repositories/notManyAdmins.png",
 		"created": "2021-03-22T07:22:51.207Z",
 		"createdBy": "Brady Stroud [SSW]",
@@ -24982,7 +24982,8 @@
 		"lastUpdated": "2021-03-23T03:43:11.365Z",
 		"lastUpdatedBy": "Kaique \"Kiki\" Biancatti",
 		"lastUpdatedByEmail": "kikibianc@hotmail.com"
-  },
+	},
+	{
 		"file": "rules/limit-admin-access/notManyAdmins.png",
 		"created": "2021-03-23T04:31:31.046Z",
 		"createdBy": "Brady Stroud",
