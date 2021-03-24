@@ -25045,5 +25045,14 @@
 		"lastUpdated": "2021-03-23T04:31:31.049Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/set-language-on-code-blocks/rule.md",
+		"created": "2021-03-24T00:46:50.564Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-24T00:46:50.564Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
