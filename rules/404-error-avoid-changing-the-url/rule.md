@@ -16,7 +16,7 @@ When you request a URL of a file that doesn't exist, you will get an error messa
 E.g. The user doesn't have to retype the whole URL if there is a spelling mistake or a forgotten/mixed up letter
 
 <!--endintro-->
-
+test
 In .NET you are allowed to define a custom error page. When a user tries to access a URL which doesn't exist, .NET changes the URL and redirects to the custom error page. The original URL is passed as a parameter to the new URL.
 
 The advantage of this solution is, that the page looks nice and you can customize it according to the design and layout of your whole site.
