@@ -8,7 +8,8 @@ created: 2012-05-01T05:09:11.0000000Z
 authors:
   - id: 4
     title: Ulysses Maclaren
-related: []
+related:
+ - https://github.com/SSWConsulting/SSW.Rules/wiki
 ---
 
 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSSW.page%2Fphotos%2Fa.334643903218918%2F4507577035925563%2F&width=500&show_text=true&height=691&appId" width="500" height="691" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
