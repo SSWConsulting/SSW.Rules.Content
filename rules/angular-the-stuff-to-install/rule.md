@@ -97,7 +97,7 @@ Check you have the latest version of the Angular CLI installed globally by runni
 
 
 ```
-ng -v
+ng v
 ```
 
 
