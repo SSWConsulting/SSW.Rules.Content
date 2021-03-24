@@ -24813,6 +24813,42 @@
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/rule.md",
+		"created": "2021-03-22T06:23:29.032Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.032Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/Gatsby.jpg",
+		"created": "2021-03-22T06:23:29.033Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.033Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/Jekyll.jpg",
+		"created": "2021-03-22T06:23:29.033Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.033Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-static-site-tech-stack/NextJS.jpg",
+		"created": "2021-03-22T06:23:29.033Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-03-22T06:23:29.033Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+  },
+  {
 		"file": "rules/do-you-monitor-company-email/mailflow-insights-office365.png",
 		"created": "2021-03-23T00:15:51.643Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -24821,6 +24857,7 @@
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
   },
+  {
 		"file": "rules/do-you-limit-admin-access-to-repositories/notManyAdmins.png",
 		"created": "2021-03-22T07:22:51.207Z",
 		"createdBy": "Brady Stroud [SSW]",
