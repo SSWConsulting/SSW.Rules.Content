@@ -8,6 +8,16 @@ jobs:
   build:
     runs-on: ubuntu-18.04
     steps:
+    - uses: actions/checkout@v2
+    - name: Cancel build
+      shell: pwsh
+      env:
+        CANCEL_BUILD_USER: ${{ secrets.CANCEL_BUILD_USER }}
+        CANCEL_BUILD_TOKEN: ${{ secrets.CANCEL_BUILD_TOKEN }}
+        CANCEL_BUILD_URL: ${{ secrets.CANCEL_BUILD_URL }}
+      run: |
+        ./.workflow/cancelPreviousBuilds.ps1
+
     - name: 'Trigger Staging'
       uses: Azure/pipelines@releases/v1
       with:
