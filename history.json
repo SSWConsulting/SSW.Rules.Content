@@ -1666,9 +1666,9 @@
 	},
 	{
 		"file": "rules/track-important-emails/rule.md",
-		"lastUpdated": "2020-10-30T04:32:09+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-03-22T23:15:35.945Z",
+		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
+		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com",
 		"created": "2012-12-08T04:19:17+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -1918,7 +1918,7 @@
 	},
 	{
 		"file": "rules/do-you-ask-for-content-changes-using-from-x-to-y/rule.md",
-		"lastUpdated": "2021-03-19T04:40:11.789Z",
+		"lastUpdated": "2021-03-22T05:49:32.314Z",
 		"lastUpdatedBy": "Brad",
 		"lastUpdatedByEmail": "52905336+bfabiny@users.noreply.github.com",
 		"created": "2014-02-25T17:07:16+11:00",
@@ -4681,9 +4681,9 @@
 	},
 	{
 		"file": "rules/do-you-setup-sharepoint-backups-in-the-correct-order/rule.md",
-		"lastUpdated": "2011-06-15T11:59:55+10:00",
-		"lastUpdatedBy": "System Account",
-		"lastUpdatedByEmail": "Unknown@ssw.com.au",
+		"lastUpdated": "2021-03-18T22:05:11.438Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2011-06-15T11:07:48+10:00",
 		"createdBy": "System Account",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -9991,9 +9991,9 @@
 	},
 	{
 		"file": "rules/do-you-consider-azuresearch-for-your-website/rule.md",
-		"lastUpdated": "2015-04-28T09:24:51+10:00",
-		"lastUpdatedBy": "Shigemi Matsumoto",
-		"lastUpdatedByEmail": "Shigemi@ssw.com.au",
+		"lastUpdated": "2021-03-18T21:44:55.650Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-04-27T14:14:51+10:00",
 		"createdBy": "Shigemi Matsumoto",
 		"createdByEmail": "Shigemi@ssw.com.au"
@@ -20332,9 +20332,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-create-a-ssw-product-logo/rule.md",
-		"lastUpdated": "2019-11-22T14:39:05+11:00",
-		"lastUpdatedBy": "Ken Shi",
-		"lastUpdatedByEmail": "KenShi@ssw.com.au",
+		"lastUpdated": "2021-03-18T22:10:18.741Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-11-12T16:37:38+11:00",
 		"createdBy": "Ken Shi",
 		"createdByEmail": "KenShi@ssw.com.au"
@@ -24847,5 +24847,238 @@
 		"lastUpdated": "2021-03-22T06:23:29.033Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+  },
+		"file": "rules/do-you-limit-admin-access-to-repositories/notManyAdmins.png",
+		"created": "2021-03-22T07:22:51.207Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.207Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-limit-admin-access-to-repositories/rule.md",
+		"created": "2021-03-22T07:22:51.207Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.207Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-limit-admin-access-to-repositories/tooManyAdmins.png",
+		"created": "2021-03-22T07:22:51.208Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.208Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-require-2fa-to-join-your-github-organisation/require2FA.png",
+		"created": "2021-03-22T07:22:51.208Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.208Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-require-2fa-to-join-your-github-organisation/rule.md",
+		"created": "2021-03-22T07:22:51.208Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.208Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-restrict-repository-deletion/dontAllowDeletion.png",
+		"created": "2021-03-22T07:22:51.208Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.208Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-restrict-repository-deletion/rule.md",
+		"created": "2021-03-22T07:22:51.208Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.208Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-set-default-permissions-for-all-new-repositories/rule.md",
+		"created": "2021-03-22T07:22:51.209Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.209Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-use-branch-protection/branchProtection.png",
+		"created": "2021-03-22T07:22:51.209Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.209Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-use-branch-protection/rule.md",
+		"created": "2021-03-22T07:22:51.209Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.209Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-use-github-organisation-teams/GoodExampleUsingTeams.png",
+		"created": "2021-03-22T07:22:51.209Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.210Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-use-github-organisation-teams/TeamsOnRepo.png",
+		"created": "2021-03-22T07:22:51.210Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.210Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-use-github-organisation-teams/rule.md",
+		"created": "2021-03-22T07:22:51.210Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-22T07:22:51.210Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/limit-admin-access/notManyAdmins.png",
+		"created": "2021-03-23T04:31:31.046Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.046Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/limit-admin-access/rule.md",
+		"created": "2021-03-23T04:31:31.047Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.047Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/limit-admin-access/tooManyAdmins.png",
+		"created": "2021-03-23T04:31:31.047Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.047Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/require-2fa-to-join-organisation/require2FA.png",
+		"created": "2021-03-23T04:31:31.047Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.047Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/require-2fa-to-join-organisation/rule.md",
+		"created": "2021-03-23T04:31:31.047Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.047Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/restrict-repository-deletion/dontAllowDeletion.png",
+		"created": "2021-03-23T04:31:31.047Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.047Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/restrict-repository-deletion/rule.md",
+		"created": "2021-03-23T04:31:31.048Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.048Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/set-default-permissions-for-new-repositories/rule.md",
+		"created": "2021-03-23T04:31:31.048Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.048Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/use-branch-protection/branchProtection.png",
+		"created": "2021-03-23T04:31:31.048Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.048Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/use-branch-protection/rule.md",
+		"created": "2021-03-23T04:31:31.048Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.048Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/use-teams/GoodExampleUsingTeams.png",
+		"created": "2021-03-23T04:31:31.049Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.049Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/use-teams/TeamsOnRepo.png",
+		"created": "2021-03-23T04:31:31.049Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.049Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/use-teams/rule.md",
+		"created": "2021-03-23T04:31:31.049Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-03-23T04:31:31.049Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]

@@ -34,9 +34,9 @@ Make the changes even easier to see and understand by highlighting in <font styl
 
 1. For the Code Auditor web page, please make the list read:
 
-     - Scan all your projects for coding errors
-     - Guarantee Industry best practices
-     - Friendly licensing model, bloggers even pay $0 for the full version!
+   - Scan all your projects for coding errors
+   - Guarantee Industry best practices
+   - Friendly licensing model, bloggers even pay $0 for the full version!
 
 :::  
 :::  
@@ -58,15 +58,15 @@ http://www.ssw.com.au/ssw/codeauditor
 
 From:
 
-    - Scan all your projects for coding bugs <font style="background-color:#ff0000;">and errors</font>
-    - Enforce industry best practices              
-    - Friendly licensing model pay nothing for the full version!
+  * Scan all your projects for coding bugs <font style="background-color:#ff0000;">and errors</font>
+  * Enforce industry best practices              
+  * Friendly licensing model pay nothing for the full version!
 
 To:
 
-    - Scan all your projects for coding errors
-    - Guarantee industry best practices
-    - Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
+  * Scan all your projects for coding errors
+  * Guarantee industry best practices
+  * Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
 
 :::  
 :::  
