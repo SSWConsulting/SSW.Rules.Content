@@ -550,7 +550,7 @@
 	},
 	{
 		"file": "rules/do-you-monitor-company-email/rule.md",
-		"lastUpdated": "2021-03-16T23:13:32.239Z",
+		"lastUpdated": "2021-03-23T00:18:07.486Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2009-04-16T16:18:11+10:00",
@@ -2926,7 +2926,7 @@
 	},
 	{
 		"file": "rules/create-friendly-short-urls/rule.md",
-		"lastUpdated": "2021-03-11T23:28:40.554Z",
+		"lastUpdated": "2021-03-23T00:52:55.674Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2010-09-08T01:31:42+10:00",
@@ -6823,9 +6823,9 @@
 	},
 	{
 		"file": "rules/calendar-do-you-allow-full-access-to-calendar-admins/rule.md",
-		"lastUpdated": "2021-03-05T19:24:22.262Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-23T03:53:39.045Z",
+		"lastUpdatedBy": "Kaique \"Kiki\" Biancatti",
+		"lastUpdatedByEmail": "kikibianc@hotmail.com",
 		"created": "2012-09-28T06:48:17+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -7948,9 +7948,9 @@
 	},
 	{
 		"file": "rules/do-you-send-morning-goals-this-rule-is-out-of-date/rule.md",
-		"lastUpdated": "2021-02-26T05:05:12.899Z",
-		"lastUpdatedBy": "Christian Morford-Waite",
-		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au",
+		"lastUpdated": "2021-03-23T17:51:40.158Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2009-12-04T18:45:18+11:00",
 		"createdBy": "System Account",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -17632,9 +17632,9 @@
 	},
 	{
 		"file": "rules/remove-spaces-from-your-folders-and-filename/rule.md",
-		"lastUpdated": "2018-04-24T08:03:01+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-03-23T00:46:33.114Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-04-24T07:58:29+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18973,7 +18973,7 @@
 	},
 	{
 		"file": "rules/how-to-name-sharepoint-documents/rule.md",
-		"lastUpdated": "2021-03-12T20:18:48.307Z",
+		"lastUpdated": "2021-03-23T00:46:57.854Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-02-26T12:04:10+11:00",
@@ -24848,6 +24848,16 @@
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
   },
+  {
+		"file": "rules/do-you-monitor-company-email/mailflow-insights-office365.png",
+		"created": "2021-03-23T00:15:51.643Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-23T00:15:51.643Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
 		"file": "rules/do-you-limit-admin-access-to-repositories/notManyAdmins.png",
 		"created": "2021-03-22T07:22:51.207Z",
 		"createdBy": "Brady Stroud [SSW]",
@@ -24965,6 +24975,14 @@
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
+		"file": "rules/calendar-do-you-know-the-ways-to-share-and-see-others-calendars/CanViewAllDetails.png",
+		"created": "2021-03-23T03:43:11.365Z",
+		"createdBy": "Kaique \"Kiki\" Biancatti",
+		"createdByEmail": "kikibianc@hotmail.com",
+		"lastUpdated": "2021-03-23T03:43:11.365Z",
+		"lastUpdatedBy": "Kaique \"Kiki\" Biancatti",
+		"lastUpdatedByEmail": "kikibianc@hotmail.com"
+  },
 		"file": "rules/limit-admin-access/notManyAdmins.png",
 		"created": "2021-03-23T04:31:31.046Z",
 		"createdBy": "Brady Stroud",
