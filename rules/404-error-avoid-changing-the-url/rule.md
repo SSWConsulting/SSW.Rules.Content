@@ -32,7 +32,7 @@ Our solution is to show the customized error page while not change the original 
 The advantages of this solution are, that the site looks nice and matches the design of the whole site and that the user can easily change the original URL he typed.
 
 You can try any page name that doesn't exist like xxx.asp on the URL and it will open our 404 error page. The original URL is not changed in the address bar. It should look like this:
-
+test
 
 ::: good  
 ![Figure: Good example - Customized 404 error page without change the URL](404-good.jpg)  
