@@ -10,17 +10,25 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
+- title: Kaique Biancatti
+  url: https://ssw.com.au/people/kiki
 related: []
 redirects: []
 
 ---
 
-If email is actually the property of the employer, then it makes sense to actually track who is sending emails to whom. 
+If email is the property of the employer, then it makes sense to monitor the health of your emails and email server.
 
 <!--endintro-->
+If you are using Exchange Online as your mail server, you can see a whole dashboard of your current email situation at Office 365 Security & Compliance, including:
 
-Using the Microsoft Exchange Web Storage System, you should track the number of emails sent internally (i.e. to a colleague) and emails sent to clients in your corporate database.
+1. Mail Flow Map - Where are your emails coming from and going to
+2. Outbound and inbound email count
+3. Alerts - Is anything wrong happening with my emails?
+4. Queues - Are any emails pending on a queue (not being delivered)?
 
-![Figure: Monitor Sent Items](OutlookMonitorSentItems.gif)
+::: good
+![Figure: Good Example - Mail dashboard at https://protection.office.com/mailflow/dashboard](mailflow-insights-office365.png)
+:::
 
-Note that although it is acceptable for seniors to check juniors' email, it is not acceptable for juniors to check seniors' email.
+Always keep on top of your email health!
