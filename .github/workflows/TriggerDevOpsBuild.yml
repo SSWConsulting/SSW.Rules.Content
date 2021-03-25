@@ -1,11 +1,13 @@
 name: Trigger-DevOps-Build
-on:
-  push:
-    branches:
-    - main
-    
+on: 
   workflow_dispatch:
-
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'  
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -19,19 +21,3 @@ jobs:
         CANCEL_BUILD_URL: ${{ secrets.CANCEL_BUILD_URL }}
       run: |
         ./.workflow/cancelPreviousBuilds.ps1
-
-    - name: 'Trigger Staging'
-      uses: Azure/pipelines@releases/v1
-      with:
-        azure-devops-project-url: 'https://ssw.visualstudio.com/SSW.Rules'
-        azure-pipeline-name: 'Staging' 
-        azure-devops-token: '${{ secrets.AZURE_DEVOPS_TOKEN }}'
-            
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Trigger Production
-      run: |
-        export AZURE_DEVOPS_EXT_PAT=${{ secrets.AZURE_DEVOPS_TOKEN }}
-        chmod +x .workflow/build-production.sh
-        bash ./.workflow/build-production.sh
