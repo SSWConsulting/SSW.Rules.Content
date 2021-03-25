@@ -24,10 +24,8 @@ You can use eXtreme Emails to communicate your "Morning Goals" using the followi
 
 <!--endintro-->
 
-![Morning Goals Email](MorningGoals.jpg)
-
 ::: good
-Figure: Sample Morning Goals Email  
+![Figure: Sample Morning Goals Email ](MorningGoals.jpg)
 :::
 
 * Forward the previous morning goal from yesterday, striking out completed items
@@ -36,10 +34,9 @@ Figure: Sample Morning Goals Email
 * If we are working on-site we always send our morning goals from our SSW mail account, not an internal account the client may choose to give us. This enables us to keep a record of the email, and also keeps the branding consistent. If this is not possible, we always CC our SSW account (and then move the emails into your "[Saved Items](/do-you-save-important-items-in-a-separate-folder)" when you get back to the office)
 * If something more important arises during the day, we note it down on the next days morning goals.
 * If a task is huge (e.g. clean up my email inbox) and we only aim to do a portion of it, we say so in the morning goals as well.
-    ![Morning Goal Aims](MorningGoalAims.gif)
-
+    
 ::: good
-Figure: Morning Goal Item with a mini goal (140 emails)  
+![Figure: Morning Goal Item with a mini goal (140 emails)](MorningGoalAims.gif)
 :::
 
 CC the people you are working with on the email.
