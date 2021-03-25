@@ -20,4 +20,4 @@ jobs:
         CANCEL_BUILD_URL: ${{ secrets.CANCEL_BUILD_URL }}
       shell: pwsh
       run: |
-        ./cancelPreviousBuilds.ps1
+        . ../workflow/cancelPreviousBuilds.ps1
