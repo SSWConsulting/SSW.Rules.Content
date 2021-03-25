@@ -32,7 +32,7 @@ It is important to define your response types.
 
 
 
-```
+```cs
 /// <summary>
 /// Returns the nth number in the fibonacci sequence.
 /// </summary>
@@ -46,17 +46,20 @@ It is important to define your response types.
 [Produces("application/json", "text/json")]
 public ActionResult<long> Get(long n)
 {
-_logger.LogInformation($"Fibonacci number {n} requested");
-if(!_fibonacciSolver.CanSolve(n))
-return new BadRequestResult();
-try
-{
-return _cache.GetOrAdd($"Fibonacci{n}", () => _fibonacciSolver.Solve(n));
-}
-catch (ArgumentOutOfRangeException)
-{
-return new BadRequestResult();
-}
+    _logger.LogInformation($"Fibonacci number {n} requested");
+    if(!_fibonacciSolver.CanSolve(n))
+    {
+        return new BadRequestResult();
+    }
+
+    try
+    {
+        return _cache.GetOrAdd($"Fibonacci{n}", () => _fibonacciSolver.Solve(n));
+    }
+    catch (ArgumentOutOfRangeException)
+    {
+        return new BadRequestResult();
+    }
 }
 ```
 
@@ -71,26 +74,28 @@ Figure: Good example for swashbuckle - Even better if you have .NET Core 2.1 use
 
 
 
-```
+```cs
 [HttpGet]
-        [SwaggerResponse(HttpStatusCode.OK, typeof(long))]
-        [SwaggerResponse(HttpStatusCode.BadRequest, typeof(void))]
-        public ActionResult<long> Get(long n)
-        {
-            _logger.LogInformation($"Fibonacci number {n} requested");
-            
-            if(!_fibonacciSolver.CanSolve(n))
-                return new BadRequestResult();
- 
-            try
-            {
-                return _cache.GetOrAdd($"Fibonacci{n}", () => _fibonacciSolver.Solve(n));
-            }
-            catch (ArgumentOutOfRangeException)
-            {
-                return new BadRequestResult();
-            }
-        }
+[SwaggerResponse(HttpStatusCode.OK, typeof(long))]
+[SwaggerResponse(HttpStatusCode.BadRequest, typeof(void))]
+public ActionResult<long> Get(long n)
+{
+    _logger.LogInformation($"Fibonacci number {n} requested");
+    
+    if(!_fibonacciSolver.CanSolve(n))
+    {
+        return new BadRequestResult();
+    }
+
+    try
+    {
+        return _cache.GetOrAdd($"Fibonacci{n}", () => _fibonacciSolver.Solve(n));
+    }
+    catch (ArgumentOutOfRangeException)
+    {
+        return new BadRequestResult();
+    }
+}
 ```
 
 
