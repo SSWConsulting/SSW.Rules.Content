@@ -81,4 +81,4 @@ SSW's Rules to Better [Scrum](http://www.ssw.com.au/ssw/Consulting/Scrum.aspx) a
 > Software must help a business become more efficient and build better relationships with their clients. Business need software to be produced cost-effectively and quickly. Simple steps upfront stop software being slow to build and difficult to change. 
 >         - Adam Cogan, SSW Chief Architect
  
-![Figure: Classic stories of Project Management](ProjectManagementSummary\_Small.jpg)
+![Figure: Classic stories of Project Management](ProjectManagementSummary_Small.jpg)
