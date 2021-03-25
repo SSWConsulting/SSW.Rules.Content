@@ -20,11 +20,11 @@ redirects:
 
 Pure HTML pages are the fastest website around.  However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are
 
-•	Cheap
+*	Cheap
   
-•	Easy to use
+*	Easy to use
   
-•	Fast
+*	Fast
 
 On the other hand, complex functionality can be a bit more limited and time consuming to implement.
 
@@ -32,44 +32,44 @@ Two examples of static sites in action are [SSW People](https://www.ssw.com.au/p
 
 There are a few hosting options to choose from including:
 
-•	[Azure static web apps](https://azure.microsoft.com/en-us/services/app-service/static/) (recommended)
+*	[Azure static web apps](https://azure.microsoft.com/en-us/services/app-service/static/) (recommended)
 
-•	[Cloud Flare](https://pages.cloudflare.com/)
+*	[Cloud Flare](https://pages.cloudflare.com/)
 
-•	[GitHub Pages](https://pages.github.com/)
+*	[GitHub Pages](https://pages.github.com/)
 
-•	[Surge.sh](https://surge.sh/)
+*	[Surge.sh](https://surge.sh/)
 
 There are also many different static site generators:
   
-•	[Gatsby](https://www.gatsbyjs.com/) (recommended)
+*	[Gatsby](https://www.gatsbyjs.com/) (recommended)
 
-  o	React based
+    *	React based
   
-  o	Lots of plugins
+    *	Lots of plugins
     
-  o	Data handling via GraphQL
+    * Data handling via GraphQL
     
-  o	Works natively with GitHub as a Datasource.
+    * Works natively with GitHub as a Datasource.
   
-•	[Jekyll](https://jekyllrb.com/)
+*	[Jekyll](https://jekyllrb.com/)
     
-  o	Liquid based [(Shopify’s templating language)](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
+    * Liquid based [(Shopify’s templating language)](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
     
-  o	Simple to setup
+    * Simple to setup
     
-  o	Out of the box integration with GitHub pages
+    * Out of the box integration with GitHub pages
     
-  o	Scales poorly
+    * Scales poorly
     
-  o	[Windows is not supported](https://jekyllrb.com/docs/installation/windows/)
+    * [Windows is not supported](https://jekyllrb.com/docs/installation/windows/)
   
-•	[Next.js](https://nextjs.org/)
+*	[Next.js](https://nextjs.org/)
     
-  o	React based
+    * React based
     
-  o	Server-side rendered pages but can be exported as a static site
+    * Server-side rendered pages but can be exported as a static site
     
-  o	Provides full control over which data handling technology you use
+    * Provides full control over which data handling technology you use
     
-  o	More scalable than conventional static site generators
+    * More scalable than conventional static site generators
