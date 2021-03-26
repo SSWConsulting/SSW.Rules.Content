@@ -18,15 +18,16 @@ redirects:
 
 ---
 
-If you are using a task tracking system like Azure DevOps or Jira, always include the relevant URL. Also valid for emails. This way people can check the work that was done.
+Always include the relevant URL to your "Done" emails, like when you make a change to a web page. This way people can check the work that was done.
+
+If you are using a task tracking system like **Azure DevOps**, **GitHub** or Jira, also include the link to the PBI/issue/task.
 
 <!--endintro-->
-
 ::: greybox
 Done 
 :::
 ::: bad
-Figure: Bad Example     
+Figure: Bad Example - how can we check the task was done correctly?
 :::
 
 ::: greybox
@@ -40,7 +41,7 @@ Figure: Good example 
 Done - https://ssw2&#46;visualstudio&#46;com/SSW&#46;SharePoint/\_workitems/edit/43726
 :::
 ::: good
-Figure: Good Example (sorry Azure DevOps URLs are a little uglier)  
+Figure: Good Example - easy to check what was done
 :::
 
 **Video:**  [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)
