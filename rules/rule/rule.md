@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/sebastien-boissiere
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+- do-you-understand-the-value-of-consistency
 
 ---
 

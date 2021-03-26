@@ -2404,7 +2404,7 @@
 	},
 	{
 		"file": "rules/go-beyond-just-using-chat/rule.md",
-		"lastUpdated": "2021-03-23T21:38:45.317Z",
+		"lastUpdated": "2021-03-24T17:13:59.938Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-04-04T11:11:51+10:00",
@@ -13807,9 +13807,9 @@
 	},
 	{
 		"file": "rules/use-dashes-in-urls/rule.md",
-		"lastUpdated": "2021-03-17T22:15:13.870Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-03-24T17:17:59.312Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-11-10T07:51:47+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -17632,7 +17632,7 @@
 	},
 	{
 		"file": "rules/remove-spaces-from-your-folders-and-filename/rule.md",
-		"lastUpdated": "2021-03-23T00:46:33.114Z",
+		"lastUpdated": "2021-03-24T17:21:19.311Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-04-24T07:58:29+10:00",
@@ -19459,9 +19459,9 @@
 	},
 	{
 		"file": "rules/define-your-response-types/rule.md",
-		"lastUpdated": "2019-05-25T12:24:57+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-03-25T11:25:31.888Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "williamliebenberg@ssw.com.au",
 		"created": "2019-05-25T12:12:34+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -24736,9 +24736,9 @@
 		"created": "2021-02-26T22:07:10.144Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-03-24T01:22:16.104Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-03-24T16:26:02.368Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/calendar-do-you-know-the-ways-to-share-and-see-others-calendars/outlook-calendar-example.png",
@@ -24817,7 +24817,7 @@
 		"created": "2021-03-22T06:23:29.032Z",
 		"createdBy": "Piers Sinclair [SSW]",
 		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
-		"lastUpdated": "2021-03-22T06:23:29.032Z",
+		"lastUpdated": "2021-03-25T22:47:32.732Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
@@ -25099,5 +25099,14 @@
 		"lastUpdated": "2021-03-23T04:31:31.049Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/set-language-on-code-blocks/rule.md",
+		"created": "2021-03-24T00:46:50.564Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-03-24T00:46:50.564Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]

@@ -18,20 +18,58 @@ redirects:
 
 ---
 
-The best static hosting method is [Azure static web apps](https://azure.microsoft.com/en-us/services/app-service/static/). It is cheap and easy to use.
+Pure HTML pages are the fastest website around.  However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are
 
-The best static site generator is Gatsby. Gatsby is great because it's a simple and yet powerful way to build static React applications. It works natively with GitHub as a Datasource and you can query via GraphQL based on Tags and Branches.
+*	Cheap
+  
+*	Easy to use
+  
+*	Fast
 
-::: bad
-![Bad Example: Jekyll - Great but too simple](Jekyll.jpg)
-:::
+On the other hand, complex functionality can be a bit more limited and time consuming to implement.
 
-::: bad
-![Bad Example: NextJS - We had reliability issues with page generation](NextJS.jpg)
-:::
+Two examples of static sites in action are [SSW People](https://www.ssw.com.au/people/) and [SSW Rules](https://www.ssw.com.au/rules/).
 
-::: good
-![Good Example: Gatsby](Gatsby.jpg)
-:::
+There are a few hosting options to choose from including:
 
-Two examples of the static site tech stack in action are [SSW People](https://www.ssw.com.au/people/) and [SSW Rules](https://www.ssw.com.au/rules/)
+*	[Azure static web apps](https://azure.microsoft.com/en-us/services/app-service/static/) (recommended)
+
+*	[Cloud Flare](https://pages.cloudflare.com/)
+
+*	[GitHub Pages](https://pages.github.com/)
+
+*	[Surge.sh](https://surge.sh/)
+
+There are also many different static site generators:
+  
+*	[Gatsby](https://www.gatsbyjs.com/) (recommended)
+
+    *	React based
+  
+    *	Lots of plugins
+    
+    * Data handling via GraphQL
+    
+    * Works natively with GitHub as a Datasource.
+  
+*	[Jekyll](https://jekyllrb.com/)
+    
+    * Liquid based [(Shopify’s templating language)](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
+    
+    * Simple to setup
+    
+    * Out of the box integration with GitHub pages
+    
+    * Scales poorly
+    
+    * [Windows is not supported](https://jekyllrb.com/docs/installation/windows/)
+  
+*	[Next.js](https://nextjs.org/)
+    
+    * React based
+    
+    * Server-side rendered pages but can be exported as a static site
+    
+    * Provides full control over which data handling technology you use
+    
+    * More scalable than conventional static site generators
