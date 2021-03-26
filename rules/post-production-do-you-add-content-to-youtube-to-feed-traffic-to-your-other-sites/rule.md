@@ -16,7 +16,7 @@ redirects: []
 <!--endintro-->
 
 1. Create either a 'highlights' version, split the video into parts or create 'the first [between 3 and 15] minutes' version of all your longer videos, especially the popular ones.
-2. At the end of these clips include a [call to action](/Pages/Adding-a-call-to-action.aspx)that prompts the viewer to see the full version at your other site(s). If your other site(s) offer free viewings, make sure you mention this.
+2. At the end of these clips include a [call to action](/production-do-you-add-a-call-to-action)that prompts the viewer to see the full version at your other site(s). If your other site(s) offer free viewings, make sure you mention this.
 3. Upload these versions to YouTube (preferably around the same time you upload the full versions to other sites).
 
 

@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-We recommend doing a [move to a new environment](/Pages/MigrationChoices.aspx) because it has a much easier rollback path if something goes wrong.
+We recommend doing a [move to a new environment](/do-you-know-your-migration-choices1) because it has a much easier rollback path if something goes wrong.
 
 Note that these steps will also work for upgrading from TFS 2012 RC to RTM, or RTM to Update 1.
 

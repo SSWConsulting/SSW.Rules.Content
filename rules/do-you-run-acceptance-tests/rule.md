@@ -47,4 +47,4 @@ The 1st step in getting automated tests, is to setup Acceptance Tests:
 
 **Tip:** You can pass a test from the test list. Select the Test menu, then the Test Suite. Choose the Test Case to pass and then click the green button ‘Pass Test’.
 
-The next step is to        [review the Statistics of the Sprint](/Pages/How-to-Check-the-Status-of-the-Current-Sprint.aspx).
+The next step is to        [review the Statistics of the Sprint](/do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint).

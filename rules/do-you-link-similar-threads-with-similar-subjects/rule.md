@@ -29,4 +29,4 @@ SSW Rules - Add 'please update this rule' button <mark>#1</mark>
 SSW Rules - Add 'please update this rule' button <mark>#2</mark>
 :::
 
-Read [Do you realize the importance of a good email Subject?](/Pages/ImportanceOfAGoodSubject.aspx) for more on good email subjects.
+Read [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject) for more on good email subjects.

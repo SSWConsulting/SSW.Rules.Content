@@ -50,13 +50,13 @@ Figure: Good example – this reads better
 
 Your new text should be kept to the left. When quoting text on web pages, other people or quoting past email history, indent it.
 
-**Note:** This is almost as important as the     [Do you use balloons instead of a 'Wall of Text'?](/Pages/HowToUseBalloons.aspx) rule.
+**Note:** This is almost as important as the     [Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text) rule.
 
 ### Related Rule 
 
 
 
 
-* [Do you use &gt; and indentation to keep the context?](/Pages/KeeptheContext.aspx)
+* [Do you use &gt; and indentation to keep the context?](/do-you-use-and-indentation-to-keep-the-context)
 
 **VIDEO**  - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)

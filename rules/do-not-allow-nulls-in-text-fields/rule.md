@@ -21,7 +21,7 @@ Why? Well, what is wrong with this?
 
 
 
-```
+```sql
 SELECT ContactName FROM Customer WHERE ContactName <> ''
 ```
 
@@ -32,7 +32,7 @@ Nothing if your data is perfect, but if you allow Nulls in your database, then s
 
 
 
-```
+```sql
 WHERE ContactName <> '' OR ContactName Is Null
 ```
 

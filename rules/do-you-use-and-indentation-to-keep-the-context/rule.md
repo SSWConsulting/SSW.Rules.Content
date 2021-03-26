@@ -64,7 +64,7 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 ### Related Rules
 
 
-* [Do you use indentation for readability?](/Pages/IndentationForReadability.aspx)
+* [Do you use indentation for readability?](/do-you-use-indentation-for-readability)
 * [Do you use a different color when replying an email?](/when-you-reply-inline-do-you-use-a-different-color)
 
 

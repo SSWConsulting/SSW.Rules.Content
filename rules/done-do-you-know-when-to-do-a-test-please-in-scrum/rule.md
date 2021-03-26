@@ -23,4 +23,4 @@ Something you must do it to conduct an internal ”[Test Please](/_layouts/15/F
 2. [Do you know the 4 steps to do a "Test Please"?](/do-you-know-the-tools-you-need-before-a-test-please)
 
 
-In Scrum, you should conduct a separate “[Test Please”](/conduct-a-test-please-internally-and-then-with-the-client) for each of the stories. You might be using the same package, but all the bugs and issues found must be rolled up to the [Story Owner](/Pages/OwnerForEveryUserStory.aspx) as they will need to decide on what needs to be done to deliver their Story.
+In Scrum, you should conduct a separate “[Test Please”](/conduct-a-test-please-internally-and-then-with-the-client) for each of the stories. You might be using the same package, but all the bugs and issues found must be rolled up to the [Story Owner](/tasks-do-you-know-that-every-user-story-should-have-an-owner) as they will need to decide on what needs to be done to deliver their Story.

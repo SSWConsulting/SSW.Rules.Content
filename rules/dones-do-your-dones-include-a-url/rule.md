@@ -22,34 +22,23 @@ If you are using a task tracking system like Azure DevOps or Jira, always inclu
 
 <!--endintro-->
 
-
 ::: greybox
 Done 
-
 :::
-
-
 ::: bad
 Figure: Bad Example     
 :::
 
-
 ::: greybox
-Done - http://jira.ssw.com.au/browse/NET-443  
+Done - http://jira&#46;ssw&#46;com&#46;au/browse/NET-443  
 :::
-
-
 ::: good
 Figure: Good example   
 :::
 
-
 ::: greybox
-Done - https://ssw2.visualstudio.com/SSW.SharePoint/\_workitems/edit/43726
-
+Done - https://ssw2&#46;visualstudio&#46;com/SSW&#46;SharePoint/\_workitems/edit/43726
 :::
-
-
 ::: good
 Figure: Good Example (sorry Azure DevOps URLs are a little uglier)  
 :::

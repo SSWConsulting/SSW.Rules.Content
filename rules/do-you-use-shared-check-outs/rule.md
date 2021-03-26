@@ -19,7 +19,7 @@ redirects: []
 
 ---
 
-In conjunction with [regular check-ins](/Pages/CheckinRegularly.aspx), files in source control should never be locked unless absolutely necessary. Use either 'Unchanged - Keep any existing lock' - or 'None - Allow shared checkout'.
+In conjunction with [regular check-ins](/check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one), files in source control should never be locked unless absolutely necessary. Use either 'Unchanged - Keep any existing lock' - or 'None - Allow shared checkout'.
 
 <!--endintro-->
 

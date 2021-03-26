@@ -40,9 +40,9 @@ Follow these steps to ensure you get as much coverage as possible before and aft
 
 <!--endintro-->
 
-1. Prepare your PowerPoint as normal. Refer to [SSW Rules to Better Presentations.](/Pages/Rules-to-Better-Powerpoint-Presentations.aspx)
+1. Prepare your PowerPoint as normal. Refer to [SSW Rules to Better Presentations.](/rules-to-better-powerpoint-presentations)
 2. Work on your presentation from SharePoint to allow sharing.
-3. Get your content checked by a tester and a designer (See our Rule: [Do you get someone to do a 'Test Please'?](/Pages/PPTTester.aspx))
+3. Get your content checked by a tester and a designer (See our Rule: [Do you get someone to do a 'Test Please'?](/do-you-get-your-ppt-tester-to-do-a-test-please-preferably-a-designer))
 4. Before you upload to Slideshare, add two slides:
     1. On the last slide, add a generic Slideshare link such as http://www.slideshare.net/YourAccount - E.g. http://www.Slideshare.net/SSWConsulting/
     2. On the first slide add a note that contains the version. This is so that you can compare easily what version is on SharePoint and what is on Slideshare
@@ -52,7 +52,8 @@ Follow these steps to ensure you get as much coverage as possible before and aft
 ![](version-number-slideshare.jpg)**Figure: Adding the version number to the title (after uploading) won’t affect the URL**
 7. Create a "\_OnSlideshare.txt" file with the Slideshare URL and add it to SharePoint on the same folder where the original PPT is
 8. Now you can present!
-<dd class="ssw15-rteElement-FigureGood"><img class="ms-rteCustom-ImageArea" src="slideshareend.jpg" alt="" style="color:#555555;font-size:11px;font-weight:bold;line-height:20px;"></dd>
+<dd class="ssw15-rteElement-FigureGood"><img class="ms-rteCustom-ImageArea" src="slideshareend.jpg" alt="" style="color:#555555;font-size:11px;font-weight:bold;line-height:20px;">
+</dd>
 
 ::: good
 Figure: the SSW example of a Slideshare link slide  

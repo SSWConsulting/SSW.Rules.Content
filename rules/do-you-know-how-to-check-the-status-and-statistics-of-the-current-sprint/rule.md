@@ -17,7 +17,7 @@ redirects: []
 
 Developers think they are done when they finish coding and check in.
 
-Wrong. It is much better to [use Microsoft Test Manager (MTM) and step through the Acceptance Tests.](/Pages/Do-You-Run-Acceptance-Tests.aspx)
+Wrong. It is much better to [use Microsoft Test Manager (MTM) and step through the Acceptance Tests.](/do-you-run-acceptance-tests)
 
 Once you are doing that, this is how you check the status of the current Sprint:
 

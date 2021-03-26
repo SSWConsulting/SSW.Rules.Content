@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-Using subdomains over directories has 2 benefits:
+Using subdomains over directories has 2 main benefits:
 
 <!--endintro-->
 
@@ -21,30 +21,18 @@ Using subdomains over directories has 2 benefits:
 2. in different geographic locations
 
 
-
 ::: greybox
-http://www.myservice.com/ **ssw** /
-http://www.myservice.com/ **northwind** /  
+- myservice&#46;com/**ssw**/
+- myservice&#46;com/**northwind** /  
 :::
-
-
-
 ::: bad
 Figure: Bad Example - Virtual directories used to distinguish organizations
-
-
 :::
-
-
 
 ::: greybox
-http:// **ssw** .myservice.com/
-http:// **northwind** .myservice.com/
-
+- **ssw**&#46;myservice.com/
+- **northwind**&#46;myservice.com/
 :::
-
-
-
 ::: good
 Figure: Good Example - Subdomains used to distinguish organizations  
 :::

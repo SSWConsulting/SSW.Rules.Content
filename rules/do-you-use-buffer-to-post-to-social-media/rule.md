@@ -50,7 +50,7 @@ Establish a short #Hashtag that can be easily associated with your brand, compan
 
 Note: LinkedIn does not support #Hashtags. If you use them in a post, they will show up on LinkedIn pages as plain text.
 
-For more on SSW #Hashtags, check out [Do you know how to use Hashtags?](/Pages/HashTags.aspx)
+For more on SSW #Hashtags, check out [Do you know how to use Hashtags?](/do-you-know-to-use-hash-tags)
 
 
 

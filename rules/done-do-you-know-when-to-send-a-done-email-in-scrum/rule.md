@@ -22,7 +22,7 @@ Most devs don't send 'Done' emails. Do you really expect Product Owners to alway
 * If a task/bug came from a client when it is completed, send the 'Done' email to the Product Owner.
 * If the task/bug is your breakdown of a PBI (that the developer did to break down a big user story), then only send the ‘Done’ once the entire user story is complete.
 
-**Note** : Send the ‘Done’ email to the [Owner of that PBI](/Pages/OwnerForEveryUserStory.aspx). 
+**Note** : Send the ‘Done’ email to the [Owner of that PBI](/tasks-do-you-know-that-every-user-story-should-have-an-owner). 
 ### Done tips:
 
 * Include Task #, Summary, and link to the item in TWA.
@@ -36,11 +36,11 @@ Most devs don't send 'Done' emails. Do you really expect Product Owners to alway
 
 ### If you are working on a task:
 
-When you complete a task that is part of a PBI you need to send a done email to the     [Owner of that Story](/Pages/OwnerForEveryUserStory.aspx).
+When you complete a task that is part of a PBI you need to send a done email to the     [Owner of that Story](/tasks-do-you-know-that-every-user-story-should-have-an-owner).
 
-You only need to add the Task #, Summary and link to the item in WIWA. Remember that all your tasks should be     [under 4 hours](/Pages/BreakLargeTasks.aspx), do spend lots of time on a     [Done Email](/dones-do-you-reply-done-and-delete-the-original-email) for a Task would be counter productive. Add more information if required, for example you may have completed the task a different way than previously discussed.
+You only need to add the Task #, Summary and link to the item in WIWA. Remember that all your tasks should be     [under 4 hours](/estimating-do-you-break-large-tasks-into-smaller-tasks), do spend lots of time on a     [Done Email](/dones-do-you-reply-done-and-delete-the-original-email) for a Task would be counter productive. Add more information if required, for example you may have completed the task a different way than previously discussed.
 
-Make sure that     [every PBI has an Owner](/Pages/OwnerForEveryUserStory.aspx) as per the rules.
+Make sure that     [every PBI has an Owner](/tasks-do-you-know-that-every-user-story-should-have-an-owner) as per the rules.
 
 ### If you are the owner of a PBI:
 

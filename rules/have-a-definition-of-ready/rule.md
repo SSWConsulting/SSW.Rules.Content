@@ -29,7 +29,7 @@ A recommended “Definition of Ready” would be:
 
 * Has enough detail for the team to action (usually via good Acceptance Criteria)
 * Has 
-      [Business Value](/Pages/Estimate-Business-Value.aspx) assigned
+      [Business Value](/do-you-estimate-business-value) assigned
 * Has effort assigned
 * Is in the Approved state
 

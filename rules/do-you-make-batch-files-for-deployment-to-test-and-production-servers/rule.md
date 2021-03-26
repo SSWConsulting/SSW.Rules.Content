@@ -24,7 +24,7 @@ How should developers work?
 * All development done in a Virtual Server
 * Use TFS and VS.NET 2003 (since working with VS.NET 2003 you need to TFS adapter for 2003)
 * Backup your customizations.xml
-* Put into TFS (see rule: [Do you put your exported customizations and your plug-in customization under source-control during deployment?](/Pages/Put-your-exported-customizations-and-your-plug-in-customization-under-source-control-during-deployment.aspx)) - check it in and replace the file (avoid it customizing workflow in 3.0 because it deploys better in 4.0 - but if you do then you need to backup your workflow changes also)
+* Put into TFS (see rule: [Do you put your exported customizations and your plug-in customization under source-control during deployment?](/do-you-put-your-exported-customizations-and-your-plug-in-customization-under-source-control-during-deployment)) - check it in and replace the file (avoid it customizing workflow in 3.0 because it deploys better in 4.0 - but if you do then you need to backup your workflow changes also)
 
 
 Create a Deployment.bat like this

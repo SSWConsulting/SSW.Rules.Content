@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-We don't like hard coded string inside our programme. We are using model-driven development, in which we create or reuse code, and perform changes in configuration file rather the in-code changing. [More information on implementing our configuration](/Pages/ConfigurationManagementAppBlock.aspx).   
+We don't like hard coded string inside our programme. We are using model-driven development, in which we create or reuse code, and perform changes in configuration file rather the in-code changing. [More information on implementing our configuration](/do-you-use-configuration-management-application-block).   
 <!--endintro-->
 
 

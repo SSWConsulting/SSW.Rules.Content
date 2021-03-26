@@ -92,7 +92,7 @@ So you will nee d to make it absolute E.g.  **&lt;a href=”** [**<mark>http://w
 8. Add the rule content 
 ![](create-rule15.jpg)  
 
-9. [Add the acknowledgements](/Pages/add-acknowledgements-to-rules.aspx) 
+9. [Add the acknowledgements](/do-you-add-acknowledgements-to-every-rule) 
 ![](create-rule16.jpg)  
 
 10. Hit “Publish”, add your comments and “Continue” 

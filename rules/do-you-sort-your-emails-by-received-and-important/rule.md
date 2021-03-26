@@ -19,12 +19,8 @@ OK - so now you've got your important emails identified, don't let them get lost
 
 <!--endintro-->
 
-
-![Sort by Recieved and Important](OutlookSortbyReceivedThenImportant.gif)
-
-
 ::: good
-Figure: Good Example - Sorted by Important and Received Date  
+![Figure: Good Example - Sorted by Important and Received Date  ](OutlookSortbyReceivedThenImportant.gif)
 :::
 
 The Red Exclamation Mark is a good start, but the Blue Arrow keeps getting my attention.

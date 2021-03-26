@@ -37,10 +37,11 @@ index:
 - use-jquery-instead-of-javascript
 - use-link-auditor
 - using-markdown-to-store-your-content
+- set-language-on-code-blocks
 - use-markup-validation-service-to-check-your-html-code
 - use-open-graph
 - use-server-side-comments
-- static-site-generator
+- do-you-use-the-best-static-site-tech-stack
 - use-web-compiler
 
 ---

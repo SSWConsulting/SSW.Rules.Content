@@ -25,7 +25,7 @@ A well-designed custom error page encourages surfers to remain in your site and 
 
 
 
-```
+```xml
 <customErrors mode="Off"></customErrors>
 ```
 
@@ -39,7 +39,7 @@ Figure: This is the default code on web.config
 
 
 
-```
+```xml
 <customErrors mode="RemoteOnly" defaultRedirect="/ssw/ErrorPage.aspx">
 <error statusCode="404" redirect="/ssw/SSWCustomError404.aspx">
 </customErrors>
@@ -58,7 +58,7 @@ This error information is useful for the developer to do debugging. However, it 
 
 
 
-```
+```xml
 <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm"></customErrors>
 ```
 

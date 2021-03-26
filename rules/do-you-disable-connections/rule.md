@@ -19,18 +19,17 @@ Once you are ready to start you need to make sure that no one can access the exi
 
 1. You are ready to start
 2. Send out an email notifying all users that TFS2008 will be turned off. 
-Follow [Rules to better Networks](http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#rebootrestart)
+  Follow [Do you have a server reboot/restart policy?](https://www.ssw.com.au/rules/have-a-server-reboot-restart-policy)
 3. Make sure no-one can check in files by either:
-    1. Running [TFSQuiesce](http://support.microsoft.com/kb/950893) (recommended) 
-or
-    2. Turning off TFS Service
+    A. Running [TFSQuiesce](https://social.msdn.microsoft.com/Forums/vstudio/en-US/1ec7dc4a-ba2b-4d06-86a3-0924cbe3e919/tfsservicecontrol-quiesce-requirement-for-backups?forum=tfsadmin) (recommended) 
+    
+    B. Turning off TFS Service
         1. Remote desktop into TFS 2008
         2. Start IIS
         3. Right click Team Foundation Server | Stop
 
-![](StopTFSServices.png)
-Figure: You need to stop anyone checking in files
-4. Confirm you can no longer get latest on the Northwind team project
+![Figure: You need to stop anyone checking in files](StopTFSServices.png)
 
+4. Confirm you can no longer get latest on the team project
 
 <!--endintro-->

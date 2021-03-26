@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
+- title: Kiki Biancatti
+  url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
 - calendar-permissions-do-you-share-your-calendar
@@ -20,22 +22,33 @@ Within a company, there are occasions that you are not able to access your compu
 
 <!--endintro-->
 
-So always make sure the admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you.
+Always make sure that:
+* Admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you.
+* The whole organization can see your full calendar details.
+
+Do this to allow Admins to edit your calendar permissions:
+
+1. Open Outlook (or Outlook Web) | Click Calendar | Click "Share Calendar" | Click "Add.." | Add the Admin group | Select "Can edit"
 
 ![Figure: Click on "Calendar Permissions"](Share-Calendar.jpg)  
+**Figure: Click on "Share Calendar" in Outlook**
 
 ![Figure: Give admins full access to your calendar](Permissions.jpg)  
+**Figure: Give admins full access to your calendar in Outlook with "Can edit"**
 
-Once the permission is given, open other people's calendar is as easy as 2 steps:
+Now do this to allow the whole organization to see your full calendar details:
 
-1. Go to the Calendar tab in outlook and click "open a Shared Calendar"
- **![](Shared-Calendar.jpg)Figure: Opening a shared calendar
-** 
+2. Open Outlook (or Outlook Web) | Click Calendar | Click "Share Calendar" | Click "My Organization" | Select "Can view all details"
 
+![Figure: Give the whole organization access to your calendar](CanViewAllDetails.png)  
+**Figure: Give the whole organization access to your calendar in Outlook with "Can view all details"**
 
-2. Choose the calendar you want to open in the pop-up form:
-![](SSWAbsence.jpg)
-Figure: Find the calendar you want
+Once the permissions are given, opening other people's calendar is as easy as 2 steps:
 
+1. Go to the Calendar tab in outlook and click "open a Shared Calendar"  
+  ![Figure: Opening a shared calendar](Shared-Calendar.jpg) 
+
+2. Choose the calendar you want to open in the pop-up form  
+  ![Figure: Find the calendar you want](SSWAbsence.jpg)
 
 Then you can have this shared calendar shown in your Outlook.

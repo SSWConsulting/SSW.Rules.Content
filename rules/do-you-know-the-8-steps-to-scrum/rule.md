@@ -47,14 +47,14 @@ The Developers and Product Owner together then define the Sprint goal, (aka the 
 ### 4. [Sprint](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)
 
 
-The Developers works on features in priority order, having done a Daily Scrum and sending 'Done' emails once the     ['Definition of Done'](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'.](/Pages/Definition-of-Ready.aspx)
+The Developers works on features in priority order, having done a Daily Scrum and sending 'Done' emails once the     ['Definition of Done'](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) is met. A task board is often used. During this process, the team also refines items in the Product Backlog to ensure they conform to the ['Definition of Ready'.](/have-a-definition-of-ready)
 
 ### 5. Product Increment
 
 
 Each Sprint is a potentially shippable Product Increment, and with good DevOps, including automation of deployment and testing, this can be done on a PBI by PBI basis. This means each feature worked on can be in production as soon as it’s finished.
 
-### 6. [Product Feedback](/Pages/CreateBugs.aspx)
+### 6. [Product Feedback](/during-a-sprint-do-you-know-when-to-create-bugs)
 
 Product Feedback will then come in. Some will be bugs, and some will be small changes that can be added to the current Sprint. Other suggestions should be approved by the Product Owner and then added to the Product Backlog.
 
@@ -64,7 +64,7 @@ Product Feedback will then come in. Some will be bugs, and some will be small ch
 
 At the end of the Sprint, there is a Sprint Review, where the Developers demo or play done videos of the completed PBIs. The goal is for the Product Owner to understand the increment and to discuss the feedback to make the product better. This is the real measure of the success of the Sprint.
 
-### 8. [Sprint Retrospective](/Pages/RetrospectiveMeeting.aspx)
+### 8. [Sprint Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 Lastly, there is the Sprint Retrospective, and this is the best part! The Scrum Team discusses what went well, what didn't, and what to improve, always inspecting and adapting.
  

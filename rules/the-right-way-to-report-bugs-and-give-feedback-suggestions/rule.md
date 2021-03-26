@@ -17,14 +17,16 @@ redirects:
 
 ---
 
-When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible, so that the developer can reproduce the error to find out what the problem is or understand what features you are requesting.
+When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
 
-Try to be as efficient as possible:
+In the case of bugs, the goal is enough detail so the developer can reproduce the error to find out what the problem is.
 
-1. If there is a GitHub backlog, add an issue and @mention relevant people
-2. If there is a Azure DevOps backlog, add a PBI and @mention relevant people
-3. If you don't know where the backlog is, or don't have access, then send an email
+In the case of suggested features it is best to:  
 
+1.	Draft your suggestion
+2.	Call the Product Owner sharing screens, then add the text “checked by XXX”
+3.	If a backlog exists, save the Issue/PBI and @mention relevant people (they should get an email) as per https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi 
+4.	If the client will not get an automatic nicely formatted email with all the text, then send the email with the URL of the Issue/PBI
 
 Try to have one issue/PBI/email per bug/suggestion, but if the bugs/suggestions are related or very small (e.g. they are all on the same page) then you should group them together in a single email.
 
@@ -113,7 +115,7 @@ The Product Owner can always respond if he doesn’t like the suggestion.
 e.g.
 For a bug email:   TO: TechLead@  CC: ProductOwner  Subject:BUG xxx   (or use PBI @mention)
 For a new feature email:  TO: TechLead@  CC: ProductOwner  Subject:SUGGESTION xxx  (or use PBI @mention)
-Note: There is no use for: sswtimepro@ssw.com.au
+Note: You may have a group email such as all@northwind.com.au, You would only CC this email for greater visibility. 
 
 :::
 

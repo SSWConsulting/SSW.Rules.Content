@@ -16,4 +16,4 @@ Often towards the end of a project, you may request extra pieces of functionalit
 
 Every new item that is requested increases the total hours and scope of the project and therefore the cost. If the project has a drop-dead date or budget, don't ask for things that will blow these deadlines out. Or, if you want your developers to work to a budget, ask them to let you know what 'can't be done.'
 
-Insist your software consultants correctly [triage additional item requests](/Pages/DoYouCorrectlyTriageaAditionalItemRequests.aspx).
+Insist your software consultants correctly [triage additional item requests](/triaging-do-you-correctly-triage-additional-item-requests).

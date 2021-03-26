@@ -19,7 +19,7 @@ You can also identify errors and inconsistencies that can be addressed for a sec
 
 
 1. Complete the video editing (Version 1)
-    Produce your first edit of your video. If necessary follow the Post Production rules i.e. ['Do you use cutaways?'](/Pages/Do-you-use-cutaways.aspx), ['Do you add a Call to Action?'](/Pages/Adding-a-call-to-action.aspx).
+    Produce your first edit of your video. If necessary follow the Post Production rules i.e. ['Do you use cutaways?'](/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head), ['Do you add a Call to Action?'](/production-do-you-add-a-call-to-action).
 2. Upload your first edit to YouTube
     1. Send test please to Marlon or Uly and Adam
     2. Feedback must be done within 48 hours

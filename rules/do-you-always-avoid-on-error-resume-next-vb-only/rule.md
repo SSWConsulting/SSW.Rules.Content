@@ -22,8 +22,7 @@ Never use On Error Resume Next in VB (and VB.NET) projects.
 
 In VB/VBA you should use On Error Resume Next with line of comment and after an offending line of code there should be statement On Error GoTo 0 to reset Errors collection.
 
-
-```
+```vb
 Private Sub cmdSelect_Click()
     Dim varTemp As Variant
     On Error Resume Next
@@ -34,10 +33,11 @@ Private Sub cmdSelect_Click()
     intRoutesPerDay = 2
     End Sub
 ```
-
+::: bad
 Bad Example – Bad code
+:::
 
-```
+```vb
 Private Sub cmdSelect_Click()
     Dim varTemp As Variant
     On Error Resume Next
@@ -50,6 +50,6 @@ Private Sub cmdSelect_Click()
     .
     End Sub
 ```
-
+::: good
 Good Example – Good code
-We have a program called [SSW Code Auditor](http&#58;//www.ssw.com.au/ssw/CodeAuditor/Default.aspx) to check for this rule.
+:::

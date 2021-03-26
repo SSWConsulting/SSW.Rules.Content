@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-After you [use the right tool to migrate from TFVC to Git](/Pages/Do-you-know-the-best-tool-to-migration-from-TFVC-to-Git.aspx), there's a few more things you need to do to clean things up for a new user joining the project. By default, if there is a TFVC repository, that will become the default in the UI.
+After you [use the right tool to migrate from TFVC to Git](/do-you-know-the-best-tool-to-migration-from-tfvc-to-git), there's a few more things you need to do to clean things up for a new user joining the project. By default, if there is a TFVC repository, that will become the default in the UI.
 
 
 

@@ -80,7 +80,7 @@ Regards,
 
  **[Your name here]**
 
-&lt;This email was sent as per              [Do you do Daily Scrums?](/Management/RulesToSuccessfulProjects/Pages/DailyStandUpScrum.aspx)&gt;
+&lt;This email was sent as per              [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
 
 :::
 Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template

@@ -24,7 +24,7 @@ If you have already done some test migrations on the new server there is no need
 7. In the Team Foundation Server Admin Console
 8. Click Application Tier | Team Project Collections |Attach Team Project Collection
 ![Attach Team Project Collection](Attach Team Project Collection.png)
-9. Follow the wizard, [rule #8 from step 13](/Pages/UpgradeTFS2008Databases.aspx).
+9. Follow the wizard, [rule #8 from step 13](/do-you-know-how-to-upgrade-your-tfs2008-databases).
 
 
 

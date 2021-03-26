@@ -22,7 +22,9 @@ The best approach of setting up Application Insights in SharePoint is a bit dif
 
 <!--endintro-->
 
-(Note: To check the normal way of setting up Application Insights via Visual Studio, please read "[How to set up Application Insights](/how-to-set-up-application-insights) ")
+::: greybox
+**Note:** To check the normal way of setting up Application Insights via Visual Studio, please read "[How to set up Application Insights](/how-to-set-up-application-insights)"
+:::
 
 With a web application you are developing you have full control of web.config and have access to it in your Visual Studio project, and can follow "[How to set up Application Insights](/how-to-set-up-application-insights)" to set up Application Insights. This way Visual Studio will do all the modifications for you automatically.
 
@@ -30,11 +32,10 @@ But when you develop on SharePoint, you  **do not** have a full copy of web.conf
 
 The best process to implement Applications Insights in SharePoint can be split into two parts:
 
-1. Implement App Insight JavaScript  in master page (via Visual Studio)  or web pages individually via embedded code, there are two good articles include the detail steps
-        * https://azure.microsoft.com/en-us/documentation/articles/app-insights-sharepoint/
-        * https://azure.microsoft.com/en-us/blog/understand-your-sharepoint-usage-with-application-insights-2/
-2. Use Application Insights Status Monitor configuration tool to add DLLs reference and update web.config (no coding work involved), there are two articles include the detail steps
+1. Implement App Insight JavaScript  in master page (via Visual Studio)  or web pages individually via embedded code, there are two good articles include the detail steps:
+  - [https://docs.microsoft.com/en-us/azure/azure-monitor/app/sharepoint](https://docs.microsoft.com/en-us/azure/azure-monitor/app/sharepoint)
+  - [https://azure.microsoft.com/en-us/blog/understand-your-sharepoint-usage-with-application-insights-2/](https://azure.microsoft.com/en-us/blog/understand-your-sharepoint-usage-with-application-insights-2/)
 
-    * 
-    * http://blogs.msdn.com/b/visualstudioalm/archive/2014/08/28/monitoring-your-existing-applications.aspx
-    * [https://azure.microsoft.com/en-us/documentation/articles/app-insights-monitor-performance-live-website-now/](https&#58;//azure.microsoft.com/en-us/documentation/articles/app-insights-monitor-performance-live-website-now/)
+2. Use Application Insights Status Monitor configuration tool to add DLLs reference and update web.config (no coding work involved), there are two articles include the detail steps:
+   - [https://devblogs.microsoft.com/devops/monitoring-your-existing-applications/](https://devblogs.microsoft.com/devops/monitoring-your-existing-applications/)
+   - [https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-performance-live-website-now](https://docs.microsoft.com/en-us/azure/azure-monitor/app/monitor-performance-live-website-now)

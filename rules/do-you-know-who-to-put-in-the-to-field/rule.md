@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/martin-hinshelwood
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+- do-you-include-the-name-of-the-person-you-address-on-the-first-line
 redirects: []
 
 ---
@@ -21,17 +22,42 @@ A fair percentage of people open an email and don’t read who is on the "To:" o
 
 <!--endintro-->
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | @SSWScrumDogs |
+| Cc:      |   |
+| Subject: | Northwind App - Update work items |  
+::: email-content  
 
+### Hi All,  
+Can everyone make sure to update your work items as you work on them?
+
+### Hi Mark,  
+1. At the end of the day, please double check the above was done
+
+:::  
+:::  
 ::: bad  
-![Figure: Bad example, Mark can’t search for tasks that have been assigned to him](SearchTask.jpg)  
+Figure: Bad example - Mark can’t search for tasks that have been assigned to him
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | @SSWScrumDogs, Mark |
+| Cc:      |   |
+| Subject: | Northwind App - Update work items |  
+::: email-content  
 
+### Hi All,  
+Can everyone make sure to update your work items as you work on them?
+
+### Hi Mark,  
+1. At the end of the day, please double check the above was done    
+
+:::  
+:::  
 ::: good  
-![Figure: Good example, Mark can filter his emails based on whether his name is on the "To:" field](FilterEmail.jpg)  
+Figure: Good example - Mark can filter his emails based on whether his name is on the "To:" field 
 :::
-
-### Related rule
-
-
-[Do you include the name of the person you address on the first line?](/do-you-include-the-name-of-the-person-you-address-on-the-first-line)

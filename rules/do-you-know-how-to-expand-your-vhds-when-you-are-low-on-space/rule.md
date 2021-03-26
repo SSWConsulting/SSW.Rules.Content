@@ -33,6 +33,6 @@ You will now have a resized VHD. Next step is to boot up into the virtual machin
 3. Right click on the partition sitting at the front of the newly resized disk and click on  **Extend Volume...
 ![The first partition on the disk needs to be expanded to use up the unallocated space created when expanding the VHD](expand-freespace.jpg)
 ** **Figure: The first partition on the disk needs to be expanded to use up the unallocated space created when expanding the VHD**
-4. You will have to use all the available space when you extend the volume as it is a Simple Volume. (See Rule: [Do you use Basic Volumes inside VHD’s?](/Pages/Do-you-use-Basic-Volumes-inside-VHDs.aspx)) When you are asked to select your disks just click  **Next**
+4. You will have to use all the available space when you extend the volume as it is a Simple Volume. (See Rule: [Do you use Basic Volumes inside VHD’s?](/do-you-use-basic-volumes-inside-vhds)) When you are asked to select your disks just click  **Next**
 5. Click  **Finish
 ![The disk is now using all the available space inside the VHD ](expand-fullspaceused.jpg)** **Figure: The disk is now using all the available space inside the VHD**

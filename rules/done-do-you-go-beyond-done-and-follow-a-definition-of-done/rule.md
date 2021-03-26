@@ -22,6 +22,7 @@ redirects: []
 Having a clear Definition of Done for your team is critical to your success and quality management in Scrum.
 
 Every team is different, but all need to agree on which items are in their "Definition of Done".  
+
 <!--endintro-->
 
 # There are 3 levels of 'Done' in communication
@@ -30,13 +31,11 @@ Every team is different, but all need to agree on which items are in their "Defi
 
 * Sending a ["Done" email](/dones-do-you-reply-done-and-delete-the-original-email)
 
-
 ## Level 2
 
 * Sending a "Done" email
 * Screenshots
 * Code
-
 
 ## Level 3
 
@@ -44,19 +43,8 @@ Every team is different, but all need to agree on which items are in their "Defi
 * Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
 * Code (showing a full scenario e.g. a user story)
 
+![Figure – Coded UI Test passes in Visual Studio](level-3-done.jpg)
 
-#### Example of a level 3 "done"
-
-
-Subject: RE: Manad - Coded UI Tests #2
-
-&gt; Create a new CodedUI test on your feedback form – search only to test the Telerik
-
-Done
-![Coded UI Test passes in Visual Studio](level-3-done.jpg)**Figure – Coded UI Test passes in Visual Studio** 
-Jing Video of the test running: http://screencast.com/t/ps17fqsV
-
-Figure: Good example - The "done" shows a full scenario
 # There are 8 levels of 'Done' in software quality
 
 Start with these examples showing typical "Definitions of Done" from beginner teams to more mature teams:
@@ -67,13 +55,11 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 * All tasks are updated and closed
 * No high priority defects/bugs are on that user story
 
-
 ## Team - Level 2
 
 * *All of the above, plus*
 * All unit tests passed
 * Greater than 1% code coverage (not earth shattering, but you need to start somewhere)
-
 
 ## Team - Level 3
 
@@ -85,8 +71,6 @@ TFS Check in Policy - Change set Comments Policy (all check-ins must have a comm
 * TFS Check in Policy - Work Items (all check-ins must be associated with a work item)
 * Code reviewed by one other team member (e.g. Checked by Bill)
 * Sending a Done email with screenshots
-
-
 
 ::: good  
 ![Figure: Good example - Add check in policies to enforce your Definition of Done](CheckinPolicy.jpg)  
@@ -100,27 +84,20 @@ TFS Check in Policy - Change set Comments Policy (all check-ins must have a comm
 * Tip: Use Microsoft | [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
 * Sending a Done email (with video recording using SnagIt)
 
-
-
 ::: good  
 ![Figure: Organize tests in suites with built-in E2E traceability across requirements, test artifacts and defects](TestPlanning-1.png)  
 :::
-
 
 ::: good  
 ![Figure: Use the client, Microsoft Test Manager, to run tests and not just capture the pass/fail of steps, comments/attachments and bugs, but also capture diagnostic data during execution, such as screen recording, system info, image action log etc](MTR-2.png)  
 :::
 
-
 ::: good  
 ![Figure: Explore your web applications, find and submit bugs directly from your Chrome browser – no need for predefined test cases or test steps](XT-3.png)  
 :::
 
-
 `youtube: https://www.youtube.com/embed/JJCgP7XcpNA`
  
-
-
 ::: good
 Figure: Good example - Done video showing the features worked on  
 :::
@@ -132,13 +109,10 @@ Figure: Good example - Done video showing the features worked on
 * Complex code is documented (removing technical debt)
 * Product Owner acceptance
 
-
 ## Team - Level 6
 
 * *All of the above, plus*
 * Multiple environments automatically tested using Lab Management
-
-
 
 ::: good  
 ![Figure: Good example - A tester Lab Management to create VMs for testing the application, then defines a test plan for that application with Test Case Management](LabManagement.jpg)  
@@ -150,8 +124,6 @@ Figure: Good example - Done video showing the features worked on
 * Automated Load Testing
 * Continuous Deployment
 
-
-
 ::: good  
 ![Figure: Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behavior of many simultaneous users)](LoadTesting.jpg)  
 :::
@@ -161,16 +133,14 @@ Figure: Good example - Done video showing the features worked on
 * *All of the above, plus*
 * Deployed to Production
 
-
-
 Congratulations! You are frequently deploying to production. This is called “Continuous Delivery” and allows you to gather quick feedback from your end users.
-    You might have everything deployed to production, but it might not yet be visible to the end user. This can be achieved by having “[Feature toggles](http://martinfowler.com/bliki/FeatureToggle.html) ” in place. The actual release of the functionality is a decision that the Product Owner and business takes.
-<font face="Calibri"> <i></i></font>
+
+You might have everything deployed to production, but it might not yet be visible to the end user. This can be achieved by having “[Feature toggles](http://martinfowler.com/bliki/FeatureToggle.html)” in place. The actual release of the functionality is a decision that the Product Owner and business takes.
 
 **More Information:**
 
 * [Do your user stories include acceptance criteria?](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
-* [Do you enforce comments with check-ins?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#EnforceComments "Do you enforce comments with check-ins?")
-* [Do you enforce work item association with check-in?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#EnforceWorkItemAss "Do you enforce work item association with check-in?")
-* [Do you follow a Test Driven Process?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#TestDrivenProcess "Do you follow a Test Driven Process?")
+* [Do you enforce comments with check-ins?](/comments-do-you-enforce-comments-with-check-ins)
+* [Do you enforce work item association with check-in?](/do-you-enforce-work-item-association-with-check-in)
+* [Do you follow a Test Driven Process?](/before-starting-do-you-follow-a-test-driven-process)
 * [Do you have a "Definition of Ready"?](/have-a-definition-of-ready)

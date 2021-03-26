@@ -26,4 +26,4 @@ In order to keep the rule you add is healthy and doesn't has any grammar or spel
 4. Check in the page in TFS and repeat step 2 and 3 until Link Auditor and Code Auditor get all green ticks
 
 
-We also have a rule [After adding a rule on SharePoint - what are the steps to do?](/SoftwareDevelopment/RulesToBetterSharePoint/Pages/StepsToDoAfterAddRuleInSharePoint.aspx)
+We also have a rule [After adding a rule on SharePoint - what are the steps to do?](/after-adding-a-rule-on-sharepoint-what-steps-should-you-take)

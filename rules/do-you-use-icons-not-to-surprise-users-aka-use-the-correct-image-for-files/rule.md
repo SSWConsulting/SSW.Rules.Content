@@ -24,11 +24,9 @@ When a user clicks on a hyperlink they expect to open an HTML file. If you click
 
 Don't surprise users! Use the following icons:
 
-
 | File Type | Example |
 | --- | --- |
-| PDF | ![Icon PDF](../../assets/IconPdf.png) This is a PDF file
- |
+| PDF | ![Icon PDF](../../assets/IconPdf.png) This is a PDF file |
 | JPG | ![Icon JPG](../../assets/IconJpg.gif) This is an Image file |
 | DOC or DOT | ![Icon DOC](../../assets/IconDoc.png) This is a Word Document file |
 | XLS | ![Icon XLS](../../assets/IconXls.gif) This is an Excel Spreadsheet file |
@@ -46,14 +44,11 @@ Don't surprise users! Use the following icons:
 | Page | ![](../../assets/ms_lock.gif) This is a link to password protected page |
 | YouTube | ![](youtube-icon_png.jpg)This is a link to a YouTube Video |
 
-
 ![Figure: FYI there are the same images used by Google at GoogleDesktopSideBar.htm](../../assets/GoogleIcons.gif)  
-
 
 ::: bad  
 ![Figure: Bad Example - The user would expect all these hyperlinks to work the same way](../../assets/IconImageBad.gif)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - The pdf icon (before a hyperlink) indicates it is not a web page](../../assets/IconImageGood.gif)  
@@ -63,8 +58,6 @@ Don't surprise users! Use the following icons:
 
 Add the icon image to your server. Then use $= to make the match the extension of the &gt;a&lt; tag on your CSS. The padding is to give it some space before the text (where the icon will be).
 
-
-
 ```
 a[href$='.pdf'] 
 { 
@@ -72,9 +65,3 @@ background: transparent url(/images/icon_pdf.gif) center left no-repeat;
 padding-left: 20 px; 
 }
 ```
-
-
-
-
-
-We have the programs [SSW CodeAuditor](http://www.codeauditor.com/) and [SSW LinkAuditor](https://linkauditor.com.au/) to check for this rule.
