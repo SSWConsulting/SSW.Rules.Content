@@ -8,7 +8,7 @@ created: 2009-02-28T09:43:16.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: [do-you-send-morning-goals-this-rule-is-out-of-date]
+related: do-you-send-morning-goals-this-rule-is-out-of-date
 redirects:
 - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
 - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
