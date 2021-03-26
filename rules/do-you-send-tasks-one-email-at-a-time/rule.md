@@ -74,13 +74,13 @@ Figure: Bad Example - One email for multiple unrelated tasks (Domains and CSS)
 ::: email-content  
 
 ### Hi Steven,  
-4. Make sure all the fonts are consistent
-5. Make the headings bold
+1. Make sure all the fonts are consistent
+2. Make the headings bold
 
 :::  
 :::
 ::: good
-!Figure: Good Example - Separate emails for unrelated tasks. A few related tasks in the same email 
+Figure: Good Example - Separate emails for unrelated tasks. A few related tasks in the same email 
 
 :::
 
