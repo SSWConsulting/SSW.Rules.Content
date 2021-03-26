@@ -42,30 +42,46 @@ Generally, people who need to know include:
 * Put your name in the subject of the appointment (so someone scanning the leave calendar can see who's away easily)
 * Add a brief description of why you're away (holiday, doctor, etc.)
 
+ 
+ 
+ ::: email-template  
+  |          |     |
+  | -------- | --- |
+  | To:      | SSWAbsence |
+  | Subject: | Patricia Barros - 2 weeks leave |  
+  ::: email-content  
 
+  ### Hi SSW Absence,  
+  
+  I'm going to Brazil for 2 weeks on Monday... wish me luck :)
 
+  Thanks, Patricia
 
-::: greybox
-[Appointment to: @SSWAbsence]
+  :::  
+  :::  
+  ::: bad  
+   Figure: Bad Example - not enough notice for substantial leave
+  :::
+  
+  ::: email-template  
+  |          |     |
+  | -------- | --- |
+  | To:      | SSWAbsence |
+  | Subject: | Patricia Barros - 2 weeks leave |  
+  ::: email-content  
 
-Hi SSW Absence,
-I'm going to Brazil for 2 weeks on Monday... wish me luck :)
+  ### Hi SSW Absence,  
+  
+  I want to book a ticket to go to Brazil for 2 weeks.
+  I'd like to leave in about 4 weeks. I will, of course, check with my client before I purchase my tickets.
 
-Thanks, Patricia
+  Thanks, Patricia
 
-:::
- Figure: Bad Example - not enough notice for substantial leave
+  :::  
+  :::  
+  ::: good  
+   Figure: Good Example - appropriate notice given
+  :::
 
-::: greybox
-[Appointment to: @SSWAbsence]
-
-Hi SSW Absence,
-I want to book a ticket to go to Brazil for 2 weeks.
-I'd like to leave in about 4 weeks. I will, of course, check with my client before I purchase my tickets.
-
-Thanks, Patricia
-
-:::
-Figure: Good Example - appropriate notice given
 
 ![Figure: Did you give enough notice, or do we need to track you down?](BeachEnforcers.jpg)
