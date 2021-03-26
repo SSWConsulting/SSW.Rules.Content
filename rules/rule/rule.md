@@ -1,8 +1,8 @@
 ---
 type: rule
 archivedreason:
-title: Example Rule
-guid:
+title: Example Rule + Markdown Cheatsheet
+guid: 55db32aa-0718-4868-995c-673d8dd69f62
 uri: rule
 created: 2021-01-20T05:06:33.0000000Z
 authors:
@@ -13,6 +13,7 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related:
+- do-you-understand-the-value-of-consistency
 
 ---
 
@@ -108,6 +109,8 @@ This is a piece of code in a code block
 Figure: Bad Example - This isn't actual code  
 :::  
 
+See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in Rules. See below for some examples:
+
 ```javascript
 let iceCream = 'chocolate';
 if(iceCream === 'chocolate') {
@@ -117,6 +120,107 @@ if(iceCream === 'chocolate') {
 }
 ```
 **Figure: Javascript code block**
+
+
+```sql
+IF EXISTS (SELECT 1 FROM 
+               INFORMATION_SCHEMA.TABLES 
+           WHERE 
+               TABLE_TYPE='BASE TABLE' AND 
+               TABLE_NAME='Employees'
+           ) 
+    ALTER TABLE [dbo].[Employees]( …… ) ON [PRIMARY] 
+ELSE 
+    CREATE TABLE [dbo].[Employees]( …… ) ON [PRIMARY]
+```
+**Figure: SQL code block**
+
+
+```cs
+public class MyClass
+{
+    public string  myField = string.Empty;
+
+    public MyClass()
+    {
+    }
+
+    public void MyMethod(int parameter1, string parameter2)
+    {
+        Console.WriteLine("First Parameter {0}, second parameter {1}", 
+                                                    parameter1, parameter2);
+    }
+
+    public int MyAutoImplementedProperty { get; set; }
+
+    private int myPropertyVar;
+    
+    public int MyProperty
+    {
+        get { return myPropertyVar; }
+        set { myPropertyVar = value; }
+    } 
+}
+```
+**Figure: C Sharp code block**
+
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() 
+{    
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}
+```
+**Figure: C++ code block**
+
+
+```json
+{
+    "glossary": {
+        "title": "example glossary",
+	"GlossDiv": {
+        "title": "S",
+	"GlossList": {
+        	"GlossEntry": {
+			"ID": "SGML",
+			"SortAs": "SGML",
+			"GlossTerm": "Standard Generalized Markup Language",
+			"Acronym": "SGML",
+			"Abbrev": "ISO 8879:1986",
+			"GlossDef": {
+				"para": "A meta-markup language, used to create markup languages such as DocBook.",
+				"GlossSeeAlso": ["GML", "XML"]
+			},
+			"GlossSee": "markup"
+		}
+            }
+        }
+    }
+}
+```
+**Figure: JSON code block**
+
+
+```markdown
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+```
+**Figure: Markdown code block**
+
+
 
 ### Twitter Card Embed  
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
@@ -202,16 +306,24 @@ Check out this video - it's responsive!
 ![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
+![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+
+![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+
+
 # Horizontal Rules
 ---
 ***
 ___
+
+# Text decoration
 
 **bold** or **bold**  
 _italic_ or _italic_  
 **combined bold and _italic_**  
 ~~strikethrough~~  
 
+# Tables
 &nbsp; 
 
 | Tables        |      Are      |   Cool |
@@ -227,9 +339,18 @@ _italic_ or _italic_
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
-![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+#### Code for tables
 
-![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
+```
+| Tables        |      Are      |   Cool |
+| ------------- | :-----------: | -----: |
+| col 3 is      | right-aligned | \$1600 |
+| col 2 is      |   centered    |   \$12 |
+| zebra stripes |   are neat    |    \$1 |
+```
+---
+
+# Links
 
 [I'm an inline-style link](https://www.google.com)  
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
@@ -244,5 +365,3 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org  
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
-
-

@@ -23,36 +23,23 @@ Always include the relevant URL to your "Done" emails, like when you make a chan
 If you are using a task tracking system like **Azure DevOps**, **GitHub** or Jira, also include the link to the PBI/issue/task.
 
 <!--endintro-->
-
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| From:    | Tim |
-| To:      | Mark |
-| Subject: | RE: Improve menu - Options |  
-::: email-content  
-
-Done
-
-:::  
-::: 
+::: greybox
+Done 
+:::
 ::: bad
 Figure: Bad Example - how can we check the task was done correctly?
 :::
 
-::: email-template  
-|          |     |
-| -------- | --- |
-| From:    | Tim |
-| To:      | Mark |
-| Subject: | Improve menu - Options |  
-::: email-content  
+::: greybox
+Done - http://jira&#46;ssw&#46;com&#46;au/browse/NET-443  
+:::
+::: good
+Figure: Good example   
+:::
 
-Done - https://www.ssw.com.au/ssw/Company/ContactUs.aspx
-
-:::  
-::: 
+::: greybox
+Done - https://ssw2&#46;visualstudio&#46;com/SSW&#46;SharePoint/\_workitems/edit/43726
+:::
 ::: good
 Figure: Good Example - easy to check what was done
 :::

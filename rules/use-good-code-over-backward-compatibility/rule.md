@@ -26,10 +26,8 @@ Our views on backward compatibility start with asking these questions:
 * Question 2: How many apps are we going to break internally?
 * Question 3: What is the cost of providing backward compatibility and repairing (and test) all the broken apps?
 
-
 Let's look at an example:
 
-We have a public web service [/ssw/webservices/postcode/](https&#58;//www.ssw.com.au/ssw/webservices/postcode/)
 If we change the URL of this public Web Service, we'd have to answer the questions as follows:
 
 * Answer 1: Externally - Don't know, we have some leads:
@@ -38,23 +36,32 @@ If an IP address enters our website at this point, it tells us that possibly an 
 * Answer 2: Website samples + Adams code demo
 * Answer 3: Can add a redirect or change the page to output a warning Old URL. Please see www.ssw.com.au/ PostCodeWebService for new URL
 
-
 Because we know that not many external clients use this example, we decide to remove the old web service after some time.
 
 Just to be friendly, we would send an email for the first month, and then another email in the second month.  After that, just emit "This is deprecated (old)."  We'll also need to update the UDDI so people don't keep coming to our old address.
 
 We probably all prefer working on new features, rather than supporting old code, but it’s still a core part of the job. If your answer to question 3 scares you, it might be time to consider a backward compatibility warning.
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:      | John |
+| Cc:      | SSWAll |
+| Bcc:     | ZZZ |
+| Subject: | Changing LookOut settings |  
+::: email-content  
 
-::: greybox
- **From: ** John Liu www.ssw.com.au
- **To:**  SSWALL
- **Subject: ** Changing LookOut settings
+### Hi All,
 
 The stored procedure procLookOutClientSelect (currently used only by LookOut any version prior to 10) is being renamed to procSSWLookOutClientIDSelect. The old stored procedure will be removed within 1 month.
-You can change your settings either by: 
 
-:::
+You can change your settings either by:
 
 * Going to LookOut Options -&gt; Database tab and select the new stored procedure
 * Upgrading to SSW LookOut version 10.0 which will be released later today
+   
+:::  
+:::  
+::: good  
+Figure: Good Example - Email as a backward compatibility warning
+:::

@@ -18,15 +18,15 @@ redirects:
 
 ---
 
-For unplanned outages see: [https://rules.ssw.com.au/unplanned-outage-process](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=d3f1bdc6-5ea1-495b-8c0d-98504963b563)
+For unplanned outages see: [Do you have an unplanned outage process?](/rules/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
 
-For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method. If you use     [Teams or Skype](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=3a474efa-ca72-4320-af36-b0e6af355684) a quick message will do.
+For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method. If you use Microsoft Teams or Skype, a quick message will do.
 
 **Note:** If they are not online on Teams or Skype, then they can't complain that they were not warned.
 
-For extended or planned outages, or if you have a larger number of users (50+),      **email** is the suggested method.
+For extended or planned outages, or if you have a larger number of users (50+), **email** is the suggested method.
 
 <!--endintro-->
 
@@ -38,12 +38,18 @@ Include a "[To myself](/dones-do-you-send-yourself-emails)". It gives visibility
 it easier to remember to send the 'done' email. E.g. "done - CRM is alive again".
 
 Example:
-**To:** SSWALL       
-    Hi All,        
 
-Here is the summary of the outage plan:
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SSWAll |
+| Cc:      | YYY |
+| Bcc:     | ZZZ |
+| Subject: | This is the subject |  
+::: email-content  
 
-
+### Hi All,  
+Here is the summary of the outage plan: 
 
 | **Planned/Unplanned:**  | Planned |
 | --- | --- |
@@ -62,15 +68,13 @@ Here is the summary of the outage plan:
 | |  |
 | **Affected Services:**  | \\Windows Server 2016
  |
-| | http://sharepoint.ssw.com.au
-http://intranet.ssw.com.au
-http://projects.ssw.com.au |
+| | sharepoint.ssw&#46;com.au
+intranet.ssw&#46;com.au
+projects.ssw&#46;com.au |
 | | 
  |
 
-
 **Risk Lookup Table by Probability and Impact:** 
-
 
 | **Risk**  |
 | --- |
@@ -87,12 +91,11 @@ http://projects.ssw.com.au |
 
 ** 
 **Note:** The following servers will be affected
-![](rule-outage-1.jpg)
-http://wug.ssw.com.au/
+![wug&#46;ssw&#46;com&#46;au](rule-outage-1.jpg)
 
 ![](rule-outage-2.jpg)
 
-**To myself,** **
+### To myself,
 ** To show others who are interested in what needs to be done to fix the problem:
  **Detailed Change Plan:** 
 1)	Lockout users via IIS
@@ -112,6 +115,8 @@ http://wug.ssw.com.au/
 
 **Note:** &lt;This is as per rule [What is your server reboot/restart policy?](/have-a-server-reboot-restart-policy) &gt;
 
+:::  
+::: 
 
 Immediately before the scheduled downtime, check for logged in users, file access, and database connections.
 
@@ -142,7 +147,6 @@ Once these have been checked for active users, and users have logged off, mainte
 3. Between 7pm and 7:05pm 
 
 
-
-If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://www.ssw.com.au/ssw/Redirect/Microsoft/Technet.htm) page.
+If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://docs.microsoft.com/en-us/sysinternals/downloads/psshutdown) page.
 
 **Always reply 'Done' when you finish the task.**

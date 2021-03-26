@@ -8,7 +8,8 @@ created: 2009-02-28T09:43:16.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+- do-you-send-morning-goals-this-rule-is-out-of-date
 redirects:
 - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
 - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
@@ -32,7 +33,7 @@ Everybody knows the 3 essential questions:
 
 Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discovers issues quickly and keep abreast of the progress.
 
-The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, \*after\* the meeting.
+The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, **after** the meeting.
 
 `youtube: https://www.youtube.com/embed/YR84qH6d7QE`
 Figure: Watch a Daily Scrum at Microsoft (short)       

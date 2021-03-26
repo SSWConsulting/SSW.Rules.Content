@@ -14,19 +14,17 @@ redirects: []
 There is often a bit of confusion about what constitutes a brief proposal and what constitutes a specification review.  
 <!--endintro-->
 
-
-
-[Brief proposal](/do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review) - free:
+**Brief proposal** - free:
 
 * Information about your company
 * A basic overview of what you'll do for them
 * The next steps
 
 
-[Specification Review](/rules) - billed:
+**Specification Review** - billed:
 
 * A technical document listing in detail what technologies will be used and how
 * Most likely includes initial release plans and ballparks
 
 
-[See](/rules) [Rules to Successful Sales Account Management](/meetings-do-you-know-the-outcomes-from-your-initial-meeting-%28spec-review-or-ad-hoc-work%29)
+Read [Do you know the outcomes from your initial meeting (Spec Review or Ad Hoc work)?](/the-outcomes-from-your-initial-meeting)

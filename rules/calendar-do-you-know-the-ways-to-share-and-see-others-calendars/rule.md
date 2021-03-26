@@ -12,6 +12,10 @@ authors:
   url: https://ssw.com.au/people/ulysses-maclaren
 - title: Chris Clement
   url: https://ssw.com.au/people/chris-clement
+- title: Calum Simpson
+  url: https://www.ssw.com.au/people/calum-simpson
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
 related: []
 redirects:
 - calendar-do-you-know-the-ways-to-see-others-calendars
@@ -28,6 +32,8 @@ While working in a team, there are three ways of seeing others' or team calendar
 You can share your Outlook calendar with another person or a group in Outlook. This option is useful when you want to share your personal calendar with others.
 
 See [https://rules.ssw.com.au/calendar-do-you-allow-full-access-to-calendar-admins](/calendar-do-you-allow-full-access-to-calendar-admins) for step by step instructions on how to share your calendar or see another person's shared calendar.
+
+![Figure: The Outlook calendar](outlook-calendar-example.png)
 
 ### Option 2: Using the Dynamics 365 CRM Service Calendar - See everyone's calendar
 

@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Spec - Do you keep your PBIs smaller than 2 days' effort?
 guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
-uri: keep-PBIs-smaller-than-2-days
+uri: create-PBIs-under-2-days
 created: 2009-09-15T09:20:55.0000000Z
 authors:
 - title: Adam Cogan
@@ -16,6 +16,7 @@ related: []
 redirects:
 - spec-do-you-keep-your-pbis-smaller-than-2-days-effort
 - spec-do-you-create-tasks-under-4-hours
+- keep-PBIs-smaller-than-2-days/
 
 ---
 
@@ -29,29 +30,29 @@ Avoid monolithic Product Backlog Items (PBIs). Ideally, all PBIs should be les
 | Subject: | Create an .NET 5 prototype with web services |   
 :::
 ::: bad
-Figure: Bad example – This is a monolithic 4-day task
+Figure: Bad example - This is a monolithic 4-day task
 :::
 
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #1 - Create a web page with firstname and lastname textboxes, a save button (and remmed out code to later call a web service) |   
+| Subject: | .NET 5 prototype #1 - Create a web page with firstname and lastname textboxes, a save button |   
 :::
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #2 - .NET 5 prototype - Create a table for customer with firstname and lastname and any other fields required for this table |   
+| Subject: | .NET 5 prototype #2 - Create a table for customer with any other fields required for this table |   
 :::
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #3 - .NET 5 prototype - Create a web service with the customer CRUD methods |   
+| Subject: | .NET 5 prototype #3 - Create a web service with the customer CRUD methods |   
 :::
 ::: email-template  
 |          |     |
 | -------- | --- |
-| Subject: | .NET 5 prototype #4 - .NET 5 prototype - Create methods on webservice exposed to client |   
+| Subject: | .NET 5 prototype #4 - Create methods on webservice exposed to client |   
 :::
 ::: good
-Figure: Good example – The same monolithic task, broken down into 4 smaller tasks
+Figure: Good example - The same monolithic task, broken down into 4 smaller tasks
 :::
