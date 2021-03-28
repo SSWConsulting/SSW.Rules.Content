@@ -31,7 +31,7 @@ Everybody knows the 3 essential questions:
 3. **Do you have any roadblocks?** (aka issues/impediments)
 
 
-Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discovers issues quickly and keep abreast of the progress.
+Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discover issues quickly and keep abreast of the progress.
 
 The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, **after** the meeting.
 
