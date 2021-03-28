@@ -25,7 +25,7 @@ When naming documents, use **kebab-case** to separate words to make your files�
 
 <!--endintro-->
 
-A file name without spaces means that the search engine doesn't know where one word ends and the other one begins. This means that searching for 'monthly' or 'report' might **not** find this document.
+### Avoid spaces
 
 ::: greybox
 Monthly Report.docx
@@ -38,6 +38,8 @@ As far as search goes, using spaces is actually a usable option. What makes s
 
 Know more on [Do you remove spaces from your folders and filename?](/remove-spaces-from-your-folders-and-filename)
 
+### Avoid CamelCase
+
 ::: greybox
 MonthlyReport.docx
 :::
@@ -45,16 +47,20 @@ MonthlyReport.docx
 Bad example: CamelCase - File name doesn't have spaces but also doesn't contain any separators between words
 :::
 
-This is a popular way to combine words as a convention in variable declarations in many coding languages, but shouldn't be used in document names as it is harder to read.
+This is a popular way to combine words as a convention in variable declarations in many coding languages, but shouldn't be used in document names as it is harder to read. Also, a file name without spaces means that the search engine doesn't know where one word ends and the other one begins. This means that searching for 'monthly' or 'report' might **not** find this document.
+
+### Avoid Snake_Case
 
 ::: greybox
 Monthly_Report.docx
 :::
-::: bad
-Bad example: Snake\_Case - File name uses an underscore to separate words
+::: ok
+Figure: OK example - underscored (Snake\_Case) URLs have good readability but are not recommended by Google
 :::
 
 Underscores are not valid word separators for search in SharePoint, and not recommended by others. Also, sometimes underscores are less visible to users, for example, when a hyperlink is underlined. When reading a hyperlink that is underlined, it is often possible for the user to be mistaken by thinking that the URL contains spaces instead of underscores. For these reasons it is best to avoid their use in file names and titles.
+
+### Use kebab-case
 
 ::: greybox
 monthly-report.docx
@@ -65,10 +71,16 @@ Good Example: kebab-case - File name uses dashes to separate words
 
 A hyphen (or dash) is the best choice, because it is understood both by humans and all versions of SharePoint search.
 
-### Add relevant metadata where possible
+:::info
+You may use Uppercase in the first letter in Kebab-Case, however it's important to keep consistency
+:::
+
+### Extra
+
+- **Add relevant metadata where possible**
 
 If a document library is configured with metadata fields, add as much relevant information as you can. Metadata is more highly regarded by search than the contents within documents, so by adding relevant terms to a documents metadata, you will almost certainly have a positive effect on the relevance of search results.
 
-### Use descriptive file names and titles
+- **Use descriptive file names and titles**
 
 The file name and title is regarded more highly by search than the content within documents. Also, the title or file name is what is displayed in the search results, so by making it descriptive, you are making it easier for people who perform searches to identify the purpose of your document.
