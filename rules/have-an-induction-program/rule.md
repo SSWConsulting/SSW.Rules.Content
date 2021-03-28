@@ -19,14 +19,14 @@ redirects:
 The problem is companies have a lot of information – some of it is public, some of it is private. 
 
 
-You need an Induction or a Continuous Learning tool. We recommend [SugarLearning.com](https&#58;//www.sugarlearning.com/). It's a great tool and it can test employees' knowledge; e.g. whether they can find relevant information on the intranet.
+You need an Induction or a Continuous Learning tool. **We recommend [SugarLearning.com](https://www.sugarlearning.com/)**. It's a great tool and it can test employees' knowledge; e.g. whether they can find relevant information on the intranet.
 
 
 <!--endintro-->
 
+### SSW SugarLearning
 
-### The goal of SugarLearning is to help you learn. 
-
+> The goal of SugarLearning is to help you learn. 
 
 SSW induction covers a combination of public and private information. This information is available on the SSW website (public information) and the intranet (private information). We want to maintain these sites as the sources of truth for that information, so we don't want to duplicate this information on SugarLearning.
 
