@@ -18,5 +18,7 @@ GitHub notifications can be frustrating if they are not setup for your personal 
 
 1. Navigate to the repo you want to setup notifications for.
 2. Navigate to **Profile Dropdown | Settings | Notifications**
-![image](https://user-images.githubusercontent.com/79821522/112800403-54beb300-90bb-11eb-8146-837dbb3acaa7.png)
-3. Customise the settings as you see fit.
+![Navigation to GitHub notification settings](https://user-images.githubusercontent.com/79821522/112800403-54beb300-90bb-11eb-8146-837dbb3acaa7.png)
+3. Customise the settings as you see fit. For non-technical users we recommend the below setup
+![Recommended notifications for non-technical users](https://user-images.githubusercontent.com/79821522/112801064-2e4d4780-90bc-11eb-98a9-9295ef1bb121.png)
+
