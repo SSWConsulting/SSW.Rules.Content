@@ -45,7 +45,7 @@ Now what do you do?
 protected override void OnPreLoad(EventArgs e)
 {
      //Fix for pages that allow edit in grids
-     this.Controls.ForEach(c=>
+     this.Controls.ForEach(c =>
      {   
           if (c is System.Web.UI.Timer)
           {
