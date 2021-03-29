@@ -12,6 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 
