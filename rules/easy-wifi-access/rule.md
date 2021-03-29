@@ -20,5 +20,5 @@ QR codes can easily be created with services like [QR Code Monkey](https://www.q
 <!--endintro-->
 
 ::: good
-![Good Example: Let's Encrypt Free Certificate Authority](wifi-qr-code.png)
+![Good Example: Let's Encrypt Free Certificate Authority](https://user-images.githubusercontent.com/12601228/112892906-caf8f080-908e-11eb-8fa8-aa56a2861d59.png)
 :::
