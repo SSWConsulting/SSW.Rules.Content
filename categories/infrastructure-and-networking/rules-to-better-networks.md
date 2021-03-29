@@ -16,6 +16,7 @@ index:
 - know-the-right-notification-for-backups
 - monitor-the-uptimes-of-all-your-servers-daily
 - secure-your-wireless-connection
+- easy-wifi-access
 - do-you-use-free-or-paid-ssl-certificates
 - do-you-use-service-accounts
 - use-the-distributed-file-system-for-your-file-shares
@@ -25,4 +26,3 @@ index:
 Networks are the lifeblood of any business. This is why we have developed these standards for better Networks.
 
 If you still need help, [visit our Network Architecture consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Network-Architecture.aspx) and book in a consultant.
-
