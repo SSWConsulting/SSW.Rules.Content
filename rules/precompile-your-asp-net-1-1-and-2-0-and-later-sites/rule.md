@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Old ASP rule - content seem irrelevant 
 title: Do you precompile your ASP.NET 1.1 and 2.0+ sites?
 guid: f8ffbf9d-05ee-4771-9a5f-d634db3ed0f8
 uri: precompile-your-asp-net-1-1-and-2-0-and-later-sites
@@ -19,4 +19,4 @@ It always much better for your developers to find errors rather than your client
 
 <!--endintro-->
 
-For more information go to [Precompile ASP.NET Sample in SSW Knowledge Base](https&#58;//www.ssw.com.au/ssw/KB/KB.aspx?KBID=Q1545246).
+For more information go to **Precompile ASP.NET Sample in SSW Knowledge Base** (broken link removed).
