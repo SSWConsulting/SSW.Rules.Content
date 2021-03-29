@@ -17677,18 +17677,18 @@
 	},
 	{
 		"file": "rules/comment-when-your-code-is-updated/rule.md",
-		"lastUpdated": "2019-08-05T14:33:49+10:00",
-		"lastUpdatedBy": "Matthew Wicks",
-		"lastUpdatedByEmail": "MatthewWicks@ssw.com.au",
+		"lastUpdated": "2021-03-29T22:17:14.096Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-25T05:53:39+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/create-task-list-comments-for-your-code/rule.md",
-		"lastUpdated": "2019-01-25T14:08:16+11:00",
-		"lastUpdatedBy": "Partho P. Das",
-		"lastUpdatedByEmail": "Partho@ssw.com.au",
+		"lastUpdated": "2021-03-29T22:17:14.096Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-25T06:53:05+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -17749,7 +17749,7 @@
 	},
 	{
 		"file": "rules/what-to-do-with-comments-and-debug-print-statements/rule.md",
-		"lastUpdated": "2021-03-29T09:26:27.967Z",
+		"lastUpdated": "2021-03-29T22:17:14.096Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-26T04:12:19+10:00",
@@ -18019,9 +18019,9 @@
 	},
 	{
 		"file": "rules/add-a-comment-when-you-use-thread-sleep/rule.md",
-		"lastUpdated": "2019-01-25T13:52:36+11:00",
-		"lastUpdatedBy": "Partho P. Das",
-		"lastUpdatedByEmail": "Partho@ssw.com.au",
+		"lastUpdated": "2021-03-29T22:17:14.096Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-27T08:00:01+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18127,7 +18127,7 @@
 	},
 	{
 		"file": "rules/what-to-do-with-a-work-around/rule.md",
-		"lastUpdated": "2021-03-29T09:26:27.967Z",
+		"lastUpdated": "2021-03-29T22:17:14.096Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-05-01T07:37:19+10:00",
@@ -21322,9 +21322,9 @@
 	},
 	{
 		"file": "rules/make-sure-that-the-test-can-be-failed/rule.md",
-		"lastUpdated": "2020-06-03T10:43:44+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-03-29T22:17:14.097Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2020-03-13T10:16:37+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
