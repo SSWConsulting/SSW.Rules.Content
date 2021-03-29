@@ -81,3 +81,28 @@ Sometimes you have a lot of content and too many changes, making the process "fr
 ![Figure: A Word document with 'Track Changes' ON is recommended if you have too many changes](word-track-changes.jpg)  
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+
+### Reviewing changes in GitHub via pull requests
+
+A pull requests is a request to make changes to 1 or more files. GitHub provides out of the box functionality for reviewing changes in a pull request. This process is as follows
+
+1. Open the pull request
+2. Examine the changes using the tabs
+    * Conversations: shows comments people have made about the change
+    * Commits: shows comments associated with the changes the requester has made
+    * Files changed: show the difference between the old and new files being changed. Red highlighting indicates deleted parts and green highlighting indicates added parts. 
+    ![The pull request tabs](https://user-images.githubusercontent.com/79821522/112783096-3b593f00-909a-11eb-9862-c641822f133e.png)
+    **Tip:** To see a visual preview of the changes to a markdown file select the "Display the rich diff" button
+    ![The "Display the rich diff" button](https://user-images.githubusercontent.com/79821522/112783487-2a5cfd80-909b-11eb-9820-d04a437dd43a.png)
+3. Add your review by navigating to "Files changed"
+
+    1.&nbsp;Press "Review changes"</pre>
+
+    2.&nbsp;Add a comment with your feedback.
+
+    3.&nbsp;Choose "Approve" to mark it as ready to go live. If it is not ready, then choose "Comment" for general feedback or "Request changes" for mandatory changes.
+
+    4.&nbsp;Press "Submit review" so that the requester can see it.
+      ![Submitting a pull request review](https://user-images.githubusercontent.com/79821522/112782859-bbcb7000-9099-11eb-894d-2df0ee5fe290.png)
+
+
