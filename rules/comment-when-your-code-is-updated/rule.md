@@ -26,7 +26,7 @@ Commands such as git blame or Visual Studio's annotate are great ways of seeing 
 
 
 
-```
+```cs
 private void iStopwatchOptionsForm_Resizing(object sender, System.EventArgs e) {
     // Don't close this form except closing this application - using hide instead; 
     if (!this.m_isForceClose) {
@@ -43,19 +43,13 @@ MessageBoxIcon.Warning) = DialogResult.Yes) {
     }
 }
 ```
-
-
-
-
 ::: bad
 Figure: Bad example - timestamped comments add noise to the code
-
 :::
 
-![](comment annotations.png)
+
 
 
 ::: good
-Figure: Good example - we can tell who added the comment using annotations
-
+![Figure: Good example - we can tell who added the comment using annotations](comment annotations.png)
 :::
