@@ -106,5 +106,6 @@ A pull requests is a request to make changes to 1 or more files. GitHub provides
 
     4.&nbsp;Press "Submit review" so that the requester can see it.
       ![Submitting a pull request review](https://user-images.githubusercontent.com/79821522/112782859-bbcb7000-9099-11eb-894d-2df0ee5fe290.png)
+4. That's it, you're review has been submitted!
 
 
