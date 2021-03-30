@@ -61,17 +61,23 @@ SSW Chief Architect
 
 > "I knew it, we should never have used React for the Northwind project."
 
-::: bad Figure: Bad example(On the day) :::
+::: bad 
+Figure: Bad example(On the day) 
+:::
 
 >"Thanks for the chat today. As per our conversation, you'd like us to build this feature using a quick workaround. Just for the record, the best practice would have been to XXX, but since you are the Product Owner, and I understand we're under time pressure, I of course will go with your decision."
 
-::: good Figure: Good example - they asked you to do a shortcut :::
+::: good 
+Figure: Good example - they asked you to do a shortcut 
+:::
 
 (On the day)
 > "Thanks for the chat today. For the record, I disagree with doing the Northwind Project in React and instead I recommend doing it in Angular, because...XXX.
 That said, you are the Product Owner and have final say in the matter, so I will proceed with React as per your decision."
 
-::: good Figure: Good example - they are making a poor technology choice.  :::
+::: good 
+Figure: Good example - they are making a poor technology choice.  
+:::
 
 Note it's also a good email to have in your back pocket in case the client complains about slow progress in a few months time
 
@@ -79,7 +85,9 @@ Note it's also a good email to have in your back pocket in case the client compl
 > "I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.  
 As per our conversation, we are both happy that the React solution has panned out and there has been some benefits that we didn't think of at the time such as hiring a couple of cool React developers.   We agreed that we could have saved some money with Angular, but we don't regret the decision."
 
-::: good Figure: Good example – 6 month retrospective to analyse the pros and cons of a past decision.  :::
+::: good 
+Figure: Good example – 6 month retrospective to analyse the pros and cons of a past decision.  
+:::
 
 Tread carefully with a follow up email - use your discretion to avoid souring a relationship by unnecessarily rubbing their face in it.
 Mention the words "For the record," so that you can find it more easily in the future with a search, but avoid starting with it because it can sound a bit harsh.
