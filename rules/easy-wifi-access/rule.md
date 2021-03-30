@@ -20,9 +20,9 @@ QR codes can easily be created with services like [QR Code Monkey](https://www.q
 <!--endintro-->
 
 ::: bad
-![Bad Example: Providing an SSID and Password for guest to manually sign in to](https://user-images.githubusercontent.com/12601228/112905989-457e3c00-90a0-11eb-8fc8-ae08bbca61dc.png)
+![Bad Example: Providing an SSID and Password for guest to manually sign in to](https://user-images.githubusercontent.com/12601228/113022505-88d8b900-9139-11eb-8ee1-b439df4b1286.png)
 :::
 
 ::: good
-![Good Example: QR Code for Guest Wifi](https://user-images.githubusercontent.com/12601228/112906066-65156480-90a0-11eb-862c-378572f5431e.png)
+![Good Example: QR Code for Guest Wifi](https://user-images.githubusercontent.com/12601228/113022554-955d1180-9139-11eb-9a69-97e30edaa7f0.png)
 :::
