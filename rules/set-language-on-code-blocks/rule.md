@@ -47,3 +47,11 @@ if(iceCream === 'chocolate') {
 ::: good
 Figure: This JavaScript code block shows its syntax highlighted
 :::
+
+::: greybox
+SSW CodeAuditor enforces this rule [https://codeauditor.com/rules](https://codeauditor.com/rules)
+:::
+
+::: todo
+When the CodeAuditor box is ready, update the greybox above. [https://github.com/SSWConsulting/SSW.Rules/issues/417](https://github.com/SSWConsulting/SSW.Rules/issues/417)
+:::
