@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-When checking code into TFS, a build should be triggered as per the rule [Do you know the minimum builds to create on any branch?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#MinimumBuilds)
+When checking code into TFS, a build should be triggered as per the rule [Do you know the minimum builds to create on any branch?](/do-you-know-the-minimum-builds-to-create-for-your-project)
 
 You should not just trigger a build and walk away however – make sure that build succeeded!
 
@@ -21,13 +21,11 @@ You should not just trigger a build and walk away however – make sure that bui
 
 The first way is from within Visual Studio.
 
-
 ::: good  
 ![Figure: Good Example – Check your build has passed from Team Explorer | Builds](builds-success-good.jpg)  
 :::
 
 The second is by always having the TFS Build Notification tool always running. Through it you can subscribe to any builds you are interested in, when they start, end and their status.
-
 
 ::: good  
 ![Figure: Better Example – Check your build(s) are continually passing by having the TFS Build Notification tool always running - Start | All Programs | Visual Studio 2012 | Team Foundation Server Tools | Build Notifications](builds-success-better.jpg)  
