@@ -31,17 +31,17 @@ Figure: Bad Example - how can we check the task was done correctly?
 :::
 
 ::: greybox
-Done - http://jira&#46;ssw&#46;com&#46;au/browse/NET-443  
+Done - jira&#46;ssw&#46;com&#46;au/browse/NET-443  
 :::
 ::: good
 Figure: Good example   
 :::
 
 ::: greybox
-Done - https://ssw2&#46;visualstudio&#46;com/SSW&#46;SharePoint/\_workitems/edit/43726
+Done - ssw2&#46;visualstudio&#46;com/SSW&#46;SharePoint/\_workitems/edit/43726
 :::
 ::: good
 Figure: Good Example - easy to check what was done
 :::
 
-**Video:**  [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)
+**Video:**  [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
