@@ -10,8 +10,6 @@ authors:
   url: https://ssw.com.au/people/david-klein
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
 - title: Tristan Kurniawan
   url: https://ssw.com.au/people/tristan-kurniawan
 - title: Drew Robson
@@ -26,7 +24,7 @@ Team Foundation Server is great, and one of its neat features is enforcing comme
 <!--endintro-->
 
 ::: greybox
-You should have good comments... if you are struggling use [this](http://programmingexcuses.com/) :)
+You should have good comments... if you are struggling use [Excuses For Lazy Coders](http://programmingexcuses.com/) :)
 :::
 
 ::: bad
