@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: 'Tiny: Do you know "Scrum" should be capitalized?'
+title: 'Spelling: Do you know "Scrum" should be capitalized?'
 guid: b0fdd7d0-664d-44ea-8cf8-7773c15becf4
 uri: scrum-should-be-capitalized
 created: 2020-03-11T00:28:43.0000000Z
@@ -37,5 +37,5 @@ SSW CodeAuditor enforces this rule [https://codeauditor.com/rules](https://codea
 :::
 
 ::: todo
-When the CodeAuditor box is ready, update the greybox above. [https://github.com/SSWConsulting/SSW.Rules/issues/417](https://github.com/SSWConsulting/SSW.Rules/issues/417)
+TODO: When the CodeAuditor box (on the Rules website is ready), update the greybox above. [https://github.com/SSWConsulting/SSW.Rules/issues/417](https://github.com/SSWConsulting/SSW.Rules/issues/417)
 :::
