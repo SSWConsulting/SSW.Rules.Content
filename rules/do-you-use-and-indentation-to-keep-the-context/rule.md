@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Merged with https://www.ssw.com.au/rules/do-you-use-indentation-for-readability
 title: Do you use > and indentation to keep the context?
 guid: 60f5de4c-c42c-41ff-8e48-3646b4347e31
 uri: do-you-use-and-indentation-to-keep-the-context
@@ -60,12 +60,5 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 :::
 
 **Note:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually.
-
-### Related Rules
-
-
-* [Do you use indentation for readability?](/do-you-use-indentation-for-readability)
-* [Do you use a different color when replying an email?](/when-you-reply-inline-do-you-use-a-different-color)
-
 
 **Video:**  [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)
