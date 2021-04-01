@@ -84,18 +84,25 @@ Sometimes you have a lot of content and too many changes, making the process "fr
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
 
-### Reviewing changes in GitHub via pull requests
+### What if you have a website managed by GitHub?
+
+Some websites use GitHub to manage their files (e.g. [SSW Rules](https://github.com/SSWConsulting/SSW.Rules.Content)). GitHub makes reviewing changes easy through "pull requests".
 
 A pull request is a request to make changes to 1 or more files. GitHub provides out of the box functionality for reviewing changes in a pull request. This process is as follows
 
 1. Open the pull request
 2. Examine the changes using the tabs
-    * Conversations: shows comments people have made about the change
-    * Commits: shows comments associated with the changes the requester has made
-    * Files changed: show the difference between the old and new files being changed. Red highlighting indicates deleted parts and green highlighting indicates added parts. 
+    * Conversations: see comments people have made about the change
+    * Commits: see comments associated with the changes the requester has made
+    * Checks: You can ignore this if you are not a developer
+    * Files changed **\* Important \***: see the difference between the old and new files being changed. Red highlighting indicates deleted parts and green highlighting indicates added parts. 
     ![The pull request tabs](https://user-images.githubusercontent.com/79821522/112783096-3b593f00-909a-11eb-9862-c641822f133e.png)
-    **Tip:** To see a visual preview of the changes to a markdown file select the "Display the rich diff" button
+    Figure: Review 3 of the 4 tabs in a GitHub pull request
+    
+    **Tip:** To see a visual preview of the changes to a markdown file select **Files changed | Display the rich diff**
+    
     ![The "Display the rich diff" button](https://user-images.githubusercontent.com/79821522/112783487-2a5cfd80-909b-11eb-9820-d04a437dd43a.png)
+    Figure: The "Display the rich diff" button
 3. Add your review by navigating to "Files changed"
 
     1.&nbsp;Press "Review changes"</pre>
