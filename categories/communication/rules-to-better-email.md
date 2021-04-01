@@ -11,7 +11,6 @@ index:
 - do-you-send-as-per-our-conversation-emails
 - number-tasks-questions
 - do-you-know-the-common-standard-email-types
-- do-you-use-and-indentation-to-keep-the-context
 - do-you-ask-for-content-changes-using-from-x-to-y
 - how-to-send-a-v2-if-requested
 - do-you-cc-everyone-and-reply-to-all-when-necessary
@@ -41,10 +40,9 @@ index:
 - do-you-realize-the-importance-of-a-good-email-subject
 - do-you-respond-to-each-email-individually
 - do-you-send-tasks-one-email-at-a-time
-- how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
+- do-you-use-indentation-for-readability
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
 - when-you-reply-inline-do-you-use-a-different-color
-- do-you-use-indentation-for-readability
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - do-you-avoid-attaching-emails-to-emails
@@ -63,6 +61,7 @@ index:
 - do-you-know-when-to-use-plus-one
 - link-emails-to-the-rule-or-template-they-follow
 - do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database
+- how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
 - do-you-manage-your-email-accounts
 - do-you-remember-that-emails-arent-your-property
 - do-you-reference-which-email-template-youre-using
