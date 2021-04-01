@@ -22,3 +22,20 @@ You will occasionally see it in:
 
 * not capitalized (scrum) - this is incorrect
 * all caps (SCRUM) - this is incorrect, as Scrum is not an acronym
+
+Other Scrum terms should also be capitalized:
+- Sprint
+- Product Owner
+- Scrum Master
+- Product Backlog
+- Sprint Review
+- Sprint Planning
+- Sprint Retrospective
+
+::: greybox
+SSW CodeAuditor enforces this rule [https://codeauditor.com/rules](https://codeauditor.com/rules)
+:::
+
+::: todo
+When the CodeAuditor box is ready, update the greybox above. [https://github.com/SSWConsulting/SSW.Rules/issues/417](https://github.com/SSWConsulting/SSW.Rules/issues/417)
+:::
