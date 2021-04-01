@@ -99,20 +99,22 @@ A pull request is a request to make changes to 1 or more files. GitHub provides 
     ![The pull request tabs](https://user-images.githubusercontent.com/79821522/112783096-3b593f00-909a-11eb-9862-c641822f133e.png)
     Figure: Review 3 of the 4 tabs in a GitHub pull request
     
-    **Tip:** To see a visual preview of the changes to a markdown file select **Files changed | Display the rich diff**
-    
     ![The "Display the rich diff" button](https://user-images.githubusercontent.com/79821522/112783487-2a5cfd80-909b-11eb-9820-d04a437dd43a.png)
-    Figure: The "Display the rich diff" button
-3. Add your review by navigating to "Files changed"
+    Figure: The best view is via the "Display the rich diff" button. This visual preview of the changes to a markdown file is accessed via **Files changed | Display the rich diff**
+    
+3. Next is to approve or ask for changes.
 
-    1.&nbsp;Press "Review changes"</pre>
+    1.&nbsp;Files changed | Review changes</pre>
 
     2.&nbsp;Add a comment with your feedback.
 
-    3.&nbsp;Choose "Approve" to mark it as ready to go live. If it is not ready, then choose "Comment" for general feedback or "Request changes" for mandatory changes.
+    3.&nbsp;Choose "Approve" to mark it as ready to go live. 
+
+      If it is not ready, then choose "Comment" for general feedback or "Request changes" for mandatory changes.
 
     4.&nbsp;Press "Submit review" so that the requester can see it.
       ![Submitting a pull request review](https://user-images.githubusercontent.com/79821522/112782859-bbcb7000-9099-11eb-894d-2df0ee5fe290.png)
-4. That's it, your review has been submitted!
+
+Congratulations! Your review has been submitted ⭐
 
 
