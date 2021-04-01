@@ -23,4 +23,10 @@ Figure: First navigate to your notifications
 2. Customise the settings as you see fit.
 ![Recommended notifications for non-technical users](https://user-images.githubusercontent.com/79821522/113254680-9eeda180-9312-11eb-8016-e55f2d683030.png)
 
-Figure: The recommended notification setup for non-technical users (GitHub actions 
+Figure: The recommended notification setup for non-technical users
+
+ From the default remove:
+* Automatic watching x2
+* Dependabot alerts x5
+* GitHub Actions x1
+* Email notification preferences | Pull Request pushes x1
