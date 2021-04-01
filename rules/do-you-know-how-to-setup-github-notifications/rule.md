@@ -12,13 +12,17 @@ related:
 
 ---
 
-GitHub notifications can be frustrating if they are not setup for your personal preferences. To setup GitHub notifications follow the following process
+GitHub notifications can be frustrating if they are not setup for your personal preferences. To setup GitHub notifications follow this process
 
 <!--endintro-->
 
 1. Navigate to the repo (e.g. [SSW Rules](https://github.com/SSWConsulting/SSW.Rules.Content)) you want to setup notifications for.
-2. Navigate to **Profile Dropdown | Settings | Notifications**
+2. **Profile Dropdown | Settings | Notifications**
 ![Navigation to GitHub notification settings](https://user-images.githubusercontent.com/79821522/112800403-54beb300-90bb-11eb-8146-837dbb3acaa7.png)
-3. Customise the settings as you see fit. For non-technical users we recommend the below setup
+
+Figure: How to navigate to notifications
+
+3. Customise the settings as you see fit.
 ![Recommended notifications for non-technical users](https://user-images.githubusercontent.com/79821522/112801741-fa265680-90bc-11eb-95d6-de7e89f803a3.png)
 
+Figure: The recommended notification setup for non-technical users
