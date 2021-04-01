@@ -86,7 +86,7 @@ Sometimes you have a lot of content and too many changes, making the process "fr
 
 ### Reviewing changes in GitHub via pull requests
 
-A pull requests is a request to make changes to 1 or more files. GitHub provides out of the box functionality for reviewing changes in a pull request. This process is as follows
+A pull request is a request to make changes to 1 or more files. GitHub provides out of the box functionality for reviewing changes in a pull request. This process is as follows
 
 1. Open the pull request
 2. Examine the changes using the tabs
