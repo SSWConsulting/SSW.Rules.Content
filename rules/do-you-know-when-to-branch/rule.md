@@ -15,6 +15,13 @@ redirects:
 
 ---
 
+---
+**NOTE**
+
+This rule only applies to TFVC. For git, see here: https://www.ssw.com.au/rules/do-you-know-when-to-branch-in-git
+
+---
+
 One of the most controversial issues developers discuss is when to create branches and how many you should have.
 
 Keep things simple:

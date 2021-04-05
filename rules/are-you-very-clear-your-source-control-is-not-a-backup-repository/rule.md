@@ -10,8 +10,6 @@ authors:
   url: https://ssw.com.au/people/david-klein
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
 - title: Tristan Kurniawan
   url: https://ssw.com.au/people/tristan-kurniawan
 related: []
@@ -24,5 +22,6 @@ Note: If you did not finish working:
 * TFS put changes into shelveset
 * SVN put changes into sandbox / branches
 
- Note: Another way to do this is to enable gated check-in and prevent check-ins that do not have build and tests passed.  
 <!--endintro-->
+
+**Note:** Another way to do this is to enable gated check-in and prevent check-ins that do not have build and tests passed. 

@@ -27,11 +27,11 @@ Communication can be difficult (even if English is your first language!). It mig
 ![Figure: Good example - Asking ‘Can I call you?’ (Especially for complicated conversations)](skype-conference.jpg)
 :::
 
-Here are some tips to have a better call:
+#### Tips to have a better call
 
 <!--endintro-->
 
-- Try to always answer the call with video (if weak bandwidth, use it for the first 10 seconds and say "I'll turn off video to save bandwidth").
+Try to always answer the call with video (if weak bandwidth, use it for the first 10 seconds and say "I'll turn off video to save bandwidth").
 
 **Sound** 
 - Be ready with the headset already on (it looks disorganized plugging it in after you make the call)
@@ -40,8 +40,6 @@ Here are some tips to have a better call:
 **Video** 
 - Check the image quality of the camera. 
 - Beware of the angle of the camera - the ones with thin bezels now put the camera at the base, looking up your nose. Avoid them. Frame your head and shoulders in the shot, and keep the camera lens at or above **eye level** - use a cardboard box as a stand if necessary.
-
-**Video** 
 - Consider what is in the background.
 - Keep a light source on your face, and try to avoid sitting with a window behind you.
 - Have a microfiber cloth and wipe off the lens from time to time.

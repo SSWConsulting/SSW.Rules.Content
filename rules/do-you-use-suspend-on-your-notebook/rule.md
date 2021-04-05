@@ -8,8 +8,6 @@ created: 2011-08-23T08:38:37.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-- title: Andrian Foyn
-  url: https://ssw.com.au/people/andrian-foyn
 - title: Tim Fletcher
   url: https://ssw.com.au/people/tim-fletcher
 related: []
@@ -23,5 +21,4 @@ Being developers, it's often the case that we have to take our notebooks to visi
 
 Your notebook should also be configured so that if it is left in suspend for a long period of time (more than 10 minutes) it will automatically  hibernate. However, your notebook should not automatically suspend or hibernate if the lid is simply closed. Both of these settings are in the Power Options in Control Panel.
 
-
-![](PowerOptions.PNG)
+![Figure: Power Options](PowerOptions.PNG)

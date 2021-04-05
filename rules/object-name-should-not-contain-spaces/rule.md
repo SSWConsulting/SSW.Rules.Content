@@ -16,7 +16,7 @@ redirects:
 
 Spaces should be avoided. If an object name contains a space, it can cause problems later on for developers because the developer must remember to put the object name inside square brackets when referencing it.
 
-[Why avoid reserved words and spaces in object names?](https&#58;//www.ssw.com.au/ssw/KB/KB.asp?KBID=Q1620415)
+Read this article: [Worst Practice - Spaces in Object Names](https://www.sqlservercentral.com/articles/worst-practice-spaces-in-object-names).
 
 <!--endintro-->
 

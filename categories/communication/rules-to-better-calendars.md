@@ -30,8 +30,6 @@ index:
 ---
 It's important to use your calendar correctly as it's your main organizational tool and how others view your time.
 
-Since calendars are often used with emails, you should also have a look at [Rules to Better Email](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=9775587d-d391-4b7d-8654-96953eeb9cfc).
-
+Since calendars are often used with emails, you should also have a look at [Rules to Better Email](/rules-to-better-email).
 
 `youtube: https://www.youtube.com/embed/hlhqV0LwNJ8`
-

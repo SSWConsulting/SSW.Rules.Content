@@ -13,14 +13,14 @@ redirects: []
 
 ---
 
-Do you use a standardized grid to display tabular information? Do you sort, paginate, filter data in your grid?
+Use a standardized grid to display tabular information - you can sort, paginate, and filter data in your grid.
 
 <!--endintro-->
 
-Here is a sample Kendo grid with filtering, pagination and sorting data.
-
-[http://ssw.sswtimepro.com/b/sample/kendo-grid](http&#58;//ssw.sswtimepro.com/b/sample/kendo-grid)
+Here is a sample Kendo grid with filtering, pagination and sorting data: [sswtimepro.com/b/sample/kendo-grid](https://ssw.sswtimepro.com/b/sample/kendo-grid)
 
 It demonstrate how to sort, filter and paginate data in the grid.
 
-Also consider using the alternatives listed on that page.
+Also consider using the alternatives:
+- [AG Grid](https://www.ag-grid.com)
+- [PrimeNG](https://www.primefaces.org/primeng/#/)

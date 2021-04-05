@@ -18,9 +18,7 @@ First don’t do it and find the right fix. But if you have to, it should alway
 
 <!--endintro-->
 
-
-
-```
+```cs
 public DialogResult RefreshSchema() {
     SSW.SQLAuditor.WindowsUI.QueryAnalysisForm.RunScript(Startup.PageQueryAnalyzer.txtScript.Text)
     System.Windows.Forms.Application.DoEvents()

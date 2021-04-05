@@ -16,14 +16,11 @@ redirects:
 
 We recommend adding these menus to your Tools Menu:
 
-* Tools - Validate - Validate Links (with [SSW Link Auditor](http&#58;//www.ssw.com.au/ssw/LinkAuditor))
-* Tools - Validate - [Validate Data](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Windows-Applications.aspx#ValidateData)
-* Tools - Validate Schema (with [SSW SQL Deploy](http&#58;//www.ssw.com.au/ssw/SQLDeploy/Default.aspx))
-* Tools - Validate - Reports (with [SSW Reporting Services Auditor](http&#58;//www.ssw.com.au/ssw/SQLReportingServicesAuditor/Default.aspx))
-* Tools - [Run Unit Tests](http&#58;//www.ssw.com.au/ssw/Standards/Rules/rulestobetterwindowsforms.aspx#UnitTests) (with NUnit)
-* Tools - Validate PC (with [SSW Diagnostics](http&#58;//www.ssw.com.au/ssw/Diagnostics/Default.aspx))
-* Tools - View Application Errors (with [SSW Lady Log](http&#58;//www.ssw.com.au/ssw/NetToolKit/04ExceptionReporter.aspx))
-* Tools - Validate - Code Quality (with SSW Code Auditor)
-
+* Tools - Validate - Validate Links (with [SSW Code Auditor](https://codeauditor.com))
+* Tools - Validate - [Validate Data](/menu-do-you-include-a-tools-validate-data)
+* Tools - Validate - Reports (with SSW Reporting Services Auditor)
+* Tools - [Run Unit Tests](rules-to-better-unit-tests) (with NUnit)
+* Tools - Validate PC (with SSW Diagnostics)
+* Tools - View Application Errors (with SSW Lady Log)
 
 <!--endintro-->

@@ -9,7 +9,7 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: 
-- do-you-send-morning-goals-this-rule-is-out-of-date
+- use-the-status-message-in-teams
 redirects:
 - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
 - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
@@ -30,61 +30,59 @@ Everybody knows the 3 essential questions:
 2. **What are you going to do today?** (and my current task on the [physical task board](/the-war-room-does-your-development-room-have-an-electronic-task-board-physical-is-ok-too-for-small-co-located-teams) has my picture on it)
 3. **Do you have any roadblocks?** (aka issues/impediments)
 
-
-Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discovers issues quickly and keep abreast of the progress.
+Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discover issues quickly and keep abreast of the progress.
 
 The team's successes and failures are shared, and anyone who knows the answer to someone else's problem can help with a solution, **after** the meeting.
 
 `youtube: https://www.youtube.com/embed/YR84qH6d7QE`
-Figure: Watch a Daily Scrum at Microsoft (short)       
+**Figure: Watch a Daily Scrum at Microsoft (short)**   
+
 `youtube: https://www.youtube.com/embed/-UUrLxNBK_g`
- Figure: Watch a Daily Scrum at Microsoft (long)
+**Figure: Watch a Daily Scrum at Microsoft (long)**
 
-
-::: greybox
-
-"Great video guys. Remember, it is ok to change Scrum, actually, it is necessary for success. Just adhere to the values of Scrum. "
-
-Stephen Forte (Board member ScrumAlliance.com)
-
-:::
+> "Great video guys. Remember, it is ok to change Scrum, actually, it is necessary for success. Just adhere to the values of Scrum. "
+> Stephen Forte (Board member ScrumAlliance.com)
 
 ### Follow these essential tips to improve your Daily Scrum meetings:
 
-
 **Tip 1: Be prepared for the meeting**
 
-Before you join the Daily Scrum,     [check the Teams group](/how-to-see-what-is-going-on-in-your-project) to see what your colleagues have been discussing and working on, and check the portal to confirm the meeting time. If you’re joining a new project or re-joining a previous one after some time away, these steps are important to keep yourself up-to-date and abreast of progress.
+Before you join the Daily Scrum, [check the Teams group](/how-to-see-what-is-going-on-in-your-project) to see what your colleagues have been discussing and working on, and check the portal to confirm the meeting time. If you’re joining a new project or re-joining a previous one after some time away, these steps are important to keep yourself up-to-date and abreast of progress.
 
 Then you’ll be able to say to your Scrum Master, “I’ve had a look at the Teams group. I am ready to join the daily Scrum.”
 
 **Tip 2: Have your Scrum Master review the Sprint Progress at the end**
 
-At the end of the Scrum, the Scrum Master should     [review the current burn down](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day) to check on the progress of the team.
+At the end of the Scrum, the Scrum Master should [review the current burn down](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day) to check on the progress of the team.
 
 ![Figure: The burndown chart in tfs.visualstudio.com](burndowntfspreview.png)  
 
 **Tip 3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)**
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | \[Team\] |
+| Recurrence:      | Everyday |
+| Subject: | Daily Scrum – \[Project Name\] |  
+::: email-content  
 
-::: greybox
+### Hi \[Team Name\],  
 
-Subject: 🙋Daily Scrum –               **[Project Name]
-** 
-Hi **[Team name]** ,
-As per our conversation, the Daily Scrum will be held each day.
+As per our conversation, the Daily Scrum will be held each day.  
 
-Project: **[Project Name]
-** Scrum Master:               **[Scrum Master Name]
-** 
+Project: **\[Project Name\]**  
+Scrum Master: **\[Scrum Master Name\]** 
+
+&lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
+
 Regards,
-
- **[Your name here]**
-
-&lt;This email was sent as per              [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
-
-:::
+\[Your Name\]
+:::  
+:::  
+::: good  
 Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template
+:::
 
 ![Figure: Or you can use Microsoft Teams](teams-meeting-daily-scrum.jpg)  
 
@@ -94,13 +92,16 @@ Get started on time. Especially in the beginning, people will be late, but the m
 
 If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.
 
-Note #1: The Product Owner (often the client) is not required at the stand-up meeting. If he wants to turn up, remind him that he has tape stuck over his mouth, so he does not talk.
-
-Note #2: If you are not doing an approved sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work)).
+::: greybox
+Notes:
+- The Product Owner (often the client) is not required at the stand-up meeting. If he wants to turn up, remind him that he has tape stuck over his mouth, so he does not talk.
+- If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work)).
+:::
 
 **Tip 5: Do you update tasks before the Daily Scrum?**
 
 Daily Scrums are more effective when team members arrive when their tasks are already updated.
+
 See [Do you update your tasks before the daily stand-up meeting?](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 
 **Tip 6: Don't go into detail**
@@ -128,7 +129,9 @@ A "Parking Lot" is the place for any discussions that stop the Team from answeri
 
 **Tip 11: If you have raised impediments, consider contacting the Product Owner**
 
-![Figure: Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an Impediment (aka Roadblock). Communication with the Product Owner is essential and if you haven't touched base with him in the few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.](ProductOwnerTelephone.jpg)  
+Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an Impediment (aka Roadblock). Communication with the Product Owner is essential and if you haven't touched base with him in the few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.
+
+![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)  
 
 **Tip 12: What to do when you're working for a PO directly**
 
@@ -136,26 +139,18 @@ If you don't have a team, and you're doing ad hoc work for a PO directly, it's b
 
 **Tip 13: How do you enter scrum meetings into your timesheets?**
 
-Once you have completed your stand up, add “S” to your timesheet as per     [Rules to Better Timesheets](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterTimesheets.aspx).
+Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
-**Tip 14: Use Teams or Skype
-**
+**Tip 14: Use Teams or Skype**
 
 Use Teams or Skype to bridge gaps in geography.
 
+**Focus on the Flow**
 
-::: greybox
+> "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
+> [Joel Semeniuk](http://joelfromcanada.com/)
 
-Focus on the Flow
-
-"Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people..... it's about flow. The team faces the scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage.. respecting work in progress constraints."
-
-[Joel Semeniuk](http://joelfromcanada.com/)
-
-:::
-
-When using email or IM try to be as specific as possible.
-
+When using email or IM try to be as specific as possible:
 
 ::: greybox
 
@@ -170,16 +165,10 @@ Today I am working on:
 * Timepro PBIs
 * Tidy inbox
 
-
-&lt;This email was sent as per http://sugarlearning.com/Item/8291&gt;
-
 :::
-
-
 ::: bad
 Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working  
 :::
-
 
 ::: greybox
 
@@ -191,22 +180,15 @@ I have 22 emails in my inbox.
 
 Today I am working on:
 
-* TimePro<mark>- Adding new button to the next day</mark>
+* TimePro - <mark>Adding new button to the next day</mark>
 * <mark>Getting my emails on "SSW.com" to zero</mark>
 
-
-&lt;This email was sent as per http://sugarlearning.com/Item/8291&gt;
-
 :::
-
-
 ::: good
-Figure: Good example - Clear details 
-
+Figure: Good example - Clear details
 :::
 
 ### More information
-
 
 **What happens when you run out of tasks?**
 
@@ -218,8 +200,3 @@ It is important that any major incidents are dealt with first. Start with any ma
 
 ![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage.jpg)  
 
-![Figure: If you like this,        retweet  ;)](dailyscrumtweet.png)  
-
-### Related rule
-
-* [Do you use the status message in Teams?](/use-the-status-message-in-teams)
