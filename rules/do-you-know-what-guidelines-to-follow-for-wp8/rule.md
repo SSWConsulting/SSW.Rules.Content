@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Antiquated content 
 title: Do you know what guidelines to follow for WP8?
 guid: 61c373be-1a16-4a75-ad6a-dae8d0aeeb6c
 uri: do-you-know-what-guidelines-to-follow-for-wp8
