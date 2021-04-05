@@ -26,98 +26,31 @@ The main 5 types used are:
 1. All uppercase – ALL UPPERCASE
 2. All lower case – all lowercase
 3. Pascal case - PascalCase 
-
 4. Camel case – camelCase
 5. Only first letter capitalized - Onlythefirstletter 
 
-
-
-<font color="#333333">
-</font>
-
 Here’s a quick overview:
 
-
-> | **Technology name:**  | **Capitalisation Convention**  |
-> | --- | --- |
-> | .NET
-
- | All uppercase
-
- |
-> | DevOps
-
- | Pascal case
-
- |
-> | JavaScript
-
- | Pascal case
-
- |
-> | jQuery
-
- | Camel case
-
- |
-> | Angular (previously AngularJS)
-
- | Only first letter capitalized
-
- |
-> | SharePoint
-
- | Pascal case
-
- |
-> | email
-
- | All lowercase
-
- |
-> | MVC
-
- | All uppercase
-
- |
-> | CRM
-
- | All uppercase
-
- |
-> | SAP
-
- | All uppercase
-
- |
-> | Salesforce
-
- | Only first letter capitalized
-
- |
-> | gulp
-
- | All lowercase 
-               
-
- |
-> | Agile
-
- | Only first letter capitalized
-
- |
-> | Scrum
-
- | Only first letter capitalized
-
-(Note: it is not an acronym, so it should never be spelled "SCRUM") |
-
+- **.NET** - All uppercase
+- **DevOps** - Pascal case
+- **JavaScript** - Pascal case
+- **jQuery** - Camel case
+- **Angular** (previously AngularJS) - Only first letter capitalized
+- **SharePoint** - Pascal case
+- **email** - All lowercase
+- **MVC** - All uppercase
+- **CRM** - All uppercase
+- **SAP** - All uppercase
+- **Salesforce** - Only first letter capitalized
+- **gulp** - All lowercase 
+- **Agile** - Only first letter capitalized
+- **Scrum** - Only first letter capitalized
+  (Note: Scrum is not an acronym, so it should never be spelled "SCRUM") |
 
 
 ::: bad  
 ![Figure: Bad example - If you want to be taken seriously as an expert in the subject, you should properly and consistently spell, punctuate, and capitalize the technology you are working with](bad-example-incorrect-capitalization.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example – the technology is consistently capitalized correctly across the page](good-example-correctly-capitalized.jpg)  
