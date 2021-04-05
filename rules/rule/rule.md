@@ -8,7 +8,7 @@ created: 2021-01-20T05:06:33.0000000Z
 authors:
 - title: Christian Morford-Waite
   url: https://ssw.com.au/people/christian-morford-waite
-- title: Sebastien-Boissiere
+- title: Sebastien Boissiere
   url: https://ssw.com.au/people/sebastien-boissiere
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
@@ -42,18 +42,16 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
    * This is the first item of an unordered list inside another
    * This is the second item of an unordered list inside another
       1. This is the first item of an ordered list inside an unordered list
-      1. This is the second item of an ordered list inside an unordered list 
-   
-&nbsp;  
+      2. This is the second item of an ordered list inside an unordered list 
 
 #### Ordered List
 1. This is the first item of an ordered list
-1. This is the second item of an ordered list
-1. This is the third item of an ordered list
+2. This is the second item of an ordered list
+3. This is the third item of an ordered list
    * This is the first item of an unordered list inside an ordered list
    * This is the second item of an unordered list inside an ordered list
       1. This is the first item of an ordered list inside another
-      1. This is the second item of an ordered list inside another
+      2. This is the second item of an ordered list inside another
 
 ### Boxes
 
@@ -208,7 +206,6 @@ int main()
 ```
 **Figure: JSON code block**
 
-
 ```markdown
 *This text will be italic*
 _This will also be italic_
@@ -219,7 +216,6 @@ __This will also be bold__
 _You **can** combine them_
 ```
 **Figure: Markdown code block**
-
 
 
 ### Twitter Card Embed  
@@ -311,19 +307,19 @@ Check out this video - it's responsive!
 ![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
 
-# Horizontal Rules
+### Horizontal Rules
 ---
 ***
 ___
 
-# Text decoration
+### Text decoration
 
 **bold** or **bold**  
 _italic_ or _italic_  
 **combined bold and _italic_**  
 ~~strikethrough~~  
 
-# Tables
+### Tables
 &nbsp; 
 
 | Tables        |      Are      |   Cool |
@@ -350,7 +346,7 @@ _italic_ or _italic_
 ```
 ---
 
-# Links
+### Links
 
 [I'm an inline-style link](https://www.google.com)  
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
