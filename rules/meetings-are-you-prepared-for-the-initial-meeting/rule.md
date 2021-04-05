@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Be prepared for the initial meeting because first impressions are the most important.                     Preparation cements your professionalism and underscores your eye for detail and                     capacity to deliver.
+Be prepared for the initial meeting because first impressions are the most important. Preparation cements your professionalism and underscores your eye for detail and capacity to deliver.
 
 <!--endintro-->
 
@@ -26,7 +26,7 @@ Preparing for the meeting includes:
 * Reviewing any specification documents the client may have provided.
 * Having a wireless card to access the Internet if you cannot connect to the clients network. In fact, it is preferred you do not connect to the clients network due to time and security issues
 * Having the [Standard Sales Presentation](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/meetings-are-you-prepared-for-the-initial-meeting/SSW-SalesMarketing.pptx). Remember, while clients don't want to think this is you first job, they rarely like to listen to how many CommBanks, NRMAs or Pfizers you've done work for. Clients generally prefer the focus of the meeting to be their business. You will however consider any previous projects which bear similarities to the project on offer, you do need to prove our competency
-* Have all the information that was recorded during the [initial call](http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterInboundCalls.aspx#Preparation)
-* A hard copy of the [Consulting Order Terms and Conditions](http://www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx) may be useful for them to review when the meeting is concluded
+* Have all the information that was recorded during the [initial call](/be-prepared-for-inbound-calls)
+* A hard copy of the [Consulting Order Terms and Conditions](https://www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx) may be useful for them to review when the meeting is concluded
 * Plenty of business cards (that haven't been sitting in your wallet for three months!)
 * Turning up early!
