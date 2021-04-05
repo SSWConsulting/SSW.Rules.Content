@@ -8,55 +8,74 @@ created: 2010-09-01T02:53:29.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+- title: Cameron Shaw
+  url: https://ssw.com.au/people/cameron-shaw
+- title: Paul Neumeyer
+  url: https://ssw.com.au/people/paul-neumeyer
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+related: 
+- when-you-reply-inline-do-you-use-a-different-color
 redirects: []
 
 ---
 
-Another thing that helps readability in emails is  **indentation** .   
+Written communication can easily cause misunderstandings. Help the reader understand your message better by:
+
+* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to, or a web page, etc.
+* Your new text should be kept to the left
+* Optionally, [use a different text color in your reply](/when-you-reply-inline-do-you-use-a-different-color)
+* Add numbers if the sender didn't and it is appropriate
+
 <!--endintro-->
 
+This way you won't forget any questions in the original email.
+ 
+:::  
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | RE: Change on Northwind app |  
+::: email-content  
 
-::: greybox
-I’m on site with a client setting up their TFS Server. We have the TFS 2010 and WSS on the app tier and SQL 2008 Standard on a separate box. We can see Analysis Services running in Services but the configuration manager returns Error “TF 255040: You must exit Team Foundation Admin console and install SQL Server Reporting Services or at a minimum SQL Client Connectivity Tools…” SQL Reporting Services appears happy in the Advanced Configuration Wizard. Anyone have suggestions?     
-Mike
+### Hi Adam,  
 
+Please change from X to Y   
+The program flow logic worries me a bit   
+Done. Sorry, this wasn't a final decision - I just put it there for testing purposes 
+
+:::  
+:::  
+
+::: bad  
+Figure: Bad Example - there's too much information here  
 :::
 
+:::  
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | RE: Change on Northwind app |  
+::: email-content  
 
+### Hi Adam,  
 
-::: bad
-Figure: Bad Example - hard to read  
+     &gt; 1. Please change from X to Y  
+Done - \[add a link to the page or a screenshot\];
+
+     &gt; 2. The program flow logic worries me a bit  
+Sorry, this wasn't a final decision - I just put it there for testing purposes  
+
+:::  
+:::  
+::: good  
+Figure: Good Example - You can clearly see the context of each part of the reply
 :::
 
+**Note:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually.
 
-::: greybox
+---
 
-I’m on site with a client setting up their TFS Server. We have the TFS 2010 and WSS on the app tier and SQL 2008 Standard on a separate box. We can see Analysis Services running in Services but the configuration manager returns Error
-
-
-> *"TF 255040: You must exit Team Foundation Admin console and install SQL Server Reporting Services or at a     minimum SQL Client Connectivity Tools…”*
-
-
-SQL Reporting Services appears happy in the Advanced Configuration Wizard. Anyone have suggestions?
-
-Mike  
-:::
-
-
-::: good
-Figure: Good example – this reads better  
-:::
-
-Your new text should be kept to the left. When quoting text on web pages, other people or quoting past email history, indent it.
-
-**Note:** This is almost as important as the     [Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text) rule.
-
-### Related Rule 
-
-
-
-
-* [Do you use &gt; and indentation to keep the context?](/do-you-use-and-indentation-to-keep-the-context)
-
-**VIDEO**  - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)
+`youtube: https://www.youtube.com/embed/LAqRokqq4jI`
