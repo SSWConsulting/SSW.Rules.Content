@@ -31,7 +31,6 @@ Written communication can easily cause misunderstandings. Help the reader unders
 
 This way you won't forget any questions in the original email.
  
-:::  
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -47,12 +46,10 @@ Done. Sorry, this wasn't a final decision - I just put it there for testing pur
 
 :::  
 :::  
-
 ::: bad  
 Figure: Bad Example - there's too much information here  
 :::
 
-:::  
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -62,10 +59,10 @@ Figure: Bad Example - there's too much information here
 
 ### Hi Adam,  
 
-     &gt; 1. Please change from X to Y  
+     &gt; 1. Please change from X to Y   
 Done - \[add a link to the page or a screenshot\];
 
-     &gt; 2. The program flow logic worries me a bit  
+     &gt; 2. The program flow logic worries me a bit    
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
 :::  
