@@ -17,7 +17,7 @@ Occasionally when you estimate the size of a VHD that you will be using in a ser
 <!--endintro-->
 
 1. Open the **Hyper-V Manager** on the server hosting the Virtual Machine
-2. Shutdown the virtual machine
+2. Shutdown the virtual machine (only required for Gen1 VMs)
 3. Click  **Edit Disk...** in the  **Actions** pane of the  **Hyper-V Manager
 ![You expand a VHD from the Actions Menu | Edit Disk](actions-expand.jpg)
 ** **Figure: You expand a VHD from the Actions Menu | Edit Disk**
