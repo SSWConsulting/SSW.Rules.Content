@@ -1918,7 +1918,7 @@
 	},
 	{
 		"file": "rules/do-you-ask-for-content-changes-using-from-x-to-y/rule.md",
-		"lastUpdated": "2021-04-01T05:42:03.264Z",
+		"lastUpdated": "2021-04-06T01:05:40.422Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2014-02-25T17:07:16+11:00",
@@ -25126,5 +25126,14 @@
 		"lastUpdated": "2021-04-06T00:09:24.211Z",
 		"lastUpdatedBy": "Jack Leerson",
 		"lastUpdatedByEmail": "77082983+JackLeerson@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-setup-github-notifications/rule.md",
+		"created": "2021-04-06T01:05:40.422Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-04-06T01:05:40.422Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
 ]
