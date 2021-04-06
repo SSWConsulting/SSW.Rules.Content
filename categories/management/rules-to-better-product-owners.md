@@ -42,7 +42,7 @@ Check out this image:
 
 Also have a look at this one:
 
-![Figure: Local image](/test.png)
+![Figure: Local image](SuccessfulProjects_ManagingExpectations.jpg)
 
 
 
