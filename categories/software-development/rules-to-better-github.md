@@ -24,6 +24,7 @@ index:
 - use-teams
 - limit-admin-access
 - set-default-permissions-for-new-repositories
+- do-you-know-how-to-setup-github-notifications
 
 ---
 Rules to Better GitHub

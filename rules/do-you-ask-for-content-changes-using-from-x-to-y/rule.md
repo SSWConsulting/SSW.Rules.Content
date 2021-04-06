@@ -96,11 +96,13 @@ A pull request is a request to make changes to 1 or more files. GitHub provides 
     * Commits: see comments associated with the changes the requester has made
     * Checks: You can ignore this if you are not a developer
     * Files changed **\* Important \***: see the difference between the old and new files being changed. Red highlighting indicates deleted parts and green highlighting indicates added parts. 
-    ![The pull request tabs](https://user-images.githubusercontent.com/79821522/112783096-3b593f00-909a-11eb-9862-c641822f133e.png)
-    Figure: Review 3 of the 4 tabs in a GitHub pull request
+    ::: img-large
+    ![Figure: Review 3 of the 4 tabs in a GitHub pull request](https://user-images.githubusercontent.com/79821522/112783096-3b593f00-909a-11eb-9862-c641822f133e.png)
+    :::
     
-    ![The "Display the rich diff" button](https://user-images.githubusercontent.com/79821522/112783487-2a5cfd80-909b-11eb-9820-d04a437dd43a.png)
-    Figure: The best view is via the "Display the rich diff" button. This visual preview of the changes to a markdown file is accessed via **Files changed | Display the rich diff**
+    ::: img-large  
+    ![Figure: The best view is via the "Display the rich diff" button. This visual preview of the changes to a markdown file is accessed via Files changed | Display the rich diff](https://user-images.githubusercontent.com/79821522/112783487-2a5cfd80-909b-11eb-9820-d04a437dd43a.png)
+    :::
     
 3. Next is to approve or ask for changes.
 
