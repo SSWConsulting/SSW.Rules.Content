@@ -118,7 +118,8 @@ A pull request is a request to make changes to 1 or more files. GitHub provides 
       If it is not ready, then choose "Comment" for general feedback or "Request changes" for mandatory changes.
 
     4.&nbsp;Press "Submit review" so that the requester can see it.
-      ![Submitting a pull request review](https://user-images.githubusercontent.com/79821522/112782859-bbcb7000-9099-11eb-894d-2df0ee5fe290.png)
+      ![Submitting a pull request review](https://user-images.githubusercontent.com/79821522/113798232-26656580-9796-11eb-92dd-00a4385cac8b.png)
+
 
 Congratulations! Your review has been submitted ⭐
 
