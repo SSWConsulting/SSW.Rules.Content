@@ -24,6 +24,4 @@ Similarly, you might be on the phone with a client and arrange a date and plan t
 
 Locking in time as soon as possible is a big efficiency gain, and helps to avoid any possible mistakes or double bookings.
 
-As soon as you know you’ll need time with someone, create and send the appointment immediately.
-
-![](ssw-do-it-now.jpg)
+![Figure: As soon as you know you’ll need time with someone, create and send the appointment immediately](ssw-do-it-now.jpg)
