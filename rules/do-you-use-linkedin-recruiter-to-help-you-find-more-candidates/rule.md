@@ -32,29 +32,16 @@ This is where LinkedIn Recruiter is a game-changer. Some the unique features:
 * Gives you applicant suggestions based upon your ads
 * Allows you to directly message candidates via InMail
 
-
-
 ![Figure: A screenshot of the Recruiter search that you can use. The red box shows you the keyword searches that you can do to filter applicants and suggestions](SearchLinkedinRecruiter.jpg)  
 
+![Figure: Showing the non-customizable funnels used by LinkedIn Recruiter](LinkedInapplicants.jpg)  
 
-![Figure: Showing the non-customizable funnels used by LinkedIn Recruiter. You can easily move the candidates from one stage to another, and some of them are automatic like “Contacted” This is triggered by you sending an InMail to a candidate or them replying. If you want a fully customizable funnel, I recommend the ATS LinkedIn Talent Hub](LinkedInapplicants.jpg)  
+In LinkedIn Recruiter you can easily move the candidates from one stage to another, and some of them are automatic like “Contacted” This is triggered by you sending an InMail to a candidate or them replying. If you want a fully customizable funnel, we recommend the [ATS LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub).
 
 If you are still having trouble finding great candidates either by searching via keywords or by posting jobs, here is a great "how-to" video from Ross Carvalho from LinkedIn to help you find those hidden golden candidates:
 
-
-
-
-
-
 `youtube: https://www.youtube.com/embed/Fm9RbDKmfHg`
  
-
-
-
-
 You can also watch a great 5-minute demo by LinkedIn Talent Solutions of the main features and search functionality below:
-
-
-
 
 `youtube: https://www.youtube.com/embed/Fhn-3K6oAM0`
