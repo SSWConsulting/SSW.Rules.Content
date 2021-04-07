@@ -25,6 +25,8 @@ Make the changes even easier to see and understand by highlighting in <font styl
 
 <!--endintro-->
 
+#### From X...
+
 ::: email-template  
 |          |     |
 | -------- | --- |
@@ -45,6 +47,8 @@ Make the changes even easier to see and understand by highlighting in <font styl
 ::: bad
 Figure: Bad example - original version of content has not been included in the email
 :::
+
+#### ...to Y
 
 ::: email-template  
 |          |     |
