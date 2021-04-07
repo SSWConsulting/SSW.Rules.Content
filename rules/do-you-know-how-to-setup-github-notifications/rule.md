@@ -16,10 +16,12 @@ GitHub notifications can be frustrating if they are not setup for your personal 
 
 <!--endintro-->
 1. From [GitHub](GitHub.com) **Profile Dropdown | Settings | Notifications**
-![Figure: First navigate to your notifications](https://user-images.githubusercontent.com/79821522/112800403-54beb300-90bb-11eb-8146-837dbb3acaa7.png)
+![Figure: First navigate to your notifications](https://user-images.githubusercontent.com/79821522/113793099-d8973000-978a-11eb-9ca4-3991ba25e7fd.png)
+
 
 2. Customise the settings as you see fit.
-![Figure: The recommended notification setup for non-technical users](https://user-images.githubusercontent.com/79821522/113254680-9eeda180-9312-11eb-8016-e55f2d683030.png)
+![Figure: The recommended notification setup for non-technical users](https://user-images.githubusercontent.com/79821522/113793107-ddf47a80-978a-11eb-91ea-f8bbce616a21.png)
+
 
  From the default remove:
 * Automatic watching x2
