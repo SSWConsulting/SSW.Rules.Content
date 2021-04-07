@@ -17,13 +17,16 @@ You should use a custom domain adds to your company brand.
 
 <!--endintro-->
 
-
 ::: greybox
 bit.ly.com/MyShortenedLink  
 :::
+::: bad
 Figure: Bad example     
+:::
 
 ::: greybox
 r.ssw.com/MyShortenedLink  
 :::
+::: good
 Figure: Good example (for SSW)
+:::
