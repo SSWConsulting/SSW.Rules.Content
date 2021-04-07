@@ -21,5 +21,5 @@ According to Statista, 269 billion emails were sent per day in 2017. That’s a 
 
 Just as...
 
-[!rules-to-better-inbox-management.png](rules-to-better-inbox-management.png)
+![rules-to-better-inbox-management.png](rules-to-better-inbox-management.png)
 **Figure: Don't let your inbox become a vortex of doom - keep it organised!**
