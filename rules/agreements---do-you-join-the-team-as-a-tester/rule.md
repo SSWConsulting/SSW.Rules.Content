@@ -24,5 +24,5 @@ Twitter embed
 
 
 Facebook embed
-![Figure: A really big image](https://user-images.githubusercontent.com/79821522/113823542-1c595c00-97c2-11eb-8aac-9f483b01afbb.png)
+![Figure: A really big image](big-image-test.png)
 
