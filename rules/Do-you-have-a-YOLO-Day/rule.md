@@ -24,8 +24,7 @@ for the staff. At SSW, we have coined this YOLO Day based on the phrase 'You Onl
 YOLO Day should be incentivised for staff to do something productive or fun (e.g. Skydiving, windsurfing or house hunting). This is also a great way to allow for staff to share
 their experiences with fellow colleagues or friends, whilst promoting the benefits available from their business. 
 
-Sky Diving
-
+Sky Diving:
 ![](ThinkstockPhotos-dv617062-1.jpg)
 
 
