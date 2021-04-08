@@ -4,6 +4,8 @@ archivedreason:
 title: Agreements - Do You Book the Next Sprint Ahead of Time?
 guid: 911032e8-861d-4b21-a00e-9e2822bb7e41
 uri: agreements---do-you-book-the-next-sprint-ahead-of-time
+redirects:
+- jack-test-rule
 created: 2012-05-01T05:09:11.0000000Z
 authors:
   - id: 4
