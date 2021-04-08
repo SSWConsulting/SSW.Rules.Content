@@ -25,6 +25,7 @@ YOLO Day should be incentivised for staff to do something productive or fun (e.g
 their experiences with fellow colleagues or friends, whilst promoting the benefits available from their business. 
 
 Sky Diving:
+
 ![](ThinkstockPhotos-dv617062-1.jpg)
 
 
