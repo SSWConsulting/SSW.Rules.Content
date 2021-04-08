@@ -21,7 +21,7 @@ For example, Zendesk provides a 3 months paid paternity/maternity leave for thei
 A great work around that is both beneficial to staff and cost-effective for the business is to provide an encouraged day off work per financial year to promote a fun day out 
 for the staff. At SSW, we have coined this YOLO Day based on the phrase 'You Only Live Once'. 
 
-YOLO Day should be incentivised for staff to do something productive or fun (e.g. Skydiving, windsurfing or house hunting). This is also a great way to allow for staff to share
+YOLO Day should be incentivised for staff to do something productive or fun (e.g. skydiving, windsurfing or house hunting). This is also a great way to allow for staff to share
 their experiences with fellow colleagues or friends, whilst promoting the benefits available from their business. 
 
 Sky Diving:
