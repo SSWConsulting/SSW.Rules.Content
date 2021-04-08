@@ -24,6 +24,8 @@ for the staff. At SSW, we have coined this YOLO Day based on the phrase 'You Onl
 YOLO Day should be incentivised for staff to do something productive or fun (e.g. skydiving, windsurfing or house hunting). This is also a great way to allow for staff to share
 their experiences with fellow colleagues or friends, whilst promoting the benefits available from their business. 
 
+An extra day of unaccruable leave ideally should not damage the business financially and in turn can be  promoted within your Employment Procedures or Guidelines as part of recruitment or as a marketing tool for promoting work culture.
+
 Sky Diving:
 
 ![](ThinkstockPhotos-dv617062-1.jpg)
