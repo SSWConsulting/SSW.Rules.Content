@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Product Owners
 guid: 29c34567-f635-4815-8265-c7b02f503521
 uid: rules-to-better-product-owners
+redirects:
+- jack-test
 index:
 - do-you-know-how-to-be-a-good-product-owner
 - agreements---do-you-book-the-next-sprint-ahead-of-time
