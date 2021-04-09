@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules To Better TFS Customization
+title: Rules to Better TFS Customization
 guid: beac833e-04e9-4557-9e86-4c9bb7bd8d36
 uri: rules-to-better-tfs-customization
 index:
@@ -14,7 +14,5 @@ index:
 - do-you-remove-the-need-to-type-tfs
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
-
+If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM-Azure-DevOps.aspx) and book in a consultant.
