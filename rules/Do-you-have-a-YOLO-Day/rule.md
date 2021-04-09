@@ -5,7 +5,9 @@ title: Do you have a YOLO Day
 guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 uri: Employee-YOLO-Day
 created: 2021-04-07
-authors: Nicholas Viet
+authors: 
+  - title: Nicholas Viet
+    url: https://www.ssw.com.au/people/nick-viet
 related:
 
 ---
