@@ -3,9 +3,11 @@ type: rule
 archivedreason:
 title: Do you have a YOLO Day
 guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
-uri: https://www.ssw.com.au/rules/Employee-YOLO-Day
+uri: Employee-YOLO-Day
 created: 2021-04-07
-authors: Nicholas Viet
+authors: 
+  - title: Nicholas Viet
+    url: https://www.ssw.com.au/people/nick-viet
 related:
 
 ---
@@ -24,9 +26,8 @@ Staff shouold be incentivised to use their YOLO Day to do something productive o
 
 An extra day of unaccruable leave ideally should not damage the business financially and in turn can be promoted within your Employment Procedures or Guidelines as part of recruitment or as a marketing tool for promoting work life balance.
 
-Sky Diving:
 
-![](ThinkstockPhotos-dv617062-1.jpg)
+![Figure: Sky Diving](ThinkstockPhotos-dv617062-1.jpg)
 
 
 <!--endintro-->
