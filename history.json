@@ -20782,9 +20782,9 @@
 	},
 	{
 		"file": "rules/do-not-allow-nulls-in-text-fields/rule.md",
-		"lastUpdated": "2021-03-17T05:30:04.668Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-09T00:20:24.480Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-11-23T11:18:45+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
