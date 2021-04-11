@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules To Better WPF And Silverlight
+title: Rules to Better WPF and Silverlight
 guid: aa835ac8-bfab-469a-aaa8-49814a0a60ce
 uri: rules-to-better-wpf-and-silverlight
 index:
@@ -12,7 +12,4 @@ index:
 - when-do-you-use-silverlight
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
-
-If you still need help, visit [Windows desktop applications | Windows 8 store applications & WPF](http&#58;//www.ssw.com.au/ssw/Consulting/Desktop-Development.aspx) and book in a consultant.
 
