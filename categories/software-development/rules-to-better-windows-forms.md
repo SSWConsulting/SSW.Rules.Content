@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules To Better Windows Forms
+title: Rules to Better Windows Forms
 guid: 50d80bbb-d025-4361-bcaf-bc73ae788201
 uri: rules-to-better-windows-forms
 index:
@@ -8,4 +8,3 @@ index:
 
 ---
  
-
