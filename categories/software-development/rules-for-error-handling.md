@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules for Error Handling
+title: Rules to Better Error Handling
 guid: 3691ee12-ee85-40dc-9236-ced69d3930ba
 uri: rules-for-error-handling
 index:
@@ -15,7 +15,3 @@ index:
 - do-you-use-ladylog
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
-
-If you still need help, visit [SSW Consulting Services](http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx)and book in a consultant.
-
