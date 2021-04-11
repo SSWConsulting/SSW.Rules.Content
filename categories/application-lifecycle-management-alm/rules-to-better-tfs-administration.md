@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules To Better TFS Administration
+title: Rules to Better TFS Administration
 guid: fd2b6ace-b962-4a70-9c81-4ab1b6feef80
 uri: rules-to-better-tfs-administration
 index:
@@ -8,7 +8,5 @@ index:
 - do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
-
+If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM-Azure-DevOps.aspx) and book in a consultant.
