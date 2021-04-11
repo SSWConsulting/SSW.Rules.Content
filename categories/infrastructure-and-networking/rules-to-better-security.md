@@ -13,4 +13,4 @@ index:
 
 ---
 
-Do you know the best free .NET security videos? [Watch them on SSW TV](https&#58;//tv.ssw.com/category/security).
+Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.
