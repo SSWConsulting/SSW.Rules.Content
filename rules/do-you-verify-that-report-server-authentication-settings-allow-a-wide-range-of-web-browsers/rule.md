@@ -15,30 +15,33 @@ redirects: []
 
 The default configuration for Report Server isn't accessible by most mobile browsers and some desktop browsers too. You can adjust the authentication types allowed to increase the range.
 
-
-
-
-
 <!--endintro-->
 
-The configuration file for the Report Server is named RSReportServer.config and the default location is C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\
+The configuration file for the Report Server is named RSReportServer.config and the default location is:
+
+::: greybox
+**C:\Program Files\Microsoft SQL Server\MSRS13.MSSQLSERVER\Reporting Services\ReportServer\**
+:::
 
 You should make a backup of the configuration before editing it so you can rollback if you make a mistake.
 
 We normally change the AuthenticationTypes node from:
 
-&lt;AuthenticationTypes&gt;
-                            &lt;RSWindowsNegotiate /&gt;  
-              &lt;/AuthenticationTypes&gt;
- 
-to:
- 
-              &lt;AuthenticationTypes&gt;
-                            &lt;RSWindowsNegotiate /&gt;  
-                            &lt;RSWindowsKerberos /&gt;  
-                            &lt;RSWindowsNTLM /&gt;  
-              &lt;/AuthenticationTypes&gt;
+::: greybox
+&lt;AuthenticationTypes&gt;   
+  &lt;RSWindowsNegotiate /&gt;   
+&lt;/AuthenticationTypes&gt;   
+:::
 
-Check out the different [Authentication Types in the Report Server documentation](https&#58;//technet.microsoft.com/en-us/library/cc281310%28v=sql.105%29.aspx) and select the types that suit your needs.
+to:   
+::: greybox 
+&lt;AuthenticationTypes&gt;  
+  &lt;RSWindowsNegotiate /&gt;   
+  &lt;RSWindowsKerberos /&gt;    
+  &lt;RSWindowsNTLM /&gt;    
+&lt;/AuthenticationTypes&gt;   
+:::
 
-More details on configuring windows authentication on the report server can be found [here](https&#58;//docs.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
+Check out the different [Authentication Types in the Report Server documentation](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/cc281310(v=sql.105)?redirectedfrom=MSDN) and select the types that suit your needs.
+
+More details on configuring windows authentication on the report server can be found here [Configure Windows Authentication on the Report Server](https://docs.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
