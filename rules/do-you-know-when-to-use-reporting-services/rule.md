@@ -5,7 +5,9 @@ title: Do you know when to use Reporting Services?
 guid: 2ff1b753-098d-4e30-9093-7e809c736c40
 uri: do-you-know-when-to-use-reporting-services
 created: 2013-07-02T08:25:41.0000000Z
-authors: []
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
@@ -13,14 +15,15 @@ redirects: []
 
 Like any solution, Reporting Services has its pros and cons. From our experience, we have discovered these things about Reporting Services:
 <!--endintro-->
-Cons
+
+### Cons
 
 * Parameters - you are forced to use built-in controls
 * Query string - when you change the parameters and refresh a report, the values do not appear directly in the query string, making it hard to copy/paste URLs
 * Can't separate SQL into a strongly-typed dataset or middle-tier object like in ASP.NET
 * There are potential difficulties with the deployment of RS reports and the exposing of them. However, once we have the infrastructure...
 
- **Pros** 
+### Pros 
 
 * You can develop read only reports faster in Reporting Services than ASP.NET
 * Maintenance with RS is easier than ASP .NET, as with most cases you don't have to write any code
@@ -32,7 +35,6 @@ Cons
 
 So in conclusion, if you will only ever need 1 report, go with ASP.NET - it is easier to get up and running. If you plan to have more than one report, use Reporting Services - it's worth the time to configure.
 
-For a more detailed comparison between reporting solutions, take a look at our [Guidelines for Report Solutions - Web Clients](http://www.ssw.com.au/ssw/Standards/DeveloperDotNet/guidelinesforreportingwebclient.aspx).
+For a more detailed comparison between reporting solutions, take a look at our [Guidelines for Report Solutions - Web Clients](https://www.ssw.com.au/ssw/Standards/DeveloperDotNet/guidelinesforreportingwebclient.aspx).
 
-
-![](RSRulesUseRS1.gif)Figure: Reporting Services has built-in support for PDF/XLS export and can be embedded in your ASP.NET pages
+![Figure: Reporting Services has built-in support for PDF/XLS export and can be embedded in your ASP.NET pages](RSRulesUseRS1.gif)
