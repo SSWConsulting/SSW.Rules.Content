@@ -19,27 +19,18 @@ Why? Well, what is wrong with this?
 
 <!--endintro-->
 
-
-
 ```sql
 SELECT ContactName FROM Customer WHERE ContactName <> ''
 ```
+**Figure: Selecting on empty string** 
 
-
- **Figure: Selecting on empty string
-** 
 Nothing if your data is perfect, but if you allow Nulls in your database, then statements like this will give you unexpected results. To get it working you would have to add the following to the last line:
-
-
 
 ```sql
 WHERE ContactName <> '' OR ContactName Is Null
 ```
+**Figure: Allowing null strings makes queries more complex**
 
-
- **Figure: Allowing null strings makes queries more complex
-
-** 
 What about only allowing empty strings? Well, we choose to block Nulls because it is a lot easier to check off a check box in SQL Server Management Studio than it is to put a constraint on every field that disallows empty string ('').
 
 ![Figure: Don't allow Nulls](SqlTableWithNullValue.PNG)  
@@ -54,9 +45,6 @@ However, you should always be aware that Nulls and empty strings are totally dif
 * Don't have to deal with the pain in the middle tier to explicitly check DBNull.Value, you can always use contactRow.ContactName == String.Empty. Database Nulls in the .NET framework are represented as DBNull.Value and it cannot implicitly typecast to ANY other type, so if you are allowing NULLs in ContactName field, the above comparing will raise an exception.
 * Avoid other nasty issues, a lot of controls in the .NET framework have real problems binding to DBNull.Value. So you don't have write custom controls to handle this small thing.
 
-
-
-
 For example, you have Address1 and Address2 in your database, a Null value in Address2 means you don't know what the Address2 is, but an empty string means you know there is no data for Address2. You have to use a checkbox on the UI to explicitly distinguish Null value and empty string:
 
 ![Figure: A check box is required if you want to allow user to use Null value on the UI](NullValueOnUI.jpg)  
@@ -65,9 +53,6 @@ Some people are not going to like this rule, but this is how it works in Oracle 
 
 * In Oracle, empty strings are turned into Nulls (which is basically what this rule is doing). Empty strings per se are not supported in Oracle (This is not ANSI compliant).
 * And talking of legacy systems :-) be aware that using Access as a data editor is a "No-No". Access turns empty strings into a Null.
-
-
-
 
 Finally, always listen to the client, Nulls have meaning over an empty string - there are exceptions where you might use them - but they are rare.
 
