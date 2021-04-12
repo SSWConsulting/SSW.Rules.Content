@@ -28,7 +28,7 @@ In addition, I often see people replying only to the sender of the email, ignori
 
 
 ::: good  
-![Figure: Good Example - Reply All so that everyone is kept in the loop](good-emails-reply-to-all.jpg)  
+![Figure: Good Example - Reply All so that everyone is kept in the loop](2021-04-12_11-22-09.png)  
 :::
 
 ### What if the other person drops people
