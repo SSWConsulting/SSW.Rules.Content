@@ -14,7 +14,6 @@ authors:
   url: https://ssw.com.au/people/tiago-araujo
 related:
 - do-you-understand-the-value-of-consistency
-
 ---
 
 This is an example rule to show you what is possible for a rule. 
