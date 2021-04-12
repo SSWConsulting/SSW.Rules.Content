@@ -27,7 +27,7 @@ index:
 - help-do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
 - do-you-strike-through-completed-items
 - do-you-use-the-metro-ui-when-applicable
-- do-you-give-the-6-options-to-share
+- do-you-provide-options-for-sharing
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
 - how-to-use-gamification
 - do-you-highlight-incomplete-work-with-red-text
