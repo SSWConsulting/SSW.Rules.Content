@@ -8,7 +8,8 @@ created: 2019-11-26T00:55:31.0000000Z
 authors:
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- do-you-know-to-thank-others-for-each-reference-to-you
 redirects:
 - do-you-use-a-signature-with-a-link-when-commenting-on-a-blog
 
@@ -18,11 +19,9 @@ Backlinks are a big part of Google's ranking algorithm, and one way to take adva
 
 
 ::: greybox
-Thank you, that worked for me
-Ulysses Maclaren        [www.ssw.com.au](https&#58;//ssw.com.au/) 
+Thank you, that worked for me.   
+Ulysses Maclaren [www.ssw.com.au](https://ssw.com.au/) 
 :::
-
-
 ::: good
 Figure: Good example - adding a signature with URL in your blog comment  
 :::
