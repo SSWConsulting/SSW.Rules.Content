@@ -1,21 +1,32 @@
 ---
 type: rule
 archivedreason: 
-title: Do you give the 6 options to share?
+title: Do you provide options for sharing?
 guid: 81f06f92-1631-4e6b-ae8f-404949a56c41
-uri: do-you-give-the-6-options-to-share
+uri: do-you-provide-options-for-sharing
 created: 2012-11-27T02:16:07.0000000Z
-authors: []
+authors:
+- title: Jayden Alchin
+  url: https://www.ssw.com.au/people/jayden-alchin
 related: []
 redirects: []
 
 ---
 
-If users want to make some information public, then make it easy for them.
+If users want to share information or media, then make it easy for them!
 
 <!--endintro-->
 
+Some common avenues for sharing are:
+- Facebook
+- Twitter
+- Instagram
+- LinkedIn 
+- Google Drive 
+- Email
+- SMS / Messages
+- Copy to clipboard
 
 ::: good  
-![Figure: Good example – User can easily share information via 6 avenues, Google+, Twitter, Facebook, email, SMS, and copy to clipboard for pasting.](../../assets/social-networks.jpg)  
+![Figure: Good example – Users can easily share media via 6 common avenues and more.](social-networks.png)  
 :::
