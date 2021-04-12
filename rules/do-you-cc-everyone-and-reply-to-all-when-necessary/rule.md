@@ -31,13 +31,27 @@ In addition, I often see people replying only to the sender of the email, ignori
 ![Figure: Good Example - Reply All so that everyone is kept in the loop](good-emails-reply-to-all.jpg)  
 :::
 
-If the original email was to an alias with many subscribers, in general you should not Reply All.     
-Also, if the sender requests a     ['little r'](http://www.ssw.com.au/ssw/Redirect/Netlingo.htm) reply, then you should not 'Reply All'.
+### What if the other person drops people
+
+Sometimes the other person will 'little r' reply instead of 'Reply All'. It is not a good habit to little r reply aside for when there are any exceptions noted below. This can be problematic as those dropped off the loop are needed as part of the decision making. Decisions will be harder to be made in a timely manner or end up being made without a full team agreeance over.
+
+At this point if you are still Cc'd, you should reply and add all those dropped from the loop, back into the loop as soon as possible.
+
+::: Bad
+![Figure: Bad Example - 'little r' reply should be rarely clicked](2021-04-12_11-22-10.png)
+:::
+
+
+::: Good
+![Figure: Good Example - Adding back those dropped from the loop incorrectly](2021-04-12_11-30-35.png)
+:::
 
 ### Exception
 
 * If not all recipients need to be informed
 * The opinions of the rest of the recipients do not matter as they are unlikely to disagree
+* If the original email was to an alias with many subscribers, in general you should not Reply All.     
+* Also, if the sender requests a     ['little r'](http://www.ssw.com.au/ssw/Redirect/Netlingo.htm) reply, then you should not 'Reply All'.
 
 
 **VIDEO** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
