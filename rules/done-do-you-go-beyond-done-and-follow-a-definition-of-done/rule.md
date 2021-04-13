@@ -25,19 +25,19 @@ Every team is different, but all need to agree on which items are in their "Defi
 
 <!--endintro-->
 
-# There are 3 levels of 'Done' in communication
+## There are 3 levels of 'Done' in communication
 
-## Level 1
+### Level 1
 
 * Sending a ["Done" email](/dones-do-you-reply-done-and-delete-the-original-email)
 
-## Level 2
+### Level 2
 
 * Sending a "Done" email
 * Screenshots
 * Code
 
-## Level 3
+### Level 3
 
 * Sending a "Done" email
 * Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
@@ -45,30 +45,30 @@ Every team is different, but all need to agree on which items are in their "Defi
 
 ![Figure – Coded UI Test passes in Visual Studio](level-3-done.jpg)
 
-# There are 8 levels of 'Done' in software quality
+## There are 8 levels of 'Done' in software quality
 
 Start with these examples showing typical "Definitions of Done" from beginner teams to more mature teams:
 
-## Team - Level 1
+### Team - Level 1
 
 * The code compiles
 * All tasks are updated and closed
 * No high priority defects/bugs are on that user story
 
-## Team - Level 2
+### Team - Level 2
 
 * *All of the above, plus*
 * All unit tests passed
 * Greater than 1% code coverage (not earth shattering, but you need to start somewhere)
 
-## Team - Level 3
+### Team - Level 3
 
 * *All of the above, plus*
 * Successful build on the Build Server
-* [Git Branch Policies](/protect-your-master-branch) 
-or
-TFS Check in Policy - Change set Comments Policy (all check-ins must have a comment)
-* TFS Check in Policy - Work Items (all check-ins must be associated with a work item)
+* [Git Branch Policies](/protect-your-master-branch)   
+  OR   
+  Azure DevOps Check in Policy - Change set Comments Policy (all check-ins must have a comment)
+* Azure DevOps Check in Policy - Work Items (all check-ins must be associated with a work item)
 * Code reviewed by one other team member (e.g. Checked by Bill)
 * Sending a Done email with screenshots
 
@@ -76,7 +76,7 @@ TFS Check in Policy - Change set Comments Policy (all check-ins must have a comm
 ![Figure: Good example - Add check in policies to enforce your Definition of Done](CheckinPolicy.jpg)  
 :::
 
-## Team - Level 4
+### Team - Level 4
 
 * *All of the above, plus*
 * All acceptance criteria have been met
@@ -102,14 +102,14 @@ TFS Check in Policy - Change set Comments Policy (all check-ins must have a comm
 Figure: Good example - Done video showing the features worked on  
 :::
 
-## Team - Level 5
+### Team - Level 5
 
 * *All of the above, plus*
 * Deployed to UAT (ideally using Continuous Deployment)
 * Complex code is documented (removing technical debt)
 * Product Owner acceptance
 
-## Team - Level 6
+### Team - Level 6
 
 * *All of the above, plus*
 * Multiple environments automatically tested using Lab Management
@@ -118,7 +118,7 @@ Figure: Good example - Done video showing the features worked on
 ![Figure: Good example - A tester Lab Management to create VMs for testing the application, then defines a test plan for that application with Test Case Management](LabManagement.jpg)  
 :::
 
-## Team - Level 7
+### Team - Level 7
 
 * *All of the above, plus*
 * Automated Load Testing
@@ -128,7 +128,7 @@ Figure: Good example - Done video showing the features worked on
 ![Figure: Good example - Load testing involves multiple test agents running Web Performance Tests and pounding the application (simulating the behavior of many simultaneous users)](LoadTesting.jpg)  
 :::
 
-## Team - Level 8 (Gold)
+### Team - Level 8 (Gold)
 
 * *All of the above, plus*
 * Deployed to Production
