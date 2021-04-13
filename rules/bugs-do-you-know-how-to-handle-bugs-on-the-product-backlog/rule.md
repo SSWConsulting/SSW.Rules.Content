@@ -19,12 +19,11 @@ redirects: []
 
 Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate. All other bugs found independent of the work on the current sprint are placed on the Product Backlog.
 
-See [<font color="#000080">Do you know when to create bugs?</font>](/during-a-sprint-do-you-know-when-to-create-bugs) for detailed information on identifying when something is a bug, and when to just fix it.
+See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs) for detailed information on identifying when something is a bug, and when to just fix it.
 
 <!--endintro-->
 
 ### Using the Agile process template
-
 
 In the Agile template, you can't assign Story Points to bugs, meaning that they will negatively impact on sprint velocity.
 
@@ -38,13 +37,7 @@ This process:
 * Follows the estimate just-in-time philosophy of Scrum
 * Prevents small Bugs taking up a whole Story Point
 
-
-
-
-
-
 ### Using the Scrum process template
-
 
 In the Visual Studio Scrum template, bugs are just another PBI and you can assign a business priority and an effort estimate in Story Points. Bugs that make the cut for the next sprint can be broken down into tasks and estimated as required.
 
@@ -59,13 +52,6 @@ Examples:
 * **Small bug** – Text on a label is spelled incorrectly
 * **Big bug** - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key
 
+![Figure: Bugs can be added "out of sprint" directly into the product backlog in Azure DevOps (was TFS)](2016-02-08_12-02-29.png)
 
-
-
-![](2016-02-08_12-02-29.png)
-
-
- **Figure: Bugs can be added "out of sprint" directly into the product backlog in TFS** 
 The Visual Studio team provides good guidance on [managing bugs in VSTS](https://www.visualstudio.com/en-us/docs/work/backlogs/manage-bugs)
- **
-**
