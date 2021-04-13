@@ -35,9 +35,10 @@ Regards,
 Sophie Belle  
 
 -----
-**To:** Sophie Belle - SSW Developer 
-**From:** Amanda Panda - Qwerty Organization
-**Subject:** .NET Development Work for Qwerty Organization by SSW
+
+**To:** Sophie Belle - SSW Developer   
+**From:** Amanda Panda - Qwerty Organization   
+**Subject:** .NET Development Work for Qwerty Organization by SSW   
 
 ### Sophie,
 
@@ -53,8 +54,9 @@ Qwerty Organization
 :::  
 **Figure: Developers, when you get good feedback from anyone at the client's company, forward their comments onto the boss at the client's company and CC your manager**
 
-> It’s not good enough just to do good work. You’ve gotta do good work and be visible.
+> It’s not good enough just to do good work. You’ve gotta do good work and be visible.  
 >                                   - [Adam Cogan](https://www.ssw.com.au/people/adam-cogan)
+
 
 Assuming you are an awesome worker, there are a whole bunch of smaller ways of getting brownie points and they are all around good communication:
 
