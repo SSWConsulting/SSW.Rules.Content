@@ -46,7 +46,7 @@ Make sure that     [every PBI has an Owner](/tasks-do-you-know-that-every-user-s
 
 When the last task/bug of a PBI is complete, you then send a     [comprehensive done email](/dones-do-you-reply-done-and-delete-the-original-email) as per the rules when the story had been completed. Make sure you add a list of all of the Tasks that were completed as part of the story and the Done criteria that you completed.
 
-Here is the [Done Criteria](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)we followed:
+Here is the [Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) we followed:
 
 * Compiled/Built locally
 * &gt;30% Code Coverage
