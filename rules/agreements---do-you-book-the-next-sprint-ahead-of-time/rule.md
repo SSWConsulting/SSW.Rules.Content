@@ -16,10 +16,10 @@ related:
 
 
 1. Add your website as a new device. 
-![Figure: New device](running1.gif)  
+![Figure: New device](running1.GIF)  
 
 2. Ping monitor is added automatically. 
-![Figure: Ping monitor](running2.gif)  
+![Figure: Ping monitor](running2.GIF)  
 
 3. Add an HTTP Content Scan monitor. 
 ![Figure: HTTP Content Scan](running3.GIF)  
