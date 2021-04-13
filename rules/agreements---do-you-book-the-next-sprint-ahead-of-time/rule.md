@@ -22,7 +22,7 @@ related:
 ![Figure: Ping monitor](running2.gif)  
 
 3. Add an HTTP Content Scan monitor. 
-![Figure: HTTP Content Scan](running3.gif)  
+![Figure: HTTP Content Scan](running3.GIF)  
 
 
 Unless we're currently working on the last sprint of the development, you should always book the next sprint as soon as you start work on the current one.
