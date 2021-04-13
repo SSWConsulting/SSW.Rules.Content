@@ -15,28 +15,14 @@ related:
 ---
 
 
+1. Add your website as a new device. 
+![Figure: New device](running1.GIF)  
 
-![Heres a GIF](running1.GIF)
+2. Ping monitor is added automatically. 
+![Figure: Ping monitor](running2.GIF)  
 
-<!-- <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FSSW.page%2Fphotos%2Fa.334643903218918%2F4507577035925563%2F&width=500&show_text=true&height=691&appId" width="500" height="691" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-
-::: img-small  
-::: good  
-![Good Example](icon.jpg)  
-:::
-::: 
-
-<!-- ::: img-medium  
-::: good  
-![Good Example](icon.jpg)  
-:::
-:::
-
-::: img-large  
-![Good Example](icon.jpg)  
-::: -->
-
-
+3. Add an HTTP Content Scan monitor. 
+![Figure: HTTP Content Scan](running3.GIF)  
 
 
 Unless we're currently working on the last sprint of the development, you should always book the next sprint as soon as you start work on the current one.
