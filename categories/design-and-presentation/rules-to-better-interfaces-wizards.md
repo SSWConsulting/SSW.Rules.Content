@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Interfaces (Wizards)
 guid: fae34265-2b20-4081-b9a2-0ab7a6175737
 uri: rules-to-better-interfaces-wizards
+redirects:
+ - rules-to-better-interfaces-(wizards)
 index:
 - do-you-add-an-useful-introduction-screen-with-an-image-of-where-it-is-going-prior-to-settings
 - do-you-know-the-difference-between-close-and-cancel
