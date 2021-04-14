@@ -1,15 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Agreements - Do you use 1 or 2 week sprints?
-guid: 11cd2bad-7551-4500-a858-2e4743f63aa5
 uri: agreements---do-you-use-1-or-2-week-sprints
-created: 2012-05-01T02:16:06.0000000Z
+guid: 11cd2bad-7551-4500-a858-2e4743f63aa5
 authors:
-- id: 4
-  title: Ulysses Maclaren
+  - id: 4
+    title: Ulysses Maclaren
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related: []
-
+created: 2012-05-01T02:16:06.000Z
+archivedreason: null
 ---
 
 Depending on how much visibility you need on ongoing costs, you will have to decide whether to use 1 or 2 week development iterations.5 
