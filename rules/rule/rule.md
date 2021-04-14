@@ -224,6 +224,16 @@ To add a twitter card, copy the link of the tweet then add it to the rule with b
 ```markdown
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
 ```
+
+You can also add a good or bad caption to embeded tweets e.g.
+```markdown
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+
+::: good
+Figure: My embedded tweet
+:::
+```
+
 ### Email Template  
 ::: email-template  
 |          |     |
