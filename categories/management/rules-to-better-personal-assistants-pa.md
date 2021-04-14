@@ -3,6 +3,9 @@ type: category
 title: Rules to Better Personal Assistants (PA)
 guid: ef21a616-2420-49cd-a8d3-41b107f79311
 uri: rules-to-better-personal-assistants-pa
+redirects:
+- rules-to-better-pa-(aka-personal-assistant)
+- rules-to-better-pa-aka-personal-assistant
 index:
 - calendar-do-you-check-someones-calendar-before-booking-an-appointment
 - calendar-do-you-allow-full-access-to-calendar-admins
