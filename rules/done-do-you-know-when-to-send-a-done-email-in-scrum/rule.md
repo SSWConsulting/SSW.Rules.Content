@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Most devs don't send 'Done' emails... Would you really expect Product Owners to always be checking Azure DevOps (was TFS)?
+Most devs don't send 'Done' emails... Would you really expect Product Owners to always be checking Azure DevOps (was TFS) or GitHub?
 
 The better approach is:
 
@@ -24,6 +24,10 @@ The better approach is:
 
 ::: greybox
 **Note:** Send the ‘Done’ email to the [Owner of that PBI](/tasks-do-you-know-that-every-user-story-should-have-an-owner). 
+:::
+
+::: greybox
+**GitHub Note:** If you are using GitHub, you can close the issue with a comment, and @-mention the people you wish to notify - GitHub will then email them for you, assuming they have [configured it correctly](/do-you-know-how-to-setup-github-notifications). This has the added bonus of being visible to everyone else who can see the issue, without needing to CC everyone on your emails.
 :::
 
 ### Done tips:
