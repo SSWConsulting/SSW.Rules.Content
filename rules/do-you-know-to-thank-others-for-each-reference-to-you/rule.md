@@ -20,6 +20,7 @@ redirects:
 When others mention you on their blog or podcast and if they re-tweet you then you should always thank them:
 
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
+
 ::: good
 Figure: Good example, always thanking someone is not just good practice and polite, you both get Google juice as well
 :::
