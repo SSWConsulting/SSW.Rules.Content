@@ -6,7 +6,7 @@ guid: 56e3302b-c600-4531-a1da-0f6942c05531
 authors: []
 related: []
 created: 2010-05-20T10:10:03.000Z
-archivedreason: null
+archivedreason: This rule is archived
 ---
 ![Figure: SSW Lake](the-lake-ssw.png)
 
