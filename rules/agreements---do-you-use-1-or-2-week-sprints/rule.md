@@ -10,7 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
 related: []
 created: 2012-05-01T02:16:06.000Z
-archivedreason: null
+archivedreason: this rule is wrong
+
 ---
 
 Depending on how much visibility you need on ongoing costs, you will have to decide whether to use 1 or 2 week development iterations.5 
