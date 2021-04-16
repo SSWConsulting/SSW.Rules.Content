@@ -10,42 +10,33 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related: []
+related: 
+- do-you-make-external-links-clear
 redirects:
 - do-you-make-external-links-open-on-a-new-tab
 
 ---
 
-External links should  **open in a new tab**  (a.k.a. use target="\_blank") - since browsers implemented tabs (replacing new window), it's considered a good practice to open external links in a different tab.
+External links should  **open in a new tab** (by using HTML's **target="\_blank"**). Since browsers implemented tabs (replacing new window), it's considered a good practice to open external links in a different tab.
+
+<!--endintro-->
 
 Main reasons are:
 
-* Avoid 'Back-Button Fatigue';
-* Keep 'User Flow';
-* and keep a good track of Analytics
-
-
-
+* Avoiding 'Back-Button Fatigue';
+* Keeping 'User Flow';
+* Keeping a good track of Analytics
 
 ```
 <a href="http://support.microsoft.com/support">Support</a>
 ```
-
-
+::: bad
 Figure: Bad example - External link opening on the same tab
-
-
+:::
 
 ```
 <a href="http://support.microsoft.com/support" target="_blank">Support</a>
 ```
-
-
+::: good
 Figure: Good example - External link opening in a new tab 
-
-<!--endintro-->
-
-### Related Rule
-
-
-* [Do you make external links clear?](/do-you-make-external-links-clear)
+:::
