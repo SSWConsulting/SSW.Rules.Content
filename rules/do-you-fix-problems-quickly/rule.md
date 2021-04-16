@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Duncan Hunter
   url: https://ssw.com.au/people/duncan-hunter
-related: []
+related: 
+- do-you-label-broken-equipment
 redirects: []
 
 ---
@@ -20,7 +21,8 @@ When someone brings to your attention that they are not happy with something, do
 This is especially important if someone has followed you up. Try to get back to them as soon as possible with a response as it shows you care about what they care about.
 
 <!--endintro-->
- This also applies to communicating with people internally about issues that relate to:
+
+This also applies to communicating with people internally about issues that relate to:
 
 * Account or payment issues
 * Unhappiness with your company generally
@@ -28,15 +30,6 @@ This is especially important if someone has followed you up. Try to get back to 
 
 You should alert your management ASAP.
 
-
-
 Problems come in endless contexts but here's how we deal with some specific examples:
 1. [Fix bugs first](/management-do-you-fix-bugs-first)
-2. [Make client complaints a positive experience](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulesToBetterInboundCalls.aspx#MakeComplaintsPositive)
-
-
-###  
-Related Rule
-
-
-* [Do you label broken equipment?](/do-you-label-broken-equipment)
+2. [Make client complaints a positive experience](/make-complaints-a-positive-experience)
