@@ -6,7 +6,7 @@ guid: a3361737-b7e6-467f-887c-c2c8a7dc5e1e
 uri: understand-the-power-of-empathy
 created: 2021-04-14T05:10:33.0000000Z
 authors: 
-- title: Ulysses MacLaren
+- title: Ulysses Maclaren
   url: https://ssw.com.au/people/uly
 related:
 
