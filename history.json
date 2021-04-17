@@ -25171,5 +25171,23 @@
 		"lastUpdated": "2021-04-14T22:36:20.956Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/use-open-graph/open-graph-bad.jpg",
+		"created": "2021-04-17T00:16:27.194Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-17T00:16:27.194Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/use-open-graph/opengraph-good.jpg",
+		"created": "2021-04-17T00:16:27.194Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-17T00:16:27.194Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
