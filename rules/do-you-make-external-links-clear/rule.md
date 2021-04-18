@@ -43,7 +43,7 @@ Figure: Good example - With visual indication
 
 It should be inserted by CSS as following: 
       
-```
+```css
 a[href*=&quot;//&quot;]&#58;not([href*=&quot;mysite.com&quot;]):after {
 content&#58; url(https://www.ssw.com.au/ssw/images/external.gif);     
 padding-left: 4px;
