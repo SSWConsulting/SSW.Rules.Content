@@ -379,3 +379,7 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org  
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
+
+::: todo
+Implement all the different types of file links to SSW Rules: [https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files](https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files)
+:::
