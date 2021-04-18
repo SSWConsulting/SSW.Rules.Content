@@ -27,14 +27,14 @@ Main reasons are:
 * Keeping 'User Flow';
 * Keeping a good track of Analytics
 
-```
+```html
 <a href="http://support.microsoft.com/support">Support</a>
 ```
 ::: bad
 Figure: Bad example - External link opening on the same tab
 :::
 
-```
+```html
 <a href="http://support.microsoft.com/support" target="_blank">Support</a>
 ```
 ::: good
