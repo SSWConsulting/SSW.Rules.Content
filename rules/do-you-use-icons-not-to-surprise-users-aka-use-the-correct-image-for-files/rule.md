@@ -61,7 +61,7 @@ Match the extension of the &lt;a&gt; tag on your CSS. The padding is to give it 
 
 Find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
-```
+```css
 a[href$='.pdf']:before
     content: "\F08B ";
     font-family: FontAwesome;
@@ -75,7 +75,7 @@ a[href$='.pdf']:before
 
 Add the icon image to your server and add the path as background URL.
 
-```
+```css
 a[href$='.pdf'] 
 { 
 background: transparent url(/images/icon_pdf.gif) center left no-repeat; 
