@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Interfaces (Reports, Charts and Dates)
 guid: 71282d26-28a5-426f-a4d8-09a669ecaf91
 uri: rules-to-better-interfaces-reports-charts-and-dates
+redirects:
+- rules-to-better-interfaces-(reports-charts-and-dates)
 index:
 - charts-do-you-make-graphs-easy-to-digest
 - charts-do-you-use-bar-graph-rather-than-pie-graph

@@ -24,12 +24,8 @@ Long term success in a career requires:
 
 <!--endintro-->
 
-If you find yourself not enjoying your job, this is not necessarily a bad thing.                     You should make a commitment to give it a go and try to make it work. When you have                     decided you are unhappy, you should talk to your boss and figure out what is making                     you unhappy.
+If you find yourself not enjoying your job, this is not necessarily a bad thing. You should make a commitment to give it a go and try to make it work. When you have decided you are unhappy, you should talk to your boss and figure out what is making you unhappy.
 
-The number 1 cause of stress in this industry is caused by running out of budget for a project. The
-                    best way to handle this is to give realistic estimates, and inform the clients as
-                    soon as it looks like they will be exceeded. A client who has accepted the realities
-                    of his project is less scary than working on code that's already over-budget with
-                    an impending unknown client reaction.
-![](Richard-Branson_Picture-Quote.jpg)
-Figure: It's possible to REALLY enjoy your job
+The number 1 cause of stress in this industry is caused by running out of budget for a project. The best way to handle this is to give realistic estimates, and inform the clients as soon as it looks like they will be exceeded. A client who has accepted the realities of his project is less scary than working on code that's already over-budget with an impending unknown client reaction.
+
+![Figure: It's possible to REALLY enjoy your job](Richard-Branson_Picture-Quote.jpg)

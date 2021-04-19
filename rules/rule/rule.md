@@ -220,6 +220,20 @@ _You **can** combine them_
 ### Twitter Card Embed  
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
 
+To add a twitter card, copy the link of the tweet then add it to the rule with backticks on each side like this.
+```markdown
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+```
+
+You can also add a good or bad caption to embeded tweets e.g.
+```markdown
+`oembed: https://twitter.com/MrHinsh/status/24123713864`
+
+::: good
+Figure: My embedded tweet
+:::
+```
+
 ### Email Template  
 ::: email-template  
 |          |     |
@@ -273,6 +287,11 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 ### Videos
 Check out this video - it's responsive!  
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+
+Adding a video is similar to a tweet:
+```md
+`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+```
 
 ### Images
 ::: bad  
@@ -360,3 +379,7 @@ Some text to show that the reference links can follow later.
 [arbitrary case-insensitive reference text]: https://www.mozilla.org  
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
+
+::: todo
+Implement all the different types of file links to SSW Rules: [https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files](https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files)
+:::

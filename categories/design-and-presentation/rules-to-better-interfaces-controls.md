@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Interfaces (Controls)
 guid: dc923fbf-a24d-443b-af8a-f166383580c2
 uri: rules-to-better-interfaces-controls
+redirects:
+- rules-to-better-interfaces-(controls)
 index:
 - controls-do-you-include-all-option-in-your-comboboxes
 - controls-do-you-include-the-number-of-results-in-comboboxes

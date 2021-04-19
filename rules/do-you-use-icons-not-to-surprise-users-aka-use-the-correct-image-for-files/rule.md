@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use icons not to surprise users (aka use the correct image for files)?
+title: Do you use icons on files' links to not to surprise users?
 guid: 283e14e7-fe59-4017-9422-e9efc3eda6da
 uri: do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
 created: 2015-02-16T02:46:02.0000000Z
@@ -13,6 +13,7 @@ authors:
 related:
 - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
 - do-you-use-an-icon-so-a-password-prompt-should-never-be-a-surprise
+- do-you-make-external-links-clear
 redirects:
 - do-you-use-icons-not-to-surprise-users-(aka-use-the-correct-image-for-files)
 
@@ -22,29 +23,27 @@ When a user clicks on a hyperlink they expect to open an HTML file. If you click
 
 <!--endintro-->
 
-Don't surprise users! Use the following icons:
+::: todo
+1. Implement the icons to SSW Rules 
+2. Add examples to [Example Rule + Markdown Cheatsheet](https://www.ssw.com.au/rules/rule)
+3. Improve the examples in this rule
+:::
 
-| File Type | Example |
-| --- | --- |
-| PDF | ![Icon PDF](../../assets/IconPdf.png) This is a PDF file |
-| JPG | ![Icon JPG](../../assets/IconJpg.gif) This is an Image file |
-| DOC or DOT | ![Icon DOC](../../assets/IconDoc.png) This is a Word Document file |
-| XLS | ![Icon XLS](../../assets/IconXls.gif) This is an Excel Spreadsheet file |
-| PPT | ![Icon PPT](../../assets/IconPPT.png) This is a PowerPoint file |
-| TXT | ![Icon TXT](../../assets/IconTxt.gif) This is a Text file |
-| AVI, MOV, MPG etc. | ![Icon MOV](../../assets/IconMov.gif) This is a Video file |
-| WAV, WMA, MP3 etc. | ![Icon MP3](../../assets/IconMus.gif) This is a Music file |
-| SNP | ![Icon SNP](../../assets/IconSnp.gif) This is an Access Database snapshot file (discontinued and not recommended) |
-| EPS | ![Icon EPS](../../assets/IconEps.gif) This is an EPS file |
-| ICS or VCS | ![Icon VCS](../../assets/IconVCS.gif) This is a calendar file |
-| EXE or ZIP | ![Download](../../assets/Download.gif)This is an executable or zip file |
-| Mailto: | ![Icon MailTo](../../assets/IconMailTo.gif) This will send an email |
-| XML / RSS | ![Icon XML](../../assets/IconXML.gif) This will subscribe to RSS |
-| ODF | ![Icon ODF](../../assets/IconOFT.gif) This is an Outlook Item Template |
-| Page | ![](../../assets/ms_lock.gif) This is a link to password protected page |
-| YouTube | ![](youtube-icon_png.jpg)This is a link to a YouTube Video |
+Don't surprise users! For the following file/link types, use icons:
 
-![Figure: FYI there are the same images used by Google at GoogleDesktopSideBar.htm](../../assets/GoogleIcons.gif)  
+- PDF: [This is a PDF file](*.pdf)
+- DOC or DOT: [This is a Word Document file](*.doc)
+- XLS: [This is an Excel Spreadsheet file](*.xls)
+- PPT: [This is a PowerPoint file](*.ppt)
+- TXT: [This is a text file](*.txt)
+- AVI, MOV, MPG etc.: [This is a video file](*.avi)
+- WAV, WMA, MP3 etc.: [This is a music file](*.mp3)
+- ICS or VCS: [This is a calendar file](*.ics)
+- ZIP: [This is a zip file](*.zip)
+- YouTube: [This is a link to a YouTube Video](https://www.youtube.com/watch?v=gp_F43lx6iM)
+- Mailto: [This link will send an email](mailto:someone@example.com)
+
+You should also use an icon to [make external links clear](/do-you-make-external-links-clear).
 
 ::: bad  
 ![Figure: Bad Example - The user would expect all these hyperlinks to work the same way](../../assets/IconImageBad.gif)  
@@ -56,9 +55,27 @@ Don't surprise users! Use the following icons:
 
 ### How to add an icon before a link with CSS
 
-Add the icon image to your server. Then use $= to make the match the extension of the &gt;a&lt; tag on your CSS. The padding is to give it some space before the text (where the icon will be).
+Match the extension of the &lt;a&gt; tag on your CSS. The padding is to give it some space before the text (where the icon will be).
 
+#### (Recommended) Using font icons, like FontAwesome
+
+Find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
+
+```css
+a[href$='.pdf']:before
+    content: "\F08B ";
+    font-family: FontAwesome;
+    padding-right: 4px;
+    display: inline-block;
+}
 ```
+**Figure: Adding an icon before - for different file or link types**
+
+#### Using images
+
+Add the icon image to your server and add the path as background URL.
+
+```css
 a[href$='.pdf'] 
 { 
 background: transparent url(/images/icon_pdf.gif) center left no-repeat; 

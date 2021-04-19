@@ -28,17 +28,11 @@ A simple example of the power of lodash is this snippet of code which is looping
 3. Sorts the array by alphabetical order
 4. Removes blank entries
 
-
 This new simplified array of account numbers was then used in a dropdown to filter the Kendo grid. This single line saves a call to the database for another array of data and populates the dropdown with the same shared datasource. This would be a pain to write with vanilla javascript and difficult to read.
 
-
-
-```
+```js
 this.accountNumberDropDownData = _.chain(this.sharedDataSource).pluck('AccountNumber').uniq().sortBy().value();
 ```
-
-
-
 
 ::: good
 Good example - Simple one line of TypeScript which would take many line of code without lodash  
@@ -46,11 +40,10 @@ Good example - Simple one line of TypeScript which would take many line of code
 
 If you have been into JavaScript development for a while you may of also heard about underscore.js which is very similar to Lo-Dash but has some fundamental differences.
 
-I created Lo-Dash to provide more consistent cross-environment iteration support for arrays, strings, objects, and arguments objects1. It has since become a superset of Underscore, providing more consistent API behavior, more features (like AMD support, deep clone, and deep merge), more thorough documentation and unit tests (tests which run in Node, Ringo, Rhino, Narwhal, PhantomJS, and browsers), better overall performance and optimizations for large arrays/object iteration, and more flexibility with custom builds and template pre-compilation utilities.
-
-**— John-David Dalton**
+> I created Lo-Dash to provide more consistent cross-environment iteration support for arrays, strings, objects, and arguments objects1. It has since become a superset of Underscore, providing more consistent API behavior, more features (like AMD support, deep clone, and deep merge), more thorough documentation and unit tests (tests which run in Node, Ringo, Rhino, Narwhal, PhantomJS, and browsers), better overall performance and optimizations for large arrays/object iteration, and more flexibility with custom builds and template pre-compilation utilities.
+> **— John-David Dalton**
 
 Further reading:
 
-1. [https://lodash.com](https&#58;//lodash.com/)
-2. [http://underscorejs.org](http&#58;//underscorejs.org/)
+1. [lodash.com](https&#58;//lodash.com/)
+2. [underscorejs.org](http&#58;//underscorejs.org/)
