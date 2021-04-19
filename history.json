@@ -9064,9 +9064,9 @@
 	},
 	{
 		"file": "rules/do-you-use-the-best-exception-handling-library/rule.md",
-		"lastUpdated": "2021-04-19T01:03:55.554Z",
-		"lastUpdatedBy": "Calum Simpson [SSW]",
-		"lastUpdatedByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-04-19T04:29:26.579Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2013-09-12T05:19:43+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -25159,9 +25159,9 @@
 		"created": "2021-04-19T01:03:55.554Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-04-19T01:03:55.554Z",
-		"lastUpdatedBy": "Calum Simpson [SSW]",
-		"lastUpdatedByEmail": "calumjs@live.com"
+		"lastUpdated": "2021-04-19T04:29:26.580Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
 		"file": "rules/understand-the-power-of-empathy/likability-chart.png",
@@ -25189,5 +25189,23 @@
 		"lastUpdated": "2021-04-17T00:16:27.194Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-exception-handling-library/overview.png",
+		"created": "2021-04-19T04:29:26.580Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-19T04:29:26.580Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-use-the-best-exception-handling-library/xn4QHnmBS0Kx39gOv0wM_GettingStarted-1.png",
+		"created": "2021-04-19T04:29:26.580Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-19T04:29:26.580Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
