@@ -22,7 +22,7 @@ The best exception handling service is [Application Insights](/rules-to-better-a
 
 Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs.
 
-![default-asp-error-500_small](https://user-images.githubusercontent.com/13717390/114630989-181bca00-9cff-11eb-9dfb-a15dd0573a45.png)
+![default-asp-error-500_small](default-asp-error-500_small.png)
 
 ::: bad Figure: Bad Example - if you see this, you are doing something wrong!
 :::
@@ -43,12 +43,12 @@ If Application Insights is not available we use Seq when developing web applicat
 
 Application Insights gives you very useful graphs and analysis which give you a good overview of how things are going. See [here](/rules-to-better-application-insights) for more details. Seq is great for identifying specific issues and how to fix them, but is not as good at letting you see the big picture.
 
-![xn4QHnmBS0Kx39gOv0wM_GettingStarted-1](https://user-images.githubusercontent.com/13717390/114631310-af811d00-9cff-11eb-86d4-211ec7bb4bad.png)
+![xn4QHnmBS0Kx39gOv0wM_GettingStarted-1](xn4QHnmBS0Kx39gOv0wM_GettingStarted-1.png)
 
 ::: good Figure: Good Example - Seq provides you with plenty of details about what is happening, but if you don't already know what you're looking for, it can be tricky to parse
 :::
 
-![overview](https://user-images.githubusercontent.com/13717390/114631175-7a74ca80-9cff-11eb-9f7f-93a2ad512b81.png)
+![overview](overview.png)
 
 ::: good Figure: Good Example - Application Insights gives you graphs and analysis that help you find issues, but also lets you drill down to get the details as well
 :::
