@@ -22,16 +22,11 @@ Open Graph is a metadata tag that allows you to control what content shows up wh
 
 It should be placed on the &lt;head&gt; section of your page. The most used properties are:
 
-
-
 ```
 <meta property="og:title" content="Your Custom Title" />
 <meta property="og:description" content="Your custom description of the page." />
 <meta property="og:image" content="https://www.YourCustomImage.jpg"/>
 ```
-
-
-
 
 ::: bad  
 ![Figure: Bad example - Shared link has no image and the title was "guessed" by LinkedIn](open-graph-bad.jpg)  
@@ -42,14 +37,11 @@ It should be placed on the &lt;head&gt; section of your page. The most used prop
 ![Figure: Good example - Shared link has a nice image and title, both defined via Open Graph tags](opengraph-good.jpg)  
 :::
 
+::: info
 **Note:** For LinkedIn you might need to add the prefix as following:
-
-
-
 ```
 <metaprefix="og: http://ogp.me/ns#" property='og:title' content="Microsoft Azure | SSW Consulting - Sydney, Brisbane, Melbourne"/>
 ```
+:::
 
-
-
-More information and other properties can be found at [http://ogp.me](http://ogp.me/)
+More information and other properties can be found at [The Open Graph protocol](https://ogp.me/).
