@@ -26,8 +26,6 @@ Do you check in on your home or office from your smartphone using the Control4 A
 <!--endintro-->
 
 The Control4 App turns your iOS or Android mobile device into the smart home/office command center. It connects directly to your system and allows you to control and manage all of your system’s features, such as lights, temperature, cameras, audio/video equipment, smart door locks and more.
-![control4.jpg](os3app.webp)
-**Figure: Use the Control4 App** 
     Throw away your remote controls and move on to technological freedom!
 ![](Bad example C4.jpg)
 
