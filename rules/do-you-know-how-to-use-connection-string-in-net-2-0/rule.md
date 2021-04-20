@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: .NET 2.0 is deprecated
 title: Do you know how to use Connection String in .NET 2.0?
 guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
 uri: do-you-know-how-to-use-connection-string-in-net-2-0
