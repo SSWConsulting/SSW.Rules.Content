@@ -66,7 +66,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
 More info: [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
 
 ::: good
-![Figure: Good Example - Code from the Bicep using Visual Studio Code Extension](bicep.png)
+![Figure: Good Example - Code from the Bicep using Visual Studio Code Extension](Bicep.png)
 :::
 
 ### Option B: Enterprise configuration management (recommended)
