@@ -16,9 +16,7 @@ redirects:
 
 ---
 
-We’ve been down this road before where developers had to be taught [not to manually create tables and databases](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=a4ca7d22-069a-4727-b54a-a1cf1d5a5ef4). Now, in the cloud world, we’re saying the same thing again. Don’t manually create your Azure resources.
-
-`youtube: https://www.youtube.com/embed/8E63s2QlbhA`
+We’ve been down this road before where developers had to be taught [not to manually create tables and databases](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=a4ca7d22-069a-4727-b54a-a1cf1d5a5ef4). Now, in the cloud world, we’re saying the same thing again. **Don’t manually create your Azure resources.**
 
 <!--endintro-->
 
@@ -54,53 +52,34 @@ Some people half solve the problem by manually creating and saving the script. T
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Terraform
-
-https://www.terraform.io/docs/providers/azurerm/index.html
-
-* It’s a great tool
-* Free for up to 5 users with limited features
-* Not recommended because:
-    * Pulumi is better
-    * Proprietary ‘HCL’ (Hashicorp Configuration Language) which is as bad as YAML
-
-### Option B: Ansible
-
-[https://www.ansible.com](https://www.ansible.com/)
-
-* Proprietary product owned by RedHat
-* First red flag – ‘Contact us for pricing’ – a toxic warning sign of their lack of transparency
-
-### Option C: Bicep by Microsoft
+### Option A: Bicep by Microsoft (Recommended)
 
 [https://github.com/Azure/bicep](https://github.com/Azure/bicep)
 
-* Experimental
-* Not a huge step forward from ARM templates
-* But is one to watch
+* Is free and fully supported by Microsoft
+* * Has 'dotnet' command line integration
+* Compiles into an ARM template for deployment
+* Much simpler syntax than ARM
+* Handles dependencies automatically
+* Easiest option if you are deploying Azure App Service or Azure Functions
 
 More info: [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
 
-### Option D: Farmer (Recommended)
-
-[https://compositionalit.github.io/farmer](https://compositionalit.github.io/farmer/)
-
-* It's a great tool
-* Simply add a very short and readable F# project in your solution
-* Tip: The F# solution of scripts should be in a folder called .azure
-
-::: good  
-![Figure: Good Example – using Farmer to define your ARM template in F# code](goldie rules.png)  
+::: good
+![Figure: Good Example - Code from the Bicep using Visual Studio Code Extension](bicep.png)
 :::
 
-### Option E: Pulumi (Recommended)
+### Option B: Enterprise configuration management (recommended)
+The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like Pulumi or Terraform. These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
 
-[https://www.pulumi.com](https://www.pulumi.com/)
+[https://www.pulumi.com](Pulumi)
+https://www.terraform.io/docs/providers/azurerm/index.html(Terraform)
 
-* It's a great tool that uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
-* Abstracts the entire Azure REST API to the language of your choice (see above)
-* Includes a tool for converting your existing JSON ARM templates into code: [Arm2Pulumi](https://www.pulumi.com/arm2pulumi/)
-* Free for individual developers (even for commercial use), but is a paid product for teams &gt; 1
+* They're both great tools
+* Both have free options for limited numbers of users
+* Pulumi is better because:
+    * Terraform's proprietary ‘HCL’ (Hashicorp Configuration Language), which is as bad as YAML
+    * It's a great tool that uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
 
 ::: good
 ![Figure: Good Example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#](pulumi3.png)
@@ -109,12 +88,6 @@ More info: [Project Bicep – Next Generation ARM Templates](https://devblogs.mi
 ::: good
 ![Figure: Good Example - From the console simply run 'pulumi up' to deploy your resources to Azure](pulumi2.png)
 :::
-
-###  What’s Mainstream?
-
-It’s early days so [not much help (from Google trends)](https://trends.google.com/trends/explore?q=azure%20pulumi%2cazure%20teraform%2cazure%20ansible%2cazure%20farmer%E2%80%8B) yet.
-
-![Figure: Google Trends shows that Terraform is the most searched for as it’s been around the longest and is well established](google trends.png)  
 
 ### General Tips
 
