@@ -35,3 +35,5 @@ When adding input boxes to collect data, please always have a &lt;label&gt; tag 
     <asp:TextBox ID="EmailAddress" runat="server"/>
 </p>
 ```
+
+**Tip:** For a nicer user experience, consider using adaptive labels and inputs with a UI Library like [Material UI](https://material-ui.com/components/text-fields/).
