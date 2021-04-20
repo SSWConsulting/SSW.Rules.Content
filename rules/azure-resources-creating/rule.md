@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-We’ve been down this road before where developers had to be taught [not to manually create tables and databases](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=a4ca7d22-069a-4727-b54a-a1cf1d5a5ef4). Now, in the cloud world, we’re saying the same thing again. **Don’t manually create your Azure resources.**
+We’ve been down this road before where developers had to be taught [not to manually create databases and tables](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=a4ca7d22-069a-4727-b54a-a1cf1d5a5ef4). Now, in the cloud world, we’re saying the same thing again. **Don’t manually create your Azure resources.**
 
 <!--endintro-->
 
@@ -57,7 +57,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
 [https://github.com/Azure/bicep](https://github.com/Azure/bicep)
 
 * Is free and fully supported by Microsoft
-* * Has 'dotnet' command line integration
+* Has ['az' command line integration](https://docs.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest)
 * Compiles into an ARM template for deployment
 * Much simpler syntax than ARM
 * Handles dependencies automatically
@@ -73,7 +73,8 @@ More info: [Project Bicep – Next Generation ARM Templates](https://devblogs.mi
 The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like Pulumi or Terraform. These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
 
 [https://www.pulumi.com](Pulumi)
-https://www.terraform.io/docs/providers/azurerm/index.html(Terraform)
+
+[https://www.terraform.io/docs/providers/azurerm/index.html](Terraform)
 
 * They're both great tools
 * Both have free options for limited numbers of users
