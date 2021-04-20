@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you know to clean up your Shelveset’s?
 guid: 22c93185-b0f0-4918-a1c2-11f4ffc7e9df
 uri: do-you-know-to-clean-up-your-shelvesets
