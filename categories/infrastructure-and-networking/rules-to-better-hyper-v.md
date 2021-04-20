@@ -13,7 +13,7 @@ index:
 - do-you-export-a-virtual-machine-if-you-need-to-move-it
 - do-you-shut-down-a-virtual-machine-before-running-a-snapshot
 - do-you-delete-old-snapshots-before-making-a-new-one
-- do-your-network-cards-to-the-latest-driver
+- update-network-cards-to-the-latest-driver
 - do-you-know-how-to-decommission-a-virtual-machine
 - do-you-disable-netbios-on-all-dedicated-purpose-adapters-iscsi-and-cluster-communications
 - do-you-manage-hyper-v-networks-through-virtual-machine-manager-vmm
