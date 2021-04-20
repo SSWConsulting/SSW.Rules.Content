@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you add the necessary code so you can always sync the web.config file?
 guid: b497a0ee-eccc-4817-9033-a0338bee0542
 uri: do-you-add-the-necessary-code-so-you-can-always-sync-the-web-config-file
