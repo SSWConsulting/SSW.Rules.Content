@@ -106,7 +106,3 @@ If you need to change the user or sign in with new credentials, you can use the 
 
 ![Control4 8.png](control4delete.jpg)
 
-> <dd><dl class="ssw15-rteElement-ImageArea">
->             
-
->          </dl></dd>
