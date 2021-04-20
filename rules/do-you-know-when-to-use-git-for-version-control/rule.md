@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you know when to use Git for version control?
 guid: f4f15feb-8c1e-4f5f-865a-f18009c8b9d5
 uri: do-you-know-when-to-use-git-for-version-control
