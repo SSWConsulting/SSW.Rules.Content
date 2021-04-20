@@ -27,7 +27,7 @@ The Control4 App turns your iOS or Android mobile device into the smart home/off
 Throw away your remote controls and move on to technological freedom!
 
 ::: bad
-![Figure: Bad example, using any pysical remote control instead of the Control4 app](Bad example C4.jpg)
+![Figure: Bad example, using any pysical remote control instead of the Control4 app](Bad-example-C4.jpg)
 :::
 
 ::: good
@@ -78,7 +78,7 @@ If you need to change the user or sign in with new credentials, you can use the 
 
 ![Figure: Select "settings"](control4menusettings.png)
 
->3. Select your System
+3. Select your System
 
 ![Figure: Select your system](control4settings.jpg)
 
