@@ -25,4 +25,4 @@ When a site is down, you have to troubleshoot the problem. During troubleshootin
 5. If the site is still not working, turn on the maintenance page and then try to reproduce the problem on the testing site.  **DO NOT**  connect your testing site to the production database. If you need the production database, make a copy of it and restore it to your testing machine.
 
 
-Still not fixed? Escalate the issue. Please refer to [SSW](https&#58;//www.ssw.com.au/).
+Still not fixed? Escalate the issue. Please refer to the technical support team.
