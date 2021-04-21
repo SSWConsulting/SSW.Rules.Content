@@ -28,4 +28,4 @@ If all members use 2FA in your organisation, the risk of unauthorised access to 
 Enforcing 2FA in an existing organisation will remove members that are not using 2FA.
 :::
 
-See the GitHub docs [Requiring two-factor authentication in your organization](https://docs.github.com/en/github/setting-up-and-managing-organizations-a…)
+See the GitHub docs [Requiring two-factor authentication in your organization](https://docs.github.com/en/organizations/keeping-your-organization-secure/requiring-two-factor-authentication-in-your-organization)
