@@ -26,4 +26,4 @@ Some reason you may not choose Gen 2 VMs:
 -	Virtual floppy disk support
 -	Virtual COM ports
 
-[Figure: It is always best to go with Gen 2 VMs when possible](Generation-2-VMs.png)
+![Figure: It is always best to go with Gen 2 VMs when possible](Generation-2-VMs.png)
