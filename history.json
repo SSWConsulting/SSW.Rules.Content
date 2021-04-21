@@ -19405,7 +19405,7 @@
 	},
 	{
 		"file": "rules/all-the-things-you-can-use-qr-code-for/rule.md",
-		"lastUpdated": "2021-04-12T02:27:59.507Z",
+		"lastUpdated": "2021-04-21T22:27:12.568Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2019-05-20T13:11:17+10:00",
@@ -25200,6 +25200,141 @@
 		"lastUpdatedByEmail": "kikibianc@hotmail.com"
 	},
 	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/Follow-official-account.png",
+		"created": "2021-04-21T00:00:52.617Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.565Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/Microsoft-official-account.GIF",
+		"created": "2021-04-21T00:00:52.617Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.566Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/extract-a-qr-code.png",
+		"created": "2021-04-21T00:00:52.617Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.566Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/hotspot-qr-code.jpg",
+		"created": "2021-04-21T00:00:52.618Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.566Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/install-apps-qr-code.jpeg",
+		"created": "2021-04-21T00:00:52.618Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.566Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/pay-vendor-alipay.png",
+		"created": "2021-04-21T00:00:52.618Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.566Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/pay-vendor-wechat.png",
+		"created": "2021-04-21T00:00:52.619Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.567Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/personal-qr-code.png",
+		"created": "2021-04-21T00:00:52.619Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.567Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/product-info-qrcode.jpeg",
+		"created": "2021-04-21T00:00:52.619Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.568Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/receive-money-alipay.png",
+		"created": "2021-04-21T00:00:52.620Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.568Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/ride-bus-qr-code.jpg",
+		"created": "2021-04-21T00:00:52.620Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.568Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/sharing-bike-qr-code.png",
+		"created": "2021-04-21T00:00:52.620Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.568Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/show-qr-code-bus.jpg",
+		"created": "2021-04-21T00:00:52.620Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.569Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/weibo-login.png",
+		"created": "2021-04-21T00:00:52.620Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.569Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/all-the-things-you-can-use-qr-code-for/zhihu-login.png",
+		"created": "2021-04-21T00:00:52.620Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-21T22:27:12.569Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
 		"file": "rules/use-Generation-2-VMs/rule.md",
 		"created": "2021-04-20T22:30:21.604Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -25216,8 +25351,8 @@
 		"lastUpdated": "2021-04-20T22:31:48.796Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  },
-  {
+	},
+	{
 		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/funcsec-vaultindicator-header.jpg",
 		"created": "2021-04-21T07:17:02.923Z",
 		"createdBy": "Calum Simpson [SSW]",
