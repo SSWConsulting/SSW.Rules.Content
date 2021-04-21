@@ -39,7 +39,7 @@ AppSettings["ConnectionString"]);
 ```
 
 ::: bad
-Bad example - old ASP.NET 1.1 way, untyped and prone to error.  
+Bad example - old ASP.NET 1.1 way, untyped and prone to error.
 :::
           
 In .NET 2.0 we used strongly typed settings classes:
