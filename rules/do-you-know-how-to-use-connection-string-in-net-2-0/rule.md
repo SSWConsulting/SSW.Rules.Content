@@ -73,7 +73,7 @@ SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```
 
-          Bad example - access our connection string by strongly typed generated settings class.   
+          Bad example - access our connection string by strongly typed generated settings class...this is no longer the best way to do it 
 
 In .NET 5, we use Azure Key Vault to securely store our connection strings away from prying eyes:
 
