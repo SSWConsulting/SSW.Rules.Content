@@ -19,7 +19,7 @@ In .NET 1.1 we used to store our connection string in a configuration file like 
 <!--endintro-->
 
 
-```
+```xml
 <configuration>
      <appSettings>
           <add key="ConnectionString" value ="integrated security=true;
@@ -32,13 +32,15 @@ In .NET 1.1 we used to store our connection string in a configuration file like 
 and access this connection string in code like this:
 
 
-```
+```cs
 SqlConnection sqlConn = 
 new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
 
-          Bad example - old ASP.NET 1.1 way, untyped and prone to error.  
+::: bad
+Bad example - old ASP.NET 1.1 way, untyped and prone to error.  
+:::
           
 In .NET 2.0 we used strongly typed settings classes:
 
@@ -53,7 +55,7 @@ Step 2: Open up the generated App.config under your common project. E.g. Northwi
 Step 3: ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
 
 
-```
+```xml
 <configuration>
       <connectionStrings>
          <add name="Common.Properties.Settings.NorthwindConnectionString"
@@ -68,16 +70,22 @@ Step 3: ~~Copy the content into your entry applications app.config. E.g. Northwi
 Then you can access the connection string like this in C#
 
 
-```
+```cs
 SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```
 
-          Bad example - access our connection string by strongly typed generated settings class...this is no longer the best way to do it 
+::: bad
+Bad example - access our connection string by strongly typed generated settings class...this is no longer the best way to do it 
+:::
 
 In .NET 5, we use Azure Key Vault to securely store our connection strings away from prying eyes:
 
 ::: good
 ![Secrets are safely stored in Azure Key Vault](keyvault.png)
+:::
+
+
+::: good
 ![Secrets are do not need to be used on developer's machines](funcsec-vaultindicator-header.jpg)
 :::
