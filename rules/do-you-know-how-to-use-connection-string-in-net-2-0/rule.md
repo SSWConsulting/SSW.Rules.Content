@@ -78,6 +78,6 @@ SqlConnection sqlConn =
 In .NET 5, we use Azure Key Vault to securely store our connection strings away from prying eyes:
 
 ::: good
-[Secrets are safely stored in Azure Key Vault](keyvault.png)
-[Secrets are do not need to be used on developer's machines](funcsec-vaultindicator-header.jpg)
+![Secrets are safely stored in Azure Key Vault](keyvault.png)
+![Secrets are do not need to be used on developer's machines](funcsec-vaultindicator-header.jpg)
 :::
