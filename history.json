@@ -838,9 +838,9 @@
 	},
 	{
 		"file": "rules/do-you-check-your-workspaces-when-defining-a-new-build/rule.md",
-		"lastUpdated": "2015-07-24T11:07:14+10:00",
-		"lastUpdatedBy": "Daragh Bannigan",
-		"lastUpdatedByEmail": "Daragh@ssw.com.au",
+		"lastUpdated": "2021-04-20T05:22:43.979Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-03-28T17:01:49+11:00",
 		"createdBy": "Daragh Bannigan",
 		"createdByEmail": "Daragh@ssw.com.au"
@@ -4780,9 +4780,9 @@
 	},
 	{
 		"file": "rules/do-your-network-cards-to-the-latest-driver/rule.md",
-		"lastUpdated": "2013-04-20T22:28:42+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-20T22:10:29.617Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-03-03T06:20:43+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -6526,9 +6526,9 @@
 	},
 	{
 		"file": "rules/do-you-fix-problems-quickly/rule.md",
-		"lastUpdated": "2021-04-16T00:49:46.276Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-21T06:14:13.429Z",
+		"lastUpdatedBy": "Patrick Zhao [SSW]",
+		"lastUpdatedByEmail": "patrick.zhao1989@outlook.com",
 		"created": "2010-07-16T16:48:24+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -9136,7 +9136,7 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/rule.md",
-		"lastUpdated": "2021-04-20T00:25:41.462Z",
+		"lastUpdated": "2021-04-21T08:32:11.593Z",
 		"lastUpdatedBy": "Calum Simpson [SSW]",
 		"lastUpdatedByEmail": "calumjs@live.com",
 		"created": "2009-12-04T19:40:40+11:00",
@@ -13276,9 +13276,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-better-localize-your-application/rule.md",
-		"lastUpdated": "2016-02-02T18:28:37+11:00",
-		"lastUpdatedBy": "Farrukh Khan",
-		"lastUpdatedByEmail": "FarrukhKhan@ssw.com.au",
+		"lastUpdated": "2021-04-20T23:57:18.426Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-20T20:14:29+11:00",
 		"createdBy": "Martin Li",
 		"createdByEmail": "MartinLi@ssw.com.au"
@@ -13627,9 +13627,9 @@
 	},
 	{
 		"file": "rules/do-you-use-client-side-tools-for-localization-as-much-as-possible/rule.md",
-		"lastUpdated": "2015-11-17T21:02:56+11:00",
-		"lastUpdatedBy": "Martin Li",
-		"lastUpdatedByEmail": "MartinLi@ssw.com.au",
+		"lastUpdated": "2021-04-20T23:57:55.175Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-21T20:16:28+11:00",
 		"createdBy": "Martin Li",
 		"createdByEmail": "MartinLi@ssw.com.au"
@@ -14419,9 +14419,9 @@
 	},
 	{
 		"file": "rules/things-to-automate-stage-2/rule.md",
-		"lastUpdated": "2020-03-23T14:21:00+11:00",
-		"lastUpdatedBy": "Matthew Wicks",
-		"lastUpdatedByEmail": "MatthewWicks@ssw.com.au",
+		"lastUpdated": "2021-04-20T23:47:00.764Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-03-08T04:56:22+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -16003,9 +16003,9 @@
 	},
 	{
 		"file": "rules/the-standard-procedure-to-troubleshoot-if-a-website-is-down/rule.md",
-		"lastUpdated": "2016-11-26T06:52:36+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-21T05:52:40.276Z",
+		"lastUpdatedBy": "Patrick Zhao [SSW]",
+		"lastUpdatedByEmail": "patrick.zhao1989@outlook.com",
 		"created": "2016-11-26T06:44:43+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -24997,9 +24997,9 @@
 		"created": "2021-03-23T04:31:31.047Z",
 		"createdBy": "Brady Stroud",
 		"createdByEmail": "bradystroud@me.com",
-		"lastUpdated": "2021-03-23T04:31:31.047Z",
-		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "bradystroud@me.com"
+		"lastUpdated": "2021-04-20T06:52:18.325Z",
+		"lastUpdatedBy": "Kaique \"Kiki\" Biancatti",
+		"lastUpdatedByEmail": "kikibianc@hotmail.com"
 	},
 	{
 		"file": "rules/limit-admin-access/tooManyAdmins.png",
@@ -25333,5 +25333,41 @@
 		"lastUpdated": "2021-04-21T00:00:52.620Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/use-Generation-2-VMs/rule.md",
+		"created": "2021-04-20T22:30:21.604Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-20T22:31:48.796Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/use-Generation-2-VMs/Generation-2-VMs.png",
+		"created": "2021-04-20T22:31:48.796Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-20T22:31:48.796Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/funcsec-vaultindicator-header.jpg",
+		"created": "2021-04-21T07:17:02.923Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-04-21T07:26:12.148Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/keyvault.png",
+		"created": "2021-04-21T07:17:02.923Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-04-21T07:26:12.149Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com"
 	}
 ]
