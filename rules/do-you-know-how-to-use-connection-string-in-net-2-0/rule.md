@@ -1,9 +1,9 @@
 ---
 type: rule
-archivedreason: .NET 2.0 is deprecated
-title: Do you know how to use Connection String in .NET 2.0?
+archivedreason:
+title: Do you know how to use Connection Strings?
 guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
-uri: do-you-know-how-to-use-connection-string-in-net-2-0
+uri: do-you-know-how-to-use-connection-strings
 created: 2009-05-08T08:53:04.0000000Z
 authors:
 - title: Adam Cogan
@@ -17,8 +17,6 @@ redirects: []
 
 In .NET 1.1 we used to store our connection string in a configuration file like this:   
 <!--endintro-->
-
-
 
 
 ```
@@ -40,8 +38,9 @@ new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
 
-          Bad example - old ASP.NET 1.1 way, untyped and prone to error.   
-In .NET 2.0 you can access it in another way
+          Bad example - old ASP.NET 1.1 way, untyped and prone to error.  
+          
+In .NET 2.0 we used strongly typed settings classes:
 
 Step 1: Setup your settings in your common project. E.g. Northwind.Common
 
@@ -74,12 +73,11 @@ SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```
 
-          Good example - access our connection string by strongly typed generated settings class.   
+          Bad example - access our connection string by strongly typed generated settings class.   
 
-::: greybox
+In .NET 5, we use Azure Key Vault to securely store our connection strings away from prying eyes:
 
-Please note these steps does not work for web site model in Visual Studio 2005. However, they work for other projects such as Windows Form, Console application, Class Library and Web Application Project.
-
-This is not an issue in a well designed website, since it's connection string will be defined in the  **data layer** and you can overwrite this connection string in your web.config.
-
+::: good
+[Secrets are safely stored in Azure Key Vault](keyvault.png)
+[Secrets are do not need to be used on developer's machines](funcsec-vaultindicator-header.jpg)
 :::
