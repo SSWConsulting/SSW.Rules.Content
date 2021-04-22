@@ -6,12 +6,11 @@ guid: 911032e8-861d-4b21-a00e-9e2822bb7e41
 uri: agreements---do-you-book-the-next-sprint-ahead-of-time
 redirects:
 - jack-test-rule
-created: 2012-05-01T05:09:11.0000000Z
-authors:
-  - id: 4
-    title: Ulysses Maclaren
+created: 2021-04-07T06:35:55.0000000Z
+authors: 
+  - title: Nicholas Viet
+    url: https://www.ssw.com.au/people/nick-viet
 related:
- - https://github.com/SSWConsulting/SSW.Rules/wiki
 ---
 
 
