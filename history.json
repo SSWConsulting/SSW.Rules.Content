@@ -16993,9 +16993,9 @@
 	},
 	{
 		"file": "rules/use-control4-app/rule.md",
-		"lastUpdated": "2021-04-22T00:14:48.420Z",
-		"lastUpdatedBy": "Kaique \"Kiki\" Biancatti",
-		"lastUpdatedByEmail": "kikibianc@hotmail.com",
+		"lastUpdated": "2021-04-22T00:16:17.545Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2017-09-13T10:00:55+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -25369,5 +25369,14 @@
 		"lastUpdated": "2021-04-21T07:26:12.149Z",
 		"lastUpdatedBy": "Calum Simpson [SSW]",
 		"lastUpdatedByEmail": "calumjs@live.com"
+	},
+	{
+		"file": "rules/use-control4-app/Bad-example-C4.jpg",
+		"created": "2021-04-22T00:16:17.545Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-04-22T00:16:17.545Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
