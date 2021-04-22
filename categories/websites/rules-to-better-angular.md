@@ -29,7 +29,12 @@ index:
 ---
 Angular is everywhere.
 
-There are two distinctive versions of Angular because the second version was a major rewrite. AngularJS denotes the legacy version while **Angular** (or Angular 2+) represents any version of Angular after 2.0. This page is a set of rules and guidelines to get you up and running using Angular with the least pain possible.
+There are two distinctive versions of Angular:
+
+* AngularJS, this is v1, not getting any new features, and ends LTS support at the end of 2021
+* and **Angular** (or Angular 2+) which represents any version of Angular after 2.0 (which was a major rewrite).
+
+This page is a set of rules and guidelines to get you up and running using Angular with the least pain possible.
 
 Angular and React have been the 2 dominant front-end technologies for the last few years. We have been running our Angular Superpowers course that entire time, and I’m still amazed that every time we run the course, we sell out. 
 
