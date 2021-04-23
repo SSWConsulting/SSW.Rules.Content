@@ -17704,7 +17704,7 @@
 	},
 	{
 		"file": "rules/how-to-avoid-problems-in-if-statements/rule.md",
-		"lastUpdated": "2021-04-21T22:41:44.232Z",
+		"lastUpdated": "2021-04-23T01:08:58.077Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-25T08:00:01+10:00",
@@ -17965,9 +17965,9 @@
 	},
 	{
 		"file": "rules/add-the-application-name-in-the-sql-server-connection-string/rule.md",
-		"lastUpdated": "2020-12-15T10:33:36+11:00",
-		"lastUpdatedBy": "Matt Goldman",
-		"lastUpdatedByEmail": "MattGoldman@ssw.com.au",
+		"lastUpdated": "2021-04-23T01:08:58.077Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-27T07:01:37+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
