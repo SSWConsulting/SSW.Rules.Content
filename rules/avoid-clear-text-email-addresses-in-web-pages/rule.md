@@ -22,7 +22,7 @@ Never put clear text email addresses on web pages.
 
 
 
-```
+```html
 <!--SSW Code Auditor - Ignore next line(HTML)--> 
 <a href="mailto:test@ssw.com.au">Contact Us</a>
 ```
@@ -37,7 +37,7 @@ Bad - Using a plain email address that it will be crawled and made use of easily
 
 
 
-```
+```html
 <a href="javascript:sendEmail('74657374407373772e636f6d2e6175')" onmouseover="javascript:displayStatus('74657374407373772e636f6d2e6175');return true;" onmouseout="javascript:clearStatus(); return true;">Contact Us</a>
 ```
 

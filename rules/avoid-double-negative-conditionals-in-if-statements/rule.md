@@ -20,7 +20,7 @@ Try to avoid Double-Negative Conditionals in if-statements. Double negative cond
 
 
 
-```
+```cs
 if (!IsValid)
 {
         // handle no error
@@ -43,7 +43,7 @@ Figure: Bad example
 
 
 
-```
+```cs
 if (IsValid)
 {
        // handle error
@@ -66,7 +66,7 @@ Figure: Good example
 
 
 
-```
+```cs
 if (!IsValid)
 {
        // handle error

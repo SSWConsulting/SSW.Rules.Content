@@ -42,7 +42,7 @@ In order to show the customized error page while not change the original URL, yo
 
 
 
-```
+```cs
 Server.Transfer("/ssw/ErrorPage.aspx")
 ```
 
