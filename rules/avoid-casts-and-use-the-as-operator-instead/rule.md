@@ -22,7 +22,7 @@ b. You want to perform a user-defined conversion
 
 
 
-```
+```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
 {
  var auc = (AMUserControl)sender; 
@@ -31,18 +31,13 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
  // snip snip snip
 }
 ```
-
-
-
-
 ::: bad
 Bad example
-
 :::
 
 
 
-```
+```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
 {
  var auc = sender as AMUserControl; 
@@ -55,12 +50,8 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
    
 }
 ```
-
-
-
-
 ::: good
 Good example
-
 :::
-  More info here: [http://blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html](http&#58;//blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html)
+
+More info here: [http://blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html](http&#58;//blog.gfader.com/2010/08/avoid-type-casts-use-operator-and-check.html)
