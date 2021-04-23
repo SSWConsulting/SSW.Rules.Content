@@ -8,8 +8,6 @@ created: 2011-08-23T08:38:37.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-- title: Tim Fletcher
-  url: https://ssw.com.au/people/tim-fletcher
 related: []
 redirects: []
 
