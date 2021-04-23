@@ -18,17 +18,17 @@ Unless you're the &lt;1% of companies who competes based purely on price, you wi
 
 In the bespoke software space, this is easy, as your clients are not buying something generic, and quality matters. Here's how we do it:
 
-
 <!--endintro-->
 
 From our research, our rates are in the top 1/3<sup>rd</sup> of our Australian competitors, and I understand that this can seem high, so let's try to highlight a few reasons why we more than justify these high rates:
 
-* Statistically, more than half of all IT projects fail
-    * SSW has been around for over 25 years and has only ever had 2 failed projects
-* We ensure this through the following:
-    * Our Lean Startup methodologies mean we focus clearly on the [Minimum Viable Product](/spec-do-you-create-an-initial-release-plan-and-ballpark)
-    * A strong and strict [Scrum process](https&#58;//www.ssw.com.au/ssw/Consulting/Scrum.aspx) gives visibility into priorities, progress, and problems to the whole team and the Product Owner
-    * Our arduous [hiring process](https&#58;//www.ssw.com.au/ssw/Employment/Employment.aspx) ensures we only have the most technically proficient consultants with the best communication skills
-    * A strong focus on [rules and best practices](/rules-to-better-scrum-using-tfs) ensure that we are consistently delivering high-quality solutions
-    * Our [community involvement](https&#58;//www.ssw.com.au/ssw/Events/) (User groups, Hack Days, MS Events, etc.)  helps us to rub shoulders with the other thought leaders in our industry  and stay ahead of the game
-    * Our strong [partnership with Microsoft](https&#58;//www.ssw.com.au/ssw/Company/AboutUs.aspx) (our owner is 1 of only 3 Microsoft Regional Directors in Australia) makes sure we have support when we need it
+Statistically, more than half of all IT projects fail...
+* SSW has been around for over 25 years and has only ever had 2 failed projects!
+  
+We ensure this through the following:
+* Our Lean Startup methodologies mean we focus clearly on the [Minimum Viable Product](/spec-do-you-create-an-initial-release-plan-and-ballpark)
+* A strong and strict [Scrum process](https://www.ssw.com.au/ssw/Consulting/Scrum.aspx) gives visibility into priorities, progress, and problems to the whole team and the Product Owner
+* Our arduous [hiring process](https&#58;//www.ssw.com.au/ssw/Employment/Employment.aspx) ensures we only have the most technically proficient consultants with the best communication skills
+* A strong focus on [rules and best practices](https://www.ssw.com.au/rules/) ensure that we are consistently delivering high-quality solutions
+* Our [community involvement](https://www.ssw.com.au/ssw/Events/) (User groups, Hack Days, MS Events, etc.)  helps us to rub shoulders with the other thought leaders in our industry  and stay ahead of the game
+* Our strong [partnership with Microsoft](https://www.ssw.com.au/ssw/Company/AboutUs.aspx) (our owner is 1 of only 3 Microsoft Regional Directors in Australia) makes sure we have support when we need it
