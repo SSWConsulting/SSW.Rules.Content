@@ -16,11 +16,11 @@ redirects:
 
 We recommend adding these menus to your Tools Menu:
 
-* Tools - Validate - Validate Links (with [SSW Code Auditor](https://codeauditor.com))
-* Tools - Validate - [Validate Data](/menu-do-you-include-a-tools-validate-data)
-* Tools - Validate - Reports (with SSW Reporting Services Auditor)
-* Tools - [Run Unit Tests](rules-to-better-unit-tests) (with NUnit)
-* Tools - Validate PC (with SSW Diagnostics)
-* Tools - View Application Errors (with SSW Lady Log)
+* Tools - Validate code and links with [SSW Code Auditor](https://codeauditor.com)
+* Tools - [Validate Data](/menu-do-you-include-a-tools-validate-data)
+* Tools - Validate Reports with SSW Reporting Services Auditor
+* Tools - [Run Unit Tests](/rules-to-better-unit-tests) (with NUnit)
+* Tools - Validate PC with SSW Diagnostics
+* Tools - View Application Errors with SSW Lady Log
 
 <!--endintro-->
