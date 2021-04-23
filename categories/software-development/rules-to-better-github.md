@@ -27,5 +27,3 @@ index:
 - do-you-know-how-to-setup-github-notifications
 
 ---
-Rules to Better GitHub
-
