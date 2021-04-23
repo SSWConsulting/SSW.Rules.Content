@@ -21,30 +21,20 @@ You should always add the application name to the connection string so that SQL 
 
 
 
-```
+```xml
 <add key="Connection" value="Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Biotrack01;Data Source=sheep;"/>
 ```
-
-
-
-
 ::: bad
 Bad example - The connection string without Application Name
-
 :::
 
 
 
-```
+```xml
 <add key="Connection" value="Integrated Security=SSPI;Persist Security 
  Info=False;Initial Catalog=Biotrack01;Data Source=sheep; 
- Application Name=Biotracker"/> // Good Code - Application Name is added in the connection string.
+ Application Name=Biotracker"/> <!-- Good Code - Application Name is added in the connection string. -->
 ```
-
-
-
-
 ::: good
 Good example - The connection string with Application Name
-
 :::
