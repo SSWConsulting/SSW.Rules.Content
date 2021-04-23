@@ -17704,7 +17704,7 @@
 	},
 	{
 		"file": "rules/how-to-avoid-problems-in-if-statements/rule.md",
-		"lastUpdated": "2021-04-23T01:11:19.576Z",
+		"lastUpdated": "2021-04-23T01:12:57.648Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-25T08:00:01+10:00",
@@ -17965,7 +17965,7 @@
 	},
 	{
 		"file": "rules/add-the-application-name-in-the-sql-server-connection-string/rule.md",
-		"lastUpdated": "2021-04-23T01:11:19.576Z",
+		"lastUpdated": "2021-04-23T01:12:57.648Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-04-27T07:01:37+10:00",
@@ -18091,7 +18091,7 @@
 	},
 	{
 		"file": "rules/avoid-casts-and-use-the-as-operator-instead/rule.md",
-		"lastUpdated": "2021-04-23T01:11:19.576Z",
+		"lastUpdated": "2021-04-23T01:12:57.649Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-05-01T04:40:13+10:00",
@@ -18145,7 +18145,7 @@
 	},
 	{
 		"file": "rules/create-suggestions-when-something-is-hard-to-do/rule.md",
-		"lastUpdated": "2021-04-23T01:11:19.576Z",
+		"lastUpdated": "2021-04-23T01:12:57.649Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-05-01T08:04:44+10:00",
@@ -18154,9 +18154,9 @@
 	},
 	{
 		"file": "rules/avoid-empty-code-block/rule.md",
-		"lastUpdated": "2020-12-15T10:37:57+11:00",
-		"lastUpdatedBy": "Matt Goldman",
-		"lastUpdatedByEmail": "MattGoldman@ssw.com.au",
+		"lastUpdated": "2021-04-23T01:12:57.649Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-05-01T08:08:48+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
