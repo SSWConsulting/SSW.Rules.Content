@@ -14,6 +14,10 @@ authors:
   url: https://ssw.com.au/people/brendan-richards
 - title: Andrew Lean
   url: https://ssw.com.au/people/andrew-lean
+- title: William Liebenberg
+  url: https://www.ssw.com.au/people/william-liebenberg
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
 related: []
 redirects:
 - do-you-store-your-secrets-securely
@@ -124,7 +128,7 @@ Figure: Good practice -  Overall rating: 8/10
 
 ::: greybox
 
-#### Use Dot Net User Secrets
+#### Use .NET User Secrets
 
 Pros:
 * Simple secret management for development environments
