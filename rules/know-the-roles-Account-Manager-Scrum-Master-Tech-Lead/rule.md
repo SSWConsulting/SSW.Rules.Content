@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Do you know the roles of the Account Manager, Scrum Master, and Tech Lead?
-guid: {guid}
+guid: 0e95805f-5b4b-4578-966e-71babf5db956
 uri: know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
 created: 2021-04-23T02:54:43.0000000Z
 authors: 
