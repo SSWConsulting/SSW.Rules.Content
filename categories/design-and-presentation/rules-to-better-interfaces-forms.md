@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Interfaces (Forms)
 guid: f46457d7-6684-440e-9a68-b18202963dc4
 uri: rules-to-better-interfaces-forms
+redirects:
+- rules-to-better-interfaces-(forms)
 index:
 - avoid-ending-labels-text-with-a-colon
 - do-you-align-your-add-edit-delete-buttons-horizontal-and-bottom-right
@@ -30,5 +32,5 @@ index:
 - do-your-windows-forms-have-border-protection
 
 ---
-For specific Windows Forms rules, go to [Rules to Better Windows Forms Applications](/SoftwareDevelopment/RulesToBetterWindowsForms).
+For specific Windows Forms Application rules, go to [Rules to Better Windows Forms Applications](/rules-to-better-windows-forms).
 

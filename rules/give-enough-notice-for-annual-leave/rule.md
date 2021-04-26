@@ -44,44 +44,44 @@ Generally, people who need to know include:
 
  
  
- ::: email-template  
-  |          |     |
-  | -------- | --- |
-  | To:      | SSWAbsence |
-  | Subject: | Patricia Barros - 2 weeks leave |  
-  ::: email-content  
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SSWAbsence |
+| Subject: | Patricia Barros - 2 weeks leave |  
+::: email-content  
+### Hi SSW Absence,  
 
-  ### Hi SSW Absence,  
-  
-  I'm going to Brazil for 2 weeks on Monday... wish me luck :)
+I'm going to Brazil for 2 weeks on Monday... wish me luck :)
 
-  Thanks, Patricia
+Thanks, Patricia
 
-  :::  
-  :::  
-  ::: bad  
-   Figure: Bad Example - not enough notice for substantial leave
-  :::
-  
-  ::: email-template  
-  |          |     |
-  | -------- | --- |
-  | To:      | SSWAbsence |
-  | Subject: | Patricia Barros - 2 weeks leave |  
-  ::: email-content  
+:::  
+:::
 
-  ### Hi SSW Absence,  
-  
-  I want to book a ticket to go to Brazil for 2 weeks.
-  I'd like to leave in about 4 weeks. I will, of course, check with my client before I purchase my tickets.
+::: bad  
+Figure: Bad Example - not enough notice for substantial leave
+:::
 
-  Thanks, Patricia
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SSWAbsence |
+| Subject: | Patricia Barros - 2 weeks leave |  
+::: email-content  
 
-  :::  
-  :::  
-  ::: good  
-   Figure: Good Example - appropriate notice given
-  :::
+### Hi SSW Absence,  
+
+I want to book a ticket to go to Brazil for 2 weeks.
+I'd like to leave in about 4 weeks. I will, of course, check with my client before I purchase my tickets.
+
+Thanks, Patricia
+
+:::  
+:::  
+::: good  
+Figure: Good Example - appropriate notice given
+:::
 
 
 ![Figure: Did you give enough notice, or do we need to track you down?](BeachEnforcers.jpg)

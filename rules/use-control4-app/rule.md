@@ -20,93 +20,69 @@ redirects:
 
 Do you check in on your home or office from your smartphone using the Control4 App?
 
-
-
+The Control4 App turns your iOS or Android mobile device into the smart home/office command center. It connects directly to your system and allows you to control and manage all of your system’s features, such as lights, temperature, cameras, audio/video equipment, smart door locks and more.
 
 <!--endintro-->
 
-The Control4 App turns your iOS or Android mobile device into the smart home/office command center. It connects directly to your system and allows you to control and manage all of your system’s features, such as lights, temperature, cameras, audio/video equipment, smart door locks and more.
-![control4.jpg](os3app.webp)
-**Figure: Use the Control4 App** 
-    Throw away your remote controls and move on to technological freedom!
-![](Bad example C4.jpg)
+Throw away your remote controls and move on to technological freedom!
 
 ::: bad
-Figure: Bad example, using any pysical remote control instead of the Control4 app.
-
+![Figure: Bad example, using any pysical remote control instead of the Control4 app](Bad-example-C4.jpg)
 :::
-
-
-![Good example C4.PNG](boardroomac.jpg)
 
 ::: good
-Good Example: Turning on the air conditioner using Control4
-
+![Good Example: Turning on the air conditioner using Control4](boardroomac.jpg)
 :::
-
 
 ### Installing Control4 on your phone
 
 To use Control4 on your phone and remotely control all services, you will need to follow these simple steps:
 
+1. Download the app from:
+  - App Store: http://www.control4.com/software/control4-app-ios/latest or
+  - Google Play: http://www.control4.com/software/control4-app-android/latest
 
-1. Download the app from the App Store: http://www.control4.com/software/control4-app-ios/latest
-or Google Play: http://www.control4.com/software/control4-app-android/latest
+![Figure: Download App](control4iosappstore.jpg)
 
-![Control4 1.png](control4iosappstore.jpg)
+2.Select "Add System" button
 
-> <dd><dl class="ssw15-rteElement-ImageArea"><span style="background-color:initial;color:#333333;">2.</span><span style="background-color:initial;"> Select "Add System" button.</span></dl></dd>
+![Figure: Add system button](control4start.jpg)
 
-![Control4 2.png](control4start.jpg)
+3. Contact your SysAdmin to set you up with an account for logging in
 
+4. Make sure you are on the same WiFi network as your Control4 System and that you have an internet connection.
 
-> <dd><div>3. Contact your SysAdmin to set you up with an account for logging in.
-</div></dd><dd><div>4. Make sure you are on the same WiFi network as your Control4 System and that you have an internet connection.
-</div></dd><dd>5. Use your credentials to sign into Control4. 
-</dd><dd>TIP: The System Name you enter is what the system will be called on your device. It can be anything.  
-</dd><dd><div>
->             
+5. Use your credentials to sign into Control4
 
->          </div></dd>
+::: info
+**Tip:** The System Name you enter is what the system will be called on your device. It can be anything.  
+:::
 
-![Control4 3.png](control4add.jpg)
+![Figure: Add system details](control4add.jpg)
 
 ### Using Control4
 
 Once logged in, you will have access to your site's controls. These apps are customisable, but the ones we have at SSW are:
-![Control4 4.png](control4reception-notes.jpg)
+
+![Figure: SSW reception controls](control4reception-notes.jpg)
 
 ### Changing Users
 
 If you need to change the user or sign in with new credentials, you can use the following steps to do so:
 
+1. Tap the Control4 logo to open the menu
 
-> <dd><dl class="ssw15-rteElement-ImageArea">1. Tap the Control4 logo to open the menu.</dl></dd>
+![Figure: Tap logo](control4receptionLogo.jpg)
 
-![](control4receptionLogo.jpg)
+2. Scroll to the bottom and select the settings button
 
+![Figure: Select "settings"](control4menusettings.png)
 
-> <dd><dl class="ssw15-rteElement-ImageArea">2. Scroll to the bottom and <span style="background-color:initial;">s</span><span style="background-color:initial;">elect the settings button.</span></dl></dd>
+3. Select your System
 
-![Control4 5.png](control4menusettings.png)
+![Figure: Select your system](control4settings.jpg)
 
+4. Select "Delete". This will reset the account and allow you to enter new credentials.
 
-> <dd><dl class="ssw15-rteElement-ImageArea">3. Select your System:
-</dl></dd>
+![Figure: Select "remove"](control4delete.jpg)
 
-![Control4 6.png](control4settings.jpg)
-
-> 
-
-
-
-
-> 4. Select "Delete". This will reset the account and allow you to enter new credentials.
-
-
-![Control4 8.png](control4delete.jpg)
-
-> <dd><dl class="ssw15-rteElement-ImageArea">
->             
-
->          </dl></dd>

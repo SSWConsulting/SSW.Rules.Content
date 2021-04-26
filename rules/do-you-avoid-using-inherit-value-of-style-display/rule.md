@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: IE7 is no longer supported
 title: Do you avoid using "inherit" value of style.display?
 guid: a99dd941-f70a-4aa6-8526-fd2ee1b547c7
 uri: do-you-avoid-using-inherit-value-of-style-display

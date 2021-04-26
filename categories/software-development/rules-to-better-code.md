@@ -17,6 +17,7 @@ index:
 - avoid-double-negative-conditionals-in-if-statements
 - how-string-should-be-quoted
 - add-the-application-name-in-the-sql-server-connection-string
+- do-you-know-how-to-use-connection-strings
 - create-suggestions-when-something-is-hard-to-do
 - avoid-casts-and-use-the-as-operator-instead
 - avoid-empty-code-block

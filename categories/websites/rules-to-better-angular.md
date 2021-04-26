@@ -29,8 +29,12 @@ index:
 ---
 Angular is everywhere.
 
+There are two distinctive versions of Angular:
 
-Angular is up to version 9 - some people still call it Angular 2+, but since version 2.0, it's just been known as  **Angular** . This page is a set of rules and guidelines to get you up and running with Angular with the least pain possible.
+* AngularJS, this is v1, not getting any new features, and ends LTS support at the end of 2021
+* and **Angular** (or Angular 2+) which represents any version of Angular after 2.0 (which was a major rewrite).
+
+This page is a set of rules and guidelines to get you up and running using Angular with the least pain possible.
 
 Angular and React have been the 2 dominant front-end technologies for the last few years. We have been running our Angular Superpowers course that entire time, and I’m still amazed that every time we run the course, we sell out. 
 

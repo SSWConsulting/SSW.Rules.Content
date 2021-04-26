@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Version Control With TFS (AKA Source Control)
 guid: 432efbab-9580-4b84-afef-16f6bf505e6d
 uri: rules-to-better-version-control-with-tfs-aka-source-control
+redirects:
+ - rules-to-better-version-control-with-tfs-(aka-source-control)
 index:
 - do-you-know-the-benefits-of-using-source-control
 - do-you-know-how-to-ensure-your-build-succeeded

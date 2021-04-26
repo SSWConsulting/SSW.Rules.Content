@@ -17,7 +17,7 @@ Do users complain that at times their web application appears to be slow to run 
 
 <!--endintro-->
 
-As per [IIS 8 What's new – Website settings](http://blogs.msdn.com/b/vijaysk/archive/2012/10/11/iis-8-what-s-new-website-settings.aspx) you can use the Application Initialization feature to alleviate this behaviour. If this setting is not enabled, then IIS has default settings to spin down the application and release it from memory when it has been idle for 20 minutes.
+As per [What's New in IIS 8?](https://docs.microsoft.com/en-us/iis/get-started/whats-new-in-iis-8/) you can use the Application Initialization feature to alleviate this behaviour. If this setting is not enabled, then IIS has default settings to spin down the application and release it from memory when it has been idle for 20 minutes.
 
 When you set the startMode property of your application pool to AlwaysRunning a worker process is spawned as soon as IIS starts up and does not wait for the first user request. But this does not mean the web application is initialized.
 
@@ -42,58 +42,33 @@ The feature is built-in to IIS 8
 ![Figure: Preload setting](iis8-3.jpg)  
 
 
-
 ### Instructions below for IIS 7.5:
 
-1. On the application server install 
-      http://www.iis.net/downloads/microsoft/application-initialization or it can be installed using the Web Platform installer
-2. Open 
-       **Internet Information Services (IIS)**
+1. On the application server install http://www.iis.net/downloads/microsoft/application-initialization or it can be installed using the Web Platform installer
+2. Open **Internet Information Services (IIS)**
 3. Select the server
-4. Scroll down and select 
-       **Configuration Editor** 
-![Figure: IIS](iis7-1.jpg)  
+4. Scroll down and select **Configuration Editor** 
+  ![Figure: IIS](iis7-1.jpg)  
 
-5. From the 
-       **Section** menu select 
-       **system.applicationHost / applicationPools** 
-![Figure: Configuration editor](iis7-2.jpg)  
+5. From the **Section** menu select **system.applicationHost / applicationPools** 
+  ![Figure: Configuration editor](iis7-2.jpg)  
 
-6. Double click the 
-       **“…”** to the right of 
-       **(Collection)**
+6. Double click the  **“…”** to the right of **(Collection)**
 7. Find the Application Pool CFT is running on (it could be ComplyFirstTime or DefaultAppPool)
-8. In the 
-       **Properties** window, scroll down and select 
-       **startMode** , choose 
-       **AlwaysRunning** 
-![Figure: Set "start Mode"](iis7-3.jpg)  
+8. In the  **Properties** window, scroll down and select **startMode** , choose **AlwaysRunning** 
+  ![Figure: Set "start Mode"](iis7-3.jpg)  
 
-9. On the top right select 
-       **Apply**
+9. On the top right select **Apply**
 
-
-**
-** 
-
+---
 
 ### Alternative Instructions for IIS 7.5:
-**
-** 
 
-1. There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is called appplocated at c:\windows\system32\inetsvr\config on a standard install of IIS. 
-          I recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format:
-
-
-
+1. There is a setting that has to be enabled in the applicationhost.config file which contains all of the top level configuration settings that IIS uses. This file is called appplocated at c:\windows\system32\inetsvr\config on a standard install of IIS. We recommend making a backup of this file before continuing. You can use any text editor to update this file. Search for and locate the section named &lt;applicationPools&gt;. Within this section, you will see your application listed in this format:
 ```
 <add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″"></add>
 ```
-2. add the Always Running mode by adding startMode="AlwaysRunning"
-    
-
-
-
+2. Add the Always Running mode by adding startMode="AlwaysRunning"
 ```
 <add name="”Application" pool="" name”="" managedruntimeversion="”v4.0″" startmode="AlwaysRunning"></add>
 ```

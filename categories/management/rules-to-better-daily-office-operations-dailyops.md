@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Daily Office Operations (DailyOps)
 guid: 8a94a646-9ccc-4d93-a768-0b7e92117028
 uri: rules-to-better-daily-office-operations-dailyops
+redirects:
+- rules-to-better-daily-office-operations
 index:
 - know-where-your-staff-are
 - know-what-your-staff-are-working-on

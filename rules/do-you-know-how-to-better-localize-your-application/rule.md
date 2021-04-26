@@ -15,12 +15,14 @@ redirects:
 ---
 
 Localization makes your web application ready to work more than one language — and it’s much easier if you do it from the beginning. Just follow these tips to better localize your application for a specific country or region.
-![](SSW-Link-Auditor-Chinafy.jpg) **Figure: SSW LinkAuditor application is available in Chinese.** 
+
 <!--endintro-->
+
+![Figure: SSW LinkAuditor application is available in Chinese](SSW-Link-Auditor-Chinafy.jpg)
 
 * Set your application default language to automatically change to local language. For more information see "[Set your application default language](/do-you-set-your-application-default-language-to-automatically-change-to-local-language)".
 * Always give the user an option to change the locale and remember this choice for the future visits. For more information see "[Always give the user an option to change the locale](/do-you-always-give-the-user-an-option-to-change-the-locale)".
-* Use client-side tools for localization as much as possible so that for the most part, the back end of your service remains unchanged. For more information see "[Use client-side tools for localization as much as possible](/do-you-use-client-side-tools-for-localization-as-much-as-possible-2)".
+* Use client-side tools for localization as much as possible so that for the most part, the back end of your service remains unchanged. For more information see "[Use client-side tools for localization as much as possible](/do-you-use-client-side-tools-for-localization-as-much-as-possible)".
 * Leave plenty of space for text expansion in other languages.
 * Do not hardcode strings, instead you should move strings to resource files. For more information see "[Localize .NET applications with ease](https://www.jetbrains.com/resharper/features/internationalization.html)".
 * Localize the date/number format.

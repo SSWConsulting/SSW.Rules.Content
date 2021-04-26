@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you avoid "Recall this message..." by not sending emails imediatelly?
+title: Do you avoid "Recall this message..." by not sending emails immediately?
 guid: ed5e714c-9f61-495f-a94d-02593d6c1be4
 uri: avoid-sending-emails-immediately
 created: 2013-04-01T14:19:27.0000000Z

@@ -3,6 +3,8 @@ type: category
 title: Rules to Better Interfaces (Popups and Messages)
 guid: ffd39156-3df1-41c3-9a3d-8441c03d8caa
 uri: rules-to-better-interfaces-popups-and-messages
+redirects:
+- rules-to-better-interfaces-(popups-and-messages)
 index:
 - popup-do-you-know-pop-ups-are-evil
 - do-you-use-javascript-alert
@@ -23,4 +25,3 @@ index:
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
 If you still need help, visit [Website Design and User Experience](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx) and book in a consultant.
-

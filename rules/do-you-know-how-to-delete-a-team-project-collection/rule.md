@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you know how to delete a Team Project Collection?
 guid: 8b845614-283a-469e-91d6-cfc30b15f7ec
 uri: do-you-know-how-to-delete-a-team-project-collection

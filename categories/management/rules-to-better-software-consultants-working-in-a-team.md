@@ -18,6 +18,7 @@ index:
 - do-you-repeat-back-the-specifics-of-a-request
 - do-you-send-done-videos
 - how-to-take-feedback-or-criticism
+- understand-the-power-of-empathy
 - do-you-go-two-miles-when-youre-only-asked-to-go-one
 - is-everyone-in-your-team-a-standards-watchdog
 - do-you-ask-questions-where-youre-stuck
@@ -25,10 +26,13 @@ index:
 - do-you-enjoy-your-job
 - do-you-create-a-report-whenever-you-need-a-number-from-a-system
 - do-you-give-120-when-deadlines-are-tight
-- give-enough-notice-for-annual-leave
 - do-you-give-people-a-second-chance
+- do-you-offer-positive-feedback-to-your-team
+- do-you-offer-specific-criticism
+- do-you-only-do-what-you-think-is-right
 - do-you-have-a-dress-code
 - do-you-have-your-mobile-phone-on-vibrate
+- give-enough-notice-for-annual-leave
 - do-you-know-how-to-get-approval-for-a-purchase
 - do-you-know-the-best-books-to-read-on-software-development
 - do-you-know-the-best-place-to-find-good-software-videos
@@ -37,9 +41,6 @@ index:
 - do-you-know-the-recurring-tasks-you-have-to-do
 - do-you-label-broken-equipment
 - do-you-notify-others-about-what-is-happening-in-the-company
-- do-you-offer-positive-feedback-to-your-team
-- do-you-offer-specific-criticism
-- do-you-only-do-what-you-think-is-right
 - do-you-respond-to-blogs-and-forums-with-the-standard-footer
 - do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
 - do-you-use-source-control-and-backups
