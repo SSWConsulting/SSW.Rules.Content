@@ -14878,9 +14878,9 @@
 	},
 	{
 		"file": "rules/store-your-secrets-securely/rule.md",
-		"lastUpdated": "2021-04-01T16:28:56.619Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-26T07:02:40.979Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2016-04-29T05:19:41+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -21952,9 +21952,9 @@
 	},
 	{
 		"file": "rules/create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics/rule.md",
-		"lastUpdated": "2021-02-17T09:57:31+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-23T16:46:04.248Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-06-26T08:11:47+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -22591,9 +22591,9 @@
 	},
 	{
 		"file": "rules/bundle-all-your-customizations-in-a-solution/rule.md",
-		"lastUpdated": "2020-10-29T06:07:50+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-23T16:43:44.720Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-10-29T06:00:49+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -25141,9 +25141,9 @@
 		"created": "2021-04-09T01:05:13.355Z",
 		"createdBy": "Nicholas Viet [SSW]",
 		"createdByEmail": "65745138+nviet123@users.noreply.github.com",
-		"lastUpdated": "2021-04-22T06:09:17.266Z",
-		"lastUpdatedBy": "Nicholas Viet [SSW]",
-		"lastUpdatedByEmail": "65745138+nviet123@users.noreply.github.com"
+		"lastUpdated": "2021-04-23T07:10:33.928Z",
+		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
+		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com"
 	},
 	{
 		"file": "rules/do-you-provide-options-for-sharing/rule.md",
@@ -25394,6 +25394,15 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-04-23T22:03:30.012Z",
+    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/bundle-all-your-customizations-in-a-solution/solutions-custom.png",
+		"created": "2021-04-23T16:44:23.878Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-23T16:44:23.878Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
