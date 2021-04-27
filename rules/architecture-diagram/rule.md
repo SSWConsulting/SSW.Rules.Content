@@ -90,8 +90,8 @@ Your architecture diagram should show how the components of your solution fit to
 ### Tip 4: Put data at the top
 
 
-It should be easy to tell at a glance which direction data flows in your diagram: left to right, right to left,        <mark>top to bottom</mark>(recommended). Pick a direction for your data flow, and keep it consistent across all your documentation. Where there are exceptions (for example data going to analytics or to/from partner sources) make these perpendicular to the primary data flow direction.
-![sugarlearning-architecture-diagram (1).png](sugarlearning-architecture-diagram (1).png)
+It should be easy to tell at a glance which direction data flows in your diagram: left to right, right to left,        <mark>top to bottom (recommended).</mark> Pick a direction for your data flow, and keep it consistent across all your documentation. Where there are exceptions (for example data going to analytics or to/from partner sources) make these perpendicular to the primary data flow direction.
+![sugarlearning-architecture-diagram.png](sugarlearning-architecture-diagram.png)
 
 ::: good
 Figure: Good example - SugarLearning (an Angular + .NET project) - data flows from top to bottom, with exceptions (e.g. Application Insights / Raygun, not part of the main data flow) perpendicular to the primary direction
@@ -105,7 +105,7 @@ Figure: Good example - SugarLearning (an Angular + .NET project) - data flows fr
 Group components logically by enclosing them in a box. Components that operate independently can stand alone, and those that work together to deliver a logical function can be grouped together. Also show components that are out of scope, i.e. important for understanding the architecture but not necessarily part of it, e.g. legacy components, partner components, or components that have not been implemented yet.
 
 Note: for clarity, out of scope items whether one or many, should be in a box.
-![rewards-architecture-diagram (2).png](rewards-architecture-diagram (3).png)
+![rewards-architecture-diagram.png](rewards-architecture-diagram.png)
 
 ::: good
 Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used, e.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line
