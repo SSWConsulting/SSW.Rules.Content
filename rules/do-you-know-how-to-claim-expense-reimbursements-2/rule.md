@@ -45,7 +45,7 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 ![**Figure: Xero Expense app submit a photo**](2020-11-25_15-44-09.png)
 
-**Figure: Xero Expense app submit a photo**
+
 
 
 
@@ -55,7 +55,6 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 ![ **Figure: Details required of a submitted receipt**](e.jpg)
 
 
- **Figure: Details required of a submitted receipt** 
 
 
 3. Confirm whether the expense was paid personally or with company money
@@ -63,7 +62,7 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 ![ **Figure: Option of reimbursable and non-reimbursable** ](2020-11-25_15-51-14.png) 
 
- **Figure: Option of reimbursable and non-reimbursable** 
+
 
 
 4. When all details have been checked and are complete, click submit for approval and then wait to be reimbursed. If you are not ready to submit and run out of time, you can save as draft and get back to it by the next day
@@ -72,7 +71,7 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 ![ **Figure: Saving as draft or submit for approval**](2020-11-25_15-53-02.png) 
 
- **Figure: Saving as draft or submit for approval** 
+
 
 
 Note - if not already done, make sure purchase approval is forwarded to the Accountant or included in the photo submitted.
@@ -97,10 +96,10 @@ Note - if not already done, make sure purchase approval is forwarded to the Acco
 
 3. Follow-up on any invoices awaiting approval, or obtain approval where appropriate
 
-![](2020-11-25_16-14-53.png)
+![**Figure: Xero Expense claim approval page** ](2020-11-25_16-14-53.png)
 
 
-**Figure: Xero Expense claim approval page** 
+
 
 
 
@@ -110,10 +109,10 @@ Note - if not already done, make sure purchase approval is forwarded to the Acco
 
 
 
-![](2020-11-25_16-01-26.png)
+![ **Figure: Xero payment scheduling page** ](2020-11-25_16-01-26.png)
 
 
- **Figure: Xero payment scheduling page** 
+
 
 
 
@@ -126,10 +125,10 @@ Note - if not already done, make sure purchase approval is forwarded to the Acco
 
 6. Send remittance to employee via Xero 
 
-![](2020-11-25_16-04-57.png)
+![ **Figure: Send remittance page post payment**](2020-11-25_16-04-57.png)
 
 
- **Figure: Send remittance page post payment** 
+ 
 
 <!--endintro-->
 
