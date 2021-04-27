@@ -107,3 +107,4 @@ As a user, all you have to do is take a photo of the receipt from your mobile ap
 * [Do you know how to enter an Expensify receipt?](/how-to-enter-an-expensify-receipt)
 * [Do you create a new report for related expenses?](/do-you-create-a-new-report-for-related-expenses)
 * [Do you know how to claim expense reimbursements?](/do-you-know-how-to-claim-expense-reimbursements)
+* [Do you know how to claim expense reimbursements-with-Xero-Expense-app](/do-you-know-how-to-claim-expense-reimbursements-with-Xero-Expense-app)
