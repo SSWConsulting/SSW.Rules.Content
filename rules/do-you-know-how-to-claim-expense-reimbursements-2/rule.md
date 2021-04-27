@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
 - do-you-know-how-to-claim-expense-reimbursements
+- do-you-know-how-to-claim-expense-reimbursements-2
 
 ---
 
@@ -29,7 +30,7 @@ There are many systems available for employees to use to complete an expense rei
 * Integration capabilities with Accounting Software
 
 
-Based on the simplicity in use and overall satisfaction of the Xero Expense app, it is recommended as a leading expense app to use in combination with the Xero Accounting Software. 
+It is recommended to use the Xero Expense app in tandem with the Xero Accounting software because this combination makes it simple to perform reimbursements and has a high level of customer satisfaction.
 
 
 
@@ -40,18 +41,18 @@ Based on the simplicity in use and overall satisfaction of the Xero Expense app,
  **Employees:** 
 
 
-1. Open the Xero Expense mobile app and submit a photo of the receipt for reimbursement or filing. If the receipt was sent via email, you can still submit a photo or screenshot of the email receipt
+1. Open the Xero Expense mobile app and submit a photo of the receipt for reimbursement or filing. For digitally emailed receipts, you can either take a photo of the email and upload it as per usual or you can upload the PDF version of it within the app.
 
-![](2020-11-25_15-44-09.png)
+![**Figure: Xero Expense app submit a photo**](2020-11-25_15-44-09.png)
 
- **Figure: Xero Expense app submit a photo** 
+**Figure: Xero Expense app submit a photo**
 
 
 
 2. Either allow the app to analyse the details manually or enter the details yourself (if you are strapped for time, you can take a photo and come back to it or hold on to the receipt and attend to it when possible)
 
 
-![](e.jpg)
+![ **Figure: Details required of a submitted receipt**](e.jpg)
 
 
  **Figure: Details required of a submitted receipt** 
@@ -60,7 +61,7 @@ Based on the simplicity in use and overall satisfaction of the Xero Expense app,
 3. Confirm whether the expense was paid personally or with company money
 
 
-![](2020-11-25_15-51-14.png) 
+![ **Figure: Option of reimbursable and non-reimbursable** ](2020-11-25_15-51-14.png) 
 
  **Figure: Option of reimbursable and non-reimbursable** 
 
@@ -69,7 +70,7 @@ Based on the simplicity in use and overall satisfaction of the Xero Expense app,
 
 
 
-![](2020-11-25_15-53-02.png) 
+![ **Figure: Saving as draft or submit for approval**](2020-11-25_15-53-02.png) 
 
  **Figure: Saving as draft or submit for approval** 
 
@@ -84,7 +85,7 @@ Note - if not already done, make sure purchase approval is forwarded to the Acco
 
 
 <font color="#333333"> <strong></strong> </font>
-1. Review the Xero Expense claims weekly on Thursday's
+1. Review the Xero Expense claims every Thursday
 
 
 
