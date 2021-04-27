@@ -28,7 +28,7 @@ Developers love doing things in their own time, investigating interesting things
 
 
 
-In respect of the review and retro, when things have gone off the rails, it is easy to speak your mind and say what you believe went wrong. Often, when things are going right, the tendency is to skip the debriefing with a comment; 'all is good'.
+In respect of the review and retro, when things have gone off the rails, it is easy to speak your mind and say what you believe went wrong. Often, when things are going right, the tendency is to skip the debriefing with a comment; 'All is good'.
 
 A better idea is to figure out: 'Why are things not going right?' ,and work out how you can repeat it. For example, if your client calls and says, "We think Dan has shown very professional conduct and has delivered a high-quality solution", you should look at how the project was run. 
 
