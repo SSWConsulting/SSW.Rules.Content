@@ -72,7 +72,7 @@ The best feature of Xero Expense reimbursement is that the employee's bank detai
 
 
 
-Although Expensify and Receipt Bank are capable of performing this same function, the cost to have the same function is expensive.
+Although Expensify and Receipt Bank are capable of performing this function, it is expensive.
 
 
 
