@@ -15,8 +15,16 @@ redirects:
 
 ---
 
-When creating workflows in Dynamics developers take for granted when a solution file is moved across environments, things just work. To achieve the same with Flows we need to make sure that when connecting to Dynamics using the Comm Data Service connector, we in fact connect with Common Data Service (Current Environment) connector. 
+When creating workflows in Dynamics developers take for granted when a solution file is moved across environments, things just work. To achieve the same with Flows we need to make sure that when connecting to Dynamics using the Common Data Service connector, we in fact connect with Common Data Service (Current Environment) connector. This connector is environmentally aware and will immediately work when the parent solution is deployed to another environment, it doesn't require any post-deployment steps.
 
 <!--endintro-->
 
-This connector is environmentally aware and will immediately work when the parent solution is deployed to another environment, it doesn't require any post-deployment steps.
+**Tip:** When searching for Common Data Services (Current Environment) it’s very easy to pick the wrong one:
+
+![Figure:Use Common Data Services (Current Environment) instead of Common Data Services](common-data-services.png)
+
+
+### Related Rule
+
+* [Do you bundle all your customizations in a Solution (Model-Driven)?](/bundle-all-your-customizations-in-a-solution)
+
