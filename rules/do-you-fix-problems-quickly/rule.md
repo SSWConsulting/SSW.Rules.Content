@@ -34,3 +34,6 @@ If you are not able to fix the problem immediately, you need to inform the clien
 Problems come in endless contexts but here's how we deal with some specific examples:
 1. [Fix bugs first](/management-do-you-fix-bugs-first)
 2. [Make client complaints a positive experience](/make-complaints-a-positive-experience)
+
+![image](https://user-images.githubusercontent.com/25000905/116169612-75286e80-a748-11eb-8ca5-ec137a3b100e.png)
+
