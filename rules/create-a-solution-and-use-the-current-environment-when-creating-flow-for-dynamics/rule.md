@@ -8,7 +8,8 @@ created: 2020-06-25T22:11:47.0000000Z
 authors:
 - title: Mehmet Ozdemir
   url: https://ssw.com.au/people/mehmet-ozdemir
-related: []
+related: 
+- bundle-all-your-customizations-in-a-solution
 redirects:
 - do-you-create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
 
@@ -26,3 +27,4 @@ When creating workflows in Dynamics developers take for granted when a solution 
 ### Related Rule
 
 * [Do you bundle all your customizations in a Solution (Model-Driven)?](/bundle-all-your-customizations-in-a-solution)
+

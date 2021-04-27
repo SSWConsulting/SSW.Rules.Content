@@ -8,7 +8,8 @@ created: 2020-10-28T19:00:49.0000000Z
 authors:
 - title: Mehmet Ozdemir
   url: https://ssw.com.au/people/mehmet-ozdemir
-related: []
+related: 
+- create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
 redirects:
 - do-you-bundle-all-your-customizations-in-a-solution-model-driven
 - do-you-bundle-all-your-customizations-in-a-solution-(model-driven)
@@ -29,10 +30,6 @@ Differences between Managed and Unmanaged solutions:
 * Unmanaged solutions will install the changes but deleting the solution will leave the changes intact, so think of it as an additive change
 * To completely remove all customizations in an Unmanaged solution every customized item needs to be manually deleted
 
-
 ![Figure: Solution show all customizations, make it very easy to move changes between environments](solutions-custom.png)  
 
-### Related Rule
 
-
-* [Do you create a Solution and use the "Current Environment" when creating Flow for Dynamics?](/create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics)
