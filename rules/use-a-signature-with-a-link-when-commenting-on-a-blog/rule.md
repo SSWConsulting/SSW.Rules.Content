@@ -15,15 +15,14 @@ redirects:
 
 ---
 
-Backlinks are a big part of Google's ranking algorithm, and one way to take advantage of that is to make sure that you always comment on people's blogs... this could be to ask a question, or just to say thanks, but make sure you add a link back to your company website after your name.
-
+Backlinks are a big part of Google's ranking algorithm, and one way to take advantage of that is to make sure that you always comment on people's blogs and include a link. This could be to **ask a question**, or **give thanks to good blogs**, but make sure you add a link back to your company website after your name.
 
 ::: greybox
 Thank you, that worked for me.   
 Ulysses Maclaren [www.ssw.com.au](https://ssw.com.au/) 
 :::
 ::: good
-Figure: Good example - adding a signature with URL in your blog comment  
+Figure: Good example - adding a signature with URL in a blog comment  
 :::
 
 <!--endintro-->

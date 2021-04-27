@@ -18,7 +18,7 @@ redirects: []
 
 When developing software, exceptions are a fact-of-life you will need to deal with. Don't reinvent the wheel, use an existing exception handling library or service.
 
-The best exception handling service is [Application Insights](/rules-to-better-application-insights), but if you can't use that, try [Seq](https://datalust.co/seq).
+The best exception handling service is [Application Insights for Visual Studio Online](/rules-to-better-application-insights), but if you can't use that, then use [elmah.io](https://elmah.io/).
 
 Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs.
 

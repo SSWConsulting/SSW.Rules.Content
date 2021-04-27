@@ -32,5 +32,5 @@ index:
 - do-your-windows-forms-have-border-protection
 
 ---
-For specific Windows Forms rules, go to [Rules to Better Windows Forms Applications](/SoftwareDevelopment/RulesToBetterWindowsForms).
+For specific Windows Forms Application rules, go to [Rules to Better Windows Forms Applications](/rules-to-better-windows-forms).
 

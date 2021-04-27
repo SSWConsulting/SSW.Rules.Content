@@ -18,7 +18,7 @@ redirects:
 
 ---
 
-For unplanned outages see: [Do you have an unplanned outage process?](/rules/unplanned-outage-process)
+For unplanned outages see: [Do you have an unplanned outage process?](/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
 
@@ -145,7 +145,6 @@ Once these have been checked for active users, and users have logged off, mainte
 1. Between 7am and 7:05am
 2. Between 1pm and 1:05pm
 3. Between 7pm and 7:05pm 
-
 
 If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://docs.microsoft.com/en-us/sysinternals/downloads/psshutdown) page.
 

@@ -14,6 +14,10 @@ authors:
   url: https://ssw.com.au/people/brendan-richards
 - title: Andrew Lean
   url: https://ssw.com.au/people/andrew-lean
+- title: William Liebenberg
+  url: https://www.ssw.com.au/people/william-liebenberg
+- title: Piers Sinclair
+  url: https://www.ssw.com.au/people/piers-sinclair
 related: []
 redirects:
 - do-you-store-your-secrets-securely
@@ -35,7 +39,7 @@ There are many options for managing secrets in a secure way:
 #### Store production passwords in source control protected with the [ASP.NET IIS Registration Tool](https://docs.microsoft.com/en-us/previous-versions/zhhddkxy(v=vs.140)?redirectedfrom=MSDN)
 
 Pros:
-* Minimal change to existing process – no need for [DPAPI](https://docs.microsoft.com/en-us/previous-versions/ms995355(v=msdn.10)?redirectedfrom=MSDN) or a dedicated Release Management (RM) tool
+* Minimal change to existing process – no need for [DPAPI](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/introduction?view=aspnetcore-5.0) or a dedicated Release Management (RM) tool
 * Simple and easy to understand
 
 Cons:
@@ -120,6 +124,22 @@ Cons:
 :::
 ::: good
 Figure: Good practice -  Overall rating: 8/10
+:::
+
+::: greybox
+
+#### Use .NET User Secrets
+
+Pros:
+* Simple secret management for development environments
+* Keeps secrets out of version control
+
+Cons:
+* Not suitable for production environments
+
+:::
+::: good
+Figure: Good Practice - Overall rating 8/10  
 :::
 
 ::: greybox
