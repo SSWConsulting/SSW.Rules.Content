@@ -22,7 +22,7 @@ In the example the only expected values are "Development" and "Production".
 
 
 
-```
+```cs
 void Load(string environment)
 {
   if (environment == "Development")
@@ -51,7 +51,7 @@ Now the code will throw an exception if an unexpected value is provided.
 
 
 
-```
+```cs
 void Load(string environment)
 {
   if (environment == "Development")

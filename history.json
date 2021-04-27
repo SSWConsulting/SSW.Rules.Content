@@ -15409,9 +15409,9 @@
 	},
 	{
 		"file": "rules/404-error-avoid-changing-the-url/rule.md",
-		"lastUpdated": "2016-08-12T04:24:25+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.691Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2016-08-12T04:08:44+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -16975,9 +16975,9 @@
 	},
 	{
 		"file": "rules/a-better-method-for-embedding-youtube-videos-on-your-website/rule.md",
-		"lastUpdated": "2017-09-20T02:17:32+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.692Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2017-09-11T11:29:37+10:00",
 		"createdBy": "Anthony Nguyen",
 		"createdByEmail": "anthonynguyen@ssw.com.au"
@@ -17587,9 +17587,9 @@
 	},
 	{
 		"file": "rules/avoid-clear-text-email-addresses-in-web-pages/rule.md",
-		"lastUpdated": "2020-11-30T17:43:51+11:00",
+		"lastUpdated": "2021-04-27T00:59:03.693Z",
 		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "BradyStroud@sswcom.onmicrosoft.com",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-04-24T06:39:14+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -17704,27 +17704,27 @@
 	},
 	{
 		"file": "rules/how-to-avoid-problems-in-if-statements/rule.md",
-		"lastUpdated": "2018-04-25T08:01:38+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.689Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-04-25T08:00:01+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/avoid-double-negative-conditionals-in-if-statements/rule.md",
-		"lastUpdated": "2020-12-15T08:07:23+11:00",
-		"lastUpdatedBy": "Matt Goldman",
-		"lastUpdatedByEmail": "MattGoldman@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.694Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-04-25T08:03:22+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/avoid-logic-errors-by-using-else-if/rule.md",
-		"lastUpdated": "2020-01-30T10:01:02+11:00",
-		"lastUpdatedBy": "Liam Elliott",
-		"lastUpdatedByEmail": "LiamElliott@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.695Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-04-26T03:44:45+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -17965,9 +17965,9 @@
 	},
 	{
 		"file": "rules/add-the-application-name-in-the-sql-server-connection-string/rule.md",
-		"lastUpdated": "2020-12-15T10:33:36+11:00",
-		"lastUpdatedBy": "Matt Goldman",
-		"lastUpdatedByEmail": "MattGoldman@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.689Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-04-27T07:01:37+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -17992,9 +17992,9 @@
 	},
 	{
 		"file": "rules/always-check-your-buttons-event-handler-hook-up/rule.md",
-		"lastUpdated": "2018-05-04T03:46:23+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.693Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-04-27T07:27:02+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18046,9 +18046,9 @@
 	},
 	{
 		"file": "rules/avoid-putting-business-logic-into-the-presentation-layer/rule.md",
-		"lastUpdated": "2018-04-27T08:28:45+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.695Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-04-27T08:25:40+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18091,9 +18091,9 @@
 	},
 	{
 		"file": "rules/avoid-casts-and-use-the-as-operator-instead/rule.md",
-		"lastUpdated": "2018-05-01T04:44:19+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.690Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-05-01T04:40:13+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18145,18 +18145,18 @@
 	},
 	{
 		"file": "rules/create-suggestions-when-something-is-hard-to-do/rule.md",
-		"lastUpdated": "2020-01-30T10:03:00+11:00",
-		"lastUpdatedBy": "Liam Elliott",
-		"lastUpdatedByEmail": "LiamElliott@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.690Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-05-01T08:04:44+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/avoid-empty-code-block/rule.md",
-		"lastUpdated": "2020-12-15T10:37:57+11:00",
-		"lastUpdatedBy": "Matt Goldman",
-		"lastUpdatedByEmail": "MattGoldman@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.691Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2018-05-01T08:08:48+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -20773,9 +20773,9 @@
 	},
 	{
 		"file": "rules/avoid-collation-errors/rule.md",
-		"lastUpdated": "2020-01-07T10:22:32+11:00",
-		"lastUpdatedBy": "Christian Morford-Waite",
-		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au",
+		"lastUpdated": "2021-04-27T00:59:03.694Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2019-11-23T09:54:08+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"

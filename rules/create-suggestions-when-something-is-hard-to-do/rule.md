@@ -22,7 +22,7 @@ If you have to add a suggestion, make sure that you put the link to that suggest
 
 
 
-```
+```cs
 /// <summary>
 /// base class for command implementations
 /// This is a work around as standard MVVM commands
@@ -44,7 +44,7 @@ Figure: Bad example - The link to the suggestion should be in the comments
 
 
 
-```
+```cs
 /// <summary>
 /// base class for command implementations
 /// This is a work around as standard MVVM commands
