@@ -7,6 +7,7 @@ index:
 - do-you-know-the-6-stages-in-the-sales-pipeline
 - do-you-realize-the-value-of-your-existing-clients
 - do-you-manage-your-inbound-leads-effectively
+- know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
 - do-you-perform-a-background-check
 - do-you-have-clear-engagement-models
 - how-to-justify-your-rates
@@ -60,6 +61,3 @@ You can have the best developers in the world, but if you haven't got a good sal
 Once you've got the job, software projects are delicate activities and the client needs love. It's up to the Account Managers to keep everyone on the same page, especially if there is no Scrum Master.
 
 The Account Manager is responsible for invoicing, resource management (booking developers) and conflict resolution. Here are SSW's rules for better Sales and Account Management.
-
-Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments. Let us know what you think.
-
