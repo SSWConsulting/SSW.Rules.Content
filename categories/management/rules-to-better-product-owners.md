@@ -37,6 +37,13 @@ index:
  
 Hello world.
 
+- List item
+- Dot points are broken
+- on categories
+
+* Does this work
+* Maybe this...
+
 
 Check out this image:
 
