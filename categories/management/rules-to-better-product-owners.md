@@ -43,7 +43,13 @@ Hello world.
 - on categories
 
 * Does this work
-* Maybe this...
+    * Maybe this...
+        * Or this...
+
+1. first
+2. second
+3. third
+
 
 
 Check out this image:
