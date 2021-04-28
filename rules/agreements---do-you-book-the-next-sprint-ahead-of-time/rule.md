@@ -14,14 +14,7 @@ related:
 ---
 
 
-1. Add your website as a new device. 
-![Figure: New device](running1.GIF)  
-
-2. Ping monitor is added automatically. 
-![Figure: Ping monitor](running2.GIF)  
-
-3. Add an HTTP Content Scan monitor. 
-![Figure: HTTP Content Scan](running3.GIF)  
+![Figure: Is this Broken?](Bad Commit Message.png)
 
 
 Unless we're currently working on the last sprint of the development, you should always book the next sprint as soon as you start work on the current one.
