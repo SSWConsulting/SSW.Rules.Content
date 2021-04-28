@@ -6,6 +6,7 @@ uid: rules-to-better-product-owners
 redirects:
 - jack-test
 index:
+- rule
 - do-you-know-how-to-be-a-good-product-owner
 - agreements---do-you-book-the-next-sprint-ahead-of-time
 - agreements---do-you-join-the-team-as-a-tester
