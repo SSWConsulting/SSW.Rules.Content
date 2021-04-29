@@ -31,12 +31,12 @@ Scrum already covers the roles of the [Developers](https://www.youtube.com/watch
 -	Budget discussions
 
 ### Scrum Master
--	Make sure the Team is using Scrum correctly
--	Facilitate communication between the Developers and the Product Owner
--	Make sure [Daily Scrums](/meeting-do-you-update-your-tasks-before-the-daily-scrum) are happening
--	Facilitate the [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting), [Retro](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), and [Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting) meetings
--	Coach the Product Owner to prioritize the backlog effectively
--	Unblock the Devs as needed
+-	Ensures the Team is using Scrum correctly
+-	Facilitates communication between the Developers and the Product Owner
+-	Ensures [Daily Scrums](/meeting-do-you-update-your-tasks-before-the-daily-scrum) are happening
+-	Facilitates the [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting), [Retro](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), and [Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting) meetings
+-	Coaches the Product Owner to prioritize the backlog effectively
+-	Unblocks the Devs as needed
 
 ### Tech Lead
 -	Spec Review - Primary communicator with the Product Owner 
@@ -44,4 +44,4 @@ Scrum already covers the roles of the [Developers](https://www.youtube.com/watch
 -	Responsible for the architecture and technical direction of the project 
 -	Displays ownership of the project, and keeps the code quality high, and technical debt low
 -	Helps the Account Manager with technical areas of conflict management
--	Keep on top of the budget and timelines
+-	Keeps on top of the budget and timelines
