@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason:
-title: Do you know the roles of the Account Manager, Scrum Master, and Tech Lead?
+title: Do you know the non-Scrum roles of a project?
 guid: 0e95805f-5b4b-4578-966e-71babf5db956
-uri: know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
+uri: know-the-non-scrum-roles
 created: 2021-04-23T02:54:43.0000000Z
 authors: 
 - title: Ulysses Maclaren
@@ -11,12 +11,14 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related:
+redirects:
+- know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
 
 ---
 
 Medium to large software development projects have people on them with varying roles and responsibilities. In order not to double up, or miss something, it’s important to define what each should do. 
 
-Scrum already covers the roles of the [Developers](https://www.youtube.com/watch?v=vLqCkj0PvtE), the [Product Owner](/do-you-know-the-how-to-be-a-good-product-owner), and the [Scrum Master](/the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team), but from a consultancy’s side, there’s also the Tech Lead and the Account Manager to consider. 
+Scrum already covers the roles of the **[Developers](https://www.youtube.com/watch?v=vLqCkj0PvtE)**, the **[Product Owner](/do-you-know-the-how-to-be-a-good-product-owner)**, and the **[Scrum Master](/the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team)**, but from a consultancy’s side, there’s also the **Tech Lead** and the **Account Manager** to consider. 
 
 <!--endintro-->
 
@@ -29,14 +31,6 @@ Scrum already covers the roles of the [Developers](https://www.youtube.com/watch
 -	Conflict resolution
 -	Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
 -	Budget discussions
-
-### Scrum Master
--	Ensures the Team is using Scrum correctly
--	Facilitates communication between the Developers and the Product Owner
--	Ensures [Daily Scrums](/meeting-do-you-update-your-tasks-before-the-daily-scrum) are happening
--	Facilitates the [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting), [Retro](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), and [Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting) meetings
--	Coaches the Product Owner to prioritize the backlog effectively
--	Unblocks the Devs as needed
 
 ### Tech Lead
 -	Spec Review - Primary communicator with the Product Owner 
