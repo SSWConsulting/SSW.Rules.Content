@@ -7,7 +7,7 @@ index:
 - do-you-know-the-6-stages-in-the-sales-pipeline
 - do-you-realize-the-value-of-your-existing-clients
 - do-you-manage-your-inbound-leads-effectively
-- know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
+- know-the-non-scrum-roles
 - do-you-perform-a-background-check
 - do-you-have-clear-engagement-models
 - how-to-justify-your-rates
@@ -56,6 +56,7 @@ index:
 - the-outcomes-from-your-initial-meeting
 
 ---
+
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.
 
 Once you've got the job, software projects are delicate activities and the client needs love. It's up to the Account Managers to keep everyone on the same page, especially if there is no Scrum Master.
