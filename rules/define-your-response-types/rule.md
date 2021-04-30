@@ -56,7 +56,7 @@ public ActionResult<long> Get(long n)
     }
 }
 ```
-::: bad
+::: good
 Figure: Good example for swashbuckle - Even better if you have .NET Core 2.1 use the strong typed ActionResult
 :::
 
