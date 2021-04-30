@@ -1,15 +1,15 @@
 ---
 type: rule
 archivedreason: 
-title: Management - Do you spec in bite-sized pieces?
+title: Management - Do you use Just-In-Time speccing?
 guid: 2b7faccc-3b40-49cc-b99f-83dd4c3df0a1
-uri: management-do-you-spec-in-bite-sized-pieces
+uri: management-do-you-use-just-in-time-speccing
 created: 2009-02-28T09:45:07.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects: [management-do-you-spec-in-bite-sized-pieces]
 
 ---
 
