@@ -2260,7 +2260,7 @@
 	},
 	{
 		"file": "rules/who-is-in-charge-of-keeping-the-schedule/rule.md",
-		"lastUpdated": "2021-04-30T02:05:08.886Z",
+		"lastUpdated": "2021-04-30T05:00:02.684Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2014-12-31T11:43:13+11:00",
@@ -5941,7 +5941,7 @@
 	},
 	{
 		"file": "rules/do-you-know-the-8-steps-to-scrum/rule.md",
-		"lastUpdated": "2021-04-30T02:05:08.886Z",
+		"lastUpdated": "2021-04-30T05:00:02.684Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2013-08-31T00:25:42+10:00",
@@ -8299,7 +8299,7 @@
 	},
 	{
 		"file": "rules/do-you-manage-your-inbound-leads-effectively/rule.md",
-		"lastUpdated": "2021-04-30T02:05:08.886Z",
+		"lastUpdated": "2021-04-30T05:00:02.684Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2013-10-02T16:05:12+10:00",
@@ -11431,7 +11431,7 @@
 	},
 	{
 		"file": "rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating/rule.md",
-		"lastUpdated": "2021-04-30T02:05:08.886Z",
+		"lastUpdated": "2021-04-30T05:00:02.683Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2011-06-01T15:25:52+10:00",
@@ -25528,7 +25528,7 @@
 		"created": "2021-04-30T02:05:08.886Z",
 		"createdBy": "Brady Stroud [SSW]",
 		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-04-30T02:05:08.886Z",
+		"lastUpdated": "2021-04-30T05:00:02.683Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
@@ -25537,7 +25537,7 @@
 		"created": "2021-04-30T02:05:08.886Z",
 		"createdBy": "Brady Stroud [SSW]",
 		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-04-30T02:05:08.886Z",
+		"lastUpdated": "2021-04-30T05:00:02.683Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
@@ -25546,7 +25546,16 @@
 		"created": "2021-04-30T02:05:08.886Z",
 		"createdBy": "Brady Stroud [SSW]",
 		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-04-30T02:05:08.886Z",
+		"lastUpdated": "2021-04-30T05:00:02.684Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-keep-track-of-your-ppc-campaign-spend/Campaign-PPC-Spend.xlsx",
+		"created": "2021-04-30T05:00:02.684Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-30T05:00:02.684Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
