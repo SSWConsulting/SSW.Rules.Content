@@ -22,8 +22,8 @@ Bad example - default but now it is about help for your API)
 :::
 
 ::: greybox
-northwind.com/dev
-OR
+northwind.com/dev   
+OR   
 northwind.com/developer
 :::
 ::: bad
