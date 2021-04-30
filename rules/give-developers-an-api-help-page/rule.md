@@ -15,69 +15,40 @@ redirects:
 ---
 
 ::: greybox
-www.northwind.com/swagger 
-
+northwind.com/swagger 
 :::
-
-
-
 ::: bad
 Bad example - default but now it is about help for your API)
-
 :::
-
 
 ::: greybox
-www.northwind.com/dev
+northwind.com/dev
 OR
-www.northwind.com/developer
-
+northwind.com/developer
 :::
-
-
-
-
 ::: bad
 Bad examples
-
 :::
-
 
 ::: greybox
-www.northwind.com/api    
+northwind.com/docs    
 :::
-
-
-
-
 ::: bad
-Bad example - already taken
-
+Bad example
 :::
-
 
 ::: greybox
-www.northwind.com/help   
+northwind.com/help   
 :::
-
-
-
-
 ::: bad
 Bad example - too broad
-
 :::
-
 
 <!--endintro-->
 
-
 ::: greybox
-www.northwind.com/docs   
+northwind.com/api   
 :::
-
-
 ::: good
 Good example - preferred URL
-
 :::
