@@ -2260,9 +2260,9 @@
 	},
 	{
 		"file": "rules/who-is-in-charge-of-keeping-the-schedule/rule.md",
-		"lastUpdated": "2019-07-25T12:28:01+10:00",
-		"lastUpdatedBy": "Penny Walker",
-		"lastUpdatedByEmail": "PennyWalker@ssw.com.au",
+		"lastUpdated": "2021-04-30T05:00:53.834Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2014-12-31T11:43:13+11:00",
 		"createdBy": "Lars Klint",
 		"createdByEmail": "LarsKlint@ssw.com.au"
@@ -5941,9 +5941,9 @@
 	},
 	{
 		"file": "rules/do-you-know-the-8-steps-to-scrum/rule.md",
-		"lastUpdated": "2021-04-06T00:17:51.398Z",
-		"lastUpdatedBy": "Jack Leerson",
-		"lastUpdatedByEmail": "77082983+JackLeerson@users.noreply.github.com",
+		"lastUpdated": "2021-04-30T05:00:53.835Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2013-08-31T00:25:42+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -8299,9 +8299,9 @@
 	},
 	{
 		"file": "rules/do-you-manage-your-inbound-leads-effectively/rule.md",
-		"lastUpdated": "2021-03-12T00:41:54.016Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-30T05:00:53.835Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2013-10-02T16:05:12+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -11431,9 +11431,9 @@
 	},
 	{
 		"file": "rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating/rule.md",
-		"lastUpdated": "2018-06-12T05:05:08+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-04-30T05:00:53.834Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2011-06-01T15:25:52+10:00",
 		"createdBy": "Adam Stephensen",
 		"createdByEmail": "AdamStephensen@ssw.com.au"
@@ -13582,9 +13582,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-keep-track-of-your-ppc-campaign-spend/rule.md",
-		"lastUpdated": "2021-04-22T23:47:33.466Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-04-30T05:00:53.835Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2015-10-20T08:32:16+11:00",
 		"createdBy": "Brittany Lawrence",
 		"createdByEmail": "BrittanyLawrence@ssw.com.au"
@@ -25522,5 +25522,41 @@
 		"lastUpdated": "2021-04-26T22:52:59.807Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/who-is-in-charge-of-keeping-the-schedule/break-ends-sheet.pdf",
+		"created": "2021-04-30T02:05:08.886Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-30T05:00:53.834Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating/13_Anvil_1408_Customer.pdf",
+		"created": "2021-04-30T02:05:08.886Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-30T05:00:53.834Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-manage-your-inbound-leads-effectively/BriefProposal-PreInitialMeeting.docx",
+		"created": "2021-04-30T02:05:08.886Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-30T05:00:53.835Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-keep-track-of-your-ppc-campaign-spend/Campaign-PPC-Spend.xlsx",
+		"created": "2021-04-30T05:00:02.684Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-04-30T05:00:53.835Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
