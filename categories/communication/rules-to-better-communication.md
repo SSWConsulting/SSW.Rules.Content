@@ -9,7 +9,6 @@ index:
 - do-you-always-call-first-before-emailing
 - how-to-share-a-file-folder-in-sharepoint
 - asking-questions
-- do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
 - do-you-know-you-should-write-notes-when-an-activity-is-going
 
 ---
