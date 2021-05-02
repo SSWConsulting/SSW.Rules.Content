@@ -9,7 +9,8 @@ authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 related: []
-redirects: []
+redirects: 
+- do-you-know-the-client-is-not-_always_-right
 
 ---
 
