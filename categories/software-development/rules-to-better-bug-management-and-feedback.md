@@ -9,6 +9,8 @@ index:
 - provide-details-when-reporting-net-applications-errors
 - how-to-fix-small-web-errors
 - allow-users-to-get-up-to-date-messages
+redirects:
+- rules-to-better-bug-management-and-feedback
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
