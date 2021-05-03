@@ -16,21 +16,15 @@ redirects:
 
 It is important to define your response types.
 
-
 ::: bad  
-![](bad-no-response-types.jpg)  
+![Figure: Bad example – no response types ](bad-no-response-types.jpg)  
 :::
- dd&gt;Figure: Bad example – no response types 
 
 ::: good  
 ![Figure: Good example – Response types (in .NET)](good-response-types.png)  
 :::
 
 <!--endintro-->
-
-
-
-
 
 ```cs
 /// <summary>
@@ -62,17 +56,9 @@ public ActionResult<long> Get(long n)
     }
 }
 ```
-
-
-
-
-::: bad
-Figure: Good example for swashbuckle - Even better if you have .NET Core 2.1 use the strong typed ActionResult – see yellow
-
-
+::: good
+Figure: Good example for swashbuckle - Even better if you have .NET Core 2.1 use the strong typed ActionResult
 :::
-
-
 
 ```cs
 [HttpGet]
@@ -97,12 +83,6 @@ public ActionResult<long> Get(long n)
     }
 }
 ```
-
-
-
-
 ::: good
-Figure: Good example for nswag - Even better if you have .NET Core 2.1 use the strong typed ActionResult – see yellow
-
-
+Figure: Good example for nswag - Even better if you have .NET Core 2.1 use the strong typed ActionResult
 :::
