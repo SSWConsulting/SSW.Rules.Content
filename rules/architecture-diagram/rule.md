@@ -166,16 +166,7 @@ Maintain standards to keep your diagrams consistent:
 
 ### Tip 9: Tip 9 – Where to store Diagrams?
 
-Standardizing where your organisation stores architecture diagrams is important to ensure a consistent experience among developers. There are a few options depending on which source control you use:
-
-Azure DevOps
-* [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
-* [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
-
-GitHub
-* In the repo "docs" folder (recommended)
-* On [GitHub Pages](https://pages.github.com/)
-* An alternative wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
+Standardizing where your organisation stores architecture diagrams is important to ensure a consistent experience among developers. Additionally, You should link to the architecture diagram in your README.md so future developers can locate it easily. We recommend that you store your architecture diagram in the "/docs" folder and use this location as the source code for your chosen wiki.
 
 ### Related links
 
