@@ -20,6 +20,8 @@ Medium to large software development projects have people on them with varying r
 
 Scrum already covers the roles of the **[Developers](https://www.youtube.com/watch?v=vLqCkj0PvtE)**, the **[Product Owner](/do-you-know-the-how-to-be-a-good-product-owner)**, and the **[Scrum Master](/the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team)**, but from a consultancy’s side, there’s also the **Tech Lead** and the **Account Manager** to consider. 
 
+![Figure: 5 roles in a Tech Project](roles-in-bricks-squared.png)
+
 <!--endintro-->
 
 ### Account Manager
