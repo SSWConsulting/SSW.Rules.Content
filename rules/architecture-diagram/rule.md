@@ -166,7 +166,7 @@ Maintain standards to keep your diagrams consistent:
 
 ### Tip 9: Tip 9 – Where to store Diagrams?
 
-Standardizing where your organisation stores architecture diagrams is important to ensure a consistent experience amoung developers. There are a few options depending on which source control you use:
+Standardizing where your organisation stores architecture diagrams is important to ensure a consistent experience among developers. There are a few options depending on which source control you use:
 
 Azure DevOps
 * [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
