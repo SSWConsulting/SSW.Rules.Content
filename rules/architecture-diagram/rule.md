@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
-related: []
+related: 
+- awesome-documentation
 redirects:
 - have-an-architecture-diagram
 - do-you-have-an-architecture-diagram
