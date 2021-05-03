@@ -24,12 +24,8 @@ Be prepared for [inbound calls](/be-prepared-for-inbound-calls). You should have
 Once you have qualified the lead, your aim for the remainder of the call should be to arrange a face-to-face Initial Meeting with the client.
 
 1. Agree on a time for an initial meeting.
-2. Send a [Pre-Initial Meeting](https://rules.ssw.com.au/Documents/BriefProposal-PreInitialMeeting.docx) email.
+2. Send a [Pre-Initial Meeting](BriefProposal-PreInitialMeeting.docx) email.
 3. Send an appointment to the client and everyone attending the meeting (copy the email above).
-
-::: todo
-The link on #2 above should be updated from https://rules.ssw.com.au/Documents/BriefProposal-PreInitialMeeting.docx to wherever the file is going to be under ssw.com.au/rules 
-:::
 
 ![Figure: Send an appointment for your initial meeting](meeting-request.jpg)  
 

@@ -19,9 +19,11 @@ Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 <!--endintro-->
 
-::: good  
-![Figure: This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print this [SSW 8 Steps to Scrum PDF](/8StepsToScrum.pdf) and put it on your "War Room" wall](8Steps\_preview.jpg)
+::: good
+![Figure: This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print out the PDF below and put it on your "War Room" wall](8Steps\_preview.jpg)
 :::
+
+[SSW 8 Steps to Scrum PDF](8StepstoScrum.pdf)
 
 ### 1. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting)
 
