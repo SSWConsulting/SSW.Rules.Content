@@ -88,8 +88,6 @@ This style of documentation is used by modern teams who are Agile only.
 
 There are 7 crucial documents for your project:
 
-
-
 **In the repository (for developers):**
 
 **1. README.md** – Explains the overview of the project and provides links to the rest of the documentation.
@@ -98,33 +96,33 @@ There are 7 crucial documents for your project:
 
 **3. docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
+**4. docs\Business** – explains the purpose of the application, including the problem, goals, and statement of intent.
+
+**5. docs\Technologies-and-Architecture** – Provides a technical overview of the solution, including any 3rd party libraries or utilities, patterns followed (e.g.        [https://rules.ssw.com.au/rules-to-better-clean-architecture](/rules-to-better-clean-architecture)), architecture decisions, etc. This document should cover software architecture and cloud architecture (or on-premises if you’re a dinosaur 🦕), and should \*always\* have a system architecture diagram (see:        [https://rules.ssw.com.au/have-an-architecture-diagram](/have-an-architecture-diagram)), as well as an Azure resources diagram, see: [https://rules.ssw.com.au/azure-resources-diagram/](/azure-resources-visualizing)
+
+**6. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
+
+**7. docs\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see:        [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
+
+
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
 It also means that when a developer makes a change to the code that needs an update to the documentation, the documentation changes can be checked in along with the code in the same commit.
 
 
+**Exposing documentation through a Wiki (for developers and other stakeholders):**
 
-**In the Wiki (for developers and other stakeholders):**
+Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. We recommend that your Wiki is sourced from the repo **docs\\** folder to ensure documentation is kept up to date with development. There are several options for creating a Wiki:
 
+Azure DevOps
+* [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
+* [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
+* An alternative wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
-::: greybox
- **Note:** When using a GitHub Wiki, it’s a separate repository. When using an Azure DevOps Wiki, it’s in the same repository.  
-:::
-
-**4. Wiki\Business** – explains the purpose of the application, including the problem, goals, and statement of intent.
-
-**5. Wiki\Technologies-and-Architecture** – Provides a technical overview of the solution, including any 3rd party libraries or utilities, patterns followed (e.g.        [https://rules.ssw.com.au/rules-to-better-clean-architecture](/rules-to-better-clean-architecture)), architecture decisions, etc. This document should cover software architecture and cloud architecture (or on-premises if you’re a dinosaur 🦕), and should \*always\* have a system architecture diagram (see:        [https://rules.ssw.com.au/have-an-architecture-diagram](/have-an-architecture-diagram)), as well as an Azure resources diagram, see: [https://rules.ssw.com.au/azure-resources-diagram/](/azure-resources-visualizing)
-
-**6. Wiki\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
-
-**7. Wiki\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see:        [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
-
-
-
-Documents to be read or edited by the Product Owner (or other members of the Scrum team) are better kept out of the code repository, in the Wiki. The advantages of this approach are:
-
-* Updating the Wiki does not trigger the CI/CD pipeline
-* The writing experience in the Wiki is more friendly for non-developers (no need to clone the repo and submit a pull request; especially annoying for a minor change)
+GitHub
+* On [GitHub Pages](https://pages.github.com/) (recommended)
+* The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+* An alternative wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 
 **Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see:     [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
