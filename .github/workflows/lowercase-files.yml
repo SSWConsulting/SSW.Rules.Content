@@ -39,9 +39,10 @@ jobs:
         uses: trilom/file-changes-action@v1.2.3
       - name: test
         run: |
-          echo '${{ steps.file_changes.outputs.files_added}}'
-          echo "${steps.file_changes.outputs.files_added#*.}"
-          if [[ $steps.file_changes.outputs.files_added =~ [A-Z] ]]
+          FILE=steps.file_changes.outputs.files_added
+          echo FILE
+          echo "${FILE%.*}"
+          if [[ FILE =~ [A-Z] ]]
           then
             echo 'Uppercase gif... not good'
           fi
