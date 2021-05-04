@@ -40,4 +40,4 @@ jobs:
       - name: test
         run: |
           FILE=steps.file_changes.outputs.files_added
-          echo FILE
+          echo $FILE
