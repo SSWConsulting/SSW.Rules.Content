@@ -39,5 +39,5 @@ jobs:
         uses: trilom/file-changes-action@v1.2.3
       - name: test
         run: |
-          FILE=$steps.file_changes.outputs.files_added
+          FILE=${steps.file_changes.outputs.files_added}
           echo $FILE
