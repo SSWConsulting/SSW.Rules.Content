@@ -37,10 +37,8 @@ Different clients need different levels of support. Offer your clients a few dif
 
 ### Warranty on a Fixed Price Contract
 
-Once the sprint review is complete, the Product Owner has half the sprint period again to report any bugs.
+Once the Sprint Review is complete, the Product Owner has half the sprint period again to report any bugs. The conditions are:
 
-**Note:** The warranty period pauses when the client reports a bug that stops them testing further. The warranty period resumes when a new version is sent. For example, the client may report a bug on a Wednesday morning on "Day 4" of the warranty. The bug is fixed on Friday and a new version is sent late in the afternoon. The warranty period resumes on Monday morning, at "Day 4". Therefore Wednesday through Friday was not included in the warranty.
-
-**Note:** There is no warranty on a time & materials contract.
-
-**Important:** During the warranty period, all feedback from clients should be moved to backlog unless they fall into the [bug definition](/management-is-your-client-clear-on-the-definition-of-a-bug).
+1. The warranty period pauses when the client reports a bug that stops them testing further. The warranty period resumes when a new version is sent. For example, the client may report a bug on a Wednesday morning on "Day 4" of the warranty. The bug is fixed on Friday and a new version is sent late in the afternoon. The warranty period resumes on Monday morning, at "Day 4". Therefore Wednesday through Friday was not included in the warranty.
+2. During the warranty period, all feedback from clients should be moved to backlog unless they fall into the [bug definition](/management-is-your-client-clear-on-the-definition-of-a-bug).
+3. There is no warranty on a time & materials contract.
