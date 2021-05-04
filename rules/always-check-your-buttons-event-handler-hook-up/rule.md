@@ -20,7 +20,7 @@ Sometimes the button's event handler hook-up could be lost by accident, but ther
 
 
 
-```
+```cs
 this.button1 = new System.Windows.Forms.Button();
 this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
 this.button1.Location = new System.Drawing.Point(419, 115);
@@ -40,7 +40,7 @@ Bad Example - the event handler hook-up is lost, so there will be no response af
 
 
 
-```
+```cs
 this.btnResetAll = new System.Windows.Forms.Button();
 this.btnResetAll.FlatStyle = System.Windows.Forms.FlatStyle.System;
 this.btnResetAll.Location = new System.Drawing.Point(417, 410);

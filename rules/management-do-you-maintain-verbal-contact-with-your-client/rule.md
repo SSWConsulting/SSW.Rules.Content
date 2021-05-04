@@ -22,13 +22,11 @@ With the convenience and cost-effectiveness of e-mail, it is tempting to resort 
 
 ::: greybox
     "Hi Bill,
-We will run your project in an agile manner. Expect emails and phone calls that we need responses to. These are examples:
+We will run your project using Scrum. Expect emails and phone calls that we need responses to. These are examples:
 
-    * The first step - we will send you a release plan to approve. Once approved we can begin work
-    * Every morning - expect a 'Stand up meeting' call or 'Morning Goals' email with a list of tasks the developers will be working on that day
-    * Every time a task is done - you will get an email with information about what was done, often with screen shots and code snippets"
-    * If you need to change the priority of a task - email us and we will consider it for inclusion either the next release, or a subsequent one, depending on its importance"
-
+    * The first step - we willagree on a Sprint Plan at the beginning of each sprint. 
+    * Every morning - expect a Daily Scrum meeting or video call with a list of tasks the developers will be working on that day
+    * Every time a task is done - you will get an email with information about what was done, often with screen shots and code snippets
 
 :::
     Avoid going more than 3 days without a phone call to your client.
@@ -39,6 +37,5 @@ We will run your project in an agile manner. Expect emails and phone calls that 
     "Hi, I'm Andrew. I'll be taking over from Mark on your project. Mark has filled me in on the specifics and I'm keen to get involved."
 
 :::
-
 
 If you use the phone instead of email when it is appropriate, you maintain an open channel of verbal communication with your client. This helps to break down communication barriers, lets the client know that you are friendly and involved, and makes them feel confident in your ability to deliver the project.
