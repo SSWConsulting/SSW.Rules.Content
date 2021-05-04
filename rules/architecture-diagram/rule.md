@@ -12,6 +12,7 @@ authors:
   url: https://ssw.com.au/people/matt-goldman
 related: 
 - awesome-documentation
+- azure-resources-diagram
 redirects:
 - have-an-architecture-diagram
 - do-you-have-an-architecture-diagram
@@ -171,6 +172,4 @@ Standardizing where your organisation stores architecture diagrams is important 
 
 ### Related links
 
-
-* [Do you have an Azure resources diagram?](/azure-resources-visualizing)
 * [8 Tips to Better Architecture Diagrams](https://adamcogan.com/2020/10/07/8-tips-to-better-architecture-diagrams/)
