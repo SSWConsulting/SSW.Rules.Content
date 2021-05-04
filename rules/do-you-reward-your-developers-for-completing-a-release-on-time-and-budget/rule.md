@@ -17,16 +17,22 @@ redirects:
 When your team has completed an important milestone successfully, they should be rewarded with a morale boosting event such as lunch, dinner, the movies or bowling.
 
 <!--endintro-->
+  
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Team and Client |
+| Cc:      | Accountant and Account Manager |
+| Subject: | Project completed on budget and customer happy - reward! |  
+::: email-content  
 
-To: Team and Client
-CC: Accountant and Account Manager
-| **Subject** : "Project completed on budget and customer happy - reward!"  
-
-Hey team,
+### Hey team,
 
 Congratulations on completing the project on time!  We will celebrate by going for lunch together at Bistro Paris on Friday!  We have a budget of $50 per team member!
 
-<Client Name>,
-If you are available it would be great if you could join us.  Meet at the SSW office in Neutral Bay at 12:45pm. |
-| --- |
-| **Figure: Email to accountant/team members and client informing of project success and reward event**  |
+### Hi <Client Name>,
+If you are available it would be great if you could join us.  Meet at the SSW office in Neutral Bay at 12:45pm. 
+
+:::  
+:::  
+**Figure: Email to accountant/team members and client informing of project success and reward event**  |
