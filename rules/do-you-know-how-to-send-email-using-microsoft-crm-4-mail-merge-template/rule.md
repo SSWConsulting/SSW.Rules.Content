@@ -3,13 +3,14 @@ type: rule
 archivedreason: 
 title: Do you know how to send an email using Microsoft Dynamics 365 mail merge templates?
 guid: 83649932-3303-4280-a81d-90f2bcc83769
-uri: do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template
+uri: how-to-send-email-using-microsoft-dynamics-365-mail-merge-template
 created: 2013-03-13T19:30:03.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects: 
+- do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template
 
 ---
 
