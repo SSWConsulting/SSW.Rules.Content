@@ -25,7 +25,7 @@ Just like a car, applications need servicing and tuning every now and then to st
 
 <!--endintro-->
 
-So you’ve done 10 good sprints and the [software has been delivered (ready)](/have-a-definition-of-ready) and the team is winding down. It will need maintenance.
+So you’ve done 10 good Sprints and the [software has been delivered (ready)](/have-a-definition-of-ready) and the team is winding down. It will need maintenance.
 
 Different clients need different levels of support. Offer your clients a few different support offerings.
 

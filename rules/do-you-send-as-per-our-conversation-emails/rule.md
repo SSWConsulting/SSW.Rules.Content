@@ -24,7 +24,7 @@ redirects:
 
 ---
 
-Implement a policy of following up  **important**  conversations (usually by phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
+Implement a policy of following up **important** conversations (usually by phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
 
 When possible, the even better way of confirming requirements is to actually [share screens](/do-you-share-screens-when-working-remotely) of the drafted requirements and add the words [“<mark>checked by XXX</mark>”](/do-you-know-when-to-do-use-checked-by-xxx).
 
@@ -102,4 +102,42 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 * I called earlier but couldn't get through.
 * Hey I just called earlier to say...
 
-**Video**  - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https&#58;//www.youtube.com/watch?v=LAqRokqq4jI)
+#### Other cases exist, include your reason at the top
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | John |
+| Subject: | RE: PowerBi error |  
+::: email-content  
+
+### Hi John,  
+
+![Figure: Screenshot of Power BI error](powerbi-example.jpg)
+Apologies for the brevity. Am still in the hospital but wanted to check this.
+
+:::  
+:::  
+::: bad
+Figure: Bad example - reason at the bottom
+:::
+
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | John |
+| Subject: | RE: PowerBi error |  
+::: email-content  
+
+### Hi John,  
+
+Apologies for the brevity. Am still in the hospital but wanted to check this.
+![Figure: Screenshot of Power BI error](powerbi-example.jpg)
+
+:::  
+:::  
+::: good
+Figure: Good example - reason at the top
+:::
+
+**Video** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
