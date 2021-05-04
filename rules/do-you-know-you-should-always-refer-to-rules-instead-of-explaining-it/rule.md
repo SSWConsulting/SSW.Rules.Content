@@ -32,3 +32,4 @@ Get the URL to the standard from our intranet, if the standard is unclear, check
 :::
 ::: good
 Good Example: Refer to SharePoint rules
+:::
