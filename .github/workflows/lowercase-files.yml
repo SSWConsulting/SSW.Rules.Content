@@ -41,8 +41,3 @@ jobs:
         run: |
           FILE=steps.file_changes.outputs.files_added
           echo FILE
-          echo "${FILE%.*}"
-          if [[ FILE =~ [A-Z] ]]
-          then
-            echo 'Uppercase gif... not good'
-          fi
