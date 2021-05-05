@@ -10,4 +10,4 @@ index:
 
 ---
  
-
+What is mail merge? Mail merge lets you incorporate data from CRM and create customisable documents (in this case, email templates) that can be personalised and sent to multiple contacts or marketing lists.
