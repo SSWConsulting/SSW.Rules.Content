@@ -15787,9 +15787,9 @@
 	},
 	{
 		"file": "rules/how-to-fix-small-web-errors/rule.md",
-		"lastUpdated": "2020-11-18T16:35:06+11:00",
-		"lastUpdatedBy": "Matt Goldman",
-		"lastUpdatedByEmail": "MattGoldman@ssw.com.au",
+		"lastUpdated": "2021-05-05T05:58:37.170Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2016-11-17T03:22:25+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -25596,13 +25596,12 @@
 		"lastUpdatedByEmail": "79124359+oliviawestmacottssw@users.noreply.github.com"
 	},
 	{
-
 		"file": "rules/how-to-insert-crm-data-field-in-your-template/insert-data-field-1.png",
 		"created": "2021-05-04T22:53:55.361Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-05-04T22:53:55.361Z",
-    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
@@ -25622,7 +25621,7 @@
 		"lastUpdated": "2021-05-04T22:53:55.362Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  },
+	},
 	{
 		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-2.png",
 		"created": "2021-05-04T22:12:06.794Z",
@@ -25665,10 +25664,10 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-05-04T22:12:06.794Z",
-    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  },
-  {
+	},
+	{
 		"file": "rules/do-you-know-how-to-edit-a-mail-merge-template/select-email-template.png",
 		"created": "2021-05-04T21:08:55.154Z",
 		"createdBy": "Tiago Araújo [SSW]",
