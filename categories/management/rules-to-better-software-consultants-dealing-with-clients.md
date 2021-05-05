@@ -10,6 +10,7 @@ index:
 - do-you-get-paid-for-estimates
 - do-you-know-some-of-the-drawbacks-of-a-fixed-price-fixed-scope-contract
 - for-existing-clients-do-you-always-call-them-before-sending-a-quote
+- management-do-you-maintain-verbal-contact-with-your-client
 - do-you-know-the-difference-between-fixed-price-and-time-and-materials-work
 - do-you-know-the-difference-between-ad-hoc-work-and-managed-work
 - do-you-know-how-to-be-pushy-when-you-need-to-be
