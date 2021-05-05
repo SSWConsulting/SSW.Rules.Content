@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: CheckExtensionCase
 
 # Controls when the action will run. 
 on:
@@ -49,6 +49,6 @@ jobs:
               if [ $pureFile == "GIF" ] || [ $pureFile == "SVG" ];
               then
                   echo 'FAIL FAIL FAIL FAIL FAIL FAIL'
-                  exit 1
+                  exit 69
               fi
           done
