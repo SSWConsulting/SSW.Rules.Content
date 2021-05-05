@@ -13,7 +13,6 @@ index:
 - management-do-you-enforce-deadlines-have-a-project-release-plan-a-debrief-and-a-mark-10
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - do-you-provide-ongoing-support
-- management-do-you-maintain-verbal-contact-with-your-client
 - management-do-you-spec-in-bite-sized-pieces
 - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 - do-you-conduct-market-research-via-the-web
