@@ -41,14 +41,17 @@ jobs:
         run: |
           FILES=${{steps.file_changes.outputs.files_added}}
 
-          IFS=", " read -a myarray <<< $FILES
+          if [ ${#FILES} -ge 3 ];
+          then
+              IFS=", " read -a myarray <<< $FILES
 
-          for filename in "${myarray[@]}" 
-          do
-              pureFile=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
-              if [ $pureFile == "GIF" ] || [ $pureFile == "SVG" ];
-              then
-                  echo 'FAIL FAIL FAIL FAIL FAIL FAIL'
-                  exit 69
-              fi
-          done
+              for filename in "${myarray[@]}" 
+              do
+                  pureFile=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
+                  if [ $pureFile == "GIF" ] || [ $pureFile == "SVG" ];
+                  then
+                      echo 'FAIL FAIL FAIL FAIL FAIL FAIL'
+                      exit 1
+                  fi
+              done
+          fi
