@@ -50,7 +50,7 @@ jobs:
                   pureFile=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
                   if [ $pureFile == "GIF" ] || [ $pureFile == "SVG" ];
                   then
-                      echo 'FAIL FAIL FAIL FAIL FAIL FAIL'
+                      echo "Use lowercase file extensions for GIF's and SVG's"
                       exit 1
                   fi
               done
