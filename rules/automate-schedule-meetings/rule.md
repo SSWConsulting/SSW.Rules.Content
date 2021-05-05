@@ -78,7 +78,7 @@ Cortana then handles all the back-and-forth emails to find a time when everyone 
 
 ![Figure: Microsoft Scheduler – Fully works on mobile phone](cortana-scheduler-mobile.jpg)  
 
-![Figure: The helpful tool Scheduler has a portal too at [https://calendar.help/user/dashboard](https://calendar.help/user/dashboard)](cortana.jpg)
+![Figure: The helpful tool Scheduler has a portal too at](cortana.jpg)[https://calendar.help/user/dashboard](https://calendar.help/user/dashboard)
 
 ### FindTime
 
