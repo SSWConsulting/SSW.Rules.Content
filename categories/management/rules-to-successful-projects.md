@@ -5,8 +5,8 @@ guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
 - do-you-understand-the-value-of-consistency
-- autonomy-mastery-and-purpose
 - do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+- autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
 - do-you-pursue-short-or-long-term-relationships-with-clients
 - management-is-your-client-clear-on-how-you-manage-projects
