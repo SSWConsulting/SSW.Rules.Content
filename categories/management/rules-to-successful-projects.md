@@ -8,7 +8,7 @@ index:
 - do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
 - autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
-- management-is-your-client-clear-on-how-you-manage-projects
+- do-you-pursue-short-or-long-term-relationships-with-clients
 - management-do-you-enforce-deadlines-have-a-project-release-plan-a-debrief-and-a-mark-10
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - do-you-provide-ongoing-support
