@@ -39,8 +39,7 @@ jobs:
         uses: trilom/file-changes-action@v1.2.3
       - name: test
         run: |
-          
-          FILES=$( cat $HOME/files_added.json )
+          FILES='["rules/Do-you-have-a-YOLO-Day/2021-03-30_15-44-49.png", "test.SVG"]'
 
           IFS=", " read -a myarray <<< $FILES
 
