@@ -1630,27 +1630,27 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-edit-a-mail-merge-template/rule.md",
-		"lastUpdated": "2017-07-05T11:55:17+10:00",
-		"lastUpdatedBy": "Ulysses Maclaren",
-		"lastUpdatedByEmail": "ulyssesmaclaren@ssw.com.au",
+		"lastUpdated": "2021-05-04T21:07:40.340Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-03-14T06:25:16+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/how-to-insert-crm-data-field-in-your-template/rule.md",
-		"lastUpdated": "2017-07-12T03:24:54+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-04T22:47:02.414Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-03-14T06:28:58+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/rule.md",
-		"lastUpdated": "2017-07-05T12:02:48+10:00",
-		"lastUpdatedBy": "Ulysses Maclaren",
-		"lastUpdatedByEmail": "ulyssesmaclaren@ssw.com.au",
+		"lastUpdated": "2021-05-04T22:12:51.443Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-03-14T06:38:26+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -13285,9 +13285,9 @@
 	},
 	{
 		"file": "rules/know-that-im-interrupts/rule.md",
-		"lastUpdated": "2019-02-06T04:44:29+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-04T20:23:15.454Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-05T12:30:57+11:00",
 		"createdBy": "Joanna Feely",
 		"createdByEmail": "JoannaFeely@ssw.com.au"
@@ -18874,9 +18874,9 @@
 	},
 	{
 		"file": "rules/answer-im-questions-in-order/rule.md",
-		"lastUpdated": "2019-01-18T01:42:56+11:00",
-		"lastUpdatedBy": "Adam Cogan",
-		"lastUpdatedByEmail": "AdamCogan@ssw.com.au",
+		"lastUpdated": "2021-05-04T20:21:47.149Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-12-12T06:02:11+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -25596,11 +25596,21 @@
 		"lastUpdatedByEmail": "79124359+oliviawestmacottssw@users.noreply.github.com"
 	},
 	{
+
 		"file": "rules/how-to-insert-crm-data-field-in-your-template/insert-data-field-1.png",
 		"created": "2021-05-04T22:53:55.361Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-05-04T22:53:55.361Z",
+    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-1.png",
+		"created": "2021-05-04T22:12:06.793Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-04T22:12:06.793Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
@@ -25610,6 +25620,60 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-05-04T22:53:55.362Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+	{
+		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-2.png",
+		"created": "2021-05-04T22:12:06.794Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-04T22:12:06.794Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-3.png",
+		"created": "2021-05-04T22:12:06.794Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-04T22:12:06.794Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-4.png",
+		"created": "2021-05-04T22:12:06.794Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-04T22:12:06.794Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-5.png",
+		"created": "2021-05-04T22:12:06.794Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-04T22:12:06.794Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-6.png",
+		"created": "2021-05-04T22:12:06.794Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-04T22:12:06.794Z",
+    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/do-you-know-how-to-edit-a-mail-merge-template/select-email-template.png",
+		"created": "2021-05-04T21:08:55.154Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-04T21:08:55.154Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
