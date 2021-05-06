@@ -22,6 +22,41 @@ Azure Key Vault is great for keeping your secrets secret because you can control
 
 <!--endintro-->
 
+```cs
+public class MyDataService
+{
+    private async Task<string> GetCustomerDetails(CustomerDetailsQuery request)
+    {
+        var sql = @"SELECT * FROM CustomerDetails WHERE CustomerId = @auctionId";
+        await using var db = new SqlConnection("Server=localhost;Database=Northwind;Trusted_connection=false;user id=sa;pwd=admin");
+        return (await db.QueryAsync<string>(sql,
+            new
+            {
+                customerId = request.CustomerId
+            })
+            ).SingleOrDefault();
+    }
+}
+```
+
+::: bad
+Bad Example - Option #1 Connection strings do not belong in your code, anyone seeing this could access your database
+:::
+
+```js
+// In appsettings.json
+{
+  "ApplicationSecrets": {
+    "LicenceKey": "ABCD-1234-HIJK",
+    "ConnectionString": "Server=localhost;Database=Northwind;Trusted_connection=false;user id=sa;pwd=admin"
+  }
+}
+```
+
+::: bad
+Bad Example - Option #2 Connection strings do not belong in your appsettings.json either, once committed to version control they are hard to remove
+:::
+
 ::: good
 ![Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
 :::
@@ -62,7 +97,7 @@ public class MyDataService
 ```
 
 ::: good
-Referencing a strongly typed connection string defined in application settings
+Good Example - Option #3 Referencing a strongly typed connection string defined in application settings
 :::
 
 ```cs
@@ -125,7 +160,9 @@ Consuming strongly typed application secrets
 
 Then you can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via 'IConfiguration'. 
 
-For an example, refer to this [repository](https://github.com/william-liebenberg/keyvault-example).
+::: good
+Good Example - Option #4 For an example, refer to this [repository](https://github.com/william-liebenberg/keyvault-example).
+:::
 
 `youtube: https://www.youtube.com/embed/-aTlON-UCVM`
 
