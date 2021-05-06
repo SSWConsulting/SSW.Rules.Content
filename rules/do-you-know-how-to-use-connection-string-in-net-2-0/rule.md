@@ -24,6 +24,8 @@ Accessing your application configuration and secret values is easily done via th
 
 However, this convenience can lead you down the path of loosely typed secret handling (everything is a `string`) and can cause maintenance overhead. This is bad!
 
+![Figure: Keep your secrets safe](lockedBox.png)
+
 Luckily there is a better way to avoid these issues and we are able to consume our configuration and secrets with strongly typed classes.
 
 <!--endintro-->
