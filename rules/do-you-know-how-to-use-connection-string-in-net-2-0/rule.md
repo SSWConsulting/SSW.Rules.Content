@@ -60,31 +60,21 @@ Bad Example - Option #1 Connection strings do not belong in your code, anyone se
 ```
 
 ::: bad
-Bad Example - Option #2 Connection strings do not belong in your appsettings.json either, once committed to version control they are hard to remove
+Bad Example - Option #2 Connection strings do not belong in your `appsettings.json` either, once committed to version control they are hard to remove
 :::
-
-An alternative to putting secrets into `appsettings.json` is via [User Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
-
-User secrets provide you with a secret file (called `secrets.json`) that is stored on your local machine away from the current code repository and cannot be committed by accident.
-
-To access your User Secrets:
-
-1. Right-click your project in Visual Studio
-2. Select Manage User Secrets
-3. Edit the content of your `secrets.json` file
-4. Save the file
-
-![OK Example - Option #3 User secrets (secrets.json)](user-secrets.png)
 
 ```cs
 public class MyDataService
 {
     public readonly string _connectionString;
+    
     public MyDataService(IConfiguration config)
     {
         // In Production, your connection string will be read from Key Vault instead of appsettings.json
+	// Note: we are grabbing the connection string setting directly from config as a string using another magic string - this is bad!
         _connectionString = config["ApplicationSecrets:SqlConnectionString"];
     }
+    
     private async Task<string> GetCustomerDetails(CustomerDetailsQuery request)
     {
         var sql = @"SELECT * FROM CustomerDetails WHERE CustomerId = @auctionId";
@@ -100,8 +90,21 @@ public class MyDataService
 ```
 
 ::: bad
-Bad Example - Option #4 Referencing a loosely typed connection string defined in application settings
+Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
 :::
+
+An alternative to putting secrets into `appsettings.json` is via [User Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
+
+User secrets provide you with a secret file (called `secrets.json`) that is stored on your local machine away from the current code repository and cannot be committed by accident.
+
+To access your User Secrets:
+
+1. Right-click your project in Visual Studio
+2. Select Manage User Secrets
+3. Edit the content of your `secrets.json` file
+4. Save the file
+
+![Figure: OK Example - Option #4 User secrets (secrets.json)](user-secrets.png)
 
 ```cs
 // In ApplicationSecrets.cs
@@ -128,13 +131,14 @@ public void ConfigureServices(IServiceCollection services)
 ```
 
 ::: good
-Binding the application secrets section an instance of the `ApplicationSecrets` class
+Binding the `ApplicationSecrets` section (from `appsettings.json` or `secrets.json`) to an instance of the `ApplicationSecrets` class
 :::
 
 ```cs
 // In MyDataService.cs
 public class MyDataService
 {
+    // Note how we use a strongly typed class here to contain all our settings - this is good!
     public readonly ApplicationSecrets _settings;
     
     public MyDataService(IOptions<ApplicationSecrets> settings)
@@ -206,7 +210,7 @@ In order to access the secrets in Key Vault, you (as User) or an Application mus
 Applications require at least the LIST and GET permissions, otherwise the Key Vault integration will fail to retrieve secrets.
 
 ::: good
-![Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
+![Figure: Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
 :::
 
 Azure Key Vault and App Services can easily trust each other by making use of System assigned identities. Azure takes care of all the complicated logic behind the scenes for these two services to communicate with each other - reducing the complexity for application developers.
@@ -216,7 +220,7 @@ So, make sure that your Azure App Service has the **System assigned identity** e
 Once enabled, you can create a Key Vault Access policy to give your App Service permission to retrieve secrets from the Key Vault.
 
 ::: good
-![Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies](identity.png)
+![Figure: Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies](identity.png)
 :::
 
 Adding secrets into Key Vault is easy.
@@ -227,17 +231,17 @@ Adding secrets into Key Vault is easy.
 4. Click **Create**
 
 ::: good
-![Creating the SqlConnectionString secret in Key Vault.](add-a-secret.png)
+![Figure: Creating the SqlConnectionString secret in Key Vault.](add-a-secret.png)
 :::
 
 ::: good
-![SqlConnectionString stored in Key Vault. Note the ApplicationSecrets section is indicated by ApplicationSecrets-- instead of ApplicationSecrets:](secrets.png)
+![Figure: SqlConnectionString stored in Key Vault. Note the ApplicationSecrets section is indicated by ApplicationSecrets-- instead of ApplicationSecrets:](secrets.png)
 :::
 
 As a result of storing secrets in Key Vault, your Azure App Service configuration (app settings) will be nice and clean. You should not see any fields that contain passwords or keys. Only basic configuration values.
 
 ::: good
-![Your WebApp Configuration - no passwords or secrets, just a name of the Key vault that it needs to access](configuration.png)
+![Figure: Your WebApp Configuration - no passwords or secrets, just a name of the Key vault that it needs to access](configuration.png)
 :::
 
 `youtube: https://www.youtube.com/embed/-aTlON-UCVM`
