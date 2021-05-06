@@ -8,6 +8,10 @@ created: 2009-05-08T08:53:04.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- title: Calum Simpson
+  url: https://www.ssw.com.au/people/calum-simpson
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
 related: []
@@ -16,12 +20,13 @@ redirects:
 
 ---
 
-There are multiple configuration providers available such as the JSON file provider (`appsettings.json` and `appsettings.*.json`), Environment variables, Commandline arguments, and also Azure Key Vault.
+Accessing your application configuration and secret values is easily done via the `IConfiguration` interface (from `Microsoft.Extensions.Configuration.Abstractions`).
 
-All the configu `IConfiguration` ...
+However, this convenience can lead you down the path of loosely typed secret handling (everything is a `string`) and can cause maintenance overhead. This is bad!
+
+Luckily there is a better way to avoid these issues and we are able to consume our configuration and secrets with strongly typed classes.
 
 <!--endintro-->
-
 
 ```cs
 public class MyDataService
@@ -58,6 +63,19 @@ Bad Example - Option #1 Connection strings do not belong in your code, anyone se
 Bad Example - Option #2 Connection strings do not belong in your appsettings.json either, once committed to version control they are hard to remove
 :::
 
+An alternative to putting secrets into `appsettings.json` is via [User Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
+
+User secrets provide you with a secret file (called `secrets.json`) that is stored on your local machine away from the current code repository and cannot be committed by accident.
+
+To access your User Secrets:
+
+1. Right-click your project in Visual Studio
+2. Select Manage User Secrets
+3. Edit the content of your `secrets.json` file
+4. Save the file
+
+![OK Example - Option #3 User secrets (secrets.json)](user-secrets.png)
+
 ```cs
 public class MyDataService
 {
@@ -82,7 +100,7 @@ public class MyDataService
 ```
 
 ::: bad
-Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
+Bad Example - Option #4 Referencing a loosely typed connection string defined in application settings
 :::
 
 ```cs
@@ -119,10 +137,10 @@ public class MyDataService
 {
     public readonly ApplicationSecrets _settings;
     
-    public MyDataService(ApplicationSecrets settings)
+    public MyDataService(IOptions<ApplicationSecrets> settings)
     {
         // In Production, your connection string will be read from Key Vault
-        _settings = settings;
+        _settings = settings.Value;
     }
     
     private async Task<string> GetCustomerDetails(CustomerDetailsQuery request)
@@ -145,11 +163,11 @@ Consuming strongly typed application secrets
 
 ## Integrating Azure Key Vault into your ASP.NET Core application
 
-In .NET 5, we use **Azure Key Vault** to securely store our connection strings away from prying eyes.
+In .NET 5 we can use **Azure Key Vault** to securely store our connection strings away from prying eyes.
 
 Azure Key Vault is great for keeping your secrets secret because you can control access to the vault via Access Policies. The access policies allows you to add Users and Applications with customized permissions. Make sure you enable the System assigned identity for your App Service, this is required for adding it to Key Vault via Access Policies.
 
-You can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via 'IConfiguration'. 
+You can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via `IConfiguration`. 
 
 ```cs
 public static IHostBuilder CreateHostBuilder(string[] args) =>
@@ -178,7 +196,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 ```
 
 ::: good
-Good Example - Option #4 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example).
+Good Example - Option #5 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example).
 :::
 
 ### Setting up your Key Vault correctly
