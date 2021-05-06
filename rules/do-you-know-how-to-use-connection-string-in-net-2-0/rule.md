@@ -16,11 +16,12 @@ redirects:
 
 ---
 
-In .NET 5, we use **Azure Key Vault** to securely store our connection strings away from prying eyes.
+There are multiple configuration providers available such as the JSON file provider (`appsettings.json` and `appsettings.*.json`), Environment variables, Commandline arguments, and also Azure Key Vault.
 
-Azure Key Vault is great for keeping your secrets secret because you can control access to the vault via Access Policies. The access policies allows you to add Users and Applications with customized permissions. Make sure you enable the System assigned identity for your App Service, this is required for adding it to Key Vault via Access Policies.
+All the configu `IConfiguration` ...
 
 <!--endintro-->
+
 
 ```cs
 public class MyDataService
@@ -55,22 +56,6 @@ Bad Example - Option #1 Connection strings do not belong in your code, anyone se
 
 ::: bad
 Bad Example - Option #2 Connection strings do not belong in your appsettings.json either, once committed to version control they are hard to remove
-:::
-
-::: good
-![Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
-:::
-
-::: good
-![Your WebApp Configuration - no passwords or secrets, just a name of the Key vault that it needs to access](configuration.png)
-:::
-
-::: good
-![Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies](identity.png)
-:::
-
-::: good
-![SqlConnectionString stored in Key Vault. Note the ApplicationSecrets section is indicated by ApplicationSecrets-- instead of ApplicationSecrets:](secrets.png)
 :::
 
 ```cs
@@ -158,10 +143,83 @@ public class MyDataService
 Consuming strongly typed application secrets
 :::
 
-Then you can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via 'IConfiguration'. 
+## Integrating Azure Key Vault into your ASP.NET Core application
+
+In .NET 5, we use **Azure Key Vault** to securely store our connection strings away from prying eyes.
+
+Azure Key Vault is great for keeping your secrets secret because you can control access to the vault via Access Policies. The access policies allows you to add Users and Applications with customized permissions. Make sure you enable the System assigned identity for your App Service, this is required for adding it to Key Vault via Access Policies.
+
+You can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via 'IConfiguration'. 
+
+```cs
+public static IHostBuilder CreateHostBuilder(string[] args) =>
+	Host.CreateDefaultBuilder(args)
+		.ConfigureWebHostDefaults(webBuilder =>
+		{
+			webBuilder
+				.UseStartup<Startup>()
+				.ConfigureAppConfiguration((context, config) =>
+				{
+					if (context.HostingEnvironment.IsProduction())
+					{
+						IConfigurationRoot builtConfig = config.Build();
+
+						// If running as "Production" from our local environment (not in Azure), then use the Azure CLI credential provider. This means you
+						// have to log in via `az login` on your command line before running the local app as Production.
+            // To run as a "Production" app locally, change the ASPNETCORE_ENVIRONMENT value to "Production".
+						TokenCredential cred = context.HostingEnvironment.IsProduction() ? new DefaultAzureCredential(false) : new AzureCliCredential();
+
+						var keyvaultUri = new Uri($"https://{builtConfig["KeyVaultName"]}.vault.azure.net/");
+						var secretClient = new SecretClient(keyvaultUri, cred);
+						config.AddAzureKeyVault(secretClient, new KeyVaultSecretManager());
+					}
+				});
+		});
+```
 
 ::: good
-Good Example - Option #4 For an example, refer to this [repository](https://github.com/william-liebenberg/keyvault-example).
+Good Example - Option #4 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example).
+:::
+
+### Setting up your Key Vault correctly
+
+In order to access the secrets in Key Vault, you (as User) or an Application must have been granted permission via a Key Vault Access Policy.
+
+Applications require at least the LIST and GET permissions, otherwise the Key Vault integration will fail to retrieve secrets.
+
+::: good
+![Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
+:::
+
+Azure Key Vault and App Services can easily trust each other by making use of System assigned identities. Azure takes care of all the complicated logic behind the scenes for these two services to communicate with each other - reducing the complexity for application developers.
+
+So, make sure that your Azure App Service has the **System assigned identity** enabled.
+
+Once enabled, you can create a Key Vault Access policy to give your App Service permission to retrieve secrets from the Key Vault.
+
+::: good
+![Enabling the System assigned identity for your App Service - this is required for adding it to Key Vault via Access Policies](identity.png)
+:::
+
+Adding secrets into Key Vault is easy.
+
+1. Create a new secret by clicking on the **Generate/Import** button
+2. Provide the **name**
+3. Provide the secret **value**
+4. Click **Create**
+
+::: good
+![Creating the SqlConnectionString secret in Key Vault.](add-a-secret.png)
+:::
+
+::: good
+![SqlConnectionString stored in Key Vault. Note the ApplicationSecrets section is indicated by ApplicationSecrets-- instead of ApplicationSecrets:](secrets.png)
+:::
+
+As a result of storing secrets in Key Vault, your Azure App Service configuration (app settings) will be nice and clean. You should not see any fields that contain passwords or keys. Only basic configuration values.
+
+::: good
+![Your WebApp Configuration - no passwords or secrets, just a name of the Key vault that it needs to access](configuration.png)
 :::
 
 `youtube: https://www.youtube.com/embed/-aTlON-UCVM`
