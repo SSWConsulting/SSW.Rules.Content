@@ -9136,9 +9136,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/rule.md",
-		"lastUpdated": "2021-05-03T16:19:07.154Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-06T02:48:17.129Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com",
 		"created": "2009-12-04T19:40:40+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -25675,5 +25675,50 @@
 		"lastUpdated": "2021-05-04T21:08:55.154Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/access_policies.png",
+		"created": "2021-05-06T02:48:17.128Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-06T02:48:17.128Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/configuration.png",
+		"created": "2021-05-06T02:48:17.128Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-06T02:48:17.128Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/identity.png",
+		"created": "2021-05-06T02:48:17.129Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-06T02:48:17.129Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/secrets.png",
+		"created": "2021-05-06T02:48:17.129Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-06T02:48:17.129Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/viewing_secret.png",
+		"created": "2021-05-06T02:48:17.129Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-06T02:48:17.129Z",
+		"lastUpdatedBy": "Calum Simpson [SSW]",
+		"lastUpdatedByEmail": "calumjs@live.com"
 	}
 ]
