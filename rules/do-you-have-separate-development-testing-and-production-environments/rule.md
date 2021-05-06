@@ -30,7 +30,7 @@ Whenever an application has a database, have a visual indicator. I recommend a d
 
 
 Note: The Yellow might have been Orange (kind of like traffic lights) but the color palette in Word doesn't give Orange.
-![colors in Word color pallete](WordColorPallete.gif) **Figure: colors in Word color palette** 
+![colors in Word color pallete](WordColorPallete.GIF) **Figure: colors in Word color palette** 
 This prevents testers from accidentally entering test data into the production version.
 
 **Windows Forms Tip:** Implement in the base form in the header 

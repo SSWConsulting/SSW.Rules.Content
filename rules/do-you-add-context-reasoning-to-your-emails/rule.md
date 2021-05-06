@@ -21,7 +21,7 @@ When sending an email it is very important to give context and reasoning. This w
 
 
 ::: bad  
-![Figure: Bad Example - There is no context or reasoning](BadContextReasoning.gif)  
+![Figure: Bad Example - There is no context or reasoning](BadContextReasoning.GIF)  
 :::
 
 

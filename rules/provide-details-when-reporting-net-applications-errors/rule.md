@@ -18,7 +18,7 @@ redirects:
 
 The text within the 'Details' button is more useful for debugging and locating the problem.
 
-![Figure: Bug details window](../../assets/DotNetDebug2.gif)  
+![Figure: Bug details window](../../assets/DotNetDebug2.GIF)  
 
 
 ::: greybox
