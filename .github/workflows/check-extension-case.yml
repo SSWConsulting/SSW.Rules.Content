@@ -24,11 +24,15 @@ jobs:
 
               for filename in "${myarray[@]}" 
               do
-                  pureFile=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
-                  if [ $pureFile == "GIF" ] || [ $pureFile == "SVG" ];
+                  fileExtension=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
+                  lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
+                  if [ $lowercaseFileExtension == 'gif' ] || [ $lowercaseFileExtension == 'svg' ]
                   then
-                      echo "Use lowercase file extensions for GIF's and SVG's"
-                      exit 1
+                      if ! [[ $fileExtension =~ ^[[:lower:]]+$ ]];
+                      then
+                          echo "Use lowercase file extensions"
+                          exit 1
+                      fi
                   fi
               done
           fi
