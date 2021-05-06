@@ -1,15 +1,16 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the client is not _always_ right?
+title: Do you know the client is not "always" right?
 guid: 2b63cedb-7601-449a-8847-f43e068906ab
-uri: do-you-know-the-client-is-not-_always_-right
+uri: do-you-know-the-client-is-not-always-right
 created: 2010-08-16T02:43:27.0000000Z
 authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 related: []
-redirects: []
+redirects: 
+- do-you-know-the-client-is-not-_always_-right
 
 ---
 

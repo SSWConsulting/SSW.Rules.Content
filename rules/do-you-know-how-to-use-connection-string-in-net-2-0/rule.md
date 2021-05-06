@@ -11,13 +11,13 @@ authors:
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
 related: []
-redirects: []
+redirects: 
+- do-you-know-how-to-use-connection-string-in-net-2-0
 
 ---
 
 In .NET 1.1 we used to store our connection string in a configuration file like this:   
 <!--endintro-->
-
 
 ```xml
 <configuration>
@@ -28,16 +28,13 @@ In .NET 1.1 we used to store our connection string in a configuration file like 
 </configuration>
 ```
 
-
 and access this connection string in code like this:
-
 
 ```cs
 SqlConnection sqlConn = 
 new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
-
 ::: bad
 Bad example - old ASP.NET 1.1 way, untyped and prone to error.
 :::
@@ -54,7 +51,6 @@ Step 2: Open up the generated App.config under your common project. E.g. Northwi
 
 Step 3: ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
 
-
 ```xml
 <configuration>
       <connectionStrings>
@@ -65,16 +61,12 @@ Step 3: ~~Copy the content into your entry applications app.config. E.g. Northwi
         </connectionStrings>
  </configuration>
 ```
-
-
 Then you can access the connection string like this in C#
-
 
 ```cs
 SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```
-
 ::: bad
 Bad example - access our connection string by strongly typed generated settings class...this is no longer the best way to do it 
 :::
@@ -97,10 +89,6 @@ Azure Key Vault is great for keeping your secrets secret because you can control
 
 ::: good
 ![SqlConnectionString stored in Key Vault. Note the ApplicationSecrets section is indicated by ApplicationSecrets-- instead of ApplicationSecrets:](secrets.png)
-:::
-
-::: good
-![Viewing the SqlConnectionString in Key Vault (if you have access😊)](viewing_secret.png))
 :::
 
 ```cs
@@ -210,10 +198,15 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 Integrating Key Vault with your .NET application
 :::
 
-Optional: To go a step further, we can bolt Azure Key Vault directly into Azure App Configuration service. <add link to Ms docs and my github example>. 
+Optional: To go a step further, we can bolt Azure Key Vault directly into [Azure App Configuration service](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview). 
 
-The benefit of doing this is so that you can control exactly which KeyVault secrets (and their versions) are made available to our application. We add Key Vault Secrets by using KeyVault references. <insert example>
+The benefit of doing this is so that you can control exactly which Key Vault secrets (and their versions) are made available to our application. We add Key Vault Secrets by using Key Vault references.
 
 A second major benefit for using Azure AppConfiguration is that you gain powerful Feature Flaging capabilities. 
 
 Once we bootstrap our application to with Azure AppConfiguration Service, we can still access our app settings and secrets via IConfiguration. 
+
+Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail:
+
+`youtube: https://www.youtube.com/embed/-aTlON-UCVM`
+

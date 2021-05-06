@@ -34,12 +34,9 @@ Check your PBI against your
 6. Don't forget to make a task for testing! (So that it is visible in the task board). Note: You can also 
       [customize the kanban board](https://www.visualstudio.com/en-us/get-started/work/work-from-the-kanban-board-vs) by adding a new column for testing, but we recommend adding a testing task to the PBI instead.
 
-
-
 ::: bad  
 ![Figure: Adding a new "Test" state. This is only visible in the Product Backlog and not the Sprint Backlog](KB-customize-board-columns.png)  
 :::
-
 
 ::: good  
 ![Figure: Testing Task added to PBI. This is the board the team will use for 90% of the Sprint, so testing should be clearly visible here](Testing-task.png)  
@@ -61,7 +58,7 @@ Is the PBI "Done"? Check your Definition of Done, and then:
 
 1. Open a Pull Request
 2. Get another engineer in your team to do an "over the shoulder" check of the code
-3. Use [Microsoft's "Test and Feedback" Chrome extension](/do-you-do-exploratory-testing-2) to test the app
+3. Use [Microsoft's "Test and Feedback" Chrome extension](/do-you-do-exploratory-testing) to test the app
 4. Make changes based on feedback (and then get more feedback)
 5. Complete the Pull Request! Merge changes to master, this automatically deploys (to either Test, Staging or Prod based on process maturity)
 6. Email notification to the Product Owner – send a 

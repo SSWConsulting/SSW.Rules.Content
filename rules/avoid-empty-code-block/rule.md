@@ -27,7 +27,7 @@ If the class implements an inherited interface method, ensure the method throws 
 
 
 
-```
+```cs
 public class Example
  {
        public double salary()
@@ -36,18 +36,13 @@ public class Example
        }
  }
 ```
-
-
-
-
 ::: bad
 Figure: Bad Example - Method is empty
-
 :::
 
 
 
-```
+```cs
 public class Sample
  {
        public double salary()
@@ -56,18 +51,13 @@ public class Sample
         }
  }
 ```
-
-
-
-
 ::: good
 Figure: Good Example - Method implements some code
-
 :::
 
 
 
-```
+```cs
 public interface IDemo
  {
        void DoSomethingUseful();
@@ -86,17 +76,13 @@ public class Demo : IDemo
       } 
  }
 ```
-
-
-
-
 ::: bad
 Figure: Bad Example - No Comment within empty code block  
 :::
 
 
 
-```
+```cs
 public interface IDemo
  {
        void DoSomethingUseful();
@@ -116,10 +102,6 @@ public class Demo : IDemo
        } 
  }
 ```
-
-
-
-
 ::: good
 Figure: Good Example - Added comment within Empty Code block method of interface class  
 :::
