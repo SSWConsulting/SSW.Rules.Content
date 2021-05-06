@@ -118,7 +118,7 @@ The strongly typed class containing application secrets
 // This method gets called by the runtime. Use this method to add services to the container.
 public void ConfigureServices(IServiceCollection services)
 {
-    // Bind a concrete instance of ApplicationSecrets to the ApplicationSecrets section of your application's configuration providers (includes appsettings.json, appsettings.*.json, environment variables, key vault, and more).
+    // Bind the "ApplicationSecrets" config section to an instance of the `ApplicationSecrets` class
     services.Configure<ApplicationSecrets>(Configuration.GetSection("ApplicationSecrets"));
     ...
 }
