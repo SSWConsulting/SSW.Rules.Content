@@ -165,7 +165,7 @@ Step 1: Setup your settings in your common project. E.g. Northwind.Common
 
 Step 2: Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
 
-![Figure: Auto generated app.config](ConnStringNET2\_CommonApp.GIF)  
+![Figure: Auto generated app.config](ConnStringNET2\_CommonApp.gif)  
 
 Step 3: ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
 
