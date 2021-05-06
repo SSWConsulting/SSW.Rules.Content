@@ -39,19 +39,6 @@ Azure Key Vault is great for keeping your secrets secret because you can control
 :::
 
 ```cs
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddControllers();
-    services.AddDbContext<ApplicationDbContext>(
-        options => options.UseSqlServer("name=ApplicationSettings:SqlConnectionString"));
-}
-```
-
-::: good
-Referencing a connection string defined in application settings
-:::
-
-```cs
 public class MyDataService
 {
     public readonly string _connectionString;
@@ -74,6 +61,10 @@ public class MyDataService
 }
 ```
 
+::: good
+Referencing a strongly typed connection string defined in application settings
+:::
+
 ```cs
 // In ApplicationSecrets.cs
 public class ApplicationSecrets
@@ -82,6 +73,10 @@ public class ApplicationSecrets
     public string LicenseKey { get; set; }
 }
 ```
+
+::: good
+The strongly typed class containing application secrets
+:::
 
 ```cs
 // In Startup.cs
@@ -94,20 +89,26 @@ public void ConfigureServices(IServiceCollection services)
 }
 ```
 
+::: good
+Binding the application secrets section an instance of the `ApplicationSecrets` class
+:::
+
 ```cs
 // In MyDataService.cs
 public class MyDataService
 {
-    public readonly string _connectionString;
-    public MyDataService(ApplicationSettings settings)
+    public readonly ApplicationSecrets _settings;
+    
+    public MyDataService(ApplicationSecrets settings)
     {
-        // In Production, your connection string will be read from KeyVault
-        _connectionString = settings.SqlConnectionString;
+        // In Production, your connection string will be read from Key Vault
+        _settings = settings;
     }
+    
     private async Task<string> GetCustomerDetails(CustomerDetailsQuery request)
     {
         var sql = @"SELECT * FROM CustomerDetails WHERE CustomerId = @auctionId";
-        await using var db = new SqlConnection(_connectionString);
+        await using var db = new SqlConnection(_settings.SqlConnectionString);
         return (await db.QueryAsync<string>(sql,
             new
             {
@@ -118,49 +119,18 @@ public class MyDataService
 }
 ```
 
-Then you can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via 'IConfiguration'. 
-
-```cs
-public static IHostBuilder CreateHostBuilder(string[] args) =>
-    Host.CreateDefaultBuilder(args)
-        .ConfigureWebHostDefaults(webBuilder =>
-        {
-            webBuilder
-                .UseStartup<Startup>()
-                .ConfigureAppConfiguration((context, config) =>
-                {
-                    // Note: If you want to use Key Vault from your local machine, comment out the following line, or modify your ASPNETCORE_ENVIRONMENT environment variable to be "Production"
-                    if (context.HostingEnvironment.IsProduction())
-                    {
-                        IConfigurationRoot builtConfig = config.Build();
-                        
-                        // If you are attempting to use Key Vault from your local machine, make sure to log into azure via `az login`.
-                        // Also make sure you have added your user to Key Vault via the access policy blade.
-                        TokenCredential cred = context.HostingEnvironment.IsProduction() ? new DefaultAzureCredential(false) : new AzureCliCredential();
-                        
-                        var keyvaultUri = new Uri($"https://{builtConfig["KeyVaultName"]}.vault.azure.net/");
-                        var secretClient = new SecretClient(keyvaultUri, cred);
-                        config.AddAzureKeyVault(secretClient, new KeyVaultSecretManager());
-                    }
-                });
-        });
-```
 ::: good
-Integrating Key Vault with your .NET application
+Consuming strongly typed application secrets
 :::
 
-Optional: To go a step further, we can bolt Azure Key Vault directly into [Azure App Configuration service](https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview). 
+Then you can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via 'IConfiguration'. 
 
-The benefit of doing this is so that you can control exactly which Key Vault secrets (and their versions) are made available to our application. We add Key Vault Secrets by using Key Vault references.
-
-A second major benefit for using Azure AppConfiguration is that you gain powerful Feature Flaging capabilities. 
-
-Once we bootstrap our application to with Azure AppConfiguration Service, we can still access our app settings and secrets via IConfiguration. 
+For an example, refer to this [repository](https://github.com/william-liebenberg/keyvault-example).
 
 `youtube: https://www.youtube.com/embed/-aTlON-UCVM`
 
 ::: good 
-Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail:
+Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail
 :::
 
 ### History of Connection Strings:
