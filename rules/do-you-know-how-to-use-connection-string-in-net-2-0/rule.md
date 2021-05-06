@@ -96,8 +96,8 @@ public class MyDataService
 }
 ```
 
-::: good
-Good Example - Option #3 Referencing a strongly typed connection string defined in application settings
+::: bad
+Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
 :::
 
 ```cs
