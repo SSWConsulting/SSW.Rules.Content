@@ -16,11 +16,11 @@ redirects:
 
 ---
 
-<!--endintro-->
-
 In .NET 5, we use **Azure Key Vault** to securely store our connection strings away from prying eyes.
 
 Azure Key Vault is great for keeping your secrets secret because you can control access to the vault via Access Policies. The access policies allows you to add Users and Applications with customized permissions. Make sure you enable the System assigned identity for your App Service, this is required for adding it to Key Vault via Access Policies.
+
+<!--endintro-->
 
 ::: good
 ![Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
@@ -158,6 +158,7 @@ A second major benefit for using Azure AppConfiguration is that you gain powerfu
 Once we bootstrap our application to with Azure AppConfiguration Service, we can still access our app settings and secrets via IConfiguration. 
 
 `youtube: https://www.youtube.com/embed/-aTlON-UCVM`
+
 ::: good 
 Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail:
 :::
