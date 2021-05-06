@@ -20,7 +20,7 @@ Every error message you put into your products is an opportunity for good servic
 <!--endintro-->
 
 ::: good
-![Figure: Log every error](imgErrorHandle.GIF)
+![Figure: Log every error](imgErrorHandle.gif)
 :::
 
 Not to say though that there is any ideal error message - a great error is one that has been eliminated! In packaged products, every unhandled error is our problem.
