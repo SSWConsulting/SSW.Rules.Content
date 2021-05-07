@@ -11,7 +11,7 @@ authors:
 - title: William Liebenberg
   url: https://ssw.com.au/people/william-liebenberg
 - title: Calum Simpson
-  url: https://www.ssw.com.au/people/calum-simpson
+  url: https://ssw.com.au/people/calum-simpson
 - title: Ryan Tee
   url: https://ssw.com.au/people/ryan-tee
 related: []
