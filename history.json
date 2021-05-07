@@ -9136,9 +9136,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/rule.md",
-		"lastUpdated": "2021-05-06T06:30:10.389Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-07T05:15:54.466Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2009-12-04T19:40:40+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -18874,7 +18874,7 @@
 	},
 	{
 		"file": "rules/answer-im-questions-in-order/rule.md",
-		"lastUpdated": "2021-05-06T00:21:44.506Z",
+		"lastUpdated": "2021-05-07T05:27:17.407Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-12-12T06:02:11+11:00",
@@ -19936,9 +19936,9 @@
 	},
 	{
 		"file": "rules/teams-emojis/rule.md",
-		"lastUpdated": "2020-11-05T07:49:02+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-06T18:40:35.743Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-09-05T16:29:20+10:00",
 		"createdBy": "Jean Thirion",
 		"createdByEmail": "JeanThirion@ssw.com.au"
@@ -25681,7 +25681,7 @@
 		"created": "2021-05-06T02:48:17.128Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-06T06:30:10.388Z",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
@@ -25690,7 +25690,7 @@
 		"created": "2021-05-06T02:48:17.128Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-06T06:30:10.388Z",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
@@ -25699,7 +25699,7 @@
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-06T06:30:10.388Z",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
@@ -25708,7 +25708,7 @@
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-06T06:30:10.389Z",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
@@ -25717,7 +25717,7 @@
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-06T06:30:10.389Z",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
@@ -25855,5 +25855,32 @@
 		"lastUpdated": "2021-05-06T18:41:45.264Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/add-a-secret.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/user-secrets.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/lockedBox.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
