@@ -50,7 +50,7 @@ public class MyDataService
 ```
 
 ::: bad
-Bad Example - Option #1 Connection strings do not belong in your code, anyone seeing this could access your database
+Figure: Bad Example - Option #1 Connection strings do not belong in your code, anyone seeing this could access your database
 :::
 
 #### Option #2 - Using connection strings in `appsettings.json`
@@ -66,7 +66,7 @@ Bad Example - Option #1 Connection strings do not belong in your code, anyone se
 ```
 
 ::: bad
-Bad Example - Option #2 Connection strings do not belong in your `appsettings.json` either, once committed to version control they are hard to remove
+Figure: Bad Example - Option #2 Connection strings do not belong in your `appsettings.json` either, once committed to version control they are hard to remove
 :::
 
 #### Option #3 - Referencing loosely typed connection strings
@@ -98,7 +98,7 @@ public class MyDataService
 ```
 
 ::: bad
-Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
+Figure: Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
 :::
 
 #### Option #4 - User Secrets
@@ -126,7 +126,7 @@ public class ApplicationSecrets
 ```
 
 ::: good
-The strongly typed class containing application secrets
+Figure: Good Example - The strongly typed class containing application secrets
 :::
 
 ```cs
@@ -141,7 +141,7 @@ public void ConfigureServices(IServiceCollection services)
 ```
 
 ::: good
-Binding the `ApplicationSecrets` section (from `appsettings.json` or `secrets.json`) to an instance of the `ApplicationSecrets` class
+Figure: Good Example - Binding the `ApplicationSecrets` section (from `appsettings.json` or `secrets.json`) to an instance of the `ApplicationSecrets` class
 :::
 
 ```cs
@@ -172,7 +172,7 @@ public class MyDataService
 ```
 
 ::: good
-Consuming strongly typed application secrets
+Figure: Good Example - Consuming strongly typed application secrets
 :::
 
 #### Option #5 - Integrating Azure Key Vault into your ASP.NET Core application
