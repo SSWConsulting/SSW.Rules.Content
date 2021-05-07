@@ -185,28 +185,26 @@ You can integrate Key Vault directly into your [ASP.NET Core application configu
 
 ```cs
 public static IHostBuilder CreateHostBuilder(string[] args) =>
-	Host.CreateDefaultBuilder(args)
-		.ConfigureWebHostDefaults(webBuilder =>
-		{
-			webBuilder
-				.UseStartup<Startup>()
-				.ConfigureAppConfiguration((context, config) =>
-				{
-					if (context.HostingEnvironment.IsProduction())
-					{
-						IConfigurationRoot builtConfig = config.Build();
+  Host.CreateDefaultBuilder(args)
+  .ConfigureWebHostDefaults(webBuilder => {
+    webBuilder
+      .UseStartup < Startup > ()
+      .ConfigureAppConfiguration((context, config) => {
+        if (context.HostingEnvironment.IsProduction()) {
+          IConfigurationRoot builtConfig = config.Build();
 
-						// If running as "Production" from our local environment (not in Azure), then use the Azure CLI credential provider. This means you
-						// have to log in via `az login` on your command line before running the local app as Production.
-            // To run as a "Production" app locally, change the ASPNETCORE_ENVIRONMENT value to "Production".
-						TokenCredential cred = context.HostingEnvironment.IsProduction() ? new DefaultAzureCredential(false) : new AzureCliCredential();
+          // If running as "Production" from our local environment (not in Azure), then use the Azure CLI credential provider. This means you
+          // have to log in via `az login` on your command line before running the local app as Production.
+          // To run as a "Production" app locally, change the ASPNETCORE_ENVIRONMENT value to "Production".
+          TokenCredential cred = context.HostingEnvironment.IsProduction() ? new DefaultAzureCredential(false) : new AzureCliCredential();
 
-						var keyvaultUri = new Uri($"https://{builtConfig["KeyVaultName"]}.vault.azure.net/");
-						var secretClient = new SecretClient(keyvaultUri, cred);
-						config.AddAzureKeyVault(secretClient, new KeyVaultSecretManager());
-					}
-				});
-		});
+          var keyvaultUri = new Uri($"https://{builtConfig["
+            KeyVaultName "]}.vault.azure.net/");
+          var secretClient = new SecretClient(keyvaultUri, cred);
+          config.AddAzureKeyVault(secretClient, new KeyVaultSecretManager());
+        }
+      });
+  });
 ```
 
 ::: good
