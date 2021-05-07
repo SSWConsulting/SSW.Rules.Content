@@ -38,6 +38,6 @@ There are 4 main reasons...
     * The lack of a running cost and instead a ceiling on  the cost will normally result in a low pressure project environment at the  start of the project and very high pressure to complete it only towards the end  of the project.  In that period of high pressure as developers are working  to hit the one big delivery it becomes tempting to them and sometimes even  expected by their management that they will cut corners
 
 
-Instead,  the use of an iterative agile methodology like [SCRUM](http://www.ssw.com.au/ssw/Consulting/Scrum.aspx) that provides constant progress  reporting and gives the client agility to implement the required features with  adjustments during the project, works to reduce the cost and also provides the  most important features paid as Time and Materials in a working solution  sooner.
+Instead,  the use of an iterative agile methodology like [Scrum](http://www.ssw.com.au/ssw/Consulting/Scrum.aspx) that provides constant progress  reporting and gives the client agility to implement the required features with  adjustments during the project, works to reduce the cost and also provides the  most important features paid as Time and Materials in a working solution  sooner.
 
-![Waterfall vs Agile](Waterfall-vs-Agile.jpg)**Figure: Waterfall vs Agile Methodology**
+![Figure: Although Waterfall fixes the scope, it then makes the resources and time variable. If you want to fix those, you need to vary the scope](Waterfall-vs-Agile.jpg)
