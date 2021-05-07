@@ -7624,7 +7624,7 @@
 	},
 	{
 		"file": "rules/do-you-use-timeboxing-to-avoid-wasted-time/rule.md",
-		"lastUpdated": "2021-03-01T22:11:57.935Z",
+		"lastUpdated": "2021-05-07T00:24:02.214Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-11-18T19:13:38+11:00",
@@ -9136,9 +9136,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/rule.md",
-		"lastUpdated": "2021-05-07T04:09:10.536Z",
-		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
-		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com",
+		"lastUpdated": "2021-05-07T05:15:54.466Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2009-12-04T19:40:40+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -16993,9 +16993,9 @@
 	},
 	{
 		"file": "rules/use-control4-app/rule.md",
-		"lastUpdated": "2021-04-22T00:16:17.545Z",
-		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-07T00:21:01.839Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2017-09-13T10:00:55+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18874,7 +18874,7 @@
 	},
 	{
 		"file": "rules/answer-im-questions-in-order/rule.md",
-		"lastUpdated": "2021-05-06T00:21:44.506Z",
+		"lastUpdated": "2021-05-07T05:27:17.407Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-12-12T06:02:11+11:00",
@@ -19936,9 +19936,9 @@
 	},
 	{
 		"file": "rules/teams-emojis/rule.md",
-		"lastUpdated": "2020-11-05T07:49:02+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-06T18:40:35.743Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-09-05T16:29:20+10:00",
 		"createdBy": "Jean Thirion",
 		"createdByEmail": "JeanThirion@ssw.com.au"
@@ -25837,6 +25837,24 @@
 		"lastUpdated": "2021-05-06T03:23:48.023Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/teams-emojis/calendar-emoji.png",
+		"created": "2021-05-06T18:41:45.263Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-06T18:41:45.263Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/teams-emojis/control4-emojis.png",
+		"created": "2021-05-06T18:41:45.264Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-06T18:41:45.264Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/add-a-secret.png",

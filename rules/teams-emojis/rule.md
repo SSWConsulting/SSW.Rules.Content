@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Team Names - Do you use emojis in your Teams' channel names ?
+title: Do you use emojis to help text context?
 guid: b97d15dd-1c05-4cd6-9869-4f4a05e6d523
 uri: teams-emojis
 created: 2019-09-05T06:29:11.0000000Z
@@ -11,7 +11,7 @@ authors:
 - title: Jean Thirion
   url: https://ssw.com.au/people/jean-thirion
 related:
-- do-you-write-nice-commit-messages
+- use-emojis-in-your-commits
 redirects:
 - team-names-do-you-use-emojis-in-your-teams-channel-names
 
@@ -21,14 +21,20 @@ It's usually easier for users to remember where given information is when it is 
 
 <!--endintro-->
 
-An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use Emojis in your channel names (using Windows Key + .)!
-
+An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use Emojis in your channel names (using **Windows Key + **.**)!
 
 ::: bad  
-![Bad Example: Channel names without emojis](Teams\_Emojis\_Bad.png)  
+![Figure: Bad Example - Teams Channel names without emojis](Teams_Emojis_Bad.png)  
 :::
 
+::: good  
+![Figure: Good Example - Teams Channel names have emojis](Teams_Emojis_Good.png)  
+:::
 
 ::: good  
-![Good Example: Channel names have emojis](Teams\_Emojis\_Good.png)  
+![Figure: Good example - Control4 automation Mobile UI is more friendly with emojis](control4-emoji.png)  
+:::
+
+::: good  
+![Figure: Good example - some appointments can benefit from an emoji ](calendar-emoji.png)  
 :::
