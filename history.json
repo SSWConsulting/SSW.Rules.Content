@@ -9136,9 +9136,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/rule.md",
-		"lastUpdated": "2021-05-06T03:23:48.019Z",
-		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-07T05:15:54.466Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2009-12-04T19:40:40+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -25677,6 +25677,51 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/access_policies.png",
+		"created": "2021-05-06T02:48:17.128Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/configuration.png",
+		"created": "2021-05-06T02:48:17.128Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/identity.png",
+		"created": "2021-05-06T02:48:17.129Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/secrets.png",
+		"created": "2021-05-06T02:48:17.129Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-07T00:39:43.397Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/viewing_secret.png",
+		"created": "2021-05-06T02:48:17.129Z",
+		"createdBy": "Calum Simpson [SSW]",
+		"createdByEmail": "calumjs@live.com",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
 		"file": "rules/all-the-things-you-can-use-qr-code-for/Microsoft-official-account.gif",
 		"created": "2021-05-06T03:16:43.157Z",
 		"createdBy": "Brady Stroud",
@@ -25792,5 +25837,32 @@
 		"lastUpdated": "2021-05-06T03:23:48.023Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/add-a-secret.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/user-secrets.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/lockedBox.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
