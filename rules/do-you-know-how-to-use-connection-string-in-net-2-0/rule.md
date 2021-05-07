@@ -30,6 +30,8 @@ Luckily there is a better way to avoid these issues and we are able to consume o
 
 <!--endintro-->
 
+#### Option #1 - Using connection strings directly in code
+
 ```cs
 public class MyDataService
 {
@@ -51,6 +53,8 @@ public class MyDataService
 Bad Example - Option #1 Connection strings do not belong in your code, anyone seeing this could access your database
 :::
 
+#### Option #2 - Using connection strings in `appsettings.json`
+
 ```js
 // In appsettings.json
 {
@@ -64,6 +68,8 @@ Bad Example - Option #1 Connection strings do not belong in your code, anyone se
 ::: bad
 Bad Example - Option #2 Connection strings do not belong in your `appsettings.json` either, once committed to version control they are hard to remove
 :::
+
+#### Option #3 - Referencing loosely typed connection strings
 
 ```cs
 public class MyDataService
@@ -94,6 +100,8 @@ public class MyDataService
 ::: bad
 Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
 :::
+
+#### Option #4 - User Secrets
 
 An alternative to putting secrets into `appsettings.json` is via [User Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
 
@@ -167,7 +175,7 @@ public class MyDataService
 Consuming strongly typed application secrets
 :::
 
-## Integrating Azure Key Vault into your ASP.NET Core application
+#### Option #5 - Integrating Azure Key Vault into your ASP.NET Core application
 
 In .NET 5 we can use **Azure Key Vault** to securely store our connection strings away from prying eyes.
 
@@ -202,7 +210,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 ```
 
 ::: good
-Good Example - Option #5 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example).
+Good Example - Option #5 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
 :::
 
 ### Setting up your Key Vault correctly
@@ -252,7 +260,7 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
 Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail
 :::
 
-### History of Connection Strings:
+### History of Connection Strings
 
 In .NET 1.1 we used to store our connection string in a configuration file like this:   
 
@@ -273,18 +281,18 @@ new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
 ::: bad
-Historical example - old ASP.NET 1.1 way, untyped and prone to error.
+Historical example - old ASP.NET 1.1 way, untyped and prone to error
 :::
 
 In .NET 2.0 we used strongly typed settings classes:
 
-Step 1: Setup your settings in your common project. E.g. Northwind.Common
+**Step 1:** Setup your settings in your common project. E.g. Northwind.Common
 
 ![Figure: Settings in Project Properties](ConnStringNET2\_Settings.jpg)  
 
-Step 2: Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
+**Step 2:** Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
 
-Step 3: ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
+**Step 3:** ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
 
 ```xml
 <configuration>
