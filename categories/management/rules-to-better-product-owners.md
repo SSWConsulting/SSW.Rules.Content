@@ -15,6 +15,7 @@ index:
 - agreements---do-you-provide-a-product-owner
 - agreements---do-you-use-1-or-2-week-sprints
 - agreements---do-you-use-an-experienced-scrum-master-or-project-manager
+- Employee-YOLO-Day
 
 ---
  
