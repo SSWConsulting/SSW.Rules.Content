@@ -39,7 +39,7 @@ index:
 - do-you-know-what-files-not-to-put-into-vss
 - do-you-use-resource-file-for-storing-your-static-script
 - do-you-know-changes-on-datetime-in-net-2-0-and-net-1-1-1-0
-- do-you-know-how-to-use-connection-string-in-net-2-0
+- do-you-know-how-to-use-connection-strings
 - do-you-avoid-using-duplicate-connection-string-in-web-config
 - do-you-use-windows-integrated-authentication-connection-string-in-web-config
 - do-you-highlight-strings-in-your-code-editor
