@@ -9136,9 +9136,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/rule.md",
-		"lastUpdated": "2021-05-07T05:15:54.466Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2009-12-04T19:40:40+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -25141,9 +25141,9 @@
 		"created": "2021-04-09T01:05:13.355Z",
 		"createdBy": "Nicholas Viet [SSW]",
 		"createdByEmail": "65745138+nviet123@users.noreply.github.com",
-		"lastUpdated": "2021-04-23T07:10:33.928Z",
-		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
-		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com"
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-provide-options-for-sharing/rule.md",
@@ -25393,18 +25393,18 @@
 		"created": "2021-04-21T07:17:02.923Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-04-21T07:26:12.148Z",
-		"lastUpdatedBy": "Calum Simpson [SSW]",
-		"lastUpdatedByEmail": "calumjs@live.com"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/keyvault.png",
 		"created": "2021-04-21T07:17:02.923Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-04-21T07:26:12.149Z",
-		"lastUpdatedBy": "Calum Simpson [SSW]",
-		"lastUpdatedByEmail": "calumjs@live.com"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/use-control4-app/Bad-example-C4.jpg",
@@ -25681,45 +25681,45 @@
 		"created": "2021-05-06T02:48:17.128Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/configuration.png",
 		"created": "2021-05-06T02:48:17.128Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/identity.png",
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/secrets.png",
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/viewing_secret.png",
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/all-the-things-you-can-use-qr-code-for/Microsoft-official-account.gif",
@@ -25825,7 +25825,7 @@
 		"created": "2021-05-06T03:23:48.022Z",
 		"createdBy": "Brady Stroud",
 		"createdByEmail": "bradystroud@me.com",
-		"lastUpdated": "2021-05-06T03:23:48.022Z",
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
@@ -25861,26 +25861,44 @@
 		"created": "2021-05-07T00:39:43.398Z",
 		"createdBy": "Brady Stroud [SSW]",
 		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/user-secrets.png",
 		"created": "2021-05-07T00:39:43.398Z",
 		"createdBy": "Brady Stroud [SSW]",
 		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/lockedBox.png",
 		"created": "2021-05-07T00:39:43.398Z",
 		"createdBy": "Brady Stroud [SSW]",
 		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/Employee-YOLO-Day/ThinkstockPhotos-dv617062-1.jpg",
+		"created": "2021-05-09T23:41:29.979Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-09T23:41:29.979Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-strings/ConnStringNET2_Settings.jpg",
+		"created": "2021-05-09T23:41:29.980Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
