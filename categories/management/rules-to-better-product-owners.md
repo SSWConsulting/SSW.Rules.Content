@@ -6,7 +6,6 @@ uid: rules-to-better-product-owners
 redirects:
 - jack-test
 index:
-- Employee-YOLO-Day
 - agreements---do-you-book-the-next-sprint-ahead-of-time
 - all-the-things-you-can-use-qr-code-for
 - rule
