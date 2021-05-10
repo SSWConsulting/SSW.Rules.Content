@@ -25900,5 +25900,14 @@
 		"lastUpdated": "2021-05-09T23:41:29.980Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/deadlines-and-sprints/rule.md",
+		"created": "2021-05-10T05:41:04.009Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-10T05:41:04.009Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
