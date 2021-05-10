@@ -6,6 +6,7 @@ uid: rules-to-better-product-owners
 redirects:
 - jack-test
 index:
+- do-you-know-how-to-add-or-remove-someone-from-the-conversation
 - agreements---do-you-book-the-next-sprint-ahead-of-time
 - all-the-things-you-can-use-qr-code-for
 - rule
@@ -15,7 +16,6 @@ index:
 - agreements---do-you-provide-a-product-owner
 - agreements---do-you-use-1-or-2-week-sprints
 - agreements---do-you-use-an-experienced-scrum-master-or-project-manager
-- Employee-YOLO-Day
 
 ---
  
