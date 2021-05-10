@@ -19,28 +19,28 @@ You can use mail merge template to send emails to various accounts and multiple 
 <!--endintro-->
 
 1.	Within Dynamics, click **Marketing Lists** in the left-hand column, and then click on the drop-down list at the top and select My active marketing lists   
-  ![Figure: Find your active marketing lists to send out an email blast with mail merge templates](send-email-email-template-1.png)
+  ![Figure: Find your active marketing lists to send out an email blast with mail merge templates](send-email-email-template-2.png)
 
 2.	Click on the marketing list you want to send the email blast to 
-  ![Figure: selection of marketing list](send-email-email-template-2.png)
+  ![Figure: selection of marketing list](send-email-email-template-3.png)
 
 3.	Select New Quick Campaign
-  ![Figure: Selecting New Quick Campaigns](send-email-email-template-3.png)
+  ![Figure: Selecting New Quick Campaigns](send-email-email-template-4.png)
 
 4.	The Create Quick Campaign Wizard will then pop up, select **Next**
 
 5.	Create a name for your Campaign
 
 6.	Select Email as the Activity type
-  ![Figure: Selecting Email as your activity type](send-email-email-template-4.png)
+  ![Figure: Selecting Email as your activity type](send-email-email-template-5.png)
 
 7.	Select **Assign to me**, and decide whether you want email activities to be closed after sending (usually, you will want to close them)
 
 8.	Select “Use Template”, and click on the magnifying glass in the bar below
-  ![Figure: Searching for the template you want to use](send-email-email-template-5.png)
+  ![Figure: Searching for the template you want to use](send-email-email-template-6.png)
 
 9.	Scroll through until you find the template you want to use
-  ![Figure: Template selection](send-email-email-template-6.png)
+  ![Figure: Template selection](send-email-email-template-7.png)
 
 10.	Set the Priority to match the situation (urgent, normal etc.)
 
