@@ -90,7 +90,7 @@ There are 7 crucial documents for your project:
 
 **In the repository (for developers):**
 
-**1. README.md** – Explains the overview of the project and provides links to the rest of the documentation.
+**1. README.md** – Explains the overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
 
 **2. docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
 
