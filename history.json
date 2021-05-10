@@ -793,9 +793,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-handover-a-project/rule.md",
-		"lastUpdated": "2020-04-14T13:20:58+10:00",
-		"lastUpdatedBy": "Gabriel George",
-		"lastUpdatedByEmail": "gabe@ssw.com.au",
+		"lastUpdated": "2021-05-10T05:17:28.255Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2010-03-24T15:06:05+11:00",
 		"createdBy": "Rebecca Liu",
 		"createdByEmail": "RebeccaLiu@ssw.com.au"
@@ -1648,7 +1648,7 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/rule.md",
-		"lastUpdated": "2021-05-04T22:12:51.443Z",
+		"lastUpdated": "2021-05-10T18:03:44.477Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-03-14T06:38:26+11:00",
@@ -9135,10 +9135,10 @@
 		"createdByEmail": "CindyWang@ssw.com.au"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/rule.md",
-		"lastUpdated": "2021-05-07T05:15:54.466Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"file": "rules/do-you-know-how-to-use-connection-strings/rule.md",
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2009-12-04T19:40:40+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -25137,13 +25137,13 @@
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
 	{
-		"file": "rules/Do-you-have-a-YOLO-Day/rule.md",
+		"file": "rules/Employee-YOLO-Day/rule.md",
 		"created": "2021-04-09T01:05:13.355Z",
 		"createdBy": "Nicholas Viet [SSW]",
 		"createdByEmail": "65745138+nviet123@users.noreply.github.com",
-		"lastUpdated": "2021-04-23T07:10:33.928Z",
-		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
-		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com"
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-provide-options-for-sharing/rule.md",
@@ -25389,22 +25389,22 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/funcsec-vaultindicator-header.jpg",
+		"file": "rules/do-you-know-how-to-use-connection-strings/funcsec-vaultindicator-header.jpg",
 		"created": "2021-04-21T07:17:02.923Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-04-21T07:26:12.148Z",
-		"lastUpdatedBy": "Calum Simpson [SSW]",
-		"lastUpdatedByEmail": "calumjs@live.com"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/keyvault.png",
+		"file": "rules/do-you-know-how-to-use-connection-strings/keyvault.png",
 		"created": "2021-04-21T07:17:02.923Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-04-21T07:26:12.149Z",
-		"lastUpdatedBy": "Calum Simpson [SSW]",
-		"lastUpdatedByEmail": "calumjs@live.com"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/use-control4-app/Bad-example-C4.jpg",
@@ -25677,49 +25677,49 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/access_policies.png",
+		"file": "rules/do-you-know-how-to-use-connection-strings/access_policies.png",
 		"created": "2021-05-06T02:48:17.128Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/configuration.png",
+		"file": "rules/do-you-know-how-to-use-connection-strings/configuration.png",
 		"created": "2021-05-06T02:48:17.128Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/identity.png",
+		"file": "rules/do-you-know-how-to-use-connection-strings/identity.png",
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/secrets.png",
+		"file": "rules/do-you-know-how-to-use-connection-strings/secrets.png",
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.397Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/viewing_secret.png",
+		"file": "rules/do-you-know-how-to-use-connection-strings/viewing_secret.png",
 		"created": "2021-05-06T02:48:17.129Z",
 		"createdBy": "Calum Simpson [SSW]",
 		"createdByEmail": "calumjs@live.com",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/all-the-things-you-can-use-qr-code-for/Microsoft-official-account.gif",
@@ -25821,11 +25821,11 @@
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/ConnStringNET2_CommonApp.gif",
+		"file": "rules/do-you-know-how-to-use-connection-strings/ConnStringNET2_CommonApp.gif",
 		"created": "2021-05-06T03:23:48.022Z",
 		"createdBy": "Brady Stroud",
 		"createdByEmail": "bradystroud@me.com",
-		"lastUpdated": "2021-05-06T03:23:48.022Z",
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
@@ -25857,30 +25857,66 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/add-a-secret.png",
+		"file": "rules/do-you-know-how-to-use-connection-strings/add-a-secret.png",
 		"created": "2021-05-07T00:39:43.398Z",
 		"createdBy": "Brady Stroud [SSW]",
 		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-strings/user-secrets.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-09T23:41:29.982Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-strings/lockedBox.png",
+		"created": "2021-05-07T00:39:43.398Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-09T23:41:29.981Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/Employee-YOLO-Day/ThinkstockPhotos-dv617062-1.jpg",
+		"created": "2021-05-09T23:41:29.979Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-09T23:41:29.979Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-strings/ConnStringNET2_Settings.jpg",
+		"created": "2021-05-09T23:41:29.980Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-09T23:41:29.980Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/deadlines-and-sprints/rule.md",
+		"created": "2021-05-10T05:41:04.009Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-10T05:41:04.009Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/user-secrets.png",
-		"created": "2021-05-07T00:39:43.398Z",
-		"createdBy": "Brady Stroud [SSW]",
-		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
-	},
-	{
-		"file": "rules/do-you-know-how-to-use-connection-string-in-net-2-0/lockedBox.png",
-		"created": "2021-05-07T00:39:43.398Z",
-		"createdBy": "Brady Stroud [SSW]",
-		"createdByEmail": "bradystroud@ssw.com.au",
-		"lastUpdated": "2021-05-07T00:39:43.398Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"file": "rules/do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template/send-email-email-template-7.png",
+		"created": "2021-05-10T18:08:28.781Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-10T18:08:28.781Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
