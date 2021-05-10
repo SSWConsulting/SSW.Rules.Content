@@ -20,7 +20,6 @@ index:
 - management-do-you-always-inform-your-client-how-long-a-task-took
 - management-do-you-use-xp-scrum-wisely
 - methodology-daily-scrums
-- do-you-send-morning-goals-this-rule-is-out-of-date
 - do-you-allow-users-to-check-for-a-new-version-easily
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error
