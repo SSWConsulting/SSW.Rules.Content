@@ -51,8 +51,6 @@ Here are the 8 steps you should follow for a good handover.
 | -------- | --- |
 | From:    | Andy |
 | To:      | Gracia |
-| Cc:      | YYY |
-| Bcc:     | ZZZ |
 | Subject: | SSW - Northwind handover |
 
 ::: email-content  
@@ -81,8 +79,6 @@ Done
 | -------- | --- |
 | From:    | Andy |
 | To:      | Gracia |
-| Cc:      | YYY |
-| Bcc:     | ZZZ |
 | Subject: | SSW - Northwind handover |
 
 ::: email-content
