@@ -131,14 +131,13 @@ Azure DevOps
 * An alternative wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 GitHub
-* On [GitHub Pages](https://pages.github.com/) (recommended)
+* [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
 * The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 * An alternative wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
+**Tip** : You can publish your documentation from the repo using [GitHub Pages](https://pages.github.com/)
 
-**Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see:     [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
-
-
+**Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see: [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
 
 
 ::: bad  
