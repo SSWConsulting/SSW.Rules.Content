@@ -1,71 +1,51 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to send email using Microsoft CRM 4 mail merge template?
+title: Do you know how to send an email using Microsoft Dynamics 365 mail merge templates?
 guid: 83649932-3303-4280-a81d-90f2bcc83769
-uri: do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template
+uri: how-to-send-email-using-microsoft-dynamics-365-mail-merge-template
 created: 2013-03-13T19:30:03.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects: 
+- do-you-know-how-to-send-email-using-microsoft-crm-4-mail-merge-template
 
 ---
 
-You can use mail merge template, to send email to account, contact... Each mail merge template is associated to an entity, and you can only use the mail merge template that associated to the entity you're sending email to. In the following instructions, I'm sending email to the contact entity:
+You can use mail merge template to send emails to various accounts and multiple contacts. In the following instructions, I am using a Quick Campaign to determine those whom I’m sending the email to:
 
 <!--endintro-->
 
-1. From Dynamics CRM, click 
-       **Contacts** to view the list of contacts.
-2. Search for the contact that you want to send email to.
-3. Highlight the contact that you want to send email to, and click the mail merge button.
+1.	Within Dynamics, click **Marketing Lists** in the left-hand column, and then click on the drop-down list at the top and select My active marketing lists   
+  ![Figure: Find your active marketing lists to send out an email blast with mail merge templates](send-email-email-template-2.png)
 
-![Figure: Mail merge button](send-mail-merge-1.jpg)  
-4. At 
-       **Select the mail merge type** , select Email.
-5. At 
-       **Start with a** , select either personal mail merge template (this is your own template), or the organization template (this is the template that is used by the whole organizaion).
-6. At 
-       **Merge** , check 
-       **Selected records on current page** check box.
-7. Click 
-       **Ok**
+2.	Click on the marketing list you want to send the email blast to 
+  ![Figure: selection of marketing list](send-email-email-template-3.png)
 
-![Figure: Fill in the mail merge details](send-mail-merge-2.jpg)  
-8. A Microsoft Word document is open, and the 
-       **Mail Merge Recipients** window is pop-up with the list of contacts that you're sending email to.
+3.	Select New Quick Campaign
+  ![Figure: Selecting New Quick Campaigns](send-email-email-template-4.png)
 
-![Figure: Mail Merge Recipients](send-mail-merge-3.jpg)  
+4.	The Create Quick Campaign Wizard will then pop up, select **Next**
 
+5.	Create a name for your Campaign
 
-::: greybox
+6.	Select Email as the Activity type
+  ![Figure: Selecting Email as your activity type](send-email-email-template-5.png)
 
-# Attention
-    If you don't see a contact in the recipient list, that means your contact either:
-    * **Do Not Emails** or
-    * **Do Not Bulk Emails** field set to be
-    * **Do Not Allow**
+7.	Select **Assign to me**, and decide whether you want email activities to be closed after sending (usually, you will want to close them)
 
-:::
-9. Follow the on screen instructions in Microsoft Word and edit the content of the email that you want to send.
+8.	Select “Use Template”, and click on the magnifying glass in the bar below
+  ![Figure: Searching for the template you want to use](send-email-email-template-6.png)
 
+9.	Scroll through until you find the template you want to use
+  ![Figure: Template selection](send-email-email-template-7.png)
 
-# Attention: SSW Developers
+10.	Set the Priority to match the situation (urgent, normal etc.)
 
-Please remove the yellow highlight for the block of the text that need to be filled in by you and the green highlight for the CRM field while you're editing the email.
+11.	The subject and body/content of the activity/email are already covered by the template you’ve chosen
 
-10. At the last step of the mail merge instructions in Microsoft Word, click 
-       **Electronic Mail** and fill in the subject line for your email.
+12.	If you want to include it, the **Duration** is the anticipated number of minutes it will take the recipient to complete the activity or read the email. Select the appropriate timebox, if you so choose. Then, select **Next**
 
-![Figure: Fill in subject line for email](send-mail-merge-4.jpg)  
-11. Click 
-       **Ok** to proceed to next step.
-12. Now because we're using CRM 4 Outlook, CRM mail merge will give you an option to create the activities that associated to this email. Check 
-       **Create Microsoft Dynamic CRM Activities** radio button, and uncheck the 
-       **Include an ubsubcribe link in the email message** to create the activities.
-
-![Figure: Create activies for emails sending out using mail merge](send-mail-merge-5.jpg)  
-13. Click 
-       **OK** to send emails using your outlook.
+13.	Finally, select **Create**, and the Quick Campaign will initiate the activity, in this case sending an email (using the mail merge template) and send it out to everyone on the marketing list that you originally selected

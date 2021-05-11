@@ -22,13 +22,12 @@ It is hard to keep track of your PPC spending in your head when you are constant
 
 SSW has a daily budget to spend on Twitter, Facebook, LinkedIn, Google Ads and Bing. At times we swap the budget from one platform to another to increase our conversions if the campaign is doing exceptionally well.
 
-The best way to keep track of the monthly spend and make sure we don't go over our budget for the month is to hold a weekly meeting every Monday. The following spreadsheet [!\[\](icxlsx.png)Campaign PPC Spend.xlsx](/AnalyticsReports/Campaign%20PPC%20Spend.xlsx) should be prepared before the meeting for stakeholders to review.
+The best way to keep track of the monthly spend and make sure we don't go over our budget for the month is to hold a weekly meeting every Monday. The following spreadsheet [Campaign PPC Spend.xlsx](Campaign-PPC-Spend.xlsx) should be prepared before the meeting for stakeholders to review.
 
 During the meeting we cover the following:
 
 1. The spend for the last week
 2. The spend for the upcoming week
-
 
 At the end of the meeting, the spreadsheet is emailed to the stakeholders. The email should contain:
 

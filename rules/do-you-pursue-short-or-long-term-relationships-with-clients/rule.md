@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: It is already covered by https://www.ssw.com.au/rules/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage 
 title: Do you pursue short or long-term relationships with clients?
 guid: 8fd23958-f42d-42de-8c0e-67030c5cee9b
 uri: do-you-pursue-short-or-long-term-relationships-with-clients

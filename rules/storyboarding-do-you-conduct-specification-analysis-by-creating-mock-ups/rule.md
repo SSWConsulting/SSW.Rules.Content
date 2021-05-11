@@ -9,8 +9,8 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: 
-- /spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
-- /do-you-ask-clients-to-initial-your-work
+- spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
+- do-you-ask-clients-to-initial-your-work
 
 redirects: []
 

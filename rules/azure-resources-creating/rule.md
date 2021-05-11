@@ -52,7 +52,7 @@ Some people half solve the problem by manually creating and saving the script. T
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Bicep by Microsoft (Recommended)
+### Option A: Bicep by Microsoft (recommended)
 
 [https://github.com/Azure/bicep](https://github.com/Azure/bicep)
 
@@ -70,11 +70,7 @@ More info: [Project Bicep – Next Generation ARM Templates](https://devblogs.mi
 :::
 
 ### Option B: Enterprise configuration management (recommended)
-The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like Pulumi or Terraform. These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
-
-[https://www.pulumi.com](Pulumi)
-
-[https://www.terraform.io/docs/providers/azurerm/index.html](Terraform)
+The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like [Pulumi](https://www.pulumi.com) or [Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs). These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
 
 * They're both great tools
 * Both have free options for limited numbers of users
@@ -90,6 +86,6 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
 ![Figure: Good Example - From the console simply run 'pulumi up' to deploy your resources to Azure](pulumi2.png)
 :::
 
-### General Tips
-
-* After you’ve made your changes, don’t forget to [visualize your new resources](/azure-resources-visualizing)
+::: info
+**Tip:** After you’ve made your changes, don’t forget to [visualize your new resources](/azure-resources-visualizing)
+:::

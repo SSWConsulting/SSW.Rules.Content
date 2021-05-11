@@ -18,27 +18,34 @@ redirects: []
 
 When developing software, exceptions are a fact-of-life you will need to deal with. Don't reinvent the wheel, use an existing exception handling library or service.
 
-The best exception handling service is [Application Insights for Visual Studio Online](/rules-to-better-application-insights-for-visual-studio-online), but if you can't use that, then use [elmah.io](https://elmah.io/).
+The best exception handling service is [Application Insights for Visual Studio Online](/rules-to-better-application-insights), but if you can't use that, then use [elmah.io](https://elmah.io/).
 
-Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database.
+Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs.
+
+::: bad
+![If you see this, you are doing something wrong!](default-asp-error-500_small.png)
+:::
 
 <!--endintro-->
 
-At SSW we use Application Insights for Visual Studio Online.
+At SSW we use Application Insights where possible. If you are still developing Windows applications, then you can still use Application Insights, read [here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/windows-desktop) for more details.
 
 ::: greybox
 **Application Insights** will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you’ll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.
 :::
 
-If Application Insights for Visual Studio Online is not available we use ELMAH when developing web applications. From its [NuGet page](https://www.nuget.org/packages/ELMAH):
+If Application Insights is not available we use Seq when developing web applications. From its [page](https://datalust.co/seq):
 
 ::: greybox
-**elmah.io** with initial configuration for getting started quickly. ELMAH (Error Logging Modules and Handlers) is an application-wide error logging facility that is completely pluggable. It can be dynamically added to a running ASP.NET web application, or even all ASP.NET web applications on a machine, without any need for re-compilation or re-deployment.
+**Seq** is built for modern structured logging with message templates. Rather than waste time and effort trying to extract data from plain-text logs with fragile log parsing, the properties associated with each log event are captured and sent to Seq in a clean JSON format. Message templates are supported natively by ASP.NET Core, Serilog, NLog, and many other libraries, so your application can use the best available diagnostic logging for your platform.
 :::
 
-If you are still developing Windows applications, then SSW Exception Logger is the one to use. Read [SSW .NET Toolkit – LadyLog User Guide](https://www.ssw.com.au/ssw/NetToolKit/04ExceptionReporter.aspx).
+Application Insights gives you very useful graphs and analysis which give you a good overview of how things are going. See [here](/rules-to-better-application-insights) for more details. Seq is great for identifying specific issues and how to fix them, but is not as good at letting you see the big picture.
 
-ELMAH can be easily added to your application from NuGet, and it configures itself.
+::: good
+![Seq provides you with plenty of details about what is happening, but if you don't already know what you're looking for, it can be tricky to parse](xn4QHnmBS0Kx39gOv0wM_GettingStarted-1.png)
+:::
 
-![Figure: Add ELMAH to your web application from NuGet](2014-09-08_10-56-57-compressor.png)
-
+::: good
+![Application Insights gives you graphs and analysis that help you find issues, but also lets you drill down to get the details as well](overview.png)
+:::

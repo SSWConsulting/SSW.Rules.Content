@@ -29,7 +29,11 @@ This also applies to communicating with people internally about issues that r
 * Pausing work or ceasing development for any unexplained reason
 
 You should alert your management ASAP.
+If you are not able to fix the problem immediately, you need to inform the clients the next booked in date.
 
 Problems come in endless contexts but here's how we deal with some specific examples:
 1. [Fix bugs first](/management-do-you-fix-bugs-first)
 2. [Make client complaints a positive experience](/make-complaints-a-positive-experience)
+
+![Figure: Don't be Dory!](Dory.png)
+

@@ -8,7 +8,7 @@ created: 2012-03-20T15:13:20.0000000Z
 authors: 
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses MacLaren
+- title: Ulysses Maclaren
   url: https://ssw.com.au/people/uly
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo

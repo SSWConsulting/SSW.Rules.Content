@@ -72,7 +72,7 @@ For tiny stories, you can omit acceptance criteria. Sometimes you just need a sc
 
 ::: greybox
 See screenshot and video.
-Screenshot – [see PDF](/Documents/13_Anvil_1408_Customer.pdf)
+Screenshot – [see PDF](13_Anvil_1408_Customer.pdf)
 Video - [http://ww w.youtube.com/watch?v=M3FH4D9QuzU](http://www.youtube.com/watch?v=M3FH4D9QuzU "http://www.youtube.com/watch?v=M3FH4D9QuzU")
 :::
 

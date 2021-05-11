@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/tiago-araujo
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+- add-useful-and-concise-figure-captions
 redirects:
 - figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
 - figures-do-you-use-the-right-html-css-code-to-add-images-and-captions
@@ -21,25 +22,17 @@ Most developers put the image and the caption in a DIV tag, where the figure is 
 
 <!--endintro-->
 
-
-
 ```
 <div>
   <img alt="">
   <p>Figure: Caption</p>
 </div>
 ```
-
-
-
-
 ::: bad
 Figure: Bad Example  
 :::
 
-Instead, you should use      **&lt;figure&gt;** and      **&lt;figcaption&gt;** as per [https://www.w3schools.com/TAGS/tag\_figcaption.asp](https&#58;//www.w3schools.com/TAGS/tag_figcaption.asp). This structure gives semantic meaning to the image and figure:
-
-
+Instead, you should use **&lt;figure&gt;** and **&lt;figcaption&gt;** as per [https://www.w3schools.com/TAGS/tag\_figcaption.asp](https&#58;//www.w3schools.com/TAGS/tag_figcaption.asp). This structure gives semantic meaning to the image and figure:
 
 ```
 <figure>
@@ -47,21 +40,13 @@ Instead, you should use      **&lt;figure&gt;** and      **&lt;figcaption&gt;** 
   <figcaption>Figure: Caption</figcaption>
 </figure>
 ```
-
-
-
-
 ::: good
 Figure: Good Example
-
 :::
 
 ### The old way
 
-
-For some internal sites, we still use the old way to place images: Using  **&lt;dl&gt;** ,  **&lt;dt&gt;** (which is the item in the list – in our case an image), and      **&lt;dd&gt;** for a caption.
-
-
+For some internal sites, we still use the old way to place images: Using  **&lt;dl&gt;** ,  **&lt;dt&gt;** (which is the item in the list – in our case an image), and **&lt;dd&gt;** for a caption.
 
 ```
  OR <dl class="badImage"> OR <dl class="goodImage"> 
@@ -71,16 +56,8 @@ For some internal sites, we still use the old way to place images: Using  **&lt
    
 </dl>
 ```
+**Figure: Old Example** 
 
-
- **Figure: Old Example** 
-
-**Note:**  &lt;dl&gt; stands for " **definition list** "; &lt;dt&gt; for " **definition term** "; and &lt;dd&gt; for " **definition description** ".
-
-### Relate Rule
-
-
-* [Figures - Do you add useful and concise figure text?](/figures-do-you-add-useful-and-concise-figure-text-aka-a-caption-to-avoid-a-lot-of-text-over-images)
-
-
-</dl>
+::: info
+**Note:** &lt;dl&gt; stands for " **definition list** "; &lt;dt&gt; for " **definition term** "; and &lt;dd&gt; for " **definition description** ".
+:::
