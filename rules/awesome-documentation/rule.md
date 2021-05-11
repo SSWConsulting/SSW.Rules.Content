@@ -18,6 +18,8 @@ authors:
   url: https://ssw.com.au/people/adam-stephensen
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related:
 - reference-do-you-use-the-correct-symbols-when-documenting-instructions
 - reference-do-you-use-the-right-order-of-instructions
