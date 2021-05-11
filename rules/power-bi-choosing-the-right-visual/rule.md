@@ -11,12 +11,23 @@ authors:
   url: https://www.ssw.com.au/people/prem-radhakrishnan
 related:
 ---
-Your reports and dashboards should tell the right story to your end users. 
+Your reports and dashboards should tell the right story to your end users. They should be able to get the gist of the report at a glance and not have to work at trying to understand what it means. 
+
+Visuals in themselves are neither good nor bad. A visual that users love on one report could be a terrible choice on another report. Power BI comes with quite a few built-in visuals and they are adding more to this all the time. However, sometimes you may need something more than the standard offerings in which case you have 2 options.
+
+1. Go to AppSource (previously Marketplace) and choose from the many free/paid offerings 
+2. Create your own custom visual
+
+Using the pre-built visuals in AppSource saves time and money and should work in most cases. The recently introduced Charticulator visual also gives you more flexibility and options. Creating custom visuals from scratch using D3 or similar libraries can be time-consuming. One relatively easy way to add more visual options to your toolset is to create your own visual using React and then use free 3rd party charts to add the extra sizzle. Check out this video to explore this option. https://www.youtube.com/watch?v=eJ6uHwaGJRM 
+
+For more inspiration on using amazing visuals have a look at some of these urls:
+
+1. https://community.powerbi.com/t5/Data-Stories-Gallery/bd-p/DataStoriesGallery
+2. https://flourish.studio/examples/ 
+3. https://formidable.com/open-source/victory/ 
+
 
 <!--endintro-->
 
-Visuals in themselves are neither good nor bad. A visual that users love on one report could be a terrible choice on another report. 
 
-::: good
-![Figure: Good Example - all the slicers are grouped in a consisdtent location and near the filter bar](PowerBIGroupedFilters.jpg)
-:::
+
