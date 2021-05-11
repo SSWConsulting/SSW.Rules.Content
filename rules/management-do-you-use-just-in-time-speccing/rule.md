@@ -28,10 +28,10 @@ The second problem is that when people do write them, they try and spec the whol
 After a long phase of planning and speccing, hand-offs between stages of a project would traditionally involve wighty documents and getting a project from start to finish could take months or years. By embracing "Emergent Architecture" and using an agile approach to project management you spec just enough, at the last responsible moment. Just-in-time speccing ensures:
 * New or evolving requirements can be met.
 * The ability to provide more frequent releases for frequent feedback. 
-* [Superior documentation](awesome-documentation).
+* [Awesome Documentation](awesome-documentation).
 * Limited [Technical Debt](/technical-debt).
 
-![](jit-speccing.png)**Figure: How Just-In-Time Speccing in an Agile Scrum Project**
+![](jit-speccing.png)**Figure: Just-In-Time speccing in an agile Scrum project can handle evolving requirements**
 
 The most popular and most successful way to deliver projects is using a framework called Scrum. In Scrum, you fix the timeframe and the cost so the only variance is in the features that are delivered in that time. You should keep your time to between 2 and 4 weeks and all your team members should be full time, thus fixing the costs.
 
@@ -39,5 +39,5 @@ See [Rules to better Scrum](https://www.ssw.com.au/rules/rules-to-better-scrum-u
 
 At SSW we spec in two phases: first to get an overview of the project, and then ongoing as needed to flesh out each PBI once it is about to be added to a Sprint:
 
-* [Spec Review, or Initial Release Plan](/spec-do-you-create-an-initial-release-plan-and-ballpark)
-* [Just-In-Time Speccing](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) - this phase is repeated through the project
+* [Spec Review](/spec-do-you-create-an-initial-release-plan-and-ballpark)
+* Just-In-Time Speccing - this phase is repeated through the project
