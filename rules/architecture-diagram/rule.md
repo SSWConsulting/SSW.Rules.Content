@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related: 
 - awesome-documentation
 - azure-resources-diagram
