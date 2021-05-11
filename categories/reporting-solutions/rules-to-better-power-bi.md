@@ -5,6 +5,7 @@ guid: a4624ee3-5ae1-492e-bb44-d467bd576b2f
 uri: rules-to-better-power-bi
 index:
 - how-to-add-custom-branding-to-the-power-bi-portal
+- do-you-place-your-slicers-consistently
 - do-you-know-how-to-integrate-power-bi-with-reporting-services-2016
 - do-you-know-how-to-share-links-to-specific-tabs-in-power-bi-reports
 - do-you-know-not-to-use-alphabetical-sorting
