@@ -108,8 +108,9 @@ There are 7 crucial documents for your project:
 * Patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
 * 3rd Party libraries or utilities used
 * Alternative solutions considered. For example
-  * We chose to use a code centric solution over a low code solution because we did not want to be locked into a specific vendor.
+  * We chose to use a code-centric solution over a low code solution because we did not want to be locked into a specific vendor.
   * We chose to use Angular over React because the developers on the project were more familiar with Angular.
+  * We chose to use Azure over On-premises so we could avoid procurement of costly servers.
 
 **6. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
 
