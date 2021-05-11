@@ -11,7 +11,6 @@ index:
 - all-the-things-you-can-use-qr-code-for
 - rule
 - do-you-know-how-to-be-a-good-product-owner
-- agreements---do-you-join-the-team-as-a-tester
 - agreements---do-you-know-who-pays-for-bugs
 - agreements---do-you-provide-a-product-owner
 - agreements---do-you-use-1-or-2-week-sprints
