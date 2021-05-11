@@ -98,12 +98,20 @@ There are 7 crucial documents for your project:
 
 **4. docs\Business** – explains the purpose of the application, including the problem, goals, and statement of intent.
 
-**5. docs\Technologies-and-Architecture** – Provides a technical overview of the solution, including any 3rd party libraries or utilities, patterns followed (e.g.        [https://rules.ssw.com.au/rules-to-better-clean-architecture](/rules-to-better-clean-architecture)), architecture decisions, etc. This document should cover software architecture and cloud architecture (or on-premises if you’re a dinosaur 🦕), and should \*always\* have a system architecture diagram (see:        [https://rules.ssw.com.au/have-an-architecture-diagram](/have-an-architecture-diagram)), as well as an Azure resources diagram, see: [https://rules.ssw.com.au/azure-resources-diagram/](/azure-resources-visualizing)
+**5. docs\Technologies-and-Architecture** – Provides a technical overview of the solution. There are four crucial areas to this part of the documentation
+* Architecture diagrams which should include the following
+  * [A system architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project
+  * Software architecture
+  * Cloud architecture (or on-premises if you’re a dinosaur 🦕) including an [Azure resources diagram](https://www.ssw.com.au/rules/azure-resources-diagram)
+* Patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
+* 3rd Party libraries or utilities used
+* Alternative solutions considered. For example
+  * We chose to use a code centric solution over a low code solution because we did not want to be locked into a specific vendor.
+  * We chose to use Angular over React because the developers on the project were more familiar with Angular.
 
 **6. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
 
 **7. docs\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see:        [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
-
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
@@ -202,4 +210,4 @@ We can choose to continue paying the interest, or we can pay the debt in full by
 
 The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 
-Warning: if you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each sprint. If you do want to keep it, make sure you add it to your [definition of done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)to keep it updated.
+Warning: if you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each sprint. If you do want to keep it, make sure you add it to your [definition of done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) to keep it updated.
