@@ -31,7 +31,7 @@ After a long phase of planning and speccing, hand-offs between stages of a proje
 * [Awesome Documentation](awesome-documentation).
 * Limited [Technical Debt](/technical-debt).
 
-![](jit-speccing.png)**Figure: Just-In-Time speccing in an agile Scrum project can handle evolving requirements**
+![Figure: Just-In-Time speccing in an agile Scrum project can handle evolving requirements](jit-speccing.png)
 
 The most popular and most successful way to deliver projects is using a framework called Scrum. In Scrum, you fix the timeframe and the cost so the only variance is in the features that are delivered in that time. You should keep your time to between 2 and 4 weeks and all your team members should be full time, thus fixing the costs.
 
