@@ -8,8 +8,8 @@ created: 2009-03-30T02:33:59.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+- title: Brady Stroud
+  url: https://www.ssw.com.au/people/brady-stroud
 related: []
 redirects: []
 
