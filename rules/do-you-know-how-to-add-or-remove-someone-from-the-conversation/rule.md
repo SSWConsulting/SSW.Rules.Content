@@ -10,6 +10,9 @@ authors:
   url: https://www.github.com/adamcogan
 - title: Brady Stroud
   url: https://www.github.com/bradystroud
+- title: Kiki Biancatti
+  url: https://www.ssw.com.au/people/kiki
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects: []
 
