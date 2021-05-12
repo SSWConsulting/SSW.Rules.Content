@@ -7,9 +7,9 @@ uri: do-you-know-how-to-add-or-remove-someone-from-the-conversation
 created: 2009-03-30T02:33:59.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: https://www.github.com/adamcogan
 - title: Brady Stroud
-  url: https://www.ssw.com.au/people/brady-stroud
+  url: https://www.github.com/bradystroud
 related: []
 redirects: []
 
