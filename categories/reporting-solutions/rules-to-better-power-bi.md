@@ -6,6 +6,8 @@ uri: rules-to-better-power-bi
 index:
 - do-you-use-version-control-with-power-bi
 - best-practices-around-colour
+- avoid-using-too-many-decimals
+- single-focus-number
 - do-you-know-how-to-share-links-to-specific-tabs-in-power-bi-reports
 - how-to-add-custom-branding-to-the-power-bi-portal
 - do-you-place-your-slicers-consistently
