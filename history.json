@@ -18946,9 +18946,9 @@
 	},
 	{
 		"file": "rules/best-free-resources-for-angular/rule.md",
-		"lastUpdated": "2019-03-06T04:49:51+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-14T00:04:56.086Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2019-01-30T14:09:01+11:00",
 		"createdBy": "rebeccaliu@ssw.com.au",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -25918,5 +25918,14 @@
 		"lastUpdated": "2021-05-10T18:08:28.781Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/best-free-resources-for-angular/Little-Book-Angular.pdf",
+		"created": "2021-05-14T00:04:56.086Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-14T00:04:56.086Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
