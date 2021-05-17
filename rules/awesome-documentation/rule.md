@@ -110,7 +110,7 @@ There are 7 crucial documents for your project:
 * Alternative solutions considered. For example
   * We chose to use a code-centric solution over a low code solution because we did not want to be locked into a specific vendor.
   * We chose to use Angular over React because the developers on the project were more familiar with Angular.
-  * We chose to use Azure over On-premises so we could avoid procurement of costly servers.
+  * We chose to use Azure over on-premises so we could avoid procurement of costly servers.
 
 **6. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
 
@@ -128,12 +128,12 @@ Documents to be read or edited by the Product Owner (or other members of the Scr
 Azure DevOps
 * [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
 * [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
-* An alternative wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
+* An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 GitHub
 * [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
 * The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
-* An alternative wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
+* An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 **Tip** : You can publish your documentation from the repo using [GitHub Pages](https://pages.github.com/)
 
