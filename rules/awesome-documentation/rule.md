@@ -121,14 +121,14 @@ It also means that when a developer makes a change to the code that needs an upd
 
 **Exposing documentation through a Wiki (for developers and other stakeholders):**
 
-Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. We recommend that your Wiki is sourced from the repo **docs\\** folder to ensure documentation is kept up to date with development. There are several options for creating a Wiki:
+Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. The Wiki should be sourced from the repo **docs\\** folder to ensure documentation is kept up-to-date. There are several options for creating a Wiki:
 
-Azure DevOps
+Azure DevOps wiki options:
 * [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
 * [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
-GitHub
+GitHub wiki options:
 * [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
 * The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
