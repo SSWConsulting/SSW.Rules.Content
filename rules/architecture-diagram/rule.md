@@ -168,7 +168,7 @@ Maintain standards to keep your diagrams consistent:
 ![Figure: Good Example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders](SSW.People-Architecture-Diagram.png)
 :::
 
-### Tip 9: Tip 9 – Where to store Diagrams?
+### Tip 9: Where to store Diagrams?
 
 Standardizing where your organisation stores architecture diagrams is important to ensure a consistent experience among developers. We recommend that you store all your architecture diagrams in the repo **docs\\** folder. Additionally, You should link to the high-level architecture diagram in your README.md so future developers can locate it easily. If you have a wiki, we recommend you use the repo **docs\\** folder as the source of wiki documentation.
 
