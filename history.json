@@ -25937,8 +25937,7 @@
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
-  {
-    
+	{
 		"file": "rules/avoid-using-too-many-decimals/rule.md",
 		"created": "2021-05-14T16:59:09.051Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -25946,7 +25945,7 @@
 		"lastUpdated": "2021-05-14T17:09:47.148Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  },
+	},
 	{
 		"file": "rules/single-focus-number/rule.md",
 		"created": "2021-05-14T17:00:39.176Z",
@@ -25956,7 +25955,7 @@
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
-  {
+	{
 		"file": "rules/single-focus-number/report-single-number-1.jpg",
 		"created": "2021-05-14T17:07:38.517Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -25983,7 +25982,7 @@
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
-  {
+	{
 		"file": "rules/avoid-using-too-many-decimals/powerbi-no-decimals.jpg",
 		"created": "2021-05-14T17:09:47.149Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -25991,5 +25990,5 @@
 		"lastUpdated": "2021-05-14T17:09:47.149Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  }
+	}
 ]
