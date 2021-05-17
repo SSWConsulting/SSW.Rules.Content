@@ -18,18 +18,22 @@ Ok, once a project gets going, you can end up dealing with many people on the cl
 <!--endintro-->
 
 
-::: greybox
- **To:** Angelo;
-**Cc:** John, Sophie
-**Subject:** Changes Requested by Sophie
+::: email-template
+|          |     |
+| -------- | --- |
+| To:      | Angelo |
+| Cc:      | John, Sophie |
+| Bcc:     | ZZZ |
+| Subject: | Changes Requested by Sophie |  
+::: email-content
 As per our conversation, Sophie has requested the following changes to your application: modifying rptContractRenewal to include the "MaidenName" field from the ClientContact Table, and positioning right next to the Surname field.
 
 Please let us know ASAP if you don't want this problem fixed.
 
-Thanks, 
+Thanks,
 John
 [www.ssw.com.au](http&#58;//www.ssw.com.au/)
-
+:::
 :::
  **Figure: Sample Change Request Confirmation email** So, say Alan from Accounts would like the Username and Password authentication to have a "remember me" checkbox for the Accounts module. This sounds reasonable, but it doesn't mean that you should charge right in and start coding.
 As an example, this is how we govern this process:

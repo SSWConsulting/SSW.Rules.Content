@@ -25,7 +25,7 @@ Customers - WeChat allows users to follow a Business/Brand account upon scanning
 
 Businesses - Followers of the WeChat Business/Brand accounts can be sent a limited number of messages per month, usually product info and promotions.
 
-![Figure: A QR on a Microsoft’s newsletter, it allows customers to scan and follow the business account](Microsoft-official-account.GIF) 
+![Figure: A QR on a Microsoft’s newsletter, it allows customers to scan and follow the business account](Microsoft-official-account.gif) 
 
 ![Figure: The WeChat app can scan the QR code, then allow the customer to click the follow button. They will then receive regular updates](Follow-official-account.png) 
 
