@@ -14,9 +14,9 @@ related:
 
 ---
 
-- **Autonomy** — Software developers have a desire to be self directed. Compliance can be abrasive. 
-- **Mastery** — Software developers love sharping their skills. 
-- **Purpose** — Software developers desire to work on projects that make an impact, have meaning and is important
+- **Autonomy** — Software developers have a desire to be self-directed. Many find that micro-management is restrictive and stifles their creativity. 
+- **Mastery** — Software developers love sharpening their skills. 
+- **Purpose** — Software developers want to work on important projects that have meaning and make an impact.
 
 <!--endintro-->
 

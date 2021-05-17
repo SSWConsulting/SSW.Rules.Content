@@ -5,16 +5,13 @@ guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
 - do-you-understand-the-value-of-consistency
-- autonomy-mastery-and-purpose
 - do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+- autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
-- do-you-pursue-short-or-long-term-relationships-with-clients
-- management-is-your-client-clear-on-how-you-manage-projects
 - deadlines-and-sprints
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - do-you-provide-ongoing-support
-- management-do-you-maintain-verbal-contact-with-your-client
-- management-do-you-spec-in-bite-sized-pieces
+- management-do-you-use-just-in-time-speccing
 - storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 - do-you-conduct-market-research-via-the-web
 - do-you-know-the-best-crm-solutions-for-your-company
@@ -23,7 +20,6 @@ index:
 - management-do-you-always-inform-your-client-how-long-a-task-took
 - management-do-you-use-xp-scrum-wisely
 - methodology-daily-scrums
-- do-you-send-morning-goals-this-rule-is-out-of-date
 - do-you-allow-users-to-check-for-a-new-version-easily
 - do-you-keep-the-best-possible-bug-database
 - do-you-log-every-error

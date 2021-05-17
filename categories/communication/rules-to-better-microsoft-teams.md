@@ -7,10 +7,10 @@ index:
 - create-a-team
 - teams-naming-conventions
 - teams-emojis
-- use-the-status-message-in-teams
-- do-you-know-the-right-format-to-show-your-phone-number
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
+- use-the-status-message-in-teams
+- do-you-know-the-right-format-to-show-your-phone-number
 - track-project-documents
 - where-to-keep-your-files
 - teams-add-the-right-tabs
@@ -29,7 +29,6 @@ index:
 - use-emojis-in-you-channel-names
 
 ---
-Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.
+Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.
 
 If you still need help, visit our [Microsoft Teams consulting page](https://www.ssw.com.au/ssw/Consulting/Microsoft-Teams.aspx) and book in a consultant.
-
