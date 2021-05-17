@@ -9,7 +9,7 @@ index:
 - infrastructure-and-networking
 - application-lifecycle-management-alm
 - products
-- marketing
+- marketing-and-video
 - reporting-solutions
 - others
 - software
