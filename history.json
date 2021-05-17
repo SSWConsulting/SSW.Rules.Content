@@ -16570,9 +16570,9 @@
 	},
 	{
 		"file": "rules/allow-users-to-get-up-to-date-messages/rule.md",
-		"lastUpdated": "2017-06-01T04:57:21+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-17T00:44:41.687Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2017-06-01T04:11:01+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -25675,6 +25675,15 @@
 		"lastUpdated": "2021-05-04T21:08:55.154Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/allow-users-to-get-up-to-date-messages/VisualStudioUpdateNotifications.png",
+		"created": "2021-05-06T01:28:26.189Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-17T00:44:41.687Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/access_policies.png",
