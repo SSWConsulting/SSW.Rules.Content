@@ -170,7 +170,8 @@ Maintain standards to keep your diagrams consistent:
 
 ### Tip 9: Where to store Diagrams?
 
-Standardizing where your organisation stores architecture diagrams is important to ensure a consistent experience among developers. We recommend that you store all your architecture diagrams in the repo **docs\\** folder. Additionally, You should link to the high-level architecture diagram in your README.md so future developers can locate it easily. If you have a Wiki, we recommend you use the repo **docs\\** folder as the source of Wiki documentation.
+Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs\\** folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs\\* folder). 
+Note: If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs\\** folder.
 
 ### Related links
 
