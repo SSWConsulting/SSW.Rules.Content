@@ -100,21 +100,21 @@ There are 7 crucial documents for your project:
 
 **4. docs\Business** – explains the purpose of the application, including the problem, goals, and statement of intent.
 
-**5. docs\Technologies-and-Architecture** – Provides a technical overview of the solution. There are four crucial areas to this part of the documentation
-* Architecture diagrams which should include the following
-  * [A system architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project
-  * Software architecture
-  * Cloud architecture (or on-premises if you’re a dinosaur 🦕) including an [Azure resources diagram](https://www.ssw.com.au/rules/azure-resources-diagram)
-* Patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
-* 3rd Party libraries or utilities used
-* Alternative solutions considered. For example
-  * We chose to use a code-centric solution over a low code solution because we did not want to be locked into a specific vendor.
-  * We chose to use Angular over React because the developers on the project were more familiar with Angular.
-  * We chose to use Azure over on-premises so we could avoid procurement of costly servers.
+**5. docs\Technologies-and-Architecture** – Provides a technical overview of the solution.
+* [An architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
+* Lower level architecture diagrams of the system eg. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
+* Coding patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
+* 3rd party libraries used 
+* 3rd party services used 
+
+**6. docs\Alterative-Solutions-Considered** – explains other options that were discounted. For example
+  * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor eg. Dynamics, Outsystems.
+  * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
+  * We chose to use Azure over on-premises to avoid procurement of costly servers.
 
 **6. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
 
-**7. docs\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see:        [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
+**7. docs\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
@@ -137,7 +137,7 @@ GitHub
 
 **Tip** : You can publish your documentation from the repo using [GitHub Pages](https://pages.github.com/)
 
-**Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see: [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
+**Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
 
 
 ::: bad  
