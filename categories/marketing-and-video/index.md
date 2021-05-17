@@ -1,7 +1,7 @@
 ---
 type: top-category
-title: Marketing
-uri: marketing
+title: Marketing and Video
+uri: marketing-and-video
 index:
 - rules-to-better-marketing
 - rules-to-better-marketing-plans
@@ -15,6 +15,8 @@ index:
 - rules-to-better-event-management
 - rules-to-better-social-media
 - rules-to-running-better-user-groups
+- rules-to-better-video-recording
+- rules-to-better-youtube
 
 ---
 
