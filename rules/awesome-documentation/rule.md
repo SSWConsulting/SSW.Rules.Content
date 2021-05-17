@@ -82,13 +82,10 @@ There may be exceptions – some situations benefit from this kind of documentat
 
 
 
-### Good example – The 7 Important Documents
+### Good example – The 8 Important Documents
 
 
 This style of documentation is used by modern teams who are Agile only.
-
-
-There are 7 crucial documents for your project:
 
 **In the repository (for developers):**
 
@@ -111,10 +108,11 @@ There are 7 crucial documents for your project:
   * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor eg. Dynamics, Outsystems.
   * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
   * We chose to use Azure over on-premises to avoid procurement of costly servers.
+  * Note: If you decide that after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
 
-**6. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
+**7. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
 
-**7. docs\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
+**8. docs\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
