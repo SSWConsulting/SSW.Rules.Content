@@ -66,7 +66,7 @@ At a minimum, your architecture diagram should include:
 Your diagram needs to include the relationships between these components, and how they share and process data.
 
 
-### Tip 2: Don't use a .NET Dependency Graph as a System Architecture Diagram
+### Tip 2: Don't use a .NET Dependency Graph as a Architecture Diagram
 
 
 The .NET dependency diagram is a useful tool, but it drills down into a specific component of the solution (the code) while ignoring the rest of it (the infrastructure). If it adds value to your documentation (i.e., there is a specific reason to include it) you can include the .NET dependency diagram, but don't use it here in place of the architecture diagram.
@@ -149,7 +149,7 @@ There are multiple extensions available that let you do this, the best one is [V
 
 
 ::: good
-![Figure: Good Example - Auctions (a Blazor + .NET + Cosmos DB project) - system architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
+![Figure: Good Example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
 :::
 
 ### Tip 8: Polish up Diagrams.net
