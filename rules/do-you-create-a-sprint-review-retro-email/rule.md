@@ -12,6 +12,8 @@ authors:
   url: https://ssw.com.au/people/drew-robson
 - title: Chris Briggs
   url: https://ssw.com.au/people/chris-briggs
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 
@@ -21,62 +23,42 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 
 <!--endintro-->
 
-Firstly, Create a new email copying the information from the previous sprint review/retro. It should include the following:
+Firstly, Create a new email copying the information from the previous sprint review/retro. As per [https://rules.ssw.com.au/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
-* Subject: &lt;Client Name&gt; Sprint XX Review/Retro
-* Screenshot of Burndown from Azure DevOps
-* Breakdown of work completed (including current code coverage value)
-* Link to test environment
-* Relevant notes from the retrospective
-* CC - SSWSprintReviews@sswcom.onmicrosoft.com
+::: email-template  
+|          |     |
+| -------- | --- |
+| From:    | &lt;Your Name&gt; |
+| To:      | &lt;Product Owner&gt; |
+| Cc:      | SSWSprintReviews@sswcom.onmicrosoft.com |
+| Subject: | &lt;Product Owner&gt; Sprint XX Review/Retro |  
+::: email-content  
+
+### Hi &lt;Product Owner&gt;, 
 
 
-
-Hi [Product Owner],
-
-
-| Sprint in Review:  | [Sprint Number] |
+| Sprint in Review:  | &lt;Sprint Number&gt; |
 | --- | --- |
-| Sprint Goal:  | [Goal] |
-| Sprint Duration:  | [Number of weeks] |
-| Project:  | [Project Name] |
-| Project Portal:  | [Link to project Portal] |
-| Test Environment:      | [Link to test environment] |
-| Product Owner:  | [Product Owner Name] |
+| Sprint Goal:  | &lt;Goal&gt; |
+| Sprint Duration:  | &lt;Number of weeks&gt; |
+| Project:  | &lt;Project Name&gt; |
+| Project Portal:  | &lt;Link to project Portal&gt; |
+| Test Environment:      | &lt;Link to test environment&gt; |
+| Product Owner:  | &lt;Product Owner Name&gt; |
 
 
 Attendees:        *(Optional as they may be in the to and CC)*
 
-
-
 ### Sprint Review
 
 
-
-
-
-| **ID**  | **Title**  | **State**  |  **Effort** 
- |
+| **ID**  | **Title**  | **State**  |  **Effort** |
 | --- | --- | --- | --- |
-| 24124 
- | UI Improvements
- | Done
- | 4
- |
-| 24112 
- | Integrate Business Logic to MVC app  
- | Done | 8
- |
-| 24097 
- | Styling
- | Committed  
- | 16
- |
+| 24124 | UI Improvements | Done | 4 |
+| 24112 | Integrate Business Logic to MVC app | Done | 8 |
+| 24097 | Styling | Committed | 16 |
 
-**Figure: Sprint Backlog from [Link to Sprint Backlog in Azure DevOps]** 
-
-
-As per [https://rules.ssw.com.au/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), we review:
+**Figure: Sprint Backlog from &lt;Link to Sprint Backlog in Azure DevOps&gt;** 
 
 1. Sprint Burndown (a quick overview of the sprint)
 
@@ -101,8 +83,6 @@ XXX
 ![Application Health Overview Timeline.png](Application Insights.jpg)
 
 ### R&D 
-
-
 
 
 **Did we do any experimental work?
@@ -136,4 +116,9 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 &lt;This is as per the rule:        [https://rules.ssw.com.au/do-you-create-a-sprint-review-retro-email](/do-you-create-a-sprint-review-retro-email) /&gt;
 
+:::  
+:::  
+
+::: good
 **Figure: Good Example - Template for Sprint Review/Retro Email. Subject: Sprint xxx Review/Retro**
+:::
