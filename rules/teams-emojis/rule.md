@@ -21,20 +21,16 @@ It's usually easier for users to remember where given information is when it is 
 
 <!--endintro-->
 
-An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use Emojis in your channel names (using **Windows Key + **.**)!
+An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use Emojis in your channel names (using **Windows Key** + **.**)!
 
 ::: bad  
-![Figure: Bad Example - Teams Channel names without emojis](Teams_Emojis_Bad.png)  
+![Figure: Bad example - Teams Channel names without emojis](Teams_Emojis_Bad.png)  
 :::
 
 ::: good  
-![Figure: Good Example - Teams Channel names have emojis](Teams_Emojis_Good.png)  
+![Figure: Good example - Teams Channel names have emojis](Teams_Emojis_Good.png)  
 :::
 
 ::: good  
-![Figure: Good example - Control4 automation Mobile UI is more friendly with emojis](control4-emoji.png)  
-:::
-
-::: good  
-![Figure: Good example - some appointments can benefit from an emoji ](calendar-emoji.png)  
+![Figure: Good example - Some appointments can benefit from an emoji too](calendar-emoji.png)  
 :::
