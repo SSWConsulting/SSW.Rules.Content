@@ -19936,7 +19936,7 @@
 	},
 	{
 		"file": "rules/teams-emojis/rule.md",
-		"lastUpdated": "2021-05-06T18:40:35.743Z",
+		"lastUpdated": "2021-05-18T19:35:43.113Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-09-05T16:29:20+10:00",
@@ -25132,9 +25132,9 @@
 		"created": "2021-04-06T01:05:40.422Z",
 		"createdBy": "Piers Sinclair [SSW]",
 		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
-		"lastUpdated": "2021-04-07T00:21:37.685Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+		"lastUpdated": "2021-05-18T18:02:08.025Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/Employee-YOLO-Day/rule.md",
@@ -26015,6 +26015,33 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-05-18T19:36:57.353Z",
+    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/do-you-use-the-best-mobile-app-for-expenses/rule.md",
+		"created": "2021-05-18T19:22:11.264Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-18T19:29:03.905Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-mobile-app-for-expenses/google-trends-with-xero.jpg",
+		"created": "2021-05-18T19:27:05.963Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-18T19:29:03.905Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-use-the-best-mobile-app-for-expenses/google-trends-without-xero.jpg",
+		"created": "2021-05-18T19:27:05.963Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-18T19:29:03.905Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
