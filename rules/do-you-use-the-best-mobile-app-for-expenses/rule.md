@@ -54,7 +54,7 @@ There are 2 purposes when evaluating an Expense app:
 | Two-factor Authentication |  **Yes ✔**  | No | **Yes ✔**  | No |
 | How-to Videos | Yes | **Yes - The most videos ✔**  | Yes | No |
 | Descriptive Notes |  **Yes ✔**  |   **Yes ✔**  | Not available |  **Yes ✔**  |
-| Bank Specification |  **Yes✔**  | Not at $840/year |  **Yes ✔**  |  **Yes✔**  |
+| Bank Specification |  **Yes ✔**  | Not at $840/year |  **Yes ✔**  |  **Yes ✔**  |
 
 **Overall, the winner is Xero Expense app.** The design of the Xero Expense app provides all the user experience to enable simple and convenient reimbursement requests or company spent money receipts for reconciliation. 
 
