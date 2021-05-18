@@ -101,6 +101,7 @@ It should be easy to tell at a glance which direction data flows in your diagram
 Group components logically by enclosing them in a box. Components that operate independently can stand alone, and those that work together to deliver a logical function can be grouped together. Also show components that are out of scope, i.e. important for understanding the architecture but not necessarily part of it, e.g. legacy components, partner components, or components that have not been implemented yet.
 
 Note: for clarity, out of scope items whether one or many, should be in a box.
+
 ::: good
 ![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used, e.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
 :::
