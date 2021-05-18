@@ -30,7 +30,7 @@ Npm packages often get new releases (adding new functionalities, fixing bugs or 
 
 To update your packages, use `npm update package-name` or `yarn upgrade package-name`. Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to see which packages are outdated, and upgrade them all at once.
 
-![Figure: Using yarn upgrade-interactive](https://user-images.githubusercontent.com/38869720/118733537-cd521c80-b87f-11eb-8008-dedf1e9cc07a.png)
+![Figure: Using yarn upgrade-interactive](upgrade-interactive.png)
 
 
 
