@@ -72,7 +72,7 @@ XXX
 
 4. Burnup (for the release - the whole project, how are we tracking for the big picture?)
 
-![Figure: Release Burnup](Release Burnup.jpg)  
+![Figure: Release Burnup](ReleaseBurnup.jpg)  
 
 5. Production Deployments (How many times did we deploy to Production?)
 
@@ -80,7 +80,7 @@ XXX
 
 6. Application Health Overview Timeline (For the entire Sprint)
 
-![Application Health Overview Timeline.png](Application Insights.jpg)
+![Application Health Overview Timeline.png](ApplicationInsights.jpg)
 
 ### R&D 
 
