@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you keep your npm packages up to date?
+title: Do you keep your npm and yarn packages up to date?
 guid: 1cf8a8d6-8140-42bb-8f5f-d8416a1f9dd7
 uri: do-you-keep-your-npm-packages-up-to-date
 created: 2020-09-30T00:17:47.0000000Z
@@ -27,6 +27,11 @@ Npm packages often get new releases (adding new functionalities, fixing bugs or 
 `npm audit` returns an audit on your packages for vulnerabilities. It also provides information on how to resolve them.
 
 ![Figure: Use 'npm audit' to discover vulnerabilities in your application](npm_audit.png)
+
+To update your packages, use `npm update package-name` or `yarn upgrade package-name`. Yarn also has a useful tool called `yarn upgrade-interactive` that allows you to see which packages are outdated, and upgrade them all at once.
+
+![Figure: Using yarn upgrade-interactive](https://user-images.githubusercontent.com/38869720/118733537-cd521c80-b87f-11eb-8008-dedf1e9cc07a.png)
+
 
 
 <!--endintro-->
