@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Power BI – Do you avoid using too many decimal places in reports?
+title: Do you avoid using too many decimal places in reports?
 guid: 0b26e15a-ab05-4626-9736-2bf21eb452c9
 uri: avoid-using-too-many-decimals
 created: 2021-05-14T05:06:33.0000000Z
