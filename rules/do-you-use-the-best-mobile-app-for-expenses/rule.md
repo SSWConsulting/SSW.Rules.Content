@@ -69,13 +69,13 @@ As a user, all you have to do is take a photo of the receipt from your mobile ap
 ### What are the most popular expenses apps?
 
 **With Xero:** 
-![Figure: Google Trends (September 2020) show that Hubdoc and Receipt Bank are the most popular apps](google-trends-with-xero.jpg)
+![Figure: Google Trends (May 2021) show that Hubdoc and Receipt Bank are the most popular apps](google-trends-with-xero.jpg)
 
 More at **[Google Trends](https://trends.google.com/trends/explore?q=%22Xero%20Expenses%22%2cxero%20expensify%2cxero%20hubdoc%2cxero%20%22Receipt%20Bank%22)**
 
 **Without Xero:**
 
-![Figure: Google Trends (September 2020) show Expensify and Receipt Bank as the most popular.](google-trends-without-xero.jpg)
+![Figure: Google Trends (May 2021) show Expensify as the most popular](google-trends-without-xero.jpg)
 
 More at **[Google Trends](https://trends.google.com/trends/explore?geo=US&q=Xero%20Expenses%2cexpensify%2chubdoc%2c%22Receipt%20Bank%22)**
 
