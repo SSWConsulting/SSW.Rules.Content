@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Power BI – Do you have a single focus number for each report when possible?
+title: Do you have a single focus number for each report when possible?
 guid: ba6001fc-7384-4b6e-9af4-6044b4b92781
 uri: single-focus-number
 created: 2021-05-14T06:06:33.0000000Z
