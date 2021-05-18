@@ -16912,9 +16912,9 @@
 	},
 	{
 		"file": "rules/the-best-package-manager-for-react/rule.md",
-		"lastUpdated": "2017-12-21T20:12:24+11:00",
-		"lastUpdatedBy": "Eden Liang",
-		"lastUpdatedByEmail": "EdenLiang@ssw.com.au",
+		"lastUpdated": "2021-05-18T22:30:15.422Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2017-08-16T09:12:15+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -26015,10 +26015,10 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-05-18T19:36:57.353Z",
-    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
-  },
-  {
+	},
+	{
 		"file": "rules/do-you-use-the-best-mobile-app-for-expenses/rule.md",
 		"created": "2021-05-18T19:22:11.264Z",
 		"createdBy": "Tiago Araújo [SSW]",
