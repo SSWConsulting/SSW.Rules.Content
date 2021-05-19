@@ -8,7 +8,8 @@ created: 2012-05-01T04:53:37.0000000Z
 authors:
 - id: 4
   title: Ulysses Maclaren
-related: []
+related: 
+- agreements---do-you-book-the-next-sprint-ahead-of-time
 
 ---
 
