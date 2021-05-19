@@ -3,10 +3,12 @@ type: rule
 archivedreason: 
 title: Agreements - Do you know who pays for 'bugs'?
 guid: 9415e325-c883-4d06-8dc4-40fb5316e835
-uri: agreements---do-you-know-who-pays-for-bugs
+uri: do-you-know-who-pays-for-bugs
 created: 2010-05-20T10:30:33.0000000Z
 authors: []
 related: []
+redirects:
+- agreements---do-you-know-who-pays-for-bugs
 
 ---
 
