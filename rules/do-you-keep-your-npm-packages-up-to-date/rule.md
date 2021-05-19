@@ -34,6 +34,6 @@ To update your packages, use `npm update package-name` or `yarn upgrade package-
 
 ![Figure: Using yarn upgrade-interactive](upgrade-interactive.png)
 
-
+**Note: Use `yarn upgrade-interactive --latest` to see outdated packages with breaking changes.**
 
 <!--endintro-->
