@@ -11,6 +11,7 @@ authors:
   - title: Nicholas Viet
     url: https://www.ssw.com.au/people/nick-viet
 related:
+- agreements---do-you-use-1-or-2-week-sprints
 - agreements---do-you-know-who-pays-for-bugs
 - agreements---do-you-join-the-team-as-a-tester
 ---
