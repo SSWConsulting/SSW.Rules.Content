@@ -8,6 +8,7 @@ created: 2021-05-19T06:35:55.0000000Z
 authors: 
   - title: Nicholas Viet
     url: https://www.ssw.com.au/people/nick-viet
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Nick-Viet/Images/Nick-Viet-Profile.jpg
 related:
 
 ---
