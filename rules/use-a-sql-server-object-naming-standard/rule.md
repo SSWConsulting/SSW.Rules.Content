@@ -37,7 +37,7 @@ All feedback is welcome. Thanks to all who gave feedback. A special thanks to An
 | User-Defined Functions |    udf     |                     udfDueDates                      |
 
 
-Note: We never use defaults as objects, this is really an old thing that is just there for backwards compatibility. Much better to use a default constraint.
+\* We never use defaults as objects, this is really an old thing that is just there for backwards compatibility. Much better to use a default constraint.
 
 ### Other Links
 
