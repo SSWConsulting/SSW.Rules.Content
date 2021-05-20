@@ -8,6 +8,7 @@ created: 2010-05-20T10:30:33.0000000Z
 authors: []
 related: []
 redirects:
+- agreements---do-you-know-whomst-pays-for-bugs
 - agreements---do-you-know-who-pays-for-bugs
 
 ---
