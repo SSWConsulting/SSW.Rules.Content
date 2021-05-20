@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do use spaces in table names?
+title: Do you use spaces in table names?
 guid: 1c244aed-36dd-48c5-9232-1b02f2ca90e3
 uri: add-a-description-to-github-repositories
 created: 2021-05-19T05:09:16.0000000Z
@@ -14,7 +14,7 @@ redirects: []
 
 ---
 
-It is important to add a description to your repositories so they do not appear blank in the preview on your profile.
+It is important to add a description to your repositories so they do not appear blank in the preview on your GitHub profile.
 
 ::: bad
 ![Figure: Repositorties with no description look bad](bad-no-description.png)
