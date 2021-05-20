@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use spaces in table names?
+title: Do you add a description to your GitHub repositories?
 guid: 1c244aed-36dd-48c5-9232-1b02f2ca90e3
 uri: add-a-description-to-github-repositories
 created: 2021-05-19T05:09:16.0000000Z
