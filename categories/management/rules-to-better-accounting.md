@@ -12,7 +12,7 @@ index:
 - do-you-have-monthly-accounting-meetings
 - pay-invoices-completely
 - do-you-use-the-best-mobile-app-for-expenses
-- do-You-Calculate-Payroll-Tax-Correctly
+- do-you-calculate-payroll-tax-correctly
 - how-to-enter-an-expensify-receipt
 - do-you-create-a-new-report-for-related-expenses
 - do-you-check-your-customers-organisation-age-for-prepaid
