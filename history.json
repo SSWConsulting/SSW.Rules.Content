@@ -22294,7 +22294,7 @@
 	},
 	{
 		"file": "rules/do-you-keep-your-npm-packages-up-to-date/rule.md",
-		"lastUpdated": "2021-05-18T22:36:09.780Z",
+		"lastUpdated": "2021-05-20T04:30:36.603Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2020-09-30T10:17:49+10:00",
@@ -26044,6 +26044,15 @@
 		"lastUpdated": "2021-05-18T19:29:03.905Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-keep-your-npm-packages-up-to-date/upgrade-interactive.png",
+		"created": "2021-05-18T23:00:41.109Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-20T04:30:36.604Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
 		"file": "rules/add-a-description-to-github-repositories/bad-no-description.png",
