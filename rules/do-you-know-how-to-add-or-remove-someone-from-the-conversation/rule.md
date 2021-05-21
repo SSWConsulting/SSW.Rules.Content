@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to add or remove someone from the conversation?
 guid: 3c8003d8-0779-4ec2-977c-4d114dfb5bad
-uri: do-you-know-how-to-add-or-remove-someone-from-the-conversation
+uri: how-to-add-or-remove-someone-from-the-conversation
 created: 2009-03-30T02:33:59.0000000Z
 authors:
 - title: Adam Cogan
@@ -14,7 +14,8 @@ authors:
   url: https://www.ssw.com.au/people/kiki
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
-redirects: []
+redirects: 
+ - do-you-know-how-to-add-or-remove-someone-from-the-conversationThisIsnotthesame
 
 ---
 
