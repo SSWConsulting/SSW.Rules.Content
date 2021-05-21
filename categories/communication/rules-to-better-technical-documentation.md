@@ -8,6 +8,7 @@ index:
 - use-the-right-capitalization
 - how-to-capitalize-titles
 - highlight-items-in-your-document
+- hide-sensitive-information
 - include-version-numbers-in-your-file
 - how-to-add-quotations
 - avoid-using-unnecessary-words
