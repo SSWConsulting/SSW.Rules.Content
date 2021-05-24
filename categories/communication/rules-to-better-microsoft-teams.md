@@ -6,7 +6,7 @@ uri: rules-to-better-microsoft-teams
 index:
 - create-a-team
 - teams-naming-conventions
-- teams-emojis
+- use-emojis
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
 - use-the-status-message-in-teams
