@@ -26,8 +26,10 @@ index:
 - do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 - track-your-initial-meetings
 - calendar-does-your-calendar-always-accurately-show-where-you-are
+- use-emojis
 
 ---
+
 It's important to use your calendar correctly as it's your main organizational tool and how others view your time.
 
 Since calendars are often used with emails, you should also have a look at [Rules to Better Email](/rules-to-better-email).
