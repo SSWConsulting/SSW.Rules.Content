@@ -31,6 +31,8 @@ Note that both of the following solutions work best when you're dealing with peo
 ![Figure: Microsoft Cortana Scheduler](Sexy-face.jpg)
 This option is best if you're ok to meet any time that your calendar says is free.
 
+**Note:** The helpful tool Scheduler has a portal too at [https://calendar.help/user/dashboard](https://calendar.help/user/dashboard)
+
 ### Instructions to use Cortana
 
 #### Step 1 - Register
@@ -57,11 +59,9 @@ We need to talk about Northwind project.
 
 :::  
 :::  
-**Figure: after your normal text to a person, add some request to Cortana**
+**Figure: after your message, add some request to Cortana as you would a PA**
 
-Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf.
-
-![Figure: Speak to Cortana as you would a PA](Cortana.jpg)  
+Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf. 
 
 ![Figure: Cortana will find a time that suits everyone and send the appointment](confirmation.jpg)  
 
@@ -76,13 +76,9 @@ To make it easier to add Cortana to your emails, create a Contact.
 
 ![Figure: Cortana added as a contact](CortanaContact.jpg)  
 
-::: info
 **Mobile – works great ✔**
 
 ![Figure: Microsoft Scheduler – Fully works on mobile phone](cortana-scheduler-mobile.jpg)  
-
-![Figure: The helpful tool Scheduler has a portal too at](cortana.jpg)[https://calendar.help/user/dashboard](https://calendar.help/user/dashboard)
-:::
 
 ## FindTime
 
@@ -94,15 +90,13 @@ Propose your selected times to all attendees and allow everyone to vote and quic
 
 FindTime sends out the meeting invite on your behalf. More on [https://findtime.microsoft.com](https://findtime.microsoft.com/)
 
+**Note:** Findtime’s competitor is https://calendly.com
+
 ![Figure: FindTime gives a nice UI for people working in the same org, as you can see times that might be available for all attendees easily (e.g. 8 am above)](findtime-scheduler.jpg)  
 
-::: info
 **Mobile – does not work ❌**
 As of Dec 2020, FindTime does not work on iOS.
 
 Vote at [What features would you like to see in FindTime?](https://findtime.uservoice.com/forums/316122-ideas-tell-us-your-great-ideas/suggestions/13358103-findtime-for-iphone-in-outlook-for-ios)
 
 ![Figure: FindTime - No mobile support for iOS](findtime-mobile.jpg)
-:::
-
-**Note:** Findtime’s competitor is https://calendly.com
