@@ -33,7 +33,7 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 :::
 
 ::: good  
-![Figure: Good example - Control4 automation Mobile UI is more friendly with emojis](Control4_Emojis_Good.png)
+![Figure: Good example - Control4 automation Mobile UI is more friendly with emojis](control4-emojis.png)
 :::
 
 ::: good  
