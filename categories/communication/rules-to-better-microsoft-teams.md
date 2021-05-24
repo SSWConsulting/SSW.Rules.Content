@@ -6,7 +6,7 @@ uri: rules-to-better-microsoft-teams
 index:
 - create-a-team
 - teams-naming-conventions
-- teams-emojis
+- use-emojis
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
 - use-the-status-message-in-teams
@@ -29,6 +29,7 @@ index:
 - use-emojis-in-you-channel-names
 
 ---
+
 Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.
 
 If you still need help, visit our [Microsoft Teams consulting page](https://www.ssw.com.au/ssw/Consulting/Microsoft-Teams.aspx) and book in a consultant.
