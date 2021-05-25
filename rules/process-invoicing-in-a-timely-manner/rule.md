@@ -20,7 +20,7 @@ redirects:
 
 The majority of client issues arise from miscommunication and miscommunication on invoices and accounts issues can make things very difficult very quickly.  Therefore, you should always process invoicing on at least a weekly basis.
 
-(see [Rules to Better Timesheets](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=cb136e2c-2bd9-47d0-adb6-8f905dc7b828))
+See [Rules to Better Timesheets](/rules-to-better-timesheets)
 
 During invoicing you should ensure:
 
