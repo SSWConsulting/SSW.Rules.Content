@@ -24,7 +24,7 @@ index:
 - do-you-sell-the-sizzle-not-the-steak
 - spelling-do-you-use-us-english
 - do-you-use-american-spelling-for-your-website
-- seo-do-you-use-hotjar-to-heatmap-your-site
+- website-heatmaps
 - use-both-english-spelling-on-google-ads
 - do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
 - do-you-know-the-components-of-a-google-ads-campaign
@@ -57,4 +57,3 @@ Marketing can be a very broad and complicated topic. Everyday technology is cons
 So much has changed over the last years; an online presence has become key to success; with a new focus on branding consistency and credibility. Due to this, the cost of marketing has increased a lot, on top of all of the knowledge you now need to have as a marketer.
  
 With this set of rules, we aim to help you cut through the maze of marketing jargon and to help you reach your goals faster.
-
