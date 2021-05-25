@@ -16,6 +16,12 @@ redirects:
 
 ---
 
-	Azure API Management provides a feature where the automated API documentation can be provided using your corporate branding.
-  <!--endintro-->
-   If you are looking to sell access to your APIs, this is a fantastic feature because you can combine your corporate identity into the user interface your customers will be seeing.
+Designing your API up front can be very useful where you have a significant amount of backend development to complete before there is sufficient functionality for front end development to easily commence. 
+<!--endintro-->
+Rather than waiting for the backend to be complete, the APIs can be agreed up front. Tools like **Azure API Management** then allow you to mock up the APIs with sample data, allowing the front end development to commence much sooner.  
+ This can result in valuable feedback on the API and backend functionality much earlier in your development lifecycle. The key benefit is being able to present the frontend to stakeholders for feedback really early.  
+
+
+Watch Adam Cogan and William Liebenberg discuss the benefits.
+
+`youtube: https://youtu.be/nKb6kj_lXXM`
