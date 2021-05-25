@@ -6,6 +6,7 @@ uri: rules-to-better-github
 index:
 - enable-pull-requests-to-ensure-code-is-reviewed
 - do-you-know-how-to-name-a-github-repository
+- add-a-description-to-github-repositories
 - do-you-know-how-to-structure-a-project-for-github
 - do-you-know-how-to-use-tags-for-github-issues
 - use-github-topics

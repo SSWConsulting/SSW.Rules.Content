@@ -10,7 +10,11 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
-related: []
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
+related: 
+- awesome-documentation
+- azure-resources-diagram
 redirects:
 - have-an-architecture-diagram
 - do-you-have-an-architecture-diagram
@@ -62,7 +66,7 @@ At a minimum, your architecture diagram should include:
 Your diagram needs to include the relationships between these components, and how they share and process data.
 
 
-### Tip 2: Don't use a .NET Dependency Graph as a System Architecture Diagram
+### Tip 2: Don't use a .NET Dependency Graph as a Architecture Diagram
 
 
 The .NET dependency diagram is a useful tool, but it drills down into a specific component of the solution (the code) while ignoring the rest of it (the infrastructure). If it adds value to your documentation (i.e., there is a specific reason to include it) you can include the .NET dependency diagram, but don't use it here in place of the architecture diagram.
@@ -97,6 +101,7 @@ It should be easy to tell at a glance which direction data flows in your diagram
 Group components logically by enclosing them in a box. Components that operate independently can stand alone, and those that work together to deliver a logical function can be grouped together. Also show components that are out of scope, i.e. important for understanding the architecture but not necessarily part of it, e.g. legacy components, partner components, or components that have not been implemented yet.
 
 Note: for clarity, out of scope items whether one or many, should be in a box.
+
 ::: good
 ![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used, e.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
 :::
@@ -145,7 +150,7 @@ There are multiple extensions available that let you do this, the best one is [V
 
 
 ::: good
-![Figure: Good Example - Auctions (a Blazor + .NET + Cosmos DB project) - system architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
+![Figure: Good Example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
 :::
 
 ### Tip 8: Polish up Diagrams.net
@@ -164,8 +169,11 @@ Maintain standards to keep your diagrams consistent:
 ![Figure: Good Example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders](SSW.People-Architecture-Diagram.png)
 :::
 
+### Tip 9: Where to store Diagrams?
+
+Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs\\** folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs\\* folder). 
+Note: If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs\\** folder.
+
 ### Related links
 
-
-* [Do you have an Azure resources diagram?](/azure-resources-visualizing)
 * [8 Tips to Better Architecture Diagrams](https://adamcogan.com/2020/10/07/8-tips-to-better-architecture-diagrams/)
