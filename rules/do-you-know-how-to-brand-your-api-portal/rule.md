@@ -21,4 +21,5 @@ Azure API Management provides a feature where the automated API documentation ca
 If you are looking to sell access to your APIs, this is a fantastic feature because you can combine your corporate identity into the user interface your customers will be seeing.  
 
 Watch Adam Cogan and William Liebenberg discuss the benefits.
+
 `youtube: https://youtu.be/mXLyAmDyXFc`
