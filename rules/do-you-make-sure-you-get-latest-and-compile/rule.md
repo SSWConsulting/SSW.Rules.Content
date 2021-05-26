@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you make sure you get latest and compile?
+title: Do you make it simple get latest and compile?
 guid: be2d36fd-bd6e-4e50-8b05-b76591961d5f
-uri: do-you-make-sure-you-get-latest-and-compile
+uri: make-it-simple-to-get-latest-and-compile
 created: 2012-03-16T07:44:28.0000000Z
 authors:
 - title: Adam Cogan
@@ -13,7 +13,8 @@ authors:
 - title: Eric Phan
   url: https://ssw.com.au/people/eric-phan
 related: []
-redirects: []
+redirects:
+- do-you-make-sure-you-get-latest-and-compile
 
 ---
 
