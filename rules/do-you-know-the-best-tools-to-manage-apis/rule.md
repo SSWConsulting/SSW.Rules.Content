@@ -34,7 +34,7 @@ Figure: Good Example (more comprehensive)
 :::
 
 ::: greybox
-For smaller organizations one of the http://swagger.io products may suit better. They are free to start with until you start looking for more advanced features. The feature set even on the paid tiers is still significantly more limited than Azure API Management, however the cost is also much lower.
+For smaller organizations one of the [http://swagger.io](http://swagger.io) products may suit better. They are free to start with until you start looking for more advanced features. The feature set even on the paid tiers is still significantly more limited than Azure API Management, however the cost is also much lower.
 :::
 
 ::: good
