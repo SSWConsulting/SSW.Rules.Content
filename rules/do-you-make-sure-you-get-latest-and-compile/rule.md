@@ -22,10 +22,16 @@ As a developer, there are few things more frustrating than troubles compiling an
 
 A good developer makes it easy to get a new project, compile it, and have a smooth "F5" experience.
 
-![](f5-key.jpg)  
+![Figure: The F5 Experience!](f5-key.jpg)  
 
 <!--endintro-->
 
 Check they have a README or instruction files in their solution as per the rule [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually)
 
+### Docker Containerization
 
+Docker can make the experience even better for your developers. Development environments are liable to break easily or have documentation fall out of date. This problem is exacerbated if you come back to a project after a long time away. 
+
+Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on the machine. Everything will be set up for them at the click of a button. Microsoft has a great [tutorial on setting up docker containers as development environments](https://docs.microsoft.com/en-us/learn/modules/use-docker-container-dev-env-vs-code/).
+
+Docker containerization delivers a true f5 experience!
