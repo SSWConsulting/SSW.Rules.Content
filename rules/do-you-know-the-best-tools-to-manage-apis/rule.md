@@ -16,27 +16,18 @@ redirects:
 
 ---
 
-When building APIs one of the challenges is in how to document the API for other developers to consume. 
-<!--endintro-->
-
-Using a tool that automates this is extremely valuable as it helps avoid the biggest bugbear of developers, stale documentation. This resulted in a number of standards being developed for specifying APIs. Swagger being the most common, but there are a few others.
-
-::: greybox
-The best tool for use in medium to large organizations is **Azure API Management**. It has all the features other API Management tools have. It also provides an API gateway for simplifying hosting your APIs. This gateway allows easy handling of all sorts of use cases. Things like rate limiting, consistent authentication, firewalls and code first APIs are supported easily. This is all as well as providing API documentation to developers.
-:::
-
-`youtube: youtube: https://youtu.be/a_PU1IfSyBQ`
-
-Watch Adam Cogan and William Liebenberg explain more about Azure API Management.
-
-::: good
-Figure: Good Example (more comprehensive)
-:::	
+	When building APIs one of the challenges is in how to document the API for other developers to consume. 
+  <!--endintro-->
+  Using a tool that automates this is extremely valuable as it helps avoid the biggest bugbear of developers, stale documentation. This resulted in a number of standards being developed for specifying APIs. Swagger being the most common, but there are a few others.
 	
-::: greybox
-	For smaller organizations one of the [http://swagger.io](http://swagger.io) products may suit better. They are free to start with until you start looking for more advanced features. The feature set even on the paid tiers is still significantly more limited than Azure API Management, however the cost is also much lower.
-:::
-
-::: good
-Figure:	Good Example (for small teams or projects)
-:::
+	
+	
+	<mark>(Recommended)</mark>The best tool for use in medium to large organizations is Azure API Management. It has all the features other API Management tools have. It also provides an API gateway for simplifying hosting your APIs. This gateway allows easy handling of all sorts of use cases. Things like rate limiting, consistent authentication, firewalls and code first APIs are supported easily. This is all as well as providing API documentation to developers.
+	
+	Watch Adam Cogan and William Liebenberg explain more about Azure API Management.
+	Good Example (more comprehensive)
+	
+	
+	
+	<mark>(Recommended)</mark>For smaller organizations one of the [http://swagger.io](http://swagger.io) products may suit better. They are free to start with until you start looking for more advanced features. The feature set even on the paid tiers is still significantly more limited than Azure API Management, however the cost is also much lower.
+	Good Example (for small teams or projects)
