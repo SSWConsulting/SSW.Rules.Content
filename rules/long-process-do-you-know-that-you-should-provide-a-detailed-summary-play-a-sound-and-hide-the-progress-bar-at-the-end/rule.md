@@ -21,24 +21,36 @@ Your application should remind the user to go back and check on it by:
 * Hiding the progress bar
 * Showing a message box at the end of the long process
 
-
-See rule on [Do you know how to make long-running processes user-friendly?](http://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Windows-Applications.aspx#LongProcessFriendly)
+See rule on [Do you know how to make long-running processes user-friendly?](/long-process-do-you-know-how-to-make-long-running-processes-user-friendly)
 
 When using Message Box to indicate user a process is done, always includes detailed summary of the process. Don't just say "Process completed."
 
-Process completed. 
- Figure: Bad example – No detailed information 
-This is just like standing at a set of traffic lights listening for the beep to know when to walk, rather than constantly looking at the red and green lights.
-
-
-::: good  
-![Figure: OK Example - A completed progress form](../../assets/ProgressBarComplete.gif)  
+::: greybox
+Process completed.  
+:::
+::: bad
+Figure: Bad example – No detailed information 
 :::
 
-Manual extraction process completed.
+This is just like standing at a set of traffic lights listening for the beep to know when to walk, rather than constantly looking at the red and green lights.
 
-Mailboxes scanned: 8
-Mailboxes skipped: 2
-Total mailboxes: 10
-Time Taken: 10 minutes, 15 seconds 
- Figure: Good example – The user can see what has been processed
+::: greybox
+Process completed.  
+Time Taken: 15 seconds   
+:::
+::: good  
+Figure: OK Example - A completed progress form  
+:::
+
+::: greybox
+100%  
+Manual extraction process completed.  
+
+Mailboxes scanned: 8  
+Mailboxes skipped: 2  
+Total mailboxes: 10  
+Time Taken: 10 minutes, 15 seconds  
+:::
+::: good
+Figure: Good example – The user can see what has been processed
+:::
