@@ -17,7 +17,7 @@ redirects:
 If you have to use a workaround you should always comment your code and reference. You should also make a Suggestion to [Product] if you think it is something that the product should do.
 
 1. Comment in the code with URL to an existing or new Suggestion
-2. Create a Suggestion to .NET 3 that points to blog post
+2. Create a Suggestion to [Product] that points to blog post
 
 
 <!--endintro-->
@@ -26,8 +26,7 @@ If you have to use a workaround you should always comment your code and referenc
 
 
 ::: greybox
-"This is a workaround as per the suggestion 
-"[URL]  
+"This is a workaround as per the suggestion [URL]  
 :::
  **Figure: Always add a URL to the suggestion that you are compensating for**
 ### Exercise: Understand commenting
