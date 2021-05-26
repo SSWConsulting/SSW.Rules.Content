@@ -25,16 +25,16 @@ Using a tool that automates this is extremely valuable as it helps avoid the big
 The best tool for use in medium to large organizations is **Azure API Management**. It has all the features other API Management tools have. It also provides an API gateway for simplifying hosting your APIs. This gateway allows easy handling of all sorts of use cases. Things like rate limiting, consistent authentication, firewalls and code first APIs are supported easily. This is all as well as providing API documentation to developers.
 :::
 
-`youtube: youtube: https://youtu.be/a_PU1IfSyBQ`
+`youtube: https://youtu.be/a_PU1IfSyBQ`
 
 Watch Adam Cogan and William Liebenberg explain more about Azure API Management.
 
 ::: good
 Figure: Good Example (more comprehensive)
 :::	
-	
+
 ::: greybox
-	For smaller organizations one of the [http://swagger.io](http://swagger.io) products may suit better. They are free to start with until you start looking for more advanced features. The feature set even on the paid tiers is still significantly more limited than Azure API Management, however the cost is also much lower.
+For smaller organizations one of the [http://swagger.io](http://swagger.io) products may suit better. They are free to start with until you start looking for more advanced features. The feature set even on the paid tiers is still significantly more limited than Azure API Management, however the cost is also much lower.
 :::
 
 ::: good
