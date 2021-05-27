@@ -28,7 +28,7 @@ A good developer makes it easy to get a new project, compile it, and have a smoo
 
 Check they have a README or instruction files in their solution as per the rule [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually)
 
-### Docker Containerization
+### Docker Containerization (Recommended)
 
 ![Figure: Docker Logo](docker-logo.png)
 
