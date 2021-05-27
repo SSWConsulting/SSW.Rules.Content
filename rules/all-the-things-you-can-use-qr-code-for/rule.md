@@ -37,6 +37,8 @@ All WeChat users get their own customized QR code. It can be shown for anyone el
 
 ![Figure: Customized WeChat’s personal QR code by change style](personal-qr-code.png)
 
+![Figure: Is this Broken?](Bad-Commit-Message.png)
+
 ![Figure: Tap and hold on a QR image to extract a QR code](extract-a-qr-code.png) 
 
 ### 3. Use a QR code to receive money in Alipay 

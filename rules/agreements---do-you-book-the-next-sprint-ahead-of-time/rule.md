@@ -18,7 +18,7 @@ related:
 ---
 
 
-![Figure: Is this Broken?](Bad-Commit-Message.png)
+
 
 
 When building APIs one of the challenges is in how to document the API for other developers to consume.
