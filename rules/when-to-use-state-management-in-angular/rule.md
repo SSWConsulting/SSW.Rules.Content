@@ -60,7 +60,7 @@ Cons:
 
 ::: greybox
 
-#### Redux (e.g. [NgRx](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications))
+#### Redux (e.g. NgRx[(see rule: https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications))
 
 Redux is a design pattern which centralises the state into a single shared store across the application. It introduces several constraints on how data flows in and out of the state store in order to make the state scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
 
@@ -77,21 +77,3 @@ Cons:
 * Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact
 * 
 :::
-
-
-::: greybox
-
-#### Hybrid Approach
-
-A hybrid approach of combining all three techniques can give the best of both worlds by providing flexibility and allowing different methods to be introduced incrementally. However, it places a burden of knowledge on the developers and can confuse them due to a lack of standardisation.
-
-Pros:
-* Flexibility - Let's you decide the best approach on a case-by-case basis
-* Incremental - Let's you introduce global state management step-by-step
-
-Cons:
-* Standardisation - Lack of standards throughout the codebase can be confusing
-* Knowledge burden - Relies on all developers being able to identify the best time to use each solution
-
-:::
-
