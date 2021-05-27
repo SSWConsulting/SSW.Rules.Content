@@ -9604,9 +9604,9 @@
 	},
 	{
 		"file": "rules/do-you-make-sure-you-get-latest-and-compile/rule.md",
-		"lastUpdated": "2020-08-04T07:24:41+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-27T02:22:35.698Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2012-03-16T18:47:59+11:00",
 		"createdBy": "Lu Zhang",
 		"createdByEmail": "LuZhang@ssw.com.au"
@@ -26179,5 +26179,14 @@
 		"lastUpdated": "2021-05-26T00:28:58.796Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-make-sure-you-get-latest-and-compile/docker-logo.png",
+		"created": "2021-05-27T02:22:35.698Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-27T02:22:35.698Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
 ]
