@@ -56,7 +56,7 @@ Cons:
 
 ::: greybox
 
-#### Redux (e.g. [NgRx]())
+#### Redux (e.g. [NgRx](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications))
 
 Redux provides a comprehensive framework for state management. It defines a strict way of constructing your code in a manner that is scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
 
