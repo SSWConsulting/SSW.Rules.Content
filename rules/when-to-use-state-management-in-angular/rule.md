@@ -41,7 +41,7 @@ Cons:
 
 #### State management in observable services
 
-Using observable services takes state management to the next level. Using this method, we can enable communication between different components. However, as the application builds out and we need to create more and more services, it becomes challenging to maintain.
+Using observable services takes state management to the next level. Using this method, we can enable communication between different components. This solution is suitable for most scenarios, however as your application grows in complexity, it can become challenging to maintain.
 
 Pros:
 * Ease of use - Quick and easy to implement
