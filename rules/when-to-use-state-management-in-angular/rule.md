@@ -6,6 +6,10 @@ guid: cb706a95-5263-49dc-b568-a37bcb03058a
 uri: when-to-use-state-management-in-angular
 created: 2021-05-27T14:09:22.0000000Z
 authors:
+- title: Chris Clement
+  url: https://ssw.com.au/people/chris-clement
+- title: Matt Goldman
+  url: https://ssw.com.au/people/matt-goldman
 - title: Piers Sinclair
   url: https://ssw.com.au/people/piers-sinclair
 related:
