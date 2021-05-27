@@ -58,19 +58,20 @@ Cons:
 
 #### Redux (e.g. [NgRx](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications))
 
-Redux provides a comprehensive framework for state management. It defines a strict way of constructing your code in a manner that is scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
+Reduxis a design pattern which centralises the state into a single shared store across the application. It introduces several constraints on how data flows in and out of the state store in order to make the state scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
 
 Pros:
-* Sharing of state - Makes global state management simpler
+* Centralised state - Makes global state management simpler
 * Separation of concerns - Allows you to separate network/business logic from the UI
-* Predictable - Makes state predictable
+* Predictable - Makes state change predictable due to the use of pure functions
+* Unidirectional data flow - Eliminate rouge services mutating the state without firing a trackable action
 
 Cons:
-* Speed - It can take a long time to write code
+* Velocity - It can take more code to write
 * Boilerplate - Requires the use of many files and has a lot of repetition
 * Learning Curve - Can be easy to get wrong if you are an inexperienced user
-* Load times - More packages mean longer load times
-
+* Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact
+* 
 :::
 
 
