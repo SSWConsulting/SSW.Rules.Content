@@ -11,7 +11,7 @@ authors:
 - title: Drew Robson
   url: https://ssw.com.au/people/drew-robson
 related: 
-- /do-you-use-the-best-exception-handling-library
+- do-you-use-the-best-exception-handling-library
 redirects: []
 
 ---
