@@ -25,10 +25,13 @@ There are many different options you can choose from including the following:
 #### Local state in component
 
 Pros:
-* 
+* Speed - Quick and easy to code
+* Boilerplate - Very little boilerplate needed
 
 Cons:
-*
+* Sharing state - Hard for different components to communicate
+* Scalabilitiy - If the application starts to require more interaction between components it might not scale well
+* Separation of concerns - Hard to keep UI apart from data
 
 :::
 
@@ -46,13 +49,15 @@ Cons:
 
 ::: greybox
 
-#### Local state in component
+#### Hybrid Approach
 
 Pros:
-* 
+* Flexibility - Let's you decide the best approach on a case-by-case basis
+* Incremental - Let's you introduce global state management step-by-step
 
 Cons:
-*
+* Standardisation - Lack of standards throughout the code base can be confusing
+* Knowledge burden - Relies on all developers being able to identify the best time to use each solution
 
 :::
 
@@ -61,10 +66,15 @@ Cons:
 #### Redux
 
 Pros:
-* 
+* Sharing of state - Makes global state management simpler
+* Separation of concerns - Allows you to separate network/business logic from the UI
+* Predictable - Makes state predictable
 
 Cons:
-*
+* Speed - Takes a longer time to write code
+* Boilerplate - Requires the use of many files and has a lot of repetition
+* Learning Curve - Can be easy to get wrong if you are an inexperienced user
+* Load times - More packages mean longer load times
 
 :::
 
