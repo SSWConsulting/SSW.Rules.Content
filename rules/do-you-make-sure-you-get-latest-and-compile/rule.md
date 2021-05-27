@@ -18,7 +18,7 @@ redirects:
 
 ---
 
-As a developer, there are few things more frustrating than troubles compiling an application. It's amazing how often you can't simply Clone a repository (aka "Get Latest") and compile it. Too often the response from other developers is "it works on my machine". 
+As a developer, there are few things more frustrating than troubles compiling an application. It's amazing how often you can't simply clone a repository (aka "Get Latest") and compile it. Too often the response from other developers is "it works on my machine". 
 
 A good developer makes it easy to get a new project, compile it, and have a smooth "F5" experience.
 
@@ -32,6 +32,6 @@ Check they have a README or instruction files in their solution as per the rule 
 
 Docker can make the experience even better for your developers. Development environments are liable to break easily or have documentation fall out of date. This problem is exacerbated if you come back to a project after a long time away. 
 
-Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on the machine. Everything will be set up for them at the click of a button. Microsoft has a great [tutorial on setting up docker containers as development environments](https://docs.microsoft.com/en-us/learn/modules/use-docker-container-dev-env-vs-code/).
+Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on the machine. Everything will be set up for them at the click of a button. Microsoft has a great [tutorial](https://docs.microsoft.com/en-us/learn/modules/use-docker-container-dev-env-vs-code/) and [documentation](https://code.visualstudio.com/docs/remote/containers) on setting up docker containers as development environments for VS Code. 
 
 Docker containerization delivers a true f5 experience!
