@@ -62,7 +62,7 @@ Cons:
 
 #### Redux (e.g. [NgRx](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications))
 
-Reduxis a design pattern which centralises the state into a single shared store across the application. It introduces several constraints on how data flows in and out of the state store in order to make the state scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
+Redux is a design pattern which centralises the state into a single shared store across the application. It introduces several constraints on how data flows in and out of the state store in order to make the state scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
 
 Pros:
 * Centralised state - Makes global state management simpler
