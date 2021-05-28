@@ -25,7 +25,7 @@ In the prior rule:      [Do you review the documentation? we learnt of the 6 doc
 
 There are 4 levels of project documentation. Documentation can start simple but ends up having a lot of manual steps. The best projects have simple documentation but more done automatically (level 4).
 
-### Level 1 - Lots of documentation step by step
+### Level #1 - Lots of documentation step by step
 
 
 Add a document as a solution item and name it '\_Instructions.docx'
