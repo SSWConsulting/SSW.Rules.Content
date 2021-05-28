@@ -47,9 +47,9 @@ Cons:
 Using observable services takes state management to the next level. Using this method, we can enable communication between different component trees. This solution is suitable for most scenarios.
 
 Pros:
-* Sharing State - You can pass state between different component trees
+* Sharing state - You can pass state between different component trees
 * Ease of use - Quick and easy to implement
-* Separation of concerns - keeps business logic away from the presentation logic
+* Separation of concerns - Keeps business logic away from the presentation logic
 
 Cons:
 * Scalability - Services can become a web of dependencies if not kept in check
@@ -73,6 +73,6 @@ Pros:
 Cons:
 * Velocity - It can take more code to write
 * Boilerplate - Requires the use of many files and has a lot of repetition
-* Learning Curve - Can be easy to get wrong if you are an inexperienced user
+* Learning curve - Can be easy to get wrong if you are an inexperienced user
 * Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact.
 :::
