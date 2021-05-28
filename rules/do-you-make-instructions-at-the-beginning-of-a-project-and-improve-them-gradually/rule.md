@@ -170,7 +170,7 @@ Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run
 :::
 
 
-### Level 5 Docker Containerization
+### Level #5 Docker Containerization
 
 ![Figure: Docker Logo](docker-logo.png)
 
