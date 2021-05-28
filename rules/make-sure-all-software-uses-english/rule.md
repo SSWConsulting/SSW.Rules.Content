@@ -179,6 +179,10 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 ### Microsoft Teams 
 
 1. Navigate to Microsoft Teams | Manage account
+
 ![Figure: Navigate to Microsoft Teams | Manage account](TeamsManageAccount.png)
+
 2. Navigate to General | App language and then select English from the dropdown.
+
 ![Figure: Navigate to General | App language and then select English from the dropdown](TeamsChangeLanguage.png)
+
