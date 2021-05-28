@@ -180,4 +180,4 @@ Docker containerization helps to standardize development environments. By using 
 
 ## Further Reading
 
-To see other documentation Rules, have a look at     [Do you review the documentation?](/do-you-review-the-documentation)
+To see other documentation Rules, have a look at [Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation)
