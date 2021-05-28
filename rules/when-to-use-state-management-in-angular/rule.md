@@ -26,18 +26,17 @@ There are many different options you can choose from, including the following:
 
 ::: greybox
 
-#### Local state in component
+#### State managed in parent-child component hierarchies
 
-Local state is the most basic use case. In this method, components do not know about the state of other components. It works well for simple scenarios but falls over when lots of communication is required between different components.
+In this method, components do not know about the state of other components but rather receive data via inputs and emit data via events. It works well for simple scenarios but falls over when lots of communication is required between different components.
 
 Pros:
-* Speed - Quick and easy to code
-* Boilerplate - Very little boilerplate needed
+* Simplicity - Out of the box
 
 Cons:
-* Sharing state - Hard for different components to communicate
-* Scalability - If the application starts to require more interaction between components, it might not scale well
-* Separation of concerns - Hard to keep UI apart from data
+* Communication - No shared state across component trees
+* Scalability - When the depth of hierarchies grows, it becomes hard to deal with
+* Separation of concerns - Tight coupling between components in the tree
 
 :::
 
@@ -45,35 +44,35 @@ Cons:
 
 #### State management in observable services
 
-Using observable services takes state management to the next level. Using this method, we can enable communication between different components. This solution is suitable for most scenarios, however as your application grows in complexity, it can become challenging to maintain.
+Using observable services takes state management to the next level. Using this method, we can enable communication between different component trees. This solution is suitable for most scenarios.
 
 Pros:
+* Sharing State - You can pass state between different component trees
 * Ease of use - Quick and easy to implement
 * Separation of concerns - keeps business logic away from the presentation logic
-* Sharing State - You can pass state between different components
 
 Cons:
-* Scalability - Once more than one service is introduced, it becomes harder to manage
-* Predictability - The way state is managed could vary between different services, confusing.
+* Scalability - Services can become a web of dependencies if not kept in check
+* Predictability - Consistency is not enforced in the way state is managed
+* Testability - It can be hard to test services due to the inherent dependency web
 
 :::
 
 ::: greybox
 
-#### Redux (e.g. NgRx[(see rule: https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications))
+#### Redux e.g. NgRx [(see rule: https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)](https://www.ssw.com.au/rules/use-ngrx-on-complex-applications)
 
-Redux is a design pattern which centralises the state into a single shared store across the application. It introduces several constraints on how data flows in and out of the state store in order to make the state scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
+Redux is a design pattern which centralizes the state into a single shared store across the application. It introduces several constraints on how data flows in and out of the state store in order to make the state scalable and consistent. However, it requires a lot more code and can lead to longer development times. Often this makes sense for large, complicated applications but less so for simple ones.
 
 Pros:
-* Centralised state - Makes global state management simpler
-* Separation of concerns - Allows you to separate network/business logic from the UI
-* Predictable - Makes state change predictable due to the use of pure functions
-* Unidirectional data flow - Eliminate rouge services mutating the state without firing a trackable action
+* Centralized state - Makes global state management simpler
+* Separation of concerns - Goes one step further by separating business logic and state management
+* Predictability - Makes state change predictable by enforcing consistecy
+* Testability - Pure functions are much easier to test as they have no external dependencies
 
 Cons:
 * Velocity - It can take more code to write
 * Boilerplate - Requires the use of many files and has a lot of repetition
 * Learning Curve - Can be easy to get wrong if you are an inexperienced user
-* Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact
-* 
+* Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact.
 :::
