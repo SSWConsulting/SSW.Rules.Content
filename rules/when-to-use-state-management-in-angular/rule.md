@@ -37,6 +37,7 @@ Cons:
 * Communication - No shared state across component trees
 * Scalability - When the depth of hierarchies grows, it becomes hard to deal with
 * Separation of concerns - Tight coupling between components in the tree
+* Testability - You cannot properly unit test parent-child components
 
 :::
 
