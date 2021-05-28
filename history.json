@@ -7687,9 +7687,9 @@
 	},
 	{
 		"file": "rules/methodology-daily-scrums/rule.md",
-		"lastUpdated": "2021-04-13T00:38:36.962Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-28T06:57:59.640Z",
+		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
+		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com",
 		"created": "2015-06-16T05:14:43+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -9064,7 +9064,7 @@
 	},
 	{
 		"file": "rules/do-you-use-the-best-exception-handling-library/rule.md",
-		"lastUpdated": "2021-04-26T22:27:27.018Z",
+		"lastUpdated": "2021-05-27T19:08:32.847Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-09-12T05:19:43+10:00",
@@ -14527,9 +14527,9 @@
 	},
 	{
 		"file": "rules/make-sure-all-software-uses-english/rule.md",
-		"lastUpdated": "2019-10-25T10:05:07+11:00",
-		"lastUpdatedBy": "Sebastien Boissiere",
-		"lastUpdatedByEmail": "Unknown@ssw.com.au",
+		"lastUpdated": "2021-05-28T04:17:55.626Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2018-09-06T17:53:09+10:00",
 		"createdBy": "Shane Ye",
 		"createdByEmail": "ShaneYe@ssw.com.au"
@@ -26095,9 +26095,9 @@
 		"created": "2021-05-21T00:04:23.507Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-05-21T00:08:00.874Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com"
+		"lastUpdated": "2021-05-26T22:22:43.981Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
 		"file": "rules/hide-sensitive-information/blurred-image.jpg",
@@ -26154,6 +26154,15 @@
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
+		"file": "rules/hide-sensitive-information/blurred-image1.jpg",
+		"created": "2021-05-26T22:21:08.071Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-26T22:22:43.981Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
 		"file": "rules/rule.md",
 		"created": "2021-05-25T22:35:50.659Z",
 		"createdBy": "Tiago Araújo [SSW]",
@@ -26190,47 +26199,20 @@
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
 	{
-		"file": "rules/do-you-make-sure-you-get-latest-and-compile/docker-logo.png",
-		"created": "2021-05-28T05:58:00.025Z",
-		"createdBy": "Piers Sinclair",
-		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:06:44.398Z",
+		"file": "rules/make-sure-all-software-uses-english/TeamsChangeLanguage.png",
+		"created": "2021-05-28T04:17:55.625Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-28T04:17:55.625Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
 	{
-		"file": "rules/do-you-make-sure-you-get-latest-and-compile/macbook-visualstudio-run-button.png",
-		"created": "2021-05-28T05:58:00.025Z",
-		"createdBy": "Piers Sinclair",
-		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:06:44.398Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
-	},
-	{
-		"file": "rules/do-you-make-sure-you-get-latest-and-compile/macbook-vscode-run-button.png",
-		"created": "2021-05-28T05:58:00.026Z",
-		"createdBy": "Piers Sinclair",
-		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:06:44.399Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
-	},
-	{
-		"file": "rules/do-you-make-sure-you-get-latest-and-compile/mac-f5-key.jpg",
-		"created": "2021-05-28T05:58:00.026Z",
-		"createdBy": "Piers Sinclair",
-		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:06:44.399Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
-	},
-	{
-		"file": "rules/do-you-make-sure-you-get-latest-and-compile/dotnet-run.png",
-		"created": "2021-05-28T05:58:00.026Z",
-		"createdBy": "Piers Sinclair",
-		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:06:44.399Z",
+		"file": "rules/make-sure-all-software-uses-english/TeamsManageAccount.png",
+		"created": "2021-05-28T04:17:55.625Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-28T04:17:55.625Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
