@@ -186,3 +186,4 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 
 ![Figure: Navigate to General | App language and then select English from the dropdown](TeamsChangeLanguage.png)
 
+3. Done!
