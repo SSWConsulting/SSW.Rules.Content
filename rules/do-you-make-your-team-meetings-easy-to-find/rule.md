@@ -48,35 +48,7 @@ When joining a new team, it's easy to be lost and not know when the important me
 
 ![Figure: Adding a tab to a Team is an indispensable skill](team meeting - add sharepoint tab.gif)  
 
-9. All done 😀
-
-
-<font color="#333333">
-</font>
-
-<font color="#333333">🔥 Make sure you pick "SharePoint" tab (as opposed to "Website" tab) for best possible integration:</font>
-
-<font color="#333333">
-</font>
-![](Bad One.jpg)
-
-
-::: bad
-Figure: Bad Example - using the Website tab  
-:::
-
-<font color="#333333">
-</font>
-![](Good One.jpg)
-
-
-::: good
-Figure: Good Example - using the SharePoint tab
-
-:::
-
-<font color="#333333">
-</font>
+9. All done, now all you need to do is setup some meetings for the channel (see rule: )! 😀
 
 **Suggestion to Microsoft:** [This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te)
 
