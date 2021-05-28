@@ -14527,9 +14527,9 @@
 	},
 	{
 		"file": "rules/make-sure-all-software-uses-english/rule.md",
-		"lastUpdated": "2019-10-25T10:05:07+11:00",
-		"lastUpdatedBy": "Sebastien Boissiere",
-		"lastUpdatedByEmail": "Unknown@ssw.com.au",
+		"lastUpdated": "2021-05-28T04:17:55.626Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2018-09-06T17:53:09+10:00",
 		"createdBy": "Shane Ye",
 		"createdByEmail": "ShaneYe@ssw.com.au"
@@ -26188,5 +26188,23 @@
 		"lastUpdated": "2021-05-26T00:28:58.796Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/make-sure-all-software-uses-english/TeamsChangeLanguage.png",
+		"created": "2021-05-28T04:17:55.625Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-28T04:17:55.625Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/make-sure-all-software-uses-english/TeamsManageAccount.png",
+		"created": "2021-05-28T04:17:55.625Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-28T04:17:55.625Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
 ]
