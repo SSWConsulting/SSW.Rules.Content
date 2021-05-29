@@ -14,15 +14,17 @@ redirects:
 
 ---
 
-If you have to use a workaround you should always comment your code and reference. You should also make a Suggestion to [Product] if you think it is something that the product should do.
+If you have to use a workaround you should always comment your code.
 
-1. Comment in the code with a URL to an existing or new Suggestion
-2. Create a Suggestion to [Product] that points to the blog post
-
+In your code add comments with: 
 
 <!--endintro-->
 
+1. The pain - In the code add a URL to the existing resource your are following 
+e.g. a blog post
 
+2. The potential solution - Search for a suggestion on the product websie. If there isn't one, create a suggestion to the product team that points to the resource.
+e.g. on https://uservoice.com/ or https://bettersoftwaresuggestions.com/
 
 
 ::: greybox
