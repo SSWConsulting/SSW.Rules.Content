@@ -174,9 +174,9 @@ Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run
 
 ![Figure: Docker Logo](docker-logo.png)
 
-Docker can make the experience even better for your developers. Development environments are liable to break easily or have documentation fall out of date. This problem is exacerbated if you come back to a project after a long time away. 
+Docker can make the experience even better for your developers. Development environments are liable to break easily or have documentation fall out of date. This problem is exacerbated when a developer comes back to a project after a long time away. 
 
-Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on the machine. Everything will be set up for them at the click of a button. Microsoft has a great [tutorial](https://docs.microsoft.com/en-us/learn/modules/use-docker-container-dev-env-vs-code/) and [documentation](https://code.visualstudio.com/docs/remote/containers) on setting up docker containers as development environments for VS Code. 
+Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button. Microsoft has a great [tutorial](https://docs.microsoft.com/en-us/learn/modules/use-docker-container-dev-env-vs-code/) and [documentation](https://code.visualstudio.com/docs/remote/containers) on setting up docker containers as development environments for VS Code. 
 
 ## Further Reading
 
