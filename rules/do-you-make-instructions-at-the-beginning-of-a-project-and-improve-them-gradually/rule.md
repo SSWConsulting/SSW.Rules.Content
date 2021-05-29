@@ -23,7 +23,7 @@ Developers are better at coding then creating documentation. However project ins
 
 In the prior rule: [Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation) We looked at the kinds of documents you need and how to structure them.
 
-There are 5 levels of project documentation. Documentation can start simple but ends up having a lot of manual steps. The best projects have simple documentation but more done automatically (level 4 and 5).
+There are 5 levels of project documentation. Documentation can start simple but ends up having a lot of manual steps. The best projects have simple documentation but automate as many steps as possible (level 4 and 5).
 
 ### Level #1 - Lots of documentation step by step
 
