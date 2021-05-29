@@ -21,11 +21,11 @@ Developers are better at coding then creating documentation. However project ins
 
 <!--endintro-->
 
-In the prior rule:      [Do you review the documentation? we learnt of the 6 documents](/do-you-review-the-documentation)
+In the prior rule: [Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation) We looked at the kinds of documents you need and how to structure them.
 
-There are 4 levels of project documentation. Documentation can start simple but ends up having a lot of manual steps. The best projects have simple documentation but more done automatically (level 4).
+There are 5 levels of project documentation. Documentation can start simple but ends up having a lot of manual steps. The best projects have simple documentation but automate as many steps as possible (level 4 and 5).
 
-### Level 1 - Lots of documentation step by step
+### Level #1 - Lots of documentation step by step
 
 
 Add a document as a solution item and name it '\_Instructions.docx'
@@ -51,7 +51,6 @@ Here's a suggestion of what these documents could contain.
 5. Deployment information and procedures 
 
 6. Other things to take care of
-
 
 
 ::: bad  
@@ -170,6 +169,14 @@ Figure: Good example -  Note that on the 2nd run, issues resolved by the 1st run
 :::
 
 
+### Level #5 Docker Containerization
+
+![Figure: Docker Logo](docker-logo.png)
+
+Docker can make the experience even better for your developers. Development environments are liable to break easily or have documentation fall out of date. This problem is exacerbated when a developer comes back to a project after a long time away. 
+
+Docker containerization helps to standardize development environments. By using docker containers developers won't need to worry about the technologies and versions installed on their device. Everything will be set up for them at the click of a button. Microsoft has a great [tutorial](https://docs.microsoft.com/en-us/learn/modules/use-docker-container-dev-env-vs-code/) and [documentation](https://code.visualstudio.com/docs/remote/containers) on setting up docker containers as development environments for VS Code. 
+
 ## Further Reading
 
-To see other documentation Rules, have a look at     [Do you review the documentation?](/do-you-review-the-documentation)
+To see other documentation Rules, have a look at [Do you make awesome documentation?](https://www.ssw.com.au/rules/awesome-documentation)
