@@ -53,7 +53,6 @@ Here's a suggestion of what these documents could contain.
 6. Other things to take care of
 
 
-
 ::: bad  
 ![Bad example - A project without an instruction.](BadNetProject.JPG)  
 :::
