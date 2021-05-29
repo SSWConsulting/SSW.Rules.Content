@@ -48,7 +48,7 @@ When joining a new team, it's easy to be lost and not know when the important me
 
 ![Figure: Adding a tab to a Team is an indispensable skill](team meeting - add sharepoint tab.gif)  
 
-9. All done, now all you need to do is setup some meetings for the channel (see rule: )! 😀
+9. All done, now all you need to do is setup some meetings for the channel (see rule: [Do you know how to create recurring teams meetings for a channel?](https://www.ssw.com.au/rules/create-recurring-teams-meetings-for-a-channel))! 😀
 
 **Suggestion to Microsoft:** [This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te)
 
