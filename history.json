@@ -25929,6 +25929,24 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
+		"file": "rules/power-bi-choosing-the-right-visual",
+		"created": "2021-05-11T06:58:17.355Z",
+		"createdBy": "Prem Radhakrishnan [SSW]",
+		"createdByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
+		"lastUpdated": "2021-05-11T06:58:17.355Z",
+		"lastUpdatedBy": "Prem Radhakrishnan [SSW]",
+		"lastUpdatedByEmail": "58406844+premradhakrishnan@users.noreply.github.com"
+	},
+	{
+		"file": "rules/power-bi-choosing-the-right-visual/rule.md",
+		"created": "2021-05-11T07:42:00.217Z",
+		"createdBy": "Prem Radhakrishnan [SSW]",
+		"createdByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
+		"lastUpdated": "2021-05-30T22:33:51.687Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
 		"file": "rules/best-free-resources-for-angular/Little-Book-Angular.pdf",
 		"created": "2021-05-14T00:04:56.086Z",
 		"createdBy": "Brady Stroud [SSW]",
