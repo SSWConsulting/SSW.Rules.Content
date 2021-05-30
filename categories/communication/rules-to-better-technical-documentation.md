@@ -4,10 +4,12 @@ title: Rules to Better Technical Documentation
 guid: 961f2035-1540-4425-9b29-0d6273ac0726
 uri: rules-to-better-technical-documentation
 index:
+- do-you-avoid-duplicating-content
 - web-content-do-you-write-in-the-newsreader-and-eye-witness-style
 - use-the-right-capitalization
 - how-to-capitalize-titles
 - highlight-items-in-your-document
+- hide-sensitive-information
 - include-version-numbers-in-your-file
 - how-to-add-quotations
 - avoid-using-unnecessary-words

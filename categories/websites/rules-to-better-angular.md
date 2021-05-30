@@ -22,6 +22,7 @@ index:
 - use-client-side-routing
 - generate-interfaces-for-your-dtos
 - avoid-the-dom-in-your-components
+- when-to-use-state-management-in-angular
 - use-ngrx-on-complex-applications
 - the-best-tool-to-debug-javascript
 - separate-your-angular-components-into-container-and-presentational

@@ -68,16 +68,14 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 ::: email-content  
 
 ### Hi \[Team Name\],  
-
-As per our conversation, the Daily Scrum will be held each day.  
-
-Project: **\[Project Name\]**  
-Scrum Master: **\[Scrum Master Name\]** 
+ 
+As per our conversation, the Daily Scrum will be held each day.
+* Project: XXX
+* Scrum Master: XXX
+* Task board: XXX
 
 &lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
 
-Regards,
-\[Your Name\]
 :::  
 :::  
 ::: good  
