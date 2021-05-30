@@ -1,4 +1,3 @@
-
 ---
 type: rule
 archivedreason:
