@@ -17,7 +17,6 @@ index:
 - do-you-know-how-to-integrate-power-bi-with-reporting-services-2016
 - do-you-know-the-difference-between-calculated-columns-and-measures-in-power-bi
 - use-dataverse-connector-when-connecting-dynamics-365
-- do-you-use-version-control-with-power-bi
 - power-bi-choosing-the-right-visual
 
 ---
