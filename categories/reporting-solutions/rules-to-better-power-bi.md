@@ -15,6 +15,7 @@ index:
 - use-email-subscriptions-to-get-reports-in-your-inbox
 - use-dataverse-connector-when-connecting-dynamics-365
 - do-you-use-version-control-with-power-bi
+- power-bi-choosing-the-right-visual
 
 ---
 If you still need help, [visit our Power BI consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Power-BI.aspx) and book in a consultant.
