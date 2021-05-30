@@ -43,6 +43,7 @@ index:
 - use-server-side-comments
 - do-you-use-the-best-static-site-tech-stack
 - use-web-compiler
+- do-you-keep-your-npm-packages-up-to-date
 
 ---
 

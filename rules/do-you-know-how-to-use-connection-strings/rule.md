@@ -185,33 +185,56 @@ You can integrate Key Vault directly into your [ASP.NET Core application configu
 
 ```cs
 public static IHostBuilder CreateHostBuilder(string[] args) =>
-    Host.CreateDefaultBuilder(args)
-        .ConfigureWebHostDefaults(webBuilder =>
-        {
-            webBuilder
-                .UseStartup<Startup>()
-                .ConfigureAppConfiguration((context, config) =>
-                {
-                    if (context.HostingEnvironment.IsProduction())
-                    {
-                        IConfigurationRoot builtConfig = config.Build();
+	Host.CreateDefaultBuilder(args)
+		.ConfigureWebHostDefaults(webBuilder =>
+		{
+			webBuilder
+				.UseStartup<Startup>()
+				.ConfigureAppConfiguration((context, config) =>
+				{
+					// To run the "Production" app locally, modify your launchSettings.json file
+					// -> set ASPNETCORE_ENVIRONMENT value as "Production"
+					if (context.HostingEnvironment.IsProduction())
+					{
+						IConfigurationRoot builtConfig = config.Build();
 
-                        // If running as "Production" from our local environment (not in Azure), then use the Azure CLI credential provider. This means you
-                        // have to log in via `az login` on your command line before running the local app as Production.
-                        // To run as a "Production" app locally, change the ASPNETCORE_ENVIRONMENT value to "Production".
-                        TokenCredential cred = context.HostingEnvironment.IsProduction() ? new DefaultAzureCredential(false) : new AzureCliCredential();
+						// ATTENTION:
+						//
+						// If running the app from your local dev machine (not in Azure AppService),
+						// -> use the AzureCliCredential provider.
+						// -> This means you have to log in locally via `az login` before running the app on your local machine.
+						//
+						// If running the app from Azure AppService
+						// -> use the DefaultAzureCredential provider
+						//
+						TokenCredential cred = context.HostingEnvironment.IsAzureAppService() ?
+							new DefaultAzureCredential(false) : new AzureCliCredential();
 
-                        var keyvaultUri = new Uri($"https://{builtConfig["KeyVaultName"]}.vault.azure.net/");
-                        var secretClient = new SecretClient(keyvaultUri, cred);
-                        config.AddAzureKeyVault(secretClient, new KeyVaultSecretManager());
-                    }
-                });
-        });
+						var keyvaultUri = new Uri($"https://{builtConfig["KeyVaultName"]}.vault.azure.net/");
+						var secretClient = new SecretClient(keyvaultUri, cred);
+						config.AddAzureKeyVault(secretClient, new KeyVaultSecretManager());
+					}
+				});
+		});
 ```
 
 ::: good
 Good Example - Option #5 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
 :::
+
+TIP: You can detect if your application is running on your local machine or on an Azure AppService by looking for the WEBSITE_SITE_NAME environment variable. If null or empty, then you are NOT running on an Azure AppService.
+
+```cs
+public static class IWebHostEnvironmentExtensions
+{
+	public static bool IsAzureAppService(this IWebHostEnvironment env)
+	{
+		var websiteName = Environment.GetEnvironmentVariable("WEBSITE_SITE_NAME");
+		return string.IsNullOrEmpty(websiteName) is not true;
+	}
+}
+```
+
 
 ### Setting up your Key Vault correctly
 

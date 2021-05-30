@@ -11,18 +11,17 @@ index:
 - do-you-do-know-the-best-technical-solution-to-enable-purchase-approvals
 - do-you-have-monthly-accounting-meetings
 - pay-invoices-completely
-- use-apps-for-expenses
+- do-you-use-the-best-mobile-app-for-expenses
+- do-you-calculate-payroll-tax-correctly
 - how-to-enter-an-expensify-receipt
 - do-you-create-a-new-report-for-related-expenses
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-know-how-to-enter-a-hubdoc-receipt
 - do-you-treat-freebies-as-real-customers
-- do-you-know-how-to-claim-expense-reimbursements-2
+- claim-expense-reimbursements
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - do-you-use-auto-fetch-functions-for-invoices
 - do-you-schedule-supplier-payments
-- use-apps-for-expenses
 
 ---
-Rules to Better Accounting
 

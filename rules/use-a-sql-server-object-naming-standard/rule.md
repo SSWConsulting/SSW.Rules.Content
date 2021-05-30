@@ -21,70 +21,25 @@ This standard outlines the standard on naming objects within SQL Server. Use the
 All feedback is welcome. Thanks to all who gave feedback. A special thanks to Andy Baron.
 
 
-
-| **Object** 
- |  **Prefix** 
- |  **Example** 
- |
-| --- | --- | --- |
-| Table
- | --
- | Clients
- |
-| Column (PK)
- | --
- | Id
- |
-| Column (FK)
- | --
- | ClientId
- |
-| Temporary Table
- | \_zt
- | \_ztClients
- |
-| System Table
- | \_zs
- | \_zsDataVersion
-\_zsVersionLatest
- |
-| View
- | vw, gy\_
- | vwClientsWithNoPhoneW
-gy\_ClientsWithNoPhoneW
- |
-| Stored Procedure
- | proc, gp\_
- | procSelectClientsClientID
-gp\_SelectClientsClientID
- |
-| Trigger
- | trg
- | trgOrderIU
- |
-| Default\*
- | dft \*
- | dftToday \*
- |
-| Rule
- | rul
- | rulCheckZIP
- |
-| User-Defined Datatype
- | udt
- | udtPhone
- |
-| User-Defined Functions
- | udf
- | udfDueDates
- |
+| Object                 |   Prefix   |                       Example                        |
+| ---------------------- | :--------: | :--------------------------------------------------: |
+| Table                  |            |                      Clients                         |
+| Column (PK)            |            |                        Id                            |
+| Column (FK)            |            |                      ClientId                        |
+| Temporary Table        |    \_zt    |                    \_ztClients                       |
+| System Table           |    \_zs    |         \_zsDataVersion, \_zsVersionLatest           |
+| View                   |  vw, gy\_  |   vwClientsWithNoPhoneW, gy\_ClientsWithNoPhoneW     |
+| Stored Procedure       | proc, gp\_ | procSelectClientsClientID, gp\_SelectClientsClientID |
+| Trigger                |    trg     |                     trgOrderIU                       |
+| Default\*              |    dft \*  |                     dftToday \*                      |
+| Rule                   |    rul     |                     rulCheckZIP                      |
+| User-Defined Datatype  |    udt     |                      udtPhone                        |
+| User-Defined Functions |    udf     |                     udfDueDates                      |
 
 
 \* We never use defaults as objects, this is really an old thing that is just there for backwards compatibility. Much better to use a default constraint.
 
-
-
-Other Links
+### Other Links
 
 [SQL Server Coding Standards - Part 1](https&#58;//www.ssw.com.au/ssw/Redirect/SQLServer/SQLServerCentralcodingstandardspart1.htm)
 By Steve Jones on SQL Server Central

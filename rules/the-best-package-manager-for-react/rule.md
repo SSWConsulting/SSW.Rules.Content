@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-stephensen
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+- do-you-keep-your-npm-packages-up-to-date
 redirects:
 - do-you-know-the-best-package-manager-for-react
 
