@@ -20,7 +20,7 @@ $buildsUrl = $env:CANCEL_BUILD_URL
 
 # Get existing builds that are in progress or haven't started
 $builds = Invoke-RestMethod -Uri $buildsUrl -Method Get -Header $Headers
-$buildsToStop = $builds.value.Where( { (($_.status -eq 'inProgress') -or ($_.status -eq 'notStarted')) -and ([string]::IsNullOrEmpty(($_.triggerInfo))) })
+$buildsToStop = $builds.value.Where( { ($_.definition.name -eq "Production") -and ((($_.status -eq 'inProgress') -or ($_.status -eq 'notStarted')) -and ([string]::IsNullOrEmpty(($_.triggerInfo)))) })
 
 $count = ($buildsToStop).count
 Write-Host "Builds to cancel:"
