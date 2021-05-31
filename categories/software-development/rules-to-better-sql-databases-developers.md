@@ -8,6 +8,7 @@ index:
 - do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero
 - avoid-spaces-and-empty-lines-at-the-start-of-character-columns
 - use-identities-in-sql-server
+- avoid-deleting-records-by-flagging-them-as-isdeleted
 - make-sure-you-have-valid-date-data-in-your-database
 - datetime-fields-must-be-converted-to-universal-time
 - use-temporal-tables-to-audit-data-changes

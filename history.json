@@ -14248,9 +14248,9 @@
 	},
 	{
 		"file": "rules/do-you-know-when-to-branch-in-git/rule.md",
-		"lastUpdated": "2020-04-08T10:43:39+10:00",
-		"lastUpdatedBy": "Gabriel George",
-		"lastUpdatedByEmail": "gabe@ssw.com.au",
+		"lastUpdated": "2021-05-31T04:57:18.607Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2016-04-06T05:04:31+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -16921,9 +16921,9 @@
 	},
 	{
 		"file": "rules/best-practice-for-managing-state/rule.md",
-		"lastUpdated": "2017-12-22T04:00:03+11:00",
-		"lastUpdatedBy": "Eden Liang",
-		"lastUpdatedByEmail": "EdenLiang@ssw.com.au",
+		"lastUpdated": "2021-05-27T01:05:56.213Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2017-08-16T09:35:06+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -25942,7 +25942,7 @@
 		"created": "2021-05-11T07:42:00.217Z",
 		"createdBy": "Prem Radhakrishnan [SSW]",
 		"createdByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
-		"lastUpdated": "2021-05-30T22:33:51.687Z",
+		"lastUpdated": "2021-05-30T22:49:40.297Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
@@ -26294,6 +26294,24 @@
 		"createdBy": "Brady Stroud",
 		"createdByEmail": "bradystroud@me.com",
 		"lastUpdated": "2021-05-31T01:53:38.338Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-branch-in-git/delete-branch-in-devops.png",
+		"created": "2021-05-31T04:57:18.606Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-31T04:57:18.606Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-branch-in-git/github-settings.png",
+		"created": "2021-05-31T04:57:18.607Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-31T04:57:18.607Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
