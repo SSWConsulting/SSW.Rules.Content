@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: No longer relevant. See https://www.ssw.com.au/rules/rules-to-better-version-control-with-git
 title: Do You Choose TFS-Git Over Team Foundation Source Control?
 guid: 9a1642c8-3164-49b4-bd21-d81a014df14f
 uri: do-you-choose-tfs-git-over-team-foundation-source-control
