@@ -11818,9 +11818,9 @@
 	},
 	{
 		"file": "rules/do-you-encapsulate-your-scripts-to-avoid-cluttering-the-global-namespace-and-clashing-with-other-scripts/rule.md",
-		"lastUpdated": "2015-06-03T15:03:21+10:00",
-		"lastUpdatedBy": "Thiago Passos",
-		"lastUpdatedByEmail": "ThiagoPassos@ssw.com.au",
+		"lastUpdated": "2021-05-31T17:40:10.526Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-05-28T17:17:25+10:00",
 		"createdBy": "Thiago Passos",
 		"createdByEmail": "ThiagoPassos@ssw.com.au"
