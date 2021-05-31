@@ -14248,9 +14248,9 @@
 	},
 	{
 		"file": "rules/do-you-know-when-to-branch-in-git/rule.md",
-		"lastUpdated": "2020-04-08T10:43:39+10:00",
-		"lastUpdatedBy": "Gabriel George",
-		"lastUpdatedByEmail": "gabe@ssw.com.au",
+		"lastUpdated": "2021-05-31T04:57:18.607Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2016-04-06T05:04:31+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -26287,5 +26287,23 @@
 		"lastUpdated": "2021-05-28T07:45:47.454Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-branch-in-git/delete-branch-in-devops.png",
+		"created": "2021-05-31T04:57:18.606Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-31T04:57:18.606Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-branch-in-git/github-settings.png",
+		"created": "2021-05-31T04:57:18.607Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-31T04:57:18.607Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
