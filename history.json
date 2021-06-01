@@ -26314,5 +26314,14 @@
 		"lastUpdated": "2021-05-31T04:57:18.607Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/use-google-tag-manager/rule.md",
+		"created": "2021-05-31T22:02:35.306Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T22:02:35.306Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
