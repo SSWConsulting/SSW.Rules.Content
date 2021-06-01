@@ -17,7 +17,7 @@ index:
 - transcribe-videos
 - transcribe-your-videos
 - keep-audience-happy
-- do-you-keep-your-content-creators-informed-2
+- monitor-youtube-analytics-and-metrics
 
 ---
 

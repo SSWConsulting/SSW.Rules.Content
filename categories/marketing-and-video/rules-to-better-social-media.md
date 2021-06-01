@@ -39,6 +39,7 @@ index:
 - avoid-dates-text-in-graphics-for-events
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
+- do-you-know-how-to-deal-with-negative-comments
 - do-you-know-how-to-use-social-media-effectively-in-china
 - do-you-post-multilingual-posts-on-social-media
 - how-to-create-wechat-official-account
@@ -46,12 +47,12 @@ index:
 - do-you-create-friendly-short-urls
 
 ---
+
 Social media should be an essential piece of your business marketing strategy. It is important because it allows you to reach out to people locally, or even internationally if you want. Using social media platforms to promote your business will help you connect with current and potential customers, increase your brand awareness, and hopefully, boost leads and sales for your company. Of course, it all depends on your business strategy too. Marketing goals come from Business goals.
 
 Using social media effectively is a must in Digital Marketing nowadays.
 
 So, here's a series of social media rules to help you improve your online presence.
 
-
-If you still need help, our team [can help](https&#58;//sswdigital.com/).
+If you still need help, our team [can help](https://sswdigital.com/).
 

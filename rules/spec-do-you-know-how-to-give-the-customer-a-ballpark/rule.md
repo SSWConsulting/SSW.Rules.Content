@@ -21,14 +21,11 @@ redirects: []
 
 ### How to create an Estimate For a Spec Review (Summary)
 
-
 This process can take up to a few days, so if you're just after a ballpark, use epics instead of PBIs (Product Backlog Items).
 
 Here are the 8 steps:
 
 <!--endintro-->
-
-
 
 1. List all of the PBIs into a Backlog in TFS (or visualstudio.com), sizing them with story points.
 2. Open Excel and connect to the above Backlog
@@ -41,25 +38,15 @@ Note: It would be great if TFS (or visualstudio.com) had functionality to add [s
 7. Present to the client
 8. Much later, when the estimate is approved by the client, start work following these rules: [Rules to Better Project Management with TFS](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx).
 
-
-
-
-
 ### More Info - How to use the Estimates Calculator
 
-
 Open the [Estimates Calculator](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/4.%20Estimates%20Calculator.xlsx) and do the following:
-![](Resource tab.png) **Figure: Set the types and numbers of resources who will be working on the project
 
-** ![](Estimates tab.png) **Figure: Enter your PBIs and estimates
-** 
+![Figure: Set the types and numbers of resources who will be working on the project](Resource tab.png)
 
-
+![Figure: Enter your PBIs and estimates](Estimates tab.png)
 
 ### Why Microsoft Project isn't recommended
-
-
-
 
 Microsoft Project is sophisticated waterfall planning software that has powerful features for auto-scheduling and dependency allocation (Note: Project allows you to add 2 people to a task, and then the calculations and dependencies are all worked out). However:
 

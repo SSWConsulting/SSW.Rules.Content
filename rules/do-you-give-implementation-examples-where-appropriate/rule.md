@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
 title: Do you give implementation examples where appropriate?
 guid: 2d531ab0-167b-4088-ade4-97c24f7e569c
 uri: do-you-give-implementation-examples-where-appropriate
@@ -13,13 +13,6 @@ redirects: []
 
 ---
 
-<font size="2">        <font face="Verdana">By giving examples you are demonstrating clearly to the reader how he/she can implement the rule correctly. It is better to position an example of the best possible scenario last so that the reader is left with a clear example in his/her mind as to what is required.</font></font>
+By giving examples you are demonstrating clearly to the reader how he/she can implement the rule correctly. It is better to position an example of the best possible scenario last so that the reader is left with a clear example in his/her mind as to what is required.
 
 <!--endintro-->
-
-### Related Rule
-
-
-
-
-* [Figures - Do you use 'Bad Example' and 'Good Example' with ticks and crosses in captions?](/figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions)

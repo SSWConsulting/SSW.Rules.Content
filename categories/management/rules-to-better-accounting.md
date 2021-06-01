@@ -18,11 +18,10 @@ index:
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-know-how-to-enter-a-hubdoc-receipt
 - do-you-treat-freebies-as-real-customers
-- do-you-know-how-to-claim-expense-reimbursements-2
+- claim-expense-reimbursements
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - do-you-use-auto-fetch-functions-for-invoices
 - do-you-schedule-supplier-payments
 
 ---
-Rules to Better Accounting
 

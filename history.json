@@ -1279,9 +1279,9 @@
 	},
 	{
 		"file": "rules/do-you-choose-tfs-git-over-team-foundation-source-control/rule.md",
-		"lastUpdated": "2015-01-27T22:55:09+11:00",
-		"lastUpdatedBy": "Duncan Hunter",
-		"lastUpdatedByEmail": "DuncanHunter@ssw.com.au",
+		"lastUpdated": "2021-05-31T01:58:06.622Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2014-05-23T06:00:11+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -2449,9 +2449,9 @@
 	},
 	{
 		"file": "rules/do-you-know-in-what-currency-to-quote-overseas/rule.md",
-		"lastUpdated": "2018-06-21T15:55:26+10:00",
-		"lastUpdatedBy": "Harry Phan",
-		"lastUpdatedByEmail": "harryphan@ssw.com.au",
+		"lastUpdated": "2021-06-01T00:01:35.560Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-04-01T15:12:51+11:00",
 		"createdBy": "System Account",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -2953,9 +2953,9 @@
 	},
 	{
 		"file": "rules/do-you-know-that-your-forum-activity-gets-a-tweet/rule.md",
-		"lastUpdated": "2020-04-24T09:07:34+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-06-01T00:05:04.933Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2010-03-16T03:37:28+11:00",
 		"createdBy": "Martin Hinshelwood",
 		"createdByEmail": "MartinHinshelwood@ssw.com.au"
@@ -7255,9 +7255,9 @@
 	},
 	{
 		"file": "rules/do-you-follow-the-sandwich-rule/rule.md",
-		"lastUpdated": "2018-08-14T17:18:26+10:00",
-		"lastUpdatedBy": "Joanna Feely",
-		"lastUpdatedByEmail": "JoannaFeely@ssw.com.au",
+		"lastUpdated": "2021-05-31T09:42:56.728Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-09-28T03:58:02+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -7408,9 +7408,9 @@
 	},
 	{
 		"file": "rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/rule.md",
-		"lastUpdated": "2021-02-25T01:09:37.129Z",
-		"lastUpdatedBy": "Jack Leerson",
-		"lastUpdatedByEmail": "77082983+JackLeerson@users.noreply.github.com",
+		"lastUpdated": "2021-05-31T10:09:17.802Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-11-22T17:32:29+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -7687,9 +7687,9 @@
 	},
 	{
 		"file": "rules/methodology-daily-scrums/rule.md",
-		"lastUpdated": "2021-05-28T06:57:59.640Z",
-		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
-		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com",
+		"lastUpdated": "2021-05-29T01:57:34.736Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2015-06-16T05:14:43+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -8326,9 +8326,9 @@
 	},
 	{
 		"file": "rules/meetings-are-you-prepared-for-the-initial-meeting/rule.md",
-		"lastUpdated": "2021-04-02T16:27:36.901Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T08:59:19.597Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-09-05T02:46:44+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -8965,9 +8965,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-subscribe-a-report/rule.md",
-		"lastUpdated": "2016-11-08T18:26:36+11:00",
-		"lastUpdatedBy": "Lu Zhang",
-		"lastUpdatedByEmail": "LuZhang@ssw.com.au",
+		"lastUpdated": "2021-05-31T17:03:40.477Z",
+		"lastUpdatedBy": "tiagov8",
+		"lastUpdatedByEmail": "tiagov8@users.noreply.github.com",
 		"created": "2012-05-07T19:03:28+10:00",
 		"createdBy": "Lu Zhang",
 		"createdByEmail": "LuZhang@ssw.com.au"
@@ -9145,9 +9145,9 @@
 	},
 	{
 		"file": "rules/do-you-continuously-deploy/rule.md",
-		"lastUpdated": "2017-10-09T15:07:10+11:00",
-		"lastUpdatedBy": "Partho P. Das",
-		"lastUpdatedByEmail": "Partho@ssw.com.au",
+		"lastUpdated": "2021-05-31T16:57:49.120Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-06-21T14:15:30+10:00",
 		"createdBy": "Adam Stephensen",
 		"createdByEmail": "AdamStephensen@ssw.com.au"
@@ -9235,9 +9235,9 @@
 	},
 	{
 		"file": "rules/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually/rule.md",
-		"lastUpdated": "2018-11-30T18:38:42+11:00",
-		"lastUpdatedBy": "Shane Ye",
-		"lastUpdatedByEmail": "ShaneYe@ssw.com.au",
+		"lastUpdated": "2021-05-29T07:43:42.232Z",
+		"lastUpdatedBy": "Piers Sinclair",
+		"lastUpdatedByEmail": "PiersSinclair@ssw.com.au",
 		"created": "2012-06-30T03:44:03+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -11818,9 +11818,9 @@
 	},
 	{
 		"file": "rules/do-you-encapsulate-your-scripts-to-avoid-cluttering-the-global-namespace-and-clashing-with-other-scripts/rule.md",
-		"lastUpdated": "2015-06-03T15:03:21+10:00",
-		"lastUpdatedBy": "Thiago Passos",
-		"lastUpdatedByEmail": "ThiagoPassos@ssw.com.au",
+		"lastUpdated": "2021-05-31T17:40:10.526Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-05-28T17:17:25+10:00",
 		"createdBy": "Thiago Passos",
 		"createdByEmail": "ThiagoPassos@ssw.com.au"
@@ -12880,36 +12880,36 @@
 	},
 	{
 		"file": "rules/do-you-avoid-duplicating-content/rule.md",
-		"lastUpdated": "2017-03-25T04:44:03+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-28T21:27:20.514Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2014-10-24T06:03:06+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/do-you-always-get-your-rules-proof-read/rule.md",
-		"lastUpdated": "2010-10-20T19:57:19+11:00",
-		"lastUpdatedBy": "System Account",
-		"lastUpdatedByEmail": "Unknown@ssw.com.au",
+		"lastUpdated": "2021-05-28T21:25:59.368Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2010-03-19T12:06:13+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
 	},
 	{
 		"file": "rules/do-you-avoid-the-first-person-narrative/rule.md",
-		"lastUpdated": "2020-09-03T08:55:01+10:00",
-		"lastUpdatedBy": "Penny Walker",
-		"lastUpdatedByEmail": "PennyWalker@ssw.com.au",
+		"lastUpdated": "2021-05-28T21:29:22.092Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2010-03-19T11:04:10+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
 	},
 	{
 		"file": "rules/do-you-give-implementation-examples-where-appropriate/rule.md",
-		"lastUpdated": "2020-07-30T08:40:16+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-28T22:01:44.617Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2010-03-19T11:41:25+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -14248,9 +14248,9 @@
 	},
 	{
 		"file": "rules/do-you-know-when-to-branch-in-git/rule.md",
-		"lastUpdated": "2020-04-08T10:43:39+10:00",
-		"lastUpdatedBy": "Gabriel George",
-		"lastUpdatedByEmail": "gabe@ssw.com.au",
+		"lastUpdated": "2021-05-31T04:57:18.607Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2016-04-06T05:04:31+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -16921,9 +16921,9 @@
 	},
 	{
 		"file": "rules/best-practice-for-managing-state/rule.md",
-		"lastUpdated": "2017-12-22T04:00:03+11:00",
-		"lastUpdatedBy": "Eden Liang",
-		"lastUpdatedByEmail": "EdenLiang@ssw.com.au",
+		"lastUpdated": "2021-05-27T01:05:56.213Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2017-08-16T09:35:06+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -17200,7 +17200,7 @@
 	},
 	{
 		"file": "rules/do-you-verify-that-report-server-authentication-settings-allow-a-wide-range-of-web-browsers/rule.md",
-		"lastUpdated": "2021-04-09T00:34:57.883Z",
+		"lastUpdated": "2021-05-31T17:01:06.616Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2017-11-17T09:04:26+11:00",
@@ -17236,9 +17236,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-update-your-work-details/rule.md",
-		"lastUpdated": "2018-01-05T15:46:11+11:00",
-		"lastUpdatedBy": "Gabriel George",
-		"lastUpdatedByEmail": "gabe@ssw.com.au",
+		"lastUpdated": "2021-05-28T23:45:01.449Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-01-05T12:28:00+11:00",
 		"createdBy": "Gabriel George",
 		"createdByEmail": "gabe@ssw.com.au"
@@ -18127,9 +18127,9 @@
 	},
 	{
 		"file": "rules/what-to-do-with-a-work-around/rule.md",
-		"lastUpdated": "2021-03-29T22:17:14.096Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-05-29T08:52:18.290Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2018-05-01T07:37:19+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18586,7 +18586,7 @@
 	},
 	{
 		"file": "rules/do-you-know-to-duplicate-email-content-in-a-calendar-appointment/rule.md",
-		"lastUpdated": "2021-03-16T21:13:10.529Z",
+		"lastUpdated": "2021-05-31T16:54:37.781Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-07-12T10:39:07+10:00",
@@ -18829,9 +18829,9 @@
 	},
 	{
 		"file": "rules/using-markdown-to-store-your-content/rule.md",
-		"lastUpdated": "2021-02-19T10:59:33+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-29T06:05:54.212Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2019-12-20T09:06:49+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -21853,9 +21853,9 @@
 	},
 	{
 		"file": "rules/purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice/rule.md",
-		"lastUpdated": "2020-08-07T11:39:59+10:00",
-		"lastUpdatedBy": "Penny Walker",
-		"lastUpdatedByEmail": "PennyWalker@ssw.com.au",
+		"lastUpdated": "2021-05-31T23:55:55.161Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-06-09T08:28:23+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -22195,9 +22195,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-claim-expense-reimbursements-2/rule.md",
-		"lastUpdated": "2020-11-25T16:15:33+11:00",
-		"lastUpdatedBy": "Nick Viet",
-		"lastUpdatedByEmail": "NicholasViet@sswcom.onmicrosoft.com",
+		"lastUpdated": "2021-05-28T23:09:55.557Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-09-14T11:42:45+10:00",
 		"createdBy": "Nick Viet",
 		"createdByEmail": "NicholasViet@sswcom.onmicrosoft.com"
@@ -22420,9 +22420,9 @@
 	},
 	{
 		"file": "rules/do-you-keep-your-content-creators-informed-2/rule.md",
-		"lastUpdated": "2020-11-10T12:19:54+11:00",
-		"lastUpdatedBy": "Jerwin Parker",
-		"lastUpdatedByEmail": "JerwinParker@sswcom.onmicrosoft.com",
+		"lastUpdated": "2021-05-28T23:02:06.745Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-10-13T15:31:06+11:00",
 		"createdBy": "Jerwin Parker",
 		"createdByEmail": "JerwinParker@sswcom.onmicrosoft.com"
@@ -22456,9 +22456,9 @@
 	},
 	{
 		"file": "rules/do-you-use-a-mobile-app-to-check-your-personal-payroll/rule.md",
-		"lastUpdated": "2020-10-21T12:43:13+11:00",
-		"lastUpdatedBy": "Nick Viet",
-		"lastUpdatedByEmail": "NicholasViet@sswcom.onmicrosoft.com",
+		"lastUpdated": "2021-05-28T23:15:45.409Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-10-21T11:25:57+11:00",
 		"createdBy": "Nick Viet",
 		"createdByEmail": "NicholasViet@sswcom.onmicrosoft.com"
@@ -22699,18 +22699,18 @@
 	},
 	{
 		"file": "rules/do-you-schedule-supplier-payments/rule.md",
-		"lastUpdated": "2020-11-25T16:29:13+11:00",
-		"lastUpdatedBy": "Nick Viet",
-		"lastUpdatedByEmail": "NicholasViet@sswcom.onmicrosoft.com",
+		"lastUpdated": "2021-05-28T23:19:08.705Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-11-20T14:09:18+11:00",
 		"createdBy": "Nick Viet",
 		"createdByEmail": "NicholasViet@sswcom.onmicrosoft.com"
 	},
 	{
 		"file": "rules/do-you-use-auto-fetch-functions-for-invoices/rule.md",
-		"lastUpdated": "2020-11-20T17:08:48+11:00",
-		"lastUpdatedBy": "Nick Viet",
-		"lastUpdatedByEmail": "NicholasViet@sswcom.onmicrosoft.com",
+		"lastUpdated": "2021-05-28T23:16:02.353Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-11-20T16:21:52+11:00",
 		"createdBy": "Nick Viet",
 		"createdByEmail": "NicholasViet@sswcom.onmicrosoft.com"
@@ -25069,7 +25069,7 @@
 		"created": "2021-03-23T04:31:31.048Z",
 		"createdBy": "Brady Stroud",
 		"createdByEmail": "bradystroud@me.com",
-		"lastUpdated": "2021-03-23T04:31:31.048Z",
+		"lastUpdated": "2021-05-31T01:53:38.338Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
@@ -25929,6 +25929,24 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
+		"file": "rules/power-bi-choosing-the-right-visual",
+		"created": "2021-05-11T06:58:17.355Z",
+		"createdBy": "Prem Radhakrishnan [SSW]",
+		"createdByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
+		"lastUpdated": "2021-05-11T06:58:17.355Z",
+		"lastUpdatedBy": "Prem Radhakrishnan [SSW]",
+		"lastUpdatedByEmail": "58406844+premradhakrishnan@users.noreply.github.com"
+	},
+	{
+		"file": "rules/power-bi-choosing-the-right-visual/rule.md",
+		"created": "2021-05-11T07:42:00.217Z",
+		"createdBy": "Prem Radhakrishnan [SSW]",
+		"createdByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
+		"lastUpdated": "2021-05-30T22:49:40.297Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
 		"file": "rules/best-free-resources-for-angular/Little-Book-Angular.pdf",
 		"created": "2021-05-14T00:04:56.086Z",
 		"createdBy": "Brady Stroud [SSW]",
@@ -26086,9 +26104,9 @@
 		"created": "2021-05-20T01:11:33.040Z",
 		"createdBy": "Piers Sinclair [SSW]",
 		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
-		"lastUpdated": "2021-05-20T04:22:30.606Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+		"lastUpdated": "2021-05-28T23:13:46.019Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/hide-sensitive-information/rule.md",
@@ -26190,6 +26208,15 @@
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
+		"file": "rules/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually/docker-logo.png",
+		"created": "2021-05-28T06:09:05.819Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-05-29T07:43:42.233Z",
+		"lastUpdatedBy": "Piers Sinclair",
+		"lastUpdatedByEmail": "PiersSinclair@ssw.com.au"
+	},
+	{
 		"file": "rules/when-to-use-state-management-in-angular/rule.md",
 		"created": "2021-05-27T06:06:03.433Z",
 		"createdBy": "Piers Sinclair [SSW]",
@@ -26287,5 +26314,59 @@
 		"lastUpdated": "2021-05-29T07:40:21.795Z",
 		"lastUpdatedBy": "Piers Sinclair",
 		"lastUpdatedByEmail": "PiersSinclair@ssw.com.au"
+	},
+	{
+		"file": "rules/use-branch-protection/requiredChecks.png",
+		"created": "2021-05-31T01:53:38.338Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-31T01:53:38.338Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-branch-in-git/delete-branch-in-devops.png",
+		"created": "2021-05-31T04:57:18.606Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-31T04:57:18.606Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-branch-in-git/github-settings.png",
+		"created": "2021-05-31T04:57:18.607Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-05-31T04:57:18.607Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/control-who-can-manage-Power-Platform-environments/rule.md",
+		"created": "2021-05-31T22:19:25.386Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T22:20:17.965Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/control-who-can-manage-Power-Platform-environments/power-platform-settings.png",
+		"created": "2021-05-31T22:20:17.965Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T22:20:17.965Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/use-google-tag-manager/rule.md",
+		"created": "2021-05-31T22:02:35.306Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T22:02:35.306Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
