@@ -7255,9 +7255,9 @@
 	},
 	{
 		"file": "rules/do-you-follow-the-sandwich-rule/rule.md",
-		"lastUpdated": "2018-08-14T17:18:26+10:00",
-		"lastUpdatedBy": "Joanna Feely",
-		"lastUpdatedByEmail": "JoannaFeely@ssw.com.au",
+		"lastUpdated": "2021-05-31T09:42:56.728Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-09-28T03:58:02+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -7408,9 +7408,9 @@
 	},
 	{
 		"file": "rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/rule.md",
-		"lastUpdated": "2021-02-25T01:09:37.129Z",
-		"lastUpdatedBy": "Jack Leerson",
-		"lastUpdatedByEmail": "77082983+JackLeerson@users.noreply.github.com",
+		"lastUpdated": "2021-05-31T10:09:17.802Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-11-22T17:32:29+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -8326,9 +8326,9 @@
 	},
 	{
 		"file": "rules/meetings-are-you-prepared-for-the-initial-meeting/rule.md",
-		"lastUpdated": "2021-04-02T16:27:36.901Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T08:59:19.597Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2012-09-05T02:46:44+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -8965,9 +8965,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-subscribe-a-report/rule.md",
-		"lastUpdated": "2016-11-08T18:26:36+11:00",
-		"lastUpdatedBy": "Lu Zhang",
-		"lastUpdatedByEmail": "LuZhang@ssw.com.au",
+		"lastUpdated": "2021-05-31T17:03:40.477Z",
+		"lastUpdatedBy": "tiagov8",
+		"lastUpdatedByEmail": "tiagov8@users.noreply.github.com",
 		"created": "2012-05-07T19:03:28+10:00",
 		"createdBy": "Lu Zhang",
 		"createdByEmail": "LuZhang@ssw.com.au"
@@ -9145,9 +9145,9 @@
 	},
 	{
 		"file": "rules/do-you-continuously-deploy/rule.md",
-		"lastUpdated": "2017-10-09T15:07:10+11:00",
-		"lastUpdatedBy": "Partho P. Das",
-		"lastUpdatedByEmail": "Partho@ssw.com.au",
+		"lastUpdated": "2021-05-31T16:57:49.120Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-06-21T14:15:30+10:00",
 		"createdBy": "Adam Stephensen",
 		"createdByEmail": "AdamStephensen@ssw.com.au"
@@ -11818,9 +11818,9 @@
 	},
 	{
 		"file": "rules/do-you-encapsulate-your-scripts-to-avoid-cluttering-the-global-namespace-and-clashing-with-other-scripts/rule.md",
-		"lastUpdated": "2015-06-03T15:03:21+10:00",
-		"lastUpdatedBy": "Thiago Passos",
-		"lastUpdatedByEmail": "ThiagoPassos@ssw.com.au",
+		"lastUpdated": "2021-05-31T17:40:10.526Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-05-28T17:17:25+10:00",
 		"createdBy": "Thiago Passos",
 		"createdByEmail": "ThiagoPassos@ssw.com.au"
@@ -17200,7 +17200,7 @@
 	},
 	{
 		"file": "rules/do-you-verify-that-report-server-authentication-settings-allow-a-wide-range-of-web-browsers/rule.md",
-		"lastUpdated": "2021-04-09T00:34:57.883Z",
+		"lastUpdated": "2021-05-31T17:01:06.616Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2017-11-17T09:04:26+11:00",
@@ -18586,7 +18586,7 @@
 	},
 	{
 		"file": "rules/do-you-know-to-duplicate-email-content-in-a-calendar-appointment/rule.md",
-		"lastUpdated": "2021-03-16T21:13:10.529Z",
+		"lastUpdated": "2021-05-31T16:54:37.781Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-07-12T10:39:07+10:00",
@@ -18829,9 +18829,9 @@
 	},
 	{
 		"file": "rules/using-markdown-to-store-your-content/rule.md",
-		"lastUpdated": "2021-02-19T10:59:33+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-05-29T06:05:54.212Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2019-12-20T09:06:49+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -26330,6 +26330,15 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-05-31T22:20:17.965Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/use-google-tag-manager/rule.md",
+		"created": "2021-05-31T22:02:35.306Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T22:02:35.306Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
