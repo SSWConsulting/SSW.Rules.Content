@@ -16,10 +16,10 @@ redirects: []
 ---
 
 Code duplication is a big "code smell" that harms maintainability.  You should keep an eye out for repeated code and make sure you refactor it into a single place.
+
 <!--endintro-->
 
 For example, have a look at these two Action methods in an MVC 4 controller.
-
 
 ```
 //
@@ -69,12 +69,11 @@ public ActionResult Details(int id = 0)
     return View(person);
 }
 ```
-
-
+::: bad
 Figure: Bad Example - The highlighted code is repeated and represents a potential maintenance issue.
+:::
 
 We can refactor this code to make sure the repeated lines are only in one place.
-
 
 ```
 private Company GetCurrentUserCompany()
@@ -126,9 +125,9 @@ public ActionResult Details(int id = 0)
     return View(person);
 }
 ```
-
-
+::: good
 Figure: Good Example - The repeated code has been refactored into its own method.
+:::
 
 **Tip:** The Refactor menu in Visual Studio 11 can do this refactoring for you.
-![](vs_refactor_extract.png)Figure: The Extract Method function in Visual Studio's Refactor menu.
+![Figure: The Extract Method function in Visual Studio's Refactor menu](vs_refactor_extract.png)
