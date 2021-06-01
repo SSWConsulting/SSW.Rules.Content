@@ -26316,6 +26316,24 @@
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
+		"file": "rules/control-who-can-manage-Power-Platform-environments/rule.md",
+		"created": "2021-05-31T22:19:25.386Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T22:20:17.965Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/control-who-can-manage-Power-Platform-environments/power-platform-settings.png",
+		"created": "2021-05-31T22:20:17.965Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-05-31T22:20:17.965Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
 		"file": "rules/use-google-tag-manager/rule.md",
 		"created": "2021-05-31T22:02:35.306Z",
 		"createdBy": "Tiago Araújo [SSW]",
