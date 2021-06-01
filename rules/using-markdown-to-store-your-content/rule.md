@@ -34,7 +34,8 @@ You want users to easily edit content, so you put an "edit" button on the page. 
 The original spec for Markdown can be found at https://daringfireball.net/projects/markdown/syntax. Although, it does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
 
 * [Commonmark Spec](https://spec.commonmark.org/0.29/)
-* [GitHub Flavored Markdown (GFM) Spec](https://github.github.com/gfm/)
+* [GitHub Simple](https://guides.github.com/features/mastering-markdown/)
+* [GitHub the Spec](https://github.github.com/gfm/)
 * [markdown-it](https://github.com/markdown-it/markdown-it) (really flexible, pluggable library based on CommonMark)
 
 
@@ -44,6 +45,7 @@ Depending on the markdown parser you choose, there are many plugins that allow y
 
 * [SugarLearning cheatsheet](https://my.sugarlearning.com/SSW/items/13308/markdown-cheatsheet) (using markdown-it parser)
 * [SSW.People cheatsheet](https://ssw.com.au/people/sample) (using CommonMark parser)
+* [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
 
 
 ![](markdown.jpg)  
