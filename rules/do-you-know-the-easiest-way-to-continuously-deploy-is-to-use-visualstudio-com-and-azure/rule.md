@@ -13,7 +13,7 @@ redirects: []
 
 ---
 
-### TODO: AdamS – Include Steps for Continuous Delivery with Azure and VisualStudio.com
+### TODO: MattW – Include Steps for Continuous Delivery with Azure and VisualStudio.com
 
 If you use Azure Web Sites and VisualStudio.com you can set up continuously deployment in 5 minutes.
 

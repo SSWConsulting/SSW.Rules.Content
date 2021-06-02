@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-A migration from one technology to another is a process fraught with danger. Everyone would love the "upgrade" button to work perfectly but it doesn't. Expect any migration to fail first go. Any statement that "I didn't expect to have any problems" shows inexcusable ignorance.
+A migration from one technology to another is a process fraught with danger. Everyone would love the "upgrade" button to work perfectly but it doesn't. Expect any migration to fail first go. Any statement that "I didn't expect to have any problems" shows inexcusable optimism.
 
 <!--endintro-->
 
