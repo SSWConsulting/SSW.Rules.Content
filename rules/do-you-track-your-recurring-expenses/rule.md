@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
 - do-you-track-your-recurring-expenses
+- rules-to-better-expense-tracking
 
 ---
 
