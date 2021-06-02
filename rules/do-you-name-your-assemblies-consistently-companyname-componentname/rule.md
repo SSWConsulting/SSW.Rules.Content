@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: already covered by rule https://www.ssw.com.au/rules/do-you-have-a-consistent-net-solution-structure
 title: Do you name your assemblies consistently (<CompanyName>.<ComponentName>)?
 guid: 30f404cf-bad3-4fee-8afd-c2e6a93635ca
 uri: do-you-name-your-assemblies-consistently-companyname-componentname
