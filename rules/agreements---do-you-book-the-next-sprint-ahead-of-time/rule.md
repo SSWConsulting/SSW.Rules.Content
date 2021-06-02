@@ -21,7 +21,7 @@ related:
 
 
 
-When building APIs one of the challenges is in how to document the API for other developers to consume.
+When building APIs one of the challenges is in how to document the API for other developers to consume.  
 **Figure: Figure on next line of text**
 
 When building APIs one of the challenges is in how to document the API for other developers to consume.**Figure: Figure on same line of text**
