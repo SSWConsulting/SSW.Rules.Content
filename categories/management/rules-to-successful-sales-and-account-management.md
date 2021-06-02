@@ -54,7 +54,6 @@ index:
 - fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
 - the-outcomes-from-your-initial-meeting
 - scheduling-do-you-know-how-to-book-developers-for-a-project
-- the-outcomes-from-your-initial-meeting
 - do-you-know-in-what-currency-to-quote-overseas
 
 ---

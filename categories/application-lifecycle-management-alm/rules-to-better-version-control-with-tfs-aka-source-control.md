@@ -40,7 +40,6 @@ index:
 - do-you-use-shared-check-outs
 - do-you-use-the-windows-explorer-integration
 - tfs-master-do-you-have-a-report-to-see-who-has-not-checked-in
-- do-you-know-which-check-in-policies-to-enable1
 - check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one
 
 ---
