@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Irrelevant
 title: Do you manage your email accounts?
 guid: 6c2d106c-dc44-4def-828d-b51579e83686
 uri: do-you-manage-your-email-accounts
