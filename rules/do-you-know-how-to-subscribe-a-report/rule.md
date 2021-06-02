@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to subscribe a report
+title: Do you know how to subscribe a report?
 guid: 1399278b-837a-4b58-ad1a-44ecb78d98da
 uri: do-you-know-how-to-subscribe-a-report
 created: 2012-05-07T08:13:01.0000000Z
