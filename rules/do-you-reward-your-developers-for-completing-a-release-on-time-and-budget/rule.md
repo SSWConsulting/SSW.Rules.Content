@@ -37,5 +37,6 @@ If you are available it would be great if you could join us.  Meet at the SSW o
 :::  
 **Figure: Email to accountant/team members and client informing of project success and reward event**  |
 
-Note: for smaller milestones, you can still give the team recognition though a [Ring the Bell email](https://www.ssw.com.au/rules/reward-your-developers)
-  
+::: info
+**Note:** For smaller milestones, you can still give the team recognition though a [Ring the Bell email](/reward-your-developers).
+:::
