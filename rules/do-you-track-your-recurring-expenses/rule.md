@@ -5,10 +5,13 @@ title: Do you track your recurring expenses
 guid: 972e5ca8-0dd1-413c-b784-82818dfdab9f
 uri: rules-to-better-expense-tracking
 created: 2020-05-29T06:18:29.0000000Z
-authors: []
+authors:
+  - title: Nicholas Viet
+    url: https://www.ssw.com.au/people/nick-viet
 related: []
 redirects:
 - do-you-track-your-recurring-expenses
+- rules-to-better-expense-tracking
 
 ---
 

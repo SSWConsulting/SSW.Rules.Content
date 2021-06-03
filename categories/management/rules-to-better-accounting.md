@@ -10,6 +10,8 @@ index:
 - do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
 - do-you-do-know-the-best-technical-solution-to-enable-purchase-approvals
 - do-you-have-monthly-accounting-meetings
+- do-you-report-the-business-weekly-gas-in-the-tank
+- do-you-track-your-recurring-expenses
 - pay-invoices-completely
 - do-you-use-the-best-mobile-app-for-expenses
 - do-you-calculate-payroll-tax-correctly
