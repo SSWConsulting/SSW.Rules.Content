@@ -35,6 +35,7 @@ index:
 - how-to-provide-best-database-schema-document
 - schema-do-you-add-zs-prefix-to-system-tables
 - do-not-have-views-as-redundant-objects
+- every-object-name-should-be-owned-by-dbo
 - keep-your-stored-procedures-simple
 - return-a-value-indicating-the-status
 - standardize-the-return-values-of-stored-procedures-for-success-and-failures
