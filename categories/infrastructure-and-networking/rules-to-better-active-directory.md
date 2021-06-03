@@ -7,11 +7,11 @@ index:
 - do-you-add-staff-profile-pictures-into-ad
 - disable-users-rather-than-deleting-for-better-crm-reporting
 - do-you-have-a-postmaster-account-in-your-microsoft-exchange
+- do-you-standardise-ad-group-names
 - do-you-use-group-policy-to-apply-settings-to-all-of-your-pcs
 - use-group-policy-to-enable-auditing-of-logon-attempts
 - do-you-use-group-policy-to-enable-hibernate-option
 - do-you-use-separate-administrator-account
 
 ---
-
 
