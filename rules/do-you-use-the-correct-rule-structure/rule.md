@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules
 title: Do you use the correct Rule structure?
 guid: b5772efb-08aa-471e-a2fb-166fd45720d9
 uri: do-you-use-the-correct-rule-structure
