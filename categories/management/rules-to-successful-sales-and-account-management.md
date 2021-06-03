@@ -55,6 +55,7 @@ index:
 - the-outcomes-from-your-initial-meeting
 - scheduling-do-you-know-how-to-book-developers-for-a-project
 - do-you-know-in-what-currency-to-quote-overseas
+- reward-your-developers
 
 ---
 
