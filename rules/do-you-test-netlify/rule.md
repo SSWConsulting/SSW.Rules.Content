@@ -15,4 +15,6 @@ This is a test
 
 <!--endintro-->
 
+![](kosta-coffee.jpg)
+
 Markdown not shown in the blurb
