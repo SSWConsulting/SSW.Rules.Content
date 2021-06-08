@@ -18,6 +18,7 @@ index:
 - how-string-should-be-quoted
 - add-the-application-name-in-the-sql-server-connection-string
 - do-you-know-how-to-use-connection-strings
+- store-your-secrets-securely
 - create-suggestions-when-something-is-hard-to-do
 - avoid-casts-and-use-the-as-operator-instead
 - avoid-empty-code-block
