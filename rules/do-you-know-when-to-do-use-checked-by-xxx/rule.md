@@ -54,8 +54,7 @@ Dear Adam,
 Regards, Phil
 
 :::
-**Figure: Use 'Checked by xxx' when sending a complicated email to a group of people
-** 
+**Figure: Use 'Checked by xxx' when sending a complicated email to a group of people** 
 
 Reply to the "Done" email like below and CC the person who checked the email for you. In this way, you show it was double checked. 
    
