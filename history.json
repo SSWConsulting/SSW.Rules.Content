@@ -16228,7 +16228,7 @@
 	},
 	{
 		"file": "rules/crm-proper-tools/rule.md",
-		"lastUpdated": "2021-03-18T19:18:43.156Z",
+		"lastUpdated": "2021-06-08T23:47:00.100Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2017-02-10T05:12:14+11:00",
@@ -26366,10 +26366,10 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-06-08T18:57:23.665Z",
-    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
-  {
+	{
 		"file": "rules/do-you-track-your-recurring-expenses/rule.md",
 		"created": "2021-06-07T23:44:28.699Z",
 		"createdBy": "Tiago Araújo [SSW]",
