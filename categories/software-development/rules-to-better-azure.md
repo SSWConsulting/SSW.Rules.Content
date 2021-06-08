@@ -23,6 +23,8 @@ index:
 - do-you-know-when-to-use-geo-redundant-storage
 - do-you-shutdown-vms-when-you-no-longer-need-them
 - use-azure-policies
+- use-azure-machine-learning-to-make-predictions-from-your-data
+- use-azure-notebooks-to-learn-your-data
 
 ---
  
