@@ -13501,7 +13501,7 @@
 	},
 	{
 		"file": "rules/do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails/rule.md",
-		"lastUpdated": "2021-06-08T18:55:55.980Z",
+		"lastUpdated": "2021-06-08T18:57:23.665Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-13T11:30:15+11:00",
@@ -26350,5 +26350,23 @@
 		"lastUpdated": "2021-06-02T22:15:02.348Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails/images-cropped-good.png",
+		"created": "2021-06-08T18:57:23.665Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-08T18:57:23.665Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails/images-uncropped-bad.png",
+		"created": "2021-06-08T18:57:23.665Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-08T18:57:23.665Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
