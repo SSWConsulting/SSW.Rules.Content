@@ -49,6 +49,7 @@ index:
 - do-you-avoid-emailing-sensitive-information
 - do-you-avoid-huge-images-or-attachments-in-your-email
 - do-you-avoid-sending-unnecessary-emails
+- when-to-send-group-email-over-an-im-group-message
 - do-you-avoid-sending-your-emails-immediately
 - do-you-avoid-using-images-in-your-email-signatures
 - do-you-avoid-using-out-of-office
