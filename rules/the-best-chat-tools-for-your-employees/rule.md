@@ -29,3 +29,4 @@ In China:
 
 * **[WeChat](https&#58;//web.wechat.com/)**  (personal)
 * **[DingTalk](https&#58;//www.dingtalk.com/en)**  (businesses)
+* **[WeCom](https&#58;//work.weixin.qq.com/)**  (businesses)
