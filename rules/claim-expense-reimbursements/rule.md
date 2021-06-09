@@ -10,10 +10,10 @@ authors:
   url: https://ssw.com.au/people/nick-viet
 related: 
 - use-expensify-for-expenses
+- do-you-claim-expense-reimbursements
 redirects:
-- do-you-know-how-to-claim-expense-reimbursements
 - do-you-know-how-to-claim-expense-reimbursements-2
-- do-you-know-how-to-claim-expense-reimbursements-with-Xero-Expense-App
+- claim-expense-reimbursements
 
 ---
 

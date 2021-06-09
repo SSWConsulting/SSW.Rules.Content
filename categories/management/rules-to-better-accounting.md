@@ -4,7 +4,7 @@ title: Rules to Better Accounting
 guid: 31ac668b-6826-461f-ba34-964e46984c6d
 uri: rules-to-better-accounting
 index:
-- do-you-know-how-to-claim-expense-reimbursements
+- do-you-claim-expense-reimbursements
 - does-your-company-cover-taxi-costs
 - do-your-cheque-and-memo-fields-have-a-good-description
 - do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
