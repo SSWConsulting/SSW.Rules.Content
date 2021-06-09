@@ -44,7 +44,7 @@ The status message is helpful when it contains:
 * **Need:** xxx (team members that you’re working with – use @mention to tag these members)
 * **Location:** xxx (where you’re working from e.g. Home, SSW Melbourne, CBA, etc.)
 
-**Note:** the benefit of using the field names with the colon is that it allows you to programmatically extract the information e.g. on SSW SophieBot when you ask who is Patrick, you could also see this information and query why the location field is different from the Wifi he is connected to.
+**Note:** the benefit of using the field names with the colon is that it allows you to programmatically extract the information e.g. on SSW SophieBot when you ask who is Patrick, you could also see this information and query why the location field is different from the Wi-Fi he is connected to.
 
 * Enable “Show when people message me”
 * For “Clear status message after”, select Never (to prevent Microsoft from deleting the status message)
