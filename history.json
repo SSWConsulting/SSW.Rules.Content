@@ -26041,9 +26041,9 @@
 		"created": "2021-05-18T19:22:11.264Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-05-18T19:29:03.905Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com"
+		"lastUpdated": "2021-06-09T06:36:51.548Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
 		"file": "rules/do-you-use-the-best-mobile-app-for-expenses/google-trends-with-xero.jpg",
@@ -26377,5 +26377,95 @@
 		"lastUpdated": "2021-06-07T23:44:28.699Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/2020-11-25_15-44-09.png",
+		"created": "2021-06-09T06:36:51.546Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.546Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/2020-11-25_15-51-14.png",
+		"created": "2021-06-09T06:36:51.547Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.547Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/2020-11-25_15-53-02.png",
+		"created": "2021-06-09T06:36:51.547Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.547Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/2020-11-25_16-01-26.png",
+		"created": "2021-06-09T06:36:51.547Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.547Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/2020-11-25_16-04-57.png",
+		"created": "2021-06-09T06:36:51.547Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.547Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/2020-11-25_16-14-53.png",
+		"created": "2021-06-09T06:36:51.548Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.548Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/e.jpg",
+		"created": "2021-06-09T06:36:51.548Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.548Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/claim-expense-reimbursements/rule.md",
+		"created": "2021-06-09T06:36:51.548Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.548Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-claim-expense-reimbursements/expense-reimbursement.png",
+		"created": "2021-06-09T06:36:51.548Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.548Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-claim-expense-reimbursements/rule.md",
+		"created": "2021-06-09T06:36:51.548Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-09T06:36:51.548Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
