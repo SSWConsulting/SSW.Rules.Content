@@ -40,12 +40,12 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 1. Select **Blank API**
 
-![](images/step1-create-blank-api.png)
+![](step1-create-blank-api.png)
 Figure: Create a blank API
 
 ## Step 2 - Describe your API
 
-![](images/step2-describe-your-api.png)
+![](step2-describe-your-api.png)
 Figure: Describe your API
 
 1. Click **Create**
@@ -56,7 +56,7 @@ Figure: Describe your API
 2. Click **Add operation**
 3. Specify the Display name, Name and URL of your operation 
 
-![](images/step3-add-operation.png)
+![](step3-add-operation.png)
 Figure: Adding a new Operation
 
 ## Step 4 - Add response
@@ -64,7 +64,7 @@ Figure: Adding a new Operation
 1. Click **Add response**
 2. Select the appropriate response code (e.g 200 OK)
 
-![](images/step4-add-response.png)
+![](step4-add-response.png)
 Figure: Add a response
 
 ## Step 5 - Add representation
@@ -73,10 +73,10 @@ Figure: Add a response
 2. Specify the **Sample** as `{ "data": "fake" }`
 3. Click **Save**
   
-![](images/step5-add-represtntation.png)
+![](step5-add-represtntation.png)
 Figure: Add a representation for your response with fake data
 
-![](images/step5-operation-done.png)
+![](step5-operation-done.png)
 Figure: Operation added successfully
 
 ## Step 6 - Add Mock Response Policy
@@ -84,7 +84,7 @@ Figure: Operation added successfully
 1. Click **Add policy**
 2. Select **Mock responses**
 
-![](images/step6-add-mock-response-policy.png)
+![](step6-add-mock-response-policy.png)
 Figure: Add the Mock Response policy
 
 ## Step 7 - Choose response
@@ -92,7 +92,7 @@ Figure: Add the Mock Response policy
 1. Choose the response representation to return as a Mock (e.g. `200 OK, application/json`)
 2. Click **Save**
 
-![](images/step7-choose-response-representation.png)
+![](step7-choose-response-representation.png)
 Figure: Choose the response representation
 
 ## Step 8 - Test your Mocked API
@@ -103,7 +103,7 @@ Figure: Choose the response representation
 4. Note the "Mocking is enabled" notice
 5. Click **Send**
 
-![](images/step8-test-mock-api.png)
+![](step8-test-mock-api.png)
 Figure: Testing the mocked api operation
 
 ## Step 9 - Inspect Mocked API response
@@ -111,7 +111,7 @@ Figure: Testing the mocked api operation
 1. Notice the 200 OK status code
 2. Notice the fake data response in the message body
 
-![](images/step9-inspect-mocked-api-reponse.png)
+![](step9-inspect-mocked-api-reponse.png)
 Figure: Response from the mocked operation
 
 ## Step 10 - Call your API using a REST Client
@@ -124,7 +124,7 @@ Figure: Response from the mocked operation
 4. **SEND** your request
 5. Verify the `200 OK` response and the mocked data
 
-![](images/step10-call-from-rest-client.png)
+![](step10-call-from-rest-client.png)
 Figure: Calling our Data API from a REST Client
 
 ## Conclusion
