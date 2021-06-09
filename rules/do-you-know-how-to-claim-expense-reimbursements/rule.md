@@ -11,6 +11,8 @@ redirects: []
 created: 2013-04-19T18:33:33.000Z
 archivedreason: null
 ---
+![]()
+
 ![](expense-reimbursement.png)
 You should be reimbursed for all reasonable expenses incurred in carrying out your duties, which are above your normal costs, to and from the office.
 
