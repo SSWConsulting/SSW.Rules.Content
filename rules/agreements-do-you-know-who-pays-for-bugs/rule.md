@@ -14,6 +14,9 @@ You WILL discover bugs in any newly developed software. This is perfectly normal
 
 <!--endintro-->
 
+1. numberd list
+2. same problem
+
 This is **bold**.
 
 * This is a bullet
