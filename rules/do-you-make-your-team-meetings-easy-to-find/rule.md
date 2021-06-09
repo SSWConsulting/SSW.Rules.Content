@@ -18,7 +18,7 @@ redirects:
 
 ---
 
-When joining a new team, it's easy to be lost and not know when the important meetings are (like the Daily Scrum, or the next Sprint Review). Broadly we use Teams as the appointment source (rather than Outlook) but you see it in both. This is because when a new member joins a Team e.g. Piers, he should not have to go looking for the appointment, so he can easily join the call.
+When joining a new team, it's easy to be lost and not know when the important meetings are (like the Daily Scrum, or the next Sprint Review). Broadly, use Teams as the appointment source (rather than Outlook) then the benefit is that you can have a tab where you see it in the context of the team. Then, when a new member joins a Team e.g. They do not have to go looking for the appointment, and can easily join the call.
 
 <!--endintro-->
 
