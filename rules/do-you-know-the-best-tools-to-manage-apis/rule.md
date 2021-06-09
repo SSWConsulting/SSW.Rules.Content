@@ -24,9 +24,6 @@ When building APIs one of the challenges is in how to document the API for other
 
 Using a tool that automates this is extremely valuable as it helps avoid the biggest bugbear of developers, stale documentation. This resulted in a number of standards being developed for specifying APIs. [Swagger](https://swagger.io/) and (OpenAPI)[https://www.openapis.org/] being being the most common, but there are a few others.
 
-## Swagger
-
-
 ## Azure API Management
 
 The best tool for use in medium to large organizations is **Azure API Management** (APIm for short). It has all the features other API Management tools and wraps everything up in a very nice UI.
