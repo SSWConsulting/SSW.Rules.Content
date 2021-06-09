@@ -16,7 +16,7 @@ related:
 - how-to-enter-an-expensify-receipt
 - do-you-create-a-new-report-for-related-expenses
 - do-you-know-how-to-claim-expense-reimbursements
-- do-you-know-how-to-claim-expense-reimbursements-with-Xero-Expense-app
+- claim-expense-reimbursements
 redirects:
 - use-expensify-for-expenses
 - use-apps-for-expenses
