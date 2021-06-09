@@ -9,7 +9,7 @@ authors:
 - title: Piers Sinclair
   url: https://ssw.com.au/people/piers-sinclair
 related:
--do-you-make-your-team-meetings-easy-to-find
+- do-you-make-your-team-meetings-easy-to-find
 redirects: []
 
 ---
