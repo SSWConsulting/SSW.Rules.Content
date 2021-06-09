@@ -26482,8 +26482,107 @@
 		"created": "2021-06-09T12:13:25.817Z",
 		"createdBy": "William Liebenberg [SSW]",
 		"createdByEmail": "williamliebenberg@ssw.com.au",
-		"lastUpdated": "2021-06-09T12:13:25.818Z",
+		"lastUpdated": "2021-06-09T12:17:35.230Z",
 		"lastUpdatedBy": "William Liebenberg [SSW]",
-		"lastUpdatedByEmail": "williamliebenberg@ssw.com.au"
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step1-create-blank-api.png",
+		"created": "2021-06-09T12:17:35.230Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.230Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step10-call-from-rest-client.png",
+		"created": "2021-06-09T12:17:35.230Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.230Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step2-describe-your-api.png",
+		"created": "2021-06-09T12:17:35.230Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.230Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step3-add-operation.png",
+		"created": "2021-06-09T12:17:35.231Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.231Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step4-add-response.png",
+		"created": "2021-06-09T12:17:35.231Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.231Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step5-add-represtntation.png",
+		"created": "2021-06-09T12:17:35.231Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.231Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step5-operation-done.png",
+		"created": "2021-06-09T12:17:35.231Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.231Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step6-add-mock-response-policy.png",
+		"created": "2021-06-09T12:17:35.232Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.232Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step7-choose-response-representation.png",
+		"created": "2021-06-09T12:17:35.232Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.232Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step8-test-mock-api.png",
+		"created": "2021-06-09T12:17:35.232Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.232Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
+	},
+	{
+		"file": "rules/do-you-know-when-to-mockup-your-api/step9-inspect-mocked-api-reponse.png",
+		"created": "2021-06-09T12:17:35.232Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "awliebenberg@outlook.com",
+		"lastUpdated": "2021-06-09T12:17:35.232Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "awliebenberg@outlook.com"
 	}
 ]
