@@ -29,6 +29,10 @@ This is a [link](https://sydiis2016q01.sydney.ssw.com.au/rules/agreements-do-you
 
 'Bugs' are generally a consequence of the development team not knowing every possible scenario when adding error handling. Generally speaking it takes developers just as long to add the error handling before you test it than after you test it. Bugs can also occur when development requirements change on the spot or work is not sufficiently specified.
 
+```
 For these reasons, fixing such issues is generally billable work on time & material contracts. On fixed-price contracts, bugs are generally fixable within the warranty period at no cost to you.
+```
+
+
 
 [What is a bug?](/management-is-your-client-clear-on-the-definition-of-a-bug)
