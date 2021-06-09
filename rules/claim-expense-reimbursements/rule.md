@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to claim expense reimbursements with Xero Expense app
 guid: 2e71cd53-d456-45bc-8a89-5ad9948cd85b
-uri: do-you-know-how-to-claim-expense-reimbursements-with-Xero-Expense-app
+uri: claim-expense-reimbursements
 created: 2020-09-14T01:42:42.0000000Z
 authors:
 - title: Nick Viet
@@ -12,7 +12,6 @@ related:
 - use-expensify-for-expenses
 redirects:
 - do-you-know-how-to-claim-expense-reimbursements-2
-- claim-expense-reimbursements
 
 ---
 
