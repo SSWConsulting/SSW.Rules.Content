@@ -15,9 +15,7 @@ redirects:
 
 ---
 
-It is recommended to use an appropriate system to complete expense reimbursements or digital filing of receipts. These systems will save you time and money as compared to the old method of providing paper receipts or sending countless emails. It also eliminates the problem of receiving receipts across multiple offices.
-
-There are several factors to consider when choosing the right system:
+There are several factors to consider when choosing the right expense receipt system, such as:
 
 * Frequency which a reimbursement is made (daily, weekly, monthly etc.)
 * Number of employees approved to request expense reimbursements
