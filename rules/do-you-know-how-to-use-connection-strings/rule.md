@@ -222,7 +222,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 Good Example - Option #5 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
 :::
 
-TIP: You can detect if your application is running on your local machine or on an Azure AppService by looking for the WEBSITE_SITE_NAME environment variable. If null or empty, then you are NOT running on an Azure AppService.
+TIP: You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
 
 ```cs
 public static class IWebHostEnvironmentExtensions
