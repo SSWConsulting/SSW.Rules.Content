@@ -20,7 +20,7 @@ index:
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-know-how-to-enter-a-hubdoc-receipt
 - do-you-treat-freebies-as-real-customers
-- claim-expense-reimbursements
+- do-you-know-how-to-claim-expense-reimbursements-with-Xero-Expense-app
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - do-you-use-auto-fetch-functions-for-invoices
 - do-you-schedule-supplier-payments
