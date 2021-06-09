@@ -12,6 +12,7 @@ related:
 - use-expensify-for-expenses
 redirects:
 - do-you-know-how-to-claim-expense-reimbursements-2
+- claim-expense-reimbursements
 
 ---
 
