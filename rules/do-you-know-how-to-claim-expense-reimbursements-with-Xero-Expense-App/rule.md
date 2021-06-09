@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to claim expense reimbursements with Xero Expense app
 guid: 2e71cd53-d456-45bc-8a89-5ad9948cd85b
-uri: claim-expense-reimbursements
+uri: do-you-know-how-to-claim-expense-reimbursements-with-Xero-Expense-app
 created: 2020-09-14T01:42:42.0000000Z
 authors:
 - title: Nick Viet
@@ -11,15 +11,13 @@ authors:
 related: 
 - use-expensify-for-expenses
 redirects:
-- do-you-know-how-to-claim-expense-reimbursements
 - do-you-know-how-to-claim-expense-reimbursements-2
-- do-you-know-how-to-claim-expense-reimbursements-with-Xero-Expense-App
 
 ---
 
 It is recommended to use an appropriate system to complete expense reimbursements or digital filing of receipts. These systems will save you time and money as compared to the old method of providing paper receipts or sending countless emails. It also eliminates the problem of receiving receipts across multiple offices.
 
-There are many systems available for employees to use to complete an expense reimbursement (check-out SSW Rules [Do you use the best mobile app for expenses?](/do-you-use-the-best-mobile-app-for-expenses) for a comparison of some of these systems). The value provided by each system is different for every business. There are several factors to consider when choosing the right system:
+There are several factors to consider when choosing the right system:
 
 * Frequency which a reimbursement is made (daily, weekly, monthly etc.)
 * Number of employees approved to request expense reimbursements
@@ -39,7 +37,7 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 ![Figure: Xero Expense app submit a photo](2020-11-25_15-44-09.png)
 
-2. Either allow the app to analyse the details manually or enter the details yourself (if you are strapped for time, you can take a photo and come back to it or hold on to the receipt and attend to it when possible)
+2. Either allow the app to analyse the details automatically or enter the details yourself (if you are strapped for time, you can take a photo and come back to it or hold on to the receipt and attend to it when possible)
 
 ![Figure: Details required of a submitted receipt](e.jpg)
 
@@ -55,7 +53,7 @@ It is recommended to use the Xero Expense app in tandem with the Xero Accounting
 
 #### Accountant
 
-1. Review the Xero Expense claims every Thursday
+1. Review the Xero Expense claims weekly
 
 2. Complete a general check of the receipt details
 
