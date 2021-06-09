@@ -9604,7 +9604,7 @@
 	},
 	{
 		"file": "rules/do-you-make-sure-you-get-latest-and-compile/rule.md",
-		"lastUpdated": "2021-05-28T07:45:47.452Z",
+		"lastUpdated": "2021-06-09T10:56:36.476Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2012-03-16T18:47:59+11:00",
@@ -21637,9 +21637,9 @@
 	},
 	{
 		"file": "rules/do-you-make-your-team-meetings-easy-to-find/rule.md",
-		"lastUpdated": "2020-11-11T16:07:44+11:00",
-		"lastUpdatedBy": "Ulysses Maclaren",
-		"lastUpdatedByEmail": "ulyssesmaclaren@ssw.com.au",
+		"lastUpdated": "2021-06-09T10:56:36.477Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
 		"created": "2020-04-02T17:07:17+11:00",
 		"createdBy": "Matthew Wicks",
 		"createdByEmail": "MatthewWicks@ssw.com.au"
@@ -26221,7 +26221,7 @@
 		"created": "2021-05-27T06:06:03.433Z",
 		"createdBy": "Piers Sinclair [SSW]",
 		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
-		"lastUpdated": "2021-05-28T07:45:47.453Z",
+		"lastUpdated": "2021-06-09T10:56:36.476Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
@@ -26248,7 +26248,7 @@
 		"created": "2021-05-28T07:43:26.727Z",
 		"createdBy": "Piers Sinclair",
 		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:45:47.452Z",
+		"lastUpdated": "2021-06-09T10:56:36.476Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
@@ -26257,7 +26257,7 @@
 		"created": "2021-05-28T07:43:26.728Z",
 		"createdBy": "Piers Sinclair",
 		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:45:47.453Z",
+		"lastUpdated": "2021-06-09T10:56:36.476Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
@@ -26266,7 +26266,7 @@
 		"created": "2021-05-28T07:43:26.728Z",
 		"createdBy": "Piers Sinclair",
 		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:45:47.454Z",
+		"lastUpdated": "2021-06-09T10:56:36.477Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
@@ -26275,7 +26275,7 @@
 		"created": "2021-05-28T07:43:26.728Z",
 		"createdBy": "Piers Sinclair",
 		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:45:47.454Z",
+		"lastUpdated": "2021-06-09T10:56:36.477Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
@@ -26284,7 +26284,34 @@
 		"created": "2021-05-28T07:43:26.729Z",
 		"createdBy": "Piers Sinclair",
 		"createdByEmail": "PiersSinclair@ssw.com.au",
-		"lastUpdated": "2021-05-28T07:45:47.454Z",
+		"lastUpdated": "2021-06-09T10:56:36.477Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/create-recurring-teams-meetings-for-a-channel/rule.md",
+		"created": "2021-05-29T02:06:10.676Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-06-09T10:56:36.477Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/create-recurring-teams-meetings-for-a-channel/Microsoft-Teams-New-Meeting-Setup.png",
+		"created": "2021-05-29T02:06:10.676Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-06-09T10:56:36.477Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/create-recurring-teams-meetings-for-a-channel/Microsoft-Teams-New-Meeting.png",
+		"created": "2021-05-29T02:06:10.676Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-06-09T10:56:36.478Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
