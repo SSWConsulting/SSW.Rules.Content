@@ -324,6 +324,8 @@ Adding a video is similar to a tweet:
 
 ![Figure: Short caption](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
+![Figure: Relative image - in the same folder as the rule](https://user-images.githubusercontent.com/38869720/121295625-b2307500-c932-11eb-8ed9-24237496da78.jpg)
+
 
 ### Horizontal Rules
 ---
