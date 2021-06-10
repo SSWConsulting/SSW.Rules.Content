@@ -13,7 +13,7 @@ index:
 - reporting-solutions
 - others
 - software
-- example-top-category
+- top-category
 
 ---
 
