@@ -53,6 +53,8 @@ To complete the following steps, you need to create an instance of Azure API Man
 1. Select your API from the API list
 2. Click **Add operation**
 3. Specify the Display name, Name and URL of your operation 
+  - **Display name** is a UI friendly display name that shows up in the Operations list
+  - **Name** is the programatic name of the operation that can be referenced programatically in policies
 
 ![Figure: Adding a new Operation](step3-add-operation.png)
 
