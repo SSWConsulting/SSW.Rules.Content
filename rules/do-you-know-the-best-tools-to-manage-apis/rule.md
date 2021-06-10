@@ -62,9 +62,9 @@ You can use APIm to secure your APIs, improve API discoverablility, transform ex
 - Pricing is complex - Standard to Premium scales exponentially
 - Lots of advanced features, requires a lot of learning
 
-`youtube: https://youtu.be/fWe8ZOOhcyA`
-
 Watch Adam Cogan and William Liebenberg explain more about Azure API Management.
+
+`youtube: https://youtu.be/fWe8ZOOhcyA`
 
 ::: good
 Figure: Good Example (more comprehensive)
