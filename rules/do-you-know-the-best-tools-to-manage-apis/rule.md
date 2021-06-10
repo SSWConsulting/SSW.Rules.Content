@@ -1,12 +1,14 @@
 ---
 type: rule
 archivedreason: 
-title: Comments - Do you know the best tools to manage APIs?
+title: Do you know the best tools to manage APIs?
 guid: 66ea1ecd-0fb8-4aa0-a0b4-423d87577fa8
 uri: do-you-know-the-best-tools-to-manage-apis
 created: 2021-05-11T22:00:01.0000000Z
 authors:
-- title: Bryden Olivers
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- title: Bryden Oliver
   url: https://ssw.com.au/people/bryden-oliver
 related:
 - do-you-know-how-to-brand-your-api-portal
@@ -16,16 +18,51 @@ redirects:
 
 ---
 
-When building APIs one of the challenges is in how to document the API for other developers to consume. 
+When building APIs one of the challenges is in how to document the API for other developers to consume.
+
 <!--endintro-->
 
-Using a tool that automates this is extremely valuable as it helps avoid the biggest bugbear of developers, stale documentation. This resulted in a number of standards being developed for specifying APIs. Swagger being the most common, but there are a few others.
+Using a tool that automates this is extremely valuable as it helps avoid the biggest bugbear of developers, stale documentation. This resulted in a number of standards being developed for specifying APIs. [Swagger](https://swagger.io/) and [OpenAPI](https://www.openapis.org/) being being the most common, but there are a few others.
 
-::: greybox
-The best tool for use in medium to large organizations is **Azure API Management**. It has all the features other API Management tools have. It also provides an API gateway for simplifying hosting your APIs. This gateway allows easy handling of all sorts of use cases. Things like rate limiting, consistent authentication, firewalls and code first APIs are supported easily. This is all as well as providing API documentation to developers.
-:::
+## Azure API Management
 
-`youtube: https://youtu.be/a_PU1IfSyBQ`
+The best tool for use in medium to large organizations is **Azure API Management** (APIm for short). It has all the features other API Management tools and wraps everything up in a very nice UI.
+
+By supporting Code First APIs, APIm can generate the Swagger documentation from your API code. For the developers consuming your API this is really fantastic!
+
+APIm allows you to centralize all your APIs and provide a consistent front-end interface for developers. You also get to securely provide all your APIs behind a single static IP address.
+
+You can use APIm to secure your APIs, improve API discoverablility, transform existing services and even mock services for testing.
+
+**Pros:**
+- Very nice UI compared to many alternatives
+- Import API definitions from Swagger, OpenAPI, WSDL, etc
+- Centralized API management
+- API policy management (a.k.a. request processing pipeline)
+  - mutate incoming and outgoing requests
+  - XML to JSON and vice verca
+  - Add/Remove/Modify request headers
+  - Redirects
+- Caching
+- Rate limiting
+- API Versioning
+- Response Mocking
+- Security features
+- Developer Portal
+  - API Documentation
+  - Branded APIs
+- Product customization
+  -  expose parts of any API as individual products
+- Monetization (sell your API)
+- Custom Identity Provider
+- Free Developer Tier
+- Comprehensive SLAs
+
+**Cons:**
+- Pricing is complex - Standard to Premium scales exponentially
+- Lots of advanced features, requires a lot of learning
+
+`youtube: https://youtu.be/fWe8ZOOhcyA`
 
 Watch Adam Cogan and William Liebenberg explain more about Azure API Management.
 

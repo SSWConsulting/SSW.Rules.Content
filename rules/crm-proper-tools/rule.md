@@ -19,5 +19,5 @@ There are a few tools you can use to easy your CRM development:
 <!--endintro-->
 
 - [XRMToolbox](https://www.xrmtoolbox.com/) - a free toolbox bundles many tools, such as solution transfer, fetch xml editor etc
-- [VS CRM Developer Extensions](https://github.com/AleksandrRogov/CRMDeveloperExtensions) - a free Visual Studio extensions, making publishing web resource
+- [D365 Developer Extensions](https://marketplace.visualstudio.com/items?itemName=tsharp.D365DeveloperExtensions) - a free Visual Studio extensions, making publishing web resource
 - [XRMToolkit](https://xrmtoolkit.com/) (aka CRM Solution Manager) - a powerful toolkit for VS. Not free
