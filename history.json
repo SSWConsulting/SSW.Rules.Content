@@ -26476,5 +26476,14 @@
 		"lastUpdated": "2021-06-09T07:41:26.239Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-brand-your-api-portal/rule.md",
+		"created": "2021-06-09T12:24:04.264Z",
+		"createdBy": "William Liebenberg [SSW]",
+		"createdByEmail": "williamliebenberg@ssw.com.au",
+		"lastUpdated": "2021-06-10T02:50:51.425Z",
+		"lastUpdatedBy": "William Liebenberg [SSW]",
+		"lastUpdatedByEmail": "williamliebenberg@ssw.com.au"
 	}
 ]
