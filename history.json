@@ -15751,9 +15751,9 @@
 	},
 	{
 		"file": "rules/how-to-find-the-best-audio-track-for-your-video/rule.md",
-		"lastUpdated": "2021-06-10T20:46:57.635Z",
-		"lastUpdatedBy": "tiagov8",
-		"lastUpdatedByEmail": "tiagov8@users.noreply.github.com",
+		"lastUpdated": "2021-06-10T20:48:10.086Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-11-08T07:12:10+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -26593,5 +26593,14 @@
 		"lastUpdated": "2021-06-10T02:50:51.425Z",
 		"lastUpdatedBy": "William Liebenberg [SSW]",
 		"lastUpdatedByEmail": "williamliebenberg@ssw.com.au"
+	},
+	{
+		"file": "rules/how-to-find-the-best-audio-track-for-your-video/audionetwork-screenshot.png",
+		"created": "2021-06-10T20:48:10.087Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-10T20:48:10.087Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
