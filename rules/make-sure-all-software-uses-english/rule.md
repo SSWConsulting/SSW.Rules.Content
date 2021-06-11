@@ -178,7 +178,11 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 
 5. In Windows 10, Go to Settings | Language | Windows display language, click Windows display language and search for English.  
 
-6. Go to Settings | Language | Region, click Regional format and select “English (United States)”.  
+![Figure: Set windows display language to English](LanguageSettingForWin10.png)  
+
+6. Go to Settings | Language | Region, click Regional format and select “English (United States)”.    
+
+![Figure: Set regional format to English](RegionalFormatSettingForWin10.png)  
 
 7. Done. You have changed your language to English. Congratulations!~  
 
