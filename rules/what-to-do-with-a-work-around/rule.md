@@ -28,7 +28,7 @@ e.g. a blog post
 e.g. on https://uservoice.com/ or https://bettersoftwaresuggestions.com/
 
 ::: greybox
-"This is a workaround as per the suggestion [URL]  
+"This is a workaround as per the suggestion \[URL\]"
 :::
 **Figure: Always add a URL to the suggestion that you are compensating for**
 ### Exercise: Understand commenting
