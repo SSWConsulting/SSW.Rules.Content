@@ -176,7 +176,7 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 
 ![Figure: Choose Region and Time. Then when you change the ‘Language’ with the checkbox enabled, the problem will be fixed.](screenshot-step3.png)  
 
-5. In Windows10, Go to Settings | Language | Windows display language, click Windows display language and search for English.  
+5. In Windows 10, Go to Settings | Language | Windows display language, click Windows display language and search for English.  
 
 6. Go to Settings | Language | Region, click Regional format and select “English (United States)”.  
 
