@@ -14527,9 +14527,9 @@
 	},
 	{
 		"file": "rules/make-sure-all-software-uses-english/rule.md",
-		"lastUpdated": "2021-06-11T02:27:41.496Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-06-11T03:54:23.704Z",
+		"lastUpdatedBy": "jim",
+		"lastUpdatedByEmail": "JimZheng@ssw.com.au",
 		"created": "2018-09-06T17:53:09+10:00",
 		"createdBy": "Shane Ye",
 		"createdByEmail": "ShaneYe@ssw.com.au"
@@ -26593,5 +26593,23 @@
 		"lastUpdated": "2021-06-10T02:50:51.425Z",
 		"lastUpdatedBy": "William Liebenberg [SSW]",
 		"lastUpdatedByEmail": "williamliebenberg@ssw.com.au"
+	},
+	{
+		"file": "rules/make-sure-all-software-uses-english/LanguageSettingForWin10.png",
+		"created": "2021-06-11T03:54:23.704Z",
+		"createdBy": "jim",
+		"createdByEmail": "JimZheng@ssw.com.au",
+		"lastUpdated": "2021-06-11T03:54:23.704Z",
+		"lastUpdatedBy": "jim",
+		"lastUpdatedByEmail": "JimZheng@ssw.com.au"
+	},
+	{
+		"file": "rules/make-sure-all-software-uses-english/RegionalFormatSettingForWin10.png",
+		"created": "2021-06-11T03:54:23.704Z",
+		"createdBy": "jim",
+		"createdByEmail": "JimZheng@ssw.com.au",
+		"lastUpdated": "2021-06-11T03:54:23.704Z",
+		"lastUpdatedBy": "jim",
+		"lastUpdatedByEmail": "JimZheng@ssw.com.au"
 	}
 ]
