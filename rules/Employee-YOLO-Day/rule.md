@@ -1,16 +1,16 @@
 ---
 type: rule
-archivedreason:
 title: Do you have a YOLO Day
-guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 uri: Employee-YOLO-Day
-created: 2021-04-07T06:35:55.0000000Z
-authors: 
+guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
+authors:
   - title: Nicholas Viet
     url: https://www.ssw.com.au/people/nick-viet
-related:
-
+related: null
+created: 2021-06-11T00:42:36.577Z
+archivedreason: null
 ---
+A small change
 
 It's important that staff feel appreciated, expand their horizons, and also that they celebrate each others' successes. A great way to do all of these is to give them an additional day of Annual Leave each year, and encourage them to use it to do something remarkable. 
 
@@ -22,8 +22,6 @@ They should then share what they did with their colleagues, reminding everyone w
 
 If you use this in your own company, add it to the list of perks that you offer everyone. e.g. [www.ssw.com.au/ssw/Employment](https://www.ssw.com.au/ssw/Employment)
 
-
 ![Figure: Sometimes people need a nudge to do something they'll remember for ever](ThinkstockPhotos-dv617062-1.jpg)
-
 
 <!--endintro-->
