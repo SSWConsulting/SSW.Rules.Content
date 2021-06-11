@@ -2017,9 +2017,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-follow-up-an-unanswered-email/rule.md",
-		"lastUpdated": "2021-03-15T22:57:28.122Z",
-		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-10T23:46:08.723Z",
+		"lastUpdatedBy": "Marni Lefebvre SSW",
+		"lastUpdatedByEmail": "79826771+MarniLefebvre@users.noreply.github.com",
 		"created": "2009-07-17T15:15:19+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -4492,9 +4492,9 @@
 	},
 	{
 		"file": "rules/post-production-do-you-know-how-to-promote-videos/rule.md",
-		"lastUpdated": "2013-05-22T08:45:35+10:00",
-		"lastUpdatedBy": "Titus Maclaren",
-		"lastUpdatedByEmail": "titusmaclaren@ssw.com.au",
+		"lastUpdated": "2021-06-10T08:53:04.216Z",
+		"lastUpdatedBy": "landonmaxwell",
+		"lastUpdatedByEmail": "78135895+landonmaxwell@users.noreply.github.com",
 		"created": "2012-11-20T16:07:26+11:00",
 		"createdBy": "Raj Dhatt",
 		"createdByEmail": "RajDhatt@ssw.com.au"
@@ -15751,9 +15751,9 @@
 	},
 	{
 		"file": "rules/how-to-find-the-best-audio-track-for-your-video/rule.md",
-		"lastUpdated": "2017-04-20T03:59:44+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-06-10T20:48:10.086Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-11-08T07:12:10+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -26611,5 +26611,14 @@
 		"lastUpdated": "2021-06-11T03:54:23.704Z",
 		"lastUpdatedBy": "jim",
 		"lastUpdatedByEmail": "JimZheng@ssw.com.au"
+  },
+  {
+		"file": "rules/how-to-find-the-best-audio-track-for-your-video/audionetwork-screenshot.png",
+		"created": "2021-06-10T20:48:10.087Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-10T20:48:10.087Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
