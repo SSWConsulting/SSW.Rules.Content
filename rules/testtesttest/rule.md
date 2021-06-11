@@ -12,7 +12,7 @@ Markdown shown in the blurb.
 
 <!--endintro-->
 
-Markdown not shown in the blurb
+Markdown not shown in the blurb small change to rule.
 
 ![](404-bg.png)
 
