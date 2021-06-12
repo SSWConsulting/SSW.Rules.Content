@@ -32,7 +32,7 @@ The ability to see the overall health (performance counters, exceptions, data 
 
 There are a number of existing Analytics frameworks available on the market, so there is no need to "re-invent the wheel". Why would you write your own if someone else has already taken the trouble to do it? We recommend using one of these frameworks or services:
 
-* [Application Insights for Visual Studio Online](/rules-to-better-application-insights-for-visual-studio-online) (preferred)
+* [Application Insights](/rules-to-better-application-insights) (preferred)
 * [Telerik Analytics](https://www.telerik.com/#measure)
 * [Exceptionless.NET](https://exceptionless.com/)
 * [New Relic](https://docs.newrelic.com/docs/agents/net-agent/net-agent-api/)
