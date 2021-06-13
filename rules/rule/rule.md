@@ -181,6 +181,8 @@ Check out this video - it's responsive!
 ![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
 
+![Figure: Relative image](world.jpg)
+
 # Horizontal Rules
 ---
 ***
