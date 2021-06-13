@@ -25,12 +25,12 @@ Each sprint has the following stages:
 
 <!--endintro-->
 
-1. Planning meeting:
-    * Sprint Forecast email: "Northwind Sprint 5 Forecast"
-    * See [Do you send a Sprint Forecast Email](/do-you-create-a-sprint-forecast-%28aka-the-functionality-that-will-be-developed-during-the-sprint%29) for more details
-2. The work is done:
-    * Done emails are sent asking for specific functionality to be tested
-    * See [Rules to better Email](/Communication/RulesToBetterEmail)for details
-3. Review and Retro meetings
-    * The Sprint review/retro email: "Northwind Sprint 5 Review/Retro"
-    * See [Do you send a Sprint Review/Retro email](/do-you-create-a-sprint-review-retro-email "Do you send a Sprint Review/Retro email") for more details.
+1. **Planning meeting**
+    * Sprint Forecast email: "Northwind - Sprint 5 Forecast"
+    * See [Do you send "Sprint Forecast" email to the client?](/send-sprint-forecast-and-sprint-review-retro-emails-to-the-client) for more details
+2. **Work in progress**
+    * "Done" emails are sent asking for specific functionality to be tested
+    * See [Rules to better Email](/rules-to-better-email) for details
+3. **Review and Retro meetings**
+    * The Sprint review/retro email: "Northwind - Sprint 5 Review/Retro"
+    * See [Do you send a Sprint Review/Retro email](/send-sprint-forecast-and-sprint-review-retro-emails-to-the-client) for more details.
