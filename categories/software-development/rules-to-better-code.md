@@ -47,6 +47,7 @@ index:
 - put-exit-sub-before-end-sub
 - put-optional-parameters-at-the-end
 - refer-to-form-controls-directly
+- how-to-format-your-messagebox-code
 - reference-websites-when-you-implement-something-you-found-on-google
 - store-application-level-settings-in-database-instead-of-configuration-files-when-possible
 - suffix-unit-test-classes-with-tests
