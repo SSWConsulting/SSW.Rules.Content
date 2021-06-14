@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: 'Searching: Can you instantly find any file on your computer or network?'
+title: 'Searching - Do you know how to instantly find any file on your computer or network?'
 guid: 9af903d8-8377-44c3-ba98-d6fc2ba9276d
 uri: searching-can-you-instantly-find-any-file-on-your-computer-or-network
 created: 2009-02-19T08:13:24.0000000Z
@@ -18,4 +18,6 @@ Often you will want to quickly find a file on your computer or local network. W
 <!--endintro-->
 
 
-If you are using Windows Vista - Windows 10, desktop search is integrated within the operating system. This can either be done from the Start Menu, Cortana or File Explorer.
+If you are using Windows, desktop search is integrated within the operating system. This can either be done from the **Start Menu**, **Cortana** or **File Explorer**. 
+
+If you are using a Mac, **Spotlight Search** 🔎 is located on the top-right corner or **Finder**.
