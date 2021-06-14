@@ -9,6 +9,7 @@ index:
 - use-appropriate-and-user-friendly-icons
 - use-clean-designs-when-creating-forms
 - use-ok-cancel-buttons
+- make-response-screens
 
 ---
 When designing their UI, Access developers often make these common mistakes:
