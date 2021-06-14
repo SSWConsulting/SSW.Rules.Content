@@ -48,10 +48,12 @@ index:
 - let-your-clients-know-they-are-valued
 - manage-your-photos
 - do-you-monitor-your-seo-effectively
+- use-google-tag-manager
 - do-you-re-purpose-your-pillar-content-for-social-media
 - do-you-share-when-you-upgrade-an-application
 
 ---
+
 Marketing can be a very broad and complicated topic. Everyday technology is constantly changing the way we market businesses, with new vs. old advertising, automation tools, social media algorithms, how AI impacts social media networks, and much more. Marketing is an iterative process. After marketing became mainly digital, and the introduction of new terms like 'customer journey', 'ROI', and 'social media engagement', we understand that altogether, it can be hard to follow.
 
 So much has changed over the last years; an online presence has become key to success; with a new focus on branding consistency and credibility. Due to this, the cost of marketing has increased a lot, on top of all of the knowledge you now need to have as a marketer.

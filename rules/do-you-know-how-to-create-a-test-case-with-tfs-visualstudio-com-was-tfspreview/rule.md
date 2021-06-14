@@ -17,5 +17,15 @@ redirects:
 ---
 
 Follow these steps to create a Test Case in TFS.VisualStudio.com: 
+
 <!--endintro-->
-![How to create a test case](create-tc-1.jpg)**Figure: Double click the Product Backlog Item that you want to create a Test Case for to open it** ![How to create a test case](create-tc-2.jpg)**Figure: Open the "TEST CASES" tab and click on the "New linked work item" button** ![How to create a test case](create-tc-3.jpg)**Figure: Ensure that the link type is 'Tested By', that the work item type is 'Test Case' and enter a title for the Test Case. Click OK.** ![How to create a test case](create-tc-4.jpg)**Figure: Select the correct iteration, and update the Status and Details sections. Click on the 'Click here to add a step' and proceed to add the steps required to test the user story** ![How to create a test case](create-tc-5.jpg)**Figure: After entering each action, along with its expected result, click Save and Close**
+
+![Figure: Double click the Product Backlog Item that you want to create a Test Case for to open it](create-tc-1.jpg)
+
+![Figure: Open the "TEST CASES" tab and click on the "New linked work item" button](create-tc-2.jpg)
+
+![Figure: Ensure that the link type is 'Tested By', that the work item type is 'Test Case' and enter a title for the Test Case. Click OK](create-tc-3.jpg)
+
+![Figure: Select the correct iteration, and update the Status and Details sections. Click on the 'Click here to add a step' and proceed to add the steps required to test the user story](create-tc-4.jpg)
+
+![Figure: After entering each action, along with its expected result, click Save and Close](create-tc-5.jpg)

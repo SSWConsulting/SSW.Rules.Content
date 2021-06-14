@@ -36,24 +36,27 @@ Each of the Sprints in a Scrum project can be considered a mini-project that has
 
 **Hi [Product Owner],**
 
-**Current Sprint: \[Sprint Number\]**
-Sprint Duration: \[Number of weeks\]
-Sprint Goal: \[Main goal of Sprint\]
-Project: \[Project Name\]
-Project Portal: \[Link to project Portal\]
-Product Owner: \[Product Owner Name\]
-Sprint Review Meeting: \[Date and Time\]
-
-Attendees: \[Names of Attendees\]
+| **Current Sprint:**  | **&lt;Sprint Number&gt;** |
+| --- | --- |
+| Sprint Duration:  | &lt;Number of weeks&gt; |
+| Sprint Goal:  | &lt;Main goal of Sprint&gt; |
+| Project:  | &lt;Project Name&gt; |
+| Project Portal:  | &lt;Link to project Portal&gt; |
+| Product Owner:  | &lt;Product Owner Name&gt; |
+| Sprint Review Meeting:  | &lt;Date and Time&gt; |
+| Attendees:  | &lt;Names of Attendees&gt; |
 
 As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to the following Product Backlog Items (PBIs) being included in the current sprint backlog.
 
 The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.
 
-  ::: greybox
-  **ID** / **Title** / **State** / **Effort**
-  :::
-  **Figure: The sprint backlog**
+  | **ID**  | **Title**  | **State**  |  **Effort** |
+| --- | --- | --- | --- |
+| 24124 | UI Improvements | Done | 4 |
+| 24112 | Integrate Business Logic to MVC app | Done | 8 |
+| 24097 | Styling | Committed | 16 |
+
+**Figure: The sprint backlog**
 
 &lt;This is as per rule: [Do you create a Sprint Forecast?](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) /&gt;
 

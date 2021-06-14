@@ -51,6 +51,7 @@ index:
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 - use-dashes-between-words-in-urls
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
+- do-you-use-presentation-templates-for-your-web-site-layouts
 - have-a-stylesheet-file
 - print-url
 - a-better-method-for-embedding-youtube-videos-on-your-website

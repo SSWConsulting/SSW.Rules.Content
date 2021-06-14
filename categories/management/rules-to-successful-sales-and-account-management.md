@@ -35,6 +35,7 @@ index:
 - do-you-follow-up-course-attendees-for-consulting-work
 - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
 - do-you-know-who-are-the-most-appropriate-resources-for-a-project
+- make-sure-devs-are-comfortable-with-their-assignments
 - do-you-know-what-to-do-when-asked-to-sign-an-nda
 - do-you-make-sure-your-developers-get-to-see-each-other-regularly
 - do-you-manage-requests-for-event-refunds-effectively
@@ -53,7 +54,8 @@ index:
 - fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
 - the-outcomes-from-your-initial-meeting
 - scheduling-do-you-know-how-to-book-developers-for-a-project
-- the-outcomes-from-your-initial-meeting
+- do-you-know-in-what-currency-to-quote-overseas
+- reward-your-developers
 
 ---
 
@@ -61,4 +63,4 @@ You can have the best developers in the world, but if you haven't got a good sal
 
 Once you've got the job, software projects are delicate activities and the client needs love. It's up to the Account Managers to keep everyone on the same page, especially if there is no Scrum Master.
 
-The Account Manager is responsible for invoicing, resource management (booking developers) and conflict resolution. Here are SSW's rules for better Sales and Account Management.
+The Account Manager is responsible for invoicing, resource management (booking developers) and conflict resolution.

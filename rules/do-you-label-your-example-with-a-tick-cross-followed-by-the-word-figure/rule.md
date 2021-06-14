@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/add-useful-and-concise-figure-captions
 title: Do you label your example with a tick/cross followed by the word Figure:?
 guid: f7c03829-af7f-4425-b52a-70c4c3593580
 uri: do-you-label-your-example-with-a-tick-cross-followed-by-the-word-figure
@@ -11,43 +11,28 @@ redirects: []
 
 ---
 
-<font size="2">        <font face="Verdana">Always use a green tick for a good example and red cross for a bad example followed with a label “Figure&#58;”?</font> </font>
+Always use a green tick for a good example and red cross for a bad example followed with a label “Figure&#58;”?
 
 <!--endintro-->
 
 
 ::: greybox
 Bad example - background colour is manually added to &lt;tablegt; tag
-
 :::
-
-
-
 ::: bad
 Bad example – example isn’t labelled with the X symbol followed by ‘Figure:’  
 :::
- 
-<font class="ms-rteCustom-GreyBox">
 
-::: bad
-Figure&#58; Bad example - background colour is manually added to &lt;tablegt; tag  
+::: greybox
+❌ Figure&#58; Bad example - background colour is manually added to &lt;tablegt; tag  
 :::
-</font>
-
-
 ::: good
-Figure: Good example – It is clear that this example is incorrect.
-
+Figure: Good example – It is clear that this example is incorrect
 :::
  
-<font class="ms-rteCustom-GreyBox">
-
-::: good
-Figure&#58; Good example - background colour is automatically added to &lt;tablegt; tag  
+::: greybox
+✅ Figure&#58; Good example - background colour is automatically added to &lt;tablegt; tag  
 :::
-</font>
-
-
 ::: good
-Figure: Good example – It is clear that this example is correct.  
+Figure: Good example – It is clear that this example is correct. 
 :::

@@ -44,7 +44,6 @@ index:
 - do-you-use-the-best-static-site-tech-stack
 - use-web-compiler
 - do-you-keep-your-npm-packages-up-to-date
+- do-you-perform-migration-procedures-with-an-approved-plan
 
 ---
-
-

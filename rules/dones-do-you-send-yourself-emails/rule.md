@@ -13,8 +13,8 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related: 
-- /do-you-send-as-per-our-conversation-emails
-- /do-you-include-the-name-of-the-person-you-address-on-the-first-line
+- do-you-send-as-per-our-conversation-emails
+- do-you-include-the-name-of-the-person-you-address-on-the-first-line
 redirects: 
 - dones-do-you-send-yourself-emails
 

@@ -24,4 +24,3 @@ The best NuGet packages are:
 * [MobileViewEngines](http&#58;//nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
 
 
-### [Todo:] Add a rule for each of these packages

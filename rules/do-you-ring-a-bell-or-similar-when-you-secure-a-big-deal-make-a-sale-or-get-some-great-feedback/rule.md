@@ -21,4 +21,10 @@ At SSW whenever a big new project is signed up, we sell an enterprise license fo
 
 ![Figure: Ring the bell email - send an email when you have good news with a prefix of ‘Ring the Bell - xxx’](ring-the-bell.jpg)
 
+::: info
 **Management Tip**: As a company owner or manager, you might want to see who of your employees are contributing to this feeling of appreciation around the office, and you can do that by querying your **Mail Server** for threads with "Ring the Bell" in the subject.
+:::
+
+::: info
+**Note:** For really large milestones, you may want to go a step further and organise a [reward for the team](/reward-your-developers).
+:::

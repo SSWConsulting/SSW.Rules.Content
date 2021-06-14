@@ -25,27 +25,22 @@ redirects: []
 
 The best way to handle continuous development and deployment is following [GitHub Flow](https://guides.github.com/introduction/flow/). The basic idea is to always deploy from  **master** , and to create a feature branch for every feature. When the feature is complete, it is merged back to master via a pull request, which provides a trigger for other developers to build.
 
-Using this strategy,  **master** is always production-ready and deployable.
+Using this strategy, **master** is always production-ready and deployable.
 
 <!--endintro-->
 
 
 `youtube: https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0`
  
-
-
-
-
 ::: bad  
 ![Figure: Bad example - Committing to master](commit-master-bad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - Committing to a new branch](commit-branch-good.jpg)  
 :::
 
-![Figure: Great diagram from        GitHub](github-flow.jpg)  
+![Figure: Great diagram from GitHub](github-flow.jpg)  
 
 ### The process
 
@@ -63,14 +58,18 @@ Since master is always being deployed, it must always be in a deployable state.
 
 When starting a PBI from the task board, create a branch from      **master** with a descriptive name for that feature.
 
-
+```console
+$ git branch start-stuff
+```
 ::: bad  
-![Figure: Bad example - Branch name is not descriptive](BadBranchName.png)  
+Figure: Bad example - Branch name is not descriptive
 :::
 
-
-::: good  
-![Figure: Good Example - Branch name describes the intent of the change](GoodBranchName.png)  
+```console
+$ git branch create-basic-web-application
+```
+::: good
+Figure: Good Example - Branch name describes the intent of the change
 :::
 
 **It is critical that this branch always comes off master, not another feature branch. Master is the only branch that is mandated to be in a deployable state, so any other option is unsafe.**
@@ -86,13 +85,19 @@ The benefit of creating feature branches is to reduce the number of conflicts an
 While working, commit frequently to this branch with nice, descriptive messages. For example, "Added a field to hold the product category to our timesheet read model" and "added a column to the timesheet summary UI for the product category".
 
 
-::: bad  
-![Figure: Bad Example - Commit message does not describe what was changed](BadCommitMessage.png)  
+```console
+$ git commit -m "Started report change"
+```
+::: bad
+Figure: Bad Example - Commit message does not describe what was changed
 :::
 
 
+```console
+$ git commit -m "Added a product category filter to the timesheet summary report UI"
+```
 ::: good  
-![Figure: Good Example - Commit message describes exactly what was changed.](GoodCommitMessage.png)  
+Figure: Good Example - Commit message describes exactly what was changed.
 :::
 
 **d) Push your changes to your remote Feature Branch**
@@ -100,27 +105,24 @@ While working, commit frequently to this branch with nice, descriptive messages.
 ### 2) Open a pull request (to merge from your current branch to the master)
 
 
-When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to      **master** . The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, and to discuss any issues.  Resolve these issues with more commits in the branch before continuing.
+When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to **master** . The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, and to discuss any issues.  Resolve these issues with more commits in the branch before continuing.
 
 Tip: A best practice is to have another developer review your work and then approve.
 
-
 ::: greybox
 It is easy to chalk this step up as busy-work, but it is one of the most valuable parts of the strategy
-
 :::
 
 ### #assumption
 
+Deploy the changes to a staging environment.  This allows the features to be tested before being merged to **master** .
 
-Deploy the changes to a staging environment.  This allows the features to be tested before being merged to      **master** .
-
-Some prefer to move this step to after the merge, especially when using a release management tool like VSTS Release or Octopus Deploy (see     [Do you use the best deployment tool](/do-you-use-the-best-deployment-tool)).  If you decide to go this route, remember that      **master** should remain deployable and production ready at all times and that all branches come from      **master** .  If skipping this step, ensure that you have CI on your feature branch to ensure that your branch compiles and passes all tests before merging.
+Some prefer to move this step to after the merge, especially when using a release management tool like VSTS Release or Octopus Deploy (see     [Do you use the best deployment tool](/do-you-use-the-best-deployment-tool)).  If you decide to go this route, remember that **master** should remain deployable and production ready at all times and that all branches come from **master**.  If skipping this step, ensure that you have CI on your feature branch to ensure that your branch compiles and passes all tests before merging.
 
 ### 3) Merge and Deploy (to master)
 
 
-Once everyone is happy and everything is tested, complete the pull request, which will merge back to      **master** . Ensure you are not using the "Fast Forward" merge option (git), or details about the branch will be lost - it will appear as though all work was done in      **master** . Being able to see the feature branches in the git log is very useful.
+Once everyone is happy and everything is tested, complete the pull request, which will merge back to **master** . Ensure you are not using the "Fast Forward" merge option (git), or details about the branch will be lost - it will appear as though all work was done in **master** . Being able to see the feature branches in the git log is very useful.
 
 
 ::: good  
@@ -128,33 +130,22 @@ Once everyone is happy and everything is tested, complete the pull request, whic
 :::
 
 After you completed the pull request, make sure you also delete the branch     that you made the pull request of. Deleting your completed branch will not just help yourself in the long run, but also everyone else. Having too many branches especially a stale one will confuse developers on what "may" be in progress, moreover it would cause so much pain to the future developer when they have to do a clean-up and the branch author has left.
-![](bad-figure-stale-branches2.png)
-
-
-
 
 ::: bad
-Figure: Bad Example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging
-
+![Figure: Bad Example - Lots of stale branches that could cause confusion or potentially take a long time to resolve conflicts when merging](bad-figure-stale-branches2.png)
 :::
 
-Otherwise, you can do it before you complete the pull request by ticking     delete branch option.
-![](delete branch in devops.png)
-
-
+Otherwise, you can do it before you complete the pull request by ticking delete branch option.
 
 ::: good
-Figure: Good Example - Automatically delete the branch after the pull         request completion in Azure Devops
-
+![Figure: Good Example - Automatically delete the branch after the pull request completion in Azure Devops](delete-branch-in-devops.png)
 :::
-![](github settings.png)
 
 ::: good
-Figure: Good Example - Set the whole project to auto-delete branch after         merging in GitHub
-
+![Figure: Good Example - Set the whole project to auto-delete branch after merging in GitHub](github-settings.png)
 :::
 
 
 ::: greybox
-Once merged,      **master** should immediately and automatically be deployed (in a perfect world, to production).  
+Once merged, **master** should immediately and automatically be deployed (in a perfect world, to production).  
 :::

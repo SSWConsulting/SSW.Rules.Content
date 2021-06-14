@@ -21,5 +21,5 @@ You should always use discretion in your public documentation. Hide any sensitiv
 <!--endintro-->
 
 ::: good
-![Figure: Good example – Others can’t see the clients’ names](blurred-image.jpg)
+![Figure: Good example – Others can’t see the clients’ names](blurred-image1.jpg)
 :::

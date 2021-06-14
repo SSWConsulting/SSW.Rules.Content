@@ -7,7 +7,7 @@ index:
 - dones-is-your-inbox-a-task-list-only
 - dones-do-you-use-email-for-tasks-only-not-communication
 - dones-do-you-reply-done-and-delete-the-original-email
-- dones-do-you-send-yourself-emails
+- send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
 - do-you-know-the-common-standard-email-types
