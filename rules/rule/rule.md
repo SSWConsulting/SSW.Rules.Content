@@ -183,6 +183,8 @@ Check out this video - it's responsive!
 
 ![Figure: Relative image](world.jpg)
 
+![Figure: Relative image](1.jpg)
+
 # Horizontal Rules
 ---
 ***
