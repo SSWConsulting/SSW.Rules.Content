@@ -185,6 +185,8 @@ Check out this video - it's responsive!
 
 ![Figure: Relative image](1.png)
 
+<img src="1.png"/>
+
 # Horizontal Rules
 ---
 ***
