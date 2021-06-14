@@ -22,6 +22,8 @@ index:
 - do-you-have-complex-queries-upsizing-problem
 - do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem
 - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
+- make-response-screens
+- fastest-way-to-add-a-new-record-in-a-large-table
 
 ---
 
