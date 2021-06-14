@@ -83,7 +83,7 @@ index:
 - add-quality-control-to-dones
 - do-you-always-remember-your-attachment
 - do-you-know-never-to-concatenate-words-in-an-email
-- do-you-manage-your-email
+- do-you-manage-your-email-accounts
 
 ---
 

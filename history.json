@@ -469,7 +469,7 @@
 	},
 	{
 		"file": "rules/do-you-manage-your-email-accounts/rule.md",
-		"lastUpdated": "2021-06-01T19:37:43.086Z",
+		"lastUpdated": "2021-06-14T19:31:47.116Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2009-04-17T14:29:39+10:00",
@@ -12844,9 +12844,9 @@
 	},
 	{
 		"file": "rules/do-you-use-underlines-only-on-links/rule.md",
-		"lastUpdated": "2021-02-22T10:54:54+11:00",
-		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "BradyStroud@sswcom.onmicrosoft.com",
+		"lastUpdated": "2021-06-14T17:40:11.304Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-02-16T12:27:32+11:00",
 		"createdBy": "Rebecca Liu",
 		"createdByEmail": "RebeccaLiu@ssw.com.au"
@@ -26609,6 +26609,15 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-06-14T21:57:36.934Z",
+    "lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/make-response-screens/rule.md",
+		"created": "2021-06-14T21:57:11.487Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-14T21:57:11.487Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
