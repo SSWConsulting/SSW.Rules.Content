@@ -187,6 +187,8 @@ Check out this video - it's responsive!
 
 <img src="1.png"/>
 
+<img src="1.png" alt="Figure: Image with alt text"/>
+
 # Horizontal Rules
 ---
 ***
