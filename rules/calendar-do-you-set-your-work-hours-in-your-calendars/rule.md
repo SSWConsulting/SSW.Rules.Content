@@ -21,6 +21,18 @@ You should always set your working hours in your Outlook calendar so others know
 <!--endintro-->
 
 You can find this setting in File | Options | Calendar Options, it looks like below:
-![Choose your working hours](Outlook work hours.jpg)     Figure: Outlook Calendar options for working hours settings
+
+![Choose your working hours](Outlook work hours.jpg)     
+**Figure: Outlook Calendar options for working hours settings**
+
 Once you set this up, you will be able to see the grey area in "Scheduling assistant" so you know what's the best time to book that person.
-![You can see the working hours in Scheduling Assistant.](SchedulingAssistant.jpg)**Figure: Working hours will be shown in Scheduling Assistant**![](CRM-set-work-hours-1.jpg)**Figure: In CRM, Click on the cog in the top right | Personalization Settings**![](CRM-set-work-hours-2.jpg)**Figure: Go to the Activities tab | Enter your default work hours**
+
+![Figure: Working hours will be shown in Scheduling Assistant](SchedulingAssistant.jpg)
+
+![Figure: In CRM, Click on the cog in the top right | Personalization Settings](CRM-set-work-hours-1.jpg)
+
+![Figure: Go to the Activities tab | Enter your default work hours](CRM-set-work-hours-2.jpg)
+
+This only allows for times that are the same every day. You should also update the Notes field in your CRM User Notes field.
+
+![Figure: Putting your work hours here makes it easy to find for anyone who's interested](CRM-Notes.jpg)
