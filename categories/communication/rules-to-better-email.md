@@ -42,7 +42,7 @@ index:
 - do-you-send-tasks-one-email-at-a-time
 - do-you-use-indentation-for-readability
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
-- when-you-reply-inline-do-you-use-a-different-color
+- email-avoid-inline
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - do-you-avoid-attaching-emails-to-emails
