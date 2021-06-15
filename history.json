@@ -26629,5 +26629,14 @@
 		"lastUpdated": "2021-06-14T21:57:11.487Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-disable-insecure-protocols/iis-crypto-3-2.png",
+		"created": "2021-06-15T16:08:12.702Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-15T16:08:12.702Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
