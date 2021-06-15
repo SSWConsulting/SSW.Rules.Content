@@ -156,39 +156,6 @@ Figure: Bad Example – It is not clear which tasks have been done and which hav
 
 ### Hi Bob,  
 
-1. Done - See <u>northwind&#46;com</u>
-2. Not Done - I couldn’t find a camera.
-
-Jason
-
----
-**From:** Bob   
-**To:** Jason   
-**Subject:** Northwind website - Update logo + add a photo  
-
-### Hi Jason,  
-As per our conversation,
-
-1. Update the logo on Northwind website the new logo
-2. Take a photo of the office façade and add to the "About Us" page
-
-Bob
-
-:::  
-:::
-::: good
-Figure: Good Example – You can see which tasks have been done and which haven’t (Note: you have to scroll to the original email to know what the tasks were) 
-:::
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Bob |
-| Subject: | RE: Northwind website - Update logo + add a photo |  
-::: email-content  
-
-### Hi Bob,  
-
 I've replied inline in **bold**.
 
 Jason
@@ -208,7 +175,7 @@ Bob
 :::  
 :::
 ::: bad
-Figure: Bad Example – It is clear which tasks have been done, however, [replying inline sucks](https://www.ssw.com.au/rules/when-you-reply-inline-do-you-use-a-different-color)
+Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it mess up with the history
 :::
 
 ::: email-template  
