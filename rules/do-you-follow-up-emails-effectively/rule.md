@@ -45,22 +45,7 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 To ensure you follow up any task like these, there are two ways to set yourself a task to follow up in the future:
 
-### #1 Delayed Email 
-   
-
-
-Write yourself an email in Outlook.     
-Before pressing send, click      **Options** |      **Delay Delivery** , and then specify when you want to be reminded.
-
-The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case)
-When you receive it in your inbox, action the task.
-
-
-::: good  
-![Figure: Good example - Use delayed email on Outlook](delay-emails-outlook.jpg)  
-:::
-
-### #2 Email reminders - followupthen.com 
+### #1 Email reminders - followupthen.com (recommended)
    
 
 
@@ -76,6 +61,22 @@ Simply BCC or email      **&lt;period of time&gt;@followupthen.com** and it will
 
 
 Note that you are sending this email thread to a 3rd party, so if you're dealing with any confidential information, strip it out before using this tool.
+
+### #2 Delayed Email 
+   
+
+
+Write yourself an email in Outlook.     
+Before pressing send, click      **Options** |      **Delay Delivery** , and then specify when you want to be reminded.
+
+The email will sit in your outbox until the required time, when it will be sent to whoever you specified (you in this case)
+When you receive it in your inbox, action the task.
+
+
+::: good  
+![Figure: Good example - Use delayed email on Outlook](delay-emails-outlook.jpg)  
+:::
+
 
 ### #3 Follow Up flag feature in Outlook
 
