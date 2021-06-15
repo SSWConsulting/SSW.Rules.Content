@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it. If you need an answer, reming them by adding a PING to the thread:  
+Sometimes the person you send your email to may not reply immediately because they're busy or just may have forgotten about it. If you need an answer, remind them by adding a PING to the thread:  
 <!--endintro-->
 
 1. Reply to ALL
