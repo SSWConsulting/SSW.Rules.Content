@@ -22,7 +22,7 @@ To assist the accountant with any administrative burdens, the office manager (or
 
 Depending on the rule of your organisation, office managers should have some level of approval powers e.g. up to $100 can be approved by the office managers. Other alternatives could be that 2 office managers together can approve up to $500 or alternatively everything must be approved by 1 person such as the accountant. Based on the rule, the expense app should be set up in that manner so expenses are reviewed and processed accordingly. 
 
-> Note: if your business does not use any mobile app for expense receipts, SSW has compared 3 apps for the purpose of small businesses. Review the following rule to determine which app may be best suited for your business https://www.ssw.com.au/rules/do-you-use-the-best-mobile-app-for-expenses
+> Note: if your business does not use any mobile app for expense receipts, SSW has compared 3 apps particularly useful for small businesses. Review the following rule to determine which app may be best suited for your business https://www.ssw.com.au/rules/do-you-use-the-best-mobile-app-for-expenses
 > 
 > By using an expense app, the accountant obtains the digital copy of the receipt which should match to the relevant transaction in the bank statement lines within the accounting system and allow for faster reconciliations.
 
