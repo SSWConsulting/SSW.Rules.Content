@@ -22,22 +22,12 @@ Snip the relevant information only. You can do this by:
 
 1. Deleting junk that is not related to the conversation
 2. Deleting repetitive junk that makes it hard to read (like peoples’ names)
-3. Adding a line break between people and highlighting the person's name in **BOLD**
-
-
- **
-** 
-
-![Bad Example of an IM snip](Bad-Example-of-IM-snip.jpg)
-
+3. Adding a line break between people and highlighting the person's name in **bold**
 
 ::: bad
-Figure: Bad example - this IM snip has a lot of unnecessary text that makes it hard to read  
+![Figure: Bad example - this IM snip has a lot of unnecessary text that makes it hard to read](Bad-Example-of-IM-snip.jpg) 
 :::
 
-![Good example of an IM snip](Good-Example-of-IM-snip.jpg)
-
-
 ::: good
-Figure: Good example - snipped and formatted  
+![Figure: Good example - snipped and formatted](Good-Example-of-IM-snip.jpg) 
 :::
