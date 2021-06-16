@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Views - Do you use SQL Views?
-guid: a4615006-2250-4e3f-badf-b9822dfec450
 uri: use-sql-views
-created: 2020-03-20T01:05:11.0000000Z
+guid: a4615006-2250-4e3f-badf-b9822dfec450
 authors:
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-- title: Isaac Lu
-  url: https://ssw.com.au/people/isaac-lu
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
+  - title: Isaac Lu
+    url: https://ssw.com.au/people/isaac-lu
 related: []
 redirects:
-- views-do-you-use-sql-views
-
+  - views-do-you-use-sql-views
+created: 2020-03-20T01:05:11.000Z
+archivedreason: null
 ---
 
 A view is a virtual table produced from executing a stored query on the database. Views don’t store any data as they retrieve the result set through a query. Users can interact with views similarly as they would with a normal table when retrieving data however limitations do exist when writing back to the result-set. Views can be used to simplify access to database result sets and provide more security options to administrators when granting access. More information can be found at [CREATE VIEW (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-view-transact-sql?view=sql-server-ver15)
-
+ 
 
 
 <!--endintro-->
