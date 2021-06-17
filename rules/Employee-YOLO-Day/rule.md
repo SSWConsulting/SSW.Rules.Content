@@ -6,7 +6,7 @@ guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 uri: Employee-YOLO-Day
 created: 2021-04-07T06:35:55.0000000Z
 authors: 
-  - title: Nicholas Viet
+  - title: Nick Viet
     url: https://www.ssw.com.au/people/nick-viet
 related:
 
