@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Can’t keep it up-to-date + we don't use jQuery. Approved by Anthony N
 title: Do you know which version of jQuery to use?
 guid: 7cef792d-fa7f-429c-a002-5328196286f7
 uri: do-you-know-which-version-of-jquery-to-use
