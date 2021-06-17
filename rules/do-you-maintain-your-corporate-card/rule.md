@@ -18,7 +18,7 @@ Issuing cards can be both an administrative and financial burden. Administrative
 
 To assist the accountant with any administrative burdens, the office manager (or the office assistant) should record all spend receipts to the accountant within a week of the spend. The best way to file these receipts is to use the company's expense receipts app. This allows for the quick disposal of the receipts and maintain a digital copy.
 
-> Note: if your business does not use any mobile app for expense receipts, SSW has compared 3 apps particularly useful for small businesses. Review the following rule to determine which app may be best suited for your business https://www.ssw.com.au/rules/do-you-use-the-best-mobile-app-for-expenses
+> Note: if your business does not use any mobile app for expense receipts, you can review the following rule which SSW has compared 3 apps particularly useful for small businesses and determine which app may be best suited for your business https://www.ssw.com.au/rules/do-you-use-the-best-mobile-app-for-expenses
 > 
 > By using an expense app, the accountant obtains the digital copy of the receipt which should match to the relevant transaction in the bank statement lines within the accounting system and allow for faster reconciliations.
 
