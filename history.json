@@ -26631,6 +26631,132 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
+		"file": "rules/brand-your-api-portal/rule.md",
+		"created": "2021-06-17T03:08:31.376Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.592Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/rule.md",
+		"created": "2021-06-17T03:08:31.376Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.592Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step1-create-blank-api.png",
+		"created": "2021-06-17T03:08:31.376Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.593Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step10-call-from-rest-client.png",
+		"created": "2021-06-17T03:08:31.377Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.593Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step2-describe-your-api.png",
+		"created": "2021-06-17T03:08:31.377Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.593Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step3-add-operation.png",
+		"created": "2021-06-17T03:08:31.377Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.593Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step4-add-response.png",
+		"created": "2021-06-17T03:08:31.377Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.594Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step5-add-represtntation.png",
+		"created": "2021-06-17T03:08:31.378Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.594Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step5-operation-done.png",
+		"created": "2021-06-17T03:08:31.378Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.595Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step6-add-mock-response-policy.png",
+		"created": "2021-06-17T03:08:31.378Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.595Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step7-choose-response-representation.png",
+		"created": "2021-06-17T03:08:31.378Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.595Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step8-test-mock-api.png",
+		"created": "2021-06-17T03:08:31.379Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.595Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/mockup-your-apis/step9-inspect-mocked-api-reponse.png",
+		"created": "2021-06-17T03:08:31.379Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.596Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/tools-to-manage-apis/rule.md",
+		"created": "2021-06-17T03:08:31.379Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-06-17T04:01:52.596Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
 		"file": "rules/do-you-disable-insecure-protocols/iis-crypto-3-2.png",
 		"created": "2021-06-15T16:08:12.702Z",
 		"createdBy": "Tiago Araújo [SSW]",

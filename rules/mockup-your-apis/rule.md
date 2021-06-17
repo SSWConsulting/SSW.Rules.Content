@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know when to mockup your API?
 guid: eee9e703-e6bd-40f8-9f65-8a12a3d92f8d
-uri: do-you-know-when-to-mockup-your-apis
+uri: mockup-your-apis
 created: 2021-05-11T22:00:01.0000000Z
 authors:
 - title: William Liebenberg
@@ -11,10 +11,11 @@ authors:
 - title: Bryden Oliver
   url: https://ssw.com.au/people/bryden-oliver
 related: 
-- do-you-know-how-to-brand-your-api-portal
-- do-you-know-the-best-tools-to-manage-apis
+- brand-your-api-portal
+- tools-to-manage-apis
 redirects:
 - comments-do-you-know-when-to-mockup-your-apis
+- do-you-know-when-to-mockup-your-apis
 
 ---
 

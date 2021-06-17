@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know the best tools to manage APIs?
 guid: 66ea1ecd-0fb8-4aa0-a0b4-423d87577fa8
-uri: do-you-know-the-best-tools-to-manage-apis
+uri: tools-to-manage-apis
 created: 2021-05-11T22:00:01.0000000Z
 authors:
 - title: William Liebenberg
@@ -11,10 +11,11 @@ authors:
 - title: Bryden Oliver
   url: https://ssw.com.au/people/bryden-oliver
 related:
-- do-you-know-how-to-brand-your-api-portal
-- do-you-know-when-to-mockup-your-apis
+- brand-your-api-portal
+- mockup-your-apis
 redirects:
 - comments-do-you-know-the-best-tools-to-manage-apis
+- do-you-know-the-best-tools-to-manage-apis
 
 ---
 
