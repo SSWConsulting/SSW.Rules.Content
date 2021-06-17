@@ -21,14 +21,14 @@ Years ago, it was common to have the "language" attribute within the script tags
 Since these identifiers are not standard, this attribute has been deprecated in favor of "type".
 
 ```
-&lt;script href="script.js" language="javascript"&gt;&lt;/script&gt;
+<script href="script.js" language="javascript"></script>
 ```
 ::: bad
 Figure: Bad example - Language attribute has been deprecated
 :::
 
 ```
-&lt;script href="script.js" type="text/javascript"&gt;&lt;/script&gt;
+<script href="script.js" type="text/javascript"></script>
 ```
 ::: good
 Figure: Good example - The scripting language is specified as a content type
