@@ -12,7 +12,7 @@ authors:
   url: https://ssw.com.au/people/bryden-oliver
 related: 
 - do-you-know-how-to-brand-your-api-portal
-- do-you-know-the-best-tools-to-manage-apis
+- tools-to-manage-apis
 redirects:
 - comments-do-you-know-when-to-mockup-your-apis
 
