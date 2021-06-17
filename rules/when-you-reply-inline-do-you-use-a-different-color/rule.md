@@ -33,7 +33,12 @@ In the rare cases wehere you really need to reply inline for a special reason, i
 | Subject: | Daniel Hyles - Morning Goals |  
 ::: email-content  
 
+### Hi Adam,
+
 I have replied inline
+
+Regards,
+Daniel
 
 -----Original Message-----
 From: Adam Cogan www.ssw.com.au
@@ -41,13 +46,13 @@ Sent: Monday, 27 May 2002 8:00 AM
 To: Daniel Hyles www.ssw.com.au 
 Subject: Daniel Hyles - Morning Goals
 
-- TimePro Online pages  
+1. TimePro Online pages  
 Done  
-- Double check backups (get backup today on both drives, I configured the other drive last night)  
+2. Double check backups (get backup today on both drives, I configured the other drive last night)  
 Done 
-- Make sure Exchange is backing itself up... Check Google on why not.  
+3. Make sure Exchange is backing itself up... Check Google on why not.  
 Not Done
-- Access reporter
+4. Access reporter   
 Not Done
 
 :::  
