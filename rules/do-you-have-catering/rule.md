@@ -27,6 +27,8 @@ Use the following checklist to ensure you get catering right.
 
  **TIP:** You can make your event look a million dollars by taking a little extra time and decanting your yummy offerings into nicer containers. 
 
+ `oembed: https://twitter.com/SSW_TV/status/1014239966644375553`
+
 
 
 
