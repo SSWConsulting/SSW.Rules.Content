@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to brand your API portal?
 guid: 2ca8fb8c-f799-4b66-a0dd-b9cb5f0ad3f0
-uri: do-you-know-how-to-brand-your-api-portal
+uri: brand-your-api-portal
 created: 2021-05-11T22:00:01.0000000Z
 authors:
 - title: William Liebenberg
@@ -15,6 +15,7 @@ related:
 - mockup-your-apis
 redirects:
 - comments-do-you-know-how-to-brand-your-api-portal
+- do-you-know-how-to-brand-your-api-portal
 
 ---
 

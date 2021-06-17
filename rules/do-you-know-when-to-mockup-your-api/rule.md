@@ -11,7 +11,7 @@ authors:
 - title: Bryden Oliver
   url: https://ssw.com.au/people/bryden-oliver
 related: 
-- do-you-know-how-to-brand-your-api-portal
+- brand-your-api-portal
 - tools-to-manage-apis
 redirects:
 - comments-do-you-know-when-to-mockup-your-apis

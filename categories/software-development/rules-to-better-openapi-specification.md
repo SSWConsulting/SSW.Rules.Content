@@ -6,5 +6,5 @@ uri: rules-to-better-openapi-specification
 index:
 - tools-to-manage-apis
 - mockup-your-apis
-- do-you-know-how-to-brand-your-api-portal
+- brand-your-api-portal
 ---
