@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason:
-title: Do you maintain your corporate card
+title: How do you manage your corporate card
 guid: bbab3709-d9a3-49c8-9c9c-77efa0d6e5ca
-uri: Do-you-maintain-your-corporate-card
+uri: How-do-you-manage-your-corporate-card
 created: 2021-06-16
 authors: 
   - title: Nick Viet
