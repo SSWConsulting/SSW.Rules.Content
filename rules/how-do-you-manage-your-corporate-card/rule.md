@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: How do you manage your corporate card
 guid: bbab3709-d9a3-49c8-9c9c-77efa0d6e5ca
-uri: How-do-you-manage-your-corporate-card
+uri: how-do-you-manage-your-corporate-card
 created: 2021-06-16
 authors: 
   - title: Nick Viet
