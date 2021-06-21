@@ -4,7 +4,7 @@ archivedreason:
 title: How to set up GitHub Scrum workflow
 guid: e63da194-c5d2-4830-9106-d164aafcddb5
 uri: do-you-know-the-how-to-set-up-github-workflow
-created: {date_created}
+created: 2021-06-21T06:44:34.0000000Z
 authors:
   - title: Tom Bui
     url: https://www.ssw.com.au/people/tom-bui
