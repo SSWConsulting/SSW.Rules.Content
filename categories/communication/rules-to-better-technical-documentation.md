@@ -42,6 +42,7 @@ index:
 - relevant-words-on-links
 - do-you-write-the-word-email-in-the-correct-format
 - scrum-should-be-capitalized
+- keep-your-urls-clean
 
 ---
 
