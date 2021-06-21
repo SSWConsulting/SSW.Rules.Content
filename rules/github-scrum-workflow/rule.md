@@ -17,6 +17,8 @@ There are several ways of turning your GitHub repository into a simple but power
 
 <!--endintro-->
 
+Based on [GitHub scrum workflow](https://github.com/jvandemo/github-scrum-workflow)
+
 #### How it works
 
 - Product Backlog Items (PBIs) are reported as **issues**
@@ -79,5 +81,4 @@ This allows you to group items in Sprints and track them by milestone in your [i
 The backlog then consists of all items (issues) that have no `milestone` attached to it.
 
 **TIP**: Use `no:milestone` in the search field on your [issue dashboard](https://github.com/issues) to find backlog items.
-
 
