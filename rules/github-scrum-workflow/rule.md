@@ -35,8 +35,8 @@ Add the following labels to your repository:
 
 ### Estimates
 
-`estimate` labels allow you to set estimates in your backlog e.g.:
-
+`estimate` labels allow you to set estimates in your backlog:
+e.g.:
 | Label        | Time Estimate |
 | -------------|:-------------:|
 | `estimate: 1` | trivial |
@@ -47,6 +47,8 @@ Add the following labels to your repository:
 | `estimate: 13` | 1.5 days |
 | `estimate: 21` | 3 days |
 | `estimate: 34` | 1 week |
+
+Your actual estimates should align with https://www.ssw.com.au/rules/estimating-do-you-know-how-to-size-user-stories-effectively
 
 ### Types
 
