@@ -25,7 +25,7 @@ There are several ways of turning your GitHub repository into a simple but power
 
 To create a new backlog item, just create a new issue.
 
-Once a new issue has been created, assign it the right labels and/or assign it to a sprint (milestone).
+Once a new issue has been created, assign it the right labels and/or assign it to a Sprint (milestone).
 
 Issues allow you to have a conversation about the item and even allow you to create task lists inside the issue using [GitHub's markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -66,11 +66,11 @@ Add the following labels to your repository:
 
 You can define and assign custom labels that you need within your workflow or organization.
 
-#### 3. Define sprints as milestones
+#### 3. Define Sprints as milestones
 
-You can create a milestone for every sprint and add items (issues) from the backlog to a milestone.
+You can create a milestone for every Sprint and add items (issues) from the backlog to a milestone.
 
-This allows you to group items in sprints and track them by milestone in your [issue dashboard](https://github.com/issues).
+This allows you to group items in Sprints and track them by milestone in your [issue dashboard](https://github.com/issues).
 
 The backlog then consists of all items (issues) that have no `milestone` attached to it.
 
