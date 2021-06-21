@@ -17,7 +17,7 @@ There are several ways of turning your GitHub repository into a simple but power
 
 <!--endintro-->
 
-Based on [GitHub scrum workflow](https://github.com/jvandemo/github-scrum-workflow)
+Based on [GitHub Scrum workflow](https://github.com/jvandemo/github-scrum-workflow)
 
 #### How it works
 
