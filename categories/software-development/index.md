@@ -50,6 +50,7 @@ index:
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
 - rules-to-better-unit-tests
+- how-to-set-up-github-scrum-workflow
 
 ---
 
