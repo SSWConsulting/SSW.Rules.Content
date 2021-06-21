@@ -27,9 +27,11 @@ Based on [GitHub scrum workflow](https://github.com/jvandemo/github-scrum-workfl
 
 #### 1. Create issues as backlog items
 
-To create a new backlog item, just create a new issue.
+To create a new backlog item, it is best practice to configure GitHub issue templates for your repository 
 
-Once a new issue has been created, assign it the right labels and/or assign it to a Sprint (milestone).
+Issue templates configuration guide can be found at [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+
+Assign the issue the right labels and/or assign it to a Sprint (milestone).
 
 Issues allow you to have a conversation about the item and even allow you to create task lists inside the issue using [GitHub's markdown](https://guides.github.com/features/mastering-markdown/).
 
