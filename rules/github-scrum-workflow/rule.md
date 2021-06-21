@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: How to set up GitHub scrum workflow
+title: How to set up GitHub Scrum workflow
 guid: e63da194-c5d2-4830-9106-d164aafcddb5
 uri: do-you-know-the-how-to-set-up-github-workflow
 created: {date_created}
@@ -9,7 +9,7 @@ authors: []
 related:
 
 ---
-### How to set up GitHub scrum workflow
+### How to set up GitHub Scrum workflow
 
 There are several ways of turning your GitHub repository into a simple but powerful agile work environment, the following is the recommended:
 
