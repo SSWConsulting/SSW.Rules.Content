@@ -22,10 +22,10 @@ Based on [GitHub Scrum workflow](https://github.com/jvandemo/github-scrum-workfl
 #### How it works
 
 - Product Backlog Items (PBIs) are reported as **issues**
-- Points and meta data are assigned to items as **labels**
+- Points and meta data are assigned to PBIs as **labels**
 - **milestones** are used to group issues in Sprints
 
-#### 1. Create issues as backlog items
+#### 1. Create issues as Product Backlog Items
 
 To create a new backlog item, it is best practice to configure GitHub issue templates for your repository 
 
@@ -58,7 +58,7 @@ Your actual estimates should align with https://www.ssw.com.au/rules/estimating-
 
 ### Types
 
-`type` labels allow you to easily filter items (issues) in the dashboard e.g.:
+`type` labels allow you to easily filter PBIs (issues) in the dashboard e.g.:
 
 | Label | Type |
 | ------| :----|
@@ -76,11 +76,11 @@ You can define and assign custom labels that you need within your workflow or or
 
 #### 3. Define Sprints as milestones
 
-You can create a milestone for every Sprint and add items (issues) from the backlog to a milestone.
+You can create a milestone for every Sprint and add Product PBIs (issues) from the backlog to a milestone.
 
-This allows you to group items in Sprints and track them by milestone in your [issue dashboard](https://github.com/issues).
+This allows you to group PBIs in Sprints and track them by milestone in your [issue dashboard](https://github.com/issues).
 
-The backlog then consists of all items (issues) that have no `milestone` attached to it.
+The backlog then consists of all PBIs (issues) that have no `milestone` attached to it.
 
-**TIP**: Use `no:milestone` in the search field on your [issue dashboard](https://github.com/issues) to find backlog items.
+**TIP**: Use `no:milestone` in the search field on your [issue dashboard](https://github.com/issues) to find PBIs.
 
