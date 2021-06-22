@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Mehmet Ozdemir
   url: https://ssw.com.au/people/mehmet-ozdemir
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
 - title: Brendan Richards
   url: https://ssw.com.au/people/brendan-richards
 - title: Andrew Lean
@@ -33,6 +35,24 @@ These secrets **must not** be stored in source control in plain text – it is i
 There are many options for managing secrets in a secure way:
 
 ### Bad Practices
+
+
+::: greybox
+
+#### Store production passwords in source control
+
+Pros:
+* Minimal change to existing process
+* Simple and easy to understand
+
+Cons:
+* Passwords are readable by anyone who has either source code or access to source control
+* Difficult to manage production and non-production config settings
+* Developers can read and access the production password
+:::
+::: bad
+![Figure: Bad practice - Overall rating: 1/10](BadSettings.png)
+:::
 
 ::: greybox
 
@@ -158,8 +178,39 @@ Pros:
 
 Cons:
 
-* Price is per transaction - can become costly if used in high volume and not managed thoroughly (see [SSW's William Liebenberg on Azure SpendOps](https://azuregems.io/spendops-with-azure-cosmos-db/)
+* Tightly integrated into Azure so if you are running on another provider or on premises, this may be a concern. Authentication into Key Vault now needs to be secured.
 :::
 ::: good
 Figure: Good Practice - Overall rating 9/10  
 :::
+
+#### Avoid using secrets with Azure Managed Identities
+
+The easiest way to manage secrets is not to have them in the first place. Azure Managed Identities allows you to assign an Azure AD identity to your application and then allow it to use its identity to log in to other services. This avoids the need for any secrets to be stored.
+
+Pros:
+* Best solution for cloud (Azure) solutions
+* Enterprise grade
+* Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
+* Roles can be ugranted to your application your CI/CD pipelines at the time your services are deployed
+
+Cons:
+
+* Only works where Azure AD RBAC is available. NB. There are still some Azure services that don't yet support this. Most do though.
+:::
+::: good
+![Figure: Good Practice - Overall rating 10/10](GoodSettings.png)
+:::
+
+
+#### Resources
+
+The following resources show some concrete examples on how to apply the principles described:
+
+* https://github.com/brydeno/bicepsofsteel
+* https://docs.microsoft.com/en-us/azure/key-vault/general/best-practices
+* https://docs.microsoft.com/en-us/azure/key-vault/general/security-features
+* https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows
+* https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15
+* https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x
+* https://www.youtube.com/embed/-aTlON-UCVM
