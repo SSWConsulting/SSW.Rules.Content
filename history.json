@@ -9136,9 +9136,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-use-connection-strings/rule.md",
-		"lastUpdated": "2021-06-09T09:48:04.922Z",
-		"lastUpdatedBy": "William Liebenberg [SSW]",
-		"lastUpdatedByEmail": "williamliebenberg@ssw.com.au",
+		"lastUpdated": "2021-06-21T21:57:06.780Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2009-12-04T19:40:40+11:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -26762,6 +26762,15 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-06-15T16:08:12.702Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-how-to-use-connection-strings/manage-user-secrets.png",
+		"created": "2021-06-21T21:56:10.185Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-21T21:57:06.781Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}

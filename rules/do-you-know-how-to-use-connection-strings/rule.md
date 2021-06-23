@@ -30,7 +30,7 @@ Luckily there is a better way to avoid these issues and we are able to consume o
 
 <!--endintro-->
 
-#### Option #1 - Using connection strings directly in code
+### Option #1 - Using connection strings directly in code
 
 ```cs
 public class MyDataService
@@ -48,12 +48,11 @@ public class MyDataService
     }
 }
 ```
-
 ::: bad
 Figure: Bad Example - Option #1 Connection strings do not belong in your code, anyone seeing this could access your database
 :::
 
-#### Option #2 - Using connection strings in `appsettings.json`
+### Option #2 - Using connection strings in `appsettings.json`
 
 ```js
 // In appsettings.json
@@ -64,12 +63,11 @@ Figure: Bad Example - Option #1 Connection strings do not belong in your code, a
   }
 }
 ```
-
 ::: bad
 Figure: Bad Example - Option #2 Connection strings do not belong in your `appsettings.json` either, once committed to version control they are hard to remove
 :::
 
-#### Option #3 - Referencing loosely typed connection strings
+### Option #3 - Referencing loosely typed connection strings
 
 ```cs
 public class MyDataService
@@ -96,12 +94,11 @@ public class MyDataService
     }
 }
 ```
-
 ::: bad
 Figure: Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
 :::
 
-#### Option #4 - User Secrets
+### Option #4 - User Secrets
 
 An alternative to putting secrets into `appsettings.json` is via [User Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
 
@@ -114,7 +111,7 @@ To access your User Secrets:
 3. Edit the content of your `secrets.json` file
 4. Save the file
 
-![Figure: OK Example - Option #4 User secrets (secrets.json)](user-secrets.png)
+![Figure: OK Example - Option #4 User secrets (secrets.json)](manage-user-secrets.png)
 
 ```cs
 // In ApplicationSecrets.cs
@@ -124,7 +121,6 @@ public class ApplicationSecrets
     public string LicenseKey { get; set; }
 }
 ```
-
 ::: good
 Figure: Good Example - The strongly typed class containing application secrets
 :::
@@ -139,7 +135,6 @@ public void ConfigureServices(IServiceCollection services)
     ...
 }
 ```
-
 ::: good
 Figure: Good Example - Binding the `ApplicationSecrets` section (from `appsettings.json` or `secrets.json`) to an instance of the `ApplicationSecrets` class
 :::
@@ -170,12 +165,11 @@ public class MyDataService
     }
 }
 ```
-
 ::: good
 Figure: Good Example - Consuming strongly typed application secrets
 :::
 
-#### Option #5 - Integrating Azure Key Vault into your ASP.NET Core application
+### Option #5 - Integrating Azure Key Vault into your ASP.NET Core application
 
 In .NET 5 we can use **Azure Key Vault** to securely store our connection strings away from prying eyes.
 
@@ -217,12 +211,13 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 				});
 		});
 ```
-
 ::: good
 Good Example - Option #5 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
 :::
 
-TIP: You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
+::: info
+**Tip:** You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
+:::
 
 ```cs
 public static class IWebHostEnvironmentExtensions
@@ -234,7 +229,6 @@ public static class IWebHostEnvironmentExtensions
 	}
 }
 ```
-
 
 ### Setting up your Key Vault correctly
 
@@ -296,7 +290,7 @@ In .NET 1.1 we used to store our connection string in a configuration file like 
 </configuration>
 ```
 
-and access this connection string in code like this:
+...and access this connection string in code like this:
 
 ```cs
 SqlConnection sqlConn = 
@@ -327,7 +321,8 @@ In .NET 2.0 we used strongly typed settings classes:
         </connectionStrings>
  </configuration>
 ```
-Then you can access the connection string like this in C#
+
+...then you can access the connection string like this in C#:
 
 ```cs
 SqlConnection sqlConn =
