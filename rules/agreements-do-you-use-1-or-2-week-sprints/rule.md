@@ -29,3 +29,9 @@ It is important to note that as more project management overheads are added, the
 >                                   - Ulysses Maclaren
 
 It's important to find the right balance for you.
+
+### Internal Projects
+
+For internal software development projects, since there is less cost involved in project management overhead, 1 week Sprints are recommended. 
+
+If there has been less than 5 man-days of effort during the sprint, however, (e.g. due to leave or interruptions), keep adding 1 week to the sprint until you have at least 5 man days of effort worked.
