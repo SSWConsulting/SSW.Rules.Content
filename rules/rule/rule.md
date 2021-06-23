@@ -1,19 +1,19 @@
 ---
 type: rule
-archivedreason:
-title: Example Rule + Markdown Cheatsheet
-guid: 55db32aa-0718-4868-995c-673d8dd69f62
+title: Example Rule + Markdown Chea
 uri: rule
-created: 2021-01-20T05:06:33.0000000Z
+guid: 55db32aa-0718-4868-995c-673d8dd69f62
 authors:
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-- title: Sebastien Boissiere
-  url: https://ssw.com.au/people/sebastien-boissiere
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
+  - title: Sebastien Boissiere
+    url: https://ssw.com.au/people/sebastien-boissiere
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- do-you-understand-the-value-of-consistency
+  - do-you-understand-the-value-of-consistency
+created: 2021-01-20T05:06:33.000Z
+archivedreason: null
 ---
 
 This is an example rule to show you what is possible for a rule. 
