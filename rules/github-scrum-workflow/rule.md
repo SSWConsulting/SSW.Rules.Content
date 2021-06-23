@@ -15,7 +15,7 @@ related:
 ---
 ### How to set up GitHub Scrum workflow
 
-GitHub is not well-tailored for the Scrum workflow in its vanilla state because it does not allow Product Backlog Items (PBIs) to be tracked in a Sprint like other version control systems such as Azure DevOps. However, we prefer to stay inside GitHub as it is fast, easy to use and inexpensive. There are a few options to turn GitHub into an agile work environment, such as using GitHub Projects and Labels, but the following is the most recommended:
+GitHub is not well-tailored for the Scrum workflow in its vanilla state because it does not allow Product Backlog Items (PBIs) to be tracked in a Sprint like other version control systems such as Azure DevOps. However, we prefer to stay inside GitHub as it is fast, easy to use and inexpensive. There are a few options to turn GitHub into an agile work environment, such as [using GitHub Projects and Labels](https://unito.io/blog/github-projects-agile/), but the following is the most recommended:
 
 <!--endintro-->
 
