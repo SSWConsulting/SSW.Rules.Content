@@ -111,7 +111,7 @@ To access your User Secrets:
 3. Edit the content of your `secrets.json` file
 4. Save the file
 
-![Figure: OK Example - Option #4 User secrets (secrets.json)](manage-user-secrets.png)
+![Figure: OK Example - Option #4 User secrets (secrets.json)](manage-user-secrets-small.png)
 
 ```cs
 // In ApplicationSecrets.cs
