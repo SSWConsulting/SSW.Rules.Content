@@ -15,7 +15,7 @@ index:
 - have-an-uptime-report-for-your-website
 - how-to-find-broken-links
 - perform-security-and-system-checks
-
+- do-you-include-deployment-information
 ---
 
 
