@@ -8,12 +8,14 @@ created: 2021-06-21T06:44:34.0000000Z
 authors:
   - title: Tom Bui
     url: https://www.ssw.com.au/people/tom-bui
-related: []
+related:
+- do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+- estimating-do-you-know-how-to-size-user-stories-effectively
 
 ---
 ### How to set up GitHub Scrum workflow
 
-GitHub in its vanilla state is not well tailored for the Scrum workflow because it does not allow Product Backlog Items (PBIs) to be tracked in a Sprint like other version control system such as Azure DevOps. However, we prefer to stay inside GitHub as it is fast, easy to use and inexpensive. There are a few options to turn GitHub into an agile work environment such as using GitHub Projects and Labels but the following is the most recommended:
+GitHub is not well-tailored for the Scrum workflow in its vanilla state because it does not allow Product Backlog Items (PBIs) to be tracked in a Sprint like other version control systems such as Azure DevOps. However, we prefer to stay inside GitHub as it is fast, easy to use and inexpensive. There are a few options to turn GitHub into an agile work environment, such as using GitHub Projects and Labels, but the following is the most recommended:
 
 <!--endintro-->
 
@@ -22,16 +24,16 @@ Based on [GitHub Scrum workflow](https://github.com/jvandemo/github-scrum-workfl
 #### How it works
 
 - Product Backlog Items (PBIs) are reported as **issues**
-- Points and meta data are assigned to PBIs as **labels**
+- Points and metadata are assigned to PBIs as **labels**
 - **milestones** are used to group issues in Sprints
 
 #### 1. Create issues as Product Backlog Items
 
-To create a new backlog item, it is best practice to configure GitHub issue templates for your repository 
+To create a new backlog item, it is best practice to configure GitHub issue templates for your repository. 
 
-Issue templates configuration guide can be found at [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+A guide for issue template configuration can be found at [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 
-Assign the issue the right labels and/or assign it to a Sprint (milestone).
+Make sure you assign suitable labels to the issue. Later on during the [Sprint Forecast meeting](https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint), the issue should be prioritized and added to a Sprint (milestone) if appropriate.
 
 Issues allow you to have a conversation about the item and even allow you to create task lists inside the issue using [GitHub's markdown](https://guides.github.com/features/mastering-markdown/).
 
@@ -54,11 +56,11 @@ e.g.:
 | `estimate: 21` | 3 days |
 | `estimate: 34` | 1 week |
 
-Your actual estimates should align with https://www.ssw.com.au/rules/estimating-do-you-know-how-to-size-user-stories-effectively
+Your actual estimates should align with the rule [Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?](https://www.ssw.com.au/rules/estimating-do-you-know-how-to-size-user-stories-effectively)
 
 ### Types
 
-`type` labels allow you to easily filter PBIs (issues) in the dashboard e.g.:
+`type` labels allow you to easily filter PBIs in the dashboard e.g.:
 
 | Label | Type |
 | ------| :----|
@@ -76,11 +78,11 @@ You can define and assign custom labels that you need within your workflow or or
 
 #### 3. Define Sprints as milestones
 
-You can create a milestone for every Sprint and add Product PBIs (issues) from the backlog to a milestone.
+You can create a milestone for every Sprint and add Product PBIs from the backlog to a milestone.
 
-This allows you to group PBIs in Sprints and track them by milestone in your [issue dashboard](https://github.com/issues).
+This process allows you to group PBIs in Sprints and track them by milestone in your [issue dashboard](https://github.com/issues).
 
-The backlog then consists of all PBIs (issues) that have no `milestone` attached to it.
+The backlog then consists of all PBIs that have no `milestone` attached to them.
 
 **TIP**: Use `no:milestone` in the search field on your [issue dashboard](https://github.com/issues) to find PBIs.
 
