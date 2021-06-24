@@ -15,7 +15,7 @@ related:
 ---
 ### How to set up GitHub Scrum workflow
 
-GitHub is not well-tailored for the Scrum workflow in its vanilla state because it does not allow Product Backlog Items (PBIs) to be tracked in a Sprint like other version control systems such as Azure DevOps. However, we prefer to stay inside GitHub as it is fast, easy to use and inexpensive. There are a few options to turn GitHub into an agile work environment, such as [using GitHub Projects and Labels](https://unito.io/blog/github-projects-agile/), but the following is the most recommended:
+GitHub issues (classic) offers a great way to have an agile development process following a kanban process. Unfortunately it requires a bit of effort (or a 3rd party tool) to set it up for good Scrum.
 
 <!--endintro-->
 
@@ -84,4 +84,3 @@ This process allows you to group PBIs in Sprints and track them by milestone in 
 The backlog then consists of all PBIs that have no `milestone` attached to them.
 
 **TIP**: Use `no:milestone` in the search field on your [issue dashboard](https://github.com/issues) to find PBIs.
-
