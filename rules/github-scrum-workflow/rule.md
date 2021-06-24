@@ -29,7 +29,7 @@ Based on [GitHub Scrum workflow](https://github.com/jvandemo/github-scrum-workfl
 
 #### 1. Create issues as Product Backlog Items
 
-To create a new backlog item, it is best practice to configure GitHub issue templates for your repository. 
+To create a new backlog item, it is best practice to configure GitHub issue templates for your repository. See [xxx](xxx)
 
 A guide for issue template configuration can be found at [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 
