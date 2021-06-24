@@ -91,28 +91,28 @@ This style of documentation is used by modern teams who are Agile only.
 
 **1. README.md** – Explains the overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
 
-**2. docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
+**2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
 
-**3. docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
+**3. _docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
-**4. docs\Business** – explains the purpose of the application, including the problem, goals, and statement of intent.
+**4. _docs\Business.md** – explains the purpose of the application, including the problem, goals, and statement of intent.
 
-**5. docs\Technologies-and-Architecture** – Provides a technical overview of the solution.
-* [An architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
-* Lower level architecture diagrams of the system eg. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
+**5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
+* A link to an [architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
+* Links to any lower level architecture diagrams of the system eg. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
 * Coding patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
 * 3rd party libraries used 
 * 3rd party services used 
 
-**6. docs\Alterative-Solutions-Considered** – explains other options that were discounted. For example
+**6. _docs\Alterative-Solutions-Considered.md** – explains other options that were discounted. For example
   * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor eg. Dynamics, Outsystems.
   * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
   * We chose to use Azure over on-premises to avoid procurement of costly servers.
   * Note: If you decide that after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
 
-**7. docs\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
+**7. _docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
 
-**8. docs\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
+**8. _docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
