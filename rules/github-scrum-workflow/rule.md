@@ -47,13 +47,13 @@ Add the following labels to your repository:
 e.g.:
 | Label        | Time Estimate |
 | -------------|:-------------:|
-| `estimate: 1` | 1 hour |
-| `estimate: 2` | 2 hours |
-| `estimate: 4` | 4 hours |
-| `estimate: 8` | 8 hours |
-| `estimate: 16` | 2 days |
-| `estimate: 32` | 3 days |
-| `estimate: 64` | 1 week |
+| `estimate: 1` | 2 hour |
+| `estimate: 2` | 4 hours |
+| `estimate: 4` | 1 day |
+| `estimate: 8` | 2 days |
+| `estimate: 16` | 4 days |
+| `estimate: 32` | 2 weeks |
+| `estimate: 64` | 1 month |
 
 Your actual estimates should align with the rule [Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?](https://www.ssw.com.au/rules/estimating-do-you-know-how-to-size-user-stories-effectively)
 
