@@ -99,13 +99,13 @@ This style of documentation is used by modern teams who are Agile only.
 
 **5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
 * A link to an [architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
-* Links to any lower level architecture diagrams of the system eg. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
+* Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
 * Coding patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
 * 3rd party libraries used 
 * 3rd party services used 
 
 **6. _docs\Alterative-Solutions-Considered.md** – explains other options that were discounted. For example
-  * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor eg. Dynamics, Outsystems.
+  * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
   * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
   * We chose to use Azure over on-premises to avoid procurement of costly servers.
   * Note: If you decide that after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
