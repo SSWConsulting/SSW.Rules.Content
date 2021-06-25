@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Irrelevant since rules are now in GitHub
 title: After adding a rule on SharePoint - what steps should you take?
 guid: a455bf0e-bd5c-41e2-9218-e42325860d6a
 uri: after-adding-a-rule-on-sharepoint-what-steps-should-you-take
