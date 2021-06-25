@@ -7921,9 +7921,9 @@
 	},
 	{
 		"file": "rules/do-you-manage-clients-expectations/rule.md",
-		"lastUpdated": "2021-06-25T00:02:32.129Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-06-25T01:24:23.099Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2009-04-24T18:00:05+10:00",
 		"createdBy": "System Account",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -26773,5 +26773,14 @@
 		"lastUpdated": "2021-06-23T05:09:26.845Z",
 		"lastUpdatedBy": "bradystroud",
 		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-manage-clients-expectations/fail-image.png",
+		"created": "2021-06-25T01:24:23.100Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-06-25T01:24:23.100Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
