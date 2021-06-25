@@ -1,20 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to share media files?
-guid: c44339bd-9159-4b44-8495-a92a42ed763c
 uri: do-you-know-how-to-share-media-files
-created: 2014-04-03T19:35:33.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Rebecca Liu
+    url: https://ssw.com.au/people/rebecca-liu
+  - title: Jayden
+    url: xxxxx/x/x/xx/x
 related: []
 redirects: []
-
+created: 2014-04-03T19:35:33.000Z
+archivedreason: null
+guid: c44339bd-9159-4b44-8495-a92a42ed763c
 ---
 
 It is important to be able to easily share files between workers. It is also important that all content is backed up centrally in case an employee is unavailable.
