@@ -16,9 +16,9 @@ redirects:
 
 ---
 
-Running the [DogFoodStats](https&#58;//devblogs.microsoft.com/bharry/team-foundation-dogfood-stats/) queries over the new TFS 2015 server is a good way to see if the upgrade was successful.
+Running the [DogFoodStats](https://devblogs.microsoft.com/bharry/team-foundation-dogfood-stats/) queries over the new TFS 2015 server is a good way to see if the upgrade was successful.
 
-You should check the new values against the [stats you recorded from your TFS 2013 Update 4 databases](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=381d8269-1d39-45e2-baea-23c9eff46693).
+You should check the new values against the [stats you recorded from your TFS 2013 Update 4 databases](/run-your-dog-food-stats-before).
 
 <!--endintro-->
 
@@ -27,7 +27,6 @@ You should check the new values against the [stats you recorded from your TFS 2
 
 
 **Note:**  The numbers may not be identical due to schema changes.
-
 
 ::: greybox
 Recent Users
@@ -78,15 +77,14 @@ Workspaces
 Local Copies
 4197428
 
-CheckIn                 164
-Get                        474
-Shelve                    63
-Upload                   115
-VCDownloadHandler    949
-GetWorkItem          491
-QueryWorkitems       601
-Update               240
+CheckIn              164  
+Get                  474  
+Shelve               63  
+Upload               115  
+VCDownloadHandler    949  
+GetWorkItem          491  
+QueryWorkitems       601  
+Update               240  
 
 :::
- **Figure: Example DogFoodStats after the upgrade
-**
+**Figure: Example DogFoodStats after the upgrade**
