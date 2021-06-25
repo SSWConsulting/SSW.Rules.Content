@@ -82,3 +82,5 @@ This process allows you to group PBIs in Sprints and track them by milestone in 
 The backlog then consists of all PBIs that have no `milestone` attached to them.
 
 **TIP**: Use `no:milestone` in the search field on your [issue dashboard](https://github.com/issues) to find PBIs.
+
+See [Rules to Awesome Documentation](https://www.ssw.com.au/rules/awesome-documentation) to follow best practice setting up a projects README
