@@ -29,7 +29,7 @@ Let's say a prospect asks me "How much to do this Release?" I could say "Somewhe
 
 ### Be upfront about bugs
 
-There is no such a thing as bugless software. It's important to admit that bugs will happen. Bugs will get through testing, and bugs will cause a headache in production. In a fixed price agreement we cover bugs, because the goal posts are stuck in the ground, but in hourly-rate work, bugs are covered by the client. See [what is covered in fixed price contracts](http&#58;//www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) for more information in relation to what is and what is not a bug.
+There is no such thing as bugless software. It's important to admit that bugs will happen. Bugs will get through testing, and bugs will cause a headache in production. In a fixed price agreement we cover bugs, because the goal posts are stuck in the ground, but in hourly-rate work, bugs are covered by the client. See [what is covered in fixed price contracts](http&#58;//www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) for more information in relation to what is and what is not a bug.
 
 ### Don't give fixed prices
 
