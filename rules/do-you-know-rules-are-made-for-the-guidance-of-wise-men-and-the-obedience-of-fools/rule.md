@@ -17,13 +17,11 @@ created: 2009-02-28T09:44:50.000Z
 archivedreason: null
 guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
 ---
-
-
 **Standards should \*not\* be followed blindly. Aim for continual improvement.**
 
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
-But there are pros and cons to having standards.
+But there are pros and cons to having standards. test
 
 <!--endintro-->
 
@@ -51,7 +49,5 @@ If you think something can be done better or the standard is simply out of date,
 4. Ask someone else to fix it (following the   [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y) rule)
 
 For any page on our sites, you can click the 'Feedback to SSW' link at the footer.
-
-
 
 [](https://sydiis2016q01.sydney.ssw.com.au/rules/do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools)
