@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Management - Is your client clear on the definition of a bug?
-guid: ff5e3135-d63a-4d61-8c4f-56051fb8c2ee
 uri: management-is-your-client-clear-on-the-definition-of-a-bug
-created: 2009-02-28T09:42:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
 related: []
 redirects: []
-
+created: 2009-02-28T09:42:39.000Z
+archivedreason: null
+guid: ff5e3135-d63a-4d61-8c4f-56051fb8c2ee
 ---
 
 The answer to this question can make or break contracts. We think that it's such a fundamental issue it has to be captured clearly. This is how we strictly define a bug.   
 
-<!--endintro-->
+<!--endintro-->test
 
 ![](bug-feature.png)
 
