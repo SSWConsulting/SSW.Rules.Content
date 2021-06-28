@@ -13,17 +13,13 @@ related:
 ---
 ### Meta tags should not be used to refresh or redirect
 
-According to [SonarSource](https://rules.sonarsource.com/html/RSPEC-1094), Meta tags should not be used to refresh or redirect
+According to [SonarSource](https://rules.sonarsource.com/html/RSPEC-1094) and World Wide Web Consortium (W3C), Meta tags should not be used to refresh or redirect. Specifically, It is discouraged to use ```<meta http-equiv="refresh">```
 
-<!--endintro-->
+<!--endintro--> 
 
-Use of ```<meta http-equiv="refresh">``` is discouraged by the World Wide Web Consortium (W3C).
+This is a bad practice for many reasons. For example, if a user clicks the 'Back' button, some browers will go back to the redirecting page, which will prevent the user from actually going back.
 
-If a user clicks the 'Back' button, some browers will go back to the redirecting page, which will prevent the user from actually going back.
-
-To refresh the page, a better alternative is to use Ajax, to refresh only what needs to be refreshed and not the whole page.
-
-To redirect to another page, using the HTTP response status code 301 'Moved Permanently' and 302 'Found' is a better option.
+Instead, a better practice to refresh the page is to use Ajax, to refresh only what needs to be refreshed and not the whole page. And to redirect to another page, we should use the HTTP response status code 301 'Moved Permanently' and 302 'Found'.
 
 ``` html
 <head>
