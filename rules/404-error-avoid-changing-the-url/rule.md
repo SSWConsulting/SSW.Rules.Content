@@ -2,16 +2,14 @@
 type: rule
 title: Do you avoid changing the URL on a 404 error?
 uri: 404-error-avoid-changing-the-url
-guid: 0d3576ad-6b39-4682-b425-3d68751a100b
 authors: []
 related: []
 redirects:
   - do-you-avoid-changing-the-url-on-a-404-error
 created: 2016-08-11T18:08:44.000Z
 archivedreason: null
+guid: 0d3576ad-6b39-4682-b425-3d68751a100b
 ---
-TESTESTEST sdfsd
-
 When you request a URL of a file that doesn't exist, you will get an error message. You should make sure that the URL in the browser doesn't change. This way, it's easy for the user to correct. 
 E.g. The user doesn't have to retype the whole URL if there is a spelling mistake or a forgotten/mixed up letter
 
