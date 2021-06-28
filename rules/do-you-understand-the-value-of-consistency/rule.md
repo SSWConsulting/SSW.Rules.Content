@@ -2,7 +2,6 @@
 type: rule
 title: Do you understand the value of consistency?
 uri: do-you-understand-the-value-of-consistency
-guid: 79d12515-a63c-4dfc-9cbc-ed5e363c724a
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,9 +9,11 @@ related: []
 redirects: []
 created: 2009-02-28T09:43:28.000Z
 archivedreason: null
+guid: 79d12515-a63c-4dfc-9cbc-ed5e363c724a
 ---
 ### **sdfgssTHIS IS THE STAGING WEBSITE**
-lasdfhjajfnasassafasfsf
+
+lasdfhjajfnasassafasfsfasd
 If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get:
 
 <!--endintro-->
