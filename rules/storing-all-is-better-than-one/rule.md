@@ -18,7 +18,11 @@ As a developer, we don't always think of the importance of the reporting that th
 <!--endintro-->
 
 ::: good
-![Figure: The new skills combo box from dynamics](skills-combo-dynamics.png)
+![Figure: Bad example - Able to select only one Project Type on Dynamics](project-type-bad-example.png)
+:::
+
+::: good
+![Figure: Good example - Able to select multiple Skills from combo box on Dynamics](skills-combo-dynamics.png)
 :::
 
 Case in point, a project form that has a field called "Skill” (that includes technologies). When a user is entering their project the technologies used may include some Angular, heaps of .NET, and a database like Cosmos DB. When you only have one choice, the obvious thing they can do, is pick the technology that they presume will take up the most development time. Maybe they choose .NET and never think of it again.
