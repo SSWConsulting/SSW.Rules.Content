@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know storing all is better than one?
 guid: ba5a75e4-a372-4369-bd05-7e9510fd8592
-uri: storing-all-is-better-than-one
+uri: storing-all
 created: 2021-07-01T20:47:00.0000000Z
 authors:
 - title: Piers Sinclair
