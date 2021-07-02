@@ -26815,8 +26815,26 @@
 		"created": "2021-07-02T00:13:59.694Z",
 		"createdBy": "Piers Sinclair [SSW]",
 		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
-		"lastUpdated": "2021-07-02T00:13:59.694Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+		"lastUpdated": "2021-07-02T01:15:05.521Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/storing-all/storing-all-bad.png",
+		"created": "2021-07-02T01:15:05.522Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-02T01:15:05.522Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/storing-all/storing-all-good.png",
+		"created": "2021-07-02T01:15:05.522Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-02T01:15:05.522Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
