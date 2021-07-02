@@ -10,7 +10,7 @@ authors:
   url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects:
-- storing-all
+  - storing-all
 
 ---
 
