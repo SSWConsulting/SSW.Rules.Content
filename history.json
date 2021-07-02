@@ -26845,5 +26845,23 @@
 		"lastUpdated": "2021-07-02T07:27:01.866Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/allow-multiple-options/storing-all-bad.png",
+		"created": "2021-07-02T21:14:19.677Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-02T21:14:19.677Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/allow-multiple-options/storing-all-good.png",
+		"created": "2021-07-02T21:14:19.677Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-02T21:14:19.677Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
