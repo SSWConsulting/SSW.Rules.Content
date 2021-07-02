@@ -17,7 +17,7 @@ As a developer, we don't always think of the importance of the reporting that th
 
 <!--endintro-->
 
-::: good
+::: bad
 ![Figure: Bad example - Able to select only one Project Type on Dynamics](project-type-bad-example.png)
 :::
 
