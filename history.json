@@ -16723,7 +16723,7 @@
 	},
 	{
 		"file": "rules/have-a-server-reboot-restart-policy/rule.md",
-		"lastUpdated": "2021-04-21T23:21:56.924Z",
+		"lastUpdated": "2021-07-02T23:11:27.243Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2017-07-01T06:01:22+10:00",
@@ -26863,5 +26863,14 @@
 		"lastUpdated": "2021-07-02T21:14:19.677Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/have-a-server-reboot-restart-policy/risk-table.jpg",
+		"created": "2021-07-02T23:11:27.243Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-02T23:11:27.243Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
