@@ -9,7 +9,8 @@ authors:
 - title: Piers Sinclair
   url: https://ssw.com.au/people/piers-sinclair
 related: []
-redirects: []
+redirects:
+  - storing-all
 
 ---
 
