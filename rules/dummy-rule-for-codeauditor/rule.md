@@ -5,7 +5,7 @@ uri: dummy-rule-for-codeauditor
 authors:
   - title: Tom
 created: 2021-07-02T07:20:08.801Z
-guid: 3facc7b4-daae-46f5-9a96-0f944a22c9c7
+guid: 0a1a7e23-222f-42cd-a9e8-73d29b65abf7
 ---
 1. Anchor names must be valid
 
