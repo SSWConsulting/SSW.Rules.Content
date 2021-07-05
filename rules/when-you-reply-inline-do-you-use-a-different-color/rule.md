@@ -82,19 +82,19 @@ Daniel
 **To:** Daniel Hyles www.ssw.com.au    
 **Subject:** Daniel Hyles - Morning Goals   
 
-   <span style="color:green;">1. TimePro Online pages  </span>
+   <span style="color:green; padding-left:1rem;">1. TimePro Online pages  </span>
 
 Done  
 
-   <span style="color:green;">2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
+   <span style="color:green; padding-left:1rem;">2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
 
 Done 
 
-   <span style="color:green;">3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
+   <span style="color:green; padding-left:1rem;">3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
 
 Not Done
 
-   <span style="color:green;">4. Access reporter  </span>
+   <span style="color:green; padding-left:1rem;">4. Access reporter  </span>
 
 Not Done
 
