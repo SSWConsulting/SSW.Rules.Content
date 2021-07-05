@@ -16723,9 +16723,9 @@
 	},
 	{
 		"file": "rules/have-a-server-reboot-restart-policy/rule.md",
-		"lastUpdated": "2021-04-21T23:21:56.924Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-05T22:43:06.319Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2017-07-01T06:01:22+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -26861,6 +26861,15 @@
 		"createdBy": "Brady Stroud",
 		"createdByEmail": "bradystroud@me.com",
 		"lastUpdated": "2021-07-02T21:14:19.677Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/have-a-server-reboot-restart-policy/risk-table.jpg",
+		"created": "2021-07-02T23:11:27.243Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-05T22:43:06.320Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
