@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item. Follow the rule to happy clients - triage rule.
+Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item. Follow the [rule to happy clients - triage rule](/triaging-do-you-correctly-triage-additional-item-requests).
 
 <!--endintro-->
 
