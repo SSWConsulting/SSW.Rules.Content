@@ -26,19 +26,19 @@ To create GitHub issues templates
 1. On GitHub, navigate to the main page of the repository.
 
 2. Under your repository name, click  Settings.
-![image](https://user-images.githubusercontent.com/67776356/124532033-0efc4e00-de53-11eb-9013-f43428e9dead.png)
+![image](https://user-images.githubusercontent.com/67776356/124533835-68b24780-de56-11eb-87f0-120cb9b0a1e6.png)
 
 3. In the "Features" section, under "Issues," click Set up templates.
-![image](https://user-images.githubusercontent.com/67776356/124532055-1c193d00-de53-11eb-8a8a-1b4e660de90f.png)
+![image](https://user-images.githubusercontent.com/67776356/124533875-7c5dae00-de56-11eb-8793-63f9891f720a.png)
 
 4. Use the Add template drop-down menu, and click on the type of template you'd like to create.
-![image](https://user-images.githubusercontent.com/67776356/124532096-2f2c0d00-de53-11eb-8b16-5445d3b98e00.png)
+![image](https://user-images.githubusercontent.com/67776356/124533901-8aabca00-de56-11eb-97cc-f9e3acfedf8e.png)
 
 5. To preview or edit the template before committing it to the repository, click Preview and edit.
-![image](https://user-images.githubusercontent.com/67776356/124532131-423edd00-de53-11eb-81d7-2f077b5fdbe0.png)
+![image](https://user-images.githubusercontent.com/67776356/124533948-9e573080-de56-11eb-9a53-08d300c6eb2f.png)
 
 6. When you're finished editing and previewing your template, click Propose changes in the upper right corner of the page.
-![image](https://user-images.githubusercontent.com/67776356/124532732-6d75fc00-de54-11eb-92dc-a14ffe614ad8.png)
+![image](https://user-images.githubusercontent.com/67776356/124534015-c21a7680-de56-11eb-8460-44ead4c297b8.png)
 
 7. Then finally click **Commit changes**. 
 Once these changes are merged into the default branch, the template will be available for contributors to use when they open new issues in the repository.
