@@ -26872,5 +26872,14 @@
 		"lastUpdated": "2021-07-05T22:43:06.320Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/rule.md",
+		"created": "2021-07-06T02:22:07.234Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-06T02:22:07.234Z",
+		"lastUpdatedBy": "Tom Bui [SSW]",
+		"lastUpdatedByEmail": "67776356+tombui99@users.noreply.github.com"
 	}
 ]
