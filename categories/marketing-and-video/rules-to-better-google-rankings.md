@@ -37,7 +37,7 @@ index:
 - spelling-do-you-use-us-english
 - know-the-iis-things-to-do
 - fix-ugly-urls
-- use-meta-keywords-and-description-tags
+- use-meta-description-tags
 - relevant-words-on-links
 - use-subdirectories-not-domains
 
