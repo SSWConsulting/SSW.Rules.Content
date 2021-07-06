@@ -21,6 +21,8 @@ Therefore, GitHub issue templates should be used to help standardize and categor
 
 Based on [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 
+See [SSW CodeAuditor issues](https://github.com/SSWConsulting/SSW.CodeAuditor/issues/new/choose) to view our standard configured issue templates
+
 To create GitHub issues templates
 
 1. On GitHub, navigate to the main page of the repository.
