@@ -3097,9 +3097,9 @@
 	},
 	{
 		"file": "rules/control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes/rule.md",
-		"lastUpdated": "2017-03-25T04:10:56+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-07-06T22:26:02.250Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-11-27T19:56:06+11:00",
 		"createdBy": "Rebecca Liu",
 		"createdByEmail": "RebeccaLiu@ssw.com.au"
@@ -26872,5 +26872,23 @@
 		"lastUpdated": "2021-07-05T22:43:06.320Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes/multiple-select-checkbox-good.jpg",
+		"created": "2021-07-06T22:26:02.250Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-06T22:26:02.250Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes/multiple-select-dropdown-bad.jpg",
+		"created": "2021-07-06T22:26:02.250Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-06T22:26:02.250Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
