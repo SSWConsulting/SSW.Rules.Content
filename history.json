@@ -26953,5 +26953,14 @@
 		"lastUpdated": "2021-06-29T03:16:05.401Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/best-trace-logging/rule.md",
+		"created": "2021-07-07T01:23:58.477Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-07-07T01:23:58.477Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
