@@ -16,6 +16,6 @@ redirects:
 
 Planning is an important part of your TFS Migration to the cloud therefore it is highly recommended to read the [TFS Migration Guide](https&#58;//aka.ms/DownloadTFSMigrator).
 
-You may also watch [Rogan's demo](http&#58;//bit.ly/VSTSImportVideo):
+You may also watch Rogan Ferguson's demo here [https://channel9.msdn.com/Events/Connect/2016/178.](https://channel9.msdn.com/Events/Connect/2016/178)
 
 <!--endintro-->

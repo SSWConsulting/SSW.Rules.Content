@@ -17,13 +17,7 @@ Recording live video interviews on location can be difficult. The key to success
 
 A good example of an effective but easy to record interview is:
 
-
-
-
-
-
-
-
+`youtube: https://www.youtube.com/watch?v=5mZcuY0I_yQ`
 
 Here are a few tips to simplify the process:
 

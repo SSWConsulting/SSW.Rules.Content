@@ -30,14 +30,8 @@ Building and maintaining a multilingual social media presence is not an easy und
 For example, at SSW, we have an awesome office in Hangzhou, China, that offers a [Chinafy Consulting Service](https&#58;//www.ssw.com.au/ssw/Consulting/Chinafy-App.aspx) to help Western companies adapt to the Chinese business environment. It is important for us to show that we understand our customers, and their target audience - our social media reflects our ability to do this.
 
 
-
-
-
-
-
+[https://m.facebook.com/SSWChina/photos/a.107206364185357/188065469432779/?type=3](https://m.facebook.com/SSWChina/photos/a.107206364185357/188065469432779/?type=3)
 
 ::: good
-Good example: SSW China post their social media in both English and Chinese 中文, because it helps establish trust with our audience that we understand them, helps us target a wider audience, and proves that we can help bridge the language barrier. 
-
-
+Good example: SSW China post their social media in both English and Chinese 中文, because it helps establish trust with our audience that we understand them, helps us target a wider audience, and proves that we can help bridge the language barrier. 
 :::
