@@ -32,4 +32,4 @@ Visual Studio 2017 introduces a new feature called Live Unit Testing. This gives
 ![Figure: Good Example – Developer can see that the code is covered by 2 passing tests and one failing test](lut-codecoverage4.jpg)  
 :::
 
-For more details see Joe Morris’s video on .NET Tooling Improvements Overview – Live Unit Testing:
+For more details see Joe Morris’s video on [.NET Tooling Improvements Overview – Live Unit Testing](https://channel9.msdn.com/Events/Connect/2016/171)

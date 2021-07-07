@@ -32,4 +32,4 @@ Then the problem is later down the track... there is no record of the front end 
 
 These bad decision have enormous impacts on the growth of the business! 🔥
 
-`youtube: https://www.youtube.com/watch?v=Ez3rewLMh7w`
+`youtube: https://www.youtube.com/watch?v=5eXx67EY_y4`

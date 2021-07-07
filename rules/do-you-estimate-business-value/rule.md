@@ -19,14 +19,9 @@ That's OK, most teams don't... but it is a terrible shame, because developers go
 
 Once you have ROI a Product Owner can use the ROI field to sort priority. Awesome.
 
-
-
-
-
-
-
-
 <!--endintro-->
+
+`youtube: https://www.youtube.com/watch?v=YkWn_3j8VJw`
 
 ROI (Return on Investment) is an unbelievably simply calculation.
 
