@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related: 
+- do-you-avoid-huge-images-or-attachments-in-your-email
+- how-to-share-a-file-folder-in-sharepoint
 redirects: []
 
 ---
@@ -19,22 +21,19 @@ It's better to use links to a portal or document store instead of having attachm
 
 If you're sending to a fellow employee, use a link to a document store on your intranet (e.g. intranet.northwind.com/SharedDocuments)
 
-If you're sending to a client, it would be a link to a document store on their [project portal](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=846474eb-27a1-4645-90ee-10a349fef714). (e.g. projects.northwind.com/SharedDocuments)
+If you're sending to a client, it would be a link to a document store on their project portal. (e.g. projects.northwind.com/SharedDocuments)
 
 <!--endintro-->
-
 
 ::: bad  
 ![Figure: Bad example - Don't send attachments by mail](Email\_Attachment\_1\_small.jpg)  
 :::
-
 
 ::: bad  
 ![Figure: Bad example - Don't use location / filename in the link (URL)](PortalLinks.jpg)  
 :::
 
 **Tip:** If you're using SharePoint, then an even better way to do this is to use a tool like OnePlaceMail to insert a link from SharePoint
-
 
 ::: good  
 ![Figure: Good Example - Use OnePlaceMail to send a link to a document in SharePoint](insert\_link\_in\_email\_to\_sharePoint\_item-png.png)  
@@ -45,24 +44,13 @@ Using the Document ID Feature in SharePoint will help minimise broken links unde
 1. Company Restructures / SharePoint restructures
 2. Records Management – when items are moved to the Record Centre
 
-
-
 ::: good  
 ![Figure: Good Example - The use of the SharePoint Document ID as part of the link (URL) formation](insert\_link\_in\_email\_to\_sharePoint\_item\_with\_document\_id-png.png)  
 :::
 
 If you are using a shared DropBox, then put in a reference like so:
 
+::: greybox
+I've moved the file to our DropBox at: `SSW_Designers/Project – FireBootCamp/Admin/FireBootCamp-USA-Ultra-Advert.pptx`
+:::
 
-
-```
-I've moved the file to our DropBox at: 
-SSW_Designers/Project – FireBootCamp/Admin/FireBootCamp-USA-Ultra-Advert.pptx
-```
-
-
-
-### Related Rule
-
-
-* [Do you know how to share a file/folder in SharePoint?](/how-to-share-a-file-folder-in-sharepoint)

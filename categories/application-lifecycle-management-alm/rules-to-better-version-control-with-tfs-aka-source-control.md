@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Version Control With TFS (AKA Source Control)
+title: Rules to Better Version Control (AKA Source Control)
 guid: 432efbab-9580-4b84-afef-16f6bf505e6d
 uri: rules-to-better-version-control-with-tfs-aka-source-control
 redirects:
@@ -43,7 +43,5 @@ index:
 - check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
-
+If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.

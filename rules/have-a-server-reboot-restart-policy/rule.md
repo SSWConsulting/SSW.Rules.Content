@@ -18,7 +18,7 @@ redirects:
 
 ---
 
-For unplanned outages see: [Do you have an unplanned outage process?](/unplanned-outage-process)
+For unplanned outages, see [Do you have an unplanned outage process?](/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
 
@@ -53,51 +53,32 @@ Here is the summary of the outage plan:
 
 | **Planned/Unplanned:**  | Planned |
 | --- | --- |
-| **Change Description:**  | Install Windows Updates and Restart Server
- |
+| **Change Description:**  | Install Windows Updates and Restart Server |
 | **Risk (see table below):**  | LOW RISK (LOW Probability and MEDIUM Impact) |
-| **Reason For Change:**  | Windows 2016 Windows Updates
- |
+| **Reason For Change:**  | Windows 2016 Windows Updates |
 | **Uptime over last month:**  | 91.361% |
-| | 
- |
 | **Planned Outage (mins):**  | 150 |
 | **Planned Start Time:**  | 26 October 9:00 PM |
-| **Planned Finish Time:**  | 26 October 11:30 PM
- |
-| |  |
-| **Affected Services:**  | \\Windows Server 2016
- |
-| | sharepoint.ssw&#46;com.au
-intranet.ssw&#46;com.au
-projects.ssw&#46;com.au |
-| | 
- |
+| **Planned Finish Time:**  | 26 October 11:30 PM |
+| **Affected Services:**  | \\Windows Server 2016  ,  sharepoint.ssw&#46;com.au intranet.ssw&#46;com.au  , projects.ssw&#46;com.au |
 
 **Risk Lookup Table by Probability and Impact:** 
 
-| **Risk**  |
-| --- |
-| | **Probability** |
-| **Low** | **Medium** | **High** | **Unknown** |
-| **Impact** | **Low** | Low risk | Low Risk | Low Risk | Medium Risk |
-| **Medium** | Low Risk | Medium Risk | Medium Risk | High Risk |
-| **High** | Medium Risk | High Risk | High Risk | High Risk |
-| **Unknown** | Medium Risk 
-                  
- | High Risk | High Risk | High Risk |
+![Figure: Clearly showing the potential risks](risk-table.jpg)
 
-**Figure: Clearly showing the potential risks
+**Note:** The following servers will be affected:
 
-** 
-**Note:** The following servers will be affected
-![wug&#46;ssw&#46;com&#46;au](rule-outage-1.jpg)
+![](rule-outage-1.jpg)
+
+and
 
 ![](rule-outage-2.jpg)
 
 ### To myself,
-** To show others who are interested in what needs to be done to fix the problem:
- **Detailed Change Plan:** 
+
+To show others who are interested in what needs to be done to fix the problem:
+
+**Detailed Change Plan:** 
 1)	Lockout users via IIS
 2)	Backup server
 3) Install Windows Updates 
@@ -105,11 +86,13 @@ projects.ssw&#46;com.au |
 5) Follow test plan
 6) Based on result of test plan, follow backout plan if procedure failed
 7) Procedure completed       
+
 **Test Plan:** 
 1)	Check Event log for errors
 2)	Check each affected service is running
 3)	Call test users to start “Test Please” on the affect services 
 4)	Get result of user “Test Please” by email by 11:15 PM       
+
 **Backout Plan:** 
 1)	Restore server from backup
 

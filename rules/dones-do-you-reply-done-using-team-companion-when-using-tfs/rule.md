@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: we don’t use Team Companion any more
 title: Dones - Do you reply 'Done' using Team Companion when using Azure DevOps?
 guid: cd3c59b5-56d4-4a4a-bdb8-5d9c84be335c
 uri: dones-do-you-reply-done-using-team-companion-when-using-tfs
@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item.[Follow the rule to happy clients - triage rule](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=f1e392b8-3793-4e10-96a3-c32d0d0944b4).
+Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item. Follow the [rule to happy clients - triage rule](/triaging-do-you-correctly-triage-additional-item-requests).
 
 <!--endintro-->
 
