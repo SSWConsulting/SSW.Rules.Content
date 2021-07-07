@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Duplicate of https://www.ssw.com.au/rules/do-you-use-underlines-only-on-links
 title: Do you underline links (and include a rollover)?
 guid: aaef4269-0a29-4752-b3eb-a6920b9bd373
 uri: do-you-underline-links-and-include-a-rollover
@@ -26,34 +26,14 @@ It's very important that your links stand out from the background as well as the
 
 Rollovers are important as they offer visual feedback to a user that this link that will take them somewhere. While there is a myriad of ways to do this; you can't go wrong with an underline or border-bottom.
 
-
-::: greybox
-For more information on this, please [go to SSW website](https://www.ssw.com.au/).
-
-:::
-Bad Example: The link is hard to recognize
-
-
 ::: greybox
 For more information on this, please [go to SSW website](https://www.ssw.com.au/). 
-
 :::
-Good Example: This link is obvious
-
-
-![](link-hover.jpg)
-
-
-
-
 ::: good
 Good Example: Obvious rollover. You can test it by hovering the links on the example above
-
 :::
 
 Example CSS for rollover:
-
-
 
 ```
 a:hover { 
@@ -61,6 +41,4 @@ a:hover {
     cursor: pointer;
 }
 ```
-
-
-Figure: Example CSS for rollover effect
+**Figure: Example CSS for rollover effect**

@@ -13,11 +13,12 @@ index:
 - angular-the-stuff-to-install
 
 ---
-### \*Depreciated\*
 
+### Deprecated
 
 Angular 2+ versions are simply called Angular. Angular is an incompatible rewrite of AngularJS.
 
-Read [Rules to Better Angular](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=c9d803de-ebea-4ec0-bca3-7a36ffa7a361).
- AngularJS is a powerful and elegant front-end javascript framework. It is designed to make highly interactive front-end designs.
+Read [Rules to Better Angular](/rules-to-better-angular) for updated rules.
+
+AngularJS is a powerful and elegant front-end javascript framework. It is designed to make highly interactive front-end designs.
 

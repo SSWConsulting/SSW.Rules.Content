@@ -15,7 +15,7 @@ redirects:
 
 ---
 
-To see how to create a campaign and to use it effectively, please read [Rules to Better Google Ads](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=7d7a18e3-efa2-42ba-a335-d063c462efd7).
+To see how to create a campaign and to use it effectively, please read all [Rules to Better Google Ads](/rules-to-better-google-ads).
 
 At SSW we use Google Ads before known as Google Adwords, to advertise our company, products, training, and events. It is a paid advertising product that promotes your business whenever people are searching Google. You only need to pay when someone clicks on your ad, which is known as cost-per-click (CPC) advertising. It is a great tool for directing more traffic to your website and expanding your brand awareness.
 
@@ -24,8 +24,6 @@ At SSW we use Google Ads before known as Google Adwords, to advertise our compan
 On the first business day of every month, it is recommended that you should send out a Google ads report to the relevant stakeholders with screenshots of your Marketing Dashboard (we use Power BI).
 
 Make sure to cover:
-
-
 
 * Number of opportunities vs. number of conversions that came through our Google ads.
 * Compare results for the month in the current and previous year: clicks, impressions, the average cost per click, and cost. Explain why it increased or dropped.

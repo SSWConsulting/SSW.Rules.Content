@@ -44,6 +44,7 @@ Daniel
 
 -----Original Message-----   
 **From:** Adam Cogan www.ssw.com.au   
+
 **Sent:** Monday, 27 June 2021 8:00 AM   
 **To:** Daniel Hyles www.ssw.com.au   
 **Subject:** Daniel Hyles - Morning Goals   
@@ -83,30 +84,31 @@ Daniel
 
 -----Original Message-----   
 **From:** Adam Cogan www.ssw.com.au   
-**Sent:** Monday, 27 June 2021 8:00 AM   
-**To:** Daniel Hyles www.ssw.com.au   
+**Sent:** Monday, 27 May 2002 8:00 AM   
+**To:** Daniel Hyles www.ssw.com.au    
 **Subject:** Daniel Hyles - Morning Goals   
 
-1. TimePro Online pages  
+   <span style="color:green; padding-left:1rem;">1. TimePro Online pages  </span>
 
-<span style="color:green;">Done  </span>
+Done  
 
-2. Double check backups (get backup today on both drives, I configured the other drive last night)  
+   <span style="color:green; padding-left:1rem;">2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
 
-<span style="color:green;">Done  </span>
+Done 
 
-3. Make sure Exchange is backing itself up... Check Google on why not.  
+   <span style="color:green; padding-left:1rem;">3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
 
-<span style="color:green;">Not done  </span>
+Not Done
 
-4. Access reporter   
+   <span style="color:green; padding-left:1rem;">4. Access reporter  </span>
 
-<span style="color:green;">Not done  </span>
+Not Done
+
 
 :::  
 :::  
 ::: ok
-Figure: OK Example - When you need to reply inline, use a different color and use indentation
+Figure: OK Example - Replying inline should be avoided, but if you have to, use different colors and indentation for a better readability
 :::
 
 See [Top 10 Rules to Better Email](https://tv.ssw.com/top-rules-to-better-email-by-ulysses-maclaren/) video for more details on how to reply to emails.
