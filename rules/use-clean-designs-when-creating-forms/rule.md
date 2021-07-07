@@ -14,14 +14,13 @@ redirects:
 
 ---
 
-As we know, [an image is worth a thousand words](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=05d3e94e-36d1-40e7-ba91-42dc1ada45ad). So here are some examples of how to make cleaner forms:
+As we know, [an image is worth a thousand words](/use-screenshots-in-your-proposals). So here are some examples of how to make cleaner forms:
 
 <!--endintro-->
 
 ###  Bad Example
 
 A fairly standard Access 97 application that needs some love (Before a makeover)
-
 
 ::: bad  
 ![Figure: Avoid using background colors for your form controls - they can be confusing](accessui\_candidateedit1\_before.gif)  

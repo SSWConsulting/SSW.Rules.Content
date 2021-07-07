@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Martin Hinshelwood
   url: https://ssw.com.au/people/martin-hinshelwood
-related: []
+related: 
+- do-you-know-how-to-document-what-you-are-doing
 redirects: []
 
 ---
@@ -19,11 +20,9 @@ As long as there is nothing confidential or NDA in the content, any discussion p
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - This is just an email and is hidden from all those outside of the recipients. Any answer here would only be of use to those on the list. What if someone new to the company had the issue or someone outside of the company?](RulesBloggingPublicBad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - writing a blog shows both how you deal with mistakes encourages the wider community to contribute with the discussion](RulesBloggingPublicGood.jpg)  

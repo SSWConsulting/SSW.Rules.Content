@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-For planned outages see: [https://rules.ssw.com.au/have-a-server-reboot-restart-policy](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=e3a456b4-3513-4dbe-a958-0176c1dfa85d)
+For planned outages, see [Do you have a server reboot/restart policy?](/have-a-server-reboot-restart-policy)
 
 During your course of being a SysAdmin, you will come across many outages. Some of them will impact BAU (Business as usual) and others will just be minor service outages. Do you know what to do you have a plan in the event of these outages?
 
@@ -46,18 +46,16 @@ At SSW we use WhatsUp Gold for our device monitoring, however, there are many to
 1. Login to monitoring service
 2. Check to see what services are down
 
-
 ### First Contact
 
 After you have determined what services have been disrupted it is time to call your SysAdmin team and organise a quick conference call. This will allow you to have a discussion prior to making any changes/fixes that could cause the outage to become worse.
  
- **Key Discussion Points:** 
+**Key Discussion Points:** 
 
 1. What services have been disrupted?
 2. What is the impact of these services?
 3. Is an email to everyone in your company required?
 4. What are your next steps?
-
  
 **What if you cannot reach anyone?**
 
@@ -65,68 +63,71 @@ If you cannot reach anyone move onto the Email section.
 
 ### Email
 
-
 If from the previous discussion you have determined that an email needs to be sent to your entire company, or you have decided this is necessary if you cannot contact anyone above, send an email in the following format:
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SSWAll |
+| Subject: | SysAdmins – Outage Notice |  
+::: email-content  
 
-::: greybox
-To: ALL
-Subject: Outage Notice
- 
- **Hey All,** 
- 
+### Hi All,  
+
 We are experiencing an outage and the following services have been affected:
-·       Xxx
-·       Yyy
-·       Zzz
+- XXX
+- YYY
+- ZZZ
  
 We are working on restoring these services and will keep you updated.
  
 Thank you,
-SysAdmins  
-:::
- 
+SysAdmins     
+
+:::  
+:::  
 
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SysAdmins |
+| Subject: | SysAdmins – Outage Notice |  
+::: email-content  
 
-::: greybox
-To: SysAdmins
-Subject: SysAdmins – Outage Notice
- 
- **Hey team,** 
-
-As per our conversation.
+### Hi Team,  
+As per our conversation,
  
 The following services are disrupted:
-·       Xxx
-·       Yyy
-·       Zzz
+- XXX
+- YYY
+- ZZZ
  
 The impact of these services disrupted are:
-·       Xxx
-·       Yyy
-·       Zzz
+- XXX
+- YYY
+- ZZZ
 We have decided that an email to ALL is/is not required.
  
  **To myself,** 
  
 The next steps to resolving this are:
  
-1.      Xxx
-2.      Yyy
-3.      Zzz
+1. XXX
+2. YYY
+3. ZZZ
  
 Thank you,
-SysAdmin  
-:::
- 
+SysAdmin     
 
-### Next Steps did \*not\* resolve the issue
+:::  
+:::  
+
+### Next steps did NOT resolve the issue
 
 If you have completed your tasks but the issue has not resolved, please try to make contact with the SysAdmin team again and send an updated To Myself email.
 
-### Next Steps resolved the issue
-
+### Next steps resolved the issue
 
 If your actions have resolved the issue, please notify ALL of the services being restored and update your To Myself email.
