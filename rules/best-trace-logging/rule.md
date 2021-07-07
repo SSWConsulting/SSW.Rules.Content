@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you use the best trace logging library?
 guid: 5ecb7c85-0a65-494c-ac1a-51c71c4546aa
-uri: do-you-use-the-best-trace-logging-library
+uri: best-trace-logging
 created: 2013-09-11T21:38:08.0000000Z
 authors:
 - title: Adam Cogan
