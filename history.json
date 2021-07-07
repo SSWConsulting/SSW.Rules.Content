@@ -26782,7 +26782,7 @@
 		"lastUpdated": "2021-06-24T06:42:33.959Z",
 		"lastUpdatedBy": "Tom Bui [SSW]",
 		"lastUpdatedByEmail": "67776356+tombui99@users.noreply.github.com"
-},
+	},
 	{
 		"file": "rules/do-you-manage-clients-expectations/fail-image.png",
 		"created": "2021-06-25T01:24:23.100Z",
@@ -26799,7 +26799,7 @@
 		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
 		"lastUpdated": "2021-06-28T04:03:51.363Z",
 		"lastUpdatedBy": "tombui99",
-    "lastUpdatedByEmail": "tiagov8@gmail.com"
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/storing-all-is-better-than-one/rule.md",
