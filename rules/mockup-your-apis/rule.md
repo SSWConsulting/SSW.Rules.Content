@@ -27,7 +27,11 @@ Rather than waiting for the backend to be complete, the APIs can be agreed on up
 
 The key benefit of using mocked APIs is being able to present the frontend to stakeholders for feedback really early.
 
-Watch Adam Cogan and William Liebenberg discuss the benefits.
+First, watch the first 5 minutes of this video for a general introduction:
+
+`youtube: https://youtu.be/4fPRxveXGXw`
+
+Watch Adam Cogan and William Liebenberg discuss the benefits:
 
 `youtube: https://youtu.be/rNyOALskc_U`
 
@@ -43,13 +47,13 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 ![Figure: Create a blank API](step1-create-blank-api.png)
 
-## Step 2 - Describe your API
+### Step 2 - Describe your API
 
 ![Figure: Describe your API](step2-describe-your-api.png)
 
 1. Click **Create**
 
-## Step 3 - Add an Operation
+### Step 3 - Add an Operation
 
 1. Select your API from the API list
 2. Click **Add operation**
@@ -59,14 +63,14 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 ![Figure: Adding a new Operation](step3-add-operation.png)
 
-## Step 4 - Add response
+### Step 4 - Add response
 
 1. Click **Add response**
 2. Select the appropriate response code (e.g 200 OK)
 
 ![Figure: Add a response](step4-add-response.png)
 
-## Step 5 - Add representation
+### Step 5 - Add representation
 
 1. Specify the **Content Type** as `application/json`
 2. Specify the **Sample** as `{ "data": "fake" }`
@@ -76,21 +80,21 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 ![Figure: Operation added successfully](step5-operation-done.png)
 
-## Step 6 - Add Mock Response Policy
+### Step 6 - Add Mock Response Policy
 
 1. Click **Add policy**
 2. Select **Mock responses**
 
 ![Figure: Add the Mock Response policy](step6-add-mock-response-policy.png)
 
-## Step 7 - Choose response
+### Step 7 - Choose response
 
 1. Choose the response representation to return as a Mock (e.g. `200 OK, application/json`)
 2. Click **Save**
 
 ![Figure: Choose the response representation](step7-choose-response-representation.png)
 
-## Step 8 - Test your Mocked API
+### Step 8 - Test your Mocked API
 
 1. Make sure your API is selected
 2. Click the **Test** tab
@@ -100,14 +104,14 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 ![Figure: Testing the mocked api operation](step8-test-mock-api.png)
 
-## Step 9 - Inspect Mocked API response
+### Step 9 - Inspect Mocked API response
 
 1. Notice the 200 OK status code
 2. Notice the fake data response in the message body
 
 ![Figure: Response from the mocked operation](step9-inspect-mocked-api-reponse.png)
 
-## Step 10 - Call your API using a REST Client
+### Step 10 - Call your API using a REST Client
 
 1. Add a new `GET` request to your REST Client
 2. Specify the API Uri such as `https://william-ssw.azure-api.net/data`
