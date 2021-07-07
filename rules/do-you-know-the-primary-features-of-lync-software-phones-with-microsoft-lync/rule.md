@@ -14,9 +14,7 @@ redirects:
 
 ---
 
-Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=3452ec36-db1f-4ade-a64f-29d33435c271)
-
-
+Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone)
 
 `youtube: https://www.youtube.com/embed/z45_IMwslYw?rel=0`
  
@@ -29,7 +27,6 @@ There are a lot of features of Microsoft Lync. The primary features are:
 * Transfer a call
 * Conference a call
 
-
 Plus even more:
 
 * Receiving your voice mails into your email
@@ -40,5 +37,4 @@ Plus even more:
 * Remote Desktop
 * Whiteboard
 
-
-Read more about     [implementing Microsoft Lync](http&#58;//www.ssw.com.au/ssw/Consulting/Lync.aspx).
+Read more about [implementing Microsoft Lync](https://www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx).

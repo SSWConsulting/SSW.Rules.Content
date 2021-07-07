@@ -40,11 +40,11 @@ I have replied inline
 Regards,
 Daniel
 
------Original Message-----
-From: Adam Cogan www.ssw.com.au
-Sent: Monday, 27 May 2002 8:00 AM
-To: Daniel Hyles www.ssw.com.au 
-Subject: Daniel Hyles - Morning Goals
+-----Original Message-----   
+**From:** Adam Cogan www.ssw.com.au   
+**Sent:** Monday, 27 May 2002 8:00 AM   
+**To:** Daniel Hyles www.ssw.com.au    
+**Subject:** Daniel Hyles - Morning Goals   
 
 1. TimePro Online pages  
 Done  
@@ -59,6 +59,49 @@ Not Done
 :::  
 ::: bad
 Figure: Bad Example - Replying inline can mess up the history + there is no indentation making it hard to read
+:::
+
+### Email Template  
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | Daniel Hyles - Morning Goals |  
+::: email-content  
+
+### Hi Adam,
+
+I have replied inline
+
+Regards,
+Daniel
+
+-----Original Message-----   
+**From:** Adam Cogan www.ssw.com.au   
+**Sent:** Monday, 27 May 2002 8:00 AM   
+**To:** Daniel Hyles www.ssw.com.au    
+**Subject:** Daniel Hyles - Morning Goals   
+
+   <span style="color:green; padding-left:1rem;">1. TimePro Online pages  </span>
+
+Done  
+
+   <span style="color:green; padding-left:1rem;">2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
+
+Done 
+
+   <span style="color:green; padding-left:1rem;">3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
+
+Not Done
+
+   <span style="color:green; padding-left:1rem;">4. Access reporter  </span>
+
+Not Done
+
+:::  
+:::  
+::: ok
+Figure: OK Example - Replying inline should be avoided, but if you have to, use different colors and indentation for a better readability
 :::
 
 See [Top 10 Rules to Better Email](https://tv.ssw.com/top-rules-to-better-email-by-ulysses-maclaren/) video for more details on how to reply to emails.

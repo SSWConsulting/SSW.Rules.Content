@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-When exceptions occur in CRM they are trapped by the platform layer and a standard error message is displayed to the user. At SSW we similarly implement exception handling and use [SSW Code Auditor to audit exception handling](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=d700d2a5-872d-4fbd-acb7-1e2a2df1f07e).
+When exceptions occur in CRM they are trapped by the platform layer and a standard error message is displayed to the user. 
 
 <!--endintro-->
 

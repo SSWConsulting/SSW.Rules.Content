@@ -13,7 +13,7 @@ index:
 - do-you-report-the-business-weekly-gas-in-the-tank
 - do-you-track-your-recurring-expenses
 - pay-invoices-completely
-- do-you-maintain-your-corporate-card
+- how-do-you-manage-your-corporate-card
 - do-you-use-the-best-mobile-app-for-expenses
 - how-to-enter-an-expensify-receipt
 - do-you-create-a-new-report-for-related-expenses
