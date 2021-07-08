@@ -26998,5 +26998,14 @@
 		"lastUpdated": "2021-07-07T01:31:21.250Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/avoid-labels",
+		"created": "2021-07-08T21:21:41.655Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-08T21:21:41.655Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
