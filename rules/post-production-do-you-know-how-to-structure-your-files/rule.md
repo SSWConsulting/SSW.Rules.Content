@@ -5,7 +5,7 @@ title: Post Production - Do You Know How To Structure Your Files?
 guid: 37f667f0-1cb0-44f9-b6a1-3f7b76a8953e
 uri: post-production-do-you-know-how-to-structure-your-files
 created: 2013-10-20T22:19:03.0000000Z
-authors: []
+authors: [Landon Maxwell]
 related: []
 redirects: []
 
@@ -72,11 +72,7 @@ This is an efficient way for a team to structure their server and common files/f
       * Contains folders used by the marketing team, including the Photos folder
 
 *	07-user-folders
-      * Contains SSW user’s personal folders, including:
-         * Adam
-         * Eve
-         * Kosta
-         * Ruby
+      * Contains user’s personal folders
 
 *	08-programs
       * Contains installation files for video production software, including:
@@ -84,4 +80,4 @@ This is an efficient way for a team to structure their server and common files/f
          * plugins
 
 *	09-documents
-      * Contains SSW TV documents - to be synchronized to [VIDEO-Videos](https://sswcom.sharepoint.com/:f:/r/designers/Shared Documents/VIDEO-Videos?csf=1&web=1&e=ArpckI)
+      * Contains documents - to be synchronized to [VIDEO-Videos](https://sswcom.sharepoint.com/:f:/r/designers/Shared Documents/VIDEO-Videos?csf=1&web=1&e=ArpckI)
