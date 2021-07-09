@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Do you avoid having labels?
-guid: b3b50fc7-72f1-42d7-9e63-80280c57b608}
+guid: b3b50fc7-72f1-42d7-9e63-80280c57b608
 uri: avoid-labels
 created: 2021-07-09T12:00:01.0000000Z
 authors:
