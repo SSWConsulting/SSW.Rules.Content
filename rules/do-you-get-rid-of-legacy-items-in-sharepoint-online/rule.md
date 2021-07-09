@@ -25,7 +25,7 @@ The process to remove legacy items is always the same regardless of the library/
 2. Deactivate the site feature associated with the list or library:
 
 Either manually via:
-> Site Settings | Site Features | Feaure XYZ | Deactivate
+> Site Settings | Site Features | Feature XYZ | Deactivate
 
 Or programmatically using:
 ``` Powershell
