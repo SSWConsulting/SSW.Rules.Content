@@ -5,7 +5,7 @@ title: Post Production - Do You Know How To Structure Your Files?
 guid: 37f667f0-1cb0-44f9-b6a1-3f7b76a8953e
 uri: post-production-do-you-know-how-to-structure-your-files
 created: 2013-10-20T22:19:03.0000000Z
-authors
+authors:
   - title: Landon Maxwell
     url: https://ssw.com.au/people/landon-maxwell
 related: []
