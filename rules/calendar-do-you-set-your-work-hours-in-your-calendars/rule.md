@@ -35,6 +35,6 @@ Once you set this up, you will be able to see the grey area in "Scheduling assis
 This only allows for times that are the same every day. You should also update the work hours field in your CRM Details Tab.
 
 ::: good
-![Figure: Good example - only update your work hours if they vary from the usual Mon-Fri, 9-6](Prems-work-hours.jpg)
+![Figure: Good example - Only update your work hours if they vary from the usual Mon-Fri, 9-6](Prems-work-hours.jpg)
 :::
 
