@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: testing url https://ssw.com.au/rules
 title: Do you know all the things you can use QR codes for?
 guid: f7da22d4-20a2-4534-b6da-3e872005c878
 uri: all-the-things-you-can-use-qr-code-for
