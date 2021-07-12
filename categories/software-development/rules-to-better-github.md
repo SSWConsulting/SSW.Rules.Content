@@ -27,5 +27,6 @@ index:
 - limit-admin-access
 - set-default-permissions-for-new-repositories
 - do-you-know-how-to-setup-github-notifications
+- do-you-have-the-best-github-issue-template
 
 ---
