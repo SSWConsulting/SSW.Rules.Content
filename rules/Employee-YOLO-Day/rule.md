@@ -10,7 +10,7 @@ related: null
 created: 2021-06-11T00:42:36.577Z
 archivedreason: null
 ---
-A small change
+A small
 
 It's important that staff feel appreciated, expand their horizons, and also that they celebrate each others' successes. A great way to do all of these is to give them an additional day of Annual Leave each year, and encourage them to use it to do something remarkable. 
 
