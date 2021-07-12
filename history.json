@@ -27016,5 +27016,32 @@
 		"lastUpdated": "2021-07-09T17:50:25.356Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/format-figures-correctly/figure-bad-example.png",
+		"created": "2021-07-11T23:07:19.600Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-11T23:07:19.600Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/format-figures-correctly/figure-good-example.png",
+		"created": "2021-07-11T23:07:19.600Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-11T23:07:19.600Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/format-figures-correctly/rule.md",
+		"created": "2021-07-11T23:07:19.600Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-11T23:07:19.600Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
