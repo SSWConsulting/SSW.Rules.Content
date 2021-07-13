@@ -46,7 +46,6 @@ There are also many different static site generators:
 | --- | --- | --- | --- | --- | --- 
 | **Language** | [React](https://reactjs.org/) | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) | React | [Angular](https://angular.io/) | [Vue](https://vuejs.org/)
 | **Learning Curve** | Medium | Easy | Hard  | Hard | Medium
-| **Scalability** | Medium | Low | High | High | Medium
 | **Data Handling** | [GraphQL](https://graphql.org/) | Source code data files | Fully customisable | Fully customisable | GraphQL
 | **Data Sources** | Filesystems, CMS, APIs, Databases, Local files  | Local files | Fully customisable | Fully customisable | Source Plugins, APIs, Local files  
 | **GitHub Pages Integration** | Seamless deployment via config files | Works out of the box | Requires setup | Deployment via GitHub Actions | Seamless deployment via config files
