@@ -41,7 +41,16 @@ There are a few hosting options to choose from including:
 *	[Surge.sh](https://surge.sh/)
 
 There are also many different static site generators:
-  
+
+| **Name** | [Gatsby](https://www.gatsbyjs.com/) | [Jekyll](https://jekyllrb.com/) | [Next.js](https://nextjs.org/) | [Angular](https://scully.io/) | [Gridsome](https://gridsome.org/)
+| --- | --- | --- | --- | --- | --- 
+| **Language** | React | Liquid | React | Angular | Vue
+| **Learning Curve** | Medium | Easy | Hard |
+| **Scalability** | Medium | Low | High
+| **Data Handling** | GraphQL | Source code data files | Fully customisable
+| **GitHub Integration** | Works natively with GitHub as a Datasource | Works out of the box with GitHub Pages | Requires setup
+ 
+
 *	[Gatsby](https://www.gatsbyjs.com/) (recommended)
 
     *	React based
@@ -73,3 +82,5 @@ There are also many different static site generators:
     * Provides full control over which data handling technology you use
     
     * More scalable than conventional static site generators
+* [Gridsome](https://gridsome.org/)
+    * Vue.js based  
