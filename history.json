@@ -27045,6 +27045,33 @@
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
+		"file": "rules/format-new-lines/figure-bad-example.png",
+		"created": "2021-07-13T04:17:52.457Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-13T04:23:37.406Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/format-new-lines/figure-good-example.png",
+		"created": "2021-07-13T04:17:52.457Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-13T04:23:37.407Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/format-new-lines/rule.md",
+		"created": "2021-07-13T04:17:52.458Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-13T04:23:37.407Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
 		"file": "rules/azure-certifications-and-associated-exams/rule.md",
 		"created": "2021-07-13T01:54:25.037Z",
 		"createdBy": "Tiago Araújo [SSW]",
