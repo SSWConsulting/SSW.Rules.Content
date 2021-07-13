@@ -44,43 +44,9 @@ There are also many different static site generators:
 
 | **Name** | [Gatsby](https://www.gatsbyjs.com/) | [Jekyll](https://jekyllrb.com/) | [Next.js](https://nextjs.org/) | [Scully](https://scully.io/) | [Gridsome](https://gridsome.org/)
 | --- | --- | --- | --- | --- | --- 
-| **Language** | React | Liquid | React | Angular | Vue
-| **Learning Curve** | Medium | Easy | Hard |
-| **Scalability** | Medium | Low | High
-| **Data Handling** | GraphQL | Source code data files | Fully customisable
-| **GitHub Integration** | Works natively with GitHub as a Datasource | Works out of the box with GitHub Pages | Requires setup
- 
-
-*	[Gatsby](https://www.gatsbyjs.com/) (recommended)
-
-    *	React based
-  
-    *	Lots of plugins
-    
-    * Data handling via GraphQL
-    
-    * Works natively with GitHub as a Datasource.
-  
-*	[Jekyll](https://jekyllrb.com/)
-    
-    * Liquid based [(Shopify’s templating language)](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
-    
-    * Simple to setup
-    
-    * Out of the box integration with GitHub pages
-    
-    * Scales poorly
-    
-    * [Windows is not supported](https://jekyllrb.com/docs/installation/windows/)
-  
-*	[Next.js](https://nextjs.org/)
-    
-    * React based
-    
-    * Server-side rendered pages but can be exported as a static site
-    
-    * Provides full control over which data handling technology you use
-    
-    * More scalable than conventional static site generators
-* [Gridsome](https://gridsome.org/)
-    * Vue.js based  
+| **Language** | [React](https://reactjs.org/) | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) | React | [Angular](https://angular.io/) | [Vue](https://vuejs.org/)
+| **Learning Curve** | Medium | Easy | Hard  | Hard | Medium
+| **Scalability** | Medium | Low | High | High | Medium
+| **Data Handling** | [GraphQL](https://graphql.org/) | Source code data files | Fully customisable | Fully customisable | GraphQL
+| **Data Sources** | Filesystems, CMS, APIs, Databases, Local files  | Local files | Fully customisable | Fully customisable | Source Plugins, APIs, Local files  
+| **GitHub Pages Integration** | Seamless deployment via config files | Works out of the box | Requires setup | Deployment via GitHub Actions | Seamless deployment via config files
