@@ -12,6 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
+- title: Penny Walker
+  url: https://www.ssw.com.au/people/penny
 related: []
 redirects:
 - do-you-use-a-different-color-when-replying-an-email
@@ -42,18 +44,22 @@ Daniel
 
 -----Original Message-----   
 **From:** Adam Cogan www.ssw.com.au   
-**Sent:** Monday, 27 May 2002 8:00 AM   
-**To:** Daniel Hyles www.ssw.com.au    
+
+**Sent:** Monday, 27 June 2021 8:00 AM   
+**To:** Daniel Hyles www.ssw.com.au   
 **Subject:** Daniel Hyles - Morning Goals   
 
 1. TimePro Online pages  
 Done  
+
 2. Double check backups (get backup today on both drives, I configured the other drive last night)  
-Done 
+Done   
+
 3. Make sure Exchange is backing itself up... Check Google on why not.  
-Not Done
+Not done   
+
 4. Access reporter   
-Not Done
+Not done  
 
 :::  
 :::  
@@ -97,6 +103,7 @@ Not Done
    <span style="color:green; padding-left:1rem;">4. Access reporter  </span>
 
 Not Done
+
 
 :::  
 :::  

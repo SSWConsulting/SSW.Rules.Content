@@ -379,9 +379,9 @@
 	},
 	{
 		"file": "rules/when-you-reply-inline-do-you-use-a-different-color/rule.md",
-		"lastUpdated": "2021-07-05T16:24:38.961Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-07T01:00:22.823Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2009-09-25T14:47:16+10:00",
 		"createdBy": "SSW2000\\cindywang",
 		"createdByEmail": "CindyWang@ssw.com.au"
@@ -6769,7 +6769,7 @@
 	},
 	{
 		"file": "rules/meetings-do-you-know-the-way-meetings-should-work/rule.md",
-		"lastUpdated": "2021-07-08T22:07:02.117Z",
+		"lastUpdated": "2021-07-09T20:55:00.712Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2010-07-16T16:08:50+10:00",
@@ -27013,9 +27013,9 @@
 		"created": "2021-07-09T00:49:50.350Z",
 		"createdBy": "Brady Stroud",
 		"createdByEmail": "bradystroud@me.com",
-		"lastUpdated": "2021-07-09T00:49:50.350Z",
-		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "bradystroud@me.com"
+		"lastUpdated": "2021-07-09T17:50:25.356Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/format-figures-correctly/figure-bad-example.png",
@@ -27070,5 +27070,14 @@
 		"lastUpdated": "2021-07-13T04:17:52.458Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/azure-certifications-and-associated-exams/rule.md",
+		"created": "2021-07-13T01:54:25.037Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-13T01:54:25.037Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
