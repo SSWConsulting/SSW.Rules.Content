@@ -10,6 +10,7 @@ index:
 - do-you-know-how-to-document-what-you-are-doing
 - encourage-blog-comments
 - do-you-know-that-factual-content-is-king
+- check-facts
 - acknowledge-who-give-feedback
 - do-you-know-to-allow-employees-to-post-to-their-personal-blog
 - do-you-know-to-do-the-gold-plating-after-hours
