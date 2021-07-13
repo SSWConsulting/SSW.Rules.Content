@@ -27043,5 +27043,14 @@
 		"lastUpdated": "2021-07-11T23:07:19.600Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/azure-certifications-and-associated-exams/rule.md",
+		"created": "2021-07-13T01:54:25.037Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-13T01:54:25.037Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
