@@ -20,6 +20,18 @@ related:
 - Check framing as per: [ssw.com.au/rules/production-do-you-know-the-correct-way-to-frame-your-subject](https://www.ssw.com.au/rules/production-do-you-know-the-correct-way-to-frame-your-subject) 
 - Check lighting as per: [ssw.com.au/rules/have-good-lighting-on-your-home-office](https://www.ssw.com.au/rules/have-good-lighting-on-your-home-office)
 
+::: codeauditor
+
+This is a CodeAuditor box
+
+:::
+
+::: info
+
+This is an info box
+
+:::
+
 When building APIs one of the challenges is in how to document the API for other developers to consume.  
 **Figure: Figure on next line of text**
 
