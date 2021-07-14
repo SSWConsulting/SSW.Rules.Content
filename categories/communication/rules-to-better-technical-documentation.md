@@ -14,6 +14,7 @@ index:
 - how-to-add-quotations
 - avoid-using-unnecessary-words
 - make-numbers-more-readable
+- address-formatting
 - refer-consistently-throughout-your-document
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - use-words-instead-of-digits-for-low-numbers
