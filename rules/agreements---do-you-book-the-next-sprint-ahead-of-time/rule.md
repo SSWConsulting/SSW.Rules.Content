@@ -26,9 +26,39 @@ This is a CodeAuditor box
 
 :::
 
+::: codeauditor
+
+This is a CodeAuditor box with lots of info. 
+
+:::
+
 ::: info
 
 This is an info box
+
+:::
+
+::: greybox
+
+This is a greybox
+
+:::
+
+::: highlight
+
+This is highlighted
+
+:::
+
+::: china
+
+This is a China box
+
+:::
+
+::: todo
+
+This is a todo box
 
 :::
 
