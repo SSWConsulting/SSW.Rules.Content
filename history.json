@@ -17956,9 +17956,9 @@
 	},
 	{
 		"file": "rules/use-using-statement-instead-of-use-explicitly-dispose/rule.md",
-		"lastUpdated": "2020-01-29T15:33:01+11:00",
-		"lastUpdatedBy": "Liam Elliott",
-		"lastUpdatedByEmail": "LiamElliott@ssw.com.au",
+		"lastUpdated": "2021-07-14T01:34:55.924Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com",
 		"created": "2018-04-27T06:56:48+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
