@@ -34,8 +34,10 @@ When deciding whether a PBI might be a good contender to record a done video for
 When deciding on the software:
 
 1. Solo "Done Video" – Camtasia
-2. Remote person – Zoom or Teams (bitrate is low – the sound is not as good as Camtasia)
-3. Edit the Video – Camtasia or Adobe Premiere Pro
+
+   **Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
+3. Remote person – Zoom or Teams (bitrate is low – the sound is not as good as Camtasia)
+4. Edit the Video – Camtasia or Adobe Premiere Pro
 
 
 Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
