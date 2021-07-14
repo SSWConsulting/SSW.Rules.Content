@@ -121,15 +121,12 @@ static int WriteLinesToFile(IEnumerable<string> lines)
 
 
 ::: good
-Figure: Good example of dispose of resources, using c# 8.0 using declaration
+Figure: Good example of dispose of resources, using c# 8.0 using declaration  
+:::
 
 
 
-TIP:
-
-**Did you know it is not recommended to dispose HttpClient?**
+**Tip: Did you know it is not recommended to dispose HttpClient?**
 
 One last note is regarding disposing of HttpClient.  Yes, HTTPClient does implement IDisposable, however, I do not recommend creating a HttpClient inside a Using block to make a single request.  When HttpClient is disposed it causes the underlying connection to be closed also.  This means the next request has to re-open that connection.  You should try and re-use your HttpClient instances.  If the server really does not want you holding open it’s connection then it will send a header to request the connection be closed.
 http://www.bizcoder.com/httpclient-it-lives-and-it-is-glorious
-
-:::
