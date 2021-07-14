@@ -45,7 +45,9 @@ private Match MatchExpression(string input, string pattern)
 Figure: Good - Method with member accessibility declared
 
 :::
-![](matt-w-screenshot.jpg) **Figure: Compiler warning given for not explicitly defining member access level** 
+
+![image](https://user-images.githubusercontent.com/40375803/125547812-0a3ba510-bc10-426e-8eec-09a954c421c1.png)
+**Figure: Compiler warning given for not explicitly defining member access level** 
 
 
 
