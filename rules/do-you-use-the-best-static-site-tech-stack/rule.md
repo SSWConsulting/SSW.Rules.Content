@@ -42,9 +42,9 @@ There are a few hosting options to choose from including:
 
 There are also many different static site generators:
 
-| **Name** | [Gatsby](https://www.gatsbyjs.com/) | [Jekyll](https://jekyllrb.com/) | [Next.js](https://nextjs.org/) | [Scully](https://scully.io/) | [Gridsome](https://gridsome.org/) | [Statiq](https://statiq.dev/)
+| **Name** | [Gatsby](https://www.gatsbyjs.com/) (Recommended) | [Next.js](https://nextjs.org/) | [Scully](https://scully.io/) | [Gridsome](https://gridsome.org/) | [Statiq](https://statiq.dev/) | [Jekyll](https://jekyllrb.com/)
 | --- | --- | --- | --- | --- | --- | ---
-| **Language** | [React](https://reactjs.org/) | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) | React | [Angular](https://angular.io/) | [Vue](https://vuejs.org/) | [.NET](https://dotnet.microsoft.com/)
-| **Data Handling** | [GraphQL](https://graphql.org/) | Source code data files | Fully customisable | Fully customisable | GraphQL | Fully customisable
-| **Data Sources** | Filesystems, CMS, APIs, Databases, Local files  | Local files | Fully customisable | Fully customisable | Source Plugins, APIs, Local files | Fully customisable
-| **GitHub Pages Integration** | Seamless deployment via config files | Works out of the box | Requires setup | Deployment via GitHub Actions | Seamless deployment via config files | Deployment via GitHub Actions
+| **Language** | [React](https://reactjs.org/) | React | [Angular](https://angular.io/) | [Vue](https://vuejs.org/) | [.NET](https://dotnet.microsoft.com/) | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
+| **Data Handling** | [GraphQL](https://graphql.org/) | Fully customisable | Fully customisable | GraphQL | Fully customisable | Source code data files
+| **Data Sources** | Filesystems, CMS, APIs, Databases, Local files | Fully customisable | Fully customisable | Source Plugins, APIs, Local files | Fully customisable | Local files
+| **GitHub Pages Integration** | Seamless deployment via config files | Requires setup | Deployment via GitHub Actions | Seamless deployment via config files | Deployment via GitHub Actions | Works out of the box 
