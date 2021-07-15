@@ -46,8 +46,7 @@ Figure: Good - Method with member accessibility declared
 
 :::
 
-![image](https://user-images.githubusercontent.com/40375803/125547812-0a3ba510-bc10-426e-8eec-09a954c421c1.png)
-**Figure: Compiler warning given for not explicitly defining member access level** 
+![Figure: Compiler warning given for not explicitly defining member access level](https://user-images.githubusercontent.com/40375803/125547812-0a3ba510-bc10-426e-8eec-09a954c421c1.png)
 
 
 
