@@ -11,7 +11,7 @@ authors:
 - title: Jerwin Parker Roberto
   url: https://ssw.com.au/people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
-- title: Joshua Bandsma
+- title: Josh Bandsma
   url: https://www.ssw.com.au/people/josh-bandsma
 related:
 - keep-your-social-media-updated
@@ -63,7 +63,7 @@ So, here are a few examples taken from our social media of what you could post o
 
 ### #8 - Your business blog posts
 
-![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpg)  
+![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpeg)  
 
 ### #9 - General content written by your team on your website
 
@@ -75,13 +75,13 @@ So, here are a few examples taken from our social media of what you could post o
 
 ### #11 - Teamwork, parties, etc.
 
-![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpg) 
+![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpeg) 
 
 ![Figure: SSW Melbourne - Following COVID-19 safety guidelines](covid-teamwork.png)
 
 ### #12 - Relevant news for your industry
 
-![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpg)  
+![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)  
 
 ### #13 - Memes, if they suit your industry
 
