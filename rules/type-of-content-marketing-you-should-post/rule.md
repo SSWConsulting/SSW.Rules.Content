@@ -67,17 +67,17 @@ So, here are a few examples taken from our social media of what you could post o
 
 ### #9 - General content written by your team on your website
 
-![Figure: Even though some of your content won't have a photo, you can add a relevant one from a free stock photo service](rules-v2.jpg)  
+![Figure: Even though some of your content won't have a photo, you can add a relevant one from a free stock photo service](rules-v2.png)  
 
 ### #10 - Employment opportunities
 
-![Figure: Hiring post following branding guidelines](hiring-v2.jpg)
+![Figure: Hiring post following branding guidelines](hiring-v2.png)
 
 ### #11 - Teamwork, parties, etc.
 
 ![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpg) 
 
-![Figure: SSW Melbourne - Following COVID-19 safety guidelines](covid-teamwork.jpg)
+![Figure: SSW Melbourne - Following COVID-19 safety guidelines](covid-teamwork.png)
 
 ### #12 - Relevant news for your industry
 
