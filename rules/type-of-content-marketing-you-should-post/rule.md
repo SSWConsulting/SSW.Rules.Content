@@ -59,7 +59,7 @@ So, here are a few examples taken from our social media of what you could post o
 
 ### #7 - Your employees' blogs posts
 
-![Figure: Use the same image from the blog post for consistency](tim-blog.jpg)
+![Figure: Use the same image from the blog post for consistency](tim-blog.png)
 
 ### #8 - Your business blog posts
 
