@@ -71,7 +71,7 @@ See Rule: [Do you make sure your screen recordings are easy to view?](/easy-to-v
 See Rule: [Do you always zoom in when using a projector?](/meetings-do-you-always-zoom-in-when-using-a-projector) (or in this case before the recording a 'Done' video)
 * Set your screen resolution to 1080p (1920x1080).
 * Use Camtasia to record your screen and webcam (PC and Mac). For Mac you can use Quicktime but it’s not as flexible.
-* Don't edit the video, Don't edit the video, just include your face at the beginning and end, using the fading functionality.
+* Don't edit the video, just include your face at the beginning and end, using the fading functionality.
 **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
 * Do not use headphone and mic combo sets as these are not as good as your webcam's microphone
 * **Remember** : smile at the beginning and end of the video!
