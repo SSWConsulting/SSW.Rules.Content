@@ -24,9 +24,9 @@ It allows you to choose which accounts to post to, can post to multiple social m
 
 <!--endintro-->
 
-You can either visit the [Buffer web app](https://buffer.com/) in your browser  or install a tool that sits next to the address bar of your browser.
+You can either visit the [Buffer website](https://buffer.com/) or install the Buffer extension for your browser that sits next to the address bar of your browser.
 
-![Figure: to use the Buffer app from your browser, simply click the symbol](buffer\_tool.jpg)  
+![Figure: to use the Buffer app from your browser, simply click the symbol](buffer-browser-extension.jpg)  
 
 ![Figure: You can select as many Social Media accounts as required and post to each platform at once using Buffer. You can also use the "Customize for each network" button to modify the content for each platform before you post it](Buffer example.jpg) 
 
@@ -40,7 +40,6 @@ The content of your posts should be consistent across accounts. When making a po
 ::: good
 ![Figure: Good example - posting using Buffer to modify your content between platforms - much faster than posting individually to each platform every time](Buffer2.jpg)
 :::
-
 
 ### #Hashtags
 
