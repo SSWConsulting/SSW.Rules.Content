@@ -46,9 +46,9 @@
 	},
 	{
 		"file": "rules/do-you-create-a-deployment-batch-file-and-setparameters-file-for-each-environment/rule.md",
-		"lastUpdated": "2013-05-21T22:30:16+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-07-19T00:55:00.922Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2013-02-07T05:52:58+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -7165,9 +7165,9 @@
 	},
 	{
 		"file": "rules/do-you-do-monthly-peer-evaluations/rule.md",
-		"lastUpdated": "2021-04-21T23:18:50.513Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-19T00:55:00.922Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2010-04-12T12:32:27+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -27115,5 +27115,23 @@
 		"lastUpdated": "2021-07-16T00:16:57.109Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-do-monthly-peer-evaluations/PeerEvaluationEmailTemplate.msg",
+		"created": "2021-07-19T00:55:00.922Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-19T00:55:00.922Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-create-a-deployment-batch-file-and-setparameters-file-for-each-environment/DeployBat.txt",
+		"created": "2021-07-19T00:55:00.922Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-07-19T00:55:00.922Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]

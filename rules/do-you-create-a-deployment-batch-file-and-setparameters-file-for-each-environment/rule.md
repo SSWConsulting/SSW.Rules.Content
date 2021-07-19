@@ -19,8 +19,10 @@ You should create a Deployment Batch file and SetParameters file for each Enviro
 
 
 ::: good  
-![Figure: Good Example - The batch file specifies the target Server, the ProjectName name to deploy, and the configuration file to use. You can also optionally supply additional parameters.        Download a sample \_Deploy.bat file here as a .txt file.](setparameters.jpg)  
+![Figure: Good Example - The batch file specifies the target Server, the ProjectName name to deploy, and the configuration file to use. You can also optionally supply additional parameters.](setparameters.jpg)  
 :::
+
+[Download a sample Deploy.bat file here as a .txt file](DeployBat.txt)
 
 
 ::: good  
