@@ -46,8 +46,7 @@ Figure: Good - Method with member accessibility declared
 
 :::
 
-![Figure: Compiler warning given for not explicitly defining member access level](https://user-images.githubusercontent.com/40375803/125547812-0a3ba510-bc10-426e-8eec-09a954c421c1.png)
-
+![Figure: Compiler warning given for not explicitly defining member access level](https://user-images.githubusercontent.com/40375803/126088173-2387748e-89df-4f05-bafd-cf293f0ce616.png)
 
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.
