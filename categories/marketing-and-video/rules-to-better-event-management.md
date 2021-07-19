@@ -29,12 +29,14 @@ index:
 
 ---
 Organising an event is both rewarding and a lot of fun. There are a great number of things that you need to keep in mind though, when managing your event, whether it is a large conference, a user group or a once off launch of the latest product.
+
 The below rules offer guidelines to help you create a professional, efficient and successful event that can be replicated and become a stable of your professional community. The rules are based on experience from community events, such as user groups, hackdays and conferences like DDD Melbourne, however, the rules can also be applied to commercial and large scale events.
+
 The rules are split into three distinct sections:
 
-1.    Before the event
-2.    On the day
-3.    After the event
+1. Before the event
+2. On the day
+3. After the event
 
 The rules assume that your event idea has been properly researched and you have an audience for the particular field and topic you are addressing.
 
