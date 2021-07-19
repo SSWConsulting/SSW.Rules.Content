@@ -18,6 +18,7 @@ related:
 - do-you-know-when-to-do-use-checked-by-xxx
 - quality-do-you-know-how-to-request-a-test-please
 - conduct-a-test-please-internally-and-then-with-the-client
+- do-you-seek-clarification-via-the-telephone-first
 redirects:
 - do-you-send-＂as-per-our-conversation＂-emails
 - do-you-send-as-per-our-conversation-emails
