@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
-title: Do you add a description to your GitHub repositories?
-guid: 1c244aed-36dd-48c5-9232-1b02f2ca90e3
+title: Do you add a description to your GitHubrepositories?
 uri: add-a-description-to-github-repositories
-created: 2021-05-19T05:09:16.0000000Z
+guid: 1c244aed-36dd-48c5-9232-1b02f2ca90e3
 authors:
-- title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related:
-- do-you-know-how-to-name-a-github-repository
+  - do-you-know-how-to-name-a-github-repository
 redirects: []
-
+created: 2021-05-19T05:09:16.000Z
+archivedreason: null
 ---
 
 It is important to add a description to your repositories so they do not appear blank in the preview on your GitHub profile.
