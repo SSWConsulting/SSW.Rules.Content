@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a YOLO Day
+title: Do you have a YOLO
 uri: Employee-YOLO-Day
 guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 authors:
