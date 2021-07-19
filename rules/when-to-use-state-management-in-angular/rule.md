@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know when to use state management in Angular
+title: Do you know when to use state management in Angular?
 guid: cb706a95-5263-49dc-b568-a37bcb03058a
 uri: when-to-use-state-management-in-angular
 created: 2021-05-27T14:09:22.0000000Z
