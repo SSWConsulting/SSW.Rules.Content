@@ -31,6 +31,7 @@ There are a few options when it comes to the best software for product design (t
 :::
 
 `youtube: https://www.youtube.com/embed/EYk6-cgrewc`
+
 **Figure: Sketch is an awesome lightweight design tool.**
 
 The goal of any designer is to develop the best UI and develop the best user experience possible, and you want the best tool to help achieve this across 
