@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Do you know the best way to hand over mockups to developers?
-guid: feaeeeb9-c4de-4c09-991c-8c9c7493f10e
+guid: 78b8eabf-41f4-46d1-a586-9e218e89d45d
 uri: hand-over-mockups-to-developers
 created: 2021-07-20T06:35:55.0000000Z
 authors:
