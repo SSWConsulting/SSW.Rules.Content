@@ -21,6 +21,10 @@ The result is a system that allows designers to collaborate without overwriting 
 
 <!--endintro-->
 
+::: greybox  
+<mark>Warning:</mark> Abstract is available only on MacOS
+:::
+
 ![Figure: Abstract includes all the tools for smooth collaboration](abstract-screen.png)
 
 Using Abstract version control makes it easy for designers to work together, clearly displays which version of a project is the latest and 
