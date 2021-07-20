@@ -33,4 +33,3 @@ Each sprint has the following stages:
     * See [Rules to better Email](/rules-to-better-email) for details
 3. **Review and Retro meetings**
     * The Sprint review/retro email: "Northwind - Sprint 5 Review/Retro"
-    * See [Do you send a Sprint Review/Retro email](/send-sprint-forecast-and-sprint-review-retro-emails-to-the-client) for more details.
