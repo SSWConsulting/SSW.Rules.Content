@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know the best source control for designers?
+title: Do you know where to keep your design files?
 guid: 77730639-c6a0-490a-8892-a96e56b25f7d
-uri: do-you-know-the-best-source-control-for-designers
+uri: where-to-keep-your-design-files
 created: 2014-03-03T04:11:03.0000000Z
 authors:
 - title: Rebecca Liu
@@ -12,7 +12,10 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ken Shi
   url: https://ssw.com.au/people/ken-shi
-related: []
+related:
+- software-for-product-design
+- hand-over-mockups-to-developers
+- version-control-for-designers
 redirects: []
 
 ---
