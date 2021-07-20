@@ -26,4 +26,5 @@ Using the Zeplin plugin for Sketch, designers can easily export not only their m
 With Zeplin styleguides developers have easy access to a library of the colours and reusable design elements of any given project. 
 
 `youtube: https://www.youtube.com/embed/popFjXpvHlg`
+
 **Figure: Zeplin helps developers deliver on the promise of a design** 
