@@ -19,33 +19,8 @@ Member of the Scrum Team should understand their responsibilities and respect t
 
 | **Role** | **Promises** |
 | --- | --- |
-| The Organization | <ul>                <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
-                <li>the team that there are stakeholders (including subject matter experts) who will help when needed </li>
-                <li>they will help the Scrum Master in the removal of impediments to the Scrum team’s progress </li>
-                <li>the team that they will not change priorities or constraints in the middle of a sprint without team’s consent </li>
-                <li>that being on a Scrum team will not hurt the members’ careers </li>
-                <li>not to divert team members to other work on a Scrum Day during a sprint </li>
-            </ul> |
-| Product Owner | <ul>                <li>to supply an initial product backlog </li>
-                <li>to prioritize the product backlog when needed </li>
-                <li>to be responsive to requests for feedback and clarification </li>
-                <li>empowered “voice of the customer” will be provided to answer business domain questions promptly (minutes or hours, not days) </li>
-                <li>to attend every Review, Retrospective </li>
-                <li>not to change priorities or scope during a sprint </li>
-                <li>not to direct team members to do work not agreed and planned at the beginning of the sprint </li>
-            </ul> |
-| Scrum Master | <ul>                <li>to keep the team healthy by focusing on the removal of impediments, both internal and external </li>
-                <li>to protect the team from external distractions </li>
-            </ul> |
-| The Team | <ul>                <li>that its work will be transparent, that it will make decisions and solve problems as a group, and that no individual team member will be left behind </li>
-                <li>to take prioritization and scope from the product owner on the team driving the team based on stakeholders interests </li>
-                <li>to use the stakeholders’ time wisely, by focusing on questions that are relevant to the work being done now </li>
-                <li>to do quality work the best way they know how within the constraints set forth by the organization </li>
-                <li>to deliver demonstrable product at the end of every sprint for review and validation by the stakeholders </li>
-                <li>to endeavor to become multi-skilled by sharing and pairing and not relying on experts on the team for specific functions </li>
-            </ul> |
-| Team Member | <ul>                <li>to bring issues, problems, impediments and realities encountered to the team </li>
-                <li>to be available and working with the team on every defined Scrum Day of a sprint in which they committed and any required absences will be scheduled before the beginning of the sprint </li>
-                <li>to attend every Scrum, Review, Retrospective &amp; Planning Meeting </li>
-                <li>to refer any external request that will take more than 15 minutes of Scrum Day time to the Scrum Master </li>
-            </ul> |
+| The Organization | - the team that there are stakeholders (including subject matter experts) who will help when needed <br> - the team that there are stakeholders (including subject matter experts) who will help when needed <br> - they will help the Scrum Master in the removal of impediments to the Scrum team’s progress <br> - the team that they will not change priorities or constraints in the middle of a sprint without team’s consent <br> - that being on a Scrum team will not hurt the members’ careers <br> - not to divert team members to other work on a Scrum Day during a sprint |
+| Product Owner | - to supply an initial product backlog <br> - to prioritize the product backlog when needed <br> - to be responsive to requests for feedback and clarification <br> - empowered “voice of the customer” will be provided to answer business domain questions promptly (minutes or hours, not days) <br> - to attend every Review, Retrospective <br> - not to change priorities or scope during a sprint <br> - not to direct team members to do work not agreed and planned at the beginning of the sprint |
+| Scrum Master | - to keep the team healthy by focusing on the removal of impediments, both internal and external <br> - to protect the team from external distractions |
+| The Team | - that its work will be transparent, that it will make decisions and solve problems as a group, and that no individual team member will be left behind <br> - to take prioritization and scope from the product owner on the team driving the team based on stakeholders interests <br> - to use the stakeholders’ time wisely, by focusing on questions that are relevant to the work being done now <br> - to do quality work the best way they know how within the constraints set forth by the organization <br> - to deliver demonstrable product at the end of every sprint for review and validation by the stakeholders <br> - to endeavor to become multi-skilled by sharing and pairing and not relying on experts on the team for specific functions |
+| Team Member | - to bring issues, problems, impediments and realities encountered to the team <br> - to be available and working with the team on every defined Scrum Day of a sprint in which they committed and any required absences will be scheduled before the beginning of the sprint <br> - to attend every Scrum, Review, Retrospective &amp; Planning Meeting <br> - to refer any external request that will take more than 15 minutes of Scrum Day time to the Scrum Master |
