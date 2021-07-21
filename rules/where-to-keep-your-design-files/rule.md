@@ -16,7 +16,8 @@ related:
 - software-for-product-design
 - hand-over-mockups-to-developers
 - version-control-for-designers
-redirects: []
+redirects: 
+- do-you-know-the-best-source-control-for-designers
 
 ---
 
