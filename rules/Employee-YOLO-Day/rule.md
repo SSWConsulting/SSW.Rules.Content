@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you have a YOLO
-uri: Employee-YOLO-Day
+uri: Employee-YOLO
 authors:
   - title: Nicholas Viet
     url: https://www.ssw.com.au/people/nick-viet
