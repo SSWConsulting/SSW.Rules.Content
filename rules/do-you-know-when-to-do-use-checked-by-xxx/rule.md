@@ -1,15 +1,17 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know when to do use 'Checked by xxx'?
+title: Do you know use 'Checked by xxx'?
 guid: 1aedc867-366f-47d3-aae8-9ff6d74da7ba
-uri: do-you-know-when-to-do-use-checked-by-xxx
+uri: checked-by-xxx
 created: 2010-03-01T06:05:18.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/uly
 related:
 - do-you-send-as-per-our-conversation-emails
 - do-you-conduct-a-test-please-internally-and-then-with-the-client
