@@ -1,14 +1,14 @@
 ---
 type: rule
-title: Do you have a YOLO
+title: Do you have a
 uri: Employee-YOLO
+guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 authors:
   - title: Nicholas Viet
     url: https://www.ssw.com.au/people/nick-viet
 related: null
 created: 2021-06-11T00:42:36.577Z
 archivedreason: null
-guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 ---
 
 
