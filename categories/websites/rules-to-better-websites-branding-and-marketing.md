@@ -11,7 +11,7 @@ index:
 - do-you-ensure-that-your-contact-details-easy-to-find
 - do-you-gather-more-personal-information-progressively
 - do-you-go-for-minimal-design
-- do-you-have-the-ability-for-users-to-give-you-free-feedback-and-report-bugs-on-every-page
+- give-feedback-report-bugs-link
 - how-to-collect-more-email-addresses
 - do-you-know-the-right-format-to-show-your-phone-number
 - do-you-organize-your-product-information-on-your-website-appropriately
