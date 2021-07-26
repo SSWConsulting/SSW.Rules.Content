@@ -17,7 +17,7 @@ index:
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 - do-you-follow-up-emails-effectively
-- do-you-know-when-to-do-use-checked-by-xxx
+- checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
 - do-you-seek-clarification-via-the-telephone-first
 - dones-do-your-dones-include-a-url
