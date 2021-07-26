@@ -14,7 +14,8 @@ authors:
   url: https://ssw.com.au/people/uly
 related: 
 - do-you-realize-the-importance-of-a-good-email-subject
-redirects: []
+redirects: 
+- do-you-know-when-you-should-change-a-subject
 
 ---
 
@@ -27,7 +28,7 @@ The answer is "cautiously" and early on before there are many replies. The reaso
 
 * A: When the original email theme has been superseded by new content.   
   At that point change the email subject to a more relevant description of the content of the thread.
-  E.g. From  
+  E.g. From   
   **"Field of Study"** 
   To   
   **"Next Years Conference WAS: Field of Study"**
