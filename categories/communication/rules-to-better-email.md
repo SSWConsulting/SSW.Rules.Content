@@ -33,7 +33,7 @@ index:
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
-- do-you-know-when-you-should-change-a-subject
+- change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
