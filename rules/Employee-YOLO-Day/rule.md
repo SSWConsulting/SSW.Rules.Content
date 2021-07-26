@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a
+title: Do you have
 uri: Employee-YOLO
 guid: 4ad940da-a2cf-4082-b2ed-81ab2818502c
 authors:
