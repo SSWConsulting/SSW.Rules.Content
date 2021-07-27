@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Appointments - Do you know to throw it in their calendar?
 guid: b30998f3-6981-465b-a5ca-53c9e3294033
-uri: apointments-throw-it-in-their-calendar
+uri: appointments-throw-it-in-their-calendar
 created: 2021-07-20T06:35:55.0000000Z
 authors: 
 - title: Marni Lefebvre
@@ -20,5 +20,3 @@ You have a high chance of it sticking. That said, make sure you soften the appoi
 
 
 <!--endintro-->
-
-  
