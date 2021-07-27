@@ -14,7 +14,6 @@ created: 2013-06-03T20:04:21.000Z
 archivedreason: null
 guid: 6fe6f616-5f01-4b6f-bd42-5b2bf6a06279
 ---
-
 The client is generally the Product Owner (PO). They should read the Scrum Guide and watch the Product Owner video to understand their role. It is so important to the success of their project:
 
 <!--endintro-->
