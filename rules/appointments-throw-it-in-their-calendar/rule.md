@@ -11,12 +11,12 @@ url: https://ssw.com.au/people/marni-lefebvre
 related:
 
 ---
-     Do you know to throw it in their calendar?
+Do you know to throw it in their calendar?
+
+The lowest chance of getting an appointment is to ask.
      
-     The lowest chance of getting an appointment is to ask.
-     
-     The best way to get an appointment with someone, is just throw an appointment their way. No asking for the right time. You will be amazed at your success rate.
-     You have a high chance of it sticking. That said, make sure you soften the appointment with a line such as “if there is better time for you, let me know”
+The best way to get an appointment with someone, is just throw an appointment their way. No asking for the right time. You will be amazed at your success rate.
+You have a high chance of it sticking. That said, make sure you soften the appointment with a line such as “if there is better time for you, let me know”
 
 
 <!--endintro-->
