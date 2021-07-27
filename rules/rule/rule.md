@@ -1,19 +1,19 @@
 ---
 type: rule
-archivedreason:
 title: Example Rule + Markdown Cheatsheet
-guid: 55db32aa-0718-4868-995c-673d8dd69f62
 uri: rule
-created: 2021-01-20T05:06:33.0000000Z
 authors:
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
-- title: Sebastien Boissiere
-  url: https://ssw.com.au/people/sebastien-boissiere
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
+  - title: Sebastien Boissiere
+    url: https://ssw.com.au/people/sebastien-boissiere
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- do-you-understand-the-value-of-consistency
+  - do-you-understand-the-value-of-consistency
+created: 2021-01-20T05:06:33.000Z
+archivedreason: null
+guid: 55db32aa-0718-4868-995c-673d8dd69f62
 ---
 
 This is an example rule to show you what is possible for a rule. 
@@ -91,6 +91,10 @@ This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt
 
 ::: china  
 This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+:::
+
+::: codeauditor
+This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 :::
 
 ::: todo  
