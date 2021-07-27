@@ -20,47 +20,11 @@ related:
 - Check framing as per: [ssw.com.au/rules/production-do-you-know-the-correct-way-to-frame-your-subject](https://www.ssw.com.au/rules/production-do-you-know-the-correct-way-to-frame-your-subject) 
 - Check lighting as per: [ssw.com.au/rules/have-good-lighting-on-your-home-office](https://www.ssw.com.au/rules/have-good-lighting-on-your-home-office)
 
-::: codeauditor
+Most people don’t manage their inbox effectively. Emails should be treated as a list to do. As you complete a task you can just delete the email.
 
-This is a CodeAuditor box
+Your inbox should only contain 'tasks', that are actionable items on your list of things to do . Everything that is in your 'Inbox' (including sub-folders) should only be to-do items.
 
-:::
-
-::: codeauditor
-
-This is a CodeAuditor box with lots of info. 
-
-:::
-
-::: info
-
-This is an info box
-
-:::
-
-::: greybox
-
-This is a greybox
-
-:::
-
-::: highlight
-
-This is highlighted
-
-:::
-
-::: china
-
-This is a China box
-
-:::
-
-::: todo
-
-This is a todo box
-
-:::
+So do it now, delete all emails you have done. If you want to keep some for reference, move them to a new folder that is not in your inbox.
 
 When building APIs one of the challenges is in how to document the API for other developers to consume.  
 **Figure: Figure on next line of text**
