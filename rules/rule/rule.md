@@ -56,6 +56,15 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 ### Boxes
 
+::: codeauditor
+This is a &lt;codeauditor&gt; using the class "codeauditor" with a &lt;div&gt; and no &lt;p&gt; inside - Only text straight in the div. <mark>These words</mark> are surrounded by a &lt;mark&gt;
+:::
+
+::: codeauditor
+This is a &lt;codeauditor&gt; using the
+:::
+
+
 ::: greybox  
 This is a &lt;figure&gt; using the class "greybox" with a &lt;div&gt; and no &lt;p&gt; inside - Only text straight in the div. <mark>These words</mark> are surrounded by a &lt;mark&gt;.  
 :::
