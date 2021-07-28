@@ -5,6 +5,7 @@ uri: appointments-throw-it-in-their-calendar
 authors:
   - title: Marni Lefebvre
     url: https://ssw.com.au/people/marni-lefebvre
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Marni-Lefebvre/Images/Bio/Marni-Lefebvre-Square.jpg
 related: null
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
