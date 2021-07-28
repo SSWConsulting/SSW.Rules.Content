@@ -27,7 +27,7 @@ The most important things to focus on are:
 If any of these are not right, you will probably need to record again!
 
 
-### Tips to simplify the process: ###
+### Tips to simplify the process:
 
 1. The interviewer should hold the camera and interview the subject at the same time.
 2. Keep a tight frame - don’t have lots of empty space around the subject.
