@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you ensure that your contact details easy to find?
+title: Do you ensure that your contact details are easy to find?
 guid: f9cc6fe2-9fe6-461c-a781-f15149748e99
-uri: do-you-ensure-that-your-contact-details-easy-to-find
+uri: ensure-that-your-contact-details-are-easy-to-find
 created: 2015-02-13T01:08:16.0000000Z
 authors: []
 related: []
