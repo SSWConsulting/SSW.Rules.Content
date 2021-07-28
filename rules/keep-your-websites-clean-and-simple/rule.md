@@ -7,7 +7,8 @@ uri: keep-your-websites-clean-and-simple
 created: 2015-02-13T01:31:56.0000000Z
 authors: []
 related: []
-redirects: []
+redirects:
+- do-you-go-for-minimal-design
 
 ---
 
