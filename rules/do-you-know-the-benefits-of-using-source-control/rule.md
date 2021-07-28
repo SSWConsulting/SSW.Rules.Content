@@ -15,7 +15,7 @@ redirects: []
 
 Source control is the backup of your code, as well as your change history to track changes. 
 
-With the source control (we use TFS), we can share project code and cooperate with other team members. Using it allows us to track changes, compare code, and even roll-back if required. Moreover, it keeps our code safe that is the most important.   
+With the source control, we can share project code and cooperate with other team members. Using it allows us to track changes, compare code, and even roll-back if required. Moreover, it keeps our code safe that is the most important.   
  
 <!--endintro-->
 
