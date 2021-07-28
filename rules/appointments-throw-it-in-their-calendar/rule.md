@@ -20,11 +20,11 @@ It is a good idea to send the appointment a few weeks out, it is less confrontin
 
 The obvious caveat is that you shouldn't send meeting requests to people who have no idea who you are, that's just spam in a different vehicle. 
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Adam Cogan |
-| Subject: | Intro to SSW - Marni |\
+| Subject: | Intro to SSW - Marni |
 ::: email-content  
 
 ### Hi Adam,
@@ -43,11 +43,11 @@ Marni Lefebvre
 Figure: Bad example - Leaving the ball in their court
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Adam Cogan |
-| Subject: | Intro to SSW - Marni |\
+| Subject: | Intro to SSW - Marni |
 ::: email-content  
 
 ### Hi Adam,
@@ -60,7 +60,7 @@ Best,
 
 Marni Lefebvre 
 
-:::\
+:::
 :::  
 
 ::: good
