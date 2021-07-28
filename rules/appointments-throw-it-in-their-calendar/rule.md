@@ -36,9 +36,7 @@ Best,
 
 Marni Lefebvre 
 
-
-
-:::   
+:::
 :::
 ::: bad
 Figure: Bad example - Leaving the ball in their court
@@ -61,8 +59,6 @@ Best,
 
 Marni Lefebvre 
 
-
-
 :::   
 :::  
 
