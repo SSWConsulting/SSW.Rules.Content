@@ -12,11 +12,17 @@ guid: b30998f3-6981-465b-a5ca-53c9e3294033
 ---
 
 
-One of the least successful ways to get an appointment is to ask for one.
+One of the least successful ways to get an appointment is to ask for one. The reason is that by asking for a meeting, you're creating hurdles. A hurdle for you to look at your calendar for available times, a hurdle for them to look at their calendar, a hurdle to reply to the email. And then there is the obstacle that arises when their proposed time conflicts with something you're doing, and the process begins again. Even for people who don't have busy calendars, these meetings often don't happen because they slip down the inbox.
+
 
 <!--endintro-->
 
-The better way to get an appointment with someone is to throw an appointment their way. You have a higher chance of it sticking if it appears in their calendar. You will be amazed at your success rate. That said, make sure you soften the appointment with the following (or similar) “if there is a better time for you, let me know”.
+The better way to get an appointment with someone is to throw an appointment their way. You have a higher chance of it sticking if it appears in their calendar. You will be amazed at your success rate. That said, make sure you soften the appointment with something like “if there is a better time for you, let me know”.
+
+It is a good idea to send the appointment a few weeks out, it is less confronting and less demanding than finding a meeting in your calendar for the next day (or the same week).
+
+The obvious caveat is that you shouldn't send meeting requests to people who have no idea who you are, that's just spam in a different vehicle. 
+
 
 
 ::: email-template  
