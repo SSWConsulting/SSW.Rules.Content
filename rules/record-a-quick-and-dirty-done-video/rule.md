@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Barry Sanders
     url: https://ssw.com.au/people/barry-sanders
+  - title: Landon Maxwell
+    url: https://www.ssw.com.au/people/landon-maxwell
 related: []
 redirects:
   - do-you-know-how-to-record-a-quick-and-dirty-done-video
@@ -40,42 +42,35 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 
-**Figure: How to make a 'Done Video'** 
-\*\*
-\*\*\
-\*\*
-\*\*  
+**Figure: How to make a 'Done Video'.** 
 
-**For a great 'Done Video' here are the key things to remember:**
- 
 
-* Start with “Hi everyone, today I would like to show you xxxx”
-* Don't just demonstrate your new feature, start by showing the problem you are solving and the pain of why you needed to add the feature
-* Record it in one take. It doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again.
-* It's supposed to be quick and easy to make. If you spend too much time, you will be less likely to want to do it again in the future.
-* Be quick and concise, you don't want to waste other peoples' time either!
-* In your browser, remember to hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view. 
-                  
 
-See Rule: [Do you make sure your screen recordings are easy to view?](/easy-to-view-screen-recordings)
+### For a great 'Done Video' here are the key things to remember: ###
 
-* In your browser, such as Chrome then you should first zoom to 125% ideally. 
-                  
+* Introduce the video - start with “Hi everyone, today I would like to show you xxxx”.
+* Show the pain - don't just demonstrate your new feature, start by showing the problem you are solving and why you needed to add the feature.
+* Record it in one take - it doesn't matter if you stuff up or something goes wrong, treat it like you're having a conversation with them in the room. If it's super bad, just start again.
+* Make it quick and easy - if you spend too much time, you will be less likely to want to do it again in the future.
+* Be quick and concise - you don't want to waste other peoples' time either!
+* Use a clean browser - hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view. 
+   * **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies.
+* Set your screen resolution to 1080p (1920x1080) - higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view.                  
+* Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](https://www.ssw.com.au/rules/easy-to-view-screen-recordings)
 
-See Rule: [Do you always zoom in when using a projector?](/meetings-do-you-always-zoom-in-when-using-a-projector) (or in this case before the recording a 'Done' video)
 
-* Set your screen resolution to 1080p (1920x1080). Higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view.
-* Use Camtasia to record your screen and webcam (PC and Mac). For Mac you can use Quicktime but it’s not as flexible.
-* Don't edit the video, just include your face at the beginning and end, using the fading functionality.
-  **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
-* Do not use headphone and mic combo sets as these are not as good as your webcam's microphone
-* **Remember** : smile at the beginning and end of the video!
+* Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible.
+* Don't edit the video - your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP).
+  * **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
+* Check your audio devices - if you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality.
+   * **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio.
+* Interact with your webcam like it's a person - look into the camera and smile when doing your introduction and closing for the video!
+<br>
 
-  ```
-  **Tip:** Some offices have a professional setup.
-  ```
 
-  E.g. SSW have the                  **Marantz Turret** hardware and desktop recording kit. The Turret is an ideal device to record these videos as it has a professional podcasting microphone, built-in light and good quality High Definition video camera.
+**Tip:** Some offices have a professional setup:
+
+  E.g. SSW have the **Marantz Turret** hardware and desktop recording kit. The Turret is an ideal device to record these videos as it has a professional podcasting microphone, built-in light and good quality High Definition video camera.
 
 ![Figure: 'Done' video in progress using a Marantz turret broadcasting kit](turret-usage.jpg)\
 Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](https://wistia.com/learn/production/marantz-turret-review?wvideo=whmpjct7xj)    
@@ -125,8 +120,6 @@ Follow the steps to export your video:
 ![](export-video1.png)
 
 ```
-
-
 2. In the new dialog, select custom production settings 
                  
 ```
@@ -134,8 +127,6 @@ Follow the steps to export your video:
 ![](export-video2.png)
 
 ```
-
-
 3. In the next window, uncheck the ‘Produce with controller’ option 
                  
 ```
@@ -143,8 +134,6 @@ Follow the steps to export your video:
 ![](export-video3.png)
 
 ```
-
-
 4. In the ‘Video settings’ tab, copy these settings:
 ```
 
@@ -157,8 +146,6 @@ Follow the steps to export your video:
 ![Figure: Copy these settings](export-video4.png)
 
 ```
-
-
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
                  
 ```
@@ -166,8 +153,6 @@ Follow the steps to export your video:
 ![](export-video5.png)
 
 ```
-
-
 6. Click Next and save your file!
 ```
 
