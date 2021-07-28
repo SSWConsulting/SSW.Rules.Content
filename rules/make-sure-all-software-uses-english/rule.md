@@ -160,21 +160,33 @@ Figure: If you do not have the English version. In Microsoft Office open the ric
 ### How to fix on Office 365 (https://outlook.office365.com)
 
 
-![](screenshot.png)**Figure: If you have the Inbox, Sent Items etc in Chinese then you will need to follow these steps
+1. Go to https://outlook.office.com  
 
-** 1. Go to https://outlook.office.com
-   2. Click on "My profile" in the top right corner
-![](screenshot-step1.png)
- ** Figure: Choose 'My profile' ** ** 
- ** 3. Click on "setting" button
-![](screenshot-step2.png) ** Figure: Choose 'Mail' ** ** 
- ** 4. Click on Region and time zone
-![](screenshot-step3.png) **Figure: Choose Region and Time. Then when you change the ‘Language’ with the checkbox enabled, the problem will be fixed.
+![Figure: If you have the Inbox, Sent Items etc in Chinese then you will need to follow these steps](screenshot.png)  
 
-** 5.In Windows10, Go to Settings| Language| Windows display language, click Windows display language and search for English.
-    6. Done. You have changed your language to English. Congratulations!~
-![](screenshot-finished.png) ** Figure: After completing the fix. 
-**
+2. Click on "My profile" in the top right corner  
+
+![Figure: Choose 'My profile'](screenshot-step1.png)  
+
+3. Click on "setting" button  
+
+![Figure: Choose 'Mail'](screenshot-step2.png)  
+
+4. Click on Region and time zone  
+
+![Figure: Choose Region and Time. Then when you change the ‘Language’ with the checkbox enabled, the problem will be fixed.](screenshot-step3.png)  
+
+5. In Windows 10, Go to Settings | Language | Windows display language, click Windows display language and search for English.  
+
+![Figure: Set windows display language to English](LanguageSettingForWin10.png)  
+
+6. Go to Settings | Language | Region, click Regional format and select “English (United States)”.    
+
+![Figure: Set regional format to English](RegionalFormatSettingForWin10.png)  
+
+7. Done. You have changed your language to English. Congratulations!~  
+
+![Figure: After completing the fix.](screenshot-finished.png)  
 
 ### Microsoft Teams 
 
