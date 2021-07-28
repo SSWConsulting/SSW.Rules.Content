@@ -7,7 +7,8 @@ uri: ensure-that-your-contact-details-are-easy-to-find
 created: 2015-02-13T01:08:16.0000000Z
 authors: []
 related: []
-redirects: []
+redirects:
+- do-you-ensure-that-your-contact-details-easy-to-find
 
 ---
 
