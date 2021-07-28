@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you go for Minimal Design?
+title: Do you keep your websites clean and simple?
 guid: e5eabfc9-22eb-4ad9-bb28-c1b0167da2db
-uri: do-you-go-for-minimal-design
+uri: keep-your-websites-clean-and-simple
 created: 2015-02-13T01:31:56.0000000Z
 authors: []
 related: []
