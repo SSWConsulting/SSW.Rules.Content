@@ -10,10 +10,7 @@ created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: b30998f3-6981-465b-a5ca-53c9e3294033
 ---
-
-
 One of the least successful ways to get an appointment is to ask for one. The reason is that by asking for a meeting, you're creating hurdles. A hurdle for you to look at your calendar for available times, a hurdle for them to look at their calendar, a hurdle to reply to the email. And then there is the obstacle that arises when their proposed time conflicts with something you're doing, and the process begins again. Even for people who don't have busy calendars, these meetings often don't happen because they slip down the inbox.
-
 
 <!--endintro-->
 
@@ -23,17 +20,15 @@ It is a good idea to send the appointment a few weeks out, it is less confrontin
 
 The obvious caveat is that you shouldn't send meeting requests to people who have no idea who you are, that's just spam in a different vehicle. 
 
-
-
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Adam Cogan |
-| Cc:      |  |
-| Bcc:     |  |
-| Subject: | Intro to SSW - Marni |  
+| Subject: | Intro to SSW - Marni |
 ::: email-content  
-### Hi Adam,  
+
+### Hi Adam,
+
 Great to e-meet you. I would love to talk to you and hear your thoughts on where the industry is headed.
 
 Please let me know when you are available, and I will set up an appointment.
@@ -48,15 +43,15 @@ Marni Lefebvre
 Figure: Bad example - Leaving the ball in their court
 :::
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Adam Cogan |
-| Cc:      |  |
-| Bcc:     |  |
-| Subject: | Intro to SSW - Marni |  
+| Subject: | Intro to SSW - Marni |
 ::: email-content  
-### Hi Adam,  
+
+### Hi Adam,
+
 Great to e-meet you. I would love to talk to you and hear your thoughts on where the industry is headed.
 
 I have sent through a Teams meeting to catch up early next week. If the timing doesn’t work, let me know and I’ll update the appointment.
@@ -65,7 +60,7 @@ Best,
 
 Marni Lefebvre 
 
-:::   
+:::
 :::  
 
 ::: good
