@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason:
-title: Do you run effective meetings?
+title: Do you know the 3 criteria that make a good meeting?
 guid: 7eb5ed64-e599-4575-9a5f-e5c963e82ba2
-uri: run-effective-meetings
+uri: the-3-criteria-that-make-a-good-meeting
 created: 2021-07-20T06:35:55.0000000Z
 authors: 
 - title: Uly Maclaren 
@@ -12,7 +12,7 @@ related:
 
 ---
 
-Do you know how to run effective meetings? Here are 7 helpful steps.
+Do you know how to run effective meetings?
 
 <!--endintro-->
 
