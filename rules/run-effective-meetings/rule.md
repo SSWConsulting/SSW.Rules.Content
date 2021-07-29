@@ -1,10 +1,10 @@
 ---
 type: rule
 archivedreason:
-title: {title}
-guid: {guid}
+title: Do you run effective meetings?
+guid: 7eb5ed64-e599-4575-9a5f-e5c963e82ba2
 uri: run-effective-meetings
-created: {date_created}
+created: 2021-07-20T06:35:55.0000000Z
 authors: 
 - title: Uly Maclaren 
   url: https://ssw.com.au/people/uly
