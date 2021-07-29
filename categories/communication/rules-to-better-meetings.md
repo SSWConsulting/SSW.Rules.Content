@@ -16,7 +16,7 @@ index:
 
 ---
 
-Office meetings often are ineffective, because:
+Office meetings are often ineffective, because:
 
 ❌ People are not prepared  
 ❌ There is a lot of discussion but no resulting "action items"  
