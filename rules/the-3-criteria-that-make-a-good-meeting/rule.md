@@ -12,13 +12,13 @@ related:
 
 ---
 
-Meetings are not necessarily traps to lure the work force into complacency while enabling managers to appear busy. 
+Meetings can be good for the few and unproductive for the many.
 
-A meeting can be useful (or even good) if it meets these three criteria: 
-* You know what you’re going to do in it (link)
-* You do the thing (link)
-* At the end, somebody reports out: ‘OK, we’re all going to do these things going forward.’ (link)
+A meeting can be useful  if it meets these three criteria: 
 
 <!--endintro-->
 
-
+* [You know what you're going to do in it](/share-the-agenda)
+* [You do the thing](/stick-to-the-agenda-and-complete-the-meetings-goal)
+* At the end, somebody [emails the summary reports out](/share-the-action-items-that-came-up):  
+  _‘OK, we’re all going to do these things going forward.’_ 
