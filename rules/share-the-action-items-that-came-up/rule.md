@@ -21,4 +21,4 @@ Common action items include:
 * The outcomes from agenda points marked as “for decision”
 * [Off topics that require more discussion](/keep-track-of-a-parking-lot-for-topics) by subsets of the meeting’s attendees – aka a “parking lot”
 * Ad hoc tasks that come up from brainstorming
-* A date scheduled for the next meeting (fi needed)
+* A date scheduled for the next meeting (if needed)
