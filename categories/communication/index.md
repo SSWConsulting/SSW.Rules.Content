@@ -6,6 +6,7 @@ index:
 - rules-to-better-communication
 - rules-to-better-giving-and-taking-feedback
 - rules-to-better-email
+- rules-to-better-meetings
 - rules-to-better-calendars
 - rules-to-better-inbox-management
 - rules-to-better-outlook
