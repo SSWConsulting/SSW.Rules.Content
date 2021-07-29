@@ -12,10 +12,10 @@ related:
 
 ---
 
-Make sure that you cover as much of the agenda as possible within the timebox, ad keep other topics to a minimum.
+Keeping to your meeting’s timebox shows that you respect your attendees, and allows for you and them to be efficient and able to plan their days effectively. One meeting going over by 30 minutes can have knock on effects for the rest of the day, and a culture of this will create that feeling of “meeting dread” that can be so common.
 
-When you identify topics that do need to be hashed out, but that don’t need to be covered in this meeting, keep track of them in a “parking lot”.
+Always start your meetings on time. Especially for meetings that are regular, as it will teach your attendees that they need to be there from the start, and they will not be waited for.
 
-This could be a quick message or email to the people involved, and could be sent by the meeting facilitator, or one of those people. In a tech free meeting, just keep a notepad with the topics and people involved.
+You can still have a few minutes of informal conversation at the beginning and end of each meeting, but don’t let it get out of hand
 
 <!--endintro-->
