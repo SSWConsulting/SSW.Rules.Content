@@ -27160,5 +27160,14 @@
 		"lastUpdated": "2021-07-27T22:54:25.077Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/only-invite-the-minimum-number-of-people-possible/rule.md",
+		"created": "2021-07-29T17:19:13.831Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-29T17:19:13.831Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
