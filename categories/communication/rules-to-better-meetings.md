@@ -15,3 +15,16 @@ index:
 - keep-track-of-a-parking-lot-for-topics
 
 ---
+
+Office meetings often are ineffective, because:
+
+❌ People are not prepared
+❌ There is a lot of discussion but no resulting "action items"
+❌ Rat holes - Time is wasted digressing to unrelated topics
+❌ People forget the meeting is on and do not attend
+❌ People turn up late with no notice
+❌ Meetings go well overtime
+
+If you have a 1-hour meeting with 5 people in attendance, you're not just wasting 1 hour if it's not productive, your wasting 5 man hours. One hour for each attendee. That's a lot of man hours!
+
+With this in mind, here are some rules on how to facilitate a great meeting and how to make sure they are productive and achieve an outcome.

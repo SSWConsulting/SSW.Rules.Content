@@ -14,9 +14,12 @@ related:
 
 The aim of most meetings should be to come up with next steps. These should be shared with the intended recipient, as well as CCing all other attendees.
 
-<!--endintro-->
+It is a good idea to have a scribe who is drafting the action points during the meeting. The leader should allow time after the meeting to be check the action points before their next meeting.
 
 Common action items include:
+
+<!--endintro-->
+
 *	The outcomes from agenda points marked as “for decision”
-*	Parking lot topics that require more discussion by subsets of the meeting’s attendees
+*	[Off topics that require more discussion](/keep-track-of-a-parking-lot-for-topics) by subsets of the meeting’s attendees – aka a “parking lot”
 *	Ad hoc tasks that come up from brainstorming
