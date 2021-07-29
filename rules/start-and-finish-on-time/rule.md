@@ -16,6 +16,6 @@ Always start your meetings on time. Especially for meetings that are regular, as
 
 <!--endintro-->
 
-You can still have a few minutes of informal conversation at the beginning and end of each meeting, but don’t let it get out of hand.
+You can (and should) still have a few minutes of informal conversation at the beginning and end of each meeting, but don’t let it get out of hand.
 
 ![](sonja-langford-eikbsc3sdti-unsplash.jpeg)
