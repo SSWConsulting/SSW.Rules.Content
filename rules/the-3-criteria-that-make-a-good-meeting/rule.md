@@ -6,7 +6,7 @@ guid: 7eb5ed64-e599-4575-9a5f-e5c963e82ba2
 uri: the-3-criteria-that-make-a-good-meeting
 created: 2021-07-20T06:35:55.0000000Z
 authors: 
-- title: Uly Maclaren 
+- title: Ulysses Maclaren
   url: https://ssw.com.au/people/uly
 related:
 
