@@ -33,3 +33,6 @@ Then the problem is later down the track... there is no record of the front end 
 These bad decision have enormous impacts on the growth of the business! 🔥
 
 `youtube: https://www.youtube.com/watch?v=5eXx67EY_y4`
+
+`youtube: https://www.youtube.com/watch?v=wLR0e48gou0`
+
