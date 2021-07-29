@@ -26896,9 +26896,9 @@
 		"created": "2021-07-02T06:45:36.025Z",
 		"createdBy": "Piers Sinclair [SSW]",
 		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
-		"lastUpdated": "2021-07-05T04:14:20.473Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-07-29T18:08:07.579Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/allow-multiple-options/storing-all-bad.png",
@@ -27167,6 +27167,51 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-07-29T17:48:30.397Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/stick-to-the-agenda-and-complete-the-meetings-goal/rule.md",
+		"created": "2021-07-29T17:55:26.790Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-29T17:55:26.790Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/share-the-action-items-that-came-up/rule.md",
+		"created": "2021-07-29T17:58:27.735Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-29T17:58:27.735Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/keep-track-of-a-parking-lot-for-topics/rule.md",
+		"created": "2021-07-29T18:05:41.937Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-29T18:05:41.937Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/share-the-agenda/rule.md",
+		"created": "2021-07-29T17:52:55.541Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-29T17:59:10.843Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+  },
+  {
+		"file": "rules/only-invite-the-minimum-number-of-people-possible/rule.md",
+		"created": "2021-07-29T17:19:13.831Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-07-29T17:19:13.831Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
