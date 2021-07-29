@@ -17,7 +17,9 @@ Any good meeting has a clear goal, and an agenda that breaks that goal up into i
 <!--endintro-->
 
 A few other ways to make the most of your time would be:
-* The early part of a meeting tends to be more lively and creative than the end of it, so if an item needs mental energy, bright ideas, and clear heads, it may be better to put it high up on the list
-* Some items unite the meeting in a common front while others divide the member one from another. The leader may want to start with unity before entering into division, or they may prefer the other way around. The point is to be aware of the choice and to make it consciously. It is almost always a good idea to find a unifying item with which to end the meeting.
-* Don’t get side-tracked for too long by urgent, but not important, items. Keep this topics timeboxed.
-* If your meeting is more than an hour or two, consider adding a break.
+* The early part of a meeting tends to be more lively and creative than the end of it, so if an item needs mental energy, bright ideas, and clear heads, put it high up on the list
+* Start with the low hanging fruit so you get some decisions made
+* Keep the important topics closer to the front, than the end
+* Some items unite the meeting while others divide the members. The leader may want to start with unity before entering into division, or they may prefer the other way around. The point is to be aware of the choice and to make it consciously. It is always a good idea to end the meeting on a unifying item
+* Don’t get side-tracked for too long by urgent, but not important, items. Keep not-important topics timeboxed
+* If your meeting is more than an hour or two, consider adding a break
