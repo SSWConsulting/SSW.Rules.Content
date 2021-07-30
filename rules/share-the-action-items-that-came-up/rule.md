@@ -14,6 +14,8 @@ The aim of most meetings should be to come up with next steps. These should be s
 
 It is a good idea to have a scribe who is drafting the action points during the meeting. The leader should allow time after the meeting to check the action points before their next meeting.
 
+The scribe should also document the decision-making process by writing down each person's arguments. After everyone comments on the options, the notes can be reviewed as a group and often the best course of action is clear. 
+
 Common action items include:
 
 <!--endintro-->
