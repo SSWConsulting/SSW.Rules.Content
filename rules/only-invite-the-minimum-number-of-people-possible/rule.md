@@ -10,6 +10,7 @@ created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: c653c84b-2171-466a-862d-36306756c85e
 ---
+
 Bloating a meeting with unnecessary numbers is the #1 way that a meeting can be doomed... before it starts. Any meeting with more than 10 people is destined to have people attend but who do not participate or contribute. Aim to keep it to 6 or fewer.
 
 <!--endintro-->
