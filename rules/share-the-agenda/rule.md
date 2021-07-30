@@ -27,3 +27,4 @@ Before a meeting, to give it the best chance of success, you should make sure yo
   E.g. For SSW they have a '[AV Setup Teams Meetings](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)'.
 * For attendees, if you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving.
 
+![](meeting-agenda.png)

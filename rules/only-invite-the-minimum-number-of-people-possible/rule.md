@@ -18,6 +18,6 @@ A few ways to do this are to:
 
 1. Analyse the agenda to see whether everyone has to be present for every item (you may be able to structure the agenda so that some people can leave at half time and others can arrive) 
 2. Split it into two separate, smaller meetings rather than one big one
-3. Determine whether one or two groups can be asked to thrash some of the topics out in advance so that only one of them needs to come in with its proposals
+3. Determine whether one or two groups can be asked to thrash some of the topics out **in advance** so that only one of them needs to come in with its proposals
 
 ![](lots-of-people-meeting.jpg)
