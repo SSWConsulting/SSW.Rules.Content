@@ -17,7 +17,7 @@ index:
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 - do-you-follow-up-emails-effectively
-- do-you-know-when-to-do-use-checked-by-xxx
+- checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
 - do-you-seek-clarification-via-the-telephone-first
 - dones-do-your-dones-include-a-url
@@ -33,7 +33,7 @@ index:
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
-- do-you-know-when-you-should-change-a-subject
+- change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions

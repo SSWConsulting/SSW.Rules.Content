@@ -8,10 +8,10 @@ index:
 - do-you-avoid-under-construction
 - do-you-avoid-using-a-counter
 - do-you-do-a-critique-of-competitors-websites
-- do-you-ensure-that-your-contact-details-easy-to-find
+- ensure-that-your-contact-details-are-easy-to-find
 - do-you-gather-more-personal-information-progressively
-- do-you-go-for-minimal-design
-- do-you-have-the-ability-for-users-to-give-you-free-feedback-and-report-bugs-on-every-page
+- keep-your-websites-clean-and-simple
+- give-feedback-report-bugs-link
 - how-to-collect-more-email-addresses
 - do-you-know-the-right-format-to-show-your-phone-number
 - do-you-organize-your-product-information-on-your-website-appropriately

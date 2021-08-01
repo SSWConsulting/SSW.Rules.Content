@@ -6,6 +6,7 @@ uri: rules-to-better-calendars
 index:
 - appointments-do-you-send-outlook-calendar-appointments-when-appropriate
 - create-appointments-as-soon-as-possible
+- appointments-throw-it-in-their-calendar
 - appointments-do-you-make-sure-your-appointment-has-a-clear-location-address
 - appointments-do-you-show-all-the-necessary-information-in-the-subject
 - appointments-do-you-explain-why-youve-deleted-or-modified-an-appointment
