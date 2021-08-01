@@ -1324,7 +1324,7 @@
 	},
 	{
 		"file": "rules/do-you-know-the-benefits-of-using-source-control/rule.md",
-		"lastUpdated": "2021-07-25T23:58:34.238Z",
+		"lastUpdated": "2021-08-01T23:22:39.843Z",
 		"lastUpdatedBy": "Taine Riley",
 		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com",
 		"created": "2011-11-18T14:52:22+11:00",
@@ -27295,5 +27295,59 @@
 		"lastUpdated": "2021-07-30T02:47:33.597Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-the-benefits-of-using-source-control/Annotate.jpg",
+		"created": "2021-08-01T23:22:39.844Z",
+		"createdBy": "Taine Riley",
+		"createdByEmail": "40375803+taineriley1@users.noreply.github.com",
+		"lastUpdated": "2021-08-01T23:22:39.844Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-the-benefits-of-using-source-control/AnnotateDetails.jpg",
+		"created": "2021-08-01T23:22:39.844Z",
+		"createdBy": "Taine Riley",
+		"createdByEmail": "40375803+taineriley1@users.noreply.github.com",
+		"lastUpdated": "2021-08-01T23:22:39.844Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-the-benefits-of-using-source-control/AnnotatedFile.jpg",
+		"created": "2021-08-01T23:22:39.844Z",
+		"createdBy": "Taine Riley",
+		"createdByEmail": "40375803+taineriley1@users.noreply.github.com",
+		"lastUpdated": "2021-08-01T23:22:39.844Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-the-benefits-of-using-source-control/Changesets.jpg",
+		"created": "2021-08-01T23:22:39.844Z",
+		"createdBy": "Taine Riley",
+		"createdByEmail": "40375803+taineriley1@users.noreply.github.com",
+		"lastUpdated": "2021-08-01T23:22:39.844Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-the-benefits-of-using-source-control/CompareFileChanges.jpg",
+		"created": "2021-08-01T23:22:39.844Z",
+		"createdBy": "Taine Riley",
+		"createdByEmail": "40375803+taineriley1@users.noreply.github.com",
+		"lastUpdated": "2021-08-01T23:22:39.844Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-the-benefits-of-using-source-control/FileChanges.jpg",
+		"created": "2021-08-01T23:22:39.845Z",
+		"createdBy": "Taine Riley",
+		"createdByEmail": "40375803+taineriley1@users.noreply.github.com",
+		"lastUpdated": "2021-08-01T23:22:39.845Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
 	}
 ]
