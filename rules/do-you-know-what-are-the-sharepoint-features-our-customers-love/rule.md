@@ -5,6 +5,8 @@ uri: do-you-know-what-are-the-sharepoint-features-our-customers-love
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
 related: []
 redirects:
   - do-you-know-what-are-the-sharepoint-features-customers-love
