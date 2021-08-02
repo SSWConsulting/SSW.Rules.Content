@@ -13,7 +13,7 @@ archivedreason: null
 guid: 9af903d8-8377-44c3-ba98-d6fc2ba9276d
 ---
 
-Often you will want to quickly find a file on your computer or local network. With the advancement in built in search functionality on the latest operating systems this is easy to do and can help you quickly and easily find your local files or network file locations.
+Often you will want to quickly find a file on your computer or local network. With the advancement in built-in search functionality on the latest operating systems this is easy to do and can help you quickly and easily find your local files or network file locations.
 
 <!--endintro-->
 
@@ -22,4 +22,4 @@ If you are using Windows, desktop search is integrated within the operating syst
 
 If you are using a Mac, **Spotlight Search** 🔎 is located on the top-right corner or **Finder**.
 
-If you are using Office 365 (Teams, Delve, OneDrive, Dynamics) you can use [SharePoint search](https://www.ssw.com.au/rules/do-you-know-what-are-the-sharepoint-features-our-customers-love) to easily find your documents, profiles, and web pages.
+If you are using Office 365 (Teams, Delve, OneDrive, Dynamics) you can use [SharePoint Search](https://www.ssw.com.au/rules/do-you-know-what-are-the-sharepoint-features-our-customers-love) to easily find your documents, profiles, and web pages.
