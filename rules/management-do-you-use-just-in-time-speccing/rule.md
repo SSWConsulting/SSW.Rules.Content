@@ -1,20 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Management - Do you use Just-In-Time speccing?
-guid: 2b7faccc-3b40-49cc-b99f-83dd4c3df0a1
 uri: management-do-you-use-just-in-time-speccing
-created: 2009-02-28T09:45:07.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
 related: []
-redirects: 
-- management-do-you-spec-in-bite-sized-pieces
-
+redirects:
+  - management-do-you-spec-in-bite-sized-pieces
+created: 2009-02-28T09:45:07.000Z
+archivedreason: null
+guid: 2b7faccc-3b40-49cc-b99f-83dd4c3df0a1
 ---
+<style>
+span{
+float:right;
+margin:10px;
+}
+</style>
 
 The first problem with specs is that nobody writes them. Joel Spolsky says:
 
@@ -31,7 +36,7 @@ After a long phase of planning and speccing, hand-offs between stages of a proje
 * [Awesome Documentation](/awesome-documentation).
 * Limited [Technical Debt](/technical-debt).
 
-![Figure: Just-In-Time speccing in an agile Scrum project can handle evolving requirements](jit-speccing.png)
+<span>![Figure: Just-In-Time speccing in an agile Scrum project can handle evolving requirements](jit-speccing.png)</span>
 
 The most popular and most successful way to deliver projects is using a framework called Scrum. In Scrum, you fix the timeframe and the cost so the only variance is in the features that are delivered in that time. You should keep your time to between 2 and 4 weeks and all your team members should be full time, thus fixing the costs.
 
