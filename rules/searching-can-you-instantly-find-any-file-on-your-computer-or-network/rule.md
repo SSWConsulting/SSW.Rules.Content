@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Searching - Do you know how to instantly find any file on your computer
-  or network?
+title: Searching - Do you know how to instantly find any file on your computer or network?
 uri: searching-can-you-instantly-find-any-file-on-your-computer-or-network
 authors:
   - title: Adam Cogan
