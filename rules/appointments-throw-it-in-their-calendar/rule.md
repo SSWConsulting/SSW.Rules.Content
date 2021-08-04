@@ -5,10 +5,10 @@ uri: appointments-throw-it-in-their-calendar
 authors:
   - url: https://www.ssw.com.au/people/adam-cogan
     title: Adam Cogan
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Adam-Cogan/Images/Adam-Cogan-Profile.jpg
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Adam-Cogan/Images/Adam-Cogan-Profile.jpg
   - title: Uly Maclaren
     url: https://www.ssw.com.au/people/uly
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Ulysses-Maclaren/Images/Ulysses-Maclaren-Profile.jpg
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Ulysses-Maclaren/Images/Ulysses-Maclaren-Profile.jpg
   - title: Marni Lefebvre
     url: https://ssw.com.au/people/marni-lefebvre
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Marni-Lefebvre/Images/Bio/Marni-Lefebvre-Square.jpg
