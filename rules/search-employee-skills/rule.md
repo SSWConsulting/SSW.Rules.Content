@@ -26,7 +26,7 @@ The beauty of this is that if everyone has updated their skills, it is wonderful
  
 ![Figure: SharePoint People Search – Notice the Skills coming from UserProfile Service (aka UPS)](extending-ad-1.png)
 
-![Figure: Mockup - Improved SharePoint People Search Results](mockup-extending-ad-3.png)
+![Figure: Mockup - Improved SharePoint People Search Results](mockup-extending-ad-3.jpg)
 
 SharePoint has an Admin UI to manage User Profiles
 
