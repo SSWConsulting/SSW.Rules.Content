@@ -6,7 +6,14 @@ authors:
   - title: Marni Lefebvre
     url: https://ssw.com.au/people/marni-lefebvre
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Marni-Lefebvre/Images/Bio/Marni-Lefebvre-Square.jpg
-related: null
+  - url: https://www.ssw.com.au/people/adam-cogan
+    title: Adam Cogan
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Adam-Cogan/Images/Adam-Cogan-Profile.jpg
+  - title: Uly Maclaren
+    url: https://www.ssw.com.au/people/uly
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Ulysses-Maclaren/Images/Ulysses-Maclaren-Profile.jpg
+related:
+  - automate-schedule-meetings
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: b30998f3-6981-465b-a5ca-53c9e3294033
