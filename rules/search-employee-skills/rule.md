@@ -1,15 +1,16 @@
 ---
 type: rule
 archivedreason:
-title: Do you know how to take advantage of extending AD 
+title: Do you know how to search employee skills? (Extending AD vs SharePoint vs Dynamics 365 CRM) 
 guid: d641a712-b67f-40dc-8251-4b933afb487a
-uri: extending-AD
+uri: search-employee-skills
 created: 2021-07-30T05:06:33.000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects: 
+- extending-AD
 
 ---
 
@@ -24,6 +25,8 @@ The beauty of this is that if everyone has updated their skills, it is wonderful
 
  
 ![Figure: SharePoint People Search – Notice the Skills coming from UserProfile Service (aka UPS)](extending-ad-1.png)
+
+![Figure: Mockup - Improved SharePoint People Search Results](mockup-extending-ad-3.png)
 
 SharePoint has an Admin UI to manage User Profiles
 
