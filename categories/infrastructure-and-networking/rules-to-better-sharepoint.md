@@ -24,7 +24,7 @@ index:
 - use-default-zone-url-in-search-content-source
 - sharepoint-online-do-you-get-rid-of-classic-features
 - review-your-intranet-for-classic-pages
-- extending-AD
+- search-employee-skills
 
 ---
 
