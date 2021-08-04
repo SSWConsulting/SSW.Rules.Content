@@ -3,15 +3,15 @@ type: rule
 title: Appointments - Do you know to throw it in their calendar?
 uri: appointments-throw-it-in-their-calendar
 authors:
-  - title: Marni Lefebvre
-    url: https://ssw.com.au/people/marni-lefebvre
-    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Marni-Lefebvre/Images/Bio/Marni-Lefebvre-Square.jpg
   - url: https://www.ssw.com.au/people/adam-cogan
     title: Adam Cogan
     img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Adam-Cogan/Images/Adam-Cogan-Profile.jpg
   - title: Uly Maclaren
     url: https://www.ssw.com.au/people/uly
     img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Ulysses-Maclaren/Images/Ulysses-Maclaren-Profile.jpg
+  - title: Marni Lefebvre
+    url: https://ssw.com.au/people/marni-lefebvre
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Marni-Lefebvre/Images/Bio/Marni-Lefebvre-Square.jpg
 related:
   - automate-schedule-meetings
 created: 2021-07-20T06:35:55.000Z
