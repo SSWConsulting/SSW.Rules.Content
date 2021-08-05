@@ -30,7 +30,7 @@ SharePoint has an Admin UI to manage User Profiles
 
 ![Figure: User Profile UI in your SharePoint Admin Centre – generally this is not needed the Delve out of the box experience works for your organisation](extending-ad-2.png)
 
-[Delve](https://aus.delve.office.com) is a cool product with a nice UI that is essentially a portal onto the User Profiles.
+[Delve](https://support.microsoft.com/en-us/office/what-is-delve-1315665a-c6af-4409-a28d-49f8916878ca) is a cool product with a nice UI that is essentially a portal onto the User Profiles.
 
 ![Figure: Delve profile – Click on “Update Profile” to write data back to SharePoint User Profile Service](extending-ad-3.png)
 
@@ -57,6 +57,6 @@ This is essentially just calling a different API
 **[\#3 SharePoint Search UX](https://sharepoint.uservoice.com/forums/330321-sharepoint-search/suggestions/43922385-help-me-customise-sharepoint-search-results)** – if you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI
 e.g. “Search for people here: https://ssw.com.au/people”
 
-**\#4 Dynamics Search** – there should be a global user search that goes across all entities in Dynamics 365 CRM
+**[\#4 Dynamics Search](https://experience.dynamics.com/ideas/idea/?ideaid=b5daa141-90f5-eb11-ba5e-0003ff457d0a)** – there should be a global user search that goes across all entities in Dynamics 365 CRM
 
 ![Figure: Searching User + Skill doesn’t yield any result although this skill is associated to the user](extending-ad-7.png)
