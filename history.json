@@ -1891,9 +1891,9 @@
 	},
 	{
 		"file": "rules/the-right-way-to-report-bugs-and-give-feedback-suggestions/rule.md",
-		"lastUpdated": "2020-11-11T11:50:15+11:00",
-		"lastUpdatedBy": "Jean Thirion",
-		"lastUpdatedByEmail": "JeanThirion@ssw.com.au",
+		"lastUpdated": "2021-08-05T16:47:38.798Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-02-15T08:50:11+11:00",
 		"createdBy": "Eric Phan",
 		"createdByEmail": "ericphan@ssw.com.au"
@@ -27349,5 +27349,14 @@
 		"lastUpdated": "2021-08-01T23:22:39.845Z",
 		"lastUpdatedBy": "Taine Riley",
 		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
+		"file": "rules/the-right-way-to-report-bugs-and-give-feedback-suggestions/error-software-bur-report.jpg",
+		"created": "2021-08-05T16:47:38.799Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-08-05T16:47:38.799Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
