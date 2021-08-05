@@ -6,6 +6,10 @@ uri: search-employee-skills
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related:
   - do-you-know-what-are-the-sharepoint-features-our-customers-love
 redirects:
@@ -45,6 +49,8 @@ You can use Powershell and SharePoint PNP libraries to read and write from and t
 ![Figure: Powershell - Reading skills from UserProfile](extending-ad-5.png)
 
 ![Figure: Powershell - Adding “Blazor” to Jean’s skill list](extending-ad-6.png)
+
+OpenSearch is another solution, using the OpenSearch protocol you can [add external data sources to your SharePoint search results](https://docs.microsoft.com/en-us/sharepoint/search/understanding-result-sources-for-search)
 
 #### Suggestion to Microsoft:
 
