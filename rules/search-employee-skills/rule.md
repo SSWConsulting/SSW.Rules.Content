@@ -18,7 +18,7 @@ created: 2021-07-30T05:06:33.000Z
 archivedreason: null
 guid: d641a712-b67f-40dc-8251-4b933afb487a
 ---
-`youtube: https://www.youtube.com/watch?v=fhnatho4nS`
+`youtube: https://www.youtube.com/watch?v=fhnatho4nSg`
 
 AD has all your users e.g. Bob, Mary, Jane...
 
