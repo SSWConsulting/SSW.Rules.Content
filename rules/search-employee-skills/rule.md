@@ -65,6 +65,8 @@ This is essentially just calling a different API.
 **[\#3 SharePoint Search UX](https://sharepoint.uservoice.com/forums/330321-sharepoint-search/suggestions/43922385-help-me-customise-sharepoint-search-results)** – if you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI.\
 E.g. Search for people here: https://ssw.com.au/people
 
+![Figure: The SharePoint Search should let you add links like in this image](sharepointuxforpeopleandbookedindays.png)
+
 **[\#4 Dynamics Search](https://experience.dynamics.com/ideas/idea/?ideaid=b5daa141-90f5-eb11-ba5e-0003ff457d0a)** – there should be a global user search that goes across all entities in Dynamics 365 CRM.
 
 ![Figure: Searching User + Skill doesn’t yield any result although this skill is associated to the user](extending-ad-7.png)
