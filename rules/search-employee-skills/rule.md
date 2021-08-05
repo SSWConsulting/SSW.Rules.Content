@@ -6,6 +6,10 @@ uri: search-employee-skills
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related:
   - do-you-know-what-are-the-sharepoint-features-our-customers-love
 redirects:
@@ -14,6 +18,8 @@ created: 2021-07-30T05:06:33.000Z
 archivedreason: null
 guid: d641a712-b67f-40dc-8251-4b933afb487a
 ---
+`youtube: https://www.youtube.com/watch?v=fhnatho4nS`
+
 AD has all your users e.g. Bob, Mary, Jane...
 
 SharePoint also has all your users, plus you can extend this information using the UserProfile Service – https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles
@@ -46,15 +52,17 @@ You can use Powershell and SharePoint PNP libraries to read and write from and t
 
 ![Figure: Powershell - Adding “Blazor” to Jean’s skill list](extending-ad-6.png)
 
+OpenSearch is another solution, using the OpenSearch protocol you can [add external data sources to your SharePoint search results](https://docs.microsoft.com/en-us/sharepoint/search/understanding-result-sources-for-search)
+
 #### Suggestion to Microsoft:
 
-**[\#1 Data Sync](https://sharepoint.uservoice.com/forums/329220-sharepoint-dev-platform/suggestions/43922373-help-me-better-sync-my-dynamics-365-crm-data-with)** – this should be a simple SharePoint connector so this piece of PowerShell glue is not required 👌  
+**[\#1 Data Sync](https://sharepoint.uservoice.com/forums/329220-sharepoint-dev-platform/suggestions/43922373-help-me-better-sync-my-dynamics-365-crm-data-with)** – this should be a simple SharePoint connector so this piece of PowerShell glue is not required 👌\
 E.g. CRM user skills to User Profile properties
 
 **[\#2 SharePoint Search](https://sharepoint.uservoice.com/forums/330321-sharepoint-search/suggestions/43922382-help-me-make-dynamics-365-crm-data-searchable-from)** – if not using a connector, we should be able to easily index and search through Dynamics 365 CRM data.
 This is essentially just calling a different API.
 
-**[\#3 SharePoint Search UX](https://sharepoint.uservoice.com/forums/330321-sharepoint-search/suggestions/43922385-help-me-customise-sharepoint-search-results)** – if you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI.  
+**[\#3 SharePoint Search UX](https://sharepoint.uservoice.com/forums/330321-sharepoint-search/suggestions/43922385-help-me-customise-sharepoint-search-results)** – if you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI.\
 E.g. Search for people here: https://ssw.com.au/people
 
 **[\#4 Dynamics Search](https://experience.dynamics.com/ideas/idea/?ideaid=b5daa141-90f5-eb11-ba5e-0003ff457d0a)** – there should be a global user search that goes across all entities in Dynamics 365 CRM.
