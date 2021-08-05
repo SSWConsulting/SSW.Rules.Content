@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
-related: []
+related:
+  - search-employee-skills
 redirects:
   - do-you-know-what-are-the-sharepoint-features-customers-love
 created: 2016-05-06T22:56:17.000Z
