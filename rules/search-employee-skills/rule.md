@@ -6,7 +6,8 @@ uri: search-employee-skills
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - do-you-know-what-are-the-sharepoint-features-our-customers-love
 redirects:
   - extending-AD
 created: 2021-07-30T05:06:33.000Z
