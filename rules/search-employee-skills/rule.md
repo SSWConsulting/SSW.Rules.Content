@@ -46,7 +46,7 @@ What if your people’s skills are stored in another system such as Dynamics 365
 
 ![Figure: People’s skills are often stored in Dynamics 365 CRM or Salesforce](extending-ad-4.png)
 
-You can use Powershell and SharePoint PNP libraries to read and write from and to the UserProfile service:
+You can use PowerShell and SharePoint PNP libraries to programmatically interact with the SharePoint UserProfile service. This process allows you to sync skills across systems with a custom solution:
 
 ![Figure: Powershell - Reading skills from UserProfile](extending-ad-5.png)
 
