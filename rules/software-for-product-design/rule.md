@@ -37,4 +37,4 @@ There are a few options when it comes to the best software for product design (t
 The goal of any designer is to develop the best UI and develop the best user experience possible, and you want the best tool to help achieve this across 
 web and mobile applications. Sketch allows universal changes using a library of symbols, text, and layer styles. 
 
-**Note:** Sketch does not include the print design and photo editing features of Adobe Photoshop and other software also used by designers. 
+**Note:** Sketch does not include the print design and photo editing features of Adobe Photoshop and other software also used by designers. Photoshop is the industry standard in raster (pixel-based) graphics editing, photography, and digital art. Adobe Illustrator, on the other hand, is the standard vector-based design tool used for print design, logos,icons, and more. All of these tools are important parts of a designer's kit!
