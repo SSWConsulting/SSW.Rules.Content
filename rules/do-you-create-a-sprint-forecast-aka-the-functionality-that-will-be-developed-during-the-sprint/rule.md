@@ -1,17 +1,17 @@
 ---
 type: rule
-archivedreason: 
-title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
-guid: f749bf03-8785-4433-a5c5-6c21cda9b782
+title: Do you create a Sprint Forecast? (aka The functionality that will be
+  developed during the Sprint)
 uri: do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
-created: 2010-12-02T03:53:59.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-create-a-sprint-forecast-(aka-the-functionality-that-will-be-developed-during-the-sprint)
-
+  - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+created: 2010-12-02T03:53:59.000Z
+archivedreason: null
+guid: f749bf03-8785-4433-a5c5-6c21cda9b782
 ---
 
 After the [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting), it is useful for the Development Team to send the Product Owner (PO) a Sprint Forecast for the next Sprint. Doing this helps to improve common understanding in, and sometimes to enforce, the relationship between the PO and the Team.
@@ -33,12 +33,22 @@ Each of the Sprints in a Scrum project can be considered a mini-project that has
 | Subject: | \<Client Name\>: Sprint XXX Forecast |  
 ::: email-content  
 
-**Hi [Product Owner],**
+### Hi &lt;Product Owner&gt;,
+
+Here are the Sprint Goals and their status at a glance:
+
+Sprint Goals (in priority order):
+
+* Bugfixes
+* WDM Integration
+* SSO/Roles APIs
+* Download Documents APIs
+
+Please see below for a more detailed breakdown of the upcoming Sprint:
 
 | **Current Sprint:**  | **&lt;Sprint Number&gt;** |
 | --- | --- |
 | Sprint Duration:  | &lt;Number of weeks&gt; |
-| Sprint Goal:  | &lt;Main goal of Sprint&gt; |
 | Project:  | &lt;Project Name&gt; |
 | Project Portal:  | &lt;Link to project Portal&gt; |
 | Product Owner:  | &lt;Product Owner Name&gt; |
