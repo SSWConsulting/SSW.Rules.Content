@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Post Production - Do You Know How To Structure Your Files?
+title: Post-Production - Do you know how to structure your files?
 uri: post-production-do-you-know-how-to-structure-your-files
 authors:
   - title: Landon Maxwell
@@ -14,31 +14,30 @@ guid: 37f667f0-1cb0-44f9-b6a1-3f7b76a8953e
 ---
 
 Figuring out how your workflow operates is an essential part of the editing process. As such you should make sure to have an effective and consistent file/folder structure. 
+
 <!--endintro-->
 
-### Video Project Organisation:
+### Video Project Organization:
 
    * YYYY-MM-DD-project-name
-      * assets
+      * Assets
          * Contains all external files, and a copy of any files used from the server's 05-assets directory
-      * edit
+      * Edit
          * Contains the active project files, e.g. Premire Pro .pproj files
-      * exports
+      * Exports
          * Contains all edit exports & renders
-      * footage
+      * Footage
          * Contains all captured media, e.g. video, screen captures, & audio that was recorded for the project
          * YYYY-MM-DD-description
             * Contains multi-day or multi-camera shoots
-      * graphics
+      * Graphics
          * Contains After Effect project files, e.g. .aep files
-
-<br>
-<br>
 
 It is also very important to keep your shared resources and servers organised.
 This is an efficient way for a team to structure their server and common files/folders:
 
-### Data Server Organisation:
+### Data Server Organization:
+
    * 00-unsorted
       * Contains legacy folders that need to be sorted and put in an appropriate location.
 
