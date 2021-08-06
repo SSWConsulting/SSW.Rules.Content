@@ -25,11 +25,11 @@ Each Sprint has the following stages:
 1. **Planning meeting**
 
    * Sprint Forecast email: "Northwind - Sprint 5 Forecast"
-   * See [Do you send "Sprint Forecast" email to the client?](<b.	https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint>) for more details
+   * See [Do you send "Sprint Forecast" email to the client?](https://www.ssw.com.au/rules/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) for more details
 2. **Work in progress**
 
    * "Done" emails are sent asking for specific functionality to be tested
    * See [Rules to better Email](/rules-to-better-email) for details
 3. **Review and Retro meetings**
 
-   * The [Sprint review/retro email](<a.	https://www.ssw.com.au/rules/do-you-create-a-sprint-review-retro-email>): "Northwind - Sprint 5 Review/Retro"
+   * The [Sprint review/retro email](https://www.ssw.com.au/rules/do-you-create-a-sprint-review-retro-email): "Northwind - Sprint 5 Review/Retro"
