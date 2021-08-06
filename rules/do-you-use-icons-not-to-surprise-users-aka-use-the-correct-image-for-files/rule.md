@@ -33,7 +33,7 @@ Don't surprise users! For the following file/link types, use icons:
 
 - PDF: [This is a PDF file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files/Sample-PDF.pdf)
 - DOC or DOT: [This is a Word Document file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files/Sample-DOC.docx)
-- XLS: [This is an Excel Spreadsheet file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files/Sample-XLS.xls)
+- XLS: [This is an Excel Spreadsheet file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files/Sample-XLS.xlsx)
 - PPT: [This is a PowerPoint file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files/Sample-PPT.pptx)
 - TXT: [This is a text file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files/Sample-TXT.txt)
 - AVI, MOV, MPG etc.: [This is a video file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files/sample-VIDEO.mp4)
