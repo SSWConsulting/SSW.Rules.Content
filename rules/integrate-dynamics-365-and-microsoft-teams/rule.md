@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Jean Thirion
   url: https://ssw.com.au/people/jean-thirion
-related: []
+related: 
+- the-best-place-to-store-documents-and-share-them
+- where-to-keep-your-files
 redirects:
 - dynamics-and-teams-do-you-integrate-dynamics-365-and-microsoft-teams
 
@@ -19,14 +21,6 @@ redirects:
 * In Teams, add a Dynamics tab
 * In Dynamics, add a Teams URL field
 
-
 <!--endintro-->
 
 ![Figure: Dynamics 365 tab in MS Teams (also showing the Teams URL field, two birds in one stone)](integration-teams-365.png)  
-
-### Related rules
-
-
-
-* Do you know where to keep your files?
-* [Do you store project documents in Teams?](/the-best-place-to-store-documents-and-share-them)
