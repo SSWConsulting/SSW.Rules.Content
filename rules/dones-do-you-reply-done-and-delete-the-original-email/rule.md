@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- done-do-you-go-beyond-done-and-follow-a-definition-of-done
 redirects: []
 
 ---
@@ -232,8 +233,6 @@ Jason
 ::: good
 Figure: Good example – If multiple tasks are 'done', then only the URL is needed. This is clear that all tasks have been done and they can read the history of the requests below
 :::
-
-
 
 ### Tip 4: Replying "Done" to huge tasks
 
