@@ -58,7 +58,7 @@ An ideal logo design should take into account the different environments or form
 ![Figure: Good Example - Colour variations of the SSW TimePro logo](4 color logo.png)
 :::
 
-Vertical vs horizontal layouts frequently alter the space a logo has to fit. While displaying a logo without text can work, To solve this we stack our icons and product name vertically, make the product name 80% of the original size (e.g. 30pt for original, 24pt for vertical) and center align them.
+Logos should also have variations that allow the logo to fit different shapes or layouts. If needed, we can stack our icons and product name vertically, make the product name 80% of the original size (e.g. 30pt for original, 24pt for vertical) and then center align the elements to create a vertical version of a product logo.
 
 ::: good
 ![Figure: Good Example - Vertical version of TimePro logo](vertical logo.png)
