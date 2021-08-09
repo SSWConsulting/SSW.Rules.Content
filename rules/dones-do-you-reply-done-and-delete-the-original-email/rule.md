@@ -237,7 +237,7 @@ Figure: Good example – If multiple tasks are 'done', then only the URL is need
 
 ### Tip 4: Replying "Done" to huge tasks
 
-Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to more than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
+Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to take more time than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
 
 
 ### Tip 5: Don't consolidate emails
