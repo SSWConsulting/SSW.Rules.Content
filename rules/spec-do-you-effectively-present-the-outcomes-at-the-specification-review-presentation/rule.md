@@ -48,7 +48,6 @@ Figure: Good example – this is an appointment with a specific time for the nex
 * All parties benefit while the information is fresh in their minds
 * The client won't experience the inevitable delays when you go back to the office and get stuck on other client issues that appear more urgent
 
-
 ### What does the client get at the conclusion of the Spec Review? 
    
 * **Option A** - Email (if they want to minimize documentation time), or
@@ -64,23 +63,27 @@ Make sure to name your video according to the rules on [How to Include Version N
 ### Video Examples 
   
 `youtube: https://www.youtube.com/embed/sPMT6Udh7rQ`
+
 ::: good
-Good Example: FireBootCamp - Scrum Commitments Specification Video        
+Figure: Good example – FireBootCamp - Scrum Commitments Specification Video        
 :::
 
 `youtube: https://www.youtube.com/embed/nywSzMhkZV4`
+
 ::: good
-Good Example: FireBootCamp - SugarLearning Specification Video      
+Figure: Good example – FireBootCamp - SugarLearning Specification Video      
 :::
 
 `youtube: https://www.youtube.com/embed/VhWPZERUiYg`
+
 ::: good
-Good Example: FireBootCamp - TimePro Invoicing Specification Video  
+Figure: Good example – FireBootCamp - TimePro Invoicing Specification Video  
 :::
 
 `youtube: https://www.youtube.com/embed/vpFCtChJPVA`
+
 ::: good
-Good Example: FireBootCamp - Code Auditor Specification Video
+Figure: Good example – FireBootCamp - Code Auditor Specification Video
 :::
 
 Once again, the presentation needs to pass a '[test please](/conduct-a-test-please-internally-and-then-with-the-client)' from another senior employee before the meeting takes place.
