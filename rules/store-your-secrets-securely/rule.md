@@ -70,7 +70,7 @@ Cons:
 * Has key-person reliance on network admin
   :::
   ::: bad
-  Figure: Bad practice - Overall rating: 4/10\
+  Figure: Bad practice - Overall rating: 4/10  
   :::
 
 ::: greybox
@@ -89,7 +89,7 @@ Cons:
 * No clear way to manage the DevOps process for external config files
   :::
   ::: bad
-  Figure: Bad practice - Overall rating: 1/10\
+  Figure: Bad practice - Overall rating: 1/10  
   :::
 
 ### Good Practices
@@ -109,7 +109,7 @@ Cons:
 * DPAPI still needed
   :::
   ::: good
-  Figure: Good practice - Overall rating: 8/10\
+  Figure: Good practice - Overall rating: 8/10  
   :::
 
 ::: greybox
@@ -147,7 +147,7 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 8/10\
+Figure: Good Practice - Overall rating 8/10  
 :::
 
 ::: greybox
@@ -169,7 +169,7 @@ Cons:
 * Price is per transaction - can become costly if used in high volume and not managed thoroughly (see [SSW's William Liebenberg on Azure SpendOps](https://azuregems.io/spendops-with-azure-cosmos-db/)
   :::
   ::: good
-  Figure: Good Practice - Overall rating 9/10\
+  Figure: Good Practice - Overall rating 9/10  
   :::
 
 ::: greybox
@@ -191,5 +191,5 @@ Cons:
 
   :::
   ::: good
-  Figure: Good Practice - Overall rating 9/10\
+  Figure: Good Practice - Overall rating 9/10  
   :::
