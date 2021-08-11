@@ -15,7 +15,7 @@ authors:
 - title: Damian Brady
   url: https://ssw.com.au/people/damian-brady
 related: 
-- done-do-you-go-beyond-done-and-follow-a-definition-of-done
+- dones-do-you-reply-done-and-delete-the-original-email
 - do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
 - comments-do-you-enforce-comments-with-check-ins
 - do-you-enforce-work-item-association-with-check-in
