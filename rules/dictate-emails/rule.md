@@ -8,12 +8,28 @@ authors:
 created: 2021-08-10T20:02:04.904Z
 guid: b00e956e-3770-4464-8101-cce4d6b8bc05
 ---
-You can easily write content using your voice with the Dictate feature. It is available on Outlook, Word and PowerPoint.
+Everyone knows that you can use Google Assistant or Siri to talk to your phone, but not everyone knows that you can also use dictate in Microsoft Word, PowerPoint and Outlook.
 
 <!--endintro-->
 
-![Figure: Dictate feature on Microsoft Outlook](screen-shot-2021-08-10-at-1.09.58-pm.png)
+![Figure: Press this button in the ribbon to dictate, or use the keyboard shortcut of Alt+](dictate.png)
 
-See how it works including some tips on this video by Ulysses Maclaren and Adam Cogan:
+You can choose whether you want automatic punctuation or not, and it's quite good at figuring out what the correct punctuation should be, most of the time.
+
+Key commands that you will likely need include:
+
+* New/next paragraph
+* Backspace
+* Delete/scrap/undo (removes last word)
+* Delete/scrap/undo that (removes last sentence)
+* Delete/scrap/undo the last x characters/words/lines/sentences
+* Start list
+* Start numbered list
+* New/next line
+* Exit list
+* Bold/italicise/underline <word or phrase you want formatted>
+* Exit dictation
+
+![Figure: For a full list of available commands, click here (the box that pops up at the bottom of the screen while you dictate)](dictate-more-commands.png)
 
 `youtube: https://www.youtube.com/embed/1Jx-8d4DnVs`
