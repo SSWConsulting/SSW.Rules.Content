@@ -10,7 +10,7 @@ authors:
 related: []
 redirects:
   - teamwork-do-you-manage-up-give-a-recommendation
-  - teamwork-do-you-manage-up-give-a-recommendation
+  - teamwork-do-you-manage-up-(give-a-recommendation)
 created: 2012-09-25T17:48:20.000Z
 archivedreason: null
 guid: c2ef121d-355a-4845-81e7-124065e057d1
