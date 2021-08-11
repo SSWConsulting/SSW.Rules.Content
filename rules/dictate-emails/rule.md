@@ -32,4 +32,4 @@ Key commands that you will likely need include:
 
 ![Figure: For a full list of available commands, click here (the box that pops up at the bottom of the screen while you dictate)](dictate-more-commands.png)
 
-`youtube: https://www.youtube.com/embed/1Jx-8d4DnVs`
+`youtube: https://www.youtube.com/embed/7-soraKpUcY`
