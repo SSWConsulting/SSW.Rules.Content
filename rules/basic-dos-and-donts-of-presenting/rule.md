@@ -19,7 +19,7 @@ Do you know the basic dos and don't of presenting?
 
 Giving a live presentation in front of an audience can be daunting, whether online or in person.  It can also be a thrilling and rewarding experience when you do it well.  In order to achieve a great result presenters should do three key things:
 
-1. Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
+1.Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
 https://www.youtube.com/watch?v=V8eLdbKXGzk
  
 
@@ -48,12 +48,12 @@ Body language for 1 to many presentations needs to be bigger than usual
 
 https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d 
 
-2.	Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience.
+2.Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience.
 
 For more information about identifying your audience knowledge level, see:
 https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level
 
-3.	Gain repeated exposure to high pressure situations - staying cool & dealing with problems as they arise without derailing yourself or the audience.
+3.Gain repeated exposure to high pressure situations - staying cool & dealing with problems as they arise without derailing yourself or the audience.
 
  
 
