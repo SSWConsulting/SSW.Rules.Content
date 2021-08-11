@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
-title: Spec - Do you effectively present the outcomes at the "Specification Review Presentation"?
-guid: 48a1a8df-43bd-4626-a14f-8c53e1ce278a
+title: Spec - Do you effectively present the outcomes at the "Specification
+  Review Presentation"?
 uri: spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
-created: 2009-03-18T02:12:35.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
 related: []
-redirects:
-- spec-do-you-effectively-present-the-outcomes-at-the-＂specification-review-presentation＂
-
+redirects: []
+created: 2009-03-18T02:12:35.000Z
+archivedreason: null
+guid: 48a1a8df-43bd-4626-a14f-8c53e1ce278a
 ---
 
 The findings of the Spec Review should be presented by the developers and the Account Manager at a meeting with the key decision makers of the project for review and acceptance, generally in the form of a PowerPoint presentation, or sometimes a word doc. It is important that all the required people are in a room together to review the plan.
@@ -80,10 +79,5 @@ Figure: Good example – FireBootCamp - SugarLearning Specification Video
 Figure: Good example – FireBootCamp - TimePro Invoicing Specification Video  
 :::
 
-`youtube: https://www.youtube.com/embed/vpFCtChJPVA`
-
-::: good
-Figure: Good example – FireBootCamp - Code Auditor Specification Video
-:::
 
 Once again, the presentation needs to pass a '[test please](/conduct-a-test-please-internally-and-then-with-the-client)' from another senior employee before the meeting takes place.
