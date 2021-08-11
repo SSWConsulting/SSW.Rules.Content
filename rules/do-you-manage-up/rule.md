@@ -10,7 +10,7 @@ authors:
 related: []
 redirects:
   - teamwork-do-you-manage-up-give-a-recommendation
-  - teamwork-do-you-manage-up-(give-a-recommendation)
+  - teamwork-do-you-manage-up-give-a-recommendation
 created: 2012-09-25T17:48:20.000Z
 archivedreason: null
 guid: c2ef121d-355a-4845-81e7-124065e057d1
@@ -68,6 +68,8 @@ The choices:
  **Option B** <mark>(Recommended)</mark> -  Customize a ready-made solution - We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.  
       
  **Option C** - Build a new solution using a third party company - It will be expensive and it will take a long time.
+
+Please let me know if you're happy to proceed with our recommendation, otherwise let me know if you have any questions.
 
 :::
 
