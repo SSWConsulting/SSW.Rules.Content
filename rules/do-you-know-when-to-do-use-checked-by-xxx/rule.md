@@ -60,10 +60,12 @@ Reply to the "Done" email like below and CC the person who checked the email for
 ![Figure: Reply Email with "Checked by XXX"](ruleDoneCheckedBy.png)  
 :::
 
-When you action a task for adding web content (such as a rule or suggestion), firstly paste the content into a new Word file and run the "Grammar & Spelling Check" to check if there are any errors. After the "Grammar & Spelling Check", you can add it to your website. After that, run [SSW LinkAuditor](https://sswlinkauditor.com/) in order to keep 0 bad links on that page.
+![Figure: Consider this the '4 eye check' (four eye principle)](four-eyes.jpg)
+
+### Web content
+
+When you action a task for adding **web content** (such as a rule or suggestion), firstly paste the content into a new Word file and run the "Grammar & Spelling Check" to check if there are any errors. After the "Grammar & Spelling Check", you can add it to your website. After that, run [SSW LinkAuditor](https://sswlinkauditor.com/) in order to keep 0 bad links on that page.
 
 ::: good  
-![Figure: Reply to the email with grammar & spelling check and CA check results](SpellAndLinkCheck.jpg)  
+![Figure: Reply to the email with grammar & spelling check and broken links results](SpellAndLinkCheck.jpg)  
 :::
-
-![Figure: Consider this the '4 eye check' (four eye principle)](four-eyes.jpg)
