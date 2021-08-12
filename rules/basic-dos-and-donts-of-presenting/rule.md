@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you craft and deliver engaging presentations?
-uri: basic-dos-and-donts-of-presenting
+uri: craft-and-deliver-engaging-presentations
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
