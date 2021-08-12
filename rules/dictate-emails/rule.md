@@ -12,7 +12,7 @@ Everyone knows that you can use Google Assistant or Siri to talk to your phone, 
 
 <!--endintro-->
 
-![Figure: Press this button in the ribbon to dictate, or use the keyboard shortcut of Alt+](dictate.png)
+![Figure: Press this button in the ribbon to dictate, or use the keyboard shortcut of Alt+`](dictate.png)
 
 You can choose whether you want automatic punctuation or not, and it's quite good at figuring out what the correct punctuation should be, most of the time.
 
