@@ -14,9 +14,7 @@ Use the great [PCF controls](https://docs.microsoft.com/en-us/powerapps/develope
 
 <!--endintro-->
 
-PCF controls let you use your favourite web technologies to develop customized components. You can use React, Angular, Bootstrap, web apis and more 😎. You no longer have to worry about learning new and confusing frameworks, simply dive in with what you are comfortable with!
-
-
+PCF controls let you use your favourite web technologies to develop customized components. You can use React, Angular, Bootstrap, web apis and more 😎. You no longer have to worry about learning new and confusing frameworks, you've got the power back in your hands!
 
 
 
