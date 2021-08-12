@@ -8,8 +8,16 @@ authors:
 created: 2021-08-12T03:51:29.996Z
 guid: 316f6ebe-1734-4a82-a4b0-551de9040334
 ---
-Use the great [PCF controls](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/overview) to customize Dynamics 365 and provide more flexible functionality.
+Dynamics isn't as customisable as your average React or Angular website and there are some prohibitive restrictions. For example, M:M relationship records can only be added, updated and viewed via grids.
+
+Use the power of [PCF controls](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/overview) to customize Dynamics 365 and provide more flexible functionality. 
 
 <!--endintro-->
 
-See the video on this rule: https://www.ssw.com.au/rules/allow-multiple-options
+PCF controls let you use your favourite web technologies to develop customized components. You can use React, Angular, Bootstrap, web apis and more 😎. You no longer have to worry about learning new and confusing frameworks, you've got the power back in your hands!
+
+![Figure: Take the power back with PCF controls!](wander-fleur-b5d0mqdz37u-unsplash.jpg)
+
+[PCF Gallery](https://pcf.gallery/) is a fantastic place to find all kinds of PCF controls that fit different use cases.
+
+See the video on this rule to see a PCF control in action: https://www.ssw.com.au/rules/allow-multiple-options
