@@ -11,7 +11,6 @@ related: []
 redirects:
   - do-you-know-the-basic-dos-and-donts-of-presentingdo-you-know-the-basic-dos-and-donts-of-presenting
   - do-you-know-the-basic-dos-and-donts-of-presenting
-  - basic-dos-and-donts-of-presenting
 created: 2020-01-22T21:46:41.000Z
 archivedreason: null
 guid: 849fe350-36c6-44b7-b7be-36bc745c3fb4
@@ -20,32 +19,34 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 <!--endintro-->
 
-1. Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
-
-::: bad
-
-![Figure: Bad example – Ill prepared and low energy, turns into good presentation!](picture1.png)
-
-:::  
-
-::: good
-
-![Figure: Good example -a well prepared presentation with an excellent delivery.](picture2.png)
-
-:::
-
-See this video for a better demonstration of good and bad presentations.
+1.Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
 
 `youtube: https://youtu.be/V8eLdbKXGzk`
 
-Links:
+::: bad
+
+**Figure: Bad example – Ill prepared and low energy, turns into good presentation!**
+
+::: 
+
+`youtube: https://youtu.be/nPIAiPhKtvc`
+
+::: good
+
+**Figure: Good example -a well prepared presentation with an excellent delivery.**
+
+:::
+
+**Links:**
 
 * Content – design the content for the particular audience and keep it simple.
 
-  * <https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
-  * <https://www.linkedin.com/learning/speaking-confidently-and-effectively/great-speaking-skills-are-a-must-have> see “Give your audience only what they need to know”
-  * For more information on creating effective powerpoint slides, see:
+<https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
+
+<https://www.linkedin.com/learning/speaking-confidently-and-effectively/great-speaking-skills-are-a-must-have> see “Give your audience only what they need to know”
+For more information on creating effective powerpoint slides, see:
     <https://www.linkedin.com/business/learning/blog/productivity-tips/5-best-practices-for-making-awesome-powerpoint-slides>
+
 * Delivery:
 
   * Assuming you have reached autonomous stage of learning, be yourself, with eye contact, understandable pace, pauses, audience interaction. For online delivery, look at the camera to emphasise key points.
