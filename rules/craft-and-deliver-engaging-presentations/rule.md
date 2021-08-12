@@ -9,7 +9,6 @@ authors:
     url: https://www.ssw.com.au/people/andrew-forsyth
 related: []
 redirects:
-  - do-you-know-the-basic-dos-and-donts-of-presentingdo-you-know-the-basic-dos-and-donts-of-presenting
   - do-you-know-the-basic-dos-and-donts-of-presenting
   - basic-dos-and-donts-of-presenting
   - basic-dos-and-don'ts-of-presenting
