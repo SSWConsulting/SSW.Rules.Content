@@ -5,6 +5,8 @@ uri: basic-dos-and-donts-of-presenting
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Andrew Forsyth
+    url: https://www.ssw.com.au/people/andrew-forsyth
 related: []
 redirects:
   - do-you-know-the-basic-dos-and-donts-of-presentingdo-you-know-the-basic-dos-and-donts-of-presenting
