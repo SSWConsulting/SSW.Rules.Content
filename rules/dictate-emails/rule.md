@@ -33,3 +33,7 @@ Key commands that you will likely need include:
 ![Figure: For a full list of available commands, click here (the box that pops up at the bottom of the screen while you dictate)](dictate-more-commands.png)
 
 `youtube: https://www.youtube.com/embed/7-soraKpUcY`
+
+### `Hot Tip - Windows Dictation`
+
+`If you really get into using dictation, you can press windows key + H to dictate directly through the operating system. This is particularly useful if, for instance, you want to dictate a message in Teams, or something else that doesn't have its own dictation function built in.`
