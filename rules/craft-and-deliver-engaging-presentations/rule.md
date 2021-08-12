@@ -11,6 +11,8 @@ related: []
 redirects:
   - do-you-know-the-basic-dos-and-donts-of-presentingdo-you-know-the-basic-dos-and-donts-of-presenting
   - do-you-know-the-basic-dos-and-donts-of-presenting
+  - basic-dos-and-donts-of-presenting
+  - basic-dos-and-don'ts-of-presenting
 created: 2020-01-22T21:46:41.000Z
 archivedreason: null
 guid: 849fe350-36c6-44b7-b7be-36bc745c3fb4
