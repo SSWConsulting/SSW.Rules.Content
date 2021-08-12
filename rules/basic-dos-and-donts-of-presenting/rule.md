@@ -73,12 +73,10 @@ Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in 
 2. Don't put your hands in your pockets, or if you do, don’t have your keys in your pockets
 3. Don't rock back and forth
 4. If you’re moving, move deliberately
-
    * When you're walking, they’ll look at you.
    * When you stop and turn, they’ll look at the slides
 5. Stay focussed on topic. Don’t just ramble on
 6. Put yourself in the audiences shoes
-
    * Can they see and hear you?
    * Can they read your screen?
 7. Be prepared for demo failures
