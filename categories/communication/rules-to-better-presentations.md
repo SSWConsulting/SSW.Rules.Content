@@ -4,7 +4,7 @@ title: Rules to Better Presentations
 guid: c0d90212-c55a-42eb-b35d-d4947a4edf35
 uri: rules-to-better-presentations
 index:
-- basic-dos-and-donts-of-presenting
+- craft-and-deliver-engaging-presentations
 - do-you-set-a-clear-end-time-for-breaks
 - do-you-do-a-retro-coffee-after-presentations
 - do-you-know-to-write-down-the-attendee-names
