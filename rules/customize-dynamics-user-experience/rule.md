@@ -20,4 +20,4 @@ PCF controls let you use your favourite web technologies to develop customized c
 
 [PCF Gallery](https://pcf.gallery/) is a fantastic place to find all kinds of PCF controls that fit different use cases.
 
-See the video on this rule to see a PCF control in action: https://www.ssw.com.au/rules/allow-multiple-options
+See [Adam Cogan's blog post](https://adamcogan.com/2021/08/12/the-power-of-multi-select-multiple-options-on-forms/) or the video on [this rule](https://www.ssw.com.au/rules/allow-multiple-options) to see how PCF controls can be applied in the real world.
