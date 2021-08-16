@@ -73,7 +73,7 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 **Note:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually.
 :::
 
-When using GitHub, you can use 4 spaces to indent a task and get a clear separation between task and response. You can also use a "&gt;" symbol to achieve a similar result.
+When using GitHub, you can use 4 spaces to indent a task and get clear separation between task and response. You can also use a "&gt;" symbol to achieve a similar result.
 
 ![Figure: How to write indentations with GitHub](githubindentwrite.jpg "githubIndentWrite")
 
