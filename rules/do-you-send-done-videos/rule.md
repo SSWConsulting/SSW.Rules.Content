@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- record-a-quick-and-dirty-done-video
 redirects:
 - communication-do-you-send-done-videos
 
@@ -26,16 +27,8 @@ The best way to demonstrate that a new piece of functionality is working is to r
 
 
 `youtube: https://www.youtube.com/embed/OhVYTOKCsWI`
- 
-
 
 ::: good
-Figure: Good example - Record yourself and your  screen
-
+Figure: Good example - Record yourself and your screen
 :::
 
-
-### Related rule
-
-
-* [Do you know how to record a quick and dirty 'Done Video'?](/record-a-quick-and-dirty-done-video)
