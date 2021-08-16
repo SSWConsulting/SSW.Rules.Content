@@ -71,6 +71,7 @@ index:
 - better-late-than-never
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
+- dictate-emails
 - screenshots-do-you-know-how-to-show-wanted-actions
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - bounces-do-you-know-what-to-do-with-bounced-email
