@@ -70,16 +70,18 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 :::
 
 ::: greybox
-**Note:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually.
+**Note:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
 :::
+
+## GitHub
 
 When using GitHub, you can use 4 spaces to indent a task and get clear separation between task and response. You can also use a "&gt;" symbol to achieve a similar result.
 
-![Figure: How to write indentations with GitHub](githubindentwrite.jpg "githubIndentWrite")
+![Figure: How to write indentations with GitHub in Markdown](githubindentwrite.jpg "githubIndentWrite")
 
-![Figure: Preview of indentations in GitHub](githubindentpreview.jpg "githubIndentPreview")
+![Figure: Preview of different ways to add indentations in GitHub](githubindentpreview.jpg "githubIndentPreview")
 
-You can find more info about GitHub syntax at [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), and an example of this formatting in action [here](https://github.com/SSWConsulting/SSW.CodeAuditor/issues/304)
+You can find more info about GitHub syntax at [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 - - -
 
