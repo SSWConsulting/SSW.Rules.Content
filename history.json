@@ -19963,7 +19963,7 @@
 	},
 	{
 		"file": "rules/how-to-use-teams-search/rule.md",
-		"lastUpdated": "2021-08-17T16:17:11.838Z",
+		"lastUpdated": "2021-08-17T16:18:02.909Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2019-09-07T06:08:20+10:00",
@@ -27448,5 +27448,32 @@
 		"lastUpdated": "2021-08-16T05:01:31.885Z",
 		"lastUpdatedBy": "Taine Riley",
 		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
+		"file": "rules/how-to-use-teams-search/teams-search-dropdown.png",
+		"created": "2021-08-17T16:18:02.909Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-08-17T16:18:02.909Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/how-to-use-teams-search/teams-search-filter.png",
+		"created": "2021-08-17T16:18:02.910Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-08-17T16:18:02.910Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/how-to-use-teams-search/teams-search-tabs.png",
+		"created": "2021-08-17T16:18:02.910Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-08-17T16:18:02.910Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
