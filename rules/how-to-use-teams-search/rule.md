@@ -37,7 +37,7 @@ If you start typing in the search box, you will see a dropdown with the main res
 **Tip:** Apart from the little heading, as per the image above, you can recognize a **Teams** result when it only shows up the title, while a **Channel** result shows the title with the name of the associated **Team** underneath.
 :::
 
-Once you hit "enter", you will be directed to **all** results, separatated by **Messages**, **People**, and **Files** tabs:
+Once you hit "enter", you will be directed to **all** results, separated by **Messages**, **People**, and **Files** tabs:
 
 ![Figure: Use the 3 built-in tabs to search through the different types of results](teams-search-tabs.png)  
 
