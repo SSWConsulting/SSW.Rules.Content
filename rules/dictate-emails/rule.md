@@ -5,6 +5,8 @@ uri: dictate-emails
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2021-08-10T20:02:04.904Z
 guid: b00e956e-3770-4464-8101-cce4d6b8bc05
 ---
