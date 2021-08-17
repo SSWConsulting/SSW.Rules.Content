@@ -10,6 +10,7 @@ authors:
 related: []
 redirects:
   - do-you-know-how-to-describe-the-work-you-have-done
+  - do-you-know-how-to-describe-the-work-you-have-done-(while-avoiding-the-word-bug)
 created: 2013-04-19T19:39:34.000Z
 archivedreason: null
 guid: 2d085ee7-c9aa-4e5a-9754-082b1093ddf7
