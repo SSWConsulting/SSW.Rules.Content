@@ -33,11 +33,11 @@ index:
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
+- do-you-realize-the-importance-of-a-good-email-subject
 - change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
-- do-you-realize-the-importance-of-a-good-email-subject
 - do-you-respond-to-each-email-individually
 - do-you-send-tasks-one-email-at-a-time
 - do-you-use-indentation-for-readability
