@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you understand the concept of ROI – Return on Investment
+title: Do you understand how Return on Investment (ROI) can affect decision making
 uri: return-on-investment
 authors:
   - title: Josh Bandsma
