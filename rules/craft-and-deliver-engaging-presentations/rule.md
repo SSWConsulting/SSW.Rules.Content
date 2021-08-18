@@ -30,8 +30,6 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 ::: 
 
-
-
 `youtube: https://youtu.be/nPIAiPhKtvc`
 
 ::: good
@@ -39,24 +37,6 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 **Figure: Good example -a well prepared presentation with an excellent delivery.**
 
 :::
-
-**Links:**
-
-* Content – design the content for the particular audience and keep it simple.
-
-<https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
-
-<https://www.linkedin.com/learning/speaking-confidently-and-effectively/great-speaking-skills-are-a-must-have> see “Give your audience only what they need to know”
-For more information on creating effective powerpoint slides, see:
-    <https://www.linkedin.com/business/learning/blog/productivity-tips/5-best-practices-for-making-awesome-powerpoint-slides>
-
-* Delivery:
-
-  * Assuming you have reached autonomous stage of learning, be yourself, with eye contact, understandable pace, pauses, audience interaction. For online delivery, look at the camera to emphasise key points.
-  * Pay attention to your audience 
-  * Use Props only as a support act e.g. PPT 
-  * Body language for 1 to many presentations needs to be bigger than usual
-  * <https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d>
 
 2. Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience. For more information about identifying your audience knowledge level, see:
    <https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level>
@@ -84,3 +64,25 @@ Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in 
    * Can they see and hear you?
    * Can they read your screen?
 7. Be prepared for demo failures
+
+**Links:**
+
+Content – design the content for the particular audience and keep it simple.
+
+<https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
+
+<https://www.linkedin.com/learning/speaking-confidently-and-effectively/great-speaking-skills-are-a-must-have> see “Give your audience only what they need to know”
+For more information on creating effective powerpoint slides, see:
+    <https://www.linkedin.com/business/learning/blog/productivity-tips/5-best-practices-for-making-awesome-powerpoint-slides>
+
+Delivery:
+
+Assuming you have reached autonomous stage of learning, be yourself, with eye contact, understandable pace, pauses, audience interaction. For online delivery, look at the camera to emphasise key points.
+
+Pay attention to your audience 
+
+Use Props only as a support act e.g. PPT 
+
+Body language for 1 to many presentations needs to be bigger than usual
+
+<https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d>
