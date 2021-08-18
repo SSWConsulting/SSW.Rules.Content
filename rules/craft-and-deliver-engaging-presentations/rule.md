@@ -38,9 +38,10 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 :::
 
-2. Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience. For more information about identifying your audience knowledge level, see:
-   <https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level>
-3. Gain repeated exposure to high pressure situations - staying cool & dealing with problems as they arise without derailing yourself or the audience.
+2.Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience. For more information about identifying your audience knowledge level, see:
+<https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level>
+
+3.Gain repeated exposure to high pressure situations - staying cool & dealing with problems as they arise without derailing yourself or the audience.
 
 ![](picture3.jpg)
 
@@ -62,8 +63,6 @@ For more information on creating effective powerpoint slides, see:
 * Delivery
 
 <https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d>
-
-
 
 Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in his Pluralsight course: [The Art of Speaking: Scott Hanselman](https://www.pluralsight.com/courses/hanselman-speaking)
 
