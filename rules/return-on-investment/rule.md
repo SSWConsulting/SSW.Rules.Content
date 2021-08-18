@@ -32,13 +32,14 @@ https://www.ssw.com.au/rules/send-a-for-the-record-email-when-you-disagree
 | To:      | Sean |
 | Subject: | Email signature - not working |  
 ::: email-content  
-Hi Sean,
+### Hi Sean,
 
 I will look into fixing the signature by changing the file server's HTML.
 
 Thanks!
 
 George
+:::
 :::
 
 :::bad
@@ -52,7 +53,7 @@ Figure: Bad Example - George knew there was a way to get better ROI while fixing
 | To:      | Sean |
 | Subject: | Email signature - not working |  
 ::: email-content  
-Hi Sean,
+### Hi Sean,
 
 I will look into fixing the signature by changing the file server's HTML.
 
@@ -61,6 +62,7 @@ I will look into fixing the signature by changing the file server's HTML.
 Thanks!
 
 George
+:::
 :::
 
 :::good
