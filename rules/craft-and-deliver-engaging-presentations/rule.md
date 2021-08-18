@@ -20,7 +20,7 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 <!--endintro-->
 
-1.Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
+1. Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
 
 `youtube: https://youtu.be/V8eLdbKXGzk`
 
@@ -38,10 +38,10 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 :::
 
-2.Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience. For more information about identifying your audience knowledge level, see:
+2. Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience. For more information about identifying your audience knowledge level, see:
 <https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level>
 
-3.Gain repeated exposure to high pressure situations - staying cool & dealing with problems as they arise without derailing yourself or the audience.
+3. Gain repeated exposure to high pressure situations - staying cool & dealing with problems as they arise without derailing yourself or the audience.
 
 ![](picture3.jpg)
 
