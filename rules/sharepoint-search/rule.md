@@ -13,6 +13,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 related:
 - why-do-we-use-vm-for-sharepoint-development
+- how-to-use-teams-search
+- how-to-name-sharepoint-documents
 redirects:
 - do-you-know-how-to-use-sharepoint-search
 
@@ -20,20 +22,13 @@ redirects:
 
 SharePoint search is a powerful tool for discovering information. Here are some tips to make sure you are getting the most from it. There are two things to consider regarding SharePoint search; firstly, how you save information to SharePoint to be more easily discoverable; secondly, how to perform searches within SharePoint.
 
-
 Here are some tips for performing searches:
-
-
 
 ### Know how to navigate SharePoint search – watch this video
 
 
 `youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
  
-
-
-
-
 
 <!--endintro-->
 
@@ -46,8 +41,7 @@ Here are some tips for performing searches:
 
 ### Search a specific property 
 
-
-if you are familiar with the structure of the metadata in the content you're searching, you can restrict your searches to a property with the syntax &lt;property&gt;:&lt;search term&gt;. E.g. to search the filename field for the term "report", you would use "filename:report".
+If you are familiar with the structure of the metadata in the content you're searching, you can restrict your searches to a property with the syntax &lt;property&gt;:&lt;search term&gt;. E.g. to search the filename field for the term "report", you would use "filename:report".
 
 Example of properties you can use (common ones);
 
@@ -55,7 +49,6 @@ Example of properties you can use (common ones);
 * CreatedBy:
 * ModifiedBy:
 * Title:
-
 
 **More:** https://docs.microsoft.com/en-us/office365/securitycompliance/keyword-queries-and-search-conditions
 
@@ -65,28 +58,18 @@ Similar to Google and Bing, you can use OR and AND Boolean operators. E.g. "shar
 
 
 ::: greybox
-Note: OR and AND must be capitalized, however, the case is irrelevant for actual search terms.
-
+**Note:** OR and AND must be capitalized, however, the case is irrelevant for actual search terms.
 :::
 
-### Use an 
-   [asterisk (\*)](http://en.wikipedia.org/wiki/Asterisk) wildcard for partial matches
+### Use an [asterisk (\*)](http://en.wikipedia.org/wiki/Asterisk) wildcard for partial matches
 
 This can be useful if you know that certain words are used together, e.g. Fire\* will return results for FireBootCamp.
 
 
 ::: greybox
-Note: Because of word stemming which is enabled by default in SharePoint 2019, 2016, and 2013, you do not need to use wildcards to find variations on words. For example, searching for "computer" will return results that contain "computers", so you do not need to search for "computer\*". 
-
+**Note:** Because of word stemming which is enabled by default in SharePoint 2019, 2016, and 2013, you do not need to use wildcards to find variations on words. For example, searching for "computer" will return results that contain "computers", so you do not need to search for "computer\*". 
 :::
 
 ### Use double quotes to find specific phrases
 
 E.g. search for "social media" to make sure you get results for social media, as opposed to results that simply contain the words "social" and "media" in the same document.
-
-
-### Related Rules
-
-
-* [Do you know how to use Teams Search?](/how-to-use-teams-search)
-* [Do you know how to name SharePoint documents?](/how-to-name-sharepoint-documents)
