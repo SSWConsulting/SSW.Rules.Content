@@ -54,7 +54,9 @@ Figure: Bad Example - George knew there was a way to get better ROI while fixing
 ::: email-content  
 Hi Sean,
 
-I believe it would be a better use of ROI if we wait until I implement the new 3rd party solution I've been working on to fix your signature. The ROI will be better because the cost of my manual labour is significantly more than the cost of the 3rd party solution.
+I will look into fixing the signature by changing the file server's HTML.
+
+**ROI Tip:** I believe it would be a better use of ROI if we wait until I implement the new 3rd party solution I've been working on to fix your signature. The ROI will be better because the cost of my manual labour is significantly more than the cost of the 3rd party solution.
 
 Thanks!
 
