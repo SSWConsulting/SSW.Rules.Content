@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you understand how Return on Investment (ROI) can affect decision making
+title: Do you understand how Return on Investment (ROI) can affect decision making?
 uri: return-on-investment
 authors:
   - title: Josh Bandsma
@@ -67,5 +67,3 @@ George
 ::: good
 Figure: Good Example - George suggested to wait until he had setup the 3rd party solution that he was working on as it would deliver improved ROI
 :::
-
-
