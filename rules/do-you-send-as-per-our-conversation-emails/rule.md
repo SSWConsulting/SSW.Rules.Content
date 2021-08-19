@@ -16,6 +16,7 @@ authors:
   url: https://ssw.com.au/people/justin-king
 related:
 - do-you-know-when-to-do-use-checked-by-xxx
+- do-you-manage-up
 - quality-do-you-know-how-to-request-a-test-please
 - conduct-a-test-please-internally-and-then-with-the-client
 - do-you-seek-clarification-via-the-telephone-first
@@ -114,7 +115,7 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 
 ### Hi John,  
 
-![Figure: Screenshot of Power BI error](powerbi-example.jpg)
+![Figure: Screenshot of Power BI error](powerbi-error.png)
 Apologies for the brevity. Am still in the hospital but wanted to check this.
 
 :::  
@@ -133,7 +134,7 @@ Figure: Bad example - reason at the bottom
 ### Hi John,  
 
 Apologies for the brevity. Am still in the hospital but wanted to check this.
-![Figure: Screenshot of Power BI error](powerbi-example.jpg)
+![Figure: Screenshot of Power BI error](powerbi-error.png)
 
 :::  
 :::  
