@@ -42,7 +42,7 @@ Piers
 :::
 :::
 ::: bad
-Figure: Bad Example - George knew there was a way to get better ROI while fixing the signature as he was currently working on implementing a 3rd party solution, that would require less manual labour. However, he did not mention it
+Figure: Bad Example - ROI was not mentioned
 :::
 
 ::: email-template
@@ -65,7 +65,31 @@ Piers
 :::
 :::
 ::: good
-Figure: Good Example - George suggested to wait until he had setup the 3rd party solution that he was working on as it would deliver improved ROI
+Figure: Okay Example - ROI is mentioned
+:::
+
+
+::: email-template
+|          |     |
+| -------- | --- |
+| From:    | Piers |
+| To:      | Bob Northwind |
+| Subject: | Email signature - not working |  
+::: email-content 
+
+### Hi Bob,
+
+Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour, but I will have to do it for every user once a month. This adds up to 12 hours a month, at a cost of $200/hr, that's $2,400/month. Over a year that's $28,000.
+
+Option B (recommended) Buy this email signature system for $2,000, I spend 2 days configuring it ($3,200), that's a total of $5,200 - so you save $24,800k and also get the results you want with zero effort or issues in the future.
+
+Thanks!
+
+Piers
+:::
+:::
+::: good
+Figure: Good Example - ROI is mentioned and quantified
+:::
 
 **Note:** If fixing the email signatures had been a huge task then it would have been better for Piers to have a conversation with Bob before he implemented the fix.
-:::
