@@ -176,7 +176,7 @@ Bob
 :::  
 :::
 ::: bad
-Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it mess up with the history
+Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
 :::
 
 ::: email-template  
