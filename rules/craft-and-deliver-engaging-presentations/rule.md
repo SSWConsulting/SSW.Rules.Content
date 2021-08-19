@@ -26,7 +26,7 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 ::: bad
 
-**Figure: Bad example – Ill prepared and low energy, turns into good presentation!**
+**Figure: Bad example – Ill prepared and low energy, (FYI he shows you how to fix it though)**
 
 ::: 
 
@@ -39,8 +39,7 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 :::
 
 2. Make the effort to be understood, speak clearly & check for understanding as you go along, even if you can’t hear the audience. For more information about identifying your audience knowledge level, see:
-<https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level>
-
+   <https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level>
 3. Gain repeated exposure to high pressure situations - staying cool & dealing with problems as they arise without derailing yourself or the audience.
 
 ![](picture3.jpg)
@@ -52,7 +51,7 @@ For more information about gaining exposure to pressure situations and avoiding 
 
 **Links:**
 
-* Content
+### Content
 
 <https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
 
@@ -60,7 +59,7 @@ For more information about gaining exposure to pressure situations and avoiding 
 For more information on creating effective powerpoint slides, see:
 <https://www.linkedin.com/business/learning/blog/productivity-tips/5-best-practices-for-making-awesome-powerpoint-slides>
 
-* Delivery
+### Delivery
 
 <https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d>
 
