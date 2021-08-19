@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Do you send a 'For the record' email when you disagree?
-guid: 47440022-76fd-4df5-a81c-363df2a0ccc0
 uri: send-a-for-the-record-email-when-you-disagree
-created: 2010-07-16T06:49:34.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-send-a-for-the-record’-email-when-you-disagree
-- do-you-send-a-for-the-record-email-when-you-disagree
-
+  - do-you-send-a-for-the-record-email-when-you-disagree
+  - do-you-send-a-for-the-record-email-when-you-disagree
+created: 2010-07-16T06:49:34.000Z
+archivedreason: null
+guid: 47440022-76fd-4df5-a81c-363df2a0ccc0
 ---
 
-Over the course of work on a project, there will likely be many little disagreements, and most can be captured in ‘as per our conversation’ emails. Sometimes the differences of opinion relate to architectural issues or things that will be hard to change later. A lot of developers are on the quiet, introverted side, but vocal developers make their stance clear. Even that can be hard with some clients who have super strong voices and some clients are **not** great listeners. 
+Over the course of work on a project, there will likely be many little disagreements, and most can be captured in ["as per our conversation"](/do-you-send-as-per-our-conversation-emails) emails. Sometimes the differences of opinion relate to architectural issues or things that will be hard to change later. A lot of developers are on the quiet, introverted side, but vocal developers make their stance clear. Even that can be hard with some clients who have super strong voices and some clients are **not** great listeners. 
 
 Regardless it is important to document disagreements so the client is crystal clear and a stronger version of ‘as per our conversation’ is to include the words ‘for the record’. Too often developers say they disagree but months later, the client may say:
 
