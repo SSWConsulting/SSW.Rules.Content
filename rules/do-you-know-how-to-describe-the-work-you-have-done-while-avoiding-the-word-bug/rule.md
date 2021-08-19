@@ -10,6 +10,7 @@ authors:
 related: []
 redirects:
   - do-you-know-how-to-describe-the-work-you-have-done
+  - do-you-know-how-to-describe-the-work-you-have-done-(while-avoiding-the-word-bug)
 created: 2013-04-19T19:39:34.000Z
 archivedreason: null
 guid: 2d085ee7-c9aa-4e5a-9754-082b1093ddf7
@@ -24,21 +25,21 @@ On your timesheet entries, there are a few rules you should follow on how to bes
 
 <!--endintro-->
 
-* Use standard terms to describe the work you have done\
+* Use standard terms to describe the work you have done
   E.g. 'Build', 'Investigated', 'Resolved', 'Enhanced', 'Created', 'Optimized', 'Experimented with', 'Improved' or 'Fixed'.
 * Use the word 'bug' only if it fits the [definition of a bug](/management-is-your-client-clear-on-the-definition-of-a-bug).
 * The term 'Investigated and changed' is better than 'Fixed bug'.
   The word 'bug' gives the impression that the problem was solely the developer's fault, when often most fixes are to do with changes as a result of unspecified work (extra validation, extra testing or gold plating).
 
 ::: greybox
-'Fixed Bug on customer form'\
+'Fixed Bug on customer form'
 :::
 ::: bad
 Figure - Bad example
 :::
 
 ::: greybox
-'Investigated and improved the  validation on customer form to enable saving when Customer name is &gt; 100 characters'\
+'Investigated and improved the  validation on customer form to enable saving when Customer name is &gt; 100 characters'
 :::
 ::: good
 Figure - Good example
