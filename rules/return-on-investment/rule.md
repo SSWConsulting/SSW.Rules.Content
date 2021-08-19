@@ -14,15 +14,15 @@ related:
 created: 2021-08-18T06:46:14.461Z
 guid: f994dab2-2982-45fa-afb1-72610bdd780a
 ---
-When speaking with a colleague they might assign you a task. Then you start to action the task, even though you're aware of a better way to go about it. This situation is a problem, as you can end up spending more money than was necessary.
+When you are assigned a task, or come up with one yourself you might not consider all the factors that contribute to ROI. It is important to carefully consider the task and whether another solution providers better ROI. 
 
 <!--endintro-->
 
-When you become aware of the problem, it is important to raise it and let your colleague know that there is a way to get better ROI. 
+If you find out that another solution would be better, then you should clearly communicate that to the Product Owner.
 
-In the software world we use a simple calculation on PBIs of [Business Value ÷ Effort](https://www.ssw.com.au/rules/do-you-estimate-business-value)
+In the software world to calculate ROI we take a PBI and do [Business Value ÷ Effort](https://www.ssw.com.au/rules/do-you-estimate-business-value)
 
-If your colleague still disagrees with you then it may be a good idea to [send a 'For the record' email](/send-a-for-the-record-email-when-you-disagree).
+If the Product Owner still disagrees with you then it may be a good idea to [send a 'For the record' email](/send-a-for-the-record-email-when-you-disagree).
 
 ::: email-template
 |          |     |
