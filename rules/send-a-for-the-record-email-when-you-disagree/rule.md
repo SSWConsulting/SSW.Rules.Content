@@ -20,7 +20,9 @@ Over the course of work on a project, there will likely be many little disagreem
 
 Regardless it is important to document disagreements so the client is crystal clear and a stronger version of ‘as per our conversation’ is to include the words ‘for the record’. Too often developers say they disagree but months later, the client may say:
 
-> “No I don’t recall you disagreed, I thought I gave counter arguments and then I assumed you had agreed with me.”
+::: greybox 
+“No I don’t recall you disagreed, I thought I gave counter arguments and then I assumed you had agreed with me.”
+:::
 
 <!--endintro-->
 
@@ -35,7 +37,7 @@ I spoke to the developer about it, and he knew 100% that he had agreed with the 
 
 **Note** : Even better the developer could have included a URL in the email with a link to a PBI to remove this technical debt later.
  
-Adam Cogan
+- Adam Cogan    
 SSW Chief Architect
 
 :::
@@ -51,25 +53,28 @@ When you have a disagreement with someone who has decision making power, and you
  
 (...6 months later)
 
-> "I knew it, we should never have used React for the Northwind project."
-
+::: greybox
+"I knew it, we should never have used React for the Northwind project."
+:::
 ::: bad 
 Figure: Bad example
 :::
 
 (...on the day)
 
-> "Thanks for the chat today. As per our conversation, you'd like us to build this feature using a quick workaround. Just for the record, the best practice would have been to XXX, but since you are the Product Owner, and I understand we're under time pressure, I of course will go with your decision."
-
+::: greybox
+"Thanks for the chat today. As per our conversation, you'd like us to build this feature using a quick workaround. Just for the record, the best practice would have been to XXX, but since you are the Product Owner, and I understand we're under time pressure, I of course will go with your decision."
+:::
 ::: good 
 Figure: Good example - they asked you to do a shortcut 
 :::
 
 (...on the day)
 
-> "Thanks for the chat today. For the record, I disagree with doing the Northwind Project in React and instead I recommend doing it in Angular, because...XXX.
+::: greybox
+"Thanks for the chat today. For the record, I disagree with doing the Northwind Project in React and instead I recommend doing it in Angular, because...XXX.
 That said, you are the Product Owner and have final say in the matter, so I will proceed with React as per your decision."
-
+:::
 ::: good 
 Figure: Good example - they are making a poor technology choice.  
 :::
@@ -78,9 +83,10 @@ Figure: Good example - they are making a poor technology choice.
 
 (...6 months later - the curious retrospective)
 
-> "I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.  
-As per our conversation, we are both happy that the React solution has panned out and there has been some benefits that we didn't think of at the time such as hiring a couple of cool React developers.   We agreed that we could have saved some money with Angular, but we don't regret the decision."
-
+::: greybox
+"I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.  
+As per our conversation, we are both happy that the React solution has panned out and there has been some benefits that we didn't think of at the time such as hiring a couple of cool React developers. We agreed that we could have saved some money with Angular, but we don't regret the decision."
+:::
 ::: good 
 Figure: Good example – 6 month retrospective to analyse the pros and cons of a past decision.  
 :::
