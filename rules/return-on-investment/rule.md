@@ -14,11 +14,11 @@ created: 2021-08-18T06:46:14.461Z
 guid: f994dab2-2982-45fa-afb1-72610bdd780a
 ---
 
-When speaking with a colleague they might assign you a task. Then you start to action the task, even though you're aware of a better way to go about it. This situation is a problem as you can end up spending more money than was necessary.
+When speaking with a colleague they might assign you a task. Then you start to action the task, even though you're aware of a better way to go about it. This situation is a problem, as you can end up spending more money than was necessary.
 
 <!--endintro-->
 
-When you become aware of the problem, it is important to raise it and let your colleague know that there is a way to get better ROI - Return on Investment. 
+When you become aware of the problem, it is important to raise it and let your colleague know that there is a way to get better Return on Investment (ROI). 
 
 It is a simple calculation of Business Value ÷ Effort.
 
