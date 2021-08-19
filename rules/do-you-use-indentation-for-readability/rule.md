@@ -38,8 +38,8 @@ This way you won't forget any questions in the original email.
 
 ### Hi Adam,
 
-Please change from X to Y  
-The program flow logic worries me a bit  
+Please change from X to Y\
+The program flow logic worries me a bit\
 Done. Sorry, this wasn't a final decision - I just put it there for testing purposes 
 
 :::
@@ -57,10 +57,10 @@ Figure: Bad Example - there's too much information here
 
 ### Hi Adam,
 
-     &gt; 1. Please change from X to Y  
-Done - [add a link to the page or a screenshot];
+     &gt; 1. Please change from X to Y\
+Done - \[add a link to the page or a screenshot];
 
-     &gt; 2. The program flow logic worries me a bit  
+     &gt; 2. The program flow logic worries me a bit\
 Sorry, this wasn't a final decision - I just put it there for testing purposes  
 
 :::
@@ -77,9 +77,9 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 
 When using GitHub, you can use 4 spaces to indent a task and get clear separation between task and response. You can also use a "&gt;" symbol to achieve a similar result.
 
-![Figure: How to write indentations with GitHub in Markdown](githubindentwrite.jpg "githubIndentWrite")
+![Figure: How to write indentations with GitHub in Markdown](githubindentwrite.jpg "How to write indentations with GitHub in Markdown")
 
-![Figure: Preview of different ways to add indentations in GitHub](githubindentpreview.jpg "githubIndentPreview")
+![Figure: Preview of different ways to add indentations in GitHub](githubindentpreview.jpg "Preview of different ways to add indentations in GitHub")
 
 You can find more info about GitHub syntax at [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
