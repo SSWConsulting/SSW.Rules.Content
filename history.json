@@ -946,7 +946,7 @@
 	},
 	{
 		"file": "rules/do-you-send-as-per-our-conversation-emails/rule.md",
-		"lastUpdated": "2021-05-03T16:40:12.341Z",
+		"lastUpdated": "2021-08-19T17:34:51.477Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-06-16T05:33:05+10:00",
@@ -27482,6 +27482,15 @@
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
 		"lastUpdated": "2021-08-17T01:40:51.618Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/do-you-send-as-per-our-conversation-emails/powerbi-error.png",
+		"created": "2021-08-19T17:34:51.478Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-08-19T17:34:51.478Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
