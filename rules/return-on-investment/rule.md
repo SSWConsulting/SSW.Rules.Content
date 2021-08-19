@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you understand how Return on Investment (ROI) can affect decision making?
+title: Do you understand why Return on Investment (ROI) should affect decision making?
 uri: return-on-investment
 authors:
   - title: Josh Bandsma
@@ -14,7 +14,7 @@ related:
 created: 2021-08-18T06:46:14.461Z
 guid: f994dab2-2982-45fa-afb1-72610bdd780a
 ---
-When you are assigned a task, or come up with one yourself you might not consider all the factors that contribute to ROI. It is important to carefully consider the task and whether another solution providers better ROI. 
+An important part of communication is to improve the Product Owner's understanding of ROI and help them make good decisions. When you are actioning a task, it's crucial to value your time and think about how much manual time it may consume over a longer period, say a year. You can then go the extra step and quantify this $ cost.
 
 <!--endintro-->
 
@@ -79,9 +79,20 @@ Figure: Okay Example - ROI is mentioned
 
 ### Hi Bob,
 
-Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour, but I will have to do it for every user once a month. This adds up to 12 hours a month, at a cost of $200/hr, that's $2,400/month. Over a year that's $28,000.
+Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour. 
 
-Option B (recommended) Buy this email signature system for $2,000, I spend 2 days configuring it ($3,200), that's a total of $5,200 - so you save $24,800k and also get the results you want with zero effort or issues in the future.
+...but I will have to do it for every user once a month. 
+
+The choices:
+
+**Option A** - Continue manually adding each email signature, each month. 
+* Maintenance: SysAdmin x 12 hours x $200/hr = $2400 per month
+* Total cost = $28,800 per year
+
+**Option B (recommended)** - Purchase and configure an email signature system.
+* Configure: SysAdmin x 16 hours x $200/hr = $3200 flat fee
+* License: 1 License fee x $2,000 = $2,000 flat fee
+* Total cost = $5200 flat fee
 
 Thanks!
 
