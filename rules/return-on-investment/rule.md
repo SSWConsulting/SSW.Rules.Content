@@ -14,11 +14,6 @@ related:
 created: 2021-08-18T06:46:14.461Z
 guid: f994dab2-2982-45fa-afb1-72610bdd780a
 ---
-
-When you propose tasks you should be thinking about the
-
-zzSometimes you might be assigned a task or come up with one yourself. 
-
 When speaking with a colleague they might assign you a task. Then you start to action the task, even though you're aware of a better way to go about it. This situation is a problem, as you can end up spending more money than was necessary.
 
 <!--endintro-->
