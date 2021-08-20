@@ -81,11 +81,11 @@ Figure: Okay Example - ROI is mentioned
 
 Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour. 
 
-...but I will have to do it for every user once a month. 
+...but I will have to do it for each of our 12 users once a month. 
 
 The choices:
 
-**Option A** - Continue manually adding each email signature, each month. 
+**Option A** - Continue manually adding each email signature, every month. 
 * Maintenance: SysAdmin x 12 hours x $200/hr = $2400 per month
 * Total cost = $28,800 per year
 
