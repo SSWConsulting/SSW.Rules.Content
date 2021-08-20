@@ -29,7 +29,7 @@ If the Product Owner still disagrees with you then it may be a good idea to [sen
 | -------- | --- |
 | From:    | Piers |
 | To:      | Bob Northwind |
-| Subject: | Email signature - not working |  
+| Subject: | Email signature - not working |\
 ::: email-content  
 
 ### Hi Bob,
@@ -50,7 +50,7 @@ Figure: Bad Example - ROI was not mentioned
 | -------- | --- |
 | From:    | Piers |
 | To:      | Bob Northwind |
-| Subject: | Email signature - not working |  
+| Subject: | Email signature - not working |\
 ::: email-content 
 
 ### Hi Bob,
@@ -68,13 +68,12 @@ Piers
 Figure: Okay Example - ROI is mentioned
 :::
 
-
 ::: email-template
 |          |     |
 | -------- | --- |
 | From:    | Piers |
 | To:      | Bob Northwind |
-| Subject: | Email signature - not working |  
+| Subject: | Email signature - not working |\
 ::: email-content 
 
 ### Hi Bob,
@@ -86,13 +85,15 @@ Done - I have fixed the email signature by changing the file server's HTML and i
 The choices:
 
 **Option A** - Continue manually adding each email signature, every month. 
-* Maintenance: SysAdmin x 12 hours x $200/hr = $2400 per month
+
+* Maintenance: SysAdmin x 12 hours x $200/hr = $2,400 per month
 * Total cost = $28,800 per year
 
 **Option B (recommended)** - Purchase and configure an email signature system.
-* Configure: SysAdmin x 16 hours x $200/hr = $3200 flat fee
+
+* Configure: SysAdmin x 16 hours x $200/hr = $3,200 flat fee
 * License: 1 License fee x $2,000 = $2,000 flat fee
-* Total cost = $5200 flat fee
+* Total cost = $5,200 flat fee
 
 Thanks!
 
