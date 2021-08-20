@@ -17,7 +17,7 @@ index:
 - address-formatting
 - refer-consistently-throughout-your-document
 - are-you-careful-with-your-spelling-grammar-and-punctuation
-- use-words-instead-of-digits-for-low-numbers
+- use-digits-instead-of-words
 - use-quotation-mark-for-controls
 - use-correct-symbols-when-documenting-instructions
 - use-the-right-order-of-instructions
