@@ -29,7 +29,7 @@ If the Product Owner still disagrees with you then it may be a good idea to [sen
 | -------- | --- |
 | From:    | Piers |
 | To:      | Bob Northwind |
-| Subject: | Email signature - not working |\
+| Subject: | Email signature - not working |
 ::: email-content  
 
 ### Hi Bob,
@@ -50,7 +50,7 @@ Figure: Bad Example - ROI was not mentioned
 | -------- | --- |
 | From:    | Piers |
 | To:      | Bob Northwind |
-| Subject: | Email signature - not working |\
+| Subject: | Email signature - not working |
 ::: email-content 
 
 ### Hi Bob,
@@ -73,7 +73,7 @@ Figure: Okay Example - ROI is mentioned
 | -------- | --- |
 | From:    | Piers |
 | To:      | Bob Northwind |
-| Subject: | Email signature - not working |\
+| Subject: | Email signature - not working |
 ::: email-content 
 
 ### Hi Bob,
