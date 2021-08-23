@@ -57,7 +57,7 @@ Figure: Bad Example - ROI was not mentioned
 
 Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour. 
 
-**ROI Consideration -** As per our conversation, for future changes to email signatures, let's wait until I implement the new 3rd party solution I am working on. This will give better ROI because I won't need to do any further wasted work.
+**ROI Consideration -** As per our conversation, **I have to make these changes every month for 12 users**. Therefore, for future changes to email signatures, let's wait until I implement the new 3rd party solution I am working on. This will give better ROI because I won't need to do any further wasted work.
 
 Thanks!
 
@@ -65,7 +65,7 @@ Piers
 :::
 :::
 ::: good
-Figure: Okay Example - ROI is mentioned
+Figure: OK Example - ROI is mentioned
 :::
 
 ::: email-template
@@ -80,7 +80,7 @@ Figure: Okay Example - ROI is mentioned
 
 Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour. 
 
-...but I will have to do it for each of our 12 users once a month. 
+...**but I will have to do it for each of our 12 users once a month**. 
 
 The choices:
 
