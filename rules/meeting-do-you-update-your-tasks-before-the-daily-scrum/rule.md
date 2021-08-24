@@ -1,23 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Meeting - Do you update your tasks before the Daily Scrum?
-guid: 7ba991bc-384e-48ad-919e-09cb5b67472c
 uri: meeting-do-you-update-your-tasks-before-the-daily-scrum
-created: 2010-04-07T05:21:16.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2010-04-07T05:21:16.000Z
+archivedreason: null
+guid: 7ba991bc-384e-48ad-919e-09cb5b67472c
 ---
-
-All team members must update their tasks with  status, (and remaining hours if you are estimateing tasks) prior to the daily Scrum meeting.
+All team members must update their tasks with  status, (and remaining hours if you are estimating tasks) prior to the daily Scrum meeting.
 
 <!--endintro-->
 
-![Figure: Update the following screen to keep your burndown rate accurate.](Updatetasks.jpg)  
+![Figure: Update the following screen to keep your burndown rate accurate.](Updatetasks.jpg)
 
 **Related Links** 
 
@@ -26,6 +24,7 @@ All team members must update their tasks with  status, (and remaining hours if y
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
+
 * [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
 * Scrum Meeting (Daily standup - described on this page)
 * [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
