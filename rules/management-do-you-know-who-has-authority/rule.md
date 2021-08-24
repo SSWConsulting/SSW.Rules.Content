@@ -5,6 +5,8 @@ uri: management-do-you-know-who-has-authority
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 created: 2009-02-19T02:27:53.000Z
@@ -46,4 +48,4 @@ The following is the recommended approach to governing this process:
 
 * At the beginning of the project an employee from the client is assigned as Product Owner. This person has full authority as to what work is "in" or "out". Every new item of work should be visible to the Product Owner. ([CC is your friend](https://www.ssw.com.au/rules/cc-the-client-whenever-possible), [@mention is your friend](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi))
 * Whenever someone who ISN'T the Product Owner makes a request for work, the Product Owner must be CC'd. For example, if Mary the receptionist has not done this, the developer sends the email again to himself, and CC's the Product Owner (and of course other relevant people).
-* **Note:** The assumption is made that the task is good to go, so it is the Product Owner's responsibility to make sure that they reply ASAP if they don't want the problem fixed.
+* **Note:** The assumption is made that the task is good to go, so it is the Product Owner's responsibility to reply ASAP if they don't want the problem fixed.
