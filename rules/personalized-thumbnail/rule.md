@@ -28,8 +28,6 @@ Thumbnails are a great way of telling your (potential) viewers what your video i
 
 A thumbnail can draw attention by:
 
-
-
 * Using bright colors and avoiding using the YouTube colors (white, black, red) so you don’t bend in.
 * Being custom ([90% of the best performing videos on YouTube have custom thumbnails](https://creatoracademy.youtube.com/page/lesson/thumbnails#strategies-zippy-link-2)).
 * Using big bold titles (30 characters maximum, remember a thumbnail is small).
@@ -38,18 +36,14 @@ A thumbnail can draw attention by:
 
 YouTube offers [resources to create better custom thumbnails](https://support.google.com/youtube/answer/72431?hl=en) including image size and resolution, policies, etc.
 
-![](thumbnail_bad.png)
+
 
 ::: bad
-Bad example: despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough.
-
+![Bad example: despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough](thumbnail_bad.png)
 :::
-
-
-![](thumbnail_good.png) 
 
 ::: good
-Good example: a custom thumbnail looks professional and already gives important information about the content of the video.  
+![Good example: a custom thumbnail looks professional and already gives important information about the content of the video](thumbnail_good.png)  
 :::
 
- **Images** : courtesy of Brian Dean ([source](https://backlinko.com/grow-youtube-channel)).
+**Image creadits**: [courtesy of Brian Dean](https://backlinko.com/grow-youtube-channel).
