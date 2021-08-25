@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the right way to report bugs and give feedback/suggestions?
-guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 uri: the-right-way-to-report-bugs-and-give-feedback-suggestions
-created: 2009-03-25T04:53:21.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-related: 
-- do-you-provide-details-when-reporting-net-applications-errors
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+related:
+  - do-you-provide-details-when-reporting-net-applications-errors
 redirects:
-- do-you-know-the-right-way-to-report-bugs
-- do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
-
+  - do-you-know-the-right-way-to-report-bugs
+  - do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
+created: 2009-03-25T04:53:21.000Z
+archivedreason: null
+guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
 
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
@@ -171,10 +170,12 @@ The Product Owner can always respond if he doesn’t like the suggestion:
 
 **Note:** You may have a group email such as all@northwind.com.au, You would only Cc this email for greater visibility. 
 
---
+:::
 
-When you create a bug/suggestion to a backlog, you may add an emoji in the title so it looks nicer:
+### Do you use emojis for PBI titles?
+
+When you create a bug/suggestion to a backlog, it's a good idea to add emoji in the title. Not only does it look nicer, but people can look at the item and take in the necessary information quickly.
+
+This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc.):
 - 🐛 Bug - Calendar is not showing on iOS devices
 - ✨Feature - Add 'Back to menu' item to top navigation
-
-:::
