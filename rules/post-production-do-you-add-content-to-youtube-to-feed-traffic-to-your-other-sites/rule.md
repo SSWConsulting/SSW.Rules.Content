@@ -11,7 +11,7 @@ redirects: []
 
 ---
 
-<font face="Verdana">For most users, YouTube only allows a maximum length of 15 minutes on their videos. As such, if you have videos that are longer than 15 minutes, they will need to be uploaded to a video site that does allow longer video uploads, such as Wistia or Vimeo. The problem with doing this is that you aren’t harnessing the 2<sup>nd</sup> biggest search engine in the world to promote your content and without that, your video campaign isn’t reaching its full potential. The best way to solve this problem is to follow these steps:</font>
+For most users, YouTube only allows a maximum length of 15 minutes on their videos. As such, if you have videos that are longer than 15 minutes, they will need to be uploaded to a video site that does allow longer video uploads, such as Wistia or Vimeo. The problem with doing this is that you aren’t harnessing the 2<sup>nd</sup> biggest search engine in the world to promote your content and without that, your video campaign isn’t reaching its full potential. The best way to solve this problem is to follow these steps:
 
 <!--endintro-->
 
@@ -19,14 +19,14 @@ redirects: []
 2. At the end of these clips include a [call to action](/production-do-you-add-a-call-to-action)that prompts the viewer to see the full version at your other site(s). If your other site(s) offer free viewings, make sure you mention this.
 3. Upload these versions to YouTube (preferably around the same time you upload the full versions to other sites).
 
+[http://www.youtube.com/watch?v=DbpolzdGJ7Y](http://www.youtube.com/watch?v=DbpolzdGJ7Y)
 
-[![](Bad 1st 5 min example.jpg)](http://www.youtube.com/watch?v=DbpolzdGJ7Y) 
- **Figure: Bad Example – No call to action prompting viewers to go and see the full version.**  
-[![Okay 1st 5 min Example.jpg](Okay-1st-5-min-Example.jpg)](http://www.youtube.com/watch?v=DbpolzdGJ7Y) 
-Figure: Okay Example – A link to the full version is included in the description section but no Call to Action in the actual video.
+![Figure: Bad Example – No call to action prompting viewers to go and see the full version.](Bad-1st-5-min-example.jpg)
 
 
+[https://www.youtube.com/watch?v=riTKDH8gSh8](https://www.youtube.com/watch?v=riTKDH8gSh8)
+![Figure: Okay Example – A link to the full version is included in the description section but no Call to Action in the actual video.](Okay-1st-5-min-Example.jpg)
 
 
-
- Figure: Good Example - contains a clear, live action call to action directing the viewer to see the full version.
+`youtube: https://youtu.be/8xhzZDBHkq8`
+**Figure: Good Example - contains a clear, live action call to action directing the viewer to see the full version.**

@@ -50,7 +50,7 @@ index:
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
 - rules-to-better-unit-tests
-- do-you-know-how-to-set-up-github-workflow
+- rules-to-better-naming-conventions
 
 ---
 

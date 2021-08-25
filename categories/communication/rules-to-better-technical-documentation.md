@@ -14,9 +14,10 @@ index:
 - how-to-add-quotations
 - avoid-using-unnecessary-words
 - make-numbers-more-readable
+- address-formatting
 - refer-consistently-throughout-your-document
 - are-you-careful-with-your-spelling-grammar-and-punctuation
-- use-words-instead-of-digits-for-low-numbers
+- use-digits-instead-of-words
 - use-quotation-mark-for-controls
 - use-correct-symbols-when-documenting-instructions
 - use-the-right-order-of-instructions
@@ -43,6 +44,7 @@ index:
 - do-you-write-the-word-email-in-the-correct-format
 - scrum-should-be-capitalized
 - keep-your-urls-clean
+- format-new-lines
 
 ---
 

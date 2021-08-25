@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/tiago-araujo
 - title: Liam Elliott
   url: https://ssw.com.au/people/liam-elliott
-related: []
+related: 
+- integrate-dynamics-365-and-microsoft-teams
 redirects:
 - do-you-know-where-to-keep-your-files
 - do-you-know-where-to-keep-your-files-tfs-sharepoint
@@ -46,24 +47,17 @@ For most projects, you need to quickly store and locate important details and do
 * Upcoming features (most often in Word or OneNote)
 * General documents e.g. Requirements/Specifications (Note: it is possible to share documents from Microsoft Teams externally, but not from Teams directly... just open it in Office Online or a specific Office app first)
 
-
-
-
-
 ::: bad  
 ![Figure: Bad example – It might be easy to use File Shares, your Local C: or emails – but don’t. They don’t work in a team environment as they aren’t easy for others to access](Dont-keep-files.jpg)  
 :::
-
 
 ::: bad  
 ![Figure: Bad example – SharePoint integrated into Azure DevOps (was VSTS/TFS) is not supported via Visual Studio anymore](keep-files-TFS.jpg)  
 :::
 
-
 ::: bad  
 ![Figure: Bad example – even though this is using SharePoint - this is using a Team Site with a Document Library - it is better to use Microsoft Teams which uses SharePoint under the covers](keep-files-SP.jpg)  
 :::
-
 
 ::: good  
 ![Good example: Use Microsoft Teams and it will automatically create a Site for the Team (and that includes a document library which you can connect to with OneDrive)](keep-files-sp-teams.jpg)  
@@ -71,9 +65,7 @@ For most projects, you need to quickly store and locate important details and do
 
 ### What does not get stored in Microsoft Teams? 
 
-
 1.	For developers,
-
 
 > A: code obviously belongs in GitHub, Azure DevOps, etc.
 > 
@@ -84,12 +76,4 @@ For most projects, you need to quickly store and locate important details and do
 
 ### What about usernames and passwords?
 
-
-Documents with user names and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. Use Azure KeyVault or [KeePass](http://keepass.info/) to store usernames and passwords. KeePass keeps all passwords in one database locked by a master key, which should be accessible only by the few people you trust.
-
-
-
-### Related rule
-
-
-* Do you integrate Dynamics 365 and Microsoft Teams?
+Documents with user names and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords. 

@@ -10,22 +10,20 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related: 
+- dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
 redirects: []
 
 ---
 
-Often we receive a reply to an email and it has one word - "Yes."
+Often we receive a reply to an email and it has one word - "Done."
 
-If the sender can't remember what was asked and the respondent has deleted the history, it's hard to tell what's going on. It's not possible to check whether all questions were answered, or what URL was in the original email. Also, we can't CC someone else on the new reply because the email is missing half the information.
+If the sender can't remember what was asked and the respondent has deleted the history, it's hard to tell what's going on. It's not possible to check whether all questions were answered, or what URL was in the original email. Also, we can't Cc someone else on the new reply because the email is missing half the information.
 
 So the only way is to go back into 'sent items', find what was asked for and copy and paste it into my reply, which can be very frustrating.
 
 <!--endintro-->
- Crazy. Just  **don't delete the history** ! Geezzzzeeeee, surely we aren't that hard up for disk space ;)
-### Related Rule 
+
+ So, **never delete the email history**! Surely we aren't that hard up for disk space ;)
 
 
-
-
-* [Dones - Do you include relevant info from attachments in the body of the email?](/dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email)

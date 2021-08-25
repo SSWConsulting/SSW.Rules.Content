@@ -11,6 +11,8 @@ authors:
 - title: Jerwin Parker Roberto
   url: https://ssw.com.au/people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+- title: Josh Bandsma
+  url: https://www.ssw.com.au/people/josh-bandsma
 related:
 - keep-your-social-media-updated
 - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
@@ -37,11 +39,11 @@ So, here are a few examples taken from our social media of what you could post o
 
 ### #3 - Video content
 
-![Figure: SSW TV Tech tips recorded during NDC 2019 on YouTube - Watch the playlist here](sswtv.jpg)  
+![Figure: Adam Cogan and Matt Goldman Discuss Avoiding the Technical Debt Spiral on SSW TV](sswtv-v2.jpg)  
 
 ### #4 - Events that your company organised
 
-![Figure: Clean Architecture Superpowers paid training promotion on SSW's socials](promoclean.jpg)  
+![Figure: Azure Superpowers - Paid training promotion on SSW's social media](promo-azure.jpg)  
 
 ![Figure: Angular Hack Day post-event post](sswevents.jpg)  
 
@@ -53,29 +55,33 @@ So, here are a few examples taken from our social media of what you could post o
 
 ![Figure: In profile photos, you can show your employees in action](kikisprofile.png)  
 
+![Figure: Another example of an employee action shot](tom-profile.png)
+
 ### #7 - Your employees' blogs posts
 
-![Figure: Use the same image from the blog post for consistency](blogpost.jpg)  
+![Figure: Use the same image from the blog post for consistency](tim-blog.png)
 
 ### #8 - Your business blog posts
 
-![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpg)  
+![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpeg)  
 
-### #9 - General content wrote by your team on your website
+### #9 - General content written by your team on your website
 
-![Figure: Even though some of your content doesn’t have a photo, you can add a relevant one from free stock photo services,like the above](rules.jpg)  
+![Figure: Even though some of your content won't have a photo, you can add a relevant one from a free stock photo service](rules-v2.png)  
 
 ### #10 - Employment opportunities
 
-![Figure: Hiring post following branding guidelines](hiringpost.jpg)  
+![Figure: Hiring post following branding guidelines](hiring-v2.png)
 
-### #11 - Teamwork, parties, etc
+### #11 - Teamwork, parties, etc.
 
-![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpg)  
+![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpeg) 
+
+![Figure: SSW Melbourne - Following COVID-19 safety guidelines](covid-teamwork.png)
 
 ### #12 - Relevant news for your industry
 
-![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews.jpg)  
+![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)  
 
 ### #13 - Memes, if they suit your industry
 

@@ -24,7 +24,7 @@ Often clients will see a multi-page T&C document with a box at the end that says
 3. Scan the documents together as one document
 4. Email that entire document to the client
 
-
+Note: to do this directly in PDF (without using a printer or scanner) use https://smallpdf.com/ (2 actions a day are free)
 
 ::: greybox
 Dear Client. 

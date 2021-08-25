@@ -19,10 +19,12 @@ redirects:
 LinkedIn is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.
 
 <!--endintro-->
-![](edit_featured_final.png)
-Figure: In the Featured section, use the "+" and then "Links" buttons to include the URLs for the main services your provide.
 
-![](linkedin_services_bad_example.png)Figure: Bad example - Profile with no links
+![Figure: In the Featured section, use the "+" and then "Links" buttons to include the URLs for the main services your provide](edit_featured_final.png)
+
+::: bad
+![Figure: Bad example - Profile with no links](linkedin_services_bad_example.png)
+:::
 
 ::: good  
 ![Figure: Good example - Profile with links to main services provided](linkedin\_services\_good\_example.png)  

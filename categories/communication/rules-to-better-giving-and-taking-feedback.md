@@ -19,6 +19,7 @@ index:
 - use-off-the-record-conversations
 - do-you-do-monthly-peer-evaluations
 - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
+- todo-tasks
 
 ---
 

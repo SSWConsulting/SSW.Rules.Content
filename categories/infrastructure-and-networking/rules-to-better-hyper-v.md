@@ -10,7 +10,7 @@ index:
 - do-you-use-basic-volumes-inside-vhds
 - do-you-know-how-to-expand-your-vhds-when-you-are-low-on-space
 - do-you-give-your-network-adapters-meaningful-names
-- do-you-name-your-virtual-machines-with-a-standadized-naming-convention
+- name-your-virtual-machines-with-a-standardized-naming-convention
 - do-you-export-a-virtual-machine-if-you-need-to-move-it
 - do-you-shut-down-a-virtual-machine-before-running-a-snapshot
 - do-you-delete-old-snapshots-before-making-a-new-one
