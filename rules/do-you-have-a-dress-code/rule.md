@@ -48,11 +48,14 @@ Many companies find it a good idea to have Casual Fridays. It is free and easy t
 At SSW, the employees **"dress up"** on Mondays and Tuesdays by wearing company colors, with a nice shirt (business or polo), trousers (not blue jeans), belt, nice shoes (no sneakers, joggers or thongs). So most employees wear their SSW shirts on Mondays.
 
 Then they **"dress down"** later in the week... so they have **"Casual Thursday"** and **"Sporty Friday"**.
+
+- [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
+- [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
 :::
 
 Thursday are casual clothes. On Fridays, they encourage sport clothes, such as shorts. It allows the end of the week to be fun.
 
-![Figure: SSW Dress Code can be downloaded here (internal only)](SSW\_Dresscode\_Poster.png)  
+![Figure: SSW Dress Code poster](SSW\_Dresscode\_Poster.png)  
 
 ### Shorts Days - the cool exception
 
