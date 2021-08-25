@@ -10,50 +10,47 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Jean Thirion
   url: https://ssw.com.au/people/jean-thirion
-related: []
+related: 
+- do-you-know-how-to-use-sharepoint-search
 redirects:
 - do-you-know-how-to-use-teams-search
 
 ---
 
-Teams search is designed to help you quickly find the files you are collaborating on.
+Microsoft Teams search is designed to help you quickly find the files you are collaborating on.
 
 From the main search box, you can search for:
 
 * Teams
 * Channels
-* Files
 * Messages
 * People
-
+* Files
 
 <!--endintro-->
 
-If you start typing in the search box, you will see all Teams and Channels that matches your query:
+If you start typing in the search box, you will see a dropdown with the main results that matches your query divided by type, prioritizing **Teams** and **Channels**:
 
-![Figure: Search results for "Training". The 1st two results are Teams, the 3rd one is a channel.Teams only show up with their title, while channels show with the name of the associated Team underneath](teams-search-1.png)  
+![Figure: Search results for "marketing"](teams-search-dropdown.png)  
 
-![Figure: Teams result](teams-search-2.png)  
+::: info
+**Tip:** Apart from the little heading, as per the image above, you can recognize a **Teams** result when it only shows up the title, while a **Channel** result shows the title with the name of the associated **Team** underneath.
+:::
 
-![](teams-search-3.png)  
-Figure: Channel associated to a Team result
-**Warning:** If you hit enter, you will be redirected to the Messages, Files & People results. To see the Teams/Channels matching your query, simply click the search box again
+Once you hit "enter", you will be directed to **all** results, separated by **Messages**, **People**, and **Files** tabs:
 
+![Figure: Use the 3 built-in tabs to search through the different types of results](teams-search-tabs.png)  
 
+::: info
+**Tip:** After hiting "enter", to see the **Teams** and **Channels** results, simply click the search box again.
+:::
 
-Once you've hit "Enter", you can search through the different tabs to find messages, people or files that match your query across all teams
+You may use built-in filters to refine your search under each of the tabs:
 
-![Figure: Use the 3 built-in tabs to search through the different categories](teams-search-4.jpg)  
+![Figure: Built-in filters for Messages](teams-search-filter.png)  
 
-You can also use built in filters to refine your search, by clicking the "Filter" icon in Messages or Files tabs:
+::: info
+**Important:** Even though Teams search gives you quick access to all your messages and documents; the search is scoped to **Teams only**, which means you cannot search for files hosted on SharePoint, OneDrive, other Office365 products (E.g. Delve/UserProfile), or external sources (E.g. sugarlearning.com). 
 
-![Figure: Built in filters for Messages (see #3)](teams-search-5.png)  
-
-**Important:** Even though Teams search gives you quick access to all your messages and documents; the search is scoped to ONLY Teams, which means you cannot search for files hosted on SharePoint, OneDrive, other Office365 products (i.e. Delve/UserProfile) or external sources (i.e. Sugarlearning.com, Rules.SSW.com.au etc...). For this reason, it is advised to use the SharePoint Search instead.
-
-### Related Rule
-
-
-
-
-* [Do you know how to use SharePoint Search?](/do-you-know-how-to-use-sharepoint-search)
+When you need to do a more extensive search, it is advised to use [SharePoint search](/sharepoint-search) instead.
+:::

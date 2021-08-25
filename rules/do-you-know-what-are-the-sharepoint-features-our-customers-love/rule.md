@@ -1,25 +1,23 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know what are the SharePoint features customers love?
-guid: b925a34f-2222-4ff3-bfc8-22a0138f00ed
 uri: do-you-know-what-are-the-sharepoint-features-our-customers-love
-created: 2016-05-06T22:56:17.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: []
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
+related:
+  - search-employee-skills
 redirects:
-- do-you-know-what-are-the-sharepoint-features-customers-love
-
+  - do-you-know-what-are-the-sharepoint-features-customers-love
+created: 2016-05-06T22:56:17.000Z
+archivedreason: null
+guid: b925a34f-2222-4ff3-bfc8-22a0138f00ed
 ---
+SharePoint is a great platform for intranet, and the new version SharePoint 2019 and SharePoint Online is getting even better every day.
 
-SharePoint is a great platform for intranet, and the new version SharePoint 2016 and SharePoint Online is getting even better every day.
-
-
-`youtube: https://www.youtube.com/embed/s12Jb5Z2xaE?rel=0`
- 
-
+`youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
 
 <!--endintro-->
 

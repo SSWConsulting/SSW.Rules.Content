@@ -6,6 +6,7 @@ uri: rules-to-better-social-media
 index:
 - keep-your-social-media-updated
 - approval-for-your-social-media-content
+- check-facts
 - do-you-analyse-your-results-once-a-month
 - know-how-to-take-great-photos-for-your-socials
 - image-standard-sizes-on-social-media

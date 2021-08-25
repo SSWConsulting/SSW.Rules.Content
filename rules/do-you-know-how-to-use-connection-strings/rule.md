@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason:
 title: Do you know how to use Connection Strings?
-guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
 uri: do-you-know-how-to-use-connection-strings
-created: 2009-05-08T08:53:04.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Calum Simpson
-  url: https://ssw.com.au/people/calum-simpson
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Calum Simpson
+    url: https://ssw.com.au/people/calum-simpson
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
 related: []
-redirects: 
-- do-you-know-how-to-use-connection-string-in-net-2-0
-
+redirects:
+  - do-you-know-how-to-use-connection-string-in-net-2-0
+created: 2009-05-08T08:53:04.000Z
+archivedreason: null
+guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
 ---
 
 Accessing your application configuration and secret values is easily done via the `IConfiguration` interface (from `Microsoft.Extensions.Configuration.Abstractions`).
@@ -271,7 +270,7 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
 ![Figure: Your WebApp Configuration - no passwords or secrets, just a name of the Key vault that it needs to access](configuration.png)
 :::
 
-`youtube: https://www.youtube.com/embed/-aTlON-UCVM`
+`youtube: https://www.youtube.com/embed/ZG7IykWdlng`
 
 ::: good 
 Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail

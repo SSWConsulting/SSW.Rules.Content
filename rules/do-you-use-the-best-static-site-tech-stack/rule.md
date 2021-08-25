@@ -41,35 +41,10 @@ There are a few hosting options to choose from including:
 *	[Surge.sh](https://surge.sh/)
 
 There are also many different static site generators:
-  
-*	[Gatsby](https://www.gatsbyjs.com/) (recommended)
 
-    *	React based
-  
-    *	Lots of plugins
-    
-    * Data handling via GraphQL
-    
-    * Works natively with GitHub as a Datasource.
-  
-*	[Jekyll](https://jekyllrb.com/)
-    
-    * Liquid based [(Shopify’s templating language)](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
-    
-    * Simple to setup
-    
-    * Out of the box integration with GitHub pages
-    
-    * Scales poorly
-    
-    * [Windows is not supported](https://jekyllrb.com/docs/installation/windows/)
-  
-*	[Next.js](https://nextjs.org/)
-    
-    * React based
-    
-    * Server-side rendered pages but can be exported as a static site
-    
-    * Provides full control over which data handling technology you use
-    
-    * More scalable than conventional static site generators
+| **Name** | [Gatsby](https://www.gatsbyjs.com/) (Recommended) | [Next.js](https://nextjs.org/) | [Scully](https://scully.io/) | [Gridsome](https://gridsome.org/) | [Statiq](https://statiq.dev/) | [Jekyll](https://jekyllrb.com/)
+| --- | --- | --- | --- | --- | --- | ---
+| **Language** | [React](https://reactjs.org/) | React | [Angular](https://angular.io/) | [Vue](https://vuejs.org/) | [.NET](https://dotnet.microsoft.com/) | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language)
+| **Data Handling** | [GraphQL](https://graphql.org/) | Fully customisable | Fully customisable | GraphQL | Fully customisable | Source code data files
+| **Data Sources** | Filesystems, CMS, APIs, Databases, Local files | Fully customisable | Fully customisable | Source Plugins, APIs, Local files | Fully customisable | Local files
+| **GitHub Pages Integration** | Seamless deployment via config files | Requires setup | Deployment via GitHub Actions | Seamless deployment via config files | Deployment via GitHub Actions | Works out of the box 

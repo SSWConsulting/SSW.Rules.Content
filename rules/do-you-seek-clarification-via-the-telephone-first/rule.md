@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related:
+- as-per-our-conversation-emails
 redirects: []
 
 ---
@@ -32,17 +33,17 @@ However, sometimes you cannot immediately reach the task owner. In this case, yo
 ::: email-content  
 
 **Hi John,**
-(As per our conversation, I needed a bit more information to complete this task. Next time, it would be great if you could include additional information like the below so I could complete it without bothering you)
+As per our conversation, I needed a bit more information to complete this task. Next time, it would be great if you could include additional information like the below so I could complete it without bothering you.
 
 FYI - This task has been put onto the backlog [add link] and should be looked at in the next sprint.
-
-Mark
 
 **To Myself,**
 
 [Fill in the information you just got from the conversation] 
 
 ...
+
+Mark
 
 :::  
 :::  

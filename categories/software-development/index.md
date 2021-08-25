@@ -50,7 +50,7 @@ index:
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
 - rules-to-better-unit-tests
-- do-not-use-meta-tags-to-redirect
+- rules-to-better-naming-conventions
 
 ---
 

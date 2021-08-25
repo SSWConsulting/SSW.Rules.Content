@@ -22,7 +22,7 @@ Most people don’t manage their inbox effectively. Emails should be treated as 
 
 <!--endintro-->
 
-Your inbox should only contain 'tasks', that are actionable items on your  **list of things to do** . Everything that is in your 'Inbox' (including sub-folders) should only be to-do items.
+Your inbox should only contain 'tasks', that are actionable items on your **list of things to do**. Everything that is in your 'Inbox' (including sub-folders) should only be to-do items.
 
 So do it now, delete all emails you have done. If you want to keep some for reference, move them to a new folder that is not in your inbox.
 
