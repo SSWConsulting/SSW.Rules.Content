@@ -19,9 +19,15 @@ When booking in client work, always make sure you ask the client to gather enoug
 
 There are always exceptions, such as emergencies or small fixes, but do your best to limit them.
 
-You should always bill an 8-hour day, unless the developer feels that some time should be written off and you agree with their assessment. Speak to the developer if you see any discrepancies. For example:
+### Checking for Exceptions
 
-> "Hey XXX, I see you are putting down 6 hours for Company A when I have booked you for the whole day. Can put the whole 8 hours down and let me know if you think something should be written off?"
+You should always bill an 8-hour day, unless the developer feels that some time should be written off and you agree with their assessment. Speak to the developer if you see any discrepancies. 
+
+Some developers may take it upon themselves to only timesheet for 6 or 7 hours, and book the rest internally. This should only be allowed if they have explicit permission from their manager ahead of time. 
+
+For example:
+
+> "Hey XXX, I see you are putting down 6 hours for Company A when I have booked you for the whole day. Please always timesheet the full 8 hours and let me know if you think something should be written off."
 
 See Rules to Better Sales Account Management -  [Do you book in a minimum of 1 day's work at a time?](/do-you-book-in-a-minimum-of-1-days-work-at-a-time)
 
