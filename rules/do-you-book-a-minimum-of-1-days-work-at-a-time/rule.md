@@ -23,7 +23,7 @@ There are always exceptions, such as emergencies or small fixes, but do your bes
 
 You should always bill an 8-hour day, unless the developer feels that some time should be written off and you agree with their assessment. Speak to the developer if you see any discrepancies. 
 
-Some developers may take it upon themselves only timesheet for 6 or 7 hours, and book the rest internally. this should only be allowed if they have explicit permission from their manager ahead of time. 
+Some developers may take it upon themselves to only timesheet for 6 or 7 hours, and book the rest internally. this should only be allowed if they have explicit permission from their manager ahead of time. 
 
 For example:
 
