@@ -26,4 +26,4 @@ Basically, you can have that on any asset owned by your business. Items like mon
 
 For items like laptops, it can also be a good idea to tape your business card below the sticker so it can be returned to you if you lose it.
 
-![Figure: Sticker proving that you should take every chance to show off your brand](MicrosoftTeams-image (7).png)
+![Figure: Sticker proving that you should take every chance to show off your brand](asset-branding.png)
