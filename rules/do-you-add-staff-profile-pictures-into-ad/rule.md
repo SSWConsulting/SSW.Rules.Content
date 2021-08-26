@@ -12,12 +12,12 @@ archivedreason: null
 guid: 005bc852-6c6c-430c-bb5a-d6d8cb4dd741
 ---
 
-You can upload Staff profile pictures into Active Directory. Exchange and Lync will automatically use these profile pictures.  
+You can upload staff profile pictures into Active Directory. Exchange and Lync will automatically use these profile pictures.  
+
 <!--endintro-->
 
-Using a free third party tool AD Photo Edit tool which can be downloaded from     http://www.cjwdev.co.uk/ you can upload Staff profile pictures into AD. You need to run the application with Domain Admin rights. After you have uploaded the picture for a user it will take some time for the change to be replicated through to Exchange and Lync if you have use these solutions.
+Using a free third party tool AD Photo Edit tool which can be downloaded from     [cjwdev.co.uk](http://www.cjwdev.co.uk/) you can upload staff profile pictures into AD. You need to run the application with Domain Admin rights. After you have uploaded the picture for a user it will take some time for the change to be replicated through to Exchange and Lync if you have use these solutions.
 
 ![Figure: Profile picture imported from AD into Exchange](ExchangeAdPhoto.jpg)  
 
-![](Lync.jpg)  
-Figure: Profile picture imported from AD into Lync
+![Figure: Profile picture imported from AD into Lync](Lync.jpg)  
