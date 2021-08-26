@@ -22,7 +22,7 @@ As you might appreciate, it is not realistic to understand the complexity of you
 
 <!--endintro-->
 
-testing
+testing 
 
 ![Figure: Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](ProjectManagement\_BallPark\_Catch.jpg)
 
