@@ -11,7 +11,6 @@ related: []
 redirects:
   - do-you-know-the-basic-dos-and-donts-of-presenting
   - basic-dos-and-donts-of-presenting
-  - basic-dos-and-donts-of-presenting
 created: 2020-01-22T21:46:41.000Z
 archivedreason: null
 guid: 849fe350-36c6-44b7-b7be-36bc745c3fb4
@@ -20,7 +19,7 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 <!--endintro-->
 
-### Key Points for to remember:
+### Key Points to remember:
 
 1. Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
 
@@ -36,7 +35,7 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 ::: good
 
-**Figure: Good example -a well prepared presentation with an excellent delivery.**
+**Figure: Good example - A well prepared presentation with an excellent delivery.**
 
 :::
 
@@ -64,7 +63,7 @@ For more information about gaining exposure to pressure situations and avoiding 
 For more information on creating effective powerpoint slides, see:
 <https://www.linkedin.com/business/learning/blog/productivity-tips/5-best-practices-for-making-awesome-powerpoint-slides>
 
-### Delivery
+### Delivery:
 
 <https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d>
 
