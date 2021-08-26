@@ -53,8 +53,6 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 - [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
 :::
 
-Thursday are casual clothes. On Fridays, they encourage sport clothes, such as shorts. It allows the end of the week to be fun.
-
 ![Figure: SSW Dress Code poster](SSW\_Dresscode\_Poster.png)  
 
 ### Shorts Days - the cool exception
