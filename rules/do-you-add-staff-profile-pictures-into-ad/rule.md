@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
-title: Do you add Staff profile pictures into AD?
-guid: 005bc852-6c6c-430c-bb5a-d6d8cb4dd741
+title: Do you add staff profile pictures into AD?
 uri: do-you-add-staff-profile-pictures-into-ad
-created: 2013-08-06T23:42:18.0000000Z
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
-
+created: 2013-08-06T23:42:18.000Z
+archivedreason: null
+guid: 005bc852-6c6c-430c-bb5a-d6d8cb4dd741
 ---
 
 You can upload Staff profile pictures into Active Directory. Exchange and Lync will automatically use these profile pictures.  
