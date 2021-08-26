@@ -24,6 +24,8 @@ As you might appreciate, it is not realistic to understand the complexity of you
 
 testing 
 
+
+
 ![Figure: Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](ProjectManagement\_BallPark\_Catch.jpg)
 
 The deliverables for the Specification Review depend upon how large the application is and the time we have spent on the review.  You will receive the following:
