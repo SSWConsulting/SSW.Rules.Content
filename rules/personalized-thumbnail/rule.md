@@ -46,4 +46,4 @@ YouTube offers [resources to create better custom thumbnails](https://support.go
 ![Good example: a custom thumbnail looks professional and already gives important information about the content of the video](thumbnail_good.png)  
 :::
 
-**Image creadits**: [courtesy of Brian Dean](https://backlinko.com/grow-youtube-channel).
+**Image credits**: [courtesy of Brian Dean](https://backlinko.com/grow-youtube-channel).
