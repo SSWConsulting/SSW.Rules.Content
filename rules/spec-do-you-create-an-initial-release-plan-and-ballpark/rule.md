@@ -16,21 +16,17 @@ created: 2009-02-26T02:02:12.000Z
 archivedreason: null
 guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
 ---
-
 Usually, a specification process is done with the client before beginning work on a project, just like you would never build a house without getting an architect to create a plan.
- 
+
 As you might appreciate, it is not realistic to understand the complexity of your system and give you a realistic estimate after a brief meeting. Our experience tells us we will need to spend a few days to obtain and document the requirements from your project’s stakeholders. This will help you turn your ideas into a more detailed roadmap. 
 
 <!--endintro-->
 
-test
+testing
 
-![Figure: Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](ProjectManagement\_BallPark\_Catch.jpg)  
-
+![Figure: Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](ProjectManagement\_BallPark\_Catch.jpg)
 
 The deliverables for the Specification Review depend upon how large the application is and the time we have spent on the review.  You will receive the following:
-
-
 
  **Requirements Analysis** 
 
@@ -43,18 +39,15 @@ The deliverables for the Specification Review depend upon how large the applicat
 * Hardware and licensed software recommendations
 * Mock-ups if required
 
-
 **Summary Product Bac** **klog**
 
 * A list of product backlog items (PBIs) will be broken down based on the Requirements Analysis and the Architectural Design
 * These PBIs will then be estimated
 
-
 **Ballpark Estimates**
 
 * The estimated number of sprints
 * Estimated cost of the project
-
 
 With the Specification Review, the client can see whether the consultant understands their business and the requirements for their software development project.
 
