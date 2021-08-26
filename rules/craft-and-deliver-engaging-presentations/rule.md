@@ -11,7 +11,7 @@ related: []
 redirects:
   - do-you-know-the-basic-dos-and-donts-of-presenting
   - basic-dos-and-donts-of-presenting
-  - basic-dos-and-don'ts-of-presenting
+  - basic-dos-and-donts-of-presenting
 created: 2020-01-22T21:46:41.000Z
 archivedreason: null
 guid: 849fe350-36c6-44b7-b7be-36bc745c3fb4
@@ -19,6 +19,8 @@ guid: 849fe350-36c6-44b7-b7be-36bc745c3fb4
 Giving a live presentation in front of an audience can be daunting, whether online or in person.  It can also be a thrilling and rewarding experience when you do it well.  In order to achieve a great result presenters should do three key things:
 
 <!--endintro-->
+
+### Key Points for to remember:
 
 1. Make time for adequate preparation – structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong.  Don’t wait until the last minute!  If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
 
@@ -44,6 +46,9 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 
 ![](picture3.jpg)
 
+### Mistakes happen and that's OK!
+Even the most practiced presenters will slip up, but what separates professionals from amateurs is how you deal with it.
+
 Time seems to slow down under pressure situations, but only for you!  It doesn’t matter if you take a few moments to figure out the problem, your audience won’t be phased at all, just give them respect and ask them for patience and it will be granted automatically.  
 
 For more information about gaining exposure to pressure situations and avoiding pitfalls see:
@@ -51,7 +56,7 @@ For more information about gaining exposure to pressure situations and avoiding 
 
 **Links:**
 
-### Content
+### Content:
 
 <https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
 
