@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Spec - What are the Specification Review Deliverables?
-guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
 uri: spec-do-you-create-an-initial-release-plan-and-ballpark
-created: 2009-02-26T02:02:12.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
 related: []
 redirects:
-- spec-what-are-the-specification-review-deliverables
-
+  - spec-what-are-the-specification-review-deliverables
+created: 2009-02-26T02:02:12.000Z
+archivedreason: null
+guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
 ---
 
 Usually, a specification process is done with the client before beginning work on a project, just like you would never build a house without getting an architect to create a plan.
@@ -23,6 +22,8 @@ Usually, a specification process is done with the client before beginning work o
 As you might appreciate, it is not realistic to understand the complexity of your system and give you a realistic estimate after a brief meeting. Our experience tells us we will need to spend a few days to obtain and document the requirements from your project’s stakeholders. This will help you turn your ideas into a more detailed roadmap. 
 
 <!--endintro-->
+
+test
 
 ![Figure: Remember, a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](ProjectManagement\_BallPark\_Catch.jpg)  
 
