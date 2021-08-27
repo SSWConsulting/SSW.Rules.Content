@@ -8,7 +8,7 @@ authors:
 created: 2021-08-27T00:05:39.834Z
 guid: da64de84-57ab-4fd7-8def-514b746bedc8
 ---
-When doing a Spec Review, always bring printed pdf file SSW Story Cards.
+When doing a Spec Review, always bring printed pdf file [SSW Story Cards](SSWStoryCard.pdf).
 
 <!--endintro-->
 
