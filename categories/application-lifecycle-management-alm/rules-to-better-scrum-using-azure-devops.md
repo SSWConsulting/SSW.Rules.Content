@@ -73,5 +73,7 @@ index:
 - do-you-add-a-version-number-to-pbis-that-have-multiple-iterations
 - do-you-have-a-preflight-checklist
 - do-you-know-that-gated-checkins-mask-dysfunction
+- printed-story-cards
+- get-work-items-via-excel
 
 ---
