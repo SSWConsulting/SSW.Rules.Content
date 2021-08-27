@@ -16,7 +16,7 @@ redirects: []
 When designing a responsive website, you need to make sure that the browser understands how to correctly render your website. Device-Width informs the browser what the size of the viewport should be. 
 <!--endintro-->
 
-Since we want our website to render corectly for all screen sizes, we specify that it should set the viewport to the size of the device's screen.
+Since we want our website to render correctly for all screen sizes, we specify that it should set the viewport to the size of the device's screen.
 
 
 ```html
