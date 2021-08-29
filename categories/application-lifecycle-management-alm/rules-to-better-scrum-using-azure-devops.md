@@ -19,6 +19,7 @@ index:
 - do-you-know-the-how-to-be-a-good-product-owner
 - build-the-backlog
 - product-owner-do-you-know-how-to-update-the-backlog
+- create-PBIs-under-2-days
 - estimating-do-you-break-large-tasks-into-smaller-tasks
 - estimating-do-you-know-how-to-size-user-stories-effectively
 - meeting-do-you-update-your-tasks-before-the-daily-scrum
@@ -72,5 +73,7 @@ index:
 - do-you-add-a-version-number-to-pbis-that-have-multiple-iterations
 - do-you-have-a-preflight-checklist
 - do-you-know-that-gated-checkins-mask-dysfunction
+- printed-story-cards
+- get-work-items-via-excel
 
 ---

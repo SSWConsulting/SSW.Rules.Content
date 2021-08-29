@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/do-you-know-the-8-steps-to-scrum
 title: Management - Do you use XP/Scrum wisely?
 guid: 159c6af7-7619-4f1c-8b15-63a99398b1bc
 uri: management-do-you-use-xp-scrum-wisely
@@ -19,19 +19,19 @@ Scrum is a big concept which we try to use here. I don't adhere to every idea, b
 
 <!--endintro-->
 
+![Figure: You need to check up on your developers every 2 weeks. Then you'll never be fooled!](ab9491_Anthrax.gif)
 
-| ![Figure: You need to check up on your developers every 2 weeks. Then you'll never be fooled!](ab9491_Anthrax.gif)**Figure: You need to check up on your developers every 2 weeks. Then you'll never be fooled!**  |
-| --- |
+1. **Sprint Contracts/Releases** - Never set a deadline more than 3 weeks from the previous deadline. Deliverables become a lot easier to manage and meet when they're small. Read more about [Sprint Contracts](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)
 
+2. **Unit Tests** - Write tests before you write code. Unit Tests become a way of life and although they're expensive at the beginning, they pay off during the course of the project. To find out more about Unit Tests see [Rules To Better Unit Tests](/rules-to-better-unit-tests) and for unit tests in the GUI of SSW Code Auditor please go to [Rules to Better Code](/rules-to-better-code).
 
-1. Sprint Contracts/Releases - Never set a deadline more than 3 weeks from the previous deadline. Deliverables become a lot easier to manage and meet when they're small. Read more about [Sprint Contracts](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint)
-2. Unit Tests - Write tests before you write code. Unit Tests become a way of life and although they're expensive at the beginning, they pay off during the course of the project. To find out more about Unit Tests see Rules To Better Unit Tests and for unit tests in the GUI of SSW Code Auditor please go to [Rules to Better Code](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterRegularExpressions.aspx#testregex).
-3. Metaphors/User Stories - client's description of a task. Aim to take down the main points
-4. Validation Tests - To find out more about Validation Tests see [Rules To Better Website Development](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#ValidateSetup).
-5. [The 2 key reports](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day)
+3. **Metaphors/User Stories** - client's description of a task. Aim to take down the main points
+
+4. **Validation Tests** - To find out more about Validation Tests see [Rules To Better Website Development](/rules-to-better-website-development-asp-net).
+
+5. **[The 2 key reports](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day)**
     * Burndown
     * Stories Overview
-
 
 Here are the rules we don't agree with:
 

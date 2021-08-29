@@ -19,27 +19,23 @@ There are many options for personal and business backup solutions on the market:
 
 ### OneDrive
 
-OneDrive from Microsoft is a simple and powerful application to do your cloud backups, for free. It comes default installed in Windows 10. See [Rules to Better OneDrive](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=977beedd-e3f1-44ad-b68e-262c0e34a265).
+OneDrive from Microsoft is a simple and powerful application to do your cloud backups, for free. It comes default installed in Windows 10. 
 
 **Size:** 5GB free
 
 ### OneDrive for Business (Recommended)
 
-
 OneDrive for Business shares its name with OneDrive, but gives a different product. This service is paid but gives you a good return for your investment. OneDrive for Business comes with Office 365, so it is much more suited for business who already have a subscription of the service, or who need to more control over the backups and files. OneDrive for Business uses the SharePoint structure (differently from OneDrive) to give users much more storage space than the normal one.
 
-**Size:** 1TB free - If you have an Office365 business license.
-This option gives the best visibility for SysAdmins.
+**Size:** 1TB free - If you have an Office365 business license. This option gives the best visibility for SysAdmins.
 
 ### Dropbox
-
 
 Lots of users use Dropbox because of its easy-to-use interface and amount of storage space. The service is pretty similar to Google Drive and works well in any environment.
 
 **Size:** 2GB free
 
 ### Google Drive
-
 
 Google Drive is Google's solution to cloud backup and storage and works well. You have quite a lot of space for free, and it works even better if you are already using Google's ecosystem of software and services.
 

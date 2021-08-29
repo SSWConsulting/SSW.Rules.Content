@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know what type of content marketing you should post on your socials?
+title: Do you know the types of content you should post on your social media?
 guid: 7790aae1-31fc-48e1-a882-9c72c7cda45e
 uri: type-of-content-marketing-you-should-post
 created: 2020-02-12T00:04:31.0000000Z
@@ -11,83 +11,79 @@ authors:
 - title: Jerwin Parker Roberto
   url: https://ssw.com.au/people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+- title: Josh Bandsma
+  url: https://www.ssw.com.au/people/josh-bandsma
 related:
 - keep-your-social-media-updated
-- do-you-know-to-use-hash-tags
-- add-tracking-codes-in-urls
-- weed-out-spammers
-- image-size-instagram
-- posts-with-images-are-more-engaging
 - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
-- branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
-- know-how-to-take-great-photos-for-your-socials
 - image-standard-sizes-on-social-media
 - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
-- do-you-know-why-you-should-have-a-blog-for-your-company
 redirects:
 - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
 
 ---
 
-Sometimes it can be hard to keep  **generating content daily for your social media, and even more when there’s not much going on.** However, here are a few types of content you could use for your next social media posts!
+Sometimes it can be hard to keep **generating content daily for your social media, and even more when there’s not much going on.** However, here are a few types of content you could use for your next social media posts!
 
 <!--endintro-->
 
 So, here are a few examples taken from our social media of what you could post on yours:
 
-### Internal projects, services or products that your business developed or offers
+### #1 - Internal projects, services or products that your business developed or offers
 
-![Figure: SSW’s devs doing a scrum retro with General Manager Uly after working on        SSW TimePro](teamwork.jpg)  
+![Figure: SSW’s devs doing a scrum retro with General Manager Uly after working on SSW TimePro](teamwork.jpg)  
 
-### Projects that your company worked on
+### #2 - Projects that your company worked on
 
 ![Figure: SSW's developer Kosta being recorded by SSW TV about the web app that SSW developed for Sydney University](breast.jpg)  
 
-### Video content
+### #3 - Video content
 
-![Figure: SSW TV Tech tips recorded during NDC 2019 on YouTube -        Watch the playlist here](sswtv.jpg)  
+![Figure: Adam Cogan and Matt Goldman Discuss Avoiding the Technical Debt Spiral on SSW TV](sswtv-v2.jpg)  
 
-### Events that your company organised
+### #4 - Events that your company organised
 
-![Figure: Clean Architecture Superpowers paid training promotion on SSW's socials](promoclean.jpg)  
+![Figure: Azure Superpowers - Paid training promotion on SSW's social media](promo-azure.jpg)  
 
-![Figure:        Angular Hack Day post-event post](sswevents.jpg)  
+![Figure: Angular Hack Day post-event post](sswevents.jpg)  
 
-### External events that you and your team attended to
+### #5 - External events that you and your team attended to
 
 ![Figure: SSW’s team in our booth at NDC Sydney 2019 with Alumnus Tiago Passos](ndc.jpg)  
 
-### Your team members profile
+### #6 - Your team members profiles
 
 ![Figure: In profile photos, you can show your employees in action](kikisprofile.png)  
 
-### Your employee's blogs posts
+![Figure: Another example of an employee action shot](tom-profile.png)
 
-![Figure: Use the same image from the blog post for consistency](blogpost.jpg)  
+### #7 - Your employees' blogs posts
 
-### Your business blog posts
+![Figure: Use the same image from the blog post for consistency](tim-blog.png)
 
-![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpg)  
+### #8 - Your business blog posts
 
-### General content wrote by your team on your website
+![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpeg)  
 
+### #9 - General content written by your team on your website
 
-![Figure: Even though some of your content doesn’t have a photo, you can add a relevant one from free stock photo services, like the above](rules.jpg)  
+![Figure: Even though some of your content won't have a photo, you can add a relevant one from a free stock photo service](rules-v2.png)  
 
-### Employment opportunities
+### #10 - Employment opportunities
 
-![Figure: Hiring post following branding guidelines](hiringpost.jpg)  
+![Figure: Hiring post following branding guidelines](hiring-v2.png)
 
-### Teamwork, parties, etc
+### #11 - Teamwork, parties, etc.
 
-![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpg)  
+![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpeg) 
 
-### Relevant news for your industry
+![Figure: SSW Melbourne - Following COVID-19 safety guidelines](covid-teamwork.png)
 
-![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like        Pexels or        Unsplash](technews.jpg)  
+### #12 - Relevant news for your industry
 
-### Memes, if they suit your industry
+![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)  
 
+### #13 - Memes, if they suit your industry
 
 To see best practices for sharing memes on your socials, check out our Rule: [Do you know why you should use memes as part of your business social media content?](/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content)
 

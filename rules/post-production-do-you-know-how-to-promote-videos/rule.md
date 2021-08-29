@@ -40,7 +40,7 @@ To ensure your videos gain maximum exposure, you need to promote them in various
 
     I appreciate the efforts from everyone :)
     Cheers,
- Raj
+ 
 
 :::
 3. ## Email the interviewee
@@ -69,7 +69,7 @@ To ensure your videos gain maximum exposure, you need to promote them in various
     6. Emailing any friends and associates who could spread the word
 
     Thanks for taking the time to do this interview and promote it.
-    Raj
+   
 
 :::
 4. ## Contact strategic partners

@@ -16,7 +16,7 @@ redirects:
 
 To help with automation you can use the MAC address of your mobile device to match when it joins the company wifi. This allows you to:
 
-* Automatically log when you come in or out (See [Do you know the best way to see if someone is in the office?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=1f63c01f-cad4-4f24-bc3c-9f870112b6fa) ) 
+* Automatically log when you come in or out (See [Do you know the best way to see if someone is in the office?](/the-best-way-to-see-if-someone-is-in-the-office) ) 
 
 * Announce your presence to the rest of the office
 * Get statistics and analytics: E.g. Who travels the most? Or which city uses In-And-Out the most? 

@@ -1,0 +1,20 @@
+name: Trigger-DevOps-Staging-Build
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+    - staging
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+        
+    - name: 'Trigger Staging'
+      uses: Azure/pipelines@releases/v1
+      with:
+        azure-devops-project-url: 'https://ssw.visualstudio.com/SSW.Rules'
+        azure-pipeline-name: 'Staging' 
+        azure-devops-token: '${{ secrets.AZURE_DEVOPS_TOKEN }}'

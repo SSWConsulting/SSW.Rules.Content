@@ -19,6 +19,7 @@ index:
 - rules-to-better-sharepoint-migration-from-2007-to-2010
 - rules-to-better-sharepoint-migration-from-2010-to-2013
 - rules-to-better-sharepoint-migration-from-2013-to-2016
+- rules-to-better-sharepoint-migration-from-2016-to-online
 - rules-to-better-sharepoint-virtualisation
 - rules-to-better-sql-server-administration
 - rules-to-better-windows-defender
@@ -26,7 +27,6 @@ index:
 - rules-to-better-exchange-server
 - rules-to-better-pcs
 - rules-to-better-networks
-- rules-to-better-sharepoint-migration-from-2016-to-online
 - rules-to-better-backups
 - rules-to-better-whatsup-gold
 - rules-to-better-office-365

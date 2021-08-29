@@ -26,6 +26,8 @@ The steps: Get yourself setup and then ask someone from your team to do a ‘tes
 
 <!--endintro-->
 
+See [our facebook post](https://m.facebook.com/SSW.page/photos/a.334643903218918/3488762864473657/?type=3) for some examples.
+
 If your audio, camera or your microphone are not working properly, it’s very likely that you will have your communication affected on a call.
 
 We recommend that you do a test on the platform you are using for your meeting (Microsoft Teams, Skype for Business, etc) and follow their procedure to test your microphone and your audio.

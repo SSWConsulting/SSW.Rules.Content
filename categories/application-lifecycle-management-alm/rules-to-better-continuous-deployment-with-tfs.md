@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Continuous Deployment with TFS
+title: Rules to Better Continuous Deployment
 guid: 291d0ed1-a02d-4f22-b0f8-64f51a93d80d
 uri: rules-to-better-continuous-deployment-with-tfs
 index:
@@ -21,8 +21,5 @@ index:
 - use-web-compiler
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Application Lifecycle Management](https&#58;//www.ssw.com.au/ssw/Consulting/ALM-TFS.aspx) and book in a consultant.
- Rules to Better Continuous Deployment with TFS 2012, TFS 2013 and TFS 2015
-
+If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM-TFS.aspx) and book in a consultant.

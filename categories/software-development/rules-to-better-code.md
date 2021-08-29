@@ -18,6 +18,7 @@ index:
 - how-string-should-be-quoted
 - add-the-application-name-in-the-sql-server-connection-string
 - do-you-know-how-to-use-connection-strings
+- store-your-secrets-securely
 - create-suggestions-when-something-is-hard-to-do
 - avoid-casts-and-use-the-as-operator-instead
 - avoid-empty-code-block
@@ -46,6 +47,7 @@ index:
 - put-exit-sub-before-end-sub
 - put-optional-parameters-at-the-end
 - refer-to-form-controls-directly
+- how-to-format-your-messagebox-code
 - reference-websites-when-you-implement-something-you-found-on-google
 - store-application-level-settings-in-database-instead-of-configuration-files-when-possible
 - suffix-unit-test-classes-with-tests
@@ -69,8 +71,10 @@ index:
 - use-most-recent-language-features-to-slash-the-amount-of-boilerplate-code-you-write
 - declare-variables-when-you-need-them
 - know-that-no-carriage-returns-without-line-feed
+- todo-tasks
 
 ---
+
 What makes code "cleaner"? What makes the difference between readable code and very readable code?
 
 It can be very painful when needing to modify a piece of code in an application that you never spec'd out or wrote. But it doesn't have to be this way. By following some of these better programming tips your code can be easily read and easily modified by any developer at any time.

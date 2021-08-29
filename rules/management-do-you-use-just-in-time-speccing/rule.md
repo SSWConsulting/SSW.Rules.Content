@@ -1,21 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Management - Do you use Just-In-Time speccing?
-guid: 2b7faccc-3b40-49cc-b99f-83dd4c3df0a1
 uri: management-do-you-use-just-in-time-speccing
-created: 2009-02-28T09:45:07.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
 related: []
-redirects: 
-- management-do-you-spec-in-bite-sized-pieces
-
+redirects:
+  - management-do-you-spec-in-bite-sized-pieces
+created: 2009-02-28T09:45:07.000Z
+archivedreason: null
+guid: 2b7faccc-3b40-49cc-b99f-83dd4c3df0a1
 ---
-
 The first problem with specs is that nobody writes them. Joel Spolsky says:
 
 > "Writing specs is like flossing: everyone agrees that it's a good thing, but nobody does it".

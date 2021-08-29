@@ -1,10 +1,7 @@
 ---
 type: rule
-archivedreason:
 title: Do you know how to use Connection Strings?
-guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
 uri: do-you-know-how-to-use-connection-strings
-created: 2009-05-08T08:53:04.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
@@ -77,12 +74,13 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 				});
 		});
 ```
-
 ::: good
 Good Example - For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
 :::
 
-TIP: You can detect if your application is running on your local machine or on an Azure AppService by looking for the WEBSITE_SITE_NAME environment variable. If null or empty, then you are NOT running on an Azure AppService.
+::: info
+**Tip:** You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
+:::
 
 ```cs
 public static class IWebHostEnvironmentExtensions
@@ -136,7 +134,7 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
 ![Figure: Your WebApp Configuration - no passwords or secrets, just a name of the Key vault that it needs to access](configuration.png)
 :::
 
-`youtube: https://www.youtube.com/embed/-aTlON-UCVM`
+`youtube: https://www.youtube.com/embed/ZG7IykWdlng`
 
 ::: good 
 Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail

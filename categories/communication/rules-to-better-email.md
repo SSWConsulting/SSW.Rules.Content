@@ -17,7 +17,7 @@ index:
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 - do-you-follow-up-emails-effectively
-- do-you-know-when-to-do-use-checked-by-xxx
+- checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
 - do-you-seek-clarification-via-the-telephone-first
 - dones-do-your-dones-include-a-url
@@ -33,22 +33,23 @@ index:
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
-- do-you-know-when-you-should-change-a-subject
+- do-you-realize-the-importance-of-a-good-email-subject
+- change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
-- do-you-realize-the-importance-of-a-good-email-subject
 - do-you-respond-to-each-email-individually
 - do-you-send-tasks-one-email-at-a-time
 - do-you-use-indentation-for-readability
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
-- when-you-reply-inline-do-you-use-a-different-color
+- email-avoid-inline
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - do-you-avoid-attaching-emails-to-emails
 - do-you-avoid-emailing-sensitive-information
 - do-you-avoid-huge-images-or-attachments-in-your-email
 - do-you-avoid-sending-unnecessary-emails
+- when-to-send-group-email-over-an-im-group-message
 - do-you-avoid-sending-your-emails-immediately
 - do-you-avoid-using-images-in-your-email-signatures
 - do-you-avoid-using-out-of-office
@@ -70,6 +71,7 @@ index:
 - better-late-than-never
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
+- dictate-emails
 - screenshots-do-you-know-how-to-show-wanted-actions
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - bounces-do-you-know-what-to-do-with-bounced-email
@@ -82,7 +84,8 @@ index:
 - add-quality-control-to-dones
 - do-you-always-remember-your-attachment
 - do-you-know-never-to-concatenate-words-in-an-email
-- do-you-manage-your-email
+- do-you-manage-your-email-accounts
+- keep-your-urls-clean
 
 ---
 

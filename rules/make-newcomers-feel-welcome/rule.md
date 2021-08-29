@@ -54,6 +54,8 @@ It’s also a nice idea to take the newbie out to lunch on their first day so th
 
 These are some thoughtful ways to show the new hire that the company is pleased to have them on board, and leaves them with a good first impression of their new workplace.
 
+`oembed: https://twitter.com/SSW_TV/status/1176056364197658624`
+
 ::: info
 Find the longer version of this post on [Facebook](https://www.facebook.com/SSW.page/photos/pb.120920301257947.-2207520000.1569264924./3020784747938140/?type=1&theater) and [LinkedIn](https://www.linkedin.com/posts/ssw_the-1st-day-of-a-new-job-can-be-daunting-activity-6581822083670642688-DFTl).
 :::

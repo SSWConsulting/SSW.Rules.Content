@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- done-do-you-go-beyond-done-and-follow-a-definition-of-done
 redirects: []
 
 ---
@@ -156,39 +157,6 @@ Figure: Bad Example – It is not clear which tasks have been done and which hav
 
 ### Hi Bob,  
 
-1. Done - See <u>northwind&#46;com</u>
-2. Not Done - I couldn’t find a camera.
-
-Jason
-
----
-**From:** Bob   
-**To:** Jason   
-**Subject:** Northwind website - Update logo + add a photo  
-
-### Hi Jason,  
-As per our conversation,
-
-1. Update the logo on Northwind website the new logo
-2. Take a photo of the office façade and add to the "About Us" page
-
-Bob
-
-:::  
-:::
-::: good
-Figure: Good Example – You can see which tasks have been done and which haven’t (Note: you have to scroll to the original email to know what the tasks were) 
-:::
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Bob |
-| Subject: | RE: Northwind website - Update logo + add a photo |  
-::: email-content  
-
-### Hi Bob,  
-
 I've replied inline in **bold**.
 
 Jason
@@ -208,7 +176,7 @@ Bob
 :::  
 :::
 ::: bad
-Figure: Bad Example – It is clear which tasks have been done, however, [replying inline sucks](https://www.ssw.com.au/rules/when-you-reply-inline-do-you-use-a-different-color)
+Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
 :::
 
 ::: email-template  
@@ -266,11 +234,9 @@ Jason
 Figure: Good example – If multiple tasks are 'done', then only the URL is needed. This is clear that all tasks have been done and they can read the history of the requests below
 :::
 
-
-
 ### Tip 4: Replying "Done" to huge tasks
 
-Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to more than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
+Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to take more time than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
 
 
 ### Tip 5: Don't consolidate emails

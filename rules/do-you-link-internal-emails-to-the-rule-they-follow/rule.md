@@ -49,3 +49,7 @@ Need an answer on this ASAP, please
 ::: good 
 Figure: Good Example – the email links to the standard it follows
 :::
+
+::: info
+**Tip:** If you are following a rule in a **presentation**, **website**, **software**, or even a **blog post** comment, you should also include a reference to the rule.
+:::

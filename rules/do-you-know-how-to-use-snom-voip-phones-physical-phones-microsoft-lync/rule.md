@@ -12,59 +12,41 @@ redirects:
 
 ---
 
-Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=3452ec36-db1f-4ade-a64f-29d33435c271)
-
+Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone)
 
 `youtube: https://www.youtube.com/embed/NZTY5f1mMWk?rel=0`
- 
 
 Using SNOM phones, transferring a call, creating a conference call, or making an internal call, is very easy.
 
 <!--endintro-->
-**Transferring a call** 
+#### Transferring a call
 
-* While speaking to Mr Northwind, press 
-         ![](Hold.png)*(Hold)*
-* Press 
-         ![](Directory.png)*(Directory)*. Then choose a person from the list, press 
-         ![](Tick.png)*(Tick)*
+* While speaking to Mr Northwind, press *(Hold)*
+* Press *(Directory)*
+* Then choose a person from the list
+
 **OR** 
- Dial the external number, press 
-         ![](Tick.png)*(Tick)*
+
+Dial the external number, press *(Tick)*
 * Tell the staff member "Mr Northwind for you"
-* Press 
-         ![](Transfer.png)*(Transfer)*, press 
-         ![](Tick.png)*(Tick)*
+* Press *(Transfer)*, press *(Tick)*
 
+#### Making a Conference Call (up to 5 people)
 
+* While speaking to Mr Northwind, press *(Hold)*
+* Press *(Directory)*. 
+* Then choose a person from the list
 
-
-**Making a Conference Call (up to 5 people)** 
-
-* While speaking to Mr Northwind, press 
-         ![](Hold.png)*(Hold)*
-* Press 
-         ![](Directory.png)*(Directory)*. Then choose a person from the list, press 
-         ![](Tick.png)*(Tick)*
 **OR** 
- Dial the external number, press 
-         ![](Tick.png)*(Tick)*
+ Dial the external number, press *(Tick)*
 * Tell the staff member "Adding you to a conference call"
-* Press 
-         ![](Conference.png)*(Conference)* to start the conference
+* Press *(Conference)* to start the conference
 
-
-
-
-**Making an Internal Call** 
+#### Making an Internal Call
 
 * Lift handset (or press speaker)
-* Press 
-         ![](Directory.png)*(Directory)*
+* Press *(Directory)*
 * Choose a person
-* Press 
-         ![](Tick.png)*(Tick)*
+* Press *(Tick)*
 
-
-
-Read more about     [implementing Skype for Business.](http://www.ssw.com.au/ssw/Consulting/Lync.aspx)
+Read more about [implementing Skype for Business](http://www.ssw.com.au/ssw/Consulting/Lync.aspx).

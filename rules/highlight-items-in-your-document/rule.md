@@ -26,18 +26,9 @@ When highlighting items (file names, user commands etc.) be sure to:
 <!--endintro-->
 
 1. Distinguish the items from the rest of the surrounding text; and
-2. Be consistent.
+2. Be consistent
 
-
-
-
-
-Use the following rules to highlight items in your document.
-
-
-
-
-
+Use the following rules to highlight items in your document:
 
 | Style | Use this style on | Example |
 | --- | --- | --- |
@@ -47,6 +38,6 @@ Use the following rules to highlight items in your document.
 | Monospace (Courier New font) | Code samples, error messages | You will see the following error: error opening database: database is currently in use. |
 
 
-
-
-Remember: Never Underline the text when it isn't a link as per the rule: [Do you use underlines only on links?](http&#58;//www.ssw.com.au/ssw/standards/rules/RulesToBetterWebsitesNavigation.aspx#DontUseUnderlines)
+::: info
+**Remember:** Never underline the text if it isn't a link, as per [Do you use underlines only on links?](/do-you-use-underlines-only-on-links)
+:::

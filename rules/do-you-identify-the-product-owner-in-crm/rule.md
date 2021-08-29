@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: We don't follow this as per Uly - PO is not a job title. 
 title: Do you identify the Product Owner in CRM?
 guid: a3cce5f7-f4cf-4cea-af3f-d47fcacc3121
 uri: do-you-identify-the-product-owner-in-crm
@@ -13,12 +13,11 @@ redirects: []
 
 ---
 
-To make them easily identifiable, the [Product Owner](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=d3fc9341-c12c-465c-800b-c8575375d138) of a Company/Account should be included into their Job Title.
+To make them easily identifiable, the Product Owner of a Company/Account should be included into their Job Title.
 
 <!--endintro-->
 
-
 ::: bad  
-![](BetterCRMDataGoodExam.jpg)  
+![Figure: Good Example - A CRM 2013 user can easily determine who is the Product Owner of the Company/Contact](BetterCRMDataGoodExam.jpg)  
 :::
-                        Figure: Good Example - A CRM 2013 user can easily determine who is the Product Owner of the Company/Contact
+                        

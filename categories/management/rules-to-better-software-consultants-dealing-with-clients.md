@@ -47,6 +47,7 @@ index:
 - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
 - do-you-know-the-numbers-you-give-clients
 - do-you-know-the-client-is-not-always-right
+- send-a-for-the-record-email-when-you-disagree
 - do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 - do-you-not-interrupt-people-when-they-are-in-the-zone
 - do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
@@ -54,6 +55,7 @@ index:
 - use-chrome-profiles
 - cc-the-client-whenever-possible
 - use-backchannels-effectively
+- return-on-investment
 
 ---
 Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.
