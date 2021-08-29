@@ -21,7 +21,7 @@ You don’t want to build solutions from scratch, take the business value you c
 
 Top 5 CMS vendors of 2021, by number of websites (including eCommerce and websites) are:
 - WordPress
-- Fix
+- Wix
 - Squarespace
 - Joomla
 - Shopify
