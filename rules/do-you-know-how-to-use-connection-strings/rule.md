@@ -14,8 +14,6 @@ authors:
   url: https://ssw.com.au/people/bryden-oliver
 - title: Calum Simpson
   url: https://ssw.com.au/people/calum-simpson
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
 related: []
 redirects: 
 - do-you-know-how-to-use-connection-string-in-net-2-0
@@ -23,10 +21,6 @@ redirects:
 - know-the-right-way-to-define-a-connection-string
 
 ---
-
-Accessing your application configuration and secret values is easily done via the `IConfiguration` interface (from `Microsoft.Extensions.Configuration.Abstractions`).
-
-However, this convenience can lead you down the path of loosely typed secret handling (everything is a `string`) and can cause maintenance overhead. This is bad!
 
 There are 2 type of connection strings. The first contains only address type information without authorization secrets. These can use all of the simpler methods of storing configuration as none of this data is secret.
 
@@ -39,7 +33,7 @@ This is the preferred method wherever possible, because it eliminates the need f
 #### Option #2 - Connection Strings with passwords or keys
 
 If you have to use some sort of secret or key to login to the service being referenced, then some thought needs to be given to how those secrets can be secured.
-Take a look at https://www.ssw.com.au/rules/store-your-secrets-securely to learn how to keep your secrets secure.
+Take a look at [Do you store your secrets securely](https://www.ssw.com.au/rules/store-your-secrets-securely) to learn how to keep your secrets secure.
 
 #### Example - Integrating Azure Key Vault into your ASP.NET Core application
 
