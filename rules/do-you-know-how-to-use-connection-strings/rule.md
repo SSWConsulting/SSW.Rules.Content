@@ -16,6 +16,9 @@ redirects:
 - do-you-know-how-to-use-connection-string-in-net-2-0
 - do-you-hard-code-your-connectionstring
 - know-the-right-way-to-define-a-connection-string
+created: 2009-05-08T08:53:04.000Z
+archivedreason: null
+guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
 
 ---
 
@@ -138,4 +141,59 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
 
 ::: good 
 Watch SSW's William Liebenberg explain Connection Strings and Key Vault in more detail
+:::
+
+### History of Connection Strings
+
+In .NET 1.1 we used to store our connection string in a configuration file like this:   
+
+```xml
+<configuration>
+     <appSettings>
+          <add key="ConnectionString" value ="integrated security=true;
+           data source=(local);initial catalog=Northwind"/>
+     </appSettings>
+</configuration>
+```
+
+...and access this connection string in code like this:
+
+```cs
+SqlConnection sqlConn = 
+new SqlConnection(System.Configuration.ConfigurationSettings.
+AppSettings["ConnectionString"]);
+```
+::: bad
+Historical example - old ASP.NET 1.1 way, untyped and prone to error
+:::
+
+In .NET 2.0 we used strongly typed settings classes:
+
+**Step 1:** Setup your settings in your common project. E.g. Northwind.Common
+
+![Figure: Settings in Project Properties](ConnStringNET2\_Settings.jpg)  
+
+**Step 2:** Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
+
+**Step 3:** ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
+
+```xml
+<configuration>
+      <connectionStrings>
+         <add name="Common.Properties.Settings.NorthwindConnectionString"
+              connectionString="Data Source=(local);Initial Catalog=Northwind;
+              Integrated Security=True"
+              providerName="System.Data.SqlClient" />
+        </connectionStrings>
+ </configuration>
+```
+
+...then you can access the connection string like this in C#:
+
+```cs
+SqlConnection sqlConn =
+ new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
+```
+::: bad
+Historical example - access our connection string by strongly typed generated settings class...this is no longer the best way to do it 
 :::

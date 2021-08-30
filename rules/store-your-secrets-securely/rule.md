@@ -222,3 +222,4 @@ The following resources show some concrete examples on how to apply the principl
 * https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15
 * https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x
 * https://www.youtube.com/embed/-aTlON-UCVM
+
