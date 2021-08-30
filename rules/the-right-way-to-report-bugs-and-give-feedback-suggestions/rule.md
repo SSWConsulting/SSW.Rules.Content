@@ -167,8 +167,19 @@ Figure: Good example - Giving feature requests via video
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one and not too much work, then you should email the Tech Leader and Cc the Product Owner.
 
 The Product Owner can always respond if he doesn’t like the suggestion:  
-- For a bug email: **To: TechLead  Cc: ProductOwner  Subject: Bug -  xxx (or use PBI @mention)**
-- For a new feature email: **To: TechLead  Cc: ProductOwner  Subject: Suggestion - xxx  (or use PBI @mention)**
+- For a bug email: 
+<br/>
+<br/>
+  **To: TechLead  
+  Cc: ProductOwner  
+  Subject: Bug -  xxx (or use PBI @mention)**
+
+- For a new feature email: 
+<br/>
+<br/>
+  **To: TechLead  
+  Cc: ProductOwner  
+  Subject: Suggestion - xxx  (or use PBI @mention)**
 
 **Note:** You may have a group email such as all@northwind.com.au, You would only Cc this email for greater visibility. 
 
