@@ -7030,9 +7030,9 @@
 	},
 	{
 		"file": "rules/do-you-have-a-dress-code/rule.md",
-		"lastUpdated": "2020-12-08T08:50:53+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-08-26T23:24:34.426Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com",
 		"created": "2015-03-11T17:28:38+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -11980,9 +11980,9 @@
 	},
 	{
 		"file": "rules/do-you-set-device-width-when-designing-responsive-web-applications/rule.md",
-		"lastUpdated": "2014-06-28T04:38:08+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-08-24T06:15:14.676Z",
+		"lastUpdatedBy": "David Dang [SSW]",
+		"lastUpdatedByEmail": "89407111+daviddangssw@users.noreply.github.com",
 		"created": "2014-06-21T13:37:48+10:00",
 		"createdBy": "Ben Cull",
 		"createdByEmail": "BenCull@ssw.com.au"
@@ -14113,18 +14113,18 @@
 	},
 	{
 		"file": "rules/do-you-brand-your-takeaway-coffee-cups/rule.md",
-		"lastUpdated": "2015-12-14T13:22:04+11:00",
-		"lastUpdatedBy": "Rebecca Liu",
-		"lastUpdatedByEmail": "RebeccaLiu@ssw.com.au",
+		"lastUpdated": "2021-08-24T22:48:02.091Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-12-10T10:43:42+11:00",
 		"createdBy": "David Berkes",
 		"createdByEmail": "DavidBerkes@ssw.com.au"
 	},
 	{
 		"file": "rules/do-you-use-identifying-company-logo-motifs/rule.md",
-		"lastUpdated": "2015-12-10T11:54:52+11:00",
-		"lastUpdatedBy": "David Berkes",
-		"lastUpdatedByEmail": "DavidBerkes@ssw.com.au",
+		"lastUpdated": "2021-08-24T22:50:17.698Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-12-10T11:03:03+11:00",
 		"createdBy": "David Berkes",
 		"createdByEmail": "DavidBerkes@ssw.com.au"
@@ -14545,9 +14545,9 @@
 	},
 	{
 		"file": "rules/do-you-use-group-policy-to-enable-hibernate-option/rule.md",
-		"lastUpdated": "2016-03-23T11:55:42+11:00",
-		"lastUpdatedBy": "Stanley Sidik",
-		"lastUpdatedByEmail": "StanleySidik@ssw.com.au",
+		"lastUpdated": "2021-08-27T22:24:17.883Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-03-23T10:43:53+11:00",
 		"createdBy": "Stanley Sidik",
 		"createdByEmail": "StanleySidik@ssw.com.au"
@@ -21034,9 +21034,9 @@
 	},
 	{
 		"file": "rules/brand-your-assets/rule.md",
-		"lastUpdated": "2020-01-29T08:37:13+11:00",
-		"lastUpdatedBy": "Camilla Rosa Silva",
-		"lastUpdatedByEmail": "CamillaSilva@ssw.com.au",
+		"lastUpdated": "2021-08-25T05:36:54.344Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com",
 		"created": "2020-01-24T14:54:36+11:00",
 		"createdBy": "Camilla Rosa Silva",
 		"createdByEmail": "CamillaSilva@ssw.com.au"
@@ -27493,5 +27493,14 @@
 		"lastUpdated": "2021-08-19T17:34:51.478Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/brand-your-assets/asset-branding.png",
+		"created": "2021-08-25T05:35:01.137Z",
+		"createdBy": "Taine Riley",
+		"createdByEmail": "40375803+taineriley1@users.noreply.github.com",
+		"lastUpdated": "2021-08-25T05:35:01.137Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
 	}
 ]

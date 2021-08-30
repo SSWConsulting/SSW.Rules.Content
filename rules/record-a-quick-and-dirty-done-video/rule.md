@@ -28,16 +28,25 @@ When deciding whether a PBI might be a good contender to record a done video for
 2. Would it be difficult to quickly demo in the Sprint Review without a video?
 3. Is it UI heavy? i.e. would the video be compelling?
 
-<font color="#333333">
-</font>
-When deciding on the software:
 
-1. Solo "Done Video" – Camtasia
+::: greybox
+**Choosing software to record your screen and camera together:**
 
-   **Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
-2. Remote person – Zoom or Teams (bitrate is low – the sound is not as good as Camtasia)
-3. Edit the Video – Camtasia or Adobe Premiere Pro
+- Remote recordings: Zoom, or Microsoft Teams via NDI
+- Basic recordings: Snagit, Loom
+- Advanced recordings: Camtasia
 
+**Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
+
+
+
+:::
+
+::: greybox
+**Choosing software to edit your video:**
+- Basic editing: Camtasia
+- Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
+:::
 Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
