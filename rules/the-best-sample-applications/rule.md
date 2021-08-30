@@ -20,7 +20,7 @@ Before starting a software project and evaluating a new technology, it is import
 
 <!--endintro-->
 
-### Northwind
+### Northwind Schema
 
 ![](northwind.png)
 
