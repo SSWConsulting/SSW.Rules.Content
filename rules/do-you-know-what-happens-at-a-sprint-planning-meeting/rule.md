@@ -41,7 +41,7 @@ This meeting should be timeboxed to an hour for every week in the Sprint. Howeve
 
 ### Capacity Planning
 
-It is important for Sprint capacity planning to be consistent across all teams. As such, there should be consistency in how many story points you allocate to a sprint. It's unreasonable to think that someone will be able to work productively and consecutively for 8 hours straight on a particular task. For example, if a task is allotted a 4 for effort (8 hours), the developer will probably spend 6 hours coding, and 2 of those 8 hours fixing bugs, communicating, or working on the admin side of things. 
+It is important for Sprint capacity planning to be consistent across all teams. As such, there should be consistency in how many story points you allocate to a Sprint. It's unreasonable to think that someone will be able to work productively and consecutively for 8 hours straight on a particular task. For example, if a task is allotted a 4 for effort (8 hours), the developer will probably spend 6 hours coding, and 2 of those 8 hours fixing bugs, communicating, or working on the admin side of things. 
 
 Therefore, a standard 1 week Sprint with 2 resources would have about 32 story points allocated.
 
