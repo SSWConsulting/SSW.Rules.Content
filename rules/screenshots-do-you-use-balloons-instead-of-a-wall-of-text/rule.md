@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Screenshots - Do you use balloons instead of a 'Wall of Text'?
+title: Do you use screenshots instead of a 'Wall of Text'?
 guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 uri: screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.0000000Z
@@ -10,8 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related:
-- do-you-know-how-to-use-balloons-in-screenshots-for-instructions
+related: 
+- add-useful-and-concise-figure-captions
 redirects: []
 
 ---
@@ -35,7 +35,8 @@ Let's look at bad and good examples:
 
 See more details on [how to configure balloons branding in Fullshot and Snagit](/add-branding-to-screenshots).
 
-Now be aware not to go crazy with this balloon rule.
+Be aware not to overuse balloons!
+
 ::: bad
 ![Figure: Bad Example – Balloon overload](balloon-overload.jpg)
 :::
