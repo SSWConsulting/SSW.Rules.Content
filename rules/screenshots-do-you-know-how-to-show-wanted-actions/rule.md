@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: We don't exactly follow this
 title: Screenshots - Do you know how to show wanted actions?
 guid: 828f01c8-00b5-4eea-baa5-f7b026141eea
 uri: screenshots-do-you-know-how-to-show-wanted-actions
