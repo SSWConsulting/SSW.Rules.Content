@@ -8,6 +8,7 @@ index:
 - do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
 - do-you-know-the-8-steps-to-scrum
 - scrum-master-do-you-schedule-the-3-meetings
+- how-to-create-a-sprint-backlog
 - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 - do-you-know-what-happens-at-a-sprint-planning-meeting
 - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
