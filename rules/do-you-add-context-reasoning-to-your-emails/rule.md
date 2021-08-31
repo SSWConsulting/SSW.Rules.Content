@@ -17,6 +17,8 @@ redirects: []
 
 When sending an email it is very important to give context and reasoning. This way anyone can understand what was done at any time in the future. Never assume that the other person will get it anyway, and always try to give details and make yourself as clear as possible. 
 
+A nice way to provide extra clear information is by [adding screenshots with useful captions](/add-useful-and-concise-figure-captions).
+
 <!--endintro-->
 
 
@@ -28,4 +30,5 @@ When sending an email it is very important to give context and reasoning. This w
 ::: good  
 ![Figure: Good Example - There is both context and reasoning](GoodContextReasoning.jpg)  
 :::
- **VIDEO** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+
+**VIDEO** - [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
