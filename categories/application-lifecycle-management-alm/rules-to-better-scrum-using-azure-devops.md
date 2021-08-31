@@ -77,5 +77,7 @@ index:
 - printed-story-cards
 - get-work-items-via-excel
 - linking-work-items
+- when-to-create-team-project-and-azure-devops-portal
+- how-to-create-project-portal
 
 ---
