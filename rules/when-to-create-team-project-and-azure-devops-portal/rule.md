@@ -9,7 +9,7 @@ authors:
 created: 2021-08-31T18:11:04.052Z
 guid: 2a827a86-f4c9-496e-aba1-6b77ea2a1429
 ---
-When a prospect/client is ready to move forward (typically after a Specification Review...
+When a prospect/client is ready to move forward (typically after a Specification Review)...
 
 <!--endintro-->
 
