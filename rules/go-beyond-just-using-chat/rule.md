@@ -1,24 +1,23 @@
 ---
 type: rule
-archivedreason: 
 title: Communication - Do you go beyond text when using Teams/Zoom/Skype chat?
-guid: fb00d344-18f4-4154-8ea9-865bfbbb3f56
 uri: go-beyond-just-using-chat
-created: 2014-04-14T08:08:47.0000000Z
 authors:
-- title: Martin Li
-  url: https://ssw.com.au/people/martin-li
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Martin Li
+    url: https://ssw.com.au/people/martin-li
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- dones-do-you-use-email-for-tasks-only-not-communication
-- do-you-show-your-phone-number-to-allow-for-emergency-communication
+  - dones-do-you-use-email-for-tasks-only-not-communication
+  - do-you-show-your-phone-number-to-allow-for-emergency-communication
 redirects:
-- do-you-go-beyond-just-using-skype-chat
-- communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
-
+  - do-you-go-beyond-just-using-skype-chat
+  - communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
+created: 2014-04-14T08:08:47.000Z
+archivedreason: null
+guid: fb00d344-18f4-4154-8ea9-865bfbbb3f56
 ---
 
 Communication can be difficult (even if English is your first language!). It might be tempting to only communicate via text in IM, but this will not improve your skills or build a relationship as well as communicating verbally.
@@ -27,7 +26,7 @@ Communication can be difficult (even if English is your first language!). It mig
 ![Figure: Good example - Asking ‘Can I call you?’ (Especially for complicated conversations)](skype-conference.jpg)
 :::
 
-#### Tips to have a better call
+### Tips to have a better call
 
 <!--endintro-->
 
