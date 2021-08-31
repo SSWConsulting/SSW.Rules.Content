@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use screenshot instead of a 'Wall of Text'?
+title: Do you use screenshots instead of a 'Wall of Text'?
 guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 uri: screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.0000000Z
