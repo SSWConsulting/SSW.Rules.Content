@@ -16,7 +16,7 @@ Unfortunately the Azure DevOps team did not have time to build the feature to cr
 There is a goofy work around:
 1. Create a new temporary project (with a SharePoint site for it)
 2. Disable the site for the new project, by checking off '[x] Enable team project portal'
-3. Go back to the old TFS project
+3. Go back to the old Azure DevOps project
 4. Enable the site for the original one (pointing to that newly created site)
 5. Finally, delete the temporary project you created
 
