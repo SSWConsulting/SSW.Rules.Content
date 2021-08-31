@@ -13,3 +13,5 @@ Prior to your meeting with the customer you should prepare. Get your [Sprint Pla
 <!--endintro-->
 
 Learn how to create your Sprint backlog on [Microsoft Docs - Assign backlog items to a sprint](https://docs.microsoft.com/en-us/azure/devops/boards/backlogs/create-your-backlog?view=azure-devops&tabs=agile-process).
+
+Once the backlog is ready, you should [send the Sprint Forecast email to the client](send-sprint-forecast-and-sprint-review-retro-emails-to-the-client).
