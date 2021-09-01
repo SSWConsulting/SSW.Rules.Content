@@ -89,5 +89,5 @@ Now I need you to do (we can do this together if you are stuck, just give me a c
 1. Now login and check Microsoft - Teams App, Outlook
 2. Now login and check Google - Chrome will bring back your bookmarks
 3. Plugin external monitors - Configure your screens
-4. Run the Login Script - Follow https://www.ssw.com.au/rules/have-a-companywide-word-template
+4. Run the Login Script - Follow [Logon - Do you have a company-wide Word template?](https://www.ssw.com.au/rules/have-a-companywide-word-template)
 ```
