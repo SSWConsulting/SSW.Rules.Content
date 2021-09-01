@@ -35,7 +35,7 @@ Assuming that Windows 10 is already installed, then get your SOE installed fast 
 5. Install all rest of the standard Software that does not support Chocolatey \[SSW Only]   
 6. In case you lose your laptop, it is a good idea to stick a business card to the bottom
 7. For branding reasons, stick your company sticker to the laptop 
-     
+    
 
 ![Figure: SSWLoginScript.bat](LoginScript.jpg)
 
@@ -46,7 +46,7 @@ Assuming that Windows 10 is already installed, then get your SOE installed fast 
 ![Figure: Company branding on laptop](SSWLaptopBranding.jpg)
 
 8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
-     
+    
 
 Hey Ana, 
 
@@ -74,7 +74,6 @@ Your new computer is ready. ⭐️
 * Software - Fully installed WIndows Updates for your laptop
 * Software - Used the built-in app Updater (if any) for your laptop model (e.g. Dell Update, HP Smart) to update all firmware and software automatically
 * Printer - Added the main office printers
-
 ```
 
  **Done** - then I followed a SysAdmin SugarLearning Item: https://my.sugarlearning.com/SSW/items/13220/snipe-it-asset-management and this included:
@@ -90,4 +89,5 @@ Now I need you to do (we can do this together if you are stuck, just give me a c
 1. Now login and check Microsoft - Teams App, Outlook
 2. Now login and check Google - Chrome will bring back your bookmarks
 3. Plugin external monitors - Configure your screens
+4. Run the Login Script - Follow https://www.ssw.com.au/rules/have-a-companywide-word-template
 ```
