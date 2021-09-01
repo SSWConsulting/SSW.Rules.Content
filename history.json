@@ -26829,6 +26829,15 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
+		"file": "rules/do-not-use-meta-tags-to-redirect/rule.md",
+		"created": "2021-06-28T02:55:12.278Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-08-25T05:59:41.610Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
 		"file": "rules/do-you-use-the-right-anchor-names/rule.md",
 		"created": "2021-06-28T04:03:12.028Z",
 		"createdBy": "Tom Bui [SSW]",
