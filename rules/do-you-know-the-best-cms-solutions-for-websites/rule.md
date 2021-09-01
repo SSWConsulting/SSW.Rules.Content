@@ -21,6 +21,8 @@ You don’t want to build solutions from scratch, so take what business value y
 
 ### Top 6 CMS vendors of 2021 by Market Share (including eCommerce and websites)
 
+<br>
+
 * WordPress
 * Joomla
 * Drupal
@@ -31,6 +33,8 @@ You don’t want to build solutions from scratch, so take what business value y
 Source: https://www.isitwp.com/popular-cms-market-share/
 
 ### Top 5 CMS vendors for Enterprise websites (.NET based)
+
+<br>
 
 * DotNetNuke - DNN (Open source) (pricing non-transparent)
 * Umbraco (Open source) ($ - https://umbraco.com/umbraco-cms-pricing/)
@@ -46,6 +50,8 @@ Source: https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platfor
 See google trends information for these products: https://trends.google.com/trends/explore?q=dotnetnuke,sitefinity,sitecore,kentico,Umbraco
 
 ### Popular Headless CMS of 2021
+
+<br>
 
 * Contentful ($$ - https://www.contentful.com/pricing/)
 * Magnolia (pricing non-transparent)
@@ -75,6 +81,8 @@ For example, you can use a Headless CMS with a super fast Static Site Generator 
 
 ### Pros of a Traditional CMS
 
+<br>
+
 * **Simple and fast** - for setup and maintenance 
 * **No developers needed** - for larger websites or a complicated CMS (e.g. SiteCore), this may become necessary
 * **Simple to control look and feel** - using available themes and templates
@@ -82,6 +90,8 @@ For example, you can use a Headless CMS with a super fast Static Site Generator 
 * **Out of the box integrations** - payments, social media, etc.
 
 ### Cons of a Traditional CMS
+
+<br>
 
 * **Performance is not amazing** - the frontend is coupled with the backend.
 * **Does not scale very well** - all pages render server side, so you will need more servers if you have lots of traffic.
@@ -92,6 +102,8 @@ For example, you can use a Headless CMS with a super fast Static Site Generator 
 
 ### Pros of a Headless CMS
 
+<br>
+
 * **Super fast** - fast initial load time when using Static Site Generator (SSG).
 * **Scales very well** - when using Static Site Generator, and the frontend can be cached via CDN.
 * **Ultimate flexibility with how to use content** - can use SPA, Static Site Generator or even native mobile apps. Not restricted by themes, templates or vendor, and you can have multiple frontends with 1 headless CMS backend.
@@ -99,6 +111,8 @@ For example, you can use a Headless CMS with a super fast Static Site Generator 
 * **Easy publishing** - The same content can be published to different platforms at the same time (website, web app, native mobile app).
 
 ### Cons of a Headless CMS
+
+<br>
 
 * **You need frontend developers** - the CMS only handles the backend content.
 * **Greater overhead** - to maintain the code base, DevOps, etc.
@@ -137,6 +151,8 @@ Let's compare two popular CMSs:
 Source: https://kontent.ai/compare/contentful
 
 ## Dead CMSs
+
+<br>
 
 * Microsoft SharePoint for public sites
 * CommunityServer.org
