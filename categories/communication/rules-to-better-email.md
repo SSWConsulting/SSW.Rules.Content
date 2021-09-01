@@ -54,7 +54,6 @@ index:
 - do-you-avoid-using-images-in-your-email-signatures
 - do-you-avoid-using-out-of-office
 - do-you-avoid-using-words-that-make-your-email-like-junk-mail
-- add-branding-to-screenshots
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
 - do-you-know-not-to-send-attachments-in-emails
@@ -72,8 +71,8 @@ index:
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
 - dictate-emails
-- screenshots-do-you-know-how-to-show-wanted-actions
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
+- add-branding-to-screenshots
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
 - how-to-fix-small-web-errors
