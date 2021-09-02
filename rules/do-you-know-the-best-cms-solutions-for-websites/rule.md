@@ -8,7 +8,8 @@ authors:
   - title: Anthony Nguyen
     url: https://www.ssw.com.au/people/anthony-nguyen
 related: []
-redirects: []
+redirects:
+  - do-you-know-the-best-cms-solutions-for-your-internet-intranet
 created: 2009-03-10T08:44:37.000Z
 archivedreason: null
 guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
@@ -136,22 +137,24 @@ Terms:
 
 <br>
 
-| **Name**                     | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                                                                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min)                                       |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **SSO and MFA**              | ✅                                                                                                                                                        | ✅ 
-| **GraphQL Support**          | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅
-| **Localization**             | ✅                                                                                                                                                        | ✅
-| **Collections**              | ✅ [Info](https://kontent.ai/specials/collections)                                                                                                             | ❌
-| **Personalized Experiences** | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                   | ✅ via [Frosmo](https://frosmo.com/frosmo-with-contentful/)   
-| **Content Modelling**        | ✅                                                                                                                                                        | ✅
-| **In-Context Editing**       | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                                   | ❌                                                                               
-| **Unlimited Content Types**  | ✅                                                                                                                                                        | ❌                                                                                                                                                           
-| **Content Collaboration**    | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing)                                             | ❌
-| **Task Management**          | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality                                     | ✅ [Info](https://www.contentful.com/help/tasks/)                                   
-| **Workflows**                | ✅                                                                                                                                                        | ✅                                                                             
-| **Website Optimisation**     | ✅                                                                                                                                                        | ❌
-| **Roadmap Transparency**             | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases)                         | Good: [Info](https://www.contentful.com/whats-new/)                                   
-| **Pricing**                  | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling)                                                                                   | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch) |
+
+
+| **Name** | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins) | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
+| - | - | - |
+| **In-Context Editing** | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | ❌
+| **Collections** | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | ❌
+| **Personalized Experiences** | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/) | ✅ via [Frosmo](https://frosmo.com/frosmo-with-contentful/)
+| **SSO and MFA** | ✅ | ✅ 
+| **GraphQL Support** | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅
+| **Localization** | ✅ | ✅ 
+| **Content Modelling** | ✅ | ✅
+| **Unlimited Content Types** | ✅ | ❌ 
+| **Content Collaboration** | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing) | ❌ 
+| **Task Management** | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality | ✅ [Info](https://www.contentful.com/help/tasks/)
+| **Workflows** | ✅ | ✅                                                                             
+| **Website Optimisation** | ✅ | ❌
+| **Roadmap Transparency** | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases) | Good: [Info](https://www.contentful.com/whats-new/)                                   
+| **Pricing** | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling) | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch) |
 
 > Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
 
