@@ -78,8 +78,10 @@ A Headless CMS deals strictly with the content. Created content is accessed via 
 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
 
+> Traditional CMS systems like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSes and static sites for the win.
+-Adam Cogan
 
-> If you want speed and flexibility, use a Headless CMS.
+
 
 
 ### ✅ Traditional CMS - Pros
