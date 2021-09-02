@@ -142,7 +142,7 @@ Terms:
 | **Name** | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins) | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
 | - | - | - |
 | **In-Context Editing** | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | ❌
-| **Collections** | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | ❌
+| **Hierarchy** | Projects \| Environments \| [Collections](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | Spaces \| Environments
 | **Personalized Experiences** | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/) | ✅ via [Frosmo](https://frosmo.com/frosmo-with-contentful/)
 | **SSO and MFA** | ✅ | ✅ 
 | **GraphQL Support** | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅
@@ -154,6 +154,12 @@ Terms:
 | **Workflows** | ✅ | ✅                                                                             
 | **Website Optimisation** | ✅ | ❌
 | **Roadmap Transparency** | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases) | Good: [Info](https://www.contentful.com/whats-new/)                                   
+| **Australian Compliance** | ✅ stored in an Australian Azure Data Center | ❌ stored in a United States AWS Data Center
+| **Dev/Staging/Prod Data Migration** | Prod only by default - Add migration script and pipeline | Prod only by default - Add migration script and pipeline |
+| **Email Campaigns** | Use 3rd party best of breed tool e.g. MailChimp | Use 3rd party best of breed tool e.g. MailChimp |
+| **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing |
+| **Statistics** | External Analytics e.g. Google Analytics | External Analytics e.g. Google Analytics |
+| **Developer Friendly** | ✅ | ✅ |
 | **Pricing** | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling) | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch) |
 
 > Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
