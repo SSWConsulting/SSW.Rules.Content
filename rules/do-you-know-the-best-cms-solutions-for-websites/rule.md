@@ -161,7 +161,7 @@ Terms:
 | **Email Campaigns** | Use 3rd party best of breed tool e.g. MailChimp | Use 3rd party best of breed tool e.g. MailChimp |
 | **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing |
 | **Statistics** | External Analytics e.g. Google Analytics | External Analytics e.g. Google Analytics |
-| **Developer Friendly** | Fastly | Cloudfront |
+| **CDN** | Fastly | Cloudfront |
 | **Developer Friendly** | ✅ | ✅ |
 | **Pricing** | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling) | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch) |
 
