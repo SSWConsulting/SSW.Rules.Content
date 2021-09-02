@@ -37,9 +37,9 @@ Source: https://www.isitwp.com/popular-cms-market-share/
 
 <br>
 
-* SiteCore ($$$ - pricing non-transparent)
-* Kentico Xperience (Formerly Kentico EMS) ($$ - https://xperience.io/pricing)
-* Sitefinity ($ - pricing non-transparent)
+* SiteCore ($$ - approx $50k per year - pricing non-transparent)
+* Kentico Xperience (Formerly Kentico EMS) ($$ - approx $20k per year per website - https://xperience.io/pricing)
+* Sitefinity ($$ - approx $40k per year - pricing non-transparent)
 * Umbraco (Open source) ($ - https://umbraco.com/umbraco-cms-pricing/)
 * DotNetNuke - DNN (Open source) (pricing non-transparent)
 
@@ -78,7 +78,7 @@ A Headless CMS deals strictly with the content. Created content is accessed via 
 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
 
-> Traditional CMS systems like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSes and static sites for the win.
+> Traditional CMSes like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSes and static sites for the win.
 -Adam Cogan
 
 
@@ -161,6 +161,7 @@ Terms:
 | **Email Campaigns** | Use 3rd party best of breed tool e.g. MailChimp | Use 3rd party best of breed tool e.g. MailChimp |
 | **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing |
 | **Statistics** | External Analytics e.g. Google Analytics | External Analytics e.g. Google Analytics |
+| **Developer Friendly** | Fastly | Cloudfront |
 | **Developer Friendly** | ✅ | ✅ |
 | **Pricing** | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling) | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch) |
 
