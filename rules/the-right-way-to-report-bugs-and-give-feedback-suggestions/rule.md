@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the right way to report bugs and give feedback/suggestions?
-guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 uri: the-right-way-to-report-bugs-and-give-feedback-suggestions
-created: 2009-03-25T04:53:21.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-related: 
-- do-you-provide-details-when-reporting-net-applications-errors
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+related:
+  - do-you-provide-details-when-reporting-net-applications-errors
 redirects:
-- do-you-know-the-right-way-to-report-bugs
-- do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
-
+  - do-you-know-the-right-way-to-report-bugs
+  - do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
+created: 2009-03-25T04:53:21.000Z
+archivedreason: null
+guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
 
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
@@ -151,11 +150,13 @@ Figure: Good example - We can easily identify more the one way to improve the UX
 Better than a good description of the bug is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
+
 ::: good
 Figure: Good example - Recording bug reports in a video can make the issue clearer to see
 :::
 
 `youtube: https://www.youtube.com/embed/VDZSfHJ7GNU`
+
 ::: good
 Figure: Good example - Giving feature requests via video
 :::
@@ -166,15 +167,28 @@ Figure: Good example - Giving feature requests via video
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one and not too much work, then you should email the Tech Leader and Cc the Product Owner.
 
 The Product Owner can always respond if he doesn’t like the suggestion:  
-- For a bug email: **To: TechLead  Cc: ProductOwner  Subject: Bug -  xxx (or use PBI @mention)**
-- For a new feature email: **To: TechLead  Cc: ProductOwner  Subject: Suggestion - xxx  (or use PBI @mention)**
+- For a bug email: 
+<br/>
+<br/>
+  **To: TechLead  
+  Cc: ProductOwner  
+  Subject: Bug -  xxx (or use PBI @mention)**
+
+- For a new feature email: 
+<br/>
+<br/>
+  **To: TechLead  
+  Cc: ProductOwner  
+  Subject: Suggestion - xxx  (or use PBI @mention)**
 
 **Note:** You may have a group email such as all@northwind.com.au, You would only Cc this email for greater visibility. 
 
---
+:::
 
-When you create a bug/suggestion to a backlog, you may add an emoji in the title so it looks nicer:
+### Do you use emojis for PBI titles?
+
+When you create a bug/suggestion to a backlog, it's a good idea to add emoji in the title. Not only does it look nicer, but people can look at the item and take in the necessary information quickly.
+
+This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc.):
 - 🐛 Bug - Calendar is not showing on iOS devices
 - ✨Feature - Add 'Back to menu' item to top navigation
-
-:::

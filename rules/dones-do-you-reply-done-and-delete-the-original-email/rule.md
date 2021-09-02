@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/cameron-shaw
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related: 
+- done-do-you-go-beyond-done-and-follow-a-definition-of-done
 redirects: []
 
 ---
@@ -175,7 +176,7 @@ Bob
 :::  
 :::
 ::: bad
-Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it mess up with the history
+Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
 :::
 
 ::: email-template  
@@ -233,11 +234,9 @@ Jason
 Figure: Good example – If multiple tasks are 'done', then only the URL is needed. This is clear that all tasks have been done and they can read the history of the requests below
 :::
 
-
-
 ### Tip 4: Replying "Done" to huge tasks
 
-Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to more than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
+Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to take more time than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
 
 
 ### Tip 5: Don't consolidate emails

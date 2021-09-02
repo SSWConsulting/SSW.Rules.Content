@@ -12,6 +12,7 @@ index:
 - use-github-topics
 - how-to-view-activity-traffic-and-contributions-of-a-project
 - do-you-know-how-to-write-a-good-pull-request
+- do-you-use-indentation-for-readability
 - do-you-know-the-correct-license-to-use-for-open-source-software
 - do-you-know-to-the-requirements-to-create-a-new-repository
 - discuss-the-backlog
@@ -28,5 +29,6 @@ index:
 - set-default-permissions-for-new-repositories
 - do-you-know-how-to-setup-github-notifications
 - do-you-know-how-to-handle-undone-work
+- todo-tasks
 
 ---

@@ -55,6 +55,7 @@ index:
 - use-chrome-profiles
 - cc-the-client-whenever-possible
 - use-backchannels-effectively
+- return-on-investment
 
 ---
 Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.

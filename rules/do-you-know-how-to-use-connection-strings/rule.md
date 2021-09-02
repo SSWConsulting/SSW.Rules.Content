@@ -3,172 +3,39 @@ type: rule
 title: Do you know how to use Connection Strings?
 uri: do-you-know-how-to-use-connection-strings
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
-  - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
-  - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+- title: William Liebenberg
+  url: https://ssw.com.au/people/william-liebenberg
+- title: Bryden Oliver
+  url: https://ssw.com.au/people/bryden-oliver
+- title: Calum Simpson
+  url: https://ssw.com.au/people/calum-simpson
 related: []
-redirects:
-  - do-you-know-how-to-use-connection-string-in-net-2-0
+redirects: 
+- do-you-know-how-to-use-connection-string-in-net-2-0
+- do-you-hard-code-your-connectionstring
+- know-the-right-way-to-define-a-connection-string
 created: 2009-05-08T08:53:04.000Z
 archivedreason: null
 guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
+
 ---
 
-Accessing your application configuration and secret values is easily done via the `IConfiguration` interface (from `Microsoft.Extensions.Configuration.Abstractions`).
+There are 2 type of connection strings. The first contains only address type information without authorization secrets. These can use all of the simpler methods of storing configuration as none of this data is secret.
 
-However, this convenience can lead you down the path of loosely typed secret handling (everything is a `string`) and can cause maintenance overhead. This is bad!
+#### Option #1 - Using Azure Managed Identities (Recommended)
 
-![Figure: Keep your secrets safe](lockedBox.png)
+When deploying an Azure hosted application we can use Azure Managed Identities to avoid having to include a password or key inside our connection string. This means we really just need to keep the address or url to the service in our application configuration. Because our application has a Managed Identity, this can be treated in the same way as a user's Azure AD identity and specific roles can be assigned to grant the application access to required services.
 
-Luckily there is a better way to avoid these issues and we are able to consume our configuration and secrets with strongly typed classes.
+This is the preferred method wherever possible, because it eliminates the need for any secrets to be stored. The other advantage is that for many services the level of access control available using Managed Identities is much more granular making it much easier to follow the **Principle of Least Privilege**. 
 
-<!--endintro-->
+#### Option #2 - Connection Strings with passwords or keys
 
-### Option #1 - Using connection strings directly in code
+If you have to use some sort of secret or key to login to the service being referenced, then some thought needs to be given to how those secrets can be secured.
+Take a look at [Do you store your secrets securely](https://www.ssw.com.au/rules/store-your-secrets-securely) to learn how to keep your secrets secure.
 
-```cs
-public class MyDataService
-{
-    private async Task<string> GetCustomerDetails(CustomerDetailsQuery request)
-    {
-        var sql = @"SELECT * FROM CustomerDetails WHERE CustomerId = @auctionId";
-        await using var db = new SqlConnection("Server=localhost;Database=Northwind;Trusted_connection=false;user id=sa;pwd=admin");
-        return (await db.QueryAsync<string>(sql,
-            new
-            {
-                customerId = request.CustomerId
-            })
-            ).SingleOrDefault();
-    }
-}
-```
-::: bad
-Figure: Bad Example - Option #1 Connection strings do not belong in your code, anyone seeing this could access your database
-:::
-
-### Option #2 - Using connection strings in `appsettings.json`
-
-```js
-// In appsettings.json
-{
-  "ApplicationSecrets": {
-    "LicenceKey": "ABCD-1234-HIJK",
-    "ConnectionString": "Server=localhost;Database=Northwind;Trusted_connection=false;user id=sa;pwd=admin"
-  }
-}
-```
-::: bad
-Figure: Bad Example - Option #2 Connection strings do not belong in your `appsettings.json` either, once committed to version control they are hard to remove
-:::
-
-### Option #3 - Referencing loosely typed connection strings
-
-```cs
-public class MyDataService
-{
-    public readonly string _connectionString;
-    
-    public MyDataService(IConfiguration config)
-    {
-        // In Production, your connection string will be read from Key Vault instead of appsettings.json
-	// Note: we are grabbing the connection string setting directly from config as a string using another magic string - this is bad!
-        _connectionString = config["ApplicationSecrets:SqlConnectionString"];
-    }
-    
-    private async Task<string> GetCustomerDetails(CustomerDetailsQuery request)
-    {
-        var sql = @"SELECT * FROM CustomerDetails WHERE CustomerId = @auctionId";
-        await using var db = new SqlConnection(_connectionString);
-        return (await db.QueryAsync<string>(sql,
-            new
-            {
-                customerId = request.CustomerId
-            })
-            ).SingleOrDefault();
-    }
-}
-```
-::: bad
-Figure: Bad Example - Option #3 Referencing a loosely typed connection string defined in application settings
-:::
-
-### Option #4 - User Secrets
-
-An alternative to putting secrets into `appsettings.json` is via [User Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
-
-User secrets provide you with a secret file (called `secrets.json`) that is stored on your local machine away from the current code repository and cannot be committed by accident.
-
-To access your User Secrets:
-
-1. Right-click your project in Visual Studio
-2. Select Manage User Secrets
-3. Edit the content of your `secrets.json` file
-4. Save the file
-
-![Figure: OK Example - Option #4 User secrets (secrets.json)](manage-user-secrets.png)
-
-```cs
-// In ApplicationSecrets.cs
-public class ApplicationSecrets
-{
-    public string SqlConnectionString { get; set; }
-    public string LicenseKey { get; set; }
-}
-```
-::: good
-Figure: Good Example - The strongly typed class containing application secrets
-:::
-
-```cs
-// In Startup.cs
-// This method gets called by the runtime. Use this method to add services to the container.
-public void ConfigureServices(IServiceCollection services)
-{
-    // Bind the "ApplicationSecrets" config section to an instance of the `ApplicationSecrets` class
-    services.Configure<ApplicationSecrets>(Configuration.GetSection("ApplicationSecrets"));
-    ...
-}
-```
-::: good
-Figure: Good Example - Binding the `ApplicationSecrets` section (from `appsettings.json` or `secrets.json`) to an instance of the `ApplicationSecrets` class
-:::
-
-```cs
-// In MyDataService.cs
-public class MyDataService
-{
-    // Note how we use a strongly typed class here to contain all our settings - this is good!
-    public readonly ApplicationSecrets _settings;
-    
-    public MyDataService(IOptions<ApplicationSecrets> settings)
-    {
-        // In Production, your connection string will be read from Key Vault
-        _settings = settings.Value;
-    }
-    
-    private async Task<string> GetCustomerDetails(CustomerDetailsQuery request)
-    {
-        var sql = @"SELECT * FROM CustomerDetails WHERE CustomerId = @auctionId";
-        await using var db = new SqlConnection(_settings.SqlConnectionString);
-        return (await db.QueryAsync<string>(sql,
-            new
-            {
-                customerId = request.CustomerId
-            })
-            ).SingleOrDefault();
-    }
-}
-```
-::: good
-Figure: Good Example - Consuming strongly typed application secrets
-:::
-
-### Option #5 - Integrating Azure Key Vault into your ASP.NET Core application
+#### Example - Integrating Azure Key Vault into your ASP.NET Core application
 
 In .NET 5 we can use **Azure Key Vault** to securely store our connection strings away from prying eyes.
 
@@ -211,7 +78,7 @@ public static IHostBuilder CreateHostBuilder(string[] args) =>
 		});
 ```
 ::: good
-Good Example - Option #5 For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
+Good Example - For a complete example, refer to this [sample application](https://github.com/william-liebenberg/keyvault-example)
 :::
 
 ::: info
@@ -239,7 +106,7 @@ Applications require at least the LIST and GET permissions, otherwise the Key Va
 ![Figure: Key Vault Access Policies - Setting permissions for Applications and/or Users](access_policies.png)
 :::
 
-Azure Key Vault and App Services can easily trust each other by making use of System assigned identities. Azure takes care of all the complicated logic behind the scenes for these two services to communicate with each other - reducing the complexity for application developers.
+Azure Key Vault and App Services can easily trust each other by making use of System assigned Managed Identities. Azure takes care of all the complicated logic behind the scenes for these two services to communicate with each other - reducing the complexity for application developers.
 
 So, make sure that your Azure App Service has the **System assigned identity** enabled.
 

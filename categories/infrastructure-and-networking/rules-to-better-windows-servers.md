@@ -14,6 +14,7 @@ index:
 - turn-on-file-auditing-for-your-file-server
 - use-the-best-windows-file-storage-solution
 - do-you-keep-your-system-up-to-date
+- run-services-on-their-own-ad-accounts
 
 ---
  
