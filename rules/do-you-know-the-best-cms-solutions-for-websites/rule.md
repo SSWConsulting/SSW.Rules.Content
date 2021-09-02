@@ -14,8 +14,6 @@ created: 2009-03-10T08:44:37.000Z
 archivedreason: null
 guid: af85d3bd-de7f-488e-8a21-6393d8907ab8
 ---
-
-
 You don’t want to build solutions from scratch, so take what business value you can from a CMS: don't reinvent the wheel.
 
 > A CMS allows business users to build and manage websites without having to write any code.
@@ -43,13 +41,11 @@ Source: https://www.isitwp.com/popular-cms-market-share/
 * Umbraco (Open source) ($ - https://umbraco.com/umbraco-cms-pricing/)
 * DotNetNuke - DNN (Open source) (pricing non-transparent)
 
-
 Source: https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms
 \
 \
 ![](googletrendsnet.png ".NET CMS Google Trends")
 **Figure: Google trends of the above .NET CMSs. The leading (but most expensive) is SiteCore, and in second is Umbraco (which is much cheaper). [Current trend information for these products](https://trends.google.com/trends/explore?q=dotnetnuke,sitefinity,sitecore,kentico,Umbraco)**
-
 
 ### Top 5 Headless CMS of 2021
 
@@ -79,10 +75,13 @@ A Headless CMS deals strictly with the content. Created content is accessed via 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
 
 > Traditional CMSes like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSes and static sites for the win.
--Adam Cogan
+> -Adam Cogan
 
+Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture:
 
+![Figure: Traditional CMS Architecture](cms-architecture-traditional.jpg)
 
+![Figure: Headless CMS Architecture](cms-architecture-headless.jpg)
 
 ### ✅ Traditional CMS - Pros
 
@@ -139,31 +138,29 @@ Terms:
 
 <br>
 
-
-
-| **Name** | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins) | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
-| - | - | - |
-| **In-Context Editing** | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | ❌
-| **Hierarchy** | Projects \| Environments \| [Collections](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content) | Spaces \| Environments
-| **Personalized Experiences** | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/) | ✅ via [Frosmo](https://frosmo.com/frosmo-with-contentful/)
-| **SSO and MFA** | ✅ | ✅ 
-| **GraphQL Support** | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅
-| **Localization** | ✅ | ✅ 
-| **Content Modelling** | ✅ | ✅
-| **Unlimited Content Types** | ✅ | ❌ 
-| **Content Collaboration** | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing) | ❌ 
-| **Task Management** | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality | ✅ [Info](https://www.contentful.com/help/tasks/)
-| **Workflows** | ✅ | ✅                                                                             
-| **Website Optimisation** | ✅ | ❌
-| **Roadmap Transparency** | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases) | Good: [Info](https://www.contentful.com/whats-new/)                                   
-| **Australian Compliance** | ✅ stored in an Australian Azure Data Center | ❌ stored in a United States AWS Data Center
-| **Dev/Staging/Prod Data Migration** | Prod only by default - Add migration script and pipeline | Prod only by default - Add migration script and pipeline |
-| **Email Campaigns** | Use 3rd party best of breed tool e.g. MailChimp | Use 3rd party best of breed tool e.g. MailChimp |
-| **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing |
-| **Statistics** | External Analytics e.g. Google Analytics | External Analytics e.g. Google Analytics |
-| **CDN** | Fastly | Cloudfront |
-| **Developer Friendly** | ✅ | ✅ |
-| **Pricing** | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling) | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch) |
+| **Name**                              | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **In-Context Editing**                | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                                | ❌                                                                                                        |
+| **Hierarchy**                         | Projects | Environments | [Collections](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                 | Spaces | Environments                                                                                    |
+| **Personalized Experiences**          | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                  | ✅ via [Frosmo](https://frosmo.com/frosmo-with-contentful/)                                               |
+| **SSO and MFA**                       | ✅                                                                                                                                                          | ✅                                                                                                        |
+| **GraphQL Support**                   | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅                                                                                                        |
+| **Localization**                      | ✅                                                                                                                                                          | ✅                                                                                                        |
+| **Content Modelling**                 | ✅                                                                                                                                                          | ✅                                                                                                        |
+| **Unlimited Content Types**           | ✅                                                                                                                                                          | ❌                                                                                                        |
+| **Content Collaboration**             | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing)                                               | ❌                                                                                                        |
+| **Task Management**                   | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality                                          | ✅ [Info](https://www.contentful.com/help/tasks/)                                                         |
+| **Workflows**                         | ✅                                                                                                                                                          | ✅                                                                                                        |
+| **Website Optimisation**              | ✅                                                                                                                                                          | ❌                                                                                                        |
+| **Roadmap Transparency**              | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases)                        | Good: [Info](https://www.contentful.com/whats-new/)                                                      |
+| **Australian Compliance**             | ✅ stored in an Australian Azure Data Center                                                                                                                | ❌ stored in a United States AWS Data Center                                                              |
+| **Dev/Staging/Prod Data Migration**   | Prod only by default - Add migration script and pipeline                                                                                                   | Prod only by default - Add migration script and pipeline                                                 |
+| **Email Campaigns**                   | Use 3rd party best of breed tool e.g. MailChimp                                                                                                            | Use 3rd party best of breed tool e.g. MailChimp                                                          |
+| **User Tracking e.g. Leads, funnels** | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                                                                                | External CRM e.g. Salesforce Pardot, Dynamics 365 Marketing                                              |
+| **Statistics**                        | External Analytics e.g. Google Analytics                                                                                                                   | External Analytics e.g. Google Analytics                                                                 |
+| **CDN**                               | Fastly                                                                                                                                                     | Cloudfront                                                                                               |
+| **Developer Friendly**                | ✅                                                                                                                                                          | ✅                                                                                                        |
+| **Pricing**                           | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling)                                                                                   | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch)                          |
 
 > Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
 
