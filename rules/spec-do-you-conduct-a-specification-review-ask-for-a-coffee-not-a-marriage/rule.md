@@ -118,4 +118,4 @@ In a 2 or 3-day spec review, you should assume you’ll need more time to implem
 
 Always track timesheets against a separate Spec Review project. 
 
-It makes project cost reporting difficult later if you don't, since the cost we're looking for is always the "post Spec Review cost" that clients can compare to the estimate you gave in your Spec Review.
+It makes project cost reporting difficult later if you don't, since the cost we're looking for is always the "post-Spec Review cost" that clients can compare to the estimate you gave in your Spec Review.
