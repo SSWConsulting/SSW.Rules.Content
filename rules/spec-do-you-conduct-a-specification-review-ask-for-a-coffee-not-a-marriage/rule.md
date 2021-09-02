@@ -38,7 +38,7 @@ Figure: Bad example - big scary figure
 :::
 
 ::: greybox
-"From this initial meeting, we will first need to conduct a Specification Review.   
+"From this initial meeting, we will first need to conduct a Specification Review.\
 This first step is $8k - a 2-day Specification Review"
 :::
 ::: good
@@ -75,17 +75,17 @@ While the information collected and the conclusions of the Spec Review are prese
 Each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
 ::: greybox
-"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"
+"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"\
 :::
 ::: bad
-Bad Example - Far too firm a price when you don't know any of the detail
+Bad Example - Far too firm a price when you don't know any of the detail\
 :::
 
 ::: greybox
-"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing"
+"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing. 
 :::
 ::: good
-Good Example - leaves some wriggle room at these initial phases
+Good Example - leaves some wriggle room at these initial phases\
 :::
 
 Read [When do you use approximate values for project costs?](/spec-do-you-know-how-to-give-the-customer-a-ballpark)
@@ -113,3 +113,9 @@ You want to have all the required work for a spec review done within the allocat
 * **6 pm:** Send “As per our conversation” with Word or PPT attachment
 
 In a 2 or 3-day spec review, you should assume you’ll need more time to implement changes, so push the presentation time forward to 2 pm.
+
+### Timesheets
+
+Always track timesheets against a separate Spec Review project. 
+
+It makes project cost reporting difficult later if you don't, since the cost we're looking for is always the "post Spec Review cost" that clients can compare to the estimate you gave in your Spec Review.
