@@ -9,7 +9,8 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+ - do-you-allow-users-to-comment-and-rate-your-pages
 
 ---
 
