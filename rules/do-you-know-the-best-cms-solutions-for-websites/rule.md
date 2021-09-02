@@ -124,26 +124,33 @@ For example, you can use a Headless CMS with a super fast Static Site Generator 
 
 <br>
 
-Let's compare two popular CMSs:
+Let's compare two popular CMSs.
+
+Terms:
+
+**Content Modelling** - the ability to model your website components, and see how they are used in your website.
+
+**Collections** - allows you to manage content dependent on your business and geographical structure. This eliminates the use of silos, which make it more difficult to manage your data.
+
+**Website optimisation** - See the Kontent's useful [docs](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/seo-friendly-content) on this topic.
 
 <br>
 
-| **Name**                     | [Kontent](https://kontent.ai/) (Recommended)                                                                                                               | [Contentful](https://www.contentful.com/)                                       |
+| **Name**                     | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                                                                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min)                                       |
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| **Video Introduction**                    | [Kontent](https://www.youtube.com/watch?v=wZLw3UKNQk8)                                                                                                     | [Contentful](https://www.youtube.com/watch?v=TNE9OAXP4R0)                       |
-| **Content Modelling**        | Yes                                                                                                                                                        | Yes                                                                             |
-| **Unlimited Content Types**  | Yes                                                                                                                                                        | No                                                                              |
-| **SSO and MFA**              | Yes                                                                                                                                                        | Yes                                                                             |
-| **GraphQL Support**          | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | Yes                                                                             |
-| **Collections**              | [Yes](https://kontent.ai/specials/collections)                                                                                                             | No                                                                              |
-| **Content Collaboration**    | Yes + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing)                                             | No                                                                              |
-| **Task Management**          | Yes ([with more functionality](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers))                                          | [Yes](https://www.contentful.com/help/tasks/)                                   |
-| **In-Context Editing**       | [Yes](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                                   | No                                                                              |
-| **Localization**             | Yes                                                                                                                                                        | Yes                                                                             |
-| **Workflows**                | Yes                                                                                                                                                        | Yes                                                                             |
-| **Website Optimisation**     | Yes                                                                                                                                                        | No                                                                              |
-| **Personalized Experiences** | Yes: [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                   | Yes: [Frosmo](https://frosmo.com/frosmo-with-contentful/)                       |
-| **Transparency**             | Good + [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases)                         | [Good](https://www.contentful.com/whats-new/)                                   |
+| **SSO and MFA**              | ✅                                                                                                                                                        | ✅ 
+| **GraphQL Support**          | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅
+| **Localization**             | ✅                                                                                                                                                        | ✅
+| **Collections**              | ✅ [Info](https://kontent.ai/specials/collections)                                                                                                             | ❌
+| **Personalized Experiences** | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                   | ✅ via [Frosmo](https://frosmo.com/frosmo-with-contentful/)   
+| **Content Modelling**        | ✅                                                                                                                                                        | ✅
+| **In-Context Editing**       | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                                   | ❌                                                                               
+| **Unlimited Content Types**  | ✅                                                                                                                                                        | ❌                                                                                                                                                           
+| **Content Collaboration**    | ✅ + [Simultaneous Editing](https://kontent.ai/blog/better-real-time-collaboration-with-simultaneous-editing)                                             | ❌
+| **Task Management**          | ✅ [Info](https://kontent.ai/blog/better-content-operations-for-enterprises-and-developers) + better functionality                                     | ✅ [Info](https://www.contentful.com/help/tasks/)                                   
+| **Workflows**                | ✅                                                                                                                                                        | ✅                                                                             
+| **Website Optimisation**     | ✅                                                                                                                                                        | ❌
+| **Roadmap Transparency**             | Better: [feature release roadmap](https://portal.productboard.com/kontent/2-kontent-public-roadmap/tabs/7-upcoming-public-releases)                         | Good: [Info](https://www.contentful.com/whats-new/)                                   
 | **Pricing**                  | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling)                                                                                   | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch) |
 
 > Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
