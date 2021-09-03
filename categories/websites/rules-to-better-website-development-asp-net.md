@@ -10,7 +10,7 @@ index:
 - do-you-use-jquery-tooltips-to-save-drilling-through
 - do-you-use-msajax-for-live-data-binding-which-saves-round-trips
 - do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero
-- do-you-allow-users-to-comment-and-rate-your-pages
+- best-commenting-engine
 - always-put-javascript-in-a-separate-file
 - avoid-deploying-source-code-on-the-production-server
 - avoid-using-asp-asp-net-tags-in-plain-html
