@@ -244,9 +244,9 @@
 	},
 	{
 		"file": "rules/do-you-have-a-tfs-master/rule.md",
-		"lastUpdated": "2015-09-11T09:18:52+10:00",
-		"lastUpdatedBy": "William Yin",
-		"lastUpdatedByEmail": "WilliamYin@ssw.com.au",
+		"lastUpdated": "2021-09-02T16:43:14.248Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2011-11-18T14:53:00+11:00",
 		"createdBy": "System Account",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -7444,9 +7444,9 @@
 	},
 	{
 		"file": "rules/spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage/rule.md",
-		"lastUpdated": "2021-04-05T23:00:28.403Z",
-		"lastUpdatedBy": "Ulysses Maclaren [SSW]",
-		"lastUpdatedByEmail": "45545178+UlyssesMaclaren@users.noreply.github.com",
+		"lastUpdated": "2021-09-02T23:46:24.710Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2013-03-25T22:15:35+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -27504,6 +27504,7 @@
 		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
 	},
 	{
+
 		"file": "rules/best-commenting-engine/rule.md",
 		"created": "2021-09-01T21:51:25.901Z",
 		"createdBy": "Brady Stroud",
@@ -27511,5 +27512,14 @@
 		"lastUpdated": "2021-09-02T22:30:50.058Z",
 		"lastUpdatedBy": "Brady Stroud [SSW]",
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/return-on-investment/rule.md",
+		"created": "2021-09-02T16:48:42.643Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-09-02T16:48:42.643Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
 ]
