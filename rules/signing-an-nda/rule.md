@@ -11,7 +11,8 @@ authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 related: []
-redirects: []
+redirects:
+- do-you-know-what-to-do-when-asked-to-sign-an-nda
 
 ---
 
