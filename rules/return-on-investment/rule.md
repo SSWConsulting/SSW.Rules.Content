@@ -105,3 +105,7 @@ Figure: Good Example - ROI is mentioned and quantified
 :::
 
 **Note:** If fixing the email signatures had been a huge task then it would have been better for Piers to have a conversation with Bob before he implemented the fix.
+
+### Video
+
+`youtube: https://www.youtube.com/embed/GEYDtxmX_8I`
