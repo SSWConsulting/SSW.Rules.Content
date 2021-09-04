@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know what to do when asked to sign an NDA?
 guid: 1d33b09f-67ab-4c7f-a9e8-6d66b341a9ed
-uri: signing-an-nda
+uri: nda-gotchas
 created: 2016-01-08T04:50:39.0000000Z
 authors:
 - title: Ulysses Maclaren
@@ -13,6 +13,7 @@ authors:
 related: []
 redirects:
 - do-you-know-what-to-do-when-asked-to-sign-an-nda
+- signing-an-nda
 
 ---
 
@@ -28,14 +29,9 @@ The correct process if you have access to a legal resource would be:
 4. Make changes to the document as requested by the legal guys and agreed to by the client
 5. Sign document
 
+If you don't, then look out for these three potential tripping points:
 
-<font color="#333333">
-</font>
-
-<font color="#333333">If you don't, then look out for these three potential tripping points&#58;</font>
-
-1. <font color="#333333">Specific damages (e.g. $1,000,000 per breach)</font>
-2. <font color="#333333">Funny jurisdiction (at least it should be in the country you are in)</font>
-3. <font color="#333333">If the agreement is not mutual you need to be extra careful. One sided agreements makes one of the parties lose out</font>
-4. <font color="#333333">Always request that any indemnity be deleted
-</font>
+1. Specific damages (e.g. $1,000,000 per breach)
+2. Funny jurisdiction (at least it should be in the country you are in)
+3. If the agreement is not mutual you need to be extra careful. One sided agreements makes one of the parties lose out
+4. Always request that any indemnity be deleted
