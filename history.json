@@ -26820,6 +26820,15 @@
 		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
 	},
 	{
+		"file": "rules/github-scrum-workflow/rule.md",
+		"created": "2021-06-23T23:38:43.069Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-08-25T05:56:31.614Z",
+		"lastUpdatedBy": "Taine Riley",
+		"lastUpdatedByEmail": "40375803+taineriley1@users.noreply.github.com"
+	},
+	{
 		"file": "rules/do-you-manage-clients-expectations/fail-image.png",
 		"created": "2021-06-25T01:24:23.100Z",
 		"createdBy": "Tiago Araújo [SSW]",
