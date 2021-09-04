@@ -26955,6 +26955,123 @@
 		"lastUpdatedByEmail": "bradystroud@me.com"
 	},
 	{
+		"file": "rules/do-you-have-the-best-github-issue-template/rule.md",
+		"created": "2021-07-06T02:22:07.234Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.943Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Commit changes.png",
+		"created": "2021-07-06T02:58:47.163Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.944Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/GitHub Issues Features.png",
+		"created": "2021-07-06T02:58:47.163Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.944Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/GitHub Settings.png",
+		"created": "2021-07-06T02:58:47.164Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.944Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Issue Template dropdown.png",
+		"created": "2021-07-06T02:58:47.164Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.944Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Propose changes.png",
+		"created": "2021-07-06T02:58:47.164Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.945Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Preview and Edit Issue.png",
+		"created": "2021-07-06T03:02:32.551Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.945Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Commit-changes.png",
+		"created": "2021-07-06T03:06:38.170Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.945Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/GitHub-Issues-Features.png",
+		"created": "2021-07-06T03:06:38.171Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.945Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/GitHub-Settings.png",
+		"created": "2021-07-06T03:06:38.171Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.946Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Preview-and-Edit-Issue.png",
+		"created": "2021-07-06T03:06:38.171Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.946Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Propose-changes.png",
+		"created": "2021-07-06T03:06:38.171Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.946Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-have-the-best-github-issue-template/Template-dropdown.png",
+		"created": "2021-07-06T03:06:38.171Z",
+		"createdBy": "Tom Bui [SSW]",
+		"createdByEmail": "67776356+tombui99@users.noreply.github.com",
+		"lastUpdated": "2021-07-07T01:07:17.946Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+	},
+	{
 		"file": "rules/control-choice-do-you-use-checked-list-boxes-instead-of-multi-select-list-boxes/multiple-select-checkbox-good.jpg",
 		"created": "2021-07-06T22:26:02.250Z",
 		"createdBy": "Tiago Araújo [SSW]",
