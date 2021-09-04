@@ -8,7 +8,8 @@ created: 2015-10-05T06:10:25.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+- use-the-status-message-in-teams
 redirects:
 - display-do-you-use-your-personal-message-to-share-good-news-with-your-contacts
 

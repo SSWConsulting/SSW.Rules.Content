@@ -19,7 +19,7 @@ index:
 - do-you-configure-your-team-system-web-access-to-be-accessible-from-outside-the-network
 - do-you-configure-your-tfs-to-be-accessible-from-outside-the-network
 - do-you-enforce-work-item-association-with-check-in
-- do-you-have-a-tfs-master
+- devops-master
 - do-you-include-original-artworks-in-source-control
 - do-you-know-how-to-lay-out-your-solution
 - do-you-know-how-to-refresh-the-cube

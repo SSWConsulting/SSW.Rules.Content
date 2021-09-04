@@ -17,7 +17,7 @@ index:
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 - do-you-follow-up-emails-effectively
-- do-you-know-when-to-do-use-checked-by-xxx
+- checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
 - do-you-seek-clarification-via-the-telephone-first
 - dones-do-your-dones-include-a-url
@@ -33,11 +33,11 @@ index:
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
-- do-you-know-when-you-should-change-a-subject
+- do-you-realize-the-importance-of-a-good-email-subject
+- change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
-- do-you-realize-the-importance-of-a-good-email-subject
 - do-you-respond-to-each-email-individually
 - do-you-send-tasks-one-email-at-a-time
 - do-you-use-indentation-for-readability
@@ -54,7 +54,6 @@ index:
 - do-you-avoid-using-images-in-your-email-signatures
 - do-you-avoid-using-out-of-office
 - do-you-avoid-using-words-that-make-your-email-like-junk-mail
-- add-branding-to-screenshots
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
 - do-you-know-not-to-send-attachments-in-emails
@@ -71,8 +70,9 @@ index:
 - better-late-than-never
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
-- screenshots-do-you-know-how-to-show-wanted-actions
+- dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
+- add-branding-to-screenshots
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
 - how-to-fix-small-web-errors

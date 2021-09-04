@@ -51,6 +51,7 @@ index:
 - rules-to-better-sql-databases-developers
 - rules-to-better-unit-tests
 - do-you-have-the-best-github-issue-template
+- rules-to-better-naming-conventions
 
 ---
 

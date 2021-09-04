@@ -1,20 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Do you disable insecure protocols?
-guid: ccc5ea3b-e835-4b8c-b5bc-d49d98bade9b
 uri: do-you-disable-insecure-protocols
-created: 2017-11-02T22:51:47.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
-- title: Kaique Biancatti (Kiki)
-  url: https://www.ssw.com.au/people/kiki
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Steven Andrews
+    url: https://ssw.com.au/people/steven-andrews
+  - title: Kaique Biancatti (Kiki)
+    url: https://www.ssw.com.au/people/kiki
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects: []
-
+created: 2017-11-02T22:51:47.000Z
+archivedreason: null
+guid: ccc5ea3b-e835-4b8c-b5bc-d49d98bade9b
 ---
 
 For better server security (especially regarding public facing servers), certain security protocols and ciphers should be disabled.

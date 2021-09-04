@@ -20,10 +20,15 @@ Every phone number should include the country code (with the + sign) so people 
 
 
 ::: bad
-Bad example: (503) 629-4000  
+Bad example: (503) 629-4000    (missing international format)   
 :::
 
 
 ::: good
-Good example: +1 (503) 629-4000  
+OK example: +1 (503) 629-4000  (don't need brackets)  
+:::
+
+
+::: good
+Good example: +1 503 629 4000  (do need spaces)  
 :::

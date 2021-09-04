@@ -11,6 +11,7 @@ index:
 - rules-to-better-interfaces-windows-applications
 - rules-to-better-interfaces-wizards
 - rules-to-better-interfaces-mobile
+- rules-to-better-designers
 - rules-to-better-logos
 
 ---

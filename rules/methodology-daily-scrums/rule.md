@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 related: 
 - use-the-status-message-in-teams
+- keep-track-of-a-parking-lot-for-topics
 redirects:
 - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
 - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)

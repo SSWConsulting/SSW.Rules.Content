@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Outdated 1-line rule
 title: Does your navigation device support touch?
 guid: df026703-b53b-4ab0-8b07-c2b0a0f63157
 uri: does-your-navigation-device-support-touch
