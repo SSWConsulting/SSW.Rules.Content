@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know what to do when asked to sign an NDA?
 guid: 1d33b09f-67ab-4c7f-a9e8-6d66b341a9ed
-uri: signing-an-nda
+uri: nda-gotchas
 created: 2016-01-08T04:50:39.0000000Z
 authors:
 - title: Ulysses Maclaren
@@ -13,6 +13,7 @@ authors:
 related: []
 redirects:
 - do-you-know-what-to-do-when-asked-to-sign-an-nda
+- signing-an-nda
 
 ---
 
