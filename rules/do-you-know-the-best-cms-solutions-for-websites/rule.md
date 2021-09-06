@@ -68,7 +68,7 @@ When you have a complex business case, you need something more customizable. Tha
 
 A Traditional CMS is a monolith, which means it has both a front-end and back-end. It uses server side technology like PHP (Wordpress,  Joomla, Magento) or ASP.Net (DNN, Umbraco, Sitefinity) and a single database. All pages are served by one or many backend servers.
 
-A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. 
+A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. Headless CMSs are also very appropriate for JAMstack sites: see the [State of Jamstack 2021 Report](https://kontent.ai/resources/state-of-jamstack-2021-report) by Kentico for more information.
 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
 
@@ -110,7 +110,7 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 
 * **You need frontend developers** - the CMS only handles the backend content.
 * **Greater overhead** - to maintain the code base, DevOps, etc.
-* **Limited preview functionality** - Content creator can’t preview exact content (Netlify CMS helps).
+* **Limited preview functionality** - Kontent provides in-context editing via [Spotlight](https://webspotlight.kontent.ai/), however most Headless CMSs do not. Netlify CMS can help in this case.
 
 ## Headless CMS Comparison: Kontent vs Contentful
 
