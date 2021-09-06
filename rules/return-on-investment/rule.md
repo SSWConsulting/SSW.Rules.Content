@@ -3,6 +3,10 @@ type: rule
 title: Do you understand why Return on Investment (ROI) should affect decision making?
 uri: return-on-investment
 authors:
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma
   - title: Piers Sinclair
@@ -14,6 +18,9 @@ related:
 created: 2021-08-18T06:46:14.461Z
 guid: f994dab2-2982-45fa-afb1-72610bdd780a
 ---
+
+`youtube: https://www.youtube.com/embed/GEYDtxmX_8I`
+
 An important part of communication is to improve the Product Owner's understanding of ROI and help them make good decisions. When you are actioning a task, it's crucial to value your time and think about how much manual time it may consume over a longer period, say a year. You can then go the extra step and quantify this $ cost.
 
 <!--endintro-->
@@ -106,6 +113,3 @@ Figure: Good Example - ROI is mentioned and quantified
 
 **Note:** If fixing the email signatures had been a huge task then it would have been better for Piers to have a conversation with Bob before he implemented the fix.
 
-### Video
-
-`youtube: https://www.youtube.com/embed/GEYDtxmX_8I`
