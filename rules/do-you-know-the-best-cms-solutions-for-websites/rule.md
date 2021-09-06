@@ -21,6 +21,8 @@ A CMS allows business users to build and manage websites without having to write
 
 ### Top 6 CMS vendors of 2021 by Market Share (including eCommerce and websites)
 
+These CMS platforms work really nicely for simple scenarios. If they fit your business case then use them.
+
 * WordPress
 * Joomla
 * Drupal
@@ -31,6 +33,8 @@ A CMS allows business users to build and manage websites without having to write
 **Source:** [https://www.isitwp.com/popular-cms-market-share/](https://www.isitwp.com/popular-cms-market-share)
 
 ### Top 5 CMS vendors for Enterprise websites (.NET based)
+
+When you have a complex business case, you need something more customizable. That's where enterprise CMSs come into play.
 
 * SiteCore ($$ - approx $50k per year - pricing non-transparent)
 * Kentico Xperience (Formerly Kentico EMS) ($$ - approx $20k per year per website - https://xperience.io/pricing)
@@ -68,7 +72,7 @@ A Headless CMS deals strictly with the content. Created content is accessed via 
 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
 
-> Traditional CMSes like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSes and static sites for the win.
+> Traditional CMSs like Sitecore and Kentico Xperience have their place, especially if you have no developers and you’re comfortable with serious vendor lock-in. Headless CMSs and static sites for the win.
 > -Adam Cogan
 
 Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture:
