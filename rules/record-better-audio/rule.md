@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you record better audio?
-guid: d8e3cd29-5d87-442e-998b-25d5649efbc3
 uri: record-better-audio
-created: 2020-11-27T22:06:55.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Landon Maxwell
-  url: https://ssw.com.au/people/landon-maxwell
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Landon Maxwell
+    url: https://ssw.com.au/people/landon-maxwell
 related: []
 redirects:
-- do-you-record-better-audio
-
+  - do-you-record-better-audio
+created: 2020-11-27T22:06:55.000Z
+archivedreason: null
+guid: d8e3cd29-5d87-442e-998b-25d5649efbc3
 ---
 
 Audio is one of the most important things to get right in a video as many viewers will tune out if the sound is not good, because if you can't hear someone properly it makes it more difficult to understand them.
@@ -39,6 +38,28 @@ Having these spaces will also make editing much easier, (e.g. Intro and Outro gr
 1.	When you start recording, wait 30 seconds before you begin.
 2.	When you finish your presentation, stay in your position for an extra 30 seconds.
 3.	Smile! Don’t forget you are still on camera.
+
+### Microphone types
+There are several types of microphones, and each has a distinctive shape and a specific way to be used.
+
+- Dynamic - Stage:
+These are robust, cheap, and durable microphones, and recognisable at any live event or gig.
+These use a movable induction coil suspended in the field of a magnet, which is resistant to loud sources, e.g. drumkits and guitar amplifiers.
+For recording vocals, the best position for a dynamic mic is 5-10 cm away from your mouth, with the tip pointed towards your mouth.
+
+- Dynamic - Lapel / Lavalier:
+These have an induction coil like the stage mics, but are very small omnidirectional mics. They can be fixed in a headset, or have a long cable and a clip so it can be easily moved.
+For recording vocals, the best position for a lapel mic is over the sternum.
+
+- Large Diaphragm Condenser - Studio
+Condenser mics have a thin flat membrane, or diaphragm, that moves in reaction to sound pressure. This makes them more sensitive, which can produce a more pleasant sound, but also makes them much more delicate.
+These mics are most receptive when sound reaches the flat surface of the large diaphragm.
+For recording vocals, the best position for a large diaphragm condenser mic is to have the flat side of the diaphragm pointed towards you, e.g. on a Blue Yeti this is indicated by the "Blue" logo.
+
+- Small Diaphragm Condenser - Shotgun
+These condenser mics have a much smaller diaphragm, so are more robust that the large diaphragm mics, but are still very sensitive. The most common type is known as a "shotgun", known for the long barrel that it is mounted in, which are directional.
+For recording vocals, the best position for a mall diaphragm condenser mic, or shotgun mic, is to point the tip of the barrel towards the source.
+
 
 ### Microphone Patterns
 Recording Patterns are a way to refer to the most sensitive parts of a microphone – the areas where the most sound will be picked up.
