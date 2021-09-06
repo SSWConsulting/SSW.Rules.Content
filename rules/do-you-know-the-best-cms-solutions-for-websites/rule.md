@@ -125,7 +125,7 @@ Terms:
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | **In-Context Editing**                | ✅ [Info](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                                                | ❌                                                                                                        |
 | **Hierarchy**                         | Projects | Environments | [Collections](https://kontent.ai/blog/in-context-editing-the-best-way-to-update-website-content)                                 | Spaces | Environments                                                                                    |
-| **Personalized Experiences**          | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                  | ✅ via [Frosmo](https://frosmo.com/frosmo-with-contentful/)                                               |
+| **Personalized Experiences**          | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                                                                                  | ✅ via [Uniform](https://uniform.dev/uniform-for-kontent/)                                               |
 | **SSO and MFA**                       | ✅                                                                                                                                                          | ✅                                                                                                        |
 | **GraphQL Support**                   | Soon: [October 2021](https://portal.productboard.com/kontent/2-kontent-public-roadmap/c/119-allow-developers-to-query-data-more-efficiently-using-graphql) | ✅                                                                                                        |
 | **Localization**                      | ✅                                                                                                                                                          | ✅                                                                                                        |
@@ -145,6 +145,7 @@ Terms:
 | **Developer Friendly**                | ✅                                                                                                                                                          | ✅                                                                                                        |
 | **Pricing**                           | [Premium](https://kontent.ai/pricing): $30,000 pa (cheaper with scaling)                                                                                   | [Team](https://www.contentful.com/pricing/): $24,000 pa (with Compose + Launch)                          |
 
+<br/>
 
 Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
 
