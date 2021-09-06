@@ -36,7 +36,7 @@ index:
 - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
 - do-you-know-who-are-the-most-appropriate-resources-for-a-project
 - make-sure-devs-are-comfortable-with-their-assignments
-- signing-an-nda
+- nda-gotchas
 - do-you-make-sure-your-developers-get-to-see-each-other-regularly
 - do-you-manage-requests-for-event-refunds-effectively
 - do-you-provide-a-high-level-project-progress-report-for-clients
