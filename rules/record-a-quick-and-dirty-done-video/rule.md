@@ -71,7 +71,7 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
 * Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible.
 * Don't edit the video - your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP).
   * **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
-* Check your audio devices - if you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality.
+* [Check your audio devices](https://www.ssw.com.au/rules/record-better-audio) - if you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality.
    * **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio.
 * Interact with your webcam like it's a person - look into the camera and smile when doing your introduction and closing for the video!
 <br>
