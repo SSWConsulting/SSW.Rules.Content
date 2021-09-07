@@ -68,7 +68,7 @@ When you have a complex business case, you need something more customizable. Tha
 
 A Traditional CMS is a monolith, which means it has both a front-end and back-end. It uses server side technology like PHP (Wordpress,  Joomla, Magento) or ASP.Net (DNN, Umbraco, Sitefinity) and a single database. All pages are served by one or many backend servers.
 
-A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. Headless CMSs are also very appropriate for JAMstack sites: see the [State of Jamstack 2021 Report](https://kontent.ai/resources/state-of-jamstack-2021-report) by Kentico for more information.
+A Headless CMS deals strictly with the content. Created content is accessed via Application Programming Interfaces (APIs), which gives you full flexibility on how you build the front-end for your website. 
 
 For example, you can use a Headless CMS with a super fast Static Site Generator (SSG): see the rule on the [best static site tech](https://www.ssw.com.au/rules/do-you-use-the-best-static-site-tech-stack).
 
@@ -84,7 +84,7 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 ### ✅ Traditional CMS - Pros
 
 * **Simple and fast** - for setup and maintenance 
-* **No developers needed for small-medium projects** - for larger websites or a complicated CMS (e.g. SiteCore), this may become necessary.
+* **Less reliance on developers** - You won't be as reliant on developers to make changes, and may be able to forgo them completely for small-medium projects. More complex CMSs will require developer involvement but non-developers still have some customisation control.
 * **Simple to control look and feel** - using available themes and templates
 * **Large community support**
 * **Out of the box integrations** - payments, social media, etc.
@@ -108,9 +108,9 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 
 ### ❌ Headless CMS - Cons
 
-* **You need frontend developers** - the CMS only handles the backend content.
+* **Very reliant on frontend developers** - Anything beyond basic content changes will require frontend dev involvement.
 * **Greater overhead** - to maintain the code base, DevOps, etc.
-* **Limited preview functionality** - Kontent provides in-context editing via [Spotlight](https://webspotlight.kontent.ai/), however most Headless CMSs do not. Netlify CMS can help in this case.
+* **Limited preview functionality** - Content creator can’t preview exact content (Netlify CMS helps).
 
 ## Headless CMS Comparison: Kontent vs Contentful
 
@@ -154,6 +154,10 @@ Terms:
 Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
 
 **Source:** [Kentico Kontent vs. Contentful](https://kontent.ai/compare/contentful)
+
+## Hybrid CMS: Optimizely
+
+Optimizely has a hybrid model where they provide you both headless capability and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, 
 
 ## Dead CMSs
 
