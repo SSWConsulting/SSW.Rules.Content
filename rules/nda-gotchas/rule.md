@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-what-to-do-when-asked-to-sign-an-nda
