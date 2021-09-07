@@ -112,6 +112,10 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 * **Greater overhead** - to maintain the code base, DevOps, etc.
 * **Limited preview functionality** - Content creator can’t preview exact content (Netlify CMS helps).
 
+## Hybrid CMS
+
+Some CMSs (e.g. [Optimizely](https://www.optimizely.com/) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features. 
+
 ## Headless CMS Comparison: Kontent vs Contentful
 
 Let's compare two popular CMSs.
@@ -123,10 +127,6 @@ Terms:
 **Collections** - allows you to manage content dependent on your business and geographical structure. This eliminates the use of silos, which make it more difficult to manage your data.
 
 **Website optimisation** - See the Kontent's useful [docs](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/seo-friendly-content) on this topic.
-
-## Hybrid CMS
-
-Some CMSs (e.g. [Optimizely](https://www.optimizely.com/) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. Optimizely starts at approximately $50,000
 
 | **Name**                              | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
