@@ -84,7 +84,7 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 ### ✅ Traditional CMS - Pros
 
 * **Simple and fast** - for setup and maintenance 
-* **No developers needed for small-medium projects** - for larger websites or a complicated CMS (e.g. SiteCore), this may become necessary.
+* **Less reliance on developers** - You won't be as reliant on developers to make changes, and may be able to forgo them completely for small-medium projects. More complex CMSs will require developer involvement but non-developers still have some customisation control.
 * **Simple to control look and feel** - using available themes and templates
 * **Large community support**
 * **Out of the box integrations** - payments, social media, etc.
@@ -108,9 +108,13 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 
 ### ❌ Headless CMS - Cons
 
-* **You need frontend developers** - the CMS only handles the backend content.
+* **Very reliant on frontend developers** - Anything beyond basic content changes will require frontend dev involvement.
 * **Greater overhead** - to maintain the code base, DevOps, etc.
 * **Limited preview functionality** - Kontent provides in-context editing via [Spotlight](https://webspotlight.kontent.ai/), however most Headless CMSs do not. Netlify CMS can help in this case.
+
+## Hybrid CMS
+
+Some CMSs (e.g. [Optimizely](https://www.optimizely.com/) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. An entry level figure for Hybrid CMSs is approximately $50,000 but this figure can quickly increase to several hundred thousand $ as you include add-ons and other features. 
 
 ## Headless CMS Comparison: Kontent vs Contentful
 
@@ -123,7 +127,6 @@ Terms:
 **Collections** - allows you to manage content dependent on your business and geographical structure. This eliminates the use of silos, which make it more difficult to manage your data.
 
 **Website optimisation** - See the Kontent's useful [docs](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/seo-friendly-content) on this topic.
-
 
 | **Name**                              | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
