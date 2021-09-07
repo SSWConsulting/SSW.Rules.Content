@@ -26,13 +26,13 @@ Before a meeting, to give it the best chance of success, you should make sure yo
   E.g. For SSW they have a '[AV Setup Teams Meetings](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)'.
 * For attendees, if you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving.
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | Required Attendees:      | Scrum Team |
 | Optional Attendees:      | Interested Stakeholders |
-| Recurrence:     | Every  **\[Number of weeks in the Sprint]** weeks |
-| Subject: | \[Project Name] – Sprint Review, Retro and Planning |\
+| Recurrence:     | Every  **[Number of weeks in the Sprint]** weeks |
+| Subject: | [Project Name] – Sprint Review, Retro and Planning |
 ::: email-content  
 
 ### Hi Team,
@@ -54,12 +54,12 @@ We then breakdown to tasks and commit to what we believe we can deliver for the 
 See the rule [What happens at a Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)?
 
 Regards,
-\[Scrum Master]
+[Scrum Master]
 
 &lt;This email is as per the rule [https://www.ssw.com.au/rules/scrum-master-do-you-schedule-the-3-meetings](/scrum-master-do-you-schedule-the-3-meetings) /&gt;
 
-:::\
-:::\
+:::
+:::
 ::: good
 Figure: Good Example - appointment template and for Scrum meetings
 :::
