@@ -61,6 +61,7 @@ These condenser mics have a much smaller diaphragm, so are more robust that the 
 For recording vocals, the best position for a mall diaphragm condenser mic, or shotgun mic, is to point the tip of the barrel towards the source.
 
 
+
 ### Microphone Patterns
 Recording Patterns are a way to refer to the most sensitive parts of a microphone – the areas where the most sound will be picked up.
 Some high-end microphones will have options for Recording Patterns, including:
