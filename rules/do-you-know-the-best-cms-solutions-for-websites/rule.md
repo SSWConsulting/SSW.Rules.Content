@@ -110,7 +110,7 @@ Here is a breakdown of Traditional CMS architecture vs Headless CMS architecture
 
 * **Very reliant on frontend developers** - Anything beyond basic content changes will require frontend dev involvement.
 * **Greater overhead** - to maintain the code base, DevOps, etc.
-* **Limited preview functionality** - Content creator can’t preview exact content (Netlify CMS helps).
+* **Limited preview functionality** - Kontent provides in-context editing via [Spotlight](https://webspotlight.kontent.ai/), however most Headless CMSs do not. Netlify CMS can help in this case.
 
 ## Hybrid CMS
 
