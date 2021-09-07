@@ -124,6 +124,9 @@ Terms:
 
 **Website optimisation** - See the Kontent's useful [docs](https://docs.kontent.ai/tutorials/develop-apps/optimize-your-app/seo-friendly-content) on this topic.
 
+## Hybrid CMS
+
+Some CMSs (e.g. [Optimizely](https://www.optimizely.com/) offer a hybrid approach including both headless integration and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, pursuing this option comes at a premium with prices matching or exceeding traditional CMSs. Optimizely starts at approximately $50,000
 
 | **Name**                              | [Kontent](https://kontent.ai/) (Recommended) - [Video](https://www.youtube.com/watch?v=wZLw3UKNQk8) (3 mins)                                               | [Contentful](https://www.contentful.com/) - [Video](https://www.youtube.com/watch?v=TNE9OAXP4R0) (1 min) |
 | ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -154,10 +157,6 @@ Terms:
 Assuming you want enterprise features, Kontent is preferred as the Headless CMS of choice over Contentful.
 
 **Source:** [Kentico Kontent vs. Contentful](https://kontent.ai/compare/contentful)
-
-## Hybrid CMS: Optimizely
-
-Optimizely has a hybrid model where they provide you both headless capability and a fully featured UI. As such, you can get the best of both worlds by going down this route. However, 
 
 ## Dead CMSs
 
