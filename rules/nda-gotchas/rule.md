@@ -17,7 +17,6 @@ created: 2016-01-08T04:50:39.000Z
 archivedreason: null
 guid: 1d33b09f-67ab-4c7f-a9e8-6d66b341a9ed
 ---
-
 Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confidentiality Agreement can sometimes have a lot of legal implications and you should be careful before signing one.
 
 <!--endintro-->
@@ -30,9 +29,6 @@ The correct process if you have access to a legal resource would be:
 4. Make changes to the document as requested by the legal guys and agreed to by the client
 5. Sign document
 
-
-
-
 If you don't, then look out for these potential tripping points:
 
 1. If the agreement is not mutual you need to be extra careful. One sided agreements makes one of the parties lose out
@@ -41,3 +37,4 @@ If you don't, then look out for these potential tripping points:
 4. Funny jurisdiction (at least it should be in the country you are in)
 5. Specific damages (e.g. $1,000,000 per breach)
 
+`youtube: https://youtu.be/6S-OJspJAZA`
