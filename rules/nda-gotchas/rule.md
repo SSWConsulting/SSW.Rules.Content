@@ -17,7 +17,10 @@ created: 2016-01-08T04:50:39.000Z
 archivedreason: null
 guid: 1d33b09f-67ab-4c7f-a9e8-6d66b341a9ed
 ---
+
 Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confidentiality Agreement can sometimes have a lot of legal implications and you should be careful before signing one.
+
+`youtube: https://youtu.be/6S-OJspJAZA`
 
 <!--endintro-->
 
@@ -36,5 +39,3 @@ If you don't, then look out for these potential tripping points:
 3. Time limits - make sure there is one so this doesn't last for ever
 4. Funny jurisdiction (at least it should be in the country you are in)
 5. Specific damages (e.g. $1,000,000 per breach)
-
-`youtube: https://youtu.be/6S-OJspJAZA`
