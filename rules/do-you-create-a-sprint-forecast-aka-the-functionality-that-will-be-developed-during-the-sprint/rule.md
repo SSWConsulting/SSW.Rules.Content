@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you create a Sprint Forecast? (aka The functionality that will be
-  developed during the Sprint)
+title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
 uri: do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 authors:
   - title: Adam Cogan
