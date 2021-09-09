@@ -30,7 +30,8 @@ Here is what to do on a initial meeting:
 * **Listen** - Determine whether scope, time, quality or cost has the highest priority for the client and what level of project management they require. E.g. if a project must be delivered by June 30, a high level of management will be required to ensure enough resources are supplied to achieve this
 * **Listen** - Understand as much as you can about the processes/business rules the system has to manage. Every level of detail you can correctly comprehend and confirm back builds your credibility as a good communicator and supplier!
 * **Listen** - Assess the overall scope of the project, i.e. is this a 'small', 'medium' or 'large' project. The attending Architect should start guessing how many man months this project might be. This information will help you assess how long the spec review should be. These initial thoughts should not be shared with the client at this stage as they are most likely incorrect.
-* **Listen** - Determine the client's budget and who controls that budget. E.g. Are you dealing with the business owner or a line manager in a corporation? Do they have a fixed amount to spend? Do they have a time period to spend it in?
+* **Listen** - Determine the client's $ budget and who controls it. E.g. Are you dealing with the business owner or a line manager in a corporation? Do they have a fixed amount to spend? Do they have a time period to spend it in?\
+  Make sure you **ask** for their budget - it's important
 * **Listen** - Find out if this is the sort of project you can do and want to do
 * **Listen** - Qualify the client to make sure they can afford what they want
 * Consider technology options
