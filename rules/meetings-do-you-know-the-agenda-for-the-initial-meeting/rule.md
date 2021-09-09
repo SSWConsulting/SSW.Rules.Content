@@ -1,20 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Meetings - Do you know the agenda for the initial meeting?
-guid: d4f0ce1d-97b8-4b6f-a7ed-bc599a0d5c31
 uri: meetings-do-you-know-the-agenda-for-the-initial-meeting
-created: 2012-08-30T12:58:29.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
+created: 2012-08-30T12:58:29.000Z
+archivedreason: null
+guid: d4f0ce1d-97b8-4b6f-a7ed-bc599a0d5c31
 ---
-
 The first meeting is on you. While you have 1 - 2 hours to provide the prospective client with enough information to decide whether to pursue a [Spec Review](/rules-to-better-specification-reviews), the focus of the initial meeting is the client, their problem, and how you might build a solution.
 
 The best way to action this is to ask questions, **listen and take notes**: Clients appreciate someone genuinely considering their needs. A brainstorming session   is a fantastic way to give and receive feedback immediately. Even if the client decides not to use you, you should **provide them with useful information** and a positive impression.
@@ -24,9 +22,10 @@ The best way to action this is to ask questions, **listen and take notes**: Clie
 Here is what to do on a initial meeting:
 
 * **Listen** - Understand the client's motivation for engaging software consultants. Clients 'want a software application built', but understanding the motivation for getting that software built will assist you in making a successful bid for the project. Three examples could be: 
-  1. To replace an outdated, hard to maintain existing system that's core to the business.
-  2. Building new 'nice-to-have' functionality to allow the client to offer a new service to the market. 
-  3. Assisting a start-up company with a speculative venture.
+
+  * To replace an outdated, hard to maintain existing system that's core to the business.
+  * Building new 'nice-to-have' functionality to allow the client to offer a new service to the market. 
+  * Assisting a start-up company with a speculative venture.
 * **Listen** - Understand the 'pain level' of the client
 * **Listen** - Determine whether scope, time, quality or cost has the highest priority for the client and what level of project management they require. E.g. if a project must be delivered by June 30, a high level of management will be required to ensure enough resources are supplied to achieve this
 * **Listen** - Understand as much as you can about the processes/business rules the system has to manage. Every level of detail you can correctly comprehend and confirm back builds your credibility as a good communicator and supplier!
