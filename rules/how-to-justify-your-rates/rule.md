@@ -18,6 +18,8 @@ In the bespoke software space, this is easy, as your clients are not buying some
 
 <!--endintro-->
 
+![Figure: High price should be balanced out by higher value](we-cant-justify-your-price.jpg)
+
 From our research, our rates are in the top 1/3<sup>rd</sup> of our Australian competitors, and I understand that this can seem high, so let's try to highlight a few reasons why we more than justify these high rates:
 
 Statistically, more than half of all IT projects fail...
