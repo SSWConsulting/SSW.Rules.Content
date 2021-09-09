@@ -70,7 +70,9 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 :::
 
 ::: greybox
-**Note:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
+**Note:** 
+- When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
+- For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
 :::
 
 ## GitHub
