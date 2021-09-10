@@ -14,6 +14,7 @@ related:
 - version-control-software-for-designers
 - hand-over-mockups-to-developers
 - where-to-keep-your-design-files
+- storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups
 
 ---
 
