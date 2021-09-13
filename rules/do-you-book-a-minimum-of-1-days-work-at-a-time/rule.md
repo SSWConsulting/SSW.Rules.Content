@@ -19,6 +19,8 @@ When booking in client work, always make sure you ask the client to gather enoug
 
 There are always exceptions, such as emergencies or small fixes, but do your best to limit them.
 
+If a dev is asked to do a few hours' work on a day that he is not already booked, a good response is something like “I’m available tomorrow if you’d like to book a day. Let me know if that's ok and I'll work on this then.”
+
 ### Checking for Exceptions
 
 You should always bill an 8-hour day, unless the developer feels that some time should be written off and you agree with their assessment. Speak to the developer if you see any discrepancies. 
