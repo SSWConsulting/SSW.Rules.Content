@@ -32,7 +32,7 @@ Certain jobs have a module and completing them is like giving them a license to 
 
 > **SugarLearning** is an induction program for things you must complete before start working… E.g. Before you do a Spec Review, you must have done the Module - Spec Review. It’s like getting your license.\
 > \
-> The **Intranet** is the location of all information, standards and "how-tos that must be private. In some project we have specific **Wiki’s** for those too.\
+> The **Intranet** is the location of all information, standards and "how-tos that must be private. In some project we have specific **Wikis** for those too.\
 > \
 > **Rules** is where we kept all information, standards and "how-tos that can be public.\
 > \
