@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: one-line rule, redundant
 title: Do you know how to use storyboards?
 guid: 2e3a44a7-5f4b-46ac-8b8d-27f03603b341
 uri: do-you-know-how-to-use-storyboards
