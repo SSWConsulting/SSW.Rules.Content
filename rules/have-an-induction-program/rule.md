@@ -34,6 +34,6 @@ Certain jobs have a module and completing them is like giving them a license to 
 > \
 > The **Intranet** is the location of all information, standards and "how-tos that must be private. In some project we have specific **Wikis** for those too.\
 > \
-> **Rules** is where we kept all information, standards and "how-tos that can be public.\
-> \
-> - Adam Cogan
+> **Rules** is where we kept all information, standards and "how-tos that can be public.
+> 
+> \- Adam Cogan
