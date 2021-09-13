@@ -22,21 +22,21 @@ Make sure appointments have address details unless it's obvious for all attendee
 <!--endintro-->
 
 ::: bad\
-![Figure: Bad Example - Appointment field should have addresses in location when appropriate](appointment-location-bad-example.jpg)\
+![Figure: Bad Example - Appointment field should have addresses in location when appropriate](appointment-location-bad-example.jpg)
 :::
 
 ::: good\
-!\[Figure: Good example - Address is clearly identified in the location field, meaning it can be mapped using applications on smartphones](map example.png)\
+![Figure: Good example - Address is clearly identified in the location field, meaning it can be mapped using applications on smartphones](map example.png)
 :::
 
-It's important to always add the address information in appointments when a third party is included. i.e.:
+It's important to always add the address information in appointments when a third party is included. Example:
 
 * A client meeting at your location
 * A meeting at the client location
 
 The exception is for internal meeting appointments.
 
-In internal, you should invite a coworker to work with you in the specific room and not include the address e.g.:
+In internal, you should invite a co-worker to work with you in the specific room and not include the address. Example:
 
 * SSW Boardroom Sydney
 * SSW Boardroom Brisbane
