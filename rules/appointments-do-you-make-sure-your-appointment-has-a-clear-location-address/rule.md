@@ -21,11 +21,11 @@ Make sure appointments have address details unless it's obvious for all attendee
 
 <!--endintro-->
 
-::: bad\
+::: bad
 ![Figure: Bad Example - Appointment field should have addresses in location when appropriate](appointment-location-bad-example.jpg)
 :::
 
-::: good\
+::: good
 ![Figure: Good example - Address is clearly identified in the location field, meaning it can be mapped using applications on smartphones](map example.png)
 :::
 
