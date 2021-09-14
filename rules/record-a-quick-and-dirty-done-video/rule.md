@@ -11,13 +11,16 @@ authors:
     url: https://ssw.com.au/people/barry-sanders
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
-related: []
+related: 
+  - do-you-send-done-videos
+  - record-better-audio
 redirects:
   - do-you-know-how-to-record-a-quick-and-dirty-done-video
 created: 2016-05-10T09:09:50.000Z
 archivedreason: null
 guid: 8849b89b-5c77-4993-b313-75291fd58aa4
 ---
+
 When you've finished a PBI you should record a video to send to your Product Owner and anyone else that is interested. A 'Done' video is much better than a screenshot because you are proving the PBI workflow actually works. Even better, this video can double as documentation or release notes for your users.
 
 <!--endintro-->
@@ -44,8 +47,9 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Basic editing: Camtasia
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-  :::
-  Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
+:::
+
+Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 
@@ -72,7 +76,6 @@ When deciding whether a PBI might be a good contender to record a done video for
   * **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio.
 * Audio needs to be clear and not distracting - if there are lots of background noises it will prevent audiences from focusing on you, as per: [Do you record better audio?](https://www.ssw.com.au/rules/record-better-audio)
 * Interact with your webcam like it's a person - look into the camera and smile when doing your introduction and closing for the video!
-  <br>
 
 **Tip:** Some offices have a professional setup:
 
@@ -83,9 +86,7 @@ Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](http
 
 ### Camtasia - Let's look at an example by Ben Cull
 
-```
 E.g. SSW TimePRO - Power BI Ad-Hoc Reporting:
-```
 
 `youtube: https://www.youtube.com/embed/nG4IAxdEWQg`
 
@@ -93,25 +94,22 @@ E.g. SSW TimePRO - Power BI Ad-Hoc Reporting:
 
 ### Tip: Fix the audio before making any cuts to the video
 
-```
 After recording your video, you need to do some basic sound processing to make the audio awesome.
+
 * In the Timeline, select the clip with the audio
 * On the top left panel, click ‘Audio Effects’ and drag the ‘Levelling’ effect onto your clip
 * On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
 * Listen and adjust as necessary
-```
 
 ![Figure: audio effects panel with the compressor](audio-effects-panel.png)
 
 ### Tip: Camtasia 9 - How to fade-out and fade-in the video track of your face in Camtasia 9
 
-```
 1. With the video track of your face selected, click on  **Animations (1)** . Track 3 in the image below.
 2. Select the  **No Opacity (2)** animation effect for the fade-out.
 3. **Drag and drop the No Opacity effect (3)** to the point in the track where you want to fade-out. Adjust the start and end point of the fade using the handles on the animation arrow.
 4. Select the  **Full Opacity (4)** animation effect for fade-in.
 5. **Drag and drop the Full Opacity effect (5)** to the point in the track where you want to fade-in. Adjust the start  and end point of the fade using the handles on the animation arrow.
-```
 
 ![Figure: Camtasia - Steps for adding fade-out/fade-in animation to video track of your face in 'Done' video](fade in and out.png)
 
@@ -119,50 +117,30 @@ After recording your video, you need to do some basic sound processing to make t
 
 Follow the steps to export your video:
 
-```
 1. Click the Share button on the top right of the window
-```
 
-![](export-video1.png)
+  ![](export-video1.png)
 
-```
 2. In the new dialog, select custom production settings 
-                 
-```
 
-![](export-video2.png)
+  ![](export-video2.png)
 
-```
 3. In the next window, uncheck the ‘Produce with controller’ option 
-                 
-```
 
-![](export-video3.png)
+  ![](export-video3.png)
 
-```
 4. In the ‘Video settings’ tab, copy these settings:
-```
 
 * Frame Rate: 30
 * H.264 Profile: High
 * Encoding mode: Quality
   o	Increase the quality to 100% 
                    
+  ![Figure: Copy these settings](export-video4.png)
 
-![Figure: Copy these settings](export-video4.png)
-
-```
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
-                 
-```
 
-![](export-video5.png)
+  ![](export-video5.png)
 
-```
 6. Click Next and save your file!
-```
 
-### Related rule
-
-* [Communication - Do you send "Done Videos"?](/do-you-send-done-videos)
-* [Do you record better audio?](https://www.ssw.com.au/rules/record-better-audio)
