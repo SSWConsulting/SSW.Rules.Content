@@ -31,19 +31,19 @@ When building projects, ensure that files and folders are labeled clearly. For e
 
 
 ::: good  
-![Figure: Good example - Folders are clearly labeled, the root file also includes the date](structure-back-up-files-bad-example-1.jpg)  
+![Figure: Good example - Folders are clearly labeled, the root file also includes the date](structure-back-up-files-good-example-1.jpg)  
 :::
 
 A good file structure should also include storing finished projects separately from the working files. In a team environment, this system can also incorporate file ownership with different users.
 
 
 ::: bad  
-![Figure: Bad Example - A singular project folder, with some project, files also sitting outside it](structure-back-up-files-bad-example-1.jpg)  
+![Figure: Bad Example - A singular project folder, with some project, files also sitting outside it](structure-back-up-files-bad-example-2.jpg)  
 :::
 
 
 ::: good  
-![Figure: Good example - There are dedicated folders for projects that are in progress and completed](structure-back-up-files-bad-example-1.jpg)  
+![Figure: Good example - There are dedicated folders for projects that are in progress and completed](structure-back-up-files-good-example-2.jpg)  
 :::
 
 File names are also very important - they are the principal identifier of a file. They need to include information about the content and context of the file.
@@ -52,10 +52,10 @@ Always use version numbers when saving – don’t use the word ‘final’. It 
 
 
 ::: bad  
-![Figure: Bad example - Items are not named clearly and it is difficult to know what file is the correct export](structure-back-up-files-bad-example-1.jpg)  
+![Figure: Bad example - Items are not named clearly and it is difficult to know what file is the correct export](structure-back-up-files-bad-example-3.jpg)  
 :::
 
 
 ::: good  
-![Figure: Good example. Each file has an appropriate version number](structure-back-up-files-bad-example-1.jpg)  
+![Figure: Good example - Each file has an appropriate version number](structure-back-up-files-good-example-3.jpg)  
 :::

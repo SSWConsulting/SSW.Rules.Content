@@ -1,26 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the importance of asking questions?
-guid: b8082efe-e98e-419b-8b71-b0188640aef4
 uri: asking-questions
-created: 2020-10-01T20:35:49.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-the-importance-of-asking-questions
-
+  - do-you-know-the-importance-of-asking-questions
+created: 2020-10-01T20:35:49.000Z
+archivedreason: null
+guid: b8082efe-e98e-419b-8b71-b0188640aef4
 ---
 
-A disproportionate amount of time is spent thinking about whether you got the  **right**   **answers**  from the client (or in the software world "Did we get the right specs?"). However,  asking the  **right questions** is a very important part of this process.
-
+A disproportionate amount of time is spent thinking about whether you got the **right** **answers** from the client (or in the software world "Did we get the right specs?"). However, asking the **right questions** is a very important part of this process.
 
 <!--endintro-->
- Topics:
 
-* 
+Topics:
+
 * The importance of questions
 * Curiosity based questions
 * Confirmation based questions
@@ -32,12 +30,6 @@ A disproportionate amount of time is spent thinking about whether you got the  *
 * [Upselling](/upsell-your-most-valuable-product-service) - the side value of good questions
 * [The Retro](/do-you-do-a-retro)
 
-
-
-
 `youtube: https://www.youtube.com/embed/RlADH0sLOmc`
- 
-
-
 
 **Tip:** This video has timestamps and won't show here. The timestamps are only visible if you play this on the YouTube App or YouTube website.
