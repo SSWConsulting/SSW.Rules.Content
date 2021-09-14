@@ -14,12 +14,14 @@ redirects:
 created: 2009-02-28T09:44:50.000Z
 archivedreason: null
 guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
+
 ---
+
 **Standards should \*not\* be followed blindly. Aim for continual improvement.**
 
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
-But there are pros and cons to having standards.
+But there are pros and cons to having standards:
 
 <!--endintro-->
 
@@ -37,11 +39,10 @@ The cons:
 
 **So standards should always help the critical thinking process, never replace it**
 
-If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have four options:
+If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have three options:
 
-1. Ignore it and hope someone fixes it (this is punishable by being sat on by a wild hippo);
-2. Fix it yourself straight away (preferred);
-3. Fix it yourself later ([send yourself an email](/dones-do-you-send-yourself-emails));
-4. Ask someone else to fix it (following the   [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y) rule)
+1. Fix it yourself straight away by [editing the rule](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules) (preferred)
+2. Fix it yourself later if it's too big. In this case, [send yourself an email](/dones-do-you-send-yourself-emails)
+3. Ask someone else to fix it following the [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y)
 
-For any page on our sites, you can click the 'Feedback to SSW' link at the footer.
+What you should **never** do is to ignore it and hope someone fixes it.
