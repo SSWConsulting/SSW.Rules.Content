@@ -9,6 +9,7 @@ index:
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - provide-details-when-reporting-net-applications-errors
 - how-to-fix-small-web-errors
+- how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
 - todo-tasks
 - allow-users-to-get-up-to-date-messages
 redirects:
@@ -16,5 +17,5 @@ redirects:
 
 ---
 
-If you still need help, visit [SSW Consulting Services](https//www.ssw.com.au/ssw/Consulting/Default.aspx) and book in a consultant.
+If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/ssw/Consulting/Default.aspx) and book in a consultant.
 
