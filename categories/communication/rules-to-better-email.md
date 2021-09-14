@@ -61,7 +61,6 @@ index:
 - do-you-know-when-to-use-plus-one
 - link-emails-to-the-rule-or-template-they-follow
 - do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database
-- how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
 - do-you-manage-your-email-accounts
 - do-you-remember-that-emails-arent-your-property
 - do-you-reference-which-email-template-youre-using
