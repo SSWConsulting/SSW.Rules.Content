@@ -28,34 +28,30 @@ When deciding whether a PBI might be a good contender to record a done video for
 2. Would it be difficult to quickly demo in the Sprint Review without a video?
 3. Is it UI heavy? i.e. would the video be compelling?
 
-
 ::: greybox
 **Choosing software to record your screen and camera together:**
 
-- Remote recordings: Zoom, or Microsoft Teams via NDI
-- Basic recordings: Snagit, Loom
-- Advanced recordings: Camtasia
+* Remote recordings: Zoom, or Microsoft Teams via NDI
+* Basic recordings: Snagit, Loom
+* Advanced recordings: Camtasia
 
 **Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
-
-
 
 :::
 
 ::: greybox
 **Choosing software to edit your video:**
-- Basic editing: Camtasia
-- Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-:::
-Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
+
+* Basic editing: Camtasia
+* Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
+  :::
+  Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 
 **Figure: How to make a 'Done Video'.** 
 
-
-
-### For a great 'Done Video' here are the key things to remember: ###
+### For a great 'Done Video' here are the key things to remember:
 
 * Introduce the video - start with “Hi everyone, today I would like to show you xxxx”.
 * Show the pain - don't just demonstrate your new feature, start by showing the problem you are solving and why you needed to add the feature.
@@ -63,19 +59,20 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
 * Make it quick and easy - if you spend too much time, you will be less likely to want to do it again in the future.
 * Be quick and concise - you don't want to waste other peoples' time either!
 * Use a clean browser - hide visible bookmark bars, browser tabs, add-in icons, and taskbar items to make it easier to view. 
-   * **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies.
+
+  * **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies.
 * Set your screen resolution to 1080p (1920x1080) - higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view.                  
 * Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](https://www.ssw.com.au/rules/easy-to-view-screen-recordings)
-
-
 * Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible.
 * Don't edit the video - your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP).
+
   * **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
 * [Check your audio devices](https://www.ssw.com.au/rules/record-better-audio) - if you have multiple microphones (e.g. headphone/mic set, webcam mic, inbuilt mic, etc.) do a test recording to see which is the best quality.
-   * **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio.
-* Interact with your webcam like it's a person - look into the camera and smile when doing your introduction and closing for the video!
-<br>
 
+  * **Tip:** You can use the default Voice Recorder app on either Windows or Mac to quickly record audio.
+* Audio needs to be clear and not distracting - if there are lots of background noises it will prevent audiences from focusing on you, as per: [Do you record better audio?](https://www.ssw.com.au/rules/record-better-audio)
+* Interact with your webcam like it's a person - look into the camera and smile when doing your introduction and closing for the video!
+  <br>
 
 **Tip:** Some offices have a professional setup:
 
@@ -168,3 +165,4 @@ Follow the steps to export your video:
 ### Related rule
 
 * [Communication - Do you send "Done Videos"?](/do-you-send-done-videos)
+* [Do you record better audio?](https://www.ssw.com.au/rules/record-better-audio)
