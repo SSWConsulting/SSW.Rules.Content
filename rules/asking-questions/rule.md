@@ -12,11 +12,12 @@ created: 2020-10-01T20:35:49.000Z
 archivedreason: null
 guid: b8082efe-e98e-419b-8b71-b0188640aef4
 ---
-A disproportionate amount of time is spent thinking about whether you got the  **right**   **answers**  from the client (or in the software world "Did we get the right specs?"). However,  asking the  **right questions** is a very important part of this process.
+
+A disproportionate amount of time is spent thinking about whether you got the **right** **answers** from the client (or in the software world "Did we get the right specs?"). However, asking the **right questions** is a very important part of this process.
 
 <!--endintro-->
 
- Topics:
+Topics:
 
 * The importance of questions
 * Curiosity based questions
