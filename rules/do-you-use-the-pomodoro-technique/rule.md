@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use the Pomodoro Technique?
-uri: do-you-use-the-pomodoro-technique
+uri: pomodoro
 authors:
   - title: Josh Bandsma
     img: ""
