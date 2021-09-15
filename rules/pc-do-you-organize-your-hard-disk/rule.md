@@ -68,7 +68,7 @@ E.g. Create a folder in C: with Data and your username, for example, "C:\DataKai
 
 ::: good  
 ![Figure: Good Example - Location of Data&lt;YourUserName&gt; with OneDrive - (YourOrganization) folder in it](onedrive.png)  
-
+:::
 
 ::: good  
 ![Figure: Good Example - Backup is being done automatically](OneDrive.jpg)
