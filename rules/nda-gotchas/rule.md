@@ -17,12 +17,19 @@ created: 2016-01-08T04:50:39.000Z
 archivedreason: null
 guid: 1d33b09f-67ab-4c7f-a9e8-6d66b341a9ed
 ---
-
 Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confidentiality Agreement can sometimes have a lot of legal implications and you should be careful before signing one.
 
 `youtube: https://youtu.be/6S-OJspJAZA`
 
 <!--endintro-->
+
+### If they will sign yours
+
+If a client needs an NDA and are happy to sign yours, this is the optimal situation as you know what's in it, and so can't be caught out. You should always have a boilerplate one stored in your own fileshare (ideally SharePoint) that you can send out as needed.
+
+
+
+### If they demand you sign theirs
 
 The correct process if you have access to a legal resource would be:
 
