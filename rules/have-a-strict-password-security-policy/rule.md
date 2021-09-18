@@ -33,12 +33,10 @@ When passwords have to be changed they must meet the following minimum requireme
   * Base 10 digits (0 through 9)
   * Non-alphanumeric characters (e.g., !, $, #, %)
 
-Rember it is always good to use an even number for password length ;) https://www.troyhunt.com/how-long-is-long-enough-minimum-password-lengths-by-the-worlds-top-sites/
-
-If possible and allowed by your system, think about using long passphrases too - they are even more difficult to crack than complex passwords https://www.zdnet.com/article/fbi-recommends-passphrases-over-password-complexity/
+Passphrases are better than passwords, they are even more difficult to crack than complex passwords https://www.zdnet.com/article/fbi-recommends-passphrases-over-password-complexity/
 
 Complexity requirements are enforced when passwords are changed or created. We also enforce a lockout policy so if a user gets their password wrong 5 times, their account will be locked out for 15 minutes.
 
-In the past, we required clients to change their passwords every 180 days. In the current world, however, if you already have a strong password (as above) changing it does very little to make you more secure.
+Bad practice: Requiring users to change their passwords e.g. every 180 days does not improve security. In the current world, if you already have a strong password (as above) and a second factor of authentication (MFA: See https://www.ssw.com.au/rules/do-you-have-mfa-multi-factor-authentication-enabled) changing it does very little to make you more secure.
 
 Generally, you should change your password only when you believe it has been compromised.
