@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/stanley-sidik
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
+  - title: Kiki Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-have-a-server-reboot-restart-policy
