@@ -5,7 +5,7 @@ uri: do-you-use-tags-on-linkedin-hub
 authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
-related:[]
+related:
 created: 2021-09-21T03:29:53.057Z
 guid: 9d5aab35-209d-4bc5-a788-3f3a8558eb8d
 
