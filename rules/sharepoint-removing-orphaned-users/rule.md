@@ -12,7 +12,7 @@ Did you know that when you delete or disable a user in Active Directory or Azure
 
 <!--endintro-->
 
-1. Open Sharegate Desktop
+1. Open ShareGate Desktop
 2. Click All reports | Orphaned user report
 
      
