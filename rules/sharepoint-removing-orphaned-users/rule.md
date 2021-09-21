@@ -15,7 +15,11 @@ Did you know that when you delete or disable a user in Active Directory or Azure
 1. Open Sharegate Desktop
 2. Click All reports | Orphaned user report
 
-      ![](step2-orphaneduser.png "Figure: Open orphaned user report")
+     
+
+   ![](step2-orphaneduser.png)
+
+
    **Figure: Orphaned user report**
 3. Add your connection
 
