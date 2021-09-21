@@ -3,7 +3,7 @@ type: rule
 title: Do you know how to use "Tags" on LinkedIn Hub?
 uri: do-you-use-tags-on-linkedin-hub
 authors:
-  - title: Penny
+  - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
 related:[]
 created: 2021-09-21T03:29:53.057Z
