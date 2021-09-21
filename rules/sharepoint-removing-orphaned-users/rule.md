@@ -28,7 +28,7 @@ Did you know that when you delete or disable a user in Active Directory or Azure
    **Figure: Add connection**
 4. Add your site address, Choose your Authentication method and press Connect
 
-   ![](step4-orphaneduser.png "Connect to your enviroment")
+   ![](step4-orphaneduser.png "Connect to your environment")
 
    **Figure: Connect to your environment**
 5. **Choose Navigate to choose individual sites or tick the box to choose all sites and teams folders**
