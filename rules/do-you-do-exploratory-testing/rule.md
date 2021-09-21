@@ -1,30 +1,29 @@
 ---
 type: rule
-archivedreason: 
 title: Do you do exploratory testing?
-guid: 41a4fe42-f4a5-4635-817a-084d9b2fbc4c
 uri: do-you-do-exploratory-testing
-created: 2015-12-17T04:41:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-related: 
-- do-you-use-exploratory-testing-to-create-acceptance-tests
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Duncan Hunter
+    url: https://ssw.com.au/people/duncan-hunter
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+related:
+  - do-you-use-exploratory-testing-to-create-acceptance-tests
 redirects:
-- do-you-do-exploratory-testing-(2)
-- do-you-do-some-exploratory-testing
-
+  - do-you-do-exploratory-testing-(2)
+  - do-you-do-some-exploratory-testing
+created: 2015-12-17T04:41:54.000Z
+archivedreason: null
+guid: 41a4fe42-f4a5-4635-817a-084d9b2fbc4c
 ---
 
 Use Microsoft's Exploratory Testing - **Test & Feedback extension** - to perform exploratory tests on web apps directly from the browser.
 
-Capture screenshots, annotate them and submit bugs as you explore your web app - all directly from Chrome (or Firefox) browser. Test on any platform (Windows, Mac or Linux), on different devices. No need for predefined test cases or test steps. Track your bugs in the cloud with Visual Studio Team Services (VSTS).
+Capture screenshots, annotate them and submit bugs as you explore your web app - all directly from Chrome (or Firefox) browser. Test on any platform (Windows, Mac or Linux), on different devices. No need for predefined test cases or test steps. Track your bugs in the cloud with Azure DevOps.
 
 <!--endintro-->
 
@@ -32,10 +31,7 @@ Capture screenshots, annotate them and submit bugs as you explore your web app -
 **Video: Ravi walks Adam through the exploratory testing extension - You can also [watch on SSW TV](http://tv.ssw.com/6664/exploratory-testing-extension-for-visual-studio-adam-cogans-interview-with-ravi-shanker)** 
 
 `youtube: https://www.youtube.com/embed/G5tTF0sjyTg?rel=0`
-**Video: Ravi Shanker and Adam Cogan talk about the test improvements in Visual Studio Team Services and the Chrome Test & Feedback extension  - You can also [watch on SSW TV](https://tv.ssw.com/6873/vs-test-feedback-chrome-extension-with-product-owner-ravi-shanker-microsoft-seattle-2017)** 
-
-`youtube: https://www.youtube.com/embed/VSACs4QRnuI`
-**Video: Official video from Microsoft Visual Studio channel** 
+**Video: Ravi Shanker and Adam Cogan talk about the test improvements in Azure DevOps and the Chrome Test & Feedback extension  - You can also [watch on SSW TV](https://tv.ssw.com/6873/vs-test-feedback-chrome-extension-with-product-owner-ravi-shanker-microsoft-seattle-2017)** 
 
 1. Go to Visual Studio Marketplace and install "Test & Feedback". 
       
@@ -55,6 +51,6 @@ Capture screenshots, annotate them and submit bugs as you explore your web app -
 
 5. Upload the screenshot to a PBI. 
           
-  ![Figure: PBI in Visual Studio Team Services (VSTS) showing the screenshot](pbi-screenshot.jpg)  
+  ![Figure: PBI in Azure DevOps showing the screenshot](pbi-screenshot.jpg)  
 
 **More info:** [Azure DevOps - Explore work items with the Test & Feedback extension](https://docs.microsoft.com/en-us/azure/devops/test/explore-workitems-exploratory-testing)
