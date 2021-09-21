@@ -1,17 +1,16 @@
 ---
 type: rule
 title: Do you know how to use "Tags" on LinkedIn Hub?
-uri: do-you-use-tags-on-LinkedIn-Hub
+uri: do-you-use-tags-on-linkedin-hub
 authors:
   - title: Penny
     url: https://www.ssw.com.au/people/penny
-related:
-  - rules-to-better-recruiting
+related:[]
 created: 2021-09-21T03:29:53.057Z
 guid: 9d5aab35-209d-4bc5-a788-3f3a8558eb8d
+
 ---
 Even with a great ATS, reporting on recruitment can be difficult. Tags are a great way to not only track your progress, but they can also help you do some tracking on things like the calls you team are making.
-        
 
 <!--endintro-->
 
