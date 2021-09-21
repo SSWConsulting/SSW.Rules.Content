@@ -55,3 +55,5 @@ Did you know that when you delete or disable a user in Active Directory or Azure
 10. View results of report
 
     ![](step10-orphaneduser.png)
+
+    **Figure: Report Results**
