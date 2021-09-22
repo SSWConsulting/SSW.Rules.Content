@@ -5455,9 +5455,9 @@
 	},
 	{
 		"file": "rules/do-you-add-an-exception-for-hosts-file-on-windows-defender/rule.md",
-		"lastUpdated": "2016-03-23T12:27:52+11:00",
-		"lastUpdatedBy": "Stanley Sidik",
-		"lastUpdatedByEmail": "StanleySidik@ssw.com.au",
+		"lastUpdated": "2021-09-22T03:17:21.836Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-09-20T04:19:15+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
