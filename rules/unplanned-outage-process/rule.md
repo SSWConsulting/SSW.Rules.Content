@@ -1,20 +1,18 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have an unplanned outage process?
-guid: d96278bc-f927-4079-ba6c-c0b3c9a49b0d
+title: Unplanned - Do you have an unplanned outage process?
 uri: unplanned-outage-process
-created: 2021-01-07T13:16:27.0000000Z
 authors:
-- title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  - title: Steven Andrews
+    url: https://ssw.com.au/people/steven-andrews
 related: []
 redirects:
-- do-you-have-an-unplanned-outage-process
-
+  - do-you-have-an-unplanned-outage-process
+created: 2021-01-07T13:16:27.000Z
+archivedreason: null
+guid: d96278bc-f927-4079-ba6c-c0b3c9a49b0d
 ---
-
-For planned outages, see [Do you have a server reboot/restart policy?](/have-a-server-reboot-restart-policy)
+For planned outages, see https://www.ssw.com.au/rules/planned-outage-process
 
 During your course of being a SysAdmin, you will come across many outages. Some of them will impact BAU (Business as usual) and others will just be minor service outages. Do you know what to do you have a plan in the event of these outages?
 
@@ -38,7 +36,6 @@ Service Outage:
 * SQL Servers
 * IIS Servers
 
-
 ### Determining What Services are Disrupted
 
 At SSW we use WhatsUp Gold for our device monitoring, however, there are many tools for this, Solarwinds, SCOM, etc
@@ -49,14 +46,14 @@ At SSW we use WhatsUp Gold for our device monitoring, however, there are many to
 ### First Contact
 
 After you have determined what services have been disrupted it is time to call your SysAdmin team and organise a quick conference call. This will allow you to have a discussion prior to making any changes/fixes that could cause the outage to become worse.
- 
+
 **Key Discussion Points:** 
 
 1. What services have been disrupted?
 2. What is the impact of these services?
 3. Is an email to everyone in your company required?
 4. What are your next steps?
- 
+
 **What if you cannot reach anyone?**
 
 If you cannot reach anyone move onto the Email section.
@@ -65,63 +62,67 @@ If you cannot reach anyone move onto the Email section.
 
 If from the previous discussion you have determined that an email needs to be sent to your entire company, or you have decided this is necessary if you cannot contact anyone above, send an email in the following format:
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |
-| Subject: | SysAdmins – Outage Notice |  
+| Subject: | SysAdmins – Outage Notice |\
 ::: email-content  
 
-### Hi All,  
+### Hi All,
 
 We are experiencing an outage and the following services have been affected:
-- XXX
-- YYY
-- ZZZ
- 
+
+* XXX
+* YYY
+* ZZZ
+
 We are working on restoring these services and will keep you updated.
- 
+
 Thank you,
 SysAdmins     
 
-:::  
+:::\
 :::  
 
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | SysAdmins |
-| Subject: | SysAdmins – Outage Notice |  
+| Subject: | SysAdmins – Outage Notice |\
 ::: email-content  
 
-### Hi Team,  
+### Hi Team,
+
 As per our conversation,
- 
+
 The following services are disrupted:
-- XXX
-- YYY
-- ZZZ
- 
+
+* XXX
+* YYY
+* ZZZ
+
 The impact of these services disrupted are:
-- XXX
-- YYY
-- ZZZ
-We have decided that an email to ALL is/is not required.
- 
- **To myself,** 
- 
+
+* XXX
+* YYY
+* ZZZ
+  We have decided that an email to ALL is/is not required.
+
+   **To myself,** 
+
 The next steps to resolving this are:
- 
+
 1. XXX
 2. YYY
 3. ZZZ
- 
+
 Thank you,
 SysAdmin     
 
-:::  
+:::\
 :::  
 
 ### Next steps did NOT resolve the issue
