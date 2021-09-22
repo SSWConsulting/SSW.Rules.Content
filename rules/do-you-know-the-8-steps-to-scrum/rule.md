@@ -1,26 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the 8 Steps to Scrum?
-guid: 5759f753-1524-4803-869c-8b881eae28a1
 uri: do-you-know-the-8-steps-to-scrum
-created: 2013-06-28T03:50:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Gerard Beckerleg
-  url: https://ssw.com.au/people/gerard-beckerleg
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Gerard Beckerleg
+    url: https://ssw.com.au/people/gerard-beckerleg
 related: []
 redirects: []
-
+created: 2013-06-28T03:50:10.000Z
+archivedreason: null
+guid: 5759f753-1524-4803-869c-8b881eae28a1
 ---
-
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 <!--endintro-->
 
 ::: good
-![Figure: This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print out the PDF below and put it on your "War Room" wall](8Steps\_preview.jpg)
+![Figure: This Scrum image includes all the important steps from the initial meeting to the Review and Retro. Print out the PDF below and put it on your "War Room" wall](8-steps-to-scrum.jpg)
 :::
 
 [SSW 8 Steps to Scrum PDF](8StepstoScrum.pdf)
@@ -57,11 +55,10 @@ Product Feedback will then come in. Some will be bugs, and some will be small ch
 
 ### 7. [Sprint Review](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
-
 At the end of the Sprint, there is a Sprint Review, where the Developers demo or play done videos of the completed PBIs. The goal is for the Product Owner to understand the increment and to discuss the feedback to make the product better. This is the real measure of the success of the Sprint.
 
 ### 8. [Sprint Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 Lastly, there is the Sprint Retrospective, and this is the best part! The Scrum Team discusses what went well, what didn't, and what to improve, always inspecting and adapting.
- 
+
 From here, another Sprint Planning session commences, and the wheel keeps turning, getting better and better with every revolution.
