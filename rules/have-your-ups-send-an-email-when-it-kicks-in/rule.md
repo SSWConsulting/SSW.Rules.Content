@@ -24,6 +24,6 @@ If you get your UPS to email you when an event occurs then you will have answers
 The problem is that there is no uniform software that will work with all UPS's as they all have their own format.
 All UPS's come with management software or hardware that can perform these actions. You just need to set it up.
 
-We mostly use APC UPS and their own Management Cards (hardware), which are able to send emails on severe, warning and informational events, which includes when it kicks in.
+For example, SSW use APC UPS' and they have physical management cards (hardware), which are able to send emails. The event categories are "severe", "warning" and "informational".
 
-![Figure: Good Example - Management card's interface with many options](upsexample.jpg)
+![Figure: Good Example - APC UPS have a physical management card with some options](goodexamplebackups.jpg)
