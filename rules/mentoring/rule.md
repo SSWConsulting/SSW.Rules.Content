@@ -1,13 +1,12 @@
 ---
 type: rule
 title: Rules to Better Mentoring
-uri: mentoring
+uri: Mentoring
 authors:
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma
 created: 2021-09-22T06:33:25.431Z
 guid: 1c0eb0db-03da-464a-98ba-286cc6f66fbe
-
 ---
 
 Trying to do great things is hard. Trying to do them alone is, more often than not, impossible. That’s why all great leaders have mentors, and they also mentor others. No matter how competitive you may feel - especially early in your career - success is, in reality, a team sport. 
