@@ -27709,5 +27709,23 @@
 		"lastUpdated": "2021-09-16T17:16:30.024Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/ups-send-an-email/rule.md",
+		"created": "2021-09-22T05:41:50.222Z",
+		"createdBy": "Adam Cogan [SSW]",
+		"createdByEmail": "adamcogan@ssw.com.au",
+		"lastUpdated": "2021-09-22T05:41:50.222Z",
+		"lastUpdatedBy": "Adam Cogan [SSW]",
+		"lastUpdatedByEmail": "adamcogan@ssw.com.au"
+	},
+	{
+		"file": "rules/ups-send-email/rule.md",
+		"created": "2021-09-22T05:48:29.445Z",
+		"createdBy": "Adam Cogan [SSW]",
+		"createdByEmail": "adamcogan@ssw.com.au",
+		"lastUpdated": "2021-09-22T05:48:29.445Z",
+		"lastUpdatedBy": "Adam Cogan [SSW]",
+		"lastUpdatedByEmail": "adamcogan@ssw.com.au"
 	}
 ]
