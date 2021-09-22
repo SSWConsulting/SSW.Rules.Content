@@ -3,6 +3,8 @@ type: category
 title: Rules to Better System Administrators
 guid: 9343671b-9ca9-4085-b307-f7aa2f26d66c
 uri: rules-to-better-system-administrators
+redirects:
+- rules-to-better-networks
 index:
 - planned-outage-process
 - unplanned-outage-process
@@ -21,8 +23,6 @@ index:
 - do-you-use-service-accounts
 - use-the-distributed-file-system-for-your-file-shares
 - have-a-companywide-word-template
-redirects:
- - rules-to-better-networks
 
 ---
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.
