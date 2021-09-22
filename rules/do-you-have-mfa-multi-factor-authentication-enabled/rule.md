@@ -12,7 +12,6 @@ created: 2018-09-06T07:16:45.000Z
 archivedreason: null
 guid: fccb11d9-2ada-4f76-9b73-1f2b9be1e159
 ---
-
 Do you protect your users and administrator accounts with more than one authentication method?
 
 <!--endintro-->
@@ -25,3 +24,5 @@ If they guess or brute-force your password, they still need the second code to m
 Generally, every time you log in on a service, it will ask for your normal password and an additional code. This code can be retrieved through an authenticator app, through an SMS, or even through a phone call to your mobile.
 
 It is best practice to apply MFA to your Administrators first, as their accounts are the most important on the company and have access to all resources, and your users second, which still benefits from added security.
+
+![Figure: Good Example - Be secure by using MFA apps like Microsoft Authenticator and Google Authenticator ](authapp.png)
