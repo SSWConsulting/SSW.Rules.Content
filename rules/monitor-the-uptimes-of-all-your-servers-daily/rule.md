@@ -14,8 +14,8 @@ created: 2017-07-10T23:10:04.000Z
 archivedreason: null
 guid: b031777e-12e8-4a0d-8930-d3920ab5cfcd
 ---
-
 It is important that the system administrator can easily find out how reliable his servers are. This can be achieved using tools like What's Up Gold https://www.whatsupgold.com to monitor many statistics e.g.:
+
 * Uptime - Ping, Interface monitor
 * Performance - RAM usage, CPU usage
 * Network - Bandwidth, Interface throughput
@@ -23,10 +23,10 @@ It is important that the system administrator can easily find out how reliable h
 
 It is also possible to create SQL Reporting Services to create a nicely formatted and branded report showing the above stats.
 
-Here is a report that we use to monitor our servers on a daily basis:
+For example, here is a report that SSW uses to monitor their servers on a daily basis:
 
 <!--endintro-->
 
-::: good  
-![Figure: Good example - We can easily see the uptime of all our servers](WuGReport.png)  
+::: good\
+![Figure: Good example - Green indicates servers are healthy](WuGReport.png)
 :::
