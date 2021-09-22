@@ -10,10 +10,10 @@ guid: 1c0eb0db-03da-464a-98ba-286cc6f66fbe
 
 ---
 
-Trying to do great things is hard. Trying to do them alone is, more often than not, impossible. That’s why all great leaders have mentors, and they also mentor others. No matter how competitive you may feel - especially early in your career - success is, in reality, a team sport. \
-\
-Steve Jobs had Bill Campbell as a mentor; Mark Zuckerberg had Steve Jobs; Bill Gates had Warren Buffett... \
-\
+Trying to do great things is hard. Trying to do them alone is, more often than not, impossible. That’s why all great leaders have mentors, and they also mentor others. No matter how competitive you may feel - especially early in your career - success is, in reality, a team sport. 
+
+Steve Jobs had Bill Campbell as a mentor; Mark Zuckerberg had Steve Jobs; Bill Gates had Warren Buffett... 
+
 ⭐ Great mentors should: 
 
 * Push you out of your comfort zone
