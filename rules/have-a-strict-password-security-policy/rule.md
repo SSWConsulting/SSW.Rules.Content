@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Password - Do you have a strict password security policy?
+title: Security - Do you have a strict password security policy?
 uri: have-a-strict-password-security-policy
 authors:
   - title: Stanley Sidik
