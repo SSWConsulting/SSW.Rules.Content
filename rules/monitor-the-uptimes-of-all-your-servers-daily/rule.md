@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you monitor the uptimes of all your servers daily?
+title: Servers - Do you monitor the uptimes of all your servers daily?
 uri: monitor-the-uptimes-of-all-your-servers-daily
 authors:
   - title: Adam Cogan
