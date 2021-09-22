@@ -28,5 +28,7 @@ For example, here is a report that SSW uses to monitor their servers on a daily 
 <!--endintro-->
 
 ::: good\
-![Figure: Good example - Green indicates servers are healthy](WuGReport.png)
+![Figure: Good example - Portal - Green indicates servers are healthy](WuGReport.png)
 :::
+
+![Figure: Good example - Email - Red indicates servers are not healthy ](unhealthy.jpg)
