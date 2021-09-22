@@ -22,8 +22,8 @@ guid: a58e2456-e070-4ddb-9ed8-996eab71ef90
 
 A company-wide Word template brings many benefits e.g.:
 * Consistency - It's important to maintain consistent documents for internal and clients https://www.ssw.com.au/rules/do-you-understand-the-value-of-consistency
-* Users have automatic footers with the latest edit time and who the editor was, updating automatically on save
-* More and better branding
+* Automatic footers and headers - showing the latest edit time and who the editor was, updating automatically on save
+* Branding - More and better branding and correct company colors
 
 
 ::: bad  
