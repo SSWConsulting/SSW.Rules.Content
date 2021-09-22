@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Rules to Better Mentoring
-uri: Mentoring
+uri: mentoring
 authors:
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma
