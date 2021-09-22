@@ -1,12 +1,14 @@
 ---
 type: category
-title: Rules to Better Networks
+title: Rules to Better System Administrators
 guid: 9343671b-9ca9-4085-b307-f7aa2f26d66c
-uri: rules-to-better-networks
+uri: rules-to-better-system-administrators
+redirects:
+- rules-to-better-networks
 index:
-- have-a-server-reboot-restart-policy
-- have-a-strict-password-security-policy
+- planned-outage-process
 - unplanned-outage-process
+- have-a-strict-password-security-policy
 - do-you-have-mfa-multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
 - have-your-ups-send-an-email-when-it-kicks-in
@@ -23,6 +25,6 @@ index:
 - have-a-companywide-word-template
 
 ---
-Networks are the lifeblood of any business. This is why we have developed these standards for better Networks.
+System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.
 
 If you still need help, [visit our Network Architecture consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Network-Architecture.aspx) and book in a consultant.
