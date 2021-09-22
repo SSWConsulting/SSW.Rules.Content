@@ -1,17 +1,19 @@
 ---
 type: rule
 title: Do you know the 8 Steps to Scrum?
-uri: do-you-know-the-8-steps-to-scrum
+uri: 8-steps-to-scrum
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Gerard Beckerleg
     url: https://ssw.com.au/people/gerard-beckerleg
 related: []
-redirects: []
+redirects:
+- you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
 archivedreason: null
 guid: 5759f753-1524-4803-869c-8b881eae28a1
+
 ---
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
