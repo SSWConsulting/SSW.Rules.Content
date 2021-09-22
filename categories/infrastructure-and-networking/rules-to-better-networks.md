@@ -21,6 +21,8 @@ index:
 - do-you-use-service-accounts
 - use-the-distributed-file-system-for-your-file-shares
 - have-a-companywide-word-template
+redirects:
+ - rules-to-better-networks
 
 ---
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.
