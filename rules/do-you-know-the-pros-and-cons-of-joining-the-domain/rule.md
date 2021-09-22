@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the pros and cons of joining the domain?
+title: Domain - Do you know the pros and cons of joining the domain?
 uri: do-you-know-the-pros-and-cons-of-joining-the-domain
 authors:
   - title: Kaique Biancatti
