@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have your UPS send an email when it kicks in?
+title: UPS - Do you have your UPS send an email when it kicks in?
 uri: have-your-ups-send-an-email-when-it-kicks-in
 authors:
   - title: Adam Cogan
