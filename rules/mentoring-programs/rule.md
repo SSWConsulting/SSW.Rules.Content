@@ -16,9 +16,7 @@ redirects:
   - mentoring
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
-
 ---
-
 `youtube: https://www.youtube.com/embed/ang3jKb3DFU`
 
 ![](mentoring.jpg)
@@ -98,4 +96,4 @@ It is motivating to know that you will be checking-in with your mentor regularly
 
 It's nice to be thankful, so add this new skill to your GitHub profile, make a social media post or even add it to your LinkedIn. Remember to give your mentor an @mention.
 
-![Figure: Tell people subtly that your into mentoring, e.g. 👨‍🎓 Exploration: I'm exploring leadership with @adamcogan](piers-github.png)
+![Figure: Tell people subtly that you are into mentoring. E.g. 👨‍🎓 Exploration: I'm exploring leadership with @adamcogan](screen-shot-2021-09-23-at-3.53.35-pm.png)
