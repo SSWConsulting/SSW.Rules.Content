@@ -8,6 +8,8 @@ authors:
 related:
   - the-best-way-to-learn
   - what-is-mentoring
+redirects:
+  - mentoring
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
 ---
@@ -51,7 +53,7 @@ Here are some of the things you can learn:
 
 As a mentee, you will be driving your progress. If you need additional motivation, add what you are learning to your Teams Status. Mentors - you can do the same, let people know what you're mentoring.
 
-![Figure: Let your colleagues know what knowledge you are sharing and learning…. subtly 🙂](team-status-mentoring.png)
+![Figure: Let your colleagues know what knowledge you are sharing and learning…. subtly 🙂](mentoring-teams-status.png)
 
 You will need to book a few appointments with your mentor:
 
