@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a formal or informal mentoring program?
+title: Do you have a program?
 uri: mentoring-programs
 authors:
   - title: Penny Walker
