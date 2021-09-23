@@ -8,8 +8,6 @@ authors:
 related:
   - the-best-way-to-learn
   - what-is-mentoring
-redirects:
-  - mentoring
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
 ---
@@ -30,7 +28,7 @@ Most consider mentoring to be a senior guiding and building the skills of a juni
 
 ## What should I get mentored on?
 
-The first decision should be whether you want soft skills or technical skills. You may already know what you would like to be mentored in, however you really should ask your peers what they think you should be mentored on. You could have a blind spot. Here's how to approach it:
+The first decision should be whether you want soft skills or technical skills (choose one topic at a time). You may already know what you would like to be mentored in, however you really should ask your peers what they think you should be mentored on. You could have a blind spot. Here's how to approach it:
 
 * Make a list on what you would like to be mentored on, e.g. PowerShell, Power BI, Power Apps, Power Speaking... ha ha 😉
 * Approach a few people you trust, and ask them what you should be mentored on (without showing them your list
@@ -49,11 +47,18 @@ Here are some of the things you can learn:
 * Great blogging
 * Increasing your social media presence
 
-## How does it work?
+## Scheduled mentoring - How does it work?
 
-Once you've got your mentor, book in 3x monthly mentoring sessions to work on your target area. They will help you form a to do list, and then act like an accountability buddy. 
+As a mentee, you will be driving your progress. If you need additional motivation, add what you are learning to your Teams Status. Mentors - you can do the same, let people know what you're mentoring.
 
-It is motivating to know that you will be checking-in with your mentor for every month for 3 months. At the end of your 3 months, sit down and recap how well it went for you. It's helpful to give a mark out of 10. 
+![Figure: Let your colleagues know what knowledge you are sharing and learning…. subtly 🙂](team-status-mentoring.png)
+
+You will need to book a few appointments with your mentor:
+
+* 5 minute chats at the end of every week to catch up to see how you're progressing 
+* 3x monthly mentoring sessions (about 30mins) to work on your target areas.
+
+It is motivating to know that you will be checking-in with your mentor regularly. At the end of your 3 months, sit down and recap how well it went for you. It's helpful to give a mark out of 10. 
 
 ![Figure: A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored](mentoring-talk-smaller.png)
 
@@ -62,12 +67,14 @@ It is motivating to know that you will be checking-in with your mentor for every
 * Tell the mentor what you would like to achieve by the end of the 3 months
 * Work out your goals & set targets
 * Then the mentee works independently for a month, checking-in when needed
+* At the end of each week, check-in for 5 mins to let them know how you're going
 
 ### 2nd Meeting
 
 * The Mentor will review their progress and give tips or suggestions on how to move forward
 * Set new goals
-* Then the mentee works independently for a month, checking-in when needed
+* Then the mentee works independently for a month
+* At the end of each week, check-in for 5 mins to let them know how you're going 
 
 ### 3rd Meeting
 
@@ -77,4 +84,6 @@ It is motivating to know that you will be checking-in with your mentor for every
 
 ### Reward both parties
 
-You can add this new skill to your LinkedIn Profile and mention your mentor
+You can add this new skill to your LinkedIn or Git Hub Profile and mention your mentor.
+
+![Figure: Tell people subtly that your into mentoring, e.g. 👨‍🎓 Exploration: I'm exploring leadership with @adamcogan](piers-github.png)
