@@ -84,6 +84,6 @@ It is motivating to know that you will be checking-in with your mentor regularly
 
 ### Reward both parties
 
-You can add this new skill to your LinkedIn or Git Hub Profile and mention your mentor.
+It's nice to be thankful, so add this new skill to your GitHub profile, make a social media post or even add it to your LinkedIn. Remember to give your mentor an @mention.
 
 ![Figure: Tell people subtly that your into mentoring, e.g. 👨‍🎓 Exploration: I'm exploring leadership with @adamcogan](piers-github.png)
