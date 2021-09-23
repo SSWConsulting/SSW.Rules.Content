@@ -32,20 +32,25 @@ We have many different kinds of mentors, some are for soft skills, some are for 
 
 ## How does it work?
 
+![](mentoring-talk.png)
+
+* **A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored**
+* 1 mentor, 1 mentee
 * The formal program runs for 3 months
-* A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored
-* You then meet 3 times:
+* You will have 3 x 15 minutes meetings over the course of the 3 months
 
-  * 1st Meeting
+  * 1st Meeting:
 
-    *  tell the mentor what you would like to achieve by the end of the 3 months
+    * Tell the mentor what you would like to achieve by the end of the 3 months
     * Work out your goals & set targets
-  * 2nd Meeting 
+    * Then the mentee works independently for a month, checking-in when needed
+  * 2nd Meeting :
 
-    * review what they have learnt and how to improve
+    * The Mentor will review their progress and give tips or suggestions on how to move forward
     * Set new goals
-  * 3rd Meeting 
+    * Then the mentee works independently for a month, checking-in when needed
+  * 3rd Meeting:
 
-    * review what they have learnt and how to improve
-
-2. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+    * The Mentor will review their progress and give tips or suggestions on how to move forward
+    * Set some longer-term goals
+    * Then the mentee works independently, checking in when needed informally
