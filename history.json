@@ -27727,5 +27727,14 @@
 		"lastUpdated": "2021-09-22T05:48:29.445Z",
 		"lastUpdatedBy": "Adam Cogan [SSW]",
 		"lastUpdatedByEmail": "adamcogan@ssw.com.au"
+	},
+	{
+		"file": "rules/mentoring/rule.md",
+		"created": "2021-09-23T00:04:31.286Z",
+		"createdBy": "Josh Bandsma [SSW]",
+		"createdByEmail": "joshbandsma@ssw.com.au",
+		"lastUpdated": "2021-09-23T00:10:59.688Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	}
 ]
