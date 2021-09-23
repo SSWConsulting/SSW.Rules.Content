@@ -14,7 +14,7 @@ Trying to do great things is hard. Trying to do them alone is, more often than n
 
 Steve Jobs had Bill Campbell as a mentor; Mark Zuckerberg had Steve Jobs; Bill Gates had Warren Buffett... the great Robert De Niro had Stella Adler; even Nelson Mandela had Ganghi to guide him! These are all very successful people, who benefited from having someone to lean on professionally. 
 
-Having a mentor will give you an advantage over those who have to navigate and maneuver the IT indusrty alone. This is true of any industry. It also doesn't have to be someone showing you how to do something technical, your mentor doesn't even have to be someone more senior - they just need to be good at something you are not. If they are an expert in something you don't know how to do - they can be your mentor. 
+Having a mentor will give you an advantage over those who have to navigate and maneuver the IT industry alone. This is true of any industry. It also doesn't have to be someone showing you how to do something technical, your mentor doesn't even have to be someone more senior - they just need to be good at something you are not. If they are an expert in something you don't know how to do - they can be your mentor. 
 
 ⭐ Great mentors should: 
 
