@@ -32,25 +32,24 @@ We have many different kinds of mentors, some are for soft skills, some are for 
 
 ## How does it work?
 
-![](mentoring-talk.png)
+![Figure: A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored](mentoring-talk-smaller.png)
 
-* **A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored**
-* 1 mentor, 1 mentee
-* The formal program runs for 3 months
-* You will have 3 x 15 minutes meetings over the course of the 3 months
+A mentoring program involves a mentor and a mentee. Programs usually run for **3 months** and involve **3 x 15 minute meetings**.
 
-  * 1st Meeting:
+### 1st Meeting
 
-    * Tell the mentor what you would like to achieve by the end of the 3 months
-    * Work out your goals & set targets
-    * Then the mentee works independently for a month, checking-in when needed
-  * 2nd Meeting :
+* Tell the mentor what you would like to achieve by the end of the 3 months
+* Work out your goals & set targets
+* Then the mentee works independently for a month, checking-in when needed
 
-    * The Mentor will review their progress and give tips or suggestions on how to move forward
-    * Set new goals
-    * Then the mentee works independently for a month, checking-in when needed
-  * 3rd Meeting:
+### 2nd Meeting
 
-    * The Mentor will review their progress and give tips or suggestions on how to move forward
-    * Set some longer-term goals
-    * Then the mentee works independently, checking in when needed informally
+* The Mentor will review their progress and give tips or suggestions on how to move forward
+* Set new goals
+* Then the mentee works independently for a month, checking-in when needed
+
+### 3rd Meeting
+
+* The Mentor will review their progress and give tips or suggestions on how to move forward
+* Set some longer-term goals
+* Then the mentee works independently, checking in when needed informally
