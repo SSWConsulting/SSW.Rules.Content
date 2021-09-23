@@ -9,7 +9,7 @@ authors:
     url: https://ssw.com.au/people/gerard-beckerleg
 related: []
 redirects:
-- you-know-the-8-steps-to-scrum
+- do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
 archivedreason: null
 guid: 5759f753-1524-4803-869c-8b881eae28a1
