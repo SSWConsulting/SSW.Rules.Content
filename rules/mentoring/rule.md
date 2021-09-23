@@ -5,47 +5,53 @@ uri: mentoring
 authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
+related:
+  - the-best-way-to-learn
+  - what-is-mentoring
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
 ---
 There's a few types of mentoring:
 
-* **Consulting mentoring** where you hire people because you don't have the skills within your company (can be an all day engagement) e.g. SSW's Mentoring Services (TODO: add link to SSW mentoring)
+* **\#1 Consulting mentoring** where you hire expert consultants because you don't have the skills within your company. This is most commonly all day engagements e.g.[ SSW's Mentoring Services](https://www.ssw.com.au/ssw/Consulting/Mentoring.aspx). 
 
-Or if you have the skills within your company, then you can up-skill people using the brains of your own company.
+If you have the skills within your company, then you can up-skill people using the brains of your own company and this usually falls into two groups
 
-* **Ad-hoc mentoring** (informal) where you get advice when you need it
-* **Scheduled mentoring** (aka. formal), when you book in meetings and make a plan
+* **\#2 Ad-hoc mentoring** (informal) where you get advice when you need it
+* **\#3** **Scheduled mentoring** (formal), when you book in meetings and make a plan
 
 <!--endintro-->
 
 ## Who mentors who?
 
-You can be a senior mentoring a junior. You can be a junior mentoring someone more senior. Everyone has something they can teach, or that they can learn! Being a mentor will make you a better consultant, so you should think about what you can teach others.
+Most consider mentoring to be a senior guiding and building the skills of a junior. However, you can really supercharge your company if you understand that **everyone** has something that they can teach **someone**. Being a mentor also makes people better, so employees should be encouraged to think about what they can teach others.
 
-## What do I get mentored on?
+## What should I get mentored on?
 
-There are many different kinds of mentors, some are for soft skills, some are for technical skills. You may already know what you would like to be mentored in, however you really should ask your peers what they think you should be mentored on. You could have a blind spot. Here's how to approach it:
+The first decision should be whether you want soft skills or technical skills. You may already know what you would like to be mentored in, however you really should ask your peers what they think you should be mentored on. You could have a blind spot. Here's how to approach it:
 
-* Approach the people you trust, and ask them what you should be mentored in
-* Brainstorm ideas and jot them down
-* See what pops up the most - and start there
-* Approach someone you know is good at that thing to be your mentor.
+* Make a list on what you would like to be mentored on, e.g. PowerShell, Power BI, Power Apps, Power Speaking... ha ha 😉
+* Approach a few people you trust, and ask them what you should be mentored on (without showing them your list
+* Then show the list, and brainstorm ideas
+* Make a decision, and approach a mentor
 
 Here are some of the things you can learn:
 
 * Public Speaking
-* Developing a great I.T. career
 * Account Management
-* Low Code
-* Clean Architecture
-* Angular
+* Low Code solutions e.g. Power Apps & Dynamics
+* Frontend Frameworks e.g. Angular, React & Blazor
+* Backend - e.g. database design, Clean Architecture
+* Debugging
+* Designing big solutions - Cloud Architecture
 * Great blogging
-* Increasing your social media presence 
+* Increasing your social media presence
 
 ## How does it work?
 
-Once you've got your mentor, book in x3 monthly mentoring sessions to work on your target area. They will work like an accountability buddy. Knowing that you have to check-in with your mentor every month for 3 months, will help motivate you to work hard on improving in your target area.
+Once you've got your mentor, book in 3x monthly mentoring sessions to work on your target area. They will help you form a to do list, and then act like an accountability buddy. 
+
+It is motivating to know that you will be checking-in with your mentor for every month for 3 months. At the end of your 3 months, sit down and recap how well it went for you. It's helpful to give a mark out of 10. 
 
 ![Figure: A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored](mentoring-talk-smaller.png)
 
@@ -66,3 +72,7 @@ Once you've got your mentor, book in x3 monthly mentoring sessions to work on yo
 * The Mentor will review their progress and give tips or suggestions on how to move forward
 * Set some longer-term goals
 * Then the mentee works independently, checking in when needed informally
+
+### Reward both parties
+
+You can add this new skill to your LinkedIn Profile and mention your mentor
