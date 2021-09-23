@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a program?
+title: Do you have a mentoring program?
 uri: mentoring-programs
 authors:
   - title: Penny Walker
@@ -8,6 +8,8 @@ authors:
 related:
   - the-best-way-to-learn
   - what-is-mentoring
+redirects:
+  - mentoring
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
 ---
