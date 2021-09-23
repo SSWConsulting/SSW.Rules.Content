@@ -54,6 +54,7 @@ Here are some of the things you can learn:
 * Backend - e.g. database design, Clean Architecture
 * Debugging
 * Designing big solutions - Cloud Architecture
+* UI/UX Design
 * Great blogging
 * Increasing your social media presence
 
@@ -61,7 +62,7 @@ Here are some of the things you can learn:
 
 As a mentee, you will be driving your progress. If you need additional motivation, add what you are learning to your Teams Status. Mentors - you can do the same, let people know what you're mentoring.
 
-![Figure: Let your colleagues know what knowledge you are sharing and learning…. subtly 🙂](mentoring-teams-status.png)
+![Figure: Let your colleagues know what knowledge you are sharing and learning... subtly 🙂](mentoring-teams-status.png)
 
 You will need to book a few appointments with your mentor:
 
