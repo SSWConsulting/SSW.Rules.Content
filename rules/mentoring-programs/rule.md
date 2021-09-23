@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you have a formal or informal mentoring program?
-uri: mentoring
+uri: mentoring-programs
 authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
