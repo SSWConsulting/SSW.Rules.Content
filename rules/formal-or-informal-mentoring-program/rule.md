@@ -32,6 +32,8 @@ We have many different kinds of mentors, some are for soft skills, some are for 
 
 ## How does it work?
 
+![](mentoring-talk.png)
+
 * **A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored**
 * 1 mentor, 1 mentee
 * The formal program runs for 3 months
