@@ -46,10 +46,11 @@ We have many different kinds of mentors, some are for soft skills, some are for 
     * Then the mentee works independently for a month, checking-in when needed
   * 2nd Meeting :
 
-    * Mentor will review their progress and give tip or suggestions on how to move forward
+    * The Mentor will review their progress and give tips or suggestions on how to move forward
     * Set new goals
     * Then the mentee works independently for a month, checking-in when needed
   * 3rd Meeting:
 
-    * review what they have learnt and how to improve
+    * The Mentor will review their progress and give tips or suggestions on how to move forward
     * Set some longer-term goals
+    * Then the mentee works independently, checking in when needed informally
