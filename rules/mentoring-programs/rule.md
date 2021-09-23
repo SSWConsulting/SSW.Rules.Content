@@ -16,7 +16,6 @@ redirects:
   - mentoring
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
-
 ---
 
 `youtube: https://www.youtube.com/embed/ang3jKb3DFU`
@@ -43,7 +42,7 @@ Most consider mentoring to be a senior guiding and building the skills of a juni
 The first decision should be whether you want soft skills or technical skills (choose one topic at a time). You may already know what you would like to be mentored in, however you really should ask your peers what they think you should be mentored on. You could have a blind spot. Here's how to approach it:
 
 * Make a list on what you would like to be mentored on, e.g. PowerShell, Power BI, Power Apps, Power Speaking... ha ha 😉
-* Approach a few people you trust, and ask them what you should be mentored on (without showing them your list
+* Approach a few people you trust, and ask them what you should be mentored on (without showing them your list)
 * Then show the list, and brainstorm ideas
 * Make a decision, and approach a mentor
 
