@@ -2,7 +2,9 @@
 type: rule
 title: Do you remove orphaned users from SharePoint?
 uri: sharepoint-removing-orphaned-users
-authors: []
+authors:
+  - title: Warwick Leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
 created: 2021-09-06T23:16:37.291Z
 guid: cbd3e21a-bcbb-408e-9e8d-b010b5ce8edc
 ---
