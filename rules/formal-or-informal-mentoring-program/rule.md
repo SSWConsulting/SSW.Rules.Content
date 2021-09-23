@@ -1,28 +1,41 @@
 ---
 type: rule
 title: Do you have a formal or informal mentoring program?
-uri: formal-or-informal-mentoring-program
+uri: mentoring
 authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
 ---
-There are a lot of different ways to mentor someone. You can use any of the following models:
+There's a few types of mentoring:
 
-* Cloning model: The mentor teaches the learner as if they were a clone of the mentor.        
-* Nurturing model: The mentor assumes a parental role to create an open, supportive environment where the learner can learn and try things themselves
-* Friendship model: The mentor acts more as a peer “Rather than being involved in a hierarchical relationship.
-* Apprenticeship model: The mentor and learner predominantly have a professional relationship.
+* **Consulting mentoring** where you hire people because you don't have the skills within your company (can be an all day engagement) e.g. SSW's Mentoring Services (TODO: add link to SSW mentoring)
+
+Or if you have the skills within your company, then you can up-skill people using the brains of your own company.
+
+* **Ad-hoc mentoring** (informal) where you get advice when you need it
+* **Scheduled mentoring** (aka. formal), when you book in meetings and make a plan
 
 <!--endintro-->
 
-While some mentoring relationships will continue for years, at SSW we have also established a more formal mentoring program based on the nurturing model.
+## Who mentors who?
 
-We have many different kinds of mentors, some are for soft skills, some are for technical skills. Some of the things you can learn include:
+You can be a senior mentoring a junior. You can be a junior mentoring someone more senior. Everyone has something they can teach, or that they can learn! Being a mentor will make you a better consultant, so you should think about what you can teach others.
+
+## What do I get mentored on?
+
+There are many different kinds of mentors, some are for soft skills, some are for technical skills. You may already know what you would like to be mentored in, however you really should ask your peers what they think you should be mentored on. You could have a blind spot. Here's how to approach it:
+
+* Approach the people you trust, and ask them what you should be mentored in
+* Brainstorm ideas and jot them down
+* See what pops up the most - and start there
+* Approach someone you know is good at that thing to be your mentor.
+
+Here are some of the things you can learn:
 
 * Public Speaking
-* Developing a great I.T career
+* Developing a great I.T. career
 * Account Management
 * Low Code
 * Clean Architecture
@@ -32,9 +45,9 @@ We have many different kinds of mentors, some are for soft skills, some are for 
 
 ## How does it work?
 
-![Figure: A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored](mentoring-talk-smaller.png)
+Once you've got your mentor, book in x3 monthly mentoring sessions to work on your target area. They will work like an accountability buddy. Knowing that you have to check-in with your mentor every month for 3 months, will help motivate you to work hard on improving in your target area.
 
-A mentoring program involves a mentor and a mentee. Programs usually run for **3 months** and involve **3 x 15 minute meetings**.
+![Figure: A mentee reaches out to someone they know has great skills in a particular area, and they ask to be mentored](mentoring-talk-smaller.png)
 
 ### 1st Meeting
 
