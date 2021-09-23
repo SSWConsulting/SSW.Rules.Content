@@ -12313,18 +12313,18 @@
 	},
 	{
 		"file": "rules/do-you-know-not-to-use-bold-tags-inside-headings/rule.md",
-		"lastUpdated": "2015-05-22T12:58:37+10:00",
-		"lastUpdatedBy": "Rebecca Liu",
-		"lastUpdatedByEmail": "RebeccaLiu@ssw.com.au",
+		"lastUpdated": "2021-09-23T21:40:48.083Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2014-12-22T23:40:23+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/do-you-know-font-tags-are-no-longer-used/rule.md",
-		"lastUpdated": "2013-01-22T01:10:00+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-23T21:14:37.789Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-07-18T07:35:41+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -13483,9 +13483,9 @@
 	},
 	{
 		"file": "rules/do-you-avoid-bmps-for-the-internet-at-all-times/rule.md",
-		"lastUpdated": "2015-12-14T20:46:15+11:00",
-		"lastUpdatedBy": "Martin Li",
-		"lastUpdatedByEmail": "MartinLi@ssw.com.au",
+		"lastUpdated": "2021-09-23T21:10:13.825Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-13T11:25:20+11:00",
 		"createdBy": "Rebecca Liu",
 		"createdByEmail": "RebeccaLiu@ssw.com.au"
@@ -27757,10 +27757,10 @@
 	},
 	{
 		"file": "rules/mentoring-programs/rule.md",
-		"created": "2021-09-23T17:02:18.614Z",
+		"created": "2021-09-23T22:48:13.076Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-09-23T17:02:18.614Z",
+		"lastUpdated": "2021-09-23T22:48:13.076Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	}
