@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know what makes a good mentor?
-uri: do-you-know-what-makes-a-good-mentor
+uri: what-is-mentoring
 authors:
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma
