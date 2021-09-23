@@ -33,7 +33,7 @@ Most consider mentoring to be a senior guiding and building the skills of a juni
 The first decision should be whether you want soft skills or technical skills (choose one topic at a time). You may already know what you would like to be mentored in, however you really should ask your peers what they think you should be mentored on. You could have a blind spot. Here's how to approach it:
 
 * Make a list on what you would like to be mentored on, e.g. PowerShell, Power BI, Power Apps, Power Speaking... ha ha 😉
-* Approach a few people you trust, and ask them what you should be mentored on (without showing them your list
+* Approach a few people you trust, and ask them what you should be mentored on (without showing them your list)
 * Then show the list, and brainstorm ideas
 * Make a decision, and approach a mentor
 
@@ -46,6 +46,7 @@ Here are some of the things you can learn:
 * Backend - e.g. database design, Clean Architecture
 * Debugging
 * Designing big solutions - Cloud Architecture
+* UI/UX Design
 * Great blogging
 * Increasing your social media presence
 
@@ -53,7 +54,7 @@ Here are some of the things you can learn:
 
 As a mentee, you will be driving your progress. If you need additional motivation, add what you are learning to your Teams Status. Mentors - you can do the same, let people know what you're mentoring.
 
-![Figure: Let your colleagues know what knowledge you are sharing and learning…. subtly 🙂](mentoring-teams-status.png)
+![Figure: Let your colleagues know what knowledge you are sharing and learning... subtly 🙂](mentoring-teams-status.png)
 
 You will need to book a few appointments with your mentor:
 
