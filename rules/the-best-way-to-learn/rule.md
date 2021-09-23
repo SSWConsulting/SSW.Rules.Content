@@ -1,19 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the Best Way to Learn?
-guid: be772a4c-1ff1-48ff-bc94-adb734c157e7
 uri: the-best-way-to-learn
-created: 2016-06-08T22:30:24.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
-related: []
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Marlon Marescia
+    url: https://ssw.com.au/people/marlon-marescia
+related:
+  - mentoring-programs
+  - what-is-mentoring
 redirects:
-- do-you-know-the-best-way-to-learn
-
+  - do-you-know-the-best-way-to-learn
+created: 2016-06-08T22:30:24.000Z
+archivedreason: null
+guid: be772a4c-1ff1-48ff-bc94-adb734c157e7
 ---
 
 Learning a new technology is something a developer has to do at least every few years. The industry landscape is constantly changing and to keep up and the developer has to really master the art of learning.
