@@ -5,6 +5,10 @@ uri: mentoring-programs
 authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
 related:
   - the-best-way-to-learn
   - what-is-mentoring
@@ -12,7 +16,11 @@ redirects:
   - mentoring
 created: 2021-09-23T04:01:39.460Z
 guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
+
 ---
+
+`youtube: https://www.youtube.com/embed/ang3jKb3DFU`
+
 ![](mentoring.jpg)
 
 There's a few types of mentoring:
