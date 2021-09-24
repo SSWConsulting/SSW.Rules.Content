@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - the-best-way-to-learn
   - what-is-mentoring
