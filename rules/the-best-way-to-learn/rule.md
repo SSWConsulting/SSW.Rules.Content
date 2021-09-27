@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the best way to Learn?
+title: Do you know the best way to learn?
 uri: the-best-way-to-learn
 authors:
   - title: Adam Cogan
