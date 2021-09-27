@@ -64,11 +64,11 @@ If you cannot reach anyone move onto the Email section.
 
 If from the previous discussion you have determined that an email needs to be sent to your entire company, or you have decided this is necessary if you cannot contact anyone above, send an email in the following format:
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |
-| Subject: | SysAdmins – Outage Notice |\
+| Subject: | SysAdmins – Outage Notice |
 ::: email-content  
 
 ### Hi All,
@@ -84,16 +84,16 @@ We are working on restoring these services and will keep you updated.
 Thank you,
 SysAdmins     
 
-:::\
+:::
 :::  
 
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | SysAdmins |
-| Subject: | SysAdmins – Outage Notice |\
+| Subject: | SysAdmins – Outage Notice |
 ::: email-content  
 
 ### Hi Team,
