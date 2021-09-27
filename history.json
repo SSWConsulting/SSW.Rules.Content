@@ -27763,5 +27763,14 @@
 		"lastUpdated": "2021-09-23T23:23:10.402Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/on-premise-build-server-with-azure-devops/rule.md",
+		"created": "2021-09-27T05:58:07.685Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-27T05:58:07.685Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
 	}
 ]
