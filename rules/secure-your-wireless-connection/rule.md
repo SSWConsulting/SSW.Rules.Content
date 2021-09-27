@@ -105,7 +105,7 @@ This document assumes you have some knowledge of how to configure your wireless 
       Right click and Create a new policy for Windows Vista and later (if you only have XP machines, do only an XP one). If you have Vista or later you must do a Vista policy or else Vista will try to use the XP policy (not recommended).
    2. Enter a Policy Name (e.g. Beijing_Wifi_Settings) and description and link to the root of the domain.
 
-![Figure: GP link and scope settings](Cert3.png)\
+![Figure: GP link and scope settings](Cert3.png)
     3. Click "Add" and then enter a Profile Name and then Add the SSID name from the Wireless Access Point/s. Make sure the tick box "Connect Automatically when this network is in range" is ticked...
     4. Click on the Security Tab
         Make sure Authentication is "WPA2-Enterprise" and Encryption is "AES).
