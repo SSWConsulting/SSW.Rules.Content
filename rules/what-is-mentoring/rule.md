@@ -26,11 +26,11 @@ Mentors don't have to be teaching you something technical. A mentor doesn't even
 
 Mentors don't need to necessarily help you learn something specific, they can also:
 
-* boost your confidence
-* help direct your career moves
-* unstick you when you aren't sure which way to go
-* save you time by showing you where to look, or how to approach something
-* offer support when times get tough or you have to make difficult decisions
+* Boost your confidence
+* Help direct your career moves
+* Unstick you when you aren't sure which way to go
+* Save you time by showing you where to look, or how to approach something
+* Offer support when times get tough or you have to make difficult decisions
 
 <br>
 
