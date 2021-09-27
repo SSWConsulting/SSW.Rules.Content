@@ -18,6 +18,7 @@ Using the [Azure DevOps API](https://docs.microsoft.com/en-us/rest/api/azure/dev
 
 
 ![](devops-get-commits.png)
+
  **Figure: HTTPS GET commits from your repository**
 
 
@@ -27,6 +28,7 @@ Using HTTPS with basic authentication, make a GET request to a URL as below, sub
 
 
 ![](8-08-2014-4-24-34-PM-compressor.png)
+
  **Figure: Using the Chrome extension Postman to execute our request with Basic Authentication**
 
 
