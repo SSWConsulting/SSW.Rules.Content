@@ -1,26 +1,30 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use the best trace logging library?
-guid: 5ecb7c85-0a65-494c-ac1a-51c71c4546aa
 uri: best-trace-logging
-created: 2013-09-11T21:38:08.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
 related: []
-redirects: 
- - do-you-use-the-best-trace-logging-library
-
+redirects:
+  - do-you-use-the-best-trace-logging-library
+created: 2013-09-11T21:38:08.000Z
+archivedreason: null
+guid: 5ecb7c85-0a65-494c-ac1a-51c71c4546aa
 ---
 
-Did you know that writing your own logging infrastructure code wastes time? You should use a logging library, and the best logging library is Serilog.
+Did you know that writing your own logging infrastructure code wastes time? There are awesome logging abstractions in .NET Core and .NET 5+ that you should use instead!
 
-Serilog is a NuGet package that can be included in any .NET application, is easy to configure, supports many different output targets, has great performance, and allows for runtime changes to the configuration. Serilog also supports full integration with log4net so is easy to use with any older codebase using log4net.
+These abstractions allow you to:
+- create log entries in a predictable and familiar fashion - you use the same patterns for logging in a [Background Service](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line) as you would in a [Blazor WASM app](https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-5.0&pivots=webassembly) (just some slightly different bootstrapping 😉)
+- use Dependency Injection; your code doesn't take a dependency on a particular framework (as they are abstractions)
+- filter output based off severity (Verbose/Debug/Info/Warning/Error) - so you can dial it up or down without changing code
+- The logging sinks - where the logs are written to e.g. log file, database, table storage, or Application Insights
+- Can be extended with packages such as [Serilog](https://serilog.net/)
 
 <!--endintro-->
 
@@ -38,7 +42,7 @@ Other sinks allow you to:
 * export to Application Insights, New Relic, and many other APM platforms
 
 
-Many other sinks are available as described here: https://github.com/serilog/serilog/wiki/Provided-Sinks
+Many other sinks are available as described here: https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/?view=aspnetcore-6.0#built-in-logging-providers
 
 
 ::: bad  
