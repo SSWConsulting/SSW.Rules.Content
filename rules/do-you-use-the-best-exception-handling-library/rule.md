@@ -1,24 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use the best exception handling library?
-guid: 4758ac66-d4a5-4ccd-93cc-85c1f2d369da
 uri: do-you-use-the-best-exception-handling-library
-created: 2013-09-11T19:17:07.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
-related: 
-- do-you-use-the-best-exception-handling-library
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Drew Robson
+    url: https://ssw.com.au/people/drew-robson
+related:
+  - do-you-use-the-best-exception-handling-library
 redirects: []
-
+created: 2013-09-11T19:17:07.000Z
+archivedreason: null
+guid: 4758ac66-d4a5-4ccd-93cc-85c1f2d369da
 ---
 
 When developing software, exceptions are a fact-of-life you will need to deal with. Don't reinvent the wheel, use an existing exception handling library or service.
-
-The best exception handling service is [Application Insights for Visual Studio Online](/rules-to-better-application-insights), but if you can't use that, then use [elmah.io](https://elmah.io/).
 
 Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs.
 
@@ -28,7 +25,7 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
 
 <!--endintro-->
 
-At SSW we use Application Insights where possible. If you are still developing Windows applications, then you can still use Application Insights, read [here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/windows-desktop) for more details.
+At SSW we use [Application Insights](/rules-to-better-application-insights) where possible. If you are still developing Windows applications, then you can still use Application Insights, read [here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/windows-desktop) for more details.
 
 ::: greybox
 **Application Insights** will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you’ll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.
