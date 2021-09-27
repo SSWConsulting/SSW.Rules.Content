@@ -33,7 +33,7 @@ It is recommended to use Radius authentication to integrate with your Active Dir
 :::
 
 ::: good
-Figure: Good example - configure your wireless access point to authenticate against AD\
+Figure: Good example - configure your wireless access point to authenticate against AD
 :::
 
 This article explains how to setup your wireless AP to use WPA2-enterprise. WPA2-Enterprise verifies network users (AD a/c's) through a server (Domain Controller).
@@ -80,7 +80,7 @@ This document assumes you have some knowledge of how to configure your wireless 
    5. If you need to configure VLan's in the next step, wasn't required in my case I just used the defaults
    6. You then need to register the server with Active Directory. So right click on NPS (local) and select Register Server in Active Directory
 
-![Figure: How to register NAP server with AD](NPS.png)\
+![Figure: How to register NAP server with AD](NPS.png)
     You should now have a Connection Request Policy and a Network Policy. Remove the MS-CHAP v1 authentication method from the network policy (under the constraint's tab).
 
 5. **Configure Certificate Auto enrolment**
@@ -115,7 +115,7 @@ This document assumes you have some knowledge of how to configure your wireless 
         Tick "Validate server certificate" and then tick "Connect to these servers". Enter the FQDN of the NPS.
         Then under Trusted Root Certification Authority, tick your Root CA certificate. Then click OK.
 
-![Figure: Connection security settings](Cert2.png)\
+![Figure: Connection security settings](Cert2.png)
     6. Click OK twice.
         **Optional:** Under Network Permission tab you can use the tick boxes to restrict clients to infrastructure networks or only GPO profiled allowed networks if you desire.
     7. Click OK and you have completed your Windows Wireless Policy
