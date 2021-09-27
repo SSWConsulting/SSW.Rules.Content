@@ -54,3 +54,5 @@ Good Example - Using templates allows persisting structured log data (DateTime i
 ![Figure: Good Example - Seq provides a powerful UI for searching and viewing your structured logs](seq2.png)  
 :::
 
+
+`youtube: https://www.youtube.com/embed/pUMs8TkuMFk`
