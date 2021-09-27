@@ -17,7 +17,7 @@ Wireless networks are everywhere now. You can't drive down the street without fi
 <!--endintro-->
 
 ::: greybox
-WEP, No SSID broadcast, allowed MAC addresses are all OK but these are more home security.\
+WEP, No SSID broadcast, allowed MAC addresses are all OK but these are more home security.
 :::
 
 ::: bad
