@@ -203,6 +203,8 @@ Cons:
 Figure: Good Practice - Overall rating 9/10  
 :::
 
+::: greybox
+
 #### Avoid using secrets with Azure Managed Identities
 
 The easiest way to manage secrets is not to have them in the first place. Azure Managed Identities allows you to assign an Azure AD identity to your application and then allow it to use its identity to log in to other services. This avoids the need for any secrets to be stored.
