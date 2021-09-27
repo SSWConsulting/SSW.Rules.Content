@@ -30,7 +30,7 @@ index:
 - do-you-decide-on-the-level-of-the-verboseness-e-g-ternary-operators
 - do-you-review-the-code-comments
 - do-you-use-the-best-code-analysis-tools
-- do-you-look-for-console-writeline-and-change-it-to-trace-writeline
+- best-trace-logging
 - do-you-look-for-code-coverage
 - do-you-use-the-kent-beck-philosophy
 - the-best-dependency-injection-container
