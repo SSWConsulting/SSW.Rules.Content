@@ -5,6 +5,8 @@ uri: unplanned-outage-process
 authors:
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
+  - title: Kiki Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-have-an-unplanned-outage-process
@@ -16,9 +18,9 @@ For planned outages, see https://www.ssw.com.au/rules/planned-outage-process
 
 During your course of being a SysAdmin, you will come across many outages. Some of them will impact BAU (Business as usual) and others will just be minor service outages. Do you know what to do you have a plan in the event of these outages?
 
-Below is a process for these types of outages. Some amount of common sense is required here, an outage would be if services that would affect BAU work are disrupted for SSW and/or some hardware has failed.
-
 <!--endintro-->
+
+Below is a process for these types of outages. Some amount of common sense is required here, an outage would be if services that would affect BAU work are disrupted for SSW and/or some hardware has failed.
 
 Hardware Outage:
 
@@ -38,7 +40,7 @@ Service Outage:
 
 ### Determining What Services are Disrupted
 
-At SSW we use WhatsUp Gold for our device monitoring, however, there are many tools for this, Solarwinds, SCOM, etc
+Many services can be used for device monitoring e.g. WhatsUp Gold, Solarwinds, SCOM. You would do the following in any of them:
 
 1. Login to monitoring service
 2. Check to see what services are down
@@ -122,7 +124,8 @@ The next steps to resolving this are:
 Thank you,
 SysAdmin     
 
-:::\
+:::
+
 :::  
 
 ### Next steps did NOT resolve the issue
