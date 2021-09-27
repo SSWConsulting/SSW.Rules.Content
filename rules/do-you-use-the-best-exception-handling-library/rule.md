@@ -14,10 +14,9 @@ created: 2013-09-11T19:17:07.000Z
 archivedreason: null
 guid: 4758ac66-d4a5-4ccd-93cc-85c1f2d369da
 ---
-
 When developing software, exceptions are a fact-of-life you will need to deal with. Don't reinvent the wheel, use an existing exception handling library or service.
 
-Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – preferably in a SQL database. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs.
+Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – there are plenty of great services that help you fall into the pit of success. They show you great dashboards, integrate with your preferred communication tools, allow you to get great telemetry, and help you drill down to the root cause. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs.
 
 ::: bad
 ![Figure: Bad - If you see this, you are doing something wrong!](default-asp-error-500_small.png)
@@ -37,6 +36,8 @@ If Application Insights is not available we use Seq when developing web applicat
 **Seq** is built for modern structured logging with message templates. Rather than waste time and effort trying to extract data from plain-text logs with fragile log parsing, the properties associated with each log event are captured and sent to Seq in a clean JSON format. Message templates are supported natively by ASP.NET Core, Serilog, NLog, and many other libraries, so your application can use the best available diagnostic logging for your platform.
 :::
 
+[Raygun](https://raygun.com) is another great tool as it helps you identify and monitor errors in Single Page Applications.
+
 Application Insights gives you very useful graphs and analysis which give you a good overview of how things are going. See [here](/rules-to-better-application-insights) for more details. Seq is great for identifying specific issues and how to fix them, but is not as good at letting you see the big picture.
 
 ::: good
@@ -45,4 +46,8 @@ Application Insights gives you very useful graphs and analysis which give you a 
 
 ::: good
 ![Figure: Good - Application Insights gives you graphs and analysis that help you find issues, but also lets you drill down to get the details as well](overview.png)
+:::
+
+::: good
+![Figure: Good - Raygun gives you lots of information about errors and the "breadcrumbs" that led the user to the error in order to help you find issues](raygun.gif)
 :::
