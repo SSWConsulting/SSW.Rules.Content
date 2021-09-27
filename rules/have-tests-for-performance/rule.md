@@ -57,3 +57,12 @@ public abstract class FormTestBase<F>
 
  **Figure: This code tests that the LoginForm and MainForm load in under 4 seconds
 **
+
+While Visual Studio Enterprise came with load and performance testing components this has now been deprecated as of VS 2019. For more information, see the [Cloud-based load testing service end of life] https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/
+
+Some popular open source load testing tools are: 
+
+* [Apache JMeter](https://jmeter.apache.org/) - 100% Java application with built in reporting - 5.6k Stars on GitHub
+* [k6](https://k6.io/open-source/) - Write load tests in javascript - 14k Stars on GitHub
+* [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1k Stars on GitHub
+
