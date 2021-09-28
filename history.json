@@ -9037,9 +9037,9 @@
 	},
 	{
 		"file": "rules/do-you-present-the-user-with-a-nice-error-screen-web-only/rule.md",
-		"lastUpdated": "2021-03-16T22:28:57.188Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-09-28T07:31:29.042Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com",
 		"created": "2013-09-12T07:15:28+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -27790,5 +27790,23 @@
 		"lastUpdated": "2021-09-27T23:31:35.331Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-present-the-user-with-a-nice-error-screen-web-only/error-screen-good.png",
+		"created": "2021-09-28T07:31:29.041Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-28T07:31:29.041Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-present-the-user-with-a-nice-error-screen-web-only/error-screen-bad.png",
+		"created": "2021-09-28T07:31:29.042Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-28T07:31:29.042Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
 	}
 ]
