@@ -39,7 +39,7 @@ public async Task<Unit> Handle(UpdateTodoListCommand request, CancellationToken 
 }
 ```
 ::: bad
-Figure: Bad example - System.Exception is thrown, I now need to read the code to try to work out what is going wrong (hard if it was thrown by code outside of this solution)
+Figure: Bad example - System.Exception is thrown, you now need to read the code to try to work out what is going wrong (hard if it was thrown by code outside of this solution)
 :::
 
 ``` cs
@@ -80,5 +80,5 @@ public class NotFoundException : Exception
     }
 ```
 ::: good
-Figure: Good example - A specific exception is thrown which I can specifically catch, the message is consistently formatted and a consuming application can understand what was wrong with their request easily
+Figure: Good example - A specific exception is thrown which you can specifically catch, the message is consistently formatted and a consuming application can understand what was wrong with their request easily
 :::
