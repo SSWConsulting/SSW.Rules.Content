@@ -1720,9 +1720,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-send-newsletter-in-microsoft-crm-2013/rule.md",
-		"lastUpdated": "2018-06-08T08:16:17+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-28T00:43:42.170Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2014-05-29T16:20:23+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -3817,9 +3817,9 @@
 	},
 	{
 		"file": "rules/do-you-use-chrome-devtools-device-mode-to-design-and-test-your-mobile-views/rule.md",
-		"lastUpdated": "2015-08-05T10:39:33+10:00",
-		"lastUpdatedBy": "Duncan Hunter",
-		"lastUpdatedByEmail": "DuncanHunter@ssw.com.au",
+		"lastUpdated": "2021-09-27T19:14:52.210Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-02-16T17:50:46+11:00",
 		"createdBy": "Duncan Hunter",
 		"createdByEmail": "DuncanHunter@ssw.com.au"
@@ -14302,7 +14302,7 @@
 	},
 	{
 		"file": "rules/have-an-induction-program/rule.md",
-		"lastUpdated": "2021-03-26T17:04:51.274Z",
+		"lastUpdated": "2021-09-27T21:11:56.955Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-02-03T11:40:38+11:00",
@@ -14878,7 +14878,7 @@
 	},
 	{
 		"file": "rules/store-your-secrets-securely/rule.md",
-		"lastUpdated": "2021-09-23T16:19:12.581Z",
+		"lastUpdated": "2021-09-27T16:44:21.502Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-04-29T05:19:41+10:00",
@@ -15193,7 +15193,7 @@
 	},
 	{
 		"file": "rules/the-best-way-to-learn/rule.md",
-		"lastUpdated": "2021-09-23T17:03:09.666Z",
+		"lastUpdated": "2021-09-27T18:05:50.632Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-06-09T08:30:24+10:00",
@@ -16093,9 +16093,9 @@
 	},
 	{
 		"file": "rules/how-to-install-skypepop/rule.md",
-		"lastUpdated": "2017-10-26T09:01:52+11:00",
-		"lastUpdatedBy": "Andrew Campey",
-		"lastUpdatedByEmail": "AndrewCampey@ssw.com.au",
+		"lastUpdated": "2021-09-28T00:09:48.933Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-12-22T11:20:12+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -21232,9 +21232,9 @@
 	},
 	{
 		"file": "rules/have-tests-for-performance/rule.md",
-		"lastUpdated": "2020-03-20T12:37:54+11:00",
-		"lastUpdatedBy": "Matthew Wicks",
-		"lastUpdatedByEmail": "MatthewWicks@ssw.com.au",
+		"lastUpdated": "2021-09-27T23:30:03.827Z",
+		"lastUpdatedBy": "Prem Radhakrishnan [SSW]",
+		"lastUpdatedByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
 		"created": "2020-03-13T06:58:01+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -27765,12 +27765,30 @@
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	},
 	{
-		"file": "rules/do-you-know-how-to-programmatically-get-git-commits/devops-get-commits.png",
-		"created": "2021-09-27T06:55:36.181Z",
+		"file": "rules/on-premise-build-server-with-azure-devops/rule.md",
+		"created": "2021-09-27T05:58:07.685Z",
 		"createdBy": "Jake Bayliss",
 		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
-		"lastUpdated": "2021-09-27T06:55:36.181Z",
+		"lastUpdated": "2021-09-27T05:58:07.685Z",
 		"lastUpdatedBy": "Jake Bayliss",
 		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+	},
+	{
+		"file": "rules/8-steps-to-scrum/8-steps-to-scrum.jpg",
+		"created": "2021-09-27T23:22:58.205Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-09-27T23:31:35.330Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/8-steps-to-scrum/8StepstoScrum.pdf",
+		"created": "2021-09-27T23:22:58.205Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-09-27T23:31:35.331Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
 	}
 ]
