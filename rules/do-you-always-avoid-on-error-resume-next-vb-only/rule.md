@@ -9,7 +9,7 @@ related: []
 redirects:
   - do-you-always-avoid-on-error-resume-next-(vb-only)
 created: 2013-09-11T22:01:01.000Z
-archivedreason: Archiving as this rule isn't valid anymore
+archivedreason: Archiving as this rule as VB isn't relevant anymore
 guid: 44ff5d65-56bc-4b02-957d-378c8c0bfc5c
 ---
 
