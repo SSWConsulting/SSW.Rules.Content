@@ -34,11 +34,11 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
 ![Figure: Good - A nice custom error page](timepro-error.png)
 :::
 
+##Application Insights
+
 [**Application Insights**](/rules-to-better-application-insights) is recommended whenever possible. If you are still developing Windows applications, then you can still use Application Insights, read [here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/windows-desktop) for more details.
 
-::: greybox
 **Application Insights** will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you’ll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.
-:::
 
 Application Insights gives you very useful graphs and analysis which give you a good overview of how things are going. See [here](/rules-to-better-application-insights) for more details.
 
@@ -48,7 +48,8 @@ Application Insights gives you very useful graphs and analysis which give you a 
 
 If Application Insights is not available, we use [**Seq**](https://datalust.co/seq) when developing web applications. Seq is great for identifying specific issues and how to fix them, but is not as good as Application Insights at letting you see the big picture.
 
-::: greybox
+##Seq
+
 **Seq** is built for modern structured logging with message templates. Rather than waste time and effort trying to extract data from plain-text logs with fragile log parsing, the properties associated with each log event are captured and sent to Seq in a clean JSON format. Message templates are supported natively by ASP.NET Core, Serilog, NLog, and many other libraries, so your application can use the best available diagnostic logging for your platform.
 :::
 
@@ -56,9 +57,9 @@ If Application Insights is not available, we use [**Seq**](https://datalust.co/s
 ![Figure: Good - Seq provides you with plenty of details about what is happening, but if you don't already know what you're looking for, it can be tricky to parse](xn4QHnmBS0Kx39gOv0wM_GettingStarted-1.png)
 :::
 
-::: greybox
+##RayGun
+
 [Raygun](https://raygun.com) is another great tool as it helps you identify and monitor errors in Single Page Applications.
-:::
 
 ::: good
 ![Figure: Good - Raygun gives you lots of information about errors and the "breadcrumbs" that led the user to the error in order to help you find issues](raygun.gif)
