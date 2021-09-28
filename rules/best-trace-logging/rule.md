@@ -20,6 +20,9 @@ guid: 5ecb7c85-0a65-494c-ac1a-51c71c4546aa
 Did you know that writing your own logging infrastructure code wastes time? There are awesome logging abstractions in .NET Core and .NET 5+ that you should use instead!
 
 These abstractions allow you to:
+
+<!--endintro-->
+
 - create log entries in a predictable and familiar fashion - you use the same patterns for logging in a [Background Service](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line) as you would in a [Blazor WASM app](https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-5.0&pivots=webassembly) (just some slightly different bootstrapping 😉)
 - use Dependency Injection; your code doesn't take a dependency on a particular framework (as they are abstractions)
 - filter output based off severity (Verbose/Debug/Info/Warning/Error) - so you can dial it up or down without changing code
@@ -27,8 +30,6 @@ These abstractions allow you to:
 - multiple logging sinks - where the logs are written to e.g. log file, database, table storage, or Application Insights
 - supports log message templates allowing logging providers to implement [semantic or structured logging](https://github.com/NLog/NLog/wiki/How-to-use-structured-logging)
 - can be used with a range of [3rd party logging providers](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/#third-party-logging-providers-1)
-
-<!--endintro-->
 
 Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging)
 
