@@ -20,11 +20,15 @@ For any kind of backups, it is important to log a record on success so you can c
 
 <!--endintro-->
 
-Without some kind of logging e.g. on a SQL database, on a txt file, on a SharePoint list, it is impossible to tell which backups have been completed or not. Some important stats to log:
+Without some kind of logging e.g. on a SQL database, on a txt file, on a SharePoint list, it is impossible to tell which backups have been completed or not. This applies to backups of any kind e.g. servers, personal computers, emails.
+
+Some important stats to log:
 
 1. Date - Date backup has run
 2. Username - If a personal backup, which user was logged in when the backup ran
-3. PC Name - The name of the server (or PC)
+3. PC Name - The name of the server (or PC) the backup came from
+
+Having entries logged on a database is better than having an email sent because entries are easier to see and manage, and emails might get lost in the noise.
 
 ::: bad
 ![Figure: Bad example - an email is sent on completion](backup_notification_bad.jpg)
