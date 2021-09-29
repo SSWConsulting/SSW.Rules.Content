@@ -3,10 +3,10 @@ type: rule
 title: Do you use an analytics framework to help manage exceptions?
 uri: do-you-use-an-analytics-framework-to-help-manage-exceptions
 authors:
-  - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
-  - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - do-you-know-how-to-set-up-application-insights
   - do-you-know-why-you-want-to-use-application-insights
