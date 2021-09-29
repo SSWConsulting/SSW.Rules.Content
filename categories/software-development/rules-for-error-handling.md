@@ -5,7 +5,7 @@ guid: 3691ee12-ee85-40dc-9236-ced69d3930ba
 uri: rules-for-error-handling
 index:
 - do-you-use-the-best-exception-handling-library
-- do-you-present-the-user-with-a-nice-error-screen-web-only
+- do-you-present-the-user-with-a-nice-error-screen
 - best-trace-logging
 - do-you-use-ladylog
 - do-you-catch-and-re-throw-exceptions-properly
