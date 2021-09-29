@@ -5,8 +5,10 @@ uri: do-you-know-that-you-should-never-throw-an-exception-using-system-exception
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 created: 2013-09-11T21:27:14.000Z
