@@ -27796,7 +27796,7 @@
 		"created": "2021-09-28T07:31:29.041Z",
 		"createdBy": "Jake Bayliss",
 		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
-		"lastUpdated": "2021-09-28T07:31:29.041Z",
+		"lastUpdated": "2021-09-29T00:16:24.775Z",
 		"lastUpdatedBy": "Jake Bayliss",
 		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
 	},
@@ -27805,7 +27805,16 @@
 		"created": "2021-09-28T07:31:29.042Z",
 		"createdBy": "Jake Bayliss",
 		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
-		"lastUpdated": "2021-09-28T07:31:29.042Z",
+		"lastUpdated": "2021-09-29T00:16:24.775Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-present-the-user-with-a-nice-error-screen/rule.md",
+		"created": "2021-09-29T00:16:24.776Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-29T00:16:24.776Z",
 		"lastUpdatedBy": "Jake Bayliss",
 		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
 	}
