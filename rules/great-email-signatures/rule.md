@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/rebecca-liu
 related:
   - logon-do-you-have-a-company-wide-word-template
+  - do-you-know-the-right-format-to-show-your-phone-number
 redirects:
   - do-you-use-great-email-signatures
 created: 2015-11-02T20:01:33.000Z
@@ -49,7 +50,7 @@ Figure: Bad example - This default signature sucks
 
 ::: greybox
 Thanks, Adam
-www.ssw.com.au    |   +61 4 1985 1995   |   Ping me on Teams
+www.ssw.com.au    |   +61 4 1985 1995   |   [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
 
 :::
 ::: good
@@ -74,8 +75,9 @@ Use a really short signature (your first name or initials) or no signature at al
 
 ### Option 1: CodeTwo (Paid)
 
-
 To be as consistent as possible, going with a third-party signature provider (e.g. CodeTwo, Exclaimer) is the easiest way to have great email signatures, as consistent as possible, to all your employees and all devices, at any time. At SSW we use CodeTwo as our signature provider and the benefits are many:
+
+www.codetwo.com
 
 1. Consistent signature for every employee – we value consistency at SSW
 2. Central management location for all signatures
@@ -106,7 +108,6 @@ To be as consistent as possible, going with a third-party signature provider (e.
 1. Open Outlook in Office 365 ([http://outlook.office.com/mail/inbox](https://outlook.office.com/mail/inbox))
 2. Click the "Settings" cog on the top right corner of the Window
 3. Click on “View all Outlook settings” at the bottom of the Settings panel 
-     
 
 ![Figure: Where to find "View all Outlook settings"](outlook-settings-signature.png)
 
