@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what makes a good mentor?
+title: Mentoring - Do you know what makes a good mentor?
 uri: what-is-mentoring
 authors:
   - title: Josh Bandsma
