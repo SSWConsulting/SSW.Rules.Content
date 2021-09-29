@@ -53,7 +53,7 @@ The best way for this to work is to break tasks into the smallest possible [bite
 
 Sometimes software developers miss a related item that you might consider 'blindingly obvious.' For example, you might ask them to fix a combo box on one form in a legacy application. But they mightn't know about the three other forms that the same type of combo appears on. So if you also want them fixed, then let them know about them!
 
-### Get UI Changes OKed 
+### Get Approval for UI
 
 
 Insist your software consultants [conduct specifications by creating mock-ups](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups).
