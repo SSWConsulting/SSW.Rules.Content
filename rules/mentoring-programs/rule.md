@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a mentoring program?
+title: Mentoring - Do you have a mentoring program?
 uri: mentoring-programs
 authors:
   - title: Penny Walker
