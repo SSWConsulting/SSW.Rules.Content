@@ -38,6 +38,8 @@ Having entries logged on a database is better than having an email sent because 
 ![Figure: Good example - a record is logged on completion](backup_notification_good.jpg)
 :::
 
+
+
 Now you are able to be aware of missing backups. You can make automatically notification based on above table e.g. [by SQL Reporting Services data-driven subscription](https://www.ssw.com.au/ssw/KB/KB.aspx?KBID=Q1455840)
 
 It is also important to review the state of your backups at least on a weekly basis, ensuring that backups are not failing and that you are able to restore them when necessary. This is part of a good disaster recovery process.
