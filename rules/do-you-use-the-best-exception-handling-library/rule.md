@@ -34,7 +34,7 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
 ![Figure: Good - A nice custom error page](timepro-error.png)
 :::
 
-##Application Insights
+## Application Insights
 
 [**Application Insights**](/rules-to-better-application-insights) is recommended whenever possible. If you are still developing Windows applications, then you can still use Application Insights, read [here](https://docs.microsoft.com/en-us/azure/azure-monitor/app/windows-desktop) for more details.
 
@@ -48,7 +48,7 @@ Application Insights gives you very useful graphs and analysis which give you a 
 
 If Application Insights is not available, we use [**Seq**](https://datalust.co/seq) when developing web applications. Seq is great for identifying specific issues and how to fix them, but is not as good as Application Insights at letting you see the big picture.
 
-##Seq
+## Seq
 
 **Seq** is built for modern structured logging with message templates. Rather than waste time and effort trying to extract data from plain-text logs with fragile log parsing, the properties associated with each log event are captured and sent to Seq in a clean JSON format. Message templates are supported natively by ASP.NET Core, Serilog, NLog, and many other libraries, so your application can use the best available diagnostic logging for your platform.
 :::
@@ -57,7 +57,7 @@ If Application Insights is not available, we use [**Seq**](https://datalust.co/s
 ![Figure: Good - Seq provides you with plenty of details about what is happening, but if you don't already know what you're looking for, it can be tricky to parse](xn4QHnmBS0Kx39gOv0wM_GettingStarted-1.png)
 :::
 
-##RayGun
+## RayGun
 
 [Raygun](https://raygun.com) is another great tool as it helps you identify and monitor errors in Single Page Applications.
 
