@@ -17,24 +17,47 @@ redirects:
 
 ---
 
-Your users should never see the “yellow screen of death” in ASP.NET. Errors should be caught, logged and a user-friendly screen displayed to the user.
+Your users should never see the “yellow screen of death”. Errors should be caught, logged and a user-friendly screen displayed to the user.
 
 <!--endintro-->
 
-This last part is done by specifying the customErrors element in the web.config file.
-
-This will activate ASP.NET’s built in error page (e.g. MVC’s HandleErrorAttribute filter) which can then be customized to suit your application.
-
 ::: bad
-![Figure: Bad Example – Yellow Screen of Death](error-screen-bad.png)
+![Figure: Bad Example – ASP.NET Yellow Screen of Death](error-screen-bad.png)
+:::
+
+::: bad 
+![Figure: Bad Example - Default exception page](net-core-default.png)
 :::
 
 ::: good  
 ![Figure: Good Example - GitHub custom error page](error-screen-good.png)
 :::
 
-However, as a developer you still want to be able to view the detail of the exception in your local development environment. Use the below setting in your Web Application's web.config file to view the yellow screen locally but present a nice error screen to the user.
+However, as a developer you still want to be able to view the detail of the exception in your local development environment. 
 
-::: good
-![Figure: Good Example - Don't hide the yellow screen of death in the local environment](14-08-2014-2-47-50-PM-compressor.png)
+## How-to set up development environment exception pages in ASP.NET Core
+
+To set up exceptions in your local development environment you need to configure the Developer Exception Page middleware in the request processing pipeline.
+Unless you have modified the default template, it should work out of the box. Here are the important lines:
+
+```
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    if (env.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+    else
+    {
+        app.UseExceptionHandler("/Error");
+        app.UseHsts();
+    }
+    ...
+}
+```
+
+::: good  
+![Figure: This is how you set it up in .NET 5](net-core-development.png)
 :::
+
+Find out more about exception handling in .NET Core 5 [here](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-5.0).

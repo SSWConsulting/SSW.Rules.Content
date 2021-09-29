@@ -21,8 +21,6 @@ guid: 1ce1f817-43a3-4caa-b398-ae154eac98e8
 ---
 `youtube: https://www.youtube.com/embed/ang3jKb3DFU`
 
-![](mentoring.jpg)
-
 There's a few types of mentoring:
 
 * **\#1 Consulting mentoring** where you hire expert consultants because you don't have the skills within your company. This is most commonly all day engagements e.g.[ SSW's Mentoring Services](https://www.ssw.com.au/ssw/Consulting/Mentoring.aspx). 
