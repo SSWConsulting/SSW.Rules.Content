@@ -1,45 +1,37 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use the best trace logging library?
-guid: 5ecb7c85-0a65-494c-ac1a-51c71c4546aa
 uri: best-trace-logging
-created: 2013-09-11T21:38:08.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
 related: []
-redirects: 
- - do-you-use-the-best-trace-logging-library
-
+redirects:
+  - do-you-use-the-best-trace-logging-library
+created: 2013-09-11T21:38:08.000Z
+archivedreason: null
+guid: 5ecb7c85-0a65-494c-ac1a-51c71c4546aa
 ---
 
-Did you know that writing your own logging infrastructure code wastes time? You should use a logging library, and the best logging library is Serilog.
+Did you know that writing your own logging infrastructure code wastes time? There are awesome logging abstractions in .NET Core and .NET 5+ that you should use instead!
 
-Serilog is a NuGet package that can be included in any .NET application, is easy to configure, supports many different output targets, has great performance, and allows for runtime changes to the configuration. Serilog also supports full integration with log4net so is easy to use with any older codebase using log4net.
+These abstractions allow you to:
 
 <!--endintro-->
 
-Serilog supports all the log4net concepts of logging at different levels of importance (e.g. Error, Warning, Information) and having different logs for different components of your application (e.g. a Customer Log and an Order Log).
+- create log entries in a predictable and familiar fashion - you use the same patterns for logging in a [Background Service](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging?tabs=command-line) as you would in a [Blazor WASM app](https://docs.microsoft.com/en-us/aspnet/core/blazor/fundamentals/logging?view=aspnetcore-5.0&pivots=webassembly) (just some slightly different bootstrapping 😉)
+- use Dependency Injection; your code doesn't take a dependency on a particular framework (as they are abstractions)
+- filter output based off severity (Verbose/Debug/Info/Warning/Error) - so you can dial it up or down without changing code
+- have different logs for different components of your application (e.g. a Customer Log and an Order Log)
+- multiple logging sinks - where the logs are written to e.g. log file, database, table storage, or Application Insights
+- supports log message templates allowing logging providers to implement [semantic or structured logging](https://github.com/NLog/NLog/wiki/How-to-use-structured-logging)
+- can be used with a range of [3rd party logging providers](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging/#third-party-logging-providers-1)
 
-Serilog's main advantage over previous loggers is its ability to serialize and log full .net objects rather than just strings. Serilog also has a powerful, nested context system allowing log events to be grouped by request, operation etc.
-
-Serilog has the concept of "sinks": pluggable modules that can consume, store and/or act on logging events. The most powerful sink is Seq - a web application that allows the user to perform complex search queries on incoming log data in real time.
-
-Other sinks allow you to:
-
-* save logs to a file
-* export to log4net (and subsequently use any log4net appender)
-* save to a database
-* export to Application Insights, New Relic, and many other APM platforms
-
-
-Many other sinks are available as described here: https://github.com/serilog/serilog/wiki/Provided-Sinks
-
+Read more at [Logging in .NET Core and ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/logging)
 
 ::: bad  
 ![Figure: Bad Example - Using Debug or Trace for logging, or writing hard coded mechanisms for logging does not allow you to configure logging at runtime](trace-logging-bad.jpg)  
@@ -47,19 +39,21 @@ Many other sinks are available as described here: https://github.com/serilog/ser
 
 
 ::: bad  
-![Figure: Bad Example - Roll your own logging components lack functionality, and have not been tested as thoroughly for quality or performance as log4net](trace-logging-bad-2.jpg)  
+![Figure: Bad Example - Roll your own logging components lack functionality, and have not been tested as thoroughly for quality or performance as log4net](trace-logging-bad-2.jpg)
 :::
 
 
+```
+_logger.LogInformation("Getting item {Id} at {RequestTime}", id, DateTime.Now);
+```
 ::: good  
-![Figure: Good Example - Using serilog allows persisting structured log data to multiple stores, querying that data intelligently and requires less work to install and configure than a roll-you-own logger, and provides many more features](serilog.png)  
+Good Example - Using templates allows persisting structured log data (DateTime is a complex object)
 :::
 
 
-::: good  
+::: good
 ![Figure: Good Example - Seq provides a powerful UI for searching and viewing your structured logs](seq2.png)  
 :::
 
-Serilog should be added to your project via the NuGet package manager.
 
-See also [Do you use the best middle tier .NET libraries?](/do-you-use-the-best-middle-tier-net-libraries)
+`youtube: https://www.youtube.com/embed/pUMs8TkuMFk`

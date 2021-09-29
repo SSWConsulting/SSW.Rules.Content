@@ -667,9 +667,9 @@
 	},
 	{
 		"file": "rules/are-you-aware-of-the-importance-of-a-clients-email-attachment/rule.md",
-		"lastUpdated": "2018-09-12T13:00:18+10:00",
-		"lastUpdatedBy": "John Strieker",
-		"lastUpdatedByEmail": "JohnStrieker@ssw.com.au",
+		"lastUpdated": "2021-09-14T03:12:58.476Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2009-09-15T16:06:00+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -1297,9 +1297,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-programmatically-get-git-commits/rule.md",
-		"lastUpdated": "2014-09-02T18:24:25+10:00",
-		"lastUpdatedBy": "Drew Robson",
-		"lastUpdatedByEmail": "DrewRobson@ssw.com.au",
+		"lastUpdated": "2021-09-27T06:55:36.181Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com",
 		"created": "2014-08-08T16:13:34+10:00",
 		"createdBy": "Drew Robson",
 		"createdByEmail": "DrewRobson@ssw.com.au"
@@ -1720,9 +1720,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-send-newsletter-in-microsoft-crm-2013/rule.md",
-		"lastUpdated": "2018-06-08T08:16:17+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-28T00:43:42.170Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2014-05-29T16:20:23+10:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -2044,7 +2044,7 @@
 	},
 	{
 		"file": "rules/do-you-realize-the-importance-of-a-good-email-subject/rule.md",
-		"lastUpdated": "2021-04-07T21:46:06.423Z",
+		"lastUpdated": "2021-09-22T03:13:28.548Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-08-08T13:47:47+10:00",
@@ -3817,9 +3817,9 @@
 	},
 	{
 		"file": "rules/do-you-use-chrome-devtools-device-mode-to-design-and-test-your-mobile-views/rule.md",
-		"lastUpdated": "2015-08-05T10:39:33+10:00",
-		"lastUpdatedBy": "Duncan Hunter",
-		"lastUpdatedByEmail": "DuncanHunter@ssw.com.au",
+		"lastUpdated": "2021-09-27T19:14:52.210Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-02-16T17:50:46+11:00",
 		"createdBy": "Duncan Hunter",
 		"createdByEmail": "DuncanHunter@ssw.com.au"
@@ -5455,9 +5455,9 @@
 	},
 	{
 		"file": "rules/do-you-add-an-exception-for-hosts-file-on-windows-defender/rule.md",
-		"lastUpdated": "2016-03-23T12:27:52+11:00",
-		"lastUpdatedBy": "Stanley Sidik",
-		"lastUpdatedByEmail": "StanleySidik@ssw.com.au",
+		"lastUpdated": "2021-09-22T03:17:21.836Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-09-20T04:19:15+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -6832,7 +6832,7 @@
 	},
 	{
 		"file": "rules/do-you-carry-your-usb-flash-drive-on-your-key-ring/rule.md",
-		"lastUpdated": "2021-07-21T23:27:09.695Z",
+		"lastUpdated": "2021-09-22T03:02:17.046Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-09-28T05:06:01+10:00",
@@ -9037,9 +9037,9 @@
 	},
 	{
 		"file": "rules/do-you-present-the-user-with-a-nice-error-screen-web-only/rule.md",
-		"lastUpdated": "2021-03-16T22:28:57.188Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-09-28T07:31:29.042Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com",
 		"created": "2013-09-12T07:15:28+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -9064,9 +9064,9 @@
 	},
 	{
 		"file": "rules/do-you-use-the-best-exception-handling-library/rule.md",
-		"lastUpdated": "2021-05-27T19:08:32.847Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-09-29T00:13:46.933Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com",
 		"created": "2013-09-12T05:19:43+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -12313,18 +12313,18 @@
 	},
 	{
 		"file": "rules/do-you-know-not-to-use-bold-tags-inside-headings/rule.md",
-		"lastUpdated": "2015-05-22T12:58:37+10:00",
-		"lastUpdatedBy": "Rebecca Liu",
-		"lastUpdatedByEmail": "RebeccaLiu@ssw.com.au",
+		"lastUpdated": "2021-09-23T21:40:48.083Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2014-12-22T23:40:23+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/do-you-know-font-tags-are-no-longer-used/rule.md",
-		"lastUpdated": "2013-01-22T01:10:00+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-23T21:14:37.789Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-07-18T07:35:41+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -12997,9 +12997,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-share-a-private-link-of-a-draft-post/rule.md",
-		"lastUpdated": "2014-09-27T06:42:44+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-27T23:46:54.061Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2012-10-05T07:42:35+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -13483,9 +13483,9 @@
 	},
 	{
 		"file": "rules/do-you-avoid-bmps-for-the-internet-at-all-times/rule.md",
-		"lastUpdated": "2015-12-14T20:46:15+11:00",
-		"lastUpdatedBy": "Martin Li",
-		"lastUpdatedByEmail": "MartinLi@ssw.com.au",
+		"lastUpdated": "2021-09-23T21:10:13.825Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-13T11:25:20+11:00",
 		"createdBy": "Rebecca Liu",
 		"createdByEmail": "RebeccaLiu@ssw.com.au"
@@ -13663,9 +13663,9 @@
 	},
 	{
 		"file": "rules/do-you-know-how-to-analyse-your-web-application-usage-with-application-insights/rule.md",
-		"lastUpdated": "2017-04-05T03:05:19+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-17T17:02:34.340Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-28T02:19:20+11:00",
 		"createdBy": "Ben Cull",
 		"createdByEmail": "BenCull@ssw.com.au"
@@ -14302,7 +14302,7 @@
 	},
 	{
 		"file": "rules/have-an-induction-program/rule.md",
-		"lastUpdated": "2021-03-26T17:04:51.274Z",
+		"lastUpdated": "2021-09-27T21:11:56.955Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-02-03T11:40:38+11:00",
@@ -14428,18 +14428,18 @@
 	},
 	{
 		"file": "rules/what-metrics-to-collect-stage-3/rule.md",
-		"lastUpdated": "2020-03-24T15:35:12+11:00",
-		"lastUpdatedBy": "Matthew Wicks",
-		"lastUpdatedByEmail": "MatthewWicks@ssw.com.au",
+		"lastUpdated": "2021-09-17T16:56:12.458Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-03-08T05:22:18+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
 		"file": "rules/continually-improve-processes/rule.md",
-		"lastUpdated": "2017-01-24T03:54:44+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-17T16:59:00.772Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-03-08T05:51:30+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -14518,9 +14518,9 @@
 	},
 	{
 		"file": "rules/refer-consistently-throughout-your-document/rule.md",
-		"lastUpdated": "2016-05-06T14:33:30+10:00",
-		"lastUpdatedBy": "Joanna Feely",
-		"lastUpdatedByEmail": "JoannaFeely@ssw.com.au",
+		"lastUpdated": "2021-09-17T16:41:54.484Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-03-22T17:05:50+11:00",
 		"createdBy": "Joanna Feely",
 		"createdByEmail": "JoannaFeely@ssw.com.au"
@@ -14878,9 +14878,9 @@
 	},
 	{
 		"file": "rules/store-your-secrets-securely/rule.md",
-		"lastUpdated": "2021-04-26T07:02:40.979Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-09-27T16:44:21.502Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-04-29T05:19:41+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -15193,9 +15193,9 @@
 	},
 	{
 		"file": "rules/the-best-way-to-learn/rule.md",
-		"lastUpdated": "2016-10-11T12:55:45+11:00",
-		"lastUpdatedBy": "Dennis Heer",
-		"lastUpdatedByEmail": "DennisHeer@ssw.com.au",
+		"lastUpdated": "2021-09-27T18:05:50.632Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-06-09T08:30:24+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -16093,9 +16093,9 @@
 	},
 	{
 		"file": "rules/how-to-install-skypepop/rule.md",
-		"lastUpdated": "2017-10-26T09:01:52+11:00",
-		"lastUpdatedBy": "Andrew Campey",
-		"lastUpdatedByEmail": "AndrewCampey@ssw.com.au",
+		"lastUpdated": "2021-09-28T00:09:48.933Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-12-22T11:20:12+11:00",
 		"createdBy": "Ulysses Maclaren",
 		"createdByEmail": "ulyssesmaclaren@ssw.com.au"
@@ -16111,9 +16111,9 @@
 	},
 	{
 		"file": "rules/how-to-handle-errors-in-raygun/rule.md",
-		"lastUpdated": "2017-04-05T03:37:45+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-17T17:06:54.084Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2016-12-30T14:34:53+11:00",
 		"createdBy": "Jernej Kavka",
 		"createdByEmail": "JernejKavka@ssw.com.au"
@@ -16723,9 +16723,9 @@
 	},
 	{
 		"file": "rules/have-a-server-reboot-restart-policy/rule.md",
-		"lastUpdated": "2021-07-05T22:43:06.319Z",
-		"lastUpdatedBy": "Brady Stroud",
-		"lastUpdatedByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-09-28T21:17:14.657Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2017-07-01T06:01:22+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -18334,9 +18334,9 @@
 	},
 	{
 		"file": "rules/pc-do-you-organize-your-hard-disk/rule.md",
-		"lastUpdated": "2019-10-08T08:54:01+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-09-14T21:17:32.325Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-10-18T17:05:12+11:00",
 		"createdBy": "Kaique Biancatti",
 		"createdByEmail": "kaiqueBiancatti@ssw.com.au"
@@ -21232,9 +21232,9 @@
 	},
 	{
 		"file": "rules/have-tests-for-performance/rule.md",
-		"lastUpdated": "2020-03-20T12:37:54+11:00",
-		"lastUpdatedBy": "Matthew Wicks",
-		"lastUpdatedByEmail": "MatthewWicks@ssw.com.au",
+		"lastUpdated": "2021-09-27T23:30:03.827Z",
+		"lastUpdatedBy": "Prem Radhakrishnan [SSW]",
+		"lastUpdatedByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
 		"created": "2020-03-13T06:58:01+11:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -27661,7 +27661,7 @@
 		"created": "2021-09-13T16:57:55.203Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-09-13T16:57:55.203Z",
+		"lastUpdated": "2021-09-14T15:14:03.940Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
@@ -27670,7 +27670,7 @@
 		"created": "2021-09-13T16:57:55.203Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-09-13T16:57:55.203Z",
+		"lastUpdated": "2021-09-14T15:14:03.941Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
@@ -27679,7 +27679,7 @@
 		"created": "2021-09-13T16:57:55.204Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-09-13T16:57:55.204Z",
+		"lastUpdated": "2021-09-14T15:14:03.941Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
@@ -27688,7 +27688,7 @@
 		"created": "2021-09-13T16:57:55.204Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-09-13T16:57:55.204Z",
+		"lastUpdated": "2021-09-14T15:14:03.941Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
@@ -27697,8 +27697,134 @@
 		"created": "2021-09-13T16:57:55.204Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-09-13T16:57:55.204Z",
+		"lastUpdated": "2021-09-14T15:14:03.941Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/pomodoro/rule.md",
+		"created": "2021-09-16T17:16:30.024Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-09-16T17:16:30.024Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/ups-send-an-email/rule.md",
+		"created": "2021-09-22T05:41:50.222Z",
+		"createdBy": "Adam Cogan [SSW]",
+		"createdByEmail": "adamcogan@ssw.com.au",
+		"lastUpdated": "2021-09-22T05:41:50.222Z",
+		"lastUpdatedBy": "Adam Cogan [SSW]",
+		"lastUpdatedByEmail": "adamcogan@ssw.com.au"
+	},
+	{
+		"file": "rules/ups-send-email/rule.md",
+		"created": "2021-09-22T05:48:29.445Z",
+		"createdBy": "Adam Cogan [SSW]",
+		"createdByEmail": "adamcogan@ssw.com.au",
+		"lastUpdated": "2021-09-22T05:48:29.445Z",
+		"lastUpdatedBy": "Adam Cogan [SSW]",
+		"lastUpdatedByEmail": "adamcogan@ssw.com.au"
+	},
+	{
+		"file": "rules/mentoring/rule.md",
+		"created": "2021-09-23T00:04:31.286Z",
+		"createdBy": "Josh Bandsma [SSW]",
+		"createdByEmail": "joshbandsma@ssw.com.au",
+		"lastUpdated": "2021-09-23T02:55:46.930Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-know-what-makes-a-good-mentor/rule.md",
+		"created": "2021-09-23T04:22:22.456Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-09-23T04:22:22.456Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/what-is-mentoring/rule.md",
+		"created": "2021-09-23T10:19:09.965Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-09-23T10:19:09.965Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/mentoring-programs/rule.md",
+		"created": "2021-09-23T22:48:13.076Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-09-23T23:23:10.402Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/on-premise-build-server-with-azure-devops/rule.md",
+		"created": "2021-09-27T05:58:07.685Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-27T05:58:07.685Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+	},
+	{
+		"file": "rules/8-steps-to-scrum/8-steps-to-scrum.jpg",
+		"created": "2021-09-27T23:22:58.205Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-09-27T23:31:35.330Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/8-steps-to-scrum/8StepstoScrum.pdf",
+		"created": "2021-09-27T23:22:58.205Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-09-27T23:31:35.331Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/do-you-present-the-user-with-a-nice-error-screen-web-only/error-screen-good.png",
+		"created": "2021-09-28T07:31:29.041Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-29T00:16:24.775Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-present-the-user-with-a-nice-error-screen-web-only/error-screen-bad.png",
+		"created": "2021-09-28T07:31:29.042Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-29T00:16:24.775Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+	},
+	{
+		"file": "rules/do-you-present-the-user-with-a-nice-error-screen/rule.md",
+		"created": "2021-09-29T00:16:24.776Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-29T00:16:24.776Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+  },
+  {
+		"file": "rules/do-you-use-the-best-exception-handling-library/timepro-error.png",
+		"created": "2021-09-28T05:50:00.518Z",
+		"createdBy": "Jake Bayliss",
+		"createdByEmail": "32888060+jakebayliss@users.noreply.github.com",
+		"lastUpdated": "2021-09-29T00:13:46.933Z",
+		"lastUpdatedBy": "Jake Bayliss",
+		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
 	}
 ]

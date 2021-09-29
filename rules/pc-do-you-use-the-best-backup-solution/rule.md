@@ -1,19 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: PC - Do you use the best backup solution?
-guid: e9e20f4f-d5bf-43f6-8adc-6ffa9270fe6e
 uri: pc-do-you-use-the-best-backup-solution
-created: 2018-06-04T01:23:10.0000000Z
 authors:
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
-
+created: 2018-06-04T01:23:10.000Z
+archivedreason: null
+guid: e9e20f4f-d5bf-43f6-8adc-6ffa9270fe6e
 ---
-
-There are many options for personal and business backup solutions on the market:
+There are many options for personal and business backup solutions on the market.
 
 <!--endintro-->
 
@@ -40,5 +38,13 @@ Lots of users use Dropbox because of its easy-to-use interface and amount of sto
 Google Drive is Google's solution to cloud backup and storage and works well. You have quite a lot of space for free, and it works even better if you are already using Google's ecosystem of software and services.
 
 **Size:** 15GB free
+
+### Backblaze + MSP360 (was CloudBerry)
+
+Backblaze offers good prices and reliable cloud backups for servers and personal. For personal, you have unlimited storage (paid per computer) after installing the Backblaze client in your computer - install and you are done! You can trust that your whole computer is backed up.
+
+For servers, MSP360 Backup is the application of choice installed in each server, and Backblaze is the storage provider, managed inside MSP360 Backup. This is the choice for offsite backups in your disaster recovery solution.
+
+**Size:** No free option
 
 All services work very well and you can mix and match, and use them all together if you want to.

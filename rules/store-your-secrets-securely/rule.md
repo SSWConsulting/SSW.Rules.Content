@@ -23,7 +23,9 @@ redirects:
 created: 2016-04-28T19:19:40.000Z
 archivedreason: null
 guid: 57dc15ba-605a-4a71-8b0e-d9f1551b9fc0
+
 ---
+
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few.
 
 These secrets **must not** be stored in source control in plain text – it is insecure by nature, and basically means that it is sitting.
@@ -33,7 +35,6 @@ These secrets **must not** be stored in source control in plain text – it is i
 There are many options for managing secrets in a secure way:
 
 ### Bad Practices
-
 
 ::: greybox
 
@@ -47,9 +48,12 @@ Cons:
 * Passwords are readable by anyone who has either source code or access to source control
 * Difficult to manage production and non-production config settings
 * Developers can read and access the production password
+
+![](BadSettings.png)
+
 :::
 ::: bad
-![Figure: Bad practice - Overall rating: 1/10](BadSettings.png)
+Figure: Bad practice - Overall rating: 1/10
 :::
 
 ::: greybox
@@ -67,10 +71,11 @@ Cons:
 * Difficult to manage production and non-production config settings
 * Developers can easily decrypt and access the production password
 * Manual transmission of the password from the key store to the encrypted config file
-  :::
-  ::: bad
-  Figure: Bad practice - Overall rating: 2/10
-  :::
+
+:::
+::: bad
+Figure: Bad practice - Overall rating: 2/10
+:::
 
 ::: greybox
 
@@ -88,10 +93,11 @@ Cons:
 * Can hit firewall snags with Kerberos and AD ports
 * Vulnerable to DOS attacks related to password lockout policies
 * Has key-person reliance on network admin
-  :::
-  ::: bad
-  Figure: Bad practice - Overall rating: 4/10  
-  :::
+
+:::
+::: bad
+Figure: Bad practice - Overall rating: 4/10  
+:::
 
 ::: greybox
 
@@ -107,10 +113,12 @@ Cons:
 * Easy to accidentally check the external config file into source control
 * Still need DPAPI to protect the external config file
 * No clear way to manage the DevOps process for external config files
-  :::
-  ::: bad
-  Figure: Bad practice - Overall rating: 1/10  
-  :::
+
+:::
+
+::: bad
+Figure: Bad practice - Overall rating: 1/10  
+:::
 
 ### Good Practices
 
@@ -127,10 +135,11 @@ Cons:
 
 * Password reset process is still manual
 * DPAPI still needed
-  :::
-  ::: good
-  Figure: Good practice - Overall rating: 8/10  
-  :::
+
+:::
+::: good
+Figure: Good practice - Overall rating: 8/10  
+:::
 
 ::: greybox
 
@@ -147,10 +156,11 @@ Cons:
 
 * More complex to install and administer
 * DPAPI still needed for config files at rest
-  :::
-  ::: good
-  Figure: Good practice -  Overall rating: 8/10
-  :::
+
+:::
+::: good
+Figure: Good practice -  Overall rating: 8/10
+:::
 
 ::: greybox
 
@@ -187,10 +197,13 @@ Pros:
 Cons:
 
 * Tightly integrated into Azure so if you are running on another provider or on premises, this may be a concern. Authentication into Key Vault now needs to be secured.
+
 :::
 ::: good
 Figure: Good Practice - Overall rating 9/10  
 :::
+
+::: greybox
 
 #### Avoid using secrets with Azure Managed Identities
 
@@ -205,13 +218,15 @@ Pros:
 Cons:
 
 * Only works where Azure AD RBAC is available. NB. There are still some Azure services that don't yet support this. Most do though.
+
+![](GoodSettings.png)
+
 :::
 ::: good
-![Figure: Good Practice - Overall rating 10/10](GoodSettings.png)
+Figure: Good Practice - Overall rating 10/10
 :::
 
-
-#### Resources
+### Resources
 
 The following resources show some concrete examples on how to apply the principles described:
 

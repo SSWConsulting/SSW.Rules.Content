@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules To Better Windows Servers
+title: Rules to Better Windows Servers
 guid: 9fa6fef6-c5d8-4a61-b436-4c8c2106fc2d
 uri: rules-to-better-windows-servers
 index:

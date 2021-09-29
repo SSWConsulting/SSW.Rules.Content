@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have Password Writeback enabled?
-guid: 7b11d493-7025-4f67-94a7-592ad109b1c3
+title: Security - Do you have Password Writeback enabled?
 uri: do-you-have-password-writeback-enabled
-created: 2018-11-13T04:10:57.0000000Z
 authors:
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
-
+created: 2018-11-13T04:10:57.000Z
+archivedreason: null
+guid: 7b11d493-7025-4f67-94a7-592ad109b1c3
 ---
 
 Do you have Password Writeback enabled in your Azure AD Connect?
