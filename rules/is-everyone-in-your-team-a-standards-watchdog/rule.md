@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: General - Standards Watchdog - Do you help everyone to learn the rules?
+title: Mentoring - Standards Watchdog - Do you help everyone to learn the rules?
 guid: e2be574b-e760-46bb-b1f2-9dc2b00ac901
 uri: is-everyone-in-your-team-a-standards-watchdog
 created: 2009-03-10T07:08:39.0000000Z
