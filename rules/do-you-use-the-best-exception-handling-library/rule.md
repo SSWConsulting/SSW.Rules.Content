@@ -5,8 +5,12 @@ uri: do-you-use-the-best-exception-handling-library
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Jake Bayliss
+    url: https://www.ssw.com.au/people/jake-bayliss
 related:
   - do-you-use-the-best-exception-handling-library
 redirects: []
@@ -24,7 +28,7 @@ The best exception handling libraries are:
 * Seq
 * RayGun
 
-Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – there are plenty of great services that help you fall into the pit of success. They show you great dashboards, integrate with your preferred communication tools, allow you to get great telemetry, and help you drill down to the root cause. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs.
+Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – there are plenty of great services that help you fall into the pit of success. They show you great dashboards, integrate with your preferred communication tools, allow you to get great telemetry, and help you drill down to the root cause. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs before clients notice them and call up asking you to fix it. With exception libraries, you should already be on it.
 
 ::: bad
 ![Figure: Bad - If you see this, you are doing something wrong!](default-asp-error-500_small.png)
@@ -40,7 +44,7 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
 
 **Application Insights** will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you’ll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.
 
-Application Insights gives you very useful graphs and analysis which give you a good overview of how things are going. See [here](/rules-to-better-application-insights) for more details.
+Application Insights gives you very useful graphs and analysis which give you a good overview of how things are going. See [here](/rules/rules-to-better-application-insights) for more details.
 
 ::: good
 ![Figure: Good - Application Insights gives you graphs and analysis that help you find issues, but also lets you drill down to get the details as well](overview.png)
@@ -51,7 +55,6 @@ If Application Insights is not available, we use [**Seq**](https://datalust.co/s
 ## Seq
 
 **Seq** is built for modern structured logging with message templates. Rather than waste time and effort trying to extract data from plain-text logs with fragile log parsing, the properties associated with each log event are captured and sent to Seq in a clean JSON format. Message templates are supported natively by ASP.NET Core, Serilog, NLog, and many other libraries, so your application can use the best available diagnostic logging for your platform.
-:::
 
 ::: good
 ![Figure: Good - Seq provides you with plenty of details about what is happening, but if you don't already know what you're looking for, it can be tricky to parse](xn4QHnmBS0Kx39gOv0wM_GettingStarted-1.png)
