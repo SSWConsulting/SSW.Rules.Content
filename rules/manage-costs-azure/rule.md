@@ -35,6 +35,7 @@ For everyone to be on the same page, the process a developer should follow is:
 ::: email-content
 
 ### To SSWSysAdmins,
+
 I would like you to provision a new Azure Resource
 
 1. Azure Resource needed: I would like to create a new App Service Plan 
@@ -47,10 +48,9 @@ For what project?
 5. Project Description (The SysAdmin will copy this info to the Azure Tag):
 6. Project URL eg. Azure DevOps / Github: https://github.com/SSWConsulting/SSW.Rules.Content
 
-Total: A$1,099 per month 
-[screenshot of Azure calculator amount]
+Total: A$411 per month 
 
-Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator
+![Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator](azurecalcexample.jpg)
 
 Please approve
 
