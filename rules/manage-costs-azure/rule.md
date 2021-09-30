@@ -21,6 +21,6 @@ Even with Cost Analysis, Developers with enough permissions (e.g. Contributor pe
 
 For everyone to be on the same page, the process a developer should follow is:
 
-1. Use the Azure calculator - work out the montly resource $ price   https://azure.microsoft.com/en-au/pricing/calculator
-2. Email SysAdmins with $
-   and a request to create in Azure
+1. Use the Azure calculator - work out the monthly resource $ price\
+   https://azure.microsoft.com/en-au/pricing/calculator
+2. Email SysAdmins with $ and a request to create resources in Azure
