@@ -3,6 +3,8 @@ type: rule
 title: Do you use an analytics framework to help manage exceptions?
 uri: do-you-use-an-analytics-framework-to-help-manage-exceptions
 authors:
+  - title: Igor Goldobin
+    url: https://ssw.com.au/people/igor-goldobin
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
