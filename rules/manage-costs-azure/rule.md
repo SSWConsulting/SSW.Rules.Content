@@ -23,4 +23,37 @@ For everyone to be on the same page, the process a developer should follow is:
 
 1. Use the Azure calculator - work out the monthly resource $ price\
    https://azure.microsoft.com/en-au/pricing/calculator
-2. Email SysAdmins with $ and a request to create resources in Azure
+2. Email SysAdmins with $ and a request to create resources in Azure 
+
+::: email-template
+| | | 
+| -------- | --- | 
+| To: | SysAdmins | 
+| Subject: | Purchase Please - Azure Resource Request for xx |
+::: email-content
+
+### To SSWSysAdmins,
+I would like you to provision a new Azure Resource
+
+1. Azure Resource needed: I would like to create a new App Service Plan 
+2. Azure Calculator link: https://azure.com/e/f41a4bdd0d2d4b67b7bcb5939adbc22f
+3. Environment eg. Dev/Staging/Prod: Prod
+
+For what project? 
+
+4. Project Name: A new project called SSW.Northwind 
+5. Project Description (The SysAdmin will copy this info to the Azure Tag):
+6. Project URL eg. Azure DevOps / Github: https://github.com/SSWConsulting/SSW.Rules.Content
+
+Total: A$1,099 per month 
+[screenshot of Azure calculator amount]
+
+Figure: I generated the price from https://azure.microsoft.com/en-au/pricing/calculator
+
+Please approve
+
+David
+
+<As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
+
+:::
