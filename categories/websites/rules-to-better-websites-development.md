@@ -34,6 +34,7 @@ index:
 - remove-the-debug-attribute-in-webconfig-compilation-element
 - run-load-tests-on-your-website
 - use-css-validation-service-to-check-your-css-file
+- do-you-choose-the-best-way-to-send-emails-for-application
 - use-jquery-instead-of-javascript
 - use-link-auditor
 - using-markdown-to-store-your-content
