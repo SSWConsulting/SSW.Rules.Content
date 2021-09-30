@@ -25,7 +25,7 @@ For everyone to be on the same page, the process a developer should follow is:
 
 1. Use the Azure calculator - work out the monthly resource $ price\
    https://azure.microsoft.com/en-au/pricing/calculator
-2. Email SysAdmins with $ and a request to create resources in Azure 
+2. Email SysAdmins with $ and a request to create resources in Azure, like the below: 
 
 ::: email-template
 | | | 
