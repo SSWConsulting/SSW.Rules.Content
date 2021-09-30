@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you sync your files from Teams to File Explorer?
+title: Files - Do you sync your files from Teams to File Explorer?
 uri: sync-files-from-teams-to-file-explorer
 authors:
   - title: Warwick Leahy
