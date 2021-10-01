@@ -71,23 +71,29 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 
 Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are.
 
-**Note:** You can see Ulysses using this rule in practice, along with other best practices, on this short [demonstration video.](http://www.youtube.com/watch?v=LAqRokqq4jI)
+TODO: image
 
 ### Option 1: CodeTwo (Paid)
 
-To be as consistent as possible, going with a third-party signature provider (e.g. CodeTwo, Exclaimer) is the easiest way to have great email signatures, as consistent as possible, to all your employees and all devices, at any time. At SSW we use CodeTwo as our signature provider and the benefits are many:
+The easiest way to implement consistent signatures across a company is to use a 3rd party signature provider e.g. CodeTwo.com and Exclaimer.com\
+This way you quickly get great email signatures, with consistent branding, to all your employees and on all their devices. CodeTwo is cheaper and has a nicer design tool UI than Exclaimer, however they are both good. CodeTwo is built on Microsoft technology.
 
-www.codetwo.com
+CodeTwo (and Exclaimer) give: 
 
-1. Consistent signature for every employee – we value consistency at SSW
-2. Central management location for all signatures
-3. Marketing campaign schedule for all signatures
-4. Automatic signature adding on any device – from laptop to smartphones
-5. Hassle-free setup – Managed centrally, users won’t need to touch any signatures of the signatures. As they are composing an email the relevant signature will be displayed, it can also be changed via the CodeTwo plugin that is on Outlook as well.
+1. Automatic signatures are added on any device – from laptop to smartphones
+2. Consistent signatures for every employee as they all use one template – [consistency is important](https://www.ssw.com.au/rules/do-you-understand-the-value-of-consistency)
+3. Management via a portal
+4. Marketing can run campaigns and schedule changes to all signatures
+5. Hassle-free setup – users do not need to touch any signatures on any devices. 
+
+TODO: image
+
 
 ### Option 2: Set it up manually (Free)
 
-**How to set it up in Outlook**
+**Mobile - How to set it up in the Outlook App**
+
+**PC - How to set it up in Outlook**
 
 1. Open Microsoft Outlook and go File | Options
 2. Click the "Mail" tab as seen below
@@ -95,7 +101,7 @@ www.codetwo.com
 
 ![Figure: How to add a signature in Outlook](outlook2013_signature.jpg)
 
-**How to set it up in OWA**
+**Browser - How to set it up in OWA**
 
 1. Open OWA (e.g. http://mail.northwind.com/owa)
 2. Click "Options" on the top right side. 
@@ -116,4 +122,6 @@ www.codetwo.com
 
 **Warning:** Unfortunately you need to setup up your signature in Outlook and OWA. There is no way to share this.
 
-**SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript.
+**SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript 
+
+Note: This does not setup your signature on OWA or your mobile signature
