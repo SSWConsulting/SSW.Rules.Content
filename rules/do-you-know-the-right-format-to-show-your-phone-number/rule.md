@@ -13,22 +13,22 @@ created: 2015-02-13T02:52:06.000Z
 archivedreason: null
 guid: d672b259-043b-48c3-a650-588d25997b1d
 ---
-
 Every phone number should include the country code (with the + sign) so people in another country can call/text without having to look for the special numbers to go international. Make sure you always set your mobile number in the correct format.
 
 <!--endintro-->
 
-
 ::: bad
-Bad example: (503) 629-4000    (missing international format)   
+Bad example: (503) 629-4000 (missing international format)
 :::
-
 
 ::: good
-OK example: +1 (503) 629-4000  (don't need brackets)  
+OK example: +1 (503) 629-4000 (don't need brackets)
 :::
-
 
 ::: good
-Good example: +1 503 629 4000  (do need spaces)  
+Good example: +1 503 629 4000 (do need spaces)
 :::
+
+
+
+Note: In Australia, mobile numbers are in the format +61 4XX XXX XXX
