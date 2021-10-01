@@ -71,7 +71,7 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 
 Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are.
 
-TODO: image
+![Figure: PC Short Signature Example](capture.png)
 
 ### Option 1: CodeTwo (Paid)
 
@@ -91,6 +91,18 @@ CodeTwo (and Exclaimer) give:
 ### Option 2: Set it up manually (Free)
 
 **Mobile - How to set it up in the Outlook App**
+
+1. Go to Settings on the Outlook application
+
+2. Click on Signature
+
+3. Type your desired signature for mobile
+
+![Figure: Outlook mobile application settings](yo1.png)
+
+
+
+![Figure: Editable mobile signature on Outlook mobile application](yo2.png)
 
 **PC - How to set it up in Outlook**
 
