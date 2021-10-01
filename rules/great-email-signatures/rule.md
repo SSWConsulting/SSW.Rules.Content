@@ -86,8 +86,7 @@ CodeTwo (and Exclaimer) give:
 4. Marketing can run campaigns and schedule changes to all signatures
 5. Hassle-free setup – users do not need to touch any signatures on any devices. 
 
-TODO: image
-
+![Figure: With CodeTwo the correct signature is auto selected](codetwo.png)
 
 ### Option 2: Set it up manually (Free)
 
