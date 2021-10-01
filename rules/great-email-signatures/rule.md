@@ -83,7 +83,7 @@ www.codetwo.com
 2. Central management location for all signatures
 3. Marketing campaign schedule for all signatures
 4. Automatic signature adding on any device – from laptop to smartphones
-5. Hassle-free setup – Managed centrally, users won’t need to touch any signatures CodeTwo also has 2 plugins for you to use: one for previewing the signatures that will be applied, and one for choosing the signatures manually, yourself.
+5. Hassle-free setup – Managed centrally, users won’t need to touch any signatures of the signatures. As they are composing an email the relevant signature will be displayed, it can also be changed via the CodeTwo plugin that is on Outlook as well.
 
 ### Option 2: Set it up manually (Free)
 
