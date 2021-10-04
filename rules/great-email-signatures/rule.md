@@ -103,7 +103,7 @@ CodeTwo (and Exclaimer) give:
 
 ![Figure: Editable mobile signature on Outlook mobile application](outlook-app-settings-2.png)
 
-**PC - How to set it up in Outlook**
+### PC - How to set it up in Outlook
 
 1. Open Microsoft Outlook and go File | Options
 2. Click the "Mail" tab as seen below
@@ -111,7 +111,7 @@ CodeTwo (and Exclaimer) give:
 
 ![Figure: How to add a signature in Outlook](screen-shot-2021-10-01-at-11.20.33-am.png)
 
-**Browser - How to set it up in OWA**
+### Browser - How to set it up in OWA
 
 1. Open OWA (e.g. http://mail.northwind.com/owa)
 2. Click "Options" on the top right side. 
@@ -119,7 +119,7 @@ CodeTwo (and Exclaimer) give:
 
 ![Figure: Add your 'Email Signature' and save](owa-signatures.png)
 
-**How to set it up in Office 365**
+### How to set it up in Office 365
 
 1. Open Outlook in Office 365 ([http://outlook.office.com/mail/inbox](https://outlook.office.com/mail/inbox))
 2. Click the "Settings" cog on the top right corner of the Window
@@ -130,8 +130,11 @@ CodeTwo (and Exclaimer) give:
 4. In the "Settings" window that pops up, go to: Mail | Compose and reply.
 5. Add your email signature and click "Save"
 
+::: info
 **Warning:** Unfortunately you need to setup up your signature in Outlook and OWA. There is no way to share this.
 
 **SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript 
 
-Note: This does not setup your signature on OWA or your mobile signature
+**Note:** This does not setup your signature on OWA or your mobile signature
+
+:::
