@@ -11,6 +11,10 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Rebecca Liu
     url: https://ssw.com.au/people/rebecca-liu
+  - title: Kiki Biancatti
+    url: https://www.ssw.com.au/people/kiki/
+  - url: https://www.ssw.com.au/people/josh-bandsma
+    title: Josh Bandsma
 related:
   - logon-do-you-have-a-company-wide-word-template
   - do-you-know-the-right-format-to-show-your-phone-number
