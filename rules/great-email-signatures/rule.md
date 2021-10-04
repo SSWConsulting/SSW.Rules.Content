@@ -51,7 +51,6 @@ Figure: Bad example - This default signature sucks
 ::: greybox
 Thanks, Adam
 www.ssw.com.au    |   +61 4 1985 1995   |   [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
-
 :::
 ::: good
 Figure: Good example – Add your name, URL and your phone number
@@ -63,7 +62,7 @@ Figure: Good example – Add your name, URL and your phone number
 
 This is created in HTML and goes well on emails with Word used as the email editor. Include some product advertising, like what's new on your monthly newsletter. It should have the company colors.
 
-![Figure: A great long signature for PC](xd.jpg)
+![Figure: A great long signature for PC](ssw-long-signature.png)
 
 However, you shouldn't use your long signature on **every** sent email. It's recommended to have a simpler version for internal emails and appointments:
 
@@ -71,7 +70,7 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 
 Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are.
 
-![Figure: PC Short Signature Example](capture.png)
+![Figure: PC Short Signature Example](ssw-short-signature.png)
 
 ### Option 1: CodeTwo (Paid)
 
@@ -93,16 +92,12 @@ CodeTwo (and Exclaimer) give:
 **Mobile - How to set it up in the Outlook App**
 
 1. Go to Settings on the Outlook application
-
 2. Click on Signature
-
 3. Type your desired signature for mobile
 
-![Figure: Outlook mobile application settings](yo1.png)
+![Figure: Outlook mobile application settings](outlook-app-settings-1.jpg)
 
-
-
-![Figure: Editable mobile signature on Outlook mobile application](yo2.png)
+![Figure: Editable mobile signature on Outlook mobile application](outlook-app-settings-2.png)
 
 **PC - How to set it up in Outlook**
 
@@ -110,7 +105,7 @@ CodeTwo (and Exclaimer) give:
 2. Click the "Mail" tab as seen below
 3. Click on "Signatures..." and add in your signatures
 
-![Figure: How to add a signature in Outlook](outlook2013_signature.jpg)
+![Figure: How to add a signature in Outlook](screen-shot-2021-10-01-at-11.20.33-am.png)
 
 **Browser - How to set it up in OWA**
 
