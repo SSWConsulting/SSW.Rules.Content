@@ -19,7 +19,7 @@ One person, often the Scrum Master, presents a summary to the Product Owner of t
 
 Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible (AKA tick and flick) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
 
-Note: if there are additional stakholders, make sure they are also in the loop and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
+Note: if there are additional stakeholders, make sure they are also in the loop and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
 If a Story is accepted, but more work needs to be done, a new Story to cover this work is added to the Product Backlog.  Similarly, if a bug is found during the review, it is added to the Product Backlog.
 

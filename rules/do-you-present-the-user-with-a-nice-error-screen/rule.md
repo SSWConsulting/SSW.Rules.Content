@@ -7,6 +7,12 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Drew Robson
     url: https://ssw.com.au/people/drew-robson
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Jake Bayliss
+    url: https://www.ssw.com.au/people/jake-bayliss
 related: []
 redirects:
   - do-you-present-the-user-with-a-nice-error-screen-(web-only)
