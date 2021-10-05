@@ -25,8 +25,9 @@ It is also responsible for process flow.
 ```javascript
 public ActionResult Details(decimal todaysWeather)
 {
-var todaysWeatherInFarhenheit = ((9.0 / 5.0) \* todaysWeather) + 32;
-return View(todaysWeatherInFarhenheit); }
+  var todaysWeatherInFarhenheit = ((9.0 / 5.0) \* todaysWeather) + 32;
+  return View(todaysWeatherInFarhenheit); 
+}
 ```
 
 **Figure: Business logic is mixed up within the controller making it fatter than it should be public**
@@ -34,8 +35,8 @@ return View(todaysWeatherInFarhenheit); }
 ```javascript
 ActionResult Index()
 {
-var todaysWeather = weatherDB.Today.ToList();
-return View(todaysWeather);
+  var todaysWeather = weatherDB.Today.ToList();
+  return View(todaysWeather);
 } 
 ```
 
@@ -44,10 +45,10 @@ return View(todaysWeather);
 ```javascript
 public ActionResult Details(int? id)
 {
-if (!id.HasValue)
-return RedirectToAction("Index");
+  if (!id.HasValue)
+    return RedirectToAction("Index");
 
-return View();
+  return View();
 } 
 ```
 
@@ -60,20 +61,20 @@ The only logic you should have in the view is in relation to the displaying of d
 
 The view should never go out and get information from somewhere else.
 
-```
+```razor
 @{ var theMonth = DateTime.Now.Month; }
 <p>The numeric value of the current month: @theMonth</p>;
 
 @{
-var outsidetempinfahrenheit = ((9.0 / 5.0) \* model.outsideTemp) + 32;
-var weatherMessage = "Hello, it is " + outsidetempinfahrenheit + " 
-degrees.";
+  var outsidetempinfahrenheit = ((9.0 / 5.0) \* model.outsideTemp) + 32;
+  var weatherMessage = "Hello, it is " + outsidetempinfahrenheit + " 
+  degrees.";
 }
 <p>Today's weather: @weatherMessage</p>; Figure: Business logic is mixed in with the view @{ var theMonth = DateTime.Now.Month; }
 <p>The numeric value of the current month: @theMonth</p>;
 
 @{
-var weatherMessage = "Hello, it is " + model.outsideTemp + " degrees.";
+  var weatherMessage = "Hello, it is " + model.outsideTemp + " degrees.";
 }
 <p>Today's weather: @weatherMessage</p>
 ```
