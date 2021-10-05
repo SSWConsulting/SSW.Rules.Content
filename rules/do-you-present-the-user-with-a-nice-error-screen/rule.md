@@ -5,6 +5,8 @@ uri: do-you-present-the-user-with-a-nice-error-screen
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Drew Robson
+    url: https://ssw.com.au/people/drew-robson
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
@@ -43,7 +45,7 @@ However, as a developer you still want to be able to view the detail of the exce
 To set up exceptions in your local development environment you need to configure the Developer Exception Page middleware in the request processing pipeline.
 Unless you have modified the default template, it should work out of the box. Here are the important lines:
 
-```
+```cs
 public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
     if (env.IsDevelopment())
