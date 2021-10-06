@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you take better profile photos?
+title: Do you take great profile photos?
 uri: profile-photos
 authors:
   - title: Landon Maxwell
@@ -12,7 +12,7 @@ Your employees are the face of the company, so having profile photos that are co
 
 ### Camera Settings
 
-Profile photos are used to provide a human connection element, so it is best to have a photo that is as close to real life as possible.
+Profile photos are used to provide a human connection element, so it is best to have a photo that is as close to real life as possible. 
 
 1. Focal Length: **35mm – 50mm lens** (full frame equivalent)
    As per [The Camera Versus the Human Eye](https://petapixel.com/2012/11/17/the-camera-versus-the-human-eye/), the closest focal length to a human eye is 43mm, so profile photos in the above range will look the most realistic.
