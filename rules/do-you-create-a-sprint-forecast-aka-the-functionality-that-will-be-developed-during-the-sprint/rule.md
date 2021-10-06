@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
+title: Do you create a Sprint Forecast? (aka The functionality that will be
+  developed during the Sprint)
 uri: do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 authors:
   - title: Adam Cogan
@@ -74,7 +75,7 @@ Figure: Good Example - copy this as email template and send to Product Owner
 
 More instructions are as below:
 
-1. Go to Azure DevOps and navigate to the current sprint's backlog view. E.g. `https://dev.azure.com/Northwind/ProjectName/\_sprints/backlog/Northwind/ProjectName/Sprint%201`
+1. Go to Azure DevOps and navigate to the current sprint's backlog view. E.g. https://dev.azure.com/ssw/Northwind/_sprints/backlog/Northwind%20Team/Northwind/Sprint%201
 2. Paste to the Forecast email, and format the table:
 
    * Remove any useless columns!
