@@ -32,9 +32,14 @@ Full email signatures are great when they have:
 * A little  **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
 * Your  **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [Do you know the right format to show phone numbers?](/do-you-know-the-right-format-to-show-your-phone-number))
 * Your company  **website link** (e.g. www.ssw.com.au/)
-* Your work-related  **social media** and  **blog** link
+* Your **social media** and **blog** link
+* Your **IM** link (E.g. [Teams](https://www.msoutlook.info/question/teams-chat-link-in-email-signature) or [Facebook Messenger](https://medium.com/@michael_at_message/getting-a-facebook-messenger-link-and-messenger-code-dc27ee70a172))
 * Your **position**
-* Your  **location** (city/country) where you are based
+* Your **location** (city/country) where you are based
+
+::: info
+**Note:** You [can't add hyperlinks to signatures if you are using the Outlook App](https://outlook.uservoice.com/forums/293349-outlook-for-ios/suggestions/8632618-html-signatures) – what a shame.
+:::
 
 Mobile signature are not easily customized so they can be simpler.
 
