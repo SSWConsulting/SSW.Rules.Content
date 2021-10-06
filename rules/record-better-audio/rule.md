@@ -92,6 +92,8 @@ So that your final video has the best sound quality:
 2. Record the audio locally (e.g. you can use Windows' Voice Recorder app)
 ![Figure: Voice Recorder, Window’s default audio recording app](https://www.partitionwizard.com/images/uploads/articles/2019/10/record-sound-using-voice-recorder/record-sound-using-voice-recorder-thumbnail.jpg)
 
+3. To access the recording, you can right-click on the file in Voice Recorder and select "Open file location". The default location for Voice Recorder files is in your user Documents folder, e.g. C:\Users\YourAccount\Documents\Sound recordings
+
 This higher quality audio should be used in post-production eg. When editing in Adobe Premiere Pro.
 
 `youtube: https://www.youtube.com/embed/yfbKXqRAgOA`
