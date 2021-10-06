@@ -15,12 +15,25 @@ One great method is to start your video with a tiny snippet that will 'tease' th
 The Golden Moment is a clip at the start of your video (e.g. before any titles or introductions) that will interest and excite viewers, while also giving them an idea of the video's main content.
 As this clip is the first thing an audience will see, it is important to get it right to make a good impression. 
 
-To be a Golden Moment, your clip must be:
+### Golden Moment Essentials:
 * Short - 25 seconds max.
 * Concise - to the point with no no waffling or run-on statements.
 * Mistake-free - errors in the start look unprofessional and turn people away.
-* Representing the video - it will set the audience's expectation for what the rest of the video will be about.
+* Represent the whole video - it sets the audience's expectation for what the rest of the video will be about, and why they should be interested.
 * High Energy - it will set the tone for the rest of the video, so start with a bang!
 
-### Discovering your Golden Moment
-There are two ways to get a golden moment
+`youtube: https://www.youtube.com/embed/ang3jKb3DFU`
+
+**Figure: Good Example of a Golden Moment in the Mentoring video with Ulysses MacLaren and Adam Cogan.**
+
+### Panning for gold
+As the name would suggest, finding moments that happen organically in the video can be challenging, and it can take some time to uncover the perfect clip.
+Some videos won't have anything suitable, and in this case it is better to have no moment than to have a poor Golden Moment.
+The best way to ensure there is always a Golden Moment is to plan for it.
+
+### Creating your moment
+When recording your video, a little bit of forward thinking will go a long way. 
+Make sure you include a sentence that covers all of the Golden Moment Essentials listed above.
+
+It is best if you can incorporate it into your main content, but if your main content doesn't have anything suitable then your Golden Moment can be recorded afterwards. In this situation, try to replicate the initial recording conditions so it matches the rest of your video (e.g. same lighting, clothing, position and background).
+
