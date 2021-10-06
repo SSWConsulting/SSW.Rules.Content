@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you do automated UI testing?
-uri: automated-UI-testing
+uri: automated-ui-testing
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
