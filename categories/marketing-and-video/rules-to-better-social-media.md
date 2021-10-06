@@ -38,6 +38,7 @@ index:
 - do-you-know-to-thank-others-for-each-reference-to-you
 - tweet-rules-you-follow
 - avoid-dates-text-in-graphics-for-events
+- profile-photos
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments
