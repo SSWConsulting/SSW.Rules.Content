@@ -23,7 +23,7 @@ Playwright has a few advantages over Selenium:
 * [Actionability](https://playwright.dev/docs/actionability/)
 * Performance
 * Stability
-* Switching browser contexts for parallel testing
+* [Switching browser contexts for parallel testing](https://playwright.dev/docs/multi-pages/)
 
 
 ```JavaScript
@@ -54,7 +54,7 @@ windows.forEach(async handle => {
 await driver.wait(until.titleIs('Selenium documentation'), 10000);
 ```
 ::: bad  
-Figure: Bad Example - Selenium only lets you have one windows focused at a time making it hard to design test cases.
+Figure: Bad Example - Selenium only lets you have one window focused at a time making it hard to design test cases.
 :::
 
 
@@ -71,5 +71,5 @@ const adminContext = await browser.newContext();
 // Create pages and interact with contexts independently
 ```
 ::: good
-Figure: Good Example - Playwright makes it easy to spin up independent browser contexts
+Figure: Good Example - Playwright makes it easy to spin up independent browser contexts for parallel testing
 :::
