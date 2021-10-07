@@ -5,16 +5,16 @@ uri: automated-ui-testing
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
-  - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Jake Bayliss
     url: https://www.ssw.com.au/people/jake-bayliss
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - bdd
 created: 2021-10-06T05:04:07.186Z
 guid: ca225c48-cf34-42c0-b125-3155dfef3398
 ---
-
+h
 Automated UI testing (aka end-to-end testing) is an awesome way to automate the process of browser based testing.
 
 <!--endintro-->
