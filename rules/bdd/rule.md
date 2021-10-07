@@ -38,7 +38,8 @@ Scenario: Participant sees a greeting message
 
 
 Once you have your scenarios lined up, you should begin to write the test steps for each scenario.
-```
+
+```cs
 [Given(@"I visit the website")]
 public async Task VisitTheWebsite()
 {
