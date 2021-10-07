@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Jake Bayliss
+    url: https://www.ssw.com.au/people/jake-bayliss
 related:
   - bdd
 created: 2021-10-06T05:04:07.186Z
