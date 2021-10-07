@@ -18,9 +18,11 @@ In the old days, reading and understanding test cases was something only develop
 
 <!--endintro-->
 
-Using gherkin syntax you can write test scenarios in plain text using a few key words (Given, When, Then). Plain text makes the test scenarios easy to understand and visualise from a user perspective, even for non-technical team members.
+Using [Gherkin syntax](https://specflow.org/learn/gherkin/) and a BDD framework like [SpecFlow](https://specflow.org/) you can write test scenarios in plain language using a few key words (Given, When, Then). Plain language makes the test scenarios easy to understand, even for non-technical team members.
 
-First think about the different scenarios that you want to test, then write them out in plain text using gherkin syntax.
+
+
+First think about the different scenarios that you want to test, then write them out in plain language using gherkin syntax.
 
 ```
 Feature: Greeting Message
@@ -32,6 +34,8 @@ Scenario: Participant sees a greeting message
 	Then I see the greeting message
 ```
 **Figure: Good example - Gherkin syntax scenarios (Given, When, Then)**
+
+
 
 Once you have your scenarios lined up, you should begin to write the test steps for each scenario.
 ```
