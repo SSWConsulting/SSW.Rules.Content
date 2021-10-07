@@ -34,6 +34,7 @@ index:
 - post-production-do-you-use-a-version-number-on-your-videos
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
+- golden-moment
 - add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
