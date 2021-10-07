@@ -14,7 +14,6 @@ related:
 created: 2021-10-06T05:04:07.186Z
 guid: ca225c48-cf34-42c0-b125-3155dfef3398
 ---
-h
 Automated UI testing (aka end-to-end testing) is an awesome way to automate the process of browser based testing.
 
 <!--endintro-->
@@ -78,3 +77,8 @@ const adminContext = await browser.newContext();
 ::: good
 Figure: Good Example - Playwright makes it easy to spin up independent browser contexts for parallel testing
 :::
+
+### Playwright codegen
+Playwright offers a [super cool feature](https://playwright.dev/docs/cli/#generate-code) that lets developers record actions in the browser to automatically generate the code for tests.
+
+`youtube: https://www.youtube.com/watch?v=KccXW4t5X-k `
