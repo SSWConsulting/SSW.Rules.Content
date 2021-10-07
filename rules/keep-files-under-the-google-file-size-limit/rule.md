@@ -8,13 +8,15 @@ created: 2015-11-10T19:57:28.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
+- title: Camilla Rosa Silva
+  url: https://ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
 - do-you-keep-your-files-under-the-google-file-size-limit
 
 ---
-
-As per Google  [Specifications](https&#58;//support.google.com/gsa/answer/4411411#settings):
 
 A maximum file size may be enforced per crawler. Content which is after the maximum file size may be ignored. Google currently enforces a size limit of 500kb.
 
@@ -25,7 +27,6 @@ Regarding other files:
 * All files larger than 30MB will be completely ignored.
 * HTML, the search appliance indexes up to 2.5MB of the document, caches it, and discards the rest.
 * A non-HTML format, the search appliance:
-
 
 1. Downloads the non-HTML file.
 2. Converts the non-HTML file to HTML.

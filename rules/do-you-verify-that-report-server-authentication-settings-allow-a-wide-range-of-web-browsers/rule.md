@@ -27,21 +27,22 @@ You should make a backup of the configuration before editing it so you can rollb
 
 We normally change the AuthenticationTypes node from:
 
-::: greybox
-&lt;AuthenticationTypes&gt;   
-  &lt;RSWindowsNegotiate /&gt;   
-&lt;/AuthenticationTypes&gt;   
-:::
+```
+<AuthenticationTypes>
+  <RSWindowsNegotiate /> 
+</AuthenticationTypes> 
+```
 
 to:   
-::: greybox 
-&lt;AuthenticationTypes&gt;  
-  &lt;RSWindowsNegotiate /&gt;   
-  &lt;RSWindowsKerberos /&gt;    
-  &lt;RSWindowsNTLM /&gt;    
-&lt;/AuthenticationTypes&gt;   
-:::
+
+```
+<AuthenticationTypes>
+  <RSWindowsNegotiate /> 
+  <RSWindowsKerberos /> 
+  <RSWindowsNTLM /> 
+</AuthenticationTypes> 
+```
 
 Check out the different [Authentication Types in the Report Server documentation](https://docs.microsoft.com/en-us/previous-versions/sql/sql-server-2008-r2/cc281310(v=sql.105)?redirectedfrom=MSDN) and select the types that suit your needs.
 
-More details on configuring windows authentication on the report server can be found here [Configure Windows Authentication on the Report Server](https://docs.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
+More details on configuring Windows authentication on the report server can be found here: [Configure Windows Authentication on the Report Server](https://docs.microsoft.com/en-us/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).

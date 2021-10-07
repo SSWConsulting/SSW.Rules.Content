@@ -18,7 +18,7 @@ redirects:
 
 ---
 
-When joining a new team, it's easy to be lost and not know when the important meetings are (like the Daily Scrum, or the next Sprint Review). If you  [run the meetings from Microsoft Teams](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=91a6a999-29d4-4903-8b7a-16fddd976d65) you can make them easy to find!
+When joining a new team, it's easy to be lost and not know when the important meetings are (like the Daily Scrum, or the next Sprint Review). Broadly, use Teams as the appointment source (rather than Outlook) then the benefit is that you can have a tab where you see it in the context of the team. Then, when a new member joins a Team they do not have to go looking for the appointment, and can easily join the call.
 
 <!--endintro-->
 
@@ -48,35 +48,17 @@ When joining a new team, it's easy to be lost and not know when the important me
 
 ![Figure: Adding a tab to a Team is an indispensable skill](team meeting - add sharepoint tab.gif)  
 
-9. All done 😀
+9. All done, now all you need to do is setup some meetings for the channel (see rule: [Do you know how to create recurring teams meetings for a channel?](https://www.ssw.com.au/rules/create-recurring-teams-meetings-for-a-channel))! 😀
 
-
-<font color="#333333">
-</font>
-
-<font color="#333333">🔥 Make sure you pick "SharePoint" tab (as opposed to "Website" tab) for best possible integration:</font>
-
-<font color="#333333">
-</font>
-![](Bad One.jpg)
-
+ Make sure you pick "SharePoint" tab (as opposed to "Website" tab) for best possible integration:
 
 ::: bad
-Figure: Bad Example - using the Website tab  
+![Figure: Bad Example - using the Website tab](Bad One.jpg) 
 :::
-
-<font color="#333333">
-</font>
-![](Good One.jpg)
-
 
 ::: good
-Figure: Good Example - using the SharePoint tab
-
+![Figure: Good Example - using the SharePoint tab](Good One.jpg) 
 :::
-
-<font color="#333333">
-</font>
 
 **Suggestion to Microsoft:** [This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te)
 

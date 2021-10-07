@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Ulysses Maclaren
   url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+ - feedback-avoid-chopping-down-every-example
 redirects:
 - do-you-know-how-to-take-feedback-criticism-(even-if-it’s-not-your-fault)
 - communication-do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault
@@ -48,4 +49,8 @@ https://www.americanexpress.com/en-us/business/trends-and-insights/articles/the-
 
 ![Figure: Make sure you know how to take criticism well](dilbert-criticism-1.gif)  
 
-![Figure: Active listening can help with communication issues](Defensive behaviour.png)
+![Figure: Active listening can help with communication issues](Defensive-behaviour.png)
+
+### Video 
+
+`youtube: https://youtu.be/7wlUSq73Ejo`

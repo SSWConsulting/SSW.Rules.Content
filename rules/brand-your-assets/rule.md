@@ -18,9 +18,6 @@ redirects:
 
 You should take every chance you get to put your logo on things. 
 
-
-
-
 <!--endintro-->
 
 Branding your assets is one more thing that you can do to spread your brand to the world. For example, if you provide your team with laptops, it's nice to have those laptops branded with your business logo, so they can be seen when they visit a client.
@@ -28,5 +25,5 @@ Branding your assets is one more thing that you can do to spread your brand to t
 Basically, you can have that on any asset owned by your business. Items like monitors, laptops and computers branded with a sticker with your logo are all opportunities for more branding.
 
 For items like laptops, it can also be a good idea to tape your business card below the sticker so it can be returned to you if you lose it.
- **![MicrosoftTeams-image (7).png](MicrosoftTeams-image (7).png)Figure: Sticker proving that you should take every chance to show off your brand
-**
+
+![Figure: Sticker proving that you should take every chance to show off your brand](asset-branding.png)

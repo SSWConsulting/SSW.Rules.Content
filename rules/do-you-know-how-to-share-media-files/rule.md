@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Redundant https://my.sugarlearning.com/SSW/items/13879/design-shared-folders
 title: Do you know how to share media files?
 guid: c44339bd-9159-4b44-8495-a92a42ed763c
 uri: do-you-know-how-to-share-media-files

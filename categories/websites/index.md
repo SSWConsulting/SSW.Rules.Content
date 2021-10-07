@@ -23,7 +23,6 @@ index:
 - rules-to-better-websites-writing-rules
 - rules-to-better-google-analytics-reports
 - rules-to-better-newsletters
-- rules-to-better-youtube
 
 ---
 

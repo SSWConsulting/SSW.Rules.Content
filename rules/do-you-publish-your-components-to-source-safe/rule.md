@@ -28,7 +28,7 @@ As the component developer, there are four steps:
 1. In Visual Studio.NET, Switch to release build
 ![Build Release](build_release.jpg) Figure: Switch to release configuration
 2. In your project properties, make sure the release configuration goes to the bin\Release? folder. While you are here, also make sure XML docs are generated. Use the same name as your dll but change the extension to .xml (eg. for SSW.Framework.Configuration.dll -&gt; add SSW.Framework.Configuration.xml)
-![Build Project Property](build_projectproperty_small.jpg) Figure: Project properties    Note: The following examples are considered being used for C#. Visual Basic, by default, does not have \bin\Release and \bin\Debug which which means that the debug and release builds will overwrite each other unless the default settings are changed to match C# (recommended). VB does not support XML comments either, please wait for the next release of Visual Studio (Whidbey).
+![Build Project Property](build_projectproperty_small.jpg) Figure: Project properties    Note: The following examples are considered being used for C#. Visual Basic, by default, does not have \bin\Release and \bin\Debug which means that the debug and release builds will overwrite each other unless the default settings are changed to match C# (recommended). VB does not support XML comments either, please wait for the next release of Visual Studio (Whidbey).
 ![Change to C#](changetocsharp.jpg) Figure: Force change to match C#
 3. If this is the first time, include/check-in the release directory into your SourceSafe
 ![Build Include](build_include.jpg) Figure: Include the bin\Release directory into source safe

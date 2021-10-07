@@ -6,8 +6,9 @@ uri: rules-to-better-scrum-using-azure-devops
 index:
 - getting-started-have-you-read-the-scrum-guide
 - do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
-- do-you-know-the-8-steps-to-scrum
+- 8-steps-to-scrum
 - scrum-master-do-you-schedule-the-3-meetings
+- how-to-create-a-sprint-backlog
 - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 - do-you-know-what-happens-at-a-sprint-planning-meeting
 - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
@@ -19,6 +20,7 @@ index:
 - do-you-know-the-how-to-be-a-good-product-owner
 - build-the-backlog
 - product-owner-do-you-know-how-to-update-the-backlog
+- create-PBIs-under-2-days
 - estimating-do-you-break-large-tasks-into-smaller-tasks
 - estimating-do-you-know-how-to-size-user-stories-effectively
 - meeting-do-you-update-your-tasks-before-the-daily-scrum
@@ -72,13 +74,10 @@ index:
 - do-you-add-a-version-number-to-pbis-that-have-multiple-iterations
 - do-you-have-a-preflight-checklist
 - do-you-know-that-gated-checkins-mask-dysfunction
+- printed-story-cards
+- get-work-items-via-excel
+- linking-work-items
+- when-to-create-team-project-and-azure-devops-portal
+- how-to-create-project-portal
 
 ---
-If you still need help, [visit our Scrum consulting page](https://www.ssw.com.au/ssw/Consulting/Scrum.aspx) and book in a consultant.
-
-SSW's Rules to Better [Scrum](http://www.ssw.com.au/ssw/Consulting/Scrum.aspx) allows businesses to address their most important challenges first and respond quickly to change. Our rules advocate software consultants working on-site, or on the phone, so long as there is close consultation with business users, with the goal to become integrated members of the client's team.
-
-> Software must help a business become more efficient and build better relationships with their clients. Business need software to be produced cost-effectively and quickly. Simple steps upfront stop software being slow to build and difficult to change. 
->         - Adam Cogan, SSW Chief Architect
- 
-![Figure: Classic stories of Project Management](ProjectManagementSummary_Small.jpg)

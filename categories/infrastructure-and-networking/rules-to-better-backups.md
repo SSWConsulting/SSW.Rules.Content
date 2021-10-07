@@ -6,8 +6,11 @@ uri: rules-to-better-backups
 index:
 - pc-do-you-use-the-best-backup-solution
 - pc-do-you-organize-your-hard-disk
+- structure-and-back-up-your-files
 - know-the-right-notification-for-backups
+- have-your-files-available-offline
 
 ---
+
 If you still need help, [visit our Backup consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Backup-Recovery.aspx) and book in a consultant.
 

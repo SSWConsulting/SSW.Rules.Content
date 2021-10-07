@@ -1,7 +1,7 @@
 ---
 type: rule
-archivedreason: flagged as out of date...so archive it.
-title: zzDo you carry your USB flash drive on your key ring?
+archivedreason: flagged as out of date.
+title: Do you carry your USB flash drive on your key ring?
 guid: d54243d3-69d8-4102-9971-7dabdd24b811
 uri: do-you-carry-your-usb-flash-drive-on-your-key-ring
 created: 2012-09-25T18:00:49.0000000Z

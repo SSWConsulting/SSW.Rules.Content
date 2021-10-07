@@ -18,7 +18,7 @@ index:
 - searching-do-you-know-how-to-be-a-great-googler
 - searching-can-you-instantly-find-any-file-on-your-computer-or-network
 - management-do-you-always-inform-your-client-how-long-a-task-took
-- management-do-you-use-xp-scrum-wisely
+- 8-steps-to-scrum
 - methodology-daily-scrums
 - do-you-allow-users-to-check-for-a-new-version-easily
 - do-you-keep-the-best-possible-bug-database

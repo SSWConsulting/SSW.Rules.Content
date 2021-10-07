@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you know what guidelines to follow for WP?
 guid: 7b089051-b147-4e76-9cb2-b5166a62438b
 uri: do-you-know-what-guidelines-to-follow-for-wp

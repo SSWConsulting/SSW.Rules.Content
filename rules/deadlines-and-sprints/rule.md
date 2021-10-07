@@ -1,31 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Management - Do you enforce deadlines, have a Sprint Plan, Review and Retro?
-guid: dd3bc973-edcf-4f75-9901-11712a9b742c
 uri: deadlines-and-sprints
-created: 2009-02-20T01:23:55.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- management-do-you-enforce-deadlines-have-a-sprint-plan-a-review-retro-and-a-mark-10
-- management-do-you-enforce-deadlines-have-a-project-release-plan-a-debrief-and-a-mark-10
-
+  - management-do-you-enforce-deadlines-have-a-sprint-plan-a-review-retro-and-a-mark-10
+  - management-do-you-enforce-deadlines-have-a-project-release-plan-a-debrief-and-a-mark-10
+created: 2009-02-20T01:23:55.000Z
+archivedreason: null
+guid: dd3bc973-edcf-4f75-9901-11712a9b742c
 ---
+If you still need help, [visit our Scrum consulting page](https://www.ssw.com.au/ssw/Consulting/Scrum.aspx) and book in a consultant.
 
-Developers love doing things in their own time, investigating interesting things they find on the web, and therefore they're generally easily distracted. If they don't have a Sprint Board constantly in front of them, they'll never deliver on time! For every project you must have 3 essential things:  
+SSW's [Rules to Better Scrum using Azure DevOps](https://www.ssw.com.au/rules/rules-to-better-scrum-using-azure-devops) allows businesses to address their most important challenges first and respond quickly to change. Our rules advocate software consultants working on-site, or on the phone, so long as there is close consultation with business users, with the goal to become integrated members of the client's team.
 
 <!--endintro-->
 
-1. Enforce Deadlines - Every week the developers have a Sprint Review/Retro meeting with the client to discuss the status of project
-2. Have a Sprint Board with all their current PBIs (Product Backlog Items)
+> Software must help a business become more efficient and build better relationships with their clients. Business need software to be produced cost-effectively and quickly. Simple steps upfront stop software being slow to build and difficult to change. 
+>         - Adam Cogan, SSW Chief Architect
 
-In respect of the review and retro, when things have gone off the rails, it is easy to speak your mind and say what you believe went wrong. Often, when things are going right, the tendency is to skip the debriefing with a comment; 'All is good'.
-
-A better idea is to figure out: 'Why are things not going right?' ,and work out how you can repeat it. For example, if your client calls and says, "We think Dan has shown very professional conduct and has delivered a high-quality solution", you should look at how the project was run. 
-
-Was the solution high-quality because your developer is a faster coder, or good at following your coding standards? Or was his professional conduct due to lots of customer interaction and polite and clear communication?
-
-Of course, if in your retrospective, you find that the client is unhappy due to bad conduct, scope creep, or poor quality code, you need to check that your standards are being followed to ensure a positive experience in the next debriefing.
+![Figure: Classic stories of Project Management](projectmanagementsummary_small.jpg)

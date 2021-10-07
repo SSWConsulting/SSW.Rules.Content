@@ -1,34 +1,36 @@
 ---
 type: rule
-archivedreason: 
 title: Production - Do you know how to record live video interviews on location?
-guid: 20ba212f-4b83-4be8-9051-07e6c54b9a30
 uri: production-do-you-know-how-to-record-live-video-interviews-on-location
-created: 2011-08-30T18:02:28.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2011-08-30T18:02:28.000Z
+archivedreason: null
+guid: 20ba212f-4b83-4be8-9051-07e6c54b9a30
 ---
 
 Recording live video interviews on location can be difficult. The key to success is to make the process as simple as possible, so you continue to record and release interviews.
 
 <!--endintro-->
+As there may be many variables during a shoot on location, you need to be able to keep track of multiple things during the interview.
+The most important things to focus on are:
+* Audio
+   * Is each microphone coming through clearly
+   * Are there any sounds that would make it hard to hear the interview (e.g. passing trucks, air conditioning on, machinery)
+* Lighting
+   * Are your subjects bright enough to see clearly
+   * Are there any harsh or awkward shadows blocking their face or body?
+* Framing
+   * Can you see everything you need to?
 
-A good example of an effective but easy to record interview is:
+If any of these are not right, you will probably need to record again!
 
 
+### Tips to simplify the process:
 
-
-
-
-
-
-
-Here are a few tips to simplify the process:
-
-1. The interviewer should hold the camera and interview the subject at the same time
-2. Keep a tight frame. Don’t have lots of empty space around the subject
+1. The interviewer should hold the camera and interview the subject at the same time.
+2. Keep a tight frame - don’t have lots of empty space around the subject.
 3. Use the rule of thirds. See:
 
 

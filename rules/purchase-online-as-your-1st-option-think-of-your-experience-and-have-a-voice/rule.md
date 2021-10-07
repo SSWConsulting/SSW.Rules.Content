@@ -21,18 +21,10 @@ We want a world of great user interfaces so when purchasing online cast a critic
 More info on Customer Experience on Adam's blog: [From UX to CX – Improving the Customer Experience](https&#58;//adamcogan.com/2017/11/08/from-ux-to-cx-improving-the-customer-experience/).
 
 
+`oembed: https://twitter.com/PennyWalker_SSW/status/1269844555496452096`
+**Figure: Positive shopping tweet** 
 
+The above was also [posted on Facebook](https://www.facebook.com/520570705/posts/10157004426655706/).
 
-
-
- **Figure: Positive shopping tweet** 
-
-
-
-
-
-
-
- **Figure: Negative shopping tweet
-
-**
+`oembed: https://twitter.com/icculus/status/650160108685631488`
+**Figure: Negative shopping tweet**

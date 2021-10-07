@@ -48,7 +48,7 @@ The Product Owner is responsible for owning the Product Backlog. See the video o
 ![Figure: Good Example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog.png)  
 :::
 
-**What's next? **
+**What's next?**
 
 * [Discuss the backlog](/discuss-the-backlog)
 * [What to do when it's done?](/dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug)

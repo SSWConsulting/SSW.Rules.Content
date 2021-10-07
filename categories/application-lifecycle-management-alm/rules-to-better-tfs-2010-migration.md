@@ -23,9 +23,8 @@ Since 1990, SSW has supported the developer community by publishing all our best
 
 If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
 
-**Update: TFS 2010 has been replaced by TFS 2012 - if you're moving to TFS 2012, see our [Rules to Better TFS 2012 Migration](/rules/rules-to-better-tfs-2012-migration).**
+**Update: TFS 2010 has been replaced by TFS 2012 - if you're moving to TFS 2012, see our [Rules to Better TFS 2012 Migration](/rules-to-better-tfs-2012-migration).**
 
 Upgrading Team Foundation Server can be a daunting task. Be assured that things have become easier and if you follow this guide, it will minimize your downtime.
 
 In this page we will look at upgrading an existing TFS2008 server to TFS2010. We assume you are using a single server configuration and have a DNS entry setup for external access at tfs.yourdomain.com.
-

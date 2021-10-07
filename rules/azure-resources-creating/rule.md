@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-We’ve been down this road before where developers had to be taught [not to manually create databases and tables](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=a4ca7d22-069a-4727-b54a-a1cf1d5a5ef4). Now, in the cloud world, we’re saying the same thing again. **Don’t manually create your Azure resources.**
+We’ve been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we’re saying the same thing again. **Don’t manually create your Azure resources.**
 
 <!--endintro-->
 

@@ -18,6 +18,8 @@ authors:
   url: https://ssw.com.au/people/adam-stephensen
 - title: Matt Goldman
   url: https://ssw.com.au/people/matt-goldman
+- title: Piers Sinclair
+  url: https://ssw.com.au/people/piers-sinclair
 related:
 - reference-do-you-use-the-correct-symbols-when-documenting-instructions
 - reference-do-you-use-the-right-order-of-instructions
@@ -80,56 +82,60 @@ There may be exceptions – some situations benefit from this kind of documentat
 
 
 
-### Good example – The 7 Important Documents
+### Good example – The 8 Important Documents
 
 
 This style of documentation is used by modern teams who are Agile only.
 
-
-There are 7 crucial documents for your project:
-
-
-
 **In the repository (for developers):**
 
-**1. README.md** – Explains the overview of the project and provides links to the rest of the documentation.
+**1. README.md** – Explains the overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
 
-**2. docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
+**2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (AKA the F5 experience).
 
-**3. docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
+**3. _docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
+
+**4. _docs\Business.md** – explains the purpose of the application, including the problem, goals, and statement of intent.
+
+**5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
+* A link to an [architecture diagram](https://www.ssw.com.au/rules/architecture-diagram) which outlines a high-level overview of the project. 
+* Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](https://www.ssw.com.au/rules/azure-resources-diagram)
+* Coding patterns followed (e.g. [Clean Architecture](https://rules.ssw.com.au/rules-to-better-clean-architecture))
+* 3rd party libraries used 
+* 3rd party services used 
+
+**6. _docs\Alterative-Solutions-Considered.md** – explains other options that were discounted. For example
+  * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
+  * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
+  * We chose to use Azure over on-premises to avoid procurement of costly servers.
+  * Note: If you decide that after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
+
+**7. _docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
+
+**8. _docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
 It also means that when a developer makes a change to the code that needs an update to the documentation, the documentation changes can be checked in along with the code in the same commit.
 
 
+**Exposing documentation through a Wiki (for developers and other stakeholders):**
 
-**In the Wiki (for developers and other stakeholders):**
+Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. The Wiki should be sourced from the repo **docs\\** folder to ensure documentation is kept up-to-date. There are several options for creating a Wiki:
 
+Azure DevOps wiki options:
+* [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
+* [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
+* An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
-::: greybox
- **Note:** When using a GitHub Wiki, it’s a separate repository. When using an Azure DevOps Wiki, it’s in the same repository.  
-:::
+GitHub wiki options:
+* [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
+* The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+* An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
-**4. Wiki\Business** – explains the purpose of the application, including the problem, goals, and statement of intent.
+**Tip** : You can publish your documentation from the repo using [GitHub Pages](https://pages.github.com/)
 
-**5. Wiki\Technologies-and-Architecture** – Provides a technical overview of the solution, including any 3rd party libraries or utilities, patterns followed (e.g.        [https://rules.ssw.com.au/rules-to-better-clean-architecture](/rules-to-better-clean-architecture)), architecture decisions, etc. This document should cover software architecture and cloud architecture (or on-premises if you’re a dinosaur 🦕), and should \*always\* have a system architecture diagram (see:        [https://rules.ssw.com.au/have-an-architecture-diagram](/have-an-architecture-diagram)), as well as an Azure resources diagram, see: [https://rules.ssw.com.au/azure-resources-diagram/](/azure-resources-visualizing)
-
-**6. Wiki\Definition-of-Done** - Ensures that your team [maintains a high level of quality with a Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)
-
-**7. Wiki\Definition-of-Ready** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a sprint (see:        [https://rules.ssw.com.au/have-a-definition-of-ready](/have-a-definition-of-ready))
-
-
-
-Documents to be read or edited by the Product Owner (or other members of the Scrum team) are better kept out of the code repository, in the Wiki. The advantages of this approach are:
-
-* Updating the Wiki does not trigger the CI/CD pipeline
-* The writing experience in the Wiki is more friendly for non-developers (no need to clone the repo and submit a pull request; especially annoying for a minor change)
-
-
-**Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see:     [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
-
-
+**Tip** : All of your documents (in your Wiki and your repository) should be written in Markdown (see [https://rules.ssw.com.au/using-markdown-to-store-your-content](/using-github-and-markdown-to-store-you-content))
 
 
 ::: bad  
@@ -204,4 +210,4 @@ We can choose to continue paying the interest, or we can pay the debt in full by
 
 The same principle is true with documentation. Using the 'old school' method will leave you with a build-up of documentation that you will need to keep up to date as the project evolves.
 
-Warning: if you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each sprint. If you do want to keep it, make sure you add it to your [definition of done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done)to keep it updated.
+Warning: if you want to follow Scrum and have zero technical debt, then you must throw away all documentation at the end of each sprint. If you do want to keep it, make sure you add it to your [definition of done](/done-do-you-go-beyond-done-and-follow-a-definition-of-done) to keep it updated.

@@ -12,6 +12,7 @@ authors:
   url: https://ssw.com.au/people/ulysses-maclaren
 - title: Kiki Biancatti
   url: https://www.ssw.com.au/people/kiki
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects:
 - calendar-permissions-do-you-share-your-calendar
@@ -29,6 +30,7 @@ Always make sure that:
 Do this to allow Admins to edit your calendar permissions:
 
 1. Open Outlook (or Outlook Web) | Click Calendar | Click "Share Calendar" | Click "Add..." | Add the Admin group | Select "Can edit"
+Note: Check you are looking in the right address book using the "Address Book" dropdown if you cannot find a user or group.
 
 ![Figure: Click on "Share Calendar" in Outlook](Share-Calendar.jpg)  
 

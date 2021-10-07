@@ -66,7 +66,7 @@ http://www.ssw.com.au/ssw/codeauditor
 
 From:
 
-  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding bugs <font style="background-color:#ff0000;">and errors</font>
+  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <font style="background-color:#ff0000;">bugs and</font> errors
   
   &nbsp;&nbsp;&nbsp;&nbsp;Enforce industry best practices
   
@@ -126,7 +126,4 @@ A pull request is a request to make changes to 1 or more files. GitHub provides 
     4.&nbsp;Press "Submit review" so that the requester can see it.
       ![Submitting a pull request review](https://user-images.githubusercontent.com/79821522/113798232-26656580-9796-11eb-92dd-00a4385cac8b.png)
 
-
-Congratulations! Your review has been submitted ⭐
-
-
+4. Congratulations! Your review has been submitted ⭐

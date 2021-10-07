@@ -45,8 +45,8 @@ private Match MatchExpression(string input, string pattern)
 Figure: Good - Method with member accessibility declared
 
 :::
-![](matt-w-screenshot.jpg) **Figure: Compiler warning given for not explicitly defining member access level** 
 
+![Figure: Compiler warning given for not explicitly defining member access level](https://user-images.githubusercontent.com/40375803/126088173-2387748e-89df-4f05-bafd-cf293f0ce616.png)
 
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.

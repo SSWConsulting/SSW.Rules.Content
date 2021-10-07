@@ -27,38 +27,32 @@ Remember that some colours have a shared understanding of their meaning.
 * Traffic lights can be used for showing 3 levels.
 * Cold, Warm, Hot should have appropriate colours that make sense without having to look at the legend
 
-
-
 ::: bad  
-![Figure: Bad example – non-semantic colours cause confusion](colours-powerbi-bad.jpg)  
+![Figure: Bad example – Non-semantic colours cause confusion](colours-powerbi-bad.jpg)  
 :::
 
-
 ::: good  
-![Figure: good example – obvious colours used for Cold, Warm, and Hot](colours-powerbi-good.jpg)  
+![Figure: Good example – Obvious colours used for Cold, Warm, and Hot](colours-powerbi-good.jpg)  
 :::
 
 ### Tufte minimalism
 
 Edward Tufte is often quoted as saying that, on a report where you want to draw the eye to exceptions or out of bounds data, colour should only be used to highlight what you want the user to see.
 
-
 ::: good  
-![Figure: Good Example – the black stands out as everything else looks translucent](tufte-good.png)  
+![Figure: Good Example – The black stands out as everything else looks translucent](tufte-good.png)  
 :::
 
 ### Consistent Palette
 
 Make sure you stick with one colour palette, so if you use one pastel colour, make them all pastel. If you have one bold colour, make them all bold
 
-
 ::: bad  
-![Figure: Bad Example – inconsistent palette feel like the colours clash](pallete-bad.jpg)  
+![Figure: Bad Example – Inconsistent palette feel like the colours clash](pallete-bad.jpg)  
 :::
 
-
 ::: good  
-![Figure: Good Example – consistent colour palette](pallete-good.jpg)  
+![Figure: Good Example – Consistent colour palette](pallete-good.jpg)  
 :::
 
 ### Colour Blind palette

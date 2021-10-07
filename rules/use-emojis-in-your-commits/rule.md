@@ -13,7 +13,7 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related:
-- teams-emojis
+- use-emojis
 redirects:
 - do-you-write-nice-commit-messages
 

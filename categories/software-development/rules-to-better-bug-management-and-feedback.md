@@ -9,12 +9,13 @@ index:
 - management-is-your-client-clear-on-the-definition-of-a-bug
 - provide-details-when-reporting-net-applications-errors
 - how-to-fix-small-web-errors
+- how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
+- todo-tasks
 - allow-users-to-get-up-to-date-messages
 redirects:
 - rules-to-better-bug-management-and-feedback
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [SSW Consulting Services](http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx)and book in a consultant.
+If you still need help, visit [SSW Consulting Services](https://www.ssw.com.au/ssw/Consulting/Default.aspx) and book in a consultant.
 

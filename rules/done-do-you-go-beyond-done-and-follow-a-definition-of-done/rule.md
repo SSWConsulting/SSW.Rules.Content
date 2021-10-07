@@ -14,7 +14,13 @@ authors:
   url: https://ssw.com.au/people/paul-neumeyer
 - title: Damian Brady
   url: https://ssw.com.au/people/damian-brady
-related: []
+related: 
+- dones-do-you-reply-done-and-delete-the-original-email
+- do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
+- comments-do-you-enforce-comments-with-check-ins
+- do-you-enforce-work-item-association-with-check-in
+- before-starting-do-you-follow-a-test-driven-process
+- have-a-definition-of-ready
 redirects: []
 
 ---
@@ -81,7 +87,7 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 * *All of the above, plus*
 * All acceptance criteria have been met
 * All acceptance criteria have an associated test passing (aka. Automated functional testing with Web Tests (Selenium), Coded UI Tests, or Telerik Tests)
-* Tip: Use Microsoft | [Test Manager](https://marketplace.visualstudio.com/items?itemName=ms.vss-testmanager-web)
+* Tip: Use Microsoft | [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/organizations/billing/buy-access-tfs-test-hub?view=azure-devops-2020#buy-monthly-access-to-azure-test-plans)
 * Sending a Done email (with video recording using SnagIt)
 
 ::: good  
@@ -135,12 +141,4 @@ Figure: Good example - Done video showing the features worked on
 
 Congratulations! You are frequently deploying to production. This is called “Continuous Delivery” and allows you to gather quick feedback from your end users.
 
-You might have everything deployed to production, but it might not yet be visible to the end user. This can be achieved by having “[Feature toggles](http://martinfowler.com/bliki/FeatureToggle.html)” in place. The actual release of the functionality is a decision that the Product Owner and business takes.
-
-**More Information:**
-
-* [Do your user stories include acceptance criteria?](/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
-* [Do you enforce comments with check-ins?](/comments-do-you-enforce-comments-with-check-ins)
-* [Do you enforce work item association with check-in?](/do-you-enforce-work-item-association-with-check-in)
-* [Do you follow a Test Driven Process?](/before-starting-do-you-follow-a-test-driven-process)
-* [Do you have a "Definition of Ready"?](/have-a-definition-of-ready)
+You might have everything deployed to production, but it might not yet be visible to the end user. This can be achieved by having “[Feature toggles](https://martinfowler.com/bliki/FeatureToggle.html)” in place. The actual release of the functionality is a decision that the Product Owner and business takes.

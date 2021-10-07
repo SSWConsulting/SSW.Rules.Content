@@ -25,8 +25,9 @@ index:
 - how-to-name-sharepoint-documents
 - do-you-publish-simple-websites-directly-to-windows-azure-from-visual-studio-online
 - use-a-project-portal-for-your-team-and-client
+- do-you-continuously-deploy
 - do-you-use-the-best-deployment-tool
 
 ---
-If you still need help, [visit our DevOps consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
 
+If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.

@@ -18,7 +18,6 @@ index:
 - marketing-do-you-know-the-differences-between-campaign-and-quick-campaign-in-crm-2013
 - do-you-know-the-one-case-where-you-use-a-crm-lead
 - do-you-know-when-to-delete-instead-of-disqualify-a-lead
-- do-you-identify-the-product-owner-in-crm
 - do-you-know-how-to-report-on-crm-data
 - scheduling-do-you-know-how-to-view-the-availability-of-each-developer-resource-scheduling
 - scheduling-do-you-know-how-to-book-developers-for-a-project

@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/web-content-do-you-write-in-the-newsreader-and-eye-witness-style
 title: Do you avoid the first person narrative?
 guid: 701d8bf5-410c-45b1-99c4-1b8530145fae
 uri: do-you-avoid-the-first-person-narrative
@@ -16,22 +16,17 @@ When writing for an audience, you want to make sure you're consistent in your wa
 
 <!--endintro-->
 
-
 ::: bad
 Bad Example: I often see pages have 2 or 3 links to the same page
-
 :::
-
 
 ::: good
 Good Example: Pages sometimes have 2 or 3 links to the same page  
 :::
 
-
 ::: bad
 Bad Example: At SSW, we use CRM to track sales activities   
 :::
-
 
 ::: good
 Good Example: SSW uses CRM to track sales activities  
