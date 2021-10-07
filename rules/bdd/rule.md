@@ -31,7 +31,7 @@ Scenario: Participant sees a greeting message
 	When I navigate to the greeting screen
 	Then I see the greeting message
 ```
-**Figure: Gherkin syntax scenarios (Given, When, Then)**
+**Figure: Good example - Gherkin syntax scenarios (Given, When, Then)**
 
 Once you have your scenarios lined up, you should begin to write the test steps for each scenario.
 ```
@@ -55,4 +55,4 @@ public async Task ThenISeeTheGreetingMessage()
     Assert.IsTrue(message == GreetingMessage);
 }
 ```
-**Figure: Test steps to run, matching the Gherkin Syntax**
+**Figure: Good example - Test steps to run, matching the Gherkin Syntax**
