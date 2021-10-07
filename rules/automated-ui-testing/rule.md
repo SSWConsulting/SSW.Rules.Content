@@ -26,6 +26,7 @@ Playwright has a few advantages over Selenium:
 * Performance
 * Stability
 * [Switching browser contexts for parallel testing](https://playwright.dev/docs/multi-pages/)
+* and more...
 
 
 ```JavaScript
