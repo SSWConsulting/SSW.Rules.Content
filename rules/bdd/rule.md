@@ -5,6 +5,12 @@ uri: bdd
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Jake Bayliss
+    url: https://www.ssw.com.au/people/jake-bayliss
+related:
+  - automated-ui-testing
 created: 2021-10-06T04:39:11.925Z
 guid: c336ab74-ca08-4d86-864a-7b6a9b27359b
 ---
