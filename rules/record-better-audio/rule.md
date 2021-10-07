@@ -22,6 +22,8 @@ Audio is one of the most important things to get right in a video as many viewer
 
 Having sounds in the background during a recording can be very distracting, and sometimes irritating to a viewer, e.g. construction, traffic, someone in the kitchen banging pots and pans.
 
+For sounds that are constant and consistent (e.g. air conditioners, fans, heaters), editing software can often remove a lot of this noise, but digitally reducing the noise can make your voice sound "thin" or tinny.
+ 
 Try these tips to minimize unwanted noise:
 
 1. Timing – schedule your recording during a quiet part of the day (e.g. avoid meal-times and breaks)
@@ -37,12 +39,13 @@ Try these tips to minimize unwanted noise:
 Room Tone is the ambient noise in a room when no sound is being produced, like a room’s audio fingerprint.
 The sound is shaped by many things, including the room’s size, shape, and objects, as well as noise created from appliances, e.g. refrigerators.
 
-As these sounds are constant and consistent, editing software that can remove a lot of this noise, making your audio recordings much nicer.
-Having these spaces will also make editing much easier, (e.g. Intro and Outro graphics can fade in over these spaces)
+If you record room tone that has no dialogue or noises, it can be used to improve the audio quality of a video by filling spaces between editing cuts in the dialogue, and it also gives time for graphics to fade in and out.
 
 1. When you start recording, wait 30 seconds before you begin.
 2. When you finish your presentation, stay in your position for an extra 30 seconds.
 3. Smile! Don’t forget you are still on camera.
+
+
 
 ### Microphone types
 
