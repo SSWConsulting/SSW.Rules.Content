@@ -24,8 +24,9 @@ created: 2015-11-02T20:01:33.000Z
 archivedreason: null
 guid: 9ba16834-8789-41b1-b64c-7c10e8ffb837
 ---
-Email signatures are a great way of adding some advertising and branding. You should always use a nice email signature for **external emails** .
-Internally, you shouldn't use any or just use a short one (just your name or initials).
+Email signatures are a great way of adding some advertising and branding. You should **always use a nice email signature for external emails**. Internally, you may use a short one (just your name or initials).
+
+<!--endintro-->
 
 Full email signatures are great when they have:
 
@@ -41,13 +42,9 @@ Full email signatures are great when they have:
 **Note:** You [can't add hyperlinks to signatures if you are using the Outlook App](https://outlook.uservoice.com/forums/293349-outlook-for-ios/suggestions/8632618-html-signatures) – what a shame.
 :::
 
-Mobile signature are not easily customized so they can be simpler.
-
-<!--endintro-->
-
 ### Mobile Signature
 
-Use the "mobile signature" when sending emails from your phone.
+Use the "mobile signature" when sending emails from your phone. Mobile signatures are not easily customized so they can be simpler.
 
 ::: greybox
 Get Outlook for Android
@@ -65,7 +62,7 @@ www.ssw.com.au    |   +61 4 1985 1995   |   [Ping me on Teams](https://teams.mic
 Figure: Good example – Add your name, URL and your phone number
 :::
 
-### PC Long Signature
+### PC Long Signature (Big and Fancy)
 
 **Use the complete "long signature" when sending a new email or appointment to a client.**
 
@@ -77,9 +74,11 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 
 ### PC Short Signature
 
-Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are.
+Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are. You may want to add a quick link to IM.
 
 ![Figure: PC Short Signature Example](ssw-short-signature.png)
+
+## Implementation
 
 ### Option 1: CodeTwo (Paid)
 
@@ -94,7 +93,7 @@ CodeTwo (and Exclaimer) give:
 4. Marketing can run campaigns and schedule changes to all signatures
 5. Hassle-free setup – users do not need to touch any signatures on any devices. 
 
-![Figure: With CodeTwo the correct signature is auto selected](codetwo.png)
+![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
 
 ### Option 2: Set it up manually (Free)
 
