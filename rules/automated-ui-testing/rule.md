@@ -56,7 +56,7 @@ windows.forEach(async handle => {
 await driver.wait(until.titleIs('Selenium documentation'), 10000);
 ```
 ::: bad  
-Figure: Bad Example - Selenium only lets you have one window focused at a time meaning you can't do parallel testing
+Figure: Bad Example - Selenium only lets you have one window focused at a time meaning you can't do parallel testing easily
 :::
 
 
