@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Unplanned - Do you have an unplanned outage process?
+title: Outage - Do you have an unplanned outage process?
 uri: unplanned-outage-process
 authors:
   - title: Steven Andrews
