@@ -77,9 +77,11 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are. You may want to add a quick link to IM.
 
 ![Figure: PC Short Signature Example](adamssmallsignature.png)
+
 ::: greybox 
-FYI Ping me on Teams: This is a link that directly opens chat with the person.
+**Note:** "Ping me on Teams" is a link that directly opens chat with the person.
 :::
+
 ## Implementation
 
 ### Option 1: CodeTwo (Paid)
