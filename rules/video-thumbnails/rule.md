@@ -13,7 +13,6 @@ related:
   - do-you-sort-your-videos-into-playlists
   - do-you-use-untapped-keywords
   - do-you-optimize-your-videos-for-youtube
-  - do-you-keep-your-audience-happy
   - do-you-follow-image-standard-sizes-on-social-media
 redirects:
   - do-you-use-a-personalized-thumbnail
