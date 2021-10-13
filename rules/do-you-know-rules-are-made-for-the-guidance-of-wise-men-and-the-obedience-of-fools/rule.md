@@ -17,27 +17,27 @@ guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
 
 ---
 
-**Standards should \*not\* be followed blindly. Aim for continual improvement.**
-
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
-But there are pros and cons to having standards:
+**Standards should \*not\* be followed blindly. Aim for continual improvement.**
+
+There are pros and cons to having standards:
 
 <!--endintro-->
 
-The pros:
+**The pros:**
 
 * They help speed up the decision making process – getting you to the best decision faster
 * They help [consistency](/do-you-understand-the-value-of-consistency)
 
-The cons:
+**The cons:**
 
 * They take time to write in a generic fashion
-* Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these.
-* They have errors as they are written by imperfect people.
-* People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for.
+* Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these
+* They have errors as they are written by imperfect people
+* People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
 
-**So standards should always help the critical thinking process, never replace it**
+**Standards should always help the critical thinking process, but never replace it.**
 
 If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have three options:
 
@@ -45,4 +45,4 @@ If you think something can be done better or the standard is simply out of date,
 2. Fix it yourself later if it's too big. In this case, [send yourself an email](/dones-do-you-send-yourself-emails)
 3. Ask someone else to fix it following the [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y)
 
-What you should **never** do is to ignore it and hope someone fixes it.
+What you should **never** do is to ignore that improvement and expect someone else to work on it.
