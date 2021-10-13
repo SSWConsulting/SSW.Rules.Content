@@ -17,7 +17,9 @@ It is important to practice your disaster recovery at least every 12 months so t
 
 **So what do these terms mean?**
 
-![](rtovsrpo.png)
+![](93c56eff-8d11-4123-a2d6-1305911f07b0.jpg)
+
+
 **Figure: RTO's vs RPO's**
 
 **RPO**
