@@ -48,12 +48,9 @@ Legacy full framework
 * Visual Studio + [SQL Server Data Tools](https://visualstudio.microsoft.com/vs/features/ssdt/) (Formerly Data Dude) + Deploy (post-development model)
 * Red Gate SQL Compare + Red Gate SQL Packager (post-development model)
 
-
-
 ::: bad  
 ![Figure: Don't use Data Dude](DataDude-BadExample.jpg)  
 :::
-
 
 
 ```cs
@@ -71,9 +68,6 @@ public partial class GenderToString : DbMigration
    }
 }
 ```
-
-
-
 
 ::: good
 Good Example - Data motion with EF Migrations
