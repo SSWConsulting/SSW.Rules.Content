@@ -55,7 +55,7 @@ Legacy full framework
 
 ```cs
 public partial class GenderToString : DbMigration
- {
+{
    public override void Up()
    {
       AddColumn("dbo.Customers", "GenderTemp", c => c.Boolean(nullable: false));
