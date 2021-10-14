@@ -68,7 +68,7 @@ Figure: Good example – Add your name, URL and your phone number
 
 This is created in HTML and goes well on emails with Word used as the email editor. Include some product advertising, like what's new on your monthly newsletter. It should have the company colors.
 
-![Figure: A great long signature for PC](adamssignature.png)
+![Figure: A great long signature for PC](adam-long-signature.jpg)
 
 However, you shouldn't use your long signature on **every** sent email. It's recommended to have a simpler version for internal emails and appointments:
 
@@ -76,7 +76,7 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 
 Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are. You may want to add a quick link to IM.
 
-![Figure: PC Short Signature Example](adamssmallsignature.png)
+![Figure: PC Short Signature Example](adam-short-signature.jpg)
 
 ::: greybox 
 **Note:** "Ping me on Teams" is a link that directly opens chat with the person.
