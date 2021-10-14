@@ -17,6 +17,8 @@ index:
 - do-you-know-how-to-add-a-test-case-to-a-test-plan-in-microsoft-test-manager
 - do-you-know-how-to-run-a-manual-test-in-microsoft-test-manager
 - do-you-use-problem-steps-recorder
+- bdd
+- automated-ui-testing
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.

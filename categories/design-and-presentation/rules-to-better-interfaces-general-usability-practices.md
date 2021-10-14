@@ -20,8 +20,6 @@ index:
 - do-you-make-the-homepage-as-a-portal
 - does-your-applications-interface-fit-in-a-small-screen-resolution
 - authentication-do-you-make-the-logged-in-state-clear
-- give-context-do-you-include-extra-information-e-g-checkboxes
-- give-context-do-you-include-extra-information-e-g-screenshots
 - do-you-log-usage
 - help-do-you-have-a-wiki-for-each-page-or-form
 - help-do-you-help-users-when-they-get-errors-by-directing-them-to-a-wiki-or-kb
@@ -46,7 +44,6 @@ index:
 - do-you-use-commas-on-more-than-3-figures-numbers
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Website Design and User Experience](http&#58;//www.ssw.com.au/ssw/Consulting/WebsiteDesignAndUserExperience.aspx) and book in a consultant.
+If you still need help, visit [Website Design and User Experience](https://www.ssw.com.au/ssw/Consulting/UI-UX-Design.aspx) and book in a consultant.
 

@@ -30,6 +30,7 @@ index:
 - fix-bugs-via-phone
 - setting-up-your-workspace-for-video
 - do-you-provide-at-least-two-days-notice-for-people-in-other-time-zones
+- pomodoro
 
 ---
 Working Remotely is something that is going to become more common. It is important that we have the tools to continue to  **work from home** (aka **WFH**) effectively and efficiently whilst also maintaining good mental health.

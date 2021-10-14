@@ -1,26 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know what happens at a Sprint Review Meeting?
-guid: 863b6968-c082-4413-b90d-d68e0211adc5
 uri: do-you-know-what-happens-at-a-sprint-review-meeting
-created: 2010-05-06T02:07:33.0000000Z
 authors: []
 related: []
 redirects: []
-
+created: 2010-05-06T02:07:33.000Z
+archivedreason: null
+guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
-
 This is the meeting where the Product Owner accepts or rejects the stories in the Sprint and the Sprint itself.
 
 <!--endintro-->
+
 The Team, having  [prepared](/meeting-do-you-know-what-to-prepare-for-each-meeting) for the meeting, presents the stories to the Product Owner.   
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the stories committed at the Sprint Planning meeting and the stories being presented for acceptance.  The Team seeks to have more stories accepted than originally committed.  It is important that the Product Owner knows at the beginning whether The Team believe that they have over or under achieved the Sprint Goal.
 
-Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible (AKA tick and flick) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
 
-Note: if there are additional stakholders, make sure they are also in the loop and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
+Note: if there are additional stakeholders, make sure they are also in the loop and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
 If a Story is accepted, but more work needs to be done, a new Story to cover this work is added to the Product Backlog.  Similarly, if a bug is found during the review, it is added to the Product Backlog.
 
@@ -30,13 +29,12 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing d
 
 This meeting is normally time boxed to as many hours as there are weeks in the Sprint.
 
-
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:     
+
 * [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)
 * [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 * Sprint Review Meeting (Described on this page)
 * [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
-
 
 :::

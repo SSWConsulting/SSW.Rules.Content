@@ -21,6 +21,7 @@ index:
 - customization-do-you-have-your-customizations-documented
 - customization-do-you-enable-your-contacts-to-have-more-than-the-default-3-email-addresses-and-phone-numbers
 - allow-multiple-options
+- customize-dynamics-user-experience
 - do-you-avoid-doing-small-bug-fixes-on-your-test-server
 - do-you-put-your-exported-customizations-and-your-plug-in-customization-under-source-control-during-deployment
 - do-you-export-your-configuration-on-deployment-using-the-crm-plug-in-registration-tool

@@ -26,6 +26,8 @@ index:
 - use-azure-policies
 - use-azure-machine-learning-to-make-predictions-from-your-data
 - use-azure-notebooks-to-learn-your-data
+- set-up-azure-alert-emails-on-teams-channel
 
 ---
- 
+
+If you still need help, visit our [Azure consulting page](https://www.ssw.com.au/ssw/Consulting/Azure.aspx) and book in a consultant.

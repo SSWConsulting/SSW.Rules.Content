@@ -1,15 +1,15 @@
 ---
 type: rule
-archivedreason:
 title: Do you call SysAdmins before formatting company-owned laptops?
-guid: f62c675b-a019-4fa2-8671-5a3a2d8d280a
 uri: call-SysAdmins-before-formatting-company-owned-laptops
-created: 2021-03-15T06:04:40.0000000Z
 authors:
-- title: Kaique Biancatti (Kiki)
-  url: https://www.ssw.com.au/people/kiki
-related:
-
+  - title: Kaique Biancatti (Kiki)
+    url: https://www.ssw.com.au/people/kiki
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg
+related: null
+created: 2021-03-15T06:04:40.000Z
+archivedreason: null
+guid: f62c675b-a019-4fa2-8671-5a3a2d8d280a
 ---
 
 It is important to make sure all standards are followed before formatting a laptop that is managed by your company.

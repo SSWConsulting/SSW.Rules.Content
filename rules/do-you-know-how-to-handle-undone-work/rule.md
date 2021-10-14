@@ -1,17 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to handle Undone Work (aka V2 for PBIs)?
-guid: aaf53b41-bed8-4237-b114-26a502b44c9b
 uri: do-you-know-how-to-handle-undone-work
-created: 2014-07-24T19:28:00.0000000Z
-authors: []
+authors:
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
 related: []
 redirects: []
-
+created: 2014-07-24T19:28:00.000Z
+archivedreason: null
+guid: aaf53b41-bed8-4237-b114-26a502b44c9b
 ---
-
-The goal is always to complete PBIs for the Sprint Review.
+The goal is always to complete Product Backlog Items (PBIs) for the Sprint Review.
 
 Often PBIs grow or change and it does not make sense to deliver what was originally proposed in the Acceptance Criteria.
 
@@ -26,6 +26,8 @@ e.g.
 * Customer and Contact Form v1
 * Customer and Contact Form v2
 
-Note: A common example for when to use this is when the full acceptance criteria of a large PBI (or Epic) would not be attaionable within one sprint, so splitting an Epic into 2 attainable PBIs is a better option.
+**Note:** A common example for when to use this is when the full acceptance criteria of a large PBI (or Epic) would not be attaionable within one sprint, so splitting an Epic into 2 attainable PBIs is a better option.
 
-![Figure: A PBI has had the scope adjusted and the v1 has been completed. Additional functionality has been moved to v2 and put on the backlog](undone-work.png)
+![Figure: A v2 PBI in GitHub](2021-07-30_14-58-22.png)
+
+![Figure: A v2 PBI in Azure DevOps](2021-07-30_14-59-25.png)

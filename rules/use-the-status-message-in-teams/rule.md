@@ -8,7 +8,9 @@ created: 2020-04-08T21:58:39.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+- use-your-personal-message-to-share-good-news-with-your-contacts
+- methodology-do-you-do-daily-scrums-aka-stand-up-meetings
 redirects:
 - do-you-use-the-status-message-in-teams
 
@@ -22,19 +24,16 @@ It tells people 3 things:
 * The people that you need to speak to (they will get the notifications)
 * The location of where you are
 
-
 <!--endintro-->
 
 ![Figure: When people chat with you, they can see what you’re up to](teams-status-message.jpg)  
 
 ### More information
 
-
 To update the status message, follow these steps:
 
 * On the top right, click on your photo
 * Click on the pencil icon to edit the status message
-
 
 ![Figure: Edit the Teams status message each day](edit-teams-status.jpg)  
 
@@ -50,9 +49,4 @@ The status message is helpful when it contains:
 * For “Clear status message after”, select Never (to prevent Microsoft from deleting the status message)
 * Click Done once complete
 
-
 ![Figure: Edit the status message](edit-teams-status-2.jpg)  
-
-### Related rule
-
-* [Do you do Daily Scrums (aka stand-up meetings)?](/methodology-do-you-do-daily-scrums-aka-stand-up-meetings)

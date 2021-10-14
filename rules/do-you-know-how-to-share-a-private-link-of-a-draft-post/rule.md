@@ -13,9 +13,7 @@ redirects: []
 
 ---
 
-To share a draft of a post with others you need to install a plugin.
-
-The plugin is called 'Simple Preview' and can be located     [here](http://gabriel.nagmay.com/2009/10/simple-preview/).
+To share a draft of a post with others you need to install [the plugin called 'Public Post Preview'](https://wordpress.org/plugins/public-post-preview/).
 
 <!--endintro-->
 
@@ -24,15 +22,18 @@ Once you have plugin installed, all you need to do is enable it and then follow 
 1. In the 'Edit Post' page, scroll down below your HTML panel to the 'Preview' panel, and select the tick box "Allow Anonymous Preview".
 
 Once enabled, it will create a preview link, that you can send to as many people as you like. 
+
 **Note:** Once you publish the post the URL becomes inactive.
+
 2. Click on 'Save Draft', then 'Preview'. The post will open in your browser, with the URL that you can share.
 
-![NOT Done Email](wp-allow-anonymous-preview.jpg)**Figure: How to enable ‘Allow Anonymous Preview’ so you can share your URL before going live** ![NOT Done Email](wp-preview-url.jpg)**Figure: The URL suffix will be similar to this: ‘…?p=1418&preview=true’** 
-#### More Information:
+![Figure: How to enable ‘Allow Anonymous Preview’ so you can share your URL before going live](wp-allow-anonymous-preview.jpg)
 
-Note #1: needing a plugin to share a URL privately, is a little bit crazy.
+![Figure: The URL suffix will be similar to this: ‘…?p=1418&preview=true’](wp-preview-url.jpg)
 
-Note #2: Another solution is ‘Share a Draft’, however it has more options and is more complicated.
+**Note:** Needing a plugin to share a URL privately seems a little bit crazy.
+**Note:** Another solution is ‘Share a Draft’, however it has more options and is more complicated.
 
 It has a time limit function for the post, which allows you to set and extend. The URL it generates is a bit messy.
-![NOT Done Email](wp-share-draft-screenshot.jpg)**Figure: The URL is pretty messy and it is not as simple as just ticking a box. This is a whole other page**
+
+![Figure: The URL is pretty messy and it is not as simple as just ticking a box. This is a whole other page](wp-share-draft-screenshot.jpg)

@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Meetings - Do you know the way meetings should work?
-guid: a3e99985-98f5-40b5-95e9-c39a8e596886
 uri: meetings-do-you-know-the-way-meetings-should-work
-created: 2010-07-16T06:08:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2010-07-16T06:08:10.000Z
+archivedreason: superceded by https://www.ssw.com.au/rules/rules-to-better-meetings
+guid: a3e99985-98f5-40b5-95e9-c39a8e596886
 ---
 
 Office meetings often are ineffective, because:

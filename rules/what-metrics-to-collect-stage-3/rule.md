@@ -23,47 +23,32 @@ Here are a few easy things to gather metrics on:
 
 <!--endintro-->
 
-
-
 ### Application Logging (Exceptions)
 
-See how many errors are being produced, aim to reduce this as the produce matures
-
-
+See how many errors are being produced, aim to reduce this as the produce matures:
 
 * [https://rules.ssw.com.au/do-you-use-the-best-exception-handling-library](/do-you-use-the-best-exception-handling-library)
 * Application Insights
 * RayGun.io
 * [Visual Studio App Center](https://appcenter.ms/)(for mobile)
 
-
-
-
-But it's not only exceptions you should be looking at but also how your users are using the application, so you can see where you should invest your time
+But it's not only exceptions you should be looking at but also how your users are using the application, so you can see where you should invest your time:
 
 * Application Insights - https://rules.ssw.com.au/why-you-want-to-use-application-insights
 * Google Analytics
 * RayGun.io (Pulse)
 
-
-
-
 ### Application Metrics
 
 Application/Server performance – track how your code is running in production, that way you can tell if you need to provision more servers or increase hardware specs to keep up with demand
 
-![](2020-03-24_15-27-26.jpg)
- **Figure: Application Insights gives you information about how things are running and whether there are detected abnormalities in the telemetry
-** 
+![Figure: Application Insights gives you information about how things are running and whether there are detected abnormalities in the telemetry](2020-03-24_15-27-26.jpg)
 
+![Figure: Azure can render the Application Insights data on a nice dashboard so you can get a high level view of your application](2020-03-24_15-27-45.jpg)
 
-![](2020-03-24_15-27-45.jpg)
- **Figure: Azure can render the Application Insights data on a nice dashboard so you can get a high level view of your application** **
-** ![](2020-03-24_15-28-22.jpg)Figure: App Center can let you monitor app install stats, usage and errors from phones just like an app running in Azure
+![Figure: App Center can let you monitor app install stats, usage and errors from phones just like an app running in Azure](2020-03-24_15-28-22.jpg)
 
-
-
-Process Metrics
+### Process Metrics
 
 Collecting stats about the application isn't enough, you also need to be able to measure the time spent in the processes used to develop and maintain the application. You should keep an eye on and measure:
 
@@ -74,9 +59,7 @@ Collecting stats about the application isn't enough, you also need to be able to
 * Time spent in Scrum ceremonies
 * Time taken for a bug to be fixed and deployed to production
 
-
 ### Code Metrics 
-
 
 The last set of metrics you should be looking at revolves around the code and how maintainable it is. You can use tools like:
 

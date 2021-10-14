@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Irrelevant
 title: Give Context - Do you include extra information (e.g. Checkboxes)?
 guid: 8c149358-0081-466b-98a2-21e1f406819d
 uri: give-context-do-you-include-extra-information-e-g-checkboxes
