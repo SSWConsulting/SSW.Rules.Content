@@ -8,6 +8,7 @@ index:
 - pc-do-you-organize-your-hard-disk
 - structure-and-back-up-your-files
 - azure-site-recovery
+- business-continuity-services
 - know-the-right-notification-for-backups
 - have-your-files-available-offline
 
