@@ -11,7 +11,7 @@ index:
 - optimize-videos-for-youtube
 - youtube-cards
 - do-you-add-end-screen-to-your-youtube-videos
-- personalized-thumbnail
+- video-thumbnails
 - where-to-upload-work-related-videos
 - sort-videos-into-playlists
 - transcribe-videos
