@@ -8,7 +8,7 @@ redirects:
 index:
 - planned-outage-process
 - unplanned-outage-process
-- measure-disaster-recovery-downtime
+- disaster-recovery-downtime
 - have-a-strict-password-security-policy
 - do-you-have-mfa-multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
