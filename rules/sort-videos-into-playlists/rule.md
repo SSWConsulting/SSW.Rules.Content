@@ -1,26 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Do you sort your videos into playlists?
-guid: 1852838a-199e-440d-8301-905732d3d858
 uri: sort-videos-into-playlists
-created: 2018-05-20T22:58:44.0000000Z
 authors:
-- title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  - title: Florent Dezettre
+    url: https://ssw.com.au/people/florent-dezettre
 related:
-- personalized-thumbnail
-- do-you-use-untapped-keywords
-- do-you-make-your-videos-youtube-friendly
-- do-you-optimize-your-videos-for-youtube
-- do-you-keep-your-audience-happy
-- do-you-add-cards-to-your-youtube-videos
-- do-you-add-end-screen-to-your-youtube-videos
-- do-you-add-time-links-on-your-youtube-videos
-- do-you-follow-image-standard-sizes-on-social-media
+  - personalized-thumbnail
+  - do-you-use-untapped-keywords
+  - do-you-make-your-videos-youtube-friendly
+  - do-you-optimize-your-videos-for-youtube
+  - do-you-keep-your-audience-happy
+  - do-you-add-cards-to-your-youtube-videos
+  - do-you-add-end-screen-to-your-youtube-videos
+  - do-you-add-time-links-on-your-youtube-videos
+  - do-you-follow-image-standard-sizes-on-social-media
 redirects:
-- do-you-sort-your-videos-into-playlists
-
+  - do-you-sort-your-videos-into-playlists
+created: 2018-05-20T22:58:44.000Z
+archivedreason: null
+guid: 1852838a-199e-440d-8301-905732d3d858
 ---
 
 All your videos should be inserted into playlists and these playlists should be shown and promoted on your channel. Let's see why.
@@ -33,7 +32,7 @@ Creating and promoting optimized playlists is a plus, increasing session time (a
 ![](playlist_bad.png) 
 
 ::: bad
-Bad example: people living YouTube after (or even while) watching one of your videos will rank you (and your content) down.  
+Bad example: people leaving YouTube after (or even while) watching one of your videos will rank you (and your content) down.  
 :::
 
 
