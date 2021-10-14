@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you measure your Disaster Recovery downtime?
-uri: measure-disaster-recovery-downtime
+uri: disaster-recovery-downtime
 authors:
   - title: Warwick Leahy
     url: https://www.ssw.com.au/people/warwick-leahy
