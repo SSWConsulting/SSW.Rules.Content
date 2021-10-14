@@ -16,4 +16,4 @@ Ensuring business continuity is priority for the System Administrator team, and 
 
 This means that, in case of a disaster, there will be no need to go for backups - you just switch over to the VMs in Azure! They will keep the business running while the on-premises crisis is dealt with. This is your redundancy working, the machines are in the same state they were when they went down. Nothing is being recovered, only continued in another location.\
 
-![Azure Site Recovery Single VM](https://i.ytimg.com/vi/rKKiiHOuV74/hqdefault.jpg)
+![Figure: Azure Site Recovery](https://i.ytimg.com/vi/rKKiiHOuV74/hqdefault.jpg)
