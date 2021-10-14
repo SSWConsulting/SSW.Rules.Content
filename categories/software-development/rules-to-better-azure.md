@@ -27,6 +27,7 @@ index:
 - use-azure-machine-learning-to-make-predictions-from-your-data
 - use-azure-notebooks-to-learn-your-data
 - set-up-azure-alert-emails-on-teams-channel
+- azure-site-recovery
 
 ---
 
