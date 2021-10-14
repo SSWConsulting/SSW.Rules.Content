@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use a personalized video thumbnail?
+title: Do you use personalized video thumbnails?
 uri: video-thumbnails
 authors:
   - title: Florent Dezettre
@@ -21,9 +21,7 @@ redirects:
 created: 2018-05-20T22:28:44.000Z
 archivedreason: null
 guid: 724bc31c-4812-45e2-8a8c-18f3e024af27
-
 ---
-
 Thumbnails are a great way of telling your (potential) viewers what your video is about and why they should watch it. It is therefore important that these stand out from the others.
 
 <!--endintro-->
@@ -37,12 +35,20 @@ A thumbnail can draw attention by:
 
 YouTube offers [resources to create better custom thumbnails](https://support.google.com/youtube/answer/72431?hl=en) including image size and resolution, policies, etc.
 
+### Creating a visual identity
+
+Establishing a unique visual style for thumbnails is great for grouping similar videos together and encouraging click-throughs. This has the added benefit of increasing brand recognition and strengthening the connection between grouped content.
+
 ::: bad
 ![Bad example: despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough](thumbnail_bad.png)
 :::
 
 ::: good
-![Good example: a custom thumbnail looks professional and already gives important information about the content of the video](thumbnail_good.png)  
+![OK example: a custom thumbnail looks professional and already gives important information about the content of the video](thumbnail_good.png)
 :::
 
-**Image credits**: [courtesy of Brian Dean](https://backlinko.com/grow-youtube-channel).
+**Image credits**: [courtesy of Brian Dean](https://backlinko.com/grow-youtube-channel)
+
+::: good
+![Good example: Consistent thumbnail styles elevate branding and helps viewers identify similar content](thumbnails_great.jpg)
+:::
