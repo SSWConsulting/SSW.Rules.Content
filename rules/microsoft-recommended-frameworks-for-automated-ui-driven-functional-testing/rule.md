@@ -1,9 +1,9 @@
 ---
 type: rule
-archivedreason: Duplicate rule of Automated UI testing in UAT
+archivedreason: Duplicate rule of Automated UI testing in UAT https://www.ssw.com.au/rules/automated-ui-testing
 title: Do you know the most popular automated UI testing frameworks (aka functional testing)?
 guid: 43f325c4-b3f0-4867-9df2-abc9211868db
-uri: automated-ui-testing
+uri: microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 created: 2020-03-16T19:59:09.0000000Z
 authors:
 - title: Adam Cogan
@@ -18,7 +18,6 @@ related: []
 redirects:
 - do-you-know-microsofts-recommended-frameworks-for-automated-ui-driven-functional-testing
 - do-you-know-microsoft’s-recommended-frameworks-for-automated-ui-driven-functional-testing
-- microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 ---
 
 This type of testing runs the whole application and uses tools to interact with the application in the same way that a user would – such as clicking buttons or entering text into an input field.
