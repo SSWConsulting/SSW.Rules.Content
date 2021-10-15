@@ -37,6 +37,12 @@ In our day and age, we have better (and free!) systems that allow us to track th
 
 All this in a nice UI that allows for you - or even your user themselves - to edit and check out assets.
 
-Tracking is all fun and games, but what about knowing which asset is which? You also need to label your assets.
+Tracking is all fun and games, but what about knowing which asset is which? You also need to physically label your assets.
 
-This means that after creating the asset in the system, it generally gets a unique ID within it, and you should generate a label (preferably with a QR or bar code for easy scanning) and attach the label to the asset in question.
+This means that after creating the asset in the system, it generally gets a unique ID within it, and you should generate a label (preferably with a QR or bar code for easy scanning) and attach the label to the asset in question. This makes it super easy to see the asset ID and name at a glance, and, in the case the asset is lost somewhere, anyone can easily scan the QR code and be brought to a site with instructions on how to return or notify the company that asset is lost.
+
+![Figure: Good Example - A professional label printed with the important asset info e.g. ID, name and serial number](pxl_20211014_235412634.jpg)
+
+A good system that does all this is SnipeIT - https://snipeitapp.com/ 
+
+SnipeIT has a nice interface, easy to use, maintain and upgrade. It generates labels for you, has an API for you to integrate with your current systems and is free if you host it yourself!
