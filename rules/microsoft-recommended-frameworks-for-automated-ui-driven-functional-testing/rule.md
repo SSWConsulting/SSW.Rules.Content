@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know Microsoft’s recommended frameworks for Automated UI-driven Functional Testing?
+title: Do you know the most popular automated UI testing frameworks (aka functional testing)?
 guid: 43f325c4-b3f0-4867-9df2-abc9211868db
-uri: microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
+uri: automated-ui-testing
 created: 2020-03-16T19:59:09.0000000Z
 authors:
 - title: Adam Cogan
@@ -12,11 +12,13 @@ authors:
   url: https://ssw.com.au/people/brendan-richards
 - title: Jason Taylor
   url: https://ssw.com.au/people/jason-taylor
+- title: Luke Parker
+  url: https://ssw.com.au/people/luke-parker
 related: []
 redirects:
 - do-you-know-microsofts-recommended-frameworks-for-automated-ui-driven-functional-testing
 - do-you-know-microsoft’s-recommended-frameworks-for-automated-ui-driven-functional-testing
-
+- microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 ---
 
 This type of testing runs the whole application and uses tools to interact with the application in the same way that a user would – such as clicking buttons or entering text into an input field.
@@ -32,12 +34,11 @@ Because these tests run on top of your UI, the type of UI drives the choice of t
 
 <!--endintro-->
 
-### Coded UI Tests – Deprecated
+### Web Applications: Playwright
 
+Playwright works similar to Selenium, however it has a great feature where you can record tests from actions in a browser to a file.
 
-Visual Studio 2019 will be the last version of visual studio that supports coded UI tests so this should only be considered if you already have significant investment in existing coded UI tests.
-
-Coded UI tests could test Web, Winforms, WPF and Silverlight applications.
+`youtube: https://www.youtube.com/embed/2_BPIA5RgXU`
 
 ### Web Applications: Selenium
 
@@ -51,3 +52,10 @@ The Windows Application driver installs a service onto a Windows 10 machine. Thi
 
 
 Xamarin.UITest runs on top of the NUnit unit test framework and can test mobile applications. It integrates tightly with Xamarin.iOS and Xamarin.Android projects to test Xamarin-based apps but can also test native applications.
+
+### Coded UI Tests – Deprecated
+
+
+Visual Studio 2019 will be the last version of visual studio that supports coded UI tests so this should only be considered if you already have significant investment in existing coded UI tests.
+
+Coded UI tests could test Web, Winforms, WPF and Silverlight applications.
