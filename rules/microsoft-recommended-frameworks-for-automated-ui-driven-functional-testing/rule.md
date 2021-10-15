@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Duplicate rule of Automated UI testing in UAT
 title: Do you know the most popular automated UI testing frameworks (aka functional testing)?
 guid: 43f325c4-b3f0-4867-9df2-abc9211868db
 uri: automated-ui-testing
