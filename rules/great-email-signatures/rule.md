@@ -79,7 +79,7 @@ Use a really short signature (your first name or initials) or no signature at al
 ![Figure: PC Short Signature Example](adam-short-signature.jpg)
 
 ::: greybox 
-**Note:** "Ping me on Teams" is a link that directly opens chat with the person.
+**Note:** "Ping me on Teams" is a link that directly opens chat with the person as per https://docs.microsoft.com/en-us/answers/questions/197688/teams-hyperlinks-on-outlook-signature.html 
 :::
 
 ## Implementation
