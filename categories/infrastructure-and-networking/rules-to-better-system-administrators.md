@@ -24,6 +24,7 @@ index:
 - secure-your-wireless-connection
 - easy-wifi-access
 - have-a-companywide-word-template
+- label-your-assets
 
 ---
 
