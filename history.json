@@ -21367,7 +21367,7 @@
 	},
 	{
 		"file": "rules/microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing/rule.md",
-		"lastUpdated": "2021-10-15T05:29:06.565Z",
+		"lastUpdated": "2021-10-15T06:12:32.418Z",
 		"lastUpdatedBy": "Luke Parker",
 		"lastUpdatedByEmail": "10430890+Hona@users.noreply.github.com",
 		"created": "2020-03-17T06:59:11+11:00",
@@ -21475,7 +21475,7 @@
 	},
 	{
 		"file": "rules/the-best-test-framework-to-run-your-integration-tests/rule.md",
-		"lastUpdated": "2021-10-15T05:29:06.565Z",
+		"lastUpdated": "2021-10-15T06:12:32.419Z",
 		"lastUpdatedBy": "Luke Parker",
 		"lastUpdatedByEmail": "10430890+Hona@users.noreply.github.com",
 		"created": "2020-03-24T04:48:45+11:00",
@@ -27943,5 +27943,14 @@
 		"lastUpdated": "2021-10-14T03:15:56.917Z",
 		"lastUpdatedBy": "Brady Stroud",
 		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/automated-ui-testing/rule.md",
+		"created": "2021-10-15T06:12:32.419Z",
+		"createdBy": "Luke Parker",
+		"createdByEmail": "10430890+Hona@users.noreply.github.com",
+		"lastUpdated": "2021-10-15T06:12:32.419Z",
+		"lastUpdatedBy": "Luke Parker",
+		"lastUpdatedByEmail": "10430890+Hona@users.noreply.github.com"
 	}
 ]
