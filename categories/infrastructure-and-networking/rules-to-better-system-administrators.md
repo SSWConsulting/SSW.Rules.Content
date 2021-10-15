@@ -8,6 +8,7 @@ redirects:
 index:
 - planned-outage-process
 - unplanned-outage-process
+- disaster-recovery-downtime
 - have-a-strict-password-security-policy
 - do-you-have-mfa-multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
@@ -25,6 +26,7 @@ index:
 - have-a-companywide-word-template
 
 ---
+
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.
 
-If you still need help, [visit our Network Architecture consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Network-Architecture.aspx) and book in a consultant.
+If you still need help, [visit our Network Architecture consulting page](https://www.ssw.com.au/ssw/Consulting/Network-Architecture.aspx) and book in a consultant.

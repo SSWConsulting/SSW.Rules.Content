@@ -5995,9 +5995,9 @@
 	},
 	{
 		"file": "rules/reports-do-you-understand-the-implied-contract-promises-between-members-of-the-scrum-team/rule.md",
-		"lastUpdated": "2021-07-20T02:48:20.053Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-10-14T03:15:56.916Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com",
 		"created": "2010-04-14T17:16:46+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -7183,7 +7183,7 @@
 	},
 	{
 		"file": "rules/professional-integrity/rule.md",
-		"lastUpdated": "2021-04-16T00:44:33.532Z",
+		"lastUpdated": "2021-10-12T22:03:39.434Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2014-08-29T11:22:37+10:00",
@@ -18253,9 +18253,9 @@
 	},
 	{
 		"file": "rules/sort-videos-into-playlists/rule.md",
-		"lastUpdated": "2018-05-21T11:45:29+10:00",
-		"lastUpdatedBy": "Florent Dezettre",
-		"lastUpdatedByEmail": "FlorentDezettre@ssw.com.au",
+		"lastUpdated": "2021-10-14T04:17:07.411Z",
+		"lastUpdatedBy": "Brady Stroud [SSW]",
+		"lastUpdatedByEmail": "bradystroud@ssw.com.au",
 		"created": "2018-05-21T08:58:45+10:00",
 		"createdBy": "Florent Dezettre",
 		"createdByEmail": "FlorentDezettre@ssw.com.au"
@@ -18280,9 +18280,9 @@
 	},
 	{
 		"file": "rules/optimize-videos-for-youtube/rule.md",
-		"lastUpdated": "2018-05-21T11:44:28+10:00",
-		"lastUpdatedBy": "Florent Dezettre",
-		"lastUpdatedByEmail": "FlorentDezettre@ssw.com.au",
+		"lastUpdated": "2021-10-13T00:43:45.320Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2018-05-21T10:08:59+10:00",
 		"createdBy": "Florent Dezettre",
 		"createdByEmail": "FlorentDezettre@ssw.com.au"
@@ -25942,9 +25942,9 @@
 		"created": "2021-05-11T07:42:00.217Z",
 		"createdBy": "Prem Radhakrishnan [SSW]",
 		"createdByEmail": "58406844+premradhakrishnan@users.noreply.github.com",
-		"lastUpdated": "2021-06-17T01:32:53.856Z",
-		"lastUpdatedBy": "Prem Radhakrishnan [SSW]",
-		"lastUpdatedByEmail": "58406844+premradhakrishnan@users.noreply.github.com"
+		"lastUpdated": "2021-10-13T00:35:38.217Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
 		"file": "rules/best-free-resources-for-angular/Little-Book-Angular.pdf",
@@ -27864,6 +27864,7 @@
 		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
 	},
 	{
+
 		"file": "rules/efficiency-do-you-always-try-to-work-in-pairs/PairProgramming01.jpg",
 		"created": "2021-10-15T00:04:03.597Z",
 		"createdBy": "leahy268",
@@ -27898,5 +27899,51 @@
 		"lastUpdated": "2021-10-15T00:04:03.598Z",
 		"lastUpdatedBy": "leahy268",
 		"lastUpdatedByEmail": "warwickleahy@ssw.com.au"
+},
+	{
+		"file": "rules/video-thumbnail/rule.md",
+		"created": "2021-10-14T00:52:52.081Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-10-14T00:52:52.081Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/disaster-recoverry-downtime/rule.md",
+		"created": "2021-10-14T02:57:50.761Z",
+		"createdBy": "Tiago Araújo [SSW]",
+		"createdByEmail": "tiagov8@gmail.com",
+		"lastUpdated": "2021-10-14T03:12:22.028Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/video-thumbnails/rule.md",
+		"created": "2021-10-14T03:06:51.328Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-10-14T12:47:07.310Z",
+		"lastUpdatedBy": "Penny Walker [SSW]",
+		"lastUpdatedByEmail": "pennywalker@ssw.com.au"
+	},
+	{
+		"file": "rules/video-thumbnails/thumbnail_bad.png",
+		"created": "2021-10-14T03:15:56.916Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-10-14T03:15:56.916Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+	},
+	{
+		"file": "rules/video-thumbnails/thumbnail_good.png",
+		"created": "2021-10-14T03:15:56.917Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-10-14T03:15:56.917Z",
+		"lastUpdatedBy": "Brady Stroud",
+		"lastUpdatedByEmail": "bradystroud@me.com"
+
 	}
 ]
