@@ -13,6 +13,8 @@ related:
   - bdd
 created: 2021-10-06T05:04:07.186Z
 guid: ca225c48-cf34-42c0-b125-3155dfef3398
+redirects:
+- microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 ---
 Automated UI testing (aka end-to-end testing) is an awesome way to automate the process of browser based testing.
 
