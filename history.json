@@ -7966,9 +7966,9 @@
 	},
 	{
 		"file": "rules/efficiency-do-you-always-try-to-work-in-pairs-1/rule.md",
-		"lastUpdated": "2019-07-11T04:08:53+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-10-09T01:00:32.213Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2010-10-20T19:56:38+11:00",
 		"createdBy": "System Account",
 		"createdByEmail": "Unknown@ssw.com.au"
@@ -27862,6 +27862,42 @@
 		"lastUpdated": "2021-10-08T00:50:35.021Z",
 		"lastUpdatedBy": "Jake Bayliss",
 		"lastUpdatedByEmail": "32888060+jakebayliss@users.noreply.github.com"
+	},
+	{
+		"file": "rules/efficiency-do-you-always-try-to-work-in-pairs/PairProgramming01.jpg",
+		"created": "2021-10-15T00:04:03.597Z",
+		"createdBy": "leahy268",
+		"createdByEmail": "warwickleahy@ssw.com.au",
+		"lastUpdated": "2021-10-15T00:09:20.968Z",
+		"lastUpdatedBy": "Warwick Leahy [SSW]",
+		"lastUpdatedByEmail": "58454534+leahy268@users.noreply.github.com"
+	},
+	{
+		"file": "rules/efficiency-do-you-always-try-to-work-in-pairs/PairProgramming02_Small.jpg",
+		"created": "2021-10-15T00:04:03.597Z",
+		"createdBy": "leahy268",
+		"createdByEmail": "warwickleahy@ssw.com.au",
+		"lastUpdated": "2021-10-15T00:09:20.969Z",
+		"lastUpdatedBy": "Warwick Leahy [SSW]",
+		"lastUpdatedByEmail": "58454534+leahy268@users.noreply.github.com"
+	},
+	{
+		"file": "rules/efficiency-do-you-always-try-to-work-in-pairs/ProjectManagement_PairProgramming_Luge.jpg",
+		"created": "2021-10-15T00:04:03.597Z",
+		"createdBy": "leahy268",
+		"createdByEmail": "warwickleahy@ssw.com.au",
+		"lastUpdated": "2021-10-15T00:09:20.970Z",
+		"lastUpdatedBy": "Warwick Leahy [SSW]",
+		"lastUpdatedByEmail": "58454534+leahy268@users.noreply.github.com"
+	},
+	{
+		"file": "rules/efficiency-do-you-always-try-to-work-in-pairs/rule.md",
+		"created": "2021-10-15T00:04:03.598Z",
+		"createdBy": "leahy268",
+		"createdByEmail": "warwickleahy@ssw.com.au",
+		"lastUpdated": "2021-10-15T00:09:20.971Z",
+		"lastUpdatedBy": "Warwick Leahy [SSW]",
+		"lastUpdatedByEmail": "58454534+leahy268@users.noreply.github.com"
 	},
 	{
 		"file": "rules/video-thumbnail/rule.md",
