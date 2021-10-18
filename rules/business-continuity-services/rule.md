@@ -25,4 +25,4 @@ A good example of business continuity tools is Azure Site Recovery, which you ca
 
 Backups are also important in your business continuity and disaster recovery plan, check out our other rules for backups: https://www.ssw.com.au/rules/rules-to-better-backups
 
-![Figure: Good Example - It's crucial to add a redundancy plan to your disaster recovery plan](redundancy.png)
+![Figure: Good Example - It's crucial to add a redundancy plan to your disaster recovery plan](redundancy2.png)
