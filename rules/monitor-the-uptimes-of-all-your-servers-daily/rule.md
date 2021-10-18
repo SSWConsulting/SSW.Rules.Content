@@ -26,8 +26,10 @@ For example, here is a report in WhatsUp Gold you can use to monitor servers on 
 <!--endintro-->
 
 ::: good
-![Figure: Good example - Portal - Green indicates servers are healthy in Whats Up Gold](WuGReport.png)
+![Figure: Good example - WhatsUp Gold - Green indicates servers are healthy](WuGReport.png)
 :::
+
+WUG also sends an email with alerts on servers.
 
 It is also possible to use SQL Reporting Services to create a custom report that can be emailed via a data-driven subscription, which sends a nicely formatted email when there's a problem.
 
