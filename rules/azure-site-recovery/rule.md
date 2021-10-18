@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Backups - Do you use Azure Site Recovery?
+title: Redundancy - Do you use Azure Site Recovery?
 uri: azure-site-recovery
 authors:
   - title: Kiki Biancatti
