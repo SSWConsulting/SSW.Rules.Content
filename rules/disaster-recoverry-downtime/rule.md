@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you have a disaster recovery plan?
-uri: disaster-recovery-downtime
+uri: disaster-recovery-plan
 authors:
   - title: Warwick Leahy
     url: https://www.ssw.com.au/people/warwick-leahy
