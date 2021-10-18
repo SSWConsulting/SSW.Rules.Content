@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you measure your Disaster Recovery downtime?
+title: Do you have a disaster recovery plan?
 uri: disaster-recovery-downtime
 authors:
   - title: Warwick Leahy
@@ -9,10 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
 created: 2021-10-11T00:20:18.145Z
 guid: 0668c3fd-3946-42cc-8712-80a46712162d
-
 ---
-
-At some point every business will experience a catastrophic incident. At these times it is important to track the disaster, analyze the downtime and learn from the experience.
+At some point every business will experience a catastrophic incident. At these times it is important to have a plan that explains who to contact, the priority of restore and how to restore services.
 
 At the time of a disaster, you should have a few objectives established and measure some results - The objectives are **RPO** (Recovery Point Objective) and **RTO** (Recovery Time Objective); and the measurements to take are **RPA** (Recovery Point Actual) and **RTA** (Recovery Time Actual).
 
@@ -44,29 +42,35 @@ RTA or Recovery Time Actual, is the actual measurement of downtime during a disa
 **Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few minutes as even in that few minutes, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
 :::
 
-### How to calculate these values?**
+### How to calculate these values?\*\*
 
 RTO and RPO are determined via a consultation called BIA (Business Impact Analysis). The organization needs to work out what the maximum amount of data that they are prepared to lose and also the maximum amount of time that they are prepared to be without services. These are both measured in time, and could be seconds, minutes, hours or days depending on the organization's requirements. This is a balancing act as generally the shorter the timeframe required, the more resources the organisation will need in order to achieve the target.  
 
 After this a disaster should be simulated to test that the RTA/RPA values match the RTO/RPO required by the organization.
 
----
+- - -
 
 **Example:** Mr Bob Northwind experienced a catastrophic incident. The failure occurred at 8pm local time on a Friday night. Their website and sales transaction software were affected.
 
 In his Disaster Recovery Plan he had the following objectives:
 
-| Service       |    RPO        |   RTO |
-| ------------- | -----------   | ----- |
-| Northwind Website     | 2 days        | 4 hours |
-| North Sales   | 4 hours       | 8 hours |
+| Service           | RPO     | RTO     |
+| ----------------- | ------- | ------- |
+| Northwind Website | 2 days  | 4 hours |
+| North Sales       | 4 hours | 8 hours |
+
+::::info
+
+It is important that these objectives are signed off by the product owner as per https://www.ssw.com.au/rules/do-you-ask-clients-to-initial-your-work
+
+::::
 
 After the recovery was complete they then analyzed the downtime which showed the following:
 
-| Service            |    RPA        |   RTA  |
-| ------------------ | -----------   | ------ |
-| Northwind Website  | 8 hours       | 2 days |
-| North Sales        | 8 hours       | 8 hours|
+| Service           | RPA     | RTA     |
+| ----------------- | ------- | ------- |
+| Northwind Website | 8 hours | 2 days  |
+| North Sales       | 8 hours | 8 hours |
 
 After analyzing the data, they discovered a few issues with their Disaster Recovery Plan:
 
