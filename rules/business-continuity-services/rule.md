@@ -50,7 +50,7 @@ A good DR plan consists of HA and FT together and goes beyond only having the ab
 
 DR plans generally show different scenarios or systems and what to do on each case e.g. lost a critical system, lost a non-critical system. 
 
-As an example, if one of the UPS in your server room stops working, that might not impact the day to day of your business if you have a secondary UPS and a HA circuit or system that automatically fails over between them - no action needed.\
+As an example, if one of the UPS in your server room stops working, that might not impact the day to day of your business if you have a secondary UPS and a HA circuit or system that automatically fails over between them - no action needed.
 That might not be the case if your UPS fails, you have a secondary UPS, but you need to manually failover to the secondary. Your server room will be all offline until you manually change that cable, and that action should be in the DR plan in the case of a UPS fail.
 
 A good example of business continuity tools is Azure Site Recovery, which you can find more about here: https://www.ssw.com.au/rules/azure-site-recovery
