@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you measure your Disaster Recovery downtime?
+title: Do you have a disaster recovery plan?
 uri: disaster-recovery-downtime
 authors:
   - title: Warwick Leahy
@@ -10,7 +10,7 @@ authors:
 created: 2021-10-11T00:20:18.145Z
 guid: 0668c3fd-3946-42cc-8712-80a46712162d
 ---
-At some point every business will experience a catastrophic incident. At these times it is important to track the disaster, analyze the downtime and learn from the experience.
+At some point every business will experience a catastrophic incident. At these times it is important to have a plan that explains who to contact, the priority of restore and how to restore services.
 
 At the time of a disaster, you should have a few objectives established and measure some results - The objectives are **RPO** (Recovery Point Objective) and **RTO** (Recovery Time Objective); and the measurements to take are **RPA** (Recovery Point Actual) and **RTA** (Recovery Time Actual).
 
@@ -58,8 +58,6 @@ In his Disaster Recovery Plan he had the following objectives:
 | ----------------- | ------- | ------- |
 | Northwind Website | 2 days  | 4 hours |
 | North Sales       | 4 hours | 8 hours |
-
-
 
 ::::info
 
