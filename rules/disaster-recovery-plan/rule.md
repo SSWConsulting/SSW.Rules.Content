@@ -62,14 +62,14 @@ It is important that these objectives are signed off by the product owner as per
 
 ::::
 
-After the recovery was complete they then analysed the downtime which showed the following:
+After the recovery was complete they then analyzed the downtime which showed the following:
 
 | Service           | RPA     | RTA     |
 | ----------------- | ------- | ------- |
 | Northwind Website | 8 hours | 2 days  |
 | North Sales       | 8 hours | 8 hours |
 
-After analysing the data, they discovered a few issues with their Disaster Recovery Plan:
+After analyzing the data, they discovered a few issues with their Disaster Recovery Plan:
 
 1. They didn't have any spare hardware on premises which meant that to get the website backed up and running they needed to find a shop on a weekend to buy a server and then start the recovery process. This delayed them by an entire day.
 2. Mr Northwind's IT Manager had mistakenly set the backups to 12-hour backups (at midnight and midday each day). This meant that the most recent backup for both services had occurred at 12pm on Friday and they had 8 hours of missing transactions. The greatest allowable data loss should have only been 4 hours.
