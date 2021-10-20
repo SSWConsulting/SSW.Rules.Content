@@ -30,8 +30,10 @@ RPO or Recovery Point Objective, is a measure of the maximum tolerable amount of
 
 RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use.  This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required. Measuring the actual downtime is known as **RTA**.
 
+**These measurements are in Time: seconds, minutes, hours or days depending on the service requirements.**
+
 #### Priority of Restore
-The product owner must also at this time establish a priority of restore for each Service.  This will determine the order that the recovery team restore services in.
+The product owner must also establish a priority of restore for each Service.  This will determine the order that the recovery team restore services in.
 
 ::: info
 **Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few seconds as even in that few seconds, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
