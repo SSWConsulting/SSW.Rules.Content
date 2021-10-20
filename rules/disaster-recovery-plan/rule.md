@@ -24,22 +24,17 @@ It's recommended to practice your disaster recovery at least once every 12 month
 
 #### RPO
 
-RPO or Recovery Point Objective, is a measure of the maximum tolerable amount of data that the business can afford to lose during a disaster. It also helps you measure how long it can take between the last data backup and a disaster without seriously damaging your business. RPO is useful for determining how often to perform data backups.
+RPO or Recovery Point Objective, is a measure of the maximum tolerable amount of data that the business can afford to lose during a disaster. It also helps you measure how long it can take between the last data backup and a disaster without seriously damaging your business. RPO is useful for determining how often to perform data backups. Measuring the amount of data lost during a disaster recovery is known as **RPA**.
 
 #### RTO
 
-RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use.  This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required.
+RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use.  This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required. Measuring the actual downtime is known as **RTA**.
 
-#### RPA
-
-RPA or Recovery Point Actual, is the actual measurement of the amount of data lost during a disaster recovery.
-
-#### RTA
-
-RTA or Recovery Time Actual, is the actual measurement of downtime during a disaster recovery.
+#### Priority of Restore
+The product owner must also at this time establish a priority of restore for each Service.  This will determine the order that the recovery team restore services in.
 
 ::: info
-**Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few minutes as even in that few minutes, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
+**Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few seconds as even in that few seconds, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
 :::
 
 ### How to calculate these values?\*\*
@@ -50,14 +45,16 @@ After this a disaster should be simulated to test that the RTA/RPA values match 
 
 - - -
 
-**Example:** Mr Bob Northwind experienced a catastrophic incident. The failure occurred at 8pm local time on a Friday night. Their website and sales transaction software were affected.
+### Example
+
+Mr Bob Northwind experienced a catastrophic incident. The failure occurred at 8pm local time on a Friday night. Their website and sales transaction software were affected.
 
 In his Disaster Recovery Plan he had the following objectives:
 
-| Service           | RPO     | RTO     |
-| ----------------- | ------- | ------- |
-| Northwind Website | 2 days  | 4 hours |
-| North Sales       | 4 hours | 8 hours |
+| Service           | RPO     | RTO     |Priority|
+| ----------------- | ------- | ------- |--------|
+| Northwind Website | 2 days  | 4 hours |1       |
+| North TimePro     | 4 hours | 8 hours |2       |
 
 ::::info
 
