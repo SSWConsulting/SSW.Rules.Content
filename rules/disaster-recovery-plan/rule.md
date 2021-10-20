@@ -54,7 +54,7 @@ In his Disaster Recovery Plan he had the following objectives:
 | Service           | RPO     | RTO     |Priority|
 | ----------------- | ------- | ------- |--------|
 | Northwind Website | 2 days  | 4 hours |1       |
-| North TimePro     | 4 hours | 8 hours |2       |
+| Northwind TimePro     | 4 hours | 8 hours |2       |
 
 ::::info
 
