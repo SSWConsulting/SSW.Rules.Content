@@ -38,5 +38,5 @@ Another option is to use WUG's built-in email alerts, which can be formatted in 
 The best option is to use SQL Reporting Services to create a custom report that can be emailed via a data-driven subscription, which sends a nicely formatted email when there's a problem.
 
 ::: good
-![Figure: Good example - Email - Red indicates servers are not healthy ](unhealthy.jpg)
+![Figure: Good example - Email - Nicely branded email, red indicates servers are not healthy ](unhealthy.jpg)
 :::
