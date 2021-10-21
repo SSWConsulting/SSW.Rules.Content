@@ -35,6 +35,7 @@ index:
 - how-to-run-nunit-tests-from-within-visual-studio
 - the-right-version-and-config-for-nunit
 - write-integration-test-for-dependencies
+- subcutaneous-tests
 
 ---
 
