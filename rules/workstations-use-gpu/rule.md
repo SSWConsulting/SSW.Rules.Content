@@ -10,10 +10,18 @@ guid: a917ea0a-f405-43eb-86ec-9cb60dc379be
 ---
 Having poor performance on video chat?
 
-Perhaps you need to set your video chat app (i.e. Teams) to use the GPU.
-            
+In Windows 10/11 you need to set your video chat app (i.e. Teams) to use the GPU.
+
 <!--endintro-->
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+1. Open Settings | System | Display
+2. Scroll down a bit and click Graphics settings
+   ![](graphicssettings.png "Figure: Choose Graphics settings")
+3. Either choose Microsoft Store apps and choose the relevant app or choose Desktop apps and browse for the executable
+    ::::greybox
+   **Note:** Microsoft Teams is a desktop app under your local user profile i.e. C:\Users%username%\AppData\Local\Microsoft\Teams\current\teams.exe
+    ::::
+4. Select options and choose High Performance GPU
+
+
+   ![](graphicssettings2.png "Figure: Choose High Performance GPU")
