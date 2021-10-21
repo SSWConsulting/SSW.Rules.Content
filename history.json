@@ -27952,5 +27952,14 @@
 		"lastUpdated": "2021-10-15T06:12:32.419Z",
 		"lastUpdatedBy": "Luke Parker",
 		"lastUpdatedByEmail": "10430890+Hona@users.noreply.github.com"
+	},
+	{
+		"file": "rules/workstations-use-gpu/rule.md",
+		"created": "2021-10-21T22:41:03.880Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-10-21T22:41:03.880Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
 ]
