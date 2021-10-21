@@ -18,20 +18,22 @@ Automated-UI testing tools like [Playwright](https://playwright.dev/) and [Selen
 
 <!--endintro-->
 
-Martin Fowler was one of the first people to [introduce the concept of Subcutaneous tests](https://martinfowler.com/bliki/SubcutaneousTest.html) into the mainstream. Subcutaneous tests are great for solving problems where automated-UI tests struggle to manipulate the UI in the right way.
+Martin Fowler was one of the first people to [introduce the concept of Subcutaneous tests](https://martinfowler.com/bliki/SubcutaneousTest.html) into the mainstream. Subcutaneous tests are great for solving problems where automated-UI tests struggle to manipulate the UI in the right way. 
 
-They are:
+Some of the key qualities of these tests are:
 
-* Written by developers
-* Test the full underlying behaviour of your app but bypasses the UI
-* Requires business logic to be implemented in the API / middle layer and not in the UI.
-* Tests can be much easier to write than using technologies that drive a UI
+* They are written by developers
+* They test the full underlying behaviour of your app but bypass the UI
+* They require business logic to be implemented in the API / middle layer and not in the UI.
+* They can be much easier to write than using technologies that drive a UI
 
   e.g. Playwright or Selenium
 
 ### Integrate with DevOps
 
-The gold standard is to automate the testing of subcutaneous tests by incorporating them into your DevOps processes such as when you perform a Pull Request or a build. You can do this using GitHub Actions or Azure DevOps.
+The gold standard ⭐ is to automatically run subcutaneous tests inside your DevOps processes such as when you perform a Pull Request or a build. You can do this using [GitHub Actions](https://github.com/features/actions) or [Azure DevOps](https://azure.microsoft.com/en-au/services/devops/).
+
+Every test should reset the database so you always know your resources are in a consistent state.
 
 ::: good
 ![Figure: Good example - Define your workflows in yml files and containerize your testing](githubactionyml.png)
