@@ -62,9 +62,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * Tip: The F# solution of scripts should be in a folder called Azure
 
 `youtube: https://www.youtube.com/embed/8E63s2QlbhA`
-::: bad
-Figure: Farmer was our favourite until Bicep was supported by Microsoft
-:::
+**Figure: Farmer was our favourite until Bicep was supported by Microsoft**
 
 ### Option B: Bicep by Microsoft (recommended)
 
