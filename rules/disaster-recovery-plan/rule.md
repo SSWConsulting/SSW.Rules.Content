@@ -31,13 +31,13 @@ RPO or Recovery Point Objective, is a measure of the maximum tolerable amount of
 RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use.  This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required. Measuring the actual downtime is known as **RTA**.
 
 #### Priority of Restore
-The product owner must also at this time establish a priority of restore for each Service.  This will determine the order that the recovery team restore services in.
+The product owner must also establish a priority of restore for each Service.  This will determine the order that the recovery team restore services in.
 
 ::: info
 **Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few seconds as even in that few seconds, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
 :::
 
-### How to calculate these values?\*\*
+### Business Impact Analysis
 
 RTO and RPO are determined via a consultation called BIA (Business Impact Analysis). The organization needs to work out what the maximum amount of data that they are prepared to lose and also the maximum amount of time that they are prepared to be without services. These are both measured in time, and could be seconds, minutes, hours or days depending on the organization's requirements. This is a balancing act as generally the shorter the timeframe required, the more resources the organisation will need in order to achieve the target.  
 
@@ -54,7 +54,7 @@ In his Disaster Recovery Plan he had the following objectives:
 | Service           | RPO     | RTO     |Priority|
 | ----------------- | ------- | ------- |--------|
 | Northwind Website | 2 days  | 4 hours |1       |
-| North TimePro     | 4 hours | 8 hours |2       |
+| Northwind TimePro     | 4 hours | 8 hours |2       |
 
 ::::info
 
