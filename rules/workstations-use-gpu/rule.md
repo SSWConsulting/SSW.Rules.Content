@@ -24,4 +24,4 @@ In Windows 10/11 you need to set your video chat app (i.e. Teams) to use the GPU
 4. Select options and choose High Performance GPU
 
 
-   ![](graphicssettings2.png "Figure: Choose High Performance GPU")
+   ![Figure: Choose High Performance GPU](graphicssettings2.png)
