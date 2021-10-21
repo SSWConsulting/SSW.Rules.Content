@@ -25,6 +25,7 @@ They are:
 * Test the full underlying behaviour of your app but bypasses the UI
 * Requires business logic to be implemented in the API / middle layer and not in the UI.
 * Tests can be much easier to write than using technologies that drive a UI
-e.g. PlayWright
+
+  e.g. PlayWright
 
 Jason Taylor has a fantastic example of Subcutaneous testing in his [Clean Architecture template](https://github.com/jasontaylordev/CleanArchitecture/tree/main/tests/Application.IntegrationTests)
