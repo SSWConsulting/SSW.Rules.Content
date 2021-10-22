@@ -16,14 +16,13 @@ redirects:
 
 In the course of your employment, you may need or want to produce a number of videos that might be useful both for the company and for your own profile.
 
-For unlisted videos, e.g. done videos, put them on your own YouTube channel, as you can then look back to them a decade later fondly and see how much you have improved.
+**For unlisted videos** (e.g. Done videos), you may [put them on **your own YouTube channel** under a playlist](https://support.google.com/youtube/answer/57792?hl=en&co=GENIE.Platform%3DDesktop) called "Professional". You can then look back to them a decade later fondly and see how much you have improved. 
+
+![Figure: Your own channel showing professional videos](youtube-ownchannel.jpg)
 
 <!--endintro-->
 
-For videos taken in your own time on your own equipment, you can feel free to put that on your own channel too.
+**For videos that would help your company's YouTube presence**, it's best to upload them directly onto t**he company YouTube channel**. There, you can have a playlist with your name in it, making it easier to find your videos over the years. These videos will help promote your own profile, as well as the company's.
 
-For any videos that would help your company's YouTube presence and that are taken either in company time or with company equipment, it's best to upload them directly onto the company YouTube channel, and add them to a playlist on your own channel, so they still show up there and help promote your own profile, as well as the company's.
+**Note:** Those that are mostly taken in working hours, and with company equipment.
 
-![Figure: Click Add to | pick a playlist, and this video will show up on your personal channel](youtube-playlist.jpg)  
-
-![Figure: Your own channel now shows these videos](youtube-ownchannel.jpg)
