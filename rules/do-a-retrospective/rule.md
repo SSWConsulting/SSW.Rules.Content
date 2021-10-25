@@ -14,6 +14,7 @@ authors:
   url: https://ssw.com.au/people/joanna-feely
 related: 
 - do-you-know-what-happens-at-a-sprint-retrospective-meeting
+- do-you-know-when-and-when-not-to-use-email
 redirects:
 - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-(a-k-a-feedback)
 - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
