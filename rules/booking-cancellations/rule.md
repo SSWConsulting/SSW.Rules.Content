@@ -16,6 +16,7 @@ On occasion, you may be asked in the morning or even halfway through the day to 
 
 The reaction from Developer X should be:
 
-“OK, I will call my Account Manager and make sure future bookings are cancelled until further notice. Is there anything else I can work on so you get the best value out of the rest of my day today?”
+“OK, I will call my Account Manager and make sure *future* bookings are cancelled until further notice. 
+For today, is there anything else I can work on so you get the best value out of the rest of my day?”
 
-Same-day cancellations are possible but are exceptions  – If there is nothing more you can work on, refer the client to your Account Manager.
+Note: Same-day cancellations still incur that days costs. If there is nothing more you can work on and the client is unhappy, refer the client to your Account Manager.
