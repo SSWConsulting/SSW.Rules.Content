@@ -2,7 +2,9 @@
 type: rule
 title: Do you know what happens at a Sprint Review Meeting?
 uri: do-you-know-what-happens-at-a-sprint-review-meeting
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-05-06T02:07:33.000Z
