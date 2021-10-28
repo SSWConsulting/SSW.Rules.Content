@@ -30,19 +30,19 @@ Follow these steps to get up and running:
 
 4. You will see a window with options for your new Iteration, name it **Sprint** and enter **Start on** and **Duration**.
 
-![Figure: Pick the options you want for your Iteration](iterationoptions.png)
+![Figure: Pick the name and the dates via the Iteration field options](iterationoptions.png)
 
 5. Now add some Issues to the project and then you can assign them to the correct Sprint, by clicking the drop down in the **Sprint** field.
 
 **Note:** You can even add Issues from different Repos
 
-![Figure: Pick the Sprint you want for your PBI](assignpbitodropdown.png)
+![Figure: Pick the Sprint you want for your Issues](assignpbitodropdown.png)
 
 6. To add more Sprints, navigate to **Settings | Sprint | Add iteration**
 
 **Note:** You can also change **Starts on** and **Duration** here
 
-![Figure: Navigate to settings to add new Sprints](settingsnav.png)
+![Figure: To add a Sprint, Settings | Sprint | Add Iteration](settingsnav.png)
 
 ![Figure: To add new Sprints, select Settings | Add iteration](additerations.png)
 
@@ -53,6 +53,6 @@ Follow these steps to get up and running:
 
 9. Voila! You have Scrum all setup! For bonus points check out the workflow screen where you can automate parts of your issue workflow
 
-![Figure: Navigate to the workflow screen](workflownav.png)
+![Figure: You can enable or disable predefined Workflows](workflownav.png)
 
-![Figure: There are a bunch of predefined workflows - Coming soon: the ability to create your own!](workflows.png)
+![Figure: There are a bunch of predefined workflows (Coming soon: the ability to create your own! )](workflows.png)
