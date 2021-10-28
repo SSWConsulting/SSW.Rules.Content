@@ -19,7 +19,7 @@ Let's take a look at some of the great new things you can do...
 <!--endintro-->
 
 * Track Sprints
-* Track Complexity
+* Track estimates
 * Add custom fields to Issues
 * Collate Issues from multiple repos
 * Set up automated workflows for your Issues in a project
