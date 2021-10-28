@@ -17,15 +17,15 @@ redirects:
 
 ---
 
-When a new developer joins a project, there is often a sea of information that they need to learn right away to be productive. This includes things like:
+When a new developer joins a project, there is often a sea of information that they need to learn right away to be productive. This includes things like who the Product Owner and Scrum Master are, where the backlog is, where staging and production environments are, etc.
 
-1. Who the [Product Owner](/rules-to-better-product-owners) is and who the [Scrum Master](/the-team-do-you-have-a-scrum-master-outside-the-dev-team) is
-2. Where the backlog is
-3. Where the automated builds are
-4. Where the staging and production environments are
-5. How to set up the development environment for the project
+<!--endintro-->
 
 Make it easy for the new developer by putting all this information in a central location like the Visual Studio dashboard.
+
+::: info
+**Note:** As of October 2021, this feature is missing in GitHub Projects.
+:::
 
 ![](plaindashboard.png)  
 
@@ -36,8 +36,6 @@ Make it easy for the new developer by putting all this information in a central 
 ::: good  
 ![Figure: Good Example - This dashboard contains all the information a new team member would need to get started](2016-06-06\_9-15-14.png)  
 :::
- 
-<!--endintro-->
 
 The dashboard should contain:
 
