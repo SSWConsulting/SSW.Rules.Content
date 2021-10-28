@@ -12,7 +12,7 @@ guid: 1e308570-5ab0-43d7-8a83-6bdfd04d212e
 ---
 GitHub is an awesome place to manage your code, but initially it wasn't the easiest place to manage Scrum.  Things improved in 2021 with GitHub Projects. 
 
-[GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) lets you create Sprints and manage Issues (aka PBIs or Tasks) with far more powerful. 
+[GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) lets you create Sprints and manage Issues (aka PBIs or Tasks) with far more power. 
 
 Let's take a look at some of the great new things you can do...
 
