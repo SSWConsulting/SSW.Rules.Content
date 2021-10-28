@@ -27979,5 +27979,14 @@
 		"lastUpdated": "2021-10-25T19:41:03.737Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/github-sprint-templates/rule.md",
+		"created": "2021-10-28T08:47:42.105Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-10-28T08:47:42.105Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
 ]
