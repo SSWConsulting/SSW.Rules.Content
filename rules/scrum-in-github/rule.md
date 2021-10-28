@@ -25,9 +25,7 @@ Let's take a look at some of the great new things you can do...
 * Set up automated workflows for your Issues in a project
 
 ::: good
-
 ![Figure: Good example - GitHub Projects gives you much more powerful project management ability](githubscrumworkflowimproved.png)
-
 :::
 
 That's a tonne of awesome features....but it requires a bit of set up, follow these steps to get up and running:
