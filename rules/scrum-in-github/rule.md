@@ -42,3 +42,15 @@ GitHub projects lets you create sprints easily and manage tasks across multiple 
 ![Figure: Navigate to settings to add new Iterations](settingsnav.png)
 
 ![Figure: Add new iterations from the settings screen](additerations.png)
+
+7. To give yourself a better view of things, you might want to create a view that groups by sprint. Name your current view **Backlog** then create a new view and name it **Sprints**
+
+8. Click the view drop down and select **group:Sprint** and **sort:Status-asc** , now it will show sprints grouped and ordered by task status
+
+![Figure: Create a sprint board by grouping and sorting](groupandsort.png)
+
+9. Voila! You have your Scrum workflow all setup! For bonus points check out the workflow screen where you can automate parts of your issue workflow
+
+![Figure: Navigate to the workflow screen](workflownav.png)
+
+![Figure: There are a bunch of predefined workflows and soon you will be able to create your own!](workflows.png)
