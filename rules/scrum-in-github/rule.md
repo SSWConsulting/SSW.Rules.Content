@@ -5,16 +5,26 @@ uri: scrum-in-github
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+related:
+  - github-sprint-templates
 created: 2021-10-28T01:49:43.558Z
 guid: 1e308570-5ab0-43d7-8a83-6bdfd04d212e
 ---
 GitHub is an awesome place to manage your code, but initially it wasn't the easiest place to manage Scrum.  Things improved in 2021 with GitHub Projects. 
 
-GitHub Projects lets you create Sprints and manage Issues (aka PBIs or Tasks) across multiple repositories. 
+[GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) lets you create Sprints and manage Issues (aka PBIs or Tasks) with far more powerful. 
 
-Follow these steps to get up and running:
+Let's take a look at some of the great new things you can do...
 
 <!--endintro-->
+
+* Track Sprints
+* Track Complexity
+* Add custom fields to Issues
+* Collate Issues from multiple repos
+* Set up automated workflows for your Issues in a project
+
+That's a tonne of awesome features....but it requires a bit of set up, follow these steps to get up and running:
 
 1. Navigate to **Projects | Projects (Beta) | New project**
 
@@ -47,7 +57,7 @@ Follow these steps to get up and running:
 ![Figure: To add new Sprints, select Settings | Add iteration](additerations.png)
 
 7. To give yourself a better view of things, you might want to create a view that groups by Sprint. Name your current view **Backlog** then create a new view and name it **Sprints**
-8.  To see the Sprints grouped, and the issues ordered by status, click the view drop down and select **group:Sprint** and **sort:Status-asc** 
+8. To see the Sprints grouped, and the issues ordered by status, click the view drop down and select **group:Sprint** and **sort:Status-asc** 
 
 ![Figure: To create a list of Sprints add grouping and sorting](groupandsort.png)
 
