@@ -26,7 +26,7 @@ Let's take a look at some of the great new things you can do...
 
 ::: good
 
-![Figure: Good example - GitHub Projects gives you much more powerful project management ability](githubscrumworkflow.png)
+![Figure: Good example - GitHub Projects gives you much more powerful project management ability](githubscrumworkflowimproved.png)
 
 :::
 
