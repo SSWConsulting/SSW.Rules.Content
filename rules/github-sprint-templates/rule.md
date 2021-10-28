@@ -7,6 +7,7 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 related:
+  - scrum-in-github
   - do-you-have-the-best-github-issue-template
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
   - do-you-create-a-sprint-review-retro-email
