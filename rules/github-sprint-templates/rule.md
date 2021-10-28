@@ -31,7 +31,7 @@ Creating an issue template for both your Sprint Review/Retro email and your Spri
 
 Make your GitHub issue templates follow the format of the rules on [Sprint Forecasts](do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) and [Sprint Reviews](https://www.ssw.com.au/rules/do-you-create-a-sprint-review-retro-email) then you are good to go. 
 
-Give your Sprint issues a special "sprint" tag so they can be identified in the backlog.
+Give your Sprint issues a special "sprint" tag so they can be identified in the backlog. Alternatively, you could store them in a separate repo which keeps them apart from your others issues and lets you keep the sprint emails private if you don't want them in your public repo.
 
 ::: bad
 
