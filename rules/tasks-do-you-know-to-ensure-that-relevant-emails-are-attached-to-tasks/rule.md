@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
 title: Tasks - Do you know to ensure that relevant emails are attached to tasks?
-guid: d49fc7ef-dd61-4c72-addc-5ff3c4cb2d70
 uri: tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks
-created: 2010-04-28T14:41:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2010-04-28T14:41:54.000Z
+archivedreason: null
+guid: d49fc7ef-dd61-4c72-addc-5ff3c4cb2d70
 ---
 
 Often you will receive rich information from your Product Owner (customer) about tasks. That information can be in the form of Word documents, but you generally receive them in the context of an email. This should be done by one person called the **scribe**.
@@ -21,7 +20,7 @@ Often you will receive rich information from your Product Owner (customer) about
 
 1. Take screenshots and notes
 2. Turn them into multiple emails
-3. Add them into Azure DevOps (was TFS)
+3. Add them into Azure DevOps (note, you can't do this in GitHub)
 
 :::
 
