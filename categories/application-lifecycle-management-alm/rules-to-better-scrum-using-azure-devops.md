@@ -19,7 +19,6 @@ index:
 - the-3-commitments-in-scrum
 - do-you-know-the-how-to-be-a-good-product-owner
 - build-the-backlog
-- product-owner-do-you-know-how-to-update-the-backlog
 - create-PBIs-under-2-days
 - estimating-do-you-break-large-tasks-into-smaller-tasks
 - estimating-do-you-know-how-to-size-user-stories-effectively
@@ -70,10 +69,7 @@ index:
 - bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog
 - do-you-have-a-product-roadmap
 - do-you-know-how-devops-fits-in-with-scrum
-- do-you-have-a-devops-checklist
-- do-you-add-a-version-number-to-pbis-that-have-multiple-iterations
 - do-you-have-a-preflight-checklist
-- do-you-know-that-gated-checkins-mask-dysfunction
 - printed-story-cards
 - get-work-items-via-excel
 - linking-work-items
