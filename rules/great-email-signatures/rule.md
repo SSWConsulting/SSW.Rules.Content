@@ -23,8 +23,12 @@ redirects:
 created: 2015-11-02T20:01:33.000Z
 archivedreason: null
 guid: 9ba16834-8789-41b1-b64c-7c10e8ffb837
+
 ---
+
 Email signatures are a great way of adding some advertising and branding. You should **always use a nice email signature for external emails**. Internally, you may use a short one (just your name or initials).
+
+`youtube: https://www.youtube.com/embed/qwG8RA-cWy0`
 
 <!--endintro-->
 
@@ -144,5 +148,4 @@ CodeTwo (and Exclaimer) give:
 **SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript 
 
 **Note:** This does not setup your signature on OWA or your mobile signature
-
 :::
