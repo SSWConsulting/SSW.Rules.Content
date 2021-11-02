@@ -168,15 +168,15 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 
 The Product Owner can always respond if he doesn’t like the suggestion:  
 - For a bug email: 
-<br/>
-<br/>
+
+
   **To: TechLead  
   Cc: ProductOwner  
   Subject: Bug -  xxx (or use PBI @mention)**
 
 - For a new feature email: 
-<br/>
-<br/>
+
+
   **To: TechLead  
   Cc: ProductOwner  
   Subject: Suggestion - xxx  (or use PBI @mention)**
@@ -192,3 +192,5 @@ When you create a bug/suggestion to a backlog, it's a good idea to add emoji in 
 This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc.):
 - 🐛 Bug - Calendar is not showing on iOS devices
 - ✨Feature - Add 'Back to menu' item to top navigation
+
+[Check out the rule on which emojis to use in scrum](/which-emojis-to-use-in-scrum).
