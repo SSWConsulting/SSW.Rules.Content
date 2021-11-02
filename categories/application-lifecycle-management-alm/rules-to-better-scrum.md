@@ -63,5 +63,6 @@ index:
 - do-you-know-how-devops-fits-in-with-scrum
 - printed-story-cards
 
-
 ---
+
+Learn more about Scrum with [Azure DevOps](/rules-to-better-scrum-using-azure-devops) and [GitHub](/rules-to-better-scrum-using-github).
