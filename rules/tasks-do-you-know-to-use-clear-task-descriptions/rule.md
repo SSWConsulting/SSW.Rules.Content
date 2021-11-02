@@ -20,11 +20,17 @@ Once you have accepted a task you should then add as much information as possibl
 You can use rich text and images to be extra clear, or even [attach an email to the task](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks).
 
 ::: bad
-![Figure: Bad example - there is not enough information for a non-team member to complete this task](screen-shot-2021-11-02-at-9.30.39-am.png)
+![Figure: Bad example - there is not enough information for anyone to complete this task](screen-shot-2021-11-02-at-9.30.39-am.png)
 :::
 
 ::: good
-![Figure: Good example - Lots of information so anyone can pick up that task](screen-shot-2021-11-02-at-9.30.14-am.png)
+![Figure: Good example - Azure DevOps - Lots of information so anyone can pick up that task](screen-shot-2021-11-02-at-9.30.14-am.png)
 :::
 
-**Note:** If you are updating the details of a PBI then follow the rule “[Do you know when you use @ mentions in a PBI?](/when-you-use-mentions-in-a-pbi)”
+::: good
+![Figure: Good example - GitHub - Lots of information so anyone can pick up that task](screen-shot-2021-11-02-at-9.54.20-am.png)
+:::
+
+::: info
+**Note:** If you are updating the details of a PBI then follow [the rule on using @ mentions](/when-you-use-mentions-in-a-pbi).
+:::
