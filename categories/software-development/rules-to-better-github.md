@@ -28,7 +28,7 @@ index:
 - limit-admin-access
 - set-default-permissions-for-new-repositories
 - do-you-know-how-to-setup-github-notifications
-- do-you-have-the-best-github-issue-template
+- github-issue-templates
 - do-you-know-how-to-set-up-github-workflow
 - do-you-know-how-to-handle-undone-work
 - todo-tasks

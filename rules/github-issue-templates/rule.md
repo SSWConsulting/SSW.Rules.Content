@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: GitHub Issues - Do you have the best Issue Template?
 guid: ba8f3441-139a-4638-9fc8-144408902104
-uri: github-issue-templates
+uri: github-issue-templatess
 created: 2021-07-06T12:44:34.0000000Z
 authors:
   - title: Tom Bui
@@ -17,6 +17,8 @@ authors:
 related:
 - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 - do-you-know-how-to-use-tags-for-github-issues
+redirects:
+ - do-you-have-the-best-github-issue-template
 
 ---
 

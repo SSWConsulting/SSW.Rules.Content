@@ -9,7 +9,7 @@ index:
 - customize-labels-in-github
 - how-to-create-a-sprint-backlog
 - github-sprint-templates
-- do-you-have-the-best-github-issue-template
+- github-issue-templates
 - use-emojis-in-your-commits
 
 ---
