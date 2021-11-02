@@ -15,28 +15,30 @@ authors:
   - title: Piers Sinclar
     url: https://www.ssw.com.au/people/piers-sinclar
 related:
-- do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
-- do-you-know-how-to-use-tags-for-github-issues
+  - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+  - do-you-know-how-to-use-tags-for-github-issues
 redirects:
- - do-you-have-the-best-github-issue-template
+  - do-you-have-the-best-github-issue-template
 
 ---
 
-GitHub issues offers a great way of raising issues within the projects. However, it can be difficult to distinguish whether the issue is about a bug fix, feature request or just a topic question.
-Therefore, GitHub issue templates should be used to help standardize issues.
+GitHub issues offer a great way of raising issues within projects. However, it can be difficult to distinguish whether the issue is a bug, feature request or just a question.
+GitHub issue templates should be used to help standardize issues and ensure they have enough information for a developer to start work.
 
 <!--endintro-->
 
+::: bad
+![Figure: Bad Example - Issue created without a template](bad-example-issue.png)
+:::
 
 
-
+::: good 
+![Figure: Good Example - Issue created from a template](bad-example-issue.png)
+<!-- TODO: Get a good example -->
+:::
 
 
 See [SSW Github issues template](https://github.com/SSWConsulting/ssw.github.template) to view our standard configured issue templates
-
-
-
-
 
 
 For instructions on setting this up, see [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
