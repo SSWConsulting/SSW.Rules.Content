@@ -22,9 +22,9 @@ One of the few disadvantages of videos over written content is that Google can'
 
 <!--endintro-->
 
-It also helps people to copy and paste important parts of what's said on the video.
+It also helps people to copy and paste important parts of what's said on the video.
 
-![Figure: How to improve the keywords of this video?](transcribe.jpg)  
+![Figure: How to improve the Google juice for this video?](transcribe.jpg)  
 
 The keywords for the video above are:
 
@@ -43,16 +43,18 @@ However, it is missing important keywords such as:
 * Raspberry Pi
 * I2C
 
-How to capture all of these missing keywords? You can't just overload your content with keywords, as your content will quickly become flagged as spam.
+How to capture all of these missing keywords? You can't just overload your content with keywords, as your content may become flagged as spam.
 
 The answer is to have your video content transcribed. As it provides drastically benefits for the discoverability of your video content, while the organic nature of the written material ensures it is not flagged as spam.
 
-![Figure: Checkout the rest of this example transcript - http://blog.chrisbriggsy.com/Ilija-Injac-on-IoT/](transcription.jpg)  
+![Figure: Include a transcript in your content](transcription.jpg)  
+
+See it live on Chris Briggs' blog post: [VIDEO – The Internet of Things - Ilija Injac on all things IoT and .NET](http://blog.chrisbriggsy.com/Ilija-Injac-on-IoT).
 
 A quick Google search will show a range of services which will make the task effortless. However, professional transcriptions are expensive. If you’re willing to spend a little time cleaning up technical jargon then it is worth checking out:
 
 * [https://www.speechpad.com](https://www.speechpad.com/) - for a better transcription quality
-* [https://www.fiverr.com](https://www.fiverr.com/)  - for a quicker reply and cheaper pricing
+* [https://www.fiverr.com](https://www.fiverr.com/) - for a quicker reply and cheaper pricing
 
 ::: info
 As an example, we have had success with this method as one of our devs, Chris Briggs transcribed all 3 hours of his **SSW TV** video content for under $90 USD and an hour and a half of his time to fix up jargon.
