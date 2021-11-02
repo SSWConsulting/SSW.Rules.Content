@@ -3,6 +3,7 @@ type: top-category
 title: Application Lifecycle Management (ALM)
 uri: application-lifecycle-management-alm
 index:
+- rules-to-better-scrum
 - rules-to-better-scrum-using-github
 - rules-to-better-scrum-using-azure-devops
 - rules-to-better-version-control-with-tfs-aka-source-control
@@ -18,4 +19,3 @@ index:
 - rules-to-better-tfs-customization
 
 ---
-
