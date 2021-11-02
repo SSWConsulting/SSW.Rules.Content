@@ -6,6 +6,7 @@ uri: rules-to-better-scrum-using-github
 index:
 - scrum-in-github
 - turn-emails-into-a-github-issue
+- how-to-create-a-sprint-backlog
 - github-sprint-templates
 - do-you-have-the-best-github-issue-template
 
