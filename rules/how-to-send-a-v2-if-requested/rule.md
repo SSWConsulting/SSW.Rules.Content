@@ -36,5 +36,5 @@ To send a v2:
    2. Put v2 on the 1<sup>st</sup> line of the email body
       
       **Note:** Do not put v2 in the subject because we want to keep the threading.
-   3. Only keep the email history leading up to when you sent your v1, so this v2 will essentially replace the v1, as if the v1 never happened
+   3. Keep the email history leading up to your v1 email, replace your v1 with your v2 email, as if the v1 never happened
    4. If all the feedback is incorporated into the v2, there is no need for an additional done email. However if there are additional tasks in the feedback, it may be necessary to reply done to those as well as sending a v2 (i.e. 2 emails)
