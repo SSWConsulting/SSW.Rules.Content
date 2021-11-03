@@ -28033,5 +28033,14 @@
 		"lastUpdated": "2021-11-03T21:38:15.619Z",
 		"lastUpdatedBy": "bradystroud",
 		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
+	},
+	{
+		"file": "rules/turn-emails-into-a-github-issue/rule.md",
+		"created": "2021-11-03T22:45:01.584Z",
+		"createdBy": "Piers Sinclair [SSW]",
+		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
+		"lastUpdated": "2021-11-03T22:45:01.584Z",
+		"lastUpdatedBy": "Piers Sinclair [SSW]",
+		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
 	}
 ]
