@@ -32,4 +32,7 @@ index:
 - do-you-know-how-to-set-up-github-workflow
 - do-you-know-how-to-handle-undone-work
 - todo-tasks
+
 ---
+
+Learn more about [Scrum with GitHub](/rules-to-better-scrum-using-github).
