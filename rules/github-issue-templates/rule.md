@@ -9,8 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-  - title: Piers Sinclar
-    url: https://www.ssw.com.au/people/piers-sinclar
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
   - do-you-know-how-to-use-tags-for-github-issues
