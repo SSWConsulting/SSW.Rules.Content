@@ -27985,9 +27985,9 @@
 		"created": "2021-10-28T08:47:42.105Z",
 		"createdBy": "Piers Sinclair [SSW]",
 		"createdByEmail": "79821522+pierssinclairssw@users.noreply.github.com",
-		"lastUpdated": "2021-10-28T08:49:44.181Z",
-		"lastUpdatedBy": "Piers Sinclair [SSW]",
-		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+		"lastUpdated": "2021-11-03T21:38:15.618Z",
+		"lastUpdatedBy": "bradystroud",
+		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
 	},
 	{
 		"file": "rules/how-to-create-a-sprint-backlog/rule.md",
@@ -27997,5 +27997,41 @@
 		"lastUpdated": "2021-10-30T02:59:55.935Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
+	},
+	{
+		"file": "rules/github-issue-templates/rule.md",
+		"created": "2021-11-02T04:36:47.541Z",
+		"createdBy": "Brady Stroud [SSW]",
+		"createdByEmail": "bradystroud@ssw.com.au",
+		"lastUpdated": "2021-11-03T21:38:15.618Z",
+		"lastUpdatedBy": "bradystroud",
+		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
+	},
+	{
+		"file": "rules/github-issue-templates/bad-example-issue.png",
+		"created": "2021-11-03T11:02:42.130Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-11-03T21:38:15.618Z",
+		"lastUpdatedBy": "bradystroud",
+		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
+	},
+	{
+		"file": "rules/github-issue-templates/good-example-issue.png",
+		"created": "2021-11-03T11:02:42.130Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-11-03T21:38:15.618Z",
+		"lastUpdatedBy": "bradystroud",
+		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
+	},
+	{
+		"file": "rules/github-issue-templates/list-of-options.png",
+		"created": "2021-11-03T21:32:34.851Z",
+		"createdBy": "Brady Stroud",
+		"createdByEmail": "bradystroud@me.com",
+		"lastUpdated": "2021-11-03T21:38:15.619Z",
+		"lastUpdatedBy": "bradystroud",
+		"lastUpdatedByEmail": "bradystroud@users.noreply.github.com"
 	}
 ]
