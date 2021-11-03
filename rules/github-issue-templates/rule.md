@@ -36,6 +36,9 @@ GitHub issue templates should be used to help standardize issues and ensure they
 ![Figure: Good Example - Issue created from a template](good-example-issue.png)
 :::
 
+::: good 
+![Figure: Good Example - All the available issue template](list-of-options.png)
+:::
 
 See [SSW Github issues template](https://github.com/SSWConsulting/SSW.GitHub.Template) to view our standard configured issue templates
 
