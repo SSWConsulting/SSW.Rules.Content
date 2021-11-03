@@ -1,16 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know which emojis to use in Scrum?
-guid: 892ce6ab-48bf-4c06-82d0-b057526a4283
 uri: which-emojis-to-use-in-scrum
-created: 2020-04-06T07:26:07.0000000Z
 authors: []
-related: []
+related:
+  - use-emojis-in-your-commits
 redirects:
-- do-you-know-the-which-emojis-to-use-in-scrum
-- do-you-know-which-emojis-to-use-in-scrum
-
+  - do-you-know-the-which-emojis-to-use-in-scrum
+  - do-you-know-which-emojis-to-use-in-scrum
+created: 2020-04-06T07:26:07.000Z
+archivedreason: null
+guid: 892ce6ab-48bf-4c06-82d0-b057526a4283
 ---
 
 Emojis in meeting names makes it easier for people to quickly workout what type of meeting is coming up. It even can make the important meetings stand out. 
