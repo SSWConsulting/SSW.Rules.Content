@@ -5,9 +5,10 @@ uri: how-to-create-a-sprint-backlog
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+related:
+  - scrum-in-github
 created: 2021-08-31T02:14:37.681Z
 guid: d931f380-21c9-45b1-85df-20382ad9d643
-
 ---
 
 Prior to your meeting with the customer you should prepare. Get your [Sprint Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting) (was Release Plan') email ready, so after the meeting you can adjust and promptly send it. 
