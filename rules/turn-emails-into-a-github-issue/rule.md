@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you turn emails into a GitHub Issues before starting work?
+title: GitHub Issues - Do you turn emails into Issues before starting work?
 guid: f866b251-c988-4e30-acc4-f6bac793c1d7
 uri: turn-emails-into-a-github-issue
 created: 2020-10-27T03:57:22.0000000Z
