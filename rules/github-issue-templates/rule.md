@@ -38,7 +38,8 @@ GitHub issue templates should be used to help standardize issues and ensure they
 :::
 
 
-See [SSW Github issues template](https://github.com/SSWConsulting/ssw.github.template) to view our standard configured issue templates
+See [SSW Github issues template](https://github.com/SSWConsulting/SSW.GitHub.Template) to view our standard configured issue templates
 
 
 For instructions on setting this up, see [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+s
