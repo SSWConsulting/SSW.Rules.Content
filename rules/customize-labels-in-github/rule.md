@@ -1,6 +1,6 @@
 ---
 type: rule
-title: GitHub issues – Do you customize your labels in GitHub?
+title: GitHub Issues – Do you customize your labels in GitHub?
 uri: customize-labels-in-github
 authors:
   - title: Piers Sinclair
