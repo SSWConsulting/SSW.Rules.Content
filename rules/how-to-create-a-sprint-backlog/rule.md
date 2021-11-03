@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to create a sprint backlog?
+title: Scrum - Do you know how to create a Sprint Backlog?
 uri: how-to-create-a-sprint-backlog
 authors:
   - title: Ulysses Maclaren
