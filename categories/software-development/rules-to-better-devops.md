@@ -33,3 +33,5 @@ index:
 ---
 
 If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
+
+Learn more about [Scrum with Azure DevOps](/rules-to-better-scrum-using-azure-devops).
