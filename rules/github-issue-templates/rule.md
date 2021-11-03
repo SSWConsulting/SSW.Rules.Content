@@ -33,8 +33,7 @@ GitHub issue templates should be used to help standardize issues and ensure they
 
 
 ::: good 
-![Figure: Good Example - Issue created from a template](bad-example-issue.png)
-<!-- TODO: Get a good example -->
+![Figure: Good Example - Issue created from a template](good-example-issue.png)
 :::
 
 
