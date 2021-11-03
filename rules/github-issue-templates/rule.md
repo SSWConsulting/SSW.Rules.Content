@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: GitHub Issues - Do you have the best Issue Template?
+title: GitHub Issues - Do you use Issue Templates?
 guid: ba8f3441-139a-4638-9fc8-144408902104
 uri: github-issue-templates
 created: 2021-07-06T12:44:34.0000000Z
