@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you write nice commit messages?
+title: GitHub Repos - Do you write nice commit messages?
 uri: use-emojis-in-your-commits
 authors:
   - title: Adam Cogan
