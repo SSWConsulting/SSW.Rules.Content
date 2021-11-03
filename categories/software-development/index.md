@@ -7,6 +7,7 @@ index:
 - rules-to-better-architecture-and-code-review
 - rules-to-better-azure
 - rules-to-better-devops
+- rules-to-better-azure-devops
 - rules-to-better-mvc
 - rules-to-better-bots
 - rules-to-better-clean-architecture
