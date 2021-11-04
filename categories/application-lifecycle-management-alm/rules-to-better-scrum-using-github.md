@@ -8,7 +8,7 @@ index:
 - scrum-in-github
 - how-to-create-a-sprint-backlog
 - github-sprint-templates
-- customize-labels-in-github
+- labels-in-github
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
 
