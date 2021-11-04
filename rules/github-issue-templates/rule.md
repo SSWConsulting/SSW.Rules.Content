@@ -21,31 +21,30 @@ redirects:
 created: 2021-07-06T12:44:34.000Z
 archivedreason: null
 guid: ba8f3441-139a-4638-9fc8-144408902104
-
 ---
-GitHub issues offer a great way of raising issues within projects. However, it can be difficult to distinguish whether the issue is a bug, feature request or just a question.  
-GitHub issue templates should be used to help standardize issues and ensure they have enough information for a developer to start work.
+GitHub Issues offer a great way of raising Issues within projects. However, it can be difficult to distinguish whether the Issue is a bug, feature request or just a question.  
+GitHub Issue Templates should be used to help standardize Issues and ensure they have enough information for a developer to start work.
 
 
-Let's take a look at how implementing issue templates can improve repository backlogs...
+Let's take a look at how implementing Issue Templates can improve repository backlogs...
 
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - Issue created without a template](bad-example-issue.png)
+![Figure: Bad Example - Issue created without a Template](bad-example-issue.png)
 :::
 
 ::: good 
-![Figure: Good Example - Issue created from a template](good-example-issue.png)
+![Figure: Good Example - Issue created from a Template](good-example-issue.png)
 :::
 
 ::: good 
-![Figure: Good Example - All the available issue template](list-of-options.png)
+![Figure: Good Example - All the available Issue Template](list-of-options.png)
 :::
 
 ::: info
 For instructions on setting this up:
-- See [Configuring issue templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) 
-- Check out our template - [SSW Github repo template.](https://github.com/SSWConsulting/SSW.GitHub.Template)
+- See [Configuring Issue Templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) 
+- Check out our Template - [SSW Github repo Template.](https://github.com/SSWConsulting/SSW.GitHub.Template)
 :::
