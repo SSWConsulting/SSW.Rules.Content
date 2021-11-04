@@ -11,9 +11,9 @@ authors:
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
 related:
-- /communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
-- /do-you-show-your-phone-number-to-allow-for-emergency-communication
-- /tiny-do-you-know-email-does-not-have-a-hyphen
+- communication-do-you-go-beyond-text-when-using-teams-zoom-skype-chat
+- do-you-show-your-phone-number-to-allow-for-emergency-communication
+- tiny-do-you-know-email-does-not-have-a-hyphen
 redirects:
 - do-you-use-email-for-tasks-only-not-chatting
 
