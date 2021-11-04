@@ -11,6 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/luke-parker
 related:
   - github-issue-templates
+redirects:
   - customize-labels-in-github
 created: 2021-11-03T16:35:21.048Z
 guid: f779b702-be93-4865-b967-c3bf63498670
