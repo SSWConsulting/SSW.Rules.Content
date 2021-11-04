@@ -16,7 +16,7 @@ redirects:
 created: 2021-11-03T16:35:21.048Z
 guid: f779b702-be93-4865-b967-c3bf63498670
 ---
-Labels are an important way of categorizing your GitHub issues. However, it is critical to make sure they are useful, clear and do not overwhelm users. 
+Labels are an important way of categorizing your GitHub Issues. However, it is critical to make sure they are useful, clear and do not overwhelm users. 
 
 The goal is to use consistent labels across all repos. 
 
@@ -24,7 +24,7 @@ Let's take a look at how to make a simple, yet information rich set of labels...
 
 <!--endintro-->
 
-Firstly, set up some [GitHub Issue Templates](github-issue-templates) that have default labels. Prefix those ones with "Type:" so it is clear they define the type of issue:
+Firstly, set up some [GitHub Issue Templates](github-issue-templates) that have default labels. Prefix those ones with "Type:" so it is clear they define the type of Issue:
 * Type: Bug
 * Type: DevOps
 * Type: Documentation
@@ -37,9 +37,9 @@ Some labels to define the area of work:
 * Area: Frontend
 * Area: Backend
 
-And the standard GitHub label to indicate it is a good issue for developers new to the project:
+And the standard GitHub label to indicate it is a good Issue for developers new to the project:
 * Good First Issue
 
 ::: good
-![Figure: Good Example -  Add a few labels beyond the ones that are set based on the issue templates](extralabels.png)
+![Figure: Good Example -  Add a few labels beyond the ones that are set based on the Issue Templates](extralabels.png)
 :::
