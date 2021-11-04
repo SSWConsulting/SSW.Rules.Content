@@ -41,5 +41,5 @@ And the standard GitHub label to indicate it is a good Issue for developers new 
 * Good First Issue
 
 ::: good
-![Figure: Good Example -  Add a few labels beyond the ones that are set based on the Issue templates](extralabels.png)
+![Figure: Good Example -  Add a few labels beyond the ones that are set based on the Issue Templates](extralabels.png)
 :::
