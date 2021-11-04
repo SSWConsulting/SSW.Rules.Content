@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Luke Parker
+    url: https://www.ssw.com.au/people/luke-parker
 related:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
   - do-you-know-how-to-use-tags-for-github-issues
