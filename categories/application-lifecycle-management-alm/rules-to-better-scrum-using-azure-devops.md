@@ -18,7 +18,9 @@ index:
 - linking-work-items
 - when-to-create-team-project-and-azure-devops-portal
 - how-to-create-project-portal
+- do-you-know-how-to-handle-undone-work
 - build-the-backlog
+
 ---
 
 Learn more on [Rules to Better Scrum](/rules-to-better-scrum).
