@@ -16,7 +16,6 @@ index:
 - do-you-know-the-correct-license-to-use-for-open-source-software
 - do-you-know-to-the-requirements-to-create-a-new-repository
 - discuss-the-backlog
-- sync-your-github-issues-to-azure-devops
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
 - build-the-backlog
