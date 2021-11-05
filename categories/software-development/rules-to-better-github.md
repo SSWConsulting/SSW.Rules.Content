@@ -30,7 +30,6 @@ index:
 - do-you-know-how-to-setup-github-notifications
 - github-issue-templates
 - do-you-know-how-to-set-up-github-workflow
-- do-you-know-how-to-handle-undone-work
 - todo-tasks
 
 ---
