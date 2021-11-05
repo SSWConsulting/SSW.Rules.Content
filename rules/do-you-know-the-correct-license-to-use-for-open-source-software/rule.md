@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know the correct license to use for Open Source software?
-guid: 54ddae10-7f68-4941-a5b3-4bfd94d051f3
+title: Licensing – Do you know the correct license to use for Open Source software?
 uri: do-you-know-the-correct-license-to-use-for-open-source-software
-created: 2015-02-06T17:17:59.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
+created: 2015-02-06T17:17:59.000Z
+archivedreason: null
+guid: 54ddae10-7f68-4941-a5b3-4bfd94d051f3
 ---
 
 More and more projects are being created as Open Source. However just because you’re created an open source project doesn’t mean you give everything in your cookie jar away. You should only release your code subject to a licence agreement. A common confusion when putting projects onto Open Source platforms like GitHub is ‘What License Should I Use?”. We have our own opinions but we aren’t lawyers so if you want to know what’s best for you speak with your lawyer.
