@@ -14,7 +14,6 @@ index:
 - do-you-know-how-to-write-a-good-pull-request
 - do-you-use-indentation-for-readability
 - do-you-know-to-the-requirements-to-create-a-new-repository
-- discuss-the-backlog
 - sync-your-github-issues-to-azure-devops
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
