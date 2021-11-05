@@ -11,6 +11,10 @@ index:
 - labels-in-github
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
+- do-you-know-how-to-handle-undone-work
+- build-the-backlog
+- sync-your-github-issues-to-azure-devops
+- discuss-the-backlog
 
 ---
 

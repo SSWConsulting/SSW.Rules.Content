@@ -13,13 +13,10 @@ index:
 - how-to-view-activity-traffic-and-contributions-of-a-project
 - do-you-know-how-to-write-a-good-pull-request
 - do-you-use-indentation-for-readability
-- do-you-know-the-correct-license-to-use-for-open-source-software
 - do-you-know-to-the-requirements-to-create-a-new-repository
 - discuss-the-backlog
-- sync-your-github-issues-to-azure-devops
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
-- build-the-backlog
 - mention-when-you-make-a-pull-request-or-comment-on-github
 - require-2fa-to-join-organisation
 - restrict-repository-deletion
@@ -31,6 +28,7 @@ index:
 - github-issue-templates
 - do-you-know-how-to-set-up-github-workflow
 - do-you-know-how-to-handle-undone-work
+- todo-tasks
 
 ---
 
