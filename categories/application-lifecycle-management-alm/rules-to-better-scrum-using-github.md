@@ -12,6 +12,10 @@ index:
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
 - do-you-know-how-to-handle-undone-work
+- build-the-backlog
+- sync-your-github-issues-to-azure-devops
+- discuss-the-backlog
+
 ---
 
 Learn more on [Rules to Better Scrum](/rules-to-better-scrum).
