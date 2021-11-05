@@ -11,6 +11,7 @@ index:
 - labels-in-github
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
+- sync-your-github-issues-to-azure-devops
 - discuss-the-backlog
 ---
 
