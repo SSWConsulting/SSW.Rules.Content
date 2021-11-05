@@ -23,7 +23,6 @@ index:
 - do-you-look-for-code-coverage
 - do-you-use-slack-as-part-of-your-devops
 - do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment
-- how-to-name-sharepoint-documents
 - do-you-publish-simple-websites-directly-to-windows-azure-from-visual-studio-online
 - use-a-project-portal-for-your-team-and-client
 - do-you-continuously-deploy
