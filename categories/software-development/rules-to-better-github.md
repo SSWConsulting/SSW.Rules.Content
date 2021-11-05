@@ -19,7 +19,6 @@ index:
 - sync-your-github-issues-to-azure-devops
 - use-emojis-in-your-commits
 - turn-emails-into-a-github-issue
-- build-the-backlog
 - mention-when-you-make-a-pull-request-or-comment-on-github
 - require-2fa-to-join-organisation
 - restrict-repository-deletion
