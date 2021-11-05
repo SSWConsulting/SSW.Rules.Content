@@ -40,6 +40,12 @@ Some labels to define the area of work:
 And the standard GitHub label to indicate it is a good Issue for developers new to the project:
 * Good First Issue
 
+::: bad
+![Figure: Bad Example - using Effort labels is not ideal for GitHub Issues](badlabels.png)
+:::
+
+Learn more about where Effort labels are appropriate with [GitHub Projects, which has custom fields](scrum-in-github).
+
 ::: good
 ![Figure: Good Example -  Add a few labels beyond the ones that are set based on the Issue Templates](extralabels.png)
 :::
