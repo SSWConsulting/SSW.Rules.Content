@@ -29,4 +29,8 @@ index:
 
 ---
 
+[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+Here is a series of rules on how to take the most of GitHub.
+
 Learn more about [Scrum with GitHub](/rules-to-better-scrum-using-github).
