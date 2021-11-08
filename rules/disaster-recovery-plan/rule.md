@@ -42,7 +42,7 @@ The product owner must also establish a priority of restore for each Service.  T
 
 RTO and RPO are determined via a consultation called BIA (Business Impact Analysis). The organization needs to work out what the maximum amount of data that they are prepared to lose and also the maximum amount of time that they are prepared to be without services. These are both measured in time, and could be seconds, minutes, hours or days depending on the organization's requirements. This is a balancing act as generally the shorter the timeframe required, the more resources the organisation will need in order to achieve the target.  
 
-![](rtos-rpos-line-graph-smaller.jpg "Figure: Finding that balance")
+![Figure: Finding that balance](rtos-rpos-line-graph-smaller.jpg)
 
 After this a disaster should be simulated to test that the RTA/RPA values match the RTO/RPO required by the organization.
 
