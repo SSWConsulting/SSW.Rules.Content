@@ -28051,5 +28051,23 @@
 		"lastUpdated": "2021-11-04T02:38:34.841Z",
 		"lastUpdatedBy": "Piers Sinclair [SSW]",
 		"lastUpdatedByEmail": "79821522+pierssinclairssw@users.noreply.github.com"
+	},
+	{
+		"file": "rules/foreign-key-upsizing-problem/rule.md",
+		"created": "2021-11-08T02:42:53.975Z",
+		"createdBy": "Jack Pettit [SSW]",
+		"createdByEmail": "57518417+JackDevAU@users.noreply.github.com",
+		"lastUpdated": "2021-11-08T02:47:24.400Z",
+		"lastUpdatedBy": "Jack Pettit [SSW]",
+		"lastUpdatedByEmail": "57518417+JackDevAU@users.noreply.github.com"
+	},
+	{
+		"file": "rules/foreign-key-upsizing-problem/MultipleForeignKeyRelationshipsDifferentNames.jpg",
+		"created": "2021-11-08T02:47:24.400Z",
+		"createdBy": "Jack Pettit [SSW]",
+		"createdByEmail": "57518417+JackDevAU@users.noreply.github.com",
+		"lastUpdated": "2021-11-08T02:47:24.400Z",
+		"lastUpdatedBy": "Jack Pettit [SSW]",
+		"lastUpdatedByEmail": "57518417+JackDevAU@users.noreply.github.com"
 	}
 ]
