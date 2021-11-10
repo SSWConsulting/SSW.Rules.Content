@@ -6,6 +6,7 @@ uri: rules-to-better-backups
 index:
 - business-continuity-services
 - azure-site-recovery
+- disaster-recovery-plan
 - pc-do-you-use-the-best-backup-solution
 - pc-do-you-organize-your-hard-disk
 - know-the-right-notification-for-backups
