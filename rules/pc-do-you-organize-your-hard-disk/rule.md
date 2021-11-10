@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you do organize your hard disk?
+title: PC - Do you do organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk
 authors:
   - title: Kaique Biancatti
