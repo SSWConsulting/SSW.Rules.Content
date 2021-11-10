@@ -1,13 +1,12 @@
 ---
 type: rule
-title: Do you track and label your assets?
+title: Hardware - Do you track and label your assets?
 uri: label-your-assets
 authors:
   - title: Kiki Biancatti
     url: https://ssw.com.au/people/kiki
 created: 2021-10-14T22:48:34.119Z
 guid: e8684026-a7b7-4404-a513-9b8b39c55791
-
 ---
 
 Most companies have physical assets and it's crucial to keep track of those assets - are they in a particular location? Who are the assets with? Are they assigned somewhere else?         
