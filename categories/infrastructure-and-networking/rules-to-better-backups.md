@@ -4,6 +4,7 @@ title: Rules to Better Backups
 guid: a942204e-b4b5-4bee-a942-520bc01d3991
 uri: rules-to-better-backups
 index:
+- disaster-recovery-plan
 - pc-do-you-use-the-best-backup-solution
 - pc-do-you-organize-your-hard-disk
 - structure-and-back-up-your-files
