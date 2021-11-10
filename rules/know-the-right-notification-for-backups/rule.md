@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Backups - Do you know the right notification for backups?
+title: PC - Do you know the right notification for backups?
 uri: know-the-right-notification-for-backups
 authors:
   - title: Adam Cogan

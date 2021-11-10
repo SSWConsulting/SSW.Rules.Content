@@ -21727,9 +21727,9 @@
 	},
 	{
 		"file": "rules/have-a-clear-mission-statement/rule.md",
-		"lastUpdated": "2020-05-27T08:20:25+10:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-11-10T02:45:36.440Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2020-05-27T08:15:29+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -24736,9 +24736,9 @@
 		"created": "2021-02-26T22:07:10.144Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-06-09T04:58:35.394Z",
-		"lastUpdatedBy": "Brady Stroud [SSW]",
-		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
+		"lastUpdated": "2021-11-10T03:47:06.027Z",
+		"lastUpdatedBy": "Christian Morford-Waite [SSW]",
+		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au"
 	},
 	{
 		"file": "rules/calendar-do-you-know-the-ways-to-share-and-see-others-calendars/outlook-calendar-example.png",
@@ -25564,7 +25564,7 @@
 		"created": "2021-05-03T21:37:37.842Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
-		"lastUpdated": "2021-05-13T21:26:42.185Z",
+		"lastUpdated": "2021-11-10T02:45:50.769Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
@@ -28087,5 +28087,14 @@
 		"lastUpdated": "2021-11-10T04:35:52.912Z",
 		"lastUpdatedBy": "Tylah Kapa [SSW]",
 		"lastUpdatedByEmail": "tylahkapa@gmail.com"
-	}
+	},
+  {
+    "file": "rules/rule/earth_from_space.jpg",
+		"created": "2021-11-10T03:47:06.026Z",
+		"createdBy": "Christian Morford-Waite [SSW]",
+		"createdByEmail": "ChristianMWaite@ssw.com.au",
+		"lastUpdated": "2021-11-10T03:47:06.026Z",
+		"lastUpdatedBy": "Christian Morford-Waite [SSW]",
+		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au"
+  }
 ]

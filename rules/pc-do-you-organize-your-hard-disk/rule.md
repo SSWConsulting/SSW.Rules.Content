@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you do organize your hard disk?
+title: PC - Do you do organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk
 authors:
   - title: Kaique Biancatti
@@ -60,21 +60,20 @@ Location (optional):\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 When you choose a location in OneDrive, it will always create the main root folder called "OneDrive - (YourOrganization)". Use this folder to store your files.
 E.g. Create a folder in C: with Data and your username, for example, "C:\DataKaiqueBiancatti", and choose that folder to be your main OneDrive folder. It will automatically create a new folder inside it:
 
-::: good\
-![Figure: Good Example - Location of Data\<YourUserName> with OneDrive - (YourOrganization) folder in it](onedrive.png)\
-:::
+::: good
+![Figure: Good Example - Location of Data\(YourUserName) with OneDrive - (YourOrganization) folder in it](onedrive.png)
 
-::: good\
+::: good
 ![Figure: Good Example - Backup is being done automatically](OneDrive.jpg)
 :::
 
-**3. Do you keep your desktop clean? \[ - ]**
-Number of files on Desktop (Aim is zero) \[ - ] 
+**3. Do you keep your desktop clean? [ - ]**
+Number of files on Desktop (Aim is zero) [ - ] 
 
 You should always aim to have a clean desktop, without temporary files or unnecessary shortcuts.
 Delete anything that is not necessary from there and do not save things there by default. Having a messy desktop just makes everything confusing.
 
-**4. Do you keep your Outlook PST/OST separated from your cloud backups? \[ - ]**
+**4. Do you keep your Outlook PST/OST separated from your cloud backups? [ - ]**
 
 **Tip:** You can check where your PST/OST is via Outlook | File | Account Settings | Data Files.
 
@@ -102,4 +101,4 @@ If Yes and iOS, then use iCloud, OneDrive or your selected backup application on
 If Yes and Android, then use Google Drive, OneDrive or your selected backup application on your phone to back them up!
 If you don't care about losing your photos, do nothing!
 
-::::
+:::
