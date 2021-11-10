@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have a disaster recovery plan?
+title: Outage - Do you have a disaster recovery plan?
 uri: disaster-recovery-plan
 authors:
   - title: Warwick Leahy
