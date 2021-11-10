@@ -10,22 +10,21 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related: 
+- dones-do-your-dones-include-a-url
 redirects: []
 
 ---
 
-When sending an email it is very important to give context and reasoning. This way anyone can understand what was done at any time in the future. Never assume that the other person will get it anyway, and always try to give details and make yourself as clear as possible. 
-
-A nice way to provide extra clear information is by [adding screenshots with useful captions](/add-useful-and-concise-figure-captions).
+When sending an email it is very important to have context and reasoning, and make yourself as clear as possible. This way anyone can understand what was done at any time in the future. Never assume that others will understand anyways. Make sure there are always enough details in the thread/your response for anyone else to acknowledge what is going on. 
 
 <!--endintro-->
 
+A nice way to provide extra clear information is by [adding screenshots with useful captions](/add-useful-and-concise-figure-captions).
 
 ::: bad  
 ![Figure: Bad Example - There is no context or reasoning](BadContextReasoning.gif)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - There is both context and reasoning](GoodContextReasoning.jpg)  
