@@ -14,13 +14,13 @@ created: 2021-01-07T13:16:27.000Z
 archivedreason: null
 guid: d96278bc-f927-4079-ba6c-c0b3c9a49b0d
 ---
-For planned outages, see https://www.ssw.com.au/rules/planned-outage-process
+For planned outages, see [Outage - Do you have a planned outage process?](https://www.ssw.com.au/rules/planned-outage-process)
 
-During your course of being a SysAdmin, you will come across many outages. Some of them will impact BAU (Business as usual) and others will just be minor service outages. Do you know what to do you have a plan in the event of these outages?
+During your course of being a SysAdmin, you will come across many unplanned outages. Some of them will impact BAU (Business as usual) and others will just be minor service outages. Do you know what to do in the event of these outages?
 
 <!--endintro-->
 
-Below is a process for these types of outages. Some amount of common sense is required here, an outage would be if services that would affect BAU work are disrupted for SSW and/or some hardware has failed.
+Below is a process for these types of outages. Some amount of common sense is required here, an outage would be if services that would affect BAU work are disrupted and/or some hardware has failed.
 
 Hardware Outage:
 
@@ -47,7 +47,7 @@ Many services can be used for device monitoring e.g. WhatsUp Gold, Solarwinds, S
 
 ### First Contact
 
-After you have determined what services have been disrupted it is time to call your SysAdmin team and organise a quick conference call. This will allow you to have a discussion prior to making any changes/fixes that could cause the outage to become worse.
+After you have determined what services have been disrupted it is time to call your SysAdmin team and organize a quick conference call. This will allow you to have a discussion prior to making any changes/fixes that could cause the outage to become worse.
 
 **Key Discussion Points:** 
 
@@ -58,7 +58,7 @@ After you have determined what services have been disrupted it is time to call y
 
 **What if you cannot reach anyone?**
 
-If you cannot reach anyone move onto the Email section.
+If you cannot reach anyone move on to the Email section.
 
 ### Email
 
@@ -84,7 +84,6 @@ We are working on restoring these services and will keep you updated.
 Thank you,
 SysAdmins     
 
-:::
 :::  
 
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
@@ -123,8 +122,6 @@ The next steps to resolving this are:
 
 Thank you,
 SysAdmin     
-
-:::
 
 :::  
 
