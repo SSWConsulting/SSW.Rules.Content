@@ -9,7 +9,7 @@ index:
 - do-you-know-the-benefits-of-using-source-control
 - do-you-know-how-to-ensure-your-build-succeeded
 - do-you-know-how-the-gated-checkin-process-works
-- do-you-know-which-check-in-policies-to-enable1
+- do-you-know-which-check-in-policies-to-enable
 - after-work-do-you-only-check-in-code-when-it-has-compiled-and-passed-the-unit-tests
 - before-starting-do-you-follow-a-test-driven-process
 - are-you-very-clear-your-source-control-is-not-a-backup-repository
