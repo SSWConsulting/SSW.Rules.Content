@@ -6,26 +6,24 @@ uri: rules-to-better-system-administrators
 redirects:
 - rules-to-better-networks
 index:
+- disaster-recovery-plan
 - planned-outage-process
 - unplanned-outage-process
-- disaster-recovery-plan
+- know-the-right-notification-for-backups
 - have-a-strict-password-security-policy
 - do-you-have-mfa-multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
 - do-you-use-service-accounts
-- have-your-ups-send-an-email-when-it-kicks-in
-- keep-your-file-servers-clean
-- how-to-manage-certificates
-- do-you-use-free-or-paid-ssl-certificates
+- monitor-the-uptimes-of-all-your-servers-daily
 - do-you-know-the-pros-and-cons-of-joining-the-domain
 - use-the-distributed-file-system-for-your-file-shares
-- know-the-right-notification-for-backups
-- monitor-the-uptimes-of-all-your-servers-daily
+- how-to-manage-certificates
+- do-you-use-free-or-paid-ssl-certificates
 - secure-your-wireless-connection
 - easy-wifi-access
+- keep-your-file-servers-clean
 - have-a-companywide-word-template
 - label-your-assets
-
 ---
 
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.
