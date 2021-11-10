@@ -1,6 +1,6 @@
 ---
 type: rule
-title: OneDrive - Do you have your files available offline?
+title: PC - Do you have your files available offline?
 uri: have-your-files-available-offline
 authors:
   - title: Adam Cogan
