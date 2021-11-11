@@ -42,6 +42,7 @@ index:
 - technical-debt
 - do-you-know-to-replace-reflection-with-mef
 - mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
+- microservices
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see. If you need help, visit SSW Consulting Services and book in a consultant.
