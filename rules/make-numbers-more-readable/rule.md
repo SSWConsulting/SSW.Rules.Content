@@ -9,20 +9,13 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related:
-- use-correct-symbols-when-documenting-instructions
-- use-the-right-order-of-instructions
-- highlight-items-in-your-document
-- do-you-include-version-numbers-in-your-file
-- do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
-- tiny-do-you-use-active-phrases-no-zombies-please
-- awesome-documentation
 - do-you-use-words-instead-of-digits-for-low-numbers
 redirects:
 - do-you-make-numbers-more-readable
 
 ---
 
-Remember to use dividers when quoting phone numbers or large sums.
+Remember to use dividers when referring to phone numbers or large sums.
 
 <!--endintro-->
 
@@ -35,8 +28,8 @@ Bad Example: These number are unwieldy and difficult to read
 :::
 
 ::: greybox
-- 2,721.65
-- Phone: (858) 353-2311  
+* $2,721.65
+* Phone: (858) 353-2311  
 :::
 ::: good
 Good example: A comma, a dash and some spacing makes these large digits easier to read  
