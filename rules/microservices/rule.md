@@ -38,6 +38,8 @@ Microservices let you break down your app into little pieces to make them more m
 * Deployment - Standardize deployment with containers
 * Testing - Easier to find problems since they are isolated to a specific part of the app
 * Cognitive Complexity - Devs can focus on one aspect of the app at a time
+* Data - You can use the best way of storing data for each service
+* Language - You can use the best language for each service
 
 ## What's the downside?
 * Upfront Cost - More upfront work is required
