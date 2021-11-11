@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
 related:
   - do-you-provide-details-when-reporting-net-applications-errors
+  - which-emojis-to-use-in-scrum
+  - when-you-use-mentions-in-a-pbi
 redirects:
   - do-you-know-the-right-way-to-report-bugs
   - do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
@@ -28,7 +30,7 @@ In the case of suggested features it is best to:
 3.	If a backlog exists, save the Issue/PBI and @mention relevant people (they should get an email) as per https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi 
 4.	If the client will not get an automatic nicely formatted email with all the text, then send the email with the URL of the Issue/PBI
 
-Try to have one issue/PBI/email per bug/suggestion, but if the bugs/suggestions are related or very small (e.g. they are all on the same page) then you should group them together in a single email.
+Try to have one issue/PBI/email per bug/suggestion, but if the bugs/suggestions are related/very small and on the same page then you should group them together in a single email.
 
 <!--endintro-->
 
@@ -58,7 +60,7 @@ Figure: Bad Example - This email isn't going to help the developer much - it is 
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
-| Subject: | Your software|  
+| Subject: | 🐛 PerformancePro - Error on startup|  
 ::: email-content  
 
 ### Hi 
@@ -112,30 +114,35 @@ Figure: Bad example - Lack of details
 |          |     |
 | -------- | --- |
 | To:      | Rebecca |
-| Subject: | Can't find SSW TV link on SSW website |  
+| Subject: | SSW Website - Can't find SSW TV link |  
 ::: email-content  
 
 ### Hi Rebecca, 
-            
-Navigated to ssw.com.au
 
-Scrolling down looking for a big graphic like "CHECK OUT SSW TV! CLICK HERE!"
-(Nothing)
-Me, thinking… "Hmm... let's try the menu at the top..."
-  
-About Us? Nope.
-Services? Nope.
-Products and Support? Nope.
-Training? Nope.
-User Group? Nope.
-Rules? Nope.
+I've searched the SSW website and can't find a link to SSW TV.
 
-Me, thinking... "OK. Now where? Most likely, the SSW company description will list it..."
-Navigates to About Us... scrolling down... nothing.
+1. Navigated to ssw.com.au
+2. Scrolling though home page. Nothing.
+3. Checked the menu at the top. Nothing.
+4. About Us? Nope.
+5. Services? Nope.
+6. Products and Support? Nope.
+7. Training? Nope.
+8. User Group? Nope.
+9. Rules? Nope.
+10. Me, thinking... "OK. Now where? Most likely, the SSW company description will list it..."
+11. Navigates to About Us... scrolling down... nothing.
+12. Me, thinking... "OK. Weird. Let's go back." Me, goes back to homepage.
+13. Me, thinking... "Is there a site map?" Scrolls to bottom of page. Clicks sitemap link.
+14. Me, thinking... "Ctrl+F for TV? Nope."
 
-Me, thinking... "OK. Weird. Let's go back." Me, goes back to homepage.
-Me, thinking... "Is there a site map?" Scrolls to bottom of page. Clicks sitemap link.
-Me, thinking... "Ctrl+F for TV? Nope." Me, gives up... types tv.ssw.com.au to try and get lucky. Huzzah!
+### Expected result
+
+When I navigate to ssw.com.au, I should see a big graphic like "CHECK OUT SSW TV! CLICK HERE!"
+
+### Actual result
+
+Couldn't find a link on the page
 
 1. Can you help users to get to SSW TV from ssw.com.au
 
@@ -144,7 +151,7 @@ Adam
 :::  
 :::
 ::: good
-Figure: Good example - We can easily identify more the one way to improve the UX
+Figure: Good example - We can easily identify more the one way to improve the UX and there's a clear call to action
 :::
 
 Better than a good description of the bug is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
@@ -166,7 +173,7 @@ Figure: Good example - Giving feature requests via video
 
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one and not too much work, then you should email the Tech Leader and Cc the Product Owner.
 
-The Product Owner can always respond if he doesn’t like the suggestion:  
+The Product Owner can always respond if they don’t like the suggestion:  
 - For a bug email: 
 
 
@@ -193,4 +200,4 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 - 🐛 Bug - Calendar is not showing on iOS devices
 - ✨Feature - Add 'Back to menu' item to top navigation
 
-[Check out the rule on which emojis to use in scrum](/which-emojis-to-use-in-scrum).
+[Check out the rule on which emojis to use in Scrum](/which-emojis-to-use-in-scrum).
