@@ -325,9 +325,9 @@
 	},
 	{
 		"file": "rules/do-you-know-which-check-in-policies-to-enable1/rule.md",
-		"lastUpdated": "2017-03-25T04:10:19+11:00",
-		"lastUpdatedBy": "Tiago Araujo",
-		"lastUpdatedByEmail": "TiagoAraujo@ssw.com.au",
+		"lastUpdated": "2021-11-11T00:48:42.949Z",
+		"lastUpdatedBy": "Tylah Kapa [SSW]",
+		"lastUpdatedByEmail": "tylahkapa@gmail.com",
 		"created": "2013-05-22T01:22:11+10:00",
 		"createdBy": "Tiago Araujo",
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
@@ -1342,7 +1342,7 @@
 	},
 	{
 		"file": "rules/do-you-know-which-check-in-policies-to-enable/rule.md",
-		"lastUpdated": "2021-11-10T04:35:52.912Z",
+		"lastUpdated": "2021-11-11T00:48:42.949Z",
 		"lastUpdatedBy": "Tylah Kapa [SSW]",
 		"lastUpdatedByEmail": "tylahkapa@gmail.com",
 		"created": "2011-11-18T14:52:26+11:00",
@@ -28080,15 +28080,6 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
-		"file": "rules/do-you-know-which-check-in-policies-to-enable/checkin-policies.jpg",
-		"created": "2021-11-10T04:35:52.912Z",
-		"createdBy": "Tylah Kapa [SSW]",
-		"createdByEmail": "tylahkapa@gmail.com",
-		"lastUpdated": "2021-11-10T04:35:52.912Z",
-		"lastUpdatedBy": "Tylah Kapa [SSW]",
-		"lastUpdatedByEmail": "tylahkapa@gmail.com"
-	},
-	{
 		"file": "rules/rule/earth_from_space.jpg",
 		"created": "2021-11-10T03:47:06.026Z",
 		"createdBy": "Christian Morford-Waite [SSW]",
@@ -28096,5 +28087,23 @@
 		"lastUpdated": "2021-11-10T03:47:06.026Z",
 		"lastUpdatedBy": "Christian Morford-Waite [SSW]",
 		"lastUpdatedByEmail": "ChristianMWaite@ssw.com.au"
+	},
+	{
+		"file": "rules/do-you-know-which-check-in-policies-to-enable/SC_TFSCI.jpg",
+		"created": "2021-11-11T00:48:42.949Z",
+		"createdBy": "Tylah Kapa [SSW]",
+		"createdByEmail": "tylahkapa@gmail.com",
+		"lastUpdated": "2021-11-11T00:48:42.949Z",
+		"lastUpdatedBy": "Tylah Kapa [SSW]",
+		"lastUpdatedByEmail": "tylahkapa@gmail.com"
+	},
+	{
+		"file": "rules/do-you-know-which-check-in-policies-to-enable1/checkin-policies.jpg",
+		"created": "2021-11-11T00:48:42.949Z",
+		"createdBy": "Tylah Kapa [SSW]",
+		"createdByEmail": "tylahkapa@gmail.com",
+		"lastUpdated": "2021-11-11T00:48:42.949Z",
+		"lastUpdatedBy": "Tylah Kapa [SSW]",
+		"lastUpdatedByEmail": "tylahkapa@gmail.com"
 	}
 ]
