@@ -43,4 +43,4 @@ Microservices let you break down your app into little pieces to make them more m
 * Upfront Cost - More upfront work is required
 * Cognitive Complexity - While individual apps are simpler, the architecture of the app can become more complex
 * Health Check - It's harder to know if all parts are alive
-* 
+* Domain boundaries - You need to define the separation of concerns between different services. Avoid adding dependencies between services because you can create a domino of failures...a house of cards.
