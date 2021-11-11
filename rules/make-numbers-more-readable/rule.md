@@ -20,8 +20,8 @@ Remember to use dividers when referring to phone numbers or large sums.
 <!--endintro-->
 
 ::: greybox
-- $27216
-- Phone: 8583532311  
+* $27216
+* Phone: 8583532311  
 :::
 ::: bad
 Bad Example: These number are unwieldy and difficult to read  
@@ -33,4 +33,8 @@ Bad Example: These number are unwieldy and difficult to read
 :::
 ::: good
 Good example: A comma, a dash and some spacing makes these large digits easier to read  
+:::
+
+::: info
+**Note:** For currency references, different countries use periods in place of commas and vice-versa. E.g. In United States and Australia: **2,367.48 Euros** / In France and Brazil: **2.367,48 Euros**.
 :::
