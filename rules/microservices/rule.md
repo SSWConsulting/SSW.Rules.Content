@@ -14,17 +14,17 @@ N-Tier applications have their place. They are easy to get going and often make 
 
 <!--endintro-->
 
-Microservices let you break down your app into little pieces to make them more manageable, replaceable and maintainable.
+Microservices let you break down your app into little pieces to make them more manageable, replaceable and maintainable. You can also scale out different parts of your app at a granular level.
 
 .NET 6 and Azure have heaps of great tools for developing simple APIs and worker services in a Microservices pattern.
 
 ## The tools of the trade
 
-[Minimal APIs](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis) give you a way to write APIs in just a few short lines of code
+* [Minimal APIs](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis) give you a way to write APIs in just a few short lines of code
 
-[.NET Worker Services](https://docs.microsoft.com/en-us/dotnet/core/extensions/workers) let you scale your services up and down on an as need basis
+* [.NET Worker Services](https://docs.microsoft.com/en-us/dotnet/core/extensions/workers) let you scale your services up and down on an as need basis
 
-[Azure Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) give you a way to host different little subsections of the app
+* [Azure Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) give you a way to host different little subsections of the app
 
 
 ## What's the point?
