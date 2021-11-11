@@ -22,6 +22,9 @@ Microservices let you break down your app into little pieces to make them more m
 
 .NET 6 and Azure have heaps of great tools for developing simple APIs and worker services in a Microservices pattern.
 
+Watch the below video from 35:40 - 46:50
+`youtube: https://youtu.be/oPyTZ-HGdn4?t=2141`
+
 ## The tools of the trade
 
 * [.NET Worker Services](https://docs.microsoft.com/en-us/dotnet/core/extensions/workers) make it easier to implement dependency injection, configuration and other syntactic sugar using the same patterns you are familiar with in other types of .NET applications
