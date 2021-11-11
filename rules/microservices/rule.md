@@ -10,7 +10,11 @@ authors:
 created: 2021-11-11T05:54:22.790Z
 guid: e4d0411a-6184-4f16-9caf-f522bb07c703
 ---
-N-Tier applications have their place. They are easy to get going and often make a lot of sense when you are starting out. However, sometimes your app may grow in size and become difficult to maintain. Then you might want to consider Microservices...
+There are two common types of application architecture: 
+* Monoliths (aka N-Tier applications)
+* Microservices
+
+Monoliths have their place. They are easy to get going and often make a lot of sense when you are starting out. However, sometimes your app may grow in size and become difficult to maintain. Then you might want to consider Microservices...
 
 <!--endintro-->
 
@@ -20,12 +24,11 @@ Microservices let you break down your app into little pieces to make them more m
 
 ## The tools of the trade
 
+* [.NET Worker Services](https://docs.microsoft.com/en-us/dotnet/core/extensions/workers) make it easier to implement dependency injection, configuration and other syntactic sugar using the same patterns you are familiar with in other types of .NET applications
+
+* [Azure Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) give you a way to host different little subsections of the application
+
 * [Minimal APIs](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis) give you a way to write APIs in just a few short lines of code
-
-* [.NET Worker Services](https://docs.microsoft.com/en-us/dotnet/core/extensions/workers) let you scale your services up and down on an as need basis
-
-* [Azure Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) give you a way to host different little subsections of the app
-
 
 ## What's the point?
 
@@ -34,7 +37,10 @@ Microservices let you break down your app into little pieces to make them more m
 * Simplify code - Write minimal APIs
 * Deployment - Standardize deployment with containers
 * Testing - Easier to find problems since they are isolated to a specific part of the app
+* Cognitive Complexity - Devs can focus on one aspect of the app at a time
 
 ## What's the downside?
 * Upfront Cost - More upfront work is required
-* Communication Complexity - While individual apps are simpler, the communication between different parts of the app can become more complex
+* Cognitive Complexity - While individual apps are simpler, the architecture of the app can become more complex
+* Health Check - It's harder to know if all parts are alive
+* 
