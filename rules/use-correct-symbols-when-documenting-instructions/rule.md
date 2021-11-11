@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: 'Reference: Do you use the correct symbols when documenting instructions?'
+title: Reference - Do you use the correct symbols when documenting instructions?
 guid: ff9b08bd-f85d-41c8-883a-9d226b3b9fc5
 uri: use-correct-symbols-when-documenting-instructions
 created: 2016-03-22T04:45:05.0000000Z
@@ -12,9 +12,6 @@ related:
 - reference-do-you-use-the-right-order-of-instructions
 - do-you-highlight-actions-correctly-in-your-document
 - do-you-make-numbers-more-readable
-- do-you-include-version-numbers-in-your-file
-- do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
-- tiny-do-you-use-active-phrases-no-zombies-please
 - awesome-documentation
 redirects:
 - reference-do-you-use-the-correct-symbols-when-documenting-instructions
@@ -25,46 +22,32 @@ An important area which Microsoft does not apply strict standards to, is documen
 
 <!--endintro-->
 
-In Ken Getz's words, you MUST ALWAYS list the items in the order the user selects them. I often see on Microsoft documentation: 'Select All Programs from the Start menu'. That's inexcusable!
-
-
-
+In Ken Getz's words, you MUST ALWAYS list the items in the order the user selects them. We often see on Microsoft documentation: 'Select All Programs from the Start menu'. That's bad!
 
 ::: greybox
 Click Start, then All Programs, then Accessories, then Calculator.  
 :::
-
-
 ::: bad
 Figure: Bad Example - No visual cue is given for separate steps  
 :::
 
-
 ::: greybox
 Start - All Programs - Accessories - Calculator  
 :::
-
-
 ::: bad
 Figure: Bad Example - Dashes are easy to glance over  
 :::
 
-
 ::: greybox
 Start --&gt; All Programs --&gt; Accessories --&gt; Calculator  
 :::
-
-
 ::: bad
 Figure: Bad Example - This is better but looks unprofessional  
 :::
 
-
 ::: greybox
 Start | All Programs | Accessories | Calculator  
 :::
-
-
 ::: good
-Figure: Good Example  
+Figure: Good Example - Makes it easy to follow
 :::
