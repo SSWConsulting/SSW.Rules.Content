@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to handover a project?
-guid: 15b06388-5103-45e4-a5ea-96c13554df77
 uri: do-you-know-how-to-handover-a-project
-created: 2010-03-15T06:22:03.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Paul Neumeyer
-  url: https://ssw.com.au/people/paul-neumeyer
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Paul Neumeyer
+    url: https://ssw.com.au/people/paul-neumeyer
 related: []
 redirects: []
-
+created: 2010-03-15T06:22:03.000Z
+archivedreason: null
+guid: 15b06388-5103-45e4-a5ea-96c13554df77
 ---
 
 A common source of pain, is picking up a project without a decent/complete handover. To have a successful project you must navigate over the problem of changing resources/people leaving etc.
@@ -24,15 +23,14 @@ Once the handover is complete, the resigning employee should no longer work on t
 Always ensure that you complete the following checklist and *always* send the email confirming the handover is complete.
 
 Here are the 8 steps you should follow for a good handover.
-
 <!--endintro-->
 
 1. Confirm current tasks
 2. Confirm future tasks
 3. Confirm the primary contacts
-4. Do a code review
+4. Do a code review (only for developers)
 5. Review the client portal
-6. Confirm location of info and procedures (hopefully, these are on a wiki or SharePoint document library)
+6. Confirm location of info and procedures (hopefully, these are on a wiki or SharePoint document library). For a development project this may include:
     * Source control. Make sure there is no stale or old branches. Check out: [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
     * Database
     * Documents
