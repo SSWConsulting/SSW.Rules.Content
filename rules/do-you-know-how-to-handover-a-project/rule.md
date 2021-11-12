@@ -30,7 +30,7 @@ Here are the 8 steps you should follow for a good handover.
 3. Confirm the primary contacts
 4. Do a code review (only for developers)
 5. Review the client portal
-6. Confirm location of info and procedures (hopefully, these are on a wiki or SharePoint document library). For a development project this may include:
+6. Confirm and document the location of info and procedures (hopefully, these are on a wiki or SharePoint document library). For a development project this may include:
     * Source control. Make sure there is no stale or old branches. Check out: [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
     * Database
     * Documents
