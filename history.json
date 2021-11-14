@@ -13546,9 +13546,9 @@
 	},
 	{
 		"file": "rules/do-you-exclude-width-and-height-properties-from-image-references-in-content/rule.md",
-		"lastUpdated": "2015-10-13T11:45:13+11:00",
-		"lastUpdatedBy": "Rebecca Liu",
-		"lastUpdatedByEmail": "RebeccaLiu@ssw.com.au",
+		"lastUpdated": "2021-11-12T21:24:33.232Z",
+		"lastUpdatedBy": "Tiago Araújo [SSW]",
+		"lastUpdatedByEmail": "tiagov8@gmail.com",
 		"created": "2015-10-13T11:44:07+11:00",
 		"createdBy": "Rebecca Liu",
 		"createdByEmail": "RebeccaLiu@ssw.com.au"
