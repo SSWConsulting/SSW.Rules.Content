@@ -39,7 +39,7 @@ Try to always answer the call with video (if weak bandwidth, use it for the firs
 **Video** 
 
 * Check the image quality of the camera. 
-* Beware of the angle of the camera - the ones with thin bezels now put the camera at the base, looking up your nose. Avoid them. Frame your head and shoulders in the shot, and keep the camera lens at or above **eye level** - [use a stand if necessary](https://www.dicksmith.com.au/da/buy/kogan-height-adjustable-laptop-monitor-stand-kogan)
+* Beware of the angle of the camera - laptops with thin bezels now put the camera at the base, looking up your nose. Avoid them. Frame your head and shoulders in the shot, and keep the camera lens at or above **eye level** - [use a stand if necessary](https://www.dicksmith.com.au/da/buy/kogan-height-adjustable-laptop-monitor-stand-kogan)
 
 ![Figure: Height-adjustable monitor and laptop stand](screen-stands.png)
 
