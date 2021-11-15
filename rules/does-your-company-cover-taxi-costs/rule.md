@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Internal: https://my.sugarlearning.com/SSW/items/9514/travel-to-client-sites
+archivedreason: Internal - https://my.sugarlearning.com/SSW/items/9514/travel-to-client-sites
 title: Does your company cover taxi costs?
 guid: 04a1e23d-904a-4569-9ef2-74ead003836a
 uri: does-your-company-cover-taxi-costs
