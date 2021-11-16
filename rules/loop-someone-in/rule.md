@@ -27,13 +27,13 @@ Here are some tips to doing this effectively:
 
 
 1. [Ensure the meeting has an agenda](/share-the-agenda)
-   - it should list the delegate (receiving the information)
+   - it should list the delegate (who is receiving the information)
    - that the last 5mins of the meeting will be used to loop in someone else
 
 
 2. [Take notes during the meeting](/share-the-action-items-that-came-up)
 
-3. Summarize the with the other people on the call
+3. Summarize the info/action items with the other people on the call
 
 4. Call up the person you want to loop in
 
@@ -42,7 +42,7 @@ Here are some tips to doing this effectively:
    - [Include a recommendation where possible](/do-you-manage-up)
    - Group information around the most important themes
    - It's an executive summary - if you have to recite the meeting, then it isn't a summary. If everything is important, then nothing is important.
-   - If the delegate says something incorrect the other attendees of the meeting have a change to correct them
+   - If the delegate says something incorrect the other attendees of the meeting have a chance to correct them
 
 
 
