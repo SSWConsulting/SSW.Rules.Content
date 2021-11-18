@@ -9,11 +9,21 @@ related: []
 created: 2021-10-15T02:27:05.306Z
 guid: 147d41b0-3106-431e-8455-3aae0dd23e8a
 ---
-[Adaptive Cards Designer](https://adaptivecards.io/designer/) is a great tool for building your bot response cards. The reasons are the following.
+If you are using [Microsoft Bot Framework](https://dev.botframework.com/) and [Bot Framework Emulator](https://github.com/microsoft/BotFramework-Emulator), you can't preview what the card UI looks like in other platforms (e.g. Teams) until you deploy to production. [Adaptive Cards Designer](https://adaptivecards.io/designer/) helps you solve this problem by providing some awesome features... 
+
+<!--endintro-->
 
 * Online editing
 * Multi-platform preview
 
+There are two ways to use Adaptive Cards Designer:
+* [Using online version](https://adaptivecards.io/designer/)
+* Using [Adaptive Cards Designer SDK](https://docs.microsoft.com/en-us/adaptive-cards/sdk/designer) to embed into your application
+
+::: bad
+![Figure: Bad example - Using Bot Framework Emulator to design the card](snipaste_2021-11-18_13-51-02.png)
+:::
+
 ::: good
-![Figure: Good examples - Using Designer to design response card](use-designer-to-design-response-card.png)
+![Figure: Good example - Using Adaptive Cards Designer to design the card](snipaste_2021-11-18_13-55-34.png)
 :::
