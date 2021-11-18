@@ -30,4 +30,4 @@ Microsoft Bot Framework also integrates with [LUIS](https://www.luis.ai/) and pr
 
 [SSW SophieBot](https://sswsophie.com/sophiebot/) is a product currently using Microsoft Bot Framework to make searching for employee skills and availability super easy!
 
-`youtube: https://youtu.be/E-71LC4iq0c `
+`youtube: https://youtu.be/dkiCBmLAd1s `
