@@ -18,9 +18,7 @@ redirects: []
 created: 2021-11-18T05:40:37.381Z
 guid: 88c76a84-da63-466b-b749-2a3092d479d6
 ---
-Bots are an awesome way to give your users quick answers to simple or repetitive questions.
-
-There are many different frameworks out there that you can use to build your bots such as [Microsoft Bot Framework](https://dev.botframework.com/) and [Google Dialogflow](https://cloud.google.com/dialogflow), but which is the best one...
+When users jump onto a website, they may want to find out the answer some questions but aren't sure where to look. Bots are an awesome way to give users quick answers to simple or repetitive questions. There are many different frameworks out there that you can use to build your bots such as [Microsoft Bot Framework](https://dev.botframework.com/) and [Google Dialogflow](https://cloud.google.com/dialogflow), but which is the best one...
             
 <!--endintro-->
 
