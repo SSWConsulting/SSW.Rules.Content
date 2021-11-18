@@ -18,7 +18,7 @@ redirects: []
 created: 2021-11-18T05:40:37.381Z
 guid: 88c76a84-da63-466b-b749-2a3092d479d6
 ---
-When users jump onto a website, they may want to find out the answer some questions but aren't sure where to look. Bots are an awesome way to give users quick answers to simple or repetitive questions. There are many different frameworks out there that you can use to build your bots such as [Microsoft Bot Framework](https://dev.botframework.com/) and [Google Dialogflow](https://cloud.google.com/dialogflow), but which is the best one...
+When users jump onto a website, they may want to find out the answer to some questions but aren't sure where to look. Bots are an awesome way to give users quick answers to simple or repetitive questions. There are many different frameworks out there that you can use to build your bots such as [Microsoft Bot Framework](https://dev.botframework.com/) and [Google Dialogflow](https://cloud.google.com/dialogflow), but which is the best one...
             
 <!--endintro-->
 
@@ -27,3 +27,7 @@ All of the bot frameworks have advantages but generally the main point of differ
 If you are focused mostly on Microsoft products then it is a safe bet that Microsoft Bot Framework is a good choice for your organisation.
 
 Microsoft Bot Framework also integrates with [LUIS](https://www.luis.ai/) and provides access to the [Adaptive Cards Designer](https://adaptivecards.io/designer/) so there are a lot of great reasons to use it for your next implementation.
+
+[SSW SophieBot](https://sswsophie.com/sophiebot/) is a product currently using Microsoft Bot Framework to make searching for employee skills and availability super easy!
+
+`youtube: https://youtu.be/E-71LC4iq0c `
