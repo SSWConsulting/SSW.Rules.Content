@@ -21,8 +21,10 @@ Before you begin your journey into DevOps, you should assess yourself and see wh
 
 <!--endintro-->
 
-Take this survey to find out your DevOps index: http://goo.gl/forms/NrJhwHeGu1
+Take [this survey to find out your DevOps index](http://goo.gl/forms/NrJhwHeGu1). 
 
-![Figure: DevOps Survey](DevOps Survey.png)  
+![Figure: DevOps Survey form](DevOps Survey.png)  
 
-![Figure: If you prefer, you can download and print this survey in PDF](quiz-devops.jpg)
+If you prefer you can [download and print this survey in PDF](DevOps-Quiz.pdf)
+
+![Figure: DevOps Survey PDF](quiz-devops.jpg)
