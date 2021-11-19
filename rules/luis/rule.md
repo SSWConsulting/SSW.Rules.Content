@@ -16,13 +16,20 @@ When building a chat bot, it needs some way to understand natural language text 
 
 <!--endintro-->
 
-* Built-in support from [Microsoft Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0)
+* Built-in support from Microsoft Bot Framework
 * Well-trained prebuilt entities (e.g. Person names, date and time, geographic locations)
 * A user friendly GUI portal where you can create, test and publish LUIS apps with just a couple of clicks
 
 To build a LUIS application, you need to classify different utterances that a user might ask into specific "intents".
 
 When creating intents, there is a chance you could come across several intents with very similar utterances. In order to make LUIS' recognition more precise, the best practise is to:
+
+* **Do** define distinct intents
+
+::: bad
+![Figure: Bad examples - Two intents with overlapping vocabulary](bad-example-distinct-intents.png)
+:::
+
 * Assign patterns for intents that have fixed ways of phrasing.
 * Assign features for intents that have similar utterances to other intents.
 
