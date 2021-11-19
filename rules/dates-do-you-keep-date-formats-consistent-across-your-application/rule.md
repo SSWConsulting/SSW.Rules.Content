@@ -1,11 +1,15 @@
 ---
 type: rule
 archivedreason: 
-title: Dates - Do you keep Date formats consistent across your application?
+title: Dates - Do you keep date formatting consistent across your application?
 guid: 192c14d7-9ae7-45c4-8cdb-de6da1b39580
 uri: dates-do-you-keep-date-formats-consistent-across-your-application
 created: 2014-12-01T05:59:36.0000000Z
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
 
