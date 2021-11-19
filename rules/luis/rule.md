@@ -21,43 +21,39 @@ When building a chat bot, it needs some way to understand natural language text 
 * A user friendly GUI portal where you can create, test and publish LUIS apps with just a couple of clicks
 
 ## Intents and User Utterances
-To build a LUIS application, you need to classify different utterances that a user might ask into specific "intents".   
-
-In LUIS, you can achieve that by defining distinct intents and adding example user utterances in each of them.
+To build a LUIS application, you need to classify different utterances that a user might ask into specific "intents". For example, a user might want to ask "Who is working on SophieBot" in many different ways (e.g. "Show me people working on SophieBot"), so you should make this an intent so that the different ways of wording it are treated the same way.  
 
 ## Entities
-To perform custom logic for a recognize result (e.g. retrieve developers data from database when user asks "Who is working on SophieBot"), the bot needs a variable to extract the subject user was asking about ("SophieBot" in the former case).   
-
-In LUIS, you can achieve that by defining entities in user utterances.
+Sometimes you may need to get different parts of an intent, so that you can retrieve extra data from an API endpoint or perform some other kind of custom logic. In that case, LUIS needs some way to figure out what the different subjects are in an intent, entities enable you to do this. For example, if the user asks "Who is working on SophieBot", you will need to call an API to get people working on "SophieBot" project, so you need to mark "SophieBot" as an entity.
 
 ## Features
-To improve prediction accuracy, LUIS needs a better understanding on the core concept of the intents (e.g. "What's xxx's skills" is all about quering someone's **skills** whenever the user used "skill", "experience", "technology" or even another format of phrase, so **skill** can be the core concept in this intent).  
+As your LUIS model grows, it's possible that certain intents have similar user utterances. For example, "What's Adam's skills" has a very similar format to "What's Adam's mobile", so LUIS might think "What's Adam's mobile" is a "What's Adam's skills" intent. 
 
-In LUIS, you can achieve that by defining features on intents. A feature is often a phrase list but can also be an entity. 
+So you need a way to define what phrases have the same meaning as "mobile" and what phrases have the same meaning as "skills". Phrase list features let you do this. For example, "mobile" may have a phrase list feature containing "mobile", "phone number", "telephone number" etc.
 
 ## Best Practise
-In order to make LUIS' recognition more precise, the best practise is to:
+In order to make LUIS' recognition more precise, some of the best practises are:
 
 * **Do** define distinct intents
 ::: bad
-![Figure: Bad examples - Separated intents with overlapping vocabulary](bad-example-distinct-intents.png)
+![Figure: Bad example - Separated intents with overlapping vocabulary](bad-example-distinct-intents.png)
 :::
 
 ::: good 
-![Figure: Good examples - Combine intents that have same vocabulary and use entities](good-example-distinct-intents.png)
+![Figure: Good example - Combine intents that have same vocabulary and use entities](good-example-distinct-intents.png)
 :::
 
 * **Do** assign features for intents.
 ::: bad
-![Figure: Bad examples - Intent with no feature can lead to low accuracy](bad-example-features.png)
+![Figure: Bad example - An intent with no feature can lead to low accuracy](bad-example-features.png)
 :::
 
 ::: good 
-![Figure: Good examples - Intent with phrase list and entity features can help LUIS predict more accurately](good-example-features.png)
+![Figure: Good example - An intent with features can help LUIS predict more accurately](good-example-features.png)
 :::
 
-* **Do** add examples to None intent
+* **Do** add examples to None intent (the fallback intent if LUIS doesn't recognize it as any intent)
 
 ::: good 
-![Figure: Good examples - Add example utterances to None intent with an approximately 1:10 ratio to the utterances in the rest of your LUIS app](good-example-none.png)
+![Figure: Good example - Add example utterances to None intent with an approximately 1:10 ratio to the utterances in the rest of your LUIS app](good-example-none.png)
 :::
