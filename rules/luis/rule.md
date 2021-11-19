@@ -25,18 +25,25 @@ To build a LUIS application, you need to classify different utterances that a us
 When creating intents, there is a chance you could come across several intents with very similar utterances. In order to make LUIS' recognition more precise, the best practise is to:
 
 * **Do** define distinct intents
-
 ::: bad
-![Figure: Bad examples - Two intents with overlapping vocabulary](bad-example-distinct-intents.png)
-:::
-
-* Assign patterns for intents that have fixed ways of phrasing.
-* Assign features for intents that have similar utterances to other intents.
-
-::: good 
-![Figure: Good examples - Assign features for intents that have similar utterances](good-example-feature.png)
+![Figure: Bad examples - Separated intents with overlapping vocabulary](bad-example-distinct-intents.png)
 :::
 
 ::: good 
-![Figure: Good examples - Assign patterns for intents that have similar utterances](good-example-patterns.png)
+![Figure: Good examples - Combine intents that have same vocabulary and use entities](good-example-distinct-intents.png)
+:::
+
+* **Do** assign features for intents that have similar utterances to other intents.
+::: bad
+![Figure: Bad examples - Intent with no feature can lead to low accuracy](bad-example-features.png)
+:::
+
+::: good 
+![Figure: Good examples - Intent with phrase list and entity features can help LUIS predict more accurately](good-example-features.png)
+:::
+
+* **Do** add examples to None intent
+
+::: good 
+![Figure: Good examples - Add example utterances to None intent with an 1:10 ratio to the utterances in the rest of your LUIS app](good-example-none.png)
 :::
