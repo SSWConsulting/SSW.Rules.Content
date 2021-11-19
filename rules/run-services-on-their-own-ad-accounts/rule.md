@@ -3,7 +3,7 @@ type: rule
 title: Do you run services on their own AD accounts?
 uri: run-services-on-their-own-ad-accounts
 authors:
-  - title: Kaique Biancatti
+  - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
 created: 2021-09-01T00:01:28.761Z
 guid: 84d15d33-025c-45a8-97b4-7c4d35907722
