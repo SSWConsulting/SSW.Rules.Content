@@ -20,9 +20,23 @@ When building a chat bot, it needs some way to understand natural language text 
 * Well-trained prebuilt entities (e.g. Person names, date and time, geographic locations)
 * A user friendly GUI portal where you can create, test and publish LUIS apps with just a couple of clicks
 
-To build a LUIS application, you need to classify different utterances that a user might ask into specific "intents".
+## Intents and User Utterances
+To build a LUIS application, you need to classify different utterances that a user might ask into specific "intents".   
 
-When creating intents, there is a chance you could come across several intents with very similar utterances. In order to make LUIS' recognition more precise, the best practise is to:
+In LUIS, you can achieve that by defining distinct intents and adding example user utterances in each of them.
+
+## Entities
+To perform custom logic for a recognize result (e.g. retrieve developers data from database when user asks "Who is working on SophieBot"), the bot needs a variable to extract the subject user was asking about ("SophieBot" in the former case).   
+
+In LUIS, you can achieve that by defining entities in user utterances.
+
+## Features
+To improve prediction accuracy, LUIS needs a better understanding on the core concept of the intents (e.g. "What's xxx's skills" is all about quering someone's **skills** whenever the user used "skill", "experience", "technology" or even another format of phrase, so **skill** can be the core concept in this intent).  
+
+In LUIS, you can achieve that by defining features on intents. A feature is often a phrase list but can also be an entity. 
+
+## Best Practise
+In order to make LUIS' recognition more precise, the best practise is to:
 
 * **Do** define distinct intents
 ::: bad
@@ -33,7 +47,7 @@ When creating intents, there is a chance you could come across several intents w
 ![Figure: Good examples - Combine intents that have same vocabulary and use entities](good-example-distinct-intents.png)
 :::
 
-* **Do** assign features for intents that have similar utterances to other intents.
+* **Do** assign features for intents.
 ::: bad
 ![Figure: Bad examples - Intent with no feature can lead to low accuracy](bad-example-features.png)
 :::
@@ -45,5 +59,5 @@ When creating intents, there is a chance you could come across several intents w
 * **Do** add examples to None intent
 
 ::: good 
-![Figure: Good examples - Add example utterances to None intent with an 1:10 ratio to the utterances in the rest of your LUIS app](good-example-none.png)
+![Figure: Good examples - Add example utterances to None intent with an approximately 1:10 ratio to the utterances in the rest of your LUIS app](good-example-none.png)
 :::
