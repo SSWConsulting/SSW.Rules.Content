@@ -3,7 +3,7 @@ type: rule
 title: SharePoint - Do you review usage ?
 uri: sharepoint-usage
 authors:
-  - title: Jean
+  - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
 related:
   - rules-to-better-google-analytics-reports
