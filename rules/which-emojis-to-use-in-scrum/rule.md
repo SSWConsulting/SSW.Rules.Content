@@ -6,6 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
+  - use-emojis
   - use-emojis-in-your-commits
 redirects:
   - do-you-know-the-which-emojis-to-use-in-scrum
@@ -16,13 +17,13 @@ guid: 892ce6ab-48bf-4c06-82d0-b057526a4283
 
 ---
 
-Emojis in meeting names makes it easier for people to quickly workout what type of meeting is coming up. It even can make the important meetings stand out. 
-
-An easy and fun way to have more fun with Scrum is to use Emojis in your channel names (using Windows Key + .)!
+Emojis make it easier for people to quickly workout what type of content is coming up and to highlight important stuff. It works nicely for meetings, backlogs, and more. 
 
 <!--endintro-->
 
-Check out https://www.scrumoji.org/ for the full list.
+An easy and fun way to have use emojis consistently in Scrum is to follow the list on [scrumoji - An emoji guide for your agile communication](https://www.scrumoji.org/).
+
+**Tip:** Use the "Windows Key" + "." to see the emojis in your screen. 
 
 ::: bad
 ![Figure: Bad Example - The Sprint Review is an important meeting but doesn't stand out in my calendar](srumoji - bad example.jpg)
