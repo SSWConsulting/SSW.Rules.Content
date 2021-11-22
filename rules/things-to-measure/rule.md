@@ -25,6 +25,6 @@ Take [this survey to find out your DevOps index](http://goo.gl/forms/NrJhwHeGu1)
 
 ![Figure: DevOps Survey form](DevOps Survey.png)  
 
-If you prefer you can [download and print this survey in PDF](DevOps-Quiz.pdf)
+If you prefer you can [download and print this survey in PDF](DevOps-Quiz.pdf).
 
 ![Figure: DevOps Survey PDF](quiz-devops.jpg)
