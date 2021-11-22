@@ -12,6 +12,7 @@ authors:
   url: https://ssw.com.au/people/jean-thirion
 related:
 - use-emojis-in-your-commits
+- which-emojis-to-use-in-scrum
 redirects:
 - team-names-do-you-use-emojis-in-your-teams-channel-names
 - teams-emojis
@@ -37,5 +38,5 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 :::
 
 ::: good  
-![Figure: Good example - Some appointments can benefit from an emoji too](calendar-emoji.png)  
+![Figure: Good example - Some appointments can benefit from an emoji too, like a Sprint meeting in Scrum](calendar-emoji.png)  
 :::
