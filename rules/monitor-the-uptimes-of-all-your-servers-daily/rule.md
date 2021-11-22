@@ -5,8 +5,8 @@ uri: monitor-the-uptimes-of-all-your-servers-daily
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kiki
 related: []
 redirects:
   - do-you-monitor-the-uptimes-of-all-your-servers-daily
