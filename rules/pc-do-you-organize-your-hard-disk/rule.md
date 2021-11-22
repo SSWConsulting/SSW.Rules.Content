@@ -4,7 +4,7 @@ title: PC - Do you do organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ssw.com.au/people/kiki
 related: []
 redirects:
   - do-you-do-organize-your-hard-disk
@@ -100,5 +100,3 @@ Install the OneDrive (or your other selected backup application) app on your pho
 If Yes and iOS, then use iCloud, OneDrive or your selected backup application on your phone to back them up automatically.
 If Yes and Android, then use Google Drive, OneDrive or your selected backup application on your phone to back them up!
 If you don't care about losing your photos, do nothing!
-
-:::
