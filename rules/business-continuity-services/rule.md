@@ -45,7 +45,7 @@ Fault Tolerance and High Availability work together to ensure maximum uptime, an
 
 This design enables systems to continue operating even if a fail happens - generally in a degraded or reduced state. There is no redirection of workload like in High Availability.
 
-A good example is a RAID 5 array, where if one disk fails, you can keep using it without problems. If another disk fails, then you lose the whole array - it can tolerate one fault, and is designed in a way that you can fix that fault and rebuild or recover the array to normal again and have no data loss.
+A good example is a RAID 6 array, where if two disks fail, you can keep using it without problems. If a third disk fails, then you lose the whole array - it can tolerate two faults, and is designed in a way that you can fix that fault and rebuild or recover the array to normal again and have no data loss.
 
 Let's imagine the same scenario with the company Northwind, this is part of their FT plan:
 
