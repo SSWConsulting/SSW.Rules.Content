@@ -12,7 +12,7 @@ related:
 created: 2021-10-14T04:11:36.379Z
 guid: 48e1b450-5254-490a-bade-564c390bfb59
 ---
-Azure Site Recovery is the best way to ensure business continuity by keeping business apps and workloads running during outages. It is one of the fastest ways to get redundancy for your VMs on a secondary location.
+Azure Site Recovery is the best way to ensure business continuity by keeping business apps and workloads running during outages. It is one of the fastest ways to get redundancy for your VMs on a secondary location.  For on-premises local backup see www.ssw.com.au/rules/why-use-data-protection-manager
 
 <!--endintro-->
 
