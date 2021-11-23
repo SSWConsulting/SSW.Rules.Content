@@ -53,4 +53,6 @@ DPM is great for the above tasks, but for off-site backups or cloud backups, oth
 
 * Virtual Machines - VMs generally need quick recovery and backup. The best (but more expensive) option is Azure Site Recovery. You can read more about that at https://www.ssw.com.au/rules/azure-site-backup
 
-* Off-site - If you already have DPM backing up and have a secondary location (e.g. another office) with another DPM server, you can use that secondary DPM to backup your primary DPM. That's not backed up to the cloud, but a secondary location is also a valid off-site backup.
+* Off-site - Your on-premises DPM backup should always have a secondary location:
+    * Another office, with another DPM server
+    * Azure Site Recovery
