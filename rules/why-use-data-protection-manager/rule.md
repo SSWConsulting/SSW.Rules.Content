@@ -35,15 +35,15 @@ It also allows for storage over many platforms:
 * Tape
 * Cloud
 
+It is fast and easy to recover VMs and files from DPM, making this the best tool to have your local backups on. 
+
+It is also important to keep DPM backups healthy by monitoring their status frequently.
+
+![Figure: Good Example - DPM - Healthy backups show green ticks](ppaspsappic.png)
+
 ### How do you get your on-premises backups to the cloud?
 
 
 DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so for file servers, an auto-expanding cloud backup is better e.g. MSP360 (was CloudBerry) and Backblaze.
 
 ![Figure: Good Example - Use MSP360 (was CloudBerry) with Backblaze for easy cloud backups](cloudberry.jpg)
-
-It is fast and easy to recover VMs and files from DPM, making this the best tool to have your local backups on. 
-
-It is also important to keep DPM backups healthy by monitoring their status frequently.
-
-![Figure: Good Example - DPM - Healthy backups show green ticks](ppaspsappic.png)
