@@ -44,6 +44,8 @@ It is also important to keep DPM backups healthy by monitoring their status freq
 ### How do you get your on-premises backups to the cloud?
 
 
-DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so for file servers, an auto-expanding cloud backup is better e.g. MSP360 (was CloudBerry) and Backblaze.
+DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so for file servers, an auto-expanding, cheaper and simpler cloud backup is better e.g. MSP360 (was CloudBerry) and Backblaze.
 
 ![Figure: Good Example - MSP360 (was CloudBerry) has 2 file servers being backed up to the cloud (using BackBlaze, the simplest cloud backup)](cloudberry.jpg)
+
+To back up VMs to the cloud, Azure Site Recovery is a more expensive, but an excellent option. It allows for quick recovery and backup. You can read more about that at https://www.ssw.com.au/rules/azure-site-recovery
