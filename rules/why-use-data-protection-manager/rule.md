@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/steven-andrews
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kiki
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/Warwick-Leahy
 related: []
 redirects:
   - do-you-know-why-to-use-data-protection-manager-dpm
@@ -15,7 +17,7 @@ created: 2019-07-24T21:37:04.000Z
 archivedreason: null
 guid: d828541d-d6cb-4d99-a4c6-778c78e07259
 ---
-Every company needs a business continuity and disaster recovery plan. DPM is a robust backup solution used in many enterprises it can give you peace of mind knowing that your data is backed up, safe and easily restorable. It allows for backing up of:
+Every company needs a business continuity and disaster recovery plan. DPM is a robust backup solution used in many enterprises it can give you peace of mind knowing that your data is backed up, safe and easily restorable. It is the best tool to use for your on-premises backups. It allows for backing up of:
 
 <!--endintro-->
 
