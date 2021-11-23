@@ -55,4 +55,4 @@ DPM is great for the above tasks, but for off-site backups or cloud backups, oth
 
 * Off-site - Your on-premises DPM backup should always have a secondary location:
     * Another office, with another DPM server
-    * Azure Site Recovery
+    * The cloud, with Azure Site Recovery
