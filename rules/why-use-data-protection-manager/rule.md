@@ -34,7 +34,7 @@ It also allows for storage over many platforms:
 
 * Disk
 * Tape
-* Cloud (Uses Azure Backup)
+* Cloud (Uses Azure Site Recovery and Backup)
 
 It is fast and easy to recover VMs and files from DPM, making this the best tool to have your local backups on. 
 
