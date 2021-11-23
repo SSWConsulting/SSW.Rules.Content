@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/kiki
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwickleahy
+related:
+  - why-use-data-protection-manager
 created: 2021-10-14T04:11:36.379Z
 guid: 48e1b450-5254-490a-bade-564c390bfb59
 ---
