@@ -42,7 +42,7 @@ It is also important to keep DPM backups healthy by monitoring their status freq
 
 ![Figure: Good Example - DPM - Healthy backups show green ticks](ppaspsappic.png)
 
-### How do you get your on-premises backups offsite?
+### How do you get your on-premises backups off-site?
 
 DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so you have some options depending on your services:
 
