@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/steven-andrews
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kiki
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/Warwick-Leahy
 related: []
 redirects:
   - do-you-know-why-to-use-data-protection-manager-dpm
@@ -15,11 +17,11 @@ created: 2019-07-24T21:37:04.000Z
 archivedreason: null
 guid: d828541d-d6cb-4d99-a4c6-778c78e07259
 ---
-Every company needs a business continuity and disaster recovery plan. DPM is a robust backup solution used in many enterprises it can give you peace of mind knowing that your data is backed up, safe and easily restorable. It allows for backing up of:
+Every company needs a business continuity and disaster recovery plan. DPM is a robust backup solution for on-premises backups. It can give you peace of mind knowing that your data is backed up, safe and easily restorable. It allows for backing up of:
 
 <!--endintro-->
 
-* Hyper-V
+* Virtual Machines (Hyper-V and VMware)
 * Physical Machines
 * Application Aware Backups
 
@@ -33,12 +35,15 @@ It also allows for storage over many platforms:
 * Tape
 * Cloud
 
-DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so for file servers, an auto-expanding cloud backup is better e.g. MSP360 (was CloudBerry) and Backblaze.
-
-![Figure: Good Example - Use MSP360 (was CloudBerry) with Backblaze for easy cloud backups](cloudberry.jpg)
-
 It is fast and easy to recover VMs and files from DPM, making this the best tool to have your local backups on. 
 
 It is also important to keep DPM backups healthy by monitoring their status frequently.
 
 ![Figure: Good Example - DPM - Healthy backups show green ticks](ppaspsappic.png)
+
+### How do you get your on-premises backups to the cloud?
+
+
+DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so for file servers, an auto-expanding cloud backup is better e.g. MSP360 (was CloudBerry) and Backblaze.
+
+![Figure: Good Example - MSP360 (was CloudBerry) has 2 file servers being backed up to the cloud (using BackBlaze, the simplest cloud backup)](cloudberry.jpg)
