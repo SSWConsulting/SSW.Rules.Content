@@ -3,7 +3,7 @@ type: rule
 title: Redundancy - Do you use Azure Site Recovery?
 uri: azure-site-recovery
 authors:
-  - title: Kiki Biancatti
+  - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwickleahy
