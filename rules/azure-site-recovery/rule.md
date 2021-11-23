@@ -20,4 +20,4 @@ Ensuring business continuity is priority for the System Administrator team, and 
 
 This way when there is an issue, restoration can be in minutes - you just switch over to the VMs in Azure! They will keep the business running while the crisis is dealt with. The server will be in the same state as the last backup.  Or if the issue is software you can restore an earlier version of the virtual machine within a few minutes as well.  
 
-![Figure: Azure Backup and Site Recovery backs up on-premises and Azure Virtual Machines](azurebackup.png)
+![Figure: Azure Backup and Site Recovery backs up on-premises and Azure Virtual Machines](azure-backup.png)
