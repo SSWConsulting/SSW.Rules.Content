@@ -9,7 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/kiki
   - title: Warwick Leahy
     url: https://ssw.com.au/people/Warwick-Leahy
-related: []
+related:
+  - azure-site-recovery
 redirects:
   - do-you-know-why-to-use-data-protection-manager-dpm
   - do-you-know-why-to-use-data-protection-manager-(dpm)
