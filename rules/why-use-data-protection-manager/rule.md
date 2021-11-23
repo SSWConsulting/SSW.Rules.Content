@@ -46,13 +46,12 @@ It is also important to keep DPM backups healthy by monitoring their status freq
 
 DPM is great for the above tasks, but for off-site backups or cloud backups, other tools are best. You generally need to set up a physical machine with enough storage for DPM, so you have some options depending on your services:
 
+* Off-site - Your on-premises DPM backup should always have a secondary location:
+    * Another office, with another DPM server
+    * The cloud, with Azure Site Recovery
+
+* Virtual Machines - VMs generally need quick recovery and backup. The best (but more expensive) option is Azure Site Recovery. You can read more about that at www.ssw.com.au/rules/azure-site-recovery
 
 * File Servers - Generally, file servers need an auto-expanding, cheaper and simpler cloud backup. The best tool is MSP360 (was CloudBerry) which backs up to Backblaze (cloud storage).
 
 ![Figure: Good Example - MSP360 (was CloudBerry) has 2 file servers being backed up to the cloud (using BackBlaze, the simplest cloud backup)](cloudberry.jpg)
-
-* Virtual Machines - VMs generally need quick recovery and backup. The best (but more expensive) option is Azure Site Recovery. You can read more about that at https://www.ssw.com.au/rules/azure-site-backup
-
-* Off-site - Your on-premises DPM backup should always have a secondary location:
-    * Another office, with another DPM server
-    * The cloud, with Azure Site Recovery
