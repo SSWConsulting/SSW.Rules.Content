@@ -26,6 +26,6 @@ When you’re not able to get your point across, and the client is convinced of 
 1. You haven’t explained your point well enough. (i.e. you haven’t given them all the information)
 2. You don’t understand the full context for their decision. (i.e. they haven’t given you all the information)
 
-If it’s something you care a lot about and you’re not able to roll over on it, a good idea would be to send a [1 week follow up](https://www.ssw.com.au/rules/do-you-follow-up-emails-effectively) to have another discussion at a later date to try and explain your point again differently, and see if you can get more information to understand their point. 
+If it’s something you care a lot about and you’re not able to roll over on it, a good idea would be to send a [1 week follow up](/do-you-follow-up-emails-effectively) to have another discussion at a later date to try and explain your point again differently, and see if you can get more information to understand their point. 
 
-If after this, you still can’t agree, then go with what the client wants, and send a gently worded [For the Record](https://www.ssw.com.au/rules/send-a-for-the-record-email-when-you-disagree) email to document your opinion.
+If after this, you still can’t agree, then go with what the client wants, and send a gently worded [For the Record](/send-a-for-the-record-email-when-you-disagree) email to document your opinion.
