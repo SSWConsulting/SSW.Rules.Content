@@ -17,7 +17,9 @@ redirects:
 created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
+
 ---
+
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
 
 This will save the both you and the developer time and frustration in the long run. 
@@ -38,11 +40,11 @@ For **suggested features** it is best to:
 
 Try to have one issue/PBI/email per bug/suggestion, but if the bugs/suggestions are related or very small, then you may group them together in a single email.
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
-| Subject: | Your software |\
+| Subject: | Your software |
 ::: email-content  
 
 ### Hi
@@ -60,11 +62,11 @@ Susan
 Figure: Bad Example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
-| Subject: | 🐛 BUG - PerformancePro - Error on startup|\
+| Subject: | 🐛 BUG - PerformancePro - Error on startup|
 ::: email-content  
 
 ### Hi
@@ -96,11 +98,11 @@ When possible, a great template to follow is the [Functional Bug template](https
 * Expected outcome, and 
 * Actual outcome
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Rebecca |
-| Subject: | SSW TV |\
+| Subject: | SSW TV |
 ::: email-content  
 
 ### Hi Rebecca,
@@ -109,17 +111,17 @@ Where is SSW TV on the navigation?
 
 Adam     
 
-:::\
+:::
 :::
 ::: bad
 Figure: Bad example - Lack of details
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Rebecca |
-| Subject: | SSW Website - Can't find SSW TV link |\
+| Subject: | SSW Website - Can't find SSW TV link |
 ::: email-content  
 
 ### Hi Rebecca,
