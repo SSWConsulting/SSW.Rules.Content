@@ -45,7 +45,7 @@ Tracking is all fun and games, but what about knowing which asset is which? You 
 This means that after creating the asset in the system, it generally gets a unique ID within it, and you should generate a label (preferably with a QR or bar code for easy scanning) and attach the label to the asset in question. This makes it super easy to see the asset ID and name at a glance, and, in the case the asset is lost somewhere, anyone can easily scan the QR code and be brought to a site with instructions on how to return or notify the company that asset is lost.
 
 ::: good  
-![Figure: Good Example - A professional label printed with the important asset info e.g. ID, name and serial number](pxl_20211014_235412634.jpg)
+![Figure: Good Example - A professional label printed with the important asset info e.g. ID, name and serial number](qr-code.jpg)
 :::
 
 ::: info
