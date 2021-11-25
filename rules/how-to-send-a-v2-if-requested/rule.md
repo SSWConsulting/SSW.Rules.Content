@@ -28,10 +28,15 @@ If you receive feedback about an email you've sent, it will likely be in one of 
 The other reason for a v2 would be if you realise you've made a mistake and want to send an updated version of an email.
 To send a v2:
 
-1. Open your V1 Sent item
+1. Open your V1 email in Sent item
 2. Click Actions | Resend this message
 3. Put v2 on the 1<sup>st</sup> line of the email body
 
    **Note:** Do not put v2 in the subject because we want to keep the threading.
 4. Keep the email history leading up to your v1 email, replace your v1 with your v2 email, as if the v1 never happened
 5. If all the feedback is incorporated into the v2, there is no need for an additional done email. However if there are additional tasks in the feedback, it may be necessary to reply done to those as well as sending a v2 (i.e. 2 emails)
+
+::::greybox
+**Tip!** If you are doing a lot of these you can add the Resend this message to the quick access toolbar in Outlook.  
+![Figure: Resend This Message on the Quick Access Toolbar](microsoftteams-image.png)
+::::
