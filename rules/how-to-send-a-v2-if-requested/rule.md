@@ -33,7 +33,7 @@ To send a v2:
 
 1. Open your V1 email in Sent item
 2. Click Actions | Resend this message
-3. Put v2 on the 1<sup>st</sup> line of the email body
+3. Put V2 on the 1<sup>st</sup> line of the email body
 
    **Note:** Do not put v2 in the subject because we want to keep the threading.
 4. Keep the email history leading up to your v1 email, replace your v1 with your v2 email, as if the v1 never happened
