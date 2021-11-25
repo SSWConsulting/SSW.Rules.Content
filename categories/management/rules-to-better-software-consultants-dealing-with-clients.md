@@ -56,6 +56,7 @@ index:
 - cc-the-client-whenever-possible
 - use-backchannels-effectively
 - return-on-investment
+- lose-battle-keep-client
 
 ---
 Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.
