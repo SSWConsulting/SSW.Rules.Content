@@ -7,6 +7,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+    img: ""
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
 related: []
 redirects:
   - do-you-know-how-to-send-a-v2-of-an-email
