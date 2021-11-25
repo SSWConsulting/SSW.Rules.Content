@@ -1,12 +1,13 @@
 ---
 type: rule
 title: Do you know that it's bad to win the fight, but lose the customer?
-uri: do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
+uri: lose-battle-keep-client
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+  - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
 created: 2010-07-16T06:49:58.000Z
 archivedreason: null
 guid: d41db2e6-32e1-4617-a15d-3e1fdcd1a0f2
