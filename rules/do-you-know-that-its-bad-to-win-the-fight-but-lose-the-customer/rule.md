@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know that it's bad to win the fight, but lose the customer?
-uri: do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
+uri: lose-battle-keep-client
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
