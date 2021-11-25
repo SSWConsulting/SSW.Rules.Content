@@ -33,4 +33,4 @@ When you’re not able to get your point across, and the client is convinced of 
 
 If it’s something you care a lot about then give the client some space and try again later. For example, send a [1-week follow up](/do-you-follow-up-emails-effectively) to yourself to have another discussion to try and explain your point again, this time touching different points. During this 2nd conversation, you might be able to get more information from them to understand their point. 
 
-If after this, you still can’t agree. Then go with what the client wants, and send a gently worded [For the Record](/send-a-for-the-record-email-when-you-disagree) email to document your opinion.
+If after this, you still can’t agree, then go with what the client wants, and send a gently worded [For the Record](/send-a-for-the-record-email-when-you-disagree) email to document your opinion.
