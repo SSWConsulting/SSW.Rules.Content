@@ -14,6 +14,8 @@ guid: d41db2e6-32e1-4617-a15d-3e1fdcd1a0f2
 ---
 The impulse to win an argument and prove that you are right can be a strong driving force, but it goes without saying that it should not take priority over keeping a good client.
 
+`youtube: https://www.youtube.com/embed/SvGK7Cpw5mQ`
+
 <!--endintro-->
 
 A common point of difference is about the architecture of a proposed solution. The preferred approach is to implement an architecture that is as future proofed as possible so that future changes a client predictably will want to make are easier to implement. It's the same as a builder saying "I should rough in some plumbing in this area now because it will make it cheaper to install an ensuite in the future." It will always cost a little more to plan for the future, but it will save money, and time, in the long run.
