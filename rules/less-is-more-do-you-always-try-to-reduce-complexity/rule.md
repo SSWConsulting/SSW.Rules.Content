@@ -9,7 +9,6 @@ created: 2012-11-27T01:45:45.000Z
 archivedreason: null
 guid: fd8067c5-e29a-4061-abbf-8e4fa6cb25d8
 ---
-
 The human brain:
 
 1. Never searches for OR compares all options
@@ -18,15 +17,16 @@ The human brain:
 4. Prefers a shorter option to a longer one
 5. Makes a compromise between speed and accuracy
 
-
 <!--endintro-->
 
 It's important to keep these in mind when making design decisions or presenting data.
 
 Our visual short term memory has a capacity of 4 items. So options are easier for our brain to digest when presented in sets of 4.
 
-![Figure: Blocks of 4 or less menu items are easier for the brain to consume](../../assets/4VisualOptions1.jpg)  
+::: good
+![Figure: Good Example - Blocks of 4 or less menu items are easier for the brain to consume](4visualoptions1.png)
+:::
 
-::: good  
-![Figure: Good Example - A great example of removing complexity.](../../assets/SimpleFormsResolution.png)  
+::: good
+![Figure: Good Example - A great example of removing complexity.](simpleformsresolution.png)
 :::
