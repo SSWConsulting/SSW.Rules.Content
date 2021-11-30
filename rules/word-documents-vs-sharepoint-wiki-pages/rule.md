@@ -6,6 +6,7 @@ authors:
   - title: Chris Schultz
 related:
   - do-you-know-how-to-get-the-sharepoint-document-version-in-word
+  - how-to-name-sharepoint-documents
 created: 2021-11-29T22:45:19.556Z
 guid: be53b471-aff1-4f06-9ca3-de2badf5880c
 ---
