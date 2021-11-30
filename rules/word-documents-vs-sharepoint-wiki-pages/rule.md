@@ -16,6 +16,8 @@ In the past, wiki pages were a great way to store content in SharePoint. These d
 
 Many articles, like [this one from 2017](https://www.sharepointagency.co.nz/consulting/item/348-wiki-pages-are-better-than-word-documents-for-your-intranet.html), talk about the benefits of using Wiki pages over Word Documents - however, these benefits are no longer relevant. 
 
-(add bad example image here)
+![Figure: We've come a long way since Word 2013 Online presentation](word-2013-online-presentation.jpg)
 
 The main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. The SharePoint wiki page editor has fewer features, and can be harder to use.
+
+![](sharepoint-editor.png)
