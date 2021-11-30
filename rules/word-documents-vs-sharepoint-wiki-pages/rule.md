@@ -28,7 +28,9 @@ Let's have a quick look at some of the points that the article above used:
 
 **Mobile** - Mobile browsers also do a pretty good job of opening Word Documents, and there are the Office and OneDrive apps to make it even easier.
 
-The main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. The SharePoint wiki page editor has fewer features, and can be harder to use.
+### Advantages of Word Documents
+
+1. The main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. The SharePoint wiki page editor has fewer features, and can be harder to use.
 
 ::: bad
 
@@ -41,3 +43,5 @@ The main advantage of Word Documents is the editing capabilities – most people
 ![Microsoft Word's well-known, feature rich formatting options](microsoft-ribbon.png)
 
 :::
+
+2. Many people are utilising Microsoft Teams, and storing files there. While Teams still uses SharePoint in the backend, it is much easier to browse through documents than link and view wiki pages.
