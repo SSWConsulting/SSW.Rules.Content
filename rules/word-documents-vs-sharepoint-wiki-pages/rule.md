@@ -45,3 +45,7 @@ Let's have a quick look at some of the points that the article above used:
 :::
 
 2. Many people are utilising Microsoft Teams, and storing files there. While Teams still uses SharePoint in the backend, it is much easier to browse through documents than link and view wiki pages.
+
+![Figure: Browsing files in Teams](teams-browsing-files.png)
+
+3. OneDrive allows you to sync files from SharePoint libraries to your computer. This is very useful if you need offline access, or if users prefer to work from files within File Explorer in Windows, or Finder on macOS. This works really well with Word Documents, but is not possible with wiki pages.
