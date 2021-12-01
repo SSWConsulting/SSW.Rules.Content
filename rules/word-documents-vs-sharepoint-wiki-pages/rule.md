@@ -27,6 +27,14 @@ Let's have a quick look at some of the points that the article above used:
 
 **Mobile** - Mobile browsers also do a pretty good job of opening Word Documents, and there are the Office and OneDrive apps to make it even easier.
 
+
+
+::: greybox
+
+Note: If you want to create an actual Wiki within SharePoint, Modern Pages may be the way to go - but for general content, Word Documents are best.
+
+:::
+
 ### Advantages of Word Documents
 
 1. One main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. Documents can be created in the desktop app as it has the most editing capabilities, and can be easily edited in the web version - which is still very good! The SharePoint wiki page editor has fewer features, and can be harder to use.
