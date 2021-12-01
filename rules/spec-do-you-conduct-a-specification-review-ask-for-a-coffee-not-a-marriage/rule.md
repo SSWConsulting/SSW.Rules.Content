@@ -19,7 +19,9 @@ redirects:
 created: 2009-03-03T05:04:02.000Z
 archivedreason: null
 guid: fa87520c-c384-4372-855d-984c7600e5f9
+
 ---
+
 A client will often ask for a proposal or ballpark for the project. It is very difficult to give them the price for a large project without first conducting a Specification Review. 
 
 The Spec Review is a process that will demonstrate to the client whether you have the commercial sense to understand their **business** and have the technical and management capacity to complete the project.
@@ -103,6 +105,10 @@ You should follow [Rules to Better Proposals](/rules-to-better-proposals) when d
 ### Test Please
 
 The Consultant must run a [test please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
+
+::: greybox
+**Tip:** Record your presentation using the [Camtasia PowerPoint Add-In Toolbar](https://www.techsmith.com/learn/tutorials/camtasia/ppt-addin-toolbar/).
+:::
 
 ### Example Schedule for a 1-day Specification Review
 
