@@ -15,13 +15,13 @@ In the past, Wiki pages were a great way to store content in SharePoint. These d
 
 <!--endintro-->
 
-Many articles, like [this one from 2017](https://www.sharepointagency.co.nz/consulting/item/348-wiki-pages-are-better-than-word-documents-for-your-intranet.html), talk about the benefits of using Wiki pages over Word Documents - however, these benefits are no longer relevant. 
+Many articles, like [this one from 2017](https://www.sharepointagency.co.nz/consulting/item/348-wiki-pages-are-better-than-word-documents-for-your-intranet.html), talk about the benefits of using Wiki Pages over Word Documents - however, these benefits are no longer relevant. 
 
 ![Figure: We've come a long way since Word 2013 Online Presentation](word-2013-online-presentation.jpg)
 
 Let's have a quick look at some of the points that the article above used:
 
-**Accuracy** - It's easy to see the Modified date of documents in SharePoint, and versioning should be used to show that the Document is the most current one (of course, it should be the only one).
+**Accuracy** - It's easy to see the Modified date of documents in SharePoint, so you can tell if the Document is the most current one (of course, it should be the only one).
 
 **Load Time** - In the past, this was an issue. These days, browsers have no problem loading Word Documents.
 
@@ -29,7 +29,7 @@ Let's have a quick look at some of the points that the article above used:
 
 ### Advantages of Word Documents
 
-1. The main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. Documents can be created in the desktop app as it has the most editing capabilities, and can be easily edited in the web version - which is still very good! The SharePoint wiki page editor has fewer features, and can be harder to use.
+1. One main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. Documents can be created in the desktop app as it has the most editing capabilities, and can be easily edited in the web version - which is still very good! The SharePoint wiki page editor has fewer features, and can be harder to use.
 
 ::: bad
 
@@ -43,8 +43,9 @@ Let's have a quick look at some of the points that the article above used:
 
 :::
 
-2. Many people are using Microsoft Teams, and storing files in there - sometimes not using SharePoint at all. While Teams still uses SharePoint in the backend, it is much easier to browse through Documents than link and view wiki pages.
+2. Versioning is one of SharePoint's strongest features - and it works really well with Word Documents. 
+3. Many people are using Microsoft Teams, and storing files in there - sometimes not using SharePoint at all. While Teams still uses SharePoint in the backend, it is much easier to browse through Documents than link and view Wiki Pages.
 
 ![Figure: Browsing files in Teams](teams-browsing-files.png)
 
-3. OneDrive allows you to sync files from SharePoint libraries to your computer. This is very useful if you need offline access, or if users prefer to work from files within File Explorer in Windows, or Finder on macOS. This works really well with Word Documents, but is not possible with wiki pages.
+4. OneDrive allows you to sync files from SharePoint libraries to your computer. This is very useful if you need offline access, or if users prefer to work from files within File Explorer in Windows, or Finder on macOS. This works really well with Word Documents, but is not possible with wiki pages.
