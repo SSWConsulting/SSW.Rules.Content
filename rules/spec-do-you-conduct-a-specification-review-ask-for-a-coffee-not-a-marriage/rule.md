@@ -109,10 +109,10 @@ The Consultant must run a [test please](/conduct-a-test-please-internally-and-th
 You want to have all the required work for a spec review done within the allocated time, so it’s important you leave time to implement the required changes after you present and before you email the final version.
 
 * **9 am:** Meet with the client and discuss requirements
-* **11 am:** Start work on the backlog and the PPT or Word Doc
+* **11 am:** Start work on the backlog and the PowerPoint (.PPTX) or Word Doc (.DOCX)
 * **3 pm:** Present to the client and gather feedback for changes
 * **5 pm:** Implement changes
-* **6 pm:** Send “As per our conversation” with Word or PPT attachment
+* **6 pm:** Send “As per our conversation” with Word or PowerPoint attachment
 
 In a 2 or 3-day spec review, you should assume you’ll need more time to implement changes, so push the presentation time forward to 2 pm.
 
