@@ -79,17 +79,17 @@ While the information collected and the conclusions of the Spec Review are prese
 Each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
 ::: greybox
-"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"\
+"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"
 :::
 ::: bad
-Bad Example - Far too firm a price when you don't know any of the detail\
+Bad Example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
 "Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing. 
 :::
 ::: good
-Good Example - leaves some wriggle room at these initial phases\
+Good Example - leaves some wriggle room at these initial phases
 :::
 
 Read [When do you use approximate values for project costs?](/spec-do-you-know-how-to-give-the-customer-a-ballpark)
@@ -104,10 +104,12 @@ You should follow [Rules to Better Proposals](/rules-to-better-proposals) when d
 
 ### Test Please
 
-The Consultant must run a [test please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
+The Consultant must run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
 
 ::: greybox
-**Tip:** Record your presentation using the [Camtasia PowerPoint Add-In Toolbar](https://www.techsmith.com/learn/tutorials/camtasia/ppt-addin-toolbar/).
+**Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover. 
+
+You can record your presentation using [Recording Studio in PowerPoint](https://aka.ms/recordingstudio) or [Camtasia's PowerPoint Add-In Toolbar](https://www.techsmith.com/learn/tutorials/camtasia/ppt-addin-toolbar/).
 :::
 
 ### Example Schedule for a 1-day Specification Review
