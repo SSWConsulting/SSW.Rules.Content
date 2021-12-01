@@ -31,7 +31,7 @@ Let's have a quick look at some of the points that the article above used:
 
 ::: greybox
 
-Note: If you want to create an actual Wiki within SharePoint, Modern Pages may be the way to go - but for general content, Word Documents are best.
+**Note:** If you want to create an actual Wiki within SharePoint, Modern Pages may be the way to go - but for general content, Word Documents are best.
 
 :::
 
