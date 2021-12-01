@@ -43,7 +43,7 @@ Let's have a quick look at some of the points that the article above used:
 
 :::
 
-2. Many people are utilising Microsoft Teams, and storing files there. While Teams still uses SharePoint in the backend, it is much easier to browse through documents than link and view wiki pages.
+2. Many people are using Microsoft Teams, and storing files in there - sometimes not using SharePoint at all. While Teams still uses SharePoint in the backend, it is much easier to browse through Documents than link and view wiki pages.
 
 ![Figure: Browsing files in Teams](teams-browsing-files.png)
 
