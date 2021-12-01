@@ -11,7 +11,7 @@ related:
 created: 2021-11-29T22:45:19.556Z
 guid: be53b471-aff1-4f06-9ca3-de2badf5880c
 ---
-In the past, wiki pages were a great way to store content in SharePoint. These days, with advancements in browser and smartphone capabilities, Word Documents are a better place to store content. 
+In the past, Wiki pages were a great way to store content in SharePoint. These days, with advancements in browser and smartphone capabilities, Word Documents are a better place to store content. 
 
 <!--endintro-->
 
@@ -21,7 +21,7 @@ Many articles, like [this one from 2017](https://www.sharepointagency.co.nz/cons
 
 Let's have a quick look at some of the points that the article above used:
 
-**Accuracy** - It's easy to see the Modified date of documents in SharePoint, and versioning should be used to show that the document is the most current one (of course, it should be the only one).
+**Accuracy** - It's easy to see the Modified date of documents in SharePoint, and versioning should be used to show that the Document is the most current one (of course, it should be the only one).
 
 **Load Time** - In the past, this was an issue. These days, browsers have no problem loading Word Documents.
 
@@ -29,7 +29,7 @@ Let's have a quick look at some of the points that the article above used:
 
 ### Advantages of Word Documents
 
-1. The main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. Documents can be created in the desktop app as it has the most features, and can be easily edited in the web version - which is still very good! The SharePoint wiki page editor has fewer features, and can be harder to use.
+1. The main advantage of Word Documents is the editing capabilities – most people are familiar with the rich document editing features of Word. Documents can be created in the desktop app as it has the most editing capabilities, and can be easily edited in the web version - which is still very good! The SharePoint wiki page editor has fewer features, and can be harder to use.
 
 ::: bad
 
