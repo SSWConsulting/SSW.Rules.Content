@@ -47,5 +47,5 @@ When adding a mobile screenshot, make sure its width is about 50% of a desktop s
 :::
 
 ::: good
-![Figure: Good Example - mobile screenshot is smaller and easier to read](privacy-mode-ios.png)
+![Figure: Good Example - mobile screenshot is smaller and easier to follow](privacy-mode-ios.png)
 :::
