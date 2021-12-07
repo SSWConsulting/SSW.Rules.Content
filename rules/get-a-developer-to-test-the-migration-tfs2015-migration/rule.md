@@ -1,20 +1,23 @@
 ---
 type: rule
 archivedreason: 
-title: Do you get a developer to test the migration?
+title: Do you get a developer to test the TFS 2015 migration?
 guid: 4f9b5655-299b-4c7d-b281-722e72a13d88
-uri: do-you-get-a-developer-to-test-the-migration1
+uri: get-a-developer-to-test-the-migration-tfs2015-migration
 created: 2015-08-14T11:37:58.0000000Z
-authors: []
+authors:
+- title: Martin Hinshelwood
+  url: https://ssw.com.au/people/martin-hinshelwood
 related: []
 redirects:
-- do-you-get-a-developer-to-test-the-migration
+- do-you-get-a-developer-to-test-the-migration1
 
 ---
 
 It is important to get another developer to check the migration for issues.
 
 <!--endintro-->
+
 They should follow these steps:
 1. Start Visual Studio 2013
 2. Open Team Explorer and connect to the new TFS Server
