@@ -1,16 +1,14 @@
 ---
 type: rule
 archivedreason: 
-title: Do you run your dog food stats (before)?
+title: Do you run your dog food stats (before TFS 2015 migration)?
 guid: db69f69b-a073-4537-908d-52add92cac8a
-uri: run-your-dog-food-stats-before
+uri: run-your-dog-food-stats-before-tfs2015-migration
 created: 2015-08-12T16:38:41.0000000Z
 authors: []
 related: []
 redirects:
 - do-you-run-your-dog-food-stats-(before)1
-- do-you-run-your-dog-food-stats-before
-- do-you-run-your-dog-food-stats-(before)
 - do-you-run-your-dog-food-stats-before1
 
 ---
