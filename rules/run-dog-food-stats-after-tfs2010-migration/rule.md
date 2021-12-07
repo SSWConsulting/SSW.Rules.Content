@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you run Dog Food Stats (after) for TFS 2010 migration?
+title: Do you run Dog Food Stats (after TFS 2010 migration)?
 guid: e2472404-8058-45f7-96e1-ddb6a8bdb49f
 uri: run-dog-food-stats-after-tfs2010-migration
 created: 2009-11-08T02:01:52.0000000Z
