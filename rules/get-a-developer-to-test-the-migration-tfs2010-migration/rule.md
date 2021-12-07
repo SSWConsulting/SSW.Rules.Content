@@ -34,4 +34,4 @@ Getting someone else to test the migration is the best way to make sure that you
 
 **Note:** This will need to be done using Team Explorer 2010 as it is not supported in 2008.
 
-**Congratulations, you’ve done a successful migration.** 
+### Congratulations, you’ve done a successful migration.
