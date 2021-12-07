@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you get a developer to test the migration?
+title: Do you get a developer to test the TFS 2010 migration?
 guid: 0b9c4772-0345-4b76-878d-206e328f4fff
 uri: get-a-developer-to-test-the-migration-tfs2010-migration
 created: 2009-11-08T02:06:26.0000000Z
