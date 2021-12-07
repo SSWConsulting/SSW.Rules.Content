@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you run your dog food stats (before)?
+title: Do you run your dog food stats (before TFS 2010 migration)?
 guid: 7a788db9-fac6-4107-8751-339a3524f103
-uri: do-you-run-your-dog-food-stats-before
+uri: run-your-dog-food-stats-before-tfs2010-migration
 created: 2009-11-05T10:14:53.0000000Z
 authors:
 - title: Adam Cogan
@@ -13,6 +13,7 @@ authors:
 related: []
 redirects:
 - do-you-run-your-dog-food-stats-(before)
+- do-you-run-your-dog-food-stats-before
 
 ---
 
@@ -20,7 +21,6 @@ redirects:
 [http://blogs.msdn.com/bharry/archive/2007/12/02/tfs-statistics-update.aspx](http&#58;//blogs.msdn.com/bharry/archive/2007/12/02/tfs-statistics-update.aspx)
     1. Record the Number of files
     2. Record the number of Iterations
-
 
 
 TFS2008:
