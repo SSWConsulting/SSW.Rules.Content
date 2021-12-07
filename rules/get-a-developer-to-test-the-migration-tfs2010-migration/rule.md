@@ -32,6 +32,6 @@ Getting someone else to test the migration is the best way to make sure that you
     3. Work Items - confirm that you can see the last work items that you created
     4. Team Project - Create a new team project and check the SharePoint portal and reports work
 
-**Note: **This will need to be done using Team Explorer 2010 as it is not supported in 2008.
+**Note:** This will need to be done using Team Explorer 2010 as it is not supported in 2008.
 
 **Congratulations, you’ve done a successful migration.** 
