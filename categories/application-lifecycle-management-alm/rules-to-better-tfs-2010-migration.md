@@ -9,7 +9,7 @@ index:
 - do-you-get-a-new-tfs2010-server-ready
 - do-you-disable-connections
 - do-you-run-your-dog-food-stats-before
-- do-you-backup-your-databases
+- backup-your-databases-tfs2010-migration
 - do-you-know-how-to-upgrade-your-tfs2008-databases
 - do-you-do-a-quick-test-after-the-upgrade-finishes
 - do-you-run-dog-food-stats-after
