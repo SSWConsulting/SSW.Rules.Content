@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you run Dog Food Stats (after) for TFS 2015 migration?
+title: Do you run Dog Food Stats (after TFS 2015 migration)?
 guid: 4eb538fc-5a30-4cc3-9a13-62e0a8ddd9be
 uri: run-dog-food-stats-after-tfs2015-migration 
 created: 2015-08-13T13:00:01.0000000Z
