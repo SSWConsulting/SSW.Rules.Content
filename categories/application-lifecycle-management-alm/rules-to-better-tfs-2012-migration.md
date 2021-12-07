@@ -6,6 +6,7 @@ uri: rules-to-better-tfs-2012-migration
 index:
 - do-you-get-a-new-tfs-2012-server-ready
 - do-you-know-how-to-upgrade-your-tfs2010-databases-the-big-one
+- backup-your-databases-tfs2012-migration
 - plan-your-additional-steps-tfs2012-migration
 - upgrade-third-party-tools-tfs2012-migration
 - do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
