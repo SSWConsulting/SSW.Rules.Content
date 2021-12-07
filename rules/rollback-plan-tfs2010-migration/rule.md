@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Do you have a rollback plan?
+title: Do you have a rollback plan for TFS 2010 migration?
 guid: f13a6fd0-9137-4981-a613-3408b36c0229
-uri: do-you-have-a-rollback-plan
+uri: rollback-plan-tfs2010-migration
 created: 2009-11-02T22:38:45.0000000Z
 authors:
 - title: Adam Cogan
@@ -11,11 +11,14 @@ authors:
 - title: Eric Phan
   url: https://ssw.com.au/people/eric-phan
 related: []
-redirects: []
+redirects: 
+- do-you-have-a-rollback-plan
 
 ---
 
-Always [plan for a catastrophic disaster](http://www.ssw.com.au/SSW/Standards/Rules/RulesToBetterNetworks.aspx#assumeCatastrophic), in the event of errors when testing:
+Always [plan for a catastrophic disaster](/disaster-recovery-plan), in the event of errors when testing:
+
+<!--endintro-->
 
 1. Take the TFS2010 server offline
 2. Bring the TFS2008 server online
@@ -23,8 +26,4 @@ Always [plan for a catastrophic disaster](http://www.ssw.com.au/SSW/Standards/Ru
     1. Internal DNS Server
     2. External DNS Server
 
-
-![TFS In DNS](TFSDNS.png)
- Figure: DNS Pointer for TFS can be easily changed
-
-<!--endintro-->
+![Figure: DNS Pointer for TFS can be easily changed](TFSDNS.png)
