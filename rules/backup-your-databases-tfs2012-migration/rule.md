@@ -1,11 +1,13 @@
 ---
 type: rule
 archivedreason: 
-title: Do you backup your databases?
+title: Do you backup your databases for TFS 2012 migration?
 guid: b72a8d91-b030-4522-8059-6daee855c6e6
 uri: backup-your-databases-tfs2012-migration
 created: 2015-08-12T16:20:53.0000000Z
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
 - do-you-backup-your-databases1
