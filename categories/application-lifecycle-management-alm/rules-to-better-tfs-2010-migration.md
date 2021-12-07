@@ -7,7 +7,7 @@ index:
 - do-you-know-your-migration-choices
 - do-you-have-a-rollback-plan
 - do-you-get-a-new-tfs2010-server-ready
-- do-you-disable-connections
+- isable-connections-tfs2010-migration
 - do-you-run-your-dog-food-stats-before
 - backup-your-databases-tfs2010-migration
 - do-you-know-how-to-upgrade-your-tfs2008-databases
