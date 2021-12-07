@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you disable connections?
 guid: 320b6c73-b779-4bae-80f9-eb84235aeb1b
-uri: do-you-disable-connections
+uri: disable-connections-tfs2010-migration
 created: 2009-11-03T21:28:04.0000000Z
 authors:
 - title: Adam Cogan
@@ -11,11 +11,14 @@ authors:
 - title: Eric Phan
   url: https://ssw.com.au/people/eric-phan
 related: []
-redirects: []
+redirects: 
+- do-you-disable-connections
 
 ---
 
 Once you are ready to start you need to make sure that no one can access the existing TFS 2008 server while you do the migration.
+
+<!--endintro-->
 
 1. You are ready to start
 2. Send out an email notifying all users that TFS2008 will be turned off. 
@@ -32,4 +35,4 @@ Once you are ready to start you need to make sure that no one can access the exi
 
 4. Confirm you can no longer get latest on the team project
 
-<!--endintro-->
+
