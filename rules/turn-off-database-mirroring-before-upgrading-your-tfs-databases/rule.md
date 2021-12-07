@@ -3,13 +3,15 @@ type: rule
 archivedreason: 
 title: Do you turn off Database Mirroring before Upgrading your TFS databases?
 guid: 2af8f969-0ea6-4262-a1de-9eda9c93a45f
-uri: do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
+uri: turn-off-database-mirroring-before-upgrading-your-tfs-databases
 created: 2013-05-23T21:20:16.0000000Z
 authors:
 - title: Damian Brady
   url: https://ssw.com.au/people/damian-brady
 related: []
-redirects: []
+redirects:
+- do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
+- do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases1
 
 ---
 
