@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you disable connections?
+title: Do you disable connections for TFS 2010 migration?
 guid: 320b6c73-b779-4bae-80f9-eb84235aeb1b
 uri: disable-connections-tfs2010-migration
 created: 2009-11-03T21:28:04.0000000Z
