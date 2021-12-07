@@ -2,7 +2,9 @@
 type: rule
 title: Less is More - Do you always try to reduce complexity?
 uri: less-is-more-do-you-always-try-to-reduce-complexity
-authors: []
+authors:
+  - title: Ken Shi
+    url: https://www.ssw.com.au/people/ken-shi/
 related: []
 redirects: []
 created: 2012-11-27T01:45:45.000Z
@@ -28,5 +30,5 @@ Our visual short term memory has a capacity of 4 items. So options are easier fo
 :::
 
 ::: good
-![Figure: Good Example - A great example of removing complexity.](simpleformsresolution.png)
+![Figure: Good Example - A great example of removing complexity](simpleformsresolution.png)
 :::
