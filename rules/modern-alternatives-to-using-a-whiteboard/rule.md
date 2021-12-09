@@ -53,6 +53,7 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
 * Visio
 * OneNote
 * [Mural](https://mural.co/) (collaborative app)
+* [Miro](https://miro.com/) (whiteboard app)
 * Microsoft Teams Whiteboard
 * Microsoft Whiteboard
 * diagrams.net (was draw.io) ⭐️ - often collaborative sketches generated above enable the creation of a beautiful architecture diagram ([Do you make awesome documentation?](/do-you-review-the-documentation))
