@@ -15,15 +15,19 @@ redirects:
 created: 2018-09-07T18:37:51.000Z
 archivedreason: null
 guid: f3601790-dbe5-4a51-ac96-9ae5c9399250
+
 ---
+
 A great way of collaborating with a team or presenting a new solution to a client is using a visual display of your recommendations.
 
 Using a whiteboard is a great way of collaborating and brainstorming which works quite well. But a physical whiteboard is a large ugly object that takes up a fair amount of room, often isn’t kept clean, and doesn’t allow for people to collaborate remotely. There are modern alternatives that work even better, let's have a look at them.
 
-Scenario #1: Software consultants often use architecture diagrams to present a solution to the client. These graphical representations are used to help all of the stakeholders, the developers, the designers, and the clients visualize the high-level structure of the system or application to ensure it covers all of the client requirements.
+<!--endintro-->
+
+**Scenario:** Software consultants often use architecture diagrams to present a solution to the client. These graphical representations are used to help all of the stakeholders, the developers, the designers, and the clients visualize the high-level structure of the system or application to ensure it covers all of the client requirements.
 
 ::: bad
-![Figure: Bad example - When working with people online, drawing on some paper, taking a photo, and emailing it… is the *least* collaborative way to work](hand-drawing.png)
+![Figure: Bad example - When working with people online, drawing on some paper, taking a photo, and emailing it... is the \*least\* collaborative way to work](hand-drawing.png)
 :::
 
 ![Figure: OK example - Teams Whiteboard is a good collaborating tool while working online. (Using a pen and touch device provides the best experience, using a mouse is not pleasant)](team\_whiteboard.jpg)
@@ -31,8 +35,6 @@ Scenario #1: Software consultants often use architecture diagrams to present a s
 ::: good
 ![Figure: Good example - An architecture diagram exists on established projects after many discussions](architecture_diagram.png)
 :::
-
-<!--endintro-->
 
 ### \#1a Casting your screen (recommended - non collaborative) ⭐️
 
@@ -45,25 +47,19 @@ If you are in a situation where you just need to show someone what you are doing
 
 `youtube: https://www.youtube.com/watch?v=vDO-EUZUmiA`
 
- Figure: Using Whiteboard in Microsoft Teams 
-
-&nbsp;
+**Figure: Using Whiteboard in Microsoft Teams **
 
 `youtube: https://www.youtube.com/embed/JsaqPiqBxPY`
 
- Figure: Using Microsoft Whiteboard App #2 Tech Whiteboard replacement
+**Figure: Using Microsoft Whiteboard App #2 Tech Whiteboard replacement**
 
-&nbsp;
 ### \#2 Electronic whiteboard alternatives
 
 * **Samsung Flip** ($3k AUD)
 
 `youtube: https://www.youtube.com/embed/lZgVAbdwYNI`
 
-Figure: Using Samsung Flip
-
-&nbsp;
-
+**Figure: Using Samsung Flip**
 
 ![Figure: Samsung Flip can be flipped from horizontal to vertical](samsung_flip.jpg)
 
@@ -73,9 +69,8 @@ Figure: Using Samsung Flip
 
 `youtube: https://www.youtube.com/embed/GSUHgrjwBb4`
 
- **Figure: Using Microsoft Surface Hub**
+**Figure: Using Microsoft Surface Hub**
 
-&nbsp;
 
 ### \#3 Paper Whiteboard (Low tech – a large piece of paper)
 
@@ -117,6 +112,6 @@ There are many apps that allow you to sketch what you're talking about e.g.:
 * Microsoft Whiteboard
 * diagrams.net (was draw.io) ⭐️ - often collaborative sketches generated above enable the creation of a beautiful architecture diagram ([Do you make awesome documentation?](/do-you-review-the-documentation))
 
-  **Note:** these work fine with a mouse, they work even better with touch screens, or pens/styluses
+**Note:** these work fine with a mouse, they work even better with touch screens, or pens/styluses
 
 ![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)
