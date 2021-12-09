@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the modern alternatives to using a whiteboard?
-guid: f3601790-dbe5-4a51-ac96-9ae5c9399250
 uri: modern-alternatives-to-using-a-whiteboard
-created: 2018-09-07T18:37:51.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-the-modern-alternatives-to-using-a-whiteboard
-
+  - do-you-know-the-modern-alternatives-to-using-a-whiteboard
+created: 2018-09-07T18:37:51.000Z
+archivedreason: null
+guid: f3601790-dbe5-4a51-ac96-9ae5c9399250
 ---
 
 A great way of collaborating with a team or presenting a new solution to a client is using a visual display of your recommendations.
@@ -27,7 +26,7 @@ Software consultants often use architecture diagrams to present a solution to th
 ![Figure: Bad example - When working with people online, drawing on some paper, taking a photo, and emailing it… is the \*least\* collaborative way to work](hand-drawing.png)  
 :::
 
-![Figure: OK example - Teams Whiteboard is a good collaborating tool while working online. (Using a mouse is not pleasant, and a computer pen is not really natural for complex diagrams 🔥)](team\_whiteboard.jpg)  
+![Figure: OK example - Teams Whiteboard is a good collaborating tool while working online. (Using a pen and touch device provides the best experience, using a mouse is not pleasant)](team\_whiteboard.jpg)
 
 
 ::: good  
