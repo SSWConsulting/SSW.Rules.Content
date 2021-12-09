@@ -20,22 +20,11 @@ A great way of collaborating with a team or presenting a new solution to a clien
 
 Using a whiteboard is a great way of collaborating and brainstorming which works quite well. But a physical whiteboard is a large ugly object that takes up a fair amount of room, often isn’t kept clean, and doesn’t allow for people to collaborate remotely. There are modern alternatives that work even better, let's have a look at them.
 
-Software consultants often use architecture diagrams to present a solution to the client. These graphical representations are used to help all of the stakeholders, the developers, the designers, and the clients visualize the high-level structure of the system or application to ensure it covers all of the client requirements.
+Scenario #1: Software consultants often use architecture diagrams to present a solution to the client. These graphical representations are used to help all of the stakeholders, the developers, the designers, and the clients visualize the high-level structure of the system or application to ensure it covers all of the client requirements.
 
 ::: bad
-![Figure: Bad example - When working with people online, drawing on some paper, taking a photo, and emailing it… is the \*least\* collaborative way to work](hand-drawing.png)
+![Figure: Bad example - When working with people online, drawing on some paper, taking a photo, and emailing it… is the *least* collaborative way to work](hand-drawing.png)
 :::
-
-
-There are 2 ways to open the Teams Whiteboard. 
-
-1. In video chat the **Share Icon | Whiteboard**
-
-![Figure: Open Whiteboard from Teams Video](teamsopenwhiteboard.png)
-
-2. In Teams chat window **Click + | Whiteboard**
-
-   ![Figure: Open Teams from chat](teamsopenwhiteboardfromchat.png)
 
 ![Figure: OK example - Teams Whiteboard is a good collaborating tool while working online. (Using a pen and touch device provides the best experience, using a mouse is not pleasant)](team\_whiteboard.jpg)
 
@@ -45,30 +34,26 @@ There are 2 ways to open the Teams Whiteboard.
 
 <!--endintro-->
 
-### \#1 Laptop and cast to a monitor (recommended) ⭐️
+### \#1a Laptop and cast to a monitor (recommended - non collaborative) ⭐️
 
-Using your laptop or Ipad and then sharing your screen in a remote meeting and is easily saveable/sharable for later. There are many apps that allow you to sketch what you're talking about e.g.:
+If you are in a situation where you just need to show someone what you are doing then you can use your laptop or iPad and cast it to a monitor or a remote screen.
 
-* PowerPoint
-* Visio
-* OneNote
-* [Mural](https://mural.co/) (collaborative app)
-* [Miro](https://miro.com/) (whiteboard app)
-* Microsoft Teams Whiteboard
-* Microsoft Whiteboard
-* diagrams.net (was draw.io) ⭐️ - often collaborative sketches generated above enable the creation of a beautiful architecture diagram ([Do you make awesome documentation?](/do-you-review-the-documentation))
-
-  **Note:** these work fine with a mouse, they work even better with touch screens, or pens/styluses
-
-![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)
+### \#1b Teams Whiteboard (recommended for remote collaboration) ⭐️
+**There are 2 ways to open the Teams Whiteboard. 
+1. In video chat the **Share Icon | Whiteboard**
+2. In Teams chat window **Click + | Whiteboard**
 
 `youtube: https://www.youtube.com/watch?v=vDO-EUZUmiA`
 
  Figure: Using Whiteboard in Microsoft Teams 
 
+&nbsp;
+
 `youtube: https://www.youtube.com/embed/JsaqPiqBxPY`
 
- Figure: Using Microsoft Whiteboard App  #2 Tech Whiteboard replacement
+ Figure: Using Microsoft Whiteboard App #2 Tech Whiteboard replacement
+
+&nbsp;
 
 * **Samsung Flip** ($3k AUD)
 
@@ -76,8 +61,12 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
 
 Figure: Using Samsung Flip
 
+&nbsp;
+
 
 ![Figure: Samsung Flip can be flipped from horizontal to vertical](samsung_flip.jpg)
+
+&nbsp;
 
 * **Microsoft Surface Hub 2** (about $12K AUD)
 
@@ -85,6 +74,7 @@ Figure: Using Samsung Flip
 
  Figure: Using Microsoft Surface Hub
 
+&nbsp;
 
 ### \#3 Paper Whiteboard (Low tech – a large piece of paper)
 
@@ -112,3 +102,20 @@ The common scenario is for a spec review. I am always happy when I see devs usin
 Low tech (ugly) – Paint a wall to be writable or put some writable film on an office glass wall
 
 ![Figure: Writable walls can be dirty even after cleaning up](glass\_wall.jpg)
+
+## Suggestions for sketching software 
+
+There are many apps that allow you to sketch what you're talking about e.g.:
+
+* PowerPoint
+* Visio
+* OneNote
+* [Mural](https://mural.co/) (collaborative app)
+* [Miro](https://miro.com/) (whiteboard app)
+* Microsoft Teams Whiteboard
+* Microsoft Whiteboard
+* diagrams.net (was draw.io) ⭐️ - often collaborative sketches generated above enable the creation of a beautiful architecture diagram ([Do you make awesome documentation?](/do-you-review-the-documentation))
+
+  **Note:** these work fine with a mouse, they work even better with touch screens, or pens/styluses
+
+![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)
