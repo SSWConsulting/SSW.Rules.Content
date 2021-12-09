@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
 related: []
 redirects:
   - do-you-know-the-modern-alternatives-to-using-a-whiteboard
@@ -14,8 +16,6 @@ created: 2018-09-07T18:37:51.000Z
 archivedreason: null
 guid: f3601790-dbe5-4a51-ac96-9ae5c9399250
 ---
-![]()
-
 A great way of collaborating with a team or presenting a new solution to a client is using a visual display of your recommendations.
 
 Using a whiteboard is a great way of collaborating and brainstorming which works quite well. But a physical whiteboard is a large ugly object that takes up a fair amount of room, often isn’t kept clean, and doesn’t allow for people to collaborate remotely. There are modern alternatives that work even better, let's have a look at them.
@@ -25,6 +25,8 @@ Software consultants often use architecture diagrams to present a solution to th
 ::: bad\
 ![Figure: Bad example - When working with people online, drawing on some paper, taking a photo, and emailing it… is the \*least\* collaborative way to work](hand-drawing.png)\
 :::
+
+
 There are 2 ways to open the Teams Whiteboard. 
 
 1. In video chat the **Share Icon | Whiteboard**
@@ -33,9 +35,9 @@ There are 2 ways to open the Teams Whiteboard.
 
 2. In Teams chat window **Click + | Whiteboard**
 
+   ![Figure: Open Teams from chat](teamsopenwhiteboardfromchat.png)
+
 ![Figure: OK example - Teams Whiteboard is a good collaborating tool while working online. (Using a pen and touch device provides the best experience, using a mouse is not pleasant)](team\_whiteboard.jpg)
-
-
 
 ::: good\
 ![Figure: Good example - An architecture diagram exists on established projects after many discussions](architecture_diagram.png)\
@@ -75,9 +77,8 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
 
 `youtube: https://www.youtube.com/embed/lZgVAbdwYNI`
 
-```
-           <br unselectable="on"> </div><dd> Figure: Using Samsung Flip </dd>
-```
+Figure: Using Samsung Flip
+
 
 ![Figure: Samsung Flip can be flipped from horizontal to vertical](samsung_flip.jpg)
 
@@ -85,8 +86,8 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
 
 `youtube: https://www.youtube.com/embed/GSUHgrjwBb4`
 
- </div><dd>Figure: Using Microsoft Surface Hub
-</dd>
+ Figure: Using Microsoft Surface Hub
+
 
 ### \#3 Paper Whiteboard (Low tech – a large piece of paper)
 
