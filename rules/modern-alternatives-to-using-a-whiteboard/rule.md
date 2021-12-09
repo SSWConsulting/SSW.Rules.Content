@@ -60,10 +60,6 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
 
   **Note:** these work fine with a mouse, they work even better with touch screens, or pens/styluses
 
-  ```
-   
-  ```
-
 ![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)
 
 `youtube: https://www.youtube.com/watch?v=vDO-EUZUmiA`
