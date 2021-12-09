@@ -39,8 +39,8 @@ There are 2 ways to open the Teams Whiteboard.
 
 ![Figure: OK example - Teams Whiteboard is a good collaborating tool while working online. (Using a pen and touch device provides the best experience, using a mouse is not pleasant)](team\_whiteboard.jpg)
 
-::: good\
-![Figure: Good example - An architecture diagram exists on established projects after many discussions](architecture_diagram.png)\
+::: good
+![Figure: Good example - An architecture diagram exists on established projects after many discussions](architecture_diagram.png)
 :::
 
 <!--endintro-->
@@ -65,7 +65,7 @@ Using your laptop or Ipad and then sharing your screen in a remote meeting and i
 
 ![Figure: Pens/Styluses help to draw better sketches](surface-pen.jpg)
 
-`youtube: https://www.youtube.com/embed/qDqtWRu0rTA`
+`youtube: https://www.youtube.com/watch?v=vDO-EUZUmiA`
 
  Figure: Using Whiteboard in Microsoft Teams 
 
