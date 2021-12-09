@@ -34,7 +34,7 @@ Scenario #1: Software consultants often use architecture diagrams to present a s
 
 <!--endintro-->
 
-### \#1a Laptop and cast to a monitor (recommended - non collaborative) ⭐️
+### \#1a Casting your screen (recommended - non collaborative) ⭐️
 
 If you are in a situation where you just need to show someone what you are doing then you can use your laptop or iPad and cast it to a monitor or a remote screen.
 
@@ -54,6 +54,7 @@ If you are in a situation where you just need to show someone what you are doing
  Figure: Using Microsoft Whiteboard App #2 Tech Whiteboard replacement
 
 &nbsp;
+### \#2 Electronic whiteboard alternatives
 
 * **Samsung Flip** ($3k AUD)
 
@@ -72,7 +73,7 @@ Figure: Using Samsung Flip
 
 `youtube: https://www.youtube.com/embed/GSUHgrjwBb4`
 
- Figure: Using Microsoft Surface Hub
+ **Figure: Using Microsoft Surface Hub**
 
 &nbsp;
 
