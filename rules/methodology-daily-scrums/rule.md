@@ -58,7 +58,7 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 
 ### Tip 3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | \[Team] |
@@ -76,9 +76,9 @@ As per our conversation, the Daily Scrum will be held each day.
 
 &lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
 
-:::\
-:::\
-::: good\
+:::
+:::
+::: good
 Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template
 :::
 
