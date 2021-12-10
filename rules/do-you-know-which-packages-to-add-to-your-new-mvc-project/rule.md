@@ -1,56 +1,52 @@
 ---
 type: rule
-archivedreason: 
 title: Do You Know Which Packages To Add To Your New MVC Project?
-guid: ff1fcbc9-abe1-44f8-bfda-1d8720cb3799
 uri: do-you-know-which-packages-to-add-to-your-new-mvc-project
-created: 2014-12-30T00:24:02.0000000Z
 authors:
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-related: []
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Andrew Harris
+    url: https://ssw.com.au/people/andrew-harris
+related:
+  - clean-architecture-the-best-way-to-get-started
 redirects: []
-
+created: 2014-12-30T00:24:02.000Z
+archivedreason: null
+guid: ff1fcbc9-abe1-44f8-bfda-1d8720cb3799
 ---
-
-When you create a new MVC project in Visual Studio it is important to include the right packages from the start. This makes the project more manageable and you become more efficient in producing your final result.
+When you create a new MVC project in Visual Studio it is important to include the right packages from the start. This will make a solution more manageable and developers will be more efficient.
 
 <!--endintro-->
 
-If you add old, obsolete or incorrect NuGet packages, the project will suffer and you might have decreased performance or scope creep as new requirements are discovered.
+Adding old, obsolete or incorrect packages can lead to decreased performance, scope creep as new requirements are discovered and generally lead to projects suffering.
 
-Avoid old technologies such as:
+Some technologies to avoid are :
 
 * MVC Web Forms
 * KnockoutJS
-
-When you create a project you should be adding the following NuGet Packages:
-
-* SSW.DataOnion
-* SSW.HealthCheck
-* AutoFac
-* Serilog
-
-
-You should also add the following NPM  packages:
-
-* Angular JS
-* Bootstrap
+* AngularJS
 * Gulp
 
+When creating a new MVC project we recommend you use the \[Clean Architecture Template](https://www.ssw.com.au/rules/clean-architecture-the-best-way-to-get-started). This template not only gives you a great structure, but it also includes all the required packages.
 
-**Note** : Prior to 2016, SSW recommend developers choose bower over NPM as their front end package manager. That recomendation has changed due to the industry trend away from bower.
+The following are some of the NuGet packages included:
 
-![](Bower_v_NPM.png)
+* EntityFramework
+* FluentValidation
+* NSwag
+* AutoMapper
+* MediatR
 
+The following are some of the NPM packages included:
 
-::: good
-Figure: NPM Popularity has been increasing
-
-:::
+* Angular
+* FontAwesome
+* RxJs
+* Bootstrap
+* TypeScript
 
 Part of     [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).
