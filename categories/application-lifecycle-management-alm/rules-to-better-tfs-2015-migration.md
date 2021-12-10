@@ -4,7 +4,6 @@ title: Rules to Better TFS 2015 Migration
 guid: e4ee5fc0-9c66-408a-a224-e03e34654812
 uri: rules-to-better-tfs-2015-migration
 index:
-- backup-your-databases-tfs2012-migration
 - isable-connections-tfs2015-migration
 - do-a-quick-test-after-the-upgrade-finishes-tfs2015-migration
 - get-a-developer-to-test-the-migration-tfs2015-migration
