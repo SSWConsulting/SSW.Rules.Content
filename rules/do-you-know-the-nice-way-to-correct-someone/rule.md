@@ -30,7 +30,7 @@ Hi Guys,
 Let's meet on Thursday at 3 PM
 
 :::
-**Figure: Someone requests a meeting using a regular email message** 
+**Figure: Someone requests a meeting using a normal email message** 
 
 You could reply in different ways:
 
@@ -53,7 +53,7 @@ Hi Mary,
 I noticed you did not send an appointment for this meeting. I hope you don't mind, but I have gone ahead and created one so we don't all have to set a reminder individually. 
 
 Have a look at our [Rules to better Email](/appointments-do-you-send-outlook-calendar-appointments-when-appropriate). We have a number of helpful standards like this if you're interested.
-
+:::
 ::: good
 Figure: Good Example - Being proactive to solve the problem + pointing the mistake in a friendly and polite manner
 :::
