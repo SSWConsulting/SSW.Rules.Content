@@ -14,6 +14,8 @@ index:
 
 ---
 
+**Update: TFS 2012 has been replaced by TFS 2015 - if you're moving to TFS 2015, see our [Rules to Better TFS 2015 Migration](/rules-to-better-tfs-2015-migration).**
+
 In this page we will look at upgrading an existing TFS 2010 server to a new TFS 2012 server. In this walkthrough, we assume you are currently using a single server configuration, but might want to separate your SQL Server from your TFS server. We also assume you have a DNS entry setup for external access at tfs.northwind.com.
 
 Upgrading Team Foundation Server can be a daunting task. Be assured that things have become easier and if you follow this guide, it will minimize your downtime.
