@@ -39,19 +39,19 @@ Scenario #1: Software consultants often use architecture diagrams to present a s
 If you are in a situation where you just need to show someone what you are doing then you can use your laptop or iPad and cast it to a monitor or a remote screen.
 
 ### \#1b Teams Whiteboard (recommended for remote collaboration) ⭐️
-**There are 2 ways to open the Teams Whiteboard. 
+There are 2 ways to open the Teams Whiteboard. 
 1. In video chat the **Share Icon | Whiteboard**
 2. In Teams chat window **Click + | Whiteboard**
 
 `youtube: https://www.youtube.com/watch?v=vDO-EUZUmiA`
 
- Figure: Using Whiteboard in Microsoft Teams 
+**Figure: Using Whiteboard in Microsoft Teams**
 
 &nbsp;
 
 `youtube: https://www.youtube.com/embed/JsaqPiqBxPY`
 
- Figure: Using Microsoft Whiteboard App #2 Tech Whiteboard replacement
+**Figure: Using Microsoft Whiteboard App #2 Tech Whiteboard replacement**
 
 &nbsp;
 ### \#2 Electronic whiteboard alternatives
@@ -60,7 +60,7 @@ If you are in a situation where you just need to show someone what you are doing
 
 `youtube: https://www.youtube.com/embed/lZgVAbdwYNI`
 
-Figure: Using Samsung Flip
+**Figure: Using Samsung Flip**
 
 &nbsp;
 
