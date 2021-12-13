@@ -10,7 +10,7 @@ guid: 834a4950-e20a-49ee-8c9d-8e7bbdcc84ba
 ---
 ::: todo
 TODO: Byrden - Do you know why you are using linq (Complete rewrite)   
-Old content pasted below
+Old content from Better LINQ on .ASPX pasted below
 :::
 
 <!--endintro-->
