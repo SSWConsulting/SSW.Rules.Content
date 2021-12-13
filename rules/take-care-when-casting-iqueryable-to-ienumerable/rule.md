@@ -14,16 +14,16 @@ When you cast IQueryable to IEnumerable and then query the data from there, Enti
 
 ### Counting
 ```
-		context.Sales.ToList().Count The ToList generates a list of all records client side and then counts them
-		IEnumerable<Sale> sales = context.Sales; This implicitly treats the sales as an enumerable and enumerates all the items to count them
-		return sales.Count;	
+context.Sales.ToList().Count The ToList generates a list of all records client side and then counts them
+IEnumerable<Sale> sales = context.Sales; This implicitly treats the sales as an enumerable and enumerates all the items to count them
+return sales.Count;	
 ```
 ::: bad
 Bad example
 :::
 
 ```
-		context.Sales.Count
+context.Sales.Count
 ```
 ::: good
 Good example
@@ -31,16 +31,16 @@ Good example
 
 ### Where
 ```
-		private IEnumerable<Sale> Sales {get {return context.Sales;}}
-		return Sales.Where(x => x.Id == 5).ToList();
+private IEnumerable<Sale> Sales {get {return context.Sales;}}
+return Sales.Where(x => x.Id == 5).ToList();
 ```
 ::: bad
 Bad example
 :::
 
 ```
-		private IQueryable<Sale> Sales {get {return context.Sales;}}
-		return Sales.Where(x => x.Id == 5).ToList();
+private IQueryable<Sale> Sales {get {return context.Sales;}}
+return Sales.Where(x => x.Id == 5).ToList();
 ```
 ::: good
 Good example
