@@ -32,19 +32,19 @@ Figure: Bad example - using ADO.NET and not strongly typed
 :::
 
 ```cs
-* var results =
+var results =
       from c in dbContext.Customers
       where c.CompanyName.StartsWith(companyNameTextbox.Text)
       select c;
-  customersBindingSource.DataSource = results;
+customersBindingSource.DataSource = results;
   
-  // or even
+// or even
   
-  var results =
+var results =
       from c in dbContext.Customers
       where c.CompanyName.StartsWith(companyNameTextbox.Text)
       select new {c.CompanyName, c.Phone};
-  customersBindingSource.DataSource = results;
+customersBindingSource.DataSource = results;
 ```
 ::: good
 Figure: Good example - at least 4 good reasons below
