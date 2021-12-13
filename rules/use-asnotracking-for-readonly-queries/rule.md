@@ -14,7 +14,7 @@ This results in fairly significant memory and CPU improvements on the client sid
 
 <!--endintro-->
 
-```
+```cs
 return context.Sales.AsNoTracking().Where(x => x.Id == 5).ToList();
 ```
             
