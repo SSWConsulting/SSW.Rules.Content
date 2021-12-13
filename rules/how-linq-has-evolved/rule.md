@@ -22,7 +22,7 @@ ArrayList - Implements the IList interface using an array whose size is dynamica
 
 Example:
 
-```
+```cs
 ArrayList greeks = new ArrayList();
     greeks.Add("Alexopoulos");
     greeks.Add("Gianopoulos");
@@ -47,7 +47,7 @@ List \<T\>: IList - The List class is the generic equivalent of the ArrayList cl
 
 Example:
 
-```
+```cs
 List<string> greeks = new List<string>();
 greeks.Add("Alexopoulos");
 greeks.Add("Gianopoulos");
@@ -68,14 +68,14 @@ foreach(string g in greeks)
 
 **(System.Linq)**
 
-```
+```cs
 IQueryable<out T> : IEnumerable<T>, 
          IQueryable, IEnumerable
 ```
 
 The IQueryable<T> interface is intended for implementation by query providers. This interface inherits the IEnumerable<T> interface so that if it represents a query, the results of that query can be enumerated. Enumeration forces the expression tree associated with an IQueryable object to be executed.
 
-```
+```cs
 List<string> greeks = new List<string>();
 greeks.Add("Alexopoulos");
 greeks.Add("Gianopoulos");
@@ -91,7 +91,7 @@ IEnumerable<string> opoulos = greeks.Where(x => x.Contains(“opoulos”));
 
 (The System.Collections.Concurrent namespace provides several thread-safe collection classes that should be used in place of the corresponding types in the System.Collectionsand System.Collections.Generic namespaces whenever multiple threads are accessing the collection concurrently.)
 
-```
+```cs
 public class ConcurrentBag<T> : IProducerConsumerCollection<T>, 
          IEnumerable<T>, ICollection, IEnumerable
  
@@ -130,7 +130,7 @@ Represents a thread-safe, unordered collection of objects.
 
 **(System.Collections.Generic)**
 
-```
+```cs
 public class List : IList, ICollection, 
          IList, ICollection, IReadOnlyList, IReadOnlyCollection, IEnumerable, 
          IEnumerable
@@ -138,7 +138,7 @@ public class List : IList, ICollection,
 
 The Microsoft .NET Framework 4.5 includes the IReadOnlyList, IReadOnlyDictionary and IReadOnlyCollection generic interfaces. The main benefit is that the new interfaces are covariant, except for IReadOnlyDictionary. This means that you can use a derived type as the generic parameter, when passing in a collection into a method that's defined for a base type. If you have a Dog class, for example, that derives from Animal, you can have a method that accepts an IReadOnlyList<Animal> and pass it an IReadOnlyList<Dog>.
 
-```
+```cs
 public class Greek : Person
 {
 ..
