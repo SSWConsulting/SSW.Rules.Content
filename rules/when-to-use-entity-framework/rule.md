@@ -15,7 +15,7 @@ Old content from Better LINQ on .ASPX pasted below
 
 <!--endintro-->
 
-```
+```cs
 using (SqlConnection conn = new SqlConnection())
       {
       conn.ConnectionString = "Data Source=(local);Initial Catalog=Northwind;Integrated Security=True";
@@ -31,14 +31,14 @@ using (SqlConnection conn = new SqlConnection())
 Figure: Bad example - using ADO.NET and not strongly typed
 :::
 
-```
+```cs
 * var results =
       from c in dbContext.Customers
       where c.CompanyName.StartsWith(companyNameTextbox.Text)
       select c;
   customersBindingSource.DataSource = results;
   
-  or even
+  // or even
   
   var results =
       from c in dbContext.Customers
