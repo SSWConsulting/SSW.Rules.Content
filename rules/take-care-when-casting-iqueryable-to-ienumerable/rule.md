@@ -13,7 +13,7 @@ When you cast IQueryable to IEnumerable and then query the data from there, Enti
 <!--endintro-->
 
 ### Counting
-```
+```cs
 context.Sales.ToList().Count The ToList generates a list of all records client side and then counts them
 IEnumerable<Sale> sales = context.Sales; This implicitly treats the sales as an enumerable and enumerates all the items to count them
 return sales.Count;	
@@ -22,7 +22,7 @@ return sales.Count;
 Bad example
 :::
 
-```
+```cs
 context.Sales.Count
 ```
 ::: good
@@ -30,7 +30,7 @@ Good example
 :::
 
 ### Where
-```
+```cs
 private IEnumerable<Sale> Sales {get {return context.Sales;}}
 return Sales.Where(x => x.Id == 5).ToList();
 ```
@@ -38,7 +38,7 @@ return Sales.Where(x => x.Id == 5).ToList();
 Bad example
 :::
 
-```
+```cs
 private IQueryable<Sale> Sales {get {return context.Sales;}}
 return Sales.Where(x => x.Id == 5).ToList();
 ```
