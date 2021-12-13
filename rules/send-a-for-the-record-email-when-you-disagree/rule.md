@@ -72,11 +72,17 @@ Figure: Good example - they asked you to do a shortcut
 (...on the day)
 
 ::: greybox
-"Thanks for the chat today. For the record, I disagree with doing the Northwind Project in React and instead I recommend doing it in Angular, because...XXX.
-That said, you are the Product Owner and have final say in the matter, so I will proceed with React as per your decision."
+"Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas we have recommended using Angular for the following reasons:
+
+ * Reason for Angular over React 1 (https://link),
+ * Reason for Angular over React 2 (https://link),
+ * Reason for Angular over React 3 (https://link).
+
+That said, you are the Product Owner and have final say in the matter, so we will proceed with React as per your decision."
+
 :::
 ::: good 
-Figure: Good example - they are making a poor technology choice.  
+Figure: Good example - You have politely pointed out they are making a poor technology choice and given empirical evidence.
 :::
 
 **Note:** it's also a good email to have in your back pocket in case the client complains about slow progress in a few months time.
