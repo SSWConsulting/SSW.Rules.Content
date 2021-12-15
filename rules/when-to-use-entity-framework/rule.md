@@ -17,33 +17,33 @@ Old content from Better LINQ on .ASPX pasted below
 
 ```cs
 using (SqlConnection conn = new SqlConnection())
-      {
-      conn.ConnectionString = "Data Source=(local);Initial Catalog=Northwind;Integrated Security=True";
-      conn.Open();
+{
+    conn.ConnectionString = "Data Source=(local);Initial Catalog=Northwind;Integrated Security=True";
+    conn.Open();
   
-      SqlCommand cmd = conn.CreateCommand();
-      cmd.CommandText = "SELECT * FROM Customers WHERE CompanyName LIKE '" + companyNameTextbox.Text + "%'";
+    SqlCommand cmd = conn.CreateCommand();
+    cmd.CommandText = "SELECT * FROM Customers WHERE CompanyName LIKE '" + companyNameTextbox.Text + "%'";
   
-      bindingSource1.DataSource = cmd.ExecuteReader();\
-  }
+    bindingSource1.DataSource = cmd.ExecuteReader();\
+}
 ```
 ::: bad
 Figure: Bad example - using ADO.NET and not strongly typed
 :::
 
 ```cs
-var results =
-      from c in dbContext.Customers
-      where c.CompanyName.StartsWith(companyNameTextbox.Text)
-      select c;
+var results = dbContext.Customers
+    .Where(c => c.CompanyName.StartsWith(companyNameTextbox.Text));
 customersBindingSource.DataSource = results;
   
-// or even
-  
-var results =
-      from c in dbContext.Customers
-      where c.CompanyName.StartsWith(companyNameTextbox.Text)
-      select new {c.CompanyName, c.Phone};
+// Or even
+var results = dbContext.Customers
+    .Where(c => c.CompanyName.StartsWith(companyNameTextbox.Text))
+    .Select(c => new
+    {
+        c.CompanyName,
+        c.Phone
+    });
 customersBindingSource.DataSource = results;
 ```
 ::: good
@@ -54,4 +54,5 @@ Figure: Good example - at least 4 good reasons below
 2. Less performance issues - Most serious .NET performance issues were because of unclosed connections. LINQ means no connection code needed to be done.
    LINQ is another layer and really is overhead.
 3. Strongly typed fields - SQL tables/entities has intellisense
-4. Strongly typed SQL - SQL (Familiar SQL like syntax aka LINQ) has intellisense
+4. Making queries that are independant from specific Database engine
+5. It's easy to chain more operation like `OrderBy`, `GroupBy`, `FirstOrDefault`, `Count`, `Any` and many more
