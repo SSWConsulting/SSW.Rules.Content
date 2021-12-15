@@ -7,8 +7,10 @@ authors:
     url: https://ssw.com.au/people/kiki
 created: 2021-10-14T22:48:34.119Z
 guid: e8684026-a7b7-4404-a513-9b8b39c55791
+
 ---
-Most companies have physical assets and it's crucial to keep track of those assets - are they in a particular location? Who are the assets with? Are they assigned somewhere else?         
+
+Most companies have physical assets and it is crucial to keep track of those assets: Are they in a particular location? Who are the assets with? Are they assigned somewhere else?         
 
 <!--endintro-->
 
@@ -48,7 +50,7 @@ There is a couple of  exceptions to the above:
 1. When the items are physically small and can't have a tag on them you shouldn't put one on.
 2. When the items are too cheap they don't need to be individually tagged, having the total number + the number of items checked out to people is enough.
 
-::: good\
+::: good
 ![Figure: Good Example - A professional label printed with the important asset info e.g. ID, name and serial number](qr-code-v2.jpg)
 :::
 
