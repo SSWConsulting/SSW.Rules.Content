@@ -28,10 +28,11 @@ If the situation escalates and the client is genuinely upset, make sure you star
 
 ### How to understand and rationalize dissenting opinions
 
-While not being able to persuade the client can be frustrating, understand there are 2 common reasons why 2 reasonable people don’t agree on a point:
+While not being able to persuade the client can be frustrating, understand there are 3 common reasons why 2 reasonable people don’t agree on a point:
 
-1. You haven’t explained your point well enough. (i.e. you haven’t given them all the information);
-2. You don’t understand the full context for their decision. (i.e. they haven’t given you all the information)
+1. You haven’t explained your point well enough. e.g. you haven’t given them all the information
+2. You don’t understand the full context for their decision. e.g. they haven’t given you all the information
+3. One party is not able to process the extra information e.g. they may be emotionally invested
 
 If it’s something you care a lot about then give the client some space and try again later, making sure you ask questions about their needs in the meantime. If the client feels like you are listening to their concerns sincerely you are more likely to be able to persuade them of your approach. For example, send a [1 week follow up](/do-you-follow-up-emails-effectively) to yourself to have another discussion to try and explain your point again, this time touching different points. During this 2nd conversation, you might be able to get more information from them to understand their point. 
 
