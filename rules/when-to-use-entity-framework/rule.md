@@ -51,8 +51,6 @@ Figure: Good example - at least 4 good reasons below
 :::
 
 1. More readable and less code
-2. Less performance issues - Most serious .NET performance issues were because of unclosed connections. LINQ means no connection code needed to be done.
-   LINQ is another layer and really is overhead.
-3. Strongly typed fields - SQL tables/entities has intellisense
-4. Making queries that are independant from specific Database engine
-5. It's easy to chain more operation like `OrderBy`, `GroupBy`, `FirstOrDefault`, `Count`, `Any` and many more
+2. Strongly typed fields - SQL tables/entities has intellisense
+3. Making queries that are independant from specific Database engine
+4. It's easy to chain more operation like `OrderBy`, `GroupBy`, `FirstOrDefault`, `Count`, `Any` and many more
