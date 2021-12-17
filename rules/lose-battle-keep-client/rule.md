@@ -36,4 +36,4 @@ While not being able to persuade the client can be frustrating, understand there
 
 If it’s something you care a lot about then give the client some space and try again later, making sure you ask questions about their needs in the meantime. If the client feels like you are listening to their concerns sincerely you are more likely to be able to persuade them of your approach. For example, send a [1 week follow up](/do-you-follow-up-emails-effectively) to yourself to have another discussion to try and explain your point again, this time touching different points. During this 2nd conversation, you might be able to get more information from them to understand their point. 
 
-If after this, you still can’t agree, then go with what the client wants, and send a gently worded [For the Record](/send-a-for-the-record-email-when-you-disagree) email to document your opinion.
+If after this, you still can’t agree, then go with what the client wants...if it's really important then send a gently worded email [For the Record](/send-a-for-the-record-email-when-you-disagree) to document your opinion and make sure it is clear that you didn't agree with them.
