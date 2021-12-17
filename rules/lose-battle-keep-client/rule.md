@@ -20,9 +20,9 @@ The impulse to win an argument and prove that you are right can be a strong driv
 
 In the software world, a common point of difference is about the architecture of a proposed solution. The preferred approach is usually to implement an architecture that is "future proofed", so that future changes a client wants are easier to implement. It's the same as a builder saying "I should rough in some plumbing in this area now because it will make it cheaper to install an ensuite in the future." It will always cost a little more to plan for the future, but it will save money, and time, in the long run.
 
-If you're unable to persuade a client to take your preferred approach, it's more important to show empathy and demonstrate that you understand your client's point of view.
+If you're unable to persuade a client to take your preferred approach, it's important to show empathy and demonstrate that you understand your client's point of view...or at are least trying to :)
 
-If the situation escalates and the client is geuinely upset make sure you start any reply with something like "I understand your frustration". At this point in time, you want to aim for a compromise, where each party meets the other, somewhere in the middle.
+If the situation escalates and the client is genuinely upset, make sure you start any reply with something like "I understand your frustration". At this point in time, you want to aim for a compromise, where each party meets the other, somewhere in the middle.
 
 ![Figure: Don't be righteous](lose-a-battle.jpg)
 
