@@ -5,6 +5,12 @@ uri: lose-battle-keep-client
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Uly
+    url: https://www.ssw.com.au/people/uly
+  - title: Cameron Shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related: []
 redirects:
   - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
