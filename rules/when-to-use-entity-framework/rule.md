@@ -8,10 +8,7 @@ authors:
 created: 2021-12-13T16:53:12.200Z
 guid: 834a4950-e20a-49ee-8c9d-8e7bbdcc84ba
 ---
-::: todo
-TODO: Byrden - Do you know why you are using linq (Complete rewrite)   
-Old content from Better LINQ on .ASPX pasted below
-:::
+Entity Framework allows you to provide a strongly typed object framework over your database. This helps abstract the database away allowing it to be replaced with other technologies as needed.
 
 <!--endintro-->
 
@@ -27,6 +24,7 @@ using (SqlConnection conn = new SqlConnection())
     bindingSource1.DataSource = cmd.ExecuteReader();\
 }
 ```
+
 ::: bad
 Figure: Bad example - using ADO.NET and not strongly typed
 :::
@@ -46,6 +44,7 @@ var results = dbContext.Customers
     });
 customersBindingSource.DataSource = results;
 ```
+
 ::: good
 Figure: Good example - at least 4 good reasons below
 :::
@@ -54,3 +53,4 @@ Figure: Good example - at least 4 good reasons below
 2. Strongly typed fields - SQL tables/entities have intellisense
 3. Making queries that are independant from specific Database engine
 4. It's easy to chain more operation like `OrderBy`, `GroupBy`, `FirstOrDefault`, `Count`, `Any` and many more
+5. Developers are generally poor at writing SQL, so using code constructs makes writing queries much easier.
