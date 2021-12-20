@@ -18,7 +18,8 @@ List<string> GetProductGuids(string category)
   return context.Products
       .Where(x => x.Category == category)
       .ToList()
-      .Select(x => x.ProductGuid);
+      .Select(x => x.ProductGuid)
+      .ToList();
 }
 ```
 
