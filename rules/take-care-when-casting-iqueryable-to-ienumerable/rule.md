@@ -8,13 +8,14 @@ authors:
 created: 2021-12-13T17:00:03.219Z
 guid: ee5bfbb5-7743-462b-bc8a-f32b3fb015b0
 ---
-When you cast IQueryable to IEnumerable and then query the data from there, Entity Framework must collect the data at the point you do the cast.
+When you cast IQueryable to IEnumerable and then query the data from there, Entity Framework must collect the data at the point you do the cast. This can result in very significant extra database load, and extra processing on the client side.
 
 **NOTE:** Using `.AsEnumerable()` achieves the same effect.
-            
+
 <!--endintro-->
 
 ### Counting
+
 ```cs
 // All examples below will result in a SQL query similar to:
 // SELECT * FROM Sales
@@ -40,8 +41,9 @@ public IEnumerable<Sale> GetSales() => context.Sales;
 // because it receives the query as `IEnumerable` before running `.Count()`.
 int count4 = GetSales().Count();
 ```
+
 ::: bad
-Bad example
+Bad example - All these examples read the entire table instead of just returning the count from the database.
 :::
 
 ```cs
@@ -55,11 +57,13 @@ int count2 = query.Count();
 public IQueryable<Sale> GetSales() => context.Sales;
 int count3 = GetSales().Count();
 ```
+
 ::: good
-Good example
+Good example - Only the count is returned by the query
 :::
 
 ### Where
+
 ```cs
 // All of the examples below will result in a SQL query like:
 // SELECT * FROM Sales
@@ -74,8 +78,9 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
+
 ::: bad
-Bad example
+Bad example - The whole table is returned from the database and then discarded in code.
 :::
 
 ```cs
@@ -91,6 +96,7 @@ List<Sale> sales2 = Sales
     .Where(x => x.Id == 5)
     .ToList();
 ```
+
 ::: good
-Good example
+Good example - Filtering is done on the database before returning data.
 :::
