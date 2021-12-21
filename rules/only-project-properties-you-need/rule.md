@@ -31,8 +31,7 @@ IEnumerable<string> GetProductGuids(string category)
 {
   return context.Products
       .Where(x => x.Category == category)
-      .Select(x => x.ProductGuid)
-      .ToList();
+      .Select(x => x.ProductGuid);
 }
 ```
 
