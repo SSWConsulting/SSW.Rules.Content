@@ -8,18 +8,17 @@ authors:
 created: 2021-12-13T17:06:46.280Z
 guid: 18e53b62-b8c0-4cbf-bd85-447c10950f70
 ---
-When retrieving data it's much more efficient to only collect that data you need. It save computation and IO on the database and also saves memory and CPU on the calling side.
+When retrieving data it's much more efficient to only collect the data you need. It saves computation and IO on the database and also saves memory and CPU on the calling side.
 
 <!--endintro-->
 
 ```
-List<string> GetProductGuids(string category)
+IEnumerable<string> GetProductGuids(string category)
 {
   return context.Products
       .Where(x => x.Category == category)
       .ToList()
-      .Select(x => x.ProductGuid)
-      .ToList();
+      .Select(x => x.ProductGuid);
 }
 ```
 
@@ -28,7 +27,7 @@ Figure: Bad example - Retrieved the whole product record when we only needed 1 p
 :::
 
 ```
-List<string> GetProductGuids(string category)
+IEnumerable<string> GetProductGuids(string category)
 {
   return context.Products
       .Where(x => x.Category == category)
