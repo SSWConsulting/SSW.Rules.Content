@@ -15,10 +15,11 @@ When retrieving data it's much more efficient to only collect the data you need.
 ```
 IEnumerable<string> GetProductGuids(string category)
 {
-  return context.Products
+  IEnumerable<Product> products = context.Products
       .Where(x => x.Category == category)
-      .ToList()
-      .Select(x => x.ProductGuid);
+      .ToList();
+  
+  return products.Select(x => x.ProductGuid);
 }
 ```
 
@@ -29,9 +30,11 @@ Figure: Bad example - Retrieved the whole product record when we only needed 1 p
 ```
 IEnumerable<string> GetProductGuids(string category)
 {
-  return context.Products
+  IEnumerable<string> productGuids = context.Products
       .Where(x => x.Category == category)
       .Select(x => x.ProductGuid);
+      
+  return productGuids;
 }
 ```
 
