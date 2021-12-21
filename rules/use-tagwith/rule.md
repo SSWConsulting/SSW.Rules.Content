@@ -12,6 +12,8 @@ TagWith adds comments to the generated SQL. This makes it easier to identify que
 
 <!--endintro-->
 
+This is very useful when debugging issues as there are often multiple pieces of code that generate similar statements and as such it's hard to identify what is executing particular queries.
+
 ```
 var list = await context
     .Sales
