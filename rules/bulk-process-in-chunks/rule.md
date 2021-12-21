@@ -12,7 +12,7 @@ Databases are slow at doing bulk updates. It's generally significantly faster to
 
 <!--endintro-->
 
-EF includes the Chunk method to make this nice and easy.
+Linq include the Chunk method to make this process nice and easy.
 
 ```
 var productIds = context.ProductIds;
