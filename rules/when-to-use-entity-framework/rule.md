@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know when to use Entity Framework?
+title: Do you know why to use Entity Framework?
 uri: when-to-use-entity-framework
 authors:
   - title: Bryden Oliver
