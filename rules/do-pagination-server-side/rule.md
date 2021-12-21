@@ -27,7 +27,7 @@ return (count, result);
 ```
 
 ::: bad
-Figure: Bad example - Read all the data back from the database and then counts the records and filter down to the page
+Figure: Bad example - Reads all the data from the database, counts the records and filters down to the page
 :::
 
 ```
