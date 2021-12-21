@@ -1,13 +1,17 @@
 ---
 type: rule
 title: Do you do pagination database side?
-uri: do-pagination-server-side
+uri: do-pagination-database-side
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
 created: 2021-12-13T17:19:34.260Z
 guid: ef94f559-ea04-4c00-8b27-f8f7b80f07f4
+redirects:
+- do-pagination-server-side
+
 ---
+
 Pagination can be expensive if all the pages are retrieved from the database before grabbing the relevant page. It's much more efficient to get only the page number requested back from the database.
 
 <!--endintro-->
