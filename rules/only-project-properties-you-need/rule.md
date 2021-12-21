@@ -8,9 +8,37 @@ authors:
 created: 2021-12-13T17:06:46.280Z
 guid: 18e53b62-b8c0-4cbf-bd85-447c10950f70
 ---
-::: todo
-TODO: Byrden
-:::
-            
+When retrieving data it's much more efficient to only collect the data you need. It saves computation and IO on the database and also saves memory and CPU on the calling side.
+
 <!--endintro-->
 
+```
+IEnumerable<string> GetProductGuids(string category)
+{
+    IEnumerable<Product> products = context.Products
+        .Where(x => x.Category == category)
+        .ToList();
+  
+    return products.Select(x => x.ProductGuid);
+}
+```
+
+::: bad
+Figure: Bad example - Retrieved the whole product record when we only needed 1 property
+:::
+
+```
+IEnumerable<string> GetProductGuids(string category)
+{
+    IEnumerable<string> productGuids = context.Products
+        .Where(x => x.Category == category)
+        .Select(x => x.ProductGuid)
+        .ToList();
+      
+    return productGuids;
+}
+```
+
+::: good
+Figure: Good example - Retrieved only the required property.
+:::

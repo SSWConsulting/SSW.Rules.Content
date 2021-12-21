@@ -15,25 +15,24 @@ redirects:
 
 ---
 
-In person conversations are much better than chats over the phone. Skype or Lync calls with video cams are great, but you won’t do that all the time for bandwidth and processing power reasons. The next best thing is to have a great professional picture of yourself. Avoid using a built-in image.
+In person conversations are much better than chats over the phone. Skype or Teams calls with video cams are great, but you won’t do that all the time for bandwidth and processing power reasons. The next best thing is to have a great professional picture of yourself. 
 
 <!--endintro-->
 
+- Avoid using a built-in image
+- Ideally, have a photo that shows head and top of shoulders close up. Not too far away
+- Your face must not be obstructed with other objects or excessive head cover (e.g. ski mask)
+- Not blurred, pixelated, washed out or over-exposed image. You should be recognizable in your high quality picture
+- An actual photo of yourself. Not a cartoon, objects or family member(s)
 
-| | **Good**  | **Bad**  |
-| --- | --- | --- |
-| **Personal** 
-Not default images that comes with Skype | ![Good Skype profile image](Good-Skype-profile-image.jpg) | ![Bad Skype profile  - using default image](Bad-Skype-profile-image-default.jpg) |
-| **Showing entire face** 
-Ideally, it shows head and top of shoulders close up. Not too far away. | ![Well framed Skype-image](Good-Skype-well-framed-image.jpg) | ![Bad Skype image - picture taken from too far away](Bad-Skype-profile-image-too-far-away.jpg) |
-| **Recognizable** 
-Your face must not be obstructed with other objects or excessive head cover (e.g. ski mask) | ![Good example - you should be recognizable in your picture](Good-Skype-personal-image.jpg) | ![https://rules.ssw.com.auBad-Skype-profile-image-not-recognizable.jpg](Bad-Skype-profile-image-not-recognizable.jpg) |
-| **High quality images** 
+::: bad
+![Bad profile image  - using default image](Bad-Skype-profile-image-default.jpg)
+:::
 
-Not blurred, pixelated, washed out or over-exposed images | ![](Good-Skype-high-quality.jpg) | ![Bad-Skype-profile-image-blurry](Bad-Skype-profile-image-blurry.jpg) |
-| **An actual photo of yourself** 
-Not a cartoon, objects or family member(s) | ![](Good-Skype-actual-person.jpg) | ![Bad-Skype-profile-use-image-of-yourself](Bad-Skype-profile-use-image-of-yourself.jpg) |
+::: bad
+![Bad profile image - picture taken from too far away](Bad-Skype-profile-image-too-far-away.jpg)
+:::
 
-
-![](Skype-screenshot.jpg)
- **Figure: I see 3 good pictures**
+::: good
+![Good profile image](Good-Skype-profile-image.jpg)
+:::
