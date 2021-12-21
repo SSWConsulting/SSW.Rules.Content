@@ -53,4 +53,4 @@ Figure: Good example - at least 4 good reasons below
 2. Strongly typed fields - SQL tables/entities have intellisense
 3. More readable and less code
 4. It's easy to chain more operation like `OrderBy`, `GroupBy`, `FirstOrDefault`, `Count`, `Any` and many more
-5. Developers are generally poor at writing SQL, so using code constructs makes writing queries much easier.
+5. Developers are generally poor at writing SQL, so using code constructs makes writing queries much easier
