@@ -1,13 +1,17 @@
 ---
 type: rule
 title: Do you know why to use Entity Framework?
-uri: when-to-use-entity-framework
+uri: why-to-use-entity-framework
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
 created: 2021-12-13T16:53:12.200Z
 guid: 834a4950-e20a-49ee-8c9d-8e7bbdcc84ba
+redirects:
+- when-to-use-entity-framework
+
 ---
+
 Entity Framework allows you to provide a strongly typed object framework (ORM) over your database. This helps abstract the database away allowing it to be replaced with other technologies as needed.
 
 <!--endintro-->
