@@ -12,6 +12,8 @@ Often developers will include all the related entities in a query to help with d
 
 <!--endintro-->
 
+If you need the related entities, then that is what Include is for.
+
 ```
 var query = _dbContext
         .Sales
