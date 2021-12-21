@@ -5,7 +5,7 @@ uri: lose-battle-keep-client
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Uly
+  - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
   - title: Cameron Shaw
     url: https://www.ssw.com.au/people/cameron-shaw
