@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you do pagination server side?
+title: Do you do pagination database side?
 uri: do-pagination-server-side
 authors:
   - title: Bryden Oliver
@@ -8,7 +8,7 @@ authors:
 created: 2021-12-13T17:19:34.260Z
 guid: ef94f559-ea04-4c00-8b27-f8f7b80f07f4
 ---
-Pagination can be expensive if all the pages are retrieved before then grabbing the relevant page. It's much more efficient to get just the page back from the database.
+Pagination can be expensive if all the pages are retrieved from the database before grabbing the relevant page. It's much more efficient to get only the page number requested back from the database.
 
 <!--endintro-->
 
@@ -27,7 +27,7 @@ return (count, result);
 ```
 
 ::: bad
-Figure: Bad example - Read all the data back from the database and then counts and pages it
+Figure: Bad example - Read all the data back from the database and then counts the records and filter down to the page
 :::
 
 ```
@@ -36,7 +36,7 @@ var query = context
     .AsNotTracking()
     .Where(x => x.SalesPersonId == salesPersonId);
 
-int count = await quey.CountAsync(ct);
+int count = await query.CountAsync(ct);
 
 query = query
     .Skip(page * pageSize)
