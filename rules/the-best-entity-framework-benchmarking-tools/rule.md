@@ -15,5 +15,6 @@ There are plenty of good benchmarking tools for .Net solutions.
 * [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) is good because it monitors memory consumption and timings.
 * [Bombardier](https://github.com/codesenberg/bombardier) is a simple CLI load testing tool.
 * [NBomber](https://nbomber.com/) is good for automating load tests
+* [RedLin13](https://www.redline13.com/) uses AWS spot instances to provide really cheap enormous scale for load testing
 
 Try these out and there are more available. Which one suits will depend on your solution and what information you want.
