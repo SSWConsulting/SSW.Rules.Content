@@ -34,7 +34,7 @@ public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
 }
 ```
 ::: bad
-Figure: Bad example - Calls any which enumerates the first item and then foreach which forces a second evaluateion
+Figure: Bad example - Calls any which enumerates the first item and then foreach which forces a second evaluation
 :::
 
 ```cs
