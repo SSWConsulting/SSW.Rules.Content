@@ -14,7 +14,6 @@ Many LINQ methods like Count, First and so on include an optional filter paramet
 ```cs
 .Where(x => x < 5).Count()
 .Where(x => x < 5).FirstOrDefault()
-
 ```
 ::: bad
 Figure: Bad example - More code that requires extra thought to understand.
@@ -22,7 +21,6 @@ Figure: Bad example - More code that requires extra thought to understand.
 
 ```cs
 .Count(x => x < 5)
-
 .FirstOrDefault(x => x < 5)
 ```
 ::: good
