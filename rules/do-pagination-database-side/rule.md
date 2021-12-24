@@ -12,7 +12,7 @@ redirects:
 
 ---
 
-Pagination can be expensive if all the pages are retrieved from the database before grabbing the relevant page. It's much more efficient to get only the page number requested back from the database.
+Pagination can be expensive if all the pages are retrieved from the database before grabbing the relevant page. It's much more efficient to get only the page number requested back from the database. 
 
 <!--endintro-->
 
