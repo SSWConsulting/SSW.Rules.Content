@@ -9,7 +9,8 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: []
+redirects:
+  - do-you-identify-development-test-and-production-crm-web-servers-by-colors
 
 ---
 
@@ -29,11 +30,19 @@ Whenever an application has a database, have a visual indicator. I recommend a d
 * Grey (no colour) for the  **Production** database
 
 
-Note: The Yellow might have been Orange (kind of like traffic lights) but the color palette in Word doesn't give Orange.
-![colors in Word color pallete](WordColorPallete.gif) **Figure: colors in Word color palette** 
-This prevents testers from accidentally entering test data into the production version.
+**Note:** The Yellow could have been Orange (kind of like traffic lights) but the color palette in Word doesn't give Orange.
 
-**Windows Forms Tip:** Implement in the base form in the header 
-**ASP.NET (at least version 2.0) Tip:** Implement in the master form in the header
-![ ](dev_test_prod_servers.gif) Figure: Spice up your environments with different colors 
+
+![ ](WordColorPallete.gif)  
+**Figure: Colors in Word color palette**  
+
+
+This prevents testers from accidentally entering test data into the production version.  
+
+**Static Site Tip:** Add a "THIS IS THE X ENVIRONMENT" banner header to your **non-production** websites.  
+**Windows Forms Tip:** Implement in the base form in the header   
+**ASP.NET (at least version 2.0) Tip:** Implement in the master form in the header  
+![ ](dev_test_prod_servers.gif)  
+**Figure: Spice up your environments with different colors**  
+
 An application of this rule is how we identify our CRM servers - see rule [Do you identify Development, Test and Production CRM Web Servers by colors?](/do-you-identify-development-test-and-production-crm-web-servers-by-colors)
