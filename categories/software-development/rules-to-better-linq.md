@@ -7,6 +7,7 @@ index:
 - avoid-materializing-an-ienumerable
 - avoid-iterating-multiple-times
 - use-linq-as-a-query-language
+- use-filtering-in-linq-methods
 - how-linq-has-evolved
 
 ---
