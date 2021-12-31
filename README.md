@@ -7,6 +7,8 @@ Welcome to SSW.Rules.Content (The Data in markdown). Thank you for contributing 
 
 [SSW.Rules YouTube Channel](https://www.youtube.com/channel/UCX3zjU1MYddc7vUuMz-t2og)
 
+# The SSW Rules engine 🚗
+Note: This is built into a static site by the code at [SSW Rules](https://github.com/SSWConsulting/SSW.Rules).
 
 ### Pull Requests, Builds and Releases
 
