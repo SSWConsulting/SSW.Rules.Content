@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Moved to GitHub: https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules
+archivedreason: Moved to GitHub - https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules
 title: SharePoint - Do you know how to create a rule? (internal only)
 guid: fb70a2dd-5d5d-47cc-bbd8-1a6d954fce20
 uri: how-to-create-a-rule
