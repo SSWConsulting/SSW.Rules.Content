@@ -1,14 +1,11 @@
 <img src="https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/main/_docs/images/ssw-banner.png">
 
-# The SSW Rules content
+# The SSW Rules content 📜
 Welcome to SSW.Rules.Content (The Data in markdown). Thank you for contributing best practices into SSW Rules!
 
 <img align="left" width="32" height="22" src="https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/main/_docs/images/youtube_social_icon_red.png">
 
 [SSW.Rules YouTube Channel](https://www.youtube.com/channel/UCX3zjU1MYddc7vUuMz-t2og)
-
-# The SSW Rules engine 🚗
-Note: This is built into a static site by the code at [SSW Rules](https://github.com/SSWConsulting/SSW.Rules).
 
 ### Pull Requests, Builds and Releases
 
@@ -25,3 +22,6 @@ Builds are done in AzureDevOps, after a rule is edited a Pull Request is created
 - Rules are organised into categories
 - A rule can belong to multiple categories
 - Category pages link to rules via frontmatter data
+
+# The SSW Rules engine 🚗
+Note: This is built into a static site by the code at [SSW Rules](https://github.com/SSWConsulting/SSW.Rules).
