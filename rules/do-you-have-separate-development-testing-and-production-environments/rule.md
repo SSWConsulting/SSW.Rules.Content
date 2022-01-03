@@ -8,9 +8,9 @@ created: 2009-03-10T07:02:13.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects:
+related: 
   - do-you-identify-development-test-and-production-crm-web-servers-by-colors
+redirects: []
 
 ---
 
@@ -44,5 +44,3 @@ This prevents testers from accidentally entering test data into the production v
 **ASP.NET (at least version 2.0) Tip:** Implement in the master form in the header  
 ![ ](dev_test_prod_servers.gif)  
 **Figure: Spice up your environments with different colors**  
-
-An application of this rule is how we identify our CRM servers - see rule [Do you identify Development, Test and Production CRM Web Servers by colors?](/do-you-identify-development-test-and-production-crm-web-servers-by-colors)
