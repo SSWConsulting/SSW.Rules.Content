@@ -12,7 +12,7 @@ index:
 - avoid-using-update
 - only-explicitly-include-relationships-you-need
 - filter-data-server-side-where-possible
-- do-pagination-server-side
+- do-pagination-database-side
 - use-tagwith
 - ensure-testenvironment-is-representative-of-production
 - entity-framework-benchmark
