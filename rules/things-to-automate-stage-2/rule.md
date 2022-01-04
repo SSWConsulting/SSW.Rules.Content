@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-Once you’ve identified the manual processes in Stage 1, you can start looking at automation. The best tool for build and release automation is Azure DevOps.
+Once you’ve identified the manual processes in [Stage 1](/things-to-measure), you can start looking at automation. The best tool for build and release automation is Azure DevOps.
 
 <!--endintro-->
 

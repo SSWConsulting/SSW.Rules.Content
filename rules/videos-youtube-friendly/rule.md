@@ -9,15 +9,9 @@ authors:
 - title: Florent Dezettre
   url: https://ssw.com.au/people/florent-dezettre
 related:
-- personalized-thumbnail
-- sort-videos-into-playlists
-- untapped-keywords
 - do-you-optimize-your-videos-for-youtube
 - do-you-keep-your-audience-happy
-- do-you-add-cards-to-your-youtube-videos
 - do-you-add-end-screen-to-your-youtube-videos
-- do-you-add-time-links-on-your-youtube-videos
-- do-you-follow-image-standard-sizes-on-social-media
 redirects:
 - do-you-make-your-videos-youtube-friendly
 

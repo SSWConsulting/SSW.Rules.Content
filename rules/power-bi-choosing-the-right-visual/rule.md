@@ -9,8 +9,14 @@ authors:
 - title: Prem Radhakrishnan
   url: https://www.ssw.com.au/people/prem-radhakrishnan
 related:
+
 ---
-Your reports and dashboards should tell the right story to your end users. They should be able to get the gist of the report at a glance and not have to work at trying to understand what it means. 
+
+Your reports and dashboards should tell the right story to your end users. They should be able to get the gist of the report at a glance and not have to work at trying to understand what it means.
+
+`youtube: https://www.youtube.com/embed/Pt3bST_s0iQ`
+
+<!--endintro-->
 
 Visuals in themselves are neither good nor bad. A visual that users love on one report could be a terrible choice on another report. Power BI comes with quite a few built-in visuals and they are adding more to this all the time. However, sometimes you may need something more than the standard offerings in which case you have 3 options.
 
@@ -26,9 +32,3 @@ For more inspiration on using amazing visuals have a look at some of these urls:
 2. https://flourish.studio/examples/ 
 3. https://formidable.com/open-source/victory/ 
 4. https://charticulator.com/gallery/index.html
-
-
-<!--endintro-->
-
-
-

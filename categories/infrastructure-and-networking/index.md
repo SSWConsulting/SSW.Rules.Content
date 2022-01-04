@@ -31,6 +31,7 @@ index:
 - rules-to-better-backups
 - rules-to-better-whatsup-gold
 - rules-to-better-office-365
+- rules-to-better-automation
 
 ---
 

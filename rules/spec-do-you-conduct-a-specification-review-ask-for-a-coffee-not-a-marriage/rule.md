@@ -19,7 +19,9 @@ redirects:
 created: 2009-03-03T05:04:02.000Z
 archivedreason: null
 guid: fa87520c-c384-4372-855d-984c7600e5f9
+
 ---
+
 A client will often ask for a proposal or ballpark for the project. It is very difficult to give them the price for a large project without first conducting a Specification Review. 
 
 The Spec Review is a process that will demonstrate to the client whether you have the commercial sense to understand their **business** and have the technical and management capacity to complete the project.
@@ -77,17 +79,17 @@ While the information collected and the conclusions of the Spec Review are prese
 Each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
 ::: greybox
-"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"\
+"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST"
 :::
 ::: bad
-Bad Example - Far too firm a price when you don't know any of the detail\
+Bad Example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
 "Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 man-months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing. 
 :::
 ::: good
-Good Example - leaves some wriggle room at these initial phases\
+Good Example - leaves some wriggle room at these initial phases
 :::
 
 Read [When do you use approximate values for project costs?](/spec-do-you-know-how-to-give-the-customer-a-ballpark)
@@ -102,17 +104,23 @@ You should follow [Rules to Better Proposals](/rules-to-better-proposals) when d
 
 ### Test Please
 
-The Consultant must run a [test please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
+The Consultant must run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
+
+::: greybox
+**Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover. 
+
+You can record your presentation using [Recording Studio in PowerPoint](https://aka.ms/recordingstudio) or [Camtasia's PowerPoint Add-In Toolbar](https://www.techsmith.com/learn/tutorials/camtasia/ppt-addin-toolbar/).
+:::
 
 ### Example Schedule for a 1-day Specification Review
 
 You want to have all the required work for a spec review done within the allocated time, so it’s important you leave time to implement the required changes after you present and before you email the final version.
 
 * **9 am:** Meet with the client and discuss requirements
-* **11 am:** Start work on the backlog and the PPT or Word Doc
+* **11 am:** Start work on the backlog and the PowerPoint (.PPTX) or Word Doc (.DOCX)
 * **3 pm:** Present to the client and gather feedback for changes
 * **5 pm:** Implement changes
-* **6 pm:** Send “As per our conversation” with Word or PPT attachment
+* **6 pm:** Send “As per our conversation” with Word or PowerPoint attachment
 
 In a 2 or 3-day spec review, you should assume you’ll need more time to implement changes, so push the presentation time forward to 2 pm.
 
