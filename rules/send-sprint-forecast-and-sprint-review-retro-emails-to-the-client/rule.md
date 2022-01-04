@@ -7,7 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - github-sprint-templates
 redirects:
   - do-you-send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 created: 2009-08-18T05:22:13.000Z
