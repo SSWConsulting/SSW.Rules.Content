@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Test Rule
 guid:
-uri: test-rule
+uri: test-rule-uri
 created: 2021-01-20T05:06:33.0000000Z
 authors:
 - title: Piers Sinclair
