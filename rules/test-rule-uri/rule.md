@@ -1,18 +1,19 @@
 ---
 type: rule
-archivedreason:
 title: Test Rule
-guid:
 uri: test-rule-uri
-created: 2021-01-20T05:06:33.0000000Z
 authors:
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
-- title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
-related:
-
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
+related: null
+created: 2021-01-20T05:06:33.000Z
+archivedreason: null
+guid: null
 ---
+A small change
+
 
 This is an example rule to show you what is possible for a rule. 
 Below you will see everything you need to create an awesome page. 
