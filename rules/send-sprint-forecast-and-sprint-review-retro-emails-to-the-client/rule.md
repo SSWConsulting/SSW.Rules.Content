@@ -7,7 +7,10 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
+related:
+  - github-sprint-templates
 redirects:
   - do-you-send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 created: 2009-08-18T05:22:13.000Z
@@ -19,6 +22,9 @@ guid: cc1b7430-cdf7-4b58-bc15-92fec186dff2
 Each sprint has a "Sprint Forecast" email that details what will be worked on during this sprint.
 
 At the end of the sprint, this should be replied to with a "Sprint Review" email that shows a breakdown of what was completed.
+
+If you're using GitHub to manage your project, create repeatable templates that can easily edited and emailed out.  
+See [GitHub Issues - Do you create a template for your Sprint Reviews, Retros and Forecasts?](/github-sprint-templates) for more details.
 
 Each Sprint has the following stages:
 
