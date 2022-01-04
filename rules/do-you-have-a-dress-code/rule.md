@@ -45,15 +45,15 @@ It's a good idea to "Dress Up" in flights as you never know who you will be seat
 Many companies find it a good idea to have Casual Fridays. It is free and easy to do and gives the team something to look forward to.
 
 ::: greybox
-At SSW, the employees **"dress up"** on Mondays and Tuesdays by wearing company colors, with a nice shirt (business or polo), trousers (not blue jeans), belt, nice shoes (no sneakers, joggers or thongs). So most employees wear their SSW shirts on Mondays.
+At SSW employees can optionally work from home Monday/Tuesday, then **"dress up"** on Wednesdays by wearing company colors, with a nice shirt (business or polo), trousers (not blue jeans), belt, nice shoes (no sneakers, joggers or thongs). So most employees wear their SSW shirts on Wednesdays.
 
-Then they **"dress down"** later in the week... so they have **"Casual Thursday"** and **"Sporty Friday"**.
+Then they **"dress down"** later in the week... so they have **"Casual Thursday"** and **"Fun Friday"**.
 
 - [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
 - [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
 :::
 
-![Figure: SSW Dress Code poster](SSW\_Dresscode\_Poster.png)  
+![Figure: SSW Dress Code poster](SSW-Dresscode-Poster-v2.png)  
 
 ### Shorts Days - the cool exception
 
