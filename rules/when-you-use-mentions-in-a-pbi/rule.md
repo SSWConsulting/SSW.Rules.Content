@@ -60,7 +60,10 @@ Good example: "I have found the PBI, prioritized it near the top, and @mentioned
 
 ### Azure DevOps PBIs
 
-
+To create a new PBI in your Azure DevOps project:
+1. Navigate to **Boards | + New Work Item** and select the type that best suits your item
+2. Enter your PBI title
+3. @ mention your desired user in the description
 
 ::: good  
 ![Figure: Good Example – Using @ mentions in Azure DevOps discussion](good-mention-pbi.jpg)  
