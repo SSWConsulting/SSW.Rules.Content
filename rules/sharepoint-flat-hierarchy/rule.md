@@ -20,9 +20,9 @@ Traditionally, SharePoint architecture used a hierarchical system of site collec
 
 There are several reasons why sub-sites are no longer recommended. [This blog post](https://callum.technology/2021/05/still-using-subsites-in-sharepoint-online-5-reasons-to-move-to-flat-architecture/) has a good list, including:
 
-**Flexibility** – you no longer need to move sub-sites around. With a flat hierarchy and Hub sites, it’s easy to change links and dynamic content to make sure your SharePoint architecture matches your organisational structure.
+**Flexibility** – you no longer need to move sub-sites around. With a flat hierarchy and Hub sites, it’s easy to change links and use dynamic content to make sure your SharePoint architecture matches your organisational structure.
 
-**Microsoft Teams & Microsoft 365** – Every Microsoft Team you create has its own SharePoint site, and SharePoint integrates with Microsoft 365 groups. So with a flat hierarchy, users and admins have a consistent experience across apps.  
+**Microsoft Teams & 365 Groups** – Every Microsoft Team you create has its own SharePoint site, and SharePoint integrates with Microsoft 365 groups. So with a flat hierarchy, users and admins have a consistent experience across apps and Document Libraries.  
 
 - - -
 
