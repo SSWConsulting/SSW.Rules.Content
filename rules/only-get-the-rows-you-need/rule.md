@@ -12,6 +12,7 @@ It's expensive retrieving data from a database, as such it's important to only a
 
 <!--endintro-->
 
+Entity Framework nicely translates the various filters like the Where method into SQL WHERE clauses. This makes it really easy to write nice readable code that is also very efficient.
 
 
 ```

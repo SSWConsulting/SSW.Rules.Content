@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better DevOps using GitHub
+title: Rules to Better DevOps using Azure DevOps
 guid: 8c171da7-81b4-416c-bf29-e47d8fe15e74
 uri: rules-to-better-devops-using-azure-devops
 index:

@@ -22,43 +22,34 @@ We recommend you use the Windows NT authentication by default, because Windows s
 
 If not, then add a comment confirming the reason.
 
-
-
-
-```
+```xml
 <connectionStrings>
    <add name="ConnectionString" connectionString="Server=(local);
-    Database=NorthWind;Integrated Security=SSPI;" />
+    Database=NorthWind;uid=sa;pwd=sa;" />
 </connectionStrings>
 ```
+::: bad  
+Figure: Bad example - not use Windows Integrated Authentication connection string without comment.  
+:::  
 
-          Bad example - not use Windows Integrated Authentication connection string without comment.   
-
-
-
-
-
-```
+```xml
 <connectionStrings>
     <add name="ConnectionString" connectionString="Server=(local);
      Database=NorthWind;Integrated Security=SSPI;" />
 </connectionStrings>
 ```
+::: good  
+Figure: Good example - use Windows Integrated Authentication connection string by default.   
+:::  
 
-          Good example - use Windows Integrated Authentication connection string by default.   
-
-
-
-
-
-```
+```xml
 <connectionStrings>
-                    <add name="ConnectionString" 
-                     connectionString="Server=(local);
-                     Database=NorthWind;uid=sa;pwd=sa;" />
-                    <!--It can't use the Windows Integrated because they are 
-                     using Novell -->                
+    <add name="ConnectionString" connectionString="Server=(local);
+     Database=NorthWind;uid=sa;pwd=sa;" />
+    <!--It can't use the Windows Integrated because they are using Novell -->                
 </connectionStrings>
 ```
+::: good  
+Figure: Good example - not use Windows Integrated Authentication connection string with comment.  
+:::  
 
-          Good example - not use Windows Integrated Authentication connection string with comment.
