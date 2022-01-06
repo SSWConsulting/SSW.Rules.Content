@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/jason-taylor
   - url: https://www.ssw.com.au/people/bryden-oliver
     title: Bryden Oliver
+  - url: https://www.ssw.com.au/people/jean-thirion
+    title: Jean Thirion
 related: null
 created: 2021-07-13T06:09:10.000Z
 archivedreason: null
