@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Jason Taylor
     url: https://www.ssw.com.au/people/jason-taylor
+  - url: https://www.ssw.com.au/people/bryden-oliver
+    title: Bryden Oliver
 related: null
 created: 2021-07-13T06:09:10.000Z
 archivedreason: null
