@@ -1,32 +1,30 @@
 ---
 type: rule
-archivedreason: 
 title: Controls - Do you include the number of results in ComboBoxes?
-guid: da34f7bf-dc4e-412c-97ad-bb7fdacf595b
 uri: controls-do-you-include-the-number-of-results-in-comboboxes
-created: 2012-11-27T08:40:47.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2012-11-27T08:40:47.000Z
+archivedreason: null
+guid: da34f7bf-dc4e-412c-97ad-bb7fdacf595b
 ---
-
 When designing your form, you should try to help your user whenever it's possible. So it's a good idea to include the number of results in ComboBoxes.
 
 <!--endintro-->
+
 For Web Pages 
 
-::: good  
-![Figure: Good example – combo-box with multiple columns](combo-box-multiple-col.jpg)  
+::: good\
+![Figure: Good example – combo-box with multiple columns](combo-box-multiple-col.jpg)\
 :::
  Feel free to use our sample:
+
 1. Download and install Kendo UI Controls from [Kendo UI](http://www.kendoui.com/)
 2. **HTML (Razor)** 
-Create a combo-box that has a custom template. Use a code bellow as an example:
-
-
+   Create a combo-box that has a custom template. Use a code bellow as an example:
 
 ```
 @(Html.Kendo().ComboBoxFor(x => x.EmpTime.ProjectID)
@@ -54,8 +52,9 @@ Create a combo-box that has a custom template. Use a code bellow as an example:
 .Events(e => e.Change("projectChanged").Open("onProjectOpened"))
 )
 ```
+
 3. **CSS** 
-Customize the look & feel to suit your needs.
+   Customize the look & feel to suit your needs.
 
 ```
 #projectsTableBorder {
@@ -82,8 +81,9 @@ Customize the look & feel to suit your needs.
  text-decoration: underline;
  }
 ```
+
 4. **JavaScript** 
-Use JavaScript to change the combo-box's behaviour.
+   Use JavaScript to change the combo-box's behavior.
 
 ```
 // resize the drop-down list
@@ -145,33 +145,30 @@ Project Name</td>" +
 });
 ```
 
-
 ### For Windows Forms
 
-
-::: bad  
-![Figure: Bad Example - You can't tell the number of results and there is a scroll bar](../../assets/ComboWF-1.jpg)  
+::: bad\
+![Figure: Bad Example - You can't tell the number of results and there is a scroll bar](../../assets/ComboWF-1.jpg)\
 :::
 
-
-::: good  
-![Figure: Good Example - The number of results is clearly displayed. Long text boxes &gt; 30 entries, another approach can be employed - putting the common ones at the top](../../assets/ComboWF-2.jpg)  
+::: good\
+![Figure: Good Example - The number of results is clearly displayed. Long text boxes > 30 entries, another approach can be employed - putting the common ones at the top](../../assets/ComboWF-2.jpg)\
 :::
 
-
-::: bad  
-![Figure: Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries](../../assets/Rule38LongTextCombobox.jpg)  
+::: bad\
+![Figure: Bad Example - Firstly because it is manual, plus what about the 4th, 5th, etc most common used countries](../../assets/Rule38LongTextCombobox.jpg)\
 :::
 
-
-::: bad  
-![Figure: Bad Example – This was a highly unpopular method of the sorting and counting above](../../assets/rule38SortableCombobox.jpg)  
+::: bad\
+![Figure: Bad Example – This was a highly unpopular method of the sorting and counting above](../../assets/rule38SortableCombobox.jpg)\
 :::
 
 We believe all combos should be able to be sorted ascending/descending and by popularity asc/desc.
+
 <dl class="goodImage">
 
-::: good  
-![Figure: Good Example - Is there a better way to sort this?](sort-alpha-numeric.jpg)  
+::: good\
+![Figure: Good Example - Is there a better way to sort this?](sort-alpha-numeric.jpg)\
 :::
+
 </dl>
