@@ -1,25 +1,26 @@
 ---
 type: rule
-archivedreason: 
 title: Do you avoid "Recall this message..." by not sending emails immediately?
-guid: ed5e714c-9f61-495f-a94d-02593d6c1be4
 uri: avoid-sending-emails-immediately
-created: 2013-04-01T14:19:27.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-not-to-use-＂recall-this-message-＂-in-outlook
-- do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
-
+  - do-you-know-not-to-use-＂recall-this-message-＂-in-outlook
+  - do-you-avoid-recall-this-message-by-not-sending-emails-imediatelly
+created: 2013-04-01T14:19:27.000Z
+archivedreason: null
+guid: ed5e714c-9f61-495f-a94d-02593d6c1be4
 ---
 
-Occasionally you will send an email and want to make changes to it after it's already gone. Microsoft Outlook has the option to "recall the message" but this is not recommended mainly because you cannot guarantee the recipient hasn't seen the message already.
+Occasionally you will send an email and want to make changes to it after it's already gone. Microsoft Outlook has the option to "recall the message", but this is not recommended mainly because you cannot guarantee the recipient hasn't seen the message already.
 
-What you need to do is to set a rule to delay sending your emails in 15 minutes for example, which gives you time enough to correct it in most of the cases. If you only realize your mistake after this amount of time, just use "reply to all" mentioning your changes.
+If your recall does work, then the recipients don't know the reason the email was recalled as there is no spot for an explanation. Also, it's not a good experience for the users who receive a recall, as it does not even send it on the same thread.
+
+What you need to do is to set a rule to delay sending your emails in 15 minutes for example, which gives you time enough to correct it in most of the cases. If you only realize your mistake after this amount of time, just use "reply to all", mentioning your changes.
 
 <!--endintro-->
 
