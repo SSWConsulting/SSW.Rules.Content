@@ -27,7 +27,7 @@ Microsoft provides numerous certifications and training options to help you:
 
 <!--endintro-->
 
-![Figure: Microsoft Certification RoadMap](azure-certification-branch.png)
+![Figure: Microsoft Certification RoadMap](certification-map.png)
 
 - - -
 
@@ -39,7 +39,7 @@ If you're just getting started,  take a look at:
 
 Earn this certification to prove you have a foundational knowledge of cloud services and how those services are provided with Microsoft Azure.
 
-You will need to pass [Exam AZ-900: Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900).
+You will need to pass Exam [AZ-204: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900).
 
 #### [Microsoft Certified: Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-data-fundamentals/)
 
@@ -71,11 +71,27 @@ Earn this certification to prove your subject matter expertise implementing secu
 
 You will need to pass: [Exam AZ-500: Microsoft Azure Security Technologies](https://docs.microsoft.com/en-us/learn/certifications/exams/az-500).
 
-#### [Microsoft Certified: Azure Data Scientist Associate](https://docs.microsoft.com/en-gb/learn/certifications/azure-data-scientist/?wt.mc_id=partnercenter_dataanalytics_webandportal_ocp)
+#### [Microsoft Certified: Azure Data Scientist Associate](https://docs.microsoft.com/en-gb/learn/certifications/azure-data-scientist/)
 
 Earn this certification to prove you have subject matter expertise applying data science and machine learning to implement and run machine learning workloads on Azure.
 
 You will need to pass: [Exam DP-100: Designing and Implementing a Data Science Solution on Azure](https://docs.microsoft.com/en-gb/learn/certifications/exams/dp-100).
+
+#### [Microsoft Certified: Azure Administrator Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-administrator/)
+
+Earn this certification to prove you have understand how to implement, manage and monitor an organization's Azure environment.
+
+You will need to pass: [Exam AZ-104: Microsoft Azure Administrator](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104).
+
+- - -
+
+## Specialty
+
+Cosmos is becoming a very popular database solution. Learn more by completing: 
+#### [Microsoft Certified: Azure Cosmos DB Developer Specialty](https://docs.microsoft.com/en-us/learn/certifications/azure-cosmos-db-developer-specialty/)
+Earn this certification to prove that you have strong knowledge of the intricacies of Azure Cosmos DB.
+
+You will need to pass: [Exam DP-420: Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-420)
 
 - - -
 
