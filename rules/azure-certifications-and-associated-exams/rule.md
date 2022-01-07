@@ -27,9 +27,7 @@ Microsoft provides numerous certifications and training options to help you:
 
 <!--endintro-->
 
-Microsoft has many certifications and different certifications paths. Be sure to check the [Become Microsoft Certified poster](https://aka.ms/traincertposter) for details of exams required for each of the certifications.
-
-![](microsoftteams-image.png)
+![Figure: Microsoft Certification RoadMap](certification-map.png)
 
 - - -
 
@@ -102,6 +100,10 @@ Earn this certification to prove your subject matter expertise working with peop
 You will need to pass: [Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400).
 
 - - -
+
+![Figure: Get the poster to see Microsoft's certifications](screen-shot-2022-01-06-at-10.17.14-pm.png)
+
+[Check the Become Microsoft Certified poster](https://aka.ms/traincertposter) for details of exams required for each of the certifications.
 
 Preparing for exams can involve a lot of work, and in some cases stress and anxiety. But remember, you're not in school anymore! You've chosen to take this exam, and no one is forcing you. So just sit back and **enjoy the journey - you should feel excited by the new skills you will soon learn**. If you want some great advice and tips, be sure to check out [Successfully Passing Microsoft Exams by @JasonTaylorDev](https://jasontaylor.dev/successfully-passing-microsoft-exams/).
 
