@@ -29,7 +29,7 @@ Microsoft provides numerous certifications and training options to help you:
 
 Microsoft has many certifications and different certifications paths. Be sure to check the [Become Microsoft Certified poster](https://aka.ms/traincertposter) for details of exams required for each of the certifications.
 
-![](microsoftteams-image.png)
+![Figure: Microsoft Certification RoadMap](certification-map.png)
 
 - - -
 
