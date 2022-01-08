@@ -35,7 +35,7 @@ Microsoft provides numerous certifications and training options to help you:
 
 If you're just getting started,  take a look at:
 
-#### [Microsoft Certified: Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)
+#### [Microsoft Certified: Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
 
 Earn this certification to prove you have a foundational knowledge of cloud services and how those services are provided with Microsoft Azure.
 
