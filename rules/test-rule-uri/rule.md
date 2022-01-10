@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Test Rule
-guid:
+guid: ab7dc8dd-e969-41a1-b214-392acc62d7e3
 uri: test-rule-uri
 created: 2021-01-20T05:06:33.0000000Z
 authors:
