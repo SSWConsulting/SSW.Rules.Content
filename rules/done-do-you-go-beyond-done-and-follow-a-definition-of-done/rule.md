@@ -16,11 +16,12 @@ authors:
   url: https://ssw.com.au/people/damian-brady
 related: 
 - dones-do-you-reply-done-and-delete-the-original-email
+- dones-do-you-include-useful-details-in-your-done-email
+- have-a-definition-of-ready
 - do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
 - comments-do-you-enforce-comments-with-check-ins
 - do-you-enforce-work-item-association-with-check-in
 - before-starting-do-you-follow-a-test-driven-process
-- have-a-definition-of-ready
 redirects: []
 
 ---
