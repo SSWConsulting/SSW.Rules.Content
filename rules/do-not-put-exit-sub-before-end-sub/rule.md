@@ -12,7 +12,7 @@ created: 2018-04-30T22:32:50.000Z
 archivedreason: null
 guid: adf0ec80-f374-4b19-9d92-da46750e5c62
 ---
-This is often a bad practice if you already are ending Sub you don't need another line..
+This is often a bad practice if you already are ending Sub you don't need another line...
 
 <!--endintro-->
 
