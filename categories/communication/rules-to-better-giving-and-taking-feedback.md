@@ -19,6 +19,7 @@ index:
 - use-off-the-record-conversations
 - do-you-do-monthly-peer-evaluations
 - todo-tasks
+- speak-up
 
 ---
 

@@ -19,7 +19,7 @@ index:
 - create-friendly-short-urls
 - share-every-blog-post
 - use-a-conversion-pixel
-- do-you-use-buffer-to-post-to-social-media
+- post-using-social-media-management-tools
 - do-your-presentations-promote-online-discussion
 - do-you-share-when-you-upgrade-an-application
 - weed-out-spammers
