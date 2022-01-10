@@ -29,12 +29,12 @@ For everyone to be on the same page, the process a developer should follow is:
    https://azure.microsoft.com/en-au/pricing/calculator
 2. Email SysAdmins with $ and a request to create resources in Azure, like the below: 
 
-::: email-template
-| | | 
-| -------- | --- | 
-| To: | SysAdmins | 
-| Subject: | Purchase Please - Azure Resource Request for xx |
-::: email-content
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SysAdmins |
+| Subject: | Purchase Please - Azure Resource Request for xx |  
+::: email-content  
 
 ### To SSWSysAdmins,
 
@@ -60,4 +60,5 @@ David
 
 <As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
 
-:::
+:::  
+:::  
