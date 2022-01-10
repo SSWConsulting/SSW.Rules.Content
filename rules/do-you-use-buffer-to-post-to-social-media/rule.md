@@ -17,8 +17,10 @@ redirects:
 created: 2014-04-03T05:50:56.000Z
 archivedreason: null
 guid: fa97b239-8177-4073-ab81-fdace6b68eb7
+
 ---
-Social media management tools are a must-have marketing tool these days. They are softwares, web applications or apps that help a company to successfully manage its social media content and engagement across different social networks. These tools offer many helpful features, like content scheduling, social analytics, teams collaboration, content creation, and many more.
+
+Social media management tools are a must-have marketing tool these days. They are software, web applications and apps that help a company to successfully manage content and engagement across different social networks. These tools offer many helpful features, like content scheduling, social analytics, teams collaboration, content creation, and many more.
 
 We will go through a few options you can choose - each has different plans/prices and features that suit different businesses needs.
 
@@ -39,7 +41,7 @@ You can either visit the [Buffer website](https://buffer.com/) or install the Bu
 The content of your posts should be consistent across accounts. When making a post that exceeds the character limit of a site such as Twitter, you should write a separate, shorter version of the post to send to that site only. You can also use the "Customize for each network" button on Buffer to modify the content to better suit the platform for each post. This means that you could write the content for a Tweet and then modify it to remove things like #Hashtags to post it to LinkedIn where they don't make sense.
 
 ::: bad
-!\[Figure: Bad example - only Tweeting using Twitter alone and not using a scheduler to post across the different media platforms at once. This is time-consuming!](tweet-example.jpg) 
+![Figure: Bad example - only Tweeting using Twitter alone and not using a scheduler to post across the different media platforms at once. This is time-consuming!](tweet-example.jpg) 
 :::
 
 ::: good
@@ -48,17 +50,17 @@ The content of your posts should be consistent across accounts. When making a po
 
 ### \#Hashtags
 
-'Hashtags are used across social sites such as Twitter, Instagram and LinkedIn to identify a keyword or topic of interest and facilitate a search for similar posts on the topic.
+Hashtags are used across social sites such as Twitter, Instagram and LinkedIn to identify a keyword or topic of interest and facilitate a search for similar posts on the topic.
 
-Establish a short #hashtag that can be easily associated with your brand, company, or campaign and ensure this #hashtag is used consistently across social networks, along with any other keywords relevant to the content of your post.
+Establish a short \#hashtag that can be easily associated with your brand, company, or campaign and ensure this #hashtag is used consistently across social networks, along with any other keywords relevant to the content of your post.
 
-For more on SSW #Hashtags, check out [Do you know how to use Hashtags?](/do-you-know-to-use-hash-tags)
+For more on SSW \#Hashtags, check out [Do you know how to use hashtags?](/do-you-know-to-use-hash-tags)
 
 ### Custom URL shortening
 
 Buffer uses bit.ly for shortening URLs. You can create custom URLs at no cost by joining bit.ly and going into Settings | Advanced. This will allow even your shortened URL to carry your unique brand without the look of a long, untidy URL.
 
-For more on bit.ly and URL shortening, check out [Rules to Better bit.ly](/rules-to-better-bit-ly)
+For more on bit.ly and URL shortening, check out [Rules to Better bit.ly](/rules-to-better-bit-ly).
 
 **Tip:** Buffer does not tag people on Facebook. You will need to manually go onto the Facebook page you posted through and edit the post to tag the people you wanted.
 
