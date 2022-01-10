@@ -28,7 +28,7 @@ index:
 - use-azure-notebooks-to-learn-your-data
 - set-up-azure-alert-emails-on-teams-channel
 - azure-site-recovery
-- do-you-manage-costs-azure 
+- manage-costs-azure
 
 ---
 
