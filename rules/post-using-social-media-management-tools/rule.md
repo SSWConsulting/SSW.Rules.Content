@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you post using social media management tools?
-uri: do-you-use-buffer-to-post-to-social-media
+uri: post-using-social-media-management-tools
 authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
@@ -14,6 +14,7 @@ authors:
 related: []
 redirects:
   - do-you-use-buffer-to-post-on-social-media
+  - do-you-use-buffer-to-post-to-social-media
 created: 2014-04-03T05:50:56.000Z
 archivedreason: null
 guid: fa97b239-8177-4073-ab81-fdace6b68eb7
