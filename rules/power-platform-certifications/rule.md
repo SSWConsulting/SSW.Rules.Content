@@ -79,11 +79,11 @@ You will need to pass Exam [PL-100: Microsoft Power Platform App Maker](https://
 
 ## Specialty
 
-#### [Microsoft Certified: Customer Data Platform Specialty](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+#### [Microsoft Certified: Customer Data Platform Specialty](https://docs.microsoft.com/en-au/learn/certifications/customer-data-platform-specialty)
 
-Earn this certification to prove you have a foundational knowledge of the Power Platform.
+Earn this certification to prove you understand using the Power Platform to manage customer retention, improve customer experiences.
 
-You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+You will need to pass Exam [MB-260: Microsoft Customer Data Platform Specialist](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-260).
 
 - - -
 
