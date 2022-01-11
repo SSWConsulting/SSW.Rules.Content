@@ -50,25 +50,25 @@ Earn this certification to prove you can build solutions on the Power Platform u
 You will need to pass Exam [PL-200: Microsoft Power Platform Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-200).
 
 
-#### [Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+#### [Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/d365-business-central-functional-consultant-associate)
 
-Earn this certification to prove you have a foundational knowledge of the Power Platform.
+Earn this certification to prove you have a solid knowledge of Dynamics 365 Business Central.
 
-You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
-
-
-#### [Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
-
-Earn this certification to prove you have a foundational knowledge of the Power Platform.
-
-You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+You will need to pass Exam [MB-800: Microsoft Dynamics 365 Business Central Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-800).
 
 
-#### [Microsoft Certified: Power Platform App Maker Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+#### [Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-developer-associate)
 
-Earn this certification to prove you have a foundational knowledge of the Power Platform.
+Earn this certification to prove you can design, develop, secure and extend Microsoft Power Platform solutions.
 
-You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+You will need to pass Exam [PL-400: Microsoft Power Platform Developer](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-400).
+
+
+#### [Microsoft Certified: Power Platform App Maker Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-app-maker)
+
+Earn this certification to prove that as a business stakeholder you can engage well with Power Platform developers to design and specify business automations.
+
+You will need to pass Exam [PL-100: Microsoft Power Platform App Maker](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-100).
 
 
 
