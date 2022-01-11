@@ -12,6 +12,7 @@ index:
 - do-you-know-you-should-write-notes-when-an-activity-is-going
 - loop-someone-in
 - speak-up
+- the-happiness-equation
 
 ---
 
