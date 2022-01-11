@@ -20,6 +20,7 @@ index:
 - do-you-do-monthly-peer-evaluations
 - todo-tasks
 - speak-up
+- the-happiness-equation
 
 ---
 
