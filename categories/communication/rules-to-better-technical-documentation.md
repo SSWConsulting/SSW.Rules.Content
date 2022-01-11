@@ -21,6 +21,7 @@ index:
 - use-quotation-mark-for-controls
 - use-correct-symbols-when-documenting-instructions
 - use-the-right-order-of-instructions
+- screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - use-setup-and-set-up-correctly
 - use-will-not-should
 - when-to-use-log-on-log-in-and-sign-in
@@ -46,6 +47,5 @@ index:
 - keep-your-urls-clean
 - format-new-lines
 - how-to-name-sharepoint-documents
+
 ---
-
-
