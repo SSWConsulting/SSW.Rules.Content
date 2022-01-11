@@ -36,18 +36,18 @@ You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https
 ## Associate
 
 Once you've mastered the fundamentals, developers should move on to:
-#### [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+#### [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-au/learn/certifications/data-analyst-associate/)
 
-Earn this certification to prove you have a foundational knowledge of the Power Platform.
+Earn this certification to prove you have skills and knowledge in data processing and storage.
 
-You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+You will need to pass Exam [DA-100: Analyzing Data with Microsoft Power BI](https://docs.microsoft.com/en-au/learn/certifications/exams/da-100).
 
 
-#### [Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+#### [Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-functional-consultant-associate)
 
-Earn this certification to prove you have a foundational knowledge of the Power Platform.
+Earn this certification to prove you can build solutions on the Power Platform using low code or no code solutions.
 
-You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+You will need to pass Exam [PL-200: Microsoft Power Platform Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-200).
 
 
 #### [Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
