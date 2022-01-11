@@ -25,8 +25,83 @@ Microsoft provides numerous certifications and training options to help you:
 
 If you're just getting started,  take a look at:
 
-#### [Microsoft Certified: Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)
+#### [Microsoft Certified: Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
 
-Earn this certification to prove you have a foundational knowledge of cloud services and how those services are provided with Microsoft Azure.
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
 
-You will need to pass Exam [AZ-204: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900).
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+- - -
+
+## Associate
+
+Once you've mastered the fundamentals, developers should move on to:
+#### [Microsoft Certified: Data Analyst Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
+
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+
+#### [Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
+
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+
+#### [Microsoft Certified: Dynamics 365 Business Central Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
+
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+
+#### [Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
+
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+
+#### [Microsoft Certified: Power Platform App Maker Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
+
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+
+
+
+
+
+- - -
+
+## Specialty
+
+#### [Microsoft Certified: Customer Data Platform Specialty](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
+
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+- - -
+
+## Expert
+
+#### [Microsoft Certified: Power Platform Solution Architect Expert](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
+
+Earn this certification to prove you have a foundational knowledge of the Power Platform.
+
+You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
+
+- - -
+
+![Figure: Get the poster to see Microsoft's certifications](screen-shot-2022-01-06-at-10.17.14-pm.png)
+
+[Check the Become Microsoft Certified poster](https://aka.ms/traincertposter) for details of exams required for each of the certifications.
+
+Preparing for exams can involve a lot of work, and in some cases stress and anxiety. But remember, you're not in school anymore! You've chosen to take this exam, and no one is forcing you. So just sit back and **enjoy the journey - you should feel excited by the new skills you will soon learn**. If you want some great advice and tips, be sure to check out [Successfully Passing Microsoft Exams by @JasonTaylorDev](https://jasontaylor.dev/successfully-passing-microsoft-exams/).
+
+Good luck!
+
