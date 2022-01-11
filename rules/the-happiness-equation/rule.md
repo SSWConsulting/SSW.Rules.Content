@@ -8,61 +8,36 @@ authors:
 created: 2022-01-11T16:17:36.024Z
 guid: f355b232-00cf-4201-8eba-71bf7d12c3c5
 ---
-Bosses want a place where people want to help each other
+Bosses want a place where people help each other.
 
-New great projects – someone is assigned to it… someone unhappy
+Scenarios:
 
-New promotion – someone is unhappy
+* New great project – someone is assigned to it... someone is unhappy
+* New promotion – someone else is unhappy
 
-These seems unfair situations
--	People don’t want to be unfair… friends don’t…. bosses don’t
+These might seem like unfair situations. People don’t want to be unfair... friends don’t... bosses don't.
 
-            
 <!--endintro-->
 
-The solution are:
+The best way to deal with situations like this is by knowing:
 
-1. Gotta Speak Up
+1. **Gotta speak up** - [See Do you know to speak up?](/speak-up)
+2. **Happiness is relative** - unhappiness comes from comparisons with others
+3. **Get one thing in life, lose another** - Cant have everything
+4. **The Happiness Equation** - Happiness = Expectations - Reality   
+   - Reduce your expectations
+   - Increase your reality
+5. **Consider luck** - Everyone wants to succeed in life. But what causes some of us to be more successful than others? Is it really down to skill and strategy - or something altogether more unpredictable? Read [the book "Fooled by Randomness"](https://en.wikipedia.org/wiki/Fooled_by_Randomness)
+6. **Embrace Scrum** – Competing with yourself is the best approach.  
+   In software, Scrum is the best as you are only compare yourself... or you team with what you did before. You only use empirical data.
+7. **Understand intention** - Try to see yourself in others shoes.  
+   Understand that people don't want to be unfair. It is common to assume the wrong stuff.
+8. **Be the 'squeaky wheel'**
+   > A squeaky wheel gets the most oil.
 
-[see the other rule]
+   Ask questions... you will understand even better friends or bosses know this is a topic you have interest... so they'll give you updates when stuff changes 
+9. **Have attainable ambition** - Ambition to be realistic enough to push you, not so much that it makes you unhappy.  
+   Overly ambitious people are unhappy... they never get there... never rich or successful enough... 
+10. **Celebrate other peoples wins** - Be at a place where you are pushing each other up rather than climbing over each other. Everybody gets their days of sunshine. When others achieve a goal, be happy for them, send a nice message, like their posts.
 
-2. Happiness is relative - unhappiness comes from comparisons with others
-
-3. Get one thing in life - Lose another.
-Cant have everything
-
-4. The Happiness Equation
-Happiness = Expectations - Reality. 
-Reduce your expectations
-Increase your reality
-
-Ask lots of questions…
-
-5. Luck. 
-Book: Fooled by Randomness
-6. Embrace Scrum – Competing with yourself is the best approach
-In software, scrum is the best as you are only compare yourself… or you team with what you did before.
-You only use empirical data.
-
-7. Understand intention
-Try to see yourself in others shoes
-Understand that people don't want to be unfair. 
-It is common to assume the wrong stuff
-xxxx
-
-8. Be the Squeaky Wheel
-Quote: A squeaky wheel gets the most oil
-Ask questions… you will understand
-Even better friends or bosses know this is a topic you have interest… so guess what they give you updates when stuff changes 
-9. Make expectations attainable.
-or Have attainable ambition
-ambition to be realistic enough to push you
-Not so much that it makes you unhappy
-xxx Overly ambitious people are unhappy… they never get there… never rich enough…. 
-
-10. Celebrate other peoples wins
-Do the above and you can have a culture of helping yourself and helping others
-… want to be at a place when you are pushing each other up
-Rather than climbing over each other
-Everybody gets their days of sunshine
-- so be happy for them… send a nice message… like their post etc.
+Do the above and you can have a culture of helping yourself and helping others.
