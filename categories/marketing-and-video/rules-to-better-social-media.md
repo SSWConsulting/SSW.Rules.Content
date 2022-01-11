@@ -29,6 +29,7 @@ index:
 - how-to-advertise-using-facebook-ads
 - do-you-know-what-metrics-you-should-have-around-your-facebook-ads
 - have-urls-to-your-main-services-on-linkedin
+- linkedin-connect-your-microsoft-account
 - twitter-do-you-know-how-to-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
