@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Old content. See the rule https://www.ssw.com.au/rules/videos-youtube-friendly about having shorter videos over larger ones
 title: Post-Production - Do you add content to YouTube to feed traffic to your other sites?
 guid: b47a2051-826e-49d1-b1de-6683e045c863
 uri: post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
@@ -18,15 +18,3 @@ For most users, YouTube only allows a maximum length of 15 minutes on their vide
 1. Create either a 'highlights' version, split the video into parts or create 'the first [between 3 and 15] minutes' version of all your longer videos, especially the popular ones.
 2. At the end of these clips include a [call to action](/production-do-you-add-a-call-to-action)that prompts the viewer to see the full version at your other site(s). If your other site(s) offer free viewings, make sure you mention this.
 3. Upload these versions to YouTube (preferably around the same time you upload the full versions to other sites).
-
-[http://www.youtube.com/watch?v=DbpolzdGJ7Y](http://www.youtube.com/watch?v=DbpolzdGJ7Y)
-
-![Figure: Bad Example – No call to action prompting viewers to go and see the full version.](Bad-1st-5-min-example.jpg)
-
-
-[https://www.youtube.com/watch?v=riTKDH8gSh8](https://www.youtube.com/watch?v=riTKDH8gSh8)
-![Figure: Okay Example – A link to the full version is included in the description section but no Call to Action in the actual video.](Okay-1st-5-min-Example.jpg)
-
-
-`youtube: https://youtu.be/8xhzZDBHkq8`
-**Figure: Good Example - contains a clear, live action call to action directing the viewer to see the full version.**
