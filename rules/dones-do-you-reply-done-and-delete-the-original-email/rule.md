@@ -14,6 +14,7 @@ authors:
   url: https://ssw.com.au/people/ulysses-maclaren
 related: 
 - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+- dones-do-you-include-useful-details-in-your-done-email
 redirects: []
 
 ---
@@ -56,8 +57,6 @@ Not done - checked with Northwind and they're happy with the form as it is
 Figure: Good Example - "Not Done" email
 :::
 
-#### Tips for your "Done" emails
-
 ### Tip 1: Say "Done" first
 
 For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should be the first word(s) so the **reader knows the status straight away**.
@@ -67,7 +66,7 @@ For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should b
 In any reply, **include relevant information**, such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
 ::: greybox
-**Extra tips:**
+**Extra**
 - Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
 - On browser screenshots, make sure you include the top-left area - so you can see the URL and what browser it is. E.g. Chrome or Edge
 :::
@@ -205,7 +204,7 @@ Figure: Good Example – It is very clear which tasks have been done and which h
 :::
 
 ::: greybox
-**Extra Tip:** 
+**Extra:** 
 
 What do you do with the "Not Done" tasks?  
 
@@ -237,7 +236,6 @@ Figure: Good example – If multiple tasks are 'done', then only the URL is need
 ### Tip 4: Replying "Done" to huge tasks
 
 Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-days). If you are given a task that is going to take more time than that, then split it by following [breaking up monster tasks](/do-you-send-tasks-one-email-at-a-time).
-
 
 ### Tip 5: Don't consolidate emails
 

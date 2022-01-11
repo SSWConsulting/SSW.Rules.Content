@@ -2,24 +2,23 @@
 type: rule
 archivedreason:
 title: Test Rule
-guid:
+guid: ab7dc8dd-e969-41a1-b214-392acc62d7e3
 uri: test-rule-uri
 created: 2021-01-20T05:06:33.0000000Z
 authors:
 - title: Piers Sinclair
   url: https://ssw.com.au/people/piers-sinclair
-- title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+- title: Jack Petit
+  url: https://ssw.com.au/people/jack-petit
 related:
 
 ---
 
-This is an example rule to show you what is possible for a rule. 
-Below you will see everything you need to create an awesome page. 
+Here is a small change.
 
 <!--endintro-->
 
-# This is a heading un
+# This is a heading
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is an external link](http://www.google.com/) pariatur. 
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
@@ -188,30 +187,6 @@ Check out this video - it's responsive!
 ::: good  
 ![Figure: Good figure](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
 :::
-
-::: img-small  
-![Figure: Small Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-::: img-medium  
-![Figure: Medium Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-::: img-large  
-![Figure: Large Normal figure](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
-:::
-
-# Horizontal Rules
----
-***
-___
-
-**bold** or **bold**  
-_italic_ or _italic_  
-**combined bold and _italic_**  
-~~strikethrough~~  
-
-&nbsp; 
 
 | Tables        |      Are      |   Cool |
 | ------------- | :-----------: | -----: |
