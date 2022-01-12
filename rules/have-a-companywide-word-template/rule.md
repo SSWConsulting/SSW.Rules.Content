@@ -1,26 +1,29 @@
 ---
 type: rule
-archivedreason: 
 title: Logon - Do you have a company-wide Word template?
-guid: a58e2456-e070-4ddb-9ed8-996eab71ef90
 uri: have-a-companywide-word-template
-created: 2017-07-11T17:42:29.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related:
-- do-you-know-if-you-are-using-the-template
-- great-email-signatures
+  - do-you-know-if-you-are-using-the-template
+  - great-email-signatures
+  - do-you-understand-the-value-of-consistency
 redirects:
-- logon-do-you-have-a-company-wide-word-template
-
+  - logon-do-you-have-a-company-wide-word-template
+created: 2017-07-11T17:42:29.000Z
+archivedreason: null
+guid: a58e2456-e070-4ddb-9ed8-996eab71ef90
 ---
 
-A company-wide template will be implemented, so users have automatic footers to save time and give better branding.
+A company-wide Word template brings many benefits e.g.:
+* Consistency - It's important to maintain consistent documents for internal and clients https://www.ssw.com.au/rules/do-you-understand-the-value-of-consistency
+* Automatic footers and headers - showing the latest edit time and who the editor was, updating automatically on save
+* Branding - More and better branding and correct company colors
 
 
 ::: bad  

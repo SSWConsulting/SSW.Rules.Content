@@ -34,6 +34,8 @@ index:
 - post-production-do-you-use-a-version-number-on-your-videos
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
+- organize-and-back-up-your-files
+- golden-moment
 - add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
@@ -50,7 +52,6 @@ index:
 - production-do-you-know-to-subtitle-your-videos
 - avoid-dates-text-in-graphics-for-events
 - record-better-audio
-- structure-and-back-up-your-files
 - copy-views-and-comments-before-deleting-a-video-version
 - define-the-level-of-quality-up-front
 - video-cuts

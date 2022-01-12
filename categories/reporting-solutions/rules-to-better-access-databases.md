@@ -17,7 +17,7 @@ index:
 - do-you-use-a-unique-index-and-the-required-property-on-a-field
 - do-you-use-prefix-sys-in-table-name-best-practice
 - do-you-always-have-version-tracking-tables
-- do-you-have-multiple-key-foreign-key-relationships-on-tables-that-map-to-fields-of-a-different-name-upsizing-problem
+- foreign-key-upsizing-problem
 - do-you-have-fields-with-multiple-key-indexes-upsizing-problem
 - do-you-have-complex-queries-upsizing-problem
 - do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizing-problem

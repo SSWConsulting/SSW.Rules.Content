@@ -19,7 +19,7 @@ If you have an existing client, who is already impressed with your work, you don
 
 Hi Ed,
 
- As per our conversation today, here is a ballpark schedule for the work we talked about. As you can see all the items are listed separately so you can identify how the estimate is put together. I'm very happy to discuss these estimates with you so feel free to give me a call.
+As per our conversation today, here is a ballpark schedule for the work we talked about. As you can see all the items are listed separately so you can identify how the estimate is put together. I'm very happy to discuss these estimates with you so feel free to give me a call.
 
 :::
-      Figure: Always call the client to let them know that you are about to send a quote across, then send an "[As per our conversation](/do-you-send-＂as-per-our-conversation＂-emails)" email.
+**Figure: Always call the client to let them know that you are about to send a quote across, then send an "[As per our conversation](/as-per-our-conversation-emails)" email**

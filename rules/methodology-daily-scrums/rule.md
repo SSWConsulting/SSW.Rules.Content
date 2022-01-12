@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
-guid: f15f834f-70dd-4f38-8597-9e561336caf2
 uri: methodology-daily-scrums
-created: 2009-02-28T09:43:16.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: 
-- use-the-status-message-in-teams
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - use-the-status-message-in-teams
+  - keep-track-of-a-parking-lot-for-topics
 redirects:
-- methodology-do-you-do-daily-scrums-aka-stand-up-meetings
-- methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
-
+  - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
+  - methodology-do-you-do-daily-scrums-(aka-stand-up-meetings)
+created: 2009-02-28T09:43:16.000Z
+archivedreason: null
+guid: f15f834f-70dd-4f38-8597-9e561336caf2
 ---
-
 Tight project teams have a Daily 'Scrum' every day at the same time.
 
 It was once called a 'stand-up meeting' but that discriminates people in wheelchairs.
@@ -55,34 +54,35 @@ Then you’ll be able to say to your Scrum Master, “I’ve had a look at the T
 
 At the end of the Scrum, the Scrum Master should [review the current burn down](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day) to check on the progress of the team.
 
-![Figure: A burndown chart in visualstudio.com](burndowntfspreview.png)  
+![Figure: A burndown chart in visualstudio.com](burndowntfspreview.png)
 
 ### Tip 3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
-| To:      | \[Team\] |
+| To:      | \[Team] |
 | Recurrence:      | Everyday |
-| Subject: | Daily Scrum – \[Project Name\] |  
+| Subject: | Daily Scrum – \[Project Name] |\
 ::: email-content  
 
-### Hi \[Team Name\],  
- 
+### Hi \[Team Name],
+
 As per our conversation, the Daily Scrum will be held each day.
+
 * Project: XXX
 * Scrum Master: XXX
 * Task board: XXX
 
 &lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
 
-:::  
-:::  
-::: good  
+:::
+:::
+::: good
 Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template
 :::
 
-![Figure: Or you can use Microsoft Teams](teams-meeting-daily-scrum.jpg)  
+![Figure: Or you can use Microsoft Teams](teams-meeting-daily-scrum.jpg)
 
 ### Tip 4: Keep to the schedule. Same place, same time (and start even if people are missing)
 
@@ -92,9 +92,10 @@ If the Scrum Master is not a full-time member of the team (often they are), they
 
 ::: greybox
 Notes:
-- The Product Owner (often the client) is not required at the stand-up meeting. If he wants to turn up, remind him that he has tape stuck over his mouth, so he does not talk.
-- If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work)).
-:::
+
+* The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk.
+* If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work)).
+  :::
 
 ### Tip 5: Do you update tasks before the Daily Scrum?
 
@@ -114,7 +115,7 @@ Technology in the Daily Scrum causes people to lose focus on the goal. The goal 
 
 A task board allows people to visualize what the team is talking about.
 
-![Figure: A Task Board from Azure DevOps](tfspreviewtaskboard.png)  
+![Figure: A Task Board from Azure DevOps](tfspreviewtaskboard.png)
 
 ### Tip 9: Carry a pen and paper
 
@@ -129,7 +130,7 @@ A "Parking Lot" is the place for any discussions that stop the Team from answeri
 
 Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an Impediment (aka Roadblock). Communication with the Product Owner is essential and if you haven't touched base with him in the few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.
 
-![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)  
+![Figure: Call the Product Owner if you have an Impediment (aka Roadblock)](ProductOwnerTelephone.jpg)
 
 ### Tip 12: What to do when you're working for a PO directly
 
@@ -165,7 +166,7 @@ Today I am working on:
 
 :::
 ::: bad
-Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working  
+Figure: Bad example - Lack of details. Eg. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working\
 :::
 
 ::: greybox
@@ -186,7 +187,7 @@ Today I am working on:
 Figure: Good example - Clear details
 :::
 
----
+- - -
 
 ### More information
 
@@ -198,5 +199,4 @@ The goal is to be productive for 8 hours of the day, so communicate with the res
 
 It is important that any major incidents are dealt with first. Start with any major incidents that occurred in the last 24 hours.
 
-![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage.jpg)  
-
+![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage.jpg)

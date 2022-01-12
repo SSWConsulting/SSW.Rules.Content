@@ -15,7 +15,7 @@ index:
 - meetings-do-you-know-the-agenda-for-the-initial-meeting
 - meetings-do-you-have-a-debrief-after-an-initial-meeting
 - do-you-incentivize-a-quick-spec-review-sale
-- do-you-schedule-a-followup-meeting-after-a-spec-review1
+- do-you-schedule-a-followup-meeting-after-a-spec-review
 - do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
 - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
 - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
@@ -36,7 +36,7 @@ index:
 - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
 - do-you-know-who-are-the-most-appropriate-resources-for-a-project
 - make-sure-devs-are-comfortable-with-their-assignments
-- do-you-know-what-to-do-when-asked-to-sign-an-nda
+- nda-gotchas
 - do-you-make-sure-your-developers-get-to-see-each-other-regularly
 - do-you-manage-requests-for-event-refunds-effectively
 - do-you-provide-a-high-level-project-progress-report-for-clients

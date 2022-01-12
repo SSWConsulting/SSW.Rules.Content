@@ -1,16 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know what happens at a Sprint Planning Meeting?
-guid: f0bf4d20-cee6-4731-b343-603cf7db3e5d
 uri: do-you-know-what-happens-at-a-sprint-planning-meeting
-created: 2010-05-06T04:11:55.0000000Z
-authors: []
+authors: 
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
 related: []
 redirects: []
-
+created: 2010-05-06T04:11:55.000Z
+archivedreason: null
+guid: f0bf4d20-cee6-4731-b343-603cf7db3e5d
 ---
-
 The work to be performed in the Sprint is planned at the Sprint Planning meeting. At the Sprint Planning meeting, the following three questions are answered:
 
 * Why is this Sprint valuable?
@@ -40,7 +40,15 @@ The process of sizing is somewhat formal. Either using cards or IM (essential if
 Once enough stories are sized, the Product Owner is given the opportunity to re-prioritise now knowing the relative sizes. If more PBIs need then be sized then they are. The Scrum Master keeps everything going and facilitates negotiation between The Team and The Product Owner until final priority is confirmed and The team commit to a number of stories and the meeting concludes.
 
 This meeting should be timeboxed to an hour for every week in the Sprint. However, the Scrum Master must be sensitive to the meeting producing a workable result.
-      
+
+### Capacity Planning
+
+It is important for Sprint capacity planning to be consistent across all teams. As such, there should be consistency in how many story points you allocate to a Sprint. It's unreasonable to think that someone will be able to work productively and consecutively for 8 hours straight on a particular task. For example, if a task is allotted a 4 for effort (8 hours), the developer will probably spend about 6 hours coding, and 2 of those 8 hours fixing bugs, communicating, or working on the admin side of things. Even if devs may try to factor these things into their estimation, a 20% buffer never hurts.
+
+Therefore, a standard 1-week Sprint with 2 resources would have about 32 story points allocated.
+
+NOTE: This is specifically for the first couple of Sprints in a project, until you get an average velocity that you can use for capacity planning moving forward.
+
 ### How will the work needed to deliver the Increment be achieved?
 
 To answer the second question the team create tasks, with sub-tasks where necessary, for everything that needs to be done to implement the PBI.  Every task and sub-task should be given an estimate in hours and the same value placed in the Remaining field.
@@ -58,9 +66,12 @@ It is not essential for the Product Owner or the Scrum Master to be present for 
 Once this meeting is finished, the Scrum Master should email the Product Owner with a [forecast](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint).
 
 ::: greybox
+
 In Scrum, there are 4 meetings in total that you need to know about:
+
 * Sprint Planning Meeting (Described on this page)
 * [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Update tasks before Daily Scrum Meeting")
 * [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
 * [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Retrospective Meeting")
+
 :::

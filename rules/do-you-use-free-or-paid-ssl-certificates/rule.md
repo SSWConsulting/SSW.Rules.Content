@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
-title: Do you use free or paid SSL certificates?
-guid: 90542ef1-035b-49ce-95d6-dfe373ada4ad
+title: Certificate - Do you use free or paid SSL certificates?
 uri: do-you-use-free-or-paid-ssl-certificates
-created: 2019-05-21T07:16:32.0000000Z
 authors:
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
-
+created: 2019-05-21T07:16:32.000Z
+archivedreason: null
+guid: 90542ef1-035b-49ce-95d6-dfe373ada4ad
 ---
 
 What is the best option for your business when it comes to securing your website with HTTPS?

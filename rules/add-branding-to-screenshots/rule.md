@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/tiago-araujo
 - title: Alex Breskin
   url: https://ssw.com.au/people/alex-breskin
-related: []
+related: 
+- add-useful-and-concise-figure-captions
 redirects:
 - do-you-know-how-to-configure-balloons-branding
 - do-you-add-branding-to-screenshots

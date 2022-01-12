@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know how to manage certificates?
-guid: 00ddce19-4692-4819-b535-ef4a90c640e5
+title: Certificate - Do you know how to manage certificates?
 uri: how-to-manage-certificates
-created: 2020-09-09T21:26:04.0000000Z
 authors:
-- title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  - title: Steven Andrews
+    url: https://ssw.com.au/people/steven-andrews
 related: []
 redirects:
-- do-you-know-how-to-manage-certificates
-
+  - do-you-know-how-to-manage-certificates
+created: 2020-09-09T21:26:04.000Z
+archivedreason: null
+guid: 00ddce19-4692-4819-b535-ef4a90c640e5
 ---
 
 At SSW we have moved away from paid certificates for our websites and web apps. We now use [Let's Encrypt](https://letsencrypt.org/) managed by [Certify The Web](https://certifytheweb.com/).  

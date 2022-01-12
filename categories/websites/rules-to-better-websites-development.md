@@ -34,6 +34,7 @@ index:
 - remove-the-debug-attribute-in-webconfig-compilation-element
 - run-load-tests-on-your-website
 - use-css-validation-service-to-check-your-css-file
+- do-you-choose-the-best-way-to-send-emails-for-application
 - use-jquery-instead-of-javascript
 - use-link-auditor
 - using-markdown-to-store-your-content
@@ -42,6 +43,7 @@ index:
 - use-open-graph
 - use-server-side-comments
 - do-you-use-the-best-static-site-tech-stack
+- do-you-know-the-best-cms-solutions-for-websites
 - use-web-compiler
 - do-you-keep-your-npm-packages-up-to-date
 - do-you-perform-migration-procedures-with-an-approved-plan
