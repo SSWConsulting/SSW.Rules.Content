@@ -7,8 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Stanley Sidik
     url: https://ssw.com.au/people/stanley-sidik
-  - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kiki
 related: []
 redirects:
   - do-you-have-your-ups-send-an-email-when-it-kicks-in
@@ -27,4 +27,4 @@ All UPS's come with management software or hardware that can perform these actio
 
 For example, SSW use APC UPS' and they have physical management cards (hardware), which are able to send emails. The event categories are "severe", "warning" and "informational".
 
-![Figure: Good Example - APC UPS have a physical management card with some options](goodexamplebackups.jpg)
+![Figure: Good Example - APC UPS have a physical management card with some options](UPSexample.png)
