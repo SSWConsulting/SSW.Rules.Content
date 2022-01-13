@@ -39,8 +39,7 @@ There are three perspectives to consider and each has different strategies for m
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
 
-`youtube: https://www.youtube.com/embed/IMHqYoYzAHU`
-            
+`youtube: https://www.youtube.com/embed/aZM7shI0T-8`
 
 
 
