@@ -5,7 +5,7 @@ uri: speak-up
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-  - title: Uly
+  - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
