@@ -45,8 +45,7 @@ Missing out on an award can suck. What should you do?
 * Be reasonable - Everybody has their day of sunshine. Even if it doesn't totally make sense to you. It would be awesome if you can be genuine and privately send a congrats or even better do it publicly.
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
+**Video: Two Monkeys Were Paid Unequally: Excerpt from Frans de Waal's TED Talk**
 
 `youtube: https://www.youtube.com/embed/aZM7shI0T-8`
-
-
-
+**Video: Speaking Up about Unfairness - with Adam Cogan and Jean Thirion**
