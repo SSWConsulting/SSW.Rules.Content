@@ -25,3 +25,7 @@ It can be tempting to quickly solve a ticket and then assign it to yourself afte
 5. Once solved, send a detailed reply and submit as Solved.
 
 Remember you can always re-assign the ticket to someone else if required.
+
+It's also worth noting that you can see if someone else is currently viewing a ticket. This can also help to avoid duplicating work - if you see that someone else is viewing a ticket, have a chat with them before you start working on it.
+
+![Figure: "Also on this ticket" shows who is currently viewing](zendesk-viewing.png)
