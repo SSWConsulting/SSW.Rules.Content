@@ -30,8 +30,9 @@ There are three perspectives to consider and each has different strategies for m
 
 ### Neglected individual
 
-* Speak up - If you feel things are unfair speak up and make it known! The longer you wait, the worse it becomes. Speaking up will allow a little more happiness for yourself and your team.
 * Ask questions - Asking questions about the reasons for decisions will help you understand why it happened and what you need to do to make sure it happens for you next time!
+* Speak up - If you feel things are unfair speak up and make it known! The longer you wait, the worse it becomes. Speaking up will allow a little more happiness for yourself and your team.
+
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
 
