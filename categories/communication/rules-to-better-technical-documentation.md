@@ -23,6 +23,7 @@ index:
 - use-correct-symbols-when-documenting-instructions
 - use-the-right-order-of-instructions
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
+- add-branding-to-screenshots
 - use-setup-and-set-up-correctly
 - use-will-not-should
 - when-to-use-log-on-log-in-and-sign-in
