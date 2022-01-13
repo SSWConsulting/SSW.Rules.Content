@@ -41,7 +41,7 @@ Getting an accolade or present is great but consider your colleagues.
 Missing out on an award can suck. What should you do? 
 
 * Ask questions - Finding out the reasons for decisions will help you understand why it happened. That knowledge will be valuable to you in the future.
-* Speak up - If you feel things are unfair make it known! If it is bothering you, the longer you wait, the worse it becomes. Speaking up will give the person making the decision a chance to explain or rectify the issue and keep yourself and your team more harmonious.
+* Speak up - If you feel things are unfair make it known tactfully. If it is bothering you, the longer you wait, the worse it becomes. Speaking up will give the person making the decision a chance to explain or rectify the issue.
 * Be reasonable - Everybody has their day of sunshine. Even if it doesn't totally make sense to you. It would be awesome if you can be genuine and privately send a congrats or even better do it publicly.
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
