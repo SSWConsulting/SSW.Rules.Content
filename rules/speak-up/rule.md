@@ -26,6 +26,7 @@ There are three perspectives to consider and each has different strategies for m
 ### Manager
 
 * Communicate decisions - By communicating the reasons for every decision you set the right expectations for employees and prevent them from feeling frustrated.
+* Give a heads up - If you know someone might feel a situation is unfair, give them a heads up ahead of time about why it is happening that way.
 * Avoid unfair situations - Steer clear of situations that could be perceived as unfair where possible. For example, in the case of gifts either keep things private or distribute them equally.
 
 ### Receiver
@@ -35,12 +36,11 @@ There are three perspectives to consider and each has different strategies for m
 ### Neglected individual
 
 * Ask questions - Asking questions about the reasons for decisions will help you understand why it happened and what you need to do to make sure it happens for you next time!
-* Speak up - If you feel things are unfair speak up and make it known! The longer you wait, the worse it becomes. Speaking up will give the person making the decision a chance to rectify the issue and keep yourself and your team more harmonious.
+* Speak up - If you feel things are unfair speak up and make it known! The longer you wait, the worse it becomes. Speaking up will give the person making the decision a chance to explain or rectify the issue and keep yourself and your team more harmonious.
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
 
-`youtube: https://www.youtube.com/embed/IMHqYoYzAHU`
-            
+`youtube: https://www.youtube.com/embed/aZM7shI0T-8`
 
 
 
