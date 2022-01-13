@@ -5,6 +5,10 @@ uri: speak-up
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Uly
+    url: https://www.ssw.com.au/people/uly
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-01-10T18:14:35.434Z
 guid: 1e622801-1ce2-412b-83d4-1f74111a0d2f
 ---
@@ -35,7 +39,7 @@ There are three perspectives to consider and each has different strategies for m
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
 
-`youtube: https://www.youtube.com/embed/1CAibUsm74w`
+`youtube: https://www.youtube.com/embed/IMHqYoYzAHU`
             
 
 
