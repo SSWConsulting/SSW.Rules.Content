@@ -17,17 +17,14 @@ authors:
 related: 
 - dones-do-you-reply-done-and-delete-the-original-email
 - done-do-you-go-beyond-done-and-follow-a-definition-of-done
+- comments-do-you-enforce-comments-with-check-ins
 redirects: []
 
 ---
 
-Including images is a good idea, in addition when appropriate include code snippets,  and ideally have the code that changed highlighted in <font style="background-color:#ffff00;">yellow</font>.
+An email with just the word "done" can often be enhanced with a screen capture or code snippet.
 
-::: greybox
-An email with just the word "done" can often be enhanced with a screen capture or code snippet...
-...it provides evidence
-...it educates
-:::
+In any reply, **include relevant information**, such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
 <!--endintro-->
 
@@ -42,37 +39,45 @@ This has several benefits:
 
 ### Examples
 
-Let's look at some examples and tips:
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Jason |
+| Subject: | RE: Northwind - Include one more field to the form |  
+::: email-content  
 
+### Hi Jason,  
+Done on the contact page
+
+:::  
+:::  
 ::: bad  
-![Figure: Bad example - the client cannot see any detail of what was done](NotifyCodeChangesBad.gif)  
+Figure: Bad Example - "Done" email lacks details
 :::
 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Jason |
+| Subject: | RE: Northwind - Include one more field to the form |  
+::: email-content  
+
+### Hi Jason,  
+Done - added "State" field to the contact form - <u>northwind&#46;com/contact</u>
+
+  ![Figure: New "State" field added](good-done-example-form.png)  
+
+\[Insert code changes\]
+
+:::  
+:::  
 ::: good  
-![Figure: Good example - the client can see the image + the code changes highlighted in yellow](NotifyCodeChanges.gif)  
+Figure: Good Example - "Done" email has a link, a screenshot, and code changes
 :::
 
-### Tip 1: Include the URL 
+### Tips
 
-If you are using TFS, you can also include a URL to the work item in TSWA.
-
-### Tip 2: Include a .diff file
-
-You can include the code as an attached text file.
-
-::: good  
-![Figure: Good example - this is a Text file with a .diff extension that includes the code change from TFS. If opened using NotePad2, the client can view the code changes with green and red color (added and deleted code).](NotePad2DiffFiles.gif)  
-:::
-
-### Tip 3: Force association between the code and the requirement 
-
-For those developers lucky enough to be using Microsoft Team Foundation Server (TFS 2005, 2008 or 2010) you can associate your code changes with a work item. This means that future developers can work out not just \*what\* changed, but \*why\*. 
-For those using TFS, enable the Checkin policy and force all developers to associate every check-in with a work item.
-
-::: good  
-![Figure: Make developers associate all check-ins to a work items](SourceControl\_AssociateWorkItems1.gif)  
-:::
-
-::: good  
-![Figure: Enable the Check-in Policy (via Project | Team Project Settings | Source Control | Add)](SourceControl\_AssociateWorkItems2.gif)
-:::
+- Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
+- On browser screenshots, make sure you include the top-left area - so you can see the URL and what browser it is. E.g. Chrome or Edge.  
+- If you are using Azure DevOps or GitHub, you should also include a URL to the work item.
+- Include a [.diff file](https://www.diffchecker.com/) for greater code/text changes.
