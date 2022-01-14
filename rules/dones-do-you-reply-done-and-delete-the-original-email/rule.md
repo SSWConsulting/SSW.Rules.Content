@@ -161,11 +161,6 @@ Not Done - I couldn’t find a camera.
 ::: good
 Figure: Good Example – It is very clear which tasks have been done and which haven’t. Quoting the original task is only necessary when some tasks are done and some are not see [Do you use indentation for readability?](https://www.ssw.com.au/rules/do-you-use-indentation-for-readability)
 
-# Do you use indentation for readability?
-
-\
-:::
-
 ::: greybox
 **Extra:** 
 
