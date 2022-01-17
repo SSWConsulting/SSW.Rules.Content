@@ -44,7 +44,8 @@ Missing out on an award can suck. What should you do?
 
 * **Ask questions** - Finding out the reasons for decisions will help you understand why it happened. That knowledge will be valuable to you in the future.
 * **Speak up** - If you feel things are unfair make it known tactfully. If it is bothering you, the longer you wait, the worse it becomes. Speaking up will give the person making the decision a chance to explain or rectify the issue.
-* **Be reasonable** - Everybody has their day of sunshine. Even if it doesn't totally make sense to you. It would be awesome if you can be genuine and privately send a congrats or even better do it publicly.
+* **Be reasonable** - Everybody has their day of sunshine. Even if it doesn't totally make sense to you. It would be awesome if you can be genuine and privately send a congrats or even better do it publicly.  
+  > "Always clap for your friends, even if their dreams come true before yours."
 
 `youtube: https://www.youtube.com/embed/meiU6TxysCg`
 **Video: Two Monkeys Were Paid Unequally: Excerpt from Frans de Waal's TED Talk**
