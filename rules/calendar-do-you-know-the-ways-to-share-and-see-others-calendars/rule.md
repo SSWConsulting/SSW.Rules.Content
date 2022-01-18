@@ -41,16 +41,3 @@ This can keep track of important things like client work and leave. See [Schedul
 ![Figure: Appointments in Dynamics 365](dynamics-appointments.png)
 
 **Note:** This will only show appointments that have been tracked in CRM.
-
-### Option 3: Using SharePoint's calendars - See a team's calendar
-
-You can also create a calendar in SharePoint which will be shared with the team on that SharePoint site. By sharing a calendar using SharePoint, new developers who have just joined the team can immediately look at the project's events (e.g. Daily Scrum meeting).
-
-In this scenario, the scrum master of "SSWSugarLearning" wants to share the calendar called "Team Calendar" with his team.
-
-To share a team calendar, you just need to give the calendar URL to the person in your team.
-E.g. https://sswcom.sharepoint.com/sites/SSWSugarLearning391/Lists/Team%20Calendar/calendar.aspx
-
-**Tip:** You can also connect the SharePoint calendar to your Outlook. Here's how to do that:
-
-![Figure: In SharePoint 2016: On the "Calendar" tab, click "Connect to Outlook" to show the calendar in your Outlook account](sharepoint-sharing-calendar - using outlook.png)
