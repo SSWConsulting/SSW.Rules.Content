@@ -24,7 +24,7 @@ While working in a team, there are three ways of seeing others' or team calendar
 
 <!--endintro-->
 
-### Option 1: Using Outlook Calendar Permissions - See a person's calendar
+### Option 1: Using Outlook Calendar Permissions - See a person's calendar (Recommended)
 
 You can share your Outlook calendar with another person or a group in Outlook. This option is useful when you want to share your personal calendar with others.
 
@@ -32,16 +32,13 @@ See [Calendar Permissions - Do you share your calendars?](https://www.ssw.com.au
 
 ![Figure: The Outlook calendar](outlook-calendar-example.png)
 
-### Option 2: Using the Dynamics 365 CRM Service Calendar - See everyone's calendar
+### Option 2: Using Dynamics 365 CRM Appointments - See everyone's tracked appointments
 
-When you want to see what's your colleague is doing, you can use the CRM Service Calendar.
+If you do not have access to someone’s calendar, you can see their tracked appointments in Dynamics 365 | Appointments.  
 
 This can keep track of important things like client work and leave. See [Scheduling - Do you know how to book developers for a project?](/scheduling-do-you-know-how-to-book-developers-for-a-project) on how to add a booking to CRM Service Calendar.
 
-**Note:** The CRM Service Calendar is deprecated; Microsoft are now moving to Dynamics Universal Resource Scheduling 
-
-![](ServiceCalendar.png)
-Figure: The CRM Service Calendar shows everyone's booked in client work and leave
+![Figure: Appointments in Dynamics 365](dynamics-appointments.png)
 
 **Note:** This will only show appointments that have been tracked in CRM.
 
