@@ -33,11 +33,12 @@ The best way to deal with situations like this is by knowing:
 7. **Understand intentions** - Try to see yourself in others shoes.  
    Understand that people don't want to be unfair. It is common to assume the wrong stuff.
 8. **Be the 'squeaky wheel'**
-   > A squeaky wheel gets the most oil.
+   > "A squeaky wheel gets the most oil."
 
    Ask questions... you will understand even better friends or bosses know this is a topic you have interest... so they'll give you extra information. 
 9. **Have attainable ambition** - Expectations to be realistic enough to push you, not so much that it makes you unhappy.  
    Overly ambitious people are often unhappy... they never get there... never rich or successful enough... 
-10. **Celebrate other people's wins** - Be at a place where you are pushing each other up rather than climbing over each other. Everybody gets their days of sunshine. When others achieve a goal, be happy for them, send a nice message, 'like' their posts, etc.
+10. **Celebrate other people's wins** - Be at a place where you are pushing each other up rather than climbing over each other. Everybody gets their days of sunshine. When others achieve a goal, be happy for them, send a nice message, 'like' their posts, etc.  
+   > "Always clap for your friends, even if their dreams come true before yours."
 
 Do the above and you can have a culture of helping yourself and helping others.
