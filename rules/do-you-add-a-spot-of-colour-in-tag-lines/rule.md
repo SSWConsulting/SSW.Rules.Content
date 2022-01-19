@@ -7,12 +7,20 @@ authors:
 created: 2022-01-19T08:12:12.138Z
 guid: 94dbbef5-a1ac-4369-8955-45152590f1f4
 ---
-Instructions for creating rules can be found at [How to Create Rules](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules). Follow the steps below and replace the text in this box with your own content.
-            
-1. Place your intro here. This will show in the blurb.
-            
+For most SSW websites and products, we use Red for the important word to create emphasis. 
+
 <!--endintro-->
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+Make parts of the text different colors just like you’d highlight or boldface parts of a sentence. The duo colored text will help emphasize your message. Whenever possible use the brand colors when you do this, for SSW which is the Red: #CC4141 | RGB (204,65,65). 
+
+::: good  
+![Figure: Good example – The TV signage has the important word in red](sswtv-signage.jpg)
+:::
+
+::: good  
+![Figure: See bottom tag line - I would not have that text with the important word “quality software” in red … because you already have read](quality-software-tagline.png)
+:::
+
+::: good
+![Figure: Chewing the Fat bottom text – is this as per any standard. No Red word because it is the title.](chewing-fat-bottom-text.png)
+:::
