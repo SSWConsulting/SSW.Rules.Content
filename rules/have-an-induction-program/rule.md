@@ -22,19 +22,19 @@ When someone joins a company, it is a stressful event... they have to remember p
 
 New employees often get inconsistently onboarded depending on who they got their initial information from. 
 
-An induction system is a way to solve these problems. SSW uses and recommends is **[SugarLearning.com](https://www.sugarlearning.com/)**. \
+An induction system is a way to solve these problems. SSW uses and recommends  **[SugarLearning.com](https://www.sugarlearning.com/)**. \
 \
 What SugarLearning does is aggregate your learning items into the one space to make it easy for you to complete your induction. Once you've done your reading, the follow-up quizzes help you confirm what you have learned.
 
-It's also a great continuous learning tool that shows employees where to find relevant information and also tests their knowledge. It especially useful when a process changes, as a learning item can be invalidated and all employees informed to complete a new process. 
+It's also a great continuous learning tool that shows employees where to find relevant information and also tests their knowledge. It's especially useful when a process changes, as a learning item can be invalidated and all employees informed to complete a new process. 
 
 Certain jobs have a module and completing them gives each employee a license to do that job.
 
 ### What's what?
 
-> **SugarLearning** is an induction program for things you must complete before start working… E.g. Before you do a Spec Review, you must have done the Module - Spec Review. It’s like getting your license.\
+> **SugarLearning** is an induction program for things you must complete before starting work… E.g. Before you do a Spec Review, you must have done the Module - Spec Review. It’s like getting your license.\
 > \
-> The **Intranet** is the location of all information, standards and "how-tos" that must be private. In some project we have specific **Wikis** for those too.\
+> The **Intranet** is the location of all information, standards and "how-tos" that must be private. In some projects we have specific **Wikis** for those too.\
 > \
 > **Rules** is where we kept all information, standards and "how-tos" that can be public.
 >

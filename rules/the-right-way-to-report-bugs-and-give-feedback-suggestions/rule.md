@@ -17,9 +17,7 @@ redirects:
 created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
-
 ---
-
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
 
 This will save the both you and the developer time and frustration in the long run. 
@@ -34,9 +32,9 @@ For **suggested features** it is best to:
 
 1. Draft your suggestion
 2. Call the Product Owner sharing screens, then add [“checked by XXX”](/checked-by-xxx)
-3. When using a backlog, create an Issue/PBI and [@mention relevant people](/when-you-use-mentions-in-a-pbi) (they should get an email)
+3. When using a backlog, create an Issue/PBI and [@mention relevant people](/when-you-use-mentions-in-a-pbi) (GitHub and Azure DevOps will generate a nicely formatted email)
 
-   If there is no backlog and an automatic nicely formatted email, you may send all the text and details via a normal email
+   If there is no backlog (and subsequent automatic email), send an email
 
 Try to have one issue/PBI/email per bug/suggestion, but if the bugs/suggestions are related or very small, then you may group them together in a single email.
 
@@ -53,7 +51,7 @@ I'm having a problem with your PerformancePro software. When I run it, it says s
 
 Can you tell how to fix this? 
 
-Thanks,  
+Thanks,\
 Susan
 
 :::
@@ -83,7 +81,7 @@ I have the latest version of all my software. I am running Windows 10 and Office
 
 Can you please investigate and let me know how to proceed?
 
-Thanks,  
+Thanks,\
 Susan
 
 :::
@@ -139,7 +137,7 @@ I've searched the SSW website and can't find a link to SSW TV.
 9. Me, thinking... "OK. Now where? Most likely, the SSW company description will list it..." Navigates to About Us... scrolling down... Nothing.
 10. Me, thinking... "OK. Weird. Let's go back." Me, goes back to homepage.
 11. Me, thinking... "Is there a site map?" Scrolls to bottom of page. Clicks sitemap link. Nope.
-14. Me, thinking... "Ctrl+F for TV? Nope."
+12. Me, thinking... "Ctrl+F for TV? Nope."
 
 ### Expected result
 

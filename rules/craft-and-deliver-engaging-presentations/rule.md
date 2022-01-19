@@ -46,6 +46,7 @@ Giving a live presentation in front of an audience can be daunting, whether onli
 ![](picture3.jpg)
 
 ### Mistakes happen and that's OK!
+
 Even the most practiced presenters will slip up, but what separates professionals from amateurs is how you deal with it.
 
 Time seems to slow down under pressure situations, but only for you!  It doesn’t matter if you take a few moments to figure out the problem, your audience won’t be phased at all, just give them respect and ask them for patience and it will be granted automatically.  
@@ -76,7 +77,7 @@ Scott Hanselman, a very well-known Microsoft public speaker, gave these tips in 
 
    * When you're walking, they’ll look at you.
    * When you stop and turn, they’ll look at the slides
-5. Stay focussed on topic. Don’t just ramble on
+5. Stay focused on the topic. Don’t just ramble on
 6. Put yourself in the audiences shoes
 
    * Can they see and hear you?

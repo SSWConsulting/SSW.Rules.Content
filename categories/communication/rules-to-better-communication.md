@@ -6,11 +6,13 @@ uri: rules-to-better-communication
 index:
 - the-best-chat-tools-for-your-employees
 - do-you-have-successful-remote-meetings
-- do-you-always-call-first-before-emailing
+- call-first-before-emailing
 - how-to-share-a-file-folder-in-sharepoint
 - asking-questions
 - do-you-know-you-should-write-notes-when-an-activity-is-going
 - loop-someone-in
+- speak-up
+- the-happiness-equation
 
 ---
 

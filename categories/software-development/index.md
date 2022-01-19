@@ -54,6 +54,8 @@ index:
 - rules-to-better-sql-databases-developers
 - rules-to-better-unit-tests
 - rules-to-better-naming-conventions
+- rules-to-better-entity-framework
+- rules-to-better-linq
 
 ---
 
