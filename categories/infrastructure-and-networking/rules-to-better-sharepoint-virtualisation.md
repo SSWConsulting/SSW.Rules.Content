@@ -9,7 +9,7 @@ index:
 - how-do-i-create-my-own-sharepoint-vm-to-play-with
 - how-do-i-update-and-create-a-new-version-of-the-sysprep-vm
 - what-are-the-different-images-available
-- why-do-we-use-vm-for-sharepoint-development
+- do-you-use-the-right-sharepoint-development-environment
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
