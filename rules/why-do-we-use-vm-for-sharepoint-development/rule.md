@@ -27,7 +27,7 @@ Development for SharePoint is very different depending upon whether you are onli
 4. Virtual machines can be relocated on a different server and thus it doesn't waste developers' own computer resources
 5. Virtual machines can be copied and brought to a client for demostration.
 6. Very easy for someone to quickly create a new SharePoint server to quickly test or experiment with SharePoint.
-7. Bad: There might be more work required to activate additional servers.
+7. Bad: There might be more work required to activate additional servers. SharePoint Farms are a lot of work eg. Search Server VMs
 
 ###For SharePoint Online 
 Use VSCode – all modern customizations are doing using the SharePoint Framework (SPFx)
