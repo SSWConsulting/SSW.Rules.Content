@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Why do we use VM for SharePoint development?
+title: Do you use the right SharePoint development environment?
 guid: 3af8b6aa-2559-45aa-a7ab-6a30bebd0866
-uri: why-do-we-use-vm-for-sharepoint-development
+uri: do-you-use-the-right-sharepoint-development-environment
 created: 2009-02-26T02:03:30.0000000Z
 authors:
 - title: Adam Cogan
