@@ -23,6 +23,10 @@ Here is a good saying to remember: "It is very important I complete my sprint. 
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/QbPkcfzi2HI?rel=0`
+
+**Video: What is a Scrum Master?**
+
 Any requests for work or distractions outside the scope of the project that take more than 15 minutes must be declined politely and the distraction notified to the Scrum Master, or, if the request comes from the Product Owner, it can be added as a new PBI as described in   [https://rules.ssw.com.au/are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)](/are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint)
 
 The only exceptions, where a Team Member can start the work before notifying the Scrum Master are:
@@ -31,11 +35,12 @@ The only exceptions, where a Team Member can start the work before notifying t
 * A client request for work when the Team Member is working on an internal project
 * Test please requests, if the total time taken from the Sprint for all Test Please requests is less than 8 hours
 
-
 In these 3 exceptional cases only, even if the Team Member doesn't get a response from the Scrum Master, the requestor can insist that the member starts the other work immediately.
 
-`youtube: https://www.youtube.com/embed/QbPkcfzi2HI?rel=0`
+::: info
+Details on promises: see the rule [“Do you understand the implied contract (promises) between Members of the Scrum Team?”](/reports-do-you-understand-the-implied-contract-promises-between-members-of-the-scrum-team)
+:::
 
+`youtube: https://www.youtube.com/embed/oFjbJP2KiFQ`
 
-
-For details on promises, see the rule     [“Do you understand the implied contract (promises) between Members of the Scrum Team?”](/reports-do-you-understand-the-implied-contract-promises-between-members-of-the-scrum-team)
+**Video: Richard Hundhausen’s advice to Scrum Masters**
