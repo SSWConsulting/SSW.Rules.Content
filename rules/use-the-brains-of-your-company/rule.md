@@ -110,7 +110,7 @@ On the day, follow the agenda set out in your attendee email:
 * 1pm: Give the attendees a break for lunch.
 * 4pm: Attendees come back in, and each group takes turns presenting their work to the rest of the attendees.
 
-**NOTE** : The top voted suggestion may not be technical, and the prototype or proof of concept doesn't have to be a technical solution. It coud very well be a protoype applciation or website, but equally could be a new business process or a video.
+**NOTE** : The top voted suggestion may not be technical, and the prototype or proof of concept doesn't have to be a technical solution. It could very well be a protoype application or website, but equally could be a new business process or a video.
 
 ::: good\
 ![Good Example: A brainstorming session is like an office party but more productive](MicrosoftTeams-image.png)\
