@@ -77,10 +77,10 @@ See video on:     [https://rules.ssw.com.au/do-you-use-the-brains-of-your-compan
 
 **4pm** - Presentations
 
-**6pm** – The pub
-:::
-::: good
-Good Example: Email template for brainstorming attendees
+**6pm** – The pub  
+:::  
+::: good  
+Good Example: Email template for brainstorming attendees  
 :::  
 
 **2. Setup Trello**\
@@ -119,14 +119,14 @@ On the day, follow the agenda set out in your attendee email:
 
 **NOTE** : The top voted suggestion may not be technical, and the prototype or proof of concept doesn't have to be a technical solution. It coud very well be a protoype applciation or website, but equally could be a new business process or a video.
 
-::: good
-![Good Example: A brainstorming session is like an office party but more productive](MicrosoftTeams-image.png)
+::: good  
+![Good Example: A brainstorming session is like an office party but more productive](MicrosoftTeams-image.png)  
 :::
 
-::: good
-![Good Example: A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session](2019-12-07_16-06-18.png)
+::: good  
+![Good Example: A Trello board with the voting power-up allows people to suggest and vote on ideas they would like to work on in the brainstorming session](2019-12-07_16-06-18.png)  
 :::
 
-::: good
-![Good Example: The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!](2019-12-07_16-26-04.png)
+::: good  
+![Good Example: The selected ideas are moved from the Vote column to the Chosen column and the real fun begins!](2019-12-07_16-26-04.png)  
 :::
