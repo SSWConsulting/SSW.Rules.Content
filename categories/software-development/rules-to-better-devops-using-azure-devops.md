@@ -9,6 +9,7 @@ index:
 - things-to-automate-stage-2
 - what-metrics-to-collect-stage-3
 - continually-improve-processes
+- do-you-know-the-best-free-resources-for-learning-devops
 
 ---
 
