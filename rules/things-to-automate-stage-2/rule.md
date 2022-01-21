@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason:
 title: 'DevOps – Stage 2: Do you know what things to automate?'
 guid: d085d2df-1a2d-4f77-81b9-21a52b419c53
 uri: things-to-automate-stage-2
@@ -17,10 +17,12 @@ redirects:
 
 ---
 
-Once you’ve identified the manual processes in [Stage 1](/things-to-measure), you can start looking at automation. The best tool for build and release automation is Azure DevOps.
+Once you’ve identified the manual processes in [Stage 1](/things-to-measure), you can start looking at automation. The two best tools for build and release automation are Github (public projects) and Azure DevOps (private projects).
 
 <!--endintro-->
 
 See [Rules to Better Continuous Deployments with TFS](/rules-to-better-continuous-deployment-with-tfs).
 
 ![Figure: In Azure DevOps you can automate application deployment to a staging environment and automatically run tests before deploying to production](2020-03-23\_14-08-39.jpg)
+
+![Figure: In GitHub actions you can automate application deployment to a multiple environments and automatically run tests before deploying to production](2022-01-21\_11-35-00.jpg)
