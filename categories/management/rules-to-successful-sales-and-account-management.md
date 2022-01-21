@@ -7,7 +7,7 @@ index:
 - do-you-know-the-6-stages-in-the-sales-pipeline
 - do-you-realize-the-value-of-your-existing-clients
 - do-you-manage-your-inbound-leads-effectively
-- know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
+- know-the-non-scrum-roles
 - do-you-perform-a-background-check
 - do-you-have-clear-engagement-models
 - how-to-justify-your-rates
@@ -15,7 +15,7 @@ index:
 - meetings-do-you-know-the-agenda-for-the-initial-meeting
 - meetings-do-you-have-a-debrief-after-an-initial-meeting
 - do-you-incentivize-a-quick-spec-review-sale
-- do-you-schedule-a-followup-meeting-after-a-spec-review1
+- do-you-schedule-a-followup-meeting-after-a-spec-review
 - do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
 - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
 - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
@@ -35,7 +35,8 @@ index:
 - do-you-follow-up-course-attendees-for-consulting-work
 - do-you-review-your-team-are-giving-client-love-to-your-customer-every-friday
 - do-you-know-who-are-the-most-appropriate-resources-for-a-project
-- do-you-know-what-to-do-when-asked-to-sign-an-nda
+- make-sure-devs-are-comfortable-with-their-assignments
+- nda-gotchas
 - do-you-make-sure-your-developers-get-to-see-each-other-regularly
 - do-you-manage-requests-for-event-refunds-effectively
 - do-you-provide-a-high-level-project-progress-report-for-clients
@@ -53,11 +54,13 @@ index:
 - fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
 - the-outcomes-from-your-initial-meeting
 - scheduling-do-you-know-how-to-book-developers-for-a-project
-- the-outcomes-from-your-initial-meeting
+- do-you-know-in-what-currency-to-quote-overseas
+- reward-your-developers
 
 ---
+
 You can have the best developers in the world, but if you haven't got a good sales process, no-one will ever use them. It's up to the Sales Manager to get this right.
 
 Once you've got the job, software projects are delicate activities and the client needs love. It's up to the Account Managers to keep everyone on the same page, especially if there is no Scrum Master.
 
-The Account Manager is responsible for invoicing, resource management (booking developers) and conflict resolution. Here are SSW's rules for better Sales and Account Management.
+The Account Manager is responsible for invoicing, resource management (booking developers) and conflict resolution.

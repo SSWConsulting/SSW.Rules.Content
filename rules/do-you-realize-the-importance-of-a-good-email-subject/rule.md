@@ -1,21 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you realize the importance of a good email Subject?
-guid: 5f1e85d7-f385-4d3b-8338-d49fe11eab91
 uri: do-you-realize-the-importance-of-a-good-email-subject
-created: 2009-03-24T04:41:35.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-related: 
-- do-you-complete-work-in-order-of-importance-aka-priorities
-- appointments-do-you-show-all-the-necessary-information-in-the-subject
-- scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings
-- do-you-know-when-you-should-change-a-subject
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+related:
+  - do-you-complete-work-in-order-of-importance-aka-priorities
+  - appointments-do-you-show-all-the-necessary-information-in-the-subject
+  - scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings
+  - do-you-know-when-you-should-change-a-subject
 redirects: []
+created: 2009-03-24T04:41:35.000Z
+archivedreason: null
+guid: 5f1e85d7-f385-4d3b-8338-d49fe11eab91
 
 ---
 
@@ -42,35 +42,43 @@ If there's anything to be learned from spammers, they know how to get your atten
 
 Always use a descriptive email subject to make it easier to find later
 
-Consulting:
-::: greybox
-Subject: **Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
-:::
+- Consulting:
 
-Dinner:
-::: greybox
-Subject: **Dinner Tonight, 6.30PM at The Oaks**
-::: greybox
+  ::: greybox
+  Subject: **Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
+  :::
 
-Bugs:
-::: greybox
-Subject: **BUG - Northwind form - Button not working**
-:::
+- Dinner:
 
-Call someone:
-::: greybox
-Subject: **SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
-:::
+  ::: greybox
+  Subject: **Dinner Tonight, 6.30PM at The Oaks**
+  :::
 
-Feedback on a product:
-::: greybox
-Subject: **Northwind app - User Interface feedback**
-:::
+- Bugs:
 
-Test please (see [test please rule](/request-a-test-please)):
-::: greybox
-Subject: **Test Please - Product Name v1.11 **
-:::
+  ::: greybox
+  Subject: **BUG - Northwind form - Button not working**
+  :::
+
+- Call someone:
+
+  ::: greybox
+  Subject: **SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
+  :::
+
+- Feedback on a product:
+
+  ::: greybox
+  Subject: **Northwind app - User Interface feedback**
+  :::
+
+- [Test please](/request-a-test-please):
+
+  ::: greybox
+  Subject: **Test Please - Product Name v1.11**
+  :::
+  
+---
 
 Of course, we also use a structured approach for emails - especially when sending them internally.
 
@@ -110,9 +118,7 @@ Other words to be used are:
 * Product name - Registered User Support
 * Product name - Pre-Sales Support
 * Project name
-* Client Name
-
-::: greybox
+* Client name
 
 ::: info
 **Remember:** For external emails, it is acceptable to [change an email subject](/do-you-know-when-you-should-change-a-subject) in certain circumstances.

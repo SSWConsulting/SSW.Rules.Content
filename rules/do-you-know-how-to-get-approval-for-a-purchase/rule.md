@@ -8,7 +8,8 @@ created: 2015-03-26T01:25:30.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related: 
+- do-you-manage-up
 redirects:
 - office-environment-do-you-know-how-to-get-approval-for-a-purchase
 
@@ -32,20 +33,10 @@ Let's have a look at the best way to get authorization:
     * If this is for a client, include the Client ID/name
     * If it is for a client, include if it is to be on-charged (E.g. please invoice - add 20%)
 
- 
-
 ::: bad  
 ![Figure: Bad Example - this expense will not be reimbursed](purchase-please-bad-example.jpg)  
 :::
- 
 
 ::: good  
 ![Figure: Good Example - this expense will be reimbursed, if David gets a reply from Adam](purchase-please-good-example.jpg)  
 :::
-
-### Related Rule 
-
-
-
-
-* [Do you manage up? (give a recommendation)](/do-you-manage-up)

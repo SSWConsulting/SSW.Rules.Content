@@ -19,11 +19,22 @@ The easy thing is to just quote the price in your local currency. Go the extra s
 
 If you are not sure what currency to use, just use US Dollars, which is the international currency.
 
-
-
 <!--endintro-->
 
 Of course, if you are dealing with somebody regularly, then you should know their preferred currency.
 
 E.g. Chinese company billing someone in Brazil:
-Our price is CNY 1,000Figure: Bad example - the client will need to convert itOur price is CNY 1,000 (about USD $160)Figure: Good example - USD gives a clear understanding of the costs
+
+::: greybox
+Our price is CNY 1,000
+:::
+::: bad
+Figure: Bad example - the client will need to convert it
+:::
+
+::: greybox
+Our price is CNY 1,000 (about USD $160)
+:::
+::: good
+Figure: Good example - USD gives a clear understanding of the costs
+:::

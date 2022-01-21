@@ -19,11 +19,9 @@ redirects:
 
 ---
 
-When most people say they'll do something, they really mean they'll  **try** to do it, and they don't really worry too much whether they are successful or not, so long as they gave their best effort.
-
+When most people say they'll do something, they really mean they'll **try** to do it, and they don't really worry too much whether they are successful or not, so long as they gave their best effort.
 
 `youtube: https://www.youtube.com/embed/aVgnaAOwBXk`
-
 
 This has a hidden cost, since if you commit to someone and fail repeatedly, even though they may know you're doing your best, they will nevertheless lose trust in your integrity, and the next time you commit, they will not really believe that you will follow through.
 
@@ -48,15 +46,15 @@ Figure: Good Example - Jim has great professional integrity. 
 The word “integrity” can be loaded with ethical connotations, but in this context, professional integrity means:
 
 1. **Be true to your word**
-  - This means doing what you say you’ll do, by the time you say you’ll do it
-
+   - This means doing what you say you’ll do, by the time you say you’ll do it
+    
 ::: greybox
 "I'll send that email to you by 5pm"
 :::
 
 2. **If you can’t deliver on your promise, communicate a plan for a path forward**
-  - If it looks like you won't be able to get the agreed task done by the deadline, tell the person why and set a new deadline, or agree on a different deliverable.
-  - Never leave others guessing
+   - If it looks like you won't be able to get the agreed task done by the deadline, tell the person why and set a new deadline, or agree on a different deliverable.
+   - Never leave others guessing
 
 ::: greybox
 (at 5:30pm) "Here's the email, sorry it's late"
@@ -73,7 +71,7 @@ Figure: Good Example - Getting ahead of the deadline and making a new commitmen
 :::
 
 3. **If you break your word, acknowledge it, and work out a way to repair your integrity**
-  - If the deadline passes and you didn't do the above, recognize the fault and propose a plan for how to do better next time
+   - If the deadline passes and you didn't do the above, recognize the fault and propose a plan for how to do better next time
 
 ::: greybox
 "I'm sorry I didn't get that sent over yesterday. A client had an emergency and I had to jump on it. Next time I'll let you know if something like that happens. I'm confident I can get it done by 5pm today.
@@ -82,7 +80,7 @@ Figure: Good Example - Getting ahead of the deadline and making a new commitmen
 Figure: Good example - Acknowledging an improvement for next time
 :::
 
-### Examples of good Professional Integrity
+### Examples of good professional integrity
 - Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
   - A good measure of your Professional Integrity is how well your day resembles your calendar
 - Inform people of any potential delays
@@ -90,11 +88,11 @@ Figure: Good example - Acknowledging an improvement for next time
 - TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome
 - When they make a mistake, they proactively address it, and don't wait to be called out
 
-### People who have Professional Integrity:
+### Attributes of people who have professional integrity  
 - Always take full ownership of any task given to them
 - Inspire trust in co-workers and managers
 - Hold themselves to a high professional standard
 
-### Managers with employees who have Professional Integrity:
+### Managers' fellings about employees who have professional integrity
 - Trust their employees
 - Are comfortable delegating more important work

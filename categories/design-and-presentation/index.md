@@ -10,8 +10,8 @@ index:
 - rules-to-better-interfaces-reports-charts-and-dates
 - rules-to-better-interfaces-windows-applications
 - rules-to-better-interfaces-wizards
-- rules-to-better-video-recording
 - rules-to-better-interfaces-mobile
+- rules-to-better-designers
 - rules-to-better-logos
 
 ---

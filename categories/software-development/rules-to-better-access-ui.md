@@ -9,8 +9,10 @@ index:
 - use-appropriate-and-user-friendly-icons
 - use-clean-designs-when-creating-forms
 - use-ok-cancel-buttons
+- make-response-screens
 
 ---
+
 When designing their UI, Access developers often make these common mistakes:
 
 * Non-standard fonts - for example, making fonts bold or using different fonts on the same form
@@ -18,9 +20,4 @@ When designing their UI, Access developers often make these common mistakes:
 * No standard OK/Cancel button pair - it's always a good idea to do as Windows does because users are familiar with Windows dialogs. "Save" and "Cancel" are non-standard, for example.
 * Lots of different forms - having a separate form for every block of data that needs to be entered can become a confusing and tedious process.
 
-
-
 With the new breed of icons, themes and form layouts, you will try and steer away from the old Access look. Aim for a cleaner, less cluttered, and quicker to navigate look. With just a little time you can fix up your Access forms. Try these tips and see how you can transform even an Access Application!
-
-Do you agree with them all? Are we missing some? Email us your tips, thoughts or arguments. Let us know what you think.
-

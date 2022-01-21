@@ -21,12 +21,11 @@ redirects:
 
 ---
 
-Before you look at Negative keywords, make sure you cover the essential steps of optimising Google Adword campaigns - Check out this rule:
-[\[SSW Rules\] SEM - Do you know how to optimize Google Ads campaigns?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=5410d39d-233a-43f3-8c8a-99d8364d7ae2)
+Before you look at Negative keywords, make sure you cover [the essential steps of optimising Google Adword campaigns](/how-to-optimize-google-ads-campaigns).
 
-It's important to create specific negative keyword lists depending on your business, you can have lists named “cheap" or “career" related. Or you can also have a global, that would be applied to all of your campaigns ( **recommended** )
+It's important to create specific negative keyword lists depending on your business, you can have lists named “cheap" or “career" related. Or you can also have a global, that would be applied to all of your campaigns (**recommended**)
 
-Any unrelated search terms that takes people to your website costs you money. Maintaining this regularly  **can save you a lot of $$$** in the long run and be used on essential keywords that bring in business.
+Any unrelated search terms that takes people to your website costs you money. Maintaining this regularly **can save you a lot of $$$** in the long run and be used on essential keywords that bring in business.
 
 Now to do so, click on: “Tools" on top right |on “Shared Library", click on Negative keyword lists.
 
@@ -36,10 +35,6 @@ Then create the title and add the keywords you think that might help you either 
 
 ![Figure: organize your negative keywords lists](google-ads-organize-negative-keywords.jpg)  
 
-We recommend: 
+Once a week, check all Search Terms and review recommendations:
 
-<dd>Once a week, check all Search Terms and review recommendations 
-</dd><dd>Go to Ads.google.com | Keywords | Search Terms
-Add junk terms to the Negative keyword list.
-Go through other recommendations 
-</dd>
+Go to **Ads.google.com | Keywords | Search Terms**, and add junk terms to the negative keyword list. Then go through all other recommendations.

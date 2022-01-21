@@ -20,13 +20,6 @@ jobs:
       shell: pwsh
       run: |
         pwsh ./.workflow/cancelPreviousBuilds.ps1
-        
-    - name: 'Trigger Staging'
-      uses: Azure/pipelines@releases/v1
-      with:
-        azure-devops-project-url: 'https://ssw.visualstudio.com/SSW.Rules'
-        azure-pipeline-name: 'Staging' 
-        azure-devops-token: '${{ secrets.AZURE_DEVOPS_TOKEN }}'
 
     - name: Trigger Production
       run: |

@@ -45,7 +45,7 @@ Here are the best collection of resources for Angular.
 
 ### Books
 
-* **[Little Book of Angular](/SiteCollectionDocuments/The-Little-Book-of-Angular-v1-8.pdf)**
+* **[Little Book of Angular](Little-Book-Angular.pdf)**
 * **[The ng-book](https://www.ng-book.com/2/)**
 
 

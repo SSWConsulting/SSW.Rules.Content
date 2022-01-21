@@ -24,19 +24,25 @@ index:
 - use-default-zone-url-in-search-content-source
 - sharepoint-online-do-you-get-rid-of-classic-features
 - review-your-intranet-for-classic-pages
+- search-employee-skills
+- sharepoint-removing-orphaned-users
+- sharepoint-flat-hierarchy
 
 ---
+
 Organizations are extremely good at accumulating data. Mostly in the form of documents and records, this data is often haphazardly located across the organization, and poorly integrated into document processes.
 
 SharePoint is the best organization tool to improve this situation by storing all documents & records in a centralized system. SharePoint stores every version of a document, allows you to enforce information management policies and improves efficiency by automating common business processes. Here you will find many rules for a better experience with SharePoint.
 
-If you still need help, [visit our SharePoint consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
+If you still need help, [visit our SharePoint consulting page](https://www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
 
 **Other SharePoint Rules:**
 
-1. [Rules to Better SharePoint Development](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=b08818c1-254a-4593-889e-41338b9c52cb)
-2. [Rules to Better SharePoint for End Users](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=aa51e478-fbc4-4ba6-9520-9487c89b11f8)
-3. [Rules to Better SharePoint Migration from 2007 to 2010](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=fec125fb-6168-4a52-b0ea-f30d006d8cda)
-4. [Rules to Better SharePoint Migration from 2010 to 2013](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=177d957e-6d2e-4857-9f1b-e38bf1f8f9e5)
-5. [Rules to Better SharePoint Migration from 2013 to 2016](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&amp;TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&amp;TermId=17aad4f9-785b-44be-85dd-784068ac7c1c)
+1. [Rules to Better SharePoint Development](/rules-to-better-sharepoint-for-developers)
+2. [Rules to Better SharePoint for End Users](/rules-to-better-sharepoint-for-end-users)
+3. [Rules to Better SharePoint Migration from 2007 to 2010](/rules-to-better-sharepoint-migration-from-2007-to-2010)
+4. [Rules to Better SharePoint Migration from 2010 to 2013](/rules-to-better-sharepoint-migration-from-2010-to-2013)
+5. [Rules to Better SharePoint Migration from 2013 to 2016](/rules-to-better-sharepoint-migration-from-2013-to-2016)
+6. [Rules to Better SharePoint Migration from 2016 to Online](/rules-to-better-sharepoint-migration-from-2016-to-online)
+7. [Rules to Better SharePoint Virtualisation](/rules-to-better-sharepoint-virtualisation)
 

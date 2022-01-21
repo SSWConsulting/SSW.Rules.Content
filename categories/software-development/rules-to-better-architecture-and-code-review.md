@@ -30,7 +30,7 @@ index:
 - do-you-decide-on-the-level-of-the-verboseness-e-g-ternary-operators
 - do-you-review-the-code-comments
 - do-you-use-the-best-code-analysis-tools
-- do-you-look-for-console-writeline-and-change-it-to-trace-writeline
+- best-trace-logging
 - do-you-look-for-code-coverage
 - do-you-use-the-kent-beck-philosophy
 - the-best-dependency-injection-container
@@ -42,6 +42,7 @@ index:
 - technical-debt
 - do-you-know-to-replace-reflection-with-mef
 - mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
+- microservices
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see. If you need help, visit SSW Consulting Services and book in a consultant.

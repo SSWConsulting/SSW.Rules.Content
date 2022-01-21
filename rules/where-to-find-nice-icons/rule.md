@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/best-libraries-for-icons
 title: Do you know where you can find some nice icons?
 guid: 3ce325da-c724-4915-bd20-82dd98ffe069
 uri: where-to-find-nice-icons

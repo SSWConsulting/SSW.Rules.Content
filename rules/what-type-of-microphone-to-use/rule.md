@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/titus-maclaren
 - title: Raj Dhatt
   url: https://ssw.com.au/people/raj-dhatt
-related: []
+related: 
+- record-a-quick-and-dirty-done-video
 redirects:
 - production-do-you-know-that-shotgun-mics-can-only-do-so-much
 - production-do-you-know-what-type-of-microphone-to-use
@@ -29,17 +30,16 @@ While some modern ones are a little more advanced than normal, they generally of
 
 ### Headset microphone
 
-
 Headsets are handy because they offer combined audio feedback and microphone in one.
- **This is the recommended setup for most people.** 
+**This is the recommended setup for most people.** 
 
 A headset mic offers the advantage of being very close to the source of the audio (your mouth), which is important to consider when recording video.
 
-Some headsets are better than others, we recommend the     [Audio Technica BPHS1’s](https://www.audio-technica.com/en-us/bphs1) like the ‘go-to’ option for really great broadcast-quality audio recordings.
+Some headsets are better than others, we recommend the [Audio Technica BPHS1’s](https://www.audio-technica.com/en-us/bphs1) like the ‘go-to’ option for really great broadcast-quality audio recordings.
 
 ![Figure: Audio Technica BPHS1 ‘aviation-style’ headset](mic-1-audiotechnica.png)  
 
-On the lower end, the     [Logitech H340](https://www.logitech.com/en-au/product/usb-headset-h340) USB headset is a good option.
+On the lower end, the [Logitech H340](https://www.logitech.com/en-au/products/headsets/h340-usb-pc-noise-cancelling-mic.981-000477.html) USB headset is a good option.
 
 ![Figure: Logitech H340 headset](mic-2-logitech.png)  
 
@@ -70,14 +70,10 @@ The benefit of this type of mic is that it is placed on your shirt and close to 
 
 **Warning:** [The cable can look poor on video](https://www.youtube.com/watch?v=3YbAGcB2LgQ&feature=emb_title).
 
-Shotgun microphone
+### Shotgun microphone
 
 Shotgun Microphones are, by definition, built to capture the audio from the source they are directly pointed at. They are designed to cut out audio from other directions. This means that if someone behind the microphone says something, it will likely not be picked up clearly.
 These are traditionally used on film and TV sets and offer among the highest quality recordings.
 
 ![Figure: Shotgun mic](mic-shotgun.jpg)  
 
-### Related Rule
-
-
-Do you know how to record a quick and dirty 'Done Video'?

@@ -6,17 +6,16 @@ uri: rules-to-better-github
 index:
 - enable-pull-requests-to-ensure-code-is-reviewed
 - do-you-know-how-to-name-a-github-repository
+- add-a-description-to-github-repositories
 - do-you-know-how-to-structure-a-project-for-github
 - do-you-know-how-to-use-tags-for-github-issues
 - use-github-topics
 - how-to-view-activity-traffic-and-contributions-of-a-project
 - do-you-know-how-to-write-a-good-pull-request
-- do-you-know-the-correct-license-to-use-for-open-source-software
+- do-you-use-indentation-for-readability
 - do-you-know-to-the-requirements-to-create-a-new-repository
-- discuss-the-backlog
-- sync-your-github-issues-to-azure-devops
 - use-emojis-in-your-commits
-- build-the-backlog
+- turn-emails-into-a-github-issue
 - mention-when-you-make-a-pull-request-or-comment-on-github
 - require-2fa-to-join-organisation
 - restrict-repository-deletion
@@ -25,5 +24,13 @@ index:
 - limit-admin-access
 - set-default-permissions-for-new-repositories
 - do-you-know-how-to-setup-github-notifications
+- github-issue-templates
+- do-you-know-how-to-set-up-github-workflow
 
 ---
+
+[GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
+Here is a series of rules on how to get the most out of GitHub.
+
+Learn more about [Scrum with GitHub](/rules-to-better-scrum-using-github).

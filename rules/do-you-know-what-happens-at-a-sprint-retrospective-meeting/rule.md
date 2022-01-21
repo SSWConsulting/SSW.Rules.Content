@@ -5,8 +5,11 @@ title: Do you know what happens at a Sprint Retrospective Meeting?
 guid: d8ab71ab-506f-49b6-9756-f5e811aa9ab5
 uri: do-you-know-what-happens-at-a-sprint-retrospective-meeting
 created: 2010-05-06T03:18:17.0000000Z
-authors: []
-related: []
+authors: 
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+related: 
+- do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
 redirects: []
 
 ---
@@ -19,14 +22,9 @@ Inspect-and-adapt is a key component of the Scrum framework and the Retro gives 
 
 The Retro is a time-boxed event that focuses around 3 questions:
 
-
 * What went well?
 * What didn't go well?
 * What will we do differently in the next Sprint?
-
-
-
-
 
 The Scrum Master facilitates the meeting and collects issues as they are raised. Once every Scrum Team Member has spoken he facilitates debate on each issue so that team consensus is achieved.  The result should produce an actionable outcome, for example:
 
@@ -35,7 +33,6 @@ The Scrum Master facilitates the meeting and collects issues as they are raised.
 * An adjustment is made at the organisation level
 * An item is added to the Product Backlog
 
-
 To help aid discussion it can be useful for the Scrum Master to prepare items for review by inspecting the Sprint Backlog and statistics such as:
 
 * Velocity
@@ -43,7 +40,6 @@ To help aid discussion it can be useful for the Scrum Master to prepare items fo
 * Code Coverage
 * Number of deployments
 * Number of errors in Application Insights
-
 
 For example the Scrum Master can find PBIs (Product Backlog Items) in the Sprint that were successful / not successful and then facilitate the discussion as to why.
 
@@ -57,11 +53,9 @@ For example the Scrum Master can find PBIs (Product Backlog Items) in the Sprint
 
 Once all issues have been discussed to the satisfaction of The Scrum Team, the meeting concludes.
 
- If the timebox limit is reached, the remaining issues should be recorded and dealt with by the Scrum Master.  Any outstanding issues must be raised at the next Retrospective if they are still relevant.
+If the timebox limit is reached, the remaining issues should be recorded and dealt with by the Scrum Master.  Any outstanding issues must be raised at the next Retrospective if they are still relevant.
 
- The time-box for this meeting is usually as many hours as weeks in the Sprint.
-
-
+The time-box for this meeting is usually as many hours as weeks in the Sprint.
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
@@ -69,6 +63,4 @@ In Scrum, there are 4 meetings in total that you need to know about:
 * [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Update tasks before Daily Scrum Meeting")
 * [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
 * Sprint Retrospective Meeting (Described on this page)
-
-
 :::

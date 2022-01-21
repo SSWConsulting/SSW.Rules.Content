@@ -13,16 +13,23 @@ redirects: []
 
 ---
 
+It is important to refer to your standards when trying to explain a concept. This process ensures you always give the most up to date information and that the documentation gets updated when needed. They will then know where the standard is so they can refer to it later.
+
+<!--endintro-->
+
 When a new programmer on your team needs to get up and running on the SharePoint image you know the right and wrong way to say it.
 
 
 ::: greybox
 Sit with John Liu and he will get you up on our SharePoint image  
 :::
+::: bad
 Bad Example: Explain how to run the SharePoint image
+:::
 
 ::: greybox
 Get the URL to the standard from our intranet, if the standard is unclear, check your changes with John Liu and then make them  
 :::
+::: good
 Good Example: Refer to SharePoint rules
-<!--endintro-->
+:::

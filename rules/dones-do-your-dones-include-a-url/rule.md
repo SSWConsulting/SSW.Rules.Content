@@ -18,11 +18,16 @@ redirects:
 
 ---
 
-Always include the relevant URL to your "Done" emails, like when you make a change to a web page. This way people can check the work that was done.
+Always include the relevant URL to your "Done" emails, like when you make a change to a web page. This way people can check the work that was done. 
 
-If you are using a task tracking system like **Azure DevOps**, **GitHub** or Jira, also include the link to the PBI/issue/task.
+If you are using a task tracking system like **Azure DevOps**, **GitHub**, or Jira, also include the link to the PBI/issue/task.
 
 <!--endintro-->
+
+::: info
+**Tip:** Sometimes it is [important to give context and reasoning](/do-you-add-context-reasoning-to-your-emails) to your 'Done' emails too.
+:::
+
 ::: greybox
 Done 
 :::
@@ -31,17 +36,17 @@ Figure: Bad Example - how can we check the task was done correctly?
 :::
 
 ::: greybox
-Done - jira&#46;ssw&#46;com&#46;au/browse/NET-443  
+Done - northwind&#46;com/about-us  
 :::
 ::: good
-Figure: Good example   
+Figure: Good example - easy to check what was done 
 :::
 
 ::: greybox
-Done - ssw2&#46;visualstudio&#46;com/SSW&#46;SharePoint/\_workitems/edit/43726
+Done - ssw2&#46;visualstudio&#46;com/Northwind/\_workitems/edit/00001 
 :::
 ::: good
-Figure: Good Example - easy to check what was done
+Figure: Good Example - easy to check what was done + includes the context of the task within the Sprint
 :::
 
 **Video:**  [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

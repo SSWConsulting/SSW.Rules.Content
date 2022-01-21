@@ -25,7 +25,7 @@ This rule explains what to install in order to get started creating an Angular p
 The best practice for creating an Angular project and components is to use the [Angular CLI](https://angular.io/cli) (command-line interface).
 
 The Angular CLI is also used in the latest .NET Angular SPA template. 
-Read [Do you know that the ASP.NET Core SPA Template for Angular uses the Angular CLI?](/_layouts/15/FIXUPREDIRECT.ASPX?WebId=3dfc0e07-e23a-4cbb-aac2-e778b71166a2&TermSetId=07da3ddf-0924-4cd2-a6d4-a4809ae20160&TermId=f208f385-9644-42d0-899f-4472c48d6f66)
+Read [Do you know that the ASP.NET Core SPA Template for Angular uses the Angular CLI?](/asp-net-core-spa-template-for-angular-uses-the-angular-cli)
 
 The libraries that are required to get started are:
 
@@ -49,33 +49,21 @@ If you have older versions of Node.js or don't have it installed, please install
 As of Angular 9, you need to be on Node 11+.
 
 
-
 ```
 node -v
 ```
 
-
-
-
 Check that you are running NPM 6+ by running the following from a terminal/console window:
-
-
 
 ```
 npm -v
 ```
 
-
-
 If you have a version of NPM &lt; 6, install the latest version running the following command from a terminal/console window. If you don’t have NPM installed, use the Node.js installer to install NPM.
-
-
 
 ```
 npm install -g npm@latest
 ```
-
-
 
 ### 2. Git 
 
@@ -84,13 +72,9 @@ Install git [https://git-scm.com](https://git-scm.com/)
 
 Check you have git by running the following from a terminal/command window:
 
-
-
 ```
 git --version
 ```
-
-
 
 ### 3. Angular CLI
 Check you have the latest version of the Angular CLI installed globally by running the following command in the terminal/command window.  Check the result against the latest version shown on GitHub here: https://github.com/angular/angular-cli.
@@ -100,27 +84,17 @@ Check you have the latest version of the Angular CLI installed globally by runni
 ng v
 ```
 
-
-
 If you don’t have Angular CLI installed, then run the command below in a terminal/command window to install it.
-
-
 
 ```
 npm install -g @angular/cli
 ```
 
-
-
 If you are not running the latest version, we recommend you run the below commands to update the global version of the Angular CLI.
-
-
 
 ```
 npm install -g @angular/cli@latest
 ```
-
-
 
 Upgrading the global Angular CLI version will not affect the version of the Angular CLI being used by existing local project.  Multiple versions of the Angular CLI can run on the same machine, and the project specific version of Angular CLI will continue to be used by the project until you manually upgrade the project’s local version.
 
@@ -130,12 +104,9 @@ Instructions for upgrading the Angular CLI of an existing project can be found h
 
 ### Getting errors?
 
-
-
-
 If you get node gyp errors, follow instructions here: https://github.com/nodejs/node-gyp
-If you get permission errors, follow instructions here: https://docs.npmjs.com/getting-started/fixing-npm-permissions
 
+If you get permission errors, follow instructions here: https://docs.npmjs.com/getting-started/fixing-npm-permissions
 
 
 ### Which IDE should I use for developing Angular applications?

@@ -28,44 +28,30 @@ redirects: []
 
 向团队中的每个成员问这些问题意思是没有人可以逃避，每个人都互相关联。更重要的是，你可以了解到哪些任务是完成的，哪些任务是正在进行的。这样可以让团队尽快发现问题并且赶上进度。团队的成功或失败是大家共享的，知道如何解决他人问题的成员都可以提出解决方案。
 
+[视频：微软的每日Scrum会议(短)](https://v.youku.com/v_show/id_XMzYxMTkzMDA4==.html?spm=a2hzp.8244740.0.0)
 
+[视频: 微软的每日Scrum会议(长)](https://v.youku.com/v_show/id_XMzYxMjE2OTYw==.html?spm=a2hzp.8244740.0.0)
 
+> 牢记：“只要能遵循Scrum价值，改变Scrum是可以的，实际上为了成功，这也是有必要的。”
+> -Stephen Forte
 
+**以下这些建议有助于提高每日Scrum会议质量:**
+建议 1：在会议结束时，Scrum Master回顾当前迭代的进度
+在 会议结束时,Scrum Master应该
+[/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day)
+检查燃尽图 以 把握团队当前的进度
 
-
-<font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"> <strong>视频：微软的每日Scrum会议(短)</strong> </font></font></font></font></font></font> 
-
-
-<font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"> <strong><div class="ms-rtestate-read ms-rte-wpbox"><div id="div_f2ab1bb8-28cc-4914-b859-52688d9f51f9" class="ms-rtestate-notify  ms-rtestate-read f2ab1bb8-28cc-4914-b859-52688d9f51f9"></div>
-<div id="vid_f2ab1bb8-28cc-4914-b859-52688d9f51f9" style="display:none;"></div></div></strong> </font></font></font></font></font></font><font color="#333333"><font face="Verdana"><font size="2"><font color="#333333"><font face="Verdana"><font size="2"> <strong>视频: 微软的每日Scrum会议(长)</strong> </font></font></font></font></font></font>
-<font color="#333333" style="line-height:18px;"><font face="Verdana"><font size="2"><div> <strong></strong> </div>
-
-
-::: greybox
-<div style="padding:10px 0px;line-height:20px;margin-top:0px;font-family:verdana, arial, sans-serif;margin-bottom:0px;"><span style="line-height:18px;"> <strong>牢记：</strong> <div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">      “只要能遵循Scrum价值，改变Scrum是可以的，实际上为了成功，这也是有必要的。”</div>
-<div style="padding:10px 0px;line-height:20px;margin-top:0px;margin-bottom:0px;">-Stephen Forte</div></span></div>  
-:::
-
-<p> <strong></strong> </p>
-<p> <strong>以下这些建议有助于提高每日Scrum会议质量:</strong> </p>
-<p class="ssw-rteStyle-Tip">建议 1：在会议结束时，Scrum Master回顾当前迭代的进度</p>
-<p><span></span><span></span><span></span><span>在</span><span>会议结束时,Scrum</span><span></span><span></span><span> </span><span></span><span></span><span>Master应该</span><a href="/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day">检查燃尽图</a>以<span>把握团队当前的进度</span><span></span><span></span></p></font></font></font>
-<font color="#333333"><font face="Verdana"><font size="2"><img class="ssw-rteStyle-ImageArea" alt="burndowntfspreview.png" src="burndowntfspreview.png" style="width:601px;height:467px;"></font></font></font><font color="#333333"><font face="Verdana"><font size="2"> 
-</font></font></font>图：TFS 预览版(TFS 2012)自动生成燃尽图
+![Figure: Burdown preview](burndowntfspreview.png)
+图：TFS 预览版(TFS 2012)自动生成燃尽图
 
 建议 2：在墙上贴一张每日Scrum会议的日程表(+ 在OutLook中设置一个预约)
 
 
 ::: greybox
-
-<font size="2"><span>Hi  <strong>&lt;团队名称&gt;</strong> ,</span></font>
-<font size="2"><div><span>根据我们的讨论， <strong>&lt;项目名称</strong> &gt;的每日Scrum会议在每个工作日的11:00AM(悉尼时间)在&lt; <strong>地点&gt;</strong> 举行。</span></div>
-<div>根据以下规则，它持续时间最长为15分钟</div>
-<div><span><font color="#3a66cc"><a href="/methodology-daily-scrums">https://www.ssw.com.au/rules/methodology-daily-scrums</a></font></span></div>
-<div><span>
-</span></div>
-<div>谢谢,</div>
- <strong>&lt;Scrum Master&gt;</strong> </font> 
+Hi  **团队名称&** ,根据我们的讨论， **项目名称** 的每日Scrum会议在每个工作日的11:00AM(悉尼时间)在 **地点** 举行
+根据以下规则，它持续时间最长为15分钟[https://www.ssw.com.au/rules/methodology-daily-scrums](/methodology-daily-scrums)
+谢谢,
+**Scrum Master**
 :::
 
 示例：在Outlook中设置每日Scrum会议预约模板
@@ -83,19 +69,19 @@ redirects: []
 提前保证团队成员的任务状态被更新，这样会议会更有效率。
 SSW 规则 [Do you update your tasks before the daily stand-up meeting?](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 
-建议 5：不要涉及详细内容保证你的回答简洁明了，不要偏离那三个关键问题，记着使用“Parking Lot<font size="2" face="宋体">”</font>记录下问题以便在会议后进行讨论。
+建议 5：不要涉及详细内容保证你的回答简洁明了，不要偏离那三个关键问题，记着使用“Parking Lot 记录下问题以便在会议后进行讨论。
 
 建议 6：不要打电话+不要检查邮件+不要分心科技可以使开会的人们失去了焦点，会议的焦点是使人们通过分享他们正在做什么来同步团队进度。在Scrum会议中通过禁止邮件，短信和电话以保证人们不会被分心。
 
 **
 建议** ** 7：** **使用一个任务板（使用电子版的更好** **)**
 
-<font size="2" face="宋体">人们可以通过</font>任务板<font face="宋体">看到</font>当前正在讨论的问题。
+人们可以通过 任务板 看到 当前正在讨论的问题。
 
 ![](tfspreviewtaskboard.png)  
-**图：TFS **       **Preview** **中的任务板**        **(TFS 2012)**
+**图：TFS Preview 中的任务板 (TFS 2012)**
 
-**
+
 建议** ** 8：** **带上纸和笔**
 
 带上纸和笔将事情的摘要记录下来，使用一个白板记录讨论中出现的问题也很有用。
@@ -114,9 +100,7 @@ SSW 规则 [Do you update your tasks before the daily stand-up meeting?](/meetin
 
 **建议 11： 如何将 Scrum 会议填入你的工时表中？ **
 
-一旦你完成了Scrum会议，在你的工时表中<font face="宋体">添加</font>'S'（<font color="#3a66cc" face="verdana, sans-serif"> </font>[<font color="#3a66cc" face="verdana, sans-serif">SSW建议:更好的填写工时表</font>](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterTimesheets.aspx)）
-<font face="verdana, sans-serif"><span style="line-height:15pt;font-size:9pt;">
-</span></font>
+一旦你完成了Scrum会议，在你的工时表中添加'S'（[SSW建议:更好的填写工时表](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterTimesheets.aspx)）
 
 建议 12：使用 Skype或者Lync
 

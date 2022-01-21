@@ -1,20 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Teamwork - Do you manage up? (Give a recommendation)
-guid: c2ef121d-355a-4845-81e7-124065e057d1
 uri: do-you-manage-up
-created: 2012-09-25T17:48:20.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- teamwork-do-you-manage-up-give-a-recommendation
-- teamwork-do-you-manage-up-(give-a-recommendation)
-
+  - teamwork-do-you-manage-up-give-a-recommendation
+  - teamwork-do-you-manage-up-(give-a-recommendation)
+created: 2012-09-25T17:48:20.000Z
+archivedreason: null
+guid: c2ef121d-355a-4845-81e7-124065e057d1
 ---
 
 Managing up is providing your manager with an option to approve, rather than asking a general question.
@@ -64,8 +63,9 @@ We want to integrate our database with our website so that customers can purchas
 
 The choices:
 
- **Option A** <mark>(Recommended)</mark> -  Customize a ready-made solution - We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.  
- **Option B** - Buy a ready-made solution - The ready-made solution is cheap but it does not have everything that we need and has unnecessary features. 
+ **Option A** - Buy a ready-made solution - The ready-made solution is cheap but it does not have everything that we need and has unnecessary features. 
+
+ **Option B** <mark>(Recommended)</mark> -  Customize a ready-made solution - We are able to get rid of redundant features and change it to meet our requirements. It is cheaper than building a new solution from scratch.  
       
  **Option C** - Build a new solution using a third party company - It will be expensive and it will take a long time.
 

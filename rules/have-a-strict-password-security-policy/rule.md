@@ -1,19 +1,22 @@
 ---
 type: rule
-archivedreason: 
-title: Do you have a strict password security policy?
-guid: 4bc01f63-9631-4dec-ab28-aa17d89387d3
+title: Security - Do you have a strict password security policy?
 uri: have-a-strict-password-security-policy
-created: 2017-07-10T20:55:19.0000000Z
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
-related: []
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
+  - title: Kiki Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - do-you-have-mfa-multi-factor-authentication-enabled
 redirects:
-- do-you-have-a-strict-password-security-policy
-
+  - do-you-have-a-strict-password-security-policy
+created: 2017-07-10T20:55:19.000Z
+archivedreason: null
+guid: 4bc01f63-9631-4dec-ab28-aa17d89387d3
 ---
-
 We recommend enforcing strict password policies.
 
 Below is a capture of the settings we use:
@@ -22,35 +25,21 @@ Below is a capture of the settings we use:
 
 <!--endintro-->
 
-When passwords have to be changed they must meet the following minimum requirements:
+When passwords have to be changed they should meet the following complexity requirements:
 
 * Not contain all or part of the user's account name
-* Be at least six characters in length
-* Contain characters from three of the following four categories:
-    * English uppercase characters (A through Z)
-    * English lowercase characters (a through z)
-    * Base 10 digits (0 through 9)
-    * Non-alphanumeric characters (e.g., !, $, #, %)
+* Be at least 6 characters in length
+* Contain characters from 3 of the following 4 categories:
 
+  * English uppercase characters (A through Z)
+  * English lowercase characters (a through z)
+  * A number (0 through 9)
+  * Non-alphanumeric characters (e.g., !, $, #, %)
 
-Rember it is always good to use an even number for password length ;) https://www.troyhunt.com/how-long-is-long-enough-minimum-password-lengths-by-the-worlds-top-sites/
+Complexity requirements are enforced when passwords are changed or created. We also enforce a lockout policy so if a user gets their password wrong 5 times, their account will be locked out for 15 minutes.
 
+Passphrases are better than passwords, they are even more difficult to crack than complex passwords https://www.zdnet.com/article/fbi-recommends-passphrases-over-password-complexity/
 
+MFA is essential. You should use it everywhere possible. Check https://www.ssw.com.au/rules/do-you-have-mfa-multi-factor-authentication-enabled
 
-Complexity requirements are enforced when passwords are changed or created.
-
-
-
-
-Every 180 days clients will be required to change their password, they can change it when:
-
-* Login to their computer
-* Terminal server to another computer
-* VPN
-
-
-This allows users to change their password by making a VPN connection to the office.
-
-We also enforce a lockout policy so if a user gets their password wrong 5 times, their account will be locked out for 15 minutes.
-
-If you want to change your password sooner, press [ctrl] [alt] [delete] then click "Change Password" button.
+Bad practice: Requiring users to change their passwords e.g. every 180 days does not improve security. If you already have a strong password (as above) and a second factor of authentication (e.g. MFA) changing it does very little to make you more secure. Generally, you should change your password only when you believe it has been compromised.

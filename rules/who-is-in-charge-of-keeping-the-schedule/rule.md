@@ -36,7 +36,7 @@ On the day of your event, chat to the speaker and give them the Speaker Checklis
 
 Attendees will often ask you what time the break will start or finish, so if you write it down they can refer it instead of asking you!
 
-Tip: You can print out [this PDF "Break-Ends-Sheet,"](/Documents/break-ends-sheet.pdf) to keep them informed, without answering the same question many times!
+Tip: You can print out [this PDF "Break-Ends-Sheet,"](break-ends-sheet.pdf) to keep them informed, without answering the same question many times!
 
 TIP: We also have a handy rule on this: https://rules.ssw.com.au/do-you-set-a-clear-end-time-for-breaks
 

@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules To Better Windows Servers
+title: Rules to Better Windows Servers
 guid: 9fa6fef6-c5d8-4a61-b436-4c8c2106fc2d
 uri: rules-to-better-windows-servers
 index:
@@ -14,6 +14,7 @@ index:
 - turn-on-file-auditing-for-your-file-server
 - use-the-best-windows-file-storage-solution
 - do-you-keep-your-system-up-to-date
+- run-services-on-their-own-ad-accounts
 
 ---
  

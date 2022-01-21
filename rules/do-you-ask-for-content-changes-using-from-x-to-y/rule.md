@@ -38,9 +38,11 @@ Make the changes even easier to see and understand by highlighting in <font styl
 
 1. For the Code Auditor web page, please make the list read:
 
-   - Scan all your projects for coding errors
-   - Guarantee Industry best practices
-   - Friendly licensing model, bloggers even pay $0 for the full version!
+   &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+   
+   &nbsp;&nbsp;&nbsp;&nbsp;Guarantee Industry best practices
+   
+   &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model, bloggers even pay $0 for the full version!
 
 :::  
 :::  
@@ -64,15 +66,19 @@ http://www.ssw.com.au/ssw/codeauditor
 
 From:
 
-  * Scan all your projects for coding bugs <font style="background-color:#ff0000;">and errors</font>
-  * Enforce industry best practices              
-  * Friendly licensing model pay nothing for the full version!
+  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <font style="background-color:#ff0000;">bugs and</font> errors
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;Enforce industry best practices
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model pay nothing for the full version!
 
 To:
 
-  * Scan all your projects for coding errors
-  * Guarantee industry best practices
-  * Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
+  &nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;Guarantee industry best practices
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;Friendly licensing model<mark>, bloggers even pay $0</mark> for the full version!
 
 :::  
 :::  
@@ -120,7 +126,4 @@ A pull request is a request to make changes to 1 or more files. GitHub provides 
     4.&nbsp;Press "Submit review" so that the requester can see it.
       ![Submitting a pull request review](https://user-images.githubusercontent.com/79821522/113798232-26656580-9796-11eb-92dd-00a4385cac8b.png)
 
-
-Congratulations! Your review has been submitted ⭐
-
-
+4. Congratulations! Your review has been submitted ⭐

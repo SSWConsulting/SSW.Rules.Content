@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Version Control With TFS (AKA Source Control)
+title: Rules to Better Version Control (AKA Source Control)
 guid: 432efbab-9580-4b84-afef-16f6bf505e6d
 uri: rules-to-better-version-control-with-tfs-aka-source-control
 redirects:
@@ -19,7 +19,7 @@ index:
 - do-you-configure-your-team-system-web-access-to-be-accessible-from-outside-the-network
 - do-you-configure-your-tfs-to-be-accessible-from-outside-the-network
 - do-you-enforce-work-item-association-with-check-in
-- do-you-have-a-tfs-master
+- devops-master
 - do-you-include-original-artworks-in-source-control
 - do-you-know-how-to-lay-out-your-solution
 - do-you-know-how-to-refresh-the-cube
@@ -40,11 +40,8 @@ index:
 - do-you-use-shared-check-outs
 - do-you-use-the-windows-explorer-integration
 - tfs-master-do-you-have-a-report-to-see-who-has-not-checked-in
-- do-you-know-which-check-in-policies-to-enable1
 - check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
-
+If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.

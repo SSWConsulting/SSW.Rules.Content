@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: No longer relevant.
 title: Does your Scrum Master (aka Project Manager) maintain a strict project schedule?
 guid: beadeb03-d2a4-4b9a-8903-f36c9bccb657
 uri: maintain-a-strict-project-schedule

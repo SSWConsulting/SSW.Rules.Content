@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/link-emails-to-the-rule-or-template-they-follow
 title: When you follow a rule do you know to refer to it (including the icon)?
 guid: 75c646cf-5266-4a7a-be52-f21a197e8d66
 uri: when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
@@ -15,5 +15,7 @@ redirects:
 ---
 
 When you follow a rule, remember to refer to its URL:
-![RuleReference](RuleReferrence.jpg)Good Example: Refer to the URL
+
 <!--endintro-->
+
+![Good Example: Refer to the URL](RuleReferrence.jpg)

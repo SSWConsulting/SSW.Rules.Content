@@ -1,20 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Production - Do you have a call to action?
-guid: a849f419-4cdb-44d2-a6b2-11f9c264f18a
 uri: production-do-you-add-a-call-to-action
-created: 2011-10-05T18:10:55.0000000Z
 authors:
-- title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
+  - title: Titus Maclaren
+    url: https://ssw.com.au/people/titus-maclaren
 related: []
 redirects:
-- production-do-you-have-a-call-to-action
-
+  - production-do-you-have-a-call-to-action
+created: 2011-10-05T18:10:55.000Z
+archivedreason: null
+guid: a849f419-4cdb-44d2-a6b2-11f9c264f18a
 ---
 
-Without a call to action prompting viewers to do something at the end of a video, the purpose of the video is lost. As such, make sure you include the call to action at the end.
+Without a call to action prompting viewers to do something at the end of a video, the purpose of the video is lost. So you don't waste all your hard work editing, you should include a call to action at the end.
  Common objectives are to:
 * Obtain the viewer's email address
 * Get the viewer to provide info and request a service from the company

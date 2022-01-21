@@ -27,60 +27,34 @@ For example:
 
 <!--endintro-->
 
-
 ::: greybox
 When one wants to scan for viruses, you can open the antivirus software.  
 :::
-
-
-
 ::: bad
 Figure: Bad Example - The user is referred in two ways and flow is broken  
 :::
 
-
-
-
 ::: greybox
-When you want to scan for viruses, you can open the antivirus software.  
+When you want to scan for viruses, open the antivirus software.  
 :::
-
-
-
 ::: good
 Figure: Good Example - There is no noticeable break in the reading flow  
 :::
 
-
-
 The first example is bad because it confuses the reader as to whom the author is referring.
 
-
-
-
-
-It is occasionally acceptable to use the first person, "we", "I", "us", "our" etc. An example of an acceptable use of first person is, "We recommend that you backup your database first."  **However, you must never use the first person to refer to the reader.** 
-
- **
-** 
-
-
+It is occasionally acceptable to use the first person, "we", "I", "us", "our" etc. An example of an acceptable use of first person is: "We recommend that you backup your database first." **However, you must never use the first person to refer to the reader.** 
 
 ::: greybox
 We will now open a web browser and go to the home page.  
 :::
-
-
 ::: bad
-Figure: Bad Example - It is unclear who the "we" is.  
+Figure: Bad Example - It is unclear who the "we" is
 :::
-
 
 ::: greybox
 You can now open a web browser and go to the home page.  
 :::
-
-
 ::: good
-Figure: Good Example - These instructions are clear and direct.  
+Figure: Good Example - These instructions are clear and direct
 :::

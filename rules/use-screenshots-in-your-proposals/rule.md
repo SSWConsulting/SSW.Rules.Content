@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you use screenshots in your proposals?
+title: Do you use images in your proposals?
 guid: 2cc5e74a-9009-4110-b1bc-1fb5d341420a
 uri: use-screenshots-in-your-proposals
 created: 2019-08-21T22:30:54.0000000Z
@@ -14,7 +14,7 @@ redirects:
 
 ---
 
-A Picture tells a thousand words. Using screen shots can sell your designs and add confidence to your proposals by giving visual examples of similar projects you have done.
+An image tells a thousand words. Using screenshots and pictures can help selling your ideas and add confidence to your proposals by giving visual examples of similar projects you have done.
 
 <!--endintro-->
 

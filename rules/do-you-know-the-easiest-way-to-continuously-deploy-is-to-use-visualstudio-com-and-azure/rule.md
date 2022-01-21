@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know the easiest way to continuously deploy is to use VisualStudio.com and Azure?
-guid: d9f043dd-45f2-4cfa-bf24-01ddc7f1b110
+title: Do you know the easiest way to continuously deploy is to use
+  VisualStudio.com and Azure?
 uri: do-you-know-the-easiest-way-to-continuously-deploy-is-to-use-visualstudio-com-and-azure
-created: 2013-02-05T19:26:18.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
+created: 2013-02-05T19:26:18.000Z
+archivedreason: null
+guid: d9f043dd-45f2-4cfa-bf24-01ddc7f1b110
 ---
-
-### TODO: AdamS – Include Steps for Continuous Delivery with Azure and VisualStudio.com
+### TODO: MattW - [View GitHub issue](https://github.com/SSWConsulting/SSW.Rules.Content/issues/1390) 
 
 If you use Azure Web Sites and VisualStudio.com you can set up continuously deployment in 5 minutes.
 

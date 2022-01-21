@@ -14,24 +14,14 @@ redirects:
 
 ---
 
-Your software is deployed. How do you tell users months or years later, important information?
+A new version of your software is deployed. How do you tell users important information on older versions?
 
-This primarily affects Windows clients but even web clients shouldn't need a new version to give a new message.
+You shouldn't need to check for updates to be notified of valuable information.
 
-Most software is deployed without any mechanism to insert a message in older software.
+Software is often deployed without any mechanism to insert a message into older versions.
 
 <!--endintro-->
 
-Messages might range from helpful tips that are undiscovered that would help a user do their job better?
-Or helpful to remind old customers to get off their old version. 
-Eg. Sometimes customers are just not aware that their TFS or CRM installation is years old?
+Messages might include notifications to update or simply helpful tips. Eg. Sometimes customers are not aware that their CRM installation is several years old.
 
-
-::: bad  
-![Figure: Bad example](uptodate-message-bad.jpg)  
-:::
-
-
-::: good  
-![Figure: Good example](uptodate-message-good.jpg)  
-:::
+![Figure: Visual Studio 2019 has helpful notifications to indicate which parts need updating](VisualStudioUpdateNotifications.png)

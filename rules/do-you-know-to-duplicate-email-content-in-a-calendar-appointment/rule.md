@@ -23,7 +23,7 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 <!--endintro-->
 
 ::: info
-**Warning:** With calendar appointments, there’s also the risk that people will accept the appointment without reading the content – people don’t do this with email. So if you are initiating an appointment that has a task in it, where you would like a ‘done’... then **duplicate the content of the appointment into an email**.
+**Warning:** With calendar appointments, there is a risk of people accepting the appointment without reading the content – it doesn't happen with emails. If you are initiating an appointment that has a task in it (when you expect a ‘done’) then **duplicate the content of the appointment into an email**.
 :::
 
 ::: email-template  
@@ -31,7 +31,7 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 | -------- | --- |
 | To:      | Adam, Jason, Tom |
 | Subject: | Meet with the SSW software architects and talk about CodeAuditor |  
-| When:    | Friday, 31 July 2020 9:30 AM-10:30 AM (UTC+10:00) Canberra, Melbourne, Sydney. |
+| When:    | Friday, 30 July 2021 9:30 AM-10:30 AM (UTC+10:00) Canberra, Melbourne, Sydney. |
 | Where:   | SSW Sydney Boardroom |
 ::: email-content  
 
@@ -40,6 +40,7 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 (copy of email - as per rule [https://rules.ssw.com.au/do-you-know-to-duplicate-email-content-in-a-calendar-appointment](/do-you-know-to-duplicate-email-content-in-a-calendar-appointment))
 
 I am the Scrum Master of the upcoming Northwind project and I’d like to understand the specific performance and code quality requirements
+
 1.	Can you meet with me and review the current SSW CodeAuditor rules we need to enforce per sprint for the upcoming Northwind project?
 2.	Once I understand, can you communicate those rules to the developers on the project?
 
