@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-Once you’ve identified the manual processes in [Stage 1](/things-to-measure), you can start looking at automation. The two best tools for build and release automation are Github (public projects) and Azure DevOps (private projects).
+Once you’ve identified the manual processes in [Stage 1](/things-to-measure), you can start looking at automation. The two best tools for build and release automation are Github and Azure DevOps.
 
 <!--endintro-->
 
