@@ -64,7 +64,7 @@ I’m really excited about our brainstorming day! I hope you’re all thinking a
 To prepare for our Brainstorming day, send Adam and Matt W. something that you would like work on as a group.
 E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming Session last year.   
 
-See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](https://rules.ssw.com.au/do-you-use-the-brains-of-your-company)
+See video on: [https://rules.ssw.com.au/do-you-use-the-brains-of-your-company](/do-you-use-the-brains-of-your-company)
 
 **Agenda** 
 
