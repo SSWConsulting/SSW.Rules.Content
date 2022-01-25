@@ -33,6 +33,9 @@ There is a myriad of options to choose from when storing and sharing documents: 
 ![Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)  
 :::
 
+::: bad
+![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
+
 ::: good  
 ![Figure: Good Example - You can use the files tab in Teams (without leaving the app)](teams - file tab.png)  
 :::
