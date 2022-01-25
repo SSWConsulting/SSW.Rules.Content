@@ -33,9 +33,11 @@ There is a myriad of options to choose from when storing and sharing documents: 
 ![Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)  
 :::
 
+Don't start searching from your start menu either for a program whether that be Notepad, Notpad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later.  It's easy to forget to do.
 ::: bad
 ![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
 
+Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
 ::: good  
 ![Figure: Good Example - You can use the files tab in Teams (without leaving the app)](teams - file tab.png)  
 :::
