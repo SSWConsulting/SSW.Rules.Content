@@ -33,6 +33,11 @@ There is a myriad of options to choose from when storing and sharing documents: 
 ![Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)  
 :::
 
+Don't start searching from your start menu either for a program whether that be Notepad, Notpad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later.  It's easy to forget to do.
+::: bad
+![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
+
+Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
 ::: good  
 ![Figure: Good Example - You can use the files tab in Teams (without leaving the app)](teams - file tab.png)  
 :::
@@ -52,6 +57,23 @@ Behind the scenes, storage is provided by a SharePoint site; so that is there if
 ::: good  
 ![Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced.](teams - sync onedrive.png)  
 :::
+
+### What does not get stored in Microsoft Teams? 
+
+1.	For developers,
+
+> A: code obviously belongs in GitHub, Azure DevOps, etc.
+> 
+> B: Also the [7 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS)... or instead        [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
+
+
+2.	For designers with large files, OneDrive is a better choice. See: [Do you know the best Source Control for Designers?](/do-you-know-the-best-source-control-for-designers)
+
+### What about usernames and passwords?
+
+Documents with user names and passwords should not be stored in Microsoft Teams. Security is very important for everyone and every company. [Use a password manager](/password-manager) to store usernames and passwords. 
+**Note:** API keys, whether generic or for the individual should also be stored in a password manager
+
 
 **Note:** You can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc     
 This is not recommended - as they aren't first-class citizens i.e. if you want to share files from them, you need to go to the provider's sharing settings outside of Teams
