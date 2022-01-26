@@ -27,7 +27,6 @@ index:
 - done-do-you-go-beyond-done-and-follow-a-definition-of-done
 - management-do-you-fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
-- where-to-keep-your-files
 - do-you-zz-old-files-rather-than-deleting-them
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
