@@ -51,3 +51,6 @@ Try to temper your expectations so that they are realistic to meet but high enou
 
 ### Celebrate others wins
 Try to give credit to those who achieve wins, it is awesome to give positive reinforcement to others and they will remember you for it. Maybe later on they will return your positive words by helping you achieve a win.
+
+`youtube: https://www.youtube.com/embed/BL_6zw6JO-s`
+**Video: Fairness and Helping Each Other – 10 tips with Adam Cogan**
