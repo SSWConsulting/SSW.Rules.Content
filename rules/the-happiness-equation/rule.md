@@ -45,4 +45,4 @@ The best way to deal with situations like this is by knowing:
 
 Do the above and you can have a culture of helping yourself and helping others.
 
-`youtube: https://www.youtube.com/embed/G08w-eicf7Y`
+`youtube: https://www.youtube.com/embed/sT3vs48Rt8I`
