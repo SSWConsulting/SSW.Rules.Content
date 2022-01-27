@@ -35,20 +35,19 @@ Expectations - Reality = Happiness
 Try to manage your expectations or increase your reality by speaking up.
 
 ### Luck
+Know that luck exists and affects everything you do. It is better to accept it rather than dwell on it.
 
 ### Compete with yourself
+Competing with yourself can drive you to achieve greater heights. Scrum is a great example of this since you are trying to improve your performance each sprint.
 
 ### People don't want to be unfair
+Most people don't set out to be unfair and usually they have some reasoning behind their decisions. Try not to take things personally.
 
 ### Squeaky wheel gets the most oil
+When you are constantly raising issues then more information comes back to you and you keep on improving.
 
 ### Make expectations attainable
+Try to temper your expectations so that they are realistic to meet but high enough to push yourself. If your expectations are too high it will be difficult to feel happy but if they are too low you won't be reaching your full potential.
 
 ### Celebrate others wins
-
-
-
-
-
-
-
+Try to give credit to those who achieve wins, it is awesome to give positive reinforcement to others and they will remember you for it. Maybe later on they will return your positive words by helping you achieve a win.
