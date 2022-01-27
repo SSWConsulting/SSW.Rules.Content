@@ -16,6 +16,7 @@ redirects: []
 created: 2009-03-24T04:41:35.000Z
 archivedreason: null
 guid: 5f1e85d7-f385-4d3b-8338-d49fe11eab91
+
 ---
 
 Just as we should not 'judge a book by its cover' - we will not judge an email by its subject. But, we do! Because users get so many emails, getting your clients and suppliers to take notice of yours in their inbox can be quite a struggle. 
@@ -41,41 +42,43 @@ If there's anything to be learned from spammers, they know how to get your atten
 
 Always use a descriptive email subject to make it easier to find later
 
-Consulting:
+- Consulting:
 
-::: greybox
-Subject: **Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
-:::
+  ::: greybox
+  Subject: **Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
+  :::
 
-Dinner:
+- Dinner:
 
-::: greybox
-Subject: **Dinner Tonight, 6.30PM at The Oaks**
-::: greybox
+  ::: greybox
+  Subject: **Dinner Tonight, 6.30PM at The Oaks**
+  :::
 
-Bugs:
+- Bugs:
 
-::: greybox
-Subject: **BUG - Northwind form - Button not working**
-:::
+  ::: greybox
+  Subject: **BUG - Northwind form - Button not working**
+  :::
 
-Call someone:
+- Call someone:
 
-::: greybox
-Subject: **SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
-:::
+  ::: greybox
+  Subject: **SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
+  :::
 
-Feedback on a product:
+- Feedback on a product:
 
-::: greybox
-Subject: **Northwind app - User Interface feedback**
-:::
+  ::: greybox
+  Subject: **Northwind app - User Interface feedback**
+  :::
 
-Test please (see [test please rule](/request-a-test-please)):
+- [Test please](/request-a-test-please):
 
-::: greybox
-Subject: **Test Please - Product Name v1.11 **
-:::
+  ::: greybox
+  Subject: **Test Please - Product Name v1.11**
+  :::
+  
+---
 
 Of course, we also use a structured approach for emails - especially when sending them internally.
 
@@ -115,7 +118,7 @@ Other words to be used are:
 * Product name - Registered User Support
 * Product name - Pre-Sales Support
 * Project name
-* Client Name
+* Client name
 
 ::: info
 **Remember:** For external emails, it is acceptable to [change an email subject](/do-you-know-when-you-should-change-a-subject) in certain circumstances.

@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you always avoid On Error Resume Next? (VB Only)
-guid: 44ff5d65-56bc-4b02-957d-378c8c0bfc5c
 uri: do-you-always-avoid-on-error-resume-next-vb-only
-created: 2013-09-11T22:01:01.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-always-avoid-on-error-resume-next-(vb-only)
-
+  - do-you-always-avoid-on-error-resume-next-(vb-only)
+created: 2013-09-11T22:01:01.000Z
+archivedreason: Archiving as this rule as VB isn't relevant anymore
+guid: 44ff5d65-56bc-4b02-957d-378c8c0bfc5c
 ---
 
 Never use On Error Resume Next in VB (and VB.NET) projects.

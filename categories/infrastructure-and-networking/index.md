@@ -27,10 +27,11 @@ index:
 - rules-to-better-windows-servers
 - rules-to-better-exchange-server
 - rules-to-better-pcs
-- rules-to-better-networks
+- rules-to-better-system-administrators
 - rules-to-better-backups
 - rules-to-better-whatsup-gold
 - rules-to-better-office-365
+- rules-to-better-automation
 
 ---
 

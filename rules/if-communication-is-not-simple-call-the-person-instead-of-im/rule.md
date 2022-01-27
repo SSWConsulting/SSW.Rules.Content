@@ -22,12 +22,14 @@ Communication using voice is much faster than typing a message and it can clear 
 
 Example:
 
-
 ::: greybox
- **- Adam Cogan:**  Did you say to me, you would contact Tiago on Skype to do it collaboratively... rather than email?
- **- Danijel Malik:**  I agreed I'll contact them over Skype as suggested by Drew
- **- Adam Cogan:**  Isn't that what I just said? (and you said you were sending emails)
- **- Danijel Malik:**  Hold on...I don't understand you anymore, <mark>can we switch to voice?</mark>
+**Adam Cogan:**  Did you say to me, you would contact Tiago on Skype to do it collaboratively... rather than email?
+
+**Danijel Malik:**  I agreed I'll contact them over Skype as suggested by Drew
+
+**Adam Cogan:**  Isn't that what I just said? (and you said you were sending emails)
+
+**Danijel Malik:**  Hold on...I don't understand you anymore, <mark>can we switch to voice?</mark>
 :::
 
 Then follow [Do you send "As Per Our Conversation" emails?](/do-you-send-as-per-our-conversation-emails)

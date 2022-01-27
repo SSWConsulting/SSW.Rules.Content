@@ -13,6 +13,7 @@ index:
 - do-you-know-the-right-format-to-show-your-phone-number
 - track-project-documents
 - where-to-keep-your-files
+- sync-files-from-teams-to-file-explorer
 - teams-add-the-right-tabs
 - make-frequently-accessed-sharepoint-pages-easier-to-find
 - using-the-conversation-tab-to-task-out-work

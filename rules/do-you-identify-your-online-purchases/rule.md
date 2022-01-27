@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you identify your online purchases?
+title: Do you include your name on online office purchases?
 guid: d2b49c34-34f6-405e-90d4-52df21ba8409
 uri: do-you-identify-your-online-purchases
 created: 2014-07-04T07:15:57.0000000Z

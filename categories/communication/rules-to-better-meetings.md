@@ -11,8 +11,10 @@ index:
 - share-the-agenda
 - stick-to-the-agenda-and-complete-the-meetings-goal
 - share-the-action-items-that-came-up
+- loop-someone-in
 - start-and-finish-on-time 
 - keep-track-of-a-parking-lot-for-topics
+- getting-a-busy-person-into-the-meeting
 
 ---
 

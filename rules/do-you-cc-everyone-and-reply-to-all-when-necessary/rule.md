@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you CC everyone and reply to all when necessary?
-guid: a681c2ee-2561-42ac-b8b1-5d7056800545
 uri: do-you-cc-everyone-and-reply-to-all-when-necessary
-created: 2009-03-26T02:42:00.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
-
+created: 2009-03-26T02:42:00.000Z
+archivedreason: null
+guid: a681c2ee-2561-42ac-b8b1-5d7056800545
 ---
 
 When emailing external parties, it is a good idea to CC the other colleagues within your organization that may have an interest in the email. Some of the benefits of CC'ing others are:
@@ -31,7 +30,7 @@ In addition, I often see people replying only to the sender of the email, ignori
 ![Figure: Good Example - Reply All so that everyone is kept in the loop](2021-04-12_11-22-09.png)  
 :::
 
-### What if the other person drops people
+### What if the other person drops people?
 
 Sometimes the other person will 'little r' reply instead of 'Reply All'. It is not a good habit to little r reply aside for when there are any exceptions noted below. This can be problematic as those dropped off the loop are needed as part of the decision making. Decisions will be harder to be made in a timely manner or end up being made without a full team agreeance over.
 

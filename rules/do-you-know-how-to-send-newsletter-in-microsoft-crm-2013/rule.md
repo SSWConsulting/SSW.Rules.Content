@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Deprecated
 title: Do you know how to send newsletter in Microsoft CRM 2013?
 guid: 511bb081-084a-49d2-8c58-f64714978ade
 uri: do-you-know-how-to-send-newsletter-in-microsoft-crm-2013

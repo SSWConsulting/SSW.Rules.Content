@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know how to create Azure resources?
-guid: 007dd1f6-8ac6-4840-8f4f-a39c6f847880
 uri: azure-resources-creating
-created: 2020-10-06T00:13:27.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related: []
 redirects:
-- do-you-know-how-to-create-azure-resources
-
+  - do-you-know-how-to-create-azure-resources
+created: 2020-10-06T00:13:27.000Z
+archivedreason: null
+guid: 007dd1f6-8ac6-4840-8f4f-a39c6f847880
 ---
 
 We’ve been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we’re saying the same thing again. **Don’t manually create your Azure resources.**
@@ -52,7 +51,20 @@ Some people half solve the problem by manually creating and saving the script. T
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Bicep by Microsoft (recommended)
+### Option A: Farmer
+
+[https://compositionalit.github.io/farmer](https://compositionalit.github.io/farmer/)
+
+
+* It makes creating ARM templates easier 
+* It's a great tool
+* Simply add a very short and readable F# project in your solution
+* Tip: The F# solution of scripts should be in a folder called Azure
+
+`youtube: https://www.youtube.com/embed/8E63s2QlbhA`
+**Figure: Farmer was our favourite until Bicep was supported by Microsoft**
+
+### Option B: Bicep by Microsoft (recommended)
 
 [https://github.com/Azure/bicep](https://github.com/Azure/bicep)
 
@@ -69,7 +81,7 @@ More info: [Project Bicep – Next Generation ARM Templates](https://devblogs.mi
 ![Figure: Good Example - Code from the Bicep using Visual Studio Code Extension](Bicep.png)
 :::
 
-### Option B: Enterprise configuration management (recommended)
+### Option C: Enterprise configuration management $$$
 The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like [Pulumi](https://www.pulumi.com) or [Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs). These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
 
 * They're both great tools

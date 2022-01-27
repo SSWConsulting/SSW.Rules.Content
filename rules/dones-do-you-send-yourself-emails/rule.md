@@ -22,9 +22,11 @@ redirects:
 
 When a colleague or a client asks you to do a task verbally, or you have discovered there’s a task you need to do but don’t have time to do it immediately, what method do you have for remembering to do it?
 
+<!--endintro-->
+
 The best solution is to send yourself an email CC'ing the person who asked you, including "[As per our conversation](/do-you-send-as-per-our-conversation-emails)..." This way both of you know that the job needs to be done. This is really important especially when you are working for clients so there is a record of the requests for work.
 
-<!--endintro-->
+**Note:** If the request is relevant to client work or an existing product backlog then it would be better to create or update a PBI and @ mention the Product Owner and relevant people as per the rule [do you use @ mentions in pbi](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi).
 
 ::: bad  
 ![Figure: Writing yourself a "Post-It Note" is not the best method](postit-screen.jpg)  

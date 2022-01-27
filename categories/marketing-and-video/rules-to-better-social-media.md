@@ -19,7 +19,7 @@ index:
 - create-friendly-short-urls
 - share-every-blog-post
 - use-a-conversion-pixel
-- do-you-use-buffer-to-post-to-social-media
+- post-using-social-media-management-tools
 - do-your-presentations-promote-online-discussion
 - do-you-share-when-you-upgrade-an-application
 - weed-out-spammers
@@ -29,6 +29,7 @@ index:
 - how-to-advertise-using-facebook-ads
 - do-you-know-what-metrics-you-should-have-around-your-facebook-ads
 - have-urls-to-your-main-services-on-linkedin
+- linkedin-connect-your-microsoft-account
 - twitter-do-you-know-how-to-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
@@ -38,6 +39,7 @@ index:
 - do-you-know-to-thank-others-for-each-reference-to-you
 - tweet-rules-you-follow
 - avoid-dates-text-in-graphics-for-events
+- profile-photos
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments

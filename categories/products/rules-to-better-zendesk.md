@@ -17,6 +17,7 @@ index:
 - ensure-zendesk-is-not-marked-as-spam
 - know-the-best-ticketing-systems
 - do-you-reply-to-the-correct-zendesk-email
+- zendesk-assign-your-tickets
 
 ---
 If you still need help, [visit our Zendesk consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Zendesk.aspx) and book in a consultant.

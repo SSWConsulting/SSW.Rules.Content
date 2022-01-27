@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Planned - Do you have a planned outage process?
+title: Outage - Do you have a planned outage process?
 uri: planned-outage-process
 authors:
   - title: Adam Cogan
@@ -17,8 +17,10 @@ redirects:
 created: 2017-06-30T19:21:55.000Z
 archivedreason: null
 guid: eb97dfa8-5bb8-4e19-932a-76d6f2f655fd
+
 ---
-For unplanned outages, see [Unplanned - Do you have an unplanned outage process?](/unplanned-outage-process)
+
+For unplanned outages, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
 
@@ -39,13 +41,11 @@ it easier to remember to send the 'done' email. E.g. "done - CRM is alive again"
 
 Example:
 
-::: email-template\
+::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |
-| Cc:      | YYY |
-| Bcc:     | ZZZ |
-| Subject: | This is the subject |\
+| Subject: | Planned Outage | Date and time |  
 ::: email-content  
 
 ### Hi All,
@@ -100,9 +100,9 @@ To show others who are interested in what needs to be done to fix the problem:
 
 1. Restore server from backup
 
-**Note:** &lt;This is as per rule [What is your server reboot/restart policy?](/have-a-server-reboot-restart-policy) &gt;
+**Note:** &lt;This is as per rule [Outage - Do you have a planned outage process?](/planned-outage-process) &gt;
 
-:::\
+:::
 ::: 
 
 Immediately before the scheduled downtime, check for logged in users, file access, and database connections.

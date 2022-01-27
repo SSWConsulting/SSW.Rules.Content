@@ -15,7 +15,7 @@ index:
 - meetings-do-you-know-the-agenda-for-the-initial-meeting
 - meetings-do-you-have-a-debrief-after-an-initial-meeting
 - do-you-incentivize-a-quick-spec-review-sale
-- do-you-schedule-a-followup-meeting-after-a-spec-review1
+- do-you-schedule-a-followup-meeting-after-a-spec-review
 - do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
 - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
 - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page

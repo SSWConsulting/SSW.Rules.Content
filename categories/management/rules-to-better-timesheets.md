@@ -12,9 +12,11 @@ index:
 - do-you-know-when-to-enter-your-timesheets
 - do-you-reward-your-employees-for-doing-their-timesheets-on-time
 - do-you-know-that-when-youre-booked-in-youre-working
+- booking-cancellations
 - do-you-book-a-minimum-of-1-days-work-at-a-time
 - do-you-keep-a-hard-copy-diary
 - do-not-use-general-in-your-timesheets
+- spec-review-timesheets
 
 ---
 

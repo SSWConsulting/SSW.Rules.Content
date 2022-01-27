@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Michael Smedley
 related: []
 redirects:
   - do-you-know-what-to-do-when-asked-to-sign-an-nda
@@ -23,26 +24,29 @@ Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confiden
 
 <!--endintro-->
 
-### If they will sign yours
+### What is an NDA
+
+A **non-disclosure agreement** (**NDA**), also known as a **confidentiality agreement** (**CA**), **confidential disclosure agreement** (**CDA**), **proprietary information agreement** (**PIA**) or **secrecy agreement** (**SA**) or 'non-disparagement agreement' is a [legal](https://en.wikipedia.org/wiki/Law "Law") [contract](https://en.wikipedia.org/wiki/Contract "Contract") or part of a contract between at least two [parties](https://en.wikipedia.org/wiki/Party_(law) "Party (law)") that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to only the participants of the agreement.
+
+### Be Sensible
+
+All parties are entitled to have legal representation with an NDA, but there are a few simple gotcha's we detail below that we think can keep all parties safe, without any unnecessary dramas.
+
+Remember an NDA is there to foster a sense of trust between the parties, and although it's wise to follow the advice mentioned below remember that to take legal action as a result of a breach is costly and time consuming. It will also no doubt end a reciprocal business relationship. 
+
+### If they will sign your NDA (recommended)
 
 If a client needs an NDA and are happy to sign yours, this is the optimal situation as you know what's in it, and so can't be caught out. You should always have a boilerplate one stored in your own fileshare (ideally SharePoint) that you can send out as needed.
 
+### If they demand you to sign their NDA
 
-
-### If they demand you sign theirs
-
-The correct process if you have access to a legal resource would be:
-
-1. Browse over it to see if there are any issues you can pick up (So you can learn)
-2. Give it to your legal guy(s) to review and make their comments
-3. Send feedback from the legal guys to the client
-4. Make changes to the document as requested by the legal guys and agreed to by the client
-5. Sign document
-
-If you don't, then look out for these potential tripping points:
+look out for these potential tripping points:
 
 1. If the agreement is not mutual you need to be extra careful. One sided agreements makes one of the parties lose out
 2. Indemnity clauses - Always request that any indemnity be deleted
 3. Time limits - make sure there is one so this doesn't last for ever
 4. Funny jurisdiction (at least it should be in the country you are in)
 5. Specific damages (e.g. $1,000,000 per breach)
+6. Check that people are not individually liable
+7. Check what is listed as confidential information
+8. If you have access to a legal resource - send to them
