@@ -5,6 +5,8 @@ uri: the-happiness-equation
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+related:
+  - speak-up
 created: 2022-01-11T16:17:36.024Z
 guid: f355b232-00cf-4201-8eba-71bf7d12c3c5
 ---
@@ -42,3 +44,5 @@ The best way to deal with situations like this is by knowing:
    > "Always clap for your friends, even if their dreams come true before yours."
 
 Do the above and you can have a culture of helping yourself and helping others.
+
+`youtube: https://www.youtube.com/embed/G08w-eicf7Y`
