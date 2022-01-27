@@ -10,6 +10,7 @@ related:
 created: 2022-01-11T16:17:36.024Z
 guid: f355b232-00cf-4201-8eba-71bf7d12c3c5
 ---
+`youtube: https://www.youtube.com/embed/sT3vs48Rt8I`
 Everyone wants a place where people help each other. Unfairness can really impact people in the workplace.
 
 It all starts with how you approach things, some people are better than others at dealing with unfair situations.
@@ -46,5 +47,3 @@ If you want to be happier then:
    > "Always clap for your friends, even if their dreams come true before yours."
 
 Do the above and you can have a culture of helping yourself and helping others.
-
-`youtube: https://www.youtube.com/embed/sT3vs48Rt8I`
