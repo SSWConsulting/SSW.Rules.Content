@@ -6,8 +6,14 @@ guid: 4981f2e8-4846-4d23-8aae-c1992683a312
 uri: the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team
 created: 2010-04-14T06:39:22.0000000Z
 authors:
-- title: Paul Neumeyer
-  url: https://ssw.com.au/people/paul-neumeyer
+- title: Adam Cogan
+  url: https://www.ssw.com.au/people/adam-cogan
+- title: Ulysses Maclaren
+  url: https://www.ssw.com.au/people/uly
+- title: Jean Thirion
+  url: https://www.ssw.com.au/people/jean-thirion
+- title: Matt Goldman
+  url: https://www.ssw.com.au/people/matt-goldman
 related: []
 redirects:
 - the-team-do-you-help-your-scrum-master-(not-scrummaster)-protect-and-serve-the-team
