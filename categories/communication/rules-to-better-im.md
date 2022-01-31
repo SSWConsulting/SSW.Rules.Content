@@ -11,7 +11,7 @@ index:
 - answer-im-questions-in-order
 - update-or-delete-mistakes
 - if-communication-is-not-simple-call-the-person-instead-of-im
-- im-your-contact-to-see-if-theyre-free-before-you-try-calling-them
+- warn-then-try-calling-them
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 - important-chats-should-be-in-an-email
