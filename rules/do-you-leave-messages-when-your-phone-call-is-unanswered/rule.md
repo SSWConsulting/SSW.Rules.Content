@@ -33,6 +33,7 @@ Create a sense of urgency by giving them explicit time frames when you are avail
 ::: greybox
 "Hi Ms. Emma, this is Alvin. Please call me back, thanks."
 :::
+
 ::: bad
 Figure: Bad Example - lacking in communication details, reason for calling and sense of urgency
 :::
@@ -40,6 +41,7 @@ Figure: Bad Example - lacking in communication details, reason for calling and s
 ::: greybox
 "Hi Ms. Emma, this is Alvin Shen from SSW. I am calling to follow up our meeting yesterday about your company website. Please return my call on 02 9953 3000. The best time to reach me is between 9 and 11am today, or between 3 and 5pm tomorrow. My number again is 02 9953 3000. Thank you."
 :::
+
 ::: good
 Figure: Good Example - This communicates important contact details, a reason for calling and implies a response is needed in the next day or so
 :::
