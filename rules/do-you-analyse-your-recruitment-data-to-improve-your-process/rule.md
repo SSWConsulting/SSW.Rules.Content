@@ -19,6 +19,7 @@ In order to give you candidates the best experience, you need to be constantly a
 
 An Applicant Tracking System (ATS) system like LinkedIn Talent Hub gives you the ability to track your recruitment data, as well as your candidates. It allows you to analyse things like:
 
+* How many people applied for particular roles during the process, when, and were there any trends?
 * Your candidate funnel - how many candidates went into the top of the funnel, and how many made it through to each stage of the process.
 * How long it took to recruit someone, from posting the job ad, to signing the contract.
 * When they applied & when they were hired.
