@@ -44,7 +44,7 @@ A pre-release version is for when you want to put out a major version but first 
 
 ## Upgrading packages
 
-As developers we are constantly upgrading the packages we depend on whether it be yarn, npm or NuGet. Understanding Semantic Versioning allows us to upgrade more frequently, for example, if a package Semantic Version indicates there are only bug fixes then why wouldn't we update immediately.
+As developers we are constantly upgrading the packages we depend on whether it be [yarn](https://yarnpkg.com/), [npm](https://www.npmjs.com/) or [NuGet](https://www.nuget.org/). Understanding Semantic Versioning allows us to upgrade more frequently, for example, if a package Semantic Version indicates there are only bug fixes then why wouldn't we update immediately.
 
 The key benefit of Semantic Versioning is that you can be confident about the impact of upgrading to a particular version of a package. So for example, you can be sure that the version only has bug fixes or that it will have breaking changes.
 
