@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do understand the value of Semantic Versioning?
+title: Do you understand the value of Semantic Versioning?
 uri: semantic-versioning
 authors:
   - title: Jason Taylor
