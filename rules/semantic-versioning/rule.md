@@ -27,6 +27,7 @@ Every release should have a new version so that when users provide feedback or b
 ## How it works - When should I increment each version?
 
 ### Patch version
+
 If the current version is 1.1.0 and the new release includes only backwards-compatible bug fixes then the new version number will be 1.1.1 (the patch version has been incremented by 1)
 
 ### Minor version
