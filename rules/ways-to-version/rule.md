@@ -37,4 +37,4 @@ Semantic Versioning has a multi part version eg 2.1.0. Changes in each of the di
 
 Use this if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.
 
-[More about Semantic Versioning](https://www.ssw.com.au/rules/semantic-versioning)
+[More about Semantic Versioning...](https://www.ssw.com.au/rules/semantic-versioning)
