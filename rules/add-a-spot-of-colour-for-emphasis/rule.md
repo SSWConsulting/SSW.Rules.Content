@@ -15,10 +15,10 @@ When there’s some key words that you really want people to notice, We can add 
 
 Make parts of the text different colors just like you’d highlight or boldface parts of a sentence. The duo colored text will help emphasize your message. Whenever possible use the brand colors when you do this.
 
-![Figure: Good example – the TV signage has the important word in red](sswtv-signage.jpg)
+![Figure: The TV signage has the important words in red](sswtv-signage.jpg)
 
-![Figure: See bottom tag line - I would not have that text with the important word “quality software” in red … because you already have red](quality-software-tagline.png)
+![Figure: See bottom tag line - Don't make the important word “quality software” in red... because you already have red](quality-software-tagline.png)
 
-![Figure: See bottom tag line - I would have that text with the important word “quality software” in red … because you do not have red](quality-software-tagline-grey.png)
+![Figure: See bottom tag line - Make the important word “quality software” in red... because you do not have red](quality-software-tagline-grey.png)
 
-![Figure: Chewing the Fat bottom text – is this as per any standard. No Red word because it is the title.](chewing-fat-bottom-text.png)
+![Figure: Chewing the Fat bottom text – is this as per any standard. No red word because it is the title](chewing-fat-bottom-text.png)
