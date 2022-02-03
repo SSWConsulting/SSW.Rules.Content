@@ -18,6 +18,8 @@ related:
 created: 2022-02-02T05:56:54.309Z
 guid: 85ee49a3-ac86-432b-8608-1056b42db8bf
 ---
+![Figure: Good use of Semantic Versioning. Green packages are “patch versions”,  yellow packages are “minor versions” and if there were red packages, you would know to beware as they are “major versions” with breaking changes.](semver.png "Semantic Versioning Example")
+
 Semantic versioning (sometimes called SemVer) allows library developers to communicate with those who use the library. In the old days, people would choose version numbers on gut feel or they would auto generate them. With Semantic Versioning, the version number conveys the type of changes since the last release and if any changes break backwards compatibility. **That way any developer who looks at the version number immediately knows the risk level when they update...**
 
 <!--endintro-->
@@ -65,8 +67,6 @@ The key benefit of Semantic Versioning is that you can be confident about the im
 On the other hand, if you see the first number change, you can be sure it will have breaking changes. If you are upgrading to a major version you should check the release notes.
 
 Regardless, of what version you upgrade to, you still need to test your application functions as normal.
-
-![Figure: Good use of Semantic Versioning. Green packages are “patch versions”,  yellow packages are “minor versions” and if there were red packages, you would know to beware as they are “major versions” with breaking changes.](semver.png "Example of Semantic Versioning")
 
 ## Additional resources
 
