@@ -28,7 +28,7 @@ Use this on things like websites, or when working on a client project where the 
 
 Semantic Versioning has a multi part version eg 2.1.0. Changes in each of the different parts of the version mean different things. This is used to convey information to consumers of the project. 
 
-![](semanticversion.png "Figure: Nuget packages use Semantic Versioning")
+![Figure: Nuget packages use Semantic Versioning](semanticversion.png)
 
 ### When to use
 
