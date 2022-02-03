@@ -7,6 +7,10 @@ authors:
     url: https://www.ssw.com.au/people/jason-taylor/
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: "www.ssw.com.au/people/adam-cogan "
+  - title: Andrew Harris
+    url: www.ssw.com.au/people/andrew-harris
 related:
   - packages-up-to-date
   - only-export-what-is-necessary
@@ -15,10 +19,11 @@ created: 2022-02-02T05:56:54.309Z
 guid: 85ee49a3-ac86-432b-8608-1056b42db8bf
 ---
 Semantic versioning (sometimes called SemVer) allows library developers to communicate with those who use the library. In the old days, people would choose version numbers on gut feel or they would auto generate them. With Semantic Versioning, the version number conveys the type of changes since the last release and if any changes break backwards compatibility. **That way any developer who looks at the version number immediately knows the risk level when they update...**
-            
+
 <!--endintro-->
 
 The structure of Semantic Versioning includes
+
 * A major version e.g. 1.0.0 or 2.0.0
 * A minor version e.g. 1.1.0 or 1.2.0
 * A patch version e.g. 1.1.1 or 1.1.2
@@ -68,4 +73,4 @@ These are some awesome resources for learning more about Semantic Versioning.
 [Semantic Versioning Documentation](https://semver.org)
 
 `youtube: https://youtu.be/embed/rEgevIkqp2o`
-**Video: Donovan Brown's talk on Semantic Versioning**
+**Video: The ever dapper and handsome Donovan Brown's talk on Semantic Versioning**
