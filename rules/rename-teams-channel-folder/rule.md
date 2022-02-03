@@ -10,7 +10,7 @@ guid: 79192d84-f389-46c8-8022-c06b1ebd426c
 ---
 Have you ever made a spelling mistake when you named a Teams channel? Have you then tried to rename the Channel? If so you will notice that the underlying SharePoint folder is still named incorrectly.
 
-![Figure: Badly named channel](renamingachannel1.png)
+![Figure: Badly named channel](renamingachannel0.png)
 
 <!--endintro-->
 
