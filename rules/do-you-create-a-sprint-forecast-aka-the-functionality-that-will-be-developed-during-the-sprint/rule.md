@@ -6,7 +6,10 @@ uri: do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-develope
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
+related:
+  - github-sprint-templates
 redirects:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 created: 2010-12-02T03:53:59.000Z

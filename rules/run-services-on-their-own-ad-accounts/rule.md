@@ -5,6 +5,7 @@ uri: run-services-on-their-own-ad-accounts
 authors:
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kiki
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg
 created: 2021-09-01T00:01:28.761Z
 guid: 84d15d33-025c-45a8-97b4-7c4d35907722
 ---

@@ -1,12 +1,12 @@
 ---
 type: rule
-title: Backups - Do you know the right notification for backups?
+title: PC - Do you know the right notification for backups?
 uri: know-the-right-notification-for-backups
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kiki
 related:
   - pc-do-you-use-the-best-backup-solution
   - rules-to-better-backups

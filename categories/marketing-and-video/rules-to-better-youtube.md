@@ -14,7 +14,6 @@ index:
 - video-thumbnails
 - where-to-upload-work-related-videos
 - sort-videos-into-playlists
-- transcribe-videos
 - transcribe-your-videos
 - keep-audience-happy
 - monitor-youtube-analytics-and-metrics

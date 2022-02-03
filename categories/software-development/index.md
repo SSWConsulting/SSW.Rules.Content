@@ -7,6 +7,9 @@ index:
 - rules-to-better-architecture-and-code-review
 - rules-to-better-azure
 - rules-to-better-devops
+- rules-to-better-devops-using-github
+- rules-to-better-devops-using-azure-devops
+- rules-to-better-azure-devops
 - rules-to-better-mvc
 - rules-to-better-bots
 - rules-to-better-clean-architecture
@@ -50,8 +53,9 @@ index:
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
 - rules-to-better-unit-tests
-- do-you-have-the-best-github-issue-template
 - rules-to-better-naming-conventions
+- rules-to-better-entity-framework
+- rules-to-better-linq
 
 ---
 

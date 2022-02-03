@@ -6,7 +6,7 @@ uri: rules-to-better-giving-and-taking-feedback
 index:
 - how-to-take-feedback-or-criticism
 - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
-- do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
+- do-a-retrospective
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
 - feedback-avoid-chopping-down-every-example
@@ -19,6 +19,8 @@ index:
 - use-off-the-record-conversations
 - do-you-do-monthly-peer-evaluations
 - todo-tasks
+- speak-up
+- the-happiness-equation
 
 ---
 

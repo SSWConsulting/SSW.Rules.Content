@@ -11,6 +11,8 @@ index:
 - continually-improve-processes
 - do-you-evaluate-the-processes
 - do-you-know-how-devops-fits-in-with-scrum
+- do-you-have-a-devops-checklist
+- do-you-know-the-best-free-resources-for-learning-devops
 - why-you-want-to-use-application-insights
 - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
 - do-you-know-how-to-find-performance-problems-with-application-insights
@@ -22,12 +24,16 @@ index:
 - do-you-look-for-code-coverage
 - do-you-use-slack-as-part-of-your-devops
 - do-you-create-a-continuous-integration-build-for-the-solution-before-configuring-continuous-deployment
-- how-to-name-sharepoint-documents
 - do-you-publish-simple-websites-directly-to-windows-azure-from-visual-studio-online
 - use-a-project-portal-for-your-team-and-client
 - do-you-continuously-deploy
 - do-you-use-the-best-deployment-tool
+- do-you-know-that-gated-checkins-mask-dysfunction
+- ways-to-version
+- semantic-versioning
 
 ---
 
 If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
+
+Learn more about [Scrum with Azure DevOps](/rules-to-better-scrum-using-azure-devops).

@@ -19,7 +19,7 @@ index:
 - do-you-make-your-pages-easy-to-access
 - do-you-avoid-redundant-linking-aka-single-link-to-single-location
 - do-you-avoid-linking-a-page-to-itself
-- do-you-know-to-hyperlink-your-phone-numbers-2
+- do-you-know-to-hyperlink-your-phone-numbers
 - do-your-wizards-include-a-wizard-breadcrumb
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
