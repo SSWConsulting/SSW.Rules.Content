@@ -24,7 +24,7 @@ To rename the folder there is a workaround to do this correctly.
 Note this hasn't changed the name of the folder in SharePoint
 
 ![Figure: The folder hasn't changed names](renamingachannel3.png)
-
+:::
 2. Delete the channel
 
    ![Figure: Delete the channel](renamingachannel4.png)
