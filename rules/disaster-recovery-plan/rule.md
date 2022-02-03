@@ -6,7 +6,7 @@ authors:
   - title: Warwick Leahy
     url: https://www.ssw.com.au/people/warwick-leahy
   - title: Matt Goldman
-    url: https://www.ssw.com.au/people/matt-goldman\
+    url: https://www.ssw.com.au/people/matt-goldman
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
 
