@@ -22,7 +22,7 @@ It can also be done differently but the main idea is to use a meaningful sequenc
 
 ![Figure: Word uses Simple Versioning](wordversion.png)
 
-### When to use
+**When to use:**
 
 Use this on things like websites, or when working on a client project where the whole project is all built together and a build is deployed. This is quick and easy for your users to complete.
 
@@ -32,6 +32,6 @@ Semantic Versioning has a multi part version eg 2.1.0. Changes in each of the di
 
 ![Figure: Nuget packages use Semantic Versioning](semanticversion.png)
 
-### When to use
+**When to use:**
 
 Use this if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.
