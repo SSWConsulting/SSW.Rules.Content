@@ -31,10 +31,10 @@ Use this on websites and applications, it is generally found in the Help | About
 
 Semantic Versioning has a multi part version eg 2.1.0. Changes in each of the different parts of the version mean different things. This is used to convey information to consumers of the project. 
 
-![Figure: Nuget packages use Semantic Versioning](semanticversion.png)
+![Figure: Nuget packages use Semantic Versioning (as do APIs)](semanticversion.png)
 
 **When to use:**
 
-Use this if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.
+Use Semantic Versioning if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.
 
-[More about Semantic Versioning...](https://www.ssw.com.au/rules/semantic-versioning)
+More about the value of [Semantic Versioning...](https://www.ssw.com.au/rules/semantic-versioning)
