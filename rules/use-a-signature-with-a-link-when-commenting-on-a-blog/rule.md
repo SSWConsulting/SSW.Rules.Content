@@ -21,7 +21,8 @@ Thanks, that worked for me.\
 Ulysses Maclaren [www.ssw.com.au](https://ssw.com.au/) 
 :::
 ::: good
-Figure: Good example - add your signature (your name and URL) when you comment on  blogs. And note that "thanks" is more casual than the formal "thank you".\
+Figure: Good example - add your signature (your name and URL) when you comment on  blogs. And note that "thanks" is more casual than the formal "thank you".
+
 :::
 
 <!--endintro-->
