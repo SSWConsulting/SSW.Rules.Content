@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Outage - Do you have a disaster recovery plan?
+title: Do you have a disaster recovery plan?
 uri: disaster-recovery-plan
 authors:
   - title: Warwick Leahy
@@ -26,40 +26,40 @@ It's recommended to practice your disaster recovery at least once every 12 month
 
 #### RPO
 
-RPO or Recovery Point Objective, is a measure of the maximum tolerable amount of data that the business can afford to lose during a disaster. It also helps you measure how long it can take between the last data backup and a disaster without seriously damaging your business. RPO is useful for determining how often to perform data backups. Measuring the amount of data lost during a disaster recovery is known as **RPA**.
+RPO or Recovery Point Objective, is a measure of the maximum tolerable amount of data that the business can afford to lose during a disaster. It also helps you measure how long it can take between the last data backup and a disaster without seriously damaging your business. RPO is useful for determining how often to perform data backups.
 
 #### RTO
 
-RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use.  This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required. Measuring the actual downtime is known as **RTA**.
+RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use.  This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required.
 
-#### Priority of Restore
+#### RPA
 
-The product owner must also establish a priority of restore for each Service.  This will determine the order that the recovery team restore services in.
+RPA or Recovery Point Actual, is the actual measurement of the amount of data lost during a disaster recovery.
+
+#### RTA
+
+RTA or Recovery Time Actual, is the actual measurement of downtime during a disaster recovery.
 
 ::: info
-**Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few seconds as even in that few seconds, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
+**Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few minutes as even in that few minutes, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
 :::
 
-### Business Impact Analysis
+### How to calculate these values?\*\*
 
 RTO and RPO are determined via a consultation called BIA (Business Impact Analysis). The organization needs to work out what the maximum amount of data that they are prepared to lose and also the maximum amount of time that they are prepared to be without services. These are both measured in time, and could be seconds, minutes, hours or days depending on the organization's requirements. This is a balancing act as generally the shorter the timeframe required, the more resources the organisation will need in order to achieve the target.  
-
-![Figure: Finding that balance](rtos-rpos-line-graph-smaller.jpg)
 
 After this a disaster should be simulated to test that the RTA/RPA values match the RTO/RPO required by the organization.
 
 - - -
 
-### Example
-
-Mr Bob Northwind experienced a catastrophic incident. The failure occurred at 8pm local time on a Friday night. Their website and sales transaction software were affected.
+**Example:** Mr Bob Northwind experienced a catastrophic incident. The failure occurred at 8pm local time on a Friday night. Their website and sales transaction software were affected.
 
 In his Disaster Recovery Plan he had the following objectives:
 
-| Service           | RPO     | RTO     | Priority |
-| ----------------- | ------- | ------- | -------- |
-| Northwind Website | 2 days  | 4 hours | 1        |
-| Northwind TimePro | 4 hours | 8 hours | 2        |
+| Service           | RPO     | RTO     |
+| ----------------- | ------- | ------- |
+| Northwind Website | 2 days  | 4 hours |
+| North Sales       | 4 hours | 8 hours |
 
 ::::info
 
@@ -72,11 +72,12 @@ After the recovery was complete they then analyzed the downtime which showed the
 | Service           | RPA     | RTA     |
 | ----------------- | ------- | ------- |
 | Northwind Website | 8 hours | 2 days  |
-| Northwind TimePro | 8 hours | 8 hours |
+| North Sales       | 8 hours | 8 hours |
 
 After analyzing the data, they discovered a few issues with their Disaster Recovery Plan:
 
-1. They didn't have any spare hardware on-premises which meant that to get the website backed up and running they needed to find a shop on a weekend to buy a server and then start the recovery process. This delayed them by an entire day.
+1. They didn't have any spare hardware on premises which meant that to get the website backed up and running they needed to find a shop on a weekend to buy a server and then start the recovery process. This delayed them by an entire day.
+
 2. Mr Northwind's IT Manager had mistakenly set the backups to 12-hour backups (at midnight and midday each day). This meant that the most recent backup for both services had occurred at 12pm on Friday and they had 8 hours of missing transactions. The greatest allowable data loss should have only been 4 hours.
 
 **This explains why it is important to practice your disaster recovery plan.** A real incident is not the ideal time to realize that your backup/procedures are inadequate.

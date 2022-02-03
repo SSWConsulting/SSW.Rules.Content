@@ -14,6 +14,7 @@ index:
 - track-project-documents
 - where-to-keep-your-files
 - sync-files-from-teams-to-file-explorer
+- rename-teams-channel-folder
 - teams-add-the-right-tabs
 - make-frequently-accessed-sharepoint-pages-easier-to-find
 - using-the-conversation-tab-to-task-out-work
