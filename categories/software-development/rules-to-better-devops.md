@@ -29,6 +29,8 @@ index:
 - do-you-continuously-deploy
 - do-you-use-the-best-deployment-tool
 - do-you-know-that-gated-checkins-mask-dysfunction
+- ways-to-version
+- semantic-versioning
 
 ---
 
