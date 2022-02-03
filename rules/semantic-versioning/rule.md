@@ -36,7 +36,7 @@ Following on from this, if a new release includes a new backwards-compatible fea
 
 ### Major version
 
-The major version will only be incremented when releasing non-backwards compatible changes. For example, when something has become obsolete or an interface has changed fundamentally.
+The major version will only be incremented when releasing non-backwards compatible changes. For example, when something has become obsolete or an interface has changed fundamentally. When the Major version is incremented the minor and patch version both reset to 0.
 
 ### Pre-release version
 
