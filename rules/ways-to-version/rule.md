@@ -18,13 +18,15 @@ There are 2 very common types of software versioning. Knowing when it is appropr
 
 Simple Versioning is using a single incrementing sequence of integers to denote a version. This is an easy versioning scheme to automate, and the most common example of this is to quote the build number as the version. This means any user of the system can quote a version that developers can easily identify when reporting issues.
 
-It can also be done differently but the main idea is to use a meaningful sequence of integers. For example, in Microsoft Office they use the last two numbers of the year and the first two numbers of the month. e.g. 2201
+It can also be done differently but the main idea is to use a meaningful sequence of integers. For example, in Microsoft Office they use the last two numbers of the year and the two numbers of the month. e.g. 2201
+
+If the Microsoft Office user also wants the hairy details, Microsoft also gives them the less user-friendly build number.
 
 ![Figure: Word uses Simple Versioning](wordversion.png)
 
 **When to use:**
 
-Use this on things like websites, or when working on a client project where the whole project is all built together and a build is deployed. This is quick and easy for your users to complete.
+Use this on websites and applications, it is generally found in the Help | About area. It is especially great on custom client projects where the whole project is all built together and a build is deployed. This is a quick and easy reference for your users.
 
 ## Semantic Versioning
 
