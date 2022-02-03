@@ -10,6 +10,7 @@ authors:
 related:
   - packages-up-to-date
   - only-export-what-is-necessary
+  - ways-to-version
 created: 2022-02-02T05:56:54.309Z
 guid: 85ee49a3-ac86-432b-8608-1056b42db8bf
 ---
@@ -67,4 +68,4 @@ These are some awesome resources for learning more about Semantic Versioning.
 [Semantic Versioning Documentation](https://semver.org)
 
 `youtube: https://youtu.be/embed/rEgevIkqp2o`
-**Video: The Donovan Brown's talk on Semantic Versioning**
+**Video: Donovan Brown's talk on Semantic Versioning**
