@@ -54,9 +54,9 @@ So a pre-release version might look like 1.0.0-preview1
 
 As developers we are constantly upgrading the packages we depend on whether it be [yarn](https://yarnpkg.com/), [npm](https://www.npmjs.com/) or [NuGet](https://www.nuget.org/). Understanding Semantic Versioning allows us to upgrade more frequently, for example, if a package Semantic Version indicates there are only bug fixes then why wouldn't we update immediately.
 
-The key benefit of Semantic Versioning is that you can be confident about the impact of upgrading to a particular version of a package. So, if you see the third number change you can be sure it only has bug fixes. Likewise, if you see the first number change you can be sure it will have breaking changes.
+The key benefit of Semantic Versioning is that you can be confident about the impact of upgrading to a particular version of a package. So, if you see the third number change, you can be sure it only has bug fixes. 
 
-If we are upgrading to a major version you should check the release notes so you understand what the breaking changes are and how it will impact the solution.
+On the other hand, if you see the first number change, you can be sure it will have breaking changes. If you are upgrading to a major version you should check the release notes.
 
 Regardless, of what version you upgrade to, you still need to test your application functions as normal.
 
@@ -67,4 +67,4 @@ These are some awesome resources for learning more about Semantic Versioning.
 [Semantic Versioning Documentation](https://semver.org)
 
 `youtube: https://youtu.be/embed/rEgevIkqp2o`
-**Video: Donovan Brown's talk on Semantic Versioning**
+**Video: The Donovan Brown's talk on Semantic Versioning**
