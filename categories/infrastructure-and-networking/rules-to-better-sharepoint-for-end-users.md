@@ -10,6 +10,7 @@ index:
 - how-to-view-changes-made-to-a-sharepoint-page
 - keyboard-shortcuts
 - do-you-know-why-you-should-use-open-with-explorer-over-skydrive-pro
+- rename-teams-channel-folder
 
 ---
 
