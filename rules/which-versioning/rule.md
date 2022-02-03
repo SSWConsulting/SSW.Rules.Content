@@ -1,0 +1,20 @@
+---
+type: rule
+title: Do you know which kind of versioning to use?
+uri: which-versioning
+authors:
+  - title: Bryden Oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
+related:
+  - semantic-versioning
+created: 2022-02-02T23:56:48.795Z
+guid: a50fc8ba-3ce8-42c4-b16f-ccc74cd5821b
+---
+There are 2 very common types of software versioning. Knowing when it is appropriate to use each is important.
+<!--endintro-->
+
+### Simple Versioning
+Simple Versioning is using a single incrementing sequence of integers to denote a version. This is an easy versioning scheme to automate, and the most common example of this is to quote the build number as the version. This means any user of the system can quote a version that developers can easily identify when reporting issues. This is typically used on things like websites, or when working on a client project where the whole project is all built together and a build is deployed.
+
+### Semantic Versioning
+Semantic Versioning has a multi part version eg 2.1.0. Changes in each of the different parts of the version mean different things. This is used to convey information to consumers of the project. This is typically used with libraries or APIs where it's important to easily convey whether a consumer might expect breaking changes.
