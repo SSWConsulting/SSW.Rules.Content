@@ -26,6 +26,7 @@ index:
 - review-your-intranet-for-classic-pages
 - search-employee-skills
 - sharepoint-removing-orphaned-users
+- sharepoint-flat-hierarchy
 
 ---
 

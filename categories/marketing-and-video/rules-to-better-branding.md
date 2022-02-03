@@ -17,6 +17,7 @@ index:
 - consistent-phone-message
 - coffee-mugs-branding
 - brand-your-assets
+- make-your-presents-branded
 - do-you-brand-your-takeaway-coffee-cups
 - do-you-use-identifying-company-logo-motifs
 - have-urls-to-your-main-services-on-linkedin

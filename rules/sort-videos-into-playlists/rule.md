@@ -27,6 +27,8 @@ When uploading your videos to YouTube, your channel can look like a laundry bask
 
 The first step is to define your content, and then create a visual identifier by using [personalised video thumbnails](https://www.ssw.com.au/rules/video-thumbnails).
 
+`youtube: https://www.youtube.com/embed/lh5WcImQzRY`
+
 ::: good
 ![Good Example: Content is sorted into playlists that have their own unique thumbnail theme](youtube-playlists-good.png)
 :::

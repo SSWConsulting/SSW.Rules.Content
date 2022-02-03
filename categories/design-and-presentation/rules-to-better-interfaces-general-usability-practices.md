@@ -41,7 +41,8 @@ index:
 - do-you-make-your-cancel-button-less-obvious
 - show-inactive-record
 - do-you-understand-the-importance-of-language-in-your-ui
-- do-you-use-commas-on-more-than-3-figures-numbers
+- make-numbers-more-readable
+- add-a-spot-of-color-for-emphasis
 
 ---
 

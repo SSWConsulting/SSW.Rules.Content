@@ -1,19 +1,18 @@
 ---
 type: rule
-archivedreason: 
 title: Appointments - Do you make sure your appointment has a good subject?
-guid: 0b42cf46-4576-44bb-895b-daf6f883ac22
 uri: appointments-do-you-show-all-the-necessary-information-in-the-subject
-created: 2009-04-03T06:27:53.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
 related: []
 redirects:
-- appointments-do-you-make-sure-your-appointment-has-a-good-subject
-
+  - appointments-do-you-make-sure-your-appointment-has-a-good-subject
+created: 2009-04-03T06:27:53.000Z
+archivedreason: null
+guid: 0b42cf46-4576-44bb-895b-daf6f883ac22
 ---
 
 When sending an appointment, it's a good idea to choose your subject/title intelligently so that people can see all the information they need to see on the Subject of the Appointment.
@@ -29,7 +28,7 @@ For example, if the appointment is a meeting request you should include the name
 
 
 ::: good  
-![Figure: Good Example - Appointment subject with all of the relevant information shown](ApptSubjectGood\_small.jpg)  
+![Figure: Good Example - Appointment subjects are better when they can be read from both sides e.g. Include both names](ApptSubjectGood\_small.jpg)  
 :::
 
 CRM users making bookings should [keep their naming standards consistent.](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)

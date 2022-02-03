@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Planned - Do you have a planned outage process?
+title: Outage - Do you have a planned outage process?
 uri: planned-outage-process
 authors:
   - title: Adam Cogan
@@ -20,7 +20,7 @@ guid: eb97dfa8-5bb8-4e19-932a-76d6f2f655fd
 
 ---
 
-For unplanned outages, see [Unplanned - Do you have an unplanned outage process?](/unplanned-outage-process)
+For unplanned outages, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
 
@@ -100,7 +100,7 @@ To show others who are interested in what needs to be done to fix the problem:
 
 1. Restore server from backup
 
-**Note:** &lt;This is as per rule [What is your server reboot/restart policy?](/have-a-server-reboot-restart-policy) &gt;
+**Note:** &lt;This is as per rule [Outage - Do you have a planned outage process?](/planned-outage-process) &gt;
 
 :::
 ::: 

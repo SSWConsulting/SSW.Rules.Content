@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/warwick-leahy
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kiki
 created: 2021-10-11T00:20:18.145Z
 guid: 0668c3fd-3946-42cc-8712-80a46712162d
 ---
@@ -75,6 +77,7 @@ After the recovery was complete they then analyzed the downtime which showed the
 After analyzing the data, they discovered a few issues with their Disaster Recovery Plan:
 
 1. They didn't have any spare hardware on premises which meant that to get the website backed up and running they needed to find a shop on a weekend to buy a server and then start the recovery process. This delayed them by an entire day.
+
 2. Mr Northwind's IT Manager had mistakenly set the backups to 12-hour backups (at midnight and midday each day). This meant that the most recent backup for both services had occurred at 12pm on Friday and they had 8 hours of missing transactions. The greatest allowable data loss should have only been 4 hours.
 
 **This explains why it is important to practice your disaster recovery plan.** A real incident is not the ideal time to realize that your backup/procedures are inadequate.
