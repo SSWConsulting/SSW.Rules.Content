@@ -66,7 +66,7 @@ On the other hand, if you see the first number change, you can be sure it will h
 
 Regardless, of what version you upgrade to, you still need to test your application functions as normal.
 
-![Figure: Good use of Semantic Versioning. Green packages are “patch versions”,  yellow packages are “minor versions” and if there were red packages, you would know to beware as they are “major versions” with breaking changes.](semver.png "Example of Semantic Versioning")
+![Figure: Good use of Semantic Versioning. Green packages are “patch versions”,  yellow packages are “minor versions” and if there were red packages, you would know to beware as they are “major versions” with breaking changes.](semver.png "Semantic Versioning Example")
 
 ## Additional resources
 
