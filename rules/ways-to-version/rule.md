@@ -5,8 +5,7 @@ uri: ways-to-version
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
-related:
-  - semantic-versioning
+related: []
 created: 2022-02-02T23:56:48.795Z
 guid: a50fc8ba-3ce8-42c4-b16f-ccc74cd5821b
 ---
@@ -37,3 +36,5 @@ Semantic Versioning has a multi part version eg 2.1.0. Changes in each of the di
 **When to use:**
 
 Use this if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.
+
+[More about Semantic Versioning](https://www.ssw.com.au/rules/semantic-versioning)
