@@ -13,18 +13,20 @@ Microsoft Forms and Google Forms provide an invaluable way of collecting data fr
 Therefore, create a last question where they rate the form's questions from their perspective. That way you've got metrics to make better forms in the future. 
 
 Let's take a look...
-            
+
 <!--endintro-->
 
 There are 2 steps to getting objective data about forms.
 
 ### 1 - Measure the value
 
-The best way to measure value is simply to ask your users. Put a question at the bottom of your form and ask them to give it a rating out of 5. For reporting, word this question the same way each time so that you can easily consolidate the results in a reporting platform like Power BI.
+The best way to measure value is simply to ask your users. Put a question at the bottom of your form and ask them to give it a rating out of 5. 
 
-TODO: Add screenshot of form question (make sure to mention it should exactly match)
+![Figure: Add a question asking your users for the value of the form (make sure the question is always the same)](askthevalueofyourform.png)
 
-TODO: Add the Power BI report image
+For reporting, word this question the same way each time so that you can easily consolidate the results in a reporting platform like Power BI.
+
+![Figure: Using Power BI you can check what value you are getting out of your forms](measurethevalueofyourformblurred.png)
 
 ### 2 - Educate the users
 
