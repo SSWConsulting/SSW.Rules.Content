@@ -58,7 +58,7 @@ Location (optional):\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 **Warning:** If you are using OneDrive, it is not possible to change the root directory folder name. Normally, the root directory folder has a space in it ("OneDrive - SSW"), so keep that in mind when trying to run script or code from the OneDrive folder.
 
 When you choose a location in OneDrive, it will always create the main root folder called "OneDrive - (YourOrganization)". Use this folder to store your files.
-E.g. Create a folder in C: with Data and your username, for example, "C:\DataKaiqueBiancatti", and choose that folder to be your main OneDrive folder. It will automatically create a new folder inside it:
+E.g. Create a folder with your username in the root of C: prefix the folder with Data, for example, "C:\DataKaiqueBiancatti", and choose that folder to be your main OneDrive folder. It will automatically create a new folder inside it:
 
 ::: good
 ![Figure: Good Example - Location of Data\(YourUserName) with OneDrive - (YourOrganization) folder in it](onedrive.png)
