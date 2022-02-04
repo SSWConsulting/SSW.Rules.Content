@@ -74,5 +74,5 @@ These are some awesome resources for learning more about Semantic Versioning.
 
 [Semantic Versioning Documentation](https://semver.org)
 
-`youtube: https://youtu.be/embed/rEgevIkqp2o`
+`youtube: https://www.youtube.com/embed/rEgevIkqp2o`
 **Video: The ever dapper and handsome Donovan Brown's talk on Semantic Versioning**
