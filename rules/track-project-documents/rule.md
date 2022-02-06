@@ -1,26 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Files - Do you store project documents in Teams?
-guid: 0ae0371f-7ff3-47af-ac51-ea78ef41a459
 uri: track-project-documents
-created: 2018-07-30T01:05:40.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-- title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
-related: 
-- sync-files-from-teams-to-file-explorer
-- sales-do-you-track-all-sales-related-activities-in-crm
-- integrate-dynamics-365-and-microsoft-teams
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
+related:
+  - sync-files-from-teams-to-file-explorer
+  - sales-do-you-track-all-sales-related-activities-in-crm
+  - integrate-dynamics-365-and-microsoft-teams
 redirects:
-- the-best-place-to-store-documents-and-share-them
-- rules-to-better-microsoft-teams-the-best-place-to-store-documents-and-share-them
-- files-do-you-store-project-documents-in-teams
-
+  - the-best-place-to-store-documents-and-share-them
+  - rules-to-better-microsoft-teams-the-best-place-to-store-documents-and-share-them
+  - files-do-you-store-project-documents-in-teams
+created: 2018-07-30T01:05:40.000Z
+archivedreason: null
+guid: 0ae0371f-7ff3-47af-ac51-ea78ef41a459
 ---
 
 There is a myriad of options to choose from when storing and sharing documents: SharePoint, or OneDrive/Dropbox/Google Drive, or Microsoft Teams. The best choice is **Microsoft Teams** because it brings together the best of SharePoint, cloud file storage, real time collaboration and more into a single location.
@@ -59,6 +58,11 @@ Behind the scenes, storage is provided by a SharePoint site; so that is there if
 
 ::: good  
 ![Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced.](teams - sync onedrive.png)  
+:::
+
+::: greybox
+**Note** 
+If you realise later that you have created a client document and not saved it to Teams but have uploaded it to Onedrive instead then to keep the file history you should Sync Teams to your drive and copy the file locally.  This will keep the file version history.  Uploading the file in Teams loses that history so you may end up with an old client Team containing notes that appear to be new.
 :::
 
 ### What does not get stored in Microsoft Teams? 
