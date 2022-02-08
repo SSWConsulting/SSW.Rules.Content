@@ -20,6 +20,7 @@ redirects:
 created: 2018-07-30T01:05:40.000Z
 archivedreason: null
 guid: 0ae0371f-7ff3-47af-ac51-ea78ef41a459
+
 ---
 
 There is a myriad of options to choose from when storing and sharing documents: SharePoint, or OneDrive/Dropbox/Google Drive, or Microsoft Teams. The best choice is **Microsoft Teams** because it brings together the best of SharePoint, cloud file storage, real time collaboration and more into a single location.
@@ -57,7 +58,7 @@ Behind the scenes, storage is provided by a SharePoint site; so that is there if
 :::
 
 ::: good  
-![Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced.](teams - sync onedrive.png)  
+![Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced](teams - sync onedrive.png)  
 :::
 
 ::: greybox
