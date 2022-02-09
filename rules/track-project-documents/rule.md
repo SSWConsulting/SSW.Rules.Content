@@ -41,15 +41,11 @@ Want to learn more? Watch Jean Thirion's longer video on this topic!
 
 `youtube: https://www.youtube.com/embed/Mna0QBFB6CU`
 
-::: bad\
-!\[Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)\
-:::
+![Figure: Bad Example - You shouldn't look for files on network shares](https://www.ssw.com.au/rules/static/0229b18de57f44d63a8390b1ce886008/1d69c/teams%20-%20network%20share.png "Figure: Bad Example - You shouldn't look for files on network shares")
 
 Don't start searching from your start menu either for a program whether that be Notepad, Notpad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later.  It's easy to forget to do.
 
-::: bad
-!\[Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
-:::
+![Figure: Bad Example - You shouldn't create files locally first and then copy them](https://www.ssw.com.au/rules/static/89e4eda85d3e7ed9c3fe25f804179050/5c6e9/teams%20-%20Not%20from%20start%20menu.png)
 
 Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
 
