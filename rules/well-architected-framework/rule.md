@@ -11,13 +11,9 @@ related:
 created: 2022-02-10T07:49:50.377Z
 guid: 16cd6da6-fbe3-4234-ae55-6281bccc5279
 ---
-
-
 **What is it?**
 
 The Well-Architected Framework is a set of best practices which form a repeatable process for designing solution architecture, to help identify potential issues and optimise workloads.
-
- 
 
 **5 Pillars**
 
@@ -27,13 +23,9 @@ The Well-Architected Framework is a set of best practices which form a repeatabl
 * Security – Protecting from threats and bad actors <https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-principles>
 * Operational Excellence **(DevOps)** – Deploying and managing workloads once deployed <https://docs.microsoft.com/en-us/azure/architecture/framework/devops/principles>
 
- 
-
 **Trade-offs**
 
 There are trade-offs to be made between these pillars. E.g. improving reliability by adding Azure regions and backup points will increase the cost
-
- 
 
 **Why use it?**
 
@@ -41,10 +33,10 @@ Thinking about architecting workloads can be hard – you need to think about ma
 
 Just like Agile, this is intended to be applied for continuous improvement throughout development and not just an initial step when starting a new project. It is less about architecting the perfect workload and more about maintaining a well-architected state and an understanding of optimisations that could be implemented.
 
- 
-
 **Next**
 
 Assess your workload against the 5 pillars of WAF with the Microsoft Azure Well-Architected Review <https://docs.microsoft.com/en-us/assessments/?mode=pre-assessment>
 
-<!--EndFragment-->
+Add any recommendations from the assessment results to your backlog.
+
+![](reliability.png "Figure: These recommended actions should be added to the backlog")
