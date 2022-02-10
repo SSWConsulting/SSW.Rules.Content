@@ -12,8 +12,6 @@ related:
 created: 2022-02-10T07:49:50.377Z
 guid: 16cd6da6-fbe3-4234-ae55-6281bccc5279
 ---
-![]()
-
 The Well-Architected Framework is a set of best practices which form a repeatable process for designing solution architecture, to help identify potential issues and optimize workloads.
 
 ![Figure: The Well-Architected Framework includes the five pillars of architectural excellence. Surrounding the Well-Architected Framework are six supporting elements](waf-diagram-revised.png)
