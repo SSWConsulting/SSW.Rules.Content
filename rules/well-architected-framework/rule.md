@@ -11,6 +11,7 @@ related:
 created: 2022-02-10T07:49:50.377Z
 guid: 16cd6da6-fbe3-4234-ae55-6281bccc5279
 ---
+
 The Well-Architected Framework is a set of best practices which form a repeatable process for designing solution architecture, to help identify potential issues and optimize workloads.
 
 ![Figure: The Well-Architected Framework includes the five pillars of architectural excellence. Surrounding the Well-Architected Framework are six supporting elements](waf-diagram-revised.png)
@@ -38,3 +39,4 @@ Just like Agile, this is intended to be applied for continuous improvement throu
 ### What to do next?
 
 [Assess your workload against the 5 Pillars of WAF with the Microsoft Azure Well-Architected Review](https://docs.microsoft.com/en-us/assessments/?mode=pre-assessment).
+
