@@ -9,7 +9,7 @@ related:
 created: 2022-02-09T23:16:53.094Z
 guid: 867eba1d-ddf7-452c-bf13-1735a5a3b123
 ---
-The default message size limit in Exchange Online is 25MB. Even though email attachments are not the best way to share a large file, sometimes it is the only option - and these days, 25MB is quite small. This default limit should be increased; it is easy to do so from the Exchange admin center.
+The default message size limit in Exchange Online is 25MB. Even though email attachments are not the best way to share a large file, sometimes it is the only option - and these days, 25MB is quite small. This default limit should be increased; it is easy to do so from the Exchange admin center or Exchange Management Shell.
 
 <!--endintro-->
 
@@ -28,7 +28,7 @@ Note that this will only apply to new mailboxes. To change the restrictions for 
 
 ### Changing message limits in Exchange Management Shell
 
-Of course, this can also be done with the [Exchange Management Shell](https://docs.microsoft.com/en-us/exchange/recipients/user-mailboxes/mailbox-message-size-limits?view=exchserver-2019#use-the-exchange-management-shell-to-configure-message-size-limits), for example:
+Of course, this can also be done with the Exchange Management Shell, for example:
 
 <!--StartFragment-->
 
