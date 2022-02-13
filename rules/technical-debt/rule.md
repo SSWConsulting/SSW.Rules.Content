@@ -39,7 +39,7 @@ As new features are added to the system, often more Technical Debt will be intro
 * $80 - IOU via PBI in the backlog e.g. \[FeatureName] – Tech Debt - Planned
 
 ::: good
-![Figure: Good example - Tech Debt is very visible to the Product Owner](waf-tech-debt-backlog.png)
+![Figure: Good example - Tech Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind.png)
 :::
 
 ### What are the consequences of Technical Debt?

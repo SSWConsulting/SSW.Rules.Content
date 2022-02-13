@@ -42,8 +42,8 @@ Just like Agile, this is intended to be applied for continuous improvement throu
 
 ![Figure: Some recommendations will be checked, others go to the backlog so the Product Owner can prioritize](waf-assessment.png)
 
-![Figure: Recommended actions results show things to be improved](waf-reliability-results.png)
+![Figure: Recommended actions results show things to be improved](waf-reliability-results-2.png)
 
 ::: good
-![Figure: Good example - WAF is very visible to the Product Owner on the backlog](waf-tech-debt-backlog.png) 
+![Figure: Good example - WAF is very visible to the Product Owner on the backlog](waf-tech-debt-backlog-northwind.png) 
 :::
