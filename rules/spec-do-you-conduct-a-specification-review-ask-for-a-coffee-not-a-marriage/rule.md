@@ -19,9 +19,7 @@ redirects:
 created: 2009-03-03T05:04:02.000Z
 archivedreason: null
 guid: fa87520c-c384-4372-855d-984c7600e5f9
-
 ---
-
 A client will often ask for a proposal or ballpark for the project. It is very difficult to give them the price for a large project without first conducting a Specification Review. 
 
 The Spec Review is a process that will demonstrate to the client whether you have the commercial sense to understand their **business** and have the technical and management capacity to complete the project.
@@ -105,6 +103,11 @@ You should follow [Rules to Better Proposals](/rules-to-better-proposals) when d
 ### Test Please
 
 The Consultant must run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) by another developer and your Account Manager before anything is formally presented to the client.
+
+Note: Main things the Account Manager will be looking for will be:
+
+* Have you already had corridor conversations with the client so they're already expecting the ballpark estimate?
+* Are the estimates realistic and still incorporating any relevant buffers? e.g. Project Management, Bug fixing, etc.
 
 ::: greybox
 **Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover. 

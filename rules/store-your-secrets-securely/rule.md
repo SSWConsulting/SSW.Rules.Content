@@ -3,27 +3,26 @@ type: rule
 title: Do you store your secrets securely?
 uri: store-your-secrets-securely
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
-- title: Bryden Oliver
-  url: https://ssw.com.au/people/bryden-oliver
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Andrew Lean
-  url: https://ssw.com.au/people/andrew-lean
-- title: William Liebenberg
-  url: https://www.ssw.com.au/people/william-liebenberg
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Mehmet Ozdemir
+    url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Bryden Oliver
+    url: https://ssw.com.au/people/bryden-oliver
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Andrew Lean
+    url: https://ssw.com.au/people/andrew-lean
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related: []
 redirects:
   - do-you-store-your-secrets-securely
 created: 2016-04-28T19:19:40.000Z
 archivedreason: null
 guid: 57dc15ba-605a-4a71-8b0e-d9f1551b9fc0
-
 ---
 
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few.
@@ -236,5 +235,5 @@ The following resources show some concrete examples on how to apply the principl
 * https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows
 * https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15
 * https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x
-* https://www.youtube.com/embed/-aTlON-UCVM
+* https://www.youtube.com/watch?v=F9H0txgz0ns
 

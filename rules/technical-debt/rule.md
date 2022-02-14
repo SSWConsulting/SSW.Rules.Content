@@ -1,24 +1,23 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the importance of paying back technical debt?
-guid: de86d886-3341-43d0-a487-5e8b3cee3938
 uri: technical-debt
-created: 2020-12-16T23:19:05.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-related: 
-- refactor-your-code-and-keep-methods-short
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+related:
+  - refactor-your-code-and-keep-methods-short
+  - well-architected-framework
 redirects:
-- do-you-know-the-importance-of-paying-back-technical-debt
-
+  - do-you-know-the-importance-of-paying-back-technical-debt
+created: 2020-12-16T23:19:05.000Z
+archivedreason: null
+guid: de86d886-3341-43d0-a487-5e8b3cee3938
 ---
-
 ### What is Technical Debt?
 
 Technical Debt is when you take a shortcut to get a feature in to get some feedback.
@@ -37,10 +36,10 @@ As new features are added to the system, often more Technical Debt will be intro
 
 * $100 - full feature
 * $20 - feature with shortcuts (no tests, dirty code, whatever it takes)
-* $80 - IOU via PBI in the backlog e.g. [FeatureName] – Tech Debt - Planned
+* $80 - IOU via PBI in the backlog e.g. \[FeatureName] – Tech Debt - Planned
 
-::: good  
-![Figure: Good example - Tech Debt is very visible to the Product Owner](tech-debt-good-example.png)  
+::: good
+![Figure: Good example - Tech Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind.png)
 :::
 
 ### What are the consequences of Technical Debt?
@@ -50,12 +49,12 @@ As new features are added to the system, often more Technical Debt will be intro
 
 ### The 2 types of Technical Debt
 
-#### 1. Planned Technical Debt  
+#### 1. Planned Technical Debt
 
 Sometimes you do want to quickly implement a new feature to get it out and receive some feedback.
 
 ::: greybox
-PBI: **[FeatureName] – Tech Debt - Planned** 
+PBI: **\[FeatureName] – Tech Debt - Planned** 
 :::
 
 **Note:** Martin Fowler calls this "Deliberate Technical Debt".
@@ -65,7 +64,7 @@ PBI: **[FeatureName] – Tech Debt - Planned**
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
 ::: greybox
-PBI: **[FeatureName] – Tech Debt - Discovered** 
+PBI: **\[FeatureName] – Tech Debt - Discovered** 
 :::
 
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".
@@ -81,8 +80,8 @@ At the Sprint Planning:
 
 ### Screenshots
 
-![Figure: Screenshot of code with tech debt comment and link to GitHub issue](techdebt-github.png)  
+![Figure: Screenshot of code with tech debt comment and link to GitHub issue](techdebt-github.png)
 
-![Figure: Screenshot of tech debt on backlog](techdebt-backlog.png)  
+![Figure: Screenshot of tech debt on backlog](techdebt-backlog.png)
 
 ![Figure: SugarLearning architecture diagram](techdebt-architecture.png)

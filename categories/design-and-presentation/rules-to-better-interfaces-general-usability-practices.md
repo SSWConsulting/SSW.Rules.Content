@@ -42,6 +42,7 @@ index:
 - show-inactive-record
 - do-you-understand-the-importance-of-language-in-your-ui
 - make-numbers-more-readable
+- add-a-spot-of-color-for-emphasis
 
 ---
 
