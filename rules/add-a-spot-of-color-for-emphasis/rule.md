@@ -4,6 +4,7 @@ title: Do you add a spot of color for emphasis?
 uri: add-a-spot-of-color-for-emphasis
 authors:
   - title: Ken Shi
+    url: https://www.ssw.com.au/people/ken-shi
 created: 2022-01-19T08:12:12.138Z
 guid: 94dbbef5-a1ac-4369-8955-45152590f1f4
 
