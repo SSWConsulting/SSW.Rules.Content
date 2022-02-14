@@ -8,6 +8,7 @@ index:
 - have-azure-active-directory-password-hash-synchronization-activated
 - have-skype-for-business-setup-in-hybrid-to-get-the-full-functionality-out-of-teams
 - integrate-dynamics-365-and-microsoft-teams
+- change-message-size-restrictions-exchange-online
 
 ---
 If you still need help, [visit our Office 365 consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Office-365.aspx) and book in a consultant.
