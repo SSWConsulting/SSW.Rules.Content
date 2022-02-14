@@ -7,7 +7,6 @@ authors:
     url: https://www.ssw.com.au/people/ken-shi
 created: 2022-01-19T08:12:12.138Z
 guid: 94dbbef5-a1ac-4369-8955-45152590f1f4
-
 ---
 
 When there’s some key words that you really want people to notice, We can add a spot of color for the important word to create emphasis. 
@@ -22,4 +21,4 @@ Make parts of the text different colors just like you’d highlight or boldface 
 
 ![Figure: See bottom tag line - Make the important word “quality software” in red... because you do not have red](quality-software-tagline-grey.png)
 
-![Figure: Chewing the Fat bottom text – is this as per any standard. No red word because it is the title](chewing-fat-bottom-text.png)
+![Figure: Chewing the Fat bottom text. No red word because it is the title](chewing-fat-bottom-text.png)
