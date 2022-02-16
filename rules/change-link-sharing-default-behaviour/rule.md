@@ -25,7 +25,7 @@ To fix this issue you need to change the default sharing method.  There are 2 wa
 1. In the SharePoint Admin site select the SharePoint site and click Sharing
 
    ![Figure: Select Sharing](defaultsharinglinktype1.png)
-2. Untick same as organization-level setting | Select People with existing access
+2. Untick same as organization-level setting | Select People with existing access | Click Save
 
    ![Figure: Select people with existing access](defaultsharinglinktype2.png)
 
