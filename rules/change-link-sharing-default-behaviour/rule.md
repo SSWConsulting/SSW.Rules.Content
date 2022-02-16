@@ -31,6 +31,26 @@ To fix this issue you need to change the default sharing method.  There are 2 wa
 
 1. Run the following script to change this default for all sites in your SharePoint Hub-Site - This could be extended to include all sites in your tenant if required.
 
-   ```
+```
+#Variables
+$AdminCenterURL = "https://sswcom-northwind.sharepoint.com"
+$HubSiteURL = "https://sswcom.northwind.com"
 
-   ```
+ 
+#Connect to Pnp Online
+Connect-PnPOnline -Url $AdminCenterURL -Interactive
+ 
+#Get the children of the main HubSite
+$hub = Get-PnPHubSiteChild -Identity $HubSiteURL
+
+
+foreach ($url in $hub)
+{
+    #Remove the "Same as organization-level" setting. Can be set to anything Internal, None or Direct.  
+    Set-PnPTenantSite -Url $url -DefaultSharingLinkType Internal
+
+    #Set the Default Link type to be Existing Access
+    Set-PnPTenantSite -Url $url -DefaultLinkToExistingAccess $true
+    
+}
+```
