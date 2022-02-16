@@ -5,6 +5,12 @@ uri: well-architected-framework
 authors:
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Bryden Oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
 related:
   - cloud-architect
   - the-goal-of-devops
