@@ -5,6 +5,8 @@ uri: change-link-sharing-default-behaviour
 authors:
   - title: Warwick Leahy
     url: warwick-leahy
+  - title: Jean Thirion
+    url: jean-thirion
 created: 2022-02-07T00:14:18.003Z
 guid: 086a184c-b63f-4726-9eb7-bfd6fef3432a
 ---
