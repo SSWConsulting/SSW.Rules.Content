@@ -29,6 +29,7 @@ To fix this issue you need to change the default sharing method.  There are 2 wa
 
    ![Figure: Select people with existing access](defaultsharinglinktype2.png)
 
+3. Repeat for each site
 ## Method 2 - Automatically via PowerShell
 
 1. Run the following script to change this default for all sites in your SharePoint Hub-Site - This could be extended to include all sites in your tenant if required.
