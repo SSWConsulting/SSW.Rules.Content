@@ -14,13 +14,15 @@ If you are checking your sites permissions regularly you will probably notice a 
 
 ![Figure: Some items may have unique permissions](uniquepermissions.png)
 
-If you regularly see this then your staff may be accidentally doing this.  The default "Copy Link" in SharePoint is usually set to People from your organization can view this document.  This creates a sharing link each time it is used, giving people access to the file even if they didn't already.  Instead they should be created with the "People with existing access tag"
+The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document".  This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
+
+Consequence in SharePoint is that unique permissions are applied to the individual items breaking permission inheritance.  Links should instead be created with the "People with existing access" setting.
 
 <!--endintro-->
 
-To fix this issue you need to change the default sharing method.  There are 2 ways to do this - manually via the GUI or automatically via PowerShell using PNP.
+To fix the issue you need to change the default sharing method.  There are 2 ways to do this - manually via the GUI or programmatically via PNP.PowerShell.
 
-## Method 1 - Manually via SharePoint Admin
+## Method 1 - Manually via SharePoint Admin GUI
 
 1. In the SharePoint Admin site select the SharePoint site and click Sharing
 
@@ -30,9 +32,10 @@ To fix this issue you need to change the default sharing method.  There are 2 wa
    ![Figure: Select people with existing access](defaultsharinglinktype2.png)
 
 3. Repeat for each site
-## Method 2 - Automatically via PowerShell
 
-1. Run the following script to change this default for all sites in your SharePoint Hub-Site - This could be extended to include all sites in your tenant if required.
+## Method 2 - Programmatically via PNP.PowerShell
+
+1. Run the following script to change this default for all sites associated to your SharePoint Hub-Site - This could be extended to include all sites in your tenant if required.
 
 ```
 #Variables
@@ -44,16 +47,16 @@ $HubSiteURL = "https://sswcom.northwind.com"
 Connect-PnPOnline -Url $AdminCenterURL -Interactive
  
 #Get the children of the main HubSite
-$hub = Get-PnPHubSiteChild -Identity $HubSiteURL
+$Hub = Get-PnPHubSiteChild -Identity $HubSiteURL
 
 
-foreach ($url in $hub)
+foreach ($Url in $Hub)
 {
     #Remove the "Same as organization-level" setting. Can be set to anything Internal, None or Direct.  
-    Set-PnPTenantSite -Url $url -DefaultSharingLinkType Internal
+    Set-PnPTenantSite -Url $Url -DefaultSharingLinkType Internal
 
     #Set the Default Link type to be Existing Access
-    Set-PnPTenantSite -Url $url -DefaultLinkToExistingAccess $true
+    Set-PnPTenantSite -Url $Url -DefaultLinkToExistingAccess $true
     
 }
 ```
