@@ -33,9 +33,13 @@ To get that URL, simply click the ellipsis next to your Team name and click "Get
 
 **TODO: Lu to update**
 
+Add a button to the Ribbon to provision a new team and link to it 
+
 ![Figure: Use the Ribbon]()
 
 ### Optimal (Recommended)
+
+Using a PCF control you can add a button directly into the form that can do everything for you. 
 
 Click on this section on your CRM Dynamics to have a Team created:
 
