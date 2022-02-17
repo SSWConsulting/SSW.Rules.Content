@@ -29,18 +29,16 @@ To get that URL, simply click the ellipsis next to your Team name and click "Get
 
 ![Figure: get the Teams URL](get-teams-url.jpg)
 
-This process can even be automated using Azure functions and Graph API to provision a new Team every time a new client is created in CRM.
-
-### Medium: 
+### Medium:
 
 **TODO: Lu to update**
 
 ![Figure: Use the Ribbon]()
 
-### Optimal (Recommended) 
-
-This process can even be automated using Azure functions and Graph API to provision a new Team every time a new client is created in CRM.
+### Optimal (Recommended)
 
 Click on this section on your CRM Dynamics to have a Team created:
 
 ![Figure: PCF control allows you to add a button to create a Team](click-to-create.png)
+
+Alternatively, this process can even be automated using Azure functions and Graph API to provision a new Team every time a new client is created in CRM.
