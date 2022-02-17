@@ -5,7 +5,8 @@ uri: teams-add-the-right-tabs
 authors:
   - title: Joanna Feely
     url: https://ssw.com.au/people/joanna-feely
-related: []
+related:
+  - link-your-customers-in-crm-to-their-respective-teams
 redirects:
   - tabs-do-you-add-the-right-tabs-when-creating-a-new-teams-conversation
   - add-the-right-tabs-when-creating-a-new-teams-conversation
