@@ -32,7 +32,7 @@ Note this hasn't changed the name of the folder in SharePoint
 
    ![Figure: Renaming the folder in SharePoint](renamingachannel5.png)
 
-   Make sure that you rename the folder exactly the same as the channel was named
+   Make sure that you rename the folder exactly the same as you named the channel
 
    ![Figure: Make sure the name is the same as the channel](renamingachannel6.png)
 4. Click the ellipses beside the Team name | Manage Team
