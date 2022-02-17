@@ -14,7 +14,7 @@ Have you ever made a spelling mistake when you named a Teams channel? Have you t
 
 <!--endintro-->
 
-To rename the folder there is a workaround to do this correctly.
+There is a workaround to rename the folder correctly.
 
 1. Rename the Team channel
 
