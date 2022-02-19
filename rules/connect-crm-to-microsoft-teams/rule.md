@@ -2,7 +2,7 @@
 type: rule
 title: Dynamics and Teams - Do you link your customers in CRM to their
   respective Teams?
-uri: link-your-customers-in-crm-to-their-respective-teams
+uri: connect-crm-to-microsoft-teams
 authors:
   - title: Jean Thirion
     url: https://ssw.com.au/people/jean-thirion
@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
   - dynamics-and-teams-do-you-link-your-customers-in-crm-to-their-respective-teams
+  - link-your-customers-in-crm-to-their-respective-teams
 created: 2020-03-27T21:55:12.000Z
 archivedreason: null
 guid: 1b2a7623-45c8-4a45-a46a-c2c9150f9180
