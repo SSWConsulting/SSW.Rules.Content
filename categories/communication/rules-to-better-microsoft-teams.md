@@ -22,7 +22,7 @@ index:
 - how-to-see-what-is-going-on-in-your-project
 - have-a-notifications-channel
 - integrate-dynamics-365-and-microsoft-teams
-- link-your-customers-in-crm-to-their-respective-teams
+- connect-crm-to-microsoft-teams
 - archive-old-teams
 - add-the-right-apps-when-creating-a-new-team
 - create-microsoft-forms-via-microsoft-teams
