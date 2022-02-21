@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Azure Architecture Center
+title: Do you use Azure Architecture Center?
 uri: azure-architecture-center
 authors:
   - title: Bryden Oliver
