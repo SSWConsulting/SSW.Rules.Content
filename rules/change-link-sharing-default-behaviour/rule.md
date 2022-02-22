@@ -12,15 +12,17 @@ guid: 086a184c-b63f-4726-9eb7-bfd6fef3432a
 ---
 If you are checking your sites permissions regularly you will probably notice a lot of unique permissions being applied.
 
+:::bad
 
 
 ![Figure: Some items may have unique permissions](uniquepermissions.png)
+:::
 
 
 
 The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document".  This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
 
-Consequence in SharePoint is that unique permissions are applied to the individual items breaking permission inheritance.  Links should instead be created with the "People with existing access" setting.
+The consequence in SharePoint is that unique permissions are applied to the individual items breaking permission inheritance. It also has performance implications.  Links should instead be created with the "People with existing access" setting.
 
 
 
@@ -53,7 +55,7 @@ To fix the issue you need to change the default sharing method.  There are 2 way
 
 
 
-1. Run the following script to change this default for all sites associated to your SharePoint Hub-Site - This could be extended to include all sites in your tenant if required.
+1. Run the following PowerShell script to change this default for all sites associated to your SharePoint Hub-Site - This script could be extended to include all sites in your tenant.
 
 
 
@@ -80,3 +82,4 @@ foreach ($Url in $Hub)
     
 }
 ```
+**Figure: PowerShell to change default link sharing behaviour that affects security**
