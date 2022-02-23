@@ -5,7 +5,9 @@ title: Do you always call existing clients before sending a quote?
 guid: e9b36dc7-38ca-4e8d-8d43-30a346017f4d
 uri: for-existing-clients-do-you-always-call-them-before-sending-a-quote
 created: 2010-07-16T04:23:52.0000000Z
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
