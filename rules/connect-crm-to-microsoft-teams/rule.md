@@ -32,11 +32,9 @@ To get that URL, simply click the ellipsis next to your Team name and click "Get
 
 ### Medium:
 
-**TODO: Lu to update**
-
 Add a button to the Ribbon to provision a new team and link to it 
 
-![Figure: Use the Ribbon]()
+![Figure: Use the Ribbon](account_createteamssite.png)
 
 ### Optimal (Recommended)
 
