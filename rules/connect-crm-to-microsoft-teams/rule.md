@@ -34,7 +34,7 @@ Once you have this set up, it is likely that you want to have a link between you
 
 <!--endintro-->
 
-At SSW we have a custom property for each client that stores the Teams URL:
+You can add a custom property for each client that stores the Teams URL:
 
 ![Figure: CRM | Company/Account Form – added Teams URL field](dynamics-and-teams.png)
 
