@@ -4,7 +4,11 @@ title: Do you know how to rename a Teams Channel file folder correctly
 uri: rename-teams-channel-folder
 authors:
   - title: Warwick Leahy
-    url: warwick-leahy
+    url: https://ssw.com.au/people/warwick-leahy
+  - title: Jean Thirion
+    url: https://ssw.com.au/people/jean-thirion
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 created: 2022-02-03T04:40:59.490Z
 guid: 79192d84-f389-46c8-8022-c06b1ebd426c
 ---
@@ -14,7 +18,7 @@ Have you ever made a spelling mistake when you named a Teams channel? Have you t
 
 <!--endintro-->
 
-To rename the folder there is a workaround to do this correctly.
+There is a workaround to rename the folder correctly.
 
 1. Rename the Team channel
 
@@ -32,7 +36,7 @@ Note this hasn't changed the name of the folder in SharePoint
 
    ![Figure: Renaming the folder in SharePoint](renamingachannel5.png)
 
-   Make sure that you rename the folder exactly the same as the channel was named
+   Make sure that you rename the folder exactly the same as you named the channel
 
    ![Figure: Make sure the name is the same as the channel](renamingachannel6.png)
 4. Click the ellipses beside the Team name | Manage Team
