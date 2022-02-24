@@ -9,6 +9,7 @@ index:
 - use-emojis
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
+- create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
 - do-you-know-the-right-format-to-show-your-phone-number
 - track-project-documents
