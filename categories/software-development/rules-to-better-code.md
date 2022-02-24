@@ -6,6 +6,7 @@ uri: rules-to-better-code
 index:
 - avoid-clear-text-email-addresses-in-web-pages
 - refactor-your-code-and-keep-methods-short
+- do-you-look-for-duplicate-code
 - maintain-separation-of-concerns
 - follow-naming-conventions
 - use-the-testing-stage-in-the-file-name
