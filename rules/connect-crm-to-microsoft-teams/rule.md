@@ -28,13 +28,19 @@ created: 2020-03-27T21:55:12.000Z
 archivedreason: null
 guid: 1b2a7623-45c8-4a45-a46a-c2c9150f9180
 ---
-If you use a Team per client, it is likely that you want to have a link between your Teams instances and the associated CRM record.
+Microsoft Teams is a great solution for organizing client files and conversations. Create a new Team for each of your clients, and if you have multiple projects for one client, use Channels to keep them separate. There's no need to create a new Team just for a new project.
+
+Once you have this set up, it is likely that you want to have a link between your Teams instances and the associated CRM record.
 
 <!--endintro-->
 
 At SSW we have a custom property for each client that stores the Teams URL:
 
 ![Figure: CRM | Company/Account Form – added Teams URL field](dynamics-and-teams.png)
+
+:::greybox
+**NOTE:** Each client should have its own Team. You might have two associated clients - e.g. Northwind Australia and Northwind USA - but if they are separate legal entities and have separate accounts in CRM, they should have separate Teams.
+:::
 
 ### Level 1: Manual
 
