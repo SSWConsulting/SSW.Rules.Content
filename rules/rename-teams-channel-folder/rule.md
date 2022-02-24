@@ -4,11 +4,11 @@ title: Do you know how to rename a Teams Channel file folder correctly
 uri: rename-teams-channel-folder
 authors:
   - title: Warwick Leahy
-    url: warwick-leahy
+    url: https://ssw.com.au/people/warwick-leahy
   - title: Jean Thirion
-    url: jean-thirion
+    url: https://ssw.com.au/people/jean-thirion
   - title: Adam Cogan
-    url: adam-cogan
+    url: https://ssw.com.au/people/adam-cogan
 created: 2022-02-03T04:40:59.490Z
 guid: 79192d84-f389-46c8-8022-c06b1ebd426c
 ---
