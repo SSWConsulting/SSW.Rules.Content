@@ -41,7 +41,7 @@ Don't start searching from your start menu either for a program whether that be 
 
 ::: bad
 
-![](teams - Not from start menu.png "Figure: Bad Example - You shouldn't create files locally first and then copy them")
+![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
 
 :::
 
