@@ -20,9 +20,7 @@ redirects:
 created: 2018-07-30T01:05:40.000Z
 archivedreason: null
 guid: 0ae0371f-7ff3-47af-ac51-ea78ef41a459
-
 ---
-
 There is a myriad of options to choose from when storing and sharing documents: SharePoint, or OneDrive/Dropbox/Google Drive, or Microsoft Teams. The best choice is **Microsoft Teams** because it brings together the best of SharePoint, cloud file storage, real time collaboration and more into a single location.
 
 <!--endintro-->
@@ -42,7 +40,8 @@ Want to learn more? Watch Jean Thirion's longer video on this topic:
 Don't start searching from your start menu either for a program whether that be Notepad, Notpad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later.  It's easy to forget to do.
 
 ::: bad
-![Figure: Bad Example - You shouldn't create files locally first and then copy them](https://www.ssw.com.au/rules/static/89e4eda85d3e7ed9c3fe25f804179050/5c6e9/teams%20-%20Not%20from%20start%20menu.png)
+
+![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
 :::
 
 Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
@@ -87,7 +86,7 @@ Documents with user names and passwords should not be stored in Microsoft Teams.
 
 **Note:** API keys, whether generic or for the individual should also be stored in a password manager.
 
-**Note:** You can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc.  
+**Note:** You can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc.\
 This is not recommended - as they aren't first-class citizens i.e. if you want to share files from them, you need to go to the provider's sharing settings outside of Teams.
 
 **Warning:** By using Teams instead of SharePoint, you are losing a number of key features:
