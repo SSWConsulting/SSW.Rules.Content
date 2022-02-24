@@ -63,3 +63,5 @@ Click on this section on your CRM Dynamics to have a Team created:
 ![Figure: PCF control allows you to add a button to create a Team](click-to-create.png)
 
 Alternatively, this process can even be automated using Azure functions and Graph API to provision a new Team every time a new client is created in CRM.
+
+`youtube: https://www.youtube.com/embed/3nkO8BxG8Sc`
