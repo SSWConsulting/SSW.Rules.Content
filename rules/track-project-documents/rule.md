@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
   - title: Jean Thirion
     url: https://ssw.com.au/people/jean-thirion
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
 related:
   - sync-files-from-teams-to-file-explorer
   - sales-do-you-track-all-sales-related-activities-in-crm
