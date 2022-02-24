@@ -28,7 +28,7 @@ created: 2020-03-27T21:55:12.000Z
 archivedreason: null
 guid: 1b2a7623-45c8-4a45-a46a-c2c9150f9180
 ---
-Microsoft Teams is a great solution for organizing client files and conversations. Create a new Team for each of your clients, and if you have multiple projects for one client, use channels to keep them separate (there's no need to create a new Team for a new project).
+Microsoft Teams is a great solution for organizing client files and conversations. Create a new Team for each of your clients, and if you have multiple projects for one client, use Channels to keep them separate. There's no need to create a new Team just for a new project.
 
 Once you have this set up, it is likely that you want to have a link between your Teams instances and the associated CRM record.
 
