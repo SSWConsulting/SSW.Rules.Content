@@ -41,7 +41,8 @@ Don't start searching from your start menu either for a program whether that be 
 
 ::: bad
 
-![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
+![](teams - Not from start menu.png "Figure: Bad Example - You shouldn't create files locally first and then copy them")
+
 :::
 
 Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
