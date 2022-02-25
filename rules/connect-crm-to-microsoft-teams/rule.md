@@ -21,7 +21,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
-  - connect-crm-to-microsoft-teams
+  - customize-dynamics-user-experience
 redirects:
   - dynamics-and-teams-do-you-link-your-customers-in-crm-to-their-respective-teams
   - link-your-customers-in-crm-to-their-respective-teams
