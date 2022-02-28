@@ -28,12 +28,12 @@ Email is a very powerful business tool. The main problem, however, is that for m
 
 Using your mailbox as a task list also saves you from having to use inefficient paper-based cards to track your tasks.
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | From:    | Tim |
 | To:      | Mark |
-| Subject: | What do you think? |\
+| Subject: | What do you think? |
 ::: email-content  
 
 ### Hi Mark,
@@ -42,18 +42,18 @@ I am not 100% happy , maybe we should look into making the menu better...
 
 Tim
 
-:::\
-:::\
-::: bad\
+:::
+:::
+::: bad
 Figure: Bad Example - A bad email is one that gives no clear action items and will probably lead to a back and forth thread (potentially with people misunderstanding each other) 
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | From:    | Tim |
 | To:      | Mark |
-| Subject: | Improve menu - Options |\
+| Subject: | Improve menu - Options |
 ::: email-content  
 
 ### Hi Mark,
@@ -64,9 +64,9 @@ As per our conversation,
 
 Tim
 
-:::\
-:::\
-::: good\
+:::
+:::
+::: good
 Figure: Good Example - A good email has a clear task to be done (decision was made in-person or via call)
 :::
 
