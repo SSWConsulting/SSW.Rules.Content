@@ -3,12 +3,12 @@ type: rule
 title: Do you have a clear mission statement?
 uri: have-a-clear-mission-statement
 authors:
-  - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - url: https://ssw.com.au/people/uly
     title: Ulysses Maclaren
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
 related:
   - autonomy-mastery-and-purpose
 redirects:
