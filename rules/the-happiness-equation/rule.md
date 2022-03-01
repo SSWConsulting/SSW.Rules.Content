@@ -9,7 +9,6 @@ related:
   - speak-up
 created: 2022-01-11T16:17:36.024Z
 guid: f355b232-00cf-4201-8eba-71bf7d12c3c5
-
 ---
 
 `youtube: https://www.youtube.com/embed/sT3vs48Rt8I`
@@ -32,8 +31,8 @@ Here are 10 tips for how you can manage unfairness.
 2. **Happiness is relative** - Unhappiness can come from comparisons with others.  Instead compare yourself with your day yesterday.
 3. **Get one thing in life, lose another** - Can't have everything.  When you are saying 'Yes' to one thing, you are saying 'No' to another.
 4. **The 'Happiness Equation'**   
-  Happiness = Expectations - Reality
-  - If you want to be happier, then:   
+  Happiness = Expectations - Reality.<br>
+  If you want to be happier, then:   
      - Reduce your expectations
      - Increase your reality
 5. **Consider luck** - Everyone wants to succeed in life. But what causes some of us to be more successful than others? Is it really down to skill and strategy - or something altogether more unpredictable? Sometimes peoples success is simply luck. Read [the book "Fooled by Randomness"](https://en.wikipedia.org/wiki/Fooled_by_Randomness)
