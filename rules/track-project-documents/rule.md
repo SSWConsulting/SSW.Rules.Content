@@ -51,7 +51,7 @@ Instead create your file in the Team for a start.  It is immediately backed up a
 
 ::: good
 
-![](teams - file tab.png)
+![Figure: Good Example - You can use the files tab in Teams (without leaving the app](teams - file tab.png)
 
 :::
 
