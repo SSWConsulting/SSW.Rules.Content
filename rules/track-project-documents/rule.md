@@ -50,7 +50,9 @@ Don't start searching from your start menu either for a program whether that be 
 Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
 
 ::: good
-![Figure: Good Example - You can use the files tab in Teams (without leaving the app)](https://www.ssw.com.au/rules/static/b8e3908b14e5353573455fe8df248fc8/c5d70/teams%20-%20file%20tab.png)
+
+![](teams - file tab.png)
+
 :::
 
 The great thing about having conversations next to the file is that it is always in context. Also, future users can view the conversation when they open the file in teams.
