@@ -63,7 +63,7 @@ How to add the button to the Dynamics Ribbon?
 
 or
 
-\[https://www.develop1.net/public/rwb/ribbonworkbench.aspx](Ribbon Workbench) (old approach -  using the ribbon workbench)
+[https://www.develop1.net/public/rwb/ribbonworkbench.aspx](Ribbon Workbench) (old approach -  using the ribbon workbench)
 
 ![Figure: Use the Ribbon](account_createteamssite.png)
 
