@@ -60,13 +60,13 @@ The great thing about having conversations next to the file is that it is always
 Behind the scenes, storage is provided by a SharePoint site; so that is there if you want to use it. As an added bonus thanks to this; you can [take the files offline by syncing with OneDrive for Business](/sync-files-from-teams-to-file-explorer) and by default each channel gets its own folder.
 
 ::: good
-
-![Figure: Good Example - You can open the files in SharePoint](teams - open sharepoint.png)
-
+!\[Figure: Good Example - You can open the files in SharePoint](teams - open sharepoint.png)
 :::
 
 ::: good
-![Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced](https://www.ssw.com.au/rules/static/6872c7a2751f0e42f37daf5f89929866/49b61/teams%20-%20sync%20onedrive.png)
+
+![Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced](teams - sync onedrive.png)
+
 :::
 
 ::: greybox
