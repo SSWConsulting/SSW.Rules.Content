@@ -24,7 +24,6 @@ created: 2016-04-28T19:19:40.000Z
 archivedreason: null
 guid: 57dc15ba-605a-4a71-8b0e-d9f1551b9fc0
 ---
-
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few.
 
 These secrets **must not** be stored in source control in plain text – it is insecure by nature, and basically means that it is sitting.
@@ -40,10 +39,12 @@ There are many options for managing secrets in a secure way:
 #### Store production passwords in source control
 
 Pros:
+
 * Minimal change to existing process
 * Simple and easy to understand
 
 Cons:
+
 * Passwords are readable by anyone who has either source code or access to source control
 * Difficult to manage production and non-production config settings
 * Developers can read and access the production password
@@ -95,7 +96,7 @@ Cons:
 
 :::
 ::: bad
-Figure: Bad practice - Overall rating: 4/10  
+Figure: Bad practice - Overall rating: 4/10\
 :::
 
 ::: greybox
@@ -116,7 +117,7 @@ Cons:
 :::
 
 ::: bad
-Figure: Bad practice - Overall rating: 1/10  
+Figure: Bad practice - Overall rating: 1/10\
 :::
 
 ### Good Practices
@@ -137,7 +138,7 @@ Cons:
 
 :::
 ::: good
-Figure: Good practice - Overall rating: 8/10  
+Figure: Good practice - Overall rating: 8/10\
 :::
 
 ::: greybox
@@ -176,12 +177,12 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 8/10  
+Figure: Good Practice - Overall rating 8/10\
 :::
 
 ::: greybox
 
-#### Use Azure KeyVault
+#### Use Azure Key Vault
 
 See the [SSW Rewards](https://www.ssw.com.au/ssw/Rewards/) mobile app repository for how SSW is using this in a production application: <https://github.com/SSWConsulting/SSW.Rewards>
 
@@ -199,7 +200,7 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 9/10  
+Figure: Good Practice - Overall rating 9/10\
 :::
 
 ::: greybox
@@ -209,6 +210,7 @@ Figure: Good Practice - Overall rating 9/10
 The easiest way to manage secrets is not to have them in the first place. Azure Managed Identities allows you to assign an Azure AD identity to your application and then allow it to use its identity to log in to other services. This avoids the need for any secrets to be stored.
 
 Pros:
+
 * Best solution for cloud (Azure) solutions
 * Enterprise grade
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
@@ -236,4 +238,3 @@ The following resources show some concrete examples on how to apply the principl
 * https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15
 * https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x
 * https://www.youtube.com/watch?v=F9H0txgz0ns
-
