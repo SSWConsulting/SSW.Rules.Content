@@ -12,7 +12,9 @@ redirects: []
 created: 2010-03-15T06:22:03.000Z
 archivedreason: null
 guid: 15b06388-5103-45e4-a5ea-96c13554df77
+
 ---
+
 A common source of pain, is picking up a project without a decent/complete handover. To have a successful project you must navigate over the problem of changing resources/people leaving etc.
 
 As soon as an employee has given their resignation notice, their manager should become responsible for ensuring a successful handover takes place.  Each project they were involved in should be reviewed and another employee with a matching skill set should be selected to receive the handover. Handovers should be booked in for each project with both employees in attendance, as early as possible and with high priority.
@@ -33,7 +35,6 @@ Here are the 8 steps you should follow for a good handover.
 4. Do a code review (only for developers)
 5. Review the client portal
 6. Confirm and document the location of info and procedures (hopefully, these are on a wiki or SharePoint document library). For a development project this may include:
-
    * Source control. Make sure there is no stale or old branches. Check out: [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
    * Database
    * Documents
@@ -73,7 +74,7 @@ Done
 :::
 :::
 ::: bad
-**Figure Bad Example - This handover is incomplete and light on details** 
+Figure Bad Example - This handover is incomplete and light on details
 :::
 
 ::: email-template
@@ -109,10 +110,11 @@ Done - As per our meeting the handover has been completed to my satisfaction
   If a problem occurs, restore the backup of the master folder and restart
 * **Update the Employee Responsibilities in SSW intranet:** DONE
 * **Complete Handover**
-  :::
-  :::
-  ::: good
-  Figure: Good Example - This handover has lots of URLs and is complete
-  :::
+
+:::
+:::
+::: good
+Figure: Good Example - This handover has lots of URLs and is complete
+:::
 
 If you need to handover only a single task there are more details here: [Do you know how to hand over tasks (aka Emails) to others?](/do-you-know-how-to-hand-over-tasks-aka-emails-to-others)
