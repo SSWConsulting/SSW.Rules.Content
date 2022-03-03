@@ -7,6 +7,8 @@ authors:
   - title: Luke Parker
     url: https://ssw.com.au/people/luke-parker
 related: []
+guid: 10489ca4-5e42-49af-b502-d3572d573e7f
+created: 2022-03-03T12:25:15.0000000Z
 ---
 
 Notifications for GitHub can be quite a pain, as they send a lot of emails. This leads to many developers ignoring the emails they receive from GitHub.
