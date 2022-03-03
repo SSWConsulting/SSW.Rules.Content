@@ -13,7 +13,7 @@ guid: 5b60b93d-f9af-467e-8d0c-41b1e37700ba
 ---
 When you are connected to the SSW network, you may complete the following procedure.
 
-Go to **\\printer**
+Go to **\printer**
 
 <!--endintro-->
 
