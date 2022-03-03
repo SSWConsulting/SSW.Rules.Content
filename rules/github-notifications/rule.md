@@ -24,4 +24,4 @@ To reduce this spam and to make the notifications have value, make sure to confi
 ![Figure: Good example - disable workflow notifications](./notification-settings.png)
 :::
 
-The important one here is to make sure the item marked **Send notifications for failed workflows only** is checked, so that you receive emails for failures in your deployments.
+The important one here is to make sure the item marked **Send notifications for failed workflows only** is checked, so that you receive emails for failures in your builds and deployments.
