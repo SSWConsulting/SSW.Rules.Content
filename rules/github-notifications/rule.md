@@ -13,7 +13,7 @@ created: 2022-03-03T12:25:15.0000000Z
 
 Notifications from GitHub can be quite a pain, as they send a lot of emails. This leads to many developers ignoring the important emails they receive.
 
-`youtube: https://www.youtube.com/embed/_mZBa3sqTrI`
+`youtube: https://www.youtube.com/embed/Lb1slP9jSGk`
 
 <!--endintro-->
 
