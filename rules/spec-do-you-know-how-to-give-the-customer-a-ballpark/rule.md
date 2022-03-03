@@ -34,7 +34,7 @@ Note: Once we move to estimating in time, this is no longer Scrum.
 4. In Excel, copy this list and paste into another spreadsheet called the [Estimates Calculator](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/spec-do-you-know-how-to-give-the-customer-a-ballpark/4.%20Estimates%20Calculator.xlsx), in order to add all of the extra items (testing, DevOps, Project management, etc.).  **See below for how to use this.** 
 Note: It would be great if TFS (or visualstudio.com) had functionality to add [standard items to a Sprint](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx#StandardItems)
 5. Run a [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) on the numbers
-6. Add this spreadsheet to your specification review document
+6. Add a screenshot of this spreadsheet to your specification review document under Costing Summary
 7. Present to the client
 8. Much later, when the estimate is approved by the client, start work following these rules: [Rules to Better Project Management with TFS](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx).
 
