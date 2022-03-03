@@ -26,7 +26,7 @@ index:
   - do-you-know-how-to-setup-github-notifications
   - github-issue-templates
   - do-you-know-how-to-set-up-github-workflow
-  - configure-github-notifications
+  - github-notifications
 ---
 
 [GitHub](https://github.com/) is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.

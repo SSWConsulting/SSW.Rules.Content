@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Do you configure your GitHub Notifications?
-uri: configure-github-notifications
+uri: github-notifications
 authors:
   - title: Luke Parker
     url: https://ssw.com.au/people/luke-parker
