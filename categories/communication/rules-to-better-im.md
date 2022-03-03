@@ -22,6 +22,7 @@ index:
 - show-your-phone-number
 - use-your-company-name-as-part-of-your-display-name
 - use-your-personal-message-to-share-good-news-with-your-contacts
+- avoid-sarcasm-misunderstanding
 - keep-a-history-of-your-im-conversations
 
 ---

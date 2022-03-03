@@ -57,7 +57,6 @@ index:
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
 - do-you-know-not-to-send-attachments-in-emails
-- do-you-know-that-people-misunderstand-sarcasm-in-email
 - do-you-know-when-to-use-plus-one
 - link-emails-to-the-rule-or-template-they-follow
 - do-you-make-sure-every-customers-and-prospects-email-is-in-your-company-database
@@ -69,6 +68,7 @@ index:
 - better-late-than-never
 - avoid-using-request-a-receipt
 - do-you-use-active-language-in-your-emails
+- avoid-sarcasm-misunderstanding
 - dictate-emails
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
