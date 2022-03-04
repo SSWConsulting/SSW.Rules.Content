@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Appointments - Do you know to copy the email content into the calendar appointment?
 guid: 0000a906-fba7-4d60-8ba1-bb3cd6263831
-uri: do-you-know-to-duplicate-email-content-in-a-calendar-appointment
+uri: duplicate-email-content-in-a-calendar-appointment
 created: 2018-07-12T00:39:05.0000000Z
 authors:
 - title: Adam Cogan
@@ -13,6 +13,7 @@ authors:
 related: []
 redirects:
 - appointments-do-you-know-to-copy-the-email-content-into-the-calendar-appointment
+- do-you-know-to-duplicate-email-content-in-a-calendar-appointment
 
 ---
 
@@ -35,9 +36,9 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 | Where:   | SSW Sydney Boardroom |
 ::: email-content  
 
-### Hi Adam,
+(copy of email - as per rule [https://rules.ssw.com.au/duplicate-email-content-in-a-calendar-appointment](/duplicate-email-content-in-a-calendar-appointment))
 
-(copy of email - as per rule [https://rules.ssw.com.au/do-you-know-to-duplicate-email-content-in-a-calendar-appointment](/do-you-know-to-duplicate-email-content-in-a-calendar-appointment))
+### Hi Adam,
 
 I am the Scrum Master of the upcoming Northwind project and I’d like to understand the specific performance and code quality requirements
 
