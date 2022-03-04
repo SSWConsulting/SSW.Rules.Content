@@ -10,13 +10,15 @@ redirects: []
 created: 2015-05-21T17:25:55.000Z
 archivedreason: null
 guid: 5b60b93d-f9af-467e-8d0c-41b1e37700ba
+
 ---
+
 When you are connected to the SSW network, you may complete the following procedure.
 
-Go to **\\printer**
+Go to **\\\\printer**
 
 <!--endintro-->
 
 ![Figure: Printers listed in Printer Server](printers.jpg)
 
-Double click on Printer to connect/add the printer. Follow prompt to finish adding printer (printer driver installation).
+Double click on your printer name to connect/add it. Follow prompt to finish the printer driver installation.
