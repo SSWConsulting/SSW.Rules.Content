@@ -1,25 +1,23 @@
 ---
 type: rule
-archivedreason: 
 title: Do you always install latest updates when you fix someone else's PC?
-guid: 4f9f2aa2-a488-4cce-8e1f-f49db34396bd
 uri: do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
-created: 2009-03-09T06:56:48.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
-
+created: 2009-03-09T06:56:48.000Z
+archivedreason: null
+guid: 4f9f2aa2-a488-4cce-8e1f-f49db34396bd
 ---
-
 When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates.  
 
 <!--endintro-->
 
-To achieve this, we run Windows Update and install all latest updates.
+* To achieve this, we run Windows Update and install all latest updates.
 
 ::: bad
 ![Here are some updates that need to be applied](2021-04-20_11-50-38.png) 
