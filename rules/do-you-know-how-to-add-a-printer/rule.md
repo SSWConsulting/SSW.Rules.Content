@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to add a printer server?
-uri: printer-server
+uri: print-server
 authors:
   - title: Stanley Sidik
     url: https://ssw.com.au/people/stanley-sidik
