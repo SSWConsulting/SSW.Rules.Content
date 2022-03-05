@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to add a printer server?
+title: Do you know how to add a print server?
 uri: print-server
 authors:
   - title: Stanley Sidik
