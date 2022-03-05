@@ -16,22 +16,25 @@ When you are connected to the company's network, you should complete the followi
 
 <!--endintro-->
 
-**For Windows OS:**
+### **For Windows OS**
 
-##### Steps to add a printer to Active Directory
+Steps to add a printer to Active Directory:
 
-1. In run | type "printmanagement.msc" | enter
-2. Right-click 'Print Server' | Choose Add/Remove Servers | Add IP address or computer name\
+1. In Windows Run | Type "printmanagement.msc" | Hit Enter
+2. Right-click 'Print Server' | Choose 'Add/Remove Servers' | Add IP address or computer name | Finish\
    or
-3. Right click the 'Print Server' | Add printer | Choose the best option (e.g TCP/IP) | Put the IP address of the Printer | Finish
 
-![Figure: Print servers ](46d5125c-b334-49f4-b1ee-45bc78b5dae1.png)
+   Right click the 'Print Server' | Add printer | Choose the best option (e.g TCP/IP) | Put the IP address of the Printer | Finish
 
-4. Add DNS entry for your print server (e.g \printer) to make it friendly for the users to find.
+![Figure: Add Print servers to AD ](46d5125c-b334-49f4-b1ee-45bc78b5dae1.png)
+
+4. Add DNS entry for your print server (e.g \\\\printer) to make it friendly for the users to find.
+
+### Finding the Printers
 
 Now your users can find the printers by doing the following:
 
-1. In the File explorer | type **\printer** on the address bar to show all the printers connected to the server.
+1. In the File explorer | Type **\\\\printer** on the address bar to show all the printers connected to the server.
 
 :::bad
 
@@ -44,7 +47,5 @@ Now your users can find the printers by doing the following:
 ![Figure: Good example - Printers listed in Printer Server](printers.jpg)
 
 :::
-
-
 
 2. Double click on your printer name to connect/add it. Follow prompt to finish the printer driver installation.
