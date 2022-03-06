@@ -5,6 +5,8 @@ uri: no-hello
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 created: 2021-12-20T22:40:45.273Z
 guid: 4bc9c852-2388-4f9f-9e36-e394b7c5ac59
 ---
@@ -19,8 +21,12 @@ The same goes for:
 - "Hi Bob, do you have a sec?"
 - "Ping"
 
-Instead of doing this, just ask the question!
+Instead of doing this, just ask the question! 
 
 Asking your question before getting any reply allows **asynchronous communication**. If the other party is away, and you leave before they come back, they can still answer your question, instead of just staring at a "Hello" and wondering what they missed.
+
+Even better, don't start cold if the conversation has a history... Remember everyone likes breathing space, so say:
+- "Calling in 5 minutes. See the PBI: \[URL\]
+- "Calling in 5 minutes. See email subjecT: \[Email subject\]
 
 More info: [noohellow.net](https://nohello.net/)
