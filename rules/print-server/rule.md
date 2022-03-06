@@ -8,7 +8,7 @@ authors:
   - title: Ash Anil
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kiki
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
+    img: ""
 related: []
 redirects:
   - do-you-know-how-to-add-a-printer
