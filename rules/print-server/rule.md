@@ -6,13 +6,15 @@ authors:
   - title: Stanley Sidik
     url: https://ssw.com.au/people/stanley-sidik
   - title: Ash Anil
+  - title: Kaique Biancatti
+    url: https://www.ssw.com.au/people/kiki
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/blob/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
-redirects: 
+redirects:
   - do-you-know-how-to-add-a-printer
 created: 2015-05-21T17:25:55.000Z
 archivedreason: null
 guid: 5b60b93d-f9af-467e-8d0c-41b1e37700ba
-
 ---
 
 When you are connected to the company's network, you should complete the following procedure if you want to setup a printer server.
