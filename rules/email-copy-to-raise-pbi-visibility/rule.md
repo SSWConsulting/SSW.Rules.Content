@@ -35,7 +35,7 @@ We want to have a visual reference for how many approvals each admin have in Sug
 
 1. Please create an “Admin Leaderboard” that will show how many each of the Admin user approved (overtime, per year, and per month)?
 
-Dave Duke
+Dan Duke
 
 :::  
 :::  
