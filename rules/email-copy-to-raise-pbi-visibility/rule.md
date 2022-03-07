@@ -22,24 +22,22 @@ If you have an important PBI and want to improve its visibility, then duplicate 
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | Luke |
+| To:      | Gary Green|
 | Subject: | SugarLearning Leaderboard - Create leaderboard for approvals count |  
 ::: email-content  
 
 (copy of the PBI - https://dev.azure.com/ssw/SSW.Induction/_workitems/edit/67810  
 as per rule https://rules.ssw.com.au/email-copy-to-raise-pbi-visibility)
 
-### Hi Luke,
+### Hi Gary,
 
 We want to have a visual reference for how many approvals each admin have in SugarLearning. E.g. https://my.sugarlearning.com/SSW/leaderboard-admin/all
 
 1. Please create an “Admin Leaderboard” that will show how many each of the Admin user approved (overtime, per year, and per month)?
 
-Tiago
+Dave Duke
 
 :::  
 :::  
 **Figure: PBI details copied to an email for better visibility, and also the email can get replied to with a ‘done’**
-            
-
-
+           
