@@ -27,9 +27,9 @@ A few other ways to make the most of the attendees' time would be:
 * To improve future meetings, at the end of the meeting, do a quick debrief (aka retro) to see how long the meeting took, if anything was covered that didn't need to be, etc.
 
 ::: greybox
-⭐ **Tip:** A meeting if better without going down rat holes… Start a meeting with 
+⭐ **Tip:** A meeting is better without going down rat holes... Start a meeting with 
 “Who will be the scribe so we can take notes of side issues?  Let’s aim to keen on track and avoid rat holes”
 
-![](rathole.jpeg)
+![Figure: Don't go down rat holes](rathole.jpeg)
 
 :::
