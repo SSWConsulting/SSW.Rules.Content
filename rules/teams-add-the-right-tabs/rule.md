@@ -3,8 +3,16 @@ type: rule
 title: Tabs - Do you add the right tabs when creating a new Teams conversation?
 uri: teams-add-the-right-tabs
 authors:
-  - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+  - title: Jonty Gardner
+    url: https://www.ssw.com.au/people/jonty-gardner
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
 related:
   - link-your-customers-in-crm-to-their-respective-teams
 redirects:
