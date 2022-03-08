@@ -28,5 +28,5 @@ Image is everything. Improve the way you market, educate and promote yourself wi
 3. ⭐️ Then give to a designer for better look and feel
 4. Show it to an audience to get feedback
 
-\[TODO: Add \]
+\[TODO: Hashem - Add a before and after image \]
 **Figure: Before and after... Designers can make anything look good**
