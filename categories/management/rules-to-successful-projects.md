@@ -33,7 +33,6 @@ index:
 - do-you-constantly-add-to-the-backlog
 - do-you-have-a-knowledge-base-kb
 - do-you-know-the-best-way-to-give-the-best-customer-support
-- do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
 - do-you-stop-dealing-with-data-and-schema
 - do-you-have-separate-development-testing-and-production-environments
 - is-everyone-in-your-team-a-standards-watchdog
