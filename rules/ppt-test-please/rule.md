@@ -26,4 +26,4 @@ Image is everything. Improve the way you market, educate and promote yourself wi
 3. ⭐️ Then give to a designer for better look and feel
 4. Show it to an audience to get feedback
 
-![Figure: Before and after... Designers can make anything look good](beforevsafter.png)
+![Figure: Before and after... Designers can make anything look good](beforevsaftert.png)
