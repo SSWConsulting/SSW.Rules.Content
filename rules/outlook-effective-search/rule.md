@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to search effectively in Outlook?
-uri: outlook-effective-search
+uri: searching-outlook-effectively
 authors:
   - title: Ulysses Maclaren
 created: 2022-03-09T05:28:52.197Z
