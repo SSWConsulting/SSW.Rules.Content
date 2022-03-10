@@ -15,11 +15,13 @@ Some people are really good at using Outlook search to find the emails they need
 
 Being able to find an email quickly in Outlook is an important skill. Here are some tips and tricks about how to find that email buried in your inbox...
 
-Note: These tips will also help you in your Google/Bing searches too.  
+\`youtube: https://www.youtube.com/embed/AM7Y3f3h2Lw\`
 
 <!--endintro-->
 
-
+::: greybox
+**Note:** These tips will also help you in your Google/Bing searches too.  
+:::
 
 ![](outlook-search.jpg)
 
@@ -36,11 +38,12 @@ To get Bob's most recent emails the best thing to do, is to limit Outlook to onl
 * Change the folder to "Current Folder"
 * Search for: &nbsp;&nbsp; **from:Bob**
 
-Note #1: You can change the folder scoping to fit your specific needs
+**Note #1:** You can change the folder scoping to fit your specific needs
+  ![Figure: There are several scoping options available](search-scope.png)
 
-Note #2: You can change the default to always be "Current Folder"
+**Note #2:** You can change the default to always be "Current Folder"
 
-![Figure: There are several scoping options available](search-scope.png)
+  ![Figure: Outlook Options for Search](outlook-search-options.png)
 
 ### Tip 2: Focus on the person (i.e. to: from: cc: bcc:)
 
