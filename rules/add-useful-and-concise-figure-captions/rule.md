@@ -82,3 +82,24 @@ Figure: Bad example - Vague caption description
 ::: good
 Figure: Good example - Clear caption description
 :::
+
+
+### Tip #4 - You can also use captions for videos
+
+Not always required, captions might also be a good way of giving a brief explanation of a video. If you have them, then prefix with "Video: " instead of "Figure: ".
+
+::: greybox
+\[video\]   
+**Figure: In this video, Gary talks about**
+:::
+::: bad
+Figure: Bad example - Using "Figure:" for a video caption
+:::
+
+::: greybox
+\[video\]   
+**Video: In this video, Gary talks about**
+:::
+::: good
+Figure: Good example - Using "Video:" for a video caption
+:::
