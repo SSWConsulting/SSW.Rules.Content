@@ -11,7 +11,7 @@ guid: 77ea51b9-baf8-46c2-9f8a-47f1c07fddc6
 ---
 Some people are really good at using Outlook search to find the emails they need, while others have a hard time. Searching for emails can be a real struggle, sometimes you want to find emails from months ago but you aren't sure exactly what to search for.
 
-Being able to find an email quickly in Outlook is an important skill. So I want to share some tips and tricks I have picked up about how to find that email buried in your inbox...
+Being able to find an email quickly in Outlook is an important skill. Here are some tips and tricks about how to find that email buried in your inbox...
 
 Note: These tips will also help you in your Google/Bing searches too.  
 
