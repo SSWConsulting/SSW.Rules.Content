@@ -4,6 +4,7 @@ title: Do you know how to search Outlook effectively?
 uri: searching-outlook-effectively
 authors:
   - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Adam Cogan
@@ -15,7 +16,7 @@ Some people are really good at using Outlook search to find the emails they need
 
 Being able to find an email quickly in Outlook is an important skill. Here are some tips and tricks about how to find that email buried in your inbox...
 
-\`youtube: https://www.youtube.com/embed/AM7Y3f3h2Lw\`
+`youtube: https://www.youtube.com/embed/AM7Y3f3h2Lw`
 
 <!--endintro-->
 
