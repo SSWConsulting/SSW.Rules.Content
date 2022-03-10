@@ -21,13 +21,21 @@ You know Bob sent the email, and that it's in your inbox. So the best thing to d
 
 * Change the folder to "Current Folder"
 * Search for:
+
 ```
 from:Bob
 ```
+
+Note: You can change the folder scoping to fit your specific needs
+
+![Figure: There are several scoping options available](search-scope.png)
+
 ### Tip 2: Focus on the person (i.e. to: from: cc: bcc:)
+
 There are many different ways to focus on people. If know that the email was sent to Adam, from Bob, Luke was CCed and Chris was BCCed then:
 
 * Search for:
+
 ```
 to:Adam from:Bob cc:Luke bcc:Chris
 ```
@@ -37,6 +45,7 @@ to:Adam from:Bob cc:Luke bcc:Chris
 If you have a good idea of what the email subject contains, then the "subject:" scope can help a lot. For example, if you know that the email had Northwind and Bob in the subject then:
 
 * Search for:
+
 ```
 "Subject: Northwind Bob"
 ```
@@ -46,54 +55,71 @@ If you have a good idea of what the email subject contains, then the "subject:" 
 Negatives are a great way to remove results you know definitely won't be relevant. For example, if you know Luke and Adam frequently work with Bob but weren't involved in that email then:
 
 * Search for: 
+
 ```
 -Luke - Adam
 ```
-Tip: Start with a broad search, and then, when you start seeing irrelevant results about invoicing, add -invoice to your search
+
+Note: Start with a broad search, and then, when you start seeing irrelevant results about invoicing, add -invoice to your search
 
 ### Tip 5: Use quotation marks (i.e. “”)
 
 You can search for a direct match in an email using quotation marks. For example, if you know that "days outstanding" was written in the email then:
 
 * Search for:
+
 ```
 "days outstanding"
 ```
-Tip: Particularly useful when using common words but you know they were written in an exact phrase. E.g. “on top of this”
+
+Note: Particularly useful when using common words but you know they were written in an exact phrase. E.g. “on top of this”
 
 ### Tip 6: Combine 2 searches into 1 (i.e. OR)
 
 Sometimes you might know a specific thing was referred to, but aren't sure what terminology was used. For example, let's say you know the email mentioned either "web app" or "website". In that case:
 
 * Search for:
+
 ```
 "web app" OR website
 ```
-Tip: Must be upper case... lowercase “or” won’t work
+
+Note: Must be upper case... lowercase “or” won’t work
 
 ### Tip 7: Find a file (i.e. hasattachments:yes)
+
 Emails can be filtered to only include ones with attachments. If you know the email has an attachment then:
 
 * Search for:
+
 ```
 hasattachments:yes
 ```
 
 ### Tip 8: Find a file’s content (i.e. attachment:)
+
 File contents can also be searched. If you know that there was an attachment that contained the text "20/07/2021" then:
 
 * Search for:
+
 ```
 attachment:"20/07/2021"
 ```
 
 ### Tip 9: Focus on the date received (i.e. received=<>)
+
 You can filter on a specific time period or date. For example, If you know that the email was received after 07/20/2019 then:
 
 * Search for:
+
 ```
 received>"07/20/2019"
 ```
 
+
+
+Note: Outlook has a heap of other properties that you can filter on.
+
+![Figure: Outlook has a lot of meta data filtering options](email-metadata.png)
 
 **Learn more:** [How to search in Outlook](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da).
