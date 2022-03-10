@@ -4,6 +4,8 @@ title: Do you know how to search effectively in Outlook?
 uri: searching-outlook-effectively
 authors:
   - title: Ulysses Maclaren
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 created: 2022-03-09T05:28:52.197Z
 guid: 77ea51b9-baf8-46c2-9f8a-47f1c07fddc6
 ---
