@@ -70,4 +70,4 @@ Email has plenty of metadata that can be sifted through to find the right one, a
 
 
 
-**Read more:** [How to search in Outlook](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da)
+**Learn more:** [How to search in Outlook](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da).
