@@ -3,8 +3,8 @@ type: rule
 title: Do you know how to enter a receipt through Xero Me?
 uri: how-to-enter-a-xero-me-receipt
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+  - title: Stephan Fako
+    url: 
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
 related:
@@ -25,7 +25,7 @@ A detailed step-by-step process on how to enter expense claims in Xero Me from f
 
 ![Figure: New Expense claim required fields](xero-me-example-blank.png)
 
-Xero Me has a smart scan function which will read the amount, supplier name and invoice date directly from the invoice. The Subject field, Reimbursable field, Categorize field and Office field will need to be added in manually.
+Xero Me has a smart scan function which will read the amount, supplier name and invoice date directly from the invoice. The subject field ("What was it for?"), reimbursable field, categorize field and office field will need to be added in manually.
 
 
 
@@ -37,7 +37,7 @@ Xero Me has a smart scan function which will read the amount, supplier name and 
 
 ::: good
 
-![Figure: Good example - All the fields have filled in and subject fields is relevant and short](xero-me-example-fields.png)
+![Figure: Good example - All the fields are filled in and the subject field is relevant and short](xero-me-example-fields.png)
 
 :::
 
