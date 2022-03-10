@@ -11,6 +11,40 @@ Being able to find an email quickly in Outlook is an important skill, and many o
 
 <!--endintro-->
 
+
+Let's take an example scenario and see what tips we can use to search. Last month, you got an email in your inbox from your manager Bob about making changes to how you see data in his Northwind App.
+
+### Tip 1: Giving the person I’m talking to focus
+You know Bob sent the email, and that it's in your inbox. So the best things to do first is to limit outlook to only your inbox folder and only emails from Bob. So while in your inbox:
+
+* Change the folder to "Current Folder"
+* Search for "From:Bob"
+
+
+### Tip 2: Focus on the person (i.e. to: from: cc: bcc:)
+
+### Tip 3: Focus on the subject (i.e. subject:)
+If you have a good idea of what the email subject contains, then the "subject:" scope can help a lot. For example, if you know that the email had Northwind and Bob in the subject then you could:
+
+* Search for "Subject: Northwind Bob"
+
+### Tip 4: Use negatives (i.e. –) 
+
+
+
+### Tip 5: Use quotation marks (i.e. “”)
+
+### Tip 6: Combine 2 searches into 1 (i.e. OR)
+
+### Tip 7: Find a file (i.e. hasattachments:yes)
+
+### Tip 8: Find a file’s content (i.e. attachment:)
+
+### Tip 9: Focus on the date received (i.e. received=<>)
+
+o	Days outstanding From:Adam To: Uly
+
+
 ### Search Scope
 
 Restricting the scope of the search (i.e. where you are searching) can be a great way to limit the number of results to make them more manageable.
@@ -67,7 +101,5 @@ Email has plenty of metadata that can be sifted through to find the right one, a
 * received>1/1/2020: 
 
   * To limit the results to only a particular time period
-
-
 
 **Learn more:** [How to search in Outlook](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da).
