@@ -102,7 +102,7 @@ CodeTwo (and Exclaimer) give:
 ![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
 
 ::: info 
-Note the plugin currently does not work for Appointments. Rules must be manually changed in Exchange Online to include appointments in the server side version of CodeTwo.  Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
+Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server side version of CodeTwo.  Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
 :::
 
 ### Option 2: Set it up manually (Free)
