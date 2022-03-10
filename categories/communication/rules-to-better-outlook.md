@@ -15,12 +15,10 @@ index:
 - do-you-sort-your-emails-by-received-and-important
 - do-you-use-offline-email
 - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
-- do-you-use-the-search-tool-to-find-emails-in-outlook
+- searching-outlook-effectively
 - do-you-use-the-security-options-in-outlook
 - do-you-use-the-voting-option-appropriately
 - do-you-use-word-as-your-editor
 - searching-outlook-effectively
 
 ---
-
-
