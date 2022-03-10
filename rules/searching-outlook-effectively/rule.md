@@ -6,6 +6,8 @@ authors:
   - title: Ulysses Maclaren
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2022-03-09T05:28:52.197Z
 guid: 77ea51b9-baf8-46c2-9f8a-47f1c07fddc6
 ---
@@ -19,18 +21,24 @@ Note: These tips will also help you in your Google/Bing searches too.
 
 Let's take an example scenario and see what tips we can use to search. Last month, you got an email in your inbox from your manager Bob about making changes to how you see data in his Northwind website.
 
-### Tip 1: Giving the person I’m talking to focus
+### Tip 1: Give the person you are talking to the focus
 
-You know Bob sent the email, and that it's in your inbox. So the best thing to do first is to limit outlook to only your inbox folder and only emails from Bob. So while in your inbox:
+If you get 10 calls a day, you should be using this tip 10 times a day. When you get a call from Bob, before he has finished saying "how are you" you should have already typed in the search box and be looking at his most recent emails.
+
+To get Bob's most recent emails the best thing to do, is to limit Outlook to only your inbox folder and only emails from Bob by:
 
 * Change the folder to "Current Folder"
-* Search for:
+* Search for: bob
 
 ```
 from:Bob
 ```
 
-Note: You can change the folder scoping to fit your specific needs
+Note #1: You can change the folder scoping to fit your specific needs
+
+Note #2: You can change the default to always be "Current Folder"
+
+
 
 ![Figure: There are several scoping options available](search-scope.png)
 
