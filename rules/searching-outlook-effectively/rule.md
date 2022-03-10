@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to search effectively in Outlook?
+title: Do you know how to search Outlook effectively?
 uri: searching-outlook-effectively
 authors:
   - title: Ulysses Maclaren
@@ -9,7 +9,11 @@ authors:
 created: 2022-03-09T05:28:52.197Z
 guid: 77ea51b9-baf8-46c2-9f8a-47f1c07fddc6
 ---
-Being able to find an email quickly in Outlook is an important skill, and many of the following techniques will also help you in your Google/Bing searches too.  
+Some people are really good at using Outlook search to find the emails they need, while others have a hard time. Searching for emails can be a real struggle, sometimes you want to find emails from months ago but you aren't sure exactly what to search for.\
+\
+Being able to find an email quickly in Outlook is an important skill. So I want to share some tips and tricks I have picked up about how to find that email buried in your inbox...
+
+Note: These tips will also help you in your Google/Bing searches too.  
 
 <!--endintro-->
 
@@ -115,8 +119,6 @@ You can filter on a specific time period or date. For example, If you know that 
 ```
 received>"07/20/2019"
 ```
-
-
 
 Note: Outlook has a heap of other properties that you can filter on.
 
