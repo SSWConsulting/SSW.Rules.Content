@@ -24,8 +24,6 @@ Being able to find an email quickly in Outlook is an important skill. Here are s
 **Note:** These tips will also help you in your Google/Bing searches too.  
 :::
 
-![](outlook-search.jpg)
-
 ### Scenario
 
 Let's take an example scenario and see what tips we can use to search. Last month, you got an email in your inbox from your manager Bob about making changes to how you see data in his Northwind website.
