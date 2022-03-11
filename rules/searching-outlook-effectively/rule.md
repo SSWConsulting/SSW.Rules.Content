@@ -37,12 +37,12 @@ To get Bob's most recent emails the best thing to do, is to limit Outlook to onl
 * Change the folder to "Current Folder"
 * Search for: &nbsp;&nbsp; **from:Bob**
 
-**Note #1:** You can change the folder scoping to fit your specific needs
+**Note #1:** You can change the folder scoping to fit your specific needs.
   ![Figure: There are several scoping options available](search-scope.png)
 
-**Note #2:** You can change the default to always be "Current Folder"
+**Note #2:** You can change the default to always be "Current Folder".
 
-  ![Figure: Outlook Options for Search](outlook-search-options.png)
+  ![Figure: Outlook Options for Search, have been changed to “Current Folder”](outlook-search-options.png)
 
 ### Tip 2: Focus on the person (i.e. to: from: cc: bcc:)
 
