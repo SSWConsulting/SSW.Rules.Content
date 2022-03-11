@@ -90,7 +90,7 @@ Not always required, captions might also be a good way of giving a brief explana
 
 ::: greybox
 \[video\]   
-**Figure: In this video, Gary talks about**
+**Figure: In this video, Gary talks about how to search on Outlook**
 :::
 ::: bad
 Figure: Bad example - Using "Figure:" for a video caption
@@ -98,7 +98,7 @@ Figure: Bad example - Using "Figure:" for a video caption
 
 ::: greybox
 \[video\]   
-**Video: In this video, Gary talks about**
+**Video: In this video, Gary talks about how to search on Outlook**
 :::
 ::: good
 Figure: Good example - Using "Video:" for a video caption
