@@ -28,7 +28,7 @@ Once you set this up, you will be able to see the grey area in "Scheduling assis
 
 ![Figure: Grey means people are not available (so set your working hours to be accurate)](SchedulingAssistant.jpg)
 
-## Set your working hours in CRM
+## Set your work hours in CRM
 
 ![Figure: In CRM, Click on the cog in the top right | Personalization Settings](CRM-set-work-hours-1.jpg)
 
