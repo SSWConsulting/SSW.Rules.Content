@@ -89,10 +89,7 @@ You can find more info about GitHub syntax at [Basic writing and formatting synt
 
 `youtube: https://www.youtube.com/embed/LAqRokqq4jI`
 
-<!--StartFragment-->
-
 **Video: Top 10+ Rules to Better Email Communication with Ulysses Maclaren**
 
-<!--EndFragment-->
 
-Note: Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
+**Note:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
