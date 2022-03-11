@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Calendar - Do you set your work hours in CRM and your calendars?
+title: Calendar - Do you set your work hours in CRM and your Outlook calendar?
 uri: calendar-do-you-set-your-work-hours-in-your-calendars
 authors:
   - title: Adam Cogan
@@ -14,6 +14,7 @@ created: 2012-09-25T18:08:17.000Z
 archivedreason: null
 guid: 9ddc3832-9a7c-4a2a-a60a-f24f44dca17f
 ---
+## Set your work hours in Outlook Calendar
 You should always set your working hours in your Outlook calendar so others knows when you are working, this will help us to do resource scheduling.  This is especially important for people who are not working as full time, e.g. part-time, contractors etc.
 
 <!--endintro-->
