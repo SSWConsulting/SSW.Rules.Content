@@ -18,7 +18,7 @@ redirects:
 
 First of all, understand that IM is distracting so use it judiciously. However, IM is great when an email is unclear or you have an additional question about the email that is stopping you from sending a 'done'. IM is great for reminding people and is excellent to push the important things... especially for people who ignore emails!
 
-**The golden rule is don not send a task on Teams (IM)!**
+**The golden rule is do not send a task on Teams (IM)!**
 
 <!--endintro-->
 
