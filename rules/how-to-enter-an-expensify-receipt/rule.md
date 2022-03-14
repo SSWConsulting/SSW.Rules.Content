@@ -19,7 +19,7 @@ Xero Me is a comprehensive tool that combines expense claims with Xero payslips 
 
 <!--endintro-->
 
-To avoid confusion, add as much relevant details as possible into the subject field, e.g. "Scrum Master course - only 50% is to be reimbursed".
+To avoid confusion, add as much relevant details as possible into the subject field, e.g. "Scrum Course [50% Approved by: Penny]".
 
 
 An example expense is outlined below:
@@ -32,7 +32,7 @@ To enter the expense claim in Xero Me, follow the steps below:
 3. Take a photo of the tax invoice ensuring the photo is clear and captures all invoice details
 4. For Xero Me to extract details automatically, tap "Analyze"
 5. Attachments and details such as invoice amounts, company and date should populate automatically
-6. Fill in the subject field with relevant information (e.g. "Scrum Master course - only 50% is to be reimbursed)
+6. Fill in the subject field with relevant information (e.g. "Scrum Course [50% Approved by: Penny]")
 7. Select "Paid with personal money - Reimbursable"
 8. Select the most appropriate account (e.g. "Office Amenities" account is used for lunch or office groceries)
 9. Tax rate will populate automatically based on default account settings
@@ -55,7 +55,7 @@ Xero Me has a smart scan function which will read the amount, supplier name and 
 
 ::: good
 
-![Figure: Good example - All the fields are filled in and the subject field is relevant and short](xero-me-example-fields.png)
+![Figure: Good example - All the fields are filled in and the subject field is relevant and short](https://user-images.githubusercontent.com/96279310/158092713-c5aacbfe-bc71-4f26-9ed3-6e7e0c194651.png)
 
 :::
 
@@ -63,6 +63,7 @@ If the expense is not reimbursable, i.e. has been paid on the company's credit c
 
 
 
-![Figure: Non-reimbursable expense](xero-me-non-reimbursable.png)
+![Figure: Non-reimbursable expense](https://user-images.githubusercontent.com/96279310/158093384-b11ab4ac-8e38-433b-b753-a7e8026d3a63.png)
 
 A detailed step-by-step Xero process on how to enter expense claims in Xero Me from from your phone or desktop can be found [here](https://central.xero.com/s/article/Create-a-new-expense?userregion=true#android). 
+
