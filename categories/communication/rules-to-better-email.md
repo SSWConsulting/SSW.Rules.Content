@@ -19,6 +19,7 @@ index:
 - do-you-follow-up-emails-effectively
 - checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
+- send-email-tasks-to-individuals
 - do-you-seek-clarification-via-the-telephone-first
 - dones-do-your-dones-include-a-url
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
