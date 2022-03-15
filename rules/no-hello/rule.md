@@ -14,13 +14,13 @@ authors:
 created: 2021-12-20T22:40:45.273Z
 guid: 4bc9c852-2388-4f9f-9e36-e394b7c5ac59
 ---
-<iframe width="560" height="315" src="https://www.youtube.com/embed/omuzBQaPQjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Figure:** Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.
-
 Please don't say just 'Hello' in chat. It's as if you called someone on the phone and said "Hi!" and then put them on hold!
 
 When someone does that they're simply making the other person wait for you to phrase your question, which generates low productivity.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/omuzBQaPQjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Video:** **Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
 
 <!--endintro-->
 
