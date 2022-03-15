@@ -71,7 +71,7 @@ You can do a [retrospected.com](https://www.retrospected.com/). The advantages a
 :::
 
 ::: good
-![Figure: Good example – this is a paste from the tool, but with modifications to the end so the action points are unclear](retrospected-good.png)
+![Figure: Good example – this is a paste from the tool, but with the modifications at the end the action points are clear](retrospected-good.png)
 :::
 
 ::: greybox
