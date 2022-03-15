@@ -12,7 +12,7 @@ created: 2010-05-06T03:18:17.000Z
 archivedreason: null
 guid: d8ab71ab-506f-49b6-9756-f5e811aa9ab5
 ---
-At the end of every **Sprint** the Development Team performs a **Sprint Retrospective** also known as the **Retro**.  The Retro provides an opportunity for the Scrum Team to reflect on what has gone well, what has gone poorly, and what the team wants to change.
+At the end of every **Sprint**, the Development Team performs a **Sprint Retrospective**, also known as the **Retro**. The Retro provides an opportunity for the Scrum Team to reflect on what has gone well, what has gone poorly, and what the team wants to change.
 
 Inspect-and-adapt is a key component of the Scrum framework and the Retro gives Scrum Teams an opportunity to learn from their successes and mistakes.
 
@@ -24,14 +24,14 @@ The Retro is a time-boxed event that focuses around 3 questions:
 2. **What didn't go well?**
 3. **What will we do differently in the next Sprint?**
 
-The Scrum Master facilitates the meeting and collects issues as they are raised. Once every Scrum Team Member has spoken he facilitates debate on each issue so that team consensus is achieved.  The result should produce an actionable outcome, for example:
+The Scrum Master facilitates the meeting and collects issues as they are raised. Once every Scrum Team Member has spoken, he facilitates debate on each issue so that team consensus is achieved. The result should produce an actionable outcome, for example:
 
 * An adjustment is made to the daily processes followed by the Scrum Team
 * An adjustment is made to the [Definition of Done](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 * An adjustment is made at the organization level
 * An item is added to the Product Backlog
 
-To help aid discussion it can be useful for the Scrum Master to prepare items for review by inspecting the Sprint Backlog and statistics such as:
+To help aid discussion, it can be useful for the Scrum Master to prepare items for review by inspecting the Sprint Backlog and statistics such as:
 
 * Velocity
 * Burndown
@@ -71,7 +71,7 @@ You can do a [retrospected.com](https://www.retrospected.com/). The advantages a
 :::
 
 ::: good
-![Figure: Good example – this is a paste from the tool, but with the modifications at the end the action points are clear](retrospected-good.png)
+![Figure: Good example – this is a paste from the tool, but with the modifications at the end, the action points are clear](retrospected-good.png)
 :::
 
 ::: greybox
