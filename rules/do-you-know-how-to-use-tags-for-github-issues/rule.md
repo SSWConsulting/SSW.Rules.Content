@@ -24,11 +24,11 @@ Depend on projects, there often need to be new labels created on top of the defa
 ![](issues_bad_example.png)
 
 ::: bad
-Bad Example: It is hard to understand what issues are being worked on\
+Bad Example: It is hard to understand what issues are being worked on
 :::
 
 ![](issues_good_example.png)
 
 ::: good
-Good Example: It is very simple to understand if an issue has received attention\
+Good Example: It is very simple to understand if an issue has received attention
 :::
