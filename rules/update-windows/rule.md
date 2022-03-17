@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you always keep indows up to date?
+title: Do you always keep Windows up to date?
 uri: update-windows
 authors:
   - title: Chris Schultz
