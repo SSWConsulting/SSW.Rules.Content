@@ -19,15 +19,15 @@ With automatically sent backlog emails (Azure DevOps or GitHub), there is a risk
 
 If you have an important PBI and want to improve its visibility, then duplicate the content of the PBI into an email.
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | Gary Green|
-| Subject: | SugarLearning Leaderboard - Create leaderboard for approvals count |  
+| Subject: | SugarLearning Leaderboard - Create leaderboard for approvals count |\
 ::: email-content  
 
-(copy of the PBI - https://dev.azure.com/ssw/SSW.Induction/_workitems/edit/67810  
-as per rule https://rules.ssw.com.au/email-copy-to-raise-pbi-visibility)
+(copy of the PBI - https://dev.azure.com/ssw/SSW.Induction/_workitems/edit/67810\
+as per rule https://ssw.com.au/rules/email-copy-to-raise-pbi-visibility)
 
 ### Hi Gary,
 
@@ -37,7 +37,6 @@ We want to have a visual reference for how many approvals each admin have in Sug
 
 Dan Duke
 
-:::  
-:::  
+:::\
+:::\
 **Figure: PBI details copied to an email for better visibility, and also the email can get replied to with a ‘done’**
-           
