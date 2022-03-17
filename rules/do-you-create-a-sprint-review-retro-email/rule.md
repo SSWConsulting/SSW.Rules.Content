@@ -24,7 +24,7 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 
 <!--endintro-->
 
-Firstly, Create a new email copying the information from the previous sprint review/retro. As per [https://rules.ssw.com.au/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
+Firstly, Create a new email copying the information from the previous sprint review/retro. As per [https://ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting](https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
 ::: email-template
 |          |     |
@@ -41,13 +41,10 @@ Here are the Sprint Goals and their status at a glance:
 
 Sprint Goals (in priority order):
 
-
 * Bugfixes – Done ✅
 * WDM Integration – Done ✅
 * SSO/Roles APIs – In Progress 🕑
 * Download Documents APIs  – Not Done ❌
-
-
 
 Please see below for a more detailed breakdown of the Sprint:
 
@@ -94,7 +91,6 @@ Attendees:        *(Optional as they may be in the to and CC)*
 ### R&D
 
 **Did we do any experimental work?**
-
 
 &lt;insert details of any trial/error processes, and ensure all detail is captured as per https://rules.ssw.com.au/do-you-record-your-failures&gt;
 
