@@ -1,26 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: The Team - Do you help your Scrum Master protect and serve The Team?
-guid: 4981f2e8-4846-4d23-8aae-c1992683a312
 uri: the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team
-created: 2010-04-14T06:39:22.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://www.ssw.com.au/people/uly
-- title: Jean Thirion
-  url: https://www.ssw.com.au/people/jean-thirion
-- title: Matt Goldman
-  url: https://www.ssw.com.au/people/matt-goldman
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
+  - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 related: []
 redirects:
-- the-team-do-you-help-your-scrum-master-(not-scrummaster)-protect-and-serve-the-team
-- the-team-do-you-help-your-scrum-master-protect-and-serve-the-team
-
+  - the-team-do-you-help-your-scrum-master-(not-scrummaster)-protect-and-serve-the-team
+  - the-team-do-you-help-your-scrum-master-protect-and-serve-the-team
+created: 2010-04-14T06:39:22.000Z
+archivedreason: null
+guid: 4981f2e8-4846-4d23-8aae-c1992683a312
 ---
-
 Part of the Scrum Master's (not ScrumMaster's) role is to protect the team from distractions so they can deliver on their commitments, to ensure agreed process is followed and to help all roles keep their promises.
 
 It is also important that team members do not allow themselves to get distracted and must work based on priority.
@@ -33,7 +31,7 @@ Here is a good saying to remember: "It is very important I complete my sprint. 
 
 **Video: What is a Scrum Master?**
 
-Any requests for work or distractions outside the scope of the project that take more than 15 minutes must be declined politely and the distraction notified to the Scrum Master, or, if the request comes from the Product Owner, it can be added as a new PBI as described in   [https://rules.ssw.com.au/are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)](/are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint)
+Any requests for work or distractions outside the scope of the project that take more than 15 minutes must be declined politely and the distraction notified to the Scrum Master, or, if the request comes from the Product Owner, it can be added as a new PBI as described in [https://ssw.com.au/rules/are-you-flexible-with-the-order-you-do-the-work-(i-e-cancelling-a-sprint)](https://www.ssw.com.au/rules/are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint)
 
 The only exceptions, where a Team Member can start the work before notifying the Scrum Master are:
 
