@@ -19,5 +19,6 @@ index:
 - do-you-use-the-security-options-in-outlook
 - do-you-use-the-voting-option-appropriately
 - do-you-use-word-as-your-editor
+- searching-outlook-effectively
 
 ---
