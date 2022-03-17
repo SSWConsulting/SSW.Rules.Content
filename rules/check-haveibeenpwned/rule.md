@@ -12,7 +12,7 @@ related:
 created: 2022-03-16T23:33:50.685Z
 guid: 91bcb32d-3ac2-46df-81e1-ccbb3f8512aa
 ---
-When an organisation has a security breach, passwords are compromised and there is no visibility of the problem. This problem means that hackers can gain access to people's accounts without anyone realising what has happend! [haveibeenpwned](https://haveibeenpwned.com/) is a website that addresses this problem...
+When an organisation has a security breach, passwords are compromised and there is no visibility of the problem. This problem means that hackers can gain access to people's accounts without anyone realising what has happened! [haveibeenpwned](https://haveibeenpwned.com/) is a website that addresses this problem...
 
 <!--endintro-->
 
