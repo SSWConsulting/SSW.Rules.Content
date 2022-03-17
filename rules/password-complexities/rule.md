@@ -6,7 +6,7 @@ uri: password-complexities
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:10:04.385Z
-guid: 51fa90f5-954a-448b-a088-512430296b4f
+guid: eaaed5d1-b812-4b31-9a10-8a69e7a2ddd5
 ---
 Complexity requirements are valuable in that they offer a little protection, but not as much as you think. Attackers generally use 2 methods to get people’s passwords: brute force, and social engineering (see rule:…)
 
