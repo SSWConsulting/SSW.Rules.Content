@@ -1,73 +1,118 @@
 ---
 type: rule
-title: Do you know how to search effectively in Outlook?
+title: Do you know how to search Outlook effectively?
 uri: searching-outlook-effectively
 authors:
   - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2022-03-09T05:28:52.197Z
 guid: 77ea51b9-baf8-46c2-9f8a-47f1c07fddc6
 ---
-Being able to find an email quickly in Outlook is an important skill, and many of the following techniques will also help you in your Google/Bing searches too.  
+Some people are really good at using Outlook search to find the emails they need, while others have a hard time. Searching for emails can be a real struggle, sometimes you want to find emails from months ago but you aren't sure exactly what to search for.
+
+Being able to find an email quickly in Outlook is an important skill. Here are some tips and tricks about how to find that email buried in your inbox...
+
+`youtube: https://www.youtube.com/embed/g8gVTw3rHqE`
 
 <!--endintro-->
 
-### Search Scope
+::: greybox
+**Note:** These tips will also help you in your Google/Bing searches too.\
+:::
 
-Restricting the scope of the search (i.e. where you are searching) can be a great way to limit the number of results to make them more manageable.
+### Scenario
 
-![Figure: The 1st thing to understand is the scope of what you are searching](search-scope.png)
+Let's take an example scenario and see what tips we can use to search. Last month, you got an email in your inbox from your manager Bob about making changes to how you see data in his Northwind website.
 
-* If you start a search from your Inbox, the default uses Current Mailbox (i.e. all of the folders in your mailbox), but you can restrict it to just your Inbox by clicking “Current Folder”
-* If you start the search from a more specific folder (e.g. Deleted Items, Junk, or Sent Items), the default uses Current Folder
+### Tip 1: Give the person you are talking to the focus
 
-### Syntax
+If you get 10 calls a day, you should be using this tip 10 times a day. When you get a call from Bob, before he has finished saying "how are you" you should have already typed in the search box and be looking at his most recent emails.
 
-There are some syntax tricks that are usable in Outlook as well as Google, and these should be used often to hone down the number of results so you can find what you need.
+To get Bob's most recent emails the best thing to do, is to limit Outlook to only your inbox folder and only emails from Bob by:
 
-* – (“dash” symbol)
+* Change the folder to "Current Folder"
+* Search for: &nbsp;&nbsp; **from:Bob**
 
-  * To remove irrelevant items
-  * E.g. jobs -apple
-  * Tip: Start with a broad search, and then, when you start seeing irrelevant results about invoicing, add -invoice to your search
-* “” (“double quotes” symbol)
+**Note #1:** You can change the folder scoping to fit your specific needs.
+  ![Figure: There are several scoping options available](search-scope.png)
 
-  * To specify these words one after the other in this order
-  * e.g. “Smith James” will not find James Smith
-  * Useful when using common words but you know they were written in an exact phrase. E.g. “on top of this”
-* OR
+**Note #2:** You can change the default to always be "Current Folder".
 
-  * To give alternatives that may exist in the email you’re trying to find
-  * E.g. truck OR lorry
-  * Tip: Must be upper case... lowercase “or” won’t work
+  ![Figure: Outlook Options for Search, have been changed to “Current Folder”](outlook-search-options.png)
 
-### Outlook Specific
+### Tip 2: Focus on the person (i.e. to: from: cc: bcc:)
 
-Email has plenty of metadata that can be sifted through to find the right one, and many of these are available from the ribbon.
+There are many different ways to focus on people. If know that the email was sent to Adam, from Bob, Luke was CCed and Chris was BCCed then:
 
-![Figure: You can also refine the metadata of your email to find what you want](email-metadata.png)
+* Search for: &nbsp;&nbsp; **to:Adam from:Bob cc:Luke bcc:Chris**
 
-* Subject:
+### Tip 3: Focus on the subject (i.e. subject:)
 
-  * If you know a word was in the email subject
-* From:
+If you have a good idea of what the email subject contains, then the "subject:" scope can help a lot. For example, if you know that the email had Northwind and Bob in the subject then:
 
-  * If you know who the email was from
-* To:
+* Search for: &nbsp;&nbsp; **"Subject: Northwind Bob"**
 
-  * If you know who the email was to
-* CC:
+### Tip 4: Use negatives (i.e. –)
 
-  * If you know someone specific was CCed
-* hasattachments:yes:
+Negatives are a great way to remove results you know definitely won't be relevant. For example, if you know Luke and Adam frequently work with Bob but weren't involved in that email then:
 
-  * This is often useful when you’re looking for a particular attachment, rather than the email itself
-* attachment: 
+* Search for: &nbsp;&nbsp; **\-Luke -Adam**
 
-  * The contents of PDFs and Word docs are indexed too, so you can specify a word or phrase that exist in the attachment to help you find it
-* received>1/1/2020: 
+Note: Start with a broad search, and then, when you start seeing irrelevant results about invoicing, add -invoice to your search
 
-  * To limit the results to only a particular time period
+### Tip 5: Use quotation marks (i.e. “”)
 
+You can search for a direct match in an email using quotation marks. For example, if you know that "days outstanding" was written in the email then:
 
+* Search for: &nbsp;&nbsp; **"days outstanding"**
+
+Note: Particularly useful when using common words but you know they were written in an exact phrase. E.g. “on top of this”
+
+### Tip 6: Combine 2 searches into 1 (i.e. OR)
+
+Sometimes you might know a specific thing was referred to, but aren't sure what terminology was used. For example, let's say you know the email mentioned either "web app" or "website". In that case:
+
+* Search for: &nbsp;&nbsp; **"web app" OR website**
+
+Note: Must be upper case... lowercase “or” won’t work
+
+### Tip 7: Find a file (i.e. hasattachments:yes)
+
+Emails can be filtered to only include ones with attachments. If you know the email has an attachment then:
+
+* Search for: &nbsp;&nbsp; **hasattachments:yes**
+
+### Tip 8: Find a file’s content (i.e. attachment:)
+
+File contents can also be searched. If you know that there was an attachment that contained the text "20/07/2021" then:
+
+* Search for: &nbsp;&nbsp; **attachment:"20/07/2021"**
+
+Note: You must enter dates in USA format #ouch
+
+### Tip 9: Focus on the date received (i.e. received=<>)
+
+You can filter on a specific time period or date. For example, If you know that the email was received after 07/20/2019 then:
+
+* Search for: &nbsp;&nbsp; **received>"07/20/2019"**
+
+Note #1: You must enter dates in USA format #ouch
+
+### Tip 10: Recent Searches
+
+If you know you found an email before, but you can’t seem to find it again, try clicking on Recent Searches to scroll through your latest searches.
+
+![Figure: Easily find your recent searches](outlook-recent-search.png)
+
+---
+
+**More Info:** 
+Outlook has a heap of other properties that you can filter on.
+
+![Figure: Outlook has a lot of meta data filtering options](email-metadata.png)
 
 **Learn more:** [How to search in Outlook](https://support.microsoft.com/en-us/office/how-to-search-in-outlook-d824d1e9-a255-4c8a-8553-276fb895a8da).

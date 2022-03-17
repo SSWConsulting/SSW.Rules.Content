@@ -30,7 +30,9 @@ If you're unable to persuade a client to take your preferred approach, it's impo
 
 If the situation escalates and the client is genuinely upset, make sure you start any reply with something like "I understand your frustration". At this point in time, you want to aim for a compromise, where each party meets the other, somewhere in the middle.
 
-![Figure: Don't be righteous](lose-a-battle.jpg)
+> The operation was a complete success but the patient died...
+
+**Figure: Don't be righteous**
 
 ### How to understand and rationalize dissenting opinions
 

@@ -17,4 +17,4 @@ The Dynamics CRM roadmap provides a snapshot of what Microsoft has been working 
 
 <!--endintro-->
 
-![Figure: Find out more at the official Microsoft Dynamics CRM Roadmap.](image1.PNG)
+![Figure: Find out more at the official Microsoft Dynamics CRM Roadmap.](DynamicsRoadmap.PNG)

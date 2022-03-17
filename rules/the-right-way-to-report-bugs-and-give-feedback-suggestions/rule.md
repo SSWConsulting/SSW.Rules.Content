@@ -18,6 +18,9 @@ created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
+
+If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
+
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
 
 This will save the both you and the developer time and frustration in the long run. 

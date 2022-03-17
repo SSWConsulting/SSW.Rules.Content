@@ -19,6 +19,7 @@ index:
 - do-you-follow-up-emails-effectively
 - checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
+- send-email-tasks-to-individuals
 - do-you-seek-clarification-via-the-telephone-first
 - dones-do-your-dones-include-a-url
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
@@ -33,7 +34,7 @@ index:
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
-- do-you-realize-the-importance-of-a-good-email-subject
+- good-email-subject
 - change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
 - do-you-know-when-and-when-not-to-use-email

@@ -5,6 +5,10 @@ uri: use-google-tag-manager
 authors:
   - title: Penny Walker
     url: https://ssw.com.au/people/penny
+  - title: Luke Mao
+    url: https://www.ssw.com.au/people/luke-mao
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/cammy
 related: null
 created: 2021-06-01T17:30:01.000Z
 archivedreason: null
@@ -23,7 +27,21 @@ Google Tag Manager is a tag management system (TMS) that allows you to quickly a
 :::
 
 ::: good
+![Figure: Good example – Reference to the Google Tag Manager](tracking-code-reference-google-tag-manager.png)
+:::
+
+::: good
 ![Figure: Good example – Vimeo tracking code added through Google Tag Manager](tracking-code-good.png)
 :::
+
+Multiple marketing tools can be added in a website using Google Tag manager.
+
+![Figure: All tags are added in new SSW.Website using GTM](trracking-all-tags.png)
+
+Data and analytics result has recorded by Google Analytics on new SSW.Website. Universal Analytics and GA4 are configured in Google Tag Manager.
+
+![Figure: Universal Analytics is collecting data from the website](tracking-universal-analytics.png)
+
+![Figure: GA4 is collecting data from the website](tracking-ga4.png)
 
 Learn more on [Google Tag Manager official site](https://marketingplatform.google.com/about/tag-manager/benefits/).

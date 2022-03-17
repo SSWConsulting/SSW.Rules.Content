@@ -5,6 +5,7 @@ guid: 67f8e978-2aa1-4bc9-96b6-a54cefc3d159
 uri: rules-to-better-im
 index:
 - know-that-im-interrupts
+- do-you-minimize-team-distractions
 - no-hello
 - avoid-sending-unnecessary-messages
 - start-your-answer-with-yes-or-no-then-say-your-opinion
@@ -16,7 +17,6 @@ index:
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 - important-chats-should-be-in-an-email
 - you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
-- do-you-minimize-team-distractions
 - minimize-skype-distractions
 - set-your-display-picture
 - show-your-phone-number

@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you realize the importance of a good email Subject?
-uri: do-you-realize-the-importance-of-a-good-email-subject
+uri: good-email-subject
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,7 +12,8 @@ related:
   - appointments-do-you-show-all-the-necessary-information-in-the-subject
   - scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings
   - do-you-know-when-you-should-change-a-subject
-redirects: []
+redirects: 
+  - do-you-realize-the-importance-of-a-good-email-subject
 created: 2009-03-24T04:41:35.000Z
 archivedreason: null
 guid: 5f1e85d7-f385-4d3b-8338-d49fe11eab91

@@ -23,9 +23,7 @@ redirects:
 created: 2015-11-02T20:01:33.000Z
 archivedreason: null
 guid: 9ba16834-8789-41b1-b64c-7c10e8ffb837
-
 ---
-
 Email signatures are a great way of adding some advertising and branding. You should **always use a nice email signature for external emails**. Internally, you may use a short one (just your name or initials).
 
 `youtube: https://www.youtube.com/embed/qwG8RA-cWy0`
@@ -102,6 +100,10 @@ CodeTwo (and Exclaimer) give:
 5. Hassle-free setup – users do not need to touch any signatures on any devices. 
 
 ![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
+
+::: info 
+Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server side version of CodeTwo.  Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
+:::
 
 ### Option 2: Set it up manually (Free)
 
