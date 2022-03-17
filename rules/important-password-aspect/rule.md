@@ -5,7 +5,7 @@ uri: important-password-aspect
 authors:
   - title: Matt Goldman
 created: 2022-03-17T04:59:44.169Z
-guid: c181b700-3f7d-43ca-9bb9-025f8590af50
+guid: e1bbd101-8e7b-48c0-a611-d4f61167516d
 ---
 Passwords are a legacy technology that is not fit for the purpose that we use them today. We’re working our way towards a post-password world, in particular the FIDO alliance (<https://fidoalliance.org/>), and many biometric technologies, including fingerprint and face recognition that you may have in your phone. But for now, passwords are something we all need to live with.
 
