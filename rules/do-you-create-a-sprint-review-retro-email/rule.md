@@ -92,9 +92,9 @@ Attendees:        *(Optional as they may be in the to and CC)*
 
 **Did we do any experimental work?**
 
-&lt;insert details of any trial/error processes, and ensure all detail is captured as per https://rules.ssw.com.au/do-you-record-your-failures&gt;
+&lt;insert details of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](https://www.ssw.com.au/rules/do-you-record-your-failures);
 
-&lt;insert details of any problems for which no solutions existed, and ensure detail is captured as per https://rules.ssw.com.au/do-you-record-your-research-under-the-pbi&gt;
+&lt;insert details of any problems for which no solutions existed, and ensure detail is captured as per <https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi>;
 
 ### Sprint Retrospective
 
