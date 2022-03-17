@@ -25,3 +25,7 @@ You have 2 options:
 
 - [How to record the screen on your Mac](https://support.apple.com/en-au/HT208721) (recommended)
 - [Record your screen in QuickTime Player on Mac](https://support.apple.com/en-ca/guide/quicktime-player/qtp97b08e666/mac)
+
+::: greybox
+**Tip:** Alternatively, you can use [Loom](https://www.useloom.com/), which works as a Google Chrome extension.     
+:::

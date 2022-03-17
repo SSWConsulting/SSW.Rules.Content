@@ -21,7 +21,7 @@ Being able to find an email quickly in Outlook is an important skill. Here are s
 <!--endintro-->
 
 ::: greybox
-**Note:** These tips will also help you in your Google/Bing searches too.  
+**Note:** These tips will also help you in your Google/Bing searches too.\
 :::
 
 ### Scenario
@@ -102,7 +102,15 @@ You can filter on a specific time period or date. For example, If you know that 
 
 Note #1: You must enter dates in USA format #ouch
 
-More Info: 
+### Tip 10: Recent Searches
+
+If you know you found an email before, but you can’t seem to find it again, try clicking on Recent Searches to scroll through your latest searches.
+
+![Figure: Easily find your recent searches](outlook-recent-search.png)
+
+---
+
+**More Info:** 
 Outlook has a heap of other properties that you can filter on.
 
 ![Figure: Outlook has a lot of meta data filtering options](email-metadata.png)
