@@ -5,7 +5,7 @@ uri: recognizing-scam-emails
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:39:07.720Z
-guid: 51fa90f5-954a-448b-a088-512430296b4f
+guid: ef89a713-c51d-45e0-8c14-2ca010eec387
 ---
 
 

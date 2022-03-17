@@ -5,7 +5,7 @@ uri: password-ages
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:18:43.526Z
-guid: 51fa90f5-954a-448b-a088-512430296b4f
+guid: 03a2cd74-02e1-4195-8389-98a2e82f0590
 ---
 Minimum password age and maximum password age rules are not useful and do more harm than good. Passwords are already difficult to manage, and forcing people to change them at specific times encourages poor password practices, such as using well-known transforms and substitutions, or writing them down.
             

@@ -5,7 +5,7 @@ uri: is-site-encrypted
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:51:19.905Z
-guid: 51fa90f5-954a-448b-a088-512430296b4f
+guid: 316e260c-d521-4df2-a4ee-b06ebd2f7fdb
 ---
 
 

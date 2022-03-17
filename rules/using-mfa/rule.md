@@ -5,7 +5,7 @@ uri: using-mfa
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:06:21.573Z
-guid: 51fa90f5-954a-448b-a088-512430296b4f
+guid: 1e46b6c6-b5de-425d-a801-cad2c6c33905
 ---
 The best protection you can provide for your password is to not solely rely on it. Multi-factor authentication (MFA) lets you use a mix of techniques when logging into an account. Typically this is made up of something you know (your password) and something you have (your phone, or an RSA token for those of us still using them).
             

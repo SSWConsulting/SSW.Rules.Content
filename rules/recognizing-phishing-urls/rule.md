@@ -5,7 +5,7 @@ uri: recognizing-phishing-urls
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:47:34.156Z
-guid: 51fa90f5-954a-448b-a088-512430296b4f
+guid: 668d37e3-deeb-49db-9ad2-043b8c1dbdbd
 ---
 
 
