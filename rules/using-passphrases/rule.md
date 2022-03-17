@@ -5,7 +5,7 @@ uri: using-passphrases
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:20:57.719Z
-guid: 51fa90f5-954a-448b-a088-512430296b4f
+guid: 64bbe314-c04a-485b-9a9b-0a757eead506
 ---
 The available list of 10, 12, or 16 (or better yet in terms of length, 20) character words is limited. So if you pick one of these words you don’t afford yourself much protection.
 
