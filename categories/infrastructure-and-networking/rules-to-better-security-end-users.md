@@ -9,6 +9,18 @@ index:
 - windows-security
 - virus-threat-protection
 - password-manager
+- important-password-aspect
+- using-mfa
+- password-complexities
+- password-ages
+- using-passphrases
+- using-a-password-manager
+- never-share-passwords
+- subscribe-to-haveibeenpwned
+- never-use-password-twice
+- recognizing-scam-emails
+- recognizing-phishing-urls
+- is-site-encrypted
 
 ---
 
