@@ -32,7 +32,7 @@ It’s generally a better idea to direct each email/task to one specific person.
 ::: bad  
 Figure: Bad Example - None of the designers know which of them should action the task
 :::
-  
+
 ::: email-template
 |          |     |
 | -------- | --- |
@@ -43,7 +43,7 @@ Figure: Bad Example - None of the designers know which of them should action the
 
 ### Hi Danny,
 
-1. Please create a new logo for XXX 
+1. Please create a new logo for XXX  
 
 :::
 :::
