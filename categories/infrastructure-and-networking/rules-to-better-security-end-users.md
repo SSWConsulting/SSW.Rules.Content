@@ -8,6 +8,7 @@ index:
 - check-haveibeenpwned
 - windows-security
 - virus-threat-protection
+- password-manager
 
 ---
 
