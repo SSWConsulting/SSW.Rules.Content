@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you minimise the use of Out of Office?
+title: Do you minimize the use of Out of Office?
 uri: do-you-avoid-using-out-of-office
 authors:
   - title: Adam Cogan
