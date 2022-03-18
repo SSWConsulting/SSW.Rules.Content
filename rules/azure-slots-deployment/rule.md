@@ -1,6 +1,6 @@
 ---
 type: rule
-title: "Do you know how to use slot deployment on Azure? "
+title: Do you know how to use slot deployment on Azure?
 uri: azure-slots-deployment
 authors:
   - title: Patrick Zhao
