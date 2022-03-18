@@ -56,17 +56,17 @@ OpenSearch is another solution, using the OpenSearch protocol you can [add exter
 
 #### Suggestion to Microsoft:
 
-**[\#1 Help me better sync my Dynamics 365 CRM data with the SharePoint user profile service](https://sharepoint.uservoice.com/forums/329220-sharepoint-dev-platform/suggestions/43922373-help-me-better-sync-my-dynamics-365-crm-data-with)**
+** #1 Help me better sync my Dynamics 365 CRM data with the SharePoint user profile service**
 
 This should be a simple SharePoint connector so this piece of PowerShell glue is not required 👌\
 E.g. CRM user skills to User Profile properties
 
-**[\#2 Help me make Dynamics 365 CRM data searchable from SharePoint search](https://sharepoint.uservoice.com/forums/330321-sharepoint-search/suggestions/43922382-help-me-make-dynamics-365-crm-data-searchable-from)**
+** #2 Help me make Dynamics 365 CRM data searchable from SharePoint search**
 
 If not using a connector, we should be able to easily index and search through Dynamics 365 CRM data.
 This is essentially just calling a different API.
 
-**[\#3 Help me customise SharePoint search results](https://sharepoint.uservoice.com/forums/330321-sharepoint-search/suggestions/43922385-help-me-customise-sharepoint-search-results)**
+** #3 Help me customise SharePoint search results**
 
 If you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI.\
 E.g. Search for people here: https://ssw.com.au/people
