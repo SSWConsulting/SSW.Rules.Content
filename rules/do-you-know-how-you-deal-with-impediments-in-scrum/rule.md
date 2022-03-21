@@ -44,7 +44,7 @@ Separate out these as Point Cards
 4. Students break PBIs into tasks
 5. Students put estimates on each task (typical times for work in a day e.g 4 hours, 8 hours)
 
-# Each Day in the sprint
+# Each Day in the Sprint
 
 1. Get the students “Click-Click” their fingers instead of doing actual coding
 2. The trainer deals one or two cards from the Chance Cards
@@ -111,7 +111,7 @@ e.g. The current implementation may not support real-time display of information
 <ul>                <li>Double the remaining hours on a task </li>
             </ul>
 e.g. Multiple field data validation was supported in the application but when it was implemented for this work it failed all validations calls and it took ages to find the    settings in web.config were wrong. |
-| \*\*Cancelled Sprint\*\* | The PO cancels the sprint |
+| \*\*Cancelled Sprint\*\* | The PO cancels the Sprint |
 | 
 <ul>                <li>Cancel all tasks</li>
                 <li>Recycle the PBIs to the Product Backlog </li>
