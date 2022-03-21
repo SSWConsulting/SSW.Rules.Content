@@ -18,9 +18,9 @@ Please don't say just 'Hello' in chat. It's as if you called someone on the phon
 
 When someone does that they're simply making the other person wait for you to phrase your question, which generates low productivity.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/omuzBQaPQjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+`youtube: https://www.youtube.com/embed/omuzBQaPQjw`
 
-**Video:** **Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
+**Video: Hear from Adam Cogan as he talks about a common mistake on IM - just saying "Hey" or "Hello" without explaining the context.**
 
 <!--endintro-->
 
@@ -37,6 +37,6 @@ Asking your question before getting any reply allows **asynchronous communicatio
 Even better, don't start cold if the conversation has a history... Remember everyone likes breathing space, so say:
 
 * "Calling in 5 minutes. See the PBI: \[URL]
-* "Calling in 5 minutes. See email subjecT: \[Email subject]
+* "Calling in 5 minutes. See email subject: \[Email subject]
 
 More info: [noohellow.net](https://nohello.net/)
