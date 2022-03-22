@@ -19,24 +19,24 @@ redirects: []
 
 ---
 
-If you use the default Azure staging web site Url, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
+If you use the default Azure staging web site URL, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
 
 <!--endintro-->
 
 ::: greybox
-Default Azure Url:
-sugarlearning**-staging**\.azurewebsites.net
+Default Azure URL:
+sugarlearning**-staging**&#46;azurewebsites&#46;net
 :::
 ::: bad
 Figure: Bad example - Site using the default URL (hard to remember!!)  
 :::
 
 ::: greybox
-Customized Url:
-**staging**\.sugarlearning.com
+Customized URL:
+**staging**&#46;sugarlearning&#46;com
 :::
 ::: good
-Figure: Good example - Staging URL with "staging\." prefix  
+Figure: Good example - Staging URL with "staging&#46;" prefix  
 :::
 
 **How to setup a custom URL**
@@ -45,6 +45,6 @@ Figure: Good example - Staging URL with "staging\." prefix
 
 ![Figure: CName being added to DNS for the default URL](2015-03-10_17-13-55.png) 
 
-2. Instruct Azure to accept the custom Url
+2. Instruct Azure to accept the custom URL
 
 ![Figure: Azure being configured to accept the CName](custom-domains.png)
