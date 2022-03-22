@@ -79,7 +79,7 @@ Figure: Good Example - copy this as email template and send to Product Owner
 More instructions are as below:
 
 1. Go to Azure DevOps and navigate to the current sprint's backlog view
-  E.g. **dev\.azure\.om/ssw/Northwind/\_sprints/backlog/Northwind%20Team/Northwind/Sprint%201**
+  E.g. **dev&#46;azure&#46;com/ssw/Northwind/\_sprints/backlog/Northwind%20Team/Northwind/Sprint%201**
 2. Paste to the Forecast email, and format the table:
 
    * Remove any useless columns!
