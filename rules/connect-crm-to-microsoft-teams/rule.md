@@ -29,7 +29,7 @@ created: 2020-03-27T21:55:12.000Z
 archivedreason: null
 guid: 1b2a7623-45c8-4a45-a46a-c2c9150f9180
 ---
-At your company, you never want to have a person ask "Where is that file?"
+At your company, you never want to have a person asking "Where is that file?"
 The answer should be "The answer is Teams, the question is irrelevant".
 
 Microsoft Teams is a great solution for organizing client files and conversations. Create a new Team for each of your clients, and if you have multiple projects for one client, use Channels to keep them separate. There's no need to create a new Team just for a new project.
@@ -40,7 +40,7 @@ Once you have this set up, it is likely that you want to have a link between you
 
 `youtube: https://www.youtube.com/embed/3nkO8BxG8Sc`
 
-In the video "Adam Cogan from SSW" describe how they connect Dynamics 365 and Teams with an extra field. They change the Account table to add a custom column 'Teams-URL'.
+In the video, Adam Cogan describes how they connect Dynamics 365 and Teams with an extra field. They change the Account table to add a custom column 'Teams-URL'.
 
 ![Figure: CRM | Company/Account Form – added Teams URL field](dynamics-and-teams.png)
 
