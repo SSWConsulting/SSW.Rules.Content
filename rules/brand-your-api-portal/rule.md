@@ -10,7 +10,7 @@ authors:
   url: https://ssw.com.au/people/william-liebenberg
 - title: Bryden Oliver
   url: https://ssw.com.au/people/bryden-oliver
-  - title: Adam Cogan
+- title: Adam Cogan
   url: https://www.ssw.com.au/people/adam-cogan
 related: 
 - tools-to-manage-apis
