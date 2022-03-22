@@ -20,11 +20,11 @@ Understanding  and taking  advantage of tracking codes on URLs is very important
 
 What is the difference in these 2 URLs?
 
-- **thetrackr\.com** 
+- **thetrackr&#46;com** 
 
-versus
+...versus
 
-- **thetrackr\.com/bravo?utm\_expid=98763450-11.FrU2vkRZTECb\_wLuT78JGA.1&utm\_source=facebookads&utm\_medium=conversions&utm\_campaign=AU\_English\_BravoOrderSuccess4LAL\_AgeTargets&utm\_referrer=http%3A%2F%2Fm.facebook.com#ab\_test=b
+- **thetrackr&#46;com/bravo?utm\_expid=98763450-11.FrU2vkRZTECb\_wLuT78JGA.1&utm\_source=facebookads&utm\_medium=conversions&utm\_campaign=AU\_English\_BravoOrderSuccess4LAL\_AgeTargets&utm\_referrer=http%3A%2F%2Fm.facebook.com#ab\_test=b**
 
 <!--endintro-->
 
