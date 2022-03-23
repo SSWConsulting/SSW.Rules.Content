@@ -28,7 +28,7 @@ Pros of using a template are:
 4. Consistency of general styling
 5. It helps with the process of getting a ‘Designer Test Pass’
 
-![Not following SSW branding.](bad_cover.gif)
+![](bad_cover.gif)
 
 ::: bad
 Figure: Bad Example - Not using the corporate template (in this case not SSW)\
