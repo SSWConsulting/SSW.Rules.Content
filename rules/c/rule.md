@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know to put any meeting join info at the top of the body?
-uri: c
+uri: meeting-join-info-at-the-top
 authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
