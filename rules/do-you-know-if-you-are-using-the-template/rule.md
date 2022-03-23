@@ -29,10 +29,9 @@ Pros of using a template are:
 5. It helps with the process of getting a ‘Designer Test Pass’
 
 ::: bad
-
 ![Figure: Bad Example - Not using the corporate template (in this case not SSW)](bad_cover.gif)
-
 :::
+
 ::: good
 ![Figure: Good Example - That's a mighty fine looking template you got there ](goodcoverv2.png)
 :::
@@ -42,6 +41,7 @@ In newer versions of PowerPoint, it is necessary to add your custom template to:
 C:\Users&lt;UserName&gt;\Documents\Custom Office Templates\
 
 They will then appear in the PowerPoint list when creating a new presentation. You can also find a more in-depth guide on how to [create PowerPoint templates](https://support.microsoft.com/en-us/office/create-and-save-a-powerpoint-template-ee4429ad-2a74-4100-82f7-50f8169c8aca) and how to [use a personal template.](https://support.microsoft.com/en-us/office/use-a-personal-template-to-create-a-new-powerpoint-presentation-71262c90-1447-4109-90f3-eb84f9d06c98)
+
 ::: good
 ![Figure: Good Example - Your custom template appears in PowerPoint](DefaultTheme.png)
 :::
