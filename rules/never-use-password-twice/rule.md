@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Passwords - Do you know NEVER to use the same password for more than one
+title: Passwords - Do you know NEVER to use the same password for more than one?
   account or service
 uri: never-use-password-twice
 authors:
