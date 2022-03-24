@@ -4,6 +4,7 @@ title: Do you know how to tell if a website is encrypted?
 uri: is-site-encrypted
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-17T05:51:19.905Z
 guid: 316e260c-d521-4df2-a4ee-b06ebd2f7fdb
 ---
