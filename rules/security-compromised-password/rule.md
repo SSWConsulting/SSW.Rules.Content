@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do know how to handle compromised passwords?
+title: Passwords - Do know how to handle compromised passwords?
 uri: security-compromised-password
 authors:
   - title: Adam Cogan
