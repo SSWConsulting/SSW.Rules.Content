@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use MFA?
+title: Do you use MFA instead of typing a password?
 uri: using-mfa
 authors:
   - title: Matt Goldman
