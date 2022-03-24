@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you Use MFA?
+title: Do you use MFA?
 uri: using-mfa
 authors:
   - title: Matt Goldman
