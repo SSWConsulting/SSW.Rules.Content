@@ -55,7 +55,10 @@ You should always check that the **domain** matches the service or website you a
 If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
 
 
+::: bad
+![Bad example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
+:::
 
-![❌Bad example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
-
-![✔Good example – the domain ANZ.com.au is owned by ANZ](good-whois.png)
+::: good
+![Good example – the domain ANZ.com.au is owned by ANZ](good-whois.png)
+:::
