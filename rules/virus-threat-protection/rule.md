@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you run virus and threat protection?
+title: PC - Do you run virus and threat protection?
 uri: virus-threat-protection
 authors:
   - title: Chris Schultz
@@ -18,8 +18,8 @@ Make sure to regularly run a quick scan on your computer to check for vulnerabil
 
 If it is suspected that a machine has a virus, then it pays to be extra certain about possible infections. In that case, do the following:
 
-1. Run a quick scan - This scan will quickly identify and isolate threats.
-2. Run a full scan - This scan takes a few hours and will do a deep check on your PC to remove problems.
+1. Run a quick scan - This scan will quickly identify and isolate threats
+2. Run a full scan - This scan takes a few hours and will do a deep check on your PC to remove problems
 3. Once you don't need to use your PC, run an offline scan - This scan will take your PC offline to do a scan and ensures viruses can't reinfect you during the quarantine process
 
 ![Figure: If you suspect you are infected, run a quick scan, then a full scan and then when you don’t need to use your computer do an offline scan](defenderscanoptions.png)
