@@ -42,11 +42,11 @@ This system means no one is blocked.
 
 ### Exceptions
 
-* IT - 
-* Marketing - 
-* One-time vs. Subscriptions - 
+When approving purchases, you might come across some exceptions depending on the business/industry you are in. Here are some examples:
 
-
+* IT - Be mindful that IT purchases could be of a higher amount and require an unique approval flow.
+* Marketing - The marketing team usually works with a budget and this could vary in period e.g. monthly, quartely, etc.
+* One-time vs. subscriptions - Make sure to highlight when a cost will be a one-off or recurring cost. This is important if the team works on a budget basis.
 
 ::: bad\
 ![Figure: Bad Example - this expense will not be reimbursed](purchase-please-bad-example.jpg)\
