@@ -24,5 +24,6 @@ Why? If your Gmail has been hacked this can have implications for the company.
 
 Once you have informed your Systems Administrator of a potential breach send an "As Per My Conversation" email - https://ssw.com.au/rules/as-per-our-conversation-emails
 
-image.png
-Figure: ✅ Informing SysAdmins of a potential breach and sending an "As Per My Conversation" Email
+::: good
+![Figure: Informing SysAdmins of a potential breach and sending an "As Per My Conversation" Email](SugarLearning-Email-Passwords.png)
+:::
