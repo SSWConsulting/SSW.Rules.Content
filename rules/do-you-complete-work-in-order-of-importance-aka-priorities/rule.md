@@ -33,7 +33,7 @@ This is the order which you should work:
 1. **Urgent emails** - emails with "URGENT" in the subject. E.g. "URGENT - the website is down"
 2. Emails about **[timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues
 3. Your calendar - [keep your calendar up-to-date,](/calendar-does-your-calendar-always-accurately-show-where-you-are)so people know where you are
-4. **Your existing clients** - e.g. Normal planned client work and client administration (preferably working on a sprint [backlog](/do-you-know-how-to-manage-the-product-backlog) and Daily Scrums)
+4. **Your existing clients** - e.g. Normal planned client work and client administration (preferably working on a [Sprint Backlog](/do-you-know-how-to-manage-the-product-backlog) and Daily Scrums)
 5. **Other client work** - Ask others if you can help with their client work
 6. **Prospective clients** - Project management, answering questions and setting up meetings
 7. Internal - All of the following might have their priorities ordered by the Daily Scrum
@@ -45,12 +45,13 @@ This is the order which you should work:
     6. Ping others to see if they need help completing their Sprint
 8. Phew... Done...
 
-**Tips: **
+**Tips:**
 - Efficient people keep a priority list (often written)
 - Don't move an important task out of your inbox unless someone else is going to do it right away
 - The most recent task assigned is not necessarily the most important. Mentally do this (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land
-- You can use inbox subfolders to group and prioritize tasks 
-  ::: good  
+- You can use inbox subfolders to group and prioritize tasks  
+  
+  ::: good
   ![Figure: Group by subfolders under your inbox](subfolders.png)  
   :::
 

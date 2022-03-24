@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - well-architected-framework
   - cloud-architect

@@ -24,7 +24,7 @@ Let's take a look at how to make a simple, yet information rich set of labels...
 
 <!--endintro-->
 
-Firstly, set up some [GitHub Issue Templates](github-issue-templates) that have default labels. Prefix those ones with "Type:" so it is clear they define the type of Issue:
+Firstly, set up some [GitHub Issue Templates](/github-issue-templates) that have default labels. Prefix those ones with "Type:" so it is clear they define the type of Issue:
 * Type: Bug
 * Type: DevOps
 * Type: Documentation

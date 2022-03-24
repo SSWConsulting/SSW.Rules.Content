@@ -53,7 +53,6 @@ index:
 - when-to-send-group-email-over-an-im-group-message
 - do-you-avoid-sending-your-emails-immediately
 - do-you-avoid-using-images-in-your-email-signatures
-- do-you-avoid-using-out-of-office
 - do-you-avoid-using-words-that-make-your-email-like-junk-mail
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam

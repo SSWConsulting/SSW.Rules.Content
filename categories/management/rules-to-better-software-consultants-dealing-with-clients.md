@@ -48,7 +48,7 @@ index:
 - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
 - do-you-know-the-numbers-you-give-clients
 - do-you-know-the-client-is-not-always-right
-- send-a-for-the-record-email-when-you-disagree
+- for-the-record
 - do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 - do-you-not-interrupt-people-when-they-are-in-the-zone
 - do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
