@@ -20,4 +20,6 @@ By doing this, you will make it clear it is a remote meeting held via the tool y
 ![Figure: Bad example - The meeting link is under text body](join-info-bad.png)
 :::
 
+::: good
 ![Figure: Good example - Always put meeting link on the top](join-info-good.png)
+:::
