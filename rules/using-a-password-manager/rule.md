@@ -1,4 +1,5 @@
 ---
+archivedreason: Duplicate of https://www.ssw.com.au/rules/password-manager
 type: rule
 title: Passwords – Do you use a password manager?
 uri: using-a-password-manager
