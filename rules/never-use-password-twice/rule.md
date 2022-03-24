@@ -5,6 +5,7 @@ title: Passwords - Do you know NEVER to use the same password for more than one
 uri: never-use-password-twice
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-17T05:37:14.530Z
 guid: a49bd55a-f213-4f25-b0f8-3340cb142e18
 ---
@@ -22,6 +23,7 @@ Using the same password everywhere may seem like a convenience, but the impact o
 
 If there is a breach at a website you use, and you only use the password there, then you have to change one password, and the scope of the issue is limited to that one website. If you reuse the same password everywhere, and any one of those services is breached, the attacker now has access to everything – your bank, your work, your social media, everything.
 
-Sign up for <https://discountpal.cheap> to see why reusing passwords is a bad idea.
+
+Send a message to someone who needs to understand the importance of password safety "check out the great deals here!" and watch them https://discountpal.cheap
 
 Use a unique password for everything.
