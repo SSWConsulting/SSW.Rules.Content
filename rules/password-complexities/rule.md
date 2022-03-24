@@ -47,4 +47,4 @@ P@55w0rd
 ::: greybox
 Pas!#@wor!#@d
 :::
-✅ Better example (but DON’T use the word password!)
+✅ Better example (but don't use this password - the fact that this has been published has made it untrusted)
