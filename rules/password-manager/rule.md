@@ -48,6 +48,6 @@ This way, a new device can’t get to your passwords even if your username, pass
 
 Figure: In LastPass you can quickly scan through problematic passwords and update them. In this case most of them are localhost passwords with no impact if they ever get compromised.
 
-![Figure: Keep track of all devices that have access to LastPass (every browser is treated as a separate device).(keep-track-devices.png)
+![Figure: Keep track of all devices that have access to LastPass (every browser is treated as a separate device)](keep-track-devices.png)
 
 ![Figure: If the mobile device is lost, you can remove them from access and feel safe](remove-lost-mobile.png)
