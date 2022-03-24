@@ -4,6 +4,7 @@ title: Passwords – Do you know that age requirements do more harm than good?
 uri: password-ages
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-17T05:18:43.526Z
 guid: 03a2cd74-02e1-4195-8389-98a2e82f0590
 ---
