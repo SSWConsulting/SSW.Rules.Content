@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you check that Windows Security has 5 green ticks?
+title: PC - Do you check that Windows Security has 5 green ticks?
 uri: windows-security
 authors:
   - title: Chris Schultz
