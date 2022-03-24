@@ -27,7 +27,7 @@ Another popular scam was an email claiming to be a parking or speeding fine. Whi
 When you send or receive an email, the recipient lists an email address and a friendly name. The friendly name can be changed to whatever you like, without impacting where the email comes from.
 
 ::: bad
-![Bad example – the name says Adam Cogan, but the email address is a Gmail account](bad-email-example.png)
+![Bad example – the name says Adam Cogan, but the email address is a Gmail account](email-scam-name.png)
 :::
 
 ::: good
