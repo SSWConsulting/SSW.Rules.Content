@@ -4,6 +4,7 @@ title: Do you know the most important aspect of your password?
 uri: important-password-aspect
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-17T04:59:44.169Z
 guid: e1bbd101-8e7b-48c0-a611-d4f61167516d
 ---
