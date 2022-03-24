@@ -14,6 +14,10 @@ With a password manager, you don't have to remember that strong, unique password
 
 <!--endintro-->
 
+`youtube: https://youtu.be/xHSnHj-zKF4`
+
+**Figure: Why you should use a password manager**
+
 It does not matter which one. There are many great tools out there for example:
 
 * **[KeePass](https://keepass.info/)** - keeps all passwords in one database locked by a master key, which should be accessible only by the few people you trust.
