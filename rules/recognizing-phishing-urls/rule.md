@@ -4,6 +4,7 @@ title: Do you know how to recognize phishing URLs?
 uri: recognizing-phishing-urls
 authors:
   - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-17T05:47:34.156Z
 guid: 668d37e3-deeb-49db-9ad2-043b8c1dbdbd
 ---
