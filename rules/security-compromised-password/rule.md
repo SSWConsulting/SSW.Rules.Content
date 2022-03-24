@@ -1,13 +1,13 @@
 ---
 type: rule
-title: Do know how to handle compromised passwords?
+title: Do know how to handle compromised accounts?
 uri: security-compromised-password
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Jonty Gardner
     url: https://ssw.com.au/people/jonty-gardner
-related: 
+related:
   - password-ages
   - password-complexities
   - using-passphrases
@@ -19,7 +19,6 @@ redirects: []
 created: 2022-03-24T03:50:10.000Z
 archivedreason: null
 guid: 78bdc9fe-74eb-45b3-842f-ead5d86797d4
-
 ---
 
 Employees with a compromised account should **immediately** contact their SysAdmins for help. This is whether it is a personal or a work account.
