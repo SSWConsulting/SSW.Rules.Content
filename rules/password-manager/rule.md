@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use a password manager?
+title: Passwords - Do you use a password manager?
 uri: password-manager
 authors:
   - title: Adam Cogan
@@ -25,6 +25,8 @@ This is obviously not something you can realistically type in every time you nee
 With a password manager, you don't have to remember that strong, unique password for every website. The password manager stores them for you and even helps you generate new, random ones. 
 
 <!--endintro-->
+
+It does not matter which one. There are many great tools out there:
 
 `youtube: https://youtu.be/xHSnHj-zKF4`
 

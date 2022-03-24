@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the most important aspect of your password?
+title: Passwords - Do you know the most important aspect of your password?
 uri: important-password-aspect
 authors:
   - title: Matt Goldman
