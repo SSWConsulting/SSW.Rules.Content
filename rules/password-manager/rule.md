@@ -10,7 +10,6 @@ related:
 created: 2021-08-09T23:30:55.670Z
 guid: 86866bb2-9079-413e-8a6d-6eef85c87a48
 ---
-
 The best passwords in the world are the ones you can never possibly remember. Computer generated passwords, with a length of at least 16 characters, offer the most protection. These passwords look something like this:
 
 :::greybox
@@ -41,3 +40,14 @@ It does not matter which one. There are many great tools out there for example:
 * **[BitWarden](https://bitwarden.com/products/)** - Take control of your online password security and manage private data safely from any location or device
 * **[Dashlane](https://www.dashlane.com/lp/search)** - put passwords in their place, we’ll take care of them for you.
 
+- - -
+
+Some password manager have a security score - action it if it’s a low number.
+For example, in LastPass you can disable automatic device provisioning and you can manually approve them.
+This way, a new device can’t get to your passwords even if your username, password and MFA got compromised at the same time. (in case a hacker manages to get into your phone and gets your password to LastPass)
+
+Figure: In LastPass you can quickly scan through problematic passwords and update them. In this case most of them are localhost passwords with no impact if they ever get compromised.
+
+![Figure: Keep track of all devices that have access to LastPass (every browser is treated as a separate device).(keep-track-devices.png)
+
+![Figure: If the mobile device is lost, you can remove them from access and feel safe](remove-lost-mobile.png)
