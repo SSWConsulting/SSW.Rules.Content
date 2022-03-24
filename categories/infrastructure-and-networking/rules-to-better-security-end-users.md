@@ -22,6 +22,7 @@ index:
 - recognizing-phishing-urls
 - is-site-encrypted
 - security-compromised-password
+
 ---
 
 Watch [the best security videos on SSW TV](https://tv.ssw.com/category/security) for free.
