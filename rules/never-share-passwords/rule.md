@@ -1,4 +1,5 @@
 ---
+archivedreason: This is too basic. Follow https://www.ssw.com.au/rules/rules-to-better-security-end-users instead.
 type: rule
 title: Passwords - Do you know to NEVER share your password?
 uri: never-share-passwords
@@ -12,8 +13,6 @@ You must NEVER give anyone else your password. Once someone else knows your pass
 ![Figure: Password advice from Benjamin Franklin](bf-quote.jpg)
 
 <!--endintro-->
-
-
 
 Keeping your password private offers 2 important protections. Firstly, it prevents unwanted people from accessing your private data. But equally importantly, it protects YOU from anything a malicious person may do with your account.
 
