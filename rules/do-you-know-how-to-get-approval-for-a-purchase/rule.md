@@ -31,6 +31,7 @@ Let's have a look at the best way to get authorization:
    * State how the payment was made (whether you paid it yourself and need reimbursing or if it was on a company credit card, and if so, which one)
    * If this is for a client, include the Client ID/name
    * If it is for a client, include if it is to be on-charged (E.g. please invoice - add 20%)
+   * Try to obtain receipts in English, if they are not, you must write on the receipt what it is, and what it was for
 
 ### **Cross authorization**
 
@@ -44,8 +45,8 @@ This system means no one is blocked.
 
 When approving purchases, you might come across some exceptions depending on the business/industry you are in. Here are some examples:
 
-* IT - Be mindful that IT purchases could be of a higher amount and require an unique approval flow.
-* Marketing - The marketing team usually works with a budget and this could vary in period e.g. monthly, quartely, etc.
+* IT - Be mindful that IT purchases could be of a higher amount and require a unique approval flow.
+* Marketing - The marketing team usually works with a previously approved budget and this could vary in period e.g. monthly, quarterly, etc.
 * One-time vs. subscriptions - Make sure to highlight when a cost will be a one-off or recurring cost. This is important if the team works on a budget basis.
 
 ::: bad\
