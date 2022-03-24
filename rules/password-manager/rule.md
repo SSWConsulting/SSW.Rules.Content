@@ -10,6 +10,18 @@ related:
 created: 2021-08-09T23:30:55.670Z
 guid: 86866bb2-9079-413e-8a6d-6eef85c87a48
 ---
+
+The best passwords in the world are the ones you can never possibly remember. Computer generated passwords, with a length of at least 16 characters, offer the most protection. These passwords look something like this:
+
+:::greybox
+$Jun!ZW@gYS%bmy0($34hYj&8hsgfDF
+:::
+::: good
+Good example - a computer generated password
+:::
+
+This is obviously not something you can realistically type in every time you need to use it. Fortunately, the same tools that generate these for us also manage them, storing them securely and automatically entering them into websites and apps for us.
+
 With a password manager, you don't have to remember that strong, unique password for every website. The password manager stores them for you and even helps you generate new, random ones. 
 
 <!--endintro-->
@@ -26,3 +38,4 @@ It does not matter which one. There are many great tools out there for example:
 * **[Lastpass](https://www.lastpass.com/)** - matches the capabilities of other top paid password managers and is easy to use. Platform syncing limitations for the free version make it significantly less useful than it was
 * **[BitWarden](https://bitwarden.com/products/)** - Take control of your online password security and manage private data safely from any location or device
 * **[Dashlane](https://www.dashlane.com/lp/search)** - put passwords in their place, we’ll take care of them for you.
+
