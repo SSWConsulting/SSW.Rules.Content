@@ -10,6 +10,18 @@ related:
 created: 2021-08-09T23:30:55.670Z
 guid: 86866bb2-9079-413e-8a6d-6eef85c87a48
 ---
+
+The best passwords in the world are the ones you can never possibly remember. Computer generated passwords, with a length of at least 16 characters, offer the most protection. These passwords look something like this:
+
+:::greybox
+$Jun!ZW@gYS%bmy0($34hYj&8hsgfDF
+:::
+::: good
+Good example - a computer generated password
+:::
+
+This is obviously not something you can realistically type in every time you need to use it. Fortunately, the same tools that generate these for us also manage them, storing them securely and automatically entering them into websites and apps for us.
+
 With a password manager, you don't have to remember that strong, unique password for every website. The password manager stores them for you and even helps you generate new, random ones. 
 
 <!--endintro-->
