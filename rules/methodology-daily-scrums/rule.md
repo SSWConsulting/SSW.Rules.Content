@@ -6,6 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
+  - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
 redirects:
@@ -186,6 +187,12 @@ Today I am working on:
 ::: good
 Figure: Good example - Clear details
 :::
+
+### Tip 15 -  Auto-generate your Daily Scrum with AutoScrum
+
+AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
+
+More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBlazor/AutoScrum).
 
 - - -
 
