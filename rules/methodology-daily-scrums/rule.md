@@ -6,6 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
+  - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
 redirects:
