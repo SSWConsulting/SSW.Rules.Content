@@ -10,13 +10,13 @@ related:
 created: 2021-08-09T23:30:55.670Z
 guid: 86866bb2-9079-413e-8a6d-6eef85c87a48
 ---
-The best passwords in the world are the ones you can never possibly remember. Computer generated passwords, with a length of at least 16 characters, offer the most protection. These passwords look something like this:
+The best passwords in the world are the ones you can never possibly remember. Computer generated passwords, with a length of at least 16 characters, offer the most protection. A **strong password** look something like this:
 
 :::greybox
 $Jun!ZW@gYS%bmy0($34hYj&8hsgfDF
 :::
 ::: good
-Good example - a computer generated password
+Good example - A strong computer-generated password
 :::
 
 This is obviously not something you can realistically type in every time you need to use it. Fortunately, the same tools that generate these for us also manage them, storing them securely and automatically entering them into websites and apps for us.
@@ -42,11 +42,12 @@ It does not matter which one. There are many great tools out there for example:
 
 - - -
 
-Some password manager have a security score - action it if it’s a low number.
-For example, in LastPass you can disable automatic device provisioning and you can manually approve them.
-This way, a new device can’t get to your passwords even if your username, password and MFA got compromised at the same time. (in case a hacker manages to get into your phone and gets your password to LastPass)
+Some password managers provide a security score for a password - fix it if it’s a low number.
 
-Figure: In LastPass you can quickly scan through problematic passwords and update them. In this case most of them are localhost passwords with no impact if they ever get compromised.
+For example, in LastPass you can disable automatic device provisioning and you can manually approve them.
+This way, a new device can’t get to your passwords even if your username, password and MFA got compromised at the same time. (in case a hacker manages to get into your phone and gets your password to LastPass).
+
+![Figure: In LastPass you can quickly scan through problematic passwords and update them. In this case most of them are localhost passwords with no impact if they ever get compromised](lastpass-score.png)
 
 ![Figure: Keep track of all devices that have access to LastPass (every browser is treated as a separate device)](keep-track-devices.png)
 
