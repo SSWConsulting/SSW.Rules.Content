@@ -14,15 +14,18 @@ redirects:
 
 ---
 
-To help with automation you can use the MAC address of your mobile device to match when it joins the company wifi. This allows you to:
+To help with automation (e.g. [SophieBot](https://sswsophie.com/sophiebot/)) you can use the MAC address of your mobile device to match when it joins the company Wi-Fi. This allows you to:
 
-* Automatically log when you come in or out (See [Do you know the best way to see if someone is in the office?](/the-best-way-to-see-if-someone-is-in-the-office) ) 
-
+* Automatically log when you come in or out (See [Do you know the best way to see if someone is in the office?](/the-best-way-to-see-if-someone-is-in-the-office)) 
 * Announce your presence to the rest of the office
-* Get statistics and analytics: E.g. Who travels the most? Or which city uses In-And-Out the most? 
+* Get statistics and analytics: E.g. Who travels the most? Or which city uses In-And-Out the most?   
   ::: todo
   **TODO: Uly**
   :::
+
+::: greybox
+Learn more about [SSW SophieBot AI and its feature of employees' presence check on SugarLearning](https://my.sugarlearning.com/SSW/items/12973/smart-office-ssw-sophiehub-and-ssw-sophiebot).
+:::
 
 Here is how to find your MAC address:
 
@@ -44,9 +47,3 @@ Here is how to find your MAC address:
 4. Scroll down to see your  **WiFi/MAC address**
 
 ![Figure: MAC address on an Android](android-mac-address.jpg)  
-
-### Windows Phone
-
-1. From the Windows Phone home screen, swipe left to reveal more icons. Then, scroll down and tap **Settings**
-2. Scroll down and tap **About**
-3. In the **About** screen, tap **More info**
