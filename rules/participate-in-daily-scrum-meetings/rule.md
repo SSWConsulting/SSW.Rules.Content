@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Matthew Sampias
   url: https://ssw.com.au/people/matthew-sampias
-related: []
+related: 
+- methodology-daily-scrums
 redirects:
 - do-you-participate-in-daily-scrum-meetings
 
