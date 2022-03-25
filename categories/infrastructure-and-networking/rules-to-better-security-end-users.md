@@ -9,20 +9,20 @@ index:
 - windows-security
 - virus-threat-protection
 - password-manager
-- important-password-aspect
-- using-mfa
 - password-complexities
+- important-password-aspect
 - password-ages
 - using-passphrases
+- never-use-password-twice
 - never-share-passwords
+- security-compromised-password
+- using-mfa
+- save-recovery-keys-safely
 - subscribe-to-haveibeenpwned
 - check-haveibeenpwned
-- never-use-password-twice
 - recognizing-scam-emails
 - recognizing-phishing-urls
 - is-site-encrypted
-- security-compromised-password
-- save-recovery-keys-safely
 
 ---
 
