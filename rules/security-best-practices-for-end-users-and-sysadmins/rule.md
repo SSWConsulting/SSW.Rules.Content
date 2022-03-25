@@ -10,6 +10,6 @@ guid: dcf8b25f-41ff-424d-90a6-c9fa324612e6
 ---
 The 10 tips CEOs must know for both **end-users** and **SysAdmins**:
 
-`youtube: https://www.youtube.com/embed/66xuhz_DWa8`
+`youtube: https://www.youtube.com/embed/uk_YFezVAuw`
 
 <!--endintro-->
