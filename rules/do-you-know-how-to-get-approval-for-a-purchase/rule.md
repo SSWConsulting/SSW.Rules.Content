@@ -33,7 +33,7 @@ Let's have a look at the best way to get authorization:
    * If it is for a client, include if it is to be on-charged (E.g. please invoice - add 20%)
    * Try to obtain receipts in English, if they are not, you must write on the receipt what it is, and what it was for
 
-### **Cross authorization**
+### Cross-authorization
 
 We recommend having a cross-authorization system in place that follows your hierarchy. You should not be blocked by reasonable purchases (e.g. under $500).
 
@@ -49,10 +49,10 @@ When approving purchases, you might come across some exceptions depending on the
 * Marketing - The marketing team usually works with a previously approved budget and this could vary in period e.g. monthly, quarterly, etc.
 * One-time vs. subscriptions - Make sure to highlight when a cost will be a one-off or recurring cost. This is important if the team works on a budget basis.
 
-::: bad\
-![Figure: Bad Example - this expense will not be reimbursed](purchase-please-bad-example.jpg)\
+::: bad
+![Figure: Bad Example - this expense will not be reimbursed](purchase-please-bad-example.jpg)
 :::
 
-::: good\
-![Figure: Good Example - this expense will be reimbursed, if David gets a reply from Adam](purchase-please-good-example.jpg)\
+::: good
+![Figure: Good Example - this expense will be reimbursed, if David gets a reply from Adam](purchase-please-good-example.jpg)
 :::
