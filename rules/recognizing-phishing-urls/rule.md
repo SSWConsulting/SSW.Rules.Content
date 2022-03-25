@@ -24,35 +24,34 @@ For the address <https://www.ssw.com.au/services>, services is the path. The pat
 You should always check that the **domain** matches the service or website you are expecting.
 
 ::: greybox
-http&#58;//linkedin&#46;com&#46;sggr&#46;ru/someaddress
+http://linkedin.com.sggr.ru/someaddress
 :::
 ::: bad
 Bad example – the address has LinkedIn in it, but it is a sub-domain, not the domain
 :::
- 
+
 ::: greybox
-http&#58;//linked-in-hq&#46;com/linkedin/myprofile
+http://linked-in-hq/com/linkedin/myprofile
 :::
 ::: bad
 Bad example – the address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious
 :::
- 
+
 ::: greybox
-http&#58;//linkedinalerter&#46;com
+http://linkedinalerter/com
 :::
 ::: bad
 Bad example – the address has LinkedIn in it, but is not a legitimate LinkedIn site
 :::
- 
+
 ::: greybox
-https&#58;//linkedin&#46;com/someaddress
+https://linkedin/com/someaddress
 :::
 ::: good
 Good example – LinkedIn is the domain
 :::
- 
-If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
 
+If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
 
 ::: bad
 ![Bad example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
