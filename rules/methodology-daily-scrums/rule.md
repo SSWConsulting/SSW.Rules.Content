@@ -188,6 +188,12 @@ Today I am working on:
 Figure: Good example - Clear details
 :::
 
+### Tip 15 -  Auto-generate your Daily Scrum with AutoScrum
+
+AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
+
+More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBlazor/AutoScrum).
+
 - - -
 
 ### More information
