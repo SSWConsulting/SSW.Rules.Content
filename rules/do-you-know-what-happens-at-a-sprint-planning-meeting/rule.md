@@ -2,10 +2,11 @@
 type: rule
 title: Do you know what happens at a Sprint Planning Meeting?
 uri: do-you-know-what-happens-at-a-sprint-planning-meeting
-authors: 
+authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/uly
-related: []
+related:
+  - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 redirects: []
 created: 2010-05-06T04:11:55.000Z
 archivedreason: null
