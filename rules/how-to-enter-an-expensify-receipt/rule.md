@@ -4,7 +4,7 @@ title: Do you know how to enter a receipt through Xero Me?
 uri: how-to-enter-a-xero-me-receipt
 authors:
   - title: Stephan Fako
-    url: 
+    url: https://ssw.com.au/people/stephan-fako
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
 related:
