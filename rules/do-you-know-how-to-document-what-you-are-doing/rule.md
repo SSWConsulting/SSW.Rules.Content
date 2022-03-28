@@ -18,9 +18,9 @@ created: 2010-09-08T16:16:33.000Z
 archivedreason: null
 guid: 844a5c0f-730f-4a7d-a01b-11bfd26e5358
 ---
-When are recording a choice (best way of doing something) you should create a rule. If you are explaining how you did something it should be a blog post.
+If you find yourself developing a decision process to make a choice, that process should be documented in a rule. If you are explaining how you did something to solve a problem, you should record that in a blog post.
 
-Every time you are writing a really long email, ask yourself if it would be better as a lining blog post rather than a one-off email.
+Any time you find yourself writing a long email, ask yourself whether it should be recorded in a blog post, rather than just in an email, where everyone who might find it useful can see it, not just the people on the email chain.
 
 <!--endintro-->
 
