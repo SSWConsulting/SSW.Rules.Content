@@ -26,7 +26,7 @@ Any time you find yourself writing a long email, ask yourself whether it should 
 
 ![Figure: This rule describes the choice that was made](RulesBloggingDocumentGood2.jpg)
 
-![﻿Figure: This blog post documents the task or thought process](matt-goldman-blog-good-example)
+![﻿Figure: This blog post documents the task or thought process](matt-goldman-blog-good-example.jpg)
 
 **Tip:** For good SEO, the blog post should point to a rule and vice versa.\
 For example, you could add something like this to your post: "This blog post is consistent with the good example on the rule XXX". \
