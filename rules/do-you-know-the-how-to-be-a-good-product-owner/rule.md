@@ -52,5 +52,5 @@ It’s hard to give guidance on who in the company would make a good PO. The usu
 
 It’s possible to outsource the role of PO to someone in the development consulting company, but this is not recommended. Once it was "Don’t put the fox in charge of the chickens".
 
-> “Most dysfunction I see in Scrum teams is caused by a bad Product Owner” 
->                                   - **Adam Cogan**  - Professional Scrum Trainer, Scrum.org, during a TechEd session
+> “Most dysfunction I see in Scrum teams is caused by a bad Product Owner”   
+> **Adam Cogan**  - Professional Scrum Trainer, Scrum.org, during a TechEd session
