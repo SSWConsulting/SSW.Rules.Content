@@ -26,40 +26,46 @@ For the address <https://www.ssw.com.au/services>, services is the path. The pat
 
 You should always check that the **domain** matches the service or website you are expecting.
 
+::: greybox
 <http://linkedin.com.sggr.ru/someaddress>
+:::
+::: bad
+Bad Example – the address has LinkedIn in it, but it is a sub-domain, not the domain
+:::
 
-❌Bad example – the address has LinkedIn in it, but it is a sub-domain, not the domain
 
- 
-
+::: greybox
 <http://linked-in-hq.com/linkedin/myprofile>
-
-❌Bad example – the address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious.
+:::
+::: bad
+Bad Example – the address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious.
+:::
 
  
-
+::: greybox
 [http://linkedinalerter.com](http://anzalertercom/)
-
-❌Bad example – the address has LinkedIn in it, but is not a legitimate LinkedIn site.
+:::
+::: bad
+Bad Example – the address has LinkedIn in it, but is not a legitimate LinkedIn site.
+:::
 
  
 
- 
-
+::: greybox
 <http://linkedin.com/someaddress>
-
-✔Good example – LinkedIn is the domain
-
- 
+:::
+::: good
+Good Example – LinkedIn is the domain
+:::
 
 If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
 
 If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
 
 ::: bad
-![Bad example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
+![Bad Example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
 :::
 
 ::: good
-![Good example – the domain ANZ.com.au is owned by ANZ](good-whois.png)
+![Good Example – the domain ANZ.com.au is owned by ANZ](good-whois.png)
 :::
