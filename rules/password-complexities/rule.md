@@ -53,6 +53,6 @@ Bad Example
 ::: greybox
 Pas!#@wor!#@d
 :::
-::: good
+::: ok
 Better example (but don't use this password - the fact that this has been published has made it untrusted)
 ::: 
