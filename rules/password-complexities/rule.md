@@ -54,5 +54,5 @@ Bad Example
 Pas!#@wor!#@d
 :::
 ::: ok
-Better example (but don't use this password - the fact that this has been published has made it untrusted)
+Better Example (but don't use this password - the fact that this has been published has made it untrusted)
 ::: 
