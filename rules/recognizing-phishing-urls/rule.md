@@ -38,14 +38,14 @@ Bad Example – the address has LinkedIn in it, but it is a sub-domain, not the 
 <div>http://linked-in-hq.com/linkedin/myprofile</div>
 :::
 ::: bad
-Bad Example – the address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious.
+Bad Example – the address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious
 :::
  
 ::: greybox
 <div>http://linkedinalerter.com</div>
 :::
 ::: bad
-Bad Example – the address has LinkedIn in it, but is not a legitimate LinkedIn site.
+Bad Example – the address has LinkedIn in it, but is not a legitimate LinkedIn site
 :::
 
 ::: greybox
@@ -54,8 +54,6 @@ Bad Example – the address has LinkedIn in it, but is not a legitimate LinkedIn
 ::: good
 Good Example – LinkedIn is the domain
 :::
-
-If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
 
 If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
 
