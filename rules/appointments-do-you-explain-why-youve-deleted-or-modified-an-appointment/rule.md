@@ -52,11 +52,11 @@ This technique helps alleviate confusion.
 | -------- | --- |
 | To:      | SSWBrisbaneAll |
 | Location:      | SSW Brisbane office |
-| Start time:      | 2021/11/20 @ 1PM |
-| End time:      | 2021/11/20 @ 2PM |
+| Start time:      | 2022/11/20 @ 1PM |
+| End time:      | 2022/11/20 @ 2PM |
 | Subject: | Free Lunch from Thai Restaurant |  
 ::: email-content  
-UPDATED v2: Changed attendees from SSWAll to SSWBrisbane
+UPDATED v2: Changed attendees from SSWAll to SSWBrisbane <br>
 UPDATED v1: Changed Subject
 :::  
 :::  
