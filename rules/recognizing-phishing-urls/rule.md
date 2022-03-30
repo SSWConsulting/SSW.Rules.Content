@@ -27,7 +27,7 @@ For the address <https://www.ssw.com.au/services>, services is the path. The pat
 You should always check that the **domain** matches the service or website you are expecting.
 
 ::: greybox
-<div>http://linkedin.com.sggr.ru/someaddress</div>
+http://linkedin&#46;com&#46;sggr&#46;ru/someaddress
 :::
 ::: bad
 Bad Example – the address has LinkedIn in it, but it is a sub-domain, not the domain
