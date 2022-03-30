@@ -23,7 +23,7 @@ The specific advice in the comic about how to pick a good passphrase may not be 
 
 To choose a good passphrase, use a combination of words that are unique and memorable. For example, you may have a distinct memory of a cat licking your ice cream when you were 4 years old. So 4yearicecreamcat might be a memorable phrase for you.
 
-You might think a favorite sentence from a book might be better, given that it’s longer. While this is true in the context of time taken to brute force a password with procedural character combinations, as attackers adapt to their techniques to longer passwords, it’s important to remember that *a combination of words known to anyone in the world other than you is bad to use as a password.*
+You might think a favorite sentence from a book might be better, given that it’s longer. While this is true in the context of time taken to brute force a password with procedural character combinations, as attackers adapt to their techniques to longer passwords, it’s important to remember that **a combination of words known to anyone in the world other than you is bad to use as a password.**
 
 
 ::: greybox
