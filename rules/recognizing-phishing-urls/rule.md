@@ -37,7 +37,7 @@ http&#58;//linked-in-hq&#46;com/linkedin/myprofile
 ::: bad
 Bad Example – The address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious
 :::
- 
+
 ::: greybox
 http&#58;//linkedinalerter&#46;com
 :::
@@ -52,7 +52,7 @@ https&#58;//linkedin&#46;com/someaddress
 Good Example – LinkedIn is a secure domain
 :::
 
-If you are curious about a URL, and think it might be legitimate, you can check the Whois record to see who owns the domain. A useful tool for this is <https://whois.domaintools.com>
+If you are curious about a URL, and think it might be legitimate, you can [check the Whois record](https://whois.domaintools.com) to see who owns the domain.
 
 ::: bad
 ![Bad Example – ANZAlerter&#46;com is NOT owned by ANZ](bad-whois.png)
