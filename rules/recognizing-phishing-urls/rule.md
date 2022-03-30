@@ -37,7 +37,7 @@ http&#58;//linked-in-hq&#46;com/linkedin/myprofile
 ::: bad
 Bad Example – The address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious
 :::
- 
+
 ::: greybox
 http&#58;//linkedinalerter&#46;com
 :::
