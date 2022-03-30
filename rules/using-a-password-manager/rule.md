@@ -5,6 +5,7 @@ uri: using-a-password-manager
 authors:
   - title: Matt Goldman
 created: 2022-03-17T05:24:13.787Z
+archivedreason: Duplicate of https://www.ssw.com.au/rules/password-manager
 guid: 53b76275-8c76-4118-afea-900d9febc66e
 ---
 
