@@ -10,12 +10,17 @@ authors:
   url: https://ssw.com.au/people/jason-taylor
 related: []
 redirects:
-- do-you-know-the-best-ui-frameworks-for-blazor
+- the-best-ui-frameworks-for-blazor
 
 ---
+
+Some UI libraries for Blazor are:
+- [MudBlazor](https://mudblazor.com/)
+- 
 
 TODO: Intro - The Blazor WebAssembly project template includes Bootstrap by default. But don't feel as if you have to use Bootstrap.
 
 <!--endintro-->
 
 TODO: Body - a brief overview of great UI frameworks for Blazor
+
