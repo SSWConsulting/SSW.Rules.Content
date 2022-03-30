@@ -27,7 +27,7 @@ For the address <https://www.ssw.com.au/services>, services is the path. The pat
 You should always check that the **domain** matches the service or website you are expecting.
 
 ::: greybox
-<http://linkedin.com.sggr.ru/someaddress>
+<div>http://linkedin.com.sggr.ru/someaddress</div>
 :::
 ::: bad
 Bad Example – the address has LinkedIn in it, but it is a sub-domain, not the domain
@@ -35,24 +35,21 @@ Bad Example – the address has LinkedIn in it, but it is a sub-domain, not the 
 
 
 ::: greybox
-<http://linked-in-hq.com/linkedin/myprofile>
+<div>http://linked-in-hq.com/linkedin/myprofile</div>
 :::
 ::: bad
 Bad Example – the address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious.
 :::
-
  
 ::: greybox
-[http://linkedinalerter.com](http://anzalertercom/)
+<div>http://linkedinalerter.com</div>
 :::
 ::: bad
 Bad Example – the address has LinkedIn in it, but is not a legitimate LinkedIn site.
 :::
 
- 
-
 ::: greybox
-<http://linkedin.com/someaddress>
+<div>http://linkedin.com/someaddress</div>
 :::
 ::: good
 Good Example – LinkedIn is the domain
