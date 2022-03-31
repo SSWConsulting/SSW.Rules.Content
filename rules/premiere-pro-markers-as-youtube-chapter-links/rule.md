@@ -4,6 +4,7 @@ title: Do you use Premiere Pro Markers as YouTube Chapter Links?
 uri: premiere-pro-markers-as-youtube-chapter-links
 authors:
   - title: Jonty Gardner
+    url: https://www.ssw.com.au/people/jonty-gardner
 created: 2022-03-29T06:11:01.439Z
 guid: 52aa61b8-4e78-4428-be48-d9f32411b738
 
