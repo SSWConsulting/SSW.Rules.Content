@@ -53,9 +53,9 @@ Good Example – LinkedIn is a secure domain
 If you are curious about a URL, and think it might be legitimate, you can [check the Whois record](https://whois.domaintools.com) to see who owns the domain.
 
 ::: bad
-![Bad Example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
+![Bad Example – ANZAlerter&#46;com is NOT owned by ANZ](bad-whois.png)
 :::
 
 ::: good
-![Good Example – the domain ANZ.com.au is owned by ANZ](good-whois.png)
+![Good Example – the domain ANZ&#46;com&#46;au is owned by ANZ](good-whois.png)
 :::
