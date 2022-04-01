@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/florent-dezettre
   - title: Jayden Alchin
     url: https://ssw.com.au/people/jayden-alchin
+  - url: https://www.ssw.com.au/people/landon-maxwell
+    title: Landon Maxwell
 related:
   - do-you-sort-your-videos-into-playlists
   - do-you-use-untapped-keywords
@@ -42,9 +44,9 @@ YouTube offers [resources to create better custom thumbnails](https://support.go
 Establishing a unique visual style for thumbnails is great for grouping similar videos together and encouraging click-throughs. This has the added benefit of increasing brand recognition and strengthening the connection between grouped content.
 
 ::: bad
-![Bad example: despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough](custom-thumbnails-bad.png)
+![Figure: Bad example - Despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough](custom-thumbnails-bad.png)
 :::
 
 ::: good
-![Good example: Consistent thumbnail styles elevate branding and helps viewers identify similar content](custom-thumbnails-good.png)
+![Figure: Good example - Consistent thumbnail styles elevate branding and helps viewers identify similar content](custom-thumbnails-good.png)
 :::
