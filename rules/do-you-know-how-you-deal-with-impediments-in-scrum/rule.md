@@ -10,7 +10,7 @@ authors:
 related: []
 redirects: []
 created: 2011-08-11T17:54:33.000Z
-archivedreason: null
+archivedreason: Archived as we don't put exercises in SSW Rules. See https://www.ssw.com.au/rules/methodology-daily-scrums#tip-11-if-you-have-raised-impediments-consider-contacting-the-product-owner to know how to deal with impediments
 guid: 9cad1080-3451-47e5-b721-22fd88762c0f
 ---
 Exercise – Click Click Scrum
@@ -22,9 +22,12 @@ This exercise uses the VS2010 planning poker deck of cards & TFS
 # Separate out the cards
 
 Separate out these as Chance Cards
-![Chance Cards](chance-cards.jpg)**Figure: Chance cards** 
+
+![Figure: Chance cards](chance-cards.jpg)
+
 Separate out these as Point Cards
-![Point Cards](point-cards.jpg)**Figure: Point cards** 
+
+![Figure: Point cards](point-cards.jpg)
 
 # Set Timeboxes
 
