@@ -1,6 +1,6 @@
 ---
 type: rule
-title: After a meeting, do you share the action items that came up?
+title: After - Do you share the action items that came up after a meeting?
 uri: share-the-action-items-that-came-up
 authors:
   - title: Ulysses Maclaren
