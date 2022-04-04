@@ -18,7 +18,9 @@ Dynamics 365 has Customer Voice Surveys to harness this, and it is included with
 
 It’s built on the Microsoft Forms engine, so creating feedback surveys is very simple and intuitive.
 
-![Figure: Survey creation](rules-picture.png)
+![Figure: Survey Creation](survey-edit-form.png "Figure: Survey Creation")
+
+
 
 Since we’re running Scrum projects, and our clients are used to doing Sprint Retrospectives, we frame the questions in the same way (what went well, what didn’t, and what should we change?).
 
