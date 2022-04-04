@@ -18,8 +18,9 @@ Dynamics 365 has Customer Voice Surveys to harness this, and it is included with
 
 It’s built on the Microsoft Forms engine, so creating feedback surveys is very simple and intuitive.
 
-\[TODO: Mehmet - Image of Forms engine]    
-**Figure: Survey creation**
+![Figure: Survey creation](microsoftteams-image.png)
+
+
 
 Since we’re running Scrum projects, and our clients are used to doing Sprint Retrospectives, we frame the questions in the same way (what went well, what didn’t, and what should we change?).
 
@@ -27,7 +28,7 @@ Since we’re running Scrum projects, and our clients are used to doing Sprint R
 
 Surveys can be sent manually, but for consistent value, you should have automated triggers in place. This could be after any significant milestone (like after a Spec Review, or at project completion), but it’s best if it’s something easily automated, such as once you’ve billed them a certain amount (e.g. $50k if your usual project sizes are $100k-200k).
 
-\[TODO: Mehmet - Image of trigger workflow]  
+\[TODO: Mehmet - Image of trigger workflow]\
 **Figure: Set up triggers to send out the surveys** 
 
 ### Receiving Responses
