@@ -5,7 +5,7 @@ guid: b665f88f-f71c-4fa9-8c8b-570d62fce515
 uri: rules-to-better-security
 index:
 - choosing-authentication
-- do-you-use-a-finger-scanner-to-monitor-access-to-secure-areas
+- secure-access-system
 - understand-the-dangers-of-social-engineering
 - follow-security-checklists
 - do-you-use-built-in-authentication-from-ms
