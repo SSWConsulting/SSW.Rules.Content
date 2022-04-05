@@ -53,9 +53,9 @@ Note: Avoid sending these at high pressure points, when you're already asking th
 
 ### Receiving Responses
 
-The survey responses are viewable in the Dynamics | Survey Responses section, and aggregate information such as customer satisfaction metrics can be calculated from here. 
+The survey responses are viewable in the Dynamics | Survey Responses section, and stats like customer satisfaction  (CSAT) metrics are here. 
 
-You can also see individual responses from their respective Account’s page.
+Or you can see individual responses from their respective Account’s page.
 
 ![Figure: Customer Voice Survey section of Dynamics showing Survey Responses all together](customer-voice-responses-together.png)
 
