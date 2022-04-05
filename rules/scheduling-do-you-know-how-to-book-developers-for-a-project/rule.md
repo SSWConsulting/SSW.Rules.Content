@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Scheduling - Do you know how to book developers for a project?
-uri: scheduling-do-you-know-how-to-book-developers-for-a-project
+uri: how-to-book-developers-for-a-project
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
