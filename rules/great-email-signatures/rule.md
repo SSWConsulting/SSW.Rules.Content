@@ -144,7 +144,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 5. Add your email signature and click "Save"
 
 ::: info
-**Warning:** Unfortunately you need to setup up your signature in Outlook and OWA. There is no way to share this.
+**Warning:** Unfortunately, you need to setup up your signature in Outlook and OWA. There is no way to share this.
 
 **SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript 
 
