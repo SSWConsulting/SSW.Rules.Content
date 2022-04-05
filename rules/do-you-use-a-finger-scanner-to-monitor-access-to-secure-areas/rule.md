@@ -19,22 +19,21 @@ redirects: []
 
 ---
 
-Do you know who is entering your premises, when and how? Keys or key-cards can be expensive, they can be lost and people can loan them to one another without any restriction.
+Do you know who is entering your premises, when, and how? Keys or key-cards can be expensive, they can be lost, and people can loan them to one another without any restriction.
 
 <!--endintro-->
 
-Finger scanners are a good way of monitoring and restricting access to secure areas. As every person’s fingerprint is unique, so is the access to your building.  There is no physical mechanism for unlocking the doors, which means you do not have to worry about lost keys or unauthorized access and it can keep a log of entry.
+There are all kinds of ways to monitor access to your building and more secure areas. While fingerprint scanners are a good way of monitoring and restricting access, they are difficult to use in practice. Not everyone has great fingerprints, and access can be sketchy and frustrating. 
 
-SSW uses an Invixium fingerprint scanner. The user interface is easy to use, you simply hold your finger down on the screen and it will either allow or deny you access. Other fingerprint scanners like E-Key use a swipe function that is less intuitive for visitors.
+The best way to do control your buildings' access is to use an automated Access System like Unifi by Ubiquiti.
 
-The Invixium integrates well with our Control4 Automation system.
+* You only need your phone, so there are no keys to lose or replace
+* It is easy to add or remove access for staff & visitors
+* You can see who is coming and going and when
+* It can connect to your security cameras for additional security
 
-::: bad
-![Bad example - E-Key needs you to swipe your finger down, this is less intuitive](Scanner 2.jpg)
-:::
+To see more about how the systems works, watch this cool 4min video from Ubiquiti UniFi Access: www.youtube.com/watch?v=wh_nPEOtLzc
 
-::: good
+::: Bad
 ![Good example - Invixium  is easy to use, just hold down your finger on the screen to scan](Scanner 1.jpg)
 :::
-
-See [Better Software Suggestions for Control4](https://bettersoftwaresuggestions.com/category/control4/).
