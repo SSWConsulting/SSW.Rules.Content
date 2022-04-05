@@ -21,7 +21,7 @@ Do you know who is entering your premises, when, and how? Keys or key-cards can 
 
 <!--endintro-->
 
-There are all kinds of ways to monitor access to your building and more secure areas. While fingerprint scanners are a good way of monitoring and restricting access, they are difficult to use in practice. Not everyone has great fingerprints, and access can be sketchy and frustrating. 
+There are all kinds of ways to monitor access to your building and more secure areas. While fingerprint scanners are a good way of monitoring and restricting access, they are difficult to use in practice. Not everyone has great fingerprints, and access can be sketchy and frustrating when it doesn't work. 
 
 The best way to do control your buildings' access is to use an automated Access System like Unifi by Ubiquiti.
 
@@ -35,10 +35,10 @@ To see more about how the system works, watch this cool 4min video from Ubiquiti
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wh_nPEOtLzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ::: Bad
-![Figure: Bad Example - Fingerprint Scanners often give an inconstant User Experience, not fun for your guests](invixium.jpg)
+![Figure: Bad Example - Fingerprint Scanners often give an inconsistant User Experience, not fun for your guests](invixium.jpg)
 :::
 
 ::: Good
-![Figure: Good Example - Access Systems like UniFi Access allow you to use NFC devices and your mobile phone to access the building - easy!](unifi-grace.png)
+![Figure: Good Example - Access Systems like UniFi Access allow you to use NFC devices like your mobile phone to access the building - easy!](unifi-grace.png)
 
 :::
