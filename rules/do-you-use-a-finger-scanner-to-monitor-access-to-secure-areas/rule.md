@@ -1,24 +1,22 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use a finger scanner to monitor access to secure areas?
-guid: 9a5e41ab-b747-4cd8-b644-329fb947b66f
 uri: do-you-use-a-finger-scanner-to-monitor-access-to-secure-areas
-created: 2017-03-28T23:39:06.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
-- do-you-colour-code-your-keys
-- do-you-know-what-to-check-if-your-control4-director-is-running-slowly
+  - do-you-colour-code-your-keys
+  - do-you-know-what-to-check-if-your-control4-director-is-running-slowly
 redirects: []
-
+created: 2017-03-28T23:39:06.000Z
+archivedreason: null
+guid: 9a5e41ab-b747-4cd8-b644-329fb947b66f
 ---
-
 Do you know who is entering your premises, when, and how? Keys or key-cards can be expensive, they can be lost, and people can loan them to one another without any restriction.
 
 <!--endintro-->
@@ -32,8 +30,15 @@ The best way to do control your buildings' access is to use an automated Access 
 * You can see who is coming and going and when
 * It can connect to your security cameras for additional security
 
-To see more about how the systems works, watch this cool 4min video from Ubiquiti UniFi Access: www.youtube.com/watch?v=wh_nPEOtLzc
+To see more about how the system works, watch this cool 4min video from Ubiquiti UniFi Access: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wh_nPEOtLzc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ::: Bad
-![Good example - Invixium  is easy to use, just hold down your finger on the screen to scan](Scanner 1.jpg)
+![Figure: Bad Example - Fingerprint Scanners often give an inconstant User Experience, not fun for your guests](invixium.jpg)
+:::
+
+::: Good
+![Figure: Good Example - Access Systems like UniFi Access allow you to use NFC devices and your mobile phone to access the building - easy!](unifi-grace.png)
+
 :::
