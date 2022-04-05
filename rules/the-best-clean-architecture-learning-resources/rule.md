@@ -24,8 +24,7 @@ There are many great resources for learning the principles of Clean Architecture
 
 `youtube: https://www.youtube.com/embed/5OtUm1BLmG0`
  
- **Figure: Clean Architecture with ASP.NET Core 3.0 <mark>(Recommended)</mark>
-** 
+ **Figure: Clean Architecture with ASP.NET Core 3.0 <mark>(Recommended)</mark>** 
 
 `youtube: https://www.youtube.com/embed/_lwCVE_XgqI`
  

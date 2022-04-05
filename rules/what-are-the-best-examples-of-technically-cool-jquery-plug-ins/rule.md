@@ -16,9 +16,9 @@ redirects:
 
 Below are some of the best technically cool jQuery plug-ins. Use these as guidelines for building your jQuery plug-ins:
 
-* [Ajax Upload](https://www.jqueryscript.net/demo/jQuery-AJAX-File-Uploader-FileUp/)
-* [AutoSuggest jQuery plugin](http&#58;//drew.tenderapp.com/kb/autosuggest-jquery-plugin) (Type in the textbox to see suggestions)
-* [Open Standard Media Player (jQuery + HTML5)](http&#58;//www.mediafront.org/project/osmplayer)
-* [jsPlumb Flowchart Builder](https://jsplumbtoolkit.com/demonstration/flowchart-builder)
-
 <!--endintro-->
+
+* [Ajax Upload](https://www.jqueryscript.net/demo/jQuery-AJAX-File-Uploader-FileUp/)
+* [AutoSuggest jQuery plugin](https://drew.tenderapp.com/kb/autosuggest-jquery-plugin) (Type in the textbox to see suggestions)
+* [Open Standard Media Player (jQuery + HTML5)](http://mediafront.org/osmplayer/#.Yji37ZrMLso)
+* [jsPlumb Flowchart Builder](https://demo.jsplumbtoolkit.com/flowchart-builder/)

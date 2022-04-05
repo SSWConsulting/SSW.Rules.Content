@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-This rule is a variation of the popular rule [Do you send "As Per Our Conversation" emails?](/rules/as-per-our-conversation-emails)
+This rule is a variation of the popular rule [Do you send "As Per Our Conversation" emails?](/as-per-our-conversation-emails)
 
 The most dangerous time in a task's life cycle is in a handover. This is the most likely time for a misunderstanding to occur leading to a task getting lost and not being completed.
 

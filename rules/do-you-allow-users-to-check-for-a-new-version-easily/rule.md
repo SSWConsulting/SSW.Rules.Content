@@ -18,7 +18,6 @@ It is important to give users the ability to check for a new version of the appl
 1. A visual identifier such as a tick or a cross on the main menu
 2. A "Check for Updates" option in our Help menu.
 
-
 <!--endintro-->
 
 Remember:
@@ -28,17 +27,26 @@ Remember:
 * Since this check occurs over the web, you should use [threading](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#GuiThreading) to avoid slowing down the forms responsiveness. This is a generic component that is available in the [SSW .NET Toolkit](http://www.ssw.com.au/ssw/NETToolkit/Default.aspx).
 * If the UI is a Windows Service, be aware that they don't open up the UI very often. Therefore you can't rely on this method. In a coming release Diagnostics will ask for your email and let you know when updates are available for you PC.
 
-![Check for Updates](MSN.gif)Figure: BAD UI - a nagging message box that forces the User to click OK 
-![ ](GoodUI.gif) Figure: Show a Tick when the application is up to date 
-![ ](BadUI.gif) Figure: Show a Cross when the application is out of date 
-
-To keep the consistent look and consistent code, we have implemented our version checker as a user control.
-![ ](VersionStatusControl.gif)**Figure: SSW.Framework.WindowsUI.VersionStatus** 
-As it is a user control, we can easily implement this in all our applications. We just need to place the user control on the winform, and have the ProductDownloadID and ProductLatestVersionURL entered with the correct values.
-![ ](VersionStatusProperties.gif)**Figure: Enter the ProductDownloadID and ProductLatestVersionURL** 
-![Check for Updates](CheckForUpdate.gif)
-
+::: bad
+![Figure: Bad UI - a nagging message box that forces the User to click OK](MSN.gif) 
+:::
 
 ::: good
-Figure: Include 'Check for Updates' in your applications  
+![Figure: Good UI - Show a Tick when the application is up to date](GoodUI.gif)  
+:::
+
+::: good
+![Figure: Good UI - Show a Cross when the application is out of date](BadUI.gif)  
+:::
+
+To keep the consistent look and consistent code, we have implemented our version checker as a user control.
+
+![Figure: SSW.Framework.WindowsUI.VersionStatus](VersionStatusControl.gif)
+
+As it is a user control, we can easily implement this in all our applications. We just need to place the user control on the winform, and have the ProductDownloadID and ProductLatestVersionURL entered with the correct values.
+
+![Figure: Enter the ProductDownloadID and ProductLatestVersionURL](VersionStatusProperties.gif) 
+
+::: good
+![Figure: Include 'Check for Updates' in your applications](CheckForUpdate.gif)
 :::

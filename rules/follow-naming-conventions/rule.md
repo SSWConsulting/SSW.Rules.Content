@@ -21,7 +21,8 @@ It's the most obvious - but naming conventions are so crucial to simpler code, i
 ### For Javascript / Typescript 
 
 
-Google publishes a JavaScript style guide.
+Google publishes a JavaScript style guide. For more guides, please refer to this link: [Google JavaScript Style Guide
+](https://google.github.io/styleguide/jsguide.html)
 
 Here are some key points:
 

@@ -41,13 +41,11 @@ Here are some points that make memes great for brands & businesses:
 * [According to research](https://medium.com/%40DashHudson/do-memes-get-better-instagram-engagement-than-other-photos-fcce7c591b9d), they lead to higher engagement from your audience
 * They increase the chance that people will remember your brand when they see the meme elsewhere, and there’s an opportunity to impacting your audience
 
-
 While some companies have managed to successfully use memes to express their brands in a different way, not all businesses that have tried to implement the same strategy had positive results.
 
 ### What can go wrong and how to avoid it?
 
-
-A New York-based drugstore chain Duane Read     [got involved in a legal battle over licensing rights with Katherine Heigl](https://edition.cnn.com/2014/04/10/showbiz/katherine-heigl-duane-reade-lawsuit/) when they decided to share a photo of her shopping at their store across their social media to promote their business.
+A New York-based drugstore chain Duane Read [got involved in a legal battle over licensing rights with Katherine Heigl](https://edition.cnn.com/2014/04/10/showbiz/katherine-heigl-duane-reade-lawsuit/) when they decided to share a photo of her shopping at their store across their social media to promote their business.
 
 Although there’s no 100% right formula on how to use them, here are some tips to avoid problems for your business:
 
@@ -57,7 +55,6 @@ Although there’s no 100% right formula on how to use them, here are some tips 
 * Consider the alternatives: If you want to use a specific image but are afraid there might be implications, explore alternative options. For example, you can try licensing an image from a stock photo website that you want to feature as a major part of a marketing campaign if they are suitable for it.
 * Test it before posting: If you’re in charge of social media, ask a work colleague to check it before it goes live. Try to think of guidelines that everyone on your team understands and follows.
 
-
 ### Know your audience
 
 Start by making sure who your audience is and if they would engage with the memes. Learn who your brand followers are and what they care about, constantly check the insights of your social media. What are they telling you about your audience? Are they the type of people who would enjoy seeing a meme, or would they find it hard to understand it?
@@ -66,14 +63,12 @@ Your brand values and personality hold great insights into the type of people wh
 
 Be aware that some businesses and industries are too serious to create and post that type of content. We also have to mention that some social media don’t quite have the right audience for a meme, for example: LinkedIn. We suggest a bit of research: check what your competitors are posting and if they use memes too, how do they approach it? It’s a great exercise to do market research if you want to add some personality to your socials.
 
-Correlating it to     [DevOps Culture](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-devops-culture), as a marketer, you should have a growth mindset on this. After testing a meme and posting it, you’ll learn from your experiments and gather insights on what’s the best way to implement this to your social media strategy.
-
+Correlating it to [DevOps Culture](https://docs.microsoft.com/en-us/devops/what-is-devops), as a marketer, you should have a growth mindset on this. After testing a meme and posting it, you’ll learn from your experiments and gather insights on what’s the best way to implement this to your social media strategy.
 
 ::: bad  
 ![Figure - Bad Example: Doritos usually creates their own memes blending humour with their brand, but in this one, the comments were clearly showing it was a bad idea](doritos.jpg)  
 :::
 
-
 ::: good  
-![Figure - Good Example: By using a light-hearted tone, the        NSW Police manages to get across their point on controversial topics](nswpolice.jpg)  
+![Figure - Good Example: By using a light-hearted tone, the NSW Police manages to get across their point on controversial topics](nswpolice.jpg)  
 :::

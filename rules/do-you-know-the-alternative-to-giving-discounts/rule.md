@@ -21,17 +21,14 @@ Some clients really want a discount. Most will be happy with a discount for pre-
 
 If a client asks for a further discount, try to add value by offering something else.
 
-e.g.
+Examples:
 
 <!--endintro-->
 
-* Some of your products at no charge
-* 
-* 
-* A Senior Consultant for 2 hours a month to complete the following tasks:
+* One of your products at no charge
+* A Senior Consultant for 2 hours to complete the following tasks:
     * Code Review
     * UI Review
-
 
 Also bear in mind that offers like 2 for 1 are better than 50% discount because:
 

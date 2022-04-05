@@ -99,7 +99,7 @@ Please cc the client in all your "Test Please" emails including internal ones.
 :::  
 :::  
 ::: good  
-Figure: Good Example - Figure: This is how to reply failed to a "test please" email 
+Figure: Good Example - This is how to reply failed to a "test please" email 
 :::
 
 `youtube: https://www.youtube.com/embed/whxbTtkH5GU` 

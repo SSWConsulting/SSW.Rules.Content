@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Moss Gu
   url: https://ssw.com.au/people/moss-gu
+- title: Ulysses Maclaren
+  url: https://ssw.com.au/people/uly
 related: []
 redirects: []
 
@@ -19,12 +21,10 @@ Knowing when to use SQL Server Reporting Services (SSRS) over Power BI can ensur
 
 <!--endintro-->
 
-Many organisations see Power BI as a replacement to SSRS due to a lack of major advancements in the SSRS space however while similar they both fill different key needs for organisations and the BI team at Microsoft have invested alot of time into improving the SSRS offering.
+Many organizations see Power BI as a replacement to SSRS due to a lack of major advancements in the SSRS space however while similar they both fill different key needs for organisations and the BI team at Microsoft have invested alot of time into improving the SSRS offering.
 
+SSRS is better for “Pixel perfect” reports that you can design exactly to your specifications, whereas most Power BI visualisations only have a finite amount of visual tinkering possible.
 
-
-SSRS provides a stronger ability when it comes to static representational reports, for example Invoices, Monthly Reports, Mailing lists.
-
-
+SSRS provides a stronger ability when it comes to static representational reports, like **invoices**, **monthly reports**, **mailing lists**... 
 
 BI however is better for a dynamic interrogation of data as it currently stands so this can allow power users to drill into live data to identify trends.

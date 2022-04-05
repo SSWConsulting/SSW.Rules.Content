@@ -12,7 +12,8 @@ authors:
   url: https://ssw.com.au/people/brendan-richards
 - title: Matt Wicks
   url: https://ssw.com.au/people/matt-wicks
-related: []
+related:
+- subcutaneous-tests
 redirects:
 - what-are-the-different-types-of-test-you-can-have
 

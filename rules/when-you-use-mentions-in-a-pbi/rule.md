@@ -1,28 +1,27 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know when you use @ mentions in a PBI?
-guid: 8d36a3c3-47e0-4302-a609-a09080565847
 uri: when-you-use-mentions-in-a-pbi
-created: 2016-09-20T20:03:03.0000000Z
 authors:
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- when-you-use-@-mentions-in-a-pbi
-- do-you-know-when-you-use-mentions-in-a-pbi
-- do-you-know-when-you-use-@-mentions-in-a-pbi
-
+  - when-you-use-@-mentions-in-a-pbi
+  - do-you-know-when-you-use-mentions-in-a-pbi
+  - do-you-know-when-you-use-@-mentions-in-a-pbi
+created: 2016-09-20T20:03:03.000Z
+archivedreason: null
+guid: 8d36a3c3-47e0-4302-a609-a09080565847
 ---
 
 When the Product Owner verbally requests a change to a PBI, how do you update the PBI to reflect the change and also keep track of the conversation?
 
 <!--endintro-->
 
-You could send yourself a "[To Myself](/dones-do-you-send-yourself-emails)" email and update the PBI description accordingly, but only those people included in the email chain are aware of the conversation.
+You could send yourself a "[To Myself](/dones-do-you-send-yourself-emails)" email and update the PBI description accordingly, but only those people included in the email chain are aware of the conversation. Only send a "To Myself" email when there is no product backlog that is related to the request, otherwise you should create or update a PBI and @ mention the Product Owner and other relevant people (@ mentioned people will still receive an email).
 
 
 ::: bad  
@@ -61,7 +60,10 @@ Good example: "I have found the PBI, prioritized it near the top, and @mentioned
 
 ### Azure DevOps PBIs
 
-
+To create a new PBI in your Azure DevOps project:
+1. Navigate to **Boards | + New Work Item** and select the type that best suits your item
+2. Enter your PBI title
+3. @ mention your desired user in the description
 
 ::: good  
 ![Figure: Good Example – Using @ mentions in Azure DevOps discussion](good-mention-pbi.jpg)  

@@ -18,48 +18,42 @@ redirects:
 
 When you notice that someone has done something that could have been done better, make sure you are tactful in your correction/suggestions. When you are giving someone a correction or tip, try to include an URL to back up your point.
 
-For example, if someone sends you an email like that:
+For example, if someone sends you an email that should be an appointment:
 
 <!--endintro-->
 
-
 ::: greybox
- **Subject: Meeting** 
+**Subject: Meeting** 
 
 Hi Guys,
  
 Let's meet on Thursday at 3 PM
 
 :::
- **Figure: Someone requests a meeting
-** 
-
+**Figure: Someone requests a meeting using a normal email message** 
 
 You could reply in different ways:
 
+::: greybox
 **Subject: RE: Meeting** 
 
 Hi Mary,
  
-FYI - an appointment would have been better. See rule #48 in [Rules to better Email](/appointments-do-you-send-outlook-calendar-appointments-when-appropriate)
-
-
+FYI - an appointment would have been better. See rule in [Rules to better Email](/appointments-do-you-send-outlook-calendar-appointments-when-appropriate)
+:::
 ::: bad
-Figure: Bad Example
-
+Figure: Bad Example - Just pointing the mistake
 :::
 
-
-
+::: greybox
 **Subject RE: Meeting** 
 
 Hi Mary,
 
-I noticed you did not send an appointment for this meeting. I hope you don't mind, but I have gone ahead and created one so we don't all have to create one individually. 
-We have a number of helpful standards like this which you can have a look at in our [Rules to better Email](/appointments-do-you-send-outlook-calendar-appointments-when-appropriate) if you're interested.
+I noticed you did not send an appointment for this meeting. I hope you don't mind, but I have gone ahead and created one so we don't all have to set a reminder individually. 
 
-
+Have a look at our [Rules to better Email](/appointments-do-you-send-outlook-calendar-appointments-when-appropriate). We have a number of helpful standards like this if you're interested.
+:::
 ::: good
-Figure: Good Example 
-
+Figure: Good Example - Being proactive to solve the problem + pointing the mistake in a friendly and polite manner
 :::

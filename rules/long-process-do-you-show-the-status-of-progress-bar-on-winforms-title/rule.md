@@ -13,30 +13,27 @@ redirects: []
 
 The importance of having the status of progress bar on winform's title:
 
-* Users can clearly see the progress status.
-* If the winform is minimized to taskbar, users still can see the progress status.
+* Users can clearly see the progress status
+* If the winform is minimized to taskbar, users still can see the progress status
 
 
 <!--endintro-->
 
 The form title should take the form of "[XX]% Completed - [Task Description] - [Product Name]".
-There is another relevant rule about the [winform title](http://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterInterfaces-Windows-Applications.aspx#TitleBarCaption).
 
+There is another relevant rule about the [winform title](/title-bar-do-you-put-the-current-document-project-name-as-the-first-word-of-your-title-bar).
 
 ::: bad  
 ![Figure: Bad Example - The winform's title does not contain the progress status](../../assets/BadProgressForm.gif)  
 :::
 
-
 ::: good  
 ![Figure: Good Example - The winform's title contains the status of progress bar](../../assets/GoodProgressForm.gif)  
 :::
 
-
 ::: good  
 ![Figure: Good Example - You can clearly see the progress status from taskbar when you have the windows minimized](../../assets/GoodProgressFormTaskbar.gif)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Windows 7 shows the progress in the taskbar (which is visible even when the application is minimized)](../../assets/TaskBarProgress.png)  

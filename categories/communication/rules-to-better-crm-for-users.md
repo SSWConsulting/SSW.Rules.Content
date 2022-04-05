@@ -18,10 +18,9 @@ index:
 - marketing-do-you-know-the-differences-between-campaign-and-quick-campaign-in-crm-2013
 - do-you-know-the-one-case-where-you-use-a-crm-lead
 - do-you-know-when-to-delete-instead-of-disqualify-a-lead
-- do-you-identify-the-product-owner-in-crm
 - do-you-know-how-to-report-on-crm-data
 - scheduling-do-you-know-how-to-view-the-availability-of-each-developer-resource-scheduling
-- scheduling-do-you-know-how-to-book-developers-for-a-project
+- how-to-book-developers-for-a-project
 - when-to-use-all-day-events-or-start-and-end-times-with-recurrence
 - scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings
 - crm2013-2015-do-you-use-crm-business-rules-to-automate-forms

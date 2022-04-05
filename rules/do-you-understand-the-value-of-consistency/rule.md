@@ -1,29 +1,28 @@
 ---
 type: rule
-archivedreason: 
 title: Do you understand the value of consistency?
-guid: 79d12515-a63c-4dfc-9cbc-ed5e363c724a
 uri: do-you-understand-the-value-of-consistency
-created: 2009-02-28T09:43:28.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2009-02-28T09:43:28.000Z
+archivedreason: null
+guid: 79d12515-a63c-4dfc-9cbc-ed5e363c724a
 ---
 
 If you need to do something more than once, then there should be a standard for it. At the heart of our philosophy on creating rules and standards is the idea of consistency. There are 4 main benefits you will get:
 
 <!--endintro-->
 ![](consitency.png)Say we are creating a windows forms application. We can expect to:
-* **Improve productivity - because there are fewer decisions to make, and you build on existing work.** 
+* **Improve productivity - because there are fewer decisions to make, and you build on existing work.**  
 For example, we don't need to discuss the pros and cons of MDI versus SDI because there is [already a standard](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#AvoidMDI).
-* **Improve quality - because you are following best practices.** 
+* **Improve quality - because you are following best practices.**  
 For example, which logging library is better out of [Microsoft Application Block](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#ExceptionManagement) or [Log4NET](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#Log4Net).
-* **Improve communications - because people know what to expect.** 
+* **Improve communications - because people know what to expect.**  
 For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug.](/management-is-your-client-clear-on-the-definition-of-a-bug)
-* **Get straight to the meat of the customer's problem.** 
+* **Get straight to the meat of the customer's problem.**   
 For example, our developers don't need to decide whether to implement base forms or user controls. They already know because it's covered in [Rules to Better Windows Forms Applications.](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWindowsForms.aspx#UserControls)
 
 

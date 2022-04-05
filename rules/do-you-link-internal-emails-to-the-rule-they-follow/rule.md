@@ -8,7 +8,7 @@ created: 2012-03-20T15:13:20.0000000Z
 authors: 
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses MacLaren
+- title: Ulysses Maclaren
   url: https://ssw.com.au/people/uly
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
@@ -48,4 +48,8 @@ Need an answer on this ASAP, please
 :::  
 ::: good 
 Figure: Good Example – the email links to the standard it follows
+:::
+
+::: info
+**Tip:** If you are following a rule in a **presentation**, **website**, **software**, or even a **blog post** comment, you should also include a reference to the rule.
 :::

@@ -115,7 +115,7 @@ Figure: Good Example – Our designer [David Berkes](https://www.ssw.com.au/peop
 :::
  
  
-LinkedIn
+### LinkedIn
 [LinkedIn](https://www.linkedin.com/) is like Twitter and Facebook:
 
 * Business Profile image

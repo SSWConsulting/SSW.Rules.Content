@@ -1,0 +1,38 @@
+name: CheckExtensionCase
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+          
+      - id: file_changes
+        uses: trilom/file-changes-action@v1.2.4
+
+      - name: test
+        run: |
+          FILES=${{steps.file_changes.outputs.files_added}}
+
+          if [ ${#FILES} -ge 3 ];
+          then
+              IFS=", " read -a myarray <<< $FILES
+
+              for filename in "${myarray[@]}" 
+              do
+                  fileExtension=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
+                  lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
+                  if [ $lowercaseFileExtension == 'gif' ] || [ $lowercaseFileExtension == 'svg' ]
+                  then
+                      if ! [[ $fileExtension =~ ^[[:lower:]]+$ ]];
+                      then
+                          echo "Use lowercase file extensions"
+                          exit 1
+                      fi
+                  fi
+              done
+          fi

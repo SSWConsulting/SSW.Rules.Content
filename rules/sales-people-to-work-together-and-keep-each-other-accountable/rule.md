@@ -23,5 +23,6 @@ You should organize a weekly meeting for all Account Managers. The focus should 
 
 1. **Opportunities**
     * Look at all current opportunities and make sure there is a plan for a continuance. Agree to close off any that are no longer viable
+    * Discuss if there is any industry news or hot topics that could be interesting or that might be good for client conversations
 2. **Current Projects**
     * Look at the way your current resources are being used and make any adjustments necessary. In the case of a consulting company, identify if all bookings are up to date, and potentially if under-used resources need retraining or re-allocation

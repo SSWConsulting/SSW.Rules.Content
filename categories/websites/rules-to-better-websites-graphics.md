@@ -7,6 +7,7 @@ index:
 - do-you-add-width-and-height-properties-to-images-in-user-controls
 - do-you-avoid-bmps-for-the-internet-at-all-times
 - do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails
+- avoid-height-width-in-img-tag
 - do-you-exclude-width-and-height-properties-from-image-references-in-content
 - do-you-have-a-favicon-in-your-webpage
 - good-quality-images

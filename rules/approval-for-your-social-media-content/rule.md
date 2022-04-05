@@ -16,14 +16,9 @@ redirects:
 
 Creating content can be exhausting. Often you're planning it weeks in advance, with many different posts and platforms involved. This can lead to mistakes such as typos, or wrong URLs. It's always a good idea to get someone else to do a "test please" on your content before you post it. This will help make sure your content doesn't have any issues that will compromise the user experience while consuming it, or even affect your business goal with the post.
 
-
-
-
 <!--endintro-->
 
 Here are some tips that you can use to improve your content approval process:
-
-
 
 1. Use a template that you can easily fill in and that is also easy for people to understand what you want to post and when
 2. Block a day to work on the content to create a routine
@@ -34,4 +29,4 @@ Here are some tips that you can use to improve your content approval process:
 7. Reduce the rounds of approval - In this process, you should only include only people that have the skills and capacity to analyze your content goal, and consequently the content itself
 8. Always think of your personas when creating content - who are you trying to target?
 
- ** <strong><img src="contentapproval2.png" alt="contentapproval2.png" style="margin:5px;width:808px;"></strong> ** **Figure: Example of a template you can use to get approval for your social media content, note it shows what platforms it will be posted on, when, the test and how it will look. It will also help give you an idea of what your feed will look like to ensure it has a nice balance of images.**
+![Figure: Example of a template you can use to get approval for your social media content, note it shows what platforms it will be posted on, when, the test and how it will look. It will also help give you an idea of what your feed will look like to ensure it has a nice balance of images](contentapproval2.png)

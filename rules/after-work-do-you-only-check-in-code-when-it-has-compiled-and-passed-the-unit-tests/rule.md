@@ -26,8 +26,8 @@ Too many people treat Source Control as a networked drive. Don't just check-in w
 
 ![Figure: Put your dishes straight in the dishwasher otherwise you leave a mess for others (aka "Check-in" the right way otherwise you give other developers problems)](LeaveAMessToOthers.jpg)  
 
-Other recommendations have included using //TODO or commenting the code out. However, we recommend avoiding this practice as it increases the risk that the code is forgotten about.
+Other recommendations have included using "//TODO" or commenting the code out. However, we recommend avoiding this practice as it increases the risk that the code is forgotten about.
 
-**Note:** Having     [gated check-ins](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterVersionControlwithTFS%28AKASourceControl%29.aspx#MinimumBuilds)will help prevent this from happening.
+**Note:** Having [gated check-ins](/do-you-know-the-minimum-builds-to-create-for-your-project) will help prevent this from happening.
 
-**Note:** A useful tool is     [TFS Auto Shelve](https://marketplace.visualstudio.com/items?itemName=Vercellone.TFSAutoShelveforVisualStudio2017)- Protect your code by guaranteeing your pending changes are always backed up to the TFS server.
+**Note:** A useful tool is [TFS Auto Shelve](https://marketplace.visualstudio.com/items?itemName=Vercellone.TFSAutoShelveforVisualStudio2017) - Protect your code by guaranteeing your pending changes are always backed up to the TFS server.

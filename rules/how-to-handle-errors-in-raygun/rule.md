@@ -22,7 +22,7 @@ The best way to do that is to check the exceptions that are being logged in the 
 
 <!--endintro-->
 
-There's traditional error logging software like Log4Net or Elmah, but they just give you a wall of errors that are duplicated and don't give you the ability to mark anything as complete. You'll need to manually clear out the errors and move them into your task tracking system (TFS/VisualStudio.com).
+There's traditional error logging software like Log4Net or Elmah, but they just give you a wall of errors that are duplicated and don't give you the ability to mark anything as complete. You'll need to manually clear out the errors and move them into your task tracking system (Azure DevOps/VisualStudio.com).
 
 This is where RayGun or Application Insights comes into the picture. RayGun gives you the following features:
 
@@ -33,38 +33,31 @@ This is where RayGun or Application Insights comes into the picture. RayGun give
 * Tracking the exceptions to a deployment
 * See which errors are occurring the most often
 
-
-
 ::: bad  
 ![Figure: Bad Example - Elmah gives you a wall of exceptions and no way to flag exceptions as completed](elmah.gif)  
 :::
 
-**Hi Adam,** 
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | Adam |
+| Subject: | Raygun Health Check for TimePro |  
+::: email-content  
+
+### Hi Adam,  
+
 Please find below the Raygun Health Check for TimePro:
-![](Raygun-health-check-for-TimePro-in-the-past-7-days.jpg)
 
+![Figure: Raygun health check for TimePro in the past 7 days  ](Raygun-health-check-for-TimePro-in-the-past-7-days.jpg)
 
-::: good
-Figure: Raygun health check for TimePro in the past 7 days  
-:::
+![Figure: Resolved issues in the past 7 days](2.png)
 
-![](2.png)
-
-
-::: good
-Figure: Resolved issues in the past 7 days
-
-:::
-
-![](3.jpg)
-
-
-::: good
-Figure: The next issue to be worked on
-
-:::
+![Figure: The next issue to be worked on](3.jpg)
 
 &lt;This email is from [https://rules.ssw.com.au/how-to-handle-errors-in-raygun/](/how-to-handle-errors-in-raygun)&gt;
- **Figure: Email with Raygun application health report 
 
-**
+:::  
+:::  
+::: good
+Figure: Email with Raygun application health report 
+:::

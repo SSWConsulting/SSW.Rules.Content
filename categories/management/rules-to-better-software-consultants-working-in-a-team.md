@@ -21,6 +21,8 @@ index:
 - understand-the-power-of-empathy
 - do-you-go-two-miles-when-youre-only-asked-to-go-one
 - is-everyone-in-your-team-a-standards-watchdog
+- what-is-mentoring
+- mentoring-programs
 - do-you-ask-questions-where-youre-stuck
 - do-you-cc-your-account-manager-on-emails-relating-to-new-work
 - do-you-enjoy-your-job
@@ -68,6 +70,8 @@ index:
 - the-best-way-to-find-recent-files
 - modern-alternatives-to-using-a-whiteboard
 - do-you-carry-your-usb-flash-drive-on-your-key-ring
+- speak-up
+- the-happiness-equation
 
 ---
  

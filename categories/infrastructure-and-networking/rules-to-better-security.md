@@ -10,6 +10,9 @@ index:
 - follow-security-checklists
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver
+- do-you-disable-insecure-protocols
+- password-manager
+- run-services-on-their-own-ad-accounts
 
 ---
 

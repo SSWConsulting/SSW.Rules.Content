@@ -27,7 +27,7 @@ index:
 - do-you-finish-your-presentation-with-a-thank-you-slide
 - do-you-know-to-slideshare-your-powerpoint-before-the-presentation
 - do-you-keep-eye-contact-with-the-audience
-- do-you-get-your-ppt-tester-to-do-a-test-please-preferably-a-designer
+- ppt-test-please
 - do-you-keep-your-presentations-in-a-public-location
 - do-you-know-how-to-compress-your-powerpoint
 - animate-your-summary-slide

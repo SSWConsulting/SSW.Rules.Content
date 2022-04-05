@@ -1,11 +1,13 @@
 ---
 type: rule
 archivedreason: 
-title: For existing clients, do you always call them before sending a quote?
+title: Do you always call existing clients before sending a quote?
 guid: e9b36dc7-38ca-4e8d-8d43-30a346017f4d
 uri: for-existing-clients-do-you-always-call-them-before-sending-a-quote
 created: 2010-07-16T04:23:52.0000000Z
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
@@ -17,9 +19,10 @@ If you have an existing client, who is already impressed with your work, you don
 
 ::: greybox
 
-Hi Ed,
+Hi Mr.Northwind,
 
- As per our conversation today, here is a ballpark schedule for the work we talked about. As you can see all the items are listed separately so you can identify how the estimate is put together. I'm very happy to discuss these estimates with you so feel free to give me a call.
+As per our conversation today, here is a ballpark schedule for the work we talked about. As you can see all the items are listed separately so you can identify how the estimate is put together. I'm very happy to discuss these estimates with you so feel free to give me a call.
 
 :::
-      Figure: Always call the client to let them know that you are about to send a quote across, then send an "[As per our conversation](/do-you-send-＂as-per-our-conversation＂-emails)" email.
+
+**Figure: Always call the client to let them know that you are about to send a quote across, then send an "[As per our conversation](/as-per-our-conversation-emails)" email**

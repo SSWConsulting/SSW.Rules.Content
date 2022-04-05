@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Scheduling - Do you know how to book developers for a project?
-guid: 30fa45f9-d065-4f87-ba96-4ad52ae4468b
-uri: scheduling-do-you-know-how-to-book-developers-for-a-project
-created: 2012-12-06T13:32:15.0000000Z
+uri: how-to-book-developers-for-a-project
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
+created: 2012-12-06T13:32:15.000Z
+archivedreason: null
+guid: 30fa45f9-d065-4f87-ba96-4ad52ae4468b
 ---
 
 It is the responsibility of Account Managers to book developers for known client work, however anyone can book a developer, including the developer themselves. Also if a developer notices they should be booked, but there's nothing in their calendar, and they can't figure out the below, as a minimum they should ask the Account Manager to book them.
@@ -33,11 +32,13 @@ This is generally the easiest way for developers to book themselves in as they d
 
 1. Create a new Outlook (in the Desktop or Web client) appointment and give it a relevant subject
 2. Invite required resources if there are other people working with you or if you're booking for someone else
-    1. Note: if you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box.
+    1. Note: if you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box
 3. Invite the client as optional. If you do this, also make it a Teams Meeting and add your email signature
 4. Set the time and location for your appointment
-5. Set the recurrence if it’s more than 1 day of work
-6. Click "Dynamics 365" on the ribbon which will open a side panel and click on "Set Regarding" then search select the company that you want to book the developers to work on (this is the step that syncs it with CRM)
+5. Set "Show As" to "Free" (so their Teams Status will not show them as "In a Meeting" all day
+6. Set "Reminder" to "None" so you and they don't get spammed by unneccessary reminders
+7. Set the recurrence if it’s more than 1 day of work
+7. Click "Dynamics 365" on the ribbon which will open a side panel and click on "Set Regarding" then search select the company that you want to book the developers to work on (this is the step that syncs it with CRM)
 
 
 ![Figure: A complete appointment booking Brendan to work for SSW for 5 days](Dynamics1.jpg)  

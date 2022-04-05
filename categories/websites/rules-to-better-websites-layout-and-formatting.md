@@ -39,6 +39,7 @@ index:
 - do-you-know-not-to-use-bold-tags-inside-headings
 - do-you-avoid-having-a-horizontal-scroll-bar
 - do-you-display-dates-in-a-human-friendly-format
+- address-formatting
 - do-you-help-the-user-to-enter-a-url-field
 - do-you-make-sure-that-all-your-tags-are-well-formed
 - html-css-do-you-know-how-to-create-spaces-in-a-web-page
@@ -51,6 +52,7 @@ index:
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 - use-dashes-between-words-in-urls
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
+- do-you-use-presentation-templates-for-your-web-site-layouts
 - have-a-stylesheet-file
 - print-url
 - a-better-method-for-embedding-youtube-videos-on-your-website

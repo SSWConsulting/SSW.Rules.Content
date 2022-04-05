@@ -17,8 +17,6 @@ redirects:
 ---
 
 `youtube: https://www.youtube.com/embed/_I94-tJlovg?rel=0`
- 
-
 
 <!--endintro-->
 
@@ -29,13 +27,10 @@ The goal should be:
 
 ::: greybox
 A client calls and says: "I'm having problems with your software."
-
 :::
-
 
 ::: greybox
 Your answer: "Yes I know. Each morning we check the health of the app and we already saw a new exception. So I already have an engineer working on it."
-
 :::
 
-Take this survey to find out your DevOps index:
+Take this [survey to find out your DevOps index](https://docs.google.com/forms/d/e/1FAIpQLSeYdMVMuWo1onEr688-BbGviCwJQjecgqAqi8-Bf91IotOOCw/viewform).

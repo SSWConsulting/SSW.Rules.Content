@@ -18,9 +18,7 @@ redirects:
 
 ---
 
-Do you check in on your home or office from your smartphone using the Control4 App?
-
-The Control4 App turns your iOS or Android mobile device into the smart home/office command center. It connects directly to your system and allows you to control and manage all of your system’s features, such as lights, temperature, cameras, audio/video equipment, smart door locks and more.
+Check in on your home or office from your smartphone using the Control4 App - The Control4 App turns your iOS or Android mobile device into the smart home/office command center. It connects directly to your system and allows you to control and manage all of your system’s features, such as lights, temperature, cameras, audio/video equipment, smart door locks and more.
 
 <!--endintro-->
 
@@ -39,8 +37,8 @@ Throw away your remote controls and move on to technological freedom!
 To use Control4 on your phone and remotely control all services, you will need to follow these simple steps:
 
 1. Download the app from:
-  - App Store: http://www.control4.com/software/control4-app-ios/latest or
-  - Google Play: http://www.control4.com/software/control4-app-android/latest
+  - [App Store](https://apps.apple.com/us/app/control4-for-os-3/id1320153814?ls=1) or
+  - [Google Play](https://play.google.com/store/apps/details?id=com.control4.app)
 
 ![Figure: Download App](control4iosappstore.jpg)
 

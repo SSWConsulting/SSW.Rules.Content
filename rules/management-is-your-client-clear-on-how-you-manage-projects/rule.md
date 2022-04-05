@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: as per my conversation with Adam and Uly, this has no useful content
 title: Management - Is your client clear on how you manage projects?
 guid: 5a2dd92d-d110-4e53-8608-20fcbd644928
 uri: management-is-your-client-clear-on-how-you-manage-projects
