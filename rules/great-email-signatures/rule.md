@@ -14,7 +14,7 @@ authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
   - title: Josh Bandsma
-    url: https://www.ssw.com.au/people/josh-bandsma  
+    url: https://www.ssw.com.au/people/josh-bandsma
 related:
   - logon-do-you-have-a-company-wide-word-template
   - do-you-know-the-right-format-to-show-your-phone-number
@@ -101,7 +101,7 @@ CodeTwo (and Exclaimer) give:
 ![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
 
 ::: info 
-Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server side version of CodeTwo.  Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
+Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server-side version of CodeTwo.  Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
 :::
 
 ### Option 2: Set it up manually (Free)
@@ -144,7 +144,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 5. Add your email signature and click "Save"
 
 ::: info
-**Warning:** Unfortunately you need to setup up your signature in Outlook and OWA. There is no way to share this.
+**Warning:** Unfortunately, you need to setup up your signature in Outlook and OWA. There is no way to share this.
 
 **SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript 
 
