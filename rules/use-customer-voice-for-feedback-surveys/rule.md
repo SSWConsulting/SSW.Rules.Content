@@ -50,8 +50,9 @@ Surveys can be sent manually, but for consistent value, you should have automate
 
 Note: Avoid sending these at high pressure points, when you're already asking them for a decision, e.g. too early in the sales process. 
 
-\[TODO: Mehmet - Image of trigger workflow]\
-**Figure: Set up triggers to send out the surveys** 
+![Figure: Set up triggers to send out the surveys](workflow.png)
+
+
 
 ### Receiving Responses
 
