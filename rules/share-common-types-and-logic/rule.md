@@ -8,17 +8,23 @@ created: 2021-09-07T00:00:00.0000000Z
 authors:
 - title: Jason Taylor
   url: https://ssw.com.au/people/jason-taylor
+- title: Brady Stroud
+  url: https://ssw.com.au/people/brady-stroud
 related: []
 redirects:
 - do-you-share-common-types-and-logic
 
 ---
 
-TODO: Intro
+Becuase Blazor uses C#, your client and server can share the same model library: sharing behaviour as well as data.
+
+This will reduce the amount of code you need to write, and make it easier to maintain. 
 
 <!--endintro-->
 
-TODO: Body - a big advantage of blazor is your client and server can share the same model library: sharing behaviour as well as data
+To share your classes between the client and server, just create a class library and reference it in your client and server projects.
+
+See https://github.com/bradystroud/BlazorCodeSharingExample as an example.
 
 ### References
 

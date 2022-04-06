@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you decouple your API implementation from your Blazor components?
 guid: 64a1d676-a1bc-4f39-84a0-692592a688d8
-uri: decouple-your-API-implementation-from-your-blazor-components
+uri: decouple-API-from-blazor-components
 created: 2021-09-07T00:00:00.0000000Z
 authors:
 - title: Jason Taylor
