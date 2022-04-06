@@ -19,7 +19,6 @@ created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
-
 If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
@@ -38,7 +37,9 @@ For **suggested features** it is best to:
 2. Call the Product Owner sharing screens, then add [“checked by XXX”](/checked-by-xxx)
 3. When using a backlog, create an Issue/PBI and [@mention relevant people](/when-you-use-mentions-in-a-pbi) (GitHub and Azure DevOps will generate a nicely formatted email)
 
-   If there is no backlog (and subsequent automatic email), send an email
+![Figure: Making the Product Backlog the main source of tasks.](storing-tasks.jpg)
+
+If there is no backlog (and subsequent automatic email), send an email
 
 Try to have one issue/PBI/email per bug/suggestion, but if the bugs/suggestions are related or very small, then you may group them together in a single email.
 
