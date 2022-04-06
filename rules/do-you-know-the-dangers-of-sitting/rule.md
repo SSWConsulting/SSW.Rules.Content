@@ -1,18 +1,16 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the dangers of sitting?
-guid: f16d1c95-1453-4a00-bd95-56696f60ed5b
 uri: do-you-know-the-dangers-of-sitting
-created: 2016-11-07T06:25:25.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
+created: 2016-11-07T06:25:25.000Z
+archivedreason: null
+guid: f16d1c95-1453-4a00-bd95-56696f60ed5b
 ---
-
 Your body in an amazing machine. It constantly improves itself to get better at whatever you do most. Unfortunately for most of us, the thing we do most with our bodies is sit.
 
 <!--endintro-->
@@ -24,5 +22,9 @@ The solution is as simple as you might hope... just stand up and walk around eve
 The ultimate fix is to do a hip flexor stretch whenever possible. The easiest one for most office spaces is putting your knee on a seat behind you and bending your supporting leg while pushing your hips forward. If you're doing it right, you should feel a stretch at the top of your leg on e the front where the leg meets the pelvis.
 
 ::: good
-![Figure: Good example - It may look silly, but your body will thank you for it](Hip Flexor Stretch.jpg)
+!\[Figure: Good example - It may look silly, but your body will thank you for it](Hip Flexor Stretch.jpg)
 :::
+
+Check out our standing desks at SSW:
+
+`youtube: https://www.youtube.com/watch?v=YrnBb7lIsmk`
