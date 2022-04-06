@@ -17,8 +17,8 @@ A focus on customer feedback will give your customers’ experience more of a we
 Main options available for this are:
 
 * MailChimp
-* Salesforce option \*\*\*\*\*\**
-* Dynamics Customer Voice (recommended if you're already using Dynamics)
+* Salesforce Surveys and Feedback Management
+* Dynamics Customer Voice **(recommended if you're already using Dynamics)**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sbMReFrVYbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -28,7 +28,9 @@ Dynamics 365 has Customer Voice Surveys to harness this, and it is included with
 
 It can also be added as a standalone product if you don’t already have it.
 
-![Figure: Example of what a client will receive](survey.png)
+![Figure: Example email a client could receive](survey-email.png)
+
+![Figure: Example survey if they click through](survey.png)
 
 ### Creating the Survey
 
