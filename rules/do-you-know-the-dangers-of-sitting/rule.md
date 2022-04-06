@@ -22,7 +22,7 @@ The solution is as simple as you might hope... just stand up and walk around eve
 The ultimate fix is to do a hip flexor stretch whenever possible. The easiest one for most office spaces is putting your knee on a seat behind you and bending your supporting leg while pushing your hips forward. If you're doing it right, you should feel a stretch at the top of your leg on e the front where the leg meets the pelvis.
 
 ::: good
-!\[Figure: Good example - It may look silly, but your body will thank you for it](Hip Flexor Stretch.jpg)
+![Figure: Good example - It may look silly, but your body will thank you for it](Hip Flexor Stretch.jpg)
 :::
 
 Check out our standing desks at SSW:
