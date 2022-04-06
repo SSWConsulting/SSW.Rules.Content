@@ -44,15 +44,13 @@ If you are running Scrum projects, and your clients are used to doing Sprint Ret
 
 Surveys can be sent manually, but for consistent value, you should have automated triggers in place. This could be after any significant milestone, and it’s best if it’s something easily automated: e.g.
 
-* After a Spec Review, (i.e. when you mark an Opportunity as won or lost)
-* At project completion (manual)
-* At billing milestones (e.g. $50k if your usual project sizes are $100k-200k... after 2 Sprints).
+* After a Spec Review (i.e. when you mark an Opportunity as won or lost)
+* At billing milestones (e.g. $50k if your usual project sizes are > $100k... i.e. after 2 Sprints)
+* At project completion (manually triggered from Dynamics | Account | Project page in the ribbon)
 
 Note: Avoid sending these at high pressure points, when you're already asking them for a decision, e.g. too early in the sales process. 
 
 ![Figure: Set up triggers to send out the surveys](workflow.png)
-
-
 
 ### Receiving Responses
 
