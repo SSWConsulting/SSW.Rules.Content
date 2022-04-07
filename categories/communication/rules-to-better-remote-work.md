@@ -15,7 +15,7 @@ index:
 - do-you-send-done-videos
 - do-you-have-successful-remote-meetings
 - do-you-give-remote-attendees-the-url-to-shared-videos
-- do-you-send-out-an-email-summary-after-each-meeting
+- share-the-action-items-that-came-up
 - have-a-dedicated-working-space
 - have-an-ergonomic-setup
 - good-audio-conferencing
@@ -33,10 +33,10 @@ index:
 - pomodoro
 
 ---
-Working Remotely is something that is going to become more common. It is important that we have the tools to continue to  **work from home** (aka **WFH**) effectively and efficiently whilst also maintaining good mental health.
+
+Working Remotely is something that is going to become more common. It is important that we have the tools to continue to **work from home** (aka **WFH**) effectively and efficiently whilst also maintaining good mental health.
 
 If you need help with your business, SSW can assist in putting the tools in place to allow your employees to continue working from home with little to no impact on their efficiency and productivity. Learn more on our [Remote Work consulting page](https://www.ssw.com.au/ssw/Consulting/Remote-Work.aspx).
-
 
 `youtube: https://www.youtube.com/embed/pzDZ6Rw0Fls`
 **Figure**: Check out Jason's tips on Working From Home
