@@ -29,11 +29,11 @@ Dynamics 365 has Customer Voice Surveys to harness this, and it is included with
 It can also be added as a standalone product if you don’t already have it.
 
 ::: bad
-![Figure: Bad Example - Email a client could receive](survey-email.png)
+![Figure: Bad Example - The email a client could receive](survey-email.png)
 :::
 
 ::: good
-![Figure: Good Example - Email a client could receive](good-survey-email.png)
+![Figure: Good Example - It is clear who sent the survey request, how to access the survey and where to find information about the company sending the message ](good-survey-email.png)
 :::
 
 ![Figure: Example survey if they click through](survey.png)
