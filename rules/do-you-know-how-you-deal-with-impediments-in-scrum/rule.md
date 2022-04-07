@@ -74,7 +74,7 @@ Students and PO do a standard Scrum retro for the exercise.
 
 # Meaning of the Chance Cards
 
-
+**Table Example - Impediment**
 
 | ∞ - Impediment         | 
 | ----------------- | 
@@ -82,16 +82,15 @@ Students and PO do a standard Scrum retro for the exercise.
 | Add the value to the remaining hours of a task | 
 | Record the impediment | 
 
-Table: e.g.
-
- | ? - Clarification  | 
- | ------------- | 
+**Table Example - DBA will not give access to the database:**
+| ? - Clarification  | 
+| ------------- | 
 |Draw a point card |
- | Add a new task|
- | Set the remaining hours of a task to the value|
+| Add a new task|
+| Set the remaining hours of a task to the value|
 
-Table: e.g. DBA will not give access to the database.
 
+**Table Example - The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the webservice and try again”:**
 | 0 - Bug              | 
 | ----------------- | 
 | Draw a point card | 
@@ -99,7 +98,7 @@ Table: e.g. DBA will not give access to the database.
 | Add a task to the bug | 
 | Set the remaining hours on the task to the value | 
 
-Table: e.g. The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the webservice and try again”. 
+**Table Example - One of the build scripts fails on the build server, but works on a local dev machine:**
 | 20 - Bubble   | 
 | ------------- | 
 | Draw a point card | 
@@ -107,46 +106,30 @@ Table: e.g. The error message should change from “User Error” to “The proc
 | Add a task to the bubble |
 | Halve the remaining hours on a task |
 
-Table: e.g. One of the build scripts fails on the build server, but works on a local dev machine.
-
-
+**Table Example - The data access layer supports the validation framework so as that was already implemented the effort expected has decreased:**
 | 40 - Spike                | 
 | ----------------- | 
 | Draw a point card | 
 | Create a new PBI |  
 | Set the PBI points to the value | 
 
-Table: e.g. The data access layer supports the validation framework so as that was already implemented the effort expected has decreased.
-
- | 100 - Task blowout  | 
- | ------------ | 
+**Table Example - The current implementation may not support real-time display of information with the performance expected by users – investigate:**
+| 100 - Task blowout  | 
+| ------------ | 
 | Double the remaining hours on a task |
 
-Table: e.g. The current implementation may not support real-time display of information with the performance expected by users – investigate
+### Cancelled Sprint - The PO cancels the Sprint 
+- Cancel all tasks
+- Recycle the PBIs to the Product Backlog </li>
 
+### Team Member - The Team is missing a Team Member 
+- Reduce the hours the team works by 8 hours 
 
+### Scrum Master - The Team is missing the  Scrum Master
+- The team handles the missing SM
 
+### Product Owner - The Product Owner is missing
+- The team handles the missing PO
 
-
-
-*Cancelled Sprint - The PO cancels the Sprint 
-
-<ul>                <li>Cancel all tasks</li>
-                <li>Recycle the PBIs to the Product Backlog </li>
-            </ul> 
-*Team Member - The Team is missing a Team Member 
-
-<ul>                <li>Reduce the hours the team works by 8 hours </li>
-            </ul> 
-*Scrum Master - The Team is missing the  Scrum Master
-
-<ul>                <li>The team handles the missing SM</li>
-            </ul>
-*Product Owner - The Product Owner is missing
-
-
-<ul>                <li>The team handles the missing PO</li>
-            </ul> 
-*Stakeholder Interferes - Stakeholders are contacting the Team to change priorities and requirements  
-<ul>                <li>The team handles the Stakeholders </li>
-            </ul> 
+### Stakeholder Interferes - Stakeholders are contacting the Team to change priorities and requirements  
+- The team handles the Stakeholders
