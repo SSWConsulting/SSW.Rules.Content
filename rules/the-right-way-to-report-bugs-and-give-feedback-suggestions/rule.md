@@ -21,13 +21,13 @@ guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
 If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
-When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
+It is recommended to keep track of active project backlogs on the company intranet, while also including the product owner and tech lead contact information, coupled with a link to the Teams channel of that project.
 
-This will save the both you and the developer time and frustration in the long run. 
-
-Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier.
+When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. This will save the both you and the developer time and frustration in the long run. 
 
 <!--endintro-->
+
+Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier.
 
 For **bugs**, the goal is to include enough details so the developer can easily reproduce the error to find out what the problem is.
 
