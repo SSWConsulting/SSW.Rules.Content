@@ -9,11 +9,14 @@ created: 2010-06-08T07:57:36.000Z
 archivedreason: null
 guid: 85af1e88-a942-4917-9390-213f1db6a223
 ---
-
 Unfortunately, there is no easy solution to this. What we need is a 'version' field and an 'Update' button - See our  **[Suggestions to Microsoft PowerPoint: Check for Updates](https://bettersoftwaresuggestions.com/microsoft/office/powerpoint/check-for-template-updates/)**
 
 <!--endintro-->
 
-![Figure: This feature is broken on PowerPoint - the template field could show as blank](CheckTemplate.jpg)
+![Figure: This feature is broken on PowerPoint - the template field could show as an uncomprehensive code](template-field.png)
 
-We recommend to store the template version number on the first slide of the PowerPoint, which the presenter could remove. Although, it would let them know if they are using the latest version or not by checking the latest version on their file server or SharePoint.
+We recommend to store the template version number on a slide on the PowerPoint template, which the presenter could remove.  
+
+
+
+![Figure: Version number is on slide](template-version.png)
