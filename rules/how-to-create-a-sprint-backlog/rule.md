@@ -19,4 +19,4 @@ Learn how to create your Sprint backlog:
 - On [Microsoft Docs - Assign backlog items to a sprint](https://docs.microsoft.com/en-us/azure/devops/boards/backlogs/create-your-backlog?view=azure-devops&tabs=agile-process)
 - On [GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/quickstart)
 
-Once the backlog is ready, you should [send the Sprint Forecast email to the client](send-sprint-forecast-and-sprint-review-retro-emails-to-the-client).
+Once the backlog is ready, you should [send the Sprint Forecast email to the client](/send-sprint-forecast-and-sprint-review-retro-emails-to-the-client).

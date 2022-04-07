@@ -10,7 +10,7 @@ authors:
 related: []
 redirects: []
 created: 2011-08-11T17:54:33.000Z
-archivedreason: null
+archivedreason: Archived as we don't put exercises in SSW Rules. See https://www.ssw.com.au/rules/methodology-daily-scrums#tip-11-if-you-have-raised-impediments-consider-contacting-the-product-owner to know how to deal with impediments
 guid: 9cad1080-3451-47e5-b721-22fd88762c0f
 ---
 Exercise – Click Click Scrum
@@ -22,9 +22,12 @@ This exercise uses the VS2010 planning poker deck of cards & TFS
 # Separate out the cards
 
 Separate out these as Chance Cards
-![Chance Cards](chance-cards.jpg)**Figure: Chance cards** 
+
+![Figure: Chance cards](chance-cards.jpg)
+
 Separate out these as Point Cards
-![Point Cards](point-cards.jpg)**Figure: Point cards** 
+
+![Figure: Point cards](point-cards.jpg)
 
 # Set Timeboxes
 
@@ -44,7 +47,7 @@ Separate out these as Point Cards
 4. Students break PBIs into tasks
 5. Students put estimates on each task (typical times for work in a day e.g 4 hours, 8 hours)
 
-# Each Day in the sprint
+# Each Day in the Sprint
 
 1. Get the students “Click-Click” their fingers instead of doing actual coding
 2. The trainer deals one or two cards from the Chance Cards
@@ -111,7 +114,7 @@ e.g. The current implementation may not support real-time display of information
 <ul>                <li>Double the remaining hours on a task </li>
             </ul>
 e.g. Multiple field data validation was supported in the application but when it was implemented for this work it failed all validations calls and it took ages to find the    settings in web.config were wrong. |
-| \*\*Cancelled Sprint\*\* | The PO cancels the sprint |
+| \*\*Cancelled Sprint\*\* | The PO cancels the Sprint |
 | 
 <ul>                <li>Cancel all tasks</li>
                 <li>Recycle the PBIs to the Product Backlog </li>

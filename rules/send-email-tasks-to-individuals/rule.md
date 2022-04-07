@@ -16,7 +16,7 @@ As the old quote goes: “If everyone is in charge of something, no one is!”
 
 It’s generally a better idea to direct each email/task to one specific person.
 
-::: email-template  
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | @SSWDesigners |
@@ -24,15 +24,16 @@ It’s generally a better idea to direct each email/task to one specific person.
 ::: email-content  
 
 ### Hi Designers,
+
 1. Please create a new logo for XXX  
 
-:::  
-:::  
+:::
+:::
 ::: bad  
 Figure: Bad Example - None of the designers know which of them should action the task
 :::
-  
-::: email-template  
+
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Danny |
@@ -41,13 +42,13 @@ Figure: Bad Example - None of the designers know which of them should action the
 ::: email-content  
 
 ### Hi Danny,
+
 1. Please create a new logo for XXX  
 
-:::  
-:::  
+:::
+:::
 ::: good  
-Figure: Good Example - It is clear who should do the task 
+Figure: Good Example - It is clear who should do the task
 :::
 
- 
 The only exception to this would be if you have a ticketing system, like Zendesk, that automatically adds emails to a backlog, and you have a generic task that could be completed by anyone.

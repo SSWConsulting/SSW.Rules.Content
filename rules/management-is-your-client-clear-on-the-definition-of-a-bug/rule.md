@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Eric Phan
   url: https://ssw.com.au/people/eric-phan
-related: []
+related: 
+- the-right-way-to-report-bugs-and-give-feedback-suggestions
 redirects: []
 
 ---
@@ -63,7 +64,7 @@ Any new features or modifications (non-bug items) not in the original Product Ba
 ![Figure: Adding a bug to the Product Backlog in AzureDevOps](62034c_tfs_preview_add_bug.png)
 
 ::: info
-**Note:** The above is our definition. Others have different definitions that we do **not** subscribe to: [Painless Bug Tracking](https://www.joelonsoftware.com/2000/11/08/painless-bug-tracking/)
+**Note:** The above is our definition. Others have different definitions that we do **not** subscribe to: [Painless Bug Tracking](https://www.joelonsoftware.com/2000/11/08/painless-bug-tracking/).
 :::
 
-You can also use the Wiki definition of "Software Bug" as a reference to understand this concept: [Wikipedia Definition of Software Bug](https://en.wikipedia.org/wiki/Software_bug)
+You can also use the Wiki definition of "Software Bug" as a reference to understand this concept: [Wikipedia Definition of Software Bug](https://en.wikipedia.org/wiki/Software_bug).

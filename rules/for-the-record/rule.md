@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you send a 'For the record' email when you disagree?
-uri: send-a-for-the-record-email-when-you-disagree
+uri: for-the-record
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,7 +10,7 @@ authors:
 related: []
 redirects:
   - do-you-send-a-for-the-record-email-when-you-disagree
-  - do-you-send-a-for-the-record-email-when-you-disagree
+  - send-a-for-the-record-email-when-you-disagree
 created: 2010-07-16T06:49:34.000Z
 archivedreason: null
 guid: 47440022-76fd-4df5-a81c-363df2a0ccc0
@@ -31,13 +31,13 @@ Regardless it is important to document disagreements so the client is crystal cl
 ::: greybox
 **One war story** 
  
-One day we had an incident where one of our clients had found out that a developer had hard-coded the CSS (the default Angular way). When the client discovered it, they were wild and wanted 24 days written off as a consequence. To be clear, the reaction and the request were disproportionate. However, clients have memories that are fallible and they can be entitled to be upset when they come to a company (like SSW) that prides themselves on following best-practices.
+"One day we had an incident where one of our clients had found out that a developer had hard-coded the CSS (the default Angular way). When the client discovered it, they were wild and wanted 24 days written off as a consequence. To be clear, the reaction and the request were disproportionate. However, clients have memories that are fallible and they can be entitled to be upset when they come to a company (like SSW) that prides themselves on following best-practices.
  
 I spoke to the developer about it, and he knew 100% that he had agreed with the Product Owner to leave it that way because it was super quick and they had bigger fish to fry at the time. The developer recalled explaining to the Product Owner that he wasn't comfortable taking that shortcut. The step that the developer failed to do was to cover his ass with an "As per our conversation" email... or when the disagreement is related to architectural issues (or issues that will require a lot of rework later) I suggest a more clear "For the record" email.
 
-**Note** : Even better the developer could have included a URL in the email with a link to a PBI to remove this technical debt later.
+**Note:** Even better the developer could have included a URL in the email with a link to a PBI to remove this technical debt later."
  
-- Adam Cogan    
+Adam Cogan    
 SSW Chief Architect
 
 :::
@@ -45,7 +45,7 @@ SSW Chief Architect
 When you have a disagreement with someone who has decision making power, and you are unable to convince them that your recommendation is correct (and they were unable to convince you that their decision is correct), you should send an email to the people involved including your thoughts, because: 
 
 1. Later down the track it will provide a learning experience for someone (depending on who was right 😉)
-  **Tip** : Use a [follow up then](/do-you-follow-up-emails-effectively) set for e.g. 6 months in the future to remind you to revisit your email, then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
+    **Tip:** Use a [follow up then](/do-you-follow-up-emails-effectively) set for e.g. 6 months in the future to remind you to revisit your email, then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
   
 2. After cooling down from the meeting, people might read it later and see it as useful input
 
@@ -57,7 +57,7 @@ When you have a disagreement with someone who has decision making power, and you
 "I knew it, we should never have used React for the Northwind project."
 :::
 ::: bad 
-Figure: Bad example
+Figure: Bad example - Being improductive and too late
 :::
 
 (...on the day)
@@ -66,7 +66,7 @@ Figure: Bad example
 "Thanks for the chat today. As per our conversation, you'd like us to build this feature using a quick workaround. Just for the record, the best practice would have been to XXX, but since you are the Product Owner, and I understand we're under time pressure, I of course will go with your decision."
 :::
 ::: good 
-Figure: Good example - they asked you to do a shortcut 
+Figure: Good example - Documenting that client has asked you to do a shortcut 
 :::
 
 (...on the day)

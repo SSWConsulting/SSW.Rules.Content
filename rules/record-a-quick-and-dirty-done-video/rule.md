@@ -11,7 +11,7 @@ authors:
     url: https://ssw.com.au/people/barry-sanders
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
-related: 
+related:
   - do-you-send-done-videos
   - record-better-audio
 redirects:
@@ -84,7 +84,9 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
 ![Figure: 'Done' video in progress using a Marantz turret broadcasting kit](turret-usage.jpg)\
 Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](https://wistia.com/learn/production/marantz-turret-review?wvideo=whmpjct7xj)    
 
-### Camtasia - Let's look at an example by Ben Cull
+### -- Camtasia Tips --
+
+### Tip #1: Camtasia - See great example by Ben Cull
 
 E.g. SSW TimePRO - Power BI Ad-Hoc Reporting:
 
@@ -92,7 +94,7 @@ E.g. SSW TimePRO - Power BI Ad-Hoc Reporting:
 
 **Figure: A real example of a 'Done Video' with Fades** 
 
-### Tip: Fix the audio before making any cuts to the video
+### Tip #2: Camtasia - Fix the audio before making any cuts to the video
 
 After recording your video, you need to do some basic sound processing to make the audio awesome.
 
@@ -101,9 +103,9 @@ After recording your video, you need to do some basic sound processing to make t
 * On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
 * Listen and adjust as necessary
 
-![Figure: audio effects panel with the compressor](audio-effects-panel.png)
+![Figure: Camtasia - audio effects panel with the compressor](audio-effects-panel.png)
 
-### Tip: Camtasia 9 - How to fade-out and fade-in the video track of your face in Camtasia 9
+### Tip #3: Camtasia 9 - Fade-out and fade-in the video track of your face
 
 1. With the video track of your face selected, click on  **Animations (1)** . Track 3 in the image below.
 2. Select the  **No Opacity (2)** animation effect for the fade-out.
@@ -113,7 +115,7 @@ After recording your video, you need to do some basic sound processing to make t
 
 ![Figure: Camtasia - Steps for adding fade-out/fade-in animation to video track of your face in 'Done' video](fade in and out.png)
 
-### Final Step – Export your video
+### Tip #4: Camtasia's Final Step – Export your video
 
 Follow the steps to export your video:
 

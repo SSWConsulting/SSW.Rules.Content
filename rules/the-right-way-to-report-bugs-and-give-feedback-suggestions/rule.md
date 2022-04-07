@@ -11,6 +11,7 @@ related:
   - do-you-provide-details-when-reporting-net-applications-errors
   - which-emojis-to-use-in-scrum
   - when-you-use-mentions-in-a-pbi
+  - management-is-your-client-clear-on-the-definition-of-a-bug
 redirects:
   - do-you-know-the-right-way-to-report-bugs
   - do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
@@ -18,7 +19,6 @@ created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
-
 If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. 
@@ -37,7 +37,9 @@ For **suggested features** it is best to:
 2. Call the Product Owner sharing screens, then add [“checked by XXX”](/checked-by-xxx)
 3. When using a backlog, create an Issue/PBI and [@mention relevant people](/when-you-use-mentions-in-a-pbi) (GitHub and Azure DevOps will generate a nicely formatted email)
 
-   If there is no backlog (and subsequent automatic email), send an email
+![Figure: Making the Product Backlog the main source of tasks](storing-tasks.jpg)
+
+If there is no backlog (and subsequent automatic email), send an email.
 
 Try to have one issue/PBI/email per bug/suggestion, but if the bugs/suggestions are related or very small, then you may group them together in a single email.
 
@@ -54,7 +56,7 @@ I'm having a problem with your PerformancePro software. When I run it, it says s
 
 Can you tell how to fix this? 
 
-Thanks,\
+Thanks,
 Susan
 
 :::
@@ -84,7 +86,7 @@ I have the latest version of all my software. I am running Windows 10 and Office
 
 Can you please investigate and let me know how to proceed?
 
-Thanks,\
+Thanks,
 Susan
 
 :::
@@ -102,11 +104,11 @@ When possible, a great template to follow is the [Functional Bug template](https
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | Rebecca |
+| To:      | Danny |
 | Subject: | SSW TV |
 ::: email-content  
 
-### Hi Rebecca,
+### Hi Danny,
 
 Where is SSW TV on the navigation?
 
@@ -121,11 +123,11 @@ Figure: Bad example - Lack of details
 ::: email-template
 |          |     |
 | -------- | --- |
-| To:      | Rebecca |
+| To:      | Danny |
 | Subject: | SSW Website - Can't find SSW TV link |
 ::: email-content  
 
-### Hi Rebecca,
+### Hi Danny,
 
 I've searched the SSW website and can't find a link to SSW TV.
 
@@ -150,7 +152,7 @@ When I navigate to ssw.com.au, I should see at the top of the page clear link to
 
 Couldn't find a link on the page.
 
-1. Can you help users to get to SSW TV website from SSW website.
+1. Can you help users to get to SSW TV website from SSW website
 
 Adam 
 
@@ -184,14 +186,14 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 
 **For a bug email:**
 
-  **To:** Tech Lead\
-  **Cc:** Product Owner\
+  **To:** Tech Lead
+  **Cc:** Product Owner
   **Subject:** Bug -  xxx (or use PBI @mention)
 
 **For a new feature email:**
 
-  **To:** Tech Lead\
-  **Cc:** Product Owner\
+  **To:** Tech Lead
+  **Cc:** Product Owner
   **Subject:** Suggestion - xxx  (or use PBI @mention)
 
 **Note:** You may have a group email such as all@northwind.com.au, You would only Cc this email when a greater visibility is required. 

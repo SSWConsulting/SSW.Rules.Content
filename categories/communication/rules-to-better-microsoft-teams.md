@@ -30,6 +30,7 @@ index:
 - do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone
 - use-emojis-in-you-channel-names
 - workstations-use-gpu
+- meeting-join-info-at-the-top
 
 ---
 
