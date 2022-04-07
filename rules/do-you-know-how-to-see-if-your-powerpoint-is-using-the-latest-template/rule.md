@@ -17,6 +17,4 @@ Unfortunately, there is no easy solution to this. What we need is a 'version' fi
 
 We recommend to store the template version number on a slide on the PowerPoint template, which the presenter could remove.  
 
-
-
-![Figure: Version number is on slide](template-version.png)
+![Figure: Version number is on the slide](template-version.png)
