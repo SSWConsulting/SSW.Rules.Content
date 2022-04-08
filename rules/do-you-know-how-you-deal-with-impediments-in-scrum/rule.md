@@ -83,6 +83,7 @@ Students and PO do a standard Scrum retro for the exercise.
 | Record the impediment | 
 
 **Table Example - DBA will not give access to the database:**
+
 | ? - Clarification  | 
 | ------------- | 
 |Draw a point card |
@@ -90,7 +91,8 @@ Students and PO do a standard Scrum retro for the exercise.
 | Set the remaining hours of a task to the value|
 
 
-**Table Example - The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the webservice and try again”:**
+**Table Example - The error message should change from “User Error” to “The process could not be completed, please check the Url value provided for the web service and try again”:**
+
 | 0 - Bug              | 
 | ----------------- | 
 | Draw a point card | 
@@ -99,6 +101,7 @@ Students and PO do a standard Scrum retro for the exercise.
 | Set the remaining hours on the task to the value | 
 
 **Table Example - One of the build scripts fails on the build server, but works on a local dev machine:**
+
 | 20 - Bubble   | 
 | ------------- | 
 | Draw a point card | 
@@ -107,6 +110,7 @@ Students and PO do a standard Scrum retro for the exercise.
 | Halve the remaining hours on a task |
 
 **Table Example - The data access layer supports the validation framework so as that was already implemented the effort expected has decreased:**
+
 | 40 - Spike                | 
 | ----------------- | 
 | Draw a point card | 
@@ -114,6 +118,7 @@ Students and PO do a standard Scrum retro for the exercise.
 | Set the PBI points to the value | 
 
 **Table Example - The current implementation may not support real-time display of information with the performance expected by users – investigate:**
+
 | 100 - Task blowout  | 
 | ------------ | 
 | Double the remaining hours on a task |
