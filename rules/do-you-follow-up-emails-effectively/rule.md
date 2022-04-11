@@ -1,7 +1,10 @@
 ---
 type: rule
+archivedreason: 
 title: Do you follow up tasks effectively?
+guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 uri: follow-up-emails-effectively
+created: 2009-03-27T03:06:15.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
