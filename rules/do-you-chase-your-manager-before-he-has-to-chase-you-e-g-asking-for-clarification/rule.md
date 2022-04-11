@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Communication - Do you chase your Product Owner before he has to chase you? (E.g. Asking for clarification)
+title: Communication - Do you chase the Product Owner for clarification?
 guid: e982a8b7-5c8d-4134-8a09-23348b3a6971
-uri: do-you-chase-your-manager-before-he-has-to-chase-you-e-g-asking-for-clarification
+uri: chase-the-product-owner-for-clarification
 created: 2012-09-25T17:49:03.0000000Z
 authors:
 - title: Adam Cogan
@@ -17,6 +17,7 @@ redirects:
 - do-you-chase-your-manager-before-he-has-to-chase-you-(e-g-asking-for-clarification)
 - communication-do-you-chase-your-product-owner-before-he-has-to-chase-you-e-g-asking-for-clarification
 - communication-do-you-chase-your-product-owner-before-he-has-to-chase-you-(e-g-asking-for-clarification)
+- do-you-chase-your-manager-before-he-has-to-chase-you-e-g-asking-for-clarification
 
 ---
 
