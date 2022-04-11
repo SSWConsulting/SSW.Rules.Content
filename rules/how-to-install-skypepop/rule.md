@@ -61,18 +61,15 @@ Only receptionists should have SkypePOP installed.
 
 ![Figure: Enter your CRM Connection Details](2016-12-02_15-14-23.jpg)
 
-
 4. Change the SkypePOP  **Preferences**
 
-![Figure: Right click on the icon in the taskbar and select "Preferences"](2016-12-22_9-13-03.jpg)
+![Figure: Right-click on the icon in the taskbar and select 'Preferences'](2016-12-22_9-13-03.jpg)
 
 5. Configure the **Dynamics CRM** settings to something similar to this: 
       
 ![Figure: These are the default SkypePOP settings](50.jpg)
 
-         
 6. Open Skype for Business
-
 
 7. Review the **SkypePOP - Skype for Business** settings
       
@@ -85,9 +82,8 @@ Only receptionists should have SkypePOP installed.
 
 The SkypePOP demo license will stop working after 5 hours or 5 calls
 
-**Tip: Reduce the time used by quitting SkypePOP - you do that by right clicking | Exit on the tray icon**
+**Tip:** Reduce the time used by quitting SkypePOP - you do that by right clicking | Exit on the tray icon
 
-
-9. Restart your PC.
+9. Restart your PC
 
 10. Test with SNOM phone to verify SkypePOP is working correctly
