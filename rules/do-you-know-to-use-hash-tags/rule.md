@@ -17,15 +17,8 @@ related:
   - do-you-share-when-you-upgrade-an-application
   - do-you-use-a-conversion-code-in-your-lead-generation-campaigns
   - twitter-do-you-know-the-best-practices-for-your-twitter-ads
-  - do-you-follow-image-standard-sizes-on-social-media
   - keep-your-social-media-updated
-  - do-you-add-tracking-codes-in-urls
-  - do-you-know-how-to-weed-out-spammers
-  - do-you-follow-minimum-image-sizes-on-social-media
-  - do-you-know-that-posts-with-images-are-more-engaging
-  - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
   - branding-do-you-know-when-to-use-an-overlay-on-images
-  - do-you-know-how-to-take-great-photos-for-your-socials
   - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 redirects:
@@ -44,7 +37,7 @@ The best tweets will use a combination of @mentions and #hashtags where appropri
 
 **Tip #1:** Encourage people to use the correct hashtag by adding the hashtag to your sidebar or footer.
 
-![Figure: On  www.ssw.com.au/ssw/netug you can see the sidebar shows a feed with the hashtag used](hashtag-stream.jpg)
+![Figure: On www.ssw.com.au/ssw/netug you can see the sidebar shows a feed with the hashtag used](hashtag-stream.jpg)
 
 **Tip #2:** When creating your own hashtag to promote a service, product or event, check if it isn't already in use for anything else.
 
@@ -54,7 +47,7 @@ The best tweets will use a combination of @mentions and #hashtags where appropri
 
 **Tip #4:** Keep your hashtags on topic – you might seem "spammy" if you use hashtags that are unrelated to your post.
 
-**Tip #5**: For more readability, capitalise the first letter of each word, for example, #SocialMedia.
+**Tip #5:** For more readability, capitalise the first letter of each word, for example, #SocialMedia.
 
 ### Examples of hashtags we use
 
