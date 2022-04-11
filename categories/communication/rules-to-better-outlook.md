@@ -18,7 +18,6 @@ index:
 - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
 - do-you-use-the-security-options-in-outlook
 - do-you-use-the-voting-option-appropriately
-- do-you-use-word-as-your-editor
 - do-you-avoid-using-out-of-office
 
 ---
