@@ -1,22 +1,17 @@
 ---
 type: rule
-archivedreason: 
 title: Do you follow up tasks effectively?
-guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
-uri: do-you-follow-up-emails-effectively
-created: 2009-03-27T03:06:15.0000000Z
+uri: follow-up-emails-effectively
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects:
 - follow-up-emails-effectively
-
----
 
 Sometimes you're not able to complete a task right away or anytime soon. In this case, people usually just say:
 
