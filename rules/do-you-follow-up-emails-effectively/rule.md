@@ -14,7 +14,7 @@ authors:
   url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects:
-- do-you-follow-up-tasks-effectively
+- follow-up-emails-effectively
 
 ---
 
