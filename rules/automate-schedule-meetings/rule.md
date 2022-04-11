@@ -1,21 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Appointments - Do you automate scheduling of meetings?
-guid: bce2f455-3c5a-41c0-9775-200ac1963379
 uri: automate-schedule-meetings
-created: 2020-11-10T18:24:51.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Greg Harris
+    url: https://ssw.com.au/people/greg-harris
 related: []
 redirects:
-- appointments-do-you-automate-scheduling-of-meetings
-
+  - appointments-do-you-automate-scheduling-of-meetings
+created: 2020-11-10T18:24:51.000Z
+archivedreason: null
+guid: bce2f455-3c5a-41c0-9775-200ac1963379
 ---
 
 We've all been part of that email chain... _"Let's meet to discuss this"_, _"When are you free?"_, _"I can do Friday"_, _"Friday's no good, what about Monday?"_, _"I'm free in the morning"_, _"Penny can't make that, how about Tuesday afternoon after 3?"_, etc.
@@ -94,9 +93,9 @@ FindTime sends out the meeting invite on your behalf. More on [https://findtime.
 
 ![Figure: FindTime gives a nice UI for people working in the same org, as you can see times that might be available for all attendees easily (e.g. 8 am above)](findtime-scheduler.jpg)  
 
-**Mobile – does not work ❌**
+::: greybox
+**Mobile – does not work ❌**   
 As of Dec 2020, FindTime does not work on iOS.
 
-Vote at [What features would you like to see in FindTime?](https://findtime.uservoice.com/forums/316122-ideas-tell-us-your-great-ideas/suggestions/13358103-findtime-for-iphone-in-outlook-for-ios)
-
 ![Figure: FindTime - No mobile support for iOS](findtime-mobile.jpg)
+:::
