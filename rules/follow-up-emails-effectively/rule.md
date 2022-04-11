@@ -1,10 +1,7 @@
 ---
 type: rule
-archivedreason: 
 title: Do you follow up tasks effectively?
-guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 uri: follow-up-emails-effectively
-created: 2009-03-27T03:06:15.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,7 +11,10 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects:
-- do-you-follow-up-emails-effectively
+  - do-you-follow-up-emails-effectively
+created: 2009-03-27T03:06:15.000Z
+archivedreason: null
+guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 ---
 
 Sometimes you're not able to complete a task right away or anytime soon. In this case, people usually just say:
@@ -35,7 +35,7 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 
 ::: bad  
-![Figure: Bad example - using stick notes](postit-screen.jpg)  
+![Figure: Bad example - oldies use yellow sticky notes](postit-screen.jpg)  
 :::
 
 To ensure you follow up any task like these, there are two ways to set yourself a task to follow up in the future:
@@ -53,7 +53,7 @@ Simply BCC or email **&lt;period of time&gt;@followupthen.com** and it will send
 
 Note that you are sending this email thread to a 3rd party, so if you're dealing with any confidential information, strip it out before using this tool.
 
-### #2 Delayed Email 
+### #2 Outlook | Options | Delay Delivery 
 
 Write yourself an email in Outlook.     
 Before pressing send, click **Options** | **Delay Delivery** , and then specify when you want to be reminded.
@@ -66,7 +66,7 @@ When you receive it in your inbox, action the task.
 ![Figure: Good example - Use delayed email on Outlook](delay-emails-outlook.jpg)  
 :::
 
-### #3 Follow Up flag feature in Outlook
+### #3 Outlook | Follow Up flag 
 
 When you require a reminder to follow up on an email by a certain date:
 
