@@ -6,9 +6,9 @@ authors:
   - title: Stanley Sidik
     url: https://ssw.com.au/people/stanley-sidik
   - title: Ash Anil
+    url: https://www.ssw.com.au/people/ash
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
-    img: ""
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
