@@ -16,7 +16,7 @@ index:
 - do-you-cc-everyone-and-reply-to-all-when-necessary
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
-- do-you-follow-up-emails-effectively
+- follow-up-emails-effectively
 - checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
 - send-email-tasks-to-individuals
