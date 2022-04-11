@@ -41,10 +41,12 @@ Having an entire new version of an email is important as it:
 
 1. Open your v1 email in Sent Items
 2. Click Actions | Resend this message
-3. Include V2 on the first line of the email body
+3. Include V2 on the first line of the email body  
+
   ::: warning
   **Warning:** Do not add "v2" to the subject as we want to keep the thread.
   :::
+  
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email. 
 5. Replace your v1 with your v2 email, as if the v1 never happened
 
@@ -57,5 +59,5 @@ Having an entire new version of an email is important as it:
 ![Figure: 'Resend This Message' on the 'Quick Access' toolbar](microsoftteams-image.png)
 :::
 
-`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+`youtube: https://www.youtube.com/embed/2WoDQBhJCVQ`
 **Video: Some jobs give no chance for a v2**
