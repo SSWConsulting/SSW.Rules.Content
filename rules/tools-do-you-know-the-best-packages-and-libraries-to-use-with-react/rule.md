@@ -22,7 +22,7 @@ Developers still struggle on making a decision on how to setup their React proje
 * **[Create React App](https://github.com/facebook/create-react-app)** - An officially supported way to start a client-side React project with no configuration
 * **[Next.js](https://nextjs.org/)** - Framework for server-rendered or statically-exported React apps
 
-See more at [https://ku.reactjs.org/community/starter-kits.html](https://ku.reactjs.org/community/starter-kits.html)
+See more at [Starter Kits recommended by the React Team](https://ru.react.js.org/community/starter-kits.html).
 
 ### Utility Libraries for React
 
