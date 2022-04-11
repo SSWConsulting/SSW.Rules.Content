@@ -14,7 +14,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects:
-- follow-up-emails-effectively
+- do-you-follow-up-emails-effectively
 
 Sometimes you're not able to complete a task right away or anytime soon. In this case, people usually just say:
 
