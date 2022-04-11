@@ -57,5 +57,5 @@ Having an entire new version of an email is important as it:
 ![Figure: 'Resend This Message' on the 'Quick Access' toolbar](microsoftteams-image.png)
 :::
 
-`youtube: https://www.youtube.com/embed/0ugMkda9IBw`
+`youtube: https://www.youtube.com/embed/2WoDQBhJCVQ`
 **Video: Some jobs give no chance for a v2**
