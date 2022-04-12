@@ -45,7 +45,7 @@ Here are the below are the best practices you should know:
 
 Whilst this overview of Google Ads will provide you with enough detail to get a campaign started, there may be additional questions you need answered or information, and that's where these resources come in:
 
-* [Google Ads Help](https://support.google.com/google-ads/?hl=en#topic=7456157) – Google have created a help centre for all your Google Ads related questions, here you can search for questions, or submit questions to forums for help. This should be your first port of call for any issues!
+* [Google Ads Help](https://support.google.com/google-ads/?hl=en#topic=10286612) – Google have created a help centre for all your Google Ads related questions, here you can search for questions, or submit questions to forums for help. This should be your first port of call for any issues!
 * [WordStream](https://www.wordstream.com/how-to-use-google-adwords) – This WordStream article provides a basic overview of how to use Google Ads and features a handy helpful infographic. Word Stream have other articles on Google Ads which may be useful.
 * [HubSpot](https://blog.hubspot.com/marketing/google-adwords-ppc) – This free HubSpot eBook discusses all the ins and outs of PPC campaigns and is a great starting point to learn more about Google Ads. Like WordStream, HubSpot also have other helpful articles discussing Google Ads.
 * [Neil Patel](https://neilpatel.com/what-is-google-adwords/) – Neil Patel is a popular digital marketer, with a strong focus on helping businesses grow. This post focuses on Google Ads and takes you through the process step by step, so it's a great starting point for some more information.
