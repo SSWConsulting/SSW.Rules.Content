@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to name documents?
 guid: fd6b589b-9f74-4d95-bc4f-b90b4c349c31
-uri: how-to-name-sharepoint-documents
+uri: how-to-name-documents
 created: 2019-02-26T01:04:10.0000000Z
 authors:
 - title: Adam Cogan
@@ -18,6 +18,7 @@ related:
 - remove-spaces-from-your-folders-and-filename
 redirects:
 - do-you-know-how-to-name-documents
+- how-to-name-sharepoint-documents
 
 ---
 
