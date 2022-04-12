@@ -187,17 +187,21 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 :::
 
 ### Tip 4: Should you email or put it in the backlog?
+
 Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as all@northwind.com.au, You would only Cc this email when a greater visibility is required. 
 
 ### Tip 5: Do you make it easy to find all the backlog in your company?
-![Figure: An intranet page with many “backlog” links to make it easy for everyone to find](placeholder.jpg)
+
+![Figure: An intranet page with many “backlog” links to make it easy for everyone to find](do-you-know-how-to-report-bugs-and-give-suggestions.png)
 
 ### Tip 6: Make sure when using backlog, the Product Owner will still get an email
+
 Create an Issue/PBI and @mention relevant people (GitHub and Azure DevOps will generate a nicely formatted email)
 
 See rules on [When you use mentions in a PBI](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi)
 
 ### Tip 7: Separate PBIs
+
 If they are all related to one area, then you could consider put them together, otherwise don’t bunch them up.
 
 See rules on [Do you send tasks one email at a time?](https://www.ssw.com.au/rules/do-you-send-tasks-one-email-at-a-time)
