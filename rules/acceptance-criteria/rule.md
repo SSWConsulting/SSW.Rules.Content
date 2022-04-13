@@ -3,14 +3,18 @@ type: rule
 archivedreason: 
 title: Do your User Stories include Acceptance Criteria?
 guid: dbe9010e-da5b-4617-8ff3-0e1e5fdc7772
-uri: do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
+uri: acceptance-criteria
 created: 2011-05-30T08:13:44.0000000Z
 authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
 - title: Adam Stephensen
   url: https://ssw.com.au/people/adam-stephensen
-related: []
+related: 
+- report-bugs-and-suggestions
 redirects:
 - do-your-user-stories-include-acceptance-criteria-(aka-never-assume-automatic-gold-plating)
+- do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
 
 ---
 
@@ -65,13 +69,6 @@ Figure: OK Example of Acceptance Criteria
 Figure: Good Example of Acceptance Criteria – Including Gold Plating 
 :::
 
-For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a screenshot, or even better a video.
-
 ::: greybox
-See screenshot/video 
-
-\[Screenshot\] and/or \[Video link]\]
-:::
-::: good
-Figure: Good Example for a simple change – just include a screen capture and/or video 
+For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot**, or even better a **video**.
 :::
