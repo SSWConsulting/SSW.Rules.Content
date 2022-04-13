@@ -22,7 +22,7 @@ guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
 If you are unclear use IM to ask, but remember [the golden rule is to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
-It is recommended to keep track of active project backlogs on the company intranet, while also including the product owner and tech lead contact information, coupled with a link to the Teams channel of that project.
+It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
 
 When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. This will save both you and the developer time and frustration in the long run. 
 
@@ -173,7 +173,7 @@ Figure: Good example - Giving feature requests via video
 
 ### Tip 2: Draft your suggestion with the complaint and what you expect to see
 
-[Scrum | Acceptance Criteria](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
+Define all the requirements as per [Do your User Stories include Acceptance Criteria?](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating).
 
 ### Tip 3: Should you send this to the Product Owner or the Tech Lead?
 
