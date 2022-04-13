@@ -33,16 +33,16 @@ When reporting bugs and giving product feedback, it is essential that you are as
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
-[External Link: How to produce a good bug report](https://www.boxuk.com/insight/what-makes-a-good-bug-report/)
+External source: [How to produce a good bug report](https://www.boxuk.com/insight/what-makes-a-good-bug-report/)
 
-::: email-template
+::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
 | Subject: | Your software |
 ::: email-content  
 
-### Hi
+### Hi team,
 
 I'm having a problem with your PerformancePro software. When I run it, it says something about registration and then exists. 
 
@@ -56,14 +56,14 @@ Susan
 Figure: Bad Example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
 :::
 
-::: email-template
+::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
-| Subject: | 🐛 BUG - PerformancePro - Error on startup|
+| Subject: | 🐛 BUG - PerformancePro - Error on startup |
 ::: email-content  
 
-### Hi
+### Hi team,
 
 I'm having a problem with your PerformancePro software. When I run it, this is what happens: 
 
@@ -91,7 +91,7 @@ When possible, a great template to follow is the [Functional Bug template](https
 * Expected outcome, and 
 * Actual outcome
 
-::: email-template
+::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | Danny |
@@ -109,7 +109,7 @@ Adam
 Figure: Bad example - Lack of details
 :::
 
-::: email-template
+::: email-template  
 |          |     |
 | -------- | --- |
 | To:      | Danny |
