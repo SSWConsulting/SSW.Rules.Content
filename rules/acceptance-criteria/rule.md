@@ -69,6 +69,6 @@ Figure: OK Example of Acceptance Criteria
 Figure: Good Example of Acceptance Criteria – Including Gold Plating 
 :::
 
-::: greybox
-For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot**, or even better a **video**.
+::: info
+**Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot**, or even better a **video**.
 :::
