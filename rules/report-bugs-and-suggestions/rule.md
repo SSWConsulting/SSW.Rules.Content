@@ -15,6 +15,7 @@ related:
 redirects:
   - do-you-know-the-right-way-to-report-bugs
   - do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
+  - the-right-way-to-report-bugs-and-give-feedback-suggestions
 created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
@@ -52,6 +53,7 @@ Thanks,
 Susan
 
 :::
+:::
 ::: bad
 Figure: Bad Example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
 :::
@@ -81,6 +83,7 @@ Thanks,
 Susan
 
 :::
+:::
 ::: good
 Figure: Good Example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
 :::
@@ -104,6 +107,7 @@ Where is SSW TV on the navigation?
 
 Adam     
 
+:::
 :::
 ::: bad
 Figure: Bad example - Lack of details
@@ -145,6 +149,7 @@ Couldn't find a link on the page.
 
 Adam 
 
+:::
 :::
 ::: good
 Figure: Good example - We can easily identify more the one way to improve the UX and there's a clear suggestion to action
