@@ -168,7 +168,7 @@ Figure: Good example - Giving feature requests via video
 
 ### Tip 2: Draft your suggestion with the complaint and what you expect to see
 
-[Scrum | Acceptance Criteria](https://scrumguides.org/scrum-guide.html#purpose-of-the-scrum-guide)
+[Scrum | Acceptance Criteria](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
 
 ### Tip 3: Should you send this to the Product Owner or the Tech Lead?
 
