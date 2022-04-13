@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Facebook Ads - Do you know what metrics you should have?
+title: Facebook Ads - Do you know what metrics you should follow?
 guid: bdcc1ef2-46b4-4c60-82b3-99b66747ce15
-uri: do-you-know-what-metrics-you-should-have-around-your-facebook-ads
+uri: do-you-know-what-metrics-you-should-follow-around-your-facebook-ads
 created: 2015-11-30T22:36:30.0000000Z
 authors:
 - title: Marlon Marescia
