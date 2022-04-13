@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know to make short URL’s readable where you can?
+title: Do you make URLs short and readable?
 guid: c961c747-1060-4301-a483-4f76562b77e1
 uri: create-friendly-short-urls
 created: 2010-09-07T15:14:23.0000000Z
@@ -18,11 +18,11 @@ redirects:
 
 ---
 
-Readability of URLs is important, so you should consider making a short URL. However, it is not just making the length as short as possible - it should be friendly. 
+Readability of URLs is important, so you should consider making a short URL. However, it is not just making the length as **short** as possible - it should be **friendly**. 
 
 <!--endintro-->
 
-If you use a unfriendly link people can't see what they are clicking through to. In fact, this is what most spammers rely on.
+If you use a unfriendly and long link people can't see what they are clicking through to. In fact, this is what most spammers rely on.
 
 ::: greybox
 blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
