@@ -26,7 +26,6 @@ index:
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event
-- how-to-advertise-using-facebook-ads
 - facebook-ads-metrics
 - have-urls-to-your-main-services-on-linkedin
 - linkedin-connect-your-microsoft-account
