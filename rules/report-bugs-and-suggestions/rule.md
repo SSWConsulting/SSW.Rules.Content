@@ -12,6 +12,7 @@ related:
   - which-emojis-to-use-in-scrum
   - when-you-use-mentions-in-a-pbi
   - management-is-your-client-clear-on-the-definition-of-a-bug
+  - important-chats-should-be-in-an-email
 redirects:
   - do-you-know-the-right-way-to-report-bugs
   - do-you-know-the-right-way-to-report-bugs-and-give-feedback-suggestions
