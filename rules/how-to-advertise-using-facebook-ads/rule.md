@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Information is already out there. The rule is basically an external link
 title: Facebook Ads - Do you know how to advertise?
 guid: f4c28b04-fc86-4b2c-809c-b893a1aa27af
 uri: how-to-advertise-using-facebook-ads
