@@ -4,7 +4,7 @@ title: Rules to Better User Acceptance Tests (UAT) for Bug Management
 guid: 846f937c-37cf-4a7f-a1fc-b8a87dc9931e
 uri: rules-to-better-user-acceptance-tests-uat-for-bug-management
 index:
-- do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating
+- acceptance-criteria
 - do-you-create-one-test-plan-per-sprint
 - do-you-know-how-to-create-a-test-case-with-tfs-visualstudio-com-was-tfspreview
 - do-you-know-how-to-assign-a-tester-to-test-configurations
