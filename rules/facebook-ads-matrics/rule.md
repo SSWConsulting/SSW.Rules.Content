@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Facebook Ads - Do you know what metrics you should follow?
 guid: bdcc1ef2-46b4-4c60-82b3-99b66747ce15
-uri: do-you-know-what-metrics-you-should-follow-around-your-facebook-ads
+uri: facebook-ads-matrics
 created: 2015-11-30T22:36:30.0000000Z
 authors:
 - title: Marlon Marescia
@@ -13,14 +13,13 @@ authors:
 related: []
 redirects:
 - facebook-ads-do-you-know-what-metrics-you-should-have
+- do-you-know-what-metrics-you-should-follow-around-your-facebook-ads
 
 ---
 
 Facebook ads have a limited run. Often, ads will work for a certain period and then become ineffective. It is important to monitor ads regularly to see if they are still performing.
 
 <!--endintro-->
-
-
 
 Underperforming ads should be paused and tweaked before resuming use. The smaller the potential audience the quicker the ad will become less effective. Testing can be carried out on the copy, image, demographics and interest groups – altering these variables will give you a range of different results.
 
