@@ -11,6 +11,7 @@ index:
 - know-how-to-take-great-photos-for-your-socials
 - image-standard-sizes-on-social-media
 - type-of-content-marketing-you-should-post
+- do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
 - consistent-content-across-social-media
 - do-you-re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
