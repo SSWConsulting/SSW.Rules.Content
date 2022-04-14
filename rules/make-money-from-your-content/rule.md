@@ -18,9 +18,9 @@ Digital marketing is becoming more popular every day and many people are making 
 
 [Patreon](https://www.patreon.com/) is an American membership platform that provides business tools for content creators to run a subscription service. It helps creators and artists earn a monthly income by providing rewards and perks to their subscribers like exclusive and premium content
 
-This video shows you how to setup a successful Patreon account:
+This video shows you how to launch a Patreon account:
 
-`youtube: https://www.youtube.com/watch?v=2ThPEtcbp9Y`
+`youtube: https://www.youtube.com/watch?v=qVIQNu00LGo`
 <br>
 
 ## Super Thanks $
