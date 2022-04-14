@@ -16,7 +16,7 @@ It can be difficult to get everybody into a meeting, especially these days when 
 
 ### Make it a ceremony
 
-You have already [shared the agenda](/share-the-agenda), so pick out the best item and ping the decision maker before the meeting: 
+You have already [shared the agenda](/share-the-agenda), so pick out the best item and ping the decision maker on Teams before the meeting: 
 > "We're meeting in 30 minutes, I'm excited to be talking about xxx"
 
 ### Be persistent
