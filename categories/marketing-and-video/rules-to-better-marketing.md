@@ -52,6 +52,7 @@ index:
 - use-google-tag-manager
 - do-you-re-purpose-your-pillar-content-for-social-media
 - do-you-share-when-you-upgrade-an-application
+- make-money-from-your-content
 
 ---
 
