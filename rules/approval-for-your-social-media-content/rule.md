@@ -20,7 +20,7 @@ Here are some helpful tips that you can use to improve your content approval pro
 
 1. Use a template that you can easily fill in and that is also easy for people to understand what you want to post, where and when
 2. Block a period in your calendar to work on the content to create a routine
-3. Define a process that you can follow: Create content &gt; Get images approved by designers &gt; Get content approved by Management OR improve content based on feedback. \
+3. Define a process that you can follow: Create content &gt; Get images approved by designers &gt; Get content approved by Management OR improve content based on feedback.
    If your process is not efficient and adds a lot of blockers to your work routine, then it is not effective.
 4. Commit to a deadline - Try to work out what the timeline will be, from creation to review. This is particularly important if your content is timely.
 5. Use a branding guide to be consistent with the brand's look and feel
