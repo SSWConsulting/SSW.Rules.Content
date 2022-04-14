@@ -7,16 +7,15 @@ authors:
     url: https://ssw.com.au/people/chris-schultz
 created: 2021-12-16T23:49:23.696Z
 guid: 2c6e0175-0723-4f3b-81c8-33260f625a46
-
 ---
-
 It can be difficult to get everybody into a meeting, especially these days when many meetings are online. It is important that time is not wasted in these situations, so it's good to be proactive and have a plan for when the decision maker is busy.
 
 <!--endintro-->
 
 ### Make it a ceremony
 
-You have already [shared the agenda](/share-the-agenda), so pick out the best item and ping the decision maker before the meeting: 
+You have already [shared the agenda](/share-the-agenda), so pick out the best item and ping the decision maker on teams before the meeting: 
+
 > "We're meeting in 30 minutes, I'm excited to be talking about xxx"
 
 ### Be persistent
