@@ -2,7 +2,7 @@
 type: category
 title: Rules to Better Google Ads and SEM
 guid: 559d56f4-742d-4576-9a8d-8947b4bf8870
-uri: rules-to-better-google-ads-and-SEM
+uri: rules-to-better-google-ads-and-sem
 index:
 - the-best-practices-for-google-ads
 - do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
@@ -26,7 +26,7 @@ index:
 - use-both-english-spelling-on-google-ads
 
 ---
+
 Google Ads are a great way of generating leads for your business, but they can be totally overwhelming, and if not done well, can cost you a lot of money.
 
 Below are some ways you can improve the effectiveness of your ads, while keeping the cost low.
-
