@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to create a negative keyword list?
+title: Do you have a negative keyword list on your campaigns?
 guid: 8f1e5fe1-b534-488d-86cf-26cd2d77145d
 uri: how-to-create-a-negative-keyword-list
 created: 2019-03-26T22:02:27.0000000Z
@@ -21,15 +21,16 @@ redirects:
 
 ---
 
-Before you look at Negative keywords, make sure you cover [the essential steps of optimising Google Adword campaigns](/how-to-optimize-google-ads-campaigns).
-
-It's important to create specific negative keyword lists depending on your business, you can have lists named “cheap" or “career" related. Or you can also have a global, that would be applied to all of your campaigns (**recommended**)
+Before you look at negative keywords, make sure you cover [the essential steps of optimising Google Adword campaigns](/how-to-optimize-google-ads-campaigns).
 
 Any unrelated search terms that takes people to your website costs you money. Maintaining this regularly **can save you a lot of $$$** in the long run and be used on essential keywords that bring in business.
 
+It's important to create specific negative keyword lists depending on your business. You can have different lists named “cheap" or “career" related. Or you can have a global list that would be applied to all of your campaigns (**recommended**)
+
 <!--endintro-->
 
-Get started by clicking on top right: **Tools | Shared Library | Negative keyword lists**.
+Get started by clicking on top right: **Tools | Shared Library | Negative keyword lists**. More info: [Add negative keywords to campaigns
+](https://support.google.com/google-ads/answer/7102995).
 
 You'll create the title and add all the negative keywords you think might generate non-targeted clicks. This will help you to improve your results on getting only the the right audience.
 
