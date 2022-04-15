@@ -12,7 +12,9 @@ guid: 3726e23d-32f1-4810-b07a-97ca78d05971
 ---
 Sometimes it can be useful to have multiple copies of the same email.
 
-If you want to duplicate a particular message, place the cursor in any of these fields: **To**, **Cc**, **Bc**, or **Subject**, and press **CTRL+F**. It will open a new message with the very same information as the original one.
+If you want to duplicate a particular message in Outlook, place the cursor in any of these fields: **To**, **Cc**, **Bc**, or **Subject**, and press **CTRL+F**. 
+
+It will open a new draft message with the very same information as the original one.
 
 <!--endintro-->
 
