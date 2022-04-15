@@ -27,13 +27,13 @@ It's important to create specific negative keyword lists depending on your busin
 
 Any unrelated search terms that takes people to your website costs you money. Maintaining this regularly **can save you a lot of $$$** in the long run and be used on essential keywords that bring in business.
 
-Now to do so, click on: “Tools" on top right |on “Shared Library", click on Negative keyword lists.
-
 <!--endintro-->
 
-Then create the title and add the keywords you think that might help you either save some money from non-targeted clicks or improve your results to get your right audience.
+Get started by clicking on top right: **Tools | Shared Library | Negative keyword lists**.
 
-![Figure: organize your negative keywords lists](google-ads-organize-negative-keywords.jpg)  
+You'll create the title and add all the negative keywords you think might generate non-targeted clicks. This will help you to improve your results on getting only the the right audience.
+
+![Figure: Include negative keywords lists to improve your results](google-ads-organize-negative-keywords.jpg)  
 
 Once a week, check all Search Terms and review recommendations:
 
