@@ -19,6 +19,8 @@ It will open a new draft message with the very same information as the original 
 <!--endintro-->
 
 ::: greybox
-This is handy if you want to ask different people their opinion. Easily get multiple copies of the same email for each of them.  
+This is handy if you want to ask different people their opinion. Easily get multiple copies of the same email for each of them.\
 E.g. **Subject: Scrum - what is the best length of a Sprint?**
 :::
+
+![Figure: Place the cursor into "Subject" field and press CTRL+F to create a new copy of your message](ctrl_f-outlook.gif)
