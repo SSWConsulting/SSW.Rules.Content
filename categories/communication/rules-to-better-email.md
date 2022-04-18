@@ -37,6 +37,7 @@ index:
 - good-email-subject
 - change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
+- duplicate-email-draft
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
 - do-you-respond-to-each-email-individually
