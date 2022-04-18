@@ -3,23 +3,23 @@ type: rule
 archivedreason: 
 title: Do you provide details when reporting .NET Applications errors
 guid: 85289d17-263f-4045-87cb-fb1f7629c0f8
-uri: provide-details-when-reporting-net-applications-errors
+uri: reporting-net-applications-errors
 created: 2016-02-09T16:59:27.0000000Z
 authors: []
 related: []
 redirects:
 - do-you-provide-details-when-reporting-net-applications-errors
+- provide-details-when-reporting-net-applications-errors
 
 ---
 
-.NET applications can sometimes produce a stack trace of an error, these error messages are all we need to figure out what has happened.  **Please do not send us this screen shot** , instead, select the top section of what's within this box and paste it in an email that you can send back to us.
+.NET applications can sometimes produce a stack trace of an error, these error messages are all we need to figure out what has happened.  **Please do not send us this screen shot**, instead, select the top section of what's within this box and paste it in an email that you can send back to us.
 
 <!--endintro-->
 
 The text within the 'Details' button is more useful for debugging and locating the problem.
 
 ![Figure: Bug details window](../../assets/DotNetDebug2.gif)  
-
 
 ::: greybox
 See the end of this message for details on invoking 
