@@ -4,12 +4,12 @@ title: Rules to Better Bug Management and Product Feedback
 guid: 4b407c09-f06d-47d0-94ff-2ea14e982d8b
 uri: rules-to-better-bug-management-and-product-feedback
 index:
-- do-you-know-the-best-way-to-manage-product-feedback
+- manage-product-feedback
 - report-bugs-and-suggestions
-- management-is-your-client-clear-on-the-definition-of-a-bug
-- provide-details-when-reporting-net-applications-errors
-- how-to-fix-small-web-errors
-- how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
+- definition-of-a-bug
+- reporting-net-applications-errors
+- fix-small-web-errors
+- reply-to-free-support-requests
 - todo-tasks
 - allow-users-to-get-up-to-date-messages
 redirects:
