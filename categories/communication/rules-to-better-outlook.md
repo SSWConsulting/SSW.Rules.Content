@@ -10,6 +10,7 @@ index:
 - avoid-sending-emails-immediately
 - how-to-send-a-v2-if-requested
 - do-you-know-how-to-recall-an-email
+- duplicate-email-draft
 - do-you-avoid-outlook-rules
 - do-you-avoid-using-auto-archive
 - do-you-group-your-emails-by-conversation-and-date
