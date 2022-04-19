@@ -41,7 +41,7 @@ They have variations of sizes according to the placement, for example, banner, p
 
 <!--endintro-->
 
-As all of them will have different specifications, so it’s best to check their support if you have any question regarding this. Hootsuite is a reliable source, for example: https://blog.hootsuite.com/social-media-image-sizes-guide/# It is important to know this, as posting on social media with the correct dimensions impacts how the posts are engaged.
+As all of them will have different specifications, so it’s best to check their support if you have any questions regarding this. Hootsuite is a reliable source, for example, check this guide: [Social Media Image Sizes 2022: Cheat Sheet for Every Network](https://blog.hootsuite.com/social-media-image-sizes-guide/#). It is important to know this, as posting on social media with the correct dimensions impacts how engaging your posts will be.
 
 ### Twitter
 
