@@ -177,3 +177,4 @@ Note: If you have a Wiki, for visibility add an architecture diagram page and em
 ### Related links
 
 * [8 Tips to Better Architecture Diagrams](https://adamcogan.com/2020/10/07/8-tips-to-better-architecture-diagrams/)
+* Alternative: Build diagrams with markdown using [Mermaid](https://mermaid-js.github.io/mermaid/#/n00b-gettingStarted)

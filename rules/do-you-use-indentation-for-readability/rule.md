@@ -22,7 +22,6 @@ Written communication can easily cause misunderstandings. Help the reader unders
 
 * Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to, or a web page, etc.
 * Your new text should be kept to the left
-* Optionally, [use a different text color in your reply](/when-you-reply-inline-do-you-use-a-different-color)
 * Add numbers if the sender didn't and it is appropriate
 
 <!--endintro-->
@@ -71,8 +70,9 @@ Figure: Good Example - You can clearly see the context of each part of the reply
 
 ::: greybox
 **Note:** 
-- When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
-- For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
+
+* When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
+* For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually. 
 :::
 
 ## GitHub
@@ -88,3 +88,8 @@ You can find more info about GitHub syntax at [Basic writing and formatting synt
 - - -
 
 `youtube: https://www.youtube.com/embed/LAqRokqq4jI`
+
+**Video: Top 10+ Rules to Better Email Communication with Ulysses Maclaren**
+
+
+**Note:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill

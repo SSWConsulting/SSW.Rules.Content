@@ -19,6 +19,8 @@ redirects:
 
 When writing the instructions for a series of operations, be sure you keep the operations in the right order. With a clear order, users will be less likely to be confused.
 
+At SSW, convention is to use the pipe character "|" to indicate a step in a navigation process.
+
 <!--endintro-->
 
 ::: greybox

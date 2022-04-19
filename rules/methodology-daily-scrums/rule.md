@@ -6,6 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
+  - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams
   - keep-track-of-a-parking-lot-for-topics
 redirects:
@@ -93,9 +94,9 @@ If the Scrum Master is not a full-time member of the team (often they are), they
 ::: greybox
 Notes:
 
-* The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk.
-* If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work)).
-  :::
+* The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
+* If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
+:::
 
 ### Tip 5: Do you update tasks before the Daily Scrum?
 
@@ -186,6 +187,12 @@ Today I am working on:
 ::: good
 Figure: Good example - Clear details
 :::
+
+### Tip 15 -  Auto-generate your Daily Scrum with AutoScrum
+
+AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
+
+More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBlazor/AutoScrum).
 
 - - -
 

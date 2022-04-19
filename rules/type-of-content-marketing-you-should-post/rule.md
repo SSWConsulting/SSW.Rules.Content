@@ -23,68 +23,76 @@ redirects:
 
 ---
 
-Sometimes it can be hard to keep **generating content daily for your social media, and even more when there’s not much going on.** However, here are a few types of content you could use for your next social media posts!
+Sometimes it can be hard to keep **generating content daily for your social media** and even more when there’s not much going on. Here are a few types of content you could use for your next social media posts:
 
 <!--endintro-->
 
-So, here are a few examples taken from our social media of what you could post on yours:
-
-### #1 - Internal projects, services or products that your business developed or offers
+### 1 - Internal projects, services or products that your business developed or offers
 
 ![Figure: SSW’s devs doing a scrum retro with General Manager Uly after working on SSW TimePro](teamwork.jpg)  
 
-### #2 - Projects that your company worked on
+### 2 - Projects that your company worked on
 
 ![Figure: SSW's developer Kosta being recorded by SSW TV about the web app that SSW developed for Sydney University](breast.jpg)  
 
-### #3 - Video content
+### 3 - Video content
 
 ![Figure: Adam Cogan and Matt Goldman Discuss Avoiding the Technical Debt Spiral on SSW TV](sswtv-v2.jpg)  
 
-### #4 - Events that your company organised
+### 4 - Events that your company organized
 
 ![Figure: Azure Superpowers - Paid training promotion on SSW's social media](promo-azure.jpg)  
 
 ![Figure: Angular Hack Day post-event post](sswevents.jpg)  
 
-### #5 - External events that you and your team attended to
+### 5 - External events that you and your team attended to
 
 ![Figure: SSW’s team in our booth at NDC Sydney 2019 with Alumnus Tiago Passos](ndc.jpg)  
 
-### #6 - Your team members profiles
+### 6 - Team members profiles
 
 ![Figure: In profile photos, you can show your employees in action](kikisprofile.png)  
 
 ![Figure: Another example of an employee action shot](tom-profile.png)
 
-### #7 - Your employees' blogs posts
+### 7 - Employees' blogs posts
 
 ![Figure: Use the same image from the blog post for consistency](tim-blog.png)
 
-### #8 - Your business blog posts
+### 8 - Business blog posts
 
 ![Figure: When you promote your own business' blog post on your social media, try to use the same design & branding](blogpostssw.jpeg)  
 
-### #9 - General content written by your team on your website
+### 9 - General content written by your team on your website
 
 ![Figure: Even though some of your content won't have a photo, you can add a relevant one from a free stock photo service](rules-v2.png)  
 
-### #10 - Employment opportunities
+### 10 - Employment opportunities
 
 ![Figure: Hiring post following branding guidelines](hiring-v2.png)
 
-### #11 - Teamwork, parties, etc.
+### 11 - Teamwork, parties, etc.
 
 ![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpeg) 
 
 ![Figure: SSW Melbourne - Following COVID-19 safety guidelines](covid-teamwork.png)
 
-### #12 - Relevant news for your industry
+### 12 - Relevant news for your industry
 
 ![Figure: If you don’t have a catchy photo to represent your news, try free stock photo websites like Pexels or Unsplash](technews-v2.jpeg)  
 
-### #13 - Memes, if they suit your industry
+### 13 - Memes (if they suit your industry)
 
 To see best practices for sharing memes on your socials, check out our Rule: [Do you know why you should use memes as part of your business social media content?](/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content)
 
 ![Figure: A meme once a week on weekends can help you boost your social media engagement](meme.png)
+
+### 14 - Application upgrades/updates
+
+When you do a major (or minor) upgrade to an application, you should let people know and identify the reason for the upgrade.
+
+Whether your upgrade is to take advantage of a new feature, to fix a bug, or even just to keep yourself on the latest and greatest version, your followers might want to know why you upgraded. You should put a short announcement on Twitter, Facebook, and/or LinkedIn. Your followers may not know about the changes and the ones who are grateful are likely to retweet or like your post.
+
+::: good  
+![Figure: Good Example - announcing the upgrade with a short note of the new feature](octopus\_upgrade.png)  
+:::

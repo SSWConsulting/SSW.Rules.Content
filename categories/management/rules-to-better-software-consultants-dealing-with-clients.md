@@ -36,6 +36,7 @@ index:
 - do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client
 - do-you-plan-the-night-before-what-you-are-doing-the-next-day
 - do-you-let-your-client-know-when-you-work-overtime-and-it-is-not-charged
+- booking-cancellations
 - do-you-make-sure-you-get-brownie-points
 - speaking-do-you-speak-in-a-positive-language-to-clients
 - do-you-contact-your-clients-using-lync-skype
@@ -47,7 +48,7 @@ index:
 - do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
 - do-you-know-the-numbers-you-give-clients
 - do-you-know-the-client-is-not-always-right
-- send-a-for-the-record-email-when-you-disagree
+- for-the-record
 - do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 - do-you-not-interrupt-people-when-they-are-in-the-zone
 - do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
@@ -59,6 +60,7 @@ index:
 - lose-battle-keep-client
 
 ---
+
 Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.
 
 The other half of being the best consultant possible can be found at [Rules to Better Software Consultants - Working in a Team](/rules-to-better-software-consultants-working-in-a-team).

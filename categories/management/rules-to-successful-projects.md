@@ -27,13 +27,12 @@ index:
 - done-do-you-go-beyond-done-and-follow-a-definition-of-done
 - management-do-you-fix-bugs-first
 - write-end-to-end-tests-for-critical-happy-paths
-- where-to-keep-your-files
+- track-project-documents
 - do-you-zz-old-files-rather-than-deleting-them
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
 - do-you-have-a-knowledge-base-kb
 - do-you-know-the-best-way-to-give-the-best-customer-support
-- do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
 - do-you-stop-dealing-with-data-and-schema
 - do-you-have-separate-development-testing-and-production-environments
 - is-everyone-in-your-team-a-standards-watchdog

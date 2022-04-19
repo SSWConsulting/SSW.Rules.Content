@@ -5,6 +5,12 @@ uri: customize-dynamics-user-experience
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - url: https://www.ssw.com.au/people/adam-cogan
+    title: Adam Cogan
+  - title: Mehmet Ozdemir
+    url: https://www.ssw.com.au/people/mehmet
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson
 created: 2021-08-12T03:51:29.996Z
 guid: 316f6ebe-1734-4a82-a4b0-551de9040334
 ---
@@ -16,8 +22,10 @@ Use the power of [PCF controls](https://docs.microsoft.com/en-us/powerapps/devel
 
 PCF controls let you use your favourite web technologies to develop customized components. You can use React, Angular, Bootstrap, web apis and more 😎. You no longer have to worry about learning new and confusing frameworks, you've got the power back in your hands!
 
-![Figure: Take the power back with PCF controls!](wander-fleur-b5d0mqdz37u-unsplash.jpg)
+![Figure: PCF controls helps you easily generate intuitive interfaces, enhancing your Dynamics 365 apps](ux_v4.jpg)
 
 [PCF Gallery](https://pcf.gallery/) is a fantastic place to find all kinds of PCF controls that fit different use cases.
 
 See [Adam Cogan's blog post](https://adamcogan.com/2021/08/12/the-power-of-multi-select-multiple-options-on-forms/) or the video on [this rule](https://www.ssw.com.au/rules/allow-multiple-options) to see how PCF controls can be applied in the real world.
+
+See [this rule](https://www.ssw.com.au/rules/connect-crm-to-microsoft-teams) for examples of how PCF's can be used with teams to improve communications with clients.

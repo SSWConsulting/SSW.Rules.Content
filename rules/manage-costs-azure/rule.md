@@ -1,14 +1,16 @@
 ---
 type: rule
 title: Cost - Do you manage the cost of your Azure resources?
-uri: do-you-manage-costs-azure
+uri: manage-costs-azure
 authors:
-  - title: Kiki Biancatti
-    url: https://www.ssw.com.au/people/kiki
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kiki
 related:
   - do-you-have-an-azure-spend-master
 created: 2021-09-29T07:27:48.269Z
 guid: fc2201ed-c7cd-4be0-98b9-e2f5957788a7
+redirects:
+- do-you-manage-costs-azure
 ---
 Managing the monthly spend on cloud resources eg. Azure is hard. It gets harder for SysAdmins when developers add services without sending an email to aid in reconciliation.
 
@@ -27,12 +29,12 @@ For everyone to be on the same page, the process a developer should follow is:
    https://azure.microsoft.com/en-au/pricing/calculator
 2. Email SysAdmins with $ and a request to create resources in Azure, like the below: 
 
-::: email-template
-| | | 
-| -------- | --- | 
-| To: | SysAdmins | 
-| Subject: | Purchase Please - Azure Resource Request for xx |
-::: email-content
+::: email-template  
+|          |     |
+| -------- | --- |
+| To:      | SysAdmins |
+| Subject: | Purchase Please - Azure Resource Request for xx |  
+::: email-content  
 
 ### To SSWSysAdmins,
 
@@ -58,4 +60,5 @@ David
 
 <As per SSW Rule: https://www.ssw.com.au/rules/manage-costs-azure>
 
-:::
+:::  
+:::  

@@ -10,6 +10,7 @@ index:
 - untapped-keywords
 - optimize-videos-for-youtube
 - youtube-cards
+- premiere-pro-markers-as-youtube-chapter-links
 - do-you-add-end-screen-to-your-youtube-videos
 - video-thumbnails
 - where-to-upload-work-related-videos
@@ -17,6 +18,7 @@ index:
 - transcribe-your-videos
 - keep-audience-happy
 - monitor-youtube-analytics-and-metrics
+- do-you-create-polls-to-engage-with-your-subscribers
 
 ---
 

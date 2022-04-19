@@ -11,7 +11,7 @@ index:
 - the-best-applicant-tracking-system
 - does-your-ats-allow-you-to-import-your-candidates-from-any-source
 - do-you-know-the-main-features-of-linkedin-talent-hub
-- do-you-analyse-your-recruitment-data-to-improve-your-process
+- recruitment-data
 - make-newcomers-feel-welcome
 - prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
 - do-you-thoroughly-test-employment-candidates

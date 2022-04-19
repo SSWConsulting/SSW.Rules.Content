@@ -4,7 +4,7 @@ title: Rules to Better Entity Framework
 guid: 41ab6233-da17-4beb-8a07-30fb0edcdcbe
 uri: rules-to-better-entity-framework
 index:
-- when-to-use-entity-framework 
+- why-to-use-entity-framework 
 - only-get-the-rows-you-need
 - take-care-when-casting-iqueryable-to-ienumerable
 - use-asnotracking-for-readonly-queries
@@ -12,7 +12,7 @@ index:
 - avoid-using-update
 - only-explicitly-include-relationships-you-need
 - filter-data-server-side-where-possible
-- do-pagination-server-side
+- do-pagination-database-side
 - use-tagwith
 - ensure-testenvironment-is-representative-of-production
 - entity-framework-benchmark

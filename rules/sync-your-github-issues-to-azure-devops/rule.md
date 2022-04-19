@@ -19,14 +19,12 @@ You might be reluctant to move your backlog to GitHub from Azure DevOps as you d
 
 But you can easily sync all your GitHub Issues to Azure DevOps automatically to have the best of both worlds.
 
-
 <!--endintro-->
 
 Here's a quick guide in setting it up for your GitHub Repository and Azure DevOps.
 
 1. Install the [Azure Boards App](https://github.com/marketplace/azure-boards) from the GitHub Marketplace
 2. Create the GitHub Action secrets
-
 
 > * **ADO\_PERSONAL\_ACCESS\_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)
 > The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
@@ -40,9 +38,7 @@ Here's a quick guide in setting it up for your GitHub Repository and Azure DevOp
 
 3. Create the following GitHub Action
 
-e.g. SSW uses this template for their projects, you may need to change the new and closed states depending on your environment.
-
-
+E.g. SSW uses this template for their projects, you may need to change the new and closed states depending on your environment.
 
 ```
 name: Sync issue to Azure DevOps work item
@@ -67,36 +63,25 @@ jobs:
           ado_bypassrules: true
 ```
 
-
-
-
 ::: good
 Figure: Good Example - GitHub Action to Sync Issues to Azure DevOps
-
 :::
 
-![](GitHub-Issues-Syncing-to-AzDevOps.png)
-
 ::: good
-Figure: Good Example - GitHub Issues Syncing to Azure DevOps
-
-
+![Figure: Good Example - GitHub Issues Syncing to Azure DevOps](GitHub-Issues-Syncing-to-AzDevOps.png)
 :::
 
 ### Pros
 
-* Easily manage sprints and calculate burndown and cycle time
-* See all your GitHub Issues and Azure DevOps PBIs in one backlog
+* Easily manage Sprints and calculate burndown and cycle time
+* See all your GitHub Issues and Azure DevOps PBIs in one Backlog
 * Automated tagging and hyperlinking between Issues and PBIs
 
-
 ### Cons
-
 
 * The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog
 * It won’t sync existing GitHub Issues unless they are updated
 
- 
 More information about this GitHub Action can be found here https://github.com/danhellem/github-actions-issue-to-work-item
 
 To avoid people adding a PBI to the Azure DevOps, add a PBI at the top of your backlog to indicate that they should add it to GitHub issues.

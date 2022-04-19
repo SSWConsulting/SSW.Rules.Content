@@ -11,10 +11,10 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Rebecca Liu
     url: https://ssw.com.au/people/rebecca-liu
-  - title: Kiki Biancatti
-    url: https://www.ssw.com.au/people/kiki/
-  - url: https://www.ssw.com.au/people/josh-bandsma
-    title: Josh Bandsma
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Josh Bandsma
+    url: https://www.ssw.com.au/people/josh-bandsma
 related:
   - logon-do-you-have-a-company-wide-word-template
   - do-you-know-the-right-format-to-show-your-phone-number
@@ -23,9 +23,7 @@ redirects:
 created: 2015-11-02T20:01:33.000Z
 archivedreason: null
 guid: 9ba16834-8789-41b1-b64c-7c10e8ffb837
-
 ---
-
 Email signatures are a great way of adding some advertising and branding. You should **always use a nice email signature for external emails**. Internally, you may use a short one (just your name or initials).
 
 `youtube: https://www.youtube.com/embed/qwG8RA-cWy0`
@@ -34,28 +32,27 @@ Email signatures are a great way of adding some advertising and branding. You sh
 
 Full email signatures are great when they have:
 
-* A little  **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
-* Your  **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [Do you know the right format to show phone numbers?](/do-you-know-the-right-format-to-show-your-phone-number))
-* Your company  **website link** (e.g. www.ssw.com.au/)
+* A little **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
+* Your **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [Do you know the right format to show phone numbers?](/do-you-know-the-right-format-to-show-your-phone-number))
+* Your company **website link** (e.g. www.ssw.com.au/)
 * Your **social media** and **blog** link
 * Your **IM** link (E.g. [Teams](https://www.msoutlook.info/question/teams-chat-link-in-email-signature) or [Facebook Messenger](https://medium.com/@michael_at_message/getting-a-facebook-messenger-link-and-messenger-code-dc27ee70a172))
 * Your **position**
 * Your **location** (city/country) where you are based
 
 ::: info
-**Note:** You [can't add hyperlinks to signatures if you are using the Outlook App](https://outlook.uservoice.com/forums/293349-outlook-for-ios/suggestions/8632618-html-signatures) – what a shame.
+**Note:** You [can't add hyperlinks to signatures if you are using the Outlook App](https://answers.microsoft.com/en-us/outlook_com/forum/all/add-hyperlink-to-outlook-signature-on-iphone-and/56edcf68-a1ba-43c1-80cc-49b3248b25e8) – what a shame.
 :::
 
 ### Mobile Signature
 
-Use the "mobile signature" when sending emails from your phone. Mobile signatures are not easily customized so they can be simpler.
+Use the **mobile signature** when sending emails from your phone. Mobile signatures are not easily customized so they can be simpler.
 
 ::: greybox
 Get Outlook for Android
-
 :::
 ::: bad
-Figure: Bad example - This default signature sucks
+Figure: Bad example - The default signature
 :::
 
 ::: greybox
@@ -63,12 +60,12 @@ Thanks, Adam
 www.ssw.com.au    |   +61 4 1985 1995   |   [Ping me on Teams](https://teams.microsoft.com/l/chat/0/0?users=adamcogan@ssw.com.au)
 :::
 ::: good
-Figure: Good example – Add your name, URL and your phone number
+Figure: Good example – Custom signature with your name, URL and your phone number
 :::
 
 ### PC Long Signature (Big and Fancy)
 
-**Use the complete "long signature" when sending a new email or appointment to a client.**
+Use the complete **long signature** when sending a new email or appointment to a client.
 
 This is created in HTML and goes well on emails with Word used as the email editor. Include some product advertising, like what's new on your monthly newsletter. It should have the company colors.
 
@@ -78,7 +75,7 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 
 ### PC Short Signature
 
-Use a really short signature (your first name or initials) or no signature at all in internal emails  as people already know who you are. You may want to add a quick link to IM.
+Use a really **short signature** (your first name or initials) or no signature at all in internal emails  as people already know who you are. You may want to add a quick link to IM.
 
 ![Figure: PC Short Signature Example](adam-short-signature.jpg)
 
@@ -102,6 +99,10 @@ CodeTwo (and Exclaimer) give:
 5. Hassle-free setup – users do not need to touch any signatures on any devices. 
 
 ![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
+
+::: info 
+Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server-side version of CodeTwo.  Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures. 
+:::
 
 ### Option 2: Set it up manually (Free)
 
@@ -143,7 +144,7 @@ CodeTwo (and Exclaimer) give:
 5. Add your email signature and click "Save"
 
 ::: info
-**Warning:** Unfortunately you need to setup up your signature in Outlook and OWA. There is no way to share this.
+**Warning:** Unfortunately, you need to setup up your signature in Outlook and OWA. There is no way to share this.
 
 **SSW Only:** You can automatically have your Outlook signature changed on sign-in via a script. See https://github.com/SSWConsulting/LoginScript 
 

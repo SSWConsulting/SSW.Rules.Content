@@ -7,6 +7,7 @@ index:
 - do-you-know-how-to-edit-a-mail-merge-template
 - how-to-send-email-using-microsoft-dynamics-365-mail-merge-template
 - how-to-insert-crm-data-field-in-your-template
+- do-you-know-how-to-create-mail-merge-template-in-microsoft-crm-2011
 
 ---
 
