@@ -7,7 +7,6 @@ index:
 - manage-product-feedback
 - report-bugs-and-suggestions
 - definition-of-a-bug
-- reporting-net-applications-errors
 - fix-small-web-errors
 - reply-to-free-support-requests
 - todo-tasks
