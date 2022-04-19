@@ -24,6 +24,8 @@ index:
 - update-team-on-ppc-advertising-results
 - use-skags
 - use-both-english-spelling-on-google-ads
+redirects:
+- rules-to-better-google-ads
 
 ---
 
