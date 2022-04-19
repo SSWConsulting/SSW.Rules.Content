@@ -5,9 +5,6 @@ uri: image-standard-sizes-on-social-media
 authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
-  - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
   - do-you-share-when-you-upgrade-an-application
   - weed-out-spammers
@@ -60,7 +57,7 @@ On [Instagram](https://www.instagram.com/), we can have a lot of variations if w
 
 * Image post can now be a variation of a square, vertical or horizontal photo
 * Stories
-* IGTV
+* Reels
 * Profile image
 
 ### Facebook
@@ -96,6 +93,7 @@ Figure: Good Example – Our designer [David Berkes](https://www.ssw.com.au/peop
 * Business Profile image
 * Cover photo
 * Post image
+* LinkedIn stories post
 
 ### YouTube
 
@@ -104,3 +102,5 @@ On [YouTube](https://www.youtube.com/), you will find:
 * Profile image
 * Cover Photo
 * Video Thumbnail
+* Shorts
+* YouTube stories post
