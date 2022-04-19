@@ -106,4 +106,4 @@ will be sent to the JIT debugger registered on the machine
 rather than being handled by this dialog.\
 :::
 
-**Figure: This information has much useful information**
+**Figure: This information is way more useful**
