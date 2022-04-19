@@ -21,7 +21,7 @@ guid: 85289d17-263f-4045-87cb-fb1f7629c0f8
 
 The text within the 'Details' button is more useful for debugging and locating the problem.
 
-![Figure: Bug details window](../../assets/DotNetDebug2.gif)
+![Figure: Bug details window - Don't sent the screenshot ](../../assets/DotNetDebug2.gif)
 
 ::: greybox
 See the end of this message for details on invoking 
@@ -105,3 +105,5 @@ When JIT debugging is enabled, any unhandled exception
 will be sent to the JIT debugger registered on the machine
 rather than being handled by this dialog.\
 :::
+
+**Figure: This information has much useful information**
