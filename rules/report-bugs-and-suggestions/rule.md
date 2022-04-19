@@ -8,10 +8,6 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
-  - do-you-provide-details-when-reporting-net-applications-errors
-  - which-emojis-to-use-in-scrum
-  - when-you-use-mentions-in-a-pbi
-  - management-is-your-client-clear-on-the-definition-of-a-bug
   - important-chats-should-be-in-an-email
   - acceptance-criteria
 redirects:
@@ -36,9 +32,11 @@ When reporting bugs and giving product feedback, it is essential that you are as
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are. 
 
+See rules on [Do you have a clear definition of a bug?](https://www.ssw.com.au/rules/definition-of-a-bug)
+
 External source: [How to produce a good bug report](https://www.boxuk.com/insight/what-makes-a-good-bug-report/)
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
@@ -60,7 +58,7 @@ Susan
 Figure: Bad Example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
 :::
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
@@ -96,7 +94,7 @@ When possible, a great template to follow is the [Functional Bug template](https
 * Expected outcome, and 
 * Actual outcome
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | Danny |
@@ -115,7 +113,7 @@ Adam
 Figure: Bad example - Lack of details
 :::
 
-::: email-template  
+::: email-template\
 |          |     |
 | -------- | --- |
 | To:      | Danny |
@@ -157,9 +155,7 @@ Adam
 Figure: Good example - We can easily identify more the one way to improve the UX and there's a clear suggestion to action
 :::
 
-### Videos can make things extra clear
-
-Better than a good description is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
+Better than a good textual description of a bug report is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
 
@@ -167,15 +163,17 @@ Better than a good description is a screen recording. This should be followed fo
 Figure: Good example - Recording bug reports in a video can make the issue clearer to see
 :::
 
+### Tip 2: Draft your suggestion with the complaint and what you expect to see
+
+Define all the requirements as per [Do your User Stories include Acceptance Criteria?](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating)
+
+Better than a good textual description of a suggestion request is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
+
 `youtube: https://www.youtube.com/embed/VDZSfHJ7GNU`
 
 ::: good
-Figure: Good example - Giving feature requests via video
+Figure: Good example - Giving suggestion requests via video
 :::
-
-### Tip 2: Draft your suggestion with the complaint and what you expect to see
-
-Define all the requirements as per [Do your User Stories include Acceptance Criteria?](https://www.ssw.com.au/rules/do-your-user-stories-include-acceptance-criteria-aka-never-assume-automatic-gold-plating).
 
 ### Tip 3: Should you send this to the Product Owner or the Tech Lead?
 
@@ -199,13 +197,13 @@ Always go for backlog if you have access to a backlog management system otherwis
 
 ### Tip 5: Do you make it easy to find all the backlog in your company?
 
-![Figure: An intranet page with many “backlog” links to make it easy for everyone to find](do-you-know-how-to-report-bugs-and-give-suggestions.png)
+![Figure: An intranet page with links to projects’ backlog to make it easy for everyone to find. Note some projects have more than 1 backlog.](do-you-know-how-to-report-bugs-and-give-suggestions.png)
 
 ### Tip 6: Make sure when using backlog, the Product Owner will still get an email
 
 Create an Issue/PBI and @mention relevant people (GitHub and Azure DevOps will generate a nicely formatted email)
 
-See rules on [When you use mentions in a PBI](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi)
+See rules on [Do you know when you use @ mentions in a PBI?](https://www.ssw.com.au/rules/when-you-use-mentions-in-a-pbi)
 
 ### Tip 7: Separate PBIs
 
@@ -222,6 +220,6 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 * **🐛 Bug - Calendar is not showing on iOS devices**
 * **✨ Feature - Add 'Back to menu' item to top navigation**
 
-Check out the rule on [which emojis to use in Scrum](/which-emojis-to-use-in-scrum).
+Check out the rule on [Do you know which emojis to use in Scrum?](https://www.ssw.com.au/rules/which-emojis-to-use-in-scrum)
 
 **Tip:** [GitHub Issue Templates](/github-issue-templates) can help you with that.
