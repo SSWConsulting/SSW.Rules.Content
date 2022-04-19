@@ -36,7 +36,7 @@ See rules on [Do you have a clear definition of a bug?](https://www.ssw.com.au/r
 
 External source: [How to produce a good bug report](https://www.boxuk.com/insight/what-makes-a-good-bug-report/)
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
@@ -58,7 +58,7 @@ Susan
 Figure: Bad Example - This email isn't going to help the developer much - it is vague, has no screen capture or other details to help reproducing the error
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | info@ssw.com.au |
@@ -94,7 +94,7 @@ When possible, a great template to follow is the [Functional Bug template](https
 * Expected outcome, and 
 * Actual outcome
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Danny |
@@ -113,7 +113,7 @@ Adam
 Figure: Bad example - Lack of details
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Danny |
