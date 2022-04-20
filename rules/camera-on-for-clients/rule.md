@@ -10,7 +10,7 @@ related:
 created: 2022-04-20T01:17:16.259Z
 guid: fde03304-2706-4b26-a31e-5173ebd43459
 ---
-When working with clients, inevitably you'll find yourself in teams calls, and it's important to keep your front-facing camera on as much as possible. There's a lot of valuable information conveyed by your face and body language.
+When working with clients, inevitably you'll find yourself in Teams calls, and it's important to keep your front-facing camera on as much as possible. There's a lot of valuable information conveyed by your face and body language.
 
 * Facial expression and body language are important parts of communication, and help to convey your mood and intent
 * It's more friendly towards the other people in a call if they can see you as well as hear you. It feels a lot better to talk to a *person* than it does to a blank profile image
