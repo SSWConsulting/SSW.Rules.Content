@@ -22,7 +22,7 @@ Use the power of [PCF controls](https://docs.microsoft.com/en-us/powerapps/devel
 
 PCF controls let you use your favourite web technologies to develop customized components. You can use React, Angular, Bootstrap, web apis and more 😎. You no longer have to worry about learning new and confusing frameworks, you've got the power back in your hands!
 
-![Figure: PCF controls helps you easily generate intuitive interfaces, enhancing your Dynamics 365 apps](ux_v4.jpg)
+![Figure: PCF controls helps you easily generate intuitive interfaces, enhancing your Dynamics 365 apps](ux-v4.jpg)
 
 [PCF Gallery](https://pcf.gallery/) is a fantastic place to find all kinds of PCF controls that fit different use cases.
 
