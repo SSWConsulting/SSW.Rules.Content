@@ -60,7 +60,7 @@ When joining a new team, it's easy to be lost and not know when the important me
 ![Figure: Good Example - using the SharePoint tab](Good One.jpg) 
 :::
 
-**Suggestion to Microsoft:** [This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.](https://microsoftteams.uservoice.com/forums/555103-public/suggestions/36007027-add-a-team-calendar-to-teams-or-allow-a-project-te)
+**Suggestion to Microsoft:** This is an unnecessary extra hoop to jump through. If you create an appointment from a Team then this tab should be automatically created.
 
 ![Figure: As a bonus, I can the event to my calendar](team meetings - add yourself.jpg)  
 
