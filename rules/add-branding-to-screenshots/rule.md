@@ -34,6 +34,6 @@ See some examples of different visual elements under same branding:
 
 ### More Information on SSW Branding
 
-You can automatically have your SSW Snagit presets on sign-in via a script. See https://github.com/SSWConsulting/LoginScript.
+You can automatically have the [SSW Snagit presets on sign-in via a script](https://github.com/SSWConsulting/SSWSysAdmins.LoginScript).
 
 Instructions to create and use Snagit themes can be found at [Quick Style Themes Tutorial](https://www.techsmith.com/tutorial-snagit-13-quick-style-themes.html).
