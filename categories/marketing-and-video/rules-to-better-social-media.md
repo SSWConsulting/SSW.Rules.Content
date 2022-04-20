@@ -38,6 +38,7 @@ index:
 - do-you-know-the-best-practices-for-your-twitter-ads
 - do-you-know-to-thank-others-for-each-reference-to-you
 - tweet-rules-you-follow
+- twitter-tip-content-creators
 - avoid-dates-text-in-graphics-for-events
 - profile-photos
 - manage-your-photos
