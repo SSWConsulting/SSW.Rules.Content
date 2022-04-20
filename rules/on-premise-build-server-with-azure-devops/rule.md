@@ -20,16 +20,13 @@ If you are using [Azure DevOps](https://dev.azure.com/), there's an awesome [Hos
 
 <!--endintro-->
 
-To reduce your build costs, you could reduce the number of builds or try to reduce the build time. Continuous integration is very important so you don't want to turn that off, and [we encourage checking in early and often](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSourceControlwithTFS.aspx#CheckinRegularly). Reducing the build time is a nice idea, but you can't always reduce it enough to make a difference.
+To reduce your build costs, you could reduce the number of builds or try to reduce the build time. Continuous integration is very important so you don't want to turn that off, and [we encourage checking in early and often](/do-you-know-to-get-visual-studio-to-remind-you-to-check-in). Reducing the build time is a nice idea, but you can't always reduce it enough to make a difference.
 
 For large, expensive projects, the best option is to configure an on-premises build server rather than using hosted builds.
 
-To configure an on-premises build server for Azure DevOps, check out Anthony Borton's great walkthrough:
-
-http://myalmblog.com/2014/04/13/configuring-on-premises-build-server-for-visual-studio-online/
+To configure an on-premises build server for Azure DevOps, check out [Anthony Borton's great walkthrough](https://anthonyborton.com/2014/04/configuring-on-premises-build-server-for-visual-studio-online/).
 
 Once you have a build server configured, you'll be able to see the build controller as an option when you configure a new build definition.
-
 
 ::: good  
 ![Figure: Good Example - We have the option of an on-premises build controller as well as the Hosted Build controller](vso\_build.png)  
