@@ -18,10 +18,10 @@ When designing components, keep them small, modular and reusable. For example, i
 
 <!--endintro-->
 
-::: bad\
-![Figure: Bad example - Having just 3 components for the page makes it difficult to reuse, maintain and test](comp-1.png)\
+::: bad
+![Figure: Bad example - Having just 3 components for the page makes it difficult to reuse, maintain and test](comp-1.png)
 :::
 
-::: good\
-![Figure: Good example - Splitting up the page into 11 components means they are small and targeted - and thus easy to maintain and test. Components can be reused on other pages](comp-2.png)\
+::: good
+![Figure: Good example - Splitting up the page into 11 components means they are small and targeted - and thus easy to maintain and test. Components can be reused on other pages](comp-2.png)
 :::
