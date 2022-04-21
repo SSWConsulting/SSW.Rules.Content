@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Twitter - Do you know to thank others for each reference to you?
-uri: do-you-know-to-thank-others-for-each-reference-to-you
+uri: thank-others-for-each-reference-to-you
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
