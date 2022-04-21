@@ -13,10 +13,7 @@ redirects:
 
 ---
 
+Prepare for the future of web development by checking out these Blazor learning resources.
 
 
-Jasons talk
-Lukes talk
-Blazor superpowers
-Blazor Train
-Blazor WASM by Example book 
+<!--   -->
