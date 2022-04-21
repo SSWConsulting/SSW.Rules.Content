@@ -47,11 +47,11 @@ Only receptionists should have SkypePOP installed.
 
 `youtube: https://www.youtube.com/embed/5tapdkp1vDg`
 
-1. Download and install SkypePOP from     [the official website](http://www.appvnet.com/)
+1. Download and install [SkypePOP](https://www.skypepop.com/)
 
 2. Open the **Connections** settings
 
-![Figure: Right click on the SkypePOP icon in the taskbar](2016-11-18_16-35-15.jpg" alt="3.jpg)
+![Figure: Right click on the SkypePOP icon in the taskbar](2016-11-18_16-35-15.jpg)
 
 3. Add your CRM connection details
 
