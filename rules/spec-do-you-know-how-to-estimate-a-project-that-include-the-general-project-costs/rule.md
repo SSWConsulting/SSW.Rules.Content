@@ -52,5 +52,5 @@ SSW has built an estimates calculator to assist in creating estimates. See the 
 If the client requires a fixed price quotation, a 20% premium is added to the estimates for the sprints specified in the Specification Release only (i.e. a fixed price is not given on the entire project). Requests for variations to a fixed price contract must wait until the contract is completed. If development is based on a fixed price contract, work is completed offsite only to facilitate project management and prevent unauthorized scope development.
 
 ::: greybox
-**Note:** A suggestion for Microsof - It would be great if Azure DevOps had functionality to “Add Standard Items" to a Sprint.
+**Note:** A suggestion for Microsoft - It would be great if Azure DevOps had functionality to “Add Standard Items" to a Sprint.
 :::
