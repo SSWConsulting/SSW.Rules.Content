@@ -17,6 +17,7 @@ redirects: []
 created: 2009-03-18T02:12:35.000Z
 archivedreason: null
 guid: 48a1a8df-43bd-4626-a14f-8c53e1ce278a
+
 ---
 
 The findings of the Spec Review should be presented by the developers and the Account Manager at a meeting with the key decision makers of the project for review and acceptance, generally in the form of a PowerPoint presentation, or sometimes a word doc. It is important that all the required people are in a room together to review the plan.
@@ -54,14 +55,17 @@ Figure: Good example – this is an appointment with a specific time for the nex
 * **Option B** - Word document (if they need to get approval from someone higher up)
 
 * **Option C** - PowerPoint presentation (if they are the decision maker, and they don't want a doc)
+
   ::: good  
   ![Figure: Good example - Export your PowerPoint presentation as a video](3-01-2014 10-13-04 PM.png)  
   :::
 
-* **Option D** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. PointBank https://sswconsulting.github.io/PointBank/).  
+* **Option D** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. PointBank https://sswconsulting.github.io/PointBank/)
+
   ::: greybox
   **Note:** Make sure to name your video according to [including version numbers in your file](/post-production-do-you-use-a-version-number-on-your-videos). Publish your video to YouTube afterwards so you can easily share it with colleagues and clients.
-
+  :::
+  
   #### Video Examples 
 
   `youtube: https://www.youtube.com/embed/nywSzMhkZV4`
