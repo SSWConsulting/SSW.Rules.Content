@@ -7,6 +7,10 @@ authors:
     url: https://ssw.com.au/people/jack-pettit
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
+  - title: Bryden Oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 created: 2022-04-21T02:00:21.340Z
 guid: 1138a4e5-0e41-4e7b-9e6b-da17831d9a4f
 
