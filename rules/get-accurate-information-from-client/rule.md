@@ -1,7 +1,7 @@
 ---
 type: rule
 title: "Spec – Do you know how to get accurate information from a client? "
-uri: get-accurate-information-from-client
+uri: get-accurate-information
 authors:
   - title: Jack Pettit
   - title: Piers Sinclair
