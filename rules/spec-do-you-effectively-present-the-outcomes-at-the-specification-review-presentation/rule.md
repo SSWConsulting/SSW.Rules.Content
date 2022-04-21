@@ -17,9 +17,7 @@ redirects: []
 created: 2009-03-18T02:12:35.000Z
 archivedreason: null
 guid: 48a1a8df-43bd-4626-a14f-8c53e1ce278a
-
 ---
-
 The findings of the Spec Review should be presented by the developers and the Account Manager at a meeting with the key decision makers of the project for review and acceptance, generally in the form of a PowerPoint presentation, or sometimes a word doc. It is important that all the required people are in a room together to review the plan.
 
 <!--endintro-->
@@ -66,18 +64,18 @@ Figure: Good example – this is an appointment with a specific time for the nex
   **Note:** Make sure to name your video according to [including version numbers in your file](/post-production-do-you-use-a-version-number-on-your-videos). Publish your video to YouTube afterwards so you can easily share it with colleagues and clients.
   :::
   
-  #### Video Examples 
+#### Video Examples 
 
-  `youtube: https://www.youtube.com/embed/nywSzMhkZV4`
+`youtube: https://www.youtube.com/embed/nywSzMhkZV4`
 
-  ::: good
-  Figure: Good example – FireBootCamp - SugarLearning Specification Video      
-  :::
+::: good
+Figure: Good example – FireBootCamp - SugarLearning Specification Video      
+:::
 
-  `youtube: https://www.youtube.com/embed/VhWPZERUiYg`
+`youtube: https://www.youtube.com/embed/VhWPZERUiYg`
 
-  ::: good
-  Figure: Good example – FireBootCamp - TimePro Invoicing Specification Video  
-  :::
+::: good
+Figure: Good example – FireBootCamp - TimePro Invoicing Specification Video  
+:::
 
 Once again, the presentation needs to pass a '[test please](/conduct-a-test-please-internally-and-then-with-the-client)' from another senior employee before the meeting takes place.
