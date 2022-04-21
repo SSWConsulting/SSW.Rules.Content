@@ -10,8 +10,10 @@ guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 ---
 Spec Reviews can be a long process and not being able to talk with the relevant parties that hold the vision and the budget can cause a bump in the road.        
 
+Stakeholders are the people with the business requirements or people with the $ purse strings. They are not the devs.
+
 <!--endintro-->
 
 When organizing the Spec Review be assertive and make sure that all stakeholders will be available. There is no point in holding a Spec Review if the stakeholders aren't present to make sure the business requirements are met. 
 
-Make sure the stakeholders are aware of what is needed ahead of time. If all relevant stakeholders aren’t available, be sure to warn that this will cause significant issues down the line. Remember if no one in the Spec Review holds both the budget and vision, the product that you write up will look a lot different to what the business really needs.
+Make sure the stakeholders are aware of what is needed ahead of time. If all relevant stakeholders aren’t available, be sure to warn that this will cause issues down the line. Remember if no one in the Spec Review holds both the budget and vision, the product that you write up will look a lot different to what the business really needs.
