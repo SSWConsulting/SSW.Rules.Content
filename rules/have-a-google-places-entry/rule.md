@@ -15,7 +15,9 @@ redirects:
 
 ---
 
-With Google's [increased emphasis on local search](https://googleblog.blogspot.com/2010/10/place-search-faster-easier-way-to-find.html) and [promoting local services](http://www.seobook.com/localization), it is important that companies have a Google My Business entry so that their businesses can be found easily in searches. [Add your business](https://business.google.com/locations).
+With Google's [increased emphasis on local search](https://googleblog.blogspot.com/2010/10/place-search-faster-easier-way-to-find.html) and [promoting local services](http://www.seobook.com/localization), it is important that companies have a **Google My Business** entry so that their businesses can be found easily in searches. 
+
+Login using you business administrator account and [add your business](https://business.google.com/locations).
 
 <!--endintro-->
 
