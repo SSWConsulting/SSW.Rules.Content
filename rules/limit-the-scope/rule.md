@@ -13,14 +13,14 @@ There are a few things you can do to control the scope of the project and delive
 
 <!--endintro-->
 
-### Tip 1: Flag Problematic tasks as soon as possible
+### Tip 1: Flag problematic tasks as soon as possible
 
-If a feature is going to take a long time or isn't going to deliver much business value  make sure to flag it to the client and make sure it really is a priority. Explain that you can always deliver the feature at a later date after the go live. By following these steps only the features in the initial project are developed, saving the client time and money.
+If a feature is going to take a long time or isn't going to deliver much business value, make sure to flag it to the client and make sure it really is a priority. Explain that you can always deliver the feature at a later date after they go live. By following these steps, only the features in the initial project are developed, saving the client time and money.
 
 ### Tip 2: Estimate as you go
 
-When you are doing a Spec Review make sure you estimate tasks as you go. That way you can flag problematic tasks as soon as possible. Once you estimate a task get another developer to check it incase you missed anything.
+When you are doing a Spec Review, make sure you estimate tasks as you go. That way you can flag problematic tasks as soon as possible. Once you estimate a task, get another developer to check it incase you missed anything.
 
 ### Tip 3: Flesh out requirements
 
-If an estimate looks high, the requirements might not be fully fleshed out. Double check if the requirements are clear enough otherwise follow-up with the client to discuss further.
+If an estimate looks high, the requirements might not be fully fleshed out. Double check if the requirements are clear enough, otherwise follow-up with the client to discuss further.
