@@ -5,10 +5,11 @@ uri: spec-add-value
 authors:
   - title: Jack Pettit
     url: https://ssw.com.au/people/jack-pettit
+related: []
+redirects:
+  - spec-do-you-add-value
 created: 2022-04-21T02:42:50.085Z
 guid: 3c060faf-9f90-478f-8b29-a1f4249dd6b6
-related: 
-  - spec-do-you-add-value
 ---
 
 The most important part of being in a Spec Review is adding value to the conversations. How do you make sure that your presence is adding value to the discussion and the product? 
