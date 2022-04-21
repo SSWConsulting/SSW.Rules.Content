@@ -7,7 +7,7 @@ authors:
 created: 2022-04-21T02:42:50.085Z
 guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 ---
-The most important part of being in a Spec Review is adding value to the conversations. How do you make sure that your presence is adding value to the discussion and the feature? 
+The most important part of being in a Spec Review is adding value to the conversations. How do you make sure that your presence is adding value to the discussion and the product? 
 
 Here are some tips:
 
@@ -16,19 +16,19 @@ Here are some tips:
 
 ### Tip 1: Know when to speak up
 
-Knowing when to speak up can be one of the most difficult tasks for some people. Often when talking in a group, finding a spot to add in a point is difficult. When you have a question or something of value to add try using the phrase, "Before we move on..." or use the Teams hand 👋 feature. If you don't speak up important information might be missed or features may be left unrefined.
+Knowing when to speak up can be one of the most difficult tasks for some people. Often when talking in a group, finding a spot to add in a point is difficult. When you have a question or something of value to add, try using the phrase, "Before we move on..." or use the Teams hand 👋 feature. If you don't speak up, important information might be missed or features may be left unrefined.
 
 ### Tip 2: Think of other developers
 
-Sometimes you might not have all the expertise to architect a clients solution. If you need outside expertise, remember that you can ask quick questions to other developers. You can let the client know that this isn't your specialty and that you'll ask a specialist and get back to them shortly.
+Sometimes you might not have all the expertise to architect a clients' solution. If you need outside expertise, remember that you can ask quick questions to other developers. You can let the client know that this isn't your specialty and that you'll ask a specialist and get back to them shortly.
 
 ### Tip 3: Recommend already made solutions
 
-Talk about already made solutions, there are often already made solutions to these very same problems. Be sure to have a Google beforehand. Present the Pros and Cons of these against a bespoke solution. Sometimes the ready made solution solves their problem without any further work required.    
+Talk about already made solutions. There are often already made solutions to these very same problems. Be sure to Google beforehand. Present the Pros and Cons of these against a bespoke solution. Sometimes the ready-made solution solves their problem without any further work required.    
 
 ### Tip 4: Refine the problematic requirements
 
-Talk about the most problematic parts, these are the areas that should have the most details so make sure everybody is fully aligned about what is required.
+Talk about the most problematic parts. These are the areas that should have the most details, so make sure everybody is fully aligned about what is required.
 
 ### Tip 5: Don't be afraid to double check a requirement
 
