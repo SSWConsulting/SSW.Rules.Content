@@ -36,7 +36,7 @@ index:
 - change-your-twitter-name-when-travelling
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
 - do-you-know-the-best-practices-for-your-twitter-ads
-- do-you-know-to-thank-others-for-each-reference-to-you
+- thank-others-for-each-reference-to-you
 - tweet-rules-you-follow
 - twitter-tip-content-creators
 - avoid-dates-text-in-graphics-for-events
