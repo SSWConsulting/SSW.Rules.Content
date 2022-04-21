@@ -40,7 +40,7 @@ To connect your Microsoft account
 
 :::
 
-3. Follow the prompts to sign in to LinkedIn, and allow access to your account
+3. Follow the prompt to sign in to LinkedIn, and allow access to your account
 4. Hover over your name again, click the LinkedIn logo and see your profile appear
 
 You can also check this within LinkedIn. go to **LinkedIn | Settings | Account Preferences | Account Management | [Microsoft](https://www.linkedin.com/psettings/microsoft-accounts)**, and view your account connection.
