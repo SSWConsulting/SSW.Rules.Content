@@ -5,8 +5,8 @@ uri: have-a-clear-mission-statement
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - url: https://ssw.com.au/people/uly
-    title: Ulysses Maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
   - title: Penny Walker
     url: https://ssw.com.au/people/penny-walker
 related:

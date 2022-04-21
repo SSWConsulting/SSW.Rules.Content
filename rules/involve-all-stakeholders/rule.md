@@ -5,7 +5,7 @@ title: Spec – Do you make sure that all stakeholders are involved in the Spec
 uri: involve-all-stakeholders
 authors:
   - title: Jack Pettit
-  - url: https://ssw.com.au/people/jack-pettit
+    url: https://ssw.com.au/people/jack-pettit
 created: 2022-04-21T02:36:16.736Z
 guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 redirects:
