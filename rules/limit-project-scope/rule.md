@@ -5,6 +5,12 @@ uri: limit-project-scope
 authors:
   - title: Jack Pettit
     url: https://ssw.com.au/people/jack-pettit
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+  - title: Bryden Oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 created: 2022-04-21T03:32:20.046Z
 guid: ad170dc9-c14f-42cd-8ac5-de50c98213a3
 redirects:
