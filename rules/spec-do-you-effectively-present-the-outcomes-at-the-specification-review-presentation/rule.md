@@ -49,35 +49,31 @@ Figure: Good example – this is an appointment with a specific time for the nex
 
 ### What does the client get at the conclusion of the Spec Review? 
    
-* **Option A** - Email (if they want to minimize documentation time), or
-* **Option B** - Word document (if they need to get approval from someone higher up), or
+* **Option A** - Email (if they want to minimize documentation time)
+
+* **Option B** - Word document (if they need to get approval from someone higher up)
+
 * **Option C** - PowerPoint presentation (if they are the decision maker, and they don't want a doc)
-* **Option D** - Video of  PowerPoint presentation with narrations **exported to a video**  (the best option to gather more feedback, you can even gather public feedback E.g. PointBank https://sswconsulting.github.io/PointBank/).
-Make sure to name your video according to the rules on [How to Include Version Numbers in Your File](/post-production-do-you-use-a-version-number-on-your-videos), and add a version number to it by following the rule on How to Use a Version Number on Your Videos. Publish your video to YouTube afterwards so you can easily share it with colleagues and clients.
+  ::: good  
+  ![Figure: Good example - Export your PowerPoint presentation as a video](3-01-2014 10-13-04 PM.png)  
+  :::
 
-::: good  
-![Figure: Good example - Export your PowerPoint presentation as a video](3-01-2014 10-13-04 PM.png)  
-:::
+* **Option D** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. PointBank https://sswconsulting.github.io/PointBank/).  
+  ::: greybox
+  **Note:** Make sure to name your video according to [including version numbers in your file](/post-production-do-you-use-a-version-number-on-your-videos). Publish your video to YouTube afterwards so you can easily share it with colleagues and clients.
 
-### Video Examples 
-  
-`youtube: https://www.youtube.com/embed/sPMT6Udh7rQ`
+  #### Video Examples 
 
-::: good
-Figure: Good example – FireBootCamp - Scrum Commitments Specification Video        
-:::
+  `youtube: https://www.youtube.com/embed/nywSzMhkZV4`
 
-`youtube: https://www.youtube.com/embed/nywSzMhkZV4`
+  ::: good
+  Figure: Good example – FireBootCamp - SugarLearning Specification Video      
+  :::
 
-::: good
-Figure: Good example – FireBootCamp - SugarLearning Specification Video      
-:::
+  `youtube: https://www.youtube.com/embed/VhWPZERUiYg`
 
-`youtube: https://www.youtube.com/embed/VhWPZERUiYg`
-
-::: good
-Figure: Good example – FireBootCamp - TimePro Invoicing Specification Video  
-:::
-
+  ::: good
+  Figure: Good example – FireBootCamp - TimePro Invoicing Specification Video  
+  :::
 
 Once again, the presentation needs to pass a '[test please](/conduct-a-test-please-internally-and-then-with-the-client)' from another senior employee before the meeting takes place.
