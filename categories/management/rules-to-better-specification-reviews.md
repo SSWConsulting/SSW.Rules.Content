@@ -13,6 +13,10 @@ index:
 - specification-levels
 - spec-do-you-start-the-work-soon-after-the-specification-review
 - spec-do-you-use-user-stories
+- involve-all-stakeholders
+- get-accurate-information
+- limit-project-scope
+- spec-add-value
 
 ---
 
