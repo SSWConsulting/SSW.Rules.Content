@@ -4,12 +4,13 @@ title: Spec – Do you know how to limit project scope?
 uri: limit-project-scope
 authors:
   - title: Jack Pettit
-  - url: https://ssw.com.au/people/jack-pettit
+    url: https://ssw.com.au/people/jack-pettit
 created: 2022-04-21T03:32:20.046Z
 guid: ad170dc9-c14f-42cd-8ac5-de50c98213a3
 redirects:
   - limit-the-scope
 ---
+
 A client will often ask for more features than are really necessary for the MVP. They may also think that implementing a feature is easier than it is. 
 
 There are a few things you can do to control the scope of the project and deliver the client the most value.
