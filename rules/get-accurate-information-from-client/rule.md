@@ -8,7 +8,7 @@ authors:
 created: 2022-04-21T02:00:21.340Z
 guid: 1138a4e5-0e41-4e7b-9e6b-da17831d9a4f
 ---
-Getting accurate information from a client during a Spec Review can drastically decrease the $ cost of the project.  Accurately refining the product avoids waste. 
+Getting accurate information from a client during a Spec Review ensures that the full scope of the project is captured and there are no surprises later on. Accurately refining the product avoids waste. 
 
 <!--endintro-->
 
