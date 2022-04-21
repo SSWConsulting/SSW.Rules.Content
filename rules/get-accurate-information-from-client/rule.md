@@ -4,6 +4,7 @@ title: "Spec – Do you know how to get accurate information from a client? "
 uri: get-accurate-information-from-client
 authors:
   - title: Jack Pettit
+  - title: Piers Sinclair
 created: 2022-04-21T02:00:21.340Z
 guid: 1138a4e5-0e41-4e7b-9e6b-da17831d9a4f
 ---
