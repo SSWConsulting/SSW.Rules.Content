@@ -5,6 +5,7 @@ guid: e7bd429d-10df-4d73-b479-cd20afcc8091
 uri: rules-to-better-scrum
 index:
 - getting-started-have-you-read-the-scrum-guide
+- technical-overview
 - do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
 - 8-steps-to-scrum
 - scrum-master-do-you-schedule-the-3-meetings
