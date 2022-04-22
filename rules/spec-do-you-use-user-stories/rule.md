@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Spec - Do you use User Stories format when appropriate?
+title: Do you use User Stories format when appropriate?
 uri: spec-do-you-use-user-stories
 authors:
   - title: Adam Cogan
