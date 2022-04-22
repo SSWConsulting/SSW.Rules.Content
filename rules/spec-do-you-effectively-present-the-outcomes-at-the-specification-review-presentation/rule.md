@@ -78,4 +78,4 @@ Figure: Good example – FireBootCamp - SugarLearning Specification Video
 Figure: Good example – FireBootCamp - TimePro Invoicing Specification Video  
 :::
 
-Once again, the presentation needs to pass a '[test please](/conduct-a-test-please-internally-and-then-with-the-client)' from another senior employee before the meeting takes place.
+Once again, the presentation needs to pass a '[Test Please](/conduct-a-test-please-internally-and-then-with-the-client)' from another senior employee before the meeting takes place.
