@@ -6,6 +6,12 @@ uri: involve-all-stakeholders
 authors:
   - title: Jack Pettit
     url: https://ssw.com.au/people/jack-pettit
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+  - title: Bryden Oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 created: 2022-04-21T02:36:16.736Z
 guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 redirects:
