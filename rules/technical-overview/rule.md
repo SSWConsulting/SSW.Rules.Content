@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Rules to having a good technical overview
+title: Do you have a good technical overview?
 uri: technical-overview
 authors:
   - title: Bryden Oliver
