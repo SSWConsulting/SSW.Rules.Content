@@ -33,7 +33,6 @@ This person's objectives should include the following:
 4. Give big picture feedback highlighting the requirements that often get missed, encouraging the Product Owner to decide which items are most important in their context. The most common of these are:
     - Performance
     - Cost
-
     - Scale
     - Reliability
     - Availability
