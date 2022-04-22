@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Spec - Do you know how to give the customer a ballpark?
+title:Do you know how to give the customer a ballpark?
 guid: 1ac29d3d-fc89-462a-b0c5-d17c6889e66c
 uri: spec-do-you-know-how-to-give-the-customer-a-ballpark
 created: 2009-11-04T08:35:51.0000000Z
