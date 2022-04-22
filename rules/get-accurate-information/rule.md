@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Spec – Do you know how to get accurate information from a client?
+title: Do you know how to get accurate information from clients?
 uri: get-accurate-information
 authors:
   - title: Jack Pettit
