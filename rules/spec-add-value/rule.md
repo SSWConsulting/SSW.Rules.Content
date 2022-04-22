@@ -5,6 +5,12 @@ uri: spec-add-value
 authors:
   - title: Jack Pettit
     url: https://ssw.com.au/people/jack-pettit
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+  - title: Bryden Oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - spec-do-you-add-value
