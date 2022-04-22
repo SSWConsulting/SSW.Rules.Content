@@ -16,7 +16,7 @@ guid: e9a156f4-f518-4ea9-924a-42811ee10e48
 ---
 When running a project, having someone with a high level view of the project is extremely valuable. That person is much more likely to notice broader problems and be able to act to correct them. 
 
-It is highly effective to have this person attend Sprint Reviews and Planning. Attending Daily Scrums is also valuable but not essential; even attending occasionally has value. 
+It is highly effective to have this person attend Sprint Reviews and Planning. Attending Daily Scrums is also valuable but not essential; even attending occasionally has value. They could potentially also act as Scrum Master, but in many organizations they do not. 
 
 This person's objectives should include the following:
 
