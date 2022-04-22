@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Spec – Do you know how to add value to a Spec Review?
+title: Do you know how to add value to a Specification Review?
 uri: spec-add-value
 authors:
   - title: Jack Pettit
