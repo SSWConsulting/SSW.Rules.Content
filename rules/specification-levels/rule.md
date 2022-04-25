@@ -41,9 +41,9 @@ The details have been fleshed out and allow developers to write Functional and T
 
 * We need a login page for northwind.com
 * Must match existing site look and feel
-* Username is already in the Users table in the ABC database (SQL Server 2008)
+* Username is already in the Users table in the ABC database (SQL Server)
 * Password should be at least 8 characters
-* .NET 4 is already used for the existing site so that is what this should use of course
+* .NET is already used for the existing site so that is what this should use of course
 
 ![Figure: Detailed Requirements have more of the details you want](LoginInterface.jpg)
 
