@@ -20,4 +20,10 @@ Here are the steps to send a message to yourself on Teams:
 4. You should see a new conversation next to all your other groups and private chats. 
 5. Pin it, and now you have a wall for your thoughts. 💭🧱
 
+:::: bad
+![Figure: Sending a file to a colleague just to save it is not the best way as you might disrupt someone's work](just-me-example.png)
+::::
+
+:::: good
 ![Figure: Easily send photos or things you need to remember to yourself using your phone](just-me-example.png)
+::::
