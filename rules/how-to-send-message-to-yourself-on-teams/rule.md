@@ -21,7 +21,10 @@ Here are the steps to send a message to yourself on Teams:
 5. Pin it, and now you have a wall for your thoughts. 💭🧱
 
 :::: bad
-![Figure: Sending a file to a colleague just to save it is not the best way as you might disrupt someone's work](just-me-example.png)
+
+![Figure: Sending a file to a colleague just to save it is not the best way as you might disrupt someone's work](just-me-bad-example.png)
+
+
 ::::
 
 :::: good
