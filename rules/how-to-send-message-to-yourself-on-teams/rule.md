@@ -14,19 +14,16 @@ If often you see yourself trying to find an easy way to share an image or a note
 
 Here are the steps to send a message to yourself on Teams: 
 
-1. Schedule a meeting with just yourself and give it a title like “Just me” or anything similar that is obvious to you. 
-2. Open the meeting request like any other meeting on Teams. 
-3. Open the chat feature and write yourself a “test” message. 
-4. You should see a new conversation next to all your other groups and private chats. 
-5. Pin it, and now you have a wall for your thoughts. 💭🧱
+1. Schedule a meeting with just yourself and give it a title like “Just me” or anything similar that is obvious to you
+2. Open the meeting request like any other meeting on Teams
+3. Open the chat feature and write yourself a “test” message 
+4. You should see a new conversation next to all your other groups and private chats 
+5. Pin it, and now you have a wall for your thoughts 💭 🧱
 
-:::: bad
+::: bad
+![Figure: Bad example - Sending a file to a colleague just to save it is not the best way as you might disrupt someone's work](just-me-bad-example.png)
+:::
 
-![Figure: Sending a file to a colleague just to save it is not the best way as you might disrupt someone's work](just-me-bad-example.png)
-
-
-::::
-
-:::: good
-![Figure: Easily send photos or things you need to remember to yourself using your phone](just-me-example.png)
-::::
+::: good
+![Figure: Good example - Easily send photos or things you need to remember to yourself using your phone](just-me-example.png)
+:::
