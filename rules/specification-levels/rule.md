@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Spec - Do you know how thorough your customer's specifications are?
+title: Do you know how thorough your customer's specifications are?
 guid: 4e313ea3-4b70-41fd-b579-10f76f5ee919
 uri: specification-levels
 created: 2011-02-28T08:25:37.0000000Z

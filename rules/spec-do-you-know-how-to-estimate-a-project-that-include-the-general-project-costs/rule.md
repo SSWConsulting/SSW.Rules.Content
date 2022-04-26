@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Spec - Do you know how to estimate a Project (include the 'General Project Costs')?
+title: Do you know how to estimate a Project including 'General Project Costs'?
 guid: c7fa5a0d-0be1-46f7-8100-ebf27cec9b23
 uri: spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs
 created: 2009-09-16T02:44:19.0000000Z

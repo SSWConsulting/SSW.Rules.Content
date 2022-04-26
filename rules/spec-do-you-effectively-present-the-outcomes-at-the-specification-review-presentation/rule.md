@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Spec - Do you effectively present the outcomes at the "Specification
-  Review Presentation"?
+title: Do you effectively present the outcomes at the Specification Review presentation?
 uri: spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
 authors:
   - title: Adam Cogan

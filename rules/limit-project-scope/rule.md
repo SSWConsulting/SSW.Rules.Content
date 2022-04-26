@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Spec – Do you know how to limit project scope?
+title: Do you limit the project scope?
 uri: limit-project-scope
 authors:
   - title: Jack Pettit
