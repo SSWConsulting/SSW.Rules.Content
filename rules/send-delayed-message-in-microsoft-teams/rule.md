@@ -16,5 +16,6 @@ Here is a practical and useful add-in tool on Teams called ‘[Send Later](https
 
 You will be able to schedule the exact date and time your message/post is sent. It can be used for free with up to 2 users, each having a daily limit of 10 scheduled messages. 
 
-:::: good
+::: good
 ![Figure: Scheduled/sent messages using Send Later](send-later-message-example.png)
+:::
