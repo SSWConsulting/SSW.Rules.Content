@@ -1,22 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know when to use an on-premises build server with Azure DevOps?
-guid: 3ef53ffe-23ec-452a-83ac-c57b307febb7
 uri: on-premise-build-server-with-azure-devops
-created: 2014-08-25T05:28:30.0000000Z
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related:
-- do-you-use-the-best-deployment-tool
-- do-you-estimate-all-tasks-at-the-start-of-the-sprint
+  - do-you-use-the-best-deployment-tool
+  - do-you-estimate-all-tasks-at-the-start-of-the-sprint
 redirects:
-- do-you-know-when-to-use-an-on-premises-build-server-with-visual-studio-online
-
+  - do-you-know-when-to-use-an-on-premises-build-server-with-visual-studio-online
+created: 2014-08-25T05:28:30.000Z
+archivedreason: null
+guid: 3ef53ffe-23ec-452a-83ac-c57b307febb7
 ---
 
-If you are using [Azure DevOps](https://dev.azure.com/), there's an awesome [Hosted Build Server](https://devblogs.microsoft.com/bharry/configuring-a-build-server-against-your-shiny-new-hosted-tfs-account/) option you can use to perform your builds with little to no setup. But if you're working on a project that has continuous integration and a long build time, it's not long before those build minutes start to add up.
+If you are using [Azure DevOps](https://azure.microsoft.com/en-us/services/devops), there's an awesome [Hosted Build Server](https://devblogs.microsoft.com/bharry/configuring-a-build-server-against-your-shiny-new-hosted-tfs-account/) option you can use to perform your builds with little to no setup. But if you're working on a project that has continuous integration and a long build time, it's not long before those build minutes start to add up.
 
 <!--endintro-->
 
