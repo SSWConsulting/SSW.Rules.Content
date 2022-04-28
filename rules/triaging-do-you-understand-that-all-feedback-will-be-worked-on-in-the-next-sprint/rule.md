@@ -17,4 +17,4 @@ At the beginning of a Sprint, the team will commit to getting a certain subset o
 
 <!--endintro-->
 
-To aid with this, any new requests or feedback received during a Sprint will go into the Backlog to be prioritised and potentially added to the next Sprint if its priority is more than other items already in the Backlog. the exception to this is if a critical bug is found that gets in the way of the items in the Sprint being counted as "done".
+To aid with this, any new requests or feedback received during a Sprint will go into the Backlog to be prioritised and potentially added to the next Sprint if its priority is more than other items already in the Backlog. The exception to this is if a critical bug is found that gets in the way of the items in the Sprint being counted as "done".
