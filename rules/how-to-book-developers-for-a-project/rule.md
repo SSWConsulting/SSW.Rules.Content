@@ -40,7 +40,7 @@ Prerequisite: [Do you install the Dynamics 365 App?](/install-the-2-add-ins)
 
 This is generally the easiest way for developers to book themselves in as they don't need to leave outlook and 90% of the steps will already be familiar to them.
 
-1. Create a new Outlook (in the Desktop or Web client) appointment and give it a relevant subject
+1. Create a new Outlook appointment (in the Desktop or Web client) and give it a relevant subject
 2. Invite required resources if there are other people working with you or if you're booking for someone else
 
 * **Note:** If you're booking for someone else, just have them in the To box of the appointment. If you're booking yourself AND someone else, have both of you in the To box
@@ -48,9 +48,9 @@ This is generally the easiest way for developers to book themselves in as they d
 3. Invite the client as optional. If you do this, also make it a Teams Meeting and add your email signature
 4. Set the time and location for your appointment
 5. Set "Show As" to "Free" (so their Teams Status will not show them as "In a Meeting" all day
-6. Set "Reminder" to "None" so you and they don't get spammed by unneccessary reminders
+6. Set "Reminder" to "None" so you and they don't get spammed by unnecessary reminders
 7. Set the recurrence if it’s more than 1 day of work
-8. Click "Dynamics 365" on the ribbon which will open a side panel and click on "Set Regarding" then search select the company that you want to book the developers to work on (this is the step that syncs it with CRM)
+8. Click "Dynamics 365" on the ribbon which will open a side panel and click on "Set Regarding" then search for the company that you want to book the developers to work on (this is the step that syncs it with CRM)
 
 ![Figure: A complete appointment booking Brendan to work for SSW for 5 days](Dynamics1.jpg)
 
@@ -69,7 +69,7 @@ This is a backup option for anyone who doesn't have access to Outlook with the C
 6. Set the Start and End times
 7. If the booking is for more than 1 day, click “Recurrence” and set the frequency
 
-**Tip:** If you do not want the to block your calendar, you can change the orgainzer and owner to the developer you are booking. It will still track to the Service Calendar, but wont add it to your personal calendar, only the developers.
+**Tip:** If you do not want the to block your calendar, you can change the organizer and owner to the developer you are booking. It will still track to the Service Calendar, but wont add it to your personal calendar, only the developers.
 
 ![Figure: A complete CRM Appointment for a 1-day booking](Dynamics-Appointment.jpg)
 
@@ -95,7 +95,7 @@ To book someone for internal work:
 
 ![Figure: Internally 'Booked' days show as black and 'Pencilled In' days show as grey](2020-03-20_10-49-19.png)
 
-### Using a separate Oulook calendar to book appointments
+### Using a separate Outlook calendar to book appointments
 
 If you have a lot of staff, it can be useful to use a separate calendar to make your bookings to stop them from covering your every day calendar making it hard to read.
 
