@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you make sure that all stakeholders are involved in the Specification
+title: Do you make sure that all stakeholders are involved in the Specification?
   Review?
 uri: involve-all-stakeholders
 authors:
