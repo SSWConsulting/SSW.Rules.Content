@@ -16,6 +16,6 @@ The 3 A's for being a good consultant:
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/embed/ForiW6Ephns`
+`youtube: https://www.youtube.com/watch?v=Rat-WopuWT4`
 
 Being available may be hard sometimes, but it doesn't mean right away. As long as you can give a deadline and do it customers will be happy.
