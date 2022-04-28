@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Triaging - Do you understand that all deedback will be worked on in the next Sprint?
+title: Triaging - Do you understand that all feedback will be worked on in the next Sprint?
 guid: f5bb9eaa-3e05-4a8e-985c-dbc3e46ce6fe
 uri: triaging-do-you-understand-that-all-feedback-will-be-worked-on-in-the-next-sprint
 created: 2012-05-01T05:15:55.0000000Z
