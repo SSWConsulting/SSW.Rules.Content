@@ -27,16 +27,14 @@ With a mountain of emails, it is difficult to make sure the most important tasks
 The word **"Urgent"** is more important than the word **"Important"**
 :::
 
-![Figure: Remove roadblocks](challenges-ahead-sign.jpg)  
-
-This is the order which you should work:
+### This is the order which you should work:
 
 1. **Urgent emails & PBIs/tasks** – If you see the keyword "URGENT" (or the warning emoji ⚠️) in the subject/title/body, it automatically becomes the top priority and is to be resolved immediately.  
 E.g. "URGENT ⚠ the website is down"
 
-2. Emails about **[timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues
+2. **Emails about [timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues
 
-3. Your calendar - [keep your calendar up-to-date,](/calendar-does-your-calendar-always-accurately-show-where-you-are)so people know where you are
+3. **Your calendar** - [keep your calendar up-to-date,](/calendar-does-your-calendar-always-accurately-show-where-you-are)so people know where you are
 
 4. **Your existing clients** - Planned client work and client administration (preferably working on a [Sprint Backlog](/do-you-know-how-to-manage-the-product-backlog) and doing [Daily Scrums](/methodology-daily-scrums))
 
@@ -44,7 +42,7 @@ E.g. "URGENT ⚠ the website is down"
 
 6. **Prospective clients** - Project management, answering questions and setting up meetings
 
-7. Internal - All of the following might have their priorities ordered by the Daily Scrum
+7. **Internal work** - All of the following might have their priorities ordered by the Daily Scrum
     1. Quick Important emails to 0 (emails with an important flag &lt; 1 hour and not something that can go into a release plan)
     2. Incomplete [Sprints](/do-you-know-what-happens-at-a-sprint-planning-meeting). E.g. Normal planned internal work
     3. Important emails to 0
