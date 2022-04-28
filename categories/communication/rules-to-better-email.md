@@ -76,7 +76,7 @@ index:
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
 - how-to-fix-small-web-errors
-- do-you-give-your-emails-a-business-value
+- give-emails-a-business-value
 - add-a-bot-signature-on-automated-emails
 - great-email-signatures
 - do-you-use-email-signatures

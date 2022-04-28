@@ -25,7 +25,7 @@ index:
 - do-you-know-the-costs-of-old-versus-new-technologies
 - do-you-know-how-to-manage-the-product-backlog
 - do-you-estimate-business-value
-- do-you-give-your-emails-a-business-value
+- give-emails-a-business-value
 - technical-debt
 - do-you-use-stories-overview-report-to-find-out-where-the-project-is-at
 - product-owner-do-you-know-how-to-update-the-backlog
