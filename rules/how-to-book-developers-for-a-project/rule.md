@@ -28,7 +28,7 @@ Before booking developers, make sure you talk to them and check that they are co
 
 To book a developer:
 
-![Figure: Using the Service Calendar, you can see who is and is not available at a given time](servicecalendar_crmonlineversion.png)
+![Figure: Using the Service Calendar, you can see who is and is not available at a given time](servicecalendarcrmonlineversion.png)
 
 There are a few different ways of booking developers for project work, either via Outlook or the browser.
 
