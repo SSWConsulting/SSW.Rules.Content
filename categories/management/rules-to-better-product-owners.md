@@ -19,7 +19,7 @@ index:
 - triaging-do-you-understand-that-all-feedback-will-be-worked-on-in-the-next-sprint
 - watch-are-you-aware-of-existing-issues
 - watch-do-you-conduct-user-acceptance-testing-thoroughly
-- reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day
+- burndown-and-stories-overview-reports-updates
 - watch-do-you-get-sprint-forecasts
 - watch-do-you-know-what-is-going-on
 - do-you-know-the-costs-of-old-versus-new-technologies
