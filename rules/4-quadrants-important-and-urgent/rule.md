@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the 4 quadrants about important and urgent tasks?
+title: Priorities - Do you know the 4 quadrants about important and urgent tasks?
 uri: 4-quadrants-important-and-urgent
 authors:
   - title: Adam Cogan
