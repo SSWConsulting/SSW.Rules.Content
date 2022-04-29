@@ -51,4 +51,10 @@ Now configure some policies to implement these rules
    ![Figure: Add all cloud apps](conditionalaccess3.png)
 4. Select Conditions | Locations 
    Then set configure to yes and Include to "Any location"
+
+   ![Figure: Choose any location](conditionalaccess4.png)
+
+
 5. On exclude
+6.
+7.
