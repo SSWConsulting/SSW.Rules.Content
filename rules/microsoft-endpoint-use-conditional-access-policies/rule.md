@@ -15,9 +15,7 @@ This seriously limits the attack surface and also helps to stop compromised devi
 
 ::: bad 
 
-
 ![Figure: Bad example no locations setup](locationsbadexample.png)
-
 
 :::
 
@@ -28,10 +26,8 @@ First you need to add any locations that you require for an office.
 1. Go to https://endpoint.microsoft.com | Endpoint security | Conditional Access | Named locations
 2. Click "+ Countries location and add required countries
 
-
    ![Figure: Add a location](locations1.png)
 3. Add as many as you require for your users to access
-
 
    ![Figure: Every location that your users work from](locationsadded.png)
 
@@ -40,21 +36,22 @@ First you need to add any locations that you require for an office.
 Now configure some policies to implement these rules
 
 1. Go to Go to https://endpoint.microsoft.com | Endpoint security | Conditional Access | Policies
-
 2. Select New policy | Create new policy
-
 
    ![Figure: Add a conditional access policy](conditionalaccess2.png)
 3. Give it a name then select Cloud apps or actions | Select All cloud apps
-
 
    ![Figure: Add all cloud apps](conditionalaccess3.png)
 4. Select Conditions | Locations 
    Then set configure to yes and Include to "Any location"
 
    ![Figure: Choose any location](conditionalaccess4.png)
+5. On Exclude choose Selected locations and then exclude your workers countries (i.e. Australia) 
 
+ **Note this must be done this way as the user must not meet a block access rule ever if they are to login**
 
-5. On exclude
+   
+
+![Figure: Exclude good locations](conditionalaccess5.png)
+
 6.
-7.
