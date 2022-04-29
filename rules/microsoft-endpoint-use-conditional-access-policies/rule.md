@@ -54,4 +54,6 @@ Now configure some policies to implement these rules
 
 ![Figure: Exclude good locations](conditionalaccess5.png)
 
-6.
+6. Now select block access for this rule
+
+   ![Figure: Block access](conditionalaccess6.png)
