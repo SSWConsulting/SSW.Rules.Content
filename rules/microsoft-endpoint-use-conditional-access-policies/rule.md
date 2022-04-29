@@ -50,10 +50,14 @@ Now configure some policies to implement these rules
 
  **Note this must be done this way as the user must not meet a block access rule ever if they are to login**
 
-   
-
 ![Figure: Exclude good locations](conditionalaccess5.png)
 
 6. Now select block access for this rule
 
    ![Figure: Block access](conditionalaccess6.png)
+
+   ## Create a grant rule
+7. Similarly create a rule that applies to all cloud apps as above
+8. This will be exactly the same as the above rule except that you should not have conditions and should Grant access with MFA
+
+   ![Figure: Add a grant with MFA](conditionalaccess7.png)
