@@ -5,6 +5,8 @@ uri: sign-in-risk-policy
 authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
+related:
+  - risky-users-policy
 created: 2022-04-29T02:06:23.523Z
 guid: 0aef7548-1e06-4723-9f51-a6da5f564813
 ---
