@@ -40,11 +40,15 @@ First you need to add any locations that you require for an office.
 Now configure some policies to implement these rules
 
 1. Go to Go to https://endpoint.microsoft.com | Endpoint security | Conditional Access | Policies
-   Insert Pic 3
+
 2. Select New policy | Create new policy
-   Insert Pic 4
-3. Select Cloud apps or actions | Select All cloud apps
-   Insert Pic 5
+
+
+   ![Figure: Add a conditional access policy](conditionalaccess2.png)
+3. Give it a name then select Cloud apps or actions | Select All cloud apps
+
+
+   ![Figure: Add all cloud apps](conditionalaccess3.png)
 4. Select Conditions | Locations 
    Then set configure to yes and Include to "Any location"
 5. On exclude
