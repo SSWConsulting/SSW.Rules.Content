@@ -1,22 +1,21 @@
 ---
 type: rule
-archivedreason: 
 title: Priorities - Do you complete work in order of importance (aka priorities)?
-guid: d7ed07f0-6d42-45a8-8ea5-dbeb78576aef
 uri: work-in-order-of-importance-aka-priorities
-created: 2012-03-20T17:57:49.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-complete-work-in-order-of-importance-(aka-priorities)
-- priorities-do-you-complete-work-in-order-of-importance-aka-priorities
-- priorities-do-you-complete-work-in-order-of-importance-(aka-priorities)
-- do-you-complete-work-in-order-of-importance-aka-priorities
-
+  - do-you-complete-work-in-order-of-importance-(aka-priorities)
+  - priorities-do-you-complete-work-in-order-of-importance-aka-priorities
+  - priorities-do-you-complete-work-in-order-of-importance-(aka-priorities)
+  - do-you-complete-work-in-order-of-importance-aka-priorities
+created: 2012-03-20T17:57:49.000Z
+archivedreason: null
+guid: d7ed07f0-6d42-45a8-8ea5-dbeb78576aef
 ---
 
 With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still removing roadblocks for others. 
@@ -29,8 +28,8 @@ The word **"Urgent"** is more important than the word **"Important"**
 
 ### This is the order which you should work:
 
-1. **Urgent emails & PBIs/tasks** – If you see the keyword "URGENT" (or the warning emoji ⚠️) in the subject/title/body, it automatically becomes the top priority and is to be resolved immediately.  
-E.g. "URGENT ⚠ the website is down"
+1. **Urgent emails & PBIs/tasks** – If you see the keyword "URGENT" (or the fire emoji 🔥) in the subject/title/body, it automatically becomes the top priority and is to be resolved immediately.  
+E.g. "URGENT 🔥 the website is down"
 
 2. **Emails about [timesheets](/do-you-know-how-important-timesheets-are)** or invoicing issues
 
