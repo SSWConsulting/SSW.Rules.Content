@@ -61,3 +61,7 @@ Now configure some policies to implement these rules
 8. This will be exactly the same as the above rule except that you should not have conditions and should Grant access with MFA
 
    ![Figure: Add a grant with MFA](conditionalaccess7.png)
+
+   9. You will notice that each of these rules have a 'Report only' mode or enforce.  You should leave it on report mode and monitor the audit logs.  **Check for any failures and only apply the rules to a small subset of your users before changing them to On.  This is very important as you can stop everyone including yourself from logging in.**
+
+   ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
