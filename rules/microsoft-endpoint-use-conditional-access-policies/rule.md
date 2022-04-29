@@ -31,7 +31,9 @@ First you need to add any locations that you require for an office.
 
    ![Figure: Add a location](locations1.png)
 3. Add as many as you require for your users to access
-   Insert Pic 2
+
+
+   ![Figure: Every location that your users work from](locationsadded.png)
 
 ## Configure policies
 
