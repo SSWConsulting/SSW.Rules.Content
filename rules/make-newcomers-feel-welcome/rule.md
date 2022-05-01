@@ -22,7 +22,7 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 
 ### Before they start
 
-**Welcome on the day** - Make sure a team member will be there to greet them on the day!
+**Plan to welcome on the day** - Make sure a team member will be there to greet them on the day!
 
 **Active accounts** - Set a reminder to check if their accounts are activated before they start, by pinging them on Teams, saying hello and introducing yourself. E.g. “Hi I’m (your name), (your title). I just wanted to say hi, and to let you know to contact me if you need anything”
 
