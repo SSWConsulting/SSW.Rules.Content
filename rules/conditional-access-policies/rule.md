@@ -2,6 +2,8 @@
 type: rule
 title: Do you use Conditional Access policies?
 uri: conditional-access-policies
+redirects:
+  - microsoft-endpoint-use-conditional-access-policies
 authors:
   - title: Warwick Leahy
     url: https://www.ssw.com.au/people/warwick-leahy
@@ -15,12 +17,10 @@ This seriously limits the attack surface and also helps to stop compromised devi
 <!--endintro-->
 
 ::: bad 
-
 ![Figure: Bad Example - no locations setup](locationsbadexample.png)
-
 :::
 
-## Configure locations
+### Configure locations
 
 First you need to add any locations that you require for your office. 
 
@@ -32,7 +32,7 @@ First you need to add any locations that you require for your office.
 
    ![Figure: Every location that your users work from](locationsadded.png)
 
-## Configure policies
+### Configure policies
 
 Now configure some policies to implement these rules
 
@@ -47,22 +47,26 @@ Now configure some policies to implement these rules
    Then set configure to yes and Include to "Any location"
 
    ![Figure: Choose any location](conditionalaccess4.png)
-5. On Exclude choose Selected locations and then exclude your workers countries (i.e. Australia) 
+5. On Exclude choose Selected locations and then exclude your workers countries (i.e. Australia)  
 
- **Note this must be done this way as the user must not meet a block access rule ever if they are to login**
+  **Note:** This must be done this way as the user must not meet a block access rule ever if they are to login.
 
-![Figure: Exclude good locations](conditionalaccess5.png)
+  ![Figure: Exclude good locations](conditionalaccess5.png)
 
 6. Now select block access for this rule
 
    ![Figure: Block access](conditionalaccess6.png)
 
-   ## Create a grant rule
+### Create a grant rule
+
 7. Similarly create a rule that applies to all cloud apps as above
+
 8. This will be exactly the same as the above rule except that you should not have conditions and should Grant access with MFA
 
    ![Figure: Add a grant with MFA](conditionalaccess7.png)
 
-   9. You will notice that each of these rules have a 'Report only' mode or enforce.  You should leave it on report mode and monitor the audit logs.  **Check for any failures and only apply the rules to a small subset of your users before changing them to On.  This is very important as you can stop everyone including yourself from logging in.**
+9. You will notice that each of these rules have a 'Report only' mode or enforce.  You should leave it on report mode and monitor the audit logs. 
+
+  **Check for any failures and only apply the rules to a small subset of your users before changing them to 'On'. This is very important as you can stop everyone including yourself from logging in.**
 
    ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
