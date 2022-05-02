@@ -1,9 +1,10 @@
 ---
 type: rule
-title: Do you use conditional access policies?
+title: Do you use Conditional Access policies?
 uri: microsoft-endpoint-use-conditional-access-policies
 authors:
   - title: Warwick Leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
 created: 2022-04-13T01:19:59.907Z
 guid: deadd754-b7c5-4564-8e44-234642690769
 ---
@@ -15,13 +16,13 @@ This seriously limits the attack surface and also helps to stop compromised devi
 
 ::: bad 
 
-![Figure: Bad example no locations setup](locationsbadexample.png)
+![Figure: Bad Example - no locations setup](locationsbadexample.png)
 
 :::
 
 ## Configure locations
 
-First you need to add any locations that you require for an office. 
+First you need to add any locations that you require for your office. 
 
 1. Go to https://endpoint.microsoft.com | Endpoint security | Conditional Access | Named locations
 2. Click "+ Countries location and add required countries
