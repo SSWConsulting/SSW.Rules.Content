@@ -19,8 +19,6 @@ However, to truly engage effectively with your audience, it is important to form
 
 TikTok videos can be anywhere as short as 2 seconds to a maximum of 10 minutes.  The most effective TikTok videos range from 15 seconds to 3 mins. Here are some of the most-watched TikTok videos of all time:
 
- 
-
 1. Zach King's Harry Potter illusion - 2.2 billion views - <https://www.tiktok.com/@zachking/video/6768504823336815877?is_from_webapp=1&sender_device=pc>
 2. James Charles' Christmas wonderland transition - 1.7 billion views - <https://www.tiktok.com/@jamescharles/video/6768188988441332998?is_from_webapp=1&sender_device=pc>
 3. Khaby Lame's 'How to open a car door' video - 350 million views - <https://www.tiktok.com/@khaby.lame/video/6979606181463526661?is_from_webapp=1&sender_device=pc>
@@ -28,4 +26,54 @@ TikTok videos can be anywhere as short as 2 seconds to a maximum of 10 minutes. 
 
 While creators are able to make longer video the optimum length would appear to be shorter.
 
-![Figure: Most watched video lengths on TikTok - https://danslee.co.uk/2020/01/21/clipped-i-watched-the-100-best-tiktok-videos-to-find-the-optimum-length-of-a-clip/  ](picture2.png)
+Source: https://danslee.co.uk/2020/01/21/clipped-i-watched-the-100-best-tiktok-videos-to-find-the-optimum-length-of-a-clip/   
+
+![Figure: Most watched video lengths on TikTok](picture2.png)
+
+## Can I add music to my TikTok Video? 
+
+
+
+* If it's your unique music, then yes
+* If it's “copyright free” or “free for-profit” music, technically yes but presumably steer clear. This is due to it being very hard to search for truly copyright free music and there is almost always a copyright attached to a work.
+* If it’s someone else’s song you desire to upload which isn’t already on the TikTok library, then definitely no.
+
+ 
+
+Because of the copyright policy for TikTok, if any content material in the video is auto-detected as copyrighted music by their system, the audio in the video could be muted, or the platform may prohibit the video from being uploaded altogether.
+
+ 
+
+If you got the necessary license to use the music in the video, simply file a counter-notification via the link underneath to supply papers proving that the right rights to use the copyrighted job in your video got been purchased.
+
+ 
+
+TikTok: <https://www.tiktok.com/legal/copyright-policy?lang=en>
+
+ 
+
+Your safest bet would be to only use sounds and music that is already on TikTok, despite uploading your own. If you’re a verified business on TikTok, remember that you're only permitted to use their royalty-free music under their updated policy. It is very common to not upload any music at all and just have the unique dialogue and sounds from your original video itself.
+
+ 
+
+Fun Fact, here are the most used music genres for TikTok videos
+
+![Figure: Music Genres used in TikTok Videos for 2020](picture3.png)
+
+## Why use captions for TikTok videos?
+
+Many people watch TikTok while commuting or in a loud area. A solution to this is giving every video you make captions, so the sound doesn’t become a necessity for the video to give value. Captions are an excellent way to open your TikTok videos to a broader audience. They increase a video's general accessibility, prompting more users to like your content. TikTok has an auto-caption generator, or you can add them yourself when editing your video.
+
+![Figure: Adding captions to a video for SSW TikTok](picture4.png)
+
+## TikTok reference guidelines when editing
+
+SSW TV uses an overlay reference guide when editing our TikTok videos. This allows us to ensure our videos are formatted correctly keeping in mind TikTok’s User Interface. Once ready to export our video, we turn off the guideline layer. See below images:
+
+![Figure: TikTok Reference ](tiktok-reference.png)
+
+![Figure: TikTok guide for editing](tiktok-reference-guide.png)
+
+![Figure: TikTok guide overlayed on video](overlay-guide.png)
+
+![Figure: TikTok reference guide turned off](guide-turned-off.png)
