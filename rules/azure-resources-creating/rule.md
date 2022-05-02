@@ -64,6 +64,8 @@ So if you aren't manually creating your Azure resources, what options do you hav
 
 ### Option B: Bicep by Microsoft (recommended)
 
+![](BicepLogoImage.png)
+
 [Bicep - a declarative language for describing and deploying Azure resources](https://github.com/Azure/bicep)
 
 * Is free and fully supported by Microsoft
