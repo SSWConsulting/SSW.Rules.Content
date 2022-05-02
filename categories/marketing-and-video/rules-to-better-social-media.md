@@ -49,6 +49,7 @@ index:
 - how-to-create-wechat-official-account
 - image-size-instagram
 - do-you-create-friendly-short-urls
+- do-you-edit-your-videos-for-tiktok
 
 ---
 
