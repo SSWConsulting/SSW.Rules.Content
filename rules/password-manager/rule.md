@@ -33,6 +33,7 @@ It does not matter which one. There are many great tools out there:
 
 It does not matter which one. There are many great tools out there for example:
 
+* **[Keeper](https://www.keepersecurity.com/enterprise.html)** - Enterprise level password manager.  Different groups of users can be given access to different passwords according to Business priorities.
 * **[KeePass](https://keepass.info/)** - keeps all passwords in one database locked by a master key, which should be accessible only by the few people you trust.
 * **[1Password](https://1password.com/)** - syncs passwords and personal data across all your devices. It's not quite as slick or capable as many competitors, but it's still an easy-to-use utility
 * **[Keeper Password Manager & Digital Vault](https://keepersecurity.com/vault/)** - an elegant and security-first password management solution available for all popular platforms and browsers.
