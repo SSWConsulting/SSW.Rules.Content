@@ -50,7 +50,23 @@ Fun Fact, here are the most used music genres for TikTok videos
 
 ## Why use captions for TikTok videos?
 
-Many people watch TikTok while commuting or in a loud area. A solution to this is giving every video you make captions, so the sound doesn’t become a necessity for the video to give value. Captions are an excellent way to open your TikTok videos to a broader audience. They increase a video's general accessibility, prompting more users to like your content. TikTok has an auto-caption generator, or you can add them yourself when editing your video.
+Captions are an excellent way to open your TikTok videos to a broader audience. They increase a video's general accessibility, prompting more users to like your content. Users incluude:
+
+* Commuting or those in a general loud area. 
+* The deaf or hearing impaired 
+* Learning disabilities 
+* Attention deficit disorder
+* Autism 
+
+Here are the top 5 reasons for including close captions:
+
+1. Accessibility: As mentioned above, it makes your content more accessible.  
+2. SEO: Backing up your video with captions and a transcript of the audio helps you rank on Google. 
+3. User experience: Studies show users find more clarity in the content when captions are included. 
+4. Helping ESL Learners: Captions and subtitles makes it easier for non-native English speakers understand and comprehend your message. Improve average 
+5. Improve average watch time: Captions hold the attention more of the viewer. 
+
+When you allow captions for every video you make, the sound no longer becomes a necessity for the video to give value. 
 
 ![Figure: Adding captions to a video for SSW TikTok](picture4.png)
 
