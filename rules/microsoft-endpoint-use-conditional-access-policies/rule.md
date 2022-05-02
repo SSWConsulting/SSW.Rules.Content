@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you use Conditional Access policies?
-uri: microsoft-endpoint-use-conditional-access-policies
+uri: conditional-access-policies
 authors:
   - title: Warwick Leahy
     url: https://www.ssw.com.au/people/warwick-leahy
