@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Priorities - Do you complete work in order of importance (aka priorities)?
+title: Priorities - Do you complete work in order of importance?
 uri: work-in-order-of-importance-aka-priorities
 authors:
   - title: Adam Cogan
