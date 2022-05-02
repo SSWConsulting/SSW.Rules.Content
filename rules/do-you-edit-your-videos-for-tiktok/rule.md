@@ -58,7 +58,7 @@ Captions are an excellent way to open your TikTok videos to a broader audience. 
 * Attention deficit disorder
 * Autism 
 
-Here are the top 5 reasons for including close captions:
+### Top 5 reasons for including close captions:
 
 1. Accessibility: As mentioned above, it makes your content more accessible.  
 2. SEO: Backing up your video with captions and a transcript of the audio helps you rank on Google. 
