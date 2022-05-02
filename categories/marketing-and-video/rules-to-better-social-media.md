@@ -50,6 +50,7 @@ index:
 - image-size-instagram
 - do-you-create-friendly-short-urls
 - do-you-edit-your-videos-for-tiktok
+- why-should-a-business-use-tiktok
 
 ---
 
