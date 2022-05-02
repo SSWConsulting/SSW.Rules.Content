@@ -11,7 +11,7 @@ guid: efdbe798-d571-425d-a13c-6768b1b3d747
 ---
 TikTok is a great way to engage with your audience via social media. TikTok is a more fun, informal, and relaxed social media platform compared to the likes of YouTube, Facebook, LinkedIn etc. It allows for a different style of creative freedom and spontaneity in your videos. 
 
-However, to truly engage effectively with your audience, it is important to format and edit your videos with some rules and best practices that are optimised for TikTok.  Doing this will ensure your videos are seen exactly how you intended them to be seen.
+However, to effectively engage with your audience, it is important to format and edit your videos following editing best practices that are optimised for TikTok.  Doing this will ensure your videos are noticed exactly by whom and how you intended them to be seen.
 
 ![Figure: TikTok Logo](picture1.png)
 
@@ -30,31 +30,19 @@ Source: https://danslee.co.uk/2020/01/21/clipped-i-watched-the-100-best-tiktok-v
 
 ![Figure: Most watched video lengths on TikTok](picture2.png)
 
-## Can I add music to my TikTok Video? 
-
-
+## Can I add music to my TikTok Video?
 
 * If it's your unique music, then yes
 * If it's “copyright free” or “free for-profit” music, technically yes but presumably steer clear. This is due to it being very hard to search for truly copyright free music and there is almost always a copyright attached to a work.
 * If it’s someone else’s song you desire to upload which isn’t already on the TikTok library, then definitely no.
 
- 
-
 Because of the copyright policy for TikTok, if any content material in the video is auto-detected as copyrighted music by their system, the audio in the video could be muted, or the platform may prohibit the video from being uploaded altogether.
-
- 
 
 If you got the necessary license to use the music in the video, simply file a counter-notification via the link underneath to supply papers proving that the right rights to use the copyrighted job in your video got been purchased.
 
- 
-
 TikTok: <https://www.tiktok.com/legal/copyright-policy?lang=en>
 
- 
-
 Your safest bet would be to only use sounds and music that is already on TikTok, despite uploading your own. If you’re a verified business on TikTok, remember that you're only permitted to use their royalty-free music under their updated policy. It is very common to not upload any music at all and just have the unique dialogue and sounds from your original video itself.
-
- 
 
 Fun Fact, here are the most used music genres for TikTok videos
 
@@ -67,6 +55,8 @@ Many people watch TikTok while commuting or in a loud area. A solution to this i
 ![Figure: Adding captions to a video for SSW TikTok](picture4.png)
 
 ## TikTok reference guidelines when editing
+
+The best standard for recording is vertical. However, you can also record horizontal and then reframe and crop accordingly to a vertical export for TikTok. The reason why you might do this is so you can post to both YouTube and TikTok.
 
 SSW TV uses an overlay reference guide when editing our TikTok videos. This allows us to ensure our videos are formatted correctly keeping in mind TikTok’s User Interface. Once ready to export our video, we turn off the guideline layer. See below images:
 
