@@ -1,7 +1,7 @@
 ---
 type: rule
 title: TikTok - Do you edit your videos for TikTok?
-uri: do-you-edit-your-videos-for-tiktok
+uri: edit-your-videos-for-tiktok
 authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
