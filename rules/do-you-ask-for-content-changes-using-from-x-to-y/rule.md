@@ -11,8 +11,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related:
-  - github-content-changes
+related: []
 redirects: []
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
@@ -29,11 +28,11 @@ Make the changes even easier to see and understand by highlighting in <font styl
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | Eric |
+| To:      | Dave |
 | Subject: | Update CodeAuditor features list |  
 ::: email-content  
 
-### Hi Eric,
+### Hi Dave,
 
 1. For the Code Auditor web page, please make the list read:
 
@@ -54,11 +53,11 @@ Figure: Bad example - original version of content has not been included in the e
 ::: email-template  
 |          |     |
 | -------- | --- |
-| To:      | Eric |
+| To:      | Dave |
 | Subject: | Update CodeAuditor features list |  
 ::: email-content  
 
-### Hi Eric,
+### Hi Dave,
 
 http://www.ssw.com.au/ssw/codeauditor
 1. On the Code Auditor web page, please change:
