@@ -49,8 +49,9 @@ index:
 - how-to-create-wechat-official-account
 - image-size-instagram
 - do-you-create-friendly-short-urls
-- edit-your-videos-for-tiktok
 - why-should-a-business-use-tiktok
+- best-tips-for-getting-started-on-tiktok
+- edit-your-videos-for-tiktok
 
 ---
 
