@@ -5,7 +5,7 @@ guid: 4484570f-c674-4bdc-947a-24831d2b8499
 uri: rules-to-better-outlook
 index:
 - searching-outlook-effectively
-- do-you-minimize-your-outlook-distractions
+- minimize-outlook-distractions
 - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
 - avoid-sending-emails-immediately
 - how-to-send-a-v2-if-requested
