@@ -11,8 +11,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related:
-  - github-content-changes
+related: []
 redirects: []
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
