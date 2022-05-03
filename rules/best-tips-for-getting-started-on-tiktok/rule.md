@@ -27,3 +27,5 @@ Here they are:
 6. Objective – Keep the video short and snappy.
 7. Trends – Examine prevalent trends amongst users in your target audience​. Research your target audience to find out what content they are engaging with most, and use this information to attract new followers.
 8. Live streaming – This is one of the best ways to grow the audience and get potential customers.
+Note: Currently, [TikTok doesn't allow livestreaming from Third-party tools.](https://support.streamyard.com/hc/en-us/articles/360051974452-Can-I-Stream-to-TikTok-From-StreamYard-)
+
