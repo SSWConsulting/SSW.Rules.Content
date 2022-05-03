@@ -23,12 +23,6 @@ Here they are:
 2. Share original and valuable information – TikTok encourage users to make original videos and the algorithm tends to recommend original videos to the audience, even if they don’t follow you​.
 3. Be consistent – Post every day or every 3 days​. Remember that showing up often is important for growing any profile on social media.
 4. Participate in TikTok challenges – This is an easy way to increase engagement and visibility.
-
-   > <!--StartFragment-->
-   >
-   > Branded Hashtag Challenges have a median engagement rate of 17.5%. They also increase brand awareness by 4.5 times over standard mobile ads. Source: [BusinessNewsDaily.com](https://www.tiktok.com/business/en-US/blog/branded-hashtag-challenge-harness-the-power-of-participation)
-   >
-   > <!--EndFragment-->
 5. Be creative and interesting – Avoid being overly formal and stiff.
 6. Objective – Keep the video short and snappy.
 7. Trends – Examine prevalent trends amongst users in your target audience​. Research your target audience to find out what content they are engaging with most, and use this information to attract new followers.
