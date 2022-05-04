@@ -30,10 +30,10 @@ Organizing your cloud assets starts with good names. It is best to use:
 
 Azure defines [naming rules and restrictions for Azure resources](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/resource-name-rules).
 
-::: bad\
-![Bad Example: This is using a mixture of upper case and lower case letters, plus specifying the resource type](bad-azure-naming.png)\
+::: bad
+![Bad Example: This is using a mixture of upper case and lower case letters, plus specifying the resource type](bad-azure-naming.png)
 :::
 
-::: good\
-![Good Example:  Use lowercase letters and ”-”](good-azure-naming.png)\
+::: good
+![Good Example:  Use lowercase letters and ”-”](good-azure-naming.png)
 :::
