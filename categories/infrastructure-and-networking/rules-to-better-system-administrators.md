@@ -14,6 +14,7 @@ index:
 - do-you-have-mfa-multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
 - do-you-use-service-accounts
+- do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
 - monitor-the-uptimes-of-all-your-servers-daily
 - do-you-know-the-pros-and-cons-of-joining-the-domain
 - use-the-distributed-file-system-for-your-file-shares
@@ -24,6 +25,7 @@ index:
 - keep-your-file-servers-clean
 - have-a-companywide-word-template
 - label-your-assets
+- print-server
 ---
 
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.

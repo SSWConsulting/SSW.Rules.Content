@@ -48,6 +48,7 @@ index:
 - scrum-should-be-capitalized
 - keep-your-urls-clean
 - format-new-lines
-- how-to-name-sharepoint-documents
+- how-to-name-documents
+- remove-spaces-from-your-folders-and-filename
 
 ---

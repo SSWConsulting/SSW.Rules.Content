@@ -63,7 +63,7 @@ For clarity, "Done" (or "Not done" / "Already Done" / "Partially Done") should b
 
 ### Tip 2: Provide details in your "Done"
 
-In any reply, [include relevant information](/dones-do-you-include-useful-details-in-your-done-email), such as URLs, screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
+In any reply, [include relevant information](/dones-do-you-include-useful-details-in-your-done-email), such as [URLs](/dones-do-your-dones-include-a-url), screenshots, and pieces of code/text that have been updated. This allows others to check what was done straight away.
 
 ### Tip 3: Replying "Done" to multiple tasks
 

@@ -11,7 +11,7 @@ index:
 - appointments-do-you-show-all-the-necessary-information-in-the-subject
 - appointments-do-you-explain-why-youve-deleted-or-modified-an-appointment
 - how-to-reply-all-to-an-appointment
-- do-you-know-to-duplicate-email-content-in-a-calendar-appointment
+- duplicate-email-content-in-a-calendar-appointment
 - appointments-do-you-avoid-putting-the-time-and-date-into-the-text-field-of-a-meeting
 - use-propose-new-time
 - automate-schedule-meetings

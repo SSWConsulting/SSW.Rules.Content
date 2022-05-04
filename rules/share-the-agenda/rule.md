@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Before a meeting, do you share the agenda?
+title: Before - Do you share the agenda?
 uri: share-the-agenda
 authors:
   - title: Ulysses Maclaren
@@ -60,5 +60,5 @@ Regards,
 :::
 :::
 ::: good
-Figure: Good Example - appointment template and for Scrum meetings
+Figure: Good Example - Appointment template and for Scrum meetings
 :::

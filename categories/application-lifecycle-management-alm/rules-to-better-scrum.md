@@ -5,6 +5,7 @@ guid: e7bd429d-10df-4d73-b479-cd20afcc8091
 uri: rules-to-better-scrum
 index:
 - getting-started-have-you-read-the-scrum-guide
+- technical-overview
 - do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
 - 8-steps-to-scrum
 - scrum-master-do-you-schedule-the-3-meetings
@@ -38,7 +39,6 @@ index:
 - are-you-flexible-with-the-order-you-do-the-work-i-e-cancelling-a-sprint
 - do-you-always-know-what-are-you-working-on
 - do-you-have-a-demo-script-for-your-sprint-review-meeting
-- do-you-know-how-you-deal-with-impediments-in-scrum
 - product-owners-do-you-know-the-consequence-of-disrupting-a-team
 - do-you-always-work-in-priority-order-unless-theres-a-good-reason-not-to
 - have-a-definition-of-ready

@@ -8,6 +8,7 @@ index:
 - are-you-still-ui-aware
 - do-you-have-a-subscribe-button-on-your-blog-aka-rss
 - do-you-know-how-to-document-what-you-are-doing
+- blog-every-time-you-publish-a-video
 - encourage-blog-comments
 - do-you-know-that-factual-content-is-king
 - check-facts

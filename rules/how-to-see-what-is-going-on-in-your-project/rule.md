@@ -20,7 +20,6 @@ redirects:
 created: 2018-11-07T00:19:09.000Z
 archivedreason: null
 guid: f56c210d-617e-4421-9fb7-3d1757a49937
-
 ---
 
 Imagine you’ve been on vacation for several weeks (lucky you!) and on returning you want to see what’s been happening in your project in your absence.  If your project used a “team” within Microsoft Teams, you’d easily be able to review the team’s conversations and progress. You’d be able to see what issues have arisen and where the team has been spending their time. 
@@ -33,6 +32,7 @@ You can also add Bots to communicate on your channel, or even better, Connectors
 
 ::: greybox
 **To:** All Developers
+
 **Subject:** What’s been happening on SSWTimePro in the last couple of weeks
 
 Hi Devs,

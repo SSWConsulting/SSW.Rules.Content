@@ -22,7 +22,6 @@ Written communication can easily cause misunderstandings. Help the reader unders
 
 * Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to, or a web page, etc.
 * Your new text should be kept to the left
-* Optionally, [use a different text color in your reply](/when-you-reply-inline-do-you-use-a-different-color)
 * Add numbers if the sender didn't and it is appropriate
 
 <!--endintro-->
@@ -90,8 +89,7 @@ You can find more info about GitHub syntax at [Basic writing and formatting synt
 
 `youtube: https://www.youtube.com/embed/LAqRokqq4jI`
 
-<!--StartFragment-->
-
 **Video: Top 10+ Rules to Better Email Communication with Ulysses Maclaren**
 
-<!--EndFragment-->
+
+**Note:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill

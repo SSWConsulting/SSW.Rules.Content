@@ -6,8 +6,6 @@ guid: 421f14ad-1a4c-4a2a-854b-43264f822386
 uri: devops-master
 created: 2011-11-18T03:53:00.0000000Z
 authors:
-- title: David Klein
-  url: https://ssw.com.au/people/david-klein
 - title: Justin King
   url: https://ssw.com.au/people/justin-king
 - title: Ryan Tee

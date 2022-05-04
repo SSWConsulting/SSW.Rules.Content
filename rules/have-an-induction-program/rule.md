@@ -14,7 +14,7 @@ created: 2016-02-03T00:40:37.000Z
 archivedreason: null
 guid: 81cea1d7-0622-47b4-8d46-475e8ee5a512
 ---
-Companies have a lot of information and standards – some of it is **public** (E.g. SSW Rules), some of it is **private** (E.g. SSW Intranet). When there is thousands of documents, new employees should be given a guided process so they know what is important. 
+Companies have a lot of information and standards – some of it is **public** (E.g. SSW Rules), some of it is **private** (E.g. SSW Intranet). When there are thousands of documents, new employees should be given a guided process so they know what is important. 
 
 <!--endintro-->
 

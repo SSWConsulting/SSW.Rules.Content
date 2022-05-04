@@ -15,12 +15,13 @@ index:
 - do-you-follow-the-sandwich-rule
 - speaking-do-you-speak-in-a-positive-language-to-clients
 - speaking-do-you-avoid-swearing-at-work
-- do-you-know-that-people-misunderstand-sarcasm-in-email
+- avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
 - do-you-do-monthly-peer-evaluations
 - todo-tasks
 - speak-up
 - the-happiness-equation
+- forms-value
 
 ---
 

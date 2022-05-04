@@ -9,6 +9,7 @@ index:
 - use-emojis
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
+- create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
 - do-you-know-the-right-format-to-show-your-phone-number
 - track-project-documents
@@ -22,13 +23,15 @@ index:
 - how-to-see-what-is-going-on-in-your-project
 - have-a-notifications-channel
 - integrate-dynamics-365-and-microsoft-teams
-- link-your-customers-in-crm-to-their-respective-teams
+- connect-crm-to-microsoft-teams
 - archive-old-teams
 - add-the-right-apps-when-creating-a-new-team
 - create-microsoft-forms-via-microsoft-teams
 - do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone
 - use-emojis-in-you-channel-names
 - workstations-use-gpu
+- meeting-join-info-at-the-top
+- how-to-send-message-to-yourself-on-teams
 
 ---
 

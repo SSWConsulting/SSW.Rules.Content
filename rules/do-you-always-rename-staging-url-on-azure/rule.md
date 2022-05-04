@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you always rename staging Url on Azure?
+title: Do you always rename staging URL on Azure?
 guid: 92dd8fc9-110d-4ea6-8340-528f1b1d411e
 uri: do-you-always-rename-staging-url-on-azure
 created: 2015-03-08T23:23:53.0000000Z
@@ -19,42 +19,32 @@ redirects: []
 
 ---
 
-If you use the default Azure staging web site Url, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
+If you use the default Azure staging web site URL, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
 
 <!--endintro-->
 
-
-| Default Azure Url:
-<ul><li><strong style="line-height:20px;background-color:initial;"> <strong>sugarlearning<span style="color:#ff0066;">-staging</span>.azurewebsites.net</strong> </strong> 
-</li></ul> |
-| --- |
-
-
-
+::: greybox
+Default Azure URL:
+sugarlearning**-staging**&#46;azurewebsites&#46;net
+:::
 ::: bad
-Figure: Bad example - Site using the default Url (hard to remember!!)  
+Figure: Bad example - Site using the default URL (hard to remember!!)  
 :::
 
-
-| Customized Url:
-<ul><li><strong style="line-height:20px;background-color:initial;"><font color="#ff0066">staging</font></strong> <span style="line-height:20px;background-color:initial;">.</span><strong style="line-height:20px;background-color:initial;">sugarlearning.com</strong> 
-</li></ul> |
-| --- |
-
-
-
+::: greybox
+Customized URL:
+**staging**&#46;sugarlearning&#46;com
+:::
 ::: good
-Figure: Good example - Staging Url having production Url with "staging." prefix  
+Figure: Good example - Staging URL with "staging&#46;" prefix  
 :::
 
+**How to setup a custom URL**
 
+1. Add a CName to the default URL to your DNS server
 
-**How to setup a custom Url**
+![Figure: CName being added to DNS for the default URL](2015-03-10_17-13-55.png) 
 
-1. Add a CName to the default Url to your DNS server
+2. Instruct Azure to accept the custom URL
 
-![](2015-03-10_17-13-55.png) Figure:  CName being added to DNS for the default Url
-
-2. Instruct Azure to accept the custom Url
-
-![custom domains (1).png](custom domains (1).png)Figure:  Azure being configured to accept the CName
+![Figure: Azure being configured to accept the CName](custom-domains.png)

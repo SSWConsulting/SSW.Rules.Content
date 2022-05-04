@@ -7,6 +7,8 @@ index:
 - azure-certifications-and-associated-exams 
 - the-9-important-parts-of-azure
 - cloud-architect
+- azure-architecture-center
+- well-architected-framework
 - do-you-know-how-to-be-frugal-with-azure-storage-transactions
 - do-you-always-rename-staging-url-on-azure
 - do-you-consider-azuresearch-for-your-website
@@ -29,6 +31,7 @@ index:
 - set-up-azure-alert-emails-on-teams-channel
 - azure-site-recovery
 - manage-costs-azure
+- azure-slots-deployment
 
 ---
 
