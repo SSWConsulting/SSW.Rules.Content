@@ -1,25 +1,24 @@
 ---
 type: rule
-archivedreason: 
 title: Do you understand a data type change = "Data Motion Scripts"?
-guid: 72e85813-bbc1-4426-8108-4a5d7f559b7a
 uri: do-you-understand-a-data-type-change-data-motion-scripts
-created: 2009-10-07T00:12:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Thiago Passos
-  url: https://ssw.com.au/people/thiago-passos
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Duncan Hunter
+    url: https://ssw.com.au/people/duncan-hunter
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Thiago Passos
+    url: https://ssw.com.au/people/thiago-passos
 related: []
 redirects:
-- do-you-understand-a-data-type-change-＂data-motion-scripts＂
-
+  - do-you-understand-a-data-type-change-＂data-motion-scripts＂
+created: 2009-10-07T00:12:39.000Z
+archivedreason: null
+guid: 72e85813-bbc1-4426-8108-4a5d7f559b7a
 ---
 
 Scripting out a schema change is easy, worrying about data is not. "'Data motion" refers to a change in the meaning of data, which will require scripts which touch data and schema. 
@@ -27,24 +26,22 @@ Scripting out a schema change is easy, worrying about data is not. "'Data motion
 Let's look at an example:   
 <!--endintro-->
 
-We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.
+We have a 'OrderStatus' column (that is a Boolean) storing 0's and 1's. All works well for a while.
 
-![Figure: Anything wrong this Gender column?](TableBit.jpg)  
+![Figure: Anything wrong this Order Status column?](TableBit.jpg)  
 
-Later you learn you need to change the data type to char(2) to support 'M', 'F', 'T', 'NA' and 'U'  
-
-![Figure: Caster Semenya has taught us a thing or two about the right data type for Gender](CasterSemenya.jpg)  
+Later you learn you need to change the data type to VARCHAR(16) to support 'Order Placed', 'Processing', 'Completed', 'Cancelled' and 'Draft'  
 
 The data then must be migrated to the new data type this way:  
 
-1. Rename 'Gender' to 'ztGender' \*
-2. Add a new column 'Gender' with type char(2)
-3. Insert the existing data from 'ztGender' to 'Gender' (map 0 to 'F' and 1 to 'M')
-4. Delete the column ztGender\*
+1. Rename 'OrderStatus' to 'ztOrderStatus' *
+2. Add a new column 'OrderStatus' with type VARCHAR(16)
+3. Insert the existing data from 'ztOrderStatus' to 'OrderStatus' (map 0 to 'Order Placed' and 1 to 'Completed')
+4. Delete the column ztOrderStatus*
 
+::: greybox
 **Note:** zt stands for Temporary  
-
-![Figure: Changing the data type and data required a "Data Motion Script"](TableChar.jpg)  
+:::
 
 Visual Studio does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.
 
@@ -55,7 +52,6 @@ Visual Studio does not automatically support this scenario, as data type changes
 There are few options available to perform data type change correctly:
 
 1. **Use manual scripts.** All data type changes including data migration can be performed by writing scripts manualy. This way you have full control over the change. It is recommended to use:
-  - [SQLDeploy](http://sqldeploy.com/) or 
   - [DbUp](http://dbup.github.io/) to automate script deployment and keep track of all database changes.
 
 2. **Use Database Project.** As mentioned above, Visual Studio does not support data type changes out of the box and should not be used to perform this kind of task.
