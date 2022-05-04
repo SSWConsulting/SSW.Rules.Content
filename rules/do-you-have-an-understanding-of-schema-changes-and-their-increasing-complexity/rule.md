@@ -15,7 +15,7 @@ guid: 634434fa-12e0-4eed-9514-eaf4fb2fcc01
 
 Do you dream to be a 'Schema Master' one day? If so you need to know what changes are low impact and what needs to be done with care. Take care when it involves existing data. Do you know what the hard ones are? 
 
- Let's look at examples of this increasing complexity (using [The Mr Northwinds database](http&#58;//www.microsoft.com/Downloads/details.aspx?FamilyID=06616212-0356-46a0-8da2-eebc53a68034&amp;displaylang=en)) :   
+ Let's look at examples of this increasing complexity (using [The Mr Northwinds database](https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs)):   
 <!--endintro-->
 
 
