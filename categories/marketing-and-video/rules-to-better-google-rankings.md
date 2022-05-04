@@ -41,6 +41,8 @@ index:
 - html-meta-tags
 - relevant-words-on-links
 - use-subdirectories-not-domains
+- website-heatmaps
+- do-you-use-american-spelling-for-your-website
 
 ---
 
