@@ -5,6 +5,10 @@ uri: do-you-know-deploying-is-so-easy
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Jack Pettit
+    url: https://www.ssw.com.au/people/jack-pettit
 related: []
 redirects: []
 created: 2009-10-06T23:21:05.000Z
