@@ -28,9 +28,6 @@ What can (and should) be monitored in SEO:
 6. Being present on blacklists
 7. Robot blockers
 
-<font color="#333333">
-</font>
-
 At SSW, SEO workflow is:
 
 1. The Marketing Manager checks the SEO weekly and analyses trends in keywords
