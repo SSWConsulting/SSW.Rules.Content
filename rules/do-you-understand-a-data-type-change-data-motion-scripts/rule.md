@@ -28,9 +28,11 @@ Let's look at an example:
 
 We have a 'OrderStatus' column (that is a Boolean) storing 0's and 1's. All works well for a while.
 
-![Figure: Anything wrong this Order Status column?](TableBit.jpg)  
+(New Image here)
 
 Later you learn you need to change the data type to VARCHAR(16) to support 'Order Placed', 'Processing', 'Completed', 'Cancelled' and 'Draft'  
+
+(New Image here)
 
 The data then must be migrated to the new data type this way:  
 
