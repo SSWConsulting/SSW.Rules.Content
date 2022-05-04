@@ -13,6 +13,7 @@ index:
 - do-you-use-group-policy-to-enable-hibernate-option
 - do-you-use-separate-administrator-account
 - run-services-on-their-own-ad-accounts
+- check-ad-security-with-pingcastle
 
 ---
 
