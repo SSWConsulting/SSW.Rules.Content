@@ -33,7 +33,9 @@ These days we have frameworks such as EF to handle this for us, with its migrati
 ## Legacy Applications:
 For legacy applications that aren't using Frameworks such as EF, keeping track of a databases version can be done in the following way. 
 
-Create a new table that will store the version info, this table is often called **_zsDataVersion**. The zs stands for.... 
+**(Check with Matt W)**
+
+Create a new table that will store the version info, this table is often called **_zsDataVersion**. The zs stands for....??? 
 ![Figure: SSW Link Auditor _zsDataVersion table](zsVersionTable.png)  
 
 For SSW Link Auditor this can be seen in the table status section, with the apps current version being 62. 
