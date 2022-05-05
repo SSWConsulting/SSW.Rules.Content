@@ -146,10 +146,10 @@ Figure: Bad Example – It is clear which tasks have been done, however, [replyi
 
 ### Hi Bob,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &gt; 1. Update the logo on Northwind website the new logo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &gt; 1. Update the logo on Northwind website the new logo <br>
 Done - See <u>northwind&#46;com</u>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &gt; 2. Take a photo of the office façade and add to the "About Us" page
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &gt; 2. Take a photo of the office façade and add to the "About Us" page<br>
 Not Done - I couldn’t find a camera. 
 
 ### To myself,
