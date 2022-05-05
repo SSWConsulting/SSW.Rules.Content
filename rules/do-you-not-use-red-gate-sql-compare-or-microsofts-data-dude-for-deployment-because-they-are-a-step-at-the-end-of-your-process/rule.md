@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Should you compare schemas for deployment?
+title: Do you know why you shouldn't compare schemas during deployment?
 uri: should-you-compare-schemas
 authors:
   - title: Adam Cogan
@@ -13,11 +13,18 @@ created: 2009-10-05T23:21:49.000Z
 archivedreason: null
 guid: 089dc980-69cf-4b81-9320-57c2539c1f02
 ---
-Modern frameworks such as Entity Framework remove the need for comparing databases between environments especially if you are using the code first approach with migrations.
+SQL Compare is a good tool to find out the differences between two databases. It can help you answer the question "Is your database the same as mine?". 
 
-With legacy applications and sometimes with modern frameworks a comparison tool needs to be used to answer the question, "Is your database the same as mine?". 
+However, if you are doing this at the end of your release cycle, you have a problem.  Your schema deployment process is broken...
 
 <!--endintro-->
+
+What you should be doing is seeing your [Schema Master](/have-a-schema-master "Database Schema Master") each time you have a new .sql file. You do this **during the development process**, not at the end in the package and deployment process.
+
+::: greybox
+**Tip:** If you are using modern methods such Entity Framework code first migrations you will already be doing most of this.
+:::
+
 
 Tools like [Red Gates SQL Compare](https://www.red-gate.com/products/sql-development/sql-compare/) and [Microsoft's Schema Compare](https://docs.microsoft.com/en-us/sql/ssdt/how-to-use-schema-compare-to-compare-different-database-definitions) will do the job. 
 
@@ -25,6 +32,3 @@ Tools like [Red Gates SQL Compare](https://www.red-gate.com/products/sql-develop
 
 ![Figure: Using Microsoft's Schema Compare](microsoft-schema-compare.png)  
 
-However, if you are doing this at the end of your release cycle, you have a problem.  Your schema deployment process is broken.
-
-What you should be doing is seeing your [Schema Master](/have-a-schema-master "Database Schema Master") each time you have a new .sql file. You do this **during the development process**, not at the end in the package and deployment process.
