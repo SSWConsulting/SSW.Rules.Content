@@ -6,6 +6,7 @@ uri: rules-to-better-sql-server-schema-deployment
 index:
 - do-you-know-deploying-is-so-easy
 - tools-database-schema-changes
+- have-a-schema-master
 - do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity
 - do-you-show-current-versions-app-and-database
 - do-you-save-each-script-as-you-go
@@ -14,7 +15,6 @@ index:
 - do-you-ignore-idempotency
 - do-you-check-your-controlled-lookup-data
 - do-you-deploy-controlled-lookup-data
-- have-a-schema-master
 - do-you-understand-a-data-type-change-data-motion-scripts
 - validate-each-denormalized-field
 - the-application-do-you-make-sure-that-the-database-structure-is-handled-automatically-via-3-buttons-create-upgrade-and-reconcile
