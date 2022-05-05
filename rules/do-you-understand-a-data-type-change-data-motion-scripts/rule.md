@@ -14,7 +14,9 @@ authors:
   - title: Thiago Passos
     url: https://ssw.com.au/people/thiago-passos
   - title: Jack Pettit
+    url: https://ssw.com.au/people/jack-pettit
   - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - do-you-understand-a-data-type-change-＂data-motion-scripts＂
@@ -54,7 +56,7 @@ Visual Studio does not automatically support this scenario, as data type changes
 
 ![Figure: Don't use Visual Studio Schema Compare Tool (aka Data Dude)](microsoft-schema-compare.png)
 
-:::greybox 
+::: greybox 
 **Note:** In order to achieve this you **must** use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost.
 :::
 
