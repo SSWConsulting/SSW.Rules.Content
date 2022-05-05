@@ -26,13 +26,13 @@ Let's see how its done.
 ## Modern Frameworks (EF)
 **(Add an Image of Migrations)**
 
-Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework 6. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. Watch [this video](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more. We also recommend using SSW SQL Validate tool to make sure your schema hasn't been manually modified.
+Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. 
+
+Watch video: [How to Use Code First with Entity Framework - Brendan Richards](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more. 
 
 ## Legacy 
 
 Keep the scripts in a separate directory, this is often named `SQLScripts`. This folder should only contain .sql files. 
-
-**(Check with Matt W - If we are deleting some of these)**
 
 1. When you have an error you can see exactly which script introduced it
 2. You don't have to use a compare tool like Red-Gate SQL Compare at the end of your development cycle
