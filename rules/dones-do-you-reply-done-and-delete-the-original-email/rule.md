@@ -28,7 +28,7 @@ Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-o
 
 * If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task.
 * For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task.
-:::
+  :::
 
 ### Alternatives to classic "Done" emails
 
@@ -218,7 +218,7 @@ There is no point in keeping emails that just clutter your inbox. You don't need
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &gt;1. Find the orders
 Done - used the following to get it:
 
-```sql
+```
 SELECT
 ProdName = CASE WHEN Download.ProdCategoryID <> ''
 
