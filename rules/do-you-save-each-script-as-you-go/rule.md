@@ -24,7 +24,7 @@ Let's see how its done.
 <!--endintro-->
 
 ## Modern Frameworks (EF)
-**(Add an Image of Migrations)**
+**(TODO: Add an Image of Migrations)**
 
 Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. 
 
