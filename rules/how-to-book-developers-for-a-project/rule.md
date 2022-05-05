@@ -24,7 +24,7 @@ Before booking developers, make sure you talk to them and check that they are co
 * The Time - how long is the project?
 * The Tech - what skills are required?
 * The Team - who will they be working with?
-  :::
+:::
 
 To book a developer:
 
