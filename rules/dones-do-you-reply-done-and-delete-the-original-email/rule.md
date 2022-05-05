@@ -28,7 +28,7 @@ Read "[Definition of Done](/done-do-you-go-beyond-done-and-follow-a-definition-o
 
 * If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task.
 * For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task.
-  :::
+:::
 
 ### Alternatives to classic "Done" emails
 
@@ -120,8 +120,8 @@ Jason
 
 - - -
 
-**From:** Bob
-**To:** Jason
+**From:** Bob  
+**To:** Jason   
 **Subject:** Northwind website - Update logo + add a photo  
 
 ### Hi Jason,
@@ -137,6 +137,7 @@ Bob
 Figure: Bad Example – It is clear which tasks have been done, however, [replying inline should be avoided](/email-avoid-inline) as it messes up the history
 :::
 
+
 ::: email-template
 |          |     |
 | -------- | --- |
@@ -146,10 +147,10 @@ Figure: Bad Example – It is clear which tasks have been done, however, [replyi
 
 ### Hi Bob,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &gt; 1. Update the logo on Northwind website the new logo <br>
+    > 1. Update the logo on Northwind website the new logo 
 Done - See <u>northwind&#46;com</u>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &gt; 2. Take a photo of the office façade and add to the "About Us" page<br>
+    > 2. Take a photo of the office façade and add to the "About Us" page
 Not Done - I couldn’t find a camera. 
 
 ### To myself,
@@ -218,7 +219,7 @@ There is no point in keeping emails that just clutter your inbox. You don't need
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &gt;1. Find the orders<br>
 Done - used the following to get it:
 
-```
+```sql
 SELECT
 ProdName = CASE WHEN Download.ProdCategoryID <> ''
 
@@ -242,8 +243,9 @@ Jason
 
 :::
 :::
+
 ::: good
-Figure: Good example - This "Done" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification\
+Figure: Good example - This "Done" uses text instead of an image so it is easier to search; to copy and paste; and to reply with a modification
 :::
 
 ### Tip 8: Handle an email once
