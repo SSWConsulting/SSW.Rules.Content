@@ -31,7 +31,7 @@ These days frameworks handle database versioning for us, using code first migrat
 For legacy applications that aren't using Frameworks such as EF, keeping track of a databases version can be done in the following way. 
 
 Create a new table that will store the version info, this table is often called **_zsDataVersion**.
-![Figure: SSW Link Auditor _zsDataVersion table](zsVersionTable.png)  
+![Figure: Example - SSW Link Auditor _zsDataVersion table](zsVersionTable.png)  
 
-For SSW Link Auditor this can be seen in the table status section, with the apps current version being 62. 
-![Figure: SSW Link Auditor Database version](LinkAuditorVersion.png)  
+For SSW Link Auditor this can be seen in the table status section.
+![Figure: Example - SSW Link Auditor Database version is 62](LinkAuditorVersion.png)  
