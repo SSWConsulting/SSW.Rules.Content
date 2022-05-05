@@ -36,8 +36,6 @@ We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works wel
 
 Later you learn you need to change the data type to char(2) to support 'MA', 'FE', 'NB' and 'NA' 
 
-![Figure: Caster Semenya was the first to teach us a thing or two about the right data type for Gender](CasterSemenya.jpg)
-
 The data then must be migrated to the new data type this way:
 
 Rename 'Gender' to 'ztGender' 
