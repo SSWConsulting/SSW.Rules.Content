@@ -39,7 +39,9 @@ Eric Phan
 ```
 
 ::: bad
+
 **Figure: Bad example - run SQL scripts manually**
+
 :::
 
 ```
@@ -53,7 +55,9 @@ Regards,
 Eric Phan
 ```
 ::: bad
-**Figure: Better example - run SQL scripts using another package**        
+
+**Figure: Better example - run SQL scripts using another package**   
+
 ::: 
 
 ```
@@ -70,9 +74,11 @@ Regards,
 Eric Phan
 ```
 ::: good 
+
 **Figure: Better example - run SQL scripts in the application. There is a tool called [SQL Deploy | Reconcile](http://sqldeploy.com/) .**
+
 :::
-        
+
 ```
 Dear Mr Northwind, 
 
@@ -87,5 +93,7 @@ Eric Phan
 ```
 
 ::: good 
+
 **Figure: Best example - All done as part of the release pipeline**
+
 :::
