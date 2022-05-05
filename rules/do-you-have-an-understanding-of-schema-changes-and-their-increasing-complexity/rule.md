@@ -20,7 +20,7 @@ Do you dream to be a 'Schema Master' one day? If so you need to know what change
 
 
 
-```
+```sql
 ALTER TABLE dbo.Employees
     ADD Gender bit NOT NULL
 GO
@@ -29,7 +29,7 @@ GO
 **Figure: Add a column (Easy)**        
 
 
-```
+```sql
 ALTER TABLE dbo.Employees
     DROP COLUMN TitleOfCourtesy
 GO
@@ -39,7 +39,7 @@ GO
 **Figure: Delete a column (Easy)**
 
 
-```
+```sql
 EXECUTE sp_rename N'dbo.Employees.HireDate', 
                   N'Tmp_StartDate_1', 'COLUMN'
 GO
@@ -52,7 +52,7 @@ GO
 **Figure: Rename a column (Medium)**
 
 
-```
+```sql
 CREATE TABLE dbo.Tmp_Employees
 (
     ...
@@ -79,7 +79,7 @@ GO
 **Figure: Change data type (Hard) e.g. Bit to Integer. The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesBitToInt.sql)**
 
 
-```
+```sql
 CREATE TABLE dbo.Tmp_Employees
 (
     ...
