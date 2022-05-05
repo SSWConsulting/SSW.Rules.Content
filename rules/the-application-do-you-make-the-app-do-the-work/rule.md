@@ -76,7 +76,7 @@ Eric Phan
 ```
 Dear Mr Northwind, 
 
-We have just deployed a new release. Please view it live here.
+We have just deployed a new release and updated the database for you. Please view it live here.
 
 If you have any questions please let me know,
 otherwise have a great day. 
