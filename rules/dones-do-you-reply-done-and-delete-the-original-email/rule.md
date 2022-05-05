@@ -126,8 +126,8 @@ Jason
 
 ### Hi Jason,
 
-   &gt;1. Update the logo on Northwind website the new logo. **Done - See northwind&#46;com**
-   &gt;2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
 
 Bob
 
@@ -147,10 +147,10 @@ Figure: Bad Example – It is clear which tasks have been done, however, [replyi
 
 ### Hi Bob,
 
-    > 1. Update the logo on Northwind website the new logo 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo  
 Done - See <u>northwind&#46;com</u>
 
-    > 2. Take a photo of the office façade and add to the "About Us" page
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page  
 Not Done - I couldn’t find a camera. 
 
 ### To myself,
