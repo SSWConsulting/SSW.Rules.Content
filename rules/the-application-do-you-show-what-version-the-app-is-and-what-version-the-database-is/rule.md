@@ -35,3 +35,5 @@ Create a new table that will store the version info, this table is often called 
 
 For SSW Link Auditor this can be seen in the table status section.
 ![Figure: Example - SSW Link Auditor Database version is 62](LinkAuditorVersion.png)  
+
+![Figure: The Application keeps all the scripts in a folder called SQLScripts (this allows the application to upgrade itself and give the Reconciliation functionality)](ChangeScripts.jpg)
