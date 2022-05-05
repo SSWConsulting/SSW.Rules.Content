@@ -13,7 +13,6 @@ created: 2009-10-06T23:42:21.000Z
 archivedreason: null
 guid: 6d3155dc-6a2c-4215-8fa5-27e69a763987
 ---
-
 Every time a change is made to your product's SQL Server Database, script out the change. 
 Nowadays if you are using frameworks such as EF Core, this will most likely be handled for you with migrations. For older applications, you can use SQL Management Studio or Visual Studios, but every time you make changes you must save the change as a .sql script file so any alterations are scripted. 
 
@@ -24,13 +23,14 @@ Let's see how its done.
 <!--endintro-->
 
 ## Modern Frameworks (EF)
-**(TODO: Add an Image of Migrations)**
 
 Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. 
 
+![EF Migrations table](ef-migrations.png)
+
 Watch video: [How to Use Code First with Entity Framework - Brendan Richards](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more. 
 
-## Legacy 
+## Legacy
 
 Keep the scripts in a separate directory, this is often named `SQLScripts`. This folder should only contain .sql files. 
 
@@ -50,4 +50,4 @@ XXXXX_ObjectType_ObjectName_ColumnName_Description_SchemaMasterInitials.sql
 
 eg.  00089_Table_OrderStatus_Status_ChangeFromBitToChar_AC.sql 
 
-![Figure: A list of change SQL scripts, each file name is in the correct format](ChangeScripts.jpg)  
+![Figure: A list of change SQL scripts, each file name is in the correct format](ChangeScripts.jpg)
