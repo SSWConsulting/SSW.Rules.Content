@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have your SharePoint Sites consistent?
+title: Do you have your SharePoint sites consistent?
 uri: consistent-sharepoint-sites
 authors:
   - title: Warwick Leahy
