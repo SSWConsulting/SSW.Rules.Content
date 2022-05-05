@@ -26,20 +26,22 @@ Scripting out a schema change is easy, worrying about data is not. "'Data motion
 Let's look at an example:   
 <!--endintro-->
 
-We have a 'OrderStatus' column (that is a Boolean) storing 0's and 1's. All works well for a while.
+We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works well for a while.
 
-(New Image here)
+![Figure: Anything wrong this Gender column?](TableBit.jpg)  
 
-Later you learn you need to change the data type to VARCHAR(16) to support 'Order Placed', 'Processing', 'Completed', 'Cancelled' and 'Draft'  
+Later you learn you need to change the data type to char(2) to support 'MA', 'FE', 'NB' and 'NA' 
 
-(New Image here)
+![Figure: Caster Semenya was the first to teach us a thing or two about the right data type for Gender](CasterSemenya.jpg)  
 
-The data then must be migrated to the new data type this way:  
+The data then must be migrated to the new data type this way:
 
-1. Rename 'OrderStatus' to 'ztOrderStatus' *
-2. Add a new column 'OrderStatus' with type VARCHAR(16)
-3. Insert the existing data from 'ztOrderStatus' to 'OrderStatus' (map 0 to 'Order Placed' and 1 to 'Completed')
-4. Delete the column ztOrderStatus*
+
+
+Rename 'Gender' to 'ztGender' *
+Add a new column 'Gender' with type char(2)
+Insert the existing data from 'ztGender' to 'Gender' (map 0 to 'F' and 1 to 'M')
+Delete the column ztGender*
 
 ::: greybox
 **Note:** zt stands for Temporary  
@@ -47,9 +49,11 @@ The data then must be migrated to the new data type this way:
 
 Visual Studio does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.
 
-![Figure: Don't use Data Dude](DataDude-BadExample.jpg)  
+![Figure: Don't use Schema Compare Tool (aka Data Dude)](DataDude-BadExample.jpg)  
 
+:::greybox 
 **Note:** In order to achieve this you MUST use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost.
+:::
 
 There are few options available to perform data type change correctly:
 
@@ -68,18 +72,18 @@ Using EF Code First Migrations is comparable to using one of the below combinati
 
 ```
 public partial class GenderToString : DbMigration
-    {
-        public override void Up()
-        {
-            AlterColumn("dbo.Customers", "Gender", c => c.String(maxLength: 2));
-        }
+{
+   public override void Up()
+   {
+      AlterColumn("dbo.Customers", "Gender", c => c.String(maxLength: 2));
+   }
         
    
-        public override void Down()
-        {
-            AlterColumn("dbo.Customers", "Gender", c => c.Boolean(nullable: false));
-        }
-    }
+   public override void Down()
+   {
+       AlterColumn("dbo.Customers", "Gender", c => c.Boolean(nullable: false));
+   }
+}
 ```
 ::: bad
 Bad Example - the default scaffolded migration will not perform any mapping of your data  
@@ -87,17 +91,18 @@ Bad Example - the default scaffolded migration will not perform any mapping of y
 
 ```
 public partial class GenderToString : DbMigration
- {
- public override void Up()
- {
- AddColumn("dbo.Customers", "GenderTemp", c => c.Boolean(nullable: false));
- Sql("UPDATE [dbo].[Customers] set GenderTemp = Gender");
- DropColumn("dbo.Customers", "Gender");
- AddColumn("dbo.Customers", "Gender", c => c.String(maxLength: 2));
- Sql("UPDATE [dbo].[Customers] set Gender = 'M' where GenderTemp=1");
- Sql("UPDATE [dbo].[Customers] set Gender = 'F' where GenderTemp=0");
- DropColumn("dbo.Customers", "GenderTemp");
- }
+{
+   public override void Up()
+   {
+     AddColumn("dbo.Customers", "GenderTemp", c => c.Boolean(nullable: false));
+     Sql("UPDATE [dbo].[Customers] set GenderTemp = Gender");
+     DropColumn("dbo.Customers", "Gender");
+     AddColumn("dbo.Customers", "Gender", c => c.String(maxLength: 2));
+     Sql("UPDATE [dbo].[Customers] set Gender = 'MA' where GenderTemp=1");
+     Sql("UPDATE [dbo].[Customers] set Gender = 'FE' where GenderTemp=0");
+     DropColumn("dbo.Customers", "GenderTemp");
+   }
+}
 ```
 ::: good
 Good Example - Data motion with EF Migrations
