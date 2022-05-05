@@ -20,7 +20,13 @@ guid: b19ff173-49dc-4504-a549-5f26d3c82b83
 
 <!--endintro-->
 
-With Frameworks like Entity Framework Core you can write unit tests to catch data issues  before it becomes an problem. With legacy applications, creating a stored procedure will have the same effect with a bit more effort. 
+## Modern Frameworks (EF) 
+
+With Frameworks like Entity Framework you can write unit tests to catch data issues before it becomes an problem. 
+
+## Legacy Applications
+
+With legacy applications, creating a stored procedure will have the same effect with a bit more effort. 
 
 ![Figure: How do I make sure these 4 records never go missing?](TimeProDropDown.png)  
 
