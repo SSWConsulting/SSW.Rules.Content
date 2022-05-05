@@ -19,3 +19,4 @@ Prepare for the future of web development by checking out these Blazor learning 
 - [Blazor WASM by example](https://www.packtpub.com/product/blazor-webassembly-by-example/9781800567511)
 - [Modern Web Dev with Blazor and .NET 6 with Jason Taylor](https://youtu.be/lRYrhj9lwQk)
 - [Microsoft Blazor tutorial](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro)
+- [Microsoft Documentation](https://docs.microsoft.com/en-au/aspnet/core/blazor)
