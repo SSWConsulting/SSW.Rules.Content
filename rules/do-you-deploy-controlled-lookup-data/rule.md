@@ -57,11 +57,11 @@ else
 
 **Figure: This application has "Controlled Lookup Data" here, because if the "BillableCount" is greater than 0, the color shown will be yellow**
 
-## Modern Frameworks (EF)
+### Modern Frameworks (EF)
 
 Entity Framework allows for [Data Seeding](https://docs.microsoft.com/en-us/ef/core/modeling/data-seeding) which is the process of populating a database with an initial set of data. This is perfect for populating controlled lookup data. 
 
-## Legacy Applications 
+### Legacy Applications 
 
 For older applications, create SQL scripts like the example below.  
 
@@ -129,8 +129,7 @@ VALUES
 GO
 ```
 
-
-**Figure: This data must be deployed, just like we deploy a schema.**
+**Figure: This data must be deployed, just like we deploy a schema**
 
 ::: greybox
 **Note**: Now you need to add a test for your controlled data. 
