@@ -5,6 +5,10 @@ uri: do-you-check-your-controlled-lookup-data
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Jack Pettit
+    url: https://www.ssw.com.au/people/jack-pettit
 related: []
 redirects:
   - do-you-check-your-＂controlled-lookup-data＂-(aka-reference-data)-is-still-there-with-procvalidate
