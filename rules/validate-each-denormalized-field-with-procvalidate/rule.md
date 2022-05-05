@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Schema - Do you validate each "Denormalized Field" with procValidate?
-uri: validate-each-denormalized-field-with-procvalidate
+title: Schema - Do you validate each "Denormalized Field"?
+uri: validate-each-denormalized-field
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -9,6 +9,7 @@ related: []
 redirects:
   - do-you-validate-each-denormalized-field-with-procvalidate
   - schema-do-you-validate-each-denormalized-field-with-procvalidate
+  - validate-each-denormalized-field-with-procvalidate
 created: 2009-10-06T01:11:30.000Z
 archivedreason: null
 guid: f9056515-7c6c-4886-babd-a2af281c3a74
