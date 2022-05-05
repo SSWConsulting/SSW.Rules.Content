@@ -19,7 +19,10 @@ Let's check out some of the top tips for growing your brand awareness, audience,
 
 Here they are:
 
-* Determine your goals – What are your business goals? Subsequently, what are your marketing goals? Then align it with your tactics to see how you could be successful here. This will help you define your approach to this new social media. Key points to understand are your [brand culture, value and identity](https://www.businessnewsdaily.com/12020-tiktok-business-features.html), this way you will make sure that you ensure the content you will create is valuable in helping you achieve your goals.
+* Determine your goals:
+  * What are your business goals and how will they affect your marketing goals?
+  * What tactics will you then use to make it successful? This will help you define your approach to this new social media. 
+  * Key points to understand are your [brand culture, value and identity](https://www.businessnewsdaily.com/12020-tiktok-business-features.html), this will help you keep in tune with your target audience.
 * Share original and valuable information – TikTok encourage users to make original videos and the algorithm tends to recommend original videos to the audience, even if they don’t follow you​.
 * Be consistent – Post every day or every 3 days​. Remember that showing up often is important for growing any profile on social media.
 * Participate in TikTok challenges – This is an easy way to increase engagement and visibility.
