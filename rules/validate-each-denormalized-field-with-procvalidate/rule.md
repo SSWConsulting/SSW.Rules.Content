@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Schema - Do you validate each "Denormalized Field"?
+title: Do you validate each "Denormalized Field"?
 uri: validate-each-denormalized-field
 authors:
   - title: Adam Cogan
