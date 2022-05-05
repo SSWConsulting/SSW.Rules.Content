@@ -39,9 +39,9 @@ Figure: Bad Example - the user story is too vague and broad in scope
 :::
 
 ::: greybox
-As a Marketing Manager...\
-I want to be able to search for customers by country and last name.\
-So that I can find their numbers and call customers close to me.\
+As a **Marketing Manager**,  
+I want to **be able to search for customers by country and last name**,  
+So that **I can find their numbers and call customers that are close to me**.  
 :::
 ::: good
 Figure: Good Example - Clear user story following the [INVEST principle](https://en.wikipedia.org/wiki/INVEST_(mnemonic))
