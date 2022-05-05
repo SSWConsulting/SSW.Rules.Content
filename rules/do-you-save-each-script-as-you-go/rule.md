@@ -26,7 +26,7 @@ Let's see how its done.
 
 Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. 
 
-![EF Migrations table](ef-migrations.png)
+![Figure: Example - SSW Rewards  EF Migrations table](ef-migrations.png)
 
 Watch video: [How to Use Code First with Entity Framework - Brendan Richards](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more. 
 
@@ -42,7 +42,7 @@ Keep the scripts in a separate directory, this is often named `SQLScripts`. This
 6. The application can tell if it is an old version (as a newer version may have upgraded the schema), so you only use the latest clients
 7. The application can have a "Reconcile" feature that compares the current schema to what it should be
 
-### File naming convention:
+**File naming convention:**
 
 The script file naming convention should be as follows: 
 
