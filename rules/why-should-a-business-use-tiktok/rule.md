@@ -6,7 +6,7 @@ authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/cammy
 related:
-  - do-you-edit-your-videos-for-tiktok
+  - edit-your-videos-for-tiktok
 created: 2022-05-02T06:17:54.927Z
 guid: 395f9fbf-8822-49cf-8575-0644baa38f1a
 ---
