@@ -47,7 +47,6 @@ index:
 - do-you-have-a-content-marketing-strategy-for-your-business
 - let-your-clients-know-they-are-valued
 - manage-your-photos
-- do-you-monitor-your-seo-effectively
 - use-google-tag-manager
 - do-you-share-when-you-upgrade-an-application
 - make-money-from-your-content
