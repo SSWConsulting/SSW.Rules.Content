@@ -23,7 +23,7 @@ Use the suffix "Computed" to clearly distinguish that this field is a computed f
 
 
 ::: good  
-![Figure: Good Example - There was no code in the middle tier to calculate this (and it has the correct name)](NormalizedFields\_Good.jpg)  
+![Figure: Good Example - There was no code in the middle tier to calculate this (and it has the correct name)](NormalizedFields_Good.jpg)  
 :::
 
 <!--endintro-->
@@ -34,7 +34,7 @@ You can use user-defined functions (UDF) from code in a reusable function, this 
 
 
 ```
-ALTER FUNCTION [dbo].[udfEmpTime\_TimeTotalComputed]
+ALTER FUNCTION [dbo].[udfEmpTime_TimeTotalComputed]
 (
 @TimeStart as DateTime,
 @TimeEnd as DateTime 
