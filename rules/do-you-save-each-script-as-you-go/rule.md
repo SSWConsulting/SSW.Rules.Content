@@ -24,7 +24,7 @@ Let's see how its done.
 <!--endintro-->
 
 ## Modern Frameworks (EF)
-**(Check with Matt W - If we are deleting links to SSW's old tools )**
+**(Add an Image of Migrations)**
 
 Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework 6. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. Watch [this video](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more. We also recommend using SSW SQL Validate tool to make sure your schema hasn't been manually modified.
 
