@@ -62,15 +62,15 @@ Dear Mr Northwind,
 When you run the Northwind v1.0 (Rich Client) it will 
 automatically upgrade the database for you. 
 
-Just make sure you have dbo permissions: 
-Let me know if you run into any issues, 
-otherwise have a great day. 
+Just make sure you have dbo permissions ⚠️
+ 
+Let me know if you run into any issues.
 
 Regards, 
 Eric Phan
 ```
 ::: good 
-**Figure: Better example - run SQL scripts in the application**
+**Figure: Better example - run SQL scripts in the application. There is a tool called [SQL Deploy | Reconcile](http://sqldeploy.com/) .**
 :::
         
 ```
@@ -78,10 +78,10 @@ Dear Mr Northwind,
 
 We have just deployed a new release and updated the database for you. Please view it live here.
 
-If you have any questions please let me know,
-otherwise have a great day. 
+If you have any questions please let me know.
 
-Regards, 
+Regards,
+ 
 Eric Phan
 
 ```
