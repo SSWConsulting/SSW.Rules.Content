@@ -29,5 +29,5 @@ Tools like [Red Gates SQL Compare](https://www.red-gate.com/products/sql-develop
 
 ![Figure: Using Red Gates SQL Compare](red-gate-sql-compare.png)  
 
-![Figure: Using Microsoft's Schema Compare](microsoft-schema-compare.png)  
+![Figure: Using Visual Studio SQL Schema Compare](microsoft-schema-compare.png)  
 
