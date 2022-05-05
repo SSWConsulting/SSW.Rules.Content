@@ -126,8 +126,8 @@ Jason
 
 ### Hi Jason,
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
+> 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
+> 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn’t find a camera**
 
 Bob
 
