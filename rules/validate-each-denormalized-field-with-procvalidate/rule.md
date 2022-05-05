@@ -1,21 +1,21 @@
 ---
 type: rule
-archivedreason: 
-title: Schema - Do you validate each "Denormalized Field" with procValidate?
-guid: f9056515-7c6c-4886-babd-a2af281c3a74
-uri: validate-each-denormalized-field-with-procvalidate
-created: 2009-10-06T01:11:30.0000000Z
+title: Do you validate each "Denormalized Field"?
+uri: validate-each-denormalized-field
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-validate-each-denormalized-field-with-procvalidate
-- schema-do-you-validate-each-denormalized-field-with-procvalidate
-
+  - do-you-validate-each-denormalized-field-with-procvalidate
+  - schema-do-you-validate-each-denormalized-field-with-procvalidate
+  - validate-each-denormalized-field-with-procvalidate
+created: 2009-10-06T01:11:30.000Z
+archivedreason: null
+guid: f9056515-7c6c-4886-babd-a2af281c3a74
 ---
 
-Ideally you should be using computed columns as per https://rules.ssw.com.au/use-computed-columns-rather-than-denormalized-fields
+Ideally you should be using computed columns as per [Schema - Do you use computed columns rather than denormalized fields?](https://rules.ssw.com.au/use-computed-columns-rather-than-denormalized-fields)
 
 Many of the databases that SSW works with make use of denormalized fields. We believe this is with good reason. However, several precautions should be taken to ensure that the data held within these fields is reliable. This is particularly the case several applications are updating your denormalized data. To illustrate, let's say that we want to show all Customers with a calculated field totalling their order amount (ie Customer.OrderTotal).
 
@@ -61,7 +61,9 @@ ORDER BY Customer.CustomerID
 ```
 
 
- Figure: A view to get customer totals when no denormalized fields are used  If we had a denormalized field, the user or developer would simply have run the following query: 
+**Figure: A view to get customer totals when no denormalized fields are used.**
+
+If we had a denormalized field, the user or developer would simply have run the following query: 
 
 
 ```
@@ -73,8 +75,11 @@ ORDER BY Customer.CustomerID
 ```
 
 
- Figure: Queries are much simpler with denormalized fields  
-Note that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables
+**Figure: Queries are much simpler with denormalized fields**
+
+::: greybox
+**Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables
+:::
 
 ::: good
 <font size="2">Performance is better for read-intensive reports</font>
@@ -135,7 +140,8 @@ AS
 </pre>
 </pre>
 
-<dd>Figure&#58; Standard view for validation of a denormalized field </dd>
+**Figure: Standard view for validation of a denormalized field**
+
 3. Create a stored procedure (based on the above view) that validates whether all denormalized fields have a stored procedure that validates the data within them 
 <pre><pre>CREATE PROCEDURE procValidateDenormalizedFieldValidators
 AS
@@ -156,6 +162,6 @@ AS
 </pre>
 </pre>
 
-<dd>Figure&#58; Standard stored procedure for validation of a&#160;denormalized field </dd>
+**Figure: Standard stored procedure for validation of a denormalized field**
 
  If you want to know how to implement denormalized fields, see our rules [Do you use triggers for denormalized fields?](http&#58;//www.ssw.com.au/ssw/standards/rules/rulestobettersqlserverdatabases.aspx#triggersdenormalized)
