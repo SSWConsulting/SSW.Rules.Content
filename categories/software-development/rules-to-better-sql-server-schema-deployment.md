@@ -21,14 +21,12 @@ index:
 - the-application-do-you-understand-the-danger-and-change-permissions-so-schema-changes-can-only-be-done-by-the-schema-master
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
-
-If you still need help, visit [SSW Consulting Services](http&#58;//www.ssw.com.au/ssw/Consulting/Default.aspx)and book in a consultant.
 
 The deployment of your schema is critical to your application. 
 You should never get an error message reported from a user like:
 
-"When I click the Save button on the product form it gives an error message about a missing field."
+> "When I click the Save button on the product form it gives an error message about a missing field."
+
 Bottom line is the customers' database schema should always be correct, should be managed automatically by the app and if it is not, it is their problem.
 
 If you are using modern tools properly, this should never happen. 
