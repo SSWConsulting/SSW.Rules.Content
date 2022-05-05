@@ -55,7 +55,7 @@ else
 ```
 
 
-**Figure: I think we have "Controlled Lookup Data" here, because if the "BillableCount" is greater than 0, the color shown will be yellow**
+**Figure: This application has "Controlled Lookup Data" here, because if the "BillableCount" is greater than 0, the color shown will be yellow**
 
 ## Modern Frameworks (EF)
 
@@ -133,5 +133,7 @@ GO
 **Figure: This data must be deployed, just like we deploy a schema.**
 
 ::: greybox
-**Note**: Now you need to add a test for your controlled data. Check out [Do you check your "Controlled Lookup Data" (aka Reference Data) is still there?](/do-you-check-your-controlled-lookup-data)
+**Note**: Now you need to add a test for your controlled data. 
+
+Check out [Do you check your "Controlled Lookup Data" (aka Reference Data) is still there?](/do-you-check-your-controlled-lookup-data)
 :::
