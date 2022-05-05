@@ -5,7 +5,7 @@ Welcome to SSW.Rules.Content (The Data in markdown). Thank you for contributing 
 
 <img align="left" width="32" height="22" src="https://raw.githubusercontent.com/SSWConsulting/SSW.Rules.Content/main/_docs/images/youtube_social_icon_red.png">
 
-[SSW.Rules YouTube Channel](https://www.youtube.com/channel/UCX3zjU1MYddc7vUuMz-t2og)
+[SSW.Rules YouTube Channel](https://www.youtube.com/channel/UCKqEo5bl8ODqYZCKsq2xK5w)
 
 ### Pull Requests, Builds and Releases
 
