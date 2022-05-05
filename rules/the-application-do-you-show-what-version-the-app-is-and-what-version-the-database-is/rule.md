@@ -17,25 +17,20 @@ guid: f72682d0-f992-4021-ba50-16f394d0d2ec
 ---
 It is best practice to always include an applications version somewhere within  the app, but do you also include the database version, its just as important! 
 
-**(Check with Matt W - Should we change this image to Rules version)**
 ![Figure: Everyone shows the version number somewhere on their app](LinkAuditor.png)  
 
 Let's see how to show the Database version:
  
 <!--endintro-->
 
-## Modern Applications 
+## Modern Applications: 
 
-**(Check with Matt W)**
-
-These days we have frameworks such as EF to handle this for us, with its migrations and its ability to track changes. For more auditing purposes, check out [EF Core 6's auditing library](https://entityframework.net/ef-auditing). 
+These days frameworks handle database versioning for us, using code first migrations we can tell the application to automatically update the database when it starts up so its always at the latest version.
 
 ## Legacy Applications:
 For legacy applications that aren't using Frameworks such as EF, keeping track of a databases version can be done in the following way. 
 
-**(Check with Matt W)**
-
-Create a new table that will store the version info, this table is often called **_zsDataVersion**. The zs stands for....??? 
+Create a new table that will store the version info, this table is often called **_zsDataVersion**.
 ![Figure: SSW Link Auditor _zsDataVersion table](zsVersionTable.png)  
 
 For SSW Link Auditor this can be seen in the table status section, with the apps current version being 62. 
