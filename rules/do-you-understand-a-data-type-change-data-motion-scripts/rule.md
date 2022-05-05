@@ -46,11 +46,10 @@ Insert the existing data from 'ztGender' to 'Gender' (map 0 to 'F' and 1 to 'M')
 Delete the column ztGender*
 
 ![Figure: Changing the data type and data required a "Data Motion Script"](TableChar.jpg)  
+
 ::: greybox
-**Note:** zt stands for Temporary
+**Note:** zt stands for Temporary.
 :::
-
-
 
 Visual Studio does not automatically support this scenario, as data type changes are not part of the refactoring tools. However, if you add pre and post scripting events to handle the data type change the rest of the changes are automatically handled for you.
 
