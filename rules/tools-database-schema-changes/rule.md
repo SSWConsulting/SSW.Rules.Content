@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the best tools for Database Schema Update?
+title: Do you know the best tools for database schema updates?
 uri: tools-database-schema-changes
 authors:
   - title: Adam Cogan
