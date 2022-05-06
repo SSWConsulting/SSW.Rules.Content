@@ -22,7 +22,7 @@ To avoid this problem, only one person (the "Schema Master") or the release pipe
 
 ![Figure: The db_owner role is granted for one person only – the "Schema Master"](fullpermission.jpg)
 
-Who is "Schema Master"? What do they do?   
+Who is the "Schema Master"? What do they do?   
 
 ![Figure: One person should be the 'Schema Master', on an average sized project (of 5-10 devs)](Nick.png)
 
