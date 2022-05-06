@@ -34,7 +34,7 @@ Let's look at an example:
 
 
 
-```
+```cs
 if (drDay.NotBillableCount == 0 && 
     drDay.BillableCount > 0)
 {
@@ -65,7 +65,7 @@ Entity Framework allows for [Data Seeding](https://docs.microsoft.com/en-us/ef/c
 
 For older applications, create SQL scripts like the example below.  
 
-```
+```sql
 INSERT INTO dbo.[EmpTimeBillable] 
     ([CategoryID], [CategoryName], [DateCreated], 
     [DateUpdated], [EmpUpdated], [Note], [rowguid], 
