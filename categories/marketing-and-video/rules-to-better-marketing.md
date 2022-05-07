@@ -45,13 +45,12 @@ index:
 - do-you-utilize-advertising-mediums
 - do-you-know-why-you-should-have-a-blog-for-your-company
 - do-you-have-a-content-marketing-strategy-for-your-business
-- do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
 - let-your-clients-know-they-are-valued
 - manage-your-photos
 - do-you-monitor-your-seo-effectively
 - use-google-tag-manager
-- do-you-re-purpose-your-pillar-content-for-social-media
 - do-you-share-when-you-upgrade-an-application
+- make-money-from-your-content
 
 ---
 

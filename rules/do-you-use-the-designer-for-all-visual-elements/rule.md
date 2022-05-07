@@ -9,7 +9,7 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 - title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
+  url: https://www.ssw.com.au/people/alumni/ryan-tee
 related: []
 redirects: []
 
@@ -21,7 +21,6 @@ The designer should be used for all GUI design. Controls will be dragged and dro
 * ErrorProviders
 * DataSets (to allow data binding in the designer)
 
-
 <!--endintro-->
 
 Things that do not belong in the designer:
@@ -30,6 +29,12 @@ Things that do not belong in the designer:
 * Commands
 * DataAdapters
 
+However, and **DataAdapter** objects should not be dragged onto forms, as they belong in the business tier. Strongly typed  **DataSet** objects should be in the designer as they are simply passed to the business layer. Avoid writing code for properties that can be set in the designer.
 
-However, and  **DataAdapter** objects should not be dragged onto forms, as they belong in the business tier. Strongly typed  **DataSet** objects should be in the designer as they are simply passed to the business layer. Avoid writing code for properties that can be set in the designer.
-![](BadDesigner.gif) Bad example - Connection and Command objects in the Designer ![](GoodDesigner.gif) Good example - Only visual elements in the designer
+::: bad
+![Figure: Bad example - Connection and Command objects in the Designer](BadDesigner.gif)  
+:::
+
+::: good
+![Good example - Only visual elements in the designer](GoodDesigner.gif) 
+:::

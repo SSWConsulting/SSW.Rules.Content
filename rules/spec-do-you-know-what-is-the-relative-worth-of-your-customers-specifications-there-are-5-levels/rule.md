@@ -19,11 +19,11 @@ redirects:
 
 ---
 
-Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a spec review for any one of the following 5 possible cases:
+Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a spec review for any one of the following possible cases:
 
 <!--endintro-->
 
-**Types of specifications** - There are 5 levels:
+There are 5 levels/types of Specifications:
 
 ### 1. I have an idea...
 
