@@ -12,6 +12,7 @@ index:
   - use-github-topics
   - how-to-view-activity-traffic-and-contributions-of-a-project
   - do-you-know-how-to-write-a-good-pull-request
+  - github-content-changes
   - do-you-use-indentation-for-readability
   - do-you-know-to-the-requirements-to-create-a-new-repository
   - use-emojis-in-your-commits

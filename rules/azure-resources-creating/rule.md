@@ -14,8 +14,7 @@ created: 2020-10-06T00:13:27.000Z
 archivedreason: null
 guid: 007dd1f6-8ac6-4840-8f4f-a39c6f847880
 ---
-
-We’ve been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we’re saying the same thing again. **Don’t manually create your Azure resources.**
+We've been down this road before where developers had to be taught not to manually create databases and tables. Now, in the cloud world, we're saying the same thing again. **Don't manually create Azure resources.**
 
 <!--endintro-->
 
@@ -25,36 +24,35 @@ This is the most common and the worst. This is bad because it requires manual ef
 
 * Create resources in Azure and not save a script
 
-::: bad  
-![Figure: Bad Example – creating resources manually](azure resources.gif)  
+::: bad
+![Figure: Bad Example – creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
 
 Some people half solve the problem by manually creating and saving the script. This is also bad because it’s like eating ice cream and brushing your teeth – it doesn’t solve the **health** problem.
 
-::: bad  
-![Figure: Bad Example – Exporting your Resource Group as an ARM template defined in JSON](create-azure-bad2.png)  
+::: bad
+![Figure: Bad Example – Exporting your Resource Group as an ARM template defined in JSON](create-azure-bad2.png)
 :::
 
-::: bad  
-![Figure: Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked](create-azure-bad3.png)  
+::: bad
+![Figure: Warning - The templates are crazy verbose. They often don't work and need to be manually tweaked](create-azure-bad3.png)
 :::
 
 ::: greybox
- **Tip:** Save scripts in a folder called Azure  
+ **Tip:** Save scripts in a folder called Azure\
 :::
 
-::: good  
-![Figure: Good example - However you generate your ARM template, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)  
+::: good
+![Figure: Good example - However you generate your ARM template, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
 :::
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Farmer
+### Option A: Farmer (Bad Example)
 
-[https://compositionalit.github.io/farmer](https://compositionalit.github.io/farmer/)
-
+[Farmer - Making repeatable Azure deployments easy!](https://compositionalit.github.io/farmer/)
 
 * It makes creating ARM templates easier 
 * It's a great tool
@@ -66,29 +64,35 @@ So if you aren't manually creating your Azure resources, what options do you hav
 
 ### Option B: Bicep by Microsoft (recommended)
 
-[https://github.com/Azure/bicep](https://github.com/Azure/bicep)
+![](BicepLogoImage.png)
+
+[Bicep - a declarative language for describing and deploying Azure resources](https://github.com/Azure/bicep)
 
 * Is free and fully supported by Microsoft
 * Has ['az' command line integration](https://docs.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest)
-* Compiles into an ARM template for deployment
-* Much simpler syntax than ARM
+* Awesome [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep) for VS Code to author ARM Bicep files ⭐️
+* Under the covers - Compiles into an ARM JSON template for deployment
+* Much simpler syntax than ARM JSON
 * Handles dependencies automatically
-* Easiest option if you are deploying Azure App Service or Azure Functions
 
-More info: [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
+**Announcement info:** [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
+
+**Example Bicep files:** [Fullstack Webapp made with Bicep](https://github.com/william-liebenberg/BicepFlex)
 
 ::: good
 ![Figure: Good Example - Code from the Bicep using Visual Studio Code Extension](Bicep.png)
 :::
 
 ### Option C: Enterprise configuration management $$$
+
 The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like [Pulumi](https://www.pulumi.com) or [Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs). These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
 
 * They're both great tools
 * Both have free options for limited numbers of users
 * Pulumi is better because:
-    * Terraform's proprietary ‘HCL’ (Hashicorp Configuration Language), which is as bad as YAML
-    * It's a great tool that uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
+
+  * Terraform's proprietary ‘HCL’ (Hashicorp Configuration Language), which is as bad as YAML
+  * It's a great tool that uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
 
 ::: good
 ![Figure: Good Example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#](pulumi3.png)

@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Spec - What are the Specification Review Deliverables?
+title: Do you know the Specification Review deliverables?
 guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
 uri: spec-do-you-create-an-initial-release-plan-and-ballpark
 created: 2009-02-26T02:02:12.0000000Z

@@ -11,7 +11,8 @@ index:
 - do-you-know-the-5-dysfunctions-of-a-team
 - do-you-know-the-5-pillars-of-teamwork
 - chase-the-product-owner-for-clarification
-- do-you-complete-work-in-order-of-importance-aka-priorities
+- work-in-order-of-importance-aka-priorities
+- 4-quadrants-important-and-urgent
 - do-you-know-how-important-timesheets-are
 - calendar-does-your-calendar-always-accurately-show-where-you-are
 - are-you-candid-in-your-communication

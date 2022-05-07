@@ -22,7 +22,7 @@ When you are connected to the company's network, you should complete the followi
 
 <!--endintro-->
 
-### For Windows OS
+### For Windows Server
 
 Steps to add a printer to Active Directory:
 

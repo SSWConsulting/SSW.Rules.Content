@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Spec - Do you conduct a Specification Review? (ask for a coffee not a marriage)
+title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
 uri: spec-do-you-conduct-a-specification-review-ask-for-a-coffee-not-a-marriage
 authors:
   - title: Adam Cogan

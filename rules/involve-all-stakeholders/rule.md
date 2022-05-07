@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Spec – Do you make sure that all stakeholders are involved in the Spec
+title: Do you make sure that all stakeholders are involved in the Specification?
   Review?
 uri: involve-all-stakeholders
 authors:
@@ -12,12 +12,12 @@ authors:
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-created: 2022-04-21T02:36:16.736Z
-guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 redirects:
   - relevant-stakeholders-participate
+created: 2022-04-21T02:36:16.736Z
+guid: aaa9f959-435a-48e2-b75e-f08c24f3cecd
 ---
-Spec Reviews can be a long process and not being able to talk with the relevant parties that hold the vision and the budget can cause a bump in the road.        
+Specification Reviews can be a long process and not being able to talk with the relevant parties that hold the vision and the budget can cause a bump in the road.        
 
 Stakeholders are the people with the business requirements or people with the $ purse strings. They are not the devs.
 

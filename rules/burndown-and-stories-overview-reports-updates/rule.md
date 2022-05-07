@@ -1,9 +1,9 @@
 ---
 type: rule
 archivedreason: 
-title: Watch - Do You Get Regular Updates on Costs and Progress (aka Project Progress, Burndown, etc.)?
+title: Watch - Do you get regular updates on costs and progress (aka Project Progress, Burndown, etc.)?
 guid: 8b24e8bd-1bc5-4677-87fb-fcf6df669606
-uri: reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day
+uri: burndown-and-stories-overview-reports-updates
 created: 2010-05-20T10:48:01.0000000Z
 authors:
 - title: Adam Cogan
@@ -12,12 +12,13 @@ related: []
 redirects:
 - watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc
 - watch-do-you-get-regular-updates-on-costs-and-progress-(aka-project-progress-burndown-etc-)
+- reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day
 
 ---
 
 You're the one paying the bills, make sure you know where the costs are and how the project is progressing.
 
-Insist on receiving these 3 reports in every Review Meeting:
+Insist on receiving these 3 reports in every Review meeting:
 
 <!--endintro-->
 

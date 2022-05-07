@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Spec - Do you aim to start the work soon after the Specification Review?
+title: Do you aim to start the work soon after the Specification Review?
 guid: 36c3f426-3231-440e-9511-3e183a45ba41
 uri: spec-do-you-start-the-work-soon-after-the-specification-review
 created: 2013-06-24T07:08:00.0000000Z

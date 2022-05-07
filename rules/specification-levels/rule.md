@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Spec - Do you know how thorough your customer's specifications are?
+title: Do you know how thorough your customer's specifications are?
 guid: 4e313ea3-4b70-41fd-b579-10f76f5ee919
 uri: specification-levels
 created: 2011-02-28T08:25:37.0000000Z
@@ -41,9 +41,9 @@ The details have been fleshed out and allow developers to write Functional and T
 
 * We need a login page for northwind.com
 * Must match existing site look and feel
-* Username is already in the Users table in the ABC database (SQL Server 2008)
+* Username is already in the Users table in the ABC database (SQL Server)
 * Password should be at least 8 characters
-* .NET 4 is already used for the existing site so that is what this should use of course
+* .NET is already used for the existing site so that is what this should use of course
 
 ![Figure: Detailed Requirements have more of the details you want](LoginInterface.jpg)
 

@@ -26,7 +26,7 @@ When reporting bugs and giving product feedback, it is essential that you are as
 
 <!--endintro-->
 
-![Figure: Making the Product Backlog the main source of tasks](storing-tasks.jpg)
+![Figure: Making the Product Backlog the main source of tasks](report-bugs-and-suggestions.png)
 
 ### Tip 1: Draft your bug with enough details
 
