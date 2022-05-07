@@ -1,20 +1,23 @@
 ---
 type: rule
+archivedreason: 
 title: Do you monitor your SEO-effectively?
+guid: e0b7d249-3d88-4e77-a037-2b0c9e171b59
 uri: do-you-monitor-your-seo-effectively
+created: 2020-11-09T23:03:56.0000000Z
 authors:
-  - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
-    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
-  - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+- title: Jerwin Parker Roberto
+  url: https://ssw.com.au/people/jerwin-parker
+  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+- title: Tiago Araujo
+  url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
-created: 2020-11-09T23:03:56.000Z
-archivedreason: null
-guid: e0b7d249-3d88-4e77-a037-2b0c9e171b59
+
 ---
-SEO means working with a large amount of data. A single website can have even up to thousands of subpages, keywords, and internal links. If it’s operating in a competitive industry, it needs external links from thousands of domains. What if you’re optimizing several websites? The result? Big Data.
+
+SEO means working with a large amount of data. A single website can have even up to thousands of subpages, keywords, internal links. If it’s operating in a competitive industry, it needs external links from thousands of domains.  what if you’re optimizing several websites? The result? Big Data.
+
 
 <!--endintro-->
 
@@ -27,6 +30,10 @@ What can (and should) be monitored in SEO:
 5. Domain and SSL certificate expiration
 6. Being present on blacklists
 7. Robot blockers
+
+
+<font color="#333333">
+</font>
 
 At SSW, SEO workflow is:
 

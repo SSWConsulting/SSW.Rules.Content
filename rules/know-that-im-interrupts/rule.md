@@ -17,7 +17,7 @@ redirects:
 
 When somebody sends you an  **IM message**, they are interrupting you.
 
-When somebody sends you an  **email**, they are not interrupting you - assuming you keep your notifications off as per [Do you minimize your Outlook Distractions?](/minimize-outlook-distractions) You have made the decision to read your emails, so email is in actual fact far more polite than IM which can be a nuisance.
+When somebody sends you an  **email**, they are not interrupting you - assuming you keep your notifications off as per [Do you minimize your Outlook Distractions?](/do-you-minimize-your-outlook-distractions) You have made the decision to read your emails, so email is in actual fact far more polite than IM which can be a nuisance.
 
 IM is only to be used if they would like you to do something NOW.
 

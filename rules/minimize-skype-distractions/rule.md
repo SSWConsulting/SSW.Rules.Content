@@ -9,7 +9,7 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related: 
-- minimize-outlook-distractions
+- do-you-minimize-your-outlook-distractions
 - do-you-minimize-team-distractions
 redirects:
 - interruptions-do-you-minimize-skype-distractions

@@ -10,6 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Tristan Kurniawan
   url: https://ssw.com.au/people/tristan-kurniawan
+- title: Jade Mitchell
+  url: https://ssw.com.au/people/jade-mitchell
 related: []
 redirects:
 - do-you-avoid-having-＂reset＂-buttons-on-webforms

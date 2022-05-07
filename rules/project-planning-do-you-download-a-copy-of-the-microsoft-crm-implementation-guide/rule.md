@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-The [Microsoft Dynamics 365 Implementation Guide](https://www.d365implementationguide.com/books/asvr/#p=i) contains essential information on installation pre-requisites and planning, implementation tools and troubleshooting.
+The [Microsoft Dynamics 365 Implementation Guide](https://www.microsoft.com/en-us/download/details.aspx?id=50039%22%20%5co%20%22https://www.microsoft.com/en-us/download/details.aspx?id=50039) contains essential information on installation pre-requisites and planning, implementation tools and troubleshooting.
 
 <!--endintro-->
 

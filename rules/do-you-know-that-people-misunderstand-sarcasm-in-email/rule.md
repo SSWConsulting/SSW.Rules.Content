@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know that people misunderstand sarcasm in text?
+title: Do you know that people misunderstand sarcasm in email?
 guid: d057ce56-3e74-4639-92db-7e2ab191fefe
 uri: avoid-sarcasm-misunderstanding
 created: 2009-03-30T02:28:15.0000000Z

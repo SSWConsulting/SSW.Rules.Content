@@ -28,6 +28,7 @@ index:
 - do-you-provide-options-for-sharing
 - do-you-have-a-search-box-to-make-your-data-easy-to-find
 - how-to-use-gamification
+- do-you-highlight-incomplete-work-with-red-text
 - do-you-encourage-experimentation
 - do-you-know-what-guidelines-to-follow-for-wp8
 - do-you-avoid-ok-buttons-and-use-the-specific-action-as-labels-instead

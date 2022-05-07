@@ -24,9 +24,9 @@ When a user clicks on a hyperlink they expect to open an HTML file. If you click
 <!--endintro-->
 
 ::: todo
-1. Implement the icons to SSW Rules ([Issue #596](https://github.com/SSWConsulting/SSW.Rules.Content/issues/596))
+1. Implement the icons to SSW Rules 
 2. Add examples to [Example Rule + Markdown Cheatsheet](https://www.ssw.com.au/rules/rule)
-3. Improve the image examples in this rule
+3. Improve the examples in this rule
 :::
 
 Don't surprise users! For the following file/link types, use icons:
@@ -57,7 +57,7 @@ You should also use an icon to [make external links clear](/do-you-make-external
 
 Match the extension of the &lt;a&gt; tag on your CSS. The padding is to give it some space before the text (where the icon will be).
 
-**(Recommended) Using font icons, like FontAwesome**
+#### (Recommended) Using font icons, like FontAwesome
 
 Find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
@@ -69,8 +69,9 @@ a[href$='.pdf']:before
     display: inline-block;
 }
 ```
+**Figure: Adding an icon before - for different file or link types**
 
-**Using images**
+#### Using images
 
 Add the icon image to your server and add the path as background URL.
 

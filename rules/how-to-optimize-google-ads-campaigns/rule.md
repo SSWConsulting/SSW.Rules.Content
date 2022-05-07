@@ -20,13 +20,12 @@ redirects:
 
 ---
 
-Google Ads can be a useful and successful marketing platform when actively monitored and optimized. The biggest key to a successful Google Ads campaign is optimization. Optimizing your campaign will allow you to reach your target audience effectively and efficiently.
-
-This should be done daily, where possible, to ensure that ads are not running and spending money ineffectively. There are 3 important steps to do:
+Google Ads can be a useful and successful marketing platform when actively monitored and optimized. This should be done daily, where possible, to ensure that ads are not running and spending money ineffectively, **here are three important steps to achieve this:**
 
 <!--endintro-->
 
-### Set a Maximum Cost per Click 
+### Setting Maximum Cost per Click 
+
 
 Ad s can be a costly method of advertising when used incorrectly. To prevent unknown and exorbitant costs you are able to set the  **Maximum Cost per Click (Max. CPC) for each of your ads.**
 
@@ -36,7 +35,7 @@ If your Max CPC is too low compared to competitor ads you may be missing out on 
 
 ![Figure: Maximum Cost per Click can be set at the campaign, ad group or ad level](2016-02-25\_8-16-05.jpg)  
 
-**Set Unrelated Search Terms into Negative Keywords**
+**Negative Keywords**
 
 When searching using Google there are often phrases and keywords that appear that are not related to what you are after. These keywords can cause your costs to rise if people are clicking on them and your ad does not provide the information they intended.
 
@@ -46,9 +45,10 @@ Negative Keywords are able to be added to your campaign or ad group and tell Goo
 
 ![Figure: Negative Keywords ensure your ad is not shown in unrelated searches](2016-02-25\_8-18-14.jpg)  
 
-Learn more on this rule:[Do you have a negative keyword list on your campaigns?](/how-to-create-a-negative-keyword-list)
+Want to learn more about this? Check out this rule:[\[SSW Rules\] Do you know how to create a negative keyword list?](/how-to-create-a-negative-keyword-list)
 
 ### Split Testing Ads 
+
 
 As with any advertisement, it is important to test multiple ads to determine which performs best. Once ads have been running for a period of time they should be assessed and those which are underperforming should be switched off, whilst the highest performers should be copied and then tweaked and continued to run. This can be continued over the lifetime of an ad, as each ad has a certain period of effectiveness.
 

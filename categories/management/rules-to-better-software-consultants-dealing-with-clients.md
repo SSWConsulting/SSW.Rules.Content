@@ -4,7 +4,6 @@ title: Rules to Better Software Consultants - Dealing with Clients
 guid: 7f6e0ba7-b269-4090-85f6-bc413733026c
 uri: rules-to-better-software-consultants-dealing-with-clients
 index:
-- being-a-good-consultant
 - do-you-prioritize-your-existing-clients-over-prospective-ones
 - do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
 - do-you-always-follow-up-your-clients

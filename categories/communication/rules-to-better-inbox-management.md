@@ -7,7 +7,7 @@ index:
 - clean-your-inbox-per-topics
 - dones-do-you-reply-done-and-delete-the-original-email
 - how-to-hand-over-tasks-to-others
-- report-bugs-and-suggestions
+- the-right-way-to-report-bugs-and-give-feedback-suggestions
 - do-you-sort-your-emails-by-received-and-important
 - do-you-always-keep-your-sent-items
 - do-you-group-your-emails-by-conversation-and-date

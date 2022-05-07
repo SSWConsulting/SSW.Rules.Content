@@ -18,7 +18,7 @@ index:
 - use-a-sql-server-relationship-naming-standard
 - use-a-sql-server-stored-procedure-naming-standard
 - customization-do-you-have-a-naming-convention-for-your-customization-back-up-crm-4-only
-- how-to-name-documents
+- how-to-name-sharepoint-documents
 - teams-naming-conventions
 - do-you-standardise-ad-group-names
 - do-you-have-a-consistent-naming-convention-for-each-machine

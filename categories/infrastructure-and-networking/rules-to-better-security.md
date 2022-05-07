@@ -8,7 +8,6 @@ index:
 - secure-access-system
 - understand-the-dangers-of-social-engineering
 - follow-security-checklists
-- conditional-access-policies
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver
 - do-you-disable-insecure-protocols

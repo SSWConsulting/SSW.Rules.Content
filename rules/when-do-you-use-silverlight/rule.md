@@ -21,6 +21,8 @@ There is a place for Silverlight, but it can only be the 'richer' experience. In
 
 ![Figure: Silverlight does not work on an iPad, It can't be the only experience](SilverlightInIPad.png)  
 
+Further Reading:     [PCWorld](http://www.pcworld.com/article/193540/ipad_proves_that_apple_wants_to_kill_flash.html).
+
 **Data Entry Forms** 
 
 NO. HTML must be the default experience. Microsoft says for Business Apps, but be careful. Silverlight is \*Not\* for data entry forms. Tab Index Implement is very hard and end result isn’t consistent among the popular browsers. Users frequently use tab to move from Text Box to another Text Box and require consistent experience while entering data using a different browser. HTML 5 introduced autofocus, placeholder and validation feature which is useful for creating consistent Data Entry form for various browser.

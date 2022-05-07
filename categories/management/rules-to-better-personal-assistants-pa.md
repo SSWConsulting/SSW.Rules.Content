@@ -10,7 +10,6 @@ index:
 - calendar-do-you-check-someones-calendar-before-booking-an-appointment
 - calendar-do-you-allow-full-access-to-calendar-admins
 - do-you-do-daily-check-in-ins
-- send-delayed-message-in-microsoft-teams
 - do-you-encourage-your-boss-to-put-new-appointments-directly-into-his-phone
 - heads-up-when-logging-in-to-others-accounts
 - do-you-indicate-when-you-are-sending-an-email-on-behalf-of-someone-else

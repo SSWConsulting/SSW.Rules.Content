@@ -31,7 +31,6 @@ index:
 - use-emojis-in-you-channel-names
 - workstations-use-gpu
 - meeting-join-info-at-the-top
-- how-to-send-message-to-yourself-on-teams
 
 ---
 

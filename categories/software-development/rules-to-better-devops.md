@@ -19,7 +19,7 @@ index:
 - do-you-know-the-process-to-improve-the-health-of-your-web-application
 - how-to-handle-errors-in-raygun
 - do-you-do-exploratory-testing
-- report-bugs-and-suggestions
+- the-right-way-to-report-bugs-and-give-feedback-suggestions
 - do-you-use-the-best-code-analysis-tools
 - do-you-look-for-code-coverage
 - do-you-use-slack-as-part-of-your-devops

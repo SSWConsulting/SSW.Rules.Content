@@ -11,7 +11,6 @@ index:
 - know-how-to-take-great-photos-for-your-socials
 - image-standard-sizes-on-social-media
 - type-of-content-marketing-you-should-post
-- do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
 - consistent-content-across-social-media
 - do-you-re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
@@ -27,7 +26,8 @@ index:
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event
-- facebook-ads-metrics
+- how-to-advertise-using-facebook-ads
+- do-you-know-what-metrics-you-should-have-around-your-facebook-ads
 - have-urls-to-your-main-services-on-linkedin
 - linkedin-connect-your-microsoft-account
 - twitter-do-you-know-how-to-verify-your-account
@@ -36,9 +36,8 @@ index:
 - change-your-twitter-name-when-travelling
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
 - do-you-know-the-best-practices-for-your-twitter-ads
-- thank-others-for-each-reference-to-you
+- do-you-know-to-thank-others-for-each-reference-to-you
 - tweet-rules-you-follow
-- twitter-tip-content-creators
 - avoid-dates-text-in-graphics-for-events
 - profile-photos
 - manage-your-photos
@@ -49,9 +48,6 @@ index:
 - how-to-create-wechat-official-account
 - image-size-instagram
 - do-you-create-friendly-short-urls
-- why-should-a-business-use-tiktok
-- best-tips-for-getting-started-on-tiktok
-- edit-your-videos-for-tiktok
 
 ---
 
@@ -62,3 +58,4 @@ Using social media effectively is a must in Digital Marketing nowadays.
 So, here's a series of social media rules to help you improve your online presence.
 
 If you still need help, our team [can help](https://sswdigital.com/).
+

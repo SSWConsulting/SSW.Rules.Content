@@ -27,7 +27,7 @@ Storyboarding is a technique taken from movie production.
 
 There are five primary types of mockups:
 
-1. **Hand-drawn Mockups**
+1. **Hand drawn Mockups**
 2. **Wireframe Mockups**
 3. **Developer HTML Mockups**
 4. **Designer HTML + CSS Mockup**
@@ -35,13 +35,13 @@ There are five primary types of mockups:
 
 Often it's best to start with some hand-drawn ones to get started. Then if you have access to designers, complete a couple of full 'Designer Photoshop Mockups' for "look and feel" approval, then complete the balance as wireframes.
 
-### Hand-drawn Mockups
+### Hand drawn Mockup
 
 'Hand drawn Mockups' are recommended to be done with the customer. Since it doesn't deal with any styling/color issues, 'Photoshop Mockups' will be needed after.
 
 ![Figure: A 'Hand drawn mockup' example. Nice and quick for early concept design](Hand-Drawn-Mockup.jpg)  
 
-### Wireframe Mockups
+### Wireframe Mockup
 
 A layout of how the controls will look is usually all that is needed initially, without worrying about images. [An example of Wireframe Mockup](http://www.ssw.com.au/projects/ml_elaw/scenarios/index.html)
 
@@ -63,7 +63,7 @@ A layout of how the controls will look is usually all that is needed initially, 
 * Photoshop (primarily for designers who already have the skills)
 * [UXPin](http://uxpin.com/) (more sophisticated, helps you create responsive designs)
 
-### Developer HTML Mockups
+### Developer HTML Mockup
 
 These are mockups done in the front end technology that will be used. Meaning it could be done as a Web/Windows Forms/Access UI with limited functionality:
 
@@ -71,7 +71,7 @@ These are mockups done in the front end technology that will be used. Meaning it
 
 ![Figure: Developer HTML Mockup example - not recommended as it is a bad starting point from an HTML view and refactoring later is harder (if even possible) + this reeks of Bodgy Brothers and doesn't do a very good sales job](1d9b4a\_DeveloperHTMLMockup.jpg)  
 
-### Designer HTML Mockups
+### Designer HTML Mockup
 
 These are also mockups in a Web/Windows Forms with full CSS Styling and graphic designer enhancements:
 
@@ -79,7 +79,7 @@ These are also mockups in a Web/Windows Forms with full CSS Styling and graphic 
 
 ![Figure: Designer HTML Mockup - not recommend because it is time-consuming to make changes (and change is all you do at the beginning of a project)](11fe40\_HTMLMockup.jpg)  
 
-### Designer Mockups
+### Designer Mockup
 
 These are concept mockups produced by designers in Photoshop providing a guidance of the final look with full styling.
 
@@ -105,7 +105,8 @@ Mock-ups notes should also include the business rules that apply to the page. If
 ![Figure: Good Example - This mockup states the validation and business rules that apply to the page](88215b\_Mockup\_1.jpg)  
 :::
 
-### Don't use UML - it is virtually impossible to get clients to understand these
+### Don't use UML - it is virtually impossible to get clients to understand these.
+
 
 ::: bad  
 ![Figure: Don't use UML diagram which clients can't fully understand](Bad-UML.jpg)  
@@ -113,11 +114,13 @@ Mock-ups notes should also include the business rules that apply to the page. If
 
 UML is not all bad. UML and other formal documentation methods can be useful for developers.
 
-The overarching problem is it gets out of date, so it gathers dust (aka Technical Debt). A better way of getting documentation is to flesh out the classes and use the VS Dependency Graph or NDepend. A demo can be seen in ["A Modern Architecture Review" presentation](https://www.slideshare.net/SSWconsulting/a-modern-architecturereviewusingcodereviewtools).
+The overarching problem is it gets out of date, so it gathers dust (aka Technical Debt).
+A better way of getting documentation is to flesh out the classes and use the VS Dependency Graph or NDepend.
+A demo can be seen in the 2nd video ["A Modern Architecture Review"](http://channel9.msdn.com/Events/TechEd/Australia/2012?sort=sequential&direction=desc&term=&s=adam%2Bcogan).
 
 ![Figure: Tools like NDepend can generate diagrams from your source code so there's no "Technical Debt"](23f19c\_ndepend.png)  
 
-### Summary
+## Summary
 
 Mock-ups and wireframes are far easier to understand.
 
@@ -136,4 +139,5 @@ Here are some more hot tips on mock-ups:
 * A tip I picked up from Tom Howe was to always add a client's branding into the mockup - it makes a big impression
 * Mock-ups should follow [standard interface rules](/rules-to-better-interfaces-general-usability-practices)
 * Write the related business rules at the bottom of each screen - and turn into unit tests.
+
 :::

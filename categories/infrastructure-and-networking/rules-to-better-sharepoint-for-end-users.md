@@ -5,14 +5,13 @@ guid: 0743c4c3-f36c-4fe0-a36b-02ec0d8d5fcf
 uri: rules-to-better-sharepoint-for-end-users
 index:
 - avoid-using-specific-characters-in-friendly-url
-- how-to-name-documents
+- how-to-name-sharepoint-documents
 - sharepoint-search
 - how-to-view-changes-made-to-a-sharepoint-page
 - keyboard-shortcuts
 - do-you-know-why-you-should-use-open-with-explorer-over-skydrive-pro
 - rename-teams-channel-folder
 - change-link-sharing-default-behaviour
-- consistent-sharepoint-site
 
 ---
 

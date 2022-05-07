@@ -23,7 +23,6 @@ index:
 - test-your-microphone-camera-and-audio-before-meetings
 - have-a-nice-background-in-your-home-office
 - have-good-lighting-on-your-home-office
-- camera-on-for-clients
 - efficiency-do-you-use-two-monitors
 - do-you-keep-a-chat-window-open-at-the-side-of-the-screen-at-all-times
 - do-you-share-screens-when-working-remotely

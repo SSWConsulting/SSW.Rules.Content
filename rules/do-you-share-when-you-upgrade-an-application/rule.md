@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Moved to https://www.ssw.com.au/rules/type-of-content-marketing-you-should-post
+archivedreason: 
 title: Do you share when you upgrade an application?
 guid: 4faff5ae-caf5-46e1-a2be-013443a473fb
 uri: do-you-share-when-you-upgrade-an-application

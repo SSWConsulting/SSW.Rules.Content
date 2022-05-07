@@ -19,13 +19,13 @@ index:
 - triaging-do-you-understand-that-all-feedback-will-be-worked-on-in-the-next-sprint
 - watch-are-you-aware-of-existing-issues
 - watch-do-you-conduct-user-acceptance-testing-thoroughly
-- burndown-and-stories-overview-reports-updates
+- reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day
 - watch-do-you-get-sprint-forecasts
 - watch-do-you-know-what-is-going-on
 - do-you-know-the-costs-of-old-versus-new-technologies
 - do-you-know-how-to-manage-the-product-backlog
 - do-you-estimate-business-value
-- give-emails-a-business-value
+- do-you-give-your-emails-a-business-value
 - technical-debt
 - do-you-use-stories-overview-report-to-find-out-where-the-project-is-at
 - product-owner-do-you-know-how-to-update-the-backlog

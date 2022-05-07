@@ -16,7 +16,7 @@ index:
 - do-you-cc-everyone-and-reply-to-all-when-necessary
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
-- follow-up-emails-effectively
+- do-you-follow-up-emails-effectively
 - checked-by-xxx
 - do-you-know-who-to-put-in-the-to-field
 - send-email-tasks-to-individuals
@@ -37,7 +37,6 @@ index:
 - good-email-subject
 - change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
-- duplicate-email-draft
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
 - do-you-respond-to-each-email-individually
@@ -76,7 +75,7 @@ index:
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
 - how-to-fix-small-web-errors
-- give-emails-a-business-value
+- do-you-give-your-emails-a-business-value
 - add-a-bot-signature-on-automated-emails
 - great-email-signatures
 - do-you-use-email-signatures

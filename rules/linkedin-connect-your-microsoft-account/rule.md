@@ -8,7 +8,7 @@ authors:
 created: 2022-01-06T04:04:16.301Z
 guid: 61086e27-442b-489e-bb37-53af2b31cc41
 ---
-Outlook (and other Microsoft 365 apps) has a great feature that shows users' LinkedIn profiles - but only if the user has connected their Microsoft account to LinkedIn.
+Outlook (and other Microsoft 365 apps) has a great feature that shows users' LinkedIn profiles - but only if the user has connected their Microsoft account.
 
 <!--endintro-->
 

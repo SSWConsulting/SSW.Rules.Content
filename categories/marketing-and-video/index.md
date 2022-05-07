@@ -6,7 +6,7 @@ index:
 - rules-to-better-marketing
 - rules-to-better-marketing-plans
 - rules-to-better-branding
-- rules-to-better-google-ads-and-sem
+- rules-to-better-google-ads
 - rules-to-better-google-rankings
 - rules-to-better-inbound-calls
 - rules-to-better-outbound-calls

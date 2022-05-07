@@ -3,8 +3,8 @@ type: rule
 title: Cost - Do you manage the cost of your Azure resources?
 uri: manage-costs-azure
 authors:
-  - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+  - title: Kiki Biancatti
+    url: https://www.ssw.com.au/people/kiki
 related:
   - do-you-have-an-azure-spend-master
 created: 2021-09-29T07:27:48.269Z

@@ -36,7 +36,7 @@ Want to learn more? Watch Jean Thirion's longer video on this topic:
 `youtube: https://www.youtube.com/embed/Mna0QBFB6CU`
 
 ::: bad
-![Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)
+![Figure: Bad Example - You shouldn't look for files on network shares](https://www.ssw.com.au/rules/static/0229b18de57f44d63a8390b1ce886008/1d69c/teams%20-%20network%20share.png "Figure: Bad Example - You shouldn't look for files on network shares")
 :::
 
 Don't start searching from your start menu either for a program whether that be Notepad, Notepad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later.  It's easy to forget to do.

@@ -36,7 +36,7 @@ To see more about how the system works, watch this cool 4min video from Ubiquiti
 `youtube: https://www.youtube.com/embed/wh_nPEOtLzc`
 
 ::: bad
-![Figure: Bad Example - Invixium Fingerprint Scanners often give an inconsistent User Experience, not fun for your guests](invixium.jpg)
+![Figure: Bad Example - Fingerprint Scanners often give an inconsistent User Experience, not fun for your guests](invixium.jpg)
 :::
 
 ::: good

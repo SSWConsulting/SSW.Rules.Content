@@ -10,9 +10,8 @@ index:
 - do-you-manage-up
 - do-you-know-the-5-dysfunctions-of-a-team
 - do-you-know-the-5-pillars-of-teamwork
-- chase-the-product-owner-for-clarification
-- work-in-order-of-importance-aka-priorities
-- 4-quadrants-important-and-urgent
+- do-you-chase-your-manager-before-he-has-to-chase-you-e-g-asking-for-clarification
+- do-you-complete-work-in-order-of-importance-aka-priorities
 - do-you-know-how-important-timesheets-are
 - calendar-does-your-calendar-always-accurately-show-where-you-are
 - are-you-candid-in-your-communication
