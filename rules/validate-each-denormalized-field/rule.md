@@ -56,7 +56,6 @@ ORDER BY Customer.CustomerID
 
 If we had a denormalized field, the user or developer would simply have run the following query: 
 
-
 ```
 SELECT 
     Customer.CustomerID, 
@@ -64,8 +63,6 @@ SELECT
 FROM Customer 
 ORDER BY Customer.CustomerID
 ```
-
-
 **Figure: Queries are much simpler with denormalized fields**
 
 ::: greybox
