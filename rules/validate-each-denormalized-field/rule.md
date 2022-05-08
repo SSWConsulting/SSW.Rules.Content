@@ -89,7 +89,6 @@ For example, if records are accidentally deleted directly in the database, there
 
 However, there are reasons against using denormalized fields:
 
-
 ::: bad
 They have to be maintained and can potentially get out of synch
 :::
