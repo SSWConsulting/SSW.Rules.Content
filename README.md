@@ -18,7 +18,8 @@ Builds are done in AzureDevOps, after a rule is edited a Pull Request is created
 ## Structure
 - Rules live in the rules folder
 - Categories live in the categories folder
-	@@ -23,5 +22,5 @@ Builds are done in AzureDevOps, after a rule is edited a Pull Request is created
+- Each rule has a folder containing rule.md and images/assets
+- Rules are organised into categories
 - A rule can belong to multiple categories
 - Category pages link to rules via frontmatter data
 
