@@ -23,12 +23,8 @@ With this example in mind, the main reasons we use denormalized fields are:
 
 <!--endintro-->
 
-
-
-
-
 ::: good
-<font size="2">Reducing development complexity</font>
+Reducing development complexity
 :::
 
 
