@@ -82,14 +82,12 @@ When there a multiple tables in a SQL Server view
 They cannot be updated in one hit - they must be updated one table at a time.
 
 ::: good
-<font size="2">It is a built-in validation device</font>
+It is a built-in validation device
 :::
 
+For example, if records are accidentally deleted directly in the database, there is still a validation check for the correct totals. The value of this is mitigated when there is a full audit log on the database
 
- For example, if records are accidentally deleted directly in the database, there is still a validation check for the correct totals. The value of this is mitigated when there is a full audit log on the database
-
-However, there are reasons against using denormalized fields
-
+However, there are reasons against using denormalized fields:
 
 ::: bad
 <font size="2">They have to be maintained and can potentially get out of synch</font>
