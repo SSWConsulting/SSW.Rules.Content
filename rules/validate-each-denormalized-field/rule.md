@@ -92,58 +92,56 @@ However, there are reasons against using denormalized fields:
 ::: bad
 They have to be maintained and can potentially get out of synch
 :::
-
+ 
 This can make them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields
 
-
 ::: bad
-<font size="2">They can be seen as an unnecessary waste of space</font>
+They can be seen as an unnecessary waste of space
 :::
- 
- 
+
 All in all, we choose to still use denormalized fields because they can save development time. We do this with some provisos. In particular, they must be validated correctly to ensure the integrity of the data.
 
 Here is how we ensure that this data is validated:
 
 1. Change the description on any denormalized fields to include "Denormalized" in the description - "Denormalized: Sum(OrderTotal) FROM Orders" in description in SQL Server Management Studio.
 2. Create a view that lists all the denormalized fields in the database - based on the description field. 
-<pre><pre>CREATE VIEW dbo.vwValidateDenormalizedFields
-AS
-    SELECT OBJECT_NAME(id) AS TableName, 
-        COL_NAME(id, smallid) AS ColumnName,
-        CAST([value] AS VARCHAR(8000)) AS Description,
-        'procValidate_' + OBJECT_NAME(id) + 
-        '_' + COL_NAME(id, smallid) as
-        ValidationProcedureName
-    FROM dbo.sysproperties
-    WHERE (name = 'MS_Description') AND 
-                 (CAST([value] AS VARCHAR(8000))
-                  LIKE '%Denormalized&#58;%')
-</pre>
-</pre>
 
-**Figure: Standard view for validation of a denormalized field**
+  ```
+  CREATE VIEW dbo.vwValidateDenormalizedFields
+  AS
+      SELECT OBJECT_NAME(id) AS TableName, 
+          COL_NAME(id, smallid) AS ColumnName,
+          CAST([value] AS VARCHAR(8000)) AS Description,
+          'procValidate_' + OBJECT_NAME(id) + 
+          '_' + COL_NAME(id, smallid) as
+          ValidationProcedureName
+      FROM dbo.sysproperties
+      WHERE (name = 'MS_Description') AND 
+                   (CAST([value] AS VARCHAR(8000))
+                    LIKE '%Denormalized&#58;%')
+  ```
+  **Figure: Standard view for validation of a denormalized field**
 
 3. Create a stored procedure (based on the above view) that validates whether all denormalized fields have a stored procedure that validates the data within them 
-<pre><pre>CREATE PROCEDURE procValidateDenormalizedFieldValidators
-AS
-    SELECT 
-        ValidationProcedureName AS
-        MissingValidationProcedureName 
-    FROM vwValidateDenormalizedFields
-    WHERE ValidationProcedureName NOT IN
-    (
-        SELECT ValidationProcedureName
-        FROM vwValidateDenormalizedFields AS vw
-        LEFT JOIN sysobjects 
-        ON 
-            vw.ValidationProcedureName = 
-            OBJECT_NAME(sysobjects.id)
-        WHERE id IS NOT NULL
-    )
-</pre>
-</pre>
 
-**Figure: Standard stored procedure for validation of a denormalized field**
+  ```
+  CREATE PROCEDURE procValidateDenormalizedFieldValidators
+  AS
+      SELECT 
+          ValidationProcedureName AS
+          MissingValidationProcedureName 
+      FROM vwValidateDenormalizedFields
+      WHERE ValidationProcedureName NOT IN
+      (
+          SELECT ValidationProcedureName
+          FROM vwValidateDenormalizedFields AS vw
+          LEFT JOIN sysobjects 
+          ON 
+              vw.ValidationProcedureName = 
+              OBJECT_NAME(sysobjects.id)
+          WHERE id IS NOT NULL
+      )
+  ```
+  **Figure: Standard stored procedure for validation of a denormalized field**
 
- If you want to know how to implement denormalized fields, see our rules [Do you use triggers for denormalized fields?](http&#58;//www.ssw.com.au/ssw/standards/rules/rulestobettersqlserverdatabases.aspx#triggersdenormalized)
+If you want to know how to implement denormalized fields, see our rule [Do you use triggers for denormalized fields?](/use-triggers-for-denormalized-fields)
