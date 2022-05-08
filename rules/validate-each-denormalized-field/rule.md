@@ -73,7 +73,6 @@ ORDER BY Customer.CustomerID
 Performance is better for read-intensive reports
 :::
 
-
 Particularly when reporting on data with a cube.
 
 
