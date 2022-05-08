@@ -81,7 +81,6 @@ When there a multiple tables in a SQL Server view
 
 They cannot be updated in one hit - they must be updated one table at a time.
 
-
 ::: good
 It is a built-in validation device
 :::
