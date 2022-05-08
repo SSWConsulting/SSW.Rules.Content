@@ -24,11 +24,11 @@ guid: b19ff173-49dc-4504-a549-5f26d3c82b83
 
 <!--endintro-->
 
-### Modern Frameworks (EF) 
+## Modern Frameworks (EF) 
 
 With Frameworks like Entity Framework you can write unit tests to catch data issues before it becomes an problem. 
 
-### Legacy Applications
+## Legacy Applications
 
 With legacy applications, creating a stored procedure will have the same effect with a bit more effort. 
 

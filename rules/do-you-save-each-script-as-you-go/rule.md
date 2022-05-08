@@ -22,7 +22,7 @@ Let's see how its done.
 
 <!--endintro-->
 
-### Modern Frameworks (EF)
+## Modern Frameworks (EF)
 
 Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. 
 
@@ -30,7 +30,7 @@ Every change you do to the schema must be either saved in code or scripted out. 
 
 Watch video: [How to Use Code First with Entity Framework - Brendan Richards](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more. 
 
-### Legacy
+## Legacy
 
 Keep the scripts in a separate directory, this is often named `SQLScripts`. This folder should only contain .sql files. 
 
@@ -46,10 +46,8 @@ Keep the scripts in a separate directory, this is often named `SQLScripts`. This
 
 The script file naming convention should be as follows: 
 
-`XXXXX_ObjectType_ObjectName_ColumnName_Description_SchemaMasterInitials.sql`
+XXXXX_ObjectType_ObjectName_ColumnName_Description_SchemaMasterInitials.sql  
 
-Example:
-
-`00089_Table_OrderStatus_Status_ChangeFromBitToChar_AC.sql`
+eg.  00089_Table_OrderStatus_Status_ChangeFromBitToChar_AC.sql 
 
 ![Figure: A list of change SQL scripts, each file name is in the correct format](ChangeScripts.jpg)
