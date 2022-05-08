@@ -75,7 +75,6 @@ Performance is better for read-intensive reports
 
 Particularly when reporting on data with a cube.
 
-
 ::: good
 When there a multiple tables in a SQL Server view
 :::
