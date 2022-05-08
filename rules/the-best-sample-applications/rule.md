@@ -24,12 +24,13 @@ Before starting a software project and evaluating a new technology, it is import
 
 ![](northwind.png)
 
-### SQL Server 2019
+### SQL Server
 
-* **AdventureWorks & Northwind** – 
+* **AdventureWorks** – 
       <https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks>
+* **Northwind** - <https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/northwind-pubs>
 
-### SQL Server 2019 and Azure SQL Database
+### SQL Server and Azure SQL Database
 
 * **WideWorldImporters Sample Database** - <https://github.com/Microsoft/sql-server-samples/tree/master/samples/databases/wide-world-importers>
 

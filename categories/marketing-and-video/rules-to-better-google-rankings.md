@@ -7,6 +7,7 @@ index:
 - how-google-ranks-pages
 - page-indexed-by-google
 - do-you-know-that-content-is-king
+- do-you-monitor-your-seo-effectively
 - do-you-know-anything-about-brand-power-and-social-signals
 - design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design
 - do-you-have-a-schema-code-on-your-website
@@ -40,6 +41,8 @@ index:
 - html-meta-tags
 - relevant-words-on-links
 - use-subdirectories-not-domains
+- website-heatmaps
+- do-you-use-american-spelling-for-your-website
 
 ---
 
