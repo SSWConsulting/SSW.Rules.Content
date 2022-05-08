@@ -52,9 +52,7 @@ GROUP BY Customer.CustomerID, Customer.SalesPersonID,
     Customer.ModifiedDate,Customer.rowguid 
 ORDER BY Customer.CustomerID
 ```
-
-
-**Figure: A view to get customer totals when no denormalized fields are used.**
+**Figure: A view to get customer totals when no denormalized fields are used**
 
 If we had a denormalized field, the user or developer would simply have run the following query: 
 
