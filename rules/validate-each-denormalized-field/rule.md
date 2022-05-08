@@ -66,12 +66,11 @@ ORDER BY Customer.CustomerID
 **Figure: Queries are much simpler with denormalized fields**
 
 ::: greybox
-**Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables
+**Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables.
 :::
 
 ::: good
-<font size="2">Performance is better for read-intensive reports</font>
-
+Performance is better for read-intensive reports
 :::
 
 
