@@ -90,10 +90,9 @@ For example, if records are accidentally deleted directly in the database, there
 However, there are reasons against using denormalized fields:
 
 ::: bad
-<font size="2">They have to be maintained and can potentially get out of synch</font>
+They have to be maintained and can potentially get out of synch
 :::
  
-
 This can make them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields
 
 
