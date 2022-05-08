@@ -69,7 +69,6 @@ ORDER BY Customer.CustomerID
 **Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables.
 :::
 
-
 ::: good
 Performance is better for read-intensive reports
 :::
