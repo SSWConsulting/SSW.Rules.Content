@@ -29,8 +29,6 @@ Reducing development complexity
 
 A denormalized field can mean that all SELECT queries in the database are simpler. Power users find it easier to use for reporting purposes - without the need for a cube. In our example, we would not need a large view to retrieve the data (as below).
 
-
-
 ```
 SELECT 
     Customer.CustomerID, 
