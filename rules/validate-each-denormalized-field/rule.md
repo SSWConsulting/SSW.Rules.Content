@@ -69,35 +69,45 @@ ORDER BY Customer.CustomerID
 **Note:** that this is not a particularly complicated example. However, you can see why it can simplify development greatly when working with a large number of tables.
 :::
 
+
 ::: good
 Performance is better for read-intensive reports
 :::
 
+
 Particularly when reporting on data with a cube.
+
 
 ::: good
 When there a multiple tables in a SQL Server view
 :::
 
+
 They cannot be updated in one hit - they must be updated one table at a time.
+
 
 ::: good
 It is a built-in validation device
 :::
 
+
 For example, if records are accidentally deleted directly in the database, there is still a validation check for the correct totals. The value of this is mitigated when there is a full audit log on the database
 
 However, there are reasons against using denormalized fields:
 
+
 ::: bad
 They have to be maintained and can potentially get out of synch
 :::
- 
+
+
 This can make them unreliable - particularly if several applications are incorrectly updating the denormalized fields. UPDATE, INSERT, DELETEs are more complicated as they have to update the denormalized fields
+
 
 ::: bad
 They can be seen as an unnecessary waste of space
 :::
+
 
 All in all, we choose to still use denormalized fields because they can save development time. We do this with some provisos. In particular, they must be validated correctly to ensure the integrity of the data.
 
