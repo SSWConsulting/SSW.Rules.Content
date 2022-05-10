@@ -39,7 +39,7 @@ Make sure you know which hotkey in Premiere Pro hotkey is for markers. The defau
    ![Figure: File | Make a copy | Save in your Google Drive](save-spreadsheet.png)
 7. Copy the text from your Premiere Pro exported CSV file
    ![Figure: CSV file exported from Premiere Pro](premiere-pro-csv.png)
-8. Paste the text into your copy of the Premiere Markers to Youtube Annotation excel spreadsheet\
+8. Paste the text into your copy of the Premiere Markers to Youtube Annotation excel spreadsheet
    ![Figure: Paste text into cell A1 of this sheet](spreadsheet-paste.png)
 9. Click over to the Output: YouTube Chapter Links and copy the relevant content
    ![Figure: Click the second sheet “Youtube Chapter Links”](output-tab.png)
