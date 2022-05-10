@@ -26,7 +26,6 @@ index:
 - spelling-do-you-use-us-english
 - do-you-use-american-spelling-for-your-website
 - website-heatmaps
-- do-you-know-the-components-of-a-google-ads-campaign
 - do-you-have-an-endomarketing-strategy-in-your-company
 - do-you-know-how-to-schedule-presenters-for-webinars
 - how-to-create-a-webinar-using-gotowebinar
