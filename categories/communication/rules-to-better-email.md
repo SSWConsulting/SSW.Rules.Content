@@ -11,7 +11,7 @@ index:
 - as-per-our-conversation-emails
 - number-tasks-questions
 - do-you-know-the-common-standard-email-types
-- do-you-ask-for-content-changes-using-from-x-to-y
+- change-from-x-to-y
 - how-to-send-a-v2-if-requested
 - do-you-cc-everyone-and-reply-to-all-when-necessary
 - how-to-handle-duplicate-requests
