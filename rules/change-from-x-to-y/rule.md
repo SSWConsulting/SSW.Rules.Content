@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you ask for content changes using from X to Y?
-uri: do-you-ask-for-content-changes-using-from-x-to-y
+uri: change-from-x-to-y
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
 related: 
   - github-content-changes
-redirects: []
+redirects: 
+  - do-you-ask-for-content-changes-using-from-x-to-y
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
