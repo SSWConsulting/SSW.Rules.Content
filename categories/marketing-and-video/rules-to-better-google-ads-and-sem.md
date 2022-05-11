@@ -5,6 +5,7 @@ guid: 559d56f4-742d-4576-9a8d-8947b4bf8870
 uri: rules-to-better-google-ads-and-sem
 index:
 - the-best-practices-for-google-ads
+- do-you-know-the-components-of-a-google-ads-campaign
 - do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
 - how-to-use-audiences-on-google-ads
 - how-to-use-ad-extensions-on-google-ads
