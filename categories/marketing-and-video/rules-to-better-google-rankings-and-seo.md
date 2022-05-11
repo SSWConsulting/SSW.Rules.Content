@@ -1,8 +1,10 @@
 ---
 type: category
-title: Rules to Better Google Rankings
+title: Rules to Better Google Rankings and SEO
 guid: 4bc0fe8e-2aad-4d21-8a42-192177c93279
-uri: rules-to-better-google-rankings
+uri: rules-to-better-google-rankings-and-seo
+redirects:
+  - rules-to-better-google-rankings
 index:
 - how-google-ranks-pages
 - page-indexed-by-google
