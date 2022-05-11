@@ -44,6 +44,9 @@ index:
 - use-google-tag-manager
 - do-you-share-when-you-upgrade-an-application
 - make-money-from-your-content
+- why-your-business-should-be-on-google-my-business
+- how-to-optimize-your-google-my-business-profile
+- how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
 
 ---
 
