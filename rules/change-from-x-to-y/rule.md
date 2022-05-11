@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you ask for content changes using from X to Y?
-uri: do-you-ask-for-content-changes-using-from-x-to-y
+uri: change-from-x-to-y
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,19 +11,20 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-related: []
-redirects: []
+related: 
+  - github-content-changes
+redirects: 
+  - do-you-ask-for-content-changes-using-from-x-to-y
 created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 ---
+
 When asking for changes to be made to any file like a web page, Word document, PowerPoint slide or code, always include the original version of the content ("X") together with the changes you require ("Y"). This means you have at hand a history of the page or file as it currently stands allowing for convenient future reference and also makes it very clear to the person doing the changes exactly what the new file is meant to look like. 
 
 Make the changes even easier to see and understand by highlighting in <font style="background-color:#ff0000;">red</font> what you want to delete (only do this on the "From" section) and in <mark>yellow</mark> what you want to be added/updated (only do this on the "To" section).  All text we do not write ourselves should be indented, so this includes paragraphs we are copying and pasting (see [Do you use indentation for readability?](/do-you-use-indentation-for-readability))
 
 <!--endintro-->
-
-#### From X...
 
 ::: email-template  
 |          |     |
@@ -47,8 +48,6 @@ Make the changes even easier to see and understand by highlighting in <font styl
 ::: bad
 Figure: Bad example - original version of content has not been included in the email
 :::
-
-#### ...to Y
 
 ::: email-template  
 |          |     |
@@ -99,5 +98,3 @@ Sometimes you have a lot of content and too many changes, making the process "fr
 Some websites use GitHub to manage their files (e.g. [SSW Rules](https://github.com/SSWConsulting/SSW.Rules.Content)). GitHub makes reviewing changes easy through "Pull Requests".
 
 ![Figure: This visual preview of the changes to a Markdown file in GitHub](https://user-images.githubusercontent.com/79821522/113648341-d15f1c00-96cf-11eb-8357-81a79ac0765d.png)
-
-**More info:** [Do you know how to make content changes on GitHub?](github-content-changes)
