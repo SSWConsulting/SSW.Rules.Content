@@ -10,7 +10,7 @@ authors:
   url: https://ssw.com.au/people/jason-taylor
 - title: William Liebenberg
   url: https://www.ssw.com.au/people/william-liebenberg
-  - title: Brady Stroud
+- title: Brady Stroud
   url: https://www.ssw.com.au/people/brady-stroud
 related: []
 redirects:
