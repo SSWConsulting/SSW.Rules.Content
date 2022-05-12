@@ -22,10 +22,10 @@ However, to effectively engage with your audience, it is important to format and
 
 TikTok videos can be anywhere as short as 2 seconds to a maximum of 10 minutes.  The most effective TikTok videos range from 15 seconds to 3 mins. Here are some of the most-watched TikTok videos of all time:
 
-1. [Zach King's Harry Potter illusion - 2.2 billion views](https://www.tiktok.com/@zachking/video/6768504823336815877?is_from_webapp=1&sender_device=pc)
-2. [James Charles' Christmas wonderland transition - 1.7 billion views](https://www.tiktok.com/@jamescharles/video/6768188988441332998?is_from_webapp=1&sender_device=pc)
-3. [Khaby Lame's 'How to open a car door' video - 350 million views](https://www.tiktok.com/@khaby.lame/video/6979606181463526661?is_from_webapp=1&sender_device=pc)
-4. [Boss reacts to case in the box](https://www.tiktok.com/@tofutech/video/7082371662452165889?is_from_webapp=1&sender_device=pc)
+1. [Zach King's Harry Potter illusion - 2.2 billion views](https://www.tiktok.com/@zachking/video/6768504823336815877)
+2. [James Charles' Christmas wonderland transition - 1.7 billion views](https://www.tiktok.com/@jamescharles/video/6768188988441332998)
+3. [Khaby Lame's 'How to open a car door' video - 350 million views](https://www.tiktok.com/@khaby.lame/video/6979606181463526661)
+4. [Boss reacts to case in the box](https://www.tiktok.com/@tofutech/video/7082371662452165889)
 
 While creators are able to make longer video the optimum length would appear to be shorter.
 
