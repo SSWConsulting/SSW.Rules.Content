@@ -24,7 +24,6 @@ index:
 - do-you-rotate-your-marketing-communications
 - do-you-sell-the-sizzle-not-the-steak
 - spelling-do-you-use-us-english
-- do-you-use-american-spelling-for-your-website
 - website-heatmaps
 - do-you-have-an-endomarketing-strategy-in-your-company
 - do-you-know-how-to-schedule-presenters-for-webinars
