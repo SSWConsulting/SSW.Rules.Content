@@ -90,4 +90,4 @@ You should use an overlay reference guide when editing TikTok videos. This allow
 
 ![Figure: The same image with the overlay turned off - everything fits nicely](guide-turned-off.png)
 
-Know more on [Adam's Blog: Tech World on TikTok - Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
+Know more on [Adam Cogan Blog: Tech World on TikTok - Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
