@@ -26,7 +26,7 @@ TikTok is used in over 150 countries – the top 5 are:
 * 48M Russia
 * 41M Mexico
   
-2.   New Audience base – you will get access to the under 25s, as well as a large female audience:
+2. New Audience base – you will get access to the under 25s, as well as a large female audience:
 * 28% of the users are under 18, and 35% are aged 19-29 (that is 63% under 30)
 * 60% are female
 [28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29.
