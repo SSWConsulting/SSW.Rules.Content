@@ -44,4 +44,4 @@ Let's learn a few reasons why a business should be on TikTok:
   
    **Source:** [TikTok to the moon? The app is outgrowing its Gen Z stereotype](https://fortune.com/2021/02/15/tiktok-gen-z-users-age-groups-survey/)
   
-Know more on [Adam's Blog: Tech World on TikTok – Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
+Know more on [Adam Cogan Blog: Tech World on TikTok - Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
