@@ -37,4 +37,4 @@ Using an abstract client interface to interact with a web API has multiple benef
 
 ### References
 
-* [Blazor WebAssembly on .NET 6 - Adding Support for Open API](https://jasontaylor.dev/blazor-wasm-6-open-api)
+* [Modern Web Dev with Blazor and .NET 6 with Jason Taylor](https://www.youtube.com/watch?v=lRYrhj9lwQk)
