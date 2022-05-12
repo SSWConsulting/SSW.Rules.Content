@@ -19,19 +19,19 @@ Let's learn a few reasons why a business should be on TikTok:
 
 1. Exposure – Over [1.2 billion active users per month](https://www.businessofapps.com/data/tik-tok-statistics/).   
   TikTok is used in over 150 countries. the top 5 are:
-  * 120M United States
-  * 87M Indonesia
-  * 72M Brazil
-  * 48M Russia
-  * 41M Mexico
+  - 120M United States
+  - 87M Indonesia
+  - 72M Brazil
+  - 48M Russia
+  - 41M Mexico
 
 2. New Audience base – Get access to the under 25s, as well as a large female audience.
-  * 28% of the users are under 18, and 35% are aged 19-29 (that is 63% under 30)
-  * 60% are female [28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29.
+  - 28% of the users are under 18, and 35% are aged 19-29 (that is 63% under 30)
+  - 60% are female [28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29.
 
-3. Maximize Creativity – Explore a different side of your business, like what makes you fun and interesting. The people and culture at your company are important, and putting a fun video of your employees on TikTok is more appropriate than say LinkedIn, where the same video would be potentially received poorly as it is not “business” enough.
+3. Maximize Creativity – Explore a different side of your business, like what makes you fun and interesting. The people and culture at your company are important, and putting a fun video of your employees on TikTok is more appropriate than say LinkedIn, where the same video would be potentially received poorly as it is not "business" enough.
 
-4. Unique Algorithm – TikTok will recommend videos that match your interests. It uses data like your location, hashtags you follow or use, and of course videos you like. Tik Tok gives you a personalized feed ‘For You’, which is similar to your Instagram’s ‘Explore’ page.  
+4. Unique Algorithm – TikTok will recommend videos that match your interests. It uses data like your location, hashtags you follow or use, and of course videos you like. TikTok gives you a personalized feed ‘For You’, which is similar to your Instagram’s ‘Explore’ page.  
   As [TikTok explains](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you):
 
     > "When you open TikTok and land in your 'For You' feed, you're presented with a stream of videos curated to your interests, making it easy to find content and creators you love. This feed is powered by a recommendation system that delivers content to each user that is likely to be of interest to that particular user."
