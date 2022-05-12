@@ -8,7 +8,7 @@ authors:
     img: https://www.ssw.com.au/people/static/Jonty-Gardner-Profile-f8b9960c1c5482051abe7255cbc2dfcd.jpg
 created: 2022-05-02T05:25:08.857Z
 guid: efdbe798-d571-425d-a13c-6768b1b3d747
-redirect:
+redirects:
   - do-you-edit-your-videos-for-tiktok
 ---
 
