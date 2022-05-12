@@ -1,9 +1,9 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://www.ssw.com.au/rules/spelling-do-you-use-us-english
 title: SEO - Do you use American spelling?
 guid: be3a9688-99c7-4704-a342-6358f3bb3ffa
-uri: use-american-spelling
+uri: do-you-use-american-spelling-for-your-website
 created: 2014-10-13T19:08:40.0000000Z
 authors:
 - title: Ulysses Maclaren
@@ -11,7 +11,6 @@ authors:
 related: []
 redirects:
 - seo-do-you-use-american-spelling-for-your-website
-- do-you-use-american-spelling-for-your-website
 
 ---
 
