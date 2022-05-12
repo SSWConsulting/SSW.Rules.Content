@@ -1,6 +1,6 @@
 ---
 type: rule
-title: TikTok - Do you know why should a business use TikTok?
+title: TikTok - Do you know why a business should use TikTok?
 uri: why-should-a-business-use-tiktok
 authors:
   - title: Camilla Rosa Silva
@@ -16,17 +16,30 @@ TikTok has rapidly become one of the most popular social media platforms around 
 
 Let's learn a few reasons why a business should be on TikTok:
 
-* Exposure – Over [1.2 billion active users per month](https://www.businessofapps.com/data/tik-tok-statistics/). 
+1. Exposure – Over [1.2 billion active users per month](https://www.businessofapps.com/data/tik-tok-statistics/). 
 
-  * TikTok is used in over 150 countries. 
-  * The top 5 are the United States with 120M, Indonesia with 87M, Brazil with 72M, Russia with 48M, and Mexico with 41M.
-* Maximize creativity - This allows you to explore different aspects of your business, such as what makes you fun and interesting
-* Young and female audience - [28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29. 60% is female.
-* Unique algorithm – TikTok will recommend videos with a higher chance of you engaging with and that match your interest. From your location to hashtags and videos you like, all are taken into consideration to curate '*For You'* personalized feeds.\
-  As [TikTok explains](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you):
+TikTok is used in over 150 countries – the top 5 are:
+
+* 120M United States
+* 87M Indonesia
+* 72M Brazil
+* 48M Russia
+* 41M Mexico
+  
+2.   New Audience base – you will get access to the under 25s, as well as a large female audience:
+* 28% of the users are under 18, and 35% are aged 19-29 (that is 63% under 30)
+* 60% are female
+[28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29.
+3. Maximize Creativity – it allows you to explore a different side of your business, like what makes you fun and interesting. The people and culture at your company are important, and putting a fun video of your employees on TikTok is more appropriate than say LinkedIn, where the same video would be potentially received poorly as it is not “business” enough.
+4. Unique Algorithm – TikTok will recommend videos that match your interests. It uses data like your location, hashtags you follow or use, and of course videos you like. Tik Tok gives you a personalized feed ‘For You’, which is similar to your Instagram’s ‘Explore’ page.
+
+As [TikTok explains](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you):
 
   > "When you open TikTok and land in your 'For You' feed, you're presented with a stream of videos curated to your interests, making it easy to find content and creators you love. This feed is powered by a recommendation system that delivers content to each user that is likely to be of interest to that particular user."
-* TikTok paid advertising - There are a few different ads you can launch on TikTok, depending on your goals and audience. You can view a [guide to paid TikTok advertising](https://viscapmedia.com/articles/guide-to-paid-tiktok-advertising/).
-* Real-time analytics - Helps you track your profile's performance, understand your audience demographic and measure your success. Here's a guide to TikTok analytics.
+  
+5. Paid Ads – There are a few different types of ads that you can launch on TikTok, depending on your goals and audience. You can view a [guide to paid TikTok advertising](https://viscapmedia.com/articles/guide-to-paid-tiktok-advertising/).
+6. Real-time analytics – You can track your profile’s performance, understand your audience demographic, and measure your success
 
 ![Figure: TikTok is popular among teenagers, according to Fortune 55% (28%+26%) are 24 and under https://fortune.com/2021/02/15/tiktok-gen-z-users-age-groups-survey/](fortune-magazine-survery-on-tiktok-users.png)
+
+Related links: [Adam Cogan Blog:Tech World on TikTok – Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
