@@ -11,7 +11,6 @@ guid: efdbe798-d571-425d-a13c-6768b1b3d747
 redirect:
   - do-you-edit-your-videos-for-tiktok
 ---
-
 TikTok is a great way to engage with your audience via social media. TikTok is a more fun, informal, and relaxed social media platform compared to the likes of YouTube, Facebook, LinkedIn etc. It allows for a different style of creative freedom and spontaneity in your videos.
 
 However, to effectively engage with your audience, it is important to format and edit your videos following editing best practices that are optimised for TikTok.  Doing this will ensure your videos are noticed exactly by whom and how you intended them to be seen.
@@ -22,10 +21,10 @@ However, to effectively engage with your audience, it is important to format and
 
 TikTok videos can be anywhere as short as 2 seconds to a maximum of 10 minutes.  The most effective TikTok videos range from 15 seconds to 3 mins. Here are some of the most-watched TikTok videos of all time:
 
-1. [Zach King's Harry Potter illusion - 2.2 billion views](https://www.tiktok.com/@zachking/video/6768504823336815877?is_from_webapp=1&sender_device=pc)
-2. [James Charles' Christmas wonderland transition - 1.7 billion views](https://www.tiktok.com/@jamescharles/video/6768188988441332998?is_from_webapp=1&sender_device=pc)
-3. [Khaby Lame's 'How to open a car door' video - 350 million views](https://www.tiktok.com/@khaby.lame/video/6979606181463526661?is_from_webapp=1&sender_device=pc)
-4. [Boss reacts to case in the box](https://www.tiktok.com/@tofutech/video/7082371662452165889?is_from_webapp=1&sender_device=pc)
+* [Zach King's Harry Potter illusion - 2.2 billion views](https://www.tiktok.com/@zachking/video/6768504823336815877?is_from_webapp=1&sender_device=pc)
+* [James Charles' Christmas wonderland transition - 1.7 billion views](https://www.tiktok.com/@jamescharles/video/6768188988441332998?is_from_webapp=1&sender_device=pc)
+* [Khaby Lame's 'How to open a car door' video - 350 million views](https://www.tiktok.com/@khaby.lame/video/6979606181463526661?is_from_webapp=1&sender_device=pc)
+* [Boss reacts to case in the box](https://www.tiktok.com/@tofutech/video/7082371662452165889?is_from_webapp=1&sender_device=pc)
 
 While creators are able to make longer video the optimum length would appear to be shorter.
 
@@ -35,9 +34,9 @@ Source: https://danslee.co.uk/2020/01/21/clipped-i-watched-the-100-best-tiktok-v
 
 ## Can I add music to my TikTok Video?
 
-- If it's your unique music, then yes
-- If it's “copyright free” or “free for-profit” music, technically yes but presumably steer clear. This is due to it being very hard to search for truly copyright free music and there is almost always a copyright attached to a work.
-- If it’s someone else’s song you desire to upload which isn’t already on the TikTok library, then definitely no.
+* If it's your unique music, then yes
+* If it's “copyright free” or “free for-profit” music, technically yes but presumably steer clear. This is due to it being very hard to search for truly copyright free music and there is almost always a copyright attached to a work.
+* If it’s someone else’s song you desire to upload which isn’t already on the TikTok library, then definitely no.
 
 Because of the copyright policy for TikTok, if any content material in the video is auto-detected as copyrighted music by their system, the audio in the video could be muted, or the platform may prohibit the video from being uploaded altogether.
 
@@ -53,13 +52,13 @@ Fun Fact, here are the most used music genres for TikTok videos
 
 ## Why use captions for TikTok videos?
 
-Captions are an excellent way to open your TikTok videos to a broader audience. They increase a video's general accessibility, prompting more users to like your content. Users incluude:
+Captions are an excellent way to open your TikTok videos to a broader audience. They increase a video's general accessibility, prompting more users to like your content. Users include:
 
-- Commuting or those in a general loud area.
-- The deaf or hearing impaired
-- Learning disabilities
-- Attention deficit disorder
-- Autism
+* Commuting or those in a general loud area.
+* The deaf or hearing impaired
+* Learning disabilities
+* Attention deficit disorder
+* Autism
 
 ### Top 5 reasons for including captions:
 
