@@ -18,9 +18,10 @@ Let's check out some of the top tips for growing your brand awareness, audience,
 <!--endintro-->
 
 1. Determine your goals
-  * What are your business goals, and how do your marketing goals achieve that?
-  * What kind of content are you going to post?
-  * Does it align with your brand, culture, and identity? This will help you keep in tune with your target audience.
+
+  - What are your business goals, and how do your marketing goals achieve that?
+  - What kind of content are you going to post?
+  - Does it align with your brand, culture, and identity? This will help you keep in tune with your target audience.
 
 2. Share original and valuable information – TikTok encourage users to make original videos and the algorithm tends to recommend original videos to the audience, even if they don’t follow you.
 
@@ -38,4 +39,4 @@ Let's check out some of the top tips for growing your brand awareness, audience,
   **Note #1:** Currently, [TikTok doesn't allow live streaming from third-party tools](https://support.streamyard.com/hc/en-us/articles/360051974452-Can-I-Stream-to-TikTok-From-StreamYard-).  
   **Note #2:** The live sessions are [recommended by TikTok to be under 30 minutes](https://www.tiktok.com/creators/creator-portal/en-us/what-to-know-about-live/going-live/?enter_method=category_card), and you need to have more than [1,000 followers to access this feature].(https://digitalmarketersworld.com/how-to-live-stream-on-tiktok/)
 
-Know more on [Adam's Blog: Tech World on TikTok – Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
+Know more on [Adam Cogan Blog: Tech World on TikTok - Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
