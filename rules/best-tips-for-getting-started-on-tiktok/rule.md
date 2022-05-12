@@ -17,8 +17,6 @@ Let's check out some of the top tips for growing your brand awareness, audience,
 
 <!--endintro-->
 
-Here they are:
-
 1. Determine your goals:
   * What are your business goals, and how do your marketing goals achieve that?
   * What kind of content are you going to post?
