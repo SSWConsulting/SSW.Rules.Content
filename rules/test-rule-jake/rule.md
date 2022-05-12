@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Induction Task - Do you know this is a test rule
+title: Induction Task - Do you know this is a test rule?
 uri: test-rule-jake
 authors:
   - title: Jake Bayliss
@@ -12,7 +12,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, metu
 
 <!--endintro-->
 
-# Rules for creating test rules
+## Rules for creating test rules
 
 ### Ordered list
 
@@ -35,23 +35,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque, metu
 [I'm an inline-style link](https://www.google.com)
 
 ### Image
-
+::: good
 ![Figure: Good figure](https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
+:::
 
 ### Video
 
-This is a test video\
+This is a test video
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 
 ### Email Template
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | Jakebayliss@ssw.com.au |
 | Cc:      | adamcogan.ssw.com.au |
 | Bcc:     | mehmetozdemir@ssw.com.au |
-| Subject: | This is the test subject |\
+| Subject: | This is the test subject |
 :::email-content  
 
 ### Hi Jake,
@@ -60,13 +61,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt ac
 
 Vivamus sed aliquet urna.
 
-:::\
 :::
 
 ### Greybox
 
-:::greybox
+::: greybox
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt ac eros lobortis cursus. Vivamus vehicula sodales dolor ut ultricies
-
 :::
