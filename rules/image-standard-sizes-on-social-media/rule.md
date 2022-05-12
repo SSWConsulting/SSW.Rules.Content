@@ -104,3 +104,10 @@ On [YouTube](https://www.youtube.com/), you will find:
 * Video Thumbnail
 * Shorts
 * YouTube stories post
+
+### TikTok
+
+On **[TikTok](https://www.tiktok.com/)** they have the following variations for images:
+
+* Profile photo size: 20 x 20 pixels (minimum size to upload)
+* Cover photo for your TikTok video (ideal ratio is 1:1 or 9:16)
