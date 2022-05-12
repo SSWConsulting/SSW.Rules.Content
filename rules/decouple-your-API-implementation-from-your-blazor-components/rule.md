@@ -25,12 +25,12 @@ Following the Dependency Inversion Principle (DIP) from the SOLID principles mea
 Using an abstract client interface to interact with a web API has multiple benefits. One major benefit is that the  component is decoupled from the concrete implementation of the web API client. Decoupled Blazor components can be unit tested with a mock implementation of the web API client. The decoupled concrete implementation of the web API client can also be tested in isolation without any UI concerns, and the code is more reusable in that it could be packaged and reused in other applications without any code duplication.
 
 ::: bad  
-![Figure: Bad example - Component depends on HttpClient directly](bad-example.png)  
+![Figure: Bad example - Component depends on HttpClient directly](blazor-decouple-bad-example.png)  
 :::
 
 
 ::: good
-![Figure: Good example - Component depends on web API client abstraction](good-example.png)  
+![Figure: Good example - Component depends on web API client abstraction](blazor-decouple-good-example.png))  
 :::
 
 ### References
