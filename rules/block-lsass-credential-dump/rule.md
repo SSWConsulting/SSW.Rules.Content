@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you block dumping credentials from lsass.exe?
-uri: block-lsass-credential-dump
+title: Do you block credential dumping from lsass.exe?
+uri: block-lsass-credential-dumping
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
