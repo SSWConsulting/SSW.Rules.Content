@@ -10,7 +10,7 @@ guid: 39c59fbc-5168-43f7-ae8f-5dd1b290b41f
 ---
 If an attacker gets into a computer on your network, they can dump hashed credentials of any user that has logged on to that computer from lsass.exe. This is easy to do if you know where to go - thankfully, it is also fairly easy to block!
 
-You can read more about credential dumping here: <https://attack.mitre.org/techniques/T1003/001/>
+You can read more about [credential dumping here](https://attack.mitre.org/techniques/T1003/001/).
 
 <!--endintro-->
 
@@ -23,7 +23,7 @@ In a Domain environment, you can roll out Credential Guard with a GPO.
 1. Go to **Computer Configuration** | **Administrative Templates** | **System** | **Device Guard |** **Turn On Virtualization Based Security**
 2. Enable the policy, and set Credential Guard to **Enabled with UEFI lock** (recommended), or **Enabled without lock**.
 
-**NOTE:** **Enabled with UEFI lock** means that Credential Guard needs to be disabled in the GPO **and** on the device to be turned off. **Enabled without lock** allows Credential Guard to be disabled just with the GPO.
+**Note:** **Enabled with UEFI lock** means that Credential Guard needs to be disabled in the GPO **and** on the device to be turned off. **Enabled without lock** allows Credential Guard to be disabled just with the GPO.
 
 ![Figure: Credential Guard enabled in a Group Policy object](credential-guard-gpo.png)
 
