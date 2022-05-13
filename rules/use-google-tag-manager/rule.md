@@ -14,7 +14,7 @@ created: 2021-06-01T17:30:01.000Z
 archivedreason: null
 guid: 11013d4b-66d5-4945-ae49-e52ee68a2930
 ---
-Many website integrations will require a HTML tag in added to your website. This can be painful to manage when dealing with the code. To add those tags, we recommend using **Google Tag Manager**.
+Many website integrations will require an HTML tag in added to your website. This can be painful to manage when dealing with the code. To add those tags, we recommend using **Google Tag Manager**.
 
 ::: info
 Google Tag Manager is a tag management system (TMS) that allows you to quickly and easily update measurement codes and related code fragments collectively known as tags on your website or mobile app.
