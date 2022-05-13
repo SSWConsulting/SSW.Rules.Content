@@ -21,21 +21,18 @@ Credential Guard was introduced in Windows 10/Server 2016. It runs lsass.exe in 
 In a Domain environment, you can roll out Credential Guard with a GPO.
 
 1. Go to **Computer Configuration** | **Administrative Templates** | **System** | **Device Guard |** **Turn On Virtualization Based Security**
-
 2. Enable the policy, and set Credential Guard to **Enabled with UEFI lock** (recommended), or **Enabled without lock**.
 
 **NOTE:** **Enabled with UEFI lock** means that Credential Guard needs to be disabled in the GPO **and** on the device to be turned off. **Enabled without lock** allows Credential Guard to be disabled just with the GPO.
 
 ![Figure: Credential Guard enabled in a Group Policy object](credential-guard-gpo.png)
 
-### Microsoft Endpoint Manager (Intune)
+### Microsoft Endpoint Manager / Intune
 
-If you use Microsoft Endpoint Manager (formerly known as Intune), you can roll out Credential Guard with an Attack Surface Reduction policy. 
+If you use Microsoft Endpoint Manager, you can roll out Credential Guard with an Attack Surface Reduction policy. 
 
 1. Go to **Microsoft Endpoint Manager | Endpoint Security | [Attack surface reduction](https://endpoint.microsoft.com/#blade/Microsoft_Intune_Workflows/SecurityManagementMenu/asr)**
-
 2. Create a new policy, or edit an existing one
-
 3. Set **Block credential stealing from the Windows local security authority subsystem** to **Block**
 
 ![Figure: Credential Guard setting in Microsoft Endpoint Manager](credential-guard-mem.png)
