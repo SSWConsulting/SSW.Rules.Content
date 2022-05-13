@@ -28,8 +28,14 @@ With Intune, you can:
 
 When Intune is connected to Azure AD it's automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory. 
 
-
-
 ![Figure: Intune connected to AAD](intune_aad.png)
 
 * SysAdmins can monitor all the windows devices from Microsoft Endpoint Manager admin center <https://endpoint.microsoft.com/?ref=AdminCenter#home>
+
+![Figure: Devices managed by Intune](devices_intunes.png)
+
+* We can get a report on device standard compliance to check 'device configuration' on any system account. 
+
+![Bad Example - Errors in compliance check](bad_example_compliance.png)
+
+![Good Example - Successfully Compliant device](good_example_compliance.png)
