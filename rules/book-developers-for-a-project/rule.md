@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Scheduling - Do you know how to book developers for a project?
-uri: how-to-book-developers-for-a-project
+uri: book-developers-for-a-project
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,6 +10,7 @@ authors:
 related: []
 redirects:
   - scheduling-do-you-know-how-to-book-developers-for-a-project
+  - how-to-book-developers-for-a-project
 created: 2012-12-06T13:32:15.000Z
 archivedreason: null
 guid: 30fa45f9-d065-4f87-ba96-4ad52ae4468b
@@ -24,7 +25,7 @@ Before booking developers, make sure you talk to them and check that they are co
 * The Time - how long is the project?
 * The Tech - what skills are required?
 * The Team - who will they be working with?
-  :::
+:::
 
 To book a developer:
 

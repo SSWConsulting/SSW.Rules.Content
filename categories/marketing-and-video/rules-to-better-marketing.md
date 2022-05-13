@@ -24,14 +24,7 @@ index:
 - do-you-rotate-your-marketing-communications
 - do-you-sell-the-sizzle-not-the-steak
 - spelling-do-you-use-us-english
-- do-you-use-american-spelling-for-your-website
 - website-heatmaps
-- use-both-english-spelling-on-google-ads
-- do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
-- do-you-know-the-components-of-a-google-ads-campaign
-- how-to-optimize-google-ads-campaigns
-- regularly-audit-your-google-ads-account
-- do-you-use-microsoft-advertising-formerly-known-as-bing-ads
 - do-you-have-an-endomarketing-strategy-in-your-company
 - do-you-know-how-to-schedule-presenters-for-webinars
 - how-to-create-a-webinar-using-gotowebinar
@@ -47,10 +40,12 @@ index:
 - do-you-have-a-content-marketing-strategy-for-your-business
 - let-your-clients-know-they-are-valued
 - manage-your-photos
-- do-you-monitor-your-seo-effectively
 - use-google-tag-manager
 - do-you-share-when-you-upgrade-an-application
 - make-money-from-your-content
+- why-your-business-should-be-on-google-my-business
+- how-to-optimize-your-google-my-business-profile
+- how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
 
 ---
 
