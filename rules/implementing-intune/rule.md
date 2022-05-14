@@ -34,8 +34,8 @@ When Intune is connected to Azure AD it's automatic enrollment lets users enroll
 
 ![Figure: Devices managed by Intune](devices_intunes.png)
 
-* We can get a report on device standard compliance to check 'device configuration' on any system account. 
+* We can get reports on device compliance at any time. 
 
 ![Bad Example - Errors in compliance check](bad_example_compliance.png)
 
-![Good Example - Successfully Compliant device](good_example_compliance.png)
+![Good Example - Compliant device](good_example_compliance.png)
