@@ -70,7 +70,7 @@ Captions are an excellent way to open your TikTok videos to a broader audience. 
 When you allow captions for every video you make, the sound no longer becomes a necessity for the video to give value.
 
 ::: good
-![Figure: Good Example - Adding captions to a video for SSW TikTok](adam-tiktok.png)
+![Figure: Good Example - Adding captions to a video for SSW TikTok](adam-tiktok.jpg)
 :::
 
 ### Tip 4: TikTok Orientation - Vertical or horizontal?
@@ -81,12 +81,12 @@ The best orientation for recording is vertical. However, you can also record hor
 
 You should use an overlay reference guide when editing TikTok videos. This allows the editor to ensure the videos are formatted correctly, keeping in mind TikTok’s User Interface. Once the video is ready to export, you can turn off the guideline layer. See below images:
 
-![Figure: A video on TikTok that shows all of the things that might cover your video content](tiktok-reference.png)
+![Figure: A video on TikTok that shows all of the things that might cover your video content](tiktok-reference.jpg)
 
-![Figure: TikTok guide for editing](tiktok-reference-guide.png)
+![Figure: TikTok guide for editing](tiktok-reference-guide.jpg)
 
-![Figure: The template overlay we use on our videos to ensure we don't cover any important stuff - like the captions or the name of the person speaking](overlay-guide.png)
+![Figure: The template overlay we use on our videos to ensure we don't cover any important stuff - like the captions or the name of the person speaking](overlay-guide.jpg)
 
-![Figure: The same image with the overlay turned off - everything fits nicely](guide-turned-off.png)
+![Figure: The same image with the overlay turned off - everything fits nicely](guide-turned-off.jpg)
 
 Know more on [Adam Cogan Blog: Tech World on TikTok - Is it for you?](https://adamcogan.com/2022/05/10/tech-world-on-tiktok-is-it-for-you/)
