@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Implementing Intune (aka  Defender for Endpoint)
+title: Do you use Microsoft Intune?
 uri: implementing-intune
 authors:
   - title: Ash Anil
