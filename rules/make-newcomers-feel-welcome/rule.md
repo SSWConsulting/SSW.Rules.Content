@@ -14,7 +14,7 @@ created: 2017-02-16T04:13:21.000Z
 archivedreason: null
 guid: be4b7750-805a-4704-a04b-1a6dd47f8e80
 ---
-The first day of a new job can be daunting.  For the new starter, the workplace is unfamiliar, their colleagues are strangers, and there’s so much to learn they think their heads might explode. All up, it’s a stressful time.
+The first day of a new job can be daunting. For the new starter, the workplace is unfamiliar, their colleagues are strangers, and there’s so much to learn they think their heads might explode. All up, it’s a stressful time.
 
 There are a few simple ways to help new hires feel more comfortable as they adjust to their new workspace:
 
@@ -33,7 +33,7 @@ There are a few simple ways to help new hires feel more comfortable as they adju
 **Clean up** - Prior to the newcomer’s arrival, make sure their desk and work area are clean by giving the desktop, monitor, mouse and keyboard a wipe with a damp cloth. Then test that the equipment on their desk, such as the computer, phone and any other electronics, is in good working condition.
 
 ::: good 
-![Figure: Nice and clean work area](Welcome-Shot.jpg)\
+![Figure: Nice and clean work area](Welcome-Shot.jpg)
 :::
 
 ### The day before they start
@@ -53,10 +53,11 @@ Other nice days could include:
 * Use a blank notebook to write a welcome note and put handy hints inside, then they can continue to use the notepad during induction! 📓
 
 ::: good\
-!\[Good example: Personal, fun welcome to SSW Sydney with all of the good food and coffee tips!](Penny Welcome Pic.jpg)\
+![Good example: Personal, fun welcome to SSW Sydney with all of the good food and coffee tips!](Penny Welcome Pic.jpg)
 :::
 
-It’s also a nice idea to take the newbie out to lunch on their first day so they can get to know their co-workers outside of the office. Note: check if they have any special dietary requirements.
+It’s also a nice idea to take the newbie out to lunch on their first day so they can get to know their co-workers outside of the office.  
+**Note:** check if they have any special dietary requirements.
 
 For the first day, it's also a good idea to set up a time for a quick meeting to see how they are going and if they need any help - especially if they are remote employees!
 
