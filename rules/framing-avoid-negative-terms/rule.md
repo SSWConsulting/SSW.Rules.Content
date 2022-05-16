@@ -17,21 +17,25 @@ It’s easy sometimes to accidentally undersell something or someone by using po
 This can be especially bad if you’re using potentially triggering words or phrases:
 
 > XXX is more junior/less experienced/less skilled than YYY.
+
 ::: bad
 Bad Example – Why are they paying for a junior, a less experienced, less skilled person?
 :::
 
 > XXX is more affordable than YYY.
+
 ::: good
 Good Example – Avoids trigger words like “junior” and has a positive spin and an upside for a client.
 :::
 
 > XXX needs more time to learn this technology.
+
 ::: bad
 Bad Example – Why are they paying for someone to learn?
 :::
 
 > There’s always a short period of upskilling in any project until everyone’s fully proficient in the whole stack.
+
 ::: good
 Good Example – Normalizes the issue
 :::
