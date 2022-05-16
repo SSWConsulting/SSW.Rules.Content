@@ -3,12 +3,15 @@ type: rule
 archivedreason: 
 title: Do you know when to go for a Tender?
 guid: 01b1fdea-ab64-486d-b62b-4d6130790a79
-uri: rules-to-better-tenders
+uri: when-to-go-for-a-tender
 created: 2020-09-04T04:41:38.0000000Z
-authors: []
+authors: 
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
 related: []
 redirects:
 - do-you-know-when-to-go-for-a-tender
+- rules-to-better-tenders
 
 ---
 
@@ -20,11 +23,9 @@ Government departments are a classic example of an organisation that needs to pr
 
 ### Why is it a problem for software consultancies?
 
-
 Most Tenders have a few things in common when it comes to software. They are very rigid and are structurally counter-intuitive to the agile method of building software. Often, Tenders have rigid rules and look for a fixed price with complicated and time-consuming processes to alter the agreed-upon framework.
 
 ### What is the problem for sales teams?
-
 
 There are never any guarantees of winning any work regardless of the efforts taken to win business, but Tenders often invite significantly more competitors that you would generally need to compete with. Secondly, Tenders are written documents that are supposed to level the playing field - this is not always the case.
 
@@ -34,15 +35,10 @@ Tenders can favour an incumbent supplier - or suppliers with an intimate knowle
 
 ### Be selective with tenders you reply to
 
-
-Tenders are time-consuming for a sales team and generally need a process like a [spec review](/rules-to-better-specification-reviews) performed at no cost, in order to complete a response and, as a result, decision to submit a tender needs to follow a few key principles:
+Tenders are time-consuming for a sales team and generally need a process like a [Spec Review](/rules-to-better-specification-reviews) performed at no cost, in order to complete a response and, as a result, decision to submit a tender needs to follow a few key principles:
 
 1. Do you have a pre-existing relationship with the key stakeholders, or does the tendering process allow you to build a relationship where you can not only complete a document, but some of the intangibles are taken into account in person-to-person meetings.
-2. Although organisations will generally be guarded about information about the competitors, if there are any more than 4 known competitors and the above no. 1 point about the relationship is not strong enough to make the vendor feel that they will be naturally shortlisted, do not respond. You are probably only there to make up the numbers.
+2. Although organizations will generally be guarded about information about the competitors, if there are any more than 4 known competitors and the above no. 1 point about the relationship is not strong enough to make the vendor feel that they will be naturally shortlisted, do not respond. You are probably only there to make up the numbers.
 3. Look carefully at the process to make changes and how detailed the scope is. Also, see if a spec review can be undertaken to fine-tune the estimates and scope. Plus make sure the process of Agile development is something that can be undertaken.
 
-
-<font color="#333333">
-</font>
-
-<font color="#333333">Tenders can be a waste of time, with low skilled assessment by purchasing people who can overly focus on cost and a narrow set of requirements. Only go for them if you have a good chance of winning.</font>
+Tenders can be a waste of time, with low skilled assessment by purchasing people who can overly focus on cost and a narrow set of requirements. Only go for them if you have a good chance of winning.
