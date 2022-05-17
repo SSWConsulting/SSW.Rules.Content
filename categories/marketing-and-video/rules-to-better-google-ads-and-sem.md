@@ -17,7 +17,7 @@ index:
 - how-to-optimize-your-google-ads
 - how-to-create-a-negative-keyword-list
 - bid-on-your-own-brand-keyword
-- do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+- use-microsoft-advertising-formerly-known-as-bing-ads
 - import-your-google-campaigns-to-your-microsoft-ads
 - regularly-audit-your-google-ads-account
 - do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
