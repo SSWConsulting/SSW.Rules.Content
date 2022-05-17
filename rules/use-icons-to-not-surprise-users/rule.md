@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you use icons on files' links to not to surprise users?
 guid: 283e14e7-fe59-4017-9422-e9efc3eda6da
-uri: do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
+uri: use-icons-to-not-surprise-users
 created: 2015-02-16T02:46:02.0000000Z
 authors:
 - title: Adam Cogan
@@ -16,6 +16,7 @@ related:
 - do-you-make-external-links-clear
 redirects:
 - do-you-use-icons-not-to-surprise-users-(aka-use-the-correct-image-for-files)
+- do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
 
 ---
 
