@@ -18,7 +18,7 @@ Clever Code comes in several forms. The desired form is solving a complex proble
 
 <!--endintro-->
 
-```
+```cs
 var totalMoved = sortedChannels.Where((channel, i) => channel.Position != i).Count();
 ```
 
@@ -26,7 +26,7 @@ var totalMoved = sortedChannels.Where((channel, i) => channel.Position != i).Cou
 Bad example - Smart code, that could be even simpler! (Although, not bad by any means)
 :::
 
-```
+```cs
 var totalMoved = 0;
 
 for (var i = 0; i < sortedChannels.Count; i++)
@@ -48,7 +48,7 @@ Good example - Simple code, while it has more lines, it is easier to read!
 
 Let's take a moment to digest this more generic example:
 
-```
+```cs
 [ProducesResponseType(StatusCodes.Status404NotFound)]
 [ProducesResponseType(StatusCodes.Status204NoContent)]
 [HttpDelete("{id:guid}")]
