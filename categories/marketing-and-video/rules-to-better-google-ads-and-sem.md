@@ -6,7 +6,6 @@ uri: rules-to-better-google-ads-and-sem
 index:
 - the-best-practices-for-google-ads
 - do-you-know-the-components-of-a-google-ads-campaign
-- do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
 - how-to-use-audiences-on-google-ads
 - how-to-use-ad-extensions-on-google-ads
 - how-to-do-keyword-planning
