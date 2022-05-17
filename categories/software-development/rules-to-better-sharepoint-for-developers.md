@@ -72,11 +72,8 @@ index:
 - never-dispose-objects-from-spcontext-current
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
 - consistent-sharepoint-site
+- best-sharepoint-navigation
 
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [SharePoint Server Consulting](http&#58;//www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
-
-Do you agree with them all? Are we missing some? [Let us know](javascript:sendEmail%28&#39;696E666F407373772E636F6D2E61753F5375626A6563743D52756C6573253230746F2532304265747465722532305368617265506F696E74&#39;%29) what you think.
-
+Visit our [SharePoint consulting page](https://ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
