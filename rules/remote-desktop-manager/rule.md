@@ -23,4 +23,15 @@ To manage multiple servers and group of domain joined computers remotely, it wou
 
 ### Solution:
 
-Devolution
+Devolution is security website which offers a free Remote Connection Management called "Remote Desktop Manager", which is built to centralizes all remote connections on a single platform that is securely shared between users and across the entire team.
+::: good
+![Figure: Good example - Remote Desktop Manager (Devolutions)](rdp_good.jpg)
+:::
+
+To install the application, check https://devolutions.net/remote-desktop-manager/home/downloadfree 
+
+### Reference:
+
+SugarLearning item - https://my.sugarlearning.com/SSW/items/13222/ssw-remote-desktop-manager?term=RDM
+
+Intranet - https://sswcom.sharepoint.com/:w:/r/sites/SSWSysAdmins/Shared%20Documents/General/Networking/Misc/RDMDatabase/RDM_document.docx?d=w7cc95b158d80413ba3e9fdf19ab665ed&csf=1&web=1&e=pzyLAy
