@@ -25,7 +25,7 @@ First, the reason to cause the style issue is the style doesn’t apply to right
 
 * There is no style apply to figure;
 
-```
+``` html
 <span class="ms-rteCustom-YellowBorderBox">We have a program called <a href="http://rules.ssw.com.au/WebSites/RulesToBetterWebsitesLayout"> SSW LookOut! for Outlook</a> to check for this rule.
 <br />
 <span class="ms-rteCustom-ImageArea">
