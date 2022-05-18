@@ -7,7 +7,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
-related: []
+related: [
+  - do-you-have-separate-development-testing-and-production-environments
+]
 redirects:
   - do-you-know-how-to-create-azure-resources
 created: 2020-10-06T00:13:27.000Z

@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Kaique Biancatti
   url: https://ssw.com.au/people/kaique-biancatti
-related: []
+related: [
+  - do-you-have-separate-development-testing-and-production-environments
+]
 redirects:
 - do-you-apply-tags-to-your-azure-resource-groups
 
