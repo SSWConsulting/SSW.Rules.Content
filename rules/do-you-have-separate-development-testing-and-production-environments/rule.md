@@ -27,7 +27,7 @@ The old solution is to use build scripts (.bat and .vbs files) to automatically 
 Read more about setup packages at [SSW's Wise Standard for Products.](http://www.ssw.com.au/ssw/Standards/wisesetup/WiseStandards.aspx)
 :::
 
-:::bad
+::: bad
 Bad Example - using scripts to deploy your product to different environments
 :::
 
