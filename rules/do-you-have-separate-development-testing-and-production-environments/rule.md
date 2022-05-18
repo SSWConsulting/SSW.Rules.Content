@@ -37,7 +37,7 @@ The best way to manage your product across different environments is to use DevO
 For more information, see our rule: [Do you know how to create Azure resources?](/azure-resources-creating).
 :::
 
-:::good
+::: good
 Good Example - use DevOps tools and IaC to deploy to different environments
 :::
 
