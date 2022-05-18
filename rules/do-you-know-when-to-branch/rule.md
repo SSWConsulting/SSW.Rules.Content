@@ -51,7 +51,7 @@ The better way is to use OctopusDeploy which relieves developers from having mul
 
 If a am working on a branch and perform sweeping renaming, and a developer working on another branch does the same – merging is nearly impossible.
 
-This is **very** likely to happen on code bases that require tidying when you have developers who believe in improving code as they go (see the [Boy Scout rule](/follow-boy-scout-rule)
+This is **very** likely to happen on code bases that require tidying when you have developers who believe in improving code as they go (see the [Boy Scout rule](/follow-boy-scout-rule))
 
 ### When it's OK to branch
 
