@@ -24,7 +24,7 @@ One of the most controversial issues developers discuss is when to create branch
 Keep things simple:
 
 1. Have the team develop on the one branch. It is fantastic as there are no more merging hell.
-2. Have that branch called "**master**" if using  **Git** and "**main**" or " **trunk** " when using **TFS** or **SVN**
+2. Have that branch called "**main**" (or " **trunk** " when using **TFS** or **SVN**
 
 Beware of smart bloggers giving the wrong advice 🙃 as many smart people like creating branches... E.g. [Guidance: A Branching strategy for Scrum Teams](https://nkdagility.com/blog/guidance-a-branching-strategy-for-scrum-teams/). Even Martin Fowler says there are a number of issues related to merging that lead us to try and minimise the number of branches that we work with in his article on [Feature Branches](https://martinfowler.com/bliki/FeatureBranch.html).
 
