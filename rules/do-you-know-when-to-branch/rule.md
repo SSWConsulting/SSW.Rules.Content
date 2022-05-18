@@ -32,7 +32,7 @@ The quintessential scenario you need to support is that emergency "Hey we have a
 
 In that case you need to potentially update all of your branches and perform deployment, which can be quite tiresome.
 
-The better way is to use OctopusDeploy which relives developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
+The better way is to use OctopusDeploy which relieves developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
 
 ::: good  
 ![Figure: Good Example: Manage deployments to multiple environments, view deployed versions.](2014-10-11\_18-54-00.png)  
