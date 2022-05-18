@@ -10,7 +10,9 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Camilla Rosa Silva
   url: https://ssw.com.au/people/camilla-rosa-silva
-related: []
+related: 
+- use-dashes-in-urls
+- create-friendly-short-urls
 redirects:
 - do-you-fix-your-ugly-urls
 
