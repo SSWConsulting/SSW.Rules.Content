@@ -31,7 +31,7 @@ Read more about setup packages at [SSW's Wise Standard for Products.](http://www
 Bad Example - using scripts to deploy your product to different environments
 :::
 
-::greybox
+::: greybox
 The best way to manage your product across different environments is to use DevOps tools (like Azure DevOps, GitHub Actions, and others) and Infrastructure as Code (IaC).
     
 For more information, see our rule: [Do you know how to create Azure resources?](/azure-resources-creating).
