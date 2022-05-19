@@ -50,8 +50,8 @@ There's nothing worse than opening up a Resource Group and finding several insta
 ![Bad Example: Staging and Prod resources in the same RG](bad-azure-environments.png)
 :::
 
-### Don't lump your resources into a single Resource Group
-There is no cost saving to group databases into on single resource group. It is better to provision the database in the same resource group as the application that uses it.
+### Don't categorize Resource Groups based on resource type
+There is no cost saving to group resources of the same type together. For example, there is no reason to put all your databases in one place. It is better to provision the database in the same resource group as the application that uses it.
 
 ::: bad  
 ![Figure: Bad example - SSW.SQL has all the Databases for different apps in one place](arrange-azure-resources-bad.jpg)  
