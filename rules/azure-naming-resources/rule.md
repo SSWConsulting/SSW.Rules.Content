@@ -42,7 +42,7 @@ Azure defines [some best practices for naming and tagging your resource](https:/
 Having inconsistent resource names across projects creates all sorts of pain 
 * Developers will struggle to find a project's resources and identify what those resources are being used for
 * Developers won't know what to call new resources they need to create.
-* You run the risk of creating duplicate resources created because a developer has no idea that another developer created the same thing 6 months ago, under a different name, in a different Resource Group!
+* You run the risk of creating duplicate resources... created because a developer has no idea that another developer created the same thing 6 months ago, under a different name, in a different Resource Group!
 
 ### Keep your resources consistent
 If you're looking for resources, it's much easier to have a pattern to search for. At a bare minimum, you should keep the name of the product in the resource name, so finding them in Azure is easy. One good option is to follow the "productname-environment" naming convention, and most importantly: keep it consistent!
