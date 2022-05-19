@@ -1,17 +1,16 @@
 ---
 type: rule
-archivedreason: 
-title: General - Do you use a SQL Server Object Naming Standard?
-guid: 68322e79-6a1a-4506-b4fa-422198f2c599
+title: Do you use a SQL Server Object Naming Standard?
 uri: use-a-sql-server-object-naming-standard
-created: 2019-12-31T04:20:06.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- general-do-you-use-a-sql-server-object-naming-standard
-
+  - general-do-you-use-a-sql-server-object-naming-standard
+created: 2019-12-31T04:20:06.000Z
+archivedreason: null
+guid: 68322e79-6a1a-4506-b4fa-422198f2c599
 ---
 
 This standard outlines the standard on naming objects within SQL Server. Use these standards when naming any object or if you find an older object that doesn't follow these standards within SSW.
