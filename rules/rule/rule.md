@@ -373,19 +373,22 @@ _italic_ or _italic_
 ### Links
 
 [I'm an inline-style link](https://www.google.com)  
+
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")  
+
 [I'm a reference-style link][arbitrary case-insensitive reference text]  
-[You can use numbers for reference-style link definitions][1]  
+
+[You can use numbers for reference-style link definitions][1]   
 Or leave it empty and use the [link text itself].  
 
 URLs and URLs in angle brackets will automatically get turned into links.  
+
 http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).  
+
 Some text to show that the reference links can follow later.
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org  
 [1]: http://slashdot.org  
 [link text itself]: http://www.reddit.com
 
-::: todo
-Implement all the different types of file links to SSW Rules: [https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files](https://www.ssw.com.au/rules/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files)
-:::
+**Note:** We use [icons on files' links to not to surprise users](/use-icons-to-not-surprise-users).
