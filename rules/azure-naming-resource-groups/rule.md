@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you know how to arrange your Azure resources?
 guid: 2c2f55d2-66fd-4c29-a7cb-6598c54b60df
-uri: how-to-arrange-your-azure-resources
+uri: azure-naming-resource-groups
 created: 2020-06-02T20:48:06.0000000Z
 authors:
 - title: Adam Cogan
@@ -17,6 +17,7 @@ authors:
 related: []
 redirects:
 - do-you-know-how-to-arrange-your-azure-resources
+- how-to-arrange-your-azure-resources
 
 ---
 

@@ -14,8 +14,8 @@ index:
 - do-you-consider-azuresearch-for-your-website
 - give-users-least-privileges
 - azure-resources-creating
-- name-your-azure-resources-correctly
-- how-to-arrange-your-azure-resources
+- azure-naming-resources
+- azure-naming-resource-groups
 - apply-tags-to-your-azure-resource-groups
 - azure-resources-diagram
 - do-you-have-an-azure-spend-master
