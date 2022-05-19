@@ -18,38 +18,21 @@ This is often a bad practice if you already are ending Sub you don't need anothe
 
 <!--endintro-->
 
-
-
-```
+``` vbnet
 Sub MySub
-…
+...
 End Sub
 Exit sub
 ```
-
-
-
-
-
-
 ::: bad
 Figure: Bad example  
 :::
 
-
-
-```
+``` vbnet
 Sub MySub
-…
+...
 End sub
 ```
-
-
-
-
-
-
 ::: good
 Figure: Good example
-
 :::
