@@ -57,7 +57,7 @@ Resource names can impact things like resource addresses/URLs. It's always a goo
 
 
 ::: good
-![Good Example: Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!](good-azure-name-example-1.png)
+![Good Example - Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!](better-example.png)
 :::
 
 
