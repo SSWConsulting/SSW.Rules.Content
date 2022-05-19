@@ -46,7 +46,7 @@ You should keep all a product's resources within the same Resource Group. Your d
 There's nothing worse than opening up a Resource Group and finding several instances of the same resources, with no idea what resources are in dev/staging/production. Similarly, if you find a single instance of a Notification Hub, how do you know if it's being built in the test environment, or a legacy resource needed in production?
 
 ::: bad
-![Bad Example: Staging and Prod resources in the same RG](bad-azure-environments.png)
+![Bad Example - Staging and Prod resources in the same RG](bad-azure-environments.png)
 :::
 
 ### Don't categorize Resource Groups based on resource type
