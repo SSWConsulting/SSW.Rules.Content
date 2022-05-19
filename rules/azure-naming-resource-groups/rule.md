@@ -1,24 +1,23 @@
 ---
 type: rule
-archivedreason: 
-title: Do you know how to arrange your Azure resources?
-guid: 2c2f55d2-66fd-4c29-a7cb-6598c54b60df
+title: Resource Groups - Do you know how to arrange your Azure resources?
 uri: azure-naming-resource-groups
-created: 2020-06-02T20:48:06.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-- title: Anthony Nguyen
-  url: https://ssw.com.au/people/anthony-nguyen
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Anthony Nguyen
+    url: https://ssw.com.au/people/anthony-nguyen
+  - title: Mehmet Ozdemir
+    url: https://ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
-- do-you-know-how-to-arrange-your-azure-resources
-- how-to-arrange-your-azure-resources
-
+  - do-you-know-how-to-arrange-your-azure-resources
+  - how-to-arrange-your-azure-resources
+created: 2020-06-02T20:48:06.000Z
+archivedreason: null
+guid: 2c2f55d2-66fd-4c29-a7cb-6598c54b60df
 ---
 
 # Naming your Resource Groups
@@ -47,7 +46,7 @@ You should keep all a product's resources within the same Resource Group. Your d
 There's nothing worse than opening up a Resource Group and finding several instances of the same resources, with no idea what resources are in dev/staging/production. Similarly, if you find a single instance of a Notification Hub, how do you know if it's being built in the test environment, or a legacy resource needed in production?
 
 ::: bad
-![Bad Example: Staging and Prod resources in the same RG](bad-azure-environments.png)
+![Bad Example - Staging and Prod resources in the same RG](bad-azure-environments.png)
 :::
 
 ### Don't categorize Resource Groups based on resource type
