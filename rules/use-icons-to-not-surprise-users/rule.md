@@ -24,25 +24,30 @@ When a user clicks on a hyperlink they expect to open an HTML file. If you click
 
 <!--endintro-->
 
-::: todo
-1. Implement the icons to SSW Rules ([Issue #596](https://github.com/SSWConsulting/SSW.Rules.Content/issues/596))
-2. Add examples to [Example Rule + Markdown Cheatsheet](https://www.ssw.com.au/rules/rule)
-3. Improve the image examples in this rule
-:::
-
 Don't surprise users! For the following file/link types, use icons:
 
-- PDF: [This is a PDF file](Sample-PDF.pdf)
-- DOC or DOT: [This is a Word Document file](Sample-DOC.docx)
-- XLS: [This is an Excel Spreadsheet file](Sample-XLS.xlsx)
-- PPT: [This is a PowerPoint file](Sample-PPT.pptx)
-- TXT: [This is a text file](Sample-TXT.txt)
-- AVI, MOV, MPG etc.: [This is a video file](sample-VIDEO.mp4)
-- WAV, WMA, MP3 etc.: [This is a music file](sample-MP3.mp3)
-- ICS or VCS: [This is a calendar file](Sample-ICS.ics)
-- ZIP: [This is a zip file](Sample-ZIP.zip)
-- YouTube: [This is a link to a YouTube Video](https://www.youtube.com/watch?v=gp_F43lx6iM)
-- Mailto: [This link will send an email](mailto:someone@example.com)
+- **PDF:**  
+  [This is a PDF file](Sample-PDF.pdf)
+- **DOC or DOT:**  
+  [This is a Word Document file](Sample-DOC.docx)
+- **XLS:**  
+  [This is an Excel Spreadsheet file](Sample-XLS.xlsx)
+- **PPT:**  
+  [This is a PowerPoint file](Sample-PPT.pptx)
+- **TXT:**  
+  [This is a text file](Sample-TXT.txt)
+- **AVI, MOV, MPG etc.:**   
+  [This is a video file](sample-VIDEO.mp4)
+- **WAV, WMA, MP3 etc.:**  
+  [This is a music file](sample-MP3.mp3)
+- **ICS or VCS:**  
+  [This is a calendar file](Sample-ICS.ics)
+- **ZIP:**  
+  [This is a zip file](Sample-ZIP.zip)
+- **YouTube:**  
+  [This is a link to a YouTube Video](https://www.youtube.com/watch?v=gp_F43lx6iM)
+- **Mailto:**  
+  [This link will send an email](mailto:someone@example.com)
 
 You should also use an icon to [make external links clear](/do-you-make-external-links-clear).
 
