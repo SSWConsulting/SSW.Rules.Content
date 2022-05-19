@@ -50,6 +50,10 @@ You need an [architecture diagram](/architecture-diagram), but this is often hig
 [Install ARM Template Viewer from VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview).
 
 ::: greybox
+**Note:** Microsoft has a [download link for all the Azure icons as SVGs](https://docs.microsoft.com/en-us/azure/architecture/icons/).
+:::
+
+::: greybox
 **Suggestion to Microsoft:** Add an auto-generated diagram in the Azure portal. Have an option in the combo box (in addition to List View) for Diagram View.
 
 **Update:** This is now happening.
