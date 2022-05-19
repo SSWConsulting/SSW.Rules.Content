@@ -55,17 +55,17 @@ Resource names can impact things like resource addresses/URLs. It's always a goo
 There's nothing worse than opening up a Resource Group and finding several instances of the same resources, with no idea what resources are in dev/staging/production. Similarly, if you find a single instance of a Notification Hub, how do you know if that's being developed in the test environment, or a legacy resource still being used in production?
 
 ::: bad
-![Bad Example: Inconsistent product names, mixture of upper case and lower case letters, and unknown resource purposes](bad-example-1.png)
+![Bad Example: Inconsistent product names, mixture of upper case and lower case letters, and unknown resource purposes](bad-azure-name-example-1.png)
 :::
 
 ::: bad
-![Bad Example: Inconsistent casing, naming convention, and environment labels. Plus mixing staging/prod in the same RG](bad-example-2.png)
+![Bad Example: Inconsistent casing, naming convention, and environment labels. Plus mixing staging/prod in the same RG](bad-azure-name-example-2.png)
 :::
 
 ::: bad
-![Bad Example: Inconsistent names, mixing environments, and including the resource type in the name](bad-example-3.png)
+![Bad Example: Inconsistent names, mixing environments, and including the resource type in the name](bad-azure-name-example-3.png)
 :::
 
 ::: good
-![Good Example: Consistent names, using lowercase letters and specifying the environment. Easy to find! ”-”](good-example-1.png)
+![Good Example: Consistent names, using lowercase letters and specifying the environment. Easy to find! ”-”](good-azure-name-example-1.png)
 :::
