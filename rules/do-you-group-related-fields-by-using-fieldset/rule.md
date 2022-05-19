@@ -13,12 +13,11 @@ redirects: []
 
 ---
 
-**FieldSet** element allows you to group thematically related controls                     and labels. Grouping controls makes forms more accessible and easier for users to                     understand the purpose of filling the forms.
+**FieldSet** element allows you to group thematically related controls and labels. Grouping controls makes forms more accessible and easier for users to understand the purpose of filling the forms.
 
-See the example below using "Your Details"                     and "Event Details".
+See the example below using "Your Details" and "Event Details".
 
 <!--endintro-->
-
 
 ::: good  
 ![Figure: Good example - Use FieldSet for grouping](fieldset.jpg)  
@@ -26,8 +25,7 @@ See the example below using "Your Details"                     and "Event Detail
 
 Here's an example of how FieldSet works:
 
-
-```
+``` html
 <fieldset>
     <legend>Your Details</legend>
     <p>
@@ -40,8 +38,8 @@ Here's an example of how FieldSet works:
     </p>
 </fieldset>
 ```
+**Figure: Example code of FieldSet**
 
-Figure: Example code of FieldSet     
 ![Figure: How that code will look on the browser](fieldset-browser.jpg)  
 
 Things to remember:
