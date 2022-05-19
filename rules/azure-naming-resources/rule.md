@@ -43,7 +43,7 @@ Having inconsistent resource names across projects creates all sorts of pain
 * You run the risk of creating duplicate resources created because a developer has no idea that another developer created the same thing 6 months ago, under a different name, in a different Resource Group!
 
 ### Keep your resources consistent
-If you're looking for resources, it's much easier to have a pattern to search for. At a bare minimum, you should keep the name of the product in the resource name, so finding them in Azure is easy. Follow the "productname-environment" naming convention, and most importantly: keep it consistent!
+If you're looking for resources, it's much easier to have a pattern to search for. At a bare minimum, you should keep the name of the product in the resource name, so finding them in Azure is easy. One good option is to follow the "productname-environment" naming convention, and most importantly: keep it consistent!
 
 ::: bad
 ![Bad Example - Inconsistent resource names. Do these belong to the same product?](bad-azure-name-example-1.png)
@@ -60,7 +60,7 @@ Resource names can impact things like resource addresses/URLs. It's always a goo
 
 
 ### Plan for the exceptions
-Some resources won't play nicely with your chosen naming convention (for instance, storage accounts do not accept kebab-case). Acknlowledge these, and have a rule in place for how you will name these specific resources.
+Some resources won't play nicely with your chosen naming convention (for instance, storage accounts do not accept kebab-case). Acknowledge these, and have a rule in place for how you will name these specific resources.
 
 Want more Azure tips? [Check out our rule on Azure Resource Groups](https://www.ssw.com.au/rules/azure-naming-resource-groups).
 
