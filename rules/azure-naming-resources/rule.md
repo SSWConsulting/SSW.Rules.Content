@@ -58,7 +58,9 @@ Resource names can impact things like resource addresses/URLs. It's always a goo
 ![Good Example: Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!](good-azure-name-example-1.png)
 :::
 
+
 ### Plan for the exceptions
 Some resources won't play nicely with your chosen naming convention (for instance, storage accounts do not accept kebab-case). Acknlowledge these, and have a rule in place for how you will name these specific resources.
 
 Want more Azure tips? [Check out our rule on Azure Resource Groups](https://www.ssw.com.au/rules/azure-naming-resource-groups).
+
