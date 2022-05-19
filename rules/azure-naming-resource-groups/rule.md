@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Resource Groups - Do you know how to arrange your Azure resources?
+title: Do you know how to group your Azure resources?
 uri: azure-naming-resource-groups
 authors:
   - title: Adam Cogan
