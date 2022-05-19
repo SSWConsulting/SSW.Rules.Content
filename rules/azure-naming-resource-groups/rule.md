@@ -20,7 +20,7 @@ archivedreason: null
 guid: 2c2f55d2-66fd-4c29-a7cb-6598c54b60df
 ---
 
-# Naming your Resource Groups
+## Naming your Resource Groups
 Resource Groups should be logical containers for your products. They should be a one-stop shop where a developer or sysadmin can see all resources being used for a given product, within a given environment (dev/test/prod). Keep your Resource Group names consistent across your business, and have them identify exactly what's contained within them.
 
 Name your Resource Groups as **Product.Environment**. For example:
