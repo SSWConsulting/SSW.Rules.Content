@@ -12,7 +12,7 @@ English can be really confusing sometimes, and it is often difficult to decipher
 
 For example, a page might have a category on a website, but when you look at it in google that category is completely missing.
 
-At the bare minimum, the context should be completely fleshed out in the title of a page. However, the gold standard is to use prefixes.
+At a bare minimum, the context should be completely fleshed out in the title of a page. However, the gold standard is to use prefixes.
 
 Prefixes provide several benefits including:
 
