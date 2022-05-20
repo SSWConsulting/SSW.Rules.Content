@@ -12,12 +12,25 @@ English can be really confusing sometimes, and it is often difficult to decipher
 
 For example, a page might have a category on a website, but when you look at it in google that category is completely missing.
 
-Prefixes are an awesome way to quickly establish context for readers. Here's some examples of how prefixes help:
+At the bare minimum, the context should be completely fleshed out in the title of a page. However, the gold standard is to use prefixes.
+
+Prefixes provide several benefits including:
 
 <!--endintro-->
 
+* Establishing context without having to read the content
+* Priming the reader on the subject matter
+* Helping the reader quickly jump to the right content in a list
+* Categorizing content together without the need for a complex bespoke solution
+
+::: bad
 ![Bad Example - There is no context provided, it could be about subjects for Meetings, Conferences, Videos or something entirely different](badexamplenocontext.png)
+:::
 
-![Okay Example - The context is included in the question](okayexamplehascontext.png)
+::: ok
+![OK Example - The context is included in the question](okayexamplehascontext.png)
+:::
 
+::: good
 ![Good Example - The prefix very clearly identifies the subject](goodexamplehascontextviaprefix.png)
+:::
