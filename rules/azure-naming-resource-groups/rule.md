@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/anthony-nguyen
   - title: Mehmet Ozdemir
     url: https://ssw.com.au/people/mehmet-ozdemir
-related: []
+related:
+  - azure-naming-resources
 redirects:
   - do-you-know-how-to-arrange-your-azure-resources
   - how-to-arrange-your-azure-resources
@@ -55,6 +56,6 @@ There's nothing worse than opening up a Resource Group and finding several insta
 
 There is no cost saving to group resources of the same type together. For example, there is no reason to put all your databases in one place. It is better to provision the database in the same resource group as the application that uses it.
 
-::: bad\
-![Figure: Bad example - SSW.SQL has all the Databases for different apps in one place](arrange-azure-resources-bad.jpg)\
+::: bad
+![Figure: Bad example - SSW.SQL has all the Databases for different apps in one place](arrange-azure-resources-bad.jpg)
 :::
