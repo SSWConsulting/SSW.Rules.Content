@@ -59,11 +59,21 @@ If you're looking for resources, it's much easier to have a pattern to search fo
 Resource names can impact things like resource addresses/URLs. It's always a good idea to name your resources according to their environment, even when they exist in different Subscriptions/Resource Groups.
 
 ::: good
-![Good Example: Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!](good-azure-name-example-1.png)
+![Good Example - Consistent names, using lowercase letters and specifying the environment. Easy to find, and easy to manage!](better-example.png)
 :::
 
 ### Plan for the exceptions
 
 Some resources won't play nicely with your chosen naming convention (for instance, storage accounts do not accept kebab-case). Acknowledge these, and have a rule in place for how you will name these specific resources.
+
+### Automate resource deployment
+
+ClickOps can save your bacon when you quickly need to create a resource and need to GSD. Since we are all human and humans make mistakes, there will be times when someone is creating resources via ClickOps are unable to maintain the team standards to consistent name their resources.
+
+Instead, it is better to provision your Azure Resources programmatically via Infrastructure as Code (IaC) using tools such as ARM, Bicep, Terraform and Pulumi. With IaC you can have naming conventions baked into the code and remove the thinking required when creating multiple resources. As a bonus, you can track any changes in your standards over time since (hopefully) your code is checked into a source control system such as Git (or GitHub, Azure Repos, etc.).
+
+You can also use policies to enforce naming convention adherance, and making this part of your pipeline ensures robust naming conventions that remove developer confusion and lower cognitive load.
+
+For more information, see our rule: [Do you know how to create Azure resources?](https://www.ssw.com.au/rules/azure-resources-creating)
 
 Want more Azure tips? [Check out our rule on Azure Resource Groups](https://www.ssw.com.au/rules/azure-naming-resource-groups).
