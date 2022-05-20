@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know why prefixes are awesome?
+title: Prefixes - do you know why they are awesome?
 uri: use-prefixes
 authors:
   - title: Adam Cogan
