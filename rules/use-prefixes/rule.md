@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Prefixes - Do you know why they are awesome?
-uri: use-prefixes
+uri: prefixes
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan/
@@ -24,13 +24,13 @@ Prefixes provide several benefits including:
 * Grouping - Categorizing content together without the need for a complex bespoke solution
 
 ::: bad
-![Bad Example - There is no context provided, it could be about subjects for Meetings, Conferences, Videos or something entirely different](badexamplenocontext.png)
+![Bad Example - There is no context provided in the title, it could be about subjects for Meetings, Conferences, Videos or something entirely different](badexamplenocontext.png)
 :::
 
 ::: ok
-![OK Example - The context is included in the question](okayexamplehascontext.png)
+![OK Example - The context is included in the title](okayexamplehascontext.png)
 :::
 
 ::: good
-![Good Example - The prefix very clearly identifies the subject](goodexamplehascontextviaprefix.png)
+![Good Example - The prefix very clearly identifies the subject in the title](goodexamplehascontextviaprefix.png)
 :::
