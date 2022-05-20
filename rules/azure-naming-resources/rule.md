@@ -30,11 +30,11 @@ guid: ff423950-2e2e-46b2-bfa5-ef9d69e83774
 
 Organizing your cloud assets starts with good names. It is best to be consistent and use:
 
-* all lower case 
-* use [kebab case (“-“ as a separator)](https://www.ssw.com.au/rules/use-dashes-in-urls)
-* include which environment the resource is intended for i.e. [dev, test, prod, etc.](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments)
-* do not include the Resource Type in the name (Azure displays this)
-* if applicable, include the intended use of the resource in the name e.g. an app service may have a suffix *api*
+* All lower case 
+* Use [kebab case (“-“ as a separator)](https://www.ssw.com.au/rules/use-dashes-in-urls)
+* Include which environment the resource is intended for i.e. [dev, test, prod, etc.](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments)
+* Do not include the Resource Type in the name (Azure displays this)
+* If applicable, include the intended use of the resource in the name e.g. an app service may have a suffix *api*
 
 <!--endintro-->
 
