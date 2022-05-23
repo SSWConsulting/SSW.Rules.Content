@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know what happens at a Sprint Review Meeting?
+title: Do you know what happens at a Sprint Review meeting?
 uri: do-you-know-what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
