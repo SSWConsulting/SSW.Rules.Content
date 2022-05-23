@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Product Owner - Do you know how to build/update the backlog?
+title: Backlog - Does your Product Owner know how to maintain the backlog?
 uri: build-the-backlog
 authors:
   - title: Martin Hinshelwood
