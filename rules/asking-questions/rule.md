@@ -13,7 +13,7 @@ created: 2020-10-01T20:35:49.000Z
 archivedreason: null
 guid: b8082efe-e98e-419b-8b71-b0188640aef4
 ---
-A disproportionate amount of time is spent thinking about whether you got the **right answers** from the client (or in the software world "Did we get the right specs?"). However, asking the **right questions** is a very important part of this process as well as documenting the answers on the right platform if you believe it would  help others.
+A disproportionate amount of time is spent thinking about whether you got the **right answers** from the client (or in the software world "Did we get the right specs?"). However, asking the **right questions** is a very important part of this process.
 
 <!--endintro-->
 
@@ -27,6 +27,7 @@ Topics:
 * Tip 2: Avoid waffling by asking v2 questions (avoid v1 questions + setup a backchannel)
 * Tip 3: Ask questions with added value
 * Tip 4: [Ask open-ended questions](/ask-open-ended-questions) (avoid yes/no questions)
+* Tip 5: Document the answers in the PBI/email as it can help others in the future
 * [Upselling](/upsell-your-most-valuable-product-service) - the side value of good questions
 * [The Retro](/do-you-do-a-retro)
 
