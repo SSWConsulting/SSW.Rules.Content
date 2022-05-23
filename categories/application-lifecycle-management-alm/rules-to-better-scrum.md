@@ -40,7 +40,7 @@ index:
 - do-you-always-know-what-are-you-working-on
 - do-you-have-a-demo-script-for-your-sprint-review-meeting
 - product-owners-do-you-know-the-consequence-of-disrupting-a-team
-- do-you-always-work-in-priority-order-unless-theres-a-good-reason-not-to
+- work-in-priority-order
 - have-a-definition-of-ready
 - done-do-you-go-beyond-done-and-follow-a-definition-of-done
 - record-a-quick-and-dirty-done-video
