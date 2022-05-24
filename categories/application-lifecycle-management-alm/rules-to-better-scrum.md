@@ -30,7 +30,7 @@ index:
 - meeting-do-you-know-what-to-prepare-for-each-meeting
 - tasks-do-you-know-that-every-user-story-should-have-an-owner
 - tasks-do-you-know-to-use-clear-task-descriptions
-- reports-do-you-know-that-you-should-have-scrum-team-contracts
+- scrum-team-contract
 - done-do-you-know-when-to-send-a-done-email-in-scrum
 - done-do-you-know-when-to-do-a-test-please-in-scrum
 - done-do-you-know-how-to-make-sure-you-deliver-a-build-thats-tested-every-sprint
