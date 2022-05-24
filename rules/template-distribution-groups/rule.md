@@ -18,7 +18,7 @@ So, what are the solutions?
 Instead of an individual, it is better to address the name of a role. For example, if the person is in charge of the product then you might call them "The Product Champion". This title, means that if the responsible person changes then it is a matter of changing who "The Product Champion" is rather than updating that person everywhere in your system.
 
 ### Use a Distribution Group
-Another problem, is that people may have difficulty finding out who "The Product Champion" is, or they may have to navigate your intranet to find them. So, the gold standard is to setup a distribution group that represents this role.  Using the distribution group, people know what email to send to immediately, and the responsible people can be swapped out easily.
+Another problem, is that people may have difficulty finding out who "The Product Champion" is, or they may have to navigate your intranet to find them. So, the gold standard is to setup a [distribution group](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups) that represents this role.  Using the distribution group, people know what email to send to immediately, and the responsible people can be swapped out easily.
 
 To make sure distribution groups are always up to date it is also important to have a regular script that runs to check for empty distribution groups so they can be updated.
 
