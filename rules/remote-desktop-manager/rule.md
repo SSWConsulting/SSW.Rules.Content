@@ -24,6 +24,8 @@ To manage multiple servers and group of domain joined computers remotely, it wou
 ### Solution:
 
 Devolution is security website which offers a free Remote Connection Management called "Remote Desktop Manager", which is built to centralizes all remote connections on a single platform that is securely shared between users and across the entire team.
+
+
 ::: good
 ![Figure: Good example - Remote Desktop Manager (Devolutions)](rdp_good.jpg)
 :::
