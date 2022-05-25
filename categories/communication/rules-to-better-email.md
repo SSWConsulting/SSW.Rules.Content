@@ -30,7 +30,7 @@ index:
 - do-you-add-context-reasoning-to-your-emails
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
 - do-you-include-the-name-of-the-person-you-address-on-the-first-line
-- do-you-know-how-to-add-or-remove-someone-from-the-conversation
+- email-add-or-remove-someone-from-conversation
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand
