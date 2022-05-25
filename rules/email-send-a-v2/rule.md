@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - checked-by-xxx
+  - email-add-or-remove-someone-from-conversation
 redirects:
   - do-you-know-how-to-send-a-v2-of-an-email
   - how-to-send-a-v2-if-requested
