@@ -10,7 +10,8 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
   url: https://ssw.com.au/people/cameron-shaw
-related: []
+related: 
+- email-send-a-v2
 redirects: 
 - do-you-know-how-to-add-or-remove-someone-from-the-conversation
 
