@@ -12,7 +12,7 @@ index:
 - number-tasks-questions
 - do-you-know-the-common-standard-email-types
 - change-from-x-to-y
-- how-to-send-a-v2-if-requested
+- email-send-a-v2
 - do-you-cc-everyone-and-reply-to-all-when-necessary
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
