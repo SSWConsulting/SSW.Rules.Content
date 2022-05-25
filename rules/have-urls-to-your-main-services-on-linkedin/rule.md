@@ -25,5 +25,5 @@ LinkedIn is the main business and employment-oriented social networking service 
 :::
 
 ::: good\
-![Figure: Good example - Profile with links to main services provided](linkedin-image.jpg)\
+![Figure: Good example - Profile with links to main services provided](linkedin_good_example.png)\
 :::
