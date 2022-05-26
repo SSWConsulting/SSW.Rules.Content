@@ -29,7 +29,9 @@ Some of the awesome things Azure Logic Apps move data between include
 * Emails
 * Microsoft Dataverse
 * Microsoft Office365
+* Microsoft SharePoint
 * Custom APIs
+* and more...
 
 However, once you start to get complex loops, lots of variables or mathematical manipulation that is where it starts to fall over and you might be better off looking at something like Azure Functions.
 
@@ -37,6 +39,16 @@ However, once you start to get complex loops, lots of variables or mathematical 
 Azure functions help make complex automation quick, easy and pain free. While they still need a developer, it is much easier to get things spun up and you can hook them into all sorts of built-in triggers.
 
 For large, scalable solutions Azure Functions provide the best automation capability.
+
+## The best of all worlds
+In reality, automation solutions often combine these tools to make the best possible architecture.
+
+Perhaps you have an Azure Logic App that gets triggered by input in Dynamics, hits an Azure Function to do some calculations and then returns the data in an email to the user. That way Azure Logic Apps handles the integration aspects while Azure functions takes care of the complex logic. You end up with the best aspects of both!
+
+Always keep in mind that you don't need to limit yourself to one tool.
+
+## Benefits Breakdown
+By now, your head might be spinning wondering what are the advantages and disadvantages of all the automation tools. Here's a quick overview to give you an idea:
 
 | | PowerAutomate | Azure Logic Apps | Azure Functions | Traditional API
 | ----------- | ----------- | ----------- | ----------- | ----------- |
