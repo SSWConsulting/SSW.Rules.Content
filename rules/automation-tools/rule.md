@@ -40,9 +40,9 @@ For large, scalable solutions Azure Functions provide the best automation capabi
 
 | | PowerAutomate | Azure Logic Apps | Azure Functions | Traditional API
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Built-in Triggers | ✅ | ✅ | ✅ | ❌ |
-| Built-in Connectors | ✅ | ✅ | ❌ | ❌ |
 | Quick To Spin-up | ✅ | ✅ | ❌ | ❌ |
+| Built-in Connectors | ✅ | ✅ | ❌ | ❌ |
+| Built-in Triggers | ✅ | ✅ | ✅ | ❌ |
 | Vendor Agnostic | ❌ | ❌ | 🟠* | ✅ |
 | No Coding Required | ✅ | 🟠** | ❌ | ❌ |
 | Fully Customisable DevOps | ❌ | ✅ | ✅ | ✅ | 
