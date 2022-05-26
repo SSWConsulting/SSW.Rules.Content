@@ -8,6 +8,7 @@ index:
 - take-advantage-of-power-automate-and-azure-functions-in-your-dynamics-solutions
 - use-the-common-data-service-connector-instead-of-the-dynamics-365-connector
 - control-who-can-manage-power-platform-environments
+- automation-tools
 
 ---
 
