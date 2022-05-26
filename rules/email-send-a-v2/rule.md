@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know how to send a v2 of an email?
-uri: how-to-send-a-v2-if-requested
+uri: email-send-a-v2
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,8 +13,10 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - checked-by-xxx
+  - email-add-or-remove-someone-from-conversation
 redirects:
   - do-you-know-how-to-send-a-v2-of-an-email
+  - how-to-send-a-v2-if-requested
 created: 2020-01-13T15:33:23.000Z
 archivedreason: null
 guid: 11cb9562-d259-489f-a8e7-9dac55d2b7ac
