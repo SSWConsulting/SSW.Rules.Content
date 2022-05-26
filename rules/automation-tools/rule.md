@@ -55,7 +55,7 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | | Power Automate | Azure Logic Apps | Azure Functions | Traditional API
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Pricing | Per User | Per Action or Hosted | Consumption (CPU/Memory) or Hosted | Customisable |
-| Target Users | End Users | IT Pros | IT Pros | Developers |
+| Target Users | End Users | IT Pros | Developers and IT Pros | Developers |
 | Built-In packaging for easy deployment | ✅ | ❌ | ❌ | ❌ |
 | Quick To Spin-up | ✅ | ✅ | ❌ | ❌ |
 | Heaps of built-in Connectors | ✅ | ✅ | ❌ | ❌ |
