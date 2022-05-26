@@ -25,6 +25,33 @@ In the old days, if employees wanted something automated they would have to call
 ## Power Automate
 Power Automate lets power users automate away repeatable manual processes. They can go from zero to hero in under a day!
 
+For example say you want to:
+* Monitor an inbox
+* Read emails with the subject “Invoice”
+* Get the attached PDF
+* Put the PDF in a SharePoint Document Library (there is a connector)
+* Put a record in Xero (there is an API - no connector)
+
+
+These are all easy in Power Automate, and a tonne of code in an Azure Function
+
+### Connectors
+Power Automate provides heaps of out-of-the-box integrations that mean you don't need to code in authentication, security and custom integrations with APIs. So long as your logic is just moving data from one place to another it can be done really fast.
+
+
+
+Some of the awesome connectors that exist include
+* CRM systems e.g. Dynamics 365
+* Emails
+* Microsoft Dataverse
+* Microsoft Office 365
+* Microsoft SharePoint
+* Custom APIs
+* and more...
+
+### Custom Connectors
+If the connector you want doesn't exist you can create custom connectors to access your favourite APIs and you can even [throw your own code into them](https://docs.microsoft.com/en-us/connectors/custom-connectors/write-code).
+
 ### Power Automate Beyond the Basics
 
 
@@ -38,23 +65,9 @@ However, once the logic gets complex or you need to integrate with custom system
 
 
 ## Azure Logic Apps
-Azure Logic Apps are a really awesome way to integrate different systems and transfer data.
+Azure Logic Apps are a really awesome way to integrate different systems and transfer data. Azure Logic Apps take integration to another level, by providing all the same connectors as Power Automate + tonnes more. 
 
-
-
-The best thing about Logic Apps is that it provides heaps of out-of-the-box integrations that mean you don't need to code in authentication, security and custom integrations with APIs. So long as your logic is just moving data from one place to another it can be done really fast with Azure Logic Apps.
-
-
-
-Some of the awesome things Azure Logic Apps move data between include
-* CRM systems
-* Emails
-* Microsoft Dataverse
-* Microsoft Office365
-* Microsoft SharePoint
-* Custom APIs
-* and more...
-
+You can also configure RBAC for Azure Logic Apps providing extra security control.
 
 
 However, once you start to get complex loops, lots of variables or mathematical manipulation that is where it starts to fall over and you might be better off looking at something like Azure Functions.
@@ -75,7 +88,7 @@ In reality, automation solutions often combine these tools to make the best poss
 
 
 
-Perhaps you have an Azure Logic App (or Power Automate Flow) that gets triggered by input in Dynamics, hits an Azure Function to do some calculations which returns the data to the Azure Logic App and then sends an email to the user. That way the Azure Logic Apps handles the integration aspects while Azure functions takes care of the complex logic. You end up with the best aspects of both!
+Perhaps you have an Azure Logic App (or Power Automate Flow) that gets triggered by input in Dynamics 365, hits an Azure Function to do some calculations which returns the data to the Azure Logic App and then sends an email to the user. That way the Azure Logic Apps handles the integration aspects while Azure functions takes care of the complex logic. You end up with the best aspects of both!
 
 
 
