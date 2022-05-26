@@ -55,24 +55,23 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | | Power Automate | Azure Logic Apps | Azure Functions | Traditional API
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Pricing | Per User | Per Run or Hosted | Per Run or Hosted | Customisable |
+| Target Users | End Users | Developers or Sys Admins | Developers or Sys Admins | Developers |
 | Built-In packaging for easy deployment | ✅ | ❌ | ❌ | ❌ |
 | Quick To Spin-up | ✅ | ✅ | ❌ | ❌ |
 | Heaps of built-in Connectors | ✅ | ✅ | ❌ | ❌ |
-| No Coding Required | ✅ | 🟠* | ❌ | ❌ |
+| No Coding Required | ✅ | ✅ | ❌ | ❌ |
 | Built-in Triggers | ✅ | ✅ | ✅ | ❌ |
-| Vendor Agnostic | ❌ | ❌ | 🟠** | ✅ |
+| Vendor Agnostic | ❌ | ❌ | 🟠* | ✅ |
 | Fully Customisable DevOps | ❌ | ✅ | ✅ | ✅ | 
-| Robust Source Control | ❌ | 🟠*** | ✅ | ✅ |
+| Robust Source Control | ❌ | 🟠** | ✅ | ✅ |
 | Smooth Debugging Experience | ❌ | ❌ | ✅ | ✅ |
 | Easy Mathematical Manipulation | ❌ | ❌ | ✅ | ✅ |
 | Easy Modularization and Refactoring | ❌ | ❌ | ✅ | ✅ |
 | Easy Logic Flows and Looping | ❌ | ❌ | ✅ | ✅ |
- 
-\* Doesn't require coding, but does need some technical know how to implement
 
-\** Azure Functions can be ported to other platforms with some minor modifications
+\* Azure Functions can be ported to other platforms with some minor modifications
 
-\*** Has source control, but it isn't as smooth as traditional code
+\** Has source control, but it isn't as smooth as traditional code
 
 
 
