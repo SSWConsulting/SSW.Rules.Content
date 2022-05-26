@@ -1,10 +1,16 @@
 ---
 type: rule
-title: Do you use the right tool to automate your processes
+title: Do you use the right tool to automate your processes?
 uri: automation-tools
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson
+  - title: Norman Russ
+    url: https://www.ssw.com.au/people/norman-russ
 created: 2022-05-26T02:02:31.620Z
 guid: 27675645-003e-4199-aa57-cdcb2182af48
 ---
