@@ -37,47 +37,47 @@ This has several benefits:
 
 ### Examples
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
-| To:      | Jason |
-| Subject: | RE: Northwind - Include one more field to the form |\
+| To:      | Dave |
+| Subject: | RE: Northwind - Include one more field to the form |
 ::: email-content  
 
-### Hi Jason,
+### Hi Dave,
 
 Done on the contact page
 
-:::\
-:::\
-::: bad\
+:::
+:::
+::: bad
 Figure: Bad Example - "Done" email lacks details
 :::
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
-| To:      | Jason |
-| Subject: | RE: Northwind - Include one more field to the form |\
+| To:      | Dave |
+| Subject: | RE: Northwind - Include one more field to the form |
 ::: email-content  
 
-### Hi Jason,
+### Hi Dave,
 
-Done - added "State" field to the contact form - <u>northwind&#46;com/contact</u>
+Done - added "State" field to the contact form - northwind&#46;com/contact
 
   ![Figure: New "State" field added](good-done-example-form.png)  
 
-\[Insert code changes]
+\[Insert code changes\]
 
-:::\
-:::\
-::: good\
+:::
+:::
+::: good
 Figure: Good Example - "Done" email has a link, a screenshot, and code changes
 :::
 
 ### Tips
 
-* Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
-* On browser screenshots, make sure you include the top-left area - so you can see the URL and what browser it is. E.g. Chrome or Edge.  
-* If you are using Azure DevOps or GitHub, you should also include a URL to the work item.
-* Include a [.diff file](https://www.diffchecker.com/) for greater code/text changes.
+* Read [Screenshots - Do you use balloons instead of a 'Wall of Text'?](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
+* On browser screenshots, make sure you include the top-left area - so you can see the URL and what browser it is. E.g. Chrome or Edge 
+* If you are using Azure DevOps or GitHub, you should also include a URL to the work item
+* Include a [.diff file](https://www.diffchecker.com/) for greater code/text changes
