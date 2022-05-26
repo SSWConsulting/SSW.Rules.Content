@@ -28,11 +28,19 @@ Azure functions help make complex automation quick, easy and pain free. While th
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Built-in Triggers | ✅ | ✅ | ✅ | ❌ |
 | Built-in Connectors | ✅ | ✅ | ❌ | ❌ |
-| No Coding Required | ✅ | ✅ | ❌ | ❌ |
+| Vendor Agnostic | ❌ | ❌ | 🟠* | ✅ |
+| No Coding Required | ✅ | 🟠** | ❌ | ❌ |
 | Smooth Debugging Experience | ❌ | ❌ | ✅ | ✅ |
 | Easy Mathematical Manipulation | ❌ | ❌ | ✅ | ✅ |
-| Robust Source Control | ❌ | ❌ | ✅ | ✅ |
+| Easy Modularization and Refactoring | ❌ | ❌ | ✅ | ✅ |
+| Robust Source Control | ❌ | 🟠*** | ✅ | ✅ |
+| Fully Customisable DevOps | ❌ | ✅ | ✅ | ✅ | 
+ 
+\* Azure Functions can be ported to other platforms with some minor modifications
 
+\** Doesn't require coding, but does need some technical know how to implement
+
+\*** Has source control, but it isn't as smooth as traditional code
 
 
 
