@@ -54,9 +54,9 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Quick To Spin-up | ✅ | ✅ | ❌ | ❌ |
 | Built-in Connectors | ✅ | ✅ | ❌ | ❌ |
+| No Coding Required | ✅ | 🟠** | ❌ | ❌ |
 | Built-in Triggers | ✅ | ✅ | ✅ | ❌ |
 | Vendor Agnostic | ❌ | ❌ | 🟠* | ✅ |
-| No Coding Required | ✅ | 🟠** | ❌ | ❌ |
 | Fully Customisable DevOps | ❌ | ✅ | ✅ | ✅ | 
 | Robust Source Control | ❌ | 🟠*** | ✅ | ✅ |
 | Smooth Debugging Experience | ❌ | ❌ | ✅ | ✅ |
