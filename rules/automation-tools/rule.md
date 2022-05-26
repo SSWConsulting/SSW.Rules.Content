@@ -25,6 +25,8 @@ In the old days, if employees wanted something automated they would have to call
 ## Power Automate
 Power Automate lets power users automate away repeatable manual processes. They can go from zero to hero in under a day!
 
+### Power Automate Beyond the Basics
+
 
 
 DevOps with Power Automate is simple. You can you can package it up in a Power Platform solution and then deploy it to dev, test and production at the click of the button. That way you can skip building DevOps pipelines!
