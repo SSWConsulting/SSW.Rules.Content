@@ -12,10 +12,12 @@ In the old days, if employees wanted something automated they would have to call
 
 <!--endintro-->
 
-## PowerAutomate
-PowerAutomate lets any random user automate away things they find painful. They can go from zero to hero in under a day!
+## Power Automate
+Power Automate lets any random user automate away things they find painful. They can go from zero to hero in under a day!
 
-PowerAutomate is the perfect tool for non-developers who want to spin-up a bit of automation to address tasks that cause daily pain for them personally. 
+Power Automate is the perfect tool for non-developers who want to spin-up a bit of automation to address tasks that cause daily pain for them personally. 
+
+Power Automate is also pretty simple to deploy, you can package it up in a Power Platform solution and then deploy it to dev, test and production at the click of the button. That way you can skip building DevOps pipelines!
 
 However, once the logic gets complex or you need to integrate with custom systems, it's time to look at another solution.
 
@@ -52,6 +54,8 @@ By now, your head might be spinning wondering what are the advantages and disadv
 
 | | PowerAutomate | Azure Logic Apps | Azure Functions | Traditional API
 | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Pricing | Per User | Per Run or Hosted | Per Run or Hosted | Customisable |
+| Built-In DevOps | ✅ | ❌ | ❌ | ❌ |
 | Quick To Spin-up | ✅ | ✅ | ❌ | ❌ |
 | Built-in Connectors | ✅ | ✅ | ❌ | ❌ |
 | No Coding Required | ✅ | 🟠** | ❌ | ❌ |
