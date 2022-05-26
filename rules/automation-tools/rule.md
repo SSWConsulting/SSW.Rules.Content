@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use the right tool to automate your processes
+title: Do you use the right tool to automate your processes?
 uri: automation-tools
 authors:
   - title: Piers Sinclair
