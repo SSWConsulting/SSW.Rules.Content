@@ -23,11 +23,13 @@ In the old days, if employees wanted something automated they would have to call
 
 
 ## Power Automate
-Power Automate lets any random user automate away things they find painful. They can go from zero to hero in under a day!
+Power Automate lets power users automate away repeatable manual processes. They can go from zero to hero in under a day!
 
-Power Automate is the perfect tool for non-developers who want to spin-up a bit of automation to address repeatable tasks that frequently cause them pain.
 
-Power Automate is also pretty simple to deploy, you can package it up in a Power Platform solution and then deploy it to dev, test and production at the click of the button. That way you can skip building DevOps pipelines!
+
+DevOps with Power Automate is simple. You can you can package it up in a Power Platform solution and then deploy it to dev, test and production at the click of the button. That way you can skip building DevOps pipelines!
+
+
 
 However, once the logic gets complex or you need to integrate with custom systems, it's time to look at another solution.
 
@@ -36,7 +38,11 @@ However, once the logic gets complex or you need to integrate with custom system
 ## Azure Logic Apps
 Azure Logic Apps are a really awesome way to integrate different systems and transfer data.
 
+
+
 The best thing about Logic Apps is that it provides heaps of out-of-the-box integrations that mean you don't need to code in authentication, security and custom integrations with APIs. So long as your logic is just moving data from one place to another it can be done really fast with Azure Logic Apps.
+
+
 
 Some of the awesome things Azure Logic Apps move data between include
 * CRM systems
@@ -47,12 +53,16 @@ Some of the awesome things Azure Logic Apps move data between include
 * Custom APIs
 * and more...
 
+
+
 However, once you start to get complex loops, lots of variables or mathematical manipulation that is where it starts to fall over and you might be better off looking at something like Azure Functions.
 
 
 
 ## Azure Functions
 Azure functions help make complex automation quick, easy and pain free. While they still need a developer, it is much easier to get things spun up and you can hook them into all sorts of built-in triggers.
+
+
 
 For large, scalable solutions Azure Functions provide the best automation capability.
 
@@ -61,7 +71,10 @@ For large, scalable solutions Azure Functions provide the best automation capabi
 ## The best of all worlds
 In reality, automation solutions often combine these tools to make the best possible architecture.
 
+
+
 Perhaps you have an Azure Logic App (or Power Automate Flow) that gets triggered by input in Dynamics, hits an Azure Function to do some calculations which returns the data to the Azure Logic App and then sends an email to the user. That way the Azure Logic Apps handles the integration aspects while Azure functions takes care of the complex logic. You end up with the best aspects of both!
+
 
 
 Always keep in mind that you don't need to limit yourself to one tool.
