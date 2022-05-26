@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/calum-simpson
   - title: Norman Russ
     url: https://www.ssw.com.au/people/norman-russ
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2022-05-26T02:02:31.620Z
 guid: 27675645-003e-4199-aa57-cdcb2182af48
 ---
