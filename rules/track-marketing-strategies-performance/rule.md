@@ -24,13 +24,16 @@ Firstly, you need to set realistic performance standards. What metrics are you g
 We recommend setting SMART goals, this is an effective tool that provides the clarity, focus and motivation you need to achieve your goals. It can also improve your ability to reach them by encouraging you to define your objectives and set a completion date. SMART goals are also easy to use by anyone, anywhere, without the need for specialist tools or training.
 
 To make sure your goals are clear and reachable, each one should be:
-•	Specific (simple, sensible, significant).
-•	Measurable (meaningful, motivating).
-•	Achievable (agreed, attainable).
-•	Relevant (reasonable, realistic and resourced, results-based).
-•	Time bound (time-based, time limited, time/cost limited, timely, time-sensitive).
+
+* Specific (simple, sensible, significant).
+* Measurable (meaningful, motivating).
+* Achievable (agreed, attainable).
+* Relevant (reasonable, realistic and resourced, results-based).
+* Time bound (time-based, time limited, time/cost limited, timely, time-sensitive).
 
 Source: MindTools (2016). SMART goals – *how to make your goals achievable*.
+
+
 
 One simple way of tracking this, is to collate the performance data and analyze the results. For example, a goal might be to increase the engagement on your social media pages by 6% in 6 months, to ensure you’re on track you would need to see your audience growing by 1% every month.
 
