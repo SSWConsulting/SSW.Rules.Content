@@ -55,9 +55,9 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | | PowerAutomate | Azure Logic Apps | Azure Functions | Traditional API
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Pricing | Per User | Per Run or Hosted | Per Run or Hosted | Customisable |
-| Built-In DevOps | ✅ | ❌ | ❌ | ❌ |
+| Built-In packaging for easy deployment | ✅ | ❌ | ❌ | ❌ |
 | Quick To Spin-up | ✅ | ✅ | ❌ | ❌ |
-| Built-in Connectors | ✅ | ✅ | ❌ | ❌ |
+| Heaps of built-in Connectors | ✅ | ✅ | ❌ | ❌ |
 | No Coding Required | ✅ | 🟠** | ❌ | ❌ |
 | Built-in Triggers | ✅ | ✅ | ✅ | ❌ |
 | Vendor Agnostic | ❌ | ❌ | 🟠* | ✅ |
