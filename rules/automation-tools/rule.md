@@ -15,7 +15,7 @@ In the old days, if employees wanted something automated they would have to call
 ## Power Automate
 Power Automate lets any random user automate away things they find painful. They can go from zero to hero in under a day!
 
-Power Automate is the perfect tool for non-developers who want to spin-up a bit of automation to address tasks that cause daily pain for them personally. 
+Power Automate is the perfect tool for non-developers who want to spin-up a bit of automation to address repeatable tasks that frequently cause them pain.
 
 Power Automate is also pretty simple to deploy, you can package it up in a Power Platform solution and then deploy it to dev, test and production at the click of the button. That way you can skip building DevOps pipelines!
 
@@ -45,14 +45,14 @@ For large, scalable solutions Azure Functions provide the best automation capabi
 ## The best of all worlds
 In reality, automation solutions often combine these tools to make the best possible architecture.
 
-Perhaps you have an Azure Logic App that gets triggered by input in Dynamics, hits an Azure Function to do some calculations and then returns the data in an email to the user. That way Azure Logic Apps handles the integration aspects while Azure functions takes care of the complex logic. You end up with the best aspects of both!
+Perhaps you have an Azure Logic App (or Power Automate Flow) that gets triggered by input in Dynamics, hits an Azure Function to do some calculations which returns the data to the Azure Logic App and then sends an email to the user. That way the Azure Logic Apps handles the integration aspects while Azure functions takes care of the complex logic. You end up with the best aspects of both!
 
 Always keep in mind that you don't need to limit yourself to one tool.
 
 ## Benefits Breakdown
 By now, your head might be spinning wondering what are the advantages and disadvantages of all the automation tools. Here's a quick overview to give you an idea:
 
-| | PowerAutomate | Azure Logic Apps | Azure Functions | Traditional API
+| | Power Automate | Azure Logic Apps | Azure Functions | Traditional API
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Pricing | Per User | Per Run or Hosted | Per Run or Hosted | Customisable |
 | Built-In packaging for easy deployment | ✅ | ❌ | ❌ | ❌ |
