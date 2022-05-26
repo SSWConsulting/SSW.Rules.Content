@@ -58,9 +58,9 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | Built-In packaging for easy deployment | ✅ | ❌ | ❌ | ❌ |
 | Quick To Spin-up | ✅ | ✅ | ❌ | ❌ |
 | Heaps of built-in Connectors | ✅ | ✅ | ❌ | ❌ |
-| No Coding Required | ✅ | 🟠** | ❌ | ❌ |
+| No Coding Required | ✅ | 🟠* | ❌ | ❌ |
 | Built-in Triggers | ✅ | ✅ | ✅ | ❌ |
-| Vendor Agnostic | ❌ | ❌ | 🟠* | ✅ |
+| Vendor Agnostic | ❌ | ❌ | 🟠** | ✅ |
 | Fully Customisable DevOps | ❌ | ✅ | ✅ | ✅ | 
 | Robust Source Control | ❌ | 🟠*** | ✅ | ✅ |
 | Smooth Debugging Experience | ❌ | ❌ | ✅ | ✅ |
@@ -68,9 +68,9 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | Easy Modularization and Refactoring | ❌ | ❌ | ✅ | ✅ |
 | Easy Logic Flows and Looping | ❌ | ❌ | ✅ | ✅ |
  
-\* Azure Functions can be ported to other platforms with some minor modifications
+\* Doesn't require coding, but does need some technical know how to implement
 
-\** Doesn't require coding, but does need some technical know how to implement
+\** Azure Functions can be ported to other platforms with some minor modifications
 
 \*** Has source control, but it isn't as smooth as traditional code
 
