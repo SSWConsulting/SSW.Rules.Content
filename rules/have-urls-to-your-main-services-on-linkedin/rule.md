@@ -18,12 +18,12 @@ LinkedIn is the main business and employment-oriented social networking service 
 
 <!--endintro-->
 
-![Figure: In the Featured section, use the "+" and then "Links" buttons to include the URLs for the main services your provide](linkedin-edit-image.jpg)
+![Figure: In the Featured section, use the "+" and then "Links" buttons to include the URLs for the main services your provide](linkedin-services-bad-example.png)
 
 ::: bad
-![Figure: Bad example - Profile with no links](linkedin_services_bad_example.png)
+![Figure: Bad example - Profile with no links](linkedin-bad-example.png)
 :::
 
-::: good\
-![Figure: Good example - Profile with links to main services provided](linkedin_good_example.png)\
+::: good
+![Figure: Good example - Profile with links to main services provided](linkedin-good-example.png)
 :::
