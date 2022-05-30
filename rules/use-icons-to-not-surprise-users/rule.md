@@ -39,7 +39,7 @@ Don't surprise users! For the following file/link types, use icons:
 - **AVI, MOV, MPG etc.:**   
   [This is a video file](sample-VIDEO.mp4)
 - **WAV, WMA, MP3 etc.:**  
-  [This is a music file](sample-MP3.mp3)
+  [This is a music file](sample-AUDIO.mp3)
 - **ICS or VCS:**  
   [This is a calendar file](Sample-ICS.ics)
 - **ZIP:**  
@@ -47,7 +47,7 @@ Don't surprise users! For the following file/link types, use icons:
 - **YouTube:**  
   [This is a link to a YouTube Video](https://www.youtube.com/watch?v=gp_F43lx6iM)
 - **Mailto:**  
-  [This link will send an email](mailto:someone@example.com)
+  [This link will send an email](mailto:example@mail.com)
 
 You should also use an icon to [make external links clear](/do-you-make-external-links-clear).
 
@@ -56,7 +56,7 @@ You should also use an icon to [make external links clear](/do-you-make-external
 :::
 
 ::: good  
-![Figure: Good Example - The pdf icon (before a hyperlink) indicates it is not a web page](../../assets/IconImageGood.gif)  
+![Figure: Good Example - The PDF icon (before a hyperlink) indicates it is not a web page](../../assets/IconImageGood.gif)  
 :::
 
 ### How to add an icon before a link with CSS
