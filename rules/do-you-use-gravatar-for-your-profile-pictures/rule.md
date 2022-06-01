@@ -5,7 +5,9 @@ title: Do you use Gravatar for your profile pictures?
 guid: b790dbfc-fe37-4a4a-992e-c9294620a06b
 uri: do-you-use-gravatar-for-your-profile-pictures
 created: 2015-03-16T10:17:40.0000000Z
-authors: []
+authors: 
+- title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
