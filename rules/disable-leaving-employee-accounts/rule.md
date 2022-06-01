@@ -31,5 +31,5 @@ You should create a list of instructions that are followed whenever an employee 
 ![Figure: Disabled User OU](disabled-ou.png)
 
 4. Forward their emails to another employee
-5. Make sure they return any IT equipment they have, and delete their computer account/s in AD
+5. Make sure they return any IT equipment they have, and delete their computer account/s from AD
 6. Remove any security/automation access.
