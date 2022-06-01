@@ -13,9 +13,9 @@ redirects: []
 
 ---
 
-Unless we're currently working on the last sprint of the development, you should always book the next sprint as soon as you start work on the current one. 
+Unless we're currently working on the last Sprint of the development, you should always book the next Sprint as soon as you start work on the current one. 
 <!--endintro-->
 
-This is done during the [planning meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting) and will ensure the availability of the developers who are up to speed on your project and stop them from being booked onto something else.
+This is done during the [Planning meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting) and will ensure the availability of the developers who are up to speed on your project and stop them from being booked onto something else.
 
 ![Figure: If you have booked the guys in, you will have an appointment like this in your Outlook](Scheduled_Appointment.jpg)
