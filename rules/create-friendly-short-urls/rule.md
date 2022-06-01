@@ -25,7 +25,9 @@ Readability of URLs is important, so you should consider making a short URL. How
 If you use a unfriendly and long link people can't see what they are clicking through to. In fact, this is what most spammers rely on.
 
 ::: greybox
-blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
+Thanks Bob, that is great.
+
+Link: blogs.msdn.com/b/briankel/archive/2010/06/25/now-available-visual-studio-2010-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
 :::
 ::: bad
 Bad example - People can’t easily type or remember this URL... it is too long and hard to clearly see what it will take you
@@ -33,20 +35,24 @@ Bad example - People can’t easily type or remember this URL... it is too long 
 
 ::: greybox
 Thanks Rob, that is great.
-Made a bit.ly at http&#58;//bit.ly/aC5Lb2 as per http&#58;//ssw.com.au/rules/do-you-know-to-make-short-urls-readable-where-you-can
+
+Link: https://bit.ly/aC5Lb2    
+Made a bit.ly per [Do you make URLs short and readable?](https://www.ssw.com.au/rules/create-friendly-short-urls)
 :::
 ::: ok
-OK examples - Short URLs, but hard to remember 
+OK example - Short URL, but hard to remember 
 :::
 
 When you can, take the more readable option:
 
 ::: greybox
 Thanks Rob, that is great.
-Made a bit.ly at http&#58;//bit.ly/VS-2010-VM as per http&#58;//ssw.com.au/rules/create-friendly-short-urls 
+
+Link: bit.ly/VS-2010-VM   
+Made a bit.ly per [Do you make URLs short and readable?](https://www.ssw.com.au/rules/create-friendly-short-urls)
 :::
 ::: good
-Good examples - Short URLs, easier to remember  
+Good example - Short URL, and easier to remember  
 :::
 
 So you should only 'Auto Shorten URLs' when it is too long and you need the space.

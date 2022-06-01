@@ -50,5 +50,6 @@ index:
 - format-new-lines
 - how-to-name-documents
 - remove-spaces-from-your-folders-and-filename
+- prefixes
 
 ---

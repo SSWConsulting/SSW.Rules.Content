@@ -10,62 +10,37 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
-related: []
+related: 
+- make-title-h1-and-h2-tags-descriptive
 redirects:
 - do-you-use-heading-tags-where-appropriate-h1-h2-h3
 - do-you-use-heading-tags-where-appropriate-(h1-h2-h3-)
 
 ---
 
-You should  understand the hierarchy and try to use the heading tags (&lt;H1&gt;, &lt;H2&gt; or &lt;H3&gt;...) for titles and subtitles.
+You should understand the hierarchy and try to use the heading tags (&lt;H1&gt;, &lt;H2&gt; or &lt;H3&gt;...) for titles and subtitles.
 
 It's also important to customize these headings via CSS, making the font bigger, bold or in a different color. This way page looks nice and organized.
 
 The following benefits of using heading tags:
 
-
 <!--endintro-->
-
-
 
 * Improves the ranking with the search engines (extra weighting is given to text in H1 and H2)
 * Makes cleaner and leaner HTML
 
-
-
-
-
-```
+``` html
 <p><span class="Heading">Introduction</span> 
       
-
 Lets chatter about...</p>
 ```
-
-
-
-
 ::: bad
-Figure: Bad example -  **using span tags and CSS classes to put headings in** 
-
+Figure: Bad example -  Using span tags and CSS classes to insert headings to content
 :::
 
-
-
-
-
-```
+``` html
 <h2>Introduction</h2>
 ```
-
-
-
-
 ::: good
-Figure: Good example - using heading styles
+Figure: Good example - Using heading tags
 :::
-
-
-### Related Rules
-
-* [Do you make your "title", "h1", and "h2" tags descriptive?](/make-title-h1-and-h2-tags-descriptive)

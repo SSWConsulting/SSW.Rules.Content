@@ -1,20 +1,19 @@
 ---
 type: rule
-archivedreason: 
-title: Visualizing - Do you have an Azure resources diagram?
-guid: 9c0aa4a1-0333-48d2-994f-9cd5d55ec01f
+title: Do you have an Azure resources diagram for visualization?
 uri: azure-resources-diagram
-created: 2020-10-06T00:15:42.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related: []
 redirects:
-- azure-resources-visualizing
-- visualizing-do-you-have-an-azure-resources-diagram
-
+  - azure-resources-visualizing
+  - visualizing-do-you-have-an-azure-resources-diagram
+created: 2020-10-06T00:15:42.000Z
+archivedreason: null
+guid: 9c0aa4a1-0333-48d2-994f-9cd5d55ec01f
 ---
 
 Looking at a long list of Azure resources is not the best way to be introduced to a new project. It is much better to visualize your resources.
@@ -48,6 +47,10 @@ You need an [architecture diagram](/architecture-diagram), but this is often hig
 :::
 
 [Install ARM Template Viewer from VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=bencoleman.armview).
+
+::: greybox
+**Note:** Microsoft has a [download link for all the Azure icons as SVGs](https://docs.microsoft.com/en-us/azure/architecture/icons/).
+:::
 
 ::: greybox
 **Suggestion to Microsoft:** Add an auto-generated diagram in the Azure portal. Have an option in the combo box (in addition to List View) for Diagram View.

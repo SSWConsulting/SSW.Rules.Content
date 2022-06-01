@@ -26,8 +26,8 @@ Let's learn a few reasons why a business should be on TikTok:
    5. 41M Mexico
 2. New Audience base – Get access to the under 25s, as well as a large female audience.
 
-   1. 28% of the users are under 18, and 35% are aged 19-29 (that is 63% under 30)
-   2. 60% are female [28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29.
+   1. [28% of the users are under 18](https://www.businessofapps.com/data/tik-tok-statistics/), and 35% are aged 19-29 (that is 63% under 30)
+   2. 60% are female
 3. Maximize Creativity – Explore a different side of your business, like what makes you fun and interesting. The people and culture at your company are important, and putting a fun video of your employees on TikTok is more appropriate than say LinkedIn, where the same video would be potentially received poorly as it is not "business" enough.
 4. Unique Algorithm – TikTok will recommend videos that match your interests. It uses data like your location, hashtags you follow or use, and of course videos you like. TikTok gives you a personalized feed ‘For You’, which is similar to your Instagram’s ‘Explore’ page.\
    As [TikTok explains](https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you):

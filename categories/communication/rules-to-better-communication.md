@@ -16,4 +16,7 @@ index:
 
 ---
 
+> What we've got here is failure to communicate!  
+– Cool Hand Luke
 
+So many problems in business come down to a lack of clear and effective communication. Here is a series of communication rules that should give you an edge.

@@ -23,8 +23,8 @@ One of the most controversial issues developers discuss is when to create branch
 
 Keep things simple:
 
-1. Have the team develop on the one branch. It is fantastic as there are no more merging hell.
-2. Have that branch called "**master**" if using  **Git** and "**main**" or " **trunk** " when using **TFS** or **SVN**
+1. Have the team develop on the one branch. It is fantastic as there is no more merging hell.
+2. Have that branch called "**main**" (or " **trunk** " when using **TFS** or **SVN**
 
 Beware of smart bloggers giving the wrong advice 🙃 as many smart people like creating branches... E.g. [Guidance: A Branching strategy for Scrum Teams](https://nkdagility.com/blog/guidance-a-branching-strategy-for-scrum-teams/). Even Martin Fowler says there are a number of issues related to merging that lead us to try and minimise the number of branches that we work with in his article on [Feature Branches](https://martinfowler.com/bliki/FeatureBranch.html).
 
@@ -32,7 +32,7 @@ The quintessential scenario you need to support is that emergency "Hey we have a
 
 In that case you need to potentially update all of your branches and perform deployment, which can be quite tiresome.
 
-The better way is to use OctopusDeploy which relives developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
+The better way is to use OctopusDeploy which relieves developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
 
 ::: good  
 ![Figure: Good Example: Manage deployments to multiple environments, view deployed versions.](2014-10-11\_18-54-00.png)  
@@ -51,7 +51,7 @@ The better way is to use OctopusDeploy which relives developers from having mult
 
 If a am working on a branch and perform sweeping renaming, and a developer working on another branch does the same – merging is nearly impossible.
 
-This is **very** likely to happen on code bases that require tidying when you have developers who believe in improving code as they go (see the [Boy Scout rule](/follow-boy-scout-rule)
+This is **very** likely to happen on code bases that require tidying when you have developers who believe in improving code as they go (see the [Boy Scout rule](/follow-boy-scout-rule))
 
 ### When it's OK to branch
 

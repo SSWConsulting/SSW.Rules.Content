@@ -8,7 +8,8 @@ index:
 - follow-naming-conventions-for-your-boolean-property
 - do-you-know-that-webapi-and-tables-name-should-be-consistent
 - follow-naming-conventions-for-tests-and-test-projects
-- name-your-azure-resources-correctly
+- azure-naming-resources
+- azure-naming-resource-groups
 - apply-tags-to-your-azure-resource-groups
 - use-azure-policies
 - do-you-know-how-to-name-a-github-repository

@@ -14,7 +14,8 @@ authors:
   url: https://ssw.com.au/people/adam-stephensen
 - title: Chris Briggs
   url: https://ssw.com.au/people/chris-briggs
-related: []
+related: 
+- do-you-estimate-business-value
 redirects:
 - estimating-do-you-know-how-to-size-product-backlog-items-pbis-effectively
 - estimating-do-you-know-how-to-size-product-backlog-items-(pbis)-effectively
@@ -38,21 +39,17 @@ Let's go through them:
 
 This method is popular with Microsoft teams, but it has the problem of not easily mapping to the common 7 numbers when you enter it into a Task tracking Bug database. e.g.
 
+::: greybox
+1 = XS  
+2 = S  
+4 = M  
+8 = L  
+16 = XL  
+32 = XXL  
+64 = XXXL
+:::
 
-> ::: greybox
-> 1 = XS
-> 2 = S
-> 4 = M
-> 8 = L
-> 16 = XL
-> 32 = XXL
-> 64 = XXXL
-> 
-> :::
-> 
-> **Please note:** In some teams which only use Small, Medium and Large the following numbering is applyed respectively 2, 4 and 8.
-
-
+**Please note:** In some teams which only use Small, Medium and Large the following numbering is applyed respectively 2, 4 and 8.
 
 ::: bad  
 ![Figure: Bad example - Estimation using T-Shirt sizes](size-stories-bad-example.jpg)  
@@ -61,7 +58,6 @@ This method is popular with Microsoft teams, but it has the problem of not easil
 ### Fibonacci Extended (1-100)
 
 Planning Poker is a very effective Product Backlog estimation technique and the most common method is using Fibonacci numbers (1,2,3,5,8,13, etc.). This was made popular by Mike Cohn.
-
 
 ::: good  
 ![Figure: OK example - Estimation using Planning Poker with large numbers](size-stories-ok-example.jpg)  
@@ -73,31 +69,26 @@ Mike Cohn introduced changes to the original 7 cards, by changing the 21 to 20 a
 
 Ken Schwaber (the father of Scrum) says in his Scrum Certification course, that he is not a fan of the extra cards and says he prefers teams keep to the original 7 cards.
 
-
 ::: good  
 ![Figure: OK example - Estimation using Planning Poker with only small numbers](size-stories-good-example.jpg)  
 :::
 
 ### Doubling (recommended)
 
-
 Estimating using doubling numbers makes relative sizing simple. An 8 point PBI should be about twice the size as a 4-point PBI. This method also simplifies PBI swapping where a PBI is replaced with PBIs totaling the same number of points.
 
 It has one other advantage over the Fibonacci sequence, it is easier for non-techies because the numbers aren't whacky and the name isn't bizarre.
 
-
 ::: greybox
- **Estimate** 
-1
-2
-4
-8
-16
-32
-64
-
+**Estimate** 
+1  
+2  
+4  
+8  
+16  
+32  
+64  
 :::
-
 
 ::: good
 Figure: Good example -Doubling simplifies relative sizing  
@@ -114,7 +105,6 @@ The action is done in the same method as the game 'Rock, Paper, Scissors'. The o
 ![Figure: PBI estimates using the "Thrown method"](fist-method.jpg)  
 
 ### Other Tips
-
 
 **#1 Don't Shout Out** 
 It will just influence other people's votes.
@@ -137,10 +127,6 @@ Every team is different, but you can use the following guidelines for sizing PBI
 Figure: Good example - Example PBI estimates  
 :::
 
-
-
-
-
 **#3 Using a Chat Program** 
 If you are working on a project with a remote team, use Microsoft Teams chat to size PBIs using Planning Poker.  Everyone should give their points for PBIs at the same time to avoid influencing each other.
 
@@ -149,8 +135,3 @@ PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stenc
 
 **#5 Use Spikes** 
 If you do find a very large PBI, consider using a Spike (aka. an investigation task) to help work out how much work will be involved.
-
-### Related rule
-
-
-* [Do you estimate “Business Value”?](/do-you-estimate-business-value)

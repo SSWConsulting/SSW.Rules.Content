@@ -84,9 +84,18 @@ Figure: Good example - Clear caption description
 :::
 
 
-### Tip #4 - You can also use captions for videos
+### Tip #4 - Add titles for videos
 
-Not always required, captions might also be a good way of giving a brief explanation of a video. If you have them, then prefix with "Video: " instead of "Figure: ".
+When embedding videos from others, include the video title as the caption. This helps:
+- Giving a brief text explanation of the video
+- Getting some extra Google Juice
+- Serving as a reminder in case that video ever gets removed by its owner
+
+If you have them, prefix with "Video: \[Title\] " instead of "Figure: ".
+
+::: info
+**Note:** The exception is for promotional videos where the caption may impact the nice look and feel of your page.
+:::
 
 ::: greybox
 \[video\]   
@@ -98,8 +107,8 @@ Figure: Bad example - Using "Figure:" for a video caption
 
 ::: greybox
 \[video\]   
-**Video: In this video, Gary talks about how to search on Outlook**
+**Video: How to search on Outlook by Gary**
 :::
 ::: good
-Figure: Good example - Using "Video:" for a video caption
+Figure: Good example - Using "Video: \[Title\]" for a video caption
 :::

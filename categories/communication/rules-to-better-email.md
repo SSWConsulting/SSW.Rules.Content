@@ -12,7 +12,7 @@ index:
 - number-tasks-questions
 - do-you-know-the-common-standard-email-types
 - change-from-x-to-y
-- how-to-send-a-v2-if-requested
+- email-send-a-v2
 - do-you-cc-everyone-and-reply-to-all-when-necessary
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
@@ -30,7 +30,7 @@ index:
 - do-you-add-context-reasoning-to-your-emails
 - do-you-avoid-replying-to-all-when-you-are-only-bcced
 - do-you-include-the-name-of-the-person-you-address-on-the-first-line
-- do-you-know-how-to-add-or-remove-someone-from-the-conversation
+- email-add-or-remove-someone-from-conversation
 - do-you-know-how-to-follow-up-an-unanswered-email
 - do-you-know-that-less-is-more
 - do-you-know-what-to-do-when-you-get-an-email-that-you-dont-understand

@@ -8,6 +8,7 @@ index:
 - make-newcomers-feel-welcome
 - track-induction-work-in-a-scrum-team
 - prepare-a-special-goodbye-to-a-co-worker-leaving-the-company
+- template-distribution-groups
 
 ---
 

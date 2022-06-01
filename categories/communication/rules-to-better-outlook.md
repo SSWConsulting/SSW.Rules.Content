@@ -8,7 +8,7 @@ index:
 - minimize-outlook-distractions
 - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
 - avoid-sending-emails-immediately
-- how-to-send-a-v2-if-requested
+- email-send-a-v2
 - do-you-know-how-to-recall-an-email
 - duplicate-email-draft
 - do-you-avoid-outlook-rules

@@ -7,6 +7,7 @@ index:
 - do-you-colour-code-your-keys
 - do-you-identify-your-online-purchases
 - Employee-YOLO-Day
+- reduce-office-noise
 
 ---
 

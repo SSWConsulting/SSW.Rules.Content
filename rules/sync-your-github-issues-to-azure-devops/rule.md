@@ -26,21 +26,24 @@ Here's a quick guide in setting it up for your GitHub Repository and Azure DevOp
 1. Install the [Azure Boards App](https://github.com/marketplace/azure-boards) from the GitHub Marketplace
 2. Create the GitHub Action secrets
 
-> * **ADO\_PERSONAL\_ACCESS\_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)
-> The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
-> * **GH\_PERSONAL\_ACCESS\_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)
-> The [GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) requires "repo" permissions.
-> * **ADO\_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)
-> The Organization name is in your Azure DevOps URL.
-> * **ADO\_PROJECT** (https://ssw.visualstudio.com/ **SSW.Rules** )
-> The Project name can also be found in your Azure DevOps URL.
+* **ADO\_PERSONAL\_ACCESS\_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)  
+The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
+
+* **GH\_PERSONAL\_ACCESS\_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)  
+The [GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) requires "repo" permissions.
+
+* **ADO\_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)  
+The Organization name is in your Azure DevOps URL.
+
+* **ADO\_PROJECT** (https://ssw.visualstudio.com/ **SSW.Rules**)  
+The Project name can also be found in your Azure DevOps URL.
 
 
 3. Create the following GitHub Action
 
 E.g. SSW uses this template for their projects, you may need to change the new and closed states depending on your environment.
 
-```
+``` git
 name: Sync issue to Azure DevOps work item
 on:
   issues:

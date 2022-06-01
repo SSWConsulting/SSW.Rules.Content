@@ -6,7 +6,6 @@ uri: rules-to-better-google-ads-and-sem
 index:
 - the-best-practices-for-google-ads
 - do-you-know-the-components-of-a-google-ads-campaign
-- do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
 - how-to-use-audiences-on-google-ads
 - how-to-use-ad-extensions-on-google-ads
 - how-to-do-keyword-planning
@@ -17,7 +16,7 @@ index:
 - how-to-optimize-your-google-ads
 - how-to-create-a-negative-keyword-list
 - bid-on-your-own-brand-keyword
-- do-you-use-microsoft-advertising-formerly-known-as-bing-ads
+- use-microsoft-advertising-formerly-known-as-bing-ads
 - import-your-google-campaigns-to-your-microsoft-ads
 - regularly-audit-your-google-ads-account
 - do-you-know-how-to-keep-track-of-your-ppc-campaign-spend

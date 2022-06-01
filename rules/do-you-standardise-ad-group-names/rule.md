@@ -47,27 +47,11 @@ Figure: Good Example – By standardizing the names of AD groups it saves confus
 
 ::: info
 **Note:** For large organizations, a better way is  to use a type of group (eg. Local or Global)... then the entity it is associated to… then the resource (or service).
+
+**Examples:** 
+- **L-LocalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **L-SYD-SP-SSW-Users**
+- **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**
 :::
-
-**Example #1:**
-
-```
-L-LocalGroupName-
-   SYD-EntityName-
-   SP-Sharepoint-
-```
-
-That becomes “L-SYD-SP-SSW-Users"
-
-**Example #2:**
-
-```
-G-GlobalGroupName-
-   SYD-EntityName-
-   SP-Sharepoint-
-```
-
-That becomes “G-SYD-SP-SSW-Users"
 
 **Note:** You would not use this naming convention for distribution groups – as they would display to users.
 
