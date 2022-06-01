@@ -26,7 +26,3 @@ When a user leaves many companies go through the process of disabling the CRM ac
 The problem that arises from deleting the AD user is that if the Employee that left comes back to the company and a new AD account is created for them, they are no longer able to be associated with the previously created CRM account. Instead they will need a new CRM user with a different Employee ID.
 
 This in turn make reporting on a user that has returned more difficult. So to get around this it is disabling and moving the user to a "Disable Users" Organizational Unit (OU) in AD is much easier, so that in the event that the return, the AD and CRM user can just be re-enabled.
-
-::: greybox
-**NOTE:** It is important to make sure that users that have left are disabled, and that they are removed from any security groups so that any permissions they had are revoked.
-:::
