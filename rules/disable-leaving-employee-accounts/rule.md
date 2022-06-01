@@ -23,7 +23,7 @@ You should create a list of instructions that are followed whenever an employee 
 * Files from their computer
 
 2. Remove their AD user account from any group membership
-3. Disable their AD account - and any other accounts they have
+3. Disable their AD account - and any other accounts they have:
 
 * Move their account to a "disabled users" OU
 * Don't delete their account, this can cause issues in the future!
