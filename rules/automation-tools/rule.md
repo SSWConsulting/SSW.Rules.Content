@@ -16,7 +16,7 @@ authors:
 created: 2022-05-26T02:02:31.620Z
 guid: 27675645-003e-4199-aa57-cdcb2182af48
 ---
-::: img-small 
+::: img-medium 
 ![Figure: The power of Power Automate](power-automate-logo.png)
 :::
 
