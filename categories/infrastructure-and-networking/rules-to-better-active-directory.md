@@ -14,6 +14,7 @@ index:
 - do-you-use-separate-administrator-account
 - run-services-on-their-own-ad-accounts
 - check-ad-security-with-pingcastle
+- disable-leaving-employee-accounts
 
 ---
 
