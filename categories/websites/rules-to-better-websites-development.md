@@ -46,6 +46,7 @@ index:
 - do-you-know-the-best-cms-solutions-for-websites
 - use-web-compiler
 - packages-up-to-date
+- monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
 
 ---

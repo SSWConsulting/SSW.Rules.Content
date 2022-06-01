@@ -16,6 +16,7 @@ authors:
   url: https://www.ssw.com.au/people/chris-clement
 related:
 - the-best-package-manager-for-react
+- monitor-packages-for-vulnerability
 redirects:
 - do-you-keep-your-npm-packages-up-to-date
 
