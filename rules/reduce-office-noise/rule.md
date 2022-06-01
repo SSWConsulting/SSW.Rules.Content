@@ -14,5 +14,5 @@ When the noise in an open plan office goes beyond appropriate levels, it could b
 2. Use a reasonable voice level or soft voice.
 3. Type in the important points during the conversation to your teams/private chat box to avoid unnecessary repetition and at the same time have those points written not just spoken.
 4. Should you anticipate a long call, move into a private room or booth if you can.
-5. Ping very loud people politely/nicely, e.g., “Hey buddy, could you please use headphones?”.
+5. Ping very loud people politely/nicely, e.g., “Hey XXX, could you please use headphones?”.
 6. Close your booth/pod door (if you have one) while you’re in calls.
