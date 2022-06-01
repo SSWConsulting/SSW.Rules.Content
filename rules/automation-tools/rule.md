@@ -16,7 +16,9 @@ authors:
 created: 2022-05-26T02:02:31.620Z
 guid: 27675645-003e-4199-aa57-cdcb2182af48
 ---
-![](power-automate-logo.png)
+::: img-small 
+![Figure: The power of Power Automate](power-automate-logo.png)
+:::
 
 In the old days, if employees wanted something automated they would have to call up the development team and go through a long bureaucratic process to get a traditional API built. These days, there are heaps of tools that make this easy, quick and simple.
 
