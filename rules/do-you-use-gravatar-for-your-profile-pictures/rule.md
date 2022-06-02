@@ -7,7 +7,7 @@ uri: do-you-use-gravatar-for-your-profile-pictures
 created: 2015-03-16T10:17:40.0000000Z
 authors: 
 - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+  url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 
