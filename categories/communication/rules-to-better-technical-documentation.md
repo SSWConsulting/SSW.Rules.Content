@@ -29,6 +29,7 @@ index:
 - when-to-use-log-on-log-in-and-sign-in
 - use-try-again-instead-of-retry
 - use-taskbar-instead-of-task-bar
+- use-username-instead-of-user-name
 - use-cannot-and-website-instead-of-separated-words
 - email-should-be-email-without-the-hyphen
 - commas-and-full-stops-always-should-have-1-space-after-them
