@@ -18,23 +18,15 @@ The SQL 2005 generated scripts are not compatible with SQL 2000, so use SQL 200
 
 <!--endintro-->
 
-
-
-```
+``` sql
 IF EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ProcessTarget]') AND type in (N'P', N'PC'))
 drop procedure [dbo].[ProcessTarget]
 ```
+**Figure: script only works on SQL 2005, because 'sys.objects' is only available in this version** 
 
 
- **Figure: script only works on SQL 2005, because 'sys.objects' is only available in this version
-** 
-
-
-```
+``` sql
 IF EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[dbo].[ProcessTarget]') AND OBJECTPROPERTY(id, N'IsProcedure') = 1)
 drop procedure [dbo].[ProcessTarget]
 ```
-
-
- **Figure: script works on both SQL 2000 and SQL 2005
-**
+**Figure: script works on both SQL 2000 and SQL 2005**

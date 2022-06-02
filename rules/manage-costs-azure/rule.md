@@ -1,16 +1,16 @@
 ---
 type: rule
-title: Do you manage the cost of your Azure resources?
+title: Cost - Do you manage the cost of your Azure resources?
 uri: manage-costs-azure
 authors:
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kiki
 related:
   - do-you-have-an-azure-spend-master
-redirects:
-  - do-you-manage-costs-azure
 created: 2021-09-29T07:27:48.269Z
 guid: fc2201ed-c7cd-4be0-98b9-e2f5957788a7
+redirects:
+- do-you-manage-costs-azure
 ---
 Managing the monthly spend on cloud resources eg. Azure is hard. It gets harder for SysAdmins when developers add services without sending an email to aid in reconciliation.
 
