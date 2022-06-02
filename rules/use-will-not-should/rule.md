@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Tiny: Do you use "will", not "should" for processes?
+title: Tiny - Do you use "will", not "should" for processes?
 guid: 4b3c2c57-5cbe-43c4-adc2-170ba0d20d05
 uri: use-will-not-should
 created: 2016-04-20T02:23:15.0000000Z
