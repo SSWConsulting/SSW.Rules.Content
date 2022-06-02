@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you have an Azure resources diagram for visualization?
+title: Visualizing - Do you have an Azure resources diagram?
 uri: azure-resources-diagram
 authors:
   - title: Adam Cogan
