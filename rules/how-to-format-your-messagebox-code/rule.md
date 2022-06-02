@@ -18,9 +18,7 @@ You should always write each parameter of MessageBox in a separate line. So it w
 
 <!--endintro-->
 
-
-
-```
+``` cs
 Private Sub ShowMyMessage()
  MessageBox.Show("Are
  you sure you want to delete the team project """ + strProjectName
@@ -29,17 +27,11 @@ Private Sub ShowMyMessage()
  " + strVersion(), MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2)
 ```
 
-
-
-
 ::: bad
 Figure: Bad example of MessageBox code format
-
 :::
 
-
-
-```
+``` cs
 Private Sub ShowMyMessage()
  MessageBox.Show( _ 
  "Are you sure you want to delete the team project """ + strProjectName + """?"
@@ -53,12 +45,6 @@ Private Sub ShowMyMessage()
 End Sub
 ```
 
-
-
-
-
-
 ::: good
 Figure: Good example of MessageBox code format
-
 :::
