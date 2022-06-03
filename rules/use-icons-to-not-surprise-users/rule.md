@@ -39,11 +39,13 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **ZIP**                  | [[This is a zip file](Sample-ZIP.zip) |
 | **YouTube**              | [This is a link to a YouTube Video](https://www.youtube.com/watch?v=gp_F43lx6iM) |
 | **Email (mailto:)**      | [This link will send an email](mailto:example@mail.com) |
-  
+ 
+::: greybox
 **Tip:** You should also [indicate when a link is **external** by using an icon](/do-you-make-external-links-clear).
+:::
 
 ::: bad  
-![Figure: Bad example - The user would expect all these hyperlinks to work the same way](link-with-icons-bad.png)  
+![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)  
 :::
 
 ::: good  
@@ -69,7 +71,7 @@ a[href$='.pdf']:before
 }
 ```
 
-**Option A: Using images**
+**Option B: Using images**
 
 Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle. 
 
