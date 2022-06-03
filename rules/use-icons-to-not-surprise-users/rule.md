@@ -20,52 +20,45 @@ redirects:
 
 ---
 
-When a user clicks on a hyperlink they expect to open an HTML file. If you click on a hyperlink (but it is actually a .doc file) you wait and wait while it takes forever to instantiate an instance of Microsoft Word in the background.
+When a user clicks a hyperlink, they expect a webpage to open. If they click on a link that is actually a .DOC file, they might encounter the unexpected experience of having Microsoft Word open in the background.
 
 <!--endintro-->
 
-Don't surprise users! For the following file/link types, use icons:
+Don't surprise users! Use icons next to links to show different types of links/files.
 
-- **PDF:**  
-  [This is a PDF file](Sample-PDF.pdf)
-- **DOC or DOT:**  
-  [This is a Word Document file](Sample-DOC.docx)
-- **XLS:**  
-  [This is an Excel Spreadsheet file](Sample-XLS.xlsx)
-- **PPT:**  
-  [This is a PowerPoint file](Sample-PPT.pptx)
-- **TXT:**  
-  [This is a text file](Sample-TXT.txt)
-- **AVI, MOV, MPG etc.:**   
-  [This is a video file](sample-VIDEO.mp4)
-- **WAV, WMA, MP3 etc.:**  
-  [This is a music file](sample-AUDIO.mp3)
-- **ICS or VCS:**  
-  [This is a calendar file](Sample-ICS.ics)
-- **ZIP:**  
-  [This is a zip file](Sample-ZIP.zip)
-- **YouTube:**  
-  [This is a link to a YouTube Video](https://www.youtube.com/watch?v=gp_F43lx6iM)
-- **Mailto:**  
-  [This link will send an email](mailto:example@mail.com)
-
-You should also use an icon to [make external links clear](/do-you-make-external-links-clear).
+| Link/file type           |      Example      |
+| ------------- | :-----------: |
+| **PDF**                  | [This is a PDF file](Sample-PDF.pdf) |
+| **DOC**                  | [This is a Word Document file](Sample-DOC.docx) |
+| **XLS**                  | [This is an Excel Spreadsheet file](Sample-XLS.xlsx) |
+| **PPT**                  | [This is a PowerPoint file](Sample-PPT.pptx) |
+| **TXT**                  | [This is a text file](Sample-TXT.txt) |
+| **AVI, MOV, MPG etc.**   | [This is a video file](sample-VIDEO.mp4) |
+| **WAV, WMA, MP3 etc.**   | [This is a music file](sample-AUDIO.mp3) |
+| **ICS or VCS**           | [This is a calendar file](Sample-ICS.ics) |
+| **ZIP**                  | [[This is a zip file](Sample-ZIP.zip) |
+| **YouTube**              | [This is a link to a YouTube Video](https://www.youtube.com/watch?v=gp_F43lx6iM) |
+| **Email (mailto:)**      | [This link will send an email](mailto:example@mail.com) |
+  
+**Tip:** You should also [indicate when a link is **external** by using an icon](/do-you-make-external-links-clear).
 
 ::: bad  
-![Figure: Bad Example - The user would expect all these hyperlinks to work the same way](../../assets/IconImageBad.gif)  
+![Figure: Bad example - The user would expect all these hyperlinks to work the same way](link-with-icons-bad.png)  
 :::
 
 ::: good  
-![Figure: Good Example - The PDF icon (before a hyperlink) indicates it is not a web page](../../assets/IconImageGood.gif)  
+![Figure: Good example - The PDF icon indicates one of the links is not a webpage](link-with-icons-good.png)  
 :::
 
-### How to add an icon before a link with CSS
+### Adding an icon before links with CSS
 
-Match the extension of the &lt;a&gt; tag on your CSS. The padding is to give it some space before the text (where the icon will be).
+Use CSS to match the extension at the end of the &lt;a&gt; tag. Add some padding is to give it some space before the text (where the icon will be).
 
-**(Recommended) Using font icons, like FontAwesome**
+**Option A: Using font icons, like FontAwesome (Recommended)**
 
-Find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
+Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server. It will also look great on any screen resolution or display.
+
+To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
 ```css
 a[href$='.pdf']:before
@@ -76,9 +69,11 @@ a[href$='.pdf']:before
 }
 ```
 
-**Using images**
+**Option A: Using images**
 
-Add the icon image to your server and add the path as background URL.
+Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle. 
+
+You will add each icon image to your server, and then add the path as background URL in the CSS file.
 
 ```css
 a[href$='.pdf'] 
