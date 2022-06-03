@@ -17,6 +17,7 @@ index:
 - disable-leaving-employee-accounts
 - delete-computer-accounts-from-ad
 - domain-controller-auditing
+- laps-local-admin-passwords
 
 ---
 
