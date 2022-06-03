@@ -42,7 +42,7 @@ It is also important to make sure that your VPN uses a secure protocol. Previous
 
 ### More information on Cisco AnyConnect
 
-If you're using Cisco AnyConnect and Azure AD, it is easy to set up authentication through SAML - so your Azure MFA will be applied to any VPN logins. 
+If you're using Cisco AnyConnect and Azure AD, it is easy to set up authentication through SAML - so your Azure AD MFA will be applied to any VPN logins. 
 
 The basic steps are:
 
