@@ -15,6 +15,9 @@ index:
 - run-services-on-their-own-ad-accounts
 - check-ad-security-with-pingcastle
 - disable-leaving-employee-accounts
+- delete-computer-accounts-from-ad
+- domain-controller-auditing
+- laps-local-admin-passwords
 
 ---
 
