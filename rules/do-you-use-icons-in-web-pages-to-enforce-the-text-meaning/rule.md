@@ -11,8 +11,8 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related:
-- do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
 - messages-do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-status
+- use-icons-to-not-surprise-users
 - do-you-make-external-links-clear
 - where-to-find-nice-icons
 redirects:
@@ -22,9 +22,8 @@ redirects:
 
 People may not pay attention to some important words in your pages. While adding a simple and clear icon beside the words will make the difference. 
 
-Examples: 
 - [Add a green tick for successful messages or a red cross for error messages](/messages-do-you-use-green-tick-red-cross-and-spinning-icon-to-show-the-status) 
-- [Add the type of file next to download links](/do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files)
+- [Add the type of file next to download links](/use-icons-to-not-surprise-users)
 - [Add an icon to external links](/do-you-make-external-links-clear)
 - Add a lock icon to indicate the links where a password is required
 
