@@ -84,7 +84,7 @@ You will add each icon image to your server, and then add the path as background
 
 ❌ UI - Hard to get all icons consistent   
 ❌ Paid $ (icon collection required if you want them to have a nice and consistent UI)  
-❌ Maintenance of needing to upload to server. 
+❌ Maintenance of needing to upload to server
 
 ```css
 a[href$='.pdf'] 
