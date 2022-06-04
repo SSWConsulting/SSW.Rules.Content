@@ -4,9 +4,9 @@ title: Do you have your SharePoint Sites consistent?
 uri: consistent-sharepoint-sites
 authors:
   - title: Warwick Leahy
-    url: warwick-leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
   - title: Jean Thirion
-    url: jean-thirion
+    url: https://www.ssw.com.au/people/jean-thirion
 related:
   - use-icons-to-not-surprise-users
 created: 2022-05-05T04:49:43.291Z
