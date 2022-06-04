@@ -8,13 +8,14 @@ authors:
   - title: Jean Thirion
     url: jean-thirion
 related:
-  - do-you-use-icons-not-to-surprise-users-aka-use-the-correct-image-for-files
+  - use-icons-to-not-surprise-users
 created: 2022-05-05T04:49:43.291Z
 guid: 55742b01-36da-491a-84d8-5855fee4f2bd
 ---
-It's important for all your SharePoint Sites to be as consistent as possible.
 
- This helps users' navigation through new pages as they know exactly where to look.
+It's important for all your SharePoint Sites to be as consistent as possible. This helps users' navigation through new pages as they know exactly where to look.
+
+`youtube: https://www.youtube.com/embed/U3l7QCVJIt8`
 
 <!--endintro-->
 
