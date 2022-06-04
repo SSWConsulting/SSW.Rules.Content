@@ -63,7 +63,8 @@ They will also look good on any screen resolution or display.
 ✅ UI - Consistent icons   
 ✅ Fast to load (lightweight as no image)   
 ✅ Free $   
-✅ Editing is easier  
+✅ Editing is easier   
+✅ Can be used in any size
 
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
