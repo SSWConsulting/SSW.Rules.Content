@@ -23,27 +23,23 @@ When a user clicks a hyperlink, they expect a webpage to open. If they click on 
 
 <!--endintro-->
 
-
-
-
-
 Don't surprise users! Use icons next to links to show different types of links/files.
 
 | Link/file type                                                    | Examples (see option A)                                                          | Examples (see option B) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
-| **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)                        |
-| **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)                        |
-| **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             |                         |
-| **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     |                         |
-| **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            |                         |
-| **AVI, MOV, MPG, etc.**                                           | [This is a video file](sample-VIDEO.mp4)                                         |                         |
-| **WAV, WMA, MP3, etc.**                                           | [This is a music file](sample-AUDIO.mp3)                                         |                         |
-| **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        |                         |
-| **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             |                         |
-| **YouTube**                                                       | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM) |                         |
-| **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          |                         |
-| **Normal link**                                                   | [This is a normal link](/rules)                                                  |                         |
-| **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           |                         |
+| **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
+| **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)      |
+| **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             | ...                     |
+| **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     | ...                     |
+| **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            | ...                     |
+| **AVI, MOV, MPG, etc.**                                           | [This is a video file](sample-VIDEO.mp4)                                         | ...                     |
+| **WAV, WMA, MP3, etc.**                                           | [This is a music file](sample-AUDIO.mp3)                                         | ...                     |
+| **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ...                     |
+| **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ...                     |
+| **YouTube**                                                       | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM) | ...                     |
+| **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |
+| **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
+| **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           | ...                     |
 
 ::: bad\
 ![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)\
