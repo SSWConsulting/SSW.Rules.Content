@@ -22,13 +22,12 @@ Following some simple rules makes this really easy.
 
 1. Always put any navigation in the same place
 2. Use the same icons for the same types of items, so that a link to "Home" looks the same on each page. Or a user knows when they click on a link with a Word icon, a Microsoft Word document is going to open.
-::: bad
 
+::: bad
 ![Figure: Bad Example - Note the page on the left has totally different navigation to the page on the right](inconsistent1.png)
 :::
 
 ::: good
-
 ![Figure: Good Example - Keep pages looking consistent - notice the common navigation elements in the same spot](consistent.png)
 :::
 
