@@ -89,12 +89,12 @@ If you want to style your navigation, using emojis is the simplest way to achiev
 Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server.
 They will also look good on any screen resolution or display.
 
-✅ UI - Consistent icons
-✅ Fast to load (lightweight as no image)
-✅ Free $
-✅ Can be used in any size
-✅ Large choice of icons (even more than UI Fabric!)
-❌ Requires code (Inject CSS)
+✅ UI - Consistent icons  
+✅ Fast to load (lightweight as no image)  
+✅ Free $  
+✅ Can be used in any size  
+✅ Large choice of icons (even more than UI Fabric!)  
+❌ Requires code (Inject CSS)   
 
 
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
