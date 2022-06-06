@@ -49,32 +49,39 @@ Don't surprise users! Use icons next to links to show different types of links/f
 ![Figure: Good example - The PDF icon indicates one of the links is not a webpage](link-with-icons-good.png)
 :::
 
-### How to add icons to links
+## How to add icons to links
 
 Out of the box, SharePoint provides widgets (aka webparts) to style your link with a consistent look and feel. Standard left navigation also supports emojis 💖.
 
 If that's not enough and you want to customize your own links somewhere else on screen, use CSS to match the extension at the end of the &lt;a&gt; tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
 
-**Option A: Use Out of the Box configurable Webparts (Recommended)**
+### Option 1: Use Out of the Box configurable Webparts (Recommended)
 
 Using webparts is the best way to achieve a consistent look and feel. Webparts can be customized by admin users, and require no maintenance as far as styling is concerned. SharePoint uses Office UI Fabric icons under the hood.
 
 ![Figure: Consistent look using out of the box "Quicklinks" webpart](consistent-webpart.png)
 
-✅ UI - Consistent icons\
+✅ UI - Consistent emojis\
 ✅ No-code solution (configuration only)\
-✅ Editing through UI\
-✅ Fastest to load (no extra CSS to load)\
+✅ Fast to load (no extra CSS to load)\
 ✅ Free $\
-✅ Can be used in any size
+✅ Can be used in any size\
+✅ Large choice of icons
 
-**Option B: Use emojis in navigation**
+### Option 2: Use emojis in navigation
 
 If you want to style your navigation, using emojis is the simplest way to achieve consistency.
 
 ![Figure: Consistent look using emojis in the standard left-navigation](emoji_nv.jpg)
 
-**Option C: CSS - Using font icons, like FontAwesome (Recommended)**
+✅ UI - Consistent icons\
+✅ No-code solution (configuration only)\
+✅ Fast to load (no extra CSS to load)\
+✅ Free $\
+✅ Can be used in any size
+❌ Somewhat limited choice
+
+### Option 3: CSS - Using font icons, like FontAwesome**
 
 Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server.\
 They will also look good on any screen resolution or display.
@@ -82,8 +89,9 @@ They will also look good on any screen resolution or display.
 ✅ UI - Consistent icons\
 ✅ Fast to load (lightweight as no image)\
 ✅ Free $\
-✅ Editing is easier\
-✅ Can be used in any size
+✅ Can be used in any size\
+✅ Large choice of icons (even more than UI Fabric!)\
+❌ Requires code (Inject CSS)\
 
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
@@ -96,15 +104,17 @@ a[href$='.pdf']:before
 }
 ```
 
-**Option D: CSS - Using images**
+### Option 4: CSS - Using images
 
 Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle. 
 
 You will add each icon image to your server, and then add the path as background URL in the CSS file.
 
 ❌ UI - Hard to get all icons consistent\
+❌ Slow (injecting images)\
 ❌ Paid $ (icon collection required if you want them to have a nice and consistent UI)\
-❌ Maintenance of needing to upload to server
+❌ Maintenance of needing to upload to server\
+❌ Requires code (Inject CSS)\
 
 ```css
 a[href$='.pdf'] 
