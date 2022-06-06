@@ -26,7 +26,7 @@ In the days of classic SharePoint, subsites were a popular way of organising you
 
 :::
 
-There are several reasons why sub-sites are no longer recommended. [This blog post](https://callum.technology/2021/05/still-using-subsites-in-sharepoint-online-5-reasons-to-move-to-flat-architecture/) has a good list, including:
+There are several reasons why sub-sites are no longer recommended. [Callum Crowley talks about some of the important benefits](https://callum.technology/2021/05/still-using-subsites-in-sharepoint-online-5-reasons-to-move-to-flat-architecture/) including:
 
 **Flexibility** – Sub-sites are a pain to move - you'll never need to do this with a flat hierarchy. Using Hub sites, it’s easy to change links and use dynamic content to make sure your SharePoint architecture matches your organisational structure. 
 
