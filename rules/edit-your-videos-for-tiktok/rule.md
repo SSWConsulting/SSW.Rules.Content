@@ -74,7 +74,7 @@ When you allow captions for every video you make, the sound no longer becomes a 
 
 ## TikTok reference guidelines when editing
 
-The best standard for recording is vertical. However, you can also record horizontal and then reframe and crop accordingly to a vertical export for TikTok. The reason why you might do this is so you can post to both YouTube and TikTok.
+The best standard for recording is vertical. However, you can also record horizontal and then reframe and crop accordingly to a vertical export for TikTok. The reason why you might do this is so you can post to both YouTube (1920x1080) and TikTok (1080x1920).
 
 SSW TV uses an overlay reference guide when editing our TikTok videos. This allows us to ensure our videos are formatted correctly keeping in mind TikTok’s User Interface. Once ready to export our video, we turn off the guideline layer. See below images:
 
