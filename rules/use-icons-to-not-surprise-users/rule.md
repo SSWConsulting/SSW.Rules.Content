@@ -37,7 +37,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |
 | **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
 | **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           | ...                     |
-| **AVI, MOV, MPG, etc.**                                           | [This is a video file](sample-VIDEO.mp4)                                         | ...                     |
+| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/ssw/include/consulting/img/CRM_background.mp4)                                         | ...                     |
 | **WAV, WMA, MP3, etc.**                                           | [This is a music file](sample-AUDIO.mp3)                                         | ...                     |
 | **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ...                     |
 | **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ...                     |
