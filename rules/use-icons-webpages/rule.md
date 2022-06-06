@@ -3,7 +3,7 @@ type: rule
 archivedreason: 
 title: Do you use icons to enforce the text meaning?
 guid: 5f5645eb-dda4-421b-84e7-c51b76887205
-uri: do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
+uri: use-icons-webpages
 created: 2014-12-16T18:16:16.0000000Z
 authors:
 - title: Adam Cogan
@@ -17,6 +17,7 @@ related:
 - where-to-find-nice-icons
 redirects:
 - do-you-use-icons-to-enforce-the-text-meaning
+- do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
 
 ---
 
@@ -30,9 +31,9 @@ People may not pay attention to some important words in your pages. While adding
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - no icons to indicate the status](validation-bad.jpg)  
+![Figure: Bad example - No icons to indicate the status](validation-bad.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - green tick and red cross help the user to know what's going on](validation-good.jpg)  
+![Figure: Good example - Green tick and red cross help the user to know what's going on](validation-good.jpg)  
 :::
