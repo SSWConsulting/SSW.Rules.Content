@@ -19,7 +19,7 @@ created: 2015-02-16T02:46:02.000Z
 archivedreason: null
 guid: 283e14e7-fe59-4017-9422-e9efc3eda6da
 ---
-When a user clicks a hyperlink, they expect a webpage to open. If they click on a link that is actually a .DOC file, they might encounter the unexpected experience of having Microsoft Word open in the background.
+When a user clicks a hyperlink, they expect a webpage to open. If they click on a link that is actually a .Doc/.Docx file, they might encounter the unexpected experience of having Microsoft Word open in the background.
 
 <!--endintro-->
 
@@ -41,19 +41,40 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
 | **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           | ...                     |
 
-::: bad\
-![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)\
+::: bad
+![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)
 :::
 
-::: good\
-![Figure: Good example - The PDF icon indicates one of the links is not a webpage](link-with-icons-good.png)\
+::: good
+![Figure: Good example - The PDF icon indicates one of the links is not a webpage](link-with-icons-good.png)
 :::
 
-### How to add icons to links using CSS
+### How to add icons to links
 
-Use CSS to match the extension at the end of the &lt;a&gt; tag. Add some padding to give it some space before the text (where the icon will be).
+Out of the box, SharePoint provides widgets (aka webparts) to style your link with a consistent look and feel. Standard left navigation also supports emojis 💖.
 
-**Option A: Using font icons, like FontAwesome (Recommended)**
+If that's not enough and you want to customize your own links somewhere else on screen, use CSS to match the extension at the end of the &lt;a&gt; tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
+
+**Option A: Use Out of the Box configurable Webparts (Recommended)**
+
+Using webparts is the best way to achieve a consistent look and feel. Webparts can be customized by admin users, and require no maintenance as far as styling is concerned. SharePoint uses Office UI Fabric icons under the hood.
+
+![Figure: Consistent look using out of the box "Quicklinks" webpart](consistent-webpart.png)
+
+✅ UI - Consistent icons\
+✅ No-code solution (configuration only)\
+✅ Editing through UI\
+✅ Fastest to load (no extra CSS to load)\
+✅ Free $\
+✅ Can be used in any size
+
+**Option B: Use emojis in navigation**
+
+If you want to style your navigation, using emojis is the simplest way to achieve consistency.
+
+![Figure: Consistent look using emojis in the standard left-navigation](emoji_nv.jpg)
+
+**Option C: CSS - Using font icons, like FontAwesome (Recommended)**
 
 Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server.\
 They will also look good on any screen resolution or display.
@@ -75,7 +96,7 @@ a[href$='.pdf']:before
 }
 ```
 
-**Option B: Using images**
+**Option D: CSS - Using images**
 
 Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle. 
 
