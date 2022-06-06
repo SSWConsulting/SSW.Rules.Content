@@ -7,6 +7,8 @@ authors:
     url: https://www.ssw.com.au/people/warwick-leahy
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - use-icons-to-not-surprise-users
 created: 2022-05-05T04:49:43.291Z
