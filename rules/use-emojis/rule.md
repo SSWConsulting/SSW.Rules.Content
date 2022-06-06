@@ -13,6 +13,8 @@ authors:
 related:
 - use-emojis-in-your-commits
 - which-emojis-to-use-in-scrum
+- use-icons-webpages
+- do-a-retrospective
 redirects:
 - team-names-do-you-use-emojis-in-your-teams-channel-names
 - teams-emojis
@@ -40,3 +42,22 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 ::: good  
 ![Figure: Good example - Some appointments can benefit from an emoji too, like a Sprint meeting in Scrum](calendar-emoji.png)  
 :::
+
+::: greybox
+* Fast to load (lightweight as no image)
+* UI - Consistent look
+* Maintenance of needing to upload to server
+:::
+::: bad
+Bad example
+:::
+
+::: greybox
+✅ Fast to load (lightweight as no image)  
+✅ UI - Consistent look  
+❌ Maintenance of needing to upload to server  
+:::
+::: good
+Good example 
+:::
+
