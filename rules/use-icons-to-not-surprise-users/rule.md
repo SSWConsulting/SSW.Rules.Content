@@ -41,12 +41,12 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
 | **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           | ...                     |
 
-::: bad\
-![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)\
+::: bad
+![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)
 :::
 
-::: good\
-![Figure: Good example - The PDF icon indicates one of the links is not a webpage](link-with-icons-good.png)\
+::: good
+![Figure: Good example - The PDF icon indicates one of the links is not a webpage](link-with-icons-good.png)
 :::
 
 ### How to add icons to links using CSS
@@ -55,13 +55,13 @@ Use CSS to match the extension at the end of the &lt;a&gt; tag. Add some padding
 
 **Option A: Using font icons, like FontAwesome (Recommended)**
 
-Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server.\
+Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server.
 They will also look good on any screen resolution or display.
 
-✅ UI - Consistent icons\
-✅ Fast to load (lightweight as no image)\
-✅ Free $\
-✅ Editing is easier\
+✅ UI - Consistent icons
+✅ Fast to load (lightweight as no image)
+✅ Free $
+✅ Editing is easier
 ✅ Can be used in any size
 
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
@@ -81,8 +81,8 @@ Create or buy a collection of icons that match your website style. The benefit i
 
 You will add each icon image to your server, and then add the path as background URL in the CSS file.
 
-❌ UI - Hard to get all icons consistent\
-❌ Paid $ (icon collection required if you want them to have a nice and consistent UI)\
+❌ UI - Hard to get all icons consistent
+❌ Paid $ (icon collection required if you want them to have a nice and consistent UI)
 ❌ Maintenance of needing to upload to server
 
 ```css
