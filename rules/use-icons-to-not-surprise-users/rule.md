@@ -25,6 +25,8 @@ When a user clicks a hyperlink, they expect a webpage to open. If they click on 
 
 Don't surprise users! Use icons next to links to show different types of links/files.
 
+
+::: no-border
 | Link/file type                                                    | Examples (see option A)                                                          | Examples (see option B) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
 | **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
@@ -40,6 +42,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |
 | **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
 | **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           | ...                     |
+:::
 
 ::: bad
 ![Figure: Bad example - Users would expect all these hyperlinks to work the same way](link-with-icons-bad.png)
