@@ -13,7 +13,7 @@ related:
 created: 2022-06-06T23:58:55.637Z
 guid: 0f8b8f8a-3a2d-4b7d-9e55-f0ee6d1b37a4
 ---
-Out of the box, SharePoint provides widgets (aka webparts) to style your link with a consistent look and feel. Standard left navigation also supports emojis 💖.
+Out of the box, SharePoint provides widgets (aka webparts) to style your link with a consistent look and feel. Standard left-navigation also supports emojis 💖.
 
 <!--endintro-->
 
@@ -25,11 +25,11 @@ If you want to style your navigation, using emojis is the simplest way to achiev
 
 ![Figure: Consistent look using emojis in the standard left-navigation](standard-left-nav.png)
 
-✅ UI - Consistent icons\
-✅ No-code solution (configuration only)\
-✅ Fast to load (no extra CSS to load)\
-✅ Free $ (Out of the box)\
-✅ Can be used in any size\
+✅ UI - Consistent icons  
+✅ No-code solution (configuration only)  
+✅ Fast to load (no extra CSS to load)  
+✅ Free $ (Out of the box)  
+✅ Can be used in any size  
 ❌ Somewhat limited choice
 
 ### Option B: Navigation using buttons via configurable Webparts (Recommended)
@@ -38,9 +38,9 @@ Using webparts is the best way to achieve a consistent look and feel. Webparts c
 
 ![Figure: Consistent look using out of the box "Quicklinks" webpart](navigation-with-webpart.png)
 
-✅ UI - Consistent emojis\
-✅ No-code solution (configuration only)\
-✅ Fast to load (no extra CSS to load)\
-✅ Free $ (Out of the box)\
-✅ Can be used in any size\
+✅ UI - Consistent emojis  
+✅ No-code solution (configuration only)  
+✅ Fast to load (no extra CSS to load)  
+✅ Free $ (Out of the box)  
+✅ Can be used in any size  
 ✅ Large choice of icons
