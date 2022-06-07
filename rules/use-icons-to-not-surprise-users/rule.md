@@ -27,7 +27,7 @@ When a user clicks a hyperlink, they expect a webpage to open. If they click on 
 Don't surprise users! Use icons next to links to show different types of links/files.
 
 ::: no-border
-| Link/file type                                                    | FontAwesome examples                                                          | Image examples |
+| Link/file type                                                    | FontAwesome examples (Option A)                                                         | Image examples (Option B) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
 | **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
 | **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)      |
@@ -78,6 +78,7 @@ a[href$='.pdf']:before
     display: inline-block;
 }
 ```
+**Figure: Replace the content string with the Unicode value from the Font Awesome site**
 
 ### Option B: Using images
 
@@ -98,3 +99,4 @@ background: transparent url(/images/icon_pdf.gif) center left no-repeat;
 padding-left: 20 px; 
 }
 ```
+**Figure: Replace the path in background URL with each icon image**
