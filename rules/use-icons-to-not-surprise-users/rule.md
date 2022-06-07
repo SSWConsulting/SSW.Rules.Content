@@ -20,7 +20,7 @@ created: 2015-02-16T02:46:02.000Z
 archivedreason: null
 guid: 283e14e7-fe59-4017-9422-e9efc3eda6da
 ---
-When a user clicks a hyperlink, they expect a webpage to open. If they click on a link that is actually a .Doc/.Docx file, they might encounter the unexpected experience of having Microsoft Word open in the background.
+When a user clicks a hyperlink, they expect a webpage to open. If they click on a link that is actually a **.doc/.docx** file, they might encounter the unexpected experience of having Microsoft Word open in the background.
 
 <!--endintro-->
 
