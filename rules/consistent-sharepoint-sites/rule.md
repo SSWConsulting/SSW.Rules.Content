@@ -11,6 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 related:
   - use-icons-to-not-surprise-users
+  - use-icons-sharepoint
 created: 2022-05-05T04:49:43.291Z
 guid: 55742b01-36da-491a-84d8-5855fee4f2bd
 ---
