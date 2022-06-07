@@ -23,7 +23,7 @@ It's important for all your SharePoint Sites to be as consistent as possible. Th
 
 Following some simple rules makes this really easy.  
 
-1. Always put your preferred navigation in the same place (usually on the left-hand side)
+1. Put your preferred navigation in the same place (usually on the left-hand side)
 2. Use the same icons for the same types of items, so that a link to "Home" looks the same on each page. Or a user knows when they click on a link with a Word icon, a Microsoft Word document is going to open.
 
 ::: bad
