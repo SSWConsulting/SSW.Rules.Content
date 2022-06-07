@@ -27,7 +27,7 @@ When a user clicks a hyperlink, they expect a webpage to open. If they click on 
 Don't surprise users! Use icons next to links to show different types of links/files.
 
 ::: no-border
-| Link/file type                                                    | Option A - Font icons (from FontAwesome)                                                         | Option B - Image icons (from SharePoint) |
+| Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
 | **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
 | **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)      |
