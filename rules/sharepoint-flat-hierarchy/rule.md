@@ -22,7 +22,7 @@ In the days of classic SharePoint, subsites were a popular way of organising you
 
 ::: good
 
-![Good: A flat hierarchy with Hub sites allows great flexibility](flat-hierarchy.gif)
+![Good: A flat hierarchy with Hub sites allows great flexibility (animated gif)](flat-hierarchy.gif)
 
 :::
 
