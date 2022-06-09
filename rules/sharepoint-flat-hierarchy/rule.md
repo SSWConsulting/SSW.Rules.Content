@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/chris-schultz
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
+  - url: https://ssw.com.au/people/
+    title: Warwick Leahy
 created: 2022-01-06T05:04:25.315Z
 guid: f9a14783-71e5-406b-8192-8675df717508
 ---
