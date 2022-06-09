@@ -13,7 +13,7 @@ related:
 created: 2022-06-09T02:55:13.497Z
 guid: dba3860a-9d3c-4ecb-9bc1-fc36443d0ddf
 ---
-A picture says a thousand words so it is important to provide context with screenshots. However, it isn't always clear what part of the screenshot you need to be looking at. So, it is important that you edit your screenshots to add extra info such as highlighting critical information.
+A picture says a thousand words so using screenshots to provide context is invaluable. However, it isn't always clear to others what part of the screenshot they need to be looking at. So, it is important that you edit your screenshots to add extra info such as highlighting critical information.
 
 Windows provides a default tool for taking and editing screenshots called the Snipping Tool. However, it is quite limited in functionality. For example, it doesn't provide the ability to draw a box quickly and easily on the screenshot.
 
