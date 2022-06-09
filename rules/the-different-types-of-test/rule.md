@@ -64,7 +64,7 @@ Subcutaneous (as in just benath the skin) are a type of integration/functional t
 * Written by developers
 * Test the full underlying behaviour of your app but bypasses the UI
 * Requires business logic to be implemented in the API / middle layer and not in the UI.
-* Tests can be much easier to write than using technologies that drive a UI (such as Selemium)
+* Tests can be much easier to write than using technologies that drive a UI (such as Selenium)
 
 
 
