@@ -39,5 +39,5 @@ Following some simple rules makes this really easy.
 :::
 
 ::: good
-![Figure: Good Example - The user knows what the icons mean as each site is the same](consistent2.png)
+![Figure: Good Example - The user knows what the icons mean and the headings are the same](consistent2.png)
 :::
