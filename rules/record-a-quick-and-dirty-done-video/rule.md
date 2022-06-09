@@ -20,7 +20,6 @@ created: 2016-05-10T09:09:50.000Z
 archivedreason: null
 guid: 8849b89b-5c77-4993-b313-75291fd58aa4
 ---
-
 When you've finished a PBI you should record a video to send to your Product Owner and anyone else that is interested. A 'Done' video is much better than a screenshot because you are proving the PBI workflow actually works. Even better, this video can double as documentation or release notes for your users.
 
 <!--endintro-->
@@ -34,11 +33,13 @@ When deciding whether a PBI might be a good contender to record a done video for
 ::: greybox
 **Choosing software to record your screen and camera together:**
 
-* Remote recordings: Zoom, or Microsoft Teams via NDI
+* Remote recordings: Zoom, or Microsoft Teams via NDI 
 * Basic recordings: Snagit, Loom
 * Advanced recordings: Camtasia
 
 **Tip:** [Camtasia 2021](https://www.techsmith.com/camtasia-2021-press-release.html) is recommended because it vastly improves upon 2018 and 2019. 
+
+**Tip:** Both Zoom and Microsoft Teams are Cloud services, so consider whether an option such as Camtasia that records locally is more appropriate.
 
 :::
 
@@ -47,7 +48,7 @@ When deciding whether a PBI might be a good contender to record a done video for
 
 * Basic editing: Camtasia
 * Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
-:::
+  :::
 
 Here's a quick video describing how to record and edit a quick done video. (Notice how it itself is also in the done video format?)
 
@@ -67,7 +68,9 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
   * **Tip:** In Chrome you can use the "guest" profile to open a clean window with no history or cookies.
 * Set your screen resolution to 1080p (1920x1080) - higher resolutions (e.g. 4k/3840x2160) will scale down graphic elements and make it harder to view.                  
 * Zoom in to 125% in your browser - as per: [Do you make sure your screen recordings are easy to view?](https://www.ssw.com.au/rules/easy-to-view-screen-recordings)
-* Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible.
+* Record both your screen and webcam - PC and Mac can both use Camtasia (2021 version recommended). For Mac you can use Quicktime, but it’s not as flexible. Zoom and Teams record both by default.
+
+  * **Tip:** If you're using Zoom, turn on HD recording (720p or 1080p depending on your plan) in Settings | Video | Camera | HD.
 * Don't edit the video - your introduction and closing should have your webcam on full-screen, and the rest of the video should be your screen with your webcam in the corner (also called a picture-in-picture, or PiP).
 
   * **Tip:** If you are using Zoom you do not need to edit the video. Zoom includes your face automatically in the screen capture. Awesome!
@@ -84,7 +87,7 @@ Here's a quick video describing how to record and edit a quick done video. (Noti
 ![Figure: 'Done' video in progress using a Marantz turret broadcasting kit](turret-usage.jpg)\
 Learn more about the Turret:[Product Review: The Marantz Turret — Wistia](https://wistia.com/learn/production/marantz-turret-review?wvideo=whmpjct7xj)    
 
-### -- Camtasia Tips --
+### \-- Camtasia Tips --
 
 ### Tip #1: Camtasia - See great example by Ben Cull
 
@@ -137,7 +140,7 @@ Follow the steps to export your video:
 * H.264 Profile: High
 * Encoding mode: Quality
   o	Increase the quality to 100% 
-                   
+
   ![Figure: Copy these settings](export-video4.png)
 
 5. In the ‘Audio settings’ tab, make sure the Bit rate is set to 320 kbps 
@@ -145,4 +148,3 @@ Follow the steps to export your video:
   ![](export-video5.png)
 
 6. Click Next and save your file!
-
