@@ -47,5 +47,6 @@ There are heaps of great tools that provide much more advanced functionality. Th
 :::
 
 ::: good
-![Figure: Good Example - Snagit is the gold standard and provides tonnes of user friendly features](screen_recorder_2x.webp)
+
+![Figure: Good Example - Snagit is the gold standard and provides tonnes of user friendly features](microsoftteams-image.png)
 :::
