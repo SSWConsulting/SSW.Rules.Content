@@ -42,6 +42,5 @@ Source: [Google Trends](https://trends.google.com.au/trends/explore?q=screenshot
 :::
 
 ::: good
-
 ![Figure: Good Example - Snagit is the gold standard and provides tonnes of user friendly features](microsoftteams-image.png)
 :::
