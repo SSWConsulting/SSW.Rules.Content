@@ -17,7 +17,7 @@ guid: 55742b01-36da-491a-84d8-5855fee4f2bd
 ---
 It's important for all your SharePoint Sites to be as consistent as possible. This helps users' navigation through new pages as they know exactly where to look.
 
-`youtube:`https://www.youtube.com/embed/Wf9o6jGhXJI
+`youtube:https://www.youtube.com/embed/Wf9o6jGhXJI`
 
 <!--endintro-->
 
