@@ -35,11 +35,17 @@ Following some simple rules makes this really easy.
 ::: good
 ![Figure: Good Example - Keep pages looking consistent - notice the common navigation elements in the same spot](consistent.png)
 :::
+
 ## Consistent headings and icons
+
 ::: bad
 ![Figure: Bad Example - Note the headings are different on the same page and there is no guide as to what a user is opening](inconsistent2.png)
 :::
 
 ::: good
-![Figure: Good Example - The user knows what the icons mean and the headings are the same](consistent2.png)
+
+
+![Figure: Good Example - The user knows what the icons mean, the headings are the same and the team members are at the top](navigation-with-webpart.png)
+
+
 :::
