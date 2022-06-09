@@ -10,7 +10,7 @@ authors:
 created: 2022-06-09T02:55:13.497Z
 guid: dba3860a-9d3c-4ecb-9bc1-fc36443d0ddf
 ---
-Screenshots are a super integral part of day-to-day business processes. So, it is important that you edit your screenshots to add extra info such as highlighting the critical parts.
+Screenshots are a super integral part of day-to-day business processes. So, it is important that you edit your screenshots to add extra info such as highlighting critical information.
 
 Windows provides a default tool for taking and editing screenshots called the Snipping Tool. However, it is quite limited in functionality. For example, it doesn't provide the ability to draw a box quickly and easily on the screenshot.
 
@@ -36,7 +36,7 @@ Snagit works for both Mac and Windows
 ::: good
 
 
-![](microsoftteams-image-2-.png)
+![Figure: Good Example - Preview is the built-in screenshot editor for Mac and is much better than the Snipping Tool for Windows](microsoftteams-image-2-.png)
 
 :::
 
