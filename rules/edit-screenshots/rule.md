@@ -21,9 +21,9 @@ There are heaps of great tools that provide much more advanced functionality. Th
 * Windows - [ShareX](https://getsharex.com/)
 * Mac - [Preview](https://support.apple.com/en-au/guide/preview/welcome/mac)
 
-The gold standard is a paid tool called Snagit. Snagit gives you the ultimate screenshot editing experience.
+The gold standard is a paid tool called [Snagit](https://www.techsmith.com/screen-capture.html)
 
-Snagit works for both Mac and Windows
+Snagit gives you the ultimate screenshot editing experience and works for both Mac and Windows
 
 ::: bad
 ![Figure: Bad Example - The Windows Snipping Tool isn't powerful enough for most business use cases](applicationframehost_oa4wfguiqt.png)
