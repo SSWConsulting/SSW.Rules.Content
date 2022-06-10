@@ -8,7 +8,7 @@ authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes
 related:
-  - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
+  - screenshots-avoid-walls-of-text
   - add-branding-to-screenshots
 created: 2022-06-09T02:55:13.497Z
 guid: dba3860a-9d3c-4ecb-9bc1-fc36443d0ddf
