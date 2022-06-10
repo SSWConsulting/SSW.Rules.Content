@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Screenshots - Do you know the best tools?
-uri: edit-screenshots
+uri: screenshots-tools
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
@@ -19,26 +19,23 @@ Windows provides a default tool for taking and editing screenshots called the Sn
 
 <!--endintro-->
 
-## Tools
-
 There are heaps of great tools that provide much more advanced functionality. The best tools are
 
-* [Snagit](https://www.techsmith.com/screen-capture.html) - Recommended ⭐
-* [ShareX](https://getsharex.com/)
-* [Greenshot](https://getgreenshot.org/)
-* [Lightshot](https://app.prntscr.com/en/index.html)
-* [Fullshot](http://www.inbit.com/downloadfullshot.html)
-* [Preview](https://support.apple.com/en-au/guide/preview/welcome/mac) (MacOS only - built-in)
+::: greybox
+⭐ [Snagit](https://www.techsmith.com/screen-capture.html) - Recommended  
+✅ [ShareX](https://getsharex.com/)  
+✅ [Greenshot](https://getgreenshot.org/)  
+✅ [Lightshot](https://app.prntscr.com/en/index.html)  
+✅ [Fullshot](http://www.inbit.com/downloadfullshot.html)  
+✅ [Preview](https://support.apple.com/en-au/guide/preview/welcome/mac) (MacOS only - built-in)  
+❌ [Snipping Tool](https://support.microsoft.com/en-AU/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) (Windows only - built-in) 
+:::
 
-![Figure: Popularity of the latest screenshot tools](screen-shot-2022-06-09-at-16.38.10.png)
+![Figure: Lightshot is the most popular screenshot tool](screen-shot-2022-06-09-at-16.38.10.png)
 Source: [Google Trends](https://trends.google.com.au/trends/explore?q=screenshot%20snagit,screenshot%20lightshot,screenshot%20sharex,screenshot%20greenshot,screenshot%20fullshot)
 
 ::: bad
 ![Figure: Bad Example - The Windows Snipping Tool isn't powerful enough for most business use cases](applicationframehost_oa4wfguiqt.png)
-:::
-
-::: good
-![Figure: Good Example - Preview is the built-in screenshot editor for Mac and is much better than the Snipping Tool for Windows](microsoftteams-image-2-.png)
 :::
 
 ::: good
