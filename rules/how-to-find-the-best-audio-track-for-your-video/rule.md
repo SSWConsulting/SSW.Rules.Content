@@ -42,19 +42,19 @@ Some of the top music libraries are:
 Audio Network is the best option for editing because it provides a very large range of very high quality music, and even offers variations on instrumentation and durations. The user interface is good, and customer service is great too, with an Account Manager available to assist.  This library is used by major production companies and broadcasters around the world (UK based).
 
 ::: good
-![Figure: Scanning Audionetwork song descriptions can be faster than listening to each song - you can listen and jump forward along the waveform to quickly get the gist of it, then find the perfect powerful crescendo to finish off your video.](audionetwork-screenshot.png)
+![Good example: Scanning Audionetwork song descriptions can be faster than listening to each song - you can listen and jump forward along the waveform to quickly get the gist of it, then find the perfect powerful crescendo to finish off your video.](audionetwork-screenshot.png)
 :::
 
 ### Artlist
 Artlist have a regularly updated library with new songs, and is a very cost-effective solution. While the library of music is more limited than Audio Network, they also provide a subscription to sound effects which is very useful. The style sounds more like professional music created by bands and artists but is still designed for corporate, making it a solid choice as a music library.
-::: good\
+::: good
 ![Good example: Artlist - for a low annual subscription cost you get unlimited access to really awesome quality music.](audio-video-good-art-list.jpg)
 :::
 
 ### Audio Jungle
 Audio Jungle is great for finding sound effects and [Foley](https://en.wikipedia.org/wiki/Foley_%28filmmaking%29) sounds. You can also find many great full-length songs that suit corporate video. The music style is typically geared toward a "corporate" market (e.g. online ads and marketing videos), so there is not as much range in selections as you would find in some of the bigger libraries.
 
-::: good\
+::: good
 ![Good example: AudioJungle.net - you can pay $1 for a laugh track](audio-video-good-audiojungle.jpg)
 :::
 
