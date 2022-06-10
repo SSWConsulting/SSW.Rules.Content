@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/raj-dhatt
   - title: Andrew Forsyth
     url: https://www.ssw.com.au/people/andrew-forsyth
+  - title: Landon Maxwell
+    url: https://www.ssw.com.au/people/landon-maxwell
 related: []
 redirects:
   - do-you-know-how-to-find-the-best-audio-track-for-your-video
