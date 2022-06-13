@@ -62,11 +62,11 @@ Use CSS to match the extension at the end of the <a> tag. Don't forget to add so
 Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server.
 They will also look good on any screen resolution or display.
 
-✅ UI - Consistent icons\
-✅ Fast to load (lightweight as no image)\
-✅ Free $\
-✅ Can be used in any size\
-✅ Large choice of icons (even more than UI Fabric!)\
+✅ UI - Consistent icons  
+✅ Fast to load (lightweight as no image)  
+✅ Free $  
+✅ Can be used in any size  
+✅ Large choice of icons (even more than UI Fabric!)  
 ❌ Requires code (Inject CSS)   
 
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
@@ -88,10 +88,10 @@ Create or buy a collection of icons that match your website style. The benefit i
 
 You will add each icon image to your server, and then add the path as background URL in the CSS file.
 
-❌ UI - Hard to get all icons consistent\
-❌ Slow (injecting images)\
-❌ Paid $ (icon collection required if you want them to have a nice and consistent UI)\
-❌ Maintenance of needing to upload to server\
+❌ UI - Hard to get all icons consistent  
+❌ Slow (injecting images)  
+❌ Paid $ (icon collection required if you want them to have a nice and consistent UI)  
+❌ Maintenance of needing to upload to server  
 ❌ Requires code (Inject CSS)  
 
 ```css
