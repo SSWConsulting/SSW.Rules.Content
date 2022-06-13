@@ -39,7 +39,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
 | **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           |                      |
 | **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/ssw/include/consulting/img/CRM_background.mp4)                                         | ![](video-file.png)                      |
-| **WAV, WMA, MP3, etc.**                                           | [This is a music file](sample-AUDIO.mp3)                                         | ![](audio-file.png)                   |
+| **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ! [](audio-file.png)                   |
 | **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ![](calendar-icon-png.png)                     |
 | **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png)                    |
 
@@ -56,7 +56,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 ## How to add icons to links via CSS
 
 Use CSS to match the extension at the end of the <a> tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
-  
+
 ### Option A: Using font icons, like FontAwesome (Recommended)
 
 Using icon fonts saves time and hassle during the development process. It replaces the need to create/buy images, and upload them to the server.
@@ -69,7 +69,6 @@ They will also look good on any screen resolution or display.
 ✅ Large choice of icons (even more than UI Fabric!)  
 ❌ Requires code (Inject CSS)   
 
-
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
 ```css
@@ -80,6 +79,7 @@ a[href$='.pdf']:before
     display: inline-block;
 }
 ```
+
 **Figure: Replace the content string with the Unicode value from the Font Awesome site**
 
 ### Option B: Using images
@@ -101,4 +101,5 @@ background: transparent url(/images/icon_pdf.gif) center left no-repeat;
 padding-left: 20 px; 
 }
 ```
+
 **Figure: Replace the path in background URL with each icon image**
