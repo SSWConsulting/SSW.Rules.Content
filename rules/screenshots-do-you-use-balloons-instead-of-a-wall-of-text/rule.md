@@ -1,20 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Do you use screenshots instead of a 'Wall of Text'?
-guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
-uri: screenshots-do-you-use-balloons-instead-of-a-wall-of-text
-created: 2009-03-25T05:07:01.0000000Z
+uri: screenshots-avoid-walls-of-text
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-related: 
-- add-useful-and-concise-figure-captions
-- add-branding-to-screenshots
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+related:
+  - add-useful-and-concise-figure-captions
+  - add-branding-to-screenshots
+  - screenshots-tools
 redirects: []
-
+created: 2009-03-25T05:07:01.000Z
+archivedreason: null
+guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 ---
 
 Some people communicate with a 'Wall of Text'. Communicate better by using screenshots and reduce your amount of words. 
@@ -69,3 +69,6 @@ Follow the rule [Do you add branding to screenshots?](/add-branding-to-screensho
 
 `youtube: https://www.youtube.com/embed/5TB61bqQKtE`
 **Figure: Betsy Weber Techsmith - Part 1 - Creator of Snagit. See [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)**
+
+## Do you know the best tools?
+Follow the rule [Screenshots - Do you know the best tools?](https://www.ssw.com.au/rules/edit-screenshots)
