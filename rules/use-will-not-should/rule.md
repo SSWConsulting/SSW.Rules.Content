@@ -37,5 +37,5 @@ Good example - Using present or future tense implies confidence
 :::
 
 ::: info
-This is \*not\* detected by [SSW Code Auditor]([https&#58;//www.ssw.com.au/ssw/CodeAuditor/](https://codeauditor.com/)) because it picks up false positives.
+This is \*not\* detected by [SSW Code Auditor](https://codeauditor.com) because it picks up false positives.
 :::
