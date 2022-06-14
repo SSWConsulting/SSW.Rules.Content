@@ -61,20 +61,15 @@ Here is a demo website for Flex Layout:
 * For the creation of custom Angular Material components, the CDK can be used: https://material.angular.io/cdk/categories
 * If you need additional colours for the standard 'warn', 'primary', and 'accent', you can add that into global SCSS files: 
       
+  ``` css
+  .mat-success {  color: $white !important;  background-color: $success !important;}
+  ```
 
+  Now you can do following: 
 
-```
-.mat-success {  color: $white !important;  background-color: $success !important;}
-```
-
-
-Now you can do following: 
-      
-
-
-```
-<button mat-raised-button color="success">Primary</button>
-```
+  ``` html
+  <button mat-raised-button color="success">Primary</button>
+  ```
 
 
 ### Bootstrap
