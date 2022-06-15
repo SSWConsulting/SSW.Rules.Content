@@ -14,9 +14,9 @@ Your audience cannot listen to you and read your slides at the same time. Theref
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - Too much text/content on this slide](BadText.jpg)
+![Figure: Bad Example - Too much text/content on this slide](badtext.jpg)
 :::
 
 ::: good
-![Figure: Good Example - Less is more](GoodText.jpg)
+![Figure: Good Example - Less is more](goodtext.jpg)
 :::
