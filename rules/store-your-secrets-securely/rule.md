@@ -26,7 +26,7 @@ guid: 57dc15ba-605a-4a71-8b0e-d9f1551b9fc0
 ---
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few.
 
-These secrets **must not** be stored in source control in plain text – it is insecure by nature, and basically means that it is sitting.
+These secrets **must not** be stored in source control in plain text – it is insecure by nature, and basically means that it is sitting out in the open for anyone to see.
 
 <!--endintro-->
 
