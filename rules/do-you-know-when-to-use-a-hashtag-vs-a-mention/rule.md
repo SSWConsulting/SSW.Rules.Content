@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Twitter - Do you know when to use a hashtag vs. a @mention?
+title: Twitter - Do you know when to use #hashtag vs @mention?
 guid: e738f965-78f2-44c7-8f28-805bb07a963b
 uri: do-you-know-when-to-use-a-hashtag-vs-a-mention
 created: 2014-07-04T05:49:34.0000000Z
