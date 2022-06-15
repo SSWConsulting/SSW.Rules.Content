@@ -2,7 +2,9 @@
 type: rule
 title: Do you make 'TODO' items in red?
 uri: do-you-make-todo-items-in-red
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
   - todo-tasks
 redirects: []
