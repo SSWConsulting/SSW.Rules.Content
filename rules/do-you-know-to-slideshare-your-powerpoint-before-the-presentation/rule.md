@@ -35,7 +35,6 @@ Follow these steps to ensure you get as much coverage as possible before and aft
        1. On the last slide, add a generic Slideshare link such as http://www.slideshare.net/YourAccount - E.g. http://www.Slideshare.net/SSWConsulting/
        2. On the first slide add a note that contains the version. This is so that you can compare easily what version is on SharePoint and what is on Slideshare
 
-
    ![Figure: Add the version number on the bottom right corner of your first or second slide](versionnumber.jpg)
 5. Upload to Slideshare – Make sure the title  **doesn’t** have the version number on it
 6. Go to “My uploads” and change the presentation title to have the version number
@@ -45,12 +44,6 @@ Follow these steps to ensure you get as much coverage as possible before and aft
 
 ![Figure: the SSW example of a Slideshare link slide](slidesharelink.jpg)
 
-<font color="#555555"><span style="font-size:11px;line-height:21px;"> <b><img src="YoutubeEmbedSlideShare.png" alt="YoutubeEmbedSlideShare.png" style="margin:5px;">
-</b> </span></font>
-
-::: good
-Figure: If you presentation is being recorded be sure to send yourself a reminder email to embedd the video in to the slideshare.
-
-:::
+![Figure: If you presentation is being recorded be sure to send yourself a reminder email to embedd the video in to the slideshare.](YoutubeEmbedSlideShare.png)
 
 Don't want to use slideshare? There are some other options: [https://rules.ssw.com.au/do-you-keep-your-presentations-in-a-public-location](/do-you-keep-your-presentations-in-a-public-location)
