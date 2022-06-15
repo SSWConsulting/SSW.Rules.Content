@@ -3,7 +3,9 @@ type: rule
 title: Do you have a few slides to find out a little bit about who is in your
   audience?
 uri: do-you-have-a-few-slides-to-find-out-a-little-bit-about-who-is-in-your-audience
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-06-08T09:53:47.000Z
@@ -19,8 +21,6 @@ It is best to confirm who you are speaking to via a few slides. Then you can mak
 * What is important for them
 * Interesting to them
 * Relevant to them
-
-
 
 ![Figure: Ask "How many are developers here?"](developers.jpg)
 
