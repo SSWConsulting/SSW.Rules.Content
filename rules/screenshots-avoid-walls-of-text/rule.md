@@ -9,15 +9,16 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
 related:
   - add-useful-and-concise-figure-captions
-  - add-branding-to-screenshots
+  - screenshots-add-branding
   - screenshots-tools
-redirects: []
+redirects:
+  - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.000Z
 archivedreason: null
 guid: eb02c037-0d21-4d4d-96d0-17e831611e5b
 ---
 
-Some people communicate with a 'Wall of Text'. Communicate better by using screenshots and reduce your amount of words. 
+Some people communicate with a 'Wall of Text'. Communicate better by using screenshots and reduce your amount of words.
 
 You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles). Sometimes you need only the text in the balloon and no text in the email.
 
@@ -38,7 +39,7 @@ Going further, there are ways to improve readability of your screenshots:
 :::
 
 ::: info
-See more details on [how to configure balloons branding in Fullshot and Snagit](/add-branding-to-screenshots).
+See more details on [how to configure balloons branding in Fullshot and Snagit](/screenshots-add-branding).
 :::
 
 ### Tip 2: Be aware not to overuse balloons!
@@ -56,19 +57,21 @@ See more details on [how to configure balloons branding in Fullshot and Snagit](
 :::
 
 In other words, you can use:
+
 - Plain screenshots
 - Balloons
 - Circles or boxes
-- Arrows 
+- Arrows
 
 They are all useful depending on the scenario. Be wise and try to make it as clear as possible to the reader.
 
 ### Tip 3: Add branding to screenshots
 
-Follow the rule [Do you add branding to screenshots?](/add-branding-to-screenshots)
+Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 
 `youtube: https://www.youtube.com/embed/5TB61bqQKtE`
 **Figure: Betsy Weber Techsmith - Part 1 - Creator of Snagit. See [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)**
 
 ## Do you know the best tools?
-Follow the rule [Screenshots - Do you know the best tools?](https://www.ssw.com.au/rules/edit-screenshots)
+
+Follow the rule [Screenshots - Do you know the best tools?](https://www.ssw.com.au/rules/screenshots-tools)
