@@ -13,6 +13,4 @@ Different layouts have different purposes. While the default layout is nice; it'
 
 <!--endintro-->
 
-![](layout.png)
-
-**Figure: Don't use the same layout for all slides, instead choose the right 'layout' for the each slide (this is called the layout library)**
+![Figure: Don't use the same layout for all slides, instead choose the right 'layout' for the each slide (this is called the layout library)](layout.png)
