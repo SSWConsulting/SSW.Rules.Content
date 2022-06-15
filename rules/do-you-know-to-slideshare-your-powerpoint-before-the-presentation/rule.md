@@ -1,38 +1,26 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know to Slideshare your PowerPoint (before the presentation)?
-guid: 74d7a85f-9380-4c0c-bd11-c80ad4df475a
 uri: do-you-know-to-slideshare-your-powerpoint-before-the-presentation
-created: 2010-10-22T03:28:45.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
-- title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Chris Briggs
+    url: https://ssw.com.au/people/chris-briggs
+  - title: Joanna Feely
+    url: https://ssw.com.au/people/joanna-feely
 related: []
 redirects:
-- do-you-know-to-slideshare-your-powerpoint-(before-the-presentation)
-
+  - do-you-know-to-slideshare-your-powerpoint-(before-the-presentation)
+created: 2010-10-22T03:28:45.000Z
+archivedreason: null
+guid: 74d7a85f-9380-4c0c-bd11-c80ad4df475a
 ---
-
 What is Slideshare? [Slideshare](http://www.slideshare.net/) is an online archive of presentations and other documents. It is the best way to store your training material for search engines and is easily accessible.
 
-![](FodyAsyncErrorHandlerXamarinGoogleSearch.png)
+![Figure: Slideshare ranks well in google searches](FodyAsyncErrorHandlerXamarinGoogleSearch.png)
 
-
-::: good
-Slideshare ranks well in google searches  
-:::
-
-![](FodyAsyncErrorHandlerGoogleImageSearch.png)
-
-
-::: good
-Interestingly, keyword heavy slides from your PowerPoint will rank highly on Google Image Search  
-:::
+![Figure: Interestingly, keyword heavy slides from your PowerPoint will rank highly on Google Image Search](FodyAsyncErrorHandlerGoogleImageSearch.png)
 
 Check out the slideshare shown above: '['Supercharging your Xamarin app! 3 must use libraries](http://www.slideshare.net/ChrisBriggsy/supercharging-your-xamarin-app-3-must-use-libraries)"
 
@@ -44,29 +32,24 @@ Follow these steps to ensure you get as much coverage as possible before and aft
 2. Work on your presentation from SharePoint to allow sharing.
 3. Get your content checked by a tester and a designer (See our Rule: [Do you get someone to do a 'Test Please'?](/do-you-get-your-ppt-tester-to-do-a-test-please-preferably-a-designer))
 4. Before you upload to Slideshare, add two slides:
-    1. On the last slide, add a generic Slideshare link such as http://www.slideshare.net/YourAccount - E.g. http://www.Slideshare.net/SSWConsulting/
-    2. On the first slide add a note that contains the version. This is so that you can compare easily what version is on SharePoint and what is on Slideshare
-![](version-number.jpg)**Figure: Add the version number on the bottom right corner of your first or second slide**
+       1. On the last slide, add a generic Slideshare link such as http://www.slideshare.net/YourAccount - E.g. http://www.Slideshare.net/SSWConsulting/
+       2. On the first slide add a note that contains the version. This is so that you can compare easily what version is on SharePoint and what is on Slideshare
+
+
+   ![Figure: Add the version number on the bottom right corner of your first or second slide](versionnumber.jpg)
 5. Upload to Slideshare – Make sure the title  **doesn’t** have the version number on it
 6. Go to “My uploads” and change the presentation title to have the version number
-![](version-number-slideshare.jpg)**Figure: Adding the version number to the title (after uploading) won’t affect the URL**
-7. Create a "\_OnSlideshare.txt" file with the Slideshare URL and add it to SharePoint on the same folder where the original PPT is
+   ![](version-number-slideshare.jpg)**Figure: Adding the version number to the title (after uploading) won’t affect the URL**
+7. Create a "_OnSlideshare.txt" file with the Slideshare URL and add it to SharePoint on the same folder where the original PPT is
 8. Now you can present!
-<dd class="ssw15-rteElement-FigureGood"><img class="ms-rteCustom-ImageArea" src="slideshareend.jpg" alt="" style="color:#555555;font-size:11px;font-weight:bold;line-height:20px;">
-</dd>
 
-::: good
-Figure: the SSW example of a Slideshare link slide  
-:::
-
+![Figure: the SSW example of a Slideshare link slide](slidesharelink.jpg)
 
 <font color="#555555"><span style="font-size:11px;line-height:21px;"> <b><img src="YoutubeEmbedSlideShare.png" alt="YoutubeEmbedSlideShare.png" style="margin:5px;">
 </b> </span></font>
 
-
 ::: good
 Figure: If you presentation is being recorded be sure to send yourself a reminder email to embedd the video in to the slideshare.
-
 
 :::
 
