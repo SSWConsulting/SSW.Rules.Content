@@ -22,21 +22,22 @@ redirects:
 
 **#Hashtags** are used when talking about something – a topic or keyword. Using a hashtag creates a link that leads to a page displaying an aggregated list of posts about that thing. 
 
-On the other hand,  **@Mentions** are used when talking to or about someone (the user account of a person, brand, group, etc.). The link created by a mention goes to that user account. The user is notified when they have received a mention in a post so that they can respond.
+So if it is about the topic, then the hashtag is the way to go:
+
+> Microsoft releases **#VisualStudio** 2013 Update 2
+
+On the other hand, **@Mentions** are used when talking to or about someone (the user account of a person, brand, group, etc.). The link created by a mention goes to that user account. The user is notified when they have received a mention in a post so that they can respond.
+
+So if you are talking to someone directly, or mention a specific user in your tweet, you should use the @mention: 
+
+> Thanks to **@visualstudio** for the map to Bill Gates’s house – I’m looting his safe right now!
 
 <!--endintro-->
 
 The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic.
 
-![Figure: Figure: This tweet utilises @mentions, #hashtags, and an external link, which will create higher engagement and let the reader further explore the topic](tweet-with-mentions-and-hashtags.png)  
+![Figure: This tweet utilizes @mentions, #hashtags, and a link. These will create higher engagement and let the reader further explore the topic](tweet-with-mentions-and-hashtags.png)  
  
-**Small companies:** If the brand is not big you don't need it diluted. So find the profile and use the @ not the \#. E.g. @firebootcamp is preferred over #firebootcamp
+- **Small companies:** If the brand is not big you don't need it diluted. So find the profile and use the @ not the \#. E.g. @firebootcamp is preferred over #firebootcamp
 
-**Large companies:** If the brand is big, you will see a difference between the @ and the #. So if you want to tweet about a subject that is also a username – such as #VisualStudio / @VisualStudio - then the content of your tweet will decide whether to use a hashtag or a @mention: 
-
-
-* If you are talking to someone directly, or mention a specific user in your tweet, you should use the @mention.  
-  E.g. Thanks to @visualstudio for the map to Bill Gates’s house – I’m looting his safe right now!
-
-* If it is about the topic, then the hashtag is the way to go.  
-  E.g. Microsoft releases #VisualStudio 2013 Update 2
+- **Large companies:** If the brand is big, you will see a difference between the @ and the #. So if you want to tweet about a subject that is also a username – such as #VisualStudio / @VisualStudio - then the content of your tweet will decide whether to use a hashtag or a @mention: 
