@@ -61,19 +61,19 @@ This is a &lt;figure&gt; using the class "greybox" with a &lt;div&gt; and no &lt
 #### Boxes with captions
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 ::: bad  
 Figure: Bad greybox  
 :::
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 **Figure: Normal greybox**
 
 ::: greybox  
-This is a example of a grey box  
+This is an example of a grey box  
 :::  
 ::: good  
 Figure: Good greybox  
