@@ -26,7 +26,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-![Figure: Bad example - Creating resources manually](azure resources.gif)
+![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
@@ -51,7 +51,7 @@ Some people half solve the problem by manually creating and saving the script. T
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Farmer (Bad Example)
+### Option A: Farmer (Bad example)
 
 [Farmer - Making repeatable Azure deployments easy!](https://compositionalit.github.io/farmer/)
 
