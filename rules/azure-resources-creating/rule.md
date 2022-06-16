@@ -26,7 +26,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-![Figure: Bad Example – creating resources manually](azure resources.gif)
+![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
@@ -34,7 +34,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 Some people half solve the problem by manually creating and saving the script. This is also bad because it’s like eating ice cream and brushing your teeth – it doesn’t solve the **health** problem.
 
 ::: bad
-![Figure: Bad Example – Exporting your Resource Group as an ARM template defined in JSON](create-azure-bad2.png)
+![Figure: Bad example – Exporting your Resource Group as an ARM template defined in JSON](create-azure-bad2.png)
 :::
 
 ::: bad
@@ -42,7 +42,7 @@ Some people half solve the problem by manually creating and saving the script. T
 :::
 
 ::: greybox
- **Tip:** Save scripts in a folder called Azure\
+**Tip:** Save scripts in a folder called 'Azure'.
 :::
 
 ::: good
@@ -51,7 +51,7 @@ Some people half solve the problem by manually creating and saving the script. T
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Farmer (Bad Example)
+### Option A: Farmer (Bad example)
 
 [Farmer - Making repeatable Azure deployments easy!](https://compositionalit.github.io/farmer/)
 
@@ -81,7 +81,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
 **Example Bicep files:** [Fullstack Webapp made with Bicep](https://github.com/william-liebenberg/BicepFlex)
 
 ::: good
-![Figure: Good Example - Code from the Bicep using Visual Studio Code Extension](Bicep.png)
+![Figure: Good example - Code from the Bicep using Visual Studio Code Extension](Bicep.png)
 :::
 
 ### Option C: Enterprise configuration management $$$
@@ -96,13 +96,13 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
   * It's a great tool that uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
 
 ::: good
-![Figure: Good Example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#](pulumi3.png)
+![Figure: Good example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#](pulumi3.png)
 :::
 
 ::: good
-![Figure: Good Example - From the console simply run 'pulumi up' to deploy your resources to Azure](pulumi2.png)
+![Figure: Good example - From the console simply run 'pulumi up' to deploy your resources to Azure](pulumi2.png)
 :::
 
 ::: info
-**Tip:** After you’ve made your changes, don’t forget to [visualize your new resources](/azure-resources-visualizing)
+**Tip:** After you’ve made your changes, don’t forget to [visualize your new resources](/azure-resources-visualizing).
 :::
