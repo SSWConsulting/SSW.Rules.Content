@@ -17,6 +17,7 @@ However, there are a few questions that [Azure MVP Barry Luijbregts has come up 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=ZpK_lv6HJkQ`
+**Video: How to choose which services to use in Azure | Azure Friday**
 
 There are 2 overarching questions to ask when building out Azure architecture:
 
