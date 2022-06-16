@@ -27,7 +27,7 @@ There are 2 overarching questions to ask when building out Azure architecture:
 
 Azure offers heaps of models for running your app. So, to choose the right one you need to break this question down into 3 further parts:
 
-### 1.1 How much control is needed?
+### 1.1 Control - How much is needed?
 
 There are many different levels of control that can be provided. From a VM which provides complete control over every aspect, to an out-of-the-box SaaS solution which provides very little control.
 
@@ -54,7 +54,7 @@ Keep in mind, that the more control you have, the more maintenance will be requi
 
 ![Figure: The different levels of control](control.png)
 
-### 1.2 Where do I need the app to run?
+### 1.2 Location - Where do I need the app to run?
 
 Choosing where to run your app 
 
@@ -63,7 +63,7 @@ Choosing where to run your app
 * Other Clouds e.g. AWS, Netlify, GitHub Pages
 * Hybrid
 
-### 1.3 How often does the app need to run?
+### 1.3 Frequency - How often does the app need to run?
 
 Evaluating how often an app needs to run is crucial for determining the right costing model. A website or app that needs to be available 24/7 is suited to a different model than something which is called infrequently such as a scheduled job that runs once a day.
 
@@ -80,7 +80,7 @@ There are 2 models:
 
 Azure has tonnes of ways to store data that have vastly different capabilities and costing models. So to get it right, ask 2 questions.
 
-### 2.1 What will the data be used for?
+### 2.1 Purpose - What will the data be used for?
 
 The first question is what is the purpose of the data. Data that is used for everyday apps has very different storage requirements to data that is used for complex reporting.
 
@@ -93,7 +93,7 @@ So data can be put into 2 categories:
 
   * For data analytics e.g. reporting
 
-### 2.2 What type of data is going to be stored?
+### 2.2 Structure - What type of data is going to be stored?
 
 Data comes in many shapes and forms. For example, it might have been normalized into a fixed structure or it might come with variable structure.
 
@@ -112,11 +112,11 @@ It also has a scheduled job that runs daily, picks up all the user data and puts
 
 ### Q1: The App - Where to run the app?
 
-The customer doesn't need fine tuned control but does need to configure some server settings for the website.
+**Control** - The customer doesn't need fine tuned control but does need to configure some server settings for the website.
 
-The app needs to run in Azure.
+**Location** - The app needs to run in Azure.
 
-The scheduled job runs occasionally (once a day...) while the website needs to be up all the time.
+**Frequency** - The scheduled job runs occasionally (once a day...) while the website needs to be up all the time.
 
 ### A1: The App - The best Azure services are
 
@@ -125,7 +125,9 @@ The scheduled job runs occasionally (once a day...) while the website needs to b
 
 ### Q2: Data - How to store it?
 
-The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics. The data is mostly structured except for the rich text notes and images.
+**Purpose** - The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics. 
+
+**Structure** - The data is mostly structured except for the rich text notes and images.
 
 ### A2: Data - The best Azure Services are
 
