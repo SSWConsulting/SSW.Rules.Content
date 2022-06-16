@@ -3,10 +3,10 @@ type: rule
 title: Do you know how to choose Azure services?
 uri: choose-azure-services
 authors:
-  - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2022-06-16T07:33:51.366Z
 guid: 00777476-6f6f-4bb8-b583-ca2a4a4ffbd6
 ---
