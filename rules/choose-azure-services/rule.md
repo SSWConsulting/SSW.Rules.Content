@@ -30,10 +30,17 @@ Keep in mind, that the more control you have, the more maintenance will be requi
 
 * Infrastructure as a Service (IaaS)
    * Consumer responsible for everything beyond the hardware
+
+     e.g. Azure VM, AKS
 * Platform as a Service (PaaS)
    * Consumer responsible for App configuration, building the app and server configuration
+     
+     e.g. Azure App Service
 * Logic as a Service (LaaS)
    * Consumer responsible for App configuration and building the app
+     
+     e.g. Azure Functions, Azure Logic Apps
+
 * Software as a Service (SaaS)
    * Consumer responsible for only App configuration
 
@@ -51,18 +58,9 @@ Evaluating how often an app needs to run is crucial for determining the right co
 There are 2 models:
 
 * Runs Occasionally
-   * Serverless (Pay per execution)
+   * Serverless (Pay per execution) e.g. Azure Functions, Azure Logic Apps
 * Runs all the time
-   * Classic (Pay per month)
-
-## 1.4 Examples
-These questions can be applied to any scenario, but here are some examples:
-
-### Scenario #1
-
-
-### Scenario #2
-
+   * Classic (Pay per month) e.g. Azure App Service, Azure VM, AKS
 
 # 2. How do you store your data?
 
@@ -84,8 +82,22 @@ Classify it into 2 categories:
 * Relational data e.g. a fully normalized database
 * Unstructured data e.g. document data, graph data, key/value data
 
-## 2.3 Examples
+# Example Scenario
+These questions can be applied to any scenario, but here is one example:
 
-### Scenario #1 
+Let's say you have an auctions website running a React SPA and a scheduled job that runs daily, picks up all the customer data and puts it into a database for reporting. 
 
-### Scenario #2
+## Where to run the app
+
+The customer doesn't need fine tuned control but does need to configure some server settings for the website.
+The app needs to run in Azure
+The scheduled job runs occasionally (once a day) while the website needs to be up all the time.
+
+So the best choices here might be
+* An Azure App Service for the website since it is a PaaS offering that provides server configuration and constant availability
+* An Azure function for the scheduled Job since it only runs occasionally and no server configuration is necessary
+
+## How to store the data
+
+
+
