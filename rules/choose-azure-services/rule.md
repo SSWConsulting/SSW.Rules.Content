@@ -24,11 +24,18 @@ There are 2 overarching questions to ask when building out Azure architecture:
 There are heaps of models on offer in Azure for running your app. So, to choose the right one you need to break this question down into 3 further parts:
 
 ## 1.1 How much control do I need?
+There are many different levels of control that can be provided. From a VM which provides complete control over every aspect to an out-of-the-box solution which provides very little control.
+
+Keep in mind, that the more control you have, the more maintenance will be required meaning more costs. It is crucial to find the suite spot for control vs maintenance costs, really think about if the extra control gained is actually necessary.
+
 * Infrastructure as a Service (IaaS)
-   * Infrastructure provided but 
+   * Consumer responsible for everything beyond the hardware
 * Platform as a Service (PaaS)
+   * Consumer responsible for App configuration, building the app and server configuration
 * Logic as a Service (LaaS)
+   * Consumer responsible for App configuration and building the app
 * Software as a Service (SaaS)
+   * Consumer responsible for only App configuration
 
 ## 1.2 Where do I need the app to run?
 * Azure 
