@@ -106,7 +106,7 @@ Classify it into 2 categories:
 
 These questions can be applied to any scenario, but here is one example:
 
-Let's say you have a learning management system running as a React SPA and it stores information about companies, users, learning modules, learning items. Additionally users can build up learning items with a variable amount of custom fields, images, videos, documents and other content as they want.
+Let's say you have a learning management system running as a React SPA and it stores information about companies, users, learning modules and learning items. Additionally users can build up learning items with a variable amount of custom fields, images, videos, documents and other content as they want.
 
 It also has a scheduled job that runs daily, picks up all the user data and puts it into a database for reporting. This database for reporting needs to be able to store data from many different sources and process billions of records.
 
