@@ -60,7 +60,7 @@ Choosing where to run your app
 
 * Azure 
 * On-Premises
-* Other Clouds e.g. AWS, Netlify, GitHub Pages
+* Other Platforms e.g. AWS, Netlify, GitHub Pages
 * Hybrid
 
 ### 1.3 Frequency - How often does the app need to run?
