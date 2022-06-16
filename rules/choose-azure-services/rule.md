@@ -10,9 +10,9 @@ guid: 00777476-6f6f-4bb8-b583-ca2a4a4ffbd6
 ---
 Getting application architecture right is super hard and often choosing the wrong architecture at the start of a project causes immense pain further down the line when the limitations start to become apparent.
 
-Azure has 100s of offerings and it can be hard to know what the right services are to choose for any given application.
+[Azure has 100s of offerings](https://azure.microsoft.com/services) and it can be hard to know what the right services are to choose for any given application.
 
-However, there are a few questions you can ask yourself to help narrow down the right services for each business case. 
+However, there are a few questions that [Azure MVP Barry Luijbregts has come up with](https://github.com/bmaluijb/HowIChooseMyAzureServices/blob/master/How%20I%20choose%20which%20services%20to%20use%20in%20Azure.pdf) to help narrow down the right services for each business case. 
             
 <!--endintro-->
 
