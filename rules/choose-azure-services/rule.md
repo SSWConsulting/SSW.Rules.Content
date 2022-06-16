@@ -21,13 +21,13 @@ However, there are a few questions that [Azure MVP Barry Luijbregts has come up 
 
 There are 2 overarching questions to ask when building out Azure architecture:
 
-# 1. How do you run your app?
-There are heaps of models on offer in Azure for running your app. So, to choose the right one you need to break this question down into 3 further parts:
+## 1. How do you run the app?
+Azure offers heaps of models for running your app. So, to choose the right one you need to break this question down into 3 further parts:
 
-## 1.1 How much control do I need?
-There are many different levels of control that can be provided. From a VM which provides complete control over every aspect to an out-of-the-box solution which provides very little control.
+### 1.1 How much control is needed?
+There are many different levels of control that can be provided. From a VM which provides complete control over every aspect, to an out-of-the-box SaaS solution which provides very little control.
 
-Keep in mind, that the more control you have, the more maintenance will be required meaning more costs. It is crucial to find the suite spot for control vs maintenance costs, really think about if the extra control gained is actually necessary.
+Keep in mind, that the more control you have, the more maintenance will be required meaning more costs. It is crucial to find the sweet spot for control vs maintenance costs - is the extra control gained actually necessary?
 
 * Infrastructure as a Service (IaaS)
    * Consumer responsible for everything beyond the hardware
@@ -45,7 +45,7 @@ Keep in mind, that the more control you have, the more maintenance will be requi
 * Software as a Service (SaaS)
    * Consumer responsible for only App configuration
 
-## 1.2 Where do I need the app to run?
+### 1.2 Where do I need the app to run?
 Choosing where to run your app 
 
 * Azure 
@@ -53,20 +53,20 @@ Choosing where to run your app
 * Other Clouds e.g. AWS, Netlify, GitHub Pages
 * Hybrid
 
-## 1.3 How often does the app need to run?
-Evaluating how often an app needs to run is crucial for determining the right costing model. A website or app that needs to be available 24/7 is suited to a different payment model than something which is called infrequently as a scheduled job that runs once a day.
+### 1.3 How often does the app need to run?
+Evaluating how often an app needs to run is crucial for determining the right costing model. A website or app that needs to be available 24/7 is suited to a different model than something which is called infrequently such as a scheduled job that runs once a day.
 
 There are 2 models:
 
-* Runs Occasionally
-   * Serverless (Pay per execution) e.g. Azure Functions, Azure Logic Apps
 * Runs all the time
    * Classic (Pay per month) e.g. Azure App Service, Azure VM, AKS
+* Runs Occasionally
+   * Serverless (Pay per execution) e.g. Azure Functions, Azure Logic Apps
 
-# 2. How do you store your data?
-Azure has tonnes of ways to store data that have vastly different capabilities and costing models.So to get it right, ask 2 questions
+## 2. How do you store your data?
+Azure has tonnes of ways to store data that have vastly different capabilities and costing models. So to get it right, ask 2 questions.
 
-## 2.1 What will I use the data for?
+### 2.1 What will the data be used for?
 The first question is what is the purpose of the data. Data that is used for everyday apps has very different storage requirements to data that is used for complex reporting.
 
 So data can be put into 2 categories:
@@ -76,7 +76,7 @@ So data can be put into 2 categories:
 * Online Analytical Processing (OLAP)
     * For data analytics e.g. reporting
 
-## 2.2 What type of data am I going to store?
+### 2.2 What type of data is going to be stored?
 Data comes in many shapes and forms. For example, it might have been normalized into a fixed structure or it might come with variable structure.
 
 Classify it into 2 categories:
@@ -84,29 +84,30 @@ Classify it into 2 categories:
 * Relational data e.g. a fully normalized database
 * Unstructured data e.g. document data, graph data, key/value data
 
-# Example Scenario
+## Example Scenario
 These questions can be applied to any scenario, but here is one example:
 
-Let's say you have an learning management system running as a React SPA and it stores information about companies, users, learning modules, learning items. Additionally users can upload rich text notes or images about each module as needed.
+Let's say you have a learning management system running as a React SPA and it stores information about companies, users, learning modules, learning items. Additionally users can upload rich text notes or images about each module as needed.
 
 It also has a scheduled job that runs daily, picks up all the user data and puts it into a database for reporting. This database for reporting needs to be able to store data from many different sources and process billions of records.
 
-## Where to run the app
+###  Q1: The App - Where to run the app?
 
 The customer doesn't need fine tuned control but does need to configure some server settings for the website.
-The app needs to run in Azure
-The scheduled job runs occasionally (once a day) while the website needs to be up all the time.
 
-So the best choices here might be
-* An Azure App Service for the website since it is a PaaS offering that provides server configuration and constant availability
-* An Azure function for the scheduled Job since it only runs occasionally and no server configuration is necessary
+The app needs to run in Azure.
 
-## How to store the data
+The scheduled job runs occasionally (once a day...) while the website needs to be up all the time.
+
+### A1: The App - The best Azure services are
+* An Azure App Service for the website, since it is a PaaS offering that provides server configuration and constant availability
+* An Azure function for the scheduled Job, since it only runs occasionally and no server configuration is necessary
+
+### Q2: Data - How to store it?
 
 The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics. The data is mostly structured except for the rich text notes and images.
 
-So you might use:
-
+### A2: Data - The best Azure Services are
 * Azure SQL for the main everyday usage
 * CosmosDB for the rich text notes and images
 * Azure Synapse for the data analytics
