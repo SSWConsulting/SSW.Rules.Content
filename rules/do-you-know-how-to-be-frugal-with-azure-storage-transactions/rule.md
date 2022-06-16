@@ -4,13 +4,14 @@ archivedreason:
 title: Cost - Do you know how to be frugal with Azure Storage Transactions?
 guid: 38ac2eba-4663-4e86-afb0-6bee2847d994
 uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
-created: 2012-04-23T14:23:33.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
+created: 2012-04-23T14:23:33.000Z
+archivedreason: null
+guid: 38ac2eba-4663-4e86-afb0-6bee2847d994
 ---
 
 Azure transactions are CHEAP. You get tens of thousands for just a few cents. What is dangerous though is that it is very easy to have your application generate hundreds of thousands of transactions a day. 
@@ -22,6 +23,11 @@ Every call to Windows Azure Blobs, Tables and Queues count as 1 transaction. Win
 If you are unaware of this, it can quickly add up and either burn through your free trial account, or even create a large unexpected bill.
 
 **Note:** Azure Storage Transactions do not count calls to SQL Azure.
+
+### Be aware that Azure Functions Queue and Event Hub Triggers can cause lots of transactions
+Both of these triggers can cause a lot of transactions. Typically this is controlled by the batch size you configure. What happens is that the Functions runtime needs to read and write a watermark into blob storage. This is a record of what items have been read from the Queue or Event Hub. So the bigger the batch size, the less often these records get written. If you expect your function to potentially be triggered a lot, make the batch size bigger. 
+
+Many people set the batch size to 1, which results in ~2 storage transactions per trigger, which can get expensive quite fast.
 
 ### Ensure that Diagnostics are Disabled for your web and worker roles
 
