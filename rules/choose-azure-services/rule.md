@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to narrow down which Azure service to use?
+title: Do you know how to choose Azure services?
 uri: choose-azure-services
 authors:
   - title: Adam Cogan
