@@ -52,9 +52,14 @@ There are heaps of models on offer in Azure for running your app. So, to choose 
 # 2. How do you store your data?
 
 ## 2.1 What will I use the data for?
-
+* Online Transaction Processing (OLTP)
+    * For general application usage e.g. storing customer data, invoice data, user data etc
+* Online Analytical Processing (OLAP)
+    * For data analytics e.g. reporting
 
 ## 2.2 What type of data am I going to store?
+* Relational data e.g. a fully normalized database
+* Unstructured data e.g. document data, graph data, key/value data
 
 ## 2.3 Examples
 
