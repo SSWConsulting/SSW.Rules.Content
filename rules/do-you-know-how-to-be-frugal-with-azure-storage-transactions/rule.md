@@ -1,8 +1,6 @@
 ---
 type: rule
-archivedreason: 
 title: Cost - Do you know how to be frugal with Azure Storage Transactions?
-guid: 38ac2eba-4663-4e86-afb0-6bee2847d994
 uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
 authors:
   - title: Adam Stephensen
@@ -12,6 +10,7 @@ redirects: []
 created: 2012-04-23T14:23:33.000Z
 archivedreason: null
 guid: 38ac2eba-4663-4e86-afb0-6bee2847d994
+
 ---
 
 Azure transactions are CHEAP. You get tens of thousands for just a few cents. What is dangerous though is that it is very easy to have your application generate hundreds of thousands of transactions a day. 
