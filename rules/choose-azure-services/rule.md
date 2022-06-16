@@ -47,8 +47,17 @@ There are heaps of models on offer in Azure for running your app. So, to choose 
 
 ### Scenario #1 
 
-
 ### Scenario #2
 
 # 2. How do you store your data?
 
+## 2.1 What will I use the data for?
+
+
+## 2.2 What type of data am I going to store?
+
+## 2.3 Examples
+
+### Scenario #1 
+
+### Scenario #2
