@@ -33,14 +33,14 @@ A designer will know the best way to indicate required field depending on the la
 You should combine these visual indicators with appropriate client and server side validators to make sure that your data conforms to business requirements. Adding a RequiredFieldValidator to the above textboxes gives you data validity check with minimal coding.
 
 
-``` dotnet
+``` cshtml
 <asp:Textbox runat="Server" ID="email" />
 ```
 ::: bad
 Figure: Bad example - No validator used, so the user won't know the email is required
 :::
 
-``` dotnet
+``` cshtml
 <asp:Textbox runat="Server" ID="email"/>
     
 <asp:RequiredFieldValidator runat="Server" ControlToValidate="email" ErrorMessage="Please enter an email address"
