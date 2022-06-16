@@ -106,7 +106,7 @@ Classify it into 2 categories:
 
 These questions can be applied to any scenario, but here is one example:
 
-Let's say you have a learning management system running as a React SPA and it stores information about companies, users, learning modules, learning items. Additionally users can upload rich text notes or images about each module as needed.
+Let's say you have a learning management system running as a React SPA and it stores information about companies, users, learning modules and learning items. Additionally the application administrators can build up learning items with a variable amount of custom fields, images, videos, documents and other content as they want.
 
 It also has a scheduled job that runs daily, picks up all the user data and puts it into a database for reporting. This database for reporting needs to be able to store data from many different sources and process billions of records.
 
@@ -127,10 +127,10 @@ It also has a scheduled job that runs daily, picks up all the user data and puts
 
 **Purpose** - The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics. 
 
-**Structure** - The data is mostly structured except for the rich text notes and images.
+**Structure** - The data is mostly structured except for the variable learning items.
 
 ### A2: Data - The best Azure Services are
 
 * Azure SQL for the main everyday usage
-* CosmosDB for the rich text notes and images
+* CosmosDB for the variable learning items
 * Azure Synapse for the data analytics
