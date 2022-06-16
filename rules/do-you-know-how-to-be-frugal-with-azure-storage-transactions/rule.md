@@ -1,6 +1,8 @@
 ---
 type: rule
-title: Do you know how to be frugal with Azure Storage Transactions?
+archivedreason: 
+title: Cost - Do you know how to be frugal with Azure Storage Transactions?
+guid: 38ac2eba-4663-4e86-afb0-6bee2847d994
 uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions
 authors:
   - title: Adam Stephensen
