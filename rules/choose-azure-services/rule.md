@@ -63,6 +63,7 @@ There are 2 models:
    * Classic (Pay per month) e.g. Azure App Service, Azure VM, AKS
 
 # 2. How do you store your data?
+Azure has tonnes of ways to store data that have vastly different capabilities and costing models.So to get it right, ask 2 questions
 
 ## 2.1 What will I use the data for?
 The first question is what is the purpose of the data. Data that is used for everyday apps has very different storage requirements to data that is used for complex reporting.
