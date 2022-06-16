@@ -14,12 +14,12 @@ redirects: []
 ---
 
 In SharePoint development, it is always a good practice to use LINQ, instead of CAML.
- Why CAML is bad? 
-* New language skills required for .NET developers
-* No IntelliSense or strongly typed objects
-
 
 <!--endintro-->
+
+Why CAML is bad? 
+* New language skills required for .NET developers
+* No IntelliSense or strongly typed objects
 
 Why LINQ is good?
 
@@ -28,10 +28,7 @@ Why LINQ is good?
 * SPMetal is awesome for generating entity classes
 * In the backend, LINQ provider translates as much as it can to CAML first
 
-
-
-
-```
+``` ocaml
 SPQueryquery = newSPQuery(); 
 
 query.Query= String.Format(“
@@ -56,18 +53,12 @@ query.Query= String.Format(“
 
 SPListItemCollectionlistItemsColl= resourceList.GetItems(query);
 ```
-
-
-
-
-
 ::: bad
 Figure: Bad example – using CAML  
 :::
 
 
-
-```
+``` cs
 Var resourceListItems =
 
 From SPListItem item in resourceList.Items
@@ -78,10 +69,6 @@ Where item.Tags.ToString().ToLower().Contains(_filter)
 
 OrderBy item.PostedOn Ascending
 ```
-
-
-  
-
 ::: good
 Figure: Good example – using LINQ  
 :::

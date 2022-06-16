@@ -25,11 +25,11 @@ In case the file is an image, you should insert it to the body of the email to m
 <!--endintro-->
 
 ::: bad
-![Figure: Bad Example - The image is in attachment ](EmailAttachImage_1_small.jpg)
+![Figure: Bad example - The image is in attachment](EmailAttachImage_1_small.jpg)
 :::
 
 ::: good
-![Figure: Good Example - The image is included in the context](EmailAttachImage_2.JPG)
+![Figure: Good example - The image is included in the context](EmailAttachImage_2.jpg)
 :::
 
-**Note:** Some clients make attachments because they are using OWA and you can't paste an image in - see suggestion for OWA
+**Note:** Some clients make attachments because they are using OWA and you can't paste an image in.
