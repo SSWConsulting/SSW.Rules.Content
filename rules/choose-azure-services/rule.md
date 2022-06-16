@@ -85,7 +85,9 @@ Classify it into 2 categories:
 # Example Scenario
 These questions can be applied to any scenario, but here is one example:
 
-Let's say you have an auctions website running a React SPA and a scheduled job that runs daily, picks up all the customer data and puts it into a database for reporting. 
+Let's say you have an learning management system running as a React SPA and it stores information about companies, users, learning modules, learning items. Additionally users can upload rich text notes or images about each module as needed.
+
+It also has a scheduled job that runs daily, picks up all the user data and puts it into a database for reporting. This database for reporting needs to be able to store data from many different sources and process billions of records.
 
 ## Where to run the app
 
@@ -99,5 +101,11 @@ So the best choices here might be
 
 ## How to store the data
 
+The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics. The data is mostly structured except for the rich text notes and images.
 
+So you might use:
+
+* Azure SQL for the main everyday usage
+* CosmosDB for the rich text notes and images
+* Azure Synapse for the data analytics
 
