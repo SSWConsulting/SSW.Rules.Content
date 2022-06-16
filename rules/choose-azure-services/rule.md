@@ -38,33 +38,49 @@ Keep in mind, that the more control you have, the more maintenance will be requi
    * Consumer responsible for only App configuration
 
 ## 1.2 Where do I need the app to run?
+Choosing where to run your app 
+
 * Azure 
 * On-Premises
 * Other Clouds e.g. AWS, Netlify, GitHub Pages
 * Hybrid
 
 ## 1.3 How often does the app need to run?
+Evaluating how often an app needs to run is crucial for determining the right costing model. A website or app that needs to be available 24/7 is suited to a different payment model than something which is called infrequently as a scheduled job that runs once a day.
 
-* Occasionally
+There are 2 models:
+
+* Runs Occasionally
    * Serverless (Pay per execution)
-* All the time
+* Runs all the time
    * Classic (Pay per month)
 
 ## 1.4 Examples
+These questions can be applied to any scenario, but here are some examples:
 
-### Scenario #1 
+### Scenario #1
+
 
 ### Scenario #2
+
 
 # 2. How do you store your data?
 
 ## 2.1 What will I use the data for?
+The first question is what is the purpose of the data. Data that is used for everyday apps has very different storage requirements to data that is used for complex reporting.
+
+So data can be put into 2 categories:
+
 * Online Transaction Processing (OLTP)
     * For general application usage e.g. storing customer data, invoice data, user data etc
 * Online Analytical Processing (OLAP)
     * For data analytics e.g. reporting
 
 ## 2.2 What type of data am I going to store?
+Data comes in many shapes and forms. For example, it might have been normalized into a fixed structure or it might come with variable structure.
+
+Classify it into 2 categories:
+
 * Relational data e.g. a fully normalized database
 * Unstructured data e.g. document data, graph data, key/value data
 
