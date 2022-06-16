@@ -52,6 +52,3 @@ There are heaps of models on offer in Azure for running your app. So, to choose 
 
 # 2. How do you store your data?
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
