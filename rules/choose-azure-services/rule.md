@@ -43,7 +43,7 @@ Keep in mind, that the more control you have, the more maintenance will be requi
   * Consumer responsible for App configuration, building the app and server configuration
 
     e.g. Azure App Service
-* Logic as a Service (LaaS)
+* Functions as a Service (FaaS) -- the Logic 
 
   * Consumer responsible for App configuration and building the app
 
