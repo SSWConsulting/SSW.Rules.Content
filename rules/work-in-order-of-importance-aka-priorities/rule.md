@@ -27,7 +27,8 @@ The word **"Urgent"** is more important than the word **"Important"**
 
 ### This is the order which you should work:
 
-1. **Urgent emails & PBIs/tasks** – If you see the keyword "URGENT" (or the warning ⚠️ emoji) in the subject/title/body, it automatically becomes the top priority and is to be resolved immediately.\
+1. **Urgent emails & PBIs/tasks** – If you see the keyword "URGENT" (or the warning ⚠️ emoji) in the subject/title/body, it automatically becomes the top priority and is to be resolved immediately.
+
    E.g. "URGENT ⚠️ the website is down"
 
    Note: the fire🔥emoji is no longer used because it can be misinterpreted as a good thing or a 'hot topic'
@@ -54,9 +55,9 @@ The word **"Urgent"** is more important than the word **"Important"**
 * You can use inbox subfolders to group and prioritize tasks  
 
   ::: good
-  ![Figure: Group by subfolders under your inbox](subfolders.png)\
+  ![Figure: Group by subfolders under your inbox](subfolders.png)
   :::
-* Double check - it's common that priority orders change, but clients don't always mean to, so confirm before proceeding.\
+* Double check - it's common that priority orders change, but clients don't always mean to, so confirm before proceeding.
   E.g. When someone is asking you to do a new task while you are still working on another task, then ask:
 
   ::: greybox
