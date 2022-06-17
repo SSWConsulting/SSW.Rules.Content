@@ -35,7 +35,7 @@ Let's have a look at the best way to get authorization:
 
 ### Cross-authorization
 
-We recommend having a cross-authorization system in place that follows your hierarchy. You should not be blocked by reasonable purchases (e.g. under $500).
+We recommend having a cross-authorization system in place that follows your hierarchy. You should not be blocked by reasonable purchases (e.g. under $1,000).
 
 Here is an example: Sophie works in Marketing and wants to spend $400 on an ad campaign. If she can't reach the State Manager, try another State Manager, then their boss, then other Head of department, then the Accounting department, then any senior person that sits next to her... 
 
