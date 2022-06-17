@@ -1,20 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Scrum Master - Do you schedule the 3 meetings?
-guid: 19441e59-3e96-4747-8bd9-e4607e422b81
 uri: scrum-master-do-you-schedule-the-3-meetings
-created: 2010-05-06T05:41:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Gerard Beckerleg
-  url: https://ssw.com.au/people/gerard-beckerleg
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Gerard Beckerleg
+    url: https://ssw.com.au/people/gerard-beckerleg
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related: []
 redirects: []
-
+created: 2010-05-06T05:41:54.000Z
+archivedreason: null
+guid: 19441e59-3e96-4747-8bd9-e4607e422b81
 ---
 
 The Scrum Master (not ScrumMaster), must schedule the Sprint Review, Retrospective and Planning meetings.
@@ -48,8 +47,11 @@ Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 ::: email-content  
 
 ### Hi Team,
- 
-This is a calendar appointment to hold the following three Scrum meetings:
+ * Product Owner: [Product Owner]
+ * Scrum Master: [Scrum Master]
+ * Sprint Length: xx weeks
+
+This is a calendar appointment to hold the following 3 Scrum meetings:
  
 **Sprint Review Meeting** 
 We will go through the user stories that have been completed and demonstrate them.
