@@ -29,5 +29,5 @@ It is possible to implement beautiful and complex UI designs in Xamarin.Forms, e
 
 
 ::: good  
-![Figure: Good Example - cross-platform mobile app targeting iOS and Android with a shared codebase](xamarin-platform-good.png)  
+![Figure: Good Example - a .NET MAUI cross-platform app targeting multiple platforms with a shared codebase](single-project-good.png)  
 :::
