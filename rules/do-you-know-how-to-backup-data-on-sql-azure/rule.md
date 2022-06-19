@@ -1,16 +1,15 @@
 ---
 type: rule
-archivedreason: 
-title: Cost - Do you know how to backup data on SQL Azure?
-guid: 00f5ea3f-14e4-4387-8d43-eb5f0c015b0b
+title: Do you know how to backup data on SQL Azure?
 uri: do-you-know-how-to-backup-data-on-sql-azure
-created: 2015-01-29T02:15:44.0000000Z
 authors:
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  - title: Duncan Hunter
+    url: https://ssw.com.au/people/duncan-hunter
 related: []
 redirects: []
-
+created: 2015-01-29T02:15:44.000Z
+archivedreason: null
+guid: 00f5ea3f-14e4-4387-8d43-eb5f0c015b0b
 ---
 
 Microsoft Azure SQL Database has **built-in backups** to support self-service Point in Time Restore and Geo-Restore for Basic, Standard, and Premium service tiers.
