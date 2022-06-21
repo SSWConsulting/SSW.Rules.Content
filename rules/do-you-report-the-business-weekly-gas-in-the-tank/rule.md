@@ -1,45 +1,25 @@
 ---
 type: rule
-archivedreason: 
 title: Do you maintain a Gas in the Tank report?
-guid: 918cb2c7-0026-4c9c-b3b7-6c8726327afb
 uri: do-you-report-the-business-weekly-gas-in-the-tank
-created: 2020-05-28T06:42:56.0000000Z
 authors:
-  - title: Nick Viet
-    url: https://www.ssw.com.au/people/nick-viet
+  - title: Alvin Shen
 related: []
 redirects:
-- do-you-maintain-a-gas-in-the-tank-report
-
+  - do-you-maintain-a-gas-in-the-tank-report
+created: 2020-05-28T06:42:56.000Z
+archivedreason: null
+guid: 918cb2c7-0026-4c9c-b3b7-6c8726327afb
 ---
-
 We all know the situation but never think it will happen to us. Many businesses believe they are well prepared in the event of a disaster or a downturn in business activity.
-
-
-
 
 In the unfortunate event that all your customers suddenly stop trading (meaning your income levels are reduced to zero), do you know how long you can keep the business afloat based on your cash balance, without taking any cost-cutting measures?
 
-
-
-
-
 It is recommended to keep track of your Gas in the Tank report at least every month to determine the number of weeks your business will remain afloat in the unlikely event of the above scenario.
-
-
-
-
 
 For most businesses, a good amount of cash to hold should cover approximately  **26 weeks of costs** . 
 
-
-
-
-
 ![](2020-06-23_12-23-35.png)
-
-
 
 ::: bad
 Figure: Bad Example - Only 13 weeks of cash reserves
@@ -49,8 +29,6 @@ Figure: Bad Example - Only 13 weeks of cash reserves
 The length of time which the business can survive on cash reserves is not as high as ideal. 13 weeks is not a lot of time to respond to a significant downturn of activity, assuming it was identified at the first-week activity went down. This report would have revealed the calculations and henceforth increase the business awareness and to keep the foot on the pedal.
 
 ![](2020-06-23_12-22-06.png)
-
-
 
 ::: good
 Figure: Good Example - 26 weeks of cash reserves 
@@ -62,11 +40,22 @@ Often a business can become satisfied with a few good months of positive cash fl
 
 As a result, some businesses become complacent and not realise their actual ability to stay afloat based on their cash reserves if disaster strikes.
 
-
-
-
-
 Maintaining a Gas in the Tank report will provide a visual indication and a prompt to revisit costs and additional measures in driving business activities, before it becomes a problem.
 
+
+
+**Tip: Use Fathom - an extension for XERO Accounting**
+
+You can make this report very easily with Fathom Reporting. Here is an example:
+
+![](picture1.png)
+
+**Figure: Fathom Report - The Gas in the Tank report shows the company can survive for 33 weeks**
+
+
+
+![](picture2.jpg)
+
+**Figure: Fathom has custom KPI builder which makes this easy**
 
 <!--endintro-->
