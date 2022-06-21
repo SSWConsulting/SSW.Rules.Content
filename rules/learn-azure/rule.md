@@ -16,7 +16,7 @@ Azure is a beast of a product with hundreds of services. When you start learning
             
 <!--endintro-->
 
-There are heaps of great tools out there with differing pricing models and learning styles
+There are heaps of great tools out there with differing pricing models and learning styles.
 
 ### YouTube - $0
 YouTube is a great resource for those who love audio-visual learning. It is completely free and there are heaps of industry experts providing content. Some of the best examples are:
