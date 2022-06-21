@@ -3,7 +3,7 @@ type: rule
 title: Do you maintain a Gas in the Tank report?
 uri: do-you-report-the-business-weekly-gas-in-the-tank
 authors:
-  - title: Alvin Shen
+  - title: Nick Viet
 related: []
 redirects:
   - do-you-maintain-a-gas-in-the-tank-report
