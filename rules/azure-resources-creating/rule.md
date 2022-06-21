@@ -7,7 +7,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
-related: 
+related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:
   - do-you-know-how-to-create-azure-resources
@@ -26,7 +26,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
+!\[Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
@@ -46,7 +46,7 @@ Some people half solve the problem by manually creating and saving the script. T
 :::
 
 ::: good
-![Figure: Good example - However you generate your ARM template, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
+!\[Figure: Good example - However you generate your ARM template, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
 :::
 
 So if you aren't manually creating your Azure resources, what options do you have?
@@ -55,9 +55,9 @@ So if you aren't manually creating your Azure resources, what options do you hav
 
 [Farmer - Making repeatable Azure deployments easy!](https://compositionalit.github.io/farmer/)
 
-* It makes creating ARM templates easier 
-* It's a great tool
-* Simply add a very short and readable F# project in your solution
+* IaC using F# as a strongly typed DSL
+* Generates ARM templates from F#
+* Add a very short and readable F# project in your solution
 * Tip: The F# solution of scripts should be in a folder called Azure
 
 `youtube: https://www.youtube.com/embed/8E63s2QlbhA`
@@ -74,7 +74,8 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * Awesome [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep) for VS Code to author ARM Bicep files ⭐️
 * Under the covers - Compiles into an ARM JSON template for deployment
 * Much simpler syntax than ARM JSON
-* Handles dependencies automatically
+* Handles resource dependencies automatically
+* [Private Module Registries](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell) for publishing versioned and reusable architectures
 
 **Announcement info:** [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
 
@@ -88,12 +89,12 @@ So if you aren't manually creating your Azure resources, what options do you hav
 
 The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like [Pulumi](https://www.pulumi.com) or [Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs). These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
 
-* They're both great tools
-* Both have free options for limited numbers of users
-* Pulumi is better because:
+* Both tools are great and have free tiers available
+* Paid tiers provide more benefits for larger teams and helps manage larger infrastructure solutions
+* Terraform uses HashiCorp Configuration Language HCL
+  - like YAML but much more powerful
 
-  * Terraform's proprietary ‘HCL’ (Hashicorp Configuration Language), which is as bad as YAML
-  * It's a great tool that uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
+* Pulumi uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
 
 ::: good
 ![Figure: Good example - Code from the Pulumi Azure NextGen provider demo with Azure resources defined in C#](pulumi3.png)
