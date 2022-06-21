@@ -26,7 +26,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-!\[Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
+![Figure: Bad example - Animated gif - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
@@ -46,7 +46,7 @@ Some people half solve the problem by manually creating and saving the script. T
 :::
 
 ::: good
-!\[Figure: Good example - However you generate your ARM template, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
+![Figure: Good example - However you generate your ARM template, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
 :::
 
 So if you aren't manually creating your Azure resources, what options do you have?
