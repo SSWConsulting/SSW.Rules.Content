@@ -1,24 +1,23 @@
 ---
 type: rule
-archivedreason: 
 title: Do you have an Architecture Diagram?
-guid: 356ef246-3c81-4f04-8d5e-bf10d98f0bb8
 uri: architecture-diagram
-created: 2020-08-31T18:10:45.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
-related: 
-- awesome-documentation
-- azure-resources-diagram
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+related:
+  - awesome-documentation
+  - azure-resources-diagram
 redirects:
-- have-an-architecture-diagram
-- do-you-have-an-architecture-diagram
-
+  - have-an-architecture-diagram
+  - do-you-have-an-architecture-diagram
+created: 2020-08-31T18:10:45.000Z
+archivedreason: null
+guid: 356ef246-3c81-4f04-8d5e-bf10d98f0bb8
 ---
 
 A good architecture diagram (aka a cloud architecture diagram or system architecture diagram) gives a great overview of your project. An architecture diagram lets you see at a glance what the overall structure of the solution is. This is useful for gaining an understanding of how the system fits together, how it flows, and what it does. It also helps to easily show which components can be improved due to updated or better components (or improved architectural guidelines).
@@ -173,6 +172,11 @@ Maintain standards to keep your diagrams consistent:
 
 Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs\\** folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs\\* folder). 
 Note: If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs\\** folder.
+
+### Tip 10: Use Azure Architecture Center
+
+[Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](https://www.ssw.com.au/rules/azure-architecture-center)
+
 
 ### Related links
 

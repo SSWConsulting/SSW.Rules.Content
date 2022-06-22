@@ -11,7 +11,7 @@ authors:
 - title: Tiago Araujo
   url: https://ssw.com.au/people/tiago-araujo
 related: 
-- screenshots-do-you-use-balloons-instead-of-a-wall-of-text
+- screenshots-avoid-walls-of-text
 - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
 - figures-do-you-use-the-right-html-css-code-to-add-the-useful-figure-caption
 redirects:

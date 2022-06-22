@@ -39,7 +39,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **Normal link**                                                   | [This is a normal link](/rules)                                                  | ...                     |
 | **External link ([see rule](/do-you-make-external-links-clear))** | [This is an external link](https://www.microsoft.com/)                           |                      |
 | **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/ssw/include/consulting/img/CRM_background.mp4)                                         | ![](video-file.png)                      |
-| **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ! [](audio-file.png)                   |
+| **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ![](audio-file.png)                   |
 | **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ![](calendar-icon-png.png)                     |
 | **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png)                    |
 

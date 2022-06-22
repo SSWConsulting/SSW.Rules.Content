@@ -63,10 +63,8 @@ Sometimes it can be hard to keep **generating content daily for your social medi
 
 ### 9 - General content written by your team on your website
 
-At SSW, we have many useful rules. They are our best practices that we share with everyone! \
+At SSW, we have many useful rules. They are our best practices that we share with everyone!  
 If you follow an SSW rule, then you share it on your social media too. Use **\#ssw** and **\#sswrules** so we can see it! 📲
-
-
 
 ![Figure: Even though some of your content won't have a photo, you can either take one like this, or add a relevant one from a free stock photo service](rules-v2.png)
 
@@ -96,6 +94,6 @@ When you do a major (or minor) upgrade to an application, you should let people 
 
 Whether your upgrade is to take advantage of a new feature, fix a bug, or even just to keep yourself on the latest and greatest version, your followers might want to know why you upgraded. You should put a short announcement on Twitter, Facebook, and/or LinkedIn. Your followers may not know about the changes and the ones who are grateful are likely to retweet or like your post.
 
-::: good\
-![Figure: Good Example - announcing the upgrade with a short note of the new feature](octopus_upgrade.png)\
+::: good
+![Figure: Good example - announcing the upgrade with a short note of the new feature](octopus_upgrade.png)
 :::

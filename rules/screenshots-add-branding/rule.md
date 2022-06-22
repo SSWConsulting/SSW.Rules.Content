@@ -20,7 +20,7 @@ created: 2011-04-21T02:28:41.000Z
 archivedreason: null
 guid: 0a6acd0a-43a1-42c4-ae5e-5726c5795d14
 ---
-It is great when people use screenshots. You can communicate better by using screenshots with balloons and other visual elements (arrows, shapes, and highlights) instead of only text. [Read the benefits of using screenshots](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text).
+It is great when people use screenshots. You can communicate better by using screenshots with balloons and other visual elements (arrows, shapes, and highlights) instead of only text. [Read the benefits of using screenshots](/screenshots-avoid-walls-of-text).
 
 <!--endintro-->
 
