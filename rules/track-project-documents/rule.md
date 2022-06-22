@@ -39,7 +39,7 @@ Want to learn more? Watch Jean Thirion's longer video on this topic:
 ![Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)
 :::
 
-Don't start searching from your start menu either for a program whether that be Notepad, Notepad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later.  It's easy to forget to do.
+Don't start searching from your start menu either for a program whether that be Notepad, Notepad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later - and it's easy to forget to do that.
 
 ::: bad
 ![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
@@ -48,7 +48,7 @@ Don't start searching from your start menu either for a program whether that be 
 Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
 
 ::: good
-![Figure: Good Example - You can use the files tab in Teams (without leaving the app](teams - file tab.png)
+![Figure: Good Example - You can use the files tab in Teams (without leaving the app)](teams - file tab.png)
 :::
 
 The great thing about having conversations next to the file is that it is always in context. Also, future users can view the conversation when they open the file in teams.
@@ -69,17 +69,17 @@ Behind the scenes, storage is provided by a SharePoint site; so that is there if
 
 ::: greybox
 **Note** 
-If you realise later that you have created a client document and not saved it to Teams but have uploaded it to Onedrive instead then to keep the file history you should Sync Teams to your drive and copy the file locally.  This will keep the file version history.  Uploading the file in Teams loses that history so you may end up with an old client Team containing notes that appear to be new.
+If you realise later that you have created a client document and uploaded it to OneDrive instead of saving it to Teams, then you should Sync Teams to your drive and copy the file locally.  This will keep the file version history.  Uploading the file in Teams loses that history so you may end up with an old client Team containing notes that appear to be new.
 :::
 
 ### What does not get stored in Microsoft Teams?
 
-1. **For developers**,
+**For developers**
 
-A: Code obviously belongs in GitHub, Azure DevOps, etc.
-B: Also the [7 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS)... or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
+* Code obviously belongs in GitHub, Azure DevOps, etc.
+* The [7 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
 
-2. **For designers** with large files, OneDrive is a better choice. See: [Do you know the best Source Control for Designers?](/do-you-know-the-best-source-control-for-designers)
+**For designers** with large files, OneDrive is a better choice. See: [Do you know the best Source Control for Designers?](/do-you-know-the-best-source-control-for-designers)
 
 ### What about usernames and passwords?
 
@@ -87,14 +87,15 @@ Documents with user names and passwords should not be stored in Microsoft Teams.
 
 **Note:** API keys, whether generic or for the individual should also be stored in a password manager.
 
-**Note:** You can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc.\
-This is not recommended - as they aren't first-class citizens i.e. if you want to share files from them, you need to go to the provider's sharing settings outside of Teams.
+**Note:** You can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc. This is not recommended, as they aren't first-class citizens (i.e. if you want to share files from them, you need to go to the provider's sharing settings outside of Teams).
 
+::: info
 **Warning:** By using Teams instead of SharePoint, you are losing a number of key features:
 
-* No full fidelity support for Metadata in Document Libraries e.g. can’t add extra columns into the “Files” tab
-* No support for private channels e.g. you will need a team per subset of users with different permissions
+* No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
+* No support for private channels. E.g. You will need a team per subset of users with different permissions
 * No direct access to version history from Teams UI (still exists on SharePoint UI)
-* No access to the cross-office365 Search feature e.g. SharePoint search is better (see video: https://youtu.be/TiWzzdASVWE)
-* No access to external content in the search feature e.g. can’t search rules.ssw.com.au
+* No access to the cross-office365 Search feature. E.g. SharePoint search is better ([see video](https://youtu.be/TiWzzdASVWE))
+* No access to external content in the search feature. E.g. Can’t search rules.ssw.com.au
 * No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
+:::
