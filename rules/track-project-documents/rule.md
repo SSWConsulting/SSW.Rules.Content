@@ -89,11 +89,13 @@ Documents with user names and passwords should not be stored in Microsoft Teams.
 
 **Note:** You can add other cloud storage providers for file storage e.g. Google Drive, Dropbox, etc. This is not recommended, as they aren't first-class citizens (i.e. if you want to share files from them, you need to go to the provider's sharing settings outside of Teams).
 
+::: info
 **Warning:** By using Teams instead of SharePoint, you are losing a number of key features:
 
-* No full fidelity support for Metadata in Document Libraries e.g. can’t add extra columns into the “Files” tab
-* No support for private channels, e.g. you will need a team per subset of users with different permissions
+* No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
+* No support for private channels. E.g. You will need a team per subset of users with different permissions
 * No direct access to version history from Teams UI (still exists on SharePoint UI)
-* No access to the cross-office365 Search feature e.g. SharePoint search is better (see video: https://youtu.be/TiWzzdASVWE)
-* No access to external content in the search feature e.g. can’t search rules.ssw.com.au
+* No access to the cross-office365 Search feature. E.g. SharePoint search is better ([see video](https://youtu.be/TiWzzdASVWE))
+* No access to external content in the search feature. E.g. Can’t search rules.ssw.com.au
 * No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
+:::
