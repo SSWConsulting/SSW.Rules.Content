@@ -32,7 +32,7 @@ In addition to the overarching budget, specific apps can be targeted to monitor 
 
 ::: good
 
-![Figure: Good Example - Set up budgets in every Azure subscription 😎](viewbudget.png)
+![Figure: Good Example - Budgets have been set up 😎](viewbudget.png)
 
 :::
 
