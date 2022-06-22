@@ -10,7 +10,7 @@ authors:
 created: 2022-06-22T02:31:57.025Z
 guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
-Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. In the event that costs aren't going to plan it is crucial to find out about the problem as it comes up.
+Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed.
 
 There are various cost management tools that help keep Azure costs in line.
 
