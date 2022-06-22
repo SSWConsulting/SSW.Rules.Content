@@ -25,7 +25,6 @@ index:
 - have-good-and-bad-bullet-points
 - do-you-use-a-word-document-to-record-your-audiences-questions-and-answers
 - do-you-finish-your-presentation-with-a-thank-you-slide
-- do-you-know-to-slideshare-your-powerpoint-before-the-presentation
 - do-you-keep-eye-contact-with-the-audience
 - ppt-test-please
 - do-you-keep-your-presentations-in-a-public-location
