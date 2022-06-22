@@ -20,9 +20,9 @@ There are various cost management tools that help keep Azure costs in line.
 
 Budgets are a tool that allow users to define how much money is spent on either an Azure Subscription or a specific resource group.
 
-It is critical that an overarching budget is set up for every subscription in your organization. The budget figure should define the maximum amount expected to be spent every month.
+It is critical that an overarching budget, is set up for every subscription in your organization. The budget figure should define the maximum amount expected to be spent every month.
 
-In addition to the overarching budget, specific apps can be targeted to monitor how much is being spent on them. For example, if Bob Northwind has a bet with his boss that his new app definitely won't exceed $200 per month then a budget can be set up to monitor the app to settle the bet.
+In addition to the overarching budget, specific apps can be targeted to monitor how much is being spent on them. Each time a new service is proposed, it is a good idea to have a cost conversation and create a new budget to monitor that app.
 
 ::: bad
 
