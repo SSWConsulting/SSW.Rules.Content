@@ -22,7 +22,7 @@ Budgets are a tool that allow users to define how much money is spent on either 
 
 It is critical that an overarching budget, is set up for every subscription in your organization. The budget figure should define the maximum amount expected to be spent every month.
 
-In addition to the overarching budget, specific apps can be targeted to monitor how much is being spent on them. Each time a new service is proposed, it is a good idea to have a cost conversation and create a new budget to monitor that app.
+In addition to the overarching budget, specific apps can be targeted to monitor how much is being spent on them. Each time a new service is proposed, it is a good idea to have a cost conversation. Remember to jump into Azure and create a new budget to monitor that app.
 
 ::: bad
 
