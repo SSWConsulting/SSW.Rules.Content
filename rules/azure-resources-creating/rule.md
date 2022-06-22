@@ -46,12 +46,12 @@ Some people half solve the problem by manually creating and saving the script. T
 :::
 
 ::: good
-![Figure: Good example - However you generate your ARM template, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
+![Figure: Good example - Author your ARM templates, save it in an Azure folder like this example (SSW TimePro)](azure folder1.png)
 :::
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Farmer (Bad example)
+### Option A: Farmer
 
 [Farmer - Making repeatable Azure deployments easy!](https://compositionalit.github.io/farmer/)
 
@@ -82,7 +82,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
 **Example Bicep files:** [Fullstack Webapp made with Bicep](https://github.com/william-liebenberg/BicepFlex)
 
 ::: good
-![Figure: Good example - Code from the Bicep using Visual Studio Code Extension](Bicep.png)
+![Figure: Good example - Author your own Bicep templates in Visual Studio Code using the Bicep Extension](Bicep.png)
 :::
 
 ### Option C: Enterprise configuration management $$$
