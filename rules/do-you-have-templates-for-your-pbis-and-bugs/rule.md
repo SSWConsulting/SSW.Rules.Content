@@ -18,23 +18,23 @@ Often bugs are hard to reproduce because they are inconsistently described, and 
 ![](templates for pbis and bugs - bad example.png)
 
 ::: bad
-Figure: Bad Example – This new bug template doesn’t make it obvious how the team likes their steps to repro\
+Figure: Bad Example – This new bug template doesn’t make it obvious how the team likes their steps to repro
 :::
 
 ![](templates for pbis and bugs - good example.png)
 
 ::: good
-Figure: Good Example – This new bug template guides the user to fill in the steps to repro in an ordered list and even prompts them to fill in what they expected to happen (and what actually happened)\
+Figure: Good Example – This new bug template guides the user to fill in the steps to repro in an ordered list and even prompts them to fill in what they expected to happen (and what actually happened)
 :::
 
 Setting this up is pretty easy.
 
-1. First you need to customise the template for a work item type !\[](templates for pbis and bugs - customise.png)Figure: Customising a bug work item
+1. First you need to customise the template for a work item type ![](templates for pbis and bugs - customise.png)Figure: Customising a bug work item
 2. Choose the form control to edit
 
 Figure: Customising a bug work item form</dd>
 
-3. Choose the form control to edit !\[](templates for pbis and bugs - customise default value.png)**Figure: Set the default value for the Repro Steps field (tip: use HTML)**
+3. Choose the form control to edit ![](templates for pbis and bugs - customise default value.png)**Figure: Set the default value for the Repro Steps field (tip: use HTML)**
 4. Save Template
 
 Sample Template:
