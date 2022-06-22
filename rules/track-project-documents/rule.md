@@ -36,35 +36,35 @@ Want to learn more? Watch Jean Thirion's longer video on this topic:
 `youtube: https://www.youtube.com/embed/Mna0QBFB6CU`
 
 ::: bad
-!\[Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)
+![Figure: Bad Example - You shouldn't look for files on network shares](teams - network share.png)
 :::
 
 Don't start searching from your start menu either for a program whether that be Notepad, Notepad++, OneNote or even Word.  This will open the new file locally on your laptop which requires manual copying/sharing later - and it's easy to forget to do that.
 
 ::: bad
-!\[Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
+![Figure: Bad Example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
 :::
 
 Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
 
 ::: good
-!\[Figure: Good Example - You can use the files tab in Teams (without leaving the app)](teams - file tab.png)
+![Figure: Good Example - You can use the files tab in Teams (without leaving the app)](teams - file tab.png)
 :::
 
 The great thing about having conversations next to the file is that it is always in context. Also, future users can view the conversation when they open the file in teams.
 
 ::: good
-!\[Figure: Good Example - You can have a conversation about a file](teams - document conversation.png)
+![Figure: Good Example - You can have a conversation about a file](teams - document conversation.png)
 :::
 
 Behind the scenes, storage is provided by a SharePoint site; so that is there if you want to use it. As an added bonus thanks to this; you can [take the files offline by syncing with OneDrive for Business](/sync-files-from-teams-to-file-explorer) and by default each channel gets its own folder.
 
 ::: good
-!\[Figure: Good Example - You can open the files in SharePoint](teams - open sharepoint.png)
+![Figure: Good Example - You can open the files in SharePoint](teams - open sharepoint.png)
 :::
 
 ::: good
-!\[Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced](teams - sync onedrive.png)
+![Figure: Good Example - You can sync the files in SharePoint with your current machine through OneDrive. A toast notification should popup indicating that files will be synced](teams - sync onedrive.png)
 :::
 
 ::: greybox
