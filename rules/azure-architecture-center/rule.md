@@ -17,6 +17,8 @@ related:
 created: 2022-02-17T02:13:56.672Z
 guid: 80f8f6e4-c332-4852-aef9-d2f7696b4a5a
 ---
+In a Specification Review you should include a diagram - see [SSW.Rules | Do you have an Architecture Diagram?](https://www.ssw.com.au/rules/architecture-diagram)
+
 Azure Architecture Center (https://docs.microsoft.com/en-us/azure/architecture/
 ) is a one stop shop for all things Azure Architecture. It’s got a library of reference implementations to get you started. Lots of information on best practices from the big decisions you need to make down to the little details that can make a huge difference to how your application behaves.
 
