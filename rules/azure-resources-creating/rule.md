@@ -51,7 +51,7 @@ Some people half solve the problem by manually creating and saving the script. T
 
 So if you aren't manually creating your Azure resources, what options do you have?
 
-### Option A: Farmer (Bad example)
+### Option A: Farmer
 
 [Farmer - Making repeatable Azure deployments easy!](https://compositionalit.github.io/farmer/)
 
