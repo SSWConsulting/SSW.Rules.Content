@@ -1,6 +1,6 @@
 ---
 type: rule
-title: PC - Do you do organize your hard disk?
+title: PC - Do you organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk
 authors:
   - title: Kaique Biancatti
@@ -11,7 +11,6 @@ redirects:
 created: 2018-06-04T02:06:32.000Z
 archivedreason: null
 guid: 0b99ae80-634b-47db-9a7b-b6d3763361f3
-
 ---
 
 Using a standard file structure for storing user data on laptops makes locating the important information fast and performing automated backup operations easy - Use this checklist.
