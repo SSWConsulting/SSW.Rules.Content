@@ -32,9 +32,9 @@ Generally, every time you log in on a service, it will ask for your normal passw
 
 It is best practice to apply MFA to your Administrators first, as their accounts are the most important on the company and have access to all resources, and your users second, which still benefits from added security.
 
-:::bad
+:::ok
 
-![Figure: Bad example - SMS is less secure than other methods](mfa-sms.png)
+![Figure: OK example - SMS is less secure than other methods](mfa-sms.png)
 
 :::
 
