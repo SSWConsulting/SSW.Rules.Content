@@ -16,7 +16,7 @@ Your phone can provide a second factor either through an installed authenticator
 
 We are now seeing biometric security using facial recognition, fingerprints, or in more advanced scenarios palm-vein scanning (and plenty of others too). While biometrics offer convenience and reduce our reliance on passwords, they usually replace username and password altogether (although rely on accounts that use them behind the scenes), rather than providing an additional factor (e.g., username + password + fingerprint).
 
-Nearly any service you use now will support MFA, either through an authenticator app, SMS or even email if you have no other option. **Ensure that it is enabled for everything you use.**
+Nearly any service you use now will support MFA, either through an authenticator app, SMS or even email if you have no other option. **Ensure that it is enabled for everything you use.**  
 
 :::ok
 
