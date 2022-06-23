@@ -12,10 +12,20 @@ The best protection you can provide for your password is to not solely rely on i
 
 <!--endintro-->
 
-Your phone can provide a second factor either through an installed authenticator app, or by receiving an SMS with a one-time password.
+Your phone can provide a second factor either through an installed authenticator app, or by receiving an SMS with a one-time password. Authenticator apps are recommended, as they are more secure than SMS.
 
 We are now seeing biometric security using facial recognition, fingerprints, or in more advanced scenarios palm-vein scanning (and plenty of others too). While biometrics offer convenience and reduce our reliance on passwords, they usually replace username and password altogether (although rely on accounts that use them behind the scenes), rather than providing an additional factor (e.g., username + password + fingerprint).
 
 Nearly any service you use now will support MFA, either through an authenticator app, SMS or even email if you have no other option. **Ensure that it is enabled for everything you use.**
 
+:::ok
+
+![OK example: SMS is less secure than other methods](mfa-sms.png)
+
+:::
+
+:::good
+
 ![Figure: Microsoft's Authenticator app in action](microsoft-authenticator-steps.gif)
+
+:::
