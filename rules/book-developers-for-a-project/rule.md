@@ -17,7 +17,8 @@ guid: 30fa45f9-d065-4f87-ba96-4ad52ae4468b
 ---
 It is the responsibility of Account Managers to book developers for known client work, however anyone can book a developer, including the developer themselves. Also if a developer notices they should be booked, but there's nothing in their calendar, and they can't figure out the below, as a minimum they should ask the Account Manager to book them.
 
-::: greybox
+::: greybox  
+
 **The Rule of the 3 T's**
 
 Before booking developers, make sure you talk to them and check that they are cool with:
@@ -25,13 +26,18 @@ Before booking developers, make sure you talk to them and check that they are co
 * The Time - how long is the project?
 * The Tech - what skills are required?
 * The Team - who will they be working with?
-  :::
+
+:::
 
 To see which developers are available for booking:
 
+::: ok
 ![Figure: OK Example - Using the Service Calendar, you can see who is and is not available at a given time](servicecalendarcrmonlineversion.png)
+:::
 
+::: good
 ![Figure: Good Example - Build a Power BI report to show the CRM data more succinctly](bookedindays.png)
+:::
 
 There are a few different ways of booking developers for project work, either via Outlook or the browser.
 
