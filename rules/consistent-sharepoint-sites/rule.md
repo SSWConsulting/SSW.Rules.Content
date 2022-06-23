@@ -27,7 +27,7 @@ Following these simple rules makes this really easy:
 2. Keep the headings consistent
 3. Use icons for each type of link, so users easily know what to expect when clicking on a link (E.g. A Microsoft Word document is going to open a Word document) Aldo, a link to "Home" looks the same on every page.
 
-### Navigation consistency
+### Navigation consistency between pages
 
 ::: bad
 ![Figure: Bad example - The page on the left has totally different navigation to the page on the right](inconsistent1.png)
@@ -37,12 +37,12 @@ Following these simple rules makes this really easy:
 ![Figure: Good example - Both pages looking consistent - common navigation elements in the same spot](consistent.png)
 :::
 
-### Headings and icons consistency
+### Headings and icons consistency within a page
 
 ::: bad
-![Figure: Bad example - The headings are different, and there are no icons to help users](inconsistent2.png)
+![Figure: Bad example - There are no icons to help users on the left navigation + the headings are the different](inconsistent2.png)
 :::
 
 ::: good
-![Figure: Good example - The headings are the same, and icons help users to know what files each link open. Also have team members are at the top](navigation-with-webpart.png)
+![Figure: Good example - Icons help users to know what files each link open on the left navigation + the headings are the same](navigation-with-webpart.png)
 :::
