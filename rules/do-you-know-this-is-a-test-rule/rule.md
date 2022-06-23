@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Induction Task - Do you know this is a test rule?
-uri: do-you-know-this-is-a-test-rule
+uri: test-rule
 authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes
