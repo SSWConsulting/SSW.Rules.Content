@@ -25,11 +25,13 @@ Before booking developers, make sure you talk to them and check that they are co
 * The Time - how long is the project?
 * The Tech - what skills are required?
 * The Team - who will they be working with?
-:::
+  :::
 
-To book a developer:
+To see which developers are available for booking:
 
-![Figure: Using the Service Calendar, you can see who is and is not available at a given time](servicecalendarcrmonlineversion.png)
+![Figure: OK Example - Using the Service Calendar, you can see who is and is not available at a given time](servicecalendarcrmonlineversion.png)
+
+![Figure: Good Example - Build a Power BI report to show the CRM data more succinctly](bookedindays.png)
 
 There are a few different ways of booking developers for project work, either via Outlook or the browser.
 
