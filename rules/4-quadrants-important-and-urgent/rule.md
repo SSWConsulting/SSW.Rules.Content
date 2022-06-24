@@ -2,6 +2,7 @@
 type: rule
 title: Priorities - Do you know the 4 quadrants about important and urgent tasks?
 uri: 4-quadrants-important-and-urgent
+image: 6c8cb7ca-9c7b-4365-aa43-19181e0369fe_1_105_c.jpeg
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
@@ -15,6 +16,8 @@ There is a well-known quadrant where people look at where they spend their time.
 <!--endintro-->
 
 ![Figure: The decision-making 4 quadrants](7_habits_decision-making_matrix.png)
+
+![](6c8cb7ca-9c7b-4365-aa43-19181e0369fe_1_105_c.jpeg)
 
 **Image:** Davidjcmorris, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
 
