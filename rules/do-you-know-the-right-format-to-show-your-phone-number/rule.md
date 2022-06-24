@@ -29,6 +29,10 @@ OK example: +1 (503) 629-4000 (don't need brackets)
 Good example: +1 503 629 4000 (do need spaces)
 :::
 
+::: info
 
+Note:
 
-Note: In Australia, mobile numbers are in the format +61 4XX XXX XXX
+In Australia, mobile numbers are in the format +61 4XX XXX XXX
+
+In China, mobile numbers are in the format +86 1XX XXXX XXXX
