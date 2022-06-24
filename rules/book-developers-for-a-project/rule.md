@@ -32,7 +32,7 @@ Before booking developers, make sure you talk to them and check that they are co
 To see which developers are available for booking:
 
 ::: ok
-![Figure: OK Example - Using the Service Calendar, you can see who is and is not available at a given time](servicecalendarcrmonlineversion.png)
+![Figure: OK Example - Using the Service Calendar, you can see who is and is not available at a given time](Service-Calendar-CRM-Online-Version-Blurred.png)
 :::
 
 ::: good
