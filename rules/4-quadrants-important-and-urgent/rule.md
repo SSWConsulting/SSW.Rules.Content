@@ -2,6 +2,8 @@
 type: rule
 title: Priorities - Do you know the 4 quadrants about important and urgent tasks?
 uri: 4-quadrants-important-and-urgent
+imageList:
+  - image: screen-shot-2022-06-21-at-4.40.26-pm.png
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
@@ -13,6 +15,10 @@ Most people do the urgent stuff and then have less time for the important stuff.
 There is a well-known quadrant where people look at where they spend their time. The key is to reduce burning time on 'urgent and not important' stuff (e.g. most notifications on your phone and most Teams calls) and spend time on the important stuff that is not urgent (e.g. stuff at the top of our backlog).
 
 <!--endintro-->
+
+![Figure: Yes](screen-shot-2022-06-21-at-4.40.26-pm.png)
+
+
 
 ![Figure: The decision-making 4 quadrants](7_habits_decision-making_matrix.png)
 
