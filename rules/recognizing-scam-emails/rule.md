@@ -5,6 +5,10 @@ uri: recognizing-scam-emails
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+  - title: Warwick Leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
+  - title: Prem Radhakrishnan
+    url: https://www.ssw.com.au/people/prem-radhakrishnan
 created: 2022-03-17T05:39:07.720Z
 guid: ef89a713-c51d-45e0-8c14-2ca010eec387
 ---
@@ -73,3 +77,9 @@ If you have any reason to suspect any strange activity in your account, check yo
 - - -
 
 ![Figure: Some URLs are harder to identify because of a safelink service](hard-to-catch-safelink.png)
+
+### Tip #8: Subscribe to the Australian Cyber Security Centre's (ACSC) alert service
+
+The Australian Cyber Security Centre (ACSC) leads the Australian Government's efforts to improve cyber security.  They monitor cyber threats across the globe 24 hours a day, seven days a week so they can alert Australians of cyber threats.
+
+Visit <https://www.cyber.gov.au/acsc/register> and register to receive alerts for the latest cyber threats.
