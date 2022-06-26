@@ -22,7 +22,7 @@ To ensure everyone is on the same page, you can create a mission statement that 
 
 <!--endintro-->
 
-A good mission statement can help in three main ways:
+A good mission statement can help in 3 main ways:
 
 * It provides an outline of how the marketing plan should seek to fulfill your overall goals/mission
 * It provides a means of evaluating and screening your marketing plan; e.g. are your daily marketing decisions consistent with the overall mission
