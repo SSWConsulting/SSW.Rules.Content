@@ -29,7 +29,7 @@ In case the file is an image, you should insert it to the body of the email to m
 :::
 
 ::: good
-![Figure: Good example - The image is included in the context](EmailAttachImage_2.jpg)
+![Figure: Good example - The image is included in the context](EmailAttachImage_2.JPG)
 :::
 
 **Note:** Some clients make attachments because they are using OWA and you can't paste an image in.
