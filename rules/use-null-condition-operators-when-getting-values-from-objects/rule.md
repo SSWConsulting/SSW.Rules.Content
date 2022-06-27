@@ -20,30 +20,17 @@ Null-conditional operators - makes checking for null as easy as inserting a sing
 
 <!--endintro-->
 
-
-
-```
+``` cs
 int length = customer != null && customer.name != null ? customer.name.length : 0;
 ```
-
-
-
-
 ::: bad
-Figure: Bad Example - Verbose and complex code checking for nulls
-
+Figure: Bad example - Verbose and complex code checking for nulls
 :::
 
 
-
-```
+``` cs
 int length = customers?.name?.length ?? 0;
 ```
-
-
-
-
 ::: good
-Figure: Good Example - Robust and easier to read code
-
+Figure: Good example - Robust and easier to read code
 :::
